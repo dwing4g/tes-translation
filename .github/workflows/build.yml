@@ -54,6 +54,7 @@ jobs:
           file: "./*.esp"
           draft: false
       - name: Rollback release
+        if: failure()
         uses: author/action-rollback@stable
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
