@@ -48,13 +48,12 @@ jobs:
         env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          release-id: ${{ needs.prepare_release.outputs.release_id }}
+          release_id: ${{ needs.prepare_release.outputs.release_id }}
           file: "./*.esp"
           draft: false
       - name: Rollback release
-        if: failure() && inputs.release-id != '' && inputs.github-token != ''
         uses: author/action-rollback@stable
         env:
             GITHUB_TOKEN: ${{ inputs.github-token }}
         with:
-          release_id: ${{ inputs.release-id }}
+          release_id: ${{ needs.prepare_release.outputs.release_id }}
