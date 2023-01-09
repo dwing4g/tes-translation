@@ -56,6 +56,6 @@ jobs:
       - name: Rollback release
         uses: author/action-rollback@stable
         env:
-            GITHUB_TOKEN: ${{ inputs.github-token }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release_id: ${{ needs.prepare_release.outputs.release_id }}
