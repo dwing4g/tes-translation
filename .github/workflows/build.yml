@@ -42,9 +42,6 @@ jobs:
       - name: Generate ESP files
         shell: bash
         run: |
-          pwd
-          ls
-          cd ./tes3-chinese-translation
           ./generate.sh
       - name: Upload
         if: inputs.release-id != '' && inputs.github-token != ''
