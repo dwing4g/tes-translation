@@ -34,10 +34,14 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Install and cache packages
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: luajit
+          version: 1.0
       - name: Generate ESP files
         shell: bash
         run: |
-          apt install -y luajit
           cd ./tes3-chinese-translation
           ./generate.sh
       - name: Upload
