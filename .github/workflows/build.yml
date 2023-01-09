@@ -49,7 +49,7 @@ jobs:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           release-id: ${{ needs.prepare_release.outputs.release_id }}
-          file: "./tes3-chinese-translation/*.esp"
+          file: "./*.esp"
           draft: false
       - name: Rollback release
         if: failure() && inputs.release-id != '' && inputs.github-token != ''
