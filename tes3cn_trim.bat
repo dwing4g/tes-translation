@@ -2,6 +2,14 @@
 setlocal
 pushd %~dp0
 
+rem luajit tes3trim.lua Morrowind.txt > Morrowind.txt.new
+rem luajit tes3trim.lua Tribunal.txt  > Tribunal.txt.new
+rem luajit tes3trim.lua Bloodmoon.txt > Bloodmoon.txt.new
+
+rem move /y Morrowind.txt.new Morrowind.txt
+rem move /y Tribunal.txt.new  Tribunal.txt
+rem move /y Bloodmoon.txt.new Bloodmoon.txt
+
 @echo on
 
 luajit tes3trim.lua tes3cn_Morrowind.txt > tes3cn_Morrowind.txt.new
