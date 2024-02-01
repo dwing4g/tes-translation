@@ -25,7 +25,7 @@ if ENCODING == "1252" then --TODO: 0x92 0xA0 0xE0 0xE1 0xE9 0xF3 used in TR_Main
 		if n == 0 and #s > 0 then return end
 		for i = 1, n do
 			local c = byte(s, i)
-			if c >= 0x7f and c ~= 0x93 and c ~= 0x94 and c ~= 0xad and c ~= 0xef and c ~= 0xfa then return end -- “”­ïú used in official english Morrowind.esm
+			if c >= 0x7f and c ~= 0x92 and c ~= 0x93 and c ~= 0x94 and c ~= 0xad and c ~= 0xef and c ~= 0xfa then return end -- ’“”­ïú used in official english Morrowind.esm
 			if c < 0x20 and c ~= 9 and c ~= 10 and c ~= 13 then	return end
 		end
 		return true
@@ -40,7 +40,7 @@ if ENCODING == "1252" then --TODO: 0x92 0xA0 0xE0 0xE1 0xE9 0xF3 used in TR_Main
 				if c >= 0x20 or c == 9 then e = 1 -- \t
 				elseif c == 13 and i < n and byte(s, i + 1) == 10 then e = 2 -- \r\n
 				end
-			elseif c == 0x93 or c == 0x94 or c == 0xad or c == 0xef or c == 0xfa then e = 1 -- “”­ïú used in official english Morrowind.esm
+			-- elseif c == 0x92 or c == 0x93 or c == 0x94 or c == 0xad or c == 0xef or c == 0xfa then e = 1 -- ’“”­ïú used in official english Morrowind.esm
 			end
 			if e == 0 then
 				if b < i then t[#t + 1] = sub(s, b, i - 1) end
@@ -261,17 +261,17 @@ ACTI: 697+346+202              -> 697   NAME -> FNAM       地点名
 ALCH: 258+2+6                  -> 258   NAME -> FNAM       药水名
 APPA: 22+5+0                   -> 22    NAME -> FNAM       炼金器材名
 ARMO: 280+79+96                -> 280   NAME -> FNAM       重甲盾牌名
-BOOK: 574+44+49       -> 574   -> 574   NAME -> FNAM,TEXT  书籍
+BOOK: 574+44+49       -> 574   -> 574   NAME -> FNAM,TEXT  书籍标题,书籍内容
 BSGN: 13                       -> 13    NAME -> FNAM       星座名
 CELL: 2538+276+121             -> 2538  NAME -> NAME       地区名
-CLAS: 77+1+5          -> 77    -> 77    NAME -> FNAM,DESC  职业
+CLAS: 77+1+5          -> 77    -> 77    NAME -> FNAM,DESC  职业名,职业描述
 CLOT: 510+42+31                -> 510   NAME -> FNAM       轻甲饰品名
 CONT: 890+133+104              -> 890   NAME -> FNAM       场景物品名
 CREA: 260+75+97                -> 260   NAME -> FNAM       战斗NPC名
 DIAL: 2358+860+893    -> 4053  -> 2354  NAME -> NAME(部分) 关键词
 DOOR: 140+95+87                -> 139   NAME -> FNAM       传送门名
 ENCH: 708+42+46                -> 708   NAME -> ????       ????
-FACT: 22+2+3                   -> 22    NAME -> FNAM       家族名
+FACT: 22+2+3                   -> 22    NAME -> FNAM,RNAM  家族名,家族成员名
 GMST: 1449+102+101    -> 1220  -> 1521  NAME -> STRV       全局字符串,界面文字(PNAM,NNAM->NAME)
 INFO: 23693+6504+6757 -> 23690 -> 23692 INAM -> NAME       普通对话
 INGR: 95+26+12                 -> 95    NAME -> FNAM       炼金材料名
@@ -281,7 +281,7 @@ MGEF: 137+4+1         -> 137   -> 137   INDX -> DESC       魔法效果描述
 MISC: 536+76+55                -> 536   NAME -> FNAM       杂项物品名
 NPC_: 2675+215+159             -> 2675  NAME -> FNAM       NPC名
 PROB: 6                        -> 6     NAME -> FNAM       侦测器名
-RACE: 10              -> 10    -> 10    NAME -> FNAM,DESC  种族
+RACE: 10              -> 10    -> 10    NAME -> FNAM,DESC  种族名,种族描述
 REGN: 9+6+1                    -> 9     NAME -> FNAM       区域名
 REPA: 6+4+0                    -> 6     NAME -> FNAM       修理锤名
 SCPT: 632+336+263     -> 182   -> 632   SCHD -> SCTX       脚本

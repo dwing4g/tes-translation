@@ -1612,7 +1612,7 @@ endif
 
 End BMFrostDaedraScript"
 -SCPT
- SCPT.SCHD "BMStartUpScript$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00ï$04$00$00$00$00$00$00"
+ SCPT.SCHD "BMStartUpScript$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$EF$04$00$00$00$00$00$00"
  SCPT.SCDT [1B 10 0F 77 65 72 65 43 68 65 63 6B 53 63 72 69 70 74 1B 10 0F 62 6C 6F 6F 64 6D 6F 6F 6E 53 63 72 69 70 74 06 01 01 17 20 58 CD 10 20 64 0B 54 52 5F 44 42 41 74 74 61 63 6B 20 3C 20 33 30 1B 10 0B 64 62 46 69 78 53 63 72 69 70 74 09 01 06 01 0B 11 20 58 CD 10 20 64 05 43 4F 5F 31 31 20 3C 20 36 30 06 01 09 13 20 47 0B 43 6F 6C 6F 6E 79 53 74 61 74 65 20 3C 20 32 30 06 01 01 14 20 47 0C 67 72 61 74 69 61 6E 67 75 61 72 64 20 3D 3D 20 30 0C 01 17 47 72 61 74 69 61 6E 20 43 61 65 72 65 6C 6C 69 75 73 5F 67 75 61 72 DB 10 09 01 06 01 01 11 20 47 09 61 66 65 72 67 75 61 72 64 20 3D 3D 20 30 0C 01 12 41 66 65 72 20 46 6C 61 63 63 75 73 5F 67 75 61 72 64 DB 10 09 01 06 01 01 13 20 47 0B 67 61 72 6E 61 73 67 75 61 72 64 20 3D 3D 20 30 0C 01 13 47 61 72 6E 61 73 20 55 76 61 6C 65 6E 5F 67 75 61 72 64 DB 10 09 01 09 01 09 01 06 01 02 18 20 58 CD 10 20 64 0C 42 4D 5F 53 6D 75 67 67 6C 65 72 73 20 3C 20 31 30 0C 01 0C 67 61 65 61 20 61 72 74 6F 72 69 61 DB 10 0C 01 0D 73 61 65 6E 75 73 20 6C 75 73 69 75 73 DB 10 09 01 06 01 03 18 20 58 CD 10 20 64 0C 42 4D 5F 42 65 61 72 68 75 6E 74 31 20 3C 20 31 30 0C 01 0F 72 6F 6C 66 20 6C 6F 6E 67 2D 74 6F 6F 74 68 DB 10 0C 01 0F 73 61 74 74 69 72 20 74 68 65 20 62 6F 6C 64 DB 10 0C 01 0F 67 72 65 72 69 64 20 61 78 65 2D 77 69 66 65 DB 10 09 01 06 01 05 18 20 58 CD 10 20 64 0C 42 4D 5F 53 6D 75 67 67 6C 65 72 73 20 3C 20 31 30 0C 01 0B 6D 75 73 20 72 6F 73 63 69 75 73 DB 10 0C 01 06 73 6F 72 69 61 6E DB 10 0C 01 0C 6D 6F 6C 20 67 72 6F 2D 73 68 61 74 DB 10 0C 01 0E 6D 61 7A 6F 72 6E 20 67 72 6F 2D 67 61 72 DB 10 0C 01 12 67 75 61 6C 74 69 65 72 75 73 20 73 70 75 72 69 75 73 DB 10 09 01 06 01 03 15 20 58 CD 10 20 64 08 42 4D 5F 54 72 65 65 73 20 3C 20 31 30 30 0C 01 0E 41 63 74 5F 42 4D 5F 74 72 65 65 5F 30 31 DB 10 0C 01 0E 41 63 74 5F 42 4D 5F 74 72 65 65 5F 30 32 DB 10 0C 01 0E 41 63 74 5F 42 4D 5F 74 72 65 65 5F 30 33 DB 10 09 01 06 01 04 17 20 58 CD 10 20 64 0B 42 4D 5F 57 69 6C 64 48 75 6E 74 20 3C 20 38 35 0C 01 15 42 4D 5F 68 69 72 63 69 6E 65 5F 68 75 6E 74 61 73 70 65 63 74 DB 10 0C 01 14 42 4D 5F 68 69 72 63 69 6E 65 5F 73 74 72 61 73 70 65 63 74 DB 10 0C 01 14 42 4D 5F 68 69 72 63 69 6E 65 5F 73 70 64 61 73 70 65 63 74 DB 10 0C 01 0B 42 4D 5F 68 69 72 63 69 6E 65 32 DB 10 09 01 06 01 01 18 20 58 CD 10 20 64 0B 42 4D 5F 57 69 6C 64 48 75 6E 74 20 3C 20 31 30 30 0C 01 17 62 6D 5F 65 78 5F 69 63 65 62 65 72 67 5F 63 6F 6C 6C 61 70 73 65 64 DB 10 09 01 06 01 06 15 20 58 CD 10 20 64 09 42 4D 5F 53 74 6F 6E 65 73 20 3C 20 31 30 0C 01 11 61 63 74 5F 42 4D 5F 77 69 6E 64 5F 70 61 72 74 73 DB 10 0C 01 12 61 63 74 5F 42 4D 5F 65 61 72 74 68 5F 70 61 72 74 73 DB 10 0C 01 12 61 63 74 5F 42 4D 5F 77 61 74 65 72 5F 70 61 72 74 73 DB 10 0C 01 12 61 63 74 5F 42 4D 5F 62 65 61 73 74 5F 70 61 72 74 73 DB 10 0C 01 10 61 63 74 5F 42 4D 5F 73 75 6E 5F 70 61 72 74 73 DB 10 0C 01 11 61 63 74 5F 42 4D 5F 74 72 65 65 5F 70 61 72 74 73 DB 10 09 01 0C 01 0F 41 63 74 5F 42 4D 5F 73 74 65 61 6D 5F 30 31 DB 10 0C 01 0F 41 63 74 5F 42 4D 5F 73 74 65 61 6D 5F 30 32 DB 10 0C 01 0F 41 63 74 5F 42 4D 5F 73 74 65 61 6D 5F 30 33 DB 10 0C 01 0F 41 63 74 5F 42 4D 5F 73 74 65 61 6D 5F 30 34 DB 10 0C 01 0F 41 63 74 5F 42 4D 5F 73 74 65 61 6D 5F 30 35 DB 10 0C 01 0F 41 63 74 5F 42 4D 5F 73 74 65 61 6D 5F 30 36 DB 10 06 01 03 14 20 58 CD 10 20 64 08 42 4D 5F 54 72 69 61 6C 20 3C 20 37 30 0C 01 11 42 4D 5F 77 6F 6C 66 5F 63 61 65 6E 6C 6F 72 6E 31 DB 10 0C 01 11 42 4D 5F 77 6F 6C 66 5F 63 61 65 6E 6C 6F 72 6E 32 DB 10 0C 01 11 42 4D 5F 77 6F 6C 66 5F 63 61 65 6E 6C 6F 72 6E 33 DB 10 09 01 06 01 01 1A 20 58 CD 10 20 64 0E 42 4D 5F 46 72 6F 73 74 47 69 61 6E 74 32 20 3C 20 31 30 0C 01 17 62 6D 5F 65 78 5F 6B 61 72 73 74 61 61 67 5F 64 6F 6F 72 6F 70 65 6E DB 10 09 01 1C 10 0F 42 4D 53 74 61 72 74 55 70 53 63 72 69 70 74 01 01]
  SCPT.SCTX "Begin BMStartUpScript
 
@@ -2401,7 +2401,7 @@ endif
 
 end Colony_first_boat"
 -SCPT
- SCPT.SCHD "ColonyAenar$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$0D$00$00$00$00$00$00$00$00$00$00$00“$00$00$00r$00$00$00"
+ SCPT.SCHD "ColonyAenar$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$0D$00$00$00$00$00$00$00$00$00$00$00$93$00$00$00r$00$00$00"
  SCPT.SCVR [4F 6E 50 43 48 69 74 4D 65 00 73 63 75 69 72 61 73 73 00 73 67 72 65 61 76 65 73 00 73 6C 70 61 75 6C 64 00 73 72 70 61 75 6C 64 00 73 6C 62 72 61 63 65 72 00 73 72 62 72 61 63 65 72 00 73 62 6F 6F 74 73 00 73 68 65 6C 6D 00 62 75 73 79 00 63 75 72 72 65 6E 74 64 61 79 00 6C 6F 63 61 6C 64 61 79 73 70 61 73 73 65 64 00 6E 6F 6C 6F 72 65 00]
  SCPT.SCDT [06 01 04 09 20 73 0A 00 20 3D 3D 20 31 06 01 02 0F 20 73 0B 00 20 21 3D 20 47 04 44 61 79 00 00 05 01 73 0B 00 08 20 47 04 44 61 79 00 00 05 01 73 0C 00 08 20 73 0C 00 20 31 20 2B 09 01 09 01 06 01 04 09 20 73 01 00 20 3D 3D 20 31 0C 01 05 68 69 64 61 72 00 11 00 00 C8 42 0C 01 05 68 69 64 61 72 19 10 06 50 6C 61 79 65 72 0C 01 07 67 72 61 72 69 6E 67 00 11 00 00 C8 42 0C 01 07 67 72 61 72 69 6E 67 19 10 06 50 6C 61 79 65 72 09 01 01 01]
  SCPT.SCTX "Begin ColonyAenar
@@ -3902,7 +3902,7 @@ endif
 
 End"
 -SCPT
- SCPT.SCHD "ColonyHidar$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$0A$00$00$00$00$00$00$00$00$00$00$00“$00$00$00X$00$00$00"
+ SCPT.SCHD "ColonyHidar$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$0A$00$00$00$00$00$00$00$00$00$00$00$93$00$00$00X$00$00$00"
  SCPT.SCVR [4F 6E 50 43 48 69 74 4D 65 00 73 5F 61 78 65 00 73 5F 77 61 72 61 78 65 00 73 5F 64 61 67 67 65 72 00 73 5F 73 77 6F 72 64 00 73 5F 6D 61 63 65 00 6C 6F 63 61 6C 64 61 79 73 70 61 73 73 65 64 00 63 75 72 72 65 6E 74 64 61 79 00 62 75 73 79 00 6E 6F 6C 6F 72 65 00]
  SCPT.SCDT [06 01 04 09 20 73 09 00 20 3D 3D 20 31 06 01 02 0F 20 73 08 00 20 21 3D 20 47 04 44 61 79 00 00 05 01 73 08 00 08 20 47 04 44 61 79 00 00 05 01 73 07 00 08 20 73 07 00 20 31 20 2B 09 01 09 01 06 01 04 09 20 73 01 00 20 3D 3D 20 31 0C 01 07 67 72 61 72 69 6E 67 00 11 00 00 C8 42 0C 01 07 67 72 61 72 69 6E 67 19 10 06 50 6C 61 79 65 72 0C 01 05 61 65 6E 61 72 00 11 00 00 C8 42 0C 01 05 61 65 6E 61 72 19 10 06 50 6C 61 79 65 72 09 01 01 01]
  SCPT.SCTX "Begin ColonyHidar
@@ -8523,7 +8523,7 @@ End
 
 "
 -SCPT
- SCPT.SCHD "IngmarTeleport$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00“$00$00$00$00$00$00$00"
+ SCPT.SCHD "IngmarTeleport$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$93$00$00$00$00$00$00$00"
  SCPT.SCDT [06 01 03 27 20 58 12 11 20 63 1B 53 6F 6C 73 74 68 65 69 6D 2C 20 56 61 6C 62 72 61 6E 64 72 20 42 61 72 72 6F 77 20 3D 3D 20 30 05 10 00 00 F2 C2 00 00 E2 43 00 00 6C C3 00 00 00 00 1D 53 6B 61 61 6C 20 56 69 6C 6C 61 67 65 2C 20 49 6E 67 6D 61 72 27 73 20 48 6F 75 73 65 F9 10 00 00 00 44 00 00 00 00 00 00 00 00 08 00 14 00 14 00 00 00 00 00 00 00 00 00 00 00 00 00 02 1C 10 0E 49 6E 67 6D 61 72 54 65 6C 65 70 6F 72 74 09 01 09 01 01 01]
  SCPT.SCTX "Begin IngmarTeleport
  
@@ -12313,7 +12313,7 @@ endif
 
 End stoneTreesScript"
 -SCPT
- SCPT.SCHD "stoneUlfgarScript$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00ú$00$00$00$00$00$00$00"
+ SCPT.SCHD "stoneUlfgarScript$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$FA$00$00$00$00$00$00$00"
  SCPT.SCDT [06 01 01 09 20 58 20 10 20 3D 3D 20 31 24 01 09 01 06 01 01 1A 20 58 CD 10 20 64 0E 42 4D 5F 42 72 6F 64 69 72 47 72 6F 76 65 20 3C 20 39 30 DB 10 09 01 06 01 01 1B 20 58 CD 10 20 64 0E 42 4D 5F 42 72 6F 64 69 72 47 72 6F 76 65 20 3E 3D 20 39 30 DA 10 09 01 06 01 01 1A 20 58 CD 10 20 64 0E 42 4D 5F 42 72 6F 64 69 72 47 72 6F 76 65 20 3C 20 39 30 24 01 09 01 06 01 04 09 20 58 18 10 20 3D 3D 20 31 06 01 02 1B 20 58 CD 10 20 64 0E 42 4D 5F 42 72 6F 64 69 72 47 72 6F 76 65 20 3E 3D 20 31 30 23 11 0C 73 74 6F 6E 65 5F 75 6C 66 67 61 72 06 50 6C 61 79 65 72 00 10 34 00 59 6F 75 20 68 61 76 65 20 62 65 65 6E 20 67 72 61 6E 74 65 64 20 74 68 65 20 67 69 66 74 20 6F 66 20 55 6C 66 67 61 72 27 73 20 73 74 72 65 6E 67 74 68 2E 00 00 09 01 09 01 01 01]
  SCPT.SCTX "Begin stoneUlfgarScript
 
@@ -13336,7 +13336,7 @@ endif
 
 End trackerScript"
 -SCPT
- SCPT.SCHD "tracksound1Script$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$00$00$00$00”$00$00$00$07$00$00$00"
+ SCPT.SCHD "tracksound1Script$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$00$00$00$00$94$00$00$00$07$00$00$00"
  SCPT.SCVR "doOnce$00"
  SCPT.SCDT [06 01 08 1D 20 72 12 61 63 74 69 76 65 5F 42 4D 5F 74 72 61 63 6B 65 72 31 73 02 00 20 3D 3D 20 31 06 01 06 1D 20 72 12 61 63 74 69 76 65 5F 42 4D 5F 74 72 61 63 6B 65 72 31 73 04 00 20 3D 3D 20 31 06 01 04 1E 20 72 12 61 63 74 69 76 65 5F 42 4D 5F 74 72 61 63 6B 65 72 31 73 01 00 20 3D 3D 20 31 30 06 01 02 09 20 73 01 00 20 3D 3D 20 30 02 10 0E 42 4D 20 4E 6F 72 64 20 41 74 74 61 63 6B 05 01 73 01 00 02 20 31 09 01 09 01 09 01 09 01 01 01]
  SCPT.SCTX "Begin tracksound1Script
@@ -13361,7 +13361,7 @@ endif
 
 End tracksound1Script"
 -SCPT
- SCPT.SCHD "tracksound2Script$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$00$00$00$00”$00$00$00$07$00$00$00"
+ SCPT.SCHD "tracksound2Script$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$00$00$00$00$94$00$00$00$07$00$00$00"
  SCPT.SCVR "doOnce$00"
  SCPT.SCDT [06 01 08 1D 20 72 12 61 63 74 69 76 65 5F 42 4D 5F 74 72 61 63 6B 65 72 31 73 03 00 20 3D 3D 20 31 06 01 06 1D 20 72 12 61 63 74 69 76 65 5F 42 4D 5F 74 72 61 63 6B 65 72 31 73 04 00 20 3D 3D 20 31 06 01 04 1E 20 72 12 61 63 74 69 76 65 5F 42 4D 5F 74 72 61 63 6B 65 72 31 73 01 00 20 3D 3D 20 34 30 06 01 02 09 20 73 01 00 20 3D 3D 20 30 02 10 0E 42 4D 20 4E 6F 72 64 20 41 74 74 61 63 6B 05 01 73 01 00 02 20 31 09 01 09 01 09 01 09 01 01 01]
  SCPT.SCTX "Begin tracksound2Script
@@ -14775,7 +14775,7 @@ endif
 
 End wereeffectScript"
 -SCPT
- SCPT.SCHD "werehungerScript$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$06$00$00$00“$01$00$00<$00$00$00"
+ SCPT.SCHD "werehungerScript$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$06$00$00$00$93$01$00$00<$00$00$00"
  SCPT.SCVR [69 6D 61 77 65 72 65 00 63 75 72 68 65 61 6C 74 68 00 6E 65 78 74 68 6F 75 72 00 63 75 72 68 6F 75 72 00 6E 65 77 68 65 61 6C 74 68 00 72 65 73 65 74 00 72 65 61 6C 74 69 6D 65 00]
  SCPT.SCDT [06 01 01 09 20 73 01 00 20 3D 3D 20 30 24 01 09 01 0C 01 06 70 6C 61 79 65 72 06 01 00 09 20 58 B5 11 20 3D 3D 20 30 09 01 06 01 01 10 20 47 08 47 61 6D 65 48 6F 75 72 20 3C 20 31 30 05 01 66 06 00 10 20 47 08 47 61 6D 65 48 6F 75 72 20 32 34 20 2B 07 01 01 05 01 66 06 00 0C 20 47 08 47 61 6D 65 48 6F 75 72 00 09 01 06 01 01 0C 20 66 03 00 20 3D 3D 20 66 06 00 00 24 01 09 01 06 01 01 0B 20 66 02 00 20 3E 20 66 06 00 00 24 01 09 01 06 01 02 09 20 66 05 00 20 3D 3D 20 30 05 01 66 05 00 08 20 66 06 00 20 31 20 2B 00 10 3B 00 54 68 65 20 62 65 61 73 74 20 77 69 74 68 69 6E 20 79 6F 75 20 68 75 6E 67 65 72 73 20 66 6F 72 20 66 6C 65 73 68 2E 20 59 6F 75 20 6D 75 73 74 20 66 65 65 64 20 73 6F 6F 6E 2E 00 00 09 01 06 01 01 0B 20 66 05 00 20 3E 20 66 06 00 00 24 01 09 01 05 01 66 03 00 05 20 66 06 00 00 05 01 66 02 00 08 20 66 03 00 20 31 20 2B 0C 01 06 70 6C 61 79 65 72 05 01 66 01 00 05 20 58 8C 10 00 05 01 66 04 00 0C 20 66 01 00 20 2D 30 2E 32 33 20 2A 0C 01 06 70 6C 61 79 65 72 32 11 66 04 00 00 00 10 3B 00 59 6F 75 72 20 6C 75 73 74 20 66 6F 72 20 62 6C 6F 6F 64 20 73 61 70 73 20 79 6F 75 72 20 73 74 72 65 6E 67 74 68 2E 20 59 6F 75 20 6D 75 73 74 20 66 65 65 64 20 73 6F 6F 6E 2E 00 00 01 01]
  SCPT.SCTX "Begin werehungerScript
@@ -16340,24 +16340,24 @@ Date: 7 Frost Fall, 3E 397<BR>
 <BR>
 It seemed as if the palace had always housed the Atrius Building Commission, the company of clerks and estate agents who authored and notarized nearly every construction of any note in the Empire.  It had stood for two hundred and fifty years, since the reign of the Emperor Magnus, a plain-fronted and austere hall on a minor but respectable plaza in the Imperial City.  Energetic and ambitious middle-class lads and ladies worked there, as well as complacent middle-aged ones like Decumus Scotti.  No one could imagine a world without the Commission, least of all Scotti.  To be accurate, he could not imagine a world without himself in the Commission.<BR>
 <BR>
-“Lord Atrius is perfectly aware of your contributions,” said the managing clerk, closing the shutter that demarcated Scotti's office behind him. “But you know that things have been difficult.”<BR>
+$93Lord Atrius is perfectly aware of your contributions,$94 said the managing clerk, closing the shutter that demarcated Scotti's office behind him. $93But you know that things have been difficult.$94<BR>
 <BR>
-“Yes,” said Scotti, stiffly.<BR>
+$93Yes,$94 said Scotti, stiffly.<BR>
 <BR>
-“Lord Vanech's men have been giving us a lot of competition lately, and we must be more efficient if we are to survive.  Unfortunately, that means releasing some of our historically best but presently underachieving senior clerks.”<BR>
+$93Lord Vanech's men have been giving us a lot of competition lately, and we must be more efficient if we are to survive.  Unfortunately, that means releasing some of our historically best but presently underachieving senior clerks.$94<BR>
 <BR>
-“I understand.  Can't be helped.”<BR>
+$93I understand.  Can't be helped.$94<BR>
 <BR>
-“I'm glad that you understand,” smiled the managing clerk, smiling thinly and withdrawing. “Please have your room cleared immediately.”<BR>
+$93I'm glad that you understand,$94 smiled the managing clerk, smiling thinly and withdrawing. $93Please have your room cleared immediately.$94<BR>
 <BR>
 Scotti began the task of organizing all his work to pass on to his successor.  It would probably be young Imbrallius who would take most of it on, which was as it should be, he considered philosophically.  The lad knew how to find business.  Scotti wondered idly what the fellow would do with the contracts for the new statue of St Alessia for which the Temple of the One had applied.  Probably invent a clerical error, blame it on his old predecessor Decumus Scotti, and require an additional cost to rectify.<BR>
 <BR>
-“I have correspondence for Decumus Scotti of the Atrius Building Commission.”<BR>
+$93I have correspondence for Decumus Scotti of the Atrius Building Commission.$94<BR>
 <BR>
 Scotti looked up.  A fat-faced courier had entered his office and was thrusting forth a sealed scroll.  He handed the boy a gold piece, and opened it up.  By the poor penmanship, atrocious spelling and grammar, and overall unprofessional tone, it was manifestly evident who the writer was.  Liodes Jurus, a fellow clerk some years before, who had left the Commission after being accused of unethical business practices.  <BR>
 <BR>
 <FONT COLOR=""640F0F"" SIZE=""3"" FACE=""Magic Cards""><BR>
-“Dear Sckotti,<BR>
+$93Dear Sckotti,<BR>
 <BR>
 <BR>
 I emagine you alway wondered what happened to me, and the last plase you would have expected to find me is out in the woods.  But thats exactly where I am.  Ha ha.  If your'e smart and want to make lot of extra gold for Lord Atrius (and yourself, ha ha), youll come down to Vallinwood too.  If you have'nt or have been following the politics hear lately, you may or may not know that ther's bin a war between the Boshmer and there neighbors Elswere over the past two years.  Things have only just calm down, and ther's a lot that needs to be rebuilt.<BR>
@@ -16369,66 +16369,66 @@ Now Ive got more business than I can handel, but I need somone with some clout, 
 <BR>
 -- Jurus<BR>
 <BR>
-P.S.: Bring a wagenload of timber if you can.”<BR>
+P.S.: Bring a wagenload of timber if you can.$94<BR>
 <BR>
 <FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-“What do you have there, Scotti?” asked a voice.<BR>
+$93What do you have there, Scotti?$94 asked a voice.<BR>
 <BR>
 Scotti started.  It was Imbrallius, his damnably handsome face peeking through the shutters, smiling in that way that melted the hearts of the stingiest of patrons and the roughest of stonemasons.  Scotti shoved the letter in his jacket pocket.<BR>
 <BR>
-“Personal correspondence,” he sniffed. “I'll be cleared up here in a just a moment.”<BR>
+$93Personal correspondence,$94 he sniffed. $93I'll be cleared up here in a just a moment.$94<BR>
 <BR>
-“I don't want to hurry you,” said Imbrallius, grabbing a few sheets of blank contracts from Scotti's desk. “I've just gone through a stack, and the junior scribes hands are all cramping up, so I thought you wouldn't miss a few.”<BR>
+$93I don't want to hurry you,$94 said Imbrallius, grabbing a few sheets of blank contracts from Scotti's desk. $93I've just gone through a stack, and the junior scribes hands are all cramping up, so I thought you wouldn't miss a few.$94<BR>
 <BR>
 The lad vanished.  Scotti retrieved the letter and read it again.  He thought about his life, something he rarely did.  It seemed a sea of gray with a black insurmountable wall looming.  There was only one narrow passage he could see in that wall.  Quickly, before he had a moment to reconsider it, he grabbed a dozen of the blank contracts with the shimmering gold leaf ATRIUS BUILDING COMMISSION BY APPOINTMENT OF HIS IMPERIAL MAJESTY and hid them in the satchel with his personal effects.<BR>
 <BR>
 The next day he began his adventure with a giddy lack of hesitation.   He arranged for a seat in a caravan bound for Valenwood, the single escorted conveyance to the southeast leaving the Imperial City that week.  He had scarcely hours to pack, but he remembered to purchase a wagonload of timber.<BR>
 <BR>
-“It will be extra gold to pay for a horse to pull that,” frowned the convoy head.<BR>
+$93It will be extra gold to pay for a horse to pull that,$94 frowned the convoy head.<BR>
 <BR>
-“So I anticipated,” smiled Scotti with his best Imbrallius grin.<BR>
+$93So I anticipated,$94 smiled Scotti with his best Imbrallius grin.<BR>
 <BR>
 Ten wagons in all set off that afternoon through the familiar Cyrodilic countryside.  Past fields of wildflowers, gently rolling woodlands, friendly hamlets.  The clop of the horses' hooves against the sound stone road reminded Scotti that the Atrius Building Commission constructed it.  Five of the eighteen necessary contracts for its completion were drafted by his own hand.<BR>
 <BR>
-“Very smart of you to bring that wood along,” said a gray-whiskered Breton man next to him on his wagon. “You must be in Commerce.”<BR>
+$93Very smart of you to bring that wood along,$94 said a gray-whiskered Breton man next to him on his wagon. $93You must be in Commerce.$94<BR>
 <BR>
-“Of a sort,” said Scotti, in a way he hoped was mysterious, before introducing himself: “Decumus Scotti.”<BR>
+$93Of a sort,$94 said Scotti, in a way he hoped was mysterious, before introducing himself: $93Decumus Scotti.$94<BR>
 <BR>
-“Gryf Mallon,” said the man.  “I'm a poet, actually a translator of old Bosmer literature.  I was researching some newly discovered tracts of the Mnoriad Pley Bar two years ago when the war broke out and I had to leave.  You are no doubt familiar with the Mnoriad, if you're aware of the Green Pact.”<BR>
+$93Gryf Mallon,$94 said the man.  $93I'm a poet, actually a translator of old Bosmer literature.  I was researching some newly discovered tracts of the Mnoriad Pley Bar two years ago when the war broke out and I had to leave.  You are no doubt familiar with the Mnoriad, if you're aware of the Green Pact.$94<BR>
 <BR>
 Scotti thought the man might be speaking perfect gibberish, but he nodded his head.<BR>
 <BR>
-“Naturally, I don't pretend that the Mnoriad is as renowned as the Meh Ayleidion, or as ancient as the Dansir Gol, but I think it has a remarkable significance to understanding the nature of the merelithic Bosmer mind.  The origin of the Wood Elf aversion to cutting their own wood or eating any plant material at all, yet paradoxically their willingness to import plantstuff from other cultures, I feel can be linked to a passage in the Mnoriad,” Mallon shuffled through some of his papers, searching for the appropriate text.<BR>
+$93Naturally, I don't pretend that the Mnoriad is as renowned as the Meh Ayleidion, or as ancient as the Dansir Gol, but I think it has a remarkable significance to understanding the nature of the merelithic Bosmer mind.  The origin of the Wood Elf aversion to cutting their own wood or eating any plant material at all, yet paradoxically their willingness to import plantstuff from other cultures, I feel can be linked to a passage in the Mnoriad,$94 Mallon shuffled through some of his papers, searching for the appropriate text.<BR>
 <BR>
 To Scotti's vast relief, the carriage soon stopped to camp for the night.  They were high on a bluff over a gray stream, and before them was the great valley of Valenwood.  Only the cry of seabirds declared the presence of the ocean to the bay to the west: here the timber was so tall and wide, twisting around itself like an impossible knot begun eons ago, to be impenetrable.  A few more modest trees, only fifty feet to the lowest branches, stood on the cliff at the edge of camp.   The sight was so alien to Scotti and he found himself so anxious about the proposition of entering the wilderness that he could not imagine sleeping.<BR>
 <BR>
 Fortunately, Mallon had supposed he had found another academic with a passion for the riddles of ancient cultures.  Long into the night, he recited Bosmer verse in the original and in his own translation, sobbing and bellowing and whispering wherever appropriate.  Gradually, Scotti began to feel drowsy, but a sudden crack of wood snapping made him sit straight up.<BR>
 <BR>
-“What was that?”<BR>
+$93What was that?$94<BR>
 <BR>
-Mallon smiled: “I like it too. 'Convocation in the malignity of the moonless speculum, a dance of fire --'”<BR>
+Mallon smiled: $93I like it too. 'Convocation in the malignity of the moonless speculum, a dance of fire --'$94<BR>
 <BR>
-“There are some enormous birds up in the trees moving around,” whispered Scotti, pointing in the direction of the dark shapes above.<BR>
+$93There are some enormous birds up in the trees moving around,$94 whispered Scotti, pointing in the direction of the dark shapes above.<BR>
 <BR>
-“I wouldn't worry about that,” said Mallon, irritated with his audience. “Now listen to how the poet characterizes Herma-Mora's invocation in the eighteenth stanza of the fourth book.”<BR>
+$93I wouldn't worry about that,$94 said Mallon, irritated with his audience. $93Now listen to how the poet characterizes Herma-Mora's invocation in the eighteenth stanza of the fourth book.$94<BR>
 <BR>
 The dark shapes in the trees were some of them perched like birds, others slithered like snakes, and still others stood up straight like men.  As Mallon recited his verse, Scotti watched the figures softly leap from branch to branch, half-gliding across impossible distances for anything without wings.  They gathered in groups and then reorganized until they had spread to every tree around the camp.  Suddenly they plummeted from the heights.<BR>
 <BR>
-“Mara!” cried Scotti. “They're falling like rain!”<BR>
+$93Mara!$94 cried Scotti. $93They're falling like rain!$94<BR>
 <BR>
-“Probably seed pods,” Mallon shrugged, not turning around. “Some of the trees have remarkable --”<BR>
+$93Probably seed pods,$94 Mallon shrugged, not turning around. $93Some of the trees have remarkable --$94<BR>
 <BR>
 The camp erupted into chaos.  Fires burst out in the wagons, the horses wailed from mortal blows, casks of wine, fresh water, and liquor gushed their contents to the ground.  A nimble shadow dashed past Scotti and Mallon, gathering sacks of grain and gold with impossible agility and grace.  Scotti had only one glance at it, lit up by a sudden nearby burst of flame.  It was a sleek creature with pointed ears, wide yellow eyes, mottled pied fur and a tail like a whip.<BR>
 <BR>
-“Werewolf,” he whimpered, shrinking back.<BR>
+$93Werewolf,$94 he whimpered, shrinking back.<BR>
 <BR>
-“Cathay-raht,” groaned Mallon. “Much worse.  Khajiti cousins or some such thing, come to plunder.”<BR>
+$93Cathay-raht,$94 groaned Mallon. $93Much worse.  Khajiti cousins or some such thing, come to plunder.$94<BR>
 <BR>
-“Are you sure?”<BR>
+$93Are you sure?$94<BR>
 <BR>
 As quickly as they struck, the creatures retreated, diving off the bluff before the battlemage and knight, the caravan's escorts, had fully opened their eyes.  Mallon and Scotti ran to the precipice and saw a hundred feet below the tiny figures dash out of the water, shake themselves, and disappear into the wood.<BR>
 <BR>
-“Werewolves aren't acrobats like that,” said Mallon. “They were definitely Cathay-raht.  Bastard thieves.  Thank Stendarr they didn't realize the value of my notebooks.  It wasn't a complete loss.”<BR>
+$93Werewolves aren't acrobats like that,$94 said Mallon. $93They were definitely Cathay-raht.  Bastard thieves.  Thank Stendarr they didn't realize the value of my notebooks.  It wasn't a complete loss.$94<BR>
 "
 -MISC
  MISC.NAME "misc_com_bottle_01$00"
@@ -23018,7 +23018,7 @@ Death.  It is something we all face.  Or do we?
 <br>
 Just ask the nearest Nord what he thinks of the end of life, and you'll likely be treated to a horrific story of blood, bone and viscera, of courageous deeds and heartbreaking sorrow.  Carnage notwithstanding, there may be even more to death than the average Nord warrior realizes.  New evidence suggests a life beyond the battlefield, where a valiant Nord may live forever, downing mead and engaging in contests of strength and skill.  But in order to fully understand the possibility of a Nord's eternal life after death, one must first reexamine the legends surrounding that most wondrous of warrior's retreats -- Sovngarde.
 <br>
-According to the ancient writings and oral traditions of the Nords, going back as far as the Late Merethic Era, there exists a place so magnificent, so honored, that the entrance lies hidden from view.  Sovngarde, it is called, built by the god Shor to honor those Nords who have proven their mettle in war.  Within this “Hall of Valor” time as we know it has no meaning.  The concepts of life and death are left on the doorstep, and those within exist in a sort of self-contained euphoria, free of pain, suffering and the worst malady a Nord could suffer -- boredom.  
+According to the ancient writings and oral traditions of the Nords, going back as far as the Late Merethic Era, there exists a place so magnificent, so honored, that the entrance lies hidden from view.  Sovngarde, it is called, built by the god Shor to honor those Nords who have proven their mettle in war.  Within this $93Hall of Valor$94 time as we know it has no meaning.  The concepts of life and death are left on the doorstep, and those within exist in a sort of self-contained euphoria, free of pain, suffering and the worst malady a Nord could suffer -- boredom.  
 <br>
 But just how well hidden the entrance to Sovngarde is has been a matter of much scholarly debate, and there are those who believe Shor's great hall is just a myth, for there are no actual accounts from Nords who have experienced the wonders of Sovngarde then returned to tell the tale. Not that this has stopped anyone from looking.  Some Nords spend a lifetime searching for the mysterious hidden entrance to Sovngarde.  Most return home sad and broken, their hearts heavy with failure.  They'll never know the pleasure of a mead flagon that never empties, or a wrestling tournament without end.
 <br>
