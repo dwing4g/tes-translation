@@ -71,7 +71,7 @@ local function loadTxt(fn)
 					if not v then
 						error("ERROR: bad line at line " .. i .. " in '" .. fn .. "'")
 					end
-					v = v .. "\n" .. line
+					v = v .. "\r\n" .. line
 				end
 			end
 		end
@@ -164,20 +164,20 @@ local function extTxt(en)
 			local tt = t[tag .. ".SCTX"]
 			local i = 0
 			kk, vv = {}, {}
-			for line in tt:gmatch "[Aa]dd[Tt]opic[%s,]+(.-)[\r\n]" do
+			for line in tt:gmatch "[Aa]dd[Tt]opic[%s,]+(.-)\n" do
 				local str = line:match "\"(.-)\""
 				i = i + 1
 				kk[i] = p .. i
 				vv[i] = str
 			end
-			for line in tt:gmatch "[Mm]essage[Bb]ox[%s,]+(.-)[\r\n]" do
+			for line in tt:gmatch "[Mm]essage[Bb]ox[%s,]+(.-)\n" do
 				for str in line:gmatch "\"(.-)\"" do
 					i = i + 1
 					kk[i] = p .. i
 					vv[i] = str
 				end
 			end
-			for line in tt:gmatch "[Ss]ay[%s,]+(.-)[\r\n]" do
+			for line in tt:gmatch "[Ss]ay[%s,]+(.-)\n" do
 				local j = false
 				for str in line:gmatch "\"(.-)\"" do
 					if j then -- skip first filename
@@ -203,9 +203,13 @@ local function extTxt(en)
 end
 
 local function escape(s)
-	s = s:gsub('\\', '\\\\'):gsub('"', '\\"')
+	if s:find '"""' then
+		error('ERROR: found """ in string: ' .. s .. "'")
+	end
 	if s:find "\n" then
-		s = '"' .. s .. '"'
+		s = '"""' .. s .. '"""'
+	elseif s == "" then
+		s = '""""""'
 	end
 	return s
 end
