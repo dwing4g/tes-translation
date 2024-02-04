@@ -245,7 +245,7 @@ local function readInt4(limit)
 end
 
 local stringTags = {
-	"NAME", "SCHD", "SCTX", "TEXT",
+	"NAME", "SCHD", "SCTX", "TEXT", "RNAM"
 }
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
