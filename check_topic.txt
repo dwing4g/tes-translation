@@ -36,3 +36,12 @@ luajit tes3enc.lua tes3cn_Bloodmoon_fix.txt tes3cn_Bloodmoon_fix.esp
 3. 如果mod增加关键词, 需要补充topics.txt
 4. tes3dec和tes3enc是万能的esm/esp处理工具, 转化为纯文本文件, 方便修改, 包括汉化
    目前支持上古卷轴3/4/5,辐射3/nv/4, 但上古卷轴5和辐射4的文字不放到esm/esp里了.
+
+- 转换图
+
+*.esp               => *.txt      : tes3cn_dec.bat
+*.txt               => *.txt      : tes3cn_trim.bat
+原.txt + 译.txt     => 译.ext.txt : tes3cn_ext.bat
+原.txt + 译.ext.txt => 译.txt     : tes3cn_mod.bat
+译.txt + topics.txt => 译.txt     : tes3cn_topic.bat
+*.txt               => *.esp      : tes3cn_enc.bat

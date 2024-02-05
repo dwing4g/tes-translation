@@ -19593,7 +19593,7 @@ Your love, Erna<BR>
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_frostattack_unique$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "cariusgoneScript$00"
 -NPC_
  NPC_.NAME "tharsten heart-fang$00"
@@ -19793,61 +19793,61 @@ Your love, Erna<BR>
 -ACTI
  ACTI.NAME "Ex_colony_Bar_Inn01$00"
  ACTI.MODL "x\Ex_colony_Bar_Inn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_barn01$00"
  ACTI.MODL "x\Ex_colony_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_house01$00"
  ACTI.MODL "x\Ex_colony_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_house02$00"
  ACTI.MODL "x\Ex_colony_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_house03$00"
  ACTI.MODL "x\Ex_colony_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_mine_entrance01$00"
  ACTI.MODL "x\Ex_colony_mine_entrance01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_Mine$00"
 -ACTI
  ACTI.NAME "Ex_colony_miners_office01$00"
  ACTI.MODL "x\Ex_colony_miners_office01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_ouside_tend01$00"
  ACTI.MODL "x\Ex_colony_ouside_tend01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_p_residence01$00"
  ACTI.MODL "x\Ex_colony_p_residence01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_SOP01$00"
  ACTI.MODL "x\Ex_colony_SOP01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmith$00"
 -ACTI
  ACTI.NAME "Ex_colony_barn02$00"
  ACTI.MODL "x\Ex_colony_barn02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_01$00"
  ACTI.MODL "x\Ex_colony_wall_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_tower01$00"
  ACTI.MODL "x\Ex_colony_tower01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_02$00"
  ACTI.MODL "x\Ex_colony_wall_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -STAT
  STAT.NAME "BM_IC_3way$00"
  STAT.MODL "i\BM_IC_3way.NIF$00"
@@ -20297,7 +20297,7 @@ So ends this account of the Battle of the Moesring, and the fall of the magnific
 -ACTI
  ACTI.NAME "ex_co_shipwreck$00"
  ACTI.MODL "x\Ex_DE_shipWreck.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyShipwreck$00"
 -CREA
  CREA.NAME "draugr_co_3$00"
@@ -20352,25 +20352,25 @@ So ends this account of the Battle of the Moesring, and the fall of the magnific
 -ACTI
  ACTI.NAME "Ex_colony_SOP02$00"
  ACTI.MODL "x\Ex_colony_SOP01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTrader$00"
 -ACTI
  ACTI.NAME "colony_smoke_1$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -ACTI
  ACTI.NAME "colony_smoke_2$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "colony_smoke_3$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "colony_smoke_4$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -NPC_
  NPC_.NAME "Baro Egnatius$00"
  NPC_.FNAM "Baro Egnatius$00"
@@ -20999,27 +20999,27 @@ RH<BR>
 -ACTI
  ACTI.NAME "Ex_colony_house01_1$00"
  ACTI.MODL "x\Ex_colony_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house02_1$00"
  ACTI.MODL "x\Ex_colony_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_SOP01_2$00"
  ACTI.MODL "x\Ex_colony_SOP01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTrader$00"
 -ACTI
  ACTI.NAME "Ex_colony_SOP02_2$00"
  ACTI.MODL "x\Ex_colony_SOP02_2.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_03$00"
  ACTI.MODL "x\Ex_colony_wall_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -DOOR
  DOOR.NAME "Ex_colony_bardoor$00"
  DOOR.MODL "d\Ex_colony_bardoor.NIF$00"
@@ -22043,144 +22043,144 @@ Must buy more forks. <BR>
 -ACTI
  ACTI.NAME "Ex_colony_Bar_Inn01_2$00"
  ACTI.MODL "x\Ex_colony_Bar_Inn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_barn01_1$00"
  ACTI.MODL "x\Ex_colony_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house03_3$00"
  ACTI.MODL "x\Ex_colony_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_mine_entrance01_1$00"
  ACTI.MODL "x\Ex_colony_mine_entrance01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_Mine$00"
 -ACTI
  ACTI.NAME "Ex_colony_miners_office01_1$00"
  ACTI.MODL "x\Ex_colony_miners_office01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_barn02_2$00"
  ACTI.MODL "x\Ex_colony_barn02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_01_4$00"
  ACTI.MODL "x\Ex_colony_wall_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_tower01_4$00"
  ACTI.MODL "x\Ex_colony_tower01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_02_4$00"
  ACTI.MODL "x\Ex_colony_wall_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_F$00"
 -ACTI
  ACTI.NAME "colony_smoke_4_1$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_03_4$00"
  ACTI.MODL "x\Ex_colony_wall_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house02_2$00"
  ACTI.MODL "x\Ex_colony_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house02b_2$00"
  ACTI.MODL "x\Ex_colony_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house01_2$00"
  ACTI.MODL "x\Ex_colony_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house01_3$00"
  ACTI.MODL "x\Ex_colony_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house03b_3$00"
  ACTI.MODL "x\Ex_colony_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_house02_3$00"
  ACTI.MODL "x\Ex_colony_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "colony_smoke_4_4$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_F$00"
 -ACTI
  ACTI.NAME "colony_smoke_4_2$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -ACTI
  ACTI.NAME "colony_smoke_4_3$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_step01_4$00"
  ACTI.MODL "x\Ex_colony_step01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_barn01$00"
  ACTI.MODL "x\Ex_colony_const_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_wood01$00"
  ACTI.MODL "x\Ex_colony_const_wood01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house01$00"
  ACTI.MODL "x\Ex_colony_const_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house02$00"
  ACTI.MODL "x\Ex_colony_const_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_stud01$00"
  ACTI.MODL "x\Ex_colony_const_stud01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_struc01$00"
  ACTI.MODL "x\Ex_colony_const_struc01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick02$00"
  ACTI.MODL "x\Ex_colony_const_brick02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick01$00"
  ACTI.MODL "x\Ex_colony_const_brick01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house03$00"
  ACTI.MODL "x\Ex_colony_const_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -NPC_
  NPC_.NAME "Seler Favelnim$00"
  NPC_.FNAM "Seler Favelnim$00"
@@ -22299,7 +22299,7 @@ Must buy more forks. <BR>
 -ACTI
  ACTI.NAME "Act_BM_stoneeffect_01$00"
  ACTI.MODL "i\active_dag_port10.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffectbeastScript$00"
 -ACTI
  ACTI.NAME "Act_BM_garden_plot_01$00"
@@ -22566,7 +22566,7 @@ Must buy more forks. <BR>
 -ACTI
  ACTI.NAME "Ex_colony_p_residence01a_4$00"
  ACTI.MODL "x\Ex_colony_p_residence01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_Final$00"
 -DOOR
  DOOR.NAME "Ex_colony_door04_1$00"
@@ -22604,7 +22604,7 @@ Must buy more forks. <BR>
 -ACTI
  ACTI.NAME "Ex_colony_SOP02b_2$00"
  ACTI.MODL "x\Ex_colony_SOP02_2.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmith$00"
 -DOOR
  DOOR.NAME "Ex_colony_door04_2b$00"
@@ -22623,12 +22623,12 @@ Must buy more forks. <BR>
 -ACTI
  ACTI.NAME "Ex_colony_p_residence01b_4$00"
  ACTI.MODL "x\Ex_colony_p_residence01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_Final$00"
 -ACTI
  ACTI.NAME "Ex_colony_p_residence01c_4$00"
  ACTI.MODL "x\Ex_colony_p_residence01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_Final$00"
 -DOOR
  DOOR.NAME "Ex_colony_door05b_4$00"
@@ -22689,192 +22689,192 @@ Must buy more forks. <BR>
 -ACTI
  ACTI.NAME "Ex_colony_const_house02_2$00"
  ACTI.MODL "x\Ex_colony_const_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_barn01_2$00"
  ACTI.MODL "x\Ex_colony_const_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house01_1$00"
  ACTI.MODL "x\Ex_colony_const_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_M$00"
 -ACTI
  ACTI.NAME "Flora_tree_BM_snow_05_1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house03_2$00"
  ACTI.MODL "x\Ex_colony_const_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house01_2$00"
  ACTI.MODL "x\Ex_colony_const_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_stud01_2$00"
  ACTI.MODL "x\Ex_colony_const_stud01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_struc01_2$00"
  ACTI.MODL "x\Ex_colony_const_struc01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_wood01_2$00"
  ACTI.MODL "x\Ex_colony_const_wood01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_barn01_4$00"
  ACTI.MODL "x\Ex_colony_const_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house02_3$00"
  ACTI.MODL "x\Ex_colony_const_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house01_3$00"
  ACTI.MODL "x\Ex_colony_const_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house03_3$00"
  ACTI.MODL "x\Ex_colony_const_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house03_4$00"
  ACTI.MODL "x\Ex_colony_const_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house01_4$00"
  ACTI.MODL "x\Ex_colony_const_house01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house02_4$00"
  ACTI.MODL "x\Ex_colony_const_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_struc01_4$00"
  ACTI.MODL "x\Ex_colony_const_struc01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_wood01_4$00"
  ACTI.MODL "x\Ex_colony_const_wood01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick01_4$00"
  ACTI.MODL "x\Ex_colony_const_brick01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_stud01_4$00"
  ACTI.MODL "x\Ex_colony_const_stud01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick02_3$00"
  ACTI.MODL "x\Ex_colony_const_brick02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house02_1$00"
  ACTI.MODL "x\Ex_colony_const_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_Mine$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_struc01_1$00"
  ACTI.MODL "x\Ex_colony_const_struc01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_Mine$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_barn01_1$00"
  ACTI.MODL "x\Ex_colony_const_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house03_1$00"
  ACTI.MODL "x\Ex_colony_const_house03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick01_1$00"
  ACTI.MODL "x\Ex_colony_const_brick01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick02-4$00"
  ACTI.MODL "x\Ex_colony_const_brick02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick01_3$00"
  ACTI.MODL "x\Ex_colony_const_brick01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_01M_4$00"
  ACTI.MODL "x\Ex_colony_wall_01M.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_02M$00"
  ACTI.MODL "x\Ex_colony_wall_02M.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_03M_4$00"
  ACTI.MODL "x\Ex_colony_wall_03M.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_01_3$00"
  ACTI.MODL "x\Ex_colony_wall_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_02_3$00"
  ACTI.MODL "x\Ex_colony_wall_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_4_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_03_3$00"
  ACTI.MODL "x\Ex_colony_wall_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_03M_3$00"
  ACTI.MODL "x\Ex_colony_wall_03M.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_02M_3$00"
  ACTI.MODL "x\Ex_colony_wall_02M.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_wall_01M_3$00"
  ACTI.MODL "x\Ex_colony_wall_01M.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_M$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick02_2$00"
  ACTI.MODL "x\Ex_colony_const_brick02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_M$00"
 -STAT
  STAT.NAME "ex_S_bear$00"
@@ -25224,7 +25224,7 @@ He he!  Ha ho!  He he he ha ha ho!<br>
 -ACTI
  ACTI.NAME "Ex_colony_const_struc02$00"
  ACTI.MODL "x\Ex_colony_const_struc02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -LIGH
  LIGH.NAME "colony cave bue1024$00"
  LIGH.MODL [00]
@@ -25244,7 +25244,7 @@ He he!  Ha ho!  He he he ha ha ho!<br>
 -ACTI
  ACTI.NAME "Ex_colony_const_struc03$00"
  ACTI.MODL "x\Ex_colony_const_struc03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -STAT
  STAT.NAME "BM_colony_playerhome01$00"
  STAT.MODL "i\BM_colony_playerhome01.NIF$00"
@@ -25267,7 +25267,7 @@ He he!  Ha ho!  He he he ha ha ho!<br>
 -ACTI
  ACTI.NAME "active_glacier_wind$00"
  ACTI.MODL "f\active_glacier_wind.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -LIGH
  LIGH.NAME "Light_Fire_NoSmoke_256$00"
  LIGH.MODL "l\Light_Fire_NoSmoke.NIF$00"
@@ -25554,7 +25554,7 @@ Falco Galenus<BR>
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "ac_furn_rug_colony$00"
  ACTI.MODL "f\Furn_rug_big_04_Collision.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRugTrap$00"
 -NPC_
  NPC_.NAME "Constans Atrius$00"
@@ -25777,62 +25777,62 @@ C. Magius<BR>"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_01$00"
  ACTI.MODL "x\Ex_imp_wall_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortDisableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_arch_01$00"
  ACTI.MODL "x\Ex_imp_wall_arch_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortDisableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_02$00"
  ACTI.MODL "x\Ex_imp_rubble_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_arch_02$00"
  ACTI.MODL "x\Ex_imp_rubble_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_corner_01$00"
  ACTI.MODL "x\Ex_imp_wall_corner_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortDisableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_corner_02$00"
  ACTI.MODL "x\Ex_imp_rubble_04.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -ACTI
  ACTI.NAME "Act_BM_imp_plat_01$00"
  ACTI.MODL "x\Ex_imp_plat_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortDisableScript$00"
 -ACTI
  ACTI.NAME "Act_BM_imp_plat_02$00"
  ACTI.MODL "x\Ex_imp_rubble_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_well_01$00"
  ACTI.MODL "x\Ex_nord_well_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortDisableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_well_02$00"
  ACTI.MODL "x\Ex_imp_rubble_05.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_rubble_01$00"
  ACTI.MODL "x\Ex_imp_rubble_06.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_rubble_02$00"
  ACTI.MODL "x\Ex_imp_rubble_07.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -STAT
  STAT.NAME "BM_KA_chandelier$00"
@@ -25914,21 +25914,21 @@ C. Magius<BR>"
 -ACTI
  ACTI.NAME "Ex_colony_chimney01$00"
  ACTI.MODL "x\Ex_colony_chimney01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_colony_chimney01_1$00"
  ACTI.MODL "x\Ex_colony_chimney01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_chimney01_3$00"
  ACTI.MODL "x\Ex_colony_chimney01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_3_F$00"
 -ACTI
  ACTI.NAME "Ex_colony_chimney01_2$00"
  ACTI.MODL "x\Ex_colony_chimney01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_2_F$00"
 -STAT
  STAT.NAME "BM_colony_wall03$00"
@@ -26781,20 +26781,20 @@ C. Magius<BR>"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_huntercentral$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "hunterScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_hunter1$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_hunter2$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_hunter3$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -NPC_
  NPC_.NAME "skaal_hunter2$00"
  NPC_.FNAM "Skaal Hunter$00"
@@ -27404,7 +27404,7 @@ C. Magius<BR>"
 -ACTI
  ACTI.NAME "sprigganup$00"
  ACTI.MODL "spriggan_summon.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "sprigganeffect$00"
 -LEVC
  LEVC.NAME "bm_ex_felcoast_sleep$00"
@@ -27679,7 +27679,7 @@ C. Magius<BR>"
 -ACTI
  ACTI.NAME "wildwerewolf$00"
  ACTI.MODL "were_morph.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "sprigganeffect$00"
 -NPC_
  NPC_.NAME "bm_werewolf_wildernessC$00"
@@ -27895,7 +27895,7 @@ If dig you will straight through the muck.<br>
 -ACTI
  ACTI.NAME "Ex_colony_const_house02_2t$00"
  ACTI.MODL "x\Ex_colony_const_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTraderConst$00"
 -NPC_
  NPC_.NAME "Unel Lloran$00"
@@ -28061,7 +28061,7 @@ If dig you will straight through the muck.<br>
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_tracker1$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "trackerScript$00"
 -NPC_
  NPC_.NAME "werewolf_bearhunt$00"
@@ -28080,19 +28080,19 @@ If dig you will straight through the muck.<br>
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_skaaltrack1$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_skaaltrack2$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_skaaltrack3$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_skaaltrackcentral$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "weretrackerScript$00"
 -WEAP
  WEAP.NAME "BM nordic_longsword_tracker$00"
@@ -28158,12 +28158,12 @@ If dig you will straight through the muck.<br>
 -ACTI
  ACTI.NAME "in_co_mine_boulder5$00"
  ACTI.MODL "i\in_moldboulder05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyMineBoulder1$00"
 -ACTI
  ACTI.NAME "in_co_mine_boulder3$00"
  ACTI.MODL "i\in_moldboulder03.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyMineBoulder1$00"
 -NPC_
  NPC_.NAME "BM_werewolf_skaal1A3$00"
@@ -28273,30 +28273,30 @@ If dig you will straight through the muck.<br>
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_pipe_04$00"
  ACTI.MODL "f\Act_BM_pipe_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_pipe_05$00"
  ACTI.MODL "f\Act_BM_pipe_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalloopScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_pipe_06$00"
  ACTI.MODL "f\Act_BM_pipe_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_stalreset$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalresetScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_03$00"
  ACTI.MODL "x\Ex_imp_rubble_08.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortEnableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_wall_corner_03$00"
  ACTI.MODL "x\Ex_imp_wall_corner_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fortDisableScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "BM_Ice_Wall$00"
@@ -28333,478 +28333,478 @@ If dig you will straight through the muck.<br>
 -ACTI
  ACTI.NAME "colony_smoke_4_4_F2$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_Final$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_struc01_4 F1$00"
  ACTI.MODL "x\Ex_colony_const_struc01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_struc01_4 F2$00"
  ACTI.MODL "x\Ex_colony_const_struc01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick01_4 f2$00"
  ACTI.MODL "x\Ex_colony_const_brick01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_stud01_4 F2$00"
  ACTI.MODL "x\Ex_colony_const_stud01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_wood01_4 F2$00"
  ACTI.MODL "x\Ex_colony_const_wood01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_stud01_4 F1$00"
  ACTI.MODL "x\Ex_colony_const_stud01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick02-4 F1$00"
  ACTI.MODL "x\Ex_colony_const_brick02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_stud01_4 F3$00"
  ACTI.MODL "x\Ex_colony_const_stud01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_brick01_4 F3$00"
  ACTI.MODL "x\Ex_colony_const_brick01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_struc01_4 F3$00"
  ACTI.MODL "x\Ex_colony_const_struc01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_Mid$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_barn01_2_2t$00"
  ACTI.MODL "x\Ex_colony_const_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTraderConst$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_house02_2_ser$00"
  ACTI.MODL "x\Ex_colony_const_house02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmithConst$00"
 -ACTI
  ACTI.NAME "Ex_colony_const_barn01_2_ser$00"
  ACTI.MODL "x\Ex_colony_const_barn01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmithConst$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_04$00"
  ACTI.MODL "f\Flora_tree_BM_snow_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_63$00"
  ACTI.MODL "f\Terrain_rock_BM_63.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_59$00"
  ACTI.MODL "f\Terrain_rock_BM_59.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_23$00"
  ACTI.MODL "f\Terrain_rock_BM_23.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_20$00"
  ACTI.MODL "f\Terrain_rock_BM_20.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_19$00"
  ACTI.MODL "f\Terrain_rock_BM_19.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_27$00"
  ACTI.MODL "f\Terrain_rock_BM_27.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_02$00"
  ACTI.MODL "f\Flora_tree_BM_snow_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01_S1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_02_S1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_S1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_23_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_23.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_19_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_19.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_04_S1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_20_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_20.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_27_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_27.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_63_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_63.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_59_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_59.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_02_S2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_S2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01_S2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_04_S2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_59_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_59.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_63_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_63.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_19_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_19.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_20_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_20.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_23_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_23.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_27_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_27.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_61$00"
  ACTI.MODL "f\Terrain_rock_BM_61.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_64$00"
  ACTI.MODL "f\Terrain_rock_BM_64.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_64_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_64.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_61_S1$00"
  ACTI.MODL "f\Terrain_rock_BM_61.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_I$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_61_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_61.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_64_S2$00"
  ACTI.MODL "f\Terrain_rock_BM_64.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_1_F$00"
 -ACTI
  ACTI.NAME "colony_smoke_4_4_F3$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_Final$00"
 -ACTI
  ACTI.NAME "colony_smoke_4_4_F1$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_Final$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_S3$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01_S3$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_04_S3$00"
  ACTI.MODL "f\Flora_tree_BM_snow_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_02_S3$00"
  ACTI.MODL "f\Flora_tree_BM_snow_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_59_S3$00"
  ACTI.MODL "f\Terrain_rock_BM_59.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65_S3$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_S3$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_63_S3$00"
  ACTI.MODL "f\Terrain_rock_BM_63.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_61_S3$00"
  ACTI.MODL "f\Terrain_rock_BM_61.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_64_S3$00"
  ACTI.MODL "f\Terrain_rock_BM_64.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_2_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_S4$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_02_S4$00"
  ACTI.MODL "f\Flora_tree_BM_snow_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01_S4$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_04_S4$00"
  ACTI.MODL "f\Flora_tree_BM_snow_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65_S4$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_S4$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_61_S4$00"
  ACTI.MODL "f\Terrain_rock_BM_61.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_64_S4$00"
  ACTI.MODL "f\Terrain_rock_BM_64.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_63_S4$00"
  ACTI.MODL "f\Terrain_rock_BM_63.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_D_3_F$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_F1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_59_F1$00"
  ACTI.MODL "f\Terrain_rock_BM_59.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_F1$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65_F1$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor1_D$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_F2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_D$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_04_F2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_F2$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_64_F2$00"
  ACTI.MODL "f\Terrain_rock_BM_64.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor2_D$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_F3$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_D$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01_F3$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65_F3$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_64_F3$00"
  ACTI.MODL "f\Terrain_rock_BM_64.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_F3$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyFactor3_D$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_59_T1$00"
  ACTI.MODL "f\Terrain_rock_BM_59.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTraderDisable$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_T1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTraderDisable$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_65_T1$00"
  ACTI.MODL "f\Terrain_rock_BM_65.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTraderDisable$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01_T1$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServTraderDisable$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_05_T2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmithDisable$00"
 -ACTI
  ACTI.NAME "Colony Flora_tree_BM_snow_01_T2$00"
  ACTI.MODL "f\Flora_tree_BM_snow_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmithDisable$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_61_T2$00"
  ACTI.MODL "f\Terrain_rock_BM_61.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmithDisable$00"
 -ACTI
  ACTI.NAME "Colony Terrain_rock_BM_60_T2$00"
  ACTI.MODL "f\Terrain_rock_BM_60.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmithDisable$00"
 -LIGH
  LIGH.NAME "Solstheim red SM2$00"
@@ -29378,7 +29378,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "ac_furn_rug_colony2$00"
  ACTI.MODL "f\Furn_rug_big_04_Collision.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -WEAP [00 00 00 00 00 04 00 00]
  WEAP.NAME "steel longbow_carnius$00"
@@ -29389,7 +29389,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 -ACTI
  ACTI.NAME "Colony_Assassin_act$00"
  ACTI.MODL "EditorMarker.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyAssassinItems$00"
 -ENCH
  ENCH.NAME "poison arrow_en$00"
@@ -29586,7 +29586,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 -ACTI
  ACTI.NAME "a_furn_com_table_colony$00"
  ACTI.MODL "f\Furn_Com_Table_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Colony_E_1_F$00"
 -NPC_
  NPC_.NAME "Capiton Popillius$00"
@@ -29770,7 +29770,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "a_ex_de_rowboat_colony$00"
  ACTI.MODL "x\Ex_De_Rowboat.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Float$00"
 -CREA
  CREA.NAME "BM_icetroll_FG_Uni$00"
@@ -30557,28 +30557,28 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_BM_wind_parts$00"
  ACTI.MODL "f\act_BM_wind_parts.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_BM_beast_parts$00"
  ACTI.MODL "f\act_BM_beast_parts.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_BM_earth_parts$00"
  ACTI.MODL "f\act_BM_earth_parts.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_BM_sun_parts$00"
  ACTI.MODL "f\act_BM_sun_parts.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffect1Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_BM_tree_parts$00"
  ACTI.MODL "f\act_BM_tree_parts.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_BM_water_parts$00"
  ACTI.MODL "f\act_BM_water_parts.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -CREA
  CREA.NAME "BM_wolf_grey_lvl_1$00"
  CREA.MODL "r\Wolf_Black.NIF$00"
@@ -30740,7 +30740,7 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "BM_wereeffect$00"
  ACTI.MODL "were_morph.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "wereeffectScript$00"
 -NPC_
  NPC_.NAME "BM_Imperial Guard$00"
@@ -31009,7 +31009,7 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI
  ACTI.NAME "teleport_enabler$00"
  ACTI.MODL "box.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "enable_teleport$00"
 -LEVI
  LEVI.NAME "bm_random_reaver_helm$00"
@@ -31433,12 +31433,12 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI
  ACTI.NAME "BM_whitebear_thirsk$00"
  ACTI.MODL "m\BearWhitePlaque.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "meadhallhead$00"
 -ACTI
  ACTI.NAME "BM_whitewolf_thirsk$00"
  ACTI.MODL "m\WolfWhitePlaque.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "meadhallhead$00"
 -NPC_
  NPC_.NAME "bm_bathmar$00"
@@ -31876,67 +31876,67 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_4$00"
  ACTI.MODL "f\Flora_root_WG_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot1$00"
 -ACTI
  ACTI.NAME "in_co_mine_boulder3_2$00"
  ACTI.MODL "i\in_moldboulder03.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyMineBoulder2$00"
 -ACTI
  ACTI.NAME "in_co_mine_boulder5_2$00"
  ACTI.MODL "i\in_moldboulder05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyMineBoulder2$00"
 -ACTI
  ACTI.NAME "in_co_mine_boulder1_2$00"
  ACTI.MODL "i\in_moldboulder01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyMineBoulder2$00"
 -ACTI
  ACTI.NAME "in_co_mine_boulder0_2$00"
  ACTI.MODL "i\in_moldboulder00.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyMineBoulder2$00"
 -ACTI
  ACTI.NAME "in_co_mine_boulder2_2$00"
  ACTI.MODL "i\in_moldboulder02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyMineBoulder2$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_1$00"
  ACTI.MODL "f\Flora_root_WG_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot1$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_2$00"
  ACTI.MODL "f\Flora_root_WG_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot1$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_3$00"
  ACTI.MODL "f\Flora_root_WG_03.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot1a$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_1b$00"
  ACTI.MODL "f\Act_BM_root_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot2$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_2b$00"
  ACTI.MODL "f\Act_BM_root_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot2$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_3b$00"
  ACTI.MODL "f\Act_BM_root_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot2$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_ex_colony_root_4b$00"
  ACTI.MODL "f\Act_BM_root_04.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyRoot2$00"
 -LIGH
  LIGH.NAME "blue_256_deed pulse$00"
@@ -31993,7 +31993,7 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_penumbra$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "penumbraScript$00"
 -ENCH
  ENCH.NAME "bm_aesliip$00"
@@ -32010,7 +32010,7 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_rigmor$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ENCH
  ENCH.NAME "bm_wolfspirit$00"
  ENCH.ENDT [03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -32176,32 +32176,32 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_steam_01$00"
  ACTI.MODL "f\act_BM_pipe_parts00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalsteamScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_steam_02$00"
  ACTI.MODL "f\act_BM_pipe_parts00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalsteamScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_steam_03$00"
  ACTI.MODL "f\act_BM_pipe_parts00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalsteamScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_steam_04$00"
  ACTI.MODL "f\act_BM_pipe_parts00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalsteamScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_steam_05$00"
  ACTI.MODL "f\act_BM_pipe_parts00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalsteamScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_steam_06$00"
  ACTI.MODL "f\act_BM_pipe_parts00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stalsteamScript$00"
 -BODY
  BODY.NAME "c_m_robe_common_U_1st$00"
@@ -32242,7 +32242,7 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_carius$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -DOOR [00 00 00 00 00 04 00 00]
  DOOR.NAME "Ex_S_door_double_GH$00"
  DOOR.MODL "d\Ex_S_door_double.NIF$00"
@@ -32252,37 +32252,37 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_attacksound$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "skaaldoorSound$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_stonesound1$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffect1Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_stonesound2$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffect2Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_stonesound3$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffect3Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_stonesound4$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffect4Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_stonesound5$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffect5Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_stonesound6$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stoneeffect6Script$00"
 -INGR
  INGR.NAME "ingred_eyeball$00"
@@ -32310,7 +32310,7 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_penumbra2$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "penumbra2Script$00"
 -LIGH [00 00 00 00 00 04 00 00]
  LIGH.NAME "bm_light_penumbra1$00"
@@ -32321,17 +32321,17 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "bm_light_penumbra2$00"
  ACTI.MODL "f\act_light_sconce_off.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "pentorch2Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_penumbra3$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "icewallcrackScript$00"
 -ACTI
  ACTI.NAME "colony_smoke_smith$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyServSmith$00"
 -CREA
  CREA.NAME "BM_spriggan_co4$00"
@@ -32370,7 +32370,7 @@ Entry 3: One of those blasted bears got into the cave today. We drove him out, b
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Ex_colony_pier01$00"
  ACTI.MODL "x\Ex_colony_pier01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyDock$00"
 -CONT
  CONT.NAME "Contain_BM_hollowstump$00"
@@ -32755,7 +32755,7 @@ C<BR>"
 -ACTI
  ACTI.NAME "ex_co_ship_baro$00"
  ACTI.MODL "x\Ex_DE_ship.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ColonyBaroShip$00"
 -ACTI
  ACTI.NAME "Ex_co_ship_trapdoorb$00"
@@ -32833,57 +32833,57 @@ C<BR>"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_smugglers$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "smugcheckScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_snowdoor1$00"
  ACTI.MODL "f\Terrain_BM_snow_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "skaalaradoorScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_snowdoor2$00"
  ACTI.MODL "f\Terrain_rock_BM_26.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "penumbradoorScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_tombdoor1$00"
  ACTI.MODL "f\Terrain_rock_BM_73.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "musicdoorScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_tombdoor2$00"
  ACTI.MODL "f\Terrain_rock_BM_73.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "musicdoor2Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_snowdoor3$00"
  ACTI.MODL "f\Terrain_BM_ice_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "karstcavdoorScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_tombdoor3$00"
  ACTI.MODL "f\Terrain_rock_BM_66.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "glendoorScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_tombdoor4$00"
  ACTI.MODL "f\Terrain_rock_BM_66.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "glendoor2Script$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_snowdoor4$00"
  ACTI.MODL "f\Terrain_BM_ice_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "stahldoorScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_bm_snowdoor5$00"
  ACTI.MODL "f\Terrain_BM_ice_02.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fjalddoorScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_karstaag$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "karstaagentryScript$00"
 -DOOR [00 00 00 00 00 04 00 00]
  DOOR.NAME "ex_BM_ringdoor$00"
@@ -32933,11 +32933,11 @@ C<BR>"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_huntscream1$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_BM_huntscream2$00"
  ACTI.MODL "EditorMarker.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -LEVC
  LEVC.NAME "bm_frysehag_all$00"
  LEVC.DATA [01 00 00 00]
@@ -33051,12 +33051,12 @@ C<BR>"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "BM_wereeffect2$00"
  ACTI.MODL "were_morph01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "wereeffectScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "BM_wereeffect3$00"
  ACTI.MODL "were_morph.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "wereeffectScript$00"
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "tharsten heart-fang2$00"

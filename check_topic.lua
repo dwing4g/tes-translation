@@ -21,9 +21,9 @@ local src_filenames = {
 }
 
 local dst_filenames = {
-	{ "tes3cn_Morrowind.txt", "tes3cn_Morrowind_fix.txt" },
-	{ "tes3cn_Tribunal.txt",  "tes3cn_Tribunal_fix.txt" },
-	{ "tes3cn_Bloodmoon.txt", "tes3cn_Bloodmoon_fix.txt" },
+	{ "tes3cn_Morrowind.txt", "tes3cn_Morrowind.fix.txt" },
+	{ "tes3cn_Tribunal.txt",  "tes3cn_Tribunal.fix.txt" },
+	{ "tes3cn_Bloodmoon.txt", "tes3cn_Bloodmoon.fix.txt" },
 }
 
 local topics_filename = arg[1] or "topics.txt"

@@ -6,6 +6,16 @@ local type = type
 local error = error
 local ipairs = ipairs
 
+local newLine = true
+local function warn(...)
+	if not newLine then
+		newLine = true
+		print()
+	end
+	io.stderr:write("WARN: ", ...)
+	io.stderr:write("\n")
+end
+
 local topics = {}
 for line in io.lines("topics.txt") do
 	local k, v = line:match "%[(.-)%] => %[(.-)%]"
@@ -32,9 +42,9 @@ local function loadTxt(fn)
 			if type(t[k]) ~= "table" then
 				t[k] = {{ k, t[k] }}
 			end
-			t[k][#t[k] + 1] = { k, v:gsub('""', '"'):gsub("%$00.*$", "") }
+			t[k][#t[k] + 1] = { k, v:gsub("%$00.*$", "") }
 		else
-			t[k] = v:gsub('""', '"'):gsub("%$00.*$", "")
+			t[k] = v:gsub("%$00.*$", "")
 		end
 		k, v = nil, nil
 	end
@@ -50,7 +60,7 @@ local function loadTxt(fn)
 		if m then
 			if v then addKV() end
 			k = m
-			v = line:sub(13, -1)
+			v = line:sub(13, -1):gsub('""', '"')
 		else
 			m = line:match "^ ([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]%.[%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) %["
 			if m then
@@ -71,7 +81,7 @@ local function loadTxt(fn)
 					if not v then
 						error("ERROR: bad line at line " .. i .. " in '" .. fn .. "'")
 					end
-					v = v .. "\r\n" .. line
+					v = v .. "\r\n" .. line:gsub('""', '"')
 				end
 			end
 		end
@@ -79,6 +89,45 @@ local function loadTxt(fn)
 	if v then addKV() end
 	if t then addTable() end
 	return all
+end
+
+local function extScr(line, p)
+	local n
+	repeat
+		line, n = line:gsub("\n%s*;.-\n", "\n")
+	until n == 0
+	local kk, vv, i = {}, {}, 0
+--	for s in line:gmatch '[Aa]dd[Tt]opic[%s,]+"?([^"%c]+)' do
+--		i = i + 1
+--		kk[i] = p .. i
+--		vv[i] = s
+--	end
+	for str in line:gmatch '[Mm]essage[Bb]ox[%s,]+("%C+)' do
+		for s in str:gmatch '"(.-)"' do
+			i = i + 1
+			kk[i] = p .. i
+			vv[i] = s
+		end
+	end
+	for str in line:gmatch '[Ss]ay[%s,]+("%C+)' do
+		local j = false
+		for s in str:gmatch '"(.-)"' do
+			if j then -- skip first filename
+				i = i + 1
+				kk[i] = p .. i
+				vv[i] = s
+			end
+			j = true
+		end
+	end
+	for str in line:gmatch '[Cc]hoice[%s,]+("%C+)' do
+		for s in str:gmatch '"(.-)"' do
+			i = i + 1
+			kk[i] = p .. i
+			vv[i] = s
+		end
+	end
+	return kk, vv
 end
 
 local function extTxt(en)
@@ -89,9 +138,9 @@ local function extTxt(en)
 				for i = 1, #k do
 					addKV(k[i], v[i])
 				end
-			else
+			elseif v:find "[%a\x80-\xff]" then
 				if et[k] then
-					io.stderr:write("WARN: duplicated key: '", k, "'\n")
+					warn("duplicated key: '", k, "'")
 					-- error("ERROR: duplicated key: '" .. k .. "'")
 				end
 				if not v then
@@ -131,7 +180,7 @@ local function extTxt(en)
 			vv = t[tag .. ".TEXT"]
 			if not vv then kk = nil end
 		elseif tag == "GMST" then
-			k = "GMST " ..  t["GMST.NAME"]
+			k = "GMST.STRV " ..  t["GMST.NAME"]
 			v = t["GMST.STRV"]
 			if not v then k = nil end
 		elseif tag == "DIAL" then
@@ -142,6 +191,10 @@ local function extTxt(en)
 		elseif tag == "INFO" then
 			k = tag .. ".NAME " .. dn .. " " .. t[tag .. ".INAM"]
 			v = t[tag .. ".NAME"]
+			local tt = t[tag .. ".BNAM"]
+			if tt then
+				kk, vv = extScr(tt, "INFO.BNAM " .. dn .. " " .. t[tag .. ".INAM"] .. " ")
+			end
 			if not v then k = nil end
 		elseif tag == "FACT" then
 			k = tag .. ".FNAM " .. t[tag .. ".NAME"]
@@ -160,33 +213,9 @@ local function extTxt(en)
 				end
 			end
 		elseif tag == "SCPT" then
-			local p = tag .. ".NAME " .. t[tag .. ".SCHD"]:gsub("%$00.*$", "") .. " "
 			local tt = t[tag .. ".SCTX"]
-			local i = 0
-			kk, vv = {}, {}
-			for line in tt:gmatch "[Aa]dd[Tt]opic[%s,]+(.-)\n" do
-				local str = line:match "\"(.-)\""
-				i = i + 1
-				kk[i] = p .. i
-				vv[i] = str
-			end
-			for line in tt:gmatch "[Mm]essage[Bb]ox[%s,]+(.-)\n" do
-				for str in line:gmatch "\"(.-)\"" do
-					i = i + 1
-					kk[i] = p .. i
-					vv[i] = str
-				end
-			end
-			for line in tt:gmatch "[Ss]ay[%s,]+(.-)\n" do
-				local j = false
-				for str in line:gmatch "\"(.-)\"" do
-					if j then -- skip first filename
-						i = i + 1
-						kk[i] = p .. i
-						vv[i] = str
-					end
-					j = true
-				end
+			if tt then
+				kk, vv = extScr(tt, "SCPT.SCTX " .. t["SCPT.SCHD"] .. " ")
 			end
 		elseif tag == "BODY" or tag == "ENCH" or tag == "GLOB" or tag == "LEVC"
 			or tag == "LEVI" or tag == "LTEX" or tag == "SNDG" or tag == "SOUN"
@@ -206,10 +235,8 @@ local function escape(s)
 	if s:find '"""' then
 		error('ERROR: found """ in string: ' .. s .. "'")
 	end
-	if s:find "\n" then
+	if s:find "\n" or s == "" then
 		s = '"""' .. s .. '"""'
-	elseif s == "" then
-		s = '""""""'
 	end
 	return s
 end
@@ -242,20 +269,21 @@ io.stderr:write("INFO: writing '", arg[3], "' ...\n")
 local f = io.open(arg[3], "wb")
 for _, k in ipairs(es) do
 	f:write("> ", k, "\r\n")
-	f:write(escape(et[k]), "\r\n")
-	if ct[k] then
-		f:write(escape(ct[k]), "\r\n\r\n")
+	local e, c = et[k], ct[k]
+	f:write(escape(e), "\r\n")
+	if c then
+		f:write(e == c and #e > 1 and "###" or escape(c), "\r\n\r\n")
 		ct[k] = nil
 	else
 		f:write("###\r\n\r\n")
-		io.stderr:write("WARN: unmatched key '", k, "'\n")
+		warn("unmatched key '", k, "'")
 	end
 end
 f:close()
 
 for _, k in ipairs(cs) do
 	if ct[k] then
-		io.stderr:write("WARN: unused key '", k, "'\n")
+		warn("unused key '", k, "'")
 	end
 end
 

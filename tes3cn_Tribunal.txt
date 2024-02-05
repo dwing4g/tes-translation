@@ -14017,15 +14017,15 @@ End yarnarScript"
 -ACTI
  ACTI.NAME "Furn_De_Bar_01$00"
  ACTI.MODL "f\Furn_De_Bar_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Furn_De_Bar_03$00"
  ACTI.MODL "f\Furn_De_Bar_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Furn_De_Bar_04$00"
  ACTI.MODL "f\Furn_De_Bar_04.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -CONT
  CONT.NAME "de_p_desk_01_pos2$00"
  CONT.MODL "o\Contain_De_Desk_01.NIF$00"
@@ -15351,7 +15351,7 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
 -ACTI
  ACTI.NAME "steam_lavariver$00"
  ACTI.MODL "steam_lavariver.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -DOOR
  DOOR.NAME "ex_v_palace_grate_01$00"
  DOOR.MODL "d\Ex_V_palace_grate_01.NIF$00"
@@ -15944,16 +15944,16 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
 -ACTI
  ACTI.NAME "Ex_waterfall_mist_01$00"
  ACTI.MODL "x\Ex_waterfall_mist_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Act_Crystal_01_Pulse$00"
  ACTI.MODL "i\In_T_crystal_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "Ex_Vivec_waterfall_03$00"
  ACTI.MODL "x\Ex_Vivec_waterfall_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Water_Spout$00"
 -STAT
  STAT.NAME "Ex_Vivec_P_water_01$00"
@@ -15961,7 +15961,7 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
 -ACTI
  ACTI.NAME "Ex_Vivec_waterfall_05$00"
  ACTI.MODL "x\Ex_Vivec_waterfall_05.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Water_Spout$00"
 -DOOR
  DOOR.NAME "Velothi_Sewer_Door$00"
@@ -15972,7 +15972,7 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
 -ACTI
  ACTI.NAME "chimney_smoke_green$00"
  ACTI.MODL "chimney_smoke_green.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -BOOK
  BOOK.NAME "bk_Yagrum's_Book$00"
  BOOK.MODL "m\Text_Octavo_02.nif$00"
@@ -17695,7 +17695,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "In_OM_waterfall$00"
  ACTI.MODL "i\In_OM_waterfall.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Water_Spout$00"
 -STAT
  STAT.NAME "Ex_MH_wall_02$00"
@@ -18518,34 +18518,34 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "act_hot_oil_512$00"
  ACTI.MODL "i\act_hot_oil_512.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "SothaHotOil$00"
 -ACTI
  ACTI.NAME "act_sotha_clockwork$00"
  ACTI.MODL "i\act_sotha_clockwork.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_SothaGears$00"
 -ACTI
  ACTI.NAME "act_sotha_dicer$00"
  ACTI.MODL "i\act_sotha_dicer.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Collide_damage_kill$00"
 -ACTI
  ACTI.NAME "act_sotha_gear00$00"
  ACTI.MODL "i\act_sotha_gear00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "act_sotha_gear01$00"
  ACTI.MODL "i\act_sotha_gear01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "act_sotha_gear02$00"
  ACTI.MODL "i\act_sotha_gear02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "act_sotha_gear03$00"
  ACTI.MODL "i\act_sotha_gear03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "act_sotha_lever1a$00"
  ACTI.MODL "i\act_sotha_lever.NIF$00"
@@ -18558,36 +18558,36 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_oilbridge$00"
  ACTI.MODL "i\act_sotha_oilbridge.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_powertubes$00"
  ACTI.MODL "i\act_sotha_powertubes.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door1$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI
  ACTI.NAME "act_sotha_tenderizer$00"
  ACTI.MODL "i\act_sotha_tenderizer.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Collide_damage_kill$00"
 -ACTI
  ACTI.NAME "act_sotha_spikes$00"
  ACTI.MODL "i\act_sotha_spikes.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Collide_damage_100$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door2$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door3$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI
  ACTI.NAME "act_sotha_lever2a$00"
@@ -18628,22 +18628,22 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door4$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door5$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door6$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door7$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI
  ACTI.NAME "act_sotha_lever8a$00"
@@ -18728,7 +18728,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door8$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_monster1$00"
@@ -18759,7 +18759,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_pre_door9$00"
  ACTI.MODL "i\act_sotha_pre_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -STAT
  STAT.NAME "in_sotha_resistor00$00"
@@ -19625,14 +19625,14 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Ex_gg_particles_01_bbot1$00"
  ACTI.MODL "x\Ex_gg_particles_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -STAT [00 00 00 00 00 04 00 00]
  STAT.NAME "ex_gg_fence_02_bbot$00"
  STAT.MODL "x\Ex_GG_fence_02.NIF$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Ex_gg_particles_01_bbot2$00"
  ACTI.MODL "x\Ex_gg_particles_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "gateSound$00"
 -NPC_
  NPC_.NAME "hession$00"
@@ -19933,11 +19933,11 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_green_uni1$00"
  ACTI.MODL "chimney_smoke_green.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_green_uni2$00"
  ACTI.MODL "chimney_smoke_green.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -NPC_
  NPC_.NAME "gavis velas$00"
  NPC_.FNAM "¼ÖÎ¬Ë¹¡¤Î¬À­Ë¹$00"
@@ -20042,27 +20042,27 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_small_velas1$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_small_velas2$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_small_velas3$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_small_velas4$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_small_velas5$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "chimney_smoke_small_velas6$00"
  ACTI.MODL "chimney_smoke_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -DOOR [00 00 00 00 00 04 00 00]
  DOOR.NAME "door_cavern_doors00_velas$00"
  DOOR.MODL "d\door_cavern_doors00.nif$00"
@@ -20084,11 +20084,11 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_chimney_smoke02_ovis1$00"
  ACTI.MODL "chimney_smoke02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_chimney_smoke02_ovis2$00"
  ACTI.MODL "chimney_smoke02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -NPC_
  NPC_.NAME "apelles matius$00"
  NPC_.FNAM "°¢Åå¶ûË¹¡¤ÂíµÙÎÚË¹$00"
@@ -21240,7 +21240,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_mach_door1$00"
  ACTI.MODL "i\act_sotha_mach_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI
  ACTI.NAME "act_sotha_lever9b$00"
@@ -21270,7 +21270,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_door3$00"
  ACTI.MODL "i\act_sotha_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI
  ACTI.NAME "act_sotha_lever11a$00"
@@ -21290,7 +21290,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_mach_door2$00"
  ACTI.MODL "i\act_sotha_mach_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -DOOR
  DOOR.NAME "door_sotha_mach_door$00"
@@ -21301,19 +21301,19 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "act_sotha_long_gear03$00"
  ACTI.MODL "i\act_sotha_long_gear03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "act_sotha_long_gear02$00"
  ACTI.MODL "i\act_sotha_long_gear02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "act_sotha_long_gear01$00"
  ACTI.MODL "i\act_sotha_long_gear01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "act_sotha_long_gear00$00"
  ACTI.MODL "i\act_sotha_long_gear00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -STAT
  STAT.NAME "in_dwe_rubble02$00"
  STAT.MODL "i\in_dwe_rubble02.NIF$00"
@@ -21389,12 +21389,12 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "act_dwe_fan00$00"
  ACTI.MODL "i\act_dwe_fan00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Dwemer_Fan$00"
 -ACTI
  ACTI.NAME "act_dwe_gyro00$00"
  ACTI.MODL "i\act_dwe_gyro00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Power_Thrum$00"
 -DOOR
  DOOR.NAME "Ex_MH_sewer_trapdoor_01$00"
@@ -21863,12 +21863,12 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_door9$00"
  ACTI.MODL "i\act_sotha_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_door10$00"
  ACTI.MODL "i\act_sotha_door.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "LocalState$00"
 -STAT
  STAT.NAME "in_dwe_archway00_end$00"
@@ -22029,12 +22029,12 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "In_moldrock05_UNI$00"
  ACTI.MODL "i\in_mold_rock_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "cryptboulderScript$00"
 -ACTI
  ACTI.NAME "In_moldboulder00_UNI$00"
  ACTI.MODL "i\in_moldboulder00.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "cryptboulderScript$00"
 -STAT
  STAT.NAME "Ex_MH_Palace_Courtyard$00"
@@ -22728,7 +22728,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "act_waterlevel_changer$00"
  ACTI.MODL "EditorMarker.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fluctuateWaterLevel$00"
 -INGR
  INGR.NAME "ingred_adamantium_ore_01$00"
@@ -22800,7 +22800,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_dwe_weather00$00"
  ACTI.MODL "i\act_dwe_weather00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "tr_weathmachine$00"
 -ACTI
  ACTI.NAME "misc_dwrv_prox_mine$00"
@@ -23223,12 +23223,12 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "In_moldboulder01_UNI$00"
  ACTI.MODL "i\in_moldboulder00.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "cryptboulderScript$00"
 -ACTI
  ACTI.NAME "In_moldrock06_UNI$00"
  ACTI.MODL "i\in_mold_rock_05.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "cryptboulderScript$00"
 -ALCH [00 00 00 00 00 04 00 00]
  ALCH.NAME "pyroil_tar_unique$00"
@@ -23267,11 +23267,11 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Sotha Alma Appear Effect$00"
  ACTI.MODL "Amalexia_summon.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "alma talker$00"
  ACTI.MODL "f\Furn_banner_hlaalu_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -CREA [00 00 00 00 00 04 00 00]
  CREA.NAME "fabricant_verminousDead$00"
  CREA.MODL "r\Fabricant.NIF$00"
@@ -23287,12 +23287,12 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "Sound_Sotha_Gears$00"
  ACTI.MODL "EditorMarker.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_SothaGears$00"
 -ACTI
  ACTI.NAME "Sound_Sotha_Sparks$00"
  ACTI.MODL "EditorMarker.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Dwemer_Ambient$00"
 -CREA
  CREA.NAME "Imperfect$00"
@@ -23337,17 +23337,17 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_plague_rock1$00"
  ACTI.MODL "i\in_mold_rock_07.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "PlagueRock1$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_plague_rock2$00"
  ACTI.MODL "i\in_mold_rock_07.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "PlagueRock2$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_plague_rock3$00"
  ACTI.MODL "i\in_mold_rock_04.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "PlagueRock3$00"
 -CREA
  CREA.NAME "lich_relvel$00"
@@ -23614,7 +23614,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "Inviso_wall$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -CLOT
  CLOT.NAME "Helseth's Robe$00"
  CLOT.MODL "c\C_M_Helseth_Robe_GND.NIF$00"
@@ -23753,12 +23753,12 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_assassin_unique$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "barAssScript$00"
 -ACTI
  ACTI.NAME "Act_Rockslide01$00"
  ACTI.MODL "i\Act_rockslide01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "rockslide$00"
 -CREA [00 00 00 00 00 04 00 00]
  CREA.NAME "ancestor_ghost_Variner$00"
@@ -23847,7 +23847,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "trapProjectile$00"
  ACTI.MODL "w\magic_target_dst.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "trapProjScript$00"
 -ACTI
  ACTI.NAME "prox_proj_mine$00"
@@ -24071,7 +24071,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "EditorMarker_box_02$00"
  ACTI.MODL "x\EditorMarker_box_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "ExitBlockMessage$00"
 -DOOR
  DOOR.NAME "Ex_MH_sewer_trapdoor_sadri$00"
@@ -24334,32 +24334,32 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "shrine_trigger$00"
  ACTI.MODL "x\Ex_T_rock_coastal_01.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "trigger_spells$00"
 -ACTI
  ACTI.NAME "Column_Cast$00"
  ACTI.MODL "i\in_m_sewer_column_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "SpellCast$00"
 -ACTI
  ACTI.NAME "Column_Cast2$00"
  ACTI.MODL "i\in_m_sewer_column_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "SpellCast$00"
 -ACTI
  ACTI.NAME "Column_Cast3$00"
  ACTI.MODL "i\in_m_sewer_column_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "SpellCast$00"
 -ACTI
  ACTI.NAME "Column_Cast4$00"
  ACTI.MODL "i\in_m_sewer_column_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "SpellCast$00"
 -ACTI
  ACTI.NAME "Column_Cast5$00"
  ACTI.MODL "i\in_m_sewer_column_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "SpellCast$00"
 -CREA
  CREA.NAME "fabricant_hulking_C$00"
@@ -24461,7 +24461,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "fab_cent_fight_watcher$00"
  ACTI.MODL "EditorMarker.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_cent_fight_watch$00"
 -WEAP
  WEAP.NAME "centurion_projectile_dart_shock$00"
@@ -24768,90 +24768,90 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "Ex_MH_Pav_Crack$00"
  ACTI.MODL "x\Ex_MH_Pav_Crack.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_Rubble_01$00"
  ACTI.MODL "x\Ex_MH_Pav_Rubble_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_01$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_02$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_03$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_03.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_04$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_04.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_05$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_05.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_06$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_06.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_07$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_07.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_08$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_08.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_09$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_09.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_10$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_10.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_11$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_11.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_12$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_12.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_13$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_13.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_14$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_14.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_BStatue_15$00"
  ACTI.MODL "x\Ex_MH_Pav_BStatue_15.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_enable$00"
 -ACTI
  ACTI.NAME "Ex_MH_Pav_Top$00"
  ACTI.MODL "x\Ex_MH_Pav_Top.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_disable$00"
 -LIGH
  LIGH.NAME "Light_MH_streetlamp_01_750$00"
@@ -25109,7 +25109,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "act_plague_starter$00"
  ACTI.MODL "EditorMarker.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "PlagueWarning$00"
 -LEVI
  LEVI.NAME "random_bulbs$00"
@@ -25206,7 +25206,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI
  ACTI.NAME "Ex_MH_Pav_Water_Spray$00"
  ACTI.MODL "x\Ex_MH_Pav_Water_Spray.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "fab_attack_disable$00"
 -ACTI
  ACTI.NAME "Ex_MH_city_gate$00"
@@ -25292,23 +25292,23 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_1$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_2$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_3$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_4$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_5$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -CONT
  CONT.NAME "de_r_chest_01_Velas$00"
  CONT.MODL "o\Contain_De_Chest_01.NIF$00"
@@ -25347,7 +25347,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "active_dbhideout$00"
  ACTI.MODL "f\Furn_Ashl_Chime_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "dbHideoutScript$00"
 -NPC_
  NPC_.NAME "drals indobar$00"
@@ -25522,7 +25522,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Shrine Cleanse$00"
  ACTI.MODL "In_OM_shrineFX.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -STAT
  STAT.NAME "in_MH_temple_02$00"
  STAT.MODL "i\in_MH_temple_02.NIF$00"
@@ -25583,22 +25583,22 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_flora_tree_MH_01$00"
  ACTI.MODL "f\flora_tree_MH_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "treeliveScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_flora_tree_MH_02$00"
  ACTI.MODL "f\flora_tree_MH_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "treeliveScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_flora_treedead_MH_01$00"
  ACTI.MODL "f\flora_treedead_MH_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "treedeadScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_flora_treedead_MH_02$00"
  ACTI.MODL "f\flora_treedead_MH_02.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "treedeadScript$00"
 -NPC_
  NPC_.NAME "Guard_Helseth$00"
@@ -25903,29 +25903,29 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_red00$00"
  ACTI.MODL "i\act_sotha_red.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "sothalightScript$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_red10$00"
  ACTI.MODL "i\act_sotha_red.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_green00$00"
  ACTI.MODL "i\act_sotha_green.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_green10$00"
  ACTI.MODL "i\act_sotha_green.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_steam00$00"
  ACTI.MODL "i\act_sotha_steam00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "sothasteam1Script$00"
 -ACTI
  ACTI.NAME "In_OM_waterfall_small$00"
  ACTI.MODL "i\In_OM_waterfall_small.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "Sound_Water_Spout$00"
 -NPC_
  NPC_.NAME "ordinator_MH_Sadri$00"
@@ -26173,7 +26173,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
 -ACTI
  ACTI.NAME "azura spirit_trib$00"
  ACTI.MODL "r\Azura.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "TribEnd$00"
 -CLOT [00 00 00 00 00 04 00 00]
  CLOT.NAME "Helseth's Collar$00"
@@ -26220,23 +26220,23 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_10$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_9$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_8$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_6$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Inviso_wall_7$00"
  ACTI.MODL "EditorMarker_box_01.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -ARMO
  ARMO.NAME "adamantium_helm$00"
  ARMO.MODL "A\A_adamantium_helm.nif$00"
@@ -26290,7 +26290,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_fabsteam$00"
  ACTI.MODL "i\act_sotha_fabsteam.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -DOOR
  DOOR.NAME "EX_MH_door_02_velas$00"
  DOOR.MODL "d\EX_MH_door_02.NIF$00"
@@ -26320,7 +26320,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_steam10$00"
  ACTI.MODL "i\act_sotha_steam00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "sothasteam2Script$00"
 -NPC_
  NPC_.NAME "db_assassin1b$00"
@@ -26369,7 +26369,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "act_sotha_collide$00"
  ACTI.MODL "i\act_sotha_collide00.NIF$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
 -CREA
  CREA.NAME "Rat_plague_hall1a$00"
  CREA.MODL "r\Rust rat.NIF$00"
@@ -26397,7 +26397,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
 -ACTI
  ACTI.NAME "teleport_enabler$00"
  ACTI.MODL "box.nif$00"
- ACTI.FNAM [00]
+ ACTI.FNAM "$00"
  ACTI.SCRI "enable_teleport$00"
 -DOOR [00 00 00 00 00 04 00 00]
  DOOR.NAME "EX_MH_door_02_ignatius$00"
