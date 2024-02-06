@@ -35,6 +35,7 @@ local function loadTxt(fn)
 			error("ERROR: bad line end at line " .. i .. " in '" .. fn .. "'")
 		end
 		if e == '"' then v = v:sub(1, -2) end
+		v = v:gsub("%$%$", "@TeS3ExTmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ExTmArK@", "$$")
 		if t[k] then
 			if k ~= "FACT.RNAM" and k ~= "FACT.ANAM" and k ~= "FACT.INTV" and k ~= "RACE.NPCS" and k ~= "BSGN.NPCS" then
 				-- error("ERROR: duplicated key: '" .. k .. "'" .. " in '" .. fn .. "'")
@@ -42,9 +43,9 @@ local function loadTxt(fn)
 			if type(t[k]) ~= "table" then
 				t[k] = {{ k, t[k] }}
 			end
-			t[k][#t[k] + 1] = { k, v:gsub("%$00.*$", "") }
+			t[k][#t[k] + 1] = { k, v }
 		else
-			t[k] = v:gsub("%$00.*$", "")
+			t[k] = v
 		end
 		k, v = nil, nil
 	end
@@ -96,16 +97,17 @@ local function extScr(line, p)
 	repeat
 		line, n = line:gsub("\n%s*;.-\n", "\n")
 	until n == 0
-	local kk, vv, i = {}, {}, 0
+	local kk, vv, i, mi, si, ci = {}, {}, 0, 0, 0, 0
 --	for s in line:gmatch '[Aa]dd[Tt]opic[%s,]+"?([^"%c]+)' do
---		i = i + 1
---		kk[i] = p .. i
+--		ai = ai + 1
+--		kk[i] = p .. "a" .. ai
 --		vv[i] = s
 --	end
 	for str in line:gmatch '[Mm]essage[Bb]ox[%s,]+("%C+)' do
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
-			kk[i] = p .. i
+			mi = mi + 1
+			kk[i] = p .. "m" .. mi
 			vv[i] = s
 		end
 	end
@@ -114,7 +116,8 @@ local function extScr(line, p)
 		for s in str:gmatch '"(.-)"' do
 			if j then -- skip first filename
 				i = i + 1
-				kk[i] = p .. i
+				si = si + 1
+				kk[i] = p .. "s" .. si
 				vv[i] = s
 			end
 			j = true
@@ -124,14 +127,16 @@ local function extScr(line, p)
 		local j = false
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
-			kk[i] = p .. i
+			ci = ci + 1
+			kk[i] = p .. "c" .. ci
 			vv[i] = s
 			j = true
 		end
-		if not j then
+		if not j and not str:find '"' then
 			for s in str:gmatch '(%a%S+)' do
 				i = i + 1
-				kk[i] = p .. i
+				ci = ci + 1
+				kk[i] = p .. "c" .. ci
 				vv[i] = s
 			end
 		end

@@ -132,20 +132,20 @@ local f = io.open(arg[3], "wb")
 i, n = 0, 0
 local function modScr(line, p, lineId)
 	local lines = {}
-	local i = 1
+	local i, mi, si, ci = 1, 0, 0, 0
 	while i ~= 0 do
 		local p = line:find("\n", i) or -1
 		lines[#lines + 1] = line:sub(i, p)
 		i = p + 1
 	end
-	for j = 1, #lines do
-		line = lines[j]
+	for i = 1, #lines do
+		line = lines[i]
 		if not line:find "^%s*;" then
-			lines[j] = line:gsub('([Mm]essage[Bb]ox[%s,]+)("%C+)', function(pre, str)
+			lines[i] = line:gsub('([Mm]essage[Bb]ox[%s,]+)("%C+)', function(pre, str)
 				return pre .. str:gsub('"(.-)"', function(s)
 					if s:find "[%a\x80-\xff]" then
-						i = i + 1
-						local k = p .. i
+						mi = mi + 1
+						local k = p .. "m" .. mi
 						local t = trans[k]
 						trans[k] = nil
 						n = n + 1
@@ -164,17 +164,17 @@ local function modScr(line, p, lineId)
 			end)
 		end
 	end
-	for j = 1, #lines do
-		line = lines[j]
+	for i = 1, #lines do
+		line = lines[i]
 		if not line:find "^%s*;" then
-			lines[j] = line:gsub('([Ss]ay[%s,]+)("%C+)', function(pre, str)
+			lines[i] = line:gsub('([Ss]ay[%s,]+)("%C+)', function(pre, str)
 				local first = true
 				return pre .. str:gsub('"(.-)"', function(s)
 					if first then
 						first = false
 					elseif s:find "[%a\x80-\xff]" then
-						i = i + 1
-						local k = p .. i
+						si = si + 1
+						local k = p .. "s" .. si
 						local t = trans[k]
 						trans[k] = nil
 						n = n + 1
@@ -193,16 +193,16 @@ local function modScr(line, p, lineId)
 			end)
 		end
 	end
-	for j = 1, #lines do
-		line = lines[j]
+	for i = 1, #lines do
+		line = lines[i]
 		if not line:find "^%s*;" then
-			lines[j] = line:gsub('([Cc]hoice[%s,]+)(%C+)', function(pre, str)
+			lines[i] = line:gsub('([Cc]hoice[%s,]+)(%C+)', function(pre, str)
 				local first = true
 				str = str:gsub('"(.-)"', function(s)
 					first = false
 					if s:find "[%a\x80-\xff]" then
-						i = i + 1
-						local k = p .. i
+						ci = ci + 1
+						local k = p .. "c" .. ci
 						local t = trans[k]
 						trans[k] = nil
 						n = n + 1
@@ -218,11 +218,11 @@ local function modScr(line, p, lineId)
 					end
 					return '"' .. s .. '"'
 				end)
-				if first then
+				if first and not str:find '"' then
 					str = str:gsub('(%a%S+)', function(s)
 						if s:find "[%a\x80-\xff]" then
-							i = i + 1
-							local k = p .. i
+							ci = ci + 1
+							local k = p .. "c" .. ci
 							local t = trans[k]
 							trans[k] = nil
 							n = n + 1
@@ -265,7 +265,7 @@ for line in io.lines(arg[1]) do
 			if r then
 				error("ERROR: not single line key at line " .. i .. " in '" .. arg[1] .. "'")
 			end
-			k = k:gsub("%$00.*$", "")
+			k = k:gsub("%$%$", "@TeS3ModmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ModmArK@", "$$")
 			if tag == "INFO.INAM" then
 				if not d then
 					error("ERROR: not found DIAG.NAME before INFO at line " .. i .. " in '" .. arg[1] .. "'")
@@ -279,7 +279,7 @@ for line in io.lines(arg[1]) do
 				v, r = readStr(line, true)
 			end
 			if not r then
-				local e = v:match "(%$00.*)$" or ""
+				local e = (v:gsub("%$%$", "@TeS3ModmArK@"):match "(%$00.*)$" or ""):gsub("@TeS3ModmArK@", "$$")
 				if e ~= "" then v = v:sub(1, -1 - #e) end
 				if v:find "[%a\x80-\xff]" then
 					local kk = tag .. " " .. k
@@ -310,7 +310,7 @@ for line in io.lines(arg[1]) do
 			if r then
 				error("ERROR: not single line DIAL.NAME at line " .. i .. " in '" .. arg[1] .. "'")
 			end
-			d = d:gsub("%$00.*$", ""):lower()
+			d = d:gsub("%$%$", "@TeS3ModmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ModmArK@", "$$"):lower()
 		elseif tag == "INFO.BNAM" or tag == "SCPT.SCTX" then
 			if not v then
 				v, r = readStr(line, true)
