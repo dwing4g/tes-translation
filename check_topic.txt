@@ -11,7 +11,7 @@ luajit tes3dec.lua tes3cn_Bloodmoon.esp gbk  > tes3cn_Bloodmoon.txt
 
 - 检查并补充关键词
 
-运行下面一行命令检查以上6个txt文件和topics.txt,检查通过会生成3个tes3cn_*_fix.txt:
+运行下面一行命令检查以上6个txt文件和topics.txt,检查通过会生成3个tes3cn_*.fix.txt:
 luajit check_topic.lua topics.txt > errors.txt
 
 有些错误信息会输出到命令行和errors.txt, 如果命令行显示出"ERROR:"开头的错误, 需要先修正.
@@ -25,9 +25,9 @@ undefined check topic [xxx], ref [yyy] 汉化txt里出现过关键词xxx,但topics.txt里没
 
 - 最后转换txt成esp格式
 
-luajit tes3enc.lua tes3cn_Morrowind_fix.txt tes3cn_Morrowind_fix.esp
-luajit tes3enc.lua tes3cn_Tribunal_fix.txt  tes3cn_Tribunal_fix.esp
-luajit tes3enc.lua tes3cn_Bloodmoon_fix.txt tes3cn_Bloodmoon_fix.esp
+luajit tes3enc.lua tes3cn_Morrowind.fix.txt tes3cn_Morrowind.fix.esp
+luajit tes3enc.lua tes3cn_Tribunal.fix.txt  tes3cn_Tribunal.fix.esp
+luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 
 其它说明:
 1. topics.txt要求所有英文字母全部小写.

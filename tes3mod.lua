@@ -2,8 +2,9 @@
 
 local io = io
 local arg = arg
-local print = print
 local error = error
+local print = print
+local table = table
 
 local newLine = true
 local function warn(...)
@@ -130,72 +131,95 @@ newLine = false
 local f = io.open(arg[3], "wb")
 i, n = 0, 0
 local function modScr(line, p, lineId)
-	line = line:gsub("\n%s*;.-\n", "\r\n")
-	local i = 0
-	return line:gsub('([Mm]essage[Bb]ox[%s,]+)("%C+)', function(pre, str)
-		return pre .. str:gsub('"(.-)"', function(s)
-			if s:find "[%a\x80-\xff]" then
-				i = i + 1
-				local k = p .. i
-				local t = trans[k]
-				trans[k] = nil
-				n = n + 1
-				if t then
-					if s == t[1] then
-						s = t[2]
-					else
-						warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+	local lines = {}
+	local i = 1
+	while i ~= 0 do
+		local p = line:find("\n", i) or -1
+		lines[#lines + 1] = line:sub(i, p)
+		i = p + 1
+	end
+	for j = 1, #lines do
+		line = lines[j]
+		if not line:find "^%s*;" then
+			lines[j] = line:gsub('([Mm]essage[Bb]ox[%s,]+)("%C+)', function(pre, str)
+				return pre .. str:gsub('"(.-)"', function(s)
+					if s:find "[%a\x80-\xff]" then
+						i = i + 1
+						local k = p .. i
+						local t = trans[k]
+						trans[k] = nil
+						n = n + 1
+						if t then
+							if s == t[1] then
+								s = t[2]
+							else
+								warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							end
+						else
+							warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						end
 					end
-				else
-					warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
-				end
-			end
-			return '"' .. s .. '"'
-		end)
-	end):gsub('([Ss]ay[%s,]+)("%C+)', function(pre, str)
-		local first = true
-		return pre .. str:gsub('"(.-)"', function(s)
-			if first then
-				first = false
-			elseif s:find "[%a\x80-\xff]" then
-				i = i + 1
-				local k = p .. i
-				local t = trans[k]
-				trans[k] = nil
-				n = n + 1
-				if t then
-					if s == t[1] then
-						s = t[2]
-					else
-						warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+					return '"' .. s .. '"'
+				end)
+			end)
+		end
+	end
+	for j = 1, #lines do
+		line = lines[j]
+		if not line:find "^%s*;" then
+			lines[j] = line:gsub('([Ss]ay[%s,]+)("%C+)', function(pre, str)
+				local first = true
+				return pre .. str:gsub('"(.-)"', function(s)
+					if first then
+						first = false
+					elseif s:find "[%a\x80-\xff]" then
+						i = i + 1
+						local k = p .. i
+						local t = trans[k]
+						trans[k] = nil
+						n = n + 1
+						if t then
+							if s == t[1] then
+								s = t[2]
+							else
+								warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							end
+						else
+							warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						end
 					end
-				else
-					warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
-				end
-			end
-			return '"' .. s .. '"'
-		end)
-	end):gsub('([Cc]hoice[%s,]+)("%C+)', function(pre, str)
-		return pre .. str:gsub('"(.-)"', function(s)
-			if s:find "[%a\x80-\xff]" then
-				i = i + 1
-				local k = p .. i
-				local t = trans[k]
-				trans[k] = nil
-				n = n + 1
-				if t then
-					if s == t[1] then
-						s = t[2]
-					else
-						warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+					return '"' .. s .. '"'
+				end)
+			end)
+		end
+	end
+	for j = 1, #lines do
+		line = lines[j]
+		if not line:find "^%s*;" then
+			lines[j] = line:gsub('([Cc]hoice[%s,]+)("%C+)', function(pre, str)
+				return pre .. str:gsub('"(.-)"', function(s)
+					if s:find "[%a\x80-\xff]" then
+						i = i + 1
+						local k = p .. i
+						local t = trans[k]
+						trans[k] = nil
+						n = n + 1
+						if t then
+							if s == t[1] then
+								s = t[2]
+							else
+								warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							end
+						else
+							warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						end
 					end
-				else
-					warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
-				end
-			end
-			return '"' .. s .. '"'
-		end)
-	end)
+					return '"' .. s .. '"'
+				end)
+			end)
+		end
+	end
+	return table.concat(lines)
 end
 local k, v, t, r, tag, d, fid
 for line in io.lines(arg[1]) do
