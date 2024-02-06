@@ -196,8 +196,10 @@ local function modScr(line, p, lineId)
 	for j = 1, #lines do
 		line = lines[j]
 		if not line:find "^%s*;" then
-			lines[j] = line:gsub('([Cc]hoice[%s,]+)("%C+)', function(pre, str)
-				return pre .. str:gsub('"(.-)"', function(s)
+			lines[j] = line:gsub('([Cc]hoice[%s,]+)(%C+)', function(pre, str)
+				local first = true
+				str = str:gsub('"(.-)"', function(s)
+					first = false
 					if s:find "[%a\x80-\xff]" then
 						i = i + 1
 						local k = p .. i
@@ -216,6 +218,28 @@ local function modScr(line, p, lineId)
 					end
 					return '"' .. s .. '"'
 				end)
+				if first then
+					str = str:gsub('(%a%S+)', function(s)
+						if s:find "[%a\x80-\xff]" then
+							i = i + 1
+							local k = p .. i
+							local t = trans[k]
+							trans[k] = nil
+							n = n + 1
+							if t then
+								if s == t[1] then
+									s = t[2]
+								else
+									warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+								end
+							else
+								warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+							end
+						end
+						return '"' .. s .. '"'
+					end)
+				end
+				return pre .. str
 			end)
 		end
 	end

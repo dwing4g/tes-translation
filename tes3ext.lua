@@ -120,11 +120,20 @@ local function extScr(line, p)
 			j = true
 		end
 	end
-	for str in line:gmatch '[Cc]hoice[%s,]+("%C+)' do
+	for str in line:gmatch '[Cc]hoice[%s,]+(%C+)' do
+		local j = false
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
 			kk[i] = p .. i
 			vv[i] = s
+			j = true
+		end
+		if not j then
+			for s in str:gmatch '(%a%S+)' do
+				i = i + 1
+				kk[i] = p .. i
+				vv[i] = s
+			end
 		end
 	end
 	return kk, vv
@@ -265,6 +274,32 @@ cn = nil
 -- end
 -- f:close()
 
+local noTrans = {
+	["SCPT.SCTX SoundTest 1"] = true,
+	["SCPT.SCTX SoundTest 2"] = true,
+	["SCPT.SCTX SoundTest 3"] = true,
+	["SCPT.SCTX SoundTest 4"] = true,
+	["SCPT.SCTX SoundTest 5"] = true,
+	["SCPT.SCTX SoundTest 6"] = true,
+	["SCPT.SCTX SoundTest 7"] = true,
+	["SCPT.SCTX SoundTest 8"] = true,
+	["SCPT.SCTX SoundTest 9"] = true,
+	["SCPT.SCTX SoundTest 10"] = true,
+	["SCPT.SCTX SoundTest 11"] = true,
+	["SCPT.SCTX SoundTest 12"] = true,
+	["SCPT.SCTX SoundTest 13"] = true,
+	["SCPT.SCTX SoundTest 14"] = true,
+	["SCPT.SCTX SoundTest 15"] = true,
+	["BOOK.TEXT bk_nemindasorders"] = true,
+	["BOOK.TEXT bk_ordersforbivaleteneran"] = true,
+	["BOOK.TEXT bk_treasuryreport"] = true,
+	["BOOK.TEXT bk_responsefromdivaythfyr"] = true,
+	["BOOK.TEXT bk_EggOfTime"] = true,
+	["BOOK.TEXT bk_BM_StoneMap"] = true,
+	["INFO.NAME 11111 test journal 128914348295877816"] = true,
+	["INFO.NAME 11111 test journal 32056462707524390"] = true,
+}
+
 io.stderr:write("INFO: writing '", arg[3], "' ...\n")
 local f = io.open(arg[3], "wb")
 for _, k in ipairs(es) do
@@ -272,12 +307,12 @@ for _, k in ipairs(es) do
 	local e, c = et[k], ct[k]
 	f:write(escape(e), "\r\n")
 	if c then
-		f:write(e == c and #e > 1 and "###" or escape(c), "\r\n\r\n")
 		ct[k] = nil
 	else
-		f:write("###\r\n\r\n")
+		c = e
 		warn("unmatched key '", k, "'")
 	end
+	f:write(e == c and not noTrans[k] and not k:find "^GMST.STRV" and (not e:find "^[%w]*_[%w_]*$" ) and "###" or escape(c), "\r\n\r\n")
 end
 f:close()
 
