@@ -46,7 +46,7 @@ luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 2. 如果有额外的`esm/esp`文件需要处理, 也需要转换成txt, 再修改`check_topic.lua`:
    在`src_filenames`补充原版的`txt`文件, `dst_filenames`补充汉化版导出的`txt`和修正后的`txt`文件名.
 3. 如果mod增加关键词, 需要补充`topics.txt`.
-4. `tes3dec.lua`和`tes3enc.lua`是万能的`esm/esp`处理工具, 转化为纯文本文件, 方便修改, 包括汉化.
+4. `tes3dec.lua`和`tes3enc.lua`是万能的`esm/esp/omwsave`处理工具, 转化为纯文本文件, 方便修改, 包括汉化.
    目前支持`上古卷轴3/4/5`,`辐射3/nv/4`, 但`上古卷轴5`和`辐射4`的文字不放到`esm/esp`里了.
 
 ### 转换脚本
@@ -79,4 +79,4 @@ luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 
 ### 关于编码和换行符
 
-所有`.txt`文件都是GBK编码, `\r\n`换行符, 原版`esm/esp`文件中的字符串使用`Windows-1252`编码.
+所有`.txt`文件和汉化版`esp`文件中的字符串都使用GBK编码和`\r\n`换行符, 原版`esm/esp`文件中的字符串使用`Windows-1252`编码.
