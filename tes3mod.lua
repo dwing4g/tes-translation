@@ -16,6 +16,14 @@ local function warn(...)
 	io.stderr:write("\n")
 end
 
+local topics = {}
+for line in io.lines("topics.txt") do
+	local k, v = line:match "%[(.-)%] => %[(.-)%]"
+	if k then
+		topics[k] = v
+	end
+end
+
 local function readStr(line, isFirst)
 	local s
 	if isFirst then
@@ -141,7 +149,32 @@ local function modScr(line, p, lineId)
 	for i = 1, #lines do
 		line = lines[i]
 		if not line:find "^%s*;" then
-			lines[i] = line:gsub('([Mm]essage[Bb]ox[%s,]+)("%C+)', function(pre, str)
+			line = line:gsub('([Aa]dd[Tt]opic[%s,]+)(%C+)', function(pre, str)
+				local first = true
+				str = str:gsub('"(.-)"', function(s)
+					first = false
+					local t = topics[s:lower()]
+					if t then
+						s = t
+					else
+						warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+					end
+					return '"' .. s .. '"'
+				end)
+				if first and not str:find '"' then
+					str = str:gsub('(%S+)', function(s)
+						local t = topics[s:lower()]
+						if t then
+							s = t
+						else
+							warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						end
+						return '"' .. s .. '"'
+					end)
+				end
+				return pre .. str
+			end)
+			line = line:gsub('([Mm]essage[Bb]ox[%s,]+)("%C+)', function(pre, str)
 				return pre .. str:gsub('"(.-)"', function(s)
 					if s:find "[%a\x80-\xff]" then
 						mi = mi + 1
@@ -162,12 +195,7 @@ local function modScr(line, p, lineId)
 					return '"' .. s .. '"'
 				end)
 			end)
-		end
-	end
-	for i = 1, #lines do
-		line = lines[i]
-		if not line:find "^%s*;" then
-			lines[i] = line:gsub('([Ss]ay[%s,]+)("%C+)', function(pre, str)
+			line = line:gsub('([Ss]ay[%s,]+)("%C+)', function(pre, str)
 				local first = true
 				return pre .. str:gsub('"(.-)"', function(s)
 					if first then
@@ -191,12 +219,7 @@ local function modScr(line, p, lineId)
 					return '"' .. s .. '"'
 				end)
 			end)
-		end
-	end
-	for i = 1, #lines do
-		line = lines[i]
-		if not line:find "^%s*;" then
-			lines[i] = line:gsub('([Cc]hoice[%s,]+)(%C+)', function(pre, str)
+			line = line:gsub('([Cc]hoice[%s,]+)(%C+)', function(pre, str)
 				local first = true
 				str = str:gsub('"(.-)"', function(s)
 					first = false
@@ -242,6 +265,7 @@ local function modScr(line, p, lineId)
 				return pre .. str
 			end)
 		end
+		lines[i] = line
 	end
 	return table.concat(lines)
 end

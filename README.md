@@ -51,12 +51,12 @@ luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 
 ### 转换脚本
 
-- `*.esp              ` => `*.txt     ` : tes3cn_dec.bat
-- `*.txt              ` => `*.txt     ` : tes3cn_trim.bat
-- `原.txt + 译.txt    ` => `译.ext.txt` : tes3cn_ext.bat
-- `原.txt + 译.ext.txt` => `译.txt    ` : tes3cn_mod.bat
-- `译.txt + topics.txt` => `译.txt    ` : tes3cn_topic.bat
-- `*.txt              ` => `*.esp     ` : tes3cn_enc.bat
+- `*.esp                           ` => `*.txt     ` : tes3cn_dec.bat
+- `*.txt                           ` => `*.txt     ` : tes3cn_trim.bat
+- `原.txt + 译.txt + topics.txt    ` => `译.ext.txt` : tes3cn_ext.bat
+- `原.txt + 译.ext.txt + topics.txt` => `译.txt    ` : tes3cn_mod.bat
+- `译.txt + topics.txt             ` => `译.txt    ` : tes3cn_topic.bat
+- `*.txt                           ` => `*.esp     ` : tes3cn_enc.bat
 
 ### 字符串格式
 
@@ -80,3 +80,7 @@ luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 ### 关于编码和换行符
 
 所有`.txt`文件和汉化版`esp`文件中的字符串都使用GBK编码和`\r\n`换行符, 原版`esm/esp`文件中的字符串使用`Windows-1252`编码.
+
+### Nexus上发布的汉化MOD
+
+https://www.nexusmods.com/morrowind/mods/53885
