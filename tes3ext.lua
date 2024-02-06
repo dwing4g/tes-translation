@@ -93,17 +93,16 @@ local function loadTxt(fn)
 end
 
 local function extScr(line, p)
-	local n
-	repeat
-		line, n = line:gsub("\n%s*;.-\n", "\n")
-	until n == 0
+	line = line:gsub("(\"[^\r\n]+\")", function(s)
+		return s:gsub(";", "@TeS3ExTmArK@")
+	end):gsub(";[^\r\n]*", ""):gsub("@TeS3ExTmArK@", ";")
 	local kk, vv, i, mi, si, ci = {}, {}, 0, 0, 0, 0
 --	for s in line:gmatch '[Aa]dd[Tt]opic[%s,]+"?([^"%c]+)' do
 --		ai = ai + 1
 --		kk[i] = p .. "a" .. ai
 --		vv[i] = s
 --	end
-	for str in line:gmatch '[Mm]essage[Bb]ox[%s,]+("%C+)' do
+	for str in line:gmatch '[Mm]essage[Bb]ox[%s,]+("[%C\t]+)' do
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
 			mi = mi + 1
@@ -111,7 +110,7 @@ local function extScr(line, p)
 			vv[i] = s
 		end
 	end
-	for str in line:gmatch '[Ss]ay[%s,]+("%C+)' do
+	for str in line:gmatch '[Ss]ay[%s,]+("[%C\t]+)' do
 		local j = false
 		for s in str:gmatch '"(.-)"' do
 			if j then -- skip first filename
@@ -123,7 +122,7 @@ local function extScr(line, p)
 			j = true
 		end
 	end
-	for str in line:gmatch '[Cc]hoice[%s,]+(%C+)' do
+	for str in line:gmatch '[Cc]hoice[%s,]+([%C\t]+)' do
 		local j = false
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
@@ -280,21 +279,21 @@ cn = nil
 -- f:close()
 
 local noTrans = {
-	["SCPT.SCTX SoundTest 1"] = true,
-	["SCPT.SCTX SoundTest 2"] = true,
-	["SCPT.SCTX SoundTest 3"] = true,
-	["SCPT.SCTX SoundTest 4"] = true,
-	["SCPT.SCTX SoundTest 5"] = true,
-	["SCPT.SCTX SoundTest 6"] = true,
-	["SCPT.SCTX SoundTest 7"] = true,
-	["SCPT.SCTX SoundTest 8"] = true,
-	["SCPT.SCTX SoundTest 9"] = true,
-	["SCPT.SCTX SoundTest 10"] = true,
-	["SCPT.SCTX SoundTest 11"] = true,
-	["SCPT.SCTX SoundTest 12"] = true,
-	["SCPT.SCTX SoundTest 13"] = true,
-	["SCPT.SCTX SoundTest 14"] = true,
-	["SCPT.SCTX SoundTest 15"] = true,
+	["SCPT.SCTX SoundTest m1"] = true,
+	["SCPT.SCTX SoundTest m2"] = true,
+	["SCPT.SCTX SoundTest m3"] = true,
+	["SCPT.SCTX SoundTest m4"] = true,
+	["SCPT.SCTX SoundTest m5"] = true,
+	["SCPT.SCTX SoundTest m6"] = true,
+	["SCPT.SCTX SoundTest m7"] = true,
+	["SCPT.SCTX SoundTest m8"] = true,
+	["SCPT.SCTX SoundTest m9"] = true,
+	["SCPT.SCTX SoundTest m10"] = true,
+	["SCPT.SCTX SoundTest m11"] = true,
+	["SCPT.SCTX SoundTest m12"] = true,
+	["SCPT.SCTX SoundTest m13"] = true,
+	["SCPT.SCTX SoundTest m14"] = true,
+	["SCPT.SCTX SoundTest m15"] = true,
 	["BOOK.TEXT bk_nemindasorders"] = true,
 	["BOOK.TEXT bk_ordersforbivaleteneran"] = true,
 	["BOOK.TEXT bk_treasuryreport"] = true,

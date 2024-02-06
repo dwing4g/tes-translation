@@ -300,10 +300,14 @@ This effect summons a Verminous Fabricant. It appears six feet in front of the c
 该效果会召唤一个害兽械构体。它出现在施法者前方六英尺处，攻击任何攻击施法者的实体，直到效果结束或召唤物被杀死。如果在城镇中召唤，卫兵一看到你和召唤物就会攻击你。
 
 > SCPT.SCTX almaScript s1
+Many Blessings upon you, my loyal servant.
+祝福你，我忠诚的仆人。
+
+> SCPT.SCTX almaScript s2
 Come. Bathe in the light of My Mercy.
 来吧，沐浴在我的慈悲之光下。
 
-> SCPT.SCTX almaScript s2
+> SCPT.SCTX almaScript s3
 What may I do for you, my child?
 我能为你做什么，我的孩子？
 

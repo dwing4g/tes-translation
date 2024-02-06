@@ -148,11 +148,30 @@ local function modScr(line, p, lineId)
 	end
 	for i = 1, #lines do
 		line = lines[i]
-		if not line:find "^%s*;" then
-			line = line:gsub('([Aa]dd[Tt]opic[%s,]+)(%C+)', function(pre, str)
-				local first = true
-				str = str:gsub('"(.-)"', function(s)
-					first = false
+		line = line:gsub("(\"[^\r\n]+\")", function(s)
+			return s:gsub(";", "@TeS3ExTmArK@")
+		end)
+		local t, e = line:match "^(.-)(;.*)$"
+		if t then
+			line = t
+		else
+			e = ""
+		end
+		line = line:gsub("@TeS3ExTmArK@", ";")
+		line = line:gsub('([Aa]dd[Tt]opic[%s,]+)(%C+)', function(pre, str)
+			local first = true
+			str = str:gsub('"(.-)"', function(s)
+				first = false
+				local t = topics[s:lower()]
+				if t then
+					s = t
+				else
+					warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+				end
+				return '"' .. s .. '"'
+			end)
+			if first and not str:find '"' then
+				str = str:gsub('(%S+)', function(s)
 					local t = topics[s:lower()]
 					if t then
 						s = t
@@ -161,68 +180,78 @@ local function modScr(line, p, lineId)
 					end
 					return '"' .. s .. '"'
 				end)
-				if first and not str:find '"' then
-					str = str:gsub('(%S+)', function(s)
-						local t = topics[s:lower()]
-						if t then
-							s = t
+			end
+			return pre .. str
+		end)
+		line = line:gsub('([Mm]essage[Bb]ox[%s,]+)("[%C\t]+)', function(pre, str)
+			return pre .. str:gsub('"(.-)"', function(s)
+				if s:find "[%a\x80-\xff]" then
+					mi = mi + 1
+					local k = p .. "m" .. mi
+					local t = trans[k]
+					trans[k] = nil
+					n = n + 1
+					if t then
+						if s == t[1] then
+							s = t[2]
 						else
-							warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
 						end
-						return '"' .. s .. '"'
-					end)
+					else
+						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+					end
 				end
-				return pre .. str
+				return '"' .. s .. '"'
 			end)
-			line = line:gsub('([Mm]essage[Bb]ox[%s,]+)("%C+)', function(pre, str)
-				return pre .. str:gsub('"(.-)"', function(s)
-					if s:find "[%a\x80-\xff]" then
-						mi = mi + 1
-						local k = p .. "m" .. mi
-						local t = trans[k]
-						trans[k] = nil
-						n = n + 1
-						if t then
-							if s == t[1] then
-								s = t[2]
-							else
-								warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
-							end
-						else
-							warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
-						end
-					end
-					return '"' .. s .. '"'
-				end)
-			end)
-			line = line:gsub('([Ss]ay[%s,]+)("%C+)', function(pre, str)
-				local first = true
-				return pre .. str:gsub('"(.-)"', function(s)
-					if first then
-						first = false
-					elseif s:find "[%a\x80-\xff]" then
-						si = si + 1
-						local k = p .. "s" .. si
-						local t = trans[k]
-						trans[k] = nil
-						n = n + 1
-						if t then
-							if s == t[1] then
-								s = t[2]
-							else
-								warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
-							end
-						else
-							warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
-						end
-					end
-					return '"' .. s .. '"'
-				end)
-			end)
-			line = line:gsub('([Cc]hoice[%s,]+)(%C+)', function(pre, str)
-				local first = true
-				str = str:gsub('"(.-)"', function(s)
+		end)
+		line = line:gsub('([Ss]ay[%s,]+)("[%C\t]+)', function(pre, str)
+			local first = true
+			return pre .. str:gsub('"(.-)"', function(s)
+				if first then
 					first = false
+				elseif s:find "[%a\x80-\xff]" then
+					si = si + 1
+					local k = p .. "s" .. si
+					local t = trans[k]
+					trans[k] = nil
+					n = n + 1
+					if t then
+						if s == t[1] then
+							s = t[2]
+						else
+							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+						end
+					else
+						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+					end
+				end
+				return '"' .. s .. '"'
+			end)
+		end)
+		line = line:gsub('([Cc]hoice[%s,]+)([%C\t]+)', function(pre, str)
+			local first = true
+			str = str:gsub('"(.-)"', function(s)
+				first = false
+				if s:find "[%a\x80-\xff]" then
+					ci = ci + 1
+					local k = p .. "c" .. ci
+					local t = trans[k]
+					trans[k] = nil
+					n = n + 1
+					if t then
+						if s == t[1] then
+							s = t[2]
+						else
+							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+						end
+					else
+						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+					end
+				end
+				return '"' .. s .. '"'
+			end)
+			if first and not str:find '"' then
+				str = str:gsub('(%a%S+)', function(s)
 					if s:find "[%a\x80-\xff]" then
 						ci = ci + 1
 						local k = p .. "c" .. ci
@@ -241,31 +270,10 @@ local function modScr(line, p, lineId)
 					end
 					return '"' .. s .. '"'
 				end)
-				if first and not str:find '"' then
-					str = str:gsub('(%a%S+)', function(s)
-						if s:find "[%a\x80-\xff]" then
-							ci = ci + 1
-							local k = p .. "c" .. ci
-							local t = trans[k]
-							trans[k] = nil
-							n = n + 1
-							if t then
-								if s == t[1] then
-									s = t[2]
-								else
-									warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
-								end
-							else
-								warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
-							end
-						end
-						return '"' .. s .. '"'
-					end)
-				end
-				return pre .. str
-			end)
-		end
-		lines[i] = line
+			end
+			return pre .. str
+		end)
+		lines[i] = line .. e
 	end
 	return table.concat(lines)
 end
