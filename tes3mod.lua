@@ -149,7 +149,7 @@ local function modScr(line, p, lineId)
 	for i = 1, #lines do
 		line = lines[i]
 		line = line:gsub("(\"[^\r\n]+\")", function(s)
-			return s:gsub(";", "@TeS3ExTmArK@")
+			return s:gsub(";", "@TeS3ModmArK@")
 		end)
 		local t, e = line:match "^(.-)(;.*)$"
 		if t then
@@ -157,7 +157,7 @@ local function modScr(line, p, lineId)
 		else
 			e = ""
 		end
-		line = line:gsub("@TeS3ExTmArK@", ";")
+		line = line:gsub("@TeS3ModmArK@", ";")
 		line = line:gsub('([Aa]dd[Tt]opic[%s,]+)(%C+)', function(pre, str)
 			local first = true
 			str = str:gsub('"(.-)"', function(s)
