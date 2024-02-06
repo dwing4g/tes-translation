@@ -6,12 +6,12 @@
 
 打开命令行, 进入`openmw\scripts`目录, 依次运行下面几行命令, 生成出对应的6个`txt`文件:
 ```
-luajit tes3dec.lua Morrowind.esm        1252 > Morrowind.txt
-luajit tes3dec.lua Tribunal.esm         1252 > Tribunal.txt
-luajit tes3dec.lua Bloodmoon.esm        1252 > Bloodmoon.txt
-luajit tes3dec.lua tes3cn_Morrowind.esp gbk  > tes3cn_Morrowind.txt
-luajit tes3dec.lua tes3cn_Tribunal.esp  gbk  > tes3cn_Tribunal.txt
-luajit tes3dec.lua tes3cn_Bloodmoon.esp gbk  > tes3cn_Bloodmoon.txt
+luajit tes3dec.lua Morrowind.esm        1252 raw > Morrowind.txt
+luajit tes3dec.lua Tribunal.esm         1252 raw > Tribunal.txt
+luajit tes3dec.lua Bloodmoon.esm        1252 raw > Bloodmoon.txt
+luajit tes3dec.lua tes3cn_Morrowind.esp gbk  raw > tes3cn_Morrowind.txt
+luajit tes3dec.lua tes3cn_Tribunal.esp  gbk  raw > tes3cn_Tribunal.txt
+luajit tes3dec.lua tes3cn_Bloodmoon.esp gbk  raw > tes3cn_Bloodmoon.txt
 ```
 
 ### 检查并补充关键词
