@@ -277,7 +277,7 @@ local function modScr(line, p, lineId)
 	end
 	return table.concat(lines)
 end
-local k, v, t, r, tag, d, fid
+local k, v, t, r, tag, d, dl, fid
 for line in io.lines(arg[1]) do
 	i = i + 1
 	if not v then
@@ -343,6 +343,21 @@ for line in io.lines(arg[1]) do
 				error("ERROR: not single line DIAL.NAME at line " .. i .. " in '" .. arg[1] .. "'")
 			end
 			d = d:gsub("%$%$", "@TeS3ModmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ModmArK@", "$$"):lower()
+			dl, line = line, nil
+		elseif tag == "DIAL.DATA" then
+			if line:find "%[00%]" then
+				dl = dl:gsub('"(.-)([%$"])', function(s, e)
+					local t = topics[s:lower()]
+					if t then
+						s = t
+					else
+						warn("not found topic '" .. s .. "' at line " .. i .. " in '" .. arg[1] .. "'")
+					end
+					return '"' .. s .. e
+				end)
+			end
+			line = dl .. "\r\n" .. line
+			dl = nil
 		elseif tag == "INFO.BNAM" or tag == "SCPT.SCTX" then
 			if not v then
 				v, r = readStr(line, true)
