@@ -14,6 +14,16 @@ local ipairs = ipairs
 local pairs = pairs
 local error = error
 
+local newLine = true
+local function warn(...)
+	if not newLine then
+		newLine = true
+		io.stderr:write "\n"
+	end
+	io.stderr:write("WARN: ", ...)
+	io.stderr:write "\n"
+end
+
 local src_filenames = {
 	"Morrowind.txt",
 	"Tribunal.txt",
@@ -88,26 +98,29 @@ end
 
 local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM, INAM => { topics }
 	io.stderr:write("loading ", filename, " ... ")
+	newLine = false
 	local localTopicMap = {}
 	local n, topic = 0
 	for line in io.lines(filename) do
 		local s = line:match "^%x*:?%s*DIAL%.NAME%s*\"(.-)\""
 		if s then
 			topic = s:gsub("%$00$", "")
-		else
+		elseif topic then
 			s = line:match "^%x*:?%s*DIAL%.DATA %[(.-)%]"
 			if s then
-				if s ~= "00" and topic then -- 00:Topic 01:Voice 02:Greeting 03:Persuasion 04:Journal
+				if s == "00" then -- 00:Topic 01:Voice 02:Greeting 03:Persuasion 04:Journal
+					topicMap[topic:lower()] = true
+				else
 					dials[topic] = true
 					topic = nil
 				end
-			elseif topic then
+			else
 				s = line:match "^%x*:?%s*INFO%.INAM%s*\"(.*)\"$"
 				if s then
 					s = s:gsub("%$00$", "")
 					topic = topic:lower()
 					if localTopicMap[topic] then
-						io.stderr:write("WARN: duplicated topic: ", topic, " => ", s, "\n")
+						warn("duplicated topic: ", topic, " => ", s)
 					end
 					localTopicMap[topic] = s
 					topicMap[topic] = s
@@ -126,6 +139,7 @@ local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM
 		end
 	end
 	io.stderr:write(n, " topics\n")
+	newLine = true
 end
 
 local topicMap, topicMapR, dials = {}, {}, {}
@@ -140,13 +154,14 @@ end
 
 for dial in pairs(checkDials) do
 	if not dials[dial] then
-		io.stderr:write("WARN: unmatched DIAL.NAME: ", dial, "\n")
+		warn("unmatched DIAL.NAME: ", dial)
 	end
 end
 
 local f = io.open(topics_filename, "rb")
 if not f then
 	io.stderr:write("creating ", topics_filename, " ... ")
+	newLine = false
 	f = io.open(topics_filename, "wb")
 	local n = 0
 	for topic, inam in pairs(topicMap) do
@@ -165,6 +180,7 @@ if not f then
 	end
 	f:close()
 	io.stderr:write(n, " topics\n")
+	newLine = true
 	io.stderr:write "========== DUMP TOPICS DONE ==========\n"
 	return
 end
@@ -172,25 +188,30 @@ f:close()
 local topicPairs = {}
 local i = 1
 io.stderr:write("loading ", topics_filename, " ... ")
+newLine = false
 local err = 0
 local check0, check1 = {}, {}
 for line in io.lines(topics_filename) do
 	local topic, checkTopic, more = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%](.*)$"
 	if not topic or more:find "%S" then
+		if err == 0 then io.stderr:write "\n" newLine = true end
 		io.stderr:write("ERROR: invalid topic file at line ", i, "\n")
 		err = err + 1
 	else
 		if check0[topic] then
+			if err == 0 then io.stderr:write "\n" newLine = true end
 			io.stderr:write("ERROR: duplicated topic [", topic, "] at line ", i, "\n")
 			err = err + 1
 		end
 		if check1[checkTopic] then
+			if err == 0 then io.stderr:write "\n" newLine = true end
 			io.stderr:write("ERROR: duplicated checkTopic [", checkTopic, "] at line ", i, "\n")
 			err = err + 1
 		end
 		check0[topic] = checkTopic
 		check1[checkTopic] = topic
 		if not topicMap[topic] then
+			if err == 0 then io.stderr:write "\n" newLine = true end
 			io.stderr:write("ERROR: invalid topic [", topic, "] at line ", i, "\n")
 			err = err + 1
 		end
@@ -205,6 +226,7 @@ for line in io.lines(topics_filename) do
 					t[#t + 1] = "]"
 				end
 			end
+			if err == 0 then io.stderr:write "\n" newLine = true end
 			io.stderr:write("ERROR: invalid check topic [", checkTopic, "] at line ", i, concat(t), "\n")
 			err = err + 1
 		end
@@ -213,6 +235,7 @@ for line in io.lines(topics_filename) do
 	end
 end
 io.stderr:write(i - 1, " topics\n")
+newLine = true
 for topic in pairs(topicMap) do
 	if not check0[topic] then
 		io.stderr:write("ERROR: undefined topic [", topic, "]\n")
@@ -231,7 +254,7 @@ for t0, t1 in pairs(check0) do
 		if t0 ~= s0 then
 			local tp = t0:find(s0, 1, true)
 			if tp and (tp == 1 or t0:sub(tp - 1, tp - 1):find "%W") and not t1:find(s1, 1, true) then
-				io.stderr:write("WARN: topic contain unmatched: [" .. t0 .. "] => [" .. t1 .. "], [" .. s0 .. "] => [" .. s1 .. "]\n")
+				warn("topic contain unmatched: [" .. t0 .. "] => [" .. t1 .. "], [" .. s0 .. "] => [" .. s1 .. "]")
 			end
 		end
 	end
@@ -279,11 +302,12 @@ end
 
 local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ DIAL.NAME" => text
 	io.stderr:write("loading ", filename, " ... ")
+	newLine = false
 	local i, n, dn, ss, inam, dial, key = 1, 0, 0
 	for line in io.lines(filename) do
 		local topic = line:match "[Aa]dd[Tt]opic%s*\"\"(.-)\"\""
 		if topic and not topicMap[topic:lower()] and not line:find ";%s*[Aa]dd[Tt]opic%s*\"\"" then
-			io.stderr:write("WARN: not found topic at line ", i, ": ", line, "\n")
+			warn("not found topic at line ", i, ": ", line)
 		end
 		if ss then
 			local isEnd, s = readString(line, 1)
@@ -293,7 +317,7 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 				ss = nil
 				key = inam .. " @ " .. dial
 				if texts[key] and texts[key] ~= s then
-					io.stderr:write("WARN: duplicated INFO.INAM @ DIAL.NAME: ", key, "\n")
+					warn("duplicated INFO.INAM @ DIAL.NAME: ", key)
 				end
 				texts[key] = s
 				inam = nil
@@ -332,7 +356,7 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 							if isEnd == true then
 								key = inam .. " @ " .. dial
 								if texts[key] and texts[key] ~= s then
-									io.stderr:write("WARN: duplicated INFO.INAM @ DIAL.NAME: ", key, "\n")
+									warn("duplicated INFO.INAM @ DIAL.NAME: ", key)
 								end
 								texts[key] = s
 								inam = nil
@@ -354,6 +378,7 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 		error("ERROR: invalid string end at line " .. i)
 	end
 	io.stderr:write(n, " texts\n")
+	newLine = true
 end
 
 local texts, ignoreKeys = {}, {}
@@ -497,6 +522,7 @@ for key, topics in pairs(matches) do
 end
 
 io.stderr:write("========== CHECK DONE ========== (", n1, " + ", n2, " errors)\n")
+newLine = true
 
 local function addEscape(s) -- for GBK
 	local t = {}
@@ -533,6 +559,7 @@ end
 local function fixTexts(src_filename, dst_filename)
 	io.stderr:write("loading ", src_filename, " ... \n")
 	io.stderr:write("creating ", dst_filename, " ... ")
+	newLine = false
 	local f = io.open(dst_filename, "wb")
 	if not f then error "ERROR: can not create file" end
 	local i, n, ss, inam, dial, out, key, prefix, t, isEnd = 1, 0
@@ -611,6 +638,7 @@ local function fixTexts(src_filename, dst_filename)
 	end
 	f:close()
 	io.stderr:write("fixed ", n, " texts\n")
+	newLine = true
 end
 
 if next(fixedTexts) then

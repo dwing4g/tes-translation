@@ -10,10 +10,10 @@ local newLine = true
 local function warn(...)
 	if not newLine then
 		newLine = true
-		print()
+		io.stderr:write "\n"
 	end
 	io.stderr:write("WARN: ", ...)
-	io.stderr:write("\n")
+	io.stderr:write "\n"
 end
 
 local topics = {}
