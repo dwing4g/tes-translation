@@ -228,7 +228,7 @@ local function modScr(line, p, lineId)
 				return '"' .. s .. '"'
 			end)
 		end)
-		line = line:gsub('([Cc]hoice[%s,]+)([%C\t]+)', function(pre, str)
+		line = line:gsub('([Cc]hoice[%s,:]+)([%C\t]+)', function(pre, str)
 			local first = true
 			str = str:gsub('"(.-)"', function(s)
 				first = false

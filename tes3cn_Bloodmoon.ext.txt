@@ -17802,6 +17802,18 @@ Very well.
 Yes? Do you wish to turn in your certificate?
 什么事？您想上交证书吗？
 
+> INFO.BNAM stock certificate 5637141661331522167 c1
+Check value
+查看价值
+
+> INFO.BNAM stock certificate 5637141661331522167 c2
+Turn in certificate
+上交证书
+
+> INFO.BNAM stock certificate 5637141661331522167 c3
+Nevermind.
+没事。
+
 > INFO.NAME stock certificate 263261158930515852
 It's a way to offset the cost of establishing and developing the colony. Each employee is issued a certificate that has a value based on how well the colony is performing. If you decide you'd like to exchange it for money, it can be arranged. See me if you're interested in doing so.
 这是一种抵消建立和发展殖民地成本的方式。每位员工都会获得一份证书，证书的价值取决于殖民地的表现。如果你想用它来换钱，我们可以帮你安排。如果您有兴趣，可以来找我。
@@ -17854,9 +17866,33 @@ As you wish.
 Yes, well. Given the absence of Carnius, I suppose I could process the appropriate paperwork. Would you like to exchange your certificate now?
 是的，好吧。鉴于卡尼乌斯不在，我想我可以办理相关手续。你现在想换证书吗？
 
+> INFO.BNAM stock certificate 2304213722098810832 c1
+Check value
+查看价值
+
+> INFO.BNAM stock certificate 2304213722098810832 c2
+Turn in certificate
+上交证书
+
+> INFO.BNAM stock certificate 2304213722098810832 c3
+Nevermind.
+没事。
+
 > INFO.NAME stock certificate 15859310892244830074
 Yes, well. Given the absence of Carnius, I suppose I could process the appropriate paperwork. Would you like to exchange your certificate now?
 是的，好吧。鉴于卡尼乌斯不在，我想我可以办理相关手续。你现在想换证书吗？
+
+> INFO.BNAM stock certificate 15859310892244830074 c1
+Check value
+查看价值
+
+> INFO.BNAM stock certificate 15859310892244830074 c2
+Turn in certificate
+上交证书
+
+> INFO.BNAM stock certificate 15859310892244830074 c3
+Nevermind.
+没事。
 
 > INFO.NAME stock certificate 302261996315917917
 Ah. Yes, well, Carnius handles stock certificates, being the local Factor and all.
@@ -18155,6 +18191,26 @@ Very well. Here you go.
 You've given me enough Stalhrim that you deserve a reward. What weapon would you like?
 你给我的魔冰够多了，你应该得到奖赏。你想要什么武器？
 
+> INFO.BNAM stalhrim weapons 900847722160227203 c1
+Stalhrim War Axe
+魔冰战斧
+
+> INFO.BNAM stalhrim weapons 900847722160227203 c2
+Stalhrim Dagger
+魔冰匕首
+
+> INFO.BNAM stalhrim weapons 900847722160227203 c3
+Stalhrim Longsword
+魔冰长剑
+
+> INFO.BNAM stalhrim weapons 900847722160227203 c4
+Stalhrim Mace
+魔冰钉锤
+
+> INFO.BNAM stalhrim weapons 900847722160227203 c5
+Nevermind
+没事
+
 > INFO.NAME stalhrim weapons 1973430735196923071
 You haven't turned over enough Stalhrim to warrant my giving you a reward, %PCRank.
 你交出的魔冰还不够多 所以我不会给你奖赏 %PCRank
@@ -18230,6 +18286,26 @@ You don't have enough raw Stalhrim for me to forge you a War Axe.
 > INFO.NAME stalhrim weapons 1052431962138491563
 I can forge certain weapons for you, but you have to provide the Stalhrim. What would you like me to create for you?
 我可以为你打造某些武器 但你必须提供魔冰 你想要我为你打造什么？
+
+> INFO.BNAM stalhrim weapons 1052431962138491563 c1
+Stalhrim War Axe
+魔冰战斧
+
+> INFO.BNAM stalhrim weapons 1052431962138491563 c2
+Stalhrim Dagger
+魔冰匕首
+
+> INFO.BNAM stalhrim weapons 1052431962138491563 c3
+Stalhrim Longsword
+魔冰长剑
+
+> INFO.BNAM stalhrim weapons 1052431962138491563 c4
+Stalhrim Mace
+魔冰钉锤
+
+> INFO.BNAM stalhrim weapons 1052431962138491563 c5
+Nevermind
+没事
 
 > INFO.NAME custom fur armor 2830419322300177154
 Roaming the wilds of Solsteim are seldom seen, elusive species of wolf and bear.  They're called snow wolves and snow bears, because of their white fur.  It is said that the pelts of these animals have innate magical qualities that help guard against Solstheim's brutal frost and snow.  Just think of the armor I could create with such materials!  If you were to provide me with the pelts and enough gold, I would gladly make you a set of custom snow wolf armor or snow bear armor.
@@ -19102,6 +19178,14 @@ Is he really that stubborn? Fine. I don't have time for this. We need to get in 
 > INFO.NAME get rid of him 3011722534234436522
 Is he really that stubborn? Fine. I don't have time for this. We need to get in there and finish our work. You have my permission to rough him up a little bit. Bare fists only; no weapons, no spells. Are we clear? I want him to understand he's not welcome here; I don't want him dead.
 他真的那么顽固吗？好吧。我没时间了，我们得进去完成我们的工作，我允许你对他动粗。只能赤手空拳 不能用武器和咒语，明白了吗？我要让他明白这里不欢迎他，我不想让他死。
+
+> INFO.BNAM get rid of him 3011722534234436522 c1
+I'm not very good with hand to hand combat.
+我不擅长徒手搏斗。
+
+> INFO.BNAM get rid of him 3011722534234436522 c2
+Can't I just kill him?
+我不能杀了他吗？
 
 > INFO.NAME get rid of him 91381525142124686
 Yes, that's right. Go talk to him, and explain that he's not wanted here, and that he needs to leave.
@@ -20947,29 +21031,85 @@ Only one volunteer? Perhaps they are not all as stupid as I'd assumed. Neverthel
 Who's it going to be, then?
 那会是谁呢？
 
+> INFO.BNAM hire guards 7227139893029531887 c1
+Afer Flaccus, Gratian Caerellius, and Garnas Uvalen.
+阿弗尔·弗拉库斯 格拉蒂安·卡雷利乌斯 和加纳斯·尤瓦伦
+
+> INFO.BNAM hire guards 7227139893029531887 c2
+Nevermind.
+没事。
+
 > INFO.NAME hire guards 3248919022912510665
 Who's it going to be, then?
 那会是谁呢？
+
+> INFO.BNAM hire guards 3248919022912510665 c1
+Afer Flaccus and Gratian Caerellius.
+阿弗尔·弗拉库斯和格拉蒂安·卡雷利乌斯
+
+> INFO.BNAM hire guards 3248919022912510665 c2
+Nevermind.
+没事。
 
 > INFO.NAME hire guards 33854830543910179
 Who's it going to be, then?
 那会是谁呢？
 
+> INFO.BNAM hire guards 33854830543910179 c1
+Afer Flaccus and Garnas Uvalen.
+阿弗尔·弗拉库斯和加纳斯·尤瓦伦。
+
+> INFO.BNAM hire guards 33854830543910179 c2
+Nevermind.
+没事。
+
 > INFO.NAME hire guards 1645194312868130680
 Who's it going to be, then?
 那会是谁呢？
+
+> INFO.BNAM hire guards 1645194312868130680 c1
+Gratian Caerellius and Garnas Uvalen.
+格拉蒂安·卡雷利乌斯和加纳斯·尤瓦伦
+
+> INFO.BNAM hire guards 1645194312868130680 c2
+Nevermind.
+没事。
 
 > INFO.NAME hire guards 1633727831943823083
 Who's it going to be, then?
 那会是谁呢？
 
+> INFO.BNAM hire guards 1633727831943823083 c1
+Afer Flaccus.
+阿弗尔·弗拉库斯.
+
+> INFO.BNAM hire guards 1633727831943823083 c2
+Nevermind.
+没事。
+
 > INFO.NAME hire guards 30621191111704290
 Who's it going to be, then?
 那会是谁呢？
 
+> INFO.BNAM hire guards 30621191111704290 c1
+Gratian Caerellius.
+格拉蒂安·卡雷利乌斯.
+
+> INFO.BNAM hire guards 30621191111704290 c2
+Nevermind.
+没事。
+
 > INFO.NAME hire guards 215731359235385129
 Who's it going to be, then?
 那会是谁呢？
+
+> INFO.BNAM hire guards 215731359235385129 c1
+Garnas Uvalen.
+加纳斯·尤瓦伦.
+
+> INFO.BNAM hire guards 215731359235385129 c2
+Nevermind.
+没事。
 
 > INFO.NAME hire guards 318305916177363749
 You haven't found anyone? I find that impossible to believe. Get back out there and keep looking.
@@ -21183,6 +21323,14 @@ You haven't found anyone? There must be someone willing to take on guard duty. Y
 Have you finished, or are you going to keep looking for colonists willing to act as guards?
 你找完了，还是要继续寻找愿意担任卫兵的殖民者？
 
+> INFO.BNAM hire guards 2945293352127716754 c1
+I've finished.
+我已经找完了
+
+> INFO.BNAM hire guards 2945293352127716754 c2
+I'll keep looking.
+我会继续找的
+
 > INFO.NAME hire guards 13854314421121627306
 I think it's only fair that others take up the responsibility, but it's not something I would be willing to order any of them to do. I'd like to see if there are any volunteers first. Ask around, and see if any of the colonists would be interested. Let me know if you find any.
 我觉得让其他人来承担这个责任才公平，但这不是我愿意命令他们任何人去做的事。我想先看看有没有志愿者。问问看有没有殖民者感兴趣 找到的话告诉我
@@ -21206,6 +21354,14 @@ Gladly. Let's go.
 > INFO.NAME ready to go 157512543115238648
  We're still headed for Raven Rock, right?
  我们还是要去鸦石，对吧？
+
+> INFO.BNAM ready to go 157512543115238648 c1
+Wait here.
+待在这。
+
+> INFO.BNAM ready to go 157512543115238648 c2
+Follow me.
+跟我来
 
 > INFO.NAME ready to go 2532031899315718403
 All right then. We all voted, and decided that you get to take the lead. None of us are particularly fond of the woods - I'm not saying we're cowards, mind you - and we felt that you'd be better off leading the way. I can at least mark the spot on your map, so you know which way to head. Lead on!
@@ -21302,6 +21458,14 @@ What? You must be joking. You're seriously going to leave me out here? But I'll 
 > INFO.NAME go with you 2804185343276318359
 Oh, you just can't leave me. No one would be that heartless. I'd freeze to death out here! I don't know what I was thinking, hitching a ride on a supply ship in the first place. Who appoints a Wood Elf captain of a ship? I should've known better. And then that horrible crash.... And now they're all dead, and the supplies are ruined, and I just want to get warm. Oh, please take me with you...
 你不能丢下我 没人会那么无情 我会冻死在这里的 我都不知道自己在想什么 一开始就搭上了补给船 谁会任命木精灵当船长？我早该知道的 然后那场可怕的撞击.... 现在他们都死了，补给也毁了，我只想取暖。哦，请带我一起走吧...
+
+> INFO.BNAM go with you 2804185343276318359 c1
+Follow me.
+跟我来
+
+> INFO.BNAM go with you 2804185343276318359 c2
+I'm sorry, I can't take you anywhere.
+对不起 我不能带你去任何地方
 
 > INFO.NAME explanation 1161441542644220044
 Hmm? I don't think it matters much now, do you?
@@ -27611,6 +27775,18 @@ What do you mean, you haven't decided yet? If you haven't made a decision, why a
 Let's get this over with, so I can allocate the funds and move on to something more important. What's it going to be?
 先把这事解决了，我好分配资金 然后去做更重要的事 什么事？
 
+> INFO.BNAM decision 16742146962583030910 c1
+The Smith.
+铁匠铺。
+
+> INFO.BNAM decision 16742146962583030910 c2
+The Trader
+贸易商
+
+> INFO.BNAM decision 16742146962583030910 c3
+I haven't decided yet.
+我还没决定
+
 > INFO.NAME decision 720711278267008473
 You heard me, %PCRank. A smith or a trader. I don't care how you do it. Ask the colonists, decide on your own, pick one out of a hat. Just come back and let me know what it's going to be.
 你听到了，%PCRank。铁匠铺还是贸易商？我不管你怎么做。问问殖民者，自己决定，从帽子里挑一个。只要回来告诉我是什么就行了
@@ -27627,9 +27803,25 @@ The decision's been made, %PCName. Has Carnius been informed yet?
 Indeed, a smith would be useful to us. Are you certain that's how we should invest? Once we've started construction, you can't afford to change your mind.
 的确，铁匠铺对我们很有用 你确定我们要这样投资吗？一旦开工，你就不能改变主意了
 
+> INFO.BNAM decision 2454423943185026638 c1
+Yes, I'm sure.
+是的，我确信可以。
+
+> INFO.BNAM decision 2454423943185026638 c2
+No, wait.
+不，等等
+
 > INFO.NAME decision 22801268022147514621
 A trader, eh? Well, we can certainly build that, though it will take some time. Are you absolutely sure that's what we should build? Once we invest the money in it, we can't change the plans.
 贸易商？我们当然可以建造，不过需要一些时间。你确定我们要建这个吗？一旦我们把钱投进去 就不能改变计划了
+
+> INFO.BNAM decision 22801268022147514621 c1
+Yes, I'm sure.
+是的，我确信可以。
+
+> INFO.BNAM decision 22801268022147514621 c2
+No, wait.
+不，等等
 
 > INFO.NAME decision 174283007633669992
 Not quite sure yet, eh? Not to worry, %PCName. Think it over some more.
@@ -27646,6 +27838,18 @@ So be it. I'll get the men started on construction; you take the news to Carnius
 > INFO.NAME decision 2370917710697717552
 So, what do you think, %PCName? Which should it be - the smith, or the trader?
 你觉得呢，%PCName？铁匠铺还是贸易商？
+
+> INFO.BNAM decision 2370917710697717552 c1
+The Smith.
+铁匠铺。
+
+> INFO.BNAM decision 2370917710697717552 c2
+The Trader.
+贸易商.
+
+> INFO.BNAM decision 2370917710697717552 c3
+I haven't decided yet.
+我还没决定
 
 > INFO.NAME decision 496318281606632531
 Raven Rock is expanding nicely, despite the heavy ore quotas Carnius has insisted on. It's time we build something other than housing, and the funds are available to build either a smithy or a trader's outpost. I'm having a difficult time deciding which would suit us better, and I'd value your opinion. Take some time and think it over, talk to the workers if you like, and come back when you've made up your mind.
@@ -27751,6 +27955,14 @@ You won't, eh? Well, maybe I won't give you a choice!
 I suppose you're going to try and tell me that my family is more important, right? Look, I don't want things to end like this, but I don't want Dralora to have to see me wasting away in front of her. I don't want her to have to take care of me because I can't do it myself. Just kill me, won't you?  Put an end to this!
 我想你会告诉我 我的家庭更重要，对吗？听着，我不想事情就这样结束 但我不想让德拉洛拉看到我在她面前虚度光阴 我不想让她因为我不能自己照顾我而照顾我 杀了我，好吗？ 结束这一切
 
+> INFO.BNAM fight me 1512516121061127491 c1
+Fine. I'll do it.
+好，我来。
+
+> INFO.BNAM fight me 1512516121061127491 c2
+No, I won't.
+不，我不会
+
 > INFO.NAME fight me 19372277872210925921
 My wife? She's..... she's dead? Then I really have nothing to live for. Let's end this, %PCName, right now!
 我妻子？她.....，她死了？那我就没什么好活的了 让我们结束这一切，%PCName，现在！
@@ -27759,9 +27971,25 @@ My wife? She's..... she's dead? Then I really have nothing to live for. Let's en
 My wife will be better off without me, whether she knows it or not. What, you think you know better?
 没有我，我妻子会过得更好，不管她知不知道。怎么，你觉得你更清楚？
 
+> INFO.BNAM fight me 2692387883073519102 c1
+No, you're right. I'll do it.
+不，你是对的 我会的
+
+> INFO.BNAM fight me 2692387883073519102 c2
+This isn't your only option.
+这不是你唯一的选择
+
 > INFO.NAME fight me 10134106374452486
 Why? Look at me. I'm an old man. My health is failing, I'm of no use in the mines, and I'm a burden to my family. I don't want to waste away in bed; don't you see? That's no way for a man to die.
 为什么？你看看我 我是个老人了 我的健康状况越来越差，在矿场上也派不上用场，我是家里的负担。我不想在床上虚度光阴，你不明白吗？那不是一个人的死法。
+
+> INFO.BNAM fight me 10134106374452486 c1
+Very well, I'll do as you ask.
+好吧，我听你的。
+
+> INFO.BNAM fight me 10134106374452486 c2
+What about your wife?
+你妻子怎么办？
 
 > INFO.NAME fight me 952914780362712088
 Good, good. Make it quick, will you? As flashy as I wanted this to be, I wasn't looking for lots of pain. I'll at least try and put up a fight, to make you look good. You shouldn't be blamed for this.
@@ -27770,6 +27998,14 @@ Good, good. Make it quick, will you? As flashy as I wanted this to be, I wasn't 
 > INFO.NAME fight me 6465611725112456
 I'm.... I'm too tired. Just can't fight anymore...  Kill me, won't you? Just tell them you had no choice, that you had to defend yourself. I just don't want to live like this anymore.
 我.... 我太累了 实在打不动了......  杀了我吧 就说你别无选择 你必须自卫。我只是不想再这样活着了
+
+> INFO.BNAM fight me 6465611725112456 c1
+Very well, I'll do as you ask.
+好吧，我听你的。
+
+> INFO.BNAM fight me 6465611725112456 c2
+Why would you want to die?
+你为什么想死？
 
 > INFO.NAME stalhrim 24960322633058729095
 Excellent work, %PCRank. Now, you'll have to decide whether you want Stalhrim weapons or Stalhrim armor.
@@ -28083,6 +28319,14 @@ If I'm going to do this for you, the least you can do is be honest with me. Don'
 I don't like doing this, because it's not exactly on the level. I know a few people on the Board of Directors, and I can get you reinstated. But it'll mean greasing a few palms, and that takes money. So here's what we'll do. You give me 5000 gold, and I can make sure the paperwork goes through.
 我不喜欢这样做，因为这样做不太光明正大。我认识董事会里的一些人，我可以让你复职。但这意味着要打点关系 这需要钱 我们这么办吧 你给我五千金 我可以保证文件顺利通过
 
+> INFO.BNAM re-hire 23383112601490023927 c1
+Pay it.
+支付。
+
+> INFO.BNAM re-hire 23383112601490023927 c2
+Nevermind.
+没事。
+
 > INFO.NAME re-hire 32407209861251910596
 Your employment is in good standing, %PCName. Don't worry about it.
 你的雇佣关系很好 %PCName 别担心
@@ -28107,6 +28351,14 @@ Your choice. I can always find someone else to make sure things get done.
 Well now. It seems to me that you should've known better than to do anything to put yourself in this position. Considering that, I think it's only fair of me to ask a rather high price in exchange for reinstating you. How about this: you bring me two pieces of stalhrim, and I'll see take care of it. Not really fair, I suppose, but then you don't have much of a choice, do you?
 现在好了 在我看来 你早该知道不该做任何事 让自己陷入这种境地 考虑到这一点，我觉得我应该开个高价 来换取你的复职 这样吧，你给我两块魔冰，我就帮你搞定。我想这并不公平 但你也别无选择，对吧？
 
+> INFO.BNAM re-hire 2284528455120385301 c1
+Pay it.
+支付。
+
+> INFO.BNAM re-hire 2284528455120385301 c2
+Nevermind.
+没事。
+
 > INFO.NAME re-hire 19195153901497219600
 Very well. I'll see to it that the paperwork is processed. Concentrate on your assignments, %PCRank, and try not to let this happen again.
 好吧 我会把文件处理好的 专心完成你的业务 %PCRank 尽量别让这种事再发生了
@@ -28123,9 +28375,25 @@ You don't even have that much with you, and yet still you try to gain my favor? 
 Failed your first assignment? What makes you think I'd consider you again? You'll have to do something for me to make it worthwhile...  perhaps, say, 5000 gold pieces? What do you say?
 初次业务失败了？你凭什么认为我会再考虑你？你得为我做点什么才值得......也许，比方说，5000金币？你说呢？
 
+> INFO.BNAM re-hire 23141247482603713765 c1
+Pay it.
+支付。
+
+> INFO.BNAM re-hire 23141247482603713765 c2
+Nevermind.
+没事。
+
 > INFO.NAME re-hire 10547286992917717663
 Of course, I don't do this for just anyone. You'll have to do something for me to make it worthwhile...  perhaps, say, 5000 gold pieces? What do you say?
 当然，我不会为任何人做这种事 你得为我做点什么才值得......也许，比如说，5000 金币？你怎么说？
+
+> INFO.BNAM re-hire 10547286992917717663 c1
+Pay it.
+支付。
+
+> INFO.BNAM re-hire 10547286992917717663 c2
+Nevermind.
+没事。
 
 > INFO.NAME re-hire 1758518225220022583
 You're a current employee of the company. I can't re-hire you.
@@ -28435,6 +28703,14 @@ Funny how a little alcohol can make just about anything seem more interesting.
 Oh, sorry - I don't drink. I mean, aside from the occasional whiskey. You wouldn't....  you don't happen to have any, do you?
 抱歉，我不喝酒 我是说，除了偶尔喝点威士忌。你不会....，你碰巧没有吧？
 
+> INFO.BNAM boring 1312622174627579 c1
+I do, in fact. Here you are.
+事实上，我有。给你
+
+> INFO.BNAM boring 1312622174627579 c2
+No, sorry.
+不，抱歉。
+
 > INFO.NAME boring 13330291462925414299
 Ah, that's okay. I should be concentrating on this job, anyway.
 没关系 反正我也该专心工作了
@@ -28446,6 +28722,14 @@ Mmmm....thanks, %PCName. I better not drink this here where anyone can see me, t
 > INFO.NAME boring 13262352819572651
 Nothing entertaining has happened since I got here. You have any ideas?
 我到这儿之后就没发生什么有趣的事了 你有什么主意吗？
+
+> INFO.BNAM boring 13262352819572651 c1
+How about a drink?
+喝一杯怎么样？
+
+> INFO.BNAM boring 13262352819572651 c2
+I don't have any suggestions. Sorry.
+我没有任何建议 对不起
 
 > INFO.NAME boring 307772688437787115
 If Falco says it's important, then I guess it is, but all I do is just stand around.
@@ -28478,6 +28762,14 @@ Really? Oh, that's great. Okay, let's get going. This has to get to Carnius as s
 > INFO.NAME report 315428485948317831
 Yeah, how did you know? I'm supposed to take this to the Fort, but..... but I don't really want to go. There's wolves and bears and things out there, you know? I'd feel much safer if I had an escort. Do you think maybe you'd go with me? I do need to get there soon.
 你怎么知道？我本该把这个带到要塞去的 但..... 但我真的不想去 外面有狼啊熊啊什么的，你知道吗？如果有人护送 我会觉得安全得多 你愿意和我一起去吗？我确实需要尽快赶过去
+
+> INFO.BNAM report 315428485948317831 c1
+Yes
+是的
+
+> INFO.BNAM report 315428485948317831 c2
+No
+不是
 
 > INFO.NAME report 20954085239934059
 The report didn't matter. It was the messenger I was concerned with.
@@ -28655,13 +28947,37 @@ What the Factor wants, the Factor gets. I'll see to it that work gets started re
 Okay. Now you have to be really sure this is the right spot. I don't want you to have second thoughts later on. Are you SURE you want it built here?
 好的 现在你必须确定这是个正确的位置 我不希望你以后有别的想法 你确定要把它建在这里吗？
 
+> INFO.BNAM estate 1760295272254718286 c1
+Yes.
+是的。
+
+> INFO.BNAM estate 1760295272254718286 c2
+No.
+不。
+
 > INFO.NAME estate 3003640543052531090
 Okay. Now you have to be really sure this is the right spot. I don't want you to have second thoughts later on. Are you SURE you want it built here?
 好的 现在你必须确定这是个正确的位置 我不希望你以后有别的想法 你确定要把它建在这里吗？
 
+> INFO.BNAM estate 3003640543052531090 c1
+Yes.
+是的。
+
+> INFO.BNAM estate 3003640543052531090 c2
+No.
+不。
+
 > INFO.NAME estate 126178887700118452
 Okay. Now you have to be really sure this is the right spot. I don't want you to have second thoughts later on. Are you SURE you want it built here?
 好的 现在你必须确定这是个正确的位置 我不希望你以后有别的想法 你确定要把它建在这里吗？
+
+> INFO.BNAM estate 126178887700118452 c1
+Yes.
+是的。
+
+> INFO.BNAM estate 126178887700118452 c2
+No.
+不。
 
 > INFO.NAME estate 1292215343616224410
 Off we go! Tell me when we're at the right spot.
@@ -28674,6 +28990,14 @@ Okay, you're the boss. Let me know if you change your mind.
 > INFO.NAME estate 2757826167703110895
 Okay, you want me to follow you now? Just tell me when we're at the spot you want us to build at.
 好吧，你想让我现在就跟着你？到了你要我们建的地方再告诉我
+
+> INFO.BNAM estate 2757826167703110895 c1
+Follow me.
+跟我来
+
+> INFO.BNAM estate 2757826167703110895 c2
+Nevermind.
+没事。
 
 > INFO.NAME estate 27814216492362129784
 Well, it's a little complicated. At least, it is for me. So I've done as much as I can to make it real easy. See, there's three possible locations we could build on. You need to choose one. So I set up torches at each of the places; you just take me to the torch at the place you want it built at, and say the word. Let me know when you're ready to get started, and I'll follow you.
@@ -29871,6 +30195,14 @@ Where are they? I don't see any.
 Do you have the bittergreen petals?
 你有苦绿花瓣吗？
 
+> INFO.BNAM roots 2006314273109265781 c1
+Yes
+是的
+
+> INFO.BNAM roots 2006314273109265781 c2
+No
+不是
+
 > INFO.NAME roots 194158002950424681
 Well, if this is the right place, maybe there's something I can do about it. If these roots are drinking from this pool of water, we can try poisoning the water to weaken them. If they're weakened, the trees might fall. But I'd need some bittergreen petals.... Can you get some for me? I'll need at least five of them. I doubt you'll find any on Solstheim, but you can probably dredge them up someplace more civilized.
 如果是这里的话 也许我能做点什么 如果这些树根喝的是这池水 我们可以试着在水里下毒，削弱它们的力量 如果它们被削弱了，树可能就会倒下。但我需要一些苦绿花瓣.... 你能帮我弄到一些吗？我至少需要五片。我怀疑你在索瑟海姆找不到，但你也许能在更文明的地方挖到它们。
@@ -29890,6 +30222,14 @@ Okay! Now we're getting somewhere. Lead on, %PCName.
 > INFO.NAME roots 31393301591415323540
 Really? That sounds like what I'm looking for. Can you take me to see them?
 真的吗？听起来像我要找的东西 能带我去看看吗？
+
+> INFO.BNAM roots 31393301591415323540 c1
+Let's go
+我们走吧
+
+> INFO.BNAM roots 31393301591415323540 c2
+No
+不是
 
 > INFO.NAME roots 22366204961944321805
 Yep, that whole shaft was full of them, so we just left it alone. Too much work.

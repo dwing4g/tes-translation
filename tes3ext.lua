@@ -122,7 +122,7 @@ local function extScr(line, p)
 			j = true
 		end
 	end
-	for str in line:gmatch '[Cc]hoice[%s,]+([%C\t]+)' do
+	for str in line:gmatch '[Cc]hoice[%s,:]+([%C\t]+)' do
 		local j = false
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
