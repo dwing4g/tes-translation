@@ -76246,7 +76246,7 @@ Goodbye"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX4B8_MeetVivec"
  INFO.INTV [32 00 00 00]
- INFO.BNAM ";Tholer Saryoni; Journal ""B8_All_Hortator"" >= 50@TeS3ModmArK@ Journal ""B8_All_Nerevarine"" >= 50"
+ INFO.BNAM ";Tholer Saryoni; Journal ""B8_All_Hortator"" >= 50; Journal ""B8_All_Nerevarine"" >= 50"
 -INFO
  INFO.INAM "208462687586829207$00"
  INFO.PNAM "56250022135219827$00"
@@ -76260,7 +76260,7 @@ Goodbye"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "24JX4B8_MeetVivec"
  INFO.INTV [32 00 00 00]
- INFO.BNAM "; Tholer Saryoni; Journal ""B8_All_Hortator"" >= 50@TeS3ModmArK@ Journal ""B8_All_Nerevarine"" >= 50"
+ INFO.BNAM "; Tholer Saryoni; Journal ""B8_All_Hortator"" >= 50; Journal ""B8_All_Nerevarine"" >= 50"
 -INFO
  INFO.INAM "132191146483284109$00"
  INFO.PNAM "208462687586829207$00"
@@ -76371,7 +76371,7 @@ Goodbye"
  INFO.NAME "我们知道你的计划，外地人.... {认识你}"
  INFO.SCVR "04JX3B8_MeetVivec"
  INFO.INTV [05 00 00 00]
- INFO.BNAM ";Ordinator_High_Fane; Journal ""B8_All_Hortator"" >= 50@TeS3ModmArK@ Journal ""B8_All_Nerevarine"" >= 50"
+ INFO.BNAM ";Ordinator_High_Fane; Journal ""B8_All_Hortator"" >= 50; Journal ""B8_All_Nerevarine"" >= 50"
 -INFO
  INFO.INAM "1592024070112572945$00"
  INFO.PNAM "11991227312267724885$00"
@@ -77629,7 +77629,7 @@ Goodbye"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3B8_All_Nerevarine"
  INFO.INTV [32 00 00 00]
- INFO.BNAM "; Danso Indules; Journal ""B8_All_Hortator"" >= 50@TeS3ModmArK@ Journal ""B8_All_Nerevarine"" >= 50"
+ INFO.BNAM "; Danso Indules; Journal ""B8_All_Hortator"" >= 50; Journal ""B8_All_Nerevarine"" >= 50"
 -INFO
  INFO.INAM "1788966312321918569$00"
  INFO.PNAM "2664023040146732706$00"
@@ -77728,7 +77728,7 @@ Goodbye"
  INFO.INTV [2F 00 00 00]
  INFO.SCVR "23sX0followNow"
  INFO.INTV [00 00 00 00]
- INFO.BNAM "; Falura Llervu; Journal ""B3_ZainabBride"" >= 45@TeS3ModmArK@ Journal ""B3_ZainabBride"" < 47 ; followNow = 0"
+ INFO.BNAM "; Falura Llervu; Journal ""B3_ZainabBride"" >= 45; Journal ""B3_ZainabBride"" < 47 ; followNow = 0"
 -INFO
  INFO.INAM "16538300371313719685$00"
  INFO.PNAM "1372422887257055964$00"
@@ -77742,7 +77742,7 @@ Goodbye"
  INFO.INTV [2F 00 00 00]
  INFO.SCVR "23sX0followNow"
  INFO.INTV [01 00 00 00]
- INFO.BNAM "; Falura Llervu; Journal ""B3_ZainabBride"" >= 45@TeS3ModmArK@ Journal ""B3_ZainabBride"" < 47 ; followNow = 1"
+ INFO.BNAM "; Falura Llervu; Journal ""B3_ZainabBride"" >= 45; Journal ""B3_ZainabBride"" < 47 ; followNow = 1"
 -INFO
  INFO.INAM "3038427842789421995$00"
  INFO.PNAM "16538300371313719685$00"
@@ -77933,7 +77933,7 @@ Goodbye"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
  INFO.INTV [1E 00 00 00]
- INFO.BNAM ";5 Witches and warlocks; unique IDs; Journal ""B2_AhemmusaSafe"" >=  20@TeS3ModmArK@ Journal ""B2_AhemmusaSafe"" <=  30;"
+ INFO.BNAM ";5 Witches and warlocks; unique IDs; Journal ""B2_AhemmusaSafe"" >=  20; Journal ""B2_AhemmusaSafe"" <=  30;"
 -INFO
  INFO.INAM "2400522477179779807$00"
  INFO.PNAM "45734515193616635$00"
@@ -77946,7 +77946,7 @@ Goodbye"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
  INFO.INTV [1E 00 00 00]
- INFO.BNAM ";5 Witches and warlocks; unique IDs; Journal ""B2_AhemmusaSafe"" >=  20@TeS3ModmArK@ Journal ""B2_AhemmusaSafe"" <=  30;"
+ INFO.BNAM ";5 Witches and warlocks; unique IDs; Journal ""B2_AhemmusaSafe"" >=  20; Journal ""B2_AhemmusaSafe"" <=  30;"
 -INFO
  INFO.INAM "1961528148943530578$00"
  INFO.PNAM "2400522477179779807$00"
@@ -77959,7 +77959,7 @@ Goodbye"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
  INFO.INTV [1E 00 00 00]
- INFO.BNAM ";5 Witches and warlocks; Journal ""B2_AhemmusaSafe"" >=  20@TeS3ModmArK@ Journal ""B2_AhemmusaSafe"" <=  30;"
+ INFO.BNAM ";5 Witches and warlocks; Journal ""B2_AhemmusaSafe"" >=  20; Journal ""B2_AhemmusaSafe"" <=  30;"
 -INFO
  INFO.INAM "1657476082311026289$00"
  INFO.PNAM "1961528148943530578$00"
@@ -77972,7 +77972,7 @@ Goodbye"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
  INFO.INTV [1E 00 00 00]
- INFO.BNAM ";5 Witches and warlocks; Journal ""B2_AhemmusaSafe"" >=  20@TeS3ModmArK@ Journal ""B2_AhemmusaSafe"" <=  30;"
+ INFO.BNAM ";5 Witches and warlocks; Journal ""B2_AhemmusaSafe"" >=  20; Journal ""B2_AhemmusaSafe"" <=  30;"
 -INFO
  INFO.INAM "295856079266545176$00"
  INFO.PNAM "1657476082311026289$00"
