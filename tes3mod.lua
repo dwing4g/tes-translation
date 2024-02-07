@@ -154,6 +154,7 @@ local function modScr(line, p, lineId)
 		local t, e = line:match "^(.-)(;.*)$"
 		if t then
 			line = t
+			e = e:gsub("@TeS3ModmArK@", ";")
 		else
 			e = ""
 		end
