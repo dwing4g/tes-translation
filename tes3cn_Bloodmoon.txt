@@ -17576,7 +17576,6 @@ End WolfRitualRing
  BOOK.BKDT [00 00 40 40 19 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÎåÄêÕ½ÕùÖÐµÄ»ìºÏ²¿¶ÓÕ½Êõ<BR>
 µÚÒ»¾í<BR>
 ×÷Õß£º¿Æ´ïË¹¡¤¿¨ÂÞÅ¬Ë¹<BR><BR>
@@ -17631,7 +17630,6 @@ End WolfRitualRing
  BOOK.BKDT [00 00 40 40 37 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_quarto_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÙôäÂµÄÍöÁé<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ......²»ÊÇ½øÈëÕâ¸öÊÀ½ç£¬Ò²Ã»ÓÐÀë¿ªÕâ¸öÊÀ½ç£¬¶øÊÇËûÃÇÔÚÊÀ½çÖ®¼äÅÇ»²£¬±»ÏÊÑªºÍÖÒ³ÏÀÎÀÎ×¥×¡¡£Èç¹ûËûÃÇ²»Çë×ÔÀ´£¬³öÓÚ¶ÔÇ×ÊôµÄ°®»òÐÅÑöµ½ÒåÎñ£¬Õâ²¢²»ÊÇ²»Ê¥½àµÄ¡£Õâ²»¹ýÊÇÏÈ×æµÄ»ØÓ¦£¬²»ÃßÖ®ÈËµÄ¾õÐÑ£¬ÕÙ»½ÄÇÐ©Í¨¹ý±ÚÂ¯ºÍ·¿ÎÝÀ´±£»¤ÊÏ×åµÄÈË¡£<BR>
@@ -20259,7 +20257,8 @@ End WolfRitualRing
  BOOK.SCRI "SnowPrinceBook$00"
  BOOK.ITEX "m\Tx_book_open_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-Ñ©Íõ×ÓµÄÔÉÂä<BR><BR>	<DIV ALIGN=""LEFT""><BR><BR>
+Ñ©Íõ×ÓµÄÔÉÂä<BR><BR>
+<DIV ALIGN=""LEFT""><BR><BR>
 [Ä¦Ë¹ÁÖÖ®Õ½µÄ¼ÇÊö£¬ÓÉÂå¿Ëº£Ä·³­Ð´£¬ÎªÊ×ÁìÓ¢¼ÓµÂ¶û¡¤°×ÑÛµÄ±àÄêÊ·]
 <BR>
 ÎÒÃÇ²»ÖªËû´ÓºÎ¶øÀ´£¬µ«ËûÆï×ÅÒ»Æ¥²Ô°×µÄ¿¥Âí²Î¼ÓÁËÕ½¶·¡£ÎÒÃÇ³ÆËûÎª¡°¾«Áé¡±£¬ÒòËûÈ·ÊµÊÇ¾«Áé£¬µ«ÓëÄÇÌìÖ®Ç°ÎÒÃÇ¼û¹ýµÄÈÎºÎÆäËûÍ¬Àà²»Í¬¡£ËûµÄ³¤Ã¬Óë¿ø¼×É¢·¢×ÅÎ´ÖªÄ§·¨µÄ¿ÉÅÂ¹âÃ¢£¬ÈÃÕâÎ»²»ÖªÃûµÄÆïÊÖ¿´ÆðÀ´±ÈÕ½Ê¿¸üÎªÍþÎä¡£
@@ -23003,7 +23002,6 @@ Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùË
  BOOK.SCRI "SovngardeBook$00"
  BOOK.ITEX "m\Tx_quarto_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ËÉ¼ÓµÂ£¬ÖØÐÂÉóÊÓ<BR>
 ×÷Õß£º±´À×µÏÌØ¡¤¼ÖË¹Ëþ¶û<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
@@ -23127,7 +23125,6 @@ Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùË
  BOOK.BKDT [CD CC 4C 3E 64 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 °²¾²µØ×øÏÂ£¬º¢×Ó£¬Ìý×Å£¬ÒòÎªÎÒ¸æËßÄãµÄ¹ÊÊÂÊÇÒ»¸öÊ±´úµÄ¹ÊÊÂ¡£<BR>
 <BR>
 µ«ÕâÊÇÊ²Ã´£¬×æ¸¸£¿ÊÇÓ¢ÐÛÓëÒ°ÊÞµÄ¹ÊÊÂÂð£¿<BR>
@@ -25311,11 +25308,14 @@ Aevar ÓÐÒ»¸öËû±ØÐë»Ö¸´µÄ×îºóÒ»¸öÀñÎï£¬·çµÄÀñÎï£¬ËùÒÔËûÇ°ÍùµºÉÏÎ÷º£°¶µÄ·çÖ®Ê¯¡£µ±
  BOOK.FNAM "¶¨ÖÆÃ«Æ¤»¤¼×¼ÛÄ¿±í$00"
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 00 00 00 00 FF FF FF FF 64 00 00 00]
  BOOK.ITEX "m\Tx_parchment_01.tga$00"
- BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR> 	<DIV ALIGN=""LEFT""><BR>
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+<DIV ALIGN=""LEFT""><BR>
 Äã×Ô³ÆÎªÁÔÈË£¬ÏÖÔÚÖ¤Ã÷ÕâÒ»µã¡£Òþ²ØÔÚË÷Éªº£Ä·»ÄÒ°ÖÐ×îÄÑÑ°µÃµÄ°×É«Ñ©ÐÜÓëÑ©ÀÇ¡£¾ÝËµËüÃÇµÄÆ¤Ã«¿ÉÒÔµÖÓù×îÑÏ¿áµÄº®Àä¡£É±ËÀÕâÐ©Ò°ÊÞ£¬¶áÈ¡ËüÃÇµÄÃ«Æ¤£¬Äã¾Í¿ÉÒÔ³ÉÎª.....<BR>
-<BR>	<DIV ALIGN=""CENTER""><BR>
+<BR>
+<DIV ALIGN=""CENTER""><BR>
 ¶¨ÖÆÃ«Æ¤»¤¼×<BR>
-ÓÉ²¼ÁÖÔ¼·òÖÆ×÷<BR><DIV ALIGN=""LEFT""><BR>
+ÓÉ²¼ÁÖÔ¼·òÖÆ×÷<BR>
+<DIV ALIGN=""LEFT""><BR>
 ÏëÏóÒ»ÏÂÃÀÀöµÄÇ³°×É«Ã«Æ¤»¤¼×£¬ÓÉË÷Éªº£Ä·ÉñÃØµÄÑ©ÀÇÓëÑ©ÐÜµÄÃ«Æ¤ÖÆ³É¡£ÎÒÒÔÇ°´ÓÎ´¶ÍÔì¹ýÕâÑùµÄ¿ø¼×£¬ÒòÎªÃ»ÈËÓÐ×ã¹»µÄ¼¼ÒÕÀ´´òµ¹Ò°ÊÞ¡£ÄãÄÜ³ÉÎªµÚÒ»¸öÂð£¿<BR>
 <BR>
 É±ËÀÒ°ÊÞ£¬¸øÎÒ´øÀ´ËüÃÇµÄÃ«Æ¤ºÍ×ã¹»µÄ½ð±Ò£¬ÎÒ»áÖÆ×÷³öÔÚË÷Éªº£Ä·»òÆäËûÈÎºÎµØ·½ÄÜÕÒµ½µÄ×îºÃµÄÇá¼×¡£<BR>
@@ -25341,7 +25341,8 @@ Aevar ÓÐÒ»¸öËû±ØÐë»Ö¸´µÄ×îºóÒ»¸öÀñÎï£¬·çµÄÀñÎï£¬ËùÒÔËûÇ°ÍùµºÉÏÎ÷º£°¶µÄ·çÖ®Ê¯¡£µ±
 Ñ©ÀÇÓÒ»¤ÊÖ£º2 ÕÅÑ©ÀÇÆ¤ºÍ 1000 ½ð±Ò<BR>
 Ñ©ÀÇ»¤ëÖ£º4 ÕÅÑ©ÀÇÆ¤ºÍ 5000 ½ð±Ò<BR>
 Ñ©ÀÇÑ¥£º3 ÕÅÑ©ÀÇÆ¤ºÍ 3000 ½ð±Ò<BR>
-Ñ©ÀÇÍ·¿ø£º2 ÕÅÑ©ÀÇÆ¤ºÍ 2000 ½ð±Ò<BR>"
+Ñ©ÀÇÍ·¿ø£º2 ÕÅÑ©ÀÇÆ¤ºÍ 2000 ½ð±Ò<BR>
+"
 -DOOR [00 00 00 00 00 04 00 00]
  DOOR.NAME "In_thirsk_door_main_1_b$00"
  DOOR.MODL "d\Door_Thirsk_double01.NIF$00"
@@ -27852,7 +27853,6 @@ C. Âí»ùÎÚË¹<BR>"
  BOOK.BKDT [CD CC 4C 3E 32 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_note_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ¿¿½üÇ¿´óÌ«ÑôµÄ¾ÞÊ¯£¬<br>
 Ò»¸ö¹°ÐÎ±êÖ¾×Å¿ÝÎ®µÄÈâºÍ¹ÇÍ·¡£<br>
 ÔÚ»ùµØÄã»áÖªµÀºÃÔË£¬<br>
@@ -29191,7 +29191,6 @@ C. Âí»ùÎÚË¹<BR>"
  BOOK.BKDT [00 00 40 40 4B 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_quarto_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÉªË¹¿Ë£¬ÀúÊ·--ÐÞ¶©<BR>
 ×÷Õß£º±´À×µÏÌØ¡¤¼ÖË¹Ëþ¶û<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
@@ -29270,7 +29269,6 @@ Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùË
  BOOK.BKDT [00 00 40 40 4B 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_quarto_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÉªË¹¿Ë£¬ÀúÊ·--ÐÞ¶©<BR>
 ×÷Õß£º±´À×µÏÌØ¡¤¼ÖË¹Ëþ¶û<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
@@ -29823,7 +29821,6 @@ Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùË
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 01 00 00 00 FF FF FF FF 64 00 00 00]
  BOOK.ITEX "m\Tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 <DIV ALIGN=""LEFT""><BR>
 Äã³Æ×Ô¼ºÎªÁÔÈË£¬ÏÖÔÚÖ¤Ã÷ÕâÒ»µã¡£Òþ²ØÔÚË÷ÉªÄ·µÄ»ÄÒ°ÖÐµÄÊÇÄÑÒÔ×½ÃþµÄ°×Ñ©ÐÜºÍÑ©ÀÇ¡£¾ÝËµËüÃÇµÄÆ¤Ã«¿ÉÒÔµÖÓù×îÑÏº®µÄº®Àä¡£É±ËÀÕâÐ©Ò°ÊÞ£¬¶á»ØËüÃÇµÄÃ«Æ¤£¬Äã¾Í¿ÉÒÔ³ÉÎª......<BR>
 <BR>
@@ -30100,7 +30097,7 @@ Snow Wolf Right Gauntlet£º2 ¸öÑ©ÀÇÆ¤ºÍ 1000 ½ð±Ò<BR>
 <BR>
 ±¿ÖØµÄº£ÒòÂ×
 <BR>
- 
+
 "
 -LEVI
  LEVI.NAME "bm_randomweapon_berserker$00"
@@ -33115,7 +33112,6 @@ C<BR>"
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_note_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ×îÇ×°®µÄ½ãÃÃÃÇ£¬<BR>
 <BR>
 Å®Î×»á»á¼Ç×¡ÄúµÄ·îÏ×ºÍ·þÎñ¡£ÎÒÃÇÒâÊ¶µ½Ë÷ÉªÄ·ÊÇÒ»¸ö»ÄÁ¹µÄµØ·½£¬µ«ÎÒÃÇ»áÈ¥ÐèÒªÎÒÃÇµÄµØ·½¡£µ±È»£¬ÈÎºÎÑ°ÇóÖÎÁÆµÄÈË¶¼±ØÐëÖ´ÐÐËÍÀÇÒÇÊ½¡£µ«ÎÒÈ·ÊµÀí½âÒÇÊ½µÄÃô¸ÐÐÔ£¬²¢ÒâÊ¶µ½Èç¹ûº£¶ûÐÁÑ«¾ôÒªÇó²»Ö¹Ò»¸öÁé»ê£¬¿ÉÄÜÎÞ·¨Ò»´ÎÓÖÒ»´ÎµØÖ´ÐÐËü¡£<BR>
@@ -41103,7 +41099,7 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "ÔÚÌ½Ë÷Ò»×ù·ÏÆúµÄ·ØÄ¹Ê±£¬ÎÒ·¢ÏÖÁËÒ»°ÑÃûÎªÑªÒ÷ÈÐµÄ½£¡£ 
+ INFO.NAME "ÔÚÌ½Ë÷Ò»×ù·ÏÆúµÄ·ØÄ¹Ê±£¬ÎÒ·¢ÏÖÁËÒ»°ÑÃûÎªÑªÒ÷ÈÐµÄ½£¡£
 
 ÎÒ²¢²»¹Âµ¥¡£"
 -DIAL

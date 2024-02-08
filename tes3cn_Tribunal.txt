@@ -13281,7 +13281,6 @@ End yarnarScript"
  BOOK.BKDT [00 00 40 40 FA 00 00 00 00 00 00 00 19 00 00 00 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÀÇºó£¬µÚÎå²á<BR>
 ÎÖ½ð¡¤¼ÖË¼<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
@@ -14548,7 +14547,6 @@ End yarnarScript"
  BOOK.BKDT [00 00 40 40 19 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_book_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 Ê¥Í½µÄÉú»î<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 Èç¹ûÄãÓÐÖÇ»Û£¬¾ÍÒÔÊ¥Í½µÄÉú»îÎª°ñÑù¡£<BR>
@@ -14583,7 +14581,6 @@ End yarnarScript"
  BOOK.BKDT [00 00 40 40 32 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_folio_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÈøÔ¼ÄáµÄ½²µÀ<BR>
 ×£¸£ ALMSIVI£¬´È±¯£¬ÕÆÎÕ£¬ÉñÃØ<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
@@ -14672,14 +14669,14 @@ End yarnarScript"
 Õ½Ê¿ÐÇ×ù<BR>
 <BR>
 <BR>
-Õ½Ê¿ÐÇ×ùÊÇµÚÒ»¸öÊØ»¤ÕßÐÇ×ù£¬ËûÔÚÊ±ÁîÆÚ±£»¤×Ô¼ºµÄËùÊôÕß¡£Õ½Ê¿ÐÇ×ù×Ô¼ºµÄÊ±ÁîÊÇÄ©ÖÖÔÂ£¬ÕâÊ±ºòÈËÃÇÐèÒªËûµÄÁ¦Á¿½øÐÐ×÷ÎïµÄÊÕ¸î¡£Õ½Ê¿ÕÆ¹ÜµÄÈý¸öÐÇ×ù·Ö±ðÊÇ£ºÅ®Ê¿ÐÇ×ù¡¢Õ½ÂíÐÇ×ùºÍ¾ýÍõÐÇ×ù¡£ÄÇÐ©ÔÚÕ½Ê¿ÐÇ×ùµÄ±Ó»¤ÏÂ³öÉúµÄÈËÍ¨³£ÉÆÓÃ¸÷ÖÖÎäÆ÷£¬¶øÒ»°ãÆ¢Æø±È½Ï±©Ôê¡£<BR>	
+Õ½Ê¿ÐÇ×ùÊÇµÚÒ»¸öÊØ»¤ÕßÐÇ×ù£¬ËûÔÚÊ±ÁîÆÚ±£»¤×Ô¼ºµÄËùÊôÕß¡£Õ½Ê¿ÐÇ×ù×Ô¼ºµÄÊ±ÁîÊÇÄ©ÖÖÔÂ£¬ÕâÊ±ºòÈËÃÇÐèÒªËûµÄÁ¦Á¿½øÐÐ×÷ÎïµÄÊÕ¸î¡£Õ½Ê¿ÕÆ¹ÜµÄÈý¸öÐÇ×ù·Ö±ðÊÇ£ºÅ®Ê¿ÐÇ×ù¡¢Õ½ÂíÐÇ×ùºÍ¾ýÍõÐÇ×ù¡£ÄÇÐ©ÔÚÕ½Ê¿ÐÇ×ùµÄ±Ó»¤ÏÂ³öÉúµÄÈËÍ¨³£ÉÆÓÃ¸÷ÖÖÎäÆ÷£¬¶øÒ»°ãÆ¢Æø±È½Ï±©Ôê¡£<BR>
 <DIV ALIGN=""CENTER"">
 <IMG SRC=""EfoulkeFirmament_Wizard.tga"" WIDTH=""240"" HEIGHT=""240""><BR>
 <DIV ALIGN=""LEFT""><BR>
 ·¨Ê¦ÐÇ×ù<BR>
 <BR>
 <BR>
-·¨Ê¦ÐÇ×ùÊÇÊØ»¤ÕßÐÇ×ù£¬ËûµÄÊ±ÁîÊÇÓêÊÖÔÂ£¬ÄÇÊÇÈËÃÇµÚÒ»´ÎÊ¹ÓÃÄ§Á¦µÄÊ±¼ä¡£ËûËùÕÆ¹ÜµÄÈý¸öÐÇ×ù·Ö±ðÊÇ£ºÑ§Í½ÐÇ×ù¡¢¾ÞÊ¯ÐÇ×ùºÍÒÇÊ½ÐÇ×ù¡£ÄÇÐ©ÔÚ·¨Ê¦ÐÇ×ùµÄÊØ»¤ÏÂ³öÉúµÄÈËÓµÓÐ¸ü¶àµÄÄ§Á¦£¬¶øÇÒÓÐ×ÅÊ©·¨µÄÌì¸³£¬µ«ÍùÍùÒ²°ÁÂý¡¢ÐÄ²»ÔÚÑÉ¡£<BR>	
+·¨Ê¦ÐÇ×ùÊÇÊØ»¤ÕßÐÇ×ù£¬ËûµÄÊ±ÁîÊÇÓêÊÖÔÂ£¬ÄÇÊÇÈËÃÇµÚÒ»´ÎÊ¹ÓÃÄ§Á¦µÄÊ±¼ä¡£ËûËùÕÆ¹ÜµÄÈý¸öÐÇ×ù·Ö±ðÊÇ£ºÑ§Í½ÐÇ×ù¡¢¾ÞÊ¯ÐÇ×ùºÍÒÇÊ½ÐÇ×ù¡£ÄÇÐ©ÔÚ·¨Ê¦ÐÇ×ùµÄÊØ»¤ÏÂ³öÉúµÄÈËÓµÓÐ¸ü¶àµÄÄ§Á¦£¬¶øÇÒÓÐ×ÅÊ©·¨µÄÌì¸³£¬µ«ÍùÍùÒ²°ÁÂý¡¢ÐÄ²»ÔÚÑÉ¡£<BR>
 <DIV ALIGN=""CENTER""><BR>
 <IMG SRC=""EfoulkeFirmament_Thief.tga"" WIDTH=""240"" HEIGHT=""240""><BR>
 <DIV ALIGN=""LEFT""><BR>
@@ -14744,7 +14741,6 @@ End yarnarScript"
  BOOK.BKDT [00 00 00 40 28 00 00 00 00 00 00 00 FF FF FF FF 14 00 00 00]
  BOOK.ITEX "m\Tx_book_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ¿­Ã·¶ûÔóÒÅÖ·<BR>
 ×÷Õß£ºÂÞÀ­µÂ¡¤ÅµµÂÉ­<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
@@ -14796,7 +14792,6 @@ End yarnarScript"
  BOOK.BKDT [00 00 40 40 32 00 00 00 00 00 00 00 FF FF FF FF 14 00 00 00]
  BOOK.ITEX "m\Tx_book_04.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ²»Æ«²»ÒÐµØ¿¼ÂÇ¶«²¿Ê¡·Ý<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ......¼´Ê¹ÎÒÃÇºöÂÔÁË¶ÔÕâÁ½¸öÊ¡·ÝµÄÊý°ÙÄêÕ¼ÁìµÄ¿ÉÒÉµÀµÂºÍ·¨ÂÉÕýµ±ÀíÓÉ£¬ÎÒÃÇ¿ÉÒÔ´Ó³¿·çºÍºÚÕÓÔóÖÐ»ñµÃÊ²Ã´¾­¼Ã»ò¾üÊÂÀûÒæ£¿<BR>
@@ -14842,7 +14837,6 @@ End yarnarScript"
  BOOK.BKDT [00 00 80 3F 00 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÍöÁé¾üÍÅ<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ÍöÁéÍ¨³£ÒÔÈýÖÖ»ù±¾ÀàÐÍ³öÏÖ£ºÁé»ê¡¢ÈâÌåºÍÎÞÈâÌå¡£ÏñÊ¼×æ¹í¡¢Ô¹Áé¡¢°«ÈË¹íÕâÑùµÄÍöÁé£¬Ö»ÄÜ±»¸½Ä§»òÒøµÈ¾«ÖÆ²ÄÁÏÖÆ³ÉµÄÎäÆ÷ÉËº¦¡£×æ¹í£¬×î³£¼ûµÄÁé»êÍö»ê£¬³ýÁË¶ÔÊÜº¦ÕßÊ©¼ÓµÄÇáÎ¢×çÖäÍâ£¬ÊÇÎÞº¦µÄ¡£ÓÄÁéÓë¹í»êÏàËÆ£¬µ«ËüÃÇÄÜ¹»¶Ô´ÖÐÄµÄÌ½ÏÕÕßÔì³ÉÉËº¦¡£°«ÈËÓÄÁé¸ü¼ÓÎ£ÏÕ£¬µ«ËüÃÇÍ¨³£Ö»³öÏÖÔÚ°«ÈË·ÏÐæÖÐ¡£<BR>
@@ -14886,7 +14880,6 @@ End yarnarScript"
  BOOK.BKDT [00 00 40 40 19 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 µ»¸æµÄ°²Î¿<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ½è×ÅÊÜ×£¸£µÄ Almsivi¡¢ÈýÎ»Ò»ÌåµÄ¶÷µäºÍËùÓÐÊ¥Í½µÄ¶÷»Ý£¬ÔÚÊ¥µîµÄÉñµîÆíµ»µÄÐÅÍ½¿ÉÒÔÍ¨¹ýÆíµ»ºÍ·îÏ×µÄÆæ¼£Ê¥ÊÂ»ñµÃ×£¸£¡£ÈýÃæÉñµîÏóÕ÷×Å°¢¶ûÄ·Î÷Î¬µÄÈýÃæÉñµî£¬¿ÉÒÔÔÚËÂÃí¡¢³¯Ê¥µØ¡¢³¯Ê¥ÕßµÄÂ·±ß»ò³ÉÊ¥ÕßµÄ·ØÄ¹ÖÐÕÒµ½¡£<BR>
@@ -15015,7 +15008,6 @@ Almsivi Ã¿Ð¡Ê±¡£<BR>
  BOOK.BKDT [00 00 40 40 32 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_book_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 Ô¤ÆÚ<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 µÏµÂÀ­ÊÇÇ¿´óµÄÏÈ×æÖ®Áé£¬ÐÎÊ½ºÍÊµÖÊÓëÉóÅÐÏ¯£¨Blessed Be their Holy Names£©ÏàËÆ£¬µ«È¨Á¦½ÏÈõ£¬¸ü×¨ºá£¬Óë·²ÈËÊÂÎñÎÞ¹Ø¡£ÎôÈÕ£¬áªÄª½«µÏµÂÀ­·îÎªÉñÃ÷¡£µ«ËûÃÇ²»ÅäµÃµ½ÕâÖÖ³ç¾´£¬ÒòÎªµÏµÂÀ­ÈËÉËº¦ËûÃÇµÄÐÅÍ½ºÍ°ïÖúËûÃÇµÄ´ÎÊýÒ»Ñù¶à¡£<BR>
@@ -15039,7 +15031,6 @@ Almsivi Ã¿Ð¡Ê±¡£<BR>
  BOOK.BKDT [00 00 40 40 19 00 00 00 00 00 00 00 FF FF FF FF 14 00 00 00]
  BOOK.ITEX "m\Tx_book_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ×æÏÈÓëµ¤Äª<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ¹í»ê×ßÔÚËûÃÇÖÐ¼ä<BR>
@@ -15106,7 +15097,6 @@ Altmeri ºÍ Bosmeri ÎÄ»¯Ò²³ç°ÝËûÃÇµÄ×æÏÈ£¬µ«Ç°ÌáÊÇ×ðÖØÕâÐ©¾«Éñ´ÓÕâ¸öÊÀ½çµ½ÁíÒ»¸öÊ
  BOOK.BKDT [00 00 40 40 32 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_book_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÊÍÒåµÄ°¢Å¬°¢µÂ<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 µÚÒ»¸öÊÇÐÖµÜ£º°¢Å¬ºÍÅÁ¶ÅÃ·¡£ËûÃÇ½øÈëÁËÐé¿Õ£¬Ê±¼ä¿ªÊ¼ÁË¡£<BR>
@@ -15143,7 +15133,6 @@ Hist ÊÇ Ehlnofey Õ½ÕùµÄÅÔ¹ÛÕß£¬µ«Ëæ×ÅÕ½ÕùµÄ¹ýÈ¥£¬ËûÃÇµÄ´ó²¿·ÖÁìÍÁ¶¼±»´Ý»ÙÁË¡£Ëüµ
  BOOK.BKDT [00 00 40 40 32 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_book_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÊÍÒåµÄ°¢Å¬°¢µÂ<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 µÚÒ»¸öÊÇÐÖµÜ£º°¢Å¬ºÍÅÁ¶ÅÃ·¡£ËûÃÇ½øÈëÁËÐé¿Õ£¬Ê±¼ä¿ªÊ¼ÁË¡£<BR>
@@ -15181,7 +15170,6 @@ Hist ÊÇ Ehlnofey Õ½ÕùµÄÅÔ¹ÛÕß£¬µ«Ëæ×ÅÕ½ÕùµÄ¹ýÈ¥£¬ËûÃÇµÄ´ó²¿·ÖÁìÍÁ¶¼±»´Ý»ÙÁË¡£Ëüµ
  BOOK.BKDT [00 00 00 40 19 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ´ó½ÇÐÇÒì¶Ë<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 µØµ×Ö®Íõ£¬ÒÁË¹Ã×¶ûÔìÍõÕß<BR>
@@ -15226,7 +15214,6 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
  BOOK.BKDT [00 00 40 40 32 00 00 00 00 00 00 00 FF FF FF FF 14 00 00 00]
  BOOK.ITEX "m\Tx_octavo_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 Ìì¿ÕÖ®×Ó<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ÅµµÂÈËÈÏÎª×Ô¼ºÊÇÌì¿ÕÖ®×Ó¡£ËûÃÇ³Æ»·ÇòÖ®ºíÎªÊÀ½çÖ®ºí£¬ÒòÎªËüÊÇÌì¿ÕÔÚÂ½µØÉÏºô³ö²¢ÐÎ³ÉËüÃÇµÄµØ·½¡£ËûÃÇÈÏÎª×Ô¼ºÊÇÓÀºãµÄÍâÀ´ÕßºÍÈëÇÖÕß£¬¼´Ê¹ËûÃÇÕ÷·þºÍÍ³ÖÎÁËÁíÒ»¸öÃñ×å£»ËûÃÇ¾õµÃÓëËûÃÇÃ»ÓÐÑªÔµ¹ØÏµ¡£<BR>
@@ -15245,7 +15232,6 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
  BOOK.BKDT [00 00 00 40 FA 00 00 00 00 00 00 00 FF FF FF FF 14 00 00 00]
  BOOK.ITEX "m\Tx_book_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÄÉÇúÀ³·òÌØ±àÄêÊ·<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 [ÕâÊÇÒ»²¿¶ÔÄÉÇúÀ³·òÌØ¶ÍÄªÓÀ¾ÃÒµÈ¨Ö³ÃñµØ¾ßÓÐÀúÊ·ÒâÒåµÄÊÂ¼þ±àÄêÊ·¡£Õâ¶ÎÎÄ×ÖºÜ¿ÉÄÜÊÇ°½ÌØÄª¼ÇÂ¼µÄ£¬ÒòÎªËüÊÇÓÃ Aldmeris Ð´µÄ¡£]<BR>
@@ -15268,7 +15254,6 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
  BOOK.BKDT [00 00 00 40 2D 00 00 00 00 00 00 00 FF FF FF FF 14 00 00 00]
  BOOK.ITEX "m\Tx_book_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 µÏµÂÀ­Ö®Êé<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 [ÕâÐ©ÊÇÕâ±¾³¤Æª¾ÞÖøµÄ½ÚÑ¡£¬ÃèÊöÁËµÏµÂÀ­Ã¿¸öÈËµÄ±¾ÖÊ¡£]<BR>
@@ -15583,7 +15568,6 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
  BOOK.BKDT [00 00 C0 40 0A 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_quarto_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ......ÔÚÎé·¨Ë¹ºÍËû¶ù×ÓÍ³ÖÎµÄÄÇÒ»Äê£¬ÄªµÂÁÖ¡¤¹þÄþµÄ»Ô»ÍÔÚÕâ¸öÊÀ½çÉÏ½áÊøÁË¡£°¢É³¶ûÂíÎ¬ÑÇµÄ´ú±í£¬ÔÚ°¢ÊæÄÉ±ÈËþÊ²ºÆå«µÄ°¢ÊæÄÉ±ÈËþÊ²¾Û¼¯ÁËÒ»´óÈºÂí¶û¿¨Ê²Ê²ºÍ°ÂµÂË÷ÈøÈø¡£ÉõÖÁ Hilbongard ºÍ Dorach Gusal Ò²±»´ÓËûÃÇµÄÈÛÂ¯ÖÐÒýÓÕ³öÀ´£¬Anudnabia Ö®»ðÒ»¶È³ÁÄ¬¡£<BR>
 <BR>
 ¾ÍÕâÑù£¬ÔÚ´óÉ¥¾ÅÈÕ£¬ÎþÉüÁËÐí¶àÅ«Á¥ºÍµÐÈË£¬²¢°´ÕÕ¹þÄþ¹«Ê½µÄ·½Ïò»ìºÏÁËÍ¨µÀ±­£º<BR>
@@ -15982,7 +15966,6 @@ Numidium£¬ËäÈ»²»ÊÇÌ©²®¡¤ÈûÆÕÍ¡ºÍ¶ÍÄªËùÏ£ÍûµÄÉñ£¨±Ï¾¹°²µÂÖ®Íõ²¢²»ÍêÈ«ÊÇÂå¿Ëº¹£©£¬
  BOOK.BKDT [00 00 40 40 FA 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 Ì©Ä·Èð¶ûÉñÆ÷<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ÒÔÏÂÊÇÎÒÔÚ¹ýÈ¥¼¸¸öÊÀ¼ÍÖÐÊÕ¼¯µ½µÄ¹ØÓÚ¾ßÓÐÄÑÒÔÏëÏóµÄÒâÒåµÄÏîÄ¿µÄ±Ê¼Ç¡£ËùÓÐµÄÒ»ÇÐ¶¼ÔÚÌ©Ä·Èð¶ûÒ»´ÎÓÖÒ»´ÎµØ±»¿´µ½¡¢ÓµÓÐºÍÊ§È¥¡£ÓÐÐ©¿ÉÄÜÊÇÉñ»°£¬ÓÐÐ©¿ÉÄÜÊÇÆ­¾Ö£¬µ«ÎÞÂÛÈçºÎ£¬Ðí¶àÈËÔÚÊÔÍ¼Ñ°ÕÒ»ò±£»¤ÕâÐ©ÁîÈË´¹ÏÑµÄÎïÆ·Ê±Ê§È¥ÁËÉúÃü¡£<BR>
@@ -16125,7 +16108,6 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  BOOK.BKDT [00 00 40 40 2C 01 00 00 00 00 00 00 FF FF FF FF 14 00 00 00]
  BOOK.ITEX "m\Tx_book_open_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 Á¶½ðÊõÊ¿µÄ¹«Ê½<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ÖÎÁÆÊ¦µÄÊ³Æ×<BR>
@@ -16653,7 +16635,6 @@ Fire Shield Ò©Ë®¿ÉÒÔÓÉ comberry ºÍ sload ·ÊÔíÖÆ³É¡£Comberry ÊÇ°¢Ë¹¿¨µÏÑÇÈºµºµÄ¿à
  BOOK.BKDT [CD CC 4C 3E 01 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_parchment_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 [ÕâÕÅ´ó±¨ÊÇÓÃÁ®¼ÛÖ½¸´ÖÆµÄÍ¨Ñ¶£¬±¨µÀÁË°§ÉËÖ®³ÇµÄËÊÈËÌýÎÅµÄÊÂ¼þ¡£Ò»ÆªÎÄÕÂÃèÊöÁËÔÚ¿ÉÒÉÇé¿öÏÂËÀÍöµÄ¸öÈËÃûµ¥£¬ËûÃÇµÄÀûÒæÓë¡¸Ç°Î÷·½Íõ×Ó¡¹µÄÀûÒæ·¢Éú³åÍ»¡£Ã÷Ã÷ÊÇ³¿·çÍõºÕ¶ûÈûË¹Íõ£¬Ô­Îª¸ßÑÒÊ¡Î¤ÀÕË¹ÌØÍõ¹úµÄºÕ¶ûÈûË¹Íõ×Ó¡£]<BR>
 <BR>
 <DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
@@ -17068,7 +17049,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [CD CC 4C 3E 01 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_parchment_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 [ÕâÕÅ´ó±¨ÊÇÓÃÁ®¼ÛÖ½¸´ÖÆµÄÍ¨Ñ¶£¬±¨µÀÁË°§ÉËÖ®³ÇµÄËÊÈËÌýÎÅµÄÊÂ¼þ¡£Ò»ÆªÎÄÕÂÃèÊöÁËÔÚ¿ÉÒÉÇé¿öÏÂËÀÍöµÄ¸öÈËÃûµ¥£¬ËûÃÇµÄÀûÒæÓë¡¸Ç°Î÷·½Íõ×Ó¡¹µÄÀûÒæ·¢Éú³åÍ»¡£Ã÷Ã÷ÊÇ³¿·çÍõºÕ¶ûÈûË¹Íõ£¬Ô­Îª¸ßÑÒÊ¡Î¤ÀÕË¹ÌØÍõ¹úµÄºÕ¶ûÈûË¹Íõ×Ó¡£]<BR>
 <BR>
 Õâ·Ý¸±±¾ÊÇÔÚÒÁÎäÂ×¡¤ÒÁÀ­Åµ´²ÉÏµÄÕíÍ·ÏÂ·¢ÏÖµÄ¡£´²½Å¹ñ×ÓµÄËùÓÐÈ¨±íÊ¾ÎÄ¼þµÄËùÓÐÈ¨¡£<BR>
@@ -17110,7 +17090,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.SCRI "Irano_note$00"
  BOOK.ITEX "m\Tx_parchment_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÊÖÐ´±ãÌõ<BR>
 <BR>
 
@@ -17123,7 +17102,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.SCRI "Alen_note$00"
  BOOK.ITEX "m\Tx_parchment_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÊÖÐ´ÐÅ<BR>
 <BR>
 [ÍâÓï£º¡¸×ð¾´µÄÌÃµÜ¸£ÎÄ¡¤±´À­Åµ£¬¸Ï½ôËÍ´ï°É¡¹]<BR>
@@ -22745,7 +22723,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_parchment_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 <DIV ALIGN=""CENTER""><BR>
 ÄãµÄÉúÃü<BR>
 È¡¾öÓÚËü£¡<BR>
@@ -25232,7 +25209,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [CD CC CC 3D 01 00 00 00 01 00 00 00 FF FF FF FF 64 00 00 00]
  BOOK.ITEX "m\Tx_paper_roll_01.dds$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 <DIV ALIGN=""LEFT""><BR><BR>
 µÚÒ»Ìì£º<BR>
 <BR>
@@ -25577,7 +25553,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.SCRI "dbcontractScript$00"
  BOOK.ITEX "m\Tx_paper_roll_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 <DIV ALIGN=""LEFT""><BR><BR>
 Õâ·ÝÎÄ¼þµÄ³ÖÓÐÕß£¬ÔÚÓë H Ç©¶©ÁËÓÀ¾ÃºÏÍ¬µÄÒ¹Ä¸µÄÌØ±ðÊÚÈ¨ÏÂ£¬±»¸øÓèÖ´ÐÐ %PCName µÄÌØ±ðÊÚÈ¨£¬ÕâÊÇÒ»¸ö×î½ü¾Ó×¡ÔÚÍßµÇ·Ñ¶ûµºÉÏµÄ %PCRace¡£¸ù¾ÝËùÓÐ·¨ÂÉºÍ´«Í³£¬ÉÏÊöÈËÔ±½«ÒÔ H µÄÃûÒåÒÔ×î·½±ãµÄ·½Ê½±»´¦¾ö¡£ºÚ°µÐÖµÜ»áµÄËùÓÐ·þÎñ¶¼ÓÉÕâ·Ý¾ßÓÐÔ¼ÊøÁ¦ÇÒÎÞ¿ÉÕùÒéµÄÎÄ¼þµÄ³ÖÓÐÈËÖ§Åä¡£<BR>
 <BR>"
@@ -25799,7 +25774,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_note_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÕâÊÇÎÒµÄºÐ×Ó¡£ÎÒ°ÑÎÒËùÓÐµÄ¶«Î÷¶¼·ÅÔÚÀïÃæ¡£²»Òª³öÈ¥£¬·ñÔòÎÒ»áÈÃÄãÏñ Gilur µÄ³èÎï durzog Ò»ÑùËÀÈ¥£¬Ëû×øÔÚÉÏÃæºó¾ÍÍ£Ö¹ÁËÒÆ¶¯¡£
 <BR>
 <IMG SRC=""Adren_note.tga"" WIDTH=""240"" HEIGHT=""240""><BR>
@@ -25828,7 +25802,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_note_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 ÎÒµÄ×î°®£¬<BR>
 ÎÒÈÃÄãÊ§ÍûÁË¡£µ«ÊÇÔõÃ´×ö£¿ÎÒ¸øÄã´øÀ´ÁË¼¸´üÂé´ü¡¢¼¸Ïä¾«ÃÀµÄÒÂ·þºÍ¼¸Ïä½ð×Ó¡£µ«ÄãÈÔÈ»¾Ü¾øÎÒµÄ¸ÐÇé¡£ÎÒÉ±ÁËÇÀ½ÙÄãµÄÉÌÈË£¬ÄãÈÔÈ»¾Ü¾øÎÒ¡£ÎÒÈÕ¸´Ò»ÈÕµØ×øÔÚÄã¼Ò£¬·çÓêÎÞ×è£¬µÈ´ýÄãµÄÒ»Ë¿ÇéÒâ£¬µ«ÎÞ¼ÃÓÚÊÂ¡£ÎÒÑá¾ëÁËÕâÖÖÉú»î¡£¼ÈÈ»Äã»¹Ã»ÓÐµ½ÕâÀïÀ´¼ûÎÒ£¬ÎÒÖ»ÄÜ¼ÙÉè×î»µµÄÇé¿ö--ÎÒÓÀÔ¶²»»á¸Ð¾õµ½ÄãÈáÈíµÄÊÖ±ÛÂ§×ÅÎÒ£¬»òÕß¿´×ÅÄãË¯¾õ£¬¶ø²»±Øº¦ÅÂÏÖÔÚÔÚÄãµÄÍÁµØÉÏÑ²ÂßµÄÊØÎÀ¡£<BR>
 <BR>
@@ -26016,7 +25989,6 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 FA 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*&
 Ì©Ä·Èð¶ûÉñÆ÷<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ÏÂÃæÁÐ³öÁËÒ»Ð©ÔÚ Tamrielic ´«ËµÖÐ·¢ÏÖµÄ¸ü¾ß´«ÆæÉ«²ÊµÄÎïÆ·¡£ÓÐÐ©ÈËµÄ´æÔÚÒÑ±»Ö¤Ã÷£¬¶øÁíÒ»Ð©ÈË¿ÉÄÜÖ»ÊÇ´«ËµÖÐµÄ¶«Î÷¡£ÎÞÂÛÈçºÎ£¬ÕâÐ©ÎïÆ·ÒÑ¾­½øÈëÁËÎÒÃÇ¸æËßº¢×ÓµÄ¹ÊÊÂ£¬ÎÒÃÇµÄº¢×Ó»á¸æËßËûÃÇµÄº¢×Ó£¬²¢ÇÒÓë<BR>
