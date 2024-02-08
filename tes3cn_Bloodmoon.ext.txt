@@ -1,12 +1,10 @@
 > GMST.STRV sSaveGameNoMemory
 Unable to create Save Game. Free up 100 blocks and try again.
-"""内存空间不足，无法储存游戏。
-请至少释放 100% 的内存并重新尝试。"""
+内存空间不足，无法储存游戏。请至少释放 100% 的内存并重新尝试。
 
 > GMST.STRV sMaximumSaveGameMessage
 You have reached the limit of Morrowind saved games. Please delete a Morrowind saved game and try again.
-"""你的储存进度数量已经达到了晨风游戏的上限，
-请删除一些存档并重新尝试。"""
+你的储存进度数量已经达到了晨风游戏的上限，请删除一些存档并重新尝试。
 
 > GMST.STRV sAuto_Run
 Auto Run
@@ -90,13 +88,11 @@ Loading Area
 
 > GMST.STRV sLoadingMessage5
 Parsing Quests (this may take a while)$0ARe-save when done.
-解析任务...
+解析任务 (这可能要等一会)$0A完成时重新保存游戏
 
 > GMST.STRV sGeneralMastPlugMismatchMsg
 One or more plugins could not find the correct versions of the master files they depend on. Errors may occur during load or game play. Check the "Warnings.txt" file for more information.
-"""当前版本主文件所依赖的一个或多个插件未被找到，
-在游玩或者载入游戏的过程中可能导致错误。
-查看"Warnings.txt"文件以了解更多信息。"""
+当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看"Warnings.txt"文件以了解更多信息。
 
 > GMST.STRV s3dHardware
 Hardware Accelerated
@@ -224,53 +220,43 @@ East Empire Company
 
 > FACT.RNAM East Empire Company 1
 Underling
-"""下属
-"""
+下属
 
 > FACT.RNAM East Empire Company 2
 Clerk
-"""职员
-"""
+职员
 
 > FACT.RNAM East Empire Company 3
 Steward
-"""监工
-"""
+监工
 
 > FACT.RNAM East Empire Company 4
 Fixer
-"""策划
-"""
+策划
 
 > FACT.RNAM East Empire Company 5
 Agent
-"""特使
-"""
+特使
 
 > FACT.RNAM East Empire Company 6
 Negotiator
-"""参议
-"""
+参议
 
 > FACT.RNAM East Empire Company 7
 Officer
-"""主管
-"""
+主管
 
 > FACT.RNAM East Empire Company 8
 Deputy
-"""代理
-"""
+代理
 
 > FACT.RNAM East Empire Company 9
 Factor
-"""董事
-"""
+董事
 
 > FACT.FNAM Skaal
 Skaal
-"""斯卡尔
-"""
+斯卡尔
 
 > MGEF.DESC [40 00 00 00]
 """The caster of this effect can detect any entity animated by a spirit; they appear on the map as symbols. This effect includes all classes of monsters. The effect's magnitude is the range in feet from the caster that animals are detected.
@@ -10684,7 +10670,9 @@ Hircine was pleased with my efforts, and has rewarded me with Hunter's Wind, the
 """While exploring an abandoned tomb, I found a sword named Bloodskal.  
 
 I am not alone."""
-在探索一座废弃的坟墓时，我发现了一把名为血吟刃的剑。 $0A$0A我并不孤单。
+"""在探索一座废弃的坟墓时，我发现了一把名为血吟刃的剑。 
+
+我并不孤单。"""
 
 > INFO.NAME bm_wolfgiver_a 1574229131805620243
 Rite of the Wolf Giver
@@ -18137,7 +18125,8 @@ Ah, not yet dear %PCClass.  First you must bring me the Skull of Oddfrid White-L
 > INFO.NAME tell your future 198422033013887203
 """%PCClass, the skull of Oddfrid White-Lip is speaking to me, telling me your future. She says...she says you have accomplished much here on Solstheim, and your future is unclear. But wait! She sees something else.  Something very cloudy, something that could affect us all.  When the dragon dies, the Empire dies. Where is the lost dragon's blood, the
 Empire's sire? And from the womb of the void, who shall stem the blood tide? I...I do not know what this means.  It is very unclear...."""
-%PCClass，奥德弗里德·白唇的头骨在跟我说话，告诉我你的未来。她说......她说你在索瑟海姆已经取得了很多成就，但你的未来还不明朗。但是等等！她看到了别的东西。一些非常阴暗的东西，一些会影响我们所有人的东西。当龙死去，帝国灭亡之时。失去的龙之血在哪里？$0A帝国的陛下？从虚空之中，谁能阻止血流成河的未来？我......我不知道这意味着什么，很不清楚.... {泰姆瑞尔帝国,沙尔}
+"""%PCClass，奥德弗里德·白唇的头骨在跟我说话，告诉我你的未来。她说......她说你在索瑟海姆已经取得了很多成就，但你的未来还不明朗。但是等等！她看到了别的东西。一些非常阴暗的东西，一些会影响我们所有人的东西。当龙死去，帝国灭亡之时。失去的龙之血在哪里？
+帝国的陛下？从虚空之中，谁能阻止血流成河的未来？我......我不知道这意味着什么，很不清楚.... {泰姆瑞尔帝国,沙尔}"""
 
 > INFO.NAME tell your future 30317141171093612725
 I'm sorry %PCCLass, but that is all I see.  I've have told your future.  What you do with that information is entirely up to you.

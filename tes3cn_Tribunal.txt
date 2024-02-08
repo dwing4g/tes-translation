@@ -4,12 +4,10 @@
  TES3.DATA [75 39 C2 04 00 00 00 00]
 -GMST
  GMST.NAME "sSaveGameNoMemory"
- GMST.STRV "内存空间不足，无法储存游戏。
-请至少释放 100% 的内存并重新尝试。"
+ GMST.STRV "内存空间不足，无法储存游戏。请至少释放 100% 的内存并重新尝试。"
 -GMST
  GMST.NAME "sMaximumSaveGameMessage"
- GMST.STRV "你的储存进度数量已经达到了晨风游戏的上限，
-请删除一些存档并重新尝试。"
+ GMST.STRV "你的储存进度数量已经达到了晨风游戏的上限，请删除一些存档并重新尝试。"
 -GMST
  GMST.NAME "sAuto_Run"
  GMST.STRV "自动前进"
@@ -72,12 +70,10 @@
  GMST.STRV "载入地貌..."
 -GMST
  GMST.NAME "sLoadingMessage5"
- GMST.STRV "解析任务..."
+ GMST.STRV "解析任务 (这可能要等一会)$0A完成时重新保存游戏"
 -GMST
  GMST.NAME "sGeneralMastPlugMismatchMsg"
- GMST.STRV "当前版本主文件所依赖的一个或多个插件未被找到，
-在游玩或者载入游戏的过程中可能导致错误。
-查看""Warnings.txt""文件以了解更多信息。"
+ GMST.STRV "当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看""Warnings.txt""文件以了解更多信息。"
 -GMST
  GMST.NAME "s3dHardware"
  GMST.STRV "硬件加速"
@@ -469,8 +465,7 @@
 -FACT
  FACT.NAME "Royal Guard$00"
  FACT.FNAM "王室卫兵$00"
- FACT.RNAM "卫兵
-$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00"
+ FACT.RNAM "卫兵$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00"
  FACT.RNAM "队长$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00"
  FACT.FADT [00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF 00 00 00 00]
  FACT.ANAM "Ashlanders"
@@ -53996,7 +53991,8 @@ AddTopic ""将得到的报酬"""
  INFO.NNAM "3027331034519626179$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "Nerile Andaren$00"
- INFO.NAME "我对你感激不尽。这个城市永远不会真正知道你为它做了什么贡献；你阻止了一场可能影响到我们所有人的可怕的瘟疫爆发。"
+ INFO.NAME "我对你感激不尽。这个城市永远不会真正知道你为它做了什么贡献；
+你阻止了一场可能影响到我们所有人的可怕的瘟疫爆发。"
  INFO.SCVR "04JX3MS_CrimsonPlague"
  INFO.INTV [AA 00 00 00]
 -INFO
@@ -62348,21 +62344,21 @@ Journal town_Vivec 5"
  INFO.NNAM "49172112360667706$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "shargam gro-shagdulg$00"
- INFO.NAME "每个人都还在谈论拉伦·赫拉罗被杀的事"
+ INFO.NAME "每个人都还在谈论拉伦·赫拉罗被杀的事。"
 -INFO
  INFO.INAM "49172112360667706$00"
  INFO.PNAM "2295820944140861504$00"
  INFO.NNAM "28484177362871719293$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "heddvild$00"
- INFO.NAME "哈拉鲁家族在奥德'汝因一定有间谍 他们似乎总能知道瑞多然议会的计划"
+ INFO.NAME "哈拉鲁家族在奥德'汝因一定有间谍 他们似乎总能知道瑞多然议会的计划。"
 -INFO
  INFO.INAM "28484177362871719293$00"
  INFO.PNAM "49172112360667706$00"
  INFO.NNAM "23359258473099221179$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Camonna Tong$00"
- INFO.NAME "也许你会觉得意外 但我们有些人不喜欢外地人 也不想和他们说话 {谈}"
+ INFO.NAME "也许你会觉得意外 但我们有些人不喜欢外地人 也不想和他们说话。 {谈}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -62371,7 +62367,7 @@ Journal town_Vivec 5"
  INFO.NNAM "1280190891656430661$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Imperial Legion$00"
- INFO.NAME "泰伯·塞普汀拜访过你 我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 這是真的嗎？奇迹从未停止 {帝国人}"
+ INFO.NAME "泰伯·塞普汀拜访过你！我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 这是真的吗？奇迹从未停止。 {帝国人}"
  INFO.SCVR "04JX3IC30_Imperial_veteran"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -62382,7 +62378,7 @@ Journal town_Vivec 5"
  INFO.NNAM "411922311605125893$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Imperial Cult$00"
- INFO.NAME "泰伯·塞普汀拜访过你 我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 這是真的嗎？奇迹从未停止 {帝国人}"
+ INFO.NAME "泰伯·塞普汀拜访过你！我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 这是真的吗？奇迹从未停止。 {帝国人}"
  INFO.SCVR "04JX3IC30_Imperial_veteran"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -62393,7 +62389,7 @@ Journal town_Vivec 5"
  INFO.NNAM "2102521282120885888$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "arrille$00"
- INFO.NAME "我听说楼上的赫里斯卡有财务问题 最近好像连赌都赢不了了"
+ INFO.NAME "我听说楼上的赫里斯卡有财务问题 最近好像连赌都赢不了了。"
  INFO.SCVR "04JX0MS_Lookout"
  INFO.INTV [00 00 00 00]
 -INFO

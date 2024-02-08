@@ -1,12 +1,10 @@
 > GMST.STRV sSaveGameNoMemory
 Unable to create Save Game. Free up 100 blocks and try again.
-"""内存空间不足，无法储存游戏。
-请至少释放 100% 的内存并重新尝试。"""
+内存空间不足，无法储存游戏。请至少释放 100% 的内存并重新尝试。
 
 > GMST.STRV sMaximumSaveGameMessage
 You have reached the limit of Morrowind saved games. Please delete a Morrowind saved game and try again.
-"""你的储存进度数量已经达到了晨风游戏的上限，
-请删除一些存档并重新尝试。"""
+你的储存进度数量已经达到了晨风游戏的上限，请删除一些存档并重新尝试。
 
 > GMST.STRV sAuto_Run
 Auto Run
@@ -90,13 +88,11 @@ Loading Area
 
 > GMST.STRV sLoadingMessage5
 Parsing Quests (this may take a while)$0ARe-save your game when done
-解析任务...
+解析任务 (这可能要等一会)$0A完成时重新保存游戏
 
 > GMST.STRV sGeneralMastPlugMismatchMsg
 One or more plugins could not find the correct versions of the master files they depend on. Errors may occur during load or game play. Check the "Warnings.txt" file for more information.
-"""当前版本主文件所依赖的一个或多个插件未被找到，
-在游玩或者载入游戏的过程中可能导致错误。
-查看"Warnings.txt"文件以了解更多信息。"""
+当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看"Warnings.txt"文件以了解更多信息。
 
 > GMST.STRV s3dHardware
 Hardware Accelerated
@@ -240,8 +236,7 @@ Royal Guard
 
 > FACT.RNAM Royal Guard 1
 Guard
-"""卫兵
-"""
+卫兵
 
 > FACT.RNAM Royal Guard 2
 Captain
@@ -21554,7 +21549,8 @@ Many of the Berne and Aundae are dead by your hand. This is a good thing. I will
 > INFO.NAME crimson plague 135513988223406533
 """I cannot thank you enough.  This city will never truly know what a service you have done it; you've prevented $0D
 a horrible outbreak that would have ended up affecting us all."""
-我对你感激不尽。这个城市永远不会真正知道你为它做了什么贡献；你阻止了一场可能影响到我们所有人的可怕的瘟疫爆发。
+"""我对你感激不尽。这个城市永远不会真正知道你为它做了什么贡献；
+你阻止了一场可能影响到我们所有人的可怕的瘟疫爆发。"""
 
 > INFO.NAME crimson plague 3027331034519626179
 With Gedna Relvel dead, perhaps we've stemmed the tide of this outbreak, before it's spread too far. I'll have the guards on the lookout for any more rats; there shouldn't be many left now. Mournhold owes you quite a debt, %PCName, whether it knows it or not. I cannot offer you much in the way of payment, but I can grant you the power to heal. I hope you will not often find cause to use it.
@@ -24774,27 +24770,27 @@ House Hlaalu's guar herders have had some hard times these last few years.
 
 > INFO.NAME latest rumors 2295820944140861504
 Everyone's still talking about the murder of Ralen Hlaalo.
-每个人都还在谈论拉伦·赫拉罗被杀的事
+每个人都还在谈论拉伦·赫拉罗被杀的事。
 
 > INFO.NAME latest rumors 49172112360667706
 House Hlaalu must have a spy in Ald'ruhn. They always seem to know what the Redoran Council is planning.
-哈拉鲁家族在奥德'汝因一定有间谍 他们似乎总能知道瑞多然议会的计划
+哈拉鲁家族在奥德'汝因一定有间谍 他们似乎总能知道瑞多然议会的计划。
 
 > INFO.NAME latest rumors 28484177362871719293
 It may come as a surprise to you, but some of us don't like outlanders. And don't want to talk to them.
-也许你会觉得意外 但我们有些人不喜欢外地人 也不想和他们说话 {谈}
+也许你会觉得意外 但我们有些人不喜欢外地人 也不想和他们说话。 {谈}
 
 > INFO.NAME latest rumors 23359258473099221179
 You were visited by Tiber Septim! We heard this -- we were told that the Oracle of the Imperial Cult in the Imperial Chapels of Ebonheart says you saw Tiber Septim. Did you see him in the flesh? Did you see his ghost? Did he come and speak to you?  Is that true? Wonders never cease.
-泰伯·塞普汀拜访过你 我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 這是真的嗎？奇迹从未停止 {帝国人}
+泰伯·塞普汀拜访过你！我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 这是真的吗？奇迹从未停止。 {帝国人}
 
 > INFO.NAME latest rumors 1280190891656430661
 You were visited by Tiber Septim! We heard this -- we were told that the Oracle of the Imperial Cult in the Imperial Chapels of Ebonheart says you saw Tiber Septim. Did you see him in the flesh? Did you see his ghost? Did he come and speak to you?  Is that true? Wonders never cease.
-泰伯·塞普汀拜访过你 我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 這是真的嗎？奇迹从未停止 {帝国人}
+泰伯·塞普汀拜访过你！我们听说了 -- 我们听说帝国教团的先知 在黑檀心的帝国教堂里说你看见了泰伯·塞普汀。你看到他的肉体了吗？看见他的鬼魂了吗？他有没有来跟你说话？ 这是真的吗？奇迹从未停止。 {帝国人}
 
 > INFO.NAME latest rumors 411922311605125893
 I heard that Hrisskar upstairs is having some financial troubles. Can't seem to win a wager these days.
-我听说楼上的赫里斯卡有财务问题 最近好像连赌都赢不了了
+我听说楼上的赫里斯卡有财务问题 最近好像连赌都赢不了了。
 
 > INFO.NAME latest rumors 2102521282120885888
 Well, I don't know if anyone else has seen him, but I saw some crazy guy wandering around the hills east of here recently. He was all decked out in armor and waving his sword, mumbling about there being no one to challenge him. I'd steer clear, stranger.
