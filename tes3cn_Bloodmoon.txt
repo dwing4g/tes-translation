@@ -64,10 +64,10 @@
  GMST.STRV "你被人目击变化为狼人。"
 -GMST
  GMST.NAME "sLoadingMessage2"
- GMST.STRV "加载室内"
+ GMST.STRV "载入区域"
 -GMST
  GMST.NAME "sLoadingMessage3"
- GMST.STRV "载入地貌"
+ GMST.STRV "载入区域"
 -GMST
  GMST.NAME "sLoadingMessage5"
  GMST.STRV "解析任务 (这可能要等一会)$0A完成时重新保存游戏。"
@@ -1932,7 +1932,7 @@ if ( OnActivate == 1 )
 
 	;if not on main quest, door cannot open
 	if ( GetJournalIndex A2_6_Incarnate < 15 )
-			Say ""vo\misc\A2-6_cave_closed.mp3"", ""门既开，道已通，晨曦之下，阿祖拉之佑。""
+			Say ""vo\misc\A2-6_cave_closed.mp3"", ""门既封，道未通，远眺苍穹，钥匙即星空。""
 			return
 	endif
 
@@ -1946,7 +1946,7 @@ if ( OnActivate == 1 )
 
 	if ( GameHour > 18 )
 		if ( GameHour < 20 )  ; hour is 6 to 8 PM
-			Say ""vo\misc\A2-6_cave_open.mp3"" , ""门既封，道未通，远眺苍穹，钥匙即星空。""
+			Say ""vo\misc\A2-6_cave_open.mp3"" , ""门既开，道已通，黄昏之下，阿祖拉之佑。""
 			set state to 10
 		endif
 	endif
@@ -1954,7 +1954,7 @@ if ( OnActivate == 1 )
 	;gets here if the hour is wrong
 	if ( state != 10 )
 		if ( talking = 0 )	
-			Say ""vo\misc\A2-6_cave_closed.mp3"", ""门既开，道已通，晨曦之下，阿祖拉之佑。""
+			Say ""vo\misc\A2-6_cave_closed.mp3"", ""门既封，道未通，远眺苍穹，钥匙即星空。""
 			set talking to 1
 		endif
 	endif
@@ -20267,7 +20267,7 @@ End WolfRitualRing
 <br>
 对我们大多数人来说，这个呼唤的含义很清楚，但这些话不过是一连串的精灵圣歌和呐喊。然而，我们当中也有一些学者和编年史家，他们对这些词汇了如指掌，对它们的意义感到不寒而栗。
 <br>
-【雪王子到了！厄运即在眼前！】
+“雪王子到了！厄运即在眼前！”
 <br>
 然后有一种巨大的平静压倒了仍然站立的精灵。雪王子确实穿过他们的群众，当一艘长艇划过菲亚丁冰冷的水域时，他与他的同胞分开了。这匹壮丽的白马减速到疾驰，然后是小跑，不知名的精灵骑手以缓慢的，近似幽灵般的速度移动到队伍的最前面。
 <br>
@@ -52810,7 +52810,7 @@ ShowMap Berandas"
  INFO.NNAM "29065245643252516221$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llaalam Dredil$00"
- INFO.NAME "你找到了那双靴子？你必须告诉我关于它的一切……"
+ INFO.NAME "你找到了那双靴子？你一定要告诉我关于它的一切……"
  INFO.SCVR "04JX3IC26_AmaNin"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -52820,7 +52820,7 @@ ShowMap Berandas"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.CNAM "Savant$00"
- INFO.NAME "你找到靴子了？你一定要告诉我关于它的一切……"
+ INFO.NAME "你找到了那双靴子？你一定要告诉我关于它的一切……"
  INFO.SCVR "04JX3IC26_AmaNin"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -52831,7 +52831,7 @@ ShowMap Berandas"
  INFO.NNAM "14011281241423210826$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llaalam Dredil$00"
- INFO.NAME "神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫要塞。我也毫不惊讶地发现，“曙暮翼魔”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是魔神阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {堡垒,迪德拉式}"
+ INFO.NAME "先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式,迪德拉}"
  INFO.BNAM "Journal IC26_AmaNin 10
 ShowMap Berandas"
 -INFO
@@ -67403,7 +67403,7 @@ Goodbye"
  INFO.NNAM "32057195401792128748$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "risi ice-mane$00"
- INFO.NAME "你已经还了我的丈夫的清白 我能为你做什么？"
+ INFO.NAME "你已经还了我的丈夫清白，我能为你做什么？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [46 00 00 00]
 -INFO
@@ -67412,7 +67412,7 @@ Goodbye"
  INFO.NNAM "26666326902586726328$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "risi ice-mane$00"
- INFO.NAME "你是负责我的丈夫罪行的调查案件的人 我能帮你什么？ {你就是天选之人}"
+ INFO.NAME "你是负责调查我的丈夫罪行的人，我能帮你什么？ {你就是天选之人,调查案件}"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX4BM_Trial"
@@ -67716,7 +67716,7 @@ Journal BM_Draugr 30"
  INFO.NNAM "218584833868416565$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "korst wind-eye$00"
- INFO.NAME "你是来进行馈赠仪式的 希望你一路顺风。"
+ INFO.NAME "你是来进行馈赠仪式的，希望你一路顺风。"
  INFO.SCVR "04JX3BM_Stones"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "14JX4BM_Stones"
@@ -67727,7 +67727,7 @@ Journal BM_Draugr 30"
  INFO.NNAM "4332288802231113170$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "korst wind-eye$00"
- INFO.NAME "向你问好，流浪者 你为什么来我们村子？"
+ INFO.NAME "向你问好，流浪者。你为什么来我们村子？"
  INFO.SCVR "04JX3BM_CariusGone"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "14JX4BM_Stones"
@@ -67882,7 +67882,7 @@ Goodbye"
  INFO.NNAM "986332360286620934$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "你要调查案件 你做到了吗？"
+ INFO.NAME "你们要调查案件，做完了吗？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX4BM_Trial"
@@ -67915,7 +67915,7 @@ Goodbye"
  INFO.NNAM "27099147812040728032$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "我是想向你解释，外地人 你有太多需要赎罪的事。"
+ INFO.NAME "我是想向你解释，外地人，你有太多需要赎罪的事。"
  INFO.SCVR "04JX5BM_Stones"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "14JX2BM_Stones"
@@ -74135,7 +74135,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Warlock$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。【小声说道：别担心】"
+ INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]"
  INFO.SCVR "04JX3B2_AhemmusaSafe"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
@@ -74148,7 +74148,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Witch$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。【小声说道：别担心】"
+ INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]"
  INFO.SCVR "04JX3B2_AhemmusaSafe"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
@@ -82998,7 +82998,7 @@ PCClearExpelled"
  INFO.NNAM "2063323517166171236$00"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.SNAM "Vo\ww\scrm.mp3$00"
- INFO.NAME "【咆哮声】！"
+ INFO.NAME "咆哮！"
  INFO.SCVR "01720"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";this prevents werewolves from talking to you in combat"
@@ -84637,7 +84637,7 @@ ModDisposition -10"
  INFO.NNAM "30246200252173829691$00"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.SNAM "Vo\ww\scrm.mp3$00"
- INFO.NAME "【咆哮声】！"
+ INFO.NAME "咆哮！"
  INFO.SCVR "01720"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";keeps werewolf from talking to you"
@@ -85291,7 +85291,7 @@ ModDisposition -10"
  INFO.RNAM "Nord$00"
  INFO.FNAM "Skaal$00"
  INFO.SNAM "vo\n\m\bHlo_NM032.mp3$00"
- INFO.NAME "你是来进行礼物仪式的 希望你一路顺风。"
+ INFO.NAME "你是来进行馈赠仪式的，希望你一路顺风。"
  INFO.SCVR "04JX3BM_Stones"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "14JX4BM_Stones"
@@ -85305,7 +85305,7 @@ ModDisposition -10"
  INFO.RNAM "Nord$00"
  INFO.FNAM "Skaal$00"
  INFO.SNAM "vo\n\m\bHlo_NM033.mp3$00"
- INFO.NAME "向你问好，流浪者 你为什么回到我们村子？"
+ INFO.NAME "向你问好，流浪者。你为什么回到我们村子？"
  INFO.SCVR "04JX3BM_CariusGone"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -85417,7 +85417,7 @@ ModDisposition -10"
  INFO.ONAM "risi ice-mane$00"
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\bHlo_NF012.mp3$00"
- INFO.NAME "你已经还了我丈夫的清白 我能为你做什么？"
+ INFO.NAME "你已经还了我的丈夫清白，我能为你做什么？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [64 00 00 00]
  INFO.BNAM ";grateful, sexy"
@@ -85430,7 +85430,7 @@ ModDisposition -10"
  INFO.RNAM "Nord$00"
  INFO.FNAM "Skaal$00"
  INFO.SNAM "vo\n\f\bHlo_NF013.mp3$00"
- INFO.NAME "你是负责调查我丈夫罪行的人 我能帮你什么？"
+ INFO.NAME "你是负责调查我的丈夫罪行的人，我能帮你什么？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4BM_Trial"
@@ -85517,7 +85517,7 @@ ModDisposition -10"
  INFO.ONAM "tharsten heart-fang$00"
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\bHlo_NM043.mp3$00"
- INFO.NAME "你们要调查犯罪 你做到了吗？"
+ INFO.NAME "你们要调查案件，做完了吗？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -85550,7 +85550,7 @@ ModDisposition -10"
  INFO.ONAM "tharsten heart-fang$00"
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\bHlo_NM046.mp3$00"
- INFO.NAME "我是想向你解释，外地人 你有很多事情需要弥补。"
+ INFO.NAME "我是想向你解释，外地人，你有太多需要赎罪的事。"
  INFO.SCVR "04JX3BM_Stones"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -86047,7 +86047,7 @@ ModDisposition -10"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Fort Frostmoth$00"
  INFO.SNAM "vo\i\m\bHlo_IM013.mp3$00"
- INFO.NAME "卡利尤斯队长说你可能会来找我。我能为您效劳吗？"
+ INFO.NAME "卡利尤斯队长说你可能会来找我。我能协助你吗？"
  INFO.SCVR "04JX2BM_Smugglers"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX4BM_Smugglers"
@@ -88049,7 +88049,7 @@ Journal CO_10 60"
  INFO.NNAM "160014977237055961$00"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.SNAM "Vo\ww\scrm.mp3$00"
- INFO.NAME "【咆哮声】！"
+ INFO.NAME "咆哮！"
  INFO.SCVR "01720"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";keeps werewolf from talking"
@@ -88140,7 +88140,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gidar Verothan$00"
  INFO.SNAM "Vo\d\m\Idl_DM002.mp3$00"
- INFO.NAME "【嗅嗅】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "0BLX0Raven Rock"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -88150,7 +88150,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gamin Girith$00"
  INFO.SNAM "Vo\d\m\Idl_DM001.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "0BLX0Raven Rock"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -88200,7 +88200,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "korst wind-eye$00"
  INFO.SNAM "Vo\n\m\Idl_NM002.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
 -INFO
  INFO.INAM "12704523942043044$00"
  INFO.PNAM "2404627347132021805$00"
@@ -88250,7 +88250,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
  INFO.SNAM "Vo\n\m\Idl_NM003.mp3$00"
- INFO.NAME "【嗅嗅】。"
+ INFO.NAME "嗅嗅。"
 -INFO
  INFO.INAM "804231054706829371$00"
  INFO.PNAM "32326141201046222833$00"
@@ -88321,7 +88321,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
  INFO.SNAM "Vo\i\m\Idl_IM009.mp3$00"
- INFO.NAME "【清理喉咙】。"
+ INFO.NAME "清理喉咙。"
 -INFO
  INFO.INAM "180907620537528794$00"
  INFO.PNAM "25099315882327911743$00"
@@ -95082,7 +95082,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "vo\a\m\Idl_AM001.mp3$00"
- INFO.NAME "【咕噜声】。"
+ INFO.NAME "咕噜。"
 -INFO
  INFO.INAM "2837611811394313278$00"
  INFO.PNAM "22569150661186112985$00"
@@ -95120,7 +95120,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Idl_RF005.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -95219,7 +95219,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\f\Idl_KF004.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -95307,7 +95307,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\m\Idl_KM004.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -95365,7 +95365,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Idl_IF007.mp3$00"
- INFO.NAME "【清理喉咙】。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
 -INFO
@@ -95375,7 +95375,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Idl_IF006.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [46 00 00 00]
 -INFO
@@ -95385,7 +95385,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Idl_IF005.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -95445,7 +95445,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Idl_RM008.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [5A 00 00 00]
 -INFO
@@ -95531,7 +95531,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Idl_RM009.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
 -INFO
  INFO.INAM "1917730721185131683$00"
  INFO.PNAM "1267134477542428$00"
@@ -95539,7 +95539,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Idl_OM007.mp3$00"
- INFO.NAME "【清理喉咙】。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Replace"
@@ -95550,7 +95550,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Idl_OM006.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [46 00 00 00]
  INFO.BNAM ";Random>=60"
@@ -95561,7 +95561,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Idl_OM005.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Replace with specified phrase"
@@ -95583,7 +95583,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Idl_OM003.mp3$00"
- INFO.NAME "【咆哮声】。"
+ INFO.NAME "咆哮。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Replace with specified phrase"
@@ -95645,7 +95645,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Idl_OF006.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [46 00 00 00]
 -INFO
@@ -95655,7 +95655,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Idl_OF005.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -95665,7 +95665,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Idl_OF004.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -95675,7 +95675,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Idl_OF003.mp3$00"
- INFO.NAME "清清嗓子。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
 -INFO
@@ -95724,7 +95724,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\Idl_NF007.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -95746,7 +95746,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\Idl_NF005.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -95821,7 +95821,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\Idl_NM007.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [46 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -95854,7 +95854,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\Idl_NM004.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -95865,7 +95865,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\Idl_NM003.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [1E 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -95876,7 +95876,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\Idl_NM002.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -95928,7 +95928,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Idl_DF004.mp3$00"
- INFO.NAME "【抱怨声】。"
+ INFO.NAME "抱怨。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -95949,7 +95949,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Idl_DF002.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -95960,7 +95960,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Idl_DF001.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [1E 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96025,7 +96025,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Idl_DM004.mp3$00"
- INFO.NAME "【抱怨声】。"
+ INFO.NAME "抱怨。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96047,7 +96047,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Idl_DM002.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [1E 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96058,7 +96058,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Idl_DM001.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96080,7 +96080,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Idl_BF008.mp3$00"
- INFO.NAME "清清嗓子。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [5A 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96091,7 +96091,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Idl_BF007.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96168,7 +96168,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Idl_BF009.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.BNAM ";Replace sound file-revise text"
 -INFO
  INFO.INAM "9061113832588317681$00"
@@ -96177,7 +96177,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Idl_BM008.mp3$00"
- INFO.NAME "清清嗓子。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [5A 00 00 00]
 -INFO
@@ -96257,7 +96257,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Idl_BM009.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
 -INFO
  INFO.INAM "2237267453012521922$00"
  INFO.PNAM "257802793465419784$00"
@@ -96330,7 +96330,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Idl_WM002.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [1E 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96341,7 +96341,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Idl_WM001.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96421,7 +96421,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Idl_WF002.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [1E 00 00 00]
 -INFO
@@ -96431,7 +96431,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Idl_WF001.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -96538,7 +96538,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "Vo\a\f\Idl_AF001.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96558,7 +96558,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Idl_HM008.mp3$00"
- INFO.NAME "【清理喉咙】。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [5A 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96645,7 +96645,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Idl_HM009.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.BNAM ";Replace sound file-revise text"
 -INFO
  INFO.INAM "1319726843541824345$00"
@@ -96654,7 +96654,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Idl_HF008.mp3$00"
- INFO.NAME "【咳嗽声】。"
+ INFO.NAME "咳嗽。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [5A 00 00 00]
 -INFO
@@ -96742,7 +96742,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\m\Idl_IM001.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [5A 00 00 00]
 -INFO
@@ -96772,7 +96772,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\m\Idl_IM004.mp3$00"
- INFO.NAME "清清嗓子。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -96812,7 +96812,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\m\Idl_IM009.mp3$00"
- INFO.NAME "清清嗓子。"
+ INFO.NAME "清理喉咙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -96822,7 +96822,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\m\Idl_IM001.mp3$00"
- INFO.NAME "【擤鼻子】。"
+ INFO.NAME "嗅嗅。"
 -DIAL
  DIAL.NAME "Flee$00"
  DIAL.DATA [01]
@@ -96832,7 +96832,7 @@ Journal CO_10 60"
  INFO.NNAM "1589666621815410347$00"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.SNAM "Vo\ww\scrm.mp3$00"
- INFO.NAME "【咆哮声】！"
+ INFO.NAME "咆哮！"
  INFO.SCVR "01720"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";to keep werewolves from talking during to you, they should never flee but just to be safe"
@@ -97417,7 +97417,7 @@ moddisposition 2"
  INFO.NNAM "20663142531895113518$00"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.SNAM "Vo\ww\scrm.mp3$00"
- INFO.NAME "【怒吼声】！"
+ INFO.NAME "怒吼！"
  INFO.SCVR "01720"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -97428,7 +97428,7 @@ moddisposition 2"
  INFO.NNAM "2308412121727532$00"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.SNAM "Vo\ww\roar.mp3$00"
- INFO.NAME "【咆哮声】！"
+ INFO.NAME "咆哮！"
  INFO.SCVR "01720"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -97439,7 +97439,7 @@ moddisposition 2"
  INFO.NNAM "299702217312473358$00"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.SNAM "Vo\ww\moan.mp3$00"
- INFO.NAME "【低吼声】！"
+ INFO.NAME "低吼！"
  INFO.SCVR "01720"
  INFO.INTV [01 00 00 00]
 -INFO

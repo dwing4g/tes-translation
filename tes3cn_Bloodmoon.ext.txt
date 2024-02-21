@@ -80,11 +80,11 @@ You have been detected as a known werewolf.
 
 > GMST.STRV sLoadingMessage2
 Loading Area
-加载室内
+载入区域
 
 > GMST.STRV sLoadingMessage3
 Loading Area
-载入地貌
+载入区域
 
 > GMST.STRV sLoadingMessage5
 Parsing Quests (this may take a while)$0ARe-save when done.
@@ -265,7 +265,7 @@ Skaal
 
 > SCPT.SCTX CavernIncarnateDoor s1
 The door is locked, and will not open. The star is the key.
-门既开，道已通，晨曦之下，阿祖拉之佑。
+门既封，道未通，远眺苍穹，钥匙即星空。
 
 > SCPT.SCTX CavernIncarnateDoor s2
 In the dawn hour under Azura's Star, the door is opened.
@@ -273,11 +273,11 @@ In the dawn hour under Azura's Star, the door is opened.
 
 > SCPT.SCTX CavernIncarnateDoor s3
 In the dawn hour under Azura's Star, the door is opened.
-门既封，道未通，远眺苍穹，钥匙即星空。
+门既开，道已通，黄昏之下，阿祖拉之佑。
 
 > SCPT.SCTX CavernIncarnateDoor s4
 The door is locked, and will not open. The star is the key.
-门既开，道已通，晨曦之下，阿祖拉之佑。
+门既封，道未通，远眺苍穹，钥匙即星空。
 
 > SCPT.SCTX ColonyMineDoor m1
 The door cannot be opened. Hroldar is blocking the way.
@@ -2628,7 +2628,7 @@ So ends this account of the Battle of the Moesring, and the fall of the magnific
 <br>
 对我们大多数人来说，这个呼唤的含义很清楚，但这些话不过是一连串的精灵圣歌和呐喊。然而，我们当中也有一些学者和编年史家，他们对这些词汇了如指掌，对它们的意义感到不寒而栗。
 <br>
-【雪王子到了！厄运即在眼前！】
+“雪王子到了！厄运即在眼前！”
 <br>
 然后有一种巨大的平静压倒了仍然站立的精灵。雪王子确实穿过他们的群众，当一艘长艇划过菲亚丁冰冷的水域时，他与他的同胞分开了。这匹壮丽的白马减速到疾驰，然后是小跑，不知名的精灵骑手以缓慢的，近似幽灵般的速度移动到队伍的最前面。
 <br>
@@ -16816,15 +16816,15 @@ The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer 
 
 > INFO.NAME boots of the apostle 2315079573118114217
 You found the boots? You must tell me all about it....
-你找到了那双靴子？你必须告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 29065245643252516221
 You found the boots? You must tell me all about it....
-你找到靴子了？你一定要告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 30678111231429010357
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫要塞。我也毫不惊讶地发现，“曙暮翼魔”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是魔神阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {堡垒,迪德拉式}
+先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式,迪德拉}
 
 > INFO.NAME boots of the apostle 14011281241423210826
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
@@ -22666,11 +22666,11 @@ The beasts must be killed! You must assist the guards!
 
 > INFO.NAME greeting 1 2209675272075720576
 You have cleared my husband's name. What can I do for you?
-你已经还了我的丈夫的清白 我能为你做什么？
+你已经还了我的丈夫清白，我能为你做什么？
 
 > INFO.NAME greeting 1 32057195401792128748
 You are the one who is to investigate a crime that has been blamed on my husband. How may I help you?
-你是负责我的丈夫罪行的调查案件的人 我能帮你什么？ {你就是天选之人}
+你是负责调查我的丈夫罪行的人，我能帮你什么？ {你就是天选之人,调查案件}
 
 > INFO.NAME greeting 1 26666326902586726328
 I have nothing to say. My time is done.
@@ -22786,11 +22786,11 @@ Hello again, friend. What may I do for you?
 
 > INFO.NAME greeting 1 2582112969107021320
 You were to perform the Ritual of the Gifts. I hope your way has been easy.
-你是来进行馈赠仪式的 希望你一路顺风。
+你是来进行馈赠仪式的，希望你一路顺风。
 
 > INFO.NAME greeting 1 218584833868416565
 Greetings to you, wanderer. Why have you come to our village?
-向你问好，流浪者 你为什么来我们村子？
+向你问好，流浪者。你为什么来我们村子？
 
 > INFO.NAME greeting 1 4332288802231113170
 My greetings to you, wanderer. We of the Skaal do not get many visitors. What winds have brought you to our lands? I can only imagine it is the attack on the Imperial fort that we have heard whispers of.
@@ -22842,7 +22842,7 @@ You've investigated the crime. Now it is time for you to make a decision. The ve
 
 > INFO.NAME greeting 1 27510207931402617223
 You were to investigate a crime. Have you done this?
-你要调查案件 你做到了吗？
+你们要调查案件，做完了吗？
 
 > INFO.NAME greeting 1 986332360286620934
 You have shown your loyalty to the Skaal. Now it is time to prove your wisdom.
@@ -22854,7 +22854,7 @@ You were told to perform the rituals needed to restore the power of the Skaal. W
 
 > INFO.NAME greeting 1 1929830229122142844
 I was trying to explain to you, outlander, that you have much to atone for.
-我是想向你解释，外地人 你有太多需要赎罪的事。
+我是想向你解释，外地人，你有太多需要赎罪的事。
 
 > INFO.NAME greeting 1 27099147812040728032
 Yes, outlander? What is your business here?
@@ -25058,11 +25058,11 @@ Go ahead. It's your move.
 
 > INFO.NAME greeting 1 45734515193616635
 Everything is perfectly all right. We heard the word. Hlireni Indavel says lay off you and the savages. We won't touch them, or you, as long as you leave us alone. [Whispers: Spoil-sport.]
-一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。【小声说道：别担心】
+一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]
 
 > INFO.NAME greeting 1 2400522477179779807
 Everything is perfectly all right. We heard the word. Hlireni Indavel says lay off you and the savages. We won't touch them, or you, as long as you leave us alone. [Whispers: Spoil-sport.]
-一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。【小声说道：别担心】
+一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]
 
 > INFO.NAME greeting 1 1961528148943530578
 Don't worry. Hlireni Indavel says leave you and the poor starving Ashlanders alone.
@@ -28434,7 +28434,7 @@ Strange creatures, horkers. Did you know they can walk on land AND swim in the w
 
 > INFO.NAME attack 10819118262520816930
 Growl!
-【咆哮声】！
+咆哮！
 
 > INFO.NAME attack 2063323517166171236
 Kill the beast!
@@ -29070,7 +29070,7 @@ He and his companions should be arriving tonight. Head east along the coast; the
 
 > INFO.NAME hello 1709302711210241
 Growl!
-【咆哮声】！
+咆哮！
 
 > INFO.NAME hello 30246200252173829691
 Werewolves in the Greathall! Get in there quickly!
@@ -29298,11 +29298,11 @@ Hello again, friend. What may I do for you?
 
 > INFO.NAME hello 24245298792039923720
 You were to perform the Ritual of the Gifts. I hope your way has been easy.
-你是来进行礼物仪式的 希望你一路顺风。
+你是来进行馈赠仪式的，希望你一路顺风。
 
 > INFO.NAME hello 178891993033261868
 Greetings to you, wanderer. Why have you returned to our village?
-向你问好，流浪者 你为什么回到我们村子？
+向你问好，流浪者。你为什么回到我们村子？
 
 > INFO.NAME hello 2916517714270631329
 You have returned. I would hear of your journey.
@@ -29338,11 +29338,11 @@ Yes? I understand you are investigating Engar Ice-Mane's theft.
 
 > INFO.NAME hello 2338630149427920363
 You have cleared my husband's name. What can I do for you?
-你已经还了我丈夫的清白 我能为你做什么？
+你已经还了我的丈夫清白，我能为你做什么？
 
 > INFO.NAME hello 1447232171280629639
 You are the one who is to investigate a crime that has been blamed on my husband. How may I help you?
-你是负责调查我丈夫罪行的人 我能帮你什么？
+你是负责调查我的丈夫罪行的人，我能帮你什么？
 
 > INFO.NAME hello 30061204231823631853
 No time for talk. The Hunt has begun!
@@ -29370,7 +29370,7 @@ You have done well, showing your loyalty and wisdom
 
 > INFO.NAME hello 5189437221986955
 You were to investigate a crime. Have you done this?
-你们要调查犯罪 你做到了吗？
+你们要调查案件，做完了吗？
 
 > INFO.NAME hello 205815768135704740
 You have shown your loyalty to the Skaal.
@@ -29382,7 +29382,7 @@ You were told to perform the rituals needed to restore the power of the Skaal. W
 
 > INFO.NAME hello 12109247951228018206
 I was trying to explain to you, outlander, that you have much to atone for.
-我是想向你解释，外地人 你有很多事情需要弥补。
+我是想向你解释，外地人，你有太多需要赎罪的事。
 
 > INFO.NAME hello 27338101851888414694
 What do you want, stranger? Why are you among the Skaal?
@@ -29542,7 +29542,7 @@ Let us ferret out this ring of smugglers.
 
 > INFO.NAME hello 26928226011047512912
 Captain Carius mentioned that you might come to speak with me. How may I assist you?
-卡利尤斯队长说你可能会来找我。我能为您效劳吗？
+卡利尤斯队长说你可能会来找我。我能协助你吗？
 
 > INFO.NAME hello 193419224975110833
 I'll be gone soon. I promise you that.
@@ -30298,7 +30298,7 @@ Awful creatures. As if the other things here weren't bad enough....
 
 > INFO.NAME idle 2638137421067825083
 Growl!
-【咆哮声】！
+咆哮！
 
 > INFO.NAME idle 160014977237055961
 So it's back to the workshop in the snow! With lovely lanterns all aglow! He he! Ha ho! He he he ha ha ho!
@@ -30334,11 +30334,11 @@ Sigh.
 
 > INFO.NAME idle 2581226521119415243
 Sniff.
-【嗅嗅】。
+嗅嗅。
 
 > INFO.NAME idle 2801622679965131873
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 30122244911248810757
 The signs have faded. The Prophecy is at an end.
@@ -30358,7 +30358,7 @@ Strange times, and stranger...
 
 > INFO.NAME idle 2404627347132021805
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 12704523942043044
 Heart-Fang shall survive the Hunt.
@@ -30378,7 +30378,7 @@ Stranger and guest...
 
 > INFO.NAME idle 32326141201046222833
 Sniff.
-【嗅嗅】。
+嗅嗅。
 
 > INFO.NAME idle 804231054706829371
 The fort will be rebuilt.
@@ -30406,7 +30406,7 @@ Ah, well. Duty calls.
 
 > INFO.NAME idle 25099315882327911743
 Clears throat.
-【清理喉咙】。
+清理喉咙。
 
 > INFO.NAME idle 180907620537528794
 Without me, it all falls to pieces.
@@ -32782,7 +32782,7 @@ Small fork on outside, or is it inside....
 
 > INFO.NAME idle 22569150661186112985
 Grunt.
-【咕噜声】。
+咕噜。
 
 > INFO.NAME idle 2837611811394313278
 Now where did I put that?
@@ -32798,7 +32798,7 @@ If I ever see that elf, he's in so much trouble.
 
 > INFO.NAME idle 2534100201936527323
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 2022055131197720994
 Humming.
@@ -32838,7 +32838,7 @@ What was that?
 
 > INFO.NAME idle 995818620111633256
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 127211162923816113
 Var var var.
@@ -32874,7 +32874,7 @@ What was that?
 
 > INFO.NAME idle 792324741302141658
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 32015794050111807
 Var var var.
@@ -32898,15 +32898,15 @@ Humming.
 
 > INFO.NAME idle 123712834456618667
 Clearing throat.
-【清理喉咙】。
+清理喉咙。
 
 > INFO.NAME idle 18299132961729222866
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 2189190397054231
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 13459205473175515874
 Whistle.
@@ -32930,7 +32930,7 @@ Strange.
 
 > INFO.NAME idle 230161198179431300
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 2485522049224515334
 What day is today?
@@ -32962,19 +32962,19 @@ So I said. Where's the money in that?
 
 > INFO.NAME idle 1267134477542428
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 1917730721185131683
 Clearing throat.
-【清理喉咙】。
+清理喉咙。
 
 > INFO.NAME idle 31973107903053529370
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 217045071520010890
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 238301481745069453
 Hmmm.
@@ -32982,7 +32982,7 @@ Hmmm.
 
 > INFO.NAME idle 173793939212296305
 Growl.
-【咆哮声】。
+咆哮。
 
 > INFO.NAME idle 2506639642239916978
 What was that?
@@ -33006,19 +33006,19 @@ Need to practice more.
 
 > INFO.NAME idle 15214184181521620922
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 2041231881161233198
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 1670326901108601763
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 430013278310983516
 Clears throat.
-清清嗓子。
+清理喉咙。
 
 > INFO.NAME idle 1572323580236030825
 So careless, these creatures.
@@ -33038,7 +33038,7 @@ Whistle
 
 > INFO.NAME idle 1957031616624228975
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 63652173163857130
 Humms.
@@ -33046,7 +33046,7 @@ Humms.
 
 > INFO.NAME idle 2124744162804313751
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 440761111836724700
 What makes this smell?
@@ -33074,7 +33074,7 @@ Whistle.
 
 > INFO.NAME idle 1664326553230499111
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 11107842579232570
 Humm.
@@ -33086,15 +33086,15 @@ Whistle.
 
 > INFO.NAME idle 16685291662236228343
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 1142415072162362953
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 17533249353076324962
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 8521187912089117797
 What makes this smell?
@@ -33114,7 +33114,7 @@ Where is that slave? Here not long ago.
 
 > INFO.NAME idle 17413289001579815550
 Grumbling.
-【抱怨声】。
+抱怨。
 
 > INFO.NAME idle 142794588274553618
 Sigh.
@@ -33122,11 +33122,11 @@ Sigh.
 
 > INFO.NAME idle 1473040422707912654
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 16762293532988423183
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 2736311925233346629
 I could kill that guar. Those boots are ruined.
@@ -33150,7 +33150,7 @@ Where is that slave?
 
 > INFO.NAME idle 12686127041329232732
 Grumbling.
-【抱怨声】。
+抱怨。
 
 > INFO.NAME idle 7634304781346015904
 Sigh.
@@ -33158,11 +33158,11 @@ Sigh.
 
 > INFO.NAME idle 2738916327587212914
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 115876706220847775
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 28227229212837020955
 I could kill that guar. Those boots are ruined.
@@ -33170,11 +33170,11 @@ I could kill that guar. Those boots are ruined.
 
 > INFO.NAME idle 2084011908273408332
 Clears throat.
-清清嗓子。
+清理喉咙。
 
 > INFO.NAME idle 97833169421157953
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 17838234862221520631
 Whistle.
@@ -33202,11 +33202,11 @@ What was that about?
 
 > INFO.NAME idle 27967182132252224134
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 9061113832588317681
 Clears throat.
-清清嗓子。
+清理喉咙。
 
 > INFO.NAME idle 3006618058219948859
 Humm.
@@ -33238,7 +33238,7 @@ Do I drop the sweetroll or hand it over and come back later? Dunno....
 
 > INFO.NAME idle 257802793465419784
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 2237267453012521922
 Sigh.
@@ -33266,11 +33266,11 @@ Sigh.
 
 > INFO.NAME idle 22957218082014814572
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 11642110312556830154
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 14109250111603110668
 That's unusual.
@@ -33302,11 +33302,11 @@ Sigh.
 
 > INFO.NAME idle 22106178782051314335
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 25253193311395411798
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 238531442260615602
 What was that?
@@ -33346,7 +33346,7 @@ No. That's not it.
 
 > INFO.NAME idle 159812533276083745
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 389794131396711635
 Click, click, click.
@@ -33354,7 +33354,7 @@ Click, click, click.
 
 > INFO.NAME idle 194064096202762275
 Clearing throat.
-【清理喉咙】。
+清理喉咙。
 
 > INFO.NAME idle 1241619206163771397
 Humm.
@@ -33386,11 +33386,11 @@ I don't recall using teleportation, and yet there I was. Alone. Naked.
 
 > INFO.NAME idle 94994291485412672
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 1319726843541824345
 Cough.
-【咳嗽声】。
+咳嗽。
 
 > INFO.NAME idle 2479715795221259677
 Humm.
@@ -33426,7 +33426,7 @@ Sigh.
 
 > INFO.NAME idle 32539200971533428704
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME idle 21630128942774123957
 Sniff, sniff.
@@ -33438,7 +33438,7 @@ Now, where did I put that?
 
 > INFO.NAME idle 61402618629154876
 Clears throat.
-清清嗓子。
+清理喉咙。
 
 > INFO.NAME idle 1289961102398110277
 What was that?
@@ -33454,15 +33454,15 @@ Whistles.
 
 > INFO.NAME idle 32382836164663658
 Clears throat.
-清清嗓子。
+清理喉咙。
 
 > INFO.NAME idle 21526916987413233
 Sniff.
-【擤鼻子】。
+嗅嗅。
 
 > INFO.NAME flee 32137175498021017
 Growl!
-【咆哮声】！
+咆哮！
 
 > INFO.NAME flee 1589666621815410347
 Help! A beast!
@@ -33666,15 +33666,15 @@ It's white and wet. What more can I tell you?
 
 > INFO.NAME hit 1732794482128125050
 Roar!
-【怒吼声】！
+怒吼！
 
 > INFO.NAME hit 20663142531895113518
 Growl!
-【咆哮声】！
+咆哮！
 
 > INFO.NAME hit 2308412121727532
 Grrrr!
-【低吼声】！
+低吼！
 
 > INFO.NAME hit 299702217312473358
 Unngh!

@@ -64,10 +64,10 @@
  GMST.STRV "Äã±»ÈËÄ¿»÷±ä»¯ÎªÀÇÈË¡£"
 -GMST
  GMST.NAME "sLoadingMessage2"
- GMST.STRV "¼ÓÔØÊÒÄÚ"
+ GMST.STRV "ÔØÈëÇøÓò"
 -GMST
  GMST.NAME "sLoadingMessage3"
- GMST.STRV "ÔØÈëµØÃ²"
+ GMST.STRV "ÔØÈëÇøÓò"
 -GMST
  GMST.NAME "sLoadingMessage5"
  GMST.STRV "½âÎöÈÎÎñ (Õâ¿ÉÄÜÒªµÈÒ»»á)$0AÍê³ÉÊ±ÖØÐÂ±£´æÓÎÏ·"
@@ -21800,7 +21800,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 14 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_book_04.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-[ÔÚÁÊ²ÝµÄËãÊ½ºÍÄÑÒÔ±æÈÏµÄ·ûºÅ¼ä£¬³ýÁËÇ©Ãû£¬Õâ¶ÎÎÄ×Ö¼¸ºõÎÞ·¨±»Ê¶±ð£º¡¾°£¶û²®ÌØ¡¤ÄÚÂí¿Ë¡¿]<BR>"
+[ÔÚÁÊ²ÝµÄËãÊ½ºÍÄÑÒÔ±æÈÏµÄ·ûºÅ¼ä£¬³ýÁËÇ©Ãû£¬Õâ¶ÎÎÄ×Ö¼¸ºõÎÞ·¨±»Ê¶±ð£º¡°°£¶û²®ÌØ¡¤ÄÚÂí¿Ë¡±]<BR>"
 -WEAP
  WEAP.NAME "dwarven mace_salandas$00"
  WEAP.MODL "w\W_Dwemer_mace.nif$00"
@@ -23421,7 +23421,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 96 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-¡¾Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹Ü¼þÊÖ²á¡£¡¿<BR>
+[Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹Ü¼þÊÖ²á¡£]<BR>
 <BR>"
 -BOOK
  BOOK.NAME "book_dwe_cogs00$00"
@@ -23430,7 +23430,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 64 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_book_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-¡¾Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ³ÝÂÖ¸ü»»ºÍÎ¬»¤µÄÊÖ²á¡£¡¿<BR>"
+[Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ³ÝÂÖ¸ü»»ºÍÎ¬»¤µÄÊÖ²á¡£]<BR>"
 -ALCH
  ALCH.NAME "p_dwemer_lubricant00$00"
  ALCH.MODL "n\Potion_Cyro_whiskey_01.NIF$00"
@@ -23452,7 +23452,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 96 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-¡¾Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ»úÐµÎ¬»¤µÄÊÖ²á¡£¡¿<BR>
+[Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ»úÐµÎ¬»¤µÄÊÖ²á¡£]<BR>
 
 "
 -MISC
@@ -23474,7 +23474,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 64 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-¡¾Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚÒýË®ÇþºÍË®Ñ¹µÄÊÖ²á¡£¡¿<BR>
+[Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚÒýË®ÇþºÍË®Ñ¹µÄÊÖ²á¡£]<BR>
 
 "
 -BOOK
@@ -23484,7 +23484,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 96 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_quarto_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-¡¾Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ»úÐµ¹¦ºÄµÄÊÖ²á¡£¡¿<BR>
+[Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ»úÐµ¹¦ºÄµÄÊÖ²á¡£]<BR>
 
 "
 -BOOK
@@ -23494,7 +23494,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 64 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_book_04.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-¡¾Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼Á©¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ½ðÊô¼Ó¹¤µÄÊÖ²á¡£¡¿<BR>
+[Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼Á©¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚ½ðÊô¼Ó¹¤µÄÊÖ²á¡£]<BR>
 
 
 "
@@ -23998,7 +23998,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  BOOK.BKDT [00 00 40 40 64 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_octavo_open_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-¡¾Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚÒ×È¼ÎïºÍ·À»ð°²È«µÄÊÖ²á¡£¡¿<BR>
+[Õâ±¾ÊéËÆºõÊÇÓÃÒ»ÖÖÎ´ÖªµÄ¶ÍÄªÓïÑÔÐ´³ÉµÄ¡£´Ó²åÍ¼À´¿´£¬ËüËÆºõÊÇÒ»±¾¹ØÓÚÒ×È¼ÎïºÍ·À»ð°²È«µÄÊÖ²á¡£]<BR>
 
 "
 -ACTI
@@ -45486,7 +45486,7 @@ player->additem ""gold_001"" 30000
  INFO.NNAM "26212118821994920994$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "holmar$00"
- INFO.NAME "Ê²Ã´£¿*´òàÃ* ºÃ°É£¬ÎÒ¿É²»»á¾Ü¾øÒ»Æ¿ºÃ¾Æ¡£¾Æ°ÉÀÏ°å£¡*´òàÃ* ÔÙ¸øÎÒÁ½±­ËÕÙ¤Âê£¡ÂíÉÏ£¡ÎÒÏ²»¶Á½ÊÖ¶¼ÄÃ×Å¾ÆÆ¿¡£*¶Ö¶Ö¶Ö* °¡¡­¡­Ë¬¡­¡­¡£*´òàÃ* ¡¾ºÉÂí°ÑËûµÄ¾ÆÒ»Òû¶ø¾¡¡£ËûßÖ×ì´óÐ¦¡£ËûÅ¬Á¦Ïë¼¯ÖÐÑÛÉñ¡£ËûÇáÇáÒ¡°Ú£¬Ïñ·çÖÐµÄÊ÷Ò»Ñù¡­¡­¡¿"
+ INFO.NAME "Ê²Ã´£¿*´òàÃ* ºÃ°É£¬ÎÒ¿É²»»á¾Ü¾øÒ»Æ¿ºÃ¾Æ¡£¾Æ°ÉÀÏ°å£¡*´òàÃ* ÔÙ¸øÎÒÁ½±­ËÕÙ¤Âê£¡ÂíÉÏ£¡ÎÒÏ²»¶Á½ÊÖ¶¼ÄÃ×Å¾ÆÆ¿¡£*¶Ö¶Ö¶Ö* °¡¡­¡­Ë¬¡­¡­¡£*´òàÃ* [ºÉÂí°ÑËûµÄ¾ÆÒ»Òû¶ø¾¡¡£ËûßÖ×ì´óÐ¦¡£ËûÅ¬Á¦Ïë¼¯ÖÐÑÛÉñ¡£ËûÇáÇáÒ¡°Ú£¬Ïñ·çÖÐµÄÊ÷Ò»Ñù¡­¡­]"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "15IX3Gold_001"
@@ -46988,7 +46988,7 @@ ShowMap Berandas"
  INFO.NNAM "29065245643252516221$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llaalam Dredil$00"
- INFO.NAME "ÄãÕÒµ½ÁËÄÇË«Ñ¥×Ó£¿Äã±ØÐë¸æËßÎÒ¹ØÓÚËüµÄÒ»ÇÐ¡­¡­"
+ INFO.NAME "ÄãÕÒµ½ÁËÄÇË«Ñ¥×Ó£¿ÄãÒ»¶¨Òª¸æËßÎÒ¹ØÓÚËüµÄÒ»ÇÐ¡­¡­"
  INFO.SCVR "04JX3IC26_AmaNin"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -46998,7 +46998,7 @@ ShowMap Berandas"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.CNAM "Savant$00"
- INFO.NAME "ÄãÕÒµ½Ñ¥×ÓÁË£¿ÄãÒ»¶¨Òª¸æËßÎÒ¹ØÓÚËüµÄÒ»ÇÐ¡­¡­"
+ INFO.NAME "ÄãÕÒµ½ÁËÄÇË«Ñ¥×Ó£¿ÄãÒ»¶¨Òª¸æËßÎÒ¹ØÓÚËüµÄÒ»ÇÐ¡­¡­"
  INFO.SCVR "04JX3IC26_AmaNin"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -47009,7 +47009,7 @@ ShowMap Berandas"
  INFO.NNAM "14011281241423210826$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llaalam Dredil$00"
- INFO.NAME "ÉñÚÍÕßÔ¤ÑÔÖÐµÄµØÃû²Î¿¼ºÜÃ÷ÏÔ¡£Î÷¾³Ö®ºÛµØÇøµÄÄáÏ£Ë¹´åÒÔÄÏÓÐÒ»¸ö½Ð±´À¼´ïË¹µÄ¹Å´úµ¤ÄªÒªÈû¡£ÎÒÒ²ºÁ²»¾ªÑÈµØ·¢ÏÖ£¬¡°ÊïÄºÒíÄ§¡±µÄËµ·¨ÊÇÖ¸ÄãËùÑ°ÕÒµÄ±¦²ØµÄÊØ»¤Õß¡£ÊïÄºÒíÄ§ÊÇÄ§Éñ°¢×æÀ­µÄµÏµÂÀ­ÆÍÈË£¬ÊÇÉóÅÐÏ¯Éñµî³ç°ÝµÄÔ¤ÖªÕßÖ®Ò»¡£ {±¤ÀÝ,µÏµÂÀ­Ê½}"
+ INFO.NAME "ÏÈÖªÔ¤ÑÔÖÐÌáµ½µÄµØÃûÏÔ¶øÒ×¼û¡£Î÷¾³Ö®ºÛµÄÄáÏ£Ë¹´åÄÏ±ßÓÐÒ»¸ö¹ÅÀÏµÄµ¤Äª±¤ÀÝ£¬Ãû½Ð±´À¼´ïË¹¡£Èç¹û¡°ÊïÄºÒíÄ§¡±Ö¸µÄÊÇÄúÑ°ÕÒµÄ±¦²ØµÄÊØ»¤Õß£¬ÎÒÒ²²»»á¸Ðµ½¾ªÑÈ¡£ÊïÄºÒíÄ§ÊÇµÏµÂÀ­¾ýÖ÷°¢×æÀ­µÄÉñÆÍ£¬°¢×æÀ­ÊÇÉóÅÐÏ¯ÉñµîÖÐ¹©·îµÄÔ¤ÖªÕßÖ®Ò»¡£ {µÏµÂÀ­Ê½,µÏµÂÀ­}"
  INFO.BNAM "Journal IC26_AmaNin 10
 ShowMap Berandas"
 -INFO
@@ -47776,7 +47776,7 @@ Journal TR_Blade 50"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "theldyn virith$00"
  INFO.DNAM "Redoran$00"
- INFO.NAME "ÄãÊÇÀ´½»¸¶Ò©Ë®µÄ£¿"
+ INFO.NAME "ÄãÊÇÀ´½»¸¶Ò©Ë®µÄÂð£¿"
  INFO.SCVR "34JX3HR_Courier"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM "Choice ""ÊÇµÄ"" 1 ""²»ÊÇ"" 2"
@@ -48141,7 +48141,7 @@ StartCombat Player"
  INFO.NNAM "192331435292954990$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "karrod$00"
- INFO.NAME "¡¾¿¨ÂÞµÂ³ÁÄ¬²»Óï¡£¡¿"
+ INFO.NAME "[¿¨ÂÞµÂ³ÁÄ¬²»Óï¡£]"
  INFO.SCVR "04JX4TR_Champion"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -52685,7 +52685,7 @@ Goodbye"
  INFO.NAME "ÄãÊÇÎÒÕÉ·òµÄÊìÈËÂð£¿ {ÎÒµÄÕÉ·ò}"
  INFO.SCVR "04JX0MS_EstateSale"
  INFO.INTV [14 00 00 00]
- INFO.BNAM "Choice: ""¡¾Èö»Ñ¡¿ÊÇµÄ£¬ÎÒÃÇÒ»ÆðÔÚµÛ¹ú¾üÍÅ·þÒÛ¡£"" 1 ""¡¾Èö»Ñ¡¿ÊÇµÄ£¬ÎÒÃÇ¶¼ÎªÕ½Ê¿¹«»á¹¤×÷¡£"" 2 ""²»£¬ÎÒ²»ÈÏÊ¶Ëû¡£"" 3"
+ INFO.BNAM "Choice: ""[Èö»Ñ] ÊÇµÄ£¬ÎÒÃÇÒ»ÆðÔÚµÛ¹ú¾üÍÅ·þÒÛ¡£"" 1 ""[Èö»Ñ] ÊÇµÄ£¬ÎÒÃÇ¶¼ÎªÕ½Ê¿¹«»á¹¤×÷¡£"" 2 ""²»£¬ÎÒ²»ÈÏÊ¶Ëû¡£"" 3"
 -DIAL
  DIAL.NAME "ÌØ±ðµÄÎïÆ·$00"
  DIAL.DATA [00]
@@ -53439,7 +53439,7 @@ player->additem ""Variner's Ring"" 1"
  INFO.NNAM "9773239713155812032$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Narisa Adus$00"
- INFO.NAME "¡¾Ëý×ÐÏ¸´òÁ¿×ÅÄã¡£¡¿ÎÒ²»È·¶¨¡£ÎÒÒÔÇ°´ÓÎ´¼û¹ýÏñÄãÕâÑùµÄÈË¡­¡­µ«ÎÒ²»È·¶¨ÄãÊÇ·ñÊÇºÚïÚ°ïµÄ¶ÔÊÖ¡£ËûÃÇ´©µÃÏñÇî¿àµÄÆòØ¤£¬µ«ËûÃÇÍ¶ÖÀÖÂÃüµÄ¶¾ïÚ -- Ò»Ö§¾Í×ãÒÔÉ±ËÀÄã¡£Èç¹ûÄãÓöµ½ËûÃÇ£¬È·±£ÄãÓÐºÜ¶à½â¶¾ºÍÇýÉ¢Ò©Ë®¡£Èç¹ûÄã¿´µ½ÍßÀïÄÉµÄÓÄÁé£¬ºÍËûÌ¸Ì¸¡£Ò²ÐíÄã¿ÉÒÔ°ÑËûµÄÐÅÏ¢´ø¸øÎÒ¡£ {ÕâÐ©Ò©Ë®}"
+ INFO.NAME "[Ëý×ÐÏ¸´òÁ¿×ÅÄã¡£] ÎÒ²»È·¶¨¡£ÎÒÒÔÇ°´ÓÎ´¼û¹ýÏñÄãÕâÑùµÄÈË¡­¡­µ«ÎÒ²»È·¶¨ÄãÊÇ·ñÊÇºÚïÚ°ïµÄ¶ÔÊÖ¡£ËûÃÇ´©µÃÏñÇî¿àµÄÆòØ¤£¬µ«ËûÃÇÍ¶ÖÀÖÂÃüµÄ¶¾ïÚ -- Ò»Ö§¾Í×ãÒÔÉ±ËÀÄã¡£Èç¹ûÄãÓöµ½ËûÃÇ£¬È·±£ÄãÓÐºÜ¶à½â¶¾ºÍÇýÉ¢Ò©Ë®¡£Èç¹ûÄã¿´µ½ÍßÀïÄÉµÄÓÄÁé£¬ºÍËûÌ¸Ì¸¡£Ò²ÐíÄã¿ÉÒÔ°ÑËûµÄÐÅÏ¢´ø¸øÎÒ¡£ {ÕâÐ©Ò©Ë®}"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "11063"
@@ -53451,7 +53451,7 @@ player->additem ""Variner's Ring"" 1"
  INFO.NNAM "225743090911645051$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Narisa Adus$00"
- INFO.NAME "¡¾Ëý×ÐÏ¸´òÁ¿×ÅÄã¡£¡¿ÎÒ²»ÖªµÀ¡£ÎÒ²»ÈÏÎªÄã»áÊÇºÚïÚ°ïµÄ¶ÔÊÖ¡£ËûÃÇ´©µÃÏñÇî¿àµÄÆòØ¤£¬µ«ËûÃÇ»áÍ¶ÖÀÖÂÃüµÄ¶¾ïÚ£¬Ò»Ö§¾Í×ãÒÔÉ±ËÀÄã¡£Èç¹ûÄã¿´µ½ËûÃÇ£¬¸Ï½ôÅÜ¡£µ«Èç¹ûÄã¿´µ½ÍßÀïÄÉµÄÓÄÁé£¬¸úËûÌ¸Ì¸¡£Ò²ÐíÄãÄÜ¸øÎÒ´øÀ´ËûµÄÐÅÏ¢¡£"
+ INFO.NAME "[Ëý×ÐÏ¸´òÁ¿×ÅÄã¡£] ÎÒ²»ÖªµÀ¡£ÎÒ²»ÈÏÎªÄã»áÊÇºÚïÚ°ïµÄ¶ÔÊÖ¡£ËûÃÇ´©µÃÏñÇî¿àµÄÆòØ¤£¬µ«ËûÃÇ»áÍ¶ÖÀÖÂÃüµÄ¶¾ïÚ£¬Ò»Ö§¾Í×ãÒÔÉ±ËÀÄã¡£Èç¹ûÄã¿´µ½ËûÃÇ£¬¸Ï½ôÅÜ¡£µ«Èç¹ûÄã¿´µ½ÍßÀïÄÉµÄÓÄÁé£¬¸úËûÌ¸Ì¸¡£Ò²ÐíÄãÄÜ¸øÎÒ´øÀ´ËûµÄÐÅÏ¢¡£"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "11063"
@@ -53463,7 +53463,7 @@ player->additem ""Variner's Ring"" 1"
  INFO.NNAM "2999895793137010807$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Narisa Adus$00"
- INFO.NAME "¡¾Ëý×ÐÏ¸µØ´òÁ¿×ÅÄã¡£¡¿ºÍËûÃÇ½»ÊÖÄã½«ºÁÎÞÊ¤Ëã¡£ËûÃÇ´©µÃÏñÇî¿àµÄÆòØ¤£¬µ«ËûÃÇ»áÍ¶ÖÀÖÂÃüµÄ¶¾ïÚ -- Ò»Ö§¾Í×ãÒÔÉ±ËÀÄã¡£Èç¹ûÄã¿´µ½ËûÃÇ£¬¿ìÅÜ¡£µ«Èç¹ûÄã¿´µ½ÍßÀïÄÉµÄÓÄÁé£¬¿ÉÒÔºÍËûËµ»°¡£Ò²ÐíÄãÄÜ¸øÎÒ´øÀ´ËûµÄÐÅÏ¢¡£"
+ INFO.NAME "[Ëý×ÐÏ¸µØ´òÁ¿×ÅÄã¡£] ºÍËûÃÇ½»ÊÖÄã½«ºÁÎÞÊ¤Ëã¡£ËûÃÇ´©µÃÏñÇî¿àµÄÆòØ¤£¬µ«ËûÃÇ»áÍ¶ÖÀÖÂÃüµÄ¶¾ïÚ -- Ò»Ö§¾Í×ãÒÔÉ±ËÀÄã¡£Èç¹ûÄã¿´µ½ËûÃÇ£¬¿ìÅÜ¡£µ«Èç¹ûÄã¿´µ½ÍßÀïÄÉµÄÓÄÁé£¬¿ÉÒÔºÍËûËµ»°¡£Ò²ÐíÄãÄÜ¸øÎÒ´øÀ´ËûµÄÐÅÏ¢¡£"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "11064"
@@ -65787,7 +65787,7 @@ Choice ""ÄãÄÜ½µµÍÒ»µãËûµÄÊê½ðÂð£¿"" 1 ""µÈµÈ£¬ÎÒ¿ÉÒÔ¸¶ËûµÄÊê½ð¡£"" 2 ""ÏÖÔÚ¾ÍÈÃË
  INFO.NNAM "15483227322906913509$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "almalexia$00"
- INFO.NAME "¡¾°¢ÂêÀ³Î÷æ«ÀäÀäµØ¿´×ÅÄã¡£¡¿Ò²ÐíÄã¹ýÓÚ×Ô°Á£¬²»Ð¼ÓÚ½ÓÊÜÅ®Ö÷ÈËµÄÀñÎï£¿ºÜºÃ¡£ÈçÄãËùÔ¸¡£"
+ INFO.NAME "[°¢ÂêÀ³Î÷æ«ÀäÀäµØ¿´×ÅÄã¡£] Ò²ÐíÄã¹ýÓÚ×Ô°Á£¬²»Ð¼ÓÚ½ÓÊÜÅ®Ö÷ÈËµÄÀñÎï£¿ºÜºÃ¡£ÈçÄãËùÔ¸¡£"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -30
@@ -67787,7 +67787,7 @@ moddisposition 40"
  INFO.NAME "ÄãÕÒµ½ÁËÊ²Ã´£¿ÔÚÄÄÀï£¿Ìì°¡£¡ÎÒÖ»ÊÇÒÔÎªÎÒ°ÑÊé·Å´íµØ·½ÁË¡£ÎÒÄÜÒª»ØËüÂð£¿"
  INFO.SCVR "04JX3MS_ScrollSales"
  INFO.INTV [3C 00 00 00]
- INFO.BNAM "Choice: ""ÊÇµÄ£¬Õâ¾ÍÊÇ¡£"" 1 ""²»£¬ÎÒ²»ÕâÃ´ÈÏÎª¡£"" 2"
+ INFO.BNAM "Choice: ""ÊÇµÄ£¬ÔÚÕâÀï¡£"" 1 ""²»£¬ÎÒ²»ÕâÃ´ÈÏÎª¡£"" 2"
 -INFO
  INFO.INAM "32492281732475020239$00"
  INFO.PNAM "7723313581324221287$00"
@@ -69571,7 +69571,7 @@ Goodbye"
  INFO.NNAM "1556426861203214287$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£Ïò¹ÙÌüÖ§¸¶%PCCrimeLevelÃ¶½ð±Ò²¢½»³öÄãÉíÉÏµÄÔßÎï£¬»òÕßÁ¢¼´Í¶½µÈëÓü·þÐÌ¡£Ñ¡°É£¬ÂíÉÏÖ§¸¶·£½ð£¬»òÕß¸úÎÒ×ß¡£"
+ INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£Ïò·¨Í¥½ÉÄÉ %PCCrimeLevel ½ð±Ò²¢½»³öÄãÉíÉÏµÄÔßÎï£¬»òÕß½»³öÄãÉíÉÏµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»³ö½ð±Ò£¬»òÕß¸úÎÒ×ß¡£ {Í¶½µ}"
  INFO.SCVR "01490"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX0PCHasCrimeGold"
@@ -69579,7 +69579,7 @@ Goodbye"
  INFO.SCVR "24JX3TR08_Hlaalu"
  INFO.INTV [46 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""Äã×¥µ½ÎÒÁË£¬ÎÒÔ¸ÒâÖ§¸¶·£½ð¡£"", 1, ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬ÓÐ±¾ÊÂÀ´ÊÔÊÔ°¡¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
+Choice, ""½»³ö½ð±Ò¡£"", 1, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "1556426861203214287$00"
  INFO.PNAM "10464318192407517480$00"
@@ -69587,39 +69587,39 @@ Choice, ""Äã×¥µ½ÎÒÁË£¬ÎÒÔ¸ÒâÖ§¸¶·£½ð¡£"", 1, ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£Í¶½µ£¡Ïò·¨Í¥½ÉÄÉ %PCCrimeLevel ½ð±Ò²¢½»³öÄãµÄÔßÎï£¬»òÕß½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»³ö½ð±Ò£¬»òÕß¸úÎÒ×ß¡£"
+ INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£Ïò·¨Í¥½ÉÄÉ %PCCrimeLevel ½ð±Ò²¢½»³öÄãÉíÉÏµÄÔßÎï£¬»òÕß½»³öÄãÉíÉÏµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»³ö½ð±Ò£¬»òÕß¸úÎÒ×ß¡£ {Í¶½µ}"
  INFO.SCVR "01490"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX0PCHasCrimeGold"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""½»¸¶·£¿î¡£"", 1, ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""³ÊÎÄ"", 4"
+Choice, ""½»³ö½ð±Ò¡£"", 1, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "196804487824232374$00"
  INFO.PNAM "1556426861203214287$00"
  INFO.NNAM "19191290671947220251$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£Í¶½µ£¡Ïò·¨Í¥½ÉÄÉ %PCCrimeLevel ½ð±Ò²¢½»³öÄãµÄÔßÎï£¬»òÕß½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»³ö½ð±Ò£¬»òÕß¸úÎÒ×ß¡£"
+ INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£Ïò·¨Í¥½ÉÄÉ %PCCrimeLevel ½ð±Ò²¢½»³öÄãÉíÉÏµÄÔßÎï£¬»òÕß½»³öÄãÉíÉÏµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»³ö½ð±Ò£¬»òÕß¸úÎÒ×ß¡£ {Í¶½µ}"
  INFO.SCVR "01490"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX0PCHasCrimeGold"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""½»¸¶·£¿î¡£"", 1, ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
+Choice, ""½»³ö½ð±Ò¡£"", 1, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
 -INFO
  INFO.INAM "19191290671947220251$00"
  INFO.PNAM "196804487824232374$00"
  INFO.NNAM "5642177972930817100$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÎÞ·¨Ö§¸¶%PCCrimeLevelµÄ·£½ð£¬Äã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï£¬²¢±»ÅÐ´¦¿àÒÛ¡£¸úÎÒ×ß¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÎÞ·¨Ö§¸¶ %PCCrimeLevel µÄ·£½ð£¬Äã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï£¬²¢±»ÅÐ´¦¿àÒÛ¡£¸úÎÒ×ß¡£"
  INFO.SCVR "01490"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX3TR08_Hlaalu"
  INFO.INTV [46 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice,  ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬ÓÐ±¾ÊÂÀ´ÊÔÊÔ°¡¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
+Choice,  ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "5642177972930817100$00"
  INFO.PNAM "19191290671947220251$00"
@@ -69627,29 +69627,29 @@ Choice,  ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬ÓÐ±¾ÊÂÀ´ÊÔÊÔ°¡¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅ
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÃ»ÓÐ %PCCrimeLevel ½ð±ÒÖ§¸¶·¨Í¥·ÑÓÃ£¬Äã±ØÐëÍ¶½µÈ»ºó½»³öÔßÎï²¢·þÐÌ¡£¸úÎÒÀ´¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÎÞ·¨Ö§¸¶ %PCCrimeLevel µÄ·£½ð£¬Äã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï£¬²¢±»ÅÐ´¦¿àÒÛ¡£¸úÎÒ×ß¡£"
  INFO.SCVR "01490"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice,  ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""³ÊÎÄ"", 4"
+Choice,  ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "196287825728868$00"
  INFO.PNAM "5642177972930817100$00"
  INFO.NNAM "192701535310983235$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÃ»ÓÐ %PCCrimeLevel ½ð±ÒÖ§¸¶·¨Í¥·ÑÓÃ£¬Äã±ØÐëÍ¶½µÈ»ºó½»³öÔßÎï²¢·þÐÌ¡£¸úÎÒÀ´¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÎÞ·¨Ö§¸¶ %PCCrimeLevel µÄ·£½ð£¬Äã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï£¬²¢±»ÅÐ´¦¿àÒÛ¡£¸úÎÒ×ß¡£"
  INFO.SCVR "01490"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice,  ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
+Choice,  ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
 -INFO
  INFO.INAM "192701535310983235$00"
  INFO.PNAM "196287825728868$00"
  INFO.NNAM "26842177092586711290$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£Ïò¹ÙÌüÖ§¸¶%CrimeGoldTurnIn½ð±Ò£¬²¢½»³öÄãµÄÔßÎï£¬»òÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»Ç®£¬·ñÔò¾Í¸úÎÒ×ß¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£Ïò·¨Í¥Ö§¸¶ %CrimeGoldTurnIn ½ð±Ò£¬²¢½»³öÄãµÄÔßÎï£¬»òÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»Ç®£¬·ñÔò¾Í¸úÎÒ×ß¡£"
  INFO.SCVR "01433"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX0PCHasTurnIn"
@@ -69657,7 +69657,7 @@ Choice,  ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
  INFO.SCVR "24JX3TR08_Hlaalu"
  INFO.INTV [46 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""Äã×¥µ½ÎÒÁË£¬ÎÒÔ¸ÒâÖ§¸¶·£½ð¡£"", 5, ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬ÓÐ±¾ÊÂÀ´ÊÔÊÔ°¡¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
+Choice, ""½»³ö½ð±Ò¡£"", 5, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "26842177092586711290$00"
  INFO.PNAM "192701535310983235$00"
@@ -69665,39 +69665,39 @@ Choice, ""Äã×¥µ½ÎÒÁË£¬ÎÒÔ¸ÒâÖ§¸¶·£½ð¡£"", 5, ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ %PCName ¼øÓÚÄãÊÇ×ÔÔ¸Í¶½µ×ÔÊ×£¬ÎÒ»á¿¼ÂÇµ½ÕâÒ»µã¡£Ïò·¨Í¥½ÉÄÉ %CrimeGoldTurnIn ½ð±Ò²¢½»³öÄãµÄÔßÎï£¬»òÕß½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»³ö½ð±Ò£¬»òÕß¸úÎÒ×ß¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£Ïò·¨Í¥Ö§¸¶ %CrimeGoldTurnIn ½ð±Ò£¬²¢½»³öÄãµÄÔßÎï£¬»òÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»Ç®£¬·ñÔò¾Í¸úÎÒ×ß¡£"
  INFO.SCVR "01433"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX0PCHasTurnIn"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""½»¸¶·£¿î¡£"", 5, ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""³ÊÎÄ"", 4"
+Choice, ""½»³ö½ð±Ò¡£"", 5, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "28453202671042816107$00"
  INFO.PNAM "26842177092586711290$00"
  INFO.NNAM "3221696071812632454$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ %PCName ¼øÓÚÄãÊÇ×ÔÔ¸Í¶½µ×ÔÊ×£¬ÎÒ»á¿¼ÂÇµ½ÕâÒ»µã¡£Ïò·¨Í¥½ÉÄÉ %CrimeGoldTurnIn ½ð±Ò²¢½»³öÄãµÄÔßÎï£¬»òÕß½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»³ö½ð±Ò£¬»òÕß¸úÎÒ×ß¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£Ïò·¨Í¥Ö§¸¶ %CrimeGoldTurnIn ½ð±Ò£¬²¢½»³öÄãµÄÔßÎï£¬»òÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£Á¢¼´½»Ç®£¬·ñÔò¾Í¸úÎÒ×ß¡£"
  INFO.SCVR "01433"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX0PCHasTurnIn"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""½»¸¶·£¿î¡£"", 5, ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
+Choice, ""½»³ö½ð±Ò¡£"", 5, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
 -INFO
  INFO.INAM "3221696071812632454$00"
  INFO.PNAM "28453202671042816107$00"
  INFO.NNAM "24093917276228210$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£µ«ÄãÎÞ·¨Ö§¸¶%CrimeGoldTurnIn½ð±ÒµÄ·£½ð£¬ËùÒÔÄã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£¸úÎÒ×ß°É¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£µ«ÄãÎÞ·¨Ö§¸¶ %CrimeGoldTurnIn ½ð±ÒµÄ·£½ð£¬ËùÒÔÄã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£¸úÎÒ×ß°É¡£"
  INFO.SCVR "01433"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX3TR08_Hlaalu"
  INFO.INTV [46 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬ÓÐ±¾ÊÂÀ´ÊÔÊÔ°¡¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
+Choice, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "24093917276228210$00"
  INFO.PNAM "3221696071812632454$00"
@@ -69705,22 +69705,22 @@ Choice, ""±ð¶¯ÊÖ£¬ÎÒÍ¶½µ¡£"", 2, ""Ïë×¥ÎÒ£¬ÓÐ±¾ÊÂÀ´ÊÔÊÔ°¡¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ %PCName ¼ÈÈ»ÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á¿¼ÂÇµ½ÕâÒ»µã¡£µ«ÄãÃ»ÓÐ %CrimeGoldTurnIn ½ð±ÒÖ§¸¶·¨Í¥·ÑÓÃ£¬ËùÒÔÄã±ØÐëÍ¶½µÈ»ºó½»³öÔßÎï£¬·þ¿àÒÛ¡£¸úÎÒÀ´¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£µ«ÄãÎÞ·¨Ö§¸¶ %CrimeGoldTurnIn ½ð±ÒµÄ·£½ð£¬ËùÒÔÄã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£¸úÎÒ×ß°É¡£"
  INFO.SCVR "01433"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""³ÊÎÄ"", 4"
+Choice, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3, ""ÎÒÓÐ¹Ù·½µÄÅú×¼"", 4"
 -INFO
  INFO.INAM "3832139402051823602$00"
  INFO.PNAM "24093917276228210$00"
  INFO.NNAM "7817111001232614388$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
- INFO.NAME "ÄãÎ¥·´ÁË·¨ÂÉ %PCName ¼ÈÈ»ÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á¿¼ÂÇµ½ÕâÒ»µã¡£µ«ÄãÃ»ÓÐ %CrimeGoldTurnIn ½ð±ÒÖ§¸¶·¨Í¥·ÑÓÃ£¬ËùÒÔÄã±ØÐëÍ¶½µÈ»ºó½»³öÔßÎï£¬·þ¿àÒÛ¡£¸úÎÒÀ´¡£"
+ INFO.NAME "Äã´¥·¸ÁË·¨ÂÉ£¬%PCName¡£ÓÉÓÚÄãÊÇ×ÔÔ¸×ÔÊ×µÄ£¬ÎÒ»á×ÃÇé¿¼ÂÇ¡£µ«ÄãÎÞ·¨Ö§¸¶ %CrimeGoldTurnIn ½ð±ÒµÄ·£½ð£¬ËùÒÔÄã±ØÐëÍ¶½µÈ»ºó½»³öÄãµÄÔßÎï²¢·þ¿àÒÛ¡£¸úÎÒ×ß°É¡£"
  INFO.SCVR "01433"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "StartScript BILL_MT_calc_legit_kills
-Choice, ""·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
+Choice, ""ÈëÓü·þÐÌ¡£"", 2, ""¾Ü²¶¡£"", 3"
 -INFO
  INFO.INAM "7817111001232614388$00"
  INFO.PNAM "3832139402051823602$00"
@@ -70191,7 +70191,7 @@ Goodbye"
  INFO.NNAM "2736297202775214789$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "karrod$00"
- INFO.NAME "¡¾¿¨ÂÞµÂ³ÁÄ¬²»Óï¡£¡¿"
+ INFO.NAME "[¿¨ÂÞµÂ³ÁÄ¬²»Óï¡£]"
  INFO.SCVR "04JX4TR_Champion"
  INFO.INTV [50 00 00 00]
  INFO.BNAM "Goodbye"
@@ -73937,7 +73937,7 @@ Goodbye"
  INFO.NNAM "234816037106222636$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Tienius Delitian$00"
- INFO.NAME "¡¾ËûÂýÌõË¹ÀíµØ´òÁ¿×ÅÄã¡£¡¿Çë¼ûÁÂ¡£"
+ INFO.NAME "[ËûÂýÌõË¹ÀíµØ´òÁ¿×ÅÄã¡£] Çë¼ûÁÂ¡£"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Goodbye"
@@ -73947,7 +73947,7 @@ Goodbye"
  INFO.NNAM "938615211189369990$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Tienius Delitian$00"
- INFO.NAME "¡¾Ëû¿´ÆðÀ´±»¶ºÀÖÁË£¬µ«¾öÐÄ²»¸úÄãËµ»°¡£¡¿ÎÒËµ¡­´ò¡¤ÈÅ¡¤Ò»¡¤ÏÂ¡£"
+ INFO.NAME "[Ëû¿´ÆðÀ´±»¶ºÀÖÁË£¬µ«¾öÐÄ²»¸úÄãËµ»°¡£] ÎÒËµ¡­´ò¡¤ÈÅ¡¤Ò»¡¤ÏÂ¡£"
  INFO.BNAM "Goodbye"
 -INFO
  INFO.INAM "938615211189369990$00"
@@ -77896,7 +77896,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Warlock$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "Ò»ÇÐË³Àû£¬ÎÒÃÇÌýµ½ÏûÏ¢ÁË¡£ºÕÀïÀ×Äá¡¤Ó¢´ïÎ¬¶ûËµÄãºÍÒ°ÂùÈË¶¼±ð¹ÜÁË£¬ÎÒÃÇ²»»á¶¯ËûÃÇ£¬Ò²²»»á¶¯ÄãÃÇ£¬Ö»ÒªÄãÃÇ·Å¹ýÎÒÃÇ¡£¡¾Ð¡ÉùËµµÀ£º±ðµ£ÐÄ¡¿"
+ INFO.NAME "Ò»ÇÐË³Àû£¬ÎÒÃÇÌýµ½ÏûÏ¢ÁË¡£ºÕÀïÀ×Äá¡¤Ó¢´ïÎ¬¶ûËµÄãºÍÒ°ÂùÈË¶¼±ð¹ÜÁË£¬ÎÒÃÇ²»»á¶¯ËûÃÇ£¬Ò²²»»á¶¯ÄãÃÇ£¬Ö»ÒªÄãÃÇ·Å¹ýÎÒÃÇ¡£[Ð¡ÉùËµµÀ£º±ðµ£ÐÄ¡£]"
  INFO.SCVR "04JX3B2_AhemmusaSafe"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
@@ -77909,7 +77909,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Witch$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "Ò»ÇÐË³Àû£¬ÎÒÃÇÌýµ½ÏûÏ¢ÁË¡£ºÕÀïÀ×Äá¡¤Ó¢´ïÎ¬¶ûËµÄãºÍÒ°ÂùÈË¶¼±ð¹ÜÁË£¬ÎÒÃÇ²»»á¶¯ËûÃÇ£¬Ò²²»»á¶¯ÄãÃÇ£¬Ö»ÒªÄãÃÇ·Å¹ýÎÒÃÇ¡£¡¾Ð¡ÉùËµµÀ£º±ðµ£ÐÄ¡¿"
+ INFO.NAME "Ò»ÇÐË³Àû£¬ÎÒÃÇÌýµ½ÏûÏ¢ÁË¡£ºÕÀïÀ×Äá¡¤Ó¢´ïÎ¬¶ûËµÄãºÍÒ°ÂùÈË¶¼±ð¹ÜÁË£¬ÎÒÃÇ²»»á¶¯ËûÃÇ£¬Ò²²»»á¶¯ÄãÃÇ£¬Ö»ÒªÄãÃÇ·Å¹ýÎÒÃÇ¡£[Ð¡ÉùËµµÀ£º±ðµ£ÐÄ¡£]"
  INFO.SCVR "04JX3B2_AhemmusaSafe"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX5B2_AhemmusaSafe"
@@ -82191,7 +82191,7 @@ Player->AddItem ""writ_bero"" 1"
  INFO.NNAM "111582369517121903$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vivec_god$00"
- INFO.NAME "¡¾×ÐÏ¸´òÁ¿×ÅÄã¡£¡¿¿´À´ÄãÐÄÀïÓÐÊ²Ã´ÊÂ²»Ô¸ÓëÈË·ÖÏí£¬ÕâÊÇÄãµÄÈ¨Àû¡£Ò²ÐíÎÒ²»ÐèÒª³ÉÎªÏÈÖªÒ²ÄÜÏëÏó³öÄãÓÐÊ²Ã´²»Ô¸ÍÂÂ¶£¬ÄáÈðÍßÒò¡£"
+ INFO.NAME "[×ÐÏ¸´òÁ¿×ÅÄã¡£] ¿´À´ÄãÐÄÀïÓÐÊ²Ã´ÊÂ²»Ô¸ÓëÈË·ÖÏí£¬ÕâÊÇÄãµÄÈ¨Àû¡£Ò²ÐíÎÒ²»ÐèÒª³ÉÎªÏÈÖªÒ²ÄÜÏëÏó³öÄãÓÐÊ²Ã´²»Ô¸ÍÂÂ¶£¬ÄáÈðÍßÒò¡£"
  INFO.SCVR "04JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3TR_SothaSil"
@@ -82335,7 +82335,7 @@ Player->AddItem ""writ_bero"" 1"
  INFO.NNAM "26528326041476628360$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "gavas drin$00"
- INFO.NAME "¡¾¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£¡¿ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ·¢ÏÖÎ¬Íþ¿Ë¡°ËÀÁË¡±¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
+ INFO.NAME "[¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£] ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ·¢ÏÖÎ¬Íþ¿Ë¡°ËÀÁË¡±¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82346,7 +82346,7 @@ goodbye"
  INFO.NNAM "1676287372038310389$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "gavas drin$00"
- INFO.NAME "¡¾¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£¡¿ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ·¢ÏÖ°¢ÂêÀ³Î÷æ«¡¢Ë÷Èø¡¤Ï£¶ûºÍÎ¬Íþ¿Ë¡°ËÀÁË¡±¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
+ INFO.NAME "[¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£] ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ·¢ÏÖ°¢ÂêÀ³Î÷æ«¡¢Ë÷Èø¡¤Ï£¶ûºÍÎ¬Íþ¿Ë¡°ËÀÁË¡±¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82357,7 +82357,7 @@ goodbye"
  INFO.NNAM "25199207051395824688$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "gavas drin$00"
- INFO.NAME "¡¾¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£¡¿ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ·¢ÏÖ°¢ÂêÀ³Î÷æ«ºÍË÷Èø¡¤Ï£¶û¡°ËÀÁË¡±¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
+ INFO.NAME "[¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£] ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ·¢ÏÖ°¢ÂêÀ³Î÷æ«ºÍË÷Èø¡¤Ï£¶û¡°ËÀÁË¡±¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82368,7 +82368,7 @@ goodbye"
  INFO.NNAM "3275720755108593218$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "gavas drin$00"
- INFO.NAME "¡¾¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£¡¿ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ¡°É±ÁË¡±Î¬Íþ¿Ë¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
+ INFO.NAME "[¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£] ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ¡°É±ÁË¡±Î¬Íþ¿Ë¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82379,7 +82379,7 @@ goodbye"
  INFO.NNAM "2249167383152031300$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "gavas drin$00"
- INFO.NAME "¡¾¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£¡¿ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ¡°É±ÁË¡±°¢ÂêÀ³Î÷æ«¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
+ INFO.NAME "[¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£] ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ¡°É±ÁË¡±°¢ÂêÀ³Î÷æ«¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82390,7 +82390,7 @@ goodbye"
  INFO.NNAM "138824354247942595$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "gavas drin$00"
- INFO.NAME "¡¾¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£¡¿ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ¡°É±ÁË¡±°¢ÂêÀ³Î÷æ«¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
+ INFO.NAME "[¸Ðµ½½¹ÂÇ£¬µ«ÓÐËù×¼±¸²¢¿ØÖÆ×¡ÁË×Ô¼º¡£] ÎÒ²»È·¶¨ÄãÊÇ·ñÃ÷°×¡£ÉóÅÐÏ¯ÊÇÏÖÊÀÉñ -- µ«Õâ²¢²»ÒâÎ¶×ÅÄã¿ÉÒÔËæÊ±Ïë¼û¾ÍÀ´¼ûµ½ËûÃÇ¡£ÔÚÐÒ¸£µÄÄê´ú£¬ÉóÅÐÏ¯¾ÍÏñÎÒÃÇ¼ÀË¾Ò»Ñù£¬³öÏÖÔÚÈËÃñÃæÇ°¡£µ«ÊÇÊ±´úÒÑ¾­±äÁË£¬ÔÙÒ²Ã»ÈË¼û¹ýÉóÅÐÏ¯¡£ËùÒÔ¡­µ±È»¡­Äã²»¿ÉÄÜ¡°É±ÁË¡±°¢ÂêÀ³Î÷æ«¡£ÕâÏÔÈ»ÊÇ¡­²»¿ÉÄÜµÄ¡£"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82401,7 +82401,7 @@ goodbye"
  INFO.NNAM "3275253052964319925$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "barenziah$00"
- INFO.NAME "¡¾ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£¡¿ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
+ INFO.NAME "[ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£] ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "goodbye"
@@ -82411,7 +82411,7 @@ goodbye"
  INFO.NNAM "260420140237076255$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "King Hlaalu Helseth$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "goodbye"
@@ -82421,7 +82421,7 @@ goodbye"
  INFO.NNAM "21977287891209022767$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "fedris hler$00"
- INFO.NAME "¡¾¸Ðµ½À§»ó¡£¡¿ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
+ INFO.NAME "[¸Ðµ½À§»ó¡£] ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82432,7 +82432,7 @@ goodbye"
  INFO.NNAM "859022382304413877$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "barenziah$00"
- INFO.NAME "¡¾ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£¡¿ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
+ INFO.NAME "[ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£] ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "goodbye"
@@ -82442,7 +82442,7 @@ goodbye"
  INFO.NNAM "273302711157818806$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "King Hlaalu Helseth$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "goodbye"
@@ -82452,7 +82452,7 @@ goodbye"
  INFO.NNAM "18011325692587612722$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "fedris hler$00"
- INFO.NAME "¡¾¸Ðµ½À§»ó¡£¡¿ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
+ INFO.NAME "[¸Ðµ½À§»ó¡£] ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82463,7 +82463,7 @@ goodbye"
  INFO.NNAM "15737167691727718177$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "barenziah$00"
- INFO.NAME "¡¾ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£¡¿ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
+ INFO.NAME "[ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£] ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "goodbye"
@@ -82473,7 +82473,7 @@ goodbye"
  INFO.NNAM "171474340393822257$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "King Hlaalu Helseth$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "goodbye"
@@ -82483,7 +82483,7 @@ goodbye"
  INFO.NNAM "20893143212411811961$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "fedris hler$00"
- INFO.NAME "¡¾¸Ðµ½À§»ó¡£¡¿ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
+ INFO.NAME "[¸Ðµ½À§»ó¡£] ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82494,7 +82494,7 @@ goodbye"
  INFO.NNAM "31026257472124920356$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "barenziah$00"
- INFO.NAME "¡¾ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£¡¿ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
+ INFO.NAME "[ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£] ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "goodbye"
@@ -82504,7 +82504,7 @@ goodbye"
  INFO.NNAM "2578570632817810139$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "King Hlaalu Helseth$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "goodbye"
@@ -82514,7 +82514,7 @@ goodbye"
  INFO.NNAM "349877621101730320$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "fedris hler$00"
- INFO.NAME "¡¾¸Ðµ½À§»ó¡£¡¿ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
+ INFO.NAME "[¸Ðµ½À§»ó¡£] ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82525,7 +82525,7 @@ goodbye"
  INFO.NNAM "1990915359206984149$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "barenziah$00"
- INFO.NAME "¡¾ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£¡¿ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
+ INFO.NAME "[ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£] ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "goodbye"
@@ -82535,7 +82535,7 @@ goodbye"
  INFO.NNAM "2729525686204243135$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "King Hlaalu Helseth$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "goodbye"
@@ -82545,7 +82545,7 @@ goodbye"
  INFO.NNAM "261582437228651242$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "fedris hler$00"
- INFO.NAME "¡¾¸Ðµ½À§»ó¡£¡¿ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
+ INFO.NAME "[¸Ðµ½À§»ó¡£] ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82556,7 +82556,7 @@ goodbye"
  INFO.NNAM "7557270652705913761$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "barenziah$00"
- INFO.NAME "¡¾ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£¡¿ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
+ INFO.NAME "[ÈôÓÐËùË¼µØ¶¢×ÅÄã¡£] ÎÒÏàÐÅÄãÊÇÈÏÕæµÄ¡£ÎÒ²»Ì«ÏàÐÅÄãÉ±ÁËÒ»Î»ÏÖÊÀÉñ¡­ËäÈ»ÎÒÏëÄãÈÏÎªÄãÈ·ÊµÉ±ÁË¡£ÎÒ»³ÒÉÄãÄÜ·ñÖ¤Ã÷¡£ÎÒ»³ÒÉÄÁÊ¦ÃÇÊÇ·ñ»áÏàÐÅ¡­»òÕß³ÐÈÏ´ËÊÂ£¬¼´Ê¹ÕâÊÇÕæµÄ¡£²»Òª°ÑÕâ¼þÊÂ¸æËßÈÎºÎÈË¡£»òÕß¡­ÎÒÏëÄã¿ÉÒÔ¸æËßÄãÏ²»¶µÄÈË£¬µ«Ë­»áÏàÐÅÄã£¿ÓÐÒâË¼£¬ÕæÓÐÒâË¼¡£ÕâÃ´¶àÖÖ¿ÉÄÜ¡­¡­"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "goodbye"
@@ -82566,7 +82566,7 @@ goodbye"
  INFO.NNAM "16776109131954426319$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "King Hlaalu Helseth$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] Èç¹û»»×÷±ðÈË£¬ÕâÖÖËµ·¨½«ÊÇÎÞ»üÖ®Ì¸¡£ÄãÓÐ°ì·¨Ö¤Ã÷Âð£¿ÎÒ²»ÖªµÀ¸ÃÔõÃ´Ïë¡£Èç¹ûÕâÊÇÕæµÄ£¬ÎÒÎÞ·¨ÏëÏó»áËæÖ®¶øÀ´Éç»áºÍÕþÖÎºó¹û¡£µ«Èç¹û´ËÊÂ±»¹«Ö®ÓÚÖÚ£¬ÎÒ»³ÒÉÄã»áºÜÊÜµ¤ÄªµÄ»¶Ó­¡£ÎÒµÄ½¨ÒéÊÇ¶Ô´ËÊÂ±£³Ö³ÁÄ¬¡£ÎÒµ±È»»áµÄ¡£ÎÒ´ÓÃ»ÓÐÌýÄãËµ¹ýÈÎºÎÊÂ¡£ÎÒÃÇ´ÓÃ»Ì¸¹ýÕâ¼þÊÂ¡£Ã÷°×Âð£¿ {É³¶û}"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "goodbye"
@@ -82576,7 +82576,7 @@ goodbye"
  INFO.NNAM "223464930179589062$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "fedris hler$00"
- INFO.NAME "¡¾¸Ðµ½À§»ó¡£¡¿ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
+ INFO.NAME "[¸Ðµ½À§»ó¡£] ÄãÊÇ¸öÍâ°îÈË¡£Ðí¶àÍâ°îÈËÎÞ·¨Àí½âÎÒÃÇµÄÏÖÊÀÉñ¡£ÄãÊÇÔÚ±ÈÓ÷Âð£¿ÔÚÒþÓ÷£¿ÓÃÄ³Ð©¡­Ê«ÒâµÄ·½Ê½£¿ÄãÊÇÊ²Ã´Î÷·½½ÌÅÉµÄÐÅÍ½Âð£¿ÇëÔ­ÁÂ¡­µ«ÊÇÄãËµµÄÍêÈ«ÊÇÎÞ»üÖ®Ì¸¡£"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82587,7 +82587,7 @@ goodbye"
  INFO.NNAM "2731487016700143$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold Temple$00"
- INFO.NAME "¡¾ÇáÈáµØËµ¡£¡¿Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
+ INFO.NAME "[ÇáÈáµØËµ¡£] Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82598,7 +82598,7 @@ goodbye"
  INFO.NNAM "14498203941578711222$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold Temple$00"
- INFO.NAME "¡¾ÇáÈáµØËµ¡£¡¿Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
+ INFO.NAME "[ÇáÈáµØËµ¡£] Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82609,7 +82609,7 @@ goodbye"
  INFO.NNAM "72117162207747823$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold Temple$00"
- INFO.NAME "¡¾ÇáÈáµØËµ¡£¡¿Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
+ INFO.NAME "[ÇáÈáµØËµ¡£] Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82620,7 +82620,7 @@ goodbye"
  INFO.NNAM "11073114003170826341$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold Temple$00"
- INFO.NAME "¡¾ÇáÈáµØËµ¡£¡¿Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
+ INFO.NAME "[ÇáÈáµØËµ¡£] Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82631,7 +82631,7 @@ goodbye"
  INFO.NNAM "854273532984418724$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold Temple$00"
- INFO.NAME "¡¾ÇáÈáµØËµ¡£¡¿Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
+ INFO.NAME "[ÇáÈáµØËµ¡£] Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82642,7 +82642,7 @@ goodbye"
  INFO.NNAM "7221100682663725929$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold Temple$00"
- INFO.NAME "¡¾ÇáÈáµØËµ¡£¡¿Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
+ INFO.NAME "[ÇáÈáµØËµ¡£] Äã²¡ÁË£¬ÎÒµÄº¢×Ó¡£Äã²»ÖªµÀÄãÔÚËµÊ²Ã´¡£ÄãÒ»¶¨ÊÇ¸ã´íÁË¡£Èç¹ûÄãÉ±ÁËÈË£¬¿ÖÅÂÕâ¸ÃÈÃµîÎÀÀ´´¦Àí¡£µ«µ±È»£¬Ã»ÓÐÈËÄÜÉ±ËÀÏÖÊÀÉñ¡£Ò²ÐíÔÚÉñµîÆíµ»ÄÜµÓÇåÄãµÄÐÄÖÇ¡£ {ÉñµîÎÀ±øÃÇ}"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82653,7 +82653,7 @@ goodbye"
  INFO.NNAM "2404318862651819657$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "¡¾ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£¡¿Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
+ INFO.NAME "[ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£] Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82664,7 +82664,7 @@ goodbye"
  INFO.NNAM "318711678474713472$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "¡¾ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£¡¿Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
+ INFO.NAME "[ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£] Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82675,7 +82675,7 @@ goodbye"
  INFO.NNAM "1939543631877012189$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "¡¾ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£¡¿Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
+ INFO.NAME "[ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£] Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82686,7 +82686,7 @@ goodbye"
  INFO.NNAM "1755810815117657402$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "¡¾ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£¡¿Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
+ INFO.NAME "[ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£] Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82697,7 +82697,7 @@ goodbye"
  INFO.NNAM "13828214294314048$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "¡¾ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£¡¿Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
+ INFO.NAME "[ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£] Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82708,7 +82708,7 @@ goodbye"
  INFO.NNAM "26632134651278031867$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "¡¾ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£¡¿Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
+ INFO.NAME "[ÉúÆøµØ¡¢ÍþÐ²µØËµ¡£] Äã´íÁË¡£Éµ×Ó²Å»áËµÕâÖÖ»°¡£×ß¿ª¡£"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82720,7 +82720,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold, Temple Courtyard$00"
- INFO.NAME "¡¾²»ÏàÐÅµØ¶¢×ÅÄã¡£¡¿Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
+ INFO.NAME "[²»ÏàÐÅµØ¶¢×ÅÄã¡£] Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82732,7 +82732,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold, Temple Courtyard$00"
- INFO.NAME "¡¾²»ÏàÐÅµØ¶¢×ÅÄã¡£¡¿Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
+ INFO.NAME "[²»ÏàÐÅµØ¶¢×ÅÄã¡£] Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82744,7 +82744,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold, Temple Courtyard$00"
- INFO.NAME "¡¾²»ÏàÐÅµØ¶¢×ÅÄã¡£¡¿Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
+ INFO.NAME "[²»ÏàÐÅµØ¶¢×ÅÄã¡£] Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82756,7 +82756,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold, Temple Courtyard$00"
- INFO.NAME "¡¾²»ÏàÐÅµØ¶¢×ÅÄã¡£¡¿Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
+ INFO.NAME "[²»ÏàÐÅµØ¶¢×ÅÄã¡£] Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82768,7 +82768,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold, Temple Courtyard$00"
- INFO.NAME "¡¾²»ÏàÐÅµØ¶¢×ÅÄã¡£¡¿Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
+ INFO.NAME "[²»ÏàÐÅµØ¶¢×ÅÄã¡£] Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82780,7 +82780,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold, Temple Courtyard$00"
- INFO.NAME "¡¾²»ÏàÐÅµØ¶¢×ÅÄã¡£¡¿Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
+ INFO.NAME "[²»ÏàÐÅµØ¶¢×ÅÄã¡£] Ìì°¡¡­ÎÒÏëÄãÊÇÈÏÕæµÄ¡£»òÕß£¬ÖÁÉÙ£¬ÄãÏàÐÅ×Ô¼ºËùÑÔ²»Ðé¡£ÄãÓ¦¸ÃÈ¥Éñµî¸æËßËûÃÇÕâÐ©ÊÂ¡£Äã²»»áÕæµÄÏàÐÅÄãÄÜÉ±ËÀÒ»Î»ÏÖÊÀÉñ°É£¿¼´±ãÄãÕæµÄ¼û¹ýÕâÖÖÊÂ£¬ÄãÏàÐÅÄãÄÜ³¹µ×É±ËÀÒ»Î»ÉñÂð£¿ÌìÄÄ¡£ÄãÃ»ÓÐ¶Á¹ý¡¶Î¬Íþ¿ËµÄ36¿Î¡·Âð£¿ÎÒÃÇÔÚËµµÄÊÇ²»ÐàµÄÉñÁé°¡¡£ {Ì¸}"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82863,7 +82863,7 @@ goodbye"
  INFO.NNAM "17630208721768127258$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Godsreach$00"
- INFO.NAME "¡¾Ñá¶ñµØ¶¢×ÅÄã¡£¡¿²»ºÃÒâË¼¡£"
+ INFO.NAME "[Ñá¶ñµØ¶¢×ÅÄã¡£] ²»ºÃÒâË¼¡£"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82874,7 +82874,7 @@ goodbye"
  INFO.NNAM "102732072880912380$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Godsreach$00"
- INFO.NAME "¡¾Ñá¶ñµØ¶¢×ÅÄã¡£¡¿²»ºÃÒâË¼¡£"
+ INFO.NAME "[Ñá¶ñµØ¶¢×ÅÄã¡£] ²»ºÃÒâË¼¡£"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82885,7 +82885,7 @@ goodbye"
  INFO.NNAM "8739175123227222611$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Godsreach$00"
- INFO.NAME "¡¾Ñá¶ñµØ¶¢×ÅÄã¡£¡¿²»ºÃÒâË¼¡£"
+ INFO.NAME "[Ñá¶ñµØ¶¢×ÅÄã¡£] ²»ºÃÒâË¼¡£"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82896,7 +82896,7 @@ goodbye"
  INFO.NNAM "16711173961842928916$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Godsreach$00"
- INFO.NAME "¡¾Ñá¶ñµØ¶¢×ÅÄã¡£¡¿²»ºÃÒâË¼¡£"
+ INFO.NAME "[Ñá¶ñµØ¶¢×ÅÄã¡£] ²»ºÃÒâË¼¡£"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82907,7 +82907,7 @@ goodbye"
  INFO.NNAM "10171320571785117567$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Godsreach$00"
- INFO.NAME "¡¾Ñá¶ñµØ¶¢×ÅÄã¡£¡¿²»ºÃÒâË¼¡£"
+ INFO.NAME "[Ñá¶ñµØ¶¢×ÅÄã¡£] ²»ºÃÒâË¼¡£"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82918,7 +82918,7 @@ goodbye"
  INFO.NNAM "12163742206864465$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Godsreach$00"
- INFO.NAME "¡¾Ñá¶ñµØ¶¢×ÅÄã¡£¡¿²»ºÃÒâË¼¡£"
+ INFO.NAME "[Ñá¶ñµØ¶¢×ÅÄã¡£] ²»ºÃÒâË¼¡£"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82929,7 +82929,7 @@ goodbye"
  INFO.NNAM "17495182362042815686$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
  INFO.SCVR "21500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82940,7 +82940,7 @@ goodbye"
  INFO.NNAM "1299514151316653550$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
  INFO.SCVR "21500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82951,7 +82951,7 @@ goodbye"
  INFO.NNAM "25177225892689824471$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
  INFO.SCVR "21500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82962,7 +82962,7 @@ goodbye"
  INFO.NNAM "24951293681699227271$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
  INFO.SCVR "21500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82973,7 +82973,7 @@ goodbye"
  INFO.NNAM "2156110346261177621$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
  INFO.SCVR "21500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -82984,7 +82984,7 @@ goodbye"
  INFO.NNAM "1267416368161361361$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "¡¾»³ÒÉµØ¶¢×ÅÄã¡£¡¿ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
+ INFO.NAME "[»³ÒÉµØ¶¢×ÅÄã¡£] ÄãÔõÃ´»áËµÕâÖÖ»°£¿Äã·èÁËÂð£¿µ½ÉñµîÈ¥£¬ÔÚ¼ÀÌ³ÎªÄãµÄÁé»êÆíµ»¡£Èç¹ûÄãÎÞ·¨±»ÖÎÓú£¬Äã±ØÐë±»¹ØÆðÀ´£¬ÎªÁËÄã×Ô¼ººÍÈ«Éç»áºÃ¡£ {Ê¥ìô}"
  INFO.SCVR "21500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "moddisposition -10
@@ -83060,7 +83060,7 @@ goodbye"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "14JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
- INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""¡¾Ëµ»Ñ¡¿ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«¡¢Ë÷Èø¡¤Ï£¶ûºÍÎ¬Íþ¿ËËÀÁË¡£"" 5 ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«ºÍÎ¬Íþ¿Ë¡£"" 6 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
+ INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""[Ëµ»Ñ] ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«¡¢Ë÷Èø¡¤Ï£¶ûºÍÎ¬Íþ¿ËËÀÁË¡£"" 5 ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«ºÍÎ¬Íþ¿Ë¡£"" 6 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
 -INFO
  INFO.INAM "30990172302627631518$00"
  INFO.PNAM "27854294722000614405$00"
@@ -83070,7 +83070,7 @@ goodbye"
  INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéÖ®Ô´£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Õß¡£"
  INFO.SCVR "04JX3TR_SothaSil"
  INFO.INTV [64 00 00 00]
- INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""¡¾Ëµ»Ñ¡¿ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«ºÍË÷Èø¡¤Ï£¶ûËÀÁË¡£"" 2 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
+ INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""[Ëµ»Ñ] ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«ºÍË÷Èø¡¤Ï£¶ûËÀÁË¡£"" 2 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
 -INFO
  INFO.INAM "2195033431462926284$00"
  INFO.PNAM "30990172302627631518$00"
@@ -83080,7 +83080,7 @@ goodbye"
  INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéÖ®Ô´£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Õß¡£"
  INFO.SCVR "06DX3vivec_god"
  INFO.INTV [01 00 00 00]
- INFO.BNAM "Choice ""ÎÒÉ±ÁËÎ¬Íþ¿Ë¡£"" 7 ""¡¾Ëµ»Ñ¡¿ÎÒ·¢ÏÖÎ¬Íþ¿ËËÀÁË¡£"" 8 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
+ INFO.BNAM "Choice ""ÎÒÉ±ÁËÎ¬Íþ¿Ë¡£"" 7 ""[Ëµ»Ñ] ÎÒ·¢ÏÖÎ¬Íþ¿ËËÀÁË¡£"" 8 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
 -INFO
  INFO.INAM "175649058167116682$00"
  INFO.PNAM "2195033431462926284$00"
@@ -83091,7 +83091,7 @@ goodbye"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "14JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
- INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""¡¾Ëµ»Ñ¡¿ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«¡¢Ë÷Èø¡¤Ï£¶ûºÍÎ¬Íþ¿ËËÀÁË¡£"" 5 ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«ºÍÎ¬Íþ¿Ë¡£"" 6 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
+ INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""[Ëµ»Ñ] ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«¡¢Ë÷Èø¡¤Ï£¶ûºÍÎ¬Íþ¿ËËÀÁË¡£"" 5 ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«ºÍÎ¬Íþ¿Ë¡£"" 6 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
 -INFO
  INFO.INAM "2066941002246624310$00"
  INFO.PNAM "175649058167116682$00"
@@ -83100,7 +83100,7 @@ goodbye"
  INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇµ¤Äª³ç°ÝµÄÉóÅÐÏ¯ÉñµîÈýÉñÖ®Ò»¡£"
  INFO.SCVR "04JX3TR_SothaSil"
  INFO.INTV [64 00 00 00]
- INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""¡¾Ëµ»Ñ¡¿ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«ºÍË÷Èø¡¤Ï£¶ûËÀÁË¡£"" 2 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
+ INFO.BNAM "Choice ""ÎÒ·¢ÏÖË÷Èø¡¤Ï£¶ûËÀÁË£¬È»ºóÎÒÉ±ÁË°¢ÂêÀ³Î÷æ«¡£"" 1 ""[Ëµ»Ñ] ÎÒ·¢ÏÖ°¢ÂêÀ³Î÷æ«ºÍË÷Èø¡¤Ï£¶ûËÀÁË¡£"" 2 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
 -INFO
  INFO.INAM "1629530673227419863$00"
  INFO.PNAM "2066941002246624310$00"
@@ -83109,7 +83109,7 @@ goodbye"
  INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇµ¤Äª³ç°ÝµÄÉóÅÐÏ¯ÉñµîÈýÉñÖ®Ò»¡£"
  INFO.SCVR "06DX3vivec_god"
  INFO.INTV [01 00 00 00]
- INFO.BNAM "Choice ""ÎÒÉ±ÁËÎ¬Íþ¿Ë¡£"" 7 ""¡¾Ëµ»Ñ¡¿ÎÒ·¢ÏÖÎ¬Íþ¿ËËÀÁË¡£"" 8 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
+ INFO.BNAM "Choice ""ÎÒÉ±ÁËÎ¬Íþ¿Ë¡£"" 7 ""[Ëµ»Ñ] ÎÒ·¢ÏÖÎ¬Íþ¿ËËÀÁË¡£"" 8 ""Ð»Ð»Äã£¬µ«ÎÒ±ØÐë×ßÁË¡£"" 4"
 -INFO
  INFO.INAM "2340447542946020638$00"
  INFO.PNAM "1629530673227419863$00"
@@ -83117,7 +83117,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Healer$00"
  INFO.FNAM "Temple$00"
- INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéµÄÔ´Èª£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Éñ¡£"
+ INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéÖ®Ô´£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Õß¡£"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.BNAM ";Temple; priests; monks; healers;"
@@ -83128,7 +83128,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Monk$00"
  INFO.FNAM "Temple$00"
- INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéµÄÔ´Èª£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Éñ¡£"
+ INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéÖ®Ô´£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Õß¡£"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.BNAM ";Temple; priests; monks; healers;"
@@ -83139,7 +83139,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Priest Service$00"
  INFO.FNAM "Temple$00"
- INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéµÄÔ´Èª£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Éñ¡£"
+ INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéÖ®Ô´£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Õß¡£"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.BNAM ";Temple; priests; monks; healers;"
@@ -83150,7 +83150,7 @@ goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Priest$00"
  INFO.FNAM "Temple$00"
- INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéµÄÔ´Èª£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Éñ¡£"
+ INFO.NAME "°¢ÂêÀ³Î÷æ«ÊÇÖÎÓúÖ®Ä¸£¬ÊÇÁ¯ÃõÖ®ÐÄºÍÍ¬ÇéÖ®Ô´£¬ÊÇÇîÈËºÍÈõÕßµÄ±£»¤Õß¡£"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.BNAM ";Temple; priests; monks; healers;"
@@ -83303,7 +83303,7 @@ goodbye"
  INFO.NNAM "29408217432575429381$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vivec_god$00"
- INFO.NAME "¡¾×ÐÏ¸´òÁ¿×ÅÄã¡£¡¿¿´À´ÄãÐÄÀïÓÐÊ²Ã´ÊÂ²»Ô¸ÓëÈË·ÖÏí£¬ÕâÊÇÄãµÄÈ¨Àû¡£Ò²ÐíÎÒ²»ÐèÒª³ÉÎªÏÈÖªÒ²ÄÜÏëÏó³öÄãÓÐÊ²Ã´²»Ô¸ÍÂÂ¶£¬ÄáÈðÍßÒò¡£"
+ INFO.NAME "[×ÐÏ¸´òÁ¿×ÅÄã¡£] ¿´À´ÄãÐÄÀïÓÐÊ²Ã´ÊÂ²»Ô¸ÓëÈË·ÖÏí£¬ÕâÊÇÄãµÄÈ¨Àû¡£Ò²ÐíÎÒ²»ÐèÒª³ÉÎªÏÈÖªÒ²ÄÜÏëÏó³öÄãÓÐÊ²Ã´²»Ô¸ÍÂÂ¶£¬ÄáÈðÍßÒò¡£"
  INFO.SCVR "04JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3TR_SothaSil"
@@ -93740,7 +93740,7 @@ addtopic ""¡°Ê®Éà¡±Î¬¹þÌØ"""
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "vo\i\f\tIdl_IF006.mp3$00"
- INFO.NAME "¡¾³¤Ì¾¡£¡¿ÂèÂèËµ¹ý»áÓÐÕâÑùµÄÈÕ×Ó¡£"
+ INFO.NAME "[³¤Ì¾¡£] ÂèÂèËµ¹ý»áÓÐÕâÑùµÄÈÕ×Ó¡£"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [41 00 00 00]
 -INFO
@@ -93751,7 +93751,7 @@ addtopic ""¡°Ê®Éà¡±Î¬¹þÌØ"""
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "vo\i\f\tIdl_IF007.mp3$00"
- INFO.NAME "¡¾¿È¿È¡£¡¿²»ºÃÒâË¼¡£ÍÌÁËÒ»Ö»³æ×Ó¡£"
+ INFO.NAME "[¿È¿È¡£] ²»ºÃÒâË¼¡£ÍÌÁËÒ»Ö»³æ×Ó¡£"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -93784,7 +93784,7 @@ addtopic ""¡°Ê®Éà¡±Î¬¹þÌØ"""
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "vo\i\f\tIdl_IF010.mp3$00"
- INFO.NAME "¡¾Îª×Ô¼º³ª¸è¡­¡­¡¿¡°ÂèÂèµÄÐ¡±¦±´Ï²»¶ÉùÒô½¥Çá£¬½¥Èá¡­¡­¡±¡£"
+ INFO.NAME "[Îª×Ô¼º³ª¸è¡­¡­] ¡°ÂèÂèµÄÐ¡±¦±´Ï²»¶ÉùÒô½¥Çá£¬½¥Èá¡­¡­¡±¡£"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [1E 00 00 00]
  INFO.BNAM ";Tune: Mama's little baby loves shortening, shortening/Mama's little baby likes shortening bread."
@@ -94149,7 +94149,7 @@ addtopic ""¡°Ê®Éà¡±Î¬¹þÌØ"""
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\d\m\tIdl_DM015.mp3$00"
- INFO.NAME "¡¾´òàÃ¡£¡¿ºÃÅ¾¡£ÎÒ×îºÃÉÙºÈµãÂêÊ«µÙ¡£"
+ INFO.NAME "[´òàÃ¡£] ºÃÅ¾¡£ÎÒ×îºÃÉÙºÈµãÂêÊ«µÙ¡£"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -94194,7 +94194,7 @@ addtopic ""¡°Ê®Éà¡±Î¬¹þÌØ"""
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\d\m\tIdl_DM019.mp3$00"
- INFO.NAME "¡¾Ð¦Éù¡¿"
+ INFO.NAME "[Ð¦Éù]"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";laughing to himself about some secret pleasure"
@@ -94378,7 +94378,7 @@ addtopic ""¡°Ê®Éà¡±Î¬¹þÌØ"""
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tIdl_IM011.mp3$00"
- INFO.NAME "¡¾´µ¿ÚÉÚ¡£¡¿"
+ INFO.NAME "[´µ¿ÚÉÚ]"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";'Pop Goes the Weasel'"

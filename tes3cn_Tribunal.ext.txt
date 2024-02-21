@@ -80,11 +80,11 @@ You have been detected changing from a werewolf state.
 
 > GMST.STRV sLoadingMessage2
 Loading Area
-加载室内
+载入区域
 
 > GMST.STRV sLoadingMessage3
 Loading Area
-载入地貌
+载入区域
 
 > GMST.STRV sLoadingMessage5
 Parsing Quests (this may take a while)$0ARe-save your game when done
@@ -5891,7 +5891,7 @@ Private Notes -- DO NOT READ
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 [Between scrawled calculations and indecipherable symbols, very little can be made of this text, save the signature:  "Elbert Nermarc"]<BR>"""
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-[在潦草的算式和难以辨认的符号间，除了签名，这段文字几乎无法被识别：【埃尔伯特·内马克】]<BR>"""
+[在潦草的算式和难以辨认的符号间，除了签名，这段文字几乎无法被识别：“埃尔伯特·内马克”]<BR>"""
 
 > WEAP.FNAM dwarven mace_salandas
 Suldreni's Mace
@@ -6463,7 +6463,7 @@ Old Dwemer Book
 <BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-【这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本管件手册。】<BR>
+[这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本管件手册。]<BR>
 <BR>"""
 
 > BOOK.FNAM book_dwe_cogs00
@@ -6475,7 +6475,7 @@ Old Dwemer Book
 [This book appears to be written in an unknown Dwemer language. From the schematics, it appears to be a manual on cog replacement and maintenence.]<BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-【这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于齿轮更换和维护的手册。】<BR>"""
+[这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于齿轮更换和维护的手册。]<BR>"""
 
 > ALCH.FNAM p_dwemer_lubricant00
 Spoiled Dwemer Oil
@@ -6495,7 +6495,7 @@ Old Dwemer Book
 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-【这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于机械维护的手册。】<BR>
+[这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于机械维护的手册。]<BR>
 
 """
 
@@ -6517,7 +6517,7 @@ Old Dwemer Book
 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-【这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于引水渠和水压的手册。】<BR>
+[这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于引水渠和水压的手册。]<BR>
 
 """
 
@@ -6531,7 +6531,7 @@ Old Dwemer Book
 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-【这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于机械功耗的手册。】<BR>
+[这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于机械功耗的手册。]<BR>
 
 """
 
@@ -6545,7 +6545,7 @@ Old Dwemer Book
 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-【这本书似乎是用一种未知的锻莫语言写成的。从插图俩看，它似乎是一本关于金属加工的手册。】<BR>
+[这本书似乎是用一种未知的锻莫语言写成的。从插图俩看，它似乎是一本关于金属加工的手册。]<BR>
 
 
 """
@@ -6724,7 +6724,7 @@ Old Dwemer Book
 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-【这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于易燃物和防火安全的手册。】<BR>
+[这本书似乎是用一种未知的锻莫语言写成的。从插图来看，它似乎是一本关于易燃物和防火安全的手册。]<BR>
 
 """
 
@@ -17580,7 +17580,7 @@ Keep the item.
 
 > INFO.NAME back for another round 24466270221780819366
 What?  *hiccup*  Well, I'm not one to turn down a drink. Barkeep! *hiccup* gimme two more sujamma's! Now! I like one in each hand.  *gulp gulp gulp*  Ah... that hits the ssssspot..... *hiccup* [Holmar downs his drinks. He grins broadly. His eyes struggle to focus. He sways gently, like a tree in the wind....]
-什么？*打嗝* 好吧，我可不会拒绝一瓶好酒。酒吧老板！*打嗝* 再给我两杯苏伽玛！马上！我喜欢两手都拿着酒瓶。*吨吨吨* 啊……爽……。*打嗝* 【荷马把他的酒一饮而尽。他咧嘴大笑。他努力想集中眼神。他轻轻摇摆，像风中的树一样……】
+什么？*打嗝* 好吧，我可不会拒绝一瓶好酒。酒吧老板！*打嗝* 再给我两杯苏伽玛！马上！我喜欢两手都拿着酒瓶。*吨吨吨* 啊……爽……。*打嗝* [荷马把他的酒一饮而尽。他咧嘴大笑。他努力想集中眼神。他轻轻摇摆，像风中的树一样……]
 
 > INFO.NAME back for another round 26212118821994920994
 You can't afford my appetite, outlander. *hiccup*
@@ -18316,15 +18316,15 @@ The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer 
 
 > INFO.NAME boots of the apostle 2315079573118114217
 You found the boots? You must tell me all about it....
-你找到了那双靴子？你必须告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 29065245643252516221
 You found the boots? You must tell me all about it....
-你找到靴子了？你一定要告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 30678111231429010357
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫要塞。我也毫不惊讶地发现，“曙暮翼魔”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是魔神阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {堡垒,迪德拉式}
+先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式,迪德拉}
 
 > INFO.NAME boots of the apostle 14011281241423210826
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
@@ -18676,7 +18676,7 @@ You'll find the Plaza in the southern part of Mournhold. It's a public place, so
 
 > INFO.NAME cure disease potion 346893951864618506
 Are you here to deliver the potion?
-你是来交付药水的？
+你是来交付药水的吗？
 
 > INFO.BNAM cure disease potion 346893951864618506 c1
 Yes
@@ -18836,7 +18836,7 @@ The pieces of the Blade of Nerevar here in Mournhold? Now there's something I'd 
 
 > INFO.NAME pieces of the blade 760983772715116862
 [Karrod says nothing.]
-【卡罗德沉默不语。】
+[卡罗德沉默不语。]
 
 > INFO.NAME pieces of the blade 192331435292954990
 You have forged the blade anew. I am in awe, my friend. Use it well.
@@ -20968,11 +20968,11 @@ Were you an acquaintance of my husband's?
 
 > INFO.BNAM know my husband 1462724598217851392 c1
 [Lie] Yes, we served in the Imperial Legion together.
-【撒谎】是的，我们一起在帝国军团服役。
+[撒谎] 是的，我们一起在帝国军团服役。
 
 > INFO.BNAM know my husband 1462724598217851392 c2
 [Lie] Yes, we both worked for the Fighters' Guild.
-【撒谎】是的，我们都为战士公会工作。
+[撒谎] 是的，我们都为战士公会工作。
 
 > INFO.BNAM know my husband 1462724598217851392 c3
 No, I didn't know him.
@@ -21308,15 +21308,15 @@ You're right, I'm sure. I don't know why I come down here. If only I could see V
 
 > INFO.NAME black dart gang 20815294742039812454
 [She looks you over carefully.] I'm not sure. I've never seen anyone quite like you before... But I'm not sure you are a match for the Black Dart Gang. They dress like poor beggars, but they throw deadly poison darts -- one is enough to kill you. If you run into them, makes sure you have many cure poison and dispel potions. And if you see Variner's ghost, speak to him. Perhaps you can bring me his message.
-【她仔细打量着你。】我不确定。我以前从未见过像你这样的人……但我不确定你是否是黑镖帮的对手。他们穿得像穷苦的乞丐，但他们投掷致命的毒镖 -- 一支就足以杀死你。如果你遇到他们，确保你有很多解毒和驱散药水。如果你看到瓦里纳的幽灵，和他谈谈。也许你可以把他的信息带给我。 {这些药水}
+[她仔细打量着你。] 我不确定。我以前从未见过像你这样的人……但我不确定你是否是黑镖帮的对手。他们穿得像穷苦的乞丐，但他们投掷致命的毒镖 -- 一支就足以杀死你。如果你遇到他们，确保你有很多解毒和驱散药水。如果你看到瓦里纳的幽灵，和他谈谈。也许你可以把他的信息带给我。 {这些药水}
 
 > INFO.NAME black dart gang 9773239713155812032
 [She looks you over carefully.] I don't know. I don't think you'd stand a chance against the Black Dart Gang. They dress like poor beggars, but they throw deadly poison darts -- one is enough to kill you. If you see them, run. But if you see Variner's ghost, speak to him. Perhaps you can bring me his message.
-【她仔细打量着你。】我不知道。我不认为你会是黑镖帮的对手。他们穿得像穷苦的乞丐，但他们会投掷致命的毒镖，一支就足以杀死你。如果你看到他们，赶紧跑。但如果你看到瓦里纳的幽灵，跟他谈谈。也许你能给我带来他的信息。
+[她仔细打量着你。] 我不知道。我不认为你会是黑镖帮的对手。他们穿得像穷苦的乞丐，但他们会投掷致命的毒镖，一支就足以杀死你。如果你看到他们，赶紧跑。但如果你看到瓦里纳的幽灵，跟他谈谈。也许你能给我带来他的信息。
 
 > INFO.NAME black dart gang 225743090911645051
 [She looks you over carefully.] You'll have no chance against them in a fight. They dress like poor beggars, but they throw deadly poison darts -- one is enough to kill you. If you see them, run. But if you see Variner's ghost, speak to him. Perhaps you can bring me his message.
-【她仔细地打量着你。】和他们交手你将毫无胜算。他们穿得像穷苦的乞丐，但他们会投掷致命的毒镖 -- 一支就足以杀死你。如果你看到他们，快跑。但如果你看到瓦里纳的幽灵，可以和他说话。也许你能给我带来他的信息。
+[她仔细地打量着你。] 和他们交手你将毫无胜算。他们穿得像穷苦的乞丐，但他们会投掷致命的毒镖 -- 一支就足以杀死你。如果你看到他们，快跑。但如果你看到瓦里纳的幽灵，可以和他说话。也许你能给我带来他的信息。
 
 > INFO.NAME black dart gang 2999895793137010807
 They ambushed my lover and me in the Temple Sewers. Variner held them off while I ran. When I turned to look back, Variner was down. I just kept running. Now Variner's ghost comes to me at night, begging me to come to him, to rescue him. He says he has a message for me... but I can't go down there. I can't face the Black Dart Gang. Variner was a great fighter, but with one dart, he was dead in seconds. They'd kill me for sure.
@@ -26122,7 +26122,7 @@ You have done well in removing this threat to Our peace and security
 
 > INFO.NAME missing hand 1382213182112411931
 [Almalexia regards you coolly.] Perhaps you think yourself too proud to accept the gifts of your Mistress? Very well. It is as you wish.
-【阿玛莱西娅冷冷地看着你。】也许你过于自傲，不屑于接受女主人的礼物？很好。如你所愿。
+[阿玛莱西娅冷冷地看着你。] 也许你过于自傲，不屑于接受女主人的礼物？很好。如你所愿。
 
 > INFO.NAME missing hand 15483227322906913509
 I bless you with my gift, and mark you as my own. Be ever faithful in your service, and you may expect more generous rewards.
@@ -27014,7 +27014,7 @@ You found what?  Where?  Goodness!  I simply thought I'd misplaced the book some
 
 > INFO.BNAM stolen book 7723313581324221287 c1
 Yes, here it is.
-是的，这就是。
+是的，在这里。
 
 > INFO.BNAM stolen book 7723313581324221287 c2
 No, I don't think so.
@@ -27654,19 +27654,19 @@ You've committed a crime, vampire. Were you not an abomination, I might let you 
 
 > INFO.NAME greeting 0 10464318192407517480
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向官厅支付%PCCrimeLevel枚金币并交出你身上的赃物，或者立即投降入狱服刑。选吧，马上支付罚金，或者跟我走。
+你违反了法律，%PCName。向法庭缴纳 %PCCrimeLevel 金币并交出你身上的赃物，或者交出你身上的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 10464318192407517480 c1
 Pay Gold.
-你抓到我了，我愿意支付罚金。
+交出金币。
 
 > INFO.BNAM greeting 0 10464318192407517480 c2
 Go to Jail.
-别动手，我投降。
+入狱服刑。
 
 > INFO.BNAM greeting 0 10464318192407517480 c3
 Resist Arrest.
-想抓我，有本事来试试啊。
+拒捕。
 
 > INFO.BNAM greeting 0 10464318192407517480 c4
 Present Writs
@@ -27674,15 +27674,15 @@ Present Writs
 
 > INFO.NAME greeting 0 1556426861203214287
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。投降！向法庭缴纳 %PCCrimeLevel 金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。
+你违反了法律，%PCName。向法庭缴纳 %PCCrimeLevel 金币并交出你身上的赃物，或者交出你身上的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 1556426861203214287 c1
 Pay Gold.
-交付罚款。
+交出金币。
 
 > INFO.BNAM greeting 0 1556426861203214287 c2
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 1556426861203214287 c3
 Resist Arrest.
@@ -27690,19 +27690,19 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 1556426861203214287 c4
 Present Writs
-呈文
+我有官方的批准
 
 > INFO.NAME greeting 0 196804487824232374
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。投降！向法庭缴纳 %PCCrimeLevel 金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。
+你违反了法律，%PCName。向法庭缴纳 %PCCrimeLevel 金币并交出你身上的赃物，或者交出你身上的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 196804487824232374 c1
 Pay Gold.
-交付罚款。
+交出金币。
 
 > INFO.BNAM greeting 0 196804487824232374 c2
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 196804487824232374 c3
 Resist Arrest.
@@ -27710,15 +27710,15 @@ Resist Arrest.
 
 > INFO.NAME greeting 0 19191290671947220251
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel的罚金，你必须投降然后交出你的赃物，并被判处苦役。跟我走。
+你触犯了法律，%PCName。由于你无法支付 %PCCrimeLevel 的罚金，你必须投降然后交出你的赃物，并被判处苦役。跟我走。
 
 > INFO.BNAM greeting 0 19191290671947220251 c1
 Go to Jail.
-别动手，我投降。
+入狱服刑。
 
 > INFO.BNAM greeting 0 19191290671947220251 c2
 Resist Arrest.
-想抓我，有本事来试试啊。
+拒捕。
 
 > INFO.BNAM greeting 0 19191290671947220251 c3
 Present Writs
@@ -27726,11 +27726,11 @@ Present Writs
 
 > INFO.NAME greeting 0 5642177972930817100
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你违反了法律，%PCName。由于你没有 %PCCrimeLevel 金币支付法庭费用，你必须投降然后交出赃物并服刑。跟我来。
+你触犯了法律，%PCName。由于你无法支付 %PCCrimeLevel 的罚金，你必须投降然后交出你的赃物，并被判处苦役。跟我走。
 
 > INFO.BNAM greeting 0 5642177972930817100 c1
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 5642177972930817100 c2
 Resist Arrest.
@@ -27738,15 +27738,15 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 5642177972930817100 c3
 Present Writs
-呈文
+我有官方的批准
 
 > INFO.NAME greeting 0 196287825728868
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你违反了法律，%PCName。由于你没有 %PCCrimeLevel 金币支付法庭费用，你必须投降然后交出赃物并服刑。跟我来。
+你触犯了法律，%PCName。由于你无法支付 %PCCrimeLevel 的罚金，你必须投降然后交出你的赃物，并被判处苦役。跟我走。
 
 > INFO.BNAM greeting 0 196287825728868 c1
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 196287825728868 c2
 Resist Arrest.
@@ -27754,19 +27754,19 @@ Resist Arrest.
 
 > INFO.NAME greeting 0 192701535310983235
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。向官厅支付%CrimeGoldTurnIn金币，并交出你的赃物，或投降然后交出你的赃物并服苦役。立即交钱，否则就跟我走。
+你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。向法庭支付 %CrimeGoldTurnIn 金币，并交出你的赃物，或投降然后交出你的赃物并服苦役。立即交钱，否则就跟我走。
 
 > INFO.BNAM greeting 0 192701535310983235 c1
 Pay Gold.
-你抓到我了，我愿意支付罚金。
+交出金币。
 
 > INFO.BNAM greeting 0 192701535310983235 c2
 Go to Jail.
-别动手，我投降。
+入狱服刑。
 
 > INFO.BNAM greeting 0 192701535310983235 c3
 Resist Arrest.
-想抓我，有本事来试试啊。
+拒捕。
 
 > INFO.BNAM greeting 0 192701535310983235 c4
 Present Writs
@@ -27774,15 +27774,15 @@ Present Writs
 
 > INFO.NAME greeting 0 26842177092586711290
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律 %PCName 鉴于你是自愿投降自首，我会考虑到这一点。向法庭缴纳 %CrimeGoldTurnIn 金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。
+你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。向法庭支付 %CrimeGoldTurnIn 金币，并交出你的赃物，或投降然后交出你的赃物并服苦役。立即交钱，否则就跟我走。
 
 > INFO.BNAM greeting 0 26842177092586711290 c1
 Pay Gold.
-交付罚款。
+交出金币。
 
 > INFO.BNAM greeting 0 26842177092586711290 c2
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 26842177092586711290 c3
 Resist Arrest.
@@ -27790,19 +27790,19 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 26842177092586711290 c4
 Present Writs
-呈文
+我有官方的批准
 
 > INFO.NAME greeting 0 28453202671042816107
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律 %PCName 鉴于你是自愿投降自首，我会考虑到这一点。向法庭缴纳 %CrimeGoldTurnIn 金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。
+你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。向法庭支付 %CrimeGoldTurnIn 金币，并交出你的赃物，或投降然后交出你的赃物并服苦役。立即交钱，否则就跟我走。
 
 > INFO.BNAM greeting 0 28453202671042816107 c1
 Pay Gold.
-交付罚款。
+交出金币。
 
 > INFO.BNAM greeting 0 28453202671042816107 c2
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 28453202671042816107 c3
 Resist Arrest.
@@ -27810,15 +27810,15 @@ Resist Arrest.
 
 > INFO.NAME greeting 0 3221696071812632454
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
-你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。但你无法支付%CrimeGoldTurnIn金币的罚金，所以你必须投降然后交出你的赃物并服苦役。跟我走吧。
+你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。但你无法支付 %CrimeGoldTurnIn 金币的罚金，所以你必须投降然后交出你的赃物并服苦役。跟我走吧。
 
 > INFO.BNAM greeting 0 3221696071812632454 c1
 Go to Jail.
-别动手，我投降。
+入狱服刑。
 
 > INFO.BNAM greeting 0 3221696071812632454 c2
 Resist Arrest.
-想抓我，有本事来试试啊。
+拒捕。
 
 > INFO.BNAM greeting 0 3221696071812632454 c3
 Present Writs
@@ -27826,11 +27826,11 @@ Present Writs
 
 > INFO.NAME greeting 0 24093917276228210
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
-你违反了法律 %PCName 既然你是自愿自首的，我会考虑到这一点。但你没有 %CrimeGoldTurnIn 金币支付法庭费用，所以你必须投降然后交出赃物，服苦役。跟我来。
+你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。但你无法支付 %CrimeGoldTurnIn 金币的罚金，所以你必须投降然后交出你的赃物并服苦役。跟我走吧。
 
 > INFO.BNAM greeting 0 24093917276228210 c1
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 24093917276228210 c2
 Resist Arrest.
@@ -27838,15 +27838,15 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 24093917276228210 c3
 Present Writs
-呈文
+我有官方的批准
 
 > INFO.NAME greeting 0 3832139402051823602
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
-你违反了法律 %PCName 既然你是自愿自首的，我会考虑到这一点。但你没有 %CrimeGoldTurnIn 金币支付法庭费用，所以你必须投降然后交出赃物，服苦役。跟我来。
+你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。但你无法支付 %CrimeGoldTurnIn 金币的罚金，所以你必须投降然后交出你的赃物并服苦役。跟我走吧。
 
 > INFO.BNAM greeting 0 3832139402051823602 c1
 Go to Jail.
-服刑。
+入狱服刑。
 
 > INFO.BNAM greeting 0 3832139402051823602 c2
 Resist Arrest.
@@ -28022,7 +28022,7 @@ Hold! I am beaten. You are the greater warrior, %PCName. You should speak now wi
 
 > INFO.NAME greeting 1 13299124982956416507
 [Karrod says nothing.]
-【卡罗德沉默不语。】
+[卡罗德沉默不语。]
 
 > INFO.NAME greeting 1 2736297202775214789
 No...tell my liege...I have...failed h....
@@ -29506,11 +29506,11 @@ Yes, %PCName. Is this an official matter? Or is there something else you want?
 
 > INFO.NAME greeting 1 478513606304304056
 [He looks you over slowly and deliberately.] Excuse me.
-【他慢条斯理地打量着你。】请见谅。
+[他慢条斯理地打量着你。] 请见谅。
 
 > INFO.NAME greeting 1 234816037106222636
 [He seems amused, but determined not to speak to you.] I said... EXCUSE ME.
-【他看起来被逗乐了，但决心不跟你说话。】我说…打·扰·一·下。
+[他看起来被逗乐了，但决心不跟你说话。] 我说…打·扰·一·下。
 
 > INFO.NAME greeting 1 938615211189369990
 If you have heard the latest rumors, perhaps someone of your abilities and experience could find it in your heart to help the community.
@@ -30918,11 +30918,11 @@ Go ahead. It's your move.
 
 > INFO.NAME greeting 1 45734515193616635
 Everything is perfectly all right. We heard the word. Hlireni Indavel says lay off you and the savages. We won't touch them, or you, as long as you leave us alone. [Whispers: Spoil-sport.]
-一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。【小声说道：别担心】
+一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心。]
 
 > INFO.NAME greeting 1 2400522477179779807
 Everything is perfectly all right. We heard the word. Hlireni Indavel says lay off you and the savages. We won't touch them, or you, as long as you leave us alone. [Whispers: Spoil-sport.]
-一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。【小声说道：别担心】
+一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心。]
 
 > INFO.NAME greeting 1 1961528148943530578
 Don't worry. Hlireni Indavel says leave you and the poor starving Ashlanders alone.
@@ -32574,7 +32574,7 @@ Almalexia is one of the gods worshipped by the Dunmer in the Tribunal Temple. Sh
 
 > INFO.NAME almalexia 8549130601500917093
 [Studies you carefully.] I see you know something that you choose not to say. That's your right. And perhaps I do not have to be a prophet to imagine what it is that you do not say, Nerevarine.
-【仔细打量着你。】看来你心里有什么事不愿与人分享，这是你的权利。也许我不需要成为先知也能想象出你有什么不愿吐露，尼瑞瓦因。
+[仔细打量着你。] 看来你心里有什么事不愿与人分享，这是你的权利。也许我不需要成为先知也能想象出你有什么不愿吐露，尼瑞瓦因。
 
 > INFO.NAME almalexia 111582369517121903
 That is very sad. I presume she killed Sotha Sil. I thought she might harm me. And I presume she tried to kill you, Nerevarine. It is all very sad. But death comes to all mortals -- and we are all mortal now. In time, death will come to me, Nerevarine -- perhaps even at your hands. It is futile to deny one's fate. But, nonetheless, I'm afraid I find it all very, very sad that it should end this way, something that began in such glory and noble promise.
@@ -32634,171 +32634,171 @@ Your story is unbelievable. But... there are rumors here that Almalexia is no lo
 
 > INFO.NAME almalexia 3253824403802415767
 [Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Vivec 'dead'. That's simply... impossible.
-【感到焦虑，但有所准备并控制住了自己。】我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能发现维威克“死了”。这显然是…不可能的。
+[感到焦虑，但有所准备并控制住了自己。] 我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能发现维威克“死了”。这显然是…不可能的。
 
 > INFO.NAME almalexia 26528326041476628360
 [Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Almalexia, Sotha Sil, and Vivec 'dead'. That's simply... impossible.
-【感到焦虑，但有所准备并控制住了自己。】我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能发现阿玛莱西娅、索萨·希尔和维威克“死了”。这显然是…不可能的。
+[感到焦虑，但有所准备并控制住了自己。] 我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能发现阿玛莱西娅、索萨·希尔和维威克“死了”。这显然是…不可能的。
 
 > INFO.NAME almalexia 1676287372038310389
 [Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have found Almalexia and Sotha Sil 'dead'. That's simply... impossible.
-【感到焦虑，但有所准备并控制住了自己。】我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能发现阿玛莱西娅和索萨·希尔“死了”。这显然是…不可能的。
+[感到焦虑，但有所准备并控制住了自己。] 我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能发现阿玛莱西娅和索萨·希尔“死了”。这显然是…不可能的。
 
 > INFO.NAME almalexia 25199207051395824688
 [Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Vivec. That's simply... impossible.
-【感到焦虑，但有所准备并控制住了自己。】我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能“杀了”维威克。这显然是…不可能的。
+[感到焦虑，但有所准备并控制住了自己。] 我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能“杀了”维威克。这显然是…不可能的。
 
 > INFO.NAME almalexia 3275720755108593218
 [Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Almalexia. That's simply... impossible.
-【感到焦虑，但有所准备并控制住了自己。】我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能“杀了”阿玛莱西娅。这显然是…不可能的。
+[感到焦虑，但有所准备并控制住了自己。] 我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能“杀了”阿玛莱西娅。这显然是…不可能的。
 
 > INFO.NAME almalexia 2249167383152031300
 [Anxious, but prepared and controlled.] I'm not sure you understand. The Tribunal are Living Gods -- but that doesn't mean you can come see them any time you want. In happier times, the Tribunal appeared before the people, just like us priests. But times have changed, and no one sees the Tribunal any more. So... of course... you could not have 'killed' Almalexia. That's simply... impossible.
-【感到焦虑，但有所准备并控制住了自己。】我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能“杀了”阿玛莱西娅。这显然是…不可能的。
+[感到焦虑，但有所准备并控制住了自己。] 我不确定你是否明白。审判席是现世神 -- 但这并不意味着你可以随时想见就来见到他们。在幸福的年代，审判席就像我们祭司一样，出现在人民面前。但是时代已经变了，再也没人见过审判席。所以…当然…你不可能“杀了”阿玛莱西娅。这显然是…不可能的。
 
 > INFO.NAME almalexia 138824354247942595
 [Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....
-【若有所思地盯着你。】我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
+[若有所思地盯着你。] 我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
 
 > INFO.NAME almalexia 3275253052964319925
 [Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?
-【怀疑地盯着你。】如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
+[怀疑地盯着你。] 如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
 
 > INFO.NAME almalexia 260420140237076255
 [Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.
-【感到困惑。】你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
+[感到困惑。] 你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
 
 > INFO.NAME almalexia 21977287891209022767
 [Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....
-【若有所思地盯着你。】我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
+[若有所思地盯着你。] 我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
 
 > INFO.NAME almalexia 859022382304413877
 [Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?
-【怀疑地盯着你。】如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
+[怀疑地盯着你。] 如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
 
 > INFO.NAME almalexia 273302711157818806
 [Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.
-【感到困惑。】你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
+[感到困惑。] 你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
 
 > INFO.NAME almalexia 18011325692587612722
 [Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....
-【若有所思地盯着你。】我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
+[若有所思地盯着你。] 我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
 
 > INFO.NAME almalexia 15737167691727718177
 [Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?
-【怀疑地盯着你。】如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
+[怀疑地盯着你。] 如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
 
 > INFO.NAME almalexia 171474340393822257
 [Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.
-【感到困惑。】你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
+[感到困惑。] 你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
 
 > INFO.NAME almalexia 20893143212411811961
 [Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....
-【若有所思地盯着你。】我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
+[若有所思地盯着你。] 我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
 
 > INFO.NAME almalexia 31026257472124920356
 [Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?
-【怀疑地盯着你。】如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
+[怀疑地盯着你。] 如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
 
 > INFO.NAME almalexia 2578570632817810139
 [Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.
-【感到困惑。】你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
+[感到困惑。] 你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
 
 > INFO.NAME almalexia 349877621101730320
 [Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....
-【若有所思地盯着你。】我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
+[若有所思地盯着你。] 我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
 
 > INFO.NAME almalexia 1990915359206984149
 [Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?
-【怀疑地盯着你。】如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
+[怀疑地盯着你。] 如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
 
 > INFO.NAME almalexia 2729525686204243135
 [Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.
-【感到困惑。】你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
+[感到困惑。] 你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
 
 > INFO.NAME almalexia 261582437228651242
 [Stares at you thoughtfully.] I believe you are serious. I'm not sure I believe you have killed a living god... though I do think YOU think you have. I doubt you could prove it. And I doubt the priests would believe it... or would admit it, even if it were true. Say nothing about this to anyone. Or... I suppose you can tell who you like. Who would believe you? Fascinating. Simply fascinating. So many possibilities....
-【若有所思地盯着你。】我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
+[若有所思地盯着你。] 我相信你是认真的。我不太相信你杀了一位现世神…虽然我想你认为你确实杀了。我怀疑你能否证明。我怀疑牧师们是否会相信…或者承认此事，即使这是真的。不要把这件事告诉任何人。或者…我想你可以告诉你喜欢的人，但谁会相信你？有意思，真有意思。这么多种可能……
 
 > INFO.NAME almalexia 7557270652705913761
 [Stares at you doubtfully.] From anyone else, such a statement would be nonsense. And you have no way to prove this statement? I scarcely know what to think. If true, I can't begin to imagine what the social and political consequences would be. But I doubt you'd be very popular among the Dunmer if this were known. My advice is to keep quiet about this. I certainly shall. I have heard nothing whatsoever from you about this. And we have not spoken. Understand?
-【怀疑地盯着你。】如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
+[怀疑地盯着你。] 如果换作别人，这种说法将是无稽之谈。你有办法证明吗？我不知道该怎么想。如果这是真的，我无法想象会随之而来社会和政治后果。但如果此事被公之于众，我怀疑你会很受丹莫的欢迎。我的建议是对此事保持沉默。我当然会的。我从没有听你说过任何事。我们从没谈过这件事。明白吗？ {沙尔}
 
 > INFO.NAME almalexia 16776109131954426319
 [Puzzled.] You are a foreigner. Many foreigners cannot understand our Living Gods. Are you speaking figuratively? In metaphors? In some... poetic way? Are you a follower of some peculiar Western cult? Please excuse me... but what you say makes no sense at all.
-【感到困惑。】你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
+[感到困惑。] 你是个外邦人。许多外邦人无法理解我们的现世神。你是在比喻吗？在隐喻？用某些…诗意的方式？你是什么西方教派的信徒吗？请原谅…但是你说的完全是无稽之谈。
 
 > INFO.NAME almalexia 223464930179589062
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-【轻柔地说。】你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
 
 > INFO.NAME almalexia 2731487016700143
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-【轻柔地说。】你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
 
 > INFO.NAME almalexia 14498203941578711222
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-【轻柔地说。】你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
 
 > INFO.NAME almalexia 72117162207747823
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-【轻柔地说。】你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
 
 > INFO.NAME almalexia 11073114003170826341
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-【轻柔地说。】你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
 
 > INFO.NAME almalexia 854273532984418724
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-【轻柔地说。】你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
 
 > INFO.NAME almalexia 7221100682663725929
 [Forcefully, threateningly.] You are wrong. You are foolish to say such things. Go away.
-【生气地、威胁地说。】你错了。傻子才会说这种话。走开。
+[生气地、威胁地说。] 你错了。傻子才会说这种话。走开。
 
 > INFO.NAME almalexia 2404318862651819657
 [Forcefully, threateningly.] You are wrong. You are foolish to say such things. Go away.
-【生气地、威胁地说。】你错了。傻子才会说这种话。走开。
+[生气地、威胁地说。] 你错了。傻子才会说这种话。走开。
 
 > INFO.NAME almalexia 318711678474713472
 [Forcefully, threateningly.] You are wrong. You are foolish to say such things. Go away.
-【生气地、威胁地说。】你错了。傻子才会说这种话。走开。
+[生气地、威胁地说。] 你错了。傻子才会说这种话。走开。
 
 > INFO.NAME almalexia 1939543631877012189
 [Forcefully, threateningly.] You are wrong. You are foolish to say such things. Go away.
-【生气地、威胁地说。】你错了。傻子才会说这种话。走开。
+[生气地、威胁地说。] 你错了。傻子才会说这种话。走开。
 
 > INFO.NAME almalexia 1755810815117657402
 [Forcefully, threateningly.] You are wrong. You are foolish to say such things. Go away.
-【生气地、威胁地说。】你错了。傻子才会说这种话。走开。
+[生气地、威胁地说。] 你错了。傻子才会说这种话。走开。
 
 > INFO.NAME almalexia 13828214294314048
 [Forcefully, threateningly.] You are wrong. You are foolish to say such things. Go away.
-【生气地、威胁地说。】你错了。傻子才会说这种话。走开。
+[生气地、威胁地说。] 你错了。傻子才会说这种话。走开。
 
 > INFO.NAME almalexia 26632134651278031867
 [Stares at you in disbelief.] Gods... I think you're serious. Or, at least, you believe what you're saying. You should go to the Temple and tell them this. Surely you don't believe you can kill a Living God? And even if you SAW such a thing, do you believe you can kill a god PERMANENTLY? Good grief. Have you never read 'The 36 Lessons of Vivec'? These are immortal gods you're talking about.
-【不相信地盯着你。】天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
+[不相信地盯着你。] 天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
 
 > INFO.NAME almalexia 22598285643165623885
 [Stares at you in disbelief.] Gods... I think you're serious. Or, at least, you believe what you're saying. You should go to the Temple and tell them this. Surely you don't believe you can kill a Living God? And even if you SAW such a thing, do you believe you can kill a god PERMANENTLY? Good grief. Have you never read 'The 36 Lessons of Vivec'? These are immortal gods you're talking about.
-【不相信地盯着你。】天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
+[不相信地盯着你。] 天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
 
 > INFO.NAME almalexia 795214831250805240
 [Stares at you in disbelief.] Gods... I think you're serious. Or, at least, you believe what you're saying. You should go to the Temple and tell them this. Surely you don't believe you can kill a Living God? And even if you SAW such a thing, do you believe you can kill a god PERMANENTLY? Good grief. Have you never read 'The 36 Lessons of Vivec'? These are immortal gods you're talking about.
-【不相信地盯着你。】天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
+[不相信地盯着你。] 天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
 
 > INFO.NAME almalexia 14734254301048429402
 [Stares at you in disbelief.] Gods... I think you're serious. Or, at least, you believe what you're saying. You should go to the Temple and tell them this. Surely you don't believe you can kill a Living God? And even if you SAW such a thing, do you believe you can kill a god PERMANENTLY? Good grief. Have you never read 'The 36 Lessons of Vivec'? These are immortal gods you're talking about.
-【不相信地盯着你。】天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
+[不相信地盯着你。] 天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
 
 > INFO.NAME almalexia 32668266841692217028
 [Stares at you in disbelief.] Gods... I think you're serious. Or, at least, you believe what you're saying. You should go to the Temple and tell them this. Surely you don't believe you can kill a Living God? And even if you SAW such a thing, do you believe you can kill a god PERMANENTLY? Good grief. Have you never read 'The 36 Lessons of Vivec'? These are immortal gods you're talking about.
-【不相信地盯着你。】天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
+[不相信地盯着你。] 天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
 
 > INFO.NAME almalexia 258595824150221860
 [Stares at you in disbelief.] Gods... I think you're serious. Or, at least, you believe what you're saying. You should go to the Temple and tell them this. Surely you don't believe you can kill a Living God? And even if you SAW such a thing, do you believe you can kill a god PERMANENTLY? Good grief. Have you never read 'The 36 Lessons of Vivec'? These are immortal gods you're talking about.
-【不相信地盯着你。】天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
+[不相信地盯着你。] 天啊…我想你是认真的。或者，至少，你相信自己所言不虚。你应该去神殿告诉他们这些事。你不会真的相信你能杀死一位现世神吧？即便你真的见过这种事，你相信你能彻底杀死一位神吗？天哪。你没有读过《维威克的36课》吗？我们在说的是不朽的神灵啊。 {谈}
 
 > INFO.NAME almalexia 13305137951058416242
 You are a foreigner, and one must make allowances. But even a foreigner must know that such jokes are not in good taste.
@@ -32826,51 +32826,51 @@ You are a foreigner, and one must make allowances. But even a foreigner must kno
 
 > INFO.NAME almalexia 1604412398282356237
 [Stares at you with distaste.] Excuse me.
-【厌恶地盯着你。】不好意思。
+[厌恶地盯着你。] 不好意思。
 
 > INFO.NAME almalexia 17630208721768127258
 [Stares at you with distaste.] Excuse me.
-【厌恶地盯着你。】不好意思。
+[厌恶地盯着你。] 不好意思。
 
 > INFO.NAME almalexia 102732072880912380
 [Stares at you with distaste.] Excuse me.
-【厌恶地盯着你。】不好意思。
+[厌恶地盯着你。] 不好意思。
 
 > INFO.NAME almalexia 8739175123227222611
 [Stares at you with distaste.] Excuse me.
-【厌恶地盯着你。】不好意思。
+[厌恶地盯着你。] 不好意思。
 
 > INFO.NAME almalexia 16711173961842928916
 [Stares at you with distaste.] Excuse me.
-【厌恶地盯着你。】不好意思。
+[厌恶地盯着你。] 不好意思。
 
 > INFO.NAME almalexia 10171320571785117567
 [Stares at you with distaste.] Excuse me.
-【厌恶地盯着你。】不好意思。
+[厌恶地盯着你。] 不好意思。
 
 > INFO.NAME almalexia 12163742206864465
 [Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.
-【怀疑地盯着你。】你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
+[怀疑地盯着你。] 你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
 
 > INFO.NAME almalexia 17495182362042815686
 [Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.
-【怀疑地盯着你。】你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
+[怀疑地盯着你。] 你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
 
 > INFO.NAME almalexia 1299514151316653550
 [Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.
-【怀疑地盯着你。】你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
+[怀疑地盯着你。] 你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
 
 > INFO.NAME almalexia 25177225892689824471
 [Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.
-【怀疑地盯着你。】你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
+[怀疑地盯着你。] 你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
 
 > INFO.NAME almalexia 24951293681699227271
 [Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.
-【怀疑地盯着你。】你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
+[怀疑地盯着你。] 你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
 
 > INFO.NAME almalexia 2156110346261177621
 [Stares at you in disbelief.] What makes you say such a thing? Are you mad? Go to the Temple and pray at the shrines for your soul. If you cannot be cured, you must be locked away, for your own good, and the good of society.
-【怀疑地盯着你。】你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
+[怀疑地盯着你。] 你怎么会说这种话？你疯了吗？到神殿去，在祭坛为你的灵魂祈祷。如果你无法被治愈，你必须被关起来，为了你自己和全社会好。 {圣祠}
 
 > INFO.NAME almalexia 1267416368161361361
 Nonsense. You don't know what you're talking about.
@@ -32906,7 +32906,7 @@ I found Sotha Sil dead, and killed Almalexia.
 
 > INFO.BNAM almalexia 27854294722000614405 c2
 [Lie] I found Almalexia, Sotha Sil, and Vivec dead.
-【说谎】我发现阿玛莱西娅、索萨·希尔和维威克死了。
+[说谎] 我发现阿玛莱西娅、索萨·希尔和维威克死了。
 
 > INFO.BNAM almalexia 27854294722000614405 c3
 I found Sotha Sil dead, and killed Almalexia and Vivec.
@@ -32926,7 +32926,7 @@ I found Sotha Sil dead, and killed Almalexia.
 
 > INFO.BNAM almalexia 30990172302627631518 c2
 [Lie] I found Almalexia and Sotha Sil dead.
-【说谎】我发现阿玛莱西娅和索萨·希尔死了。
+[说谎] 我发现阿玛莱西娅和索萨·希尔死了。
 
 > INFO.BNAM almalexia 30990172302627631518 c3
 Thank you, but I must be going.
@@ -32942,7 +32942,7 @@ I killed Vivec.
 
 > INFO.BNAM almalexia 2195033431462926284 c2
 [Lie] I found Vivec dead.
-【说谎】我发现维威克死了。
+[说谎] 我发现维威克死了。
 
 > INFO.BNAM almalexia 2195033431462926284 c3
 Thank you, but I must be going.
@@ -32958,7 +32958,7 @@ I found Sotha Sil dead, and killed Almalexia.
 
 > INFO.BNAM almalexia 175649058167116682 c2
 [Lie] I found Almalexia, Sotha Sil, and Vivec dead.
-【说谎】我发现阿玛莱西娅、索萨·希尔和维威克死了。
+[说谎] 我发现阿玛莱西娅、索萨·希尔和维威克死了。
 
 > INFO.BNAM almalexia 175649058167116682 c3
 I found Sotha Sil dead, and killed Almalexia and Vivec.
@@ -32978,7 +32978,7 @@ I found Sotha Sil dead, and killed Almalexia.
 
 > INFO.BNAM almalexia 2066941002246624310 c2
 [Lie] I found Almalexia and Sotha Sil dead.
-【说谎】我发现阿玛莱西娅和索萨·希尔死了。
+[说谎] 我发现阿玛莱西娅和索萨·希尔死了。
 
 > INFO.BNAM almalexia 2066941002246624310 c3
 Thank you, but I must be going.
@@ -32994,7 +32994,7 @@ I killed Vivec.
 
 > INFO.BNAM almalexia 1629530673227419863 c2
 [Lie] I found Vivec dead.
-【说谎】我发现维威克死了。
+[说谎] 我发现维威克死了。
 
 > INFO.BNAM almalexia 1629530673227419863 c3
 Thank you, but I must be going.
@@ -33002,19 +33002,19 @@ Thank you, but I must be going.
 
 > INFO.NAME almalexia 2340447542946020638
 Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.
-阿玛莱西娅是治愈之母，是怜悯之心和同情的源泉，是穷人和弱者的保护神。
+阿玛莱西娅是治愈之母，是怜悯之心和同情之源，是穷人和弱者的保护者。
 
 > INFO.NAME almalexia 1766720843232323511
 Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.
-阿玛莱西娅是治愈之母，是怜悯之心和同情的源泉，是穷人和弱者的保护神。
+阿玛莱西娅是治愈之母，是怜悯之心和同情之源，是穷人和弱者的保护者。
 
 > INFO.NAME almalexia 204983123440369429
 Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.
-阿玛莱西娅是治愈之母，是怜悯之心和同情的源泉，是穷人和弱者的保护神。
+阿玛莱西娅是治愈之母，是怜悯之心和同情之源，是穷人和弱者的保护者。
 
 > INFO.NAME almalexia 317137777893530138
 Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.
-阿玛莱西娅是治愈之母，是怜悯之心和同情的源泉，是穷人和弱者的保护神。
+阿玛莱西娅是治愈之母，是怜悯之心和同情之源，是穷人和弱者的保护者。
 
 > INFO.NAME almalexia 1452532304716517087
 Almalexia was the virtuous wife of Lord Nerevar, and later the Consort of Lord Vivec.
@@ -33082,7 +33082,7 @@ Sotha Sil is one of the three God-Kings of Morrowind. While Vivec and Almalexia 
 
 > INFO.NAME sotha sil 10996266102894319183
 [Studies you carefully.] I see you know something that you choose not to say. That's your right. And perhaps I do not have to be a prophet to imagine what it is that you do not say, Nerevarine.
-【仔细打量着你。】看来你心里有什么事不愿与人分享，这是你的权利。也许我不需要成为先知也能想象出你有什么不愿吐露，尼瑞瓦因。
+[仔细打量着你。] 看来你心里有什么事不愿与人分享，这是你的权利。也许我不需要成为先知也能想象出你有什么不愿吐露，尼瑞瓦因。
 
 > INFO.NAME sotha sil 29408217432575429381
 That is very sad. I presume Almalexia killed Sotha Sil. I thought she might harm me. And I presume she tried to kill you, Nerevarine. It is all very sad. But death comes to all mortals -- and we are all mortal now. In time, death will come to me, Nerevarine -- perhaps even at your hands. It is futile to deny one's fate. But, nonetheless, I'm afraid I find it all very, very sad that it should end this way, something that began in such glory and noble promise.
@@ -37010,11 +37010,11 @@ Now, what was it I was going to do today?
 
 > INFO.NAME idle 2289223691005512501
 [Long sigh.] Mother said there'd be days like this.
-【长叹。】妈妈说过会有这样的日子。
+[长叹。] 妈妈说过会有这样的日子。
 
 > INFO.NAME idle 5528297391686427388
 [Ughk-ughk.] 'Scuse me. Swallowed a bug.
-【咳咳。】不好意思。吞了一只虫子。
+[咳咳。] 不好意思。吞了一只虫子。
 
 > INFO.NAME idle 99436759293257860
 That robe makes me look like a house.
@@ -37026,7 +37026,7 @@ Don't look at me! I didn't do it....
 
 > INFO.NAME idle 13841241851288029274
 [Singing to self....] 'Mama's little baby likes scumble, scumble....'
-【为自己唱歌……】“妈妈的小宝贝喜欢声音渐轻，渐柔……”。
+[为自己唱歌……] “妈妈的小宝贝喜欢声音渐轻，渐柔……”。
 
 > INFO.NAME idle 2309236221251022977
 If it's not one thing, it's another...
@@ -37150,7 +37150,7 @@ That gal looks familiar....
 
 > INFO.NAME idle 4845224261423415490
 [Belch.] Whew. I better lay off the mazte.
-【打嗝。】好啪。我最好少喝点玛诗蒂。
+[打嗝。] 好啪。我最好少喝点玛诗蒂。
 
 > INFO.NAME idle 1934822050163131322
 I'm so hungry I could eat a rat.
@@ -37166,7 +37166,7 @@ Ahh... ahh... CHUE!
 
 > INFO.NAME idle 23640276082629917993
 [Laughter]
-【笑声】
+[笑声]
 
 > INFO.NAME idle 11418274851695130261
 I don't know. Maybe she's right....
@@ -37230,7 +37230,7 @@ Weak as wickwheat... never does a thing...
 
 > INFO.NAME idle 27124114862698827403
 [Whistles]
-【吹口哨。】
+[吹口哨]
 
 > INFO.NAME idle 254347879605031401
 You're imagining things.

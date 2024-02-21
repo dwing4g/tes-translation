@@ -2,6 +2,7 @@
 
 local io = io
 local arg = arg
+local print = print
 
 local function getEnd(line)
 	local ee = ""
@@ -108,6 +109,7 @@ local function fix(e, c)
 end
 
 local lines = {}
+local checks = {}
 local n, s, e = 0, 0
 for line in io.lines(arg[1]) do
 	i = i + 1
@@ -127,6 +129,12 @@ for line in io.lines(arg[1]) do
 					line = line1
 					n = n + 1
 				end
+				local ce = checks[e]
+				if not ce then
+					checks[e] = line:gsub(" *{[^{}]*}$", "")
+				elseif ce ~= line:gsub(" *{[^{}]*}$", "") and #e > 11 then
+					print("WARN: unmatched translation: " .. e .. "\n" .. ce .. "\n" .. line .. "\n")
+				end
 			end
 			s, e = 0
 		end
@@ -134,8 +142,9 @@ for line in io.lines(arg[1]) do
 	lines[#lines + 1] = line
 end
 
-local f = io.open(arg[1], "wb")
-f:write(table.concat(lines, "\r\n"), "\r\n")
-f:close()
-
+if n > 0 then
+	local f = io.open(arg[1], "wb")
+	f:write(table.concat(lines, "\r\n"), "\r\n")
+	f:close()
+end
 print("done! (" .. n .. " fixed)")
