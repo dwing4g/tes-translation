@@ -22658,11 +22658,11 @@ One of the creatures went into the Greathall! It must be stopped!
 
 > INFO.NAME greeting 1 16757142681618426741
 Please, you must help. The village is under attack by the werewolves! Outside, quickly!!!
-拜托，你一定要帮忙 狼人正在攻击村庄 快出去！！！
+拜托，你一定要帮忙。狼人正在攻击村庄！出去，快！！！
 
 > INFO.NAME greeting 1 94616515287744870
 The beasts must be killed! You must assist the guards!
-必须杀死这些野兽 你必须协助卫兵！
+必须杀死这些野兽！你必须协助卫兵！
 
 > INFO.NAME greeting 1 2209675272075720576
 You have cleared my husband's name. What can I do for you?
@@ -22674,11 +22674,11 @@ You are the one who is to investigate a crime that has been blamed on my husband
 
 > INFO.NAME greeting 1 26666326902586726328
 I have nothing to say. My time is done.
-我无话可说 我的时间到了。
+我无话可说，我的时间到了。
 
 > INFO.NAME greeting 1 17069797242319491
 You know my crime. Get on with your job.
-你知道我的罪行 继续你的工作吧。
+你知道我的罪行，继续你的工作吧。
 
 > INFO.NAME greeting 1 26098124701462813987
 Yes? I understand you are investigating Engar Ice-Mane's theft. A terrible thing. But, you were sent to investigate a crime--what can I do for you, outlander?
@@ -22686,11 +22686,11 @@ Yes? I understand you are investigating Engar Ice-Mane's theft. A terrible thing
 
 > INFO.NAME greeting 1 2977131965308834447
 You have cleared my name and restored my honor. What can I do for you, my friend?
-你还了我清白，恢复了我的名誉 我能为你做什么 我的朋友？
+你还了我清白，恢复了我的名誉。我能为你做什么，我的朋友？
 
 > INFO.NAME greeting 1 30556102651615731232
 You, who are to be my judge, what would you ask of me?
-你是我的法官 你会要求我做什么？
+你是我的法官，你会要求我做什么？
 
 > INFO.NAME greeting 1 14886229411303327677
 I sense the shadow of the beast is upon you, %PCName. The Skaal have nothing to say to you while you live with such a curse.
@@ -22746,7 +22746,7 @@ Greetings, Blodskaal. Now that you have struggled out from under the curse of th
 
 > INFO.NAME greeting 1 240861350657846783
 Greetings, Blodskaal. You and I must speak of the Ristaag.
-你好，布洛斯卡 你和我必须谈谈净祝狩仪了。
+你好，布洛斯卡，你和我必须谈谈净祝狩仪了。
 
 > INFO.NAME greeting 1 6991202761063622152
 You had the shadow of the beast upon you, after you had been infected. Yet, I sense something is different.
@@ -22782,7 +22782,7 @@ Ah...you've arrived. These are strange times, my friend. I am unsure what magic 
 
 > INFO.NAME greeting 1 2538744491433731542
 Hello again, friend. What may I do for you?
-又见面了，朋友 我能为你做什么？
+又见面了，朋友。我能为你做什么？
 
 > INFO.NAME greeting 1 2582112969107021320
 You were to perform the Ritual of the Gifts. I hope your way has been easy.
@@ -22850,7 +22850,7 @@ You have shown your loyalty to the Skaal. Now it is time to prove your wisdom.
 
 > INFO.NAME greeting 1 490618045126615171
 You were told to perform the rituals needed to restore the power of the Skaal. What have you done?
-你们被告知要举行仪式 恢复斯卡尔的力量 你做了什么？ {需要,斯卡尔}
+你们被告知要举行仪式恢复斯卡尔的力量，你做了什么？ {需要,斯卡尔}
 
 > INFO.NAME greeting 1 1929830229122142844
 I was trying to explain to you, outlander, that you have much to atone for.
@@ -23110,7 +23110,7 @@ You've helped me deal with the low morale at the fort, perhaps you can help me w
 
 > INFO.NAME greeting 1 15741292702017321430
 I asked you to investigate why the morale has been low in the fort. Have you learned anything?
-我让你调查要塞士气低落的原因 你了解到什么了吗？
+我让你调查要塞士气低落的原因，你了解到什么了吗？
 
 > INFO.NAME greeting 1 220125762684819907
 I was mentioning to you that the men seem edgy.
@@ -29178,7 +29178,7 @@ Did you see the size of that beast!
 
 > INFO.NAME hello 523114323269029757
 Come, friend! I make the best armor on all of Solstheim.
-来吧，朋友 我做的盔甲是索瑟海姆最好的。
+来吧，朋友！我做的盔甲是索瑟海姆最好的。
 
 > INFO.NAME hello 20552277492062218275
 To Sovngarde!
@@ -29194,7 +29194,7 @@ Candy, candy -- he makes so much! Uncle Sweetshare has a magic touch! So it's ba
 
 > INFO.NAME hello 519124701175217185
 Well now, if you're not the comeliest lass I've ever laid eyes on. Come here, and let Big Erich keep you warm.
-如果你不是我见过的最可爱的姑娘 过来，让大个子埃里克给你取暖。
+如果你不是我见过的最可爱的姑娘。过来，让大个子埃里克给你取暖。
 
 > INFO.NAME hello 2807300764708564
 Keep your distance, friend, if you want to keep your head.
@@ -29202,7 +29202,7 @@ Keep your distance, friend, if you want to keep your head.
 
 > INFO.NAME hello 1198359172836425410
 Thish is the besht mead hall anywhere, friend. You'll not find better in Shkyrim itshelf.
-这是最好的酒馆，朋友。在什克里姆找不到比这更好的了。
+这里是全世界最好的蜂蜜酒馆，朋友。你在天际都找不到比这更好的。
 
 > INFO.NAME hello 5936917927707931
 Welcome to Thirsk, friend! You should speak to Skjoldr Wolf-Runner. He is the chieftain of this hall, and wishes to meet all new arrivals.
@@ -29210,19 +29210,19 @@ Welcome to Thirsk, friend! You should speak to Skjoldr Wolf-Runner. He is the ch
 
 > INFO.NAME hello 30513231273074612964
 Our mead ish the nectar of Shor himshelf, imported all the way from Shkyrim!
-我们的蜂蜜酒是从什克里姆进口的，是肖尔的甘露！
+我们的蜂蜜酒是舒尔的甘露，来自遥远的天际！
 
 > INFO.NAME hello 290872225213372693
 All hail the chieftain of Thirsk! Slayer of the Udyrfrykte! May the mead flow forever!
-瑟斯克酋长万岁！乌迪福瑞克的杀手 愿美酒长流！
+瑟斯克酋长万岁！乌迪福瑞克的杀手！愿美酒长流！
 
 > INFO.NAME hello 18995306523063670
 Thirsk is closed, and without a chieftain. These are sad times.
-瑟斯克关闭了，也没有了酋长 这是个悲伤的时刻。
+瑟斯克关闭了，也没有了酋长。这是个悲伤的时刻。
 
 > INFO.NAME hello 4117169342999321614
 Watch yourself near Erich, friend.  He's a swine of a man.  It's too bad he's my clan brother....
-在艾瑞克身边小心点 朋友  他是个猪头  可惜他是我的族兄……
+在艾瑞克身边小心点，朋友。他是个猪头，可惜他是我的族兄……
 
 > INFO.NAME hello 24407293992122021839
 Have you found it? Have you found the entrance to Sovngarde?
@@ -29238,11 +29238,11 @@ Our dark business is complete. Erna is dead! Hahahahahahahaha!
 
 > INFO.NAME hello 7495242412720613344
 My husband is mine, do you understand me? Mine! That harlot Erna will pay!
-我的丈夫是我的，你明白吗？矿场 厄娜会付出代价的！
+我的丈夫是我的，你明白吗？矿场！厄娜会付出代价的！
 
 > INFO.NAME hello 718208892910616454
 Oddfrid tells me things, friend. Secret things.
-奥德弗里德告诉我一些事，朋友 秘密的事情。
+奥德弗里德告诉我一些事，朋友，秘密的事。
 
 > INFO.NAME hello 16518234015818361
 They've taken my Oddfrid. My sweet, dear Oddfrid....
@@ -29250,7 +29250,7 @@ They've taken my Oddfrid. My sweet, dear Oddfrid....
 
 > INFO.NAME hello 3685290651284420171
 The forces of darkness are mine to command! All shall bow before the terrible power of Tymvaul the Dark!
-黑暗的力量由我矿场指挥 所有人都将臣服于黑暗的蒂姆沃的可怕力量之下！
+黑暗的力量由我矿场指挥！所有人都将臣服于黑暗的蒂姆沃的可怕力量之下！
 
 > INFO.NAME hello 3005420150319505488
 My son.... My poor son.... Please, please help a sad old man.
@@ -29266,7 +29266,7 @@ The Ristaag is complete. Praise be to the All-Maker.
 
 > INFO.NAME hello 1327476691554731527
 Greetings, Blodskaal. You and I must speak of the Ristaag.
-你好，布洛斯卡 你和我必须谈谈净祝狩仪了。
+你好，布洛斯卡，你和我必须谈谈净祝狩仪了。
 
 > INFO.NAME hello 1737630156257491541
 You are not welcome here while you follow the path of the beast.
@@ -29294,7 +29294,7 @@ Ah...you've arrived. These are strange times, my friend.
 
 > INFO.NAME hello 1739631475957823339
 Hello again, friend. What may I do for you?
-又见面了，朋友 我能为你做什么？
+又见面了，朋友。我能为你做什么？
 
 > INFO.NAME hello 24245298792039923720
 You were to perform the Ritual of the Gifts. I hope your way has been easy.
@@ -29306,7 +29306,7 @@ Greetings to you, wanderer. Why have you returned to our village?
 
 > INFO.NAME hello 2916517714270631329
 You have returned. I would hear of your journey.
-你回来了 我想听听你的旅程。
+你回来了，我想听听你的旅程。
 
 > INFO.NAME hello 83412066354614003
 It is an honor, Blodskaal.
@@ -29326,11 +29326,11 @@ What can this smith do for you? Armor, weapons? Some conversation?
 
 > INFO.NAME hello 19096176362409917010
 I have nothing to say. My time is done.
-我无话可说 我的时间到了。
+我无话可说，我的时间到了。
 
 > INFO.NAME hello 262463066334052756
 You know my crime. Get on with your job.
-你知道我的罪行 继续你的工作吧。
+你知道我的罪行，继续你的工作吧。
 
 > INFO.NAME hello 1414894433700274
 Yes? I understand you are investigating Engar Ice-Mane's theft.
@@ -29346,7 +29346,7 @@ You are the one who is to investigate a crime that has been blamed on my husband
 
 > INFO.NAME hello 30061204231823631853
 No time for talk. The Hunt has begun!
-没时间说了 狩猎已经开始！
+没时间说了，狩猎已经开始！
 
 > INFO.NAME hello 247847370102526762
 Let us fight through to the end.
@@ -29354,11 +29354,11 @@ Let us fight through to the end.
 
 > INFO.NAME hello 14274109301695225357
 This place! It is fit for a warrior like Heart-Fang!
-这个地方 适合像心牙这样的勇士居住！
+这个地方！适合像心牙这样的勇士居住！
 
 > INFO.NAME hello 2417135211879417123
 You've returned from the lake! I trust you completed your task.
-你从湖边回来了 我相信你完成了任务。
+你从湖边回来了！我相信你完成了任务。
 
 > INFO.NAME hello 247832014834818667
 You are to prove your strength as a warrior of the Skaal.
@@ -29378,7 +29378,7 @@ You have shown your loyalty to the Skaal.
 
 > INFO.NAME hello 13338237781868830296
 You were told to perform the rituals needed to restore the power of the Skaal. What have you done?
-你们被告知要举行仪式 恢复斯卡尔的力量 你做了什么？
+你们被告知要举行仪式恢复斯卡尔的力量，你做了什么？
 
 > INFO.NAME hello 12109247951228018206
 I was trying to explain to you, outlander, that you have much to atone for.
@@ -29390,7 +29390,7 @@ What do you want, stranger? Why are you among the Skaal?
 
 > INFO.NAME hello 395533641107511079
 There is no more to say to you, stranger. The Skaal wish you no harm, but you are not welcome here.
-没什么好说的了，陌生人 斯卡尔人不希望你受到伤害 但这里不欢迎你。
+没什么好说的了，陌生人。斯卡尔人不希望你受到伤害，但这里不欢迎你。
 
 > INFO.NAME hello 2508451653046026720
 You've returned to our village, outlander. What is your business here?
@@ -29418,7 +29418,7 @@ Come back at nightfall, my friend. We will perform the Ristaag.
 
 > INFO.NAME hello 1664622050128032653
 Greetings, Blodskaal. Korst Wind-Eye has told me much about you.
-你好，布洛斯卡 科斯特·风眼跟我说了很多关于你的事。
+你好，布洛斯卡。科斯特·风眼跟我说了很多关于你的事。
 
 > INFO.NAME hello 5149413463721696
 Stay with Long-Tooth, Blodskaal. The Ristaag must be completed.
@@ -29426,15 +29426,15 @@ Stay with Long-Tooth, Blodskaal. The Ristaag must be completed.
 
 > INFO.NAME hello 1864358711356726625
 We must complete the Ristaag. The All-Maker demands this.
-我们必须完成净祝狩仪 造物主要求我们这么做。
+我们必须完成净祝狩仪，造物主要求我们这么做。
 
 > INFO.NAME hello 4800225941948027787
 You have cleared my name and restored my honor. What can I do for you, my friend?
-你还了我清白，恢复了我的名誉 我能为你做什么 我的朋友？
+你还了我清白，恢复了我的名誉。我能为你做什么，我的朋友？
 
 > INFO.NAME hello 1803920886702419691
 You, who are to be my judge, what would you ask of me?
-你是我的法官 你会要求我做什么？
+你是我的法官，你会要求我做什么？
 
 > INFO.NAME hello 41322780289626877
 I am glad to see you alive!
@@ -29450,7 +29450,7 @@ I will wait here and defend this gate.
 
 > INFO.NAME hello 36506880309807004
 Be strong, my friend. You will persevere.
-坚强点，我的朋友 你会坚持下去的。
+坚强点，我的朋友，你会坚持下去的。
 
 > INFO.NAME hello 60621522532615976
 We must find our way through this maze.
@@ -29458,7 +29458,7 @@ We must find our way through this maze.
 
 > INFO.NAME hello 23434244193158826517
 This place is not of this world. I fear for our lives.
-这里不属于这个世界 我担心我们的生命。
+这里不属于这个世界，我担心我们的生命。
 
 > INFO.NAME hello 28556164122138912496
 Have you found more information on the weapons being smuggled from the Fort?
@@ -29466,15 +29466,15 @@ Have you found more information on the weapons being smuggled from the Fort?
 
 > INFO.NAME hello 1368105358624604
 I asked you to investigate why the morale has been low in the fort. Have you learned anything?
-我让你调查要塞士气低落的原因 你了解到什么了吗？
+我让你调查要塞士气低落的原因，你了解到什么了吗？
 
 > INFO.NAME hello 3099322991412830438
 Be strong, my friend. You will persevere.
-坚强点，我的朋友 你会坚持下去的。
+坚强点，我的朋友，你会坚持下去的。
 
 > INFO.NAME hello 21463325793924005
 This place is not of this world. I fear for our lives.
-这里不属于这个世界 我担心我们的生命。
+这里不属于这个世界，我担心我们的生命。
 
 > INFO.NAME hello 2109239401427432644
 Have you found more information on the weapons being smuggled from the Fort?
@@ -29494,7 +29494,7 @@ Yes? What can I do for you? I am Captain Falx Carius, commander of Fort Frostmot
 
 > INFO.NAME hello 177052367153614661
 Stuck here. Forever. I'll die.
-被困在这里了 永远困在这里 我会死的。
+被困在这里了，永远困在这里，我会死的。
 
 > INFO.NAME hello 22773219561372718524
 Yes? What can this humble priest do for you?
@@ -33634,7 +33634,7 @@ Surely you jest! Mead is the nectar of the god Shor! It's made from fermented ho
 
 > INFO.NAME mead 1864829124681731086
 Mead ish the finesht drink on Solshteim! Finesht drink on Shkyrim too, for that matter! *burp!*
-蜂蜜酒是索尔斯泰姆最好的饮料！也是什克里姆最好的饮料！*嗝！* {罚款}
+蜂蜜酒是索尔斯泰姆最好的饮料！也是天际最好的饮料！*嗝！* {罚款}
 
 > INFO.NAME mead 14607226441191520409
 Some kind of sweet Nord drink. Terrible stuff. You won't catch many of the soldiers at this fort asking for it.
