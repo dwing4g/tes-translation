@@ -70,7 +70,7 @@
  GMST.STRV "载入区域"
 -GMST
  GMST.NAME "sLoadingMessage5"
- GMST.STRV "解析任务 (这可能要等一会)$0A完成时重新保存游戏。"
+ GMST.STRV "解析任务（这可能要等一会）$0A完成时重新保存游戏。"
 -GMST
  GMST.NAME "sGeneralMastPlugMismatchMsg"
  GMST.STRV "当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看""Warnings.txt""文件以了解更多信息。"
@@ -17649,7 +17649,7 @@ End WolfRitualRing
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_parchment_02.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-%PCName，<BR>
+%PCName<BR>
 <BR>
 您已收到这些指示和一些文件。不要向任何人展示它们。不要试图阅读包裹中的文件，包裹已被加密，您的任何篡改都将被发现并受到惩罚。<BR>
 <BR>
@@ -54666,7 +54666,7 @@ Choice ""我帮不了你，拉斯纳尔。"" 1 ""我会帮你的，拉斯纳尔 蒂姆沃有可能还活着。"
  INFO.NAME "求求你，%PCRace 我儿子蒂姆沃有什么消息？"
  INFO.SCVR "04JX0BM_Tymvaul"
  INFO.INTV [3C 00 00 00]
- INFO.BNAM "Choice ""蒂姆沃还活着，但已经被他在寒霜冰洞发现的一些黑暗魔法逼疯了。他说要让死人复活，然后袭击了我。对不起，拉斯纳尔，我别无选择，只能杀了蒂姆沃。"" 4 ""(我在井底发现了蒂姆沃的尸体。我把他安葬在了冰洞里 我很抱歉，拉斯纳尔。"" 5"
+ INFO.BNAM "Choice ""蒂姆沃还活着，但已经被他在寒霜冰洞发现的一些黑暗魔法逼疯了。他说要让死人复活，然后袭击了我。对不起，拉斯纳尔，我别无选择，只能杀了蒂姆沃。"" 4 ""（撒谎）我在井底发现了蒂姆沃的尸体。我把他安葬在了冰洞里 我很抱歉，拉斯纳尔。"" 5"
 -DIAL
  DIAL.NAME "令人不安的趋势$00"
  DIAL.DATA [00]
@@ -69305,7 +69305,7 @@ Goodbye"
  INFO.NNAM "333664632729110237$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Hroldar the Strange_b$00"
- INFO.NAME "噢~看看是谁来了，卡尼乌斯说你会帮我的，我过了一会儿才意识到这不是玩笑。别担心，我不会记恨你那场小冲突的，你只是按照指示行事而已。如果要抓到这小子，我们最好快走，我们到了那里再解决细节问题，我们走吧。"
+ INFO.NAME "噢，看看是谁来了，卡尼乌斯说你会帮我的，我过了一会儿才意识到这不是玩笑。别担心，我不会记恨你那场小冲突的，你只是按照指示行事而已。如果要抓到这小子，我们最好快走，我们到了那里再解决细节问题，我们走吧。"
  INFO.BNAM "Journal CO_9a 20
 Goodbye"
 -INFO

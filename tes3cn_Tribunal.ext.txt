@@ -88,7 +88,7 @@ Loading Area
 
 > GMST.STRV sLoadingMessage5
 Parsing Quests (this may take a while)$0ARe-save your game when done
-解析任务 (这可能要等一会)$0A完成时重新保存游戏
+解析任务（这可能要等一会）$0A完成时重新保存游戏
 
 > GMST.STRV sGeneralMastPlugMismatchMsg
 One or more plugins could not find the correct versions of the master files they depend on. Errors may occur during load or game play. Check the "Warnings.txt" file for more information.
@@ -372,7 +372,7 @@ Ok
 
 > SCPT.SCTX CharGen_ring_keley m7
 Press ^ActionReadyMagic to ready your Active Magic, then click to cast.
-按下^ActionReadyMagic键来准备施放魔法，单击攻击键施展你所准备的魔法。
+按下 ^ActionReadyMagic 键来准备施放魔法，单击攻击键施展你所准备的魔法。
 
 > SCPT.SCTX CharGen_ring_keley m8
 Ok
@@ -468,7 +468,7 @@ Take arms! Drive back these creatures!!!
 
 > SCPT.SCTX fluctuateWaterLevel m1
 Random value is %.2f, lowest is %.2f
-随机值为%.2f，最低值为%.2f
+随机值为 %.2f，最低值为 %.2f
 
 > SCPT.SCTX fluctuateWaterLevel m2
 WaterLevel target is now %.2f
@@ -5237,9 +5237,9 @@ THE END.<BR>
 <BR>
 克拉维德斯：凯娜瑞丝啊，这不是亡灵法术。这是毁灭系法术。科玛·沃维姆和科纳·泰尔瓦尼·霍达夫·夏尔不是在对死亡进行实验，而是在研究法术折磨的极限。<BR>
 <BR>
-乌利斯：这封信的收信人不是科纳·泰尔瓦尼·霍达夫·夏尔，而是瑟杜拉·艾奇拉·夏尔。他的妻子，你认为呢？<BR>
+乌利斯：这封信的收信人不是科纳·泰尔瓦尼·霍达夫·夏尔，而是瑟杜拉·亚奇拉·夏尔。他的妻子，你认为呢？<BR>
 <BR>
-克拉维德斯：艾奇拉。我听说那就是杀死巨人的泰尔瓦尼家族成员。我们最好带那位女仆离开这里。她需要一位治疗者。<BR>
+克拉维德斯：亚奇拉。我听说那就是杀死巨人的泰尔瓦尼家族成员。我们最好带那位女仆离开这里。她需要一位治疗者。<BR>
 <BR>
 克拉维德斯叫醒阿娜拉。她看起来有些混乱。<BR>
 <BR>
@@ -5247,27 +5247,27 @@ THE END.<BR>
 <BR>
 克拉维德斯：别担心，一切都会没事的。我们要带你去找治疗者。<BR>
 <BR>
-乌利斯：你需要外套吗，艾奇拉？<BR>
+乌利斯：你需要外套吗，亚奇拉？<BR>
 <BR>
 阿娜拉：谢谢，不了，我不冷--<BR>
 <BR>
-阿娜拉（艾奇拉）停顿了，意识到自己被设了圈套。克拉维德斯和乌利斯拔出了他们的剑。<BR>
+阿娜拉/亚奇拉停顿了，意识到自己被设了圈套。克拉维德斯和乌利斯拔出了他们的剑。<BR>
 <BR>
 克拉维德斯：您的手指上还有黑色墨水，尊贵的夫人。<BR>
 <BR>
 乌利斯：而且当你在门口看到我时，你还以为我是你朋友沃维姆送来的阿尔贡人。这就是为什么你会说，“现在不是时候，走开”。<BR>
 <BR>
-阿娜拉（艾奇拉）：你们比阿娜拉机灵多了。她从来都不明白到底发生了什么事，甚至在我将法术毒性加剧了三倍，使她痛苦致死，也浑然不解。<BR>
+阿娜拉/亚奇拉：你们比阿娜拉机灵多了。她从来都不明白到底发生了什么事，甚至在我将法术毒性加剧了三倍，使她痛苦致死，也浑然不解。<BR>
 <BR>
 乌利斯：你原本打算对我做什么，闪电还是火焰？<BR>
 <BR>
-阿娜拉（艾奇拉）：闪电。我发现火焰的效果太难预测了。<BR>
+阿娜娜/亚奇拉：闪电。我发现火焰的效果太难预测了。<BR>
 <BR>
 在她说话时，火把上的火焰熄灭了。舞台陷入彻底的黑暗。<BR>
 <BR>
-从中传出打斗的声音，剑撞击的铿锵之声。突然，一道闪电一闪而过，随后便安静了。在黑暗之中，艾奇拉说话了。<BR>
+从中传出打斗的声音，剑撞击的铿锵之声。突然，一道闪电一闪而过，随后便安静了。在黑暗之中，阿娜娜/亚奇拉说话了。<BR>
 <BR>
-艾奇拉：太美妙了。<BR>
+阿娜娜/亚奇拉：太美妙了。<BR>
 <BR>
 随着布幕的缓缓拉阖，多道闪电不断划过。<BR>
 <BR>
@@ -11376,7 +11376,7 @@ In times of great danger, the Ashlander tribes unite under a single war leader. 
 
 > INFO.NAME a2_6_incarnate 36104382652719067
 Nibani Maesa reminded me of the Fifth Trial of the Seven Visions: 'A stranger's hand unites the Velothi/Four Tribes call him Nerevarine.'  The Four Tribes are the four tribes of Vvardenfell, the Urshilaku, the Ahemmusa, the Zainab, and the Erabenimsun. When I have been named 'Nerevarine' by each of the four Ashlander tribes of Vvardenfell, I will have passed the Fifth Trial, and should return to Nibani Maesa for further guidance.
-尼巴妮·玛伊沙提醒我《七大异象》的第五个考验：一个“异客”之手联合了维洛西人/四个部落称他为尼瑞瓦因。四个部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当我被瓦登费尔的四个灰烬之民部落分别命名为“尼瑞瓦因”时，我就通过了第五个试炼，应该回到尼巴妮·玛伊沙那里接受进一步的指导。
+尼巴妮·玛伊沙提醒我《七大异象》的第五个考验：“一个异客之手联合了维洛西人/四个部落称他为尼瑞瓦因。”四个部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当我被瓦登费尔的四个灰烬之民部落分别命名为“尼瑞瓦因”时，我就通过了第五个试炼，应该回到尼巴妮·玛伊沙那里接受进一步的指导。
 
 > INFO.NAME a2_6_incarnate 2219619981111149074
 When a greater enemy threatens, the Great Houses put aside their quarrels and choose a Hortator, a single war leader to lead all the Houses. Only a Great House council can name a Hortator, and all councils must agree. Nibani Maesa says I must go to Redoran Council, Hlaalu Council, and Telvanni Council, prove to each that the threat of Dagoth Ur warrants uniting under a Hortator, and persuade each to name me 'Hortator'. This is how I must pass the Fourth Trial.
@@ -11384,7 +11384,7 @@ When a greater enemy threatens, the Great Houses put aside their quarrels and ch
 
 > INFO.NAME a2_6_incarnate 8690325341678211857
 Nibani Maesa reminded me of the Fourth Trial of the Seven Visions: 'A stranger's voice unites the Houses./Three Halls call him Hortator.' When I have been named 'Hortator' by each of the three Great Houses of Vvardenfell, I will have passed the Fourth Trial, and should return to Nibani Maesa for further guidance.
-尼巴妮·玛伊沙提醒我注意七大异象的第四个试炼--“异客”：一个“异客”的声音使三大家族团结起来，三大家族称他为“统谏使”。当我被瓦登费尔的三大家族分别命名为“统谏使”时，我就通过了第四道试炼，应该回到尼巴妮·玛伊萨那里寻求进一步的指导。
+尼巴妮·玛伊沙提醒我注意七大异象的第四个试炼：“一个异客的声音使三大家族团结起来。/三大家族称他为统谏使”。当我被瓦登费尔的三大家族分别命名为“统谏使”时，我就通过了第四道试炼，应该回到尼巴妮·玛伊萨那里寻求进一步的指导。
 
 > INFO.NAME a2_6_incarnate 1447523185589615937
 Peakstar says I must be chosen as 'Nerevarine' by the Ashlanders and 'Hortator' by the Great Houses. These are titles of war leaders chosen to unite the Dunmer in times of need. I must prove a war leader is needed, and be chosen as that war leader. I must tell how the Tribunal used profane tools of the Dwarves, and betrayed and misled the people. I must tell about the threat of Dagoth Ur and the Sixth House, and how the Tribunal can no longer contain them.
@@ -33522,7 +33522,7 @@ Yeah, that's what Dovor said.  I mean, that's what I want.  I think you can find
 
 > INFO.NAME contract 3236219618301486775
 Our contract is for 30 days, starting %contractCalvusMonth / %contractCalvusDay. You have %Contract_Calvus_Days_Left days left in the contract.
-我们的合同是30天的，从%contractCalvusMonth / %contractCalvusDay开始。你的合同还剩%Contract_Calvus_Days_Left天。
+我们的合同是30天的，从 %contractCalvusMonth / %contractCalvusDay 开始。你的合同还剩 %Contract_Calvus_Days_Left 天。
 
 > INFO.NAME contract 1679429346157719330
 I have no current contract.

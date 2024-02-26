@@ -88,7 +88,7 @@ Loading Area
 
 > GMST.STRV sLoadingMessage5
 Parsing Quests (this may take a while)$0ARe-save when done.
-解析任务 (这可能要等一会)$0A完成时重新保存游戏。
+解析任务（这可能要等一会）$0A完成时重新保存游戏。
 
 > GMST.STRV sGeneralMastPlugMismatchMsg
 One or more plugins could not find the correct versions of the master files they depend on. Errors may occur during load or game play. Check the "Warnings.txt" file for more information.
@@ -1941,7 +1941,7 @@ Glabrio Bellienus<BR>
 Personal Secretary to the Emperor<BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-%PCName，<BR>
+%PCName<BR>
 <BR>
 您已收到这些指示和一些文件。不要向任何人展示它们。不要试图阅读包裹中的文件，包裹已被加密，您的任何篡改都将被发现并受到惩罚。<BR>
 <BR>
@@ -17556,7 +17556,7 @@ Tymvaul was alive, but had been driven mad by some dark magic he found in Rimhul
 
 > INFO.BNAM old man's anguish 10838214951360828948 c2
 (Lie) I found Tymvaul's body at the bottom of the well.  I gave him a proper burial in the ice caves. I am so sorry, Lassnr.
-(我在井底发现了蒂姆沃的尸体。我把他安葬在了冰洞里 我很抱歉，拉斯纳尔。
+（撒谎）我在井底发现了蒂姆沃的尸体。我把他安葬在了冰洞里 我很抱歉，拉斯纳尔。
 
 > INFO.NAME disturbing trends 1063020911277317447
 Don't concern yourself with this any longer.
@@ -23346,7 +23346,7 @@ Well now, look who it is. Carnius said ye'd be helpin' me. Took me a minute to r
 
 > INFO.NAME greeting 1 114270181938618692
 Well now, look who it is. Carnius said ye'd be helpin' me. Took me a minute to realize it weren't a joke. Don't worry - I won't be holdin' that little scuffle against yeh. Yeh were jus' followin' orders is all. We'd best get going, if we're goin' to catch this lad. We can sort out the details once we get there. Let's go.
-噢~看看是谁来了，卡尼乌斯说你会帮我的，我过了一会儿才意识到这不是玩笑。别担心，我不会记恨你那场小冲突的，你只是按照指示行事而已。如果要抓到这小子，我们最好快走，我们到了那里再解决细节问题，我们走吧。
+噢，看看是谁来了，卡尼乌斯说你会帮我的，我过了一会儿才意识到这不是玩笑。别担心，我不会记恨你那场小冲突的，你只是按照指示行事而已。如果要抓到这小子，我们最好快走，我们到了那里再解决细节问题，我们走吧。
 
 > INFO.NAME greeting 1 333664632729110237
 We've got to keep moving. I don't want to get in trouble for not delivering this report on time!

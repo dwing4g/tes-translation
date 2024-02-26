@@ -70,7 +70,7 @@
  GMST.STRV "ÔØÈëÇøÓò"
 -GMST
  GMST.NAME "sLoadingMessage5"
- GMST.STRV "½âÎöÈÎÎñ (Õâ¿ÉÄÜÒªµÈÒ»»á)$0AÍê³ÉÊ±ÖØÐÂ±£´æÓÎÏ·"
+ GMST.STRV "½âÎöÈÎÎñ£¨Õâ¿ÉÄÜÒªµÈÒ»»á£©$0AÍê³ÉÊ±ÖØÐÂ±£´æÓÎÏ·"
 -GMST
  GMST.NAME "sGeneralMastPlugMismatchMsg"
  GMST.STRV "µ±Ç°°æ±¾Ö÷ÎÄ¼þËùÒÀÀµµÄÒ»¸ö»ò¶à¸ö²å¼þÎ´±»ÕÒµ½£¬ÔÚÓÎÍæ»òÕßÔØÈëÓÎÏ·µÄ¹ý³ÌÖÐ¿ÉÄÜµ¼ÖÂ´íÎó¡£²é¿´""Warnings.txt""ÎÄ¼þÒÔÁË½â¸ü¶àÐÅÏ¢¡£"
@@ -2475,7 +2475,7 @@ endif
 
 if ( state == 20 )
 	if ( Xbox == 0 )
-		MessageBox ""°´ÏÂ^ActionReadyMagic¼üÀ´×¼±¸Ê©·ÅÄ§·¨£¬µ¥»÷¹¥»÷¼üÊ©Õ¹ÄãËù×¼±¸µÄÄ§·¨¡£"" ""ºÃµÄ""
+		MessageBox ""°´ÏÂ ^ActionReadyMagic ¼üÀ´×¼±¸Ê©·ÅÄ§·¨£¬µ¥»÷¹¥»÷¼üÊ©Õ¹ÄãËù×¼±¸µÄÄ§·¨¡£"" ""ºÃµÄ""
 	else
 		MessageBox ""°´ÏÂY¼üÀ´×¼±¸Ê©·ÅÄ§·¨£¬µ¥»÷ÓÒ°â»úÊ©Õ¹ÄãËù×¼±¸µÄÄ§·¨¡£"" ""ºÃµÄ""
 	endif
@@ -4242,7 +4242,7 @@ if ( targetset == 0 )
 	set targetset to 1
 	set currenttarget to ( Random 200 )						;value should be highest - lowest
 
-	MessageBox ""Ëæ»úÖµÎª%.2f£¬×îµÍÖµÎª%.2f"", currenttarget, lowest
+	MessageBox ""Ëæ»úÖµÎª %.2f£¬×îµÍÖµÎª %.2f"", currenttarget, lowest
 
 	set currenttarget to ( currenttarget + lowest )
 
@@ -19030,9 +19030,9 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 <BR>
 ¿ËÀ­Î¬µÂË¹£º¿­ÄÈÈðË¿°¡£¬Õâ²»ÊÇÍöÁé·¨Êõ¡£ÕâÊÇ»ÙÃðÏµ·¨Êõ¡£¿ÆÂê¡¤ÎÖÎ¬Ä·ºÍ¿ÆÄÉ¡¤Ì©¶ûÍßÄá¡¤»ô´ï·ò¡¤ÏÄ¶û²»ÊÇÔÚ¶ÔËÀÍö½øÐÐÊµÑé£¬¶øÊÇÔÚÑÐ¾¿·¨ÊõÕÛÄ¥µÄ¼«ÏÞ¡£<BR>
 <BR>
-ÎÚÀûË¹£ºÕâ·âÐÅµÄÊÕÐÅÈË²»ÊÇ¿ÆÄÉ¡¤Ì©¶ûÍßÄá¡¤»ô´ï·ò¡¤ÏÄ¶û£¬¶øÊÇÉª¶ÅÀ­¡¤°¬ÆæÀ­¡¤ÏÄ¶û¡£ËûµÄÆÞ×Ó£¬ÄãÈÏÎªÄØ£¿<BR>
+ÎÚÀûË¹£ºÕâ·âÐÅµÄÊÕÐÅÈË²»ÊÇ¿ÆÄÉ¡¤Ì©¶ûÍßÄá¡¤»ô´ï·ò¡¤ÏÄ¶û£¬¶øÊÇÉª¶ÅÀ­¡¤ÑÇÆæÀ­¡¤ÏÄ¶û¡£ËûµÄÆÞ×Ó£¬ÄãÈÏÎªÄØ£¿<BR>
 <BR>
-¿ËÀ­Î¬µÂË¹£º°¬ÆæÀ­¡£ÎÒÌýËµÄÇ¾ÍÊÇÉ±ËÀ¾ÞÈËµÄÌ©¶ûÍßÄá¼Ò×å³ÉÔ±¡£ÎÒÃÇ×îºÃ´øÄÇÎ»Å®ÆÍÀë¿ªÕâÀï¡£ËýÐèÒªÒ»Î»ÖÎÁÆÕß¡£<BR>
+¿ËÀ­Î¬µÂË¹£ºÑÇÆæÀ­¡£ÎÒÌýËµÄÇ¾ÍÊÇÉ±ËÀ¾ÞÈËµÄÌ©¶ûÍßÄá¼Ò×å³ÉÔ±¡£ÎÒÃÇ×îºÃ´øÄÇÎ»Å®ÆÍÀë¿ªÕâÀï¡£ËýÐèÒªÒ»Î»ÖÎÁÆÕß¡£<BR>
 <BR>
 ¿ËÀ­Î¬µÂË¹½ÐÐÑ°¢ÄÈÀ­¡£Ëý¿´ÆðÀ´ÓÐÐ©»ìÂÒ¡£<BR>
 <BR>
@@ -19040,27 +19040,27 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 <BR>
 ¿ËÀ­Î¬µÂË¹£º±ðµ£ÐÄ£¬Ò»ÇÐ¶¼»áÃ»ÊÂµÄ¡£ÎÒÃÇÒª´øÄãÈ¥ÕÒÖÎÁÆÕß¡£<BR>
 <BR>
-ÎÚÀûË¹£ºÄãÐèÒªÍâÌ×Âð£¬°¬ÆæÀ­£¿<BR>
+ÎÚÀûË¹£ºÄãÐèÒªÍâÌ×Âð£¬ÑÇÆæÀ­£¿<BR>
 <BR>
 °¢ÄÈÀ­£ºÐ»Ð»£¬²»ÁË£¬ÎÒ²»Àä--<BR>
 <BR>
-°¢ÄÈÀ­£¨°¬ÆæÀ­£©Í£¶ÙÁË£¬ÒâÊ¶µ½×Ô¼º±»ÉèÁËÈ¦Ì×¡£¿ËÀ­Î¬µÂË¹ºÍÎÚÀûË¹°Î³öÁËËûÃÇµÄ½£¡£<BR>
+°¢ÄÈÀ­/ÑÇÆæÀ­Í£¶ÙÁË£¬ÒâÊ¶µ½×Ô¼º±»ÉèÁËÈ¦Ì×¡£¿ËÀ­Î¬µÂË¹ºÍÎÚÀûË¹°Î³öÁËËûÃÇµÄ½£¡£<BR>
 <BR>
 ¿ËÀ­Î¬µÂË¹£ºÄúµÄÊÖÖ¸ÉÏ»¹ÓÐºÚÉ«Ä«Ë®£¬×ð¹óµÄ·òÈË¡£<BR>
 <BR>
 ÎÚÀûË¹£º¶øÇÒµ±ÄãÔÚÃÅ¿Ú¿´µ½ÎÒÊ±£¬Äã»¹ÒÔÎªÎÒÊÇÄãÅóÓÑÎÖÎ¬Ä·ËÍÀ´µÄ°¢¶û¹±ÈË¡£Õâ¾ÍÊÇÎªÊ²Ã´Äã»áËµ£¬¡°ÏÖÔÚ²»ÊÇÊ±ºò£¬×ß¿ª¡±¡£<BR>
 <BR>
-°¢ÄÈÀ­£¨°¬ÆæÀ­£©£ºÄãÃÇ±È°¢ÄÈÀ­»úÁé¶àÁË¡£Ëý´ÓÀ´¶¼²»Ã÷°×µ½µ×·¢ÉúÁËÊ²Ã´ÊÂ£¬ÉõÖÁÔÚÎÒ½«·¨Êõ¶¾ÐÔ¼Ó¾çÁËÈý±¶£¬Ê¹ËýÍ´¿àÖÂËÀ£¬Ò²»ëÈ»²»½â¡£<BR>
+°¢ÄÈÀ­/ÑÇÆæÀ­£ºÄãÃÇ±È°¢ÄÈÀ­»úÁé¶àÁË¡£Ëý´ÓÀ´¶¼²»Ã÷°×µ½µ×·¢ÉúÁËÊ²Ã´ÊÂ£¬ÉõÖÁÔÚÎÒ½«·¨Êõ¶¾ÐÔ¼Ó¾çÁËÈý±¶£¬Ê¹ËýÍ´¿àÖÂËÀ£¬Ò²»ëÈ»²»½â¡£<BR>
 <BR>
 ÎÚÀûË¹£ºÄãÔ­±¾´òËã¶ÔÎÒ×öÊ²Ã´£¬ÉÁµç»¹ÊÇ»ðÑæ£¿<BR>
 <BR>
-°¢ÄÈÀ­£¨°¬ÆæÀ­£©£ºÉÁµç¡£ÎÒ·¢ÏÖ»ðÑæµÄÐ§¹ûÌ«ÄÑÔ¤²âÁË¡£<BR>
+°¢ÄÈÄÈ/ÑÇÆæÀ­£ºÉÁµç¡£ÎÒ·¢ÏÖ»ðÑæµÄÐ§¹ûÌ«ÄÑÔ¤²âÁË¡£<BR>
 <BR>
 ÔÚËýËµ»°Ê±£¬»ð°ÑÉÏµÄ»ðÑæÏ¨ÃðÁË¡£ÎèÌ¨ÏÝÈë³¹µ×µÄºÚ°µ¡£<BR>
 <BR>
-´ÓÖÐ´«³ö´ò¶·µÄÉùÒô£¬½£×²»÷µÄï¬ïÏÖ®Éù¡£Í»È»£¬Ò»µÀÉÁµçÒ»ÉÁ¶ø¹ý£¬Ëæºó±ã°²¾²ÁË¡£ÔÚºÚ°µÖ®ÖÐ£¬°¬ÆæÀ­Ëµ»°ÁË¡£<BR>
+´ÓÖÐ´«³ö´ò¶·µÄÉùÒô£¬½£×²»÷µÄï¬ïÏÖ®Éù¡£Í»È»£¬Ò»µÀÉÁµçÒ»ÉÁ¶ø¹ý£¬Ëæºó±ã°²¾²ÁË¡£ÔÚºÚ°µÖ®ÖÐ£¬°¢ÄÈÄÈ/ÑÇÆæÀ­Ëµ»°ÁË¡£<BR>
 <BR>
-°¬ÆæÀ­£ºÌ«ÃÀÃîÁË¡£<BR>
+°¢ÄÈÄÈ/ÑÇÆæÀ­£ºÌ«ÃÀÃîÁË¡£<BR>
 <BR>
 Ëæ×Å²¼Ä»µÄ»º»ºÀ­ãØ£¬¶àµÀÉÁµç²»¶Ï»®¹ý¡£<BR>
 <BR>
@@ -33723,7 +33723,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "2932531307217292914$00"
  INFO.NNAM "2219619981111149074$00"
  INFO.DATA [04 00 00 00 40 00 00 00 FF FF FF 00]
- INFO.NAME "Äá°ÍÄÝ¡¤ÂêÒÁÉ³ÌáÐÑÎÒ¡¶Æß´óÒìÏó¡·µÄµÚÎå¸ö¿¼Ñé£ºÒ»¸ö¡°Òì¿Í¡±Ö®ÊÖÁªºÏÁËÎ¬ÂåÎ÷ÈË/ËÄ¸ö²¿Âä³ÆËûÎªÄáÈðÍßÒò¡£ËÄ¸ö²¿ÂäÊÇÖ¸ÍßµÇ·Ñ¶ûµÄËÄ¸ö²¿Âä£ºÎÚ¶ûÏ£À­¿â¡¢°¢Ï£ÄÂÈø¡¢ÔÕÄÉ²¼ºÍ°£ÀÕ±ÈÄáÄ·Ëï¡£µ±ÎÒ±»ÍßµÇ·Ñ¶ûµÄËÄ¸ö»Ò½ýÖ®Ãñ²¿Âä·Ö±ðÃüÃûÎª¡°ÄáÈðÍßÒò¡±Ê±£¬ÎÒ¾ÍÍ¨¹ýÁËµÚÎå¸öÊÔÁ¶£¬Ó¦¸Ã»Øµ½Äá°ÍÄÝ¡¤ÂêÒÁÉ³ÄÇÀï½ÓÊÜ½øÒ»²½µÄÖ¸µ¼¡£"
+ INFO.NAME "Äá°ÍÄÝ¡¤ÂêÒÁÉ³ÌáÐÑÎÒ¡¶Æß´óÒìÏó¡·µÄµÚÎå¸ö¿¼Ñé£º¡°Ò»¸öÒì¿ÍÖ®ÊÖÁªºÏÁËÎ¬ÂåÎ÷ÈË/ËÄ¸ö²¿Âä³ÆËûÎªÄáÈðÍßÒò¡£¡±ËÄ¸ö²¿ÂäÊÇÖ¸ÍßµÇ·Ñ¶ûµÄËÄ¸ö²¿Âä£ºÎÚ¶ûÏ£À­¿â¡¢°¢Ï£ÄÂÈø¡¢ÔÕÄÉ²¼ºÍ°£ÀÕ±ÈÄáÄ·Ëï¡£µ±ÎÒ±»ÍßµÇ·Ñ¶ûµÄËÄ¸ö»Ò½ýÖ®Ãñ²¿Âä·Ö±ðÃüÃûÎª¡°ÄáÈðÍßÒò¡±Ê±£¬ÎÒ¾ÍÍ¨¹ýÁËµÚÎå¸öÊÔÁ¶£¬Ó¦¸Ã»Øµ½Äá°ÍÄÝ¡¤ÂêÒÁÉ³ÄÇÀï½ÓÊÜ½øÒ»²½µÄÖ¸µ¼¡£"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2219619981111149074$00"
@@ -33737,7 +33737,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "2219619981111149074$00"
  INFO.NNAM "1447523185589615937$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "Äá°ÍÄÝ¡¤ÂêÒÁÉ³ÌáÐÑÎÒ×¢ÒâÆß´óÒìÏóµÄµÚËÄ¸öÊÔÁ¶--¡°Òì¿Í¡±£ºÒ»¸ö¡°Òì¿Í¡±µÄÉùÒôÊ¹Èý´ó¼Ò×åÍÅ½áÆðÀ´£¬Èý´ó¼Ò×å³ÆËûÎª¡°Í³ÚÉÊ¹¡±¡£µ±ÎÒ±»ÍßµÇ·Ñ¶ûµÄÈý´ó¼Ò×å·Ö±ðÃüÃûÎª¡°Í³ÚÉÊ¹¡±Ê±£¬ÎÒ¾ÍÍ¨¹ýÁËµÚËÄµÀÊÔÁ¶£¬Ó¦¸Ã»Øµ½Äá°ÍÄÝ¡¤ÂêÒÁÈøÄÇÀïÑ°Çó½øÒ»²½µÄÖ¸µ¼¡£"
+ INFO.NAME "Äá°ÍÄÝ¡¤ÂêÒÁÉ³ÌáÐÑÎÒ×¢ÒâÆß´óÒìÏóµÄµÚËÄ¸öÊÔÁ¶£º¡°Ò»¸öÒì¿ÍµÄÉùÒôÊ¹Èý´ó¼Ò×åÍÅ½áÆðÀ´¡£/Èý´ó¼Ò×å³ÆËûÎªÍ³ÚÉÊ¹¡±¡£µ±ÎÒ±»ÍßµÇ·Ñ¶ûµÄÈý´ó¼Ò×å·Ö±ðÃüÃûÎª¡°Í³ÚÉÊ¹¡±Ê±£¬ÎÒ¾ÍÍ¨¹ýÁËµÚËÄµÀÊÔÁ¶£¬Ó¦¸Ã»Øµ½Äá°ÍÄÝ¡¤ÂêÒÁÈøÄÇÀïÑ°Çó½øÒ»²½µÄÖ¸µ¼¡£"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "1447523185589615937$00"
@@ -84241,7 +84241,7 @@ Journal MS_Warlords 70"
  INFO.NNAM "1679429346157719330$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Calvus Horatius$00"
- INFO.NAME "ÎÒÃÇµÄºÏÍ¬ÊÇ30ÌìµÄ£¬´Ó%contractCalvusMonth / %contractCalvusDay¿ªÊ¼¡£ÄãµÄºÏÍ¬»¹Ê£%Contract_Calvus_Days_LeftÌì¡£"
+ INFO.NAME "ÎÒÃÇµÄºÏÍ¬ÊÇ30ÌìµÄ£¬´Ó %contractCalvusMonth / %contractCalvusDay ¿ªÊ¼¡£ÄãµÄºÏÍ¬»¹Ê£ %Contract_Calvus_Days_Left Ìì¡£"
  INFO.SCVR "03sX2contract_Calvus"
  INFO.INTV [00 00 00 00]
 -INFO
