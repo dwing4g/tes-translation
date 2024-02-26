@@ -105,6 +105,8 @@ local function fix(e, c)
 		:gsub("£¿[ \t]+", "£¿")
 		:gsub("£¡[ \t]+", "£¡")
 		:gsub("¡­[ \t]+", "¡­")
+--		:gsub("¡¸(.-)¡¹", "¡°%1¡±")
+--		:gsub("¡º(.-)¡»", "¡®%1¡¯")
 	return cc and (c .. " " .. cc) or c
 end
 

@@ -5,6 +5,7 @@ local arg = arg
 local error = error
 local print = print
 local table = table
+local select = select
 
 local newLine = true
 local function warn(...)
@@ -85,9 +86,14 @@ for line in io.lines(arg[2]) do
 					s = 4
 				else
 					if trans[k] then
-						warn("duplicated key '" .. k .. "' in '" .. arg[2] .. "'")
+						warn("duplicated key '", k, "' in '", arg[2], "'")
 					end
 					if v2 ~= "###" then
+						local n1 = select(2, v1:gsub("([\r\n][\r\n ]*[^\r\n ])", "%1"))
+						local n2 = select(2, v2:gsub("([\r\n][\r\n ]*[^\r\n ])", "%1"))
+						if n1 > n2 or n1 <= n2 - 3 then
+							warn("unmatched lines(", n2 - n1, ") for translation: ", k) -- , "\n", v1, "\n", v2)
+						end
 						trans[k] = { v1, v2 }
 						n = n + 1
 					end
@@ -167,7 +173,7 @@ local function modScr(line, p, lineId)
 				if t then
 					s = t
 				else
-					warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+					warn("not found topic '", s, "' at line ", lineId, " in '", arg[1], "'")
 				end
 				return '"' .. s .. '"'
 			end)
@@ -177,7 +183,7 @@ local function modScr(line, p, lineId)
 					if t then
 						s = t
 					else
-						warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found topic '", s, "' at line ", lineId, " in '", arg[1], "'")
 					end
 					return '"' .. s .. '"'
 				end)
@@ -196,10 +202,10 @@ local function modScr(line, p, lineId)
 						if s == t[1] then
 							s = t[2]
 						else
-							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
 				end
 				return '"' .. s .. '"'
@@ -220,10 +226,10 @@ local function modScr(line, p, lineId)
 						if s == t[1] then
 							s = t[2]
 						else
-							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
 				end
 				return '"' .. s .. '"'
@@ -243,10 +249,10 @@ local function modScr(line, p, lineId)
 						if s == t[1] then
 							s = t[2]
 						else
-							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
 				end
 				return '"' .. s .. '"'
@@ -263,10 +269,10 @@ local function modScr(line, p, lineId)
 							if s == t[1] then
 								s = t[2]
 							else
-								warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+								warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 							end
 						else
-							warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+							warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 						end
 					end
 					return '"' .. s .. '"'
@@ -327,10 +333,10 @@ for line in io.lines(arg[1]) do
 						if v == t[1] then
 							v = t[2]
 						else
-							warn("unmatched translation key '" .. kk .. "' at line " .. i .. " in '" .. arg[1] .. '\':\n"""' .. v .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", kk, "' at line ", i, " in '", arg[1], '\':\n"""', v, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. kk .. "' at line " .. i .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", kk, "' at line ", i, " in '", arg[1], "'")
 					end
 				end
 				line = " " .. tag .. ' "' .. (v .. e):gsub('"', '""') .. '"'
@@ -352,7 +358,7 @@ for line in io.lines(arg[1]) do
 					if t then
 						s = t
 					else
-						warn("not found topic '" .. s .. "' at line " .. i .. " in '" .. arg[1] .. "'")
+						warn("not found topic '", s, "' at line ", i, " in '", arg[1], "'")
 					end
 					return '"' .. s .. e
 				end)
@@ -383,5 +389,5 @@ end
 print("[" .. n .. "]")
 newLine = true
 for k, t in pairs(trans) do
-	warn("unused key: '" .. k .. "'")
+	warn("unused key: '", k, "'")
 end
