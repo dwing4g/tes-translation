@@ -91,8 +91,9 @@ for line in io.lines(arg[2]) do
 					if v2 ~= "###" then
 						local n1 = select(2, v1:gsub("([\r\n][\r\n ]*[^\r\n ])", "%1"))
 						local n2 = select(2, v2:gsub("([\r\n][\r\n ]*[^\r\n ])", "%1"))
-						if n1 > n2 or n1 <= n2 - 3 then
-							warn("unmatched lines(", n2 - n1, ") for translation: ", k) -- , "\n", v1, "\n", v2)
+						local nd = n2 - n1
+						if nd < 0 or nd > 1 then
+							warn("unmatched lines(", nd, ") for translation: ", k) -- , "\n", v1, "\n", v2)
 						end
 						trans[k] = { v1, v2 }
 						n = n + 1
