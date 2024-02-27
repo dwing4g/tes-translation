@@ -492,7 +492,7 @@ What are you doing?
 
 > SCPT.SCTX LorkhanHeart s2
 WHAT ARE YOU DOING?!
-你 在 做 什 么 ？！
+你！在！做！什！么？！
 
 > SCPT.SCTX LorkhanHeart s3
 FOOL!
@@ -1234,7 +1234,7 @@ Of course, the anonymous writer's signature has not been on any reprint of the l
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 晚餐中的游戏<BR>
-匿名间谍 著<BR><BR>
+匿名间谍　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 出版商附注：<BR>
 隐藏在这封信件背后的故事几乎和信里的故事一样的有趣和黑暗。在几个月前，寄给神秘的多内姆先生的信件原件被人复制，并在瓦登费尔的灰烬之地流传开来。最后，有一份再版传到了大陆，传入了哈拉鲁·赫尔塞斯王子位于阿玛莱西娅城外的宫殿之中。在阅读本信后，读者一定认为王子会暴跳如雷，因为信里的内容对殿下进行了无比恶毒的攻击；但事实恰恰相反，王子和他的母亲，巴兰兹娅女王，将信件私下复制装订成册，分发给晨风各地的图书馆和书商。<BR>
@@ -2192,7 +2192,7 @@ $93First,$94 Tosh Raka says, $93is that we kill all the vampire snakes.$94 Then 
 <BR>
 阿卡维尔是野兽王国。没有人或莫住在阿卡维尔，尽管人曾居住在此。然而，这些人类很久以前就被塞尔锡的吸血蛇人吃光了。如果没被吃掉，这些人最终会迁移到泰姆瑞尔。诺德人离开阿特莫拉前往泰姆瑞尔。在他们之前，精灵为了泰姆瑞尔放弃了奥德莫里斯。红卫人摧毁了尤库达，使得他们可以开启旅程。所有人和莫都知道泰姆瑞尔是创造的纽带，最终的战争将在此发生，众神在这里摧毁了洛克汗并留下了他们精金塔的秘密。谁知道阿卡维尔人对泰姆瑞尔的看法，但问问你自己：他们为什么要三番五次地入侵它？<BR>
 <BR>
-阿卡维尔有四个主要国家：卡玛尔(Kamal)、塞尔锡(Tsaesci)、唐莫(Tang Mo) 和 卡波'顿(Ka Po' Tun)。他们正互相争斗，不急着入侵泰姆瑞尔。<BR>
+阿卡维尔有四个主要国家：卡玛尔(Kamal)、塞尔锡(Tsaesci)、唐莫(Tang Mo) 和卡波'顿(Ka Po' Tun)。他们正互相争斗，不急着入侵泰姆瑞尔。<BR>
 卡玛尔即“雪之地狱”。魔鬼住在那里，驻扎军队。每年夏天他们解冻后便会入侵唐莫，但勇敢的猴人总是将其击退。曾经，魔鬼之王阿达'苏姆·迪尔-卡玛尔试图征服晨风，但阿玛莱西娅与地底之王在红山将他摧毁。<BR>
 <BR>
 塞尔锡即“众蛇之宫”，曾经是阿卡维尔最强的势力（在虎龙出现之前）。蛇人很久以前就吃光了所有的阿卡维尔人类，但看起来还与人类极其相似。它们高大而美丽（令人惊恐万分），覆盖金色鳞片，并且长生不老。他们奴役了周围岛屿的哥布林，只因它们能提供劳动力与新鲜血液。塞尔锡领土分布广阔。当泰姆瑞尔当地人联想到阿卡维尔人时，他们会想到蛇人，因为前一个纪元，有人统治西罗帝尔帝国长达四百年。他就是君主维希度-沙耶( Versidue-Shaie)，被莫拉格堂刺杀。<BR>
@@ -2291,7 +2291,7 @@ The Tower is one of the Thief's Charges and its Season is Frostfall. Those born 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 苍穹<BR>
-福尔克 著<BR><BR>
+福尔克　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 泰姆瑞尔的群星分为十三个星座。其中三个为主星座，被称为守护者。分别为：战士星座，法师星座和盗贼星座。每一个主星座都保护着各自掌管的三个星座，让他们免于巨蛇星座的侵害。<BR>
 <BR>
@@ -2467,7 +2467,7 @@ As Master Arum and the diggers crowded around me, congratulating me on my narrow
 
 > BOOK.FNAM bk_easternprovincesimpartial
 The Eastern Provinces...
-《公正看待东部省份》…
+《公正看待东部省份…》
 
 > BOOK.TEXT bk_easternprovincesimpartial
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -2615,7 +2615,7 @@ Then, reader, would you seize this opportunity to join House Hlaalu? Would you h
 <BR>
 做生意的方法有很多。<BR>
 <BR>
-在 哈拉鲁家族，你必须快速敏捷。您必须能够跟上业务和时代的步伐。你必须能够快速而令人信服地说话。您必须能够与最好的商人进行交易并获利。你必须学会用隐藏的箱子、锁，甚至陷阱来保护你自己的财产。而当对抗不可避免时，最好穿着舒适的轻甲短刃快速战斗，或者使用神射手的武器进行远距离战斗。<BR>
+在哈拉鲁家族，你必须快速敏捷。您必须能够跟上业务和时代的步伐。你必须能够快速而令人信服地说话。您必须能够与最好的商人进行交易并获利。你必须学会用隐藏的箱子、锁，甚至陷阱来保护你自己的财产。而当对抗不可避免时，最好穿着舒适的轻甲短刃快速战斗，或者使用神射手的武器进行远距离战斗。<BR>
 <BR>
 那么，读者，你会抓住这个机会加入哈拉鲁家族吗？在成功的竞赛中，你会让自己被算作胜利者吗？然后在巴尔-莫拉议会厅提交自己的成绩。如果你有技能，你会受到欢迎。如果你有意愿，你可以为哈拉鲁家族服务，并在队伍中晋升，因为最重要的是，哈拉鲁家族重视主动性和野心。<BR>"""
 
@@ -5049,7 +5049,7 @@ THE END.<BR>
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 夏尔城堡惊魂<BR>
 独幕剧<BR>
-巴罗斯·库尔 著<BR><BR>
+巴罗斯·库尔　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 出场人物<BR>
 克拉维德斯，帝国卫队的队长。西罗帝尔人。<BR>
@@ -7122,19 +7122,19 @@ War Durzog
 
 > NPC_.FNAM drals indobar
 Hand Drals Indobar
-阿玛莱西娅之手 德拉斯·因多巴
+阿玛莱西娅之手·德拉斯·因多巴
 
 > NPC_.FNAM arnas therethi
 Hand Arnas Therethi
-阿玛莱西娅之手 阿纳斯·特雷西
+阿玛莱西娅之手·阿纳斯·特雷西
 
 > NPC_.FNAM savor hlan
 Hand Savor Hlan
-阿玛莱西亚之手 萨沃尔·汉兰
+阿玛莱西亚之手·萨沃尔·汉兰
 
 > NPC_.FNAM sadas mavandes
 Hand Sadas Mavandes
-阿玛莱西娅之手 萨达斯·马万德斯
+阿玛莱西娅之手·萨达斯·马万德斯
 
 > NPC_.FNAM vonos veri
 Hand Vonos Veri
@@ -7981,7 +7981,7 @@ The Spymaster seemed happy with the notes I gave him on the Nerevarine from Shar
 
 > INFO.NAME a1_4_muzgobinformant 1450229266230788256
 The Spymaster promoted me to Apprentice Rank in the Blades. He seems pleased with me, because he also gave me a little present.
-情报总管把我晋升为刀锋卫士学徒。他似乎对我很满意 因为他还给了我一个小礼物。 {刀锋卫士}
+情报总管把我晋升为刀锋卫士学徒。他似乎对我很满意，因为他还给了我一个小礼物。 {刀锋卫士}
 
 > INFO.NAME tg_grandmasterretort 9795263632623723230
 Thieves Guild: The Grandmaster's Retort
@@ -8385,7 +8385,7 @@ Meet Sul-Matuul
 
 > INFO.NAME a2_1_meetsulmatuul 153801167584714421
 Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's secret orders and told me to read them. The Emperor thinks the Nerevarine prophecies are genuine, and that I may be the Nerevarine. I'm being sent to the Urshilaku Camp to speak with the heads of the Nerevarine cult, Sul-Matuul and Nibani Maesa. I'll tell them my story, and tell them to test me against the Nerevarine prophecies, then report back to Caius.
-凯乌斯将我晋升为刀锋卫士学徒，并将皇帝的秘密指令交给我，让我阅读。皇帝认为尼瑞瓦因预言是真的 我可能就是尼瑞瓦因。我被派往乌尔希拉库营地，与尼瑞瓦因教派的首领苏尔-玛图尔和尼巴妮·玛伊沙谈话。我会告诉他们我的故事，让他们根据尼瑞瓦因预言对我进行测试，然后向凯乌斯报告。 {刀锋卫士,指示}
+凯乌斯将我晋升为刀锋卫士学徒，并将皇帝的秘密指令交给我，让我阅读。皇帝认为尼瑞瓦因预言是真的，我可能就是尼瑞瓦因。我被派往乌尔希拉库营地，与尼瑞瓦因教派的首领苏尔-玛图尔和尼巴妮·玛伊沙谈话。我会告诉他们我的故事，让他们根据尼瑞瓦因预言对我进行测试，然后向凯乌斯报告。 {刀锋卫士,指示}
 
 > INFO.NAME a2_1_meetsulmatuul 16981214271045313693
 Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.
@@ -8401,7 +8401,7 @@ My orders are to go to the town of Balmora in Vvardenfell District and report to
 
 > INFO.NAME a1_1_findspymaster 155946986227161440
 I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
-我已经把文件包裹给了凯乌斯·科萨德斯 根据皇帝的命令，凯乌斯·科萨德斯让我加入刀锋卫士帝国情报局，担任刀锋卫士新人，凯乌斯·科萨德斯将是我的情报总管，我将听从他的指示。 {帝国人,智力}
+我已经把文件包裹给了凯乌斯·科萨德斯。根据皇帝的命令，凯乌斯·科萨德斯让我加入刀锋卫士帝国情报局，担任刀锋卫士新人，凯乌斯·科萨德斯将是我的情报总管，我将听从他的指示。 {帝国人,智力}
 
 > INFO.NAME a1_1_findspymaster 16759451398915021
 Spymaster Caius Cosades gave me 200 gold to spend as I please. And he also told me to establish a cover identity as a freelance adventurer. He suggested I join the Fighters Guild, or Mages Guild, or Imperial cult, advance in the ranks, gain skill and experience, or go out on my own, get freelance work. Then, when I'm ready, I come back to Caius for orders.
@@ -9489,7 +9489,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepersawake 1708991852988121401
 I spoke with one who called himself a "Sleeper." He called me by name, and said, "You cannot deny your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory." He made no sense at all. I think he must have been mad.
-我和一个自称“沉睡者”的人交谈了，他叫着我的名字，说："你不能否认你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。" 他说得毫无道理 我想他一定是疯了。
+我和一个自称“沉睡者”的人交谈了，他叫着我的名字，说："你不能否认你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。" 他说得毫无道理，我想他一定是疯了。
 
 > INFO.NAME a1_sleepersawake 28779288811307621499
 I was attacked by someone called a "Sleeper," for no apparent reason.
@@ -9649,7 +9649,7 @@ I have visited Barnand Erelie, at the suggestion of Maurrie Aurmine. Barnand kne
 
 > INFO.NAME mv_victimromance 889039477058936
 I have visited Emusette Bracques, at the suggestion of Maurrie Aurmine. Emusette knew how I had helped Maurrie, and was grateful. She gave me some healing potions as a reward.
-在莫里·奥尔敏的建议下，我拜访了伊穆赛特·布拉克斯。伊穆赛特知道我帮助了 莫里，非常感激。她给了我一些治疗药水作为报酬。 {这些药水}
+在莫里·奥尔敏的建议下，我拜访了伊穆赛特·布拉克斯。伊穆赛特知道我帮助了莫里，非常感激。她给了我一些治疗药水作为报酬。 {这些药水}
 
 > INFO.NAME il_rescuepilgrim 26323271772508620464
 Imperial Legion: Rescue Madura Seran
@@ -11601,7 +11601,7 @@ I met Lucan Ostorius, who claims to be a trader. He is waiting for Yak gro-Skand
 
 > INFO.NAME mv_thieftrader 21144252351271214258
 I have decided not to help Lucan deliver his shipment. Something seems strange about the man.
-我决定不帮卢肯运货了 这个人似乎有些奇怪。
+我决定不帮卢肯运货了，这个人似乎有些奇怪。
 
 > INFO.NAME mv_thieftrader 3205823368186407335
 I have no time to help Lucan, guildmate or not. Hopefully, I will be forgiven for this.
@@ -11821,7 +11821,7 @@ Imperial Cult: Ring in Darkness
 
 > INFO.NAME ic25_jonhawker 62712071953449119
 Oracle Lalatia Varian had a vision of the Ring in Darkness. She saw the Ring of the Wind, a legendary treasure of Elsweyr. "I have seen the wind upon a dark elf's hand. I have seen fire gleam upon a Dwarf's face. I have seen darkness on a ring of water. I have heard no name whispered in the mouth of stone." The Oracle bid me retrieve the Ring in Darkness. I must ask Dark Elven savants and scouts about the meaning of the Oracle's vision.
-先知拉拉蒂亚·瓦里安在黑暗中看到了魔戒的幻象。她看到了艾斯维尔传说中的宝物--风之戒。“我看到风在暗精灵之手，我看到矮人脸上闪烁的火光，我见过黑暗中的戒指，我听过石头口中低语的名字。”先知要我取回黑暗之戒 我必须向黑暗精灵的专家和斥候打听先知幻象的含义。 {发言人}
+先知拉拉蒂亚·瓦里安在黑暗中看到了魔戒的幻象。她看到了艾斯维尔传说中的宝物--风之戒。“我看到风在暗精灵之手，我看到矮人脸上闪烁的火光，我见过黑暗中的戒指，我听过石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的专家和斥候打听先知幻象的含义。 {发言人}
 
 > INFO.NAME ic25_jonhawker 19672283111636521771
 I retrieved the Ring of the Wind from Galmis Dren and brought it to Lalatia Varian. She praised me, and said that I was meant to keep the ring myself, and that I should use it in the service of the Nine.
@@ -12593,7 +12593,7 @@ Thieves Guild: Redoran Master Helm
 
 > INFO.NAME tg_masterhelm 1258232087147310181
 Aengoth the Jeweler asked me to bring him a Redoran Master Helm. Many of the Redoran councilors have one, but Aengoth knows of one in Arobar Manor.
-珠宝商阿恩戈斯让我给他带一个瑞多然大师头盔。许多瑞多然议员都有一个，但 阿恩戈斯知道阿罗巴庄园里有一个。
+珠宝商阿恩戈斯让我给他带一个瑞多然大师头盔。许多瑞多然议员都有一个，但阿恩戈斯知道阿罗巴庄园里有一个。
 
 > INFO.NAME tg_masterhelm 150001016689706260
 Aengoth the Jeweler thanked me for bringing him a Redoran Master Helm.
@@ -12689,7 +12689,7 @@ Imperial Legion: Scrap Metal
 
 > INFO.NAME il_scrapmetal 3138876971996120364
 The Buoyant Armigers have challenged the Imperial Legion to a hunt. They claim they will bring in the skin of a corprus beast. Radd Hard-Heart wants me to bring in the scrap metal from a Dwemer Centurion.
-灵动扈从向帝国军团提出狩猎挑战。他们声称会带来尸化兽的皮 拉德·铁-心要我带来锻莫百夫长的金属废料。 {锻莫}
+灵动扈从向帝国军团提出狩猎挑战。他们声称会带来尸化兽的皮，拉德·铁-心要我带来锻莫百夫长的金属废料。 {锻莫}
 
 > INFO.NAME il_scrapmetal 353319071964212723
 I brought Radd Hard-Heart the scrap metal from a Dwemer Centurion. With this the Imperial Legion is sure to win the hunt with the Buoyant Armigers.
@@ -12981,7 +12981,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_mossanon 189619392274117788
 Someone said a High Elf has been seen in the company of a local woman, Volmyni Dral. She has a pod over near Wolverine Hall.
-有人说有人看到一个高精灵 和一个当地女人沃尔米尼·德拉尔在一起。她在狼獾大厅附近有个吊舱。
+有人说有人看到一个高精灵和一个当地女人沃尔米尼·德拉尔在一起。她在狼獾大厅附近有个吊舱。
 
 > INFO.NAME ic13_rich_not 2287618969466925540
 Imperial Cult: Donation from Cunius Pelelius
@@ -13513,7 +13513,7 @@ Redoran Hortator
 
 > INFO.NAME b5_venimhort 87961851047587920
 I have murdered Bolvyn Venim. The murder of a Redoran councilor is a serious crime and offense to honor. Now I can expect little cooperation or sympathy from House Redoran.
-我谋杀了波尔文·维尼姆 谋杀瑞多然议员是严重的罪行，有损名誉。现在我只能期待瑞多然家族的合作和同情了。
+我谋杀了波尔文·维尼姆。谋杀瑞多然议员是严重的罪行，有损名誉。现在我只能期待瑞多然家族的合作和同情了。
 
 > INFO.NAME b7_aryonhort 1239614205529812324
 Telvanni Hortator
@@ -14453,11 +14453,11 @@ I brought the plans from Bethamez back to Edwinna.
 
 > INFO.NAME mg_vampvol2 1258023099597219601
 Mages Guild: Vampires of Vvardenfell, Vol II
-法师公会：《瓦登费尔的吸血鬼  卷二》
+法师公会：《瓦登费尔的吸血鬼·卷二》
 
 > INFO.NAME mg_vampvol2 4228194381760512531
 Skink wants a copy of "Vampires of Vvardenfell volume two." He suggested I try rare bookstores.
-斯金克想要一本《瓦登费尔的吸血鬼》 第二卷 他建议我去珍本书店看看。 {瓦登费尔}
+斯金克想要一本《瓦登费尔的吸血鬼·卷二》，他建议我去珍本书店看看。 {瓦登费尔}
 
 > INFO.NAME mg_vampvol2 6397174011545818917
 I delivered Vampires of Vvardenfell volume two to Skink in Sadrith Mora.
@@ -14917,7 +14917,7 @@ I have agreed to let Irarak live here in peace with his followers. While these f
 
 > INFO.NAME va_vampcult 15229159883102313813
 Irarak is dead. His cult will have to find a new way to spend their time and gold.
-因拉克已经死了 他的教派必须另谋出路，消磨时间和金钱。
+因拉克已经死了。他的教派必须另谋出路，消磨时间和金钱。
 
 > INFO.NAME va_vampcult 10565207852121112490
 I have returned to Druscashti and told Volrina Quarra of the death of "Lord Irarak." She was pleased, and will allow me to use clan services.
@@ -15933,7 +15933,7 @@ Fargoth's Hiding Place
 
 > INFO.NAME ms_lookout 12450108963131322605
 Hrisskar Flat-Foot asked me to do him a favor. He believes that Fargoth has been hiding money from the Imperials, and he'd like to know where it's gone. If I will work for him, he will give me a share of the bounty.
-赫利斯卡·平足让我帮他一个忙。他认为法格斯一直在向帝国人藏钱，他想知道钱去了哪里。如果我愿意为他工作 他就会给我一份赏金。
+赫利斯卡·平足让我帮他一个忙。他认为法格斯一直在向帝国人藏钱，他想知道钱去了哪里。如果我愿意为他工作，他就会给我一份赏金。
 
 > INFO.NAME ms_lookout 48642221029577219
 I've decided not to help Hrisskar.
@@ -16237,7 +16237,7 @@ Imperial Legion: Rescue Dandsa
 
 > INFO.NAME il_damsel 217161593952022394
 Radd Heart-Hart asked me to rescue Dandsa, an Imperial citizen, who was captured by raiders. They are holding her in Abernanit on the coast near Gnaar Mok.
-拉德·心·哈特让我去营救被突袭者抓走的帝国人 丹莎。他们把她关在纳尔-莫克附近海岸的阿伯纳尼特。
+拉德·心·哈特让我去营救被突袭者抓走的帝国人丹莎。他们把她关在纳尔-莫克附近海岸的阿伯纳尼特。
 
 > INFO.NAME il_damsel 735628859178898991
 Radd Hard-Heart thanked me for rescuing Dandsa.
@@ -17077,7 +17077,7 @@ Keep the item.
 
 > INFO.NAME ice blade of the monarch 191304562205788
 The Evil Archmage Almion Celmo of the Summerset Isles created the blade for a warrior, Thurgnarr Assi, who was to assassinate a king. The assassination failed, Thurgnarr Assi was slain, Almion Celmo was imprisoned, and the Ice Blade fell into the hands of a series of malefactors. The weapon is a claymore enchanted to cause frost damage, and is rumored to pass from owner to owner of its own volition.
-夏暮岛的邪恶大法师艾尔米恩·塞尔莫 为一个名叫瑟格纳尔·刺客的战士打造了这把武器 他要刺杀一位国王 刺客刺杀失败，瑟格纳尔·莱西娅之手被杀，阿尔米恩·塞尔莫被囚禁，冰锋卫士落入了一系列歹徒之手。这把武器是一把附魔的大剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
+夏暮岛的邪恶大法师艾尔米恩·塞尔莫为一个名叫瑟格纳尔·刺客的战士打造了这把武器，他要刺杀一位国王。刺客刺杀失败，瑟格纳尔·莱西娅之手被杀，阿尔米恩·塞尔莫被囚禁，冰锋卫士落入了一系列歹徒之手。这把武器是一把附魔的大剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
 
 > INFO.NAME discontent in the temple 2284162361367518207
 Wha?
@@ -17237,7 +17237,7 @@ No.
 
 > INFO.NAME boots of blinding speed 743628527306374240
 A wondrous pair of boots indeed. The name says it all! I would hate to ever part with them.
-真是一双神奇的靴子。听名字就知道了 我真舍不得。
+真是一双神奇的靴子。听名字就知道了，我真舍不得。
 
 > INFO.NAME boots of blinding speed 15801574972347619
 What? How is it that you have these? They belong to the museum now! GUARDS!
@@ -17305,7 +17305,7 @@ Yes, the Lady requests your presence at once. It is best not to keep her waiting
 
 > INFO.NAME chronicles of nchuleft 2951510500150015041
 Good. I will not forget this, %PCName. As you have brought me all three books. Please accept these trinkets of mine. I no longer have any use for them.
-很好。我不会忘记的，%PCName。你给我带来了三本书 请收下我的这些矿场饰品。我不再需要它们了。
+很好。我不会忘记的，%PCName。你给我带来了三本书，请收下我的这些矿场饰品。我不再需要它们了。
 
 > INFO.NAME evidence of conspiracy 1425428293323619623
 I don't get it. Don't you want to fight? Oh! Wait! I see. You are a GOOD guy! Sure. I understand. So now I got to get lost. Fast, right? Okay. Time to use that old Recall amulet. So long, pal... and thanks.
@@ -18333,7 +18333,7 @@ You don't have the Boots of the Apostle with you? Then come back with them, and 
 
 > INFO.NAME boots of the apostle 5597276462870427165
 So you found the legendary boots. Congratulations. I don't know much about them, but I'm sure you should be very proud.
-所以你找到了传说中的靴子。恭喜你 我对它们了解不多，但我相信你应该很自豪。
+所以你找到了传说中的靴子，恭喜你。我对它们了解不多，但我相信你应该很自豪。
 
 > INFO.NAME boots of the apostle 152371261350415987
 When Talos Stormcrown was a young man in Skyrim, he went into the mountains to learn the secrets of the Greybeards. He learned the secrets of the high peak winds -- the roar of the winter blast, and the warm silk of the summer updrafts. When he descended from the mountains, he came riding the clouds, striding through the air in great boots he claimed were gifts of the Greybeards for his cunning craft and riddling. After Septim yielded his crown, the boots disappeared, and have been lost for many years.
@@ -20749,7 +20749,7 @@ Habasi hears you broke our agreement. Habasi does not want to speak with you now
 
 > INFO.NAME staff of magnus 16579644373552990
 Ajira knows the Staff of Magnus is in Assu. It is a cave on the slopes of Mount Kand just northwest of Molag Mar.
-阿吉拉知道玛格努斯之杖在阿苏。那是坎德山山坡上的一个洞穴 就在莫拉格-玛尔的西北方。
+阿吉拉知道玛格努斯之杖在阿苏。那是坎德山山坡上的一个洞穴，就在莫拉格-玛尔的西北方。
 
 > INFO.NAME staff of magnus 5835301272052314486
 You don't have the Staff of Magnus with you? Then come back with it, and we'll settle the deal.
@@ -21361,7 +21361,7 @@ Continue
 
 > INFO.NAME fire and faith 260551696074030628
 Yes, this is the last of the three books I was looking for. I know I had another copy of "Fire and Faith" once... Ah, well. Please accept these trinkets. I no longer have any use for them.
-是的，这是我要找的三本书中的最后一本。我知道我曾经还有一本《热忱与信念》…啊，好吧 请收下这些小玩意儿 我不再需要它们了。 {信仰}
+是的，这是我要找的三本书中的最后一本。我知道我曾经还有一本《热忱与信念》…啊，好吧。请收下这些小玩意儿，我不再需要它们了。 {信仰}
 
 > INFO.NAME specific place 1699211592376221704
 You're in the Plaza Brindisi Dorom now. North is the Royal Palace. To the northwest is Godsreach, to the northeast is the Great Bazaar. The Temple Courtyard is north of the Royal Palace, either through the Palace or from Godsreach or the Great Bazaar.

@@ -9049,7 +9049,7 @@ endif
 
 if ( countHits == 2 )
 	if ( countSays == 1 )
-		Say ""vo\misc\Hit Heart 2.wav"" ""Äã ÔÚ ×ö Ê² Ã´ £¿£¡""
+		Say ""vo\misc\Hit Heart 2.wav"" ""Äã£¡ÔÚ£¡×ö£¡Ê²£¡Ã´£¿£¡""
 		Set countSays to 2
 	endif
 	PlayGroup Idle3
@@ -16332,7 +16332,7 @@ End WolfRitualRing
  BOOK.ITEX "m\tx_octavo_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
 »ðÖÐÎè£¬¾íÒ»<BR>
-ÍßÐÁ¡¤¼ÖË¹ Öø<BR><BR>
+ÍßÐÁ¡¤¼ÖË¹¡¡Öø<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 ³¡¾°£ºÈüÈðµÏ¶ûµÛ¶¼<BR>
 ÈÕÆÚ£ºµÚÈý¼ÍÔª397ÄêËªÂäÔÂ7ÈÕ<BR>
@@ -21207,36 +21207,36 @@ RH<BR>
 <br>
 ÒÔÏÂÊÇµÙ¶ûË¹¿ËµÄÇõ³¤Ãûµ¥£¬×ÔºÕÂÞË¹ÃÉµÂµÚÒ»´ÎÍ³ÖÎÒÔÀ´£º<br>
 <br>
-ºìÈËºÕÂÞË¹ÃÉµÂ¡£ÅµµÂÈËÄÐ¡£Ðý×ªµÂÂ×¸ñÇàÍ­Í·¿ø£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®Ò»Äê¡£±»¶éÂäÖ®ÀÇ Ondjage É±ËÀ²¢ÍÌÊÉ¡£<br>
+ºìÈËºÕÂÞË¹ÃÉµÂ¡£ÅµµÂÄÐ¡£Ðý×ªµÂÂ×¸ñÇàÍ­Í·¿ø£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®Ò»Äê¡£±»¶éÂäÖ®ÀÇ Ondjage É±ËÀ²¢ÍÌÊÉ¡£<br>
 <br>
-ÒÁË¹¸ñÀÕ°×²¨¡£ÅµµÂÈËÅ®¡£É±ËÀËÀÁé·¨Ê¦ Hildir Worm-Heart ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
+ÒÁË¹¸ñÀÕ°×²¨¡£ÅµµÂÅ®¡£É±ËÀËÀÁé·¨Ê¦ Hildir Worm-Heart ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
 <br>
-°£ÄÉ¶û¡£ÅµµÂÈËÄÐ¡£Õ¶É±ÁË±ùËª¾ÞÈË¹ûÂå£¬½«ËûµÄ½Å×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁùÄê¡£<br>
+°£ÄÉ¶û¡£ÅµµÂÄÐ¡£Õ¶É±ÁË±ùËª¾ÞÈË¹ûÂå£¬½«ËûµÄ½Å×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁùÄê¡£<br>
 <br>
-Gisl Ô²³¦¡£ÅµµÂÈËÄÐ¡£É±ËÀ°£ÄÉ¶û²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½¸öÔÂ¡£<br>
+Gisl Ô²³¦¡£ÅµµÂÄÐ¡£É±ËÀ°£ÄÉ¶û²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½¸öÔÂ¡£<br>
 <br>
-Ð¡°¬ÄÉ¶û¡£ÅµµÂÈËÄÐ¡£É±ËÀ Gisl Round-Gut ²¢½«ËûµÄÎ¸×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÆßÄê¡£<br>
+Ð¡°¬ÄÉ¶û¡£ÅµµÂÄÐ¡£É±ËÀ Gisl Round-Gut ²¢½«ËûµÄÎ¸×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÆßÄê¡£<br>
 <br>
-¸ñÔ¼¼ÓÂÞ¡£ÅµµÂÈËÄÐ¡£É±ËÀÁË°×Å®Î×¿¨ÌØÀ­£¬²¢½«ËýµÄ·¨ÕÈ×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½Äê¡£<br>
+¸ñÔ¼¼ÓÂÞ¡£ÅµµÂÄÐ¡£É±ËÀÁË°×Å®Î×¿¨ÌØÀ­£¬²¢½«ËýµÄ·¨ÕÈ×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½Äê¡£<br>
 <br>
-°¬Ã×Àò¡¤°îÌØ¿â¡£²¼À³¶ÙÈËÅ®¡£É±ËÀ¸ñÔ¼ÌØ¼ÓÂÞ£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£<br>
+°¬Ã×Àò¡¤°îÌØ¿â¡£²¼À³¶ÙÅ®¡£É±ËÀ¸ñÔ¼ÌØ¼ÓÂÞ£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£<br>
 <br>
-Thorormr ·ç±©É±ÊÖ¡£ÅµµÂÈËÄÐ¡£É±ËÀ°¢ÄáºÍ°¢ÀïÐÖµÜ£¬²¢½«ËûÃÇµÄÄ§·¨´¸×Ó×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÊ®ÁùÄê¡£<br>
+Thorormr ·ç±©É±ÊÖ¡£ÅµµÂÄÐ¡£É±ËÀ°¢ÄáºÍ°¢ÀïÐÖµÜ£¬²¢½«ËûÃÇµÄÄ§·¨´¸×Ó×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÊ®ÁùÄê¡£<br>
 <br>
-ÌìÊ¹¡£ÅµµÂÈË Å®¡£É±ËÀ²»ÖÒµÄ°ÂµÂÄá²¢½«ËýµÄÊÖ×÷ÎªÕ½¶·½±±­¡£Í³ÖÎµÙ¶ûË¹¿Ë°ËÄê¡£<br>
+ÌìÊ¹¡£ÅµµÂÅ®¡£É±ËÀ²»ÖÒµÄ°ÂµÂÄá²¢½«ËýµÄÊÖ×÷ÎªÕ½¶·½±±­¡£Í³ÖÎµÙ¶ûË¹¿Ë°ËÄê¡£<br>
 <br>
-¿¨ÆæÅµ°ÂÀïÀûÑÇ¡£¹úÈËÄÐ¡£É±ËÀÁËµÛ¹úÓ¢ÐÛ¿ËÀÍµÒË¹¡¤°²Æë°ÂÄÚ£¬²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÖÜ¡£ÆÛÕ©¡£
+¿¨ÆæÅµ¡¤°ÂÀïÀûÑÇ¡£µÛ¹úÄÐ¡£É±ËÀÁËµÛ¹úÓ¢ÐÛ¿ËÀÍµÒË¹¡¤°²Æë°ÂÄÚ£¬²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÖÜ¡£ÆÛÕ©¡£
 <br>
 <br>
-°£¶û¼ÓÐÜ°þÆ¤Ê¦¡£ÅµµÂÈËÄÐ¡£É±ËÀÁËµÛ¹úÈËµÄÆ­×Ó¿¨ÆæÅµ¡¤°ÂÀïÀûÑÇ£¬²¢½«ËûµÄÉàÍ·×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÎåÄê¡£<br>
+°£¶û¼ÓÐÜ°þÆ¤Ê¦¡£ÅµµÂÄÐ¡£É±ËÀÁËµÛ¹úÈËµÄÆ­×Ó¿¨ÆæÅµ¡¤°ÂÀïÀûÑÇ£¬²¢½«ËûµÄÉàÍ·×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÎåÄê¡£<br>
 <br>
-ÅÖ×Ó·¨¶û»ù¡£ÅµµÂÈËÄÐ¡£É±ËÀÁËÁùÖ»¿ñÈ®²¡ÀÇ£¬²¢½«ËüÃÇµÄ×¦×Ó×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÈý¸öÔÂ¡£ÓÉÓÚ¿ñÈ®²¡¶øÏÝÈë·è¿ñºÍËÀÍö¡£<br>
+ÅÖ×Ó·¨¶û»ù¡£ÅµµÂÄÐ¡£É±ËÀÁËÁùÖ»¿ñÈ®²¡ÀÇ£¬²¢½«ËüÃÇµÄ×¦×Ó×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÈý¸öÔÂ¡£ÓÉÓÚ¿ñÈ®²¡¶øÏÝÈë·è¿ñºÍËÀÍö¡£<br>
 <br>
-Ë¹ÍßÄÈÐ¡µ¶¡£ÅµµÂÈËÅ®¡£É±ËÀ¸ñÀÙËþÀÇº¢²¢½«ËýµÄ½£×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
+Ë¹ÍßÄÈÐ¡µ¶¡£ÅµµÂÅ®¡£É±ËÀ¸ñÀÙËþÀÇº¢²¢½«ËýµÄ½£×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
 <br>
-±´Äá¶û°×ºú×Ó¡£ÅµµÂÈËÄÐ¡£Õ¶É±ÁËÈýÃûÊÞÈË½ÙÂÓÕß£¬½«ËûÃÇµÄÑÛ¾¦×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®¶þÄê¡£<br>
+±´Äá¶û°×ºú×Ó¡£ÅµµÂÄÐ¡£Õ¶É±ÁËÈýÃûÊÞÈË½ÙÂÓÕß£¬½«ËûÃÇµÄÑÛ¾¦×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®¶þÄê¡£<br>
 <br>
-Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Æù½ñÎªÖ¹Í³ÖÎµÙ¶ûË¹¿ËÈýÄê£¬ÔÚ×«Ð´Õâ²¿×÷Æ·Ê±ÈÔÈ»ÊÇÇõ³¤¡£<br>
+Skjoldr Wolf-Runner¡£ÅµµÂÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Æù½ñÎªÖ¹Í³ÖÎµÙ¶ûË¹¿ËÈýÄê£¬ÔÚ×«Ð´Õâ²¿×÷Æ·Ê±ÈÔÈ»ÊÇÇõ³¤¡£<br>
 <br>
 À©ÕÅ£º<br>
 <br>
@@ -21278,13 +21278,13 @@ Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùË
 <br>
 ÌõÄ¿ 7£º¶ÔÓÚ´¬Ô±À´Ëµ£¬¼±ÔêÊÇÕý³£µÄ£¬µ«°¢¶û¹±ÈË×îÖÕ»¹ÊÇ·¢·èÁË¡£ÔÚÎÒÃÇÀë¿ª°ÂµÂ'ÈêÒòÖ®Ç°£¬ÎÒ·´¸´¸æËßËû£¬·ÉÍ§ÊÇÔÚÌì¿ÕÖÐº½ÐÐ£¬¶ø²»ÊÇÔÚË®ÃæÉÏº½ÐÐ¡£Ëû¸æËßÎÒËûÃ÷°×ÁË£¬µ«Ëû¶Ô¸ß¶ÈµÄ¿Ö¾åÒ»¶¨×îÖÕÕ¼ÁËÉÏ·ç¡£·¢¿ñµÄ×´Ì¬ÏÂ£¬Ëû×¥×¡ÁË·«¶æ£¬²îµã°ÑÎÒÃÇ±Æµ½º£Àï¡£ÎÒ±ðÎÞÑ¡Ôñ£¬Ö»ÄÜÔ×ÁËËû¡£äô--ÖÐ--ÓÎÊÇËûµÄÃû×Ö£¬ÔÚÕâ´Î²»ÐÒÊÂ¼þ·¢ÉúÖ®Ç°£¬ËûÊÇÒ»ÃûÓÅÐãµÄ´¬Ô±¡£ÎÒ¸üÏ²»¶º£Ôá£¬µ«¿¼ÂÇµ½ÎÒÃÇÄ¿Ç°µÄÇé¿ö£¬ÎÒÃÇ±ðÎÞÑ¡Ôñ£¬Ö»ÄÜ°ÑËûµÄÊ¬ÌåÈÓÏòº£Íâ¡£ÎÒÃÇµÄÄ¿±êÊÇ´óº££¬µ«´ËÊ±·ÉÍ§ÒÑ¾­Æ®¹ýË÷Éªº£Ä·¡£°¦£¬ÎÒµ£ÐÄÎÒÃÇ´í¹ýÁË£¬ËûµÄÊ¬Ìå½µÂäÔÚ¶«ÄÏº£°¶µÄÄ³¸öµØ·½¡£<br>
 <br>
-ÌõÄ¿ 9£ºÎÒÃÇÕÒµ½ÁË»ôË¹ÃÉµÂÖ®»ö£¡ÖÁÉÙ²¨ÉÐÔÚÄ³¼þÊÂÉÏËµ¶ÔÁË¡£ÀÇÐÎ¹¹¼Ü´ÓÎ÷Ïò¶«ÑÓÉì£¬Í·²¿ºÍÑÛ¾¦³¯Ïò¶«¶Ë¡£ÎÒÃÇ½«Ñ°ÕÒÒ»¸öÂä½ÅµÄµØ·½£¬È»ºóÌ½Ë÷»ôË¹ÃÉµÂ¹ÅÄ¹--¼ÙÉèÄÇÊÇ²¨ÉÐËùËµµÄµØ·½¡£ÎÒ»¹Ðè×¢Òâ£¬½ø¶È±ÈÎÒÏëµÄÒªÂý¡£¿ÕÆøÖÐÃÖÂþ×ÅÒ»¹Éº®Òâ£¬ÎÒ²»ÏàÐÅÄÇÐ©ÒÑ¾­¾Û¼¯ÔÚÉ½ÉÏµÄÎÚÔÆ...<br>
+ÌõÄ¿ 9£ºÎÒÃÇÕÒµ½ÁË»ôË¹ÃÉµÂÖ®»ö£¡ÖÁÉÙ²¨ÉÐÔÚÄ³¼þÊÂÉÏËµ¶ÔÁË¡£ÀÇÐÎ¹¹¼Ü´ÓÎ÷Ïò¶«ÑÓÉì£¬Í·²¿ºÍÑÛ¾¦³¯Ïò¶«¶Ë¡£ÎÒÃÇ½«Ñ°ÕÒÒ»¸öÂä½ÅµÄµØ·½£¬È»ºóÌ½Ë÷»ôË¹ÃÉµÂ¹ÅÄ¹--¼ÙÉèÄÇÊÇ²¨ÉÐËùËµµÄµØ·½¡£ÎÒ»¹Ðè×¢Òâ£¬½ø¶È±ÈÎÒÏëµÄÒªÂý¡£¿ÕÆøÖÐÃÖÂþ×ÅÒ»¹Éº®Òâ£¬ÎÒ²»ÏàÐÅÄÇÐ©ÒÑ¾­¾Û¼¯ÔÚÉ½ÉÏµÄÎÚÔÆ¡­<br>
 <br>
 ÌõÄ¿ 11£ºÎÒÃÇ±»±©·çÑ©Ï®»÷ÁË£¬ÎÒ´ÓÎ´¼û¹ýÕâÑùµÄ±©·çÑ©£¡ÎÒº¦ÅÂ±©·çÓê£¬µ«´ÓÀ´Ã»ÓÐÏë¹ý»á·¢ÉúÕâÑùµÄÊÂÇé¡£²¨ÉÐµÄ×°ÖÃÔÚ½Ó·ì´¦·Ö±ÀÀëÎö£¬ÎÒÈÏÎªÎÒÃÇÎÞ·¨Î¬³Ö¸ß¶È¡£Ã»ÓÐµØ·½¿ÉÒÔ½µÂä£¬µ«ÎÒÃÇ±ØÐëÆÈ½µ£¡<br>
 <br>
-ÌõÄ¿ 12£ºËÀÁË¡£ËûÃÇ¶¼ËÀÁË¡£µ±·ÉÍ§×¹»ÙÊ±£¬´ó¶àÊý´¬Ô±Á¢¼´É¥Éú¡£ÉÙÊýÐÒ´æµÄÈËºÜ¿ì¾ÍµÃÁË¸ÐÃ°¡£Ö»ÓÐÎÒ»îÁËÏÂÀ´¡£ÐèÒª×ö¸öÓªµØ¡£Ñ©µ²×¡ÁËÎÒ½øÈë´¬²ÕµÄÂ·¡£ÎÒÔÚÔç³¿½øÁË¹ÅÄ¹¡£ÎÒ¼¸ºõ²»ÄÜÐ´×Ö¡£ÎÒµÄÊÖ¶¼¿ì¶³½©ÁË...<br>
+ÌõÄ¿ 12£ºËÀÁË¡£ËûÃÇ¶¼ËÀÁË¡£µ±·ÉÍ§×¹»ÙÊ±£¬´ó¶àÊý´¬Ô±Á¢¼´É¥Éú¡£ÉÙÊýÐÒ´æµÄÈËºÜ¿ì¾ÍµÃÁË¸ÐÃ°¡£Ö»ÓÐÎÒ»îÁËÏÂÀ´¡£ÐèÒª×ö¸öÓªµØ¡£Ñ©µ²×¡ÁËÎÒ½øÈë´¬²ÕµÄÂ·¡£ÎÒÔÚÔç³¿½øÁË¹ÅÄ¹¡£ÎÒ¼¸ºõ²»ÄÜÐ´×Ö¡£ÎÒµÄÊÖ¶¼¿ì¶³½©ÁË¡­<br>
 <br>
-ÌõÄ¿ 13£ººÃÀäºÃÀä¡£ºÃâ»ÎÒ...ÎÒ·èÁË£¬ÎÒÄÜ¸Ð...¸Ð¾õµ½Ëü...Ëü¡£ÎÒ¿´µ½ÑÛ¾¦ Ò¹Ö®ÑÛ ÀÇÖ®ÑÛ¡£¾ÍÔÚÕâÀï...ºÃ¶ö¡£áëÁ¼Ö®ÑÛÀ´ÁË£¡°×ÀÇ£¡ºÃÙûÁî...<br>
+ÌõÄ¿ 13£ººÃÀäºÃÀä¡£ºÃâ»ÎÒ¡­ÎÒ·èÁË£¬ÎÒÄÜ¸Ð¡­¸Ð¾õµ½Ëü¡­Ëü¡£ÎÒ¿´µ½ÑÛ¾¦£¬Ò¹Ö®ÑÛ£¬ÀÇÖ®ÑÛ¡£¾ÍÔÚÕâÀï¡­ºÃ¶ö¡£ÀÇÖ®ÑÛÀ´ÁË£¡°×ÀÇ£¡ºÃÀä¡­<br>
 <BR>"
 -ENCH
  ENCH.NAME "infectious charm_en$00"
@@ -26504,7 +26504,7 @@ C. Âí»ùÎÚË¹<BR>"
  ACTI.SCRI "Sound_BM_IceSheet$00"
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "glenmoril_witch_altar$00"
- NPC_.FNAM "¸ñÂ×ÄªÀò ÃüÔËµÄ°¬µÙ°²$00"
+ NPC_.FNAM "¸ñÂ×ÄªÀòÃüÔËµÄ°¬µÙ°²$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Witch$00"
  NPC_.ANAM [00]
@@ -26535,7 +26535,7 @@ C. Âí»ùÎÚË¹<BR>"
  CREA.NAME "glenmoril_raven$00"
  CREA.MODL "r\raven.NIF$00"
  CREA.CNAM "Rat$00"
- CREA.FNAM "¸ñÂ×ÄªÀò ÃüÔËµÄ°¬µÙ°²$00"
+ CREA.FNAM "¸ñÂ×ÄªÀòÃüÔËµÄ°¬µÙ°²$00"
  CREA.SCRI "GlenmorilRaven$00"
  CREA.NPDT [00 00 00 00 04 00 00 00 19 00 00 00 19 00 00 00 00 00 00 00 1E 00 00 00 08 00 00 00 46 00 00 00 64 00 00 00 4B 00 00 00 10 27 00 00 0A 00 00 00 90 01 00 00 0A 00 00 00 32 00 00 00 5A 00 00 00 14 00 00 00 04 00 00 00 0C 00 00 00 04 00 00 00 0C 00 00 00 04 00 00 00 0C 00 00 00 00 00 00 00]
  CREA.FLAG [48 00 00 00]
@@ -26551,7 +26551,7 @@ C. Âí»ùÎÚË¹<BR>"
  CLOT.ITEX "c\tx_ring_expensive03.tga$00"
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "glenmoril_witch_cave$00"
- NPC_.FNAM "¸ñÂ×ÄªÀò ÃüÔËµÄ°¬µÙ°²$00"
+ NPC_.FNAM "¸ñÂ×ÄªÀòÃüÔËµÄ°¬µÙ°²$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Witch$00"
  NPC_.ANAM [00]
@@ -26566,7 +26566,7 @@ C. Âí»ùÎÚË¹<BR>"
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "glenmoril_witch_cave_2$00"
- NPC_.FNAM "¸ñÂ×ÄªÀò ÃüÔËµÄ·¨À³×È$00"
+ NPC_.FNAM "¸ñÂ×ÄªÀòÃüÔËµÄ·¨À³×È$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Witch$00"
  NPC_.ANAM [00]
@@ -26582,7 +26582,7 @@ C. Âí»ùÎÚË¹<BR>"
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 67 6C 65 6E 6D 6F 72 69 6C 5F 77 69 74 63 68 5F 63 61 76 65 00 00 11 7A 4F 00 9C F3 12 00 0C 00 01 00]
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "glenmoril_witch_cave_3$00"
- NPC_.FNAM "¸ñÂ×ÄªÀò ÃüÔËµÄÒÁË÷±´¶û$00"
+ NPC_.FNAM "¸ñÂ×ÄªÀòÃüÔËµÄÒÁË÷±´¶û$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Witch$00"
  NPC_.ANAM [00]
@@ -26610,7 +26610,7 @@ C. Âí»ùÎÚË¹<BR>"
  CREA.NAME "glenmoril_raven_cave$00"
  CREA.MODL "r\raven.NIF$00"
  CREA.CNAM "Rat$00"
- CREA.FNAM "¸ñÂ×ÄªÀò ÃüÔËµÄ°¬µÙ°²$00"
+ CREA.FNAM "¸ñÂ×ÄªÀòÃüÔËµÄ°¬µÙ°²$00"
  CREA.SCRI "GlenmorilRavenCave$00"
  CREA.NPDT [00 00 00 00 04 00 00 00 19 00 00 00 19 00 00 00 00 00 00 00 1E 00 00 00 08 00 00 00 46 00 00 00 64 00 00 00 4B 00 00 00 10 27 00 00 0A 00 00 00 90 01 00 00 0A 00 00 00 32 00 00 00 5A 00 00 00 14 00 00 00 04 00 00 00 0C 00 00 00 04 00 00 00 0C 00 00 00 04 00 00 00 0C 00 00 00 00 00 00 00]
  CREA.FLAG [48 00 00 00]
@@ -27764,7 +27764,7 @@ C. Âí»ùÎÚË¹<BR>"
  INGR.ITEX "n\Tx_daedra_heart_01.tga$00"
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "glenmoril_witch_altar_2$00"
- NPC_.FNAM "¸ñÂ×ÄªÀò ÃüÔËµÄ°¬µÙ°²$00"
+ NPC_.FNAM "¸ñÂ×ÄªÀòÃüÔËµÄ°¬µÙ°²$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Witch$00"
  NPC_.ANAM [00]
@@ -29192,7 +29192,7 @@ C. Âí»ùÎÚË¹<BR>"
 -BOOK
  BOOK.NAME "bk_ThirskHistory_revised_m$00"
  BOOK.MODL "m\Text_Quarto_03.nif$00"
- BOOK.FNAM "¡¶ÉªË¹¿Ë£¬Ò»¶ÎÀúÊ·£ºÐÞ¶©°æ¡·$00"
+ BOOK.FNAM "¡¶ÉªË¹¿Ë£¬Ò»¶ÎÀúÊ· -- ÐÞ¶©°æ¡·$00"
  BOOK.BKDT [00 00 40 40 4B 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_quarto_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
@@ -29221,38 +29221,38 @@ C. Âí»ùÎÚË¹<BR>"
 <br>
 ÒÔÏÂÊÇµÙ¶ûË¹¿ËµÄÇõ³¤Ãûµ¥£¬×ÔºÕÂÞË¹ÃÉµÂµÚÒ»´ÎÍ³ÖÎÒÔÀ´£º<br>
 <br>
-ºìÈËºÕÂÞË¹ÃÉµÂ¡£ÅµµÂÈËÄÐ¡£Ðý×ªµÂÂ×¸ñÇàÍ­Í·¿ø£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®Ò»Äê¡£±»¶éÂäÖ®ÀÇ Ondjage É±ËÀ²¢ÍÌÊÉ¡£<br>
+ºìÈËºÕÂÞË¹ÃÉµÂ¡£ÅµµÂÄÐ¡£Ðý×ªµÂÂ×¸ñÇàÍ­Í·¿ø£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®Ò»Äê¡£±»¶éÂäÖ®ÀÇ Ondjage É±ËÀ²¢ÍÌÊÉ¡£<br>
 <br>
-ÒÁË¹¸ñÀÕ°×²¨¡£ÅµµÂÈËÅ®¡£É±ËÀËÀÁé·¨Ê¦ Hildir Worm-Heart ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
+ÒÁË¹¸ñÀÕ°×²¨¡£ÅµµÂÅ®¡£É±ËÀËÀÁé·¨Ê¦ Hildir Worm-Heart ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
 <br>
-°£ÄÉ¶û¡£ÅµµÂÈËÄÐ¡£Õ¶É±ÁË±ùËª¾ÞÈË¹ûÂå£¬½«ËûµÄ½Å×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁùÄê¡£<br>
+°£ÄÉ¶û¡£ÅµµÂÄÐ¡£Õ¶É±ÁË±ùËª¾ÞÈË¹ûÂå£¬½«ËûµÄ½Å×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁùÄê¡£<br>
 <br>
-Gisl Ô²³¦¡£ÅµµÂÈËÄÐ¡£É±ËÀ°£ÄÉ¶û²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½¸öÔÂ¡£<br>
+Gisl Ô²³¦¡£ÅµµÂÄÐ¡£É±ËÀ°£ÄÉ¶û²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½¸öÔÂ¡£<br>
 <br>
-Ð¡°¬ÄÉ¶û¡£ÅµµÂÈËÄÐ¡£É±ËÀ Gisl Round-Gut ²¢½«ËûµÄÎ¸×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÆßÄê¡£<br>
+Ð¡°¬ÄÉ¶û¡£ÅµµÂÄÐ¡£É±ËÀ Gisl Round-Gut ²¢½«ËûµÄÎ¸×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÆßÄê¡£<br>
 <br>
-¸ñÔ¼¼ÓÂÞ¡£ÅµµÂÈËÄÐ¡£É±ËÀÁË°×Å®Î×¿¨ÌØÀ­£¬²¢½«ËýµÄ·¨ÕÈ×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½Äê¡£<br>
+¸ñÔ¼¼ÓÂÞ¡£ÅµµÂÄÐ¡£É±ËÀÁË°×Å®Î×¿¨ÌØÀ­£¬²¢½«ËýµÄ·¨ÕÈ×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½Äê¡£<br>
 <br>
-°¬Ã×Àò¡¤°îÌØ¿â¡£²¼À³¶ÙÈËÅ®¡£É±ËÀ¸ñÔ¼ÌØ¼ÓÂÞ£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£<br>
+°¬Ã×Àò¡¤°îÌØ¿â¡£²¼À³¶ÙÅ®¡£É±ËÀ¸ñÔ¼ÌØ¼ÓÂÞ£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£<br>
 <br>
-Thorormr ·ç±©É±ÊÖ¡£ÅµµÂÈËÄÐ¡£É±ËÀ°¢ÄáºÍ°¢ÀïÐÖµÜ£¬²¢½«ËûÃÇµÄÄ§·¨´¸×Ó×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÊ®ÁùÄê¡£<br>
+Thorormr ·ç±©É±ÊÖ¡£ÅµµÂÄÐ¡£É±ËÀ°¢ÄáºÍ°¢ÀïÐÖµÜ£¬²¢½«ËûÃÇµÄÄ§·¨´¸×Ó×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÊ®ÁùÄê¡£<br>
 <br>
-ÌìÊ¹¡£ÅµµÂÈË Å®¡£É±ËÀ²»ÖÒµÄ°ÂµÂÄá²¢½«ËýµÄÊÖ×÷ÎªÕ½¶·½±±­¡£Í³ÖÎµÙ¶ûË¹¿Ë°ËÄê¡£<br>
+ÌìÊ¹¡£ÅµµÂÅ®¡£É±ËÀ²»ÖÒµÄ°ÂµÂÄá²¢½«ËýµÄÊÖ×÷ÎªÕ½¶·½±±­¡£Í³ÖÎµÙ¶ûË¹¿Ë°ËÄê¡£<br>
 <br>
-¿¨ÆæÅµ°ÂÀïÀûÑÇ¡£¹úÈËÄÐ¡£É±ËÀÁËµÛ¹úÓ¢ÐÛ¿ËÀÍµÒË¹¡¤°²Æë°ÂÄÚ£¬²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÖÜ¡£ÆÛÕ©¡£
+¿¨ÆæÅµ°ÂÀïÀûÑÇ¡£µÛ¹úÄÐ¡£É±ËÀÁËµÛ¹úÓ¢ÐÛ¿ËÀÍµÒË¹¡¤°²Æë°ÂÄÚ£¬²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÖÜ¡£ÆÛÕ©¡£
 <br>
 <br>
-°£¶û¼ÓÐÜ°þÆ¤Ê¦¡£ÅµµÂÈËÄÐ¡£É±ËÀÁËµÛ¹úÈËµÄÆ­×Ó¿¨ÆæÅµ¡¤°ÂÀïÀûÑÇ£¬²¢½«ËûµÄÉàÍ·×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÎåÄê¡£<br>
+°£¶û¼ÓÐÜ°þÆ¤Ê¦¡£ÅµµÂÄÐ¡£É±ËÀÁËµÛ¹úÈËµÄÆ­×Ó¿¨ÆæÅµ¡¤°ÂÀïÀûÑÇ£¬²¢½«ËûµÄÉàÍ·×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÎåÄê¡£<br>
 <br>
-ÅÖ×Ó·¨¶û»ù¡£ÅµµÂÈËÄÐ¡£É±ËÀÁËÁùÖ»¿ñÈ®²¡ÀÇ£¬²¢½«ËüÃÇµÄ×¦×Ó×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÈý¸öÔÂ¡£ÓÉÓÚ¿ñÈ®²¡¶øÏÝÈë·è¿ñºÍËÀÍö¡£<br>
+ÅÖ×Ó·¨¶û»ù¡£ÅµµÂÄÐ¡£É±ËÀÁËÁùÖ»¿ñÈ®²¡ÀÇ£¬²¢½«ËüÃÇµÄ×¦×Ó×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÈý¸öÔÂ¡£ÓÉÓÚ¿ñÈ®²¡¶øÏÝÈë·è¿ñºÍËÀÍö¡£<br>
 <br>
-Ë¹ÍßÄÈÐ¡µ¶¡£ÅµµÂÈËÅ®¡£É±ËÀ¸ñÀÙËþÀÇº¢²¢½«ËýµÄ½£×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
+Ë¹ÍßÄÈÐ¡µ¶¡£ÅµµÂÅ®¡£É±ËÀ¸ñÀÙËþÀÇº¢²¢½«ËýµÄ½£×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
 <br>
-±´Äá¶û°×ºú×Ó¡£ÅµµÂÈËÄÐ¡£Õ¶É±ÁËÈýÃûÊÞÈË½ÙÂÓÕß£¬½«ËûÃÇµÄÑÛ¾¦×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®¶þÄê¡£<br>
+±´Äá¶û°×ºú×Ó¡£ÅµµÂÄÐ¡£Õ¶É±ÁËÈýÃûÊÞÈË½ÙÂÓÕß£¬½«ËûÃÇµÄÑÛ¾¦×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®¶þÄê¡£<br>
 <br>
-Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£ÔÚ·äÃÛ¾Æ´óÌü±»É±¡£<br>
+Skjoldr Wolf-Runner¡£ÅµµÂÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£ÔÚ·äÃÛ¾Æ´óÌü±»É±¡£<br>
 <br>
-%PCName¡£%PCRace ÄÐÐÔ¡£É±ËÀ Udyrfrykte ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£ÔÚ×«Ð´±¾ÎÄÊ±ÈÔÎªÇõ³¤¡£
+%PCName¡£%PCRace£¬ÄÐ¡£É±ËÀ Udyrfrykte ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£ÔÚ×«Ð´±¾ÎÄÊ±ÈÔÎªÇõ³¤¡£
 <br>
 À©ÕÅ£º<br>
 <br>
@@ -29270,7 +29270,7 @@ Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùË
 -BOOK
  BOOK.NAME "bk_ThirskHistory_revised_f$00"
  BOOK.MODL "m\Text_Quarto_03.nif$00"
- BOOK.FNAM "¡¶ÉªË¹¿Ë£¬Ò»¶ÎÀúÊ·£ºÐÞ¶©°æ¡·$00"
+ BOOK.FNAM "¡¶ÉªË¹¿Ë£¬Ò»¶ÎÀúÊ· -- ÐÞ¶©°æ¡·$00"
  BOOK.BKDT [00 00 40 40 4B 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_quarto_03.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
@@ -29299,38 +29299,38 @@ Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùË
 <br>
 ÒÔÏÂÊÇµÙ¶ûË¹¿ËµÄÇõ³¤Ãûµ¥£¬×ÔºÕÂÞË¹ÃÉµÂµÚÒ»´ÎÍ³ÖÎÒÔÀ´£º<br>
 <br>
-ºìÈËºÕÂÞË¹ÃÉµÂ¡£ÅµµÂÈËÄÐ¡£Ðý×ªµÂÂ×¸ñÇàÍ­Í·¿ø£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®Ò»Äê¡£±»¶éÂäÖ®ÀÇ Ondjage É±ËÀ²¢ÍÌÊÉ¡£<br>
+ºìÈËºÕÂÞË¹ÃÉµÂ¡£ÅµµÂÄÐ¡£Ðý×ªµÂÂ×¸ñÇàÍ­Í·¿ø£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®Ò»Äê¡£±»¶éÂäÖ®ÀÇ Ondjage É±ËÀ²¢ÍÌÊÉ¡£<br>
 <br>
-ÒÁË¹¸ñÀÕ°×²¨¡£ÅµµÂÈËÅ®¡£É±ËÀËÀÁé·¨Ê¦ Hildir Worm-Heart ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
+ÒÁË¹¸ñÀÕ°×²¨¡£ÅµµÂÅ®¡£É±ËÀËÀÁé·¨Ê¦ Hildir Worm-Heart ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
 <br>
-°£ÄÉ¶û¡£ÅµµÂÈËÄÐ¡£Õ¶É±ÁË±ùËª¾ÞÈË¹ûÂå£¬½«ËûµÄ½Å×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁùÄê¡£<br>
+°£ÄÉ¶û¡£ÅµµÂÄÐ¡£Õ¶É±ÁË±ùËª¾ÞÈË¹ûÂå£¬½«ËûµÄ½Å×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁùÄê¡£<br>
 <br>
-Gisl Ô²³¦¡£ÅµµÂÈËÄÐ¡£É±ËÀ°£ÄÉ¶û²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½¸öÔÂ¡£<br>
+Gisl Ô²³¦¡£ÅµµÂÄÐ¡£É±ËÀ°£ÄÉ¶û²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½¸öÔÂ¡£<br>
 <br>
-Ð¡°¬ÄÉ¶û¡£ÅµµÂÈËÄÐ¡£É±ËÀ Gisl Round-Gut ²¢½«ËûµÄÎ¸×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÆßÄê¡£<br>
+Ð¡°¬ÄÉ¶û¡£ÅµµÂÄÐ¡£É±ËÀ Gisl Round-Gut ²¢½«ËûµÄÎ¸×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÆßÄê¡£<br>
 <br>
-¸ñÔ¼¼ÓÂÞ¡£ÅµµÂÈËÄÐ¡£É±ËÀÁË°×Å®Î×¿¨ÌØÀ­£¬²¢½«ËýµÄ·¨ÕÈ×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½Äê¡£<br>
+¸ñÔ¼¼ÓÂÞ¡£ÅµµÂÄÐ¡£É±ËÀÁË°×Å®Î×¿¨ÌØÀ­£¬²¢½«ËýµÄ·¨ÕÈ×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÁ½Äê¡£<br>
 <br>
-°¬Ã×Àò¡¤°îÌØ¿â¡£²¼À³¶ÙÈËÅ®¡£É±ËÀ¸ñÔ¼ÌØ¼ÓÂÞ£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£<br>
+°¬Ã×Àò¡¤°îÌØ¿â¡£²¼À³¶ÙÅ®¡£É±ËÀ¸ñÔ¼ÌØ¼ÓÂÞ£¬½«ËûµÄÍ·Â­×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£<br>
 <br>
-Thorormr ·ç±©É±ÊÖ¡£ÅµµÂÈËÄÐ¡£É±ËÀ°¢ÄáºÍ°¢ÀïÐÖµÜ£¬²¢½«ËûÃÇµÄÄ§·¨´¸×Ó×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÊ®ÁùÄê¡£<br>
+Thorormr ·ç±©É±ÊÖ¡£ÅµµÂÄÐ¡£É±ËÀ°¢ÄáºÍ°¢ÀïÐÖµÜ£¬²¢½«ËûÃÇµÄÄ§·¨´¸×Ó×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÊ®ÁùÄê¡£<br>
 <br>
-ÌìÊ¹¡£ÅµµÂÈË Å®¡£É±ËÀ²»ÖÒµÄ°ÂµÂÄá²¢½«ËýµÄÊÖ×÷ÎªÕ½¶·½±±­¡£Í³ÖÎµÙ¶ûË¹¿Ë°ËÄê¡£<br>
+ÌìÊ¹¡£ÅµµÂÅ®¡£É±ËÀ²»ÖÒµÄ°ÂµÂÄá²¢½«ËýµÄÊÖ×÷ÎªÕ½¶·½±±­¡£Í³ÖÎµÙ¶ûË¹¿Ë°ËÄê¡£<br>
 <br>
-¿¨ÆæÅµ°ÂÀïÀûÑÇ¡£¹úÈËÄÐ¡£É±ËÀÁËµÛ¹úÓ¢ÐÛ¿ËÀÍµÒË¹¡¤°²Æë°ÂÄÚ£¬²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÖÜ¡£ÆÛÕ©¡£
+¿¨ÆæÅµ°ÂÀïÀûÑÇ¡£µÛ¹úÄÐ¡£É±ËÀÁËµÛ¹úÓ¢ÐÛ¿ËÀÍµÒË¹¡¤°²Æë°ÂÄÚ£¬²¢½«ËûµÄ½£×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÖÜ¡£ÆÛÕ©¡£
 <br>
 <br>
-°£¶û¼ÓÐÜ°þÆ¤Ê¦¡£ÅµµÂÈËÄÐ¡£É±ËÀÁËµÛ¹úÈËµÄÆ­×Ó¿¨ÆæÅµ¡¤°ÂÀïÀûÑÇ£¬²¢½«ËûµÄÉàÍ·×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÎåÄê¡£<br>
+°£¶û¼ÓÐÜ°þÆ¤Ê¦¡£ÅµµÂÄÐ¡£É±ËÀÁËµÛ¹úÈËµÄÆ­×Ó¿¨ÆæÅµ¡¤°ÂÀïÀûÑÇ£¬²¢½«ËûµÄÉàÍ·×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÎåÄê¡£<br>
 <br>
-ÅÖ×Ó·¨¶û»ù¡£ÅµµÂÈËÄÐ¡£É±ËÀÁËÁùÖ»¿ñÈ®²¡ÀÇ£¬²¢½«ËüÃÇµÄ×¦×Ó×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÈý¸öÔÂ¡£ÓÉÓÚ¿ñÈ®²¡¶øÏÝÈë·è¿ñºÍËÀÍö¡£<br>
+ÅÖ×Ó·¨¶û»ù¡£ÅµµÂÄÐ¡£É±ËÀÁËÁùÖ»¿ñÈ®²¡ÀÇ£¬²¢½«ËüÃÇµÄ×¦×Ó×÷ÎªÕ½ÀûÆ·¡£Í³ÖÎµÙ¶ûË¹¿ËÈý¸öÔÂ¡£ÓÉÓÚ¿ñÈ®²¡¶øÏÝÈë·è¿ñºÍËÀÍö¡£<br>
 <br>
-Ë¹ÍßÄÈÐ¡µ¶¡£ÅµµÂÈËÅ®¡£É±ËÀ¸ñÀÙËþÀÇº¢²¢½«ËýµÄ½£×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
+Ë¹ÍßÄÈÐ¡µ¶¡£ÅµµÂÅ®¡£É±ËÀ¸ñÀÙËþÀÇº¢²¢½«ËýµÄ½£×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËËÄÄê¡£<br>
 <br>
-±´Äá¶û°×ºú×Ó¡£ÅµµÂÈËÄÐ¡£Õ¶É±ÁËÈýÃûÊÞÈË½ÙÂÓÕß£¬½«ËûÃÇµÄÑÛ¾¦×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®¶þÄê¡£<br>
+±´Äá¶û°×ºú×Ó¡£ÅµµÂÄÐ¡£Õ¶É±ÁËÈýÃûÊÞÈË½ÙÂÓÕß£¬½«ËûÃÇµÄÑÛ¾¦×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£Í³ÖÎµÙ¶ûË¹¿Ë¶þÊ®¶þÄê¡£<br>
 <br>
-Skjoldr Wolf-Runner¡£ÅµµÂÈËÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£ÔÚ·äÃÛ¾Æ´óÌü±»É±¡£<br>
+Skjoldr Wolf-Runner¡£ÅµµÂÄÐ¡£É±ËÀÎ×Ê¦ Griss the Yellow ²¢½«ËûµÄÍ·×÷ÎªÕ½ÀûÆ·ÔùËÍ¡£Í³ÖÎµÙ¶ûË¹¿ËÈýÄê¡£ÔÚ·äÃÛ¾Æ´óÌü±»É±¡£<br>
 <br>
-%PCName¡£%PCRace Å®ÐÔ¡£É±ËÀ Udyrfrykte ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£ÔÚ×«Ð´±¾ÎÄÊ±ÈÔÎªÇõ³¤¡£
+%PCName¡£%PCRace£¬Å®¡£É±ËÀ Udyrfrykte ²¢½«ËûµÄÐÄÔà×÷ÎªÕ½ÀûÆ·Ï×ÉÏ¡£ÔÚ×«Ð´±¾ÎÄÊ±ÈÔÎªÇõ³¤¡£
 <br>
 À©ÕÅ£º<br>
 <br>
@@ -33885,7 +33885,7 @@ C<BR>"
  INFO.PNAM "3158713656939413767$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "Çé±¨×Ü¹Ü°ÑÎÒ½úÉýÎªµ¶·æÎÀÊ¿Ñ§Í½¡£ËûËÆºõ¶ÔÎÒºÜÂúÒâ ÒòÎªËû»¹¸øÁËÎÒÒ»¸öÐ¡ÀñÎï¡£ {µ¶·æÎÀÊ¿}"
+ INFO.NAME "Çé±¨×Ü¹Ü°ÑÎÒ½úÉýÎªµ¶·æÎÀÊ¿Ñ§Í½¡£ËûËÆºõ¶ÔÎÒºÜÂúÒâ£¬ÒòÎªËû»¹¸øÁËÎÒÒ»¸öÐ¡ÀñÎï¡£ {µ¶·æÎÀÊ¿}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TG_GrandmasterRetort$00"
@@ -34551,7 +34551,7 @@ C<BR>"
  INFO.PNAM "6700287971415821869$00"
  INFO.NNAM "8951296252418318767$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "¿­ÎÚË¹½«ÎÒ½úÉýÎªµ¶·æÎÀÊ¿Ñ§Í½£¬²¢½«»ÊµÛµÄÃØÃÜÖ¸Áî½»¸øÎÒ£¬ÈÃÎÒÔÄ¶Á¡£»ÊµÛÈÏÎªÄáÈðÍßÒòÔ¤ÑÔÊÇÕæµÄ ÎÒ¿ÉÄÜ¾ÍÊÇÄáÈðÍßÒò¡£ÎÒ±»ÅÉÍùÎÚ¶ûÏ£À­¿âÓªµØ£¬ÓëÄáÈðÍßÒò½ÌÅÉµÄÊ×ÁìËÕ¶û-ÂêÍ¼¶ûºÍÄá°ÍÄÝ¡¤ÂêÒÁÉ³Ì¸»°¡£ÎÒ»á¸æËßËûÃÇÎÒµÄ¹ÊÊÂ£¬ÈÃËûÃÇ¸ù¾ÝÄáÈðÍßÒòÔ¤ÑÔ¶ÔÎÒ½øÐÐ²âÊÔ£¬È»ºóÏò¿­ÎÚË¹±¨¸æ¡£ {µ¶·æÎÀÊ¿,Ö¸Ê¾}"
+ INFO.NAME "¿­ÎÚË¹½«ÎÒ½úÉýÎªµ¶·æÎÀÊ¿Ñ§Í½£¬²¢½«»ÊµÛµÄÃØÃÜÖ¸Áî½»¸øÎÒ£¬ÈÃÎÒÔÄ¶Á¡£»ÊµÛÈÏÎªÄáÈðÍßÒòÔ¤ÑÔÊÇÕæµÄ£¬ÎÒ¿ÉÄÜ¾ÍÊÇÄáÈðÍßÒò¡£ÎÒ±»ÅÉÍùÎÚ¶ûÏ£À­¿âÓªµØ£¬ÓëÄáÈðÍßÒò½ÌÅÉµÄÊ×ÁìËÕ¶û-ÂêÍ¼¶ûºÍÄá°ÍÄÝ¡¤ÂêÒÁÉ³Ì¸»°¡£ÎÒ»á¸æËßËûÃÇÎÒµÄ¹ÊÊÂ£¬ÈÃËûÃÇ¸ù¾ÝÄáÈðÍßÒòÔ¤ÑÔ¶ÔÎÒ½øÐÐ²âÊÔ£¬È»ºóÏò¿­ÎÚË¹±¨¸æ¡£ {µ¶·æÎÀÊ¿,Ö¸Ê¾}"
 -INFO
  INFO.INAM "16981214271045313693$00"
  INFO.PNAM "2911713626220353048$00"
@@ -34580,7 +34580,7 @@ C<BR>"
  INFO.PNAM "2850831940103411378$00"
  INFO.NNAM "16759451398915021$00"
  INFO.DATA [04 00 00 00 0E 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒÒÑ¾­°ÑÎÄ¼þ°ü¹ü¸øÁË¿­ÎÚË¹¡¤¿ÆÈøµÂË¹ ¸ù¾Ý»ÊµÛµÄÃüÁî£¬¿­ÎÚË¹¡¤¿ÆÈøµÂË¹ÈÃÎÒ¼ÓÈëµ¶·æÎÀÊ¿µÛ¹úÇé±¨¾Ö£¬µ£ÈÎµ¶·æÎÀÊ¿ÐÂÈË£¬¿­ÎÚË¹¡¤¿ÆÈøµÂË¹½«ÊÇÎÒµÄÇé±¨×Ü¹Ü£¬ÎÒ½«Ìý´ÓËûµÄÖ¸Ê¾¡£ {µÛ¹úÈË,ÖÇÁ¦}"
+ INFO.NAME "ÎÒÒÑ¾­°ÑÎÄ¼þ°ü¹ü¸øÁË¿­ÎÚË¹¡¤¿ÆÈøµÂË¹¡£¸ù¾Ý»ÊµÛµÄÃüÁî£¬¿­ÎÚË¹¡¤¿ÆÈøµÂË¹ÈÃÎÒ¼ÓÈëµ¶·æÎÀÊ¿µÛ¹úÇé±¨¾Ö£¬µ£ÈÎµ¶·æÎÀÊ¿ÐÂÈË£¬¿­ÎÚË¹¡¤¿ÆÈøµÂË¹½«ÊÇÎÒµÄÇé±¨×Ü¹Ü£¬ÎÒ½«Ìý´ÓËûµÄÖ¸Ê¾¡£ {µÛ¹úÈË,ÖÇÁ¦}"
 -INFO
  INFO.INAM "16759451398915021$00"
  INFO.PNAM "155946986227161440$00"
@@ -36509,7 +36509,7 @@ C<BR>"
  INFO.PNAM "3245927968552731036$00"
  INFO.NNAM "11411687471141458$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒºÍÒ»¸ö×Ô³Æ¡°³ÁË¯Õß¡±µÄÈË½»Ì¸ÁË£¬Ëû½Ð×ÅÎÒµÄÃû×Ö£¬Ëµ£º""Äã²»ÄÜ·ñÈÏÄãµÄÖ÷£¬´ï¸ñË¹¡¤ÎÚ¶û¡£µÚÁù¼Ò×åÒÑ¾­áÈÆð£¬´ï¸ñË¹ÊÇËüµÄÈÙÒ«¡£"" ËûËµµÃºÁÎÞµÀÀí ÎÒÏëËûÒ»¶¨ÊÇ·èÁË¡£"
+ INFO.NAME "ÎÒºÍÒ»¸ö×Ô³Æ¡°³ÁË¯Õß¡±µÄÈË½»Ì¸ÁË£¬Ëû½Ð×ÅÎÒµÄÃû×Ö£¬Ëµ£º""Äã²»ÄÜ·ñÈÏÄãµÄÖ÷£¬´ï¸ñË¹¡¤ÎÚ¶û¡£µÚÁù¼Ò×åÒÑ¾­áÈÆð£¬´ï¸ñË¹ÊÇËüµÄÈÙÒ«¡£"" ËûËµµÃºÁÎÞµÀÀí£¬ÎÒÏëËûÒ»¶¨ÊÇ·èÁË¡£"
 -INFO
  INFO.INAM "28779288811307621499$00"
  INFO.PNAM "17734113881321530027$00"
@@ -36811,7 +36811,7 @@ C<BR>"
  INFO.PNAM "15812928913717176$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 73 00 00 00 FF FF FF 00]
- INFO.NAME "ÔÚÄªÀï¡¤°Â¶ûÃôµÄ½¨ÒéÏÂ£¬ÎÒ°Ý·ÃÁËÒÁÄÂÈüÌØ¡¤²¼À­¿ËË¹¡£ÒÁÄÂÈüÌØÖªµÀÎÒ°ïÖúÁË ÄªÀï£¬·Ç³£¸Ð¼¤¡£Ëý¸øÁËÎÒÒ»Ð©ÖÎÁÆÒ©Ë®×÷Îª±¨³ê¡£ {ÕâÐ©Ò©Ë®}"
+ INFO.NAME "ÔÚÄªÀï¡¤°Â¶ûÃôµÄ½¨ÒéÏÂ£¬ÎÒ°Ý·ÃÁËÒÁÄÂÈüÌØ¡¤²¼À­¿ËË¹¡£ÒÁÄÂÈüÌØÖªµÀÎÒ°ïÖúÁËÄªÀï£¬·Ç³£¸Ð¼¤¡£Ëý¸øÁËÎÒÒ»Ð©ÖÎÁÆÒ©Ë®×÷Îª±¨³ê¡£ {ÕâÐ©Ò©Ë®}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IL_RescuePilgrim$00"
@@ -38948,7 +38948,7 @@ C<BR>"
  INFO.PNAM "3846139071435029173$00"
  INFO.NNAM "450535071652629833$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "¾²Ú×Õß¶òÄÈÒÑ¾­ËÀÁË¡£ÎÒÒÑ¾­Íê³ÉÁËºÍÇÇ¶û¸¥µÄÔ¼¶¨¡£Ê£ÏÂµÄ¾ÍÊÇ°Ñ°£¶ûÄÈµÄ½äÖ¸»¹¸øÇÇ¶û¸¥ ×÷ÎªÆõÔ¼µÄÖ¤Ã÷£¬È»ºóÊÕÈ¡ÎÒµÄ±¨³ê¡£ {Ö¤¾Ý}"
+ INFO.NAME "¾²Ú×Õß¶òÄÈÒÑ¾­ËÀÁË¡£ÎÒÒÑ¾­Íê³ÉÁËºÍÇÇ¶û¸¥µÄÔ¼¶¨¡£Ê£ÏÂµÄ¾ÍÊÇ°Ñ°£¶ûÄÈµÄ½äÖ¸»¹¸øÇÇ¶û¸¥¡£×÷ÎªÆõÔ¼µÄÖ¤Ã÷£¬È»ºóÊÕÈ¡ÎÒµÄ±¨³ê¡£ {Ö¤¾Ý}"
 -INFO
  INFO.INAM "450535071652629833$00"
  INFO.PNAM "16110723433019153$00"
@@ -40208,7 +40208,7 @@ C<BR>"
  INFO.PNAM "2341011173306189451$00"
  INFO.NNAM "3205823368186407335$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒ¾ö¶¨²»°ïÂ¬¿ÏÔË»õÁË Õâ¸öÈËËÆºõÓÐÐ©Ææ¹Ö¡£"
+ INFO.NAME "ÎÒ¾ö¶¨²»°ïÂ¬¿ÏÔË»õÁË£¬Õâ¸öÈËËÆºõÓÐÐ©Ææ¹Ö¡£"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "3205823368186407335$00"
@@ -40626,7 +40626,7 @@ C<BR>"
  INFO.PNAM "20695587101495873$00"
  INFO.NNAM "1248419214211093335$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "ÏÈÖªÀ­À­µÙÑÇ¡¤ÍßÀï°²ÔÚºÚ°µÖÐ¿´µ½ÁËÄ§½äµÄ»ÃÏó¡£Ëý¿´µ½ÁË°¬Ë¹Î¬¶û´«ËµÖÐµÄ±¦Îï--·çÖ®½ä¡£¡°ÎÒ¿´µ½·çÔÚ°µ¾«ÁéÖ®ÊÖ£¬ÎÒ¿´µ½°«ÈËÁ³ÉÏÉÁË¸µÄ»ð¹â£¬ÎÒ¼û¹ýºÚ°µÖÐµÄ½äÖ¸£¬ÎÒÌý¹ýÊ¯Í·¿ÚÖÐµÍÓïµÄÃû×Ö¡£¡±ÏÈÖªÒªÎÒÈ¡»ØºÚ°µÖ®½ä ÎÒ±ØÐëÏòºÚ°µ¾«ÁéµÄ×¨¼ÒºÍ³âºò´òÌýÏÈÖª»ÃÏóµÄº¬Òå¡£ {·¢ÑÔÈË}"
+ INFO.NAME "ÏÈÖªÀ­À­µÙÑÇ¡¤ÍßÀï°²ÔÚºÚ°µÖÐ¿´µ½ÁËÄ§½äµÄ»ÃÏó¡£Ëý¿´µ½ÁË°¬Ë¹Î¬¶û´«ËµÖÐµÄ±¦Îï--·çÖ®½ä¡£¡°ÎÒ¿´µ½·çÔÚ°µ¾«ÁéÖ®ÊÖ£¬ÎÒ¿´µ½°«ÈËÁ³ÉÏÉÁË¸µÄ»ð¹â£¬ÎÒ¼û¹ýºÚ°µÖÐµÄ½äÖ¸£¬ÎÒÌý¹ýÊ¯Í·¿ÚÖÐµÍÓïµÄÃû×Ö¡£¡±ÏÈÖªÒªÎÒÈ¡»ØºÚ°µÖ®½ä£¬ÎÒ±ØÐëÏòºÚ°µ¾«ÁéµÄ×¨¼ÒºÍ³âºò´òÌýÏÈÖª»ÃÏóµÄº¬Òå¡£ {·¢ÑÔÈË}"
 -INFO
  INFO.INAM "19672283111636521771$00"
  INFO.PNAM "9711234452870121134$00"
@@ -42379,7 +42379,7 @@ C<BR>"
  INFO.PNAM "177517983092325209$00"
  INFO.NNAM "353319071964212723$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "Áé¶¯ìè´ÓÏòµÛ¹ú¾üÍÅÌá³öá÷ÁÔÌôÕ½¡£ËûÃÇÉù³Æ»á´øÀ´Ê¬»¯ÊÞµÄÆ¤ À­µÂ¡¤Ìú-ÐÄÒªÎÒ´øÀ´¶ÍÄª°Ù·ò³¤µÄ½ðÊô·ÏÁÏ¡£ {¶ÍÄª}"
+ INFO.NAME "Áé¶¯ìè´ÓÏòµÛ¹ú¾üÍÅÌá³öá÷ÁÔÌôÕ½¡£ËûÃÇÉù³Æ»á´øÀ´Ê¬»¯ÊÞµÄÆ¤£¬À­µÂ¡¤Ìú-ÐÄÒªÎÒ´øÀ´¶ÍÄª°Ù·ò³¤µÄ½ðÊô·ÏÁÏ¡£ {¶ÍÄª}"
 -INFO
  INFO.INAM "353319071964212723$00"
  INFO.PNAM "3138876971996120364$00"
@@ -45586,14 +45586,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "4228194381760512531$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "·¨Ê¦¹«»á£º¡¶ÍßµÇ·Ñ¶ûµÄÎüÑª¹í  ¾í¶þ¡·"
+ INFO.NAME "·¨Ê¦¹«»á£º¡¶ÍßµÇ·Ñ¶ûµÄÎüÑª¹í¡¤¾í¶þ¡·"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "4228194381760512531$00"
  INFO.PNAM "1258023099597219601$00"
  INFO.NNAM "1604311388249663775$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "Ë¹½ð¿ËÏëÒªÒ»±¾¡¶ÍßµÇ·Ñ¶ûµÄÎüÑª¹í¡· µÚ¶þ¾í Ëû½¨ÒéÎÒÈ¥Õä±¾Êéµê¿´¿´¡£ {ÍßµÇ·Ñ¶û}"
+ INFO.NAME "Ë¹½ð¿ËÏëÒªÒ»±¾¡¶ÍßµÇ·Ñ¶ûµÄÎüÑª¹í¡¤¾í¶þ¡·£¬Ëû½¨ÒéÎÒÈ¥Õä±¾Êéµê¿´¿´¡£ {ÍßµÇ·Ñ¶û}"
 -INFO
  INFO.INAM "6397174011545818917$00"
  INFO.PNAM "2658124791985027248$00"
@@ -52331,7 +52331,7 @@ Journal BM_Stones 100"
  INFO.NNAM "2963712435680719868$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Solstheim$00"
- INFO.NAME "ÊÔÊÔËª¶êÒªÈû£¬Ë¹¿¨¶û´å»òÕßÉªË¹¿Ë¡£ÄÇ×ÜÊÇ¸öºÃµÄ¿ªÊ¼¡£¡¤ ÊÇµÄ¡£"
+ INFO.NAME "ÊÔÊÔËª¶êÒªÈû£¬Ë¹¿¨¶û´å»òÕßÉªË¹¿Ë¡£ÄÇ×ÜÊÇ¸öºÃµÄ¿ªÊ¼¡£"
 -INFO
  INFO.INAM "2963712435680719868$00"
  INFO.PNAM "2510497661224629443$00"
@@ -58592,7 +58592,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "ÊÇµÄ£¬ÕâÊÇÎÒÒªÕÒµÄÈý±¾ÊéÖÐµÄ×îºóÒ»±¾¡£ÎÒÖªµÀÎÒÔø¾­»¹ÓÐÒ»±¾¡¶ÈÈ³ÀÓëÐÅÄî¡·¡­°¡£¬ºÃ°É ÇëÊÕÏÂÕâÐ©Ð¡ÍæÒâ¶ù ÎÒ²»ÔÙÐèÒªËüÃÇÁË¡£ {ÐÅÑö}"
+ INFO.NAME "ÊÇµÄ£¬ÕâÊÇÎÒÒªÕÒµÄÈý±¾ÊéÖÐµÄ×îºóÒ»±¾¡£ÎÒÖªµÀÎÒÔø¾­»¹ÓÐÒ»±¾¡¶ÈÈ³ÀÓëÐÅÄî¡·¡­°¡£¬ºÃ°É¡£ÇëÊÕÏÂÕâÐ©Ð¡ÍæÒâ¶ù£¬ÎÒ²»ÔÙÐèÒªËüÃÇÁË¡£ {ÐÅÑö}"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX2bk_nchunaksfireandfaith"

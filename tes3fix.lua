@@ -60,7 +60,7 @@ local ignores = {
 local i = 0
 
 local function fix(e, c)
-	if ignores[e] then
+	if ignores[e] or c:find "^¡¶.-¡·$" then
 		return c
 	end
 	local cc = c:match "{[^{}]*}$"
