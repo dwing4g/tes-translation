@@ -133,7 +133,11 @@ for line in io.lines(arg[1]) do
 				end
 				local ce = checks[e]
 				if not ce then
-					checks[e] = line:gsub(" *{[^{}]*}$", "")
+					local c = line:gsub(" *{[^{}]*}$", "")
+					checks[e] = c
+					if select(2, c:gsub("([\x80-\xff] [\x80-\xff])", "%1")) >= 10 then
+						print("WARN: too many space in translation: " .. c)
+					end
 				elseif ce ~= line:gsub(" *{[^{}]*}$", "") and #e > 11 then
 					print("WARN: unmatched translation: " .. e .. "\n" .. ce .. "\n" .. line .. "\n")
 				end

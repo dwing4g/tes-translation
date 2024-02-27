@@ -254,7 +254,7 @@ for t0, t1 in pairs(check0) do
 		if t0 ~= s0 then
 			local tp = t0:find(s0, 1, true)
 			if tp and (tp == 1 or t0:sub(tp - 1, tp - 1):find "%W") and not t1:find(s1, 1, true) then
-				warn("topic contain unmatched: [" .. t0 .. "] => [" .. t1 .. "], [" .. s0 .. "] => [" .. s1 .. "]")
+				warn("topic contain unmatched: [", t0, "] => [", t1, "], [", s0, "] => [", s1, "]")
 			end
 		end
 	end
