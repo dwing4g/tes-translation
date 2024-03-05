@@ -13,6 +13,7 @@ local tonumber = tonumber
 local ipairs = ipairs
 local pairs = pairs
 local error = error
+local arg = arg
 
 local newLine = true
 local function warn(...)
@@ -24,13 +25,13 @@ local function warn(...)
 	io.stderr:write "\n"
 end
 
-local src_filenames = {
+local src_filenames = arg[2] and { arg[2] } or {
 	"Morrowind.txt",
 	"Tribunal.txt",
 	"Bloodmoon.txt",
 }
 
-local dst_filenames = {
+local dst_filenames = arg[3] and arg[4] and {{ arg[3], arg[4] }} or {
 	{ "tes3cn_Morrowind.txt", "tes3cn_Morrowind.fix.txt" },
 	{ "tes3cn_Tribunal.txt",  "tes3cn_Tribunal.fix.txt" },
 	{ "tes3cn_Bloodmoon.txt", "tes3cn_Bloodmoon.fix.txt" },
@@ -164,16 +165,26 @@ if not f then
 	newLine = false
 	f = io.open(topics_filename, "wb")
 	local n = 0
-	for topic, inam in pairs(topicMap) do
+	local keys = {}
+	for topic in pairs(topicMap) do
+		keys[#keys + 1] = topic
+	end
+	table.sort(keys)
+	for _, topic in ipairs(keys) do
 		f:write("[", topic, "] =>")
+		local inam = topicMap[topic]
 		local checkTopics = checkTopicMapR[inam]
+		local written = false
 		if checkTopics then
 			for _, checkTopic in ipairs(checkTopics) do
 				f:write(" [", checkTopic, "]")
+				written = true
 			end
 		end
-		if not checkTopics or #checkTopics ~= 1 then
+		if (not checkTopics or #checkTopics ~= 1) and (not arg[2] or arg[2] ~= arg[3]) then
 			f:write " !!!"
+		elseif not written then
+			f:write(" [", topic, "]")
 		end
 		f:write("\r\n")
 		n = n + 1

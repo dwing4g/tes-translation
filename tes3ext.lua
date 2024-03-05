@@ -151,13 +151,12 @@ local function extTxt(en)
 				for i = 1, #k do
 					addKV(k[i], v[i])
 				end
+			elseif not v then
+				error("ERROR: no v for key: '" .. k .. "'")
 			elseif v:find "[%a\x80-\xff]" then
 				if et[k] then
 					warn("duplicated key: '", k, "'")
 					-- error("ERROR: duplicated key: '" .. k .. "'")
-				end
-				if not v then
-					error("ERROR: no v for key: '" .. k .. "'")
 				end
 				et[k] = v
 				es[#es + 1] = k
@@ -189,6 +188,7 @@ local function extTxt(en)
 		elseif tag == "BOOK" then
 			k = tag .. ".FNAM " .. t[tag .. ".NAME"]
 			v = t[tag .. ".FNAM"]
+			if not v then k = nil end
 			kk = tag .. ".TEXT " .. t[tag .. ".NAME"]
 			vv = t[tag .. ".TEXT"]
 			if not vv then kk = nil end
