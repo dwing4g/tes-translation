@@ -4,10 +4,10 @@ local io = io
 local arg = arg
 
 local topics, checkTopics = {}, {}
+local err = 0
 
 local function loadTopics(filename)
 	io.stderr:write("loading ", filename, " ... ")
-	local err = 0
 	local i = 1
 	for line in io.lines(filename) do
 		local topic, checkTopic, more = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%](.*)$"
@@ -23,7 +23,7 @@ local function loadTopics(filename)
 			if topics[topic] then
 				if checkTopic ~= topic and topics[topic] ~= topic and topics[topic] ~= checkTopic then
 					if err == 0 then io.stderr:write "\n" end
-					io.stderr:write("ERROR: unmatched translation of topic [", topic, "] at line ", i, "\n")
+					io.stderr:write("ERROR: unmatched translation of topic [", topic, "] => [", topics[topic], "] [", checkTopic, "] at line ", i, "\n")
 					err = err + 1
 				end
 				if topics[topic] == topic then
@@ -35,7 +35,7 @@ local function loadTopics(filename)
 			if checkTopics[checkTopic] then
 				if checkTopic ~= topic and checkTopics[checkTopic] ~= topic then
 					if err == 0 then io.stderr:write "\n" end
-					io.stderr:write("ERROR: duplicated translation of checkTopic [", checkTopic, "] at line ", i, "\n")
+					io.stderr:write("ERROR: duplicated translation of checkTopic [", checkTopic, "] <= [", checkTopics[checkTopic], "] [", topic, "] at line ", i, "\n")
 					err = err + 1
 				end
 			else
@@ -51,16 +51,20 @@ for i = 1, #arg - 1 do
 	loadTopics(arg[i])
 end
 
-local ks = {}
-for topic in pairs(topics) do
-	ks[#ks + 1] = topic
-end
-table.sort(ks)
+if err == 0 then
+	local ks = {}
+	for topic in pairs(topics) do
+		ks[#ks + 1] = topic
+	end
+	table.sort(ks)
 
-io.stderr:write("saving ", arg[#arg], " ... ")
-local f = io.open(arg[#arg], "wb")
-for _, topic in ipairs(ks) do
-	f:write("[", topic, "] => [", topics[topic], "]\r\n")
+	io.stderr:write("saving ", arg[#arg], " ... ")
+	local f = io.open(arg[#arg], "wb")
+	for _, topic in ipairs(ks) do
+		f:write("[", topic, "] => [", topics[topic], "]\r\n")
+	end
+	f:close()
+	io.stderr:write(#ks, " topics\n")
+else
+	print("ERROR: " .. err .. " errors")
 end
-f:close()
-io.stderr:write(#ks, " topics\n")
