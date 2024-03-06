@@ -93,7 +93,7 @@ local function loadTxt(fn)
 end
 
 local function extScr(line, p)
-	line = line:gsub("(\"[^\r\n]+\")", function(s)
+	line = "\n" .. line:gsub("(\"[^\r\n]+\")", function(s)
 		return s:gsub(";", "@TeS3ExTmArK@")
 	end):gsub(";[^\r\n]*", ""):gsub("@TeS3ExTmArK@", ";")
 	local kk, vv, i, mi, si, ci = {}, {}, 0, 0, 0, 0
@@ -122,7 +122,7 @@ local function extScr(line, p)
 			j = true
 		end
 	end
-	for str in line:gmatch '[Cc]hoice[%s,:]+([%C\t]+)' do
+	for str in line:gmatch '\n%s*[Cc]hoice[%s,:]+([%C\t]+)' do
 		local j = false
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
@@ -173,7 +173,7 @@ local function extTxt(en)
 			or tag == "SPEL" or tag == "WEAP" then -- special: SPEL.NAME "wulfharth$92s cups$00"
 			k = tag .. ".FNAM " .. t[tag .. ".NAME"]
 			v = t[tag .. ".FNAM"]
-			if not v and (tag == "ACTI" or tag == "CLOT" or tag == "DOOR" or tag == "LIGH" or tag == "MISC" or tag == "WEAP") then k = nil end
+			if not v and (tag == "ACTI" or tag == "CLOT" or tag == "CONT" or tag == "DOOR" or tag == "LIGH" or tag == "MISC" or tag == "NPC_" or tag == "WEAP") then k = nil end
 		elseif tag == "MGEF" or tag == "SKIL" then
 			k = tag .. ".DESC " .. t[tag .. ".INDX"]
 			v = t[tag .. ".DESC"]

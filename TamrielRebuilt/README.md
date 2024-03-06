@@ -1,19 +1,19 @@
 ### 以 Tamriel Rebuilt 为例从 esm/esp 生成汉化初始状态
 
 1. 从TR官网`https://www.nexusmods.com/morrowind/mods/42145`下载主文件,
-   并从其压缩包中取出`TR_Mainland.esm`放到当前目录.
+   并从其压缩包中取出`TR_Mainland.esm`放到当前目录(即TamrielRebuilt子目录).
 
-2. 在当前目录运行下面命令把`TR_Mainland.esm`转换为`TR_Mainland.txt`:
+2. 在当前目录运行下面命令, 把`TR_Mainland.esm`转换为`TR_Mainland.txt`:
 
    `..\luajit ..\tes3dec.lua TR_Mainland.esm 1252 raw > TR_Mainland.txt`
 
-   之后不再需要`TR_Mainland.esm`, 可以删除.
+   如果`esm/esp`文件比较大, 需要耐心等待, 完成之后不再需要`TR_Mainland.esm`, 可以删除.
 
 3. 再运行下面命令, 从`TR_Mainland.txt`精简掉跟汉化无关的内容, 生成`TR_Mainland.trim.txt`:
 
    `..\luajit ..\tes3trim.lua TR_Mainland.txt > TR_Mainland.trim.txt`
 
-4. 再运行下面命令, 把`TR_Mainland.trim.txt`改名并覆盖成`TR_Mainland.txt`:
+4. 再运行下面命令, 把`TR_Mainland.trim.txt`改名并覆盖`TR_Mainland.txt`:
 
    `move /y TR_Mainland.trim.txt TR_Mainland.txt`
 
