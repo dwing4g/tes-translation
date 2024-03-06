@@ -2,8 +2,8 @@
 setlocal
 pushd %~dp0
 
-@echo on
+cd ..
 
-..\luajit ..\tes3mod.lua TR_Mainland.txt tes3cn_TR_Mainland.ext.txt tes3cn_TR_Mainland.txt
+luajit tes3mod.lua TamrielRebuilt\TR_Mainland.txt TamrielRebuilt\tes3cn_TR_Mainland.ext.txt TamrielRebuilt\tes3cn_TR_Mainland.txt
 
 pause

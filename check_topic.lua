@@ -222,9 +222,7 @@ for line in io.lines(topics_filename) do
 		check0[topic] = checkTopic
 		check1[checkTopic] = topic
 		if not topicMap[topic] then
-			if err == 0 then io.stderr:write "\n" newLine = true end
-			io.stderr:write("ERROR: invalid topic [", topic, "] at line ", i, "\n")
-			err = err + 1
+			-- warn("unused topic [", topic, "] at line ", i, "\n")
 		end
 		if not checkTopicMap[checkTopic] then
 			local checkTopics = checkTopicMapR[topicMap[topic]]
@@ -237,9 +235,7 @@ for line in io.lines(topics_filename) do
 					t[#t + 1] = "]"
 				end
 			end
-			if err == 0 then io.stderr:write "\n" newLine = true end
-			io.stderr:write("ERROR: invalid check topic [", checkTopic, "] at line ", i, concat(t), "\n")
-			err = err + 1
+			-- warn("unused check topic [", checkTopic, "] at line ", i, concat(t), "\n")
 		end
 		topicPairs[topic] = checkTopic
 		i = i + 1

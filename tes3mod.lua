@@ -19,7 +19,7 @@ end
 
 local topics = {}
 for line in io.lines("topics.txt") do
-	local k, v = line:match "%[(.-)%] => %[(.-)%]"
+	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[k] = v
 	end
