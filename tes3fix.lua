@@ -51,11 +51,16 @@ local trans = {
 	["!!!!"] = "£¡£¡£¡£¡",
 	["!!!!!"] = "£¡£¡£¡£¡£¡",
 	["!!!!!!"] = "£¡£¡£¡£¡£¡£¡",
+	["?."] = "£¿",
 	["?.."] = "£¿¡­",
 	["?..."] = "£¿¡­",
 	["?...."] = "£¿¡­¡­",
 	["?....."] = "£¿¡­¡­",
 	["?......"] = "£¿¡­¡­",
+	["!..."] = "£¡¡­",
+	["...!"] = "¡­£¡",
+	["...?"] = "¡­£¿",
+	[".!"] = "£¡",
 }
 
 local ignores = {
@@ -66,15 +71,17 @@ local ignores = {
 
 local i = 0
 
-local function fix(e, c)
-	if ignores[e] or c:find "^¡¶.-¡·$" then
+local function fix(e, c, i)
+	if ignores[e] or c:find "^¡¶.-¡·$" or c == "###" or c:find "^%s.-%s$" then
 		return c
 	end
 	local cc = c:match "{[^{}]*}$"
 	if cc then
 		c = c:sub(1, -#cc - 1):gsub("[ \t]+$", "")
+	elseif not e:find "[ \t]$" then
+		c = c:gsub("[ \t]+$", "")
 	end
-	local ee = getEnd(e:gsub("[ \t]+$", ""))
+	local ee = getEnd(e:gsub("[%s%c]+$", ""))
 	local ce = getEnd(c)
 	if ee == "" and e:find '%.["\']$' then
 		ee = "."
@@ -86,7 +93,7 @@ local function fix(e, c)
 	else
 		local tee = trans[ee]
 		if not tee then
-			error("ERROR: unknown end: " .. ee)
+			error("ERROR: unknown end: '" .. ee .. "' at line " .. i)
 		end
 		if tee ~= ce then
 			if tee == "¡£" and c:find '¡£¡±$' then
@@ -117,7 +124,7 @@ local function fix(e, c)
 	return cc and (c .. " " .. cc) or c
 end
 
-local function fixMark(e, c)
+local function fixMark(e, c, i)
 	if not c:find "[\x80-\xff] +[\x80-\xff]" then
 		return c
 	end
@@ -142,7 +149,7 @@ local function fixMark(e, c)
 	end
 	for _, m in ipairs(em) do
 		if not trans[m] then
-			error("ERROR: unknown mark: " .. m)
+			error("ERROR: unknown mark: '" .. m .. "' at line " .. i)
 		end
 	end
 	local ct = {}
@@ -159,7 +166,7 @@ local function fixMark(e, c)
 		end
 	end
 	if half then
-		error("ERROR: unexpected half char: " .. c)
+		error("ERROR: unexpected half char: '" .. c .. "' at line " .. i)
 	end
 	local j = 1
 	local fail = false
@@ -222,7 +229,7 @@ for line in io.lines(arg[1]) do
 			end
 		else
 			if line:sub(1, 1) ~= '"' then
-				local line1 = fixMark(e, fix(e, line))
+				local line1 = fixMark(e, fix(e, line, i), i)
 				if line1 ~= line then
 					line = line1
 					n = n + 1
