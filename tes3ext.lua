@@ -132,7 +132,7 @@ local function extScr(line, p)
 			j = true
 		end
 		if not j and not str:find '"' then
-			for s in str:gmatch '(%a%S+)' do
+			for s in str:gmatch '([%a\x80-\xff]%S+)' do
 				i = i + 1
 				ci = ci + 1
 				kk[i] = p .. "c" .. ci
