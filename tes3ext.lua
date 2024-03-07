@@ -1,4 +1,4 @@
--- luajit tes3ext.lua Morrowind.txt tes3cn_Morrowind.txt tes3cn_Morrowind.ext.txt
+-- luajit tes3ext.lua Morrowind.txt tes3cn_Morrowind.txt [topics.txt] tes3cn_Morrowind.ext.txt
 
 local io = io
 local arg = arg
@@ -17,7 +17,7 @@ local function warn(...)
 end
 
 local topics = {}
-for line in io.lines("topics.txt") do
+for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
 	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[v] = k
@@ -153,7 +153,7 @@ local function extTxt(en)
 				end
 			elseif not v then
 				error("ERROR: no v for key: '" .. k .. "'")
-			elseif v:find "[%a\x80-\xff]" then
+			elseif v:find "[%w\x80-\xff]" then
 				if et[k] then
 					warn("duplicated key: '", k, "'")
 					-- error("ERROR: duplicated key: '" .. k .. "'")
@@ -304,8 +304,8 @@ local noTrans = {
 	["INFO.NAME 11111 test journal 32056462707524390"] = true,
 }
 
-io.stderr:write("INFO: writing '", arg[3], "' ...\n")
-local f = io.open(arg[3], "wb")
+io.stderr:write("INFO: writing '", arg[#arg], "' ...\n")
+local f = io.open(arg[#arg], "wb")
 for _, k in ipairs(es) do
 	f:write("> ", k, "\r\n")
 	local e, c = et[k], ct[k]
@@ -322,7 +322,7 @@ f:close()
 
 for _, k in ipairs(cs) do
 	if ct[k] then
-		warn("unused key '", k, "'")
+		warn("unused key '", k, "': '", ct[k], "'")
 	end
 end
 

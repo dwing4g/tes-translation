@@ -1,4 +1,4 @@
--- luajit tes3mod.lua Morrowind.txt tes3cn_Morrowind.ext.txt tes3cn_Morrowind.txt
+-- luajit tes3mod.lua Morrowind.txt tes3cn_Morrowind.ext.txt [topics.txt] tes3cn_Morrowind.txt
 
 local io = io
 local arg = arg
@@ -18,7 +18,7 @@ local function warn(...)
 end
 
 local topics = {}
-for line in io.lines("topics.txt") do
+for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
 	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[k] = v
@@ -141,9 +141,9 @@ local vt = {
 	["INFO.NAME"] = true,
 }
 
-io.stderr:write("INFO: modify '", arg[1], "' => '", arg[3], "' ... ")
+io.stderr:write("INFO: modify '", arg[1], "' => '", arg[#arg], "' ... ")
 newLine = false
-local f = io.open(arg[3], "wb")
+local f = io.open(arg[#arg], "wb")
 i, n = 0, 0
 local function modScr(line, p, lineId)
 	local lines = {}

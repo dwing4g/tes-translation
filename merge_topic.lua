@@ -11,15 +11,15 @@ local function loadTopics(filename)
 	local i = 1
 	for line in io.lines(filename) do
 		local topic, checkTopic, more = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%](.*)$"
-		topic = topic:lower()
-		if not checkTopic:find "[\x80-\xff]" then
-			checkTopic = checkTopic:lower()
-		end
 		if not topic or more:find "%S" then
 			if err == 0 then io.stderr:write "\n" end
-			io.stderr:write("ERROR: invalid topic file at line ", i, "\n")
+			io.stderr:write("ERROR: invalid topic file at line ", i, ": ", line, "\n")
 			err = err + 1
 		else
+			topic = topic:lower()
+			if not checkTopic:find "[\x80-\xff]" then
+				checkTopic = checkTopic:lower()
+			end
 			if topics[topic] then
 				if checkTopic ~= topic and topics[topic] ~= topic and topics[topic] ~= checkTopic then
 					if err == 0 then io.stderr:write "\n" end
