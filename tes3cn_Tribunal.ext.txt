@@ -342,6 +342,26 @@ Yes
 No
 不是
 
+> SCPT.SCTX cavein_script m4
+    5    
+    5    
+
+> SCPT.SCTX cavein_script m5
+    1    
+    1    
+
+> SCPT.SCTX cavein_script m6
+    2    
+    2    
+
+> SCPT.SCTX cavein_script m7
+    3    
+    3    
+
+> SCPT.SCTX cavein_script m8
+    4    
+    4    
+
 > SCPT.SCTX chapeldoorScript m1
 None may enter the High Chapel unless summoned by the goddess Almalexia.
 除非得到阿玛莱西娅女神的召唤，否则任何人不得进入至高圣堂。

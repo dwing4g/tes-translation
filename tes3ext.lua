@@ -316,7 +316,7 @@ for _, k in ipairs(es) do
 		c = e
 		warn("unmatched key '", k, "'")
 	end
-	f:write(e == c and not noTrans[k] and not k:find "^GMST.STRV" and (not e:find "^[%w]*_[%w_]*$" ) and "###" or escape(c), "\r\n\r\n")
+	f:write(e == c and not noTrans[k] and not k:find "^GMST.STRV" and not e:find "^[%w]*_[%w_]*$" and e:find "%a" and "###" or escape(c), "\r\n\r\n")
 end
 f:close()
 
