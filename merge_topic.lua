@@ -8,11 +8,12 @@ local err = 0
 
 local function loadTopics(filename)
 	io.stderr:write("loading ", filename, " ... ")
+	local newLine = false
 	local i = 1
 	for line in io.lines(filename) do
 		local topic, checkTopic, more = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%](.*)$"
 		if not topic or more:find "%S" then
-			if err == 0 then io.stderr:write "\n" end
+			if not newLine then newLine = true io.stderr:write "\n" end
 			io.stderr:write("ERROR: invalid topic file at line ", i, ": ", line, "\n")
 			err = err + 1
 		else
@@ -22,7 +23,7 @@ local function loadTopics(filename)
 			end
 			if topics[topic] then
 				if checkTopic ~= topic and topics[topic] ~= topic and topics[topic] ~= checkTopic then
-					if err == 0 then io.stderr:write "\n" end
+					if not newLine then newLine = true io.stderr:write "\n" end
 					io.stderr:write("ERROR: unmatched translation of topic [", topic, "] => [", topics[topic], "] [", checkTopic, "] at line ", i, "\n")
 					err = err + 1
 				end
@@ -34,7 +35,7 @@ local function loadTopics(filename)
 			end
 			if checkTopics[checkTopic] then
 				if checkTopic ~= topic and checkTopics[checkTopic] ~= topic then
-					if err == 0 then io.stderr:write "\n" end
+					if not newLine then newLine = true io.stderr:write "\n" end
 					io.stderr:write("ERROR: duplicated translation of checkTopic [", checkTopic, "] <= [", checkTopics[checkTopic], "] [", topic, "] at line ", i, "\n")
 					err = err + 1
 				end
