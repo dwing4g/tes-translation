@@ -51,3 +51,8 @@ Yes
 2. 再运行下面命令, 从`tes3cn_TR_Mainland.txt`生成`tes3cn_TR_Mainland.esp`:
 
    `..\luajit ..\tes3enc.lua tes3cn_TR_Mainland.txt tes3cn_TR_Mainland.esp`
+
+### NexusMods 相关地址
+
+- Tamriel Data CN: https://www.nexusmods.com/morrowind/mods/54231
+- Tamriel Rebuilt CN: https://www.nexusmods.com/morrowind/mods/54240

@@ -83,6 +83,6 @@ luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 
 所有`.txt`文件和汉化版`esp`文件中的字符串都使用GBK编码和`\r\n`换行符, 原版`esm/esp`文件中的字符串使用`Windows-1252`编码.
 
-### Nexus上发布的汉化MOD
+### NexusMods 相关地址
 
-https://www.nexusmods.com/morrowind/mods/53885
+- https://www.nexusmods.com/morrowind/mods/53885
