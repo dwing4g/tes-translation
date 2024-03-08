@@ -18,12 +18,13 @@ local f = io.open(arg[2], "wb")
 local goodGBK = { -- "霞鹜文楷 GB"字体支持的非GB2312字符
 	["\x85\xde"] = true, -- 呣
 	["\x86\xaa"] = true, -- 啰
+	["\x87\x4e"] = true, -- 嘚
 	["\x8b\xa0"] = true, -- 嫚
+	["\x98\x84"] = true, -- 槃
 	["\x9a\x47"] = true, -- 欸
 	["\xb2\x74"] = true, -- 瞭
 	["\xb5\x6f"] = true, -- 祇
 	["\xd1\x59"] = true, -- 裏
-	["\x87\x4e"] = true, -- 嘚
 	["\xef\x76"] = true, -- 飗
 }
 local badGBK = {}
