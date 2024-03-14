@@ -1,4 +1,4 @@
--- luajit merge_topic.lua topicA.txt topicB.txt ... topicAB.txt
+-- luajit merge_topic.lua topicA.txt [topicB.txt ...] topicAB.txt
 
 local io = io
 local arg = arg

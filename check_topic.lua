@@ -1,4 +1,4 @@
--- luajit check_topic.lua topics.txt > errors.txt
+-- luajit check_topic.lua topics.txt [Morrowind.txt] [tes3cn_Morrowind.txt] [tes3cn_Morrowind.fix.txt] > errors.txt
 
 local string = string
 local byte = string.byte
@@ -15,14 +15,18 @@ local pairs = pairs
 local error = error
 local arg = arg
 
+local function errwrite(...)
+	io.stderr:write(...)
+end
+
 local newLine = true
 local function warn(...)
 	if not newLine then
 		newLine = true
-		io.stderr:write "\n"
+		errwrite "\n"
 	end
-	io.stderr:write("WARN: ", ...)
-	io.stderr:write "\n"
+	errwrite("WARN: ", ...)
+	errwrite "\n"
 end
 
 local src_filenames = arg[2] and { arg[2] } or {
@@ -46,7 +50,7 @@ local delete_tags = {
 }
 
 local function canDeleteTag(tag)
-	return delete_tags[tag:sub(1, 4)]
+	return delete_tags[sub(tag, 1, 4)]
 end
 
 -- 044CAAC2: DIAL.NAME "...$00"
@@ -98,7 +102,7 @@ local function inTableValue(t, v)
 end
 
 local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM, INAM => { topics }
-	io.stderr:write("loading ", filename, " ... ")
+	errwrite("loading ", filename, " ... ")
 	newLine = false
 	local localTopicMap = {}
 	local n, topic = 0
@@ -139,7 +143,7 @@ local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM
 			end
 		end
 	end
-	io.stderr:write(n, " topics\n")
+	errwrite(n, " topics\n")
 	newLine = true
 end
 
@@ -161,9 +165,10 @@ end
 
 local f = io.open(topics_filename, "rb")
 if not f then
-	io.stderr:write("creating ", topics_filename, " ... ")
+	errwrite("creating ", topics_filename, " ... ")
 	newLine = false
 	f = io.open(topics_filename, "wb")
+	if not f then error "ERROR: can not create topic file" end
 	local n = 0
 	local keys = {}
 	for topic in pairs(topicMap) do
@@ -190,33 +195,33 @@ if not f then
 		n = n + 1
 	end
 	f:close()
-	io.stderr:write(n, " topics\n")
+	errwrite(n, " topics\n")
 	newLine = true
-	io.stderr:write "========== DUMP TOPICS DONE ==========\n"
+	errwrite "========== DUMP TOPICS DONE ==========\n"
 	return
 end
 f:close()
 local topicPairs = {}
 local i = 1
-io.stderr:write("loading ", topics_filename, " ... ")
+errwrite("loading ", topics_filename, " ... ")
 newLine = false
 local err = 0
 local check0, check1 = {}, {}
 for line in io.lines(topics_filename) do
 	local topic, checkTopic, more = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%](.*)$"
 	if not topic or more:find "%S" then
-		if err == 0 then io.stderr:write "\n" newLine = true end
-		io.stderr:write("ERROR: invalid topic file at line ", i, "\n")
+		if err == 0 then errwrite "\n" newLine = true end
+		errwrite("ERROR: invalid topic file at line ", i, "\n")
 		err = err + 1
 	else
 		if check0[topic] then
-			if err == 0 then io.stderr:write "\n" newLine = true end
-			io.stderr:write("ERROR: duplicated topic [", topic, "] at line ", i, "\n")
+			if err == 0 then errwrite "\n" newLine = true end
+			errwrite("ERROR: duplicated topic [", topic, "] at line ", i, "\n")
 			err = err + 1
 		end
 		if check1[checkTopic] then
-			if err == 0 then io.stderr:write "\n" newLine = true end
-			io.stderr:write("ERROR: duplicated checkTopic [", checkTopic, "] at line ", i, "\n")
+			if err == 0 then errwrite "\n" newLine = true end
+			errwrite("ERROR: duplicated checkTopic [", checkTopic, "] at line ", i, "\n")
 			err = err + 1
 		end
 		check0[topic] = checkTopic
@@ -241,17 +246,17 @@ for line in io.lines(topics_filename) do
 		i = i + 1
 	end
 end
-io.stderr:write(i - 1, " topics\n")
+errwrite(i - 1, " topics\n")
 newLine = true
 for topic in pairs(topicMap) do
 	if not check0[topic] then
-		io.stderr:write("ERROR: undefined topic [", topic, "]\n")
+		errwrite("ERROR: undefined topic [", topic, "]\n")
 		err = err + 1
 	end
 end
 for checkTopic, inam in pairs(checkTopicMap) do
 	if not check1[checkTopic] then
-		io.stderr:write("ERROR: undefined check topic [", checkTopic, "], ref [" .. (topicMapR[inam] or {})[1] .. "] => [" .. inam .. "]\n")
+		errwrite("ERROR: undefined check topic [", checkTopic, "], ref [" .. (topicMapR[inam] or {})[1] .. "] => [" .. inam .. "]\n")
 		err = err + 1
 	end
 end
@@ -260,7 +265,7 @@ for t0, t1 in pairs(check0) do
 	for s0, s1 in pairs(check0) do
 		if t0 ~= s0 then
 			local tp = t0:find(s0, 1, true)
-			if tp and (tp == 1 or t0:sub(tp - 1, tp - 1):find "%W") and not t1:find(s1, 1, true) then
+			if tp and (tp == 1 or sub(t0, tp - 1, tp - 1):find "%W") and not t1:find(s1, 1, true) then
 				warn("topic contain unmatched: [", t0, "] => [", t1, "], [", s0, "] => [", s1, "]")
 			end
 		end
@@ -275,7 +280,7 @@ local function createTopicTree(topicMap, topicTree)
 	for topic in pairs(topicMap) do
 		local curNode = topicTree
 		for i = 1, #topic do
-			local c = topic:sub(i, i)
+			local c = sub(topic, i, i)
 			local nextNode = curNode[c]
 			if not nextNode then
 				nextNode = {}
@@ -308,7 +313,7 @@ end
 -- dumpTopicTree(topicMap, topicTree, "")
 
 local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ DIAL.NAME" => text
-	io.stderr:write("loading ", filename, " ... ")
+	errwrite("loading ", filename, " ... ")
 	newLine = false
 	local i, n, dn, ss, inam, dial, key = 1, 0, 0
 	for line in io.lines(filename) do
@@ -384,7 +389,7 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 	if ss then
 		error("ERROR: invalid string end at line " .. i)
 	end
-	io.stderr:write(n, " texts\n")
+	errwrite(n, " texts\n")
 	newLine = true
 end
 
@@ -408,11 +413,11 @@ local function findTopics(texts, matches, topicTree, topicMap, ignoreKeys) -- "I
 		local curNode, bestTopic = topicTree
 		text = text:lower()
 		while j <= n do
-			local c = text:sub(i, i)
+			local c = sub(text, i, i)
 			local nextNode = curNode[c]
 			if nextNode then
 				curNode = nextNode
-				if curNode[0] and (i >= n or text:sub(i + 1, i + 4):find "%W") then bestTopic = curNode[0] end
+				if curNode[0] and (i >= n or sub(text, i + 1, i + 4):find "%W") then bestTopic = curNode[0] end
 				i = i + 1
 			else
 				local topic = not c:find "%w" and curNode[0] or bestTopic
@@ -426,7 +431,7 @@ local function findTopics(texts, matches, topicTree, topicMap, ignoreKeys) -- "I
 				end
 				curNode = topicTree
 				bestTopic = nil
-				while i <= n and text:sub(i - 1, i - 1):find "%w" do
+				while i <= n and sub(text, i - 1, i - 1):find "%w" do
 					i = i + 1
 					j = i
 				end
@@ -528,7 +533,7 @@ for key, topics in pairs(matches) do
 	end
 end
 
-io.stderr:write("========== CHECK DONE ========== (", n1, " + ", n2, " errors)\n")
+errwrite("========== CHECK DONE ========== (", n1, " + ", n2, " errors)\n")
 newLine = true
 
 local function addEscape(s) -- for GBK
@@ -542,7 +547,7 @@ local function addEscape(s) -- for GBK
 			elseif c == 13 and i < n and byte(s, i + 1) == 10 then e = 2 -- \r\n
 			end
 		elseif i < n and c >= 0x81 and c <= 0xfe and c ~= 0x7f then
-			local d = byte(s, i + 1)
+			d = byte(s, i + 1)
 			if d >= 0x40 and d <= 0xfe and d ~= 0x7f then e = 2 end
 		end
 		if e == 0 then
@@ -564,11 +569,11 @@ local function addEscape(s) -- for GBK
 end
 
 local function fixTexts(src_filename, dst_filename)
-	io.stderr:write("loading ", src_filename, " ... \n")
-	io.stderr:write("creating ", dst_filename, " ... ")
+	errwrite("loading ", src_filename, " ... \n")
+	errwrite("creating ", dst_filename, " ... ")
 	newLine = false
 	local f = io.open(dst_filename, "wb")
-	if not f then error "ERROR: can not create file" end
+	if not f then error "ERROR: can not create fix file" end
 	local i, n, ss, inam, dial, out, key, prefix, t, isEnd = 1, 0
 	local output = function()
 		local fixedText = fixedTexts[key]
@@ -644,7 +649,7 @@ local function fixTexts(src_filename, dst_filename)
 		error("ERROR: invalid string at line " .. i)
 	end
 	f:close()
-	io.stderr:write("fixed ", n, " texts\n")
+	errwrite("fixed ", n, " texts\n")
 	newLine = true
 end
 

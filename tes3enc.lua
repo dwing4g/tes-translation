@@ -24,7 +24,6 @@ local goodGBK = { -- "霞鹜文楷 GB"字体支持的非GB2312字符
 	["\x9a\x47"] = true, -- 欸
 	["\xb2\x74"] = true, -- 瞭
 	["\xb5\x6f"] = true, -- 祇
-	["\xd1\x59"] = true, -- 裏
 	["\xef\x76"] = true, -- 飗
 }
 local badGBK = {}
@@ -62,7 +61,7 @@ local function readString(s, i)
 				if c >= 0x81 and i + 1 <= n then
 					e = true
 					if c <= 0xa0 or c >= 0xf8 or byte(s, i + 1) <= 0xa0 then
-						c = s:sub(i, i + 1)
+						c = sub(s, i, i + 1)
 						if not goodGBK[c] then
 							badGBK[c] = true
 						end
@@ -125,10 +124,10 @@ for line in io.lines(arg[1]) do
 		if not tag then param = line:match "^%s*(%[[%w ]*%])%s*$" end
 		if param then
 			if tag then
-				tag = tag:gsub("%l", function(s) return string.char(s:byte(1) - 0x61) end)
+				tag = tag:gsub("%l", function(s) return char(byte(s, 1) - 0x61) end)
 				f:write(tag)
 			end
-			local c = param:sub(1, 1)
+			local c = sub(param, 1, 1)
 			if c == "\"" then
 				local isEnd, s = readString(param, 2)
 				if isEnd == true then
@@ -170,7 +169,7 @@ for line in io.lines(arg[1]) do
 			local pre
 			pre, tag, param = line:match "^([%-{])([%w_<=>?:;@][%u%d_?][%u%d_?][%u%d_?])%s*(.*)$"
 			if tag then
-				tag = tag:gsub("%l", function(s) return string.char(s:byte(1) - 0x61) end)
+				tag = tag:gsub("%l", function(s) return char(byte(s, 1) - 0x61) end)
 				if q then
 					local p = f:seek()
 					f:seek("set", q)
@@ -193,7 +192,7 @@ for line in io.lines(arg[1]) do
 						if e ~= "" then error("ERROR: invalid class param end at line " .. i) end
 						s = readBinary(s)
 						if s then
-							if tag == "TES4" and s:byte(1) ~= 1 then ver = 5 end
+							if tag == "TES4" and byte(s, 1) ~= 1 then ver = 5 end
 							if #s ~= ver * 4 - 4 then error("ERROR: invalid class param length at line " .. i) end
 							writeInt4(#s)
 							f:write(s)
