@@ -80084,7 +80084,7 @@ Journal CO_5 50"
  INFO.NAME "好极了 很高兴你能与我合作 从现在起，你的每项业务都将由我来完成。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
- INFO.BNAM "Journal ""选择"" 40
+ INFO.BNAM "Journal CO_Choice 40
 Set ColonySide to 1"
 -INFO
  INFO.INAM "250902982322346677$00"
@@ -80114,7 +80114,7 @@ Set ColonySide to 1"
  INFO.NAME "明智的决定 %PCRank 我偶尔会对你有特殊要求；现在，等你准备好执行下一个业务时再来找我吧。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
- INFO.BNAM "Journal ""选择"" 50
+ INFO.BNAM "Journal CO_Choice 50
 Set ColonySide to 2"
 -INFO
  INFO.INAM "6443273313180924741$00"
@@ -80164,7 +80164,7 @@ Set ColonySide to 2"
  INFO.NAME "相信我，我能给你比法尔科更好的条件 别被骗了 只要你对我有用，我就会容忍你。如果你表现足够好，这对你也有好处。很显然，我可以给你比法尔科更多的好处；好好为我服务，你就有可能取代法尔科的位置。花点时间好好考虑一下吧，%PCRank。 "
  INFO.SCVR "04JX3CO_Choice"
  INFO.INTV [14 00 00 00]
- INFO.BNAM "Journal ""选择"" 25"
+ INFO.BNAM "Journal CO_Choice 25"
 -INFO
  INFO.INAM "740273771187514530$00"
  INFO.PNAM "1198821995279888290$00"
@@ -80201,7 +80201,7 @@ Set ColonySide to 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
  INFO.NAME "我现在可以告诉你，我担任这个职位的真正原因是为了对抗卡尼乌斯的任何阴谋。我希望看到这个殖民地成功，%PCName，我相信你能帮助我看到它成功。我会给你一些时间考虑。当你准备好做出选择时，请告诉我。 "
- INFO.BNAM "Journal ""选择"" 22"
+ INFO.BNAM "Journal CO_Choice 22"
 -DIAL
  DIAL.NAME "发现$00"
  DIAL.DATA [00]
