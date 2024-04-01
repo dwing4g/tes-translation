@@ -410,35 +410,26 @@ local function findTopics(texts, matches, topicTree, topicMap, ignoreKeys) -- "I
 		end
 		local topics = {}
 		local i, j, n = 1, 1, #text
-		local curNode, bestTopic = topicTree
+		local curNode = topicTree
 		text = text:lower()
 		while j <= n do
 			local c = sub(text, i, i)
 			local nextNode = curNode[c]
 			if nextNode then
 				curNode = nextNode
-				if curNode[0] and (i >= n or sub(text, i + 1, i + 4):find "%W") then bestTopic = curNode[0] end
+				if curNode[0] and (i >= n or curNode[0]:find "%W" or sub(text, i + 1, i + 4):find "%W") then
+					topics[#topics + 1] = curNode[0]
+				end
 				i = i + 1
-			else
-				local topic = not c:find "%w" and curNode[0] or bestTopic
-				if topic then
-					topics[#topics + 1] = topic
-					j = j + 1 -- j = i
-					i = j
-				else
-					j = j + 1
-					i = j
-				end
+			elseif sub(text, j, j):find "%w" then
+				j = text:find("%W", j + 1) or n + 1
+				i = j
 				curNode = topicTree
-				bestTopic = nil
-				while i <= n and sub(text, i - 1, i - 1):find "%w" do
-					i = i + 1
-					j = i
-				end
+			else
+				j = j + 1
+				i = j
+				curNode = topicTree
 			end
-		end
-		if bestTopic then
-			topics[#topics + 1] = bestTopic
 		end
 		if ignoreKeys[key] then
 			topics = {}
@@ -583,7 +574,7 @@ local function fixTexts(src_filename, dst_filename)
 			end
 			f:write(prefix, addEscape(fixedText), "\"\r\n")
 		else
-			f:write(prefix, addEscape(t), "\"\r\n")
+			f:write(prefix, addEscape(t:gsub("%s*{.-}$", "")), "\"\r\n")
 		end
 	end
 	for line in io.lines(src_filename) do
