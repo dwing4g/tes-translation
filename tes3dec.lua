@@ -317,7 +317,7 @@ local function readFields(class, posEnd)
 				n = largeSize
 			end
 			largeSize = nil
-			local s = f:read(n)
+			local s = n > 0 and f:read(n) or ""
 			if not binaryTags[tag] and (stringTags[tag] or isStr(s)) then
 				write("\"", addEscape(s), "\"\n") -- :gsub("%z$", "")
 			else
@@ -343,14 +343,14 @@ local function readClasses(posEnd)
 		tag = tag:gsub("^[%z\x01-\x14]", function(s) return char(byte(s, 1) + 0x61) end)
 		if not classSize then
 			local p = f:seek()
-			classSize = tag == "TES3" and 8 or (byte(f:read(8), 5) == 1 and 12 or 16)
+			classSize = tag == "TES3" and 8 or (byte(f:read(0x14), 0x14) == 0 and 16 or 12)
 			classZeroData = ("\0"):rep(classSize)
 			f:seek("set", p)
 		end
 		count[tag] = (count[tag] or 0) + 1
 		local pre = tag == "GRUP" and "{" or "-"
 		write(RAW and format("%s%s", pre, tag) or format("%08X:%s%s", pos, pre, tag))
-		local n = readInt4(0x10000000)
+		local n = readInt4(0x40000000)
 		local b = f:read(classSize)
 		if b ~= classZeroData then
 			for j = 1, classSize do
@@ -365,7 +365,7 @@ local function readClasses(posEnd)
 		else
 			if math.floor(byte(b, 3) / 4) % 2 == 1 then
 				write(RAW and format(" ") or format("%08X: ", f:seek()))
-				b = f:read(n)
+				b = n > 0 and f:read(n) or ""
 				for i = 1, n do
 					write(format(i == 1 and "[%02X" or " %02X", byte(b, i)))
 				end

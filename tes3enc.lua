@@ -192,7 +192,7 @@ for line in io.lines(arg[1]) do
 						if e ~= "" then error("ERROR: invalid class param end at line " .. i) end
 						s = readBinary(s)
 						if s then
-							if tag == "TES4" and byte(s, 1) ~= 1 then ver = 5 end
+							if tag == "TES4" and #s == 0x10 then ver = 5 end
 							if #s ~= ver * 4 - 4 then error("ERROR: invalid class param length at line " .. i) end
 							writeInt4(#s)
 							f:write(s)
