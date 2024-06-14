@@ -92,7 +92,7 @@ Parsing Quests (this may take a while)$0ARe-save your game when done
 
 > GMST.STRV sGeneralMastPlugMismatchMsg
 One or more plugins could not find the correct versions of the master files they depend on. Errors may occur during load or game play. Check the "Warnings.txt" file for more information.
-当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看"Warnings.txt"文件以了解更多信息。
+当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看“Warnings.txt”文件以了解更多信息。
 
 > GMST.STRV s3dHardware
 Hardware Accelerated
@@ -7885,7 +7885,7 @@ The Paralyzed Barbarian
 
 > INFO.NAME mv_paralyzedbarbarian 779251481793721078
 I encountered Hisin Deep-Raed standing along the side of the road today. Well, "standing" is not the correct term; he was rooted to the spot.
-今天我遇到了站在路边的悉辛·深角。呃，"站着 "这个词用得不对，他整个人扎根在路边。
+今天我遇到了站在路边的悉辛·深角。呃，“站着”这个词用得不对，他整个人扎根在路边。
 
 > INFO.NAME mv_paralyzedbarbarian 1812630149166483941
 The barbarian deserves whatever has happened to him, and I don't feel he deserves my time.
@@ -8053,7 +8053,7 @@ Botrir was ecstatic about the recovery of Widowmaker, and it is easy to see why.
 
 > INFO.NAME mv_recoverwidowmaker 1875122874799212572
 Botrir has been killed while attempting to recover his prized axe, Widowmaker. It is a shame I'll never get to see him wield it.
-博特里尔在试图夺回他最珍贵的斧头 "寡妇制造者 "时被杀。可惜我再也看不到他挥舞斧头的样子了。 {手斧}
+博特里尔在试图夺回他最珍贵的斧头“寡妇制造者”时被杀。可惜我再也看不到他挥舞斧头的样子了。 {手斧}
 
 > INFO.NAME ms_gold_kanet_flower 21790168441709527819
 Roland's Tear
@@ -8061,7 +8061,7 @@ Roland's Tear
 
 > INFO.NAME ms_gold_kanet_flower 8914109682747830794
 Aurane Frernis needs me to find a rare gold kanet plant called Roland's Tear.
-奥拉妮·弗蕾尼斯需要我去寻找一种名为 "罗兰之泪 "的稀有金色卡内特植物。 {计划,泪城}
+奥拉妮·弗蕾尼斯需要我去寻找一种名为“罗兰之泪”的稀有金色卡内特植物。 {计划,泪城}
 
 > INFO.NAME ms_gold_kanet_flower 132524742323629620
 When I returned with the plant, Aurane Frernis made me a potion of luck.
@@ -8101,7 +8101,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_drarayne 1758611742222423214
 I spoke with Drarayne Girith who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与德拉雷恩·基里斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与德拉雷恩·基里斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_llandras 711088042237828794
 Sleepers Awake
@@ -8109,7 +8109,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_llandras 1172226896790414614
 I spoke with Llandras Belaal who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了他的命。
+我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_vireveri 20722124852575822469
 Sleepers Awake
@@ -8117,7 +8117,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_vireveri 575543361036629602
 I spoke with Vireveri Darethran who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与维雷维·达雷斯兰进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与维雷维·达雷斯兰进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME tr08_hlaalu_berano_a 5139110252506310878
 Evidence of Conspiracy
@@ -8253,7 +8253,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_rararyn 25202318922081722595
 I spoke with Rararyn Radarys who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我和拉拉林·拉达利斯谈过，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
+我和拉拉林·拉达利斯谈过，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_dravasa 16364148723028217310
 Sleepers Awake
@@ -8261,7 +8261,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_dravasa 12247240901074729678
 I spoke with Dravasa Andrethi who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与德拉瓦萨·安德雷斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与德拉瓦萨·安德雷斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_eralane 504730400218276445
 Sleepers Awake
@@ -8269,7 +8269,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_eralane 1011305542567023939
 I spoke with Eralane Hledas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与埃拉兰·赫莱达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与埃拉兰·赫莱达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_neldris 16732177242643421408
 Sleepers Awake
@@ -8277,7 +8277,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_neldris 22057227391776926384
 I spoke with Neldris Llervu who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与曾被达格斯·乌尔和第六家族的梦境逼疯的尼德里斯·列乌进行了交谈。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了他的命。
+我与曾被达格斯·乌尔和第六家族的梦境逼疯的尼德里斯·列乌进行了交谈。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_daynasa 1504425839234668384
 Sleepers Awake
@@ -8285,7 +8285,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_daynasa 1219225735367611930
 I spoke with Daynasa Telandas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与戴娜莎·特兰达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与戴娜莎·特兰达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleeperdreamer02 112649775745223824
 Strange Man at Gindrala Hleran's House
@@ -8657,7 +8657,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_dralas 321993120767157539
 I spoke with Dralas Gilu who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与德拉斯·吉鲁交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与德拉斯·吉鲁交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_vivyne 242041444813773589
 Sleepers Awake
@@ -8665,7 +8665,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_vivyne 2837827394178036360
 I spoke with Vivyne Andrano who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与薇薇安·安德拉诺进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位前 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与薇薇安·安德拉诺进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位前“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_nelmil 860810471778310433
 Sleepers Awake
@@ -8673,7 +8673,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_nelmil 28940186891535925034
 I spoke with Nelmil Hler who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与尼尔米尔·赫勒进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了他的命。
+我与尼尔米尔·赫勒进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_alvura 24824273881456220049
 Sleepers Awake
@@ -8681,7 +8681,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_alvura 54432187630028072
 I spoke with Alvura Othrenim who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与曾被达格斯·乌尔和第六家族的梦境逼疯的阿乌拉·奥瑟尼姆进行了交谈。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与曾被达格斯·乌尔和第六家族的梦境逼疯的阿乌拉·奥瑟尼姆进行了交谈。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_endris 2508197782198719629
 Sleepers Awake
@@ -8689,7 +8689,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_endris 230482768314203425
 I spoke with Endris Dilmyn who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与恩德里斯·迪尔明进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与恩德里斯·迪尔明进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME ic_8_nord_alms_not 12927145493109313094
 Imperial Cult: Alms from the Skyrim Mission
@@ -9277,7 +9277,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_relur 22642149702912726089
 I spoke with Relur Faryon who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与瑞鲁·法利昂进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
+我与瑞鲁·法利昂进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
 
 > INFO.NAME ic10_buckmoth_not 13181248902951117288
 Imperial Cult: Buckmoth Alms
@@ -9509,7 +9509,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepersawake 1708991852988121401
 I spoke with one who called himself a "Sleeper." He called me by name, and said, "You cannot deny your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory." He made no sense at all. I think he must have been mad.
-我和一个自称“沉睡者”的人交谈了，他叫着我的名字，说："你不能否认你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。" 他说得毫无道理，我想他一定是疯了。
+我和一个自称“沉睡者”的人交谈了，他叫着我的名字，说：“你不能否认你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。”他说得毫无道理，我想他一定是疯了。
 
 > INFO.NAME a1_sleepersawake 28779288811307621499
 I was attacked by someone called a "Sleeper," for no apparent reason.
@@ -9793,7 +9793,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_assi 2115151532317100
 I spoke with Assi Serimilk who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与阿西·瑟利弥克进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与阿西·瑟利弥克进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME ic15_missing_not 5197203051632417735
 Imperial Cult: Missing Limeware
@@ -13725,7 +13725,7 @@ There is a man in Fatleg's Dropoff in Hla Oad who would like me to deliver a sla
 
 > INFO.NAME mv_slavemule 1926731420284731967
 Vorar Helas has rewarded me well for my effort in bringing him his "payment." He has given me 400 septims and an enchanted ring. It's a shame about Rabinna; she would have been a fine slave, had she survived.
-沃拉尔·赫拉斯对我为他带来 "报酬 "所做的努力给予了很好的回报。他给了我 400 赛普汀和一枚附魔的戒指。拉冰娜的事真可惜，如果她能活下来，一定会是个很好的奴隶。
+沃拉尔·赫拉斯对我为他带来“报酬”所做的努力给予了很好的回报。他给了我 400 赛普汀和一枚附魔的戒指。拉冰娜的事真可惜，如果她能活下来，一定会是个很好的奴隶。
 
 > INFO.NAME mv_slavemule 3079159543179223700
 I've finally gotten Vorar Helas his moon sugar, and he's given me my payment.
@@ -13997,7 +13997,7 @@ The Silver Bowl
 
 > INFO.NAME ms_piernette 3798115811849424592
 I found a silver bowl with the inscription "To Armond Beluelle, from the East Empire Company, for courage and daring in the protection of the Company's couriers, with our thanks."
-我找到了一个银碗，上面刻着 "致东帝国公司的阿蒙德·贝卢尔，因保护公司信使的勇气和胆识，谨致谢意"。
+我找到了一个银碗，上面刻着“致东帝国公司的阿蒙德·贝卢尔，因保护公司信使的勇气和胆识，谨致谢意”。
 
 > INFO.NAME ms_piernette 1087211572809215544
 The silver bowl I found belonged to Piernette and Armond Beluelle. Armond had received the bowl as a gift from grateful merchants when he drove off bandits attacking one of the East Empire Company's couriers. I returned the bowl to her, and to show her gratitude, she gave me some very useful information about local merchants and how to get the best prices from them.
@@ -14061,7 +14061,7 @@ Blood Ties
 
 > INFO.NAME va_vampchild 20533129591663013241
 I have spoken to Dhaunayne Aundae, leader of the Aundae Clan in Morrowind. She has great disdain for me, considering me an "accident," but she seems willing to give me a task, as I am considered expendable.
-我已经和晨风昂戴氏族的首领道内妮·昂戴谈过了。她对我非常蔑视，认为我是个 "意外"，但她似乎愿意给我一个任务，因为我被认为是消耗品。
+我已经和晨风昂戴氏族的首领道内妮·昂戴谈过了。她对我非常蔑视，认为我是个“意外”，但她似乎愿意给我一个任务，因为我被认为是消耗品。
 
 > INFO.NAME va_vampchild 12230143002757432498
 I have decided not to attempt to find out the fate of Dhaunayne Aundae's son, Vilandon.
@@ -14625,7 +14625,7 @@ I heard that Archcanon Tholer Saryoni wishes to speak with me. I have been given
 
 > INFO.NAME tt_dagonfel 20687099146495723
 I made the Pilgrimage to Dagon Fel and read a passage from the Four Corners of the House of Troubles.
-我完成了大衮-费尔的朝圣，并诵读了一段《祸乱家族》中的 "四角"。
+我完成了大衮-费尔的朝圣，并诵读了一段《祸乱家族》中的“四角”。
 
 > INFO.NAME tt_aldsotha 19746324602896530844
 Temple: Mehrunes Dagon of the House of Troubles
@@ -14633,11 +14633,11 @@ Temple: Mehrunes Dagon of the House of Troubles
 
 > INFO.NAME tt_aldsotha 1845621926172309730
 Tholer Saryoni told me that the Second Corner of the House of Troubles is Mehrunes Dagon. I must find the statue of Mehrunes Dagon in Ald Sotha and read from Vivec's "Four Corners."
-索勒·萨里奥尼告诉我，《祸乱家族》的第二角是梅鲁涅斯·大衮。我必须在奥德-索萨找到梅鲁涅斯·大衮的雕像，然后读一段维威克的 "四角"。
+索勒·萨里奥尼告诉我，《祸乱家族》的第二角是梅鲁涅斯·大衮。我必须在奥德-索萨找到梅鲁涅斯·大衮的雕像，然后读一段维威克的“四角”。
 
 > INFO.NAME tt_aldsotha 2052466013088626591
 I made the Pilgrimage to Ald Sotha and read a passage from the Four Corners of the House of Troubles.
-我前往奥德-索萨朝圣，并诵读了一段《祸乱家族》中的 "四角"。
+我前往奥德-索萨朝圣，并诵读了一段《祸乱家族》中的“四角”。
 
 > INFO.NAME tt_staralor 2978812966831930916
 Temple: Foul Cult Beneath St. Delyn Canton
@@ -15073,7 +15073,7 @@ Imperial Cult: Boots of the Apostle
 
 > INFO.NAME ic26_amanin 247152866426488483
 Lalatia Varian, an Oracle of the Imperial cult, has been given a prophecy of the Boots of the Apostle, a legendary treasure of Cyrodiil, relics of Tiber Septim who was also called Talos. "Through the doors of Berandas, within the silent caverns, beneath the wings of twilight, dust sleeps in the shoes that Talos wore." The Oracle bid me retrieve the Boots of the Apostle. A Dunmer savant or Dunmer scout may have clues to the meaning of the Oracle's prophetic words.
-帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。"穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。" 先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人}
+帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。“穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。”先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人}
 
 > INFO.NAME ic26_amanin 25980298942494824563
 I retrieved the Boots of the Apostle from Berandas and brought them to Lalatia Varian. She praised me, and said that I was meant to keep the boots for myself, and that I should dedicate them to the service of the Nine. The Oracle said to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -15713,7 +15713,7 @@ Fjol the Outlaw
 
 > INFO.NAME mv_bastard 10783138501037332306
 General Larrius Varro in Fort Moonmoth has warned me of a Nord Bandit who is accosting travelers somewhere near Hla Oad. I get the feeling he wouldn't mind if I could "take care" of this problem for him.
-月蛾要塞的拉里乌斯·瓦罗将军警告我，有一个诺德人正在哈拉-奥德附近的某个地方搭讪旅行者。我感觉他不会介意我帮他 "解决 "这个问题。
+月蛾要塞的拉里乌斯·瓦罗将军警告我，有一个诺德人正在哈拉-奥德附近的某个地方搭讪旅行者。我感觉他不会介意我帮他“解决”这个问题。
 
 > INFO.NAME mv_bastard 16328275922379743
 I paid Fjol the 100 gold.
@@ -16249,7 +16249,7 @@ Bugrol wanted me to deliver a note he gave me to his friend Bashuk gra-Bat in Ca
 
 > INFO.NAME mv_bugrol 9155322791675011351
 There don't seem to be any more notes to pass between Bugrol and Bashuk, thank the gods. I feel I'm actually a bit stupider for ever having talked to either one of them. But, the fool did give me a diamond as his "present." Apparently he thought it was just a shiny rock. Probably found it while he was "hiding."
-感谢上帝，布格罗尔和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为 "礼物"。显然，他以为那只是一块闪闪发光的石头。可能是他在 "躲藏 "的时候发现的。
+感谢上帝，布格罗尔和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为“礼物”。显然，他以为那只是一块闪闪发光的石头。可能是他在“躲藏”的时候发现的。
 
 > INFO.NAME il_damsel 3229511837222556342
 Imperial Legion: Rescue Dandsa
@@ -16405,11 +16405,11 @@ Temple: Molag Bal of the House of Troubles
 
 > INFO.NAME tt_balur 9922187322699931682
 Tholer Saryoni told me that the Third Corner of the House of Troubles is Molag Bal. I must find the statue of Molag Bal in Bal Ur and recite Vivec's "Four Corners." Bal Ur is north of Suran, but I will need to levitate over the mountains to get there easily.
-索勒·萨里奥尼告诉我，《祸乱家族》的第三角是莫拉格·巴尔。我必须在巴尔·乌尔找到莫拉格·巴尔的雕像，并背诵维威克的 "四角"。巴尔·乌尔在苏兰以北，但我需要飞跃山脉才能轻松到达。
+索勒·萨里奥尼告诉我，《祸乱家族》的第三角是莫拉格·巴尔。我必须在巴尔·乌尔找到莫拉格·巴尔的雕像，并背诵维威克的“四角”。巴尔·乌尔在苏兰以北，但我需要飞跃山脉才能轻松到达。
 
 > INFO.NAME tt_balur 1922446231583025364
 I made the Pilgrimage to Bal Ur and read a passage from the Four Corners of the House of Troubles.
-我前往巴尔·乌尔朝圣，并诵读了一段《祸乱家族》中的 "四角"。
+我前往巴尔·乌尔朝圣，并诵读了一段《祸乱家族》中的“四角”。
 
 > INFO.NAME tt_mawia 212829766317025311
 Temple: Necromancer in Mawia
@@ -16429,7 +16429,7 @@ The Citadels of the Sixth House
 
 > INFO.NAME c0_act_c 5577172482054226658
 In Citadel Vemynal I discovered an enchanted hammer called Sunder. It appears to be one of the enchanted tools created by the Dwemer Craftlord Kagrenac. But I can handle it without injury when I don't have Wraithguard equipped, and that seems very wrong.
-在维密纳尔城堡，我发现了一把名为 "决裂 "的附魔锤子。它似乎是卡格瑞纳克的附魔工具中的一种，由锻莫族附魔师卡格瑞纳克创造。但我在没有装备幽魂影卫的情况下也可以使用它而不会受伤，这似乎非常不对。
+在维密纳尔城堡，我发现了一把名为“决裂”的附魔锤子。它似乎是卡格瑞纳克的附魔工具中的一种，由锻莫族附魔师卡格瑞纳克创造。但我在没有装备幽魂影卫的情况下也可以使用它而不会受伤，这似乎非常不对。
 
 > INFO.NAME da_azura 11231143491734225761
 Azura's Quest
@@ -18633,7 +18633,7 @@ We understand you were visited by some Dark Brotherhood assassins. A regrettable
 
 > INFO.NAME what you should know 3235232037907915816
 Our king is a paranoid. I know, I know...it's treason to even think that sort of stuff, but it's true. He always thinks someone is out to get him. The man's had me checking into a different conspiracy every week for the last month. I keep telling him, "You're king. You're gonna have enemies!" Does he listen? Psssh. This time, though, there might be something to it. I've found some disturbing information.
-我们的国王是个偏执狂。我懂，我懂……思考这种事都算是叛国，但这是事实。他总觉得有人要对付他。在过去的一个月里，他让我每周都去查各种各样的阴谋。我一直告诉他，"你是王。你肯定有敌人啊！"他听了吗？噗嗤（笑）。不过，这一次，可能有点东西。我发现了一些令人不安的信息。
+我们的国王是个偏执狂。我懂，我懂……思考这种事都算是叛国，但这是事实。他总觉得有人要对付他。在过去的一个月里，他让我每周都去查各种各样的阴谋。我一直告诉他，“你是王。你肯定有敌人啊！”他听了吗？噗嗤（笑）。不过，这一次，可能有点东西。我发现了一些令人不安的信息。
 
 > INFO.NAME no public appearance 611891828480126
 You know about Almsivi, the Living Gods of our Temple? Gods, but at the same time, living folks like you and me. Almalexia, the Lady of Mercy, walked the streets of Mournhold Herself, healed the sick, fed the poor -- gave them clothes from Her own hand. The same with Lord Vivec. Then, ten years ago, about the time of the Ghostfence, They stopped appearing in public -- needed all Almsivi's power for the Ghostfence, They said. High priests still talk with Them, but we don't see Them.
@@ -22991,7 +22991,7 @@ Where to start. Probably in Balmora. That's the House Hlaalu district seat. They
 
 > INFO.NAME little advice 290424981117230807
 Phew. You're bittergreen green, outlander. Might as well wear a sign, "New in Town." Word of advice. Buy a little good will. Lose a few drakes, gain a friend. Folks will loosen up if your spread a little of the Emperor's gold around.
-呼。你是苦绿，外地人。还不如挂个牌子 "新来的" 给你个建议，买点好感，失去几个龙币，得到一个朋友。如果你把皇帝的金币散播出去，人们就会放松警惕了。
+呼。你是苦绿，外地人。还不如挂个牌子“新来的”给你个建议，买点好感，失去几个龙币，得到一个朋友。如果你把皇帝的金币散播出去，人们就会放松警惕了。
 
 > INFO.NAME little advice 2136124912127065261
 Your first visit to Morrowind, outlander? Then learn the law and local customs. Get a copy of Law and Custom in Morrowind. Slavery is legal here. Foul murder is illegal, but if he strikes the first blow, you're in the clear. A verbal attack is illegal, just like an unprovoked physical attack. Folks are touchy about personal honor. Watch your tongue, or you'll get called out to a duel.
@@ -23039,7 +23039,7 @@ We've had a lot of trouble with blight monsters escaping through the Ghostfence 
 
 > INFO.NAME little advice 29808239682462111553
 Visit the Tower shrine, and ask the priests there about it. Quite a story. 'To you, Lord Dagon, I bite my thumb.'  Hah hah hah. Quite a trick. Maybe, if you're a questing hero, you'd like to match your wits against a Daedra?
-参观塔楼圣祠，向那里的祭司打听一下。故事不错 "为了你，达贡大人，我咬破了大拇指。哈哈哈。真是个小把戏。也许，如果你是个探险英雄，你想和迪德拉比试比试？
+参观塔楼圣祠，向那里的祭司打听一下。故事不错“为了你，达贡大人，我咬破了大拇指。”哈哈哈。真是个小把戏。也许，如果你是个探险英雄，你想和迪德拉比试比试？
 
 > INFO.NAME little advice 66814576200015326
 Not much up here to keep a questing hero like yourself busy, I'm afraid. It's pretty quiet, and that's the way we like it. You might take a look at the Daedric ruins to the southwest, though. Don't know anything about them, myself. No business fooling with that stuff. But they say a lot of those old sites have hidden treasures.
@@ -23095,7 +23095,7 @@ Since you're here, you should take a look at the Mask of Vivec. Ask Mehra Drora 
 
 > INFO.NAME little advice 686453462120328096
 I bet you couldn't throw a stone around here without hitting a smuggler. 'Smuggler's Coast' is what they call this stretch of coast from Seyda Neen north to West Gash. Now, no one HERE would think of trying to cheat the Emperor of his taxes. No. We're loyal citizens.
-我敢打赌，在这里扔石头一定会砸到走私者。走私者海岸 "是他们对从赛达尼恩向北到西境之痕这段海岸的称呼。这里没有人会想去偷税漏税。不，我们是忠诚的公民。
+我敢打赌，在这里扔石头一定会砸到走私者。“走私者海岸”是他们对从赛达尼恩向北到西境之痕这段海岸的称呼。这里没有人会想去偷税漏税。不，我们是忠诚的公民。
 
 > INFO.NAME little advice 32358161091915225615
 A fellow looking for trouble might take a peek around in the old Daedric ruins on an island to the south. Probably safer than stirring up trouble in town, anyway.
@@ -23659,11 +23659,11 @@ This is a dangerous place, so none of the House people will come here. So we hav
 
 > INFO.NAME little secret 673821472106711099
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，恩瓦，给你个建议：普罗普隆，去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做 "丙龙索引 "的小东西。有个家伙想卖给我一把，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却忘了回来。所以也许丙龙索引和他一起去了那里。并留在了那里。 {提示,财富,迪德拉式}
+我喜欢你的风格，恩瓦，给你个建议：普罗普隆，去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“丙龙索引”的小东西。有个家伙想卖给我一把，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却忘了回来。所以也许丙龙索引和他一起去了那里。并留在了那里。 {提示,财富,迪德拉式}
 
 > INFO.NAME little secret 785732822678819521
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，恩瓦，给你个建议：普罗普隆，去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做 "丙龙索引 "的小东西。有个家伙想卖给我一把，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却忘了回来。所以也许丙龙索引和他一起去了那里。并留在了那里。 {提示,财富,迪德拉式}
+我喜欢你的风格，恩瓦，给你个建议：普罗普隆，去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“丙龙索引”的小东西。有个家伙想卖给我一把，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却忘了回来。所以也许丙龙索引和他一起去了那里。并留在了那里。 {提示,财富,迪德拉式}
 
 > INFO.NAME little secret 826321646924279
 Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.
@@ -23991,7 +23991,7 @@ In Morrowind, we don't like to hear about vampires. We know that, back West, the
 
 > INFO.NAME little secret 235328504303744698
 They say a vampire can hide among us? Nonsense. One look at the face, and you know a vampire. You can't disguise that. You can wear a helmet. But here in Morrowind, we don't trust anyone who won't take off a helmet in public. In Morrowind, someone like that is looking to spend some time in a big, hot fire.
-他们说吸血鬼可以藏在我们中间？胡说八道。只要看一眼吸血鬼的脸，你就知道他是吸血鬼。你无法伪装。你可以戴头盔。但在晨风，我们不相信在公共场合不摘头盔的人。在，"晨风"，这样的人是想在炙热的大火中度过一段时间。
+他们说吸血鬼可以藏在我们中间？胡说八道。只要看一眼吸血鬼的脸，你就知道他是吸血鬼。你无法伪装。你可以戴头盔。但在晨风，我们不相信在公共场合不摘头盔的人。在，“晨风”，这样的人是想在炙热的大火中度过一段时间。
 
 > INFO.NAME little secret 75681631840484552
 They say they don't have much of a problem here with vampires. From my experience, that's the truth in the settled parts of Vvardenfell. But in the backcountry, you hear rumors. Out near Dagon Fel, Maar Gan, Molag Mar, you hear people talk of running into vampires in Dwemer ruins, and in ancestral tombs. Best to be careful. You don't want to run into those babies. And if you do, you want a nice, crisp copy of Divine Intervention so you can get safe, fast, all in one piece.
@@ -24003,11 +24003,11 @@ Vampires are not as much of a problem here as back in the West. Here, the Dark E
 
 > INFO.NAME little secret 892231101795131411
 Why is the Temple so upset about this Nerevarine prophecy? Crazy old gentlemen, wandering around the ashlands and staring at the sun, talking to themselves. Big deal. 'Lord Nerevar is coming back to save Morrowind.' About time, I say. Where was he when the Empire walked in here and took over?
-为什么神殿对尼瑞瓦因的预言如此不满？疯狂的老先生们，在灰烬之地游荡，盯着太阳自言自语：有什么大不了的 '尼瑞瓦大人要回来拯救晨风了。是时候了，帝国攻占这里的时候他在哪里？ {谈,泰姆瑞尔帝国}
+为什么神殿对尼瑞瓦因的预言如此不满？疯狂的老先生们，在灰烬之地游荡，盯着太阳自言自语，有什么大不了的。“尼瑞瓦大人要回来拯救晨风了。”是时候了，帝国攻占这里的时候他在哪里？ {谈,泰姆瑞尔帝国}
 
 > INFO.NAME little secret 30817306222626921607
 Why is the Temple so upset about this Nerevarine prophecy? Crazy old gentlemen, wandering around the ashlands and staring at the sun, talking to themselves. Big deal. 'Lord Nerevar is coming back to save Morrowind.' About time, I say. Where was he when the Empire walked in here and took over?
-为什么神殿对尼瑞瓦因的预言如此不满？疯狂的老先生们，在灰烬之地游荡，盯着太阳自言自语：有什么大不了的 '尼瑞瓦大人要回来拯救晨风了。是时候了，帝国攻占这里的时候他在哪里？ {谈,泰姆瑞尔帝国}
+为什么神殿对尼瑞瓦因的预言如此不满？疯狂的老先生们，在灰烬之地游荡，盯着太阳自言自语，有什么大不了的。“尼瑞瓦大人要回来拯救晨风了。”是时候了，帝国攻占这里的时候他在哪里？ {谈,泰姆瑞尔帝国}
 
 > INFO.NAME little secret 3129563472997422941
 Somebody said Larrius Varro over at Fort Moonmoth is looking for you. Said he wanted to talk to you. Don't know what about.
@@ -24303,7 +24303,7 @@ The Great Houses have named you Hortator? Remarkable. My staff have kept me up-t
 
 > INFO.NAME latest rumors 2909914043309362504
 I'm told you claim to be the Incarnate -- Nerevar reborn according to legend. My father used to say, 'When you hear something unbelievable, don't believe it.' From what I hear, your story is remarkable enough without relying on ancient prophecies. I suggest you stand upon your reputation, and leave superstitions to the prophets and holy men.
-我听说你自称是 "化身"--传说中重生的尼瑞瓦。我父亲常说，"当你听到难以置信的事情时，不要相信它"。'据我所知，你的故事已经够精彩了，不需要再依赖古老的预言。我建议你以自己的名声为重，把迷信留给先知和圣人吧。
+我听说你自称是“化身”--传说中重生的尼瑞瓦。我父亲常说，“当你听到难以置信的事情时，不要相信它”。'据我所知，你的故事已经够精彩了，不需要再依赖古老的预言。我建议你以自己的名声为重，把迷信留给先知和圣人吧。
 
 > INFO.NAME latest rumors 2006019135927810663
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
@@ -24491,7 +24491,7 @@ Have you heard about the noble girl and her special friend, the bandit? The poet
 
 > INFO.NAME latest rumors 12688252452795913279
 Tsiya has a little bit of a "sweet tooth," if you know what I mean. I heard her connection hasn't arrived yet, though, and she's been acting a bit jumpy.
-提赛亚有点 "爱吃甜食"，你懂我的意思吧？不过我听说她的联系还没到，她有点神经兮兮的。
+提赛亚有点“爱吃甜食”，你懂我的意思吧？不过我听说她的联系还没到，她有点神经兮兮的。
 
 > INFO.NAME latest rumors 1176121248666920157
 I heard Orvas Dren is really cracking down on escaped slaves. He's hired bounty hunters to track down any who would help them.
@@ -24515,7 +24515,7 @@ Dro'Zaymar, a Khajiit in St. Delyn, can jump higher than anyone I know. I wonder
 
 > INFO.NAME latest rumors 29464191702272012639
 An Orc over at the Gateway Inn in Sadrith Mora by the name of Gluronk was bragging about how her boss gave her a "sanguine belt."
-萨德瑞斯-莫拉的闸门旅馆里一个叫格鲁隆克的兽人在吹嘘她的老板如何给了她一条 "桑吉恩腰带"。
+萨德瑞斯-莫拉的闸门旅馆里一个叫格鲁隆克的兽人在吹嘘她的老板如何给了她一条“桑吉恩腰带”。
 
 > INFO.NAME latest rumors 2755722079225508269
 Navil and Ranes Ienith are the Camonna Tong's best enforcers. They work for Orvas Dren.
@@ -25167,7 +25167,7 @@ The guys who are making the REAL money are the tax agents and bureaucrats. They 
 
 > INFO.NAME latest rumors 1852524193257812094
 You won't believe what old Avus said yesterday. 'I could live in a nutshell and be consumed with infinite space were it not that I have bad dreams.' What the hell is he talking about?
-你不会相信老艾弗斯昨天说的话 "要不是做噩梦，我可以活在果壳里，被无限的空间吞噬。他到底在说什么？ {谈}
+你不会相信老艾弗斯昨天说的话。“要不是做噩梦，我可以活在果壳里，被无限的空间吞噬。”他到底在说什么？ {谈}
 
 > INFO.NAME latest rumors 143422529196337269
 And how do you think it was that bloated Imperial plutocrats got the charter to exploit the Caldera ebony deposits, and not a native Great House or local colonist? Big fat bribes, I tell you. And friends in high places.
@@ -25303,7 +25303,7 @@ Have you noticed, for all its proclamations about protecting the rights of prope
 
 > INFO.NAME latest rumors 2555865252055214313
 At first, it seemed the fuss about the Nerevarine prophecy was just silly superstition. Then I learned that the Dunmer have been waiting for Lord Nerevar to come back for centuries. The 'Incarnate', they call it. Every few years an Ashlander appears, and the tribes call him the Incarnate. Then the Temple goes out, hunts him down, and reveals him as a fake. Why does the Temple worry so much about it?
-起初，关于尼瑞瓦因预言的大惊小怪似乎只是愚蠢的迷信。后来我才知道，丹莫几个世纪以来一直在等待尼瑞瓦领主回来。他们称之为 "化身"。每隔几年就会有一个灰烬之民出现，部落都称他为 "化身。然后神殿出动，追捕他，揭穿他是假的。神殿为什么这么担心？
+起初，关于尼瑞瓦因预言的大惊小怪似乎只是愚蠢的迷信。后来我才知道，丹莫几个世纪以来一直在等待尼瑞瓦领主回来。他们称之为“化身”。每隔几年就会有一个灰烬之民出现，部落都称他为化身。然后神殿出动，追捕他，揭穿他是假的。神殿为什么这么担心？
 
 > INFO.NAME latest rumors 16027228191418416208
 The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a debt of gratitude.

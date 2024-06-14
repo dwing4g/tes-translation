@@ -92,7 +92,7 @@ Parsing Quests (this may take a while)$0ARe-save when done.
 
 > GMST.STRV sGeneralMastPlugMismatchMsg
 One or more plugins could not find the correct versions of the master files they depend on. Errors may occur during load or game play. Check the "Warnings.txt" file for more information.
-当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看"Warnings.txt"文件以了解更多信息。
+当前版本主文件所依赖的一个或多个插件未被找到，在游玩或者载入游戏的过程中可能导致错误。查看“Warnings.txt”文件以了解更多信息。
 
 > GMST.STRV s3dHardware
 Hardware Accelerated
@@ -4598,7 +4598,7 @@ C. Magius<BR>"""
 <BR>
 一百<BR>
 <BR>
-东帝国公司鸦石分部普通股（以下简称"本公司"）的缴足股款且不应纳税的股份，每股面值为一（1）枚赛普汀币，可由持有人本人或持有人的正式授权代表在交出经适当的本证书后在公司账簿上转让。<BR>
+东帝国公司鸦石分部普通股（以下简称“本公司”）的缴足股款且不应纳税的股份，每股面值为一（1）枚赛普汀币，可由持有人本人或持有人的正式授权代表在交出经适当的本证书后在公司账簿上转让。<BR>
 本证书及其所代表的股份的发行和持有应遵守公司章程和公司章规（其副本在公司总部存档）的所有规定，所有通过接受持有人同意。除非由转让代理人签署并由注册处登记，否则该证书无效。<BR>
 兹证明，本公司已安排其正式授权人员的亲笔签名和印有公司印章的副本件签署本证书。<BR>
 <BR>
@@ -6739,7 +6739,7 @@ The Paralyzed Barbarian
 
 > INFO.NAME mv_paralyzedbarbarian 779251481793721078
 I encountered Hisin Deep-Raed standing along the side of the road today. Well, "standing" is not the correct term; he was rooted to the spot.
-今天我遇到了站在路边的悉辛·深角。呃，"站着 "这个词用得不对，他整个人扎根在路边。
+今天我遇到了站在路边的悉辛·深角。呃，“站着”这个词用得不对，他整个人扎根在路边。
 
 > INFO.NAME mv_paralyzedbarbarian 1812630149166483941
 The barbarian deserves whatever has happened to him, and I don't feel he deserves my time.
@@ -6895,7 +6895,7 @@ Botrir was ecstatic about the recovery of Widowmaker, and it is easy to see why.
 
 > INFO.NAME mv_recoverwidowmaker 1875122874799212572
 Botrir has been killed while attempting to recover his prized axe, Widowmaker. It is a shame I'll never get to see him wield it.
-博特里尔在试图夺回他最珍贵的斧头 "寡妇制造者 "时被杀。可惜我再也看不到他挥舞斧头的样子了。 {手斧}
+博特里尔在试图夺回他最珍贵的斧头“寡妇制造者”时被杀。可惜我再也看不到他挥舞斧头的样子了。 {手斧}
 
 > INFO.NAME ms_gold_kanet_flower 21790168441709527819
 Roland's Tear
@@ -6903,7 +6903,7 @@ Roland's Tear
 
 > INFO.NAME ms_gold_kanet_flower 8914109682747830794
 Aurane Frernis needs me to find a rare gold kanet plant called Roland's Tear.
-奥拉妮·弗蕾尼斯需要我去寻找一种名为 "罗兰之泪 "的稀有金色卡内特植物。 {计划,泪城}
+奥拉妮·弗蕾尼斯需要我去寻找一种名为“罗兰之泪”的稀有金色卡内特植物。 {计划,泪城}
 
 > INFO.NAME ms_gold_kanet_flower 132524742323629620
 When I returned with the plant, Aurane Frernis made me a potion of luck.
@@ -6943,7 +6943,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_drarayne 1758611742222423214
 I spoke with Drarayne Girith who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与德拉雷恩·基里斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与德拉雷恩·基里斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_llandras 711088042237828794
 Sleepers Awake
@@ -6951,7 +6951,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_llandras 1172226896790414614
 I spoke with Llandras Belaal who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了他的命。
+我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_vireveri 20722124852575822469
 Sleepers Awake
@@ -6959,7 +6959,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_vireveri 575543361036629602
 I spoke with Vireveri Darethran who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与维雷维·达雷斯兰进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与维雷维·达雷斯兰进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME hh_literacycampaign 2904023318816014302
 House Hlaalu: Literacy Campaign
@@ -7083,7 +7083,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_rararyn 25202318922081722595
 I spoke with Rararyn Radarys who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我和拉拉林·拉达利斯谈过，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
+我和拉拉林·拉达利斯谈过，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_dravasa 16364148723028217310
 Sleepers Awake
@@ -7091,7 +7091,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_dravasa 12247240901074729678
 I spoke with Dravasa Andrethi who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与德拉瓦萨·安德雷斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与德拉瓦萨·安德雷斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_eralane 504730400218276445
 Sleepers Awake
@@ -7099,7 +7099,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_eralane 1011305542567023939
 I spoke with Eralane Hledas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与埃拉兰·赫莱达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与埃拉兰·赫莱达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_neldris 16732177242643421408
 Sleepers Awake
@@ -7107,7 +7107,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_neldris 22057227391776926384
 I spoke with Neldris Llervu who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与曾被达格斯·乌尔和第六家族的梦境逼疯的尼德里斯·列乌进行了交谈。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了他的命。
+我与曾被达格斯·乌尔和第六家族的梦境逼疯的尼德里斯·列乌进行了交谈。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_daynasa 1504425839234668384
 Sleepers Awake
@@ -7115,7 +7115,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_daynasa 1219225735367611930
 I spoke with Daynasa Telandas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与戴娜莎·特兰达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与戴娜莎·特兰达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleeperdreamer02 112649775745223824
 Strange Man at Gindrala Hleran's House
@@ -7439,7 +7439,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_dralas 321993120767157539
 I spoke with Dralas Gilu who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与德拉斯·吉鲁交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与德拉斯·吉鲁交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_vivyne 242041444813773589
 Sleepers Awake
@@ -7447,7 +7447,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_vivyne 2837827394178036360
 I spoke with Vivyne Andrano who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与薇薇安·安德拉诺进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位前 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与薇薇安·安德拉诺进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位前“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_nelmil 860810471778310433
 Sleepers Awake
@@ -7455,7 +7455,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_nelmil 28940186891535925034
 I spoke with Nelmil Hler who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与尼尔米尔·赫勒进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了他的命。
+我与尼尔米尔·赫勒进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_alvura 24824273881456220049
 Sleepers Awake
@@ -7463,7 +7463,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_alvura 54432187630028072
 I spoke with Alvura Othrenim who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与曾被达格斯·乌尔和第六家族的梦境逼疯的阿乌拉·奥瑟尼姆进行了交谈。这位曾经的 "沉睡者 "向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与曾被达格斯·乌尔和第六家族的梦境逼疯的阿乌拉·奥瑟尼姆进行了交谈。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_endris 2508197782198719629
 Sleepers Awake
@@ -7471,7 +7471,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_endris 230482768314203425
 I spoke with Endris Dilmyn who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与恩德里斯·迪尔明进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与恩德里斯·迪尔明进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME ic_8_nord_alms_not 12927145493109313094
 Imperial Cult: Alms from the Skyrim Mission
@@ -8027,7 +8027,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_relur 22642149702912726089
 I spoke with Relur Faryon who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与瑞鲁·法利昂进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
+我与瑞鲁·法利昂进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并承诺会告诉其他人我是如何救了他的命。
 
 > INFO.NAME ic10_buckmoth_not 13181248902951117288
 Imperial Cult: Buckmoth Alms
@@ -8211,7 +8211,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepersawake 1708991852988121401
 I spoke with one who called himself a "Sleeper." He called me by name, and said, "You cannot deny your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory." He made no sense at all. I think he must have been mad.
-我和一个自称“沉睡者”的人交谈了，他叫着我的名字，说："你不能否认你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。" 他说得毫无道理，我想他一定是疯了。
+我和一个自称“沉睡者”的人交谈了，他叫着我的名字，说：“你不能否认你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。”他说得毫无道理，我想他一定是疯了。
 
 > INFO.NAME a1_sleepersawake 28779288811307621499
 I was attacked by someone called a "Sleeper," for no apparent reason.
@@ -8495,7 +8495,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_assi 2115151532317100
 I spoke with Assi Serimilk who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与阿西·瑟利弥克进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的 "沉睡者 "向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与阿西·瑟利弥克进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME ic15_missing_not 5197203051632417735
 Imperial Cult: Missing Limeware
@@ -12267,7 +12267,7 @@ There is a man in Fatleg's Dropoff in Hla Oad who would like me to deliver a sla
 
 > INFO.NAME mv_slavemule 1926731420284731967
 Vorar Helas has rewarded me well for my effort in bringing him his "payment." He has given me 400 septims and an enchanted ring. It's a shame about Rabinna; she would have been a fine slave, had she survived.
-沃拉尔·赫拉斯对我为他带来 "报酬 "所做的努力给予了很好的回报。他给了我 400 赛普汀和一枚附魔的戒指。拉冰娜的事真可惜，如果她能活下来，一定会是个很好的奴隶。
+沃拉尔·赫拉斯对我为他带来“报酬”所做的努力给予了很好的回报。他给了我 400 赛普汀和一枚附魔的戒指。拉冰娜的事真可惜，如果她能活下来，一定会是个很好的奴隶。
 
 > INFO.NAME mv_slavemule 3079159543179223700
 I've finally gotten Vorar Helas his moon sugar, and he's given me my payment.
@@ -12539,7 +12539,7 @@ The Silver Bowl
 
 > INFO.NAME ms_piernette 3798115811849424592
 I found a silver bowl with the inscription "To Armond Beluelle, from the East Empire Company, for courage and daring in the protection of the Company's couriers, with our thanks."
-我找到了一个银碗，上面刻着 "致东帝国公司的阿蒙德·贝卢尔，因保护公司信使的勇气和胆识，谨致谢意"。
+我找到了一个银碗，上面刻着“致东帝国公司的阿蒙德·贝卢尔，因保护公司信使的勇气和胆识，谨致谢意”。
 
 > INFO.NAME ms_piernette 1087211572809215544
 The silver bowl I found belonged to Piernette and Armond Beluelle. Armond had received the bowl as a gift from grateful merchants when he drove off bandits attacking one of the East Empire Company's couriers. I returned the bowl to her, and to show her gratitude, she gave me some very useful information about local merchants and how to get the best prices from them.
@@ -12603,7 +12603,7 @@ Blood Ties
 
 > INFO.NAME va_vampchild 20533129591663013241
 I have spoken to Dhaunayne Aundae, leader of the Aundae Clan in Morrowind. She has great disdain for me, considering me an "accident," but she seems willing to give me a task, as I am considered expendable.
-我已经和晨风昂戴氏族的首领道内妮·昂戴谈过了。她对我非常蔑视，认为我是个 "意外"，但她似乎愿意给我一个任务，因为我被认为是消耗品。
+我已经和晨风昂戴氏族的首领道内妮·昂戴谈过了。她对我非常蔑视，认为我是个“意外”，但她似乎愿意给我一个任务，因为我被认为是消耗品。
 
 > INFO.NAME va_vampchild 12230143002757432498
 I have decided not to attempt to find out the fate of Dhaunayne Aundae's son, Vilandon.
@@ -12839,7 +12839,7 @@ I met an odd old man living in a small workshop, out in the wilderness of Solsth
 
 > INFO.NAME bm_moonsugar 784622695589628482
 I convinced Uncle Sweetshare to give me his white helm, which I shall turn into Severia Gratius at Fort Frostmoth as "proof" of his execution.  The madman promised me he'd stop slipping moon sugar into people's food and drink.  I can only hope he has wits enough to keep his word.
-我说服甜糖叔叔把他的白色头盔交给我，我将在霜蛾要塞把它变成塞维莉娅·格瑞修斯，作为处决他的 "证据"。那个疯子向我保证，他不会再往人们的食物和饮料里放月亮糖了。我只能希望他有足够的智慧信守诺言。 {沙尔}
+我说服甜糖叔叔把他的白色头盔交给我，我将在霜蛾要塞把它变成塞维莉娅·格瑞修斯，作为处决他的“证据”。那个疯子向我保证，他不会再往人们的食物和饮料里放月亮糖了。我只能希望他有足够的智慧信守诺言。 {沙尔}
 
 > INFO.NAME bm_moonsugar 9505254441176519208
 Uncle Sweetshare is dead by my hand.  I must return his white Colovian fur helm to Severia Gratius at Fort Frostmoth as proof of the deed, and collect my reward.
@@ -12859,7 +12859,7 @@ I found the door to Hrothmund's Barrow and tried to gain entrance. I uttered the
 
 > INFO.NAME bm_airship_a 2851025028259359328
 I found the door to Hrothmund's Barrow and uttered the name of the wolf -- "Ondjage" -- to gain entrance.
-我找到了霍斯蒙德之冢的大门，并喊出了狼的名字--"昂贾格"--才得以进入。
+我找到了霍斯蒙德之冢的大门，并喊出了狼的名字--“昂贾格”--才得以进入。
 
 > INFO.NAME bm_ceremony1 90684239968231409
 The Totem of Claw and Fang
@@ -12999,7 +12999,7 @@ The raven turned out to be one of the Glenmoril Witches. She offered me a cure f
 
 > INFO.NAME bm_wolfgiver 53312936108712758
 The raven is actually a witch of Glenmoril Wyrd in animal form. She offered to cure my lycanthropy, and I accepted. I'm off to meet her sisters, and begin the "Rite of the Wolf Giver," whatever that may be....
-乌鸦其实是动物形态的格伦摩尔巫妖。她提出治疗我的变狼症，我接受了。我要去见她的姐妹们，并开始 "狼人赠与者仪式"，不管那是什么……
+乌鸦其实是动物形态的格伦摩尔巫妖。她提出治疗我的变狼症，我接受了。我要去见她的姐妹们，并开始“狼人赠与者仪式”，不管那是什么……
 
 > INFO.NAME bm_wolfgiver 5111164642869717568
 The witch Ettiene told me to talk to her sisters and complete whatever errands they may give. After I have done so, I am to talk to Ettiene again.
@@ -13023,7 +13023,7 @@ I spoke once more with the witch Ettiene.  The witches will use the ingredients 
 
 > INFO.NAME bm_wolfgiver 27736213131340021915
 I met Ettiene at the Altar of Thrond. She has "acquired" an innocent to serve as a human sacrifice.  If I wish to never again become a werewolf, I must kill the innocent, take the heart from its body, and give it to Ettiene.
-我在瑟隆德祭坛见到了艾缇娜。她 "获得 "了一名无辜者作为人祭。如果我想永远不再成为狼人，就必须杀死无辜的人，从它的身体里取出心脏，交给艾提尼。 {侍奉}
+我在瑟隆德祭坛见到了艾缇娜。她“获得”了一名无辜者作为人祭。如果我想永远不再成为狼人，就必须杀死无辜的人，从它的身体里取出心脏，交给艾提尼。 {侍奉}
 
 > INFO.NAME bm_wolfgiver 100737667221632578
 Ettiene bathed the innocent's heart in the potion she and her sisters had brewed, and uttered a strange incantation. I must place this Heart of the Wolf back in the body of the innocent, and then talk to Ettiene again.  I am almost cured of my lycanthropy....
@@ -13219,7 +13219,7 @@ I heard that Archcanon Tholer Saryoni wishes to speak with me. I have been given
 
 > INFO.NAME tt_dagonfel 20687099146495723
 I made the Pilgrimage to Dagon Fel and read a passage from the Four Corners of the House of Troubles.
-我完成了大衮-费尔的朝圣，并诵读了一段《祸乱家族》中的 "四角"。
+我完成了大衮-费尔的朝圣，并诵读了一段《祸乱家族》中的“四角”。
 
 > INFO.NAME tt_aldsotha 19746324602896530844
 Temple: Mehrunes Dagon of the House of Troubles
@@ -13227,11 +13227,11 @@ Temple: Mehrunes Dagon of the House of Troubles
 
 > INFO.NAME tt_aldsotha 1845621926172309730
 Tholer Saryoni told me that the Second Corner of the House of Troubles is Mehrunes Dagon. I must find the statue of Mehrunes Dagon in Ald Sotha and read from Vivec's "Four Corners."
-索勒·萨里奥尼告诉我，《祸乱家族》的第二角是梅鲁涅斯·大衮。我必须在奥德-索萨找到梅鲁涅斯·大衮的雕像，然后读一段维威克的 "四角"。
+索勒·萨里奥尼告诉我，《祸乱家族》的第二角是梅鲁涅斯·大衮。我必须在奥德-索萨找到梅鲁涅斯·大衮的雕像，然后读一段维威克的“四角”。
 
 > INFO.NAME tt_aldsotha 2052466013088626591
 I made the Pilgrimage to Ald Sotha and read a passage from the Four Corners of the House of Troubles.
-我前往奥德-索萨朝圣，并诵读了一段《祸乱家族》中的 "四角"。
+我前往奥德-索萨朝圣，并诵读了一段《祸乱家族》中的“四角”。
 
 > INFO.NAME tt_staralor 2978812966831930916
 Temple: Foul Cult Beneath St. Delyn Canton
@@ -13667,7 +13667,7 @@ Imperial Cult: Boots of the Apostle
 
 > INFO.NAME ic26_amanin 247152866426488483
 Lalatia Varian, an Oracle of the Imperial cult, has been given a prophecy of the Boots of the Apostle, a legendary treasure of Cyrodiil, relics of Tiber Septim who was also called Talos. "Through the doors of Berandas, within the silent caverns, beneath the wings of twilight, dust sleeps in the shoes that Talos wore." The Oracle bid me retrieve the Boots of the Apostle. A Dunmer savant or Dunmer scout may have clues to the meaning of the Oracle's prophetic words.
-帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。"穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。" 先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人}
+帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。“穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。”先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人}
 
 > INFO.NAME ic26_amanin 25980298942494824563
 I retrieved the Boots of the Apostle from Berandas and brought them to Lalatia Varian. She praised me, and said that I was meant to keep the boots for myself, and that I should dedicate them to the service of the Nine. The Oracle said to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -13859,11 +13859,11 @@ I have chosen to work with Heart-Fang to defeat Hircine.
 
 > INFO.NAME bm_wildhunt 269069009844210981
 I told Heart-Fang that, as there could only be one survivor in this deadly game, I could not work with him. He responded that he alone would survive this Hunt, and that it was his birthright to do so. Apparenty, Heart-Fang has the Ring of Hircine, and has used its magic to prolong his life and rule the Skaal for generations. Now, he claims I will have to face him in his "true form."
-我告诉心牙，由于在这场致命游戏中只能有一个幸存者，我不能与他合作。他回答说，只有他才能在这场狩猎中幸存下来，这是他与生俱来的权利。显然，心牙拥有海尔辛之戒，并用它的魔法延长了自己的生命，世世代代统治着斯卡尔人。现在，他声称我将不得不面对他的 "真身"。 {工作,戒指}
+我告诉心牙，由于在这场致命游戏中只能有一个幸存者，我不能与他合作。他回答说，只有他才能在这场狩猎中幸存下来，这是他与生俱来的权利。显然，心牙拥有海尔辛之戒，并用它的魔法延长了自己的生命，世世代代统治着斯卡尔人。现在，他声称我将不得不面对他的“真身”。 {工作,戒指}
 
 > INFO.NAME bm_wildhunt 23438103901833112896
 After finding the chest empty, Heart-Fang spoke to me. He told me that he has the key to continue on in the Hunt, and he will do so alone. He also claims to have the Ring of Hircine, and to have had it for many generations. Heart-Fang seems ready to kill me, and claims I must now fight him in his "true form."
-发现箱子空了之后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他将独自行动。他还声称自己拥有海尔辛之戒，而且已经拥有了很多代。心牙似乎准备杀了我，并声称我现在必须以 "真身 "与他战斗。 {戒指}
+发现箱子空了之后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他将独自行动。他还声称自己拥有海尔辛之戒，而且已经拥有了很多代。心牙似乎准备杀了我，并声称我现在必须以“真身”与他战斗。 {戒指}
 
 > INFO.NAME bm_wildhunt 28508225771506928899
 As I entered the next ring of the glacier, I found Tharsten Heart-Fang. He told me that he alone will continue on in the Hunt, and that this is what he was born to do. He also claims to have the Ring of Hircine, and to have had it for many generations. Heart-Fang seems ready to kill me, and claims I must now fight him in his "true form."
@@ -14147,7 +14147,7 @@ Fjol the Outlaw
 
 > INFO.NAME mv_bastard 10783138501037332306
 General Larrius Varro in Fort Moonmoth has warned me of a Nord Bandit who is accosting travelers somewhere near Hla Oad. I get the feeling he wouldn't mind if I could "take care" of this problem for him.
-月蛾要塞的拉里乌斯·瓦罗将军警告我，有一个诺德人正在哈拉-奥德附近的某个地方搭讪旅行者。我感觉他不会介意我帮他 "解决 "这个问题。
+月蛾要塞的拉里乌斯·瓦罗将军警告我，有一个诺德人正在哈拉-奥德附近的某个地方搭讪旅行者。我感觉他不会介意我帮他“解决”这个问题。
 
 > INFO.NAME mv_bastard 16328275922379743
 I paid Fjol the 100 gold.
@@ -14475,7 +14475,7 @@ I turned down Louis Beauchamp's offer to discover what happened to his airship a
 
 > INFO.NAME bm_airship 25003594325061762
 I agreed to help Louis Beauchamp discover what happened to his airship, and recover the Amulet of Infectious Charm.  The crew was to fly to Solstheim and search a barrow located at the eye of a wolf-shaped formation called Hrothmund's Bane, which is only visible from the air.  In order to gain entrance to the barrow, one must utter the name of the wolf that killed Hrothmund -- "Ondjage."  If the wrong name is spoken, the crypt will be sealed forever.
-我同意帮助路易斯·波尚查明他的飞艇发生了什么事，并找回护符。船员们将飞往索瑟海姆，搜索位于一个名为霍斯蒙德之灾的狼形阵眼处的荒冢，只有从空中才能看到这个荒冢。要进入荒冢，必须说出杀死霍斯蒙德的狼的名字--"昂贾格"。如果说错了名字，墓穴就会被永远封印。
+我同意帮助路易斯·波尚查明他的飞艇发生了什么事，并找回护符。船员们将飞往索瑟海姆，搜索位于一个名为霍斯蒙德之灾的狼形阵眼处的荒冢，只有从空中才能看到这个荒冢。要进入荒冢，必须说出杀死霍斯蒙德的狼的名字--“昂贾格”。如果说错了名字，墓穴就会被永远封印。
 
 > INFO.NAME bm_airship 2405916115238219632
 I found the wreckage of the crashed airship, and read the journal of its captain.  It seems the crew had located Hrothmund's Barrow, but before they could set down, the airship got caught in a surprise snowstorm and crashed into the mountains.  I need to get the captain's journal back to Louis Beauchamp, outside the Ald'ruhn Guild of Mages on Vvardenfell.  It will prove to him what happened to the airship and its crew.
@@ -14483,7 +14483,7 @@ I found the wreckage of the crashed airship, and read the journal of its captain
 
 > INFO.NAME bm_airship 1756412821777132573
 Louis Beauchamp was glad I was able to discover what happened to his airship, and has rewarded me accordingly.  He also wants me to recover the Amulet of Infectious Charm from Hrothmund's Barrow.  In order to gain entrance to the barrow I need to utter the name of the wolf that killed Hrothmund -- "Ondjage."  If I say the wrong name, the crypt will be sealed forever.
-路易斯·波尚很高兴我能发现他的飞艇发生了什么事，并因为找回护符给了我相应的奖励。他还希望我从霍斯蒙德之冢中找回传染咒符护身符。为了进入霍斯蒙德之冢，我需要说出杀死霍斯蒙德的狼的名字--"昂贾格"。如果我说错了名字，墓穴就会被永远封印。 {报酬}
+路易斯·波尚很高兴我能发现他的飞艇发生了什么事，并因为找回护符给了我相应的奖励。他还希望我从霍斯蒙德之冢中找回传染咒符护身符。为了进入霍斯蒙德之冢，我需要说出杀死霍斯蒙德的狼的名字--“昂贾格”。如果我说错了名字，墓穴就会被永远封印。 {报酬}
 
 > INFO.NAME bm_airship 124671337617303422
 Louis Beauchamp was glad I was able to discover what happened to his airship, and has rewarded me accordingly.
@@ -14531,7 +14531,7 @@ I found Oddfrid White-Lip, but Geilir failed to mention that she was just a skul
 
 > INFO.NAME bm_sadseer 2147823814821827709
 I returned Oddfrid White-Lip to Geilir the Mumbling.  Geilir admitted that Oddfrid was just a skull, but insists "she" talks to him.
-我把奥德弗里德·白-唇交还给了喃喃者盖利尔。盖里尔承认奥德弗里德只是个骷髅头，但坚持 "她 "会跟他说话。 {谈}
+我把奥德弗里德·白-唇交还给了喃喃者盖利尔。盖里尔承认奥德弗里德只是个骷髅头，但坚持“她”会跟他说话。 {谈}
 
 > INFO.NAME bm_sadseer 3997156941542613539
 Geilir the Mumbling told me my future.  He said something about the beginning of a hunt, and me as both the hunter and hunted.  I was surrouned by ice.  He also said something about a giant and a horned huntsman.
@@ -14611,7 +14611,7 @@ Bugrol wanted me to deliver a note he gave me to his friend Bashuk gra-Bat in Ca
 
 > INFO.NAME mv_bugrol 9155322791675011351
 There don't seem to be any more notes to pass between Bugrol and Bashuk, thank the gods. I feel I'm actually a bit stupider for ever having talked to either one of them. But, the fool did give me a diamond as his "present." Apparently he thought it was just a shiny rock. Probably found it while he was "hiding."
-感谢上帝，布格罗尔和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为 "礼物"。显然，他以为那只是一块闪闪发光的石头。可能是他在 "躲藏 "的时候发现的。
+感谢上帝，布格罗尔和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为“礼物”。显然，他以为那只是一块闪闪发光的石头。可能是他在“躲藏”的时候发现的。
 
 > INFO.NAME il_damsel 3229511837222556342
 Imperial Legion: Rescue Dandsa
@@ -15015,7 +15015,7 @@ The Ritual of Beasts
 
 > INFO.NAME bm_beasts 3119911979223030607
 As I approached the Beast Stone, magical writing appeared on its surface. It said: "Travel south. Find the Good Beast and ease its suffering."
-当我走近兽石时，它的表面出现了神奇的文字。上面写着："向南旅行。找到善良的野兽，减轻它的痛苦。"。 {令状}
+当我走近兽石时，它的表面出现了神奇的文字。上面写着：“向南旅行。找到善良的野兽，减轻它的痛苦。”。 {令状}
 
 > INFO.NAME bm_beasts 138592623169317113
 I have come across a bear being attacked by Rieklings.
@@ -15091,11 +15091,11 @@ Temple: Molag Bal of the House of Troubles
 
 > INFO.NAME tt_balur 9922187322699931682
 Tholer Saryoni told me that the Third Corner of the House of Troubles is Molag Bal. I must find the statue of Molag Bal in Bal Ur and recite Vivec's "Four Corners." Bal Ur is north of Suran, but I will need to levitate over the mountains to get there easily.
-索勒·萨里奥尼告诉我，《祸乱家族》的第三角是莫拉格·巴尔。我必须在巴尔·乌尔找到莫拉格·巴尔的雕像，并背诵维威克的 "四角"。巴尔·乌尔在苏兰以北，但我需要飞跃山脉才能轻松到达。
+索勒·萨里奥尼告诉我，《祸乱家族》的第三角是莫拉格·巴尔。我必须在巴尔·乌尔找到莫拉格·巴尔的雕像，并背诵维威克的“四角”。巴尔·乌尔在苏兰以北，但我需要飞跃山脉才能轻松到达。
 
 > INFO.NAME tt_balur 1922446231583025364
 I made the Pilgrimage to Bal Ur and read a passage from the Four Corners of the House of Troubles.
-我前往巴尔·乌尔朝圣，并诵读了一段《祸乱家族》中的 "四角"。
+我前往巴尔·乌尔朝圣，并诵读了一段《祸乱家族》中的“四角”。
 
 > INFO.NAME tt_mawia 212829766317025311
 Temple: Necromancer in Mawia
@@ -15115,7 +15115,7 @@ The Citadels of the Sixth House
 
 > INFO.NAME c0_act_c 5577172482054226658
 In Citadel Vemynal I discovered an enchanted hammer called Sunder. It appears to be one of the enchanted tools created by the Dwemer Craftlord Kagrenac. But I can handle it without injury when I don't have Wraithguard equipped, and that seems very wrong.
-在维密纳尔城堡，我发现了一把名为 "决裂 "的附魔锤子。它似乎是卡格瑞纳克的附魔工具中的一种，由锻莫族附魔师卡格瑞纳克创造。但我在没有装备幽魂影卫的情况下也可以使用它而不会受伤，这似乎非常不对。
+在维密纳尔城堡，我发现了一把名为“决裂”的附魔锤子。它似乎是卡格瑞纳克的附魔工具中的一种，由锻莫族附魔师卡格瑞纳克创造。但我在没有装备幽魂影卫的情况下也可以使用它而不会受伤，这似乎非常不对。
 
 > INFO.NAME da_azura 11231143491734225761
 Azura's Quest
@@ -15279,7 +15279,7 @@ The Ritual of Water
 
 > INFO.NAME bm_water 227706054446428233
 As I looked at the the Water Stone, I saw words appear on it. It said, "Travel west to a small island off the coast, and follow the Swimmer to seek the Water of Life."
-我看着水石，只见上面出现了几个字。上面写着："向西行到海岸边的小岛，跟着潜游者寻找生命之水"。
+我看着水石，只见上面出现了几个字。上面写着：“向西行到海岸边的小岛，跟着潜游者寻找生命之水”。
 
 > INFO.NAME bm_water 12503177702101228792
 I have found the Swimmer, a black horker. I believe I should follow it.
@@ -15303,7 +15303,7 @@ The Ritual of Earth
 
 > INFO.NAME bm_earth 10176234811172432621
 I approached the Earth Stone, and words magically appeared on its surface. They said: "Travel northeast to the Cave of the Hidden Music and learn the Song of the Earth." Then the words disappeared.
-我走近土石，土石表面神奇地出现了文字。上面写着："前往东北方向的隐秘音乐洞穴，学习大地之歌" 然后文字消失了。
+我走近土石，土石表面神奇地出现了文字。上面写着：“前往东北方向的隐秘音乐洞穴，学习大地之歌”然后文字消失了。
 
 > INFO.NAME bm_earth 1033027831982432628
 In the Cave of the Hidden Music, I have found a large structure made of stalagmites and stalactites. An odd music seems to be coming from them.
@@ -15331,7 +15331,7 @@ The Ritual of Trees
 
 > INFO.NAME bm_trees 709210091969627400
 As I approached the Tree Stone, I saw magical writing appear on its surface. They read: "The First Trees are gone. Travel east and find the one who has stolen the Seeds. Beware--he who has the seeds, controls the trees. Plant the First anew." Then, the writing disappeared.
-当我走近树石时，我看到树石表面出现了神奇的文字。上面写道 "第一批树木已经消失。向东旅行，找到偷走种子的人。小心--谁拥有种子，谁就能控制树木。重新种下最初之树" 然后，文字消失了。 {令状,计划}
+当我走近树石时，我看到树石表面出现了神奇的文字。上面写道“第一批树木已经消失。向东旅行，找到偷走种子的人。小心--谁拥有种子，谁就能控制树木。重新种下最初之树”然后，文字消失了。 {令状,计划}
 
 > INFO.NAME bm_trees 2587519811651325923
 I've entered a clearing where there are a group of Spriggans surrounding a Riekling minion. The Spriggans seem to be in the Riekling's thrall, and look agressive.
@@ -15455,7 +15455,7 @@ The Ritual of the Winds
 
 > INFO.NAME bm_wind 3382207331344423574
 As I approached the Wind Stone, I saw magical writing appear on its surface. It read: "Travel south and east of the lake of ice to Glenschul's Tomb and free the Winds from the Greedy Man's bag."
-当我走近风石时，我看到它的表面出现了神奇的文字。上面写道 "从冰湖的南面和东面前往格伦舒尔之墓，从贪婪者的袋子里取出风"。 {令状}
+当我走近风石时，我看到它的表面出现了神奇的文字。上面写道“从冰湖的南面和东面前往格伦舒尔之墓，从贪婪者的袋子里取出风”。 {令状}
 
 > INFO.NAME bm_wind 2657715077144623248
 I have opened the Greedy Man's bags and freed the Winds. I should return to the Wind Stone.
@@ -15487,7 +15487,7 @@ The Ritual of the Sun
 
 > INFO.NAME bm_sun 3119675902988925043
 As I approached the Sun Shrine, magical writing appeared on its surface. It said: "Go to the west and free the warm Sun from the Halls of Penumbra."
-当我走近太阳圣祠时，圣祠表面出现了神奇的文字。上面写着："去西方，把温暖的太阳从半影大厅解放出来"。 {令状}
+当我走近太阳圣祠时，圣祠表面出现了神奇的文字。上面写着：“去西方，把温暖的太阳从半影大厅解放出来”。 {令状}
 
 > INFO.NAME bm_sun 1630029419641711449
 I have entered the Halls of Penumbra, which is seemingly devoid of light.
@@ -15671,7 +15671,7 @@ I killed the messenger.
 
 > INFO.NAME co_9a 11510279611932424692
 The messenger has met with an "unfortunate accident". I should report to Carnius.
-信使遭遇了 "不幸的意外" 我应该向卡尼乌斯报告。
+信使遭遇了“不幸的意外”我应该向卡尼乌斯报告。
 
 > INFO.NAME co_9a 3191012907199822008
 I've agreed to escort the messenger to Fort Frostmoth; instead, I need to get him close to Hroldar so that Hroldar's wolves can take him down.
@@ -16163,7 +16163,7 @@ I've chipped off a piece of the Stalhrim, and should take it to Graring.
 
 > INFO.NAME co_8 6146206109214923
 Graring explained that the ice is called "Stalhrim", and is very valuable. He's given me a special pick axe to chip off some Stalhrim from the block in the mine.
-加拉林解释说，这种冰叫做 "魔冰"，非常珍贵。他给了我一把特制的镐头，让我从矿场的冰块上削下一些魔冰。 {手斧,格挡}
+加拉林解释说，这种冰叫做“魔冰”，非常珍贵。他给了我一把特制的镐头，让我从矿场的冰块上削下一些魔冰。 {手斧,格挡}
 
 > INFO.NAME co_8 547729354603417109
 I found Graring and his companions under attack, but the assailant has been defeated.
@@ -17163,11 +17163,11 @@ I'll help you, Ulfgar.  I will do everything in my power to defeat you in armed 
 
 > INFO.NAME failed in our quest 14503199851187811627
 Don't you understand?  For five hundred years, I have searched for the entrance to Sovngarde!  I have been all across the Empire and back, but I cannot find it!  Once, my friends and I served Ysgramor, and counted ourselves among his "Five Hundred Companions."  We helped drive the Elves out of Skyrim!  We earned our place in Sovngarde!  If, in your travels, you discover the entrance to Sovngarde, let me know, and I will be forever in your debt.  I have tried...and failed.
-你不明白吗？五百年来，我一直在寻找松加德的入口，我走遍了整个帝国，但就是找不到它！曾经，我和我的朋友们为伊斯格拉诺效力，我们是他的 "五百同伴 "之一，我们把精灵赶出了天际，我们在松加德赢得了一席之地！如果你们在旅途中发现了松加德的入口，请告诉我，我将永远感激不尽。我试过了……但失败了。 {泰姆瑞尔帝国}
+你不明白吗？五百年来，我一直在寻找松加德的入口，我走遍了整个帝国，但就是找不到它！曾经，我和我的朋友们为伊斯格拉诺效力，我们是他的“五百同伴”之一，我们把精灵赶出了天际，我们在松加德赢得了一席之地！如果你们在旅途中发现了松加德的入口，请告诉我，我将永远感激不尽。我试过了……但失败了。 {泰姆瑞尔帝国}
 
 > INFO.NAME failed in our quest 105981973125481769
 Don't you understand?  For five hundred years, I have searched for the entrance to Sovngarde!  I have been all across the Empire and back, but I cannot find it!  Once, my friends and I served Ysgramor, and counted ourselves among his "Five Hundred Companions."  We helped drive the Elves out of Skyrim!  We earned our place in Sovngarde!  If, in your travels, you discover the entrance to Sovngarde, let me know, and I will be forever in your debt.  I have tried...and failed.
-你不明白吗？五百年来，我一直在寻找松加德的入口，我走遍了整个帝国，但就是找不到它！曾经，我和我的朋友们为伊斯格拉诺效力，我们是他的 "五百同伴 "之一，我们把精灵赶出了天际，我们在松加德赢得了一席之地！如果你们在旅途中发现了松加德的入口，请告诉我，我将永远感激不尽。我试过了……但失败了。 {泰姆瑞尔帝国}
+你不明白吗？五百年来，我一直在寻找松加德的入口，我走遍了整个帝国，但就是找不到它！曾经，我和我的朋友们为伊斯格拉诺效力，我们是他的“五百同伴”之一，我们把精灵赶出了天际，我们在松加德赢得了一席之地！如果你们在旅途中发现了松加德的入口，请告诉我，我将永远感激不尽。我试过了……但失败了。 {泰姆瑞尔帝国}
 
 > INFO.BNAM failed in our quest 105981973125481769 c1
 Actually, Ulfgar, I came upon this book.  It's called 'Sovngarde -- A Reexamination,' and seems to offer new theories on how one may enter Sovngarde.  I think it may have the answers you seek.
@@ -17175,7 +17175,7 @@ Actually, Ulfgar, I came upon this book.  It's called 'Sovngarde -- A Reexaminat
 
 > INFO.NAME eternal wakefulness 225827405257578924
 As punishment for my incompetence, the seer laid a powerful curse upon me.  I am exhausted, but can't sleep no matter what I try.  Potions, magicka, nothing works.  The truth is, I haven't slept at all in six months.  %PCName, if you happen to run into the seer, maybe you could convince him to lift the curse?  His name is Geilir the Mumbling, and he lives by himself in a dwelling here on Solstheim.  Do this for me, and I will share with you the most valuable secret I learned when I was a ship captain.
-作为对我无能的惩罚，预言者对我下了强大的诅咒。我精疲力竭，却怎么也睡不着。药水，魔法，都不管用。事实上，我已经六个月没睡过觉了。%PCName 如果你碰巧遇到预言者，也许你能说服他解除诅咒？他的名字叫 "喃喃者 "盖利尔，一个人住在索瑟海姆的一个居所里。帮我这个忙，我就把我当船长时学到的最有价值的秘密告诉你。 {这些药水,魔力,工作}
+作为对我无能的惩罚，预言者对我下了强大的诅咒。我精疲力竭，却怎么也睡不着。药水，魔法，都不管用。事实上，我已经六个月没睡过觉了。%PCName 如果你碰巧遇到预言者，也许你能说服他解除诅咒？他的名字叫“喃喃者”盖利尔，一个人住在索瑟海姆的一个居所里。帮我这个忙，我就把我当船长时学到的最有价值的秘密告诉你。 {这些药水,魔力,工作}
 
 > INFO.NAME eternal wakefulness 2051465141513032668
 Yes, it's true.  I cursed Thormoor Gray-Wave with eternal wakefulness.  He couldn't stay awake and carry out his duties, and now my entire family is dead as a result!  So I made sure Thormoor would never fall asleep again.  Fitting punishment, don't you think?  Sorry, but there's nothing you could do to make me reverse my curse.  Nothing, that....  Well, maybe there is one thing.  If you were to return my only friend, I would be most grateful...grateful enough to lift Thormoor's curse....
@@ -17275,7 +17275,7 @@ It's a gravesite, you see.  Located...situated near...um...well, if the stories 
 
 > INFO.NAME recover the amulet 285822254288808510
 They were to recover...that is, bring me a special amulet.  According to stories...legends and such...Horthmund was quite the...well...he had plenty of lady friends!  He was ugly, too...ugly as a troll!  But he had a magic trinket...he wore it.  The Amulet of Infectious Charm, it was called.  By...all records...he was buried with it.  That's why I built the airship...hired the crew. I just...I must have that amulet, %PCName.  But...there's been no word.  I worry...I fear the crew has failed me.
-他们要找回……也就是说，给我带来一个特殊的护身符。据说……传说之类的……霍斯曼是个……嗯……他有很多女性朋友！他也很丑……丑得像个巨怪！但他有一个魔法饰品……他戴着它。叫做 "传染咒护身符，根据所有记录……他是带着它下葬的。所以我才造了飞艇……雇了船员。我…我一定要拿到那个护身符 %PCName  但是……一直没有消息。我担心……我担心船员们让我失望了。
+他们要找回……也就是说，给我带来一个特殊的护身符。据说……传说之类的……霍斯曼是个……嗯……他有很多女性朋友！他也很丑……丑得像个巨怪！但他有一个魔法饰品……他戴着它。叫做“传染咒护身符”，根据所有记录……他是带着它下葬的。所以我才造了飞艇……雇了船员。我…我一定要拿到那个护身符 %PCName  但是……一直没有消息。我担心……我担心船员们让我失望了。
 
 > INFO.NAME recover the amulet 3263613560104746006
 My crew...I...I guess you'd call them...they were to recover the Amulet of Infectious Charm.  It can make its holder...wearer, I'd guess you'd say...well, it can make a man....  Well, let's just say, there's this...this girl.  And I was thinking the amulet could...might be able to...well, you know....
@@ -17287,7 +17287,7 @@ Oh.  Oh...I see.  Well, um, yes...well.  If you change your mind...that is, if y
 
 > INFO.NAME crew has failed me 1543524373184712036
 Oh...well...that's fine.  I understand...I....  Wait.  %PCName, did you say you would help me?  Why that's...that's...splen...I mean...oh, wonderful!  As I said, the airship is...was...headed north, to Solstheim....  The Amulet of Infectious Charm is...well, it's supposed to be at...that is, in...Hrothmund's Barrow.  At the eye of the beast...the wolf, I mean.  But you must...must say the wolf's name!  To enter!  Say, "Ondjage."  Answer wrong, and the barrow will be sealed...forever!
-哦……好吧……没关系。我明白了……我……等等，%PCName，你说过你会帮我吗？哦，太好了！正如我所说，飞艇正……正……向北驶向索瑟海姆……。传染咒符护身符在……嗯，应该在……也就是在……霍斯蒙德之冢里。我是说，在野兽……狼的眼睛那里。但你必须……必须说出狼的名字！进入。说 "昂贾格"  回答错误，荒冢将被封印……永远封印！
+哦……好吧……没关系。我明白了……我……等等，%PCName，你说过你会帮我吗？哦，太好了！正如我所说，飞艇正……正……向北驶向索瑟海姆……。传染咒符护身符在……嗯，应该在……也就是在……霍斯蒙德之冢里。我是说，在野兽……狼的眼睛那里。但你必须……必须说出狼的名字！进入。说“昂贾格”回答错误，荒冢将被封印……永远封印！
 
 > INFO.NAME crew has failed me 12795611575879682
 Did they fly off course?  Or maybe...maybe they found the amulet, and...and flew away!  To meet women!  No fair maiden could resist a man with the...the Amulet of Infectious Charm...in an airship, no less!  Say...%PCName.... I...I don't suppose you're...well...for hire?  I would...pay you...greatly...to find my airship.  I'd need proof of what happened to it, of course!  Evidence, as it were...just...just to be sure.  And...of course...to bring me the...the amulet!  I NEED that amulet.
@@ -17335,7 +17335,7 @@ He'sh dead, ishn't he?
 
 > INFO.NAME erich the unworthy 26399295091573421146
 Who you callin' "unworthy," twig?
-你说谁 "不配"，树枝？
+你说谁“不配”，树枝？
 
 > INFO.NAME erich the unworthy 2573215845265758817
 Oh, I'm worthy enough little lass.
@@ -19081,7 +19081,7 @@ To the northeast is a small, uncharted island. There you'll find the barrow of G
 
 > INFO.NAME specific place 4279265642929225774
 Sometimes Thormoor likes to watch the sea from a great rock on the western shore of the island. He spends so much time there we've started calling it "Thormoor's Watch."
-有时，梭尔莫尔喜欢在小岛西海岸的一块大石头上守望处大海。他在那里待的时间太长了，我们就叫它 "梭尔莫尔的守望处"。
+有时，梭尔莫尔喜欢在小岛西海岸的一块大石头上守望处大海。他在那里待的时间太长了，我们就叫它“梭尔莫尔的守望处”。
 
 > INFO.NAME specific place 2149415070174576213
 There's a bar and inn next door to the mine, and the rest is mostly just housing for the colonists.
@@ -22025,7 +22025,7 @@ Return to me when you have obtained the petals of the wolfsbane flower.
 
 > INFO.NAME greeting 1 3125513759232317176
 In order for the Rite of the Wolf Giver to proceed, my sisters and I need the petals of a wolfsbane flower. Wolfsbane is rare, and grows on Solstheim in only one place. You must go to the southern end of the Moesring Mountains, to the top of Hvitkald Peak. There you will find a single wolfsbane flower in bloom. Retrieve the petals of this wolfsbane flower and return them to me. Take this Rising Force Potion. You may need it to reach the peak.
-为了让狼人仪式顺利进行，我和我的姐妹们需要乌头花瓣。乌头花很稀有，在索瑟海姆只有一个地方生长。你们必须前往摩斯林山脉南端的赫维特卡尔德高峰。在那里您会发现一朵盛开的乌头花。把这朵乌头花的花瓣捡回来还给我。带上这瓶 "上升之力 "药水。你可能需要它才能到达山顶。
+为了让狼人仪式顺利进行，我和我的姐妹们需要乌头花瓣。乌头花很稀有，在索瑟海姆只有一个地方生长。你们必须前往摩斯林山脉南端的赫维特卡尔德高峰。在那里您会发现一朵盛开的乌头花。把这朵乌头花的花瓣捡回来还给我。带上这瓶“上升之力”药水。你可能需要它才能到达山顶。
 
 > INFO.NAME greeting 1 11116232311664414400
 Speak first with our sister Etienne.  She is the point of the dagger.  The piercing of body and mind begins with her.
@@ -22221,7 +22221,7 @@ Oh...oh, of course.  I understand...understand completely...that is, you have my
 
 > INFO.NAME greeting 1 157722948085823215
 The airship...crashed?  Horrible...such a loss of time...and money!  Oh, yes...human life, too.  So tragic.  Well...I am...grateful really...that you've given me this information.  But you know, there's um...still the matter of an amulet.  The...Amulet of Infectious Charm....  It's what the...the crew was looking for.  I'd pay for it....  Search in Hrothmund's Barrow.  But...well...say the right name!  "Ondjage!"  The wolf!  If you don't...well, the barrow will be sealed...forever!
-飞艇……坠毁了？太可怕了……损失了时间……还有金钱！对了……还有人命。太悲惨了！嗯……我……真的很感激……你给了我这些信息。但你知道，嗯……还有护身符的事。……传染魅力护身符……。这就是……船员们要找的东西。我愿意付钱……在霍斯蒙德之冢中搜寻。但是……好吧……说对名字！"昂贾格！"  狼来了！如果你不说……那么，荒冢就会被封印……永远封印！
+飞艇……坠毁了？太可怕了……损失了时间……还有金钱！对了……还有人命。太悲惨了！嗯……我……真的很感激……你给了我这些信息。但你知道，嗯……还有护身符的事。……传染魅力护身符……。这就是……船员们要找的东西。我愿意付钱……在霍斯蒙德之冢中搜寻。但是……好吧……说对名字！“昂贾格！”狼来了！如果你不说……那么，荒冢就会被封印……永远封印！
 
 > INFO.NAME greeting 1 895040931970927504
 Aha!  %PCName, my old friend!  Wonderful to *cough* see you again.  Did I ever tell you how magnificently you *cough* performed your duties?  Locating the airship, returning the *cough* amulet...simply marvelous.  Thanks to you, Louis Beauchamp is an *cough* absolute lady killer!  Blondes, brunettes, red heads -- I'll take 'em all...and they can't resist me!  Ha!  It's a shame I've got this *cough* fever.  It's starting to slow me down!  Well, got to run.  I've got a *cough* hot date!
@@ -23705,7 +23705,7 @@ Not now, %PCRank. I'm expecting a decision from Falco. It's colony business, and
 
 > INFO.NAME greeting 1 31518116191877621451
 Oh, don't even say it. I can tell by the look on your face. Falco gave you his little pep talk, didn't he? "Oh, %PCName.... I need your help. Won't you help me?" Ugh. Perhaps instead you should think about doing yourself a favor and aiding me, %PCRank.
-哦，别说了，我可以告诉你的脸上的表情。法尔科给你打气了，是不是？"哦，%PCName……我需要你的帮助。你不帮我吗？" 唉。也许你应该考虑帮自己一个忙，帮助我，帮我一个忙，%PCRank。 {谈}
+哦，别说了，我可以告诉你的脸上的表情。法尔科给你打气了，是不是？“哦，%PCName……我需要你的帮助。你不帮我吗？”唉。也许你应该考虑帮自己一个忙，帮助我，帮我一个忙，%PCRank。 {谈}
 
 > INFO.NAME greeting 1 16591690744239055
 What is it, %PCRank? Is this about your current assignment?
@@ -26845,11 +26845,11 @@ Their kind isn't welcome here. They like mead well enough, it's true, but the be
 
 > INFO.NAME berserkers 1396224021218415248
 They are called "bare-sarks" in the Nord tongue, beause of their insistence on going bare-chested even in the most severe blizzard. They're crazy as they come, friend, and care only for savagery and murder. It is said they are so attracted to death, they make their homes in some of Solstheim's burial barrows. I've also heard rumor of some kind of berserker "mother" but no one has ever seen her and lived to tell about it.
-诺德人称他们为 "赤鲨"，因为他们即使在最严酷的暴风雪中也坚持赤膊上阵。他们疯疯癫癫的，朋友，只关心野蛮和谋杀。据说他们被死亡深深吸引，把家安在索瑟海姆的一些墓穴里。我还听说过关于某种狂战士 "母亲 "的传言，但没有人见过她，也没有人活着讲述过这件事。
+诺德人称他们为“赤鲨”，因为他们即使在最严酷的暴风雪中也坚持赤膊上阵。他们疯疯癫癫的，朋友，只关心野蛮和谋杀。据说他们被死亡深深吸引，把家安在索瑟海姆的一些墓穴里。我还听说过关于某种狂战士“母亲”的传言，但没有人见过她，也没有人活着讲述过这件事。
 
 > INFO.NAME berserkers 290772171403513699
 They are the "bare-sarks" or bare-chested. The berserkers wear no clothing and have been driven mad by the cold and too much mead. They are not welcome here or anywhere else on Solstheim, for that matter.
-他们是 "赤鲨 "或赤膊者。狂战士不穿衣服，被寒冷和过多的蜂蜜酒逼疯了。他们在这里或索瑟海姆的任何地方都不受欢迎。
+他们是“赤鲨”或赤膊者。狂战士不穿衣服，被寒冷和过多的蜂蜜酒逼疯了。他们在这里或索瑟海姆的任何地方都不受欢迎。
 
 > INFO.NAME berserkers 14375304282006331520
 They are crazed Nords roaming the forest. Stay away from them.
@@ -27017,7 +27017,7 @@ I have heard strange tidings about the goddess, but I learn no details in this p
 
 > INFO.NAME almalexia 18330300832007032695
 The Dunmer "goddess"? Can't say I know much about her. There's some talk sometimes, but it takes a while for news to travel here.
-丹莫 "女神"？我对她了解不多。有时会有一些传言，但消息传到这里需要一段时间。 {谈}
+丹莫“女神”？我对她了解不多。有时会有一些传言，但消息传到这里需要一段时间。 {谈}
 
 > INFO.NAME almalexia 2323369342715821006
 There have been ill tidings on the wind about the goddess, but none in this place know details.
@@ -29105,11 +29105,11 @@ All hail the new sheeftain of Thirshk! Becaushe of you, the mead hall ish open a
 
 > INFO.NAME hello 1256984149712316
 "In the cave she met the beast, and cut quite short its evil feast! And when the Udyrfrykte did fall, the chieftain came and claimed his hall!"
-"在山洞里，她遇到了野兽，切断了它邪恶的盛宴！"当乌迪福瑞克倒下的时候" "酋长来到了他的大厅！"
+“在山洞里，她遇到了野兽，切断了它邪恶的盛宴！当乌迪福瑞克倒下的时候，酋长来到了他的大厅！”
 
 > INFO.NAME hello 193547054475829552
 "In the cave he met the beast, and cut quite short its evil feast! And when the Udyrfrykte did fall, the chieftain came and claimed his hall!"
-"在山洞里，他遇到了野兽，并缩短了它的邪恶盛宴！当乌迪福瑞克倒下的时候，酋长来到了他的大厅！"
+“在山洞里，他遇到了野兽，切断了它邪恶的盛宴！当乌迪福瑞克倒下的时候，酋长来到了他的大厅！”
 
 > INFO.NAME hello 235771227094803517
 Be careful out here in the wild, friend. There's more roaming about than just wolves and bears.
@@ -30885,7 +30885,7 @@ I came here for the waters. I was misinformed.
 
 > INFO.NAME idle 17866276111435825291
 Oh, please, gods, don't let him start in on that 'solemn duty' crap again.
-哦，求求你，上帝，别再让他说什么 "庄严的职责 "之类的废话了。
+哦，求求你，上帝，别再让他说什么“庄严的职责”之类的废话了。
 
 > INFO.NAME idle 809921131039122343
 That stupid wolf got blood all over me.
@@ -31137,7 +31137,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 127093312597114318
 Oh, sure. '...but it's a DRY heat.'
-哦，当然 '……但天气很干燥。
+哦，当然。“……但天气很干燥。”
 
 > INFO.NAME idle 2194772701437416128
 I am NOT getting fat. These furs are shrinking.
@@ -31173,7 +31173,7 @@ Hey. I found a piece of cheese. Whose piece of cheese is this?
 
 > INFO.NAME idle 20258109932909013584
 ... so Hrokar says, 'Bend over and kiss your old mother goodbye!' [gales of laughter]
-……所以赫洛卡说，"弯下腰，跟你老妈吻别！["弯下腰和你老妈吻别！］
+……所以赫洛卡说，“弯下腰，跟你老妈吻别！[”弯下腰和你老妈吻别！］
 
 > INFO.NAME idle 11871283982333216277
 I'm losing my woolens again. Look the other way, would ya?
@@ -31217,7 +31217,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 804422799531027812
 Wait-wait-wait! I remember now! 'Ecdysiast!' That's it! She used to work as an ecdysiast.
-等等-等等-等等！我想起来了！"脱衣舞娘！对了！她以前当过脱衣舞娘。
+等等-等等-等等！我想起来了！“脱衣舞娘！”对了！她以前当过脱衣舞娘。
 
 > INFO.NAME idle 871022917305734913
 The sun shines every day in hell.
@@ -31249,7 +31249,7 @@ I came here for the waters. I was misinformed.
 
 > INFO.NAME idle 24618273222465323339
 Oh, please, gods, don't let him start in on that 'solemn duty' crap again.
-哦，求求你，上帝，别再让他说什么 "庄严的职责 "之类的废话了。
+哦，求求你，上帝，别再让他说什么“庄严的职责”之类的废话了。
 
 > INFO.NAME idle 2240887051002429691
 That stupid wolf got blood all over me.
@@ -31505,7 +31505,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 24521223502283028036
 Oh, sure. '...but it's a DRY heat.'
-哦，当然 '……但天气很干燥。
+哦，当然。“……但天气很干燥。”
 
 > INFO.NAME idle 13648244631764420784
 I am NOT getting fat. These furs are shrinking.
@@ -31541,7 +31541,7 @@ Hey. I found a piece of cheese. Whose piece of cheese is this?
 
 > INFO.NAME idle 804753241344731568
 ... so Hrokar says, 'Bend over and kiss your old mother goodbye!' [gales of laughter]
-……所以赫洛卡说，"弯下腰，跟你老妈吻别！["弯下腰和你老妈吻别！］
+……所以赫洛卡说，“弯下腰，跟你老妈吻别！[”弯下腰和你老妈吻别！］
 
 > INFO.NAME idle 114473190223137018
 I'm losing my woolens again. Look the other way, would ya?
@@ -31589,7 +31589,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 39527893151815161
 Wait-wait-wait! I remember now! 'Ecdysiast!' That's it! She used to work as an ecdysiast.
-等等-等等-等等！我想起来了！"脱衣舞娘！对了！她以前当过脱衣舞娘。
+等等-等等-等等！我想起来了！“脱衣舞娘！”对了！她以前当过脱衣舞娘。
 
 > INFO.NAME idle 26451201641648526543
 The sun shines every day in hell.
@@ -31621,7 +31621,7 @@ I came here for the waters. I was misinformed.
 
 > INFO.NAME idle 2943423301203619835
 Oh, please, gods, don't let him start in on that 'solemn duty' crap again.
-哦，求求你，上帝，别再让他说什么 "庄严的职责 "之类的废话了。
+哦，求求你，上帝，别再让他说什么“庄严的职责”之类的废话了。
 
 > INFO.NAME idle 116251706146801068
 That stupid wolf got blood all over me.
@@ -31877,7 +31877,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 30668163201289725187
 Oh, sure. '...but it's a DRY heat.'
-哦，当然 '……但天气很干燥。
+哦，当然。“……但天气很干燥。”
 
 > INFO.NAME idle 176041193105742696
 I am NOT getting fat. These furs are shrinking.
@@ -31913,7 +31913,7 @@ Hey. I found a piece of cheese. Whose piece of cheese is this?
 
 > INFO.NAME idle 6839263412293717544
 ... so Hrokar says, 'Bend over and kiss your old mother goodbye!' [gales of laughter]
-……所以赫洛卡说，"弯下腰，跟你老妈吻别！["弯下腰和你老妈吻别！］
+……所以赫洛卡说，“弯下腰，跟你老妈吻别！[”弯下腰和你老妈吻别！］
 
 > INFO.NAME idle 8179322112788513018
 I'm losing my woolens again. Look the other way, would ya?
@@ -31957,7 +31957,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 1538184812937227669
 Wait-wait-wait! I remember now! 'Ecdysiast!' That's it! She used to work as an ecdysiast.
-等等-等等-等等！我想起来了！"脱衣舞娘！对了！她以前当过脱衣舞娘。
+等等-等等-等等！我想起来了！“脱衣舞娘！”对了！她以前当过脱衣舞娘。
 
 > INFO.NAME idle 11081423075527522
 The sun shines every day in hell.
@@ -31989,7 +31989,7 @@ I came here for the waters. I was misinformed.
 
 > INFO.NAME idle 2029267762549027083
 Oh, please, gods, don't let him start in on that 'solemn duty' crap again.
-哦，求求你，上帝，别再让他说什么 "庄严的职责 "之类的废话了。
+哦，求求你，上帝，别再让他说什么“庄严的职责”之类的废话了。
 
 > INFO.NAME idle 2400021933043021106
 That stupid wolf got blood all over me.
@@ -32245,7 +32245,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 31375292933140514465
 Oh, sure. '...but it's a DRY heat.'
-哦，当然 '……但天气很干燥。
+哦，当然。“……但天气很干燥。”
 
 > INFO.NAME idle 3138510931634814089
 I am NOT getting fat. These furs are shrinking.
@@ -32281,7 +32281,7 @@ Hey. I found a piece of cheese. Whose piece of cheese is this?
 
 > INFO.NAME idle 321537212583311400
 ... so Hrokar says, 'Bend over and kiss your old mother goodbye!' [gales of laughter]
-……所以赫洛卡说，"弯下腰，跟你老妈吻别！["弯下腰和你老妈吻别！］
+……所以赫洛卡说，“弯下腰，跟你老妈吻别！[”弯下腰和你老妈吻别！］
 
 > INFO.NAME idle 1176938632128316800
 I'm losing my woolens again. Look the other way, would ya?
@@ -32325,7 +32325,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 116532226734583008
 Wait-wait-wait! I remember now! 'Ecdysiast!' That's it! She used to work as an ecdysiast.
-等等-等等-等等！我想起来了！"脱衣舞娘！对了！她以前当过脱衣舞娘。
+等等-等等-等等！我想起来了！“脱衣舞娘！”对了！她以前当过脱衣舞娘。
 
 > INFO.NAME idle 9161135422343119411
 All I ask is for a pair of boots. How hard could it be?
@@ -32337,7 +32337,7 @@ Just... keep... moving... and... maybe... I... won't.... FREEZE.
 
 > INFO.NAME idle 212754780412557
 I should be named Talks-Too-Much. 'Argonians are tough. A little cold weather won't bother me.'
-我应该叫 "话-太-多"。阿尔贡很坚强。一点寒冷的天气也不会影响我。
+我应该叫“话-太-多”。阿尔贡很坚强。一点寒冷的天气也不会影响我。
 
 > INFO.NAME idle 80621299696926318
 Blood cold. Air cold. Everything...cold.
@@ -32397,7 +32397,7 @@ I came here for the waters. I was misinformed.
 
 > INFO.NAME idle 1204413022095217367
 Oh, please, Gods, don't let him start in on that 'solemn duty' crap again.
-哦，求求你，上帝，别再让他说什么 "庄严的职责 "之类的废话了。
+哦，求求你，上帝，别再让他说什么“庄严的职责”之类的废话了。
 
 > INFO.NAME idle 84314503136331594
 That stupid wolf got blood all over me.
@@ -32653,7 +32653,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 261251052104235612
 Oh, sure. '...but it's a DRY heat.'
-哦，当然 '……但天气很干燥。
+哦，当然。“……但天气很干燥。”
 
 > INFO.NAME idle 100496262571415249
 I am NOT getting fat. These furs are shrinking.
@@ -32689,7 +32689,7 @@ Hey. I found a piece of cheese. Whose piece of cheese is this?
 
 > INFO.NAME idle 1154610438998821663
 ... so Hrokar says, 'Bend over and kiss your old mother goodbye!' [gales of laughter]
-……所以赫洛卡说，"弯下腰，跟你老妈吻别！["弯下腰和你老妈吻别！］
+……所以赫洛卡说，“弯下腰，跟你老妈吻别！[”弯下腰和你老妈吻别！］
 
 > INFO.NAME idle 31418232492227320150
 I'm losing my woolens again. Look the other way, would ya?
@@ -32733,7 +32733,7 @@ Oh, not AGAIN!
 
 > INFO.NAME idle 12024197422094212445
 Wait-wait-wait! I remember now! 'Ecdysiast!' That's it! She used to work as an ecdysiast.
-等等-等等-等等！我想起来了！"脱衣舞娘！对了！她以前当过脱衣舞娘。
+等等-等等-等等！我想起来了！“脱衣舞娘！”对了！她以前当过脱衣舞娘。
 
 > INFO.NAME idle 2753017911425526969
 Now... if I could just figure a scheme of classifying manifolds for TRI-PLY-connected surfaces... or even MORE complex surfaces...

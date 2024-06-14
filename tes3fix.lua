@@ -213,6 +213,28 @@ local function fixMark(e, c, i)
 	return cc and (c .. " " .. cc) or c
 end
 
+local quots1 = { "¡®", "¡¯" }
+local quots2 = { "¡°", "¡±" }
+local function fixQuot(line, i)
+	local j = 2
+--	line = line:gsub(" *' *", function(s)
+--		j = 3 - j
+--		return quots1[i]
+--	end)
+--	if j ~= 2 then
+--		error("ERROR: not matched quot at line " .. i)
+--	end
+--	j = 2
+	line = line:gsub(' *" *', function(s)
+		j = 3 - j
+		return quots2[j]
+	end)
+	if j ~= 2 then
+		error("ERROR: not matched quot at line " .. i)
+	end
+	return line
+end
+
 local lines = {}
 local checks = {}
 local n, s, e = 0, 0
@@ -229,7 +251,7 @@ for line in io.lines(arg[1]) do
 			end
 		else
 			if line:sub(1, 1) ~= '"' then
-				local line1 = fixMark(e, fix(e, line, i), i)
+				local line1 = fixQuot(fixMark(e, fix(e, line, i), i), i)
 				if line1 ~= line then
 					line = line1
 					n = n + 1
