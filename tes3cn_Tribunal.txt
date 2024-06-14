@@ -2222,7 +2222,7 @@ if ( state == 0 )
 	if ( OnActivate == 1 )
 		if ( player->GetItemCount ""dwemer_satchel00"" > 0 )
 			set state to 1	
-			MessageBox ""放置炸药？"" ""是的"" ""不是""
+			MessageBox ""放置炸药？"" ""是的"" ""不放""
 		endif
 	endif
 	return
@@ -7890,7 +7890,7 @@ short button
 short messageOn 
 ; this part gives you your choice on activating the door 
 if ( OnActivate == 1 ) 
-MessageBox ""你想爬过这个空间吗？"" ""是的"" ""不是"" 
+MessageBox ""你想爬过这个空间吗？"" ""是的"" ""不想"" 
 set messageOn to 1 
 endif 
 if ( messageOn == 1 ) 
@@ -8793,7 +8793,7 @@ endif
 
 If ( OnActivate == 1 )
 	If ( player->GetItemCount misc_dwrv_weather > 0 )
-		MessageBox ""将锻莫凝聚器放入接线盒？"" ""是的"" ""不是""
+		MessageBox ""将锻莫凝聚器放入接线盒？"" ""是的"" ""不放""
 		set messageOn to 1
 	endif
 endif

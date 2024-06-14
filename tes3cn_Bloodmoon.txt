@@ -7795,7 +7795,7 @@ if ( OnPCEquip == 1 )
 	if ( reset == 0 )
 		if ( messageOnce == 0 )
 			;Set OnPCEquip to 0
-			MessageBox ""你要使用海尔辛之戒吗？"" ""是的"" ""不是""
+			MessageBox ""你要使用海尔辛之戒吗？"" ""是的"" ""不要""
 			set messageOn to 1
 			set messageOnce to 1
 		endif
@@ -8389,7 +8389,7 @@ if ( OnActivate == 1 )
 		MessageBox ""巨大的冰墙似乎坚不可摧。""
 	elseif ( GetJournalIndex BM_Sun == 30 )
 		if ( Player->GetItemCount ingred_eyeball_unique > 0 )
-			MessageBox ""你要把火焰之眼扔向冰墙吗？"" ""是的"" ""不是""
+			MessageBox ""你要把火焰之眼扔向冰墙吗？"" ""是的"" ""不要""
 			set MessageOn to 1
 		else
 			MessageBox ""冰墙似乎坚不可摧。""
@@ -9923,7 +9923,7 @@ endif
 
 if ( GetDistance Player <== 512 )
 	if ( doOnce == 0 )
-		MessageBox ""你要把奇异种子种在肥沃的土壤里吗？"" ""是的"" ""不是""
+		MessageBox ""你要把奇异种子种在肥沃的土壤里吗？"" ""是的"" ""不要""
 		set messageOn to 1
 		set doOnce to 1
 	endif
@@ -83939,7 +83939,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Tirvel Balen$00"
  INFO.NAME "你怎么知道？我本该把这个带到要塞去的，但……但我真的不想去，外面有狼啊熊啊什么的，你知道吗？如果有人护送，我会觉得安全得多。你愿意和我一起去吗？我确实需要尽快赶过去。 {保镖}"
- INFO.BNAM "Choice: ""是的"" 1 ""不是"" 2"
+ INFO.BNAM "Choice: ""是的"" 1 ""不愿意"" 2"
 -INFO
  INFO.INAM "20954085239934059$00"
  INFO.PNAM "315428485948317831$00"
@@ -87837,7 +87837,7 @@ Journal CO_10 90"
  INFO.NAME "你有苦绿花瓣吗？"
  INFO.SCVR "04JX0CO_10"
  INFO.INTV [50 00 00 00]
- INFO.BNAM "Choice: ""是的"" 3 ""不是"" 4"
+ INFO.BNAM "Choice: ""是的"" 3 ""没有"" 4"
 -INFO
  INFO.INAM "194158002950424681$00"
  INFO.PNAM "2006314273109265781$00"
@@ -87886,7 +87886,7 @@ Journal CO_10 60"
  INFO.NAME "真的吗？听起来像我要找的东西。能带我去看看吗？"
  INFO.SCVR "04JX3CO_10"
  INFO.INTV [32 00 00 00]
- INFO.BNAM "Choice: ""我们走吧"" 1 ""不是"" 2"
+ INFO.BNAM "Choice: ""我们走吧"" 1 ""不能"" 2"
 -INFO
  INFO.INAM "22366204961944321805$00"
  INFO.PNAM "31393301591415323540$00"

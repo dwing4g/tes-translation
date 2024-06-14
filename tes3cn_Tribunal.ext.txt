@@ -340,7 +340,7 @@ Yes
 
 > SCPT.SCTX cavein_script m3
 No
-不是
+不放
 
 > SCPT.SCTX cavein_script m4
     5    
@@ -580,7 +580,7 @@ Yes
 
 > SCPT.SCTX passageScript m3
 No
-不是
+不想
 
 > SCPT.SCTX PlagueWarning m1
 A rancid stench nearly overwhelms you. This is not the smell of the dead... there is something else here.
@@ -756,7 +756,7 @@ Yes
 
 > SCPT.SCTX powerboxScript m3
 No
-不是
+不放
 
 > SCPT.SCTX raiseWaterToOpen m1
 The crates on this trap door prevent you from opening it.

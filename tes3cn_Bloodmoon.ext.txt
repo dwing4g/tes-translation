@@ -349,7 +349,7 @@ Yes
 
 > SCPT.SCTX hircineringScript m3
 No
-不是
+不要
 
 > SCPT.SCTX HrothmundAxe m1
 You grasp the mighty axe of Hrothmund, and utter your intention to rule over Thirsk.  In answer of approval, Hrothmund grants his blessing.
@@ -389,7 +389,7 @@ Yes
 
 > SCPT.SCTX icewallScript m4
 No
-不是
+不要
 
 > SCPT.SCTX icewallScript m5
 The ice wall appears impenetrable.
@@ -525,7 +525,7 @@ Yes
 
 > SCPT.SCTX plantScript m3
 No
-不是
+不要
 
 > SCPT.SCTX ringdoorScript m1
 This door has been magically sealed.
@@ -28757,7 +28757,7 @@ Yes
 
 > INFO.BNAM report 315428485948317831 c2
 No
-不是
+不愿意
 
 > INFO.NAME report 20954085239934059
 The report didn't matter. It was the messenger I was concerned with.
@@ -30189,7 +30189,7 @@ Yes
 
 > INFO.BNAM roots 2006314273109265781 c2
 No
-不是
+没有
 
 > INFO.NAME roots 194158002950424681
 Well, if this is the right place, maybe there's something I can do about it. If these roots are drinking from this pool of water, we can try poisoning the water to weaken them. If they're weakened, the trees might fall. But I'd need some bittergreen petals.... Can you get some for me? I'll need at least five of them. I doubt you'll find any on Solstheim, but you can probably dredge them up someplace more civilized.
@@ -30217,7 +30217,7 @@ Let's go
 
 > INFO.BNAM roots 31393301591415323540 c2
 No
-不是
+不能
 
 > INFO.NAME roots 22366204961944321805
 Yep, that whole shaft was full of them, so we just left it alone. Too much work.
