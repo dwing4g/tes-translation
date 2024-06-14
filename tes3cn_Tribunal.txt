@@ -65092,7 +65092,7 @@ moddisposition 5"
  INFO.NNAM "168280592832719718$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ralyn othravel$00"
- INFO.NAME "谁告诉你的？谁告诉你的？你不知道我经历了什么，你不知道我是怎么得到这把弓的。我不会放弃的。不是为了你，我有更重要的事要做 %PCRace。再见。"
+ INFO.NAME "谁告诉你的？谁告诉你的？你不知道我经历了什么，你不知道我是怎么得到这把弓的。我不会放弃的。不是为了你，我有更重要的事要做，%PCRace。再见。"
  INFO.BNAM "ModDisposition -10
 Goodbye"
 -INFO
@@ -80358,7 +80358,7 @@ goodbye"
  INFO.NNAM "1280623352998326775$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dratha$00"
- INFO.NAME "很高兴再见到你 %PCName。"
+ INFO.NAME "很高兴再见到你，%PCName。"
  INFO.SCVR "01440"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "34JX3B7_DrathaHort"

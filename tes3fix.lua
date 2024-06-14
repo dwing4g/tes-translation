@@ -5,6 +5,7 @@ local arg = arg
 local ipairs = ipairs
 local print = print
 local error = error
+local select = select
 local char = string.char
 local concat = table.concat
 
@@ -106,7 +107,7 @@ local function fix(e, c, i)
 		:gsub("%.%.%.%.+", "¡­¡­")
 		:gsub("%.%.+", "¡­")
 --		:gsub(",", "£¬")
-		:gsub("%.[ \t]+", "¡£")
+		:gsub("([^%d])%.[ \t]+", "%1¡£")
 		:gsub(";", "£»")
 		:gsub(":", "£º")
 		:gsub("%?", "£¿")
@@ -121,6 +122,13 @@ local function fix(e, c, i)
 		:gsub("¡­[ \t]+", "¡­")
 --		:gsub("¡¸(.-)¡¹", "¡°%1¡±")
 --		:gsub("¡º(.-)¡»", "¡®%1¡¯")
+	if select(2, e:gsub(", %%PC%w+%.", "%0")) == 1 and select(2, e:gsub("%%PC%w+", "%0")) == 1 then
+		if select(2, c:gsub(" %%PC%w+ ", "%0")) == 1 then
+			c = c:gsub(" +(%%PC%w+) +", "£¬%1¡£")
+		elseif select(2, c:gsub(" %%PC%w+¡£", "%0")) == 1 then
+			c = c:gsub(" +(%%PC%w+)¡£", "£¬%1¡£")
+		end
+	end
 	return cc and (c .. " " .. cc) or c
 end
 
