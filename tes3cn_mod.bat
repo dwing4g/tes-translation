@@ -4,9 +4,9 @@ pushd %~dp0
 
 @echo on
 
-luajit tes3mod.lua Morrowind.txt tes3cn_Morrowind.ext.txt tes3cn_Morrowind.mod.txt
-luajit tes3mod.lua Tribunal.txt  tes3cn_Tribunal.ext.txt  tes3cn_Tribunal.mod.txt
-luajit tes3mod.lua Bloodmoon.txt tes3cn_Bloodmoon.ext.txt tes3cn_Bloodmoon.mod.txt
+luajit tes3mod.lua Morrowind.txt tes3cn_Morrowind.ext.txt tes3cn_Morrowind.txt
+luajit tes3mod.lua Tribunal.txt  tes3cn_Tribunal.ext.txt  tes3cn_Tribunal.txt
+luajit tes3mod.lua Bloodmoon.txt tes3cn_Bloodmoon.ext.txt tes3cn_Bloodmoon.txt
 
 @echo off
 

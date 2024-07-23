@@ -1,4 +1,4 @@
--- luajit tes3dec.lua Morrowind.esm > Morrowind.txt
+-- luajit tes3dec.lua Morrowind.esm [1252|gbk|utf8] [raw] > Morrowind.txt
 
 local string = string
 local byte = string.byte
@@ -245,7 +245,7 @@ local function readInt4(limit)
 end
 
 local stringTags = {
-	"FNAM", "NAME", "RNAM", "SCHD", "SCTX", "TEXT"
+	"BNAM", "FNAM", "NAME", "RNAM", "SCHD", "SCTX", "TEXT"
 }
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
@@ -304,7 +304,7 @@ local function readFields(class, posEnd)
 		end
 		local tag = f:read(4)
 		if not tag:find "^[%u%d_<=>?:;@%z\x01-\x14][%u%d_]+$" then error(format("ERROR: 0x%08X: unknown tag: %q", pos, tag)) end
-		tag = tag:gsub("^[%z\x01-\x14]", function(s) return string.char(s:byte(1) + 0x61) end)
+		tag = tag:gsub("^[%z\x01-\x14]", function(s) return char(byte(s, 1) + 0x61) end)
 		if tag == "XXXX" then
 			local n = readInt2()
 			if n ~= 4 then error(format("ERROR: 0x%08X: invalid size for XXXX", pos)) end
@@ -317,7 +317,7 @@ local function readFields(class, posEnd)
 				n = largeSize
 			end
 			largeSize = nil
-			local s = f:read(n)
+			local s = n > 0 and f:read(n) or ""
 			if not binaryTags[tag] and (stringTags[tag] or isStr(s)) then
 				write("\"", addEscape(s), "\"\n") -- :gsub("%z$", "")
 			else
@@ -340,17 +340,17 @@ local function readClasses(posEnd)
 		end
 		local tag = f:read(4)
 		if not tag:find "^[%u%d_<=>?:;@%z\x01-\x14][%u%d_]+$" then error(format("ERROR: 0x%08X: unknown tag: %q", pos, tag)) end
-		tag = tag:gsub("^[%z\x01-\x14]", function(s) return string.char(s:byte(1) + 0x61) end)
+		tag = tag:gsub("^[%z\x01-\x14]", function(s) return char(byte(s, 1) + 0x61) end)
 		if not classSize then
 			local p = f:seek()
-			classSize = tag == "TES3" and 8 or (f:read(8):byte(5) == 1 and 12 or 16)
+			classSize = tag == "TES3" and 8 or (byte(f:read(0x14), 0x14) == 0 and 16 or 12)
 			classZeroData = ("\0"):rep(classSize)
 			f:seek("set", p)
 		end
 		count[tag] = (count[tag] or 0) + 1
 		local pre = tag == "GRUP" and "{" or "-"
 		write(RAW and format("%s%s", pre, tag) or format("%08X:%s%s", pos, pre, tag))
-		local n = readInt4(0x10000000)
+		local n = readInt4(0x40000000)
 		local b = f:read(classSize)
 		if b ~= classZeroData then
 			for j = 1, classSize do
@@ -363,9 +363,9 @@ local function readClasses(posEnd)
 			readClasses(pos + n)
 			write(RAW and format("}\n") or format("%08X:}\n", f:seek()))
 		else
-			if math.floor(b:byte(3) / 4) % 2 == 1 then
+			if math.floor(byte(b, 3) / 4) % 2 == 1 then
 				write(RAW and format(" ") or format("%08X: ", f:seek()))
-				b = f:read(n)
+				b = n > 0 and f:read(n) or ""
 				for i = 1, n do
 					write(format(i == 1 and "[%02X" or " %02X", byte(b, i)))
 				end

@@ -1,10 +1,11 @@
--- luajit tes3mod.lua Morrowind.txt tes3cn_Morrowind.ext.txt tes3cn_Morrowind.txt
+-- luajit tes3mod.lua Morrowind.txt tes3cn_Morrowind.ext.txt [topics.txt] tes3cn_Morrowind.txt
 
 local io = io
 local arg = arg
 local error = error
 local print = print
 local table = table
+local select = select
 
 local newLine = true
 local function warn(...)
@@ -17,8 +18,8 @@ local function warn(...)
 end
 
 local topics = {}
-for line in io.lines("topics.txt") do
-	local k, v = line:match "%[(.-)%] => %[(.-)%]"
+for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
+	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[k] = v
 	end
@@ -49,9 +50,9 @@ local function readStrExt(line, isFirst)
 		end
 		line = line:sub(4, -1)
 	end
-	local p = line:find '"""'
+	local p = line:reverse():find '"""'
 	if p then
-		return line:sub(1, p - 1)
+		return line:sub(1, -p - 3)
 	end
 	return line, true
 end
@@ -85,9 +86,15 @@ for line in io.lines(arg[2]) do
 					s = 4
 				else
 					if trans[k] then
-						warn("duplicated key '" .. k .. "' in '" .. arg[2] .. "'")
+						warn("duplicated key '", k, "' in '", arg[2], "'")
 					end
 					if v2 ~= "###" then
+						local n1 = select(2, v1:gsub("([\r\n][\r\n ]*[^\r\n ])", "%1"))
+						local n2 = select(2, v2:gsub("([\r\n][\r\n ]*[^\r\n ])", "%1"))
+						local nd = n2 - n1
+						if nd < 0 or nd > 1 then
+							warn("unmatched lines(", nd, ") for translation: ", k) -- , "\n", v1, "\n", v2)
+						end
 						trans[k] = { v1, v2 }
 						n = n + 1
 					end
@@ -134,9 +141,9 @@ local vt = {
 	["INFO.NAME"] = true,
 }
 
-io.stderr:write("INFO: modify '", arg[1], "' => '", arg[3], "' ... ")
+io.stderr:write("INFO: modify '", arg[1], "' => '", arg[#arg], "' ... ")
 newLine = false
-local f = io.open(arg[3], "wb")
+local f = io.open(arg[#arg], "wb")
 i, n = 0, 0
 local function modScr(line, p, lineId)
 	local lines = {}
@@ -167,7 +174,7 @@ local function modScr(line, p, lineId)
 				if t then
 					s = t
 				else
-					warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+					warn("not found topic '", s, "' at line ", lineId, " in '", arg[1], "'")
 				end
 				return '"' .. s .. '"'
 			end)
@@ -177,7 +184,7 @@ local function modScr(line, p, lineId)
 					if t then
 						s = t
 					else
-						warn("not found topic '" .. s .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found topic '", s, "' at line ", lineId, " in '", arg[1], "'")
 					end
 					return '"' .. s .. '"'
 				end)
@@ -186,7 +193,7 @@ local function modScr(line, p, lineId)
 		end)
 		line = line:gsub('([Mm]essage[Bb]ox[%s,]+)("[%C\t]+)', function(pre, str)
 			return pre .. str:gsub('"(.-)"', function(s)
-				if s:find "[%a\x80-\xff]" then
+				if s:find "[%w\x80-\xff]" then
 					mi = mi + 1
 					local k = p .. "m" .. mi
 					local t = trans[k]
@@ -196,10 +203,10 @@ local function modScr(line, p, lineId)
 						if s == t[1] then
 							s = t[2]
 						else
-							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
 				end
 				return '"' .. s .. '"'
@@ -210,7 +217,7 @@ local function modScr(line, p, lineId)
 			return pre .. str:gsub('"(.-)"', function(s)
 				if first then
 					first = false
-				elseif s:find "[%a\x80-\xff]" then
+				elseif s:find "[%w\x80-\xff]" then
 					si = si + 1
 					local k = p .. "s" .. si
 					local t = trans[k]
@@ -220,20 +227,20 @@ local function modScr(line, p, lineId)
 						if s == t[1] then
 							s = t[2]
 						else
-							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
 				end
 				return '"' .. s .. '"'
 			end)
 		end)
-		line = line:gsub('([Cc]hoice[%s,:]+)([%C\t]+)', function(pre, str)
+		line = line:gsub('^(%s*[Cc]hoice[%s,:]+)([%C\t]+)', function(pre, str)
 			local first = true
 			str = str:gsub('"(.-)"', function(s)
 				first = false
-				if s:find "[%a\x80-\xff]" then
+				if s:find "[%w\x80-\xff]" then
 					ci = ci + 1
 					local k = p .. "c" .. ci
 					local t = trans[k]
@@ -243,31 +250,29 @@ local function modScr(line, p, lineId)
 						if s == t[1] then
 							s = t[2]
 						else
-							warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
 				end
 				return '"' .. s .. '"'
 			end)
 			if first and not str:find '"' then
-				str = str:gsub('(%a%S+)', function(s)
-					if s:find "[%a\x80-\xff]" then
-						ci = ci + 1
-						local k = p .. "c" .. ci
-						local t = trans[k]
-						trans[k] = nil
-						n = n + 1
-						if t then
-							if s == t[1] then
-								s = t[2]
-							else
-								warn("unmatched translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. '\':\n"""' .. s .. '"""\n"""' .. t[1] .. '"""')
-							end
+				str = str:gsub('([%a\x80-\xff]%S+)', function(s)
+					ci = ci + 1
+					local k = p .. "c" .. ci
+					local t = trans[k]
+					trans[k] = nil
+					n = n + 1
+					if t then
+						if s == t[1] then
+							s = t[2]
 						else
-							warn("not found translation key '" .. k .. "' at line " .. lineId .. " in '" .. arg[1] .. "'")
+							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
+					else
+						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
 					return '"' .. s .. '"'
 				end)
@@ -314,7 +319,7 @@ for line in io.lines(arg[1]) do
 			if not r then
 				local e = (v:gsub("%$%$", "@TeS3ModmArK@"):match "(%$00.*)$" or ""):gsub("@TeS3ModmArK@", "$$")
 				if e ~= "" then v = v:sub(1, -1 - #e) end
-				if v:find "[%a\x80-\xff]" then
+				if v:find "[%w\x80-\xff]" then
 					local kk = tag .. " " .. k
 					if tag == "FACT.RNAM" then
 						fid = fid + 1
@@ -327,10 +332,10 @@ for line in io.lines(arg[1]) do
 						if v == t[1] then
 							v = t[2]
 						else
-							warn("unmatched translation key '" .. kk .. "' at line " .. i .. " in '" .. arg[1] .. '\':\n"""' .. v .. '"""\n"""' .. t[1] .. '"""')
+							warn("unmatched translation key '", kk, "' at line ", i, " in '", arg[1], '\':\n"""', v, '"""\n"""', t[1], '"""')
 						end
 					else
-						warn("not found translation key '" .. kk .. "' at line " .. i .. " in '" .. arg[1] .. "'")
+						warn("not found translation key '", kk, "' at line ", i, " in '", arg[1], "'")
 					end
 				end
 				line = " " .. tag .. ' "' .. (v .. e):gsub('"', '""') .. '"'
@@ -352,7 +357,7 @@ for line in io.lines(arg[1]) do
 					if t then
 						s = t
 					else
-						warn("not found topic '" .. s .. "' at line " .. i .. " in '" .. arg[1] .. "'")
+						warn("not found topic '", s, "' at line ", i, " in '", arg[1], "'")
 					end
 					return '"' .. s .. e
 				end)
@@ -383,5 +388,5 @@ end
 print("[" .. n .. "]")
 newLine = true
 for k, t in pairs(trans) do
-	warn("unused key: '" .. k .. "'")
+	warn("unused key: '", k, "'")
 end

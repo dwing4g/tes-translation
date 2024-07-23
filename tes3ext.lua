@@ -1,4 +1,4 @@
--- luajit tes3ext.lua Morrowind.txt tes3cn_Morrowind.txt tes3cn_Morrowind.ext.txt
+-- luajit tes3ext.lua Morrowind.txt tes3cn_Morrowind.txt [topics.txt] tes3cn_Morrowind.ext.txt
 
 local io = io
 local arg = arg
@@ -17,8 +17,8 @@ local function warn(...)
 end
 
 local topics = {}
-for line in io.lines("topics.txt") do
-	local k, v = line:match "%[(.-)%] => %[(.-)%]"
+for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
+	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[v] = k
 	end
@@ -93,7 +93,7 @@ local function loadTxt(fn)
 end
 
 local function extScr(line, p)
-	line = line:gsub("(\"[^\r\n]+\")", function(s)
+	line = "\n" .. line:gsub("(\"[^\r\n]+\")", function(s)
 		return s:gsub(";", "@TeS3ExTmArK@")
 	end):gsub(";[^\r\n]*", ""):gsub("@TeS3ExTmArK@", ";")
 	local kk, vv, i, mi, si, ci = {}, {}, 0, 0, 0, 0
@@ -122,7 +122,7 @@ local function extScr(line, p)
 			j = true
 		end
 	end
-	for str in line:gmatch '[Cc]hoice[%s,:]+([%C\t]+)' do
+	for str in line:gmatch '\n%s*[Cc]hoice[%s,:]+([%C\t]+)' do
 		local j = false
 		for s in str:gmatch '"(.-)"' do
 			i = i + 1
@@ -132,7 +132,7 @@ local function extScr(line, p)
 			j = true
 		end
 		if not j and not str:find '"' then
-			for s in str:gmatch '(%a%S+)' do
+			for s in str:gmatch '([%a\x80-\xff]%S+)' do
 				i = i + 1
 				ci = ci + 1
 				kk[i] = p .. "c" .. ci
@@ -151,13 +151,12 @@ local function extTxt(en)
 				for i = 1, #k do
 					addKV(k[i], v[i])
 				end
-			elseif v:find "[%a\x80-\xff]" then
+			elseif not v then
+				error("ERROR: no v for key: '" .. k .. "'")
+			elseif v:find "[%w\x80-\xff]" then
 				if et[k] then
 					warn("duplicated key: '", k, "'")
 					-- error("ERROR: duplicated key: '" .. k .. "'")
-				end
-				if not v then
-					error("ERROR: no v for key: '" .. k .. "'")
 				end
 				et[k] = v
 				es[#es + 1] = k
@@ -174,7 +173,7 @@ local function extTxt(en)
 			or tag == "SPEL" or tag == "WEAP" then -- special: SPEL.NAME "wulfharth$92s cups$00"
 			k = tag .. ".FNAM " .. t[tag .. ".NAME"]
 			v = t[tag .. ".FNAM"]
-			if not v and (tag == "ACTI" or tag == "CLOT" or tag == "DOOR" or tag == "LIGH" or tag == "MISC" or tag == "WEAP") then k = nil end
+			if not v and (tag == "ACTI" or tag == "CLOT" or tag == "CONT" or tag == "DOOR" or tag == "LIGH" or tag == "MISC" or tag == "NPC_" or tag == "WEAP") then k = nil end
 		elseif tag == "MGEF" or tag == "SKIL" then
 			k = tag .. ".DESC " .. t[tag .. ".INDX"]
 			v = t[tag .. ".DESC"]
@@ -189,6 +188,7 @@ local function extTxt(en)
 		elseif tag == "BOOK" then
 			k = tag .. ".FNAM " .. t[tag .. ".NAME"]
 			v = t[tag .. ".FNAM"]
+			if not v then k = nil end
 			kk = tag .. ".TEXT " .. t[tag .. ".NAME"]
 			vv = t[tag .. ".TEXT"]
 			if not vv then kk = nil end
@@ -304,8 +304,8 @@ local noTrans = {
 	["INFO.NAME 11111 test journal 32056462707524390"] = true,
 }
 
-io.stderr:write("INFO: writing '", arg[3], "' ...\n")
-local f = io.open(arg[3], "wb")
+io.stderr:write("INFO: writing '", arg[#arg], "' ...\n")
+local f = io.open(arg[#arg], "wb")
 for _, k in ipairs(es) do
 	f:write("> ", k, "\r\n")
 	local e, c = et[k], ct[k]
@@ -316,13 +316,13 @@ for _, k in ipairs(es) do
 		c = e
 		warn("unmatched key '", k, "'")
 	end
-	f:write(e == c and not noTrans[k] and not k:find "^GMST.STRV" and (not e:find "^[%w]*_[%w_]*$" ) and "###" or escape(c), "\r\n\r\n")
+	f:write(e == c and not noTrans[k] and not k:find "^GMST.STRV" and not e:find "^[%w]*_[%w_]*$" and e:find "%a" and "###" or escape(c), "\r\n\r\n")
 end
 f:close()
 
 for _, k in ipairs(cs) do
 	if ct[k] then
-		warn("unused key '", k, "'")
+		warn("unused key '", k, "': '", ct[k], "'")
 	end
 end
 
