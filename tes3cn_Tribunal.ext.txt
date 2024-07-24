@@ -4656,7 +4656,7 @@ Olvyne Dobar
 
 > NPC_.FNAM Soscean
 Soscean
-索斯安
+索斯坎
 
 > NPC_.FNAM Elanande
 Elanande
@@ -4680,7 +4680,7 @@ Elanande's Robe
 
 > WEAP.FNAM ebony shortsword_soscean
 Soscean's Shortsword
-索斯安的短剑
+索斯坎的短剑
 
 > ARMO.FNAM ebony_cuirass_soscean
 Soscean's Cuirass
@@ -7769,7 +7769,7 @@ Addhiranirr Informant
 
 > INFO.NAME a1_6_addhiranirrinformant 30643123741319511643
 I'm told that Addhiranirr is hiding because a Census and Excise agent is in the area. She's probably down in the underworks.
-我听说阿迪拉尼尔躲起来了，因为有税务局的人在这里。她可能在下水道里。 {普查及税务代理人}
+我听说阿迪拉尼尔躲起来了，因为有税务局特工在这里。她可能在下水道里。
 
 > INFO.NAME a1_6_addhiranirrinformant 5594065291889243
 Addhiranirr says that some smugglers are now working for the Sixth House, but Addhiranirr couldn't find out what they are smuggling. Addhiranirr thought it was strange that smugglers who usually brag about their smuggling are suddenly being very quiet about what they smuggle for the Sixth House. I wonder what is being smuggled, and why it is such a big secret. I think this is the sort of thing Caius Cosades is looking for.
@@ -7777,11 +7777,11 @@ Addhiranirr says that some smugglers are now working for the Sixth House, but Ad
 
 > INFO.NAME a1_6_addhiranirrinformant 6134106522752623066
 When I told the Census and Excise agent to look for Addhiranirr in the underworks, he was pleased. He didn't seem in a hurry to do anything, though. I wonder how Addhiranirr will feel about what I've done.
-当我告诉税务局特工去下水道找阿迪拉尼尔时，他很高兴。不过他似乎并不急于行动。不知道阿迪拉尼尔对我的所作所为会作何感想。 {普查及税务代理人}
+当我告诉税务局特工去下水道找阿迪拉尼尔时，他很高兴。不过他似乎并不急于行动。不知道阿迪拉尼尔对我的所作所为会作何感想。
 
 > INFO.NAME a1_6_addhiranirrinformant 16668297552055419639
 Addhiranirr was angry that I'd told the Census and Excise agent where to find her. Now it's going to be very hard to persuade her to answer my questions on the Nerevarine cult and the Sixth House cult.
-阿迪拉尼尔很生气，因为我告诉了税务局的人去哪里找她。现在要说服她回答我关于尼瑞瓦因教派和第六家族邪教的问题就非常困难了。 {普查及税务代理人}
+阿迪拉尼尔很生气，因为我告诉了税务局特工去哪里找她。现在要说服她回答我关于尼瑞瓦因教派和第六家族邪教的问题就非常困难了。
 
 > INFO.NAME a1_6_addhiranirrinformant 31000343144618781
 I finally managed to persuade Addhiranirr to answer my questions on the Nerevarine cult and the Sixth House cult.
@@ -8289,15 +8289,15 @@ I spoke with Daynasa Telandas who had been driven mad by dreams of Dagoth Ur and
 
 > INFO.NAME a1_sleeperdreamer02 112649775745223824
 Strange Man at Gindrala Hleran's House
-在金德拉·赫勒兰家中的陌生人
+在金德拉·勒兰家中的陌生人
 
 > INFO.NAME a1_sleeperdreamer02 2828522951741730286
 Gindrala Hleran says there's a strange man in her house, and he won't leave. She asked me to get him out of there, because he is scaring her.
-金德拉·赫勒兰说她家里有个奇怪的男人，他不肯离开。她让我把他弄出去，因为他吓着她了。 {陌生人}
+金德拉·勒兰说她家里有个奇怪的男人，他不肯离开。她让我把他弄出去，因为他吓着她了。 {陌生人}
 
 > INFO.NAME a1_sleeperdreamer02 1659348432149450
 I told Gindrala Hleran that I had to kill the strange man who had invaded her house. She was grateful, and promised to tell everyone how kind and brave I'd been.
-我告诉金德拉·赫勒兰，我不得不杀了入侵她家的陌生男人。她很感激，并答应告诉大家我是多么善良和勇敢。 {陌生人}
+我告诉金德拉·勒兰，我不得不杀了入侵她家的陌生男人。她很感激，并答应告诉大家我是多么善良和勇敢。 {陌生人}
 
 > INFO.NAME ic1_marshmerrow_not 7891530923761633
 Imperial Cult: Gathering Marshmerrow
@@ -8829,7 +8829,7 @@ House Redoran: Trouble with Bandits
 
 > INFO.NAME hr_guardguarherds 10500306252164315455
 Neminda asked me to talk to Drulene Falen again. The guar herders are having trouble with bandits.
-内明达让我再和德鲁林·法伦谈谈。瓜尔牧民遇到了强盗的困扰。
+内明达让我再和德鲁琳·法伦谈谈。瓜尔牧民遇到了强盗的困扰。
 
 > INFO.NAME hr_guardguarherds 1419610573166017625
 Neminda thanked me for taking care of the bandits.
@@ -8837,7 +8837,7 @@ Neminda thanked me for taking care of the bandits.
 
 > INFO.NAME hr_guardguarherds 203830509140322090
 Neminda accused me of murdering Drulene Falen. I have been expelled from House Redoran, and Neminda will not give me any more duties.
-内明达指控我谋杀了德鲁林·法伦。我已被逐出瑞多然家族，内明达也不会再给我任何职务。
+内明达指控我谋杀了德鲁琳·法伦。我已被逐出瑞多然家族，内明达也不会再给我任何职务。
 
 > INFO.NAME hr_honorchallenge 592117482455429205
 House Redoran: Ondres Nerano's Slanders
@@ -10001,7 +10001,7 @@ Hrundi paid me the bounty on Engaer.
 
 > INFO.NAME fg_suranbandits 12511191831859031956
 Fighters Guild: Bandits in Suran
-战士公会：位于苏兰的土匪
+战士公会：位于苏兰的强盗
 
 > INFO.NAME fg_suranbandits 146641019065014585
 Percius Mercius asked me to speak with Serjo Avon Oran in the town of Suran. The town has been raided by bandits.
@@ -10493,19 +10493,19 @@ I attempted to speak with Im-Kilaya at the Argonian Mission in Ebonheart. He had
 
 > INFO.NAME il_gnisisblight 3213720072819231600
 Imperial Legion: Gnisis Eggmine
-帝国军团：尼希斯卵矿场
+帝国军团：尼西斯卵矿场
 
 > INFO.NAME il_gnisisblight 4283228892444510000
 Darius asked me to cure the Kwama Queen in the Gnisis Eggmine. The Kwama Queen is blighted and the villagers suffer.
-达瑞斯让我去给尼希斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。
+达瑞斯让我去给尼西斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。 {尼希斯}
 
 > INFO.NAME il_gnisisblight 1340619687105833960
 Darius thanked me for curing the Kwama Queen in the Gnisis Eggmine.
-达瑞斯感谢我治好了尼希斯卵矿场的夸蚂女王。
+达瑞斯感谢我治好了尼西斯卵矿场的夸蚂女王。 {尼希斯}
 
 > INFO.NAME il_gnisisblight 16311232791527013138
 I told Darius that the kwama queen in the Gnisis Eggmine was dead.
-我告诉达瑞斯，尼希斯卵矿场的夸蚂女王已经死了。
+我告诉达瑞斯，尼西斯卵矿场的夸蚂女王已经死了。 {尼希斯}
 
 > INFO.NAME il_rescueragash 133251571921746191
 Imperial Legion: Rescue Ragash gra-Shuzgub
@@ -10969,15 +10969,15 @@ House Redoran: Mudcrab Pests
 
 > INFO.NAME hr_mudcrabnest 635752941745919133
 Neminda told me to speak with Drulene Falen. Mudcrabs have been bothering Drulene's guar.
-内明达让我去找德鲁林·法伦谈谈。泥沼蟹一直在骚扰德鲁琳的瓜尔。
+内明达让我去找德鲁琳·法伦谈谈。泥沼蟹一直在骚扰德鲁琳的瓜尔。
 
 > INFO.NAME hr_mudcrabnest 299901483247984908
 I killed the mudcrabs that were bothering Drulene Falen's guar.
-我杀死了骚扰德鲁林·法伦瓜尔的泥沼蟹。
+我杀死了骚扰德鲁琳·法伦瓜尔的泥沼蟹。
 
 > INFO.NAME hr_mudcrabnest 22474185822236721942
 I told Neminda that Drulene Falen was dead.
-我告诉内明达德鲁林·法伦已经死了。
+我告诉内明达德鲁琳·法伦已经死了。
 
 > INFO.NAME mg_vampirecure 7044272222104031276
 Mages Guild: Galur Rithari's Papers
@@ -12409,7 +12409,7 @@ House Telvanni: Stronghold
 
 > INFO.NAME ht_stronghold 1269821649210103220
 In order to advance in House Telvanni, I must build my own tower. I should speak with Llunela Hleran, the Telvanni stronghold builder.
-为了在泰瓦尼家族中晋升，我必须建造自己的塔楼。我应该和泰瓦尼堡垒建造者卢妮拉·赫勒兰谈谈。
+为了在泰瓦尼家族中晋升，我必须建造自己的塔楼。我应该和泰瓦尼堡垒建造者卢妮拉·勒兰谈谈。
 
 > INFO.NAME ht_stronghold 1697275891925026501
 The last stage of my stronghold is complete.
@@ -14465,7 +14465,7 @@ Mages Guild: Bethamez
 
 > INFO.NAME mg_bethamez 972227402253127427
 Edwinna heard that miners in the Gnisis Eggmine broke into the unplundered Dwemer ruin of Bethamez. She wants me to go to the lower levels of this eggmine and bring back any plans or blueprints I might find.
-埃德温娜听说尼希斯卵矿场的矿工闯入了贝撒姆兹未被发掘过的锻莫废墟。她要我去这个卵矿场的下层，带回我可能找到的任何图纸或蓝图。 {计划}
+埃德温娜听说尼西斯卵矿场的矿工闯入了贝撒姆兹未被发掘过的锻莫废墟。她要我去这个卵矿场的下层，带回我可能找到的任何图纸或蓝图。 {尼希斯,计划}
 
 > INFO.NAME mg_bethamez 661928379152566350
 I brought the plans from Bethamez back to Edwinna.
@@ -14517,7 +14517,7 @@ Fighters Guild: Sondaale
 
 > INFO.NAME fg_telasero 102281911584112318
 Hrundi asked me to escort another scholar, Sondaale of Shimmerene, through the stronghold of Telasero. She will meet me there. Telasero is between Suran and the Silt Strider port near Molag Mar.
-赫伦迪让我护送另一位学者，微光城的松达蕾通过泰拉塞洛的堡垒。她会在那里等我。泰拉塞洛位于苏兰和莫拉格-玛尔附近的跳蚤大巴港口之间。 {保镖}
+赫伦迪让我护送另一位学者，微光城的松达蕾通过泰拉塞洛的堡垒。她会在那里等我。泰拉塞洛位于苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。 {保镖}
 
 > INFO.NAME fg_telasero 1949467892635632310
 Hrundi thanked me for helping Sondaale of Shimmerene.
@@ -15317,11 +15317,11 @@ I should speak with Felvan Ienith to see how I can help him.
 
 > INFO.NAME ms_warlords 32072137762325725940
 I killed Soscean and brought his sword and cuirass to Dovor Oren, who paid me for the items.
-我杀了索斯安，把他的剑和胸甲带给了多沃尔·奥伦，他为这些东西付了钱。
+我杀了索斯坎，把他的剑和胸甲带给了多沃尔·奥伦，他为这些东西付了钱。
 
 > INFO.NAME ms_warlords 74927728844025130
 Dovor Oren has asked me to find Soscean in the Winged Guar, and get his sword and cuirass.  I will have to kill him, which Oren assures me is the right thing to do.
-多沃尔·奥伦让我去瓜尔添翼旅店找到索斯安，并拿到他的剑和胸甲。我将不得不杀了他，奥伦向我保证这是正确的做法。
+多沃尔·奥伦让我去瓜尔添翼旅店找到索斯坎，并拿到他的剑和胸甲。我将不得不杀了他，奥伦向我保证这是正确的做法。
 
 > INFO.NAME ms_warlords 1083613606119485323
 I met Dovor Oren in a vacant manor house in Mournhold.  He claims to be preparing for some sort of war between the Temple and the Imperials.
@@ -15601,7 +15601,7 @@ House Hlaalu: Inanius Egg Mine
 
 > INFO.NAME hh_eggmine 14173108522677414958
 Nileno Dorvayn wants me to kill the queen in the Inanius egg mine, which is just across the mountains from Suran. The entrance of the eggmine faces the mountains.
-尼莱诺·多维恩要我杀死伊纳纽斯卵矿场的女王，伊纳纽斯卵矿场与苏兰隔山相望。卵矿场的入口正对着群山。 {尼希斯卵矿场}
+尼莱诺·多维恩要我杀死伊纳纽斯卵矿场的女王，伊纳纽斯卵矿场与苏兰隔山相望。卵矿场的入口正对着群山。 {尼西斯卵矿场}
 
 > INFO.NAME hh_eggmine 26735269551780713238
 Nileno Dorvayn thanked me for killing the queen in the Inanius egg mine.
@@ -15809,7 +15809,7 @@ Vodunius Nuccius
 
 > INFO.NAME ms_nuccius 173931826418911813
 Darvame Hleran mentioned that she didn't think Vodunius Nuccius was happy here.
-达瓦梅·赫勒兰提到她认为沃杜尼乌斯·努奇乌斯在这里并不开心。
+达瓦梅·勒兰提到她认为沃杜尼乌斯·努奇乌斯在这里并不开心。
 
 > INFO.NAME ms_nuccius 26386197632853930402
 I bought a cursed ring from Vodunius Nuccius so he would have enough gold to leave Morrowind. I hope I have better luck with the ring, and with my adventures in Morrowind, than he did.
@@ -21129,7 +21129,7 @@ My injuries are serious. Use a 'Heal Other' spell to heal my wounds, or you'll b
 
 > INFO.NAME keep me healthy 307215541968130416
 Use a 'Heal Other' spell to heal my wounds. You can give me healing potions, but I won't use them except when I'm in combat. I'll rest when you rest, and restore my health and fatigue when you rest. The bottom line is that I have to depend on you to keep me alive. But you'll regret it if your faithful mercenary dies because of your carelessness and neglect... not to mention how disappointed I'll be.
-使用“治疗他人”的法术来治愈我的伤口。你可以给我一些治疗药水，但除了在战斗中，我不会使用它们。你休息时我就休息，在你休息时恢复我的生命值和体力值。底线是，我必须依靠你来保命。但是，如果你忠实的雇佣兵因为你的粗心和忽视而死亡，你会后悔的……更不用说我会多么失望了。 {这些药水,体能,信仰}
+使用“治疗他人”的法术来治愈我的伤口。你可以给我一些治疗药水，但除了在战斗中，我不会使用它们。你休息时我就休息，在你休息时恢复我的生命值和体力值。底线是，我必须依靠你来保命。但是，如果你忠实的雇佣兵因为你的粗心和忽视而死亡，你会后悔的……更不用说我会多么失望了。 {这些药水,信仰}
 
 > INFO.NAME altmer trainers 30301105983058211244
 I have heard you've killed both of them. This will please the Lady.
@@ -21405,7 +21405,7 @@ You're in Godsreach now. South is Plaza Brindisi Dorom. North is the Temple Cour
 
 > INFO.NAME specific place 749914731240121175
 Pelagiad is the next town up the road. Cross the bridge out of town and just stay on the road. From Pelagiad, take the road north to Balmora and Caldera, or east to Ebonheart and Vivec. If you have the cash, and are in a hurry, or afraid of getting lost, take the silt strider to Balmora or Vivec. Speak to Darvame Hleran at the silt strider landing, across the bridge and south along the shore. And if you plan to travel widely, get a copy of 'Guide to Vvardenfell' from Arrille. It's got maps.
-佩拉吉亚德是下一个城镇。过桥出镇，沿路前行。从佩拉吉亚德出发，沿路向北前往巴尔莫拉和卡尔德拉，或向东前往黑檀心和维威克。如果您有现金，又赶时间，或者怕迷路，可以乘坐跳蚤大巴前往巴尔莫拉或维威克。在跳蚤大巴登陆点与达瓦梅·赫勒兰交谈，过桥后沿岸向南走。如果你打算四处旅行，可以从阿里尔那里得到一本《瓦登费尔指南》。里面有地图。 {计划}
+佩拉吉亚德是下一个城镇。过桥出镇，沿路前行。从佩拉吉亚德出发，沿路向北前往巴尔莫拉和卡尔德拉，或向东前往黑檀心和维威克。如果您有现金，又赶时间，或者怕迷路，可以乘坐阔步沙蚤前往巴尔莫拉或维威克。在阔步沙蚤登陆点与达瓦梅·勒兰交谈，过桥后沿岸向南走。如果你打算四处旅行，可以从阿里尔那里得到一本《瓦登费尔指南》。里面有地图。 {计划}
 
 > INFO.NAME morrowind lore 2677921808100214765
 Wha?
@@ -22619,7 +22619,7 @@ Don't forget. You can't levitate in Mournhold. If that's the way you're used to 
 
 > INFO.NAME little advice 21392214712908127656
 You're an adventurer? Then you carry cure poison, dispel, and restore fatigue potions, as well as levitate and restore health potions. Right?
-你是个冒险家？那么你会带着解毒、驱散和恢复体力的药水，以及浮空和恢复生命药水。对吗？ {体能,这些药水,生命恢复药水}
+你是个冒险家？那么你会带着解毒、驱散和恢复体力的药水，以及浮空和恢复生命药水。对吗？ {这些药水,生命恢复药水}
 
 > INFO.NAME little advice 18653320961017722487
 Overconfidence kills. Don't judge an enemy by his gear. The really dangerous ones don't NEED gear to kill you.
@@ -22671,19 +22671,19 @@ I am sure you can persuade Dram Bero to support you as Hortator... if you can fi
 
 > INFO.NAME little advice 16369126751670624337
 New here? Take the silt strider to Vivec or Balmora. Fast and cheap. No trouble with wild animals. And smugglers. And bandits. And outlaws. Go see Darvame Hleran over at the strider port, over the bridge and east along the water. And tell her Vodunius Nuccius sent you.
-新来的？坐跳蚤大巴去维威克或巴尔莫拉。又快又便宜，没有野生动物的麻烦，还有走私者，还有强盗土匪，还有亡命之徒。去见达瓦梅·赫勒兰，在跳蚤大巴站那边，过了桥，沿着水往东走，告诉她是沃杜尼乌斯·努奇乌斯派你来的。
+新来的？坐阔步沙蚤去维威克或巴尔莫拉。又快又便宜，没有野生动物的麻烦，还有走私者，还有强盗土匪，还有亡命之徒。去见达瓦梅·勒兰，在阔步沙蚤站那边，过了桥，沿着水往东走，告诉她是沃杜尼乌斯·努奇乌斯派你来的。
 
 > INFO.NAME little advice 6806119891911025550
 Take the silt strider to Vivec or Balmora. Fast and cheap. Go see Darvame Hleran over at the strider port, over the bridge and east along the water. And tell her Vodunius Nuccius sent you.
-坐跳蚤大巴去维威克或巴尔莫拉。又快又便宜。去跳蚤大巴站找达瓦梅·赫勒兰，过桥后沿水向东走。告诉她是沃杜尼乌斯·努奇乌斯派你来的。
+坐阔步沙蚤去维威克或巴尔莫拉。又快又便宜。去阔步沙蚤站找达瓦梅·勒兰，过桥后沿水向东走。告诉她是沃杜尼乌斯·努奇乌斯派你来的。
 
 > INFO.NAME little advice 124735414790028426
 You look like you can take care of yourself. Then why don't you do something about those smugglers in Addamasartus cave? It's right over there near the silt strider port. Yet these guards! Look at them. Just strutting around. Someone must have paid them to ignore the smuggling going on here.
-你看起来能照顾好自己，那你为什么不对付阿达马萨图斯洞穴里的走私者？就在跳蚤大巴港口附近。然而这些卫兵！看看他们，趾高气扬的，一定是有人付钱给他们，让他们无视这里的走私活动。 {瓜尔}
+你看起来能照顾好自己，那你为什么不对付阿达马萨图斯洞穴里的走私者？就在阔步沙蚤港口附近。然而这些卫兵！看看他们，趾高气扬的，一定是有人付钱给他们，让他们无视这里的走私活动。 {瓜尔}
 
 > INFO.NAME little advice 1248319992938512979
 If you want to live to a ripe old age, buy a weapon and as much armor as you can wear and still run from trouble. Buy a spell or two. And practice your skills. Don't practice on citizens. We call that foul murder, and we don't like it. But you can kill smugglers and bandits and other outlaws all you like. Outlaws have no rights. Plenty of adventurers make a living from killing and looting outlaws. That smuggler scum down in Addamasartus, for instance. The cave down near the silt strider platform.
-如果你想长命百岁，买一把武器和尽可能多的盔甲，还能躲避麻烦。买一两个法术，训练你的技能。不过不要在市民身上练习，我们称之为谋杀，我们不喜欢这样。但你可以随便杀走私者，强盗,强盗和其他不法之徒。不法之徒没有人权，很多冒险者都靠杀戮和抢劫不法之徒为生。比如跳蚤大巴港口附近有个洞穴，叫阿达马萨图斯，里面听说最近有走私犯人渣出没。
+如果你想长命百岁，买一把武器和尽可能多的盔甲，还能躲避麻烦。买一两个法术，训练你的技能。不过不要在市民身上练习，我们称之为谋杀，我们不喜欢这样。但你可以随便杀走私者，强盗,强盗和其他不法之徒。不法之徒没有人权，很多冒险者都靠杀戮和抢劫不法之徒为生。比如阔步沙蚤港口附近有个洞穴，叫阿达马萨图斯，里面听说最近有走私犯人渣出没。
 
 > INFO.NAME little advice 16890297712091512590
 If you need directions, talk to our local scout, Elone the Redguard. She's here in the tradehouse somewhere. And you might want a copy of 'Guide to Vvardenfell' -- I think I still have a copy for sale.
@@ -22999,7 +22999,7 @@ Your first visit to Morrowind, outlander? Then learn the law and local customs. 
 
 > INFO.NAME little advice 8301187191161611327
 We see a lot of new faces like yours here in Seyda Neen. If you're hoping to stand out from the crowd, you need to practice a lot to improve your skills. And if you want to increase your general level of competence, focus on your major skills -- the ones most important to your trade. That way you'll advance more quickly. And another little tip newcomers forget. Always carry a little food so you can freshen up when fatigue gets you down. Eat a little, and you can feel your energy coming back.
-我们在赛达尼恩看到很多像你这样的新面孔，如果你想在人群中脱颖而出，就得多加练习，提高自己的技能；如果你想提高自己的综合能力，那就把重点放在主要技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体能。吃一点，你就能感觉到精力充沛。 {需要,提示}
+我们在赛达尼恩看到很多像你这样的新面孔，如果你想在人群中脱颖而出，就得多加练习，提高自己的技能；如果你想提高自己的综合能力，那就把重点放在主要技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,提示}
 
 > INFO.NAME little advice 3134129964876314433
 You wouldn't think so, but there are number of old abandoned tombs in the area. I thought this area had never been settled, but apparently, long before the Empire opened Vvardenfell up for settlement, someone has put a lot of ancestors to rest here. Most of us can't get past a superstitious distaste for rooting around in ancestral tombs. But you're an outlander. It shouldn't bother you, should it?
@@ -23075,7 +23075,7 @@ Mind your own business is my advice to visitors. Don't get nosy, or some people 
 
 > INFO.NAME little advice 847025867278623837
 They've sealed off the eggmine. Only letting miners in. But there is a secret entrance from the river bed.
-他们封锁了卵矿场。只允许矿工进入。但河床上有个秘密入口。 {尼希斯卵矿场}
+他们封锁了卵矿场。只允许矿工进入。但河床上有个秘密入口。 {尼西斯卵矿场}
 
 > INFO.NAME little advice 138613330761428304
 Don't go poking around in the Old Velothi tower. The renegade Telvanni wizard Baladas Demnevanni lives there, and he doesn't welcome visitors.
@@ -23563,7 +23563,7 @@ If you kill yourself trying to complete a job that's too difficult for you, it's
 
 > INFO.NAME little advice 1650105461312428566
 Don't fight when you're tired. Don't try to cast spells when you're tired. You'll fail much more often when you're tired. That's why veterans always carry a couple of Restore Fatigue potions for an emergency.
-疲劳时不要战斗。疲劳时不要尝试施法。疲劳时施法失败的次数会更多。这就是为什么退伍军人总是随身携带一些恢复体能药水以备不时之需。 {这些药水}
+疲劳时不要战斗。疲劳时不要尝试施法。疲劳时施法失败的次数会更多。这就是为什么退伍军人总是随身携带一些恢复体力药水以备不时之需。 {这些药水}
 
 > INFO.NAME little advice 30065136011644315896
 When you take a job, you have to have the good sense to hold off until you're stronger if it seems too hard for you.
@@ -23575,7 +23575,7 @@ If you find yourself stumbling into trouble when you're tired, stop being so rec
 
 > INFO.NAME little advice 17545243371364211941
 If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.
-如果要进入荒郊野外，一定要随身携带几支恢复生命、恢复体能、治愈疾病和治愈枯萎病药水。 {这些药水}
+如果要进入荒郊野外，一定要随身携带几支恢复生命、恢复体力、治愈疾病和治愈枯萎病药水。 {这些药水}
 
 > INFO.NAME little secret 25693272922242731603
 Oh yeah, sure. Heard ya the f-f-first time.
@@ -24659,7 +24659,7 @@ Ajira made a bet with Galbedir about who would get to the rank of Journeyman fir
 
 > INFO.NAME latest rumors 164502802716755727
 The Gnisis Eggmine wasn't closed because of the Blight. I wish I knew the real reason they're keeping the miners out of the lower levels.
-尼希斯卵矿场并不是因为枯萎之症而关闭的。我真希望能知道他们不让矿工进入下层的真正原因。
+尼西斯卵矿场并不是因为枯萎之症而关闭的。我真希望能知道他们不让矿工进入下层的真正原因。 {尼希斯}
 
 > INFO.NAME latest rumors 208541101734878208
 Senilias Cadiusus has been digging around in Nchuleftingth for years.
@@ -24699,7 +24699,7 @@ Mistress Dratha has been looking for something called a "Flesh Amulet." I heard 
 
 > INFO.NAME latest rumors 15502249981206313375
 Llunela Hleran said she wanted to incorporate some of the defenses she's seen in Dwemer ruins into her next stronghold.
-卢妮拉·赫勒兰说，她想把她在锻莫废墟里看到的一些防御措施融入到她的下一个堡垒里。
+卢妮拉·勒兰说，她想把她在锻莫废墟里看到的一些防御措施融入到她的下一个堡垒里。
 
 > INFO.NAME latest rumors 2425214692809324492
 Master Aryon has been trying to talk some of the reclusive Telvanni into joining the Council. I think he may be planning to challenge the Archmagister.
@@ -29855,7 +29855,7 @@ I heard you killed my patron, Ondres Nerano. I have nothing to say to the likes 
 
 > INFO.NAME greeting 1 2051619791523212047
 You here about your tower? Tell Llunela Hleran things are fine here. The work will be done soon.
-你是来找你的塔楼的？告诉卢妮拉·赫勒兰，这里一切正常，工程很快就会完成。 {工作}
+你是来找你的塔楼的？告诉卢妮拉·勒兰，这里一切正常，工程很快就会完成。 {工作}
 
 > INFO.NAME greeting 1 3013632767171797554
 This is your tower, right? What do you want, %PCName?
@@ -31891,7 +31891,7 @@ Your apology is no good to Addhiranirr.
 
 > INFO.NAME greeting 5 816629738978920409
 Have you dealt with the Gnisis Eggmine?
-尼希斯卵矿场的事情处理好了吗？
+尼西斯卵矿场的事情处理好了吗？ {尼希斯}
 
 > INFO.NAME greeting 5 21101133601380211667
 Report on the land deed.
@@ -31967,7 +31967,7 @@ What do you want?
 
 > INFO.NAME greeting 9 940215053234113895
 You're in an eggmine, outlander. So be careful. Kwama foragers and warriors won't attack miners, since they're used to our smell. But they attack intruders. And you smell like an intruder.
-你现在在卵矿场，外地人。所以一定要小心，夸蚂觅食者和夸蚂兵虫不会攻击矿工，因为他们习惯了我们的气味。但他们会攻击入侵者，而你闻起来就像入侵者。 {尼希斯卵矿场}
+你现在在卵矿场，外地人。所以一定要小心，夸蚂觅食者和夸蚂兵虫不会攻击矿工，因为他们习惯了我们的气味。但他们会攻击入侵者，而你闻起来就像入侵者。 {尼西斯卵矿场}
 
 > INFO.NAME greeting 9 159632969214530224
 I'm not busy now. What do you need?
@@ -33583,11 +33583,11 @@ Ah, wonderful.  Now, these tools can be put to freeing Mournhold from the yoke o
 
 > INFO.NAME soscean 1502129587325836
 I'm afraid I don't see the humor in this situation.  You tell me Soscean is dead, yet you have nothing for me?  Perhaps you should rethink attempting to make such jokes.  Just bring me what I've asked for.
-恐怕我不觉得这情况很幽默。你告诉我索斯安已经死了，但你却空手而归？也许你开玩笑之前应该三思。只要把我要的东西拿给我就行了。
+恐怕我不觉得这情况很幽默。你告诉我索斯坎已经死了，但你却空手而归？也许你开玩笑之前应该三思。只要把我要的东西拿给我就行了。
 
 > INFO.NAME soscean 1758178803207826583
 So, Soscean wouldn't go quietly, eh?  As I've said, he won't be missed.  Now, where are those items?
-那么，索斯安走得并不太平，嗯？我说过了，没人会想念他的。现在，那些东西在哪里？
+那么，索斯坎走得并不太平，嗯？我说过了，没人会想念他的。现在，那些东西在哪里？
 
 > INFO.BNAM soscean 1758178803207826583 c1
 Here are the items.
@@ -33911,7 +33911,7 @@ Since you've proven to be very helpful, I have another task that needs completin
 
 > INFO.NAME assist 2465916259101878116
 We know full well what we need.  We also know, however, that we can't make waves until the time is right.  Our actions would surely be misinterpreted, and we'd be treated like common criminals, while these fatcats, like Soscean, walk about in broad daylight as if they were saints.
-我们很清楚我们的需要。然而，我们也知道，在时机成熟之前，我们不能兴风作浪。我们的行动肯定会被误解，我们会被当作普通罪犯对待，而这些肥猫，比如索斯安，则会在光天化日之下招摇过市，好像他们是圣徒一样。
+我们很清楚我们的需要。然而，我们也知道，在时机成熟之前，我们不能兴风作浪。我们的行动肯定会被误解，我们会被当作普通罪犯对待，而这些肥猫，比如索斯坎，则会在光天化日之下招摇过市，好像他们是圣徒一样。
 
 > INFO.NAME profit 22848295812283422042
 I am in this for the money. I won't be robbed. I start with gear worth 500 gold, and with the 250 gold you're paying me. As long as I always have at least that much in gold and goods, I'll serve you according to contract. But if you take any gear or gold from me, I quit. You can take gold or goods from me -- but ONLY if you are replacing it with other gold and goods so my gear and gold are worth 750.

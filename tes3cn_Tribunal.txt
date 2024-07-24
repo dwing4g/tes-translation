@@ -18049,7 +18049,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_
  NPC_.NAME "Soscean$00"
- NPC_.FNAM "Ë÷Ë¹°²$00"
+ NPC_.FNAM "Ë÷Ë¹¿²$00"
  NPC_.RNAM "Redguard$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM [00]
@@ -18189,7 +18189,7 @@ Jusole Asciele ÊÇ Wayrest ¸ßÑÒ´óÊ¹¹ÝµÄÍâ½»¹Ù¡£Jusole Asciele ±»¹ã·º´«ÎÅÊÇÒ»ÃûÇé±
 -WEAP
  WEAP.NAME "ebony shortsword_soscean$00"
  WEAP.MODL "w\W_Shortsword_Ebony.nif$00"
- WEAP.FNAM "Ë÷Ë¹°²µÄ¶Ì½£$00"
+ WEAP.FNAM "Ë÷Ë¹¿²µÄ¶Ì½£$00"
  WEAP.WPDT [00 00 80 41 F8 2A 00 00 00 00 B0 04 00 00 00 40 00 00 80 3F 64 00 0A 14 0A 16 0F 19 01 00 00 00]
  WEAP.ITEX "w\Tx_Shortsword_Ebony.tga$00"
  WEAP.ENAM "sword_soscean_en$00"
@@ -26885,7 +26885,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "6750269661099330498$00"
  INFO.NNAM "148792839765926703$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒÌýËµ°¢µÏÀ­Äá¶û¶ãÆðÀ´ÁË£¬ÒòÎªÓÐË°Îñ¾ÖµÄÈËÔÚÕâÀï¡£Ëý¿ÉÄÜÔÚÏÂË®µÀÀï¡£ {ÆÕ²é¼°Ë°Îñ´úÀíÈË}"
+ INFO.NAME "ÎÒÌýËµ°¢µÏÀ­Äá¶û¶ãÆðÀ´ÁË£¬ÒòÎªÓÐË°Îñ¾ÖÌØ¹¤ÔÚÕâÀï¡£Ëý¿ÉÄÜÔÚÏÂË®µÀÀï¡£"
 -INFO
  INFO.INAM "5594065291889243$00"
  INFO.PNAM "103936328262522564$00"
@@ -26898,13 +26898,13 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "5594065291889243$00"
  INFO.NNAM "16668297552055419639$00"
  INFO.DATA [04 00 00 00 35 00 00 00 FF FF FF 00]
- INFO.NAME "µ±ÎÒ¸æËßË°Îñ¾ÖÌØ¹¤È¥ÏÂË®µÀÕÒ°¢µÏÀ­Äá¶ûÊ±£¬ËûºÜ¸ßÐË¡£²»¹ýËûËÆºõ²¢²»¼±ÓÚÐÐ¶¯¡£²»ÖªµÀ°¢µÏÀ­Äá¶û¶ÔÎÒµÄËù×÷ËùÎª»á×÷ºÎ¸ÐÏë¡£ {ÆÕ²é¼°Ë°Îñ´úÀíÈË}"
+ INFO.NAME "µ±ÎÒ¸æËßË°Îñ¾ÖÌØ¹¤È¥ÏÂË®µÀÕÒ°¢µÏÀ­Äá¶ûÊ±£¬ËûºÜ¸ßÐË¡£²»¹ýËûËÆºõ²¢²»¼±ÓÚÐÐ¶¯¡£²»ÖªµÀ°¢µÏÀ­Äá¶û¶ÔÎÒµÄËù×÷ËùÎª»á×÷ºÎ¸ÐÏë¡£"
 -INFO
  INFO.INAM "16668297552055419639$00"
  INFO.PNAM "6134106522752623066$00"
  INFO.NNAM "31000343144618781$00"
  INFO.DATA [04 00 00 00 38 00 00 00 FF FF FF 00]
- INFO.NAME "°¢µÏÀ­Äá¶ûºÜÉúÆø£¬ÒòÎªÎÒ¸æËßÁËË°Îñ¾ÖµÄÈËÈ¥ÄÄÀïÕÒËý¡£ÏÖÔÚÒªËµ·þËý»Ø´ðÎÒ¹ØÓÚÄáÈðÍßÒò½ÌÅÉºÍµÚÁù¼Ò×åÐ°½ÌµÄÎÊÌâ¾Í·Ç³£À§ÄÑÁË¡£ {ÆÕ²é¼°Ë°Îñ´úÀíÈË}"
+ INFO.NAME "°¢µÏÀ­Äá¶ûºÜÉúÆø£¬ÒòÎªÎÒ¸æËßÁËË°Îñ¾ÖÌØ¹¤È¥ÄÄÀïÕÒËý¡£ÏÖÔÚÒªËµ·þËý»Ø´ðÎÒ¹ØÓÚÄáÈðÍßÒò½ÌÅÉºÍµÚÁù¼Ò×åÐ°½ÌµÄÎÊÌâ¾Í·Ç³£À§ÄÑÁË¡£"
 -INFO
  INFO.INAM "31000343144618781$00"
  INFO.PNAM "16668297552055419639$00"
@@ -27879,20 +27879,20 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM [00]
  INFO.NNAM "2828522951741730286$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "ÔÚ½ðµÂÀ­¡¤ºÕÀÕÀ¼¼ÒÖÐµÄÄ°ÉúÈË"
+ INFO.NAME "ÔÚ½ðµÂÀ­¡¤ÀÕÀ¼¼ÒÖÐµÄÄ°ÉúÈË"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "2828522951741730286$00"
  INFO.PNAM "112649775745223824$00"
  INFO.NNAM "1659348432149450$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "½ðµÂÀ­¡¤ºÕÀÕÀ¼ËµËý¼ÒÀïÓÐ¸öÆæ¹ÖµÄÄÐÈË£¬Ëû²»¿ÏÀë¿ª¡£ËýÈÃÎÒ°ÑËûÅª³öÈ¥£¬ÒòÎªËûÏÅ×ÅËýÁË¡£ {Ä°ÉúÈË}"
+ INFO.NAME "½ðµÂÀ­¡¤ÀÕÀ¼ËµËý¼ÒÀïÓÐ¸öÆæ¹ÖµÄÄÐÈË£¬Ëû²»¿ÏÀë¿ª¡£ËýÈÃÎÒ°ÑËûÅª³öÈ¥£¬ÒòÎªËûÏÅ×ÅËýÁË¡£ {Ä°ÉúÈË}"
 -INFO
  INFO.INAM "1659348432149450$00"
  INFO.PNAM "2828522951741730286$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒ¸æËß½ðµÂÀ­¡¤ºÕÀÕÀ¼£¬ÎÒ²»µÃ²»É±ÁËÈëÇÖËý¼ÒµÄÄ°ÉúÄÐÈË¡£ËýºÜ¸Ð¼¤£¬²¢´ðÓ¦¸æËß´ó¼ÒÎÒÊÇ¶àÃ´ÉÆÁ¼ºÍÓÂ¸Ò¡£ {Ä°ÉúÈË}"
+ INFO.NAME "ÎÒ¸æËß½ðµÂÀ­¡¤ÀÕÀ¼£¬ÎÒ²»µÃ²»É±ÁËÈëÇÖËý¼ÒµÄÄ°ÉúÄÐÈË¡£ËýºÜ¸Ð¼¤£¬²¢´ðÓ¦¸æËß´ó¼ÒÎÒÊÇ¶àÃ´ÉÆÁ¼ºÍÓÂ¸Ò¡£ {Ä°ÉúÈË}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IC1_marshmerrow_not$00"
@@ -28904,7 +28904,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "13535154612446232748$00"
  INFO.NNAM "762978442549427799$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "ÄÚÃ÷´ïÈÃÎÒÔÙºÍµÂÂ³ÁÖ¡¤·¨Â×Ì¸Ì¸¡£¹Ï¶ûÄÁÃñÓöµ½ÁËÇ¿µÁµÄÀ§ÈÅ¡£"
+ INFO.NAME "ÄÚÃ÷´ïÈÃÎÒÔÙºÍµÂÂ³ÁÕ¡¤·¨Â×Ì¸Ì¸¡£¹Ï¶ûÄÁÃñÓöµ½ÁËÇ¿µÁµÄÀ§ÈÅ¡£"
 -INFO
  INFO.INAM "1419610573166017625$00"
  INFO.PNAM "15357532143827686$00"
@@ -28917,7 +28917,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "1419610573166017625$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "ÄÚÃ÷´ïÖ¸¿ØÎÒÄ±É±ÁËµÂÂ³ÁÖ¡¤·¨Â×¡£ÎÒÒÑ±»Öð³öÈð¶àÈ»¼Ò×å£¬ÄÚÃ÷´ïÒ²²»»áÔÙ¸øÎÒÈÎºÎÖ°Îñ¡£"
+ INFO.NAME "ÄÚÃ÷´ïÖ¸¿ØÎÒÄ±É±ÁËµÂÂ³ÁÕ¡¤·¨Â×¡£ÎÒÒÑ±»Öð³öÈð¶àÈ»¼Ò×å£¬ÄÚÃ÷´ïÒ²²»»áÔÙ¸øÎÒÈÎºÎÖ°Îñ¡£"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_HonorChallenge$00"
@@ -31115,7 +31115,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM [00]
  INFO.NNAM "146641019065014585$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "Õ½Ê¿¹«»á£ºÎ»ÓÚËÕÀ¼µÄÍÁ·Ë"
+ INFO.NAME "Õ½Ê¿¹«»á£ºÎ»ÓÚËÕÀ¼µÄÇ¿µÁ"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "146641019065014585$00"
@@ -32017,27 +32017,27 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM [00]
  INFO.NNAM "4283228892444510000$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "µÛ¹ú¾üÍÅ£ºÄáÏ£Ë¹ÂÑ¿ó³¡"
+ INFO.NAME "µÛ¹ú¾üÍÅ£ºÄáÎ÷Ë¹ÂÑ¿ó³¡"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "4283228892444510000$00"
  INFO.PNAM "3213720072819231600$00"
  INFO.NNAM "2090131916884922578$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "´ïÈðË¹ÈÃÎÒÈ¥¸øÄáÏ£Ë¹ÂÑ¿ó³¡µÄ¿äÂìÅ®ÍõÖÎ²¡¡£¿äÂìÅ®ÍõµÃÁË¿ÝÎ®²¡£¬´åÃñÃÇ¿à²»¿°ÑÔ¡£"
+ INFO.NAME "´ïÈðË¹ÈÃÎÒÈ¥¸øÄáÎ÷Ë¹ÂÑ¿ó³¡µÄ¿äÂìÅ®ÍõÖÎ²¡¡£¿äÂìÅ®ÍõµÃÁË¿ÝÎ®²¡£¬´åÃñÃÇ¿à²»¿°ÑÔ¡£ {ÄáÏ£Ë¹}"
 -INFO
  INFO.INAM "1340619687105833960$00"
  INFO.PNAM "2090131916884922578$00"
  INFO.NNAM "16311232791527013138$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "´ïÈðË¹¸ÐÐ»ÎÒÖÎºÃÁËÄáÏ£Ë¹ÂÑ¿ó³¡µÄ¿äÂìÅ®Íõ¡£"
+ INFO.NAME "´ïÈðË¹¸ÐÐ»ÎÒÖÎºÃÁËÄáÎ÷Ë¹ÂÑ¿ó³¡µÄ¿äÂìÅ®Íõ¡£ {ÄáÏ£Ë¹}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "16311232791527013138$00"
  INFO.PNAM "1340619687105833960$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒ¸æËß´ïÈðË¹£¬ÄáÏ£Ë¹ÂÑ¿ó³¡µÄ¿äÂìÅ®ÍõÒÑ¾­ËÀÁË¡£"
+ INFO.NAME "ÎÒ¸æËß´ïÈðË¹£¬ÄáÎ÷Ë¹ÂÑ¿ó³¡µÄ¿äÂìÅ®ÍõÒÑ¾­ËÀÁË¡£ {ÄáÏ£Ë¹}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IL_RescueRagash$00"
@@ -32909,20 +32909,20 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "241282554295357312$00"
  INFO.NNAM "21336241973127526375$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "ÄÚÃ÷´ïÈÃÎÒÈ¥ÕÒµÂÂ³ÁÖ¡¤·¨Â×Ì¸Ì¸¡£ÄàÕÓÐ·Ò»Ö±ÔÚÉ§ÈÅµÂÂ³ÁÕµÄ¹Ï¶û¡£"
+ INFO.NAME "ÄÚÃ÷´ïÈÃÎÒÈ¥ÕÒµÂÂ³ÁÕ¡¤·¨Â×Ì¸Ì¸¡£ÄàÕÓÐ·Ò»Ö±ÔÚÉ§ÈÅµÂÂ³ÁÕµÄ¹Ï¶û¡£"
 -INFO
  INFO.INAM "299901483247984908$00"
  INFO.PNAM "3082530699186753688$00"
  INFO.NNAM "22474185822236721942$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒÉ±ËÀÁËÉ§ÈÅµÂÂ³ÁÖ¡¤·¨Â×¹Ï¶ûµÄÄàÕÓÐ·¡£"
+ INFO.NAME "ÎÒÉ±ËÀÁËÉ§ÈÅµÂÂ³ÁÕ¡¤·¨Â×¹Ï¶ûµÄÄàÕÓÐ·¡£"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "22474185822236721942$00"
  INFO.PNAM "299901483247984908$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒ¸æËßÄÚÃ÷´ïµÂÂ³ÁÖ¡¤·¨Â×ÒÑ¾­ËÀÁË¡£"
+ INFO.NAME "ÎÒ¸æËßÄÚÃ÷´ïµÂÂ³ÁÕ¡¤·¨Â×ÒÑ¾­ËÀÁË¡£"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MG_VampireCure$00"
@@ -35628,7 +35628,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "24178223242435016828$00"
  INFO.NNAM "17564172461802620842$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "ÎªÁËÔÚÌ©ÍßÄá¼Ò×åÖÐ½úÉý£¬ÎÒ±ØÐë½¨Ôì×Ô¼ºµÄËþÂ¥¡£ÎÒÓ¦¸ÃºÍÌ©ÍßÄá±¤ÀÝ½¨ÔìÕßÂ¬ÄÝÀ­¡¤ºÕÀÕÀ¼Ì¸Ì¸¡£"
+ INFO.NAME "ÎªÁËÔÚÌ©ÍßÄá¼Ò×åÖÐ½úÉý£¬ÎÒ±ØÐë½¨Ôì×Ô¼ºµÄËþÂ¥¡£ÎÒÓ¦¸ÃºÍÌ©ÍßÄá±¤ÀÝ½¨ÔìÕßÂ¬ÄÝÀ­¡¤ÀÕÀ¼Ì¸Ì¸¡£"
 -INFO
  INFO.INAM "1697275891925026501$00"
  INFO.PNAM "151039695192415245$00"
@@ -39434,7 +39434,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "3179832321381018887$00"
  INFO.NNAM "661928379152566350$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "°£µÂÎÂÄÈÌýËµÄáÏ£Ë¹ÂÑ¿ó³¡µÄ¿ó¹¤´³ÈëÁË±´ÈöÄ·×ÈÎ´±»·¢¾ò¹ýµÄ¶ÍÄª·ÏÐæ¡£ËýÒªÎÒÈ¥Õâ¸öÂÑ¿ó³¡µÄÏÂ²ã£¬´ø»ØÎÒ¿ÉÄÜÕÒµ½µÄÈÎºÎÍ¼Ö½»òÀ¶Í¼¡£ {¼Æ»®}"
+ INFO.NAME "°£µÂÎÂÄÈÌýËµÄáÎ÷Ë¹ÂÑ¿ó³¡µÄ¿ó¹¤´³ÈëÁË±´ÈöÄ·×ÈÎ´±»·¢¾ò¹ýµÄ¶ÍÄª·ÏÐæ¡£ËýÒªÎÒÈ¥Õâ¸öÂÑ¿ó³¡µÄÏÂ²ã£¬´ø»ØÎÒ¿ÉÄÜÕÒµ½µÄÈÎºÎÍ¼Ö½»òÀ¶Í¼¡£ {ÄáÏ£Ë¹,¼Æ»®}"
 -INFO
  INFO.INAM "661928379152566350$00"
  INFO.PNAM "972227402253127427$00"
@@ -39533,7 +39533,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "103882409511097829$00"
  INFO.NNAM "99377753286383361$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "ºÕÂ×µÏÈÃÎÒ»¤ËÍÁíÒ»Î»Ñ§Õß£¬Î¢¹â³ÇµÄËÉ´ïÀÙÍ¨¹ýÌ©À­ÈûÂåµÄ±¤ÀÝ¡£Ëý»áÔÚÄÇÀïµÈÎÒ¡£Ì©À­ÈûÂåÎ»ÓÚËÕÀ¼ºÍÄªÀ­¸ñ-Âê¶û¸½½üµÄÌøÔé´ó°Í¸Û¿ÚÖ®¼ä¡£ {±£ïÚ}"
+ INFO.NAME "ºÕÂ×µÏÈÃÎÒ»¤ËÍÁíÒ»Î»Ñ§Õß£¬Î¢¹â³ÇµÄËÉ´ïÀÙÍ¨¹ýÌ©À­ÈûÂåµÄ±¤ÀÝ¡£Ëý»áÔÚÄÇÀïµÈÎÒ¡£Ì©À­ÈûÂåÎ»ÓÚËÕÀ¼ºÍÄªÀ­¸ñ-Âê¶û¸½½üµÄÀ«²½É³Ôé¸Û¿ÚÖ®¼ä¡£ {±£ïÚ}"
 -INFO
  INFO.INAM "1949467892635632310$00"
  INFO.PNAM "7429133461759914449$00"
@@ -41022,13 +41022,13 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "1691113020770315607$00"
  INFO.NNAM "74927728844025130$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "ÎÒÉ±ÁËË÷Ë¹°²£¬°ÑËûµÄ½£ºÍÐØ¼×´ø¸øÁË¶àÎÖ¶û¡¤°ÂÂ×£¬ËûÎªÕâÐ©¶«Î÷¸¶ÁËÇ®¡£"
+ INFO.NAME "ÎÒÉ±ÁËË÷Ë¹¿²£¬°ÑËûµÄ½£ºÍÐØ¼×´ø¸øÁË¶àÎÖ¶û¡¤°ÂÂ×£¬ËûÎªÕâÐ©¶«Î÷¸¶ÁËÇ®¡£"
 -INFO
  INFO.INAM "74927728844025130$00"
  INFO.PNAM "32072137762325725940$00"
  INFO.NNAM "1083613606119485323$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "¶àÎÖ¶û¡¤°ÂÂ×ÈÃÎÒÈ¥¹Ï¶ûÌíÒíÂÃµêÕÒµ½Ë÷Ë¹°²£¬²¢ÄÃµ½ËûµÄ½£ºÍÐØ¼×¡£ÎÒ½«²»µÃ²»É±ÁËËû£¬°ÂÂ×ÏòÎÒ±£Ö¤ÕâÊÇÕýÈ·µÄ×ö·¨¡£"
+ INFO.NAME "¶àÎÖ¶û¡¤°ÂÂ×ÈÃÎÒÈ¥¹Ï¶ûÌíÒíÂÃµêÕÒµ½Ë÷Ë¹¿²£¬²¢ÄÃµ½ËûµÄ½£ºÍÐØ¼×¡£ÎÒ½«²»µÃ²»É±ÁËËû£¬°ÂÂ×ÏòÎÒ±£Ö¤ÕâÊÇÕýÈ·µÄ×ö·¨¡£"
 -INFO
  INFO.INAM "1083613606119485323$00"
  INFO.PNAM "74927728844025130$00"
@@ -41524,7 +41524,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "48252821488173201$00"
  INFO.NNAM "26735269551780713238$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "ÄáÀ³Åµ¡¤¶àÎ¬¶÷ÒªÎÒÉ±ËÀÒÁÄÉÅ¦Ë¹ÂÑ¿ó³¡µÄÅ®Íõ£¬ÒÁÄÉÅ¦Ë¹ÂÑ¿ó³¡ÓëËÕÀ¼¸ôÉ½ÏàÍû¡£ÂÑ¿ó³¡µÄÈë¿ÚÕý¶Ô×ÅÈºÉ½¡£ {ÄáÏ£Ë¹ÂÑ¿ó³¡}"
+ INFO.NAME "ÄáÀ³Åµ¡¤¶àÎ¬¶÷ÒªÎÒÉ±ËÀÒÁÄÉÅ¦Ë¹ÂÑ¿ó³¡µÄÅ®Íõ£¬ÒÁÄÉÅ¦Ë¹ÂÑ¿ó³¡ÓëËÕÀ¼¸ôÉ½ÏàÍû¡£ÂÑ¿ó³¡µÄÈë¿ÚÕý¶Ô×ÅÈºÉ½¡£ {ÄáÎ÷Ë¹ÂÑ¿ó³¡}"
 -INFO
  INFO.INAM "26735269551780713238$00"
  INFO.PNAM "14173108522677414958$00"
@@ -41916,7 +41916,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "668723089854331815$00"
  INFO.NNAM "26386197632853930402$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "´ïÍßÃ·¡¤ºÕÀÕÀ¼Ìáµ½ËýÈÏÎªÎÖ¶ÅÄáÎÚË¹¡¤Å¬ÆæÎÚË¹ÔÚÕâÀï²¢²»¿ªÐÄ¡£"
+ INFO.NAME "´ïÍßÃ·¡¤ÀÕÀ¼Ìáµ½ËýÈÏÎªÎÖ¶ÅÄáÎÚË¹¡¤Å¬ÆæÎÚË¹ÔÚÕâÀï²¢²»¿ªÐÄ¡£"
 -INFO
  INFO.INAM "26386197632853930402$00"
  INFO.PNAM "173931826418911813$00"
@@ -52975,7 +52975,7 @@ player->additem ""gold_001"" 13500
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Calvus Horatius$00"
- INFO.NAME "Ê¹ÓÃ¡°ÖÎÁÆËûÈË¡±µÄ·¨ÊõÀ´ÖÎÓúÎÒµÄÉË¿Ú¡£Äã¿ÉÒÔ¸øÎÒÒ»Ð©ÖÎÁÆÒ©Ë®£¬µ«³ýÁËÔÚÕ½¶·ÖÐ£¬ÎÒ²»»áÊ¹ÓÃËüÃÇ¡£ÄãÐÝÏ¢Ê±ÎÒ¾ÍÐÝÏ¢£¬ÔÚÄãÐÝÏ¢Ê±»Ö¸´ÎÒµÄÉúÃüÖµºÍÌåÁ¦Öµ¡£µ×ÏßÊÇ£¬ÎÒ±ØÐëÒÀ¿¿ÄãÀ´±£Ãü¡£µ«ÊÇ£¬Èç¹ûÄãÖÒÊµµÄ¹ÍÓ¶±øÒòÎªÄãµÄ´ÖÐÄºÍºöÊÓ¶øËÀÍö£¬Äã»áºó»ÚµÄ¡­¡­¸ü²»ÓÃËµÎÒ»á¶àÃ´Ê§ÍûÁË¡£ {ÕâÐ©Ò©Ë®,ÌåÄÜ,ÐÅÑö}"
+ INFO.NAME "Ê¹ÓÃ¡°ÖÎÁÆËûÈË¡±µÄ·¨ÊõÀ´ÖÎÓúÎÒµÄÉË¿Ú¡£Äã¿ÉÒÔ¸øÎÒÒ»Ð©ÖÎÁÆÒ©Ë®£¬µ«³ýÁËÔÚÕ½¶·ÖÐ£¬ÎÒ²»»áÊ¹ÓÃËüÃÇ¡£ÄãÐÝÏ¢Ê±ÎÒ¾ÍÐÝÏ¢£¬ÔÚÄãÐÝÏ¢Ê±»Ö¸´ÎÒµÄÉúÃüÖµºÍÌåÁ¦Öµ¡£µ×ÏßÊÇ£¬ÎÒ±ØÐëÒÀ¿¿ÄãÀ´±£Ãü¡£µ«ÊÇ£¬Èç¹ûÄãÖÒÊµµÄ¹ÍÓ¶±øÒòÎªÄãµÄ´ÖÐÄºÍºöÊÓ¶øËÀÍö£¬Äã»áºó»ÚµÄ¡­¡­¸ü²»ÓÃËµÎÒ»á¶àÃ´Ê§ÍûÁË¡£ {ÕâÐ©Ò©Ë®,ÐÅÑö}"
 -DIAL
  DIAL.NAME "°ÁÌØÄªÑµÁ·Ê¦$00"
  DIAL.DATA [00]
@@ -53623,7 +53623,7 @@ Player->AddItem ""common_shoes_02_surefeet"" 1"
  INFO.NNAM "6643274893123421616$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "elone$00"
- INFO.NAME "ÅåÀ­¼ªÑÇµÂÊÇÏÂÒ»¸ö³ÇÕò¡£¹ýÇÅ³öÕò£¬ÑØÂ·Ç°ÐÐ¡£´ÓÅåÀ­¼ªÑÇµÂ³ö·¢£¬ÑØÂ·Ïò±±Ç°Íù°Í¶ûÄªÀ­ºÍ¿¨¶ûµÂÀ­£¬»òÏò¶«Ç°ÍùºÚÌ´ÐÄºÍÎ¬Íþ¿Ë¡£Èç¹ûÄúÓÐÏÖ½ð£¬ÓÖ¸ÏÊ±¼ä£¬»òÕßÅÂÃÔÂ·£¬¿ÉÒÔ³Ë×øÌøÔé´ó°ÍÇ°Íù°Í¶ûÄªÀ­»òÎ¬Íþ¿Ë¡£ÔÚÌøÔé´ó°ÍµÇÂ½µãÓë´ïÍßÃ·¡¤ºÕÀÕÀ¼½»Ì¸£¬¹ýÇÅºóÑØ°¶ÏòÄÏ×ß¡£Èç¹ûÄã´òËãËÄ´¦ÂÃÐÐ£¬¿ÉÒÔ´Ó°¢Àï¶ûÄÇÀïµÃµ½Ò»±¾¡¶ÍßµÇ·Ñ¶ûÖ¸ÄÏ¡·¡£ÀïÃæÓÐµØÍ¼¡£ {¼Æ»®}"
+ INFO.NAME "ÅåÀ­¼ªÑÇµÂÊÇÏÂÒ»¸ö³ÇÕò¡£¹ýÇÅ³öÕò£¬ÑØÂ·Ç°ÐÐ¡£´ÓÅåÀ­¼ªÑÇµÂ³ö·¢£¬ÑØÂ·Ïò±±Ç°Íù°Í¶ûÄªÀ­ºÍ¿¨¶ûµÂÀ­£¬»òÏò¶«Ç°ÍùºÚÌ´ÐÄºÍÎ¬Íþ¿Ë¡£Èç¹ûÄúÓÐÏÖ½ð£¬ÓÖ¸ÏÊ±¼ä£¬»òÕßÅÂÃÔÂ·£¬¿ÉÒÔ³Ë×øÀ«²½É³ÔéÇ°Íù°Í¶ûÄªÀ­»òÎ¬Íþ¿Ë¡£ÔÚÀ«²½É³ÔéµÇÂ½µãÓë´ïÍßÃ·¡¤ÀÕÀ¼½»Ì¸£¬¹ýÇÅºóÑØ°¶ÏòÄÏ×ß¡£Èç¹ûÄã´òËãËÄ´¦ÂÃÐÐ£¬¿ÉÒÔ´Ó°¢Àï¶ûÄÇÀïµÃµ½Ò»±¾¡¶ÍßµÇ·Ñ¶ûÖ¸ÄÏ¡·¡£ÀïÃæÓÐµØÍ¼¡£ {¼Æ»®}"
 -DIAL
  DIAL.NAME "³¿·çµÄÖªÊ¶$00"
  DIAL.DATA [00]
@@ -56143,7 +56143,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "18653320961017722487$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold$00"
- INFO.NAME "ÄãÊÇ¸öÃ°ÏÕ¼Ò£¿ÄÇÃ´Äã»á´ø×Å½â¶¾¡¢ÇýÉ¢ºÍ»Ö¸´ÌåÁ¦µÄÒ©Ë®£¬ÒÔ¼°¸¡¿ÕºÍ»Ö¸´ÉúÃüÒ©Ë®¡£¶ÔÂð£¿ {ÌåÄÜ,ÕâÐ©Ò©Ë®,ÉúÃü»Ö¸´Ò©Ë®}"
+ INFO.NAME "ÄãÊÇ¸öÃ°ÏÕ¼Ò£¿ÄÇÃ´Äã»á´ø×Å½â¶¾¡¢ÇýÉ¢ºÍ»Ö¸´ÌåÁ¦µÄÒ©Ë®£¬ÒÔ¼°¸¡¿ÕºÍ»Ö¸´ÉúÃüÒ©Ë®¡£¶ÔÂð£¿ {ÕâÐ©Ò©Ë®,ÉúÃü»Ö¸´Ò©Ë®}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -56262,7 +56262,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "6806119891911025550$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vodunius nuccius$00"
- INFO.NAME "ÐÂÀ´µÄ£¿×øÌøÔé´ó°ÍÈ¥Î¬Íþ¿Ë»ò°Í¶ûÄªÀ­¡£ÓÖ¿ìÓÖ±ãÒË£¬Ã»ÓÐÒ°Éú¶¯ÎïµÄÂé·³£¬»¹ÓÐ×ßË½Õß£¬»¹ÓÐÇ¿µÁÍÁ·Ë£¬»¹ÓÐÍöÃüÖ®Í½¡£È¥¼û´ïÍßÃ·¡¤ºÕÀÕÀ¼£¬ÔÚÌøÔé´ó°ÍÕ¾ÄÇ±ß£¬¹ýÁËÇÅ£¬ÑØ×ÅË®Íù¶«×ß£¬¸æËßËýÊÇÎÖ¶ÅÄáÎÚË¹¡¤Å¬ÆæÎÚË¹ÅÉÄãÀ´µÄ¡£"
+ INFO.NAME "ÐÂÀ´µÄ£¿×øÀ«²½É³ÔéÈ¥Î¬Íþ¿Ë»ò°Í¶ûÄªÀ­¡£ÓÖ¿ìÓÖ±ãÒË£¬Ã»ÓÐÒ°Éú¶¯ÎïµÄÂé·³£¬»¹ÓÐ×ßË½Õß£¬»¹ÓÐÇ¿µÁÍÁ·Ë£¬»¹ÓÐÍöÃüÖ®Í½¡£È¥¼û´ïÍßÃ·¡¤ÀÕÀ¼£¬ÔÚÀ«²½É³ÔéÕ¾ÄÇ±ß£¬¹ýÁËÇÅ£¬ÑØ×ÅË®Íù¶«×ß£¬¸æËßËýÊÇÎÖ¶ÅÄáÎÚË¹¡¤Å¬ÆæÎÚË¹ÅÉÄãÀ´µÄ¡£"
  INFO.SCVR "01064"
  INFO.INTV [02 00 00 00]
 -INFO
@@ -56271,14 +56271,14 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "124735414790028426$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vodunius nuccius$00"
- INFO.NAME "×øÌøÔé´ó°ÍÈ¥Î¬Íþ¿Ë»ò°Í¶ûÄªÀ­¡£ÓÖ¿ìÓÖ±ãÒË¡£È¥ÌøÔé´ó°ÍÕ¾ÕÒ´ïÍßÃ·¡¤ºÕÀÕÀ¼£¬¹ýÇÅºóÑØË®Ïò¶«×ß¡£¸æËßËýÊÇÎÖ¶ÅÄáÎÚË¹¡¤Å¬ÆæÎÚË¹ÅÉÄãÀ´µÄ¡£"
+ INFO.NAME "×øÀ«²½É³ÔéÈ¥Î¬Íþ¿Ë»ò°Í¶ûÄªÀ­¡£ÓÖ¿ìÓÖ±ãÒË¡£È¥À«²½É³ÔéÕ¾ÕÒ´ïÍßÃ·¡¤ÀÕÀ¼£¬¹ýÇÅºóÑØË®Ïò¶«×ß¡£¸æËßËýÊÇÎÖ¶ÅÄáÎÚË¹¡¤Å¬ÆæÎÚË¹ÅÉÄãÀ´µÄ¡£"
 -INFO
  INFO.INAM "124735414790028426$00"
  INFO.PNAM "6806119891911025550$00"
  INFO.NNAM "1248319992938512979$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eldafire$00"
- INFO.NAME "Äã¿´ÆðÀ´ÄÜÕÕ¹ËºÃ×Ô¼º£¬ÄÇÄãÎªÊ²Ã´²»¶Ô¸¶°¢´ïÂíÈøÍ¼Ë¹¶´Ñ¨ÀïµÄ×ßË½Õß£¿¾ÍÔÚÌøÔé´ó°Í¸Û¿Ú¸½½ü¡£È»¶øÕâÐ©ÎÀ±ø£¡¿´¿´ËûÃÇ£¬Öº¸ßÆøÑïµÄ£¬Ò»¶¨ÊÇÓÐÈË¸¶Ç®¸øËûÃÇ£¬ÈÃËûÃÇÎÞÊÓÕâÀïµÄ×ßË½»î¶¯¡£ {¹Ï¶û}"
+ INFO.NAME "Äã¿´ÆðÀ´ÄÜÕÕ¹ËºÃ×Ô¼º£¬ÄÇÄãÎªÊ²Ã´²»¶Ô¸¶°¢´ïÂíÈøÍ¼Ë¹¶´Ñ¨ÀïµÄ×ßË½Õß£¿¾ÍÔÚÀ«²½É³Ôé¸Û¿Ú¸½½ü¡£È»¶øÕâÐ©ÎÀ±ø£¡¿´¿´ËûÃÇ£¬Öº¸ßÆøÑïµÄ£¬Ò»¶¨ÊÇÓÐÈË¸¶Ç®¸øËûÃÇ£¬ÈÃËûÃÇÎÞÊÓÕâÀïµÄ×ßË½»î¶¯¡£ {¹Ï¶û}"
  INFO.SCVR "06DX0Melar Baram"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "16DX0Tanisie Verethi"
@@ -56291,7 +56291,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "16890297712091512590$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "arrille$00"
- INFO.NAME "Èç¹ûÄãÏë³¤Ãü°ÙËê£¬ÂòÒ»°ÑÎäÆ÷ºÍ¾¡¿ÉÄÜ¶àµÄ¿ø¼×£¬»¹ÄÜ¶ã±ÜÂé·³¡£ÂòÒ»Á½¸ö·¨Êõ£¬ÑµÁ·ÄãµÄ¼¼ÄÜ¡£²»¹ý²»ÒªÔÚÊÐÃñÉíÉÏÁ·Ï°£¬ÎÒÃÇ³ÆÖ®ÎªÄ±É±£¬ÎÒÃÇ²»Ï²»¶ÕâÑù¡£µ«Äã¿ÉÒÔËæ±ãÉ±×ßË½Õß£¬Ç¿µÁ,Ç¿µÁºÍÆäËû²»·¨Ö®Í½¡£²»·¨Ö®Í½Ã»ÓÐÈËÈ¨£¬ºÜ¶àÃ°ÏÕÕß¶¼¿¿É±Â¾ºÍÇÀ½Ù²»·¨Ö®Í½ÎªÉú¡£±ÈÈçÌøÔé´ó°Í¸Û¿Ú¸½½üÓÐ¸ö¶´Ñ¨£¬½Ð°¢´ïÂíÈøÍ¼Ë¹£¬ÀïÃæÌýËµ×î½üÓÐ×ßË½·¸ÈËÔü³öÃ»¡£"
+ INFO.NAME "Èç¹ûÄãÏë³¤Ãü°ÙËê£¬ÂòÒ»°ÑÎäÆ÷ºÍ¾¡¿ÉÄÜ¶àµÄ¿ø¼×£¬»¹ÄÜ¶ã±ÜÂé·³¡£ÂòÒ»Á½¸ö·¨Êõ£¬ÑµÁ·ÄãµÄ¼¼ÄÜ¡£²»¹ý²»ÒªÔÚÊÐÃñÉíÉÏÁ·Ï°£¬ÎÒÃÇ³ÆÖ®ÎªÄ±É±£¬ÎÒÃÇ²»Ï²»¶ÕâÑù¡£µ«Äã¿ÉÒÔËæ±ãÉ±×ßË½Õß£¬Ç¿µÁ,Ç¿µÁºÍÆäËû²»·¨Ö®Í½¡£²»·¨Ö®Í½Ã»ÓÐÈËÈ¨£¬ºÜ¶àÃ°ÏÕÕß¶¼¿¿É±Â¾ºÍÇÀ½Ù²»·¨Ö®Í½ÎªÉú¡£±ÈÈçÀ«²½É³Ôé¸Û¿Ú¸½½üÓÐ¸ö¶´Ñ¨£¬½Ð°¢´ïÂíÈøÍ¼Ë¹£¬ÀïÃæÌýËµ×î½üÓÐ×ßË½·¸ÈËÔü³öÃ»¡£"
 -INFO
  INFO.INAM "16890297712091512590$00"
  INFO.PNAM "1248319992938512979$00"
@@ -57311,7 +57311,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "3134129964876314433$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "ÎÒÃÇÔÚÈü´ïÄá¶÷¿´µ½ºÜ¶àÏñÄãÕâÑùµÄÐÂÃæ¿×£¬Èç¹ûÄãÏëÔÚÈËÈºÖÐÍÑÓ±¶ø³ö£¬¾ÍµÃ¶à¼ÓÁ·Ï°£¬Ìá¸ß×Ô¼ºµÄ¼¼ÄÜ£»Èç¹ûÄãÏëÌá¸ß×Ô¼ºµÄ×ÛºÏÄÜÁ¦£¬ÄÇ¾Í°ÑÖØµã·ÅÔÚÖ÷Òª¼¼ÄÜÉÏ£¬Ò²¾ÍÊÇ¶ÔÄãµÄÖ°Òµ×îÖØÒªµÄ¼¼ÄÜ¡£ÕâÑùÄãµÄ½ø²½»á¸ü¿ì¡£»¹ÓÐÒ»¸öÐÂÊÖÈÝÒ×Íü¼ÇµÄÐ¡ÇÏÃÅ¡£Ò»¶¨ÒªËæÉíÐ¯´øÒ»µãÊ³Îï£¬ÒÔ±ãÔÚÆ£ÀÍÊ±¿ÉÒÔ²¹³äÌåÄÜ¡£³ÔÒ»µã£¬Äã¾ÍÄÜ¸Ð¾õµ½¾«Á¦³äÅæ¡£ {ÐèÒª,ÌáÊ¾}"
+ INFO.NAME "ÎÒÃÇÔÚÈü´ïÄá¶÷¿´µ½ºÜ¶àÏñÄãÕâÑùµÄÐÂÃæ¿×£¬Èç¹ûÄãÏëÔÚÈËÈºÖÐÍÑÓ±¶ø³ö£¬¾ÍµÃ¶à¼ÓÁ·Ï°£¬Ìá¸ß×Ô¼ºµÄ¼¼ÄÜ£»Èç¹ûÄãÏëÌá¸ß×Ô¼ºµÄ×ÛºÏÄÜÁ¦£¬ÄÇ¾Í°ÑÖØµã·ÅÔÚÖ÷Òª¼¼ÄÜÉÏ£¬Ò²¾ÍÊÇ¶ÔÄãµÄÖ°Òµ×îÖØÒªµÄ¼¼ÄÜ¡£ÕâÑùÄãµÄ½ø²½»á¸ü¿ì¡£»¹ÓÐÒ»¸öÐÂÊÖÈÝÒ×Íü¼ÇµÄÐ¡ÇÏÃÅ¡£Ò»¶¨ÒªËæÉíÐ¯´øÒ»µãÊ³Îï£¬ÒÔ±ãÔÚÆ£ÀÍÊ±¿ÉÒÔ²¹³äÌåÁ¦¡£³ÔÒ»µã£¬Äã¾ÍÄÜ¸Ð¾õµ½¾«Á¦³äÅæ¡£ {ÐèÒª,ÌáÊ¾}"
  INFO.SCVR "09CX0Guard"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -57591,7 +57591,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.NNAM "138613330761428304$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Gnisis$00"
- INFO.NAME "ËûÃÇ·âËøÁËÂÑ¿ó³¡¡£Ö»ÔÊÐí¿ó¹¤½øÈë¡£µ«ºÓ´²ÉÏÓÐ¸öÃØÃÜÈë¿Ú¡£ {ÄáÏ£Ë¹ÂÑ¿ó³¡}"
+ INFO.NAME "ËûÃÇ·âËøÁËÂÑ¿ó³¡¡£Ö»ÔÊÐí¿ó¹¤½øÈë¡£µ«ºÓ´²ÉÏÓÐ¸öÃØÃÜÈë¿Ú¡£ {ÄáÎ÷Ë¹ÂÑ¿ó³¡}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [0F 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -59295,7 +59295,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.PNAM "3219120251791225772$00"
  INFO.NNAM "30065136011644315896$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "Æ£ÀÍÊ±²»ÒªÕ½¶·¡£Æ£ÀÍÊ±²»Òª³¢ÊÔÊ©·¨¡£Æ£ÀÍÊ±Ê©·¨Ê§°ÜµÄ´ÎÊý»á¸ü¶à¡£Õâ¾ÍÊÇÎªÊ²Ã´ÍËÎé¾üÈË×ÜÊÇËæÉíÐ¯´øÒ»Ð©»Ö¸´ÌåÄÜÒ©Ë®ÒÔ±¸²»Ê±Ö®Ðè¡£ {ÕâÐ©Ò©Ë®}"
+ INFO.NAME "Æ£ÀÍÊ±²»ÒªÕ½¶·¡£Æ£ÀÍÊ±²»Òª³¢ÊÔÊ©·¨¡£Æ£ÀÍÊ±Ê©·¨Ê§°ÜµÄ´ÎÊý»á¸ü¶à¡£Õâ¾ÍÊÇÎªÊ²Ã´ÍËÎé¾üÈË×ÜÊÇËæÉíÐ¯´øÒ»Ð©»Ö¸´ÌåÁ¦Ò©Ë®ÒÔ±¸²»Ê±Ö®Ðè¡£ {ÕâÐ©Ò©Ë®}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [50 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -59332,7 +59332,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.PNAM "13756105811994122503$00"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "Èç¹ûÒª½øÈë»Ä½¼Ò°Íâ£¬Ò»¶¨ÒªËæÉíÐ¯´ø¼¸Ö§»Ö¸´ÉúÃü¡¢»Ö¸´ÌåÄÜ¡¢ÖÎÓú¼²²¡ºÍÖÎÓú¿ÝÎ®²¡Ò©Ë®¡£ {ÕâÐ©Ò©Ë®}"
+ INFO.NAME "Èç¹ûÒª½øÈë»Ä½¼Ò°Íâ£¬Ò»¶¨ÒªËæÉíÐ¯´ø¼¸Ö§»Ö¸´ÉúÃü¡¢»Ö¸´ÌåÁ¦¡¢ÖÎÓú¼²²¡ºÍÖÎÓú¿ÝÎ®²¡Ò©Ë®¡£ {ÕâÐ©Ò©Ë®}"
  INFO.SCVR "0CsX0nolore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";bottom; default"
@@ -62122,7 +62122,7 @@ Journal town_Vivec 5"
  INFO.NNAM "208541101734878208$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "hetman abelmawia$00"
- INFO.NAME "ÄáÏ£Ë¹ÂÑ¿ó³¡²¢²»ÊÇÒòÎª¿ÝÎ®Ö®Ö¢¶ø¹Ø±ÕµÄ¡£ÎÒÕæÏ£ÍûÄÜÖªµÀËûÃÇ²»ÈÃ¿ó¹¤½øÈëÏÂ²ãµÄÕæÕýÔ­Òò¡£"
+ INFO.NAME "ÄáÎ÷Ë¹ÂÑ¿ó³¡²¢²»ÊÇÒòÎª¿ÝÎ®Ö®Ö¢¶ø¹Ø±ÕµÄ¡£ÎÒÕæÏ£ÍûÄÜÖªµÀËûÃÇ²»ÈÃ¿ó¹¤½øÈëÏÂ²ãµÄÕæÕýÔ­Òò¡£ {ÄáÏ£Ë¹}"
 -INFO
  INFO.INAM "208541101734878208$00"
  INFO.PNAM "164502802716755727$00"
@@ -62198,7 +62198,7 @@ Journal town_Vivec 5"
  INFO.NNAM "2425214692809324492$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "galar rothan$00"
- INFO.NAME "Â¬ÄÝÀ­¡¤ºÕÀÕÀ¼Ëµ£¬ËýÏë°ÑËýÔÚ¶ÍÄª·ÏÐæÀï¿´µ½µÄÒ»Ð©·ÀÓù´ëÊ©ÈÚÈëµ½ËýµÄÏÂÒ»¸ö±¤ÀÝÀï¡£"
+ INFO.NAME "Â¬ÄÝÀ­¡¤ÀÕÀ¼Ëµ£¬ËýÏë°ÑËýÔÚ¶ÍÄª·ÏÐæÀï¿´µ½µÄÒ»Ð©·ÀÓù´ëÊ©ÈÚÈëµ½ËýµÄÏÂÒ»¸ö±¤ÀÝÀï¡£"
 -INFO
  INFO.INAM "2425214692809324492$00"
  INFO.PNAM "15502249981206313375$00"
@@ -74772,7 +74772,7 @@ ModFight 10"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gashnakh gra-mughol$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "ÄãÊÇÀ´ÕÒÄãµÄËþÂ¥µÄ£¿¸æËßÂ¬ÄÝÀ­¡¤ºÕÀÕÀ¼£¬ÕâÀïÒ»ÇÐÕý³££¬¹¤³ÌºÜ¿ì¾Í»áÍê³É¡£ {¹¤×÷}"
+ INFO.NAME "ÄãÊÇÀ´ÕÒÄãµÄËþÂ¥µÄ£¿¸æËßÂ¬ÄÝÀ­¡¤ÀÕÀ¼£¬ÕâÀïÒ»ÇÐÕý³££¬¹¤³ÌºÜ¿ì¾Í»áÍê³É¡£ {¹¤×÷}"
  INFO.SCVR "34JX3HT_Stronghold"
  INFO.INTV [3C 00 00 00]
  INFO.SCVR "44JX4HT_Stronghold"
@@ -80647,7 +80647,7 @@ Goodbye"
  INFO.NNAM "21101133601380211667$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "general darius$00"
- INFO.NAME "ÄáÏ£Ë¹ÂÑ¿ó³¡µÄÊÂÇé´¦ÀíºÃÁËÂð£¿"
+ INFO.NAME "ÄáÎ÷Ë¹ÂÑ¿ó³¡µÄÊÂÇé´¦ÀíºÃÁËÂð£¿ {ÄáÏ£Ë¹}"
  INFO.SCVR "04JX2IL_GnisisBlight"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX4IL_GnisisBlight"
@@ -80835,7 +80835,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.CNAM "Miner$00"
  INFO.ANAM "Shulk Egg Mine$00"
- INFO.NAME "ÄãÏÖÔÚÔÚÂÑ¿ó³¡£¬ÍâµØÈË¡£ËùÒÔÒ»¶¨ÒªÐ¡ÐÄ£¬¿äÂìÃÙÊ³ÕßºÍ¿äÂì±ø³æ²»»á¹¥»÷¿ó¹¤£¬ÒòÎªËûÃÇÏ°¹ßÁËÎÒÃÇµÄÆøÎ¶¡£µ«ËûÃÇ»á¹¥»÷ÈëÇÖÕß£¬¶øÄãÎÅÆðÀ´¾ÍÏñÈëÇÖÕß¡£ {ÄáÏ£Ë¹ÂÑ¿ó³¡}"
+ INFO.NAME "ÄãÏÖÔÚÔÚÂÑ¿ó³¡£¬ÍâµØÈË¡£ËùÒÔÒ»¶¨ÒªÐ¡ÐÄ£¬¿äÂìÃÙÊ³ÕßºÍ¿äÂì±ø³æ²»»á¹¥»÷¿ó¹¤£¬ÒòÎªËûÃÇÏ°¹ßÁËÎÒÃÇµÄÆøÎ¶¡£µ«ËûÃÇ»á¹¥»÷ÈëÇÖÕß£¬¶øÄãÎÅÆðÀ´¾ÍÏñÈëÇÖÕß¡£ {ÄáÎ÷Ë¹ÂÑ¿ó³¡}"
 -INFO
  INFO.INAM "159632969214530224$00"
  INFO.PNAM "940215053234113895$00"
@@ -84290,7 +84290,7 @@ Journal MS_Warlords 70"
  INFO.INTV [4B 00 00 00]
  INFO.BNAM "Journal TR_Blade 75"
 -DIAL
- DIAL.NAME "Ë÷Ë¹°²$00"
+ DIAL.NAME "Ë÷Ë¹¿²$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "10541199391256511709$00"
@@ -84354,7 +84354,7 @@ Journal MS_Warlords 40"
  INFO.NNAM "1758178803207826583$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dovor Oren$00"
- INFO.NAME "¿ÖÅÂÎÒ²»¾õµÃÕâÇé¿öºÜÓÄÄ¬¡£Äã¸æËßÎÒË÷Ë¹°²ÒÑ¾­ËÀÁË£¬µ«ÄãÈ´¿ÕÊÖ¶ø¹é£¿Ò²ÐíÄã¿ªÍæÐ¦Ö®Ç°Ó¦¸ÃÈýË¼¡£Ö»Òª°ÑÎÒÒªµÄ¶«Î÷ÄÃ¸øÎÒ¾ÍÐÐÁË¡£"
+ INFO.NAME "¿ÖÅÂÎÒ²»¾õµÃÕâÇé¿öºÜÓÄÄ¬¡£Äã¸æËßÎÒË÷Ë¹¿²ÒÑ¾­ËÀÁË£¬µ«ÄãÈ´¿ÕÊÖ¶ø¹é£¿Ò²ÐíÄã¿ªÍæÐ¦Ö®Ç°Ó¦¸ÃÈýË¼¡£Ö»Òª°ÑÎÒÒªµÄ¶«Î÷ÄÃ¸øÎÒ¾ÍÐÐÁË¡£"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.BNAM "ModDisposition -10"
@@ -84364,7 +84364,7 @@ Journal MS_Warlords 40"
  INFO.NNAM "1869187861091729233$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dovor Oren$00"
- INFO.NAME "ÄÇÃ´£¬Ë÷Ë¹°²×ßµÃ²¢²»Ì«Æ½£¬àÅ£¿ÎÒËµ¹ýÁË£¬Ã»ÈË»áÏëÄîËûµÄ¡£ÏÖÔÚ£¬ÄÇÐ©¶«Î÷ÔÚÄÄÀï£¿"
+ INFO.NAME "ÄÇÃ´£¬Ë÷Ë¹¿²×ßµÃ²¢²»Ì«Æ½£¬àÅ£¿ÎÒËµ¹ýÁË£¬Ã»ÈË»áÏëÄîËûµÄ¡£ÏÖÔÚ£¬ÄÇÐ©¶«Î÷ÔÚÄÄÀï£¿"
  INFO.SCVR "04JX3MS_Warlords"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "16DX0Soscean"
@@ -84849,7 +84849,7 @@ thrud->AiFollow Player 0,0,0,0,0"
  INFO.BNAM "Journal MG_Dwarves 10
 AddTopic ""´Þ²©ÄáÎÚË¹""
 addtopic ""Ê±Ö®ÂÑ""
-addtopic ""ÉñÊ¥ÐþÀí"""
+addtopic ""Ê¥Ö®ÐþÀí"""
 -DIAL
  DIAL.NAME "ÔÓÎñ$00"
  DIAL.DATA [00]
@@ -85035,7 +85035,7 @@ StartScript Warlord_aScript"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dovor Oren$00"
- INFO.NAME "ÎÒÃÇºÜÇå³þÎÒÃÇµÄÐèÒª¡£È»¶ø£¬ÎÒÃÇÒ²ÖªµÀ£¬ÔÚÊ±»ú³ÉÊìÖ®Ç°£¬ÎÒÃÇ²»ÄÜÐË·ç×÷ÀË¡£ÎÒÃÇµÄÐÐ¶¯¿Ï¶¨»á±»Îó½â£¬ÎÒÃÇ»á±»µ±×÷ÆÕÍ¨×ï·¸¶Ô´ý£¬¶øÕâÐ©·ÊÃ¨£¬±ÈÈçË÷Ë¹°²£¬Ôò»áÔÚ¹âÌì»¯ÈÕÖ®ÏÂÕÐÒ¡¹ýÊÐ£¬ºÃÏñËûÃÇÊÇÊ¥Í½Ò»Ñù¡£"
+ INFO.NAME "ÎÒÃÇºÜÇå³þÎÒÃÇµÄÐèÒª¡£È»¶ø£¬ÎÒÃÇÒ²ÖªµÀ£¬ÔÚÊ±»ú³ÉÊìÖ®Ç°£¬ÎÒÃÇ²»ÄÜÐË·ç×÷ÀË¡£ÎÒÃÇµÄÐÐ¶¯¿Ï¶¨»á±»Îó½â£¬ÎÒÃÇ»á±»µ±×÷ÆÕÍ¨×ï·¸¶Ô´ý£¬¶øÕâÐ©·ÊÃ¨£¬±ÈÈçË÷Ë¹¿²£¬Ôò»áÔÚ¹âÌì»¯ÈÕÖ®ÏÂÕÐÒ¡¹ýÊÐ£¬ºÃÏñËûÃÇÊÇÊ¥Í½Ò»Ñù¡£"
  INFO.SCVR "04JX3MS_Warlords"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Journal MS_Warlords 20"
