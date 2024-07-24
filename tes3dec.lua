@@ -17,6 +17,13 @@ local error = error
 local ENCODING = arg[2] or "1252" -- "1252", "gbk", "jis", "utf8"
 local RAW = arg[3] == "raw"
 
+local escapeKeys =
+{
+	["wulfharth\x92s cups\0"] = true,
+	["yat\xFAr gro-shak\0"] = true,
+	["at\xFAlg gro-larg\xFAm\0"] = true,
+}
+
 local isStr, addEscape
 if ENCODING == "1252" then --TODO: 0x92 0xA0 0xE0 0xE1 0xE9 0xF3 used in TR_Mainland.esm
 	isStr = function(s)
@@ -83,6 +90,7 @@ elseif ENCODING == "gbk" then
 		local t = {}
 		local b, i, n = 1, 1, #s
 		local c, d, e
+		local es = escapeKeys[s]
 		while i <= n do
 			c, e = byte(s, i), 0
 			if c <= 0x7e then
@@ -91,7 +99,7 @@ elseif ENCODING == "gbk" then
 				end
 			elseif i < n and c >= 0x81 and c <= 0xfe and c ~= 0x7f then
 				local d = byte(s, i + 1)
-				if d >= 0x40 and d <= 0xfe and d ~= 0x7f then e = 2 end
+				if d >= 0x40 and d <= 0xfe and d ~= 0x7f and not es then e = 2 end
 			end
 			if e == 0 then
 				if b < i then t[#t + 1] = sub(s, b, i - 1) end
@@ -136,6 +144,7 @@ elseif ENCODING == "jis" then
 		local t = {}
 		local b, i, n = 1, 1, #s
 		local c, d, e
+		local es = escapeKeys[s]
 		while i <= n do
 			c, e = byte(s, i), 0
 			if c <= 0x7e then
@@ -147,7 +156,7 @@ elseif ENCODING == "jis" then
 					e = 1
 				else
 					local d = byte(s, i + 1)
-					if d >= 0x40 and d <= 0xfc and d ~= 0x7f then e = 2 end
+					if d >= 0x40 and d <= 0xfc and d ~= 0x7f and not es then e = 2 end
 				end
 			end
 			if e == 0 then

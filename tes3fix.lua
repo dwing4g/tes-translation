@@ -225,20 +225,22 @@ local quots1 = { "¡®", "¡¯" }
 local quots2 = { "¡°", "¡±" }
 local function fixQuot(line, i)
 	local j = 2
---	line = line:gsub(" *' *", function(s)
+	local newLine
+--	newLine = line:gsub(" *' *", function(s)
 --		j = 3 - j
 --		return quots1[i]
 --	end)
 --	if j ~= 2 then
---		error("ERROR: not matched quot at line " .. i)
+--		print("WARN: not matched quot at line " .. i)
 --	end
 --	j = 2
-	line = line:gsub(' *" *', function(s)
+	newLine = line:gsub(' *" *', function(s)
 		j = 3 - j
 		return quots2[j]
 	end)
 	if j ~= 2 then
-		error("ERROR: not matched quot at line " .. i)
+		print("WARN: not matched quot at line " .. i)
+		newLine = line
 	end
 	return line
 end
@@ -272,7 +274,7 @@ for line in io.lines(arg[1]) do
 						print("WARN: too many space in translation: " .. c)
 					end
 				elseif ce ~= line:gsub(" *{[^{}]*}$", "") and #e > 11 then
-					print("WARN: unmatched translation: " .. e .. "\n" .. ce .. "\n" .. line .. "\n")
+--					print("WARN: unmatched translation: " .. e .. "\n" .. ce .. "\n" .. line .. "\n")
 				end
 			end
 			s, e = 0
