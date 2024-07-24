@@ -51,12 +51,13 @@ luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 
 ### 转换脚本
 
-- `*.esp                           ` => `*.txt     ` : tes3cn_dec.bat
-- `*.txt                           ` => `*.txt     ` : tes3cn_trim.bat
+- `原|译.esp                       ` => `原|译.txt ` : tes3cn_dec.bat
+- `原|译.txt                       ` => `原|译.txt ` : tes3cn_trim.bat
 - `原.txt + 译.txt + topics.txt    ` => `译.ext.txt` : tes3cn_ext.bat
+- `译.ext.txt                      ` => `译.ext.txt` : tes3cn_fix.bat
 - `原.txt + 译.ext.txt + topics.txt` => `译.txt    ` : tes3cn_mod.bat
 - `译.txt + topics.txt             ` => `译.txt    ` : tes3cn_topic.bat
-- `*.txt                           ` => `*.esp     ` : tes3cn_enc.bat
+- `原|译.txt                       ` => `原|译.esp ` : tes3cn_enc.bat
 
 ### 字符串格式
 
