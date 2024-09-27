@@ -1,22 +1,25 @@
 local function extWords()
 	local t = {}
 	local i = 0
-	for line in io.lines "ecdict.csv" do -- https://github.com/skywind3000/ECDICT
+	for line in io.lines "../ECDICT/ecdict.csv" do -- https://github.com/skywind3000/ECDICT
 		i = i + 1
-		local words = line:match '^"(.-)",'
-		if not words then
+		local words
+		if line:byte(1) == 0x22 then -- '"'
+			words = line:match '^"(.-)",'
+			if words then
+				words = words:gsub('""', '"')
+			end
+		else
 			words = line:match "^(.-),"
 		end
 		if not words then
 			error("1: " .. i)
 		end
-		if not words:find "^[%w%-+*/&$%%!?~_\"';:.,()%[%] ]+$" then
-			error("2: " .. i)
-		end
-		for word in words:gmatch "%a+" do
-			if #word > 1 then
-				t[word] = true
-			end
+--		if not words:find "^[%w%-+*/&$%%!?~_\"';:.,()%[%] ]+$" then
+--			error("2: " .. i)
+--		end
+		if words:find "^%a%l+$" then
+			t[words] = true
 		end
 	end
 
