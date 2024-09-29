@@ -1,0 +1,13 @@
+- Morrowind.cel
+  - trim lines
+  - sort lines
+  - remove duplicated lines
+
+- tes3cn_*.esp
+  - tes3cn_dec.bat
+  - tes3cn_trim.bat
+  - tes3cn_topic.bat
+  - tes3cn_topic.bat
+  - tes3cn_ext.bat
+  - tes3cn_fix.bat
+  - tes3cn_fix.bat

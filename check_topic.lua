@@ -149,6 +149,8 @@ end
 
 local topicMap, topicMapR, dials = {}, {}, {}
 for _, filename in ipairs(src_filenames) do
+	local f = io.open(filename, "rb")
+	if f then f:close() else filename = "../" .. filename end
 	loadTopics(filename, topicMap, topicMapR, dials)
 end
 
@@ -395,6 +397,8 @@ end
 
 local texts, ignoreKeys = {}, {}
 for _, filename in ipairs(src_filenames) do
+	local f = io.open(filename, "rb")
+	if f then f:close() else filename = "../" .. filename end
 	loadTexts(filename, texts, topicMap, ignoreKeys)
 end
 local checkTexts = {}
