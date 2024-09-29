@@ -33969,7 +33969,7 @@ Clan Begalin µÄ Randagulf ³ÉÎª Tamrielic ÀúÊ·ÉÏ×îÇ¿´óµÄÕ½Ê¿Ö®Ò»¡£ËûÒÔÕ½¶·ÖÐµÄÓÂÆ
  INFO.PNAM "250581392157499677$00"
  INFO.NNAM "1812420956231104792$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "ÉðÊ¿¼ªÄ·¡¤Ê·´÷Î÷ÈÏÎª£¬°ÂµÂ'ÈêÒòÕ½Ê¿¹¤»áµÄçêÎ÷ÎÚË¹¡¤Ä¬Î÷ÎÚË¹¿ÉÄÜ»á°ïÖúÎÒÃÇ¡£ÎÒÓ¦¸ÃºÍËûÌ¸Ì¸Õ½Ê¿¹«»áµÄÆäËû³ÉÔ±¡£"
+ INFO.NAME "ÉðÊ¿¼ªÄ·¡¤Ê·´÷Î÷ÈÏÎª£¬°ÂµÂ'ÈêÒòÕ½Ê¿¹«»áµÄçêÎ÷ÎÚË¹¡¤Ä¬Î÷ÎÚË¹¿ÉÄÜ»á°ïÖúÎÒÃÇ¡£ÎÒÓ¦¸ÃºÍËûÌ¸Ì¸Õ½Ê¿¹«»áµÄÆäËû³ÉÔ±¡£"
 -INFO
  INFO.INAM "2959328659158685401$00"
  INFO.PNAM "14705160382473424351$00"
@@ -56298,7 +56298,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "3154228361751410315$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "arrille$00"
- INFO.NAME "Èç¹ûÄãÒªÎÊÂ·£¬¿ÉÒÔÈ¥ÕÒÎÒÃÇµÄ±¾µØÌ½×Ó£¬ºìÎÀÈË°£Â¡¡£Ëý¾ÍÔÚÃ³Ò×ÐÐµÄÄ³¸öµØ·½¡£ÄãÒ²ÐíÏëÒªÒ»±¾¡¶ÍßµÇ·Ñ¶ûÖ¸ÄÏ¡· ÎÒÏëÎÒ»¹ÓÐÒ»±¾ÔÚÂô¡£ {ÐèÒª,Ì¸}"
+ INFO.NAME "Èç¹ûÄãÒªÎÊÂ·£¬¿ÉÒÔÈ¥ÕÒÎÒÃÇµÄ±¾µØÌ½×Ó£¬ºìÎÀÈË°£Â¡¡£Ëý¾ÍÔÚÃ³Ò×ÐÐµÄÄ³¸öµØ·½¡£ÄãÒ²ÐíÏëÒªÒ»±¾¡¶ÍßµÇ·Ñ¶ûÖ¸ÄÏ¡·ÎÒÏëÎÒ»¹ÓÐÒ»±¾ÔÚÂô¡£ {ÐèÒª,Ì¸}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -57311,7 +57311,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "3134129964876314433$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "ÎÒÃÇÔÚÈü´ïÄá¶÷¿´µ½ºÜ¶àÏñÄãÕâÑùµÄÐÂÃæ¿×£¬Èç¹ûÄãÏëÔÚÈËÈºÖÐÍÑÓ±¶ø³ö£¬¾ÍµÃ¶à¼ÓÁ·Ï°£¬Ìá¸ß×Ô¼ºµÄ¼¼ÄÜ£»Èç¹ûÄãÏëÌá¸ß×Ô¼ºµÄ×ÛºÏÄÜÁ¦£¬ÄÇ¾Í°ÑÖØµã·ÅÔÚÖ÷Òª¼¼ÄÜÉÏ£¬Ò²¾ÍÊÇ¶ÔÄãµÄÖ°Òµ×îÖØÒªµÄ¼¼ÄÜ¡£ÕâÑùÄãµÄ½ø²½»á¸ü¿ì¡£»¹ÓÐÒ»¸öÐÂÊÖÈÝÒ×Íü¼ÇµÄÐ¡ÇÏÃÅ¡£Ò»¶¨ÒªËæÉíÐ¯´øÒ»µãÊ³Îï£¬ÒÔ±ãÔÚÆ£ÀÍÊ±¿ÉÒÔ²¹³äÌåÁ¦¡£³ÔÒ»µã£¬Äã¾ÍÄÜ¸Ð¾õµ½¾«Á¦³äÅæ¡£ {ÐèÒª,ÌáÊ¾}"
+ INFO.NAME "ÎÒÃÇÔÚÈü´ïÄá¶÷¿´µ½ºÜ¶àÏñÄãÕâÑùµÄÐÂÃæ¿×£¬Èç¹ûÄãÏëÔÚÈËÈºÖÐÍÑÓ±¶ø³ö£¬¾ÍµÃ¶à¼ÓÁ·Ï°£¬Ìá¸ß×Ô¼ºµÄ¼¼ÄÜ£»Èç¹ûÄãÏëÌá¸ß×Ô¼ºµÄ×ÛºÏÄÜÁ¦£¬ÄÇ¾Í°ÑÖØµã·ÅÔÚÖ÷ÐÞ¼¼ÄÜÉÏ£¬Ò²¾ÍÊÇ¶ÔÄãµÄÖ°Òµ×îÖØÒªµÄ¼¼ÄÜ¡£ÕâÑùÄãµÄ½ø²½»á¸ü¿ì¡£»¹ÓÐÒ»¸öÐÂÊÖÈÝÒ×Íü¼ÇµÄÐ¡ÇÏÃÅ¡£Ò»¶¨ÒªËæÉíÐ¯´øÒ»µãÊ³Îï£¬ÒÔ±ãÔÚÆ£ÀÍÊ±¿ÉÒÔ²¹³äÌåÁ¦¡£³ÔÒ»µã£¬Äã¾ÍÄÜ¸Ð¾õµ½¾«Á¦³äÅæ¡£ {ÐèÒª,ÌáÊ¾}"
  INFO.SCVR "09CX0Guard"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX4Random100"
