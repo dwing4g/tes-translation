@@ -371,8 +371,9 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 								key = inam .. " @ " .. dial
 								if texts[key] and texts[key] ~= s then
 									warn("duplicated INFO.INAM @ DIAL.NAME: ", key)
+								else
+									texts[key] = s
 								end
-								texts[key] = s
 								inam = nil
 								n = n + 1
 								dn = dn + 1
