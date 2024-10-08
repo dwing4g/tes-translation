@@ -84,11 +84,8 @@ local function fix(e, c, i)
 	end
 	local ee = getEnd(e:gsub("[%s%c]+$", ""))
 	local ce = getEnd(c)
-	if ee == "" and e:find '%.["\']$' then
-		ee = "."
-	end
 	if ee == "" then
-		if ce ~= "" then
+		if ce ~= "" and not e:find '["\']$' then
 			c = c:sub(1, -#ce - 1):gsub("[ \t]+$", "")
 		end
 	else

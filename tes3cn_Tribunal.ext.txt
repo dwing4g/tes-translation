@@ -9405,7 +9405,7 @@ House Redoran: Velsa Orethi
 
 > INFO.NAME hr_orethisisters 112415702151845997
 Aryni Orethi asked me to find out what happened to her sister, Velsa Orethi, a blood guard in Venim Manor.
-阿瑞妮·奥瑞缇让我查明她姐姐薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}
+阿瑞妮·奥瑞缇让我查明她姐妹薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}
 
 > INFO.NAME hr_orethisisters 893133791234926605
 Aryni Orethi thanked me for helping her sister.
@@ -22687,7 +22687,7 @@ If you want to live to a ripe old age, buy a weapon and as much armor as you can
 
 > INFO.NAME little advice 16890297712091512590
 If you need directions, talk to our local scout, Elone the Redguard. She's here in the tradehouse somewhere. And you might want a copy of 'Guide to Vvardenfell' -- I think I still have a copy for sale.
-如果你要问路，可以去找我们的本地探子，红卫人埃隆。她就在贸易行的某个地方。你也许想要一本《瓦登费尔指南》我想我还有一本在卖。 {需要,谈}
+如果你要问路，可以去找我们的本地探子，红卫人埃隆。她就在贸易行的某个地方。你也许想要一本《瓦登费尔指南》，我想我还有一本在卖。 {需要,谈}
 
 > INFO.NAME little advice 3154228361751410315
 Things are pretty tame hereabouts. But get off the roads and head northwest into the Bitter Coast, or northeast into the Ashlanders, and things get a lot more interesting in a hurry.
@@ -22867,7 +22867,7 @@ A good strategy is to paralyze your opponent, cast some kind of touch spell that
 
 > INFO.NAME little advice 3062426141146556201
 Learn the Mark, Recall, Levitation, and Open spells. Mark and Recall are essential for any long-distance travel. There are plenty of places you can't get to without Levitation. And treasure does you no good if it's behind a locked door or in a locked chest.
-学习标记、召回、浮空和开启法术。标记和召回是长途旅行的必备法术。很多地方没有浮空术是去不了的。如果宝藏在锁着的门后或锁着的箱子里，对你也没有好处。 {锁上的门}
+学习标记、召回、浮空和开锁法术。标记和召回是长途旅行的必备法术。很多地方没有浮空术是去不了的。如果宝藏在锁着的门后或锁着的箱子里，对你也没有好处。 {锁上的门}
 
 > INFO.NAME little advice 326077624287914367
 Invest in potions to restore your magicka. In hostile territory, these potions can save you a lot of downtime. Even supposing you can find some safe place to get some rest and regain your magicka, who needs the aggravation?
@@ -22899,11 +22899,11 @@ How do you judge a job, decide if it's too tough for you? Good question. Me, I c
 
 > INFO.NAME little advice 33523429197013181
 Nobody is going to coddle you in the Fighters Guild. In the Imperial cult, they give you stuff that old ladies could do in their sleep. But here, you get in line for work, and if something comes to you that is out of your depth, you're supposed to be smart enough to back off and come at it again later when you have the equipment and chops.
-在战士公会，没人会溺爱你。在帝国教团，他们给你的东西老太太做梦都能做。但在这里，你得排队干活，如果遇到超出你能力范围的事情，你应该聪明地退缩，等以后有了装备和技能再去做。 {帝国人,工作}
+在战士公会，没人会溺爱你。在帝国教团，他们给你的任务，老太太做梦都能做完。但在这里，你得排队干活，如果遇到超出你能力范围的事情，你应该聪明地退缩，等以后有了装备和技能再去做。 {帝国人,工作}
 
 > INFO.NAME little advice 320962972120326784
 I bet old Mollimo and his hirelings could make short work of Trerayna Dalen. But they way I hear it, Mistress Therana has got Mollimo on a short leash. Won't let him out of the tower, wants to keep him and the guard real close so everything safe. Granted, it's probably the safest, and most economical tactic, but it's dull and tiresome, and I think it's getting on Mollimo's nerves.
-我敢打赌，老莫里莫和他的手下一定能轻松搞定特雷娜·达伦。但我听说，西拉那夫人把莫里莫拴得紧紧的，不让他出塔楼，想让他和卫兵塔离得很近，这样一切就安全了。当然，这可能是最安全、最省钱的办法，但这很无趣，也很烦人，我觉得这让莫利莫很不爽。 {工作,西拉那女士,瓜尔}
+我敢打赌，老莫里莫和他的手下一定能轻松搞定特雷娜·达伦。但我听说，西拉那女士把莫里莫拴得紧紧的，不让他出塔楼，想让他和卫兵塔离得很近，这样一切就安全了。当然，这可能是最安全、最省钱的办法，但这很无趣，也很烦人，我觉得这让莫利莫很不爽。 {工作,瓜尔}
 
 > INFO.NAME little advice 980080082674620343
 Security is pretty tight at the tower, what with Trerayna Dalen's siege and all. Better not ruffle any feathers if you have any business in the tower. If Mollimo thinks you've got something cooked up with Dalen, he might kill you first and let the old necromancer ask questions later. Heh-heh.
@@ -22963,7 +22963,7 @@ Don't expect the natives to take to you right away. Colonists like us -- outland
 
 > INFO.NAME little advice 3255310583163914497
 Well, most outlanders stick close to the Imperial Guilds and the legions. But you might consider service in one of the Dunmer Great Houses. They aren't real fond of outlanders. And you have to look around hard for a patron -- someone who'll speak for you, help you advance to the higher ranks. But the Great Houses are where the real opportunities are. House Hlaalu and House Redoran are pretty reasonable. House Telvanni -- the wizard house -- they're another story.
-大多数外地人都亲近帝国公会和帝国军团。但你也可以考虑在丹莫的某个大家族中服役。他们并不喜欢外地人。你必须四处寻找资助者 -- 一个能为你说话，帮助你晋级的人。但大家族才是真正的机会所在。哈拉鲁家族和瑞多然家族还算合理。泰瓦尼家族--巫师家族--就另当别论了。 {帝国人}
+大多数外地人都喜欢帝国公会和帝国军团。但你也可以考虑加入丹莫的某个大家族。他们并不喜欢外地人。你必须四处寻找资助者 -- 一个能为你说话，帮助你晋级的人。但大家族才是真正有前途的地方。哈拉鲁家族和瑞多然家族还算合理。泰瓦尼家族 -- 巫师家族 -- 就另当别论了。 {帝国人,机会}
 
 > INFO.NAME little advice 234287841168030031
 DON'T head for the back country until you're ready. I did, and they took my stuff, and I count myself lucky. There's plenty of work, good opportunities near the towns down here in the southwest. But Red Mountain? No way. Out east with the Telvanni? Not yet. Up north in Sheogorad? Just toss your stuff in the water and slit your throat -- it'll be much faster, and less painful.
@@ -22975,11 +22975,11 @@ Hmm. You'll be looking for better armor. And a decent weapon. Let me make a sugg
 
 > INFO.NAME little advice 272151181915281170
 Me, I can afford it, so I buy my bed and board here. But there's no harm in sleeping rough, and eating what you can find. Anywhere outside of town you can just lay down and take your rest -- provided there ain't no thieves or kagouti around. But the guards don't like you sleeping in the streets. It annoys the gentry.
-我付得起钱，所以我在这里买床和床板。不过露宿街头也没什么不好，能吃什么就吃什么。在城外的任何地方，你都可以躺下休息 -- 只要周围没有小偷或盾角蜥。但卫兵不喜欢你露宿街头。这惹恼了贵族。 {瓜尔}
+我付得起钱，所以我在在这里租了一张床。不过露宿街头也没什么不好，能吃什么就吃什么。在城外的任何地方，你都可以躺下休息 -- 只要周围没有小偷或盾角蜥。但卫兵不喜欢你露宿街头。这会惹恼贵族。 {瓜尔}
 
 > INFO.NAME little advice 25326318635610711
 You can read, can't you? Well, read some books. That's what they write 'em for. Got all the damn advice anyone could want in 'em. Buy 'em, read 'em, sell 'em back. Most folks don't mind if you take a peek at what books they got. Proud of being book-learned. Of course, if the f'lah is SELLING books, he wants you to buy 'em, THEN read 'em. It stands to reason.
-你会读书，对吗？那就读点书吧。这就是他们写书的目的。吸收书里的所有该死的建议。买下它们，阅读它们，再把它们卖回去。大多数人不会介意你偷看他们的书。他们为自己是书香门第而感到骄傲。当然，如果这个F'lah（伙计）在卖书，他希望你先买，然后再读。这是有道理的。 {令状}
+你会读书，对吗？那就读点书吧。人们写书就是让你读的。吸取书里的所有该死的建议。买下它们，阅读它们，再把它们卖回去。大多数人不会介意你偷看他们的书。他们为自己是书香门第而感到骄傲。当然，如果这个F'lah（伙计）是卖书的，他希望你先买，然后再读。这是有道理的。 {令状}
 
 > INFO.NAME little advice 20716865470626437
 Don't know anything about adventuring? Here's the basics. Travel light, run like a kagouti. Don't go poking in holes unless you know what you're doing. Common sense.
@@ -22987,7 +22987,7 @@ Don't know anything about adventuring? Here's the basics. Travel light, run like
 
 > INFO.NAME little advice 23461272711692331735
 Where to start. Probably in Balmora. That's the House Hlaalu district seat. They've got a Fighters Guild and Mages Guild there, and a legion fort -- though I don't know if they're recruiting. They have all the services you need -- trainers, smiths, outfitters -- and if you join a guild and work your way up, the discounts and perks are worthwhile.
-从哪里开始？可能在巴尔莫拉，那是哈拉鲁家族议院的所在地。那里有战士公会和法师公会，还有一个军团要塞--不过我不知道他们是否在招兵买马。他们有你需要的所有服务--驯兽师、铁匠铺、装备店--如果你加入公会并努力往上爬，折扣和福利都是值得的。 {工作}
+从哪里开始？可能在巴尔莫拉，那是哈拉鲁家族议院的所在地。那里有战士公会和法师公会，还有一个军团要塞 -- 不过我不知道他们是否在招兵买马。他们有你需要的所有服务 -- 驯兽师、铁匠铺、装备店 -- 如果你加入公会并努力往上爬，折扣和福利都是值得的。 {工作}
 
 > INFO.NAME little advice 290424981117230807
 Phew. You're bittergreen green, outlander. Might as well wear a sign, "New in Town." Word of advice. Buy a little good will. Lose a few drakes, gain a friend. Folks will loosen up if your spread a little of the Emperor's gold around.
@@ -22999,7 +22999,7 @@ Your first visit to Morrowind, outlander? Then learn the law and local customs. 
 
 > INFO.NAME little advice 8301187191161611327
 We see a lot of new faces like yours here in Seyda Neen. If you're hoping to stand out from the crowd, you need to practice a lot to improve your skills. And if you want to increase your general level of competence, focus on your major skills -- the ones most important to your trade. That way you'll advance more quickly. And another little tip newcomers forget. Always carry a little food so you can freshen up when fatigue gets you down. Eat a little, and you can feel your energy coming back.
-我们在赛达尼恩看到很多像你这样的新面孔，如果你想在人群中脱颖而出，就得多加练习，提高自己的技能；如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,提示}
+我们在赛达尼恩见过很多像你这样的新面孔。如果你想在人群中脱颖而出，就得多加练习，提高自己的技能。如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,提示}
 
 > INFO.NAME little advice 3134129964876314433
 You wouldn't think so, but there are number of old abandoned tombs in the area. I thought this area had never been settled, but apparently, long before the Empire opened Vvardenfell up for settlement, someone has put a lot of ancestors to rest here. Most of us can't get past a superstitious distaste for rooting around in ancestral tombs. But you're an outlander. It shouldn't bother you, should it?
@@ -23007,7 +23007,7 @@ You wouldn't think so, but there are number of old abandoned tombs in the area. 
 
 > INFO.NAME little advice 2741066531984117339
 Go to the Prefect of Hospitality, Angaredhel the Altmer, at the Gateway, and purchase the necessary Hospitality papers. It's not that expensive, and you don't want any trouble with the guards.
-去找城门口的招待处长安加雷德尔·傲特莫，购买必要的招待文件。这并不贵，而且你也不想在卫兵面前惹麻烦吧。 {闸门,瓜尔}
+去找城门口的招待处长，一个叫安加雷德尔的傲特莫，购买必要的招待文件。这并不贵，而且你也不想在卫兵面前惹麻烦吧。 {闸门,瓜尔}
 
 > INFO.NAME little advice 2581624354151364066
 The best way to travel in Sadrith Mora is by the guild guide teleports at the Mages Guild in Wolverine Hall. It gets you past the foolishness at the Gateway, and most of the services you need are right in Wolverine Hall.
@@ -23043,7 +23043,7 @@ Visit the Tower shrine, and ask the priests there about it. Quite a story. 'To y
 
 > INFO.NAME little advice 66814576200015326
 Not much up here to keep a questing hero like yourself busy, I'm afraid. It's pretty quiet, and that's the way we like it. You might take a look at the Daedric ruins to the southwest, though. Don't know anything about them, myself. No business fooling with that stuff. But they say a lot of those old sites have hidden treasures.
-恐怕这里没什么能让你这样的探险英雄忙碌的。这里很安静，我们就喜欢这样。不过你可以去西南边的迪德拉废墟看看。我对那里一无所知，没必要搞那些东西，但据说很多古迹都藏有宝藏。 {忙着,迪德拉式,事}
+恐怕这里没什么需要你这样的探险英雄操心忙碌的事。这里很宁静，我们就喜欢这样。不过你可以去西南边的迪德拉废墟看看。我对那里一无所知，也没必要知道，但据说很多古迹都藏有宝藏。 {忙着,迪德拉式}
 
 > INFO.NAME little advice 31770240923247032717
 People around here are suspicious of strangers asking a lot of questions. Maybe something they're doing isn't exactly legal. They don't want anyone poking around. You understand?
@@ -23063,7 +23063,7 @@ There are nests of dreugh somewhere along the Bitter Coast. They're not to be tr
 
 > INFO.NAME little advice 3788232451380113869
 You may have heard people refer to the Bitter Coast as the Smuggler's Coast. There's a reason for that. A lot of islands and coastline, with plenty of caves and hidey-holes, and few people around. Perfect for men with boats who want to keep their business private.
-你可能听过人们把苦涩海岸称为走私者的海岸。这是有原因的。这里有很多岛屿和海岸线，有很多洞穴和藏身之处，而且人迹罕至。非常适合有船的人私下活动。 {事}
+你可能听说过人们把苦涩海岸称为走私者的海岸。这是有原因的。这里岛屿和海岸线众多，有很多洞穴和藏身之处，而且人迹罕至。非常适合有船的人私下活动。 {事}
 
 > INFO.NAME little advice 95123413300347676
 Here's a notion. Steal from thieves. Perfectly legal. Outlaws got no rights, and they'll none of them be missed. You're a big hero if you bag a few thieves. And you end up with their stuff. Slick, eh? Of course, it's dangerous. But you can't get ahead without taking some risks.
@@ -23075,7 +23075,7 @@ Mind your own business is my advice to visitors. Don't get nosy, or some people 
 
 > INFO.NAME little advice 847025867278623837
 They've sealed off the eggmine. Only letting miners in. But there is a secret entrance from the river bed.
-他们封锁了卵矿场。只允许矿工进入。但河床上有个秘密入口。 {尼希斯卵矿场}
+他们封锁了卵矿场，只允许矿工进入，但河床上有个秘密入口。 {尼希斯卵矿场}
 
 > INFO.NAME little advice 138613330761428304
 Don't go poking around in the Old Velothi tower. The renegade Telvanni wizard Baladas Demnevanni lives there, and he doesn't welcome visitors.
@@ -23099,11 +23099,11 @@ I bet you couldn't throw a stone around here without hitting a smuggler. 'Smuggl
 
 > INFO.NAME little advice 32358161091915225615
 A fellow looking for trouble might take a peek around in the old Daedric ruins on an island to the south. Probably safer than stirring up trouble in town, anyway.
-想找麻烦的人可以去南边岛上的。迪德拉废墟看看，总比在城里惹事要安全得多。 {迪德拉式}
+想找麻烦的人可以去南边岛上的迪德拉废墟看看，总比在城里惹事要安全得多。 {迪德拉式}
 
 > INFO.NAME little advice 323723948562628631
 You look like someone who is thinking about going into Red Mountain. We will not stop you. But we warn you: without protection from blight diseases, you won't get far. And even with protection, and plenty of blight cures when protection fails, you must plan on short forays inside and quick returns for heals and cures. And the creatures inside are terrible and numerous. And the ruins and citadels are worse.
-你看起来像是要去红山的人。我们不会阻止你，但我们警告你：没有枯萎病瘟疫的防护，你走不远的。即使有保护措施，当保护措施失效时还得有足够的枯萎病治疗方法，你也必须规划只在短时间内进入红山，然后迅速返回以获得治疗和治愈。里面的生物既可怕又数量庞大。废墟和堡垒里的情况更糟。 {疾病,计划}
+你看起来像是要去红山的人。我们不会阻止你，但我们警告你：没有应对枯萎病瘟疫的防护措施，你走不远的。即使有保护措施，当它失效时你还得有足够的枯萎病治疗方法，你也必须规划好，只在短时间内进入红山，然后迅速返回以获得治疗和治愈。里面的生物既可怕又数量庞大。废墟和堡垒里的情况更糟。 {疾病,计划}
 
 > INFO.NAME little advice 6126261832187221723
 The Imperial Legion may be recruiting. I hear the units are at full strength in the town forts, but there might be openings on the frontier, up at Fort Darius. Speak to Frald the White, Knight Bachelor and Chapter Steward of the Hawkmoth Legion.
@@ -23123,7 +23123,7 @@ Caldera is a quiet, law-abiding town. Not much call for adventurers or mercenari
 
 > INFO.NAME little advice 24122284242624317152
 Ald'ruhn is a good place for experienced fighters and mercenaries. Both the Fighters Guild and the Imperial Legion are looking for recruits, and they offer rapid advancement if you do well with the tasks the guild steward or the chapter steward assigns you. And if you're planning to make a career here in Ald'ruhn, you might consider House Redoran. It's hard for outlanders to rise above a certain rank, but if you show promise, and get a sponsor, you can go all the way to the top... in theory, anyway.
-奥德'汝因是经验丰富的战士和佣兵的好去处。战士公会和帝国军团都在招兵买马，如果你能很好地完成公会管家或分会管家分配给你的任务，他们会提供快速晋级的机会。如果你打算在奥德'汝因发展，可以考虑瑞多然家族。外地人很难晋级到某一等级以上，但如果你表现出希望，并得到赞助，你就能一路走到顶端……无论如何，理论上是这样。 {雇佣兵,帝国人}
+奥德'汝因是经验丰富的战士和佣兵的好去处。战士公会和帝国军团都在招兵买马，如果你能很好地完成公会管家或分会管家分配给你的任务，他们会给你带来快速晋级的机会。如果你打算在奥德'汝因发展，可以考虑瑞多然家族。外地人很难晋级到某一等级以上，但如果你表现得未来可期，并得到赞助，你就能一路走到顶端……反正，理论上是这样。 {雇佣兵,帝国人}
 
 > INFO.NAME little advice 164951480229794220
 If you are looking for work, and have skill and experience in the arcane arts, you can't do better than the Ald'ruhn Mages Guild. Edwinna Elbert, the guild steward, is in her own world, like most mages, but she's good-hearted and sensible, if you can get her attention. And you can't advance very far in other factions around here unless you have good fighter's skills. Except, the Temple, if that's to your taste. People with arcane skills can rise pretty fast in their ranks.
@@ -23139,7 +23139,7 @@ Do yourself a favor, mate. Hook up with the Guild. Now, maybe I got you wrong, d
 
 > INFO.NAME little advice 2775122294307029747
 You look like you're looking for something. It might be you'll find it at the Rat in the Pot. A fellow named Aengoth the Jeweler. He's good at looking for things. And finding them. And a warning. Stay clear of the Camonna Tong. They don't like outlanders, and what they don't like, they kill.
-你看起来在找什么东西，也许你能在锅中之鼠找到它。珠宝商阿恩戈斯，他很擅长找东西，而且能找到。还有个警告，离卡莫纳堂远点，他们不喜欢外地人，他们会杀了不喜欢的东西。 {老鼠}
+你看起来在找什么东西，也许你可以去锅中之鼠看看。珠宝商阿恩戈斯，他很擅长找东西，而且能找到。还有个警告，离卡莫纳堂远点，他们不喜欢外地人，他们会杀了不喜欢的东西。 {老鼠}
 
 > INFO.NAME little advice 572829185274464241
 If you want weapons or arms in Ald'ruhn, or need weapons and armor repaired, look for Dandera Selaro the Smith in Ald'ruhn-under-Skar. Dandera Selaro serves all comers, and has a quality selection. The other three smiths in Ald'ruhn have faction associations. Ergnir the Nord is the Fighters Guild smith, and Tuveso Beleth is the House Redoran smith at Redoran Council Hall. Yambagorn gro-Shulor is the Legion's smith at Fort Buckmoth. And Daynes Redothril the pawnbroker may also be worth a look.
@@ -23147,71 +23147,71 @@ If you want weapons or arms in Ald'ruhn, or need weapons and armor repaired, loo
 
 > INFO.NAME little advice 2820953291952514426
 While you're here, you have to take a look at the Daedric ruins. Ashalmawia. Very old. Remarkable. Safe to go up there, in the daytime at least. I wouldn't go inside, though. Place is cursed.
-既然来了，就得去迪德拉遗迹看看。阿沙尔马维亚。非常古老，非常古老，至少白天上去是安全的，但我不会进去，那地方被诅咒了。 {迪德拉式}
+既然来了，不妨去迪德拉遗迹，阿沙尔马维亚看看。它非常、非常古老。至少白天去是安全的，但我不会进去。那地方被诅咒了。 {迪德拉式}
 
 > INFO.NAME little advice 25957198471077212354
 Strangers get lost up here. Be careful. My advice is keep an eye to the coast, then pick a landmark, then keep them both is sight as you explore. The Daedric ruins to the east, for example, are visible for a long distance.
-陌生人在这里迷路。小心点！我的建议是先观察海岸，然后选一个地标，然后在探索过程中同时观察这两个地标。比如东边的迪德拉废墟，很远就能看到。 {迪德拉式}
+陌生人很容易在这里迷路。小心点。我的建议是先观察海岸，然后选一个地标，然后在探索过程中同时观察这两个地标。比如东边的迪德拉废墟，很远就能看到。 {迪德拉式}
 
 > INFO.NAME little advice 2434625998154753841
 We don't like outlanders. We don't like them in our Council Club. We don't like trouble. We do like a little peace and quiet. If you don't mind.
-我们不喜欢外地人。我们不喜欢他们进入议会所。我们不喜欢麻烦。我们喜欢宁静。如果你不介意的话。 {棍棒}
+我们不喜欢外地人；我们不喜欢他们进入议会所；我们不喜欢麻烦；我们喜欢宁静，如果你不介意的话。 {棍棒}
 
 > INFO.NAME little advice 18709150742074210919
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找个男人，就去南墙街角俱乐部看看，在河的南边。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除非是在建筑地基下。 {需要,棍棒}
+如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 26032308699877464
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找个男人，就去南墙街角俱乐部看看，在河的南边。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除非是在建筑地基下。 {需要,棍棒}
+如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1056027601173315131
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找个男人，就去南墙街角俱乐部看看，在河的南边。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除非是在建筑地基下。 {需要,棍棒}
+如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1640011017124474875
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找个男人，就去南墙街角俱乐部看看，在河的南边。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除非是在建筑地基下。 {需要,棍棒}
+如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 3067152352518928844
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找个男人，就去南墙街角俱乐部看看，在河的南边。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除非是在建筑地基下。 {需要,棍棒}
+如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1595924223937988
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找个男人，就去南墙街角俱乐部看看，在河的南边。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除非是在建筑地基下。 {需要,棍棒}
+如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 338298952125091
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找个男人，就去南墙街角俱乐部看看，在河的南边。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除非是在建筑地基下。 {需要,棍棒}
+如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 84372506210727392
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
-放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，更可能是大麻烦，我想你会很快学会的。但如果你被悬赏，事情就变得棘手了。公会会引导你走向正途，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。以后你想做自由职业者，没问题。 {认识你,忙}
+放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，甚至是大麻烦，我想你会很快适应的。但如果你被悬赏通缉，事情就变得棘手了。公会能引导你走向正轨，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。如果以后你想做自由职业者，也没问题。 {认识你,忙}
 
 > INFO.NAME little advice 314758905907924166
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
-放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，更可能是大麻烦，我想你会很快学会的。但如果你被悬赏，事情就变得棘手了。公会会引导你走向正途，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。以后你想做自由职业者，没问题。 {认识你,忙}
+放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，甚至是大麻烦，我想你会很快适应的。但如果你被悬赏通缉，事情就变得棘手了。公会能引导你走向正轨，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。如果以后你想做自由职业者，也没问题。 {认识你,忙}
 
 > INFO.NAME little advice 25211281192704618231
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
-放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，更可能是大麻烦，我想你会很快学会的。但如果你被悬赏，事情就变得棘手了。公会会引导你走向正途，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。以后你想做自由职业者，没问题。 {认识你,忙}
+放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，甚至是大麻烦，我想你会很快适应的。但如果你被悬赏通缉，事情就变得棘手了。公会能引导你走向正轨，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。如果以后你想做自由职业者，也没问题。 {认识你,忙}
 
 > INFO.NAME little advice 121251574853022655
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
-放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，更可能是大麻烦，我想你会很快学会的。但如果你被悬赏，事情就变得棘手了。公会会引导你走向正途，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。以后你想做自由职业者，没问题。 {认识你,忙}
+放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，甚至是大麻烦，我想你会很快适应的。但如果你被悬赏通缉，事情就变得棘手了。公会能引导你走向正轨，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。如果以后你想做自由职业者，也没问题。 {认识你,忙}
 
 > INFO.NAME little advice 1578412810324268594
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
-放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，更可能是大麻烦，我想你会很快学会的。但如果你被悬赏，事情就变得棘手了。公会会引导你走向正途，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。以后你想做自由职业者，没问题。 {认识你,忙}
+放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，甚至是大麻烦，我想你会很快适应的。但如果你被悬赏通缉，事情就变得棘手了。公会能引导你走向正轨，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。如果以后你想做自由职业者，也没问题。 {认识你,忙}
 
 > INFO.NAME little advice 32672164182856330047
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
-放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，更可能是大麻烦，我想你会很快学会的。但如果你被悬赏，事情就变得棘手了。公会会引导你走向正途，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。以后你想做自由职业者，没问题。 {认识你,忙}
+放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，甚至是大麻烦，我想你会很快适应的。但如果你被悬赏通缉，事情就变得棘手了。公会能引导你走向正轨，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。如果以后你想做自由职业者，也没问题。 {认识你,忙}
 
 > INFO.NAME little advice 577346852195211225
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
-放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，更可能是大麻烦，我想你会很快学会的。但如果你被悬赏，事情就变得棘手了。公会会引导你走向正途，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。以后你想做自由职业者，没问题。 {认识你,忙}
+放聪明点，加入公会，盗亦有道，对吧？你初来乍到人生地不熟，会惹上小麻烦，甚至是大麻烦，我想你会很快适应的。但如果你被悬赏通缉，事情就变得棘手了。公会能引导你走向正轨，远离酸甜苦辣与人间疾苦。而且他们是正规公会 -- 你的训练和服务都能得到折扣。给你自己规划一下，从简单的开始，和朋友一起。如果以后你想做自由职业者，也没问题。 {认识你,忙}
 
 > INFO.NAME little advice 994624855506220023
 You look like you might not faint wearing heavy armor. You might check out the Legion garrison at Fort Moonmoth. They like 'em big over there, and maybe they're looking for recruits. Good benefits, chance for advancement, get a piece of land at retirement, maybe even end up a knight.
@@ -23299,31 +23299,31 @@ One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ing
 
 > INFO.NAME little advice 4554537349246222
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
-如果你想成为一名法师，你没有太多选择。要么加入法师公会，要么一无所有。哦，你可以从神殿或帝国教团获得经验和教育，但在定居的西部，法师公会拥有最好的人，最好的图书馆和设施，最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼·丹莫人。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
+如果你想成为一名法师，那你的选择不多。要么加入法师公会，要么一无所有。哦，你可以在神殿或帝国教团学习积累经验，但在定居点的西部，法师公会拥有最好的人、最好的图书馆和设施、最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼家族的丹莫。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
 
 > INFO.NAME little advice 311376413397211911
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
-如果你想成为一名法师，你没有太多选择。要么加入法师公会，要么一无所有。哦，你可以从神殿或帝国教团获得经验和教育，但在定居的西部，法师公会拥有最好的人，最好的图书馆和设施，最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼·丹莫人。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
+如果你想成为一名法师，那你的选择不多。要么加入法师公会，要么一无所有。哦，你可以在神殿或帝国教团学习积累经验，但在定居点的西部，法师公会拥有最好的人、最好的图书馆和设施、最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼家族的丹莫。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
 
 > INFO.NAME little advice 994919671120728033
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
-如果你想成为一名法师，你没有太多选择。要么加入法师公会，要么一无所有。哦，你可以从神殿或帝国教团获得经验和教育，但在定居的西部，法师公会拥有最好的人，最好的图书馆和设施，最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼·丹莫人。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
+如果你想成为一名法师，那你的选择不多。要么加入法师公会，要么一无所有。哦，你可以在神殿或帝国教团学习积累经验，但在定居点的西部，法师公会拥有最好的人、最好的图书馆和设施、最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼家族的丹莫。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
 
 > INFO.NAME little advice 1489031304103891440
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
-如果你想成为一名法师，你没有太多选择。要么加入法师公会，要么一无所有。哦，你可以从神殿或帝国教团获得经验和教育，但在定居的西部，法师公会拥有最好的人，最好的图书馆和设施，最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼·丹莫人。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
+如果你想成为一名法师，那你的选择不多。要么加入法师公会，要么一无所有。哦，你可以在神殿或帝国教团学习积累经验，但在定居点的西部，法师公会拥有最好的人、最好的图书馆和设施、最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼家族的丹莫。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
 
 > INFO.NAME little advice 19787264362795921720
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
-如果你想成为一名法师，你没有太多选择。要么加入法师公会，要么一无所有。哦，你可以从神殿或帝国教团获得经验和教育，但在定居的西部，法师公会拥有最好的人，最好的图书馆和设施，最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼·丹莫人。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
+如果你想成为一名法师，那你的选择不多。要么加入法师公会，要么一无所有。哦，你可以在神殿或帝国教团学习积累经验，但在定居点的西部，法师公会拥有最好的人、最好的图书馆和设施、最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼家族的丹莫。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
 
 > INFO.NAME little advice 25385219231529219907
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
-如果你想成为一名法师，你没有太多选择。要么加入法师公会，要么一无所有。哦，你可以从神殿或帝国教团获得经验和教育，但在定居的西部，法师公会拥有最好的人，最好的图书馆和设施，最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼·丹莫人。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
+如果你想成为一名法师，那你的选择不多。要么加入法师公会，要么一无所有。哦，你可以在神殿或帝国教团学习积累经验，但在定居点的西部，法师公会拥有最好的人、最好的图书馆和设施、最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼家族的丹莫。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
 
 > INFO.NAME little advice 2745139242195616739
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
-如果你想成为一名法师，你没有太多选择。要么加入法师公会，要么一无所有。哦，你可以从神殿或帝国教团获得经验和教育，但在定居的西部，法师公会拥有最好的人，最好的图书馆和设施，最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼·丹莫人。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
+如果你想成为一名法师，那你的选择不多。要么加入法师公会，要么一无所有。哦，你可以在神殿或帝国教团学习积累经验，但在定居点的西部，法师公会拥有最好的人、最好的图书馆和设施、最好的工作机会。当然，真正的法师都是东海岸的泰瓦尼家族的丹莫。但他们要么脾气暴躁，要么疯疯癫癫，要么就是很刻薄。要想和那些巫师大人交谈，你得有过硬的本领。 {帝国人}
 
 > INFO.NAME little advice 2349213562990526938
 The easy way to get started is to join a Guild. Do their jobs, earn your way up the ranks, get the discounts, training, and other services. Gets you out and around in Vvardenfell, a little at a time, get to know the country and the people. The Guild takes an interest in you, doesn't send you in over your head. The Fighters Guild and the Legion, anyway. The Mages Guild is another story. Some old chair-polisher, doesn't have a clue what he's sending you into, doesn't much care.
@@ -23347,15 +23347,15 @@ If you need to know about clothes, and you want to talk to a clothier, talk to M
 
 > INFO.NAME little advice 6527196682828317469
 If you want to know about a place on Vvardenfell, talk to a scout. And the scout I'd talk to is Elone. You can find her at Arrille's Tradehouse in Seyda Neen. She's traveled all over the island.
-如果你想了解瓦登费尔的某个地方，那就去找星探。我想找的斥候是埃隆。你可以在赛达尼恩的阿里尔贸易行找到她。她走遍了整个岛屿。 {谈}
+如果你想了解瓦登费尔的某个地方，那就去找个侦察兵问问。如果是我就会去找侦察兵埃隆。你可以在赛达尼恩的阿里尔贸易行找到她。她走遍了整个岛屿。 {谈}
 
 > INFO.NAME little advice 1582215293888325846
 Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.
-费纳斯·马达奇是盗贼中的盗贼，当然，他已经退休了。他是这么说的。他在尼希斯有间马达奇贸易行，你想和盗贼谈生意，就去找费纳斯·马达奇。 {事}
+费纳斯·马达奇是个真正的盗贼大佬。当然，他已经退休了。至少他自己是这么说的。他在尼希斯有间马达奇贸易行。你想和盗贼谈生意，就去找费纳斯·马达奇。 {事}
 
 > INFO.NAME little advice 2985123463212131778
 Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.
-费纳斯·马达奇是盗贼中的盗贼，当然，他已经退休了。他是这么说的。他在尼希斯有间马达奇贸易行，你想和盗贼谈生意，就去找费纳斯·马达奇。 {事}
+费纳斯·马达奇是个真正的盗贼大佬。当然，他已经退休了。至少他自己是这么说的。他在尼希斯有间马达奇贸易行。你想和盗贼谈生意，就去找费纳斯·马达奇。 {事}
 
 > INFO.NAME little advice 2887412587138876697
 Most assassins don't like to talk about their trade. Take the Morag Tong, for instance. Tight-lipped about everything. But Ingokning, the assassin at the Skyrim Mission in Ebonheart? He doesn't mind talking. In fact, he'll bend your ear if you aren't careful.
@@ -23367,7 +23367,7 @@ Most assassins don't like to talk about their trade. Take the Morag Tong, for in
 
 > INFO.NAME little advice 15250386497516540
 If you want to talk to an archer about archery, talk to Ian in Ebonheart. You can usually find him wandering around on the plaza near the docks, where the dragon statue is.
-如果您想和弓箭手讨论射箭，可以去找黑檀心的伊安。你通常可以在码头附近的广场上找到他，龙雕像就在那里。 {谈}
+如果你想和弓箭手讨论射箭，可以去找黑檀心的伊安。你通常可以在码头附近的广场上找到他，就是龙雕像那里。 {谈}
 
 > INFO.NAME little advice 118859481208974993
 Athal Nerano is the proverbial 'silver-tongued rogue'. He knows the rogue's trade, and loves to talk about it. He lists his residence as Madach's Tradehouse in Gnisis.
@@ -23379,7 +23379,7 @@ You should speak with the monk An-Deesei at the Argonian Mission. If the monk's 
 
 > INFO.NAME little advice 97131103009413563
 Llevana Salaren at the Temple in Molag Mar is the most knowledgeable acrobat I know. I didn't say BEST acrobat. There's others who can leap higher and jump farther, but she can TALK acrobat talk better than any other acrobat I've ever met.
-莫拉格-玛尔神殿的莱瓦娜·萨拉伦是我认识的最博学的杂技演员。我可没说是最棒的杂技演员。还有其他人能跳得更高更远，但她比我见过的任何其他杂技演员都更会说杂技术语。 {谈}
+莫拉格-玛尔神殿的莱瓦娜·萨拉伦是我认识的最博学的杂技演员。我可没说她是最棒的杂技演员。还有其他人能跳得更高更远，但她比我见过的任何其他杂技演员都更会说杂技术语。 {谈}
 
 > INFO.NAME little advice 21062112881978123370
 My notion of the ideal knight is an Orc named Dumbuk gro-Bolak. He serves with the Legion under General Darius up in Gnisis. You'll usually find him in the barracks. Look him up. He knows his trade, and Vvardenfell.
@@ -23411,7 +23411,7 @@ The master-at-arms at Fort Pelagiad, Angoril, is a good source if you are curiou
 
 > INFO.NAME little advice 2654193981022617554
 There's a crusader in residence at Desele's House of Earthly Delights in Suran. His name is Snorri. Talk to him if you want a good, long lecture on a crusader's experiences on Vvardenfell.
-苏兰的尘世欢欣之屋住着一位十字军战士。他的名字是斯诺里。如果你想听他长篇大论地讲讲十字军在瓦登费尔的经历，可以去找他。 {谈}
+苏兰的尘世欢欣之屋住着一位圣教军战士。他的名字是斯诺里。如果你想听他长篇大论地讲讲圣教军在瓦登费尔的经历，可以去找他。 {谈}
 
 > INFO.NAME little advice 234875632110220344
 If you were to ask me for the model of a warrior, I'd have to say Miles Gloriosus. He's at the Andus Tradehouse in Maar Gan right now, on a crusade to kill off all the monsters sneaking through the Ghostfence, but he always has time to talk with an admirer.
@@ -23455,11 +23455,11 @@ You want to know about traders and how they work in Morrowind, talk to Nalion at
 
 > INFO.NAME little advice 2725921431877518630
 Tendris Vedran is the person I'd talk to if I wanted to know about the apothecary's trade in Morrowind. I've spoken with him on several occasions, and he's smart, well-spoken, and well-informed.
-如果我想知道晨风中的药剂师贸易，腾瑞斯·韦德兰是我会找的人。我和他交谈过几次，他很聪明，谈吐得体，消息灵通。
+如果我想了解晨风中的药剂师这一行，腾瑞斯·韦德兰是我会找的人。我和他交谈过几次，他很聪明，谈吐得体，消息灵通。 {想知道}
 
 > INFO.NAME little advice 1381779252051721597
 Tendris Vedran is the person I'd talk to if I wanted to know about the apothecary's trade in Morrowind. I've spoken with him on several occasions, and he's smart, well-spoken, and well-informed.
-如果我想知道晨风中的药剂师贸易，腾瑞斯·韦德兰是我会找的人。我和他交谈过几次，他很聪明，谈吐得体，消息灵通。
+如果我想了解晨风中的药剂师这一行，腾瑞斯·韦德兰是我会找的人。我和他交谈过几次，他很聪明，谈吐得体，消息灵通。 {想知道}
 
 > INFO.NAME little advice 23213323002688228604
 If you want to talk to an enchanter about enchanting, try Galar Rothan at the Telvanni Council House. He's not a stiff shirt like a lot of the Telvanni wizards, and he knows his stuff.
@@ -23483,7 +23483,7 @@ If you want to talk with a spellsword with extensive experience in Morrowind, ta
 
 > INFO.NAME little advice 260773163107962111
 If you're looking for someone to talk to about the witchhunter's trade in Morrowind, you should talk to Melvure Rindu at the Hall of Justice in Vivec.
-如果您想找人聊聊晨风中的猎巫师行业，您应该去维威克的正义厅堂找梅尔维尔·林杜聊聊。 {谈}
+如果你想找人聊聊晨风中的猎巫者行业，你应该去维威克的正义厅堂找梅尔维尔·林杜聊聊。 {谈}
 
 > INFO.NAME little advice 2063018680226677114
 Eraamion at the Caldera Guild of Mages is a useful resource if you have questions about the nightblade's trade as it is practiced in Morrowind.
@@ -23507,11 +23507,11 @@ Are you interested in the healer's trade in Morrowind? Maybe you should talk wit
 
 > INFO.NAME little advice 542625647341320968
 If you want to know everything there is to know about being a mage, let me suggest Estirdalin at the Balmora Mages Guild. You want to talk to an expert in the trade, patient, and well-spoken -- someone who likes to talk about the subjects. You don't want a trainer -- not unless you expect to pay for the information. And you don't want someone too busy or important to talk to you. Try Estirdalin. He's smart, friendly, and ready to talk.
-如果你想知道关于法师的一切，让我推荐巴尔莫拉法师公会的埃斯特达林。你需要的是一位有耐心、谈吐得体的行业专家--一个喜欢谈论相关话题的人。你不需要驯兽师，除非你想花钱买信息。您也不要找太忙或太重要的人。试试埃斯特达林。他聪明、友好，随时准备和你交谈。 {忙着}
+如果你想知道关于法师的一切，让我推荐巴尔莫拉法师公会的埃斯特达林。你需要的是一位有耐心、谈吐得体的行业专家--一个喜欢谈论相关话题的人。你不需要训练师，除非你想花钱买信息。你也不要找太忙或太重要的人。试试埃斯特达林。他聪明、友好，随时准备和你交谈。 {忙着}
 
 > INFO.NAME little advice 313146838840421288
 If you want to know everything there is to know about being a mage, let me suggest Estirdalin at the Balmora Mages Guild. You want to talk to an expert in the trade, patient, and well-spoken -- someone who likes to talk about the subjects. You don't want a trainer -- not unless you expect to pay for the information. And you don't want someone too busy or important to talk to you. Try Estirdalin. He's smart, friendly, and ready to talk.
-如果你想知道关于法师的一切，让我推荐巴尔莫拉法师公会的埃斯特达林。你需要的是一位有耐心、谈吐得体的行业专家--一个喜欢谈论相关话题的人。你不需要驯兽师，除非你想花钱买信息。您也不要找太忙或太重要的人。试试埃斯特达林。他聪明、友好，随时准备和你交谈。 {忙着}
+如果你想知道关于法师的一切，让我推荐巴尔莫拉法师公会的埃斯特达林。你需要的是一位有耐心、谈吐得体的行业专家--一个喜欢谈论相关话题的人。你不需要训练师，除非你想花钱买信息。你也不要找太忙或太重要的人。试试埃斯特达林。他聪明、友好，随时准备和你交谈。 {忙着}
 
 > INFO.NAME little advice 7705258613010584
 If you want to know the sorcerer's tricks and trade, talk to Smokey Morth at Varo's Tradehouse in Vos. It's a long trek, but few sorcerers are as friendly and down-to-earth as Smokey.
@@ -23523,7 +23523,7 @@ If you want to know the sorcerer's tricks and trade, talk to Smokey Morth at Var
 
 > INFO.NAME little advice 1874952556747169
 There's an enchanted transportation system in the old Dunmer strongholds. Created ages ago, but still works. You need a thing called an 'index' to use the system. Not many of them around. Collectors will pay a pretty drake for them.
-在丹莫的旧堡垒里有一个附魔的运输系统。很久以前就有了，但现在还能用。你需要一个叫“索引”的东西才能使用这个系统。这种东西不多了。收藏家会花大价钱买下龙币。 {工作,收集者}
+在丹莫的旧堡垒里有一个附魔的运输系统。很久以前就有了，但现在还能用。你需要一个叫“引”的东西才能使用这个系统。这种东西不多了。收藏家会花大价钱买下龙币。 {工作,收集者}
 
 > INFO.NAME little advice 19803228648862137
 Yes, buying and selling Dwarven artifacts without an Imperial charter is illegal. But I've never heard of anyone pinched for it.
@@ -23535,7 +23535,7 @@ If all it takes is a little persuasion, a flask of Telvanni bug musk is what you
 
 > INFO.NAME little advice 131552644227112359
 Best bargain for a risk-taker is a jug of sujamma. Makes you strong as an ogrim -- not for long, but long enough.
-对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像奥格力姆一样强壮 -- 时间不长，但也足够了。
+对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像蠹虐食人魔一样强壮 -- 时间不长，但也足够了。 {奥格力姆}
 
 > INFO.NAME little advice 151721995257886024
 I've never seen a successful adventurer who didn't carry a couple of Almsivi Intervention scrolls with him on long expeditions. Two reasons. Emergency exit. And it lets you move a LOT more loot than you can carry on foot. And faster goes without saying.
@@ -23575,7 +23575,7 @@ If you find yourself stumbling into trouble when you're tired, stop being so rec
 
 > INFO.NAME little advice 17545243371364211941
 If you're heading into the backcountry, always carry a couple of Restore Health, Restore Fatigue, Cure Disease, and Cure Blight potions with you.
-如果要进入荒郊野外，一定要随身携带几支恢复生命、恢复体力、治愈疾病和治愈枯萎病药水。 {这些药水}
+如果要进入荒郊野外，一定要随身携带几支恢复生命、恢复体力、治愈疾病和治愈枯萎病的药水。 {这些药水}
 
 > INFO.NAME little secret 25693272922242731603
 Oh yeah, sure. Heard ya the f-f-first time.
@@ -23659,11 +23659,11 @@ This is a dangerous place, so none of the House people will come here. So we hav
 
 > INFO.NAME little secret 673821472106711099
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，恩瓦，给你个建议：普罗普隆，去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“丙龙索引”的小东西。有个家伙想卖给我一把，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却忘了回来。所以也许丙龙索引和他一起去了那里。并留在了那里。 {提示,财富,迪德拉式}
+我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 785732822678819521
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，恩瓦，给你个建议：普罗普隆，去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“丙龙索引”的小东西。有个家伙想卖给我一把，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却忘了回来。所以也许丙龙索引和他一起去了那里。并留在了那里。 {提示,财富,迪德拉式}
+我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 826321646924279
 Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.
@@ -23703,7 +23703,7 @@ The old stones at Zergonipal... beneath those stones are dark chambers and a gre
 
 > INFO.NAME little secret 57151610461039919
 Kushtashpi, that is the name of old Daedric stones west of Ahemmusa camp. No one goes there. It is a deep and dark place.
-库什塔什皮，是阿希穆萨营地西边迪德拉古石的名字。没人去过那里。那里又深又黑。 {迪德拉式}
+库什塔什皮，是阿希穆萨营地西边迪德拉古石的名字，没人去过那里。那里又深又黑。 {迪德拉式}
 
 > INFO.NAME little secret 2300925401118294094
 Vampires have returned to Vvardenfell. In the ruins of the Deep Elves at Druscashti. They are foul, and must be destroyed... but these are difficult times, and who can risk his life or his tribe by drawing the attention of such creatures?
@@ -23719,7 +23719,7 @@ The ancient Dunmer stronghold at Valenvaryon... we have seen orcs there. Orcs wo
 
 > INFO.NAME little secret 14610155733087714119
 Kushtashpi, that is the name of old Daedric stones west of Ahemmusa camp. No one goes there. It is a deep and dark place.
-库什塔什皮，是阿希穆萨营地西边迪德拉古石的名字。没人去过那里。那里又深又黑。 {迪德拉式}
+库什塔什皮，是阿希穆萨营地西边迪德拉古石的名字，没人去过那里。那里又深又黑。 {迪德拉式}
 
 > INFO.NAME little secret 4724201062304617772
 Orvas Dren is my brother. I don't know what you've heard of him. I won't defend everything he's done. But don't become his enemy.
@@ -23755,11 +23755,11 @@ Gods be with you, %PCName. And thanks for the mazte.
 
 > INFO.NAME little secret 124974922249611126
 They say they buried Olmgerd in the bottom of an ancient Dunmer tomb. From the skald's telling, the burial was on a long finger of land on the southeast coast of Vvardenfell, on a little island close to shore on the west coast of the peninsula. Figure it's somewhere on the stretch between the Daedric ruins at Zaintiraris and Tel Branora. Gods be with you. And thanks for the mazte.
-据说他们把奥姆格德埋在了一座古老的丹莫墓穴底部。听斯卡尔德说，埋葬地点在瓦登费尔东南海岸的一指长长的陆地上，半岛西岸靠近海岸的一个小岛上。估计是在扎因蒂拉里的迪德拉遗迹和泰尔-布勒诺拉之间的某个地方。诸神与你同在。谢谢你的玛诗蒂。 {迪德拉式}
+据说他们把奥姆格德埋在了一座古老的丹莫墓穴底部。听斯卡尔德说，埋葬地点在瓦登费尔东南海岸的一指长长的陆地上，半岛西岸靠近海岸的一个小岛上。估计是在扎因蒂拉里的迪德拉遗迹和泰尔-布勒诺拉之间的某个地方。诸神与你同在，谢谢你的玛诗蒂。 {迪德拉式}
 
 > INFO.NAME little secret 130163195829191694
 And of course they buried Stormkiss with him. Stormkiss was Olmgerd's enchanted battle-axe. And you see this old key? See what it says on it? 'Stormkiss.' Here. Take it. Healer says the mazte is killing me. I'm going home to Skyrim to die. You, you got your life ahead of you. Go ahead. Take it.
-当然他们也把风暴之吻和他葬在一起了。风暴之吻是附魔的战斧。看到这把旧钥匙了吗？看到上面写了什么吗？风暴之吻！拿着，拿着！治疗师说玛诗蒂会要了我的命，我要回天际等死！你还有大好前程呢！拿着吧，拿着吧。 {手斧}
+当然他们也把风暴之吻和他葬在一起了。风暴之吻是附魔的战斧，看到这把旧钥匙了吗？看到上面写了什么吗？风暴之吻，拿着，拿着，治疗师说玛诗蒂会要了我的命，我要回天际等死，你还有大好前程呢，拿着吧。拿着吧。 {手斧}
 
 > INFO.BNAM little secret 130163195829191694 c1
 Continue
@@ -23807,7 +23807,7 @@ Don't have any. But I can get some.
 
 > INFO.NAME little secret 2764738682809023966
 I delivered a message to his assassins, Ranes and Navil Ienith. The message was a plot to kill his brother, Duke Vedam Dren. This message is in the basement of Dren's Villa, behind two locked and trapped doors, in a small chest on a bookshelf. If you ever need to influence Orvan Dren, this book would be ideal.
-我给他的刺客拉内斯和纳维尔·伊尼思，捎了口信。口信的内容是刺杀他弟弟，维达姆·德伦公爵的阴谋。这个消息就在德伦的别墅地下室里，两扇上锁的困门后面，书架上的一个小箱子里。如果您需要影响奥文·德伦，这本书将是理想之选。 {信息}
+我给他的刺客拉内斯和纳维尔·伊尼思，捎了口信，口信的内容是刺杀他弟弟，维达姆·德伦公爵的阴谋。这个消息就在德伦的别墅地下室里，两扇上锁的困门后面，书架上的一个小箱子里。如果你需要影响奥文·德伦，这本书将是理想之选。 {信息}
 
 > INFO.NAME little secret 2267420164175987365
 You find Ra'Gruzgob's little secret? Ra'Gruzgob knows you like it.
@@ -23843,11 +23843,11 @@ We miners don't grow the eggs. We just harvest them. The queen lays the eggs, th
 
 > INFO.NAME little secret 61475781385732581
 Kwama foragers and warriors won't attack us, since they're used to our smell. But they attack intruders. And you smell like an intruder. But don't worry. The queen squirts out foragers and warriors like seeds. If the foragers and warriors bother you, kill them, or run past, whichever is easier. But do us a favor, and don't kill the workers. They won't bother you, and we need them to keep the queen laying and the eggs ripening.
-夸蚂觅食者和夸蚂兵虫不会攻击我们，因为它们习惯了我们的气味，但他们会攻击入侵者。而你闻起来就像入侵者，不过别担心，女王会像播种一样，把觅食者和战士喷出来。如果觅食者和战士打扰了你，杀了他们，或者跑过去，随便哪种更容易些。但帮我们个忙，别杀工蚁。它们不会打扰你们，我们需要它们来让蜂后继续产卵，让虫卵成熟。 {工作}
+夸蚂觅食者和夸蚂兵虫不会攻击我们，因为它们习惯了我们的气味，但他们会攻击入侵者，而你闻起来就像入侵者。不过别担心，女王会像播种一样，把觅食者和兵虫喷出来，如果觅食者和兵虫打扰了你，杀了他们，或者跑过去，随便哪种更容易些，但帮我们个忙，别杀工蚁，它们不会打扰你们，我们需要它们来让女王继续产卵，让虫卵成熟。 {工作}
 
 > INFO.NAME little secret 9604216873090621947
 When the blight gets a mine, you have to kill or cure them. It doesn't pay to cure the foragers, workers, or warriors -- a healthy queen can produce them fast enough. But you HAVE to cure the queen, or the mine is doomed. To cure the queen, you need to cast a cure blight spell or have scroll of Daerir's Blessing.
-等枯萎之症感染的生物进入了矿场，你就得杀了它们或者治好它们。治愈觅食者、工蚁或战士并不划算--一个健康的夸蚂女王可以很快生产出它们。但你必须治愈女王，否则矿场就完了。要治愈女王，你需要施法治愈枯萎病或戴瑞尔的祝福卷轴。 {工作,生命}
+等枯萎之症感染的生物进入了矿场，你就得杀了它们或者治好它们。治愈觅食者、工蚁或兵虫并不划算--一个健康的夸蚂女王可以很快生产出它们。但你必须治愈女王，否则矿场就完了。要治愈女王，你需要施法治愈枯萎病或戴瑞尔的祝福卷轴。 {工作,生命}
 
 > INFO.NAME little secret 266442382321106923
 Want to cure a blighted queen, but don't have the cure blight spell? Then you need to buy some Scroll of Daerir's Blessing scrolls. NOT Daerir's Miracle -- they cure YOU. Daerir's Blessing scrolls cure the target. Try Crulius Pontanian at Fort Moonmoth, or Miraso Seran at Telvanni Council Hall, or Ureso Drath at the Ald'ruhn Temple.
@@ -23859,7 +23859,7 @@ You thinking about looking around for Dwemer sites? Well, it's your funeral. The
 
 > INFO.NAME little secret 28846221251116526872
 So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who really runs House Hlaalu? Not the house council. Those posers do what Orvas Dren tells them. Orvas Dren is the Camonna Tong kingpin. And one day, when the time is right, Orvas Dren, the Camonna Tong, and all right-thinking Dunmer will rise up, murder you outlanders in your beds, and restore Morrowind to its ancient glory.
-你认为哈拉鲁家族只是帝国人的傀儡？这说明你知道什么？哈拉鲁家族真正的主人是谁？不是议会所！那些装模作样的人听命于奥瓦斯·德伦，奥瓦斯·德伦是卡莫纳堂的头目，终有一天，当时机成熟时，奥瓦斯·德伦、卡莫纳堂和所有思想正确的丹莫人都会揭竿而起，将你们这些外地人杀死在床上，让晨风恢复往日的荣光。 {床位}
+你认为哈拉鲁家族只是帝国人的傀儡？这说明你知道什么，哈拉鲁家族真正的主人是谁？不是议会所，那些装模作样的人听命于奥瓦斯·德伦。奥瓦斯·德伦是卡莫纳堂的头目，终有一天，当时机成熟时，奥瓦斯·德伦、卡莫纳堂和所有思想正确的丹莫都会揭竿而起，将你们这些外地人杀死在床上，让晨风恢复往日的荣光。 {床位}
 
 > INFO.NAME little secret 5153114063062417325
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
@@ -23887,7 +23887,7 @@ I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ru
 
 > INFO.NAME little secret 61927594186111733
 You want my advice, rookie? I've been around. I've risen to %Rank rank in the Guild by being smart and careful. And if I were you, I'd stay away from Daedric ruins until you have a little more experience, and a heftier kit bag.
-你想听我的建议吗？菜鸟：我是过来人，我靠着聪明和谨慎升到了公会的 %Rank 等级。如果我是你，我会远离迪德拉废墟，直到你有更多的经验和更厚实的装备包。 {迪德拉式}
+你想听我的建议吗，菜鸟？我是过来人，我靠着聪明和谨慎升到了公会的 %Rank 等级。如果我是你，我会远离迪德拉废墟，直到你有更多的经验和更厚实的装备包。 {迪德拉式}
 
 > INFO.NAME little secret 49237814276683283
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
@@ -23915,7 +23915,7 @@ You like to poke your nose into doors out in the backcountry? A little suggestio
 
 > INFO.NAME little secret 703916010385010941
 You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.
-你是个外地人，也许你不知道我们晨风这里的迪德拉遗迹的种类。迪德拉邪教崇拜邪恶的迪德拉，你可以在神殿了解到更多信息。总之，很久以前，在神殿制止这一切之前，人们经常在神殿圣祠中祭拜邪恶的迪德拉--莫拉格·巴尔、玛拉凯斯、谢尔格拉斯和梅鲁涅斯·大衮。但最近，自从帝国来了之后，有些人开始出没于这些旧址祭拜邪恶的迪德拉。我警告你们，这些地方很危险。 {迪德拉式,泰姆瑞尔帝国}
+你是个外地人，也许你不知道我们晨风这里的迪德拉遗迹的种类。迪德拉邪教崇拜邪恶的迪德拉，你可以在神殿了解到更多信息。总之，很久以前，在神殿制止这一切之前，人们经常在神殿圣祠中祭拜邪恶的迪德拉--莫拉格·巴尔、玛拉凯斯、谢尔格拉斯和梅鲁涅斯·大衮。但最近，自从帝国来了之后，有些人开始出没于这些旧址祭拜邪恶的迪德拉。我警告你，这些地方很危险。 {迪德拉式,泰姆瑞尔帝国}
 
 > INFO.NAME little secret 1588253092529329077
 What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghost Fence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally. And the Dwemer sites are pretty bad, too.
@@ -23927,7 +23927,7 @@ Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cu
 
 > INFO.NAME little secret 452027941264710687
 How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.
-怎么辨别迪德拉圣祠？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯；有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}
+怎么辨别迪德拉圣祠？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}
 
 > INFO.NAME little secret 1906331586162422013
 You know, people say the Zainab -- and Ashlanders in general -- are lying and untrustworthy. But I think it is partly a problem of pride. If the truth will shame them, they don't want to say it. Among the Ashlanders, no one would be rude enough to force an Ashlander to admit something shameful. But we civilized people, in may ways we are less careful of another's feelings than the Ashlander savages. In particular, the men are very proud. I don't know about the women. We rarely see them here.
@@ -23983,7 +23983,7 @@ If you help someone, they'll remember. If you're loyal to others, they'll be loy
 
 > INFO.NAME little secret 262162221543512886
 They say a vampire can hide among us? Nonsense. One look at the face, and you know a vampire. You can't disguise that. You can wear a helmet. But here in Morrowind, we don't trust anyone who won't take off a helmet in public. In Morrowind, someone like that is looking to spend some time in a big, hot fire. What? Well... now that you mention it, I don't think I've ever seen a Telvanni guard with his helmet off. Hmm....
-他们说吸血鬼可以藏在我们中间？胡说八道。只要看一眼吸血鬼的脸，你就知道他是吸血鬼，你无法伪装。你可以戴头盔，但在晨风，我们不相信在公共场合不摘头盔的人。在晨风，这样的人就等着在熊熊烈火中度过吧。什么？好吧……既然你提到了，我想我从没见过泰瓦尼卫兵摘下头盔。嗯…… {瓜尔}
+他们说吸血鬼可以藏在我们中间？胡说八道，只要看一眼吸血鬼的脸，你就知道他是吸血鬼，你无法伪装，你可以戴头盔，但在晨风，我们不相信在公共场合不摘头盔的人。在晨风，这样的人就等着在熊熊烈火中度过吧。什么？好吧……既然你提到了，我想我从没见过泰瓦尼卫兵摘下头盔。嗯…… {瓜尔}
 
 > INFO.NAME little secret 1149344969763724
 In Morrowind, we don't like to hear about vampires. We know that, back West, the Mages Guild helps them hide. The Mages Guild is full of necromancers, and we don't like that one bit. If we see a vampire here in Morrowind, we put him on a stake and roast him. Well, truth be, we tell the Ordinators, let them take care of it. Private citizens have no business fighting vampires. They're too dangerous.
@@ -23995,7 +23995,7 @@ They say a vampire can hide among us? Nonsense. One look at the face, and you kn
 
 > INFO.NAME little secret 75681631840484552
 They say they don't have much of a problem here with vampires. From my experience, that's the truth in the settled parts of Vvardenfell. But in the backcountry, you hear rumors. Out near Dagon Fel, Maar Gan, Molag Mar, you hear people talk of running into vampires in Dwemer ruins, and in ancestral tombs. Best to be careful. You don't want to run into those babies. And if you do, you want a nice, crisp copy of Divine Intervention so you can get safe, fast, all in one piece.
-据说这里的吸血鬼问题不大。根据我的经验，这在瓦登费尔的居民区是事实。但在荒郊野外，你会听到谣言；在大衮-费尔，玛尔-甘，莫拉格-玛尔附近，你会听到有人说在锻莫废墟和先祖墓穴里遇到过吸血鬼。最好小心点。你可不想碰到那些小家伙。如果你真的遇到了，你最好准备一卷清晰的圣灵干预卷轴，这样你就可以安全、快速、完好无损地离开。 {谈,一块碎片}
+据说这里的吸血鬼问题不大。根据我的经验，这在瓦登费尔的居民区是事实。但在荒郊野外，你会听到谣言。在大衮-费尔，玛尔-甘，莫拉格-玛尔附近，你会听到有人说在锻莫废墟和先祖墓穴里遇到过吸血鬼。最好小心点。你可不想碰到那些小家伙。如果你真的遇到了，你最好准备一卷清晰的圣灵干预卷轴，这样你就可以安全、快速、完好无损地离开。 {谈,一块碎片}
 
 > INFO.NAME little secret 389521061191299872
 Vampires are not as much of a problem here as back in the West. Here, the Dark Elves burned them out centuries ago, and the Temple makes sure they don't come back.
@@ -24019,23 +24019,23 @@ I heard the Ordinators burned out a camp of Nerevarine cult worshippers out by t
 
 > INFO.NAME little secret 28009126602517219086
 Do you know where Telasero is? The old Dunmer stronghold between Suran and Molag Mar? The Temple just sent three Ordinators from the Order of War up there. Some trader reported seeing corprus monsters there.
-你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里。有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
+你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
 
 > INFO.NAME little secret 882713976215622955
 Do you know where Telasero is? The old Dunmer stronghold between Suran and Molag Mar? The Temple just sent three Ordinators from the Order of War up there. Some trader reported seeing corprus monsters there.
-你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里。有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
+你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
 
 > INFO.NAME little secret 2350313426131210090
 Falasmaryon, the old Dunmer stronghold, up near Ald Velothi? You know the place I'm talking about? I heard Mangolodh, the Legion scout, stuck his head in there, just looking around, saw a corprus monster, and teleported right out. He reported to the Legion, but I don't know what they're going to do about it. Pass it on to the Temple, that's my guess.
-法拉斯马里昂，靠近奥德-维洛西的老丹莫堡垒？你知道我说的那个地方？我听说军团的斥候芒格洛德把头伸进了那里，只是四处看看，看到了一只尸化怪物，然后就直接传送出去了。他向军团报告了，但我不知道他们会怎么做。传给神殿，这是我的猜测。 {谈}
+法拉斯马里昂，靠近奥德-维洛西的老丹莫堡垒？你知道我说的那个地方？我听说军团的侦察兵马古洛德把头伸进了那里，只是四处看看，看到了一只尸化怪物，然后就直接传送出去了。他向军团报告了，但我不知道他们会怎么做。传给神殿，这是我的猜测。 {谈}
 
 > INFO.NAME little secret 147528851240478515
 Falasmaryon, the old Dunmer stronghold, up near Ald Velothi? You know the place I'm talking about? I heard Mangolodh, the Legion scout, stuck his head in there, just looking around, saw a corprus monster, and teleported right out. He reported to the Legion, but I don't know what they're going to do about it. Pass it on to the Temple, that's my guess.
-法拉斯马里昂，靠近奥德-维洛西的老丹莫堡垒？你知道我说的那个地方？我听说军团的斥候芒格洛德把头伸进了那里，只是四处看看，看到了一只尸化怪物，然后就直接传送出去了。他向军团报告了，但我不知道他们会怎么做。传给神殿，这是我的猜测。 {谈}
+法拉斯马里昂，靠近奥德-维洛西的老丹莫堡垒？你知道我说的那个地方？我听说军团的侦察兵马古洛德把头伸进了那里，只是四处看看，看到了一只尸化怪物，然后就直接传送出去了。他向军团报告了，但我不知道他们会怎么做。传给神殿，这是我的猜测。 {谈}
 
 > INFO.NAME little secret 1529714881211567662
 That bookseller, Jobasha, in Jobasha's Rare Books, talks like an abolitionist, but no one's ever pinned anything on him. The Ordinators have a guard in there keeping an eye on him, but somehow he stays out of trouble. Maybe he has friends in high places....
-乔巴沙的珍藏本里的那个书商。乔巴沙说起话来就像个废奴主义者，但从来没有人把罪名栽在他头上。神殿卫兵们在那里派了一名卫兵监视他，但不知为什么他一直没有惹麻烦。也许他有身居高位的朋友…… {谈,瓜尔}
+乔巴沙的珍藏本里的那个书商，乔巴沙说起话来就像个废奴主义者，但从来没有人把罪名栽在他头上。神殿卫兵们在那里派了一名卫兵监视他，但不知为什么他一直没有惹麻烦。也许他有身居高位的朋友…… {谈,瓜尔}
 
 > INFO.NAME little secret 18473173899908966
 That bookseller in the Foreign Quarter, Jobasha, is an avowed abolitionist, but so far he has managed to avoid being caught. There's an Ordinator in there all the time, keeping an eye on his activities, so he must be very discreet.
@@ -24043,11 +24043,11 @@ That bookseller in the Foreign Quarter, Jobasha, is an avowed abolitionist, but 
 
 > INFO.NAME little secret 2766896231275713108
 Did you hear about the fellow they found in the canal? Flesh was swollen and covered with growths. His arms and legs were all twisted and out of shape. And the face? It was a face, you could tell from the eyes and the holes for nose and mouth. But it wasn't a face you'd ever want to see again. The priest said it looked like corprus. Corprus? Here in Vivec? That's a worry.
-你听说他们在运河里发现的那个人了吗？他全身肿胀，长满了瘤子，他的胳膊和腿都扭曲变形了。脸呢？那是张脸，从眼睛和鼻子嘴巴的洞可以看出来。但你再也不想看到这张脸了。牧师说它看起来像尸化石。尸化？在维威克？真让人担心。 {发言人}
+你听说他们在运河里发现的那个人了吗？他全身肿胀，长满了瘤子，他的胳膊和腿都扭曲变形了。脸呢？那是张脸，从眼睛和鼻子嘴巴的洞可以看出来，但你再也不想看到这张脸了，祭司说它看起来像尸化病，尸化？在维威克？真让人担心。 {发言人}
 
 > INFO.NAME little secret 22696183362373513973
 Have you heard of this new secret cult, the Sixth House? They say they sit around in caves, cutting off pieces of their own flesh and eating it. It's that corprus disease -- makes the flesh grow wild and crazy. Cut a piece off, and another piece grows back, bigger and better. Guards say, 'We're looking into it.' Right. That makes me feel better.
-你听说过这个新的秘密教派吗？第六家族？据说他们坐在洞穴里，切下自己的肉自己吃掉。尸化病，这种疾病会让肉疯狂生长！割下一块，另一块又长出来，新长出来的肉会更大。卫兵告诉我说“我们正在调查”这让我感觉好多了。 {瓜尔}
+你听说过这个新的秘密教派吗？第六家族？据说他们坐在洞穴里，切下自己的肉自己吃掉。尸化病，这种疾病会让肉疯狂生长！割下一块，另一块又长出来，新长出来的肉会更大。卫兵告诉我说“我们正在调查”。这让我感觉好多了。 {瓜尔}
 
 > INFO.NAME little secret 3241323702538914393
 If you're thinking of traveling up country, near Sheogorad, or out Molag Amur way, or inside the Ghostfence, you need to know about corprus. It's a disease that turns normal creatures into beasts. Turns men into twisted, mad lumps of flesh, superhumanly strong, and full of hatred. You get corprus from fighting with diseased creatures. It's hard to get corprus, but harder to get rid of it. In fact, I hear there is no cure.
@@ -24267,7 +24267,7 @@ Ghosts and Ancestors! We have heard how you went to Kogoruhn, and what you found
 
 > INFO.NAME latest rumors 1124094844717977
 We are living in strange times, outlander. The voices that speak in dreams say the Sleeper awakes. Dagoth Ur stirs beneath Red Mountain, and all his hosts shall spill forth and spoil the land.
-我们生活在一个奇怪的时代，外地人。梦中的声音说沉睡者苏醒了。达格斯·乌尔在红山下蠢蠢欲动，他所有的敌人都将肆虐这片土地。 {沙尔}
+我们生活在一个奇怪的时代，外地人。梦中的声音说沉睡者苏醒了，达格斯·乌尔在红山下蠢蠢欲动，他所有的敌人都将肆虐这片土地。 {沙尔}
 
 > INFO.NAME latest rumors 2449632375284811909
 Everyone is very curious about this outlander who claims to be the Nerevarine.
@@ -24359,39 +24359,39 @@ What could kill two Ordinators before they can draw their weapons? Slit their th
 
 > INFO.NAME latest rumors 168465105441831242
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 141843021585617905
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 848016399766718470
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 68578462826620429
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 27802166371885918620
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 6136108971491710714
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 1772272382367027024
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 913045491949911778
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 2838824372109330145
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 127902297244144444
 I monitor smuggling along the Bitter Coast. And the job's too big for me. They move moon sugar, skooma, raw ebony, Dwemer artifacts, you name it, through Hla Oad and Gnaar Mok. With the coast honeycombed with smuggler caves, and Camonna Tong locals carrying tiny packages overland by night, I'll never catch them. But maybe you'll have better luck.
@@ -24523,7 +24523,7 @@ Navil and Ranes Ienith are the Camonna Tong's best enforcers. They work for Orva
 
 > INFO.NAME latest rumors 3042075542434222135
 The Bemis gang has taken up in the tombs somewhere under Vivec. I hope the guards catch them soon.
-贝米斯那伙人躲在维威克地下的某个墓穴里。希望卫兵能尽快抓到他们。 {瓜尔}
+比米斯那伙人躲在维威克地下的某个墓穴里，希望卫兵能尽快抓到他们。 {瓜尔}
 
 > INFO.NAME latest rumors 110162906584101275
 The Bemis gang has taken up in the tombs somewhere under Vivec.
@@ -24571,7 +24571,7 @@ Someone thinks the Masque of Clavicus Vile is here on Vvardenfell. Apparently th
 
 > INFO.NAME latest rumors 4614293683006428302
 The Temple has been pressuring Mistress Dratha to allow them to put some healers in Tel Mora. Women, of course.
-神殿一直在向德拉萨夫人施压，让他们在泰尔-莫拉安置一些治疗师，当然，是女性。 {女人}
+神殿一直在向德拉萨夫人施压，让他们在泰尔-莫拉安置一些治疗师。当然，是女性。 {女人}
 
 > INFO.NAME latest rumors 1131827712371916565
 The last Buoyant Armiger assault against Red Mountain ended in defeat. They retreated and most survived, but I heard they had to leave an artifact behind.
@@ -24587,7 +24587,7 @@ Did you hear that high ranking Legion officers duel each other for rank?
 
 > INFO.NAME latest rumors 12980912943811677
 Lately the Ordinators have been taking verbal shots at the Legion guards. The Legion brass has got a muzzle on the troops, but they don't like it one bit.
-最近神殿卫兵们对军团卫兵口诛笔伐。军团高层已经给部队戴上了口套，但他们一点也不喜欢。 {瓜尔}
+最近神殿卫兵们对军团卫兵口诛笔伐。军团高层命令部队缄口不言，但他们一点也不喜欢。 {瓜尔}
 
 > INFO.NAME latest rumors 2319128212289332712
 Have you heard of the Talos Cult? A secret group within the Legion. What's that about? Are they planning something?
@@ -24635,7 +24635,7 @@ A friend of mine says you HAVE to visit the House of Earthly Delights in Suran!
 
 > INFO.NAME latest rumors 1414520251920928501
 Did you hear that some fool lost Mentor's Ring. In a tomb along the Bitter Coast, or so they say.
-你听说了吗。有个傻瓜弄丢了导师之戒，据说在苦涩海岸的一座坟墓里。 {戒指}
+你听说了吗，有个傻瓜弄丢了导师之戒，据说在苦涩海岸的一座坟墓里。 {戒指}
 
 > INFO.NAME latest rumors 2635652473067327646
 They say the Legion gives out good armor to their best recruits.
@@ -24703,7 +24703,7 @@ Llunela Hleran said she wanted to incorporate some of the defenses she's seen in
 
 > INFO.NAME latest rumors 2425214692809324492
 Master Aryon has been trying to talk some of the reclusive Telvanni into joining the Council. I think he may be planning to challenge the Archmagister.
-阿里昂大师一直在试图说服一些隐居的泰瓦尼家族的人加入议会。我认为他可能打算挑战大魔法师。 {谈}
+阿里昂大师一直在试图说服一些隐居的泰瓦尼家族的人加入议会。我认为他可能打算挑战大导师。 {谈}
 
 > INFO.NAME latest rumors 20403759282035865
 Baladas Demnevanni has studied Dwemer ruins all over Vvardenfell. I hear he's always looking for books on the Dwemer.
@@ -24711,11 +24711,11 @@ Baladas Demnevanni has studied Dwemer ruins all over Vvardenfell. I hear he's al
 
 > INFO.NAME latest rumors 2485896552771617054
 Mistress Therana's having trouble with her slaves again. She has more trouble with her slaves than other Telvanni.
-西拉那夫人又和她的奴隶们闹矛盾了，比起其他泰瓦尼，她和她的奴隶麻烦更大。 {西拉那女士}
+西拉那夫人又和她的奴隶们闹矛盾了，比起其他泰瓦尼，她和她的奴隶麻烦更大。
 
 > INFO.NAME latest rumors 344723411141219598
 Watch out for Mistress Therana. She's eccentric and unpredictable.
-小心西拉那夫人！她脾气古怪，难以捉摸。 {西拉那女士}
+小心西拉那夫人！她脾气古怪，难以捉摸。
 
 > INFO.NAME latest rumors 20325199171651421361
 Duke Dren argued with Berel Sala again over the proper role of the Ordinators.
@@ -24767,7 +24767,7 @@ House Hlaalu must have a spy in Ald'ruhn. They always seem to know what the Redo
 
 > INFO.NAME latest rumors 28484177362871719293
 It may come as a surprise to you, but some of us don't like outlanders. And don't want to talk to them.
-也许你会觉得意外，但我们有些人不喜欢外地人。也不想和他们说话。 {谈}
+也许你会觉得意外，但我们有些人不喜欢外地人，也不想和他们说话。 {谈}
 
 > INFO.NAME latest rumors 23359258473099221179
 You were visited by Tiber Septim! We heard this -- we were told that the Oracle of the Imperial Cult in the Imperial Chapels of Ebonheart says you saw Tiber Septim. Did you see him in the flesh? Did you see his ghost? Did he come and speak to you?  Is that true? Wonders never cease.
@@ -24859,7 +24859,7 @@ I've heard there are a number of young locals who follow a vampire named Lord Ir
 
 > INFO.NAME latest rumors 123815797508925651
 It is not a rumor. It is the truth. Lord Dagoth, Dagoth Ur, Lord of the Sixth House, and Savior of the Dunmer people, has awakened. And with him shall all sleepers awaken, and Morrowind shall be cleansed of the stain of false gods and foreign rule.
-这不是谣言。这是事实。达格斯大人，达格斯·乌尔，第六家族之主，丹莫民的救世主，已经苏醒。所有沉睡者都将随他苏醒，晨风将从伪神和异族统治的污点中洗净。 {沙尔}
+这不是谣言，这是事实。达格斯大人，达格斯·乌尔，第六家族之主，丹莫民的救世主，已经苏醒。所有沉睡者都将随他苏醒，晨风将从伪神和异族统治的污点中洗净。 {沙尔}
 
 > INFO.NAME latest rumors 1010424767218039373
 Everyone's saying you've got a price on your head. Some people are going to start looking at your skin like it might be a handy way to pay off a few debts.
@@ -24891,7 +24891,7 @@ Everyone knows the Balmora magistrate, Nolus Atrius, is on the take. Thieves, th
 
 > INFO.NAME latest rumors 1452824297219661921
 People don't realize how deeply the Dark Elves resent the Occupation. The real powers behind the Hlaalu council, Orvas Dren and his Camonna Tong syndicate, nurse those ancient resentments. They haven't a chance of challenging Imperial authority now, but if the stability of the Empire were threatened -- for example, if the legions were recalled because of some problem with the Septim succession -- Dren and the Tong might move openly to drive the Imperials out of Morrowind.
-人们不知道暗精灵对占领的怨恨有多深，哈拉鲁议会背后的真正势力，奥瓦斯·德伦和他的卡莫纳堂集团，怀着那些古老的怨恨。他们现在还没有机会挑战帝国人的权威，但如果泰姆瑞尔帝国的稳定受到威胁--例如，如果军团因为赛普汀的继承问题而被召回--德伦和汤氏集团可能会公开采取行动，将帝国人赶出晨风。 {作者}
+人们不知道暗精灵对被征服的怨恨有多深，哈拉鲁议会背后的真正势力，奥瓦斯·德伦和他的卡莫纳堂集团，怀着那些古老的怨恨。他们现在还没有机会挑战帝国人的权威，但如果泰姆瑞尔帝国的稳定受到威胁--例如，如果军团因为赛普汀的继承问题而被召回--德伦和卡莫纳堂可能会公开采取行动，将帝国人赶出晨风。 {作者}
 
 > INFO.NAME latest rumors 14295866034966194
 The Legion Champion, Larrius Varro, over at Moonmoth Legion Fort, has sworn an oath to stop corruption. He hasn't had much luck going through official channels. The syndicates have got their people covered coming and going. He'll never get anywhere working through the system. He's going to have to find someone who can get him around the system. Or through the system. Like straight and HARD through the system.
@@ -24899,11 +24899,11 @@ The Legion Champion, Larrius Varro, over at Moonmoth Legion Fort, has sworn an o
 
 > INFO.NAME latest rumors 14761128391787623779
 Our new mage-lord, Master Aryon, has done a lot for Tel Vos, and most of us are very happy with him. But he is still having trouble with the nearby Zainab Ashlander tribe. Part of the problem is that we settled villagers and the Ashlander nomads don't really understand each other very well. Aryon's captain, Turedus Talanian, is looking for someone who can help forge a bond with the Zainab. If you know anything about Ashlanders, you might be able to help them out.
-我们的新法师领主阿里昂大师为泰尔-沃斯做了很多事，我们大多数人都对他很满意。但他仍然与附近的哉纳布、灰烬之地的民族有矛盾。部分原因是我们这些定居的村民和灰烬之地的游牧民不太了解对方。阿里昂的船长图雷德·塔拉尼亚正在寻找一个能帮助他与哉纳布人建立联系的人。如果你了解灰烬之民的民情，也许能帮他们一把。 {能提供帮助者}
+我们的新法师领主阿里昂大师为泰尔-沃斯做了很多事，我们大多数人都对他很满意。但他仍然与附近的哉纳布，灰烬之地的民族有矛盾。部分原因是我们这些定居的村民和灰烬之地的游牧民不太了解对方。阿里昂的守卫队长图雷德·塔拉尼亚正在寻找一个能帮助他与哉纳布人建立联系的人。如果你了解灰烬之民的民情，也许能帮他们一把。 {能提供帮助者}
 
 > INFO.NAME latest rumors 27004323501270318354
 Our new mage-lord, Master Aryon, has done a lot for Tel Vos, and most of us are very happy with him. But he is still having trouble with the nearby Zainab Ashlander tribe. Part of the problem is that we settled villagers and the Ashlander nomads don't really understand each other very well. Aryon's captain, Turedus Talanian, is looking for someone who can help forge a bond with the Zainab. If you know anything about Ashlanders, you might be able to help them out.
-我们的新法师领主阿里昂大师为泰尔-沃斯做了很多事，我们大多数人都对他很满意。但他仍然与附近的哉纳布、灰烬之地的民族有矛盾。部分原因是我们这些定居的村民和灰烬之地的游牧民不太了解对方。阿里昂的船长图雷德·塔拉尼亚正在寻找一个能帮助他与哉纳布人建立联系的人。如果你了解灰烬之民的民情，也许能帮他们一把。 {能提供帮助者}
+我们的新法师领主阿里昂大师为泰尔-沃斯做了很多事，我们大多数人都对他很满意。但他仍然与附近的哉纳布，灰烬之地的民族有矛盾。部分原因是我们这些定居的村民和灰烬之地的游牧民不太了解对方。阿里昂的守卫队长图雷德·塔拉尼亚正在寻找一个能帮助他与哉纳布人建立联系的人。如果你了解灰烬之民的民情，也许能帮他们一把。 {能提供帮助者}
 
 > INFO.NAME latest rumors 13307218391695915682
 You know what I heard about Baram? The other day he woke up in the Temple, but couldn't remember how he got there or why he went there. He made a big joke of it, saying he must have tied one on last night, and forgot all about it.
@@ -24951,7 +24951,7 @@ Now that they found Lesley's little hole over by Ebonheart, where do you suppose
 
 > INFO.NAME latest rumors 10264129061834732554
 House Redoran has been sending groups of mercenaries against the rogue Telvanni bases cropping up out in Molag Amur and the Ashlands. They don't seem to be having much luck, even though these rogue Telvanni are small fry compared to the mage-lords of the Telvanni towers. Maybe the hard-headed Redorans are sticking too closely to the armored-knight charge-and-bash drill. Maybe someone with a little subtlety might do better.
-如果你想去谢尔格拉德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病，这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨，与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难！事实上，我听说没有解药。 {瑞多然家族,雇佣兵,泰瓦尼无赖,灰烬之地,幸运,泰瓦尼塔}
+如果你想去谢尔格拉德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {瑞多然家族,雇佣兵,泰瓦尼无赖,灰烬之地,幸运,泰瓦尼塔}
 
 > INFO.NAME latest rumors 423623936915927973
 I heard someone kidnapped Miner Arobar's daughter.
@@ -24959,7 +24959,7 @@ I heard someone kidnapped Miner Arobar's daughter.
 
 > INFO.NAME latest rumors 1461523369218891091
 House Redoran has been sending groups of mercenaries against the rogue Telvanni bases cropping up out in Molag Amur and the Ashlands. They don't seem to be having much luck, even though these rogue Telvanni are small fry compared to the mage-lords of the Telvanni towers. Maybe the hard-headed Redorans are sticking too closely to the armored-knight charge-and-bash drill. Maybe someone with a little subtlety might do better.
-如果你想去谢尔格拉德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病，这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨，与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难！事实上，我听说没有解药。 {瑞多然家族,雇佣兵,泰瓦尼无赖,灰烬之地,幸运,泰瓦尼塔}
+如果你想去谢尔格拉德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {瑞多然家族,雇佣兵,泰瓦尼无赖,灰烬之地,幸运,泰瓦尼塔}
 
 > INFO.NAME latest rumors 390813500242161843
 I hear there's a secret organization called the Twin Lamps. It helps runaway slaves escape. It's against the law to aid runaway slaves. But I think slavery is wrong, and I can understand why these Abolitionists would be willing to break the law.
@@ -24979,7 +24979,7 @@ What could kill two Ordinators before they can draw their weapons? Slit their th
 
 > INFO.NAME latest rumors 7897104801480424251
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪，但现在有两个自己人被割喉，正义厅堂的人似乎很担心：我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
 
 > INFO.NAME latest rumors 12808112932677520322
 Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there. I'll bet they can.
@@ -25003,7 +25003,7 @@ This caravaner friend of mine says that with so many more blight storms around R
 
 > INFO.NAME latest rumors 1028915109177482683
 I'm telling you, it's making me worried. My neighbor was outside in the middle of the night last night, running around, talking nonsense, and in the morning, he doesn't remember a thing about it. Those scholars talk stuff about delusion diseases and such. What the hell does that mean? And why can't the priests cure it?
-我告诉你，这让我很担心。我的邻居昨晚半夜在外面跑来跑去，胡言乱语，到了早上，他什么都不记得了。那些学者说什么妄想症之类的东西，这到底是什么意思？为什么牧师治不好？ {谈,疾病}
+我告诉你，这让我很担心。我的邻居昨晚半夜在外面跑来跑去，胡言乱语。到了早上，他什么都不记得了。那些学者说什么妄想症之类的东西，这到底是什么意思？为什么祭司治不好？ {谈,疾病}
 
 > INFO.NAME latest rumors 86572735103283366
 The blight storms have been so bad around Red Mountain this year that the crops and herds of the outlying villages are really suffering. The price of everything is got to go up.
@@ -25043,7 +25043,7 @@ A rumor says the Emperor has repealed the War Tax. We've heard nothing official 
 
 > INFO.NAME latest rumors 1944218412188958592
 It's the law of Morrowind. Slavery is legal. The Empire doesn't like it, but the Emperor signed the Armistice, and that made it legal for the Dunmer to retain their ancient laws and customs. Now, there's some Abolitionists who say, 'To hell with the law... slavery is wrong.' I'm not saying I disagree, in theory. But it's the law.
-这是晨风的法律。奴隶制度是合法的。帝国不喜欢它，但皇帝签署了停战协定，这使得丹莫保留他们古老的法律和习俗成为合法。现在，有些废奴主义者说：'让法律见鬼去吧……奴隶制是错误的。理论上我并不反对，但这是法律。 {泰姆瑞尔帝国}
+这是晨风的法律。奴隶制度是合法的。帝国不喜欢它，但皇帝签署了停战协定，这使得丹莫保留他们古老的法律和习俗成为合法。现在，有些废奴主义者说：“让法律见鬼去吧……奴隶制是错误的。”理论上我并不反对，但这是法律。 {泰姆瑞尔帝国}
 
 > INFO.NAME latest rumors 5858327571857325874
 Did you hear about the pilgrims headed east of Lake Nabia, northwest of Mount Kand. That's no place for a party of pilgrims.
@@ -25067,15 +25067,15 @@ Some strange men came through here not long ago. Stopped by Thongar's Tradehouse
 
 > INFO.NAME latest rumors 2984117893143263847
 It's the law of Morrowind. Slavery is legal. The Empire doesn't like it, but the Emperor signed the Armistice, and that made it legal for the Dunmer to retain their ancient laws and customs. Now, there's some Abolitionists who say, 'To hell with the law... slavery is wrong.' I'm not saying I disagree, in theory. But it's the law.
-这是晨风的法律。奴隶制度是合法的。帝国不喜欢它，但皇帝签署了停战协定，这使得丹莫保留他们古老的法律和习俗成为合法。现在，有些废奴主义者说：'让法律见鬼去吧……奴隶制是错误的。理论上我并不反对，但这是法律。 {泰姆瑞尔帝国}
+这是晨风的法律。奴隶制度是合法的。帝国不喜欢它，但皇帝签署了停战协定，这使得丹莫保留他们古老的法律和习俗成为合法。现在，有些废奴主义者说：“让法律见鬼去吧……奴隶制是错误的。”理论上我并不反对，但这是法律。 {泰姆瑞尔帝国}
 
 > INFO.NAME latest rumors 106708663712731217
 Yes, I've heard what Bilsa Andaram has been saying. Of course they're smugglers on the West Gash coast. When was that ever news?
-是的，我听到比尔萨·安达拉姆说的了。他们当然是西境之痕的走私者。这什么时候成新闻了？ {消息}
+是的，我听到比尔萨·安达拉姆说的了，他们当然是西境之痕的走私者，这什么时候成新闻了？ {消息}
 
 > INFO.NAME latest rumors 47536892387319541
 The smugglers working out of Shurinbaal lost their contact in Balmora. I hear they're working now with someone in Ald'ruhn.
-舒林巴尔的走私者，在巴尔莫拉失去了联系，听说他们现在和奥德'汝因的人合作。 {工作}
+舒林巴尔的走私者在巴尔莫拉失去了联系，听说他们现在和奥德'汝因的人合作。 {工作}
 
 > INFO.NAME latest rumors 31379153556996734
 It was inevitable. The local criminal organization, the Camonna Tong, wasn't going to stand by and let the Thieves Guild set up shop in their territory. It'll be bloody. And the Thieves Guild doesn't stand a chance.
@@ -25111,7 +25111,7 @@ House Redoran is really steamed up about the Caldera land grab. They say that Ca
 
 > INFO.NAME latest rumors 8513179781579811025
 Uriel Septim is sick, and wizards say his heir, Geldall Septim, and the younger Septims, Enman and Ebel, are just doppelgangers placed in the household during Jagar Tharn's tenure as Imperial Battlemage. They say the Guard charged a mob demanding destruction of the false heirs -- lots of folks were killed.
-尤利尔·塞普汀病了，巫师们说他的继承人盖尔达尔·赛普汀，还有更年轻的赛普汀，恩曼和埃贝尔，都是在贾加·萨恩担任帝国战法师期间安置在他家里安置的二重身。他们说，卫兵向暴民发起了攻击，要求消灭这些假继承人 -- 很多人被杀了。 {帝国人,瓜尔,毁灭}
+尤利尔·塞普汀病倒了，巫师们说他的继承人格尔达尔·塞普汀和更年轻的塞普汀，恩曼和埃贝尔，只是亚卡尔·塔恩担任帝国战法师期间安插在他家中的二重身。他们说，卫兵向一群暴徒发起了冲锋，那些暴徒要求消灭这些假继承人 -- 很多人都被杀了。 {帝国人,瓜尔,毁灭}
 
 > INFO.NAME latest rumors 30491192722836529980
 I hear there's a secret organization called the Twin Lamps. It helps runaway slaves escape. It's against the law to aid runaway slaves. But I think slavery is wrong, and I can understand why these Abolitionists would be willing to break the law.
@@ -25159,7 +25159,7 @@ It's not bad enough with the blight storms this year, but the Ashlanders are als
 
 > INFO.NAME latest rumors 24744151842199510013
 A guard found Naryn walking around in his nightshirt near the fort. He said he didn't remember how he got there. Sounds to me like he's getting old before his time.
-有个卫兵发现纳伦穿着睡衣，在要塞附近走来走去，他说他不记得是怎么到那里的。在我看来他是未老先衰了。 {瓜尔}
+有个卫兵发现纳林穿着睡衣，在要塞附近走来走去，他说他不记得是怎么到那里的，在我看来他是未老先衰了。 {瓜尔}
 
 > INFO.NAME latest rumors 3196721073260133765
 The guys who are making the REAL money are the tax agents and bureaucrats. They take their percentages off the top.
@@ -25167,7 +25167,7 @@ The guys who are making the REAL money are the tax agents and bureaucrats. They 
 
 > INFO.NAME latest rumors 1852524193257812094
 You won't believe what old Avus said yesterday. 'I could live in a nutshell and be consumed with infinite space were it not that I have bad dreams.' What the hell is he talking about?
-你不会相信老艾弗斯昨天说的话。“要不是做噩梦，我可以活在果壳里，被无限的空间吞噬。”他到底在说什么？ {谈}
+你不会相信老阿维斯昨天说的话，“要不是做噩梦，我可以活在果壳里，被无限的空间吞噬。”他到底在说什么？ {谈}
 
 > INFO.NAME latest rumors 143422529196337269
 And how do you think it was that bloated Imperial plutocrats got the charter to exploit the Caldera ebony deposits, and not a native Great House or local colonist? Big fat bribes, I tell you. And friends in high places.
@@ -25259,15 +25259,15 @@ Redoran is not going to stand by and watch Telvanni setting up those bases witho
 
 > INFO.NAME latest rumors 193911146412092723
 It's the law of Morrowind. Slavery is legal. The Empire doesn't like it, but the Emperor signed the Armistice, and that made it legal for the Dunmer to retain their ancient laws and customs. Now, there's some Abolitionists who say, 'To hell with the law... slavery is wrong.' I'm not saying I disagree, in theory. But it's the law.
-这是晨风的法律。奴隶制度是合法的。帝国不喜欢它，但皇帝签署了停战协定，这使得丹莫保留他们古老的法律和习俗成为合法。现在，有些废奴主义者说：'让法律见鬼去吧……奴隶制是错误的。理论上我并不反对，但这是法律。 {泰姆瑞尔帝国}
+这是晨风的法律。奴隶制度是合法的。帝国不喜欢它，但皇帝签署了停战协定，这使得丹莫保留他们古老的法律和习俗成为合法。现在，有些废奴主义者说：“让法律见鬼去吧……奴隶制是错误的。”理论上我并不反对，但这是法律。 {泰姆瑞尔帝国}
 
 > INFO.NAME latest rumors 32140229921299230703
 I heard how you handled that affair with Ienas Sarandas. I hear Ienas Sarandas was found dead in his home. I don't suppose YOU had anything to do with that? Of course, there were no witnesses. But everyone knows you killed that poor fool. Don't think anyone here will forgive you for that.
-我听说你是怎么处理伊纳斯·萨兰达斯的事了。我听说伊纳斯·萨兰达斯被发现死在家中。我想这和你无关吧？当然，没有目击证人。但大家都知道你杀了那个可怜的傻瓜。我想这里没人会原谅你的。 {发现死亡}
+我听说你是怎么处理伊纳斯·萨兰达斯的事了。我听说伊纳斯·萨兰达斯被发现死在家中，我想这和你无关吧？当然，没有目击证人，但大家都知道你杀了那个可怜的傻瓜，我想这里没人会原谅你的。 {发现死亡}
 
 > INFO.NAME latest rumors 16951285963182810561
 I heard how you handled that affair with Ienas Sarandas. I hear Ienas Sarandas was found dead in his home. I don't suppose YOU had anything to do with that? Of course, there were no witnesses. But everyone knows you killed that poor fool. Don't think anyone here will forgive you for that.
-我听说你是怎么处理伊纳斯·萨兰达斯的事了。我听说伊纳斯·萨兰达斯被发现死在家中。我想这和你无关吧？当然，没有目击证人。但大家都知道你杀了那个可怜的傻瓜。我想这里没人会原谅你的。 {发现死亡}
+我听说你是怎么处理伊纳斯·萨兰达斯的事了。我听说伊纳斯·萨兰达斯被发现死在家中，我想这和你无关吧？当然，没有目击证人，但大家都知道你杀了那个可怜的傻瓜，我想这里没人会原谅你的。 {发现死亡}
 
 > INFO.NAME latest rumors 27890154361575625760
 I heard how you handled that affair with Ienas Sarandas. And a very pretty thing you did. The word is all over town. Have you heard he has given his house to the Temple and is studying to be a priest at the Ald'ruhn Temple?
@@ -25287,7 +25287,7 @@ I've heard that the local tax collector, Processus Vitellius, is missing. No sur
 
 > INFO.NAME latest rumors 27440159621703420683
 These Imperial tax collectors have really started to get on everyone's nerves. Haven't seen the local one in a while, though...not that anyone is complaining.
-这些帝国人的收税员已经开始惹恼大家了。不过，已经有一段时间没见过本地的税官了……倒也没有人抱怨。 {收集者}
+这些帝国人的收税员已经开始惹恼大家了，不过已经有一段时间没见过本地的税官了……倒也没有人抱怨。 {收集者}
 
 > INFO.NAME latest rumors 419630572326932259
 I must tell you, all this self-righteous Western clamor against slavery is really tiresome. Our right to own slaves is protected by law -- IMPERIAL law. People who free slaves are breaking the law. It's as simple as that.
@@ -26483,7 +26483,7 @@ Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
 
 > INFO.NAME advancement 26003290602717310479
 Once our business is concluded, I will consider your advancement.
-一旦我们的事情结束了，我将考虑你的晋级。 {宗师,哈拉鲁家族}
+一旦我们的事情结束了，我将考虑你晋级成哈拉鲁家族的家主。 {宗师}
 
 > INFO.NAME lord's mail 6618179852210128456
 Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.
@@ -27691,7 +27691,7 @@ Present Writs
 
 > INFO.NAME greeting 0 1556426861203214287
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向法庭缴纳 %PCCrimeLevel 金币并交出你身上的赃物，或者交出你身上的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
+你违反了法律，%PCName。向法庭缴纳 %PCCrimeLevel 金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 1556426861203214287 c1
 Pay Gold.
@@ -27711,7 +27711,7 @@ Present Writs
 
 > INFO.NAME greeting 0 196804487824232374
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向法庭缴纳 %PCCrimeLevel 金币并交出你身上的赃物，或者交出你身上的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
+你违反了法律，%PCName。向法庭缴纳 %PCCrimeLevel 金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 196804487824232374 c1
 Pay Gold.
@@ -31095,7 +31095,7 @@ I wait and hope. Ask, and I shall tell you my story.
 
 > INFO.NAME greeting 1 2100328701196442535
 Welcome, Incarnate. I am Hort-Ledd. I was not the one. But I wait and hope. Ask, and I shall tell you my story.
-欢迎你，化身。我是霍特-莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}
+欢迎你，化身。我是霍特·莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}
 
 > INFO.NAME greeting 1 72921191807321606
 I wait and hope. Ask, and I shall tell you my story.
@@ -31411,63 +31411,63 @@ The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagot
 
 > INFO.NAME greeting 1 439770332633661
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 1637925231162622998
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 496719281783611403
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 4446233811209431283
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 291124066788631307
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 93615761188433526
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 225041472885724164
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 308401696831689815
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 27093317763261724114
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 291292873865347444
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 4847231332934514100
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 21136171312117626094
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 9660549494942030
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 427110451762116667
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 443209101903219249
 Beneath Red Mountain, Lord Dagoth sleeps. But when he wakes, we all shall rise, and the dust will blow away. Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory.
-在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
+在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}
 
 > INFO.NAME greeting 1 21303172802354119425
 He said you would come to us. And he was right. Have you come to submit? Or come to die?
@@ -31695,7 +31695,7 @@ Yes, Lord Nerevar? What would you ask of me? Would you hear of my Lord, Dagoth U
 
 > INFO.NAME greeting 1 150816851312507738
 The Sixth House is risen, and Dagoth is its glory. Your host has called you, %PCName, but you have refused his hospitality. This is what my Lord would say to you. "I have opened my Heart to you. I was generous. Yet you defy me. I regret that you must be destroyed, but none shall stand against me in the hour of my awakening."
-第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
+第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
 
 > INFO.NAME greeting 1 16827207742654928769
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.
@@ -31703,7 +31703,7 @@ The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagot
 
 > INFO.NAME greeting 1 1521292812717910184
 The Sixth House is risen, and Dagoth is its glory. Your host has called you, %PCName, but you have refused his hospitality. This is what my Lord would say to you. "I have opened my Heart to you. I was generous. Yet you defy me. I regret that you must be destroyed, but none shall stand against me in the hour of my awakening."
-第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
+第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
 
 > INFO.NAME greeting 1 2508418713134878230
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.
@@ -31711,7 +31711,7 @@ The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagot
 
 > INFO.NAME greeting 1 140824432134722448
 The Sixth House is risen, and Dagoth is its glory. Your host has called you, %PCName, but you have refused his hospitality. This is what my Lord would say to you. "I have opened my Heart to you. I was generous. Yet you defy me. I regret that you must be destroyed, but none shall stand against me in the hour of my awakening."
-第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
+第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
 
 > INFO.NAME greeting 1 2042127785674821826
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.
@@ -31719,7 +31719,7 @@ The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagot
 
 > INFO.NAME greeting 1 11167263657422555
 The Sixth House is risen, and Dagoth is its glory. Your host has called you, %PCName, but you have refused his hospitality. This is what my Lord would say to you. "I have opened my Heart to you. I was generous. Yet you defy me. I regret that you must be destroyed, but none shall stand against me in the hour of my awakening."
-第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
+第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
 
 > INFO.NAME greeting 1 25630505260411398
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.
@@ -31727,7 +31727,7 @@ The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagot
 
 > INFO.NAME greeting 1 3970206422647012983
 The Sixth House is risen, and Dagoth is its glory. Your host has called you, %PCName, but you have refused his hospitality. This is what my Lord would say to you. "I have opened my Heart to you. I was generous. Yet you defy me. I regret that you must be destroyed, but none shall stand against me in the hour of my awakening."
-第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
+第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}
 
 > INFO.NAME greeting 1 2528519293960621012
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.
@@ -31919,7 +31919,7 @@ Hello.  I am Geon Auline, collector of fine artifacts.
 
 > INFO.NAME greeting 7 1067310155136635979
 I'm an officer of the Imperial law. Move along.
-我是维护帝国法律的军官，继续往前走。 {帝国人}
+我是维护帝国法律的军官，走吧。 {帝国人}
 
 > INFO.NAME greeting 7 96419694277455438
 I wouldn't have expected to see the Nerevarine here in Mournhold.
@@ -36435,7 +36435,7 @@ If you insist...
 
 > INFO.NAME favor 266351095457551500
 There are Dwemer ruins nearby called Arkngthand. I need you to run over there and find me a little cube with a circular design and some symbols on one side. It's called 'a Dwemer puzzle box'. Bring me back the Dwemer puzzle box, and I'll tell you what you want to know.
-附近有一个叫阿肯赞德的锻莫废墟。我需要你跑过去，给我找一个小方块，一面有圆形图案和一些符号，这叫'锻莫谜题盒子'。把锻莫谜题盒子带回来，我就告诉你你想知道的事。 {锻莫族}
+附近有一个叫阿肯赞德的锻莫废墟。我需要你跑过去，给我找一个小方块：一面有圆形图案和一些符号，这叫'锻莫谜题盒子'。把锻莫谜题盒子带回来，我就告诉你你想知道的事。 {锻莫族}
 
 > INFO.NAME favor 1427024818124768213
 You must REALLY think I'm dense, %PCRace. Like YOU could put together a whole suit of Daedric Armor! I'm sure you just think you're so funny, don't you? Well, I'll teach you to laugh at me! You just wait, %PCName. I'll get you when you least expect it!!!

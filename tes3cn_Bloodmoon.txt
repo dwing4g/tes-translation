@@ -36310,7 +36310,7 @@ C<BR>"
  INFO.PNAM "7346221962927829557$00"
  INFO.NNAM "257356135208117736$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "阿瑞妮·奥瑞缇让我查明她姐姐薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}"
+ INFO.NAME "阿瑞妮·奥瑞缇让我查明她姐妹薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}"
 -INFO
  INFO.INAM "893133791234926605$00"
  INFO.PNAM "5466113511146527996$00"
@@ -63186,7 +63186,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 07 00]
  INFO.ONAM "Vedam Dren$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "一旦我们的事情结束了，我将考虑你的晋级。 {宗师,哈拉鲁家族}"
+ INFO.NAME "一旦我们的事情结束了，我将考虑你晋级成哈拉鲁家族的家主。 {宗师}"
 -DIAL
  DIAL.NAME "你是谁$00"
  DIAL.DATA [00]
@@ -74590,7 +74590,7 @@ Goodbye"
  INFO.NNAM "72921191807321606$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ghost_npc_hort_ledd$00"
- INFO.NAME "欢迎你，化身。我是霍特-莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}"
+ INFO.NAME "欢迎你，化身。我是霍特·莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "11630"
@@ -75639,7 +75639,7 @@ ModDisposition -20"
  INFO.NNAM "1637925231162622998$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dralas Gilu$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -75653,7 +75653,7 @@ ModDisposition -20"
  INFO.NNAM "496719281783611403$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Drarayne Girith$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -75667,7 +75667,7 @@ ModDisposition -20"
  INFO.NNAM "4446233811209431283$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Rararyn Radarys$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -75681,7 +75681,7 @@ ModDisposition -20"
  INFO.NNAM "291124066788631307$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llandras Belaal$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -75695,7 +75695,7 @@ ModDisposition -20"
  INFO.NNAM "93615761188433526$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dravasa Andrethi$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0hanarai assutlanipal"
@@ -75709,7 +75709,7 @@ ModDisposition -20"
  INFO.NNAM "225041472885724164$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Eralane Hledas$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -75723,7 +75723,7 @@ ModDisposition -20"
  INFO.NNAM "308401696831689815$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Vivyne Andrano$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -75737,7 +75737,7 @@ ModDisposition -20"
  INFO.NNAM "27093317763261724114$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Nelmil Hler$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -75751,7 +75751,7 @@ ModDisposition -20"
  INFO.NNAM "291292873865347444$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Relur Faryon$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -75765,7 +75765,7 @@ ModDisposition -20"
  INFO.NNAM "4847231332934514100$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Alvura Othrenim$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -75779,7 +75779,7 @@ ModDisposition -20"
  INFO.NNAM "21136171312117626094$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Neldris Llervu$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -75793,7 +75793,7 @@ ModDisposition -20"
  INFO.NNAM "9660549494942030$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Daynasa Telandas$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -75807,7 +75807,7 @@ ModDisposition -20"
  INFO.NNAM "427110451762116667$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Endris Dilmyn$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0Dagoth Draven"
@@ -75821,7 +75821,7 @@ ModDisposition -20"
  INFO.NNAM "443209101903219249$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Vireveri Darethran$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0Dagoth Draven"
@@ -75835,7 +75835,7 @@ ModDisposition -20"
  INFO.NNAM "21303172802354119425$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Assi Serimilk$00"
- INFO.NAME "在红山之下，达苟斯沉睡着。但当他醒来时，我们都将站起来，尘土将被吹散。侍奉你的主吧，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
+ INFO.NAME "在红山之下，达格斯沉睡着。当他醒来之时，我们都将崛起，尘土将被吹散。侍奉你的主，达格斯·乌尔。第六家族已经崛起，达格斯是它的荣耀。 {沙尔}"
  INFO.SCVR "04JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "16DX0Dagoth Draven"
@@ -76372,7 +76372,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Dreamers$00"
  INFO.ANAM "Ilunibi, Tainted Marrow$00"
- INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
+ INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -76390,7 +76390,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Dreamers$00"
  INFO.ANAM "Ilunibi, Soul's Rattle$00"
- INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
+ INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -76408,7 +76408,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Dreamers$00"
  INFO.ANAM "Ilunibi, Marowak's Spine$00"
- INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
+ INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -76426,7 +76426,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Dreamers$00"
  INFO.ANAM "Ilunibi, Carcass of the Saint$00"
- INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
+ INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -76444,7 +76444,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Dreamers$00"
  INFO.ANAM "Ilunibi, Blackened Heart$00"
- INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。你的主人召见了你，%PCName，但你拒绝了他的招待。我的主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
+ INFO.NAME "第六家族已经崛起，达格斯是它的荣耀。主人召见了你，%PCName，但你拒绝了他的招待。主人会这样对你说“我已向你敞开心扉。我是慷慨的。但你藐视我。我很遗憾，你必须被毁灭。在我觉醒的时刻，没有人能对抗我。” {沙尔}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
