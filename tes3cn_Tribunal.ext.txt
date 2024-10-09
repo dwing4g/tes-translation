@@ -2859,7 +2859,7 @@ Almsivi 每小时。<BR>
 <BR>
 无限制地接受恩典。<BR>
 <BR>
-进入上帝诗人的狂想曲。<BR>
+进入神诗人的狂想曲。<BR>
 <BR>
 跪在老师的椅子前。<BR>
 <BR>
@@ -7781,7 +7781,7 @@ When I told the Census and Excise agent to look for Addhiranirr in the underwork
 
 > INFO.NAME a1_6_addhiranirrinformant 16668297552055419639
 Addhiranirr was angry that I'd told the Census and Excise agent where to find her. Now it's going to be very hard to persuade her to answer my questions on the Nerevarine cult and the Sixth House cult.
-阿迪拉尼尔很生气，因为我告诉了税务局的人去哪里找她。现在要说服她回答我关于尼瑞瓦因教派和第六家族邪教的问题就非常困难了。 {税务局特工}
+阿迪拉尼尔很生气，因为我告诉了税务局特工去哪里找她。现在要说服她回答我关于尼瑞瓦因教派和第六家族邪教的问题就非常困难了。
 
 > INFO.NAME a1_6_addhiranirrinformant 31000343144618781
 I finally managed to persuade Addhiranirr to answer my questions on the Nerevarine cult and the Sixth House cult.
@@ -7841,11 +7841,11 @@ Thieves Guild: Wizard For Hire
 
 > INFO.NAME tg_sadrithmoradefenses 19339312552149513851
 Big Helende asked me to hire a wizard from the local Mages Guild to guard the Thieves Guild here in Sadrith Mora. The Mages Guild in Sadrith Mora is in Wolverine Hall.
-大海伦德让我从当地的法师公会雇佣一个法师来守卫萨德瑞斯-莫拉的盗贼公会。萨德瑞斯-莫拉的法师公会位于狼獾大厅。 {雇佣一个巫师,瓜尔,卫兵}
+大海伦德让我从当地的法师公会雇佣一个巫师来守卫萨德瑞斯-莫拉的盗贼公会。萨德瑞斯-莫拉的法师公会位于狼獾大厅。 {瓜尔,卫兵}
 
 > INFO.NAME tg_sadrithmoradefenses 8712257241944426635
 Big Helende thanked me for getting a guard for the Thieves Guild.
-大海伦德感谢我为盗贼公会找来了保镖。 {瓜尔,卫兵}
+大海伦德感谢我为盗贼公会找来了卫兵。 {瓜尔}
 
 > INFO.NAME tg_sadrithmoradefenses 1709314578306274294
 Since Arielle Phiencel is dead, the job Big Helende had for me is over.
@@ -8085,7 +8085,7 @@ An Argonian named Okur in Hla Oad has asked for our aid. This devout follower of
 
 > INFO.NAME ic19_restless_spirit 18030266002881514199
 I reported to Kaye about killing the murderers of Julielle Aumine and recovering her lost amulet, and told him that Okur was sure she could lay the ghost of Julielle Aumine to rest. Kaye gave me some potent magic scrolls as a reward for my work. He thanked me, but he has no more work for me. He said there might be work for lay healers or almoners, or I might talk to Lalatia Varian about Oracle's Quests.
-我向凯伊告了杀死杀害朱丽尔·奥米娜的凶手和找回她丢失的护身符的情况，并告诉他奥库尔确信她能让朱丽尔·奥米娜的灵魂安息。凯给了我一些强效魔法卷轴作为报酬。他向我表示感谢，但他没有工作给我了。他说可能会有业余治疗师或施赈者的工作，或者我可以和拉拉蒂亚·瓦里安谈谈神谕者的任务。 {报告}
+我向凯伊告了杀死杀害朱丽尔·奥米娜的凶手和找回她丢失的护身符的情况，并告诉他奥库尔确信她能让朱丽尔·奥米娜的灵魂安息。凯给了我一些强效魔法卷轴作为报酬。他向我表示感谢，但他没有工作给我了。他说可能会有业余治疗师或施赈者的工作，或者我可以和拉拉蒂亚·瓦里安谈谈神谕者的任务。
 
 > INFO.NAME a1_11_zainsubanigift 178562265318636822
 Zainsubani Informant
@@ -9405,11 +9405,11 @@ House Redoran: Velsa Orethi
 
 > INFO.NAME hr_orethisisters 112415702151845997
 Aryni Orethi asked me to find out what happened to her sister, Velsa Orethi, a blood guard in Venim Manor.
-阿瑞妮·奥瑞缇让我查明她姐姐薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}
+阿瑞妮·奥瑞缇让我查明她姐妹薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}
 
 > INFO.NAME hr_orethisisters 893133791234926605
 Aryni Orethi thanked me for helping her sister.
-阿瑞妮·奥瑞缇感谢我帮助了她的妹妹。
+阿瑞妮·奥瑞缇感谢我帮助了她的姐妹。
 
 > INFO.NAME hr_attackuvirith 27964263851198513136
 House Redoran: Slay Reynel Uvirith
@@ -10837,7 +10837,7 @@ Daynes Redothril and Ienas Sarandus
 
 > INFO.NAME town_ald_daynes 7164404019185936
 Daynes Redothril the pawnbroker sold two fine matched rings, one with an raw ebony stone, the other with a raw glass stone, to a customer named Ienas Sarandas. But Sarandas has failed to pay the remaining 150 gold owed. If I can find Sarandas, and either get the ebony ring and the glass ring and return them to Redothril, or get the 150 gold Sarandas owes Redothril, the pawnbroker will pay me 50 gold.
-典当商戴尼斯·瑞多斯尔：典当商将两枚精美的对戒卖给了一位名叫伊纳斯·萨兰达斯的顾客，一枚镶嵌着黑檀矿原石，另一枚镶嵌着玻璃矿原石。但是萨兰达斯没有支付剩余的 150 金币欠款。如果我能找到萨兰达斯，要么拿到黑檀戒指和玻璃戒指还给雷多特里尔，要么拿到萨兰达斯欠雷多特里尔的 150 金币，典当商就会付给我 50 金币。
+典当商戴尼斯·瑞多斯尔将两枚精美的对戒卖给了一位名叫伊纳斯·萨兰达斯的顾客，一枚镶嵌着黑檀矿原石，另一枚镶嵌着玻璃矿原石。但是萨兰达斯没有支付剩余的 150 金币欠款。如果我能找到萨兰达斯，要么拿到黑檀戒指和玻璃戒指还给雷多特里尔，要么拿到萨兰达斯欠雷多特里尔的 150 金币，典当商就会付给我 50 金币。
 
 > INFO.NAME town_ald_daynes 2877931441511117727
 I returned the ebony ring and the glass ring to Daynes Redothril, and he paid me 50 gold. He seemed very pleased with the way I had handled the affair.
@@ -11525,7 +11525,7 @@ Thieves Guild: Speak With Percius
 
 > INFO.NAME tg_enemyparley 347629629185507004
 Gentleman Jim Stacey believes that Percius Mercius of the Ald'ruhn Guild of Fighters may help us. I should speak with him about the other members of the Fighters Guild.
-绅士吉姆·史戴西认为，奥德'汝因战士工会的珀西乌斯·默西乌斯可能会帮助我们。我应该和他谈谈战士公会的其他成员。
+绅士吉姆·史戴西认为，奥德'汝因战士公会的珀西乌斯·默西乌斯可能会帮助我们。我应该和他谈谈战士公会的其他成员。
 
 > INFO.NAME tg_enemyparley 2959328659158685401
 Gentleman Jim Stacey thanked me for the information I got from Percius Mercius.
@@ -15585,7 +15585,7 @@ House Redoran: The Mad Lord of Milk
 
 > INFO.NAME hr_madmilk 243156941636814418
 Athyn Sarethi told me that the Redoran Noble, Arethan Mandas, has gone insane and has been demanding tribute from travellers from the cavern Milk which is on the road to Maar Gan just north of the crossroads. I should find a way to cure him if possible, or kill him if necessary. He suggested that I speak with Arethan's father, Llerar Mandas in Ebonheart.
-艾辛·萨雷蒂说，瑞多然贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。
+艾辛·萨雷蒂说，瑞多然贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。 {奥德'汝因,卡尔德拉,尼希斯}
 
 > INFO.NAME hr_madmilk 3038997131625721006
 Athyn Sarethi thanked me for killing the Mad Lord, Arethan Mandas.
@@ -16249,7 +16249,7 @@ Bugrol wanted me to deliver a note he gave me to his friend Bashuk gra-Bat in Ca
 
 > INFO.NAME mv_bugrol 9155322791675011351
 There don't seem to be any more notes to pass between Bugrol and Bashuk, thank the gods. I feel I'm actually a bit stupider for ever having talked to either one of them. But, the fool did give me a diamond as his "present." Apparently he thought it was just a shiny rock. Probably found it while he was "hiding."
-感谢上帝，布格罗尔和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为“礼物”。显然，他以为那只是一块闪闪发光的石头。可能是他在“躲藏”的时候发现的。
+感谢诸神，布格罗尔和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为“礼物”。显然，他以为那只是一块闪闪发光的石头。可能是他在“躲藏”的时候发现的。
 
 > INFO.NAME il_damsel 3229511837222556342
 Imperial Legion: Rescue Dandsa
@@ -18521,7 +18521,7 @@ They say he died of old age. That's possible. But is it likely? Have you seen a 
 
 > INFO.NAME king llethan's death 307581196288158267
 [He looks at you and smiles unpleasantly.] The King is dead. Long live the King.
-[他看着你，不悦地笑了笑。]先王已逝，新王万岁。
+[他看着你，不悦地笑了笑。] 先王已逝，新王万岁。
 
 > INFO.NAME king llethan's death 1478631361059327014
 All right. I'll tell you what I think. He was old. But not that old. Maybe he just died, like they said. But maybe someone helped him along. There's a broadside sheet called "The Common Tongue". In there it says Helseth poisoned hundreds of people when he was in the West, so why not here?
@@ -18529,7 +18529,7 @@ All right. I'll tell you what I think. He was old. But not that old. Maybe he ju
 
 > INFO.NAME king llethan's death 7556522630412582
 [She eyes you suspiciously.] He was an old man. Old men die. And now Helseth is king. Long live the king.
-[她怀疑地看着你。]他是个老人。老人会死。而现在赫尔塞斯是国王。国王万岁。
+[她怀疑地看着你。] 他是个老人。老人会死。而现在赫尔塞斯是国王。国王万岁。
 
 > INFO.NAME king llethan's death 30991279393087722134
 May his spirit rest among his ancestors. We did all that could be done for him, but in the end, he seemed to have lost his will to live. He was a great man, and we mourn his loss.
@@ -23419,7 +23419,7 @@ If you were to ask me for the model of a warrior, I'd have to say Miles Gloriosu
 
 > INFO.NAME little advice 291392498268423164
 If you want to talk to a smith about his trade, talk to Garothmuk gro-Muzgub. He is not a master smith, but he's well-spoken, friendly, and knows a lot about smithing in Morrowind.
-如果你想和铁匠谈谈他的手艺，可以找加罗斯穆克·格罗-穆兹古布：铁匠铺。他不是铁匠铺的大师，但他谈吐得体、待人友善，而且对晨风的铁匠铺了如指掌。
+如果你想和铁匠谈谈他的手艺，可以找加罗斯穆克·格罗-穆兹古布。他不是铁匠铺的大师，但他谈吐得体、待人友善，而且对晨风的铁匠铺了如指掌。
 
 > INFO.NAME little advice 13039228981365825921
 It's hard to find a wise woman who'll talk about her trade. If you're interested, you might try Maela Kaushad in Vos. She married a villager, left the tribes, and settled down in town.
@@ -23639,15 +23639,15 @@ Smuggling raw glass is a crime. All raw glass belongs to the Emperor, so it's th
 
 > INFO.NAME little secret 3135211120424022810
 Smuggling ebony is a crime. All ebony belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market ebony that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing ebony, they just kill you. Which is why we don't steal ebony.
-走私黑檀是犯罪。所有的黑檀都属于皇帝，所以这是叛国的罪行，要处以死刑，但是……黑市上的黑檀卖得太赚钱了，很少有商人会拒绝向你买一块黑檀。当然，如果偷黑檀被矿场卫兵发现，他们会直接杀了你，这就是我们不偷黑檀的原因。 {瓜尔}
+走私黑檀是犯罪，所有的黑檀都属于皇帝，所以这是叛国的罪行，要处以死刑。但是……黑市上的黑檀卖得太赚钱了，很少有商人会拒绝向你买一块黑檀。当然，如果偷黑檀被矿场卫兵发现，他们会直接杀了你。这就是我们不偷黑檀的原因。 {瓜尔}
 
 > INFO.NAME little secret 21274282721988021243
 Smuggling ebony is a crime. All ebony belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market ebony that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing ebony, they just kill you. Which is why we don't steal ebony.
-走私黑檀是犯罪。所有的黑檀都属于皇帝，所以这是叛国的罪行，要处以死刑，但是……黑市上的黑檀卖得太赚钱了，很少有商人会拒绝向你买一块黑檀。当然，如果偷黑檀被矿场卫兵发现，他们会直接杀了你，这就是我们不偷黑檀的原因。 {瓜尔}
+走私黑檀是犯罪，所有的黑檀都属于皇帝，所以这是叛国的罪行，要处以死刑。但是……黑市上的黑檀卖得太赚钱了，很少有商人会拒绝向你买一块黑檀。当然，如果偷黑檀被矿场卫兵发现，他们会直接杀了你。这就是我们不偷黑檀的原因。 {瓜尔}
 
 > INFO.NAME little secret 1881229181035527175
 Smuggling ebony is a crime. All ebony belongs to the Emperor, so it's the crime of treason, and punished by death. But... there's so much money to be made selling black market ebony that it's a rare merchant who'll refuse to buy a piece from you. Of course, if the mine guards catch you stealing ebony, they just kill you. Which is why we don't steal ebony.
-走私黑檀是犯罪。所有的黑檀都属于皇帝，所以这是叛国的罪行，要处以死刑，但是……黑市上的黑檀卖得太赚钱了，很少有商人会拒绝向你买一块黑檀。当然，如果偷黑檀被矿场卫兵发现，他们会直接杀了你，这就是我们不偷黑檀的原因。 {瓜尔}
+走私黑檀是犯罪，所有的黑檀都属于皇帝，所以这是叛国的罪行，要处以死刑。但是……黑市上的黑檀卖得太赚钱了，很少有商人会拒绝向你买一块黑檀。当然，如果偷黑檀被矿场卫兵发现，他们会直接杀了你。这就是我们不偷黑檀的原因。 {瓜尔}
 
 > INFO.NAME little secret 2575319940141437747
 There must be more diamond deposits on Vvardenfell. This kind of rock is common here. But even though people have been here for thousands of years, the island has never been fully explored.
@@ -24819,7 +24819,7 @@ Did you hear about poor Jeanne? No one will go into her store anymore. People sa
 
 > INFO.NAME latest rumors 2189921308247030029
 I've heard that Balen Andrano over in the Redoran section has had a real tough time lately. He's losing a lot of business.
-我听说瑞多然区的巴伦·安德拉诺，最近日子很不好过，他失去了很多生意。 {事}
+我听说瑞多然区的巴伦·安德拉诺最近日子很不好过，他失去了很多生意。 {事}
 
 > INFO.NAME latest rumors 197862879897432133
 Crassius Curio is quite a patron of the arts. He commissioned some artists to do a mural for him, and I heard that he has written a new play, and would like to have it performed.
@@ -24879,7 +24879,7 @@ Heard about the Gateway haunting? A ghost is haunting the South Turret bed chamb
 
 > INFO.NAME latest rumors 362626263324774509
 That bigmouth Varro over at Moonmoth Legion Fort says he's going to stop corruption. He doesn't know what he's talking about. What he calls corruption is just the routine greasing of the wheels of commerce. These outlanders come in here and think they know how things should work. They don't understand anything about the way things work in Morrowind.
-月蛾军团要塞的大嘴巴瓦罗说他要阻止腐败。他根本不知道自己在说什么。他所谓的腐败不过是商业活动中的例行公事罢了，这些外地人来到这里，就以为自己知道事情该怎么做，他们根本不了解晨风的运作方式。 {谈,工作}
+月蛾军团要塞的大嘴巴瓦罗说他要阻止腐败。他根本不知道自己在说什么。他所谓的腐败不过是商业活动中的例行公事罢了。这些外地人来到这里，就以为自己知道事情该怎么做，他们根本不了解晨风的运作方式。 {谈,工作}
 
 > INFO.NAME latest rumors 2610126034286992676
 They say someone hit the Camonna Tong at the Council Club. Hard. And the guards SAY they're very concerned, and they're following all leads... But somehow they don't seem very sincere. And Larrius Varro? Champion at Fort Moonmoth? He's been quoted as saying, 'I swore an oath to stop corruption, but it seems the gods have seen fit to fulfill my oath for me.' And you know what's funny? Someone said they saw YOU talking to Larrius Varro several times recently. A coincidence? I don't think so.
@@ -24923,7 +24923,7 @@ I hear the same thing from everybody. Everybody's feeling tired. Wonder if somet
 
 > INFO.NAME latest rumors 20384188831687710419
 The blight storms have been really bad this year. My friend who makes the Maar Gan pilgrimage every year got caught in a real doozy. He was in a pretty bad way until they got him back to a Temple.
-今年的枯萎病风暴真的很严重，我的朋友每年都去玛尔-甘朝圣，而这次就遇到了一场大灾难。直到他们把他送回神殿前，他的情况都非常糟糕。 {枯萎之症}
+今年的枯萎病风暴真的很严重。我的朋友每年都去玛尔-甘朝圣，而这次就遇到了一场大灾难。直到他们把他送回神殿前，他的情况都非常糟糕。 {枯萎之症}
 
 > INFO.NAME latest rumors 11846324781265918916
 Have you noticed? People staying up until all hours of the night? Walking the streets? Tradesmen open all the time? Strange. Like they can't get to sleep or something. Or don't want to go to sleep. Maybe something in their sleep is bothering them. If you follow my meaning.
@@ -26483,7 +26483,7 @@ Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
 
 > INFO.NAME advancement 26003290602717310479
 Once our business is concluded, I will consider your advancement.
-一旦我们的事情结束了，我将考虑你的晋级。
+一旦我们的事情结束了，我将考虑你的晋级。 {宗师,哈拉鲁家族}
 
 > INFO.NAME lord's mail 6618179852210128456
 Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.
@@ -27687,7 +27687,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 10464318192407517480 c4
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 1556426861203214287
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
@@ -27707,7 +27707,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 1556426861203214287 c4
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 196804487824232374
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
@@ -27739,7 +27739,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 19191290671947220251 c3
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 5642177972930817100
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
@@ -27755,7 +27755,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 5642177972930817100 c3
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 196287825728868
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
@@ -27787,7 +27787,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 192701535310983235 c4
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 26842177092586711290
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
@@ -27807,7 +27807,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 26842177092586711290 c4
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 28453202671042816107
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
@@ -27839,7 +27839,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 3221696071812632454 c3
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 24093917276228210
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
@@ -27855,7 +27855,7 @@ Resist Arrest.
 
 > INFO.BNAM greeting 0 24093917276228210 c3
 Present Writs
-呈上批准。
+呈上批准
 
 > INFO.NAME greeting 0 3832139402051823602
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
@@ -29743,7 +29743,7 @@ All is silence. The road is straight, without turning, in darkness. Now let ther
 
 > INFO.NAME greeting 1 14849203321598615886
 Well. Someone finally found me. Your bad luck, really.
-好吧，终于有人找到我了。你真倒霉。 {幸运}
+好吧，终于有人找到我了，你很倒霉，真的。 {幸运}
 
 > INFO.NAME greeting 1 273715018495026709
 You have killed someone dear to me. It is a mistake you will not live to regret.
@@ -29919,7 +29919,7 @@ Are you okay? You don't look well...
 
 > INFO.NAME greeting 1 2348427924134421016
 Well, hello there. It's always nice to see another %PCRace.
-你好，很高兴见到另一个电脑族。
+你好，很高兴见到另一个 %PCRace。
 
 > INFO.NAME greeting 1 15651222572413527697
 An Argonian! How exciting. I've never had an Argonian... customer.
@@ -29959,7 +29959,7 @@ I smell Berne blood on you! Die!
 
 > INFO.NAME greeting 1 25867274131901607
 Ahhhhh! The power once again flows through my limbs! I am whole again! Now, I shall once again feed on the mortals above, pay them for my years of imprisonment! You are useless to me now, young fool. You shall be the first to die at my hands. Consider it an honor. Mastrius walks again!
-啊…！力量再次流遍我的四肢百骸，我又完整了！现在，我将再次以凡人为食，为我多年的囚禁付出代价。你现在对我没用了，年轻的傻瓜，你将是第一个死在我手里的人。我很荣幸。马斯特里乌斯又来了！ {沙尔}
+啊啊啊！力量再次流遍我的四肢百骸！我又完整了！现在，我将再次以凡人为食，为我多年的囚禁付出代价。你现在对我没用了，年轻的傻瓜，你将是第一个死在我手里的人。我很荣幸。马斯特里乌斯又来了！ {沙尔}
 
 > INFO.NAME greeting 1 3746148869655778
 Enough %PCName. You beat me fairly. I'll tell Dram what happened.
@@ -30019,7 +30019,7 @@ You have slain my brother, n'wah.
 
 > INFO.NAME greeting 1 16939641270732618
 Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's none of my business.
-别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {事}
+哦，别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {事}
 
 > INFO.NAME greeting 1 290445316827329292
 Darius says you can be here, so it's okay with me.
@@ -30571,7 +30571,7 @@ You again? A surprise, and a pleasure! Didn't we have a satisfactory chat? Somet
 
 > INFO.NAME greeting 1 24782174232583331520
 Not interesting. Sorry. Not your fault, perhaps, but you are not interesting, and I can't waste energy talking to boring people.
-没兴趣？对不起，也许不是你的错，但你一点都不有趣。我不能浪费精力和无聊的人说话。 {谈}
+没兴趣。对不起，也许不是你的错，但你一点都不有趣。我不能浪费精力和无聊的人说话。 {谈}
 
 > INFO.NAME greeting 1 162417771287526700
 Listen. You are not interesting. No offense, but I don't want to talk to you.
@@ -30827,7 +30827,7 @@ Quickly! Did you want to meet the archcanon?
 
 > INFO.NAME greeting 1 1788966312321918569
 [whispers] No. Didn't you read the note? Until you are named Hortator by the three Houses and Nerevarine by the four tribes, there is no point in discussing your claims. Now... go away before someone sees us talking.
-[不，你没看字条吗？在你被三大殿统谏使和四大部落任命为尼瑞瓦因之前，讨论你的要求毫无意义。现在……快走吧，别让人看见我们在交谈。
+[小声说] 不，你没看字条吗？在你被三大殿统谏使和四大部落任命为尼瑞瓦因之前，讨论你的要求毫无意义。现在……快走吧，别让人看见我们在交谈。
 
 > INFO.NAME greeting 1 21902236681720919358
 Thank you for your help, %PCName. As promised, here is your payment.
@@ -31919,7 +31919,7 @@ Hello.  I am Geon Auline, collector of fine artifacts.
 
 > INFO.NAME greeting 7 1067310155136635979
 I'm an officer of the Imperial law. Move along.
-我是维护帝国法律的军官，继续往前走。 {帝国人}
+我是维护帝国法律的军官，走吧。 {帝国人}
 
 > INFO.NAME greeting 7 96419694277455438
 I wouldn't have expected to see the Nerevarine here in Mournhold.
@@ -32175,7 +32175,7 @@ No, not yet.
 
 > INFO.NAME ebony mail 2121520152675421911
 The Ebony Mail may be found on Mount Assarnibibi, which is north of Molag Mar. Mount Assarnibibi is where Molag Bal oversaw the 99 lovers of Boethiah that gave birth to Almalexia. Go there and pray before the shrine. If you are worthy, you will receive the Ebony Mail. Return it to me and I will make you %NextPCRank of the Temple.
-黑檀邮件可以在莫拉格-玛尔北面的阿萨恩尼比比山找到。阿萨恩尼比比山是莫拉格·巴尔监督波耶西亚的 99 位情人孕育阿玛莱西娅的地方。去那里，在圣祠前祈祷。如果你有资格，你会收到黑檀链甲。把它还给我，我会让你成为 %NextPCRank 的神殿成员。
+黑檀链甲可以在莫拉格-玛尔北面的阿萨恩尼比比山找到。阿萨恩尼比比山是莫拉格·巴尔监督波耶西亚的 99 位情人孕育阿玛莱西娅的地方。去那里，在圣祠前祈祷。如果你有资格，你会收到黑檀链甲。把它还给我，我会让你成为 %NextPCRank 的神殿成员。
 
 > INFO.NAME background 2583529070786213408
 I am %name, I serve Almalexia as one of Her Hands.
