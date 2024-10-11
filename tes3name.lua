@@ -80,6 +80,7 @@ end
 
 local function search()
 	for e, c in s:gmatch "> NPC_%.FNAM %C+%c+(%C+)%c+(%C+)%c+" do
+		e = e:gsub(" +$", "")
 		if addDict(e, c) then
 			local e1, e2 = e:match "^([%w%-']+) ([%w%-']+)$"
 			if e1 then
@@ -106,6 +107,8 @@ local function search()
 						print("WARN: unmatched name pair: " .. e .. ": " .. c)
 					end
 				end
+			elseif not e:find "^([%w%-']+)$" then
+				print("WARN: unknown name pattern: " .. e .. ": " .. c)
 			end
 		end
 	end
