@@ -3240,7 +3240,7 @@ Manolos Virith
 
 > NPC_.FNAM manabi virith
 Manabi Virith
-马纳比·维里斯
+马纳比·维瑞斯
 
 > NPC_.FNAM francois marquardt
 Francois Marquardt
@@ -5924,11 +5924,11 @@ My latest research has revealed the location of the Mantle of Woe. It lies withi
 
 > NPC_.FNAM bm_roguenecro2
 Necromancer's Apprentice
-死灵法师学徒
+死灵法师的学徒
 
 > NPC_.FNAM bm_roguenecro3
 Necromancer's Apprentice
-死灵法师学徒
+死灵法师的学徒
 
 > CREA.FNAM BM_bear_black_fat
 Grizzly Bear
@@ -7174,7 +7174,7 @@ House Hlaalu: Exterminator
 
 > INFO.NAME hh_theexterminator 2036621708180619508
 Edryno Arethi told me that Yngling Half-Troll raises game rats for the Arena. A competitor has placed diseased rats among Yngling's game rats. I must go to Yngling Manor in the St. Olms Plaza and kill the diseased rats, but spare the prized game rats.
-埃德里诺·阿雷西告诉我，“半巨魔”英灵为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
+埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
 
 > INFO.NAME hh_theexterminator 5794310032282014326
 Edryno Arethi thanked me for killing the diseased rats in Yngling Manor.
@@ -7182,7 +7182,7 @@ Edryno Arethi thanked me for killing the diseased rats in Yngling Manor.
 
 > INFO.NAME hh_theexterminator 24483205232516713567
 I told Edryno Arethi that Yngling Half-Troll is dead.
-我告诉埃德里诺·阿雷西，“半巨魔”英灵已经死了。
+我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。
 
 > INFO.NAME a2_1_meetsulmatuul 6700287971415821869
 Meet Sul-Matuul
@@ -7194,7 +7194,7 @@ Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's se
 
 > INFO.NAME a2_1_meetsulmatuul 16981214271045313693
 Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.
-尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮助我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找《失落的预言》。如果我把《失落的预言》带给她，她将成为我的向导。而她给了我名为“异客”和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。 {帮我}
+尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮助我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找《失落的预言》。如果我把《失落的预言》带给她，她将成为我的向导。而她给了我名为《异客》和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。 {帮我}
 
 > INFO.NAME a1_1_findspymaster 7438123173912264
 Report to Caius Cosades
@@ -9422,7 +9422,7 @@ I returned the firejade amulet to Bevene Releth, and she paid me 25 gold. She ha
 
 > INFO.NAME town_ald_daynes 7442131402220231153
 Daynes Redothril and Ienas Sarandus
-戴涅斯·瑞多瑟尔和伊纳斯·萨兰达斯
+戴尼斯·瑞多瑟尔和伊纳斯·萨兰达斯
 
 > INFO.NAME town_ald_daynes 7164404019185936
 Daynes Redothril the pawnbroker sold two fine matched rings, one with an raw ebony stone, the other with a raw glass stone, to a customer named Ienas Sarandas. But Sarandas has failed to pay the remaining 150 gold owed. If I can find Sarandas, and either get the ebony ring and the glass ring and return them to Redothril, or get the 150 gold Sarandas owes Redothril, the pawnbroker will pay me 50 gold.
@@ -9842,7 +9842,7 @@ Hlaalu Hortator
 
 > INFO.NAME b6_ynglinghort 582296111211724270
 Yngling Half-Troll laughed when I asked him if he would support me for Hortator of House Redoran. He seemed to feel that killing a Hlaalu councilor ruined my chances.
-当我问“半巨魔”英灵是否会支持我竞选瑞多然家族的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。
+当我问英灵·半巨魔是否会支持我竞选瑞多然家族的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。
 
 > INFO.NAME b5_redoranhort 5624194132324312311
 Redoran Hortator
@@ -11218,11 +11218,11 @@ Thieves Guild: Bal Molagmer, Yngling's Ledger
 
 > INFO.NAME tg_ss_yngling 2522624934128846147
 Gentleman Jim Stacey asked me to bring him Yngling Half-Troll's Ledger which is in Yngling Manor in Vivec. This ledger has proof that Yngling Half-Troll is corrupt.
-绅士吉姆·史戴西让我把维威克城英灵庄园里的“半巨魔”英灵的账簿带给他。这本账簿上有“半巨魔”英灵腐败的证据。
+绅士吉姆·史戴西让我把维威克城英灵庄园里的英灵·半巨魔的账簿带给他。这本账簿上有英灵·半巨魔腐败的证据。
 
 > INFO.NAME tg_ss_yngling 902192141923723233
 Gentleman Jim Stacey thanked me for bringing him evidence of Yngling Half-Troll's corruption.
-绅士吉姆·史戴西感谢我给他带来了“半巨魔”英灵腐败的证据。
+绅士吉姆·史戴西感谢我给他带来了英灵·半巨魔腐败的证据。
 
 > INFO.NAME tg_ss_yngling 18029216303044414228
 I told Stacey that the ledger was destroyed. He doesn't know that I gave it to Half-Troll myself.
@@ -14238,7 +14238,7 @@ Imperial Cult: Alms from the Skyrim Mission
 
 > INFO.NAME ic8_eiruki 30904302333035115223
 Eiruki Hearth-Healer gave me 40 gold as alms for the poor.
-“炉愈者”艾露基给了我 40 金币作为对穷人的施舍。 {治疗师}
+艾露基·炉愈者给了我 40 金币作为对穷人的施舍。 {治疗师}
 
 > INFO.NAME ms_nuccius 668723089854331815
 Vodunius Nuccius

@@ -4249,7 +4249,7 @@ Diradeni Farano
 
 > NPC_.FNAM Ervis Verano
 Ervis Verano
-埃文斯·维拉诺
+厄维斯·维拉诺
 
 > NPC_.FNAM Evo Othreloth
 Evo Othreloth
@@ -6819,7 +6819,7 @@ Sanaso Sarothran
 
 > NPC_.FNAM Jeanne Andre
 Jeanne Andre
-珍妮·安德烈
+珍妮·安德列
 
 > CLOT.FNAM robe_lich_unique
 Robe of the Lich
@@ -7327,7 +7327,7 @@ Diradeni Farano's Chest
 
 > CONT.FNAM de_r_chest_01_Ervis
 Ervis Verano's Chest
-埃文斯·维拉诺的箱子
+厄维斯·维拉诺的箱子
 
 > NPC_.FNAM ordinator_MH_Sadri
 High Ordinator
@@ -7761,7 +7761,7 @@ Diradeni Farano's Chest
 
 > CONT.FNAM de_r_chest_01_Ervis_V
 Ervis Verano's Chest
-埃文斯·维拉诺的箱子
+厄维斯·维拉诺的箱子
 
 > INFO.NAME a1_6_addhiranirrinformant 6750269661099330498
 Addhiranirr Informant
@@ -8389,7 +8389,7 @@ House Hlaalu: Exterminator
 
 > INFO.NAME hh_theexterminator 2036621708180619508
 Edryno Arethi told me that Yngling Half-Troll raises game rats for the Arena. A competitor has placed diseased rats among Yngling's game rats. I must go to Yngling Manor in the St. Olms Plaza and kill the diseased rats, but spare the prized game rats.
-埃德里诺·阿雷西告诉我，“半巨魔”英灵为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
+埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
 
 > INFO.NAME hh_theexterminator 5794310032282014326
 Edryno Arethi thanked me for killing the diseased rats in Yngling Manor.
@@ -8397,7 +8397,7 @@ Edryno Arethi thanked me for killing the diseased rats in Yngling Manor.
 
 > INFO.NAME hh_theexterminator 24483205232516713567
 I told Edryno Arethi that Yngling Half-Troll is dead.
-我告诉埃德里诺·阿雷西，“半巨魔”英灵已经死了。
+我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。
 
 > INFO.NAME a2_1_meetsulmatuul 6700287971415821869
 Meet Sul-Matuul
@@ -8409,7 +8409,7 @@ Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's se
 
 > INFO.NAME a2_1_meetsulmatuul 16981214271045313693
 Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.
-尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮助我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找《失落的预言》。如果我把《失落的预言》带给她，她将成为我的向导。而她给了我名为“异客”和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。 {帮我}
+尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮助我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找《失落的预言》。如果我把《失落的预言》带给她，她将成为我的向导。而她给了我名为《异客》和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。 {帮我}
 
 > INFO.NAME a1_1_findspymaster 7438123173912264
 Report to Caius Cosades
@@ -10833,7 +10833,7 @@ I returned the firejade amulet to Bevene Releth, and she paid me 25 gold. She ha
 
 > INFO.NAME town_ald_daynes 7442131402220231153
 Daynes Redothril and Ienas Sarandus
-戴涅斯·瑞多瑟尔和伊纳斯·萨兰达斯
+戴尼斯·瑞多瑟尔和伊纳斯·萨兰达斯
 
 > INFO.NAME town_ald_daynes 7164404019185936
 Daynes Redothril the pawnbroker sold two fine matched rings, one with an raw ebony stone, the other with a raw glass stone, to a customer named Ienas Sarandas. But Sarandas has failed to pay the remaining 150 gold owed. If I can find Sarandas, and either get the ebony ring and the glass ring and return them to Redothril, or get the 150 gold Sarandas owes Redothril, the pawnbroker will pay me 50 gold.
@@ -11285,7 +11285,7 @@ Hlaalu Hortator
 
 > INFO.NAME b6_ynglinghort 582296111211724270
 Yngling Half-Troll laughed when I asked him if he would support me for Hortator of House Redoran. He seemed to feel that killing a Hlaalu councilor ruined my chances.
-当我问“半巨魔”英灵是否会支持我竞选瑞多然家族的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。
+当我问英灵·半巨魔是否会支持我竞选瑞多然家族的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。
 
 > INFO.NAME b5_redoranhort 5624194132324312311
 Redoran Hortator
@@ -12585,11 +12585,11 @@ Thieves Guild: Bal Molagmer, Yngling's Ledger
 
 > INFO.NAME tg_ss_yngling 2522624934128846147
 Gentleman Jim Stacey asked me to bring him Yngling Half-Troll's Ledger which is in Yngling Manor in Vivec. This ledger has proof that Yngling Half-Troll is corrupt.
-绅士吉姆·史戴西让我把维威克城英灵庄园里的“半巨魔”英灵的账簿带给他。这本账簿上有“半巨魔”英灵腐败的证据。
+绅士吉姆·史戴西让我把维威克城英灵庄园里的英灵·半巨魔的账簿带给他。这本账簿上有英灵·半巨魔腐败的证据。
 
 > INFO.NAME tg_ss_yngling 902192141923723233
 Gentleman Jim Stacey thanked me for bringing him evidence of Yngling Half-Troll's corruption.
-绅士吉姆·史戴西感谢我给他带来了“半巨魔”英灵腐败的证据。
+绅士吉姆·史戴西感谢我给他带来了英灵·半巨魔腐败的证据。
 
 > INFO.NAME tg_ss_yngling 18029216303044414228
 I told Stacey that the ledger was destroyed. He doesn't know that I gave it to Half-Troll myself.
@@ -15801,7 +15801,7 @@ Imperial Cult: Alms from the Skyrim Mission
 
 > INFO.NAME ic8_eiruki 30904302333035115223
 Eiruki Hearth-Healer gave me 40 gold as alms for the poor.
-“炉愈者”艾露基给了我 40 金币作为对穷人的施舍。 {治疗师}
+艾露基·炉愈者给了我 40 金币作为对穷人的施舍。 {治疗师}
 
 > INFO.NAME ms_nuccius 668723089854331815
 Vodunius Nuccius
@@ -22667,7 +22667,7 @@ About doing quests for factions. If you try to complete every task you're given,
 
 > INFO.NAME little advice 15147129031918618185
 I am sure you can persuade Dram Bero to support you as Hortator... if you can find him. Orvas Dren has Nevena Ules and Velanda Omani in his pocket. You might want to make a little trip to the Dren Plantation before talking to them. And then there's Yngling Half-Troll.
-我相信你能说服德拉姆·贝罗支持你担任统谏使……如果你能找到他的话。内维娜·乌莱斯和维兰达·奥曼尼处于奥瓦斯·德伦的掌握之下，在和他们交谈之前，你可能需要先去德伦种植园转转。还有记得去见一下“半巨魔”英灵。
+我相信你能说服德拉姆·贝罗支持你担任统谏使……如果你能找到他的话。内维娜·乌莱斯和维兰达·奥曼尼处于奥瓦斯·德伦的掌握之下，在和他们交谈之前，你可能需要先去德伦种植园转转。还有记得去见一下英灵·半巨魔。
 
 > INFO.NAME little advice 16369126751670624337
 New here? Take the silt strider to Vivec or Balmora. Fast and cheap. No trouble with wild animals. And smugglers. And bandits. And outlaws. Go see Darvame Hleran over at the strider port, over the bridge and east along the water. And tell her Vodunius Nuccius sent you.
@@ -23143,7 +23143,7 @@ You look like you're looking for something. It might be you'll find it at the Ra
 
 > INFO.NAME little advice 572829185274464241
 If you want weapons or arms in Ald'ruhn, or need weapons and armor repaired, look for Dandera Selaro the Smith in Ald'ruhn-under-Skar. Dandera Selaro serves all comers, and has a quality selection. The other three smiths in Ald'ruhn have faction associations. Ergnir the Nord is the Fighters Guild smith, and Tuveso Beleth is the House Redoran smith at Redoran Council Hall. Yambagorn gro-Shulor is the Legion's smith at Fort Buckmoth. And Daynes Redothril the pawnbroker may also be worth a look.
-如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。扬巴贡·格罗-舒洛是雄蛾要塞的军团铁匠。典当商戴涅斯·瑞多瑟尔也值得一看。 {盔甲维修}
+如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。扬巴贡·格罗-舒洛是雄蛾要塞的军团铁匠。典当商戴尼斯·瑞多瑟尔也值得一看。 {盔甲维修}
 
 > INFO.NAME little advice 2820953291952514426
 While you're here, you have to take a look at the Daedric ruins. Ashalmawia. Very old. Remarkable. Safe to go up there, in the daytime at least. I wouldn't go inside, though. Place is cursed.
@@ -24743,7 +24743,7 @@ I've heard that a ship called the Prelude sank somewhere around Bal Fell. It was
 
 > INFO.NAME latest rumors 20576310631896912755
 Yngling Half-Troll's game rats won at the arena again. When will they learn to stop betting against him?
-“半巨魔”英灵的竞赛鼠又在竞技场获胜了。他们什么时候才能学会不再和他对赌呢？ {老鼠}
+英灵·半巨魔的竞赛鼠又在竞技场获胜了。他们什么时候才能学会不再和他对赌呢？ {老鼠}
 
 > INFO.NAME latest rumors 1756498392973324954
 The Hlaalu and Telvanni have been fighting over Odirniran for years.
@@ -28651,7 +28651,7 @@ Not just yet, %PCRace. I need some time to fix my bots. Come back another time.
 
 > INFO.NAME greeting 1 6864272112827619803
 As you can see, I've finally got the bots up and running. The fight is about to start. Would you like to make a friendly wager on the outcome?
-如你所见，我终于让机器人启动运行了。战斗即将开始。你想下个“友好”的赌注吗？
+如你所见，我终于让机器人启动运行了。战斗即将开始。你想下个友好的赌注吗？
 
 > INFO.NAME greeting 1 15571304281511624287
 Hello there, %PCRace. I imagine you've come to see the battles of the Robot Arena. I'm sorry to inform you that there won't be any more battles for some time, unless you think you can help me repair my bots.

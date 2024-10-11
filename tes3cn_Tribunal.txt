@@ -16950,7 +16950,7 @@ Almsivi 每小时。<BR>
  NPC_.AI_W [00 04 05 00 00 3C 14 0A 0A 00 00 00 0A 01]
 -NPC_
  NPC_.NAME "Ervis Verano$00"
- NPC_.FNAM "埃文斯·维拉诺$00"
+ NPC_.FNAM "厄维斯·维拉诺$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Crusader$00"
  NPC_.ANAM "Royal Guard$00"
@@ -24203,7 +24203,7 @@ Almsivi 每小时。<BR>
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "Jeanne Andre$00"
- NPC_.FNAM "珍妮·安德烈$00"
+ NPC_.FNAM "珍妮·安德列$00"
  NPC_.RNAM "Breton$00"
  NPC_.CNAM "Mage Service$00"
  NPC_.ANAM [00]
@@ -25861,7 +25861,7 @@ Almsivi 每小时。<BR>
 -CONT [00 00 00 00 00 20 00 00]
  CONT.NAME "de_r_chest_01_Ervis$00"
  CONT.MODL "o\Contain_De_Chest_01.NIF$00"
- CONT.FNAM "埃文斯·维拉诺的箱子$00"
+ CONT.FNAM "厄维斯·维拉诺的箱子$00"
  CONT.CNDT [00 00 48 43]
  CONT.FLAG [08 00 00 00]
  CONT.NPCO [04 00 00 00 70 6F 74 69 6F 6E 5F 63 6F 6D 62 65 72 72 79 5F 77 69 6E 65 5F 30 31 00 00 00 00 00 00 00 00 00]
@@ -26542,7 +26542,7 @@ Almsivi 每小时。<BR>
 -CONT
  CONT.NAME "de_r_chest_01_Ervis_V$00"
  CONT.MODL "o\Contain_De_Chest_01.NIF$00"
- CONT.FNAM "埃文斯·维拉诺的箱子$00"
+ CONT.FNAM "厄维斯·维拉诺的箱子$00"
  CONT.CNDT [00 00 48 43]
  CONT.FLAG [08 00 00 00]
  CONT.NPCO [02 00 00 00 72 61 6E 64 6F 6D 5F 65 78 71 75 69 73 69 74 65 5F 64 65 5F 66 63 6C 6F 74 68 65 73 31 00 00 00]
@@ -28063,7 +28063,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM "118261324145532529$00"
  INFO.NNAM "5794310032282014326$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西告诉我，“半巨魔”英灵为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。"
+ INFO.NAME "埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。"
 -INFO
  INFO.INAM "5794310032282014326$00"
  INFO.PNAM "2036621708180619508$00"
@@ -28076,7 +28076,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM "5794310032282014326$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉埃德里诺·阿雷西，“半巨魔”英灵已经死了。"
+ INFO.NAME "我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "A2_1_MeetSulMatuul$00"
@@ -28099,7 +28099,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM "2911713626220353048$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮助我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找《失落的预言》。如果我把《失落的预言》带给她，她将成为我的向导。而她给了我名为“异客”和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。 {帮我}"
+ INFO.NAME "尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮助我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找《失落的预言》。如果我把《失落的预言》带给她，她将成为我的向导。而她给了我名为《异客》和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。 {帮我}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "A1_1_FindSpymaster$00"
@@ -32662,7 +32662,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM [00]
  INFO.NNAM "7164404019185936$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "戴涅斯·瑞多瑟尔和伊纳斯·萨兰达斯"
+ INFO.NAME "戴尼斯·瑞多瑟尔和伊纳斯·萨兰达斯"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "7164404019185936$00"
@@ -33512,7 +33512,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM "7593242682286617065$00"
  INFO.NNAM "14668268232967526133$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "当我问“半巨魔”英灵是否会支持我竞选瑞多然家族的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。"
+ INFO.NAME "当我问英灵·半巨魔是否会支持我竞选瑞多然家族的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。"
 -DIAL
  DIAL.NAME "B5_RedoranHort$00"
  DIAL.DATA [04]
@@ -35967,13 +35967,13 @@ Almsivi 每小时。<BR>
  INFO.PNAM "1089724742548410500$00"
  INFO.NNAM "2069718700882625801$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西让我把维威克城英灵庄园里的“半巨魔”英灵的账簿带给他。这本账簿上有“半巨魔”英灵腐败的证据。"
+ INFO.NAME "绅士吉姆·史戴西让我把维威克城英灵庄园里的英灵·半巨魔的账簿带给他。这本账簿上有英灵·半巨魔腐败的证据。"
 -INFO
  INFO.INAM "902192141923723233$00"
  INFO.PNAM "2069718700882625801$00"
  INFO.NNAM "18029216303044414228$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西感谢我给他带来了“半巨魔”英灵腐败的证据。"
+ INFO.NAME "绅士吉姆·史戴西感谢我给他带来了英灵·半巨魔腐败的证据。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "18029216303044414228$00"
@@ -41900,7 +41900,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM "26668260521278827056$00"
  INFO.NNAM "200212371716210901$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "“炉愈者”艾露基给了我 40 金币作为对穷人的施舍。 {治疗师}"
+ INFO.NAME "艾露基·炉愈者给了我 40 金币作为对穷人的施舍。 {治疗师}"
 -DIAL
  DIAL.NAME "MS_Nuccius$00"
  DIAL.DATA [04]
@@ -55156,7 +55156,7 @@ Player->RemoveItem ingred_scrap_metal_01 10"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Choice ""是的，我会帮你的。"" 1 ""不行，很抱歉，我没时间。"" 2"
 -DIAL
- DIAL.NAME "“友好”的赌注$00"
+ DIAL.NAME "友好的赌注$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "1087028490327310249$00"
@@ -56251,7 +56251,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "16369126751670624337$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "crassius curio$00"
- INFO.NAME "我相信你能说服德拉姆·贝罗支持你担任统谏使……如果你能找到他的话。内维娜·乌莱斯和维兰达·奥曼尼处于奥瓦斯·德伦的掌握之下，在和他们交谈之前，你可能需要先去德伦种植园转转。还有记得去见一下“半巨魔”英灵。"
+ INFO.NAME "我相信你能说服德拉姆·贝罗支持你担任统谏使……如果你能找到他的话。内维娜·乌莱斯和维兰达·奥曼尼处于奥瓦斯·德伦的掌握之下，在和他们交谈之前，你可能需要先去德伦种植园转转。还有记得去见一下英灵·半巨魔。"
  INFO.SCVR "34JX3B6_CurioHort"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "44JX4B6_HlaaluHort"
@@ -57840,7 +57840,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.NNAM "2820953291952514426$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Ald-ruhn$00"
- INFO.NAME "如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。扬巴贡·格罗-舒洛是雄蛾要塞的军团铁匠。典当商戴涅斯·瑞多瑟尔也值得一看。 {盔甲维修}"
+ INFO.NAME "如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。扬巴贡·格罗-舒洛是雄蛾要塞的军团铁匠。典当商戴尼斯·瑞多瑟尔也值得一看。 {盔甲维修}"
  INFO.SCVR "09CX0Guard"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -62283,7 +62283,7 @@ Journal town_Vivec 5"
  INFO.NNAM "1756498392973324954$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "morusu varen$00"
- INFO.NAME "“半巨魔”英灵的竞赛鼠又在竞技场获胜了。他们什么时候才能学会不再和他对赌呢？ {老鼠}"
+ INFO.NAME "英灵·半巨魔的竞赛鼠又在竞技场获胜了。他们什么时候才能学会不再和他对赌呢？ {老鼠}"
  INFO.SCVR "06DX0yngling half-troll"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -71769,7 +71769,7 @@ Goodbye"
  INFO.NNAM "15571304281511624287$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ignatius_flaccus$00"
- INFO.NAME "如你所见，我终于让机器人启动运行了。战斗即将开始。你想下个“友好”的赌注吗？"
+ INFO.NAME "如你所见，我终于让机器人启动运行了。战斗即将开始。你想下个友好的赌注吗？"
  INFO.SCVR "04JX0MS_BattleBots1"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "13sX0BotFix"
