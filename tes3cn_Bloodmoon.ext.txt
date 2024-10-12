@@ -478,7 +478,7 @@ Wait for me!
 
 > SCPT.SCTX MockChangeScript m1
 RETURNING BC PLAYER ISN'T A WEREWOLF
-返回BC的玩家不是狼人
+返回 BC 的玩家不是狼人
 
 > SCPT.SCTX MockChangeScript m2
 MAKEWOLF IS 2 NOW.
@@ -4595,7 +4595,7 @@ In Witness Whereof the Company has caused this certificate to be executed by the
 Signed<BR>
 <BR>
 C. Magius<BR>"""
-"""兹证明%PCNAME 为所有人<BR>
+"""兹证明 %PCNAME 为所有人<BR>
 <BR>
 一百<BR>
 <BR>
@@ -5244,7 +5244,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 %PCName，乌迪福瑞克杀手的到来：<br>
 <br>
-百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上乌迪福瑞克的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。乌迪福瑞克曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，乌迪福瑞克再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。乌迪福瑞克最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题--他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，他来了，他是索瑟海姆土地上的陌生人，也是瑟斯克诺德人的救星。他是%PCRace%PCName，他做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进乌迪福瑞克的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的%PCName将乌迪福瑞克的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为%PCName的%PCRace被任命为蜜酒大厅的新酋长，并被他的人民尊为领袖和勇士。
+百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上乌迪福瑞克的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。乌迪福瑞克曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，乌迪福瑞克再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。乌迪福瑞克最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题--他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，他来了，他是索瑟海姆土地上的陌生人，也是瑟斯克诺德人的救星。他是 %PCRace %PCName，他做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进乌迪福瑞克的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的 %PCName 将乌迪福瑞克的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为 %PCName 的 %PCRace 被任命为蜜酒大厅的新酋长，并被他的人民尊为领袖和勇士。
 <br>
 以下是瑟斯克的酋长名单，霍斯蒙德为首任酋长：<br>
 <br>
@@ -5279,7 +5279,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 司寇德·狼奔，诺德男性。杀死法师黄色葛斯，将其头颅作为奖杯示众。统领瑟斯克三年。在蜜酒大厅遭弑。<br>
 <br>
-%PCName，%PCRace男性。杀死了乌迪福瑞克并将其心脏作为奖杯示众。在撰写本作品时仍是酋长。
+%PCName，%PCRace 男性。杀死了乌迪福瑞克并将其心脏作为奖杯示众。在撰写本作品时仍是酋长。
 <br>
 扩张：<br>
 <br>
@@ -5394,7 +5394,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 %PCName，乌迪福瑞克杀手的到来：<br>
 <br>
-百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上乌迪福瑞克的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。乌迪福瑞克曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，乌迪福瑞克再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。乌迪福瑞克最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题--他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，她来了，她是索瑟海姆土地上的陌生人，也是瑟斯克诺德人的救星。她是%PCRace%PCName，她做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进乌迪福瑞克的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的%PCName将乌迪福瑞克的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为%PCName的%PCRace被任命为蜜酒大厅的新酋长，并被她的人民尊为领袖和勇士。
+百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上乌迪福瑞克的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。乌迪福瑞克曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，乌迪福瑞克再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。乌迪福瑞克最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题--他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，她来了，她是索瑟海姆土地上的陌生人，也是瑟斯克诺德人的救星。她是 %PCRace %PCName，她做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进乌迪福瑞克的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的 %PCName 将乌迪福瑞克的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为 %PCName 的 %PCRace 被任命为蜜酒大厅的新酋长，并被她的人民尊为领袖和勇士。
 <br>
 以下是瑟斯克的酋长名单，霍斯蒙德为首任酋长：<br>
 <br>
@@ -5429,7 +5429,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 司寇德·狼奔，诺德男性。杀死法师黄色葛斯，将其头颅作为奖杯示众。统领瑟斯克三年。在蜜酒大厅遭弑。<br>
 <br>
-%PCName，%PCRace女性。杀死了乌迪福瑞克并将其心脏作为奖杯示众。在撰写本作品时仍是酋长。
+%PCName，%PCRace 女性。杀死了乌迪福瑞克并将其心脏作为奖杯示众。在撰写本作品时仍是酋长。
 <br>
 扩张：<br>
 <br>
@@ -7290,11 +7290,11 @@ Thieves Guild: Ra'Zhid's Dwemer Artifacts
 
 > INFO.NAME tg_overduepayments 2789251134413470
 Sugar-Lips Habasi told me that Ra'Zhid at Fatleg's Drop Off in Hla Oad promised to deliver some Dwemer artifacts to the Thieves Guild. Habasi asked me to bring her a Dwemer tube, Dwemer goblet, and Dwemer bowl.
-蜜-唇·哈巴西告诉我，哈拉-奥德肥腿落客的拉'兹德答应将一些锻莫文物交给盗贼公会。哈巴西让我给她带一个锻莫钢管、锻莫的高脚杯和锻莫碗。
+蜜唇·哈巴西告诉我，哈拉-奥德肥腿落客的拉'兹德答应将一些锻莫文物交给盗贼公会。哈巴西让我给她带一个锻莫钢管、锻莫的高脚杯和锻莫碗。
 
 > INFO.NAME tg_overduepayments 1459715713764825773
 Sugar-Lips Habasi thanked me for bringing her Ra'Zhid's dwemer artifacts.
-蜜-唇·哈巴西感谢我把拉'兹德的锻莫文物带给她。
+蜜唇·哈巴西感谢我把拉'兹德的锻莫文物带给她。
 
 > INFO.NAME tg_balmoradefenses 1950521169921429488
 Thieves Guild: Master of Security
@@ -7302,15 +7302,15 @@ Thieves Guild: Master of Security
 
 > INFO.NAME tg_balmoradefenses 692953783052416942
 Sugar-Lips Habasi has a job for me that involves the South Wall and a master of security.
-蜜-唇·哈巴西给我安排了一项工作，涉及南墙俱乐部和那里的一位开锁大师。
+蜜唇·哈巴西给我安排了一项工作，涉及南墙俱乐部和那里的一位开锁大师。
 
 > INFO.NAME tg_balmoradefenses 18611219941033930549
 Sugar-Lips Habasi thanked me for convincing Hecerinde to help secure the South Wall.
-蜜-唇·哈巴西感谢我说服海瑟琳德帮助保护南墙。
+蜜唇·哈巴西感谢我说服海瑟琳德帮助保护南墙。
 
 > INFO.NAME tg_balmoradefenses 23662160202358619713
 Sugar-Lips Habasi was very upset that Hecerendi was dead. Habasi has no further jobs for me.
-蜜-唇·哈巴西对海瑟琳德的死非常难过。哈巴西没有其他工作给我了。 {一些工作}
+蜜唇·哈巴西对海瑟琳德的死非常难过。哈巴西没有其他工作给我了。 {一些工作}
 
 > INFO.NAME tg_aldruhndefenses 5355144912284716178
 Thieves Guild: Retrieve the Scrap Metal
@@ -7374,11 +7374,11 @@ Fighters Guild: The Telvanni Agents
 
 > INFO.NAME fg_telvanni_agents 17515323232615912540
 I'm to find and kill four Telvanni agents responsible for thefts and disappearances at the Caldera Mine. Their names are Alynu Aralen, Sathasa Nerothren, Fothyna Herothran, and Alveleg. They're hiding in a cave in the hills north of Caldera Mine, and they probably have a lookout posted outside the mine. When the four agents are dead, report back to Eydis Fire-Eye.
-我要找到并杀死四名可能要对卡尔德拉矿场盗窃与失踪案负责的泰瓦尼特工。他们的名字分别是阿莉努·雅拉伦、萨塔莎·内洛瑟伦、福西那·赫罗珊和奥夫雷格。他们藏在卡尔德拉矿场北面山上的一个山洞里，矿场外可能有他们派驻的瞭望哨。四名特工死后，向艾迪斯·火-眼报告。
+我要找到并杀死四名可能要对卡尔德拉矿场盗窃与失踪案负责的泰瓦尼特工。他们的名字分别是阿莉努·雅拉伦、萨塔莎·内洛瑟伦、福西那·赫罗珊和奥夫雷格。他们藏在卡尔德拉矿场北面山上的一个山洞里，矿场外可能有他们派驻的瞭望哨。四名特工死后，向艾迪斯·火眼报告。
 
 > INFO.NAME fg_telvanni_agents 155481611395326231
 I reported killing the Telvanni agents, and Eydis Fire-Eye paid me 400 gold.
-我报告杀死了泰瓦尼特工，艾迪斯·火-眼付给我 400 金币。
+我报告杀死了泰瓦尼特工，艾迪斯·火眼付给我 400 金币。
 
 > INFO.NAME a2_3_corpruskiller 1461740651193823544
 Corprus Cure
@@ -8074,11 +8074,11 @@ Fighters Guild: Kill Hard-Heart
 
 > INFO.NAME fg_killhardheart 1026718551382829414
 Percius Mercius said that in order to free the Fighters Guild from corruption, I must kill the guildmaster, Sjoring Hard-Heart.
-珀西乌斯·默西乌斯说，为了让战士公会摆脱腐败，我必须杀死公会会长舒灵·铁-心。
+珀西乌斯·默西乌斯说，为了让战士公会摆脱腐败，我必须杀死公会会长舒灵·铁心。
 
 > INFO.NAME fg_killhardheart 1389816403228121303
 Percius Mercius thanked me for killing Sjoring Hard-Heart. He promoted me to Master of the Fighters Guild.
-珀西乌斯·默西乌斯感谢我杀死了舒灵·铁-心。他举荐我为战士公会领袖。
+珀西乌斯·默西乌斯感谢我杀死了舒灵·铁心。他举荐我为战士公会领袖。
 
 > INFO.NAME fg_khajiitbounty 1069414357181767346
 Fighters Guild: Dro'Sakhar's Bounty
@@ -8278,11 +8278,11 @@ Thieves Guild: Kill Hard-Heart
 
 > INFO.NAME tg_killhardheart 1874510715277563536
 Gentleman Jim Stacey asked me to kill Sjoring Hard-Heart, the Master of the Fighters Guild in Vivec.
-绅士吉姆·史戴西让我杀死维威克的战士公会会长舒灵·铁-心。
+绅士吉姆·史戴西让我杀死维威克的战士公会会长舒灵·铁心。
 
 > INFO.NAME tg_killhardheart 16943170021506831186
 Gentleman Jim Stacey thanked me for killing Sjoring Hard-Heart and gave me the Skeleton Key, a priceless artifact.
-绅士吉姆·史戴西感谢我杀死了舒灵·铁-心，并将无价之宝骷髅钥匙交给了我。
+绅士吉姆·史戴西感谢我杀死了舒灵·铁心，并将无价之宝骷髅钥匙交给了我。
 
 > INFO.NAME tg_vintagebrandy 1431296623012018678
 Thieves Guild: The Vintage Brandy
@@ -8294,7 +8294,7 @@ Sugar-Lips tells me that Ralen Hlaalo is dead, but has left behind some vintage 
 
 > INFO.NAME tg_vintagebrandy 116312613280603251
 I brought a bottle of vintage brandy to Sugar-Lips Habasi.
-我拿了一瓶佳酿白兰地给蜜-唇·哈巴西。
+我拿了一瓶佳酿白兰地给蜜唇·哈巴西。
 
 > INFO.NAME tg_brotherbragor 2357326271635232516
 Thieves Guild: Free New-Shoes Bragor
@@ -8302,15 +8302,15 @@ Thieves Guild: Free New-Shoes Bragor
 
 > INFO.NAME tg_brotherbragor 273315646829231659
 Sugar-Lips Habasi told me that New-Shoes Bragor was caught by the guards in Pelagiad and is being held in Fort Pelagiad. Habasi heard that Mebestien Ence is secretly smuggling Dwemer materials and that Shadbak gra-Burbug, a guard in Fort Pelagiad, has been taking bribes to overlook the smuggling. I should steal a Dwemer artifact from Mebestien Ence, show it to Shadbak gra-Burbug, and demand that New-Shoes Bragor be released.
-蜜-唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯提安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯提安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
+蜜唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯提安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯提安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
 
 > INFO.NAME tg_brotherbragor 2923874592014914267
 Sugar-Lips Habasi thanked me for getting New-Shoes Bragor released.
-蜜-唇·哈巴西感谢我释放了新鞋·巴戈。
+蜜唇·哈巴西感谢我释放了新鞋·巴戈。
 
 > INFO.NAME tg_brotherbragor 1341478462845320377
 Sugar-Lips Habasi wasn't happy that the person who was to help us free our brother Bragor is dead. He will have to stay in his cell.
-蜜-唇·哈巴西并不高兴，因为要帮我们释放巴戈兄弟的人死了。他也只能待在牢房里了。
+蜜唇·哈巴西并不高兴，因为要帮我们释放巴戈兄弟的人死了。他也只能待在牢房里了。
 
 > INFO.NAME tg_lootaldruhnmg 19927310802677319532
 Thieves Guild: Loot the Mages Guild
@@ -9170,15 +9170,15 @@ Imperial Legion: Rescue Jocien Ancois
 
 > INFO.NAME il_rescuehermit 29884295861985120516
 Radd Hard-Heart asked me to rescue Jocien Ancois, who is trying to teach the Ashlanders of Imperial culture and virtue. He was taken from the Erabenimsun camp by outcast Ashlanders, I should start there.
-拉德·铁-心让我去营救乔西安·安科伊斯，他正试图向灰烬之民传授帝国文化和美德。他是被被遗弃的灰烬之民从埃勒比尼姆孙营地带走的，我应该从那里开始。 {帝国人,帝国教团}
+拉德·铁心让我去营救乔西安·安科伊斯，他正试图向灰烬之民传授帝国文化和美德。他是被被遗弃的灰烬之民从埃勒比尼姆孙营地带走的，我应该从那里开始。 {帝国人,帝国教团}
 
 > INFO.NAME il_rescuehermit 2221221782340211822
 Radd Hard-Heart thanked me for rescuing Jocien Ancois.
-拉德·铁-心感谢我救了乔西安·安科伊斯。
+拉德·铁心感谢我救了乔西安·安科伊斯。
 
 > INFO.NAME il_rescuehermit 15682223891703717152
 I told Radd Hard-Heart that Jocien Ancois is dead.
-我告诉拉德·铁-心，乔西安·安科伊斯已经死了。
+我告诉拉德·铁心，乔西安·安科伊斯已经死了。
 
 > INFO.NAME il_traitorcoven 1531924868963018893
 Imperial Legion: Kill Tonasi Belas
@@ -9282,7 +9282,7 @@ Sevilo Othan and Daynila Valas, former egg miners and local troublemakers, are p
 
 > INFO.NAME fg_egg_poachers 2497615257663532622
 I reported taking care of the egg poachers at Shulk Egg mine, and Eydis Fire-Eye paid me 100 gold, and gave me some extra potions.
-我报告在舒尔克卵矿场解决了卵矿偷猎者，艾迪斯·火-眼付了我 100 金币，还给了我一些额外的药水。 {这些药水}
+我报告在舒尔克卵矿场解决了卵矿偷猎者，艾迪斯·火眼付了我 100 金币，还给了我一些额外的药水。 {这些药水}
 
 > INFO.NAME mg_stolenreport 194194279714918376
 Mages Guild: Stolen Reports
@@ -9566,11 +9566,11 @@ Fighters Guild: Remove Sjoring's Supporters
 
 > INFO.NAME fg_killcronies 1447023869487219160
 Percius Mercius asked me to kill one of Sjoring Hard-Heart's supporters, Eydis Fire-Eye, the guild steward in Balmora.
-珀西乌斯·默西乌斯要我杀死舒灵·铁-心的支持者之一，巴尔莫拉的公会管家艾迪斯·火-眼。
+珀西乌斯·默西乌斯要我杀死舒灵·铁心的支持者之一，巴尔莫拉的公会管家艾迪斯·火眼。
 
 > INFO.NAME fg_killcronies 9500199841045310204
 Percius thanked me for killing Sjoring Hard-Heart's supporters.
-珀西乌斯感谢我杀死了舒灵·铁-心的支持者。
+珀西乌斯感谢我杀死了舒灵·铁心的支持者。
 
 > INFO.NAME fg_tenimbounty 281406267275348534
 Fighters Guild: Tenim's Bounty
@@ -9590,11 +9590,11 @@ Fighters Guild: The Verethi Gang
 
 > INFO.NAME fg_verethigang 3211954743028115006
 Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Verethi Gang. They are based in Mannammu just southeast of Pelagiad.
-艾迪斯·火-眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
+艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
 
 > INFO.NAME fg_verethigang 14760934222272524
 Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
-艾迪斯·火-眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {事}
+艾迪斯·火眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {事}
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
@@ -9602,11 +9602,11 @@ Fighters Guild: Hunger in the Sarano Tomb
 
 > INFO.NAME fg_hungerloose 31539249493084511613
 Eydis Fire-Eye told me a Hunger is loose in the Sarano Tomb which is over the hills southeast of the Fort Moonmoth between the Ashlands and Lake Amaya. I am ordered to travel to the tomb and kill the Hunger.
-艾迪斯·火-眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
+艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
 
 > INFO.NAME fg_hungerloose 1625028503916121756
 Eydis Fire-Eye thanked me for slaying the Hunger and paid me 1000 gold.
-艾迪斯·火-眼感谢我杀死饥饿魔，并付给我 1000 金币。
+艾迪斯·火眼感谢我杀死饥饿魔，并付给我 1000 金币。
 
 > INFO.NAME hr_finddalobar 182912969464921300
 House Redoran: Find Mathis Dalobar
@@ -10098,19 +10098,19 @@ Thieves Guild: The Bitter Cup
 
 > INFO.NAME tg_bitterbribe 21537241631515932179
 Gentleman Jim Stacey asked me to get the Bitter Cup, an artifact sacred to Clavicus Vile, and deliver it to Eydis Fire-Eye. The Bitter Cup was lost in the ruins of Ald Redaynia.
-绅士吉姆·史戴西让我去拿苦痛之杯，那是卡拉威库斯·维尔的圣物，并把它交给艾迪斯·火-眼。苦杯遗失在奥德-瑞达尼亚的废墟中。 {神圣}
+绅士吉姆·史戴西让我去拿苦痛之杯，那是卡拉威库斯·维尔的圣物，并把它交给艾迪斯·火眼。苦杯遗失在奥德-瑞达尼亚的废墟中。 {神圣}
 
 > INFO.NAME tg_bitterbribe 1126523109165686622
 Gentleman Jim Stacey thanked me for delivering the Bitter Cup to Eydis Fire-Eye.
-绅士吉姆·史戴西感谢我把苦痛之杯交给艾迪斯·火-眼。
+绅士吉姆·史戴西感谢我把苦痛之杯交给艾迪斯·火眼。
 
 > INFO.NAME tg_bitterbribe 48059030259843959
 Gentleman Jim Stacey was displeased that I botched the bribery of Eydis Fire-Eye. But he said he might have done the same himself, given the circumstances.
-绅士吉姆·史戴西对我搞砸了贿赂艾迪斯·火-眼的事很不满。但他说，在当时的情况下，他自己可能也会这么做。
+绅士吉姆·史戴西对我搞砸了贿赂艾迪斯·火眼的事很不满。但他说，在当时的情况下，他自己可能也会这么做。
 
 > INFO.NAME tg_bitterbribe 2638020496619114883
 Since Eydis Fire-Eye is dead, there is little we can do to bribe her.
-既然艾迪斯·火-眼已经死了，我们也没什么办法贿赂她了。
+既然艾迪斯·火眼已经死了，我们也没什么办法贿赂她了。
 
 > INFO.NAME tg_withershins 2433229093244802907
 Thieves Guild: Withershins
@@ -10130,23 +10130,23 @@ Lead the Pilgrim to Koal Cave
 
 > INFO.NAME mv_poorpilgrim 69115369207368460
 While traveling in the area west of Maar Gan, I met a pilgrim named Fonus Rathryon. He wishes to travel to Koal Cave, on a pilgrimage, and must be there within two days.
-在玛尔-甘以西地区旅行时，我遇到了一位名叫佛努斯·拉斯昂的朝圣者。他希望前往考尔洞穴朝圣，必须在两天内到达。
+在玛尔-甘以西地区旅行时，我遇到了一位名叫佛努斯·拉特里恩的朝圣者。他希望前往考尔洞穴朝圣，必须在两天内到达。
 
 > INFO.NAME mv_poorpilgrim 1993524061069228181
 I've declined to escort Fonus Rathryon on his pilgrimage. I've better things to do than babysit some religious fanatic.
-我拒绝护送佛努斯·拉斯昂朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。 {保镖}
+我拒绝护送佛努斯·拉特里恩朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。 {保镖}
 
 > INFO.NAME mv_poorpilgrim 31325186232731615438
 I escorted Fonus Rathryon to Koal Cave, and he paid me the 150 septims that he promised.
-我护送佛努斯·拉斯昂来到考尔洞穴，他也按照约定付给了我 150 赛普汀。 {保镖}
+我护送佛努斯·拉特里恩来到考尔洞穴，他也按照约定付给了我 150 赛普汀。 {保镖}
 
 > INFO.NAME mv_poorpilgrim 142657888173011253
 I was unable to get Fonus Rathryon to Koal Cave within the time specified, and he has decided to find another guide. Oh, well. Best of luck to him. He was wearing on my nerves anyway.
-我没能在规定时间内把佛努斯·拉斯昂送到考尔洞穴，他决定另找向导。哦，好吧。祝他好运。反正我也快被他烦死了。 {幸运}
+我没能在规定时间内把佛努斯·拉特里恩送到考尔洞穴，他决定另找向导。哦，好吧。祝他好运。反正我也快被他烦死了。 {幸运}
 
 > INFO.NAME mv_poorpilgrim 278894661430531345
 While escorting Fonus Rathryon to Koal Cave, he came to an untimely end. There's no more I can do for him now.
-在护送佛努斯·拉斯昂前往考尔洞穴时，他英年早逝了。现在我已经无能为力了。 {保镖}
+在护送佛努斯·拉特里恩前往考尔洞穴时，他英年早逝了。现在我已经无能为力了。 {保镖}
 
 > INFO.NAME mv_richpilgrim 20893109723221243
 Viatrix, The Annoying Pilgrim
@@ -10238,11 +10238,11 @@ Imperial Legion: Sorkvild the Raven
 
 > INFO.NAME il_necromancer 11296128601800517703
 Sorkvild the Raven is a Necromancer who lives in the Dwemer ruins near Dagon Fel. The Dunmer despise Necromancy, and all who practice it. Radd Hard-Heart wants the Necromancer dead before he ruins the reputation of other Imperial citizens.
-“渡鸦”索克维尔德是一位亡灵法师，居住在大衮-费尔附近的锻莫废墟中。丹莫鄙视亡灵巫师，以及所有施展死灵法术的人。拉德·铁-心希望这个亡灵巫师在败坏其他帝国人的名声之前死掉。 {锻莫族}
+“渡鸦”索克维尔德是一位亡灵法师，居住在大衮-费尔附近的锻莫废墟中。丹莫鄙视亡灵巫师，以及所有施展死灵法术的人。拉德·铁心希望这个亡灵巫师在败坏其他帝国人的名声之前死掉。 {锻莫族}
 
 > INFO.NAME il_necromancer 30271823374747835
 Radd Hard-Heart thanked me for killing Sorkvild the Raven.
-拉德·铁-心感谢我杀死了“渡鸦”索克维尔德。
+拉德·铁心感谢我杀死了“渡鸦”索克维尔德。
 
 > INFO.NAME il_maidentoken 21129058181178883
 Imperial Legion: Maiden's Token
@@ -10770,7 +10770,7 @@ Fighters Guild: Remove the Heads of the Thieves Guild
 
 > INFO.NAME fg_killbosses 220066726164827524
 Sjoring Hard-Heart told me to kill the Thieves Guild bosses. I must kill Habasi at the South Wall in Balmora, Aengoth at the Rat in the Pot n Ald'ruhn, and Helende at Dirty Muriel's in Sadrith Mora.
-舒灵·铁-心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
+舒灵·铁心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
 
 > INFO.NAME fg_killbosses 1609298892679027328
 I killed the three local Thieves Guild bosses.
@@ -10794,11 +10794,11 @@ Fighters Guild: Desele's Debt
 
 > INFO.NAME fg_deseledebt 1590641161166229824
 Eydis Fire-Eye told me that Helviane Desele in Suran owes Manos Othreleth 200 gold. I must get this debt money from Desele and return it to Eydis Fire-Eye.
-艾迪斯·火-眼告诉我，苏兰的赫薇娅妮·德塞尔欠马诺斯·奥特雷莱斯 200 金币。我必须从德塞勒那里拿到这笔欠款，然后还给艾迪斯·火-眼。
+艾迪斯·火眼告诉我，苏兰的赫薇娅妮·德塞尔欠马诺斯·奥特雷莱斯 200 金币。我必须从德塞勒那里拿到这笔欠款，然后还给艾迪斯·火眼。
 
 > INFO.NAME fg_deseledebt 18942162913232826833
 Eydis Fire-Eye gave me my share of the debt money.
-艾迪斯·火-眼把我那份欠款给了我。
+艾迪斯·火眼把我那份欠款给了我。
 
 > INFO.NAME fg_debtstoine 1680320651538731266
 Fighter's Guild: Lirielle's Debt
@@ -11342,11 +11342,11 @@ Imperial Legion: Scrap Metal
 
 > INFO.NAME il_scrapmetal 3138876971996120364
 The Buoyant Armigers have challenged the Imperial Legion to a hunt. They claim they will bring in the skin of a corprus beast. Radd Hard-Heart wants me to bring in the scrap metal from a Dwemer Centurion.
-灵动扈从向帝国军团提出狩猎挑战。他们声称会带来尸化怪物的皮。拉德·铁-心要我带来锻一些莫百夫长的金属废料。 {帝国人,锻莫}
+灵动扈从向帝国军团提出狩猎挑战。他们声称会带来尸化怪物的皮。拉德·铁心要我带来锻一些莫百夫长的金属废料。 {帝国人,锻莫}
 
 > INFO.NAME il_scrapmetal 353319071964212723
 I brought Radd Hard-Heart the scrap metal from a Dwemer Centurion. With this the Imperial Legion is sure to win the hunt with the Buoyant Armigers.
-我给拉德·铁-心带来了锻莫百夫长的金属废料。有了它，帝国军团就一定能在与灵动扈从的狩猎中获胜。 {帝国人}
+我给拉德·铁心带来了锻莫百夫长的金属废料。有了它，帝国军团就一定能在与灵动扈从的狩猎中获胜。 {帝国人}
 
 > INFO.NAME il_giantnetch 248287042117885333
 Imperial Legion: Breeding Netch
@@ -11354,11 +11354,11 @@ Imperial Legion: Breeding Netch
 
 > INFO.NAME il_giantnetch 107712064739908509
 Radd Hard-Heart told me that Giant Netch are threatening the village of Gnaar Mok. I must go there and kill the pair of breeding netch.
-拉德·铁-心告诉我，巨型气母正在威胁纳尔-莫克村。我必须去那里杀死那对正在繁殖期的气母。
+拉德·铁心告诉我，巨型气母正在威胁纳尔-莫克村。我必须去那里杀死那对正在繁殖期的气母。
 
 > INFO.NAME il_giantnetch 2501712083734223262
 Radd Hard-Heart thanked me for killing the breeding netch near Gnaar Mok.
-拉德·铁-心感谢我在纳尔-莫克附近杀死了繁殖期的气母。
+拉德·铁心感谢我在纳尔-莫克附近杀死了繁殖期的气母。
 
 > INFO.NAME mv_deadtaxman 266172346970032117
 Death of a Taxman
@@ -11830,11 +11830,11 @@ Fighters Guild: Kill the Master Thief
 
 > INFO.NAME fg_bigbosses 24879245252386425050
 Sjoring Hard-Heart asked me to kill the Master Thief, Gentleman Jim Stacey. He can be found in Simine Fralinie's bookstore in Vivec.
-舒灵·铁-心让我去杀神偷绅士吉姆·史戴西。他可以在维威克城的西蒙尼·法兰琳涅书店找到。
+舒灵·铁心让我去杀神偷绅士吉姆·史戴西。他可以在维威克城的西蒙尼·法兰琳涅书店找到。
 
 > INFO.NAME fg_bigbosses 108025782428019482
 I told Sjoring Hard-Heart about killing the Master Thief. When he got the news, he attacked me, saying I was a threat to his position.
-我把杀死神偷的事告诉了舒灵·铁-心。他得知消息后攻击我，说我威胁到了他的地位。
+我把杀死神偷的事告诉了舒灵·铁心。他得知消息后攻击我，说我威胁到了他的地位。
 
 > INFO.NAME fg_bigbosses 1812813558178515839
 I told Sjoring the truth: That I am the new Master Thief of Vvardenfell. Upon hearing the news, he attacked me.
@@ -11862,11 +11862,11 @@ Fighters Guild: Gra-Bol's Bounty
 
 > INFO.NAME fg_orcbounty 65271633229816656
 Eydis Fire-Eye told me she has a 250 gold bounty on the Orc Dura gra-Bol who lives in Balmora.
-艾迪斯·火-眼告诉我，住在巴尔莫拉的兽人杜拉·格拉-波尔的人头有 250 悬赏金。
+艾迪斯·火眼告诉我，住在巴尔莫拉的兽人杜拉·格拉-波尔的人头有 250 悬赏金。
 
 > INFO.NAME fg_orcbounty 1935516433253969429
 Eydis Fire-Eye paid me 250 gold for the contract on Dura gra-Bol.
-艾迪斯·火-眼付了我 250 金币作为讨伐杜拉·格拉-波尔的合同金。
+艾迪斯·火眼付了我 250 金币作为讨伐杜拉·格拉-波尔的合同金。
 
 > INFO.NAME fg_alofsfarm 1009099651390419173
 Fighters Guild: Alof and the Orcs
@@ -11874,11 +11874,11 @@ Fighters Guild: Alof and the Orcs
 
 > INFO.NAME fg_alofsfarm 33331678365682641
 Eydis Fire-Eye told me to talk to Alof the Easterner at his farm northeast of Pelagiad and just north of the Arvel Plantation. Alof saw some Orcs at a Daedric ruin nearby.
-艾迪斯·火-眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
+艾迪斯·火眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
 
 > INFO.NAME fg_alofsfarm 289519483102661641
 Eydis Fire-Eye gave me 500 gold for the Duke's contract.
-艾迪斯·火-眼给了我 500 金币作为公爵合同的报酬。
+艾迪斯·火眼给了我 500 金币作为公爵合同的报酬。
 
 > INFO.NAME hr_redastomb 45864638426932607
 House Redoran: Redas Tomb
@@ -13130,11 +13130,11 @@ Fighters Guild: The Code Book
 
 > INFO.NAME fg_sottilde 619869663147726409
 Eydis Fire-Eye asked me to get a code book from Sottilde at the South Wall in Balmora.
-艾迪斯·火-眼让我去巴尔莫拉的南墙索提尔德那里拿一本暗号本。
+艾迪斯·火眼让我去巴尔莫拉的南墙索提尔德那里拿一本暗号本。
 
 > INFO.NAME fg_sottilde 10105187551703219789
 Eydis Fire-Eye thanked me for returning the code book and paid me 50 gold.
-艾迪斯·火-眼感谢我拿到了暗号本，并付给我 50 金币。
+艾迪斯·火眼感谢我拿到了暗号本，并付给我 50 金币。
 
 > INFO.NAME hr_koalcave 13987101732953711215
 House Redoran: Escort to Koal Cave
@@ -13314,11 +13314,11 @@ Thieves Guild: Diamonds for Habasi
 
 > INFO.NAME tg_diamonds 30379260912760523618
 Sugar-Lips Habasi asked me to bring her a diamond. She believes that Nalcarya of White Haven here in Balmora has diamonds, but any diamond will do.
-蜜-唇·哈巴西让我带给她一颗钻石。她认为巴尔莫拉白港的娜尔卡娅有钻石，但任何钻石都可以。
+蜜唇·哈巴西让我带给她一颗钻石。她认为巴尔莫拉白港的娜尔卡娅有钻石，但任何钻石都可以。
 
 > INFO.NAME tg_diamonds 268668757283516934
 I delivered a diamond to Sugar-Lips Habasi.
-我给蜜-唇·哈巴西送去了一颗钻石。
+我给蜜唇·哈巴西送去了一颗钻石。
 
 > INFO.NAME tg_manorkey 9199126681191721506
 Thieves Guild: Nerano Manor Key
@@ -13326,11 +13326,11 @@ Thieves Guild: Nerano Manor Key
 
 > INFO.NAME tg_manorkey 17505238341143927662
 Sugar-Lips Habasi asked me to bring her the key to the top floor of the Nerano Manor here in Balmora. Ondres Nerano certainly has a key, but it may be easier to get the key from one of his servants, such as Sovor Trandel at the Balmora Council Club.
-蜜-唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会所的索沃·特兰德尔。 {棍棒}
+蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会所的索沃·特兰德尔。 {棍棒}
 
 > INFO.NAME tg_manorkey 6777178031803221051
 Sugar-Lips Habasi thanked me for bringing her the key to Nerano Manor.
-蜜-唇·哈巴西感谢我带给她内拉诺府邸的钥匙。
+蜜唇·哈巴西感谢我带给她内拉诺府邸的钥匙。
 
 > INFO.NAME il_courtesy 1650670122645023757
 Imperial Legion: Courtesy
@@ -13978,15 +13978,15 @@ Fighters Guild: Exterminator
 
 > INFO.NAME fg_rathunt 68311573612315980
 Eydis Fire-Eye told me to talk to Drarayne Thelas about some rats that have infested her house. Her house is here in Balmora, on the east side of town, near the river.
-艾迪斯·火-眼让我去找德拉蕾妮·西拉斯谈谈她家老鼠出没的事。她家就在巴尔莫拉，在镇子的东边，靠近河边。
+艾迪斯·火眼让我去找德拉蕾妮·西拉斯谈谈她家老鼠出没的事。她家就在巴尔莫拉，在镇子的东边，靠近河边。
 
 > INFO.NAME fg_rathunt 309741434027016795
 I reported to Eydis Fire-Eye that I had killed the rats plaguing Drarayne Thelas.
-我向艾迪斯·火-眼报告说，我已经杀死了困扰德拉蕾妮·西拉斯的老鼠。
+我向艾迪斯·火眼报告说，我已经杀死了困扰德拉蕾妮·西拉斯的老鼠。
 
 > INFO.NAME fg_rathunt 22394294079377608
 Eydis Fire-Eye realized that Drarayne Thelas was dead, and her rat problem was no longer an issue.
-艾迪斯·火-眼意识到德拉蕾妮·西拉斯已经死了，她的老鼠问题也不再是问题了。
+艾迪斯·火眼意识到德拉蕾妮·西拉斯已经死了，她的老鼠问题也不再是问题了。
 
 > INFO.NAME fg_debtorc 3013718702256772531
 Fighters Guild: Juicedaw Ring
@@ -14626,11 +14626,11 @@ Radd Heart-Hart asked me to rescue Dandsa, an Imperial citizen, who was captured
 
 > INFO.NAME il_damsel 735628859178898991
 Radd Hard-Heart thanked me for rescuing Dandsa.
-拉德·铁-心感谢我救了丹莎。
+拉德·铁心感谢我救了丹莎。
 
 > INFO.NAME il_damsel 207353063794506633
 I told Radd Hard-Heart that Dandsa is dead.
-我告诉拉德·铁-心，丹莎已经死了。
+我告诉拉德·铁心，丹莎已经死了。
 
 > INFO.NAME a1_dreams 8888287693085825729
 Sleepers Awake
@@ -17518,7 +17518,7 @@ You...you killed my son? I send you to find him, save him, and you end his life?
 
 > INFO.NAME old man's anguish 12158155531868129447
 I knew he was alive! Oh thank you, %PCName! Although I hate to see him leave, I know Tymvaul will return some day and bring pride and honor to our family. I don't have much to offer as a reward, but I want you to have these. They are the pelts of a snow bear I killed many years ago. Brynjolfr at Thirsk can forge them into special armor for you. Thanks again, kind %PCName.
-我知道他还活着！谢谢你，%PCName！虽然我不愿看到他离开，但我知道蒂姆沃有一天会回来，为我们家族带来骄傲和荣耀。我没有太多的奖赏，但我想把这些给你。这是我多年前杀死的一只雪熊的熊皮。瑟斯克的布林约夫可以为你把它们锻造成特殊的盔甲。再次感谢，好心的%PCName。 {报酬}
+我知道他还活着！谢谢你，%PCName！虽然我不愿看到他离开，但我知道蒂姆沃有一天会回来，为我们家族带来骄傲和荣耀。我没有太多的奖赏，但我想把这些给你。这是我多年前杀死的一只雪熊的熊皮。瑟斯克的布林约夫可以为你把它们锻造成特殊的盔甲。再次感谢，好心的 %PCName。 {报酬}
 
 > INFO.NAME old man's anguish 22898278139066597
 Please hurry, %PCRace.  My son may still be alive, but he can't survive down there for long.
@@ -20956,7 +20956,7 @@ Once our business is concluded, I will consider your advancement.
 
 > INFO.NAME advancement 1558828954153928039
 Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
-是的，你显然配得上%NextPCRank这个级别。恭喜你，%PCName。
+是的，你显然配得上 %NextPCRank 这个级别。恭喜你，%PCName。
 
 > INFO.NAME advancement 26003290602717310479
 Once our business is concluded, I will consider your advancement.
@@ -21712,7 +21712,7 @@ Hello, %PCName.  I was just going over my notes.  I'm here on Solstheim doing so
 
 > INFO.NAME greeting 1 100629519639132034
 Hello, dear %PCName. It is so cold outside! Come in and warm yourself. Maybe a nap would help restore your strength?
-你好，亲爱的%PCName。外面真冷！进来暖和暖和吧。也许打个盹能恢复体力？ {力量}
+你好，亲爱的 %PCName。外面真冷！进来暖和暖和吧。也许打个盹能恢复体力？ {力量}
 
 > INFO.NAME greeting 1 1151425812429914221
 %PCName, you have returned. I'd ask if you have extracted wergild from Sigvatr the Strong, but I know that is too much to hope for.
@@ -24024,7 +24024,7 @@ Welcome to my house, %PCRace. Make yourself at home.
 
 > INFO.NAME greeting 1 23326298472690511191
 What %Name do for you?
-%Name能为你做什么？
+%Name 能为你做什么？
 
 > INFO.NAME greeting 1 32232238842361930698
 Runa's a real gem, isn't she?
@@ -24344,11 +24344,11 @@ Who are you? Where are your papers?
 
 > INFO.NAME greeting 1 103402350204808451
 First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.
-首先，让我看看你的身份证明，很好，谢谢。我昨天才收到你来到此地的消息。我是%Name，但我的身份背景并不重要。我在这里的职责是来欢迎你来到晨风的。
+首先，让我看看你的身份证明，很好，谢谢。我昨天才收到你来到此地的消息。我是 %Name，但我的身份背景并不重要。我在这里的职责是来欢迎你来到晨风的。
 
 > INFO.NAME greeting 1 3009629748474023429
 I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.
-我是%Name。我的身份背景并不重要。我的职责是时不时地欢迎一些访客来到晨风。
+我是 %Name。我的身份背景并不重要。我的职责是时不时地欢迎一些访客来到晨风。
 
 > INFO.NAME greeting 1 13530217951990214565
 Thank you. Don't think I ever get out of that place.
@@ -24364,7 +24364,7 @@ Go away! Leave me alone! I'll never speak to you again!
 
 > INFO.NAME greeting 1 1535826322130139562
 Never! Yield? To you? I'd rather die than yield to you, f'lah!
-绝不！投降？向你？我宁死也不向你屈服，F'lah（伙计）！ {老鼠}
+绝不！投降？向你？我宁死也不向你屈服，f'lah（伙计）！ {老鼠}
 
 > INFO.NAME greeting 1 612166801912514587
 The witch is dead! Now, if you'll just give me Widowmaker, stranger, I'd appreciate it. I might be able to teach you a bit about using an axe as well, if you're interested.
@@ -25816,7 +25816,7 @@ Consider, %PCName. Where do your best interests lie? It is not too late to serve
 
 > INFO.NAME greeting 1 7515207672663932667
 The Sixth House greets you, Lord Nerevar. Or %PCName, as you call yourself. I am known as Dagoth Gares, priest of Ilunibi Shrine, and minister to Sixth House servants. My Lord, Dagoth Ur, has informed me of your coming. I wish that this time you had come to honor your Lord's friendship, not to betray it.
-第六家族欢迎你，尼瑞瓦大人。或者%PCName，就像你自称的那样。我的名字是达格斯·加雷斯，伊鲁尼比圣祠的祭司，第六家族的仆从的大臣。我的主人达格斯·乌尔已经通知我您将前来。我希望这次你是来尊重我主的情谊，而不是背叛它。
+第六家族欢迎你，尼瑞瓦大人。或者 %PCName，就像你自称的那样。我的名字是达格斯·加雷斯，伊鲁尼比圣祠的祭司，第六家族的仆从的大臣。我的主人达格斯·乌尔已经通知我您将前来。我希望这次你是来尊重我主的情谊，而不是背叛它。
 
 > INFO.NAME greeting 1 101272241198164547
 Yes, Lord Nerevar? What would you ask of me? Would you hear of my Lord, Dagoth Ur? Or of the Sixth House, or of Sixth House servants?
@@ -25940,7 +25940,7 @@ Oh. Goody, goody. Are you going to show me that thing you did again?
 
 > INFO.NAME greeting 1 528821354439017180
 What can %Name do for you?
-%Name能为你做什么？
+%Name 能为你做什么？
 
 > INFO.NAME greeting 1 1733844432470019051
 What can I do for you, master?

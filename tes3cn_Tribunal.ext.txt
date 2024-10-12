@@ -384,7 +384,7 @@ Ok
 
 > SCPT.SCTX CharGen_ring_keley m5
 Like all menus, press B to use your new menu. The triggers cycle between menus. Press B again to exit your menus.
-与其他所有菜单一样，按下B键以查看新菜单。通过扳机键切换菜单，并再次按下B键来退出。
+与其他所有菜单一样，按下 B 键以查看新菜单。通过扳机键切换菜单，并再次按下 B 键来退出。
 
 > SCPT.SCTX CharGen_ring_keley m6
 Ok
@@ -400,7 +400,7 @@ Ok
 
 > SCPT.SCTX CharGen_ring_keley m9
 Press Y to ready your Active Magic, then the RIGHT TRIGGER to cast.
-按下Y键来准备施放魔法，单击右扳机施展你所准备的魔法。
+按下 Y 键来准备施放魔法，单击右扳机施展你所准备的魔法。
 
 > SCPT.SCTX CharGen_ring_keley m10
 Ok
@@ -1961,7 +1961,7 @@ Sturdy Wooden Door
 
 > NPC_.FNAM sjoring hard-heart
 Sjoring Hard-Heart
-舒灵·铁-心
+舒灵·铁心
 
 > CREA.FNAM ancestor_guardian_fgdd
 Ancestor Guardian
@@ -5569,7 +5569,7 @@ Effe-Tei
 
 > NPC_.FNAM fedris hler
 Fedris Hler
-费德里斯·海勒
+费德里斯·赫勒
 
 > NPC_.FNAM armion
 Armion
@@ -5928,11 +5928,11 @@ Temple Door
 
 > NPC_.FNAM eno romari
 Eno Romari
-恩诺·罗马利
+伊诺·罗马利
 
 > NPC_.FNAM meralyn othan
 Meralyn Othan
-梅拉琳·奥森
+梅拉琳·奥桑
 
 > NPC_.FNAM karrod
 Karrod
@@ -6008,7 +6008,7 @@ Black Dart
 
 > NPC_.FNAM Black Dart Draren
 Black Dart Draren
-黑镖达拉伦
+黑镖德拉伦
 
 > WEAP.FNAM fine black dart
 Fine Black Dart
@@ -7142,7 +7142,7 @@ War Durzog
 
 > NPC_.FNAM drals indobar
 Hand Drals Indobar
-阿玛莱西娅之手德拉斯·因多巴
+阿玛莱西娅之手德拉尔斯·因多巴
 
 > NPC_.FNAM arnas therethi
 Hand Arnas Therethi
@@ -8505,11 +8505,11 @@ Thieves Guild: Ra'Zhid's Dwemer Artifacts
 
 > INFO.NAME tg_overduepayments 2789251134413470
 Sugar-Lips Habasi told me that Ra'Zhid at Fatleg's Drop Off in Hla Oad promised to deliver some Dwemer artifacts to the Thieves Guild. Habasi asked me to bring her a Dwemer tube, Dwemer goblet, and Dwemer bowl.
-蜜-唇·哈巴西告诉我，哈拉-奥德肥腿落客的拉'兹德答应将一些锻莫文物交给盗贼公会。哈巴西让我给她带一个锻莫钢管、锻莫的高脚杯和锻莫碗。
+蜜唇·哈巴西告诉我，哈拉-奥德肥腿落客的拉'兹德答应将一些锻莫文物交给盗贼公会。哈巴西让我给她带一个锻莫钢管、锻莫的高脚杯和锻莫碗。
 
 > INFO.NAME tg_overduepayments 1459715713764825773
 Sugar-Lips Habasi thanked me for bringing her Ra'Zhid's dwemer artifacts.
-蜜-唇·哈巴西感谢我把拉'兹德的锻莫文物带给她。
+蜜唇·哈巴西感谢我把拉'兹德的锻莫文物带给她。
 
 > INFO.NAME tg_balmoradefenses 1950521169921429488
 Thieves Guild: Master of Security
@@ -8517,15 +8517,15 @@ Thieves Guild: Master of Security
 
 > INFO.NAME tg_balmoradefenses 692953783052416942
 Sugar-Lips Habasi has a job for me that involves the South Wall and a master of security.
-蜜-唇·哈巴西给我安排了一项工作，涉及南墙俱乐部和那里的一位开锁大师。
+蜜唇·哈巴西给我安排了一项工作，涉及南墙俱乐部和那里的一位开锁大师。
 
 > INFO.NAME tg_balmoradefenses 18611219941033930549
 Sugar-Lips Habasi thanked me for convincing Hecerinde to help secure the South Wall.
-蜜-唇·哈巴西感谢我说服海瑟琳德帮助保护南墙。
+蜜唇·哈巴西感谢我说服海瑟琳德帮助保护南墙。
 
 > INFO.NAME tg_balmoradefenses 23662160202358619713
 Sugar-Lips Habasi was very upset that Hecerendi was dead. Habasi has no further jobs for me.
-蜜-唇·哈巴西对海瑟琳德的死非常难过。哈巴西没有其他工作给我了。 {一些工作}
+蜜唇·哈巴西对海瑟琳德的死非常难过。哈巴西没有其他工作给我了。 {一些工作}
 
 > INFO.NAME tg_aldruhndefenses 5355144912284716178
 Thieves Guild: Retrieve the Scrap Metal
@@ -8589,11 +8589,11 @@ Fighters Guild: The Telvanni Agents
 
 > INFO.NAME fg_telvanni_agents 17515323232615912540
 I'm to find and kill four Telvanni agents responsible for thefts and disappearances at the Caldera Mine. Their names are Alynu Aralen, Sathasa Nerothren, Fothyna Herothran, and Alveleg. They're hiding in a cave in the hills north of Caldera Mine, and they probably have a lookout posted outside the mine. When the four agents are dead, report back to Eydis Fire-Eye.
-我要找到并杀死四名可能要对卡尔德拉矿场盗窃与失踪案负责的泰瓦尼特工。他们的名字分别是阿莉努·雅拉伦、萨塔莎·内洛瑟伦、福西那·赫罗珊和奥夫雷格。他们藏在卡尔德拉矿场北面山上的一个山洞里，矿场外可能有他们派驻的瞭望哨。四名特工死后，向艾迪斯·火-眼报告。
+我要找到并杀死四名可能要对卡尔德拉矿场盗窃与失踪案负责的泰瓦尼特工。他们的名字分别是阿莉努·雅拉伦、萨塔莎·内洛瑟伦、福西那·赫罗珊和奥夫雷格。他们藏在卡尔德拉矿场北面山上的一个山洞里，矿场外可能有他们派驻的瞭望哨。四名特工死后，向艾迪斯·火眼报告。
 
 > INFO.NAME fg_telvanni_agents 155481611395326231
 I reported killing the Telvanni agents, and Eydis Fire-Eye paid me 400 gold.
-我报告杀死了泰瓦尼特工，艾迪斯·火-眼付给我 400 金币。
+我报告杀死了泰瓦尼特工，艾迪斯·火眼付给我 400 金币。
 
 > INFO.NAME a2_3_corpruskiller 1461740651193823544
 Corprus Cure
@@ -9369,11 +9369,11 @@ Fighters Guild: Kill Hard-Heart
 
 > INFO.NAME fg_killhardheart 1026718551382829414
 Percius Mercius said that in order to free the Fighters Guild from corruption, I must kill the guildmaster, Sjoring Hard-Heart.
-珀西乌斯·默西乌斯说，为了让战士公会摆脱腐败，我必须杀死公会会长舒灵·铁-心。
+珀西乌斯·默西乌斯说，为了让战士公会摆脱腐败，我必须杀死公会会长舒灵·铁心。
 
 > INFO.NAME fg_killhardheart 1389816403228121303
 Percius Mercius thanked me for killing Sjoring Hard-Heart. He promoted me to Master of the Fighters Guild.
-珀西乌斯·默西乌斯感谢我杀死了舒灵·铁-心。他举荐我为战士公会领袖。
+珀西乌斯·默西乌斯感谢我杀死了舒灵·铁心。他举荐我为战士公会领袖。
 
 > INFO.NAME fg_khajiitbounty 1069414357181767346
 Fighters Guild: Dro'Sakhar's Bounty
@@ -9573,11 +9573,11 @@ Thieves Guild: Kill Hard-Heart
 
 > INFO.NAME tg_killhardheart 1874510715277563536
 Gentleman Jim Stacey asked me to kill Sjoring Hard-Heart, the Master of the Fighters Guild in Vivec.
-绅士吉姆·史戴西让我杀死维威克的战士公会会长舒灵·铁-心。
+绅士吉姆·史戴西让我杀死维威克的战士公会会长舒灵·铁心。
 
 > INFO.NAME tg_killhardheart 16943170021506831186
 Gentleman Jim Stacey thanked me for killing Sjoring Hard-Heart and gave me the Skeleton Key, a priceless artifact.
-绅士吉姆·史戴西感谢我杀死了舒灵·铁-心，并将无价之宝骷髅钥匙交给了我。
+绅士吉姆·史戴西感谢我杀死了舒灵·铁心，并将无价之宝骷髅钥匙交给了我。
 
 > INFO.NAME tg_vintagebrandy 1431296623012018678
 Thieves Guild: The Vintage Brandy
@@ -9589,7 +9589,7 @@ Sugar-Lips tells me that Ralen Hlaalo is dead, but has left behind some vintage 
 
 > INFO.NAME tg_vintagebrandy 116312613280603251
 I brought a bottle of vintage brandy to Sugar-Lips Habasi.
-我拿了一瓶佳酿白兰地给蜜-唇·哈巴西。
+我拿了一瓶佳酿白兰地给蜜唇·哈巴西。
 
 > INFO.NAME tg_brotherbragor 2357326271635232516
 Thieves Guild: Free New-Shoes Bragor
@@ -9597,15 +9597,15 @@ Thieves Guild: Free New-Shoes Bragor
 
 > INFO.NAME tg_brotherbragor 273315646829231659
 Sugar-Lips Habasi told me that New-Shoes Bragor was caught by the guards in Pelagiad and is being held in Fort Pelagiad. Habasi heard that Mebestien Ence is secretly smuggling Dwemer materials and that Shadbak gra-Burbug, a guard in Fort Pelagiad, has been taking bribes to overlook the smuggling. I should steal a Dwemer artifact from Mebestien Ence, show it to Shadbak gra-Burbug, and demand that New-Shoes Bragor be released.
-蜜-唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯提安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯提安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
+蜜唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯提安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯提安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
 
 > INFO.NAME tg_brotherbragor 2923874592014914267
 Sugar-Lips Habasi thanked me for getting New-Shoes Bragor released.
-蜜-唇·哈巴西感谢我释放了新鞋·巴戈。
+蜜唇·哈巴西感谢我释放了新鞋·巴戈。
 
 > INFO.NAME tg_brotherbragor 1341478462845320377
 Sugar-Lips Habasi wasn't happy that the person who was to help us free our brother Bragor is dead. He will have to stay in his cell.
-蜜-唇·哈巴西并不高兴，因为要帮我们释放巴戈兄弟的人死了。他也只能待在牢房里了。
+蜜唇·哈巴西并不高兴，因为要帮我们释放巴戈兄弟的人死了。他也只能待在牢房里了。
 
 > INFO.NAME tg_lootaldruhnmg 19927310802677319532
 Thieves Guild: Loot the Mages Guild
@@ -10581,15 +10581,15 @@ Imperial Legion: Rescue Jocien Ancois
 
 > INFO.NAME il_rescuehermit 29884295861985120516
 Radd Hard-Heart asked me to rescue Jocien Ancois, who is trying to teach the Ashlanders of Imperial culture and virtue. He was taken from the Erabenimsun camp by outcast Ashlanders, I should start there.
-拉德·铁-心让我去营救乔西安·安科伊斯，他正试图向灰烬之民传授帝国文化和美德。他是被被遗弃的灰烬之民从埃勒比尼姆孙营地带走的，我应该从那里开始。 {帝国人,帝国教团}
+拉德·铁心让我去营救乔西安·安科伊斯，他正试图向灰烬之民传授帝国文化和美德。他是被被遗弃的灰烬之民从埃勒比尼姆孙营地带走的，我应该从那里开始。 {帝国人,帝国教团}
 
 > INFO.NAME il_rescuehermit 2221221782340211822
 Radd Hard-Heart thanked me for rescuing Jocien Ancois.
-拉德·铁-心感谢我救了乔西安·安科伊斯。
+拉德·铁心感谢我救了乔西安·安科伊斯。
 
 > INFO.NAME il_rescuehermit 15682223891703717152
 I told Radd Hard-Heart that Jocien Ancois is dead.
-我告诉拉德·铁-心，乔西安·安科伊斯已经死了。
+我告诉拉德·铁心，乔西安·安科伊斯已经死了。
 
 > INFO.NAME il_traitorcoven 1531924868963018893
 Imperial Legion: Kill Tonasi Belas
@@ -10693,7 +10693,7 @@ Sevilo Othan and Daynila Valas, former egg miners and local troublemakers, are p
 
 > INFO.NAME fg_egg_poachers 2497615257663532622
 I reported taking care of the egg poachers at Shulk Egg mine, and Eydis Fire-Eye paid me 100 gold, and gave me some extra potions.
-我报告在舒尔克卵矿场解决了卵矿偷猎者，艾迪斯·火-眼付了我 100 金币，还给了我一些额外的药水。 {这些药水}
+我报告在舒尔克卵矿场解决了卵矿偷猎者，艾迪斯·火眼付了我 100 金币，还给了我一些额外的药水。 {这些药水}
 
 > INFO.NAME mg_stolenreport 194194279714918376
 Mages Guild: Stolen Reports
@@ -11009,11 +11009,11 @@ Fighters Guild: Remove Sjoring's Supporters
 
 > INFO.NAME fg_killcronies 1447023869487219160
 Percius Mercius asked me to kill one of Sjoring Hard-Heart's supporters, Eydis Fire-Eye, the guild steward in Balmora.
-珀西乌斯·默西乌斯要我杀死舒灵·铁-心的支持者之一，巴尔莫拉的公会管家艾迪斯·火-眼。
+珀西乌斯·默西乌斯要我杀死舒灵·铁心的支持者之一，巴尔莫拉的公会管家艾迪斯·火眼。
 
 > INFO.NAME fg_killcronies 9500199841045310204
 Percius thanked me for killing Sjoring Hard-Heart's supporters.
-珀西乌斯感谢我杀死了舒灵·铁-心的支持者。
+珀西乌斯感谢我杀死了舒灵·铁心的支持者。
 
 > INFO.NAME fg_tenimbounty 281406267275348534
 Fighters Guild: Tenim's Bounty
@@ -11033,11 +11033,11 @@ Fighters Guild: The Verethi Gang
 
 > INFO.NAME fg_verethigang 3211954743028115006
 Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Verethi Gang. They are based in Mannammu just southeast of Pelagiad.
-艾迪斯·火-眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
+艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
 
 > INFO.NAME fg_verethigang 14760934222272524
 Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
-艾迪斯·火-眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {事}
+艾迪斯·火眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {事}
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
@@ -11045,11 +11045,11 @@ Fighters Guild: Hunger in the Sarano Tomb
 
 > INFO.NAME fg_hungerloose 31539249493084511613
 Eydis Fire-Eye told me a Hunger is loose in the Sarano Tomb which is over the hills southeast of the Fort Moonmoth between the Ashlands and Lake Amaya. I am ordered to travel to the tomb and kill the Hunger.
-艾迪斯·火-眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
+艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
 
 > INFO.NAME fg_hungerloose 1625028503916121756
 Eydis Fire-Eye thanked me for slaying the Hunger and paid me 1000 gold.
-艾迪斯·火-眼感谢我杀死饥饿魔，并付给我 1000 金币。
+艾迪斯·火眼感谢我杀死饥饿魔，并付给我 1000 金币。
 
 > INFO.NAME hr_finddalobar 182912969464921300
 House Redoran: Find Mathis Dalobar
@@ -11541,19 +11541,19 @@ Thieves Guild: The Bitter Cup
 
 > INFO.NAME tg_bitterbribe 21537241631515932179
 Gentleman Jim Stacey asked me to get the Bitter Cup, an artifact sacred to Clavicus Vile, and deliver it to Eydis Fire-Eye. The Bitter Cup was lost in the ruins of Ald Redaynia.
-绅士吉姆·史戴西让我去拿苦痛之杯，那是卡拉威库斯·维尔的圣物，并把它交给艾迪斯·火-眼。苦杯遗失在奥德-瑞达尼亚的废墟中。 {神圣}
+绅士吉姆·史戴西让我去拿苦痛之杯，那是卡拉威库斯·维尔的圣物，并把它交给艾迪斯·火眼。苦杯遗失在奥德-瑞达尼亚的废墟中。 {神圣}
 
 > INFO.NAME tg_bitterbribe 1126523109165686622
 Gentleman Jim Stacey thanked me for delivering the Bitter Cup to Eydis Fire-Eye.
-绅士吉姆·史戴西感谢我把苦痛之杯交给艾迪斯·火-眼。
+绅士吉姆·史戴西感谢我把苦痛之杯交给艾迪斯·火眼。
 
 > INFO.NAME tg_bitterbribe 48059030259843959
 Gentleman Jim Stacey was displeased that I botched the bribery of Eydis Fire-Eye. But he said he might have done the same himself, given the circumstances.
-绅士吉姆·史戴西对我搞砸了贿赂艾迪斯·火-眼的事很不满。但他说，在当时的情况下，他自己可能也会这么做。
+绅士吉姆·史戴西对我搞砸了贿赂艾迪斯·火眼的事很不满。但他说，在当时的情况下，他自己可能也会这么做。
 
 > INFO.NAME tg_bitterbribe 2638020496619114883
 Since Eydis Fire-Eye is dead, there is little we can do to bribe her.
-既然艾迪斯·火-眼已经死了，我们也没什么办法贿赂她了。
+既然艾迪斯·火眼已经死了，我们也没什么办法贿赂她了。
 
 > INFO.NAME tg_withershins 2433229093244802907
 Thieves Guild: Withershins
@@ -11573,23 +11573,23 @@ Lead the Pilgrim to Koal Cave
 
 > INFO.NAME mv_poorpilgrim 69115369207368460
 While traveling in the area west of Maar Gan, I met a pilgrim named Fonus Rathryon. He wishes to travel to Koal Cave, on a pilgrimage, and must be there within two days.
-在玛尔-甘以西地区旅行时，我遇到了一位名叫佛努斯·拉斯昂的朝圣者。他希望前往考尔洞穴朝圣，必须在两天内到达。
+在玛尔-甘以西地区旅行时，我遇到了一位名叫佛努斯·拉特里恩的朝圣者。他希望前往考尔洞穴朝圣，必须在两天内到达。
 
 > INFO.NAME mv_poorpilgrim 1993524061069228181
 I've declined to escort Fonus Rathryon on his pilgrimage. I've better things to do than babysit some religious fanatic.
-我拒绝护送佛努斯·拉斯昂朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。 {保镖}
+我拒绝护送佛努斯·拉特里恩朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。 {保镖}
 
 > INFO.NAME mv_poorpilgrim 31325186232731615438
 I escorted Fonus Rathryon to Koal Cave, and he paid me the 150 septims that he promised.
-我护送佛努斯·拉斯昂来到考尔洞穴，他也按照约定付给了我 150 赛普汀。 {保镖}
+我护送佛努斯·拉特里恩来到考尔洞穴，他也按照约定付给了我 150 赛普汀。 {保镖}
 
 > INFO.NAME mv_poorpilgrim 142657888173011253
 I was unable to get Fonus Rathryon to Koal Cave within the time specified, and he has decided to find another guide. Oh, well. Best of luck to him. He was wearing on my nerves anyway.
-我没能在规定时间内把佛努斯·拉斯昂送到考尔洞穴，他决定另找向导。哦，好吧。祝他好运。反正我也快被他烦死了。 {幸运}
+我没能在规定时间内把佛努斯·拉特里恩送到考尔洞穴，他决定另找向导。哦，好吧。祝他好运。反正我也快被他烦死了。 {幸运}
 
 > INFO.NAME mv_poorpilgrim 278894661430531345
 While escorting Fonus Rathryon to Koal Cave, he came to an untimely end. There's no more I can do for him now.
-在护送佛努斯·拉斯昂前往考尔洞穴时，他英年早逝了。现在我已经无能为力了。 {保镖}
+在护送佛努斯·拉特里恩前往考尔洞穴时，他英年早逝了。现在我已经无能为力了。 {保镖}
 
 > INFO.NAME mv_richpilgrim 20893109723221243
 Viatrix, The Annoying Pilgrim
@@ -11681,11 +11681,11 @@ Imperial Legion: Sorkvild the Raven
 
 > INFO.NAME il_necromancer 11296128601800517703
 Sorkvild the Raven is a Necromancer who lives in the Dwemer ruins near Dagon Fel. The Dunmer despise Necromancy, and all who practice it. Radd Hard-Heart wants the Necromancer dead before he ruins the reputation of other Imperial citizens.
-“渡鸦”索克维尔德是一位亡灵法师，居住在大衮-费尔附近的锻莫废墟中。丹莫鄙视亡灵巫师，以及所有施展死灵法术的人。拉德·铁-心希望这个亡灵巫师在败坏其他帝国人的名声之前死掉。 {锻莫族}
+“渡鸦”索克维尔德是一位亡灵法师，居住在大衮-费尔附近的锻莫废墟中。丹莫鄙视亡灵巫师，以及所有施展死灵法术的人。拉德·铁心希望这个亡灵巫师在败坏其他帝国人的名声之前死掉。 {锻莫族}
 
 > INFO.NAME il_necromancer 30271823374747835
 Radd Hard-Heart thanked me for killing Sorkvild the Raven.
-拉德·铁-心感谢我杀死了“渡鸦”索克维尔德。
+拉德·铁心感谢我杀死了“渡鸦”索克维尔德。
 
 > INFO.NAME il_maidentoken 21129058181178883
 Imperial Legion: Maiden's Token
@@ -11981,11 +11981,11 @@ The Goblin Army
 
 > INFO.NAME tr_killgoblins 16032304081063422690
 Fedris Hler, Almalexia's Chief Steward, has asked me to perform a service for the goddess. It seems that King Helseth is recruiting a troop of goblins to serve as footsoldiers for his army.
-费德里斯·海勒，阿玛莱西娅的总管，让我为女神做一件事。看来，赫尔塞斯国王正在训练一队哥布林，作为他的军队的步兵。 {侍奉}
+费德里斯·赫勒，阿玛莱西娅的总管，让我为女神做一件事。看来，赫尔塞斯国王正在训练一队哥布林，作为他的军队的步兵。 {侍奉}
 
 > INFO.NAME tr_killgoblins 19232174612705218965
 According to Hler, Almalexia considers the goblins an abomination, and is horrified that Helseth would consider using the beasts as soldiers. The goddess worries that the temperamental Helseth will lose control of the creatures, and they will attack Mournhold. I am to kill the goblin warchiefs and report back to Hler. Although he did not know where the goblins were being trained, perhaps one of the locals has more information.
-根据海勒的说法，阿玛莱西娅认为哥布林是一种可憎的东西，并对赫尔塞斯会考虑使用这些野兽作为士兵感到震惊。女神担心脾气暴躁的赫尔塞斯会失去对这些生物的控制，而它们会攻击哀伤之城。我要去杀死哥布林的酋长，并向海勒报告。虽然他不知道哥布林在哪里接受训练，但也许某个当地人有更多信息。
+根据赫勒的说法，阿玛莱西娅认为哥布林是一种可憎的东西，并对赫尔塞斯会考虑使用这些野兽作为士兵感到震惊。女神担心脾气暴躁的赫尔塞斯会失去对这些生物的控制，而它们会攻击哀伤之城。我要去杀死哥布林的酋长，并向赫勒报告。虽然他不知道哥布林在哪里接受训练，但也许某个当地人有更多信息。
 
 > INFO.NAME tr_killgoblins 17311232531664127516
 In addition to the two goblin warchiefs, Hler mentioned that there are at least two Altmer in charge of training the goblins for Helseth. If I can also get rid of them, the goddess will be pleased.
@@ -12009,7 +12009,7 @@ I've killed the Altmer trainer Yarnar.
 
 > INFO.NAME tr_killgoblins 713831191228625609
 Fedris Hler has told me that the goddess Almalexia is very pleased to hear that the goblin menace has been taken care of. As a token of gratitude, I have been given a large sum of gold as a reward.
-费德里斯·海勒告诉我，阿玛莱西娅女神很高兴听到哥布林的威胁已经被解决了。为了表示感谢，我得到了一大笔钱作为报偿。 {报酬}
+费德里斯·赫勒告诉我，阿玛莱西娅女神很高兴听到哥布林的威胁已经被解决了。为了表示感谢，我得到了一大笔钱作为报偿。 {报酬}
 
 > INFO.NAME ms_scrollsales 65921646195226748
 Scroll Sales
@@ -12137,7 +12137,7 @@ Fighters Guild: Remove the Heads of the Thieves Guild
 
 > INFO.NAME fg_killbosses 220066726164827524
 Sjoring Hard-Heart told me to kill the Thieves Guild bosses. I must kill Habasi at the South Wall in Balmora, Aengoth at the Rat in the Pot n Ald'ruhn, and Helende at Dirty Muriel's in Sadrith Mora.
-舒灵·铁-心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
+舒灵·铁心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
 
 > INFO.NAME fg_killbosses 1609298892679027328
 I killed the three local Thieves Guild bosses.
@@ -12161,11 +12161,11 @@ Fighters Guild: Desele's Debt
 
 > INFO.NAME fg_deseledebt 1590641161166229824
 Eydis Fire-Eye told me that Helviane Desele in Suran owes Manos Othreleth 200 gold. I must get this debt money from Desele and return it to Eydis Fire-Eye.
-艾迪斯·火-眼告诉我，苏兰的赫薇娅妮·德塞尔欠马诺斯·奥特雷莱斯 200 金币。我必须从德塞勒那里拿到这笔欠款，然后还给艾迪斯·火-眼。
+艾迪斯·火眼告诉我，苏兰的赫薇娅妮·德塞尔欠马诺斯·奥特雷莱斯 200 金币。我必须从德塞勒那里拿到这笔欠款，然后还给艾迪斯·火眼。
 
 > INFO.NAME fg_deseledebt 18942162913232826833
 Eydis Fire-Eye gave me my share of the debt money.
-艾迪斯·火-眼把我那份欠款给了我。
+艾迪斯·火眼把我那份欠款给了我。
 
 > INFO.NAME fg_debtstoine 1680320651538731266
 Fighter's Guild: Lirielle's Debt
@@ -12709,11 +12709,11 @@ Imperial Legion: Scrap Metal
 
 > INFO.NAME il_scrapmetal 3138876971996120364
 The Buoyant Armigers have challenged the Imperial Legion to a hunt. They claim they will bring in the skin of a corprus beast. Radd Hard-Heart wants me to bring in the scrap metal from a Dwemer Centurion.
-灵动扈从向帝国军团提出狩猎挑战。他们声称会带来尸化怪物的皮。拉德·铁-心要我带来锻一些莫百夫长的金属废料。 {帝国人,锻莫}
+灵动扈从向帝国军团提出狩猎挑战。他们声称会带来尸化怪物的皮。拉德·铁心要我带来锻一些莫百夫长的金属废料。 {帝国人,锻莫}
 
 > INFO.NAME il_scrapmetal 353319071964212723
 I brought Radd Hard-Heart the scrap metal from a Dwemer Centurion. With this the Imperial Legion is sure to win the hunt with the Buoyant Armigers.
-我给拉德·铁-心带来了锻莫百夫长的金属废料。有了它，帝国军团就一定能在与灵动扈从的狩猎中获胜。 {帝国人}
+我给拉德·铁心带来了锻莫百夫长的金属废料。有了它，帝国军团就一定能在与灵动扈从的狩猎中获胜。 {帝国人}
 
 > INFO.NAME il_giantnetch 248287042117885333
 Imperial Legion: Breeding Netch
@@ -12721,11 +12721,11 @@ Imperial Legion: Breeding Netch
 
 > INFO.NAME il_giantnetch 107712064739908509
 Radd Hard-Heart told me that Giant Netch are threatening the village of Gnaar Mok. I must go there and kill the pair of breeding netch.
-拉德·铁-心告诉我，巨型气母正在威胁纳尔-莫克村。我必须去那里杀死那对正在繁殖期的气母。
+拉德·铁心告诉我，巨型气母正在威胁纳尔-莫克村。我必须去那里杀死那对正在繁殖期的气母。
 
 > INFO.NAME il_giantnetch 2501712083734223262
 Radd Hard-Heart thanked me for killing the breeding netch near Gnaar Mok.
-拉德·铁-心感谢我在纳尔-莫克附近杀死了繁殖期的气母。
+拉德·铁心感谢我在纳尔-莫克附近杀死了繁殖期的气母。
 
 > INFO.NAME mv_deadtaxman 266172346970032117
 Death of a Taxman
@@ -13197,7 +13197,7 @@ The Shrine of the Dead
 
 > INFO.NAME tr_shrinedead 1368326864996726446
 Fedris Hler, apparently pleased with my efforts involving the goblin army, has another task for me. He has instructed me to speak with Gavas Drin, Almalexia's head priest.
-费德里斯·海勒显然很满意我处理了哥布林军队，他为我安排了另一项任务。他指示我与阿玛莱西娅的首席祭司加瓦斯·德林谈话。
+费德里斯·赫勒显然很满意我处理了哥布林军队，他为我安排了另一项任务。他指示我与阿玛莱西娅的首席祭司加瓦斯·德林谈话。
 
 > INFO.NAME tr_shrinedead 1140531858212056346
 I've met with Gavas Drin, who would like me to perform a task for Almalexia. Deep in the ruins beneath the Temple is a shrine that has been untouched for many years. Apparently, the shrine has soured, and the entire area overrun by the undead.
@@ -13285,11 +13285,11 @@ Fighters Guild: Kill the Master Thief
 
 > INFO.NAME fg_bigbosses 24879245252386425050
 Sjoring Hard-Heart asked me to kill the Master Thief, Gentleman Jim Stacey. He can be found in Simine Fralinie's bookstore in Vivec.
-舒灵·铁-心让我去杀神偷绅士吉姆·史戴西。他可以在维威克城的西蒙尼·法兰琳涅书店找到。
+舒灵·铁心让我去杀神偷绅士吉姆·史戴西。他可以在维威克城的西蒙尼·法兰琳涅书店找到。
 
 > INFO.NAME fg_bigbosses 108025782428019482
 I told Sjoring Hard-Heart about killing the Master Thief. When he got the news, he attacked me, saying I was a threat to his position.
-我把杀死神偷的事告诉了舒灵·铁-心。他得知消息后攻击我，说我威胁到了他的地位。
+我把杀死神偷的事告诉了舒灵·铁心。他得知消息后攻击我，说我威胁到了他的地位。
 
 > INFO.NAME fg_bigbosses 1812813558178515839
 I told Sjoring the truth: That I am the new Master Thief of Vvardenfell. Upon hearing the news, he attacked me.
@@ -13317,11 +13317,11 @@ Fighters Guild: Gra-Bol's Bounty
 
 > INFO.NAME fg_orcbounty 65271633229816656
 Eydis Fire-Eye told me she has a 250 gold bounty on the Orc Dura gra-Bol who lives in Balmora.
-艾迪斯·火-眼告诉我，住在巴尔莫拉的兽人杜拉·格拉-波尔的人头有 250 悬赏金。
+艾迪斯·火眼告诉我，住在巴尔莫拉的兽人杜拉·格拉-波尔的人头有 250 悬赏金。
 
 > INFO.NAME fg_orcbounty 1935516433253969429
 Eydis Fire-Eye paid me 250 gold for the contract on Dura gra-Bol.
-艾迪斯·火-眼付了我 250 金币作为讨伐杜拉·格拉-波尔的合同金。
+艾迪斯·火眼付了我 250 金币作为讨伐杜拉·格拉-波尔的合同金。
 
 > INFO.NAME fg_alofsfarm 1009099651390419173
 Fighters Guild: Alof and the Orcs
@@ -13329,11 +13329,11 @@ Fighters Guild: Alof and the Orcs
 
 > INFO.NAME fg_alofsfarm 33331678365682641
 Eydis Fire-Eye told me to talk to Alof the Easterner at his farm northeast of Pelagiad and just north of the Arvel Plantation. Alof saw some Orcs at a Daedric ruin nearby.
-艾迪斯·火-眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
+艾迪斯·火眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
 
 > INFO.NAME fg_alofsfarm 289519483102661641
 Eydis Fire-Eye gave me 500 gold for the Duke's contract.
-艾迪斯·火-眼给了我 500 金币作为公爵合同的报酬。
+艾迪斯·火眼给了我 500 金币作为公爵合同的报酬。
 
 > INFO.NAME hr_redastomb 45864638426932607
 House Redoran: Redas Tomb
@@ -14257,15 +14257,15 @@ Barilzar's Mazed Band
 
 > INFO.NAME tr_mazedband 20654235372529331996
 Gavas Drin has told me that Fedris Hler would like to speak to me.
-加瓦斯·德林告诉我，费德里斯·海勒想和我谈谈。
+加瓦斯·德林告诉我，费德里斯·赫勒想和我谈谈。
 
 > INFO.NAME tr_mazedband 11652314692818029225
 I have spoken to Fedris Hler, and apparently Almalexia was pleased enough with the jobs I have done that she has a special assignment for me. I am to retrieve an artifact, Barilzar's Mazed Band, from the tombs beneath the Temple and return it at once. The band is supposed to be in an Abandoned Crypt, which I can reach through a passage in the northwest section of the Temple Sewers.
-我已经和费德里斯·海勒谈过了，显然阿玛莱西娅对我完成的工作非常满意，她为我安排了一项特殊的任务。我要去神殿下的墓穴中找到一件神器，巴里扎尔的迷宫之戒，并立刻把它带回来。这枚戒指应该在一个废弃的墓穴里，我可以通过神殿下水道西北部的一个通道到达那里。 {一些工作,业务}
+我已经和费德里斯·赫勒谈过了，显然阿玛莱西娅对我完成的工作非常满意，她为我安排了一项特殊的任务。我要去神殿下的墓穴中找到一件神器，巴里扎尔的迷宫之戒，并立刻把它带回来。这枚戒指应该在一个废弃的墓穴里，我可以通过神殿下水道西北部的一个通道到达那里。 {一些工作,业务}
 
 > INFO.NAME tr_mazedband 21323181642369514728
 Hler knows very little about Barilzar's Mazed Band, but suggests I speak with Gavas Drin, who may know a bit more about it.
-海勒对巴里扎尔的迷宫之戒知之甚少，但他建议我和加瓦斯·德林谈谈，他可能知道得更多。
+赫勒对巴里扎尔的迷宫之戒知之甚少，但他建议我和加瓦斯·德林谈谈，他可能知道得更多。
 
 > INFO.NAME tr_mazedband 10932256582270514819
 Drin tells me that the Mazed Band is a powerful ring created long ago by the wizard Barilzar. Drin says he does not know the artifacts purpose, or the extent of it's powers, but only that the goddess wishes to retrieve it. He assumes that she will use it to better minister to her people here in Mournhold.
@@ -14293,7 +14293,7 @@ I have retrieved Barilzar's Mazed Band.
 
 > INFO.NAME tr_mazedband 959639841458322933
 I've returned to Fedris Hler with the Mazed Band. He has told me to speak with Gavas Drin for further instructions.
-我带着迷宫之戒回到了费德里斯·海勒处。他让我和加瓦斯·德林谈谈，以获得进一步的指示。
+我带着迷宫之戒回到了费德里斯·赫勒处。他让我和加瓦斯·德林谈谈，以获得进一步的指示。
 
 > INFO.NAME tr_mazedband 19050205511057328352
 Gavas Drin tells me that the Mazed Band is to be given directly to Almalexia. I am to proceed to the High Chapel and speak directly with the goddess.
@@ -14329,15 +14329,15 @@ Apparently, members of the End of Times cult have been found dead throughout the
 
 > INFO.NAME tr_showpower 8742911637521137
 The cult's followers all seem to have been poisoned, but it is not known by whom. Almelexia wishes me to find out more about this group and their leader. I should speak with Meralyn Othan in the Great Bazaar. Her brother was one of the dead cultists. Almalexia has also warned me to take care with Eno Romari, and not make him a martyr for his cause.
-该邪教的信徒似乎都被毒死了，但不知道是谁干的。阿玛莱西娅希望我能够找出更多关于这个团体和他们的领袖的信息。我应该和大集市的梅拉琳·奥森谈谈。她的哥哥是死去的邪教组织成员之一。阿玛莱西娅也警告我要小心恩诺·罗马利，不要让他成为自己事业的殉道者。
+该邪教的信徒似乎都被毒死了，但不知道是谁干的。阿玛莱西娅希望我能够找出更多关于这个团体和他们的领袖的信息。我应该和大集市的梅拉琳·奥桑谈谈。她的哥哥是死去的邪教组织成员之一。阿玛莱西娅也警告我要小心恩诺·罗马利，不要让他成为自己事业的殉道者。
 
 > INFO.NAME tr_showpower 272008812140569668
 I've spoken to Meralyn Othan. She is visibly upset about the death of her brother, who she says was a sort of a lost soul.
-我已经和梅拉琳·奥森谈过。她显然对她哥哥的死感到非常沮丧，她说他是一个迷失的灵魂。
+我已经和梅拉琳·奥桑谈过。她显然对她哥哥的死感到非常沮丧，她说他是一个迷失的灵魂。
 
 > INFO.NAME tr_showpower 2112531048853432277
 Meralyn Othan tells me that the End of Times is a suicide cult. I should be able to find their members, and perhaps Eno Romari, in Godsreach, near the Winged Guar.
-梅拉琳·奥森告诉我，时代终结是一个自杀邪教。我应该能在离宫区的瓜尔添翼旅店附近找到他们的成员，也许就是恩诺·罗马利本人。
+梅拉琳·奥桑告诉我，时代终结是一个自杀邪教。我应该能在离宫区的瓜尔添翼旅店附近找到他们的成员，也许就是恩诺·罗马利本人。
 
 > INFO.NAME tr_showpower 26107271471078022651
 I've spoken to Eno Romari about his End of Times cult. They believe the power of the Tribunal is faltering, and that a new and frightening age is coming to all of Tamriel.
@@ -14533,11 +14533,11 @@ Fighters Guild: The Code Book
 
 > INFO.NAME fg_sottilde 619869663147726409
 Eydis Fire-Eye asked me to get a code book from Sottilde at the South Wall in Balmora.
-艾迪斯·火-眼让我去巴尔莫拉的南墙索提尔德那里拿一本暗号本。
+艾迪斯·火眼让我去巴尔莫拉的南墙索提尔德那里拿一本暗号本。
 
 > INFO.NAME fg_sottilde 10105187551703219789
 Eydis Fire-Eye thanked me for returning the code book and paid me 50 gold.
-艾迪斯·火-眼感谢我拿到了暗号本，并付给我 50 金币。
+艾迪斯·火眼感谢我拿到了暗号本，并付给我 50 金币。
 
 > INFO.NAME hr_koalcave 13987101732953711215
 House Redoran: Escort to Koal Cave
@@ -14717,11 +14717,11 @@ Thieves Guild: Diamonds for Habasi
 
 > INFO.NAME tg_diamonds 30379260912760523618
 Sugar-Lips Habasi asked me to bring her a diamond. She believes that Nalcarya of White Haven here in Balmora has diamonds, but any diamond will do.
-蜜-唇·哈巴西让我带给她一颗钻石。她认为巴尔莫拉白港的娜尔卡娅有钻石，但任何钻石都可以。
+蜜唇·哈巴西让我带给她一颗钻石。她认为巴尔莫拉白港的娜尔卡娅有钻石，但任何钻石都可以。
 
 > INFO.NAME tg_diamonds 268668757283516934
 I delivered a diamond to Sugar-Lips Habasi.
-我给蜜-唇·哈巴西送去了一颗钻石。
+我给蜜唇·哈巴西送去了一颗钻石。
 
 > INFO.NAME tg_manorkey 9199126681191721506
 Thieves Guild: Nerano Manor Key
@@ -14729,11 +14729,11 @@ Thieves Guild: Nerano Manor Key
 
 > INFO.NAME tg_manorkey 17505238341143927662
 Sugar-Lips Habasi asked me to bring her the key to the top floor of the Nerano Manor here in Balmora. Ondres Nerano certainly has a key, but it may be easier to get the key from one of his servants, such as Sovor Trandel at the Balmora Council Club.
-蜜-唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会所的索沃·特兰德尔。 {棍棒}
+蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会所的索沃·特兰德尔。 {棍棒}
 
 > INFO.NAME tg_manorkey 6777178031803221051
 Sugar-Lips Habasi thanked me for bringing her the key to Nerano Manor.
-蜜-唇·哈巴西感谢我带给她内拉诺府邸的钥匙。
+蜜唇·哈巴西感谢我带给她内拉诺府邸的钥匙。
 
 > INFO.NAME il_courtesy 1650670122645023757
 Imperial Legion: Courtesy
@@ -15477,7 +15477,7 @@ The Royal Guard have ordered me to report the attack to Tienius Delitian at the 
 
 > INFO.NAME tr_mhattack 300511110064724031
 The High Ordinators have ordered me to report the attack to Fedris Hler at the Temple.
-至高神殿卫兵命令我向神殿的费德里斯·海勒报告这次攻击。 {神殿卫兵们}
+至高神殿卫兵命令我向神殿的费德里斯·赫勒报告这次攻击。 {神殿卫兵们}
 
 > INFO.NAME tr_mhattack 346819328212718323
 I have reported the attack on the city to Tienius Delitian.
@@ -15485,7 +15485,7 @@ I have reported the attack on the city to Tienius Delitian.
 
 > INFO.NAME tr_mhattack 4974198413160629316
 I have reported the attack on the city to Fedris Hler.
-我已经向费德里斯·海勒报告了城市遭到袭击的情况。
+我已经向费德里斯·赫勒报告了城市遭到袭击的情况。
 
 > INFO.NAME hr_courier 266308072312891199
 House Redoran: Deliver Cure Disease Potion
@@ -15541,15 +15541,15 @@ Fighters Guild: Exterminator
 
 > INFO.NAME fg_rathunt 68311573612315980
 Eydis Fire-Eye told me to talk to Drarayne Thelas about some rats that have infested her house. Her house is here in Balmora, on the east side of town, near the river.
-艾迪斯·火-眼让我去找德拉蕾妮·西拉斯谈谈她家老鼠出没的事。她家就在巴尔莫拉，在镇子的东边，靠近河边。
+艾迪斯·火眼让我去找德拉蕾妮·西拉斯谈谈她家老鼠出没的事。她家就在巴尔莫拉，在镇子的东边，靠近河边。
 
 > INFO.NAME fg_rathunt 309741434027016795
 I reported to Eydis Fire-Eye that I had killed the rats plaguing Drarayne Thelas.
-我向艾迪斯·火-眼报告说，我已经杀死了困扰德拉蕾妮·西拉斯的老鼠。
+我向艾迪斯·火眼报告说，我已经杀死了困扰德拉蕾妮·西拉斯的老鼠。
 
 > INFO.NAME fg_rathunt 22394294079377608
 Eydis Fire-Eye realized that Drarayne Thelas was dead, and her rat problem was no longer an issue.
-艾迪斯·火-眼意识到德拉蕾妮·西拉斯已经死了，她的老鼠问题也不再是问题了。
+艾迪斯·火眼意识到德拉蕾妮·西拉斯已经死了，她的老鼠问题也不再是问题了。
 
 > INFO.NAME fg_debtorc 3013718702256772531
 Fighters Guild: Juicedaw Ring
@@ -16261,11 +16261,11 @@ Radd Heart-Hart asked me to rescue Dandsa, an Imperial citizen, who was captured
 
 > INFO.NAME il_damsel 735628859178898991
 Radd Hard-Heart thanked me for rescuing Dandsa.
-拉德·铁-心感谢我救了丹莎。
+拉德·铁心感谢我救了丹莎。
 
 > INFO.NAME il_damsel 207353063794506633
 I told Radd Hard-Heart that Dandsa is dead.
-我告诉拉德·铁-心，丹莎已经死了。
+我告诉拉德·铁心，丹莎已经死了。
 
 > INFO.NAME a1_dreams 8888287693085825729
 Sleepers Awake
@@ -16749,11 +16749,11 @@ Investigate Bamz-Amschend
 
 > INFO.NAME tr_bamz 2364417248242112556
 Fedris Hler has told me to investigate the source of the attacks on the city. A passageway to an underground Dwemer ruin has opened in the Plaza, and I am to explore the area and report to Drin as soon as I have information on the creatures' origin. The entrance is in the ruins of the Memorial Statue.
-费德里斯·海勒让我去调查城市受到的攻击的源头。广场上出现了一条通往地下锻莫废墟的通道，我要探索这个区域，一旦有了关于这些生物来源的信息，就立即向德林报告。入口在纪念雕像的废墟里。
+费德里斯·赫勒让我去调查城市受到的攻击的源头。广场上出现了一条通往地下锻莫废墟的通道，我要探索这个区域，一旦有了关于这些生物来源的信息，就立即向德林报告。入口在纪念雕像的废墟里。
 
 > INFO.NAME tr_bamz 927214446574517373
 Delitian knows I have reported the attack to Hler, and he would also like me to investigate the source of the attacks. He suggests that I should report the findings to him, as it is a concern for the Empire.
-德利天知道我已经向海勒报告了这次攻击，他也希望我调查攻击的来源。他建议我把调查结果报告给他，帝国也对这次袭击感到忧虑。 {泰姆瑞尔帝国}
+德利天知道我已经向赫勒报告了这次攻击，他也希望我调查攻击的来源。他建议我把调查结果报告给他，帝国也对这次袭击感到忧虑。 {泰姆瑞尔帝国}
 
 > INFO.NAME tr_bamz 1640164102351419616
 Tienius Delitian has told me to investigate the source of the attacks on the city. A passageway to an underground Dwemer ruin has opened in the Plaza, and I am to explore the area and report to Delitian as soon as I have information on the creatures' origin. The entrance is in the ruins of the Memorial Statue.
@@ -16761,7 +16761,7 @@ Tienius Delitian has told me to investigate the source of the attacks on the cit
 
 > INFO.NAME tr_bamz 1639619465707620173
 Hler has heard that I reported the attack to Tienius Delitian. He would also like me to investigate the source of the attacks, but he believes this is a matter for the Temple to deal with.
-海勒听说我向蒂纽斯·德利天报告了这次袭击。他也希望我调查攻击的来源，但他认为这个问题应该让神殿来处理。
+赫勒听说我向蒂纽斯·德利天报告了这次袭击。他也希望我调查攻击的来源，但他认为这个问题应该让神殿来处理。
 
 > INFO.NAME tr_bamz 222126649249644522
 I have witnessed Dwemer constructs and these mysterious new Fabricant creatures battling in the ruins of Bamz-Amschend. The Dwemer creatures seemed to be defending the ruins against the intruding constructs. Their origin is still a mystery to me, but it is clear that they are not of Dwemer make. I should report my findings immediately.
@@ -16773,7 +16773,7 @@ I have reported to Tienius Delitian about the fight I witnessed in the ruins of 
 
 > INFO.NAME tr_bamz 357425717228138288
 I have reported to Fedris Hler about the fight I witnessed in the ruins of Bamz-Amschend. I should relay the information to Almalexia.
-我已经向费德里斯·海勒报告了我在巴姆兹-阿姆申德的废墟中目睹的战斗。我应该向阿玛莱西娅转达这些信息。
+我已经向费德里斯·赫勒报告了我在巴姆兹-阿姆申德的废墟中目睹的战斗。我应该向阿玛莱西娅转达这些信息。
 
 > INFO.NAME fg_vas 291458702068130499
 Fighters Guild: The Necromancer of Vas
@@ -16877,11 +16877,11 @@ You've brought me clear evidence of disloyalty among the guards. Now I need your
 
 > INFO.NAME disloyalty among the guards 2004131462269438308
 This is Ivulen Irano's handwriting on the note you found. He notes the watches when Dralen, Aren, and Irano are the only guards in the Throne Room. I believe I'll change the watch schedules to prevent that. And I'll need to keep a close eye on all three. Very shrewd work, %PCName. You've brought me clear evidence of disloyalty among the guards. Now I need your help finding evidence of conspiracy against King Helseth among the Hlaalu nobles.
-这是伊武伦·伊拉诺在你找到的纸条上的笔迹。他记下了德拉伦、爱伦和伊拉诺是王座厅里唯一的守卫时的时间表。我会改变值守的时间表，以防止这种情况。而且我需要密切关注这三个人的情况。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在，我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
+这是伊武伦·伊拉诺在你找到的纸条上的笔迹。他记下了达拉伦、爱伦和伊拉诺是王座厅里唯一的守卫时的时间表。我会改变值守的时间表，以防止这种情况。而且我需要密切关注这三个人的情况。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在，我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
 
 > INFO.NAME disloyalty among the guards 571316436292146115
 The handwriting on the note you found is Ivulen Irano's. He notes the watches when Dralen, Aren, and Irano are the only guards in the Throne Room. I believe I'll change the watch schedules to prevent that. And I'll need to keep a close eye on all three. Very shrewd work, %PCName. You've brought me clear evidence of disloyalty among the guards. Now I need your help finding evidence of conspiracy against King Helseth among the Hlaalu nobles.
-你发现的纸条上的笔迹是伊武伦·伊拉诺的。他记下了德拉伦、爱伦和伊拉诺是王座室里唯一的卫兵时的时刻表。我会改变值守的时间表以防止这种情况。而且我需要密切关注这三个人。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
+你发现的纸条上的笔迹是伊武伦·伊拉诺的。他记下了达拉伦、爱伦和伊拉诺是王座室里唯一的卫兵时的时刻表。我会改变值守的时间表以防止这种情况。而且我需要密切关注这三个人。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
 
 > INFO.NAME disloyalty among the guards 203103026611831927
 So you spoke to Aleri Aren about your Hlaalu connections, as Ivulen Irano suggested, and Aleri Aren acted like she didn't know what he was talking about. Perhaps you are right. Perhaps Aleri Aren was covering up for Ivulen Irano. See if you can find some more tangible evidence of disloyalty -- something in writing, perhaps. Ivulen Irano seems to be the weak link. Take a careful look at his possessions in the Guard Quarters. But be careful. Don't get caught, or you'll be attacked like a common thief.
@@ -16969,7 +16969,7 @@ These attacks are an affront to this city and to the Lady. We must learn more ab
 
 > INFO.NAME investigate the disturbance 15890256932836715029
 I heard you reported your findings to Hler. I'm disappointed, %PCName. Still, we were able to retrieve the information as well.
-我听说你向海勒报告了你的发现。我很失望，%PCName。不过，我们自己也能了解到情况。
+我听说你向赫勒报告了你的发现。我很失望，%PCName。不过，我们自己也能了解到情况。
 
 > INFO.NAME investigate the disturbance 3205149322573620503
 That's been taken care of.
@@ -17369,7 +17369,7 @@ Warn Forven Berano, and let him escape.
 
 > INFO.NAME evidence of conspiracy 2943615344769027125
 You have shown yourself an honorable %PCRace. I thank you. I will absent myself from Mournhold immediately. And I would die before I'd betray your generosity to me. And now, if you'll excuse me, I believe an Almsivi Intervention will swiftly deliver me out of peril.
-看来你是一个可敬的%PCRace。我感谢你。我将立即离开哀伤之城。我死也不会辜负你对我的慷慨。现在，你不介意的话，我相信阿玛希维干预术能让我迅速脱离危险。
+看来你是一个可敬的 %PCRace。我感谢你。我将立即离开哀伤之城。我死也不会辜负你对我的慷慨。现在，你不介意的话，我相信阿玛希维干预术能让我迅速脱离危险。
 
 > INFO.NAME evidence of conspiracy 2107921537599125856
 But... I can see I am doomed. then it is better to die here than rot in Helseth's dungeon. Do your worst, villain!
@@ -17617,7 +17617,7 @@ Not with that wee little beastie person peering at me with those big round eyes 
 
 > INFO.NAME back for another round 126391760623911880
 Once not enough, you squat, *hiccup* dumpy treefrog of an elf? I'll take on you and your ugly *hiccup* %PCRace friend too.
-一次还不够么，你这个蹲着的，*打嗝* 矮胖的树蛙精灵？我把你和你那丑陋的 *打嗝* %PCRace朋友一起教训一顿。
+一次还不够么，你这个蹲着的，*打嗝* 矮胖的树蛙精灵？我把你和你那丑陋的 *打嗝* %PCRace 朋友一起教训一顿。
 
 > INFO.BNAM back for another round 126391760623911880 c1
 Holmar, you're obviously drunk. Why don't you head out and sober up?
@@ -17789,7 +17789,7 @@ The manors are in the west; the Winged Guar -- the local cornerclub -- the Craft
 
 > INFO.NAME someone in particular 26077673137419609
 Almalexia, our Lady of Mercy, dwells in her Temple. Her steward, Fedris Hler, and the Lord Archcanon, Gavas Drin, also reside in the Temple. King Hlaalu Helseth and his mother, Queen Barenziah, live in the Royal Palace. Tienius Delitian is Captain of the Royal Guard. It's a big city. If there's someone else you want, ask around.
-阿玛莱西娅，我们的仁慈圣母，住在她的神殿里。她的管家费德里斯·海勒和大主教加瓦斯·德林也住在神殿里。哈拉鲁·赫尔塞斯国王和他的母亲巴兰兹娅太后住在王室宫殿里。蒂纽斯·德利天是王室卫兵的队长。这是一个很大的城市。如果你想找别的人，四处问问看。 {瓜尔}
+阿玛莱西娅，我们的仁慈圣母，住在她的神殿里。她的管家费德里斯·赫勒和大主教加瓦斯·德林也住在神殿里。哈拉鲁·赫尔塞斯国王和他的母亲巴兰兹娅太后住在王室宫殿里。蒂纽斯·德利天是王室卫兵的队长。这是一个很大的城市。如果你想找别的人，四处问问看。 {瓜尔}
 
 > INFO.NAME someone in particular 2963712435680719868
 What do you mean you're looking for me? I don't know you, do I? You say you have a note from Ernil?
@@ -18209,7 +18209,7 @@ It is I who serve all of Morrowind. Your help has been appreciated, %PCName. I h
 
 > INFO.NAME barilzar's mazed band 2374359641917913512
 Do not concern yourself too deeply in these matters, friend %PCName. I will use the ring as I do everything...to serve the Temple and all of Morrowind. You have been a pleasant surprise to meet. I have seen something in you that I have not seen in a very long time. I bestow the blessing of My Light upon you. May it serve you well. We will speak again soon.
-别太担心这些事情，%PCName朋友。我将像平常一样使用戒指……为神殿和全晨风服务。我很高兴遇到了你。我在你身上看到了很久没有见过的东西。我把我的祝福之光赐给你。愿它为你效力。我们很快会再次交谈。 {侍奉}
+别太担心这些事情，%PCName 朋友。我将像平常一样使用戒指……为神殿和全晨风服务。我很高兴遇到了你。我在你身上看到了很久没有见过的东西。我把我的祝福之光赐给你。愿它为你效力。我们很快会再次交谈。 {侍奉}
 
 > INFO.NAME barilzar's mazed band 429323921202362942
 An interesting item, is it not? It seems ordinary enough, but it is much more. The ring is cold now, but the embers of its power still burn hot within. I will use my magic to reawaken this power.
@@ -18241,7 +18241,7 @@ You've found the ring and returned it to the goddess? Foolish, foolish, foolish.
 
 > INFO.NAME barilzar's mazed band 4351258781176015618
 You should not even speak of that cursed object! I'm sorry, friend %PCName...I did not mean to snap at you. I have heard many tales of that ring, and the evil Barilzar who created it. It was to be a means of teleportation for the wizard, but it was much worse than that. That ring was said to open gates to hellish planes, releasing creatures best left in nightmare. I've heard the ring was stripped of its power, and that only a god could use it now and not be destroyed. The thought chills my bones.
-你甚至不应该谈论那个被诅咒的东西！对不起，%PCName朋友……我不是故意要对你发火。我听说过很多关于那枚戒指的故事，以及创造它的邪恶的巴里扎尔。它本应是巫师的一种传送手段，但它比这糟糕得多。据说那枚戒指可以打开通往地狱的大门，释放出最好留在噩梦中的生物。我听说戒指被剥夺了力量，现在只有神才能使用它而不被毁灭。这个想法让我寒毛直竖。 {计划,寒颤}
+你甚至不应该谈论那个被诅咒的东西！对不起，%PCName 朋友……我不是故意要对你发火。我听说过很多关于那枚戒指的故事，以及创造它的邪恶的巴里扎尔。它本应是巫师的一种传送手段，但它比这糟糕得多。据说那枚戒指可以打开通往地狱的大门，释放出最好留在噩梦中的生物。我听说戒指被剥夺了力量，现在只有神才能使用它而不被毁灭。这个想法让我寒毛直竖。 {计划,寒颤}
 
 > INFO.NAME barilzar's mazed band 8781583345642632
 I understand you have found the thing and returned it to the goddess. Walk with care, %PCName. It is wise to be wary of gods with mortal failings.
@@ -18809,7 +18809,7 @@ I know of nothing you may do for the Lady Almalexia at this time.
 
 > INFO.NAME service to our lady 3095912007739921190
 Unfortunately, I know of nothing you may do for the Lady now. Speak with Fedris Hler. He usually has errands that must be completed by the lowly. Don't let him tell you he has nothing to be done. I'm sure there's something.
-不幸的是，我不知道你现在可以为圣母做什么。跟费德里斯·海勒说吧。他通常有一些必须由低级别的人完成的任务。别让他告诉你他没有事情可做让你做。我敢肯定是有的。 {差事}
+不幸的是，我不知道你现在可以为圣母做什么。跟费德里斯·赫勒说吧。他通常有一些必须由低级别的人完成的任务。别让他告诉你他没有事情可做让你做。我敢肯定是有的。 {差事}
 
 > INFO.NAME service to our lady 17615160531930412071
 Finish your task at hand, and then maybe we will speak about it.
@@ -18837,7 +18837,7 @@ Hmmm...I have nothing for you at this time. Speak with Gavas Drin, the Lord Arch
 
 > INFO.NAME service to our lady 2307721958258385187
 I am always aware of those who might be able to serve our Lady Almalexia. Few are worthy to do so. The Temple and the city is guarded by the High Ordinators, and the Hands fulfill other duties for the Lady. I am her Chief Steward, Fedris Hler. Now, if you wish to be of use, we have some matters to discuss.
-我一直都知道有哪些人可以侍奉我们的阿玛莱西娅圣母。很少有人配得上这样做。神殿和城市由至高神殿卫兵守护，阿玛莱西娅之手为夫人完成其他任务。我是她的总管，费德里斯·海勒。现在，如果你想派上点用场，完成点职务，我们可以来讨论要事。 {瓜尔,神殿卫兵们}
+我一直都知道有哪些人可以侍奉我们的阿玛莱西娅圣母。很少有人配得上这样做。神殿和城市由至高神殿卫兵守护，阿玛莱西娅之手为夫人完成其他任务。我是她的总管，费德里斯·赫勒。现在，如果你想派上点用场，完成点职务，我们可以来讨论要事。 {瓜尔,神殿卫兵们}
 
 > INFO.NAME ten-tongues weerhat 1173023524297888417
 Lizard maggot has said too much, has he?  Ahnia will silence him, but first Ahina will silence you!
@@ -19757,7 +19757,7 @@ You say you've killed the local Dark Brotherhood leader, have you? And he spoke 
 
 > INFO.NAME dark brotherhood 26833042354743460
 You believe you've killed their leader? Maybe, maybe not. Perhaps you should speak with Fedris Hler about this.
-你相信你已经杀了他们的首领？也许是，也许不是。也许你应该和费德里斯·海勒谈谈这个问题。
+你相信你已经杀了他们的首领？也许是，也许不是。也许你应该和费德里斯·赫勒谈谈这个问题。
 
 > INFO.NAME dark brotherhood 236123770298022747
 You believe you've killed their leader? I wouldn't count on that. You probably ought to speak to Tienius Delitian about it.
@@ -19793,7 +19793,7 @@ Why would you want anything to do with those scum?
 
 > INFO.NAME dark brotherhood 22110144442459225358
 I don't know anything about who might have sent those people after you. If you're looking for help, try talking to Tienius Delitian at the Royal Palace. If you're a more religious sort, try speaking with Fedris Hler at the Temple. Either of them might be able to help you.
-我不知道谁会派那些人去追杀你。如果你想寻求帮助，可以试试和王室宫殿里的蒂纽斯·德利天谈谈。如果你是个虔信徒，可以试着和神殿的费德里斯·海勒谈谈。他们中的任何一个有可能帮得上你。
+我不知道谁会派那些人去追杀你。如果你想寻求帮助，可以试试和王室宫殿里的蒂纽斯·德利天谈谈。如果你是个虔信徒，可以试着和神殿的费德里斯·赫勒谈谈。他们中的任何一个有可能帮得上你。
 
 > INFO.NAME dark brotherhood 1153953981787613029
 Scum, all of them. If they're after you, friend, you'd better find yourself some help. Or write a will. Or both.
@@ -20089,19 +20089,19 @@ I'm cool. No problems.
 
 > INFO.NAME causing problems 643514478144145764
 Well, okay, I guess, but just because you ask me so nice. Bartender! Get me another sujamma so I can sit here and drink all quiet and sweet like the good %PCRace says.
-好吧，好吧，我想，但只是因为你好好地问我了。酒保！再给我来一杯苏伽玛，让我可以坐在这里安静甜美地喝酒，就像这位好%PCRace说的那样。
+好吧，好吧，我想，但只是因为你好好地问我了。酒保！再给我来一杯苏伽玛，让我可以坐在这里安静甜美地喝酒，就像这位好 %PCRace 说的那样。
 
 > INFO.NAME causing problems 1353115325312871696
 *hic* Not for the likes of a dirty %PCRace like you, you... you... bubble-faced puke. I can say whatever I want to say and nobody can stop me. NOBODY!
-*咳* 我可不跟你这样肮脏的%PCRace，你……你……泡沫脸的呕吐物。我想说什么就说什么，没人能阻止我。没有人！
+*咳* 我可不跟你这样肮脏的 %PCRace，你……你……泡沫脸的呕吐物。我想说什么就说什么，没人能阻止我。没有人！
 
 > INFO.NAME causing problems 1558417643780330399
 No, I'm not coming with you, you dirty %PCRace! *hic* Who knows what revolting tricks you'll pull when we're alone. *hic*  GET AWAY FROM ME! You won't take me in! You can't! VICTORY! OR... VICTORY!
-不，我不和你一起去，你这个肮脏的%PCRace！*咳* 谁知道就只有我们俩的时候你会耍什么花招。*咳* 离我远点！你别想说服我！你不能！胜利！或者……胜利！ {造反}
+不，我不和你一起去，你这个肮脏的 %PCRace！*咳* 谁知道就只有我们俩的时候你会耍什么花招。*咳* 离我远点！你别想说服我！你不能！胜利！或者……胜利！ {造反}
 
 > INFO.NAME causing problems 1768268483140018819
 That's right!  *hic* I've never met a %PCRace I liked. I say we should just ship them all back to... to... *hic* well, to wherever the heck they came from and build a wall between us and them. WHO'S WITH ME?!
-这就对了！*咳* 我从没遇到过我喜欢的%PCRace。要我说我们应该把他们全部运回……运回……*咳* 好吧，从哪来的送回哪去，然后建一堵墙把我们和他们隔开。谁同意？！
+这就对了！*咳* 我从没遇到过我喜欢的 %PCRace。要我说我们应该把他们全部运回……运回……*咳* 好吧，从哪来的送回哪去，然后建一堵墙把我们和他们隔开。谁同意？！
 
 > INFO.BNAM causing problems 1768268483140018819 c1
 Sir, why don't you calm down a bit?
@@ -20257,7 +20257,7 @@ Go on! You expect me to know all the names of people in this city? Be reasonable
 
 > INFO.NAME anonymous writer 103181456981114945
 This is an interesting problem. You wish to know the name of a writer. And this writer does not wish his name to be known. %Name hopes you are patient and clever to solve this problem. But, alas, %Name cannot offer you assistance in this matter.
-这是个有趣的问题。你想知道一个作者的名字。而这位作者并不希望他的名字被人知道。%Name希望你有耐心和智慧来解决这个问题。但是，不幸的是，%Name在这件事上帮不了你。 {令状}
+这是个有趣的问题。你想知道一个作者的名字。而这位作者并不希望他的名字被人知道。%Name 希望你有耐心和智慧来解决这个问题。但是，不幸的是，%Name 在这件事上帮不了你。 {令状}
 
 > INFO.NAME anonymous writer 341930768249026327
 Don't know anything about it. It's just one of life's little mysteries, I guess.
@@ -21001,7 +21001,7 @@ I'm afraid there isn't anything left, %PCName.  The Estate Sale went quite well,
 
 > INFO.NAME particular item 26994291703271518820
 That dagger was what you were looking for, wasn't it %PCName?  If there's anything else you're looking for, I'm afraid it'll have to wait until the auction.
-那把匕首就是你要找的东西，不是吗%PCName？如果你还想要什么东西，恐怕你得等到拍卖会了。
+那把匕首就是你要找的东西，不是吗 %PCName？如果你还想要什么东西，恐怕你得等到拍卖会了。
 
 > INFO.NAME particular item 414645092472315247
 A Droth Dagger?  Yes, he did indeed have one.  Something he'd mentioned to you, I presume?  Well, you're certainly welcome to it.  I don't like weapons, to be honest.  Please take this, and think fondly of Sandas.  I'm sure he'd want you to have it.
@@ -21575,15 +21575,15 @@ Continue
 
 > INFO.NAME crimson plague 209603160625825850
 Gedna Relvel is gone? Then perhaps others will not get sick from disease like Shunari. %PCName has done a good thing.
-吉德纳·瑞艾维尔死了？那么，也许其他人就不会像舒娜莉那样感染瘟疫了。%PCName已经做了一件好事。 {疾病}
+吉德纳·瑞艾维尔死了？那么，也许其他人就不会像舒娜莉那样感染瘟疫了。%PCName 已经做了一件好事。 {疾病}
 
 > INFO.NAME crimson plague 1639197471620123637
 %PCName must kill Gedna Relvel, and make bad disease go away!
-%PCName必须杀死吉德纳·瑞艾维尔，让瘟疫消失！ {疾病}
+%PCName 必须杀死吉德纳·瑞艾维尔，让瘟疫消失！ {疾病}
 
 > INFO.NAME crimson plague 19608107942459924839
 Bad disease it must be, for it makes poor Shunari feel weak, and hurts her poor head. But %PCName has made Shunari feel much better, so Shunari will not dwell on how %PCName allowed disease to spread by opening forbidden tomb. And now brave %PCName will go find and kill Gedna Relvel!
-这一定是糟糕的疾病，因为它让可怜的舒娜莉感到虚弱，让她可怜的头疼痛无比。但%PCName已经让舒娜莉感觉好多了，所以舒娜莉不会再纠结于%PCName是如何通过打开禁忌之墓让疾病蔓延的。而现在，勇敢的%PCName将去找到并杀死吉德纳·瑞艾维尔！
+这一定是糟糕的疾病，因为它让可怜的舒娜莉感到虚弱，让她可怜的头疼痛无比。但 %PCName 已经让舒娜莉感觉好多了，所以舒娜莉不会再纠结于 %PCName 是如何通过打开禁忌之墓让疾病蔓延的。而现在，勇敢的 %PCName 将去找到并杀死吉德纳·瑞艾维尔！
 
 > INFO.NAME eleidon's ward 128391262268073001
 What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!
@@ -22547,19 +22547,19 @@ Where beneath Mournhold? Well, that's a secret, of course. Worth quite a lot, an
 
 > INFO.NAME secret passage 1988419660152455742
 Shunari is happy to have helped %PCName find the passage.
-舒纳莉很高兴能帮助%PCName找到通道。
+舒纳莉很高兴能帮助 %PCName 找到通道。
 
 > INFO.NAME secret passage 1611884662818229444
 %PCName has found the passage, yes? Then %PCName should not be here talking to Shunari. %PCName should be finding Gedna Relvel.
-%PCName已经找到了通道，是吗？那么，%PCName就不应该在这里和舒纳莉说话。他应该去找吉德纳·瑞艾维尔。 {谈}
+%PCName 已经找到了通道，是吗？那么，%PCName 就不应该在这里和舒纳莉说话。他应该去找吉德纳·瑞艾维尔。 {谈}
 
 > INFO.NAME secret passage 24927276862820716618
 %PCName should look in room with wooden ladder; columns are there, and wall is between them. Shunari does not know how Gedna Relvel opens the wall; Shunari last saw her standing right in front of it.
-%PCName应该看看有木梯的房间；柱子在那里，墙在它们之间。舒纳莉不知道吉德纳·瑞艾维尔是如何打开墙的；舒纳莉最后看到她就站在墙的前面。
+%PCName 应该看看有木梯的房间；柱子在那里，墙在它们之间。舒纳莉不知道吉德纳·瑞艾维尔是如何打开墙的；舒纳莉最后看到她就站在墙的前面。
 
 > INFO.NAME secret passage 30965174272964617161
 Shunari does not know for sure how passage works. She sees Gedna Relvel walk down ladder, and up to wall between two columns. Shunari looked away, and when she looked back, nasty lich was gone. Will brave %PCName try and enter passage, and kill foul lich?
-舒纳莉不确定通道是如何运作的。她看到吉德纳·瑞艾维尔走下梯子，走到两根柱子之间的墙上。舒纳莉看向远方，当她回头看时，讨厌的巫妖已经离开了。勇敢的%PCName会尝试进入通道，并杀死肮脏的巫妖吗？ {工作}
+舒纳莉不确定通道是如何运作的。她看到吉德纳·瑞艾维尔走下梯子，走到两根柱子之间的墙上。舒纳莉看向远方，当她回头看时，讨厌的巫妖已经离开了。勇敢的 %PCName 会尝试进入通道，并杀死肮脏的巫妖吗？ {工作}
 
 > INFO.NAME elbert nermarc 765114483039422559
 Yes?
@@ -22947,7 +22947,7 @@ New in Morrowind, eh? Well, the natives are not very friendly. They still resent
 
 > INFO.NAME little advice 3054442211812013686
 It pays to take it slow when you first come to Morrowind. When you talk to folks, keep an eye on their dispositions. They let you know if you don't like them, and it's smart to get on a f'lah's good side before you ask for a favor.
-初到晨风，慢慢来是有好处的。当你和人们交谈时，留意他们的反应。如果你不喜欢他们，他们就会让你知道，在你想要请求帮忙之前，先和一个F'lah（老乡）打好关系是很明智的。
+初到晨风，慢慢来是有好处的。当你和人们交谈时，留意他们的反应。如果你不喜欢他们，他们就会让你知道，在你想要请求帮忙之前，先和一个f'lah（老乡）打好关系是很明智的。
 
 > INFO.NAME little advice 16218272792095952
 Best bet if you're new here is to hook up with one of the Imperial Guilds -- Fighters Guild or Mages Guild. It's not what you know, it's who you know. You'll get discounts on training and services, and if you need work, they know where to find it.
@@ -22955,7 +22955,7 @@ Best bet if you're new here is to hook up with one of the Imperial Guilds -- Fig
 
 > INFO.NAME little advice 2018520112243419605
 You look like a f'lah who knows his way around, eh? Looking for what others are looking for. Well, they don't have an Imperial charter, but there's honor among thieves, if you know what I mean. Look in the tradehouses and cornerclubs, talk around. If you look likely, and talk likely, they'll give you the word.
-你看起来像个懂行的人，对吧？在找别人在找的东西。好吧，他们没有帝国人的特许证，但盗亦有道，你懂我的意思吧。在贸易行和议会所里找找看，四处聊聊。如果你看起来有可能，说话也有可能，他们就会给你消息。 {谈}
+你看起来像个懂行的f'lah（伙计），对吧？在找别人在找的东西。好吧，他们没有帝国人的特许证，但盗亦有道，你懂我的意思吧。在贸易行和议会所里找找看，四处聊聊。如果你看起来有可能，说话也有可能，他们就会给你消息。 {谈}
 
 > INFO.NAME little advice 26860306083247622226
 Don't expect the natives to take to you right away. Colonists like us -- outlanders, settlers from the other provinces -- will be more open and friendly at the start. Then, maybe when you do a few things, get your name around, gain a reputation, then the locals will open up a little. Stick to your own kind to start, and it will go a little easier.
@@ -22979,7 +22979,7 @@ Me, I can afford it, so I buy my bed and board here. But there's no harm in slee
 
 > INFO.NAME little advice 25326318635610711
 You can read, can't you? Well, read some books. That's what they write 'em for. Got all the damn advice anyone could want in 'em. Buy 'em, read 'em, sell 'em back. Most folks don't mind if you take a peek at what books they got. Proud of being book-learned. Of course, if the f'lah is SELLING books, he wants you to buy 'em, THEN read 'em. It stands to reason.
-你会读书，对吗？那就读点书吧。人们写书就是让你读的。吸取书里的所有该死的建议。买下它们，阅读它们，再把它们卖回去。大多数人不会介意你偷看他们的书。他们为自己是书香门第而感到骄傲。当然，如果这个F'lah（伙计）是卖书的，他希望你先买，然后再读。这是有道理的。 {令状}
+你会读书，对吗？那就读点书吧。人们写书就是让你读的。吸取书里的所有该死的建议。买下它们，阅读它们，再把它们卖回去。大多数人不会介意你偷看他们的书。他们为自己是书香门第而感到骄傲。当然，如果这个f'lah（伙计）是卖书的，他希望你先买，然后再读。这是有道理的。 {令状}
 
 > INFO.NAME little advice 20716865470626437
 Don't know anything about adventuring? Here's the basics. Travel light, run like a kagouti. Don't go poking in holes unless you know what you're doing. Common sense.
@@ -23607,7 +23607,7 @@ Don't mess with the Royal Guard. It's not a mistake you'll get to repeat.
 
 > INFO.NAME little secret 65414780932151
 All the power in Mournhold starts with Almalexia at the Temple. Of course, no mere mortal is going to get access to the Lady of Mercy. But Fedris Hler, her steward, is quite approachable. Start with him, win his confidence, and then maybe things will open up for you.
-哀伤之城的所有力量都是从神殿里的阿玛莱西娅开始的。当然，凡人不可能随便接触到仁慈圣母。但费德里斯·海勒，她的管家，是很容易接近的。从他开始，赢得他的信任，然后事情也许会豁然开朗。
+哀伤之城的所有力量都是从神殿里的阿玛莱西娅开始的。当然，凡人不可能随便接触到仁慈圣母。但费德里斯·赫勒，她的管家，是很容易接近的。从他开始，赢得他的信任，然后事情也许会豁然开朗。
 
 > INFO.NAME little secret 16941787082512064
 If you are looking for access to the places of power, start with Tienius Delitian, King Helseth's Captain of the Royal Guard. He's fair and professional, and King Helseth is no simple figurehead, unlike his predecessor. There's real power there, and Helseth is just going to get more powerful as he learns how Mournhold works.
@@ -25643,7 +25643,7 @@ Oh how wonderful! This is exactly what I wanted. Thank you so much, %PCName. I h
 
 > INFO.NAME my collection 304271784263553317
 Why do you lie to me %PCName? I'm just a simple collector of clutter looking for my Champion. Come back again when you have the cloth and pitcher.
-你为什么要对我撒谎%PCName？我只是一个普通的杂物收集者，正在寻找我的冠军。等你拿到布和水壶再回来吧。
+你为什么要对我撒谎 %PCName？我只是一个普通的杂物收集者，正在寻找我的冠军。等你拿到布和水壶再回来吧。
 
 > INFO.NAME my collection 1125777901054427463
 Well, please get them to me as soon as possible. this matter is of the highest urgency. Remember, the fabric is burgundy and has a diamond pattern on the side, and the pitcher is silver.
@@ -25695,7 +25695,7 @@ It is a glorious sacrifice for the good of all the people.
 
 > INFO.NAME the cleansing 279916338606412388
 It is a glorious ritual, friend %PCName. Our followers cleanse themselves of all of their troubles, all of their burdens here on this earth. They send themselves ahead to the ancestors, spreading our word, making ready for when we shall all join them in our fight against the daedric hordes.
-这是一个光荣的仪式，%PCName朋友。我们的追随者清洗他们所有的麻烦，他们在这个世界上所有的负担。他们把自己送到祖先们面前，传播我们的话语，为我们与他们一起对抗迪德拉大军做准备。 {先祖,沙尔,迪德拉式}
+这是一个光荣的仪式，%PCName 朋友。我们的追随者清洗他们所有的麻烦，他们在这个世界上所有的负担。他们把自己送到祖先们面前，传播我们的话语，为我们与他们一起对抗迪德拉大军做准备。 {先祖,沙尔,迪德拉式}
 
 > INFO.NAME greater honor 26560251211023025681
 The only thing I hope for is to one day be able to publish further volumes of the work, to chronicle the Lady's life after her marriage to King Eadwyre. Perhaps one day I will be able to, but I am old, and my time grows short. Oh, that I could write fiction as great as the plot the Lady Barenziah has lived!
@@ -25799,7 +25799,7 @@ She's around here somewhere. Check over to the west end of the Bazaar.
 
 > INFO.NAME other matters 9308308071979514
 Mournhold is a town of two minds. On the one hand, there is the monarchy, led by Helseth, and on the other there is the Temple, and the goddess Almalexia. It is hard to know whom you may trust. While there has been no open hostility between the two, there are always undercurrents that bear watching. I would like you to make yourself known to the Temple. See what you can learn. Speak to Fedris Hler. He is a powerful man in the Temple, a confidant of Almalexia. See if you can get to know him a bit.
-哀伤之城里有两种意志。一方面是由赫尔塞斯领导的君主制，另一方面是神殿和女神阿玛莱西娅。很难说谁值得你信任。虽然两者之间没有公开敌对，但总有一些暗流涌动，值得关注。我希望你能让神殿了解你。看看你能了解到什么。和费德里斯·海勒谈谈。他在神殿里有权有势，是阿玛莱西娅的心腹。看看你能不能了解他一点。
+哀伤之城里有两种意志。一方面是由赫尔塞斯领导的君主制，另一方面是神殿和女神阿玛莱西娅。很难说谁值得你信任。虽然两者之间没有公开敌对，但总有一些暗流涌动，值得关注。我希望你能让神殿了解你。看看你能了解到什么。和费德里斯·赫勒谈谈。他在神殿里有权有势，是阿玛莱西娅的心腹。看看你能不能了解他一点。
 
 > INFO.NAME athyn llethan 8249159212000120868
 The former king was an old man and had been ill for a while. He had no sons or daughters. Helseth is Llethan's great-nephew -- Barenziah is Llethan's niece. Queen Barenziah renounced her claim to the throne, so, according to Imperial custom, the crown goes to Prince Helseth. He didn't do much, but we assumed he wasn't supposed to. We thought he was just a convenient fiction for Imperial administrative purposes.
@@ -25907,19 +25907,19 @@ I've heard enough about her to be scared.  A powerful sorceress, condemned for s
 
 > INFO.NAME gedna relvel 2443018671281705114
 Gedna Relvel is dead this time, yes? And there is no more treasure to be found? Then Shunari has no reason to stay. %PCName should go tell Nerile Andaren that lich is gone. Shunari will not forget what %PCName has done, though her path may not cross %PCName's again. Farewell.
-吉德纳·瑞艾维尔这次是死了，是吗？而且也没有宝藏可以找了？那么，舒纳莉没有留在这的理由了。%PCName应该去告诉娜丽尔·安达伦，巫妖已经死了。舒纳瑞不会忘记娜丽尔·安达伦所做的一切，尽管她的道路可能不会再与娜丽尔·安达伦交汇。再见了。
+吉德纳·瑞艾维尔这次是死了，是吗？而且也没有宝藏可以找了？那么，舒纳莉没有留在这的理由了。%PCName 应该去告诉娜丽尔·安达伦，巫妖已经死了。舒纳瑞不会忘记娜丽尔·安达伦所做的一切，尽管她的道路可能不会再与娜丽尔·安达伦交汇。再见了。
 
 > INFO.NAME gedna relvel 1286566482956031220
 Shunari has not seen anyone leave the tomb since %PCName arrived last.  Shunari thinks Gedna Relvel must still be in there. Shunari also thinks %PCName should be looking for her, rather than out here talking.
-自从%PCName上次来过之后，舒纳莉没有看到任何人离开坟墓。舒纳莉认为吉德纳·瑞艾维尔一定还在里面。舒纳莉还认为%PCName应该去找她，而不是在这里说话。 {老鼠,谈}
+自从 %PCName 上次来过之后，舒纳莉没有看到任何人离开坟墓。舒纳莉认为吉德纳·瑞艾维尔一定还在里面。舒纳莉还认为 %PCName 应该去找她，而不是在这里说话。 {老鼠,谈}
 
 > INFO.NAME gedna relvel 2927739391859813349
 Shunari is scared once she catches bad disease, and wants only to get away from evil lich. So Shunari does not see how secret passage in tomb works. But Shunari will tell %PCName what she has seen of it.
-舒纳莉一旦感染坏的疾病就会感到害怕，她只想远离邪恶的巫妖。所以舒纳莉不明白墓室中的秘密通道是如何运作的。但舒纳莉会告诉%PCName她所看到的情况。 {工作}
+舒纳莉一旦感染坏的疾病就会感到害怕，她只想远离邪恶的巫妖。所以舒纳莉不明白墓室中的秘密通道是如何运作的。但舒纳莉会告诉 %PCName 她所看到的情况。 {工作}
 
 > INFO.NAME gedna relvel 226671492878046162
 Shunari has said that she watched %PCName open tomb. Shunari has often wondered what treasure lays in tomb, but door is too heavy. Shunari cannot open it. So when %PCName leaves, Shunari goes in for a look. She finds corpse in coffin, but corpse gets up and attacks! Poor Shunari can do nothing to fight it. It says it is Gedna Relvel, and has come to spread Crimson Plague to all of Mournhold. Even though Shunari feels ill, she comes to find %PCName for help!
-舒纳莉说过她看到%PCName打开了墓室。舒纳莉经常想知道坟墓里有什么宝藏，但是门太重了。舒纳莉打不开它。所以当%PCName离开后，舒纳莉进去看了一下。她发现棺材里有一具尸体，但这具尸体却站起来开始攻击！可怜的舒纳莉无力战斗。它说它是吉德纳·瑞艾维尔，是来向整个哀伤之城传播深红瘟疫的。尽管舒纳莉感到不舒服，她还是来找%PCName寻求帮助！
+舒纳莉说过她看到 %PCName 打开了墓室。舒纳莉经常想知道坟墓里有什么宝藏，但是门太重了。舒纳莉打不开它。所以当 %PCName 离开后，舒纳莉进去看了一下。她发现棺材里有一具尸体，但这具尸体却站起来开始攻击！可怜的舒纳莉无力战斗。它说它是吉德纳·瑞艾维尔，是来向整个哀伤之城传播深红瘟疫的。尽管舒纳莉感到不舒服，她还是来找 %PCName 寻求帮助！
 
 > INFO.NAME droth dagger 48559331434528926
 You have done me a great service, %PCName.  I finally have the full set.  Aren't they beautiful?
@@ -26087,7 +26087,7 @@ Forget it. Let him go now.
 
 > INFO.NAME owe me money 46111725143574533
 Not for you, my little %PCRace friend. If they owe me money, even my closest associates have trouble persuading me to back off a debt.
-别想了，我的小朋友%PCRace。如果他们欠我钱，即使是我最亲密的伙伴也别想说服我放弃债务。
+别想了，我的小朋友 %PCRace。如果他们欠我钱，即使是我最亲密的伙伴也别想说服我放弃债务。
 
 > INFO.NAME owe me money 3066034622170814595
 That's right, %PCRace. We indulge in a bit of gambling down here from time to time, away from the prying eyes of the guards, you know? Dilborn is one of our best customers. He currently owes... if my memory serves me right...  yes, Dilborn owes me the sum total of 3,000 septims. And he's not leaving here until he pays his debts.
@@ -26283,7 +26283,7 @@ I make ebony armor and glass armor to order, but my specialty is adamantium armo
 
 > INFO.NAME help shunari 7931232901996815422
 %PCName is wise and good, to have helped poor, sick Shunari.
-%PCName很聪明，很好，帮助了可怜的、生病的舒纳莉。
+%PCName 很聪明，很好，帮助了可怜的、生病的舒纳莉。
 
 > INFO.NAME help shunari 2629646727342806
 Good, good. Shunari is so weak, and needs curing. Use your spell, %PCName, and then Shunari will help.
@@ -26291,11 +26291,11 @@ Good, good. Shunari is so weak, and needs curing. Use your spell, %PCName, and t
 
 > INFO.NAME help shunari 1477522018224665813
 No? Why does %PCName not help Shunari? Once Shunari is better, she can help %PCName.
-不？为什么%PCName不帮助舒纳莉？一旦舒纳莉好了，她就可以帮助%PCName了。
+不？为什么 %PCName 不帮助舒纳莉？一旦舒纳莉好了，她就可以帮助 %PCName 了。
 
 > INFO.NAME help shunari 28713313641746727811
 Is %PCName going to help now? Cure Shunari, and then Shunari will help %PCName in return.
-现在%PCName会帮忙吗？治好舒纳莉，然后舒纳莉作为回报会帮助%PCName。
+现在 %PCName 会帮忙吗？治好舒纳莉，然后舒纳莉作为回报会帮助 %PCName。
 
 > INFO.BNAM help shunari 28713313641746727811 c1
 I will cure you now.
@@ -26307,7 +26307,7 @@ No, not yet
 
 > INFO.NAME help shunari 104727280798029011
 Yes, yes, %PCName helps now! Shunari saw %PCName go into tomb under temple. When %PCName left, Shunari went in to see if treasure was left. And then... Shunari will not say more. She is sick, and needs help. %PCName will cure her of bad disease, and then Shunari will tell more. Hurry, hurry, before poor Shunari dies! Meet Shunari in Temple Gardens with spell or scroll; Shunari does not trust potions that could be poison. Go see Nerile Andaren. She knows Shunari; she will help.
-是的，是的，%PCName现在帮助了！舒纳莉看到%PCName进了神殿的坟墓。当%PCName离开后，舒纳莉走进去看是否有宝物留下。然后…舒纳莉不会说更多。她生病了，需要帮助。%PCName会治好她的坏疾病，然后舒纳莉会说出更多。快点，快点，在可怜的舒纳莉死之前！带着法术或卷轴在神殿花园与舒纳莉见面；舒纳莉不相信药水，因为它们可能是毒药。去见娜丽尔·安达伦。她认识舒纳莉，她会帮忙的。 {这些药水}
+是的，是的，%PCName 现在帮助了！舒纳莉看到 %PCName 进了神殿的坟墓。当 %PCName 离开后，舒纳莉走进去看是否有宝物留下。然后…舒纳莉不会说更多。她生病了，需要帮助。%PCName 会治好她的坏疾病，然后舒纳莉会说出更多。快点，快点，在可怜的舒纳莉死之前！带着法术或卷轴在神殿花园与舒纳莉见面；舒纳莉不相信药水，因为它们可能是毒药。去见娜丽尔·安达伦。她认识舒纳莉，她会帮忙的。 {这些药水}
 
 > INFO.NAME help shunari 902622966480916085
 She may not be the most lawful of Mournhold's citizens, but she often has valuable information. I do my best not to judge her actions. I'm glad you've been able to help her, %PCName.
@@ -26479,7 +26479,7 @@ Once our business is concluded, I will consider your advancement.
 
 > INFO.NAME advancement 1558828954153928039
 Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
-是的，你显然配得上%NextPCRank这个级别。恭喜你，%PCName。
+是的，你显然配得上 %NextPCRank 这个级别。恭喜你，%PCName。
 
 > INFO.NAME advancement 26003290602717310479
 Once our business is concluded, I will consider your advancement.
@@ -26847,19 +26847,19 @@ Foul, vicious creatures. No wonder Helseth has chosen them to be his footsoldier
 
 > INFO.NAME fedris hler 1551315852488622919
 I am Fedris Hler. What do you want?
-我是费德里斯·海勒。你想要什么？
+我是费德里斯·赫勒。你想要什么？
 
 > INFO.NAME fedris hler 1727516451693121080
 Fedris Hler has been found dead! This is a very sad time for us here at the Temple. But, by the Grace of Our Lady, we will find the culprit.
-费德里斯·海勒已经被发现死亡了！对我们神殿来说是个悲伤的时刻。但是，在我们的圣母的恩典下，我们会找到罪魁祸首的。
+费德里斯·赫勒已经被发现死亡了！对我们神殿来说是个悲伤的时刻。但是，在我们的圣母的恩典下，我们会找到罪魁祸首的。
 
 > INFO.NAME fedris hler 4262141771556624818
 Fedris Hler is the Lady Almalexia's Steward. You may find him in his office in the Temple Reception area.
-费德里斯·海勒是阿玛莱西娅圣母的总管。你可以在神殿礼宾大堂的办公室找到他。
+费德里斯·赫勒是阿玛莱西娅圣母的总管。你可以在神殿礼宾大堂的办公室找到他。
 
 > INFO.NAME fedris hler 18214188123201324513
 Fedris Hler has been found dead. Murdered, it seems. That anyone would dare do this in my Temple.... My Hands will find the murderer, and he will be dealt with severely.
-费德里斯·海勒已经被发现死亡。看来是被谋杀了。竟然有人敢在我的神殿里做这种事……我的女神之手们会找到凶手的，他将被严肃处理。
+费德里斯·赫勒已经被发现死亡。看来是被谋杀了。竟然有人敢在我的神殿里做这种事……我的女神之手们会找到凶手的，他将被严肃处理。
 
 > INFO.NAME fedris hler 21108292404163982
 Dear Fedris has been my loyal servant for a very long time. He is my Steward, and he oversees many of the day-to-day activities here at the Temple.
@@ -26871,39 +26871,39 @@ I've heard the man was killed. He was no fool. Whomever killed him must have bee
 
 > INFO.NAME fedris hler 28126205592369318535
 There is more to Hler than one would think. There are rumors that he was once an assassin. It is fairly widely known that he is the leader of the Hands of Almalexia. This is not a person to be trifled with.
-海勒的事迹比人们想象的要多。有传言说他曾经是一名刺客。他是阿玛莱西娅之手的领导人，这一点相当广为人知。这个人绝对不容轻视。
+赫勒的事迹比人们想象的要多。有传言说他曾经是一名刺客。他是阿玛莱西娅之手的领导人，这一点相当广为人知。这个人绝对不容轻视。
 
 > INFO.NAME fedris hler 24237226301277010706
 Apparently, Hler has been killed. An interesting development. It will have to be looked into.
-很明显，海勒已经被杀。很有趣的事件。必须对其进行调查。
+很明显，赫勒已经被杀。很有趣的事件。必须对其进行调查。
 
 > INFO.NAME fedris hler 103109692207120065
 My sources tell me that Hler is the leader of the Hands of Almalexia. This makes him a potentially dangerous man, or a valuable ally.
-我的消息来源告诉我，海勒是阿玛莱西娅之手的领导人。这使他成为一个潜在的危险人物，或者一个有价值的盟友。
+我的消息来源告诉我，赫勒是阿玛莱西娅之手的领导人。这使他成为一个潜在的危险人物，或者一个有价值的盟友。
 
 > INFO.NAME fedris hler 2933680493023831892
 I have been told that Hler was found murdered. This is surprising news. The goddess must be very angry.
-我被告知，海勒被发现遭到谋杀。这真是令人惊讶的消息。女神一定很生气。
+我被告知，赫勒被发现遭到谋杀。这真是令人惊讶的消息。女神一定很生气。
 
 > INFO.NAME fedris hler 1046911908504032230
 My research tells me that Hler has been with the Lady Almalexia for many years now, serving in an official capacity as her Steward. What these duties entail is not known to me, but there are rumors that he carries out some of the more...unpleasant chores for the goddess.
-我的研究表明，海勒已经在阿玛莱西娅圣母身边很多年了，官方身份是她的管家。我不知道这些任务意味着什么，但有传言说他负责为女神执行一些更……不愉快的职务。 {杂务}
+我的研究表明，赫勒已经在阿玛莱西娅圣母身边很多年了，官方身份是她的管家。我不知道这些任务意味着什么，但有传言说他负责为女神执行一些更……不愉快的职务。 {杂务}
 
 > INFO.NAME fedris hler 2601922615243166381
 Someone killed Hler, from what I hear. Can't say I'm surprised.
-据我所知，有人杀了海勒。不能说我很惊讶。 {杀某个人}
+据我所知，有人杀了赫勒。不能说我很惊讶。 {杀某个人}
 
 > INFO.NAME fedris hler 41118104732231451
 Hler is the goddess's lapdog. She snaps, he barks.
-海勒是女神的哈巴狗。她发怒，他就吠叫。
+赫勒是女神的哈巴狗。她发怒，他就吠叫。
 
 > INFO.NAME fedris hler 20280268732850724042
 Hler's killer will be punished.
-杀害海勒的人将受到惩罚。
+杀害赫勒的人将受到惩罚。
 
 > INFO.NAME fedris hler 150149824246419554
 Fedris Hler was found dead. We will find the guilty party.
-费德里斯·海勒被发现死亡了。我们会找到罪人。
+费德里斯·赫勒被发现死亡了。我们会找到罪人。
 
 > INFO.NAME fedris hler 283252729027670170
 I heard he was murdered. That's Temple business.
@@ -26911,15 +26911,15 @@ I heard he was murdered. That's Temple business.
 
 > INFO.NAME fedris hler 26975135701238332216
 I've heard that Fedris Hler was killed. I can't believe that could happen!
-我听说费德里斯·海勒被杀了。我不敢相信会发生这种事！
+我听说费德里斯·赫勒被杀了。我不敢相信会发生这种事！
 
 > INFO.NAME fedris hler 504839681959631443
 I've heard that Hler was killed.
-我听说海勒被杀了。
+我听说赫勒被杀了。
 
 > INFO.NAME fedris hler 17720198492962432643
 Fedris Hler is the Chief Steward of Almalexia. You may find him in the Temple Reception Area.
-费德里斯·海勒是阿玛莱西娅的总管。你可以在神殿礼宾大堂找到他。
+费德里斯·赫勒是阿玛莱西娅的总管。你可以在神殿礼宾大堂找到他。
 
 > INFO.NAME fedris hler 52723157810034846
 Oh yeah, sure. Heard ya the f-f-first time.
@@ -27899,7 +27899,7 @@ Were you able to help Shunari, %PCName?
 
 > INFO.NAME greeting 1 1007531851272425485
 Fedris Hler must be told of this attack. Get yourself to the Temple and let him know! Go!
-这次袭击必须报告给费德里斯·海勒。你自己去神殿告诉他！快去！
+这次袭击必须报告给费德里斯·赫勒。你自己去神殿告诉他！快去！
 
 > INFO.NAME greeting 1 5334592853117777
 This attack must be reported. We will stay here and guard against further attacks. Go tell Tienius Delitian! Run!
@@ -27907,7 +27907,7 @@ This attack must be reported. We will stay here and guard against further attack
 
 > INFO.NAME greeting 1 14849113951948725073
 Someone must make sure Fedris Hler is informed of these attacks. I cannot leave my post. Tell him!
-必须有人把这次攻击报告给费德里斯·海勒。我不能离开我的岗位。去告诉他！
+必须有人把这次攻击报告给费德里斯·赫勒。我不能离开我的岗位。去告诉他！
 
 > INFO.NAME greeting 1 1587512302549221737
 Someone must make sure Tienius Delitian is informed of these attacks. I cannot leave my post. Tell him!
@@ -28075,7 +28075,7 @@ My protector! It seems you were able to take care of that ridiculous plot.
 
 > INFO.NAME greeting 1 376830472581719445
 Hello again, friend %PCName. There is so much you seem to be involved with. How can I help you?
-又见面了，%PCName朋友。看来你参与了不少事情。我能为你做些什么呢？
+又见面了，%PCName 朋友。看来你参与了不少事情。我能为你做些什么呢？
 
 > INFO.NAME greeting 1 170085781136126647
 How goes your quest to forge the Blade of Nerevar?
@@ -28103,7 +28103,7 @@ Hello again. I trust things are going well for you.
 
 > INFO.NAME greeting 1 3124715213454712040
 These are frightening times, friend %PCName. What is it you require?
-这是个可怕的时代，%PCName朋友。你需要什么？
+这是个可怕的时代，%PCName 朋友。你需要什么？
 
 > INFO.NAME greeting 1 8086903206583467
 Good day to you. How may I help you, %PCName?
@@ -28283,7 +28283,7 @@ What is it? Have you settled that business with the Shrine of the Dead?
 
 > INFO.NAME greeting 1 18931167982061718957
 Hmmm...yes. You are the one that Hler mentioned. Interesting. You are to be of service to our Lady. It is essential, and all would be displeased were you to fail.
-嗯……是的。你就是那一位海勒提到的人。有趣。你要为我们的圣母服务。这很重要，如果你失败了，所有人都会不高兴的。 {你就是天选之人}
+嗯……是的。你就是那一位赫勒提到的人。有趣。你要为我们的圣母服务。这很重要，如果你失败了，所有人都会不高兴的。 {你就是天选之人}
 
 > INFO.NAME greeting 1 3064322097112191275
 What do you want?
@@ -28379,7 +28379,7 @@ Greetings, %PCName. It is good to see you again. Dear Fedris has told me more ab
 
 > INFO.NAME greeting 1 6830315912603923009
 I sense that the danger in the Plaza has abated...for now. Go and speak with Fedris Hler. He will give you further instructions.
-我感觉到广场上的危险已经减弱了……目前是这样。去和费德里斯·海勒谈谈。他将给你进一步的指示。
+我感觉到广场上的危险已经减弱了……目前是这样。去和费德里斯·赫勒谈谈。他将给你进一步的指示。
 
 > INFO.NAME greeting 1 2272532113259665328
 There is a disturbance in the Plaza Brindisi Dorom. Investigate it, my good and faithful servant. I shall remain here.
@@ -28423,7 +28423,7 @@ Greetings, %PCRace. Perhaps you'd like to hear the latest rumors?
 
 > INFO.NAME greeting 1 2043809244472246
 Greetings, fair citizens of Mournhold! I am the great, renowned, respected, and feared wizard, Ovis Velas! In the coming weeks you shall see more and more of me, as I bring this city to its knees. But for the moment, allow me to demonstrate my power on one of your hapless countrymen. You there! Yes, you, you ugly %PCRace. Prepare yourself to feel my wrath!
-哀伤之城的公民们，你们好！我是伟大的、著名的、受人尊敬的、令人敬畏的巫师，奥维斯·维拉斯！在接下来的几周里，你们将越来越多次看到我的身影，而我将让这座城市匍匐在我脚下。但现在，请允许我在你们一位无能的同胞身上展示我的力量。你！是的，你，你这个丑陋的%PCRace。准备好感受我的怒火吧！ {沙尔}
+哀伤之城的公民们，你们好！我是伟大的、著名的、受人尊敬的、令人敬畏的巫师，奥维斯·维拉斯！在接下来的几周里，你们将越来越多次看到我的身影，而我将让这座城市匍匐在我脚下。但现在，请允许我在你们一位无能的同胞身上展示我的力量。你！是的，你，你这个丑陋的 %PCRace。准备好感受我的怒火吧！ {沙尔}
 
 > INFO.NAME greeting 1 32462796778517810
 Time to die, %PCRace.
@@ -28487,7 +28487,7 @@ Sorry, there, %PCRace. I don't have any spare change.
 
 > INFO.NAME greeting 1 6039182992691014462
 Get away from me, you slackjawed, flea-bitten %PCRace.
-离我远点，你这个懒散的、被跳蚤咬过的%PCRace。
+离我远点，你这个懒散的、被跳蚤咬过的 %PCRace。
 
 > INFO.NAME greeting 1 21410281141082331562
 Thank you for helping me with Holmar, %PCName.
@@ -28979,11 +28979,11 @@ Greetings.  I am Torasa Aram, Curator of the Mournhold Museum of Artifacts.
 
 > INFO.NAME greeting 1 2440524691302411705
 Filthy %PCRace! That note belongs to Ahnia!
-肮脏的%PCRace！这张纸条是阿妮娅的！
+肮脏的 %PCRace！这张纸条是阿妮娅的！
 
 > INFO.NAME greeting 1 105087379250297681
 What does %PCRace want from Ahnia?
-%PCRace想从阿妮娅这里得到什么？
+%PCRace 想从阿妮娅这里得到什么？
 
 > INFO.NAME greeting 1 23509291942433711542
 Ahnia does not know you, so Ahnia has nothing to say to you.
@@ -29087,7 +29087,7 @@ Hi there.  Wow.  Can you believe this place?  It's just... amazing.  Everything'
 
 > INFO.NAME greeting 1 13514253082346028041
 Well, well, well. Look who it is! My dear friend %PCName. Just my luck that you should stumble in here. Heh. Indeed, it seems my good fortune knows no bounds. Despite my mis-treatment at your hands, I've found riches, been able to influence just about anyone I talk to, and can you believe I've NEVER lost a fight? Never even gotten a scratch. Somehow I don't think I'll have a problem continuing that streak... and I owe you!
-哇哦，哇哦，哇哦。看看这是谁！我亲爱的朋友%PCName。我真走运，你应该绊倒在这的。呵。的确，看来我的好运气永无止境。尽管我在你手上不受待见，但我还是找到了财富，能够影响到我与之交谈的任何人，而且你能相信我从来没有输过一场战斗吗？半道划痕都没有。不知何故我不认为这连胜会有终结……而且我和你有债要还！ {幸运}
+哇哦，哇哦，哇哦。看看这是谁！我亲爱的朋友 %PCName。我真走运，你应该绊倒在这的。呵。的确，看来我的好运气永无止境。尽管我在你手上不受待见，但我还是找到了财富，能够影响到我与之交谈的任何人，而且你能相信我从来没有输过一场战斗吗？半道划痕都没有。不知何故我不认为这连胜会有终结……而且我和你有债要还！ {幸运}
 
 > INFO.NAME greeting 1 282676155385411615
 Don't just stand there, %PCName! Get rid of these rats! They've all been infected!
@@ -29171,31 +29171,31 @@ You....you killed Dovor! I'll get you!
 
 > INFO.NAME greeting 1 2130128171655132254
 Shunari has thanked brave %PCName for helping, and for killing evil Gedna Relvel. But now Shunari must go.
-舒纳莉已经感谢了勇敢的%PCName的帮助，以及杀死邪恶的吉德纳·瑞艾维尔。但现在舒纳莉必须离开了。
+舒纳莉已经感谢了勇敢的 %PCName 的帮助，以及杀死邪恶的吉德纳·瑞艾维尔。但现在舒纳莉必须离开了。
 
 > INFO.NAME greeting 1 2522617779939027197
 Has brave %PCName defeated Gedna Relvel?
-勇敢的%PCName打败吉德纳·瑞艾维尔了吗？
+勇敢的 %PCName 打败吉德纳·瑞艾维尔了吗？
 
 > INFO.NAME greeting 1 27156257151571815725
 Ahh. Shunari feels much better. And now Shunari will tell %PCName all about Gedna Relvel.
-啊。舒纳莉感觉好多了。现在舒纳莉将告诉%PCName关于吉德纳·瑞艾维尔的一切。
+啊。舒纳莉感觉好多了。现在舒纳莉将告诉 %PCName 关于吉德纳·瑞艾维尔的一切。
 
 > INFO.NAME greeting 1 292288362546115645
 Good %PCName has returned! Is %PCName here to help Shunari?
-很好，%PCName回来了！%PCName是来帮助舒纳莉的吗？
+很好，%PCName 回来了！%PCName 是来帮助舒纳莉的吗？
 
 > INFO.NAME greeting 1 3227221370187757858
 Why has %PCName killed guard? Now Shunari will be blamed! Shunari only meant to knock guard out, not kill him!
-为什么%PCName要杀了卫兵？现在舒纳莉会被降罪的！舒娜莉只是想把卫兵打晕，而不是杀了他！ {瓜尔}
+为什么 %PCName 要杀了卫兵？现在舒纳莉会被降罪的！舒娜莉只是想把卫兵打晕，而不是杀了他！ {瓜尔}
 
 > INFO.NAME greeting 1 2942630923786310229
 Please hurry. Shunari is weak, and needs to be cured. She cannot go upstairs, or else guards will see her and take her to prison. Shunari is not safe here, and will meet %PCName in Temple Gardens instead.
-请快点。舒纳莉很虚弱，需要被治愈。她不能上楼，否则卫兵会看到她，并把她带到监狱去。舒纳莉在这里不安全，她将在神殿花园与%PCName见面。 {瓜尔}
+请快点。舒纳莉很虚弱，需要被治愈。她不能上楼，否则卫兵会看到她，并把她带到监狱去。舒纳莉在这里不安全，她将在神殿花园与 %PCName 见面。 {瓜尔}
 
 > INFO.NAME greeting 1 88202667985956821
 Shunari must speak with %PCName! She has seen things, oh yes, things that %PCName needs to know! Quickly, before guard wakes up!
-舒纳莉必须与%PCName对话！她看到了一些东西，哦，是的，%PCName需要知道的东西！快，在卫兵醒来之前！ {瓜尔}
+舒纳莉必须与 %PCName 对话！她看到了一些东西，哦，是的，%PCName 需要知道的东西！快，在卫兵醒来之前！ {瓜尔}
 
 > INFO.NAME greeting 1 13832249493091426763
 You again! Gah! I've rid myself of the others; none of you will get it! It's mine, I tell you, all mine!
@@ -29499,7 +29499,7 @@ There are no more official matters to discuss. You are to report directly to the
 
 > INFO.NAME greeting 1 17165130272509324906
 I sent you to investigate the disturbance, and you reported your findings to Hler. Disappointing. I have no more official matters to discuss with you, but His Royal Highness King Hlaalu Helseth wishes to speak with you.
-我派你去调查骚乱，你却向海勒报告你的发现。令人失望。我没有公务可以讨论了，但哈拉鲁·赫尔塞斯国王陛下希望和你谈谈。 {讨论要事}
+我派你去调查骚乱，你却向赫勒报告你的发现。令人失望。我没有公务可以讨论了，但哈拉鲁·赫尔塞斯国王陛下希望和你谈谈。 {讨论要事}
 
 > INFO.NAME greeting 1 228133901226988288
 Well, have you been able to investigate the disturbance?
@@ -29507,7 +29507,7 @@ Well, have you been able to investigate the disturbance?
 
 > INFO.NAME greeting 1 127023503205033708
 I understand you've reported this attack on the city to Fedris Hler. I agree you should investigate the disturbance in the ruins of Bamz-Amschend and seek out the source of the attacks. You may report your findings to me. This is really a matter for the Empire to deal with.
-我知道你已经向费德里斯·海勒报告了城市遭到的攻击。我同意你应该去巴姆兹-阿姆申德的废墟里调查骚乱，寻找攻击的源头。你可以向我报告你的发现。这真的是该让帝国要处理的问题。 {泰姆瑞尔帝国}
+我知道你已经向费德里斯·赫勒报告了城市遭到的攻击。我同意你应该去巴姆兹-阿姆申德的废墟里调查骚乱，寻找攻击的源头。你可以向我报告你的发现。这真的是该让帝国要处理的问题。 {泰姆瑞尔帝国}
 
 > INFO.NAME greeting 1 3096117003171108600
 I have heard about the attack on the city, and I've dispatched guards to take care of it. Thank you for your report. You can help in another way. I'd like you to investigate the disturbance.
@@ -29895,7 +29895,7 @@ Welcome to my house, %PCRace. Make yourself at home.
 
 > INFO.NAME greeting 1 23326298472690511191
 What %Name do for you?
-%Name能为你做什么？
+%Name 能为你做什么？
 
 > INFO.NAME greeting 1 32232238842361930698
 Runa's a real gem, isn't she?
@@ -30215,11 +30215,11 @@ Who are you? Where are your papers?
 
 > INFO.NAME greeting 1 103402350204808451
 First, let me take your identification papers. Thank you. Word of your arrival only reached me yesterday. I am %name. But my background is not important. I'm here to welcome you to Morrowind.
-首先，让我看看你的身份证明，很好，谢谢。我昨天才收到你来到此地的消息。我是%Name，但我的身份背景并不重要。我在这里的职责是来欢迎你来到晨风的。
+首先，让我看看你的身份证明，很好，谢谢。我昨天才收到你来到此地的消息。我是 %Name，但我的身份背景并不重要。我在这里的职责是来欢迎你来到晨风的。
 
 > INFO.NAME greeting 1 3009629748474023429
 I am %name. My background is not important. From time to time it is my duty to welcome certain visitors to Morrowind.
-我是%Name。我的身份背景并不重要。我的职责是时不时地欢迎一些访客来到晨风。
+我是 %Name。我的身份背景并不重要。我的职责是时不时地欢迎一些访客来到晨风。
 
 > INFO.NAME greeting 1 13530217951990214565
 Thank you. Don't think I ever get out of that place.
@@ -30235,7 +30235,7 @@ Go away! Leave me alone! I'll never speak to you again!
 
 > INFO.NAME greeting 1 1535826322130139562
 Never! Yield? To you? I'd rather die than yield to you, f'lah!
-绝不！投降？向你？我宁死也不向你屈服，F'lah（伙计）！ {老鼠}
+绝不！投降？向你？我宁死也不向你屈服，f'lah（伙计）！ {老鼠}
 
 > INFO.NAME greeting 1 612166801912514587
 The witch is dead! Now, if you'll just give me Widowmaker, stranger, I'd appreciate it. I might be able to teach you a bit about using an axe as well, if you're interested.
@@ -31687,7 +31687,7 @@ Consider, %PCName. Where do your best interests lie? It is not too late to serve
 
 > INFO.NAME greeting 1 7515207672663932667
 The Sixth House greets you, Lord Nerevar. Or %PCName, as you call yourself. I am known as Dagoth Gares, priest of Ilunibi Shrine, and minister to Sixth House servants. My Lord, Dagoth Ur, has informed me of your coming. I wish that this time you had come to honor your Lord's friendship, not to betray it.
-第六家族欢迎你，尼瑞瓦大人。或者%PCName，就像你自称的那样。我的名字是达格斯·加雷斯，伊鲁尼比圣祠的祭司，第六家族的仆从的大臣。我的主人达格斯·乌尔已经通知我您将前来。我希望这次你是来尊重我主的情谊，而不是背叛它。
+第六家族欢迎你，尼瑞瓦大人。或者 %PCName，就像你自称的那样。我的名字是达格斯·加雷斯，伊鲁尼比圣祠的祭司，第六家族的仆从的大臣。我的主人达格斯·乌尔已经通知我您将前来。我希望这次你是来尊重我主的情谊，而不是背叛它。
 
 > INFO.NAME greeting 1 101272241198164547
 Yes, Lord Nerevar? What would you ask of me? Would you hear of my Lord, Dagoth Ur? Or of the Sixth House, or of Sixth House servants?
@@ -31811,7 +31811,7 @@ Oh. Goody, goody. Are you going to show me that thing you did again?
 
 > INFO.NAME greeting 1 528821354439017180
 What can %Name do for you?
-%Name能为你做什么？
+%Name 能为你做什么？
 
 > INFO.NAME greeting 1 1733844432470019051
 What can I do for you, master?
@@ -32179,23 +32179,23 @@ The Ebony Mail may be found on Mount Assarnibibi, which is north of Molag Mar. M
 
 > INFO.NAME background 2583529070786213408
 I am %name, I serve Almalexia as one of Her Hands.
-我叫%name，作为女神之手为阿玛莱西娅效力。
+我叫 %name，作为女神之手为阿玛莱西娅效力。
 
 > INFO.NAME background 1219922361199448922
 I am %name, I serve Almalexia as one of Her Hands.
-我叫%name，作为女神之手为阿玛莱西娅效力。
+我叫 %name，作为女神之手为阿玛莱西娅效力。
 
 > INFO.NAME background 2102070131674519338
 I am %name, I serve Almalexia as one of Her Hands.
-我叫%name，作为女神之手为阿玛莱西娅效力。
+我叫 %name，作为女神之手为阿玛莱西娅效力。
 
 > INFO.NAME background 792732444483714759
 I am %name, I serve Almalexia as one of Her Hands.
-我叫%name，作为女神之手为阿玛莱西娅效力。
+我叫 %name，作为女神之手为阿玛莱西娅效力。
 
 > INFO.NAME background 1905968842607317408
 I am %name, I serve Almalexia as one of Her Hands.
-我叫%name，作为女神之手为阿玛莱西娅效力。
+我叫 %name，作为女神之手为阿玛莱西娅效力。
 
 > INFO.NAME background 787419786402628286
 I'm the building foreman for Indarys Manor.
@@ -32203,7 +32203,7 @@ I'm the building foreman for Indarys Manor.
 
 > INFO.NAME background 187742483078123924
 I am %name, a %class in the Imperial Legion.
-我是%Name，一个%class，帝国军团成员。 {帝国人}
+我是 %name，一个 %class，帝国军团成员。 {帝国人}
 
 > INFO.NAME background 17473228061263324385
 We are the High Ordinators.
@@ -32407,7 +32407,7 @@ Yes, my brother was found dead not long ago. I think it was poison, probably giv
 
 > INFO.NAME found dead 216768793141223076
 At least seven of them have been found so far. All dead, all in their homes. It appears they ingested a strong poison, and not even my magicks could revive those who were found. We must find out what drives this group, and rid my city of their presence. Speak with Meralyn Othan at the Great Bazaar; her brother Sevil was one of those found. Learn what you can about them, %PCName, and of this Eno Romari. Take care with him, though. The words of a martyr cry louder than those of a zealot.
-到目前为止，至少有七个人被发现死亡。都死在自己家里。他们都被下了一种剧毒，就连我的魔法也无法让那些被发现的人复活。我们必须找出这群人的动机，把他们赶出我的城市。在大集市与梅拉琳·奥森谈谈；她的兄弟塞维尔也是死者之一。尽可能了解他们，%PCName，还有这个恩诺·罗马利。不过，还是要小心他。殉道者的话比狂热者的话更深入人心。
+到目前为止，至少有七个人被发现死亡。都死在自己家里。他们都被下了一种剧毒，就连我的魔法也无法让那些被发现的人复活。我们必须找出这群人的动机，把他们赶出我的城市。在大集市与梅拉琳·奥桑谈谈；她的兄弟塞维尔也是死者之一。尽可能了解他们，%PCName，还有这个恩诺·罗马利。不过，还是要小心他。殉道者的话比狂热者的话更深入人心。
 
 > INFO.NAME pyroil tar 2628730370191808922
 I've used the tar on the blade, you moron! What do they teach you kids nowadays??? See if you can follow these instructions: Turn around. Place left foot forward. Place right foot forward. Now repeat these steps until you're out of my damn sight!
@@ -33451,7 +33451,7 @@ Yes, let's discuss what you can do to assist my, err, our cause.
 
 > INFO.NAME business 1572968893026920615
 Hmm.  At a second glance, perhaps I shouldn't be so dismissive.  You seem a rather resourceful sort.  We're, ah, investing in the future, you see.  The city right now exists under a blanket of fear; a blind guar can see that the tension between the Imperials and the Temple will soon be boiling over into the streets.  When that happens, it's going to be every %PCRace for himself, yes?  Well, we're stockpiling for just that occasion, which is certainly inevitable at this point.  And maybe you can assist us.
-嗯。转念一想，也许我不应该如此不屑一顾。你看起来是个相当有头脑的人。我们，啊，未雨绸缪，你明白的。恐惧弥漫着整座城市；即便是盲眼的瓜尔也能看出，帝国和神殿之间的紧张关系很快就会彻底爆发。到那时候，%PCRace都会人人自危，对吧？好吧，我们正在为之早做准备，在这种情况下无可避免。也许你可以协助我们。 {老鼠,帝国人}
+嗯。转念一想，也许我不应该如此不屑一顾。你看起来是个相当有头脑的人。我们，啊，未雨绸缪，你明白的。恐惧弥漫着整座城市；即便是盲眼的瓜尔也能看出，帝国和神殿之间的紧张关系很快就会彻底爆发。到那时候，%PCRace 都会人人自危，对吧？好吧，我们正在为之早做准备，在这种情况下无可避免。也许你可以协助我们。 {老鼠,帝国人}
 
 > INFO.NAME business 1976941562344311212
 I don't recall inviting you to discuss the issue; you can't be trusted.  Keep walking, %PCRace.
@@ -34031,7 +34031,7 @@ I know you. You're that famous adventurer, aren't you? I'm honored.
 
 > INFO.NAME hello 13481273313242624470
 So. You're the Nerevarine? Well, that means nothing to me, f'lah. I don't care if you're the damn Emperor.
-那么，你就是尼瑞瓦因？好吧，这对我来说毫无意义，F'lah（伙计）。哪怕你是那该死的皇帝我也不在乎。
+那么，你就是尼瑞瓦因？好吧，这对我来说毫无意义，f'lah（伙计）。哪怕你是那该死的皇帝我也不在乎。
 
 > INFO.NAME hello 1140444811059222443
 So. Who are you? Am I supposed to care? I don't care if you're the Living God walking among us.
@@ -34139,7 +34139,7 @@ Yes, this weather is odd, but trust in the Lady. All will be well.
 
 > INFO.NAME hello 3148511479814116964
 The city is under attack? Tell Hler! Alert the Ordinators! Protect the Temple!
-城市正遭到攻击？去告诉海勒！去提醒殿卫！保卫神殿！
+城市正遭到攻击？去告诉赫勒！去提醒殿卫！保卫神殿！
 
 > INFO.NAME hello 16539334499287
 Grace and mercy upon you, in Her Name, sera.
@@ -34311,7 +34311,7 @@ Welcome, Comrade!
 
 > INFO.NAME hello 689659881434925
 Scram, f'lah.
-滚蛋，F'lah（伙计）。
+滚蛋，f'lah（伙计）。
 
 > INFO.NAME hello 29079309972760225067
 Well... yes... I guess we should talk....
@@ -36511,7 +36511,7 @@ No. Sorry.
 
 > INFO.NAME favor 2235218479785929814
 I don't even know what to say. I'll never be able to truly pay you back for this. You've restored my faith in the world, %PCName. And boy, are you ever rich! I bet you've got a million gold. In fact, I bet you've got ten million! You must be the richest %PCRace ever! You should give me a million, don't you think? Then we can both be millionaires!
-我甚至不知道该怎么说。我永远无法真正报答你的恩情。你让我对这个世界重拾了信心，%PCName。还有，孩子，你富裕过吗！我打赌你有一百万金币。事实上，我打赌你有一千万！你一定是有史以来最富有的%PCRace！你应该给我一百万，你不觉得吗？然后我们都可以成为百万富翁！ {信仰}
+我甚至不知道该怎么说。我永远无法真正报答你的恩情。你让我对这个世界重拾了信心，%PCName。还有，孩子，你富裕过吗！我打赌你有一百万金币。事实上，我打赌你有一千万！你一定是有史以来最富有的 %PCRace！你应该给我一百万，你不觉得吗？然后我们都可以成为百万富翁！ {信仰}
 
 > INFO.BNAM favor 2235218479785929814 c1
 Sure. Here it is.
@@ -36623,7 +36623,7 @@ No, I don't think so.
 
 > INFO.NAME favor 1749437732779125280
 Are you sure about that? I mean, to look at you, it's obvious that you're a %PCRace of means. I imagine you wouldn't even know that the gold was gone. Think about it for another second or two. Think about how much it'd mean to me, about what a great help it would be.
-你确定吗？我的意思是，看看你，很明显，你是一个有本事的%PCRace。我想你甚至根本不会在乎钱包里少了点钱。再考虑一两秒钟。想想这对我有多大意义，想想这将是多么大的帮助。
+你确定吗？我的意思是，看看你，很明显，你是一个有本事的 %PCRace。我想你甚至根本不会在乎钱包里少了点钱。再考虑一两秒钟。想想这对我有多大意义，想想这将是多么大的帮助。
 
 > INFO.BNAM favor 1749437732779125280 c1
 Well, okay. Here.
@@ -36699,7 +36699,7 @@ Yes. Well. It's not much, really. A simple delivery that needs to be made, actua
 
 > INFO.NAME guard 32487154713680135
 Why did %PCName kill guard?
-为什么%PCName要杀了卫兵？ {瓜尔}
+为什么 %PCName 要杀了卫兵？ {瓜尔}
 
 > INFO.NAME guard 651722256588122624
 Guards? Where? Can't fool me.
@@ -36711,11 +36711,11 @@ Guards keep the peace and chase down criminals.
 
 > INFO.NAME guard 657016127187294535
 Shunari is sorry that she had to hurt poor man. But he will be fine. %PCName will not tell him what happened, yes?
-舒娜莉很抱歉，她不得不伤害这个可怜的人。但他会没事的。%PCName不会告诉他发生了什么，对吧？
+舒娜莉很抱歉，她不得不伤害这个可怜的人。但他会没事的。%PCName 不会告诉他发生了什么，对吧？
 
 > INFO.NAME guard 2296924951310322594
 Shunari snuck in, and had to knock poor guard out. Guards do not like Shunari; they take her to jail if they see her, and then Shunari will die because she is sick. %PCName must help Shunari, and then Shunari will help %PCName!
-舒娜莉偷偷溜进来，不得不把可怜的卫兵打倒在地。卫兵不喜欢舒纳莉，看到她就会把她送进监狱，然后舒纳莉就会因为生病而死掉。%PCName必须帮助舒纳莉，然后舒纳莉也会帮助%PCName！ {瓜尔}
+舒娜莉偷偷溜进来，不得不把可怜的卫兵打倒在地。卫兵不喜欢舒纳莉，看到她就会把她送进监狱，然后舒纳莉就会因为生病而死掉。%PCName 必须帮助舒纳莉，然后舒纳莉也会帮助 %PCName！ {瓜尔}
 
 > INFO.NAME women 18816175232185819299
 Plenty of them around, %PCName. Nothing to worry about. I'll just find one on my own. Maybe two or three, even.
@@ -36983,7 +36983,7 @@ I'm sorry, who?  No, I didn't say Ahnia... you must have mis-heard me. Heh. Nope
 
 > INFO.NAME sevil 1148827446682525834
 Meralyn Othan's brother. He was found dead, just like the others.
-梅拉琳·奥森的哥哥。他被发现死亡了，就像其他人一样。
+梅拉琳·奥桑的哥哥。他被发现死亡了，就像其他人一样。
 
 > INFO.NAME sevil 2206382451871429663
 You've heard about my brother? It's hard to imagine he's gone. All would be well if he hadn't fallen in with Eno Romari and those End of Times lunatics. Sevil was a lonely man, a bit lost, but he was hardly stupid. It was that cult that caused his death!

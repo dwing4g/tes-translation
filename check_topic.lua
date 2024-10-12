@@ -409,7 +409,7 @@ end
 
 local function findTopics(texts, matches, topicTree, topicMap, ignoreKeys) -- "INFO.INAM @ DIAL.NAME" => { topics }
 	for key, text in pairs(texts) do
-		local t, oldFixes = text:match "^(.-)%s*({[^{}]*})$"
+		local t, oldFixes = text:match "^(.-)%s*({[^{}]*})%s*$"
 		if t then
 			text = t
 		end
@@ -508,7 +508,7 @@ for key, topics in pairs(matches) do
 				write(" [", topic, "]")
 			end
 			write("\n", checkText, "\n\n")
-			local t = checkText:match "^(.-) *{[^{}]*}$"
+			local t = checkText:match "^(.-)%s*{[^{}]*}%s*$"
 			if t then
 				checkText = t
 			end
@@ -521,7 +521,7 @@ for key, topics in pairs(matches) do
 			fixedTexts[checkKey] = concat(t)
 			n2 = n2 + 1
 		elseif ignoreKeys[checkKey] then
-			local t = checkText:match "^(.-) *{[^{}]*}$"
+			local t = checkText:match "^(.-)%s*{[^{}]*}%s*$"
 			if t then
 				fixedTexts[checkKey] = t
 			end
@@ -579,7 +579,7 @@ local function fixTexts(src_filename, dst_filename)
 			end
 			f:write(prefix, addEscape(fixedText), "\"\r\n")
 		else
-			f:write(prefix, addEscape(t:gsub("%s*{.-}$", "")), "\"\r\n")
+			f:write(prefix, addEscape(t:gsub("%s*{[^{}]*}%s*$", "")), "\"\r\n")
 		end
 	end
 	for line in io.lines(src_filename) do
