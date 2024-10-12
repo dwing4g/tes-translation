@@ -25325,7 +25325,7 @@ Almsivi 每小时。<BR>
  ACTI.SCRI "dbHideoutScript$00"
 -NPC_
  NPC_.NAME "drals indobar$00"
- NPC_.FNAM "阿玛莱西娅之手　德拉斯·因多巴$00"
+ NPC_.FNAM "阿玛莱西娅之手德拉斯·因多巴$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM "Hands of Almalexia$00"
@@ -25351,7 +25351,7 @@ Almsivi 每小时。<BR>
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 61 6C 6D 61 6C 65 78 69 61 00 0C 00 00 00 0C 00 00 00 08 BF F6 00 11 7A 4F 00 9C F3 12 00 0C 00 01 00]
 -NPC_
  NPC_.NAME "arnas therethi$00"
- NPC_.FNAM "阿玛莱西娅之手　阿纳斯·特雷西$00"
+ NPC_.FNAM "阿玛莱西娅之手阿纳斯·特雷西$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM "Hands of Almalexia$00"
@@ -25377,7 +25377,7 @@ Almsivi 每小时。<BR>
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 61 6C 6D 61 6C 65 78 69 61 00 0C 00 00 00 0C 00 00 00 08 BF F6 00 11 7A 4F 00 9C F3 12 00 0C 00 01 00]
 -NPC_
  NPC_.NAME "savor hlan$00"
- NPC_.FNAM "阿玛莱西娅之手　萨沃尔·汉兰$00"
+ NPC_.FNAM "阿玛莱西娅之手萨沃尔·汉兰$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM "Hands of Almalexia$00"
@@ -25403,7 +25403,7 @@ Almsivi 每小时。<BR>
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 61 6C 6D 61 6C 65 78 69 61 00 0C 00 00 00 0C 00 00 00 08 BF F6 00 11 7A 4F 00 9C F3 12 00 0C 00 01 00]
 -NPC_
  NPC_.NAME "sadas mavandes$00"
- NPC_.FNAM "阿玛莱西娅之手　萨达斯·马万德斯$00"
+ NPC_.FNAM "阿玛莱西娅之手萨达斯·马万德斯$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM "Hands of Almalexia$00"
@@ -25429,7 +25429,7 @@ Almsivi 每小时。<BR>
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 61 6C 6D 61 6C 65 78 69 61 00 0C 00 00 00 0C 00 00 00 08 BF F6 00 11 7A 4F 00 9C F3 12 00 0C 00 01 00]
 -NPC_
  NPC_.NAME "vonos veri$00"
- NPC_.FNAM "阿玛莱西娅之手　沃诺斯·维利$00"
+ NPC_.FNAM "阿玛莱西娅之手沃诺斯·维利$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM "Hands of Almalexia$00"
@@ -25480,7 +25480,7 @@ Almsivi 每小时。<BR>
  ENCH.ENAM [51 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 2C 01 00 00 2C 01 00 00]
 -NPC_
  NPC_.NAME "forstaag the sweltering$00"
- NPC_.FNAM "闷热者·弗思塔格$00"
+ NPC_.FNAM "闷热者弗思塔格$00"
  NPC_.RNAM "Nord$00"
  NPC_.CNAM "Barbarian$00"
  NPC_.ANAM [00]
@@ -31677,7 +31677,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM "81041735023251763$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "圣·费尔姆斯之刃已交由我保管。"
+ INFO.NAME "勇者圣·费尔姆斯之刃已交由我保管。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "B8_All_Hortator$00"
@@ -33240,7 +33240,7 @@ Almsivi 每小时。<BR>
  INFO.PNAM "16872304352718216418$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "我杀死了德拉姆·贝罗的勇士鲁莽者加丁。"
+ INFO.NAME "我杀死了德拉姆·贝罗的勇者加丁。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HT_BaladasAlly$00"
