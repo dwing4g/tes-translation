@@ -4865,6 +4865,25 @@ this.scrollTable = {
 		["mg_sc_leavevardarai"] = "Enchanted scroll that allows the user to teleport to the Vivec Guild of Mages.",
 	}
 
+--[[
+local t = {}
+local n = 0
+for line in io.lines "items.lua" do
+	local k = line:match '%["(.-)"%]'
+	if k then
+		k = k:lower()
+		if t[k] then
+			print("WARN: duplicated key: " .. k)
+		else
+			n = n + 1
+			t[k] = true
+		end
+	end
+end
+print("INFO: keys: " .. n)
+do return end
+]]
+
 local dic = {}
 local function load(fn)
 	local f = io.open(fn, "rb")
