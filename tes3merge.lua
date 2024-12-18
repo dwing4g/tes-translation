@@ -67,11 +67,19 @@ local f = io.open(arg[4], "wb")
 io.write("loading ", arg[3], " ... ")
 m, n = 0, 0
 loadExt(arg[3], function(k, e, c)
+	local done = false
 	local newC = newT[k]
-	if newC and c ~= newC then
-		f:write(k, "\r\n", e, "\r\n<<<", oldT[k] or "", "\r\n>>>", newC, "\r\n===", c, "\r\n\r\n")
-		m = m + 1
-	else
+	if newC then
+		local oldC = oldT[k]
+		if c == oldC then
+			c = newC
+		elseif c ~= newC then
+			f:write(k, "\r\n", e, "\r\n<<<", oldC or "", "\r\n>>>", newC, "\r\n===", c, "\r\n\r\n")
+			m = m + 1
+			done = true
+		end
+	end
+	if not done then
 		f:write(k, "\r\n", e, "\r\n", c, "\r\n\r\n")
 	end
 	n = n + 1
