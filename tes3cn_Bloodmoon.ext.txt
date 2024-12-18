@@ -1956,7 +1956,7 @@ Personal Secretary to the Emperor<BR>
 记住，你的生命和自由归功于皇帝。认真对待他的命令，你会得到回报。如果背叛他，你将遭受和其他所有叛徒一样的命运。<BR>
 <BR>
 <BR>
-我有幸在至高无上的尤瑞尔·塞普汀皇帝陛下的指示下准备了这份文件，<BR>
+我有幸在至高无上的尤利尔·塞普汀皇帝陛下的指示下准备了这份文件，<BR>
 <BR>
 格拉布里奥·贝里努斯<BR>
 皇帝的私人秘书<BR>
@@ -2447,7 +2447,7 @@ Wind-In-His-Hair
 
 > NPC_.FNAM antonius nuncius
 Antonius Nuncius
-安东尼斯·努修斯
+安东尼乌斯·农基乌斯
 
 > NPC_.FNAM gaea artoria
 Gaea Artoria
@@ -2455,7 +2455,7 @@ Gaea Artoria
 
 > NPC_.FNAM saenus lusius
 Saenus Lusius
-塞努斯·卢修斯
+塞努斯·卢西乌斯
 
 > NPC_.FNAM raccan
 Raccan
@@ -2471,7 +2471,7 @@ Vilbia Herennia
 
 > MISC.FNAM key_nuncius
 Nuncius' key
-努修斯的钥匙
+农基乌斯的钥匙
 
 > NPC_.FNAM zeno faustus
 Zeno Faustus
@@ -2667,7 +2667,7 @@ Draugr
 
 > NPC_.FNAM Baro Egnatius
 Baro Egnatius
-巴罗·埃格纳修斯
+巴罗·埃格纳提乌斯
 
 > NPC_.FNAM Elberoth
 Elberoth
@@ -4621,11 +4621,11 @@ Nordic Silver Battleaxe
 
 > CONT.FNAM de_p_desk_nuncius
 Antonius Nuncius' Desk
-安东尼斯·努修斯的书桌
+安东尼乌斯·农基乌斯的书桌
 
 > CONT.FNAM de_p_closet_02_nuncius
 Antonius Nuncius' Closet
-安东尼斯·努修斯的壁橱
+安东尼乌斯·农基乌斯的壁橱
 
 > MISC.FNAM misc_skull_Skaal
 Skull of a Skaal Warrior
@@ -6250,7 +6250,7 @@ Berserker
 
 > MISC.FNAM key_nuncius2
 Nuncius' key
-努修斯的钥匙
+农基乌斯的钥匙
 
 > DOOR.FNAM BM_KA_door_dark_SG
 Entrance
@@ -6686,11 +6686,11 @@ House Hlaalu: Kill Banden Indarys
 
 > INFO.NAME hh_destroyindarysmanor 2431226721783620786
 Crassius Curio asked me to kill the Redoran Lord Banden Indarys at the Redoran Stronghold of Indarys Manor which is on the road between Ald'ruhn and Maar Gan.
-克拉修斯·库里奥要求我在奥德'汝因和玛尔-甘之间的道路上，在属于因达瑞斯府邸的瑞多然堡垒班登·因达瑞斯庄园中杀死瑞多然领主。
+克拉西乌斯·库里奥要求我在奥德'汝因和玛尔-甘之间的道路上，在属于因达瑞斯府邸的瑞多然堡垒班登·因达瑞斯庄园中杀死瑞多然领主。
 
 > INFO.NAME hh_destroyindarysmanor 20382780918287314
 Crassius Curio thanked me for killing Banden Indarys.
-克拉修斯·库里奥感谢我杀死了班登·因达瑞斯。
+克拉西乌斯·库里奥感谢我杀死了班登·因达瑞斯。
 
 > INFO.NAME tg_sadrithmoradefenses 708923555106016675
 Thieves Guild: Wizard For Hire
@@ -6794,11 +6794,11 @@ House Hlaalu: Kill Reynel Uvirith
 
 > INFO.NAME hh_destroyteluvirith 960532680109922394
 Crassius Curio asked me to kill Reynel Uvirith, the Telvanni Sorcerer who lives in the Telvanni Stronghold of Tel Uvirith which is in the ashlands due west of Tel Fyr.
-克拉修斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼巫师，住在泰尔-菲尔正西灰烬之地的泰瓦尼堡垒泰尔-乌维瑞斯里。
+克拉西乌斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼巫师，住在泰尔-菲尔正西灰烬之地的泰瓦尼堡垒泰尔·乌维瑞斯里。
 
 > INFO.NAME hh_destroyteluvirith 141809463285295777
 Crassius Curio thanked me for killing Reynel Uvirith.
-克拉修斯·库里奥感谢我杀死了雷内尔·乌维瑞斯。
+克拉西乌斯·库里奥感谢我杀死了雷内尔·乌维瑞斯。
 
 > INFO.NAME a1_v_vivecinformants 252991394212025352
 Vivec Informants
@@ -7162,7 +7162,7 @@ House Redoran: Kill Gordol
 
 > INFO.NAME hr_cultelimination 1409018371307518477
 Theldyn Virith asked me to kill Gordol in Ashalmawia, the Daedric ruin just east of Ald Velothi.
-塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是奥德-维洛西以东的迪德拉废墟。 {迪德拉式}
+塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是奥德-维洛提以东的迪德拉废墟。 {迪德拉式}
 
 > INFO.NAME hr_cultelimination 31277232741542631241
 Theldyn Virith thanked me for killing Gordol.
@@ -8174,7 +8174,7 @@ Odral Helvi thanked me for delivering the ebony.
 
 > INFO.NAME hh_ebonydelivery 21178789411319287
 Crassius Curio thanked me for delivering the ebony to Segunivus Mantedius and getting Odral Helvi arrested.
-克拉修斯·库里奥感谢我把黑檀交给塞古尼乌斯·曼泰迪乌斯，并让奥德拉尔·赫尔维被捕。
+克拉西乌斯·库里奥感谢我把黑檀交给塞古尼乌斯·曼泰迪乌斯，并让奥德拉尔·赫尔维被捕。
 
 > INFO.NAME hh_nordsmugglers 262249405606512644
 House Hlaalu: Velfred the Outlaw
@@ -8182,11 +8182,11 @@ House Hlaalu: Velfred the Outlaw
 
 > INFO.NAME hh_nordsmugglers 2749410832884828997
 Crassius Curio has heard that an outlaw named Velfred has been smuggling goods. I must find Velfred and put an end to his smuggling operation.
-克拉修斯·库里奥听说有个不法之徒维尔弗雷德一直在走私货物。我必须找到维尔弗雷德，制止他的走私活动。
+克拉西乌斯·库里奥听说有个不法之徒维尔弗雷德一直在走私货物。我必须找到维尔弗雷德，制止他的走私活动。
 
 > INFO.NAME hh_nordsmugglers 12287114992633510397
 Crassius Curio thanked me for killing Velfred.
-克拉修斯·库里奥感谢我杀死了维尔弗雷德。
+克拉西乌斯·库里奥感谢我杀死了维尔弗雷德。
 
 > INFO.NAME c3_destroydagoth 29582117743242229064
 The Citadels of the Sixth House
@@ -8342,7 +8342,7 @@ Kidnapped by Cultists
 
 > INFO.NAME mv_cultistvictim 23353264531065918250
 I encountered a distraught traveler east of Ald Velothi. He was a Redguard named Sason, and he believes his wife was kidnapped by cultists.
-我在奥德-维洛西以东遇到了一个心神不宁的旅行者。他是一个名叫萨桑的红卫人，他认为自己的妻子被邪教徒绑架了。
+我在奥德-维洛提以东遇到了一个心神不宁的旅行者。他是一个名叫萨桑的红卫人，他认为自己的妻子被邪教徒绑架了。
 
 > INFO.NAME mv_cultistvictim 4241877732712347
 I have decided not to try and rescue Malexa from the cultists. I have no need to get involved in this issue.
@@ -8382,7 +8382,7 @@ Imperial Legion: Rescue Madura Seran
 
 > INFO.NAME il_rescuepilgrim 21994228813157730128
 Darius asked me to rescue a pilgrim from an outcast Ashlander camp outside of Ald Velothi. The pilgrim's name is Madura Seran.
-达瑞斯让我从奥德-维洛西城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。
+达瑞斯让我从奥德-维洛提城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。
 
 > INFO.NAME il_rescuepilgrim 1662012700838418077
 Darius thanked me for rescuing Madura Seran.
@@ -8534,7 +8534,7 @@ While walking along the western coast of Solstheim I met a man named Thormoor Gr
 
 > INFO.NAME bm_cursedcaptain 12062275342203125141
 The only other survivor of the shipwreck, a warlock and seer named Geilir the Mumbling, has cursed Thormoor with eternal wakefulness.  Thormoor hasn't slept since the ship was lost, and that was over six months ago.  If I can find some way to convince Geilir to lift the curse, Thormoor will finally be able to get some rest.  If I do this for Thormoor, he'll share with me a valuable secret he learned when he was a ship captain.
-船难中唯一的另一位幸存者，一位名叫喃喃者盖利尔的术士兼预言家，诅咒托尔摩尔永不安寝。自从船失事后，托尔摩就再也没睡过觉，而那已经是六个多月前的事了。如果我能想办法说服盖利尔解除诅咒，托尔摩尔就终于可以好好休息了。如果我为索摩尔做了这件事，他就会和我分享他当船长时学到的一个宝贵的秘密。
+船难中唯一的另一位幸存者，一位名叫喃喃者盖利尔的术士兼预言家，诅咒托尔摩尔永不安寝。自从船失事后，托尔摩就再也没睡过觉，而那已经是六个多月前的事了。如果我能想办法说服盖里尔解除诅咒，托尔摩尔就终于可以好好休息了。如果我为索摩尔做了这件事，他就会和我分享他当船长时学到的一个宝贵的秘密。
 
 > INFO.NAME bm_cursedcaptain 1406022870280834793
 I convinced Geilir the Mumbling to remove Thormoor's curse of eternal wakefulness.
@@ -9278,7 +9278,7 @@ Fighters Guild: The Egg Poachers
 
 > INFO.NAME fg_egg_poachers 31947895900716520
 Sevilo Othan and Daynila Valas, former egg miners and local troublemakers, are poaching eggs from Shulk Egg Mine. Report back to Eydis when they're dead.
-前卵矿矿工和当地的麻烦制造者塞维尔·奥桑和戴妮拉·瓦拉斯，正在舒尔克卵矿场偷取卵矿。等他们死了的时候向艾迪斯报告。
+前卵矿矿工和当地的麻烦制造者塞维尔·奥森和戴妮拉·瓦拉斯，正在舒尔克卵矿场偷取卵矿。等他们死了的时候向艾迪斯报告。
 
 > INFO.NAME fg_egg_poachers 2497615257663532622
 I reported taking care of the egg poachers at Shulk Egg mine, and Eydis Fire-Eye paid me 100 gold, and gave me some extra potions.
@@ -9326,7 +9326,7 @@ I returned to Raxle Berne and told him of my success in killing Merta. He seemed
 
 > INFO.NAME va_vampcountess 315525839725312447
 Because I have been able to kill a large number of Quarra and Aundae vampires, Raxle Berne has allowed me the use of the Berne cattle here in Galom Daeus, provided I kill none of them. If I do, I will no longer be welcome in Galom Daeus, and will be attacked on sight.
-因为我能够杀死大量库瑞娜氏族和昂戴氏族的吸血鬼，拉克斯·伯尔尼允许我使用加洛姆代乌斯这里的伯尔尼牲口，但前提是我不能杀死他们中的任何一个。如果我杀了它们，加洛姆代乌斯将不再欢迎我，而且会当场遭到攻击。
+因为我能够杀死大量夸尔拉氏族和昂戴氏族的吸血鬼，拉克斯·伯尔尼允许我使用加洛姆代乌斯这里的伯尔尼牲口，但前提是我不能杀死他们中的任何一个。如果我杀了它们，加洛姆代乌斯将不再欢迎我，而且会当场遭到攻击。
 
 > INFO.NAME va_vampcountess 23042234591408719473
 Because I have killed some of the cattle, I have lost the privilege of using them for food.
@@ -9694,7 +9694,7 @@ House Hlaalu: Bero's Support
 
 > INFO.NAME hh_berosupport 14977291071467424584
 Crassius told me that I should get the support of another Hlaalu Councilman. I should try and find Dram Bero in Vivec and get his support.
-克拉修斯告诉我，我应该得到另一位哈拉鲁议员的支持。我应该设法找到维威克的德拉姆·贝罗，争取他的支持。
+克拉西乌斯告诉我，我应该得到另一位哈拉鲁议员的支持。我应该设法找到维威克的德拉姆·贝罗，争取他的支持。
 
 > INFO.NAME hh_berosupport 16872304352718216418
 Dram Bero agreed to give me his support on the council.
@@ -9950,7 +9950,7 @@ In times of great danger, the Ashlander tribes unite under a single war leader. 
 
 > INFO.NAME a2_6_incarnate 36104382652719067
 Nibani Maesa reminded me of the Fifth Trial of the Seven Visions: 'A stranger's hand unites the Velothi/Four Tribes call him Nerevarine.'  The Four Tribes are the four tribes of Vvardenfell, the Urshilaku, the Ahemmusa, the Zainab, and the Erabenimsun. When I have been named 'Nerevarine' by each of the four Ashlander tribes of Vvardenfell, I will have passed the Fifth Trial, and should return to Nibani Maesa for further guidance.
-尼巴妮·玛伊沙提醒我《七大异象》的第五个考验：“一个异客之手联合了维洛西人/四个部落称他为尼瑞瓦因。”四个部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当我被瓦登费尔的四个灰烬之民部落分别命名为“尼瑞瓦因”时，我就通过了第五个试炼，应该回到尼巴妮·玛伊沙那里接受进一步的指导。
+尼巴妮·玛伊沙提醒我《七大异象》的第五个考验：“一个异客之手联合了维洛提人/四个部落称他为尼瑞瓦因。”四个部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当我被瓦登费尔的四个灰烬之民部落分别命名为“尼瑞瓦因”时，我就通过了第五个试炼，应该回到尼巴妮·玛伊沙那里接受进一步的指导。
 
 > INFO.NAME a2_6_incarnate 2219619981111149074
 When a greater enemy threatens, the Great Houses put aside their quarrels and choose a Hortator, a single war leader to lead all the Houses. Only a Great House council can name a Hortator, and all councils must agree. Nibani Maesa says I must go to Redoran Council, Hlaalu Council, and Telvanni Council, prove to each that the threat of Dagoth Ur warrants uniting under a Hortator, and persuade each to name me 'Hortator'. This is how I must pass the Fourth Trial.
@@ -10810,7 +10810,7 @@ Lorbumol gro-Aglakh has a job for me involving debt money that is owed.
 
 > INFO.NAME fg_debtstoine 2422825916747957
 Lorbumol gro-Aglakh thanked me for bringing him the 2000 gold Lirielle Stoine owed our client. He actually let me keep half of the money owed.
-洛布莫·格罗-阿格拉克感谢我把莉莉尔·斯托尼欠我们客户的 2000 金币带给他。他还让我保留了一半的欠款。
+洛布莫·格罗-阿格拉克感谢我把莉莉尔·斯通欠我们客户的 2000 金币带给他。他还让我保留了一半的欠款。 {莉莉尔·斯托尼}
 
 > INFO.NAME hr_shurinbaal 1944308643252616338
 House Redoran: Shurinbaal
@@ -10882,7 +10882,7 @@ I was told that the Twin Lamps are an anti-slavery organization. If I am asked "
 
 > INFO.NAME hh_twinlamps1 1700626821162312476
 Ilmeni Dren thanked me for helping the Arvel family in Ald Velothi.
-伊尔梅妮·德伦感谢我帮助奥德-维洛西的阿维尔家族。
+伊尔梅妮·德伦感谢我帮助奥德-维洛提的阿维尔家族。
 
 > INFO.NAME hh_twinlamps3 2226895722378013225
 House Hlaalu: Free Hides-His-Foot
@@ -11074,7 +11074,7 @@ Temple: Compassion
 
 > INFO.NAME tt_compassion 31919179021757618115
 Tuls Valen wants me to reenact Vivec's compassionate healing of a foe. I must either learn the Rilm's Gift spell or use the potion he gave me to cure the Orc Bulfim gra-Shugharz of Ash-Chancre. Bulfim gra-Shugarz is in Maelkashishi. I can get there by heading east from Ald Velothi until I reach the mountains, then following the mountains south.
-图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“里尔姆之礼”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人巴菲姆·格拉-舒噶兹。巴菲姆·格拉-舒噶兹在梅尔卡诗诗。我可以从奥德-维洛西向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
+图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“里尔姆之礼”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人巴菲姆·格拉-舒噶兹。巴菲姆·格拉-舒噶兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
 
 > INFO.NAME tt_compassion 836014959162526210
 Tuls Valen thanked me for curing Bulfim gra-Shugharz.
@@ -11122,7 +11122,7 @@ Hlaalu Hortator
 
 > INFO.NAME b6_hlaaluhort 225332911676398278
 Crassius Curio gave me the Belt of the Hortator, a token that shows I have been named Hortator of House Hlaalu by Hlaalu's councilors. When I have been declared Hortator of all three Houses, Redoran, Hlaalu, and Telvanni, I will have fulfilled the Fourth Trial of the Seven Visions of Seven Trials of the Incarnate.
-克拉修斯·库里奥给了我“统谏使腰带”，这是我被哈拉鲁议员任命为哈拉鲁家族统谏使的凭证。当我被宣布为瑞多然、哈拉鲁和泰瓦尼三家的统谏使时，我就完成了“化身的七大异象之七大试炼”中的第四个试炼。
+克拉西乌斯·库里奥给了我“统谏使腰带”，这是我被哈拉鲁议员任命为哈拉鲁家族统谏使的凭证。当我被宣布为瑞多然、哈拉鲁和泰瓦尼三家的统谏使时，我就完成了“化身的七大异象之七大试炼”中的第四个试炼。
 
 > INFO.NAME b5_arobarhort 2697645981515916047
 Redoran Hortator
@@ -11474,7 +11474,7 @@ I have returned to Ashmelech and spoken with Daunayne Aundae. She was pleased wi
 
 > INFO.NAME va_vamphunter 922341123252512851
 As a reward for killing many of the vampires from the Quarra and Berne clans, Daunayne Aundae has allowed me to feed off the cattle here in Ashmelech, provided I do not kill any of them. If I do, I will no longer be welcome in Ashmelech, and will be attacked on sight.
-作为对我杀死库瑞娜氏族和伯尔尼氏族众多吸血鬼的奖励，道娜·昂戴允许我在阿什梅勒奇以血畜为食，前提是我不能杀死任何一个血畜。如果我杀了它们，阿什梅勒奇将不再欢迎我，而且会当场遭到攻击。 {报酬}
+作为对我杀死夸尔拉氏族和伯尔尼氏族众多吸血鬼的奖励，道娜·昂戴允许我在阿什梅勒奇以血畜为食，前提是我不能杀死任何一个血畜。如果我杀了它们，阿什梅勒奇将不再欢迎我，而且会当场遭到攻击。 {报酬}
 
 > INFO.NAME va_vamphunter 42052470660551088
 Because I have killed some of the cattle, I have lost the privilege of using them for food.
@@ -11482,23 +11482,23 @@ Because I have killed some of the cattle, I have lost the privilege of using the
 
 > INFO.NAME va_vampamulet 23796183762369429130
 The Quarra Amulet
-库瑞娜护符
+夸尔拉护符
 
 > INFO.NAME va_vampamulet 223775801109793006
 Volrina Quarra has offered me the chance to perform another service for her. She needs to make a large number of magical amulets for her clan, and has need of raw materials to do so.
-沃里娜·库瑞娜让我有机会为她提供另一项服务。她需要为她的部族制作大量魔法护身符，为此需要原材料。
+沃里娜·夸尔拉让我有机会为她提供另一项服务。她需要为她的部族制作大量魔法护身符，为此需要原材料。
 
 > INFO.NAME va_vampamulet 2207920932139747115
 I have decided not to try and find the materials needed by Volrina Quarra.
-我决定不再尝试寻找沃里娜·库瑞娜所需要的材料。
+我决定不再尝试寻找沃里娜·夸尔拉所需要的材料。
 
 > INFO.NAME va_vampamulet 316928859187854758
 I have returned to Volrina Quarra with the ingredients she asked for. She apparently was using them to create powerful amulets for her clan. This is not her first attempt at such an enchantment. She has given me as a reward an amulet (one of her failed attempts) that will allow me to return to Druscashti at will. She has also told me that I may earn further reward by killing vampires of other clans.
-我已经带着她要的素材回到了沃里娜·库瑞娜那里。她显然在用这些素材为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁卡什提。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}
+我已经带着她要的素材回到了沃里娜·夸尔拉那里。她显然在用这些素材为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁卡什提。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}
 
 > INFO.NAME va_vampamulet 1435126856112626769
 Because I have killed a great number of vampires of the Aundae and the Berne Clans, Volrina Quarra has rewarded me with the right to feed from the clan cattle. The only provision is that I may not kill any of them. If I do, I will no longer be welcome in Druscashti, and will be attacked on sight.
-由于我杀死了大量昂戴氏族和伯尔尼氏族的吸血鬼，沃里娜·库瑞娜奖励我可以享用氏族的血畜作为食物。唯一的规定是，我不能杀死他们中的任何一个。如果我杀了它们，德罗斯卡什提将不再欢迎我，而且会当场遭到攻击。 {报酬}
+由于我杀死了大量昂戴氏族和伯尔尼氏族的吸血鬼，沃里娜·夸尔拉奖励我可以享用氏族的血畜作为食物。唯一的规定是，我不能杀死他们中的任何一个。如果我杀了它们，德罗斯卡什提将不再欢迎我，而且会当场遭到攻击。 {报酬}
 
 > INFO.NAME va_vampamulet 1919943952604326150
 Because I have killed some of the cattle, I have lost the privilege of using them for food.
@@ -11578,7 +11578,7 @@ Imperial Cult: Buckmoth Alms
 
 > INFO.NAME ic10_lirielle 792528213658319277
 Lirielle Stoine gave me a donation for the Buckmoth Fund.
-莉莉尔·斯托尼给了我一笔雄蛾基金捐款。
+莉莉尔·斯通给了我一笔雄蛾基金捐款。 {莉莉尔·斯托尼}
 
 > INFO.NAME ic16_haunting 2240673591875422623
 Imperial Cult: The Haunting
@@ -11606,11 +11606,11 @@ Blood for Mistress Dratha
 
 > INFO.NAME va_vampblood2 24962229242752332237
 Raven Omayn tells me that Mistress Dratha would like to obtain the Blood of the Quarra Ancients for her studies. She believes it will be found in Druscashti, the home of Volrina Quarra and her kin.
-瑞雯·奥曼告诉我，德拉萨夫人想得到库瑞娜古人之血用于研究。她认为可以在沃里娜·库瑞娜及其族人的故乡德鲁斯卡什提找到。
+瑞雯·奥曼告诉我，德拉萨夫人想得到夸尔拉古人之血用于研究。她认为可以在沃里娜·夸尔拉及其族人的故乡德鲁斯卡什提找到。
 
 > INFO.NAME va_vampblood2 18794109772348710143
 It seems Mistress Dratha was pleased to receive the Blood of the Quarra Ancients. I have been rewarded with a Jinksword, which Raven Omayn believes could only be useful to a vampire.
-看来德拉萨夫人很高兴收到库瑞娜之血。我得到了一把强劲的剑，瑞雯·奥曼认为这把剑只能对吸血鬼有用。 {报酬}
+看来德拉萨夫人很高兴收到夸尔拉之血。我得到了一把强劲的剑，瑞雯·奥曼认为这把剑只能对吸血鬼有用。 {报酬}
 
 > INFO.NAME ms_arenimtomb 9600280261484917080
 Search for Her Father's Amulet
@@ -11702,7 +11702,7 @@ Gaea Artoria suggests I should seek out the Nords who live on the northern coast
 
 > INFO.NAME bm_cariusgone 2373113641115530237
 Saenus Lusius believes that I should seek out the Nords who live on the northern coast of Solstheim. Lusius tells me that these Nords are nature worshippers, and would know what these animals were that attacked the fort. He would like me to remain with these people, work my way into their confidence, though it may take a long time. He's given me a skull found in a Skaal tomb, in the hopes they will accept it as a sign of good faith.
-塞努斯·卢修斯认为我应该去找住在索瑟泰姆北岸的诺德人。卢修斯告诉我，这些诺德人崇拜自然，他们会知道袭击要塞的这些动物是什么。他希望我和这些人呆在一起，用我的方式取得他们的信任，尽管这可能需要很长的时间。他给了我一个在斯卡尔人坟墓里发现的头骨，希望他们能接受它，以示诚意。 {工作,信仰}
+塞努斯·卢西乌斯认为我应该去找住在索瑟泰姆北岸的诺德人。卢西乌斯告诉我，这些诺德人崇拜自然，他们会知道袭击要塞的这些动物是什么。他希望我和这些人呆在一起，用我的方式取得他们的信任，尽管这可能需要很长的时间。他给了我一个在斯卡尔人坟墓里发现的头骨，希望他们能接受它，以示诚意。 {工作,信仰}
 
 > INFO.NAME bm_cariusgone 222364402124419412
 I have found the Nord village. The people here have told me to speak to Tharsten Heart-Fang, their leader. He is in the Greathall.
@@ -11714,7 +11714,7 @@ Tharsten Heart-Fang says he knows nothing about the attack on Fort Frostmoth, an
 
 > INFO.NAME bm_cariusgone 2252150182508680
 I have returned to Fort Frostmoth and spoken with Saenus Lusius. He was disappointed the Skaal have not told me more, but not surprised. He wishes for me to return to them and live among them until I can find out what has happened to Captain Carius.
-我已经回到霜蛾要塞，并与塞努斯·卢修斯进行了交谈。他很失望斯卡尔人没有告诉我更多，但并不感到惊讶。他希望我回到他们身边，和他们生活在一起，直到我找到卡利尤斯队长的下落。
+我已经回到霜蛾要塞，并与塞努斯·卢西乌斯进行了交谈。他很失望斯卡尔人没有告诉我更多，但并不感到惊讶。他希望我回到他们身边，和他们生活在一起，直到我找到卡利尤斯队长的下落。
 
 > INFO.NAME bm_cariusgone 2447642984659646
 Gaea Artoria did not believe that the Skaal knew nothing about the attack or Carius' disappearance. She would like me to return, earn their trust, and continue to live among them. She believes that, given time, I might be able to find out what has happened to Captain Carius.
@@ -11814,7 +11814,7 @@ Mages Guild: Meeting with a Wise Woman
 
 > INFO.NAME mg_wisewoman 23338176113233031689
 Skink would like to arrange a meeting with one of the Wise Women of the Ashlanders. He asked me to negotiate a meeting.
-斯金克想与灰烬之民的一位女智者安排一场会面。他让我去洽谈会面事宜。 {女人}
+斯金克想与灰烬之民的一位女智者安排一次会面。他让我去洽谈会面事宜。 {女人}
 
 > INFO.NAME mg_wisewoman 53082221799309531
 Somehow Minabi arrived at the Mages Guild before me. Skink thanked me for arranging the exchange of knowledge.
@@ -11914,7 +11914,7 @@ House Hlaalu: Sealed Orders
 
 > INFO.NAME hh_bankfraud 653922929105279864
 Crassius Curio asked me to speak with Odral Helvi in Caldera.
-克拉修斯·库里奥让我去卡尔德拉与奥德拉尔·赫尔维交谈。
+克拉西乌斯·库里奥让我去卡尔德拉与奥德拉尔·赫尔维交谈。
 
 > INFO.NAME hh_bankfraud 30241273552336613484
 Odral Helvi thanked me for delivering the orders.
@@ -12062,7 +12062,7 @@ Hlaalu Hortator
 
 > INFO.NAME b6_curiohort 1097746772655927059
 Crassius Curio said that there were some hard feelings in House Hlaalu about the circumstances surrounding the death of a Hlaalu councilor. He expressed deep sorrow that he could not support me for Hortator without jeopardizing his own standing in House Hlaalu.
-克拉修斯·库里奥说，哈拉鲁议长的死在哈拉鲁家族议院引起了一些不满。他深表悲痛，因为他无法在不影响自己在哈拉鲁议院地位的情况下支持我担任统谏使。
+克拉西乌斯·库里奥说，哈拉鲁议长的死在哈拉鲁家族议院引起了一些不满。他深表悲痛，因为他无法在不影响自己在哈拉鲁议院地位的情况下支持我担任统谏使。
 
 > INFO.NAME b6_omanihort 9999128701886218711
 Hlaalu Hortator
@@ -12474,7 +12474,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_backdoor2 2859018848235282868
 Crassius Curio seemed concerned that I had not fulfilled the Nerevarine prophecies. He says that Archcanon Saryoni hopes I will come speak with him at the High Fane in Vivec City.
-克拉修斯·库里奥似乎很担心我是否完成尼瑞瓦因预言。他说大主教·萨里奥尼希望我能到维威克城的至高神殿与他交谈。
+克拉西乌斯·库里奥似乎很担心我是否完成尼瑞瓦因预言。他说大主教·萨里奥尼希望我能到维威克城的至高神殿与他交谈。
 
 > INFO.NAME b8_backdoor3 4097245082420415776
 Hortator and Nerevarine
@@ -12586,7 +12586,7 @@ I have killed Mastrius. He will never again see the outside world.
 
 > INFO.NAME va_vampblood 2462017912543119604
 The Blood of the Quarra
-库瑞娜之血
+夸尔拉之血
 
 > INFO.NAME va_vampblood 30828375344939861
 I spoke with Raxle Berne, the head of the Berne vampire clan in Morrowind. While he considers me an abomination, he seems willing to allow me to do some of the more menial tasks for the clan.
@@ -12598,7 +12598,7 @@ I have decided not to try and retrieve the potion for Raxle Berne.
 
 > INFO.NAME va_vampblood 29644148421398617348
 I have returned Quarra Blood Potion to Raxle Berne. He believes it will grant him strength beyond that of any of the other clan lords. In return, he will grant me access to those in the clan who provide services.
-我已将库瑞娜之血交给给拉克斯·伯尔尼。他相信这将赋予他超越任何其他氏族领主的力量。作为回报，他将允许我接触部族中提供服务的人。 {药水}
+我已将夸尔拉之血交给给拉克斯·伯尔尼。他相信这将赋予他超越任何其他氏族领主的力量。作为回报，他将允许我接触部族中提供服务的人。 {药水}
 
 > INFO.NAME va_vampchild 102598898599515294
 Blood Ties
@@ -12694,15 +12694,15 @@ A man approached me outside a trader's in Vivec. The odd thing is, I couldn't se
 
 > INFO.NAME eb_invisible 221161770245087340
 I've spoken to Lucretinaus Olcinius about his son's cure. He was grateful for all my help, and he gave me 100 septims as a reward for my efforts.
-我跟卢克雷蒂诺斯·奥西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我 100 塞普汀作为报酬。
+我跟卢克雷蒂诺斯·奥基尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我 100 塞普汀作为报酬。
 
 > INFO.NAME eb_invisible 193869919292223526
 Upon returning to the area around the trader's shop, I was greeted by the now-visible Cassius Olcinius. He was very grateful for my help, but he had nothing to offer me in return for my help.
-回到贸易商商店周围后，迎接我的是现在的卡修斯·奥西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
+回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥基尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
 
 > INFO.NAME eb_invisible 811612941746920999
 I told Cassius Olcinius that Fevyn Ralen is dead. He'll never be visible again.
-我告诉卡修斯·奥西尼乌斯，费文·拉伦已经死了。他再也不会出现了。
+我告诉卡西乌斯·奥基尼乌斯，费文·拉伦已经死了。他再也不会出现了。
 
 > INFO.NAME ic14_nottell 710255621166818377
 Imperial Cult: Pledge from Canctunian Ponius
@@ -12758,11 +12758,11 @@ Captain Carius mentioned that he believes there is a problem with smugglers at F
 
 > INFO.NAME bm_smugglers 1250212643183229542
 I should speak with either Saenus Lusius or Gaea Artoria to help me ferret out the smugglers. Captain Carius tells me that Saenus Lusius is one of his brightest soldiers, and Gaea Artoria one of his strongest. I'll be able to find Lusius in the General Quarters, and Artoria in the General Quarters, Upper Level.
-我应该找塞努斯·卢修斯或盖娅·阿尔托利亚谈谈，让他们帮我揪出走私者。卡利尤斯队长告诉我，塞努斯·卢修斯是他手下最聪明的士兵之一，盖娅·阿尔托利亚是他手下最强壮的士兵之一。我可以在指挥官住所找到卢修斯，在上层区域的指挥官住所找到阿尔托莉雅。
+我应该找塞努斯·卢西乌斯或盖娅·阿尔托利亚谈谈，让他们帮我揪出走私者。卡利尤斯队长告诉我，塞努斯·卢西乌斯是他手下最聪明的士兵之一，盖娅·阿尔托利亚是他手下最强壮的士兵之一。我可以在指挥官住所找到卢西乌斯，在上层区域的指挥官住所找到阿尔托莉雅。
 
 > INFO.NAME bm_smugglers 19042221730563145
 I have chosen to work with Saenus Lusius to discover the smuggling ring here at Fort Frostmoth. He seems to be very knowledgeable, and should be a valuable companion. We are to find the smuggled goods and report to Captain Carius. We may deal with the smugglers as we see fit.
-我选择与塞努斯·卢修斯合作，来发现霜蛾要塞这里的走私团伙。他似乎见多识广，应该是个有价值的伙伴。我们要找到走私货物并向卡利尤斯队长报告。我们可以酌情处理走私者。 {工作,戒指}
+我选择与塞努斯·卢西乌斯合作，来发现霜蛾要塞这里的走私团伙。他似乎见多识广，应该是个有价值的伙伴。我们要找到走私货物并向卡利尤斯队长报告。我们可以酌情处理走私者。 {工作,戒指}
 
 > INFO.NAME bm_smugglers 321316029250097350
 I have chosen to work with Gaea Artoria to discover the smuggling ring here at Fort Frostmoth. From what I gather, there is no finer warrior at the garrison. We are to find the smuggled goods and report to Captain Carius. We may deal with the smugglers as we see fit.
@@ -12770,7 +12770,7 @@ I have chosen to work with Gaea Artoria to discover the smuggling ring here at F
 
 > INFO.NAME bm_smugglers 210137019841113107
 Saenus Lusius has suggested we speak with a few of the soldiers to see who may be involved in the smuggling ring. The first he suggests we speak with is Zeno Faustus, whom Lusius believes we may trust. He can be found in the Armory.
-塞努斯·卢修斯建议我们找几个士兵谈谈，看看谁可能参与了走私团伙。卢修斯认为我们可以信任泽诺·福斯图斯。我们可以在军械库找到他。 {戒指}
+塞努斯·卢西乌斯建议我们找几个士兵谈谈，看看谁可能参与了走私团伙。卢西乌斯认为我们可以信任泽诺·福斯图斯。我们可以在军械库找到他。 {戒指}
 
 > INFO.NAME bm_smugglers 32306209071224110298
 Gaea Artoria believes we should start talking to other soldiers, but does not know with whom to speak. She suggests simply intimidating some of the soldiers into giving up information on the smuggling ring.
@@ -12782,7 +12782,7 @@ One of the soldiers I've spoken with suggests that Zeno Faustus may have knowled
 
 > INFO.NAME bm_smugglers 88952773453132201
 Zeno Faustus seems willing to speak with me about the smuggling ring, as he trusts Saenus Lusius.
-泽诺·福斯图斯似乎愿意跟我谈走私的事，因为他信任塞努斯·卢修斯。 {戒指}
+泽诺·福斯图斯似乎愿意跟我谈走私的事，因为他信任塞努斯·卢西乌斯。 {戒指}
 
 > INFO.NAME bm_smugglers 27418180012111311070
 Zeno Faustus seems reluctant to speak with me about the smuggling ring.
@@ -12798,7 +12798,7 @@ I have found the smugglers' cave that Zeno Faustus suggested we investigate.
 
 > INFO.NAME bm_smugglers 202392469052999143
 One of the smugglers, Gualtierus Spurius, has offered me a deal because he knows and trusts Saenus Lusius. In exchange for sparing his life, he will leave Solstheim and the stolen goods behind. In addition, he will give me an axe to keep silent about his whereabouts.
-走私者之一瓜尔蒂鲁斯·斯普里乌斯向我提出了一个交易，因为他认识塞努斯·卢修斯并信任他。作为饶他一命的交换条件，他将留下索瑟泰姆和赃物。此外，他还会给我一把斧头，让我对他的行踪保持沉默。 {手斧}
+走私者之一瓜尔蒂鲁斯·斯普里乌斯向我提出了一个交易，因为他认识塞努斯·卢西乌斯并信任他。作为饶他一命的交换条件，他将留下索瑟泰姆和赃物。此外，他还会给我一把斧头，让我对他的行踪保持沉默。 {手斧}
 
 > INFO.NAME bm_smugglers 344379691661317375
 I've accepted Gualtierus Spurius' offer, and will allow him to leave the island. He's given me a silver axe in return, and has suggested I can take whatever I like from his stash of stolen goods.
@@ -13494,11 +13494,11 @@ House Hlaalu: An Admiring Sponsor
 
 > INFO.NAME hh_crassius 15592189453276220783
 Crassius Curio agree to be my sponsor, but he wants me to take my clothes off.
-克拉修斯·库里奥同意做我的担保人，但他要我脱掉衣服。 {服装}
+克拉西乌斯·库里奥同意做我的担保人，但他要我脱掉衣服。 {服装}
 
 > INFO.NAME hh_crassius 1307198662085713492
 I took my clothes off for Crassius Curio and he is now my sponsor in House Hlaalu.
-我为克拉修斯·库里奥脱了衣服，他现在是我在哈拉鲁家族的担保人。 {服装}
+我为克拉西乌斯·库里奥脱了衣服，他现在是我在哈拉鲁家族的担保人。 {服装}
 
 > INFO.NAME va_vamprich 102201189546822252
 The Boy Who Would Be Undead
@@ -13522,7 +13522,7 @@ The Cult of Lord Irarak
 
 > INFO.NAME va_vampcult 646220291238927715
 I have spoken with Volrina Quarra, ruler of the Quarra clan in Morrowind. Although she considers me an abomination, she has offered to allow me to serve her clan by killing a rogue vampire. If I can do so, she will allow me use of the clan services.
-我已经和晨风中库瑞娜氏族的统治者沃里娜·库瑞娜谈过了。虽然她认为我令人憎恶，但她提出让我侍奉她的部族，杀死一个流氓吸血鬼。如果我能做到，她将允许我使用氏族的服务。
+我已经和晨风中夸尔拉氏族的统治者沃里娜·夸尔拉谈过了。虽然她认为我令人憎恶，但她提出让我侍奉她的部族，杀死一个流氓吸血鬼。如果我能做到，她将允许我使用氏族的服务。
 
 > INFO.NAME va_vampcult 92246382227901197
 I have decided not to try and kill Irarak.
@@ -13538,11 +13538,11 @@ Irarak is dead. His cult will have to find a new way to spend their time and gol
 
 > INFO.NAME va_vampcult 10565207852121112490
 I have returned to Druscashti and told Volrina Quarra of the death of "Lord Irarak." She was pleased, and will allow me to use clan services.
-我已经回到了德鲁卡什提，告诉了沃里娜·库瑞娜“因拉拉克领主”的死讯。她很高兴，并允许我使用氏族的服务。
+我已经回到了德鲁卡什提，告诉了沃里娜·夸尔拉“因拉拉克领主”的死讯。她很高兴，并允许我使用氏族的服务。
 
 > INFO.NAME va_vampcult 6412258132677526035
 I have returned to Druscashti and told Volrina Quarra of my decision to let "Lord Irarak" live. She was not pleased by my decision, and I have been told not to return to the Quarra lair.
-我已返回德罗斯卡什提，并告诉沃里娜·库瑞娜我决定让“因拉拉克领主”活下去。她对我的决定并不满意，并让我不要再回到莱尔巢穴。
+我已返回德罗斯卡什提，并告诉沃里娜·夸尔拉我决定让“因拉拉克领主”活下去。她对我的决定并不满意，并让我不要再回到夸尔拉巢穴。
 
 > INFO.NAME ic10_cienne 15872224612438127982
 Imperial Cult: Buckmoth Alms
@@ -13578,7 +13578,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_bacola 8381325792294223899
 Bacola Closcius gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. He also hinted that Banor Seran at the Council Club just took delivery of some Cyrodilic brandy, and that he's probably got it stored in a closet in the hall  just right of the bar. He says the Council Club is just a front for Camonna Tong gangsters, suggesting it wouldn't REALLY be a crime to steal the brandy from them.
-巴科拉·克娄斯修斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会大厅所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
+巴科拉·克娄斯基乌斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会大厅所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
 
 > INFO.NAME ic12_dulnea 1584042372517830834
 Imperial Cult: Brandy for the Fundraising Dinner
@@ -13930,7 +13930,7 @@ House Redoran: Deliver Cure Disease Potion
 
 > INFO.NAME hr_courier 11820293791638324115
 Neminda told me to deliver a Potion of Cure Disease to Theldyn Virith in Ald Velothi.
-内明达让我给奥德-维洛西的塞尔丁·维瑞斯送去治愈疾病的药水。
+内明达让我给奥德-维洛提的塞尔丁·维瑞斯送去治愈疾病的药水。
 
 > INFO.NAME hr_courier 241584426160519855
 I delivered the potion and gave my report to Neminda.
@@ -13942,7 +13942,7 @@ Mages Guild: Dwemer Tube from Arkngthunch-Sturdumz
 
 > INFO.NAME mg_science 9399220262148028841
 Edwinna asked me to retrieve a Dwemer Tube from Arkngthunch-Sturdumz. Edwinna thinks Arkngthunch-Sturdumz is west of Ald Velothi on the coast. If I follow the coast from Ald Velothi I should be able to see it.
-埃德温娜让我从阿肯图奇·斯特达姆兹那里取回一个锻莫钢管。埃德温娜认为阿肯图奇-斯特达姆兹在奥德-维洛西以西的海岸边。如果我从奥德-维洛西沿着海岸线走，应该能看到它。
+埃德温娜让我从阿肯图奇·斯特达姆兹那里取回一个锻莫钢管。埃德温娜认为阿肯图奇-斯特达姆兹在奥德-维洛提以西的海岸边。如果我从奥德-维洛提沿着海岸线走，应该能看到它。
 
 > INFO.NAME mg_science 2516112867243228513
 I delivered the Dwemer Tube to Edwinna.
@@ -14518,23 +14518,23 @@ I met a sad warlock and seer named Geilir the Mumbling.  His family was recently
 
 > INFO.NAME bm_sadseer 3034010896191716750
 Geilir asked me to rescue Oddfrid White-Lip from Kolbjorn Barrow, but I refused.
-盖利尔让我从科布乔恩古冢营救奥德弗里德·白-唇，但我拒绝了。
+盖里尔让我从科布乔恩古冢营救奥德弗里德·白-唇，但我拒绝了。
 
 > INFO.NAME bm_sadseer 476731776472729772
 I have agreed to help Geilir the Mumbling by rescuing Oddfrid White-Lip from Kolbjorn Barrow.  As a reward, he will talk to Oddfrid and reveal my future.  Kolbjorn Barrow is southeast of Geilir's dwelling, near the Solstheim coast.
-我同意帮助喃喃者盖利尔，从科布乔恩古冢营救奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈，并透露我的未来。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
+我同意帮助喃喃者盖利尔，从科布乔恩古冢营救奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈，并透露我的未来。科布乔恩古冢在盖里尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
 
 > INFO.NAME bm_sadseer 21755137051556225545
 I have agreed to help Geilir the Mumbling by rescuing Oddfrid White-Lip from Kolbjorn Barrow.  As a reward, he will talk to  Oddfrid and reveal my future.  He will also reverse Thormoor Gray-Wave's curse of eternal wakefulness.  Kolbjorn Barrow is southeast of Geilir's dwelling, near the Solstheim coast.
-我同意帮助喃喃者盖利尔，从科布乔恩古冢救出奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈并揭示我的未来。他还会解除托尔穆尔·灰浪的永不安寝诅咒。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
+我同意帮助喃喃者盖利尔，从科布乔恩古冢救出奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈并揭示我的未来。他还会解除托尔穆尔·灰浪的永不安寝诅咒。科布乔恩古冢在盖里尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
 
 > INFO.NAME bm_sadseer 22251196661123929683
 I found Oddfrid White-Lip, but Geilir failed to mention that she was just a skull.  No matter.  If I return the skull to Geilir, he should grant my reward.
-我找到了白唇奥德弗里德，但盖利尔没有提到她只是个骷髅头。没关系。如果我把头骨还给盖利尔，他应该会给我奖赏。 {报酬}
+我找到了白唇奥德弗里德，但盖里尔没有提到她只是个骷髅头。没关系。如果我把头骨还给盖里尔，他应该会给我奖赏。 {报酬}
 
 > INFO.NAME bm_sadseer 2147823814821827709
 I returned Oddfrid White-Lip to Geilir the Mumbling.  Geilir admitted that Oddfrid was just a skull, but insists "she" talks to him.
-我把奥德弗里德·白-唇交还给了喃喃者盖利尔。盖利尔承认奥德弗里德只是个骷髅头，但坚持“她”会跟他说话。 {谈}
+我把奥德弗里德·白-唇交还给了喃喃者盖利尔。盖里尔承认奥德弗里德只是个骷髅头，但坚持“她”会跟他说话。 {谈}
 
 > INFO.NAME bm_sadseer 3997156941542613539
 Geilir the Mumbling told me my future.  He said something about the beginning of a hunt, and me as both the hunter and hunted.  I was surrouned by ice.  He also said something about a giant and a horned huntsman.
@@ -14542,7 +14542,7 @@ Geilir the Mumbling told me my future.  He said something about the beginning of
 
 > INFO.NAME bm_sadseer 27911606178291930
 Geilir the Mumbling couldn't tell my future, but Oddfrid did tell him about something else.  He said that when the dragon dies, the Empire dies.  He also said something about the lost dragon's blood and the Empire's sire, and the stemming of a blood tide.  Geilir said it was all very cloudy, and does not refer to me directly.
-喃喃者盖利尔无法预知我的未来，但奥德弗里德确实告诉了他一些别的事情。他说龙死了，帝国也就灭亡了。他还说了一些关于失去的龙血和帝国陛下的事，以及血潮的源头。盖利尔说这一切都很模糊，并没有直接提到我。 {泰姆瑞尔帝国}
+喃喃者盖利尔无法预知我的未来，但奥德弗里德确实告诉了他一些别的事情。他说龙死了，帝国也就灭亡了。他还说了一些关于失去的龙血和帝国陛下的事，以及血潮的源头。盖里尔说这一切都很模糊，并没有直接提到我。 {泰姆瑞尔帝国}
 
 > INFO.NAME bm_sadseer 23037170781024130908
 Geilir the Mumbling told me my future.  He said....
@@ -14778,7 +14778,7 @@ A soldier has agreed to speak with me in exchange for some liquor I had with me.
 
 > INFO.NAME bm_morale 29696491441032515
 Carius tells me that although he and Antonius Nuncius discussed the effects of alcohol on the men, he never actually banned liquor consumption. The shipments, however, have stopped arriving. Captain Carius would like me to speak with the soldiers some more and find out where these rumors are being started.
-卡利尤斯告诉我，虽然他和安东尼斯·努修斯讨论过酒精对士兵的影响，但他从未真正禁止过饮酒。不过，酒已经停运了。卡利尤斯队长想让我再和士兵们谈谈，看看这些谣言是从哪里传出来的。
+卡利尤斯告诉我，虽然他和安东尼乌斯·农基乌斯讨论过酒精对士兵的影响，但他从未真正禁止过饮酒。不过，酒已经停运了。卡利尤斯队长想让我再和士兵们谈谈，看看这些谣言是从哪里传出来的。
 
 > INFO.NAME bm_morale 130821468190527779
 The soldiers seem willing to take the alcohol in my posession in exchange for information about what has become a dry fort. It seems that a bit of the drink makes them much more disposed to chatting.
@@ -14786,31 +14786,31 @@ The soldiers seem willing to take the alcohol in my posession in exchange for in
 
 > INFO.NAME bm_morale 32327291001612046
 One of the soldiers has told me that it was Antonius Nuncius who told him that the alcohol ban was a punishment from Captain Carius. Of course, I'll need more proof of that before I can possibly report this information to Carius. I should be able to find Nuncius either in the Imperial Cult Shrine, or in his office, located above the Armory.
-其中一个士兵告诉我，是安东尼斯·努修斯告诉他禁酒令是卡利尤斯队长的惩罚。当然，在向卡利尤斯报告这个消息之前，我需要更多的证据。我应该可以在帝国教团圣祠或者军械库楼上他的办公室找到农修斯。 {帝国人}
+其中一个士兵告诉我，是安东尼乌斯·农基乌斯告诉他禁酒令是卡利尤斯队长的惩罚。当然，在向卡利尤斯报告这个消息之前，我需要更多的证据。我应该可以在帝国教团圣祠或者军械库楼上他的办公室找到农基乌斯。 {帝国人}
 
 > INFO.NAME bm_morale 18143213902432221639
 Antonius Nuncius denies spreading rumors about Captain Carius or starting any trouble at all in the Fort. He claims to be a simple priest dedicated to serving his fellow man. He acts guilty, though, so perhaps it bears further investigation.
-安东尼斯·努修斯否认散布关于卡利尤斯队长的谣言，也否认在要塞制造任何麻烦。他声称自己只是个一心为同胞服务的普通牧师。不过他表现得很心虚，也许值得进一步调查。 {熊}
+安东尼乌斯·农基乌斯否认散布关于卡利尤斯队长的谣言，也否认在要塞制造任何麻烦。他声称自己只是个一心为同胞服务的普通牧师。不过他表现得很心虚，也许值得进一步调查。 {熊}
 
 > INFO.NAME bm_morale 675714535121884926
 I've found a large stash of alcohol in Antonius Nuncius' desk.
-我在安东尼斯·努修斯的书桌里发现了一大堆酒。
+我在安东尼乌斯·农基乌斯的书桌里发现了一大堆酒。
 
 > INFO.NAME bm_morale 11277119571420830297
 Antonius Nuncius has admitted that he has been poisoning the minds of the soldiers here in Fort Frostmoth. His hope was that if the situation here got bad enough, he would be recalled to Vvardenfell.
-安东尼斯·努修斯已经承认，他在霜蛾要塞的士兵脑中下毒，他希望如果这里的情况变得足够糟糕，他就会被召回瓦登费尔。
+安东尼乌斯·农基乌斯已经承认，他在霜蛾要塞的士兵脑中下毒，他希望如果这里的情况变得足够糟糕，他就会被召回瓦登费尔。
 
 > INFO.NAME bm_morale 1654427269284534685
 I have agreed to keep Antonius Nuncius' secret. In exchange, he has given me the key to his closet, which contains a great many bottles of Cyrodiilic Brandy, Flin, and Mazte.
-我同意为安东尼斯·努修斯保守秘密。作为交换，他给了我他衣橱的钥匙，里面有大量西罗帝尔白兰地、弗林和玛诗蒂的酒瓶。
+我同意为安东尼乌斯·农基乌斯保守秘密。作为交换，他给了我他衣橱的钥匙，里面有大量西罗帝尔白兰地、弗林和玛诗蒂的酒瓶。
 
 > INFO.NAME bm_morale 438428070390411212
 I told Antonius Nuncius that I would be unable to keep his actions a secret from Captain Carius.
-我告诉安东尼斯·努修斯，我无法对卡利尤斯队长隐瞒他的行动。
+我告诉安东尼乌斯·农基乌斯，我无法对卡利尤斯队长隐瞒他的行动。
 
 > INFO.NAME bm_morale 1655920093103808159
 Captain Carius has thanked me for finding the source of the low morale among his troops. In gratitude, he has given me some useful Cure Disease potions, as there are diseases on this island not common in Vvardenfell, and a silver sparkblade. Carius will also request that Nuncius' assignment at the Fort be extended indefinitely.
-卡利尤斯队长感谢我找到了他部队士气低落的根源。为了表示感谢，他给了我一些有用的治愈疾病药剂，因为这座岛上有些疾病在瓦登费尔并不常见，他还给了我一把银火花刀。卡利尤斯还将请求无限期延长农修斯在要塞的任期。 {治愈疾病的药水,药水,这些药水,业务}
+卡利尤斯队长感谢我找到了他部队士气低落的根源。为了表示感谢，他给了我一些有用的治愈疾病药剂，因为这座岛上有些疾病在瓦登费尔并不常见，他还给了我一把银火花刀。卡利尤斯还将请求无限期延长农基乌斯在要塞的任期。 {治愈疾病的药水,药水,这些药水,业务}
 
 > INFO.NAME bm_morale 2705331067268224660
 Although I did not reveal the source of the low morale of the Fort's troops, Captain Carius has noticed a change in their attitude, and has thanked me for my assistance. He gave me some Cure Disease potions, as he says there are diseases on this island that have never before been encountered.
@@ -14818,7 +14818,7 @@ Although I did not reveal the source of the low morale of the Fort's troops, Cap
 
 > INFO.NAME bm_morale 296333852365532511
 Antonius Nuncius is dead, and Captain Carius has told me to stop searching for the source of the low morale.
-安东尼斯·努修斯已经死了，卡利尤斯队长让我停止寻找士气低落的根源。
+安东尼乌斯·农基乌斯已经死了，卡利尤斯队长让我停止寻找士气低落的根源。
 
 > INFO.NAME bm_ingmar 2554291451018522593
 Ingmar in a Bind
@@ -14946,7 +14946,7 @@ I have completed all the six rituals necessary, and should return to Heart-Fang.
 
 > INFO.NAME bm_stones 203388662202930523
 Heart-Fang was pleased with my efforts in performing the six rituals. He has rewarded me with the Mace of Aevar Stonesinger, a prized Skaal weapon. Heart-Fang was reluctant to give me the weapon, as I am still an outsider to him. Still, tradition dictates that I be given the magnificent mace.
-心牙对我完成六项仪式的努力很满意。他奖励我艾瓦·咏石之锤，这是一件珍贵的斯卡尔武器。心牙不愿意把武器给我，因为我对他来说还是个外人。不过，按照传统，我还是要得到这把华丽的锤子。 {报酬,钉锤}
+心牙对我完成六项仪式的努力很满意。他奖励我艾瓦尔·斯通辛格之锤，这是一件珍贵的斯卡尔武器。心牙不愿意把武器给我，因为我对他来说还是个外人。不过，按照传统，我还是要得到这把华丽的锤子。 {报酬,钉锤}
 
 > INFO.NAME bm_draugr 1599412478888311608
 The Skaal Test of Strength
@@ -16002,7 +16002,7 @@ Since Baro is dead, I've failed my assignment and receive no reward.
 
 > INFO.NAME co_5 1201510876538012152
 I killed Baro Egnatius.
-我杀死了巴罗·埃格纳修斯。
+我杀死了巴罗·埃格纳提乌斯。
 
 > INFO.NAME co_5 1209531045313529515
 Falco thanked me for straightening out the situation with Baro.
@@ -16018,11 +16018,11 @@ The news of the supply ship needs to get back to Carnius.
 
 > INFO.NAME co_5 2223323942593016577
 Baro Egnatius recognized Elberoth's saber while I was holding it, and mistakenly thinks I killed Elberoth. This works in my favor, since he's now willing to transport the goods without any extra payment.
-巴罗·埃格纳修斯在我拿着埃尔贝罗斯的军刀时认出了他，误以为是我杀了埃尔贝罗斯。这对我很有利，因为他现在愿意不收额外报酬无偿运送货物。 {工作,忙}
+巴罗·埃格纳提乌斯在我拿着埃尔贝罗斯的军刀时认出了他，误以为是我杀了埃尔贝罗斯。这对我很有利，因为他现在愿意不收额外报酬无偿运送货物。 {工作,忙}
 
 > INFO.NAME co_5 1467314190555615627
 Falco suggested I make a point of displaying Elberoth's saber in front of Baro Egnatius.
-法尔科建议我在巴罗·埃格纳修斯面前展示一下埃尔贝罗斯的军刀。
+法尔科建议我在巴罗·埃格纳提乌斯面前展示一下埃尔贝罗斯的军刀。
 
 > INFO.NAME co_5 15559522983410811
 Apronia gave me Elberoth's saber, since she no longer needs it.
@@ -16034,11 +16034,11 @@ Falco suggested I ask Apronia about Elberoth, since Baro seems to know him.
 
 > INFO.NAME co_5 13283203246779410
 Baro Egnatius was extremely rude to me, and demanded a large sum of money to transport the colony's goods. He won't budge until he has this extra payment.
-巴罗·埃格纳修斯对我极其无礼，并索要一大笔钱来运输殖民地的货物。在拿到这笔额外报酬之前，他是不会让步的。
+巴罗·埃格纳提乌斯对我极其无礼，并索要一大笔钱来运输殖民地的货物。在拿到这笔额外报酬之前，他是不会让步的。
 
 > INFO.NAME co_5 18113235391220529400
 Falco has told me that the new supply ship has arrived, but the captain, Baro Egnatius, won't budge without some sort of extra payment. Falco has no intention of paying him, and instead wants me to talk sense into him. He should be at the dock in Raven Rock.
-法尔科已经告诉我，新的补给船已经到了，但船长巴罗·埃格纳修斯在没有得到某种额外报酬之前不会让步。法尔科不打算付钱给他，而是想让我跟他讲讲道理。他应该在乌鸦岩的码头。 {谈}
+法尔科已经告诉我，新的补给船已经到了，但船长巴罗·埃格纳提乌斯在没有得到某种额外报酬之前不会让步。法尔科不打算付钱给他，而是想让我跟他讲讲道理。他应该在乌鸦岩的码头。 {谈}
 
 > INFO.NAME co_5 12748259086415463
 There's some sort of problem with the new supply ship at the colony. Carnius has asked me to check in with Falco and deal with it.
@@ -16230,7 +16230,7 @@ The power is restored. The Oneness of the lands is in balance.
 
 > INFO.NAME restore the power of the skaal 32392142562214631127
 You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.
-你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个。艾瓦·咏石之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
+你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个。艾瓦尔·史东辛格之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
 
 > INFO.NAME restore the power of the skaal 2590175251454860
 Wind-Eye has told you of the Ritual of the Gifts, has he not? Go to it.
@@ -16434,7 +16434,7 @@ Gaea Artoria is dead? That's impossible! You had something to do with this!
 
 > INFO.NAME weapons being smuggled 43861236413919316
 Saenus Lusius is dead? That's impossible! You had something to do with this!
-塞努斯·卢修斯死了？这不可能！你和这件事有关！
+塞努斯·卢西乌斯死了？这不可能！你和这件事有关！
 
 > INFO.NAME weapons being smuggled 20959248752451628674
 You've not yet uncovered the smuggling ring? You should get to work.
@@ -16490,7 +16490,7 @@ I think we've got the information we need. Let's go get these guys. All of them.
 
 > INFO.NAME weapons being smuggled 2140272971652412169
 Hey, you're working with Lusius. He's a smart guy. Ask him about it.
-你在和卢修斯合作？他是个聪明人，问问他吧。 {工作}
+你在和卢西乌斯合作？他是个聪明人，问问他吧。 {工作}
 
 > INFO.NAME weapons being smuggled 1611129920402023395
 Hmmm...well, I figure that they're taking the weapons from here, and then bringing them somewhere else. Cap'n doesn't like it. Hope that helps. Someone else must know something. Let's go crack some skulls.
@@ -16506,7 +16506,7 @@ There's nothing more I can tell you about that.
 
 > INFO.NAME weapons being smuggled 4216202492227512446
 I heard you're with Lusius, so I figure you must be okay. Listen up. I overheard some of the soldiers talking about a place, the Gandrung Caverns, that's a bit northeast of the fort. Something about weapons being stashed there. I didn't want to know more than that. Maybe you should check that place out. But if you find them, you'll have to kill them...unless you can find some other arrangement.
-我听说你和卢修斯在一起，所以我想你一定没事。听好了。我听到一些士兵在谈论一个地方，甘德隆洞穴，就在要塞的东北方向。说那里藏有武器。我不想知道更多。也许你该去看看。但如果你找到他们，就必须杀了他们……除非你能找到其他安排。
+我听说你和卢西乌斯在一起，所以我想你一定没事。听好了。我听到一些士兵在谈论一个地方，甘德隆洞穴，就在要塞的东北方向。说那里藏有武器。我不想知道更多。也许你该去看看。但如果你找到他们，就必须杀了他们……除非你能找到其他安排。
 
 > INFO.NAME weapons being smuggled 5831200911534929074
 Okay, look, here's the deal. I overheard some of the soldiers talking about a place, the Gandrung Caverns, that's a bit northeast of the fort. Something about weapons being stashed there. I didn't want to know more than that. Maybe you should check that place out. But if you find them, you'll have to kill them...unless you can find some other arrangement.
@@ -16518,7 +16518,7 @@ I'm not sure I should talk about that. I don't know you, and even though I heard
 
 > INFO.NAME weapons being smuggled 848585762147018804
 Smuggling? Well, if you're with Lusius, I guess I can tell you what I've heard. Check out the Gandrung Caverns, a bit northeast of the fort. I've heard a couple of the soldiers talk about the place. They mentioned weapons that were stashed there. Look, you didn't hear it from me, though. I'll deny it.
-走私？如果你和卢修斯是一伙的，我想我可以告诉你我听说过的事。去要塞东北方向的甘德隆洞穴看看。我听几个士兵说起过那个地方，他们提到了藏在那里的武器，但你没听我说过，我否认。 {谈}
+走私？如果你和卢西乌斯是一伙的，我想我可以告诉你我听说过的事。去要塞东北方向的甘德隆洞穴看看。我听几个士兵说起过那个地方，他们提到了藏在那里的武器，但你没听我说过，我否认。 {谈}
 
 > INFO.NAME weapons being smuggled 1379373262287513371
 Why should I talk to you? Find someone else to bother, %PCRace.
@@ -16582,7 +16582,7 @@ The power is restored. The Oneness of the lands is in balance.
 
 > INFO.NAME the power of the skaal 32392142562214631127
 You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.
-你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个。艾瓦·咏石之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
+你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个。艾瓦尔·史东辛格之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
 
 > INFO.NAME the power of the skaal 2590175251454860
 Wind-Eye has told you of the Ritual of the Gifts, has he not? Go to it.
@@ -17034,11 +17034,11 @@ You say that the shipment had merely been misplaced and this was all a big misco
 
 > INFO.NAME morale has been low 275995980103416424
 You say that Antonius Nuncius started this whole thing because he wanted to go home? The twit! I could have had him reassigned, had he just asked me. Now, though, I think he might do his best work here, saving the souls of my men. With the new abundance of liquor at the fort, someone will have to deliver their salvation. Thank you for your help, %PCName. Take these. There are diseases on this island that we have never encountered before. And the weapon may serve you well. Now, on to more fort business.
-你说安东尼斯·努修斯挑起这件事，是因为他想回家？这个笨蛋！只要他开口，我就能把他调走。但现在，我觉得他可以在这里做他最擅长的事，拯救我手下的灵魂。要塞里的酒又多了起来，总得有人来拯救他们吧。谢谢你的帮助，%PCName，拿着。这岛上有我们从未遇到过的疾病，这武器对你很有用。现在，去做别的要塞事务吧。 {工作}
+你说安东尼乌斯·农基乌斯挑起这件事，是因为他想回家？这个笨蛋！只要他开口，我就能把他调走。但现在，我觉得他可以在这里做他最擅长的事，拯救我手下的灵魂。要塞里的酒又多了起来，总得有人来拯救他们吧。谢谢你的帮助，%PCName，拿着。这岛上有我们从未遇到过的疾病，这武器对你很有用。现在，去做别的要塞事务吧。 {工作}
 
 > INFO.NAME morale has been low 1998260872053919600
 If there's reason to suspect Antonius Nuncius, find the proof. If you feel you have it, confront the man himself. Then report to me. Let's do this right, %PCname.
-如果有理由怀疑安东尼斯·努修斯，就去找证据。如果你觉得有证据，就去找他本人对质。然后向我报告。让我们好好干吧，%PCName。
+如果有理由怀疑安东尼乌斯·农基乌斯，就去找证据。如果你觉得有证据，就去找他本人对质。然后向我报告。让我们好好干吧，%PCName。
 
 > INFO.NAME morale has been low 184624948122014033
 Yes. Please investigate the matter further and report to me.
@@ -17046,7 +17046,7 @@ Yes. Please investigate the matter further and report to me.
 
 > INFO.NAME morale has been low 3214093892553428763
 Hmmm...I imagined that the lack of alcohol might have some effects on the morale, but I didn't ever actually ban it. Personally, I didn't even care about the alcohol; it was the priest, Antonius Nuncius, who was worried about the effect it was having on the men. I disagreed, but the question became moot: our shipments stopped coming in months ago. Speak with the soldiers a bit more, and see if you can find out who the source of this discontent is.
-嗯……我想过缺酒可能会影响士气，但我从未真正禁止过。就我个人而言，我根本不在乎酒；倒是神父安东尼斯·努修斯担心酒会对男人们产生影响。我不同意，但问题变得毫无意义：我们的货物几个月前就停运了。多和士兵们谈谈，看能不能找出谁是不满的根源。
+嗯……我想过缺酒可能会影响士气，但我从未真正禁止过。就我个人而言，我根本不在乎酒；倒是神父安东尼乌斯·农基乌斯担心酒会对男人们产生影响。我不同意，但问题变得毫无意义：我们的货物几个月前就停运了。多和士兵们谈谈，看能不能找出谁是不满的根源。
 
 > INFO.NAME morale has been low 13048107453018319515
 As I said, it troubles me. I wish for these soldiers to be the most excellent in the Empire, and I believe that one among them is poisoning the minds of the others. Perhaps it is a reflection on my leadership that this has occurred, but regardless it must end soon.
@@ -17618,7 +17618,7 @@ A few months ago I was ferrying some settlers from Skyrim to Solstheim.  I was t
 
 > INFO.NAME that night at sea 22290490614177109
 Now that Geilir has lifted my curse, I feel like I can finally put the tragedy behind me.  I know what I did, and I'll have to live with it.  But life goes on, and I feel I may now be able to find some peace.
-现在盖利尔解除了我的诅咒，我觉得我终于可以把悲剧抛在脑后了。我知道我做了什么，我必须接受它。但生活还得继续，我觉得我现在或许能找到些许安宁。
+现在盖里尔解除了我的诅咒，我觉得我终于可以把悲剧抛在脑后了。我知道我做了什么，我必须接受它。但生活还得继续，我觉得我现在或许能找到些许安宁。
 
 > INFO.NAME thirsk, a history 209352511910714708
 I came to Thirsk all the way from Cyrodiil, by way of Vvardenfell.  My father once visited Solstheim, you see, and as a boy I was intrigued by his exciting stories of the Nords.  I was particularly fascinated with this very mead hall -- its residents and their adventures, things like that.  I arrived here over a year ago, and have been living among the Nords ever since.  I've been chronicling their lives, and recently collected enough data to complete my history of Thirsk.
@@ -17938,19 +17938,19 @@ They shouldn't be too hard to find. There's quite an abundance of ebony ore in t
 
 > INFO.NAME antonius nuncius 41399997211571207
 Antonius Nuncius is dead, and you believe he was involved with the morale being low? This is a tragedy. I can't have these things happening at my fort.
-安东尼斯·努修斯死了，你认为他与士气低落有关？这真是个悲剧。我的要塞不能发生这种事。
+安东尼乌斯·农基乌斯死了，你认为他与士气低落有关？这真是个悲剧。我的要塞不能发生这种事。
 
 > INFO.NAME antonius nuncius 3263298962334226403
 Antonius Nuncius is dead? This is terrible! I can't have these things happening under my command. Forget the search for the cause of the low morale. There are more important things to attend to, obviously.
-安东尼斯·努修斯死了？这太可怕了，我不能让我的麾下发生这种事。别再找士气低落的原因了，显然有更重要的事情要处理。
+安东尼乌斯·农基乌斯死了？这太可怕了，我不能让我的麾下发生这种事。别再找士气低落的原因了，显然有更重要的事情要处理。
 
 > INFO.NAME antonius nuncius 205643024825809391
 You've spoken to Nuncius, have you not? One of our priests. I don't think he's happy to be stationed here, but such is his lot in life.
-你和努修斯谈过了，是吗？我们的一个牧师。我觉得他不太乐意驻扎在这里，但这就是他的命运。
+你和农基乌斯谈过了，是吗？我们的一个牧师。我觉得他不太乐意驻扎在这里，但这就是他的命运。
 
 > INFO.NAME antonius nuncius 156928752302332071
 I'm sure I'll be able to find a great number of duties for Nuncius to perform. He'll be quite busy now. What was he thinking? Well...we'll whip him into shape.
-我肯定能给尼修斯安排很多任务的。他现在会很忙的。他在想什么？嗯……我们会把他鞭打一顿的。 {职务,忙着}
+我肯定能给农基乌斯安排很多任务的。他现在会很忙的。他在想什么？嗯……我们会把他鞭打一顿的。 {职务,忙着}
 
 > INFO.NAME antonius nuncius 24676220132188027272
 If you believe he is connected with this low morale here at the fort, find some proof. If you think you have proof, confront him. Let's see how he reacts to it.
@@ -17962,11 +17962,11 @@ He's one of our priests here. Not a bad one. Seems a bright enough fellow, if he
 
 > INFO.NAME antonius nuncius 10793232013014732474
 I am Antonius Nuncius.
-我是安东尼斯·努修斯。
+我是安东尼乌斯·农基乌斯。
 
 > INFO.NAME antonius nuncius 572968142160912679
 I heard Nuncius is dead. That's not going to sit well with the officers.
-我听说农西乌斯死了。军官们不会高兴的。
+我听说农基乌斯死了。军官们不会高兴的。
 
 > INFO.NAME antonius nuncius 3125208702376328995
 I've got nothing more to say about him. Go talk to him if you want. Or wait for him in his office--it's upstairs.
@@ -17990,7 +17990,7 @@ The priest? He's not bad, I guess, for a priest. You'll find him at the Imperial
 
 > INFO.NAME antonius nuncius 47035141501612270
 Antonius WHOcius? Never heard of him.
-安东尼斯·伍修斯？没听说过。
+安东尼乌斯·伍修斯？没听说过。
 
 > INFO.NAME find the captain 5997240972055523133
 There is still no word from the Captain. He is now presumed dead. This is a great loss to all of us at Fort Frostmoth, and a loss to the Legion as a whole.
@@ -19104,7 +19104,7 @@ Pelagiad is the next town up the road. Cross the bridge out of town and just sta
 
 > INFO.NAME vampire hunter 11551130611020729672
 You've gotten rid of him, and in full view of the local populace? Well done, little abomination! For your efforts, take this. It is an amulet that will allow you to return to Ashmelech when in need. It is possible I will have future rewards for you, should you be able to rid this world of a large number of the Berne and Quarra clan. Now leave me.
-你就在当地民众的眼皮底下除掉了他？干得好，小憎恶。给你这个。这是一个护身符，可以让你在需要的时候回到阿什梅勒奇。如果你能在这个世界上清除大量伯尔尼氏族和库瑞娜氏族，我可能会给你未来将得到的报酬。现在离开我吧。
+你就在当地民众的眼皮底下除掉了他？干得好，小憎恶。给你这个。这是一个护身符，可以让你在需要的时候回到阿什梅勒奇。如果你能在这个世界上清除大量伯尔尼氏族和夸尔拉氏族，我可能会给你未来将得到的报酬。现在离开我吧。
 
 > INFO.NAME vampire hunter 1535020512243728253
 I have no more to say on this topic, new blood. Begone.
@@ -19464,7 +19464,7 @@ Sorry, but no.
 
 > INFO.BNAM my only friend 14622183191923031526 c2
 I'll rescue Oddfrid for you, Geilir.
-我会帮你救出奥德弗里德的，盖利尔。
+我会帮你救出奥德弗里德的，盖里尔。
 
 > INFO.NAME my only friend 1690423295912415616
 With my family gone, I am all alone, except for Oddfrid White-Lip.  She talks to me.  She tells me the future.  But she's been kidnapped by a draugr who lives in Kolbjorn! %PCClass, will you go to the barrow and rescue Oddfrid White-Lip?  If you do, then Oddfrid will help me reveal your future!  And, as a show of good faith, I'll also reverse Thormoor's curse!
@@ -19476,7 +19476,7 @@ Sorry, but no.
 
 > INFO.BNAM my only friend 1690423295912415616 c2
 I'll rescue Oddfrid for you, Geilir.
-我会帮你救出奥德弗里德的，盖利尔。
+我会帮你救出奥德弗里德的，盖里尔。
 
 > INFO.NAME my only friend 2692228918321730200
 Oddfrid White-Lip is with me once again, thanks to you, %PCName.
@@ -20292,7 +20292,7 @@ As I've told you, not all of my soldiers here are trustworthy. Many were sent to
 
 > INFO.NAME saenus lusius 18826244161422930698
 I heard that Lusius has been killed. This is a great loss for Fort Frostmoth. It will be difficult to replace such a fine soldier.
-我听说卢修斯被杀了。这是霜蛾要塞的重大损失。这样一位优秀的战士将难以替代。
+我听说卢西乌斯被杀了。这是霜蛾要塞的重大损失。这样一位优秀的战士将难以替代。
 
 > INFO.NAME saenus lusius 79902364470311507
 A wise soldier. One of my best. He will be on some errands for me while you complete your investigation.
@@ -20304,11 +20304,11 @@ A wise soldier. One of my best.
 
 > INFO.NAME saenus lusius 23997240013080617709
 Lusius knows more about the daily activities here at the Fort than any other soldier in my command. While not our strongest fighter, he more than makes up for it with his savvy. He may be the best suited to ferret out the smuggling ring.
-卢修斯对要塞日常活动的了解，比我手下任何一个士兵都多，虽然他不是我们最强的战士，但他的精明足以弥补一切。他可能是最适合揪出走私集团的人。 {戒指}
+卢西乌斯对要塞日常活动的了解，比我手下任何一个士兵都多，虽然他不是我们最强的战士，但他的精明足以弥补一切。他可能是最适合揪出走私集团的人。 {戒指}
 
 > INFO.NAME saenus lusius 301812292658228414
 I am Saenus Lusius. What may I do for you?
-我是塞努斯·卢修斯。我能为你做点什么？
+我是塞努斯·卢西乌斯。我能为你做点什么？
 
 > INFO.NAME saenus lusius 2449196171044829403
 I heard he'd been killed. I'll find whoever did it.
@@ -20324,7 +20324,7 @@ He's a good guy. Bright one, too.
 
 > INFO.NAME saenus lusius 970370861615313650
 I heard Lusius was killed. That's just a shame. He was a good guy. We'll miss him.
-我听说卢修斯被杀了。真遗憾。他是个好人。我们会想念他的。
+我听说卢西乌斯被杀了。真遗憾。他是个好人。我们会想念他的。
 
 > INFO.NAME saenus lusius 19912268662750628093
 He must be around the fort somewhere. Check the General Quarters.
@@ -20336,11 +20336,11 @@ He's with you, isn't he?
 
 > INFO.NAME saenus lusius 276772951480732174
 Smart as they come, that's Lusius. Everyone around here likes him, too. Real easy to talk to. Not the most handy guy with the steel, but he makes up for it in smarts. I heard he was off on some business for the captain while you two complete your business.
-卢修斯是个聪明人，这里的人也都喜欢他，很好说话，虽然不是最能打铁的人，但他的聪明可以弥补这一点。我听说你们俩完成任务时，他去帮队长办点事了。 {谈,钢}
+卢西乌斯是个聪明人，这里的人也都喜欢他，很好说话，虽然不是最能打铁的人，但他的聪明可以弥补这一点。我听说你们俩完成任务时，他去帮队长办点事了。 {谈,钢}
 
 > INFO.NAME saenus lusius 2646813204622332449
 Smart as they come, that's Lusius. Everyone around here likes him, too. Real easy to talk to. Not the most handy guy with the steel, but he makes up for it in smarts. You can probably find him in the General Quarters.
-卢修斯就是这么聪明，这里的人也都喜欢他，很好说话，虽然不是最能打铁的人，但他的聪明可以弥补这一点，你可以在指挥官住所找到他。 {谈,钢}
+卢西乌斯就是这么聪明，这里的人也都喜欢他，很好说话，虽然不是最能打铁的人，但他的聪明可以弥补这一点，你可以在指挥官住所找到他。 {谈,钢}
 
 > INFO.NAME some research 2825917023607604
 Yes, research on the Falmer.  Some call them Snow Elves, though I find that designation a gross oversimplification.  You see, according to Nord legend, the Falmer are an elusive race of Elves who dwell in cold, remote regions.  They're usually blamed for any number of disasters -- blizzards, missing children, you name it.  The locals think those vile Riekling ice creatures are the Falmer of legend, an insulting and absurd notion if ever there was one.  Here, please, have another drink....
@@ -21380,15 +21380,15 @@ I see you've gotten some help in the effort to discover the smuggling ring. Repo
 
 > INFO.NAME bit of help 14519119852331525915
 As I said, please choose either Gaea Artoria or Saenus Lusius to aid you in this endeavor.
-如我所说，请选择盖娅·阿尔托利亚或塞努斯·卢修斯协助你完成这项任务。
+如我所说，请选择盖娅·阿尔托利亚或塞努斯·卢西乌斯协助你完成这项任务。
 
 > INFO.NAME bit of help 1231127201388311321
 I would like you to work with one of my soldiers on this case. There are two available to you, and they are two of the best here at Fort Frostmoth: Saenus Lusius and Gaea Artoria. You'll find Lusius in the General Quarters, and Artoria in the General Quarters, Upper Level. Speak with them and decide which will be your companion. When you have unearthed the smuggling ring, report to me. I leave how you deal with the smugglers to your discretion.
-我希望你能与我的一名士兵合作调查此案。有两个人可以供你选择，他们是霜蛾要塞最优秀的两个人：塞努斯·卢修斯和盖娅·阿尔托利亚。你可以在指挥官住所找到卢修斯，在上层区域的指挥官住所找到阿尔托莉雅。与他们交谈，决定哪一个会成为你的同伴。当你们发现走私团伙后，向我报告。至于如何对付走私者，就由你们自己决定了。 {工作,戒指}
+我希望你能与我的一名士兵合作调查此案。有两个人可以供你选择，他们是霜蛾要塞最优秀的两个人：塞努斯·卢西乌斯和盖娅·阿尔托利亚。你可以在指挥官住所找到卢西乌斯，在上层区域的指挥官住所找到阿尔托莉雅。与他们交谈，决定哪一个会成为你的同伴。当你们发现走私团伙后，向我报告。至于如何对付走私者，就由你们自己决定了。 {工作,戒指}
 
 > INFO.NAME make a deal 755847831179519462
 No? I thought Lusius would have given you better advice. I'm sorry. I can't let you ruin what I've got going on here. You'll have to kill me and all of my friends. Leave one, and he will carry on. Now, it is time for you to die.
-不是吗？我以为路西斯会给你更好的建议。我很抱歉，我不能让你毁了我的事业，你得杀了我和我所有的朋友，留下一个，他会继续。现在是你死的时候了。 {我的朋友}
+不是吗？我以为卢西乌斯会给你更好的建议。我很抱歉，我不能让你毁了我的事业，你得杀了我和我所有的朋友，留下一个，他会继续。现在是你死的时候了。 {我的朋友}
 
 > INFO.NAME make a deal 1016716040111612897
 Sounds good. You won't regret this. I'll be gone as soon as possible. Here, take this. I found it while doing a bit of traveling here on the island. Had a friend of mine throw a little enchantment on it as well. And, hey, take whatever you want from this stash. I'm sure nothing will be missed. Our secret...just between us.
@@ -21408,7 +21408,7 @@ I can't let you do that.
 
 > INFO.NAME make a deal 14337273261010026742
 I'll get off the island. Leave the weapons behind. You just let me go peacefully and don't cause any trouble with Carius, and I'm gone. And, look, I'll give you this nice axe as a little bonus for keeping this quiet. Carius will never miss me, and I'll just disappear. Ask Lusius about it. He'll give you good advice.
-我会离开这座岛，把武器留下。你只要让我和平离开，别给卡利尤斯惹麻烦，我就走。听着，我会给你这把好斧头，作为你保持沉默的一点奖励。卡利尤斯不会想我的，我就会消失了。问问卢修斯，他会给你很好的建议。 {手斧}
+我会离开这座岛，把武器留下。你只要让我和平离开，别给卡利尤斯惹麻烦，我就走。听着，我会给你这把好斧头，作为你保持沉默的一点奖励。卡利尤斯不会想我的，我就会消失了。问问卢西乌斯，他会给你很好的建议。 {手斧}
 
 > INFO.NAME make a deal 3142627724182042095
 Interesting. Well, I suppose you could let him go. I know Spurius, and while he wasn't the best soldier, he wasn't the worst, either. And I know he has a family to feed back home. Still, he has stolen from the Legion, and his crimes are punishable by death. I'm afraid the decision is yours, my friend. Whatever you decide, I will support it.
@@ -21804,7 +21804,7 @@ Hello, %PCName. I have to admit, I didn't expect to see you again. The fact that
 
 > INFO.NAME greeting 1 1109845383214225158
 %PCName! You did it! You spoke with Geilir, got him to remove his curse! I know this because I can barely stay on my feet! I'm ready to fall asleep, my friend! Do you hear me? Fall asleep! Ha ha! I need to lie down.... %PCName, you have done me an incredible service, and I would like to return the favor. But not just yet. First, I must sleep. Meet me in my room at the Thirsk mead hall, and I will give you your due, after I've had a chance to get some rest.
-%PCName！你成功了！你和盖利尔谈了，让他解除了诅咒！我知道这一点，因为我几乎站不起来了！我准备睡着了，我的朋友！听到了吗？睡着了！哈哈！我要躺下来……%PCName，你帮了我一个大忙，我想回报你。但现在还不行。首先，我必须睡觉。到瑟斯克蜜酒馆我的房间来找我，等我休息好了，我再把你应得的东西给你。 {需要}
+%PCName！你成功了！你和盖里尔谈了，让他解除了诅咒！我知道这一点，因为我几乎站不起来了！我准备睡着了，我的朋友！听到了吗？睡着了！哈哈！我要躺下来……%PCName，你帮了我一个大忙，我想回报你。但现在还不行。首先，我必须睡觉。到瑟斯克蜜酒馆我的房间来找我，等我休息好了，我再把你应得的东西给你。 {需要}
 
 > INFO.NAME greeting 1 909729990247199608
 Please, %PCName, let me go and rest. Meet me at Thirsk and I will give you your reward then, after I have had time to sleep.
@@ -22916,7 +22916,7 @@ I'll be gone soon. I promise you that.
 
 > INFO.NAME greeting 1 25906193948468855
 Wait! Look, I don't want any trouble. I heard you were working with Saenus Lusius, and everyone at the fort knows that Lusius is a reasonable man, so maybe we can make a deal.
-等等，我不想惹麻烦。我听说你和塞努斯·卢修斯合作，堡垒里的人都知道卢修斯是个通情达理的人。也许我们可以达成协议。 {工作}
+等等，我不想惹麻烦。我听说你和塞努斯·卢西乌斯合作，堡垒里的人都知道卢西乌斯是个通情达理的人。也许我们可以达成协议。 {工作}
 
 > INFO.NAME greeting 1 122762577616445965
 I've nothing to say to you.
@@ -22936,7 +22936,7 @@ Were you able to find the Captain? What did those Nords have to say?
 
 > INFO.NAME greeting 1 3178623453364112607
 You heard what Lusius said. Get up to those Nords and find the Captain!
-你听到卢修斯说的了，到那些诺德人那里找到队长！
+你听到卢西乌斯说的了，到那些诺德人那里找到队长！
 
 > INFO.NAME greeting 1 10750881266998168
 You know what you need to do! Get up to those Nords and find the Captain!
@@ -22948,7 +22948,7 @@ You've got to find the Captain! The fort needs him!
 
 > INFO.NAME greeting 1 296401292608821267
 He's gone! Those creatures took him during the battle. Someone has got to find the Captain! And where's Lusius? He's dead, too? This is horrible!
-他不见了，那些怪物在战斗中带走了他，必须有人找到队长。卢修斯呢？他也死了？太可怕了！
+他不见了，那些怪物在战斗中带走了他，必须有人找到队长。卢西乌斯呢？他也死了？太可怕了！
 
 > INFO.NAME greeting 1 236130638108512271
 He's gone! Those creatures took him during the battle. Someone has got to find the Captain!
@@ -22968,7 +22968,7 @@ Huh? You want us to travel together? I think that's what the Cap'n wants, so we 
 
 > INFO.NAME greeting 1 231033110495513861
 Gonna work with Lusius, huh? Can't say I blame you. He's one smart guy.
-你要和卢修斯合作？不能怪你，他是个聪明人。 {工作}
+你要和卢西乌斯合作？不能怪你，他是个聪明人。 {工作}
 
 > INFO.NAME greeting 1 38560013040329840
 Cap'n said you'd be by. I'm supposed to assist you with something?
@@ -23144,7 +23144,7 @@ Terrible stuff happening here. But...I've got business to attend to. What do you
 
 > INFO.NAME greeting 1 128028663279539098
 The fort...the creatures. It's horrible. And, the Captain, I haven't seen him.... Find Lusius...he may know what to do.
-要塞……那些生物，太可怕了，还有，队长，我没见到他……。找到卢修斯……他也许知道该怎么做。
+要塞……那些生物，太可怕了，还有，队长，我没见到他……。找到卢西乌斯……他也许知道该怎么做。
 
 > INFO.NAME greeting 1 16959313671113226692
 The fort...the creatures. It's horrible. And, the Captain, I haven't seen him.... Find Artoria...she may know what to do.
@@ -24072,7 +24072,7 @@ Ahhhh...you've removed this enchantment with your spell to cure disease!
 
 > INFO.NAME greeting 1 8099179422048416076
 Excuse me, can you help me? No, I'm over here. My name is Cassius Olcinius. Sorry...you see, I've been made invisible by a wizard!
-对不起，你能帮我吗？不，我在这里。我叫卡修斯·奥西尼乌斯。抱歉……你看，我被巫师变成了隐身人！
+对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥基尼乌斯。抱歉……你看，我被巫师变成了隐身人！
 
 > INFO.NAME greeting 1 182391977298029994
 Take this, friend. I think everyone should read this leaflet. It has important information on it.
@@ -24336,7 +24336,7 @@ What are you doing here? You must be a thief!
 
 > INFO.NAME greeting 1 1978721969183764879
 Thank you for getting me to the Ald Velothi Outpost.
-谢谢你带我到奥德-维洛西前哨。
+谢谢你带我到奥德-维洛提前哨。
 
 > INFO.NAME greeting 1 1413190883195815218
 Who are you? Where are your papers?
@@ -26092,7 +26092,7 @@ Until we've dealt with Baro, there's little else we can accomplish here. Is he s
 
 > INFO.NAME assignment 2045036922531519178
 It seems that nothing is easy, %PCName. Carnius' replacement supply ship has brought new problems with it, namely one Baro Egnatius. He seems to think that he deserves extra payment for delivering our supplies, and taking the ore back to the mainland, and I for one have no intention of giving in to him.
-看来没有什么是容易的，%PCName。卡尼乌斯的补给船带来了新的问题，那就是巴罗·埃格纳修斯。他似乎认为他应该得到额外报酬，因为他运送了我们的补给，并把矿石运回了大陆，我可不打算向他屈服。 {主大陆}
+看来没有什么是容易的，%PCName。卡尼乌斯的补给船带来了新的问题，那就是巴罗·埃格纳提乌斯。他似乎认为他应该得到额外报酬，因为他运送了我们的补给，并把矿石运回了大陆，我可不打算向他屈服。 {主大陆}
 
 > INFO.NAME assignment 32077228761069417265
 You've chosen to side with Carnius, %PCName. I suggest you go to him if you want work. I have nothing for you.
@@ -26292,11 +26292,11 @@ You've spared me from having to make that extra payment, and for that I thank yo
 
 > INFO.NAME assignment 1251068461559915394
 Until we've dealt with Baro Egnatius, there's little else we can accomplish here. Is he still demanding extra payment?
-在我们解决巴罗·埃格纳修斯之前，我们在这里没什么可做的了。他还要求额外报酬吗？
+在我们解决巴罗·埃格纳提乌斯之前，我们在这里没什么可做的了。他还要求额外报酬吗？
 
 > INFO.NAME assignment 216841255949681935
 It seems that nothing is easy, %PCName. Carnius' replacement supply ship has brought new problems with it, namely one Baro Egnatius. He seems to think that he deserves extra payment for delivering our supplies, and taking the ore back to the mainland, and I for one have no intention of giving in to him. I've given up trying to reason with him; why don't you try talking some sense into him.
-看来没有什么是容易的，%PCName。卡尼乌斯的补给船带来了新的问题，那就是巴罗·埃格纳修斯。他似乎认为他应该得到额外报酬，因为他运送了我们的补给品，还把矿石运回了大陆，我可不想向他屈服。我已经放弃跟他讲道理了，你为什么不跟他讲讲道理呢。 {主大陆,谈}
+看来没有什么是容易的，%PCName。卡尼乌斯的补给船带来了新的问题，那就是巴罗·埃格纳提乌斯。他似乎认为他应该得到额外报酬，因为他运送了我们的补给品，还把矿石运回了大陆，我可不想向他屈服。我已经放弃跟他讲道理了，你为什么不跟他讲讲道理呢。 {主大陆,谈}
 
 > INFO.NAME assignment 2893329095219625019
 The work is almost done. Let Carnius know, would you?
@@ -27696,7 +27696,7 @@ Yes, you've said that seems to be related to why the morale has been low.
 
 > INFO.NAME dry fort 3449145852181410575
 I have no real interest in banning alcohol at Fort Frostmoth, especially since the morale has been low. Antonius Nuncius, however, felt strongly about it.
-我对在霜蛾要塞禁酒没什么兴趣，尤其是长期士气低落。安东尼斯·努修斯却对此深有感触。
+我对在霜蛾要塞禁酒没什么兴趣，尤其是长期士气低落。安东尼乌斯·农基乌斯却对此深有感触。
 
 > INFO.NAME dry fort 32333211692661618893
 Looks like that all got cleared up. I didn't think Captain Carius was such a bad guy. I mean, he's the only one who actually seems to enjoy living on this island.
@@ -27704,11 +27704,11 @@ Looks like that all got cleared up. I didn't think Captain Carius was such a bad
 
 > INFO.NAME dry fort 2086423597133116327
 I'd feel a whole lot better talking about this if I had something to wet my whistle, but you seem okay. I just know that I heard from Antonius Nuncius that the Captain had placed a ban on all alcohol at the fort. And, sure enough, there was none to be found.
-如果我有东西能润润口哨的话，我会感觉好很多，但你看起来很好。我只知道我听安东尼斯·努修斯说，队长在要塞里下了禁酒令，果然，没有发现任何酒类。 {谈}
+如果我有东西能润润口哨的话，我会感觉好很多，但你看起来很好。我只知道我听安东尼乌斯·农基乌斯说，队长在要塞里下了禁酒令，果然，没有发现任何酒类。 {谈}
 
 > INFO.NAME dry fort 2330322865754412248
 Look, I'm not sure what caused all this. I just know that I heard from Antonius Nuncius that the Captain had placed a ban on all alcohol at the fort. And, sure enough, there was none to be found.
-听着，我不知道是什么原因造成的。我只知道我从安东尼斯·努修斯那里听说。队长在要塞里下了禁酒令，果然，没有发现任何酒类。
+听着，我不知道是什么原因造成的。我只知道我从安东尼乌斯·农基乌斯那里听说。队长在要塞里下了禁酒令，果然，没有发现任何酒类。
 
 > INFO.NAME dry fort 1467211307176393291
 I'd feel a whole lot better talking about this if I had some booze to wet my whistle.
@@ -29628,7 +29628,7 @@ We'll show 'em how it's done.
 
 > INFO.NAME hello 2540315791194605646
 One hand washes the other.
-左手倒右手。
+阿玛莱西娅之手。
 
 > INFO.NAME hello 301224654487827407
 You scratch my back? I'll scratch yours.
