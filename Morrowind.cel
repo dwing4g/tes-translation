@@ -46,15 +46,15 @@ Ald Sotha	奥德-索萨
 Ald Sotha, Lower Level	奥德-索萨，下层
 Ald Sotha, Shrine	奥德-索萨，圣祠
 Ald Sotha, Upper Level	奥德-索萨，上层
-Ald Velothi	奥德-维洛西
-Ald Velothi, Fevila Bethrano's Shack	奥德-维洛西，费维拉·贝特拉诺的小屋
-Ald Velothi, Ganus Lloryn's Shack	奥德-维洛西，加努斯·洛林的小屋
-Ald Velothi, Ienas Arvel's Shack	奥德-维洛西，伊纳丝·阿维尔的小屋
-Ald Velothi, Lledsea Relas's Shack	奥德-维洛西，莱德西·瑞拉斯的小屋
-Ald Velothi, Llerar Vinden's Shack	奥德-维洛西，勒拉尔·文登的小屋
-Ald Velothi, Outpost	奥德-维洛西，前哨
-Ald Velothi, Sathas Rivul's Shack	奥德-维洛西，萨塔斯·里维尔的小屋
-Ald Velothi, Vireveri Darethran's Shack	奥德-维洛西，维雷维·达雷斯兰的小屋
+Ald Velothi	奥德-维洛提
+Ald Velothi, Fevila Bethrano's Shack	奥德-维洛提，费维拉·贝特拉诺的小屋
+Ald Velothi, Ganus Lloryn's Shack	奥德-维洛提，加努斯·洛林的小屋
+Ald Velothi, Ienas Arvel's Shack	奥德-维洛提，伊纳丝·阿维尔的小屋
+Ald Velothi, Lledsea Relas's Shack	奥德-维洛提，莱德西·瑞拉斯的小屋
+Ald Velothi, Llerar Vinden's Shack	奥德-维洛提，勒拉尔·文登的小屋
+Ald Velothi, Outpost	奥德-维洛提，前哨
+Ald Velothi, Sathas Rivul's Shack	奥德-维洛提，萨塔斯·里维尔的小屋
+Ald Velothi, Vireveri Darethran's Shack	奥德-维洛提，维雷维·达雷斯兰的小屋
 Ald-ruhn	奥德-汝因
 Ald-ruhn, Ald Skar Inn	奥德-汝因，奥德·蟹骨旅店
 Ald-ruhn, Arobar Guard Quarters	奥德-汝因，阿罗巴守卫住所
@@ -426,7 +426,7 @@ Fort Frostmoth, Armory	霜蛾要塞，军械库
 Fort Frostmoth, Carius' Chambers	霜蛾要塞，卡利尤斯的房间
 Fort Frostmoth, Curtain Wall	霜蛾要塞，幕墙
 Fort Frostmoth, General Quarters	霜蛾要塞，指挥官住所
-Fort Frostmoth, General Quarters, Upper Level	霜蛾要塞，指挥官住所，上层
+Fort Frostmoth, General Quarters, Upper Level	霜蛾要塞，指挥官住所 ，上层
 Fort Frostmoth, Imperial Cult Shrine	霜蛾要塞，帝国教团圣祠
 Fort Frostmoth, Prison	霜蛾要塞，监狱
 Fort Frostmoth, Supply Room	霜蛾要塞，库房
@@ -839,8 +839,8 @@ Raven Rock, Vacant House	鸦石镇，空置房屋
 Raviro Ancestral Tomb	拉维罗先祖墓穴
 Rayna Drolan's Shack	蕾娜·卓兰的小屋
 Redas Ancestral Tomb	瑞达斯先祖坟墓
-Redoran interior	瑞多然内部
-Redoran interior2	瑞多然内部2
+Redoran interior	瑞多然  内部
+Redoran interior2	瑞多然  内部2
 Releth Ancestral Tomb	瑞莱斯先祖墓穴
 Reloth Ancestral Tomb	雷洛斯先祖墓穴
 Remote Shipwreck, Cabin	偏僻沉船，船舱
@@ -1310,9 +1310,9 @@ Vivec, St. Delyn Canal South-One	维威克城，圣·德林河道南部第一间
 Vivec, St. Delyn Canal South-Three	维威克城，圣·德林河道南部第三间
 Vivec, St. Delyn Canal South-Two	维威克城，圣·德林河道南部第二间
 Vivec, St. Delyn Canalworks	维威克城，圣·德林河道工作区
-Vivec, St. Delyn Glassworker's Hall	维威克城，圣·德林玻璃工的大厅
+Vivec, St. Delyn Glassworker's Hall	维威克城，圣·德林 玻璃工的大厅
 Vivec, St. Delyn Plaza	维威克城，圣·德林广场
-Vivec, St. Delyn Potter's Hall	维威克城，圣·德林陶工的大厅
+Vivec, St. Delyn Potter's Hall	维威克城，圣·德林 陶工的大厅
 Vivec, St. Delyn Storage	维威克城，圣·德林储存室
 Vivec, St. Delyn Underworks	维威克城，圣·德林区下水道
 Vivec, St. Delyn Waist North-One	维威克城，圣·德林中层北部第一间
@@ -1321,7 +1321,7 @@ Vivec, St. Delyn Waist South-One	维威克城，圣·德林中层南部第一间
 Vivec, St. Delyn Waist South-Two	维威克城，圣·德林中层南部第二间
 Vivec, St. Delyn Waistworks	维威克城，圣·德林中层工作区
 Vivec, St. Delyn	维威克城，圣·德林区
-Vivec, St. Olms Brewers and Fishmongers Hall	维威克城，圣·奥姆斯酿酒商和鱼贩的大厅
+Vivec, St. Olms Brewers and Fishmongers Hall	维威克城，圣·奥姆斯 酿酒商和鱼贩的大厅
 Vivec, St. Olms Canal North-One	维威克城，圣·奥姆斯河道北部第一间
 Vivec, St. Olms Canal North-Three	维威克城，圣·奥姆斯河道北部第三间
 Vivec, St. Olms Canal North-Two	维威克城，圣·奥姆斯河道北部第二间
@@ -1329,12 +1329,12 @@ Vivec, St. Olms Canal South-One	维威克城，圣·奥姆斯河道南部第一间
 Vivec, St. Olms Canal South-Three	维威克城，圣·奥姆斯河道南部第三间
 Vivec, St. Olms Canal South-Two	维威克城，圣·奥姆斯河道南部第二间
 Vivec, St. Olms Canalworks	维威克城，圣·奥姆斯河道工作区
-Vivec, St. Olms Farmers and Laborers Hall	维威克城，圣·奥姆斯农人和劳工的大厅
+Vivec, St. Olms Farmers and Laborers Hall	维威克城，圣·奥姆斯 农人和劳工的大厅
 Vivec, St. Olms Haunted Manor	维威克城，圣·奥姆斯闹鬼庄园
 Vivec, St. Olms Plaza	维威克城，圣·奥姆斯广场
 Vivec, St. Olms Storage	维威克城，圣·奥姆斯储存室
-Vivec, St. Olms Tailors and Dyers Hall	维威克城，圣·奥姆斯裁缝和染色师的大厅
-Vivec, St. Olms Tanners and Miners Hall	维威克城，圣·奥姆斯制革工和矿工的大厅
+Vivec, St. Olms Tailors and Dyers Hall	维威克城，圣·奥姆斯 裁缝和染色师的大厅
+Vivec, St. Olms Tanners and Miners Hall	维威克城，圣·奥姆斯 制革工和矿工的大厅
 Vivec, St. Olms Temple	维威克城，圣·奥姆斯神殿
 Vivec, St. Olms Underworks	维威克城，圣·奥姆斯区下水道
 Vivec, St. Olms Upper North-One	维威克城，圣·奥姆斯上层北部第一间
