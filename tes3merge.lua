@@ -74,9 +74,9 @@ loadExt(arg[3], function(k, e, c)
 		if c == oldC then
 			c = newC
 		elseif c ~= newC then
-			f:write(k, "\r\n", e, "\r\n<<<", oldC or "", "\r\n>>>", newC, "\r\n===", c, "\r\n\r\n")
+			-- f:write(k, "\r\n", e, "\r\n<<<", oldC or "", "\r\n>>>", newC, "\r\n===", c, "\r\n\r\n")
+			-- done = true
 			m = m + 1
-			done = true
 		end
 	end
 	if not done then
