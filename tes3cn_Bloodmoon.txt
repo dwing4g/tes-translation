@@ -21272,7 +21272,7 @@ RH<BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 条目1：就是今天！波尚的飞艇看起来足够坚固，船员们已经准备好启航了。我们将向西北旅行，直到到达索瑟泰姆岛。根据波尚的说法，霍斯蒙德的灾祸之狼构架位于摩斯林山脉附近的某个地方。我们要探索的古墓位于狼眼。我们能得到波尚的珍贵魔法物品，并在几天后返回法师公会。怎么可能出差错？<br>
 <br>
-条目4：该死的魔术师、术士、发明家、科学家，他们净是些学术之徒！波尚向我保证他的飞艇会固定在一起，向我保证它可以像海上航行装置一样航行。全是骗人的！这个怪东西几乎没有连接在一起--自从我们离开奥德'汝因以来，我们一直在追踪它的一点一滴！就在一个小时前，我们失去了一个主发动机上的锻莫齿轮！如果这是一艘护卫舰或单桅帆船，我会很好地把她绑在一起，但是，唉，试图控制飞艇就像用勺在桶里划桨一样环游大海。<br>
+条目4：该死的咒术师、术士、发明家、科学家，他们净是些学术之徒！波尚向我保证他的飞艇会固定在一起，向我保证它可以像海上航行装置一样航行。全是骗人的！这个怪东西几乎没有连接在一起--自从我们离开奥德'汝因以来，我们一直在追踪它的一点一滴！就在一个小时前，我们失去了一个主发动机上的锻莫齿轮！如果这是一艘护卫舰或单桅帆船，我会很好地把她绑在一起，但是，唉，试图控制飞艇就像用勺在桶里划桨一样环游大海。<br>
 <br>
 条目6：有陆地了嗬！<br>
 <br>
@@ -33971,21 +33971,21 @@ C<BR>"
  INFO.PNAM "21180271702265029160$00"
  INFO.NNAM "2068915844264314124$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "博特里尔对找回寡妇制造者欣喜若狂，这很容易理解。这是一把漂亮的斧头，而且看上去带有附魔。我可以想象，挥舞着这样一把斧头，他的确是个可怕的战士。博特里尔对我的帮助没有什么回报，但他愿意教我一些斧子的使用方法。我相信，在用斧子劈开骨头方面，他一定有很多东西可以教我。 {手斧}"
+ INFO.NAME "博特里尔对找回寡妇制造者欣喜若狂，这很容易理解。这是一把漂亮的斧头，而且看上去带有附魔。我可以想象，挥舞着这样一把斧头，他的确是个可怕的战士。博特里尔对我的帮助没有什么回报，但他愿意教我一些斧子的使用方法。我相信，在用斧子劈开骨头方面，他一定有很多东西可以教我。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2068915844264314124$00"
  INFO.PNAM "2454230192179524814$00"
  INFO.NNAM "1875122874799212572$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "博特里尔对找回寡妇制造者欣喜若狂，这很容易理解。这是一把漂亮的斧头，而且看上去带有附魔。我可以想象，挥舞着这样一把斧头，他的确是个可怕的战士。博特里尔对我的帮助没有什么回报，但他愿意教我一些斧子的使用方法。我相信，在用斧子劈开骨头方面，他一定有很多东西可以教我。 {手斧}"
+ INFO.NAME "博特里尔对找回寡妇制造者欣喜若狂，这很容易理解。这是一把漂亮的斧头，而且看上去带有附魔。我可以想象，挥舞着这样一把斧头，他的确是个可怕的战士。博特里尔对我的帮助没有什么回报，但他愿意教我一些斧子的使用方法。我相信，在用斧子劈开骨头方面，他一定有很多东西可以教我。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "1875122874799212572$00"
  INFO.PNAM "2068915844264314124$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 5A 00 00 00 FF FF FF 00]
- INFO.NAME "博特里尔在试图夺回他最珍贵的斧头“寡妇制造者”时被杀。可惜我再也看不到他挥舞斧头的样子了。 {手斧}"
+ INFO.NAME "博特里尔在试图夺回他最珍贵的斧头“寡妇制造者”时被杀。可惜我再也看不到他挥舞斧头的样子了。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MS_Gold_kanet_flower$00"
@@ -38352,7 +38352,7 @@ C<BR>"
  INFO.PNAM "291866888476327418$00"
  INFO.NNAM "185365284765019999$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "赫洛马·醉酒给我讲了一个有趣的故事。他声称自己被一个女巫勾引，趁他熟睡时对他施了咒语，夺走了他的一切，包括他那把珍贵的附魔斧子破云者，然后把他丢在路边供路人取乐。他请求我带他去寻找女巫，并帮助他找回斧头，以换取报酬。 {手斧}"
+ INFO.NAME "赫洛马·醉酒给我讲了一个有趣的故事。他声称自己被一个女巫勾引，趁他熟睡时对他施了咒语，夺走了他的一切，包括他那把珍贵的附魔斧子破云者，然后把他丢在路边供路人取乐。他请求我带他去寻找女巫，并帮助他找回斧头，以换取报酬。"
 -INFO
  INFO.INAM "1344227220907914481$00"
  INFO.PNAM "185365284765019999$00"
@@ -38365,14 +38365,14 @@ C<BR>"
  INFO.PNAM "2481769841740918543$00"
  INFO.NNAM "6381717220521794$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "我决定把破云者据为己有。像赫洛马这样不文明的人不需要使用这么好的武器。失去这么多生命总是令人惋惜，但至少我可以从我的新斧头破云者的美丽中得到安慰。 {手斧}"
+ INFO.NAME "我决定把破云者据为己有。像赫洛马这样不文明的人不需要使用这么好的武器。失去这么多生命总是令人惋惜，但至少我可以从我的新斧头破云者的美丽中得到安慰。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "6381717220521794$00"
  INFO.PNAM "1588118759687897$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 55 00 00 00 FF FF FF 00]
- INFO.NAME "赫洛马很高兴能拿回他的斧头，他还愿意给我一些指点，让我在战斗中更加强大。很高兴看到这么漂亮的斧子物归原主。 {手斧}"
+ INFO.NAME "赫洛马很高兴能拿回他的斧头，他还愿意给我一些指点，让我在战斗中更加强大。很高兴看到这么漂亮的斧子物归原主。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MV_BountyHunter$00"
@@ -39736,7 +39736,7 @@ C<BR>"
  INFO.PNAM "282452350274726463$00"
  INFO.NNAM "102344824219462523$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "科农·乔达拉的鬼魂给了我一把手斧和一双靴子。"
+ INFO.NAME "科农·乔达拉的鬼魂给了我一把斧子和一双靴子。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "102344824219462523$00"
@@ -40712,7 +40712,7 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "一个叫恩布乔夫的诺德人给了我一把钥匙并告诉了我一个关于“不法之徒”奥姆格德的船葬的故事，他是第一纪元的天际国王哈拉尔德·逸手的儿子。恩布乔夫认为一把名为风暴之吻的附魔战斧与奥姆格德一同被埋葬了。恩布乔夫认为墓葬在扎伊蒂拉里斯的迪德拉遗址和泰尔-布勒诺拉之间的某处，在半岛的西侧。 {手斧,迪德拉式}"
+ INFO.NAME "一个叫恩布乔夫的诺德人给了我一把钥匙并告诉了我一个关于“不法之徒”奥姆格德的船葬的故事，他是第一纪元的天际国王哈拉尔德·逸手的儿子。恩布乔夫认为一把名为风暴之吻的附魔战斧与奥姆格德一同被埋葬了。恩布乔夫认为墓葬在扎伊蒂拉里斯的迪德拉遗址和泰尔-布勒诺拉之间的某处，在半岛的西侧。 {迪德拉式}"
 -DIAL
  DIAL.NAME "MS_FargothRing$00"
  DIAL.DATA [04]
@@ -43405,7 +43405,7 @@ C<BR>"
  INFO.PNAM "45864638426932607$00"
  INFO.NNAM "306792339124688432$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "法拉·雷瑟兰让我把瑞达斯战斧、瑞达斯圣杯和瑞达斯契约长袍从瑞达斯之墓中带给她。它在莫拉格-玛尔的南边，翻过山就到了。我应该沿着山脉向西走，直到能越过山脉到达南边，然后再向东走，直到看到坟墓，它就在灰烬之民的营地附近。 {手斧}"
+ INFO.NAME "法拉·雷瑟兰让我把瑞达斯战斧、瑞达斯圣杯和瑞达斯契约长袍从瑞达斯之墓中带给她。它在莫拉格-玛尔的南边，翻过山就到了。我应该沿着山脉向西走，直到能越过山脉到达南边，然后再向东走，直到看到坟墓，它就在灰烬之民的营地附近。"
 -INFO
  INFO.INAM "306792339124688432$00"
  INFO.PNAM "192431971891145202$00"
@@ -45127,13 +45127,13 @@ C<BR>"
  INFO.PNAM "10991322463268517204$00"
  INFO.NNAM "344379691661317375$00"
  INFO.DATA [04 00 00 00 5A 00 00 00 FF FF FF 00]
- INFO.NAME "走私者之一瓜尔蒂鲁斯·斯普里乌斯向我提出了一个交易，因为他认识塞努斯·卢西乌斯并信任他。作为饶他一命的交换条件，他将留下索瑟泰姆和赃物。此外，他还会给我一把斧头，让我对他的行踪保持沉默。 {手斧}"
+ INFO.NAME "走私者之一瓜尔蒂鲁斯·斯普里乌斯向我提出了一个交易，因为他认识塞努斯·卢西乌斯并信任他。作为饶他一命的交换条件，他将留下索瑟泰姆和赃物。此外，他还会给我一把斧头，让我对他的行踪保持沉默。"
 -INFO
  INFO.INAM "344379691661317375$00"
  INFO.PNAM "202392469052999143$00"
  INFO.NNAM "1438370231671819608$00"
  INFO.DATA [04 00 00 00 5D 00 00 00 FF FF FF 00]
- INFO.NAME "我接受了瓜尔蒂鲁斯·斯普里乌斯的提议，允许他离开这座岛。作为交换，他给了我一把银斧头，并表示我可以从他的赃物库中随意拿取我想要的东西。 {手斧}"
+ INFO.NAME "我接受了瓜尔蒂鲁斯·斯普里乌斯的提议，允许他离开这座岛。作为交换，他给了我一把银斧头，并表示我可以从他的赃物库中随意拿取我想要的东西。"
 -INFO
  INFO.INAM "1438370231671819608$00"
  INFO.PNAM "344379691661317375$00"
@@ -45370,7 +45370,7 @@ C<BR>"
  INFO.PNAM "21434102942741216664$00"
  INFO.NNAM "62702046283673755$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "格瑞里德·斧妻也死了。我必须向龙牙报告。 {手斧}"
+ INFO.NAME "格瑞里德·斧妻也死了。我必须向龙牙报告。"
 -INFO
  INFO.INAM "62702046283673755$00"
  INFO.PNAM "4521202201200126966$00"
@@ -46386,7 +46386,7 @@ C<BR>"
  INFO.PNAM "122185547218202335$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "科农·乔达拉的鬼魂给了我一把手斧和一双靴子。"
+ INFO.NAME "科农·乔达拉的鬼魂给了我一把斧子和一双靴子。"
 -DIAL
  DIAL.NAME "HH_Crassius$00"
  DIAL.DATA [04]
@@ -46921,13 +46921,13 @@ C<BR>"
  INFO.PNAM "6138227262716518795$00"
  INFO.NNAM "2702516852078819276$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "我必须向西前往莫斯林山脉，找到酒馆第一任首领霍斯蒙德之冢藏地。到了那里，我必须亲手接过霍斯蒙德的大斧，说出我想统治瑟斯克和它的子民的愿望。如果霍斯蒙德的灵魂同意，他将赐予祝福。我不在的时候，斯文加会去修缮蜜酒大厅。 {手斧}"
+ INFO.NAME "我必须向西前往莫斯林山脉，找到酒馆第一任首领霍斯蒙德之冢藏地。到了那里，我必须亲手接过霍斯蒙德的大斧，说出我想统治瑟斯克和它的子民的愿望。如果霍斯蒙德的灵魂同意，他将赐予祝福。我不在的时候，斯文加会去修缮蜜酒大厅。"
 -INFO
  INFO.INAM "2702516852078819276$00"
  INFO.PNAM "26288303051065427179$00"
  INFO.NNAM "996142912988528146$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "我将手放在霍斯蒙德的大斧上，说出了我想成为瑟斯克首领的意愿。霍斯蒙德的灵魂给予了我祝福。我现在应该回到蜜酒大厅，和斯文加·雪歌谈谈，这样我就可以被任命为首领了。 {手斧,侍奉}"
+ INFO.NAME "我将手放在霍斯蒙德的大斧上，说出了我想成为瑟斯克首领的意愿。霍斯蒙德的灵魂给予了我祝福。我现在应该回到蜜酒大厅，和斯文加·雪歌谈谈，这样我就可以被任命为首领了。 {侍奉}"
 -INFO
  INFO.INAM "996142912988528146$00"
  INFO.PNAM "2702516852078819276$00"
@@ -46947,7 +46947,7 @@ C<BR>"
  INFO.PNAM "2213950292322026833$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 78 00 00 00 FF FF FF 00]
- INFO.NAME "我把手放在霍斯蒙德的大斧头上，说出了我想成为瑟斯克首领的意愿。霍斯蒙德没有同意。我永远不会成为蜜酒大厅的首领。 {手斧,侍奉,沙尔}"
+ INFO.NAME "我把手放在霍斯蒙德的大斧头上，说出了我想成为瑟斯克首领的意愿。霍斯蒙德没有同意。我永远不会成为蜜酒大厅的首领。 {侍奉,沙尔}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "BM_FurArmor$00"
@@ -48398,7 +48398,7 @@ C<BR>"
  INFO.PNAM "2052113412326118757$00"
  INFO.NNAM "621520212908831053$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "我把艾兰-阿姆的战斧交给了罕-阿姆，并就力量、象征和责任发表了一番讲话。我相信他已将这一教训铭记于心，会考虑接受他作为灰烬可汗的责任，并考虑任命我为尼瑞瓦因。但他说他不需要那把斧头，让我自己留着。 {手斧}"
+ INFO.NAME "我把艾兰-阿姆的战斧交给了罕-阿姆，并就力量、象征和责任发表了一番讲话。我相信他已将这一教训铭记于心，会考虑接受他作为灰烬可汗的责任，并考虑任命我为尼瑞瓦因。但他说他不需要那把斧头，让我自己留着。"
 -DIAL
  DIAL.NAME "C2_Sunder$00"
  DIAL.DATA [04]
@@ -49863,7 +49863,7 @@ C<BR>"
  INFO.PNAM "271964268268382650$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我带着他让我帮他偷的合同回到了阿鲁萨隆的商店。他对我的表现很满意，还奖励了我一把他制作的手斧。 {报酬}"
+ INFO.NAME "我带着他让我帮他偷的合同回到了阿鲁萨隆的商店。他对我的表现很满意，还奖励了我一把他制作的斧子。 {报酬}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "EB_Pest$00"
@@ -50135,14 +50135,14 @@ C<BR>"
  INFO.PNAM "22151121693221127598$00"
  INFO.NNAM "79419188544825540$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "我从沉船打捞了几把鹤嘴锄，但法尔科不需要了。他感谢我打捞了它们。 {手斧,斧类武器}"
+ INFO.NAME "我从沉船打捞了几把鹤嘴锄，但法尔科不需要了。他感谢我打捞了它们。 {斧,斧类}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "79419188544825540$00"
  INFO.PNAM "888724066527418293$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "法尔科说他会为我从沉船中打捞上来的鹤嘴锄付钱。 {手斧,斧类武器}"
+ INFO.NAME "法尔科说他会为我从沉船中打捞上来的鹤嘴锄付钱。 {斧,斧类}"
 -DIAL
  DIAL.NAME "CO_3b$00"
  DIAL.DATA [04]
@@ -50241,19 +50241,19 @@ C<BR>"
  INFO.PNAM "2103224011111945266$00"
  INFO.NNAM "155203884508131035$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "卡尼乌斯吩咐我确保镐头能用，在新发现的墓穴里削下一些魔冰，然后交给他。 {手斧,工作}"
+ INFO.NAME "卡尼乌斯吩咐我确保鹤嘴锄能用，在新发现的墓穴里削下一些魔冰，然后交给他。 {斧,工作}"
 -INFO
  INFO.INAM "155203884508131035$00"
  INFO.PNAM "180049844315584906$00"
  INFO.NNAM "22710265872270420142$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "我已经杀死了诺德人，并获得了卡尼乌斯提到的镐头。 {手斧,谈}"
+ INFO.NAME "我已经杀死了诺德人，并获得了卡尼乌斯提到的鹤嘴锄。 {斧,谈}"
 -INFO
  INFO.INAM "22710265872270420142$00"
  INFO.PNAM "155203884508131035$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "卡尼乌斯命令我找到三个诺德人，他们就住在赫斯湍河和伊西尔德河之间的岔路南边。我要杀光他们，并取回他们应该拥有的镐头。 {手斧}"
+ INFO.NAME "卡尼乌斯命令我找到三个诺德人，他们就住在赫斯湍河和伊西尔德河之间的岔路南边。我要杀光他们，并取回他们应该拥有的鹤嘴锄。 {斧}"
 -DIAL
  DIAL.NAME "CO_9a$00"
  DIAL.DATA [04]
@@ -51114,7 +51114,7 @@ C<BR>"
  INFO.PNAM "2162418811901430893$00"
  INFO.NNAM "547729354603417109$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "加拉林解释说，这种冰叫做“魔冰”，非常珍贵。他给了我一把特制的镐头，让我从矿场的冰块上削下一些魔冰。 {手斧,格挡}"
+ INFO.NAME "加拉林解释说，这种冰叫做“魔冰”，非常珍贵。他给了我一把特制的鹤嘴锄，让我从矿场的冰块上削下一些魔冰。 {斧,格挡}"
 -INFO
  INFO.INAM "547729354603417109$00"
  INFO.PNAM "6146206109214923$00"
@@ -54188,7 +54188,7 @@ Goodbye"
  INFO.NNAM "1944976523138422749$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "svenja snow-song$00"
- INFO.NAME "埃里希是个令人作呕的野蛮诺德人。我见过比他更迷人的霜猪，他还自以为是个淑女呢！像你这么漂亮的姑娘，应该没问题赢得他的好感。但你也不想啊，我很想教他尊重别人，但他毕竟是我的族兄。不过，如果有人用斧头砍他的胸膛，我也不会哭着喝蜜酒。 {计划,手斧}"
+ INFO.NAME "埃里希是个令人作呕的野蛮诺德人。我见过比他更迷人的霜猪，他还自以为是个淑女呢！像你这么漂亮的姑娘，应该没问题赢得他的好感。但你也不想啊，我很想教他尊重别人，但他毕竟是我的族兄。不过，如果有人用斧头砍他的胸膛，我也不会哭着喝蜜酒。 {计划}"
  INFO.SCVR "04JX3BM_Missionary"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "11440"
@@ -56424,7 +56424,7 @@ set localdayspassed to 0"
  INFO.NNAM "26781019436630147$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hidar$00"
- INFO.NAME "这是你的战斧，%PCName。好好使用。 {手斧}"
+ INFO.NAME "这是你的战斧，%PCName。好好使用。"
  INFO.SCVR "03sX0s_waraxe"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -56439,7 +56439,7 @@ set localdayspassed to 0"
  INFO.NNAM "5350253781749717292$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hidar$00"
- INFO.NAME "你的战斧还没准备好，我需要更多时间来完成它。 {手斧}"
+ INFO.NAME "你的战斧还没准备好，我需要更多时间来完成它。"
  INFO.SCVR "03sX0s_waraxe"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -56535,7 +56535,7 @@ Goodbye"
  INFO.NNAM "2449116841939919031$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hidar$00"
- INFO.NAME "我会为你打造一把战斧。两天后再来，就能做好了。 {手斧}"
+ INFO.NAME "我会为你打造一把战斧。两天后再来，就能做好了。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.SCVR "15IX3ingred_raw_Stalhrim_01"
@@ -56550,7 +56550,7 @@ Goodbye"
  INFO.NNAM "1052431962138491563$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hidar$00"
- INFO.NAME "你没有足够的魔冰原矿让我为你锻造战斧。 {手斧}"
+ INFO.NAME "你没有足够的魔冰原矿让我为你锻造战斧。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.SCVR "15IX4ingred_raw_Stalhrim_01"
@@ -61657,7 +61657,7 @@ ModDisposition 10"
  INFO.NNAM "4005274721648019481$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "真遗憾。要是卡尼乌斯肯花钱确保一切顺利就好了……可我们却损失了一批鹤嘴锄，沉船后只剩下一个幸存者。太可怕了。 {手斧,斧类武器}"
+ INFO.NAME "真遗憾。要是卡尼乌斯肯花钱确保一切顺利就好了……可我们却损失了一批鹤嘴锄，沉船后只剩下一个幸存者。太可怕了。 {斧,斧类}"
  INFO.SCVR "04JX3CO_3"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -61666,7 +61666,7 @@ ModDisposition 10"
  INFO.NNAM "1366793871774326317$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "失事？你确定？那就没办法了，至少有一个幸存者活下来了。我跟卡尼乌斯说过，价低者得是个坏主意。而且这件事非常重要，不能不认真对待，至少你解开了这个谜，%PCName。谢谢你的调查，你只需要确保消息传到卡尼乌斯那里。要是我们有那些鹤嘴锄就好了… {手斧,斧类武器}"
+ INFO.NAME "失事？你确定？那就没办法了，至少有一个幸存者活下来了。我跟卡尼乌斯说过，价低者得是个坏主意。而且这件事非常重要，不能不认真对待，至少你解开了这个谜，%PCName。谢谢你的调查，你只需要确保消息传到卡尼乌斯那里。要是我们有那些鹤嘴锄就好了… {斧,斧类}"
  INFO.SCVR "04JX0CO_3"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3CO_3b"
@@ -61678,7 +61678,7 @@ ModDisposition 10"
  INFO.NNAM "933230769143708160$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "失事？你确定？那就没办法了，可惜连一个幸存者都没有。我跟卡尼乌斯说过，价低者得是个坏主意。这事太重要了，不能不认真对待，至少你解开了这个谜，%PCName。谢谢你的调查，你只需要确保消息传到卡尼乌斯那里。要是我们有那些鹤嘴锄就好了… {手斧,斧类武器}"
+ INFO.NAME "失事？你确定？那就没办法了，可惜连一个幸存者都没有。我跟卡尼乌斯说过，价低者得是个坏主意。这事太重要了，不能不认真对待，至少你解开了这个谜，%PCName。谢谢你的调查，你只需要确保消息传到卡尼乌斯那里。要是我们有那些鹤嘴锄就好了… {斧,斧类}"
  INFO.SCVR "04JX0CO_3"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX0CO_3b"
@@ -62180,7 +62180,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "svenja_outside$00"
- INFO.NAME "您必须去山上，找到瑟斯克第一任酋长霍斯蒙德之冢。只有霍斯蒙德的灵魂同意，才能被任命为蜜酒大厅酋长。霍斯蒙德之冢里有他的巨斧。把你的手放在这把武器上，说出你想统治瑟斯克的愿望。如果你有资格，霍斯蒙德将赐予你祝福。现在就去，去狼眼寻找霍斯蒙德之冢，你不在的时候，我会去修缮蜜酒大厅。 {手斧}"
+ INFO.NAME "您必须去山上，找到瑟斯克第一任酋长霍斯蒙德之冢。只有霍斯蒙德的灵魂同意，才能被任命为蜜酒大厅酋长。霍斯蒙德之冢里有他的巨斧。把你的手放在这把武器上，说出你想统治瑟斯克的愿望。如果你有资格，霍斯蒙德将赐予你祝福。现在就去，去狼眼寻找霍斯蒙德之冢，你不在的时候，我会去修缮蜜酒大厅。"
  INFO.BNAM "Journal BM_MeadHall 60
 Goodbye"
 -DIAL
@@ -64003,7 +64003,7 @@ Goodbye"
  INFO.NNAM "14337273261010026742$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gualtierus spurius$00"
- INFO.NAME "就像我说的，你让我走，没人会再看见我。武器留在这里，我把这把斧头给你，我觉得它很值钱。怎么样，%PCName？ {手斧}"
+ INFO.NAME "就像我说的，你让我走，没人会再看见我。武器留在这里，我把这把斧头给你，我觉得它很值钱。怎么样，%PCName？"
  INFO.SCVR "04JX0BM_Smugglers"
  INFO.INTV [5A 00 00 00]
  INFO.BNAM "Choice ""你可以走了。别再回来了。"" 1 ""我不能让你这么做。"" 2"
@@ -64013,7 +64013,7 @@ Goodbye"
  INFO.NNAM "3142627724182042095$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gualtierus spurius$00"
- INFO.NAME "我会离开这座岛，把武器留下。你只要让我和平离开，别给卡利尤斯惹麻烦，我就走。听着，我会给你这把好斧头，作为你保持沉默的一点奖励。卡利尤斯不会想我的，我就会消失了。问问卢西乌斯，他会给你很好的建议。 {手斧}"
+ INFO.NAME "我会离开这座岛，把武器留下。你只要让我和平离开，别给卡利尤斯惹麻烦，我就走。听着，我会给你这把好斧头，作为你保持沉默的一点奖励。卡利尤斯不会想我的，我就会消失了。问问卢西乌斯，他会给你很好的建议。"
  INFO.SCVR "04JX4BM_Smugglers"
  INFO.INTV [5A 00 00 00]
  INFO.SCVR "14JX3BM_Smugglers"
@@ -64423,7 +64423,7 @@ Goodbye"
  INFO.PNAM [00]
  INFO.NNAM "310941559979747883$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "【你没能履行 “沉默誓言“】"
+ INFO.NAME "[你没能履行 “沉默誓言“]"
  INFO.SCVR "34JX3TT_SanctusShrine"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "44JX4TT_SanctusShrine"
@@ -64437,7 +64437,7 @@ Goodbye"
  INFO.NNAM "390119807270132179$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "svenja_outside$00"
- INFO.NAME "风向我低语，%PCName。他们告诉我你未能进入霍斯蒙德之冢。为了成为瑟斯克的首领，你需要进入霍斯蒙德之冢拿起斧头接受他的祝福。现在，这永远不会发生了。这真是悲哀的一天。恐怕瑟斯克再也不会重新开放了。 {手斧}"
+ INFO.NAME "风向我低语，%PCName。他们告诉我你未能进入霍斯蒙德之冢。为了成为瑟斯克的首领，你需要进入霍斯蒙德之冢拿起斧头接受他的祝福。现在，这永远不会发生了。这真是悲哀的一天。恐怕瑟斯克再也不会重新开放了。"
  INFO.SCVR "04JX0BM_Airship_a"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM "Journal BM_Airship_c 20
@@ -67065,7 +67065,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "32372313203221925075$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "rolf long-tooth$00"
- INFO.NAME "斧妻死了？不！她是个好战士，好朋友，但我们不会因此停下脚步。我们两个会继续下去，直到净祝狩仪完成。 {手斧}"
+ INFO.NAME "斧妻死了？不！她是个好战士，好朋友，但我们不会因此停下脚步。我们两个会继续下去，直到净祝狩仪完成。"
  INFO.SCVR "04JX0BM_BearHunt1"
  INFO.INTV [37 00 00 00]
  INFO.BNAM "Journal BM_BearHunt1 60"
@@ -67075,7 +67075,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "1465518126102302360$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "rolf long-tooth$00"
- INFO.NAME "快点！去看看格瑞里德·斧妻。我担心会有更多的野兽出现。 {手斧}"
+ INFO.NAME "快点！去看看格瑞里德·斧妻。我担心会有更多的野兽出现。"
  INFO.SCVR "04JX0BM_BearHunt1"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -67084,7 +67084,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "30138110392689419038$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "rolf long-tooth$00"
- INFO.NAME "那是什么？爆炸！这些怪物到处都是。快，找到格瑞里德·斧妻！不要让狩猎被打断！我等你回来。 {手斧}"
+ INFO.NAME "那是什么？爆炸！这些怪物到处都是。快，找到格瑞里德·斧妻！不要让狩猎被打断！我等你回来。"
  INFO.SCVR "04JX0BM_BearHunt1"
  INFO.INTV [2D 00 00 00]
  INFO.SCVR "13sX0rolfstate"
@@ -71938,7 +71938,7 @@ Goodbye"
  INFO.NNAM "8531224241092816233$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lugrub gro-ogdum$00"
- INFO.NAME "你别想带走斧头！ {手斧}"
+ INFO.NAME "你别想带走斧头！"
  INFO.SCVR "05IX3lugrub's axe"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "SetFight 100
@@ -72070,7 +72070,7 @@ Goodbye"
  INFO.NNAM "1504370591030625983$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "botrir$00"
- INFO.NAME "女巫死了！现在，如果你能把寡妇制造者给我，陌生人，我将感激不尽。如果你有兴趣，我还可以教你用斧头。 {手斧}"
+ INFO.NAME "女巫死了！现在，如果你能把寡妇制造者给我，陌生人，我将感激不尽。如果你有兴趣，我还可以教你用斧头。"
  INFO.SCVR "05IX2widowmaker_unique"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "16DX2iveri llothri"
@@ -72218,7 +72218,7 @@ journal ""MV_WanderingPilgrim"" 100"
  INFO.NNAM "2222958881487514257$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "guar_rollie_unique$00"
- INFO.NAME "【罗利再三思虑后什么也没说】"
+ INFO.NAME "[罗利再三思虑后什么也没说]"
  INFO.SCVR "03sX0rollievar"
  INFO.INTV [04 00 00 00]
  INFO.BNAM "set rollievar to 5"
@@ -72228,7 +72228,7 @@ journal ""MV_WanderingPilgrim"" 100"
  INFO.NNAM "17946135232584117895$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "guar_rollie_unique$00"
- INFO.NAME "【罗利深思熟虑之后，还未开口】"
+ INFO.NAME "[罗利深思熟虑之后，还未开口]"
  INFO.SCVR "03sX0rollievar"
  INFO.INTV [03 00 00 00]
  INFO.BNAM "set rollievar to 4"
@@ -72238,7 +72238,7 @@ journal ""MV_WanderingPilgrim"" 100"
  INFO.NNAM "1765115840259158564$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "guar_rollie_unique$00"
- INFO.NAME "【罗利含情脉脉地望着你，却什么也没说】"
+ INFO.NAME "[罗利含情脉脉地望着你，却什么也没说]"
  INFO.SCVR "03sX0rollievar"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "set rollievar to 3"
@@ -72248,7 +72248,7 @@ journal ""MV_WanderingPilgrim"" 100"
  INFO.NNAM "13851579598829437$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "guar_rollie_unique$00"
- INFO.NAME "【罗利似乎想开口，但再三思索后略觉不妥】"
+ INFO.NAME "[罗利似乎想开口，但再三思索后略觉不妥]"
  INFO.SCVR "03sX0rollievar"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "set rollievar to 2"
@@ -72258,7 +72258,7 @@ journal ""MV_WanderingPilgrim"" 100"
  INFO.NNAM "607429923049712334$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "guar_rollie_unique$00"
- INFO.NAME "【罗利此刻对你一言不发】"
+ INFO.NAME "[罗利此刻对你一言不发]"
  INFO.SCVR "03sX0rollievar"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "set rollievar to 1"
@@ -77864,7 +77864,7 @@ Journal CO_5 210"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "你已经告诉我飞艇的事了。确保消息传到卡尼乌斯就行。但如果你找到任何鹤嘴锄，让我知道。 {手斧,斧类武器}"
+ INFO.NAME "你已经告诉我飞艇的事了。确保消息传到卡尼乌斯就行。但如果你找到任何鹤嘴锄，让我知道。 {斧,斧类}"
  INFO.SCVR "04JX0CO_3"
  INFO.INTV [3C 00 00 00]
  INFO.SCVR "13sX4picks"
@@ -79803,7 +79803,7 @@ set ""Falco Galenus"".picks to 5"
  INFO.NNAM "1795132521608514327$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "%PCName，再有四把镐就能满足我们的需要了。我很感谢你花时间帮我们找到它们。钱给你。"
+ INFO.NAME "%PCName，再有四把镐头就能满足我们的需要了。我很感谢你花时间帮我们找到它们。钱给你。"
  INFO.SCVR "04JX0CO_3a"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "13sX0picks"
@@ -79852,7 +79852,7 @@ set ""Falco Galenus"".picks to 4"
  INFO.NNAM "17196103712834627391$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "三把鹤嘴锄正是我们需要的，%PCName。谢谢你找到它们。现在应该够了；我很感激你的努力，我不会忘记你为我们做的这一切。 {手斧,斧类武器}"
+ INFO.NAME "三把鹤嘴锄正是我们需要的，%PCName。谢谢你找到它们。现在应该够了；我很感激你的努力，我不会忘记你为我们做的这一切。 {斧,斧类}"
  INFO.SCVR "04JX0CO_3a"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "13sX0picks"
@@ -79952,7 +79952,7 @@ Journal CO_3a 20"
  INFO.NNAM "22809173611921443$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "每一把鹤嘴锄都能让我们的工作更轻松，%PCName。谢谢你给我带来这把。 {手斧}"
+ INFO.NAME "每一把鹤嘴锄都能让我们的工作更轻松，%PCName。谢谢你给我带来这把。 {斧}"
  INFO.SCVR "04JX0CO_3a"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "15IX0miner's pick"
@@ -79984,7 +79984,7 @@ set ""Falco Galenus"".picks to ( ""Falco Galenus"".picks + 1 )"
  INFO.NNAM "2234319399260617058$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "你能带给我们的每一把鹤嘴锄都会是巨大的帮助。 {手斧,斧类武器}"
+ INFO.NAME "你能带给我们的每一把鹤嘴锄都会是巨大的帮助。 {斧,斧类}"
  INFO.SCVR "04JX0CO_3a"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "13sX4picks"
@@ -80240,7 +80240,7 @@ Set ColonySide to 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "graring$00"
- INFO.NAME "我们知道魔冰可以像钢铁一样锻造。我们因此被驱逐；斯卡尔人心胸狭窄，不了解它的实用价值。有些人，就像这位女士，听说了它并前来寻求，但不会从我们这里得到它。不过，你已经赢得了我的尊重。现在我们就来看看你是否真的值得信任--拿着这把斧头，用它砍下一块魔冰。把它拿给我。 {手斧}"
+ INFO.NAME "我们知道魔冰可以像钢铁一样锻造。我们因此被驱逐；斯卡尔人心胸狭窄，不了解它的实用价值。有些人，就像这位女士，听说了它并前来寻求，但不会从我们这里得到它。不过，你已经赢得了我的尊重。现在我们就来看看你是否真的值得信任--拿着这把鹤嘴锄，用它砍下一块魔冰。把它拿给我。 {斧}"
  INFO.SCVR "04JX0CO_8"
  INFO.INTV [14 00 00 00]
  INFO.BNAM "removeitem ""BM Nordic Pick"" 1
@@ -80693,7 +80693,7 @@ set valgeirequip to 1"
  INFO.NNAM "272481931526498471$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Valgeir$00"
- INFO.NAME "你连熊铠和战斧都没有，为什么还要浪费我的时间？ {手斧}"
+ INFO.NAME "你连熊铠和战斧都没有，为什么还要浪费我的时间？"
  INFO.SCVR "04JX0CO_13a"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -80734,7 +80734,7 @@ set alfbrandequip to 1"
  INFO.NNAM "1031989681130824520$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Alfbrand$00"
- INFO.NAME "你没有？那你还站在这里说什么？等你拿到我答应给你的熊甲和战斧再回来吧。 {谈,手斧}"
+ INFO.NAME "你没有？那你还站在这里说什么？等你拿到我答应给你的熊甲和战斧再回来吧。 {谈}"
  INFO.SCVR "04JX0CO_13a"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -80775,7 +80775,7 @@ set ormvardequip to 1"
  INFO.NNAM "268929132644314451$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Ormvard$00"
- INFO.NAME "你没有？那你还站在这里说什么？等你拿到我答应给你的熊甲和战斧再回来吧。 {谈,手斧}"
+ INFO.NAME "你没有？那你还站在这里说什么？等你拿到我答应给你的熊甲和战斧再回来吧。 {谈}"
  INFO.SCVR "04JX0CO_13a"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -80816,7 +80816,7 @@ set audmundequip to 1"
  INFO.NNAM "1133131711303623353$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Audmund$00"
- INFO.NAME "你没有？那你还站在这里说什么？等你拿到我答应给你的熊甲和战斧再回来吧。 {谈,手斧}"
+ INFO.NAME "你没有？那你还站在这里说什么？等你拿到我答应给你的熊甲和战斧再回来吧。 {谈}"
  INFO.SCVR "04JX0CO_13a"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -80923,7 +80923,7 @@ Goodbye"
  INFO.NNAM "2221312692148731030$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "我的斧头上沾满了它们的鲜血，数也数不清。它们根本不值得战士注意，无知的野兽。 {手斧}"
+ INFO.NAME "我的斧头上沾满了它们的鲜血，数也数不清。它们根本不值得战士注意，无知的野兽。"
 -INFO
  INFO.INAM "2221312692148731030$00"
  INFO.PNAM "540746371366331072$00"
@@ -81093,7 +81093,7 @@ Goodbye"
  INFO.NNAM "18638214611000221354$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "听说我们要来个铁匠了。这倒是好事--我们的鹤嘴锄用得飞快，简直像不要钱似的。 {手斧,斧类武器}"
+ INFO.NAME "听说我们要来个铁匠了。这倒是好事--我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}"
  INFO.SCVR "02sX0ColonyService"
  INFO.INTV [03 00 00 00]
 -INFO
@@ -81111,7 +81111,7 @@ Goodbye"
  INFO.NNAM "3140029245306726111$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "听说我们要来个铁匠了。这倒是好事--我们的鹤嘴锄用得飞快，简直像不要钱似的。 {手斧,斧类武器}"
+ INFO.NAME "听说我们要来个铁匠了。这倒是好事--我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}"
  INFO.SCVR "02sX0ColonyService"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -82033,7 +82033,7 @@ ModPCFacRep 12 ""East Empire Company"""
  INFO.NNAM "31580105842381012513$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "不管乌鸦岩的蠢货们知不知道，它都是诺德的。而且它价值连城，比整个臭矿场的其他东西都值钱。要知道，这就是我一开始采取这种荒谬立场的原因；我要那块冰，我要它的全部。这意味着你要除掉唯一了解它的人。去北边，就在哈尔斯塔德河与伊尔西德河交汇处的南边，找到那里的三个诺德人。杀了他们，拿到我知道他们有的斧头。 {诺德风格,手斧}"
+ INFO.NAME "不管乌鸦岩的蠢货们知不知道，它都是诺德的。而且它价值连城，比整个臭矿场的其他东西都值钱。要知道，这就是我一开始采取这种荒谬立场的原因；我要那块冰，我要它的全部。这意味着你要除掉唯一了解它的人。去北边，就在哈尔斯塔德河与伊尔西德河交汇处的南边，找到那里的三个诺德人。杀了他们，拿到我知道在他们手里的鹤嘴锄。 {诺德风格,斧}"
  INFO.SCVR "02sX0ColonySide"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Journal CO_8a 10
@@ -82425,7 +82425,7 @@ Goodbye"
  INFO.NNAM "1634174692432825127$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "他是唯一知道魔冰有多珍贵的人。最近有人顺手杀了他，也就是说他不会妨碍我们了。而且，因为我让一个同伙取回了他的镐头，所以你们现在就可以收集魔冰了。拿着这把斧头，你可以用它砍下魔冰的碎片。至少给我带一个。 {手斧}"
+ INFO.NAME "他是唯一知道魔冰有多珍贵的人。最近有人顺手杀了他，也就是说他不会妨碍我们了。而且，因为我让一个同伙取回了他的鹤嘴锄，所以你们现在就可以收集魔冰了。拿着这把斧子，你可以用它砍下魔冰的碎片。至少给我带一个。"
  INFO.SCVR "04JX0CO_8"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX0ColonySide"
@@ -82902,7 +82902,7 @@ PCClearExpelled"
  INFO.NNAM "1135821353316049766$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "他们是由岛外的斧头手和弓箭手组成的小队，对只有一间小屋的定居点和狩猎营地进行突袭。对我们没有什么威胁。 {手斧}"
+ INFO.NAME "他们是由岛外的斧头手和弓箭手组成的小队，对只有一间小屋的定居点和狩猎营地进行突袭。对我们没有什么威胁。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -84502,7 +84502,7 @@ Goodbye"
  INFO.NNAM "23929253112412716672$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "肮脏的野兽，只会玷污我的刀。他们曾经是骄傲的战士，现在却成了活死人。他们令人憎恶。 {手斧}"
+ INFO.NAME "肮脏的野兽，只会玷污我的斧子。他们曾经是骄傲的战士，现在却成了活死人。他们令人憎恶。"
 -INFO
  INFO.INAM "23929253112412716672$00"
  INFO.PNAM "29572749993216105$00"
@@ -89785,7 +89785,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Thirsk$00"
  INFO.SNAM "vo\d\m\bIdl_DM014.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "25914974142861101$00"
@@ -89929,7 +89929,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Thirsk$00"
  INFO.SNAM "vo\d\f\bIdl_DF015.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "914100211476431377$00"
@@ -90105,7 +90105,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Thirsk$00"
  INFO.SNAM "vo\i\m\bIdl_IM018.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "3211198207795438$00"
@@ -90249,7 +90249,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Thirsk$00"
  INFO.SNAM "vo\i\f\bIdl_IF013.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "147496572718419138$00"
@@ -90415,7 +90415,7 @@ Journal CO_10 60"
  INFO.RNAM "Nord$00"
  INFO.ANAM "Thirsk$00"
  INFO.SNAM "vo\n\m\bIdl_NM016.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "127093312597114318$00"
@@ -90791,7 +90791,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Solstheim$00"
  INFO.SNAM "vo\d\m\bIdl_DM014.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "18420243741821920062$00"
@@ -90935,7 +90935,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Solstheim$00"
  INFO.SNAM "vo\d\f\bIdl_DF015.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "158191360163265302$00"
@@ -91122,7 +91122,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Solstheim$00"
  INFO.SNAM "vo\i\m\bIdl_IM018.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "1696916383142811657$00"
@@ -91266,7 +91266,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Solstheim$00"
  INFO.SNAM "vo\i\f\bIdl_IF013.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "29390258369081821$00"
@@ -91432,7 +91432,7 @@ Journal CO_10 60"
  INFO.RNAM "Nord$00"
  INFO.ANAM "Solstheim$00"
  INFO.SNAM "vo\n\m\bIdl_NM016.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "24521223502283028036$00"
@@ -91664,7 +91664,7 @@ Journal CO_10 60"
  INFO.RNAM "Nord$00"
  INFO.ANAM "Solstheim$00"
  INFO.SNAM "vo\n\f\bIdl_NF021.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [60 00 00 00]
  INFO.BNAM "; BORED. TO. DEATH."
@@ -91820,7 +91820,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Skaal Village$00"
  INFO.SNAM "vo\d\m\bIdl_DM014.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "77352576356655848$00"
@@ -91964,7 +91964,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Skaal Village$00"
  INFO.SNAM "vo\d\f\bIdl_DF015.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "984124431413130565$00"
@@ -92151,7 +92151,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Skaal Village$00"
  INFO.SNAM "vo\i\m\bIdl_IM018.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "278203145048976404$00"
@@ -92295,7 +92295,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Skaal Village$00"
  INFO.SNAM "vo\i\f\bIdl_IF013.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "20803233423172627442$00"
@@ -92461,7 +92461,7 @@ Journal CO_10 60"
  INFO.RNAM "Nord$00"
  INFO.ANAM "Skaal Village$00"
  INFO.SNAM "vo\n\m\bIdl_NM016.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "30668163201289725187$00"
@@ -92837,7 +92837,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Raven Rock$00"
  INFO.SNAM "vo\d\m\bIdl_DM014.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "146273059124421541$00"
@@ -92981,7 +92981,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Raven Rock$00"
  INFO.SNAM "vo\d\f\bIdl_DF015.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "1168817792749010176$00"
@@ -93168,7 +93168,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Raven Rock$00"
  INFO.SNAM "vo\i\m\bIdl_IM018.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "1174532002328712067$00"
@@ -93312,7 +93312,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Raven Rock$00"
  INFO.SNAM "vo\i\f\bIdl_IF013.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "3031825561909416215$00"
@@ -93478,7 +93478,7 @@ Journal CO_10 60"
  INFO.RNAM "Nord$00"
  INFO.ANAM "Raven Rock$00"
  INFO.SNAM "vo\n\m\bIdl_NM016.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "31375292933140514465$00"
@@ -93961,7 +93961,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Fort Frostmoth$00"
  INFO.SNAM "vo\d\m\bIdl_DM014.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "1727448501022614581$00"
@@ -94105,7 +94105,7 @@ Journal CO_10 60"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Fort Frostmoth$00"
  INFO.SNAM "vo\d\f\bIdl_DF015.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "41732975161818522$00"
@@ -94292,7 +94292,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Fort Frostmoth$00"
  INFO.SNAM "vo\i\m\bIdl_IM018.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "22170143141582410501$00"
@@ -94436,7 +94436,7 @@ Journal CO_10 60"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Fort Frostmoth$00"
  INFO.SNAM "vo\i\f\bIdl_IF013.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "1461116772250021997$00"
@@ -94602,7 +94602,7 @@ Journal CO_10 60"
  INFO.RNAM "Nord$00"
  INFO.ANAM "Fort Frostmoth$00"
  INFO.SNAM "vo\n\m\bIdl_NM016.mp3$00"
- INFO.NAME "【打哈欠】"
+ INFO.NAME "[打哈欠]"
  INFO.BNAM "; BORED. TO. DEATH."
 -INFO
  INFO.INAM "261251052104235612$00"
