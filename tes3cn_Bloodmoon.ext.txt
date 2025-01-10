@@ -1790,7 +1790,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，巫师和术士的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_MixedUnitTactics
@@ -1887,7 +1887,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，巫师和术士的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_BlasphemousRevenants
@@ -7254,11 +7254,11 @@ I reported the honorable execution of Odaishah Yasalmibaal.
 
 > INFO.NAME tg_ss_greedyslaver 6701290641522921315
 Thieves Guild: Bal Molagmer, Brallion's Ring
-盗贼公会：巴尔·莫拉格穆尔，布拉里昂之戒
+盗贼公会：巴尔-莫拉格穆尔，布拉里昂之戒
 
 > INFO.NAME tg_ss_greedyslaver 2119365843259718793
 Gentleman Jim Stacey wishes for me to do something involving a slaver in the name of the Bal Molagmer.
-绅士吉姆·史戴西希望我以巴尔·莫拉格穆尔的名义做一件涉及奴隶主的事。
+绅士吉姆·史戴西希望我以巴尔-莫拉格穆尔的名义做一件涉及奴隶主的事。
 
 > INFO.NAME tg_ss_greedyslaver 22612323823085830691
 Gentleman Jim Stacey thanked me for stealing Brallion's ring and delivering it to Ilmeni Dren.
@@ -7266,19 +7266,19 @@ Gentleman Jim Stacey thanked me for stealing Brallion's ring and delivering it t
 
 > INFO.NAME tg_ss_greedyslaver 83801767243043680
 Stacey was unhappy to learn that Ilmeni Dren is dead, and does not want the Bal Molagmer to be associated with her death.
-史戴西得知伊尔梅妮·德伦已经死了，不希望巴尔·莫拉格穆尔和她的死联系在一起，他很不高兴。
+史戴西得知伊尔梅妮·德伦已经死了，不希望巴尔-莫拉格穆尔和她的死联系在一起，他很不高兴。
 
 > INFO.NAME tg_ss_greedyslaver 2264796882612116899
 Stacey learned that Brallion was dead, and did not want to be associated with his death.
-史黛西得知布拉里昂死了，不希望巴尔·莫拉格穆尔与他的死联系在一起。
+史黛西得知布拉里昂死了，不希望巴尔-莫拉格穆尔与他的死联系在一起。
 
 > INFO.NAME tg_ss_churchpolice 1764628614223217067
 Thieves Guild: Bal Molagmer, The Dwemer Goblet
-盗贼公会：巴尔·莫拉格穆尔，锻莫高脚杯
+盗贼公会：巴尔-莫拉格穆尔，锻莫高脚杯
 
 > INFO.NAME tg_ss_churchpolice 1245918801870616483
 Gentleman Jim Stacey asked me to steal Berel Sala's large Dwemer goblet and donate it to Danso Indules in the name of the Bal Molagmer. Berel Sala is the head of the Ordinators. He and his Dwemer goblet are in the Justice Offices in Vivec. Danso Indules wanders about the city of Vivec healing the sick. I'm likely to find her in the Temple area, near the High Fane.
-绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格穆尔的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的司法办公室。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。 {正义}
+绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔-莫拉格穆尔的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的司法办公室。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。 {正义}
 
 > INFO.NAME tg_ss_churchpolice 2680724273962214425
 Gentleman Jim Stacey thanked me for stealing Berel Sala's Dwemer goblet and delivering it to Danso Indules.
@@ -7530,11 +7530,11 @@ I delivered Itermerel's notes to Ranis.
 
 > INFO.NAME fg_elithpalsupply 2705130475027875
 Fighters Guild: Flin for Elith-Pal
-战士公会：运送弗林至埃利斯·帕尔
+战士公会：运送弗林至埃利斯-帕尔
 
 > INFO.NAME fg_elithpalsupply 168631838017692159
 Percius Mercius asked me to deliver a load of flin to Dangor in the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.
-珀西乌斯·默西乌斯让我把一车弗林交给当戈尔，他在埃利斯·帕尔矿场，位于哉纳布营地矿场西边的红山脚下。
+珀西乌斯·默西乌斯让我把一车弗林交给当戈尔，他在埃利斯-帕尔矿场，位于哉纳布营地矿场西边的红山脚下。
 
 > INFO.NAME fg_elithpalsupply 2238632669129779042
 Percius Mercius thanked me for delivering the flin.
@@ -7838,11 +7838,11 @@ I have been named Nerevarine by all four tribes of the Vvardenfell Ashlanders --
 
 > INFO.NAME tg_ss_generosity1 22149270561687231907
 Thieves Guild: Bal Molagmer, The Hlervu Locket
-盗贼公会：巴尔·莫拉格穆尔，赫勒武的宝盒
+盗贼公会：巴尔-莫拉格穆尔，赫勒武的宝盒
 
 > INFO.NAME tg_ss_generosity1 208451036451265574
 Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the light of justice throughout Morrowind, stealing from the unjust, and giving to the poor. He gave me a pair of Bal Molagmer gloves, which I should wear before speaking with him again.
-绅士吉姆·史戴西告诉了我巴尔·莫拉格穆尔的故事。他们曾经如何在整个晨风中传递正义之光，从不义者手中窃取财富，并施舍给穷人。他给了我一双巴尔·莫拉格穆尔手套，我应该戴上它再和他说话。
+绅士吉姆·史戴西告诉了我巴尔-莫拉格穆尔的故事。他们曾经如何在整个晨风中传递正义之光，从不义者手中窃取财富，并施舍给穷人。他给了我一双巴尔-莫拉格穆尔手套，我应该戴上它再和他说话。
 
 > INFO.NAME tg_ss_generosity1 1751914300170125850
 Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlervu.
@@ -7850,15 +7850,15 @@ Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlerv
 
 > INFO.NAME tg_ss_generosity1 1069021420716385
 Gentleman Jim Stacey was upset to hear that Braynas Hlervu was dead, but he believes there is other work the Bal Molagmer must do.
-绅士吉姆·史戴西听说布雷纳斯·赫勒武已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
+绅士吉姆·史戴西听说布雷纳斯·赫勒武已经死了，他很难过，但他认为巴尔-莫拉格穆尔还有其他工作要做。
 
 > INFO.NAME tg_ss_generosity2 2204782701611628005
 Thieves Guild: Bal Molagmer, Land Deed
-盗贼公会：巴尔·莫拉格穆尔，地契
+盗贼公会：巴尔-莫拉格穆尔，地契
 
 > INFO.NAME tg_ss_generosity2 10676148462966128467
 Gentleman Jim Stacey asked me to find a forged deed of sale for Indrele Rathryon's land. The deed is in the Library of Vivec. I should deliver the deed to Indrele Rathryon herself in Seyda Neen in the name of the Bal Molagmer.
-绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达尼恩以巴尔·莫拉格穆尔的名义将地契交给因卓尔·拉特里恩本人。
+绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达尼恩以巴尔-莫拉格穆尔的名义将地契交给因卓尔·拉特里恩本人。
 
 > INFO.NAME tg_ss_generosity2 71893279168886388
 Gentleman Jim Stacey thanked me for taking the land deed to Indrele Rathryon.
@@ -8262,7 +8262,7 @@ Han-Ammu, now Ashkhan of the Erabenimsun, has named me Erabenimsun Nerevarine, C
 
 > INFO.NAME tg_ss_plutocrats 28989247122203315137
 Thieves Guild: Bal Molagmer, Books for Vala
-盗贼公会：巴尔·莫拉格穆尔，给瓦拉的书
+盗贼公会：巴尔-莫拉格穆尔，给瓦拉的书
 
 > INFO.NAME tg_ss_plutocrats 1368270732182215726
 Gentleman Jim Stacey asked me to steal Odral Helvi's exquisite copies of "A Brief History of the Empire" and deliver them to Vala Catraso in the Ald'ruhn Guild of Mages. Odral Helvi is in the Governor's Hall in Caldera.
@@ -8286,7 +8286,7 @@ Gentleman Jim Stacey thanked me for killing Sjoring Hard-Heart and gave me the S
 
 > INFO.NAME tg_vintagebrandy 1431296623012018678
 Thieves Guild: The Vintage Brandy
-盗贼公会：巴尔·莫拉格穆尔，佳酿白兰地
+盗贼公会：巴尔-莫拉格穆尔，佳酿白兰地
 
 > INFO.NAME tg_vintagebrandy 2795518513116403968
 Sugar-Lips tells me that Ralen Hlaalo is dead, but has left behind some vintage brandy.
@@ -8534,7 +8534,7 @@ While walking along the western coast of Solstheim I met a man named Thormoor Gr
 
 > INFO.NAME bm_cursedcaptain 12062275342203125141
 The only other survivor of the shipwreck, a warlock and seer named Geilir the Mumbling, has cursed Thormoor with eternal wakefulness.  Thormoor hasn't slept since the ship was lost, and that was over six months ago.  If I can find some way to convince Geilir to lift the curse, Thormoor will finally be able to get some rest.  If I do this for Thormoor, he'll share with me a valuable secret he learned when he was a ship captain.
-船难中唯一的另一位幸存者，一位名叫喃喃者盖利尔的术士兼预言家，诅咒托尔穆尔永不安寝。自从船只失事后，托尔穆尔就再也没睡过觉，而那已经是六个多月前的事了。如果我能想办法说服盖利尔解除诅咒，托尔摩尔就终于可以好好休息了。如果我帮托尔穆尔这个忙，他就会和我分享他当船长时发现的一个宝贵的秘密。
+船难中唯一的另一位幸存者，一位名叫喃喃者盖利尔的巫者兼预言家，诅咒托尔穆尔永不安寝。自从船只失事后，托尔穆尔就再也没睡过觉，而那已经是六个多月前的事了。如果我能想办法说服盖利尔解除诅咒，托尔摩尔就终于可以好好休息了。如果我帮托尔穆尔这个忙，他就会和我分享他当船长时发现的一个宝贵的秘密。
 
 > INFO.NAME bm_cursedcaptain 1406022870280834793
 I convinced Geilir the Mumbling to remove Thormoor's curse of eternal wakefulness.
@@ -8934,7 +8934,7 @@ Ahemmusa Nerevarine
 
 > INFO.NAME b2_ahemmusasafe 546958342977224271
 Sinnammu Mirpal agrees that I have fulfilled my part of the bargain. Ald Daedroth is safe enough to be a refuge for the Ahemmusa. Therefore she has named me Ahemmusa Nerevarine, War Leader of the Ahemmusa, and Protector of the People. She has also given me the Madstone of the Ahemmusa, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Ahemmusa have named me Nerevarine.
-辛那穆·米帕同意我履行了自己的诺言。奥德迪德拉斯足够安全，可以成为阿希穆萨的避难所。因此，她任命我为阿希穆萨的尼瑞瓦因、阿希穆萨的战争领袖和人民保护者。她还赐予我阿希穆萨的附魔之石，这是阿希穆萨部落的传家之宝，它将向所有丹莫昭示，阿希穆萨已将我任命为尼瑞瓦因。 {魔鳄兽,疯狂之石,沙尔}
+辛那穆·米帕同意我履行了自己的诺言。奥德-迪德拉斯足够安全，可以成为阿希穆萨的避难所。因此，她任命我为阿希穆萨的尼瑞瓦因、阿希穆萨的战争领袖和人民保护者。她还赐予我阿希穆萨的附魔之石，这是阿希穆萨部落的传家之宝，它将向所有丹莫昭示，阿希穆萨已将我任命为尼瑞瓦因。 {魔鳄兽,疯狂之石,沙尔}
 
 > INFO.NAME mt_writbrilnosu 24297167052503916794
 Morag Tong: Writ for Brilnosu Llarys
@@ -9298,15 +9298,15 @@ Ajira thanked me for finding her stolen reports.
 
 > INFO.NAME mg_warlocksring 19268136581263929183
 Mages Guild: Warlock's Ring
-法师公会：术士之戒
+法师公会：巫者之戒
 
 > INFO.NAME mg_warlocksring 140521742380726595
 Ajira told me that the Warlock's Ring is held by Vindamea Drethan, a sorceress in Ashirbadon, which is on an island east of the ruins of Bal Fell.
-阿吉拉告诉我，术士之戒由文达梅娅·德雷桑持有，她是阿希尔巴顿的一个女巫，而阿希尔巴顿就在巴尔-费尔废墟东面的一个岛上。 {戒指}
+阿吉拉告诉我，巫者之戒由文达梅娅·德雷桑持有，她是阿希尔巴顿的一个女巫，而阿希尔巴顿就在巴尔-费尔废墟东面的一个岛上。 {戒指}
 
 > INFO.NAME mg_warlocksring 831194753187930554
 Ajira congratulated me on finding the Warlock's Ring.
-阿吉拉祝贺我找到了术士之戒。 {戒指}
+阿吉拉祝贺我找到了巫者之戒。 {戒指}
 
 > INFO.NAME va_vampcountess 12836968423323245
 The Vampire Merta
@@ -9338,7 +9338,7 @@ Ahemmusa Nerevarine
 
 > INFO.NAME b2_ahemmusawalk 249082528358196432
 Sinnammu Mirpal accompanies me to Ald Daedroth. If she can pass safely into the old sanctuary and see the great statue there, she will name me Ahemmusa Nerevarine.
-辛那穆·米帕陪我一起去奥德迪德拉斯。如果她能安全进入古老的圣殿，看到那里的大雕像，她就会让我成为阿希穆萨的尼瑞瓦因。 {魔鳄兽}
+辛那穆·米帕陪我一起去奥德-迪德拉斯。如果她能安全进入古老的圣殿，看到那里的大雕像，她就会让我成为阿希穆萨的尼瑞瓦因。 {魔鳄兽}
 
 > INFO.NAME b2_ahemmusakill 20971305722042027837
 Ahemmusa Nerevarine
@@ -9798,11 +9798,11 @@ Temple: Sheogorath of the House of Troubles
 
 > INFO.NAME tt_alddaedroth 2424420934616717875
 Tholer Saryoni told me that the Fourth Corner of the House of Troubles is Sheogorath. I must renew a pact with Sheogorath by finding a glove called the "Gambolpuddy" and donating it to Sheogorath's statue in Ald Daedroth. This shrine is on an island between Vvardenfell and Azura's Coast.
-索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉。我必须与谢尔格拉重修盟约，找到一只名为“甘博布迪”的手套，并将它捐献给奥德迪德拉斯的谢尔格拉特雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。 {魔鳄兽}
+索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉。我必须与谢尔格拉重修盟约，找到一只名为“甘博布迪”的手套，并将它捐献给奥德-迪德拉斯的谢尔格拉特雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。 {魔鳄兽}
 
 > INFO.NAME tt_alddaedroth 259563428213195461
 I made the Pilgrimage to Ald Daedroth and read a passage from the Four Corners of the House of Troubles. The pact with Sheogorath has been renewed.
-我到奥德迪德拉斯朝圣，读了《祸乱家族》的四角中的一段话。与谢尔格拉的契约已经续签。 {魔鳄兽}
+我到奥德-迪德拉斯朝圣，读了《祸乱家族》的四角中的一段话。与谢尔格拉的契约已经续签。 {魔鳄兽}
 
 > INFO.NAME tt_assarnibibi 247256383135768623
 Temple: Ebony Mail
@@ -10470,7 +10470,7 @@ Imperial Cult: Thelsa Dral the Witch
 
 > INFO.NAME ic17_witch_not 144303186403420826
 I told Kaye I wasn't going to hunt the witch Thelsa Dral in Asha-Ahhe Egg Mine. He was disappointed, and told me not to come back for at least a day. He told me to decide whether I was serious about serving the Imperial cult before I ask him again for a shrine sergeant mission.
-我告诉凯，我不打算去阿莎·艾赫卵矿场猎杀女巫塞尔萨·德拉尔。他很失望，让我至少一天之内不要回来。他让我先决定自己是否真心为帝国教团服务，然后再向他请求圣祠军士任务。 {帝国人}
+我告诉凯，我不打算去阿莎-艾赫卵矿场猎杀女巫塞尔萨·德拉尔。他很失望，让我至少一天之内不要回来。他让我先决定自己是否真心为帝国教团服务，然后再向他请求圣祠军士任务。 {帝国人}
 
 > INFO.NAME ic3_willow_not 699141121260626785
 Imperial Cult: Gathering Willow Anther
@@ -12250,7 +12250,7 @@ I reported the honorable execution of Larrius Varro.
 
 > INFO.NAME tg_ss_enamor 30395195041156017584
 Thieves Guild: Bal Molagmer, Enamor
-盗贼公会：巴尔·莫拉格穆尔，倾赖之刃
+盗贼公会：巴尔-莫拉格穆尔，倾赖之刃
 
 > INFO.NAME tg_ss_enamor 2219630828870221827
 Gentleman Jim Stacey asked me to return the stolen sword "Enamor" to Salyn Sarethi's personal chest in the Buoyant Armiger barracks in Ghostgate along with a note.
@@ -14378,11 +14378,11 @@ Imperial Cult: Thelsa Dral the Witch
 
 > INFO.NAME ic17_witch 27522936290266414
 Kaye has asked me to go to Asha-Ahhe Egg Mine and hunt for a witch named Thelsa Dral. When I am sure she is dead, I should return and report to Kaye.
-凯让我去阿莎·艾赫卵矿场追捕一个名叫塞尔萨·德拉尔的女巫。当我确定她已经死了，就应该回来向凯报告。
+凯让我去阿莎-艾赫卵矿场追捕一个名叫塞尔萨·德拉尔的女巫。当我确定她已经死了，就应该回来向凯报告。
 
 > INFO.NAME ic17_witch 127762429551088529
 I told Kaye that I found the witch Thelsa Dral in Asha-Ahhe Egg Mine, and made sure she was dead. Kaye seemed glad to see me back safe. He gave me a firestone ring and told me to speak to him again when I am ready for another mission.
-我告诉凯，我在阿莎-艾赫卵矿场找到了女巫塞尔萨·德拉尔，并确定她已经死了。凯似乎很高兴看到我平安归来。他给了我一枚火石戒指，并告诉我，等我准备好执行另一个任务时，再和他联系。 {阿莎·艾赫卵矿场}
+我告诉凯，我在阿莎-艾赫卵矿场找到了女巫塞尔萨·德拉尔，并确定她已经死了。凯似乎很高兴看到我平安归来。他给了我一枚火石戒指，并告诉我，等我准备好执行另一个任务时，再和他联系。
 
 > INFO.NAME ms_lookout 2024172433201029280
 Fargoth's Hiding Place
@@ -24492,7 +24492,7 @@ Why, thank you! I'm sure this will do the trick. Let's get going; I'll follow yo
 
 > INFO.NAME greeting 1 220201511328839224
 Yes, we are going together to Ald Daedroth, where we will see if you have made it safe for the Ahemmusa. I will accompany you until we stand before the great statue, where we will speak further.
-是的，我们要一起去奥德迪德拉斯，在那里我们要看看你是否让阿希穆萨兽安全了。我会一直陪着你，直到我们站在大雕像前，在那里我们将进一步交谈。 {魔鳄兽}
+是的，我们要一起去奥德-迪德拉斯，在那里我们要看看你是否让阿希穆萨兽安全了。我会一直陪着你，直到我们站在大雕像前，在那里我们将进一步交谈。 {魔鳄兽}
 
 > INFO.NAME greeting 1 22810173202018316646
 You've spoken to the archcanon? Good. Then, is there anything else you want?
