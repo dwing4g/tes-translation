@@ -1,0 +1,75 @@
+************************************************************************************************
+FAQ for MWSE Graphic Herbalism
+************************************************************************************************
+Q. Is it compatible with Morrowind Rebirth?
+A.	Yes. Install the GH meshes AFTER Rebirth.
+
+Q. Is it compatible with OpenMW?
+A.	Yes! You'll need the lasted nightly release for native Graphic Herbalism. You only need the meshes, not the main MWSE mod.
+
+Q. Is it compatible with other Herbalism mods or older Graphic Herbalism patches?
+A.	No, it's not compatible with scripted plants, so uninstall all old GH patches and add-ons.
+
+Q. What about Graphic Herbalism Extra?
+A.	An MWSE version is being planned for a future update. The old GH Extra isn't compatible with this mod.
+
+Q. Can I use the old Graphic Herbalism meshes with this mod?
+A.	No, the old meshes don't have the required switchnodes.
+
+Q. Is it compatible with Pearls Enhanced?
+A. 	YES! More than the old GH ever was. No patches necessary.
+
+Q. Is it compatible with Happy Harvesting?
+A.	Happy Harvesting is included in this mod, so it's no longer necessary, but it won't break anything.
+
+Q. Is it compatible with Quickloot?
+	If you're talking about mort's lua Quickloot, yes the latest version is compatible. Older versions of Quickloot cause problems.
+
+Q. Is it compatible with Immersive Mining?
+A.	No, but eventually we're going to roll that into a new gameplay harvesting mod that's designed to work with this one.
+
+Q. Is is compatible with Diverse UV Correct Ore?
+A.	Yes, UV Correct Ore was used as the base for this mod. A patched version of the Diverse UV Correct Ore esp is included in the Patches and Replacers archive. Use it instead of the original mod.
+
+Q. Is is compatible with Morrowind Optimization Patch?
+A.	MOP was used as the base for this mod. Load the vanilla GH meshes after installing MOP.
+
+Q. Are there Epic Plants versions?
+A.	I gave Articus a huge package of converted meshes, which he'll be hosting and maintaining on the Epic Plants download page.
+	The smoothed mesh folder contains some meshes already used in Epic Plants, and his textures are compatible with all of them (and Pherim's fire fern). Consider these slightly less high poly alternatives to Epic's if you're performance is lagging.
+
+Q. Can it be used with texture replacers for the old Graphic Herbalism?
+A.	Yes, they have the same file names as the old GH textures. If you know of any decent ones, let me know and I'll link them.
+
+Q. Is it compatible with Animated Containers?
+A.	AC will override kollop behavior because GH ignores scripted containers. If they're whitelisted, they'll function like GH containers instead.
+
+Q. Is it compatible with Expanded Sounds?
+A.	Flora with ES scripts have been whitelisted because they don't use the OnActivate function, so it's compatible.
+
+************************************************************************************************
+Troubleshooting (MWSE Only) - for OpenMW troubleshooting, please contact the OpenMW devs.
+************************************************************************************************
+
+Q. I get an error message saying MWSE is out of date when I load Morrowind.
+A.	Run the MWSE-Update.exe in your main Morrowind folder. If it's not there, reinstall it from MWSE 2.1 dev: https://nullcascade.com/mwse/mwse-dev.zip
+
+Q. I'm missing textures.
+A.	1. Make sure the base Graphic Herbalism textures are installed.
+ 	2. Make sure the optional meshes you chose don't require textures from mods you didn't install.
+
+Q. The container acts like a regular container, not a GH container.
+	1. Try whitelisting the container. If whitelisting makes it function, that means it was scripted by another mod.
+	2. Be aware that whitelisting containers can break mods if they use the OnActivate function.
+	3. If it doesn't show up on the whitelist, that means the container is not flagged as organic.
+	4. Check your mods for that container reference, and if it's not organic like it should be, you can check it off in the CS and resave the mod - or ask the modder to fix it.
+
+Q. I can harvest the container but there's no change graphically.
+A.	1. Check your meshes folders to make sure the container mesh contains the switch node HerbalismSwitch.
+	2. Reinstall the GH mesh. If you're using a replacer, patches for most replacers are in the separate GH Patches and Replacers download.
+	3. If mesh still doesn't have the right switch node, make a request or bug report to me to fix or add that mesh.
+	4. If the mesh comes from another mod, and they DO support the new Graphic Herbalism, make a bug report to them.
+	5. If the modder is no longer active, go ahead and make a request for me to patch it. I am handling TR and PT, so go ahead and tell me if I missed any.
+
+Q. The tooltip is not behaving as expected.
+A.	Another lua mod could be interfering with GH's behavior. Check for any lua mods that deal with tooltips or containers, update them if necessary, and otherwise report any conflicts to us.
