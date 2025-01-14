@@ -217,11 +217,11 @@ local hitChanceWidget = ui.create {
 }
 
 local function updateWidgetStyle()
-	if settings.hitChance:get('SMEhitChanceWidget') == 'Percent' then
+	if settings.hitChance:get('SMEhitChanceWidget') == '百分比' then
         hitChanceWidget.layout.content = hitChanceWidgetPercent
-	elseif settings.hitChance:get('SMEhitChanceWidget') == 'Circle' then
+	elseif settings.hitChance:get('SMEhitChanceWidget') == '圆圈' then
 		hitChanceWidget.layout.content = hitChanceWidgetCircle
-	elseif settings.hitChance:get('SMEhitChanceWidget') == 'Scale' then
+	elseif settings.hitChance:get('SMEhitChanceWidget') == '比例尺' then
 		hitChanceWidget.layout.content = hitChanceWidgetScale
 	end
 end

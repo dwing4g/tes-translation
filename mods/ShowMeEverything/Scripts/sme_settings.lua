@@ -5,75 +5,75 @@ local async = require('openmw.async')
 I.Settings.registerPage {
     key = "SMESettingsBehavior",
     l10n = "SMESettingsBehavior",
-    name = "Show Me Everything: Actor UI",
-    description = "Behavior settings for the widget."
+    name = "显示一切：角色UI",
+    description = "小部件的表现设置。"
 }
 
 I.Settings.registerPage {
     key = "SMESettingsStyle",
     l10n = "SMESettingsStyle",
-    name = "Show Me Everything: Visual",
-    description = "Style settings for the widget."
+    name = "显示一切：可视化",
+    description = "小部件的样式设置。"
 }
 
 I.Settings.registerPage {
     key = "SMEhitChance",
     l10n = "SMEhitChance",
-    name = "Show Me Everything: Hit Chance",
-    description = "Hit chance widget. Base of the code and idea by Safeicus Boxius."
+    name = "显示一切：命中率",
+    description = "命中率小部件。基于Safeicus Boxius的代码和思想。"
 }
 
 I.Settings.registerGroup({
     key = 'SMESettingsBh', 
     page = 'SMESettingsBehavior',
     l10n = 'SMESettingsBehavior',
-    name = 'Behavior',
+    name = '可视化',
     permanentStorage = true,
     settings = {
         {
             key = "SMEisActive",
             renderer = "checkbox",
-            name = "Modification is enabled",
+            name = "允许修改",
             description =
-            "Uncheck to disable Show Me Everything widget. This setting controls whether the modification is active or not.",
+            "取消选中可禁用显示一切的小部件。此设置用于控制和修改是否处于活动状态。",
             default = true
         },
         {
             key = "SMEClass",
             renderer = "checkbox",
-            name = "Show NPC class",
+            name = "显示NPC职业",
             description =
-            "If enabled, the widget will show the class of the NPC.",
+            "如果启用，小部件将显示NPC的职业。",
             default = true
         },
         {
             key = 'SMELevel',
             renderer = "checkbox",
-            name = "Show NPC level",
+            name = "显示NPC等级",
             description =
-            "If enabled, the widget will show the level of the NPC.",
+            "如果启用，小部件将显示NPC的等级。",
             default = true
         },
         {
             key = 'SMEHealth',
             renderer = "checkbox",
-            name = "Show NPC health values",
+            name = "显示NPC血条",
             description =
-            "If enabled, the widget will show the health values of the NPC.",
+            "如果启用，小部件将显示NPC的血条。",
             default = true
         },
         {
             key = 'SMEDamage',
             renderer = "checkbox",
-            name = "Show damage widget",
+            name = "显示伤害数值小部件",
             description =
-            "If enabled, every time you attack an NPC, damage values will be shown.",
+            "如果启用，每次攻击NPC时，伤害数值都会显示出来。",
             default = true
         },
         {
             key = 'SMERaycastLength',
-            name = 'Raycast length',
-            description = 'Controls the length of the Raycast. Higher values will let you pick farther targets but may cost you some performance. Default is 3000, values are from 1000 to 6000.',
+            name = '光线投射长度',
+            description = '设置光线投射的长度。更高的值可以让你选择更远的目标，但可能会损失一些性能。默认值为3000，取值范围为1000 ~ 6000。',
             default = 3000,
             renderer = 'number',
             argument = {
@@ -84,8 +84,8 @@ I.Settings.registerGroup({
         },
         {
             key = 'SMEShowDistance',
-            name = 'Widget display distance',
-            description = 'Controls the distance at which the widget will be displayed when looking at actors. Set to 192 for a display range similar to the vanilla game on activation. Values are from 192 to 1000.',
+            name = '小部件显示距离',
+            description = '设置小部件在注视角色时才会显示的距离。设置为192，显示范围类似原版游戏的激活距离。取值介于192到1000之间。',
             default = 500,
             renderer = 'number',
             argument = {
@@ -97,25 +97,25 @@ I.Settings.registerGroup({
         {
             key = 'SMEStance',
             renderer = "checkbox",
-            name = "Only show in combat stance",
+            name = "只在战斗状态显示",
             description =
-            "If enabled, the widget logic will be working in the background, but the widget will only be shown when you are in a combat stance or someone in the focus is taking damage.",
+            "如果启用，小部件程序将在后台工作，但只有当你处于战斗状态或注视的人受到伤害时，小部件才会显示。",
             default = false
         },
         {
             key = 'SMEonHit',
             renderer = "checkbox",
-            name = "Only show on damage",
+            name = "只在命中后显示",
             description =
-            "If enabled, the widget will only be shown when you hit an actor and deal damage to them. Overrides the previous setting",
+            "如果启用，该小部件将只在您击中角色并对其造成伤害时显示。覆盖之前的设置",
             default = false
         },
         {
             key = 'SMEnotForDead',
             renderer = "checkbox",
-            name = "Show the widget for dead actors",
+            name = "小部件显示死亡角色",
             description =
-            "If disabled, all dead actors will be ignored and widget will be shown only for alive (or undead) ones.",
+            "若被禁用，所有死去的角色都将被忽略，并且小部件将只显示活着（或是不死）的角色。",
             default = true
         },
     },
@@ -125,19 +125,19 @@ I.Settings.registerGroup({
     key = 'SMESettingsSt', 
     page = 'SMESettingsStyle',
     l10n = 'SMESettingsStyle',
-    name = 'Visuals',
+    name = '可视化',
     permanentStorage = true,
     settings = {
         {
             key = 'SMEWidgetStyle',
-            name = 'Visual preset for the widget',
-            description = 'Here you can choose one of two presets for the widget.',
-            default = 'Vanilla', 
+            name = '小部件的可视化预设',
+            description = '在这里，您可以为小部件选择两种预设中的一种。',
+            default = '原版风格', 
             renderer = 'select',
             argument = {
                 disabled = false,
                 l10n = 'LocalizationContext', 
-                items = {'Vanilla', 'Skyrim', 'Sky Nostalgy', 'Flat', 'Minimal Vanilla', 'Sixth House'},
+                items = {'原版风格', '天际风格', 'ESO风格', '简约平面风格', '原版极简风格', '第六家族风格'},
             },
         },
     },
@@ -147,35 +147,35 @@ I.Settings.registerGroup({
     key = 'SMEHitChanceSettings', 
     page = 'SMEhitChance',
     l10n = 'SMEhitChance',
-    name = 'Hit Chance widget settings.',
+    name = '命中率小部件设置',
     permanentStorage = true,
     settings = {
         {
             key = "hitChanceIsActive",
             renderer = "checkbox",
-            name = "Hit Chance indicator switch",
+            name = "命中率指示开关",
             description =
-            "Uncheck to disable Hit Chance indicator. This setting controls whether the indicator will be shown or not.",
+            "取消选中以禁用命中率指示。此设置控制指示器是否显示。",
             default = true
         },
         {
             key = 'SMEhitChanceWidget',
-            name = 'Visual preset for the Hit Chance widget',
-            description = 'Here you can choose one of several presets for the widget.',
-            default = 'Percent',
+            name = '命中率小部件可视化预设',
+            description = '在这里，您可以从几种预设小部件中选择一种。',
+            default = '百分比',
             renderer = 'select',
             argument = {
                 disabled = false,
                 l10n = 'LocalizationContext', 
-                items = {'Percent', 'Circle', 'Scale'},
+                items = {'百分比', '圆圈', '比例尺'},
             },
         },
         {
             key = "SMEhitChanceReticle",
             renderer = "checkbox",
-            name = "Hit Chance colored reticle",
+            name = "命中率彩色准心",
             description =
-            "If enabled, the reticle will be colored accordingly to the hit chance.",
+            "如果启用，准心将会根据命中率显示相应的颜色。",
             default = false
         },
     },
@@ -202,7 +202,7 @@ local function disableModification()
     I.Settings.updateRendererArgument('SMESettingsBh', 'SMEnotForDead', {disabled = disabled})
     I.Settings.updateRendererArgument('SMESettingsBh', 'SMERaycastLength', {disabled = disabled})
     I.Settings.updateRendererArgument('SMESettingsBh', 'SMEShowDistance', {disabled = disabled})
-    I.Settings.updateRendererArgument('SMESettingsSt', 'SMEWidgetStyle', {disabled = disabled, l10n = 'randomValue', items = {'Vanilla', 'Skyrim', 'Sky Nostalgy', 'Flat', 'Minimal Vanilla', 'Sixth House'}})
+    I.Settings.updateRendererArgument('SMESettingsSt', 'SMEWidgetStyle', {disabled = disabled, l10n = 'randomValue', items = {'原版风格', '天际风格', 'ESO风格', '简约平面风格', '原版极简风格', '第六家族风格'}})
     
     
 end
@@ -210,7 +210,7 @@ end
 local function disableHitChance()
     local disabled = not settings.hitChance:get('hitChanceIsActive')
     I.Settings.updateRendererArgument('SMEHitChanceSettings', 'SMEhitChanceReticle', {disabled = disabled})
-    I.Settings.updateRendererArgument('SMEHitChanceSettings', 'SMEhitChanceWidget', {disabled = disabled, l10n = 'randomValue', items = {'Percent', 'Circle', 'Scale'}})
+    I.Settings.updateRendererArgument('SMEHitChanceSettings', 'SMEhitChanceWidget', {disabled = disabled, l10n = 'randomValue', items = {'百分比', '圆圈', '比例尺'}})
     
     
 end
