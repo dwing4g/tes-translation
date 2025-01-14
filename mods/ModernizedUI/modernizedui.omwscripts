@@ -1,0 +1,4 @@
+PLAYER: scripts/ui.lua
+PLAYER: scripts/clock.lua
+PLAYER: scripts/gold.lua
+NPC, CREATURE: scripts/combat.lua

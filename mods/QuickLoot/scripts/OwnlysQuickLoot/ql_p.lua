@@ -57,6 +57,10 @@ local organicContainers = {
 modEnabled = true
 modDisableFlags = {}
 local shiftPressed = false
+local layerId = ui.layers.indexOf("HUD")
+local width = ui.layers[layerId].size.x 
+local screenres = ui.screenSize()
+local uiScale = screenres.x / width
 
 function updateModEnabled()
 	local tempState = true
@@ -172,7 +176,7 @@ function drawUI()
 	})
 	local screenAspectRatio = ui.screenSize()
 	local textSizeMult = screenAspectRatio.y /1200*(uiSize.y/0.4)
-	local headerFooterScale = (textSizeMult^0.5)/textSizeMult
+	local headerFooterScale = (textSizeMult^0.5)/textSizeMult*uiScale
 	textSizeMult = textSizeMult^0.5
 	textSizeMult=textSizeMult*playerSection:get("textSizeMult")/100
 	headerFooterScale = headerFooterScale*playerSection:get("textSizeMult")/100
@@ -203,7 +207,7 @@ function drawUI()
 		props = {
 			position = v2(0, 0),
 			relativeSize  = v2(1,headerFooterHeight),
-			relativePosition = v2(0 + captionOffset, 0),
+			relativePosition = v2(0 + captionOffset, 0.011),
 			anchor = v2(0,0),
 			horizontal = true,
 		},
@@ -236,7 +240,7 @@ function drawUI()
 				tileV = false,
 				position = v2(0, 0),
 				--relativeSize  = v2(1,1),
-				size = v2(hudLayerSize.y*uiSize.y*headerFooterHeight*0.9,hudLayerSize.y*uiSize.y*headerFooterHeight*0.9),
+				size = v2(hudLayerSize.y*uiSize.y*headerFooterHeight*0.88,hudLayerSize.y*uiSize.y*headerFooterHeight*0.88),
 				alpha = 0.8,
 			}
 		})
@@ -814,13 +818,23 @@ function closeHud()
 	end
 end
 
-
+function stahlrimCheck(cont)
+	if not (cont.recordId:find("contain_bm_stalhrim")) then
+		return true
+	end
+	playerItems = types.Container.inventory(self):getAll()
+	for a,b in pairs(playerItems) do
+		if b.recordId == "bm nordic pick" then
+			return true
+		end
+	end
+	return false
+end
 
 function onFrame(dt)
 	if inspectedContainer and  core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
 		types.Actor.setStance(self, types.Actor.STANCE.Nothing)
 	end
-	
  --self.controls.use = 0
 	if not modEnabled then
 		return
@@ -876,6 +890,7 @@ function onFrame(dt)
 	)	
 	and not types.Lockable.isLocked(res.hitObject)
 	and not types.Lockable.getTrapSpell(res.hitObject)
+	and stahlrimCheck(res.hitObject)
 	then
 		if not types.Container.inventory(res.hitObject):isResolved() then
 			core.sendGlobalEvent("OwnlysQuickLoot_resolve",res.hitObject)

@@ -37,7 +37,7 @@ QuickLoot_openAnimation = function(player)
 		else
 			animation.playBlended(self, 'containeropen',{priority  = 9999,startPoint = tempTime, startKey ="start", stopKey = "stop",autoDisable =false})
 		end
-		currentTime = animation.getCurrentTime(self, "containeropen")
+		currentTime = animation.getCurrentTime(self, "containeropen") -- math.max(tempTime,0.0001) --- BUG 1.5 (not critical i think)
 	end
 	inspectors[player.id] = true
 	active = true
