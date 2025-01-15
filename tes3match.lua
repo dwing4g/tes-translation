@@ -54,7 +54,7 @@ for _, ext in ipairs(exts) do
 	local n = 0
 	loadExt(ext, function(k, e, c)
 		local _, ne = e:lower():gsub(me, me)
-		local _, nc = c:lower():gsub(mc, mc)
+		local _, nc = c:lower():gsub("{[^}]-}%s*$", ""):gsub(mc, mc)
 		if ne ~= nc and c ~= "###" then
 			n = n + 1
 			write("---", k, "\n")
