@@ -396,141 +396,140 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 	newLine = true
 end
 
-local texts, ignoreKeys = {}, {}
-for _, filename in ipairs(src_filenames) do
-	local f = io.open(filename, "rb")
-	if f then f:close() else filename = "../" .. filename end
-	loadTexts(filename, texts, topicMap, ignoreKeys)
-end
-local checkTexts = {}
-for _, filename in ipairs(dst_filenames) do
-	loadTexts(filename[1], checkTexts, checkTopicMap, ignoreKeys)
-end
+local function loadFile(src_filename, dst_filename)
+	local texts, ignoreKeys = {}, {}
+	local f = io.open(src_filename, "rb")
+	if f then f:close() else src_filename = "../" .. src_filename end
+	loadTexts(src_filename, texts, topicMap, ignoreKeys)
+	local checkTexts = {}
+	loadTexts(dst_filename, checkTexts, checkTopicMap, ignoreKeys)
 
-local function findTopics(texts, matches, topicTree, topicMap, ignoreKeys) -- "INFO.INAM @ DIAL.NAME" => { topics }
-	for key, text in pairs(texts) do
-		local t, oldFixes = text:match "^(.-)%s*({[^{}]*})%s*$"
-		if t then
-			text = t
-		end
-		local topics = {}
-		local i, j, n = 1, 1, #text
-		local curNode = topicTree
-		text = text:lower()
-		while j <= n do
-			local c = sub(text, i, i)
-			local nextNode = curNode[c]
-			if nextNode then
-				curNode = nextNode
-				if curNode[0] and (i >= n or curNode[0]:find "%W" or sub(text, i + 1, i + 4):find "%W") then
-					topics[#topics + 1] = curNode[0]
-				end
-				i = i + 1
-			elseif sub(text, j, j):find "%w" then
-				j = text:find("%W", j + 1) or n + 1
-				i = j
-				curNode = topicTree
-			else
-				j = j + 1
-				i = j
-				curNode = topicTree
+	local function findTopics(texts, matches, topicTree, topicMap, ignoreKeys) -- "INFO.INAM @ DIAL.NAME" => { topics }
+		for key, text in pairs(texts) do
+			local t, oldFixes = text:match "^(.-)%s*({[^{}]*})%s*$"
+			if t then
+				text = t
 			end
+			local topics = {}
+			local i, j, n = 1, 1, #text
+			local curNode = topicTree
+			text = text:lower()
+			while j <= n do
+				local c = sub(text, i, i)
+				local nextNode = curNode[c]
+				if nextNode then
+					curNode = nextNode
+					if curNode[0] and (i >= n or curNode[0]:find "%W" or sub(text, i + 1, i + 4):find "%W") then
+						topics[#topics + 1] = curNode[0]
+					end
+					i = i + 1
+				elseif sub(text, j, j):find "%w" then
+					j = text:find("%W", j + 1) or n + 1
+					i = j
+					curNode = topicTree
+				else
+					j = j + 1
+					i = j
+					curNode = topicTree
+				end
+			end
+			if ignoreKeys[key] then
+				topics = {}
+			end
+			matches[key] = topics
 		end
-		if ignoreKeys[key] then
-			topics = {}
-		end
-		matches[key] = topics
 	end
-end
 
-local function dumpMatchTexts(matches, texts)
+	local function dumpMatchTexts(matches, texts)
+		for key, topics in pairs(matches) do
+			for _, topic in ipairs(topics) do
+				write("[", topic, "] ")
+			end
+			write("=> ", texts[key]:gsub("\r", "\\r"):gsub("\n", "\\n"), "\n")
+		end
+	end
+
+	local matches = {}
+	findTopics(texts, matches, topicTree, topicMap, ignoreKeys)
+	local checkMatches = {}
+	findTopics(checkTexts, checkMatches, checkTopicTree, checkTopicMap, ignoreKeys)
+	-- dumpMatchTexts(matches, texts)
+	-- dumpMatchTexts(checkMatches, checkTexts)
+
+	local fixedTexts = {}
+	local n1, n2 = 0, 0
 	for key, topics in pairs(matches) do
-		for _, topic in ipairs(topics) do
-			write("[", topic, "] ")
-		end
-		write("=> ", texts[key]:gsub("\r", "\\r"):gsub("\n", "\\n"), "\n")
-	end
-end
-
-local matches = {}
-findTopics(texts, matches, topicTree, topicMap, ignoreKeys)
-local checkMatches = {}
-findTopics(checkTexts, checkMatches, checkTopicTree, checkTopicMap, ignoreKeys)
--- dumpMatchTexts(matches, texts)
--- dumpMatchTexts(checkMatches, checkTexts)
-
-local fixedTexts = {}
-local n1, n2 = 0, 0
-for key, topics in pairs(matches) do
-	local inam, topic = key:match "^(%S+) @ (.+)$"
-	if not inam then error("ERROR: invalid key: " .. key) end
-	local checkTopic = topicPairs[topic]
-	if not checkTopic then checkTopic = dials[topic] and topic end
-	if not checkTopic then error("ERROR: not found topic in topicPairs: [" .. topic .. "]") end
-	local checkKey = inam .. " @ " .. checkTopic
-	local checkTopics = checkMatches[checkKey]
-	if not checkTopics then
-		write("========== NOT FOUND KEY '", checkKey, "':\n")
-		write(texts[key], "\n\n")
-		n1 = n1 + 1
-	else
-		local notFounds = {}
-		for _, topic in ipairs(topics) do
-			local found
-			local checkTopic = topicPairs[topic]
-			if checkTopic then
-				for _, t in ipairs(checkTopics) do
-					if checkTopic == t then
-						found = true
-						break
+		local inam, topic = key:match "^(%S+) @ (.+)$"
+		if not inam then error("ERROR: invalid key: " .. key) end
+		local checkTopic = topicPairs[topic]
+		if not checkTopic then checkTopic = dials[topic] and topic end
+		if not checkTopic then error("ERROR: not found topic in topicPairs: [" .. topic .. "]") end
+		local checkKey = inam .. " @ " .. checkTopic
+		local checkTopics = checkMatches[checkKey]
+		if not checkTopics then
+			write("========== NOT FOUND KEY '", checkKey, "':\n")
+			write(texts[key], "\n\n")
+			n1 = n1 + 1
+		else
+			local notFounds = {}
+			for _, topic in ipairs(topics) do
+				local found
+				local checkTopic = topicPairs[topic]
+				if checkTopic then
+					for _, t in ipairs(checkTopics) do
+						if checkTopic == t then
+							found = true
+							break
+						end
 					end
 				end
-			end
-			if not found and not notFounds[topic] then
-				notFounds[topic] = checkTopic
-				notFounds[#notFounds + 1] = checkTopic
-			end
-		end
-		local checkText = checkTexts[checkKey]
-		if #notFounds > 0 then
-			write("========== TOPIC UNMATCHED '", checkKey, "':\n")
-			write(texts[key])
-			write "\n---------- topics:"
-			for _, topic in ipairs(topics) do
-				if notFounds[topic] then
-					write(" [", topic, "]=>[", notFounds[topic], "]")
-				else
-					write(" [", topic, "]")
+				if not found and not notFounds[topic] then
+					notFounds[topic] = checkTopic
+					notFounds[#notFounds + 1] = checkTopic
 				end
 			end
-			write "\n---------- topics:"
-			for _, topic in ipairs(checkTopics) do
-				write(" [", topic, "]")
-			end
-			write("\n", checkText, "\n\n")
-			local t = checkText:match "^(.-)%s*{[^{}]*}%s*$"
-			if t then
-				checkText = t
-			end
-			t = { checkText, " {" }
-			for _, checkTopic in ipairs(notFounds) do
-				t[#t + 1] = checkTopic
-				t[#t + 1] = ","
-			end
-			t[#t] = "}"
-			fixedTexts[checkKey] = concat(t)
-			n2 = n2 + 1
-		elseif ignoreKeys[checkKey] then
-			local t = checkText:match "^(.-)%s*{[^{}]*}%s*$"
-			if t then
-				fixedTexts[checkKey] = t
+			local checkText = checkTexts[checkKey]
+			if #notFounds > 0 then
+				write("========== TOPIC UNMATCHED '", checkKey, "':\n")
+				write(texts[key])
+				write "\n---------- topics:"
+				for _, topic in ipairs(topics) do
+					if notFounds[topic] then
+						write(" [", topic, "]=>[", notFounds[topic], "]")
+					else
+						write(" [", topic, "]")
+					end
+				end
+				write "\n---------- topics:"
+				for _, topic in ipairs(checkTopics) do
+					write(" [", topic, "]")
+				end
+				write("\n", checkText, "\n\n")
+				local t = checkText:match "^(.-)%s*{[^{}]*}%s*$"
+				if t then
+					checkText = t
+				end
+				t = { checkText, " {" }
+				for _, checkTopic in ipairs(notFounds) do
+					t[#t + 1] = checkTopic
+					t[#t + 1] = ","
+				end
+				t[#t] = "}"
+				fixedTexts[checkKey] = concat(t)
+				n2 = n2 + 1
+			elseif ignoreKeys[checkKey] then
+				local t = checkText:match "^(.-)%s*{[^{}]*}%s*$"
+				if t then
+					fixedTexts[checkKey] = t
+				end
 			end
 		end
 	end
-end
 
-errwrite("========== CHECK DONE ========== (", n1, " + ", n2, " errors)\n")
-newLine = true
+	errwrite("========== CHECK DONE ========== (", n1, " + ", n2, " errors)\n")
+	newLine = true
+	return fixedTexts
+end
 
 local function addEscape(s) -- for GBK
 	local t = {}
@@ -564,7 +563,7 @@ local function addEscape(s) -- for GBK
 	return concat(t)
 end
 
-local function fixTexts(src_filename, dst_filename)
+local function fixTexts(src_filename, dst_filename, fixedTexts)
 	errwrite("loading ", src_filename, " ... \n")
 	errwrite("creating ", dst_filename, " ... ")
 	newLine = false
@@ -649,10 +648,11 @@ local function fixTexts(src_filename, dst_filename)
 	newLine = true
 end
 
-if next(fixedTexts) then
-	for _, filename in ipairs(dst_filenames) do
-		if filename[2] then
-			fixTexts(filename[1], filename[2])
+for i, filename in ipairs(dst_filenames) do
+	if filename[2] then
+		local fixedTexts = loadFile(src_filenames[i], filename[1])
+		if next(fixedTexts) then
+			fixTexts(filename[1], filename[2], fixedTexts)
 		end
 	end
 end
