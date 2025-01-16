@@ -28572,7 +28572,7 @@ End yarnarScript"
  INFO.PNAM "198453903789617738$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "我与德拉斯·吉鲁交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。"
+ INFO.NAME "我与德拉拉斯·吉鲁交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。"
 -DIAL
  DIAL.NAME "A1_Sleepers_Vivyne$00"
  DIAL.DATA [04]
@@ -93316,7 +93316,7 @@ set MatchMakeGoval to 1"
  INFO.NNAM "16883306561578722884$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Sunel Hlas$00"
- INFO.NAME "什么意思，%PCRace？你觉得有谁能比得上我的达拉萨？"
+ INFO.NAME "什么意思，%PCRace？你觉得有谁能比得上我的德拉拉萨？"
  INFO.SCVR "04JX3MS_MatchMaker"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "12sX0MatchMakeSunel"
@@ -93328,7 +93328,7 @@ set MatchMakeGoval to 1"
  INFO.NNAM "1311926099916019034$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Sunel Hlas$00"
- INFO.NAME "什么意思，%PCRace？你觉得有谁能比得上我的达拉萨？"
+ INFO.NAME "什么意思，%PCRace？你觉得有谁能比得上我的德拉拉萨？"
  INFO.SCVR "04JX4MS_MatchMaker"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "12sX0MatchMakeSunel"

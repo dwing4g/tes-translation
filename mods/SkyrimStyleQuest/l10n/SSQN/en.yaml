@@ -1,0 +1,42 @@
+text_queststart: "Quest Started:"
+text_questfin: "Quest Finished:"
+
+settings_modName: "Skyrim Style Quest Notifications"
+
+settings_modDesc: "OpenMW version by Taitechnic\t\tv1.28
+\noriginal MWSE mod by Nazz.\n\nThis mod notifies you when you start or finish a quest.
+ The idea is to mimic the quest notifications from Skyrim, hence the name."
+
+settings_modCategory1_name: "Preferences"
+settings_modCategory1_setting01_name: "Enable Start/Finish Quest Notifications"
+settings_modCategory1_setting01a_name: "Show Quest Notification Icon"
+settings_modCategory1_setting02_name: "Transparent Notification Banner"
+
+settings_modCategory1_setting03_name: "Position of Notification Banner on screen"
+settings_modCategory1_setting03_desc: "Horizontal position 0.0 = left edge, 1.0 = right edge"
+
+settings_modCategory1_setting04_name: ""
+settings_modCategory1_setting04_desc: "Vertical position 0.0 = top edge, 1.0 = bottom edge"
+
+settings_modCategory1_setting05_name: "How long to display notification (seconds)"
+
+settings_modCategory1_setting06_name: "Notification Sound Start"
+settings_modCategory1_setting06_desc: "Select the sound to be played when the Start Quest
+ notification appears. Selecting None silences the notification\n\nDefault: Skyrim Quest"
+
+settings_modCategory1_setting07_name: "Custom Sound File"
+settings_modCategory1_setting07_desc: "File path in Sound\\ folder, include extension."
+
+settings_modCategory1_setting08_name: "Notification Sound Finish"
+settings_modCategory1_setting08_desc: "Select the sound to be played when the Finish Quest
+ notification appears.\n\nDefault: Skyrim Quest"
+
+settings_modCategory1_setting09_name: "Custom Sound File"
+settings_modCategory1_setting10_name: "Quest Update Sound"
+settings_modCategory1_setting10_desc: "Select the sound to be played when a Quest stage advances.
+\n\nDefault: Journal Update"
+
+settings_modCategory1_setting11_name: "Custom Sound File"
+settings_modCategory1_setting12_name: "Run notification banner test mode"
+
+

@@ -1,0 +1,4 @@
+MENU: FloatingHealthbars_scripts/HPBars_m.lua
+GLOBAL: FloatingHealthbars_scripts/HPBars_g.lua
+PLAYER: FloatingHealthbars_scripts/HPBars_p.lua
+NPC, CREATURE: FloatingHealthbars_scripts/HPBars_nc.lua
