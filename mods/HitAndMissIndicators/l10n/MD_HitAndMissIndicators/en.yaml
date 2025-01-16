@@ -1,0 +1,12 @@
+name: "Hit & Miss Indicators"
+description:
+  Enabling hit & miss indicators to provide players feedback for when a swing hits/misses and the damage/odds of the swing
+
+Miss Indicator: Miss Indicator
+Hit Indicator: Hit Indicator
+Punch Indicator: Punch Indicator
+Enabled: Enabled
+Color: Color
+TextSize: Text Size
+Duration: Duration
+Speed: Speed
