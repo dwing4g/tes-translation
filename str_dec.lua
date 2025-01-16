@@ -11,11 +11,18 @@ f:close()
 local f = io.open(arg[2], "wb")
 local n = read4(s, 0)
 local b = 8 + n * 8
+local noLen = arg[1]:find "%.strings$"
 for i = 1, n do
 	local idx = read4(s, i * 8)
 	local pos = b + read4(s, i * 8 + 4)
-	local len = read4(s, pos)
-	f:write("<", idx, "> ", s:sub(pos + 5, pos + 4 + len):gsub("%z+$", ""), "\n")
+	local len
+	if noLen then
+		len = (s:find("%z", pos + 1) or #s) - (pos + 1)
+	else
+		len = read4(s, pos)
+		pos = pos + 4
+	end
+	f:write("<", idx, "> ", s:sub(pos + 1, pos + len):gsub("%z+$", ""), "\n")
 end
 
 f:close()
