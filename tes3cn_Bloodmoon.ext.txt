@@ -6118,7 +6118,7 @@ Reinhardt Red-Spear
 
 > NPC_.FNAM bm_bathmar
 Bathmar Bold-Lute
-巴斯玛·粗-琴
+巴斯玛·粗琴
 
 > NPC_.FNAM bm_bergljot
 Bergljot
@@ -8806,7 +8806,7 @@ I gave Ahnassi the Flamemirror Robe as a gift. I think she was impressed. In ret
 
 > INFO.NAME romance_ahnassi 2963431702149001105
 Ahnassi says that a friend has told her that the wizard Mavon Drenim has a Flamemirror Robe that he does not wear, but keeps in his clothes closet at the Telvanni Tower of the Telvanni Compound in Vivec. Ahnassi wants me to get this Flamemirror Robe and show it to her, to show her how smart I am.
-阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}
+阿娜西说，一个朋友告诉她，巫师梅文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}
 
 > INFO.NAME romance_ahnassi 515227887840326164
 I brought Ahnassi her two flowers -- one coda flower for Ahnassi, and one pretty gold kanet for me. Now she says it is my turn again to ask Ahnassi to share a gift.
@@ -12186,19 +12186,19 @@ I reported the honorable execution of Guril Retheran.
 
 > INFO.NAME mt_writmavon 347286791534521439
 Morag Tong: Writ for Mavon Drenim
-莫拉格堂：马文·德雷尼姆的令状
+莫拉格堂：梅文·德雷尼姆的令状
 
 > INFO.NAME mt_writmavon 1025124379160483116
 I have been given a Writ for the honorable execution of Mavon Drenim. He may be found at the Telvanni Tower in the Telvanni Plaza here in Vivec.
-我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。
+我收到了光荣处决梅文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。
 
 > INFO.NAME mt_writmavon 25968105362150119292
 I reported the honorable execution of Mavon Drenim.
-我报告了马文·德雷尼姆的光荣处决。
+我报告了梅文·德雷尼姆的光荣处决。
 
 > INFO.NAME mt_writmavon 172073493204830063
 I reported the honorable execution of Mavon Drenim.
-我报告了马文·德雷尼姆的光荣处决。
+我报告了梅文·德雷尼姆的光荣处决。
 
 > INFO.NAME mt_writbemis 144202246544019733
 Mages Guild: Writ for Mathyn Bemis
@@ -13738,7 +13738,7 @@ I met a woman who has lost her ring in a pond. She would like me to retrieve it 
 
 > INFO.NAME mv_lostring 272312912916702856
 After retrieving the ring for Synette Jeline, she and an accomplice began to attack me. It seems this was all a ruse to lure unwary travelers to their doom.
-为赛奈特·杰琳取回戒指后，她和一个同伙开始攻击我。看来这一切都是一个诡计，目的是引诱不明真相的旅行者自投罗网。
+为赛奈特·杰林取回戒指后，她和一个同伙开始攻击我。看来这一切都是一个诡计，目的是引诱不明真相的旅行者自投罗网。
 
 > INFO.NAME ic6_rat_not 3904215442478628325
 Imperial Cult: Gathering Rat Meat
@@ -14146,7 +14146,7 @@ Tuls Valen thanked me for being the instrument of the Temple's justice in Hassou
 
 > INFO.NAME mv_bastard 1091319211662118489
 Fjol the Outlaw
-不法之徒弗约
+不法之徒菲欧
 
 > INFO.NAME mv_bastard 10783138501037332306
 General Larrius Varro in Fort Moonmoth has warned me of a Nord Bandit who is accosting travelers somewhere near Hla Oad. I get the feeling he wouldn't mind if I could "take care" of this problem for him.
@@ -14154,11 +14154,11 @@ General Larrius Varro in Fort Moonmoth has warned me of a Nord Bandit who is acc
 
 > INFO.NAME mv_bastard 16328275922379743
 I paid Fjol the 100 gold.
-我给了弗约100金币。
+我给了菲欧100金币。
 
 > INFO.NAME mv_bastard 2653513048662924811
 I was able to kill Fjol and report my deeds to the general. He rewarded me with 100 gold.
-我得以杀死弗约，并向将军报告了我的事迹。他奖励了我100金币。 {报酬}
+我得以杀死菲欧，并向将军报告了我的事迹。他奖励了我100金币。 {报酬}
 
 > INFO.NAME tg_hostage 21487215421939825175
 Thieves Guild: Hrundi's Lover
@@ -21572,7 +21572,7 @@ You've committed a crime, vampire. Were you not an abomination, I might let you 
 
 > INFO.NAME greeting 1 20481194642735427051
 [You have failed your Oath of Silence]
-[你没能履行 “沉默誓言“]
+[你没能履行“沉默誓言”]
 
 > INFO.NAME greeting 1 310941559979747883
 The winds have whispered to me, %PCName. They have told me of your failure to enter Hrothmund's Barrow. In order to become chieftain of Thirsk, you needed to enter the barrow and grasp the axe of Hrothmund to receive his blessing. Now, that will never happen. This is a sad day. I fear Thirsk will never reopen.

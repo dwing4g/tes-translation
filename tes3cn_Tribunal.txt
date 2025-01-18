@@ -31523,7 +31523,7 @@ End yarnarScript"
  INFO.PNAM "12263212581999016524$00"
  INFO.NNAM "515227887840326164$00"
  INFO.DATA [04 00 00 00 55 00 00 00 FF FF FF 00]
- INFO.NAME "阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
+ INFO.NAME "阿娜西说，一个朋友告诉她，巫师梅文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
 -INFO
  INFO.INAM "515227887840326164$00"
  INFO.PNAM "2963431702149001105$00"
@@ -37937,27 +37937,27 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "1025124379160483116$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "莫拉格堂：马文·德雷尼姆的令状"
+ INFO.NAME "莫拉格堂：梅文·德雷尼姆的令状"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "1025124379160483116$00"
  INFO.PNAM "347286791534521439$00"
  INFO.NNAM "3162930890261978816$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。"
+ INFO.NAME "我收到了光荣处决梅文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。"
 -INFO
  INFO.INAM "25968105362150119292$00"
  INFO.PNAM "55472125040122412$00"
  INFO.NNAM "172073493204830063$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我报告了马文·德雷尼姆的光荣处决。"
+ INFO.NAME "我报告了梅文·德雷尼姆的光荣处决。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "172073493204830063$00"
  INFO.PNAM "25968105362150119292$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "我报告了马文·德雷尼姆的光荣处决。"
+ INFO.NAME "我报告了梅文·德雷尼姆的光荣处决。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MT_WritBemis$00"
@@ -40718,7 +40718,7 @@ End yarnarScript"
  INFO.PNAM "22595254102139731555$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "为赛奈特·杰琳取回戒指后，她和一个同伙开始攻击我。看来这一切都是一个诡计，目的是引诱不明真相的旅行者自投罗网。"
+ INFO.NAME "为赛奈特·杰林取回戒指后，她和一个同伙开始攻击我。看来这一切都是一个诡计，目的是引诱不明真相的旅行者自投罗网。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IC6_Rat_not$00"
@@ -41726,7 +41726,7 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "10783138501037332306$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "不法之徒弗约"
+ INFO.NAME "不法之徒菲欧"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "10783138501037332306$00"
@@ -41739,14 +41739,14 @@ End yarnarScript"
  INFO.PNAM "2940253672982512565$00"
  INFO.NNAM "2653513048662924811$00"
  INFO.DATA [04 00 00 00 69 00 00 00 FF FF FF 00]
- INFO.NAME "我给了弗约100金币。"
+ INFO.NAME "我给了菲欧100金币。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2653513048662924811$00"
  INFO.PNAM "16328275922379743$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "我得以杀死弗约，并向将军报告了我的事迹。他奖励了我100金币。 {报酬}"
+ INFO.NAME "我得以杀死菲欧，并向将军报告了我的事迹。他奖励了我100金币。 {报酬}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TG_Hostage$00"
@@ -61895,7 +61895,7 @@ Journal town_Vivec 5"
  INFO.NNAM "3175328762106929345$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "mevil molor$00"
- INFO.NAME "马文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。"
+ INFO.NAME "梅文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。"
  INFO.SCVR "04JX4MT_WritMavon"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -69758,7 +69758,7 @@ set DBAttack to -1"
  INFO.PNAM [00]
  INFO.NNAM "19137490125553988$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "[你没能履行 “沉默誓言“]"
+ INFO.NAME "[你没能履行“沉默誓言”]"
  INFO.SCVR "34JX3TT_SanctusShrine"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "44JX4TT_SanctusShrine"
