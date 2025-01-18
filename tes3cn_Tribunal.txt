@@ -19989,7 +19989,7 @@ End yarnarScript"
  CREA.NAME "ogrim titan_velas$00"
  CREA.MODL "r\Clannfear_Daddy.NIF$00"
  CREA.CNAM "ogrim$00"
- CREA.FNAM "巨型蠹虐食人魔$00"
+ CREA.FNAM "巨型奥格力姆$00"
  CREA.NPDT [01 00 00 00 0F 00 00 00 64 00 00 00 32 00 00 00 5A 00 00 00 32 00 00 00 14 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 DC 00 00 00 B4 00 00 00 E8 03 00 00 46 00 00 00 3C 00 00 00 5A 00 00 00 14 00 00 00 0C 00 00 00 28 00 00 00 0C 00 00 00 28 00 00 00 0C 00 00 00 28 00 00 00 00 00 00 00]
  CREA.FLAG [48 00 00 00]
  CREA.NPCO [01 00 00 00 72 61 6E 64 6F 6D 5F 64 61 65 64 72 61 5F 68 65 61 72 74 00 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -27726,7 +27726,7 @@ End yarnarScript"
  INFO.PNAM "224189315136662787$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我和真理之岩监狱的负责人谈过，我相信他会让我不受干扰地继续前进。"
+ INFO.NAME "我和真理部监狱的负责人谈过，我相信他会让我不受干扰地继续前进。"
 -DIAL
  DIAL.NAME "IC25_JonHawker_free$00"
  DIAL.DATA [04]
@@ -56406,7 +56406,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Vivec$00"
- INFO.NAME "维威克城很大，很容易迷路。但如果你遵守法律，就不会惹上大麻烦。我的建议是自由闲逛，熟悉附近的道路，看看工匠和贸易商都卖些什么。看看朝圣者来此的目的，真理之岩、至高神殿、维威克神殿，顺便游览一下黑檀心，西边环礁湖对面的帝国人城镇。那里也有很多值得看的东西，和值得做的事。"
+ INFO.NAME "维威克城很大，很容易迷路。但如果你遵守法律，就不会惹上大麻烦。我的建议是自由闲逛，熟悉附近的道路，看看工匠和贸易商都卖些什么。看看朝圣者来此的目的，真理部、至高神殿、维威克神殿，顺便游览一下黑檀心，西边环礁湖对面的帝国人城镇。那里也有很多值得看的东西，和值得做的事。"
  INFO.SCVR "09CX0Guard"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -59203,7 +59203,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.NNAM "151721995257886024$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像蠹虐食人魔一样强壮 -- 时间不长，但也足够了。 {奥格力姆}"
+ INFO.NAME "对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像奥格力姆一样强壮 -- 时间不长，但也足够了。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -62983,7 +62983,7 @@ Journal town_Vivec 5"
  INFO.NNAM "1153916009322935390$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec$00"
- INFO.NAME "你听说他们把那个叫马鲁尔·奥玛恩的异见祭司关进真理之岩了吗？我猜神殿卫兵们和祭司们认为他们可以在那里矫正他。我打赌他们能。"
+ INFO.NAME "你听说他们把那个叫马鲁尔·奥玛恩的异见祭司关进真理部了吗？我猜神殿卫兵们和祭司们认为他们可以在那里矫正他。我打赌他们能。"
  INFO.SCVR "04JX4C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "1CsX0NoLore"
