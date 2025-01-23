@@ -4525,7 +4525,7 @@ Falco Galenus<BR>
 
 > NPC_.FNAM Constans Atrius
 Constans Atrius
-康斯坦斯·阿特里斯
+康斯坦斯·阿特利乌斯
 
 > NPC_.FNAM Chappy_test_guy
 Chappy's Test guy
@@ -7270,7 +7270,7 @@ Stacey was unhappy to learn that Ilmeni Dren is dead, and does not want the Bal 
 
 > INFO.NAME tg_ss_greedyslaver 2264796882612116899
 Stacey learned that Brallion was dead, and did not want to be associated with his death.
-史黛西得知布拉里昂死了，不希望巴尔·莫拉格穆尔与他的死联系在一起。
+史黛西得知布拉里昂死了，不希望与他的死联系在一起。
 
 > INFO.NAME tg_ss_churchpolice 1764628614223217067
 Thieves Guild: Bal Molagmer, The Dwemer Goblet
@@ -7742,11 +7742,11 @@ House Hlaalu: The Shipwreck 'Prelude'
 
 > INFO.NAME hh_sunkentreasure 7515702985821156
 Edryno Arethi knows that the ship Prelude sunk east of Bal Fell. She believes it lies two or three islands due east of Bal Fell. I must find the Daedric Wakizashi that sunk with that ship and return it to Edryno Arethi.
-埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉协差，并把它还给埃德里诺·阿雷西。 {迪德拉式,胁差}
+埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉胁差，并把它还给埃德里诺·阿雷西。 {迪德拉式}
 
 > INFO.NAME hh_sunkentreasure 44131684462727731
 Edryno Arethi thanked me for returning the Daedric Wakizashi.
-埃德里诺·阿雷西感谢我归还了迪德拉协差。 {迪德拉式,胁差}
+埃德里诺·阿雷西感谢我归还了迪德拉胁差。 {迪德拉式}
 
 > INFO.NAME ht_theranaclothes 1206327953222646565
 House Telvanni: New Clothes
@@ -8198,7 +8198,7 @@ As I fled from the destruction of the Chamber of Akulakhan, I encountered the pr
 
 > INFO.NAME ht_attackindarys 26423124102425322574
 House Telvanni: Kill Banden Indarys
-泰瓦尼家族：杀死班登·因达利瑞斯
+泰瓦尼家族：杀死班登·因达瑞斯
 
 > INFO.NAME ht_attackindarys 15344235772005125891
 Master Aryon asked me to kill Banden Indarys, the lord of the recently built Redoran Stronghold of Indarys Manor.
@@ -8286,7 +8286,7 @@ Gentleman Jim Stacey thanked me for killing Sjoring Hard-Heart and gave me the S
 
 > INFO.NAME tg_vintagebrandy 1431296623012018678
 Thieves Guild: The Vintage Brandy
-盗贼公会：巴尔·莫拉格穆尔，佳酿白兰地
+盗贼公会：佳酿白兰地
 
 > INFO.NAME tg_vintagebrandy 2795518513116403968
 Sugar-Lips tells me that Ralen Hlaalo is dead, but has left behind some vintage brandy.
@@ -8646,7 +8646,7 @@ Theldyn Virith thanked me for taking care of the last Telvanni at Shishi.
 
 > INFO.NAME hr_clearsarethi 178553275847284
 House Redoran: Clear Varvur Sarethi's Name
-瑞多然家族：清脱瓦尔维尔·萨雷蒂的罪名
+瑞多然家族：清脱瓦乌尔·萨雷蒂的罪名
 
 > INFO.NAME hr_clearsarethi 2340317191134797593
 Serjo Athyn Sarethi asked me to clear his son's name. Varvur Sarethi has been charged with the murder of Bralen Carvaren. Perhaps I should start by questioning Varvur Sarethi in Sarethi Manor.
@@ -9874,7 +9874,7 @@ Redoran Hortator
 
 > INFO.NAME b5_ramoranhort 375027359148504774
 Since I have killed a Redoran counselor, Ramoran says the other councilors will never consent to making me Hortator.
-由于我杀了一名瑞多然顾问，拉莫然说其他议员绝不会同意任命我为统谏使。 {咨询}
+由于我杀了一名瑞多然顾问，拉莫兰说其他议员绝不会同意任命我为统谏使。 {咨询}
 
 > INFO.NAME b5_morvaynhort 1907916974202594687
 Redoran Hortator
@@ -9882,7 +9882,7 @@ Redoran Hortator
 
 > INFO.NAME b5_morvaynhort 43984739995524468
 Since I have killed a Redoran counselor, Morvayn says the other councilors will never consent to making me Hortator.
-由于我杀害了一名瑞多然顾问，莫尔维恩说其他议员绝不会同意任命我为统谏使。 {咨询}
+由于我杀害了一名瑞多然顾问，莫文说其他议员绝不会同意任命我为统谏使。 {咨询}
 
 > INFO.NAME b5_llethrihort 2106332208950619998
 Redoran Hortator
@@ -9914,7 +9914,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_baladashort 1577131572878921517
 I asked Mouth Edras if Master Baladas would vote for me as Hortator of House Telvanni. Edras said I would have to speak directly to Baladas on a matter of such importance.
-我问发言人艾德拉斯，巴拉达斯大师是否会投票让我担任泰瓦尼家族的统谏使。艾德拉斯说这么重要的事情我必须直接和巴拉达斯谈。
+我问发言人埃德拉斯，巴拉达斯大师是否会投票让我担任泰瓦尼家族的统谏使。埃德拉斯说这么重要的事情我必须直接和巴拉达斯谈。
 
 > INFO.NAME a2_6_incarnate 282452350274726463
 The Path of the Incarnate
@@ -10374,23 +10374,23 @@ The Guildguide for the Vivec Mages Guild, Flacassia Fauseius, remembered a High 
 
 > INFO.NAME town_ald_tiras 195341539540673185
 Tiras Sadus and Ienas Sarandus
-蒂拉斯·萨达斯和伊纳斯·萨兰德斯
+蒂拉斯·萨杜斯和伊纳斯·萨兰德斯
 
 > INFO.NAME town_ald_tiras 1184311350911824039
 The trader Tiras Sadus sold an Ashlander hand-crafted racer suede belt to a customer, but the customer has failed to make his final payment on time. If I can find Ienas Sarandas and retrieve the belt for the trader, or if I can get the 50 septims owed to the trader, Tiras Sadus will pay me 25 gold.
-贸易商蒂拉斯·萨达斯将一条灰烬之民手工制作的迅鸟绒面腰带卖给了一位顾客，但这位顾客未能按时支付尾款。如果我能找到伊纳斯·萨兰达斯并为贸易商取回腰带，或者我能拿到欠贸易商的50塞普汀，蒂拉斯·萨达斯就会付给我25金币。
+贸易商蒂拉斯·萨杜斯将一条灰烬之民手工制作的迅鸟绒面腰带卖给了一位顾客，但这位顾客未能按时支付尾款。如果我能找到伊纳斯·萨兰达斯并为贸易商取回腰带，或者我能拿到欠贸易商的50塞普汀，蒂拉斯·萨杜斯就会付给我25金币。
 
 > INFO.NAME town_ald_tiras 5897183222802213954
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes. He seemed very pleased with the way I had handled the affair.
-我把迅鸟绒面腰带还给了蒂拉斯·萨达斯，他付给我25龙币。他似乎对我处理这件事的方式很满意。
+我把迅鸟绒面腰带还给了蒂拉斯·萨杜斯，他付给我25龙币。他似乎对我处理这件事的方式很满意。
 
 > INFO.NAME town_ald_tiras 2998166441311416178
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes.
-我把迅鸟绒面腰带还给了蒂拉斯·萨达斯，他付了我25龙币。
+我把迅鸟绒面腰带还给了蒂拉斯·萨杜斯，他付了我25龙币。
 
 > INFO.NAME town_ald_tiras 126783036830731334
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes. He had heard that Ienas Sarandas had been found dead, and he suspected me, though he had no proof. He did not seem at all pleased with the way I had handled the affair.
-我把迅鸟绒面腰带还给了蒂拉斯·萨达斯，他付了我25龙币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式并不满意。 {发现死亡}
+我把迅鸟绒面腰带还给了蒂拉斯·萨杜斯，他付了我25龙币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式并不满意。 {发现死亡}
 
 > INFO.NAME ic25_jonhawker 20695587101495873
 Imperial Cult: Ring in Darkness
@@ -10710,7 +10710,7 @@ I put a stop to the disturbance at Huleen's Hut. Now Edwinna can get back to her
 
 > INFO.NAME mg_apprentice 2455168941707018834
 I told Edwinna that I killed Huleen's apprentice. She expelled me from the Mages Guild.
-我告诉艾德温娜我杀了胡琳的学徒，她把我逐出了法师公会。
+我告诉埃德温娜我杀了胡琳的学徒，她把我逐出了法师公会。
 
 > INFO.NAME mg_returnbook 11351179581229517464
 Mages Guild: Return Chimarvamidium
@@ -10770,7 +10770,7 @@ Fighters Guild: Remove the Heads of the Thieves Guild
 
 > INFO.NAME fg_killbosses 220066726164827524
 Sjoring Hard-Heart told me to kill the Thieves Guild bosses. I must kill Habasi at the South Wall in Balmora, Aengoth at the Rat in the Pot n Ald'ruhn, and Helende at Dirty Muriel's in Sadrith Mora.
-舒灵·铁心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
+舒灵·铁心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的阿恩戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
 
 > INFO.NAME fg_killbosses 1609298892679027328
 I killed the three local Thieves Guild bosses.
@@ -11214,7 +11214,7 @@ While Nels Llendo is a bandit and a rogue, he was not an unpleasant sort. I'll h
 
 > INFO.NAME tg_ss_yngling 1089724742548410500
 Thieves Guild: Bal Molagmer, Yngling's Ledger
-盗贼公会：巴尔·莫拉格默，英灵的帐簿
+盗贼公会：巴尔·莫拉格穆尔，英灵的帐簿
 
 > INFO.NAME tg_ss_yngling 2522624934128846147
 Gentleman Jim Stacey asked me to bring him Yngling Half-Troll's Ledger which is in Yngling Manor in Vivec. This ledger has proof that Yngling Half-Troll is corrupt.
@@ -11806,7 +11806,7 @@ Edwinna asked me to steal the book Chimarvamidium from the Mages Guild in Vivec.
 
 > INFO.NAME mg_stealbook 10389277391753425384
 I returned the book Chimarvamidium to Edwinna. She promised to return the book to me later.
-我把《奇玛瓦米迪尤姆》一书交给了艾德温娜。她答应稍后把书还给我。
+我把《奇玛瓦米迪尤姆》一书交给了埃德温娜。她答应稍后把书还给我。
 
 > INFO.NAME mg_wisewoman 19163232272024511109
 Mages Guild: Meeting with a Wise Woman
@@ -11874,7 +11874,7 @@ Fighters Guild: Alof and the Orcs
 
 > INFO.NAME fg_alofsfarm 33331678365682641
 Eydis Fire-Eye told me to talk to Alof the Easterner at his farm northeast of Pelagiad and just north of the Arvel Plantation. Alof saw some Orcs at a Daedric ruin nearby.
-艾迪斯·火眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
+艾迪斯·火眼让我去佩拉吉亚德东北方向、阿维尔种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
 
 > INFO.NAME fg_alofsfarm 289519483102661641
 Eydis Fire-Eye gave me 500 gold for the Duke's contract.
@@ -12362,15 +12362,15 @@ I told Angaredhel that the hauntings would stop, and gave him the note from Ulen
 
 > INFO.NAME town_sadrith 19915100433155118126
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱尼的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 16859260523173512719
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Mage Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱尼的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
 
 > INFO.NAME town_sadrith 19185361712731059
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Fighter Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱尼的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
 
 > INFO.NAME town_sadrith 11532154661570510630
 I told Angaredhel that the hauntings would stop, but I didn't give him the note from Uleni Heleran, or reveal Uleni's name. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
@@ -15546,7 +15546,7 @@ East Empire Company: Drastic Measures
 
 > INFO.NAME co_13a 2773222791925621517
 Constans Atrius named me Factor of the Raven Rock division of the East Empire Company.
-康斯坦斯·阿特里斯任命我为东帝国公司乌鸦岩分部的负责人。
+康斯坦斯·阿特利乌斯任命我为东帝国公司乌鸦岩分部的负责人。
 
 > INFO.NAME co_13a 3107111773777717245
 Carnius attacked me when I confronted him with what Toralf told me. I was forced to kill him.
@@ -15834,7 +15834,7 @@ I've collected the swords, and should return them to Falco.
 
 > INFO.NAME co_13 234834131264525812
 Falco has asked me to travel to Fort Frostmoth and collect several silver longswords from Constans Atrius.
-法尔科让我前往霜蛾要塞，从康斯坦斯·阿特里斯那里收集几把银质长剑。 {银制长剑}
+法尔科让我前往霜蛾要塞，从康斯坦斯·阿特利乌斯那里收集几把银质长剑。 {银制长剑}
 
 > INFO.NAME co_1 9161317421946423379
 East Empire Company: Establish the Mine
@@ -17898,7 +17898,7 @@ Didn't you already exchange it? You're not going to get another one, you know.
 
 > INFO.NAME stock certificate 159489356292321038
 Hmm. Carnius would've been the one to deal with it, but he's not really in a position to do that, now is he? I imagine Constans Atrius can take care of it. Check with him at the fort.
-嗯。卡尼乌斯本来可以处理的，但他现在没这个能力，不是吗？我想康斯坦斯·阿特里斯会处理的。去要塞找他吧。
+嗯。卡尼乌斯本来可以处理的，但他现在没这个能力，不是吗？我想康斯坦斯·阿特利乌斯会处理的。去要塞找他吧。
 
 > INFO.NAME stock certificate 1853728644312343192
 Hmm. Carnius would've been the one to deal with it, but he's not really in a position to do that, now is he? And Constans is dead as well, so I guess there's nothing that can be done with it. Pity.... perhaps you could have it framed.
@@ -23748,7 +23748,7 @@ We've been had. This wasn't really a Skaal attack - it was mercenaries dressed u
 
 > INFO.NAME greeting 1 31079310422400214621
 In his continuing effort to make life as difficult as possible, Carnius has sent word that several silver longswords have arrived. He refuses, however, to have them sent out to us. Can you go get them? I believe Constans Atrius should have them at Fort Frostmoth.
-卡尼乌斯一直不遗余力地让我们的日子不好过，这不，他传话说有几把银制长剑已经到了。但他拒绝送过来。你能去拿吗？我相信康斯坦斯·阿特里斯应该把它们放在霜蛾要塞。
+卡尼乌斯一直不遗余力地让我们的日子不好过，这不，他传话说有几把银制长剑已经到了。但他拒绝送过来。你能去拿吗？我相信康斯坦斯·阿特利乌斯应该把它们放在霜蛾要塞。
 
 > INFO.NAME greeting 1 27831233573233451
 %PCName, you stay here in case there are more of them!

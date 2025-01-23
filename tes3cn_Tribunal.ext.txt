@@ -8485,7 +8485,7 @@ Stacey was unhappy to learn that Ilmeni Dren is dead, and does not want the Bal 
 
 > INFO.NAME tg_ss_greedyslaver 2264796882612116899
 Stacey learned that Brallion was dead, and did not want to be associated with his death.
-史黛西得知布拉里昂死了，不希望巴尔·莫拉格穆尔与他的死联系在一起。
+史黛西得知布拉里昂死了，不希望与他的死联系在一起。
 
 > INFO.NAME tg_ss_churchpolice 1764628614223217067
 Thieves Guild: Bal Molagmer, The Dwemer Goblet
@@ -8989,11 +8989,11 @@ House Hlaalu: The Shipwreck 'Prelude'
 
 > INFO.NAME hh_sunkentreasure 7515702985821156
 Edryno Arethi knows that the ship Prelude sunk east of Bal Fell. She believes it lies two or three islands due east of Bal Fell. I must find the Daedric Wakizashi that sunk with that ship and return it to Edryno Arethi.
-埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉协差，并把它还给埃德里诺·阿雷西。 {迪德拉式,胁差}
+埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉胁差，并把它还给埃德里诺·阿雷西。 {迪德拉式}
 
 > INFO.NAME hh_sunkentreasure 44131684462727731
 Edryno Arethi thanked me for returning the Daedric Wakizashi.
-埃德里诺·阿雷西感谢我归还了迪德拉协差。 {迪德拉式,胁差}
+埃德里诺·阿雷西感谢我归还了迪德拉胁差。 {迪德拉式}
 
 > INFO.NAME ht_theranaclothes 1206327953222646565
 House Telvanni: New Clothes
@@ -9493,7 +9493,7 @@ As I fled from the destruction of the Chamber of Akulakhan, I encountered the pr
 
 > INFO.NAME ht_attackindarys 26423124102425322574
 House Telvanni: Kill Banden Indarys
-泰瓦尼家族：杀死班登·因达利瑞斯
+泰瓦尼家族：杀死班登·因达瑞斯
 
 > INFO.NAME ht_attackindarys 15344235772005125891
 Master Aryon asked me to kill Banden Indarys, the lord of the recently built Redoran Stronghold of Indarys Manor.
@@ -9581,7 +9581,7 @@ Gentleman Jim Stacey thanked me for killing Sjoring Hard-Heart and gave me the S
 
 > INFO.NAME tg_vintagebrandy 1431296623012018678
 Thieves Guild: The Vintage Brandy
-盗贼公会：巴尔·莫拉格穆尔，佳酿白兰地
+盗贼公会：佳酿白兰地
 
 > INFO.NAME tg_vintagebrandy 2795518513116403968
 Sugar-Lips tells me that Ralen Hlaalo is dead, but has left behind some vintage brandy.
@@ -9857,7 +9857,7 @@ I have cured Shunari Eye-Fly.
 
 > INFO.NAME ms_crimsonplague 2883744352822926628
 I spoke with a Khajiit named Shunari Eye-Fly. She claims to have information about the disease, but will only give it to me once she has been cured. I must find either a spell or a scroll to cure her disease; I should consult with Nerile Andaren and then meet Shunari in the Temple Gardens of Old Mournhold.
-我和一个叫舒纳莉·飞眼的卡吉特谈过。她声称她有关于疾病的信息，但只有在她被治好后才会给我。我必须找到一个法术或卷轴来治愈她的疾病；我应该向娜丽尔·安达伦咨询，然后在哀伤之城旧址的神殿花园与舒纳丽见面。
+我和一个叫舒纳莉·飞眼的卡吉特谈过。她声称她有关于疾病的信息，但只有在她被治好后才会给我。我必须找到一个法术或卷轴来治愈她的疾病；我应该向娜丽尔·安达伦咨询，然后在哀伤之城旧址的神殿花园与舒纳莉见面。
 
 > INFO.NAME ms_crimsonplague 88411850327684450
 Nerile Andaren has informed me that the rats are coming into the Temple through the basement. While guards have been posted to deal with them, she would like me to look into it. The rats are infected with a disease called the "Crimson Plague", supposedly wiped out during Tamriel's Second Age.
@@ -10057,7 +10057,7 @@ Theldyn Virith thanked me for taking care of the last Telvanni at Shishi.
 
 > INFO.NAME hr_clearsarethi 178553275847284
 House Redoran: Clear Varvur Sarethi's Name
-瑞多然家族：清脱瓦尔维尔·萨雷蒂的罪名
+瑞多然家族：清脱瓦乌尔·萨雷蒂的罪名
 
 > INFO.NAME hr_clearsarethi 2340317191134797593
 Serjo Athyn Sarethi asked me to clear his son's name. Varvur Sarethi has been charged with the murder of Bralen Carvaren. Perhaps I should start by questioning Varvur Sarethi in Sarethi Manor.
@@ -11317,7 +11317,7 @@ Redoran Hortator
 
 > INFO.NAME b5_ramoranhort 375027359148504774
 Since I have killed a Redoran counselor, Ramoran says the other councilors will never consent to making me Hortator.
-由于我杀了一名瑞多然顾问，拉莫然说其他议员绝不会同意任命我为统谏使。 {咨询}
+由于我杀了一名瑞多然顾问，拉莫兰说其他议员绝不会同意任命我为统谏使。 {咨询}
 
 > INFO.NAME b5_morvaynhort 1907916974202594687
 Redoran Hortator
@@ -11325,7 +11325,7 @@ Redoran Hortator
 
 > INFO.NAME b5_morvaynhort 43984739995524468
 Since I have killed a Redoran counselor, Morvayn says the other councilors will never consent to making me Hortator.
-由于我杀害了一名瑞多然顾问，莫尔维恩说其他议员绝不会同意任命我为统谏使。 {咨询}
+由于我杀害了一名瑞多然顾问，莫文说其他议员绝不会同意任命我为统谏使。 {咨询}
 
 > INFO.NAME b5_llethrihort 2106332208950619998
 Redoran Hortator
@@ -11357,7 +11357,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_baladashort 1577131572878921517
 I asked Mouth Edras if Master Baladas would vote for me as Hortator of House Telvanni. Edras said I would have to speak directly to Baladas on a matter of such importance.
-我问发言人艾德拉斯，巴拉达斯大师是否会投票让我担任泰瓦尼家族的统谏使。艾德拉斯说这么重要的事情我必须直接和巴拉达斯谈。
+我问发言人埃德拉斯，巴拉达斯大师是否会投票让我担任泰瓦尼家族的统谏使。埃德拉斯说这么重要的事情我必须直接和巴拉达斯谈。
 
 > INFO.NAME a2_6_incarnate 282452350274726463
 The Path of the Incarnate
@@ -11817,23 +11817,23 @@ The Guildguide for the Vivec Mages Guild, Flacassia Fauseius, remembered a High 
 
 > INFO.NAME town_ald_tiras 195341539540673185
 Tiras Sadus and Ienas Sarandus
-蒂拉斯·萨达斯和伊纳斯·萨兰德斯
+蒂拉斯·萨杜斯和伊纳斯·萨兰德斯
 
 > INFO.NAME town_ald_tiras 1184311350911824039
 The trader Tiras Sadus sold an Ashlander hand-crafted racer suede belt to a customer, but the customer has failed to make his final payment on time. If I can find Ienas Sarandas and retrieve the belt for the trader, or if I can get the 50 septims owed to the trader, Tiras Sadus will pay me 25 gold.
-贸易商蒂拉斯·萨达斯将一条灰烬之民手工制作的迅鸟绒面腰带卖给了一位顾客，但这位顾客未能按时支付尾款。如果我能找到伊纳斯·萨兰达斯并为贸易商取回腰带，或者我能拿到欠贸易商的50塞普汀，蒂拉斯·萨达斯就会付给我25金币。
+贸易商蒂拉斯·萨杜斯将一条灰烬之民手工制作的迅鸟绒面腰带卖给了一位顾客，但这位顾客未能按时支付尾款。如果我能找到伊纳斯·萨兰达斯并为贸易商取回腰带，或者我能拿到欠贸易商的50塞普汀，蒂拉斯·萨杜斯就会付给我25金币。
 
 > INFO.NAME town_ald_tiras 5897183222802213954
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes. He seemed very pleased with the way I had handled the affair.
-我把迅鸟绒面腰带还给了蒂拉斯·萨达斯，他付给我25龙币。他似乎对我处理这件事的方式很满意。
+我把迅鸟绒面腰带还给了蒂拉斯·萨杜斯，他付给我25龙币。他似乎对我处理这件事的方式很满意。
 
 > INFO.NAME town_ald_tiras 2998166441311416178
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes.
-我把迅鸟绒面腰带还给了蒂拉斯·萨达斯，他付了我25龙币。
+我把迅鸟绒面腰带还给了蒂拉斯·萨杜斯，他付了我25龙币。
 
 > INFO.NAME town_ald_tiras 126783036830731334
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes. He had heard that Ienas Sarandas had been found dead, and he suspected me, though he had no proof. He did not seem at all pleased with the way I had handled the affair.
-我把迅鸟绒面腰带还给了蒂拉斯·萨达斯，他付了我25龙币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式并不满意。 {发现死亡}
+我把迅鸟绒面腰带还给了蒂拉斯·萨杜斯，他付了我25龙币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式并不满意。 {发现死亡}
 
 > INFO.NAME ic25_jonhawker 20695587101495873
 Imperial Cult: Ring in Darkness
@@ -12077,7 +12077,7 @@ I put a stop to the disturbance at Huleen's Hut. Now Edwinna can get back to her
 
 > INFO.NAME mg_apprentice 2455168941707018834
 I told Edwinna that I killed Huleen's apprentice. She expelled me from the Mages Guild.
-我告诉艾德温娜我杀了胡琳的学徒，她把我逐出了法师公会。
+我告诉埃德温娜我杀了胡琳的学徒，她把我逐出了法师公会。
 
 > INFO.NAME mg_returnbook 11351179581229517464
 Mages Guild: Return Chimarvamidium
@@ -12137,7 +12137,7 @@ Fighters Guild: Remove the Heads of the Thieves Guild
 
 > INFO.NAME fg_killbosses 220066726164827524
 Sjoring Hard-Heart told me to kill the Thieves Guild bosses. I must kill Habasi at the South Wall in Balmora, Aengoth at the Rat in the Pot n Ald'ruhn, and Helende at Dirty Muriel's in Sadrith Mora.
-舒灵·铁心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
+舒灵·铁心让我去杀盗贼公会的头目。我必须杀死巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的阿恩戈斯和萨德瑞斯-莫拉脏兮兮的海伦德。 {老鼠}
 
 > INFO.NAME fg_killbosses 1609298892679027328
 I killed the three local Thieves Guild bosses.
@@ -12581,7 +12581,7 @@ While Nels Llendo is a bandit and a rogue, he was not an unpleasant sort. I'll h
 
 > INFO.NAME tg_ss_yngling 1089724742548410500
 Thieves Guild: Bal Molagmer, Yngling's Ledger
-盗贼公会：巴尔·莫拉格默，英灵的帐簿
+盗贼公会：巴尔·莫拉格穆尔，英灵的帐簿
 
 > INFO.NAME tg_ss_yngling 2522624934128846147
 Gentleman Jim Stacey asked me to bring him Yngling Half-Troll's Ledger which is in Yngling Manor in Vivec. This ledger has proof that Yngling Half-Troll is corrupt.
@@ -13261,7 +13261,7 @@ Edwinna asked me to steal the book Chimarvamidium from the Mages Guild in Vivec.
 
 > INFO.NAME mg_stealbook 10389277391753425384
 I returned the book Chimarvamidium to Edwinna. She promised to return the book to me later.
-我把《奇玛瓦米迪尤姆》一书交给了艾德温娜。她答应稍后把书还给我。
+我把《奇玛瓦米迪尤姆》一书交给了埃德温娜。她答应稍后把书还给我。
 
 > INFO.NAME mg_wisewoman 19163232272024511109
 Mages Guild: Meeting with a Wise Woman
@@ -13329,7 +13329,7 @@ Fighters Guild: Alof and the Orcs
 
 > INFO.NAME fg_alofsfarm 33331678365682641
 Eydis Fire-Eye told me to talk to Alof the Easterner at his farm northeast of Pelagiad and just north of the Arvel Plantation. Alof saw some Orcs at a Daedric ruin nearby.
-艾迪斯·火眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
+艾迪斯·火眼让我去佩拉吉亚德东北方向、阿维尔种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
 
 > INFO.NAME fg_alofsfarm 289519483102661641
 Eydis Fire-Eye gave me 500 gold for the Duke's contract.
@@ -13817,15 +13817,15 @@ I told Angaredhel that the hauntings would stop, and gave him the note from Ulen
 
 > INFO.NAME town_sadrith 19915100433155118126
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱尼的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 16859260523173512719
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Mage Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱尼的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
 
 > INFO.NAME town_sadrith 19185361712731059
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Fighter Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱尼的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
 
 > INFO.NAME town_sadrith 11532154661570510630
 I told Angaredhel that the hauntings would stop, but I didn't give him the note from Uleni Heleran, or reveal Uleni's name. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
@@ -21575,7 +21575,7 @@ Continue
 
 > INFO.NAME crimson plague 209603160625825850
 Gedna Relvel is gone? Then perhaps others will not get sick from disease like Shunari. %PCName has done a good thing.
-吉德纳·瑞艾维尔死了？那么，也许其他人就不会像舒娜莉那样感染瘟疫了。%PCName已经做了一件好事。 {疾病}
+吉德纳·瑞艾维尔死了？那么，也许其他人就不会像舒纳莉那样感染瘟疫了。%PCName已经做了一件好事。 {疾病}
 
 > INFO.NAME crimson plague 1639197471620123637
 %PCName must kill Gedna Relvel, and make bad disease go away!
@@ -21583,7 +21583,7 @@ Gedna Relvel is gone? Then perhaps others will not get sick from disease like Sh
 
 > INFO.NAME crimson plague 19608107942459924839
 Bad disease it must be, for it makes poor Shunari feel weak, and hurts her poor head. But %PCName has made Shunari feel much better, so Shunari will not dwell on how %PCName allowed disease to spread by opening forbidden tomb. And now brave %PCName will go find and kill Gedna Relvel!
-这一定是糟糕的疾病，因为它让可怜的舒娜莉感到虚弱，让她可怜的头疼痛无比。但%PCName已经让舒娜莉感觉好多了，所以舒娜莉不会再纠结于%PCName是如何通过打开禁忌之墓让疾病蔓延的。而现在，勇敢的%PCName将去找到并杀死吉德纳·瑞艾维尔！
+这一定是糟糕的疾病，因为它让可怜的舒纳莉感到虚弱，让她可怜的头疼痛无比。但%PCName已经让舒纳莉感觉好多了，所以舒纳莉不会再纠结于%PCName是如何通过打开禁忌之墓让疾病蔓延的。而现在，勇敢的%PCName将去找到并杀死吉德纳·瑞艾维尔！
 
 > INFO.NAME eleidon's ward 128391262268073001
 What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!
@@ -24451,7 +24451,7 @@ A caravaner told me he delivered a bunch of pilgrims in robes and a pile of equi
 
 > INFO.NAME latest rumors 1577179112393321981
 Narese Athrys said she ran into a rogue Telvanni base out in the middle of the ashlands. Unfortunately, when she used her Almsivi Intervention to escape, she failed to note her position. All she could say was that she was somewhere in the ashlands between Foyada Mamaea on the west and Foyada Ashur-Dan on the east, and north of Lake Nabia. That covers a lot of empty territory.
-娜瑞丝·阿瑟丽斯说她在灰烬之地遇到了一个泰瓦尼无赖基地。不幸的是，当她使用奥姆希维干预逃生时，她没有记下自己的位置。她只能说她在西面的玛梅亚熔渠和东面的阿舒尔-丹熔渠之间的灰烬之地，以及纳比亚湖北面的某个地方。那里有很多空地。
+娜瑞丝·阿特里斯说她在灰烬之地遇到了一个泰瓦尼无赖基地。不幸的是，当她使用奥姆希维干预逃生时，她没有记下自己的位置。她只能说她在西面的玛梅亚熔渠和东面的阿舒尔-丹熔渠之间的灰烬之地，以及纳比亚湖北面的某个地方。那里有很多空地。
 
 > INFO.NAME latest rumors 48769172817317473
 A caravaner told me he delivered a bunch of pilgrims in robes and a pile of equipment to a drop site east of Lake Nabia, northwest of Mount Kand. There's nothing out there to interest a pilgrim. You want to bet that's a bunch of rogue Telvanni setting up housekeeping?
@@ -24887,7 +24887,7 @@ They say someone hit the Camonna Tong at the Council Club. Hard. And the guards 
 
 > INFO.NAME latest rumors 2154830486472422301
 Everyone knows the Balmora magistrate, Nolus Atrius, is on the take. Thieves, thugs, and murderers are getting ridiculous sentences, or paying a drake and walking free. But they'll never get Atrius. He's got fatcats and family back in the City to cover him. The Legion Champion, Larrius Varro, over at Moonmoth Legion Fort, he has sworn an oath to stop corruption. But I don't see what he can do.
-大家都知道巴尔莫拉的治安官诺留斯·阿特里斯在逍遥法外，小偷、恶棍和杀人犯都被判了荒唐的刑罚，或者付了龙币就逍遥法外。但他们永远抓不到阿特里斯。他在城里有肥猫和家人罩着他。军团勇士，拉里乌斯·瓦罗，在月蛾军团要塞，他发誓要阻止腐败，但我不知道他能做什么。
+大家都知道巴尔莫拉的治安官诺留斯·阿特利乌斯在逍遥法外，小偷、恶棍和杀人犯都被判了荒唐的刑罚，或者付了龙币就逍遥法外。但他们永远抓不到阿特利乌斯。他在城里有肥猫和家人罩着他。军团勇士，拉里乌斯·瓦罗，在月蛾军团要塞，他发誓要阻止腐败，但我不知道他能做什么。
 
 > INFO.NAME latest rumors 1452824297219661921
 People don't realize how deeply the Dark Elves resent the Occupation. The real powers behind the Hlaalu council, Orvas Dren and his Camonna Tong syndicate, nurse those ancient resentments. They haven't a chance of challenging Imperial authority now, but if the stability of the Empire were threatened -- for example, if the legions were recalled because of some problem with the Septim succession -- Dren and the Tong might move openly to drive the Imperials out of Morrowind.
@@ -24995,7 +24995,7 @@ Wonder where those young Telvanni were headed with all that gear? Shipmaster sai
 
 > INFO.NAME latest rumors 158592544388702450
 Narese Athrys found a rogue Telvanni base out in the middle of the ashlands, but she used Almsivi Intervention to escape, and now she doesn't know exactly where the base was.
-纳雷斯·亚瑟瑞斯在灰烬之地发现了一个泰瓦尼无赖基地，但她利用奥姆希维干预逃了出来，现在她也不知道基地到底在哪里。
+纳雷斯·阿特里斯在灰烬之地发现了一个泰瓦尼无赖基地，但她利用奥姆希维干预逃了出来，现在她也不知道基地到底在哪里。
 
 > INFO.NAME latest rumors 1520215642613132523
 This caravaner friend of mine says that with so many more blight storms around Red Mountain this year than last year, he's thinking about getting out of the business.
@@ -25907,7 +25907,7 @@ I've heard enough about her to be scared.  A powerful sorceress, condemned for s
 
 > INFO.NAME gedna relvel 2443018671281705114
 Gedna Relvel is dead this time, yes? And there is no more treasure to be found? Then Shunari has no reason to stay. %PCName should go tell Nerile Andaren that lich is gone. Shunari will not forget what %PCName has done, though her path may not cross %PCName's again. Farewell.
-吉德纳·瑞艾维尔这次是死了，是吗？而且也没有宝藏可以找了？那么，舒纳莉没有留在这的理由了。%PCName应该去告诉娜丽尔·安达伦，巫妖已经死了。舒纳瑞不会忘记娜丽尔·安达伦所做的一切，尽管她的道路可能不会再与娜丽尔·安达伦交汇。再见了。
+吉德纳·瑞艾维尔这次是死了，是吗？而且也没有宝藏可以找了？那么，舒纳莉没有留在这的理由了。%PCName应该去告诉娜丽尔·安达伦，巫妖已经死了。舒纳莉不会忘记娜丽尔·安达伦所做的一切，尽管她的道路可能不会再与娜丽尔·安达伦交汇。再见了。
 
 > INFO.NAME gedna relvel 1286566482956031220
 Shunari has not seen anyone leave the tomb since %PCName arrived last.  Shunari thinks Gedna Relvel must still be in there. Shunari also thinks %PCName should be looking for her, rather than out here talking.
@@ -29187,7 +29187,7 @@ Good %PCName has returned! Is %PCName here to help Shunari?
 
 > INFO.NAME greeting 1 3227221370187757858
 Why has %PCName killed guard? Now Shunari will be blamed! Shunari only meant to knock guard out, not kill him!
-为什么%PCName要杀了卫兵？现在舒纳莉会被降罪的！舒娜莉只是想把卫兵打晕，而不是杀了他！ {瓜尔}
+为什么%PCName要杀了卫兵？现在舒纳莉会被降罪的！舒纳莉只是想把卫兵打晕，而不是杀了他！ {瓜尔}
 
 > INFO.NAME greeting 1 2942630923786310229
 Please hurry. Shunari is weak, and needs to be cured. She cannot go upstairs, or else guards will see her and take her to prison. Shunari is not safe here, and will meet %PCName in Temple Gardens instead.
@@ -36711,11 +36711,11 @@ Guards keep the peace and chase down criminals.
 
 > INFO.NAME guard 657016127187294535
 Shunari is sorry that she had to hurt poor man. But he will be fine. %PCName will not tell him what happened, yes?
-舒娜莉很抱歉，她不得不伤害这个可怜的人。但他会没事的。%PCName不会告诉他发生了什么，对吧？
+舒纳莉很抱歉，她不得不伤害这个可怜的人。但他会没事的。%PCName不会告诉他发生了什么，对吧？
 
 > INFO.NAME guard 2296924951310322594
 Shunari snuck in, and had to knock poor guard out. Guards do not like Shunari; they take her to jail if they see her, and then Shunari will die because she is sick. %PCName must help Shunari, and then Shunari will help %PCName!
-舒娜莉偷偷溜进来，不得不把可怜的卫兵打倒在地。卫兵不喜欢舒纳莉，看到她就会把她送进监狱，然后舒纳莉就会因为生病而死掉。%PCName必须帮助舒纳莉，然后舒纳莉也会帮助%PCName！ {瓜尔}
+舒纳莉偷偷溜进来，不得不把可怜的卫兵打倒在地。卫兵不喜欢舒纳莉，看到她就会把她送进监狱，然后舒纳莉就会因为生病而死掉。%PCName必须帮助舒纳莉，然后舒纳莉也会帮助%PCName！ {瓜尔}
 
 > INFO.NAME women 18816175232185819299
 Plenty of them around, %PCName. Nothing to worry about. I'll just find one on my own. Maybe two or three, even.
