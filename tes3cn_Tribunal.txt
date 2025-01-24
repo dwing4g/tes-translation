@@ -23798,14 +23798,14 @@ End yarnarScript"
  ALCH.NAME "verminous_fabricant_elixir$00"
  ALCH.MODL "m\Misc_Fabricant_Elixir.NIF$00"
  ALCH.TEXT "m\Tx_fabricant_elixir.dds$00"
- ALCH.FNAM "危险的械构体药剂$00"
+ ALCH.FNAM "害兽械构体灵药$00"
  ALCH.ALDT [00 00 A0 40 64 00 00 00 00 00 00 00]
  ALCH.ENAM [4F 00 FF 04 00 00 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00 0A 00 00 00]
 -ALCH
  ALCH.NAME "hulking_fabricant_elixir$00"
  ALCH.MODL "m\Misc_Fabricant_Elixir.NIF$00"
  ALCH.TEXT "m\Tx_fabricant_elixir.dds$00"
- ALCH.FNAM "大型械构体药剂$00"
+ ALCH.FNAM "重型械构体灵药$00"
  ALCH.ALDT [00 00 A0 40 64 00 00 00 00 00 00 00]
  ALCH.ENAM [4F 00 FF 00 00 00 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00 0A 00 00 00]
 -LEVI
@@ -23939,7 +23939,7 @@ End yarnarScript"
 -WEAP
  WEAP.NAME "ebony arrow_sadri$00"
  WEAP.MODL "w\W_Ebony_arrow.NIF$00"
- WEAP.FNAM "惊厥毒箭$00"
+ WEAP.FNAM "渗毒箭$00"
  WEAP.WPDT [CD CC 4C 3E 0A 00 00 00 0C 00 0A 00 00 00 80 3F 00 00 80 3F 1E 00 0F 1E 00 01 00 01 01 00 00 00]
  WEAP.ITEX "w\tx_arrow_ebony.tga$00"
  WEAP.ENAM "ebony_arrow_sadri_en$00"
@@ -26487,7 +26487,7 @@ End yarnarScript"
  ALCH.NAME "p_Imperfect_Elixir$00"
  ALCH.MODL "m\Misc_Fabricant_Elixir.NIF$00"
  ALCH.TEXT "m\Tx_fabricant_elixir.dds$00"
- ALCH.FNAM "不完美药剂$00"
+ ALCH.FNAM "不完美的灵药$00"
  ALCH.ALDT [00 00 80 3F 95 02 00 00 01 00 00 00]
  ALCH.ENAM [4B 00 FF FF 00 00 00 00 00 00 00 00 0F 00 00 00 14 00 00 00 14 00 00 00]
  ALCH.ENAM [4D 00 FF FF 00 00 00 00 00 00 00 00 0F 00 00 00 14 00 00 00 14 00 00 00]
@@ -33699,7 +33699,7 @@ End yarnarScript"
  INFO.PNAM "135912716814865701$00"
  INFO.NNAM "9965200802372418729$00"
  INFO.DATA [04 00 00 00 48 00 00 00 FF FF FF 00]
- INFO.NAME "霍特·莱德的鬼魂给了我一本书和一件长袍。"
+ INFO.NAME "霍特-莱德的鬼魂给了我一本书和一件长袍。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "9965200802372418729$00"
@@ -34440,7 +34440,7 @@ End yarnarScript"
  INFO.PNAM "1625515941120118126$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "霍特·莱德的鬼魂给了我一本书和一件长袍。"
+ INFO.NAME "霍特-莱德的鬼魂给了我一本书和一件长袍。"
 -DIAL
  DIAL.NAME "A2_6_Ane_Teria$00"
  DIAL.DATA [04]
@@ -76168,7 +76168,7 @@ Goodbye"
  INFO.NNAM "22810173202018316646$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sinnammu mirpal$00"
- INFO.NAME "是的，我们要一起去奥德-迪德拉斯，在那里我们要看看你是否让阿希穆萨兽安全了。我会一直陪着你，直到我们站在大雕像前，在那里我们将进一步交谈。 {魔鳄兽}"
+ INFO.NAME "是的，我们要一起去奥德-迪德拉斯，在那里我们要看看你是否让阿希穆萨安全了。我会一直陪着你，直到我们站在大雕像前，在那里我们将进一步交谈。 {魔鳄兽}"
  INFO.SCVR "04JX3B2_AhemmusaSafe"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "13sX0followNow"
@@ -78345,7 +78345,7 @@ Goodbye"
  INFO.NNAM "72921191807321606$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ghost_npc_hort_ledd$00"
- INFO.NAME "欢迎你，化身。我是霍特·莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}"
+ INFO.NAME "欢迎你，化身。我是霍特-莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "11630"

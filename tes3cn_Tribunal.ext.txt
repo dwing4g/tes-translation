@@ -6665,11 +6665,11 @@ Finished repairing the floor today. Please pay what you owe. Remember, I can let
 
 > ALCH.FNAM verminous_fabricant_elixir
 Verminous Fabricant Elixir
-危险的械构体药剂
+害兽械构体灵药
 
 > ALCH.FNAM hulking_fabricant_elixir
 Hulking Fabricant Elixir
-大型械构体药剂
+重型械构体灵药
 
 > ACTI.FNAM prox_proj_mine
 Proximity Projectile Mine
@@ -6701,7 +6701,7 @@ Golena Sadri
 
 > WEAP.FNAM ebony arrow_sadri
 PoisonGrip Arrow
-惊厥毒箭
+渗毒箭
 
 > ACTI.FNAM Sound_Rocks00
 Sound_Rocks
@@ -7733,7 +7733,7 @@ Wooden Door
 
 > ALCH.FNAM p_Imperfect_Elixir
 Elixir of the Imperfect
-不完美药剂
+不完美的灵药
 
 > CONT.FNAM de_r_chest_01_irano
 Ivulen Irano's Chest
@@ -11381,7 +11381,7 @@ The ghost of Erur-Dan gave me a spear and cuirass.
 
 > INFO.NAME a2_6_incarnate 2228710002691815370
 The ghost of Hort-Ledd gave me a book and a robe.
-霍特·莱德的鬼魂给了我一本书和一件长袍。
+霍特-莱德的鬼魂给了我一本书和一件长袍。
 
 > INFO.NAME a2_6_incarnate 9965200802372418729
 The ghost of Peakstar gave me a belt and pants.
@@ -11777,7 +11777,7 @@ The Path of the Incarnate
 
 > INFO.NAME a2_6_hort-ledd 278829807125231743
 The ghost of Hort-Ledd gave me a book and a robe.
-霍特·莱德的鬼魂给了我一本书和一件长袍。
+霍特-莱德的鬼魂给了我一本书和一件长袍。
 
 > INFO.NAME a2_6_ane_teria 305992766261476749
 The Path of the Incarnate
@@ -30363,7 +30363,7 @@ Why, thank you! I'm sure this will do the trick. Let's get going; I'll follow yo
 
 > INFO.NAME greeting 1 220201511328839224
 Yes, we are going together to Ald Daedroth, where we will see if you have made it safe for the Ahemmusa. I will accompany you until we stand before the great statue, where we will speak further.
-是的，我们要一起去奥德-迪德拉斯，在那里我们要看看你是否让阿希穆萨兽安全了。我会一直陪着你，直到我们站在大雕像前，在那里我们将进一步交谈。 {魔鳄兽}
+是的，我们要一起去奥德-迪德拉斯，在那里我们要看看你是否让阿希穆萨安全了。我会一直陪着你，直到我们站在大雕像前，在那里我们将进一步交谈。 {魔鳄兽}
 
 > INFO.NAME greeting 1 22810173202018316646
 You've spoken to the archcanon? Good. Then, is there anything else you want?
@@ -31095,7 +31095,7 @@ I wait and hope. Ask, and I shall tell you my story.
 
 > INFO.NAME greeting 1 2100328701196442535
 Welcome, Incarnate. I am Hort-Ledd. I was not the one. But I wait and hope. Ask, and I shall tell you my story.
-欢迎你，化身。我是霍特·莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}
+欢迎你，化身。我是霍特-莱德。我不是天选之人，但我等待着，希望着。有问题就问吧，我会告诉你我的故事。 {沙尔}
 
 > INFO.NAME greeting 1 72921191807321606
 I wait and hope. Ask, and I shall tell you my story.
