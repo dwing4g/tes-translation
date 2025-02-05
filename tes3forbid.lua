@@ -1,12 +1,14 @@
 local ipairs = ipairs
 
 local filenames = {
+	"topics.txt",
+	"Morrowind.cel",
 	"tes3cn_Morrowind.ext.txt",
 	"tes3cn_Tribunal.ext.txt",
 	"tes3cn_Bloodmoon.ext.txt",
 }
 
-local forbids = {
+local forbids = arg[1] and arg or {
 	"艾德拉", -- 伊德拉
 	"艾德洛", -- 伊德拉
 	"代德拉", -- 迪德拉
