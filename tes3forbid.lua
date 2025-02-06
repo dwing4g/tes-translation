@@ -22,7 +22,8 @@ local forbids = arg[1] and arg or {
 	"马拉卡斯", -- 玛拉凯斯
 	"吉伽拉格", -- 杰盖拉格
 	"谢尔格拉斯", -- 谢尔格拉
-	"勒丹亚", -- 瑞达尼亚
+	"勒丹亚", -- 瑞达尼亚 Redaynia
+	"勒斯丹", -- 瑞斯代尼亚 Resdaynia
 }
 
 for _, filename in ipairs(filenames) do
