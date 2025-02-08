@@ -39430,14 +39430,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "995241483236623893$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "神殿：慷慨的恩典"
+ INFO.NAME "神殿：慷慨之恩典"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "995241483236623893$00"
  INFO.PNAM "3152523361439613105$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我前往维威克神殿进行了朝圣，并宣读了《慷慨的恩典》。"
+ INFO.NAME "我前往维威克神殿进行了朝圣，并宣读了《慷慨之恩典》。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_PuzzleCanal$00"
@@ -39447,7 +39447,7 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "2370554072725430504$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "神殿：礼节的恩典"
+ INFO.NAME "神殿：礼节之恩典"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "2370554072725430504$00"
@@ -39460,7 +39460,7 @@ C<BR>"
  INFO.PNAM "2370554072725430504$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我在谜渠进行了朝圣，并阅读了《礼节的恩典》。"
+ INFO.NAME "我在谜渠进行了朝圣，并阅读了《礼节之恩典》。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_FieldsKummu$00"
@@ -39470,14 +39470,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "648516308156647544$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "神殿：谦逊的恩典"
+ INFO.NAME "神殿：谦逊之恩典"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "648516308156647544$00"
  INFO.PNAM "225442410831120148$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我去库姆原野朝圣，阅读了《谦逊的恩典》。"
+ INFO.NAME "我去库姆原野朝圣，阅读了《谦逊之恩典》。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_AldDaedroth$00"
@@ -41514,20 +41514,20 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "787923975323695829$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "哈拉鲁家族：解救隐-其-足"
+ INFO.NAME "哈拉鲁家族：解救隐其足"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "787923975323695829$00"
  INFO.PNAM "2226895722378013225$00"
  INFO.NNAM "26831474054906863$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "伊尔梅妮·德伦让我把隐-其-足从德伦种植园解救出来。"
+ INFO.NAME "伊尔梅妮·德伦让我把隐其足从德伦种植园解救出来。"
 -INFO
  INFO.INAM "246224663187729466$00"
  INFO.PNAM "93475370912425$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "伊尔梅妮·德伦感谢我释放了隐-其-足。"
+ INFO.NAME "伊尔梅妮·德伦感谢我释放了隐其足。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_WinSaryoni$00"
@@ -41567,7 +41567,7 @@ C<BR>"
  INFO.PNAM "517125626807223001$00"
  INFO.NNAM "5059254111329811782$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "隐-其-足告诉我，奥瓦斯·德伦在他的庄园里有一间密室，里面有可能说服奥瓦斯·德伦的证据。纳尔维莉·萨伦有这个房间的钥匙。"
+ INFO.NAME "隐其足告诉我，奥瓦斯·德伦在他的庄园里有一间密室，里面有可能说服奥瓦斯·德伦的证据。纳尔维莉·萨伦有这个房间的钥匙。"
 -INFO
  INFO.INAM "2315330938657231773$00"
  INFO.PNAM "1744042502189124348$00"
@@ -42671,7 +42671,7 @@ C<BR>"
  INFO.PNAM "2207920932139747115$00"
  INFO.NNAM "1435126856112626769$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我已经带着她要的素材回到了沃里娜·夸尔拉那里。她显然在用这些素材为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁卡什提。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}"
+ INFO.NAME "我已经带着她要的材料回到了沃里娜·夸尔拉那里。她显然在用这些材料为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁卡什提。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "1435126856112626769$00"
@@ -43639,14 +43639,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "152861657087223136$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "神殿：正义的恩典"
+ INFO.NAME "神殿：正义之恩典"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "152861657087223136$00"
  INFO.PNAM "3975664584461084$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我完成了维威克的面具朝圣之旅，并宣读了《正义的恩典》。"
+ INFO.NAME "我完成了维威克的面具朝圣之旅，并宣读了《正义之恩典》。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_Ghostgate$00"
@@ -43656,14 +43656,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "18055232829202674$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "神殿：骄傲的恩典"
+ INFO.NAME "神殿：骄傲之恩典"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "18055232829202674$00"
  INFO.PNAM "565012302253038979$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我前往幽魂之门朝圣，阅读了骄傲的恩典。"
+ INFO.NAME "我前往幽魂之门朝圣，阅读了《骄傲之恩典》。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_MountKand$00"
@@ -45501,7 +45501,7 @@ C<BR>"
  INFO.PNAM "726815477153989271$00"
  INFO.NNAM "27736213131340021915$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "我又和女巫厄缇娜谈了一次。女巫们将使用我收集到的材料来治疗狼人病，但最困难的步骤还在后面。我要在瑟隆德祭坛与厄缇娜会面，完成狼人赐予者的仪式。 {素材}"
+ INFO.NAME "我又和女巫厄缇娜谈了一次。女巫们将使用我收集到的材料来治疗狼人病，但最困难的步骤还在后面。我要在瑟隆德祭坛与厄缇娜会面，完成狼人赐予者的仪式。"
 -INFO
  INFO.INAM "27736213131340021915$00"
  INFO.PNAM "474612695954728279$00"
@@ -45831,14 +45831,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "10733111952847015702$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "神殿：无畏的恩典"
+ INFO.NAME "神殿：无畏之恩典"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "10733111952847015702$00"
  INFO.PNAM "13223296021167718986$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我完成了止月神龛的朝圣之旅，并宣读了《无畏的恩典》。"
+ INFO.NAME "我完成了止月神龛的朝圣之旅，并宣读了《无畏之恩典》。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_RuddyMan$00"
@@ -45848,14 +45848,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "22189966727924556$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "神殿：英勇的恩典"
+ INFO.NAME "神殿：英勇之恩典"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "22189966727924556$00"
  INFO.PNAM "27869135162927914699$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我完成了红润者朝圣，阅读了《勇气的恩典》。"
+ INFO.NAME "我完成了红润者朝圣，阅读了《勇气之恩典》。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_DagonFel$00"
@@ -65796,7 +65796,7 @@ Goodbye"
  INFO.NNAM "31100152802542360$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "glenmoril_witch_cave$00"
- INFO.NAME "那么，你已经为我的姐妹们完成了任务。好极了，我们要用这些材料调制一种药水，但不是用来喝的，不，不，而是…其他的东西。到瑟隆德祭坛来见我，我会告诉你们接下来要做什么。某些准备工作已经做好了，解药就在你手中，%PCName，但最后也是最困难的步骤还在后面。 {素材}"
+ INFO.NAME "那么，你已经为我的姐妹们完成了任务。好极了，我们要用这些材料调制一种药水，但不是用来喝的，不，不，而是…其他的东西。到瑟隆德祭坛来见我，我会告诉你们接下来要做什么。某些准备工作已经做好了，解药就在你手中，%PCName，但最后也是最困难的步骤还在后面。"
  INFO.SCVR "04JX0BM_WolfGiver"
  INFO.INTV [46 00 00 00]
  INFO.SCVR "14JX0BM_WolfGiver_a"
@@ -82312,7 +82312,7 @@ Goodbye"
  INFO.NNAM "1756214221897911814$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "korst wind-eye$00"
- INFO.NAME "世间万物都在小心翼翼地平衡着。动物、树木，甚至岩石和风。斯卡尔人从这种和谐中汲取力量，这要归功于造物主的恩典，是他赐予了我们这些天赋。当这种平衡被打破时，我们的力量就会减弱。"
+ INFO.NAME "世间万物都在小心翼翼地平衡着。动物、树木，甚至岩石和风。斯卡尔人从这种和谐中汲取力量，这要归功于造物主之恩典，是他赐予了我们这些天赋。当这种平衡被打破时，我们的力量就会减弱。"
 -INFO
  INFO.INAM "1756214221897911814$00"
  INFO.PNAM "826332363216429923$00"
@@ -84865,7 +84865,7 @@ ModDisposition -10"
  INFO.ONAM "glenmoril_witch_cave_2$00"
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\bHlo_IF003.mp3$00"
- INFO.NAME "有了适当的素材，我们就能治愈你的狼化病，没错……"
+ INFO.NAME "有了适当的材料，我们就能治愈你的狼化病，没错……"
  INFO.BNAM ";young, but cackling"
 -INFO
  INFO.INAM "12253205622678411176$00"

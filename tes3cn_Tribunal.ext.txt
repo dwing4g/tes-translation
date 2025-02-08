@@ -892,7 +892,7 @@ Dread Curse: Health
 
 > SPEL.FNAM almalexia's grace
 Almalexia's Grace
-阿玛莱西娅之恩典
+阿玛莱西娅的恩典
 
 > SPEL.FNAM regenerate [ability]
 Regenerate
@@ -1044,7 +1044,7 @@ Almalexia's Shield
 
 > SPEL.FNAM grace of almsivi
 Grace of Almsivi
-奥姆希维的恩典
+奥姆希维之恩典
 
 > SPEL.FNAM almalexia's light
 Almalexia's Light
@@ -2158,25 +2158,25 @@ Thank you for your humility, Lord Vivec. I shall neither strut nor preen in vani
 慷慨<BR>
 谦逊<BR>
 <BR>
-勇气的恩典<BR>
+勇气之恩典<BR>
 感谢您的勇气，维威克大人。我不会畏惧，也不会退缩，而是直面我的敌人和恐惧。<BR>
 <BR>
-胆识的恩典<BR>
+胆识之恩典<BR>
 感谢您的胆识，维威克大人。我不会因为有风险就回避，也不会躲藏在他人的谨慎建议这一面具之后，因为幸运会眷顾勇敢的人。<BR>
 <BR>
-公正的恩典<BR>
+公正之恩典<BR>
 感谢您的公正，维威克大人。我将既不对人残忍也不过于武断，因为公平的交流会赢得人民的爱戴、信任和尊敬。<BR>
 <BR>
-礼节的恩典<BR>
+礼节之恩典<BR>
 感谢您的礼节，维威克大人。我既不会说任何伤人的话，也不会说任何难听的话，而是会恭恭敬敬地说话，哪怕是面对我的敌人也是如此，因为有节制的言辞可以化解一切愤怒。<BR>
 <BR>
-自豪的恩典<BR>
+自豪之恩典<BR>
 感谢您的自豪，维威克大人。我不会怀疑我自己、我的人民或我的神，我将坚决维护他们与自己所应得的古老的权利。<BR>
 <BR>
-慷慨的恩典<BR>
+慷慨之恩典<BR>
 感谢您的慷慨，维威克大人。我既不会囤积居奇，也不会小偷小摸，更不会用无利可图的财宝来徒增自己的负担，而是会在家中坐在壁炉前分享自己的宝藏。<BR>
 <BR>
-谦逊的恩典<BR>
+谦逊之恩典<BR>
 感谢您的谦逊，维威克大人。我既不会趾高气扬，也不会虚荣炫耀，而会知道自己在大千世界中的地位，并为之感恩。<BR>
 <BR>
 """
@@ -11209,15 +11209,15 @@ Mistress Dratha thanked me for bringing her the Amulet of Flesh Made Whole.
 
 > INFO.NAME tt_palacevivec 3152523361439613105
 Temple: Grace of Generosity
-神殿：慷慨的恩典
+神殿：慷慨之恩典
 
 > INFO.NAME tt_palacevivec 995241483236623893
 I made the Pilgrimage to the Palace of Vivec and read the Grace of Generosity.
-我前往维威克神殿进行了朝圣，并宣读了《慷慨的恩典》。
+我前往维威克神殿进行了朝圣，并宣读了《慷慨之恩典》。
 
 > INFO.NAME tt_puzzlecanal 4216232692123725220
 Temple: Grace of Courtesy
-神殿：礼节的恩典
+神殿：礼节之恩典
 
 > INFO.NAME tt_puzzlecanal 2370554072725430504
 I spoke with Krazzt and gave him a longsword. I should read the inscription on the shrine to complete the Pilgrimage.
@@ -11225,15 +11225,15 @@ I spoke with Krazzt and gave him a longsword. I should read the inscription on t
 
 > INFO.NAME tt_puzzlecanal 25757312542353321892
 I made the Pilgrimage to the Puzzle Canal and read the Grace of Courtesy.
-我在谜渠进行了朝圣，并阅读了《礼节的恩典》。
+我在谜渠进行了朝圣，并阅读了《礼节之恩典》。
 
 > INFO.NAME tt_fieldskummu 225442410831120148
 Temple: Grace of Humility
-神殿：谦逊的恩典
+神殿：谦逊之恩典
 
 > INFO.NAME tt_fieldskummu 648516308156647544
 I made the Pilgrimage to the Fields of Kummu and read the Grace of Humility.
-我去库姆原野朝圣，阅读了《谦逊的恩典》。
+我去库姆原野朝圣，阅读了《谦逊之恩典》。
 
 > INFO.NAME tt_alddaedroth 12062236722614115036
 Temple: Sheogorath of the House of Troubles
@@ -12253,15 +12253,15 @@ Ilmeni Dren thanked me for helping the Arvel family in Ald Velothi.
 
 > INFO.NAME hh_twinlamps3 2226895722378013225
 House Hlaalu: Free Hides-His-Foot
-哈拉鲁家族：解救隐-其-足
+哈拉鲁家族：解救隐其足
 
 > INFO.NAME hh_twinlamps3 787923975323695829
 Ilmeni Dren asked me to free Hides-His-Foot from the Dren Plantation.
-伊尔梅妮·德伦让我把隐-其-足从德伦种植园解救出来。
+伊尔梅妮·德伦让我把隐其足从德伦种植园解救出来。
 
 > INFO.NAME hh_twinlamps3 246224663187729466
 Ilmeni Dren thanked me for freeing Hides-His-Foot.
-伊尔梅妮·德伦感谢我释放了隐-其-足。
+伊尔梅妮·德伦感谢我释放了隐其足。
 
 > INFO.NAME hh_winsaryoni 2968310132134383687
 House Hlaalu: Control the Ordinators
@@ -12281,7 +12281,7 @@ House Hlaalu: Dealing with Orvas Dren
 
 > INFO.NAME hh_wincamonna 37562226918418477
 Hides-His-Foot told me that Orvas Dren has a hidden room in his manor which has evidence that might persuade Orvas Dren. Nalvilie Saren has a key to this room.
-隐-其-足告诉我，奥瓦斯·德伦在他的庄园里有一间密室，里面有可能说服奥瓦斯·德伦的证据。纳尔维莉·萨伦有这个房间的钥匙。
+隐其足告诉我，奥瓦斯·德伦在他的庄园里有一间密室，里面有可能说服奥瓦斯·德伦的证据。纳尔维莉·萨伦有这个房间的钥匙。
 
 > INFO.NAME hh_wincamonna 2315330938657231773
 Duke Dren thanked me for sparing his brother's life and granted me the rank of Grandmaster in House Hlaalu.
@@ -12861,7 +12861,7 @@ I have decided not to try and find the materials needed by Volrina Quarra.
 
 > INFO.NAME va_vampamulet 316928859187854758
 I have returned to Volrina Quarra with the ingredients she asked for. She apparently was using them to create powerful amulets for her clan. This is not her first attempt at such an enchantment. She has given me as a reward an amulet (one of her failed attempts) that will allow me to return to Druscashti at will. She has also told me that I may earn further reward by killing vampires of other clans.
-我已经带着她要的素材回到了沃里娜·夸尔拉那里。她显然在用这些素材为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁卡什提。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}
+我已经带着她要的材料回到了沃里娜·夸尔拉那里。她显然在用这些材料为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁卡什提。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}
 
 > INFO.NAME va_vampamulet 1435126856112626769
 Because I have killed a great number of vampires of the Aundae and the Berne Clans, Volrina Quarra has rewarded me with the right to feed from the clan cattle. The only provision is that I may not kill any of them. If I do, I will no longer be welcome in Druscashti, and will be attacked on sight.
@@ -13465,19 +13465,19 @@ Mistress Therana scolded me for bringing her Auriel's Bow and then gave me 5000 
 
 > INFO.NAME tt_maskvivec 3975664584461084
 Temple: Grace of Justice
-神殿：正义的恩典
+神殿：正义之恩典
 
 > INFO.NAME tt_maskvivec 152861657087223136
 I made the Pilgrimage to the Mask of Vivec and read the Grace of Justice.
-我完成了维威克的面具朝圣之旅，并宣读了《正义的恩典》。
+我完成了维威克的面具朝圣之旅，并宣读了《正义之恩典》。
 
 > INFO.NAME tt_ghostgate 565012302253038979
 Temple: Grace of Pride
-神殿：骄傲的恩典
+神殿：骄傲之恩典
 
 > INFO.NAME tt_ghostgate 18055232829202674
 I made the Pilgrimage to Ghostgate and read the Grace of Pride.
-我前往幽魂之门朝圣，阅读了骄傲的恩典。
+我前往幽魂之门朝圣，阅读了《骄傲之恩典》。
 
 > INFO.NAME tt_mountkand 26190309302454030686
 Temple: Pilgrimage to Mount Kand
@@ -14601,19 +14601,19 @@ Master Aryon told me that too many Redoran Councilors are dead. House Telvanni w
 
 > INFO.NAME tt_stopmoon 13223296021167718986
 Temple: Grace of Daring
-神殿：无畏的恩典
+神殿：无畏之恩典
 
 > INFO.NAME tt_stopmoon 10733111952847015702
 I made the Pilgrimage to Stop the Moon and read the Grace of Daring.
-我完成了止月神龛的朝圣之旅，并宣读了《无畏的恩典》。
+我完成了止月神龛的朝圣之旅，并宣读了《无畏之恩典》。
 
 > INFO.NAME tt_ruddyman 27869135162927914699
 Temple: Grace of Valor
-神殿：英勇的恩典
+神殿：英勇之恩典
 
 > INFO.NAME tt_ruddyman 22189966727924556
 I made the Ruddy Man Pilgrimage and read the Grace of Valor.
-我完成了红润者朝圣，阅读了《勇气的恩典》。
+我完成了红润者朝圣，阅读了《勇气之恩典》。
 
 > INFO.NAME tt_dagonfel 306151332311623763
 Temple: Malacath of the House of Troubles
@@ -19325,7 +19325,7 @@ I assume you've heard of the Morag Tong? And of the Dark Brotherhood? They have 
 
 > INFO.NAME caused some damage 2286825947155364458
 As I've said, the tale was a true one. However, the details within should probably not have been divulged as they were. There were details that were felt to be embarrassing to the Septim line, though it was not my intent for them to be so. The work was ordered banned, and I was to be executed. Were it not for the grace of the lady herself, I would long be in my grave.
-正如我所说，这个故事是真实的。然而，其中的细节也许不应该被公诸于世。有一些细节被认为会让塞普汀皇室蒙羞，尽管这并非我的本意。我的作品被下令封杀，而我将被处决。如果不是因为王太后开恩，我可能早就在坟墓里了。 {工作,女士的恩典}
+正如我所说，这个故事是真实的。然而，其中的细节也许不应该被公诸于世。有一些细节被认为会让塞普汀皇室蒙羞，尽管这并非我的本意。我的作品被下令封杀，而我将被处决。如果不是因为王太后开恩，我可能早就在坟墓里了。 {工作,女士之恩典}
 
 > INFO.NAME whom you may trust 322316867828300
 If the Queen Mother considers you a friend, so do I. Her wisdom is vast, and I am eager to help her in any way I can. If you are in need of information on any topics, please feel free to ask. I'll provide you with what limited knowledge I possess.
@@ -22807,7 +22807,7 @@ Don't risk a frontal confrontation with anything. When in doubt, sneak.
 
 > INFO.NAME little advice 29947208481420612081
 Alchemists are easy targets for inexperienced thieves. They have far too many ingredients for them to keep an eye on all of them all of the time.
-炼金术士很容易成为没有经验的小偷的目标。他们有太多的原料素材，不可能时时刻刻都盯着所有的原料素材。
+炼金术士很容易成为没有经验的小偷的目标。他们有太多的原材料，不可能时时刻刻都盯着所有的原材料。
 
 > INFO.NAME little advice 125096360577018710
 Merchants know their own inventories far better than you do. Never attempt to trick them into buying something you stole from them.
@@ -23271,31 +23271,31 @@ Well, if you're considering a mercenary career, the Fighters Guild isn't too cho
 
 > INFO.NAME little advice 16828113161949615915
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
+一个简单的词，“材料”。那些尖帽子巫师和天天捣药玩瓶子的都需要材料。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 10298161991897813833
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
+一个简单的词，“材料”。那些尖帽子巫师和天天捣药玩瓶子的都需要材料。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 31790184793267027713
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
+一个简单的词，“材料”。那些尖帽子巫师和天天捣药玩瓶子的都需要材料。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 47672746471018226
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
+一个简单的词，“材料”。那些尖帽子巫师和天天捣药玩瓶子的都需要材料。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 18087333361045222
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
+一个简单的词，“材料”。那些尖帽子巫师和天天捣药玩瓶子的都需要材料。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 5120133021792918467
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
+一个简单的词，“材料”。那些尖帽子巫师和天天捣药玩瓶子的都需要材料。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 1086921438100814259
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
+一个简单的词，“材料”。那些尖帽子巫师和天天捣药玩瓶子的都需要材料。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 4554537349246222
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
@@ -26851,7 +26851,7 @@ I am Fedris Hler. What do you want?
 
 > INFO.NAME fedris hler 1727516451693121080
 Fedris Hler has been found dead! This is a very sad time for us here at the Temple. But, by the Grace of Our Lady, we will find the culprit.
-费德里斯·赫勒已经被发现死亡了！对我们神殿来说是个悲伤的时刻。但是，在我们的圣母的恩典下，我们会找到罪魁祸首的。
+费德里斯·赫勒已经被发现死亡了！对我们神殿来说是个悲伤的时刻。但是，在我们的圣母之恩典下，我们会找到罪魁祸首的。
 
 > INFO.NAME fedris hler 4262141771556624818
 Fedris Hler is the Lady Almalexia's Steward. You may find him in his office in the Temple Reception area.
@@ -32451,7 +32451,7 @@ Yes, that's me. What of it?
 
 > INFO.NAME gavas drin 20079121434225578
 I am the Lord Archcanon Gavas Drin. The grace of the Lady be with you.
-我是加瓦斯·德林大主教。愿女士的恩典与你同在。
+我是加瓦斯·德林大主教。愿女士之恩典与你同在。
 
 > INFO.NAME gavas drin 2511122320106684384
 My dear Gavas has been found dead. My Hands will find out who has done this horrible thing, and that person will suffer. That someone would dare do such a thing in my Temple....
