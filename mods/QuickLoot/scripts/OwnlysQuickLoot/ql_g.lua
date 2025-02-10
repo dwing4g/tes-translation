@@ -208,6 +208,15 @@ local onActivateStuff = {
 }
 onActivateStuffOnce = {}
 
+local function removeInvisibility(player)
+	for a,b in pairs(types.Actor.activeSpells(player)) do
+		for c,d in pairs(b.effects) do
+			if d.duration and d.id == "invisibility" then--and (d.id == "fortifyhealth" or d.id == "fortifyfatigue" or d.id == "fortifymagicka") then
+				types.Actor.activeSpells(player):remove(b.activeSpellId)
+			end
+		end
+	end
+end
 
 function triggerMwscriptTrap(obj, player)
 	local script = world.mwscript.getLocalScript(obj, player)
@@ -239,6 +248,7 @@ end
 
 
 local function activateContainer(cont, player)
+	removeInvisibility(player)
 	if not disabledPlayers[player.id] and not actuallyActivateTable[player.id] then
 		--world._runStandardActivationAction(cont, world.players[1])
 		triggerMwscriptTrap(cont,player)
@@ -354,6 +364,7 @@ local function actuallyActivate(arg)
 	local obj = arg[2]
 	--actuallyActivateTable[player.id] = 2
 	--world._runStandardActivationAction(obj, player)
+	removeInvisibility(player)
 	obj:activateBy(player)
 end
 
