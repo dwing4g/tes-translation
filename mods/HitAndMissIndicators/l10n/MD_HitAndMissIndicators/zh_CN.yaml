@@ -1,0 +1,12 @@
+name: "命中和失手指示器"
+description:
+  启用命中和失手指示器，以便在玩家在挥舞时击中/未击中目标时提供反馈，并显示此次挥舞的伤害值/成功率
+
+Miss Indicator: 失手指示器
+Hit Indicator: 命中指示器
+Punch Indicator: 拳击指示器
+Enabled: 启用
+Color: 颜色
+TextSize: 文本大小
+Duration: 时长
+Speed: 速度

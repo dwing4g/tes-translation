@@ -1,0 +1,42 @@
+text_queststart: "任务开始："
+text_questfin: "任务完成："
+
+settings_modName: "天际风格任务通知"
+
+settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.28
+\n原版MWSE模组制作者：Nazz。\n\n这个模组在你开始和完成任务时会通知你。
+ 这个想法是模仿天际的任务通知，因此取了这个名字。"
+
+settings_modCategory1_name: "偏好"
+settings_modCategory1_setting01_name: "开始/完成任务时开启通知"
+settings_modCategory1_setting01a_name: "显示任务通知图标"
+settings_modCategory1_setting02_name: "透明的通知栏"
+
+settings_modCategory1_setting03_name: "通知栏在屏幕的位置"
+settings_modCategory1_setting03_desc: "水平位置 0.0 = 左边缘, 1.0 = 右边缘"
+
+settings_modCategory1_setting04_name: ""
+settings_modCategory1_setting04_desc: "垂直位置 0.0 = 上边缘, 1.0 = 下边缘"
+
+settings_modCategory1_setting05_name: "显示通知时长(秒)"
+
+settings_modCategory1_setting06_name: "任务开始的通知音效"
+settings_modCategory1_setting06_desc: "选择出现任务开始通知时播放的音效。
+ 选择无则表示通知时无声\n\n默认: 天际任务"
+
+settings_modCategory1_setting07_name: "自定义音效文件"
+settings_modCategory1_setting07_desc: "Sound\\文件夹内的文件路径，包括后缀名。"
+
+settings_modCategory1_setting08_name: "任务完成的通知音效"
+settings_modCategory1_setting08_desc: "选择出现任务完成通知时播放的音效。
+ \n\n默认: 天际任务"
+
+settings_modCategory1_setting09_name: "自定义音效文件"
+settings_modCategory1_setting10_name: "任务更新音效"
+settings_modCategory1_setting10_desc: "选择出现任务进度推进时播放的音效。
+\n\n默认: 日志更新"
+
+settings_modCategory1_setting11_name: "自定义音效文件"
+settings_modCategory1_setting12_name: "运行通知栏测试模式"
+
+
