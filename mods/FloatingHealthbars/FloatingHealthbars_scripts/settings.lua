@@ -29,7 +29,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"nothing", "Actor Name", "HP", "HP/MaxHP", "Buffs"},
 			},
 		},
@@ -41,7 +41,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"nothing", "Actor Name", "HP", "HP/MaxHP", "Buffs"},
 			},
 		},
@@ -53,7 +53,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"nothing", "Actor Name", "HP", "HP/MaxHP"},
 			},
 		},
@@ -65,7 +65,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"nothing", "Actor Name", "HP", "HP/MaxHP", "Buffs"},
 			},
 		},
@@ -77,7 +77,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"nothing", "Fatigue", "Magicka", "Fatigue + Magicka"},
 			},
 		},
@@ -132,7 +132,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"off", "Weapon readied", "always", "Weapon readied = everyone"},
 			},
 		},
@@ -158,7 +158,7 @@ settings = {
 		--	renderer = "select",
 		--	argument = {
 		--		disabled = false,
-		--		l10n = "LocalizationContext", 
+		--		l10n = "HPBars", 
 		--		items = {"none", "HP", "HP/MaxHP"},
 		--	},
 		--},
@@ -187,7 +187,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"hidden", "white", "gray", "bar-color", "color-coded"},
 			},
 		},
@@ -199,7 +199,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"left", "right"},
 			},
 		},
@@ -235,7 +235,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"Pelagiad", "MysticCards", "Daedra", "OpenSans", "Roboto", "BlackOps", "Asul"},
 			},
 		},
@@ -265,7 +265,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"white", "gray", "reaction", "hidden in combat"},
 			},
 		},
@@ -277,7 +277,7 @@ settings = {
 		--	default = "on bar",
 		--	argument = {
 		--		disabled = false,
-		--		l10n = "LocalizationContext", 
+		--		l10n = "HPBars", 
 		--		items = {"on bar", "other side of buffs"},
 		--	},
 		--},
@@ -289,7 +289,7 @@ settings = {
 		--	default = "below", 
 		--	argument = {
 		--		disabled = false,
-		--		l10n = "LocalizationContext", 
+		--		l10n = "HPBars", 
 		--		items = {"hidden", "above", "below"},
 		--	},
 		--},
@@ -310,7 +310,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"feet", "head"},
 			},
 		},
@@ -322,7 +322,7 @@ settings = {
 		--	renderer = "select",
 		--	argument = {
 		--		disabled = false,
-		--		l10n = "LocalizationContext", 
+		--		l10n = "HPBars", 
 		--		items = {"hidden", "higher","middle", "lower"},
 		--	},
 		--},
@@ -381,7 +381,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"none", "max performance", "thin", "normal", "thick", "verythick"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -393,7 +393,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"default", "relative level", "reaction"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -405,7 +405,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "HPBars", 
 				items = {"Y/T/B/R/G  ", "O/T/B/R/G  ", "R/T/B/W/G ", "O/Y2/B/W/G","O/Y/B/R/G  ","O/B/R/G    "},
 			},
 		},

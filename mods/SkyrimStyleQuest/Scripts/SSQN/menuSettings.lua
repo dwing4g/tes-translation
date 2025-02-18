@@ -112,7 +112,7 @@ I.Settings.registerGroup({
             renderer = "select",
             argument = {
                 disabled = false,
-                l10n = "LocalizationContext", 
+                l10n = "SSQN", 
                 items = sounds.start,
             },
 	},
@@ -131,7 +131,7 @@ I.Settings.registerGroup({
             renderer = "select",
             argument = {
                 disabled = false,
-                l10n = "LocalizationContext", 
+                l10n = "SSQN", 
                 items = sounds.finish,
             },
 	},
@@ -149,7 +149,7 @@ I.Settings.registerGroup({
             renderer = "select",
             argument = {
                 disabled = false,
-                l10n = "LocalizationContext", 
+                l10n = "SSQN", 
                 items = sounds.update,
             },
 	},

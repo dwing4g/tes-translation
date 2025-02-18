@@ -64,7 +64,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = MODNAME, 
 				items = {"hidden", "current", "current/max"},
 			},
 		},
@@ -76,7 +76,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = MODNAME, 
 				items = {"left", "right", "right outside"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -88,7 +88,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = MODNAME, 
 				items = {"none", "thin", "normal", "thick", "verythick"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -100,7 +100,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = MODNAME, 
 				items = {"Bottom Left", "Top Left"},
 			},
 		},

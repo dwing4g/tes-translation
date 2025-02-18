@@ -1,0 +1,67 @@
+"Modernized HUD": "现代化HUD"
+"Version 0.6\n\n - by Xander": "版本 0.6\n\n - 作者 Xander"
+
+"Smooth Transitions": "平滑过渡"
+"When toggled on, the bars will smoothly transition. This effect may be prone to unnatural behaviour during lagspikes and when switching cells. It is recommended to turn this off if you experience any issues. May also make the restoration overlay on the bars not quite line up when moving quickly.":
+	"当开启此选项时，状态条将进行平滑过渡。然而，在网络延迟激增或切换单元格时，这种效果可能会导致不自然的行为。如果你遇到任何问题，建议关闭此选项。此外，当你快速移动时，这还可能导致状态条上的恢复覆盖层无法完全对齐。"
+"Smoothness & Drain Speed": "平滑度和流光速度"
+"This value determines the \"smoothness\" and how fast the bars will drain. The default value is 32.":
+	"这个值决定了“平滑度”及多久能把一整条流光。默认值是32。"
+
+"Yellow Remainder": "黄色停留条"
+
+"This feature is an indicator of recently spent health, fatigue, and magicka. When toggled on, a yellow segment will lag behind the current values, providing a visual representation of recent spendings.":
+	"此功能是最近消耗的生命值、耐力和魔法值的指示器。当开启此选项时，一段黄色部分会滞后于当前值，提供最近消耗情况的视觉表示。"
+"Timer": "时长"
+"This value determines how long the yellow segment will remain visible after the player has spent health, fatigue, or magicka. The default value is 10, which equals 1 second.":
+	"这个数值决定了在玩家消耗了生命值、耐力或魔法值后，黄色部分将持续显示多久。默认值是10，表示1秒。"
+"Speed": "速度"
+"This value determines how fast the yellow segment will drain. The default value is 32.":
+	"这个数值决定了黄色部分消失的速度。默认值是32。"
+
+"Enemy Healthbar": "敌方生命条"
+
+"Enable Enemy Healthbar": "启用敌方生命条"
+"Displays the health of the enemy in combat.":
+	"显示战斗中敌人的生命值。"
+"Show Enemy Levels": "显示敌方等级"
+"Displays the level of the enemy in combat.":
+	"显示战斗中敌人的等级。"
+"Show Enemy Class": "显示敌方职业"
+"Displays the class of the enemy in combat.":
+	"显示战斗中敌人的职业。"
+"Anchor Healthbar to Enemy": "将生命条固定在敌人身上"
+"When toggled on, the healthbar will be anchored right over your target's head. Otherwise the healthbar will stay put on the screen.":
+	"当开启此选项时，生命条将固定显示在你的目标头上。否则，生命条将保持在屏幕上的固定位置。"
+"Target Enemy with Crosshair": "使用准星锁定敌人"
+"When toggled on, enemies are targeted using the crosshair. Otherwise, it's lika vanilla Morrowind, where you have to damage the enemy to target it.":
+	"当开启此选项时，可以使用准星来锁定敌人。否则，就像原版晨风一样，你需要对敌人造成伤害才能锁定目标。"
+"Vertical Offset": "垂直偏移"
+"Negative values move the healthbar up, positive values move it down. The default value is 80 / 100.":
+	"负数值将生命条向上移动，正数值将其向下移动。默认值是80/100。"
+
+"Miscellaneous": "杂项"
+
+"General configuration.": "通用配置。"
+"Show Stat Values": "显示状态值"
+"Displays the current values of health, fatigue, and magicka.":
+	"显示当前的生命、体力和魔力值。"
+"Flash When Low": "过低时闪烁"
+"The background will flash red when the player has low health, fatigue, or magicka. Only applies in combat stance (when holding weapon or spell).":
+	"当玩家的生命、体力或魔力值较低时，背景会闪烁红色。仅在战斗姿态下（手持武器或施法时）适用。"
+"Place in upper left corner": "放置到左上角"
+"Places the bars in the upper left corner of the screen.":
+	"将状态条放置在屏幕的左上角。"
+"Length Multiplier": "长度倍率"
+"Adjust the length of the bars.\nThe default value is 10, meaning that a value of 5 would correspond to 50% of the default length.":
+	"调整状态条的长度。\n默认值是10，这意味着值为5对应默认长度的50%。"
+"Length Cap": "长度限制"
+"This value determines the maximum length of the bars. Takes priority over Length Multiplier. \nThe default value is 5000 (essentially uncapped).":
+	"此数值决定状态条的最大长度。优先于长度倍率。\n默认值是5000（实际上没有上限）。"
+
+"Experimental": "实验"
+
+"WARNING! Experimental features mainly for testing." : "警告！实验特性主要用来测试。"
+"Segmented Notches - OpenMW 0.49 only!": "按档分段 - 仅支持OpenMW 0.49"
+"Alternative to Stat Values. When toggled on, the bars will have evenly spaced notches for 50 and 100 units of the respective stat.\n\nImportant! Does not update/refresh changed values in max HP/FP/MP properly when used in tandem with Length Cap, *unless* you either: \n1. Temporarily change the Length Cap to another value and then back, OR \n2. Manually reload the scripts.\n\nWorks absolutely fine uncapped, and in tandem with Length Multiplier.":
+	"作为状态数值的替代选项。当开启此选项时，状态条将以相等间距标记出各自状态的50和100单位。\n\n重要提示！如果与长度上限一起使用，不会正确更新/刷新最大HP/FP/MP的变化值，*除非*你\n1. 临时更改长度上限到另一个值然后再改回来，或者\n2. 手动重新加载脚本。\n\n在没有上限的情况下，以及与长度倍率一起使用时，可以完全正常工作。"

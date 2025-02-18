@@ -37,7 +37,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "QuickLoot", 
 				items = {"off", "immediately", "on take", "disabled by shift"},
 			},
 		},
@@ -104,7 +104,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "QuickLoot", 
 				items = {"Disabled", "Symbolic", "F / R"},
 			},
 		},
@@ -116,7 +116,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "QuickLoot", 
 				items = {"Vanilla", "Lowest Weight", "Highest Value", "Best W/V"},
 			},
 		},
@@ -196,7 +196,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "QuickLoot", 
 				items = {"none", "thin", "normal", "thick", "verythick"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -208,7 +208,7 @@ settings = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "LocalizationContext", 
+				l10n = "QuickLoot", 
 				items = {"off", "unread", "read"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},

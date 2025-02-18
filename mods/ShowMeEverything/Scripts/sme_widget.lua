@@ -189,7 +189,7 @@ local function updateStandartPositions()
 end
 
 local function updateWidgetStyle()
-    if settings.style:get('SMEWidgetStyle') == '原版风格' then
+    if settings.style:get('SMEWidgetStyle') == 'Vanilla' then
         healthBarElement.layout.content = I.SME_STYLE.getStyleVanilla()
         healthBarFull.layout.props.size = util.vector2(450, 70)
         healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.29)
@@ -198,7 +198,7 @@ local function updateWidgetStyle()
         healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.429)
         nameElement.layout.props.textSize = 17.5
         nameElement.layout.props.relativePosition = util.vector2(0.5, 0.047)
-    elseif settings.style:get('SMEWidgetStyle') == '天际风格' then
+    elseif settings.style:get('SMEWidgetStyle') == 'Skyrim' then
         healthBarElement.layout.content = I.SME_STYLE.getStyleSkyrim()
         healthBarFull.layout.props.size = util.vector2(450, 60)
         healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.29)
@@ -207,7 +207,7 @@ local function updateWidgetStyle()
         healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.432)
         nameElement.layout.props.textSize = 18
         nameElement.layout.props.relativePosition = util.vector2(0.5, 0.03)
-    elseif settings.style:get('SMEWidgetStyle') == 'ESO风格' then
+    elseif settings.style:get('SMEWidgetStyle') == 'Sky Nostalgy' then
         healthBarElement.layout.content = I.SME_STYLE.getStyleNostalgy()
         barSize = util.vector2(307, 10)
         healthBarFull.layout.props.size = util.vector2(450, 60)
@@ -216,7 +216,7 @@ local function updateWidgetStyle()
         nameElement.layout.props.textSize = 17
         nameElement.layout.props.relativePosition = util.vector2(0.5, 0.052)
         damageElement.layout.props.relativePosition = util.vector2(0.76, 0.87)
-    elseif settings.style:get('SMEWidgetStyle') == '简约平面风格' then
+    elseif settings.style:get('SMEWidgetStyle') == 'Flat' then
         healthBarElement.layout.content = I.SME_STYLE.getStyleFlat()
         barSize = util.vector2(300, 16)
         healthBarFull.layout.props.size = util.vector2(450, 65)
@@ -225,7 +225,7 @@ local function updateWidgetStyle()
         nameElement.layout.props.textSize = 18
         nameElement.layout.props.relativePosition = util.vector2(0.5, 0)
         damageElement.layout.props.relativePosition = util.vector2(0.9, 0.548)
-    elseif settings.style:get('SMEWidgetStyle') == '原版极简风格' then
+    elseif settings.style:get('SMEWidgetStyle') == 'Minimal Vanilla' then
         healthBarElement.layout.content = I.SME_STYLE.getStyleMinimal()
         barSize = util.vector2(180, 30)
         healthBarFull.layout.props.size = util.vector2(250, 40)
@@ -234,7 +234,7 @@ local function updateWidgetStyle()
         nameElement.layout.props.textSize = 16
         nameElement.layout.props.relativePosition = util.vector2(0.5, 0.067)
         damageElement.layout.props.relativePosition = util.vector2(0.94, 0.83)
-    elseif settings.style:get('SMEWidgetStyle') == '第六家族风格' then
+    elseif settings.style:get('SMEWidgetStyle') == 'Sixth House' then
         healthBarElement.layout.content = I.SME_STYLE.getStyleSixthHouse()
         barSize = util.vector2(275, 18)
         healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.45)
