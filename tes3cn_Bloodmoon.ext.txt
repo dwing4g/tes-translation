@@ -6034,7 +6034,7 @@ Bear Shield
 
 > WEAP.FNAM BM_Mace_Aevar_UNI
 Mace of Aevar Stone-Singer
-“咏石者”艾瓦的钉锤
+“咏石者”艾瓦之锤
 
 > CREA.FNAM BM_bear_black_summon
 Grizzly Bear
@@ -14946,7 +14946,7 @@ I have completed all the six rituals necessary, and should return to Heart-Fang.
 
 > INFO.NAME bm_stones 203388662202930523
 Heart-Fang was pleased with my efforts in performing the six rituals. He has rewarded me with the Mace of Aevar Stonesinger, a prized Skaal weapon. Heart-Fang was reluctant to give me the weapon, as I am still an outsider to him. Still, tradition dictates that I be given the magnificent mace.
-心牙对我完成六项仪式的努力很满意。他奖励我艾瓦·咏石者之锤，这是一件珍贵的斯卡尔武器。心牙不愿意把武器给我，因为我对他来说还是个外人。不过，按照传统，我还是要得到这把华丽的锤子。 {报酬,钉锤}
+心牙对我完成六项仪式的努力很满意。他奖励我“咏石者”艾瓦之锤，这是一件珍贵的斯卡尔武器。心牙不愿意把武器给我，因为我对他来说还是个外人。不过，按照传统，我还是要得到这把华丽的锤子。 {报酬,钉锤}
 
 > INFO.NAME bm_draugr 1599412478888311608
 The Skaal Test of Strength
@@ -16230,7 +16230,7 @@ The power is restored. The Oneness of the lands is in balance.
 
 > INFO.NAME restore the power of the skaal 32392142562214631127
 You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.
-你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个。艾瓦·咏石之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
+你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
 
 > INFO.NAME restore the power of the skaal 2590175251454860
 Wind-Eye has told you of the Ritual of the Gifts, has he not? Go to it.
@@ -16582,7 +16582,7 @@ The power is restored. The Oneness of the lands is in balance.
 
 > INFO.NAME the power of the skaal 32392142562214631127
 You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.
-你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个。艾瓦·咏石之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
+你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
 
 > INFO.NAME the power of the skaal 2590175251454860
 Wind-Eye has told you of the Ritual of the Gifts, has he not? Go to it.
@@ -29380,11 +29380,11 @@ You were to investigate a crime. Have you done this?
 
 > INFO.NAME hello 205815768135704740
 You have shown your loyalty to the Skaal.
-你已经展现了对斯卡尔的忠诚。
+你已经表现出了对斯卡尔的忠诚。
 
 > INFO.NAME hello 13338237781868830296
 You were told to perform the rituals needed to restore the power of the Skaal. What have you done?
-你们被告知要举行仪式恢复斯卡尔的力量，你做了什么？
+你被告知要举行仪式恢复斯卡尔的力量，你做了什么？
 
 > INFO.NAME hello 12109247951228018206
 I was trying to explain to you, outlander, that you have much to atone for.
