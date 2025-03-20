@@ -46,7 +46,7 @@ settings = {
 			name = "Width (%)",
 			description = "of the ui element (1-100)",
 			renderer = "number",
-			default = 25,
+			default = 20,
 			argument = {
 				min = 1,
 				max = 100,
@@ -57,7 +57,7 @@ settings = {
 			name = "Height (%)",
 			description = "of the ui element (1-100)",
 			renderer = "number",
-			default = 40,
+			default = 30,
 			argument = {
 				min = 1,
 				max = 100,
@@ -68,7 +68,7 @@ settings = {
 			name = "X Position (%)",
 			description = "Location of the center (1-100)",
 			renderer = "number",
-			default = 75,
+			default = 71,
 			argument = {
 				min = 1,
 				max = 100,
@@ -90,10 +90,22 @@ settings = {
 			name = "textSizeMult (%)",
 			description = "1-200",
 			renderer = "number",
-			default = 90,
+			default = 75,
 			argument = {
 				min = 1,
 				max = 200,
+			},
+		},
+		{
+			key = "HEADER_FOOTER",
+			name = "List Header/Footer",
+			description = "Show list header/footer",
+			default = "show both", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"hide both", "show both", "all top", "all bottom", "only top", "only bottom"},
 			},
 		},
 		{
@@ -110,14 +122,14 @@ settings = {
 		},
 		{
 			key = "CONTAINER_SORTING_STATS",
-			name = "Item Sorting by Weight/ Value",
+			name = "Item Sorting by Value / Weight",
 			description = "Changes the order of icons in containers",
-			default = "Best W/V", 
+			default = "Best V/W", 
 			renderer = "select",
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
-				items = {"Vanilla", "Lowest Weight", "Highest Value", "Best W/V"},
+				items = {"Vanilla", "Lowest Weight", "Highest Value", "Best V/W"},
 			},
 		},
 		{
@@ -150,7 +162,7 @@ settings = {
 		},
 		{
 			key = "CONTAINER_SORTING_INGREDIENTS",
-			name = "Sorting: Ingredients below weight...",
+			name = "Sorting: Ingredients Below [x] Weight On Top",
 			description = "0 = Disable",
 			renderer = "number",
 			default = 1.5,
@@ -162,6 +174,13 @@ settings = {
 		{
 			key = "CONTAINER_SORTING_REPAIR",
 			name = "Sorting: Repair Tools On Top",
+			description = "",
+			renderer = "checkbox",
+			default = true
+		},
+		{
+			key = "CONTAINER_SORTING_WORTHLESS",
+			name = "Sorting: Zero Value On Top",
 			description = "",
 			renderer = "checkbox",
 			default = true
@@ -183,7 +202,7 @@ settings = {
 		},
 		{
 			key = "COLUMN_WV",
-			name = "Show W/V Column",
+			name = "Show V/W Column",
 			description = "",
 			renderer = "checkbox",
 			default = true
@@ -233,8 +252,39 @@ settings = {
 			name = "Fix buggy font",
 			description = "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font",
 			renderer = "checkbox",
-			default = false
+			default = true
 		},
+		{
+			key = "HAND_SYMBOL",
+			name = "Stealing Hand Symbol",
+			description = "Enable the pink hand next to the red text when the container belongs to someone",
+			renderer = "checkbox",
+			default = true
+		},
+		{
+			key = "TOOLTIP_MODE",
+			name = "Tooltip position",
+			description = "doesn't work with the font fix below",
+			default = "read", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"off", "left","left (fixed)", "right", "right (fixed)", "bottom", "top"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+			},
+		},
+		{
+			key = "TOOLTIP_FONT_WIDTH",
+			name = "Fix: Tooltip box width (multiplier)",
+			description = "there's no autosizing, so i had to calculate the dimensions of the text",
+			renderer = "number",
+			default = 0.55,
+			argument = {
+				min = 0.01,
+				max = 10,
+			},
+		},
+		
 	}
 }
 

@@ -19,12 +19,13 @@ input = require('openmw.input')
 v2 = util.vector2
 v3 = util.vector3
 local Controls = require('openmw.interfaces').Controls
-local makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
+local l10n = core.l10n('QuickLoot')
+makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
 local settings = require("scripts.OwnlysQuickLoot.ql_settings")
 local helpers = require("scripts.OwnlysQuickLoot.ql_helpers")
-readFont, texText, rgbToHsv, hsvToRgb,fromutf8,toutf8,hextoutf8 = unpack(helpers)
-local background = ui.texture { path = 'black' }
-local white = ui.texture { path = 'white' }
+readFont, texText, rgbToHsv, hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber = unpack(helpers)
+background = ui.texture { path = 'black' }
+white = ui.texture { path = 'white' }
 valueTex = ui.texture { path = 'textures\\QuickLoot_coins.dds' }
 valueByWeightTex = ui.texture { path = 'textures\\QuickLoot_scale.dds' }
 backpackTex = ui.texture { path = 'textures\\QuickLoot_backpack.dds' }
@@ -41,7 +42,6 @@ local backupSelectedContainer = nil
 local scrollPos = 1
 local containerItems = {}
 TAKEALL_KEYBINDING = KEY.F
-local lastItemCount = 99999999
 uiLoc = v2(playerSection:get("X")/100,playerSection:get("Y")/100)
 uiSize = v2(playerSection:get("WIDTH")/100,playerSection:get("HEIGHT")/100)
 local textureCache = {}
@@ -61,6 +61,8 @@ local layerId = ui.layers.indexOf("HUD")
 local width = ui.layers[layerId].size.x 
 local screenres = ui.screenSize()
 local uiScale = screenres.x / width
+local makeTooltip = require("scripts.OwnlysQuickLoot.tooltip")
+local containerHash = 0
 
 function updateModEnabled()
 	local tempState = true
@@ -100,15 +102,14 @@ quickLootText = {
 	}
 }
 
-local itemFontSize = 21
+itemFontSize = 20
 
 
 
-local function getTexture(path)
+function getTexture(path)
 	if not textureCache[path] then
 		textureCache[path] = ui.texture{path = path}
 	end
-	
 	return textureCache[path]
 end
 
@@ -126,8 +127,16 @@ input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sn
 	end
 end)) 
 
+
+
+
+
 function drawUI()
-	
+	local hudLayerSize = ui.layers[ui.layers.indexOf("HUD")].size
+	local rootWidth = hudLayerSize.x * uiSize.x
+	local rootHeight = hudLayerSize.y * uiSize.y
+	local header_footer_setting = playerSection:get("HEADER_FOOTER")
+	core.sendGlobalEvent("OwnlysQuickLoot_freshLoot",{self, inspectedContainer})
 	if backupSelectedContainer == inspectedContainer then
 		selectedIndex = backupSelectedIndex
 	else
@@ -142,51 +151,35 @@ function drawUI()
 	end
 	borderOffset = playerSection:get("BORDER_STYLE") == "verythick" and 4 or playerSection:get("BORDER_STYLE") == "thick" and 3 or playerSection:get("BORDER_STYLE") == "normal" and 2 or (playerSection:get("BORDER_STYLE") == "thin" or playerSection:get("BORDER_STYLE") == "max performance") and 1 or 0
 	borderTemplate =  makeBorder(borderFile, borderColor or nil, borderOffset).borders
-	if hud then 
-		hud:destroy()
+	if root then 
+		root:destroy()
+	end
+	if tooltip then
+		tooltip:destroy()
 	end
 	local localizedName = inspectedContainer.type.records[inspectedContainer.recordId].name
-	
-	hud = ui.create({	--root
+	local absPos = v2(hudLayerSize.x * uiLoc.x, hudLayerSize.y * uiLoc.y)
+	root = ui.create({	--root
 		type = ui.TYPE.Widget,
 		layer = 'HUD',
 		name = 'QuickLootBox',
 		props = {
-			--position = playerSection:get("POSITION") == "Bottom Left" and v2(94,-startOffset) or v2(startOffset,startOffset),
-			--size = v2(0.2,0.2),
-			anchor = v2(0.5,0.5), --playerSection:get("POSITION") == "Bottom Left" and v2(0,1) or v2(0,0),
-			relativePosition = uiLoc, --playerSection:get("POSITION") == "Bottom Left" and v2(0,1) or v2(0,0),
-			relativeSize =  uiSize,
+			anchor = v2(0.5,0.5), 
+			position = absPos,
+			size = v2(rootWidth, rootHeight),
 		},
 		content = ui.content {
-			--{ --background
-			--	type = ui.TYPE.Image,
-			--	props = {
-			--		resource = background,
-			--		tileH = false,
-			--		tileV = false,
-			--		relativeSize  = v2(1,1),
-			--		relativePosition = v2(0,0),
-			--		--position = v2(1,1),
-			--		--size = v2(-2,-2),
-			--		alpha = 0.3,
-			--	}
-			--}
 		}
 	})
-	local screenAspectRatio = ui.screenSize()
-	local textSizeMult = screenAspectRatio.y /1200*(uiSize.y/0.4)
-	local headerFooterScale = (textSizeMult^0.5)/textSizeMult*uiScale
+	
+	textSizeMult = ui.screenSize().y /1200*(uiSize.y/0.4)
+	local outerHeaderFooterScale = (textSizeMult^0.5)/textSizeMult*uiScale
 	textSizeMult = textSizeMult^0.5
 	textSizeMult=textSizeMult*playerSection:get("textSizeMult")/100
-	headerFooterScale = headerFooterScale*playerSection:get("textSizeMult")/100
-	screenAspectRatio = screenAspectRatio.x/screenAspectRatio.y
-	uiSize= v2(uiSize.x*screenAspectRatio, uiSize.y)
-	local hudAspectRatio = uiSize.x/uiSize.y
-	local hudLayerSize = ui.layers[ui.layers.indexOf("HUD")].size
-	
-	local headerFooterMargin = 0.005
-	local headerFooterHeight = 0.06*headerFooterScale
+	outerHeaderFooterScale = outerHeaderFooterScale*playerSection:get("textSizeMult")/100
+
+	local outerHeaderFooterMargin = 0.005 *rootHeight
+	outerHeaderFooterHeight = 0.06*outerHeaderFooterScale*rootHeight
 	local captionOffset = 0
 
 	
@@ -198,7 +191,7 @@ function drawUI()
 		--stealCol = util.color.rgba(1,0.714, 0.706, 1)
 		stealCol = util.color.rgba(1,0.05, 0.05, 1)
 		--STEALING ICON
-		--captionOffset = headerFooterHeight/hudAspectRatio
+		--captionOffset = outerHeaderFooterHeight/hudAspectRatio
 		
 	end
 	--Caption: CONTAINER NAME
@@ -206,32 +199,30 @@ function drawUI()
 		type = ui.TYPE.Flex,
 		props = {
 			position = v2(0, 0),
-			relativeSize  = v2(1,headerFooterHeight),
-			relativePosition = v2(0 + captionOffset, 0.011),
+			size  = v2(1,outerHeaderFooterHeight),
+			position = v2(0 + captionOffset, 0.011*rootHeight),
 			anchor = v2(0,0),
 			horizontal = true,
 		},
 		content = ui.content({})
 	}
-	table.insert(hud.layout.content,headline)
+	table.insert(root.layout.content,headline)
 	
 	table.insert(headline.content,{
 		type = ui.TYPE.Text,
 		template = quickLootText,
 		props = {
-			text = localizedName.." ",
+			text = ""..localizedName.." ",
 			textSize= 25*textSizeMult,
 			position = v2(0, 0),
-			relativeSize  = v2(1,headerFooterHeight),
-			relativePosition = v2(0.015 + captionOffset, headerFooterHeight/2),
+			size  = v2(rootWidth,outerHeaderFooterHeight),
+			position = v2(0.015*rootWidth + captionOffset, outerHeaderFooterHeight/2),
 			anchor = v2(0,0.5),
 			textColor = stealCol or playerSection:get("ICON_TINT"),
 		}
 	})
 	
-	
-
-	if stealCol then
+	if stealCol and playerSection:get("HAND_SYMBOL") then
 		table.insert(headline.content,{
 			type = ui.TYPE.Image,
 			props = {
@@ -240,26 +231,26 @@ function drawUI()
 				tileV = false,
 				position = v2(0, 0),
 				--relativeSize  = v2(1,1),
-				size = v2(hudLayerSize.y*uiSize.y*headerFooterHeight*0.88,hudLayerSize.y*uiSize.y*headerFooterHeight*0.88),
+				size = v2(outerHeaderFooterHeight*0.8,outerHeaderFooterHeight*0.8),
 				alpha = 0.8,
 			}
 		})
 	end
-
-
-	--itemHUD
-	local itemHud = { -- r.1.7
+	
+	-- BOX
+	local boxHeight = rootHeight - 2 * (outerHeaderFooterHeight + outerHeaderFooterMargin)
+	local box = { -- r.1.7
 		type = ui.TYPE.Widget,
 		props = {
-			relativeSize  = v2(1,1-2*(headerFooterHeight+headerFooterMargin)),
-			relativePosition = v2(0,headerFooterHeight+headerFooterMargin),
+			size = v2(rootWidth, boxHeight),
+			position = v2(0, outerHeaderFooterHeight + outerHeaderFooterMargin),
 		},
 		content = ui.content {}
 	}
-	table.insert(hud.layout.content, itemHud)
+	table.insert(root.layout.content, box)
 	
-	--itemHUD BACKGROUND
-	table.insert(itemHud.content, {
+	--box BACKGROUND
+	table.insert(box.content, {
 		type = ui.TYPE.Image,
 		props = {
 			resource = background,
@@ -267,20 +258,18 @@ function drawUI()
 			tileV = false,
 			relativeSize  = v2(1,1),
 			relativePosition = v2(0,0),
-			alpha = 0.3,
+			alpha = 0.4,
 		}
 	})
-	--itemHUD BORDER
-	table.insert(itemHud.content, {
+	--box BORDER
+	table.insert(box.content, {
 		template = borderTemplate,
 		props = {
 			relativeSize  = v2(1,1),
 			alpha = 0.5,
 		}
 	})
-	local boxDimensions = v2(uiSize.x,uiSize.y*(1-2*(headerFooterHeight+headerFooterMargin)))
-	local entryWidth = 0.7--1-(1.5*lineHeight + 0.01)
-	local itemBoxHeaderFooterHeight = 0.08*headerFooterScale
+	
 	local widgets = {} --inverse sorting
 	if playerSection:get("COLUMN_WV") then
 		table.insert(widgets,"valueByWeight")
@@ -291,41 +280,55 @@ function drawUI()
 	if playerSection:get("COLUMN_WEIGHT") then
 		table.insert(widgets,"weight")
 	end
-	--local textDimensions = v2(uiSize.x*entryWidth,uiSize.y*(1-2*(headerFooterHeight+headerFooterMargin)))
 	
-	local localListDimensions = v2(1,1-(#widgets>0 and 2 or 1)*(itemBoxHeaderFooterHeight+0.001))
-	--local listBoxDimensions = v2(boxDimensions.x,#widgets >1 and boxDimensions.y*(1-2*(itemBoxHeaderFooterHeight+0.003)+margin) or boxDimensions.y*(1-itemBoxHeaderFooterHeight-0.003+margin))
-	local realListBoxDimensions = v2(boxDimensions.x,boxDimensions.y*localListDimensions.y) --only for line max items
-	local absoluteRealListBoxDimensions = realListBoxDimensions:emul(v2(hudLayerSize.x/screenAspectRatio,hudLayerSize.y))
-	local margin = 0.01 --0.001 margin before and after list
-	local maxItems = math.floor(absoluteRealListBoxDimensions.y / (itemFontSize*textSizeMult*1.5+margin*absoluteRealListBoxDimensions.y))--pctOfListHeightPerEntry / realListBoxDimensions.y --math.floor(realListBoxDimensions.y/(0.021))--math.floor(14*(boxDimensions.y/0.4))
-	local pctOfListHeightPerEntry = localListDimensions.y / maxItems --absoluteRealListBoxDimensions.y / (itemFontSize*textSizeMult+margin)
-	local itemHudAspectRatio = boxDimensions.x/boxDimensions.y 
-	local lineHeight = localListDimensions.y/maxItems
-	lineHeight = lineHeight - margin +1/maxItems*margin--/2
-	local relativePosition = 0
-	local itemNameX = lineHeight/itemHudAspectRatio + 0.02
+	encumbranceCurrent = types.Actor.getEncumbrance(self)
+	local encumbranceMax = types.Actor.stats.attributes.strength(self).modified*core.getGMST("fEncumbranceStrMult")
 	
+	local headerFooterHeight = math.floor(itemFontSize*textSizeMult*1.25)
+	local listHeight = boxHeight-2*borderOffset
+	local listY = borderOffset
+	--if header_footer_setting == "only top" or header_footer_setting == "all top" or header_footer_setting == "hide both" then -- WHY?
+	--	listHeight = listHeight-2
+	--end
+	if header_footer_setting == "show both" then
+		listHeight = listHeight - 2*(headerFooterHeight)
+	elseif header_footer_setting ~= "hide both" then
+		listHeight = listHeight - (headerFooterHeight)
+	end
 	
-	--itemList HEADER
-	if #widgets > 0 then
-		--itemList HEADER Background
-		table.insert(itemHud.content,
+	if header_footer_setting == "show both" or header_footer_setting == "all top" or header_footer_setting == "only top" then
+		listY = listY + headerFooterHeight
+	end
+	
+	-- HEADER
+	if header_footer_setting == "show both" or header_footer_setting == "all top" or header_footer_setting ==  "only top" then
+		local header = { -- r.1.7
+			type = ui.TYPE.Widget,
+			props = {
+				size = v2(rootWidth-2*borderOffset, headerFooterHeight),
+				position = v2(borderOffset, borderOffset),
+			},
+			content = ui.content {}
+		}
+		table.insert(box.content, header)
+		--list HEADER Background
+		table.insert(header.content,
 		{
 			type = ui.TYPE.Image,
 			props = {
 				resource = background,
 				tileH = false,
 				tileV = false,
-				relativeSize  = v2(1,itemBoxHeaderFooterHeight),
-				size = v2(-borderOffset*2,-borderOffset),
-				position = v2(borderOffset,borderOffset),
+				relativeSize  = v2(1,1),
+				size = v2(0,0),
+				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
+				position = v2(0,0),
 				relativePosition = v2(0, 0),
-				alpha = 0.4,
+				alpha = 0.3,
 			}
 		})
-		--itemList HEADER Line
-		table.insert(itemHud.content,
+		--list HEADER Line
+		table.insert(header.content,
 		{
 			type = ui.TYPE.Image,
 			props = {
@@ -333,38 +336,84 @@ function drawUI()
 				tileH = false,
 				tileV = false,
 				relativeSize  = v2(1,0),
-				size = v2(-borderOffset*2,1),
-				position = v2(borderOffset,-1),
-				relativePosition = v2(0, itemBoxHeaderFooterHeight),
+				size = v2(0,1),
+				position = v2(0,-1),
+				relativePosition = v2(0, 1),
 				alpha = 0.4,
 			}
 		})
-		relativePosition = relativePosition + itemBoxHeaderFooterHeight+0.001
+		if header_footer_setting == "all top" then
+			local encumbranceColor = playerSection:get("FONT_TINT")
+			local encumbranceIconColor = playerSection:get("ICON_TINT")
+			if encumbranceCurrent > encumbranceMax then
+				encumbranceColor = util.color.rgb(0.85,0, 0)
+				encumbranceIconColor = util.color.rgb(1,0, 0)
+			end
+			--list HEADER ENCUMBRANCE ICON
+			table.insert(header.content,{
+				type = ui.TYPE.Image,
+				props = {
+					resource = backpackTex,
+					tileH = false,
+					tileV = false,
+					size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
+					position = v2(8,2),
+					alpha = 0.5,
+					anchor = v2(0,0),
+					color = encumbranceIconColor,
+				}
+			})
+			
+			--list HEADER ENCUMBRANCE TEXT
+			table.insert(header.content,{
+				type = ui.TYPE.Text,
+				template = quickLootText,
+				props = {
+					text = ""..math.floor(encumbranceCurrent+0.5).. "/"..math.floor(encumbranceMax+0.5),
+					textSize= headerFooterHeight*0.82,----20*textSizeMult,
+					position = v2(0.85*headerFooterHeight+8, headerFooterHeight/2+1),
+					size  = v2(55+0.85*headerFooterHeight,0.85*headerFooterHeight),
+					anchor = v2(0,0.5),
+					textColor = encumbranceColor,
+				},
+			})
+		end
+
 		local widgetOffset = 0.05 -- for scrollbar
-		--itemList HEADER ICONS
+		--list HEADER ICONS
 		for _, widget in pairs(widgets) do
-			table.insert(itemHud.content,{
+			table.insert(header.content,{
 				type = ui.TYPE.Image,
 				props = {
 					resource = _G[widget.."Tex"],
 					tileH = false,
 					tileV = false,
-					relativeSize  = v2(0.85*itemBoxHeaderFooterHeight/itemHudAspectRatio,0.85*itemBoxHeaderFooterHeight),
-					relativePosition = v2(1-widgetOffset, itemBoxHeaderFooterHeight),
-					position = v2(0,-2),
-					anchor = v2(1,1),
+					size  = v2(0.95*headerFooterHeight,0.95*headerFooterHeight),
+					relativePosition = v2(1-widgetOffset, -0.05),--itemBoxHeaderFooterHeight),
+					position = v2(0,-1.5),
+					anchor = v2(1,0),
 					alpha = 0.8,
 					color = playerSection:get("ICON_TINT"),
 				}
 			})
 			widgetOffset =widgetOffset+ math.max(0.12,0.105*textSizeMult)--itemBoxHeaderFooterHeight*headerFooterScale
 		end
-	else
-		relativePosition = relativePosition+borderOffset/absoluteRealListBoxDimensions.y
 	end
+	-- /HEADER
 	
+	local entryWidth = 0.7*rootWidth
+
+	local maxItems = math.floor(listHeight / (itemFontSize*textSizeMult*1.39+1))
+
+	local relLineHeight = 1/maxItems
+	local absLineHeight = relLineHeight * listHeight
+	local position = 0
+	
+	
+
 	
 	--SORTING
+	do
 	containerItems = types.Container.inventory(inspectedContainer):getAll()
 	local sortedItems = {
 		{}, --cash = {},
@@ -373,6 +422,7 @@ function drawUI()
 		{}, --soulgems = {},
 		{}, --ingredients= {},
 		{}, --repair = {},
+		{}, --worthless = {},
 		{}, --other = {}
 	}
 	for _,item in pairs(containerItems) do
@@ -397,8 +447,10 @@ function drawUI()
 			end
 		elseif itemType == types.Repair and playerSection:get("CONTAINER_SORTING_REPAIR") then
 			table.insert(sortedItems[6], {item, itemRecord.value, itemRecord.weight})
-		else
+		elseif itemRecord.value == 0 and playerSection:get("CONTAINER_SORTING_WORTHLESS") then
 			table.insert(sortedItems[7], {item, itemRecord.value, itemRecord.weight})
+		else
+			table.insert(sortedItems[8], {item, itemRecord.value, itemRecord.weight})
 		end
 	end
 	containerItems = {}
@@ -442,15 +494,23 @@ function drawUI()
 			table.insert(containerItems,itemData[1])
 		end
 	end
+	end
+	-- /SORTING
+	
+	-- LIST
+	local list = {
+		type = ui.TYPE.Widget,
+		props = {
+			size = v2(rootWidth-borderOffset*2, listHeight),
+			position = v2(borderOffset, listY),
+		},
+		content = ui.content {}
+	}
+	table.insert(box.content, list)
 	
 	--SCROLLBAR
 	local highlightWidth = 1
-	local highlightWidthAbs = -borderOffset*2
-	--local listLimit = 1-itemBoxHeaderFooterHeight
-	local scrollBarRange = localListDimensions.y --listLimit-relativePosition
 	selectedIndex = math.min(selectedIndex,#containerItems)
-	--print(selectedIndex)
-	--if 
 	if selectedIndex >= scrollPos+maxItems-1 then
 		scrollPos = math.min(#containerItems-maxItems+1, selectedIndex - maxItems+2)
 	elseif selectedIndex <= scrollPos then
@@ -458,62 +518,69 @@ function drawUI()
 	end
 	scrollPos = math.min(scrollPos, math.max(1,#containerItems+2-maxItems))
 	local visibleItems = math.min(maxItems,#containerItems-scrollPos+1)
-	--if #containerItems > maxItems then
-	if scrollPos > 1 or #containerItems > maxItems then
+
+	if scrollPos > 1 or #containerItems > maxItems then -- show scrollbar?
 		highlightWidth = 0.96
-		highlightWidthAbs = -borderOffset
+		
+		-- rounding fix:
+		local visibleStart = math.floor((scrollPos-1)/#containerItems*listHeight+0.5)
+		local visibleEnd = math.ceil((scrollPos-1+visibleItems)/#containerItems*listHeight)
+		local visibleLength = math.min(listHeight, visibleEnd - visibleStart)
+		
+		local selectedStart = math.floor((selectedIndex-1)/#containerItems*listHeight+0.5)
+		local selectedEnd = math.ceil((selectedIndex-1+1)/#containerItems*listHeight)
+		local selectedLength = math.min(listHeight, selectedEnd - selectedStart)
+
 		--SCROLLBAR BACKGROUND
-		table.insert(itemHud.content,
+		table.insert(list.content,
 		{
 			type = ui.TYPE.Image,
 			props = {
 				resource = background,
 				tileH = false,
 				tileV = false,
-				relativePosition = v2(0.96,relativePosition),
-				relativeSize  = v2(0.04,scrollBarRange),
-				size = v2(-borderOffset,0),
-				alpha = 0.2,
+				anchor=v2(1,0),
+				relativePosition = v2(1,0),
+				relativeSize = v2(0.04,1),
+				alpha = 0.5,
 				color = playerSection:get("FONT_TINT"),
 			}
 		})
 		--SCROLLBAR VISIBLE RANGE
-		table.insert(itemHud.content,
+		table.insert(list.content,
 		{
 			type = ui.TYPE.Image,
 			props = {
 				resource = white,
-				tileH = false,
-				tileV = false,
-				relativePosition = v2(0.96,(scrollPos-1)/#containerItems*scrollBarRange+relativePosition),
-				relativeSize  = v2(0.04,visibleItems/#containerItems*scrollBarRange),
-				size = v2(-borderOffset,0),
+				relativePosition = v2(1,0),
+				relativeSize  = v2(0.04,0),
+				position = v2(0,visibleStart),
+				size = v2(0,visibleLength),
 				alpha = 0.15,
+				anchor= v2(1,0),
 				color = playerSection:get("ICON_TINT"),
 				
 			}
 		})
 		--SCROLLBAR SELECTED
-		table.insert(itemHud.content,
+		table.insert(list.content,
 		{
 			type = ui.TYPE.Image,
 			props = {
 				resource = white,
-				tileH = false,
-				tileV = false,
-				relativePosition = v2(0.96,(selectedIndex-1)/#containerItems*scrollBarRange+relativePosition),
-				relativeSize  = v2(0.04,1/#containerItems*scrollBarRange),
-				size = v2(-borderOffset,0),
+				relativePosition = v2(1,0),
+				relativeSize  = v2(0.04,0),
+				position = v2(0,selectedStart),
+				size = v2(0,    selectedLength),
 				alpha = 0.5,
+				anchor=v2(1,0),
 				color = playerSection:get("ICON_TINT"),
 			}
 		})
 	end
-	encumbranceCurrent = types.Actor.getEncumbrance(self)
-	local encumbranceMax = types.Actor.stats.attributes.strength(self).modified*core.getGMST("fEncumbranceStrMult")
-	
-	--for _, thing in pairs(types.Container.inventory(inspectedContainer):getAll()) do
+
 	-- ITEMS
+	local relativePosition = 0
 	local renderedEntries = 0
 	for i, thing in pairs(containerItems) do
 		local thingRecord = thing.type.records[thing.recordId]
@@ -523,217 +590,268 @@ function drawUI()
 			renderedEntries = renderedEntries + 1
 			local thingName =  thingRecord.name or thing.id
 			--thingName= fromutf8(thingName)
-			--print(thingName)
 			local icon = thingRecord.icon
 			local thingCount = thing.count or 1
 			local countText = thingCount > 1 and " ("..thing.count..")" or ""
 			if i == selectedIndex then
 				-- SELECTION HIGHLIGHT
-				table.insert(itemHud.content, {
+				table.insert(list.content, {
 					type = ui.TYPE.Image,
 					props = {
 						resource = white,
 						tileH = false,
 						tileV = false,
-						relativeSize  = v2(highlightWidth,lineHeight),--+margin/2),
+						relativeSize  = v2(highlightWidth,0),
+						size = v2(1,math.ceil(relLineHeight*listHeight)),
 						relativePosition = v2(0,relativePosition),
-						position = v2(borderOffset,0),
-						--size = v2(-2,-2),
-						size = v2(highlightWidthAbs,0),
+						position = v2(0,0),
 						alpha = 0.3,
 						color = playerSection:get("ICON_TINT"),
 					}
 				})
+				tooltip = makeTooltip(
+					thing
+					,
+					-- box position
+					outerHeaderFooterHeight + outerHeaderFooterMargin
+					-- list position
+					+listY
+					-- highlight position * list height
+					+relativePosition*listHeight
+				)
 			end
 			local ench = thing and (thing.enchant or thingRecord.enchant ~= "" and thingRecord.enchant )
 			if icon then
 				if ench then 
 					--ENCHANT ICON
-					table.insert(itemHud.content, {
+					table.insert(list.content, {
 						type = ui.TYPE.Image,
 						props = {
 							resource = getTexture("textures\\menu_icon_magic_mini.dds"),
 							tileH = false,
 							tileV = false,
-							relativeSize  = v2(lineHeight/itemHudAspectRatio,lineHeight),
-							relativePosition = v2(0.01,relativePosition),
-							--position = v2(1,1),
-							--size = v2(-2,-2),
+							relativePosition = v2(0,relativePosition),
+							size = v2(absLineHeight-2,absLineHeight-2),
+							position = v2(1,1),
 							alpha = 0.7,
 						}
 					})			
 				end
 				-- ITEM ICON
-				table.insert(itemHud.content, {
+				table.insert(list.content, {
 					type = ui.TYPE.Image,
 					props = {
 						resource = getTexture(icon),
 						tileH = false,
 						tileV = false,
-						relativeSize  = v2(lineHeight/itemHudAspectRatio,lineHeight),
-						relativePosition = v2(0.01,relativePosition+lineHeight),
-						anchor = v2(0,1),
+						relativePosition = v2(0,relativePosition),
+						size = v2(absLineHeight-2,absLineHeight-2),
+						anchor = v2(0,0),
 						alpha = 0.7,
+						position = v2(1,1),
 					}
 				})
 			end
-			
 			local readItem = ""
 			if not ench and thing.itemRecordId ~="sc_paper plain" and playerSection:get("READ_BOOKS") ~= "off" and thing.type == types.Book then
 				if playerSection:get("READ_BOOKS") == "read" then
-					readItem = bookSection:get(thing.recordId) and " "..(not playerSection:get("FONT_FIX") and hextoutf8(0xd83d) or "") or ""
+					readItem = bookSection:get(thing.recordId) and " "..(not playerSection:get("FONT_FIX") and hextoutf8(0xd83d) or "(R)") or ""
 				else
-					readItem = not bookSection:get(thing.recordId) and " "..(not playerSection:get("FONT_FIX") and hextoutf8(0xd83d) or "") or ""
+					readItem = not bookSection:get(thing.recordId) and " "..(not playerSection:get("FONT_FIX") and hextoutf8(0xd83d) or "(R)") or ""
 				end
 			end
+			if readItem ~= "" then
+				table.insert(list.content, {
+					type = ui.TYPE.Image,
+					props = {
+						resource = getTexture("textures/read_indicator.dds"),
+						tileH = false,
+						tileV = false,
+						--relativePosition = v2(0,relativePosition),
+						--size = v2(absLineHeight*0.7,absLineHeight*0.7),
+						relativePosition = v2(0,relativePosition),
+						size = v2(absLineHeight-2,absLineHeight-2),
+						anchor = v2(0,0),
+						alpha = 0.7,
+						position = v2(3,1),
+						color = playerSection:get("FONT_TINT"),
+					}
+				})
+				readItem = ""
+			end
 			-- ITEM NAME + COUNT
-			table.insert(itemHud.content, { 
+			table.insert(list.content, { 
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
 					text = ""..thingName..countText..readItem,--..hextoutf8(0xd83d)..hextoutf8(0xd83e),--thingName..countText,
 					textSize = itemFontSize*textSizeMult,--itemFontSize*textSizeMult,
 					
-					relativeSize  = v2(entryWidth,lineHeight),
-					relativePosition = v2(itemNameX, relativePosition+lineHeight/2),
+					relativeSize  = v2(entryWidth,relLineHeight),
+					relativePosition = v2(0, relativePosition+relLineHeight/2),
+					position = v2(absLineHeight+3,0), --icon shift
 					anchor = v2(0,0.5),
 				},
 				})
+			
 			local widgetOffset = 0.05 --scrollbar
 			local thingValue = thingRecord.value
 			local thingWeight = thingRecord.weight
 			for _, widget in pairs(widgets) do
-				local text = math.floor(thingValue*10)/10
-				local textColor = nil
+				local text = ""
 				if widget == "valueByWeight" then
-					text = (math.floor(thingValue/thingWeight*10+0.5)/10)
+					text = formatNumber(thingValue/thingWeight, "v/w")
 				elseif widget == "weight" then
-					text = math.floor(thingWeight*10+0.5)/10
+					text = formatNumber(thingWeight, "weight")
 					if thingWeight+encumbranceCurrent > encumbranceMax then
 						textColor = util.color.rgb(0.85,0, 0)
 					end
-				end
-				if text >99 or text > 1.2 and (text%1 <=0.1 or text%1 >=0.9) then
-					text = math.floor(text)
+				else
+					text = formatNumber(thingValue, "value")
 				end
 				
-				if text == 1/0 then
-					if not playerSection:get("FONT_FIX") then
-						text = hextoutf8(0x221e)
-					end
-				elseif text >= 10^6-100 then --1m
-					text = text/1000--*1.005/1000
-					local e = math.floor(math.log10(text))
-					text = text + 10^e*1.005-10^e
-					local suffixes = {"K","M","G","T","P","E","Z"}
-					local i = 1
-					while text >= 1000 do
-						text = text/1000
-						i=i+1
-					end
-					--text = string.format("%.2f",text)
-					text = math.floor(text*100)/100 -- control rounding instead of string format
-					text = string.format("%.2f",text)
-					if #text == 6 then
-						text=text:sub(1,3)
-					else
-						text = text:sub(1,4)
-					end
-					text = text.." "..suffixes[i]
-				elseif text >= 1000 then
-					text = math.floor(text/1000)..(playerSection:get("FONT_FIX") and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%.3f",math.floor((text%1000)/1000)):sub(3)
+				local tempSize = v2(1.1*headerFooterHeight,relLineHeight)
+				if infSymbol then
+					table.insert(list.content, {
+						type = ui.TYPE.Image,
+						--template = quickLootText,
+						props = {
+							resource = getTexture("textures/inf.dds"),
+							tileH = false,
+							tileV = false,
+							--text = text,
+							textSize = itemFontSize*textSizeMult,
+							--relativeSize  = tempSize,
+							relativePosition = v2(1-widgetOffset, relativePosition+relLineHeight/2),
+							anchor = v2(1,0.5),
+							size = v2(itemFontSize*0.65,itemFontSize*0.65),
+							color = playerSection:get("FONT_TINT"),
+							--textColor = textColor,
+							--alpha = 0.4,
+						},
+					})
+				else
+					table.insert(list.content, {
+						type = ui.TYPE.Text,
+						template = quickLootText,
+						props = {
+							text = text,
+							textSize = itemFontSize*textSizeMult,
+							relativeSize  = tempSize,
+							relativePosition = v2(1-widgetOffset, relativePosition+relLineHeight/2),
+							anchor = v2(1,0.5),
+							textColor = textColor,
+						},
+					})
 				end
-				text = ""..text
-				
-				local tempSize = v2(1.1*itemBoxHeaderFooterHeight,lineHeight)
-				table.insert(itemHud.content, {
-					type = ui.TYPE.Text,
-					template = quickLootText,
-					props = {
-						text = text,
-						textSize = itemFontSize*textSizeMult,
-						relativeSize  = tempSize,
-						relativePosition = v2(1-widgetOffset, relativePosition+lineHeight/2),
-						anchor = v2(1,0.5),
-						textColor = textColor,
-					},
-				})
 				widgetOffset =widgetOffset+ math.max(0.12,0.105*textSizeMult)
 			end
-			relativePosition = relativePosition + lineHeight+margin
+			relativePosition = relativePosition + relLineHeight--
 		end
+	end
+	
+	-- FOOTER
+	if header_footer_setting == "show both" or header_footer_setting == "all bottom" or header_footer_setting ==  "only bottom" then
+		local footer = { -- r.1.7
+			type = ui.TYPE.Widget,
+			props = {
+				size = v2(rootWidth-2*borderOffset, headerFooterHeight),
+				position = v2(borderOffset, boxHeight-headerFooterHeight-borderOffset),
+			},
+			content = ui.content {}
+		}
+		table.insert(box.content, footer)
+		--list FOOTER Background
+		table.insert(footer.content,
+		{
+			type = ui.TYPE.Image,
+			props = {
+				resource = background,
+				tileH = false,
+				tileV = false,
+				relativeSize  = v2(1,1),
+				size = v2(0,0),
+				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
+				position = v2(0,0),
+				relativePosition = v2(0, 0),
+				alpha = 0.3,
+			}
+		})
+		--list FOOTER Line
+		table.insert(footer.content,
+		{
+			type = ui.TYPE.Image,
+			props = {
+				resource = getTexture("textures/menu_thin_border_bottom.dds"),
+				tileH = false,
+				tileV = false,
+				relativeSize  = v2(1,0),
+				size = v2(0,1),
+				position = v2(0,0),
+				relativePosition = v2(0, 0),
+				alpha = 0.4,
+			}
+		})
+		local encumbranceColor = playerSection:get("FONT_TINT")
+		local encumbranceIconColor = playerSection:get("ICON_TINT")
+		if encumbranceCurrent > encumbranceMax then
+			encumbranceColor = util.color.rgb(0.85,0, 0)
+			encumbranceIconColor = util.color.rgb(1,0, 0)
+		end
+		--list FOOTER ENCUMBRANCE ICON
+		table.insert(footer.content,{
+			type = ui.TYPE.Image,
+			props = {
+				resource = backpackTex,
+				tileH = false,
+				tileV = false,
+				size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
+				position = v2(8,2),
+				alpha = 0.5,
+				anchor = v2(0,0),
+				color = encumbranceIconColor,
+			}
+		})
 		
+		--list FOOTER ENCUMBRANCE TEXT
+		table.insert(footer.content,{
+			type = ui.TYPE.Text,
+			template = quickLootText,
+			props = {
+				text = ""..math.floor(encumbranceCurrent+0.5).. "/"..math.floor(encumbranceMax+0.5),
+				textSize= headerFooterHeight*0.82,----20*textSizeMult,
+				position = v2(0.85*headerFooterHeight+8, headerFooterHeight/2+1),
+				size  = v2(55+0.85*headerFooterHeight,0.85*headerFooterHeight),
+				anchor = v2(0,0.5),
+				textColor = encumbranceColor,
+			},
+		})
+		if header_footer_setting == "all bottom" then
+			local widgetOffset = 0.05 -- for scrollbar
+			--list FOOTER ICONS
+			for _, widget in pairs(widgets) do
+				table.insert(footer.content,{
+					type = ui.TYPE.Image,
+					props = {
+						resource = _G[widget.."Tex"],
+						tileH = false,
+						tileV = false,
+						size  = v2(0.95*headerFooterHeight,0.95*headerFooterHeight),
+						relativePosition = v2(1-widgetOffset, -0.05),--itemBoxHeaderFooterHeight),
+						position = v2(0,0),
+						anchor = v2(1,0),
+						alpha = 0.8,
+						color = playerSection:get("ICON_TINT"),
+					}
+				})
+				widgetOffset =widgetOffset+ math.max(0.12,0.105*textSizeMult)--itemBoxHeaderFooterHeight*headerFooterScale
+			end
+		end
 	end
-	--itemList FOOTER Line
-	table.insert(itemHud.content,
-	{
-		type = ui.TYPE.Image,
-		props = {
-			resource = getTexture("textures/menu_thin_border_bottom.dds"),
-			tileH = false,
-			tileV = false,
-			relativeSize  = v2(1,0),
-			size = v2(-borderOffset*2,1),
-			position = v2(borderOffset,0),
-			relativePosition = v2(0, 1-itemBoxHeaderFooterHeight),
-			alpha = 0.4,
-		}
-	})
-	--itemList FOOTER Background
-	table.insert(itemHud.content,
-	{
-		type = ui.TYPE.Image,
-		props = {
-			resource = background,
-			tileH = false,
-			tileV = false,
-			relativeSize  = v2(1,itemBoxHeaderFooterHeight),
-			size = v2(-borderOffset*2,-borderOffset-1),
-			position = v2(borderOffset,1),
-			relativePosition = v2(0, 1-itemBoxHeaderFooterHeight),
-			alpha = 0.4,
-		}
-	})
-	
-	local encumbranceColor = playerSection:get("FONT_TINT")
-	local encumbranceIconColor = playerSection:get("ICON_TINT")
-	if encumbranceCurrent > encumbranceMax then
-		encumbranceColor = util.color.rgb(0.85,0, 0)
-		encumbranceIconColor = util.color.rgb(1,0, 0)
-	end
-	--itemList Footer ENCUMBRANCE ICON
-	table.insert(itemHud.content,{
-		type = ui.TYPE.Image,
-		props = {
-			resource = backpackTex,
-			tileH = false,
-			tileV = false,
-			relativeSize  = v2(itemBoxHeaderFooterHeight*1.05/itemHudAspectRatio,itemBoxHeaderFooterHeight*1.0), --1.05 stretch
-			relativePosition = v2(1-0.005, 1-itemBoxHeaderFooterHeight/2),
-			position = v2(0,0),
-			anchor = v2(0,0),
-			alpha = 0.5,
-			anchor = v2(1,0.5),
-			color = encumbranceIconColor,
-		}
-	})
-	
-	--itemList Footer ENCUMBRANCE TEXT
-	table.insert(itemHud.content,{
-		type = ui.TYPE.Text,
-		template = quickLootText,
-		props = {
-			text = ""..math.floor(encumbranceCurrent+0.5).. "/"..math.floor(encumbranceMax+0.5),
-			textSize= 20*textSizeMult,
-			position = v2(0, 0),
-			relativeSize  = v2(1,itemBoxHeaderFooterHeight),
-			relativePosition = v2(0.985-itemBoxHeaderFooterHeight*1.05/itemHudAspectRatio, 1-itemBoxHeaderFooterHeight/2),
-			anchor = v2(1,0.5),
-			textColor = encumbranceColor,
-		},
-	})
+	-- /FOOTER
 	
 	
+	-- SUB-FOOTER
 	if playerSection:get("FOOTER_HINTS") ~= "Disabled" then
 		local fTex = fKeyTex
 		local rTex = rKeyTex
@@ -743,14 +861,14 @@ function drawUI()
 		end	
 			
 		--SUB-FOOTER ICON Right
-		table.insert(hud.layout.content,{
+		table.insert(root.layout.content,{
 			type = ui.TYPE.Image,
 			props = {
 				resource = fTex,
 				tileH = false,
 				tileV = false,
-				relativeSize  = v2(headerFooterHeight*0.8/(uiSize.x/uiSize.y),headerFooterHeight*0.8),
-				relativePosition = v2(0.505,1-headerFooterHeight/2),
+				size  = v2(outerHeaderFooterHeight*0.8,outerHeaderFooterHeight*0.8),
+				position = v2(rootWidth*0.505,rootHeight-outerHeaderFooterHeight/2),
 				anchor = v2(0,0.5),
 				alpha = 0.6,
 				color = playerSection:get("ICON_TINT"),
@@ -758,49 +876,44 @@ function drawUI()
 			}
 		})
 		--SUB-FOOTER TEXT Right
-		table.insert(hud.layout.content,{
+		table.insert(root.layout.content,{
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
-				text = "Take All",
+				text = l10n("Take All"),
 				textSize= 20*textSizeMult,
-				position = v2(0, 0),
-				relativeSize  = v2(1,headerFooterHeight),
-				relativePosition = v2(0.508+headerFooterHeight*0.8/(uiSize.x/uiSize.y),1-headerFooterHeight/2+0.0015),
+				position = v2(rootWidth*0.508+outerHeaderFooterHeight*0.8,rootHeight-outerHeaderFooterHeight/2+1),
 				textColor = playerSection:get("ICON_TINT"),
 				anchor = v2(0,0.5),
 			},	})
-		
 		--SUB-FOOTER ICON Left
-		table.insert(hud.layout.content,{
+		table.insert(root.layout.content,{
 			type = ui.TYPE.Image,
 			props = {
 				resource = rTex,
 				tileH = false,
 				tileV = false,
-				relativeSize  = v2(headerFooterHeight*0.8/(uiSize.x/uiSize.y),headerFooterHeight*0.8),
-				relativePosition = v2(0.495,1-headerFooterHeight/2),
+				
+				size = v2(outerHeaderFooterHeight*0.8,outerHeaderFooterHeight*0.8),
+				position = v2(rootWidth*0.495,rootHeight-outerHeaderFooterHeight/2),
 				anchor = v2(1,0.5),
 				alpha = 0.6,
 				color = playerSection:get("ICON_TINT"),
 			}
 		})
 		--SUB-FOOTER TEXT Left
-		table.insert(hud.layout.content,{
+		table.insert(root.layout.content,{
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
-				text = "Search",
+				text = l10n("Search"),
 				textSize= 20*textSizeMult,
 				textAlignH = ui.ALIGNMENT.End,
-				relativeSize  = v2(1,headerFooterHeight),
-				relativePosition = v2(0.493-headerFooterHeight*0.8/(uiSize.x/uiSize.y),1-headerFooterHeight/2+0.0015),
+				position = v2(rootWidth*0.493-outerHeaderFooterHeight*0.8,rootHeight-outerHeaderFooterHeight/2+1),
 				anchor = v2(1,0.5),
 				textColor = playerSection:get("ICON_TINT"),
 			},})
 	end
-	--hud:update()
-	
 end
 
 function closeHud()
@@ -811,9 +924,12 @@ function closeHud()
 		types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Magic, true) 
 		types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Fighting, true)
 		Camera.enableZoom("quickloot")
-		lastItemCount = 99999999
-		if hud then 
-			hud:destroy() 
+		containerHash = 99999999
+		if root then 
+			root:destroy() 
+		end
+		if tooltip then
+			tooltip:destroy()
 		end
 	end
 end
@@ -830,6 +946,7 @@ function stahlrimCheck(cont)
 	end
 	return false
 end
+
 
 function onFrame(dt)
 	if inspectedContainer and  core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
@@ -907,22 +1024,23 @@ function onFrame(dt)
 		end
 	end
 	if inspectedContainer then
-		local itemCount = 0
+		local newHash = ""
 		local entryCount = 0
 		for _, thing in pairs(types.Container.inventory(inspectedContainer):getAll()) do
-			itemCount = itemCount + thing.count
+			--itemCount = itemCount + thing.count
+			newHash = newHash..thing.count..thing.recordId
 			entryCount = entryCount + 1
 		end
 		if entryCount < selectedIndex then
 			selectedIndex = entryCount
 		end
 		
-		
-		if lastItemCount ~= itemCount then
+		--print(newHash)
+		if containerHash ~= newHash then
 			drawUI()
 		end
 		
-		lastItemCount = itemCount
+		containerHash = newHash
 	end
 end
 

@@ -444,6 +444,47 @@ local function hextoutf8(decimal)
     return table.concat(charbytes)
 
 end
-
-
-return {readFont,texText,rgbToHsv,hsvToRgb,fromutf8,toutf8,hextoutf8}
+local function formatNumber(num, mode)
+	local text = math.floor(num*10)/10
+	local textColor = nil
+	if mode == "v/w" then
+		text = (math.floor(num*10+0.5)/10)
+	elseif mode == "weight" then
+		text = math.floor(num*10+0.5)/10
+	end
+	if text >99 or text > 1.2 and (text%1 <=0.1 or text%1 >=0.9) then
+		text = math.floor(text)
+	end
+	local infSymbol = false
+	if text == 1/0 then
+		if not playerSection:get("FONT_FIX") then
+			text = hextoutf8(0x221e)
+		else
+			text = "-" -- instead of "Inf"
+			infSymbol = true
+		end
+	elseif text >= 10^6-100 then --1m
+		text = text/1000--*1.005/1000
+		local e = math.floor(math.log10(text))
+		text = text + 10^e*1.005-10^e
+		local suffixes = {"K","M","G","T","P","E","Z"}
+		local i = 1
+		while text >= 1000 do
+			text = text/1000
+			i=i+1
+		end
+		--text = string.format("%.2f",text)
+		text = math.floor(text*100)/100 -- control rounding instead of string format
+		text = string.format("%.2f",text)
+		if #text == 6 then
+			text=text:sub(1,3)
+		else
+			text = text:sub(1,4)
+		end
+		text = text.." "..suffixes[i]
+	elseif text >= 1000 then
+		text = math.floor(text/1000)..(not playerSection:get("FONT_FIX") and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%.3f",math.floor((text%1000)/1000)):sub(3)
+	end
+	return ""..text
+end
+return {readFont,texText,rgbToHsv,hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber}

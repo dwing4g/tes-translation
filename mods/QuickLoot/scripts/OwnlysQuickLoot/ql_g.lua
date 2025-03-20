@@ -4,6 +4,7 @@ local disabledPlayers = {}
 local activateNextUpdate = {}
 local activateSecondNextUpdate = {}
 local world = require('openmw.world')
+local I = require("openmw.interfaces")
 local actuallyActivateTable = {}
 local organicContainers = {
 	barrel_01_ahnassi_drink=true,
@@ -368,8 +369,23 @@ local function actuallyActivate(arg)
 	obj:activateBy(player)
 end
 
+local function freshLoot(arg)
+	local player = arg[1]
+	local obj = arg[2]
+	--actuallyActivateTable[player.id] = 2
+	--world._runStandardActivationAction(obj, player)
+	if I.FreshLoot then
+		if I.FreshLoot.processLoot then
+			I.FreshLoot.processLoot(obj, player)
+		else
+			print("PLEASE UPDATE FRESHLOOT")
+		end
+	end
+end
+
 return {
 	eventHandlers = {
+		OwnlysQuickLoot_freshLoot = freshLoot,
 		OwnlysQuickLoot_take = take,
 		OwnlysQuickLoot_takeAll = takeAll,
 		OwnlysQuickLoot_takeBook = takeBook,
