@@ -302,7 +302,7 @@ Dagoth Ur welcomes you, Nerevar, my old friend. But to this place where destiny 
 
 > SCPT.SCTX heartfanghuntScript m1
 As Heart-Fang breathes his last breath, the Hircine's Ring disappears from his finger, and has found a new owner.
-当心牙咽下最后一口气时，海尔辛的戒指从他的手指上消失了，它已经找到了新主人。
+当心牙咽下最后一口气时，希尔辛的戒指从他的手指上消失了，它已经找到了新主人。
 
 > SCPT.SCTX hircine1Script s1
 Ahhh...you have arrived. The others have been here for days now, and you are the last. It is time for my Hunt, and you are to take part. I have chosen only the most worthy to take part the Hunt--Carius of the Imperials, Heart-Fang of the Skaal, the frost giant Karstaag....and you. You have proven yourself a worthy hunter, and so you have been given this honor.
@@ -342,7 +342,7 @@ So you have chosen, and so shall be your fate. To face me in all my glory would 
 
 > SCPT.SCTX hircineringScript m1
 Would you like to use the Ring of Hircine?
-你要使用海尔辛之戒吗？
+你要使用希尔辛之戒吗？
 
 > SCPT.SCTX hircineringScript m2
 Yes
@@ -466,7 +466,7 @@ Only one with the key may pass through this gate.
 
 > SCPT.SCTX mazegate3Script m2
 Even a beast must finish Hircine's Hunt before passing through this gate.
-即使是野兽也必须完成海尔辛的狩猎才能通过此门。
+即使是野兽也必须完成希尔辛的狩猎才能通过此门。
 
 > SCPT.SCTX MirisaFollow s1
 Thank you.
@@ -838,15 +838,15 @@ Hunter's Venom
 
 > SPEL.FNAM bm_strresist
 Hircine Resists1
-海尔辛抗性1
+希尔辛抗性1
 
 > SPEL.FNAM bm_spdresist
 Hircine Resists1
-海尔辛抗性1
+希尔辛抗性1
 
 > SPEL.FNAM bm_huntresist
 Hircine Resists1
-海尔辛抗性1
+希尔辛抗性1
 
 > SPEL.FNAM bm_fireregen
 Icy Blood
@@ -1778,11 +1778,11 @@ The worship of these four malevolent spirits is against the law and practice of 
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 祸乱家族<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-陪伴圣·维洛斯和歧莫进入晨风乐土的远古祖灵中，迪德拉四大君主玛拉凯斯、梅鲁涅斯·大衮、莫拉格·巴尔、谢尔格拉斯，号称“祸乱四角”。这些迪德拉君主背叛了审判席的劝告和训诫，在氏族和大家族中引起了极大的亲族冲突与混乱。<BR>
+陪伴圣·维洛斯和歧莫进入晨风乐土的远古祖灵中，迪德拉四大君主马拉卡斯、梅鲁涅斯·大衮、莫拉格·巴尔、谢尔格拉斯，号称“祸乱四角”。这些迪德拉大君背叛了审判席的劝告和训诫，在氏族和大家族中引起了极大的亲族冲突与混乱。<BR>
 <BR>
-玛拉凯斯、梅鲁涅斯·大衮、莫拉格·巴尔和谢尔格拉斯是神圣的，因为他们在试炼中充当了障碍。随着时间的推移，他们有时会与当地的敌人联系在一起，比如诺德人、阿卡维尔人或山间兽人。<BR>
+马拉卡斯、梅鲁涅斯·大衮、莫拉格·巴尔和谢尔格拉斯是神圣的，因为他们在试炼中充当了障碍。随着时间的推移，他们有时会与当地的敌人联系在一起，比如诺德人、阿卡维尔人或山间兽人。<BR>
 <BR>
-玛拉凯斯是崔尼玛特复活的粪土，玛拉凯斯是一个虚弱但复仇心强的神。暗精灵说他是马拉克，兽人的神王。他测试丹莫是否体质虚弱。<BR>
+马拉卡斯是崔尼玛特复活的粪土，马拉卡斯是一个虚弱但复仇心强的神。暗精灵说他是马拉克，兽人的神王。他测试丹莫是否体质虚弱。<BR>
 <BR>
 莫拉格·巴尔在晨风中是掠夺之王。他试图扰乱家族的血统，并以其他方式破坏丹莫基因库。一支怪物种族，据说住在莫拉格-阿穆尔，就是他在前一个纪元引诱维威克的结果。<BR>
 <BR>
@@ -1875,11 +1875,11 @@ The worship of these four malevolent spirits is against the law and practice of 
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 祸乱家族<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-陪伴圣·维洛斯和歧莫进入晨风乐土的远古祖灵中，迪德拉四大君主玛拉凯斯、梅鲁涅斯·大衮、莫拉格·巴尔、谢尔格拉斯，号称“祸乱四角”。这些迪德拉君主背叛了审判席的劝告和训诫，在氏族和大家族中引起了极大的亲族冲突与混乱。<BR>
+陪伴圣·维洛斯和歧莫进入晨风乐土的远古祖灵中，迪德拉四大君主马拉卡斯、梅鲁涅斯·大衮、莫拉格·巴尔、谢尔格拉斯，号称“祸乱四角”。这些迪德拉大君背叛了审判席的劝告和训诫，在氏族和大家族中引起了极大的亲族冲突与混乱。<BR>
 <BR>
-玛拉凯斯、梅鲁涅斯·大衮、莫拉格·巴尔和谢尔格拉斯是神圣的，因为他们在试炼中充当了障碍。随着时间的推移，他们有时会与当地的敌人联系在一起，比如诺德人、阿卡维尔人或山间兽人。<BR>
+马拉卡斯、梅鲁涅斯·大衮、莫拉格·巴尔和谢尔格拉斯是神圣的，因为他们在试炼中充当了障碍。随着时间的推移，他们有时会与当地的敌人联系在一起，比如诺德人、阿卡维尔人或山间兽人。<BR>
 <BR>
-玛拉凯斯是崔尼玛特复活的粪土，玛拉凯斯是一个虚弱但复仇心强的神。暗精灵说他是马拉克，兽人的神王。他测试丹莫是否体质虚弱。<BR>
+马拉卡斯是崔尼玛特复活的粪土，马拉卡斯是一个虚弱但复仇心强的神。暗精灵说他是马拉克，兽人的神王。他测试丹莫是否体质虚弱。<BR>
 <BR>
 莫拉格·巴尔在晨风中是掠夺之王。他试图扰乱家族的血统，并以其他方式破坏丹莫基因库。一支怪物种族，据说住在莫拉格-阿穆尔，就是他在前一个纪元引诱维威克的结果。<BR>
 <BR>
@@ -3125,7 +3125,7 @@ Karstaag
 
 > CREA.FNAM BM_hircine
 Hircine
-海尔辛
+希尔辛
 
 > CREA.FNAM BM_spriggan
 Spriggan
@@ -6142,7 +6142,7 @@ Werewolf
 
 > NPC_.FNAM BM_werewolf_maze1
 Hound of Hircine
-海尔辛的猎犬
+希尔辛的猎犬
 
 > CONT.FNAM com_chest_01_hircine
 Chest
@@ -6166,19 +6166,19 @@ A Glowing Key
 
 > CREA.FNAM BM_hircine_huntaspect
 Hircine's Aspect of Guile
-海尔辛的狡诈之身
+希尔辛的狡诈之身
 
 > CREA.FNAM BM_hircine_straspect
 Hircine's Aspect of Strength
-海尔辛的怪力之身
+希尔辛的怪力之身
 
 > CREA.FNAM BM_hircine_spdaspect
 Hircine's Aspect of Speed
-海尔辛的神速之身
+希尔辛的神速之身
 
 > CREA.FNAM BM_hircine2
 Hircine
-海尔辛
+希尔辛
 
 > CONT.FNAM BM_greedyman
 The Greedy Man's Bag
@@ -6278,7 +6278,7 @@ Skeleton Berserker
 
 > CLOT.FNAM BM_ring_hircine
 Hircine's Ring
-海尔辛之戒
+希尔辛之戒
 
 > ACTI.FNAM act_werewolf_statue_1
 Werewolf Ice Statue
@@ -6589,7 +6589,7 @@ Agnes<BR>
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 最亲爱的姐妹们，<BR>
 <BR>
-女巫会铭记着你们的忠诚与付出，尽管索瑟泰姆环境严酷，但我们为了所需之地，无论何方。任何寻求治愈的人必须履行狼赐者的仪式，这当然必不可少。我们深知仪式的复杂性和可能的限制，如果迪德拉大君海尔辛索取的生命不止一条，确实难以频繁进行。<BR>
+女巫会铭记着你们的忠诚与付出，尽管索瑟泰姆环境严酷，但我们为了所需之地，无论何方。任何寻求治愈的人必须履行狼赐者的仪式，这当然必不可少。我们深知仪式的复杂性和可能的限制，如果迪德拉大君希尔辛索取的生命不止一条，确实难以频繁进行。<BR>
 <BR>
 为此，我精心制作了一卷灭狼者卷轴。卷轴上的魔族文字蕴含了仪式的核心力量。我已精细打磨羊皮纸，确保它能与原仪式相媲美。在此，我提出一个慎重的请求：除非万不得已，不要轻易动用此卷。它的制作并非易事，女巫会希望如果可能，它能为未来的需要保留。
 <BR>
@@ -8194,7 +8194,7 @@ The Citadels of the Sixth House
 
 > INFO.NAME c3_destroydagoth 1814157691496631652
 As I fled from the destruction of the Chamber of Akulakhan, I encountered the presence of the Daedra Lord Azura. She told me I had achieved my destiny and was free. The prophecies are fulfilled, and the Blight gone. But now I am Hortator and Nerevarine, Protector of Morrowind, and must defend the people from monsters and villains. She gave me a ring as a token of thanks and blessing.
-在我逃离即将毁灭的阿库拉汗之室的时候，我遇到了迪德拉君主阿祖拉。她告诉我，我已经完成了使命，获得了自由。预言实现了，枯萎之症也消失了。但现在我是统谏使和尼瑞瓦因，晨风的守护者，必须保卫人民不受怪物和恶人的侵害。她送给我一枚戒指，作为感谢和祝福的信物。
+在我逃离即将毁灭的阿库拉汗之室的时候，我遇到了迪德拉大君阿祖拉。她告诉我，我已经完成了使命，获得了自由。预言实现了，枯萎之症也消失了。但现在我是统谏使和尼瑞瓦因，晨风的守护者，必须保卫人民不受怪物和恶人的侵害。她送给我一枚戒指，作为感谢和祝福的信物。
 
 > INFO.NAME ht_attackindarys 26423124102425322574
 House Telvanni: Kill Banden Indarys
@@ -10270,11 +10270,11 @@ A Cure for Vampirism
 
 > INFO.NAME ms_vampirecure 326181630328718198
 I have found a some papers by a Buoyant Armiger, Galur Rithari. In them, he gives hints as to how vampirism may be cured. It suggests that the cure may be obtained with the help of a Daedra Prince, perhaps Molag Bal.
-我找到了灵动扈从加卢·瑞萨里的一些文献。其中，他给出了如何治愈渴血症的提示。他说可以通过一位迪德拉君主的帮助来治愈，也许就是莫拉格·巴尔。
+我找到了灵动扈从加卢·瑞萨里的一些文献。其中，他给出了如何治愈渴血症的提示。他说可以通过一位迪德拉大君的帮助来治愈，也许就是莫拉格·巴尔。
 
 > INFO.NAME ms_vampirecure 216594519137006200
 I've returned to the Shrine of Molag Bal and spoken with the Daedra Lord. He was pleased with my efforts, and has retrieved the cure from the Daedra Vaermina.
-我回到了莫拉格·巴尔圣祠，并与迪德拉领主进行了交谈。他对我的努力很满意，并从迪德拉君主瓦尔迷娜那里拿到了解药。
+我回到了莫拉格·巴尔圣祠，并与迪德拉领主进行了交谈。他对我的努力很满意，并从迪德拉大君瓦尔迷娜那里拿到了解药。
 
 > INFO.NAME ic_8_nord_alms 16416178748054522
 Imperial Cult: Alms from the Skyrim Mission
@@ -10654,7 +10654,7 @@ Siege of Castle Karstaag
 
 > INFO.NAME bm_frostgiant2 24808274681191212965
 I have been sent another dream by the Daedra Lord Hircine. He has told me that Castle Karstaag, at the north shore of the island, is under siege by renegade servants. The owner of the castle is important to him, and Hircine would like me to enter the castle and kill the rebellious creatures.
-迪德拉领主海尔辛又托梦给我。他告诉我，位于岛屿北岸的卡斯塔格城堡正被叛变的仆人们围困。城堡的主人对他很重要，海尔辛希望我能进入城堡，杀死这些叛逆的生物。
+迪德拉领主希尔辛又托梦给我。他告诉我，位于岛屿北岸的卡斯塔格城堡正被叛变的仆人们围困。城堡的主人对他很重要，希尔辛希望我能进入城堡，杀死这些叛逆的生物。
 
 > INFO.NAME bm_frostgiant2 375711667127031229
 I have entered Castle Karstaag and spoken to a Riekling named Dulk. He tells me that another Riekling named Krish has enlisted the help of grahl to attempt to take control of the castle. I should enter the caverns below the castle and destroy the grahl and the Riekling Krish.
@@ -10662,11 +10662,11 @@ I have entered Castle Karstaag and spoken to a Riekling named Dulk. He tells me 
 
 > INFO.NAME bm_frostgiant2 11705287801755628000
 I have killed all of the grahl and the Riekling Krish. Hircine will be pleased.
-我已经杀死了所有的格拉尔和蓝客灵克里什。海尔辛会很高兴的。
+我已经杀死了所有的格拉尔和蓝客灵克里什。希尔辛会很高兴的。
 
 > INFO.NAME bm_frostgiant2 1151616042133406128
 Hircine was pleased with my efforts, and has rewarded me with Hunter's Wind, the ability to completely restore my health once each day.
-海尔辛对我的努力很满意，并奖励了我猎人之风，每天一次完全恢复健康的能力。 {报酬,生命}
+希尔辛对我的努力很满意，并奖励了我猎人之风，每天一次完全恢复健康的能力。 {报酬,生命}
 
 > INFO.NAME bm_bloodskal01 2740423590741913193
 """While exploring an abandoned tomb, I found a sword named Bloodskal.  
@@ -11378,7 +11378,7 @@ Sheogorath's Quest
 
 > INFO.NAME da_sheogorath 21163218724510171
 I have entered the Shrine of Sheogorath and spoken with the Daedra Prince of Madness. He has offered me the opportunity to perform a service for him. First, I am to recover a powerful artifact, the Fork of Horripilation, from a mad hermit who lives on an island off the northernmost points of Tamriel. Then, I must slay a giant bull netch that has taken residence near this island. If I can do this, Sheogorath promises I will be rewarded well.
-我进入了谢尔格拉斯圣祠，与迪德拉君主进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器 -- 惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯保证会给我丰厚的报酬。 {巨型气母}
+我进入了谢尔格拉斯圣祠，与迪德拉大君进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器 -- 惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯保证会给我丰厚的报酬。 {巨型气母}
 
 > INFO.NAME da_sheogorath 32230109952487810069
 The giant bull netch is dead, as Sheogorath asked. However, I was not wielding the Fork of Horripilation when the netch met its end. My quest for the Prince of Madness is a failure.
@@ -11386,7 +11386,7 @@ The giant bull netch is dead, as Sheogorath asked. However, I was not wielding t
 
 > INFO.NAME da_sheogorath 308434402258354687
 I've returned to the Shrine of Sheogorath, and the Daedra Prince spoke with me again. He seemed pleased that I had completed my quest...not because he wanted the bull netch dead, but he enjoyed seeing me struggle to do it. He has rewarded me well, though, and given me the Spear of Bitter Mercy.
-我回到了谢尔格拉斯圣祠，迪德拉君主又和我谈了一次话。他似乎很高兴我完成了任务…并不是因为他想要那只雄性气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把苦痛仁慈之枪给了我。
+我回到了谢尔格拉斯圣祠，迪德拉大君又和我谈了一次话。他似乎很高兴我完成了任务…并不是因为他想要那只雄性气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把苦痛仁慈之枪给了我。
 
 > INFO.NAME c0_act_c_expo 12185198392765628145
 The Citadels of the Sixth House
@@ -12310,7 +12310,7 @@ I brought the deed to Widow Vabdas' land to Darius.
 
 > INFO.NAME il_widowland 11708311412320325207
 Darius thanked me for slaying Lugrub gro-Ogdum, the murderer of Mansilamat Vabdas.
-达瑞斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格洛-奥格杜姆。
+达瑞斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格罗-奥格杜姆。
 
 > INFO.NAME town_tel_vos 30227109372672518025
 Trade Mission to the Zainab
@@ -12578,7 +12578,7 @@ While exploring a dungeon in the northern regions of Vvardenfell, I encountered 
 
 > INFO.NAME va_vampcurse 28463237491595118525
 I have decided not to assist Mastrius in escaping his prison. I have no wish to meddle in the affairs of this vampire, especially when it concerns a Daedra Prince.
-我决定不协助马斯特里乌斯逃出监狱。我不想插手这个吸血鬼的事情，尤其是这件事还关系到一位迪德拉君主的时候。
+我决定不协助马斯特里乌斯逃出监狱。我不想插手这个吸血鬼的事情，尤其是这件事还关系到一位迪德拉大君的时候。
 
 > INFO.NAME va_vampcurse 306329381859724942
 I have killed Mastrius. He will never again see the outside world.
@@ -12886,11 +12886,11 @@ Wind-Eye was pleased that I was able to return the Totem of Claw and Fang from t
 
 > INFO.NAME bm_ceremony2 1266521091202437209
 Dream of Hircine
-海尔辛之梦
+希尔辛之梦
 
 > INFO.NAME bm_ceremony2 128025353407524978
 While sleeping, I had a strange dream. In it, the Daedra Prince Hircine spoke to me, telling me to journey to the Tombs of Skaalara. There, I am to keep the Skaal warriors from retrieving the Totem of Claw and Fang. I should kill any of the Skaal I meet in the Tombs. From what I saw in the dream, it appears the Tomb is located on the Felstaad Coast, southeast of the Skaal Village.
-睡觉时，我做了一个奇怪的梦。在梦中，迪德拉君主海尔辛对我说话，让我前往斯卡尔拉之墓。在那里，我要阻止斯卡尔勇士夺回尖牙利爪图腾。我应该杀死在墓穴里遇到的任何斯卡尔人。根据我在梦中看到的情况，古墓似乎位于斯卡尔村东南方的费尔斯塔德海岸。
+睡觉时，我做了一个奇怪的梦。在梦中，迪德拉大君希尔辛对我说话，让我前往斯卡尔拉之墓。在那里，我要阻止斯卡尔勇士夺回尖牙利爪图腾。我应该杀死在墓穴里遇到的任何斯卡尔人。根据我在梦中看到的情况，古墓似乎位于斯卡尔村东南方的费尔斯塔德海岸。
 
 > INFO.NAME bm_ceremony2 118103274223110491
 I have killed all of the Skaal warriors who came to retrieve the Totem of Claw and Fang.
@@ -12898,7 +12898,7 @@ I have killed all of the Skaal warriors who came to retrieve the Totem of Claw a
 
 > INFO.NAME bm_ceremony2 3211721974252801158
 Hircine came to me again in a dream. He was pleased that I had defended the Totem of Claw and Fang from the Skaal, and has blessed me with sharper claws to better tear the flesh of my enemies.
-海尔辛在梦中又来找我了。他很高兴我从斯卡尔人手中保卫了尖牙利爪图腾，并赐予我更锋利的利爪，以便更好地撕裂敌人的血肉。 {泪城}
+希尔辛在梦中又来找我了。他很高兴我从斯卡尔人手中保卫了尖牙利爪图腾，并赐予我更锋利的利爪，以便更好地撕裂敌人的血肉。 {泪城}
 
 > INFO.NAME bm_ceremony2 228962672391562083
 I have failed to protect the Totem of Claw and Fang.
@@ -12974,7 +12974,7 @@ Disrupt the Skaal Hunt
 
 > INFO.NAME bm_bearhunt2 2412517613305753680
 Hircine has come to me again in my dreams. I saw visions of the Skaal preparing a ceremonial hunt for the Spirit Bear. I must travel to the western shores of Lake Fjalding this night and kill these Skaal while they track the bear. Then I must kill the Spirit Bear as well.
-海尔辛又在我的梦中出现了。我看到斯卡尔人正在准备狩猎灵熊的仪式。我必须在今晚前往菲亚丁湖西岸，在斯卡尔追踪灵熊时杀死他们。然后，我也必须杀死灵熊。
+希尔辛又在我的梦中出现了。我看到斯卡尔人正在准备狩猎灵熊的仪式。我必须在今晚前往菲亚丁湖西岸，在斯卡尔追踪灵熊时杀死他们。然后，我也必须杀死灵熊。
 
 > INFO.NAME bm_bearhunt2 32347314662313631683
 I have killed the Skaal trackers.
@@ -12986,7 +12986,7 @@ I have killed the Spirit Bear.
 
 > INFO.NAME bm_bearhunt2 285253012047329414
 Hircine is pleased with my obedience, and has granted me the ability to summon an undead Bonewolf to my side when I walk in the day.
-海尔辛很满意我的服从，并赋予我在白天行走时召唤一只不死骨狼到我身边的能力。
+希尔辛很满意我的服从，并赋予我在白天行走时召唤一只不死骨狼到我身边的能力。
 
 > INFO.NAME bm_wolfgiver 2801230796371322364
 Rite of the Wolf Giver
@@ -13214,7 +13214,7 @@ I made the Ruddy Man Pilgrimage and read the Grace of Valor.
 
 > INFO.NAME tt_dagonfel 306151332311623763
 Temple: Malacath of the House of Troubles
-神殿：祸乱家族的玛拉凯斯
+神殿：祸乱家族的马拉卡斯
 
 > INFO.NAME tt_dagonfel 24727221311812423098
 I heard that Archcanon Tholer Saryoni wishes to speak with me. I have been given a key to his quarters.
@@ -13370,7 +13370,7 @@ Molag Bal's Quest
 
 > INFO.NAME da_molagbal 2429970382803322484
 While in a Shrine to Molag Bal, the Daedric Prince spoke to me at the altar. He was angered, and I was afraid. His anger, however, was not directed at me, but rather toward one of his minions. Menta Na, a Daedroth Monarch, has grown lazy, and no longer does Molag Bal's bidding. If I kill Menta Na in his dungeon Kora-Dur, returning his soul to the Outer Realms where Molag Bal can punish him, then Molag Bal will reward me well.
-在莫拉格·巴尔的圣祠中，迪德拉君主在祭坛前对我说话。他很愤怒，这令我感到了恐惧。然而，他的愤怒并不是针对我，而是针对他的一个爪牙。迪德拉斯君王曼塔·纳变得越来越懒惰，不再听从莫拉格·巴尔的命令。如果我在莫拉格·巴尔的地牢科拉-杜尔杀死曼塔·纳，将他的灵魂送回湮灭领域，让莫拉格·巴尔惩罚他，那么莫拉格·巴尔会给我丰厚的报酬。 {迪德拉式,老鼠,杀了我}
+在莫拉格·巴尔的圣祠中，迪德拉大君在祭坛前对我说话。他很愤怒，这令我感到了恐惧。然而，他的愤怒并不是针对我，而是针对他的一个爪牙。迪德拉斯君王曼塔·纳变得越来越懒惰，不再听从莫拉格·巴尔的命令。如果我在莫拉格·巴尔的地牢科拉-杜尔杀死曼塔·纳，将他的灵魂送回湮灭领域，让莫拉格·巴尔惩罚他，那么莫拉格·巴尔会给我丰厚的报酬。 {迪德拉式,老鼠,杀了我}
 
 > INFO.NAME da_molagbal 146375713884121843
 I've returned to the Shrine of Molag Bal, having killed the Daedroth Monarch. Molag Bal was true to his word, and has rewarded me with his mace, the Mace of Molag Bal.
@@ -13382,7 +13382,7 @@ Mehrunes Dagon's Quest
 
 > INFO.NAME da_mehrunes 22460207912053412117
 At a Shrine to Mehrunes Dagon, I received a vision from the Daedra Prince himself. He has told me I appear unworthy of his favor, but will allow me a chance to prove myself, if I feel up to the task.
-在梅鲁涅斯·大衮的圣祠中，我得到了迪德拉君主本人的幻象。他告诉我，我似乎不配得到他的青睐，但如果我觉得可以胜任，他会给我一个证明自己的机会。 {忙,任务}
+在梅鲁涅斯·大衮的圣祠中，我得到了迪德拉大君本人的幻象。他告诉我，我似乎不配得到他的青睐，但如果我觉得可以胜任，他会给我一个证明自己的机会。 {忙,任务}
 
 > INFO.NAME da_mehrunes 2935331512215731181
 Mehrunes Dagon was pleased that I was able to recover the once-great artifact from its resting place. He has taken the dagger and infused it once again with his power. As I have proven myself a worthy bearer of the weapon, Mehrunes Dagon has given me the restored Razor.
@@ -13398,19 +13398,19 @@ I spoke to the khajiit M'aiq, and he gave me information on a sunken shrine to B
 
 > INFO.NAME da_boethiah 12676225553046131092
 I have returned to the completed Shrine to Boethiah. The Daedra seemed pleased with the work that has been done, and has rewarded me with Goldbrand, a truly spectacular weapon.
-我回到了已经完工的波耶西亚圣祠。迪德拉君主似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
+我回到了已经完工的波耶西亚圣祠。迪德拉大君似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
 
 > INFO.NAME da_malacath 2029227732236431088
 Malacath's Quest
-玛拉凯斯的任务
+马拉卡斯的任务
 
 > INFO.NAME da_malacath 24907271173046912119
 I entered the shrine of Malacath and summoned the Daedra. He spoke to me of a helm of great power, once belonging to the elven hero Oreyn Bearclaw. In reality, he was no hero, though. The deeds attributed to him were actually performed by an orc, Kharag gro-Khar. If I can find the last of the Oreyn family bloodline, and kill him, I will be rewarded with the helm.
-我进入玛拉凯斯圣祠，召唤出了迪德拉君主。他向我讲述了曾经属于精灵英雄的奥伦·熊爪之盔的强大力量。但实际上，那个精灵并不是什么英雄。他的事迹实际上是由兽人卡拉格·格罗-卡尔完成的。如果我能找到奥伦家族最后的血脉，并杀死他，我就能得到头盔。 {报酬}
+我进入马拉卡斯圣祠，召唤出了迪德拉大君。他向我讲述了曾经属于精灵英雄的奥伦·熊爪之盔的强大力量。但实际上，那个精灵并不是什么英雄。他的事迹实际上是由兽人卡拉格·格罗-卡尔完成的。如果我能找到奥伦家族最后的血脉，并杀死他，我就能得到头盔。 {报酬}
 
 > INFO.NAME da_malacath 26707319651263018566
 I've returned to the shrine of Malacath, who already knew of my success in killing Farvyn Oreyn. Malacath was as good as his word, and I now have the Helm of Oreyn Bearclaw in my possession. It is a fantastic helm, misnamed though it may be.
-我回到了玛拉凯斯的圣祠，他已经知道我成功杀死了法文·奥伦。玛拉凯斯言出必行，我现在拥有了奥伦·熊爪之盔。这是一个神奇的头盔，虽然它的名字可能是错的。
+我回到了马拉卡斯的圣祠，他已经知道我成功杀死了法文·奥伦。马拉卡斯言出必行，我现在拥有了奥伦·熊爪之盔。这是一个神奇的头盔，虽然它的名字可能是错的。
 
 > INFO.NAME b2c_yenammu 2977828507157279833
 Ahemmusa Nerevarine
@@ -13806,7 +13806,7 @@ Brynjolfr will make custom snow wolf and snow bear fur armor to order.  It's lig
 
 > INFO.NAME bm_wildhunt 3953289372277416343
 Hircine's Hunt
-海尔辛的狩猎
+希尔辛的狩猎
 
 > INFO.NAME bm_wildhunt 19182247651731523235
 Korst Wind-Eye has told me more about the Bloodmoon Prophecy, and the signs that are foretold within. The fire from the lake of ice, the tide of dead horkers. Now the moon itself has turned blood red. He tells me that all that remains is the Hunter's Game.
@@ -13818,15 +13818,15 @@ According to legend, the Hunter chooses his Prey from the ranks of Man. Who and 
 
 > INFO.NAME bm_wildhunt 294398767673810851
 I awoke from my sleep to see werewolves surrounding me, and then blacked out. When I came to my senses, I found myself in a chamber deep in the heart of the Mortrag Glacier, the Daedra Lord Hircine before me.
-我从睡梦中醒来，看到狼人包围了我，然后就昏了过去。当我清醒过来时，发现自己身处莫特拉格冰川中心深处的一个房间，迪德拉领主海尔辛就在我面前。
+我从睡梦中醒来，看到狼人包围了我，然后就昏了过去。当我清醒过来时，发现自己身处莫特拉格冰川中心深处的一个房间，迪德拉领主希尔辛就在我面前。
 
 > INFO.NAME bm_wildhunt 216491482381503461
 I received a dream from Hircine calling me to join him for his Hunt. When I awoke, I was in the Mortrag Glacier.
-我梦见海尔辛召唤我加入他的狩猎。当我醒来时，我已经身处莫特拉格冰川。
+我梦见希尔辛召唤我加入他的狩猎。当我醒来时，我已经身处莫特拉格冰川。
 
 > INFO.NAME bm_wildhunt 1295913728126523287
 Hircine spoke to me, telling me that I was to be a part of his hunt. He has gathered the champions of Solstheim--Falx Carius from Fort Frostmoth, Tharsten Heart-Fang from the Skaal, and the frost giant Karstaag--to participate. All of us are to find our way through this glacier, though the others have gone ahead already. Only one of us will survive to face the Hunter in battle. I should continue ahead and see what awaits me.
-海尔辛对我说话，告诉我我要参加他的狩猎。他召集了索瑟泰姆的勇士 -- 霜蛾要塞的法尔斯·卡利尤斯、斯卡尔的塔斯滕·心牙和冰霜巨人卡斯塔格 -- 参加狩猎。我们所有人都要找到出路穿越冰川，尽管其他人已经先行一步。我们中只有一个人能活下来与猎人战斗。我应该继续前进，看看有什么在等着我。
+希尔辛对我说话，告诉我我要参加他的狩猎。他召集了索瑟泰姆的勇士 -- 霜蛾要塞的法尔斯·卡利尤斯、斯卡尔的塔斯滕·心牙和冰霜巨人卡斯塔格 -- 参加狩猎。我们所有人都要找到出路穿越冰川，尽管其他人已经先行一步。我们中只有一个人能活下来与猎人战斗。我应该继续前进，看看有什么在等着我。
 
 > INFO.NAME bm_wildhunt 1675676051538012168
 I've encountered Captain Falx Carius, who was brought here after the attack on Fort Frostmoth. He suggests we work together to escape Hircine's prison.
@@ -13854,27 +13854,27 @@ As we approached the gate, Carius told me that he can go no further. If I am to 
 
 > INFO.NAME bm_wildhunt 2460514759723923702
 In the next ring of the glacier, I was greeted by Tharsten Heart-Fang, who has also been brought here by the Daedra Lord Hircine. He believes we should work together to fight Hircine.
-在冰川的下一环，迎接我的是塔斯滕·心牙，他也是被迪德拉领主海尔辛带到这里来的。他认为我们应该合作对抗海尔辛。 {戒指,工作}
+在冰川的下一环，迎接我的是塔斯滕·心牙，他也是被迪德拉领主希尔辛带到这里来的。他认为我们应该合作对抗希尔辛。 {戒指,工作}
 
 > INFO.NAME bm_wildhunt 261959082048230001
 I have chosen to work with Heart-Fang to defeat Hircine.
-我选择与心牙合作，打败海尔辛。 {工作}
+我选择与心牙合作，打败希尔辛。 {工作}
 
 > INFO.NAME bm_wildhunt 269069009844210981
 I told Heart-Fang that, as there could only be one survivor in this deadly game, I could not work with him. He responded that he alone would survive this Hunt, and that it was his birthright to do so. Apparenty, Heart-Fang has the Ring of Hircine, and has used its magic to prolong his life and rule the Skaal for generations. Now, he claims I will have to face him in his "true form."
-我告诉心牙，由于在这场致命游戏中只能有一个幸存者，我不能与他合作。他回答说，只有他才能在这场狩猎中幸存下来，这是他与生俱来的权利。显然，心牙拥有海尔辛之戒，并用它的魔法延长了自己的生命，世世代代统治着斯卡尔人。现在，他声称我将不得不面对他的“真身”。 {工作,戒指}
+我告诉心牙，由于在这场致命游戏中只能有一个幸存者，我不能与他合作。他回答说，只有他才能在这场狩猎中幸存下来，这是他与生俱来的权利。显然，心牙拥有希尔辛之戒，并用它的魔法延长了自己的生命，世世代代统治着斯卡尔人。现在，他声称我将不得不面对他的“真身”。 {工作,戒指}
 
 > INFO.NAME bm_wildhunt 23438103901833112896
 After finding the chest empty, Heart-Fang spoke to me. He told me that he has the key to continue on in the Hunt, and he will do so alone. He also claims to have the Ring of Hircine, and to have had it for many generations. Heart-Fang seems ready to kill me, and claims I must now fight him in his "true form."
-发现箱子空了之后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他将独自行动。他还声称自己拥有海尔辛之戒，而且已经拥有了很多代。心牙似乎准备杀了我，并声称我现在必须以“真身”与他战斗。 {戒指}
+发现箱子空了之后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他将独自行动。他还声称自己拥有希尔辛之戒，而且已经拥有了很多代。心牙似乎准备杀了我，并声称我现在必须以“真身”与他战斗。 {戒指}
 
 > INFO.NAME bm_wildhunt 28508225771506928899
 As I entered the next ring of the glacier, I found Tharsten Heart-Fang. He told me that he alone will continue on in the Hunt, and that this is what he was born to do. He also claims to have the Ring of Hircine, and to have had it for many generations. Heart-Fang seems ready to kill me, and claims I must now fight him in his "true form."
-当我进入下一个冰川环时，我发现了塔斯滕·心牙。他告诉我，只有他才能继续狩猎，这是他与生俱来的使命。他还声称自己拥有海尔辛之戒，而且世代相传。心牙似乎准备杀了我，并声称我现在必须以“真身”与他战斗。 {戒指}
+当我进入下一个冰川环时，我发现了塔斯滕·心牙。他告诉我，只有他才能继续狩猎，这是他与生俱来的使命。他还声称自己拥有希尔辛之戒，而且世代相传。心牙似乎准备杀了我，并声称我现在必须以“真身”与他战斗。 {戒指}
 
 > INFO.NAME bm_wildhunt 188302990614188995
 Heart-Fang is dead. As he died, the Ring of Hircine disappeared from his finger and appeared in my inventory.
-心牙死了。他死的时候，海尔辛之戒从他的手指上消失，出现在我的库存里。 {戒指}
+心牙死了。他死的时候，希尔辛之戒从他的手指上消失，出现在我的库存里。 {戒指}
 
 > INFO.NAME bm_wildhunt 2555930546159799664
 On the corpse of Heart-Fang, I have found the second key to allow me to proceed through this maze.
@@ -13882,15 +13882,15 @@ On the corpse of Heart-Fang, I have found the second key to allow me to proceed 
 
 > INFO.NAME bm_wildhunt 209372181252814537
 I have entered what appears to be the center of the Mortrag Glacier. In it is the frost giant Karstaag, the final participant in Hircine's Hunt.
-我进入了莫特拉格冰川的中心。里面有冰霜巨人卡斯塔格，他是海尔辛狩猎的最后一个参与者。
+我进入了莫特拉格冰川的中心。里面有冰霜巨人卡斯塔格，他是希尔辛狩猎的最后一个参与者。
 
 > INFO.NAME bm_wildhunt 306438186524022814
 The frost giant Karstaag is dead. I am now the only one that has made it to the final stage of Hircine's Hunt.
-冰霜巨人卡斯塔格已经死了。现在只有我一个人进入了海尔辛狩猎的最后阶段。
+冰霜巨人卡斯塔格已经死了。现在只有我一个人进入了希尔辛狩猎的最后阶段。
 
 > INFO.NAME bm_wildhunt 1265429941389310490
 Hircine has appeared and spoken to me. He says I have proven myself to be a worthy hunter, and that I now will receive the greatest honor he can bestow--to be his Prey. Hircine has also questioned me as to what the greatest strength of a hunter is: strength, speed, or guile. He says that I must choose one of these three.
-海尔辛出现了，并和我说了话。他说我已经证明了自己是一个值得尊敬的猎人，现在我将获得他所能给予的最大荣誉 -- 成为他的猎物。海尔辛还问我，猎人最大的优势是什么：力量、速度还是狡诈。他说我必须从这三者中选择一个。
+希尔辛出现了，并和我说了话。他说我已经证明了自己是一个值得尊敬的猎人，现在我将获得他所能给予的最大荣誉 -- 成为他的猎物。希尔辛还问我，猎人最大的优势是什么：力量、速度还是狡诈。他说我必须从这三者中选择一个。
 
 > INFO.NAME bm_wildhunt 12123267882369613406
 I have chosen Strength as a hunter's greatest asset.
@@ -13906,23 +13906,23 @@ I have chosen Guile as a hunter's greatest asset.
 
 > INFO.NAME bm_wildhunt 283262631150420380
 Hircine has accepted my choice, and tells me that for me to face the Daedra Lord himself in battle would not be sporting. Instead, I am to face one of Hircine's Aspects.
-海尔辛接受了我的选择，并告诉我，让我在战斗中面对迪德拉领主本人并不合适。相反，我要面对的是海尔辛的一个分身。
+希尔辛接受了我的选择，并告诉我，让我在战斗中面对迪德拉领主本人并不合适。相反，我要面对的是希尔辛的一个分身。
 
 > INFO.NAME bm_wildhunt 21577283393142530296
 I have defeated Hircine's Aspect of Strength. I should now try to leave the glacier through the gate.
-我已经击败了海尔辛的怪力之身。现在我应该尝试从大门离开冰川。 {力量}
+我已经击败了希尔辛的怪力之身。现在我应该尝试从大门离开冰川。 {力量}
 
 > INFO.NAME bm_wildhunt 18155143631678220598
 I have defeated Hircine's Aspect of Speed. I should now try to leave the glacier through the gate.
-我已击败海尔辛的神速之身。现在我应该尝试从大门离开冰川。 {速度}
+我已击败希尔辛的神速之身。现在我应该尝试从大门离开冰川。 {速度}
 
 > INFO.NAME bm_wildhunt 125291381549234935
 I have defeated Hircine's Aspect of Guile. I should now try to leave the glacier through the gate.
-我已击败海尔辛的狡诈之身。现在我应该尝试从大门离开冰川。
+我已击败希尔辛的狡诈之身。现在我应该尝试从大门离开冰川。
 
 > INFO.NAME bm_wildhunt 28150253901049630120
 As I left the glacier, I heard a loud rumbling sound, as if the entire structure were coming down around me. I found myself outside the fallen ice mountain, with Hircine's message echoing in my thoughts. The Hunter has been defeated, but he will return one day to hunt again.
-当我离开冰川时，我听到了轰隆隆的巨响，好像整个冰川都在我身边倒塌了。我发现自己身处倒塌的冰山之外，海尔辛的事情在我的脑海中回荡。猎人已被击败，但他总有一天会回来再次狩猎。 {信息}
+当我离开冰川时，我听到了轰隆隆的巨响，好像整个冰川都在我身边倒塌了。我发现自己身处倒塌的冰山之外，希尔辛的事情在我的脑海中回荡。猎人已被击败，但他总有一天会回来再次狩猎。 {信息}
 
 > INFO.NAME hr_courier 266308072312891199
 House Redoran: Deliver Cure Disease Potion
@@ -14202,7 +14202,7 @@ Taros Dral was not pleased that I had killed Balyn Omavel in a way other than th
 
 > INFO.NAME da_mephala 2124160673266220521
 I've returned to the Mephala Shrine. Upon arriving, the Daedra spoke to me, and was pleased with what I had done. As a reward, I was given the Ring of Khajiit. It seems a powerful artifact, and well suited for the Morag Tong.
-我回到了梅法拉圣祠。到达后，迪德拉君主与我交谈，对我的所作所为很满意。作为奖励，我得到了卡吉特之戒。它似乎是一件强大的神器，非常适合莫拉格堂。 {报酬,戒指}
+我回到了梅法拉圣祠。到达后，迪德拉大君与我交谈，对我的所作所为很满意。作为奖励，我得到了卡吉特之戒。它似乎是一件强大的神器，非常适合莫拉格堂。 {报酬,戒指}
 
 > INFO.NAME ic3_willow 32064146750623517
 Imperial Cult: Gathering Willow Anther
@@ -16818,7 +16818,7 @@ It's not bad enough with the blight storms this year, but the Ashlanders are als
 
 > INFO.NAME boots of the apostle 1972225609398918055
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是你寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}
+先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是你寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉大君阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}
 
 > INFO.NAME boots of the apostle 2315079573118114217
 You found the boots? You must tell me all about it....
@@ -16834,7 +16834,7 @@ The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer 
 
 > INFO.NAME boots of the apostle 14011281241423210826
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是你寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}
+先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是你寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉大君阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}
 
 > INFO.NAME keep me from my task 3174726569204032588
 Nothing must keep me from it.
@@ -20648,7 +20648,7 @@ There is little to be done until he lets it be known to us. Certainly it will no
 
 > INFO.NAME fight through 31349130311423327956
 If that is how you feel, so be it. This Hunt was made for Heart-Fang and Heart-Fang alone! For generations, I have led the Skaal, the Ring of Hircine on my finger, granting me eternal life. This Hunt is my birthright! This Hunt is Heart-Fang's destiny! Now you will face me in my true form, the form I was born to wear.
-如果这就是你的感受，那就这样吧。这次狩猎是为了心牙，也只为了心牙！世世代代，我带领着斯卡尔，海尔辛之戒戴在我的手指上，赋予我永恒的生命。这场狩猎是我与生俱来的权利，这次狩猎是心牙的宿命。现在你将面对我的真身，我生来就该戴着它。 {戒指}
+如果这就是你的感受，那就这样吧。这次狩猎是为了心牙，也只为了心牙！世世代代，我带领着斯卡尔，希尔辛之戒戴在我的手指上，赋予我永恒的生命。这场狩猎是我与生俱来的权利，这次狩猎是心牙的宿命。现在你将面对我的真身，我生来就该戴着它。 {戒指}
 
 > INFO.NAME fight through 66232099776423208
 Then let us go. I will reach the end of this Hunter's game!
@@ -21972,15 +21972,15 @@ It is so good to see you again, %PCName.  Thanks to you, I am able to resume my 
 
 > INFO.NAME greeting 1 2576631603145445885
 We know that Hircine has tasked you, %PCName. Until you have done your master's bidding, the ritual may not proceed.
-我们知道海尔辛给了你任务，%PCName。在你完成主人的吩咐之前，仪式不能进行。
+我们知道希尔辛给了你任务，%PCName。在你完成主人的吩咐之前，仪式不能进行。
 
 > INFO.NAME greeting 1 484411224126427947
 We know that Hircine has tasked you, %PCName. Until you have done your master's bidding, the ritual may not proceed.
-我们知道海尔辛给了你任务，%PCName。在你完成主人的吩咐之前，仪式不能进行。
+我们知道希尔辛给了你任务，%PCName。在你完成主人的吩咐之前，仪式不能进行。
 
 > INFO.NAME greeting 1 9809321641547319923
 We know that Hircine has tasked you, %PCName. Until you have done your master's bidding, the ritual may not proceed.
-我们知道海尔辛给了你任务，%PCName。在你完成主人的吩咐之前，仪式不能进行。
+我们知道希尔辛给了你任务，%PCName。在你完成主人的吩咐之前，仪式不能进行。
 
 > INFO.NAME greeting 1 162299851160111529
 Congratulations, %PCName.  You have survived the Rite of the Wolf Giver and have been cured of your lycanthropy.  Never again will you turn into a werewolf, and never again will you contract the disease.
@@ -22804,7 +22804,7 @@ My greetings to you, wanderer. We of the Skaal do not get many visitors. What wi
 
 > INFO.NAME greeting 1 1233013037240165527
 This is as far as we go, %PCName. I have the key to reach the next stage of the Hunter's challenge, and only I shall continue. This Hunt is for Heart-Fang and Heart-Fang alone. Many generations have I lived now, Hircine's Ring on my finger. This Hunt is my birthright! Heart-Fang alone shall face the Hunter. Heart-Fang alone shall earn the glory of the Hunt! See now the power I was born to wield! You now face Heart-Fang in his true form, the form he was born to wear!
-我们只能到这里了，%PCName。我有进入猎人挑战下一阶段的钥匙，只有我才能继续下去。这场狩猎只属于心牙，也只属于心牙。我已经活了好几代，海尔辛的戒指戴在我的手指上。狩猎是我与生俱来的权利，只有心牙才能面对猎人，只有心牙才能赢得狩猎的荣耀！看看我与生俱来的力量吧！你现在要面对的是心牙的真身，他生来就该戴着这枚戒指！ {沙尔}
+我们只能到这里了，%PCName。我有进入猎人挑战下一阶段的钥匙，只有我才能继续下去。这场狩猎只属于心牙，也只属于心牙。我已经活了好几代，希尔辛的戒指戴在我的手指上。狩猎是我与生俱来的权利，只有心牙才能面对猎人，只有心牙才能赢得狩猎的荣耀！看看我与生俱来的力量吧！你现在要面对的是心牙的真身，他生来就该戴着这枚戒指！ {沙尔}
 
 > INFO.NAME greeting 1 297031283692619216
 Let us continue. Heart-Fang must find a way out of this place!
@@ -22812,7 +22812,7 @@ Let us continue. Heart-Fang must find a way out of this place!
 
 > INFO.NAME greeting 1 12211297551019628342
 Ahhh...so it is you, %PCName. But I see you have taken on another form. No matter. This Hunt is for Heart-Fang and Heart-Fang alone. Many generations have I lived now, with Hircine's Ring on my finger. This Hunt is my birthright, %PCName! Heart-Fang alone shall face the Hunter. Heart-Fang alone shall earn the glory of the Hunt! See now the power I was born to wield! Prepare to face me in my true form!
-啊…原来是你，%PCName。但我看到你变成了另一个样子。没关系，这次狩猎只属于心牙，也只属于心牙。海尔辛的戒指戴在我手上，我已经活了好几代了。这次狩猎是我与生俱来的权利，%PCName。只有心牙才能面对猎人，只有心牙才能赢得狩猎的荣耀！看看我与生俱来的力量吧！准备面对我的真身吧！ {沙尔}
+啊…原来是你，%PCName。但我看到你变成了另一个样子。没关系，这次狩猎只属于心牙，也只属于心牙。希尔辛的戒指戴在我手上，我已经活了好几代了。这次狩猎是我与生俱来的权利，%PCName。只有心牙才能面对猎人，只有心牙才能赢得狩猎的荣耀！看看我与生俱来的力量吧！准备面对我的真身吧！ {沙尔}
 
 > INFO.NAME greeting 1 288091779322294097
 It's you, %PCName! How did you get to this place? We've little time, I fear. The frost giant Karstaag has gone ahead. Even now, I fear he may win this battle before me. Perhaps together we can fight through this place.
@@ -23100,7 +23100,7 @@ You! Do not think that I cannot see through the form you now wear. I am sorry it
 
 > INFO.NAME greeting 1 29774176462541616508
 %PCName, it is you! I am sorry you, too, have been brought to play in this nefarious game. Since the werewolves captured me at the fort, I have been held here by this demon Hircine. Soon, others joined me: one of the Nords, named Heart-Fang, along with a beast named Karstaag. I believe the only hope for escape is to find our way through this maze.
-%PCName，是你！很遗憾你也被卷入了这场邪恶的游戏中。自从狼人把我抓到要塞，我就被这个魔鬼海尔辛关在这里。不久，其他人也加入了我，其中一个诺德人，名叫心牙，还有一只名叫卡斯塔格的野兽。我认为找到出路唯一的希望就是穿过这座迷宫。 {逃}
+%PCName，是你！很遗憾你也被卷入了这场邪恶的游戏中。自从狼人把我抓到要塞，我就被这个魔鬼希尔辛关在这里。不久，其他人也加入了我，其中一个诺德人，名叫心牙，还有一只名叫卡斯塔格的野兽。我认为找到出路唯一的希望就是穿过这座迷宫。 {逃}
 
 > INFO.NAME greeting 1 11742273061804126792
 There is some commotion outside. You'd better get out there and check on it. We'll speak later.
@@ -24328,7 +24328,7 @@ You have heard my story. Do what you will.
 
 > INFO.NAME greeting 1 51449342138716704
 Do not fear me, %PCRace. Listen, and I will tell you how I was murdered by Lugrub gro-Ogdum.
-不要怕我，%PCRace。听着，我会告诉你我是如何被拉格路布·格洛-奥格杜姆杀害的。
+不要怕我，%PCRace。听着，我会告诉你我是如何被拉格路布·格罗-奥格杜姆杀害的。
 
 > INFO.NAME greeting 1 45172065601617764
 What are you doing here? You must be a thief!
@@ -25616,7 +25616,7 @@ I'm a sportsman. I'll give you a fighting chance. Go ahead. Make the first move.
 
 > INFO.NAME greeting 1 2113134302501210239
 Look! It's Azura's Fool! Look at you. Not a real thing at all. Just a pathetic puppet of prophecy. And you think you can trust the Daedra Lords?
-看哪！信阿祖拉的白痴！看看你，一点都不真实，只是预言中的可怜傀儡！你以为你能相信迪德拉君主？
+看哪！信阿祖拉的白痴！看看你，一点都不真实，只是预言中的可怜傀儡！你以为你能相信迪德拉大君？
 
 > INFO.NAME greeting 1 15284121342264030153
 Come on! You're the prophesied Incarnate! Azura has promised you fame and glory! Surely you can't be afraid of me, can you? Don't be shy. With a Daedra Lord for ally and patron, how could you lose? Oh, PLEASE don't hurt me, star-blessed hero!
