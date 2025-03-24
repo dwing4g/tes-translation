@@ -56,22 +56,26 @@ local forbids = arg[1] and arg or {
 	"月蛾堡", -- 月蛾要塞
 	"红山要塞", -- 红山都堡
 	"要塞垒",
+	"庙庭", -- 神殿庭院
+	"离宫", -- 神临
 
 	"亚哈斯", -- 阿哈兹
 	"阿鲁因", -- 阿汝因
 	"阿塔尤姆", -- 阿泰乌姆
-	"格洛%-", -- 格罗-
-	"哥尔%-", -- 格尔-
+	"格洛-", -- 格罗-
+	"哥尔-", -- 格尔-
 	"多隆", -- 多罗姆
 	"伽勒里昂", -- 伽勒良
 	"·海勒", -- ·赫勒
 	"吉伽拉格", -- 杰盖拉格
+	"卡拉威库斯", -- 克拉威库斯
+	"代德洛斯", -- 迪德拉斯
 	"勒丹亚", -- 瑞达尼亚 Redaynia
 	"勒斯丹", -- 瑞斯代尼亚 Resdaynia
 
-	"隐%-其%-目", -- 隐其目
-	"九%-趾", -- 九趾
-	"舌%-蟾", -- 舌蟾
+	"隐-其-目", -- 隐其目
+	"九-趾", -- 九趾
+	"舌-蟾", -- 舌蟾
 	"哈伊埃", -- 哈伊-埃
 	"“友好”的赌注", -- 友好的赌注
 	"渡鸦索", -- “渡鸦”索
@@ -101,7 +105,7 @@ for _, filename in ipairs(filenames) do
 	for line in io.lines(filename) do
 		i = i + 1
 		for _, forbid in ipairs(forbids) do
-			if line:find(forbid, 1) then
+			if line:find(forbid, 1, true) then
 				print(filename .. "(" .. i .. "): " .. forbid)
 			end
 		end
