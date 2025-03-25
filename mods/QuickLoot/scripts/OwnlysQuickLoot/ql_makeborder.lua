@@ -61,7 +61,7 @@ end
 
 
 
-function borderTemplates(thickness,color,borderSize)
+function borderTemplates(thickness,color,borderSize,background)
     --local borderSize = (thickness == 'thin') and constants.border or constants.thickBorder
     local borderV = v2(1, 1) * borderSize
     local result = {}
@@ -90,6 +90,11 @@ function borderTemplates(thickness,color,borderSize)
     result.borders = {
         content = ui.content {},
     }
+	
+	if background then
+		result.borders.content:add(background)
+	end
+	
     for k, v in pairs(sideParts) do
         local horizontal = k == 'top' or k == 'bottom'
         local direction = horizontal and v2(1, 0) or v2(0, 1)
@@ -123,7 +128,7 @@ function borderTemplates(thickness,color,borderSize)
             relativeSize = v2(1, 1),
         }
     }
-
+		
     result.box = {
         type = ui.TYPE.Container,
         content = ui.content{},

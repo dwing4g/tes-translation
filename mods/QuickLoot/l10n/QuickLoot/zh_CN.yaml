@@ -78,13 +78,20 @@
 "Tooltip position": "提示框位置"
 "left": "左"
 "left (fixed)": "左(固定)"
+"left (fixed 2)": "左(固定2)"
 "right": "右"
 "right (fixed)": "右(固定)"
+"right (fixed 2)": "右(固定2)"
 "bottom": "下"
 "top": "上"
 
-"Fix: Tooltip box width (multiplier)": "修正: 提示框宽度(倍数)"
-"there's no autosizing, so i had to calculate the dimensions of the text": "没有自动调整大小的功能，所以我不得不计算一下文字的尺寸"
+"tooltip show melee info": "提示框显示近战武器信息"
+"'show melee info' enabled in engine OpenMW settings": "“显示近战武器信息”在OpenMW引擎设置里开启"
+
+"Tooltip text alignment": "提示框文字对齐"
+"center": "居中"
+"left": "居左"
+"right": "居右"
 
 "Search": "搜索"
 "Take All": "全部拿走"

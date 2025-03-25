@@ -270,18 +270,26 @@ settings = {
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
-				items = {"off", "left","left (fixed)", "right", "right (fixed)", "bottom", "top"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+				items = {"off", "left","left (fixed)", "left (fixed 2)", "right", "right (fixed)", "right (fixed 2)", "bottom", "top"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
 		{
-			key = "TOOLTIP_FONT_WIDTH",
-			name = "Fix: Tooltip box width (multiplier)",
-			description = "there's no autosizing, so i had to calculate the dimensions of the text",
-			renderer = "number",
-			default = 0.55,
+			key = "TOOLTIP_MELEE_INFO",
+			name = "tooltip show melee info",
+			description = "'show melee info' enabled in engine OpenMW settings",
+			renderer = "checkbox",
+			default = false
+		},
+		{
+			key = "TOOLTIP_TEXT_ALIGNMENT",
+			name = "Tooltip text alignment",
+			description = "",
+			default = "center", 
+			renderer = "select",
 			argument = {
-				min = 0.01,
-				max = 10,
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"center", "left", "right"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
 		

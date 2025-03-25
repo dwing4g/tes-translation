@@ -455,7 +455,7 @@ local function formatNumber(num, mode)
 	if text >99 or text > 1.2 and (text%1 <=0.1 or text%1 >=0.9) then
 		text = math.floor(text)
 	end
-	local infSymbol = false
+	infSymbol = false
 	if text == 1/0 then
 		if not playerSection:get("FONT_FIX") then
 			text = hextoutf8(0x221e)

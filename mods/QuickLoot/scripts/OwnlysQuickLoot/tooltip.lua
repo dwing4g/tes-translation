@@ -54,7 +54,7 @@ function getMaxEnchantmentCharge(enchantment)
 		if effect.range == core.magic.RANGE.Target then	--if (effect.mData.mRange == ESM::RT_Target)
 			x = x * 1.5 -- effectCost *= 1.5;
 		end
-		x = math.floor(x * costMult)
+		x = math.floor(x * costMult + 0.5)
 		cost = cost + x
 		
 	end
@@ -499,13 +499,13 @@ local function getArmorData(armor)
 		class = core.getGMST("sSkillUnarmored")
 		skill = types.Player.stats.skills.unarmored(self).modified
 	elseif record.weight <= referenceWeight * core.getGMST("fLightMaxMod") + epsilon then
-		class = core.getGMST("sSkillLightarmor")
+		class = core.getGMST("sLight")
 		skill = types.Player.stats.skills.lightarmor(self).modified
 	elseif record.weight <= referenceWeight * core.getGMST("fMedMaxMod") + epsilon then
-		class = core.getGMST("sSkillMediumarmor")
+		class = core.getGMST("sMedium")
 		skill = types.Player.stats.skills.mediumarmor(self).modified
 	else
-		class = core.getGMST("sSkillHeavyarmor")
+		class = core.getGMST("sHeavy")
 		skill = types.Player.stats.skills.heavyarmor(self).modified
 	end
 	local playerArmor = baseArmor * skill / core.getGMST("iBaseArmorSkill")
@@ -545,12 +545,21 @@ local function getEffects(eff, type)
 		end
 		local effectPrototype = core.magic.effects.records[effect.id]
 		if effectPrototype.hasMagnitude then
-			if effect.magnitudeMin == effect.magnitudeMax then
-				text = text.." "..effect.magnitudeMin
+			if effect.id == core.magic.EFFECT_TYPE.FortifyMaximumMagicka then
+				if effect.magnitudeMin == effect.magnitudeMax then
+					text = text.." "..effect.magnitudeMin/10
+				else
+					text = text.." "..effect.magnitudeMin/10 .."-"..effect.magnitudeMax/10
+				end
+				text = text..core.getGMST("sXTimesINT")
 			else
-				text = text.." "..effect.magnitudeMin.."-"..effect.magnitudeMax
+				if effect.magnitudeMin == effect.magnitudeMax then
+					text = text.." "..effect.magnitudeMin
+				else
+					text = text.." "..effect.magnitudeMin.."-"..effect.magnitudeMax
+				end
+				text = text.." "..core.getGMST("sPoints")
 			end
-			text = text.." "..core.getGMST("sPoints")
 		end
 		if type ~= "constant" then --enchantmentRecord.type ~= core.magic.ENCHANTMENT_TYPE.ConstantEffect then
 			if effectPrototype.hasDuration then
@@ -638,50 +647,6 @@ local function getEnchantmentData(item)
 end
 
 
--- Function to format effect description for display
-local function getEffectDescription(effect)
-	local desc = getMagicEffectName(effect.id)
-	
-	-- Add attribute or skill name if applicable
-	if effect.attributeId >= 0 then
-		desc = desc .. " " .. getAttributeName(effect.attributeId)
-	elseif effect.skillId >= 0 then
-		desc = desc .. " " .. getSkillName(effect.skillId)
-	end
-	
-	-- Add magnitude
-	if effect.magnitude[1] > 0 then
-		if effect.magnitude[1] == effect.magnitude[2] then
-			desc = desc .. " " .. effect.magnitude[1]
-		else
-			desc = desc .. " " .. effect.magnitude[1] .. "-" .. effect.magnitude[2]
-		end
-		
-		-- Add percentage for certain effects
-		local percentageEffects = {
-			[28] = true, -- Weakness to Fire
-			[29] = true, -- Weakness to Frost
-			[30] = true, -- Weakness to Shock
-			-- Add other percentage-based effects
-		}
-		
-		if percentageEffects[effect.id] then
-			desc = desc .. "%"
-		end
-	end
-	
-	-- Add duration if applicable
-	if effect.duration > 0 then
-		desc = desc .. " for " .. effect.duration .. " sec"
-	end
-	
-	-- Add area if applicable
-	if effect.area > 0 then
-		desc = desc .. " in " .. effect.area .. " ft"
-	end
-	
-	return desc
-end
 
 function getIngredientEffects(item)
 	local effects = {}
@@ -707,7 +672,11 @@ end
 local function getItemInfo(item)
 	if not item then return nil end
 	local record = item.type.records[item.recordId]
-	
+	--for a,b in pairs(types) do
+	--if b.objectIsInstance(item) then
+	--	print(a)
+	--end
+	--end
 	local info = {
 		name = record.name,
 		id = item.id,
@@ -748,6 +717,11 @@ local function getItemInfo(item)
 		info.type = "repair"
 		info.quality = types.Repair.record(item).quality
 		info.uses =  types.Item.itemData(item).condition
+	elseif types.Miscellaneous.objectIsInstance(item) then
+		if record.id == "gold_001" or record.isKey then
+			info.value = 0
+			return nil
+		end
 	end
 	info.enchantment = getEnchantmentData(item)
 	
@@ -761,28 +735,60 @@ return function (item,highlightPosition) --makeTooltip
 	if playerSection:get("TOOLTIP_MODE") == "off" then
 		return
 	end
+	
+	
+	
 	local itemRecord = item.type.records[item.recordId]
 	local info = getItemInfo(item)
-
+	if not info then return end
 	local hudLayerSize = ui.layers[ui.layers.indexOf("HUD")].size
 	local rootWidth = hudLayerSize.x * uiSize.x
 	local rootHeight = hudLayerSize.y * uiSize.y
 	local absPos = v2(hudLayerSize.x * uiLoc.x, hudLayerSize.y * uiLoc.y)
-
+	local tooltipTextAlignment = ui.ALIGNMENT.Center
+	if playerSection:get("TOOLTIP_TEXT_ALIGNMENT") == "left" then
+		tooltipTextAlignment = ui.ALIGNMENT.Start
+	elseif playerSection:get("TOOLTIP_TEXT_ALIGNMENT") == "right" then
+		tooltipTextAlignment = ui.ALIGNMENT.End
+	end
+	local borderTemplate = makeBorder(borderFile, borderColor or nil, borderOffset, {
+			type = ui.TYPE.Image,
+			props = {
+				resource = background,
+				relativeSize  = v2(1,1),
+				alpha = 0.4,
+			}
+		}).borders
 	local root = ui.create({
-		type = ui.TYPE.Widget,
+		type = ui.TYPE.Container,
 		layer = 'HUD',
 		name = 'itemTooltip',
+		template = borderTemplate,
 		props = {
 		},
 		content = ui.content {
 		}
 	})
+	
+	local flex = {
+		type = ui.TYPE.Flex,
+		layer = 'HUD',
+		name = 'tooltipFlex',
+		props = {
+			autoSize = true,
+			arrange = tooltipTextAlignment,
+		},
+		content = ui.content {
+		}
+	}
+	
+	root.layout.content:add(flex)
 	if playerSection:get("TOOLTIP_MODE") == "top" then
 		root.layout.props = {
 			anchor = v2(0.5,1), 
 			position = v2(absPos.x, absPos.y-rootHeight/2),
-			size = v2(100, 100),
+			--size = v2(100, 100),
+			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "bottom" then
 		local temp = 0
@@ -792,88 +798,83 @@ return function (item,highlightPosition) --makeTooltip
 		root.layout.props = {
 			anchor = v2(0.5,0), 
 			position = v2(absPos.x, absPos.y+rootHeight/2+1-temp),
-			size = v2(100, 100),
+			--size = v2(100, 100),
+			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "left" then
 		root.layout.props = {
 			anchor = v2(1,0), 
 			position = v2(absPos.x-rootWidth/2, absPos.y-rootHeight/2+highlightPosition),
-			size = v2(100, 100),
+			--size = v2(100, 100),
+			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "right" then
 		root.layout.props = {
 			anchor = v2(0,0), 
 			position = v2(absPos.x+rootWidth/2, absPos.y-rootHeight/2+highlightPosition),
-			size = v2(100, 100),
+			--size = v2(100, 100),
+			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed)" then
 		root.layout.props = {
 			anchor = v2(1,0.5), 
 			position = v2(absPos.x-rootWidth/2, absPos.y),
-			size = v2(100, 100),
+			--size = v2(100, 100),
+			autoSize = true
+		}
+	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed 2)" then
+		root.layout.props = {
+			anchor = v2(1,0), 
+			position = v2(absPos.x-rootWidth/2, absPos.y-boxHeight/4),
+			--size = v2(100, 100),
+			autoSize = true
+		}
+	elseif playerSection:get("TOOLTIP_MODE") == "right (fixed 2)" then
+		root.layout.props = {
+			anchor = v2(0,0), 
+			position = v2(absPos.x+rootWidth/2, absPos.y-boxHeight/4),
+			--size = v2(100, 100),
+			autoSize = true
 		}
 	else --right (fixed)
 		root.layout.props = {
 			anchor = v2(0,0.5), 
 			position = v2(absPos.x+rootWidth/2, absPos.y),
-			size = v2(100, 100),
+			--size = v2(100, 100),
+			autoSize = true
 		}
 	end
 	
-	table.insert(root.layout.content,
-		{
-			type = ui.TYPE.Image,
-			props = {
-				resource = background,
-				tileH = false,
-				tileV = false,
-				relativeSize  = v2(1,1),
-				size = v2(0,0),
-				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
-				position = v2(0,0),
-				relativePosition = v2(0, 0),
-				alpha = 0.4,
-			}
-		})
-	--box BORDER
-	table.insert(root.layout.content, {
-		template = borderTemplate,
-		props = {
-			relativeSize  = v2(1,1),
-			alpha = 0.5,
-		}
-	})
 	local ench = item and (item.enchant or item.enchant ~= "" and item.enchant )
-	local totalHeight = 0
-	local maxWidth = 0
+	--local totalHeight = 0
 	local fontWidthMult = playerSection:get("TOOLTIP_FONT_WIDTH")
 	local function textElement(str, color)
-		table.insert(root.layout.content, { 
+		flex.content:add { 
 			type = ui.TYPE.Text,
-			template = quickLootText,
+			template = tooltipText,
 			props = {
-				text = " "..str.." ",--..hextoutf8(0xd83d)..hextoutf8(0xd83e),--thingName..countText,
-				textSize = itemFontSize*textSizeMult,--itemFontSize*textSizeMult,
-				size = v2(0,itemFontSize*textSizeMult),
-				relativeSize  = v2(0,1),
-				relativePosition = v2(0.5, 0),
-				position = v2(0,totalHeight),
-				anchor = v2(0.5,0),
-				textAlignH = ui.ALIGNMENT.Center,
+				text = " "..str.." ",
+				textSize = itemFontSize*textSizeMult,
+				textAlignH = ui.ALIGNMENT.End,
 				textColor = color,
+				autoSize = true
 			},
-		})
-		totalHeight = totalHeight + itemFontSize*textSizeMult
-		maxWidth = math.max(maxWidth, estimateStringWidth(str) * itemFontSize*textSizeMult*fontWidthMult)
+		}
+		--totalHeight = totalHeight + itemFontSize*textSizeMult
 	end
 	
-	totalHeight = totalHeight + 1
+	--totalHeight = totalHeight + 1
+	flex.content:add{ props = { size = v2(1, 1) * 1 } }
+	
 	local name = info.name
 	if item.count and item.count > 1 then
 		name = name.." ("..item.count..")"
 	end
 	textElement(name, playerSection:get("ICON_TINT"))
-	totalHeight = totalHeight + 1
+
+	--totalHeight = totalHeight + 1
+	flex.content:add{ props = { size = v2(1, 1) * 1 } }
+	
 	if info.uses then
 		textElement(core.getGMST("sUses")..": "..math.floor(info.uses))
 	end
@@ -899,8 +900,13 @@ return function (item,highlightPosition) --makeTooltip
 	if weaponOrArmor and weaponOrArmor.durability then
 		textElement(core.getGMST("sCondition")..": ".. weaponOrArmor.durability.current.."/"..weaponOrArmor.durability.max)
 	end
+	if info.type == "weapon" and playerSection:get("TOOLTIP_MELEE_INFO") then
+		textElement(core.getGMST("sRange")..": "..(math.floor((info.weaponData.reach*6.05)*10)/10).." "..core.getGMST("sfootarea"))
+		textElement(core.getGMST("sAttributeSpeed")..": "..math.floor((info.weaponData.speed)*100+0.5).."%")
+		
+	end
 	
-	if info.weight then
+	if info.weight and info.weight > 0 then
 		local armorClass = info.armorData and info.armorData.class
 		if armorClass then
 			armorClass = " ("..armorClass..")"
@@ -909,28 +915,37 @@ return function (item,highlightPosition) --makeTooltip
 		end
 		textElement(core.getGMST("sWeight")..": ".. formatNumber(info.weight, "weight")..armorClass)
 	end
-	if info.value then
+	
+	if info.value and info.value > 0 then
 		textElement(core.getGMST("sValue")..": ".. formatNumber(info.value, "value"))
 	end
 	
 	
 	local function printEffects(effects)
-		for a,effect in pairs(effects) do
-			local flex ={
+		local effectFlex = {
 				type = ui.TYPE.Flex,
 				props = {
 					position = v2(0, 0),
-					size = v2(0,itemFontSize*textSizeMult),
-					position = v2(0,totalHeight),
+					--position = v2(0,totalHeight),
 					anchor = v2(0.5,0),
 					relativePosition = v2(0.5, 0),
+					--horizontal = true,
+				},
+				content = ui.content({})
+			}
+		flex.content:add(effectFlex)
+		for a,effect in pairs(effects) do
+			local effectFlex2 ={
+				type = ui.TYPE.Flex,
+				props = {
 					horizontal = true,
 				},
 				content = ui.content({})
 			}
-			table.insert(root.layout.content,flex)
-			--textElement(effect.text)
-			table.insert(flex.content, {
+			effectFlex.content:add(effectFlex2)
+			effectFlex2.content:add{ props = { size = v2(1, 1) * 5 } }
+
+			effectFlex2.content:add {
 				type = ui.TYPE.Image,
 				props = {
 					resource = getTexture(effect.icon),
@@ -939,8 +954,8 @@ return function (item,highlightPosition) --makeTooltip
 					size = v2(itemFontSize*textSizeMult-1,itemFontSize*textSizeMult-1),
 					alpha = 0.7,
 				}
-			})
-			table.insert(flex.content, { 
+			}
+			effectFlex2.content:add { 
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
@@ -949,43 +964,43 @@ return function (item,highlightPosition) --makeTooltip
 					size = v2(0,itemFontSize*textSizeMult),
 					textAlignH = ui.ALIGNMENT.Center,
 				},
-			})
-			totalHeight = totalHeight + itemFontSize*textSizeMult
-			maxWidth = math.max(maxWidth, estimateStringWidth(effect.text) * itemFontSize*textSizeMult*fontWidthMult + itemFontSize*textSizeMult-1)
+			}
 		end
 	end
 	
 	if info.enchantment then
 		textElement(info.enchantment.typeName or "???")
-		totalHeight = totalHeight + 2
+		--totalHeight = totalHeight + 2
+		flex.content:add{ props = { size = v2(1, 1) * 2 } }
 		printEffects(info.enchantment.effects)
 		if info.enchantment.charge then
-			totalHeight = totalHeight + 3
+			--totalHeight = totalHeight + 3
+			flex.content:add{ props = { size = v2(1, 1) * 3 } }
 			--textElement(info.enchantment.charge.current.." / "..info.enchantment.charge.max)
-			local flex ={
+			local progressFlex ={
 				type = ui.TYPE.Flex,
 				props = {
 					position = v2(0, 0),
 					size = v2(0,itemFontSize*textSizeMult),
-					position = v2(0,totalHeight),
+					--position = v2(0,totalHeight),
 					anchor = v2(0.5,0),
 					relativePosition = v2(0.5, 0),
 					horizontal = true,
 				},
 				content = ui.content({})
 			}
-			table.insert(root.layout.content,flex)
+			flex.content:add(progressFlex)
 			--textElement(effect.text)
-			table.insert(flex.content, { 
+			progressFlex.content:add { 
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
-					text = core.getGMST("sCharges").." ",
+					text = " "..core.getGMST("sCharges").." ",
 					textSize = itemFontSize*textSizeMult,
 					size = v2(0,itemFontSize*textSizeMult),
 					textAlignH = ui.ALIGNMENT.Center,
 				},
-			})
+			}
 			-- PROGRESS BAR
 			local progressBar = 
 			{
@@ -997,8 +1012,8 @@ return function (item,highlightPosition) --makeTooltip
 				},
 				content = ui.content {}
 			}
-			table.insert(flex.content, progressBar)
-			table.insert(progressBar.content, {
+			progressFlex.content:add(progressBar)
+			progressBar.content:add {
 				type = ui.TYPE.Image,
 				props = {
 					resource = background,
@@ -1008,8 +1023,8 @@ return function (item,highlightPosition) --makeTooltip
 					relativePosition = v2(0,0),
 					alpha = 0.3,
 				}
-			})
-			table.insert(progressBar.content, {
+			}
+			progressBar.content:add {
 				type = ui.TYPE.Image,
 				props = {
 					resource = white,
@@ -1020,8 +1035,8 @@ return function (item,highlightPosition) --makeTooltip
 					alpha = 0.8,
 					color = util.color.hex("9c2e17"),
 				}
-			})
-			table.insert(progressBar.content, { 
+			}
+			progressBar.content:add { 
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
@@ -1034,45 +1049,49 @@ return function (item,highlightPosition) --makeTooltip
 					textAlignH = ui.ALIGNMENT.Center,
 					textColor = color,
 				},
-			})
+			}
 			
-			table.insert(progressBar.content, {
+			progressBar.content:add {
 				template = borderTemplate,
 				props = {
 					relativeSize  = v2(1,1),
 					alpha = 0.5,
 				}
-			})
-		
-			totalHeight = totalHeight + itemFontSize*textSizeMult
-			maxWidth = math.max(maxWidth, estimateStringWidth(core.getGMST("sCharges").." ")* itemFontSize*textSizeMult*fontWidthMult+itemFontSize*textSizeMult*6)
+			}
+			progressFlex.content:add{ props = { size = v2(1, 1) * 5 } }
+			--totalHeight = totalHeight + itemFontSize*textSizeMult
 		end
 	end
 	if info.potionEffects then
-		totalHeight = totalHeight + 1
+		--totalHeight = totalHeight + 1
+		flex.content:add{ props = { size = v2(1, 1) * 1 } }
 		printEffects(info.potionEffects)
 	end
 	if info.ingredientEffects then
-		totalHeight = totalHeight + 1
+		--totalHeight = totalHeight + 1
+		flex.content:add{ props = { size = v2(1, 1) * 1 } }
 		local skill = types.Player.stats.skills.alchemy(self).modified
 		local gmst = core.getGMST("fWortChanceValue")
 		
 		for i,effect in pairs(info.ingredientEffects) do
 			if skill >= i * gmst then
-				local flex ={
+				local effectFlex ={
 					type = ui.TYPE.Flex,
 					props = {
 						position = v2(0, 0),
-						size = v2(0,itemFontSize*textSizeMult),
-						position = v2(0,totalHeight),
-						anchor = v2(0.5,0),
-						relativePosition = v2(0.5, 0),
+						--size = v2(0,itemFontSize*textSizeMult),
+						--position = v2(0,totalHeight),
+						--anchor = v2(0.5,0),
+						--relativePosition = v2(0.5, 0),
 						horizontal = true,
 					},
 					content = ui.content({})
 				}
-				table.insert(root.layout.content,flex)
-				table.insert(flex.content, {
+				flex.content:add(effectFlex)
+				
+				effectFlex.content:add{ props = { size = v2(1, 1) * 5 } }
+				
+				effectFlex.content:add {
 					type = ui.TYPE.Image,
 					props = {
 						resource = getTexture(effect.icon),
@@ -1081,27 +1100,27 @@ return function (item,highlightPosition) --makeTooltip
 						size = v2(itemFontSize*textSizeMult-1,itemFontSize*textSizeMult-1),
 						alpha = 0.7,
 					}
-				})
-				table.insert(flex.content, { 
+				}
+				effectFlex.content:add { 
 					type = ui.TYPE.Text,
 					template = quickLootText,
 					props = {
 						text = " "..effect.text.." ",
 						textSize = itemFontSize*textSizeMult,
-						size = v2(0,itemFontSize*textSizeMult),
+						--size = v2(0,itemFontSize*textSizeMult),
 						textAlignH = ui.ALIGNMENT.Center,
 					},
-				})
-				totalHeight = totalHeight + itemFontSize*textSizeMult
-				maxWidth = math.max(maxWidth, estimateStringWidth(effect.text) * itemFontSize*textSizeMult*fontWidthMult + itemFontSize*textSizeMult-1)
+				}
+				--totalHeight = totalHeight + itemFontSize*textSizeMult
 			else
 				textElement("?")
 			end
 		end
 		
 	end
-	totalHeight = totalHeight + 2
-	root.layout.props.size = v2(maxWidth, totalHeight)
+	--totalHeight = totalHeight + 2
+	flex.content:add{ props = { size = v2(1, 1) * 2 } }
+	--flex.layout.props.size = v2(maxWidth, totalHeight)
 	--root:update()
 	return root
 end

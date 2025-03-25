@@ -102,6 +102,16 @@ quickLootText = {
 	}
 }
 
+tooltipText = {
+	props = {
+			textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
+			textShadow = true,
+			textShadowColor = util.color.rgba(0,0,0,0.75),
+			textAlignV = ui.ALIGNMENT.Center,
+			textAlignH = ui.ALIGNMENT.Center,
+	}
+}
+
 itemFontSize = 20
 
 
@@ -238,7 +248,7 @@ function drawUI()
 	end
 	
 	-- BOX
-	local boxHeight = rootHeight - 2 * (outerHeaderFooterHeight + outerHeaderFooterMargin)
+	boxHeight = rootHeight - 2 * (outerHeaderFooterHeight + outerHeaderFooterMargin)
 	local box = { -- r.1.7
 		type = ui.TYPE.Widget,
 		props = {
@@ -462,7 +472,7 @@ function drawUI()
 				elseif playerSection:get("CONTAINER_SORTING_STATS") == "Highest Value" then
 					return a[2]>b[2]
 				else --"Best W/V"
-					return a[2]/a[3] > b[2]/b[3]
+					return a[2]/math.max(1,a[3]) > b[2]/math.max(1,b[3])
 				end
 			end)
 		else
@@ -697,12 +707,21 @@ function drawUI()
 			local widgetOffset = 0.05 --scrollbar
 			local thingValue = thingRecord.value
 			local thingWeight = thingRecord.weight
+			if thingRecord.isKey then
+				thingValue = 0
+			end
 			for _, widget in pairs(widgets) do
+				local textColor = nil
 				local text = ""
 				if widget == "valueByWeight" then
-					text = formatNumber(thingValue/thingWeight, "v/w")
+					if thingValue == 0 and thingWeight == 0 then
+						text = "-"
+					else
+						text = formatNumber(thingValue/thingWeight, "v/w")
+					end
 				elseif widget == "weight" then
 					text = formatNumber(thingWeight, "weight")
+					
 					if thingWeight+encumbranceCurrent > encumbranceMax then
 						textColor = util.color.rgb(0.85,0, 0)
 					end
