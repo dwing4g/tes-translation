@@ -7743,7 +7743,7 @@ House Telvanni: New Clothes
 
 > INFO.NAME ht_theranaclothes 2109620131366221657
 Mouth Felisa Ulessen gave me some new clothes and asked me to deliver them to Mistress Therana in Tel Branora. Mistress Therana is eccentric, and I should be careful not to offend her.
-发言人菲丽莎·乌雷森给了我几件新的服装，让我把它们送到泰尔-布勒诺拉的西拉那女士手里。西拉那女士脾气古怪，我应该小心谨慎，不要得罪她。 {新衣服,西拉那夫人,泰尔·布勒诺拉}
+发言人菲丽莎·乌雷森给了我几件新的服装，让我把它们送到泰尔-布勒诺拉的西拉那夫人手里。西拉那夫人脾气古怪，我应该小心谨慎，不要得罪她。 {新衣服,泰尔·布勒诺拉}
 
 > INFO.NAME ht_theranaclothes 591365743083316878
 Mouth Felisa Ulessen thanked me for delivering the clothes to her patron.
@@ -9887,7 +9887,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_theranahort 2100830031486522939
 I asked Mouth Felisa Ulessen if Mistress Therana would vote for me as Hortator of House Telvanni. Ulessen said I would have to speak directly to Therana on a matter of such importance. Ulessen warned me that Therana was very eccentric, and it may be hard to get and keep her attention long enough to ask the question. She also suggested I rely on keeping her happy rather than annoy her with details and arguments.
-我问发言人菲丽莎·乌雷森，西拉那女士是否会投票让我担任泰瓦尼家族的统谏使。乌雷森说，这么重要的事情我必须直接和西拉那谈。乌雷森警告我说，西拉那非常古怪，可能很难吸引她的注意力，让她有足够的时间来问这个问题。她还建议我尽量让她开心，而不是用细节和争论来烦她。 {西拉那夫人,老鼠}
+我问发言人菲丽莎·乌雷森，西拉那夫人是否会投票让我担任泰瓦尼家族的统谏使。乌雷森说，这么重要的事情我必须直接和西拉那谈。乌雷森警告我说，西拉那非常古怪，可能很难吸引她的注意力，让她有足够的时间来问这个问题。她还建议我尽量让她开心，而不是用细节和争论来烦她。 {老鼠}
 
 > INFO.NAME b7_gothrenhort 440623289297059457
 Telvanni Hortator
@@ -10011,19 +10011,19 @@ I reported the honorable execution of Baladas Demnevanni.
 
 > INFO.NAME mt_writtherana 15439285531827419938
 Morag Tong: Writ for Mistress Therana
-莫拉格堂：西拉那女士的令状
+莫拉格堂：西拉那夫人的令状
 
 > INFO.NAME mt_writtherana 4008208191648312594
 I have been given a Writ for the honorable execution of Mistress Therana. She may be found in the tower of Tel Branora.
-我已接到光荣处决西拉那女士的令状。她可能在泰尔-布勒诺拉的塔楼里。 {西拉那夫人,泰尔·布勒诺拉}
+我已接到光荣处决西拉那夫人的令状。她可能在泰尔-布勒诺拉的塔楼里。 {泰尔·布勒诺拉}
 
 > INFO.NAME mt_writtherana 29894288157252247
 I reported the honorable execution of Mistress Therana.
-我报告了对西拉那女士的光荣处决。 {西拉那夫人}
+我报告了对西拉那夫人的光荣处决。
 
 > INFO.NAME mt_writtherana 1495138962866822635
 I reported the honorable execution of Mistress Therana.
-我报告了对西拉那女士的光荣处决。 {西拉那夫人}
+我报告了对西拉那夫人的光荣处决。
 
 > INFO.NAME mt_db_aldsotha 2723311580302777088
 Morag Tong: Execute Severa Magia
@@ -11989,11 +11989,11 @@ House Telvanni: Auriel's Bow
 
 > INFO.NAME ht_aurielbow 25184293102082416168
 Mistress Therana asked me to bring her Auriel's Bow. At least, I think that's what she was asking. Perhaps I should look for the bow in Ghostgate. Therana said something about Ralyn Othravel.
-西拉那女士让我把奥瑞尔之弓带给她。至少我认为她是这么要求的。也许我应该去幽魂之门找找那把弓。西拉那提到了拉林·奥斯拉维尔。 {西拉那夫人}
+西拉那夫人让我把奥瑞尔之弓带给她。至少我认为她是这么要求的。也许我应该去幽魂之门找找那把弓。西拉那提到了拉林·奥斯拉维尔。
 
 > INFO.NAME ht_aurielbow 1548114510771218796
 Mistress Therana scolded me for bringing her Auriel's Bow and then gave me 5000 gold if I promised to leave.
-西拉那女士因为我把奥瑞尔之弓带给她而辱骂了我，然后给了我 5000 金币，只要我答应离开。 {西拉那夫人}
+西拉那夫人因为我把奥瑞尔之弓带给她而辱骂了我，然后给了我 5000 金币，只要我答应离开。
 
 > INFO.NAME tt_maskvivec 3975664584461084
 Temple: Grace of Justice
@@ -17901,7 +17901,7 @@ Carnius was the only one with the power to redeem those certificates. I'm afraid
 
 > INFO.NAME mistress therana 2648132871790518611
 Mistress Therana is a dangerous and unstable Telvanni wizard. She lives in the Tower of Tel Branora. Take this Writ and end her insanity.
-西拉那女士是一位危险而反复无常的泰瓦尼巫师。她住在泰尔-布勒诺拉塔楼。拿着这个令状，结束她的疯狂。 {西拉那夫人,泰尔·布勒诺拉}
+西拉那夫人是一位危险而反复无常的泰瓦尼巫师。她住在泰尔-布勒诺拉塔楼。拿着这个令状，结束她的疯狂。 {泰尔·布勒诺拉}
 
 > INFO.NAME dark brotherhood 2645524591143603526
 I know of no such brotherhood. Perhaps you need to speak to one of the Imperials in the south.
