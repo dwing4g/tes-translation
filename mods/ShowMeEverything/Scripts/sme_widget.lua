@@ -8,6 +8,7 @@ local types = require("openmw.types")
 local ui = require("openmw.ui")
 local util = require("openmw.util")
 local storage = require('openmw.storage')
+local l10n = core.l10n('SME')
 
 local settings = {
     behavior = storage.playerSection('SMESettingsBh'),
@@ -16,6 +17,7 @@ local settings = {
 
 
 local raycastCurrentLength
+local checkingRay = false
 
 local fadeOutTimer = 0
 local fadeOutTime = 1
@@ -59,9 +61,7 @@ local timerToUpdateAfterWater = 0
 local standartWidgetPos
 local needToUpdateWhileSwimming = true
 local timeToUpdateAfterWater = 3
-local actorHealth = types.Actor.stats.dynamic.health
 local tooltipTarget
-local actorLevel
 
 local healthBarElement = ui.create {
     name = 'healthBarContent',
@@ -129,7 +129,7 @@ local damageElement = ui.create {
 
 local healthBarFull = ui.create {
 	name = 'TutorialNotifyMenu',
-	l10n = 'UITutorial',
+	l10n = 'SME',
 	layer = 'HUD',
 	-- This is a helper template, which sets up this interface element in the style of Morrowind.
 	-- Reference: https://openmw.readthedocs.io/en/latest/reference/lua-scripting/interface_mwui.html
@@ -228,7 +228,7 @@ local function updateWidgetStyle()
     elseif settings.style:get('SMEWidgetStyle') == 'Minimal Vanilla' then
         healthBarElement.layout.content = I.SME_STYLE.getStyleMinimal()
         barSize = util.vector2(180, 30)
-        healthBarFull.layout.props.size = util.vector2(250, 40)
+        healthBarFull.layout.props.size = util.vector2(400, 40)
         healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.14)
         healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.65)
         nameElement.layout.props.textSize = 16
@@ -299,21 +299,6 @@ local function updateAllElements()
         healthBarFull.layout.content[1]:update()
 end
 
-local function hideAfterFadeOut()
-
-    nameElement.layout.props.visible = false
-    healthBarFull.layout.props.visible = false
-    healthTextElement.layout.props.visible = false
-
-    fadeOutTimer = 0
-    isFadeOut = false
-    widgetIsShowing = false
-
-    updateAllElements()
-    setOpacityFull()
-    
-end
-
 local function fadeOutElements(dt)
 	fadeOutTimer = fadeOutTimer + dt
 		
@@ -326,7 +311,16 @@ local function fadeOutElements(dt)
 	updateAllElements()
 
 	if fadeOutTimer >= fadeOutTime then
-		hideAfterFadeOut()
+
+		nameElement.layout.props.visible = false
+		healthBarFull.layout.props.visible = false
+		healthTextElement.layout.props.visible = false
+
+		fadeOutTimer = 0
+		updateAllElements()
+		setOpacityFull()
+		isFadeOut = false
+        widgetIsShowing = false
 	end
 end
 --UI VISIBILITY FUNCTIONS
@@ -334,19 +328,35 @@ end
 
 --Casting a raycast and getting our actors
 local function getTooltipTarget(dt)
+    local from = camera.getPosition()
+    local to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * settings.behavior:get('SMERaycastLength')
 
-local from = camera.getPosition()
-local to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * settings.behavior:get('SMERaycastLength')
-nearby.asyncCastRenderingRay(
-    async:callback(function(result)
-        tooltipTarget = result.hitObject
-        if result.hitPos ~= nil then
-            raycastCurrentLength = (result.hitPos - from):length()
-        end
-    end),
-    from,
-    to
-)
+    if not checkingRay then
+        checkingRay = true
+        nearby.asyncCastRenderingRay(
+            async:callback(function(result)
+                checkingRay = false
+                tooltipTarget = result.hitObject
+                if result.hitPos ~= nil then
+                    raycastCurrentLength = (result.hitPos - from):length()
+                end
+            end),
+            from,
+            to
+        )
+    end
+end
+
+--Casting a raycast and getting our actors, sync to be used onFrame
+local function getTooltipTargetSync(dt)
+    local from = camera.getPosition()
+    local to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * settings.behavior:get('SMERaycastLength')
+    
+    local result = nearby.castRenderingRay(from, to)
+    tooltipTarget = result.hitObject
+    if result.hitPos ~= nil then
+        raycastCurrentLength = (result.hitPos - from):length()
+    end
 end
 
 --Adding our actors to our table
@@ -366,7 +376,7 @@ local function addNPC(raycastActor)
         healthInterpolationTime = false,
         animTimer = 0,
         currentAnimHealthWidth = nil,
-        isDead = actorHealth(raycastActor).current <= 0,
+        isDead = types.Actor.stats.dynamic.health(raycastActor).current <= 0,
     }
 
     table.insert(lastNPCTable, npc)
@@ -376,6 +386,18 @@ local function addNPC(raycastActor)
     end
 end
 
+--Updating our actors based on time in the table
+local function updateCachedNPC(dt)
+    for i = #lastNPCTable, 1, -1 do
+        local npc = lastNPCTable[i]
+        npc.timer = npc.timer - dt
+
+        if npc.timer <= 0 then
+            -- Remove the NPC with an expired timer
+            table.remove(lastNPCTable, i)
+        end
+    end
+end
 
 --Rendering name, taking NPC
 local function getName(actor)
@@ -383,28 +405,41 @@ local function getName(actor)
 		npcRecord = types.NPC.record(actor)
 	elseif isCreature(actor) then
 		npcRecord = types.Creature.record(actor)
-        actorLevel = types.NPC.stats.level(actor).current
 	end
 
     local name = npcRecord.name
     
+    if settings.behavior:get('SMELevel') then
+        --name = name .. " (" .. types.Actor.stats.level(actor).current .. ")"
+        name = name .. ", Lv. " .. types.NPC.stats.level(actor).current
+    end
+    
     if settings.behavior:get('SMEClass') then
-        local class = npcRecord.class
-
+        local class
+        --local services = npcRecord.servicesOffered
+        --for service, isProvided in pairs(npcRecord.servicesOffered) do
+            --if isProvided then
+                --print("This NPC provides service: " .. service)
+            --else
+                --print("This NPC does not provide service: " .. service)
+            --end
+        --end
+        --print('Services: ' ,npcRecord.servicesOffered)
         if isNPC(actor) then
-            local classRecord = types.NPC.classes.records[class]
-            class = classRecord and classRecord.name or class
+            class = types.NPC.classes.record(types.NPC.record(actor).class).name
             if string.match(class, "^t_glb_") then
                 -- String starts with "t_glb", clean the class
                 class = string.gsub(class, "^t_glb_", "")
             end
         end
-        name = name .. (class and (", " .. class) or "")
+        class = (class and (" " .. class) or "")
+        name = name .. string.gsub(" "..class, "%W%l", string.upper):sub(2)
     end
-
-    if settings.behavior:get('SMELevel') then
-        name = name .. " (" .. types.Actor.stats.level(actor).current .. ")"
-    end
+    
+    --if settings.behavior:get('SMELevel') then
+    --    name = name .. " (" .. types.Actor.stats.level(actor).current .. ")"
+    --    --name = "Lv. " .. types.Actor.stats.level(actor).current .. " " .. name
+    --end
 
     return name
 
@@ -414,15 +449,15 @@ end
 
 --Getting health Values
 local function getHealthBar(actor)
-	local healthCurrent = actorHealth(actor).current
-    local healthBase = actorHealth(actor).base
+	local healthCurrent = math.floor(types.Actor.stats.dynamic.health(actor).current)
+    local healthBase = math.floor(types.Actor.stats.dynamic.health(actor).base)
     if healthCurrent <= 0 then
         if settings.behavior:get('SMEHealth') then
-		    healthTextElement.layout.props.text = "Dead"
+		    healthTextElement.layout.props.text = l10n("Dead")
         end
 		healthBarSize = util.vector2(0, 1)
 		return healthBarSize
-		--healthTextElement.props.text = "Health: " .. util.round(actorHealth(tooltipTarget).current) .. " / " .. actorHealth(tooltipTarget).base
+		--healthTextElement.props.text = "Health: " .. util.round(types.Actor.stats.dynamic.health(tooltipTarget).current) .. " / " .. types.Actor.stats.dynamic.health(tooltipTarget).base
 	else
 		--healthTextElement.props.text = "Dead"
 		local ratio = healthCurrent / healthBase
@@ -434,10 +469,10 @@ end
 
 --Getting health text values
 local function getHealthText(actor)
-	local healthCurrent = util.round(actorHealth(actor).current)
-	local healthBase = actorHealth(actor).base
+	local healthCurrent = math.floor(types.Actor.stats.dynamic.health(actor).current)
+	local healthBase = math.floor(types.Actor.stats.dynamic.health(actor).base)
     if healthCurrent <= 0 then
-        local healthText = "Dead"
+        local healthText = l10n("Dead")
         return healthText
     else
         -- Convert health values to strings
@@ -521,19 +556,23 @@ local function rayCastChecker()
             break
             end
         end
+        --print('Is target in the table? ',isTargetInTable)
         if not isTargetInTable then
             addNPC(tooltipTarget)
         end
+        --print('TooltipTarget: ', tooltipTarget)
         if raycastCurrentLength < settings.behavior:get('SMEShowDistance') then
 			--Updating timers and bool that our timer is shown
 			for _, npc in ipairs(lastNPCTable) do
                 if npc.actor == tooltipTarget then
                     currentActorInFocus = npc.actor
                     if (types.Actor.getStance(self) == types.Actor.STANCE.Nothing and settings.behavior:get('SMEStance')) or settings.behavior:get('SMEonHit') then
+                        lastActorInFocus = tooltipTarget
                         overridingTimer = focusTime
                         isOverridingTime = true
                     else
                         showWidgets(npc)
+                        lastActorInFocus = tooltipTarget
                         renewWidget(focusTime)
                         overridingTimer = focusTime
                         isOverridingTime = true
@@ -556,6 +595,7 @@ local function hasShowingTimeEnded(dt)
     if timeToShow > 0 then
         timeToShow = timeToShow - dt
     end
+    --print('Time to show timer: ' .. timeToShow)
     return timeToShow <= 0
 end
 
@@ -583,7 +623,7 @@ end
 
 local function calculateStartingAnimWidth(npc)
     
-    local baseHealth = actorHealth(npc.actor).base
+    local baseHealth = math.floor(types.Actor.stats.dynamic.health(npc.actor).base)
     local ratio = npc.healthBeforeDamage / baseHealth
     local healthBarSize = barSize:emul(util.vector2(ratio, 1))
     npc.interpolationWidth = barSize:emul(util.vector2(ratio, 1))
@@ -621,16 +661,18 @@ local function updateActorInFocus(npc, actor, health)
 
     if overridingTimer <= 0 then
         currentActorInFocus = actor 
+        --print('Actor in focus updated!')
     end
 end
 
 
 local function updateIndividualHealth(npc)
     local actor = npc.actor
+    --print('Dead?: ', types.Actor.isDead(actor))
     if not (isNPC(actor) or isCreature(actor)) then
         return
     end
-    local health = actorHealth(actor).current
+    local health = types.Actor.stats.dynamic.health(actor).current
 
     if npc.lastHealth and npc.lastHealth ~= health then
         local currentRecord
@@ -665,6 +707,7 @@ local function updateHealth(dt)
     end
 
     cachedActorTickTimer = 0
+    --print('Updating health')
     for _, npc in ipairs(lastNPCTable) do
         updateIndividualHealth(npc)
     end
@@ -698,8 +741,8 @@ local function healthAnimation(dt)
         if npc.healthInterpolationTime then
             npc.animTimer = npc.animTimer + dt
 
-            local finalHealthForInterpolation = actorHealth(npc.actor).current
-            local maxIntActorHealth = actorHealth(npc.actor).base
+            local finalHealthForInterpolation = types.Actor.stats.dynamic.health(npc.actor).current
+            local maxIntActorHealth = types.Actor.stats.dynamic.health(npc.actor).base
             
             local ratio = finalHealthForInterpolation / maxIntActorHealth
             local amount = npc.healthBeforeDamage - finalHealthForInterpolation
@@ -708,11 +751,11 @@ local function healthAnimation(dt)
             local animTime = math.max(healthAnimTimeBase * (lostPercent / 100), 0.2)
 
 
+
             local finalSize = barSize:emul(util.vector2(ratio, 1))
             local sizeDifference = npc.interpolationWidth.x - finalSize.x
             local timeDifference = animTime / dt
             local step = sizeDifference / timeDifference
-
 
 
             npc.currentAnimHealthWidth = util.vector2(npc.currentAnimHealthWidth.x - step, barSize.y)
@@ -770,13 +813,11 @@ local function updateWhileSwimming(dt)
 	end
 end
 
-
 local function getRaycastTarget()
     if tooltipTarget then
         return tooltipTarget
     end
 end
-
 
 local function getDistance()
     if raycastCurrentLength and raycastCurrentLength > 0 then
@@ -784,21 +825,22 @@ local function getDistance()
     end
 end
 
-
 local function onUpdate(dt)
 
     if not settings.behavior:get('SMEisActive') then
         return
     end
     --Firing a raycast and returning distance and actor
-    getTooltipTarget()
+    --getTooltipTarget()
     --Handling Raycast, adding NPCs to the table, showind a 
     rayCastChecker()
+    
     
     --functions that should fire once per 0.1 seconds for perfomance
     commonTimer = commonTimer + dt
     if commonTimer >= commonCheckTime then
         if overridingTimer > 0 then
+            --print('OverridingTimer is ticking: ' .. overridingTimer, commontimer)
             overridingTimer = overridingTimer - commonTimer
         end
         if overridingTimer <= 0 and isOverridingTime == true then
@@ -811,17 +853,13 @@ local function onUpdate(dt)
         updateDamageTimers(commonTimer)
         widgetHideHandler()
         commonTimer = 0
-        
-        
-
     end
-
+    
     if isFadeOut then
         fadeOutElements(dt)
     end
 
     updateHealth(dt)
-    
 
     for _, npc in ipairs(lastNPCTable) do
         if npc.healthInterpolationTime then
@@ -833,10 +871,16 @@ local function onUpdate(dt)
 
 end
 
+local function onFrame(dt)
+    getTooltipTargetSync()
+end
+
+
 return { 
     engineHandlers = 
     { 
         onUpdate = onUpdate,
+        onFrame = onFrame
     },
     interfaceName = "SME_CORE",
     interface = {
