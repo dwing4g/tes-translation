@@ -41367,7 +41367,7 @@ C<BR>"
  INFO.PNAM "3234171482695328863$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "洛布莫·格罗-阿格拉克感谢我把莉莉尔·斯通欠我们客户的2000金币带给他。他还让我保留了一半的欠款。 {莉莉尔·斯托尼}"
+ INFO.NAME "洛布莫·格罗-阿格拉克感谢我把莉莉尔·斯托尼欠我们客户的2000金币带给他。他还让我保留了一半的欠款。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_Shurinbaal$00"
@@ -42835,7 +42835,7 @@ C<BR>"
  INFO.PNAM "138261534573373783$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "莉莉尔·斯通给了我一笔雄蛾基金捐款。 {莉莉尔·斯托尼}"
+ INFO.NAME "莉莉尔·斯托尼给了我一笔雄蛾基金捐款。"
 -DIAL
  DIAL.NAME "IC16_Haunting$00"
  DIAL.DATA [04]
