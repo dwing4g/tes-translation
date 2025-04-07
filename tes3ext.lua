@@ -6,6 +6,8 @@ local type = type
 local error = error
 local ipairs = ipairs
 
+local diff = arg[#arg]:find "%.diff%.txt$"
+
 local newLine = true
 local function warn(...)
 	if not newLine then
@@ -24,71 +26,73 @@ for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
 	end
 end
 
-local function loadTxt(fn)
+local function loadTxt(fns)
 	local all = {}
-	local t, k, v
-	local i = 0
+	for fn in fns:gmatch "[^+]+" do
+		local t, k, v
+		local i = 0
 
-	local function addKV()
-		local e = v:sub(-1, -1)
-		if e ~= '"' and (e ~= ']' or k ~= "MGEF.INDX" and k ~= "SKIL.INDX") then
-			error("ERROR: bad line end at line " .. i .. " in '" .. fn .. "'")
-		end
-		if e == '"' then v = v:sub(1, -2) end
-		v = v:gsub("%$%$", "@TeS3ExTmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ExTmArK@", "$$")
-		if t[k] then
-			if k ~= "FACT.RNAM" and k ~= "FACT.ANAM" and k ~= "FACT.INTV" and k ~= "RACE.NPCS" and k ~= "BSGN.NPCS" then
-				-- error("ERROR: duplicated key: '" .. k .. "'" .. " in '" .. fn .. "'")
+		local function addKV()
+			local e = v:sub(-1, -1)
+			if e ~= '"' and (e ~= ']' or k ~= "MGEF.INDX" and k ~= "SKIL.INDX") then
+				error("ERROR: bad line end at line " .. i .. " in '" .. fn .. "'")
 			end
-			if type(t[k]) ~= "table" then
-				t[k] = {{ k, t[k] }}
+			if e == '"' then v = v:sub(1, -2) end
+			v = v:gsub("%$%$", "@TeS3ExTmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ExTmArK@", "$$")
+			if t[k] then
+				if k ~= "FACT.RNAM" and k ~= "FACT.ANAM" and k ~= "FACT.INTV" and k ~= "RACE.NPCS" and k ~= "BSGN.NPCS" then
+					-- error("ERROR: duplicated key: '" .. k .. "'" .. " in '" .. fn .. "'")
+				end
+				if type(t[k]) ~= "table" then
+					t[k] = {{ k, t[k] }}
+				end
+				t[k][#t[k] + 1] = { k, v }
+			else
+				t[k] = v
 			end
-			t[k][#t[k] + 1] = { k, v }
-		else
-			t[k] = v
+			k, v = nil, nil
 		end
-		k, v = nil, nil
-	end
 
-	local function addTable()
-		all[#all + 1] = t
-		t = nil
-	end
+		local function addTable()
+			all[#all + 1] = t
+			t = nil
+		end
 
-	for line in io.lines(fn) do
-		i = i + 1
-		local m = line:match "^ ([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]%.[%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) \""
-		if m then
-			if v then addKV() end
-			k = m
-			v = line:sub(13, -1):gsub('""', '"')
-		else
-			m = line:match "^ ([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]%.[%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) %["
+		for line in io.lines(fn) do
+			i = i + 1
+			local m = line:match "^ ([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]%.[%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) \""
 			if m then
 				if v then addKV() end
-				if m == "SKIL.INDX" or m == "MGEF.INDX" then
-					k = m
-					v = line:sub(12, -1)
-				end
-				-- ignore
+				k = m
+				v = line:sub(13, -1):gsub('""', '"')
 			else
-				m = line:match "^%-([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_])$"
-				if not m then m = line:match "^%-([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) %[" end
+				m = line:match "^ ([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]%.[%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) %["
 				if m then
 					if v then addKV() end
-					if t then addTable() end
-					t = { [""] = m }
-				else
-					if not v then
-						error("ERROR: bad line at line " .. i .. " in '" .. fn .. "'")
+					if m == "SKIL.INDX" or m == "MGEF.INDX" then
+						k = m
+						v = line:sub(12, -1)
 					end
-					v = v .. "\r\n" .. line:gsub('""', '"')
+					-- ignore
+				else
+					m = line:match "^%-([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_])$"
+					if not m then m = line:match "^%-([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) %[" end
+					if m then
+						if v then addKV() end
+						if t then addTable() end
+						t = { [""] = m }
+					else
+						if not v then
+							error("ERROR: bad line at line " .. i .. " in '" .. fn .. "'")
+						end
+						v = v .. "\r\n" .. line:gsub('""', '"')
+					end
 				end
 			end
 		end
+		if v then addKV() end
+		if t then addTable() end
 	end
-	if v then addKV() end
-	if t then addTable() end
 	return all
 end
 
@@ -154,7 +158,7 @@ local function extTxt(en)
 			elseif not v then
 				error("ERROR: no v for key: '" .. k .. "'")
 			elseif v:find "[%w\x80-\xff]" then
-				if et[k] then
+				if et[k] and not diff then
 					warn("duplicated key: '", k, "'")
 					-- error("ERROR: duplicated key: '" .. k .. "'")
 				end
@@ -307,22 +311,29 @@ local noTrans = {
 io.stderr:write("INFO: writing '", arg[#arg], "' ...\n")
 local f = io.open(arg[#arg], "wb")
 for _, k in ipairs(es) do
-	f:write("> ", k, "\r\n")
 	local e, c = et[k], ct[k]
-	f:write(escape(e), "\r\n")
 	if c then
 		ct[k] = nil
 	else
 		c = e
-		warn("unmatched key '", k, "'")
+		if not diff then
+			warn("unmatched key '", k, "'")
+		end
 	end
-	f:write(e == c and not noTrans[k] and not k:find "^GMST.STRV" and not e:find "^[%w]*_[%w_]*$" and e:find "%a" and "###" or escape(c), "\r\n\r\n")
+	local same = e == c and not noTrans[k]
+	if not diff or not same then
+		f:write("> ", k, "\r\n")
+		f:write(escape(e), "\r\n")
+		f:write(same and not k:find "^GMST.STRV" and not e:find "^[%w]*_[%w_]*$" and e:find "%a" and "###" or escape(c), "\r\n\r\n")
+	end
 end
 f:close()
 
-for _, k in ipairs(cs) do
-	if ct[k] then
-		warn("unused key '", k, "': '", ct[k], "'")
+if not diff then
+	for _, k in ipairs(cs) do
+		if ct[k] then
+			warn("unused key '", k, "': '", ct[k], "'")
+		end
 	end
 end
 
