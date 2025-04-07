@@ -321,6 +321,7 @@ for _, k in ipairs(es) do
 		end
 	end
 	local same = e == c and not noTrans[k]
+--	local same = e:gsub(" +", " "):lower():gsub("%A", "") == c:gsub(" +", " "):lower():gsub("%A", "") and not noTrans[k]
 	if not diff or not same then
 		f:write("> ", k, "\r\n")
 		f:write(escape(e), "\r\n")
