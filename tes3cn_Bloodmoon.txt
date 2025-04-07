@@ -20310,7 +20310,7 @@ End WolfRitualRing
  CREA.AI_W [00 02 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "Apronia Alfena$00"
- NPC_.FNAM "阿普罗尼亚·阿尔芬娜$00"
+ NPC_.FNAM "阿普罗尼娅·阿尔芬那$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Commoner$00"
  NPC_.ANAM "East Empire Company$00"
@@ -50165,7 +50165,7 @@ C<BR>"
  INFO.PNAM "25779321682807514010$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "阿普罗尼亚·阿尔芬娜在补给船失事时幸存了下来，她求我带她回殖民地。我应该带她去见法尔科。"
+ INFO.NAME "阿普罗尼娅·阿尔芬那在补给船失事时幸存了下来，她求我带她回殖民地。我应该带她去见法尔科。"
 -DIAL
  DIAL.NAME "CO_6a$00"
  DIAL.DATA [04]
@@ -50882,13 +50882,13 @@ C<BR>"
  INFO.PNAM "1467314190555615627$00"
  INFO.NNAM "74862126147607070$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "阿普罗妮娅把埃尔贝罗斯的军刀给了我，因为她不再需要它了。"
+ INFO.NAME "阿普罗尼娅把埃尔贝罗斯的军刀给了我，因为她不再需要它了。"
 -INFO
  INFO.INAM "74862126147607070$00"
  INFO.PNAM "15559522983410811$00"
  INFO.NNAM "13283203246779410$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "法尔科建议我向阿普罗妮亚打听埃尔贝罗斯，因为巴罗似乎认识他。"
+ INFO.NAME "法尔科建议我向阿普罗尼娅打听埃尔贝罗斯，因为巴罗似乎认识他。"
 -INFO
  INFO.INAM "13283203246779410$00"
  INFO.PNAM "74862126147607070$00"
@@ -52309,7 +52309,7 @@ Journal BM_Stones 100"
  INFO.NNAM "949221841118245$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "除了我，还有贸易商萨辛·安德拉诺和经营酒吧的阿尔塞多尼亚·阿尔费纳。其余的都是辛勤工作的殖民者和矿工，都是不错的家伙。"
+ INFO.NAME "除了我，还有贸易商萨辛·安德拉诺和经营酒吧的阿尔塞多尼亚·阿尔芬那。其余的都是辛勤工作的殖民者和矿工，都是不错的家伙。"
  INFO.SCVR "02sX0ColonyService"
  INFO.INTV [06 00 00 00]
 -INFO
@@ -52318,7 +52318,7 @@ Journal BM_Stones 100"
  INFO.NNAM "1756197072535629055$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "除了我之外，还有铁匠萨布丽娜·维泰拉和经营酒吧的阿尔塞多尼亚·阿尔费纳。这里其他人都是勤劳的殖民者和矿工，都是些不错的家伙。 {工作}"
+ INFO.NAME "除了我之外，还有铁匠萨布丽娜·维泰拉和经营酒吧的阿尔塞多尼亚·阿尔芬那。这里其他人都是勤劳的殖民者和矿工，都是些不错的家伙。 {工作}"
  INFO.SCVR "02sX0ColonyService"
  INFO.INTV [05 00 00 00]
 -INFO
@@ -61883,7 +61883,7 @@ ModDisposition 10"
  INFO.NNAM "288809034500915546$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "看到没？他完全不讲道理。一定有办法的，%PCName。跟阿普罗妮亚谈谈。也许有办法利用这个和埃尔贝罗斯的联系。"
+ INFO.NAME "看到没？他完全不讲道理。一定有办法的，%PCName。跟阿普罗尼娅谈谈。也许有办法利用这个和埃尔贝罗斯的联系。"
  INFO.SCVR "04JX0CO_5"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "14JX0CO_3b"
@@ -81711,7 +81711,7 @@ Set ColonyService to 2"
  INFO.NNAM "20441198903816337$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "巴罗认识他，是吗？除了他的名字，我对他一无所知。也许阿普罗妮亚知道更多，因为当时她和他一起在船上。"
+ INFO.NAME "巴罗认识他，是吗？除了他的名字，我对他一无所知。也许阿普罗尼娅知道更多，因为当时她和他一起在船上。"
  INFO.SCVR "04JX3CO_5"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX3CO_3b"
