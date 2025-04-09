@@ -221,7 +221,8 @@ end
 
 function triggerMwscriptTrap(obj, player)
 	local script = world.mwscript.getLocalScript(obj, player)
-	
+	--print(world.mwscript.getLocalScript(obj, player).scriptText)
+	--print(world.mwscript.getGlobalScript(recordId, player).scriptText)
 	if script then
 		if script.variables.setonce == 0 
 		or script.variables.done == 0 
@@ -383,6 +384,33 @@ local function freshLoot(arg)
 	end
 end
 
+function test(tbl)
+	local player = tbl[1]
+	local item = tbl[2]
+	
+	local originalRecord = types.Weapon.records[item.recordId]
+		
+		local itemTable = {name = originalRecord.name, template = originalRecord, enchantCapacity = originalRecord.enchantCapacity * 1.25}
+		
+		--local newRecordDraft = item.type.createRecordDraft{itemTable}
+		local newRecordDraft = types.Weapon.createRecordDraft(itemTable)
+	
+		--add to world
+		local newRecord = world.createRecord(newRecordDraft)
+		print(newRecord.id)
+		
+		local upgradedItem = world.createObject(newRecord.id, 1)
+		print(upgradedItem.id)
+		
+		local cell = world.getCellById(player.cell.id)
+	
+		--moves to altar
+		--upgradedItem:teleport(player.cell, player.position, player.rotation)
+		upgradedItem:teleport(player.cell, player.position, player.rotation)
+		print(player.position)
+end
+
+
 return {
 	eventHandlers = {
 		OwnlysQuickLoot_freshLoot = freshLoot,
@@ -392,6 +420,7 @@ return {
 		OwnlysQuickLoot_resolve = resolve,
 		OwnlysQuickLoot_actuallyActivate = actuallyActivate,
 		OwnlysQuickLoot_playerToggledMod = playerToggledMod,
+		OwnlysQuickLoot_test = test,
 	},
 	engineHandlers = {
 		onUpdate = onUpdate,

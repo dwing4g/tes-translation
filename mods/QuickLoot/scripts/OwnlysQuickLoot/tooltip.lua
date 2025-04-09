@@ -1,7 +1,7 @@
 local types = require('openmw.types')
 local core = require('openmw.core')
 local util = require('openmw.util')
-
+local self = require("openmw.self")
 
 function getMaxEnchantmentCharge(enchantment)
 	if not enchantment.autocalcFlag then
@@ -54,7 +54,7 @@ function getMaxEnchantmentCharge(enchantment)
 		if effect.range == core.magic.RANGE.Target then	--if (effect.mData.mRange == ESM::RT_Target)
 			x = x * 1.5 -- effectCost *= 1.5;
 		end
-		x = math.floor(x * costMult + 0.5)
+		x = math.floor(x * costMult + 0.5) -- round here i think (not 100% sure)
 		cost = cost + x
 		
 	end
@@ -70,226 +70,6 @@ function getMaxEnchantmentCharge(enchantment)
 	end
 	return cost or 0
 end
-
-
--- Alternative function that takes pre-parsed character data for better performance
-function createFontWidthCalculator(fontData)
-	-- Parse the .fnt file data to extract character widths
-	local charWidthMap = {}
-	
-	-- Default width for unknown characters
-	local defaultWidth = 16
-	
-	-- Parse character data from the .fnt file
-	for line in fontData:gmatch("[^\r\n]+") do
-		if line:match("^char%s+id=") then
-			local id, width, xoffset, xadvance = line:match("id=(%d+)%s+.-%s+width=(%d+)%s+.-%s+xoffset=(%-?%d+)%s+.-%s+xadvance=(%d+)")
-			if id and width and xoffset and xadvance then
-				charWidthMap[tonumber(id)] = tonumber(xadvance)
-			end
-		end
-	end
-	
-	-- Return a function closure that can calculate string widths quickly
-	return function(text)
-		local totalWidth = 0
-		
-		for i = 1, #text do
-			local charCode = string.byte(text, i)
-			local charWidth = charWidthMap[charCode] or defaultWidth
-			totalWidth = totalWidth + charWidth
-		end
-		
-		return totalWidth/13.37
-	end
-end
-
--- Example usage:
-local fontData = [[ info face="Mystic Cards" size=32 bold=0 italic=0 charset="RUSSIAN" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
-common lineHeight=32 base=27 scaleW=256 scaleH=256 pages=2 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
-page id=0 file="mc_0.tga"
-page id=1 file="mc_1.tga"
-chars count=176
-char id=13   x=252   y=0	 width=3	 height=1	 xoffset=-1	yoffset=31	xadvance=1	 page=0  chnl=15
-char id=32   x=27	y=29	width=3	 height=1	 xoffset=-1	yoffset=31	xadvance=14	page=0  chnl=15
-char id=33   x=24	y=183   width=7	 height=21	xoffset=0	 yoffset=7	 xadvance=7	 page=0  chnl=15
-char id=34   x=0	 y=0	 width=10	height=10	xoffset=1	 yoffset=5	 xadvance=12	page=1  chnl=15
-char id=35   x=22	y=58	width=18	height=25	xoffset=0	 yoffset=5	 xadvance=18	page=0  chnl=15
-char id=36   x=0	 y=32	width=17	height=26	xoffset=0	 yoffset=4	 xadvance=17	page=0  chnl=15
-char id=37   x=0	 y=135   width=24	height=23	xoffset=0	 yoffset=6	 xadvance=25	page=0  chnl=15
-char id=38   x=46	y=109   width=22	height=24	xoffset=1	 yoffset=6	 xadvance=24	page=0  chnl=15
-char id=39   x=249   y=173   width=6	 height=10	xoffset=0	 yoffset=5	 xadvance=6	 page=0  chnl=15
-char id=40   x=65	y=55	width=9	 height=25	xoffset=2	 yoffset=5	 xadvance=13	page=0  chnl=15
-char id=41   x=75	y=54	width=9	 height=25	xoffset=2	 yoffset=5	 xadvance=13	page=0  chnl=15
-char id=42   x=143   y=243   width=15	height=12	xoffset=0	 yoffset=6	 xadvance=16	page=0  chnl=15
-char id=43   x=158   y=196   width=16	height=15	xoffset=1	 yoffset=11	xadvance=18	page=0  chnl=15
-char id=44   x=111   y=246   width=7	 height=9	 xoffset=1	 yoffset=22	xadvance=9	 page=0  chnl=15
-char id=45   x=144   y=0	 width=11	height=4	 xoffset=0	 yoffset=17	xadvance=11	page=1  chnl=15
-char id=46   x=119   y=246   width=6	 height=5	 xoffset=1	 yoffset=23	xadvance=8	 page=0  chnl=15
-char id=47   x=158   y=0	 width=8	 height=27	xoffset=1	 yoffset=5	 xadvance=11	page=0  chnl=15
-char id=48   x=48	y=183   width=14	height=20	xoffset=1	 yoffset=7	 xadvance=16	page=0  chnl=15
-char id=49   x=237   y=174   width=11	height=19	xoffset=3	 yoffset=8	 xadvance=16	page=0  chnl=15
-char id=50   x=63	y=182   width=14	height=20	xoffset=1	 yoffset=7	 xadvance=16	page=0  chnl=15
-char id=51   x=108   y=178   width=13	height=20	xoffset=2	 yoffset=7	 xadvance=16	page=0  chnl=15
-char id=52   x=193   y=174   width=14	height=19	xoffset=1	 yoffset=8	 xadvance=16	page=0  chnl=15
-char id=53   x=223   y=174   width=13	height=19	xoffset=1	 yoffset=8	 xadvance=16	page=0  chnl=15
-char id=54   x=93	y=178   width=14	height=20	xoffset=1	 yoffset=7	 xadvance=16	page=0  chnl=15
-char id=55   x=208   y=174   width=14	height=19	xoffset=1	 yoffset=8	 xadvance=16	page=0  chnl=15
-char id=56   x=78	y=179   width=14	height=20	xoffset=1	 yoffset=7	 xadvance=16	page=0  chnl=15
-char id=57   x=32	y=183   width=15	height=20	xoffset=0	 yoffset=7	 xadvance=16	page=0  chnl=15
-char id=58   x=248   y=209   width=7	 height=14	xoffset=0	 yoffset=14	xadvance=8	 page=0  chnl=15
-char id=59   x=107   y=199   width=8	 height=17	xoffset=1	 yoffset=14	xadvance=9	 page=0  chnl=15
-char id=60   x=77	y=238   width=16	height=13	xoffset=2	 yoffset=12	xadvance=20	page=0  chnl=15
-char id=61   x=22	y=0	 width=19	height=8	 xoffset=0	 yoffset=15	xadvance=19	page=1  chnl=15
-char id=62   x=94	y=233   width=16	height=13	xoffset=1	 yoffset=12	xadvance=20	page=0  chnl=15
-char id=63   x=76	y=155   width=12	height=23	xoffset=0	 yoffset=6	 xadvance=13	page=0  chnl=15
-char id=64   x=222   y=103   width=25	height=23	xoffset=1	 yoffset=6	 xadvance=27	page=0  chnl=15
-char id=65   x=150   y=79	width=23	height=24	xoffset=0	 yoffset=4	 xadvance=23	page=0  chnl=15
-char id=66   x=198   y=79	width=22	height=24	xoffset=1	 yoffset=3	 xadvance=23	page=0  chnl=15
-char id=67   x=188   y=27	width=21	height=25	xoffset=0	 yoffset=4	 xadvance=22	page=0  chnl=15
-char id=68   x=210   y=27	width=21	height=25	xoffset=1	 yoffset=4	 xadvance=23	page=0  chnl=15
-char id=69   x=102   y=0	 width=21	height=27	xoffset=1	 yoffset=3	 xadvance=22	page=0  chnl=15
-char id=70   x=113   y=104   width=17	height=24	xoffset=0	 yoffset=4	 xadvance=17	page=0  chnl=15
-char id=71   x=89	y=155   width=23	height=22	xoffset=1	 yoffset=5	 xadvance=25	page=0  chnl=15
-char id=72   x=174   y=79	width=23	height=24	xoffset=1	 yoffset=4	 xadvance=25	page=0  chnl=15
-char id=73   x=240   y=53	width=15	height=24	xoffset=0	 yoffset=4	 xadvance=16	page=0  chnl=15
-char id=74   x=146   y=0	 width=11	height=27	xoffset=1	 yoffset=4	 xadvance=14	page=0  chnl=15
-char id=75   x=167   y=128   width=22	height=23	xoffset=0	 yoffset=4	 xadvance=22	page=0  chnl=15
-char id=76   x=80	y=0	 width=21	height=27	xoffset=1	 yoffset=4	 xadvance=23	page=0  chnl=15
-char id=77   x=154   y=54	width=28	height=24	xoffset=0	 yoffset=4	 xadvance=28	page=0  chnl=15
-char id=78   x=212   y=53	width=27	height=24	xoffset=2	 yoffset=4	 xadvance=30	page=0  chnl=15
-char id=79   x=52	y=81	width=24	height=24	xoffset=1	 yoffset=3	 xadvance=27	page=0  chnl=15
-char id=80   x=23	y=110   width=22	height=24	xoffset=1	 yoffset=4	 xadvance=24	page=0  chnl=15
-char id=81   x=27	y=0	 width=28	height=28	xoffset=2	 yoffset=3	 xadvance=27	page=0  chnl=15
-char id=82   x=0	 y=85	width=26	height=24	xoffset=1	 yoffset=4	 xadvance=27	page=0  chnl=15
-char id=83   x=143   y=28	width=22	height=25	xoffset=0	 yoffset=4	 xadvance=21	page=0  chnl=15
-char id=84   x=66	y=28	width=25	height=25	xoffset=-1	yoffset=3	 xadvance=23	page=0  chnl=15
-char id=85   x=50	y=134   width=23	height=23	xoffset=1	 yoffset=4	 xadvance=25	page=0  chnl=15
-char id=86   x=69	y=106   width=21	height=24	xoffset=0	 yoffset=3	 xadvance=22	page=0  chnl=15
-char id=87   x=85	y=54	width=34	height=24	xoffset=1	 yoffset=3	 xadvance=37	page=0  chnl=15
-char id=88   x=235   y=127   width=19	height=23	xoffset=1	 yoffset=4	 xadvance=21	page=0  chnl=15
-char id=89   x=39	y=159   width=18	height=23	xoffset=1	 yoffset=4	 xadvance=20	page=0  chnl=15
-char id=90   x=221   y=0	 width=21	height=26	xoffset=0	 yoffset=4	 xadvance=21	page=0  chnl=15
-char id=91   x=26	y=31	width=7	 height=26	xoffset=2	 yoffset=5	 xadvance=11	page=0  chnl=15
-char id=92   x=243   y=0	 width=8	 height=26	xoffset=2	 yoffset=6	 xadvance=12	page=0  chnl=15
-char id=93   x=18	y=31	width=7	 height=26	xoffset=2	 yoffset=5	 xadvance=11	page=0  chnl=15
-char id=94   x=42	y=0	 width=14	height=6	 xoffset=0	 yoffset=10	xadvance=15	page=1  chnl=15
-char id=95   x=229   y=252   width=19	height=3	 xoffset=-1	yoffset=27	xadvance=17	page=0  chnl=15
-char id=96   x=103   y=247   width=7	 height=7	 xoffset=0	 yoffset=8	 xadvance=7	 page=0  chnl=15
-char id=97   x=43	y=239   width=16	height=13	xoffset=0	 yoffset=14	xadvance=15	page=0  chnl=15
-char id=98   x=160   y=152   width=16	height=21	xoffset=0	 yoffset=6	 xadvance=17	page=0  chnl=15
-char id=99   x=221   y=224   width=13	height=13	xoffset=0	 yoffset=14	xadvance=14	page=0  chnl=15
-char id=100  x=177   y=152   width=16	height=21	xoffset=1	 yoffset=6	 xadvance=17	page=0  chnl=15
-char id=101  x=206   y=225   width=14	height=13	xoffset=0	 yoffset=14	xadvance=14	page=0  chnl=15
-char id=102  x=146   y=152   width=13	height=22	xoffset=1	 yoffset=6	 xadvance=11	page=0  chnl=15
-char id=103  x=162   y=174   width=15	height=19	xoffset=1	 yoffset=13	xadvance=17	page=0  chnl=15
-char id=104  x=194   y=152   width=16	height=21	xoffset=1	 yoffset=6	 xadvance=18	page=0  chnl=15
-char id=105  x=0	 y=205   width=8	 height=19	xoffset=1	 yoffset=8	 xadvance=11	page=0  chnl=15
-char id=106  x=244   y=78	width=9	 height=24	xoffset=-1	yoffset=8	 xadvance=10	page=0  chnl=15
-char id=107  x=113   y=154   width=17	height=22	xoffset=0	 yoffset=5	 xadvance=17	page=0  chnl=15
-char id=108  x=248   y=103   width=7	 height=22	xoffset=1	 yoffset=5	 xadvance=9	 page=0  chnl=15
-char id=109  x=0	 y=225   width=26	height=14	xoffset=0	 yoffset=13	xadvance=26	page=0  chnl=15
-char id=110  x=91	y=218   width=17	height=14	xoffset=0	 yoffset=13	xadvance=18	page=0  chnl=15
-char id=111  x=191   y=210   width=15	height=14	xoffset=0	 yoffset=13	xadvance=16	page=0  chnl=15
-char id=112  x=75	y=203   width=15	height=18	xoffset=1	 yoffset=14	xadvance=17	page=0  chnl=15
-char id=113  x=9	 y=205   width=17	height=18	xoffset=1	 yoffset=14	xadvance=19	page=0  chnl=15
-char id=114  x=173   y=241   width=13	height=13	xoffset=1	 yoffset=14	xadvance=15	page=0  chnl=15
-char id=115  x=242   y=238   width=11	height=13	xoffset=1	 yoffset=14	xadvance=13	page=0  chnl=15
-char id=116  x=191   y=194   width=12	height=15	xoffset=1	 yoffset=12	xadvance=14	page=0  chnl=15
-char id=117  x=159   y=227   width=15	height=13	xoffset=1	 yoffset=14	xadvance=16	page=0  chnl=15
-char id=118  x=109   y=217   width=16	height=14	xoffset=0	 yoffset=13	xadvance=16	page=0  chnl=15
-char id=119  x=204   y=194   width=27	height=14	xoffset=0	 yoffset=13	xadvance=27	page=0  chnl=15
-char id=120  x=111   y=232   width=15	height=13	xoffset=1	 yoffset=14	xadvance=18	page=0  chnl=15
-char id=121  x=27	y=205   width=15	height=18	xoffset=1	 yoffset=14	xadvance=17	page=0  chnl=15
-char id=122  x=175   y=194   width=15	height=15	xoffset=1	 yoffset=13	xadvance=17	page=0  chnl=15
-char id=123  x=53	y=55	width=11	height=25	xoffset=0	 yoffset=5	 xadvance=12	page=0  chnl=15
-char id=124  x=0	 y=0	 width=4	 height=31	xoffset=2	 yoffset=1	 xadvance=9	 page=0  chnl=15
-char id=125  x=41	y=55	width=11	height=25	xoffset=1	 yoffset=5	 xadvance=13	page=0  chnl=15
-char id=126  x=78	y=0	 width=17	height=5	 xoffset=0	 yoffset=15	xadvance=17	page=1  chnl=15
-char id=133  x=57	y=0	 width=20	height=5	 xoffset=1	 yoffset=23	xadvance=22	page=1  chnl=15
-char id=145  x=250   y=151   width=5	 height=10	xoffset=0	 yoffset=5	 xadvance=5	 page=0  chnl=15
-char id=146  x=249   y=224   width=6	 height=10	xoffset=0	 yoffset=5	 xadvance=5	 page=0  chnl=15
-char id=147  x=11	y=0	 width=10	height=10	xoffset=0	 yoffset=5	 xadvance=11	page=1  chnl=15
-char id=148  x=127   y=245   width=10	height=10	xoffset=1	 yoffset=5	 xadvance=11	page=0  chnl=15
-char id=150  x=117   y=0	 width=14	height=4	 xoffset=1	 yoffset=17	xadvance=13	page=1  chnl=15
-char id=151  x=96	y=0	 width=20	height=4	 xoffset=1	 yoffset=17	xadvance=20	page=1  chnl=15
-char id=168  x=5	 y=0	 width=21	height=30	xoffset=1	 yoffset=0	 xadvance=22	page=0  chnl=15
-char id=173  x=132   y=0	 width=11	height=4	 xoffset=0	 yoffset=17	xadvance=11	page=1  chnl=15
-char id=174  x=238   y=151   width=11	height=21	xoffset=0	 yoffset=6	 xadvance=12	page=0  chnl=15
-char id=176  x=94	y=247   width=8	 height=7	 xoffset=1	 yoffset=8	 xadvance=10	page=0  chnl=15
-char id=177  x=144   y=176   width=17	height=19	xoffset=1	 yoffset=6	 xadvance=18	page=0  chnl=15
-char id=181  x=0	 y=183   width=11	height=21	xoffset=0	 yoffset=6	 xadvance=12	page=0  chnl=15
-char id=182  x=226   y=152   width=11	height=21	xoffset=0	 yoffset=6	 xadvance=12	page=0  chnl=15
-char id=183  x=12	y=183   width=11	height=21	xoffset=0	 yoffset=6	 xadvance=12	page=0  chnl=15
-char id=184  x=178   y=174   width=14	height=19	xoffset=0	 yoffset=8	 xadvance=14	page=0  chnl=15
-char id=192  x=126   y=79	width=23	height=24	xoffset=0	 yoffset=4	 xadvance=23	page=0  chnl=15
-char id=193  x=91	y=105   width=21	height=24	xoffset=1	 yoffset=3	 xadvance=24	page=0  chnl=15
-char id=194  x=221   y=78	width=22	height=24	xoffset=1	 yoffset=3	 xadvance=23	page=0  chnl=15
-char id=195  x=58	y=158   width=17	height=23	xoffset=1	 yoffset=4	 xadvance=19	page=0  chnl=15
-char id=196  x=199   y=0	 width=21	height=26	xoffset=2	 yoffset=4	 xadvance=24	page=0  chnl=15
-char id=197  x=124   y=0	 width=21	height=27	xoffset=1	 yoffset=3	 xadvance=22	page=0  chnl=15
-char id=198  x=131   y=104   width=30	height=23	xoffset=1	 yoffset=4	 xadvance=32	page=0  chnl=15
-char id=199  x=213   y=128   width=21	height=23	xoffset=0	 yoffset=4	 xadvance=22	page=0  chnl=15
-char id=200  x=74	y=131   width=23	height=23	xoffset=1	 yoffset=4	 xadvance=25	page=0  chnl=15
-char id=201  x=56	y=0	 width=23	height=27	xoffset=1	 yoffset=0	 xadvance=25	page=0  chnl=15
-char id=202  x=144   y=128   width=22	height=23	xoffset=0	 yoffset=4	 xadvance=22	page=0  chnl=15
-char id=203  x=118   y=28	width=24	height=25	xoffset=1	 yoffset=4	 xadvance=25	page=0  chnl=15
-char id=204  x=183   y=54	width=28	height=24	xoffset=0	 yoffset=4	 xadvance=28	page=0  chnl=15
-char id=205  x=102   y=79	width=23	height=24	xoffset=1	 yoffset=4	 xadvance=25	page=0  chnl=15
-char id=206  x=27	y=84	width=24	height=24	xoffset=1	 yoffset=3	 xadvance=27	page=0  chnl=15
-char id=207  x=25	y=135   width=24	height=23	xoffset=0	 yoffset=4	 xadvance=24	page=0  chnl=15
-char id=208  x=0	 y=110   width=22	height=24	xoffset=1	 yoffset=4	 xadvance=24	page=0  chnl=15
-char id=209  x=166   y=28	width=21	height=25	xoffset=0	 yoffset=4	 xadvance=22	page=0  chnl=15
-char id=210  x=92	y=28	width=25	height=25	xoffset=-1	yoffset=3	 xadvance=23	page=0  chnl=15
-char id=211  x=20	y=159   width=18	height=23	xoffset=0	 yoffset=4	 xadvance=18	page=0  chnl=15
-char id=212  x=192   y=104   width=29	height=23	xoffset=1	 yoffset=4	 xadvance=31	page=0  chnl=15
-char id=213  x=0	 y=159   width=19	height=23	xoffset=1	 yoffset=4	 xadvance=21	page=0  chnl=15
-char id=214  x=232   y=27	width=21	height=25	xoffset=1	 yoffset=4	 xadvance=23	page=0  chnl=15
-char id=215  x=98	y=130   width=22	height=23	xoffset=1	 yoffset=4	 xadvance=24	page=0  chnl=15
-char id=216  x=162   y=104   width=29	height=23	xoffset=0	 yoffset=4	 xadvance=30	page=0  chnl=15
-char id=217  x=167   y=0	 width=31	height=26	xoffset=0	 yoffset=4	 xadvance=32	page=0  chnl=15
-char id=218  x=190   y=128   width=22	height=23	xoffset=1	 yoffset=4	 xadvance=25	page=0  chnl=15
-char id=219  x=120   y=54	width=33	height=24	xoffset=1	 yoffset=4	 xadvance=36	page=0  chnl=15
-char id=220  x=121   y=129   width=22	height=23	xoffset=1	 yoffset=4	 xadvance=24	page=0  chnl=15
-char id=221  x=0	 y=59	width=21	height=25	xoffset=1	 yoffset=4	 xadvance=23	page=0  chnl=15
-char id=222  x=34	y=29	width=31	height=25	xoffset=0	 yoffset=3	 xadvance=32	page=0  chnl=15
-char id=223  x=77	y=80	width=24	height=24	xoffset=1	 yoffset=4	 xadvance=27	page=0  chnl=15
-char id=224  x=60	y=238   width=16	height=13	xoffset=0	 yoffset=14	xadvance=15	page=0  chnl=15
-char id=225  x=131   y=153   width=14	height=22	xoffset=1	 yoffset=5	 xadvance=16	page=0  chnl=15
-char id=226  x=159   y=241   width=13	height=13	xoffset=1	 yoffset=14	xadvance=15	page=0  chnl=15
-char id=227  x=229   y=238   width=12	height=13	xoffset=0	 yoffset=14	xadvance=13	page=0  chnl=15
-char id=228  x=211   y=152   width=14	height=21	xoffset=0	 yoffset=6	 xadvance=15	page=0  chnl=15
-char id=229  x=191   y=225   width=14	height=13	xoffset=0	 yoffset=14	xadvance=14	page=0  chnl=15
-char id=230  x=52	y=223   width=19	height=14	xoffset=1	 yoffset=13	xadvance=21	page=0  chnl=15
-char id=231  x=235   y=224   width=13	height=13	xoffset=0	 yoffset=14	xadvance=14	page=0  chnl=15
-char id=232  x=127   y=231   width=15	height=13	xoffset=1	 yoffset=14	xadvance=17	page=0  chnl=15
-char id=233  x=91	y=200   width=15	height=17	xoffset=1	 yoffset=10	xadvance=17	page=0  chnl=15
-char id=234  x=221   y=209   width=13	height=14	xoffset=1	 yoffset=13	xadvance=14	page=0  chnl=15
-char id=235  x=126   y=216   width=16	height=14	xoffset=0	 yoffset=13	xadvance=17	page=0  chnl=15
-char id=236  x=24	y=240   width=18	height=13	xoffset=1	 yoffset=14	xadvance=20	page=0  chnl=15
-char id=237  x=175   y=210   width=15	height=14	xoffset=0	 yoffset=13	xadvance=16	page=0  chnl=15
-char id=238  x=159   y=212   width=15	height=14	xoffset=0	 yoffset=13	xadvance=16	page=0  chnl=15
-char id=239  x=175   y=225   width=15	height=13	xoffset=1	 yoffset=14	xadvance=17	page=0  chnl=15
-char id=240  x=43	y=204   width=15	height=18	xoffset=1	 yoffset=14	xadvance=17	page=0  chnl=15
-char id=241  x=187   y=239   width=13	height=13	xoffset=0	 yoffset=14	xadvance=14	page=0  chnl=15
-char id=242  x=0	 y=240   width=23	height=13	xoffset=1	 yoffset=14	xadvance=25	page=0  chnl=15
-char id=243  x=59	y=204   width=15	height=18	xoffset=1	 yoffset=14	xadvance=17	page=0  chnl=15
-char id=244  x=122   y=177   width=21	height=19	xoffset=0	 yoffset=13	xadvance=22	page=0  chnl=15
-char id=245  x=143   y=229   width=15	height=13	xoffset=1	 yoffset=14	xadvance=18	page=0  chnl=15
-char id=246  x=142   y=197   width=15	height=16	xoffset=1	 yoffset=14	xadvance=16	page=0  chnl=15
-char id=247  x=201   y=239   width=13	height=13	xoffset=1	 yoffset=14	xadvance=15	page=0  chnl=15
-char id=248  x=27	y=224   width=24	height=14	xoffset=1	 yoffset=14	xadvance=26	page=0  chnl=15
-char id=249  x=116   y=199   width=25	height=16	xoffset=1	 yoffset=13	xadvance=27	page=0  chnl=15
-char id=250  x=143   y=214   width=15	height=14	xoffset=1	 yoffset=13	xadvance=17	page=0  chnl=15
-char id=251  x=72	y=223   width=18	height=14	xoffset=1	 yoffset=13	xadvance=20	page=0  chnl=15
-char id=252  x=207   y=209   width=13	height=14	xoffset=1	 yoffset=13	xadvance=14	page=0  chnl=15
-char id=253  x=235   y=209   width=12	height=14	xoffset=1	 yoffset=13	xadvance=14	page=0  chnl=15
-char id=254  x=232   y=194   width=20	height=14	xoffset=2	 yoffset=13	xadvance=22	page=0  chnl=15
-char id=255  x=215   y=239   width=13	height=13	xoffset=1	 yoffset=14	xadvance=15	page=0  chnl=15
- ]]
-local estimateStringWidth = createFontWidthCalculator(fontData)
-
-
 
 local function getWeaponTypeName(typeId)
 	-- Use the weapon type from the API's constants
@@ -536,12 +316,32 @@ end
 
 local function getEffects(eff, type)
 	local effects = {}
+	local shortTexts = playerSection:get("TOOLTIP_SHORT_TEXT")
+	
 	for i, effect in ipairs(eff) do
 		local text = getMagicEffectName(effect.id)
+		for a,b in pairs(core.magic.EFFECT_TYPE) do
+			if b == effect.id then
+				print(a)
+			end
+		end
 		if effect.affectedSkill then
 			text = text.." "..(core.getGMST("sSkill"..effect.affectedSkill) or "??")
+			if shortTexts then
+				text = (core.getGMST("sSkill"..effect.affectedSkill) or "??").. " +"
+			end
 		elseif effect.affectedAttribute then
 			text = text.." "..(core.getGMST("sAttribute"..effect.affectedAttribute) or "??")
+			if shortTexts then
+				if effect.id == core.magic.EFFECT_TYPE.FortifySkill or effect.id == core.magic.EFFECT_TYPE.FortifyAttribute then
+					text = (core.getGMST("sAttribute"..effect.affectedAttribute) or "??").. " +"
+				elseif effect.id == core.magic.EFFECT_TYPE.DrainAttribute or effect.id == core.magic.EFFECT_TYPE.DrainSkill then
+					text = (core.getGMST("sAttribute"..effect.affectedAttribute) or "??").. " -"
+				end
+			end
+		end
+		if effect.id == core.magic.EFFECT_TYPE.RestoreHealth and #text > 8 then
+			text = "Heal"
 		end
 		local effectPrototype = core.magic.effects.records[effect.id]
 		if effectPrototype.hasMagnitude then
@@ -551,35 +351,54 @@ local function getEffects(eff, type)
 				else
 					text = text.." "..effect.magnitudeMin/10 .."-"..effect.magnitudeMax/10
 				end
-				text = text..core.getGMST("sXTimesINT")
+				text = shortTexts and (text.."INT") or (text..core.getGMST("sXTimesINT"))
 			else
 				if effect.magnitudeMin == effect.magnitudeMax then
 					text = text.." "..effect.magnitudeMin
 				else
 					text = text.." "..effect.magnitudeMin.."-"..effect.magnitudeMax
 				end
-				text = text.." "..core.getGMST("sPoints")
+				if effect.id == core.magic.EFFECT_TYPE.Chameleon then
+					text = text.."%"
+				end
+				text =  shortTexts and (text) or (text.." "..core.getGMST("sPoints"))
 			end
 		end
 		if type ~= "constant" then --enchantmentRecord.type ~= core.magic.ENCHANTMENT_TYPE.ConstantEffect then
 			if effectPrototype.hasDuration then
 				local dur = math.max(1,effect.duration)
-				text = text.." "..core.getGMST("sfor")
-				text = text.." "..dur
-				if dur == 1 then
-					text = text.." "..core.getGMST("ssecond")
+				if shortTexts then
+					if dur > 1 then
+						text = text.." x "..dur
+					end
 				else
-					text = text.." "..core.getGMST("sseconds")
+					text = text.." "..core.getGMST("sfor")
+					text = text.." "..dur
+					if dur == 1 then
+						text = text.." "..core.getGMST("ssecond")
+					else
+						text = text.." "..core.getGMST("sseconds")
+					end
 				end
 			end
 			if type ~= "potion" then
-				text = text.." "..core.getGMST("sonword")
-				if effect.range == core.magic.RANGE.Self then
-					text = text.." "..core.getGMST("sRangeSelf")
-				elseif effect.range == core.magic.RANGE.Target then
-					text = text.." "..core.getGMST("sRangeTarget")		
-				elseif effect.range == core.magic.RANGE.Touch then
-					text = text.." "..core.getGMST("sRangeTouch")
+				if shortTexts then
+					if effect.range == core.magic.RANGE.Self then
+						text = text.." (Self)"
+					elseif effect.range == core.magic.RANGE.Target then
+						text = text.." (Target)"		
+					elseif effect.range == core.magic.RANGE.Touch then
+						text = text.." (Touch)"
+					end
+				else
+					text = text.." "..core.getGMST("sonword")
+					if effect.range == core.magic.RANGE.Self then
+						text = text.." "..core.getGMST("sRangeSelf")
+					elseif effect.range == core.magic.RANGE.Target then
+						text = text.." "..core.getGMST("sRangeTarget")		
+					elseif effect.range == core.magic.RANGE.Touch then
+						text = text.." "..core.getGMST("sRangeTouch")
+					end
 				end
 			end
 		end
@@ -650,6 +469,8 @@ end
 
 function getIngredientEffects(item)
 	local effects = {}
+	
+	
 	for a,effect in pairs(types.Ingredient.record(item).effects) do
 		local text = getMagicEffectName(effect.id)
 		if effect.affectedSkill then
@@ -690,6 +511,8 @@ local function getItemInfo(item)
 	if types.Weapon.objectIsInstance(item) then
 		info.type = "weapon"
 		info.weaponData = getWeaponData(item)
+		--core.sendGlobalEvent("OwnlysQuickLoot_test",{self, item})
+		
 	elseif types.Armor.objectIsInstance(item) then
 		info.type = "armor"
 		info.armorData = getArmorData(item)
@@ -720,7 +543,7 @@ local function getItemInfo(item)
 	elseif types.Miscellaneous.objectIsInstance(item) then
 		if record.id == "gold_001" or record.isKey then
 			info.value = 0
-			return nil
+			--return nil
 		end
 	end
 	info.enchantment = getEnchantmentData(item)
@@ -735,7 +558,7 @@ return function (item,highlightPosition) --makeTooltip
 	if playerSection:get("TOOLTIP_MODE") == "off" then
 		return
 	end
-	
+
 	
 	
 	local itemRecord = item.type.records[item.recordId]
@@ -829,10 +652,34 @@ return function (item,highlightPosition) --makeTooltip
 			--size = v2(100, 100),
 			autoSize = true
 		}
+	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed 3)" then
+		
+		root.layout.props = {
+			anchor = v2(0.5,0), 
+			--position = v2(uiWidth/2, absPos.y+boxHeight/12),
+			position = v2(math.max(absPos.x-rootWidth*0.9,(absPos.x-rootWidth/2)/2), absPos.y-boxHeight/4),
+			--size = v2(100, 100),
+			autoSize = true
+		}
 	elseif playerSection:get("TOOLTIP_MODE") == "right (fixed 2)" then
 		root.layout.props = {
 			anchor = v2(0,0), 
 			position = v2(absPos.x+rootWidth/2, absPos.y-boxHeight/4),
+			--size = v2(100, 100),
+			autoSize = true
+		}
+	elseif playerSection:get("TOOLTIP_MODE") == "right (fixed 3)" then
+		root.layout.props = {
+			anchor = v2(0.5,0), 
+			position = v2(math.min(99999999--[[absPos.x+rootWidth*0.9]],(uiWidth+absPos.x+rootWidth/2)/2), absPos.y-boxHeight/4),
+			--size = v2(100, 100),
+			autoSize = true
+		}
+	elseif playerSection:get("TOOLTIP_MODE") == "crosshair" then
+		
+		root.layout.props = {
+			anchor = v2(0.5,0), 
+			position = v2(uiWidth/2, uiHeight/2+20),
 			--size = v2(100, 100),
 			autoSize = true
 		}
@@ -898,7 +745,7 @@ return function (item,highlightPosition) --makeTooltip
 	
 	local weaponOrArmor = info.weaponData or info.armorData
 	if weaponOrArmor and weaponOrArmor.durability then
-		textElement(core.getGMST("sCondition")..": ".. weaponOrArmor.durability.current.."/"..weaponOrArmor.durability.max)
+		textElement(core.getGMST("sCondition")..": ".. math.floor(weaponOrArmor.durability.current+0.5).."/"..math.floor(weaponOrArmor.durability.max+0.5))
 	end
 	if info.type == "weapon" and playerSection:get("TOOLTIP_MELEE_INFO") then
 		textElement(core.getGMST("sRange")..": "..(math.floor((info.weaponData.reach*6.05)*10)/10).." "..core.getGMST("sfootarea"))
@@ -921,7 +768,11 @@ return function (item,highlightPosition) --makeTooltip
 	end
 	
 	
-	local function printEffects(effects)
+	local function printEffects(effects, isPotion)
+	
+		local skill = types.Player.stats.skills.alchemy(self).modified
+		local gmst = core.getGMST("fWortChanceValue")
+		
 		local effectFlex = {
 				type = ui.TYPE.Flex,
 				props = {
@@ -934,37 +785,41 @@ return function (item,highlightPosition) --makeTooltip
 				content = ui.content({})
 			}
 		flex.content:add(effectFlex)
-		for a,effect in pairs(effects) do
-			local effectFlex2 ={
-				type = ui.TYPE.Flex,
-				props = {
-					horizontal = true,
-				},
-				content = ui.content({})
-			}
-			effectFlex.content:add(effectFlex2)
-			effectFlex2.content:add{ props = { size = v2(1, 1) * 5 } }
-
-			effectFlex2.content:add {
-				type = ui.TYPE.Image,
-				props = {
-					resource = getTexture(effect.icon),
-					tileH = false,
-					tileV = false,
-					size = v2(itemFontSize*textSizeMult-1,itemFontSize*textSizeMult-1),
-					alpha = 0.7,
+		for i,effect in pairs(effects) do
+			if skill >= i * gmst or not isPotion then
+				local effectFlex2 ={
+					type = ui.TYPE.Flex,
+					props = {
+						horizontal = true,
+					},
+					content = ui.content({})
 				}
-			}
-			effectFlex2.content:add { 
-				type = ui.TYPE.Text,
-				template = quickLootText,
-				props = {
-					text = " "..effect.text.." ",
-					textSize = itemFontSize*textSizeMult,
-					size = v2(0,itemFontSize*textSizeMult),
-					textAlignH = ui.ALIGNMENT.Center,
-				},
-			}
+				effectFlex.content:add(effectFlex2)
+				effectFlex2.content:add{ props = { size = v2(1, 1) * 5 } }
+	
+				effectFlex2.content:add {
+					type = ui.TYPE.Image,
+					props = {
+						resource = getTexture(effect.icon),
+						tileH = false,
+						tileV = false,
+						size = v2(itemFontSize*textSizeMult-1,itemFontSize*textSizeMult-1),
+						alpha = 0.7,
+					}
+				}
+				effectFlex2.content:add { 
+					type = ui.TYPE.Text,
+					template = quickLootText,
+					props = {
+						text = " "..effect.text.." ",
+						textSize = itemFontSize*textSizeMult,
+						size = v2(0,itemFontSize*textSizeMult),
+						textAlignH = ui.ALIGNMENT.Center,
+					},
+				}
+			else
+				textElement("?")
+			end
 		end
 	end
 	
@@ -1040,7 +895,7 @@ return function (item,highlightPosition) --makeTooltip
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
-					text = info.enchantment.charge.current.." / "..info.enchantment.charge.max,--..hextoutf8(0xd83d)..hextoutf8(0xd83e),--thingName..countText,
+					text = math.floor(info.enchantment.charge.current).." / "..math.floor(info.enchantment.charge.max),--..hextoutf8(0xd83d)..hextoutf8(0xd83e),--thingName..countText,
 					textSize = itemFontSize*textSizeMult,--itemFontSize*textSizeMult,
 					size = v2(0,itemFontSize*textSizeMult),
 					relativeSize  = v2(0,1),
@@ -1065,7 +920,7 @@ return function (item,highlightPosition) --makeTooltip
 	if info.potionEffects then
 		--totalHeight = totalHeight + 1
 		flex.content:add{ props = { size = v2(1, 1) * 1 } }
-		printEffects(info.potionEffects)
+		printEffects(info.potionEffects, true)
 	end
 	if info.ingredientEffects then
 		--totalHeight = totalHeight + 1

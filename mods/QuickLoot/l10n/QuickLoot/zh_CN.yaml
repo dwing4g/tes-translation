@@ -77,11 +77,14 @@
 
 "Tooltip position": "提示框位置"
 "left": "左"
-"left (fixed)": "左(固定)"
-"left (fixed 2)": "左(固定2)"
+"left (fixed)": "左(修正)"
+"left (fixed 2)": "左(修正2)"
+"left (fixed 3)": "左(修正3)"
 "right": "右"
-"right (fixed)": "右(固定)"
-"right (fixed 2)": "右(固定2)"
+"right (fixed)": "右(修正)"
+"right (fixed 2)": "右(修正2)"
+"right (fixed 3)": "右(修正3)"
+"crosshair": "十字准线"
 "bottom": "下"
 "top": "上"
 
@@ -92,6 +95,9 @@
 "center": "居中"
 "left": "居左"
 "right": "居右"
+
+"shorter tooltip texts": "更短的提示框文字"
+"shortens effect texts": "让效果文字更短"
 
 "Search": "搜索"
 "Take All": "全部拿走"

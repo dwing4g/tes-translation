@@ -58,9 +58,10 @@ modEnabled = true
 modDisableFlags = {}
 local shiftPressed = false
 local layerId = ui.layers.indexOf("HUD")
-local width = ui.layers[layerId].size.x 
+uiWidth = ui.layers[layerId].size.x 
+uiHeight = ui.layers[layerId].size.y
 local screenres = ui.screenSize()
-local uiScale = screenres.x / width
+local uiScale = screenres.x / uiWidth
 local makeTooltip = require("scripts.OwnlysQuickLoot.tooltip")
 local containerHash = 0
 
@@ -931,8 +932,10 @@ function drawUI()
 				position = v2(rootWidth*0.493-outerHeaderFooterHeight*0.8,rootHeight-outerHeaderFooterHeight/2+1),
 				anchor = v2(1,0.5),
 				textColor = playerSection:get("ICON_TINT"),
-			},})
+			},
+		})
 	end
+	-- /SUB-FOOTER
 end
 
 function closeHud()

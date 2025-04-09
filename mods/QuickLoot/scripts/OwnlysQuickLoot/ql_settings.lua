@@ -265,12 +265,12 @@ settings = {
 			key = "TOOLTIP_MODE",
 			name = "Tooltip position",
 			description = "doesn't work with the font fix below",
-			default = "read", 
+			default = "left", 
 			renderer = "select",
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
-				items = {"off", "left","left (fixed)", "left (fixed 2)", "right", "right (fixed)", "right (fixed 2)", "bottom", "top"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+				items = {"off", "left","left (fixed)", "left (fixed 2)", "left (fixed 3)", "right", "right (fixed)", "right (fixed 2)", "right (fixed 3)", "crosshair", "bottom", "top"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
 		{
@@ -291,6 +291,13 @@ settings = {
 				l10n = "QuickLoot", 
 				items = {"center", "left", "right"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
+		},
+		{
+			key = "TOOLTIP_SHORT_TEXT",
+			name = "shorter tooltip texts",
+			description = "shortens effect texts",
+			renderer = "checkbox",
+			default = false
 		},
 		
 	}
