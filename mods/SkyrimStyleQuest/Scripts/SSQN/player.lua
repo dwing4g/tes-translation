@@ -28,20 +28,9 @@ local soundfiles = {
 	["None"] = nil, ["Custom"] = "custom", ["Same as Start"] = "same"
 	}
 
-
 local settingsGroup = storage.playerSection("Settings_openmw_SSQN")
 
-local comments = {}
-comments.tr_dbattack = {
-	[10] = "Speak to a Guard about the attack",
-	[30] = "Speak with Apelles Matius in Ebonheart",
-	[50] = "Speak to Asciene Rane in the Grand Council Chambers",
-	[60] = "Speak to a Royal Guard about the Dark Brotherhood",
-	[100] = "Find the Dark Brotherhood base in Old Mournhold"
-}
-comments.pc_m1_ip_als4 = {
-	[10] = "Travel to Archad to confront Uricalimo",
-	}
+local comments = require("scripts.SSQN.comments")
 
 local playerqlist = { ["testbanner_id"] = true }
 local element = nil
@@ -53,7 +42,9 @@ else
 	print("No dialogue API. Using qnamelist.lua ...")
 end
 local iconlist = {}		local ignorelist = {}
-local showObjective, objective = false
+local objective			comments.enabled = false
+
+local playerJournal = {}
 
 local function parseList(list, isMain)
 	if type(list) ~= "table" then return		end
@@ -67,7 +58,7 @@ end
 
 local M = require("scripts.SSQN.iconlist")
 parseList(M, true)
-for i in vfs.pathsWithPrefix("scripts/SSQN/iconlists") do
+for i in vfs.pathsWithPrefix("scripts/SSQN/iconlists/") do
 	if i:find(".lua$") then
 		print("Loading iconlist "..i)
 		i = string.gsub(i, ".lua", "")		i = string.gsub(i, "/", ".")
@@ -76,8 +67,9 @@ for i in vfs.pathsWithPrefix("scripts/SSQN/iconlists") do
 	end
 end
 
+--[[
 async:newUnsavableSimulationTimer(1, function()
-	for i in vfs.pathsWithPrefix("scripts/SSQN/interop") do
+	for i in vfs.pathsWithPrefix("scripts/SSQN/interop/") do
 		if i:find(".lua$") then
 			print("Loading interop "..i)
 			i = string.gsub(i, ".lua", "")		i = string.gsub(i, "/", ".")
@@ -85,6 +77,26 @@ async:newUnsavableSimulationTimer(1, function()
 		end
 	end
 end)
+--]]
+
+
+local function gmstToRgb(id, blend)
+	local gmst = core.getGMST(id)
+	if not gmst then return util.color.rgb(0.6, 0.6, 0.6) end
+	local col = {}
+	for v in string.gmatch(gmst, "(%d+)") do col[#col + 1] = tonumber(v) end
+	if #col ~= 3 then print("Invalid RGB from "..gmst.." "..id) return util.color.rgb(0.6, 0.6, 0.6) end
+	if blend then
+		for i = 1, 3 do col[i] = col[i] * blend[i] end
+	end
+	return util.color.rgb(col[1] / 255, col[2] / 255, col[3] / 255)
+end
+
+local uiTheme = {
+	normal = gmstToRgb("FontColor_color_normal"),
+	header = gmstToRgb("FontColor_color_header"),
+	baseSize = 16
+	}
 
 local function initQuestlist()
 	print("Building existing player quest list")
@@ -166,41 +178,58 @@ local function displayPopup(questId, index)
 		notificationText = playerqlist[questId] and "text_questfin" or "text_queststart"
 	else
 		local obj = comments[questId]		if obj then obj = obj[index]	end
+		notificationText = qname
 		if obj then
-			notificationText = qname
 			qname = obj
 		else
-			notificationText = "New Journal Entry:"
+			qname = "New Journal Entry"
 		end
 	end
 
 	local template = I.MWUI.templates.boxSolidThick
 	if settingsGroup:get("bannertransp") then template = I.MWUI.templates.boxTransparentThick end
-	local x, y = settingsGroup:get("bannerposx"), settingsGroup:get("bannerposy")
-	local textPos, showIcon = 0.5, false
-	if settingsGroup:get("showicon") and not index then textPos, showIcon = 0.55, true	end
+--	local x, y = settingsGroup:get("bannerposx"), settingsGroup:get("bannerposy")
+	local e = {
+		x=settingsGroup:get("bannerposx"), y=settingsGroup:get("bannerposy"),
+		showTitle = true, showIcon = settingsGroup:get("showicon"),
+		width = 480, height = 72,	textX = 0.56, textY = 0.7,
+	}
+--	local textX = 0.56		local textY = 0.7
+	local l = qname:len()		local pt = uiTheme.baseSize
+	local bodySize = (l > 34 and pt) or (l > 24 and pt*1.25) or (pt*1.5)
+	if index then
+		e.textX = 0.5		e.showIcon = false
+		bodySize = (l > 40 and pt) or (pt*1.25)
+		if qname ~= "New Journal Entry" then
+			e.textY = 0.5	e.showTitle = false	e.height = 48
+		end
+	elseif not e.showIcon then
+		e.textX = 0.5	e.textY = 0.7
+		bodySize = (l > 40 and pt) or (l > 30 and pt*1.25) or (pt*1.5)
+	end
+--	print(bodySize)
 
 element = ui.create {
 	layer = 'Notification',
 	template = template,
 	type = ui.TYPE.Container,
 	props = {
-	relativePosition = util.vector2(x, y),
+	visible = true,
+	relativePosition = util.vector2(e.x, e.y),
 	anchor = util.vector2(0.5, 0.5),
 	},
 	content = ui.content {
-		--** Size of notification box 480 x 72. Change numbers in the line below.
-	{ type = ui.TYPE.Widget, props = { size = util.vector2(480, 72) },
+	{ type = ui.TYPE.Widget, props = { size = util.vector2(e.width, e.height) },
 
 	content = ui.content {
 
 	{ type = ui.TYPE.Image,
             props = {
-		visible = showIcon,
+		visible = e.showIcon,
 			--** Position of icon inside notification box.
 			--** ( [0/0.5/1 = left/center/right], [0/0.5/1 = top/center/bottom] ) 
-    		relativePosition = util.vector2(0.02, 0.5),
-    		anchor = util.vector2(0.02, 0.5),
+    		relativePosition = util.vector2(0.075, 0.5),
+    		anchor = util.vector2(0.5, 0.5),
 			--** Size of Icon 48 x 48. Change values in line below.
                 size = util.vector2(48, 48),
 		resource = ui.texture { path = notificationImage },
@@ -210,20 +239,21 @@ element = ui.create {
 	{ template = I.MWUI.templates.textNormal,
 	    type = ui.TYPE.Text,
             props = {
-	    relativePosition = util.vector2(textPos, 0.2),
-	    anchor = util.vector2(0.5, 0.2),
+            visible = e.showTitle,
+	    relativePosition = util.vector2(e.textX, 0.25),
+	    anchor = util.vector2(0.5, 0.5),
 	    text = l10n(notificationText),
-	    textSize = 16,
+	    textSize =  uiTheme.baseSize, textColor = uiTheme.normal,
 		},
 	},
 
 	{ template = I.MWUI.templates.textHeader,
 	type = ui.TYPE.Text,
             props = {
-    relativePosition = util.vector2(textPos, 0.8),
-    anchor = util.vector2(0.5, 0.8),
+    relativePosition = util.vector2(e.textX, e.textY),
+    anchor = util.vector2(0.5, 0.5),
 	text = qname,
-    textSize = 16,
+    textSize = bodySize, textColor = uiTheme.header,
 		},
 	},
 
@@ -276,7 +306,7 @@ local function journalHandler()
 	if questId ~= nil and not ignorelist[questId] and settingsGroup:get("enabled") then
 		displayPopup(questId)
 	elseif objective then
-		print(objective.id, objective.index)
+--		print(objective.id, objective.index)
 		displayPopup(objective.id, objective.index)
 		objective = nil
 	end
@@ -291,7 +321,19 @@ time.runRepeatedly(function()
 end, 1 * time.second)
 
 local function onQuestUpdate(id, stage)
-	if showObjective then objective = { id=id, index=stage }		end
+
+	local journal = playerJournal[id]
+	if not journal then
+		journal = {}		playerJournal[id] = journal
+	end
+	local infos = core.dialogue.journal.records[id].infos
+	for _, v in ipairs(infos) do
+		if v.questStage == stage and v.text and v.text ~= "" and not journal[stage] then
+			journal[stage] = { id=v.id, time=core.getGameTime() }
+		end
+	end
+
+	if comments.enabled then objective = { id=id, index=stage }		end
 	local soundfile = soundfiles[settingsGroup:get("soundfileupdate")]
 	if soundfile == "custom" then soundfile = settingsGroup:get("soundcustomupdate")	end
 	if soundfile == nil then return end
@@ -307,24 +349,54 @@ return {
 	engineHandlers = {
 		onQuestUpdate = onQuestUpdate,
 		onInit = initQuestlist,
-		onLoad = initQuestlist
+		onLoad = function(e)
+			if e and e.journal then playerJournal = e.journal		end
+			initQuestlist()
+		end,
+		onSave = function() return{ version=130, journal = playerJournal }		end
 	},
---[[
+
 	eventHandlers = {
 		UiModeChanged = function(e)
-			if element and e.newMode then self:sendEvent("ssqnRemove")	end
+			if element then self:sendEvent("ssqnRemove")		end
 		end,
-		ssqnRemove = function() if core.isWorldPaused() then removePopup()	end	end
+		ssqnRemove = function()
+			if not element then		return		end
+			local visible = element.layout.props.visible
+			if visible and core.isWorldPaused() then
+				element.layout.props.visible = false
+				element:update()
+			elseif not visible and not core.isWorldPaused() then
+				element.layout.props.visible = true
+				element:update()
+			end
+		end
 	},
---]]
+
 	interfaceName = "SSQN",
 	interface = {
-		version = 0,
+		version = 130,
 		registerQIcon = function(id, path)
 			if path:find("^\\") then path = string.sub(path, 2, -1)		end
 			iconlist[id:lower()] = path
 		end,
 		getQIcon = function(id) return iconpicker(id)				end,
-		blockQBanner = function(id) ignorelist[id:lower()] = true		end
+		blockQBanner = function(id) ignorelist[id:lower()] = true		end,
+		addQComment = function(id, index, text)
+			id = id:lower()		local q = comments[id]
+			if not q then q = {}	comments[id] = q		end
+			q[index] = text
+		end,
+		getJournal = function()
+			local proxy = {}
+			for k, v in pairs(playerJournal) do
+				local q = {}
+				for k, v in pairs(v) do
+					q[k] = util.makeReadOnly(v)
+				end
+				proxy[k] = util.makeReadOnly(q)
+			end
+			return util.makeReadOnly(proxy)
+		end
 	}
 }

@@ -22,11 +22,11 @@ sounds.files = {
 for k, v in pairs(sounds.files) do
 	local path = "Sound\\" .. v
 	if not vfs.fileExists(path) and v ~= "custom" and v ~= "same" then
-		print("Not found " .. path)	sounds.files[k] = nil
+		print("Skip sound " .. path)	sounds.files[k] = nil
 	end
 end
 
-local function verify(m)
+local function build(m)
 	local f = sounds.files		local list = {}
 	for _, v in ipairs(m) do
 		if f[v] then list[#list + 1] = v	end
@@ -34,13 +34,13 @@ local function verify(m)
 	return list
 end
 
-sounds.start = verify({ "Skyrim Quest", "SkyUI New Quest", "SkyUI Objective 1", "SkyUI Skill Increase", "6th House Chime", "Skill Raise",
+sounds.start = build({ "Skyrim Quest", "SkyUI New Quest", "SkyUI Objective 1", "SkyUI Skill Increase", "6th House Chime", "Skill Raise",
 	"Magic Effect", "Oblivion Quest", "Cliff Racer", "None", "Custom" })
 
-sounds.finish = verify({ "Skyrim Quest", "SkyUI New Quest", "SkyUI Objective 1", "SkyUI Skill Increase", "6th House Chime", "Skill Raise",
+sounds.finish = build({ "Skyrim Quest", "SkyUI New Quest", "SkyUI Objective 1", "SkyUI Skill Increase", "6th House Chime", "Skill Raise",
 	"Magic Effect",	"Oblivion Quest", "Cliff Racer", "None", "Custom", "Same as Start" })
 
-sounds.update = verify({ "Journal Update", "SkyUI Objective 1", "SkyUI Skill Increase", "Book Page 1", "Book Page 2", "None", "Custom" })
+sounds.update = build({ "Journal Update", "SkyUI Objective 1", "SkyUI Skill Increase", "Book Page 1", "Book Page 2", "None", "Custom" })
 
 
 I.Settings.registerPage {
