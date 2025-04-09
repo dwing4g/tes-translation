@@ -8894,7 +8894,7 @@ Temple: Cleaver of St. Felms
 
 > INFO.NAME tt_felmscleaver 23976195702253217144
 Another sacred relic has been lost. Uvoo Llaren wants me to find the Cleaver of St. Felms. This cleaver is believed to be in the Ash Vampire Citadel of Tureynulal, which is on Red Mountain.
-又一件圣物丢失了。尤沃·拉伦要我找到圣·费尔姆斯之刃。这把武器据说在图雷努拉尔的灰烬吸血鬼城堡里，而城堡就在红山上。 {神圣}
+又一件圣物丢失了。尤沃·拉伦要我找到圣·费尔姆斯之刃。这把武器据说在图雷努拉的灰烬吸血鬼城堡里，而城堡就在红山上。 {神圣}
 
 > INFO.NAME tt_felmscleaver 81041735023251763
 Uvoo Llaren thanked me for returning the Cleaver of St. Felms the Bold.
@@ -9322,11 +9322,11 @@ I have decided not to try and kill the vampire Merta.
 
 > INFO.NAME va_vampcountess 27759209793156526920
 I returned to Raxle Berne and told him of my success in killing Merta. He seemed pleased, and gave me the Berne Amulet in return for my service. It will allow me to return to Galom Daeus if I need to. He has also told me that I might receive further reward if I am able to kill great numbers of vampires in the opposing clans.
-我回去找到拉克斯·伯尔尼，告诉他我成功杀死了梅塔。他似乎很高兴，给了我伯尔尼护身符作为回报。如果我需要的话，它可以让我回到加洛姆代乌斯。他还告诉我，如果我能在敌对部族中杀死大量吸血鬼，我可能会得到进一步的报酬。
+我回去找到拉克斯·伯尔尼，告诉他我成功杀死了梅塔。他似乎很高兴，给了我伯尔尼护身符作为回报。如果我需要的话，它可以让我回到加洛姆-代乌斯。他还告诉我，如果我能在敌对部族中杀死大量吸血鬼，我可能会得到进一步的报酬。
 
 > INFO.NAME va_vampcountess 315525839725312447
 Because I have been able to kill a large number of Quarra and Aundae vampires, Raxle Berne has allowed me the use of the Berne cattle here in Galom Daeus, provided I kill none of them. If I do, I will no longer be welcome in Galom Daeus, and will be attacked on sight.
-因为我能够杀死大量夸尔拉氏族和昂戴氏族的吸血鬼，拉克斯·伯尔尼允许我使用加洛姆代乌斯这里的伯尔尼牲口，但前提是我不能杀死他们中的任何一个。如果我杀了它们，加洛姆代乌斯将不再欢迎我，而且会当场遭到攻击。
+因为我能够杀死大量夸尔拉氏族和昂戴氏族的吸血鬼，拉克斯·伯尔尼允许我使用加洛姆-代乌斯这里的伯尔尼牲口，但前提是我不能杀死他们中的任何一个。如果我杀了它们，加洛姆-代乌斯将不再欢迎我，而且会当场遭到攻击。
 
 > INFO.NAME va_vampcountess 23042234591408719473
 Because I have killed some of the cattle, I have lost the privilege of using them for food.
@@ -11610,7 +11610,7 @@ Raven Omayn tells me that Mistress Dratha would like to obtain the Blood of the 
 
 > INFO.NAME va_vampblood2 18794109772348710143
 It seems Mistress Dratha was pleased to receive the Blood of the Quarra Ancients. I have been rewarded with a Jinksword, which Raven Omayn believes could only be useful to a vampire.
-看来德拉萨夫人很高兴收到夸尔拉之血。我得到了一把强劲的剑，瑞雯·奥曼认为这把剑只能对吸血鬼有用。 {报酬}
+看来德拉萨夫人很高兴收到夸尔拉之血。我得到了一把闪剑，瑞雯·奥曼认为这把剑只能对吸血鬼有用。 {报酬}
 
 > INFO.NAME ms_arenimtomb 9600280261484917080
 Search for Her Father's Amulet
@@ -12102,7 +12102,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_meetvivec 307572302030133254
 To defeat Dagoth Ur, Vivec says I must go to Red Mountain to recover the artifact hammer Sunder from Gate Citadel Vemynal, then the artifact blade Keening from Gate Citadel Odrosal. Then, with these artifacts and Wraithguard, if I destroy the enchantments on the Heart of Lorkhan in Dagoth Ur's citadel, Dagoth Ur will be destroyed, and the Blight ended. Vivec gave me 'The Plan to Defeat Dagoth Ur' to explain the details.
-为了打败达格斯·乌尔，维威克说我必须去红山从维密纳尔城堡之门那里取回神器锤子“决裂”，然后再从奥德罗萨尔城堡之门那里取回神器刀刃“哀恸”。然后，有了这些神器和幽魂影卫，如果我摧毁了达格斯·乌尔城堡中洛克汗之心的魔法，达格斯·乌尔就会被摧毁，枯萎之症也就结束了。维威克给了我'击败达格斯·乌尔的计划'来解释细节。 {魔法疾病,附魔之术}
+为了打败达格斯·乌尔，维威克说我必须去红山从维密纳城堡之门那里取回神器锤子“决裂”，然后再从欧德罗萨城堡之门那里取回神器刀刃“哀恸”。然后，有了这些神器和幽魂影卫，如果我摧毁了达格斯·乌尔城堡中洛克汗之心的魔法，达格斯·乌尔就会被摧毁，枯萎之症也就结束了。维威克给了我'击败达格斯·乌尔的计划'来解释细节。 {魔法疾病,附魔之术}
 
 > INFO.NAME b8_meetvivec 3108320266200937559
 I accepted Wraithguard from Lord Vivec, and I swore my oath, before all gods and men, before all spirits visible and invisible, before my honor and Vivec's honor, to dedicate myself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people. Vivec somehow taught me how to use Wraithguard. He then offered to give some explanations, or to let me go immediately, as I wished.
@@ -12114,7 +12114,7 @@ Temple: Slay Raxle Berne
 
 > INFO.NAME tt_galomdeus 27161557674897606
 Tharer Rotheloth gave me the equipment of a vampire hunter. I must find the vampire Raxle Berne and slay him in the name of the Tribunal. Galom Daeus is southwest of Uvirith's Grave, which is west of Tel Fyr. I should go south from Uvirith's grave until I reach a river of lava, then follow that river to the west until I reach Galom Daeus.
-塔瑞尔·罗瑟罗斯给了我吸血鬼猎人的装备。我必须找到吸血鬼拉克斯·伯尔尼，并以审判席的名义杀死他。加洛姆代乌斯在乌维瑞斯之墓的西南方，而乌维瑞斯之墓在泰尔-菲尔的西边。我应该从乌维瑞斯之墓往南一直走到一条熔渠边，然后沿着这条熔渠往西一直走到加洛姆代乌斯。
+塔瑞尔·罗瑟罗斯给了我吸血鬼猎人的装备。我必须找到吸血鬼拉克斯·伯尔尼，并以审判席的名义杀死他。加洛姆-代乌斯在乌维瑞斯之墓的西南方，而乌维瑞斯之墓在泰尔-菲尔的西边。我应该从乌维瑞斯之墓往南一直走到一条熔渠边，然后沿着这条熔渠往西一直走到加洛姆-代乌斯。
 
 > INFO.NAME tt_galomdeus 1947113558808698
 Tharer Rotheloth thanked me for slaying the vampire Raxle Berne in the name of the Tribunal.
@@ -14118,7 +14118,7 @@ I told Nileno Dorvayn that Rolasa Oren was dead.
 
 > INFO.NAME tt_maargan 3019922283238018673
 Temple: Pilgrimage to Maar Gan
-神殿：前往玛尔甘进行朝圣之旅
+神殿：前往玛尔-甘进行朝圣之旅
 
 > INFO.NAME tt_maargan 7213100192290221186
 Tuls Valen wants me to make the Pilgrimage to Maar Gan. I should go to the temple shrine in Maar Gan and read the plaque describing Vivec's taunting of Mehrunes Dagon.
@@ -15118,7 +15118,7 @@ The Citadels of the Sixth House
 
 > INFO.NAME c0_act_c 5577172482054226658
 In Citadel Vemynal I discovered an enchanted hammer called Sunder. It appears to be one of the enchanted tools created by the Dwemer Craftlord Kagrenac. But I can handle it without injury when I don't have Wraithguard equipped, and that seems very wrong.
-在维密纳尔城堡，我发现了一把名为“决裂”的附魔锤子。它似乎是卡格瑞纳克的附魔工具中的一种，由锻莫族附魔师卡格瑞纳克创造。但我在没有装备幽魂影卫的情况下也可以使用它而不会受伤，这似乎不太对。
+在维密纳城堡，我发现了一把名为“决裂”的附魔锤子。它似乎是卡格瑞纳克的附魔工具中的一种，由锻莫族附魔师卡格瑞纳克创造。但我在没有装备幽魂影卫的情况下也可以使用它而不会受伤，这似乎不太对。
 
 > INFO.NAME da_azura 11231143491734225761
 Azura's Quest
