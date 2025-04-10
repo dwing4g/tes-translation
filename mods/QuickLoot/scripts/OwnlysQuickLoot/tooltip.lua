@@ -1,7 +1,39 @@
-local types = require('openmw.types')
-local core = require('openmw.core')
-local util = require('openmw.util')
-local self = require("openmw.self")
+-- local helpers = require("scripts.OwnlysQuickLoot.ql_helpers")
+-- readFont, texText, rgbToHsv, hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber = unpack(helpers) -- (uses formatNumber)
+-- MODNAME = "OwnlysQuickLoot"
+-- playerSection = storage.playerSection('SettingsPlayer'..MODNAME)
+-- background = ui.texture { path = 'black' }
+-- white = ui.texture { path = 'white' }
+-- util = require('openmw.util')
+-- ui = require('openmw.ui')
+-- self = require("openmw.self")
+-- core = require('openmw.core')
+-- types = require('openmw.types')
+-- makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
+-- uiLoc = v2(playerSection:get("X")/100,playerSection:get("Y")/100)
+-- uiSize = v2(playerSection:get("WIDTH")/100,playerSection:get("HEIGHT")/100)
+-- itemFontSize = 20
+-- textSizeMult = ui.screenSize().y /1200*(uiSize.y/0.4)
+-- quickLootText = {
+-- 	props = {
+-- 			textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
+-- 			textShadow = true,
+-- 			textShadowColor = util.color.rgba(0,0,0,0.75),
+-- 			--textAlignV = ui.ALIGNMENT.Center,
+-- 			--textAlignH = ui.ALIGNMENT.Center,
+-- 	}
+-- }
+
+tooltipText = {
+	props = {
+			textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
+			textShadow = true,
+			textShadowColor = util.color.rgba(0,0,0,0.75),
+			textAlignV = ui.ALIGNMENT.Center,
+			textAlignH = ui.ALIGNMENT.Center,
+	}
+}
+
 
 function getMaxEnchantmentCharge(enchantment)
 	if not enchantment.autocalcFlag then
@@ -558,8 +590,6 @@ return function (item,highlightPosition) --makeTooltip
 	if playerSection:get("TOOLTIP_MODE") == "off" then
 		return
 	end
-
-	
 	
 	local itemRecord = item.type.records[item.recordId]
 	local info = getItemInfo(item)
@@ -606,11 +636,13 @@ return function (item,highlightPosition) --makeTooltip
 	}
 	
 	root.layout.content:add(flex)
+	
+	
+	-- TOOLTIP LOCATION:
 	if playerSection:get("TOOLTIP_MODE") == "top" then
 		root.layout.props = {
 			anchor = v2(0.5,1), 
 			position = v2(absPos.x, absPos.y-rootHeight/2),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "bottom" then
@@ -621,79 +653,67 @@ return function (item,highlightPosition) --makeTooltip
 		root.layout.props = {
 			anchor = v2(0.5,0), 
 			position = v2(absPos.x, absPos.y+rootHeight/2+1-temp),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "left" then
 		root.layout.props = {
 			anchor = v2(1,0), 
 			position = v2(absPos.x-rootWidth/2, absPos.y-rootHeight/2+highlightPosition),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "right" then
 		root.layout.props = {
 			anchor = v2(0,0), 
 			position = v2(absPos.x+rootWidth/2, absPos.y-rootHeight/2+highlightPosition),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed)" then
 		root.layout.props = {
 			anchor = v2(1,0.5), 
 			position = v2(absPos.x-rootWidth/2, absPos.y),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed 2)" then
 		root.layout.props = {
 			anchor = v2(1,0), 
 			position = v2(absPos.x-rootWidth/2, absPos.y-boxHeight/4),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed 3)" then
-		
 		root.layout.props = {
 			anchor = v2(0.5,0), 
-			--position = v2(uiWidth/2, absPos.y+boxHeight/12),
 			position = v2(math.max(absPos.x-rootWidth*0.9,(absPos.x-rootWidth/2)/2), absPos.y-boxHeight/4),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "right (fixed 2)" then
 		root.layout.props = {
 			anchor = v2(0,0), 
 			position = v2(absPos.x+rootWidth/2, absPos.y-boxHeight/4),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "right (fixed 3)" then
 		root.layout.props = {
 			anchor = v2(0.5,0), 
 			position = v2(math.min(99999999--[[absPos.x+rootWidth*0.9]],(uiWidth+absPos.x+rootWidth/2)/2), absPos.y-boxHeight/4),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	elseif playerSection:get("TOOLTIP_MODE") == "crosshair" then
-		
 		root.layout.props = {
 			anchor = v2(0.5,0), 
 			position = v2(uiWidth/2, uiHeight/2+20),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	else --right (fixed)
 		root.layout.props = {
 			anchor = v2(0,0.5), 
 			position = v2(absPos.x+rootWidth/2, absPos.y),
-			--size = v2(100, 100),
 			autoSize = true
 		}
 	end
+	-- /TOOLTIP LOCATION
+	
 	
 	local ench = item and (item.enchant or item.enchant ~= "" and item.enchant )
-	--local totalHeight = 0
 	local fontWidthMult = playerSection:get("TOOLTIP_FONT_WIDTH")
 	local function textElement(str, color)
 		flex.content:add { 
@@ -707,10 +727,8 @@ return function (item,highlightPosition) --makeTooltip
 				autoSize = true
 			},
 		}
-		--totalHeight = totalHeight + itemFontSize*textSizeMult
 	end
 	
-	--totalHeight = totalHeight + 1
 	flex.content:add{ props = { size = v2(1, 1) * 1 } }
 	
 	local name = info.name
@@ -719,15 +737,16 @@ return function (item,highlightPosition) --makeTooltip
 	end
 	textElement(name, playerSection:get("ICON_TINT"))
 
-	--totalHeight = totalHeight + 1
 	flex.content:add{ props = { size = v2(1, 1) * 1 } }
 	
 	if info.uses then
 		textElement(core.getGMST("sUses")..": "..math.floor(info.uses))
 	end
+	
 	if info.quality then
 		textElement(core.getGMST("sQuality")..": "..math.floor(info.quality*10+0.5)/10)
 	end
+	
 	if info.type == "armor" then
 		textElement(core.getGMST("sArmorRating")..": ".. math.floor(info.armorData.playerArmor))
 	end
@@ -744,13 +763,14 @@ return function (item,highlightPosition) --makeTooltip
 	end
 	
 	local weaponOrArmor = info.weaponData or info.armorData
+	
 	if weaponOrArmor and weaponOrArmor.durability then
 		textElement(core.getGMST("sCondition")..": ".. math.floor(weaponOrArmor.durability.current+0.5).."/"..math.floor(weaponOrArmor.durability.max+0.5))
 	end
+	
 	if info.type == "weapon" and playerSection:get("TOOLTIP_MELEE_INFO") then
 		textElement(core.getGMST("sRange")..": "..(math.floor((info.weaponData.reach*6.05)*10)/10).." "..core.getGMST("sfootarea"))
 		textElement(core.getGMST("sAttributeSpeed")..": "..math.floor((info.weaponData.speed)*100+0.5).."%")
-		
 	end
 	
 	if info.weight and info.weight > 0 then
@@ -769,7 +789,6 @@ return function (item,highlightPosition) --makeTooltip
 	
 	
 	local function printEffects(effects, isPotion)
-	
 		local skill = types.Player.stats.skills.alchemy(self).modified
 		local gmst = core.getGMST("fWortChanceValue")
 		
@@ -777,10 +796,8 @@ return function (item,highlightPosition) --makeTooltip
 				type = ui.TYPE.Flex,
 				props = {
 					position = v2(0, 0),
-					--position = v2(0,totalHeight),
 					anchor = v2(0.5,0),
 					relativePosition = v2(0.5, 0),
-					--horizontal = true,
 				},
 				content = ui.content({})
 			}
@@ -825,19 +842,15 @@ return function (item,highlightPosition) --makeTooltip
 	
 	if info.enchantment then
 		textElement(info.enchantment.typeName or "???")
-		--totalHeight = totalHeight + 2
 		flex.content:add{ props = { size = v2(1, 1) * 2 } }
 		printEffects(info.enchantment.effects)
 		if info.enchantment.charge then
-			--totalHeight = totalHeight + 3
 			flex.content:add{ props = { size = v2(1, 1) * 3 } }
-			--textElement(info.enchantment.charge.current.." / "..info.enchantment.charge.max)
 			local progressFlex ={
 				type = ui.TYPE.Flex,
 				props = {
 					position = v2(0, 0),
 					size = v2(0,itemFontSize*textSizeMult),
-					--position = v2(0,totalHeight),
 					anchor = v2(0.5,0),
 					relativePosition = v2(0.5, 0),
 					horizontal = true,
@@ -845,7 +858,6 @@ return function (item,highlightPosition) --makeTooltip
 				content = ui.content({})
 			}
 			flex.content:add(progressFlex)
-			--textElement(effect.text)
 			progressFlex.content:add { 
 				type = ui.TYPE.Text,
 				template = quickLootText,
@@ -914,16 +926,15 @@ return function (item,highlightPosition) --makeTooltip
 				}
 			}
 			progressFlex.content:add{ props = { size = v2(1, 1) * 5 } }
-			--totalHeight = totalHeight + itemFontSize*textSizeMult
 		end
 	end
+	
 	if info.potionEffects then
-		--totalHeight = totalHeight + 1
 		flex.content:add{ props = { size = v2(1, 1) * 1 } }
 		printEffects(info.potionEffects, true)
 	end
+	
 	if info.ingredientEffects then
-		--totalHeight = totalHeight + 1
 		flex.content:add{ props = { size = v2(1, 1) * 1 } }
 		local skill = types.Player.stats.skills.alchemy(self).modified
 		local gmst = core.getGMST("fWortChanceValue")
@@ -934,10 +945,6 @@ return function (item,highlightPosition) --makeTooltip
 					type = ui.TYPE.Flex,
 					props = {
 						position = v2(0, 0),
-						--size = v2(0,itemFontSize*textSizeMult),
-						--position = v2(0,totalHeight),
-						--anchor = v2(0.5,0),
-						--relativePosition = v2(0.5, 0),
 						horizontal = true,
 					},
 					content = ui.content({})
@@ -966,16 +973,13 @@ return function (item,highlightPosition) --makeTooltip
 						textAlignH = ui.ALIGNMENT.Center,
 					},
 				}
-				--totalHeight = totalHeight + itemFontSize*textSizeMult
 			else
 				textElement("?")
 			end
 		end
 		
 	end
-	--totalHeight = totalHeight + 2
+	
 	flex.content:add{ props = { size = v2(1, 1) * 2 } }
-	--flex.layout.props.size = v2(maxWidth, totalHeight)
-	--root:update()
 	return root
 end

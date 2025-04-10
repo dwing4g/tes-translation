@@ -191,7 +191,7 @@ local hitChanceWidgetScale = ui.content {
 
 local hitChanceWidget = ui.create {
 	name = 'TutorialNotifyMenu',
-	l10n = 'UITutorial',
+	l10n = 'SME',
 	layer = 'HUD',
 	-- This is a helper template, which sets up this interface element in the style of Morrowind.
 	-- Reference: https://openmw.readthedocs.io/en/latest/reference/lua-scripting/interface_mwui.html

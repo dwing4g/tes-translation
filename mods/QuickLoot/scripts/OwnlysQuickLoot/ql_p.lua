@@ -103,15 +103,6 @@ quickLootText = {
 	}
 }
 
-tooltipText = {
-	props = {
-			textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
-			textShadow = true,
-			textShadowColor = util.color.rgba(0,0,0,0.75),
-			textAlignV = ui.ALIGNMENT.Center,
-			textAlignH = ui.ALIGNMENT.Center,
-	}
-}
 
 itemFontSize = 20
 
@@ -1035,6 +1026,7 @@ function onFrame(dt)
 			core.sendGlobalEvent("OwnlysQuickLoot_resolve",res.hitObject)
 		else
 			inspectedContainer = res.hitObject
+			self.controls.use = 0
 			Controls.overrideCombatControls(true)
 			types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Magic, false) 
 			types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Fighting, false)
