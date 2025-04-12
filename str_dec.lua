@@ -11,7 +11,7 @@ f:close()
 local f = io.open(arg[2], "wb")
 local n = read4(s, 0)
 local b = 8 + n * 8
-local noLen = arg[1]:find "%.strings$"
+local noLen = arg[1]:lower():find "%.strings$"
 for i = 1, n do
 	local idx = read4(s, i * 8)
 	local pos = b + read4(s, i * 8 + 4)
