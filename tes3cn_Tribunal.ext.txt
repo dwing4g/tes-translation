@@ -292,7 +292,7 @@ Hands of Almalexia
 
 > MGEF.DESC [89 00 00 00]
 This effect summons a Verminous Fabricant. It appears six feet in front of the caster and attacks any entity that attacks the caster until the effect ends or the summoning is killed. If summoned in town, the guards will attack you and the summoning on sight.
-该效果会召唤出一个械构体。它出现在施法者前方六英尺处，攻击任何攻击施法者的实体，直到效果结束或召唤物被杀死。如果在城镇中召唤，守卫会当场攻击你和召唤物。
+该效果会召唤出一个械构体。它出现在施法者前方六尺处，攻击任何攻击施法者的实体，直到效果结束或召唤物被杀死。如果在城镇中召唤，守卫会当场攻击你和召唤物。
 
 > SCPT.SCTX almaScript s1
 Many Blessings upon you, my loyal servant.

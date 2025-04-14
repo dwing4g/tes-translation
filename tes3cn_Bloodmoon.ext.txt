@@ -261,7 +261,7 @@ Skaal
 > MGEF.DESC [40 00 00 00]
 """The caster of this effect can detect any entity animated by a spirit; they appear on the map as symbols. This effect includes all classes of monsters. The effect's magnitude is the range in feet from the caster that animals are detected.
 """
-"""该效果的施法者可以侦测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有等级的怪物。该效果的大小是指在距离施法者几英尺的范围内探测到的动物。
+"""该效果的施法者可以侦测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有等级的怪物。该效果的大小是指在距离施法者几尺的范围内探测到的动物。
 """
 
 > SCPT.SCTX CavernIncarnateDoor s1
@@ -19976,7 +19976,7 @@ If you're looking for a good short-bladed weapon, try to get your hands on a fry
 
 > INFO.NAME little advice 31003265883114019894
 At night, when the snow starts falling, it's hard to see more than a few feet in front of you. Either use a good light source or get indoors until morning.
-晚上，当雪开始飘落时，你很难看清前方几英尺以外的地方。要么使用良好的光源，要么在室内待到天亮。
+晚上，当雪开始飘落时，你很难看清前方几尺以外的地方。要么使用良好的光源，要么在室内待到天亮。
 
 > INFO.NAME little advice 12662772236445636
 Sometimes it's worth killing a berserker just to get his weapon. Some of them favor special silver blades that are enchanted to do extra damage to their opponents.
@@ -19996,7 +19996,7 @@ If you run into any snow wolves or snow bears, attack them with fire. They have 
 
 > INFO.NAME little advice 764067861891327451
 At night, when the snow starts falling, it's hard to see more than a few feet in front of you. Either use a good light source or get indoors until morning.
-晚上，当雪开始飘落时，你很难看清前方几英尺以外的地方。要么使用良好的光源，要么在室内待到天亮。
+晚上，当雪开始飘落时，你很难看清前方几尺以外的地方。要么使用良好的光源，要么在室内待到天亮。
 
 > INFO.NAME little advice 639211272825421477
 They say spriggans die three deaths. Best to avoid them if I were you.

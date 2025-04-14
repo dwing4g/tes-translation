@@ -919,7 +919,7 @@
  MGEF.BVFX "VFX_MysticismBolt$00"
  MGEF.HVFX "VFX_MysticismHit$00"
  MGEF.AVFX "VFX_MysticismArea$00"
- MGEF.DESC "该效果的施法者可以侦测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有等级的怪物。该效果的大小是指在距离施法者几英尺的范围内探测到的动物。
+ MGEF.DESC "该效果的施法者可以侦测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有等级的怪物。该效果的大小是指在距离施法者几尺的范围内探测到的动物。
 "
 -MGEF
  MGEF.INDX [8A 00 00 00]
@@ -60769,7 +60769,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "12662772236445636$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "晚上，当雪开始飘落时，你很难看清前方几英尺以外的地方。要么使用良好的光源，要么在室内待到天亮。"
+ INFO.NAME "晚上，当雪开始飘落时，你很难看清前方几尺以外的地方。要么使用良好的光源，要么在室内待到天亮。"
 -INFO
  INFO.INAM "12662772236445636$00"
  INFO.PNAM "31003265883114019894$00"
@@ -60812,7 +60812,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "639211272825421477$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "晚上，当雪开始飘落时，你很难看清前方几英尺以外的地方。要么使用良好的光源，要么在室内待到天亮。"
+ INFO.NAME "晚上，当雪开始飘落时，你很难看清前方几尺以外的地方。要么使用良好的光源，要么在室内待到天亮。"
 -INFO
  INFO.INAM "639211272825421477$00"
  INFO.PNAM "764067861891327451$00"
