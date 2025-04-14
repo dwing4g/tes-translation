@@ -587,6 +587,7 @@ end
 
 -- MAIN FUNCTION
 return function (item,highlightPosition) --makeTooltip
+	local transparency = playerSection:get("TRANSPARENCY")
 	if playerSection:get("TOOLTIP_MODE") == "off" then
 		return
 	end
@@ -609,7 +610,7 @@ return function (item,highlightPosition) --makeTooltip
 			props = {
 				resource = background,
 				relativeSize  = v2(1,1),
-				alpha = 0.4,
+				alpha = transparency,
 			}
 		}).borders
 	local root = ui.create({

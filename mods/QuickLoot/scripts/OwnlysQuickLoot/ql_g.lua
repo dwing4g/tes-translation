@@ -3,6 +3,7 @@ local types = require('openmw.types')
 local disabledPlayers = {}
 local activateNextUpdate = {}
 local activateSecondNextUpdate = {}
+local deleteSecondNextUpdate = {}
 local world = require('openmw.world')
 local I = require("openmw.interfaces")
 local actuallyActivateTable = {}
@@ -300,6 +301,7 @@ end
 local function takeAll(data)
 	local player = data[1]
 	local container = data[2]
+	local disposeCorpse = data[3]
 	local i =0
 	types.Container.inventory(container):resolve()
 	if not triggerMwscriptTrap(container,player) then
@@ -325,6 +327,9 @@ local function takeAll(data)
 			end
 			--thing:activateBy(player)
 		--moveInto(types.Player.inventory(player))
+		end
+		if disposeCorpse and types.Actor.objectIsInstance(container) and types.Actor.isDead(container) then
+			table.insert(deleteSecondNextUpdate,{container,2})
 		end
 		if i>0 then
 			--player:sendEvent("TakeAll_PlaySound","Item Ingredient Up")
@@ -352,6 +357,14 @@ local function onUpdate(dt)
 	--		actuallyActivateTable[a] = nil
 	--	end
 	--end
+	for i, t in pairs(deleteSecondNextUpdate) do
+		if t[2]>1 then
+			t[2] = 1
+		else
+			t[1]:remove(1)
+			table.remove(deleteSecondNextUpdate,i)
+		end
+	end
 	activateNextUpdate = activateSecondNextUpdate
 	activateSecondNextUpdate = {}
 end

@@ -3,26 +3,14 @@ local vfs = require('openmw.vfs')
 
 
 local sounds = {}
-sounds.files = {
-	["Skyrim Quest"] = "SSQN\\quest_update.wav",
-	["6th House Chime"] = "Fx\\envrn\\bell2.wav",
-	["Skill Raise"] = "Fx\\inter\\levelUP.wav",
-	["Magic Effect"] = "Fx\\magic\\mystA.wav",
-	["Oblivion Quest"] = "SSQN\\ob_quest.wav",
-	["Cliff Racer"] = "Cr\\cliffr\\scrm.wav",
-	["Book Page 1"] = "Fx\\BOOKPAG1.wav",
-	["Book Page 2"] = "Fx\\BOOKPAG2.wav",
-	["Journal Update"] = "SSQN\\journal_update.wav",
-	["SkyUI New Quest"] = "Fx\\ui\\ui_quest_new.wav",
-	["SkyUI Objective 1"] = "Fx\\ui\\ui_objective_new_01.wav",
-	["SkyUI Skill Increase"] = "Fx\\ui\\ui_skill_increase.wav",
-	["None"] = nil, ["Custom"] = "custom", ["Same as Start"] = "same"
-	}
+sounds.files = require("scripts.SSQN.configSound")
 
 for k, v in pairs(sounds.files) do
-	local path = "Sound\\" .. v
-	if not vfs.fileExists(path) and v ~= "custom" and v ~= "same" then
-		print("Skip sound " .. path)	sounds.files[k] = nil
+	if v ~= "" and v ~= "custom" and v ~= "same" then
+		local path = "Sound\\" .. v
+		if not vfs.fileExists(path) then
+			print("Skip sound " .. path)	sounds.files[k] = nil
+		end
 	end
 end
 
@@ -34,13 +22,16 @@ local function build(m)
 	return list
 end
 
-sounds.start = build({ "Skyrim Quest", "SkyUI New Quest", "SkyUI Objective 1", "SkyUI Skill Increase", "6th House Chime", "Skill Raise",
-	"Magic Effect", "Oblivion Quest", "Cliff Racer", "None", "Custom" })
+sounds.start = build { "snd_ui_quest_new", "snd_ui_obj_new_01", "snd_sky_quest",
+	"snd_ui_skill_inc", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
+	"snd_racer", "snd_none", "snd_custom" }
 
-sounds.finish = build({ "Skyrim Quest", "SkyUI New Quest", "SkyUI Objective 1", "SkyUI Skill Increase", "6th House Chime", "Skill Raise",
-	"Magic Effect",	"Oblivion Quest", "Cliff Racer", "None", "Custom", "Same as Start" })
+sounds.finish = build { "snd_sky_quest", "snd_ui_quest_new", "snd_ui_obj_new_01",
+	"snd_ui_skill_inc", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
+	"snd_racer", "snd_none", "snd_custom", "snd_same" }
 
-sounds.update = build({ "Journal Update", "SkyUI Objective 1", "SkyUI Skill Increase", "Book Page 1", "Book Page 2", "None", "Custom" })
+sounds.update = build { "snd_journal", "snd_ui_obj_new_01", "snd_ui_skill_inc",
+	"snd_book1", "snd_book2", "snd_none", "snd_custom" }
 
 
 I.Settings.registerPage {
@@ -69,6 +60,28 @@ I.Settings.registerGroup({
          renderer = "checkbox",
          name = "settings_modCategory1_setting01a_name",
       },
+        {
+            key = "textSizeTitle",
+            name = "settings_modCategory1_setting01d_name",
+            default = "24",
+            renderer = "select",
+            argument = {
+                disabled = false,
+                l10n = "SSQN",
+                items = { "16", "20", "24" },
+            },
+	},
+        {
+            key = "textSize",
+            name = "settings_modCategory1_setting01e_name",
+            default = "16",
+            renderer = "select",
+            argument = {
+                disabled = false,
+                l10n = "SSQN",
+                items = { "16", "18" },
+            },
+	},
       {
          key = "bannertransp",
          default = true,
@@ -108,7 +121,7 @@ I.Settings.registerGroup({
             key = "soundfile",
             name = "settings_modCategory1_setting06_name",
             description = "settings_modCategory1_setting06_desc",
-            default = "Skyrim Quest", 
+            default = "snd_sky_quest", 
             renderer = "select",
             argument = {
                 disabled = false,
@@ -127,7 +140,7 @@ I.Settings.registerGroup({
             key = "soundfilefin",
             name = "settings_modCategory1_setting08_name",
             description = "settings_modCategory1_setting08_desc",
-            default = "Same as Start", 
+            default = "snd_same", 
             renderer = "select",
             argument = {
                 disabled = false,
@@ -145,11 +158,11 @@ I.Settings.registerGroup({
             key = "soundfileupdate",
             name = "settings_modCategory1_setting10_name",
             description = "settings_modCategory1_setting10_desc",
-            default = "Journal Update",
+            default = "snd_journal",
             renderer = "select",
             argument = {
                 disabled = false,
-                l10n = "SSQN", 
+                l10n = "SSQN",
                 items = sounds.update,
             },
 	},

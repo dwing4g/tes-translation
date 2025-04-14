@@ -299,6 +299,29 @@ settings = {
 			renderer = "checkbox",
 			default = false
 		},
+		{
+			key = "DISPOSE_CORPSE",
+			name = "Dispose corpse Key",
+			description = "",
+			default = "Shift + F", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"disabled", "Shift + F", "Jump"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+			},
+		},
+		{
+			key = "TRANSPARENCY",
+			name = "Transparency",
+			description = "",
+			renderer = "number",
+			default = 0.4,
+			argument = {
+				min = 0,
+				max = 1,
+			},
+		},
 		
 	}
 }

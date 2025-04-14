@@ -12,25 +12,12 @@ local storage = require('openmw.storage')
 local l10n = core.l10n("SSQN")
 
 
-local soundfiles = {
-	["Skyrim Quest"] = "SSQN\\quest_update.wav",
-	["6th House Chime"] = "Fx\\envrn\\bell2.wav",
-	["Skill Raise"] = "Fx\\inter\\levelUP.wav",
-	["Magic Effect"] = "Fx\\magic\\mystA.wav",
-	["Oblivion Quest"] = "SSQN\\ob_quest.wav",
-	["Cliff Racer"] = "Cr\\cliffr\\scrm.wav",
-	["Book Page 1"] = "Fx\\BOOKPAG1.wav",
-	["Book Page 2"] = "Fx\\BOOKPAG2.wav",
-	["Journal Update"] = "SSQN\\journal_update.wav",
-	["SkyUI New Quest"] = "Fx\\ui\\ui_quest_new.wav",
-	["SkyUI Objective 1"] = "Fx\\ui\\ui_objective_new_01.wav",
-	["SkyUI Skill Increase"] = "Fx\\ui\\ui_skill_increase.wav",
-	["None"] = nil, ["Custom"] = "custom", ["Same as Start"] = "same"
-	}
-
-local settingsGroup = storage.playerSection("Settings_openmw_SSQN")
-
+local soundfiles = require("scripts.SSQN.configSound")
 local comments = require("scripts.SSQN.comments")
+comments.enabled = false
+
+local settings = storage.playerSection("Settings_openmw_SSQN")
+
 
 local playerqlist = { ["testbanner_id"] = true }
 local element = nil
@@ -42,9 +29,9 @@ else
 	print("No dialogue API. Using qnamelist.lua ...")
 end
 local iconlist = {}		local ignorelist = {}
-local objective			comments.enabled = false
+local updateList = {}
 
-local playerJournal = {}
+local questLog = {}		local proxy = {}
 
 local function parseList(list, isMain)
 	if type(list) ~= "table" then return		end
@@ -67,17 +54,32 @@ for i in vfs.pathsWithPrefix("scripts/SSQN/iconlists/") do
 	end
 end
 
---[[
-async:newUnsavableSimulationTimer(1, function()
-	for i in vfs.pathsWithPrefix("scripts/SSQN/interop/") do
-		if i:find(".lua$") then
-			print("Loading interop "..i)
-			i = string.gsub(i, ".lua", "")		i = string.gsub(i, "/", ".")
-			require(i)
+
+-- Legacy sound names
+local legacy = {
+	keys = { "soundfile", "soundfilefin", "soundfileupdate" },
+	update = {
+		["Book Page 1"] = "snd_book1",
+		["Book Page 2"] = "snd_book2",
+		["SkyUI New Quest"] = "snd_ui_quest_new",
+		["SkyUI Objective 1"] = "snd_ui_obj_new_01",
+		["SkyUI Skill Increase"] = "snd_ui_skill_inc",
+		["None"] = "snd_none", ["Custom"] = "snd_custom", ["Same as Start"] = "snd_same"
+		}
+}
+
+local function updateKeys()
+	for _, v in ipairs(legacy.keys) do
+		local key = settings:get(v)
+	--	print(v, key)
+		if key and legacy.update[key] then
+	--		print(v, legacy.update[key])
+			settings:set(v, legacy.update[key])
 		end
 	end
-end)
---]]
+end
+
+updateKeys()
 
 
 local function gmstToRgb(id, blend)
@@ -105,8 +107,8 @@ local function initQuestlist()
 		local qid = v.id:lower()
        		if playerqlist[qid] == nil then
 			playerqlist[qid] = v.finished
-			if playerqlist[qid] then print(qid, "finished")
-			else print(qid) end
+	--		if playerqlist[qid] then print(qid, "finished")
+	--		else print(qid) end
 		end
 	end
 end
@@ -167,7 +169,16 @@ local function getQuestName(i)
 	return name
 end
 
+
+local fader = {}
+
 local function displayPopup(questId, index)
+	local e = {
+		x=settings:get("bannerposx"), y=settings:get("bannerposy"),
+		showTitle = true, showIcon = settings:get("showicon"),
+		width = 420, height = 72,	textX = 0.56, textY = 0.7,
+	}
+
 	local qname = getQuestName(questId) or questId
 	local notificationImage = iconpicker(questId)
 	print(questId, notificationImage)
@@ -186,16 +197,9 @@ local function displayPopup(questId, index)
 		end
 	end
 
-	local template = I.MWUI.templates.boxSolidThick
-	if settingsGroup:get("bannertransp") then template = I.MWUI.templates.boxTransparentThick end
---	local x, y = settingsGroup:get("bannerposx"), settingsGroup:get("bannerposy")
-	local e = {
-		x=settingsGroup:get("bannerposx"), y=settingsGroup:get("bannerposy"),
-		showTitle = true, showIcon = settingsGroup:get("showicon"),
-		width = 480, height = 72,	textX = 0.56, textY = 0.7,
-	}
---	local textX = 0.56		local textY = 0.7
-	local l = qname:len()		local pt = uiTheme.baseSize
+	local template = settings:get("bannertransp") and I.MWUI.templates.boxTransparentThick
+		or I.MWUI.templates.boxSolidThick
+	local l = qname:len()		local pt = tonumber(settings:get("textSize"))
 	local bodySize = (l > 34 and pt) or (l > 24 and pt*1.25) or (pt*1.5)
 	if index then
 		e.textX = 0.5		e.showIcon = false
@@ -207,7 +211,97 @@ local function displayPopup(questId, index)
 		e.textX = 0.5	e.textY = 0.7
 		bodySize = (l > 40 and pt) or (l > 30 and pt*1.25) or (pt*1.5)
 	end
+
+	bodySize = tonumber(settings:get("textSizeTitle"))
 --	print(bodySize)
+
+
+local minHeight = { type = ui.TYPE.Image,
+		props = {
+			size = util.vector2(8, e.height - 2),
+			resource = ui.texture { path = "white" },
+			color = util.color.hex("ff0000"), alpha = 0,
+		}
+	}
+
+local minWidth = { type = ui.TYPE.Image,
+		props = {
+			size = util.vector2(e.width - 16, 1),
+			resource = ui.texture { path = "white" },
+			color = util.color.hex("00ff00"), alpha = 0,
+		}
+	}
+
+local spacer = { type = ui.TYPE.Image,
+		props = {
+			visible = e.showTitle,
+			size = util.vector2(20, 8),
+			resource = ui.texture { path = "white" },
+			color = util.color.hex("00ff00"), alpha = 0,
+		}
+	}
+
+local contentIcon = {
+	type = ui.TYPE.Image,
+	props = {
+			--** Size of Icon 48 x 48. Change values in line below.
+                size = util.vector2(48, 48),
+		resource = ui.texture { path = notificationImage },
+	},
+}
+
+local contentLabel = {
+	template = I.MWUI.templates.textNormal,
+	type = ui.TYPE.Text,
+	props = {
+	    text = l10n(notificationText),
+	    textSize =  uiTheme.baseSize, textColor = uiTheme.normal,
+	},
+}
+
+
+local contentText = {}
+table.insert(contentText, minWidth)
+if e.showTitle then
+	table.insert(contentText, spacer)
+	table.insert(contentText, contentLabel)
+	if bodySize == 16 then
+		table.insert(contentText, spacer)
+	end
+end
+table.insert(contentText, spacer)
+table.insert(contentText,
+	{ template = I.MWUI.templates.textHeader,
+	type = ui.TYPE.Text,
+	props = {
+		text = qname,
+		textSize = bodySize, textColor = uiTheme.header,
+		},
+	})
+
+table.insert(contentText, spacer)
+table.insert(contentText, minWidth)
+
+
+local contentBanner = {}
+if e.showIcon then
+	table.insert(contentBanner, minHeight)
+	table.insert(contentBanner, contentIcon)
+end
+table.insert(contentBanner, minHeight)
+table.insert(contentBanner,
+        { template = I.MWUI.templates.padding, alignment = ui.ALIGNMENT.Center, content = ui.content {
+		{ type = ui.TYPE.Flex,
+			props = { horizontal = false,
+                	   align = ui.ALIGNMENT.Center,
+                	    arrange = ui.ALIGNMENT.Center,
+			},
+			content = ui.content(contentText)
+		},
+	}, })
+
+table.insert(contentBanner, minHeight)
+
 
 element = ui.create {
 	layer = 'Notification',
@@ -217,66 +311,54 @@ element = ui.create {
 	visible = true,
 	relativePosition = util.vector2(e.x, e.y),
 	anchor = util.vector2(0.5, 0.5),
+	alpha = 0,
 	},
 	content = ui.content {
-	{ type = ui.TYPE.Widget, props = { size = util.vector2(e.width, e.height) },
 
-	content = ui.content {
-
-	{ type = ui.TYPE.Image,
-            props = {
-		visible = e.showIcon,
-			--** Position of icon inside notification box.
-			--** ( [0/0.5/1 = left/center/right], [0/0.5/1 = top/center/bottom] ) 
-    		relativePosition = util.vector2(0.075, 0.5),
-    		anchor = util.vector2(0.5, 0.5),
-			--** Size of Icon 48 x 48. Change values in line below.
-                size = util.vector2(48, 48),
-		resource = ui.texture { path = notificationImage },
-		},
-	},
-
-	{ template = I.MWUI.templates.textNormal,
-	    type = ui.TYPE.Text,
-            props = {
-            visible = e.showTitle,
-	    relativePosition = util.vector2(e.textX, 0.25),
-	    anchor = util.vector2(0.5, 0.5),
-	    text = l10n(notificationText),
-	    textSize =  uiTheme.baseSize, textColor = uiTheme.normal,
-		},
-	},
-
-	{ template = I.MWUI.templates.textHeader,
-	type = ui.TYPE.Text,
-            props = {
-    relativePosition = util.vector2(e.textX, e.textY),
-    anchor = util.vector2(0.5, 0.5),
-	text = qname,
-    textSize = bodySize, textColor = uiTheme.header,
-		},
+	{ type = ui.TYPE.Flex, props = { horizontal = true,
+                   align = ui.ALIGNMENT.Center,
+                    arrange = ui.ALIGNMENT.Center,
+			},
+	content = ui.content(contentBanner)
 	},
 
 	},
 
-	},
-	},
 }
 
-	async:newUnsavableSimulationTimer(settingsGroup:get("bannertime"), function() removePopup() end)
+--	async:newUnsavableSimulationTimer(settings:get("bannertime") - 1, function() removePopup() end)
+
+	fader.count = 0		fader.time = settings:get("bannertime")
+	fader.stop = time.runRepeatedly(function()
+		local m = fader
+		m.count = m.count + 0.04
+		if m.count > m.time + 1 then
+			m.stop()
+			removePopup()
+			return
+		end
+		if not element then		return		end
+		if m.count < 0.6 then
+			element.layout.props.alpha = util.clamp(m.count / 0.5, 0, 1)
+			element:update()			
+		elseif m.count > m.time - 1.5 and m.count < m.time + 0.2 then
+			element.layout.props.alpha = util.clamp(1 - (m.count + 1.5 - m.time) / 1.5, 0, 1)
+			element:update()
+		end
+	end, 0.04 * time.second)
 
 	local soundfile
 	if index then
 		soundfile = "Fx\\ui\\ui_objective_new_01.wav"
 	elseif notificationText == "text_queststart" then
-		soundfile = soundfiles[settingsGroup:get("soundfile")]
-		if soundfile == "custom" then soundfile = settingsGroup:get("soundcustom")	end
+		soundfile = soundfiles[settings:get("soundfile")]
+		if soundfile == "custom" then soundfile = settings:get("soundcustom")	end
 	else
-		soundfile = soundfiles[settingsGroup:get("soundfilefin")]
+		soundfile = soundfiles[settings:get("soundfilefin")]
 		if soundfile == "same" then
-			soundfile = soundfiles[settingsGroup:get("soundfile")]
+			soundfile = soundfiles[settings:get("soundfile")]
 		elseif soundfile == "custom" then
-			soundfile = settingsGroup:get("soundcustomfin")
+			soundfile = settings:get("soundcustomfin")
 		end
 	end
 
@@ -301,41 +383,63 @@ local function getQuestchange(quests)
 end
 
 local function journalHandler()
-	if element ~= nil then return end
-	local questId = getQuestchange(types.Player.quests(self))
-	if questId ~= nil and not ignorelist[questId] and settingsGroup:get("enabled") then
-		displayPopup(questId)
-	elseif objective then
---		print(objective.id, objective.index)
-		displayPopup(objective.id, objective.index)
-		objective = nil
+	if element or #updateList == 0 then		return		end
+	local msg = updateList[1]		table.remove(updateList, 1)
+--	print(msg.id, msg.index, msg.type)
+	if msg.type == "quest" then
+		displayPopup(msg.id)
+	elseif msg.type == "objective" then
+--		print(msg.id, msg.index)
+		displayPopup(msg.id, msg.index)
 	end
 end
 
 time.runRepeatedly(function()
-	if not settingsGroup:get("bannerdemo") then journalHandler()
+	if not settings:get("bannerdemo") then journalHandler()
 	elseif element == nil then
 		displayPopup("testbanner_id")
 		playerqlist.testbanner_id = not playerqlist.testbanner_id
 	end
 end, 1 * time.second)
 
+
+local function updateJournal(id, stage, info)
+
+	local quest = questLog[id]
+	if not quest then
+		quest = {}		questLog[id] = quest
+	end
+	quest[stage] = { id=info.id, time=core.getGameTime() }
+
+	local q = {}
+	for k, v in pairs(quest) do
+		q[k] = util.makeReadOnly(v)
+	end
+	proxy[id] = util.makeReadOnly(q)
+
+end
+
 local function onQuestUpdate(id, stage)
 
-	local journal = playerJournal[id]
-	if not journal then
-		journal = {}		playerJournal[id] = journal
-	end
 	local infos = core.dialogue.journal.records[id].infos
+	local journal = questLog[id] or {}
 	for _, v in ipairs(infos) do
 		if v.questStage == stage and v.text and v.text ~= "" and not journal[stage] then
-			journal[stage] = { id=v.id, time=core.getGameTime() }
+	--		journal[stage] = { id=v.id, time=core.getGameTime() }
+			updateJournal(id, stage, v)
 		end
 	end
 
-	if comments.enabled then objective = { id=id, index=stage }		end
-	local soundfile = soundfiles[settingsGroup:get("soundfileupdate")]
-	if soundfile == "custom" then soundfile = settingsGroup:get("soundcustomupdate")	end
+	if not ignorelist[id] and settings:get("enabled") then
+		if getQuestchange(types.Player.quests(self)) then
+			updateList[#updateList + 1] = { id=id, index=stage, type="quest" }
+		end
+		if comments.enabled then
+			updateList[#updateList + 1] = { id=id, index=stage, type="objective" }
+		end
+	end
+	local soundfile = soundfiles[settings:get("soundfileupdate")]
+	if soundfile == "custom" then soundfile = settings:get("soundcustomupdate")	end
 	if soundfile == nil then return end
 	if element == nil and not core.isWorldPaused() then
 		element = 1
@@ -350,10 +454,19 @@ return {
 		onQuestUpdate = onQuestUpdate,
 		onInit = initQuestlist,
 		onLoad = function(e)
-			if e and e.journal then playerJournal = e.journal		end
+			if e and e.journal then
+				questLog = e.journal
+				for k, v in pairs(questLog) do
+					local q = {}
+					for k, v in pairs(v) do
+						q[k] = util.makeReadOnly(v)
+					end
+					proxy[k] = util.makeReadOnly(q)
+				end
+			end
 			initQuestlist()
 		end,
-		onSave = function() return{ version=130, journal = playerJournal }		end
+		onSave = function() return{ version=130, journal = questLog }		end
 	},
 
 	eventHandlers = {
@@ -382,21 +495,12 @@ return {
 		end,
 		getQIcon = function(id) return iconpicker(id)				end,
 		blockQBanner = function(id) ignorelist[id:lower()] = true		end,
+		isQBannerBlocked = function(id) return ignorelist[id] == true		end,
 		addQComment = function(id, index, text)
 			id = id:lower()		local q = comments[id]
 			if not q then q = {}	comments[id] = q		end
 			q[index] = text
 		end,
-		getJournal = function()
-			local proxy = {}
-			for k, v in pairs(playerJournal) do
-				local q = {}
-				for k, v in pairs(v) do
-					q[k] = util.makeReadOnly(v)
-				end
-				proxy[k] = util.makeReadOnly(q)
-			end
-			return util.makeReadOnly(proxy)
-		end
+		getJournal = function()		return util.makeReadOnly(proxy)		end
 	}
 }

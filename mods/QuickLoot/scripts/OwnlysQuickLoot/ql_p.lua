@@ -125,7 +125,13 @@ end))
 
 input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer then
-		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer})
+		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed()})
+	end
+end))
+
+input.registerTriggerHandler("Jump", async:callback(function(dt, use, sneak, run)
+	if inspectedContainer and playerSection:get("DISPOSE_CORPSE") == "Jump" and types.Actor.objectIsInstance(inspectedContainer) then
+		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, true})
 	end
 end)) 
 
@@ -134,6 +140,7 @@ end))
 
 
 function drawUI()
+	local transparency = playerSection:get("TRANSPARENCY")
 	local hudLayerSize = ui.layers[ui.layers.indexOf("HUD")].size
 	local rootWidth = hudLayerSize.x * uiSize.x
 	local rootHeight = hudLayerSize.y * uiSize.y
@@ -260,7 +267,7 @@ function drawUI()
 			tileV = false,
 			relativeSize  = v2(1,1),
 			relativePosition = v2(0,0),
-			alpha = 0.4,
+			alpha = transparency,
 		}
 	})
 	--box BORDER
@@ -326,7 +333,7 @@ function drawUI()
 				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
 				position = v2(0,0),
 				relativePosition = v2(0, 0),
-				alpha = 0.3,
+				alpha = transparency*0.75,
 			}
 		})
 		--list HEADER Line
@@ -544,7 +551,7 @@ function drawUI()
 				anchor=v2(1,0),
 				relativePosition = v2(1,0),
 				relativeSize = v2(0.04,1),
-				alpha = 0.5,
+				alpha = math.min(1,transparency*1.25),
 				color = playerSection:get("FONT_TINT"),
 			}
 		})
@@ -936,6 +943,7 @@ function closeHud()
 		Controls.overrideCombatControls(false)
 		types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Magic, true) 
 		types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Fighting, true)
+		types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Jumping, true)
 		Camera.enableZoom("quickloot")
 		containerHash = 99999999
 		if root then 
@@ -1030,6 +1038,9 @@ function onFrame(dt)
 			Controls.overrideCombatControls(true)
 			types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Magic, false) 
 			types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Fighting, false)
+			if playerSection:get("DISPOSE_CORPSE") == "Jump" and types.Actor.objectIsInstance(inspectedContainer) then
+				types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Jumping, false)
+			end
 			Camera.disableZoom("quickloot")
 			if playerSection:get("CONTAINER_ANIMATION") == "immediately" or playerSection:get("CONTAINER_ANIMATION") == "disabled by shift" and not input.isShiftPressed() then
 				inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)

@@ -1,17 +1,37 @@
 text_queststart: "任务开始："
 text_questfin: "任务完成："
 
+snd_sky_quest: "天际任务"
+snd_sixth: "第六家族钟声"
+snd_levelup: "技能提升"
+snd_mystic: "魔法效果"
+snd_ob_quest: "湮灭任务"
+snd_racer: "峭壁迅鸟"
+snd_journal: "日志"
+snd_book1: "书籍翻页1"
+snd_book2: "书籍翻页2"
+
+snd_ui_quest_new: "SkyUI新任务"
+snd_ui_obj_new_01: "SkyUI目标1"
+snd_ui_skill_inc: "SkyUI技能提升"
+snd_none: "无"
+snd_custom: "自定义"
+snd_same: "同任务开始"
+
+
 settings_modName: "天际风格任务通知"
 
-settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.30
+settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.32
 \n原版MWSE模组制作者：Nazz。\n\n这个模组在你开始和完成任务时会通知你。
  这个想法是模仿天际的任务通知，因此取了这个名字。"
 
 settings_modCategory1_name: "偏好"
 settings_modCategory1_setting01_name: "开始/完成任务时开启通知"
 settings_modCategory1_setting01a_name: "显示任务通知图标"
-settings_modCategory1_setting02_name: "透明的通知栏"
+settings_modCategory1_setting01d_name: "通知栏主要文字字体大小"
+settings_modCategory1_setting01e_name: "通知栏次要文字字体大小"
 
+settings_modCategory1_setting02_name: "透明的通知栏"
 settings_modCategory1_setting03_name: "通知栏在屏幕的位置"
 settings_modCategory1_setting03_desc: "水平位置 0.0 = 左边缘, 1.0 = 右边缘"
 
@@ -39,18 +59,4 @@ settings_modCategory1_setting10_desc: "选择出现任务进度推进时播放�
 settings_modCategory1_setting11_name: "自定义音效文件"
 settings_modCategory1_setting12_name: "运行通知栏测试模式"
 
-"6th House Chime": "第六家族钟声"
-"Book Page 1": "书籍翻页1"
-"Book Page 2": "书籍翻页2"
-"Cliff Racer": "峭壁迅鸟"
-"Custom": "自定义"
-"Journal Update": "日志更新"
-"Magic Effect": "魔法效果"
-"None": "无"
-"Oblivion Quest": "湮灭任务"
-"Same as Start": "同任务开始"
-"Skill Raise": "技能提升"
-"Skyrim Quest": "天际任务"
-"SkyUI New Quest": "SkyUI新任务"
-"SkyUI Objective 1": "SkyUI目标1"
-"SkyUI Skill Increase": "SkyUI技能提升"
+

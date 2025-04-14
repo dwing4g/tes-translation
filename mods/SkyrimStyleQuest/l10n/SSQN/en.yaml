@@ -1,17 +1,37 @@
 text_queststart: "Quest Started:"
 text_questfin: "Quest Finished:"
 
+snd_sky_quest: "Skyrim Quest"
+snd_sixth: "6th House Chime"
+snd_levelup: "Skill Raise"
+snd_mystic: "Magic Effect"
+snd_ob_quest: "Oblivion Quest"
+snd_racer: "Cliff Racer"
+snd_journal: "Journal"
+snd_book1: "Book Page 1"
+snd_book2: "Book Page 2"
+
+snd_ui_quest_new: "SkyUI New Quest"
+snd_ui_obj_new_01: "SkyUI Objective 1"
+snd_ui_skill_inc: "SkyUI Skill Increase"
+snd_none: "None"
+snd_custom: "Custom"
+snd_same: "Same as Start"
+
+
 settings_modName: "Skyrim Style Quest Notifications"
 
-settings_modDesc: "OpenMW version by Taitechnic\t\tv1.30
+settings_modDesc: "OpenMW version by Taitechnic\t\tv1.32
 \noriginal MWSE mod by Nazz.\n\nThis mod notifies you when you start or finish a quest.
  The idea is to mimic the quest notifications from Skyrim, hence the name."
 
 settings_modCategory1_name: "Preferences"
 settings_modCategory1_setting01_name: "Enable Start/Finish Quest Notifications"
 settings_modCategory1_setting01a_name: "Show Quest Notification Icon"
-settings_modCategory1_setting02_name: "Transparent Notification Banner"
+settings_modCategory1_setting01d_name: "Notification Banner main text font size"
+settings_modCategory1_setting01e_name: "Notification Banner minor text font size"
 
+settings_modCategory1_setting02_name: "Transparent Notification Banner"
 settings_modCategory1_setting03_name: "Position of Notification Banner on screen"
 settings_modCategory1_setting03_desc: "Horizontal position 0.0 = left edge, 1.0 = right edge"
 
