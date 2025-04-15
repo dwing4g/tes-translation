@@ -31082,7 +31082,7 @@ C. 马基乌斯<BR>"
 -WEAP
  WEAP.NAME "bm reaver battle axe$00"
  WEAP.MODL "w\W_Nordic_BattleAxe.nif$00"
- WEAP.FNAM "嗜血战斧$00"
+ WEAP.FNAM "嗜血斧$00"
  WEAP.WPDT [00 00 F0 41 3C 00 00 00 08 00 B0 04 00 00 80 3F 00 00 80 3F F4 01 01 1E 01 1E 01 04 00 00 00 00]
  WEAP.ITEX "w\Tx_WarAxe_Nordic.tga$00"
  WEAP.ENAM "bm bloodaxe$00"
@@ -35600,7 +35600,7 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "7515702985821156$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "哈拉鲁家族：沉船“前奏曲”"
+ INFO.NAME "哈拉鲁家族：沉船“前奏曲号”"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "7515702985821156$00"
@@ -40712,7 +40712,7 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "一个叫恩布乔夫的诺德人给了我一把钥匙并告诉了我一个关于“不法之徒”奥姆格德的船葬的故事，他是第一纪元的天际国王哈拉尔德·逸手的儿子。恩布乔夫认为一把名为风暴之吻的附魔战斧与奥姆格德一同被埋葬了。恩布乔夫认为墓葬在扎伊蒂拉里斯的迪德拉遗址和泰尔-布勒诺拉之间的某处，在半岛的西侧。 {迪德拉式}"
+ INFO.NAME "一个叫恩布乔夫的诺德人给了我一把钥匙并告诉了我一个关于“不法之徒”奥姆格德的船葬的故事，他是第一纪元的天际国王哈拉尔德·逸手的儿子。恩布乔夫认为一把名为风暴之吻的附魔巨斧与奥姆格德一同被埋葬了。恩布乔夫认为墓葬在扎伊蒂拉里斯的迪德拉遗址和泰尔-布勒诺拉之间的某处，在半岛的西侧。 {迪德拉式}"
 -DIAL
  DIAL.NAME "MS_FargothRing$00"
  DIAL.DATA [04]
