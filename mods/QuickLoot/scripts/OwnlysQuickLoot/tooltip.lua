@@ -1,5 +1,5 @@
 -- local helpers = require("scripts.OwnlysQuickLoot.ql_helpers")
--- readFont, texText, rgbToHsv, hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber = unpack(helpers) -- (uses formatNumber)
+-- readFont, texText, rgbToHsv, hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber,tableContains = unpack(helpers) -- (uses formatNumber)
 -- MODNAME = "OwnlysQuickLoot"
 -- playerSection = storage.playerSection('SettingsPlayer'..MODNAME)
 -- background = ui.texture { path = 'black' }
@@ -10,6 +10,7 @@
 -- core = require('openmw.core')
 -- types = require('openmw.types')
 -- makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
+-- borderOffset = playerSection:get("BORDER_STYLE") == "verythick" and 4 or playerSection:get("BORDER_STYLE") == "thick" and 3 or playerSection:get("BORDER_STYLE") == "normal" and 2 or (playerSection:get("BORDER_STYLE") == "thin" or playerSection:get("BORDER_STYLE") == "max performance") and 1 or 0
 -- uiLoc = v2(playerSection:get("X")/100,playerSection:get("Y")/100)
 -- uiSize = v2(playerSection:get("WIDTH")/100,playerSection:get("HEIGHT")/100)
 -- itemFontSize = 20
@@ -23,6 +24,9 @@
 -- 			--textAlignH = ui.ALIGNMENT.Center,
 -- 	}
 -- }
+-- inspectedContainer
+local pickPocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+
 
 tooltipText = {
 	props = {
@@ -352,11 +356,11 @@ local function getEffects(eff, type)
 	
 	for i, effect in ipairs(eff) do
 		local text = getMagicEffectName(effect.id)
-		for a,b in pairs(core.magic.EFFECT_TYPE) do
-			if b == effect.id then
-				print(a)
-			end
-		end
+		--for a,b in pairs(core.magic.EFFECT_TYPE) do
+		--	if b == effect.id then
+		--		print(a)
+		--	end
+		--end
 		if effect.affectedSkill then
 			text = text.." "..(core.getGMST("sSkill"..effect.affectedSkill) or "??")
 			if shortTexts then
@@ -585,13 +589,17 @@ end
 
 
 
+
+
+
+
 -- MAIN FUNCTION
-return function (item,highlightPosition) --makeTooltip
+return function (item,highlightPosition, isPickpocketing) --makeTooltip
 	local transparency = playerSection:get("TRANSPARENCY")
 	if playerSection:get("TOOLTIP_MODE") == "off" then
 		return
 	end
-	
+
 	local itemRecord = item.type.records[item.recordId]
 	local info = getItemInfo(item)
 	if not info then return end
@@ -736,7 +744,10 @@ return function (item,highlightPosition) --makeTooltip
 	if item.count and item.count > 1 then
 		name = name.." ("..item.count..")"
 	end
-	textElement(name, playerSection:get("ICON_TINT"))
+	if isPickpocketing then
+		name = name.." ("..pickPocket(item, self, inspectedContainer).."%)"
+	end
+	textElement(fromutf8(name), playerSection:get("ICON_TINT"))
 
 	flex.content:add{ props = { size = v2(1, 1) * 1 } }
 	
@@ -981,6 +992,6 @@ return function (item,highlightPosition) --makeTooltip
 		
 	end
 	
-	flex.content:add{ props = { size = v2(1, 1) * 2 } }
+	flex.content:add{ props = { size = v2(1+borderOffset, 1+borderOffset) * 2 } }
 	return root
 end

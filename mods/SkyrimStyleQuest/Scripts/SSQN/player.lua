@@ -14,7 +14,7 @@ local l10n = core.l10n("SSQN")
 
 local soundfiles = require("scripts.SSQN.configSound")
 local comments = require("scripts.SSQN.comments")
-comments.enabled = false
+comments.enabled = true
 
 local settings = storage.playerSection("Settings_openmw_SSQN")
 
@@ -170,7 +170,7 @@ local function getQuestName(i)
 end
 
 
-local fader = {}
+local animate = {}
 
 local function displayPopup(questId, index)
 	local e = {
@@ -216,7 +216,15 @@ local function displayPopup(questId, index)
 --	print(bodySize)
 
 
-local minHeight = { type = ui.TYPE.Image,
+	local endCap = { type = ui.TYPE.Image,
+		props = {
+			size = util.vector2(1100, 1),
+			resource = ui.texture { path = "white" },
+			color = util.color.hex("ff0000"), alpha = 0,
+		}
+	}
+
+	local minHeight = { type = ui.TYPE.Image,
 		props = {
 			size = util.vector2(8, e.height - 2),
 			resource = ui.texture { path = "white" },
@@ -224,7 +232,7 @@ local minHeight = { type = ui.TYPE.Image,
 		}
 	}
 
-local minWidth = { type = ui.TYPE.Image,
+	local minWidth = { type = ui.TYPE.Image,
 		props = {
 			size = util.vector2(e.width - 16, 1),
 			resource = ui.texture { path = "white" },
@@ -232,7 +240,7 @@ local minWidth = { type = ui.TYPE.Image,
 		}
 	}
 
-local spacer = { type = ui.TYPE.Image,
+	local spacer = { type = ui.TYPE.Image,
 		props = {
 			visible = e.showTitle,
 			size = util.vector2(20, 8),
@@ -241,111 +249,134 @@ local spacer = { type = ui.TYPE.Image,
 		}
 	}
 
-local contentIcon = {
-	type = ui.TYPE.Image,
-	props = {
-			--** Size of Icon 48 x 48. Change values in line below.
-                size = util.vector2(48, 48),
-		resource = ui.texture { path = notificationImage },
-	},
-}
+	local contentIcon = {
+		type = ui.TYPE.Image,
+		props = {
+				--** Size of Icon 48 x 48. Change values in line below.
+        	        size = util.vector2(48, 48),
+			resource = ui.texture { path = notificationImage },
+		},
+	}
 
-local contentLabel = {
-	template = I.MWUI.templates.textNormal,
-	type = ui.TYPE.Text,
-	props = {
-	    text = l10n(notificationText),
-	    textSize =  uiTheme.baseSize, textColor = uiTheme.normal,
-	},
-}
+	local contentLabel = {
+		template = I.MWUI.templates.textNormal,
+		type = ui.TYPE.Text,
+		props = {
+		    text = l10n(notificationText),
+		    textSize =  uiTheme.baseSize, textColor = uiTheme.normal,
+		},
+	}
 
 
-local contentText = {}
-table.insert(contentText, minWidth)
-if e.showTitle then
-	table.insert(contentText, spacer)
-	table.insert(contentText, contentLabel)
-	if bodySize == 16 then
+	local contentText = {}
+	table.insert(contentText, minWidth)
+	if e.showTitle then
 		table.insert(contentText, spacer)
+		table.insert(contentText, contentLabel)
+		if bodySize == 16 then
+			table.insert(contentText, spacer)
+		end
 	end
-end
-table.insert(contentText, spacer)
-table.insert(contentText,
-	{ template = I.MWUI.templates.textHeader,
-	type = ui.TYPE.Text,
-	props = {
-		text = qname,
-		textSize = bodySize, textColor = uiTheme.header,
-		},
-	})
+	table.insert(contentText, spacer)
+	table.insert(contentText,
+		{ template = I.MWUI.templates.textHeader,
+		type = ui.TYPE.Text,
+		props = {
+			text = qname,
+			textSize = bodySize, textColor = uiTheme.header,
+			},
+		})
 
-table.insert(contentText, spacer)
-table.insert(contentText, minWidth)
+	table.insert(contentText, spacer)
+	table.insert(contentText, minWidth)
 
 
-local contentBanner = {}
-if e.showIcon then
+	local contentBanner = {}
+	if e.showIcon then
 	table.insert(contentBanner, minHeight)
-	table.insert(contentBanner, contentIcon)
-end
-table.insert(contentBanner, minHeight)
-table.insert(contentBanner,
-        { template = I.MWUI.templates.padding, alignment = ui.ALIGNMENT.Center, content = ui.content {
-		{ type = ui.TYPE.Flex,
-			props = { horizontal = false,
-                	   align = ui.ALIGNMENT.Center,
-                	    arrange = ui.ALIGNMENT.Center,
+			table.insert(contentBanner, contentIcon)
+	end
+	table.insert(contentBanner, minHeight)
+	table.insert(contentBanner,
+        	{ template = I.MWUI.templates.padding, alignment = ui.ALIGNMENT.Center, content = ui.content {
+			{ type = ui.TYPE.Flex,
+				props = { horizontal = false,
+        	        	   align = ui.ALIGNMENT.Center,
+	                	    arrange = ui.ALIGNMENT.Center,
+				},
+				content = ui.content(contentText)
 			},
-			content = ui.content(contentText)
+		}, })
+
+	table.insert(contentBanner, minHeight)
+
+	local onlyFade = settings:get("anim_style") ~= "opt_anim_scroll"
+	local duration = settings:get("bannertime") + 1
+	animate = { time = 0, length = duration, alpha = 0,
+		width = onlyFade and 1100 or 60, fadeTime = onlyFade and 1.5 or 1,
+		fadeStart = duration + (onlyFade and 0 or 0.5)
+	}
+
+--[[
+	animate.time = 0		animate.length = settings:get("bannertime") + 1
+	animate.width = fadeOut and 1100 or 60
+	animate.alpha = 0
+	animate.fadeTime = animate.style == 2 and 1.5 or 1
+	animate.fadeStart = animate.length + (animate.style == 2 and 0 or 0.5)
+--]]
+
+	element = ui.create {
+		layer = 'Notification',
+		type = ui.TYPE.Widget,
+		props = {
+		visible = true,
+		relativePosition = util.vector2(e.x, e.y),
+		anchor = util.vector2(0.5, 0.5),
+		size = util.vector2(animate.width, 120),
+		alpha = animate.alpha,
 		},
-	}, })
 
-table.insert(contentBanner, minHeight)
+		content = ui.content {
+			{
+				type = ui.TYPE.Container,
+				props = {
+					relativePosition = util.vector2(0.5, 0.5),
+					anchor = util.vector2(0.5, 0.5),
+				},
 
+				content = ui.content {
+					{ type = ui.TYPE.Flex, props = { horizontal = false,
+			         	          align = ui.ALIGNMENT.Center,
+		        		            arrange = ui.ALIGNMENT.Center,
+					},
 
-element = ui.create {
-	layer = 'Notification',
-	template = template,
-	type = ui.TYPE.Container,
-	props = {
-	visible = true,
-	relativePosition = util.vector2(e.x, e.y),
-	anchor = util.vector2(0.5, 0.5),
-	alpha = 0,
-	},
-	content = ui.content {
+						content = ui.content {
+							endCap,
+							{
+								template = template,
+								type = ui.TYPE.Container,
+								props = {
+									relativePosition = util.vector2(0.5, 0.5),
+									anchor = util.vector2(0.5, 0.5),
+								},
+								content = ui.content {
+									{ type = ui.TYPE.Flex,
+										props = { horizontal = true,
+								                  align = ui.ALIGNMENT.Center,
+								       	            arrange = ui.ALIGNMENT.Center,
+										},
+										content = ui.content(contentBanner),
+									},
+								},
+							},
+						},
 
-	{ type = ui.TYPE.Flex, props = { horizontal = true,
-                   align = ui.ALIGNMENT.Center,
-                    arrange = ui.ALIGNMENT.Center,
+					},
+				},
 			},
-	content = ui.content(contentBanner)
-	},
+		},
+	}
 
-	},
-
-}
-
---	async:newUnsavableSimulationTimer(settings:get("bannertime") - 1, function() removePopup() end)
-
-	fader.count = 0		fader.time = settings:get("bannertime")
-	fader.stop = time.runRepeatedly(function()
-		local m = fader
-		m.count = m.count + 0.04
-		if m.count > m.time + 1 then
-			m.stop()
-			removePopup()
-			return
-		end
-		if not element then		return		end
-		if m.count < 0.6 then
-			element.layout.props.alpha = util.clamp(m.count / 0.5, 0, 1)
-			element:update()			
-		elseif m.count > m.time - 1.5 and m.count < m.time + 0.2 then
-			element.layout.props.alpha = util.clamp(1 - (m.count + 1.5 - m.time) / 1.5, 0, 1)
-			element:update()
-		end
-	end, 0.04 * time.second)
 
 	local soundfile
 	if index then
@@ -363,6 +394,41 @@ element = ui.create {
 	end
 
 	if soundfile ~= nil then ambient.playSoundFile("Sound\\"..soundfile)		end
+end
+
+local function onUpdate(dt)
+	if not element then 		return		end
+	if type(element) == "number" then 		return		end
+	local m = animate
+	m.time = m.time + dt
+	if m.time > m.length + 0.2 then
+		removePopup()
+		return
+	end
+	local width, alpha
+	if m.width == 60 then
+		if m.time < 1.5 then
+			width = 60 + 2000 * m.time
+		elseif m.time > m.length - 1 and m.time < m.length + 0.2 then
+			width = 60 + 1000 * (m.length - m.time)
+		end
+		if width and width < 1100 then
+			width = math.floor(width / 2) * 2
+			element.layout.props.size = util.vector2(width, 120)
+		else
+			width = nil
+		end
+	end
+		if m.time < 0.6 then
+			alpha = math.min(m.time / 0.5, 1)
+		elseif m.time > m.fadeStart - m.fadeTime and m.time < m.length + 0.2 then
+			alpha = math.max(1 - (m.time + m.fadeTime - m.fadeStart) / m.fadeTime, 0)
+		end
+		if alpha then
+			element.layout.props.alpha = alpha
+		end
+--	end
+	if alpha or width then element:update()			end
 end
 
 local function getQuestchange(quests)
@@ -451,6 +517,7 @@ end
 
 return {
 	engineHandlers = {
+		onUpdate = onUpdate,
 		onQuestUpdate = onQuestUpdate,
 		onInit = initQuestlist,
 		onLoad = function(e)
@@ -501,6 +568,6 @@ return {
 			if not q then q = {}	comments[id] = q		end
 			q[index] = text
 		end,
-		getJournal = function()		return util.makeReadOnly(proxy)		end
+		getJournal = function()		return util.makeReadOnly(proxy)		end,
 	}
 }

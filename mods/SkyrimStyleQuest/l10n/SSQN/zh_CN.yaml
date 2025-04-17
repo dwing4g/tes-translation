@@ -18,6 +18,9 @@ snd_none: "无"
 snd_custom: "自定义"
 snd_same: "同任务开始"
 
+opt_anim_scroll: "滚动并淡出"
+opt_fadeout: "仅淡出"
+opt_none: "无"
 
 settings_modName: "天际风格任务通知"
 
@@ -37,6 +40,8 @@ settings_modCategory1_setting03_desc: "水平位置 0.0 = 左边缘, 1.0 = 右�
 
 settings_modCategory1_setting04_name: ""
 settings_modCategory1_setting04_desc: "垂直位置 0.0 = 上边缘, 1.0 = 下边缘"
+
+settings_modCategory1_setting04a_name: "通知栏动画风格"
 
 settings_modCategory1_setting05_name: "显示通知时长(秒)"
 

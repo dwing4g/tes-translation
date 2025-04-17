@@ -33539,7 +33539,7 @@ Yeah, that's what Dovor said.  I mean, that's what I want.  I think you can find
 
 > INFO.NAME contract 3236219618301486775
 Our contract is for 30 days, starting %contractCalvusMonth / %contractCalvusDay. You have %Contract_Calvus_Days_Left days left in the contract.
-我们的合同是30天的，从%contractCalvusMonth / %contractCalvusDay开始。你的合同还剩%Contract_Calvus_Days_Left天。
+我们的合同是30天的，从%contractCalvusMonth/%contractCalvusDay开始。你的合同还剩%Contract_Calvus_Days_Left天。
 
 > INFO.NAME contract 1679429346157719330
 I have no current contract.

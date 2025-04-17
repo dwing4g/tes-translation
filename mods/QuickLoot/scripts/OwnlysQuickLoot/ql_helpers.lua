@@ -487,4 +487,14 @@ local function formatNumber(num, mode)
 	end
 	return ""..text
 end
-return {readFont,texText,rgbToHsv,hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber}
+
+local function tableContains(t,entry)
+	for a,b in pairs(t) do
+		if b == entry then
+			return entry
+		end
+	end
+	return false
+end
+
+return {readFont,texText,rgbToHsv,hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber,tableContains}

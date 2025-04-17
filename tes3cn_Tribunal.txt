@@ -84238,7 +84238,7 @@ Journal MS_Warlords 70"
  INFO.NNAM "1679429346157719330$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Calvus Horatius$00"
- INFO.NAME "我们的合同是30天的，从%contractCalvusMonth / %contractCalvusDay开始。你的合同还剩%Contract_Calvus_Days_Left天。"
+ INFO.NAME "我们的合同是30天的，从%contractCalvusMonth/%contractCalvusDay开始。你的合同还剩%Contract_Calvus_Days_Left天。"
  INFO.SCVR "03sX2contract_Calvus"
  INFO.INTV [00 00 00 00]
 -INFO

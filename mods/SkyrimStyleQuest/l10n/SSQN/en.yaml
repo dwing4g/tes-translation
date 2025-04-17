@@ -18,6 +18,9 @@ snd_none: "None"
 snd_custom: "Custom"
 snd_same: "Same as Start"
 
+opt_anim_scroll: "Scroll and fadeout"
+opt_fadeout: "Fadeout only"
+opt_none: "None"
 
 settings_modName: "Skyrim Style Quest Notifications"
 
@@ -37,6 +40,8 @@ settings_modCategory1_setting03_desc: "Horizontal position 0.0 = left edge, 1.0 
 
 settings_modCategory1_setting04_name: ""
 settings_modCategory1_setting04_desc: "Vertical position 0.0 = top edge, 1.0 = bottom edge"
+
+settings_modCategory1_setting04a_name: "Notification banner animation style"
 
 settings_modCategory1_setting05_name: "How long to display notification (seconds)"
 

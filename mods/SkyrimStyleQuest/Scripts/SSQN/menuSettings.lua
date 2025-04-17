@@ -108,6 +108,17 @@ I.Settings.registerGroup({
             min = 0.0, max = 1.0,
          },
 	},
+        {
+            key = "anim_style",
+            name = "settings_modCategory1_setting04a_name",
+            default = "opt_anim_scroll", 
+            renderer = "select",
+            argument = {
+                disabled = false,
+                l10n = "SSQN", 
+                items = { "opt_anim_scroll", "opt_fadeout" },
+            },
+	},
 	{
          key = "bannertime",
          default = 5,

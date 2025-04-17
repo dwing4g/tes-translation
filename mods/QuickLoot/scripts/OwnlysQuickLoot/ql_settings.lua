@@ -322,6 +322,22 @@ settings = {
 				max = 1,
 			},
 		},
+		{
+			key = "PICKPOCKETING",
+			name = "Enable Pickpocketing",
+			description = "",
+			renderer = "checkbox",
+			default = true
+			
+		},
+		{
+			key = "EXPERIMENTAL_LOOTING",
+			name = "Experimental looting workaround",
+			description = "If you have some ammo mod that keeps deleting your ammo for some reason",
+			renderer = "checkbox",
+			default = false
+			
+		},
 		
 	}
 }
