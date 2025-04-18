@@ -406,6 +406,8 @@ for code1252, code in pairs(map_1252_to_unicode) do
 end
 
 local function fromutf8(utf8str)
+   return utf8str
+--[[
    local pos, result_1252 = 1, {}
    while pos <= #utf8str do
       local code, size = utf8_to_unicode(utf8str, pos)
@@ -414,15 +416,19 @@ local function fromutf8(utf8str)
       table_insert(result_1252, char(code))
    end
    return table_concat(result_1252)
+--]]
 end
 
 local function toutf8(str1252)
+   return str1252
+--[[
    local result_utf8 = {}
    for pos = 1, #str1252 do
       local code = str1252:byte(pos)
       table_insert(result_utf8, unicode_to_utf8(map_1252_to_unicode[code] or code))
    end
    return table_concat(result_utf8)
+--]]
 end
 
 local bytemarkers = { {0x7FF,192}, {0xFFFF,224}, {0x1FFFFF,240} }
