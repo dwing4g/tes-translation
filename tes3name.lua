@@ -59,7 +59,7 @@ local fixed = {
 	["Fallaise of Glenmoril Wyrd"] = "格伦莫莉女巫团的法莱兹",
 	["Ghost of Ulfgar the Unending"] = "无尽者乌夫加尔的鬼魂",
 	["Goris the Maggot King"] = "蝇蛆之王格里斯",
-	["Hides His Eyes"] = "隐其目",
+	["Hides His Eyes"] = "隐-其-目",
 	["Isobel of Glenmoril Wyrd"] = "格伦莫莉女巫团的伊索贝尔",
 	["Miner Arobar"] = "迈纳·阿罗巴",
 	["Nalcarya of White Haven"] = "白港的娜尔卡娅",
@@ -87,7 +87,7 @@ local fixed = {
 	["King"] = "国王",
 	["Mistress"] = "夫人",
 	["of Cloudrest"] = "云息城的",
-	["of Hircine"] = "海尔辛的",
+	["of Hircine"] = "希尔辛的",
 	["of Shimmerene"] = "微光城的",
 	["Serjo"] = "Serjo（大人）",
 	["Test guy"] = "测试人",
@@ -180,19 +180,19 @@ for e, c in s:gmatch "> NPC_%.FNAM %C+%c+(%C+)%c+(%C+)%c+" do
 				if fixed[e1] then
 					c2 = c:gsub(fixed[e1], "")
 					if c2 == c then
-						print("WARN: unmatched name pair: " .. e .. ": " .. c)
+						print("WARN: unmatched name pair1: " .. e .. ": " .. c)
 					else
 						addDict(e2, c2)
 					end
 				elseif fixed[e2] then
 					c1 = c:gsub(fixed[e2], "")
 					if c1 == c then
-						print("WARN: unmatched name pair: " .. e .. ": " .. c)
+						print("WARN: unmatched name pair2: " .. e .. ": " .. c)
 					else
 						addDict(e1, c1)
 					end
 				else
-					print("WARN: unmatched name pair: " .. e .. ": " .. c)
+					print("WARN: unmatched name pair3: " .. e .. ": " .. c)
 				end
 			end
 		else
@@ -203,21 +203,21 @@ for e, c in s:gmatch "> NPC_%.FNAM %C+%c+(%C+)%c+(%C+)%c+" do
 				if fixed[e12] then
 					local c2 = c:gsub(fixed[e12], "")
 					if c2 == c then
-						print("WARN: unmatched name pair: " .. e .. ": " .. c)
+						print("WARN: unmatched name pair4: " .. e .. ": " .. c)
 					else
 						addDict(e3, c2)
 					end
 				elseif fixed[e23] then
 					local c1 = c:gsub(fixed[e23], "")
 					if c1 == c then
-						print("WARN: unmatched name pair: " .. e .. ": " .. c)
+						print("WARN: unmatched name pair5: " .. e .. ": " .. c)
 					else
 						addDict(e1, c1)
 					end
 				elseif fixed[e1] then
 					local c2 = c:gsub(fixed[e1], "")
 					if c2 == c then
-						print("WARN: unmatched name pair: " .. e .. ": " .. c)
+						print("WARN: unmatched name pair6: " .. e .. ": " .. c)
 					else
 						addDict(e23, c2)
 						local c1, c2 = c2:match "^(.-)·(.-)$"
@@ -229,7 +229,7 @@ for e, c in s:gmatch "> NPC_%.FNAM %C+%c+(%C+)%c+(%C+)%c+" do
 				elseif fixed[e3] then
 					local c1 = c:gsub(fixed[e3], "")
 					if c1 == c then
-						print("WARN: unmatched name pair: " .. e .. ": " .. c)
+						print("WARN: unmatched name pair7: " .. e .. ": " .. c)
 					else
 						addDict(e12, c1)
 						local c1, c2 = c1:match "^(.-)·(.-)$"
@@ -239,7 +239,7 @@ for e, c in s:gmatch "> NPC_%.FNAM %C+%c+(%C+)%c+(%C+)%c+" do
 						end
 					end
 				else
-					print("WARN: unmatched name pair: " .. e .. ": " .. c)
+					print("WARN: unmatched name pair8: " .. e .. ": " .. c)
 				end
 			elseif not e:find "^([%w%-'$]+)$" then
 				print("WARN: unknown name pattern: " .. e .. ": " .. c)
