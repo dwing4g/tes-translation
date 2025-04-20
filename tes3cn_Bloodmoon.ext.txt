@@ -15918,11 +15918,11 @@ East Empire Company: Missing Supply Ship
 
 > INFO.NAME co_3 96838665172581703
 Carnius was furious at the news that the ship had been lost, and that money would have to be spent to arrange for another ship.
-卡尼乌斯听到飞艇丢失的消息后非常生气，还说要花钱安排另一艘飞艇。
+卡尼乌斯听到船丢失的消息后非常生气，还说要花钱安排另一艘船。
 
 > INFO.NAME co_3 2280013401118558683
 I've reported the loss of the ship to Falco. He has asked me to deliver the news to Carnius.
-我已经向法尔科报告了飞艇丢失的消息。他让我把消息传给卡尼乌斯。
+我已经向法尔科报告了船丢失的消息。他让我把消息传给卡尼乌斯。
 
 > INFO.NAME co_3 10152191892908115482
 I have found the supply ship, wrecked on the coast.
@@ -16158,7 +16158,7 @@ Falco is glad the Nords are willing to work with us, and has instructed me to br
 
 > INFO.NAME co_8 147527183123964444
 Graring has agreed to construct weapons and armor out of the Stahlrim, if I bring him the raw materials. He's suggested that there is a finite amount of it on the island, so I should be careful of what I choose.
-加拉林同意用斯塔林制造武器和盔甲，只要我把原矿带给他。他说岛上的斯达林数量有限，所以我应该谨慎选择。 {原材料}
+加拉林同意用魔冰制造武器和盔甲，只要我把原矿带给他。他说岛上的斯达林数量有限，所以我应该谨慎选择。 {原材料}
 
 > INFO.NAME co_8 2162418811901430893
 I've chipped off a piece of the Stalhrim, and should take it to Graring.
@@ -20076,7 +20076,7 @@ Ever been to Brodir Grove? Those stones used to be men, before some nasty wizard
 
 > INFO.NAME latest rumors 1200030544311581056
 Heard the stories about a flying ship? They say it was headed north of here into a thick blizzard. Can't imagine it survived that storm.
-听说过飞艇的故事吗？据说那艘船是在一场暴风雪中，从这里向北飞去的，无法想象它能从暴风雪中幸存下来。
+听说过飞行船的故事吗？据说那艘船是在一场暴风雪中，从这里向北飞去的，无法想象它能从暴风雪中幸存下来。
 
 > INFO.NAME latest rumors 35278835236106445
 Locals say berserkers aren't normal, they've gone wild and roam among the animals on the island.
@@ -20376,7 +20376,7 @@ What? No, no sign of a ship. Sorry, %PCName.
 
 > INFO.NAME seen anything 174134213284521416
 What? No, I don't know anything about a ship.
-什么？不，我对飞艇一无所知。
+什么？不，我对船一无所知。
 
 > INFO.NAME seen anything 1329519111064318931
 It's a terrible shame. If only Carnius were willing to spend the money on making sure things run smoothly... instead we lose our shipment of pick axes, and only a single survivor is left after the wreck. Just horrible.
@@ -20392,7 +20392,7 @@ Wrecked? Are you sure? Well, then there's little more that can be done. A terrib
 
 > INFO.NAME seen anything 933230769143708160
 Any news about the ship, %PCName? I'm almost as anxious about the supplies as Carnius is.
-有飞艇的消息吗，%PCName？我和卡尼乌斯一样着急补给的事。
+有船的消息吗，%PCName？我和卡尼乌斯一样着急补给的事。
 
 > INFO.NAME seen anything 232905376573327171
 A light northwest of here? Well, I guess that could be it, though I can't imagine how they managed to miss the colony... can you go and take a look? We're not desperate for supplies, but they were supposed to deliver a shipment of picks that will make our work much easier.
@@ -26340,15 +26340,15 @@ I don't have any assignments for you right now, %PCName. I have other things to 
 
 > INFO.NAME assignment 721218272082511072
 You've already told me about the ship. Just make sure the news gets to Carnius.
-你已经告诉我飞艇的事了。确保消息传到卡尼乌斯就行。
+你已经告诉我船的事了。确保消息传到卡尼乌斯就行。
 
 > INFO.NAME assignment 18822296696699033
 You've already told me about the ship. Just make sure the news gets to Carnius. But if you find any pick axes, let me know.
-你已经告诉我飞艇的事了。确保消息传到卡尼乌斯就行。但如果你找到任何鹤嘴锄，让我知道。 {斧,斧类}
+你已经告诉我船的事了。确保消息传到卡尼乌斯就行。但如果你找到任何鹤嘴锄，让我知道。 {斧,斧类}
 
 > INFO.NAME assignment 11855320641241323548
 Have you seen anything? Can you tell me any more about the ship?
-你看到了什么吗？你能告诉我更多关于飞艇的事吗？
+你看到了什么吗？你能告诉我更多关于船的事吗？
 
 > INFO.NAME assignment 30456112253149418612
 Have you asked the men if they've seen anything? I never see more than what's going on right here at the site, and I rarely have time to look.
@@ -29712,7 +29712,7 @@ Decisions are good. But good decisions are better.
 
 > INFO.NAME hello 23389175832240019174
 Too bad about the ship. Not your fault, though.
-飞艇的事太糟糕了，不过不是你的错。
+船的事太糟糕了，不过不是你的错。
 
 > INFO.NAME hello 3253914610130331280
 Hroldar is gone, but we have other problems.

@@ -50706,14 +50706,14 @@ C<BR>"
  INFO.PNAM "8302265732158031513$00"
  INFO.NNAM "2280013401118558683$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "卡尼乌斯听到飞艇丢失的消息后非常生气，还说要花钱安排另一艘飞艇。"
+ INFO.NAME "卡尼乌斯听到船丢失的消息后非常生气，还说要花钱安排另一艘船。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2280013401118558683$00"
  INFO.PNAM "96838665172581703$00"
  INFO.NNAM "10152191892908115482$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "我已经向法尔科报告了飞艇丢失的消息。他让我把消息传给卡尼乌斯。"
+ INFO.NAME "我已经向法尔科报告了船丢失的消息。他让我把消息传给卡尼乌斯。"
 -INFO
  INFO.INAM "10152191892908115482$00"
  INFO.PNAM "2280013401118558683$00"
@@ -51102,7 +51102,7 @@ C<BR>"
  INFO.PNAM "3004013543270618279$00"
  INFO.NNAM "2162418811901430893$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "加拉林同意用斯塔林制造武器和盔甲，只要我把原矿带给他。他说岛上的斯达林数量有限，所以我应该谨慎选择。 {原材料}"
+ INFO.NAME "加拉林同意用魔冰制造武器和盔甲，只要我把原矿带给他。他说岛上的斯达林数量有限，所以我应该谨慎选择。 {原材料}"
 -INFO
  INFO.INAM "2162418811901430893$00"
  INFO.PNAM "147527183123964444$00"
@@ -60990,7 +60990,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "35278835236106445$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "听说过飞艇的故事吗？据说那艘船是在一场暴风雪中，从这里向北飞去的，无法想象它能从暴风雪中幸存下来。"
+ INFO.NAME "听说过飞行船的故事吗？据说那艘船是在一场暴风雪中，从这里向北飞去的，无法想象它能从暴风雪中幸存下来。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
 -INFO
@@ -61648,7 +61648,7 @@ ModDisposition 10"
  INFO.NNAM "1329519111064318931$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gidar Verothan$00"
- INFO.NAME "什么？不，我对飞艇一无所知。"
+ INFO.NAME "什么？不，我对船一无所知。"
  INFO.SCVR "04JX3CO_3"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -61690,7 +61690,7 @@ ModDisposition 10"
  INFO.NNAM "232905376573327171$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "有飞艇的消息吗，%PCName？我和卡尼乌斯一样着急补给的事。"
+ INFO.NAME "有船的消息吗，%PCName？我和卡尼乌斯一样着急补给的事。"
  INFO.SCVR "04JX3CO_3"
  INFO.INTV [23 00 00 00]
 -INFO
@@ -77852,7 +77852,7 @@ Journal CO_5 210"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "你已经告诉我飞艇的事了。确保消息传到卡尼乌斯就行。"
+ INFO.NAME "你已经告诉我船的事了。确保消息传到卡尼乌斯就行。"
  INFO.SCVR "04JX0CO_3"
  INFO.INTV [3C 00 00 00]
  INFO.SCVR "13sX0picks"
@@ -77864,7 +77864,7 @@ Journal CO_5 210"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "你已经告诉我飞艇的事了。确保消息传到卡尼乌斯就行。但如果你找到任何鹤嘴锄，让我知道。 {斧,斧类}"
+ INFO.NAME "你已经告诉我船的事了。确保消息传到卡尼乌斯就行。但如果你找到任何鹤嘴锄，让我知道。 {斧,斧类}"
  INFO.SCVR "04JX0CO_3"
  INFO.INTV [3C 00 00 00]
  INFO.SCVR "13sX4picks"
@@ -77876,7 +77876,7 @@ Journal CO_5 210"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "你看到了什么吗？你能告诉我更多关于飞艇的事吗？"
+ INFO.NAME "你看到了什么吗？你能告诉我更多关于船的事吗？"
  INFO.SCVR "04JX3CO_3"
  INFO.INTV [28 00 00 00]
 -INFO
@@ -86576,7 +86576,7 @@ ModDisposition -10"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "East Empire Company$00"
  INFO.SNAM "Vo\i\m\bHlo_IM025.mp3$00"
- INFO.NAME "飞艇的事太糟糕了，不过不是你的错。"
+ INFO.NAME "船的事太糟糕了，不过不是你的错。"
  INFO.SCVR "04JX3CO_3"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";friendly"
