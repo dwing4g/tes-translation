@@ -25,7 +25,7 @@
 -- 	}
 -- }
 -- inspectedContainer
-local pickPocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
 
 
 tooltipText = {
@@ -744,8 +744,8 @@ return function (item,highlightPosition, isPickpocketing) --makeTooltip
 	if item.count and item.count > 1 then
 		name = name.." ("..item.count..")"
 	end
-	if isPickpocketing then
-		name = name.." ("..pickPocket(item, self, inspectedContainer).."%)"
+	if isPickpocketing and not playerSection:get("COLUMN_PICKPOCKET") then
+		name = name..pickpocket.getTooltipText1(self,inspectedContainer,item)
 	end
 	textElement(fromutf8(name), playerSection:get("ICON_TINT"))
 

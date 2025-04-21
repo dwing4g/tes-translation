@@ -187,8 +187,22 @@ settings = {
 		},
 		
 		{
+			key = "COLUMN_PICKPOCKET",
+			name = "Show Pickpocket Column",
+			description = "",
+			renderer = "checkbox",
+			default = true
+		},
+		{
 			key = "COLUMN_WEIGHT",
 			name = "Show Weight Column",
+			description = "",
+			renderer = "checkbox",
+			default = true
+		},
+		{
+			key = "COLUMN_WEIGHT_PICKPOCKETING",
+			name = "Show Weight Column When Pickpocketing",
 			description = "",
 			renderer = "checkbox",
 			default = true
@@ -201,11 +215,25 @@ settings = {
 			default = true
 		},
 		{
+			key = "COLUMN_VALUE_PICKPOCKETING",
+			name = "Show Value Column When Pickpocketing",
+			description = "",
+			renderer = "checkbox",
+			default = true
+		},
+		{
 			key = "COLUMN_WV",
 			name = "Show V/W Column",
 			description = "",
 			renderer = "checkbox",
 			default = true
+		},
+		{
+			key = "COLUMN_WV_PICKPOCKETING",
+			name = "Show V/W Column When Pickpocketing",
+			description = "",
+			renderer = "checkbox",
+			default = false
 		},
 		{
 			key = "BORDER_STYLE",
@@ -328,7 +356,6 @@ settings = {
 			description = "",
 			renderer = "checkbox",
 			default = true
-			
 		},
 		{
 			key = "EXPERIMENTAL_LOOTING",

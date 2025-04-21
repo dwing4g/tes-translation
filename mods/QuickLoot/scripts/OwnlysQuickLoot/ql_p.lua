@@ -30,6 +30,7 @@ valueTex = ui.texture { path = 'textures\\QuickLoot_coins.dds' }
 valueByWeightTex = ui.texture { path = 'textures\\QuickLoot_scale.dds' }
 backpackTex = ui.texture { path = 'textures\\QuickLoot_backpack.dds' }
 weightTex = ui.texture { path = 'textures\\QuickLoot_weight.dds' }
+pickpocketTex =   ui.texture { path = 'textures\\QuickLoot_pickpocket.dds' }
 fSymbolicTex =   ui.texture { path = 'textures\\QuickLoot_F_symbolic.dds' }
 rSymbolicTex =   ui.texture { path = 'textures\\QuickLoot_R_symbolic.dds' }
 fKeyTex =   ui.texture { path = 'textures\\QuickLoot_F.dds' }
@@ -66,8 +67,7 @@ local uiScale = screenres.x / uiWidth
 local makeTooltip = require("scripts.OwnlysQuickLoot.tooltip")
 local containerHash = 0
 local ambient = require('openmw.ambient')
-local pickpocketContents = nil
-local pickPocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
 
 
 function updateModEnabled()
@@ -129,7 +129,7 @@ input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sne
 end))
 
 input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sneak, run)
-	if inspectedContainer and types.Actor.isDead(inspectedContainer) then
+	if inspectedContainer and (not types.Actor.objectIsInstance(inspectedContainer) or types.Actor.isDead(inspectedContainer)) then
 		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed(), playerSection:get("EXPERIMENTAL_LOOTING")})
 	end
 end))
@@ -143,10 +143,10 @@ end))
 
 
 function drawUI()
-	local isPickpocketing = inspectedContainer.type == types.NPC and not types.Actor.isDead(inspectedContainer)
-	if isPickpocketing and not startedPickpocketing then
-		startedPickpocketing = false
-	end
+	local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
+	--if isPickpocketing and not startedPickpocketing then
+	--	pickpocket.messageShown = false
+	--end
 	
 	local transparency = playerSection:get("TRANSPARENCY")
 	local hudLayerSize = ui.layers[ui.layers.indexOf("HUD")].size
@@ -288,14 +288,17 @@ function drawUI()
 	})
 	
 	local widgets = {} --inverse sorting
-	if playerSection:get("COLUMN_WV") then
+	if isPickpocketing and playerSection:get("COLUMN_WV_PICKPOCKETING") or not isPickpocketing and playerSection:get("COLUMN_WV") then
 		table.insert(widgets,"valueByWeight")
 	end
-	if playerSection:get("COLUMN_VALUE") then
+	if isPickpocketing and playerSection:get("COLUMN_VALUE_PICKPOCKETING") or not isPickpocketing and playerSection:get("COLUMN_VALUE") then
 		table.insert(widgets,"value")
 	end
-	if playerSection:get("COLUMN_WEIGHT") then
+	if isPickpocketing and playerSection:get("COLUMN_WEIGHT_PICKPOCKETING") or not isPickpocketing and playerSection:get("COLUMN_WEIGHT") then
 		table.insert(widgets,"weight")
+	end
+	if isPickpocketing and playerSection:get("COLUMN_PICKPOCKET") then
+		table.insert(widgets,"pickpocket")
 	end
 	
 	encumbranceCurrent = types.Actor.getEncumbrance(self)
@@ -431,29 +434,8 @@ function drawUI()
 	
 	--SORTING
 	containerItems = types.Container.inventory(inspectedContainer):getAll()
-	local showPickpocketMessage = false
 	if isPickpocketing then
-		if startedPickpocketing then
-			if not pickpocketContents then
-				pickpocketContents = {}
-				local selfSneak = types.NPC.stats.skills.sneak(self).modified
-				for _, item in pairs(containerItems) do
-					if not types.Actor.hasEquipped(inspectedContainer,item) and math.random()<selfSneak/100 then
-						table.insert(pickpocketContents, item)
-					end
-				end
-			end
-			local tempContainerItems = {}
-			for _, item in pairs(containerItems) do
-				if tableContains(pickpocketContents, item) then
-					table.insert(tempContainerItems, item)
-				end
-			end
-			containerItems = tempContainerItems
-		else
-			containerItems = {}
-			showPickpocketMessage = true
-		end
+		containerItems = pickpocket.filterItems(self, inspectedContainer, containerItems)
 	end
 	
 	local sortedItems = {
@@ -551,27 +533,31 @@ function drawUI()
 	}
 	table.insert(box.content, list)
 	
+	local containerItemCount = #containerItems
+	if pickpocket.message then
+		containerItemCount = containerItemCount + 1
+	end
+	
 	--SCROLLBAR
 	local highlightWidth = 1
 	selectedIndex = math.min(selectedIndex,#containerItems)
 	if selectedIndex >= scrollPos+maxItems-1 then
-		scrollPos = math.min(#containerItems-maxItems+1, selectedIndex - maxItems+2)
+		scrollPos = math.min(containerItemCount-maxItems+1, selectedIndex - maxItems+2)
 	elseif selectedIndex <= scrollPos then
 		scrollPos = math.max(1,selectedIndex-1)
 	end
-	scrollPos = math.min(scrollPos, math.max(1,#containerItems+2-maxItems))
-	local visibleItems = math.min(maxItems,#containerItems-scrollPos+1)
-
-	if scrollPos > 1 or #containerItems > maxItems then -- show scrollbar?
+	scrollPos = math.min(scrollPos, math.max(1,containerItemCount+2-maxItems))
+	local visibleItems = math.min(maxItems,containerItemCount-scrollPos+1)
+	if scrollPos > 1 or containerItemCount > maxItems then -- show scrollbar?
 		highlightWidth = 0.96
 		
 		-- rounding fix:
-		local visibleStart = math.floor((scrollPos-1)/#containerItems*listHeight+0.5)
-		local visibleEnd = math.ceil((scrollPos-1+visibleItems)/#containerItems*listHeight)
+		local visibleStart = math.floor((scrollPos-1)/containerItemCount*listHeight+0.5)
+		local visibleEnd = math.ceil((scrollPos-1+visibleItems)/containerItemCount*listHeight)
 		local visibleLength = math.min(listHeight, visibleEnd - visibleStart)
 		
-		local selectedStart = math.floor((selectedIndex-1)/#containerItems*listHeight+0.5)
-		local selectedEnd = math.ceil((selectedIndex-1+1)/#containerItems*listHeight)
+		local selectedStart = math.floor((selectedIndex-1)/containerItemCount*listHeight+0.5)
+		local selectedEnd = math.ceil((selectedIndex-1+1)/containerItemCount*listHeight)
 		local selectedLength = math.min(listHeight, selectedEnd - selectedStart)
 
 		--SCROLLBAR BACKGROUND
@@ -625,22 +611,8 @@ function drawUI()
 	-- ITEMS
 	local relativePosition = 0
 	local renderedEntries = 0
-	if showPickpocketMessage then
-		local chance = pickPocket(nil, self, inspectedContainer)
-		table.insert(list.content, { 
-				type = ui.TYPE.Text,
-				template = quickLootText,
-				props = {
-					text = l10n("scroll to reveal pocket contents") .. " ("..chance.."%)",--..hextoutf8(0xd83d)..hextoutf8(0xd83e),--thingName..countText,
-					textSize = itemFontSize*textSizeMult,--itemFontSize*textSizeMult,
-					
-					relativeSize  = v2(entryWidth,relLineHeight),
-					relativePosition = v2(0, relativePosition+relLineHeight/2),
-					position = v2(absLineHeight+3,0), --icon shift
-					anchor = v2(0,0.5),
-				},
-				})
-	else			
+	
+	if not isPickpocketing or pickpocket.showContents then			
 		for i, thing in pairs(containerItems) do
 			local thingRecord = thing.type.records[thing.recordId]
 			if not thingRecord then
@@ -648,7 +620,7 @@ function drawUI()
 			elseif i >=scrollPos and renderedEntries < maxItems then
 				renderedEntries = renderedEntries + 1
 				local thingName =  thingRecord.name or thing.id
-				thingName= fromutf8(thingName)
+				--thingName= fromutf8(thingName)
 				local icon = thingRecord.icon
 				local thingCount = thing.count or 1
 				local countText = thingCount > 1 and " ("..thing.count..")" or ""
@@ -794,6 +766,8 @@ function drawUI()
 						if thingWeight+encumbranceCurrent > encumbranceMax then
 							textColor = util.color.rgb(0.85,0, 0)
 						end
+					elseif widget == "pickpocket" then
+						text = pickpocket.getColumnText(self, inspectedContainer, thing)
 					else
 						text = formatNumber(thingValue, "value")
 					end
@@ -837,6 +811,21 @@ function drawUI()
 				relativePosition = relativePosition + relLineHeight--
 			end
 		end
+	end
+	if pickpocket.message then
+		table.insert(list.content, { 
+			type = ui.TYPE.Text,
+			template = quickLootText,
+			props = {
+				text = pickpocket.message,--..hextoutf8(0xd83d)..hextoutf8(0xd83e),--thingName..countText,
+				textSize = itemFontSize*textSizeMult,--itemFontSize*textSizeMult,
+				
+				relativeSize  = v2(entryWidth,relLineHeight),
+				relativePosition = v2(0, relativePosition+relLineHeight/2),
+				position = v2(absLineHeight+3,0), --icon shift
+				anchor = v2(0,0.5),
+			},
+		})
 	end
 	-- FOOTER
 	if header_footer_setting == "show both" or header_footer_setting == "all bottom" or header_footer_setting ==  "only bottom" then
@@ -1017,8 +1006,7 @@ function closeHud()
 		core.sendGlobalEvent("OwnlysQuickLoot_closeGUI", self.object)
 		Camera.enableZoom("quickloot")
 		containerHash = 99999999
-		pickpocketContents = nil
-		startedPickpocketing = nil
+		pickpocket.closeHud(self)
 		if root then 
 			root:destroy() 
 		end
@@ -1043,6 +1031,34 @@ end
 
 
 function onFrame(dt)
+	--if inspectedContainer then
+	--	-- Get the yaw angle of the container
+	--	local containerYaw = inspectedContainer.rotation:getYaw()
+	--	
+	--	-- Calculate the angle from container to player in the horizontal plane
+	--	local deltaX = self.position.x - inspectedContainer.position.x
+	--	local deltaY = self.position.y - inspectedContainer.position.y
+	--	local playerAngle = math.atan2(deltaX, deltaY)
+	--	
+	--	-- Calculate the relative angle (how far the player is from the container's forward direction)
+	--	local relativeAngle = playerAngle - containerYaw
+	--	-- Normalize to -pi to pi range
+	--	while relativeAngle > math.pi do relativeAngle = relativeAngle - 2*math.pi end
+	--	while relativeAngle < -math.pi do relativeAngle = relativeAngle + 2*math.pi end
+	--	
+	--	-- Determine the direction based on the angle
+	--	local direction
+	--	if math.abs(relativeAngle) < math.pi/4 then
+	--		direction = "in front"
+	--	elseif math.abs(relativeAngle) > 3*math.pi/4 then
+	--		direction = "behind"
+	--	elseif relativeAngle > 0 then
+	--		direction = "right"
+	--	else
+	--		direction = "left"
+	--	end
+	--end
+
 	if inspectedContainer and  core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
 		types.Actor.setStance(self, types.Actor.STANCE.Nothing)
 	end
@@ -1086,20 +1102,29 @@ function onFrame(dt)
 	elseif inspectedContainer and types.Actor.getEncumbrance(self) ~= encumbranceCurrent then
 		drawUI()
 	end
-	
+	--if inspectedContainer then
+	--	print(inspectedContainer.rotation)
+	--end
 	if inspectedContainer 
 	and res.hitObject
 	and res.hitObject.type == types.NPC
 	and not types.Actor.isDead(res.hitObject) --opened container that is not dead
-	and (
-		types.Actor.getStance(res.hitObject) ~= types.Actor.STANCE.Nothing 
-		or not input.getBooleanActionValue("Sneak") -- but it's also not idle or the player not sneaking (anymore)
-	)
+	and not (
+			crimesVersion >= 2
+			and playerSection:get("PICKPOCKETING")
+			and pickpocket.validateTarget(self, res.hitObject, input)
+		)
+	
+	--(
+	--	types.Actor.getStance(res.hitObject) ~= types.Actor.STANCE.Nothing 
+	--	or not input.getBooleanActionValue("Sneak") -- but it's also not idle or the player not sneaking (anymore)
+	--)
 	then
 		closeHud()
 	end
-	
-	if not inspectedContainer 
+	if inspectedContainer then
+		pickpocket.onFrame(self, inspectedContainer, input, drawUI)
+	elseif not inspectedContainer 
 	and res.hitObject 
 	and (
 			res.hitObject.type == types.Container
@@ -1111,12 +1136,9 @@ function onFrame(dt)
 			and types.Actor.isDead(res.hitObject)
 		)
 		or (
-			res.hitObject.type == types.NPC
-			and not types.Actor.isDead(res.hitObject)
+			crimesVersion >= 2
 			and playerSection:get("PICKPOCKETING")
-			and crimesVersion >= 2
-			and types.Actor.getStance(res.hitObject) == types.Actor.STANCE.Nothing
-			and input.getBooleanActionValue("Sneak")
+			and pickpocket.validateTarget(self, res.hitObject, input)
 		)
 		
 	)	
@@ -1182,18 +1204,15 @@ local function onMouseWheel(vertical)
 	end
 	--print(vertical)
 	if inspectedContainer then
-		if startedPickpocketing == false then
-			core.sendGlobalEvent("OwnlysQuickLoot_startPickpocketing",{self, inspectedContainer})
-			startedPickpocketing = true
-		end
+		local shouldRefresh = pickpocket.scroll(self, inspectedContainer, input)
 		--local newIndex = math.min(#containerItems,math.max(1,selectedIndex - vertical))
 		local newIndex = selectedIndex - vertical
-		if newIndex == 0 then
-			newIndex = #containerItems
+		if newIndex <= 0 then
+			newIndex = math.max(1,#containerItems)
 		elseif newIndex > #containerItems then
 			newIndex = 1
 		end
-		if selectedIndex ~= newIndex then
+		if selectedIndex ~= newIndex or shouldRefresh then
 			selectedIndex = newIndex
 			backupSelectedIndex = newIndex
 			drawUI()
@@ -1206,22 +1225,19 @@ function onControllerButtonPress (ctrl)
 		return
 	end
 	if inspectedContainer then
-		if startedPickpocketing == false then
-			core.sendGlobalEvent("OwnlysQuickLoot_startPickpocketing",{self, inspectedContainer})
-			startedPickpocketing = true
-		end
+		local shouldRefresh = pickpocket.scroll(self, inspectedContainer, input)
 		local newIndex = selectedIndex
 		if ctrl == input.CONTROLLER_BUTTON.DPadDown then
 			newIndex = selectedIndex + 1
 		elseif ctrl == input.CONTROLLER_BUTTON.DPadUp then
 			newIndex = selectedIndex - 1
 		end
-		if newIndex == 0 then
-			newIndex = #containerItems
+		if newIndex <= 0 then
+			newIndex = math.max(1,#containerItems)
 		elseif newIndex > #containerItems then
 			newIndex = 1
 		end
-		if selectedIndex ~= newIndex then
+		if selectedIndex ~= newIndex or shouldRefresh then
 			selectedIndex = newIndex
 			backupSelectedIndex = newIndex
 			drawUI()
@@ -1229,9 +1245,6 @@ function onControllerButtonPress (ctrl)
 	end
 end
 
-local function startPickpocketingCallback()
-	drawUI()
-end
 
 
 local function activatedContainer(data)
@@ -1243,10 +1256,17 @@ local function activatedContainer(data)
 	--print(inspectedContainer,cont)
 	if inspectedContainer == cont then
 		if containerItems[selectedIndex] then
-			core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+			if isAlive then
+				pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
+			else
+				core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+			end
 			if isAlive == nil and playerSection:get("CONTAINER_ANIMATION") == "on take" then
 				inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
 			end
+		end
+		if pickpocket.activate(self, inspectedContainer, input) then
+			drawUI()
 		end
 	end
 end
@@ -1284,7 +1304,6 @@ local function receiveCrimesVersion(ver)
 end
 
 local function fellForTrap(arg)
-
 	if I.UI.getMode() then
 		I.UI.setMode()
 	end
@@ -1313,9 +1332,8 @@ return {
 		OwnlysQuickLoot_fellForTrap = fellForTrap,
 		OwnlysQuickLoot_windowVisible = windowVisible,
 		OwnlysQuickLoot_toggle = toggle, -- toggle(<true/false>, "myModName")
-		OwnlysQuickLoot_receiveCrimesVersion = receiveCrimesVersion, -- toggle(<true/false>, "myModName")
-		OwnlysQuickLoot_playSound = playSound, -- toggle(<true/false>, "myModName")
-		OwnlysQuickLoot_startPickpocketingCallback = startPickpocketingCallback, -- toggle(<true/false>, "myModName")
+		OwnlysQuickLoot_receiveCrimesVersion = receiveCrimesVersion,
+		OwnlysQuickLoot_playSound = playSound,
 	},
 	engineHandlers = {
 		onFrame = onFrame,

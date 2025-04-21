@@ -49,9 +49,13 @@
 "Sorting: Repair Tools On Top": "排序: 修理工具置顶"
 "Sorting: Zero Value On Top": "排序: 零值置顶"
 
+"Show Pickpocket Column": "显示扒窃列"
 "Show Weight Column": "显示重量列"
+"Show Weight Column When Pickpocketing": "扒窃时显示重量列"
 "Show Value Column": "显示价值列"
+"Show Value Column When Pickpocketing": "扒窃时显示价值列"
 "Show V/W Column": "显示价值重量比列"
+"Show V/W Column When Pickpocketing": "扒窃时显示价值重量比列"
 
 "Border style": "边框风格"
 "none": "无"
@@ -108,6 +112,10 @@
 
 "Experimental looting workaround": "实验中的替换搜刮方法"
 "If you have some ammo mod that keeps deleting your ammo for some reason": "如果你有某种弹药模组，不知为何总是删除你的弹药"
+
+
+"QuickLoot Pickpocket": "快速搜刮 - 扒窃"
+
 
 "Search": "搜索"
 "Take All": "全部拿走"

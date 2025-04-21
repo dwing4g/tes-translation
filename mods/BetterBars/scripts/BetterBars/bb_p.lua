@@ -305,14 +305,16 @@ local function update(bar, resource, dt, treshold)
 		--bar.max = max
 		bar.bar[1]:update()
 		--shouldUpdate = true
-		if playerSettings:get("TEXT_POS") ~= "left" then
-			if playerSettings:get("TEXT_POS") == "right" then
-				bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)-2,0)
-				bar.bar[2].layout.content["text"].props.anchor = v2(1,0.5)
-			elseif playerSettings:get("TEXT_POS") == "right outside" then
-				bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)+2,0)
+		if playerSettings:get("TEXT") ~="hidden" then
+			if playerSettings:get("TEXT_POS") ~= "left" then
+				if playerSettings:get("TEXT_POS") == "right" then
+					bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)-2,0)
+					bar.bar[2].layout.content["text"].props.anchor = v2(1,0.5)
+				elseif playerSettings:get("TEXT_POS") == "right outside" then
+					bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)+2,0)
+				end
+				shouldUpdate = true
 			end
-			shouldUpdate = true
 		end
 	end
 	if playerSettings:get("TEXT") ~="hidden" and math.floor(current) ~= math.floor(bar.cached) then
