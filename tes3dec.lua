@@ -254,7 +254,8 @@ local function readInt4(limit)
 end
 
 local stringTags = {
-	"BNAM", "FNAM", "NAME", "RNAM", "SCHD", "SCTX", "TEXT"
+	"BNAM", "FNAM", "NAME", "RNAM", "SCHD", "SCTX", "TEXT",
+	"GMST.DATA",
 }
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
@@ -319,7 +320,8 @@ local function readFields(class, posEnd)
 			if n ~= 4 then error(format("ERROR: 0x%08X: invalid size for XXXX", pos)) end
 			largeSize = readInt4(0x10000000)
 		else
-			write(RAW and format(" %s.%s ", class, tag) or format("%08X: %s.%s ", pos, class, tag))
+			local classTag = class .. "." .. tag
+			write(RAW and format(" %s ", classTag) or format("%08X: %s ", pos, classTag))
 			local n = classSize == 8 and readInt4(0x10000000) or readInt2()
 			if largeSize then
 				if n ~= 0 then error(format("ERROR: 0x%08X: invalid size after XXXX", pos)) end
@@ -327,7 +329,7 @@ local function readFields(class, posEnd)
 			end
 			largeSize = nil
 			local s = n > 0 and f:read(n) or ""
-			if not binaryTags[tag] and (stringTags[tag] or isStr(s)) then
+			if not binaryTags[classTag] and stringTags[classTag] or not binaryTags[tag] and (stringTags[tag] or isStr(s)) then
 				write("\"", addEscape(s), "\"\n") -- :gsub("%z$", "")
 			else
 				for i = 1, n do
