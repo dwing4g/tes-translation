@@ -320,6 +320,14 @@ function drawUI()
 		listY = listY + headerFooterHeight
 	end
 	
+	--GET CONTENTS
+	containerItems = types.Container.inventory(inspectedContainer):getAll()
+	if isPickpocketing then
+		containerItems = pickpocket.filterItems(self, inspectedContainer, containerItems)
+	end
+	
+	
+	
 	-- HEADER
 	if header_footer_setting == "show both" or header_footer_setting == "all top" or header_footer_setting ==  "only top" then
 		local header = { -- r.1.7
@@ -362,7 +370,34 @@ function drawUI()
 				alpha = 0.4,
 			}
 		})
-		if header_footer_setting == "all top" then
+		if (header_footer_setting == "all top" or header_footer_setting ==  "only top") and isPickpocketing and pickpocket.footerText then
+
+			header.content:add{
+				type = ui.TYPE.Image,
+				props = {
+					resource = pickpocketTex,
+					tileH = false,
+					tileV = false,
+					size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
+					position = v2(6,0),
+					alpha = 0.7,
+					anchor = v2(0,0),
+					color = pickpocket.footerColor or playerSection:get("FONT_TINT")
+				}
+			}
+			header.content:add{
+				type = ui.TYPE.Text,
+				template = quickLootText,
+				props = {
+					text = ""..pickpocket.footerText.." ",
+					textSize= headerFooterHeight*0.82,----20*textSizeMult,
+					position = v2(0.85*headerFooterHeight+8, headerFooterHeight/2+1),
+					size  = v2(55+0.85*headerFooterHeight,0.85*headerFooterHeight),
+					anchor = v2(0,0.5),
+					textColor = pickpocket.footerColor or playerSection:get("FONT_TINT")
+				},
+			}
+		elseif header_footer_setting == "all top" then
 			local encumbranceColor = playerSection:get("FONT_TINT")
 			local encumbranceIconColor = playerSection:get("ICON_TINT")
 			if encumbranceCurrent > encumbranceMax then
@@ -432,11 +467,7 @@ function drawUI()
 	
 
 	
-	--SORTING
-	containerItems = types.Container.inventory(inspectedContainer):getAll()
-	if isPickpocketing then
-		containerItems = pickpocket.filterItems(self, inspectedContainer, containerItems)
-	end
+
 	
 	local sortedItems = {
 		{}, --cash = {},
@@ -875,34 +906,105 @@ function drawUI()
 			encumbranceColor = util.color.rgb(0.85,0, 0)
 			encumbranceIconColor = util.color.rgb(1,0, 0)
 		end
-		--list FOOTER ENCUMBRANCE ICON
-		table.insert(footer.content,{
-			type = ui.TYPE.Image,
-			props = {
-				resource = backpackTex,
-				tileH = false,
-				tileV = false,
-				size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
-				position = v2(8,2),
-				alpha = 0.5,
-				anchor = v2(0,0),
-				color = encumbranceIconColor,
+		if isPickpocketing and pickpocket.footerText and (header_footer_setting ==  "all bottom") then
+
+			footer.content:add{
+				type = ui.TYPE.Image,
+				props = {
+					resource = pickpocketTex,
+					tileH = false,
+					tileV = false,
+					size  = v2(0.8*headerFooterHeight,0.8*headerFooterHeight),
+					position = v2(8,1),
+					color = pickpocket.footerColor or playerSection:get("FONT_TINT"),
+					alpha = 0.7,
+				}
 			}
-		})
-		
-		--list FOOTER ENCUMBRANCE TEXT
-		table.insert(footer.content,{
-			type = ui.TYPE.Text,
-			template = quickLootText,
-			props = {
-				text = ""..math.floor(encumbranceCurrent+0.5).. "/"..math.floor(encumbranceMax+0.5),
-				textSize= headerFooterHeight*0.82,----20*textSizeMult,
-				position = v2(0.85*headerFooterHeight+8, headerFooterHeight/2+1),
-				size  = v2(55+0.85*headerFooterHeight,0.85*headerFooterHeight),
-				anchor = v2(0,0.5),
-				textColor = encumbranceColor,
-			},
-		})
+			footer.content:add{
+				type = ui.TYPE.Text,
+				template = quickLootText,
+				props = {
+					text = ""..pickpocket.footerText.." ",
+					textSize= headerFooterHeight*0.82,----20*textSizeMult,
+					position = v2(0.85*headerFooterHeight+10, headerFooterHeight/2+1),
+					size  = v2(55+0.85*headerFooterHeight,0.85*headerFooterHeight),
+					anchor = v2(0,0.5),
+					textColor = pickpocket.footerColor or playerSection:get("FONT_TINT"),
+				},
+			}
+		else
+			--list FOOTER ENCUMBRANCE ICON
+			table.insert(footer.content,{
+				type = ui.TYPE.Image,
+				props = {
+					resource = backpackTex,
+					tileH = false,
+					tileV = false,
+					size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
+					position = v2(8,2),
+					alpha = 0.5,
+					anchor = v2(0,0),
+					color = encumbranceIconColor,
+				}
+			})
+			
+			--list FOOTER ENCUMBRANCE TEXT
+			table.insert(footer.content,{
+				type = ui.TYPE.Text,
+				template = quickLootText,
+				props = {
+					text = ""..math.floor(encumbranceCurrent+0.5).. "/"..math.floor(encumbranceMax+0.5),
+					textSize= headerFooterHeight*0.82,----20*textSizeMult,
+					position = v2(0.85*headerFooterHeight+8, headerFooterHeight/2+1),
+					size  = v2(55+0.85*headerFooterHeight,0.85*headerFooterHeight),
+					anchor = v2(0,0.5),
+					textColor = encumbranceColor,
+				},
+			})
+		end
+		if isPickpocketing and pickpocket.footerText and (header_footer_setting == "show both" or header_footer_setting == "only bottom") then
+			local flex = {
+				type = ui.TYPE.Flex,
+				props = {
+					--size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
+					anchor = v2(1,0),
+					relativePosition = v2(1,0),
+					horizontal = true,
+					position = v2(0,1)
+					--color = encumbranceIconColor,
+				},
+				content = ui.content{}
+			}
+			table.insert(footer.content,flex)
+			
+			flex.content:add{
+				type = ui.TYPE.Image,
+				props = {
+					resource = pickpocketTex,
+					tileH = false,
+					tileV = false,
+					size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
+					--position = v2(8,2),
+					--alpha = 0.5,
+					--anchor = v2(0,0),
+					color = pickpocket.footerColor or playerSection:get("FONT_TINT"),
+					alpha = 0.7,
+				}
+			}
+			flex.content:add{ props = { size = v2(1, 1) * 2 } }
+			flex.content:add{
+				type = ui.TYPE.Text,
+				template = quickLootText,
+				props = {
+					text = ""..pickpocket.footerText.." ",
+					textSize= headerFooterHeight*0.82,----20*textSizeMult,
+					--position = v2(0.85*headerFooterHeight+8, headerFooterHeight/2+1),
+					--size  = v2(55+0.85*headerFooterHeight,0.85*headerFooterHeight),
+					--anchor = v2(0,0.5),
+					textColor = pickpocket.footerColor or playerSection:get("FONT_TINT"),
+				},
+			}
+		end
 		if header_footer_setting == "all bottom" then
 			local widgetOffset = 0.05 -- for scrollbar
 			--list FOOTER ICONS
@@ -1258,6 +1360,7 @@ local function activatedContainer(data)
 		if containerItems[selectedIndex] then
 			if isAlive then
 				pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
+				drawUI()
 			else
 				core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
 			end
@@ -1291,9 +1394,20 @@ local function UiModeChanged(data)
 	showInMainMenuOverride = false
 end
 
-local function onLoad()
+local function onLoad(data)
 	updateModEnabled()
 	core.sendGlobalEvent("OwnlysQuickLoot_getCrimesVersion",self)
+	if data then
+		savegameData = data.savegameData or {}
+	else
+		savegameData = {}
+	end
+end
+
+local function onSave()
+    return {
+        savegameData = savegameData
+    }
 end
 
 local function receiveCrimesVersion(ver)
@@ -1340,8 +1454,10 @@ return {
 		onUpdate = onUpdate,
 		onKeyPress = onKey,
 		onMouseWheel = onMouseWheel,
-		onLoad = onLoad,
 		onControllerButtonPress = onControllerButtonPress,
+        onSave = onSave,
+        onLoad = onLoad,
+        onInit = onLoad,
     },
 	--eventHandlers = {
     --    FHB_AI_update = AI_update,

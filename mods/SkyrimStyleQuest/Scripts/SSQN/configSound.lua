@@ -1,4 +1,6 @@
-return {
+local vfs = require('openmw.vfs')
+
+local sounds = {
 	snd_sky_quest = "SSQN\\quest_update.wav",
 	snd_sixth = "Fx\\envrn\\bell2.wav",
 	snd_levelup = "Fx\\inter\\levelUP.wav",
@@ -23,3 +25,13 @@ return {
 
 }
 
+for k, v in pairs(sounds) do
+	if v ~= "" and v ~= "custom" and v ~= "same" then
+		local path = "Sound\\" .. v
+		if not vfs.fileExists(path) then
+			print("Skip sound " .. path)	sounds[k] = nil
+		end
+	end
+end
+
+return sounds

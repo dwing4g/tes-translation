@@ -13,8 +13,9 @@ local l10n = core.l10n("SSQN")
 
 
 local soundfiles = require("scripts.SSQN.configSound")
-local comments = require("scripts.SSQN.comments")
-comments.enabled = true
+-- local comments = require("scripts.SSQN.comments")
+local comments = {}
+-- comments.enabled = true
 
 local settings = storage.playerSection("Settings_openmw_SSQN")
 
@@ -82,24 +83,6 @@ end
 updateKeys()
 
 
-local function gmstToRgb(id, blend)
-	local gmst = core.getGMST(id)
-	if not gmst then return util.color.rgb(0.6, 0.6, 0.6) end
-	local col = {}
-	for v in string.gmatch(gmst, "(%d+)") do col[#col + 1] = tonumber(v) end
-	if #col ~= 3 then print("Invalid RGB from "..gmst.." "..id) return util.color.rgb(0.6, 0.6, 0.6) end
-	if blend then
-		for i = 1, 3 do col[i] = col[i] * blend[i] end
-	end
-	return util.color.rgb(col[1] / 255, col[2] / 255, col[3] / 255)
-end
-
-local uiTheme = {
-	normal = gmstToRgb("FontColor_color_normal"),
-	header = gmstToRgb("FontColor_color_header"),
-	baseSize = 16
-	}
-
 local function initQuestlist()
 	print("Building existing player quest list")
 	local quests = types.Player.quests(self)
@@ -127,7 +110,7 @@ local function iconpicker(qIDString)
 			repeat
 				i = i - 1
 				loc = string.find(qIDString, "_", i)
-			until (loc ~= nil) or (i == -string.len(qIDString))
+			until (loc ~= nil) or (i <= -string.len(qIDString))
 			if ( loc ~= nil ) then
 				qIDString = string.sub(qIDString,1,loc)
 				if (iconlist[qIDString] ~= nil) then
@@ -149,242 +132,115 @@ local function iconpicker(qIDString)
     end
 end
 
-local function removePopup()
-	if not element or type(element) == "number" then element = nil	return		end
-	element:destroy()
-	element = nil
-end
-
 local function getQuestName(i)
+	if type(i) ~= "string" then		return		end
 	if i == "testbanner_id" then
 		return "Skyrim Style Quest Notifications"
 	end
 	local name
 	if core.dialogue then
-		name = core.dialogue.journal.records[i].questName
-		if name == nil then name = "skip" end
+		name = core.dialogue.journal.records[i]
+		if name then
+			name = name.questName or "skip"
+		end
 	else
 		name = questnames[i]
 	end
 	return name
 end
 
+local uicode = require("scripts.SSQN.uicode")
 
-local animate = {}
+local function removePopup()
+	if not element then	return		end
+	uicode.removePopup()
+	element = nil
+end
 
-local function displayPopup(questId, index)
+local function displayPopup(msg)
+	local questId, index, tmpl = msg.questId, msg.questStage, msg.template
+	if not questId and not msg.text then		return		end
+
 	local e = {
 		x=settings:get("bannerposx"), y=settings:get("bannerposy"),
-		showTitle = true, showIcon = settings:get("showicon"),
+--		showTitle = true, showIcon = settings:get("showicon"),
 		width = 420, height = 72,	textX = 0.56, textY = 0.7,
 	}
 
-	local qname = getQuestName(questId) or questId
-	local notificationImage = iconpicker(questId)
-	print(questId, notificationImage)
-	if not vfs.fileExists(notificationImage) then notificationImage = "Icons\\SSQN\\DEFAULT.dds" end
+	local txt = msg.text		local header = msg.header
+	local notificationImage = type(msg.icon) == "string" and msg.icon
+	if tmpl == "questStart" or tmpl == "questFinish" then
+		txt = txt or getQuestName(questId) or questId
+		header = header or (tmpl == "questFinish" and "text_questfinish")
+			or "text_queststart"
+	elseif tmpl == "objective" then
+		local obj = comments[questId]		obj = obj and obj[index]
+		if obj then	txt = obj		end
+	end
+	if not txt then	return		end
 
-	local notificationText
-	if not index then
-		notificationText = playerqlist[questId] and "text_questfin" or "text_queststart"
-	else
-		local obj = comments[questId]		if obj then obj = obj[index]	end
-		notificationText = qname
-		if obj then
-			qname = obj
-		else
-			qname = "New Journal Entry"
-		end
+	if msg.showIcon == false then
+		notificationImage = nil
+	elseif type(questId) == "string" then
+		notificationImage = notificationImage or iconpicker(questId)
+	end
+	if msg.showIcon then
+		notificationImage = notificationImage or ""
+	elseif not settings:get("showicon") then
+		notificationImage = nil
+	end
+	if tmpl == "questStart" or tmpl == "questFinish" or notificationImage then
+		print(questId, notificationImage)
 	end
 
-	local template = settings:get("bannertransp") and I.MWUI.templates.boxTransparentThick
-		or I.MWUI.templates.boxSolidThick
-	local l = qname:len()		local pt = tonumber(settings:get("textSize"))
-	local bodySize = (l > 34 and pt) or (l > 24 and pt*1.25) or (pt*1.5)
+	if notificationImage and not vfs.fileExists(notificationImage) then
+		notificationImage = "Icons\\SSQN\\DEFAULT.dds"
+	end
+	if msg.showHeader == false then
+		header = nil
+	end
+
+	e.transparent = settings:get("bannertransp")
+	if not header and not notificationImage then		e.height = 48		end
+	e.bodySize = tonumber(settings:get("textSizeTitle"))
+
+--[[
+	local l = txt:len()		local pt = tonumber(settings:get("textSize"))
+	e.bodySize = (l > 34 and pt) or (l > 24 and pt*1.25) or (pt*1.5)
 	if index then
 		e.textX = 0.5		e.showIcon = false
-		bodySize = (l > 40 and pt) or (pt*1.25)
-		if qname ~= "New Journal Entry" then
+		e.bodySize = (l > 40 and pt) or (pt*1.25)
+		if txt ~= "New Journal Entry" then
 			e.textY = 0.5	e.showTitle = false	e.height = 48
 		end
 	elseif not e.showIcon then
 		e.textX = 0.5	e.textY = 0.7
-		bodySize = (l > 40 and pt) or (l > 30 and pt*1.25) or (pt*1.5)
+		e.bodySize = (l > 40 and pt) or (l > 30 and pt*1.25) or (pt*1.5)
 	end
+	print(e.bodySize)
+--]]
 
-	bodySize = tonumber(settings:get("textSizeTitle"))
---	print(bodySize)
-
-
-	local endCap = { type = ui.TYPE.Image,
-		props = {
-			size = util.vector2(1100, 1),
-			resource = ui.texture { path = "white" },
-			color = util.color.hex("ff0000"), alpha = 0,
-		}
-	}
-
-	local minHeight = { type = ui.TYPE.Image,
-		props = {
-			size = util.vector2(8, e.height - 2),
-			resource = ui.texture { path = "white" },
-			color = util.color.hex("ff0000"), alpha = 0,
-		}
-	}
-
-	local minWidth = { type = ui.TYPE.Image,
-		props = {
-			size = util.vector2(e.width - 16, 1),
-			resource = ui.texture { path = "white" },
-			color = util.color.hex("00ff00"), alpha = 0,
-		}
-	}
-
-	local spacer = { type = ui.TYPE.Image,
-		props = {
-			visible = e.showTitle,
-			size = util.vector2(20, 8),
-			resource = ui.texture { path = "white" },
-			color = util.color.hex("00ff00"), alpha = 0,
-		}
-	}
-
-	local contentIcon = {
-		type = ui.TYPE.Image,
-		props = {
-				--** Size of Icon 48 x 48. Change values in line below.
-        	        size = util.vector2(48, 48),
-			resource = ui.texture { path = notificationImage },
-		},
-	}
-
-	local contentLabel = {
-		template = I.MWUI.templates.textNormal,
-		type = ui.TYPE.Text,
-		props = {
-		    text = l10n(notificationText),
-		    textSize =  uiTheme.baseSize, textColor = uiTheme.normal,
-		},
-	}
-
-
-	local contentText = {}
-	table.insert(contentText, minWidth)
-	if e.showTitle then
-		table.insert(contentText, spacer)
-		table.insert(contentText, contentLabel)
-		if bodySize == 16 then
-			table.insert(contentText, spacer)
-		end
-	end
-	table.insert(contentText, spacer)
-	table.insert(contentText,
-		{ template = I.MWUI.templates.textHeader,
-		type = ui.TYPE.Text,
-		props = {
-			text = qname,
-			textSize = bodySize, textColor = uiTheme.header,
-			},
-		})
-
-	table.insert(contentText, spacer)
-	table.insert(contentText, minWidth)
-
-
-	local contentBanner = {}
-	if e.showIcon then
-	table.insert(contentBanner, minHeight)
-			table.insert(contentBanner, contentIcon)
-	end
-	table.insert(contentBanner, minHeight)
-	table.insert(contentBanner,
-        	{ template = I.MWUI.templates.padding, alignment = ui.ALIGNMENT.Center, content = ui.content {
-			{ type = ui.TYPE.Flex,
-				props = { horizontal = false,
-        	        	   align = ui.ALIGNMENT.Center,
-	                	    arrange = ui.ALIGNMENT.Center,
-				},
-				content = ui.content(contentText)
-			},
-		}, })
-
-	table.insert(contentBanner, minHeight)
+	e.text = txt		e.icon = notificationImage		e.header = header
 
 	local onlyFade = settings:get("anim_style") ~= "opt_anim_scroll"
 	local duration = settings:get("bannertime") + 1
-	animate = { time = 0, length = duration, alpha = 0,
+	if type(msg.time) == "number" then
+		duration = math.max(msg.time, 2) + 1
+	end
+	uicode.animate = { time = 0, length = duration, alpha = 0,
 		width = onlyFade and 1100 or 60, fadeTime = onlyFade and 1.5 or 1,
 		fadeStart = duration + (onlyFade and 0 or 0.5)
 	}
 
---[[
-	animate.time = 0		animate.length = settings:get("bannertime") + 1
-	animate.width = fadeOut and 1100 or 60
-	animate.alpha = 0
-	animate.fadeTime = animate.style == 2 and 1.5 or 1
-	animate.fadeStart = animate.length + (animate.style == 2 and 0 or 0.5)
---]]
+	element = uicode.renderBanner(e)
 
-	element = ui.create {
-		layer = 'Notification',
-		type = ui.TYPE.Widget,
-		props = {
-		visible = true,
-		relativePosition = util.vector2(e.x, e.y),
-		anchor = util.vector2(0.5, 0.5),
-		size = util.vector2(animate.width, 120),
-		alpha = animate.alpha,
-		},
-
-		content = ui.content {
-			{
-				type = ui.TYPE.Container,
-				props = {
-					relativePosition = util.vector2(0.5, 0.5),
-					anchor = util.vector2(0.5, 0.5),
-				},
-
-				content = ui.content {
-					{ type = ui.TYPE.Flex, props = { horizontal = false,
-			         	          align = ui.ALIGNMENT.Center,
-		        		            arrange = ui.ALIGNMENT.Center,
-					},
-
-						content = ui.content {
-							endCap,
-							{
-								template = template,
-								type = ui.TYPE.Container,
-								props = {
-									relativePosition = util.vector2(0.5, 0.5),
-									anchor = util.vector2(0.5, 0.5),
-								},
-								content = ui.content {
-									{ type = ui.TYPE.Flex,
-										props = { horizontal = true,
-								                  align = ui.ALIGNMENT.Center,
-								       	            arrange = ui.ALIGNMENT.Center,
-										},
-										content = ui.content(contentBanner),
-									},
-								},
-							},
-						},
-
-					},
-				},
-			},
-		},
-	}
-
-
-	local soundfile
-	if index then
-		soundfile = "Fx\\ui\\ui_objective_new_01.wav"
-	elseif notificationText == "text_queststart" then
+	local soundfile, sound
+	if tmpl == "objective" and settings:get("soundfile") ~= "snd_none" then
+		soundfile = soundfiles["snd_ui_obj_new_01"] or soundfiles["snd_ob_quest"]
+	elseif tmpl == "questStart" then
 		soundfile = soundfiles[settings:get("soundfile")]
 		if soundfile == "custom" then soundfile = settings:get("soundcustom")	end
-	else
+	elseif tmpl == "questFinish" then
 		soundfile = soundfiles[settings:get("soundfilefin")]
 		if soundfile == "same" then
 			soundfile = soundfiles[settings:get("soundfile")]
@@ -392,43 +248,24 @@ local function displayPopup(questId, index)
 			soundfile = settings:get("soundcustomfin")
 		end
 	end
+	if type(msg.sound) == "string" then
+		soundfile = soundfiles[msg.sound] or msg.sound
+		sound = core.sound.records[msg.sound]
+	end
+	--	Adjust volume of quest_update.wav
+	local sndOpt = {volume = soundfile == soundfiles["snd_sky_quest"] and 2 or 1}
 
-	if soundfile ~= nil then ambient.playSoundFile("Sound\\"..soundfile)		end
+	if sound then
+		ambient.playSound(msg.sound, sndOpt)
+	elseif soundfile then
+		ambient.playSoundFile("Sound\\"..soundfile, sndOpt)
+	end
 end
 
 local function onUpdate(dt)
-	if not element then 		return		end
-	if type(element) == "number" then 		return		end
-	local m = animate
-	m.time = m.time + dt
-	if m.time > m.length + 0.2 then
-		removePopup()
-		return
+	if element then
+		if uicode.update(dt) then	removePopup()		end
 	end
-	local width, alpha
-	if m.width == 60 then
-		if m.time < 1.5 then
-			width = 60 + 2000 * m.time
-		elseif m.time > m.length - 1 and m.time < m.length + 0.2 then
-			width = 60 + 1000 * (m.length - m.time)
-		end
-		if width and width < 1100 then
-			width = math.floor(width / 2) * 2
-			element.layout.props.size = util.vector2(width, 120)
-		else
-			width = nil
-		end
-	end
-		if m.time < 0.6 then
-			alpha = math.min(m.time / 0.5, 1)
-		elseif m.time > m.fadeStart - m.fadeTime and m.time < m.length + 0.2 then
-			alpha = math.max(1 - (m.time + m.fadeTime - m.fadeStart) / m.fadeTime, 0)
-		end
-		if alpha then
-			element.layout.props.alpha = alpha
-		end
---	end
-	if alpha or width then element:update()			end
 end
 
 local function getQuestchange(quests)
@@ -452,19 +289,18 @@ local function journalHandler()
 	if element or #updateList == 0 then		return		end
 	local msg = updateList[1]		table.remove(updateList, 1)
 --	print(msg.id, msg.index, msg.type)
-	if msg.type == "quest" then
-		displayPopup(msg.id)
-	elseif msg.type == "objective" then
---		print(msg.id, msg.index)
-		displayPopup(msg.id, msg.index)
-	end
+	if not msg.template then	return		end
+	displayPopup(msg)
 end
 
 time.runRepeatedly(function()
-	if not settings:get("bannerdemo") then journalHandler()
-	elseif element == nil then
-		displayPopup("testbanner_id")
-		playerqlist.testbanner_id = not playerqlist.testbanner_id
+	if settings:get("bannerdemo") and element == nil then
+		local finish = playerqlist.testbanner_id
+		displayPopup({ questId = "testbanner_id",
+			template = finish and "questFinish" or "questStart"})
+		playerqlist.testbanner_id = not finish
+	else
+		journalHandler()
 	end
 end, 1 * time.second)
 
@@ -491,27 +327,32 @@ local function onQuestUpdate(id, stage)
 	local journal = questLog[id] or {}
 	for _, v in ipairs(infos) do
 		if v.questStage == stage and v.text and v.text ~= "" and not journal[stage] then
-	--		journal[stage] = { id=v.id, time=core.getGameTime() }
 			updateJournal(id, stage, v)
 		end
 	end
 
-	if not ignorelist[id] and settings:get("enabled") then
-		if getQuestchange(types.Player.quests(self)) then
-			updateList[#updateList + 1] = { id=id, index=stage, type="quest" }
-		end
-		if comments.enabled then
-			updateList[#updateList + 1] = { id=id, index=stage, type="objective" }
-		end
-	end
 	local soundfile = soundfiles[settings:get("soundfileupdate")]
 	if soundfile == "custom" then soundfile = settings:get("soundcustomupdate")	end
-	if soundfile == nil then return end
-	if element == nil and not core.isWorldPaused() then
-		element = 1
-		async:newUnsavableSimulationTimer(1, function() removePopup() end)
+	if soundfile then
+		if element == nil and not core.isWorldPaused() then
+			updateList[#updateList + 1] = {}
+		end
+		ambient.playSoundFile("Sound\\"..soundfile)
 	end
-	ambient.playSoundFile("Sound\\"..soundfile)
+
+	if not ignorelist[id] and settings:get("enabled") then
+		local msg
+		if getQuestchange(types.Player.quests(self)) then
+			msg = { questId=id, questStage=stage }
+			msg.template = playerqlist[id] and "questFinish" or "questStart"
+			updateList[#updateList + 1] = msg
+		end
+		local obj = comments[id]		obj = obj and obj[stage]
+		if obj then
+			msg = { questId=id, questStage=stage, template="objective", showIcon=false }
+			updateList[#updateList + 1] = msg
+		end
+	end
 end
 
 
@@ -555,19 +396,24 @@ return {
 
 	interfaceName = "SSQN",
 	interface = {
-		version = 130,
+		version = 133,
 		registerQIcon = function(id, path)
 			if path:find("^\\") then path = string.sub(path, 2, -1)		end
 			iconlist[id:lower()] = path
 		end,
 		getQIcon = function(id) return iconpicker(id)				end,
 		blockQBanner = function(id) ignorelist[id:lower()] = true		end,
-		isQBannerBlocked = function(id) return ignorelist[id] == true		end,
+		isQBannerBlocked = function(id) return ignorelist[id:lower()] == true		end,
 		addQComment = function(id, index, text)
 			id = id:lower()		local q = comments[id]
 			if not q then q = {}	comments[id] = q		end
 			q[index] = text
 		end,
 		getJournal = function()		return util.makeReadOnly(proxy)		end,
+		showBanner = function(m)
+			assert(type(m) == "table" and m.text, "showBanner: text key must be a string")
+			m.template = m.template or "objective"
+			updateList[#updateList + 1] = m
+		end
 	}
 }

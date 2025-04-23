@@ -7,9 +7,25 @@ local fFatigueMult = core.getGMST("fFatigueMult")
 local fPickPocketMod = core.getGMST("fPickPocketMod")
 local iPickMinChance = core.getGMST("iPickMinChance")
 local iPickMaxChance = core.getGMST("iPickMaxChance")
-
+local maxAttempts = 5
+-- global variable: "savegameData"
 
 local qlpp = {}
+
+local function updateFooterText(target)
+	local attempts = savegameData[target.id] or 0
+
+	if attempts > maxAttempts+200000 then
+		qlpp.footerColor = util.color.rgb(0.85,0, 0)
+		qlpp.footerText = "caught"
+	elseif attempts >= maxAttempts then
+		qlpp.footerColor = util.color.rgb(0.85,0, 0)
+		qlpp.footerText = attempts.." / "..maxAttempts
+	else
+		qlpp.footerColor = nil
+		qlpp.footerText = attempts.." / "..maxAttempts
+	end
+end
 
 local function getFatigueTerm(target) -- float CreatureStats::getFatigueTerm() const
 	local max = types.Actor.stats.dynamic.fatigue(target).base  --float max = getFatigue().getModified();
@@ -51,6 +67,8 @@ local function buildCache(self, target) --TODO
 	qlpp.cache.pcSneak = types.NPC.stats.skills.sneak(self).modified
 	qlpp.cache.benchResult = qlpp.calcChance(self,target,nil,true)
 	qlpp.cache.lastUpdate = core.getRealTime()
+	
+	updateFooterText(target)
 end
 
 local function toInt(x)
@@ -109,13 +127,33 @@ end
 qlpp.stealItem = function (self, target, item)
 	if not qlpp.cache then buildCache(self,target) end
 	local chance = qlpp.calcChance(self, target, item)
+	
+	if (savegameData[target.id] or 0) >=maxAttempts then
+		local record = 7
+		if math.random() < 0.5 then
+			record = 8
+		end
+		for j, dialogue in ipairs(core.dialogue.voice.records[record].infos) do
+			if dialogue.filterActorRace==types.NPC.record(target).race and ((dialogue.filterActorGender=="female" and types.NPC.record(target).isMale==false) or (dialogue.filterActorGender=="male" and types.NPC.record(target).isMale==true))  then
+				ambient.playSoundFile(dialogue.sound)
+				break
+			end
+		end
+		core.sendGlobalEvent("OwnlysQuickLoot_rotateNpc", {self, target})
+		core.sendGlobalEvent("OwnlysQuickLoot_modDisposition", {self, target, -10})
+		return
+	end
+	
 	if math.random()*100 < chance then
+		savegameData[target.id] = (savegameData[target.id] or 0) +1
 		ambient.playSound(getSound(item))
 		core.sendGlobalEvent("OwnlysQuickLoot_take",{self, target, item, true})
 	else
+		savegameData[target.id] = (savegameData[target.id] or 0) +1000000
 		local price = item.type.record(item).value
 		core.sendGlobalEvent("OwnlysQuickLoot_commitCrime",{self, target, 0})
 	end
+	updateFooterText(target)
 end
 
 qlpp.validateTarget = function(self, target, input)
@@ -130,6 +168,8 @@ qlpp.closeHud = function(self)
 	qlpp.message = nil
 	qlpp.showContents = false
 	qlpp.cache = nil
+	qlpp.footerColor = nil
+	qlpp.footerText = nil
 end
 
 qlpp.filterItems = function(self, target, containerItems )
@@ -161,20 +201,23 @@ qlpp.filterItems = function(self, target, containerItems )
 			end
 		end
 		if qlpp.undisplayedItems > 0 then
-			qlpp.message = "and "..qlpp.undisplayedItems.." more"
+			if #tempContainerItems == 0 then
+				qlpp.message = qlpp.undisplayedItems.." item".. (qlpp.undisplayedItems > 1 and "s" or "")
+			else
+				qlpp.message = "and "..qlpp.undisplayedItems.." more"
+			end
 		else
 			qlpp.message = nil
 		end
 	else
 		local chance = qlpp.calcChance(self, target)
-		qlpp.message = "scroll to reveal pocket contents ("..chance.."%)"
+		qlpp.message = "reveal pocket contents ("..chance.."%)"
 	end
 	return tempContainerItems
 end
 
 
 qlpp.activate = function(self, target, input)
-	do return false end -- the message says "scroll", so this is unused for now
 	if not qlpp.validateTarget(self, target, input) then return end
 	if qlpp.showContents then return end
 	local chance = qlpp.calcChance(self, target)

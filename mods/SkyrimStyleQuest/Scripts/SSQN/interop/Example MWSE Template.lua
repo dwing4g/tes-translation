@@ -17,6 +17,14 @@ local function init()
         -- ssqn.blockQBanner("PC_m1_Anv_GoldenrodDR")
 
     end
+    if (ssqn) and (ssqn.addQComment) then
+
+        -- add commands to show a message banner when a journal stage is triggered
+
+        -- ssqn.addQComment("ms_lookout", 10, "Find Fargoths' secret gold")
+        -- ssqn.addQComment("ms_lookout", 20, "Watch from the top of the lighthouse at night")
+
+    end
 end
 
 event.register(tes3.event.initialized, init)

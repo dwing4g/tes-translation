@@ -744,8 +744,11 @@ return function (item,highlightPosition, isPickpocketing) --makeTooltip
 	if item.count and item.count > 1 then
 		name = name.." ("..item.count..")"
 	end
-	if isPickpocketing and not playerSection:get("COLUMN_PICKPOCKET") then
-		name = name..pickpocket.getTooltipText1(self,inspectedContainer,item)
+	if isPickpocketing then-- and  then
+		local text = pickpocket.getTooltipText1(self,inspectedContainer,item)
+		if not playerSection:get("COLUMN_PICKPOCKET") then
+			name = name..text
+		end
 	end
 	textElement(fromutf8(name), playerSection:get("ICON_TINT"))
 

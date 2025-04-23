@@ -1,5 +1,5 @@
 text_queststart: "任务开始："
-text_questfin: "任务完成："
+text_questfinish: "任务完成："
 
 snd_sky_quest: "天际任务"
 snd_sixth: "第六家族钟声"
@@ -24,15 +24,15 @@ opt_none: "无"
 
 settings_modName: "天际风格任务通知"
 
-settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.32
+settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.33
 \n原版MWSE模组制作者：Nazz。\n\n这个模组在你开始和完成任务时会通知你。
  这个想法是模仿天际的任务通知，因此取了这个名字。"
 
 settings_modCategory1_name: "偏好"
 settings_modCategory1_setting01_name: "开始/完成任务时开启通知"
 settings_modCategory1_setting01a_name: "显示任务通知图标"
-settings_modCategory1_setting01d_name: "通知栏主要文字字体大小"
-settings_modCategory1_setting01e_name: "通知栏次要文字字体大小"
+settings_modCategory1_setting01d_name: "任务名的字体大小"
+settings_modCategory1_setting01e_name: "标题文字的字体大小"
 
 settings_modCategory1_setting02_name: "透明的通知栏"
 settings_modCategory1_setting03_name: "通知栏在屏幕的位置"

@@ -9,6 +9,7 @@ local I = require("openmw.interfaces")
 local actuallyActivateTable = {}
 local openedGUIs = {}
 local getSound = require("scripts.OwnlysQuickLoot.ql_getSound")
+local util = require('openmw.util')
 local organicContainers = {
 	barrel_01_ahnassi_drink=true,
 	barrel_01_ahnassi_food =true,
@@ -269,6 +270,10 @@ local function activateContainer(cont, player)
 end
 
 local function activateActor(actor,player)
+	--if not disabledPlayers[player.id] and not actuallyActivateTable[player.id] and not actor.type.isDead(actor) then
+	--	player:sendEvent("OwnlysQuickLoot_activatedContainer", {actor, not actor.type.isDead(actor)})
+	--	return false
+	--end
 	if not disabledPlayers[player.id] and not actuallyActivateTable[player.id] and 
 	(	actor.type.isDead(actor) 
 		or (
@@ -465,6 +470,22 @@ local function commitCrime(data)
 	})
 end
 
+local function rotateNpc(data)
+	local player = data[1]
+	local npc = data[2]
+	
+	local directionToPlayer = player.position - npc.position
+	local targetYaw = math.atan2(directionToPlayer.y, directionToPlayer.x)
+	npc:teleport(npc.cell, npc.position, util.transform.rotateZ(-targetYaw+math.pi/2))
+end
+
+local function modDisposition(data)
+	local player = data[1]
+	local target = data[2]
+	local value = data[3]
+	types.NPC.modifyBaseDisposition(target, player, value)
+end
+
 return {
 	eventHandlers = {
 		OwnlysQuickLoot_freshLoot = freshLoot,
@@ -479,6 +500,8 @@ return {
 		OwnlysQuickLoot_closeGUI = closeGUI,
 		OwnlysQuickLoot_getCrimesVersion = getCrimesVersion,
 		OwnlysQuickLoot_commitCrime = commitCrime,
+		OwnlysQuickLoot_rotateNpc = rotateNpc,
+		OwnlysQuickLoot_modDisposition = modDisposition,
 	},
 	engineHandlers = {
 		onUpdate = onUpdate,

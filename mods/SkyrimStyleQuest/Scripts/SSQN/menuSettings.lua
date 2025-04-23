@@ -5,6 +5,7 @@ local vfs = require('openmw.vfs')
 local sounds = {}
 sounds.files = require("scripts.SSQN.configSound")
 
+--[[
 for k, v in pairs(sounds.files) do
 	if v ~= "" and v ~= "custom" and v ~= "same" then
 		local path = "Sound\\" .. v
@@ -13,6 +14,7 @@ for k, v in pairs(sounds.files) do
 		end
 	end
 end
+--]]
 
 local function build(m)
 	local f = sounds.files		local list = {}
@@ -82,9 +84,18 @@ I.Settings.registerGroup({
                 items = { "16", "18" },
             },
 	},
+	{
+         key = "bannertime",
+         default = 5,
+         renderer = "number",
+         name = "settings_modCategory1_setting05_name",
+         argument = {
+            min = 2.0,
+         },
+	},
       {
          key = "bannertransp",
-         default = true,
+         default = false,
          renderer = "checkbox",
          name = "settings_modCategory1_setting02_name",
       },
@@ -118,15 +129,6 @@ I.Settings.registerGroup({
                 l10n = "SSQN", 
                 items = { "opt_anim_scroll", "opt_fadeout" },
             },
-	},
-	{
-         key = "bannertime",
-         default = 5,
-         renderer = "number",
-         name = "settings_modCategory1_setting05_name",
-         argument = {
-            min = 2.0,
-         },
 	},
         {
             key = "soundfile",
