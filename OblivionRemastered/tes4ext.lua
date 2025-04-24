@@ -11,8 +11,8 @@ local function loadTxt(fn)
 	local i = 0
 	for line in io.lines(fn) do
 		i = i + 1
-		local k, v = line:match "^(.-)=(.*)$"
-		if not k then
+		local k, v = line:match "^(.-)=(.+)$"
+		if not k or k == "" then
 			error("ERROR: invalid line " .. i .. " in " .. fn)
 		end
 		if t[k] then

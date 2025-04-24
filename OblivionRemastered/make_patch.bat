@@ -16,6 +16,8 @@ rem Game.locres+Game.csv => Game.locres.new: UnrealLocres import Game.locres Gam
 
 rem ..\luajit tes4ext.lua Game.en.locres.txt Game.locres.txt Game.ext.txt
 
+rem font: OblivionRemastered\Content\Art\Fonts\NotoSerif_SimplifiedChinese\NotoSerifSC-Regular.ufont+NotoSerifSC-Bold.ufont 14.1M*2
+
 md OblivionRemastered-Windows-zh-HansPatch\OblivionRemastered\Content\Localization\Game\zh-Hans 2>nul
 
 UE4localizationsTool import Game.locres.txt
