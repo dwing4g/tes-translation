@@ -14,6 +14,8 @@ rem UnrealLocres: https://github.com/akintos/UnrealLocres
 rem Game.locres          => Game.csv       : UnrealLocres export Game.locres
 rem Game.locres+Game.csv => Game.locres.new: UnrealLocres import Game.locres Game.csv
 
+rem ..\luajit tes4ext.lua Game.en.locres.txt Game.locres.txt Game.ext.txt
+
 md OblivionRemastered-Windows-zh-HansPatch\OblivionRemastered\Content\Localization\Game\zh-Hans 2>nul
 
 UE4localizationsTool import Game.locres.txt
