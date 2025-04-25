@@ -4,6 +4,6 @@
 *.enc.esp
 errors.txt
 
-/OblivionRemastered/OblivionRemastered-Windows-zh-HansPatch/
-/OblivionRemastered/OblivionRemastered-Windows-zh-HansPatch_P/
+/OblivionRemastered/*_P/
 /OblivionRemastered/*.pak
+/OblivionRemastered/oo2core_9_win64.dll
