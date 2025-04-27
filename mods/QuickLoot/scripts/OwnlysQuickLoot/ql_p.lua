@@ -31,6 +31,8 @@ valueByWeightTex = ui.texture { path = 'textures\\QuickLoot_scale.dds' }
 backpackTex = ui.texture { path = 'textures\\QuickLoot_backpack.dds' }
 weightTex = ui.texture { path = 'textures\\QuickLoot_weight.dds' }
 pickpocketTex =   ui.texture { path = 'textures\\QuickLoot_pickpocket.dds' }
+pickpocketTex2 =   ui.texture { path = 'textures\\QuickLoot_pickpocket_halo1.dds' }
+pickpocketTex3 =   ui.texture { path = 'textures\\QuickLoot_pickpocket_halo2.dds' }
 fSymbolicTex =   ui.texture { path = 'textures\\QuickLoot_F_symbolic.dds' }
 rSymbolicTex =   ui.texture { path = 'textures\\QuickLoot_R_symbolic.dds' }
 fKeyTex =   ui.texture { path = 'textures\\QuickLoot_F.dds' }
@@ -140,7 +142,13 @@ input.registerTriggerHandler("Jump", async:callback(function(dt, use, sneak, run
 	end
 end)) 
 
-
+input.bindAction('Use', async:callback(function(dt, use, sneak, run)
+	if types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing and use then
+		closeHud()
+	end
+	
+	return use
+end), {  })
 
 function drawUI()
 	local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
@@ -1160,8 +1168,10 @@ function onFrame(dt)
 	--		direction = "left"
 	--	end
 	--end
-
-	if inspectedContainer and  core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
+	if types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing and input.getBooleanActionValue("Use") then
+		return false
+	end
+	if inspectedContainer and core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
 		types.Actor.setStance(self, types.Actor.STANCE.Nothing)
 	end
  --self.controls.use = 0

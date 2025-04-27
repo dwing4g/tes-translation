@@ -750,7 +750,8 @@ return function (item,highlightPosition, isPickpocketing) --makeTooltip
 			name = name..text
 		end
 	end
-	textElement(fromutf8(name), playerSection:get("ICON_TINT"))
+	--textElement(fromutf8(name), playerSection:get("ICON_TINT"))
+	textElement(name, playerSection:get("ICON_TINT"))
 
 	flex.content:add{ props = { size = v2(1, 1) * 1 } }
 	
