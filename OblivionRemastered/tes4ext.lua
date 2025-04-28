@@ -4,8 +4,22 @@ local io = io
 local arg = arg
 local error = error
 local pairs = pairs
-local ipairs = ipairs
 
+local kindTable = {
+	["ST_HardcodedContent::LOC_HC"]  = "0",
+	["ST_MissingEntries::LOC_ME"]    = "1",
+	["ST_AltarStaticTexts::LOC_AS"]  = "2",
+	["ST_AltarStaticTexts::LOC_AD"]  = "3",
+	["ST_AltarDynamicTexts::LOC_AD"] = "4",
+	["ST_Descriptions::LOC_DE"]      = "5",
+	["ST_BookContent::LOC_BK"]       = "6",
+	["ST_ScriptContent::LOC_SC"]     = "7",
+	["ST_FullNames::LOC_FN"]         = "8",
+	["ST_LogEntries::LOC_LE"]        = "8",
+	["ST_ResponseTexts::LOC_RT"]     = "8",
+}
+
+local kinds = {}
 local function loadTxt(fn)
 	local t = {}
 	local i = 0
@@ -18,6 +32,13 @@ local function loadTxt(fn)
 		if t[k] then
 			error("ERROR: duplicated key '" .. k .. "' in " .. fn)
 		end
+		local kind, id = k:match "^([%w_]+::%w+_%w+)_"
+		if not kind then error("ERROR: invalid key: " .. k) end
+		if not kindTable[kind] then
+			print("WARN: unknown kind: " .. k)
+			kindTable[kind] = kind
+		end
+		kinds[kind] = true
 		t[k] = v
 	end
 	return t, i
@@ -40,7 +61,12 @@ local kt = {}
 for k in pairs(et) do
 	kt[#kt + 1] = k
 end
-table.sort(kt)
+table.sort(kt, function(a, b)
+	local ka = a:gsub("^([%w_]+::%w+_%w+)_", kindTable)
+	local kb = b:gsub("^([%w_]+::%w+_%w+)_", kindTable)
+	if ka ~= kb then return ka < kb end
+	return a < b
+end)
 io.stderr:write("INFO: en = ", en, "\n")
 
 io.stderr:write("INFO: loading '", arg[2], "' ...\n")
@@ -61,3 +87,14 @@ for _, k in ipairs(kt) do
 	f:write((e == c or not c) and "###" or escape(c), "\r\n\r\n")
 end
 f:close()
+
+--[[
+kt = {}
+for k in pairs(kinds) do
+	kt[#kt + 1] = k
+end
+table.sort(kt)
+for _, k in ipairs(kt) do
+	print(k)
+end
+--]]
