@@ -1,8 +1,9 @@
-local ui = require("openmw.ui")
-local core = require("openmw.core")
-local I = require("openmw.interfaces")
-local util = require('openmw.util')
-local l10n = core.l10n("SSQN")
+local common = common
+local ui = common.omw.ui
+local core = common.omw.core
+local I = common.omw.interfaces
+local util = common.omw.util
+local l10n = common.omw.l10n
 
 
 local function gmstToRgb(id, blend)
@@ -27,6 +28,11 @@ local uiTheme = {
 local self, element = { animate = {} }
 
 function self.renderBanner(m)
+	self.animate = { time = 0, length = m.duration, alpha = 0,
+		width = m.onlyFade and 1100 or 20, fadeTime = m.onlyFade and 1.5 or 1,
+		fadeStart = m.duration + (m.onlyFade and 0 or 0.15)
+	}
+
 	local template = m.transparent and I.MWUI.templates.boxTransparentThick
 		or I.MWUI.templates.boxSolidThick
 
@@ -213,11 +219,11 @@ function self.update(dt)
 	m.time = m.time + dt
 	if m.time > m.length + 0.2 then		return true		end
 	local width, alpha
-	if m.width == 60 then
+	if m.width == 20 then
 		if m.time < 1.5 then
-			width = 60 + 1500 * m.time
+			width = 20 + 1000 * m.time
 		elseif m.time > m.length - 1 and m.time < m.length + 0.2 then
-			width = 60 + 1000 * (m.length - m.time)
+			width = 20 + 1000 * (m.length - m.time)
 		end
 		if width and width < 1100 then
 			width = math.floor(width / 2) * 2
@@ -227,9 +233,9 @@ function self.update(dt)
 		end
 	end
 	if m.time < 0.6 then
-		alpha = math.min(m.time / 0.5, 1)
+		alpha = math.min((m.time / 0.4) ^ 2, 1)
 	elseif m.time > m.fadeStart - m.fadeTime and m.time < m.length + 0.2 then
-		alpha = math.max(1 - (m.time + m.fadeTime - m.fadeStart) / m.fadeTime, 0)
+		alpha = math.max(1 - ((m.time + m.fadeTime - m.fadeStart) / m.fadeTime) ^ 2, 0)
 	end
 	if alpha then
 		element.layout.props.alpha = alpha

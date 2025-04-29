@@ -19,6 +19,10 @@ local comments = {}
 
 local settings = storage.playerSection("Settings_openmw_SSQN")
 
+common = { omw = { ui=ui, core=core, interfaces=I, util=util, l10n=l10n },
+	settings = settings
+}
+
 
 local playerqlist = { ["testbanner_id"] = true }
 local element = nil
@@ -55,6 +59,17 @@ for i in vfs.pathsWithPrefix("scripts/SSQN/iconlists/") do
 	end
 end
 
+local dialogModes = {
+    Barter = true,
+    Companion = true,
+    Dialogue = true,
+    Enchanting = true,
+    MerchantRepair = true,
+    SpellBuying = true,
+    SpellCreation = true,
+    Training = true,
+    Travel = true,
+}
 
 -- Legacy sound names
 local legacy = {
@@ -221,16 +236,11 @@ local function displayPopup(msg)
 --]]
 
 	e.text = txt		e.icon = notificationImage		e.header = header
-
-	local onlyFade = settings:get("anim_style") ~= "opt_anim_scroll"
-	local duration = settings:get("bannertime") + 1
+	e.onlyFade = common.settings:get("anim_style") ~= "opt_anim_scroll"
+	e.duration = common.settings:get("bannertime") + 1
 	if type(msg.time) == "number" then
-		duration = math.max(msg.time, 2) + 1
+		e.duration = math.max(msg.time, 2) + 1
 	end
-	uicode.animate = { time = 0, length = duration, alpha = 0,
-		width = onlyFade and 1100 or 60, fadeTime = onlyFade and 1.5 or 1,
-		fadeStart = duration + (onlyFade and 0 or 0.5)
-	}
 
 	element = uicode.renderBanner(e)
 
@@ -304,6 +314,7 @@ time.runRepeatedly(function()
 	end
 end, 1 * time.second)
 
+local dialogTarget
 
 local function updateJournal(id, stage, info)
 
@@ -311,7 +322,10 @@ local function updateJournal(id, stage, info)
 	if not quest then
 		quest = {}		questLog[id] = quest
 	end
-	quest[stage] = { id=info.id, time=core.getGameTime() }
+	quest[stage] = { id=info.id, time=core.getGameTime(), cell=self.cell.id }
+	if dialogTarget then
+		quest[stage].actor = dialogTarget.recordId
+	end
 
 	local q = {}
 	for k, v in pairs(quest) do
@@ -380,6 +394,11 @@ return {
 	eventHandlers = {
 		UiModeChanged = function(e)
 			if element then self:sendEvent("ssqnRemove")		end
+			if e.newMode == nil then
+				dialogTarget = nil
+			elseif dialogModes[e.newMode] and e.arg then
+				dialogTarget = e.arg
+			end
 		end,
 		ssqnRemove = function()
 			if not element then		return		end
