@@ -240,6 +240,9 @@ else -- "utf8"
 end
 
 local f = io.open(arg[1], "rb")
+if not f then
+	error("ERROR: can not open: " .. arg[1])
+end
 
 local function readInt2()
 	local a, b = byte(f:read(2), 1, 2)

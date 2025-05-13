@@ -1,0 +1,868 @@
+
+luajit ../tes3dec.lua ~$esp_en/DLCBattlehornCastle.esp 1252 raw > ~$esp_en/DLCBattlehornCastle.txt
+luajit ../tes3dec.lua ~$esp_en/DLCFrostcrag.esp        1252 raw > ~$esp_en/DLCFrostcrag.txt
+luajit ../tes3dec.lua ~$esp_en/DLCHorseArmor.esp       1252 raw > ~$esp_en/DLCHorseArmor.txt
+luajit ../tes3dec.lua ~$esp_en/DLCMehrunesRazor.esp    1252 raw > ~$esp_en/DLCMehrunesRazor.txt
+luajit ../tes3dec.lua ~$esp_en/DLCOrrery.esp           1252 raw > ~$esp_en/DLCOrrery.txt
+luajit ../tes3dec.lua ~$esp_en/DLCShiveringIsles.esp   1252 raw > ~$esp_en/DLCShiveringIsles.txt
+luajit ../tes3dec.lua ~$esp_en/DLCSpellTomes.esp       1252 raw > ~$esp_en/DLCSpellTomes.txt
+luajit ../tes3dec.lua ~$esp_en/DLCThievesDen.esp       1252 raw > ~$esp_en/DLCThievesDen.txt
+luajit ../tes3dec.lua ~$esp_en/DLCVileLair.esp         1252 raw > ~$esp_en/DLCVileLair.txt
+luajit ../tes3dec.lua ~$esp_en/Knights.esp             1252 raw > ~$esp_en/Knights.txt
+luajit ../tes3dec.lua ~$esp_en/Oblivion.esm            1252 raw > ~$esp_en/Oblivion.txt
+
+luajit ../tes3dec.lua ~$esp_sc/DLCBattlehornCastle.esp gbk  raw > ~$esp_sc/DLCBattlehornCastle.txt
+luajit ../tes3dec.lua ~$esp_sc/DLCFrostcrag.esp        gbk  raw > ~$esp_sc/DLCFrostcrag.txt
+luajit ../tes3dec.lua ~$esp_sc/DLCHorseArmor.esp       gbk  raw > ~$esp_sc/DLCHorseArmor.txt
+luajit ../tes3dec.lua ~$esp_sc/DLCMehrunesRazor.esp    gbk  raw > ~$esp_sc/DLCMehrunesRazor.txt
+luajit ../tes3dec.lua ~$esp_sc/DLCOrrery.esp           gbk  raw > ~$esp_sc/DLCOrrery.txt
+luajit ../tes3dec.lua ~$esp_sc/DLCSpellTomes.esp       gbk  raw > ~$esp_sc/DLCSpellTomes.txt
+luajit ../tes3dec.lua ~$esp_sc/DLCThievesDen.esp       gbk  raw > ~$esp_sc/DLCThievesDen.txt
+luajit ../tes3dec.lua ~$esp_sc/DLCVileLair.esp         gbk  raw > ~$esp_sc/DLCVileLair.txt
+luajit ../tes3dec.lua ~$esp_sc/Knights.esp             gbk  raw > ~$esp_sc/Knights.txt
+luajit ../tes3dec.lua ~$esp_sc/tes4-CHS-Addon.esp      gbk  raw > ~$esp_sc/tes4-CHS-Addon.txt
+luajit ../tes3dec.lua ~$esp_sc/tes4-CHS-main.esp       gbk  raw > ~$esp_sc/tes4-CHS-main.txt
+luajit ../tes3dec.lua ~$esp_sc/tes4SI-CHS-alpha.esp    gbk  raw > ~$esp_sc/tes4SI-CHS-alpha.txt
+
+luajit ../tes3dec.lua "~$esp_patch/FastTravelDoubleFaceFix.esp"   1252 raw > "~$esp_patch/FastTravelDoubleFaceFix.txt"
+luajit ../tes3dec.lua "~$esp_patch/SubtitleFix.esp"               1252 raw > "~$esp_patch/SubtitleFix.txt"
+luajit ../tes3dec.lua "~$esp_patch/Unofficial Oblivion Patch.esp" 1252 raw > "~$esp_patch/Unofficial Oblivion Patch.txt"
+
+
+>luajit ../tes3dec.lua ~$esp_en/DLCBattlehornCastle.esp 1252 raw > ~$esp_en/DLCBattlehornCastle.txt
+done! 0.171 seconds
+ACHR: 20
+ACRE: 4
+ACTI: 16
+ALCH: 7
+ARMO: 9
+BOOK: 17
+CELL: 37
+CONT: 15
+CREA: 3
+CSTY: 1
+DIAL: 62
+DOOR: 11
+ENCH: 13
+FACT: 4
+GRUP: 208
+IDLE: 1
+INFO: 120
+KEYM: 1
+LAND: 16
+LVLI: 2
+NPC_: 19
+PACK: 100
+PGRD: 25
+QUST: 1
+REFR: 2502
+SCPT: 35
+SOUN: 3
+SPEL: 4
+STAT: 15
+TES4: 1
+WEAP: 9
+WRLD: 1
+TOTAL: 3282
+
+>luajit ../tes3dec.lua ~$esp_en/DLCFrostcrag.esp        1252 raw > ~$esp_en/DLCFrostcrag.txt
+done! 0.065 seconds
+ACHR: 1
+ACRE: 7
+ACTI: 13
+ALCH: 1
+BOOK: 6
+CELL: 27
+CLOT: 1
+CONT: 8
+CREA: 5
+DOOR: 7
+ENCH: 1
+FACT: 2
+FLOR: 3
+GMST: 1
+GRUP: 112
+KEYM: 1
+LAND: 6
+LIGH: 10
+LVSP: 6
+MISC: 1
+NPC_: 2
+PACK: 7
+PGRD: 7
+QUST: 1
+REFR: 1112
+REGN: 1
+SCPT: 20
+SOUN: 12
+SPEL: 24
+STAT: 17
+TES4: 1
+WATR: 1
+WRLD: 5
+TOTAL: 1429
+
+>luajit ../tes3dec.lua ~$esp_en/DLCHorseArmor.esp       1252 raw > ~$esp_en/DLCHorseArmor.txt
+done! 0.019 seconds
+ACRE: 21
+BOOK: 2
+CELL: 6
+CONT: 1
+CREA: 20
+DIAL: 11
+DOOR: 1
+GRUP: 45
+INFO: 14
+NPC_: 1
+QUST: 1
+REFR: 37
+SCPT: 21
+SOUN: 1
+TES4: 1
+WRLD: 1
+TOTAL: 184
+
+>luajit ../tes3dec.lua ~$esp_en/DLCMehrunesRazor.esp    1252 raw > ~$esp_en/DLCMehrunesRazor.txt
+done! 0.248 seconds
+ACHR: 50
+ACRE: 6
+ACTI: 20
+ALCH: 2
+ARMO: 20
+BOOK: 13
+CELL: 39
+CLAS: 1
+CLOT: 24
+CONT: 7
+CREA: 1
+DOOR: 3
+EFSH: 2
+ENCH: 46
+FACT: 3
+FURN: 1
+GRUP: 171
+IDLE: 1
+INGR: 1
+KEYM: 1
+LAND: 10
+LIGH: 8
+LSCR: 4
+LVLC: 8
+LVLI: 13
+MISC: 3
+NPC_: 64
+PACK: 49
+PGRD: 34
+QUST: 1
+REFR: 5002
+SCPT: 37
+SPEL: 4
+STAT: 3
+TES4: 1
+WEAP: 20
+WRLD: 1
+TOTAL: 5674
+
+>luajit ../tes3dec.lua ~$esp_en/DLCOrrery.esp           1252 raw > ~$esp_en/DLCOrrery.txt
+done! 0.013 seconds
+ACHR: 6
+ACTI: 14
+BOOK: 2
+CELL: 8
+DIAL: 1
+DOOR: 1
+GRUP: 40
+INFO: 3
+LIGH: 6
+LVLI: 1
+MISC: 5
+NPC_: 6
+PACK: 4
+PGRD: 1
+QUST: 1
+REFR: 60
+SCPT: 7
+SOUN: 7
+SPEL: 8
+STAT: 1
+TES4: 1
+WRLD: 1
+TOTAL: 184
+
+>luajit ../tes3dec.lua ~$esp_en/DLCShiveringIsles.esp   1252 raw > ~$esp_en/DLCShiveringIsles.txt
+done! 0 seconds
+TES4: 1
+TOTAL: 1
+
+>luajit ../tes3dec.lua ~$esp_en/DLCSpellTomes.esp       1252 raw > ~$esp_en/DLCSpellTomes.txt
+done! 0.099 seconds
+ACHR: 1
+BOOK: 286
+CELL: 3
+CONT: 1
+CREA: 1
+DIAL: 3
+GRUP: 22
+LIGH: 36
+LVLI: 47
+NPC_: 1
+PACK: 1
+REFR: 1
+SCPT: 317
+SPEL: 61
+TES4: 1
+WRLD: 1
+TOTAL: 783
+
+>luajit ../tes3dec.lua ~$esp_en/DLCThievesDen.esp       1252 raw > ~$esp_en/DLCThievesDen.txt
+done! 0.1 seconds
+ACHR: 13
+ACRE: 11
+ALCH: 6
+AMMO: 6
+ARMO: 19
+BOOK: 10
+CELL: 16
+CLOT: 5
+CONT: 11
+CREA: 6
+DIAL: 20
+ENCH: 20
+FACT: 2
+GRUP: 94
+INFO: 41
+KEYM: 1
+LVLC: 1
+LVLI: 14
+MISC: 2
+NPC_: 10
+PACK: 29
+PGRD: 8
+QUST: 3
+REFR: 1857
+SCPT: 14
+SPEL: 15
+STAT: 5
+TES4: 1
+WEAP: 4
+WRLD: 1
+TOTAL: 2245
+
+>luajit ../tes3dec.lua ~$esp_en/DLCVileLair.esp         1252 raw > ~$esp_en/DLCVileLair.txt
+done! 0.069 seconds
+ACHR: 4
+ACRE: 4
+ACTI: 2
+ARMO: 6
+BOOK: 11
+CELL: 25
+CLOT: 1
+CONT: 23
+DIAL: 6
+DOOR: 4
+ENCH: 13
+FACT: 1
+FLOR: 1
+FURN: 1
+GRUP: 108
+INFO: 9
+INGR: 2
+KEYM: 2
+LAND: 11
+LIGH: 10
+LVLI: 4
+MISC: 1
+NPC_: 3
+PACK: 15
+PGRD: 6
+QUST: 1
+REFR: 987
+SCPT: 8
+SOUN: 1
+SPEL: 5
+STAT: 4
+TES4: 1
+WEAP: 7
+WRLD: 3
+TOTAL: 1290
+
+>luajit ../tes3dec.lua ~$esp_en/Knights.esp             1252 raw > ~$esp_en/Knights.txt
+done! 0.575 seconds
+ACHR: 62
+ACRE: 62
+ACTI: 103
+ARMO: 63
+BOOK: 15
+CELL: 132
+CLOT: 1
+CONT: 17
+CREA: 51
+CSTY: 2
+DIAL: 206
+DOOR: 9
+EFSH: 4
+ENCH: 59
+FACT: 8
+GLOB: 1
+GRUP: 615
+IDLE: 29
+INFO: 868
+KEYM: 3
+LAND: 61
+LIGH: 16
+LVLC: 10
+LVLI: 17
+MISC: 8
+NPC_: 76
+PACK: 303
+PGRD: 61
+QUST: 17
+REFR: 6934
+REGN: 14
+SCPT: 194
+SOUN: 27
+SPEL: 56
+STAT: 21
+TES4: 1
+WEAP: 44
+WRLD: 5
+WTHR: 3
+TOTAL: 10178
+
+>luajit ../tes3dec.lua ~$esp_en/Oblivion.esm            1252 raw > ~$esp_en/Oblivion.txt
+done! 62.29 seconds
+ACHR: 2190
+ACRE: 1473
+ACTI: 1252
+ALCH: 253
+AMMO: 128
+ANIO: 34
+APPA: 23
+ARMO: 996
+BOOK: 887
+BSGN: 13
+CELL: 35494
+CLAS: 111
+CLMT: 19
+CLOT: 604
+CONT: 873
+CREA: 914
+CSTY: 126
+DIAL: 3817
+DOOR: 501
+EFSH: 102
+ENCH: 1542
+EYES: 13
+FACT: 476
+FLOR: 155
+FURN: 186
+GLOB: 94
+GMST: 382
+GRAS: 108
+GRUP: 85079
+HAIR: 57
+IDLE: 650
+INFO: 19278
+INGR: 173
+KEYM: 464
+LAND: 31823
+LIGH: 1625
+LSCR: 337
+LTEX: 229
+LVLC: 682
+LVLI: 1398
+LVSP: 306
+MGEF: 145
+MISC: 407
+NPC_: 2482
+PACK: 7209
+PGRD: 8228
+QUST: 390
+RACE: 15
+REFR: 1025617
+REGN: 211
+ROAD: 2
+SBSP: 33
+SCPT: 2393
+SGST: 150
+SKIL: 21
+SLGM: 29
+SOUN: 1140
+SPEL: 1137
+STAT: 6014
+TES4: 1
+TREE: 142
+WATR: 23
+WEAP: 1319
+WRLD: 84
+WTHR: 37
+TOTAL: 1252096
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCBattlehornCastle.esp gbk  raw > ~$esp_sc/DLCBattlehornCastle.txt
+done! 0.173 seconds
+ACHR: 20
+ACRE: 4
+ACTI: 16
+ALCH: 7
+ARMO: 9
+BOOK: 17
+CELL: 34
+CONT: 15
+CREA: 3
+CSTY: 1
+DIAL: 62
+DOOR: 11
+ENCH: 13
+FACT: 4
+GRUP: 202
+IDLE: 1
+INFO: 120
+KEYM: 1
+LAND: 10
+LVLI: 2
+NPC_: 19
+PACK: 100
+PGRD: 24
+QUST: 1
+REFR: 2500
+SCPT: 35
+SOUN: 3
+SPEL: 4
+STAT: 15
+TES4: 1
+WEAP: 9
+WRLD: 1
+TOTAL: 3264
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCFrostcrag.esp        gbk  raw > ~$esp_sc/DLCFrostcrag.txt
+done! 0.068 seconds
+ACHR: 1
+ACRE: 7
+ACTI: 13
+ALCH: 1
+BOOK: 6
+CELL: 25
+CLOT: 1
+CONT: 8
+CREA: 5
+DOOR: 7
+ENCH: 1
+FACT: 2
+FLOR: 3
+GMST: 1
+GRUP: 105
+KEYM: 1
+LAND: 6
+LIGH: 5
+LVSP: 6
+MISC: 1
+NPC_: 2
+PACK: 7
+PGRD: 7
+QUST: 1
+REFR: 1055
+REGN: 1
+SCPT: 20
+SOUN: 12
+SPEL: 24
+STAT: 17
+TES4: 1
+WRLD: 5
+TOTAL: 1357
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCHorseArmor.esp       gbk  raw > ~$esp_sc/DLCHorseArmor.txt
+done! 0.02 seconds
+ACRE: 21
+BOOK: 2
+CELL: 5
+CONT: 1
+CREA: 20
+DIAL: 11
+DOOR: 1
+GRUP: 42
+INFO: 14
+NPC_: 1
+QUST: 1
+REFR: 37
+SCPT: 21
+SOUN: 1
+TES4: 1
+WRLD: 1
+TOTAL: 180
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCMehrunesRazor.esp    gbk  raw > ~$esp_sc/DLCMehrunesRazor.txt
+done! 0.233 seconds
+ACHR: 50
+ACRE: 6
+ACTI: 20
+ALCH: 2
+ARMO: 20
+BOOK: 13
+CELL: 38
+CLAS: 1
+CLOT: 24
+CONT: 7
+CREA: 1
+DOOR: 3
+EFSH: 2
+ENCH: 46
+FACT: 3
+FURN: 1
+GRUP: 166
+IDLE: 1
+INGR: 1
+KEYM: 1
+LAND: 3
+LIGH: 5
+LSCR: 4
+LVLC: 8
+LVLI: 13
+MISC: 3
+NPC_: 64
+PACK: 49
+PGRD: 34
+QUST: 1
+REFR: 5000
+SCPT: 37
+SPEL: 4
+STAT: 3
+TES4: 1
+WEAP: 20
+WRLD: 1
+TOTAL: 5656
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCOrrery.esp           gbk  raw > ~$esp_sc/DLCOrrery.txt
+done! 0.014 seconds
+ACHR: 6
+ACTI: 14
+BOOK: 2
+CELL: 3
+DIAL: 1
+DOOR: 1
+GRUP: 29
+INFO: 3
+LIGH: 6
+LVLI: 1
+MISC: 5
+NPC_: 6
+PACK: 4
+PGRD: 1
+QUST: 1
+REFR: 60
+SCPT: 7
+SOUN: 7
+SPEL: 8
+STAT: 1
+TES4: 1
+WRLD: 1
+TOTAL: 168
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCSpellTomes.esp       gbk  raw > ~$esp_sc/DLCSpellTomes.txt
+done! 0.095 seconds
+ACHR: 1
+BOOK: 286
+CELL: 2
+CONT: 1
+CREA: 1
+DIAL: 3
+GRUP: 18
+LVLI: 47
+NPC_: 1
+PACK: 1
+REFR: 1
+SCPT: 317
+SPEL: 61
+TES4: 1
+WRLD: 1
+TOTAL: 742
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCThievesDen.esp       gbk  raw > ~$esp_sc/DLCThievesDen.txt
+done! 0.1 seconds
+ACHR: 13
+ACRE: 11
+ALCH: 6
+AMMO: 6
+ARMO: 19
+BOOK: 10
+CELL: 14
+CLOT: 5
+CONT: 11
+CREA: 6
+DIAL: 20
+ENCH: 20
+FACT: 2
+GRUP: 92
+INFO: 41
+KEYM: 1
+LVLC: 1
+LVLI: 14
+MISC: 2
+NPC_: 10
+PACK: 29
+PGRD: 8
+QUST: 3
+REFR: 1856
+SCPT: 13
+SPEL: 15
+STAT: 5
+TES4: 1
+WEAP: 4
+WRLD: 1
+TOTAL: 2239
+
+>luajit ../tes3dec.lua ~$esp_sc/DLCVileLair.esp         gbk  raw > ~$esp_sc/DLCVileLair.txt
+done! 0.08 seconds
+ACHR: 4
+ACRE: 4
+ACTI: 2
+ARMO: 6
+BOOK: 11
+CELL: 22
+CLOT: 1
+CONT: 23
+DIAL: 6
+DOOR: 4
+ENCH: 13
+FACT: 1
+FLOR: 1
+FURN: 1
+GRUP: 97
+INFO: 9
+INGR: 2
+KEYM: 2
+LAND: 11
+LIGH: 10
+LVLI: 4
+MISC: 1
+NPC_: 3
+PACK: 15
+PGRD: 6
+QUST: 1
+REFR: 985
+SCPT: 8
+SOUN: 1
+SPEL: 5
+STAT: 4
+TES4: 1
+WEAP: 7
+WRLD: 3
+TOTAL: 1274
+
+>luajit ../tes3dec.lua ~$esp_sc/Knights.esp             gbk  raw > ~$esp_sc/Knights.txt
+done! 0.567 seconds
+ACHR: 62
+ACRE: 60
+ACTI: 103
+ARMO: 63
+BOOK: 15
+CELL: 119
+CLOT: 1
+CONT: 17
+CREA: 51
+CSTY: 2
+DIAL: 206
+DOOR: 9
+EFSH: 4
+ENCH: 59
+FACT: 8
+GLOB: 1
+GRUP: 582
+IDLE: 28
+INFO: 868
+KEYM: 3
+LAND: 45
+LIGH: 11
+LVLC: 10
+LVLI: 17
+MISC: 8
+NPC_: 76
+PACK: 303
+PGRD: 57
+QUST: 17
+REFR: 6875
+REGN: 14
+SCPT: 193
+SOUN: 27
+SPEL: 56
+STAT: 21
+TES4: 1
+WEAP: 44
+WRLD: 5
+WTHR: 3
+TOTAL: 10044
+
+>luajit ../tes3dec.lua ~$esp_sc/tes4-CHS-Addon.esp      gbk  raw > ~$esp_sc/tes4-CHS-Addon.txt
+done! 0.167 seconds
+BOOK: 918
+CELL: 30
+CLAS: 1
+CLOT: 1
+CONT: 4
+CREA: 3
+ENCH: 1
+GRUP: 86
+MGEF: 6
+NPC_: 6
+QUST: 111
+RACE: 4
+REFR: 3
+SCPT: 6
+SPEL: 13
+TES4: 1
+WRLD: 1
+TOTAL: 1195
+
+>luajit ../tes3dec.lua ~$esp_sc/tes4-CHS-main.esp       gbk  raw > ~$esp_sc/tes4-CHS-main.txt
+done! 3.364 seconds
+ACTI: 342
+ALCH: 244
+AMMO: 62
+APPA: 21
+ARMO: 679
+BOOK: 830
+BSGN: 13
+CELL: 1510
+CLAS: 93
+CLOT: 496
+CONT: 722
+CREA: 542
+DIAL: 2768
+DOOR: 406
+ENCH: 8
+EYES: 10
+FACT: 319
+FLOR: 102
+FURN: 166
+GMST: 839
+GRUP: 3818
+HAIR: 57
+INFO: 14329
+INGR: 128
+KEYM: 401
+LIGH: 3
+LSCR: 279
+MGEF: 123
+MISC: 283
+NPC_: 1951
+QUST: 264
+RACE: 10
+REFR: 452
+REGN: 88
+SCPT: 300
+SGST: 150
+SKIL: 21
+SLGM: 27
+SPEL: 779
+TES4: 1
+WEAP: 916
+WRLD: 45
+TOTAL: 34597
+
+>luajit ../tes3dec.lua ~$esp_sc/tes4SI-CHS-alpha.esp    gbk  raw > ~$esp_sc/tes4SI-CHS-alpha.txt
+done! 1.043 seconds
+ACTI: 194
+ALCH: 9
+AMMO: 66
+APPA: 2
+ARMO: 312
+BOOK: 57
+CELL: 203
+CLAS: 16
+CLOT: 107
+CONT: 142
+CREA: 323
+DIAL: 927
+DOOR: 85
+ENCH: 30
+EYES: 3
+FACT: 11
+FLOR: 52
+FURN: 18
+GRUP: 1201
+INFO: 4864
+INGR: 45
+KEYM: 62
+LSCR: 58
+MGEF: 22
+MISC: 118
+NPC_: 502
+QUST: 41
+REFR: 61
+REGN: 24
+SCPT: 143
+SLGM: 2
+SPEL: 331
+TES4: 1
+WEAP: 402
+WRLD: 11
+TOTAL: 10445
+
+>luajit ../tes3dec.lua "~$esp_patch/FastTravelDoubleFaceFix.esp"   1252 raw > "~$esp_patch/FastTravelDoubleFaceFix.txt"
+done! 0.001 seconds
+GRUP: 2
+QUST: 2
+SCPT: 2
+TES4: 1
+TOTAL: 7
+
+>luajit ../tes3dec.lua "~$esp_patch/SubtitleFix.esp"               1252 raw > "~$esp_patch/SubtitleFix.txt"
+done! 0.001 seconds
+GRUP: 2
+QUST: 1
+SCPT: 1
+TES4: 1
+TOTAL: 5
+
+>luajit ../tes3dec.lua "~$esp_patch/Unofficial Oblivion Patch.esp" 1252 raw > "~$esp_patch/Unofficial Oblivion Patch.txt"
+done! 4.605 seconds
+ACHR: 51
+ACRE: 42
+ACTI: 39
+ALCH: 6
+AMMO: 52
+ARMO: 75
+BOOK: 263
+CELL: 6600
+CLAS: 7
+CLOT: 55
+CONT: 53
+CREA: 163
+CSTY: 5
+DIAL: 394
+DOOR: 15
+ENCH: 55
+FACT: 31
+FLOR: 6
+FURN: 4
+GLOB: 1
+GMST: 10
+GRUP: 17910
+IDLE: 7
+INFO: 1908
+INGR: 3
+KEYM: 37
+LIGH: 24
+LSCR: 4
+LVLC: 2
+LVLI: 53
+LVSP: 10
+MGEF: 5
+MISC: 16
+NPC_: 663
+PACK: 831
+PGRD: 153
+QUST: 272
+RACE: 5
+REFR: 73554
+REGN: 1
+ROAD: 1
+SCPT: 531
+SGST: 4
+SLGM: 1
+SOUN: 7
+SPEL: 172
+STAT: 26
+TES4: 1
+WEAP: 168
+WRLD: 39
+TOTAL: 104335
