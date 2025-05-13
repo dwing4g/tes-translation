@@ -239,21 +239,62 @@ else -- "utf8"
 	end
 end
 
+local zlib, ffistr, ffichars, ffilong1
+local function ensureInit()
+	if not zlib then
+		local ffi = require "ffi"
+		ffistr = ffi.string
+		ffichars = ffi.typeof "char[?]"
+		ffilong1 = ffi.typeof "long[1]"
+		ffi.cdef[[
+			int uncompress(char* dest, long* destLen, const char* source, long sourceLen);
+			int compress2 (char* dest, long* destLen, const char* source, long sourceLen, int level);
+			long compressBound(long sourceLen);
+		]]
+		zlib = ffi.load(ffi.os == "Windows" and "zlib1" or "z")
+	end
+end
+local function uncompress(s, dstLen)
+	ensureInit()
+	local dst = ffichars(dstLen)
+	local pDstLen = ffilong1(dstLen)
+	-- io.stderr:write("--- ", #s, " ", dstLen, "\n")
+	local r = zlib.uncompress(dst, pDstLen, s, #s)
+	-- io.stderr:write("=== ", r, " ", pDstLen[0], "\n")
+	if r ~= 0 then
+		error(format("ERROR: uncompress failed: %d", r))
+	end
+	if pDstLen[0] ~= dstLen then
+		error(format("ERROR: uncompress size unmatched: %d ~= %d", pDstLen[0], dstLen))
+	end
+	return ffistr(dst, pDstLen[0])
+end
+
 local f = io.open(arg[1], "rb")
 if not f then
 	error("ERROR: can not open: " .. arg[1])
 end
 
-local function readInt2()
-	local a, b = byte(f:read(2), 1, 2)
+local function readInt2(src, p)
+	local a, b
+	if src then
+		a, b = byte(src, p+1, p+2)
+	else
+		a, b = byte(f:read(2), 1, 2)
+	end
 	return a + b * 0x100
 end
 
-local function readInt4(limit)
-	local a, b, c, d = byte(f:read(4), 1, 4)
+local function readInt4(limit, src, p)
+	local a, b, c, d
+	if src then
+		a, b, c, d = byte(src, p+1, p+4)
+	else
+		a, b, c, d = byte(f:read(4), 1, 4)
+	end
 	local v = a + b * 0x100 + c * 0x10000 + d * 0x1000000
-	if limit and v > limit then error(format("ERROR: 0x%08X: too large value: %d > %d", f:seek(), v, limit)) end
-	return v
+	if limit and v > limit then error(format("ERROR: 0x%08X: too large value: %d > %d", src and p+4 or f:seek(), v, limit)) end
+	return v, p
 end
 
 local stringTags = {
@@ -262,7 +303,7 @@ local stringTags = {
 }
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
-	"ICNT", "INDX", "INTV", "MCDT", "MGEF", "NAM0", "NAM9", "NPDT",
+	"HCLR", "ICNT", "INDX", "INTV", "LNAM", "MCDT", "MGEF", "NAM0", "NAM9", "NPDT",
 	"RGNC", "SPAW", "STAR", "STBA", "WNAM", "XSCL",
 }
 for _, v in ipairs(stringTags) do stringTags[v] = true end
@@ -307,31 +348,36 @@ TOTAL:                            40744
 local classSize
 local classZeroData
 
-local function readFields(class, posEnd)
+local function readFields(class, pos, len, src)
 	local largeSize
+	local p = 0
 	while true do
-		local pos = f:seek()
-		if pos >= posEnd then
-			if pos == posEnd then return end
-			error(format("ERROR: read overflow 0x%X > 0x%X", pos, posEnd))
+		if p >= len then
+			if p == len then return end
+			error(format("ERROR: read overflow 0x%X > 0x%X", pos + p, pos + len))
 		end
-		local tag = f:read(4)
-		if not tag:find "^[%u%d_<=>?:;@%z\x01-\x14][%u%d_]+$" then error(format("ERROR: 0x%08X: unknown tag: %q", pos, tag)) end
+		local tag = src and src:sub(p+1,p+4) or f:read(4)
+		p = p + 4
+		if not tag:find "^[%u%d_<=>?:;@%z\x01-\x14][%u%d_]+$" then error(format("ERROR: 0x%08X: unknown tag: %q", pos + p, tag)) end
 		tag = tag:gsub("^[%z\x01-\x14]", function(s) return char(byte(s, 1) + 0x61) end)
 		if tag == "XXXX" then
-			local n = readInt2()
-			if n ~= 4 then error(format("ERROR: 0x%08X: invalid size for XXXX", pos)) end
-			largeSize = readInt4(0x10000000)
+			local n = readInt2(src, p)
+			p = p + 2
+			if n ~= 4 then error(format("ERROR: 0x%08X: invalid size for XXXX", pos + p)) end
+			largeSize = readInt4(0x10000000, src, p)
+			p = p + 4
 		else
 			local classTag = class .. "." .. tag
-			write(RAW and format(" %s ", classTag) or format("%08X: %s ", pos, classTag))
-			local n = classSize == 8 and readInt4(0x10000000) or readInt2()
+			write(RAW and format(" %s ", classTag) or format("%08X: %s ", pos + p, classTag))
+			local n = classSize == 8 and readInt4(0x10000000, src, p) or readInt2(src, p)
+			p = p + (classSize == 8 and 4 or 2)
 			if largeSize then
-				if n ~= 0 then error(format("ERROR: 0x%08X: invalid size after XXXX", pos)) end
+				if n ~= 0 then error(format("ERROR: 0x%08X: invalid size after XXXX", pos + p)) end
 				n = largeSize
 			end
 			largeSize = nil
-			local s = n > 0 and f:read(n) or ""
+			local s = n > 0 and (src and src:sub(p+1,p+n) or f:read(n)) or ""
+			if n > 0 then p = p + n end
 			if not binaryTags[classTag] and stringTags[classTag] or not binaryTags[tag] and (stringTags[tag] or isStr(s)) then
 				write("\"", addEscape(s), "\"\n") -- :gsub("%z$", "")
 			else
@@ -366,7 +412,12 @@ local function readClasses(posEnd)
 		write(RAW and format("%s%s", pre, tag) or format("%08X:%s%s", pos, pre, tag))
 		local n = readInt4(0x40000000)
 		local b = f:read(classSize)
+		local comp = false
 		if b ~= classZeroData then
+			comp = math.floor(byte(b, 3) / 4) % 2 == 1 -- zlib compressed
+			if comp and tag ~= "GRUP" then
+				b = b:sub(1, 2) .. char(byte(b, 3) - 4) .. b:sub(4) -- remove compressed mark
+			end
 			for j = 1, classSize do
 				write(format(j == 1 and " [%02X" or " %02X", byte(b, j)))
 			end
@@ -377,15 +428,27 @@ local function readClasses(posEnd)
 			readClasses(pos + n)
 			write(RAW and format("}\n") or format("%08X:}\n", f:seek()))
 		else
-			if math.floor(byte(b, 3) / 4) % 2 == 1 then
+			if comp then
+--[[
 				write(RAW and format(" ") or format("%08X: ", f:seek()))
 				b = n > 0 and f:read(n) or ""
 				for i = 1, n do
 					write(format(i == 1 and "[%02X" or " %02X", byte(b, i)))
 				end
 				write(n > 0 and "]\n" or "[]\n")
+--]]
+				if n < 4 then error(format("ERROR: 0x%08X: n=%d < 4", pos, n)) end
+				write "<\n" -- compress begin
+				local dn = readInt4(0x10000)
+				n = n - 4
+				b = n > 0 and f:read(n) or ""
+				if b ~= "" then
+					local d = uncompress(b, dn)
+					readFields(tag, 0, #d, d)
+				end
+				write ">\n" -- compress end
 			else
-				readFields(tag, f:seek() + n)
+				readFields(tag, f:seek(), n)
 			end
 		end
 	end

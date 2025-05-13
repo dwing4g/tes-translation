@@ -203,7 +203,7 @@ for line in io.lines(arg[1]) do
 						error("ERROR: invalid class param at line " .. i)
 					end
 				else
-					f:write "\0\0\0\0\0\0\0\0\0\0\0\0"
+					f:write(ver == 3 and "\0\0\0\0\0\0\0\0\0\0\0\0" or "\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0")
 				end
 			elseif line:match "^}" and #groups > 0 then
 				local p = f:seek()
@@ -212,7 +212,7 @@ for line in io.lines(arg[1]) do
 				f:seek("set", b)
 				writeInt4(p - b + 4)
 				f:seek("set", p)
-			else
+			elseif not line:find "^[<>]$" then -- ignore compression mark
 				error("ERROR: invalid header at line " .. i)
 			end
 		end

@@ -30,7 +30,7 @@ luajit ../tes3dec.lua "~$esp_patch/Unofficial Oblivion Patch.esp" 1252 raw > "~$
 
 
 >luajit ../tes3dec.lua ~$esp_en/DLCBattlehornCastle.esp 1252 raw > ~$esp_en/DLCBattlehornCastle.txt
-done! 0.171 seconds
+done! 0.116 seconds
 ACHR: 20
 ACRE: 4
 ACTI: 16
@@ -66,7 +66,7 @@ WRLD: 1
 TOTAL: 3282
 
 >luajit ../tes3dec.lua ~$esp_en/DLCFrostcrag.esp        1252 raw > ~$esp_en/DLCFrostcrag.txt
-done! 0.065 seconds
+done! 0.039 seconds
 ACHR: 1
 ACRE: 7
 ACTI: 13
@@ -103,7 +103,7 @@ WRLD: 5
 TOTAL: 1429
 
 >luajit ../tes3dec.lua ~$esp_en/DLCHorseArmor.esp       1252 raw > ~$esp_en/DLCHorseArmor.txt
-done! 0.019 seconds
+done! 0.012 seconds
 ACRE: 21
 BOOK: 2
 CELL: 6
@@ -123,7 +123,7 @@ WRLD: 1
 TOTAL: 184
 
 >luajit ../tes3dec.lua ~$esp_en/DLCMehrunesRazor.esp    1252 raw > ~$esp_en/DLCMehrunesRazor.txt
-done! 0.248 seconds
+done! 0.151 seconds
 ACHR: 50
 ACRE: 6
 ACTI: 20
@@ -164,7 +164,7 @@ WRLD: 1
 TOTAL: 5674
 
 >luajit ../tes3dec.lua ~$esp_en/DLCOrrery.esp           1252 raw > ~$esp_en/DLCOrrery.txt
-done! 0.013 seconds
+done! 0.011 seconds
 ACHR: 6
 ACTI: 14
 BOOK: 2
@@ -195,7 +195,7 @@ TES4: 1
 TOTAL: 1
 
 >luajit ../tes3dec.lua ~$esp_en/DLCSpellTomes.esp       1252 raw > ~$esp_en/DLCSpellTomes.txt
-done! 0.099 seconds
+done! 0.048 seconds
 ACHR: 1
 BOOK: 286
 CELL: 3
@@ -215,7 +215,7 @@ WRLD: 1
 TOTAL: 783
 
 >luajit ../tes3dec.lua ~$esp_en/DLCThievesDen.esp       1252 raw > ~$esp_en/DLCThievesDen.txt
-done! 0.1 seconds
+done! 0.054 seconds
 ACHR: 13
 ACRE: 11
 ALCH: 6
@@ -249,7 +249,7 @@ WRLD: 1
 TOTAL: 2245
 
 >luajit ../tes3dec.lua ~$esp_en/DLCVileLair.esp         1252 raw > ~$esp_en/DLCVileLair.txt
-done! 0.069 seconds
+done! 0.048 seconds
 ACHR: 4
 ACRE: 4
 ACTI: 2
@@ -287,7 +287,7 @@ WRLD: 3
 TOTAL: 1290
 
 >luajit ../tes3dec.lua ~$esp_en/Knights.esp             1252 raw > ~$esp_en/Knights.txt
-done! 0.575 seconds
+done! 0.338 seconds
 ACHR: 62
 ACRE: 62
 ACTI: 103
@@ -330,7 +330,7 @@ WTHR: 3
 TOTAL: 10178
 
 >luajit ../tes3dec.lua ~$esp_en/Oblivion.esm            1252 raw > ~$esp_en/Oblivion.txt
-done! 62.29 seconds
+done! 59.85 seconds
 ACHR: 2190
 ACRE: 1473
 ACTI: 1252
@@ -399,7 +399,7 @@ WTHR: 37
 TOTAL: 1252096
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCBattlehornCastle.esp gbk  raw > ~$esp_sc/DLCBattlehornCastle.txt
-done! 0.173 seconds
+done! 0.175 seconds
 ACHR: 20
 ACRE: 4
 ACTI: 16
@@ -435,7 +435,7 @@ WRLD: 1
 TOTAL: 3264
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCFrostcrag.esp        gbk  raw > ~$esp_sc/DLCFrostcrag.txt
-done! 0.068 seconds
+done! 0.069 seconds
 ACHR: 1
 ACRE: 7
 ACTI: 13
@@ -471,7 +471,7 @@ WRLD: 5
 TOTAL: 1357
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCHorseArmor.esp       gbk  raw > ~$esp_sc/DLCHorseArmor.txt
-done! 0.02 seconds
+done! 0.023 seconds
 ACRE: 21
 BOOK: 2
 CELL: 5
@@ -491,7 +491,7 @@ WRLD: 1
 TOTAL: 180
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCMehrunesRazor.esp    gbk  raw > ~$esp_sc/DLCMehrunesRazor.txt
-done! 0.233 seconds
+done! 0.23 seconds
 ACHR: 50
 ACRE: 6
 ACTI: 20
@@ -532,7 +532,7 @@ WRLD: 1
 TOTAL: 5656
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCOrrery.esp           gbk  raw > ~$esp_sc/DLCOrrery.txt
-done! 0.014 seconds
+done! 0.019 seconds
 ACHR: 6
 ACTI: 14
 BOOK: 2
@@ -558,7 +558,7 @@ WRLD: 1
 TOTAL: 168
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCSpellTomes.esp       gbk  raw > ~$esp_sc/DLCSpellTomes.txt
-done! 0.095 seconds
+done! 0.077 seconds
 ACHR: 1
 BOOK: 286
 CELL: 2
@@ -577,7 +577,7 @@ WRLD: 1
 TOTAL: 742
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCThievesDen.esp       gbk  raw > ~$esp_sc/DLCThievesDen.txt
-done! 0.1 seconds
+done! 0.087 seconds
 ACHR: 13
 ACRE: 11
 ALCH: 6
@@ -611,7 +611,7 @@ WRLD: 1
 TOTAL: 2239
 
 >luajit ../tes3dec.lua ~$esp_sc/DLCVileLair.esp         gbk  raw > ~$esp_sc/DLCVileLair.txt
-done! 0.08 seconds
+done! 0.075 seconds
 ACHR: 4
 ACRE: 4
 ACTI: 2
@@ -649,7 +649,7 @@ WRLD: 3
 TOTAL: 1274
 
 >luajit ../tes3dec.lua ~$esp_sc/Knights.esp             gbk  raw > ~$esp_sc/Knights.txt
-done! 0.567 seconds
+done! 0.513 seconds
 ACHR: 62
 ACRE: 60
 ACTI: 103
@@ -692,7 +692,7 @@ WTHR: 3
 TOTAL: 10044
 
 >luajit ../tes3dec.lua ~$esp_sc/tes4-CHS-Addon.esp      gbk  raw > ~$esp_sc/tes4-CHS-Addon.txt
-done! 0.167 seconds
+done! 0.136 seconds
 BOOK: 918
 CELL: 30
 CLAS: 1
@@ -713,7 +713,7 @@ WRLD: 1
 TOTAL: 1195
 
 >luajit ../tes3dec.lua ~$esp_sc/tes4-CHS-main.esp       gbk  raw > ~$esp_sc/tes4-CHS-main.txt
-done! 3.364 seconds
+done! 2.079 seconds
 ACTI: 342
 ALCH: 244
 AMMO: 62
@@ -759,7 +759,7 @@ WRLD: 45
 TOTAL: 34597
 
 >luajit ../tes3dec.lua ~$esp_sc/tes4SI-CHS-alpha.esp    gbk  raw > ~$esp_sc/tes4SI-CHS-alpha.txt
-done! 1.043 seconds
+done! 0.622 seconds
 ACTI: 194
 ALCH: 9
 AMMO: 66
@@ -798,7 +798,7 @@ WRLD: 11
 TOTAL: 10445
 
 >luajit ../tes3dec.lua "~$esp_patch/FastTravelDoubleFaceFix.esp"   1252 raw > "~$esp_patch/FastTravelDoubleFaceFix.txt"
-done! 0.001 seconds
+done! 0.002 seconds
 GRUP: 2
 QUST: 2
 SCPT: 2
@@ -806,7 +806,7 @@ TES4: 1
 TOTAL: 7
 
 >luajit ../tes3dec.lua "~$esp_patch/SubtitleFix.esp"               1252 raw > "~$esp_patch/SubtitleFix.txt"
-done! 0.001 seconds
+done! 0.002 seconds
 GRUP: 2
 QUST: 1
 SCPT: 1
@@ -814,7 +814,7 @@ TES4: 1
 TOTAL: 5
 
 >luajit ../tes3dec.lua "~$esp_patch/Unofficial Oblivion Patch.esp" 1252 raw > "~$esp_patch/Unofficial Oblivion Patch.txt"
-done! 4.605 seconds
+done! 3.784 seconds
 ACHR: 51
 ACRE: 42
 ACTI: 39
