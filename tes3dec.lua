@@ -303,8 +303,8 @@ local stringTags = {
 }
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
-	"HCLR", "ICNT", "INDX", "INTV", "LNAM", "MCDT", "MGEF", "NAM0", "NAM9", "NPDT",
-	"RGNC", "SPAW", "STAR", "STBA", "WNAM", "XSCL",
+	"HCLR", "ICNT", "INDX", "INTV", "LNAM", "MODB", "MCDT", "MGEF", "NAM0", "NAM9", "NPDT",
+	"PKID", "RGNC", "SCRI", "SPAW", "STAR", "STBA", "WNAM", "XSCL",
 }
 for _, v in ipairs(stringTags) do stringTags[v] = true end
 for _, v in ipairs(binaryTags) do binaryTags[v] = true end
