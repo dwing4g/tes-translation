@@ -606,7 +606,7 @@ The First Trees are gone. Travel east and find the one who has stolen the Seeds.
 
 > SCPT.SCTX stoneUlfgarScript m1
 You have been granted the gift of Ulfgar's strength.
-你已获得乌尔夫加的力量天赋。
+你已获得乌夫加尔的力量天赋。
 
 > SCPT.SCTX stoneWaterScript m1
 Travel west to a small island off the coast, and follow the Swimmer to seek the Water of Life.
@@ -2298,11 +2298,11 @@ Bear Cuirass
 
 > ARMO.FNAM bm bear left gauntlet
 Bear Left Gauntlet
-熊皮左护手
+熊皮左腕甲
 
 > ARMO.FNAM BM bear right gauntlet
 Bear Right Gauntlet
-熊皮右护手
+熊皮右腕甲
 
 > ARMO.FNAM BM bear greaves
 Bear Greaves
@@ -2314,11 +2314,11 @@ Bear Helmet
 
 > ARMO.FNAM BM bear right pauldron
 Bear Right Pauldron
-熊皮右护肩
+熊皮右肩甲
 
 > ARMO.FNAM BM Bear left Pauldron
 Bear Left Pauldron
-熊皮左护肩
+熊皮左肩甲
 
 > ARMO.FNAM BM wolf cuirass
 Wolf Cuirass
@@ -2334,19 +2334,19 @@ Wolf Helmet
 
 > ARMO.FNAM bm wolf left gauntlet
 Wolf Left Gauntlet
-狼皮左护手
+狼皮左腕甲
 
 > ARMO.FNAM BM Wolf Left Pauldron
 Wolf Left Pauldron
-狼皮左护肩
+狼皮左肩甲
 
 > ARMO.FNAM BM wolf right gauntlet
 Wolf Right Gauntlet
-狼皮右护手
+狼皮右腕甲
 
 > ARMO.FNAM BM Wolf right pauldron
 Wolf Right Pauldron
-狼皮右护肩
+狼皮右肩甲
 
 > NPC_.FNAM kolfinna
 Kolfinna
@@ -2555,11 +2555,11 @@ Ancient Steel Cuirass
 
 > ARMO.FNAM steel_gauntlet_left_ancient
 Ancient Steel Left Gauntlet
-古代钢制左护手
+古代钢制左腕甲
 
 > ARMO.FNAM steel_gauntlet_right_ancient
 Ancient Steel Right Gauntlet
-古代钢制右护手
+古代钢制右腕甲
 
 > ARMO.FNAM steel_greaves_ancient
 Ancient Steel Greaves
@@ -3921,7 +3921,7 @@ Thormoor Gray-Wave
 
 > MISC.FNAM misc_skull_oddfrid
 Oddfrid White-Lip
-奥德弗里德·白-唇
+奥德弗里德·白唇
 
 > NPC_.FNAM geilir the mumbling
 Geilir the Mumbling
@@ -4041,7 +4041,7 @@ Snow Wolf Helmet
 
 > ARMO.FNAM BM_wolf_left_gauntlet_snow
 Snow Wolf Left Gauntlet
-雪狼左护手
+雪狼左腕甲
 
 > ARMO.FNAM BM_wolf_left_pauldron_snow
 Snow Wolf Left Pauldron
@@ -4049,7 +4049,7 @@ Snow Wolf Left Pauldron
 
 > ARMO.FNAM BM_wolf_right_gauntlet_snow
 Snow Wolf Right Gauntlet
-雪狼右护手
+雪狼右腕甲
 
 > ARMO.FNAM BM_wolf_right_pauldron_snow
 Snow Wolf Right Pauldron
@@ -4073,7 +4073,7 @@ Snow Bear Helmet
 
 > ARMO.FNAM BM_bear_left_gauntlet_snow
 Snow Bear Left Gauntlet
-雪熊左护手
+雪熊左腕甲
 
 > ARMO.FNAM BM_Bear_left_Pauldron_snow
 Snow Bear Left Pauldron
@@ -4081,7 +4081,7 @@ Snow Bear Left Pauldron
 
 > ARMO.FNAM BM_bear_right_gauntlet_snow
 Snow Bear Right Gauntlet
-雪熊右护手
+雪熊右腕甲
 
 > ARMO.FNAM BM_bear_right_pauldron_snow
 Snow Bear Right Pauldron
@@ -4427,8 +4427,8 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 雪熊胸甲：5张雪熊皮和6000金币<BR>
 雪熊左肩甲：2张雪熊皮和1000金币<BR>
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
-雪熊左护手：2张雪熊皮和1000金币<BR>
-雪熊右护手：2张雪熊皮和1000金币<BR>
+雪熊左腕甲：2张雪熊皮和1000金币<BR>
+雪熊右腕甲：2张雪熊皮和1000金币<BR>
 雪熊护胫：4张雪熊皮和5000金币<BR>
 雪熊靴：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
@@ -4437,8 +4437,8 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 雪狼胸甲：5张雪狼皮和6000金币<BR>
 雪狼肩甲：2张雪狼皮和1000金币<BR>
 雪狼肩甲：2张雪狼皮和1000金币<BR>
-雪狼左护手：2张雪狼皮和1000金币<BR>
-雪狼右护手：2张雪狼皮和1000金币<BR>
+雪狼左腕甲：2张雪狼皮和1000金币<BR>
+雪狼右腕甲：2张雪狼皮和1000金币<BR>
 雪狼护胫：4张雪狼皮和5000金币<BR>
 雪狼靴：3张雪狼皮和3000金币<BR>
 雪狼头盔：2张雪狼皮和2000金币<BR>
@@ -4701,19 +4701,19 @@ Nordic Mail Cuirass
 
 > ARMO.FNAM BM_NordicMail_PauldronL
 Nordic Mail Left Pauldron
-诺德链甲左护肩
+诺德链甲左肩甲
 
 > ARMO.FNAM BM_NordicMail_PauldronR
 Nordic Mail Right Pauldron
-诺德链甲右护肩
+诺德链甲右肩甲
 
 > ARMO.FNAM BM_NordicMail_gauntletL
 Nordic Mail Left Gauntlet
-诺德链甲左护手
+诺德链甲左腕甲
 
 > ARMO.FNAM BM_NordicMail_gauntletR
 Nordic Mail Right Gauntlet
-诺德链甲右护手
+诺德链甲右腕甲
 
 > ARMO.FNAM BM_NordicMail_Helmet
 Nordic Mail Helmet
@@ -4845,11 +4845,11 @@ Ice Armor Cuirass
 
 > ARMO.FNAM BM_Ice_gauntletL
 Ice Armor Left Gauntlet
-魔冰左护手
+魔冰左腕甲
 
 > ARMO.FNAM BM_Ice_gauntletR
 Ice Armor Right Gauntlet
-魔冰右护手
+魔冰右腕甲
 
 > ARMO.FNAM BM_Ice_greaves
 Ice Armor Greaves
@@ -4861,11 +4861,11 @@ Ice Armor Helmet
 
 > ARMO.FNAM BM_Ice_PauldronL
 Ice Armor Left Pauldron
-魔冰左护肩
+魔冰左肩甲
 
 > ARMO.FNAM BM_Ice_PauldronR
 Ice Armor Right Pauldron
-魔冰右护肩
+魔冰右肩甲
 
 > WEAP.FNAM BM_ice_minion_lance
 Riekling Lance
@@ -5645,8 +5645,8 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 雪熊胸甲：5张雪熊皮和6000金币<BR>
 雪熊左肩甲：2张雪熊皮和1000金币<BR>
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
-雪熊左护手：2张雪熊皮和1000金币<BR>
-雪熊右护手：2张雪熊皮和1000金币<BR>
+雪熊左腕甲：2张雪熊皮和1000金币<BR>
+雪熊右腕甲：2张雪熊皮和1000金币<BR>
 雪熊护胫：4张雪熊皮和5000金币<BR>
 雪熊靴：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
@@ -5655,8 +5655,8 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 雪狼胸甲：5张雪狼皮和6000金币<BR>
 雪狼左肩甲：2张雪狼皮和1000金币<BR>
 雪狼右肩甲：2张雪狼皮和1000金币<BR>
-雪狼左护手：2张雪狼皮和1000金币<BR>
-雪狼右护手：2张雪狼皮和1000金币<BR>
+雪狼左腕甲：2张雪狼皮和1000金币<BR>
+雪狼右腕甲：2张雪狼皮和1000金币<BR>
 雪狼护胫：4张雪狼皮和5000金币<BR>
 雪狼靴：3张雪狼皮和3000金币<BR>
 雪狼头盔：2张雪狼皮和2000金币<BR>
@@ -8006,7 +8006,7 @@ Trade Mission to the Zainab
 
 > INFO.NAME town_tel_vos_wise 188301899790824276
 The Zainab Ashlander wise woman Sonummu Zabamat said that the tribe needs more Cure Common Disease and Cure Blight Disease potions. The tribe's men travel long distances, hunting and herding, and when they catch diseases, they can't return to camp to be cured by the wise woman, but if they carry potions, the can cure themselves. Now I can report back to Turedus Talanian, and tell him that Cure Common Disease and Cure Blight Disease potions would be valuable trade goods.
-灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎疾病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。
+灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。
 
 > INFO.NAME a2_4_milo_hola_go 2852429914292997974
 Mehra Milo and the Lost Prophecies
@@ -10514,7 +10514,7 @@ Like the shadow of a snake, my hand darted inside the purse of Sigvatr the Stron
 
 > INFO.NAME bm_retribution 2643824700587330182
 Pinetear has been delivered to the widow Kolfinna, thereby fulfilling the extraction of wergild.  Kolfinna was deeply touched by my efforts, and now considers me a member of her family.  I can sleep in Kolfinna's bed at any time, and she has given me a key to her husband's old chest.  I can have whatever it contains.
-松绿之泪已经交给了寡妇科尔芬娜，从而完成了血债的任务。科尔芬娜被我的努力深深感动，现在把我当成了她的家人。我可以随时睡在科尔芬娜的床上，她还给了我一把她丈夫旧箱子的钥匙。里面的东西我都可以拿走。
+松绿之泪已经交给了寡妇科尔芬娜，我完成了血债的任务。科尔芬娜被我的努力深深感动，现在把我当成了她的家人。我可以随时睡在科尔芬娜的床上，她还给了我一把她丈夫旧箱子的钥匙。里面的东西我都可以拿走。
 
 > INFO.NAME bm_skaalattack 238943991687415916
 The Siege of the Skaal Village
@@ -10562,11 +10562,11 @@ Betrayal at Brodir Grove
 
 > INFO.NAME bm_brodirgrove 1920210590298791438
 I met Ulfgar the Unending and he told me his sad tale.  He and his four companions came to Solstheim on some sort of quest.  One of the five, a sorcerer named Grimkell, betrayed Ulfgar and the others.  Ulfgar killed Grimkell, but the other three companions were turned to stone.  They are the standing stones of Brodir Grove.
-我遇到了无尽者乌夫加尔，他向我讲述了他的悲惨故事。他和他的四个同伴来到索瑟泰姆进行某种探险。五人中有一个名叫格里姆凯尔的巫师背叛了乌尔夫加和其他人。乌尔夫加杀死了格里姆凯尔，但其他三个同伴却变成了石头。他们就是泊地尔石阵的立石。 {树林}
+我遇到了无尽者乌夫加尔，他向我讲述了他的悲惨故事。他和他的四个同伴来到索瑟泰姆进行某种探险。五人中有一个名叫格里姆凯尔的巫师背叛了乌夫加尔和其他人。乌夫加尔杀死了格里姆凯尔，但其他三个同伴却变成了石头。他们就是泊地尔石阵的立石。 {树林}
 
 > INFO.NAME bm_brodirgrove 2560469252726718385
 For five hundred years Ulfgar has been unsuccessfully searching for the entrance to Sovngarde, the mythical fortress where valiant Nords may live forever.  He feels he has failed in his quest, and will be forever in my debt if I can find the entrance myself.
-五百年来，乌尔夫加一直在寻找松加德的入口，但没有成功。松加德是神话中的堡垒，英勇的诺德人可以在那里永生。他认为自己今生探求松加德无果了。如果我能为他找到入口，他将永远欠我一个人情。
+五百年来，乌夫加尔一直在寻找松加德的入口，但没有成功。松加德是神话中的堡垒，英勇的诺德人可以在那里永生。他认为自己今生探求松加德无果了。如果我能为他找到入口，他将永远欠我一个人情。
 
 > INFO.NAME bm_brodirgrove 1178610488487319471
 The book "Sovngarde, a Reexamination" contains new theories on the god Shor's mythical Hall of Valor.  Of particular interest is the suggestion that the entrance to Sovngarde doesn't actually exist in the physical world.  All a Nord has to do to enter Sovngarde is die in honorable combat. I should get this book back to Ulfgar the Unending.  He'll be very interested in what it has to say.
@@ -10574,23 +10574,23 @@ The book "Sovngarde, a Reexamination" contains new theories on the god Shor's my
 
 > INFO.NAME bm_brodirgrove 4259153062611329672
 Ulfgar was both shocked and excited by the new theories contained in the book "Sovngarde, a Reexamination."  He now believes the entrance to Sovngarde has been right before him all along.  All he has to do is die an honorable death -- and he's chosen me as his opponent.
-乌尔夫加对《再探松加德》一书中的新理论既震惊又兴奋。他现在相信，松加德的入口一直就在他面前。他所要做的就是光荣地死去 -- 而他选择了我作为他的对手。
+乌夫加尔对《再探松加德》一书中的新理论既震惊又兴奋。他现在相信，松加德的入口一直就在他面前。他所要做的就是光荣地死去 -- 而他选择了我作为他的对手。
 
 > INFO.NAME bm_brodirgrove 24429185522872617948
 Ulfgar asked me to engage him in mortal combat in the hopes that I could win, and send his soul to Sovngarde.  I refused.
-乌尔夫加让我和他决一死战，希望我能获胜，把他的灵魂送到松加德。我拒绝了。
+乌夫加尔让我和他决一死战，希望我能获胜，把他的灵魂送到松加德。我拒绝了。
 
 > INFO.NAME bm_brodirgrove 1829965224154368
 Ulfgar asked me to engage him in mortal combat in the hopes that I could win, and send his soul to Sovngarde.  I agreed, and must return to him at his dwelling when I am ready to fight.
-乌尔夫加让我和他决一死战，并希望我能获胜，从而把他的灵魂送往松加德。我同意了，当我准备好战斗时，必须回到他的住所。
+乌夫加尔让我和他决一死战，并希望我能获胜，从而把他的灵魂送往松加德。我同意了，当我准备好战斗时，必须回到他的住所。
 
 > INFO.NAME bm_brodirgrove 31289248272183216428
 I killed Ulfgar.  With his dying breath, he thanked me for granting him entrance to Sovngarde.  Ulfgar also said he'd try to reach out to me from the afterlife and leave some kind of reward at Brodir Grove.
-我杀死了乌尔夫加。他在弥留之际感谢我帮他进入松加德。乌尔夫加还说他会尝试在死后联系我，并在泊地尔石阵留下某种奖赏。 {报酬,树林}
+我杀死了乌夫加尔。他在弥留之际感谢我帮他进入松加德。乌夫加尔还说他会尝试在死后联系我，并在泊地尔石阵留下某种奖赏。 {报酬,树林}
 
 > INFO.NAME bm_brodirgrove 1471315255747824878
 I went to Brodir Grove and was met by the spirit of Ulfgar.  He met his friends in Sovngarde and told them of the help I granted him.  As a reward, the companions will imbue me with their greatest attributes every time I visit Brodir Grove.  I need only visit their standing stones to receive the blessings.
-我来到泊地尔石阵，见到了乌尔夫加的灵魂。他在松加德见到了他的朋友们，并讲述了我所给予的帮助。作为回报，每次我去泊地尔石阵，他的同伴们都会为我注入他们最强大的属性。我只需拜访他们的立石，就能获得祝福。 {树林,报酬,需要}
+我来到泊地尔石阵，见到了乌夫加尔的灵魂。他在松加德见到了他的朋友们，并讲述了我所给予的帮助。作为回报，每次我去泊地尔石阵，他的同伴们都会为我注入他们最强大的属性。我只需拜访他们的立石，就能获得祝福。 {树林,报酬,需要}
 
 > INFO.NAME bm_frostgiant1 2970611300378610522
 The Castle Karstaag
@@ -11670,7 +11670,7 @@ I should check in and see if there's a new assignment for me.
 
 > INFO.NAME colony_update 13140136532339269
 The third phase of construction should be complete. I should check in and see if there are any assignments for me.
-第三期工程应该完工了。我应该去看看是否有业务给我。
+第三阶段的建设应该完工了。我应该去看看是否有业务给我。
 
 > INFO.NAME colony_update 1663916321957631206
 The second phase of construction should be complete; I should check in at the colony to see if there's any work for me.
@@ -12738,7 +12738,7 @@ The Oracle thanked me for giving her the Scroll of Fiercely Roasting. She left t
 
 > INFO.NAME ic28_urjorad 10144175852044614336
 The Oracle says that by killing Carecalmo and Meryaran I have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil. As a reward she gave me the Gauntlets of Glory. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
-神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之铠。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。
+神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。
 
 > INFO.NAME ic2_muck_not 24161190852188632509
 Imperial Cult: Gathering Muck
@@ -13874,7 +13874,7 @@ As I entered the next ring of the glacier, I found Tharsten Heart-Fang. He told 
 
 > INFO.NAME bm_wildhunt 188302990614188995
 Heart-Fang is dead. As he died, the Ring of Hircine disappeared from his finger and appeared in my inventory.
-心牙死了。他死的时候，希尔辛之戒从他的手指上消失，出现在我的库存里。 {戒指}
+心牙死了。他死的时候，希尔辛之戒从他的手指上消失，出现在我的身上。 {戒指}
 
 > INFO.NAME bm_wildhunt 2555930546159799664
 On the corpse of Heart-Fang, I have found the second key to allow me to proceed through this maze.
@@ -14518,23 +14518,23 @@ I met a sad warlock and seer named Geilir the Mumbling.  His family was recently
 
 > INFO.NAME bm_sadseer 3034010896191716750
 Geilir asked me to rescue Oddfrid White-Lip from Kolbjorn Barrow, but I refused.
-盖利尔让我从科布乔恩古冢救出奥德弗里德·白-唇，但我拒绝了。
+盖利尔让我从科布乔恩古冢救出奥德弗里德·白唇，但我拒绝了。
 
 > INFO.NAME bm_sadseer 476731776472729772
 I have agreed to help Geilir the Mumbling by rescuing Oddfrid White-Lip from Kolbjorn Barrow.  As a reward, he will talk to Oddfrid and reveal my future.  Kolbjorn Barrow is southeast of Geilir's dwelling, near the Solstheim coast.
-我同意帮助喃喃者盖利尔，从科布乔恩古冢营救奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈，并透露我的未来。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
+我同意帮助喃喃者盖利尔，从科布乔恩古冢营救奥德弗里德·白唇。作为酬劳，他将与奥德弗里德交谈，并透露我的未来。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
 
 > INFO.NAME bm_sadseer 21755137051556225545
 I have agreed to help Geilir the Mumbling by rescuing Oddfrid White-Lip from Kolbjorn Barrow.  As a reward, he will talk to  Oddfrid and reveal my future.  He will also reverse Thormoor Gray-Wave's curse of eternal wakefulness.  Kolbjorn Barrow is southeast of Geilir's dwelling, near the Solstheim coast.
-我同意帮助喃喃者盖利尔，从科布乔恩古冢救出奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈并揭示我的未来。他还会解除托尔穆尔·灰浪的永不安寝诅咒。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
+我同意帮助喃喃者盖利尔，从科布乔恩古冢救出奥德弗里德·白唇。作为酬劳，他将与奥德弗里德交谈并揭示我的未来。他还会解除托尔穆尔·灰浪的永不安寝诅咒。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}
 
 > INFO.NAME bm_sadseer 22251196661123929683
 I found Oddfrid White-Lip, but Geilir failed to mention that she was just a skull.  No matter.  If I return the skull to Geilir, he should grant my reward.
-我找到了奥德弗里德·白-唇，但盖利尔没有提到她只是个骷髅头。没关系。如果我把头骨还给盖利尔，他应该会给我奖赏。 {报酬}
+我找到了奥德弗里德·白唇，但盖利尔没有提到她只是个骷髅头。没关系。如果我把头骨还给盖利尔，他应该会给我奖赏。 {报酬}
 
 > INFO.NAME bm_sadseer 2147823814821827709
 I returned Oddfrid White-Lip to Geilir the Mumbling.  Geilir admitted that Oddfrid was just a skull, but insists "she" talks to him.
-我把奥德弗里德·白-唇交还给了喃喃者盖利尔。盖利尔承认奥德弗里德只是个骷髅头，但坚持“她”会跟他说话。 {谈}
+我把奥德弗里德·白唇交还给了喃喃者盖利尔。盖利尔承认奥德弗里德只是个骷髅头，但坚持“她”会跟他说话。 {谈}
 
 > INFO.NAME bm_sadseer 3997156941542613539
 Geilir the Mumbling told me my future.  He said something about the beginning of a hunt, and me as both the hunter and hunted.  I was surrouned by ice.  He also said something about a giant and a horned huntsman.
@@ -17158,11 +17158,11 @@ New theories, you say?  Let me see the book you speak of.  Hmmm.... Could this b
 
 > INFO.BNAM failed in our quest 28357324331720217418 c1
 Sorry, Ulfgar, I can't help you.
-对不起，乌尔夫加，我帮不了你。
+对不起，乌夫加尔，我帮不了你。
 
 > INFO.BNAM failed in our quest 28357324331720217418 c2
 I'll help you, Ulfgar.  I will do everything in my power to defeat you in armed combat.
-我会帮你的，乌尔夫加。我会尽我所能在武装战斗中打败你。
+我会帮你的，乌夫加尔。我会尽我所能在武装战斗中打败你。
 
 > INFO.NAME failed in our quest 14503199851187811627
 Don't you understand?  For five hundred years, I have searched for the entrance to Sovngarde!  I have been all across the Empire and back, but I cannot find it!  Once, my friends and I served Ysgramor, and counted ourselves among his "Five Hundred Companions."  We helped drive the Elves out of Skyrim!  We earned our place in Sovngarde!  If, in your travels, you discover the entrance to Sovngarde, let me know, and I will be forever in your debt.  I have tried...and failed.
@@ -17174,7 +17174,7 @@ Don't you understand?  For five hundred years, I have searched for the entrance 
 
 > INFO.BNAM failed in our quest 105981973125481769 c1
 Actually, Ulfgar, I came upon this book.  It's called 'Sovngarde -- A Reexamination,' and seems to offer new theories on how one may enter Sovngarde.  I think it may have the answers you seek.
-事实上，乌尔夫加，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。
+事实上，乌夫加尔，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。
 
 > INFO.NAME eternal wakefulness 225827405257578924
 As punishment for my incompetence, the seer laid a powerful curse upon me.  I am exhausted, but can't sleep no matter what I try.  Potions, magicka, nothing works.  The truth is, I haven't slept at all in six months.  %PCName, if you happen to run into the seer, maybe you could convince him to lift the curse?  His name is Geilir the Mumbling, and he lives by himself in a dwelling here on Solstheim.  Do this for me, and I will share with you the most valuable secret I learned when I was a ship captain.
@@ -18118,7 +18118,7 @@ Feed him to the wolves.
 
 > INFO.NAME tell your future 442362397403602
 Ah, not yet dear %PCClass.  First you must bring me the Skull of Oddfrid White-Lip.
-啊，还不行，亲爱的%PCClass。你必须先把奥德弗里德·白-唇的头骨给我带来。
+啊，还不行，亲爱的%PCClass。你必须先把奥德弗里德·白唇的头骨给我带来。
 
 > INFO.NAME tell your future 3092817651153532605
 %PCClass, the skull of Oddfrid White-Lip is speaking to me, telling me your future. She says...she says the time for the hunt is near. You are both hunter and hunted. She sees you surrounded by ice. Beware betrayal! Oddfrid sees...she sees a giant.  And.... Yes! The horned huntsman! That is all. I'm not sure what it all means, but Oddfrid has nothing more to say.
@@ -18584,7 +18584,7 @@ To the far north is a great castle of ice. Is this the place you speak of?
 
 > INFO.NAME snow wolf armor 848823097148716349
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Helm.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼盔，比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 14824115881174823039
 Your custom Snow Wolf Helm isn't ready yet, %PCName.  Come back later.
@@ -18592,7 +18592,7 @@ Your custom Snow Wolf Helm isn't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 294127740238363199
 Your custom armor is ready!  Here you go, %PCName, one expertly crafted pair of Snow Wolf Boots.  They came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了？给你，%PCName，一双精心制作的雪狼靴。比我想象的还要好！如果你还需要什么，尽管吩咐！ {定制护甲}
+你的定制护甲准备好了？给你，%PCName，一双精心制作的雪狼靴子。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 32016149432863622601
 Your custom Snow Wolf Boots aren't ready yet, %PCName.  Come back later.
@@ -18600,7 +18600,7 @@ Your custom Snow Wolf Boots aren't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 710616531067416788
 Your custom armor is ready!  Here you go, %PCName, one expertly crafted set of Snow Wolf Greaves.  They came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了？给你，%PCName，一套精工制作的雪狼格力夫。比我想象的还要好！如果你还需要什么，尽管吩咐！ {定制护甲}
+你的定制护甲准备好了？给你，%PCName，一套精工制作的雪狼胫甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 15758235182619120363
 Your custom Snow Wolf Greaves aren't ready yet, %PCName.  Come back later.
@@ -18608,39 +18608,39 @@ Your custom Snow Wolf Greaves aren't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 1955124027608129240
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Left Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左手铠。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 1250413083117636835
 Your custom Snow Wolf Left Gauntlet isn't ready yet, %PCName.  Come back later.
-你的定制雪狼左肩甲还没好，%PCName。稍后再来。
+你的定制雪狼左腕甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow wolf armor 1764328551172574490
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Right Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼右铠。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼右腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 12729231211106222386
 Your custom Snow Wolf Right Gauntlet isn't ready yet, %PCName.  Come back later.
-你的定制雪狼右肩甲还没好，%PCName。稍后再来。
+你的定制雪狼右腕甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow wolf armor 2986731801154257214
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Left Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左护手。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 20018737301356078
 Your custom Snow Wolf Left Pauldron isn't ready yet, %PCName.  Come back later.
-你的定制雪狼左护手还没好，%PCName。稍后再来。
+你的定制雪狼左肩甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow wolf armor 27001163382273820938
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Right Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼右护手。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼右肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 325292433550669039
 Your custom Snow Wolf Right Pauldron isn't ready yet, %PCName.  Come back later.
-你的定制雪狼右护手还没好，%PCName。稍后再来。
+你的定制雪狼右肩甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow wolf armor 390417542306632395
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Cuirass.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼铠甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼胸甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 2028918180152718725
 Your custom Snow Wolf Cuirass isn't ready yet, %PCName.  Come back later.
@@ -18688,7 +18688,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow wolf armor 1691928969498423932
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Left Gauntlet ready.
-我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼左手铠。
+我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼左腕甲。
 
 > INFO.NAME snow wolf armor 100325179369718577
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18700,7 +18700,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow wolf armor 1276257861747026436
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Right Gauntlet ready.
-我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼右铠。
+我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼右腕甲。
 
 > INFO.NAME snow wolf armor 1265920722211678229
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18712,7 +18712,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow wolf armor 9228262821543895
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Left Pauldron ready.
-我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼左护手。
+我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼左肩甲。
 
 > INFO.NAME snow wolf armor 3116419568134887112
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18724,7 +18724,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow wolf armor 7094281642054316287
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Right Pauldron ready.
-我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会准备好你的定制雪狼右宝剑。
+我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会准备好你的定制雪狼右肩甲。
 
 > INFO.NAME snow wolf armor 8346149541054423361
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18768,11 +18768,11 @@ Snow Wolf Left Pauldron
 
 > INFO.BNAM snow wolf armor 29386163853098932001 c4
 Snow Wolf Right Gauntlet
-雪狼右护手
+雪狼右腕甲
 
 > INFO.BNAM snow wolf armor 29386163853098932001 c5
 Snow Wolf Left Gauntlet
-雪狼左护手
+雪狼左腕甲
 
 > INFO.BNAM snow wolf armor 29386163853098932001 c6
 Snow Wolf Greaves
@@ -18796,7 +18796,7 @@ It's simple.  You bring me the snow wolf pelts and gold, and I'll make a piece o
 
 > INFO.NAME snow bear armor 2633819473694823572
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Helm.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪熊头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 4702166742190613989
 Your custom Snow Bear Helm isn't ready yet, %PCName.  Come back later.
@@ -18804,7 +18804,7 @@ Your custom Snow Bear Helm isn't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow bear armor 1061673321506815226
 Your custom armor is ready!  Here you go, %PCName, one expertly crafted pair of Snow Bear Boots.  They came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了！给你，%PCName，一双精心制作的雪熊靴。比我想象的还要好！如果你还需要什么，尽管吩咐！ {定制护甲}
+你的定制护甲已经准备好了！给你，%PCName，一双专业制作的雪熊靴子。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 2778113067157023550
 Your custom Snow Bear Boots aren't ready yet, %PCName.  Come back later.
@@ -18812,7 +18812,7 @@ Your custom Snow Bear Boots aren't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow bear armor 4726750309428401
 Your custom armor is ready!  Here you go, %PCName, one expertly crafted set of Snow Bear Greaves.  They came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了！给你，%PCName，一套专业制作的雪熊手套。比我预期的还要好。如果你还需要什么，尽管吩咐！ {定制护甲}
+你的定制护甲已经准备好了！给你，%PCName，一套专业制作的雪熊胫甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 25161299432712413299
 Your custom Snow Bear Greaves aren't ready yet, %PCName.  Come back later.
@@ -18820,39 +18820,39 @@ Your custom Snow Bear Greaves aren't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow bear armor 580222591807530674
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Left Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左护手。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 314101510021781698
 Your custom Snow Bear Left Gauntlet isn't ready yet, %PCName.  Come back later.
-你的定制雪熊左肩甲还没好，%PCName。稍后再来。
+你的定制雪熊左腕甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow bear armor 12550272162412112823
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Right Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪熊右铠。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊右腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 142942580614797957
 Your custom Snow Bear Right Gauntlet isn't ready yet, %PCName.  Come back later.
-你的定制雪熊右肩甲还没好，%PCName。稍后再来。
+你的定制雪熊右腕甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow bear armor 231182793717218890
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Left Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左护手。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 11510490968641
 Your custom Snow Bear Left Pauldron isn't ready yet, %PCName.  Come back later.
-你定制的雪熊左护手还没好，%PCName。稍后再来。
+你定制的雪熊左肩甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow bear armor 16295223324858857
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Right Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了！给你，%PCName，这是我精心制作的雪熊右护手。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊右肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 1965819549639124350
 Your custom Snow Bear Right Pauldron isn't ready yet, %PCName.  Come back later.
-你定制的雪熊右护手还没好，%PCName。稍后再来。
+你定制的雪熊右肩甲还没好，%PCName。稍后再来。
 
 > INFO.NAME snow bear armor 46530381351455
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Cuirass.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了！给你，%PCName，一件专业制作的雪熊铠甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊胸甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow bear armor 15609137332936428952
 Your custom Snow Bear Cuirass isn't ready yet, %PCName.  Come back later.
@@ -18900,7 +18900,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow bear armor 25476111361418570
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Bear Left Gauntlet ready.
-我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左护手。
+我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左腕甲。
 
 > INFO.NAME snow bear armor 2276612442179118578
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18912,7 +18912,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow bear armor 126182793912831100
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Bear Right Gauntlet ready.
-我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右护手。
+我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右腕甲。
 
 > INFO.NAME snow bear armor 191921721272168313
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18924,7 +18924,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow bear armor 14272270351295727625
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Bear Left Pauldron ready.
-我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左护手。
+我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左肩甲。
 
 > INFO.NAME snow bear armor 2142580871505925505
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18936,7 +18936,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow bear armor 798019474303123313
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Bear Right Pauldron ready.
-我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右护肩。
+我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右肩甲。
 
 > INFO.NAME snow bear armor 990777888127983
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18980,11 +18980,11 @@ Snow Bear Left Pauldron
 
 > INFO.BNAM snow bear armor 4354257353146619625 c4
 Snow Bear Right Gauntlet
-雪熊右护手
+雪熊右腕甲
 
 > INFO.BNAM snow bear armor 4354257353146619625 c5
 Snow Bear Left Gauntlet
-雪熊左护手
+雪熊左腕甲
 
 > INFO.BNAM snow bear armor 4354257353146619625 c6
 Snow Bear Greaves
@@ -19480,7 +19480,7 @@ I'll rescue Oddfrid for you, Geilir.
 
 > INFO.NAME my only friend 2692228918321730200
 Oddfrid White-Lip is with me once again, thanks to you, %PCName.
-多亏了你，%PCName。奥德弗里德·白-唇再次与我同在。
+多亏了你，%PCName。奥德弗里德·白唇再次与我同在。
 
 > INFO.NAME stalhrim armor 274556851054532118
 Before we go any further, I want to make it clear to you that there's a finite amount of Stalhrim on this island. If you find enough of it, you'll be rewarded enough to certainly cover a full set of armor. I'm not going to keep track of what you've been given and what you haven't - it's your problem if you wind up with ten pairs of boots. Now that we've gotten that out of the way, we can discuss what Stalhrim armor you want as a reward for your hard work.
@@ -19532,19 +19532,19 @@ Stalhrim Cuirass
 
 > INFO.BNAM stalhrim armor 92859362084210883 c2
 Stalhrim Left Pauldron
-魔冰左护肩
+魔冰左肩甲
 
 > INFO.BNAM stalhrim armor 92859362084210883 c3
 Stalhrim Right Pauldron
-魔冰右护肩
+魔冰右肩甲
 
 > INFO.BNAM stalhrim armor 92859362084210883 c4
 Stalhrim Left Gauntlet
-魔冰左护手
+魔冰左腕甲
 
 > INFO.BNAM stalhrim armor 92859362084210883 c5
 Stalhrim Right Gauntlet
-魔冰右护手
+魔冰右腕甲
 
 > INFO.BNAM stalhrim armor 92859362084210883 c6
 Stalhrim Greaves
@@ -19592,35 +19592,35 @@ I'm sorry, but your greaves aren't ready yet. They're going to take a little mor
 
 > INFO.NAME stalhrim armor 2064831729274292250
 Here's your right gauntlet. It should fit you quite well; take good care of it.
-这是你的右臂铠，应该很适合你，要好好保养。
+这是你的右腕甲，应该很适合你，要好好保养。
 
 > INFO.NAME stalhrim armor 17443174483012332348
 I'm sorry, but your right gauntlet isn't ready yet. It's going to take a little more time.
-很抱歉，你的右护肩还没准备好。还需要一点时间。
+很抱歉，你的右腕甲还没准备好。还需要一点时间。
 
 > INFO.NAME stalhrim armor 1813621118289433152
 Here's your left gauntlet. It should fit you quite well; take good care of it.
-这是你的左护肩。它应该很适合你，要好好保管。
+这是你的左腕甲。它应该很适合你，要好好保管。
 
 > INFO.NAME stalhrim armor 143683830111773761
 I'm sorry, but your left gauntlet isn't ready yet. It's going to take a little more time.
-很抱歉，你的左护肩还没准备好。还需要一点时间。
+很抱歉，你的左腕甲还没准备好。还需要一点时间。
 
 > INFO.NAME stalhrim armor 26831132803020919954
 Here's your right pauldron. It should fit you quite well; take good care of it.
-这是你的右护手。它应该很适合你，要好好保管。
+这是你的右肩甲。它应该很适合你，要好好保管。
 
 > INFO.NAME stalhrim armor 2428929627740527694
 I'm sorry, but your right pauldron isn't ready yet. It's going to take a little more time.
-很抱歉，你的右护手还没准备好。还需要一点时间。
+很抱歉，你的右肩甲还没准备好。还需要一点时间。
 
 > INFO.NAME stalhrim armor 22377975065332495
 Here's your left pauldron. It should fit you quite well; take good care of it.
-这是你的左护手。它应该很适合你，好好保管它。
+这是你的左肩甲。它应该很适合你，好好保管它。
 
 > INFO.NAME stalhrim armor 27205227392285924137
 I'm sorry, but your left pauldron isn't ready yet. It's going to take a little more time.
-很抱歉，你的左护手还没准备好，还需要一点时间。
+很抱歉，你的左肩甲还没准备好，还需要一点时间。
 
 > INFO.NAME stalhrim armor 29311300532962426992
 Here's your cuirass. It should fit you quite well; take good care of it.
@@ -19660,7 +19660,7 @@ Very well. I shall start work on it. Come back in two days, and it will be ready
 
 > INFO.NAME stalhrim armor 8922595723132707
 You have no raw Stalhrim. I cannot make a right gauntlet for you.
-你没有魔冰原矿，我无法为你制作右护肩。
+你没有魔冰原矿，我无法为你制作右腕甲。
 
 > INFO.NAME stalhrim armor 190728251872114004
 Very well. I shall start work on it. Come back in two days, and it will be ready.
@@ -19668,7 +19668,7 @@ Very well. I shall start work on it. Come back in two days, and it will be ready
 
 > INFO.NAME stalhrim armor 237054672547513691
 You have no raw Stalhrim. I cannot make a left gauntlet for you.
-你没有魔冰原矿。我无法为您制作左护肩。
+你没有魔冰原矿。我无法为您制作左腕甲。
 
 > INFO.NAME stalhrim armor 28365309482984410732
 Very well. I shall start work on it. Come back in two days, and it will be ready.
@@ -19676,7 +19676,7 @@ Very well. I shall start work on it. Come back in two days, and it will be ready
 
 > INFO.NAME stalhrim armor 88783231471706973
 You have no raw Stalhrim. I cannot make a right pauldron for you.
-你没有魔冰原矿。我无法为你制作右护手。
+你没有魔冰原矿。我无法为你制作右肩甲。
 
 > INFO.NAME stalhrim armor 26212170721798626081
 Very well. I shall start work on it. Come back in two days, and it will be ready.
@@ -19684,7 +19684,7 @@ Very well. I shall start work on it. Come back in two days, and it will be ready
 
 > INFO.NAME stalhrim armor 2833622742483227557
 You have no raw Stalhrim. I cannot make a left pauldron for you.
-你没有魔冰原矿。我无法为你制作左护手。
+你没有魔冰原矿。我无法为你制作左肩甲。
 
 > INFO.NAME stalhrim armor 312191161952730475
 Very well. I shall start work on it. Come back in two days, and it will be ready.
@@ -19708,19 +19708,19 @@ Stalhrim Cuirass
 
 > INFO.BNAM stalhrim armor 775626314531412084 c2
 Stalhrim Left Pauldron
-魔冰左护肩
+魔冰左肩甲
 
 > INFO.BNAM stalhrim armor 775626314531412084 c3
 Stalhrim Right Pauldron
-魔冰右护肩
+魔冰右肩甲
 
 > INFO.BNAM stalhrim armor 775626314531412084 c4
 Stalhrim Left Gauntlet
-魔冰左护手
+魔冰左腕甲
 
 > INFO.BNAM stalhrim armor 775626314531412084 c5
 Stalhrim Right Gauntlet
-魔冰右护手
+魔冰右腕甲
 
 > INFO.BNAM stalhrim armor 775626314531412084 c6
 Stalhrim Greaves
@@ -20092,7 +20092,7 @@ Wolves are fine creatures but some can be diseased, and they become a danger to 
 
 > INFO.NAME latest rumors 1939557692551624392
 You didn't hear this from me, but Kjolver is looking to hire someone for some kind of job...someone who's not afraid to get blood on their gauntlets, if you know what I mean.
-别说是我告诉你的，只是乔尔弗想雇个人干点活…需要一个不怕护手上沾点血的人，你懂我的意思吧。
+别说是我告诉你的，只是乔尔弗想雇个人干点活…需要一个不怕腕甲上沾点血的人，你懂我的意思吧。
 
 > INFO.NAME latest rumors 171269341044122742
 Did you hear? Sigvatr the Strong killed Gustav Two-Teeth in cold blood! Gustav's widow Kolfinna is seeking retribution. She deserves it, if you ask me.
@@ -21640,11 +21640,11 @@ New theories, you say?  Let me see the book you speak of.  Hmmm.... Could this b
 
 > INFO.BNAM greeting 1 1527335051386222389 c1
 Sorry, Ulfgar, I can't help you.
-对不起，乌尔夫加，我帮不了你。
+对不起，乌夫加尔，我帮不了你。
 
 > INFO.BNAM greeting 1 1527335051386222389 c2
 I'll help you, Ulfgar.  I will do everything in my power to defeat you in armed combat.
-我会帮你的，乌尔夫加。我会尽我所能在武装战斗中打败你。
+我会帮你的，乌夫加尔。我会尽我所能在武装战斗中打败你。
 
 > INFO.NAME greeting 1 344221785967817277
 Ah, a visitor.  And an Elf, no less.  In my youth I would have hewn you like an oak, and bathed in your invader blood.  But that was a long time ago, and the years have mellowed my mood.  In any event, it's been quite a while since I've had any company.  I'm afraid I don't have much to offer a guest...unless, of course, you've come to hear a barbarian's sad tale.
@@ -21676,11 +21676,11 @@ Ah, a visitor.  It's been quite a while since I've had any company, friend.  I'm
 
 > INFO.BNAM greeting 1 26665154423101328751 c1
 Sorry, Ulfgar, I can't help you.
-对不起，乌尔夫加，我帮不了你。
+对不起，乌夫加尔，我帮不了你。
 
 > INFO.BNAM greeting 1 26665154423101328751 c2
 I'll help you, Ulfgar.  I will do everything in my power to defeat you in armed combat.
-我会帮你的，乌尔夫加。我会尽我所能在武装战斗中打败你。
+我会帮你的，乌夫加尔。我会尽我所能在武装战斗中打败你。
 
 > INFO.NAME greeting 1 18734306931781631090
 Welcome back, %PCName.  I hope Solstheim has been treating you well.  So tell me...have you managed to locate the entrance to Sovngarde?  Ha!  Of course you haven't!  I searched for five hundred years and never succeeded!  You know, there's a part of me that feels Sovngarde doesn't even exist....
@@ -21688,7 +21688,7 @@ Welcome back, %PCName.  I hope Solstheim has been treating you well.  So tell me
 
 > INFO.BNAM greeting 1 18734306931781631090 c1
 Actually, Ulfgar, I came upon this book.  It's called 'Sovngarde, a Reexamination,' and seems to offer new theories on how one may enter Sovngarde.  I think it may have the answers you seek.
-事实上，乌尔夫加，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。
+事实上，乌夫加尔，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。
 
 > INFO.NAME greeting 1 32279320191818624922
 I have been waiting for you, %PCName.  The hour of battle is upon us.  I hope you are well prepared to engage such a worthy foe as myself.  I have roamed the land for five hundred years, leaving death in my wake.  And although I have been brought to the brink of death on more than one occasion, still I live.  It is my hope, %PCName, that you are my match, and will send my soul racing to Sovngarde.  Now, we test our mettle!  To arms!

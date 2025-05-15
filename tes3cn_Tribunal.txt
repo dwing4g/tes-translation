@@ -12987,7 +12987,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "chitin guantlet - left$00"
  ARMO.MODL "a\A_M_Chitin_Gauntlet_GND.nif$00"
- ARMO.FNAM "甲壳左护手$00"
+ ARMO.FNAM "甲壳左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 80 3F 09 00 00 00 32 00 00 00 64 00 00 00 0A 00 00 00]
  ARMO.ITEX "a\TX_Chitin_gauntlet.tga$00"
  ARMO.INDX [07]
@@ -13552,7 +13552,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "netch_leather_gauntlet_left$00"
  ARMO.MODL "a\A_Netch_M_gauntlet_GND.nif$00"
- ARMO.FNAM "气母皮左护手$00"
+ ARMO.FNAM "气母皮左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 40 40 07 00 00 00 19 00 00 00 3C 00 00 00 05 00 00 00]
  ARMO.ITEX "a\Tx_Netch_gauntlet.tga$00"
  ARMO.INDX [07]
@@ -13561,7 +13561,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "netch_leather_gauntlet_right$00"
  ARMO.MODL "a\A_Netch_M_gauntlet_GND.nif$00"
- ARMO.FNAM "气母皮右护手$00"
+ ARMO.FNAM "气母皮右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 40 40 07 00 00 00 19 00 00 00 3C 00 00 00 05 00 00 00]
  ARMO.ITEX "a\Tx_Netch_gauntlet.tga$00"
  ARMO.INDX [06]
@@ -13651,7 +13651,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "steel_gauntlet_left$00"
  ARMO.MODL "a\A_Steel_Gauntlet_GND.NIF$00"
- ARMO.FNAM "钢制左护手$00"
+ ARMO.FNAM "钢制左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 A0 40 1C 00 00 00 4B 00 00 00 C8 00 00 00 0F 00 00 00]
  ARMO.ITEX "a\TX_Steel_gauntlet.tga$00"
  ARMO.INDX [07]
@@ -13660,7 +13660,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "steel_gauntlet_right$00"
  ARMO.MODL "a\A_Steel_Gauntlet_GND.NIF$00"
- ARMO.FNAM "钢制右护手$00"
+ ARMO.FNAM "钢制右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 A0 40 1C 00 00 00 4B 00 00 00 C8 00 00 00 0F 00 00 00]
  ARMO.ITEX "a\TX_Steel_gauntlet.tga$00"
  ARMO.INDX [06]
@@ -20607,7 +20607,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "Indoril_Almalexia_gauntlet_R$00"
  ARMO.MODL "a\A_AlmIndoril_Gauntlet_GND.NIF$00"
- ARMO.FNAM "女神之手右护手$00"
+ ARMO.FNAM "女神之手右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 70 41 C8 32 00 00 2C 01 00 00 F4 01 00 00 46 00 00 00]
  ARMO.ITEX "a\Tx_AlmIndoril_gauntlet.tga$00"
  ARMO.INDX [06]
@@ -20617,7 +20617,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "Indoril_Almalexia_gauntlet_L$00"
  ARMO.MODL "a\A_AlmIndoril_Gauntlet_GND.NIF$00"
- ARMO.FNAM "女神之手左护手$00"
+ ARMO.FNAM "女神之手左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 70 41 C8 32 00 00 2C 01 00 00 F4 01 00 00 46 00 00 00]
  ARMO.ITEX "a\Tx_AlmIndoril_gauntlet.tga$00"
  ARMO.INDX [07]
@@ -20673,7 +20673,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "Helsethguard_gauntlet_left$00"
  ARMO.MODL "a\A_HelsethGuard_gauntl_GND.NIF$00"
- ARMO.FNAM "王室卫兵左护手$00"
+ ARMO.FNAM "王室卫兵左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 80 40 D0 07 00 00 E1 00 00 00 78 00 00 00 37 00 00 00]
  ARMO.ITEX "a\Tx_HelsethGuard_gauntlet.tga$00"
  ARMO.INDX [07]
@@ -20682,7 +20682,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "Helsethguard_gauntlet_right$00"
  ARMO.MODL "a\A_HelsethGuard_gauntl_GND.NIF$00"
- ARMO.FNAM "王室卫兵右护手$00"
+ ARMO.FNAM "王室卫兵右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 80 40 D0 07 00 00 E1 00 00 00 78 00 00 00 37 00 00 00]
  ARMO.ITEX "a\Tx_HelsethGuard_gauntlet.tga$00"
  ARMO.INDX [06]
@@ -20862,7 +20862,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "DarkBrotherhood gauntlet_L$00"
  ARMO.MODL "a\A_DarkBrotherhood_Gau_GND.NIF$00"
- ARMO.FNAM "黑暗兄弟会左护手$00"
+ ARMO.FNAM "黑暗兄弟会左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 80 3F C8 00 00 00 64 00 00 00 64 00 00 00 1E 00 00 00]
  ARMO.ITEX "a\Tx_DarkBrotherhood_Gaunt.tga$00"
  ARMO.INDX [07]
@@ -20871,7 +20871,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "DarkBrotherhood gauntlet_R$00"
  ARMO.MODL "a\A_DarkBrotherhood_Gau_GND.NIF$00"
- ARMO.FNAM "黑暗兄弟会右护手$00"
+ ARMO.FNAM "黑暗兄弟会右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 80 3F C8 00 00 00 64 00 00 00 64 00 00 00 1E 00 00 00]
  ARMO.ITEX "a\Tx_DarkBrotherhood_Gaunt.tga$00"
  ARMO.INDX [06]
@@ -22740,8 +22740,8 @@ End yarnarScript"
 <BR>
 黑檀系列<BR>
 黑檀胸甲：30块黑檀矿以及24500金币<BR>
-黑檀左肩铠：21块黑檀矿和16800金币<BR>
-黑檀右肩铠：21块黑檀矿和16800金币<BR>
+黑檀左肩甲：21块黑檀矿和16800金币<BR>
+黑檀右肩甲：21块黑檀矿和16800金币<BR>
 黑檀左护腕：12块黑檀矿和7000金币<BR>
 黑檀右护腕：12块黑檀矿和7000金币<BR>
 黑檀护胫：18块黑檀矿和15400金币<BR>
@@ -22750,22 +22750,22 @@ End yarnarScript"
 <BR>
 玻璃系列<BR>
 玻璃胸甲：30块玻璃矿和19600金币<BR>
-玻璃左肩铠：21块玻璃矿和13400金币<BR>
-玻璃右肩铠：21块玻璃矿和13400金币<BR>
+玻璃左肩甲：21块玻璃矿和13400金币<BR>
+玻璃右肩甲：21块玻璃矿和13400金币<BR>
 玻璃左护腕：12块玻璃矿和5600金币<BR>
 玻璃右护腕：12块玻璃矿和5600金币<BR>
 玻璃护胫：18块玻璃矿和12300金币<BR>
-玻璃靴：9块玻璃矿和5600金币<BR>
+玻璃靴子：9块玻璃矿和5600金币<BR>
 玻璃头盔：12块玻璃矿和8400金币<BR>
 <BR>
 精金系列<BR>
 精金胸甲：10块精金矿石和6000金币<BR>
-精金左肩铠：7块精金矿石和500金币<BR>
-精金右肩铠：7块精金矿石和500金币<BR>
+精金左肩甲：7块精金矿石和500金币<BR>
+精金右肩甲：7块精金矿石和500金币<BR>
 精金左护腕：4块精金矿石和600金币<BR>
 精金右护腕：4块精金矿石和600金币<BR>
 精金护胫：6块精金矿石和6000金币<BR>
-精金靴：3块精金矿石和4200金币<BR>
+精金靴子：3块精金矿石和4200金币<BR>
 精金头盔：4块精金矿石和3000金币<BR>
 "
 -ACTI [00 00 00 00 00 04 00 00]
@@ -25005,7 +25005,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "Indoril_MH_Guard_gauntlet_L$00"
  ARMO.MODL "a\A_AlmIndoril_Gauntlet_GND.NIF$00"
- ARMO.FNAM "女神之手左护手$00"
+ ARMO.FNAM "女神之手左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 70 41 C8 32 00 00 2C 01 00 00 F4 01 00 00 46 00 00 00]
  ARMO.ITEX "a\Tx_AlmIndoril_gauntlet.tga$00"
  ARMO.INDX [07]
@@ -25014,7 +25014,7 @@ End yarnarScript"
 -ARMO
  ARMO.NAME "Indoril_MH_Guard_gauntlet_R$00"
  ARMO.MODL "a\A_AlmIndoril_Gauntlet_GND.NIF$00"
- ARMO.FNAM "女神之手右护手$00"
+ ARMO.FNAM "女神之手右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 70 41 C8 32 00 00 2C 01 00 00 F4 01 00 00 46 00 00 00]
  ARMO.ITEX "a\Tx_AlmIndoril_gauntlet.tga$00"
  ARMO.INDX [06]
@@ -27935,7 +27935,7 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "21811258015411882$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "杂物冠军"
+ INFO.NAME "杂物勇士"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "21811258015411882$00"
@@ -27948,7 +27948,7 @@ End yarnarScript"
  INFO.PNAM "21811258015411882$00"
  INFO.NNAM "3165715463534531776$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我已经为德崔图斯·卡利亚收回了布匹和银壶，并被任命为杂物冠军。"
+ INFO.NAME "我已经为德崔图斯·卡利亚收回了布匹和银壶，并被任命为杂物勇士。"
 -INFO
  INFO.INAM "3165715463534531776$00"
  INFO.PNAM "3055657421117215879$00"
@@ -27972,21 +27972,21 @@ End yarnarScript"
  INFO.PNAM "168302404413426767$00"
  INFO.NNAM "1483212110100476969$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我已经把锻莫餐具带给了德崔图斯·卡利亚，并确保了我的杂物冠军地位，直至永远。 {锻莫族}"
+ INFO.NAME "我已经把锻莫餐具带给了德崔图斯·卡利亚，并确保了我的杂物勇士地位，直至永远。 {锻莫族}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "1483212110100476969$00"
  INFO.PNAM "1508311105945824874$00"
  INFO.NNAM "274803072877631755$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "德崔图斯·卡利亚试图让我再找一次杂物，但我拒绝了。两次已经够多了。德崔图斯对我的拒绝感到很伤心，他取消了我杂物冠军的头衔。"
+ INFO.NAME "德崔图斯·卡利亚试图让我再找一次杂物，但我拒绝了。两次已经够多了。德崔图斯对我的拒绝感到很伤心，他取消了我杂物勇士的头衔。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "274803072877631755$00"
  INFO.PNAM "1483212110100476969$00"
  INFO.NNAM "192216122674325805$00"
  INFO.DATA [04 00 00 00 5A 00 00 00 FF FF FF 00]
- INFO.NAME "德崔图斯·卡利亚试图让我再去找杂物，但我拒绝了。一次就够了。德崔图斯对我的拒绝感到很难过，于是他取消了我杂物冠军的头衔。"
+ INFO.NAME "德崔图斯·卡利亚试图让我再去找杂物，但我拒绝了。一次就够了。德崔图斯对我的拒绝感到很难过，于是他取消了我杂物勇士的头衔。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "192216122674325805$00"
@@ -29705,7 +29705,7 @@ End yarnarScript"
  INFO.PNAM "4032318703084130960$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎疾病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。"
+ INFO.NAME "灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。"
 -DIAL
  DIAL.NAME "A2_4_Milo_hola_go$00"
  DIAL.DATA [04]
@@ -29813,7 +29813,7 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "22020250701577618499$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "失踪的阿玛莱西娅之手"
+ INFO.NAME "失踪的女神之手"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "22020250701577618499$00"
@@ -29841,7 +29841,7 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "22856101981301832251$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "失踪的阿玛莱西娅之手"
+ INFO.NAME "失踪的女神之手"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "22856101981301832251$00"
@@ -38984,7 +38984,7 @@ End yarnarScript"
  INFO.PNAM "24678144462691930217$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之铠。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。"
+ INFO.NAME "神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IC2_Muck_not$00"
@@ -64540,7 +64540,7 @@ player->additem ""gold_001"" 16000
  INFO.NNAM "1849223053741517954$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "感谢你的努力，杂物冠军。我的收藏品从未像现在这样生机勃勃。 {工作}"
+ INFO.NAME "感谢你的努力，杂物勇士。我的收藏品从未像现在这样生机勃勃。 {工作}"
  INFO.SCVR "04JX0MS_ClutterCollector"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -64549,7 +64549,7 @@ player->additem ""gold_001"" 16000
  INFO.NNAM "2762918054156128776$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "太棒了！我真不敢相信，我居然真的收集齐全了各种矮人杂物。你做得很好，%PCName。我在此授予你“永远的杂物冠军”称号。这是你的报酬。 {手}"
+ INFO.NAME "太棒了！我真不敢相信，我居然真的收集齐全了各种矮人杂物。你做得很好，%PCName。我在此授予你“永远的杂物勇士”称号。这是你的报酬。 {手}"
  INFO.SCVR "01500"
  INFO.INTV [0B 00 00 00]
  INFO.SCVR "15IX3misc_dwrv_bowl00"
@@ -64576,7 +64576,7 @@ ModDisposition 10"
  INFO.NNAM "68071485488743883$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "真的，冠军，你不应该这样撒谎。你给我希望却又立刻将其熄灭。去找锻莫的桌椅吧，在拿到之前不要回来。 {锻莫族}"
+ INFO.NAME "真的，勇士，你不应该这样撒谎。你给我希望却又立刻将其熄灭。去找锻莫的桌椅吧，在拿到之前不要回来。 {锻莫族}"
  INFO.SCVR "01500"
  INFO.INTV [0B 00 00 00]
  INFO.BNAM "ModDisposition -10"
@@ -64586,7 +64586,7 @@ ModDisposition 10"
  INFO.NNAM "7535100162774119370$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "啊，我知道这需要不少时间。这是个真正适合举世无双的杂物冠军的任务！"
+ INFO.NAME "啊，我知道这需要不少时间。这是个真正适合举世无双的杂物勇士的任务！"
  INFO.SCVR "01500"
  INFO.INTV [0C 00 00 00]
 -INFO
@@ -64605,7 +64605,7 @@ ModDisposition 10"
  INFO.NNAM "27104147583052630056$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "太棒了！我一直在四处搜寻一套完整的锻莫餐具，但一无所获。我没本事直接去搜索矮人遗迹，但你可以，我的冠军。这套完整的餐具包括两个高脚杯 -- 一个比另一个稍大 -- 一个水壶，一个罐子，和一个大碗。把这些东西带给我，我会给你丰厚的报酬。"
+ INFO.NAME "太棒了！我一直在四处搜寻一套完整的锻莫餐具，但一无所获。我没本事直接去搜索矮人遗迹，但你可以，我的勇士。这套完整的餐具包括两个高脚杯 -- 一个比另一个稍大 -- 一个水壶，一个罐子，和一个大碗。把这些东西带给我，我会给你丰厚的报酬。"
  INFO.SCVR "01500"
  INFO.INTV [09 00 00 00]
  INFO.BNAM "Journal ""MS_ClutterCollector"" 40
@@ -64616,7 +64616,7 @@ ModDisposition 10"
  INFO.NNAM "691696042860417454$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "哦，那真是太可惜了。我必须在此废除你的“杂物冠军”称号。请你现在离开我。"
+ INFO.NAME "哦，那真是太可惜了。我必须在此废除你的“杂物勇士”称号。请你现在离开我。"
  INFO.SCVR "01500"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM "Journal ""MS_ClutterCollector"" 80
@@ -64627,7 +64627,7 @@ Goodbye"
  INFO.NNAM "15496186461595510994$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "我的收藏品已经基本收集齐全，但我还需要一套极其罕见的物品。你准备好迎接挑战了吗，我的冠军？"
+ INFO.NAME "我的收藏品已经基本收集齐全，但我还需要一套极其罕见的物品。你准备好迎接挑战了吗，我的勇士？"
  INFO.SCVR "04JX0MS_ClutterCollector"
  INFO.INTV [1E 00 00 00]
  INFO.BNAM "Choice ""是的，我准备好了。"" 9 ""不，我不想。"" 10"
@@ -64637,7 +64637,7 @@ Goodbye"
  INFO.NNAM "11274169952653532675$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "很好！非常感谢你，%PCName。你真的是杂物的冠军。请收下我的报酬。以后再回来，我可能会有更多的工作给你。"
+ INFO.NAME "很好！非常感谢你，%PCName。你真的是杂物的勇士。请收下我的报酬。以后再回来，我可能会有更多的工作给你。"
  INFO.SCVR "01500"
  INFO.INTV [07 00 00 00]
  INFO.SCVR "15IX3misc_com_silverware_fork"
@@ -64664,7 +64664,7 @@ ModDisposition 10"
  INFO.NNAM "32245151052184517800$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "这是与杂物冠军不相称的行为，%PCName。请不要再对我撒谎了，并尽快把东西交给我。"
+ INFO.NAME "这是与杂物勇士不相称的行为，%PCName。请不要再对我撒谎了，并尽快把东西交给我。"
  INFO.SCVR "01500"
  INFO.INTV [07 00 00 00]
 -INFO
@@ -64692,7 +64692,7 @@ ModDisposition 10"
  INFO.NNAM "2942493341947127057$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "很好！如果你看看后面角落的架子，你会发现明显缺少一个特殊的红陶罐。这个罐子很高，侧面有竖线，形状很像旁边的蓝色玻璃罐。我还需要一套完整的帝国银餐具 -- 也就是叉子、餐刀和勺子。最后，我需要一个普通的金属盘。这个盘子是黄色的，中间有一幅太阳的图案。为我找到这些东西，冠军，我就会好好报答你。 {帝国人,报酬}"
+ INFO.NAME "很好！如果你看看后面角落的架子，你会发现明显缺少一个特殊的红陶罐。这个罐子很高，侧面有竖线，形状很像旁边的蓝色玻璃罐。我还需要一套完整的帝国银餐具 -- 也就是叉子、餐刀和勺子。最后，我需要一个普通的金属盘。这个盘子是黄色的，中间有一幅太阳的图案。为我找到这些东西，勇士，我就会好好报答你。 {帝国人,报酬}"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "Journal ""MS_ClutterCollector"" 20
@@ -64703,7 +64703,7 @@ ModDisposition 10"
  INFO.NNAM "15015308283270532678$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "哦，那真是太遗憾了。我必须在此废除你的“杂物冠军”称号。请你现在离开我。"
+ INFO.NAME "哦，那真是太遗憾了。我必须在此废除你的“杂物勇士”称号。请你现在离开我。"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "Journal ""MS_ClutterCollector"" 90
@@ -64725,7 +64725,7 @@ Goodbye"
  INFO.NNAM "304271784263553317$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "多么美妙啊！这正是我想要的。非常感谢你，%PCName。我在此授予你“杂物冠军”的称号。拿着这些钱，以示我的感激。下次再来，我可能会有更多的工作给你。"
+ INFO.NAME "多么美妙啊！这正是我想要的。非常感谢你，%PCName。我在此授予你“杂物勇士”的称号。拿着这些钱，以示我的感激。下次再来，我可能会有更多的工作给你。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "15IX3misc_clothbolt_02"
@@ -64743,7 +64743,7 @@ ModDisposition 10"
  INFO.NNAM "1125777901054427463$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "你为什么要对我撒谎%PCName？我只是一个普通的杂物收集者，正在寻找我的冠军。等你拿到布和水壶再回来吧。"
+ INFO.NAME "你为什么要对我撒谎%PCName？我只是一个普通的杂物收集者，正在寻找我的勇士。等你拿到布和水壶再回来吧。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.BNAM "ModDisposition -10"
@@ -64792,7 +64792,7 @@ ModDisposition 10"
  INFO.NNAM "15631744188042457$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "哦，那真是太遗憾了。我想我现在还得继续做我自己的杂物冠军。 {沙尔}"
+ INFO.NAME "哦，那真是太遗憾了。我想我现在还得继续做我自己的杂物勇士。 {沙尔}"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Journal ""MS_ClutterCollector"" 100
@@ -64803,7 +64803,7 @@ ModDisposition -10"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "虽然我的架子上摆满了晨风的杂物，令人印象深刻，但它们还不够齐全。我想招募一位勇敢而坚毅的冒险家，成为我的杂物冠军，到世界上寻找我需要的物品来完成我的收藏品。你有兴趣吗？当然，我一定会好好报答你。 {报酬}"
+ INFO.NAME "虽然我的架子上摆满了晨风的杂物，令人印象深刻，但它们还不够齐全。我想招募一位勇敢而坚毅的冒险家，成为我的杂物勇士，到世界上寻找我需要的物品来完成我的收藏品。你有兴趣吗？当然，我一定会好好报答你。 {报酬}"
  INFO.SCVR "04JX4MS_ClutterCollector"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM "Choice ""我很乐意帮忙。"" 1 ""我有比追寻器皿更重要的工作。"" 2"
@@ -71529,7 +71529,7 @@ moddisposition 40"
  INFO.NNAM "136651368272122489$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "detritus caria$00"
- INFO.NAME "你好，我的杂物冠军！"
+ INFO.NAME "你好，我的杂物勇士！"
  INFO.SCVR "04JX3MS_ClutterCollector"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4MS_ClutterCollector"

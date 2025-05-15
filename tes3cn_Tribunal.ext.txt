@@ -1096,7 +1096,7 @@ Chitin Greaves
 
 > ARMO.FNAM chitin guantlet - left
 Chitin Left Gauntlet
-甲壳左护手
+甲壳左腕甲
 
 > WEAP.FNAM steel mace
 Steel Mace
@@ -1605,11 +1605,11 @@ Netch Leather Cuirass
 
 > ARMO.FNAM netch_leather_gauntlet_left
 Netch Leather Left Gauntlet
-气母皮左护手
+气母皮左腕甲
 
 > ARMO.FNAM netch_leather_gauntlet_right
 Netch Leather Right Gauntlet
-气母皮右护手
+气母皮右腕甲
 
 > ARMO.FNAM netch_leather_boots
 Netch Leather Boots
@@ -1645,11 +1645,11 @@ Steel Cuirass
 
 > ARMO.FNAM steel_gauntlet_left
 Steel Left Gauntlet
-钢制左护手
+钢制左腕甲
 
 > ARMO.FNAM steel_gauntlet_right
 Steel Right Gauntlet
-钢制右护手
+钢制右腕甲
 
 > ARMO.FNAM iron_cuirass
 Iron Cuirass
@@ -5657,11 +5657,11 @@ Her Hand's Right Pauldron
 
 > ARMO.FNAM Indoril_Almalexia_gauntlet_R
 Her Hand's Right Gauntlet
-女神之手右护手
+女神之手右腕甲
 
 > ARMO.FNAM Indoril_Almalexia_gauntlet_L
 Her Hand's Left Gauntlet
-女神之手左护手
+女神之手左腕甲
 
 > ARMO.FNAM Helsethguard_Helmet
 Royal Guard Helm
@@ -5681,11 +5681,11 @@ Royal Guard Greaves
 
 > ARMO.FNAM Helsethguard_gauntlet_left
 Royal Guard Left Gauntlet
-王室卫兵左护手
+王室卫兵左腕甲
 
 > ARMO.FNAM Helsethguard_gauntlet_right
 Royal Guard Right Gauntlet
-王室卫兵右护手
+王室卫兵右腕甲
 
 > ARMO.FNAM Helsethguard_pauldron_left
 Royal Guard Left Pauldron
@@ -5729,11 +5729,11 @@ Dark Brotherhood Right Pauldron
 
 > ARMO.FNAM DarkBrotherhood gauntlet_L
 Dark Brotherhood Left Gauntlet
-黑暗兄弟会左护手
+黑暗兄弟会左腕甲
 
 > ARMO.FNAM DarkBrotherhood gauntlet_R
 Dark Brotherhood Right Gauntlet
-黑暗兄弟会右护手
+黑暗兄弟会右腕甲
 
 > ARMO.FNAM DarkBrotherhood Boots
 Dark Brotherhood Boots
@@ -6265,8 +6265,8 @@ Adamantium Helm: 4 adamantium ore and 3000 gold<BR>
 <BR>
 黑檀系列<BR>
 黑檀胸甲：30块黑檀矿以及24500金币<BR>
-黑檀左肩铠：21块黑檀矿和16800金币<BR>
-黑檀右肩铠：21块黑檀矿和16800金币<BR>
+黑檀左肩甲：21块黑檀矿和16800金币<BR>
+黑檀右肩甲：21块黑檀矿和16800金币<BR>
 黑檀左护腕：12块黑檀矿和7000金币<BR>
 黑檀右护腕：12块黑檀矿和7000金币<BR>
 黑檀护胫：18块黑檀矿和15400金币<BR>
@@ -6275,22 +6275,22 @@ Adamantium Helm: 4 adamantium ore and 3000 gold<BR>
 <BR>
 玻璃系列<BR>
 玻璃胸甲：30块玻璃矿和19600金币<BR>
-玻璃左肩铠：21块玻璃矿和13400金币<BR>
-玻璃右肩铠：21块玻璃矿和13400金币<BR>
+玻璃左肩甲：21块玻璃矿和13400金币<BR>
+玻璃右肩甲：21块玻璃矿和13400金币<BR>
 玻璃左护腕：12块玻璃矿和5600金币<BR>
 玻璃右护腕：12块玻璃矿和5600金币<BR>
 玻璃护胫：18块玻璃矿和12300金币<BR>
-玻璃靴：9块玻璃矿和5600金币<BR>
+玻璃靴子：9块玻璃矿和5600金币<BR>
 玻璃头盔：12块玻璃矿和8400金币<BR>
 <BR>
 精金系列<BR>
 精金胸甲：10块精金矿石和6000金币<BR>
-精金左肩铠：7块精金矿石和500金币<BR>
-精金右肩铠：7块精金矿石和500金币<BR>
+精金左肩甲：7块精金矿石和500金币<BR>
+精金右肩甲：7块精金矿石和500金币<BR>
 精金左护腕：4块精金矿石和600金币<BR>
 精金右护腕：4块精金矿石和600金币<BR>
 精金护胫：6块精金矿石和6000金币<BR>
-精金靴：3块精金矿石和4200金币<BR>
+精金靴子：3块精金矿石和4200金币<BR>
 精金头盔：4块精金矿石和3000金币<BR>
 """
 
@@ -6991,11 +6991,11 @@ Her Hand's Cuirass
 
 > ARMO.FNAM Indoril_MH_Guard_gauntlet_L
 Her Hand's Left Gauntlet
-女神之手左护手
+女神之手左腕甲
 
 > ARMO.FNAM Indoril_MH_Guard_gauntlet_R
 Her Hand's Right Gauntlet
-女神之手右护手
+女神之手右腕甲
 
 > ARMO.FNAM Indoril_MH_Guard_Greaves
 Her Hand's Greaves
@@ -8317,7 +8317,7 @@ I warned Hloggar the Bloody that Tienius Delitian had evidence of his conspiracy
 
 > INFO.NAME ms_cluttercollector 17969196652566912378
 The Champion of Clutter
-杂物冠军
+杂物勇士
 
 > INFO.NAME ms_cluttercollector 21811258015411882
 I have agreed to help the eccentric Detritus Caria fill out his collection of clutter. He requires two items for now. The first is a bolt of Imperial rat hair fabric, a burgundy fabric with a diamond pattern on its side. The second is a brushed silver pitcher.
@@ -8325,7 +8325,7 @@ I have agreed to help the eccentric Detritus Caria fill out his collection of cl
 
 > INFO.NAME ms_cluttercollector 3055657421117215879
 I have retrieved the cloth bolt and silver pitcher for Detritus Caria and have been named the Champion of Clutter.
-我已经为德崔图斯·卡利亚收回了布匹和银壶，并被任命为杂物冠军。
+我已经为德崔图斯·卡利亚收回了布匹和银壶，并被任命为杂物勇士。
 
 > INFO.NAME ms_cluttercollector 3165715463534531776
 Detritus Caria has sent me on another quest, this time for three items. The first is a redware pot, tall with vertical lines going down the side. The second is a full set of Imperial silverware -- knife, fork, and spoon. The third is a yellow metallic plate with a sun in the center.
@@ -8341,15 +8341,15 @@ Detritus Caria has recruited me to find a complete Dwarven tableware set. The co
 
 > INFO.NAME ms_cluttercollector 1508311105945824874
 I have delivered the Dwemer tableware to Detritus Caria, and secured my position as the Champion of Clutter for all time.
-我已经把锻莫餐具带给了德崔图斯·卡利亚，并确保了我的杂物冠军地位，直至永远。 {锻莫族}
+我已经把锻莫餐具带给了德崔图斯·卡利亚，并确保了我的杂物勇士地位，直至永远。 {锻莫族}
 
 > INFO.NAME ms_cluttercollector 1483212110100476969
 Detritus Caria tried to get me to go on another clutter hunt, but I refused. Twice was more than enough. Detritus was saddened by my refusal, and he abolished my title of the Champion of Clutter.
-德崔图斯·卡利亚试图让我再找一次杂物，但我拒绝了。两次已经够多了。德崔图斯对我的拒绝感到很伤心，他取消了我杂物冠军的头衔。
+德崔图斯·卡利亚试图让我再找一次杂物，但我拒绝了。两次已经够多了。德崔图斯对我的拒绝感到很伤心，他取消了我杂物勇士的头衔。
 
 > INFO.NAME ms_cluttercollector 274803072877631755
 Detritus Caria tried to get me to go on another clutter hunt, but I refused. Once was more than enough. Detritus was saddened by my refusal, and he abolished my title of the Champion of Clutter.
-德崔图斯·卡利亚试图让我再去找杂物，但我拒绝了。一次就够了。德崔图斯对我的拒绝感到很难过，于是他取消了我杂物冠军的头衔。
+德崔图斯·卡利亚试图让我再去找杂物，但我拒绝了。一次就够了。德崔图斯对我的拒绝感到很难过，于是他取消了我杂物勇士的头衔。
 
 > INFO.NAME ms_cluttercollector 192216122674325805
 The eccentric Detritus Caria tried to recruit me to help him fill out his clutter collections, but I refused. I've got better things to do than chase down plates and pillows.
@@ -9253,7 +9253,7 @@ Trade Mission to the Zainab
 
 > INFO.NAME town_tel_vos_wise 188301899790824276
 The Zainab Ashlander wise woman Sonummu Zabamat said that the tribe needs more Cure Common Disease and Cure Blight Disease potions. The tribe's men travel long distances, hunting and herding, and when they catch diseases, they can't return to camp to be cured by the wise woman, but if they carry potions, the can cure themselves. Now I can report back to Turedus Talanian, and tell him that Cure Common Disease and Cure Blight Disease potions would be valuable trade goods.
-灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎疾病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。
+灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。
 
 > INFO.NAME a2_4_milo_hola_go 2852429914292997974
 Mehra Milo and the Lost Prophecies
@@ -9305,7 +9305,7 @@ I told Kaye I wouldn't be able to help Okur obtain justice for the ghost of the 
 
 > INFO.NAME tr_missinghand_01 18875104212097819510
 The Missing Hand
-失踪的阿玛莱西娅之手
+失踪的女神之手
 
 > INFO.NAME tr_missinghand_01 22020250701577618499
 I encountered a Dunmer named Salas Valor dressed in splendid armor. He seemed very angry -- perhaps a little mad -- and more than a little dangerous.
@@ -9321,7 +9321,7 @@ I have killed Salas Valor.
 
 > INFO.NAME tr_missinghand_02 5009187081749829236
 The Missing Hand
-失踪的阿玛莱西娅之手
+失踪的女神之手
 
 > INFO.NAME tr_missinghand_02 22856101981301832251
 Almalexia has sent me to deal with Salas Valor, one of Her elite guards, the Hands, who has gone mad, and who now presents a threat to Almalexia. She says She pities him, and knows that he is not responsible for his actions, but She says he is very dangerous, and I may not be able to spare his life.
@@ -14193,7 +14193,7 @@ The Oracle thanked me for giving her the Scroll of Fiercely Roasting. She left t
 
 > INFO.NAME ic28_urjorad 10144175852044614336
 The Oracle says that by killing Carecalmo and Meryaran I have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil. As a reward she gave me the Gauntlets of Glory. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
-神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之铠。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。
+神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。
 
 > INFO.NAME ic2_muck_not 24161190852188632509
 Imperial Cult: Gathering Muck
@@ -25547,19 +25547,19 @@ Yes, well, wouldn't you know that the very day we're supposed to debut our show,
 
 > INFO.NAME my collection 219716448172803785
 Thank you for all your hard work, Champion of Clutter.  My collection has never looked livelier.
-感谢你的努力，杂物冠军。我的收藏品从未像现在这样生机勃勃。 {工作}
+感谢你的努力，杂物勇士。我的收藏品从未像现在这样生机勃勃。 {工作}
 
 > INFO.NAME my collection 1849223053741517954
 Amazing! I can't believe I'm actually holding the definitive collection of Dwarven clutter in my hands. You have done well, %PCName. I hereby confer upon you the title of Champion of Clutter for all time. And here is your reward.
-太棒了！我真不敢相信，我居然真的收集齐全了各种矮人杂物。你做得很好，%PCName。我在此授予你“永远的杂物冠军”称号。这是你的报酬。 {手}
+太棒了！我真不敢相信，我居然真的收集齐全了各种矮人杂物。你做得很好，%PCName。我在此授予你“永远的杂物勇士”称号。这是你的报酬。 {手}
 
 > INFO.NAME my collection 2762918054156128776
 Really, Champion, you shouldn't lie like that. You raise my hopes only to dash them a second later. Go find the Dwemer table set, and don't come back until you have it.
-真的，冠军，你不应该这样撒谎。你给我希望却又立刻将其熄灭。去找锻莫的桌椅吧，在拿到之前不要回来。 {锻莫族}
+真的，勇士，你不应该这样撒谎。你给我希望却又立刻将其熄灭。去找锻莫的桌椅吧，在拿到之前不要回来。 {锻莫族}
 
 > INFO.NAME my collection 68071485488743883
 Ah, I knew it would take you time. This is a quest truly befitting the one and only Champion of Clutter!
-啊，我知道这需要不少时间。这是个真正适合举世无双的杂物冠军的任务！
+啊，我知道这需要不少时间。这是个真正适合举世无双的杂物勇士的任务！
 
 > INFO.NAME my collection 7535100162774119370
 Have you managed to find the Dwemer items yet, %PCName?
@@ -25575,15 +25575,15 @@ No, not yet.
 
 > INFO.NAME my collection 13852148291418117742
 Fabulous! I have searched far and wide for a complete set of Dwemer tableware, to no avail. I am not skilled enough to search through the dwarven ruins themselves, but you can, my Champion. The complete set includes two goblets -- one slightly larger than the other -- a pitcher, a tankard, and a large bowl. Bring these to me, and I will pay you handsomely.
-太棒了！我一直在四处搜寻一套完整的锻莫餐具，但一无所获。我没本事直接去搜索矮人遗迹，但你可以，我的冠军。这套完整的餐具包括两个高脚杯 -- 一个比另一个稍大 -- 一个水壶，一个罐子，和一个大碗。把这些东西带给我，我会给你丰厚的报酬。
+太棒了！我一直在四处搜寻一套完整的锻莫餐具，但一无所获。我没本事直接去搜索矮人遗迹，但你可以，我的勇士。这套完整的餐具包括两个高脚杯 -- 一个比另一个稍大 -- 一个水壶，一个罐子，和一个大碗。把这些东西带给我，我会给你丰厚的报酬。
 
 > INFO.NAME my collection 27104147583052630056
 Oh, that's truly a pity. I must hereby abolish your title of Champion of Clutter. Please leave me now.
-哦，那真是太可惜了。我必须在此废除你的“杂物冠军”称号。请你现在离开我。
+哦，那真是太可惜了。我必须在此废除你的“杂物勇士”称号。请你现在离开我。
 
 > INFO.NAME my collection 691696042860417454
 My collection is almost complete, but I require one more set of extremely rare objects. Are you up to the challenge, my Champion?
-我的收藏品已经基本收集齐全，但我还需要一套极其罕见的物品。你准备好迎接挑战了吗，我的冠军？
+我的收藏品已经基本收集齐全，但我还需要一套极其罕见的物品。你准备好迎接挑战了吗，我的勇士？
 
 > INFO.BNAM my collection 691696042860417454 c1
 Yes, I am.
@@ -25595,11 +25595,11 @@ No, I'm not.
 
 > INFO.NAME my collection 15496186461595510994
 Excellent! Thank you so much, %PCName. You are truly the Champion of Clutter. Accept this as my reward. Come back again and I may have more work for you.
-很好！非常感谢你，%PCName。你真的是杂物的冠军。请收下我的报酬。以后再回来，我可能会有更多的工作给你。
+很好！非常感谢你，%PCName。你真的是杂物的勇士。请收下我的报酬。以后再回来，我可能会有更多的工作给你。
 
 > INFO.NAME my collection 11274169952653532675
 This is behavior unbecoming of the Champion of Clutter, %PCName. Please don't lie to me any further, and get the items to me as soon as you can.
-这是与杂物冠军不相称的行为，%PCName。请不要再对我撒谎了，并尽快把东西交给我。
+这是与杂物勇士不相称的行为，%PCName。请不要再对我撒谎了，并尽快把东西交给我。
 
 > INFO.NAME my collection 32245151052184517800
 Please hurry. I simply cannot wait to sit on my bed and gaze with gratification upon my completed collections.
@@ -25619,11 +25619,11 @@ No, I don't.
 
 > INFO.NAME my collection 13688126821680415841
 Wonderful! If you'll look on the shelf in the back corner, you'll notice the glaring absence of a particular redware pot. The pot is tall, with vertical lines going down its side, and is shaped much like the adjacent blue glass pot. I also require a complete set of Imperial silverware -- that's fork, knife, and spoon. Finally, I require a common metal plate. The plate is yellow in color and features a picture of the sun in the center. Find these for me, Champion, and I will reward you well.
-很好！如果你看看后面角落的架子，你会发现明显缺少一个特殊的红陶罐。这个罐子很高，侧面有竖线，形状很像旁边的蓝色玻璃罐。我还需要一套完整的帝国银餐具 -- 也就是叉子、餐刀和勺子。最后，我需要一个普通的金属盘。这个盘子是黄色的，中间有一幅太阳的图案。为我找到这些东西，冠军，我就会好好报答你。 {帝国人,报酬}
+很好！如果你看看后面角落的架子，你会发现明显缺少一个特殊的红陶罐。这个罐子很高，侧面有竖线，形状很像旁边的蓝色玻璃罐。我还需要一套完整的帝国银餐具 -- 也就是叉子、餐刀和勺子。最后，我需要一个普通的金属盘。这个盘子是黄色的，中间有一幅太阳的图案。为我找到这些东西，勇士，我就会好好报答你。 {帝国人,报酬}
 
 > INFO.NAME my collection 2942493341947127057
 Oh, that's truly a pity. I must hereby abonlish your title of Champion of Clutter. Please leave me now.
-哦，那真是太遗憾了。我必须在此废除你的“杂物冠军”称号。请你现在离开我。
+哦，那真是太遗憾了。我必须在此废除你的“杂物勇士”称号。请你现在离开我。
 
 > INFO.NAME my collection 15015308283270532678
 My collection is looking better thanks to your efforts, but it is still incomplete. I have another task for you, if you're interested.
@@ -25639,11 +25639,11 @@ No thanks. Once was enough.
 
 > INFO.NAME my collection 4187652432496126
 Oh how wonderful! This is exactly what I wanted. Thank you so much, %PCName. I hereby christen you the Champion of Clutter! Take this money as a token of my appreciation. Come back again and I may have more work for you.
-多么美妙啊！这正是我想要的。非常感谢你，%PCName。我在此授予你“杂物冠军”的称号。拿着这些钱，以示我的感激。下次再来，我可能会有更多的工作给你。
+多么美妙啊！这正是我想要的。非常感谢你，%PCName。我在此授予你“杂物勇士”的称号。拿着这些钱，以示我的感激。下次再来，我可能会有更多的工作给你。
 
 > INFO.NAME my collection 304271784263553317
 Why do you lie to me %PCName? I'm just a simple collector of clutter looking for my Champion. Come back again when you have the cloth and pitcher.
-你为什么要对我撒谎%PCName？我只是一个普通的杂物收集者，正在寻找我的冠军。等你拿到布和水壶再回来吧。
+你为什么要对我撒谎%PCName？我只是一个普通的杂物收集者，正在寻找我的勇士。等你拿到布和水壶再回来吧。
 
 > INFO.NAME my collection 1125777901054427463
 Well, please get them to me as soon as possible. this matter is of the highest urgency. Remember, the fabric is burgundy and has a diamond pattern on the side, and the pitcher is silver.
@@ -25671,11 +25671,11 @@ Fabulous! I require two items for my Imperial collection at the moment. The firs
 
 > INFO.NAME my collection 14527600662120339
 Oh, that's truly a pity. I suppose I shall have to remain my own Champion of Clutter for now.
-哦，那真是太遗憾了。我想我现在还得继续做我自己的杂物冠军。 {沙尔}
+哦，那真是太遗憾了。我想我现在还得继续做我自己的杂物勇士。 {沙尔}
 
 > INFO.NAME my collection 15631744188042457
 While my shelves full of Morrowind's clutter are impressive, they are not yet definitive. I am looking to recruit a brave and stalwart adventurer to become my Champion of Clutter, venturing into the world and seeking the items I need to complete my collections. Are you interested? Of course, I will reward you well.
-虽然我的架子上摆满了晨风的杂物，令人印象深刻，但它们还不够齐全。我想招募一位勇敢而坚毅的冒险家，成为我的杂物冠军，到世界上寻找我需要的物品来完成我的收藏品。你有兴趣吗？当然，我一定会好好报答你。 {报酬}
+虽然我的架子上摆满了晨风的杂物，令人印象深刻，但它们还不够齐全。我想招募一位勇敢而坚毅的冒险家，成为我的杂物勇士，到世界上寻找我需要的物品来完成我的收藏品。你有兴趣吗？当然，我一定会好好报答你。 {报酬}
 
 > INFO.BNAM my collection 15631744188042457 c1
 I'd be happy to help.
@@ -28563,7 +28563,7 @@ Oh, you again. Come to view my collection and wonder what glory might have been 
 
 > INFO.NAME greeting 1 31995282172166517260
 Greetings my Champion of Clutter!
-你好，我的杂物冠军！
+你好，我的杂物勇士！
 
 > INFO.NAME greeting 1 136651368272122489
 Salutations, %PCRace. I don't need any more help right now. Are you maybe looking for beds for rent?

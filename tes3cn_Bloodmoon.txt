@@ -12338,7 +12338,7 @@ endif
 if ( OnActivate == 1 )
 	if ( GetJournalIndex BM_BrodirGrove >= 10 )
 		Cast ""stone_ulfgar"" Player					;fortify strength 10
-		MessageBox ""你已获得乌尔夫加的力量天赋。""
+		MessageBox ""你已获得乌夫加尔的力量天赋。""
 	endif
 endif
 
@@ -18911,7 +18911,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "bm bear left gauntlet$00"
  ARMO.MODL "a\A_Bear_Gauntlet_GND.NIF$00"
- ARMO.FNAM "熊皮左护手$00"
+ ARMO.FNAM "熊皮左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 80 40 28 00 00 00 50 00 00 00 0A 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Bear_Gauntlet.dds$00"
  ARMO.INDX [07]
@@ -18920,7 +18920,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "BM bear right gauntlet$00"
  ARMO.MODL "a\A_Bear_Gauntlet_GND.NIF$00"
- ARMO.FNAM "熊皮右护手$00"
+ ARMO.FNAM "熊皮右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 80 40 28 00 00 00 50 00 00 00 0A 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Bear_Gauntlet.dds$00"
  ARMO.INDX [06]
@@ -18953,7 +18953,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "BM bear right pauldron$00"
  ARMO.MODL "a\A_Bear_Pauldron_GND.NIF$00"
- ARMO.FNAM "熊皮右护肩$00"
+ ARMO.FNAM "熊皮右肩甲$00"
  ARMO.AODT [03 00 00 00 00 00 E0 40 3C 00 00 00 64 00 00 00 10 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Bear_Pauldron.dds$00"
  ARMO.INDX [0D]
@@ -18963,7 +18963,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "BM Bear left Pauldron$00"
  ARMO.MODL "a\A_Bear_Pauldron_GND.NIF$00"
- ARMO.FNAM "熊皮左护肩$00"
+ ARMO.FNAM "熊皮左肩甲$00"
  ARMO.AODT [02 00 00 00 00 00 E0 40 3C 00 00 00 64 00 00 00 10 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Bear_Pauldron.dds$00"
  ARMO.INDX [0E]
@@ -19056,7 +19056,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "bm wolf left gauntlet$00"
  ARMO.MODL "a\A_Wolf2_Gauntlet_GND.NIF$00"
- ARMO.FNAM "狼皮左护手$00"
+ ARMO.FNAM "狼皮左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 C0 3F 28 00 00 00 50 00 00 00 0A 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Wolf2_Gauntlet.dds$00"
  ARMO.INDX [07]
@@ -19065,7 +19065,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "BM Wolf Left Pauldron$00"
  ARMO.MODL "a\A_Wolf2_Pauldron_GND.NIF$00"
- ARMO.FNAM "狼皮左护肩$00"
+ ARMO.FNAM "狼皮左肩甲$00"
  ARMO.AODT [02 00 00 00 9A 99 19 40 3C 00 00 00 64 00 00 00 10 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Wolf2_Pauldron.dds$00"
  ARMO.INDX [0E]
@@ -19075,7 +19075,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "BM wolf right gauntlet$00"
  ARMO.MODL "a\A_Wolf2_Gauntlet_GND.NIF$00"
- ARMO.FNAM "狼皮右护手$00"
+ ARMO.FNAM "狼皮右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 C0 3F 28 00 00 00 50 00 00 00 0A 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Wolf2_Gauntlet.dds$00"
  ARMO.INDX [06]
@@ -19084,7 +19084,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "BM Wolf right pauldron$00"
  ARMO.MODL "a\A_Wolf2_Pauldron_GND.NIF$00"
- ARMO.FNAM "狼皮右护肩$00"
+ ARMO.FNAM "狼皮右肩甲$00"
  ARMO.AODT [03 00 00 00 9A 99 19 40 3C 00 00 00 64 00 00 00 10 00 00 00 0F 00 00 00]
  ARMO.ITEX "A\Tx_Wolf2_Pauldron.dds$00"
  ARMO.INDX [0D]
@@ -20169,7 +20169,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "steel_gauntlet_left_ancient$00"
  ARMO.MODL "a\A_Steel_Gauntlet_GND.NIF$00"
- ARMO.FNAM "古代钢制左护手$00"
+ ARMO.FNAM "古代钢制左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 A0 40 1C 00 00 00 25 00 00 00 C8 00 00 00 10 00 00 00]
  ARMO.ITEX "a\TX_Steel_gauntlet.tga$00"
  ARMO.INDX [07]
@@ -20178,7 +20178,7 @@ End WolfRitualRing
 -ARMO
  ARMO.NAME "steel_gauntlet_right_ancient$00"
  ARMO.MODL "a\A_Steel_Gauntlet_GND.NIF$00"
- ARMO.FNAM "古代钢制右护手$00"
+ ARMO.FNAM "古代钢制右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 A0 40 1C 00 00 00 25 00 00 00 C8 00 00 00 10 00 00 00]
  ARMO.ITEX "a\TX_Steel_gauntlet.tga$00"
  ARMO.INDX [06]
@@ -23522,7 +23522,7 @@ RH<BR>
 -MISC
  MISC.NAME "misc_skull_oddfrid$00"
  MISC.MODL "m\misc_skull00.nif$00"
- MISC.FNAM "奥德弗里德·白-唇$00"
+ MISC.FNAM "奥德弗里德·白唇$00"
  MISC.MCDT [00 00 00 3F 00 00 00 00 00 00 00 00]
  MISC.SCRI "OddfridFind$00"
  MISC.ITEX "m\misc_skull00.tga$00"
@@ -24053,7 +24053,7 @@ RH<BR>
 -ARMO
  ARMO.NAME "BM_wolf_left_gauntlet_snow$00"
  ARMO.MODL "a\A_Wolf_Gauntlet_GND.NIF$00"
- ARMO.FNAM "雪狼左护手$00"
+ ARMO.FNAM "雪狼左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 C0 3F D0 07 00 00 50 00 00 00 0A 00 00 00 23 00 00 00]
  ARMO.ITEX "A\Tx_Wolf_Gauntlet.dds$00"
  ARMO.INDX [07]
@@ -24074,7 +24074,7 @@ RH<BR>
 -ARMO
  ARMO.NAME "BM_wolf_right_gauntlet_snow$00"
  ARMO.MODL "a\A_Wolf_Gauntlet_GND.NIF$00"
- ARMO.FNAM "雪狼右护手$00"
+ ARMO.FNAM "雪狼右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 C0 3F D0 07 00 00 50 00 00 00 0A 00 00 00 23 00 00 00]
  ARMO.ITEX "A\Tx_Wolf_Gauntlet.dds$00"
  ARMO.INDX [06]
@@ -24146,7 +24146,7 @@ RH<BR>
 -ARMO
  ARMO.NAME "BM_bear_left_gauntlet_snow$00"
  ARMO.MODL "a\A_Bear2_Gauntlet_GND.NIF$00"
- ARMO.FNAM "雪熊左护手$00"
+ ARMO.FNAM "雪熊左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 80 40 D0 07 00 00 50 00 00 00 0A 00 00 00 23 00 00 00]
  ARMO.ITEX "A\Tx_Bear2_Gauntlet.dds$00"
  ARMO.INDX [07]
@@ -24167,7 +24167,7 @@ RH<BR>
 -ARMO
  ARMO.NAME "BM_bear_right_gauntlet_snow$00"
  ARMO.MODL "a\A_Bear2_Gauntlet_GND.NIF$00"
- ARMO.FNAM "雪熊右护手$00"
+ ARMO.FNAM "雪熊右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 80 40 D0 07 00 00 50 00 00 00 0A 00 00 00 23 00 00 00]
  ARMO.ITEX "A\Tx_Bear2_Gauntlet.dds$00"
  ARMO.INDX [06]
@@ -25332,8 +25332,8 @@ RH<BR>
 雪熊胸甲：5张雪熊皮和6000金币<BR>
 雪熊左肩甲：2张雪熊皮和1000金币<BR>
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
-雪熊左护手：2张雪熊皮和1000金币<BR>
-雪熊右护手：2张雪熊皮和1000金币<BR>
+雪熊左腕甲：2张雪熊皮和1000金币<BR>
+雪熊右腕甲：2张雪熊皮和1000金币<BR>
 雪熊护胫：4张雪熊皮和5000金币<BR>
 雪熊靴：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
@@ -25342,8 +25342,8 @@ RH<BR>
 雪狼胸甲：5张雪狼皮和6000金币<BR>
 雪狼肩甲：2张雪狼皮和1000金币<BR>
 雪狼肩甲：2张雪狼皮和1000金币<BR>
-雪狼左护手：2张雪狼皮和1000金币<BR>
-雪狼右护手：2张雪狼皮和1000金币<BR>
+雪狼左腕甲：2张雪狼皮和1000金币<BR>
+雪狼右腕甲：2张雪狼皮和1000金币<BR>
 雪狼护胫：4张雪狼皮和5000金币<BR>
 雪狼靴：3张雪狼皮和3000金币<BR>
 雪狼头盔：2张雪狼皮和2000金币<BR>
@@ -26421,7 +26421,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_NordicMail_PauldronL$00"
  ARMO.MODL "a\A_NordicMail_Pauldron_GND.NIF$00"
- ARMO.FNAM "诺德链甲左护肩$00"
+ ARMO.FNAM "诺德链甲左肩甲$00"
  ARMO.AODT [02 00 00 00 00 00 20 41 E8 03 00 00 64 00 00 00 64 00 00 00 42 00 00 00]
  ARMO.ITEX "A\NordicMail_Pauldron.dds$00"
  ARMO.INDX [18]
@@ -26436,7 +26436,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_NordicMail_PauldronR$00"
  ARMO.MODL "a\A_NordicMail_Pauldron_GND.NIF$00"
- ARMO.FNAM "诺德链甲右护肩$00"
+ ARMO.FNAM "诺德链甲右肩甲$00"
  ARMO.AODT [03 00 00 00 00 00 20 41 E8 03 00 00 64 00 00 00 64 00 00 00 42 00 00 00]
  ARMO.ITEX "A\NordicMail_Pauldron.dds$00"
  ARMO.INDX [17]
@@ -26451,7 +26451,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_NordicMail_gauntletL$00"
  ARMO.MODL "a\A_NordicMail_M_Ga_GND.NIF$00"
- ARMO.FNAM "诺德链甲左护手$00"
+ ARMO.FNAM "诺德链甲左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 00 41 E8 03 00 00 64 00 00 00 64 00 00 00 42 00 00 00]
  ARMO.ITEX "A\NordicMail_Grove.dds$00"
  ARMO.INDX [07]
@@ -26461,7 +26461,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_NordicMail_gauntletR$00"
  ARMO.MODL "a\A_NordicMail_M_Ga_GND.NIF$00"
- ARMO.FNAM "诺德链甲右护手$00"
+ ARMO.FNAM "诺德链甲右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 00 41 E8 03 00 00 64 00 00 00 64 00 00 00 42 00 00 00]
  ARMO.ITEX "A\NordicMail_Grove.dds$00"
  ARMO.INDX [06]
@@ -27057,7 +27057,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_Ice_gauntletL$00"
  ARMO.MODL "a\A_Ice_Gauntlet_GND.NIF$00"
- ARMO.FNAM "魔冰左护手$00"
+ ARMO.FNAM "魔冰左腕甲$00"
  ARMO.AODT [06 00 00 00 00 00 80 40 E8 03 00 00 2C 01 00 00 64 00 00 00 32 00 00 00]
  ARMO.ITEX "A\Ice_Grove.dds$00"
  ARMO.INDX [07]
@@ -27067,7 +27067,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_Ice_gauntletR$00"
  ARMO.MODL "a\A_Ice_Gauntlet_GND.NIF$00"
- ARMO.FNAM "魔冰右护手$00"
+ ARMO.FNAM "魔冰右腕甲$00"
  ARMO.AODT [07 00 00 00 00 00 80 40 E8 03 00 00 2C 01 00 00 64 00 00 00 32 00 00 00]
  ARMO.ITEX "A\Ice_Grove.dds$00"
  ARMO.INDX [06]
@@ -27105,7 +27105,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_Ice_PauldronL$00"
  ARMO.MODL "a\A_Ice_Pauldron_GND.NIF$00"
- ARMO.FNAM "魔冰左护肩$00"
+ ARMO.FNAM "魔冰左肩甲$00"
  ARMO.AODT [02 00 00 00 00 00 00 41 E0 2E 00 00 26 02 00 00 12 00 00 00 32 00 00 00]
  ARMO.ITEX "A\Ice_Pauldron.dds$00"
  ARMO.INDX [18]
@@ -27117,7 +27117,7 @@ C. 马基乌斯<BR>"
 -ARMO
  ARMO.NAME "BM_Ice_PauldronR$00"
  ARMO.MODL "a\A_Ice_Pauldron_GND.NIF$00"
- ARMO.FNAM "魔冰右护肩$00"
+ ARMO.FNAM "魔冰右肩甲$00"
  ARMO.AODT [03 00 00 00 00 00 00 41 E0 2E 00 00 26 02 00 00 12 00 00 00 32 00 00 00]
  ARMO.ITEX "A\Ice_Pauldron.dds$00"
  ARMO.INDX [17]
@@ -29845,8 +29845,8 @@ C. 马基乌斯<BR>"
 雪熊胸甲：5张雪熊皮和6000金币<BR>
 雪熊左肩甲：2张雪熊皮和1000金币<BR>
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
-雪熊左护手：2张雪熊皮和1000金币<BR>
-雪熊右护手：2张雪熊皮和1000金币<BR>
+雪熊左腕甲：2张雪熊皮和1000金币<BR>
+雪熊右腕甲：2张雪熊皮和1000金币<BR>
 雪熊护胫：4张雪熊皮和5000金币<BR>
 雪熊靴：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
@@ -29855,8 +29855,8 @@ C. 马基乌斯<BR>"
 雪狼胸甲：5张雪狼皮和6000金币<BR>
 雪狼左肩甲：2张雪狼皮和1000金币<BR>
 雪狼右肩甲：2张雪狼皮和1000金币<BR>
-雪狼左护手：2张雪狼皮和1000金币<BR>
-雪狼右护手：2张雪狼皮和1000金币<BR>
+雪狼左腕甲：2张雪狼皮和1000金币<BR>
+雪狼右腕甲：2张雪狼皮和1000金币<BR>
 雪狼护胫：4张雪狼皮和5000金币<BR>
 雪狼靴：3张雪狼皮和3000金币<BR>
 雪狼头盔：2张雪狼皮和2000金币<BR>
@@ -36106,7 +36106,7 @@ C<BR>"
  INFO.PNAM "4032318703084130960$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎疾病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。"
+ INFO.NAME "灰烬之民的女智者松努姆·扎巴马特说，哉纳布部落需要更多治愈常见疾病和治愈枯萎病的药水。部落的男人们长途跋涉，打猎放牧，一旦染上疾病，就无法回到营地让女智者治愈，但如果他们随身携带这些药水，就可以自己治愈。现在我可以向图雷德·塔拉尼亚报告，告诉他治愈常见疾病和治愈枯萎病的药水会是很有价值的贸易品。"
 -DIAL
  DIAL.NAME "A2_4_Milo_hola_go$00"
  DIAL.DATA [04]
@@ -40844,7 +40844,7 @@ C<BR>"
  INFO.PNAM "5538324981826641$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "松绿之泪已经交给了寡妇科尔芬娜，从而完成了血债的任务。科尔芬娜被我的努力深深感动，现在把我当成了她的家人。我可以随时睡在科尔芬娜的床上，她还给了我一把她丈夫旧箱子的钥匙。里面的东西我都可以拿走。"
+ INFO.NAME "松绿之泪已经交给了寡妇科尔芬娜，我完成了血债的任务。科尔芬娜被我的努力深深感动，现在把我当成了她的家人。我可以随时睡在科尔芬娜的床上，她还给了我一把她丈夫旧箱子的钥匙。里面的东西我都可以拿走。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "BM_SkaalAttack$00"
@@ -40928,13 +40928,13 @@ C<BR>"
  INFO.PNAM "18307205201919912483$00"
  INFO.NNAM "2560469252726718385$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我遇到了无尽者乌夫加尔，他向我讲述了他的悲惨故事。他和他的四个同伴来到索瑟泰姆进行某种探险。五人中有一个名叫格里姆凯尔的巫师背叛了乌尔夫加和其他人。乌尔夫加杀死了格里姆凯尔，但其他三个同伴却变成了石头。他们就是泊地尔石阵的立石。 {树林}"
+ INFO.NAME "我遇到了无尽者乌夫加尔，他向我讲述了他的悲惨故事。他和他的四个同伴来到索瑟泰姆进行某种探险。五人中有一个名叫格里姆凯尔的巫师背叛了乌夫加尔和其他人。乌夫加尔杀死了格里姆凯尔，但其他三个同伴却变成了石头。他们就是泊地尔石阵的立石。 {树林}"
 -INFO
  INFO.INAM "2560469252726718385$00"
  INFO.PNAM "1920210590298791438$00"
  INFO.NNAM "1178610488487319471$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "五百年来，乌尔夫加一直在寻找松加德的入口，但没有成功。松加德是神话中的堡垒，英勇的诺德人可以在那里永生。他认为自己今生探求松加德无果了。如果我能为他找到入口，他将永远欠我一个人情。"
+ INFO.NAME "五百年来，乌夫加尔一直在寻找松加德的入口，但没有成功。松加德是神话中的堡垒，英勇的诺德人可以在那里永生。他认为自己今生探求松加德无果了。如果我能为他找到入口，他将永远欠我一个人情。"
 -INFO
  INFO.INAM "1178610488487319471$00"
  INFO.PNAM "2560469252726718385$00"
@@ -40946,31 +40946,31 @@ C<BR>"
  INFO.PNAM "1178610488487319471$00"
  INFO.NNAM "24429185522872617948$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "乌尔夫加对《再探松加德》一书中的新理论既震惊又兴奋。他现在相信，松加德的入口一直就在他面前。他所要做的就是光荣地死去 -- 而他选择了我作为他的对手。"
+ INFO.NAME "乌夫加尔对《再探松加德》一书中的新理论既震惊又兴奋。他现在相信，松加德的入口一直就在他面前。他所要做的就是光荣地死去 -- 而他选择了我作为他的对手。"
 -INFO
  INFO.INAM "24429185522872617948$00"
  INFO.PNAM "4259153062611329672$00"
  INFO.NNAM "1829965224154368$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "乌尔夫加让我和他决一死战，希望我能获胜，把他的灵魂送到松加德。我拒绝了。"
+ INFO.NAME "乌夫加尔让我和他决一死战，希望我能获胜，把他的灵魂送到松加德。我拒绝了。"
 -INFO
  INFO.INAM "1829965224154368$00"
  INFO.PNAM "24429185522872617948$00"
  INFO.NNAM "31289248272183216428$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "乌尔夫加让我和他决一死战，并希望我能获胜，从而把他的灵魂送往松加德。我同意了，当我准备好战斗时，必须回到他的住所。"
+ INFO.NAME "乌夫加尔让我和他决一死战，并希望我能获胜，从而把他的灵魂送往松加德。我同意了，当我准备好战斗时，必须回到他的住所。"
 -INFO
  INFO.INAM "31289248272183216428$00"
  INFO.PNAM "1829965224154368$00"
  INFO.NNAM "1471315255747824878$00"
  INFO.DATA [04 00 00 00 5A 00 00 00 FF FF FF 00]
- INFO.NAME "我杀死了乌尔夫加。他在弥留之际感谢我帮他进入松加德。乌尔夫加还说他会尝试在死后联系我，并在泊地尔石阵留下某种奖赏。 {报酬,树林}"
+ INFO.NAME "我杀死了乌夫加尔。他在弥留之际感谢我帮他进入松加德。乌夫加尔还说他会尝试在死后联系我，并在泊地尔石阵留下某种奖赏。 {报酬,树林}"
 -INFO
  INFO.INAM "1471315255747824878$00"
  INFO.PNAM "31289248272183216428$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我来到泊地尔石阵，见到了乌尔夫加的灵魂。他在松加德见到了他的朋友们，并讲述了我所给予的帮助。作为回报，每次我去泊地尔石阵，他的同伴们都会为我注入他们最强大的属性。我只需拜访他们的立石，就能获得祝福。 {树林,报酬,需要}"
+ INFO.NAME "我来到泊地尔石阵，见到了乌夫加尔的灵魂。他在松加德见到了他的朋友们，并讲述了我所给予的帮助。作为回报，每次我去泊地尔石阵，他的同伴们都会为我注入他们最强大的属性。我只需拜访他们的立石，就能获得祝福。 {树林,报酬,需要}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "BM_FrostGiant1$00"
@@ -43015,7 +43015,7 @@ C<BR>"
  INFO.PNAM "1898222083456730209$00"
  INFO.NNAM "1663916321957631206$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "第三期工程应该完工了。我应该去看看是否有业务给我。"
+ INFO.NAME "第三阶段的建设应该完工了。我应该去看看是否有业务给我。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "1663916321957631206$00"
@@ -45027,7 +45027,7 @@ C<BR>"
  INFO.PNAM "24678144462691930217$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之铠。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。"
+ INFO.NAME "神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IC2_Muck_not$00"
@@ -47081,7 +47081,7 @@ C<BR>"
  INFO.PNAM "28508225771506928899$00"
  INFO.NNAM "2555930546159799664$00"
  INFO.DATA [04 00 00 00 45 00 00 00 FF FF FF 00]
- INFO.NAME "心牙死了。他死的时候，希尔辛之戒从他的手指上消失，出现在我的库存里。 {戒指}"
+ INFO.NAME "心牙死了。他死的时候，希尔辛之戒从他的手指上消失，出现在我的身上。 {戒指}"
 -INFO
  INFO.INAM "2555930546159799664$00"
  INFO.PNAM "188302990614188995$00"
@@ -48268,31 +48268,31 @@ C<BR>"
  INFO.PNAM "2322811531170813370$00"
  INFO.NNAM "476731776472729772$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "盖利尔让我从科布乔恩古冢救出奥德弗里德·白-唇，但我拒绝了。"
+ INFO.NAME "盖利尔让我从科布乔恩古冢救出奥德弗里德·白唇，但我拒绝了。"
 -INFO
  INFO.INAM "476731776472729772$00"
  INFO.PNAM "3034010896191716750$00"
  INFO.NNAM "21755137051556225545$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我同意帮助喃喃者盖利尔，从科布乔恩古冢营救奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈，并透露我的未来。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}"
+ INFO.NAME "我同意帮助喃喃者盖利尔，从科布乔恩古冢营救奥德弗里德·白唇。作为酬劳，他将与奥德弗里德交谈，并透露我的未来。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}"
 -INFO
  INFO.INAM "21755137051556225545$00"
  INFO.PNAM "476731776472729772$00"
  INFO.NNAM "22251196661123929683$00"
  INFO.DATA [04 00 00 00 23 00 00 00 FF FF FF 00]
- INFO.NAME "我同意帮助喃喃者盖利尔，从科布乔恩古冢救出奥德弗里德·白-唇。作为酬劳，他将与奥德弗里德交谈并揭示我的未来。他还会解除托尔穆尔·灰浪的永不安寝诅咒。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}"
+ INFO.NAME "我同意帮助喃喃者盖利尔，从科布乔恩古冢救出奥德弗里德·白唇。作为酬劳，他将与奥德弗里德交谈并揭示我的未来。他还会解除托尔穆尔·灰浪的永不安寝诅咒。科布乔恩古冢在盖利尔住所的东南方，靠近索瑟泰姆海岸。 {报酬}"
 -INFO
  INFO.INAM "22251196661123929683$00"
  INFO.PNAM "21755137051556225545$00"
  INFO.NNAM "2147823814821827709$00"
  INFO.DATA [04 00 00 00 25 00 00 00 FF FF FF 00]
- INFO.NAME "我找到了奥德弗里德·白-唇，但盖利尔没有提到她只是个骷髅头。没关系。如果我把头骨还给盖利尔，他应该会给我奖赏。 {报酬}"
+ INFO.NAME "我找到了奥德弗里德·白唇，但盖利尔没有提到她只是个骷髅头。没关系。如果我把头骨还给盖利尔，他应该会给我奖赏。 {报酬}"
 -INFO
  INFO.INAM "2147823814821827709$00"
  INFO.PNAM "22251196661123929683$00"
  INFO.NNAM "3997156941542613539$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "我把奥德弗里德·白-唇交还给了喃喃者盖利尔。盖利尔承认奥德弗里德只是个骷髅头，但坚持“她”会跟他说话。 {谈}"
+ INFO.NAME "我把奥德弗里德·白唇交还给了喃喃者盖利尔。盖利尔承认奥德弗里德只是个骷髅头，但坚持“她”会跟他说话。 {谈}"
 -INFO
  INFO.INAM "3997156941542613539$00"
  INFO.PNAM "2147823814821827709$00"
@@ -53700,7 +53700,7 @@ Goodbye"
  INFO.BNAM "Journal BM_BrodirGrove 40
 player->removeitem ""bk_sovngarde"" 1
 additem ""bk_sovngarde"" 1
-Choice ""对不起，乌尔夫加，我帮不了你。"" 2 ""我会帮你的，乌尔夫加。我会尽我所能在武装战斗中打败你。"" 3"
+Choice ""对不起，乌夫加尔，我帮不了你。"" 2 ""我会帮你的，乌夫加尔。我会尽我所能在武装战斗中打败你。"" 3"
 -INFO
  INFO.INAM "14503199851187811627$00"
  INFO.PNAM "28357324331720217418$00"
@@ -53724,7 +53724,7 @@ Choice ""对不起，乌尔夫加，我帮不了你。"" 2 ""我会帮你的，乌尔夫加。我会尽我所能
  INFO.INTV [00 00 00 00]
  INFO.SCVR "15IX2bk_Sovngarde"
  INFO.INTV [00 00 00 00]
- INFO.BNAM "Choice ""事实上，乌尔夫加，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。"" 1"
+ INFO.BNAM "Choice ""事实上，乌夫加尔，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。"" 1"
 -DIAL
  DIAL.NAME "永不安寝$00"
  DIAL.DATA [00]
@@ -56177,7 +56177,7 @@ Choice ""我选择流放。"" 1 ""把他喂狼。"" 2"
  INFO.NNAM "3092817651153532605$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "geilir the mumbling$00"
- INFO.NAME "啊，还不行，亲爱的%PCClass。你必须先把奥德弗里德·白-唇的头骨给我带来。"
+ INFO.NAME "啊，还不行，亲爱的%PCClass。你必须先把奥德弗里德·白唇的头骨给我带来。"
  INFO.SCVR "04JX3BM_SadSeer"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX4BM_SadSeer"
@@ -57170,7 +57170,7 @@ Goodbye"
  INFO.NNAM "14824115881174823039$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼盔，比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfHelm"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57198,7 +57198,7 @@ Goodbye"
  INFO.NNAM "32016149432863622601$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了？给你，%PCName，一双精心制作的雪狼靴。比我想象的还要好！如果你还需要什么，尽管吩咐！ {定制护甲}"
+ INFO.NAME "你的定制护甲准备好了？给你，%PCName，一双精心制作的雪狼靴子。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfBoots"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57226,7 +57226,7 @@ Goodbye"
  INFO.NNAM "15758235182619120363$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了？给你，%PCName，一套精工制作的雪狼格力夫。比我想象的还要好！如果你还需要什么，尽管吩咐！ {定制护甲}"
+ INFO.NAME "你的定制护甲准备好了？给你，%PCName，一套精工制作的雪狼胫甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfGreaves"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57254,7 +57254,7 @@ Goodbye"
  INFO.NNAM "1250413083117636835$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左手铠。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfLeftGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57270,7 +57270,7 @@ Goodbye"
  INFO.NNAM "1764328551172574490$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制雪狼左肩甲还没好，%PCName。稍后再来。"
+ INFO.NAME "你的定制雪狼左腕甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowWolfLeftGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -57282,7 +57282,7 @@ Goodbye"
  INFO.NNAM "12729231211106222386$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼右铠。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼右腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfRightGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57298,7 +57298,7 @@ Goodbye"
  INFO.NNAM "2986731801154257214$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制雪狼右肩甲还没好，%PCName。稍后再来。"
+ INFO.NAME "你的定制雪狼右腕甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowWolfRightGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -57310,7 +57310,7 @@ Goodbye"
  INFO.NNAM "20018737301356078$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左护手。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfLeftPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57326,7 +57326,7 @@ Goodbye"
  INFO.NNAM "27001163382273820938$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制雪狼左护手还没好，%PCName。稍后再来。"
+ INFO.NAME "你的定制雪狼左肩甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowWolfLeftPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -57338,7 +57338,7 @@ Goodbye"
  INFO.NNAM "325292433550669039$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼右护手。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼右肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfRightPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57354,7 +57354,7 @@ Goodbye"
  INFO.NNAM "390417542306632395$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制雪狼右护手还没好，%PCName。稍后再来。"
+ INFO.NAME "你的定制雪狼右肩甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowWolfRightPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -57366,7 +57366,7 @@ Goodbye"
  INFO.NNAM "2028918180152718725$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼铠甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼胸甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowWolfCuirass"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57551,7 +57551,7 @@ Goodbye"
  INFO.NNAM "100325179369718577$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼左手铠。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼左腕甲。"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -57600,7 +57600,7 @@ Goodbye"
  INFO.NNAM "1265920722211678229$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼右铠。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼右腕甲。"
  INFO.SCVR "01500"
  INFO.INTV [04 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -57649,7 +57649,7 @@ Goodbye"
  INFO.NNAM "3116419568134887112$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼左护手。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼左肩甲。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -57698,7 +57698,7 @@ Goodbye"
  INFO.NNAM "8346149541054423361$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会准备好你的定制雪狼右宝剑。"
+ INFO.NAME "我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会准备好你的定制雪狼右肩甲。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -57811,7 +57811,7 @@ Goodbye"
  INFO.NAME "你把雪狼皮和黄金拿给我，我就会为你定制一件雪狼铠甲。二十四小时内就能做好。你已经拿到了我的价格和毛皮要求清单，你对哪件盔甲感兴趣？"
  INFO.SCVR "04JX3BM_FurArmor"
  INFO.INTV [0A 00 00 00]
- INFO.BNAM "Choice ""雪狼胸甲"" 1 ""雪狼右肩甲"" 2 ""雪狼左肩甲"" 3 ""雪狼右护手"" 4 ""雪狼左护手"" 5 ""雪狼胫甲"" 6 ""雪狼靴子"" 7 ""雪狼头盔"" 8 ""现在没有想要的"" 9"
+ INFO.BNAM "Choice ""雪狼胸甲"" 1 ""雪狼右肩甲"" 2 ""雪狼左肩甲"" 3 ""雪狼右腕甲"" 4 ""雪狼左腕甲"" 5 ""雪狼胫甲"" 6 ""雪狼靴子"" 7 ""雪狼头盔"" 8 ""现在没有想要的"" 9"
 -INFO
  INFO.INAM "2721026021117127366$00"
  INFO.PNAM "29386163853098932001$00"
@@ -57831,7 +57831,7 @@ Goodbye"
  INFO.NNAM "4702166742190613989$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪熊头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearHelm"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57859,7 +57859,7 @@ Goodbye"
  INFO.NNAM "2778113067157023550$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了！给你，%PCName，一双精心制作的雪熊靴。比我想象的还要好！如果你还需要什么，尽管吩咐！ {定制护甲}"
+ INFO.NAME "你的定制护甲已经准备好了！给你，%PCName，一双专业制作的雪熊靴子。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearBoots"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57887,7 +57887,7 @@ Goodbye"
  INFO.NNAM "25161299432712413299$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了！给你，%PCName，一套专业制作的雪熊手套。比我预期的还要好。如果你还需要什么，尽管吩咐！ {定制护甲}"
+ INFO.NAME "你的定制护甲已经准备好了！给你，%PCName，一套专业制作的雪熊胫甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearGreaves"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57915,7 +57915,7 @@ Goodbye"
  INFO.NNAM "314101510021781698$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左护手。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearLeftGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57931,7 +57931,7 @@ Goodbye"
  INFO.NNAM "12550272162412112823$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制雪熊左肩甲还没好，%PCName。稍后再来。"
+ INFO.NAME "你的定制雪熊左腕甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowBearLeftGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -57943,7 +57943,7 @@ Goodbye"
  INFO.NNAM "142942580614797957$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪熊右铠。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊右腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearRightGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57959,7 +57959,7 @@ Goodbye"
  INFO.NNAM "231182793717218890$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制雪熊右肩甲还没好，%PCName。稍后再来。"
+ INFO.NAME "你的定制雪熊右腕甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowBearRightGauntlet"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -57971,7 +57971,7 @@ Goodbye"
  INFO.NNAM "11510490968641$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左护手。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊左肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearLeftPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -57987,7 +57987,7 @@ Goodbye"
  INFO.NNAM "16295223324858857$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你定制的雪熊左护手还没好，%PCName。稍后再来。"
+ INFO.NAME "你定制的雪熊左肩甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowBearLeftPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -57999,7 +57999,7 @@ Goodbye"
  INFO.NNAM "1965819549639124350$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了！给你，%PCName，这是我精心制作的雪熊右护手。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊右肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearRightPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -58015,7 +58015,7 @@ Goodbye"
  INFO.NNAM "46530381351455$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你定制的雪熊右护手还没好，%PCName。稍后再来。"
+ INFO.NAME "你定制的雪熊右肩甲还没好，%PCName。稍后再来。"
  INFO.SCVR "03sX0SnowBearRightPauldron"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX4localdaysPassed"
@@ -58027,7 +58027,7 @@ Goodbye"
  INFO.NNAM "15609137332936428952$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你的定制盔甲准备好了！给你，%PCName，一件专业制作的雪熊铠甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
+ INFO.NAME "你的定制盔甲已经准备好了！给你，%PCName，一件专业制作的雪熊胸甲。比我预期的还要好。如果你还需要什么，尽管吩咐！"
  INFO.SCVR "03sX0SnowBearCuirass"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -58212,7 +58212,7 @@ Goodbye"
  INFO.NNAM "2276612442179118578$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左护手。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左腕甲。"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -58261,7 +58261,7 @@ Goodbye"
  INFO.NNAM "191921721272168313$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右护手。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右腕甲。"
  INFO.SCVR "01500"
  INFO.INTV [04 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -58310,7 +58310,7 @@ Goodbye"
  INFO.NNAM "2142580871505925505$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左护手。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊左肩甲。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -58359,7 +58359,7 @@ Goodbye"
  INFO.NNAM "990777888127983$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右护肩。"
+ INFO.NAME "我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会为你准备好定制的雪熊右肩甲。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -58472,7 +58472,7 @@ Goodbye"
  INFO.NAME "你把雪熊皮和金子给我，我就给你定制一件雪熊盔甲，我会在24小时内做好。你已经拿到了我的价格和毛皮要求清单。你对哪件盔甲感兴趣？"
  INFO.SCVR "04JX3BM_FurArmor"
  INFO.INTV [0A 00 00 00]
- INFO.BNAM "Choice ""雪熊胸甲"" 1 ""雪熊右肩甲"" 2 ""雪熊左肩甲"" 3 ""雪熊右护手"" 4 ""雪熊左护手"" 5 ""雪熊胫甲"" 6 ""雪熊靴子"" 7 ""雪熊头盔"" 8 ""现在没有想要的"" 9"
+ INFO.BNAM "Choice ""雪熊胸甲"" 1 ""雪熊右肩甲"" 2 ""雪熊左肩甲"" 3 ""雪熊右腕甲"" 4 ""雪熊左腕甲"" 5 ""雪熊胫甲"" 6 ""雪熊靴子"" 7 ""雪熊头盔"" 8 ""现在没有想要的"" 9"
 -INFO
  INFO.INAM "19687285231110129998$00"
  INFO.PNAM "4354257353146619625$00"
@@ -59656,7 +59656,7 @@ Choice ""对不起，不行。"" 1 ""我会帮你救出奥德弗里德的，盖利尔。"" 3"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "geilir the mumbling$00"
- INFO.NAME "多亏了你，%PCName。奥德弗里德·白-唇再次与我同在。"
+ INFO.NAME "多亏了你，%PCName。奥德弗里德·白唇再次与我同在。"
  INFO.SCVR "04JX3BM_SadSeer"
  INFO.INTV [28 00 00 00]
 -DIAL
@@ -59782,7 +59782,7 @@ set ""Carnius Magius"".Stalhrimgiven to ( ""Carnius Magius"".Stalhrimgiven - 2 )
  INFO.INTV [32 00 00 00]
  INFO.SCVR "13sX3Stalhrimgiven"
  INFO.INTV [02 00 00 00]
- INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左护肩""  3 ""魔冰右护肩"" 4 ""魔冰左护手"" 5 ""魔冰右护手"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""什么都不要"" 1"
+ INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左肩甲""  3 ""魔冰右肩甲"" 4 ""魔冰左腕甲"" 5 ""魔冰右腕甲"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""什么都不要"" 1"
 -INFO
  INFO.INAM "23576130442396221546$00"
  INFO.PNAM "92859362084210883$00"
@@ -59875,7 +59875,7 @@ set localdayspassed to 0"
  INFO.NNAM "17443174483012332348$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "这是你的右臂铠，应该很适合你，要好好保养。"
+ INFO.NAME "这是你的右腕甲，应该很适合你，要好好保养。"
  INFO.SCVR "03sX0srbracer"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -59891,7 +59891,7 @@ set localdayspassed to 0"
  INFO.NNAM "1813621118289433152$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "很抱歉，你的右护肩还没准备好。还需要一点时间。"
+ INFO.NAME "很抱歉，你的右腕甲还没准备好。还需要一点时间。"
  INFO.SCVR "03sX0srbracer"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -59900,7 +59900,7 @@ set localdayspassed to 0"
  INFO.NNAM "143683830111773761$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "这是你的左护肩。它应该很适合你，要好好保管。"
+ INFO.NAME "这是你的左腕甲。它应该很适合你，要好好保管。"
  INFO.SCVR "03sX0slbracer"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -59916,7 +59916,7 @@ set localdayspassed to 0"
  INFO.NNAM "26831132803020919954$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "很抱歉，你的左护肩还没准备好。还需要一点时间。"
+ INFO.NAME "很抱歉，你的左腕甲还没准备好。还需要一点时间。"
  INFO.SCVR "03sX0slbracer"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -59925,7 +59925,7 @@ set localdayspassed to 0"
  INFO.NNAM "2428929627740527694$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "这是你的右护手。它应该很适合你，要好好保管。"
+ INFO.NAME "这是你的右肩甲。它应该很适合你，要好好保管。"
  INFO.SCVR "03sX0srpauld"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -59941,7 +59941,7 @@ set localdayspassed to 0"
  INFO.NNAM "22377975065332495$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "很抱歉，你的右护手还没准备好。还需要一点时间。"
+ INFO.NAME "很抱歉，你的右肩甲还没准备好。还需要一点时间。"
  INFO.SCVR "03sX0srpauld"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -59950,7 +59950,7 @@ set localdayspassed to 0"
  INFO.NNAM "27205227392285924137$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "这是你的左护手。它应该很适合你，好好保管它。"
+ INFO.NAME "这是你的左肩甲。它应该很适合你，好好保管它。"
  INFO.SCVR "03sX0slpauld"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -59966,7 +59966,7 @@ set localdayspassed to 0"
  INFO.NNAM "29311300532962426992$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "很抱歉，你的左护手还没准备好，还需要一点时间。"
+ INFO.NAME "很抱歉，你的左肩甲还没准备好，还需要一点时间。"
  INFO.SCVR "03sX0slpauld"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -60093,7 +60093,7 @@ Goodbye"
  INFO.NNAM "190728251872114004$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "你没有魔冰原矿，我无法为你制作右护肩。"
+ INFO.NAME "你没有魔冰原矿，我无法为你制作右腕甲。"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
  INFO.SCVR "15IX4ingred_raw_Stalhrim_01"
@@ -60119,7 +60119,7 @@ Goodbye"
  INFO.NNAM "28365309482984410732$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "你没有魔冰原矿。我无法为您制作左护肩。"
+ INFO.NAME "你没有魔冰原矿。我无法为您制作左腕甲。"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "15IX4ingred_raw_Stalhrim_01"
@@ -60145,7 +60145,7 @@ Goodbye"
  INFO.NNAM "26212170721798626081$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "你没有魔冰原矿。我无法为你制作右护手。"
+ INFO.NAME "你没有魔冰原矿。我无法为你制作右肩甲。"
  INFO.SCVR "01500"
  INFO.INTV [04 00 00 00]
  INFO.SCVR "15IX4ingred_raw_Stalhrim_01"
@@ -60171,7 +60171,7 @@ Goodbye"
  INFO.NNAM "312191161952730475$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "你没有魔冰原矿。我无法为你制作左护手。"
+ INFO.NAME "你没有魔冰原矿。我无法为你制作左肩甲。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "15IX4ingred_raw_Stalhrim_01"
@@ -60219,7 +60219,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
  INFO.NAME "只要你有原矿，我可以制作任何盔甲。你需要什么？ {原材料}"
- INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左护肩""  3 ""魔冰右护肩"" 4 ""魔冰左护手"" 5 ""魔冰右护手"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""什么都不要"" 1"
+ INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左肩甲""  3 ""魔冰右肩甲"" 4 ""魔冰左腕甲"" 5 ""魔冰右腕甲"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""什么都不要"" 1"
 -DIAL
  DIAL.NAME "乌迪福瑞克$00"
  DIAL.DATA [00]
@@ -61024,7 +61024,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "171269341044122742$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Skaal Village$00"
- INFO.NAME "别说是我告诉你的，只是乔尔弗想雇个人干点活…需要一个不怕护手上沾点血的人，你懂我的意思吧。"
+ INFO.NAME "别说是我告诉你的，只是乔尔弗想雇个人干点活…需要一个不怕腕甲上沾点血的人，你懂我的意思吧。"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [46 00 00 00]
 -INFO
@@ -64589,7 +64589,7 @@ moddisposition -5"
  INFO.BNAM "Journal BM_BrodirGrove 40
 player->removeitem ""bk_sovngarde"" 1
 additem ""bk_sovngarde"" 1
-Choice ""对不起，乌尔夫加，我帮不了你。"" 2 ""我会帮你的，乌尔夫加。我会尽我所能在武装战斗中打败你。"" 3"
+Choice ""对不起，乌夫加尔，我帮不了你。"" 2 ""我会帮你的，乌夫加尔。我会尽我所能在武装战斗中打败你。"" 3"
 -INFO
  INFO.INAM "344221785967817277$00"
  INFO.PNAM "1527335051386222389$00"
@@ -64673,7 +64673,7 @@ Goodbye"
  INFO.NAME "%PCName，我…我不确定你会回来。告诉我…你是来接受我的邀请，和我决一死战的吗？"
  INFO.SCVR "04JX0BM_BrodirGrove"
  INFO.INTV [32 00 00 00]
- INFO.BNAM "Choice ""对不起，乌尔夫加，我帮不了你。"" 2 ""我会帮你的，乌尔夫加。我会尽我所能在武装战斗中打败你。"" 3"
+ INFO.BNAM "Choice ""对不起，乌夫加尔，我帮不了你。"" 2 ""我会帮你的，乌夫加尔。我会尽我所能在武装战斗中打败你。"" 3"
 -INFO
  INFO.INAM "18734306931781631090$00"
  INFO.PNAM "26665154423101328751$00"
@@ -64687,7 +64687,7 @@ Goodbye"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "25IX2bk_Sovngarde"
  INFO.INTV [00 00 00 00]
- INFO.BNAM "Choice ""事实上，乌尔夫加，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。"" 1"
+ INFO.BNAM "Choice ""事实上，乌夫加尔，我发现了这本书，书名叫《再探松加德》。它似乎对如何进入松加德提出了新的理论，我想它也许能解答你的疑惑。"" 1"
 -INFO
  INFO.INAM "32279320191818624922$00"
  INFO.PNAM "18734306931781631090$00"
