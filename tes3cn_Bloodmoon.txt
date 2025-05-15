@@ -25334,8 +25334,8 @@ RH<BR>
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
 雪熊左腕甲：2张雪熊皮和1000金币<BR>
 雪熊右腕甲：2张雪熊皮和1000金币<BR>
-雪熊护胫：4张雪熊皮和5000金币<BR>
-雪熊靴：3张雪熊皮和3000金币<BR>
+雪熊胫甲：4张雪熊皮和5000金币<BR>
+雪熊靴子：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
 <BR>
 雪狼护甲<BR>
@@ -25344,8 +25344,8 @@ RH<BR>
 雪狼肩甲：2张雪狼皮和1000金币<BR>
 雪狼左腕甲：2张雪狼皮和1000金币<BR>
 雪狼右腕甲：2张雪狼皮和1000金币<BR>
-雪狼护胫：4张雪狼皮和5000金币<BR>
-雪狼靴：3张雪狼皮和3000金币<BR>
+雪狼胫甲：4张雪狼皮和5000金币<BR>
+雪狼靴子：3张雪狼皮和3000金币<BR>
 雪狼头盔：2张雪狼皮和2000金币<BR>
 
 "
@@ -29847,8 +29847,8 @@ C. 马基乌斯<BR>"
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
 雪熊左腕甲：2张雪熊皮和1000金币<BR>
 雪熊右腕甲：2张雪熊皮和1000金币<BR>
-雪熊护胫：4张雪熊皮和5000金币<BR>
-雪熊靴：3张雪熊皮和3000金币<BR>
+雪熊胫甲：4张雪熊皮和5000金币<BR>
+雪熊靴子：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
 <BR>
 雪狼护甲<BR>
@@ -29857,8 +29857,8 @@ C. 马基乌斯<BR>"
 雪狼右肩甲：2张雪狼皮和1000金币<BR>
 雪狼左腕甲：2张雪狼皮和1000金币<BR>
 雪狼右腕甲：2张雪狼皮和1000金币<BR>
-雪狼护胫：4张雪狼皮和5000金币<BR>
-雪狼靴：3张雪狼皮和3000金币<BR>
+雪狼胫甲：4张雪狼皮和5000金币<BR>
+雪狼靴子：3张雪狼皮和3000金币<BR>
 雪狼头盔：2张雪狼皮和2000金币<BR>
 "
 -CONT
@@ -57453,7 +57453,7 @@ Goodbye"
  INFO.NNAM "4643154831355419099$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼靴。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼靴子。"
  INFO.SCVR "01500"
  INFO.INTV [07 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -57502,7 +57502,7 @@ Goodbye"
  INFO.NNAM "1701219282424031859$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼手套。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪狼胫甲。"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -58114,7 +58114,7 @@ Goodbye"
  INFO.NNAM "3229020368234991647$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把熊皮和金币给我，明天同一时间再来，我会为你准备好定制的雪熊靴。"
+ INFO.NAME "我就知道你会来的，%PCName！把熊皮和金币给我，明天同一时间再来，我会为你准备好定制的雪熊靴子。"
  INFO.SCVR "01500"
  INFO.INTV [07 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -58163,7 +58163,7 @@ Goodbye"
  INFO.NNAM "18518160811256326658$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊手套。"
+ INFO.NAME "我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会为你准备好定制的雪熊胫甲。"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
  INFO.SCVR "14JX3BM_FurArmor"
@@ -59850,7 +59850,7 @@ set localdayspassed to 0"
  INFO.NNAM "63438843822910190$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
- INFO.NAME "这是你的护腿，应该很合身，要好好保养。"
+ INFO.NAME "这是你的胫甲，应该很合身，要好好保养。"
  INFO.SCVR "03sX0sgreaves"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -95977,7 +95977,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Idl_DF009.mp3$00"
- INFO.NAME "我该宰了那头瓜尔的，我的鞋都被毁了。"
+ INFO.NAME "我该宰了那头瓜尔的，我的靴子鞋都被毁了。"
  INFO.SCVR "02sX0Random100"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -96075,7 +96075,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Idl_DM009.mp3$00"
- INFO.NAME "我该宰了那头瓜尔的，我的鞋都被毁了。"
+ INFO.NAME "我该宰了那头瓜尔的，我的靴子都被毁了。"
  INFO.SCVR "02sX0Random100"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
