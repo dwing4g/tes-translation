@@ -59011,7 +59011,7 @@ Journal CO_2 70"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "霜蛾要塞是索瑟泰姆的帝国人要塞，我相信你们都知道。我的士兵不是帝国最好的。现在还不是。但是，通过纪律和训练，我会把他们塑造成帝国最凶猛的战士。这是我的承诺。 {泰姆瑞尔帝国}"
+ INFO.NAME "霜蛾要塞是索瑟泰姆的帝国要塞，我相信你们都知道。我的士兵不是帝国最好的。现在还不是。但是，通过纪律和训练，我会把他们塑造成帝国最凶猛的战士。这是我的承诺。 {帝国人,泰姆瑞尔帝国}"
  INFO.SCVR "04JX3BM_Morale"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -59020,7 +59020,7 @@ Journal CO_2 70"
  INFO.NNAM "9911542968215617$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "我们显然是帝国人的堡垒，我的士兵有能力跻身帝国最优秀的行列。不过索瑟泰姆岛的任务并不轻松，有时会让士兵们烦躁不安。 {泰姆瑞尔帝国,业务}"
+ INFO.NAME "我们这里显然是一座帝国要塞，我的士兵有能力跻身帝国最优秀的行列。不过索瑟泰姆岛的任务并不轻松，有时会让士兵们烦躁不安。 {帝国人,泰姆瑞尔帝国,业务}"
  INFO.SCVR "04JX4BM_Morale"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -59115,7 +59115,7 @@ Journal CO_2 70"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Solstheim$00"
- INFO.NAME "那是南岸的帝国人要塞，很难错过。"
+ INFO.NAME "那是南岸的帝国要塞，很难错过。 {帝国人}"
 -DIAL
  DIAL.NAME "卡利尤斯队长$00"
  DIAL.DATA [00]
@@ -59176,7 +59176,7 @@ Journal CO_2 70"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "我就知道队长是个好人。喝酒的事只是个大误会。他似乎很想把霜蛾要塞打造成帝国人的模范堡垒。祝我们这群人好运。尽管如此，你还是得为他的努力表示称赞。 {幸运}"
+ INFO.NAME "我就知道队长是个好人。喝酒的事只是个大误会。他似乎很想把霜蛾要塞打造成模范的帝国要塞。祝我们这群人好运。尽管如此，你还是得为他的努力表示称赞。 {帝国人,幸运}"
  INFO.SCVR "04JX3BM_Morale"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "14JX4BM_Smugglers"
@@ -79713,7 +79713,7 @@ Player->AddItem ""writ_bero"" 1"
  INFO.PNAM "2278720479126556737$00"
  INFO.NNAM "1169922125955110917$00"
  INFO.DATA [00 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "我听说过那个地方，我相信那里有个帝国人的堡垒，霜蛾要塞什么的。如果你想去那里，就去库尔找找看，也许有船能带你过去。"
+ INFO.NAME "我听说过那个地方，我相信那里有座帝国要塞，霜蛾要塞什么的。如果你想去那里，就去库尔找找看，也许有船能带你过去。 {帝国人}"
  INFO.SCVR "04JX4BM_Rumors"
  INFO.INTV [32 00 00 00]
  INFO.BNAM "Journal BM_Rumors 50"
