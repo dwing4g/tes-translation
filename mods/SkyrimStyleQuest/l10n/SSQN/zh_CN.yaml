@@ -11,9 +11,10 @@ snd_journal: "日志"
 snd_book1: "书籍翻页1"
 snd_book2: "书籍翻页2"
 
-snd_ui_quest_new: "SkyUI新任务"
-snd_ui_obj_new_01: "SkyUI目标1"
-snd_ui_skill_inc: "SkyUI技能提升"
+snd_ui_quest_new: "UI新任务"
+snd_ui_obj_new_01: "UI目标1"
+snd_ui_skill_increase: "UI技能提升"
+snd_ui_levelup: "UI等级提升"
 snd_none: "无"
 snd_custom: "自定义"
 snd_same: "同任务开始"
@@ -24,7 +25,7 @@ opt_none: "无"
 
 settings_modName: "天际风格任务通知"
 
-settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.33
+settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.35
 \n原版MWSE模组制作者：Nazz。\n\n这个模组在你开始和完成任务时会通知你。
  这个想法是模仿天际的任务通知，因此取了这个名字。"
 

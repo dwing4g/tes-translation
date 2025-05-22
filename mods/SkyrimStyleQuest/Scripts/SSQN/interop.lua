@@ -9,9 +9,9 @@ include = function(m)	return m == "SSQN.interop" and I.SSQN		end
 
 
 for file in vfs.pathsWithPrefix("scripts/SSQN/interop/") do
-	if file:find(".lua$") then
+	if file:find("%.lua$") then
 		print("Loading interop "..file)
-		file = string.gsub(file, ".lua", "")
+		file = string.sub(file, 1, -5)
 		file = string.gsub(file, "/", ".")
 		require(file)
 	end

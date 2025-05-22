@@ -24,15 +24,15 @@ local function build(m)
 	return list
 end
 
-sounds.start = build { "snd_ui_quest_new", "snd_ui_obj_new_01", "snd_sky_quest",
-	"snd_ui_skill_inc", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
+sounds.start = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
+	"snd_sky_quest", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
 	"snd_racer", "snd_none", "snd_custom" }
 
-sounds.finish = build { "snd_sky_quest", "snd_ui_quest_new", "snd_ui_obj_new_01",
-	"snd_ui_skill_inc", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
+sounds.finish = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
+	"snd_sky_quest", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
 	"snd_racer", "snd_none", "snd_custom", "snd_same" }
 
-sounds.update = build { "snd_journal", "snd_ui_obj_new_01", "snd_ui_skill_inc",
+sounds.update = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_journal", 
 	"snd_book1", "snd_book2", "snd_none", "snd_custom" }
 
 
@@ -134,7 +134,7 @@ I.Settings.registerGroup({
             key = "soundfile",
             name = "settings_modCategory1_setting06_name",
             description = "settings_modCategory1_setting06_desc",
-            default = "snd_sky_quest", 
+            default = "snd_ui_quest_new",
             renderer = "select",
             argument = {
                 disabled = false,

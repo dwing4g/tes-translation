@@ -11,9 +11,10 @@ snd_journal: "Journal"
 snd_book1: "Book Page 1"
 snd_book2: "Book Page 2"
 
-snd_ui_quest_new: "SkyUI New Quest"
-snd_ui_obj_new_01: "SkyUI Objective 1"
-snd_ui_skill_inc: "SkyUI Skill Increase"
+snd_ui_quest_new: "UI New Quest"
+snd_ui_obj_new_01: "UI Objective 1"
+snd_ui_skill_increase: "UI Skill Increase"
+snd_ui_levelup: "UI Level Up"
 snd_none: "None"
 snd_custom: "Custom"
 snd_same: "Same as Start"
@@ -24,7 +25,7 @@ opt_none: "None"
 
 settings_modName: "Skyrim Style Quest Notifications"
 
-settings_modDesc: "OpenMW version by Taitechnic\t\tv1.33
+settings_modDesc: "OpenMW version by Taitechnic\t\tv1.35
 \noriginal MWSE mod by Nazz.\n\nThis mod notifies you when you start or finish a quest.
  The idea is to mimic the quest notifications from Skyrim, hence the name."
 

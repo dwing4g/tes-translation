@@ -15,7 +15,6 @@ local l10n = core.l10n("SSQN")
 local soundfiles = require("scripts.SSQN.configSound")
 -- local comments = require("scripts.SSQN.comments")
 local comments = {}
--- comments.enabled = true
 
 local settings = storage.playerSection("Settings_openmw_SSQN")
 
@@ -26,17 +25,20 @@ common = { omw = { ui=ui, core=core, interfaces=I, util=util, l10n=l10n },
 
 local playerqlist = { ["testbanner_id"] = true }
 local element = nil
-local questnames
+local questnames = {}
+--[[
 if core.dialogue then
 	questnames = {}
 else
 	questnames = require("scripts.SSQN.qnamelist")
 	print("No dialogue API. Using qnamelist.lua ...")
 end
+--]]
 local iconlist = {}		local ignorelist = {}
 local updateList = {}
 
-local questLog = {}		local proxy = {}
+local questLog = {}			local questIndex = {}
+local proxy = { log = {}, index = {} }
 
 local function parseList(list, isMain)
 	if type(list) ~= "table" then return		end
@@ -51,9 +53,9 @@ end
 local M = require("scripts.SSQN.iconlist")
 parseList(M, true)
 for i in vfs.pathsWithPrefix("scripts/SSQN/iconlists/") do
-	if i:find(".lua$") then
+	if i:find("%.lua$") then
 		print("Loading iconlist "..i)
-		i = string.gsub(i, ".lua", "")		i = string.gsub(i, "/", ".")
+		i = string.sub(i, 1, -5)		i = string.gsub(i, "/", ".")
 		M = require(i)
 		parseList(M, true)
 	end
@@ -79,7 +81,7 @@ local legacy = {
 		["Book Page 2"] = "snd_book2",
 		["SkyUI New Quest"] = "snd_ui_quest_new",
 		["SkyUI Objective 1"] = "snd_ui_obj_new_01",
-		["SkyUI Skill Increase"] = "snd_ui_skill_inc",
+		["SkyUI Skill Increase"] = "snd_ui_skill_increase",
 		["None"] = "snd_none", ["Custom"] = "snd_custom", ["Same as Start"] = "snd_same"
 		}
 }
@@ -155,9 +157,7 @@ local function getQuestName(i)
 	local name
 	if core.dialogue then
 		name = core.dialogue.journal.records[i]
-		if name then
-			name = name.questName or "skip"
-		end
+		if name then		name = name.questName		end
 	else
 		name = questnames[i]
 	end
@@ -237,16 +237,17 @@ local function displayPopup(msg)
 
 	e.text = txt		e.icon = notificationImage		e.header = header
 	e.onlyFade = common.settings:get("anim_style") ~= "opt_anim_scroll"
-	e.duration = common.settings:get("bannertime") + 1
+	e.duration = common.settings:get("bannertime")
 	if type(msg.time) == "number" then
-		e.duration = math.max(msg.time, 2) + 1
+		e.duration = math.max(msg.time, 2)
 	end
 
 	element = uicode.renderBanner(e)
 
 	local soundfile, sound
 	if tmpl == "objective" and settings:get("soundfile") ~= "snd_none" then
-		soundfile = soundfiles["snd_ui_obj_new_01"] or soundfiles["snd_ob_quest"]
+	--	soundfile = soundfiles["snd_ui_obj_new_01"] or soundfiles["snd_ob_quest"]
+		soundfile = soundfiles["snd_ui_obj_new_01"]
 	elseif tmpl == "questStart" then
 		soundfile = soundfiles[settings:get("soundfile")]
 		if soundfile == "custom" then soundfile = settings:get("soundcustom")	end
@@ -284,12 +285,11 @@ local function getQuestchange(quests)
        		if playerqlist[qid] ~= nil then
 			if v.finished and not playerqlist[qid] then
 				playerqlist[qid] = true
-				return qid
+				if getQuestName(qid) then	return qid	end
 			end
-		end
-		if playerqlist[qid] == nil then
+		elseif playerqlist[qid] == nil then
 			playerqlist[qid] = v.finished
-			if getQuestName(qid) ~= "skip" then return qid end
+			if getQuestName(qid) then	return qid	end
 		end
 	end
 	return nil
@@ -331,7 +331,11 @@ local function updateJournal(id, stage, info)
 	for k, v in pairs(quest) do
 		q[k] = util.makeReadOnly(v)
 	end
-	proxy[id] = util.makeReadOnly(q)
+	proxy.log[id] = util.makeReadOnly(q)
+
+	local i = { questId=id, questStage=stage }
+	table.insert(questIndex, i)
+	table.insert(proxy.index, util.makeReadOnly(i))
 
 end
 
@@ -383,12 +387,20 @@ return {
 					for k, v in pairs(v) do
 						q[k] = util.makeReadOnly(v)
 					end
-					proxy[k] = util.makeReadOnly(q)
+					proxy.log[k] = util.makeReadOnly(q)
+				end
+			end
+			if e and e.index then
+				questIndex = e.index
+				for k, v in ipairs(questIndex) do
+					proxy.index[k] = util.makeReadOnly(v)
 				end
 			end
 			initQuestlist()
 		end,
-		onSave = function() return{ version=130, journal = questLog }		end
+		onSave = function()
+			return{ version=135, journal = questLog, index = questIndex }
+		end
 	},
 
 	eventHandlers = {
@@ -415,24 +427,30 @@ return {
 
 	interfaceName = "SSQN",
 	interface = {
-		version = 133,
+		version = 135,
 		registerQIcon = function(id, path)
 			if path:find("^\\") then path = string.sub(path, 2, -1)		end
 			iconlist[id:lower()] = path
 		end,
-		getQIcon = function(id) return iconpicker(id)				end,
-		blockQBanner = function(id) ignorelist[id:lower()] = true		end,
+		registerQBlock = function(id) ignorelist[id:lower()] = true		end,
+		getQIcon = function(id)		return iconpicker(id)			end,
 		isQBannerBlocked = function(id) return ignorelist[id:lower()] == true		end,
 		addQComment = function(id, index, text)
 			id = id:lower()		local q = comments[id]
 			if not q then q = {}	comments[id] = q		end
 			q[index] = text
 		end,
-		getJournal = function()		return util.makeReadOnly(proxy)		end,
+		getJournalIndex = function()	return util.makeReadOnly(proxy.index)		end,
+		getJournalQuests = function()	return util.makeReadOnly(proxy.log)		end,
 		showBanner = function(m)
 			assert(type(m) == "table" and m.text, "showBanner: text key must be a string")
 			m.template = m.template or "objective"
 			updateList[#updateList + 1] = m
-		end
+		end,
+
+		-- Legacy functions
+		blockQBanner = function(id) ignorelist[id:lower()] = true		end,
+		getJournal = function()		return util.makeReadOnly(proxy.log)		end,
+
 	}
 }

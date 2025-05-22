@@ -9,12 +9,12 @@ if (ssqn) then
 
 end
 
-if (ssqn) and (ssqn.blockQBanner) then
+if (ssqn) and (ssqn.registerQBlock) then
 
     -- add commands to block a journal ID from showing banner notifications
 
-    -- ssqn.blockQBanner("PC_m1_Anv_GoldenrodBR")
-    -- ssqn.blockQBanner("PC_m1_Anv_GoldenrodDR")
+    -- ssqn.registerQBlock("PC_m1_Anv_GoldenrodBR")
+    -- ssqn.registerQBlock("PC_m1_Anv_GoldenrodDR")
 
 end
 
