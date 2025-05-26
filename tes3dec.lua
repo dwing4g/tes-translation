@@ -239,6 +239,11 @@ else -- "utf8"
 	end
 end
 
+local f = io.open(arg[1], "rb")
+if not f then
+	error("ERROR: can not open: " .. arg[1])
+end
+
 local zlib, ffistr, ffichars, ffilong1
 local function ensureInit()
 	if not zlib then
@@ -262,17 +267,17 @@ local function uncompress(s, dstLen)
 	local r = zlib.uncompress(dst, pDstLen, s, #s)
 	-- io.stderr:write("=== ", r, " ", pDstLen[0], "\n")
 	if r ~= 0 then
-		error(format("ERROR: uncompress failed: %d", r))
+		local msg = format(": uncompress failed: %d, size=%d=>%d(%d) 0x%08X:[%02X %02X ...]", r, #s, dstLen, pDstLen[0], f:seek() - #s, s:byte(1), s:byte(2))
+		if pDstLen[0] ~= dstLen then
+			error("ERROR" .. msg)
+		else
+			io.stderr:write("WARN", msg, "\n")
+		end
 	end
 	if pDstLen[0] ~= dstLen then
 		error(format("ERROR: uncompress size unmatched: %d ~= %d", pDstLen[0], dstLen))
 	end
 	return ffistr(dst, pDstLen[0])
-end
-
-local f = io.open(arg[1], "rb")
-if not f then
-	error("ERROR: can not open: " .. arg[1])
 end
 
 local function readInt2(src, p)
