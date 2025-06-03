@@ -1,4 +1,4 @@
--- luajit merge_cel.lua A.cel [B.cel ...] AB.cel
+-- luajit trim_cel.lua A.cel [B.cel ...] Z.cel
 
 local io = io
 local arg = arg
@@ -44,19 +44,20 @@ for i = 1, #arg - 1 do
 end
 
 if err == 0 then
-	local ks = {}
-	for cel in pairs(cels) do
-		ks[#ks + 1] = cel
+	local t = {}
+	errwrite("triming ", arg[#arg], " ... ")
+	for line in io.lines(arg[#arg]) do
+		local cel = line:match "^([^\t]+)"
+		if cel and not cels[cel] then
+			t[#t + 1] = line
+		end
 	end
-	table.sort(ks)
-
-	errwrite("saving ", arg[#arg], " ... ")
 	local f = io.open(arg[#arg], "wb")
-	for _, cel in ipairs(ks) do
-		f:write(cel, "\t", cels[cel], "\n")
+	for _, line in ipairs(t) do
+		f:write(line, "\n")
 	end
 	f:close()
-	errwrite(#ks, " cels\n")
+	errwrite(#t, " cels\n")
 else
 	print("ERROR: " .. err .. " errors")
 end
