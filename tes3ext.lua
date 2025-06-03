@@ -177,7 +177,7 @@ local function extTxt(en)
 			or tag == "SPEL" or tag == "WEAP" then -- special: SPEL.NAME "wulfharth$92s cups$00"
 			k = tag .. ".FNAM " .. t[tag .. ".NAME"]
 			v = t[tag .. ".FNAM"]
-			if not v and (tag == "ACTI" or tag == "CLOT" or tag == "CONT" or tag == "DOOR" or tag == "LIGH" or tag == "MISC" or tag == "NPC_" or tag == "WEAP") then k = nil end
+			if not v and (tag == "ACTI" or tag == "CLOT" or tag == "CONT" or tag == "DOOR" or tag == "LIGH" or tag == "MISC" or tag == "NPC_" or tag == "SPEL" or tag == "WEAP") then k = nil end
 		elseif tag == "MGEF" or tag == "SKIL" then
 			k = tag .. ".DESC " .. t[tag .. ".INDX"]
 			v = t[tag .. ".DESC"]

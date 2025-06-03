@@ -72,7 +72,7 @@ for line in io.lines(arg[2]) do
 			end
 			s = 1
 		else
-			if line:find "^> " then
+			if line:find "^> " and s ~= 2 and s ~= 4 then
 				error("ERROR: invalid key line at line " .. i .. " in '" .. arg[2] .. "'")
 			end
 			if s <= 2 then
