@@ -19,7 +19,9 @@ local function warn(...)
 end
 
 local topics = {}
-for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
+local fn = #arg > 3 and arg[3] or "topics.txt"
+io.stderr:write("INFO: loading '", fn, "' ...\n")
+for line in io.lines(fn) do
 	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[v] = k

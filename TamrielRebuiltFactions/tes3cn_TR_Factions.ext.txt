@@ -1,406 +1,553 @@
+> FACT.FNAM Redoran
+Great House Redoran
+###
+
+> FACT.RNAM Redoran 1
+Hireling
+###
+
+> FACT.RNAM Redoran 2
+Retainer
+###
+
+> FACT.RNAM Redoran 3
+Oathman
+###
+
+> FACT.RNAM Redoran 4
+Lawman
+###
+
+> FACT.RNAM Redoran 5
+Kinsman
+###
+
+> FACT.RNAM Redoran 6
+House Cousin
+###
+
+> FACT.RNAM Redoran 7
+House Brother
+###
+
+> FACT.RNAM Redoran 8
+House Father
+###
+
+> FACT.RNAM Redoran 9
+Councilman
+###
+
+> FACT.RNAM Redoran 10
+Archmaster
+###
+
 > FACT.FNAM Thieves Guild
 Thieves Guild
-盗贼公会
+###
 
 > FACT.RNAM Thieves Guild 1
 Toad
-惯手
+###
 
 > FACT.RNAM Thieves Guild 2
 Wet Ear
-灵耳
+###
 
 > FACT.RNAM Thieves Guild 3
 Footpad
-劫道
+###
 
 > FACT.RNAM Thieves Guild 4
 Blackcap
-蒙面
+###
 
 > FACT.RNAM Thieves Guild 5
 Operative
-探囊
+###
 
 > FACT.RNAM Thieves Guild 6
 Bandit
-恶徒
+###
 
 > FACT.RNAM Thieves Guild 7
 Captain
-匪首
+###
 
 > FACT.RNAM Thieves Guild 8
 Ringleader
-渠魁
+###
 
 > FACT.RNAM Thieves Guild 9
 Mastermind
-首脑
+###
 
 > FACT.RNAM Thieves Guild 10
 Master Thief
-神偷
+###
 
 > FACT.FNAM Temple
 Temple
-神殿
+###
 
 > FACT.RNAM Temple 1
 Layman
-教徒
+###
 
 > FACT.RNAM Temple 2
 Novice
-新祀
+###
 
 > FACT.RNAM Temple 3
 Initiate
-从者
+###
 
 > FACT.RNAM Temple 4
 Acolyte
-祢宜
+###
 
 > FACT.RNAM Temple 5
 Adept
-宫司
+###
 
 > FACT.RNAM Temple 6
 Curate
-祭主
+###
 
 > FACT.RNAM Temple 7
 Disciple
-门徒
+###
 
 > FACT.RNAM Temple 8
 Diviner
-先知
+###
 
 > FACT.RNAM Temple 9
 Master
-宗主
+###
 
 > FACT.RNAM Temple 10
 Patriarch
-大牧首
+###
 
 > FACT.FNAM Imperial Cult
 Imperial Cult
-帝国教团
+###
 
 > FACT.RNAM Imperial Cult 1
 Layman
-教友
+###
 
 > FACT.RNAM Imperial Cult 2
 Novice
-司门
+###
 
 > FACT.RNAM Imperial Cult 3
 Initiate
-侍从
+###
 
 > FACT.RNAM Imperial Cult 4
 Acolyte
-助祭
+###
 
 > FACT.RNAM Imperial Cult 5
 Adept
-司铎
+###
 
 > FACT.RNAM Imperial Cult 6
 Disciple
-门徒
+###
 
 > FACT.RNAM Imperial Cult 7
 Oracle
-传谕
+###
 
 > FACT.RNAM Imperial Cult 8
 Invoker
-祈神者
+###
 
 > FACT.RNAM Imperial Cult 9
 Theurgist
-通神者
+###
 
 > FACT.RNAM Imperial Cult 10
 Primate
-大主教
+###
 
 > FACT.FNAM Hlaalu
 Great House Hlaalu
-哈拉鲁大家族
+###
 
 > FACT.RNAM Hlaalu 1
 Hireling
-雇工
+###
 
 > FACT.RNAM Hlaalu 2
 Retainer
-家臣
+###
 
 > FACT.RNAM Hlaalu 3
 Oathman
-誓约者
+###
 
 > FACT.RNAM Hlaalu 4
 Lawman
-执法者
+###
 
 > FACT.RNAM Hlaalu 5
 Kinsman
-族亲
+###
 
 > FACT.RNAM Hlaalu 6
 House Cousin
-门亲
+###
 
 > FACT.RNAM Hlaalu 7
 House Brother
-同袍
+###
 
 > FACT.RNAM Hlaalu 8
 House Father
-宿老
+###
 
 > FACT.RNAM Hlaalu 9
 Councilman
-议员
+###
 
 > FACT.RNAM Hlaalu 10
 Grandmaster
-家主
+###
 
 > FACT.FNAM Telvanni
 Great House Telvanni
-泰瓦尼大家族
+###
 
 > FACT.RNAM Telvanni 1
 Hireling
-雇工
+###
 
 > FACT.RNAM Telvanni 2
 Retainer
-家臣
+###
 
 > FACT.RNAM Telvanni 3
 Oathman
-誓约者
+###
 
 > FACT.RNAM Telvanni 4
 Lawman
-执法者
+###
 
 > FACT.RNAM Telvanni 5
 Mouth
-发言人
+###
 
 > FACT.RNAM Telvanni 6
 Spellwright
-咒法师
+###
 
 > FACT.RNAM Telvanni 7
 Wizard
-巫术师
+###
 
 > FACT.RNAM Telvanni 8
 Master
-魔能大师
+###
 
 > FACT.RNAM Telvanni 9
 Magister
-导师
+###
 
 > FACT.RNAM Telvanni 10
 Archmagister
-大导师
+###
 
 > FACT.FNAM Fighters Guild
 Fighters Guild
-战士公会
+###
 
 > FACT.RNAM Fighters Guild 1
 Associate
-雇佣打手
+###
 
 > FACT.RNAM Fighters Guild 2
 Apprentice
-见习斗士
+###
 
 > FACT.RNAM Fighters Guild 3
 Journeyman
-资深斗士
+###
 
 > FACT.RNAM Fighters Guild 4
 Swordsman
-剑斗士
+###
 
 > FACT.RNAM Fighters Guild 5
 Protector
-保护者
+###
 
 > FACT.RNAM Fighters Guild 6
 Defender
-抵御者
+###
 
 > FACT.RNAM Fighters Guild 7
 Warder
-监守者
+###
 
 > FACT.RNAM Fighters Guild 8
 Guardian
-警戒者
+###
 
 > FACT.RNAM Fighters Guild 9
 Champion
-捍卫者
+###
 
 > FACT.RNAM Fighters Guild 10
 Master
-公会领袖
+###
 
 > FACT.FNAM Morag Tong
 Morag Tong
-莫拉格堂
+###
 
 > FACT.RNAM Morag Tong 1
 Associate
-伙友
+###
 
 > FACT.RNAM Morag Tong 2
 Blind Thrall
-盲奴
+###
 
 > FACT.RNAM Morag Tong 3
 Thrall
-缚奴
+###
 
 > FACT.RNAM Morag Tong 4
 White Thrall
-白奴
+###
 
 > FACT.RNAM Morag Tong 5
 Thinker
-寻思者
+###
 
 > FACT.RNAM Morag Tong 6
 Brother
-尊亲者
+###
 
 > FACT.RNAM Morag Tong 7
 Knower
-参悟者
+###
 
 > FACT.RNAM Morag Tong 8
 Master
-大师
+###
 
 > FACT.RNAM Morag Tong 9
 Exalted Master
-尊者
+###
 
 > FACT.RNAM Morag Tong 10
 Grandmaster
-宗师
+###
 
 > FACT.FNAM Imperial Legion
 Imperial Legion
-帝国军团
+###
 
 > FACT.RNAM Imperial Legion 1
 Recruit
-征召兵
+###
 
 > FACT.RNAM Imperial Legion 2
 Spearman
-阵列兵
+###
 
 > FACT.RNAM Imperial Legion 3
 Trooper
-军团兵
+###
 
 > FACT.RNAM Imperial Legion 4
 Agent
-特使兵
+###
 
 > FACT.RNAM Imperial Legion 5
 Champion
-军团勇士
+###
 
 > FACT.RNAM Imperial Legion 6
 Knight Errant
-巡游骑士
+###
 
 > FACT.RNAM Imperial Legion 7
 Knight Bachelor
-研修骑士
+###
 
 > FACT.RNAM Imperial Legion 8
 Knight Protector
-守护骑士
+###
 
 > FACT.RNAM Imperial Legion 9
 Knight of the Garland
-花环骑士
+###
 
 > FACT.RNAM Imperial Legion 10
 Knight of the Imperial Dragon
-帝龙骑士
+###
 
 > FACT.FNAM Mages Guild
 Mages Guild
-法师公会
+###
 
 > FACT.RNAM Mages Guild 1
 Associate
-新晋法师
+###
 
 > FACT.RNAM Mages Guild 2
 Apprentice
-见习法师
+###
 
 > FACT.RNAM Mages Guild 3
 Journeyman
-资深法师
+###
 
 > FACT.RNAM Mages Guild 4
 Evoker
-唤灵师
+###
 
 > FACT.RNAM Mages Guild 5
 Conjurer
-唤咒师
+###
 
 > FACT.RNAM Mages Guild 6
 Magician
-魔能术士
+###
 
 > FACT.RNAM Mages Guild 7
 Warlock
-魔能大师
+###
 
 > FACT.RNAM Mages Guild 8
 Wizard
-奥法术士
+###
 
 > FACT.RNAM Mages Guild 9
 Master Wizard
-奥法大师
+###
 
 > FACT.RNAM Mages Guild 10
 Arch-Mage
-首席大法师
+###
+
+> FACT.FNAM East Empire Company
+East Empire Company
+###
+
+> FACT.RNAM East Empire Company 1
+Underling
+###
+
+> FACT.RNAM East Empire Company 2
+Clerk
+###
+
+> FACT.RNAM East Empire Company 3
+Steward
+###
+
+> FACT.RNAM East Empire Company 4
+Fixer
+###
+
+> FACT.RNAM East Empire Company 5
+Agent
+###
+
+> FACT.RNAM East Empire Company 6
+Negotiator
+###
+
+> FACT.RNAM East Empire Company 7
+Officer
+###
+
+> FACT.RNAM East Empire Company 8
+Deputy
+###
+
+> FACT.RNAM East Empire Company 9
+Factor
+###
 
 > SCPT.SCTX TR_m1_Tel_CouncilDoor_sc m1
 This door will only open for Mouths of the Telvanni.
-这扇门只会为泰瓦尼代言人打开。 
+###
+
+> BOOK.FNAM bk_yellowbook426
+Yellow Book of 3E 426
+###
+
+> BOOK.TEXT bk_yellowbook426
+"""<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+Yellow Book of Great House Hlaalu<BR>
+<BR>
+Councilors of House Hlaalu<BR>
+Imperial Province of Morrowind<BR>
+Imperial Era 426<BR>
+<DIV ALIGN="LEFT"><BR>
+Grandmaster Athires Hlaalu, by Grace of Almsivi, Honored Grandmaster of the Grand Hlaalu Council, Free Trader, High Hlaalu, Prince of Shipal, Narsis, District of Narsis, Province of Morrowind<BR>
+<BR>
+Mistress Falena Narusa, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Narusa Winery, Othreleth Woods, District of Narsis, Province of Morrowind<BR>
+<BR>
+Master Ivul Hleryn, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Lord of Hlerynhul, District of Narsis, Province of Morrowind<BR>
+<BR>
+Master Edayn Sadras, by Grace of Almsivi and the Nine, Honored Councilor of the Grand Hlaalu Council, Free Trader, Sadras Manor, Kragenmoor, District of Narsis, Province of Morrowind<BR>
+<BR>
+Mistress Llaasa Indarys, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Indarys Manor, Kragenmoor, District of Narsis, Province of Morrowind<BR>
+<BR>
+Mistress Rhetixia Cheynoslin, by Grace of Almsivi and the Nine, Honored Councilor of the Grand Hlaalu Council, Free Trader, Cheynoslin Manor, Andrethis, District of Narsis, Province of Morrowind<BR>
+<BR>
+Master Atran Oran, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Oran Plantation, Aanthirin, District of Mournhold, Province of Morrowind<BR>
+<BR>
+Master Tholer Andas, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Lord of Bal Foyen, District of Mournhold, Province of Morrowind<BR>
+<DIV ALIGN="CENTER"><BR>
+Councilors of House Hlaalu<BR>
+Vvardenfell District<BR>
+Imperial Era 426<BR>
+<DIV ALIGN="LEFT"><BR>
+Mistress Velanda Omani, by Grace of Almsivi, Honored Councilor of Hlaalu Council, Vvardenfell District, Free Trader, Lord of Omani Plantation, Elmas Island, East Vivec, District of Vvardenfell, Province of Morrowind<BR>
+<BR>
+Master Dram Bero, by Grace of Almsivi, Honored Councilor of Hlaalu Council, Vvardenfell District, Free Trader, Gentleman of No Fixed Residence, Vivec, District of Vvardenfell, Province of Morrowind<BR>
+<BR>
+Master Crassius Curio, by Grace of Almsivi, Honored Councilor of Hlaalu Council, Vvardenfell District, Free Trader, Curio Manor, Hlaalu Compound, Vivec, District of Vvardenfell, Province of Morrowind<BR>
+<BR>
+Master Yngling Half-Troll, by Grace of Almsivi, Honored Councilor of Hlaalu Council, Vvardenfell District, Free Trader, Yngling Manor, Canton of St. Olms, Vivec, District of Vvardenfell, Province of Morrowind<BR>
+<BR>
+Mistress Nevena Ules, by Grace of Almsivi, Honored Councilor of Hlaalu Council, Vvardenfell District, Free Trader, Ules Manor, Suran, Ascadian Isles, Bal Ur, District of Vvardenfell, Province of Morrowind<BR>
+<DIV ALIGN="CENTER"><BR>
+Council Affairs of Note<BR>
+<DIV ALIGN="LEFT"><BR>
+Dredging works along the Kanit River between Hla Rud and Andrethis have concluded, allowing larger barges passage and improving the flow of goods in western Narsis District.<BR>
+<BR>
+The council is closely monitoring the situation in the lower Aanthirin, and encourages all law-abiding citizens to be watchful and report any suspicious activity near plantations and trade infrastructure to the nearest Hlaalu or Imperial Legion garrison.<BR>
+<BR>
+Director Cyrtumir of the Hlaalu Council Company is pleased to report that the company's newest office in Firsthold, Province of Summerset Isles, is performing above expectations, and that company trade in the Sea of Mists has doubled in the last decade.<BR>
+<BR>
+The council is pleased to report that the port of Bal Foyen continues to thrive, but has been concerned with the rise in reports of criminality (outlander in origin) within Bal Foyen's poorer districts. Councilman Tholer Andras has requested more guards to ensure that all residents are protected. Local merchants are also lending their resources so as to improve local security.<BR>
+<BR>
+The council wishes to commend the River Watch, Canyon Watch, and all the local garrisons and patrols for greatly reducing the number of reported bandit and wildlife attacks throughout Shipal-Shin and the Coronati Basin.<BR>
+<BR>
+King Hlaalu Athyn Llethan, High Councilor and Lord of Morrowind, grants relief to merchants complaining of high tariffs on imported alcoholic beverages.<BR>
+<BR>
+The council is pleased to report a reduction in the incidence of theft and violent crime in the Hlaalu House Districts, thanks to the vigilance of the Legions and stern sentences by the magistrates. The council laments the unfortunate disturbances of the public peace resulting from the increasingly aggressive competition between the Thieves Guild and the Camonna Tong for control of the black markets.<BR>
+<BR>
+A minor tax revolt in Balmora was suppressed without undue harm to life and property. The council sent deputations to the Duke to express their concerns over the high tax rates and the injurious effect of high tariffs on trade.<BR>
+<BR>
+"""
+###
 
 > BOOK.FNAM bk_BrownBook426
 Brown Book of 3E 426
-《第三纪元426年棕皮书》
+###
 
 > BOOK.TEXT bk_BrownBook426
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -461,13 +608,11 @@ In response to repeated protests from Duke Dren and representatives of the other
 <BR>
 The council renews its objection to proposals placed before Duke Dren and the Grand Council concerning slavery and slave trading in Vvardenfell District. The right to own and trade slaves is guaranteed by the terms of the Treaty of the Armistice, and Telvanni Council will not entertain any discussion of abridgements of those rights.<BR>
 """
-"""<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>$0A大家族泰瓦尼棕皮书<BR><BR>$0A<DIV ALIGN="LEFT"><BR><BR>$0A[棕皮书为第三纪元426年瓦登费尔地区泰瓦尼议会事务年鉴。其内容列出了泰瓦尼家族议会的现任成员、他们的住所以及他们在萨德瑞斯-莫拉的发言人。它还记录了这一年的重大事件和重要的议会行动。]<BR>$0A<BR>$0A塞普丁帝国历426年，<BR>
-瓦登费尔地区，<BR>
-泰瓦尼家族议员<BR>$0A<BR>$0A大导师戈瑟伦，泰瓦尼议会尊敬的大导师，现居住于晨风省，瓦登费尔地区，莫拉格-阿穆尔区域东部，泰尔-阿汝因塔楼。<BR>$0A<BR>$0A阿里昂大师，泰瓦尼议会法师领主，现居住于晨风省，瓦登费尔地区，放牧平原区域，沃斯镇，泰尔-沃斯塔楼。<BR>$0A<BR>$0A内洛斯大师，泰瓦尼议会法师领主，现居住于晨风省，瓦登费尔地区，萨德瑞斯-莫拉镇，泰尔-娜迦塔楼。<BR>$0A<BR>$0A德拉萨夫人，泰瓦尼议会法师领主，现居住于晨风省，瓦登费尔地区，放牧平原区域，泰尔-莫拉塔楼。<BR>$0A<BR>$0A西拉那夫人，泰瓦尼议会法师领主，现居住于晨风省，瓦登费尔地区，阿祖拉海岸区域，泰尔-布勒诺拉塔楼。<BR>$0A<BR>$0A泰瓦尼家族议会所，萨德瑞斯-莫拉议会大厅，议员发言人<BR>$0A<BR>$0A代表大导师戈瑟伦： 发言人 马拉姆·里昂，法师<BR>$0A代表阿里昂大师： 发言人 艾拉拉·乌弗拉斯<BR>$0A代表内洛斯大师： 发言人 瑞雯·奥曼<BR>$0A代表西拉那夫人： 发言人 菲丽莎·乌雷森<BR>$0A代表德拉萨夫人： 发言人 马拉姆·里昂<BR>$0A<DIV ALIGN="CENTER"><BR>$0A议会行动内容<BR>$0A<DIV ALIGN="LEFT"><BR>$0A针对德伦公爵和泰瓦尼家族代表的一再抗议，泰瓦尼议会提醒他们，根据古老的法律和惯例，泰瓦尼议会对其成员个人的野心和事业没有任何限制。如果帝国或其他议会所希望对泰瓦尼家族的人在瓦登费尔的荒原和荒野上的探索和殖民提出异议，欢迎他们这样做，并衷心祝愿他们，但泰瓦尼议会不会为这种努力让渡应有的资源或权力。<BR>$0A<BR>$0A议会再次反对提交给德伦公爵和总议会的有关瓦登费尔地区奴隶制和奴隶交易的提案。拥有和买卖奴隶的权利受到《停战条约》条款的保障，泰瓦尼议会不会接受任何关于剥夺这些权利的讨论。<BR>"""
+###
 
 > BOOK.FNAM bk_charterMG
 Mages Guild Charter
-《法师工会章程》
+###
 
 > BOOK.TEXT bk_charterMG
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -495,7 +640,7 @@ Candidates must present themselves to the Steward of the Guild Hall for examinat
 <BR>
 <BR>ATTACHMENT A: Mages Guild Chapters in Mournhold District, Province of Morrowind<BR>
 <BR>
-The Guild's Provincial headquarters and principal Morrowind guildhall is established in the city of Almalexia under lease from the Tribunal Temple. Chapters are established in Guild-owned, free-standing guildhalls in the towns of Andothren and the city of Old Ebonheart*. The chapters in Akamora and Mervayan are established under lease from the Indoril Council. The chapter in Almas Thirr is established under lease from the Tribunal Temple.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Mages Guild is subject to the Arch-Mage of Almalexia, not the Arch-Mage of Vivec.<BR>
+The Guild's Provincial headquarters and principal Morrowind guildhall is established in the city of Almalexia under lease from the Tribunal Temple. Chapters are established in Guild-owned, free-standing guildhalls in the towns of Bal Foyen and the city of Old Ebonheart*. The chapters in Akamora and Mervayan are established under lease from the Indoril Council. The chapter in Almas Thirr is established under lease from the Tribunal Temple.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Mages Guild is subject to the Arch-Mage of Almalexia, not the Arch-Mage of Vivec.<BR>
 <BR>ATTACHMENT B: Mages Guild Chapters in Narsis District, Province of Morrowind<BR>
 <BR>
 Chapters are established in Guild-owned, free-standing guildhalls in the cities of Kragenmoor and Narsis and the towns of Andrethis, Othmura, and Reluran.<BR>
@@ -515,37 +660,11 @@ ATTACHMENT F: Mages Guild Chapters in Deshaan District, Province of Morrowind<BR
 A chapter is established in a Guild-owned, free-standing guildhall in the city of Tear.<BR>
 <BR>
 """
-"""<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-帝国法师公会章程<BR><BR>
-<DIV ALIGN="LEFT"><BR><BR>
-一、宗旨<BR>
-<BR>
-法师公会为魔法学者提供福祉，并制定了有关正确使用魔法的法律。公会致力于收集、保存和传播魔法知识，重点是确保泰姆瑞尔的所有公民都能从这些知识中受益。<BR>
-<BR>
-二、权威<BR>
-<BR>
-法师公会于第二纪元 230 年由瓦努斯·伽勒里昂和莱里斯十二世(Rilis XII)在夏暮岛建立。它后来被君主维希度-沙耶的「公会法案」认可。<BR>
-<BR>
-三、规则和程序<BR>
-<BR>
-对公会其他成员的犯罪将受到最严厉的纪律处分。成员是否可以恢复在公会中的地位由首席大法师决定。<BR>
-<BR>
-四。会员要求<BR>
-<BR>
-法师公会只接受具有敏锐智慧和强大意志的候选人。候选人必须在伟大的魔法学校中表现出精通：毁灭、变化、幻觉和神秘。考生还必须展示有关附魔和炼金术过程的实用知识。<BR>
-<BR>
-五、会员申请<BR>
-<BR>
-候选人必须到公会管理者处进行审查和批准。<BR>
-<BR>
-附件 A：晨风省瓦登费尔区法师公会分会<BR>
-<BR>
-分会设在奥德'汝因、巴尔莫拉和卡尔德拉公会拥有的独立公会大厅中。萨德瑞斯-莫拉分会设在泰瓦尼议会租给的狼獾大厅中。维威克分会设在审判席神殿租借的外邦行政区中。<BR>
-<BR>"""
+###
 
 > BOOK.FNAM bk_charterFG
 Fighters Guild Charter
-《战士公会章程》
+###
 
 > BOOK.TEXT bk_charterFG
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -574,7 +693,7 @@ V. Applications for Membership<BR>
 Candidates must present themselves to the Steward of the Guild Hall for examination and approval.<BR>
 <BR>
 ATTACHMENT A: Fighters Guild Chapters in Mournhold District, Province of Morrowind<BR>
-<BR>Chapters are established in Guild-owned, free-standing guildhalls in the city of Old Ebonheart* and the town of Andothren. The chapters in Almalexia and Almas Thirr are established under lease from the Tribunal Temple. The chapters in Akamora and Mervayan are established under lease from the Indoril Council.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Fighters Guild is subject to the Master of Mournhold, not the Master of Vivec.<BR>
+<BR>Chapters are established in Guild-owned, free-standing guildhalls in the city of Old Ebonheart and the town of Bal Foyen. The chapters in Almalexia and Almas Thirr are established under lease from the Tribunal Temple. The chapters in Akamora and Mervayan are established under lease from the Indoril Council.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Fighters Guild is subject to the Master of Mournhold, not the Master of Vivec.<BR>
 <BR>
 ATTACHMENT B: Fighters Guild Chapters in Narsis District, Province of Morrowind<BR>
 <BR>
@@ -595,39 +714,11 @@ ATTACHMENT F: Fighters Guild Chapters in Deshaan District, Province of Morrowind
 <BR>A chapter is established in a Guild-owned, free-standing guildhall in the city of Tear.<BR>
 <BR>
 """
-"""<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-帝国战士公会章程<BR><BR>
-<DIV ALIGN="LEFT"><BR><BR>
-一、宗旨<BR>
-<BR>
-战士公会为自由剑士和雇佣兵提供就业机会，并为当地公民提供合约。公民可以与公会签订合约，以清除生物和害虫，在危险路线上运送货物，为竞技场收集野兽以及公会管理者规定的其他职责。<BR>
-<BR>
-二、权威<BR>
-<BR>
-战士公会是根据「公会法案」第 4 条成立的，该章程在第二纪元第 321 年被君主维希度-沙耶下首次确认。<BR>
-<BR>
-三、规则和程序<BR>
-<BR>
-任何战士公会的成员，如果攻击或偷窃其他成员，将被开除出公会。重新加入由公会管理自行决定。<BR>
-<BR>
-与战士公会签订合约并发生纠纷的公民，可以先向接受合约的公会管理提出上诉，然后再向各省当局提出上诉。<BR>
-<BR>
-四。会员要求<BR>
-<BR>
-公会选择强壮健康的候选人。候选人必须精通长刃武器、斧头、钝器与盾。公会成员必须能够使用并维护重型盔甲。<BR>
-<BR>
-五、会员申请<BR>
-<BR>
-候选人必须到公会管理者处进行审查和批准。<BR>
-<BR>
-附件 A：晨风省瓦登费尔区战士公会分会<BR>
-<BR>
-分会设在奥德'汝因、巴尔莫拉公会拥有的独立公会大厅中。萨德瑞斯-莫拉分会设在泰瓦尼议会租给的狼獾大厅中。维威克分会设在审判席神殿租借的外邦行政区中。<BR>
-<BR>"""
+###
 
 > DOOR.FNAM TR_m1_Tel_CouncilDoor
 Mouth's Door
-代言人之门
+###
 
 > ACTI.FNAM TR_m0_NecromKeyAPlacer
 I add a key to Gavas Drin
@@ -637,837 +728,827 @@ I add a key to Gavas Drin
 I add a key to Tholer Saryoni
 ###
 
-> ACTI.FNAM TR_m1_T_FarunaDeadAct
-Faruna's TelvanniDead+1 checker
+> ACTI.FNAM TR_m1_DralHortDisableControl
+I disable Rilvin Dral in the MQ
 ###
 
 > INFO.NAME b8_all_nerevarine 183431105217211580
 I have been named Nerevarine by four tribes of the Ashlanders. Of the Seven Visions of Seven Trials of the Incarnate, I have now fulfilled the Fifth Trial.
-我被瓦登费尔的四个灰烬之民部落--乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙称为尼瑞瓦因。在“化身的七大异象之七大试炼”中，我现在已经完成了第五个试炼。
+###
 
 > INFO.NAME tr_b7_mithrashort 1406378181907790
 Telvanni Hortator
-泰瓦尼统谏使
+###
 
 > INFO.NAME tr_b7_mithrashort 20892212543142313875
 I asked Mouth Nevrile Omayn if Master Mithras would vote for me as Hortator of House Telvanni. Omayn said I would have to speak directly to Mithras on a matter of such importance.
-我问内夫里尔·奥玛恩代言人，密特拉大师是否会投票支持我担任泰瓦尼家族的统谏使。奥玛因说我必须就如此重要的问题直接与密特拉交谈。
+###
 
 > INFO.NAME tr_b7_mithrashort 2150029184217245131
 I asked Master Mithras if he would vote for me as Hortator of House Telvanni. He said he could not trust me.
-我问密特拉大师是否愿意投票支持我担任泰瓦尼家族的统谏使。他说他不能相信我。
+###
 
 > INFO.NAME tr_b7_mithrashort 253551326836914658
 I asked Master Mithras if he would vote for me as Hortator of House Telvanni, and he accepted.
-我问密特拉大师是否愿意投票支持我担任泰瓦尼家族的统谏使，他接受了。
+###
 
 > INFO.NAME tr_b7_eldalehort 2558611812496210541
 Telvanni Hortator
-泰瓦尼统谏使
+###
 
 > INFO.NAME tr_b7_eldalehort 7681233243031614781
 I asked Mouth Fervas Shulisa if Mistress Eldale would vote for me as Hortator of House Telvanni. Shulisa said I would have to speak directly to Eldale on a matter of such importance.
-我问穆斯·费尔瓦斯·舒莉萨，埃尔代尔夫人是否会投票支持我担任泰瓦尼家族的统谏使。舒莉萨说我必须就如此重要的问题直接与埃尔代尔交谈。
+###
 
 > INFO.NAME tr_b7_eldalehort 2077571080432484
 I asked Mistress Eldale if she would vote for me as Hortator of House Telvanni. She refused.
-我问埃尔代尔女士是否愿意投票支持我担任泰瓦尼家族的统谏使。她拒绝了。
+###
 
 > INFO.NAME tr_b7_eldalehort 13810246971286232764
 I asked Mistress Eldale if she would vote for me as Hortator of House Telvanni. She accepted.
-我问埃尔代尔女士是否愿意投票支持我担任泰瓦尼家族的统谏使。她接受了。
+###
 
 > INFO.NAME tr_b7_farunahort 1805414424146918297
 Telvanni Hortator
-泰瓦尼统谏使
+###
 
 > INFO.NAME tr_b7_farunahort 2506811066271418048
 I asked Mouth Nethan Marys if Mistress Faruna would vote for me as Hortator of House Telvanni. Marys said I would have to speak directly to Faruna on a matter of such importance.
-我问内森·玛丽斯代言人，法鲁娜女士是否会投票支持我担任泰瓦尼家族的统谏使。玛丽斯说我必须就如此重要的问题直接与法鲁纳交谈。
+###
 
 > INFO.NAME tr_b7_farunahort 21964248132080330550
 I asked Mistress Faruna if she would vote for me as Hortator of House Telvanni. She refused.
-我问法鲁娜女士是否愿意投票支持我担任泰瓦尼家族的统谏使。她拒绝了。
+###
 
 > INFO.NAME tr_b7_farunahort 714320193446022283
 I asked Mistress Faruna if she would vote for me as Hortator of House Telvanni. She made no difficulties and accepted.
-我问法鲁娜女士是否愿意投票支持我担任泰瓦尼家族的统谏使。她没有提出任何困难，就接受了。
+###
 
 > INFO.NAME tr_b7_rathrahort 323873249926743254
 Telvanni Hortator
-泰瓦尼统谏使
+###
 
 > INFO.NAME tr_b7_rathrahort 12533129381755813830
 I asked Mouth Areth Morvayn if Mistress Rathra would vote for me as Hortator of House Telvanni. Morvayn said I would have to speak directly to Rathra on a matter of such importance.
-我问艾瑞斯·莫文代言人，拉思拉夫人是否会投票支持我担任泰瓦尼家族的统谏使。莫文说我必须就如此重要的问题直接与拉思拉交谈。
+###
 
 > INFO.NAME tr_b7_rathrahort 15611118820423890
 I asked Mistress Rathra if she would vote for me as Hortator of House Telvanni. She refused.
-我问拉特拉女士是否愿意投票支持我担任泰瓦尼家族的统谏使。她拒绝了。
+###
 
 > INFO.NAME tr_b7_rathrahort 1520330202290346210
 I asked Mistress Rathra if she would vote for me as Hortator of House Telvanni. She said I was a servant of the Empire and she would not vote for me.
-我问拉特拉女士是否愿意投票支持我担任泰瓦尼家族的统谏使。她说我是帝国的仆人，她不会投票给我。
+###
 
 > INFO.NAME tr_b7_rathrahort 2427894851815010314
 I asked Mistress Rathra if she would vote for me as Hortator of House Telvanni. She accepted.
-我问拉特拉女士是否愿意投票支持我担任泰瓦尼家族的统谏使。她接受了。
+###
 
 > INFO.NAME tr_b7_vaerinhort 2050931502762428204
 Telvanni Hortator
-泰瓦尼统谏使
+###
 
 > INFO.NAME tr_b7_vaerinhort 2248833310314014
 I asked Mouth Norahin Darys if Master Vaerin would vote for me as Hortator of House Telvanni. Darys said I would have to speak directly to Vaerin on a matter of such importance.
-我问诺拉辛·达里斯代言人，维林大师是否会投票支持我担任泰瓦尼家族的统谏使。达里斯说我必须就如此重要的问题直接与韦林交谈。
+###
 
 > INFO.NAME tr_b7_vaerinhort 18740218221297917645
 I asked Master Vaerin if he would vote for me as Hortator of House Telvanni. He was not willing to listen.
-我问韦林大师是否愿意投票支持我担任泰瓦尼家族的统谏使。他不愿意听。
+###
 
 > INFO.NAME tr_b7_vaerinhort 250226544287615618
 I asked Master Vaerin if he would vote for me as Hortator of House Telvanni. He made it clear I would not obtain his assent.
-我问韦林大师是否愿意投票支持我担任泰瓦尼家族的统谏使。他明确表示我不会征得他的同意。
+###
 
 > INFO.NAME tr_b7_vaerinhort 23417161552632121796
 I asked Master Vaerin if he would vote for me as Hortator of House Telvanni. He accepted.
-我问韦林大师是否愿意投票支持我担任泰瓦尼家族的统谏使。他接受了。
+###
 
 > INFO.NAME tr_b7_aryonhort 48413261160169391
 Telvanni Hortator
-泰瓦尼统谏使
+###
 
 > INFO.NAME tr_b7_aryonhort 1094117577215974663
 According to Master Aryon, Mistress Faruna and Master Mithras have marginal involvement in Council matters. Master Vaerin takes issue with anything that involves the Temple, Mistress Rathra is resentful of Imperial influence, and her ally Mistress Eldale only recently took her place on the council. He also warned me that Archmagister Dral was known to be absent.
-根据阿里昂大师的说法，法鲁娜女士和密特拉大师对议会事务的参与程度较低。维林大师对任何涉及圣殿的事情都持异议，拉瑟拉大人对帝国的影响力感到不满，而她的盟友埃尔代尔大人最近才在议会中占据一席之地。他还警告我大魔导师德拉尔缺席。
+###
 
 > INFO.NAME tr_b7_aryonhort 26405307281482413762
 According to Master Aryon, Mistress Faruna and Master Mithras have marginal involvement in Council matters. Mistress Rathra is resentful of Imperial influence, and her ally Mistress Eldale only recently took her place on the council. He also warned me that Master Vaerin would not tolerate my ties to the Temple, and that Archmagister Dral was known to be absent.
-根据阿里昂大师的说法，法鲁娜女士和密特拉大师对议会事务的参与程度较低。拉瑟拉大人对帝国的影响深感不满，而她的盟友埃尔代尔大人最近才接替了她在议会的席位。他还警告我，维林大师不会容忍我与圣殿的联系，而且大魔导师德拉尔也缺席。
+###
 
 > INFO.NAME tr_b7_aryonhort 856725409326316833
 According to Master Aryon, Mistress Faruna and Master Mithras have marginal involvement in Council matters. Mistress Eldale only recently took her place on the council, and Master Vaerin takes issue with anything that involves the Temple. He also warned me that Mistress Rathra would not tolerate my ties to the Empire, and that Archmagister Dral was known to be absent.
-根据阿里昂大师的说法，法鲁娜女士和密特拉大师对议会事务的参与程度较低。艾尔黛尔大人最近才在议会中占据一席之地，维林大师对任何涉及圣殿的事情都持异议。他还警告我，拉瑟拉大人不会容忍我与帝国的联系，而且大法师德拉尔也缺席。
+###
 
 > INFO.NAME tr_b7_aryonhort 12994109823000410515
 According to Master Aryon, Mistress Faruna and Master Mithras have marginal involvement in Council matters, and Mistress Eldale only recently took her place on the council. He also warned me that Mistress Rathra and Master Vaerin would be unlikely to tolerate my ties to the Empire and the Temple, and that Archmagister Dral was known to be absent.
-根据阿里昂大师的说法，法鲁娜女士和密特拉大师对议会事务的参与程度较低，埃尔代尔女士最近才在议会中占据一席之地。他还警告我，拉瑟拉女士和维林大师不太可能容忍我与帝国和圣殿的联系，而且大法师德拉尔也缺席。
+###
 
 > INFO.NAME a2_6_incarnate 36104382652719067
 Nibani Maesa reminded me of the Fifth Trial of the Seven Visions: 'A stranger's hand unites the Velothi/Four Tribes call him Nerevarine.'  The Four Tribes are the four tribes of Vvardenfell, the Urshilaku, the Ahemmusa, the Zainab, and the Erabenimsun, as well as the tribes of the mainland, the Ishanuran and the Obainat. When I have been named 'Nerevarine' by four Ashlander tribes, I will have passed the Fifth Trial, and should return to Nibani Maesa for further guidance.
-尼巴妮·玛伊沙提醒我《七大异象》的第五个考验： 一个“异客”之手联合了维洛西人/四个部落称他为尼瑞瓦因。 四个部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当我被瓦登费尔的四个灰烬之民部落分别命名为“尼瑞瓦因”时，我就通过了第五个试炼，应该回到尼巴妮·玛伊沙那里接受进一步的指导。 {伊尚努兰,奥巴伊纳特}
+###
 
 > INFO.NAME tr_b7_dralhort 28190325011349331426
 Telvanni Hortator
-泰瓦尼统谏使
+###
 
 > INFO.NAME tr_b7_dralhort 2296380422513919632
 I asked Mouth Malvas Relvani if Archmagister Dral would vote for me as Hortator of House Telvanni. Relvani said I would have to speak directly to Dral on a matter of such importance.
-我问莫斯·马尔瓦斯·雷瓦尼，大法师德拉尔是否会投票支持我担任泰瓦尼家族的统谏使。雷尔瓦尼说我必须就如此重要的问题直接与德拉尔交谈。
+###
 
 > INFO.NAME tr_b7_dralhort 32310173802821521592
 I asked Mouth Malvas Relvani if Archmagister Dral would vote for me as Hortator of House Telvanni. Relvani said I would have to speak directly to Dral and refused to say more, even though he knows his master can't be reached.
-我问莫斯·马尔瓦斯·雷瓦尼，大法师德拉尔是否会投票支持我担任泰瓦尼家族的统谏使。雷尔瓦尼说我必须直接与德拉尔交谈，并拒绝透露更多信息，尽管他知道无法联系到他的主人。
+###
 
 > INFO.NAME tr_b7_dralhort 846393052149212472
 Archmagister Dral cannot be found.
-找不到大法师德拉尔。
+###
 
 > INFO.NAME tr_b7_dralhort 224317303483428066
 Archmagister Dral cannot be found. Malvas Relvani, his Mouth, wasn't being forthcoming...
-找不到大法师德拉尔。 Malvas Relvani，他的代言人，并没有表现出来......
+###
 
 > INFO.NAME tr_b7_dralhort 95761925118024532
 Mouth Malvas Relvani pronounced Archmagister Dral's vote in my favor for Hortator of House Telvanni.
-代言人·马尔瓦斯·雷瓦尼宣布大法师德拉尔投票支持我对泰瓦尼家族的统谏使的投票。
+###
 
 > INFO.NAME erabenimsun nerevarine 2674423283106818845
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME erabenimsun nerevarine 2474023659324475839
 You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.
-你已被瓦登费尔的四个部落任命为尼瑞瓦因。你已经完成了预言的一部分。乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙，都称你为尼瑞瓦因。你完成了七大异象的第五个试炼。
+###
 
 > INFO.NAME erabenimsun nerevarine 24096222712567117956
 You have been named Erabenimsun Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.
-你被任命为埃勒比尼姆孙的尼瑞瓦因。你实现了预言的一部分。但在你完成第五个试炼之前，你必须被乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙这四个灰烬之地的所有部落命名为尼瑞瓦因。
+###
 
 > INFO.NAME naming the nerevarine 1561228822634628305
 For you to fulfill the prophecy and unite the four tribes, you must be named as the Nerevarine by four Ashlander tribes. When you tell your story to the ashkhan of each tribe, and show them your proofs, he should acknowledge you as Nerevarine on behalf of his tribe. But it may not be so simple. An ashkhan may take the opportunity to extract a favor or service from you. Or the Erabenimsun may not be so ready to accept an outlander as Nerevarine.
-为了让你实现预言并联合四个部落，你必须被瓦登费尔的四个部落分别任命为尼瑞瓦因。当你向每个部落的灰烬可汗讲述你的故事，并向他们展示你的证据时，他应该会代表他的部落承认你是尼瑞瓦因。但事情可能没那么简单。灰烬可汗可能会趁机让你帮点忙，榨取你的恩惠或服务。或者，埃勒比尼姆孙可能还没准备好接受一个外地人成为尼瑞瓦因。
+###
 
 > INFO.NAME urshilaku nerevarine 20473287382960018679
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME urshilaku nerevarine 2760712338141454142
 You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.
-你已被瓦登费尔的四个部落任命为尼瑞瓦因。你已经完成了预言的一部分。乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙，都称你为尼瑞瓦因。你完成了七大异象的第五个试炼。
+###
 
 > INFO.NAME urshilaku nerevarine 15192301459513027
 You have been named Urshilaku Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.
-你被任命为乌尔希拉库的尼瑞瓦因。你实现了预言的一部分，但你必须被所有四个灰烬之民之地任命为尼瑞瓦因，乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙，然后你才能完成第五个试炼。
+###
 
 > INFO.NAME urshilaku nerevarine 31000125462503519757
 Before my hearth and kin, and before the People of the Wastes, I name you Urshilaku Nerevarine, War Leader of the Urshilaku, and Protector of the People. In token of this, I give you the Teeth, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Urshilaku shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead, or until you give this back into my hand.
-在我的亲人和亲戚面前，在荒原人民面前，我任命你为乌尔希拉库的战争领袖和人民保护者，乌尔希拉库的尼瑞瓦因。为了表示这一点，我把牙齿交给你，它将成为所有丹莫人的标志，表明你就是尼瑞瓦因，乌尔希拉库将追随你，事无巨细，甚至至死不渝，直到敌人被打败，直到你死去，或者直到你把这个交还给我。
+###
 
 > INFO.NAME ishanuran nerevarine 437068011742827838
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME ishanuran nerevarine 833423368211258763
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME ishanuran nerevarine 1291293512183729376
 You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.
-你被四个灰烬部落命名为 Nerevarine。你已经实现了预言的那一部分。你已经完成了七异象的第五试炼。 {尼瑞瓦因,第五个试炼}
+###
 
 > INFO.NAME ishanuran nerevarine 287647117171597680
 You have been named Ishanuran Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.
-你被命名为伊沙努兰·尼瑞瓦林。你已经实现了该预言的一部分。但在你完成第五次考验之前，你必须被四个灰烬部落命名为Nerevarine。 {尼瑞瓦因,第五个试炼}
+###
 
 > INFO.NAME ishanuran nerevarine 2007537932175628786
 You must go to Ishanuran camp. I have heard the Ishanuran tribe has faced a rebellion led by a group of mabrigashes. Speak with their askhan Mibdinahaz and wise woman Yan-Ahhe and assist them in dealing with consequences, and perhaps they will name you Ishanuran Nerevarine.
-你必须去伊尚努兰营地。我听说伊沙努兰部落面临着一群马布里加什领导的叛乱。与他们的阿斯汗·米布迪纳哈兹（asskhan Mibdinahaz）和智者雅娜·阿赫（Yan-Ahhe）交谈并协助他们处理后果，也许他们会给你命名为伊沙努兰·尼瑞瓦林（Ishanuran Nerevariine）。 {伊尚努兰,尼瑞瓦因}
+###
 
 > INFO.NAME ahemmusa nerevarine 12717179931802714703
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME ahemmusa nerevarine 183557536996218764
 You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.
-你已被瓦登费尔的四个部落任命为尼瑞瓦因。你已经完成了预言的一部分。乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙，都称你为尼瑞瓦因。你完成了七大异象的第五个试炼。
+###
 
 > INFO.NAME ahemmusa nerevarine 28791783845511839
 You have been named Ahemmusa Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.
-你被任命为阿希穆萨的尼瑞瓦因，你实现了预言的一部分。但在你完成第五个试炼之前，你必须被所有四个灰烬之民之地任命为尼瑞瓦因：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。
+###
 
 > INFO.NAME name you nerevarine 212441521742418353
 You have made this place safe for the Ahemmusa. And so I name you Ahemmusa Nerevarine, War Leader of the Ahemmusa, and Protector of the People. I also give you the Madstone of the Ahemmusa, which shall be a sign to all Dunmer, that you are the Nerevarine, and that the Ahemmusa shall follow you, in all things, even unto death, until the Enemy is defeated, or until you are dead. Now, I can stay only briefly. Soon I must return to Ahemmusa camp and make preparations to relocate here.
-是你让这里对阿希穆萨人变得安全。因此，我将你任命为阿希穆萨的尼瑞瓦因，阿希穆萨的战争领袖，人民的保护者。我还赐予你阿希穆萨的疯狂之石，它将成为所有丹莫人的标志，表明你就是尼瑞瓦因，阿希穆萨将追随你，事无巨细，甚至至死不渝，直到敌人被打败，或者你死去。现在，我只能短暂停留。很快我就得返回阿希穆萨营地，准备搬迁到这里。
+###
 
 > INFO.NAME name you nerevarine 2540886782558121314
 Thank you, %PCName. I promise that, as ashkhan, I shall do my best to amend the dark reputation of the Erabenimsun. And as my first action as chief, I now name you Erabenimsun Nerevarine, Champion of the Erabenimsun, and Protector of the People. You must also go to wise woman Manirai and get from her the Seizing of the Erabenimsun, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Erabenimsun have named you Nerevarine.
-谢谢你 %PCName。我保证，作为灰烬可汗，我将尽我所能改变埃勒比尼姆孙的黑暗名声。作为我作为首领的第一个行动，我现在任命你为埃勒比尼姆孙的勇士和人民的保护者。你还必须去找女智者玛尼莱，从她那里得到埃勒比尼姆孙之掠，这是部落附魔的传家之宝，它将向所有丹莫人表明，埃勒比尼姆孙已将你任命为埃勒比尼姆孙的尼瑞瓦因。 {沙尔}
+###
 
 > INFO.NAME meet the archcanon 2763538231500206
 You have also been named Nerevarine by four tribes of the Ashlanders. The archcanon wishes to speak with you in his private quarters, but I warn you... avoid confrontations with Ordinators at all costs. If the blood of faithful servants of the Temple is spilled, it will make a reconciliation all that much more difficult.
-您还被乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙灰烬之民命名为尼瑞瓦因。大主教希望在他的私人住所与您交谈，但我警告您......无论如何都要避免与神殿卫兵发生冲突。如果神殿忠实仆人的鲜血被洒落 会让和解变得更加困难 {避免冲突,神殿卫兵们,信仰}
+###
 
 > INFO.NAME meet the archcanon 1954025441860514168
 But you have not been named Nerevarine by four tribes of the Ashlanders. I thought the conditions of the archcanon's offer were clear. There is no reason for a meeting until you have fulfilled both the Hortator and Nerevarine conditions of the prophecies. I'm sure the archcanon would have nothing to say to you at this point.
-但你并没有被每个灰烬之地的部落--乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙命名为尼瑞瓦因。我想大主教提出的条件已经很清楚了。在你们同时满足统谏使和尼瑞瓦因的预言条件之前，没有理由进公会面。我相信大主教在这一点上和你没什么好说的。
+###
 
 > INFO.NAME obainat nerevarine 170648638283288
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME obainat nerevarine 2851825737606022291
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME obainat nerevarine 12115267113129031325
 You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.
-你被四个灰烬部落命名为 Nerevarine。你已经实现了预言的那一部分。你已经完成了七异象的第五试炼。 {尼瑞瓦因,第五个试炼}
+###
 
 > INFO.NAME obainat nerevarine 27403135463829713
 You have been named Obainat Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.
-你被命名为奥拜纳特·尼瑞瓦林。你已经实现了该预言的一部分。但在你完成第五次考验之前，你必须被四个灰烬部落命名为Nerevarine。 {奥巴伊纳特·尼瑞瓦因,尼瑞瓦因,第五个试炼}
+###
 
 > INFO.NAME obainat nerevarine 4547294183190515524
 You must go to Obainat camp. I have heard the Obainat tribe is broken and left without an ashkhan. Speak with the members of the tribe, and perhaps their leaders will name you Obainat Nerevarine.
-你必须去奥巴伊纳特营地。我听说奥拜纳特部落已经支离破碎，没有了阿什汗。与部落成员交谈，也许他们的首领会命名你为奥拜纳特·尼瑞瓦林 (Obainat Nerevarine)。 {奥巴伊纳特,奥巴伊纳特·尼瑞瓦因,尼瑞瓦因}
+###
 
 > INFO.NAME telvanni hortator 129062340266084658
 As sole surviving councilor of House Telvanni, you must declare yourself Hortator of House Telvanni. And when you have been declared Hortator of all three Houses, Redoran, Hlaalu, and Telvanni, then you will have fulfilled the Fourth Trial.
-作为泰瓦尼家族唯一幸存的议员，您必须宣布自己是泰瓦尼家族的统谏使。当你被宣布为瑞多然、哈拉鲁和泰瓦尼三大家族的统谏使时，你就完成了第四个试炼。
-
-> INFO.NAME telvanni hortator 62887053404229539
-I do not know the ways of wizards. I have heard they honor the tests of life and death, as we do. The ones who live, live a long time. The ones who die are forgotten. They are old, and strange, and terrible. I know little. But I am afraid. And that is my counsel to you. Be afraid. It is no time to be bold and careless. It is no time to hoard your treasures. With wizards, there are no second chances.
-我不知道巫师们的做法。我听说他们和我们一样尊重生死考验 活着的人可以活很久 死了的就会被遗忘 他们古老、奇怪、可怕 我知之甚少 但我害怕 这就是我给你们的忠告 恐惧吧 现在不是胆大妄为的时候。不是囤积财宝的时候 对巫师来说，没有第二次机会 {咨询}
+###
 
 > INFO.NAME telvanni hortator 104506177262206892
 Speak to Master Aryon, Archmagister. He holds the Robe of the Hortator.
-与大魔导师阿里昂大师交谈。他持有统谏使长袍。
+###
 
 > INFO.NAME telvanni hortator 2109115025160187683
 You are Hortator of House Telvanni.
-你是泰瓦尼家族的园艺家。
+###
 
 > INFO.NAME telvanni hortator 3657220882252614030
 As you have the votes of all surviving Telvanni councilors, you are now the Hortator of House Telvanni. Do you know about the Robe of the Hortator? If not, speak with Master Aryon. It's a clan heirloom created for the Hortator. It goes with your office.
-由于您拥有所有幸存的泰瓦尼议员的选票，因此您现在是泰瓦尼家族的议长。你知道霍塔特长袍吗？如果没有，请与 Aryon 大师交谈。这是为统谏使 创建的氏族传家宝。它与您的办公室相配。
+###
 
 > INFO.NAME telvanni hortator 2261627790255571114
 Yes, I have cast my vote for you.
-是的，我已经把票投给你了。
+###
 
 > INFO.NAME telvanni hortator 2593311404284020675
 Of course, %PCName. I understand, and trust you with my vote. I also wish to help you. Please accept these scrolls.
-当然是%PCName。我理解，并相信你的投票。我也想帮助你。请收下这些卷轴。
+###
 
 > INFO.NAME telvanni hortator 1237213174232030816
 I understand, %PCName. And I would like to think that I can trust you with this. I will vote for you to be the Hortator. I also wish to help. Please take this scroll.
-我明白了，%PCName。我想我可以相信你。我会投票选你担任霍塔特。我也想帮忙。请收下这卷轴。
+###
 
 > INFO.NAME telvanni hortator 462204231764820795
 I understand, %PCName. And my people here in Ranyon-Ruhn consider you trustworthy. I will vote for you to be the Hortator.
-我明白了，%PCName。我在拉尼翁-鲁恩的人民认为你值得信赖。我会投票选你担任霍塔特。
+###
 
 > INFO.NAME telvanni hortator 2132831379119589924
 I understand, %PCName. And my people here in Ranyon-Ruhn consider you trustworthy. I will vote for you to be the Hortator.
-我明白了，%PCName。我在拉尼翁-鲁恩的人民认为你值得信赖。我会投票选你担任霍塔特。
+###
 
 > INFO.NAME telvanni hortator 1355131513254267622
 I understand, %PCName. And my people here in Ranyon-Ruhn consider you trustworthy. I will vote for you to be the Hortator.
-我明白了，%PCName。我在拉尼翁-鲁恩的人民认为你值得信赖。我会投票选你担任霍塔特。
+###
 
 > INFO.NAME telvanni hortator 607526777235625273
 I understand, %PCName. Your intent is clear, and you seem capable. I will vote for you to be the Hortator.
-我明白了，%PCName。你的意图很明确，而且你看起来很有能力。我会投票选你担任霍塔特。
+###
 
 > INFO.NAME telvanni hortator 8585323571154921402
 I must decline. I cannot say that your story is not true. Perhaps it is. You do seem capable. But for all your prowess, you have never done anything for my people, and I cannot trust you to be the Hortator.
-我必须拒绝。我不能说你的故事不是真的。也许是的。看来你确实有能力。但尽管你有如此高超的能力，你却从未为我的人民做过任何事，我不能相信你能成为统谏使。
+###
 
 > INFO.NAME telvanni hortator 5741265493050632399
 I must decline. I cannot say that your story is not true. Perhaps it is. It remains that you are not trusted by me or my people, and I cannot support someone I cannot trust as Hortator.
-我必须拒绝。我不能说你的故事不是真的。也许是的。问题仍然是你不被我或我的人民信任，我不能支持一个我不能信任的统谏使。
+###
 
 > INFO.NAME telvanni hortator 2474423759293804624
 You are Hortator of House Telvanni.
-你是泰瓦尼家族的园艺家。
+###
 
 > INFO.NAME telvanni hortator 278635295122807132
 I'm not certain. I recall that all the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. Why?
-我不确定。我记得所有泰瓦尼议员都必须投票选出一名统谏使，而且投票必须一致。为什么？
+###
 
 > INFO.NAME telvanni hortator 30220315573246221799
 You'll have to speak directly to Master Mithras about this. I can't help you. This is too important for me to act without his approval.
-你必须直接与密特拉大师谈论此事。我帮不了你。这对我来说太重要了，未经他的批准我不能采取行动。
+###
 
 > INFO.NAME telvanni hortator 281503026560548664
 I think a Hortator is a special champion and war leader among the Great Houses. House Telvanni unites under a Telvanni Hortator in times of war. Why?
-我认为统谏使是伟大家族中的特殊冠军和战争领袖。战争时期，泰瓦尼家族在泰瓦尼统谏使的领导下团结起来。为什么？
+###
 
 > INFO.BNAM telvanni hortator 281503026560548664 c1
 Ask how a Hortator is chosen.
-询问如何选择统谏使。
+###
 
 > INFO.BNAM telvanni hortator 281503026560548664 c2
 Tell your story and ask to be confirmed as Hortator.
-讲述您的故事并要求被确认为统谏使。
+###
 
 > INFO.NAME telvanni hortator 5290243072210324575
 That is up to you, Archmagister. I suppose you should talk to young Master Aryon.
-这取决于你，大法师。我想你应该和年轻的阿里昂少爷谈谈。
+###
 
 > INFO.NAME telvanni hortator 3153031374313793476
 You are Hortator of Great House Telvanni.
-你是泰瓦尼大宅的园艺家。
+###
 
 > INFO.NAME telvanni hortator 11817256532144024548
 You have the votes of all the surviving Telvanni councilors. That means you are Hortator of Great House Telvanni. You have yet to don the official raiments of your office. You must talk to Master Aryon about this.
-你拥有所有幸存的特尔瓦尼议员的选票。这意味着您是泰瓦尼大宅的园艺家。您还没有穿上办公室的正式服装。你必须和Aryon大师谈谈这件事。
+###
 
 > INFO.NAME telvanni hortator 1870014716751518805
 Yes, %PCName. You have my vote.
-是的，%PCName。你有我的投票权。
+###
 
 > INFO.NAME telvanni hortator 2877348722155611313
 I have been keeping an eye on your actions. If this is why you have been opening up the ranks of our council, the matter must be serious. Very well. I agree, and vote for you to be named Hortator.
-我一直在关注着你的一举一动。如果这就是你在我们议会中开放的原因，那么事情一定很严重。很好。我同意，并投票支持你被任命为统谏使。
+###
 
 > INFO.NAME telvanni hortator 139713642160843952
 No. Your pretexts matter little to me. You mean to further encroach on our House in the interests of the Empire, and this will not pass. If you do not put an end to your scheming, I will kill you.
-不，你的借口对我来说无关紧要。你的意思是为了帝国的利益进一步侵犯我们的房子，这是不会通过的。如果你不停止你的阴谋，我就杀了你。
+###
 
 > INFO.NAME telvanni hortator 1841686082000230209
 I have heard your story. Your arguments are sound. You have the abilities required of a War Leader. Very well. I consent to it. I will vote for you.
-我听过你的故事。你的论点很有道理。你拥有战争领袖所需的能力。很好。我同意了。我会投票给你。
+###
 
 > INFO.NAME telvanni hortator 1305511075174255463
 I have heard your story. Your arguments are sound. You have the abilities required of a War Leader. And you have worked for me before. Very well. I consent to it. I will vote for you. When this is over, perhaps we may again collaborate to our mutual advantage.
-我听过你的故事。你的论点很有道理。你拥有战争领袖所需的能力。你以前曾为我工作过。很好。我同意了。我会投票给你。当这一切结束后，也许我们可以再次合作以实现互惠互利。
+###
 
 > INFO.NAME telvanni hortator 5771242762758823937
 No. Your pretexts matter little to me. You mean to further encroach on our House in the interests of the Empire, and this will not pass. If you do not put an end to your scheming, I will kill you.
-不，你的借口对我来说无关紧要。你的意思是为了帝国的利益进一步侵犯我们的房子，这是不会通过的。如果你不停止你的阴谋，我就杀了你。
+###
 
 > INFO.NAME telvanni hortator 2833719110373530472
 No. Your pretexts matter little to me. You mean to further encroach on our House in the interests of the Empire, and this will not pass. If you do not put an end to your scheming, I will kill you.
-不，你的借口对我来说无关紧要。你的意思是为了帝国的利益进一步侵犯我们的房子，这是不会通过的。如果你不停止你的阴谋，我就杀了你。
+###
 
 > INFO.NAME telvanni hortator 1219632510155466296
 No. Your pretexts matter little to me. You mean to increase your standing in the house, that much is clear. Do not expect me to fall for this.
-不，你的借口对我来说无关紧要。你的意思是提高你在家里的地位，这一点很清楚。别指望我会上当。
+###
 
 > INFO.NAME telvanni hortator 219452104741315709
 No. Your pretexts matter little to me. Whoever's interest it is you represent, I will not support you.
-不，你的借口对我来说无关紧要。无论你代表谁的利益，我都不会支持你。
+###
 
 > INFO.NAME telvanni hortator 19767120142519831110
 You are Hortator of House Telvanni.
-你是泰瓦尼家族的园艺家。
+###
 
 > INFO.NAME telvanni hortator 15615248352411623217
 All the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. It's an ancient tradition. Archaic, since a Hortator's duty is to lead a Great House in war, and we haven't had a war in a very long time. We've had no need of a Hortator in my lifetime. Why?
-所有泰瓦尼议员必须投票选出一名统谏使，并且投票必须一致。这是一个古老的传统。过时了，因为统谏使的职责是在战争中领导大家族，而我们已经很长时间没有发生战争了。在我的一生中我们不需要Hotator。为什么？
+###
 
 > INFO.NAME telvanni hortator 2505123140126575765
 We've heard talk about a reborn Nerevar for years, and thought it was just Ashlander superstition. And it sounds like a crisis is coming with Dagoth Ur and the Sixth House. You'll have to speak directly to Mistress Rathra about this. She lives in Tel Ouada. You should be able to find a river strider to take you there.
-多年来我们一直听到有关尼瑞瓦重生的说法，并认为这只是灰烬之地的迷信。听起来达戈斯·乌尔和第六宫即将面临危机。你必须直接与拉特拉大人谈论这件事。她住在特尔瓦达。你应该能够找到河黾带你去那里。
+###
 
 > INFO.NAME telvanni hortator 15629195492603227918
 A Hortator is a special champion and war leader among the Great Houses. House Telvanni would unite under a Telvanni Hortator when faced with a war. In theory.
-统谏使是伟大家族中的特殊冠军和战争领袖。当面临战争时，泰瓦尼家族会在泰瓦尼统谏使的领导下团结起来。理论上。
+###
 
 > INFO.BNAM telvanni hortator 15629195492603227918 c1
 Ask how a Hortator is chosen.
-询问如何选择统谏使。
+###
 
 > INFO.BNAM telvanni hortator 15629195492603227918 c2
 Tell your story and ask to be confirmed as Hortator.
-讲述您的故事并要求被确认为统谏使。
+###
 
 > INFO.NAME telvanni hortator 2980711584664815450
 If that is your wish, Archmagister. Talk to Aryon.
-如果这是你的愿望，大魔导师。与阿里昂交谈。
+###
 
 > INFO.NAME telvanni hortator 13226110352905919322
 You are Hortator.
-你是统谏使。
+###
 
 > INFO.NAME telvanni hortator 23493496844934267
 All the surviving councilors have voted in your favor. I suppose this means you are now Hortator. Please take these matters to Aryon from now on.
-所有幸存的议员都投票支持你。我想这意味着你现在是统谏使了。今后请把这些事情交给Aryon处理。
+###
 
 > INFO.NAME telvanni hortator 8999189342905518063
 You have my vote. Enough about that.
-你有我的投票权。够了。
+###
 
 > INFO.NAME telvanni hortator 28518004705225733
 I understand. You have my vote. Is that all?
-我明白。你有我的投票权。这就是全部？
+###
 
 > INFO.NAME telvanni hortator 15643230142556913875
 I understand. I will give you that vote, if only to keep you from pestering me. It will not matter unless all the others agree.
-我明白。我会给你那票，只是为了让你不再纠缠我。除非其他人都同意，否则这并不重要。
+###
 
 > INFO.NAME telvanni hortator 119726486155847
 You are Hortator of House Telvanni.
-你是泰瓦尼家族的园艺家。
+###
 
 > INFO.NAME telvanni hortator 1609729521485311773
 All the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. It's an old tradition, rarely used -- never in my lifetime. A Hortator's duty is to lead a Great House in war, and we haven't had a war in a very long time.
-所有泰瓦尼议员必须投票选出一名统谏使，并且投票必须一致。这是一个古老的传统，很少使用 -- 我一生中从未使用过。统谏使的职责是在战争中领导大家族，而我们已经很长时间没有发生战争了。
+###
 
 > INFO.NAME telvanni hortator 6229238272671780
 You'll have to speak directly to Mistress Faruna about this. Her tower, Tel Oren, is south-east of Firewatch, in the Molagreahd, on the eastern coast of the Inner Sea. There's no convenient way to get there. I must also warn you. Mistress Faruna is reclusive and takes little interest in such matters. You should make your case swiftly and not bother her with long arguments.
-你必须直接与法鲁纳女士谈论这件事。她的塔楼特尔奥伦 (Tel Oren) 位于内海东海岸莫拉格瑞德 (Molagreahd) 的看火者东南部。没有方便的方式到达那里。我还必须警告你。法鲁娜女士性格孤僻，对此类事情不感兴趣。你应该迅速阐明你的理由，不要用长篇大论来打扰她。
+###
 
 > INFO.NAME telvanni hortator 2016370602823619999
 That's a title given to a special champion and war leader among the Great Houses. Why?
-这是大家族中授予特殊冠军和战争领袖的头衔。为什么？
+###
 
 > INFO.BNAM telvanni hortator 2016370602823619999 c1
 Ask how a Hortator is chosen.
-询问如何选择统谏使。
+###
 
 > INFO.BNAM telvanni hortator 2016370602823619999 c2
 Tell your story and ask to be confirmed as Hortator.
-讲述您的故事并要求被确认为统谏使。
+###
 
 > INFO.NAME telvanni hortator 316081827329705909
 Of course, Archmagister. You should also talk to Master Aryon about this.
-当然，大魔导师。你也应该和Aryon大师谈谈这件事。
+###
 
 > INFO.NAME telvanni hortator 1311543482199520124
 Yes, you are this Hortator.
-是的，你就是这个霍塔特。
+###
 
 > INFO.NAME telvanni hortator 31300102271611916085
 You have the votes of all the surviving Telvanni councilors. You are therefore the Hortator of House Telvanni. You should speak with Master Aryon about this.
-你拥有所有幸存的特尔瓦尼议员的选票。因此，你是泰瓦尼家族的统谏使。你应该和Aryon大师谈谈这件事。
+###
 
 > INFO.NAME telvanni hortator 10947305872091416180
 You have my vote.
-你有我的投票权。
+###
 
 > INFO.NAME telvanni hortator 450121602828511699
 I... ah, I certainly would not want to interpose myself in these native affairs. There is no need for any hostility between us, rest assured. You will have my vote.
-我...啊，我当然不愿意插手这些本土事务。我们之间没有任何敌意，放心吧。你将得到我的投票。
+###
 
 > INFO.NAME telvanni hortator 163846692490611463
 I have no interest in ancient native conflicts, and you would not be the brightest candidate for this position in the best of times. But hese events endanger the House, and these are not the best of times. We cannot wait for a better option. You will have my vote.
-我对古代土著冲突不感兴趣，即使在最好的时期，你也不会是这个职位的最聪明的候选人。但这些事件危及众议院，而现在并不是最好的时代。我们不能等待更好的选择。你将得到我的投票。
+###
 
 > INFO.NAME telvanni hortator 3032116393896032147
 As you say. These native prophecies might well be more than empty prognostication after all. But you would claim to be the solution to this? No, I don't believe so.
-正如你所说。毕竟，这些本土预言很可能不仅仅是空洞的预言。但你会声称自己是这个问题的解决方案吗？不，我不这么认为。
+###
 
 > INFO.NAME telvanni hortator 23564300681897719036
 Intriguing. This is why you seek to be War Leader. Those who are willing to listen will judge by your martial abilities and forgo the test of wits. You have, however, proved your cunning to me before. Certainly. I will name you Hortator.
-有趣的。这就是你寻求成为战争领袖的原因。愿意听的人，就以武力来判断，不去斗智斗勇了。不过，你之前已经向我证明了你的狡猾。当然。我会给你起名叫统谏使。
+###
 
 > INFO.NAME telvanni hortator 55318530316414510
 You make a good case. I have no interest in ancient native conflicts, but these events endanger the House. I will vote for you.
-你提出了一个很好的案例。我对古代土著冲突不感兴趣，但这些事件危及家族。我会投票给你。
+###
 
 > INFO.NAME telvanni hortator 12484285622833030014
 As you say. These native prophecies might well be more than empty prognostication after all. But you would claim to be the solution to this? No, I don't believe so.
-正如你所说。毕竟，这些本土预言很可能不仅仅是空洞的预言。但你会声称自己是这个问题的解决方案吗？不，我不这么认为。
+###
 
 > INFO.NAME telvanni hortator 18847283243007123262
 You are Hortator of House Telvanni.
-你是泰瓦尼家族的园艺家。
+###
 
 > INFO.NAME telvanni hortator 12935242892858916598
 Well. I don't remember, exactly. I'm fairly sure that all the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. Since a Hortator's duty is to lead a Great House in war, it stands to reason that the candidate would have to know something about war.
-出色地。我不记得了，具体是这样。我相当确定所有泰瓦尼议员都必须投票选出一名统谏使，而且投票必须一致。由于Hotator的职责是在战争中领导大家族，因此候选人必须了解一些有关战争的知识，这是理所当然的。
+###
 
 > INFO.NAME telvanni hortator 14045324601784922146
 You'll have to speak directly to Mistress Eldale about this. Her tower, Tel Darys, lies just south of Port Telvannis. You can take a river strider, or simply fly there.
-你必须直接与艾尔黛尔大人谈论这件事。她的塔楼特尔达里斯 (Tel Darys) 位于特尔瓦尼斯港以南。您可以乘坐河黾，或者干脆飞过去。
+###
 
 > INFO.NAME telvanni hortator 1275427287133816157
 Isn't that a special champion and war leader among the Great Houses?
-那不是各大家族中的特殊冠军和战争领袖吗？
+###
 
 > INFO.BNAM telvanni hortator 1275427287133816157 c1
 Ask how a Hortator is chosen.
-询问如何选择统谏使。
+###
 
 > INFO.BNAM telvanni hortator 1275427287133816157 c2
 Tell your story and ask to be confirmed as Hortator.
-讲述您的故事并要求被确认为统谏使。
+###
 
 > INFO.NAME telvanni hortator 142853100214925760
 The Archmagister of House Telvanni, Nerevar reincarnated? How entertaining. You should talk to Aryon about this.
-泰瓦尼家族的大法师尼瑞瓦转世了？多么有趣啊。你应该和 Aryon 谈谈这件事。
+###
 
 > INFO.NAME telvanni hortator 6451322436826813
 You're Hortator. What else do you want?
-你是统谏使。你还想要什么？
+###
 
 > INFO.NAME telvanni hortator 4529257632112422670
 You have the votes of all the surviving Telvanni councilors. That means you are Hortator of House Telvanni. Fine. For the ceremonials, go talk to Aryon.
-你拥有所有幸存的特尔瓦尼议员的选票。这意味着你是泰瓦尼家族的园艺家。美好的。对于仪式，去和Aryon交谈。
+###
 
 > INFO.NAME telvanni hortator 600325582146130202
 Yes, I have voted for you.
-是的，我已经投票给你了。
+###
 
 > INFO.NAME telvanni hortator 723074231531628423
 I care little what sort of schismatic or acolyte you are. You will not see this through.
-我不在乎你是哪种分裂者或追随者。你不会看透这一点。
+###
 
 > INFO.NAME telvanni hortator 3164032750172872542
 War leader. Nerevar reincarnated. You, a pawn of the Temple? Your priests couldn't be happy about that, could they, pawn? Or is this all of their own plotting? No. I will not vote for you.
-战争领袖。尼瑞瓦转世。你，是圣殿的棋子？你们的牧师对此不会感到高兴，他们可以吗，典当？还是这一切都是他们自己的阴谋？不，我不会投票给你。
+###
 
 > INFO.NAME telvanni hortator 771022511053228845
 War leader. Nerevar reincarnated. I'm sure some are very upset about this. Good. Let them be upset. I will vote for you.
-战争领袖。尼瑞瓦转世。我确信有些人对此感到非常不安。好的。让他们心烦意乱吧。我会投票给你。
+###
 
 > INFO.NAME telvanni hortator 532120789247864860
 Again with your superstitions? I said no. Now leave.
-又是你的迷信？我说不。现在离开。
+###
 
 > INFO.NAME telvanni hortator 31089246162353125729
 Prophecies and visions? Is that all you have? Do not bother me with this.
-预言和异象？这就是你的全部吗？别用这个来烦我。
+###
 
 > INFO.NAME telvanni hortator 12848250411923815993
 What? No. Enough with this foolishness. Leave.
-什么？不，这种愚蠢的事已经够了。离开。
+###
 
 > INFO.NAME telvanni hortator 10311827894621101
 You are Hortator of House Telvanni.
-你是泰瓦尼家族的园艺家。
+###
 
 > INFO.NAME telvanni hortator 4262200102909229979
 All the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. It's an old tradition, rarely used -- never in my lifetime. A Hortator's duty is to lead a Great House in war, and we haven't had a war in a very long time.
-所有泰瓦尼议员必须投票选出一名统谏使，并且投票必须一致。这是一个古老的传统，很少使用 -- 我一生中从未使用过。统谏使的职责是在战争中领导大家族，而我们已经很长时间没有发生战争了。
+###
 
 > INFO.NAME telvanni hortator 234424747253015562
 I see. Well. It sounds important. You'll have to speak directly to Master Vaerin about this. His tower, Tel Vaerin, stands atop Alt Bosara, south of Lake Boethiah. River striders from Llothanis can take you there.
-我懂了。出色地。听起来很重要。你必须直接与韦林大师谈论此事。他的塔楼 Tel Vaerin 矗立在波耶提亚湖以南的 Alt Bosara 山顶。来自洛萨尼斯的河黾可以带你到那里。
+###
 
 > INFO.NAME telvanni hortator 1447911287349319271
 That's a title given to a special champion and war leader among the Great Houses. Why?
-这是大家族中授予特殊冠军和战争领袖的头衔。为什么？
+###
 
 > INFO.BNAM telvanni hortator 1447911287349319271 c1
 Ask how a Hortator is chosen.
-询问如何选择统谏使。
+###
 
 > INFO.BNAM telvanni hortator 1447911287349319271 c2
 Tell your story and ask to be confirmed as Hortator.
-讲述您的故事并要求被确认为统谏使。
+###
 
 > INFO.NAME telvanni hortator 31628276862829416282
 You are Hortator of House Telvanni.
-你是泰瓦尼家族的园艺家。
+###
 
 > INFO.NAME telvanni hortator 1349750101807032310
 You have the votes of all the surviving Telvanni councilors, and are now Hortator. You should speak with Master Aryon in Tel Vos. He is the custodian of the Robe of the Hortator, which represents your office.
-你拥有所有幸存的特尔瓦尼议员的选票，现在是统谏使。你应该和特尔沃斯的阿里昂大师谈谈。他是代表你办公室的祭师长袍的保管人。
+###
 
 > INFO.NAME telvanni hortator 195559436122342464
 You have Lord Dral's vote for Hortator.
-德拉尔勋爵已将选票投给统谏使。
+###
 
 > INFO.NAME telvanni hortator 2500929416849818756
 All the Telvanni councilors must vote to choose a Hortator, and the vote must be unanimous. It's an old tradition, rarely used -- never in my lifetime. A Hortator's duty is to lead a Great House in war, and we haven't had a war in a very long time.
-所有泰瓦尼议员必须投票选出一名统谏使，并且投票必须一致。这是一个古老的传统，很少使用 -- 我一生中从未使用过。统谏使的职责是在战争中领导大家族，而我们已经很长时间没有发生战争了。
+###
 
 > INFO.NAME telvanni hortator 2932711266812222595
 I see. I have consulted with Lord Dral. He... Lord Dral's vote is cast in your favor, %PCName. Yes, you must be named Hortator. And as the surviving councilors have also voted for you, you are now the Hortator of House Telvanni. You should speak with Master Aryon in Tel Vos. He is the custodian of the Robe of the Hortator, which represents your office.
-我懂了。我已经咨询了德拉尔勋爵。他...Dral 勋爵的选票对你有利，%PCName。是的，你一定叫统谏使。由于幸存的议员也投票给了你，你现在是泰瓦尼家族的议长。你应该和特尔沃斯的阿里昂大师谈谈。他是代表你办公室的祭师长袍的保管人。
+###
 
 > INFO.NAME telvanni hortator 32243159863054325192
 I see. I have consulted with Lord Dral. He... Lord Dral's vote is cast in your favor, %PCName. Yes, you must be named Hortator of House Telvanni.
-我懂了。我已经咨询了德拉尔勋爵。他...Dral 勋爵的选票对你有利，%PCName。是的，你必须被任命为泰瓦尼家族的园艺师。
+###
 
 > INFO.NAME telvanni hortator 701327473390719807
 [After a long while, Malvas Relvani's mouth opens and silently outlines a few words.]
-[良久之后，马尔瓦斯·雷尔瓦尼张开嘴，默默勾勒出几个字。]
+###
 
 > INFO.BNAM telvanni hortator 701327473390719807 c1
 Continue
-继续
+###
 
 > INFO.NAME telvanni hortator 111983164324051545
 """Your story is concerning. You would normally have to speak to Lord Dral on a matter of such importance, but getting to him is challenging. To say the least.
 
 ... Very well. The process is as unpleasant to me as the interruption is to him, but I will bid for his attention..."""
-"""你的故事令人担忧。通常情况下，你必须就如此重要的事情与德拉尔勋爵交谈，但联系他是一项挑战。至少可以说。
-...很好。这个过程对我来说就像打扰他一样不愉快，但我会争取他的注意...... """
+###
 
 > INFO.BNAM telvanni hortator 111983164324051545 c1
 Continue
-继续
+###
 
 > INFO.NAME telvanni hortator 247782622113572991
 """Your story is concerning. You would normally have to speak to Lord Dral on a matter of such importance, but getting to him is challenging. To say the least.
 
 ... Very well. The process is as unpleasant to me as the interruption is to him, but I will bid for his attention..."""
-"""你的故事令人担忧。通常情况下，你必须就如此重要的事情与德拉尔勋爵交谈，但联系他是一项挑战。至少可以说。
-...很好。这个过程对我来说就像打扰他一样不愉快，但我会争取他的注意...... """
+###
 
 > INFO.BNAM telvanni hortator 247782622113572991 c1
 Continue
-继续
+###
 
 > INFO.NAME telvanni hortator 9510956651510264
 Yes. How inconvenient.
-是的。多么不方便啊。
+###
 
 > INFO.NAME telvanni hortator 1020591702017919833
 You'll have to speak directly to Lord Dral on a matter of such importance.
-对于如此重要的事情，你必须直接与德拉尔勋爵交谈。
+###
 
 > INFO.BNAM telvanni hortator 1020591702017919833 c1
 You know that can't be done.
-你知道这是不可能的。
+###
 
 > INFO.NAME telvanni hortator 1840193331629527315
 The situation is troublesome, if what you say is true. However, you'll have to speak directly to Lord Dral on a matter of such importance.
-如果你说的是真的的话，情况就很麻烦了。然而，对于如此重要的事情，你必须直接与德拉尔勋爵交谈。
+###
 
 > INFO.NAME telvanni hortator 20349196572368630053
 That's the traditional title given to a special champion and war leader among the Great Houses. Why are you interested?
-这是大家族中授予特殊冠军和战争领袖的传统头衔。你为什么感兴趣？
+###
 
 > INFO.BNAM telvanni hortator 20349196572368630053 c1
 Ask how a Hortator is chosen.
-询问如何选择统谏使。
+###
 
 > INFO.BNAM telvanni hortator 20349196572368630053 c2
 Tell your story and ask to be confirmed as Hortator.
-讲述您的故事并要求被确认为统谏使。
-
-> INFO.NAME telvanni hortator 11402119741660918784
-Speak with Master Aryon, Archmagister. He must give you the Robe of the Hortator.
-和阿里昂大师谈谈，大魔法师。他必须给你统谏使长袍。
+###
 
 > INFO.NAME telvanni hortator 7095151171620528009
 You gave all the councilors a hormador? No? That thing you showed me, then? I'm glad, dear, really.
-你给所有议员都注射了激素？不是吗？你给我看的那个？我很高兴，亲爱的，真的
+###
 
 > INFO.NAME telvanni hortator 474769151409031731
 So? You've got the votes of all the surviving Telvanni councilors? That's very good news. Now you are officially the Hortator of House Telvanni. Go with Azura's blessing. And do you know about the Robe of the Hortator? If not, you should speak with Master Aryon. It's a clan heirloom created for the Hortator, and you should have it to go with your office.
-怎么样？你得到了所有泰瓦尼议员的支持？真是个好消息 现在你就是泰瓦尼家族的正式统谏使了 带着阿祖拉的祝福去吧 你知道统谏使之袍吗？如果不知道，你应该和阿里昂大师谈谈 这是为统谏使打造的传家之宝 你应该把它和你的职位放在一起
+###
 
 > INFO.NAME telvanni hortator 2596722682133732133
 So? You got the votes of all the surviving Telvanni councilors? Yes, I know. That means you are Hortator of House Telvanni. But what makes you think I give a damn? Go pester Master Aryon if you want someone to talk to.
-所以呢？你得到了所有幸存的泰瓦尼议员的投票？是的，我知道 这意味着你是泰瓦尼家族的统谏使 但你凭什么认为我会在乎？如果你想找人谈谈，去缠着阿里昂大师吧
+###
 
 > INFO.NAME telvanni hortator 97061008048819821
 I see you've gathered the votes of all the surviving Telvanni councilors. I, too, am willing to vote for you as Hortator.  That means you are now the Hortator of House Telvanni. And I have something for you. It's called the "Robe of the Hortator." It is an ancient artifact, and hasn't been used in centuries. But I think you'll be pleased. I wish you luck, Hortator. I may even pray for you.
-我看到你已经获得了所有幸存泰瓦尼议员的选票。我也愿意投票选举你为统谏使。 这意味着你现在是泰瓦尼家族的统谏使了。我有东西给你，叫做 "统谏使之袍"。这是件古老的工艺品，已经有几个世纪没用过了，但我想你会满意的。祝你好运，统谏使 我甚至会为你祈祷。
+###
 
 > INFO.NAME telvanni hortator 2247352503238118193
 I see you've gathered the votes of all the surviving Telvanni councilors. That means you are now the Hortator of House Telvanni. And I have something for you. It's called the "Robe of the Hortator." It is an ancient artifact, and hasn't been used in centuries. But I think you'll be pleased. I wish you luck, Hortator. I may even pray for you.
-我看到你已经获得了所有幸存泰瓦尼议员的选票 这意味着你现在是泰瓦尼家族的统谏使了 我有东西要给你 这叫 "统谏使长袍" 它是一件古老的工艺品 已经有几个世纪没有使用过了 但我想你会满意的 祝你好运，统谏使 我甚至会为你祈祷 
+###
 
 > INFO.NAME telvanni hortator 13741314541919417508
 Mistress Rathra and Master Vaerin will also be an issue, given your affiliations with the Empire and the Temple. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你们与帝国和圣殿的关系，拉特拉夫人和维林大师也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 549224644139059594
 Mistress Rathra and Master Vaerin will also be an issue, given your affiliations with the Empire and the Temple. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你们与帝国和圣殿的关系，拉特拉夫人和维林大师也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 25232173142371717272
 Mistress Rathra and Master Vaerin will also be an issue, given your ties with the Empire and the Temple. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你们与帝国和圣殿的关系，拉特拉夫人和维林大师也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 296673567227811994
 Mistress Rathra and Master Vaerin will also be an issue, given your ties with the Empire and the Temple. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你们与帝国和圣殿的关系，拉特拉夫人和维林大师也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 20990293361482230812
 Mistress Rathra and Master Vaerin will also be an issue, given your ties with the Empire and the Temple. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你们与帝国和圣殿的关系，拉特拉夫人和维林大师也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 1686816753253421260
 Mistress Rathra will also be an issue, given your affiliation with the Empire. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Master Vaerin habitually takes issue with the Temple. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你与帝国的关系，拉特拉女主人也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。维林大师经常与圣殿发生争执。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 2792019854673432095
 Mistress Rathra will also be an issue, because you are an Imperial. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Master Vaerin habitually takes issue with the Temple. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-拉特拉女士也会成为一个问题，因为你是帝国人。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。维林大师经常与圣殿发生争执。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 1913012758305977282
 Mistress Rathra will also be an issue, given your ties with the Imperial Mages Guild. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Master Vaerin habitually takes issue with the Temple. Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你与帝国法师公会的关系，拉瑟拉大人也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。维林大师经常与圣殿发生争执。艾尔代尔女士是议会的新人，这使得她更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 1186366132054626932
 Master Vaerin will also be an issue, given your affiliation with the Temple. Yes, they may seem less directly concerned, but you will still need the votes of the mainland Telvanni councilors. Mistress Faruna and Master Mithras are not often involved in political matters. Mistress Rathra resents Imperial influence. Her ally Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to convince his Mouth.
-考虑到你与圣殿的关系，维林大师也会成为一个问题。是的，他们可能看起来不太直接相关，但你仍然需要大陆泰瓦尼议员的投票。法鲁娜夫人和密特拉大师并不经常参与政治事务。拉特拉夫人对帝国的影响深感不满。她的盟友埃尔代尔大人是议会的新人，这让她变得更难以预测。据了解，大法师德拉尔并不在世界世界，所以你必须说服他的代言人。
+###
 
 > INFO.NAME telvanni hortator 1959082081349730736
 The Telvanni councilors on the mainland may seem less directly concerned, but you will still need their votes. Mistress Faruna and Master Mithras are not often involved in political matters, and Master Vaerin habitually takes issue with the Temple. Mistress Rathra resents Imperial influence. Her ally Mistress Eldale is new to the council, which makes her less predictable. Archmagister Dral isn't known to be in the Mundus, so you will have to speak to his Mouth.
-大陆的泰瓦尼议员似乎不太直接关心，但你仍然需要他们的选票。法鲁娜女主人和密特拉大师并不经常卷入政治事务，而维林大师则习惯性地与圣殿发生争执。拉特拉夫人对帝国的影响深感不满。她的盟友埃尔代尔大人是议会的新人，这让她变得更难以预测。据了解，大魔导师 Dral 并不在 Mundus，所以你必须和他说话。
+###
 
 > INFO.NAME telvanni hortator 80314179200425331
 Yes, I understand. You are willing to take the responsibility, and I am willing to vote for you as Hortator. I think most of the other Telvanni councilors will also cooperate, though some might need a little persuading. Master Neloth is ill-tempered, Mistress Dratha doesn't like men, and Mistress Therana is losing her mind. Archmagister Gothren is another problem. He will not refuse you directly, but will delay indefinitely. I recommend that you kill Archmagister Gothren.
-是的我明白。你愿意承担责任，我也愿意投票给你作为统谏使。我认为大多数其他泰瓦尼议员也会合作，尽管有些人可能需要一点说服。内洛斯大师脾气暴躁，德拉萨女士不喜欢男人，塞拉娜女士正在失去理智。大法师哥斯伦是另一个问题。他不会直接拒绝你，而是会无限期地拖延。我建议你杀死大法师哥斯伦。
+###
 
 > INFO.BNAM telvanni hortator 80314179200425331 c1
 Continue
-继续
+###
 
 > INFO.NAME telvanni hortator 24146129921676320852
 Yes, I understand. You are willing to take the responsibility, and I am willing to vote for you as Hortator. I think most of the other Telvanni councilors will also cooperate, though some might need a little persuading. Master Neloth is ill-tempered and Mistress Therana is losing her mind. You are not a male, so Mistress Dratha will like you. Archmagister Gothren is another problem. He will not refuse you directly, but will delay indefinitely. I recommend that you kill Archmagister Gothren.
-是的我明白。你愿意承担责任，我也愿意投票给你作为统谏使。我认为大多数其他泰瓦尼议员也会合作，尽管有些人可能需要一点说服。内洛斯大师脾气暴躁，塞拉娜女士则失去了理智。你不是男性，所以德拉萨女士会喜欢你的。大法师哥斯伦是另一个问题。他不会直接拒绝你，而是会无限期地拖延。我建议你杀死大法师哥斯伦。
+###
 
 > INFO.BNAM telvanni hortator 24146129921676320852 c1
 Continue
-继续
+###
 
 > INFO.NAME zainab nerevarine 24984167021756818780
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. If it had been part of the traditional struggles for tribal leadership, it would not have been dishonorable. But you slew a tribal leader for your own interests, not for the good of the tribe, and the Ashlanders will not accept such a foul murderer as their Nerevarine.
-既然你杀死了灰烬部落的一位首领，你就不可能被认为是预言中的尼瑞瓦林。如果这是争夺部落领导权的传统斗争的一部分，那就不会是不光彩的了。但你为了自己的利益而杀害了部落首领，而不是为了部落的利益，灰烬之地人不会接受这样一个邪恶的凶手作为他们的尼瑞瓦林。 {尼瑞瓦因}
+###
 
 > INFO.NAME zainab nerevarine 518828099127173574
 You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.
-你已被瓦登费尔的四个部落任命为尼瑞瓦因。你已经完成了预言的一部分。乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙，都称你为尼瑞瓦因。你完成了七大异象的第五个试炼。
+###
 
 > INFO.NAME zainab nerevarine 2124324789138728996
 You have been named Zainab Nerevarine. You have fulfilled one part of that prophecy. But you must be named Nerevarine by four Ashlander tribes before you have fulfilled the Fifth Trial.
-你被命名为哉纳布的尼瑞瓦因。你已经实现了预言的一部分。但在你完成第五个试炼之前，你必须被所有四个灰烬之民之地，乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙任命为尼瑞瓦因。
+###
 
 > INFO.NAME telvanni bride 1772430844181427661
 This is my new bride? I am very pleased with your gift, %PCName... though she is not so generous in the hips as I would like. I promise to make her a happy bride, and to do her honor as a high-born Telvanni lady. And, as I have said, I will now name you Zainab Nerevarine, War Leader of the Zainab, and Protector of the People. I must also give you the Zainab Thong, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Zainab have named you Nerevarine.
-这就是我的新婚妻子？我对你的礼物很满意，%PCName......虽然她的臀部没有我想要的那么丰满。我保证会让她成为一个幸福的新娘，让她成为泰瓦尼高贵的夫人。而且，正如我所说的，我现在让你成为哉纳布的尼瑞瓦因，哉纳布的战争领袖，人民的保护者。我还必须把哉纳布之鞭梢交给你，这是一件附魔的部落传家之宝，它将向所有丹莫人表明，哉纳布人已经任命你为尼瑞瓦因。 {沙尔}
+###
 
 > INFO.NAME ishanuran camp 2593214871233620819
 Ishanuran camp is located far to the south, in the wastes of Armun on the mainland. Let me mark it on your map.
-伊尚努兰营地位于遥远的南部，大陆上阿蒙的废土中。让我在你的地图上标记它。
+###
 
 > INFO.NAME obainat camp 540810543161977151
 The Obainat camp is on the mainland, west of the river Thirr, nestled in the mountains between the Armun Ashlands and the Hlaalu plantations.
-奥巴伊纳特营地位于大陆上，蒂尔河以西，坐落在阿蒙阿什兰和哈拉鲁种植园之间的山脉中。
+###
 
 > INFO.NAME fifth trial 2664515124226204483
 Thus are joined four tribes of the Ashlanders under one leader, %PCName, the Nerevarine. and together we will hunt the creatures of Dagoth Ur.
-灰烬之民的四个部落 就这样在尼瑞瓦因的领导下联合起来了 阿希穆萨、哉纳布、埃勒比尼姆孙和乌尔希拉库将一起猎杀达格斯·乌尔的生物。
+###
 
 > INFO.NAME fifth trial 6591144992537117246
 The Fifth Trial is to join four tribes of the Ashlanders under the Nerevarine. They must put aside pride and tribal squabbles and together face the blighted hosts of Dagoth Ur. The Urshilaku shall name you Nerevarine, but you must concern yourself with the other tribes: the meek Ahemmusa, the wily Zainab, the war-loving Erabenimsun, the tenacious Ishanuran, and the foundling Obainat. They may not be so quick in naming the Nerevarine as the Urshilaku.
-第五个试炼是成为灰烬之民的四个部落的尼瑞瓦因。他们必须放下自尊和部落纷争，共同面对达格斯·乌尔的枯萎之症。乌尔希拉库将任命你为尼瑞瓦因，但你必须去其他部落：温顺的阿希穆萨、狡猾的哉纳布和好战的埃勒比尼姆孙。他们可能不会像乌尔希拉库一样那么快就将你任命为尼瑞瓦因。 {伊尚努兰,奥巴伊纳特}
+###
 
 > INFO.NAME fifth trial 28005266921576122606
 You have been named Nerevarine by four Ashlander tribes. You have fulfilled that part of the prophecy. You have fulfilled the Fifth Trial of the Seven Visions.
-你已被瓦登费尔的四个部落任命为尼瑞瓦因。你已经完成了预言的一部分。乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙，都称你为尼瑞瓦因。你完成了七大异象的第五个试炼。
+###
 
 > INFO.NAME fifth trial 28489239331556417029
 The Fifth Trial is: 'A stranger's hand unites the Velothi/Four Tribes call him Nerevarine.'  The Four Tribes are the four tribes of Vvardenfell, the Urshilaku, the Ahemmusa, the Zainab, and the Erabenimsun, as well as the tribes of the mainland, the Ishanuran and the Obainat. When you have been named 'Nerevarine' by four Ashlander tribes, come to me for further guidance, for you will have passed the Fifth Trial.
-第五个试炼是："“异客”之手团结了维洛西人/四大部落称他为尼瑞瓦因。 四大部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当你被瓦登费尔的四个灰烬之民部落分别任命为“尼瑞瓦因”时，来找我寻求进一步的指导，因为你已经通过了第五次试炼。 {伊尚努兰,奥巴伊纳特}
+###
 
 > INFO.NAME fifth trial 243942581231727101
 The Ashlanders are sometimes called the Velothi, for the prophet Veloth who guided us to this land many, many centuries ago. And though there are many more than Four Tribes, tt would truly be a miracle to unite even four who have so long raided and warred with one another. But the Nerevarine must be one who performs miracles.
-灰烬之民有时也被称作维洛西，因为许多许多年前，先知维洛斯指引我们来到这片土地。四部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。长期以来，这四个部落之间相互袭扰、相互征战，若能将他们团结起来，确实是一个奇迹。但尼瑞瓦因一定是创造奇迹的人。
+###
 
 > INFO.NAME rilvin dral 24926317552762626159
 Yes, he has been out of reach for a long time. You would normally have to bid for his Mouth's approval, but since the latter is now out of the picture as well, there is no one to oppose your claim for his vote.
-是的，他已经很久没有联系到了。通常情况下，你必须争取他的代言人巴的批准，但由于后者现在也不再被考虑，所以没有人反对你要求他投票。
+###
 
 > INFO.NAME rilvin dral 19151168553274821969
 Yes, he has been out of reach for a long time. It suspect his Mouth is the one you will need to convince.
-是的，他已经很久没有联系到了。它怀疑你需要说服的是他的代言人。
+###
 
 > INFO.NAME rilvin dral 1285380031218317198
 Archmagister Dral has not been seen in recent times. His Mouth Malvas Relvani is dead and therefore will not oppose you.
-最近一段时间没有见到大法师德拉尔。他的代言人马尔瓦斯·雷尔瓦尼已经死了，因此不会反对你。
+###
 
 > INFO.NAME rilvin dral 15101229852789621287
 Archmagister Dral has not been seen in recent times. Talk to his Mouth, Mage Malvas Relvani, in the Council House of Port Telvannis.
-最近一段时间没有见到大法师德拉尔。在特尔瓦尼斯港议会大厦与他的代言人，法师马尔瓦斯·雷瓦尼交谈。
+###
 
 > INFO.NAME nerevarine 18847189093137628129
 You have been named Nerevarine by four tribes of the Ashlanders. You have fulfilled the Fifth Trial of the Seven Visions.
-你已被瓦登费尔的四个部落任命为尼瑞瓦因。你已经完成了预言的一部分。乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙，都称你为尼瑞瓦因。你完成了七大异象的第五个试炼。
+###
 
 > INFO.NAME nerevarine 290382292946215260
 Sul-Matuul has named you Urshilaku Nerevarine. But until you have been named Nerevarine by four trbes of the Ashlanders, you have not passed the Fifth Trial.
-苏尔-玛图尔给你任命为乌尔希拉库的尼瑞瓦因。但在你被任命为阿希穆萨的尼瑞瓦因、哉纳布的尼瑞瓦因和埃勒比尼姆孙的尼瑞瓦因之前，你还没有通过第五个试炼。
+###
 
 > INFO.NAME nerevarine 188218893783614073
 In times of great danger, the Ashlander tribes unite under a single war leader. If you can prove to four tribes that you are the Nerevarine, and that the tribes must unite against the threat of the Sixth House, then each ashkhan will declare you 'Nerevarine' and war leader of all tribes. You must go to all the tribal ashkhans, but go first to Sul-Matuul, who is your friend, and who will surely grant you the honor.
-在面临巨大危险的时候，灰烬之民的四个部落会团结在一个战争领袖之下。如果你能向乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙部落证明你就是尼瑞瓦因，而且部落必须联合起来对抗第六家族的威胁，那么每个灰烬可汗都会宣布你为“尼瑞瓦因”，并成为所有部落的战争领袖。你必须去找所有部落的灰烬可汗，但要先去找苏尔-玛图尔，他是你的朋友，一定会授予你这一荣誉。
+###
 
 > INFO.NAME ishanuran 31541106072975622944
 The Ishanuran of Armun Ashlands on the mainland are solemn and respectful to Ashlander custom. Long presumed dead in the past, they are nevertheless the last of the established Ashlander tribes of Armun. Seek counsel of their Ashkhan Mibdinahaz and wise woman Yan-Ahhe in Ishanuran camp.
-大陆上阿蒙阿什兰的伊沙努兰人对阿什兰人的风俗肃穆而尊重。长期以来，他们被认为已经死亡，但他们仍然是阿蒙的最后一个已建立的灰烬部落。在伊尚努兰营地向他们的阿什汗·米布迪纳哈兹和智者雅赫赫寻求建议。 {伊尚努兰}
+###
 
 > INFO.NAME ishanuran 17325107393060012873
 The Ishanuran of Armun Ashlands on the mainland is an ancient traditionalist and long-established tribe. Their Ashkhan Mibdinahaz is harsh and solemn, but fair in his judgements. Yan-Ahhe is their Wise Woman.
-大陆阿蒙阿什兰的伊沙努兰人是一个古老的传统主义和历史悠久的部落。他们的阿什汗·米布迪纳哈斯严厉而严肃，但他的判断却很公正。燕阿赫是他们的女智者。 {伊尚努兰}
+###
 
 > INFO.NAME obainat 13832117621894230387
 The Obainat of the Roth Roryn on the mainland are newfound and disjoint. Formed from numerous smaller tribes, the clan is yet to obtain its ancestors and stable leadership.
-大陆上的罗斯罗林的奥贝纳特是新发现的且不连贯的。该氏族由众多较小的部落组成，尚未获得祖先和稳定的领导权。 {奥巴伊纳特}
+###
 
 > INFO.NAME obainat 28155257001209132062
 The foundling Obainat of the Roth Roryn on the mainland represent a union between numerous smaller tribes of Adairenat, Damanu, Harambub and Yeshorbat, brought together by askhan Asha-tara Undunbael in Obainat camp. If you can help them establish their tribe's identity, they might welcome you as a clan friend.
-大陆上罗斯罗林的弃儿奥拜纳特代表了阿代雷纳特、达马努、哈兰布布和耶肖巴特等众多小部落之间的联盟，这些部落由奥巴伊纳特营地的阿斯汗·阿莎塔拉·温顿巴尔聚集在一起。如果您可以帮助他们建立部落的身份，他们可能会欢迎您作为部落朋友。 {奥巴伊纳特}
+###
 
 > INFO.NAME chores 1976674042054926373
 You are still after the status of Telvanni Hortator. That takes precedence. You can concern yourself with chores after the matter is resolved.
-您仍在追求 泰瓦尼统谏使 的地位。这是优先的。问题解决后你就可以自己处理家务了。 {杂务}
+###
 
 > INFO.NAME chores 1898116688849216552
 Lord Dral is absent, and you've been inquiring about the Telvanni Hortator. We may talk of chores after this is over.
-德拉尔勋爵不在，而你一直在询问泰瓦尼统谏使的事。等这一切结束后，我们可能会谈论家务事。 {杂务}
+###
 
 > INFO.NAME chores 3058211202287012045
 Lord Dral is absent. I may have chores for you later.
-德拉尔勋爵缺席。稍后我可能会给你做家务。 {杂务}
+###
 
