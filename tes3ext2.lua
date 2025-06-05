@@ -4,30 +4,30 @@
 -- luajit tes3ext2.lua _.ext.txt ext2
 
 local tags = {
-	["ACTI.FNAM"] = true, -- Д╩╔Д╦▀И╩≤Х╝╓Е█∙Д╦╙Ф√┤Д╩╤,Ф√┤Д╩╤Е░█Ф≤╞Е┴█4Е╜≈Ф╞█Г └Г╠╩Е░█,Е┘╤Д╦╜Ф╞▐Х║▄Д╦─Ф²║(Ф▌▓Е╨▐,Д╦█И┤█Е╓█),Ф┴╘Е╠∙Е░█:.txt
+	["ACTI.FNAM"] = true, -- ртобд╛хо╣╔╦Жнд╪Ч,нд╪ЧцШйгг╟4вжд╦╣дюЮцШ,фДжпц©ппр╩лУ(еепР,╡╩жь╦╢),ю╘у╧цШ:.txt
 	["ALCH.FNAM"] = true,
 	["APPA.FNAM"] = true,
 	["ARMO.FNAM"] = true,
 	["BOOK.FNAM"] = true,
-	["BOOK.TEXT"] = "BOOK", -- Е╜░Г⌡╝Е╫∙:BOOK,Ф╞▐Ф²║Д╦─Д╦╙Ф√┤Д╩╤,Ф√┤Д╩╤Е░█Ф≤╞BOOKГ └key(BOOK.NAME),Ф┴╘Е╠∙Е░█:.txt
-	["CLAS.FNAM"] = true, -- Д╩┘TDФ°┴
-	["CLAS.DESC"] = true, -- Д╩┘TDФ°┴
+	["BOOK.TEXT"] = "BOOK", -- всд©б╪:BOOK,ц©лУр╩╦Жнд╪Ч,нд╪ЧцШйгBOOK╣дkey(BOOK.NAME),ю╘у╧цШ:.txt
+	["CLAS.FNAM"] = true, -- ╫ЖTDсп
+	["CLAS.DESC"] = true, -- ╫ЖTDсп
 	["CLOT.FNAM"] = true,
 	["CONT.FNAM"] = true,
 	["CREA.FNAM"] = true,
 	["DOOR.FNAM"] = true,
 	["FACT.FNAM"] = true,
 	["FACT.RNAM"] = true,
-	["INFO.NAME"] = "INFO", -- Е╜░Г⌡╝Е╫∙:INFO,Ф√┤Д╩╤Е░█Ф≤╞Е┘ЁИ■╝Х╞█Е▌÷Ф√┤(DIAL.NAME),Е┘╤Д╦╜Ф╞▐Х║▄Д╦─Ф²║,Ф┴╘Е╠∙Е░█:.k|e.txt
-	["INFO.BNAM"] = "INFO", -- Е╜░Г⌡╝Е╫∙:INFO,Ф√┤Д╩╤Е░█Ф≤╞Е┘ЁИ■╝Х╞█Е▌÷Ф√┤(DIAL.NAME),Е┘╤Д╦╜Ф╞▐Х║▄Д╦─Ф²║,Ф┴╘Е╠∙Е░█:.k|e.txt
+	["INFO.NAME"] = "INFO", -- всд©б╪:INFO,нд╪ЧцШйг╧ь╪Э╢йт╜нд(DIAL.NAME),фДжпц©ппр╩лУ,ю╘у╧цШ:.k|e.txt
+	["INFO.BNAM"] = "INFO", -- всд©б╪:INFO,нд╪ЧцШйг╧ь╪Э╢йт╜нд(DIAL.NAME),фДжпц©ппр╩лУ,ю╘у╧цШ:.k|e.txt
 	["INGR.FNAM"] = true,
 	["LIGH.FNAM"] = true,
 	["LOCK.FNAM"] = true,
 	["MISC.FNAM"] = true,
 	["NPC_.FNAM"] = true,
 	["PROB.FNAM"] = true,
-	["RACE.FNAM"] = true, -- Д╩┘TDФ°┴
-	["RACE.DESC"] = true, -- Д╩┘TDФ°┴
+	["RACE.FNAM"] = true, -- ╫ЖTDсп
+	["RACE.DESC"] = true, -- ╫ЖTDсп
 	["REGN.FNAM"] = true,
 	["REPA.FNAM"] = true,
 	["SCPT.SCTX"] = true,
@@ -99,6 +99,7 @@ for line in io.lines(arg[1]) do
 						if not kw then
 							error("ERROR: invalid key: '" .. k .. "'")
 						end
+						kw = kw:gsub(":", "ё╨")
 						t = all[tag1][kw]
 						if not t then
 							t = {}
