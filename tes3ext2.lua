@@ -3,26 +3,34 @@
 -- md ext2\INFO
 -- luajit tes3ext2.lua _.ext.txt ext2
 
-local tags = { -- 考虑当做专有名词的有: .FNAM; .RNAM; 关键词(DIAL.NAME); 地名(CELL.NAME)
-	["ACTI.FNAM"] = true, -- 以下默认单个文件,文件名是前4字母的类名,其中每行一条(排序,不重复),扩展名:.txt
+-- 考虑当做专有名词的有: *.FNAM; *.RNAM; 关键词(DIAL.NAME); 地名(CELL.NAME)
+-- 参考专有名词再翻译的: RACE.DESC; CLAS.DESC; SCPT.SCTX; INFO.NAME/BNAM; BOOK.TEXT
+local tags = {
+	["ACTI.FNAM"] = true, -- 以下默认单个文件,文件名是前4字母的类名,其中每行一条(排序,不重复),扩展名:.txt,翻译后扩展名:.c.txt
 	["ALCH.FNAM"] = true,
 	["APPA.FNAM"] = true,
 	["ARMO.FNAM"] = true,
 	["BOOK.FNAM"] = true,
-	["BOOK.TEXT"] = "BOOK", -- 子目录:BOOK,每条一个文件,文件名是BOOK的key(BOOK.NAME),扩展名:.txt
+	["BOOK.TEXT"] = "BOOK", -- 子目录:BOOK,每条一个文件,文件名是BOOK的key(BOOK.NAME),扩展名:.txt,翻译后扩展名:.c.txt
+--	["BSGN.FNAM"] = true,
+--	["CELL.NAME"] = true,
 	["CLAS.FNAM"] = true, -- 仅TD有
 	["CLAS.DESC"] = true, -- 仅TD有
 	["CLOT.FNAM"] = true,
 	["CONT.FNAM"] = true,
 	["CREA.FNAM"] = true,
+--	["DIAL.NAME"] = true,
 	["DOOR.FNAM"] = true,
+--	["ENCH.????"] = true,
 	["FACT.FNAM"] = true,
 	["FACT.RNAM"] = true,
-	["INFO.NAME"] = "INFO", -- 子目录:INFO,文件名是关键词原文(DIAL.NAME),其中每行一条,扩展名:.k|e.txt
-	["INFO.BNAM"] = "INFO", -- 子目录:INFO,文件名是关键词原文(DIAL.NAME),其中每行一条,扩展名:.k|e.txt
+--	["GMST.STRV"] = true,
+	["INFO.NAME"] = "INFO", -- 子目录:INFO,文件名是关键词原文(DIAL.NAME),其中每行一条,扩展名:.k|e.txt,翻译后扩展名:.c.txt
+	["INFO.BNAM"] = "INFO", -- 同上
 	["INGR.FNAM"] = true,
 	["LIGH.FNAM"] = true,
 	["LOCK.FNAM"] = true,
+--	["MGEF.DESC"] = true,
 	["MISC.FNAM"] = true,
 	["NPC_.FNAM"] = true,
 	["PROB.FNAM"] = true,
@@ -31,6 +39,7 @@ local tags = { -- 考虑当做专有名词的有: .FNAM; .RNAM; 关键词(DIAL.NAME); 地名(CE
 	["REGN.FNAM"] = true,
 	["REPA.FNAM"] = true,
 	["SCPT.SCTX"] = true,
+--	["SKIL.DESC"] = true,
 	["SPEL.FNAM"] = true,
 	["WEAP.FNAM"] = true,
 }

@@ -332,7 +332,7 @@ DOOR: 140+95+87                -> 139   NAME -> FNAM       传送门名
 ENCH: 708+42+46                -> 708   NAME -> ????       ????
 FACT: 22+2+3                   -> 22    NAME -> FNAM,RNAM  家族名,家族成员名
 GMST: 1449+102+101    -> 1220  -> 1521  NAME -> STRV       全局字符串,界面文字(PNAM,NNAM->NAME)
-INFO: 23693+6504+6757 -> 23690 -> 23692 INAM -> NAME       普通对话
+INFO: 23693+6504+6757 -> 23690 -> 23692 INAM -> NAME,BNAM  普通对话
 INGR: 95+26+12                 -> 95    NAME -> FNAM       炼金材料名
 LIGH: 574+74+44                -> 574   NAME -> FNAM       灯源名
 LOCK: 6                        -> 6     NAME -> FNAM       开锁器名
