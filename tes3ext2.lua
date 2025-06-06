@@ -3,7 +3,7 @@
 -- md ext2\INFO
 -- luajit tes3ext2.lua _.ext.txt ext2
 
-local tags = {
+local tags = { -- 考虑当做专有名词的有: .FNAM; .RNAM; 关键词(DIAL.NAME); 地名(CELL.NAME)
 	["ACTI.FNAM"] = true, -- 以下默认单个文件,文件名是前4字母的类名,其中每行一条(排序,不重复),扩展名:.txt
 	["ALCH.FNAM"] = true,
 	["APPA.FNAM"] = true,
@@ -34,7 +34,7 @@ local tags = {
 	["SPEL.FNAM"] = true,
 	["WEAP.FNAM"] = true,
 }
-local newLineMark = "<n/>"
+local newLineMark = "<n/>" -- 主要出现在INFO里的txt中
 
 local function readStrExt(line, isFirst)
 	if isFirst then
@@ -99,7 +99,6 @@ for line in io.lines(arg[1]) do
 						if not kw then
 							error("ERROR: invalid key: '" .. k .. "'")
 						end
-						kw = kw:gsub(":", "：")
 						t = all[tag1][kw]
 						if not t then
 							t = {}
@@ -140,7 +139,7 @@ for tag, st in pairs(all) do
 		print "OK!"
 	elseif tag == "INFO" then
 		for key, kes in pairs(st) do
-			local fn = arg[2] .. "/INFO/" .. key
+			local fn = arg[2] .. "/INFO/" .. key:gsub(":", "：")
 			io.write("creating '", fn, ".k|e.txt' ... ")
 			local fk = io.open(fn .. ".k.txt", "wb")
 			local fe = io.open(fn .. ".e.txt", "wb")
@@ -157,7 +156,7 @@ for tag, st in pairs(all) do
 		end
 	elseif tag == "BOOK" then
 		for k, e in pairs(st) do
-			local fn = arg[2] .. "/BOOK/" .. k .. ".txt"
+			local fn = arg[2] .. "/BOOK/" .. k:gsub(":", "：") .. ".txt"
 			io.write("creating '", fn, "' ... ")
 			local f = io.open(fn, "wb")
 			if not f then
