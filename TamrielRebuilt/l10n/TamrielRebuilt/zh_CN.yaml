@@ -1,10 +1,10 @@
-TamrielRebuilt_modName: "Tamriel Rebuilt"
+TamrielRebuilt_modName: "泰姆瑞尔重建"
 
-Settings_TamrielRebuilt_Description: "Tamriel Data OpenMW Lua addon configuration."
-Settings_TamrielRebuilt_MiscName: "Miscellaneous"
-Settings_TamrielRebuilt_FiremothCompWarning: "Firemoth Compatibility Warning"
-Settings_TamrielRebuilt_FiremothCompDescription: "Provides a warning upon starting the game with Tamriel Rebuilt and an incompatible Firemoth plugin."
-FiremothCompWarning: "Tamriel Rebuilt contains its own improved version of Fort Firemoth and its quests,
-  which is incompatible with other plugins that add or modify the Siege of Firemoth.
-  Please either deactivate {plugin}, use the Firemoth remover plugin provided on Tamriel Rebuilt's Nexus page and website,
-  or use a patch made specifically for your preferred Firemoth mod if it exists."
+Settings_TamrielRebuilt_Description: "泰姆瑞尔数据 OpenMW Lua 附加配置。"
+Settings_TamrielRebuilt_MiscName: "杂项"
+Settings_TamrielRebuilt_FiremothCompWarning: "火蛾兼容性警告"
+Settings_TamrielRebuilt_FiremothCompDescription: "在启动带有泰姆瑞尔重建和不兼容火蛾插件的游戏时，会发出警告。"
+FiremothCompWarning: "“泰姆瑞尔重建”包含其自身改进版的火蛾堡及其相关任务，
+  这与其它添加或修改“火蛾围攻”的插件不兼容。
+  请停用{plugin}，使用泰姆瑞尔重建在Nexus页面和网站上提供的火蛾移除器插件，
+  或使用专门为你偏好的火蛾模组而制作的补丁，如果有的话。"
