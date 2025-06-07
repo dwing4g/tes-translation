@@ -12,7 +12,8 @@ local tags = {
 	["ARMO.FNAM"] = true,
 	["BOOK.FNAM"] = true,
 	["BOOK.TEXT"] = "BOOK", -- 子目录:BOOK,每条一个文件,文件名是BOOK的key(BOOK.NAME),扩展名:.txt,翻译后扩展名:.c.txt
---	["BSGN.FNAM"] = true,
+	["BSGN.FNAM"] = true,
+	["BSGN.DESC"] = true,
 --	["CELL.NAME"] = true,
 	["CLAS.FNAM"] = true, -- 仅TD有
 	["CLAS.DESC"] = true, -- 仅TD有
@@ -24,13 +25,13 @@ local tags = {
 --	["ENCH.????"] = true,
 	["FACT.FNAM"] = true,
 	["FACT.RNAM"] = true,
---	["GMST.STRV"] = true,
+	["GMST.STRV"] = true, -- 只有一部分会用于专有名词
 	["INFO.NAME"] = "INFO", -- 子目录:INFO,文件名是关键词原文(DIAL.NAME),其中每行一条,扩展名:.k|e.txt,翻译后扩展名:.c.txt
 	["INFO.BNAM"] = "INFO", -- 同上
 	["INGR.FNAM"] = true,
 	["LIGH.FNAM"] = true,
 	["LOCK.FNAM"] = true,
---	["MGEF.DESC"] = true,
+	["MGEF.DESC"] = true,
 	["MISC.FNAM"] = true,
 	["NPC_.FNAM"] = true,
 	["PROB.FNAM"] = true,
@@ -39,7 +40,7 @@ local tags = {
 	["REGN.FNAM"] = true,
 	["REPA.FNAM"] = true,
 	["SCPT.SCTX"] = true,
---	["SKIL.DESC"] = true,
+	["SKIL.DESC"] = true,
 	["SPEL.FNAM"] = true,
 	["WEAP.FNAM"] = true,
 }
@@ -92,7 +93,7 @@ for line in io.lines(arg[1]) do
 				s = r and 2 or 3
 			else
 				local t, r = readStrExt(line, s == 3)
-				-- v2 = v2 and (v2 .. "\n" .. t) or t
+				v2 = v2 and (v2 .. "\n" .. t) or t
 				if r then
 					s = 4
 				else
@@ -102,7 +103,7 @@ for line in io.lines(arg[1]) do
 						error("ERROR: duplicated key '", k, "' for tag '", tag, "'")
 					end
 					if tag1 ~= "INFO" then
-						all[tag1][k] = v1
+						all[tag1][k] = { k, v1, v2 }
 					else
 						local kw, kx = k:match(tag == "INFO.NAME" and "^(.+) (%d+)$" or "^(.+) (%d+ %w+)$")
 						if not kw then
@@ -124,9 +125,16 @@ for line in io.lines(arg[1]) do
 end
 print "OK!"
 
+local fn = arg[2] .. "/terms.csv"
+io.write("creating '", fn, "' ... ")
+local ft = io.open(fn, "wb")
+if not ft then
+	error "ERROR: can not create"
+end
 for tag, st in pairs(all) do
 	if tags[tag] == true then
-		local fn = arg[2] .. "/" .. tag .. ".txt"
+		local isTerm = tag:find "%.[FR]NAM$"
+		fn = arg[2] .. "/" .. tag .. ".txt"
 		io.write("creating '", fn, "' ... ")
 		local f = io.open(fn, "wb")
 		if not f then
@@ -134,21 +142,35 @@ for tag, st in pairs(all) do
 		end
 		local set = {}
 		local es = {}
-		for _, e in pairs(st) do
+		for _, a in pairs(st) do
+			local e = a[2]
 			if not set[e] and e:find "%a" then
 				set[e] = true
-				es[#es + 1] = e
+				es[#es + 1] = a
 			end
 		end
-		table.sort(es)
-		for _, e in ipairs(es) do
-			f:write(e, "\n")
+		table.sort(es, isTerm
+			and function(a1, a2) return a1[2] < a2[2] end
+			or  function(a1, a2) return a1[1] < a2[1] end)
+		for _, a in ipairs(es) do
+			local term = a[2]
+			if isTerm then
+				local trans = a[3]
+				local note = tag -- .. " " .. a[1]
+				if	term:find ','  or trans:find ','  or note:find ',' or
+					term:find '^"' or trans:find '^"' then
+					ft:write('"', term:gsub('"', '""'), '","', trans:gsub('"', '""'), '","', note:gsub('"', '""'), '"\n')
+				else
+					ft:write(term, ',', trans, ',', note, '\n')
+				end
+			end
+			f:write(term, "\n")
 		end
 		f:close()
 		print "OK!"
 	elseif tag == "INFO" then
 		for key, kes in pairs(st) do
-			local fn = arg[2] .. "/INFO/" .. key:gsub(":", "：")
+			fn = arg[2] .. "/INFO/" .. key:gsub(":", "：")
 			io.write("creating '", fn, ".k|e.txt' ... ")
 			local fk = io.open(fn .. ".k.txt", "wb")
 			local fe = io.open(fn .. ".e.txt", "wb")
@@ -164,18 +186,19 @@ for tag, st in pairs(all) do
 			print "OK!"
 		end
 	elseif tag == "BOOK" then
-		for k, e in pairs(st) do
-			local fn = arg[2] .. "/BOOK/" .. k:gsub(":", "：") .. ".txt"
+		for k, a in pairs(st) do
+			fn = arg[2] .. "/BOOK/" .. k:gsub(":", "：") .. ".txt"
 			io.write("creating '", fn, "' ... ")
 			local f = io.open(fn, "wb")
 			if not f then
 				error "ERROR: can not create"
 			end
-			f:write(e)
+			f:write(a[2])
 			f:close()
 			print "OK!"
 		end
 	end
 end
+ft:close()
 
 print "DONE!"
