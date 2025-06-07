@@ -3,7 +3,7 @@
 -- md ext2\INFO
 -- luajit tes3ext2.lua _.ext.txt ext2
 
--- 考虑当做专有名词的有: *.FNAM; *.RNAM; 关键词(DIAL.NAME); 地名(CELL.NAME)
+-- 考虑当做专有名词的有: *.FNAM; *.RNAM; 关键词(DIAL.NAME); 地名(CELL.NAME); 地名和人名需要考虑分解单词
 -- 参考专有名词再翻译的: RACE.DESC; CLAS.DESC; SCPT.SCTX; INFO.NAME/BNAM; BOOK.TEXT
 local tags = {
 	["ACTI.FNAM"] = true, -- 以下默认单个文件,文件名是前4字母的类名,其中每行一条(排序,不重复),扩展名:.txt,翻译后扩展名:.c.txt

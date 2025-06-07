@@ -41,7 +41,7 @@ Ald Daedroth, Left Wing	奥德-迪德洛斯，左殿
 Ald Daedroth, Outer Shrine	奥德-迪德洛斯，外部圣祠
 Ald Daedroth, Right Wing	奥德-迪德洛斯，右殿
 Ald Redaynia	奥德-瑞达尼亚
-Ald Redaynia, Tower	奥德-瑞达尼亚，高塔
+Ald Redaynia, Tower	奥德-瑞达尼亚，塔楼
 Ald Sotha	奥德-索萨
 Ald Sotha, Lower Level	奥德-索萨，下层
 Ald Sotha, Shrine	奥德-索萨，圣祠
@@ -79,8 +79,8 @@ Ald-ruhn, Galthragoth's House	奥德-汝因，加斯拉格斯的房子
 Ald-ruhn, Gildan's House	奥德-汝因，吉尔丹的房子
 Ald-ruhn, Gindrala Hleran's House	奥德-汝因，金德拉·勒兰的房子
 Ald-ruhn, Goras Andrelo's House	奥德-汝因，格拉斯·安德雷罗的房子
-Ald-ruhn, Guard Tower 1	奥德-汝因，一号卫兵塔
-Ald-ruhn, Guard Tower 2	奥德-汝因，二号卫兵塔
+Ald-ruhn, Guard Tower 1	奥德-汝因，卫兵塔1
+Ald-ruhn, Guard Tower 2	奥德-汝因，卫兵塔2
 Ald-ruhn, Guild of Fighters	奥德-汝因，战士公会
 Ald-ruhn, Guild of Mages	奥德-汝因，法师公会
 Ald-ruhn, Guls Llervu's House	奥德-汝因，古尔斯·列乌的房子
@@ -151,7 +151,7 @@ Arrow, Cabin	利箭号，船舱
 Arrow, Lower Level	利箭号，下层
 Arrow, Upper Level	利箭号，上层
 Arvel Manor	阿维尔庄园
-Arvel Manor, Slave Shack	阿维尔庄园，奴隶的小屋
+Arvel Manor, Slave Shack	阿维尔庄园，奴隶小屋
 Arvel Manor, Slavemaster's Shack	阿维尔庄园，奴隶主的小屋
 Arvel Manor, Storage Shack	阿维尔庄园，储藏室
 Arvel Plantation	阿维尔种植园
@@ -254,8 +254,8 @@ Bensamsi	本萨姆西
 Bensiberib Camp, Odaishah's Yurt	本塞布瑞博营地，奥代杉的帐篷
 Beran Ancestral Tomb	贝冉先祖墓穴
 Berandas	贝兰达斯
-Berandas, Keep, Bottom Level	贝兰达斯，要塞，最底层
-Berandas, Keep, Top Level	贝兰达斯，要塞，最上层
+Berandas, Keep, Bottom Level	贝兰达斯，要塞，底层
+Berandas, Keep, Top Level	贝兰达斯，要塞，顶层
 Berandas, Propylon Chamber	贝兰达斯，引路室
 Berandas, Underground	贝兰达斯，地下
 Beshara	贝沙拉
@@ -501,8 +501,8 @@ Hlervi Ancestral Tomb	赫勒维先祖墓穴
 Hlervu Ancestral Tomb	赫勒武先祖墓穴
 Hlormaren	赫洛马伦
 Hlormaren, Dome	赫洛马伦，穹顶
-Hlormaren, Keep, Bottom Level	赫洛马伦，要塞，下层区域
-Hlormaren, Keep, Top Level	赫洛马伦，要塞，上层区域
+Hlormaren, Keep, Bottom Level	赫洛马伦，要塞，底层
+Hlormaren, Keep, Top Level	赫洛马伦，要塞，顶层
 Hlormaren, Propylon Chamber	赫洛马伦，引路室
 Hlormaren, Sewers	赫洛马伦，下水道
 Hlormaren, Underground	赫洛马伦，地下
@@ -566,14 +566,14 @@ Llervu Ancestral Tomb	列乌先祖墓穴
 Llirala's Shack	莉拉拉的小屋
 Llovyn's Farmhouse	洛夫林的农舍
 Lonely Shipwreck, Cabin	孤独沉船，船舱
-Lonely Shipwreck, Lower Level	孤独沉船，下层甲板
-Lonely Shipwreck, Upper Level	孤独沉船，上层甲板
+Lonely Shipwreck, Lower Level	孤独沉船，下层
+Lonely Shipwreck, Upper Level	孤独沉船，上层
 Lonesome Shipwreck, Cabin	孤寂沉船，船舱
-Lonesome Shipwreck, Lower Level	孤寂沉船，下层甲板
-Lonesome Shipwreck, Upper Level	孤寂沉船，上层甲板
+Lonesome Shipwreck, Lower Level	孤寂沉船，下层
+Lonesome Shipwreck, Upper Level	孤寂沉船，上层
 Lost Shipwreck, Cabin	失落沉船，船舱
-Lost Shipwreck, Lower Level	失落沉船，下层甲板
-Lost Shipwreck, Upper Level	失落沉船，上层甲板
+Lost Shipwreck, Lower Level	失落沉船，下层
+Lost Shipwreck, Upper Level	失落沉船，上层
 Maar Gan	玛尔-甘
 Maar Gan, Andus Tradehouse	玛尔-甘，安杜斯贸易行
 Maar Gan, Assi Serimilk's Hut	玛尔-甘，阿西·瑟利弥克的小屋
@@ -611,9 +611,9 @@ Mannammu	曼纳姆
 Maran-Adon	玛冉-亚顿
 Marandus	玛冉德斯
 Marandus, Dome	玛冉德斯，穹顶
-Marandus, Lower Level	玛冉德斯，下层区域
+Marandus, Lower Level	玛冉德斯，下层
 Marandus, Propylon Chamber	玛冉德斯，引路室
-Marandus, Upper Level	玛冉德斯，上层区域
+Marandus, Upper Level	玛冉德斯，上层
 Maren Ancestral Tomb	马伦先祖墓穴
 Mark's Script Testing Cell	马克的剧本测试间
 Mark's Vampire Test Cell	马克的吸血鬼测试间
@@ -720,8 +720,8 @@ Nchuleftingth, Upper Levels	纳曲莱夫庭斯，上层区域
 Nchurdamz	纳曲尔达姆兹
 Nchurdamz, Interior	纳曲尔达姆兹，内部
 Neglected Shipwreck, Cabin	落寞沉船，船舱
-Neglected Shipwreck, Lower Level	落寞沉船，下层甲板
-Neglected Shipwreck, Upper Level	落寞沉船，上层甲板
+Neglected Shipwreck, Lower Level	落寞沉船，下层
+Neglected Shipwreck, Upper Level	落寞沉船，上层
 Nelas Ancestral Tomb	内拉斯先祖墓穴
 Nerano Ancestral Tomb	内拉诺先祖坟墓
 Nilera's Farmhouse	尼莱拉的农舍
@@ -736,8 +736,8 @@ Norenen-dur, The Wailingdelve	诺让棱-杜尔，啸索渊
 Norvayn Ancestral Tomb	诺维恩先祖墓穴
 Nund	努德
 Obscure Shipwreck, Cabin	无名沉船，船舱
-Obscure Shipwreck, Lower Level	无名沉船，下层甲板
-Obscure Shipwreck, Upper Level	无名沉船，上层甲板
+Obscure Shipwreck, Lower Level	无名沉船，下层
+Obscure Shipwreck, Upper Level	无名沉船，上层
 Odai Plateau	奥代高原
 Odaishah	奥黛珊
 Odibaal	奥迪巴尔
@@ -804,8 +804,8 @@ Piernette's Farmhouse	皮尔内特的农舍
 Pinsun	彬森
 Piran	皮冉
 Prelude Shipwreck, Cabin	前奏曲号沉船，船舱
-Prelude Shipwreck, Lower Level	前奏曲号沉船，下层甲板
-Prelude Shipwreck, Upper Level	前奏曲号沉船，上层甲板
+Prelude Shipwreck, Lower Level	前奏曲号沉船，下层
+Prelude Shipwreck, Upper Level	前奏曲号沉船，上层
 Pudai Egg Mine	普代卵矿场
 Pudai Egg Mine, Queen's Lair	普代卵矿场，女王巢穴
 Pulk	普尔克
@@ -844,8 +844,8 @@ Redoran interior2	瑞多然  内部2
 Releth Ancestral Tomb	瑞莱斯先祖墓穴
 Reloth Ancestral Tomb	雷洛斯先祖墓穴
 Remote Shipwreck, Cabin	偏僻沉船，船舱
-Remote Shipwreck, Lower Level	偏僻沉船，下层甲板
-Remote Shipwreck, Upper Level	偏僻沉船，上层甲板
+Remote Shipwreck, Lower Level	偏僻沉船，下层
+Remote Shipwreck, Upper Level	偏僻沉船，上层
 Rethan Manor	雷桑府邸
 Rethan Manor, Berendas' House	雷桑府邸，贝伦达斯的房子
 Rethan Manor, Drelas' House	雷桑府邸，德雷拉斯的房子
@@ -863,10 +863,10 @@ Sadrith Mora, Anis Seloth: Alchemist	萨德瑞斯-莫拉，阿妮丝·瑟罗斯：炼金术士
 Sadrith Mora, Balen Vendu: Monk	萨德瑞斯-莫拉，巴伦·文杜：僧侣
 Sadrith Mora, Dirty Muriel's Cornerclub	萨德瑞斯-莫拉，肮脏穆里尔的街角俱乐部
 Sadrith Mora, Fara's Hole in the Wall	萨德瑞斯-莫拉，法拉的墙洞
-Sadrith Mora, Gateway Inn	萨德里斯·莫拉，闸门旅馆
-Sadrith Mora, Gateway Inn: North Wing	萨德里斯·莫拉，闸门旅馆：北翼
-Sadrith Mora, Gateway Inn: South Wing	萨德里斯·莫拉，闸门旅馆：南翼
-Sadrith Mora, Gateway Inn: West Wing	萨德里斯·莫拉，闸门旅馆：西翼
+Sadrith Mora, Gateway Inn	萨德瑞斯-莫拉，闸门旅馆
+Sadrith Mora, Gateway Inn: North Wing	萨德瑞斯-莫拉，闸门旅馆：北翼
+Sadrith Mora, Gateway Inn: South Wing	萨德瑞斯-莫拉，闸门旅馆：南翼
+Sadrith Mora, Gateway Inn: West Wing	萨德瑞斯-莫拉，闸门旅馆：西翼
 Sadrith Mora, Hleras Gidren's House	萨德瑞斯-莫拉，赫莱拉斯·吉德兰的房子
 Sadrith Mora, Llaalam Madalas: Mage	萨德瑞斯-莫拉，拉拉姆·马达拉斯：法师
 Sadrith Mora, Madran Ulvel's House	萨德瑞斯-莫拉，马德兰·乌维尔的房子
@@ -1090,7 +1090,7 @@ Tel Aruhn, Maren Uvaren: Enchanter	泰尔-阿汝因，马伦·乌瓦伦：附魔师
 Tel Aruhn, Plot and Plaster	泰尔-阿汝因，阴谋与膏药
 Tel Aruhn, Tower Entry	泰尔-阿汝因，塔楼入口
 Tel Aruhn, Tower Living Quarters	泰尔-阿汝因，塔楼住宅区
-Tel Aruhn, Underground	泰尔-阿汝因，地下室
+Tel Aruhn, Underground	泰尔-阿汝因，地下
 Tel Aruhn, Upper Tower	泰尔-阿汝因，塔楼上层
 Tel Branora	泰尔-布勒诺拉
 Tel Branora, Ervyna Hlervu's Shack	泰尔-布勒诺拉，埃尔维娜·赫勒乌的小屋
@@ -1161,8 +1161,8 @@ Tureynulal, Kagrenac's Library	图雷努拉，卡格瑞纳克的图书馆
 Tusenend, Shrine	图森恩德，圣祠
 Ularradallaku, Shrine	乌拉拉达拉库，圣祠
 Ules Manor	乌莱斯庄园
-Ules Manor, Slave Shack	乌莱斯庄园，奴隶的窝棚
-Ules Manor, Slavemaster's Shack	乌莱斯庄园，奴隶主的棚屋
+Ules Manor, Slave Shack	乌莱斯庄园，奴隶小屋
+Ules Manor, Slavemaster's Shack	乌莱斯庄园，奴隶主的小屋
 Ulummusa	乌鲁姆穆萨
 Uncharted Shipwreck, Lower Level	未知沉船，下层
 Unchartered Shipwreck, Cabin	未知沉船，船舱
@@ -1229,7 +1229,7 @@ Vivec, Arena Pit	维威克城，决斗场
 Vivec, Arena Storage	维威克城，竞技场储存室
 Vivec, Arena Underworks	维威克城，竞技场区下水道
 Vivec, Arena Waistworks	维威克城，竞技场中层工作区
-Vivec, Arena	维威克城，竞技场区
+Vivec, Arena	维威克城，竞技场
 Vivec, Aurane Frernis: Apothecary	维威克城，奥拉内·弗蕾尼斯：药剂师
 Vivec, Black Shalk Cornerclub	维威克城，黑砂壳虫街角俱乐部
 Vivec, Canon Offices	维威克城，教士办公区
@@ -1365,7 +1365,7 @@ Vivec, Telvanni Upper Storage	维威克城，泰瓦尼军械库上层
 Vivec, Telvanni Vault	维威克城，泰瓦尼金库
 Vivec, Telvanni Waistworks	维威克城，泰瓦尼中层工作区
 Vivec, Telvanni	维威克城，泰瓦尼行政区
-Vivec, Temple	维威克城，神殿区
+Vivec, Temple	维威克城，神殿
 Vivec, Temporary Telvanni Housing	维威克城，泰瓦尼临时住房
 Vivec, Tervur Braven: Trader	维威克城，特维尔·布拉文：贸易商
 Vivec, The Abbey of St. Delyn the Wise	维威克城，智者圣·德林修道院
@@ -1413,7 +1413,7 @@ Zainab Camp, Tussi's Yurt	哉纳布营地，图西的帐篷
 Zainab Camp, Wise Woman's Yurt	哉纳布营地，女智者的帐篷
 Zainsipilu	扎伊斯皮鲁
 Zaintirari	扎因蒂拉里
-Zaintiraris	扎伊蒂拉里斯
+Zaintiraris	扎因蒂拉里斯
 Zaintiraris, Shrine	扎因蒂拉里斯，圣祠
 Zalkin Grotto	扎尔金石窟
 Zalkin-Sul Egg Mine	扎尔金-苏尔卵矿场
