@@ -51,6 +51,51 @@ local function add(k, v, c)
 	end
 end
 
+local subIgnored = {
+	King = true,
+	Queen = true,
+	Governor = true,
+	Fatleg = true,
+	Factor = true,
+	Arrille = true,
+	Stahlman = true,
+	Shara = true,
+	["The Lizard"] = true,
+}
+local function addSub(line, k, v, c)
+	k = k:gsub("^%s+", ""):gsub("%s+$", "")
+	v = v:gsub("^%s+", ""):gsub("%s+$", "")
+	local k1 = k:match "^(%S+)'s? "
+	if k1 and not subIgnored[k1] then
+		local v1 = v:match "^(...-)的"
+		if not v1 then
+			v1 = v:match "^(...-)之"
+			if not v1 then
+				error("ERROR: unmatched line: " .. line)
+			end
+		end
+		add(k1, v1, c)
+	else
+		local k3, k1, k2 = k:match "^((%S+) (%S+))'s? "
+		if k1 and not subIgnored[k3] then
+			local v3 = v:match "^(...-)的"
+			if not v3 then
+				v3 = v:match "^(...-)之"
+				if not v3 then
+					error("ERROR: unmatched line: " .. line)
+				end
+			end
+			local v1, v2 = v3:match "^(...-)·(...-)$"
+			if v1 then
+				add(k1, v1, c)
+				add(k2, v2, c)
+			else
+				add(k3, v3, c)
+			end
+		end
+	end
+end
+
 for line in io.lines(arg[1]) do
 	if cel then
 		local k, v = line:match "^(.+)\t(.+)$"
@@ -66,6 +111,9 @@ for line in io.lines(arg[1]) do
 			add(k1, v1, "CEL")
 			add(k2, v2, "CEL")
 			add(k3, v3, "CEL")
+			addSub(line, k1, v1, "CEL")
+			addSub(line, k2, v2, "CEL")
+			addSub(line, k3, v3, "CEL")
 		else
 			k1, k2 = k:match "^([^,]+),([^,]+)$"
 			if k1 then
@@ -75,8 +123,11 @@ for line in io.lines(arg[1]) do
 				end
 				add(k1, v1, "CEL")
 				add(k2, v2, "CEL")
+				addSub(line, k1, v1, "CEL")
+				addSub(line, k2, v2, "CEL")
 			else
 				add(k, v, "CEL")
+				addSub(line, k, v, "CEL")
 			end
 		end
 	else
