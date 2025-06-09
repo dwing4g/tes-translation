@@ -3,6 +3,10 @@
 -- md ext2\INFO
 -- luajit tes3ext2.lua _.ext.txt ext2
 
+-- luajit tes3ext2.lua tes3cn_Morrowind.ext.txt ~$ext2m
+-- luajit tes3ext2.lua tes3cn_Tribunal.ext.txt  ~$ext2t
+-- luajit tes3ext2.lua tes3cn_Bloodmoon.ext.txt ~$ext2b
+
 -- 考虑当做专有名词的有: *.FNAM; *.RNAM; 关键词(DIAL.NAME); 地名(CELL.NAME); 地名和人名需要考虑分解单词
 -- 参考专有名词再翻译的: RACE.DESC; CLAS.DESC; SCPT.SCTX; INFO.NAME/BNAM; BOOK.TEXT
 local tags = {

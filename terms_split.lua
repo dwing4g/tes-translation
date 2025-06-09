@@ -3,9 +3,10 @@
 -- xxx, yyy, zzz	XXX，YYY，ZZZ
 -- xxx yyy,XXX·YYY
 
-local ignored = {
-	Armory = true,
-}
+-- luajit terms_split.lua Morrowind.cel ~$cel_split.csv
+-- luajit terms_split.lua ~$ext2m\terms.csv ~$ext2m\terms_split.csv
+-- luajit terms_split.lua ~$ext2t\terms.csv ~$ext2t\terms_split.csv
+-- luajit terms_split.lua ~$ext2b\terms.csv ~$ext2b\terms_split.csv
 
 local cel = arg[1]:find "%.cel$"
 if not cel and not arg[1]:find "%.csv$" then
@@ -22,6 +23,9 @@ local function write(k, v, c)
 	end
 end
 
+local addIgnored = {
+	Armory = true,
+}
 local t = {}
 local tc = {}
 local function add(k, v, c)
@@ -30,7 +34,7 @@ local function add(k, v, c)
 	if k ~= "" and v ~= "" then
 		if t[k] then
 			if t[k] ~= v then
-				if tc[k] == c and not ignored[k] then
+				if tc[k] == c and not addIgnored[k] then
 					error("ERROR: duplicated k=" .. k .. ", v=" .. t[k] .. " or " .. v .. ", c=" .. c)
 				else
 					t[k] = v
@@ -52,20 +56,56 @@ local function add(k, v, c)
 end
 
 local subIgnored = {
-	King = true,
-	Queen = true,
-	Governor = true,
-	Fatleg = true,
-	Factor = true,
+	Ancestor = true,
+	Apprentice = true,
 	Arrille = true,
+	Azura = true,
+	Bungler = true,
+	Duke = true,
+	Erna = true, -- 厄娜给...的...
+	Factor = true,
+	Father = true,
+	Fatleg = true,
+	Fighters = true,
+	God = true,
+	Gondolier = true,
+	Governor = true,
+	Grandmaster = true,
+	GrandMaster = true,
+	Herder = true,
+	Journeyman = true,
+	King = true,
+	Lady = true,
+	Lizard = true,
+	Lord = true,
+	Mages = true,
+	Master = true,
+	Miner = true,
+	Necromancer = true,
+	Queen = true,
+	Saint = true,
+	SecretMaster = true,
+	Shalk = true,
+	Shara = true, -- 人名/地名不同
+	Slave = true,
 	Stahlman = true,
-	Shara = true,
+	Watcher = true,
+	Wizard = true,
+	["Apprentice's Armorer"] = true,
+	["Arena Fighter"] = true,
+	["GrandMaster's Armorer"] = true,
+	["Her Hand"] = true,
+	["Journeyman's Armorer"] = true,
+	["Master's Armorer"] = true,
+	["Redoran Watchman"] = true,
+	["Secret Master"] = true,
 	["The Lizard"] = true,
+	["The Warrior"] = true,
 }
 local function addSub(line, k, v, c)
 	k = k:gsub("^%s+", ""):gsub("%s+$", "")
-	v = v:gsub("^%s+", ""):gsub("%s+$", "")
-	local k1 = k:match "^(%S+)'s? "
+	v = v:gsub("^%s+", ""):gsub("%s+$", ""):gsub("^《", "")
+	local k1 = k:match "^(%a%S*)'s? %a"
 	if k1 and not subIgnored[k1] then
 		local v1 = v:match "^(...-)的"
 		if not v1 then
@@ -76,7 +116,7 @@ local function addSub(line, k, v, c)
 		end
 		add(k1, v1, c)
 	else
-		local k3, k1, k2 = k:match "^((%S+) (%S+))'s? "
+		local k3, k1, k2 = k:match "^((%a%S*) (%a%S*))'s? %a"
 		if k1 and not subIgnored[k3] then
 			local v3 = v:match "^(...-)的"
 			if not v3 then
@@ -85,7 +125,7 @@ local function addSub(line, k, v, c)
 					error("ERROR: unmatched line: " .. line)
 				end
 			end
-			local v1, v2 = v3:match "^(...-)·(...-)$"
+			local v1, v2 = v3:match "^(...-)·(.+)$"
 			if v1 then
 				add(k1, v1, c)
 				add(k2, v2, c)
@@ -131,7 +171,7 @@ for line in io.lines(arg[1]) do
 			end
 		end
 	else
-		local k, v, c = line:match '^"(.-)","(.-)","(.-)"$'
+		local k, v, c = line:match '^"(..-)","(..-)","(.+)"$'
 		if k then
 			k = k:gsub('""', '"')
 			v = v:gsub('""', '"')
@@ -142,16 +182,8 @@ for line in io.lines(arg[1]) do
 				error("ERROR: unknown line: " .. line)
 			end
 		end
-		local v1, v2 = v:match "^(.-)·(.+)$"
-		if v1 then
-			local k1, k2 = k:match "^(%S+) (%S+)$"
-			if k1 then
-				add(k1, v1, c)
-				add(k2, v2, c)
-			else
-				error("ERROR: unmatched line: " .. line)
-			end
-		end
+		add(k, v, c)
+		addSub(line, k, v, c)
 	end
 end
 f:close()
