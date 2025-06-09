@@ -75,8 +75,10 @@ function makeUI()
 		local current = resources[resource](self).current
 		local max = resources[resource](self).base
 		local newMax = max * (1-playerSettings:get("LENGTH_EQUALIZER")) + averageLength * playerSettings:get("LENGTH_EQUALIZER")
-		local LENGTH_MULT = _G[resource] and _G[resource].LENGTH_MULT or newMax / max * playerSettings:get("LENGTH_MULT")
-		
+		local LENGTH_MULT = _G[resource] and _G[resource].LENGTH_MULT or newMax / math.max(1,max) * playerSettings:get("LENGTH_MULT")
+		if max <= 0 then
+			LENGTH_MULT = 0
+		end
 		table.insert(container.layout.content, ui.create({ --r.1
 				type = ui.TYPE.Widget,
 				props = {
@@ -201,6 +203,7 @@ function makeUI()
 		
 		pos = pos+verticalOffset
 		_G[resource] = { -- magicka, fatigue, health =
+			barContainer = container.layout.content[#container.layout.content],
 			bar = container.layout.content[#container.layout.content].layout.content,
 			max = max*LENGTH_MULT,
 			current = current,
@@ -297,6 +300,7 @@ local function update(bar, resource, dt, treshold)
 	local drainSpeed = playerSettings:get("LERPSPEED")
 	local timerLength = playerSettings:get("LAGDURATION")
 	bar.paused, bar.lag, bar.timer, bar.lerp = ownlysLag(current, bar.lerp, bar.cached, bar.paused, bar.lag, bar.timer, dt, drainSpeed, timerLength, treshold, max)
+	local refreshLayering = 0
 	
 	bar.max = lerpValues(bar.max, max*bar.LENGTH_MULT, dt)
 	if math.abs(bar.bar[1].layout.props.size.x- math.floor(bar.max)) >= 1 or updateAll then
@@ -304,6 +308,7 @@ local function update(bar, resource, dt, treshold)
 		bar.bar[1].layout.props.size = v2( math.floor(bar.max),0)
 		--bar.max = max
 		bar.bar[1]:update()
+		refreshLayering = 2
 		--shouldUpdate = true
 		if playerSettings:get("TEXT") ~="hidden" then
 			if playerSettings:get("TEXT_POS") ~= "left" then
@@ -388,18 +393,22 @@ local function update(bar, resource, dt, treshold)
 			bar.bar[2].layout.content["text"].props.text = playerSettings:get("TEXT") == "current" and ""..math.floor(current) or math.floor(current).."/".. math.floor(max)
 		end
 		bar.bar[2]:update()
+		refreshLayering = refreshLayering-1
 		--print(resource)
 	end
 	if (updateFlashing or bar.shouldUpdateFlashing) and playerSettings:get(resource:upper().."_FLASHING_THRESHOLD") > 0 then
 		bar.bar[3]:update()
+		refreshLayering = refreshLayering-1
 		--print(resource.." flash")
 		bar.shouldUpdateFlashing = false
+	end
+	if refreshLayering > 0 then
+		bar.barContainer:update()
 	end
 	if shouldUpdate and bar.flashing then
 		bar.shouldUpdateFlashing = true --fixes some weird rare flicker
 	end
 	--print(I.UI.isHudVisible())
-	
 	bar.cached = current
 end
 
@@ -418,8 +427,12 @@ function onFrame(dt)
 		averageLength = totalLength /3
 		for a,resource in pairs(widgets) do
 			local max = resources[resource](self).base
-			local newMax = max * (1-playerSettings:get("LENGTH_EQUALIZER")) + averageLength * playerSettings:get("LENGTH_EQUALIZER")
-			_G[resource].LENGTH_MULT = newMax / max * playerSettings:get("LENGTH_MULT")
+			if max <= 0 then
+				_G[resource].LENGTH_MULT = 0
+			else
+				local newMax = max * (1-playerSettings:get("LENGTH_EQUALIZER")) + averageLength * playerSettings:get("LENGTH_EQUALIZER")
+				_G[resource].LENGTH_MULT = newMax / max * playerSettings:get("LENGTH_MULT")
+			end
 		end
 	else
 		for a,resource in pairs(widgets) do
