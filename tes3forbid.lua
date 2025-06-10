@@ -6,6 +6,7 @@ local filenames = {
 	"tes3cn_Morrowind.ext.txt",
 	"tes3cn_Tribunal.ext.txt",
 	"tes3cn_Bloodmoon.ext.txt",
+	"terms.csv",
 }
 
 local forbids = arg[1] and arg or {
@@ -74,7 +75,7 @@ local forbids = arg[1] and arg or {
 	"吉伽拉格", -- 杰盖拉格
 	"卡拉威库斯", -- 克拉威库斯
 	"勒丹亚", -- 瑞达尼亚 Redaynia *
-	"勒斯丹", -- 瑞斯代尼亚 Resdaynia *
+	"勒斯丹", -- 瑞斯戴恩 Resdayn 瑞斯代尼亚 Resdaynia *
 	"鲁因", -- 汝因
 	"瓦提尼乌斯", -- 凡蒂尼乌斯
 	"亚哈斯", -- 阿哈兹 *

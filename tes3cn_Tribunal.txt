@@ -15363,7 +15363,7 @@ End yarnarScript"
 -MISC
  MISC.NAME "artifact_bittercup_01$00"
  MISC.MODL "m\Artifact_bittercup_01.NIF$00"
- MISC.FNAM "¿àÎ¶±­×Ó$00"
+ MISC.FNAM "¿àÉ¬Ö®±­$00"
  MISC.MCDT [00 00 20 41 A0 86 01 00 00 00 00 00]
  MISC.SCRI "bittercup$00"
  MISC.ITEX "m\Tx_bittercup_01.tga$00"
@@ -17022,7 +17022,7 @@ End yarnarScript"
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 0A 00 00 00 0A 01]
 -NPC_
  NPC_.NAME "Alusannah$00"
- NPC_.FNAM "°¢Â¬É£ÄÈ$00"
+ NPC_.FNAM "°¢Â³ÈøÄÉ$00"
  NPC_.RNAM "Redguard$00"
  NPC_.CNAM "Crusader$00"
  NPC_.ANAM "Royal Guard$00"
