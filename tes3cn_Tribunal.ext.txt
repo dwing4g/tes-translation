@@ -4241,7 +4241,7 @@ Ivulen Irano
 
 > NPC_.FNAM Aleri Aren
 Aleri Aren
-艾蕾莉·爱伦
+艾蕾莉·艾伦
 
 > NPC_.FNAM Diradeni Farano
 Diradeni Farano
@@ -4351,7 +4351,7 @@ handwritten note<BR>
 手写的笔记<BR>
 <BR>
 
-[一份奇怪的过去几周的卫兵值班名单。字迹很小，几乎难以辨认，经常出现拼写错误。但是三个名字的拼写总是正确的 -- 米尔维拉·达拉伦、伊武伦·伊拉诺和艾蕾莉·爱伦 -- 而这三个人都是王座室看守中唯一已经被划了两次下划线的人。]<BR>"""
+[一份奇怪的过去几周的卫兵值班名单。字迹很小，几乎难以辨认，经常出现拼写错误。但是三个名字的拼写总是正确的 -- 米尔维拉·达拉伦、伊武伦·伊拉诺和艾蕾莉·艾伦 -- 而这三个人都是王座室看守中唯一已经被划了两次下划线的人。]<BR>"""
 
 > BOOK.FNAM bk_Alen_note
 handwritten letter
@@ -4395,7 +4395,7 @@ Bedal Alen<BR>"""
 对于艾辛的谋杀案没有引起公众的强烈抗议我感到很失望，但我也并不惊讶。当下大众的情绪似乎都是想接受赫尔塞斯并让自己远离风险，虽然可以理解，但这太短视了。不过我注意到，《众口真言》的作者似乎同情我们的事业，他写出的文章口若悬河而且非常聪明地避开风险。他或许能够左右舆论，我们应该找出这个人，并尝试将他纳入我们的计划中。<BR>
 <BR>
 你忠实的仆人，<BR>
-贝达尔·艾伦<BR>"""
+贝达尔·阿伦<BR>"""
 
 > BOOK.FNAM writ_Berano
 Royal Writ of Execution
@@ -7307,7 +7307,7 @@ Goodbye my darling. Think of me fondly and often. And without reaching for your 
 
 > CONT.FNAM de_r_chest_01_aleri
 Aleri Aren's Chest
-艾蕾莉·爱伦的箱子
+艾蕾莉·艾伦的箱子
 
 > CONT.FNAM de_r_chest_01_milvela
 Milvela Dralen's Chest
@@ -7741,7 +7741,7 @@ Ivulen Irano's Chest
 
 > CONT.FNAM de_r_chest_01_aren
 Aleri Aren's Chest
-艾蕾莉·爱伦的箱子
+艾蕾莉·艾伦的箱子
 
 > CONT.FNAM de_r_chest_01_dralen
 Milvela Dralen's Chest
@@ -13781,11 +13781,11 @@ Larrius Varro Tells a Little Story
 
 > INFO.NAME town_balmora 106947767301187310
 Larrius Varro says that everything has been taken care of. I assume he is referring to the deaths of Vadusa Sathryon, Marasa Aren, Medrale Thirith, Sovor Trandrel, and Thanelen Velas of the Camonna Tong. He then gave me a ring he called the 'nice present from the Emperor.' He also gave me a book in recognition of my exceptional discretion.
-拉里乌斯·瓦罗说一切都已经处理好了。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·阿伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后，他给了我一枚戒指，他称之为“皇帝送的漂亮的礼物”。他还送了我一本书，以表彰我非凡的谨慎。 {玛拉}
+拉里乌斯·瓦罗说一切都已经处理好了。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·艾伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后，他给了我一枚戒指，他称之为“皇帝送的漂亮的礼物”。他还送了我一本书，以表彰我非凡的谨慎。 {玛拉}
 
 > INFO.NAME town_balmora 8969326612968028034
 Larrius Varro says that everything has been taken care of. I assume he is referring to the deaths of Vadusa Sathryon, Marasa Aren, Medrale Thirith, Sovor Trandrel, and Thanelen Velas of the Camonna Tong. He then gave me a ring he called the 'nice present from the Emperor.'
-拉里乌斯·瓦罗说一切都已处理妥当。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·阿伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后他给了我一枚戒指，说是“皇帝送的漂亮的礼物”。 {玛拉}
+拉里乌斯·瓦罗说一切都已处理妥当。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·艾伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后他给了我一枚戒指，说是“皇帝送的漂亮的礼物”。 {玛拉}
 
 > INFO.NAME town_sadrith 2591412934116939492
 Gateway Ghost
@@ -15997,15 +15997,15 @@ When I asked Ivulen Irano about King Helseth, he delivered what sounded like a m
 
 > INFO.NAME tr07_guard 24138174282524727274
 Ivulen Irano made a special point of telling me to tell Aleri Aren about my Hlaalu connections. He also made a special point of my NOT telling Tienius Delitian.
-伊武伦·伊拉诺特意跟我强调，要告诉艾蕾莉·爱伦，我与哈拉鲁家族的关系。他还特别叮嘱我不要告诉蒂纽斯·德利天。
+伊武伦·伊拉诺特意跟我强调，要告诉艾蕾莉·艾伦，我与哈拉鲁家族的关系。他还特别叮嘱我不要告诉蒂纽斯·德利天。
 
 > INFO.NAME tr07_guard 1204266643248216596
 I spoke to Aleri Aren about my Hlaalu connections, like Ivulen Irano suggested. Aleri Aren acted like she didn't know what he was talking about. I suspect Ivulen Irano said something to me that he shouldn't have, and Aleri Aren was covering up for him.
-我按照伊武伦·伊拉诺的建议，向艾蕾莉·爱伦谈了我与哈拉鲁的关系。艾蕾莉·爱伦表现得好像她不知道他在说什么。我怀疑伊武伦·伊拉诺对我说了些他不该说的话，而艾蕾莉·爱伦在为他打掩护。
+我按照伊武伦·伊拉诺的建议，向艾蕾莉·艾伦谈了我与哈拉鲁的关系。艾蕾莉·艾伦表现得好像她不知道他在说什么。我怀疑伊武伦·伊拉诺对我说了些他不该说的话，而艾蕾莉·艾伦在为他打掩护。
 
 > INFO.NAME tr07_guard 449812871240537655
 Near a chest owned by Ivulen Irano I found a handwritten copy of guard duty rosters for the past several weeks. The handwriting is tiny and almost illegible, with frequent misspellings. But three names are always correctly spelled -- Milvela Dralen, Ivulen Irano, and Aleri Aren -- and those watches when all three are the only guards in the Throne Room have been underlined twice. This is quite peculiar. I think it is what Tienius Delitian has been looking for.
-在伊武伦·伊拉诺拥有的一个箱子附近，我发现了一份手写的过去几周的卫兵职责名册副本。笔迹很小，几乎无法辨认，经常出现拼写错误。但有三个名字的拼写总是正确的 -- 米尔维拉·达拉伦、伊武伦·伊拉诺和艾蕾莉·爱伦 -- 而当这三个人是王座室里仅有的守卫时，这些表都被划了两道线。这很不正常。我想这是蒂纽斯·德利天想要的东西。 {瓜尔}
+在伊武伦·伊拉诺拥有的一个箱子附近，我发现了一份手写的过去几周的卫兵职责名册副本。笔迹很小，几乎无法辨认，经常出现拼写错误。但有三个名字的拼写总是正确的 -- 米尔维拉·达拉伦、伊武伦·伊拉诺和艾蕾莉·艾伦 -- 而当这三个人是王座室里仅有的守卫时，这些表都被划了两道线。这很不正常。我想这是蒂纽斯·德利天想要的东西。 {瓜尔}
 
 > INFO.NAME tr07_guard 3479243352395420961
 After reading Ivulen Irano's handwritten notes on the watch schedules, Tienius Delitian agreed that I'd found clear evidence of disloyalty among the guards. He praised my work, and asked me for help with another official matter.
@@ -16877,15 +16877,15 @@ You've brought me clear evidence of disloyalty among the guards. Now I need your
 
 > INFO.NAME disloyalty among the guards 2004131462269438308
 This is Ivulen Irano's handwriting on the note you found. He notes the watches when Dralen, Aren, and Irano are the only guards in the Throne Room. I believe I'll change the watch schedules to prevent that. And I'll need to keep a close eye on all three. Very shrewd work, %PCName. You've brought me clear evidence of disloyalty among the guards. Now I need your help finding evidence of conspiracy against King Helseth among the Hlaalu nobles.
-这是伊武伦·伊拉诺在你找到的纸条上的笔迹。他记下了达拉伦、爱伦和伊拉诺是王座厅里唯一的守卫时的时间表。我会改变值守的时间表，以防止这种情况。而且我需要密切关注这三个人的情况。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在，我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
+这是伊武伦·伊拉诺在你找到的纸条上的笔迹。他记下了达拉伦、艾伦和伊拉诺是王座厅里唯一的守卫时的时间表。我会改变值守的时间表，以防止这种情况。而且我需要密切关注这三个人的情况。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在，我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
 
 > INFO.NAME disloyalty among the guards 571316436292146115
 The handwriting on the note you found is Ivulen Irano's. He notes the watches when Dralen, Aren, and Irano are the only guards in the Throne Room. I believe I'll change the watch schedules to prevent that. And I'll need to keep a close eye on all three. Very shrewd work, %PCName. You've brought me clear evidence of disloyalty among the guards. Now I need your help finding evidence of conspiracy against King Helseth among the Hlaalu nobles.
-你发现的纸条上的笔迹是伊武伦·伊拉诺的。他记下了达拉伦、爱伦和伊拉诺是王座室里唯一的卫兵时的时刻表。我会改变值守的时间表以防止这种情况。而且我需要密切关注这三个人。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
+你发现的纸条上的笔迹是伊武伦·伊拉诺的。他记下了达拉伦、艾伦和伊拉诺是王座室里唯一的卫兵时的时刻表。我会改变值守的时间表以防止这种情况。而且我需要密切关注这三个人。你做得很精明，%PCName。你已经给我带来了不忠诚的卫兵的明确证据。现在我需要你帮助我在哈拉鲁贵族中找到反对赫尔塞斯国王的密谋的证据。 {瓜尔,工作}
 
 > INFO.NAME disloyalty among the guards 203103026611831927
 So you spoke to Aleri Aren about your Hlaalu connections, as Ivulen Irano suggested, and Aleri Aren acted like she didn't know what he was talking about. Perhaps you are right. Perhaps Aleri Aren was covering up for Ivulen Irano. See if you can find some more tangible evidence of disloyalty -- something in writing, perhaps. Ivulen Irano seems to be the weak link. Take a careful look at his possessions in the Guard Quarters. But be careful. Don't get caught, or you'll be attacked like a common thief.
-所以你按照伊武伦·伊拉诺的建议，向艾蕾莉·爱伦谈起了你和哈拉鲁家族的关系，而艾蕾莉·爱伦表现得好像她不知道他在说什么。也许你是对的。也许艾蕾莉·爱伦是在为伊武伦·伊拉诺掩饰。看看你是否能找到一些更具体的不忠的证据 -- 最好是某些书面的东西。伊武伦·伊拉诺似乎是个突破点。仔细检查一下他在卫兵宿舍的财产。但要小心。不要被抓到，否则你会像普通小偷一样被攻击。 {令状,瓜尔}
+所以你按照伊武伦·伊拉诺的建议，向艾蕾莉·艾伦谈起了你和哈拉鲁家族的关系，而艾蕾莉·艾伦表现得好像她不知道他在说什么。也许你是对的。也许艾蕾莉·艾伦是在为伊武伦·伊拉诺掩饰。看看你是否能找到一些更具体的不忠的证据 -- 最好是某些书面的东西。伊武伦·伊拉诺似乎是个突破点。仔细检查一下他在卫兵宿舍的财产。但要小心。不要被抓到，否则你会像普通小偷一样被攻击。 {令状,瓜尔}
 
 > INFO.NAME disloyalty among the guards 512120176521219184
 So Ivulen Irano delivered a memorized and not-very-sincere sounding speech about King Helseth. Well, Ivulen Irano is not very bright. It's not necessarily evidence of disloyalty. But follow up on it. There may be more.
@@ -16901,7 +16901,7 @@ Have you found any evidence of disloyalty among the guards?
 
 > INFO.NAME disloyalty among the guards 5071186783275213383
 I'm not certain about any of the former king's guards: Evo Othreloth, Ivulen Irano, and Aleri Aren. None of them are particularly clever. Not stupid enough to admit treason. But perhaps not clever enough to hide evidence of it.
-我不确定这些前国王的卫兵的情况。埃沃·奥瑟罗斯，伊武伦·伊拉诺，以及艾蕾莉·爱伦。他们都不是特别聪明的人。没有愚蠢到承认叛国。但大概也没有聪明到懂得隐藏证据。 {瓜尔}
+我不确定这些前国王的卫兵的情况。埃沃·奥瑟罗斯，伊武伦·伊拉诺，以及艾蕾莉·艾伦。他们都不是特别聪明的人。没有愚蠢到承认叛国。但大概也没有聪明到懂得隐藏证据。 {瓜尔}
 
 > INFO.BNAM disloyalty among the guards 5071186783275213383 c1
 I'll take care of it.
@@ -17797,7 +17797,7 @@ What do you mean you're looking for me? I don't know you, do I? You say you have
 
 > INFO.NAME join the royal guards 64355862422620038
 Oh? Really? Does Tienius Delitian know that? Did you talk to Aleri Aren? You should tell her that you're House Hlaalu. Really. But don't tell Tienius Delitian. Just tell Aleri Aren.
-哦，真的吗？蒂纽斯·德利天知道吗？你跟艾蕾莉·爱伦谈了吗？你应该告诉她，你是哈拉鲁家族的。真的。但不要告诉蒂纽斯·德利天。只告诉艾蕾莉·爱伦就行。
+哦，真的吗？蒂纽斯·德利天知道吗？你跟艾蕾莉·艾伦谈了吗？你应该告诉她，你是哈拉鲁家族的。真的。但不要告诉蒂纽斯·德利天。只告诉艾蕾莉·艾伦就行。
 
 > INFO.NAME join the royal guards 23604239301151429151
 It's an honor... to serve.... It is my honor to serve King Helseth and Queen Barenziah. That's right. Just what I said. An honor.
