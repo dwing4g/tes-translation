@@ -171,13 +171,13 @@ for line in io.lines(arg[1]) do
 			end
 		end
 	else
-		local k, v, c = line:match '^"(..-)","(..-)","(.+)"$'
+		local k, v, c = line:match '^"(..-)","(..-)","(.*)"$'
 		if k then
 			k = k:gsub('""', '"')
 			v = v:gsub('""', '"')
 			c = c:gsub('""', '"')
 		else
-			k, v, c = line:match '^([^,]+),([^,]+),([^,]+)$'
+			k, v, c = line:match '^([^,]+),([^,]+),([^,]*)$'
 			if not k then
 				error("ERROR: unknown line: " .. line)
 			end
