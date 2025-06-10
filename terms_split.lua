@@ -26,9 +26,23 @@ end
 local addIgnored = {
 	Armory = true,
 	Asharapli = true,
+	Axe = true,
+	Blessing = true,
+	Chambers = true,
 	Drarayne = true,
 	Favani = true,
+	Gift = true,
+	Journal = true,
+	Rest = true,
+	Ring = true,
+	Robe = true,
 	Salen = true,
+	Shield = true,
+	Skirt = true,
+	Spite = true,
+	Staff = true,
+	Tale = true,
+	Tower = true,
 	Uleni = true,
 }
 local t = {}
@@ -110,33 +124,35 @@ local subIgnored = {
 local function addSub(line, k, v, c)
 	k = k:gsub("^%s+", ""):gsub("%s+$", "")
 	v = v:gsub("^%s+", ""):gsub("%s+$", ""):gsub("^《", "")
-	local k1 = k:match "^(%a%S*)'s? %a"
+	local k1, k2 = k:match "^(%a%S*)'s? (%a.*)$"
 	if k1 and not subIgnored[k1] then
-		local v1 = v:match "^(...-)的"
+		local v1, v2 = v:match "^(...-)的(.+)$"
 		if not v1 then
-			v1 = v:match "^(...-)之"
+			v1, v2 = v:match "^(...-)之(.+)$"
 			if not v1 then
 				error("ERROR: unmatched line: " .. line)
 			end
 		end
 		add(k1, v1, c)
+		add(k2, v2, c)
 	else
-		local k3, k1, k2 = k:match "^((%a%S*) (%a%S*))'s? %a"
-		if k1 and not subIgnored[k3] then
-			local v3 = v:match "^(...-)的"
-			if not v3 then
-				v3 = v:match "^(...-)之"
-				if not v3 then
+		local k4, k1, k2, k3 = k:match "^((%a%S*) (%a%S*))'s? (%a.*)$"
+		if k1 and not subIgnored[k4] then
+			local v4, v3 = v:match "^(...-)的(.+)$"
+			if not v4 then
+				v4, v3 = v:match "^(...-)之(.+)$"
+				if not v4 then
 					error("ERROR: unmatched line: " .. line)
 				end
 			end
-			local v1, v2 = v3:match "^(...-)·(.+)$"
+			local v1, v2 = v4:match "^(...-)·(.+)$"
 			if v1 then
 				add(k1, v1, c)
 				add(k2, v2, c)
 			else
-				add(k3, v3, c)
+				add(k4, v4, c)
 			end
+			add(k3, v3, c)
 		else
 			local k1, k2 = k:match "^(%a%S*) (%a%S*)$"
 			local v1, v2 = v:match "^(...-)·(.+)$"
