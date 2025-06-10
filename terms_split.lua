@@ -25,6 +25,11 @@ end
 
 local addIgnored = {
 	Armory = true,
+	Asharapli = true,
+	Drarayne = true,
+	Favani = true,
+	Salen = true,
+	Uleni = true,
 }
 local t = {}
 local tc = {}
@@ -131,6 +136,13 @@ local function addSub(line, k, v, c)
 				add(k2, v2, c)
 			else
 				add(k3, v3, c)
+			end
+		else
+			local k1, k2 = k:match "^(%a%S*) (%a%S*)$"
+			local v1, v2 = v:match "^(...-)¡¤(.+)$"
+			if k1 and v1 then
+				add(k1, v1, c)
+				add(k2, v2, c)
 			end
 		end
 	end
