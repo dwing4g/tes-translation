@@ -82,7 +82,8 @@ local function combine(t, alwaysNum)
 end
 
 local function writeCsvStr(s1, s2, s3)
-	if s1:find '[,"]' or s2:find '[,"]' or s3:find '[,"]' then
+	if	s1:find ','  or s2:find ','  or s3:find ',' or
+		s1:find '^"' or s2:find '^"' or s3:find '^"' then
 		f:write('"', s1:gsub('"', '""'), '","', s2:gsub('"', '""'), '","', s3:gsub('"', '""'), '"\n')
 	else
 		f:write(s1, ',', s2, ',', s3, '\n')

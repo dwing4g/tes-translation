@@ -1,89 +1,6 @@
-"""Doug Insert Message Here""","¡°µÀ¸ñÔÚÕâÀï²åÈëÒ»¸öÏûÏ¢¡±","ACTI.FNAM"
 %Class,%Class,´úÂë£¬ÏÔÊ¾NPCµÄÖ°ÒµÃû×Ö¡£
 %Name,%Name,¡¶ÉÏ¹Å¾íÖá3£º³¿·ç¡·ÖĞµÄ´úÂë£¬Í¨ÓÃ¶Ô»°ÖĞÏÔÊ¾Ëµ»°µÄNPCÃû×Ö¡£
-'ata,°¢Ëş,ÏÄÄºµºÃüÃûÏ°¹ß£¬ataºó½ÓÄ¸Ç×Ãû£¬±íÄ³Ä³µÄº¢×Ó¡£
-'len,Â×,ÏÄÄºµºÃüÃûÏ°¹ß£¬lenºó½Ó¸¸Ç×Ãû£¬±íÄ³Ä³µÄº¢×Ó¡£
 'Ten-Tongues' Weerhat,¡°Ê®Éà¡±Î¬¹şÌØ,NPC_.FNAM
-* Sunder *,* ¾öÁÑ *,WEAP.FNAM
-*A,ÎÒ,ÑÇÀúµÂÓï¡£
-*Ae,1.ÊÇ|2.ÊÇ£»²¢ÁĞÁ¬´Ê,1.ÑÇÀúµÂÓï¡£ 2.°¬Åµ·ÆÓï¡£
-*An,Õâ¸ö,£¨The£©ÑÇÀúµÂÓï£¬ËÆºõÖ»ÓÃÓÚ¸±´Ê¶ÌÓïÖĞµÄÃû´ÊÇ°£¬´ó¶àÊıÊ±ºòÒ²ÓÃÔÚÆíÊ¹¾äÇ°¡£
-*As,Æ¾½è,£¨By£©ÑÇÀúµÂÓï¡£
-*At,³¤±²,ÑÇÀúµÂÓï¡£
-*Ata,¸¸Ç×,ÑÇÀúµÂÓï¡£
-"*Av","À´×Ô","£¨From, In, Of, Upon£©ÑÇÀúµÂÓï¡£"
-*Bala,Á¦Á¿,ÑÇÀúµÂÓï¡£
-*Bis,ĞÂ,ÑÇÀúµÂÓï¡£
-*Boi,Ä¾£¨µÄ£©,ÑÇÀúµÂÓï¡£
-*Bre,É½Ã«é·,ÑÇÀúµÂÓï¡£
-*Buro,Å«Á¥,ÑÇÀúµÂÓï¡£
-*Can,ÕÙ»½,ÑÇÀúµÂÓï¡£¡°Ä§×åÊ¹Õß£¨Canomora£©¡±¿ÉÄÜÓë´ËÓĞ¹Ø¡£
-*Cele,¿ÉÄÜÒâÎª¡°¹â¡±,ÑÇÀúµÂÓï£¬Celemaril±»³ÆÎªLight-Bringer£¬²»ÖªµÀÊÇ·ñÎªceleºÍmarilµÄ¶ÔÒâ
-*Cey,ÒõÓ°,ÑÇÀúµÂÓï¡£
-*Da,Éñµî,ÑÇÀúµÂÓï¡£
-*Dava,È¥,ÑÇÀúµÂÓï¡£
-*Delo,ÔùËÍ,ÑÇÀúµÂÓï¡£
-*Dena,ÌõÔ¼,ÑÇÀúµÂÓï¡£
-*Diil,ÍÁµØ,ÑÇÀúµÂÓï¡£
-*Ede,½áÊø,ÑÇÀúµÂÓï¡£
-*El,1.ÉñµÄ|2.ÉñÊ¥µÄ,ÑÇÀúµÂÓï¡£
-*Eld,ÀÏµÄ,ÑÇÀúµÂÓï¡£
-*Epe,Ëµ,ÑÇÀúµÂÓï¡£
-*Eve,·¢³ö£¨ÉùÒô£©,½öÍÆ²â¡£ÑÇÀúµÂÓï¡£
-*Fal,Àä,ÑÇÀúµÂÓï¡£
-*Ge,Ëü,ÑÇÀúµÂÓï¡£
-*Gori,1.Ä£ºıµÄ|2.ÃØÃÜµÄ,ÑÇÀúµÂÓï¡£
-*Gume,¶Ô¿¹,ÑÇÀúµÂÓï¡£
-*Hame,1.¼Ò  2.¹şÄ¬,1.ÑÇÀúµÂÓï 2.Î»ÓÚÏÄ¶¡ºÕ¶û¶«ÄÏ·½µÄÒ»×ùÖĞĞÍÑÇÀúµÂÒÅ¼£¡£
-*Heca,¹ö¿ª£»×ß¿ª£»Ò»±ßÈ¥,ÑÇÀúµÂÓï¡£
-*Kana,µ¨¸Ò,ÑÇÀúµÂÓï¡£
-*Kynd,º¢×Ó,ÑÇÀúµÂÓï¡£
-*La,Ê±¼ä,ÑÇÀúµÂÓï¡£
-*Lae,É¤×Ó,ÑÇÀúµÂÓï¡£
-*Lael,É¤Òô,ÑÇÀúµÂÓï¡£
-*Lor,ºÚ°µ,ÑÇÀúµÂÓï£¬¼Ó-ia±äÃû´Ê¡°ºÚ°µ¡±»ò¶¯´Ê¡°Ê¹±ä°µ¡±¡£
-*Lye,Ê÷,ÑÇÀúµÂÓï£¬-isÎª¸´ÊıĞÎÊ½¡£
-*Ma,Ê²Ã´,ÑÇÀúµÂÓï¡£
-*Mala,¸ß,ÑÇÀúµÂÓï¡£
-*Man,Ë­,ÑÇÀúµÂÓï¡£
-*Math,¼Ò,ÑÇÀúµÂÓï£¬¼Ó-iÎª¸´Êı¡£
-*Mor,ºÚÉ«,ÑÇÀúµÂÓï£¬¼Ó-iÒâÎª¡°ÎŞ¹âµÄ¡±¡£
-*Mora,1.É­ÁÖ|2.Ú¤Ä§|3.°¢ÌØÄªÀ­,°ÂµÂÄªÓï¡£ÔÚÑÇÀúµÂÓïÖĞÒ²ÓĞ¡°Ú¤Ä§£¨Ö±ÒëÎªºÚ°µ´æÔÚ£©¡±µÄÒâË¼¡£·¥ÄªÖ±½ÓÓÃÕâ¸ö´Ê³Æºô°¢ÌØÄªÀ­¡£
-*Na,ÊÇ,ÑÇÀúµÂÓï£¬Ïàµ±ÓÚBe¶¯´Ê¡°is¡±¡£
-*Ne,²»,ÑÇÀúµÂÓï¡£
-*Nen,Ë®,ÑÇÀúµÂÓï¡£
-*Ni,Äã,ÑÇÀúµÂÓï£¬´ó¸ÅÂÊÎªÖ÷¸ñ¡£
-*Nou,ÎÒÃÇµÄ,ÑÇÀúµÂÓï¡£
-*Oio,ÓÀºãµÄ,ÑÇÀúµÂÓï¡£
-*Par,È­£»ÎÕ,ÑÇÀúµÂÓï¡£
-*Racu,£¨Ê¹£©ÏòÏÂ,ÑÇÀúµÂÓï¡£
-*Ry,×÷Îª£»Ïñ,£¨As£©ÑÇÀúµÂÓï¡£
-*Sa,Èç´Ë,£¨So£©ÑÇÀúµÂÓï¡£
-*Sala,¸ß,ÑÇÀúµÂÓï¡£
-*Sel,´óÌü,ÑÇÀúµÂÓï£¬¼Ó-iÎª¸´Êı¡£
-*Sila,ÉÁÒ«,ÑÇÀúµÂÓï£¬silleÎªÃû´ÊĞÎÊ½¡£
-*Sino,ÕâÀï/ÄÇÀï,ÑÇÀúµÂÓï¡£
-*Sorn,±ß½ç,£¨Limit£©ÑÇÀúµÂÓï¡£
-*Sou,ÄãµÄ,ÑÇÀúµÂÓï¡£
-*Span,¿ÉÄÜÊÇÄ³ÖÖ³Ì¶È¸±´Ê£¬±íÊ¾¡°¼«Æä¡±£¬»òºÍ¡°±ß¾³¡±£¬¡°±ßÔ¶¡±ÓĞ¹Ø,ÑÇÀúµÂÓï£¬·¥ÄªÓï¡£
-*Suna,×£¸£,ÑÇÀúµÂÓï£¬sunnaÎª¡°ÊÜ×£µÄ¡±£¬sunnabeÎª¡°±»×£¸£¡±
-*Tar,Ê÷Ä¾£»É­ÁÖ,ÑÇÀúµÂÓï¡£
-*Tarn,1.ÃÅ»§|2.Í¨µÀ|3.¶´Ñ¨,ÑÇÀúµÂÓï¡£
-*Tel,1.·¨Ê¦Ëş 2.Òø,1.ÓÃÄ¢¹½ÖÆ³ÉµÄÌ©ÍßÄá¼Ò×å·¨Ê¦Ëş 2.ÑÇÀúµÂÓï¡£
-*Tor,É½Çğ,ÑÇÀúµÂÓï¡£
-*Tren,÷çÂ¹,ÑÇÀúµÂÓï¡£
-*Tya,³¢,ÑÇÀúµÂÓï£¬-voyÎªÆíÊ¹Ê½¡£
-*Tye,Äã,£¨±ö¸ñYou£©ÑÇÀúµÂÓï¡£
-*Va,ÔÚ¡­¡­Àï,£¨In£©ÑÇÀúµÂÓï¡£
-*Var,×ì£»Ä¾,·­ÒëÎª¡°Ä¾¡±È·¶¨ÊÇÑÇÀúµÂÓï£¬·­ÒëÎª¡°×ì¡±Ò²¿ÉÄÜÊÇ°ÂµÂÄªÓï¡£
-*Vea,º£,ÑÇÀúµÂÓï¡£
-*Vey,µ½,£¨To£©ÑÇÀúµÂÓï¡£
-*Wel,Ìì¿Õ,ÑÇÀúµÂÓï¡£
-*Wend,ÂÃĞĞ,ÑÇÀúµÂÓï¡£
-*Ye,ºÍ,£¨And£©ÑÇÀúµÂÓï¡£
-*Yond,»ÒÉ«,ÑÇÀúµÂÓï¡£
--che,-×å,ÑÇÀúµÂÓï¡£¶ÔÓ¦Í¨ÓÃÓïµÄ-lings¡£
--lings,-Òá,ÈçNedelingsÖ¸ÄáµÂÒá¡£
 "2920, Evening Star","¡¶2920Äê£¬Ò¹ĞÇÔÂ¡·","BOOK.FNAM"
 "2920, First Seed","¡¶2920Äê£¬³õÖÖÔÂ¡·","BOOK.FNAM"
 "2920, FrostFall","¡¶2920Äê£¬ËªÂäÔÂ¡·","BOOK.FNAM"
@@ -203,24 +120,29 @@ Abelmawia Hut,°¢±´¶ûÂíÎ¬ÑÇĞ¡Îİ,CEL
 Abernanit,°¢²®ÄÉÄáÌØ,CEL
 Abibaal,°¢±È°Í¶û,NPC_.FNAM
 Abibaal Assillariran,°¢±È°Í¶û¡¤°¢Î÷À­ÀïÀ¼,NPC_.FNAM
+Abilities,ÖÇ|ÄÜÁ¦,GMST.STRV|SPEL.FNAM
 Abinabi,°¢±ÈÄÉ±È,CEL
 Abishpulu,°¢±ÈÊ²ÆÕÂ³,NPC_.FNAM
 Abishpulu Shand,°¢±ÈÊ²ÆÕÂ³¡¤ÉĞµÂ,NPC_.FNAM
 Abitius,°¢±ÈÌáÎÚË¹,NPC_.FNAM
+Absorb,ÎüÊÕ,GMST.STRV
 Absorb Agility,Ãô½İÎüÊÕ,SPEL.FNAM
 Absorb Agility [Ranged],Ãô½İÎüÊÕ [Ô¶³Ì],SPEL.FNAM
+Absorb Attribute,ÊôĞÔÎüÊÕ,GMST.STRV
 Absorb Endurance,ÄÍÁ¦ÎüÊÕ,SPEL.FNAM
 Absorb Endurance [Ranged],ÄÍÁ¦ÎüÊÕ [Ô¶³Ì],SPEL.FNAM
-Absorb Fatigue,ÌåÁ¦ÎüÊÕ,SPEL.FNAM
+Absorb Fatigue,ÌåÁ¦ÎüÊÕ,GMST.STRV|SPEL.FNAM
 Absorb Fatigue [Ranged],ÌåÁ¦ÎüÊÕ [Ô¶³Ì],SPEL.FNAM
-Absorb Health,ÉúÃüÎüÊÕ,SPEL.FNAM
+Absorb Health,ÉúÃüÎüÊÕ,GMST.STRV|SPEL.FNAM
 Absorb Health [Ranged],ÉúÃüÎüÊÕ [Ô¶³Ì],SPEL.FNAM
 Absorb Intelligence,ÖÇÁ¦ÎüÊÕ,SPEL.FNAM
 Absorb Intelligence [Ranged],ÖÇÁ¦ÎüÊÕ [Ô¶³Ì],SPEL.FNAM
 Absorb Luck,ĞÒÔËÎüÊÕ,SPEL.FNAM
 Absorb Luck [Ranged],ĞÒÔËÎüÊÕ [Ô¶³Ì],SPEL.FNAM
+Absorb Magicka,Ä§Á¦ÎüÊÕ,GMST.STRV
 Absorb Personality,÷ÈÁ¦ÎüÊÕ,SPEL.FNAM
 Absorb Personality [Ranged],÷ÈÁ¦ÎüÊÕ [Ô¶³Ì],SPEL.FNAM
+Absorb Skill,¼¼ÄÜÎüÊÕ,GMST.STRV
 Absorb Speed,ËÙ¶ÈÎüÊÕ,SPEL.FNAM
 Absorb Speed [Ranged],ËÙ¶ÈÎüÊÕ [Ô¶³Ì],SPEL.FNAM
 Absorb Spell Points,Ä§Á¦ÎüÊÕ,SPEL.FNAM
@@ -230,12 +152,15 @@ Absorb Strength [Ranged],Á¦Á¿ÎüÊÕ [Ô¶³Ì],SPEL.FNAM
 Absorb Willpower,ÒâÖ¾ÎüÊÕ,SPEL.FNAM
 Absorb Willpower [Ranged],ÒâÖ¾ÎüÊÕ [Ô¶³Ì],SPEL.FNAM
 Abyssal Cephaliarch,ÉîÔ¨¼ÀÖ÷,*Ïê¼ûHermaeus Mora´ÊÌõ¡£
+Accept this Class,½ÓÊÜÕâ¸öÖ°Òµ,GMST.STRV
 Achel,°¢ÇĞ¶û,NPC_.FNAM
 Acicius,°¢Î÷»ùÎÚË¹,NPC_.FNAM
 Acilius,°¢Î÷ÁôË¹,NPC_.FNAM
 Acolyte,ìòÒË,FACT.RNAM
 Acques,°¢¿Ë,NPC_.FNAM
-Acrobat,ÔÓ¼¼Ê¦,CLAS.FNAM
+Acrobat,ÔÓ¼¼Ê¦,CLAS.FNAM|GMST.STRV
+Acrobatics,ÔÓ¼¼,GMST.STRV
+Activate,½»»¥,GMST.STRV
 Ada,°¢´ï,°ÂµÂÄªÓï¡£1.Éñ|2.¾«»ê
 Ada'Soom Dir-Kamal,°¢´ï'ËÕÄ·¡¤µÏ¶û-¿¨Âê¶û,
 Ada-Mantia,°¢´ï-ÂüÌáÑÇ,*Ïê¼ûAdamantine Tower´ÊÌõ¡£
@@ -285,7 +210,7 @@ Adept,¹¬Ë¾,FACT.RNAM
 Adharanji,°¢µÂÀ¼¼ª,NPC_.FNAM
 Adibael,°¢µÏ°Í¶û,CEL|NPC_.FNAM
 Adibael Hainnabibi,°¢µÏ°Í¶û¡¤º£ÄÉ±È±È,NPC_.FNAM
-Adibael's Yurt,°¢µÏ°Í¶ûµÄÕ±·¿,CEL
+Adibael's Yurt,°¢µÏ°Í¶ûµÄÕÊÅñ,CEL
 Adidshina,°¢µÏÏ£ÄÉ,NPC_.FNAM
 Adil,°¢µÏ¶û,NPC_.FNAM
 Adil Norvayn,°¢µÏ¶û¡¤ÅµÎ¬¶÷,NPC_.FNAM
@@ -295,6 +220,9 @@ Adma,Ìı,ÑÇÀúµÂÓï£¬¼Ó-iaÎª±»¶¯Ê½¡£
 Admantium Axe,¾«½ğÕ½¸«,WEAP.FNAM
 Admiral,°¢µÂÂõÀ­,NPC_.FNAM
 Admiral Rolston,°¢µÂÂõÀ­¡¤ÂŞ¶ûË¹¶Ù,NPC_.FNAM
+Admire,ÔŞÃÀ,GMST.STRV
+Admire Fail,ÔŞÃÀÊ§°Ü,GMST.STRV
+Admire Success,ÔŞÃÀ³É¹¦,GMST.STRV
 Adon,Ñ«¾ô,ÑÇÀúµÂÓï¡£
 Adondasi,°¢¶«´ïË¹,NPC_.FNAM
 Adondasi Sadalvel,°¢¶«´ïË¹¡¤Èø´ïÎ¬,NPC_.FNAM
@@ -317,6 +245,7 @@ Adusamsi Assurnarairan,°¢¶ÅÈøÄ·Î÷¡¤°¢ËÕÄÉÀ³À¼,NPC_.FNAM
 Adusamsi's Ring,°¢¶ÅÈøÄ·Î÷Ö®½ä,CLOT.FNAM
 Adusamsi's Robe,°¢¶ÅÈøÄ·Î÷Ö®³¤ÅÛ,CLOT.FNAM
 Advanced Steam Centurion,Ç¿Á¦ÕôÆû°Ù·ò³¤,CREA.FNAM
+Adventurer,Ã°ÏÕÕß,GMST.STRV
 Aebondeius,°¬°îµÏÎÚË¹,NPC_.FNAM
 Aebondeius Jucanis,°¬°îµÏÎÚË¹¡¤Öì¿¨ÄáË¹,NPC_.FNAM
 Aedra,°¬µÂÀ­,AedrothµÄ¸´ÊıĞÎÊ½¡£²ÎÓë´´ÊÀµÄÔ­Áé£¬°ÂµÂÄªÓïÖĞÒâÎª¡°ÎÒÃÇµÄ×æÏÈ¡±¡£
@@ -344,7 +273,8 @@ Agaia,Î·¾å,ÑÇÀúµÂÓï¡£
 Agarond,°¢¼ÓÂ¡µÂ,NPC_.FNAM
 Agea,°¢¸ñÑÇ,ÑÇÀúµÂÓï¡£1.ÖªÊ¶|2.´«Ëµ|3.ÖÇ»Û|4.ÃØÃÜ
 Agea Relle,°¢¸ñÑÇ¡¤ÈğÀÕ,ÑÇÀúµÂÓï£¬ÒâÎª¡°ÖªÊ¶ÏªÁ÷¡±£¬µÚ¶ş¼ÍÔªÊ±Î»ÓÚÆÆËé¼âËşµÄÒ»×ùÑ§Ğ££¬ºó±»³ÆÎªĞÄÖ®Ä¹Ñ¨¡£
-Agent,ÃÜÌ½|ÌØÊ¹,FACT.RNAM|CLAS.FNAM
+Agent,ÃÜÌ½|ÌØÊ¹,FACT.RNAM|CLAS.FNAM|GMST.STRV
+Agility,Ãô½İ,GMST.STRV|SPEL.FNAM
 Aglaril,°¢¸ñÀ­Àò,NPC_.FNAM
 Agning,°¬¸ñÄş,NPC_.FNAM
 Agrippina,°¢¸ñÀïÆ¤ÄÈ,NPC_.FNAM
@@ -444,6 +374,7 @@ Alcaire,°¢¶û¿­¶û,
 Alcedonia,°¢¶ûÎ÷¶àÄáæ«,NPC_.FNAM
 Alcedonia Amnis,°¢¶ûÎ÷¶àÄáæ«¡¤°¢Ä·ÄáË¹,NPC_.FNAM
 Alchemist,Á¶½ğÊõÊ¿,CLAS.FNAM
+Alchemy,Á¶½ğ,GMST.STRV
 Ald,°ÂµÂ,°ÂµÂÄªÓï¡£¿ÉÄÜ´æÔÚULDµÄ·¢Òô¡£1.ÀÏµÄ|2.¹Å´úµÄ|3.Äê³¤µÄ
 Ald Cyrod,°ÂµÂ¡¤Î÷ÂŞµÂ,Î÷ÂŞµÛ¶û¹Å³Æ¡£
 Ald Daedroth,°ÂµÂ-µÏµÂÂåË¹,CEL
@@ -471,6 +402,7 @@ Alds Baro,°¢µÂË¹¡¤°ÍÂŞ,NPC_.FNAM
 Aldyne,°¢µÂÄİ,NPC_.FNAM
 Aldyne Arenim,°¢µÂÄİ¡¤°¢À×ÄáÄ·,NPC_.FNAM
 Aleft,°¢ÁĞ·òÌØ,CEL
+Alembic,ÕôÁóÆ÷,GMST.STRV
 Alen,°¢Â×,NPC_.FNAM
 Alen Ancestral Tomb,°¢Â×ÏÈ×æÄ¹Ñ¨,CEL
 Alenus,°¢À³ÄÈË¹,NPC_.FNAM
@@ -524,7 +456,7 @@ Almse Arenim,°ÂÄ·Éª¡¤°¢À×ÄáÄ·,NPC_.FNAM
 Almsi,°ÂÄ·Ë¹,NPC_.FNAM
 Almsi Oren,°ÂÄ·Ë¹¡¤°ÂÂ×,NPC_.FNAM
 Almsivi,°ÂÄ·Ï£Î¬,¼´[Alm]alexia + Sotha [Si]l + [Vi]vec¡£ÈıÎ»Ò»ÌåµÄÉñÑ§¸ÅÄî£¬²¢²»µÈÍ¬ÓÚÉóÅĞÏ¯¡£
-Almsivi Intervention,°ÂÄ·Ï£Î¬¸ÉÔ¤,SPEL.FNAM
+Almsivi Intervention,°ÂÄ·Ï£Î¬¸ÉÔ¤,GMST.STRV|SPEL.FNAM
 Almsivi Restoration,°ÂÄ·Ï£Î¬»Ö¸´Êõ,SPEL.FNAM
 Almsivi Restore Fighter,°ÂÄ·Ï£Î¬Õ½Ê¿»Ö¸´Êõ,SPEL.FNAM
 Almsivi Restore Mage,°ÂÄ·Ï£Î¬·¨Ê¦»Ö¸´Êõ,SPEL.FNAM
@@ -549,7 +481,7 @@ Altadoon,ÎäÆ÷,°¬Åµ·ÆÓï¡£
 Altar of Thrond,ÉªÂ¡µÂ¼ÀÌ³,CEL
 Altar to Mephala,Ã··¨À­¼ÀÌ³,ACTI.FNAM
 Alten,°Âëø,½Ü¶ûÓï¡£ºÜ¿ÉÄÜÒâÎª¡°¸Û¿Ú¡±¡£
-Alteration,±ä»¯Ïµ,±ä»¯Ïµ·¨Êõ¡£
+Alteration,±ä»¯Ïµ,GMST.STRV
 Altmer,°ÁÌØÄª,ÓÖÃû¸ß¾«Áé£¬Ö÷Òª¾Ó×¡ÔÚÏÄÄºÈºµº¡£-merÊÇ·ÇÈËÀàÓï¾³ÏÂµÄ³Æºô£¬·­ÒëÊ±²»ÄÜÖ±½Ó·­ÒëÎª¸ß¾«Áé£¬Òª×ñÑ­Ô­ÎÄ·­ÒëÎª°ÁÌØÄª¡£
 Altmora,°ÂÌØÄªÀ­,*Ïê¼ûAtmora´ÊÌõ¡£°ÂµÂÄªÓï¡£ÒâÎª¡°¹ÅÄ¾¡±£¬Ö¸´ú°¢ÌØÄªÀ­¡£
 Alurue,°¢ÈãÎÚ,NPC_.FNAM
@@ -600,9 +532,12 @@ Amili Llaram,°¬Ã×Àö¡¤À­À­Ä·,NPC_.FNAM
 Amiulusus,°¢Ã×Â¬ÎÚË¹,NPC_.FNAM
 Amnis,°¢Ä·ÄáË¹,NPC_.FNAM
 Amori,°¢ÄªÀï,NPC_.FNAM
+Amount to Buy,¹ºÂòÊıÁ¿,GMST.STRV
+Amount to Sell,³öÊÛÊıÁ¿,GMST.STRV
 Amphia,°²·ÆÑÇ,NPC_.FNAM
 Ampoule Pod,°²ê³¼Ô,INGR.FNAM
 Amring,°¢Ä¾ÁÖ,NPC_.FNAM
+Amulet,»¤·û,CLOT.FNAM
 Amulet of Admonition,¸æ½ë»¤·û,CLOT.FNAM
 Amulet of Almsivi Intervention,°ÂÄ·Ï£Î¬¸ÉÔ¤»¤·û,CLOT.FNAM
 Amulet of Ashamanu,°¢É³ÂíÅ¬»¤·û,CLOT.FNAM
@@ -638,8 +573,10 @@ Amulet of Shield,»¤¶Ü»¤·û,CLOT.FNAM
 Amulet of Silence,³ÁÄ¬»¤·û,CLOT.FNAM
 Amulet of Slowfalling,»º×¹»¤·û,CLOT.FNAM
 Amulet of Soothing Balm,Î¿½å»¤·û,CLOT.FNAM
+Amulet of Speed,ËÙ¶È»¤·û,CLOT.FNAM
 Amulet of Spell Absorption,·¨ÊõÎüÊÕ»¤·û,CLOT.FNAM
 Amulet of Stamina,ÌåÁ¦»¤·û,CLOT.FNAM
+Amulet of Strength,Á¦Á¿»¤·û,CLOT.FNAM
 Amulet of Unity,Áª½áÖ®·û,CLOT.FNAM
 Amulet of Usheeja,ÎÚÏ£ÑÇ»¤·û,CLOT.FNAM
 Amulet of Verbosity,×¸ÑÔ»¤·û,CLOT.FNAM
@@ -792,6 +729,7 @@ Antecedants of Dwemer Law,¡¶¶ÍÄª·¨ÂÉÌ½Ô´¡·,BOOK.FNAM
 Antechamber,Ç°µî,CEL
 Anticipation,Ô¤ÖªÕß,Èı´óÉÆÁ¼µÏµÂÀ­£¬²¨Ò®Î÷ÑÇ¡¢°¢×æÀ­ÓëÃ··¨À­½ÔÎªÔ¤ÖªÕß¡£
 Anticlere,°²Ìá¿ËÀ³¶û,
+Antidote,½â¶¾Êõ,SPEL.FNAM
 Antonius,°²¶«ÄáÎÚË¹,CONT.FNAM|NPC_.FNAM
 Antonius Nuncius,°²¶«ÄáÎÚË¹¡¤Å©»ùÎÚË¹,NPC_.FNAM
 Antonius Nuncius' Closet,°²¶«ÄáÎÚË¹¡¤Å©»ùÎÚË¹µÄ±Ú³÷,CONT.FNAM
@@ -818,6 +756,9 @@ Apo,°¢²¨,NPC_.FNAM
 Apocrypha,Òìµä,ºÕÂóÎÚË¹¡¤ÄªÀ­µÄÁìÓò¡£
 Apographa,Ääµä,'the hidden writings'  ÉóÅĞÏ¯ÉñµîËùÖøµÄ×Ú½ÌÊé¼®
 Apothecary,Ò©¼ÁÊ¦,CLAS.FNAM
+Apparatus,Á¶½ğÒÇÆ÷,GMST.STRV
+Apparel,·ş×°,GMST.STRV
+Appearance,ÍâÃ²,GMST.STRV
 Applewatch,Æ»¹ûÍû,Î÷ÂŞµÛ¶ûµÄ²¼Â³ÂêÎ÷²¿É½ÇøµÄÒ»¸öĞ¡¶¨¾Óµã¡£
 Apprentice,Ñ§Í½,FACT.RNAM
 Apprentice's Alembic,Ñ§Í½¼¶ÕôÁóÆ÷,APPA.FNAM
@@ -869,7 +810,7 @@ Arcanorum,°¢¿¨ÅµÂ×,°Â·¨Ñ§ÔºµÄËùÔÚµØ
 Arch-Mage,Ê×Ï¯·¨Ê¦,FACT.RNAM
 Archcanon,´óÖ÷½Ì,MISC.FNAM
 Archcanon's Private Key,´óÖ÷½ÌµÄË½ÈË×¡ËùÔ¿³×,MISC.FNAM
-Archer,¹­¼ıÊÖ,CLAS.FNAM
+Archer,¹­¼ıÊÖ,CLAS.FNAM|GMST.STRV
 Archmage,´ó·¨Ê¦,Óë´óµ¼Ê¦(Archmagister)½øĞĞÇø·Ö¡£
 Archmagister,´óµ¼Ê¦,FACT.RNAM
 Archmaster,¼ÒÖ÷,FACT.RNAM
@@ -940,13 +881,17 @@ Arlowe,°¢ÂŞÎ¬,NPC_.FNAM
 Armigers Stronghold,ìè´Ó±¤Àİ,CEL
 Armigers Stronghold dungeon key,ìè´Ó±¤ÀİµØÀÎÔ¿³×,MISC.FNAM
 Armion,°¢Ã×¶÷,NPC_.FNAM
+Armor,»¤¼×,GMST.STRV
 Armor Eater,¿ø¼×ÍÌÊÉÕß,SPEL.FNAM
+Armor Rating,·À»¤µÈ¼¶,GMST.STRV
+Armorer,ĞŞÀí,GMST.STRV
 Armory,¾üĞµ¿â|×°±¸ÉÌ,CEL
+Arms,ÎäÆ÷µê,ACTI.FNAM
 Armun-An Bonemold Cuirass,°¢ÃÉ-°²¹ÇÄ£ĞØ¼×,ARMO.FNAM
 Armun-An Bonemold L Pauldron,°¢ÃÉ-°²¹ÇÄ£×ó¼ç¼×,ARMO.FNAM
 Armun-An Bonemold R Pauldron,°¢ÃÉ-°²¹ÇÄ£ÓÒ¼ç¼×,ARMO.FNAM
 Armun-Ani,°¢¶ûÃÉ-°¢Äá,µ¤ÄªµÄÒ»¸öÎÄ»¯
-Arnand,°¢¶ûÄÏµÂ,NPC_.FNAM|×æÁÖµÄ²¼À³¶ÙÃû¡£
+Arnand,°¢¶ûÄÏµÂ,NPC_.FNAM
 Arnand Liric,°¢¶ûÄÏµÂ¡¤À³Àû¿Ë,NPC_.FNAM
 Arns,°¢¶÷Ë¹,NPC_.FNAM
 Arns Saren,°¢¶÷Ë¹¡¤ÈøÂ×,NPC_.FNAM
@@ -1106,6 +1051,9 @@ Ashurnasaddas,°¢Êæ¶ûÄÉÈø´ïË¹,NPC_.FNAM
 Ashurnibibi,°¢ÊæÄá±È±È,CEL
 Ashurnisammis,°¢Ê²Â³ÄáÈøÃ×Ë¹,CREA.FNAM
 Ashushshirari,°¢ÊæÎ÷ÄÇÀï,NPC_.FNAM
+Aspect of Guile,½ÆÕ©Ö®Éí,CREA.FNAM
+Aspect of Speed,ÉñËÙÖ®Éí,CREA.FNAM
+Aspect of Strength,¹ÖÁ¦Ö®Éí,CREA.FNAM
 Aspirant,Ö¾Ê¿,FACT.RNAM
 Assaba-Bentus,°¢Èø°Í-±¾Í¼Ë¹,NPC_.FNAM
 Assalatammis,°¢ÈøÀ­ËşÃ×Ë¹,NPC_.FNAM
@@ -1134,7 +1082,7 @@ Assarnud Slave Key,°¢ÈøÅ¬µÂÅ«Á¥Ô¿³×,MISC.FNAM
 Assarnuridan,°¢ÈøÅ¬Àïµ¤,NPC_.FNAM
 Assarrapanat,°¢ÈøÀ­ÅÁÄÇÌØ,NPC_.FNAM
 Assarrimisun,°¢ÈøÀïÃ×ËÉ,NPC_.FNAM
-Assassin,´Ì¿Í,CLAS.FNAM|FACT.RNAM|NPC_.FNAM
+Assassin,´Ì¿Í,CLAS.FNAM|FACT.RNAM|GMST.STRV|NPC_.FNAM
 Assatlit,°¢ÈøÀïÌØ,NPC_.FNAM
 Assatlit Assudnilamat,°¢ÈøÀïÌØ¡¤°¢ËÕµÂÄáÀ­Âê,NPC_.FNAM
 Assattadaishah,°¢ÈøËş´ïÒÁÉ³,NPC_.FNAM
@@ -1158,7 +1106,6 @@ Assirari,°¢Î÷À­Àö,CEL|NPC_.FNAM
 Assirari Zama-Rasour,°¢Î÷À­Àö¡¤ÔúÂê-À­ËÕ¶û,NPC_.FNAM
 Assirari Zama-Rasour's Hut,°¢Î÷À­Àö¡¤ÔúÂê-À­ËÕ¶ûµÄĞ¡Îİ,CEL
 Assirnarari,°¢Î÷ÄÉÀ­Àï,NPC_.FNAM
-Associate,¹ÍÓ¶´òÊÖ,FACT.RNAM
 Assonirishpal,°¢Ë÷ÄáÀïÊ²ÅÁ¶û,NPC_.FNAM
 Assu,°¢ËÕ,CEL
 Assudiraplit,°¢ËÕµÏÀ­Æ¤ÀûÌØ,NPC_.FNAM
@@ -1233,6 +1180,7 @@ Ather Belden,°¢Éª¡¤±´¶ûµÇ,NPC_.FNAM
 Athesie,°²ÉªÈû,NPC_.FNAM
 Athesie Andas,°²ÉªÈû¡¤°²´ïË¹,NPC_.FNAM
 Athin,°¢ĞÁ,NPC_.FNAM
+Athletics,ÔË¶¯,GMST.STRV
 Athones,°²¶«ÄáË¹,NPC_.FNAM
 Athram,°¢ÉªÀ­Ä·,NPC_.FNAM
 Athren,°¢ÉªÂ×,CEL|NPC_.FNAM
@@ -1244,8 +1192,10 @@ Atmora,°¢ÌØÄªÀ­,´«ËµÖĞÌ©Ä·Èğ¶û±±·½µÄÒ»Æ¬±ù·â´óÂ½£¬¾İËµÊÇÅµµÂÈËµÄ¹ÊÏç¡£
 Atrene Camp,°¢ÌØÀ×Ú«ÓªµØ,
 Atrius,°¢ÌØÀûÎÚË¹,NPC_.FNAM
 Atronach,ÊÌÁé,³£¼ûÒ²·­ÒëÎªxxÔªËØ¡¢xxÄ§Ïñ£¨ÓÉÓÚÔªËØÊÇ¸ü³£¼ûµÄElementµÄ·­Òë£¬Òò´Ë½¨ÒéÊ¹ÓÃ¡°ÊÌÁé¡±¶ø²»ÊÇ¡°ÔªËØ¡±£©£¬ÊÇÒ»ÖÖÔªËØĞÍµÏµÂÀ­£¬´ÓäÎÃğÎ»ÃæÕÙ»½¶øÀ´£¬Æä¸üÎªÇ¿´óµÄĞÎÌ¬Ò²³ÆÎª¾ıÖ÷£¨Monarch£©¡£ÓĞÊ±Ä§Ïñ£¨Golem£©Ò²»á±»Í³³ÆÎªÊÌÁé£¬µ«¶şÕß±¾ÖÊÉÏÓĞËùÇø±ğ¡£
+Attack,¹¥»÷,GMST.STRV
 Attelivupis,°¢ÌØÀû·òÆ¤Ë¹,NPC_.FNAM
 Attelivupis Catius,°¢ÌØÀû·òÆ¤Ë¹¡¤¿¨ÌáÎÚË¹,NPC_.FNAM
+Attribute List,ÊôĞÔÁĞ±í,GMST.STRV
 Attribution's Share,¹éÒòÖ®Ïí,²¨Ò®Î÷ÑÇµÄÁìÓò£¬ÓÖÃû¡°ÉßÉ½¡±¡£
 Atulg,°¢Í¼¸ñ,NPC_.FNAM
 Atulg gro-Largum,°¢Í¼¸ñ¡¤¸ñÂŞ-À­¹ÅÄ·,NPC_.FNAM
@@ -1300,6 +1250,7 @@ Autrus,°ÂÌØÂ³Ë¹,NPC_.FNAM
 Avani,°¢ÍßÄá,NPC_.FNAM
 Avatheledia,Ê®ÎåÓÖÒ»,·¥ÄªÓï£¬À´×Ô¶ÍÄªÓïAvatheled
 Avel,°¢Î¬¶û,NPC_.FNAM
+Averted Eyes,×ªÒÆÊÓÏßÊõ,SPEL.FNAM
 Avilo,°¢Î¬Âå,NPC_.FNAM
 Avon,°£·ë,NPC_.FNAM
 Avon Ravel,°£·ë¡¤À­Î¬¶û,NPC_.FNAM
@@ -1309,6 +1260,7 @@ Avron,°¢·òÂ¡,NPC_.FNAM
 Avron Gols,°¢·òÂ¡¡¤¸ê¶ûË¹,NPC_.FNAM
 Avus,°¢Î¬Ë¹,NPC_.FNAM
 Avus Belvilo,°¢Î¬Ë¹¡¤±´¶ûÎ¬Âå,NPC_.FNAM
+Axe,¸«|¸«Àà|¸«×Ó,WEAP.FNAM|ACTI.FNAM|GMST.STRV
 Axe-Wife,¸«ÆŞ,NPC_.FNAM
 Ayem,°¬¶÷,µÏµÂÀ­×ÖÄ¸±íÖĞ¶ÔÓ¦AµÄ×ÖÄ¸£¬ÒàÔÚµ¤Äª¿ÚÓïÖĞÓÃÓÚÖ¸´ú°¢ÂêÀ³Î÷ÑÇ¡£
 Ayleid,ÑÇÀúµÂ,ĞÄÔàµØ¸ß¾«Áé£¬»ò³ÆÈøÀûÑÇÇĞ¡¢Ò°¾«Áé¡£ÑÇÀúµÂÊÇ¹ãÎªÈËÖªµÄÅ«Á¥Ö÷£¬´ó¸Å1eÄ©µ½2e×óÓÒÑÇÀúµÂ³¹µ×·ÅÆú³Ç°îÉú»î£¬ÆäÖĞ´ó²¿·ÖÒÔ²¿ÂäµÄĞÎÊ½½øÈë»ÄÒ°£¬±äµÃÅÅÍâ¶ø¹ÂÁ¢¡£ÒÀ¿¿³Ç°îÖÆ¶È¹ã·ºÉú»îÓÚÎ÷ÂŞµÛ¶û£¬¶øºó´óÁ¿ÕÆÎÕÇ¿È¨µÄÑÇÀúµÂ³Ç°î±»°¢À³Î÷ÑÇÆğÒåÍÆ·­¡£
@@ -1408,6 +1360,7 @@ Banden Indarys,°àµÇ¡¤Òò´ïÈğË¹,NPC_.FNAM
 Bandit,¶ñÍ½|Ç¿µÁ,FACT.RNAM|MISC.FNAM
 Bandit Lair,Ç¿µÁ³²Ñ¨,CEL
 Bandit's Key,Ç¿µÁµÄÔ¿³×,MISC.FNAM
+Bane,»ö|ÔÖ,CEL|SPEL.FNAM
 Banekin,ÔÖĞÇ,Ò»ÖÖÈËĞÎµÏµÂÀ­ÉúÎï¡£
 Bangkorai,°à¿ÆÀ³,
 BanHammer,×çÖäÖ®´¸,WEAP.FNAM
@@ -1420,9 +1373,9 @@ Bar Door,¾Æ°ÉÃÅ,ACTI.FNAM
 Baradras,°ÍÀ­´ïË¹,NPC_.FNAM
 Baram,°ÍÀ­Ä·,NPC_.FNAM
 Baram Ancestral Tomb,°ÍÀ­Ä·ÏÈ×æÄ¹Ñ¨,CEL
-Barbarian,Ò°ÂùÈË,CLAS.FNAM
+Barbarian,Ò°ÂùÈË,CLAS.FNAM|GMST.STRV
 Barbas,°Í°ÍË¹,¿ËÀ­Íş¿âË¹¡¤Î¬¶ûµÄÖÒÈ®£¬±»ÈÏÎªºÜ¿ÉÄÜÊÇ¸ÃµÏµÂÀ­µÄÁíÒ»°ë×ÔÎÒ¡£
-Bard,Ò÷ÓÎÊ«ÈË,CLAS.FNAM
+Bard,Ò÷ÓÎÊ«ÈË,CLAS.FNAM|GMST.STRV
 Barelo,°ÍÀ×Âå,NPC_.FNAM
 Baren,°ÍÂ×,NPC_.FNAM
 Baren Alen,°ÍÂ×¡¤°¢Â×,NPC_.FNAM
@@ -1488,11 +1441,15 @@ Barracks and Armory,±øÓªºÍ¾üĞµ¿â,CEL
 Barred Door,Õ¤À¸ÃÅ,ACTI.FNAM
 Barred Trapdoor,Õ¤À¸Ê½µØ°åÃÅ,ACTI.FNAM
 Barrel,Í°,CONT.FNAM
+Barrel of Testing,²âÊÔÍ°,CONT.FNAM
 Barren Cave,»ÄÎß¶´Ñ¨,
 Barren Mine,Æ¶ñ¤¿ó³¡,
 Barri,°ÍÀï,NPC_.FNAM
+Barrier,ÆÁÕÏ,ACTI.FNAM|SPEL.FNAM
+Barrow,Ú£,CEL
 Barrowbough,Ê÷èâ¹Å·Ø,
 Barsaebic,°Í¶ûÈü±ÈÅÉ,ÔÚÄÉ·ÒÈû¶û·ÖÁÑºóÀë¿ªÎ÷ÂŞµÂµÄ°¬µÂÀ­ÅÉÑÇÀúµÂ
+Barter,½»Ò×,GMST.STRV
 Barus,°ÍÂ³Ë¹,NPC_.FNAM
 Barusi,°ÍÈçÎ÷,NPC_.FNAM
 Barusi Venim,°ÍÈçÎ÷¡¤Î¬ÄáÄ·,NPC_.FNAM
@@ -1516,7 +1473,7 @@ Bato,°ÍÍĞ,NPC_.FNAM
 Bato Veranius,°ÍÍĞ¡¤Î¬À¼ÄáÎÚË¹,NPC_.FNAM
 Battle Axe of Wounds,´´ÉË¾Ş¸«,WEAP.FNAM
 Battlehorn Castle,Õ½½Ç³Ç±¤,
-Battlemage,Õ½¶··¨Ê¦,CLAS.FNAM
+Battlemage,Õ½¶··¨Ê¦,CLAS.FNAM|GMST.STRV
 Baune,Ç¿´óµÄ,ÑÇÀúµÂÓï¡£
 Bauril,±«Àö¶û,NPC_.FNAM
 Baurin,°üÁÖ,NPC_.FNAM
@@ -1593,6 +1550,7 @@ Belos,±´ÂåË¹,NPC_.FNAM
 Belos Falos,±´ÂåË¹¡¤·¨ÂåË¹,NPC_.FNAM
 Bels,±´¶ûË¹,NPC_.FNAM
 Bels Uvenim,±´¶ûË¹¡¤ÎÚÎ¬ÄáÄ·,NPC_.FNAM
+Belt,Ñü´ø,CLOT.FNAM
 Belt of Balyna's Soothing Balm,°ÍÀûÄÈµÄÎ¿½åÑü´ø,CLOT.FNAM
 Belt of Charisma,÷ÈÁ¦Ñü´ø,CLOT.FNAM
 Belt of Fortitude,¼áÈÍÑü´ø,CLOT.FNAM
@@ -1630,10 +1588,12 @@ Benamamat,±´ÄÉÂêÂíÌØ,NPC_.FNAM
 Benar,±´ÄÉ¶û,NPC_.FNAM
 Benar Neleth,±´ÄÉ¶û¡¤ÄÎÀ³Ë¹,NPC_.FNAM
 Bendu Olo,±¾¶¼¡¤°ÂÂå,
+Benediction,×£¸£,SPEL.FNAM
 Benelas,±´ÄÚÀ­Ë¹,NPC_.FNAM
 Beneran,±´ÄÚÀ¼,NPC_.FNAM
 Benethran,±´ÄÚÌØÀ¼,NPC_.FNAM
 Beni,±¾Äá¶û,NPC_.FNAM
+Benison,×£¸£,SPEL.FNAM
 Benkongerike,¹ÇÍ·¹ú¶È,CEL
 Bensamsi,±¾ÈøÄ·Î÷,CEL
 Bensiberib Camp,±¾Èû²¼Èğ²©ÓªµØ,CEL
@@ -1758,6 +1718,7 @@ Bjoulsae River,±ËÅ·ÈûºÓ,
 Black Anther,ºÚÉ«»¨Ò©,INGR.FNAM
 Black Anther Plant,ºÚÉ«»¨Ò©Ö²Îï,CONT.FNAM
 Black Balconies of Fieldhouse,Çò¹İ¶´Ñ¨ºÚÉ«Â¶Ì¨,
+Black Blindfold,ºÚÕÚÑÛ²¼,CLOT.FNAM
 Black Book,ºÚ°µÖ®Öø,ºÕÂóÓÈË¹¡¤ÄªÀ­µÄÔìÎï¡£
 Black Dart,ºÚïÚ,WEAP.FNAM
 Black Dart Adren,ºÚïÚ°¢µÂÂ×,NPC_.FNAM
@@ -1772,12 +1733,14 @@ Black Jinx,ºÚÉ«¶òÔË,CLOT.FNAM
 Black Left Glove,ºÚÉ«×óÊÖÌ×,CLOT.FNAM
 Black Lichen,ºÚÉ«µØÒÂ,CONT.FNAM|INGR.FNAM
 Black Marsh,ºÚÕÓÔó,°¢¶û¹±µÄÖ÷Òª¾Û¾ÓµØ¡£
+Black Pants,ºÚÉ«¿ã×Ó,CLOT.FNAM
 Black Right Glove,ºÚÉ«ÓÒÊÖÌ×,CLOT.FNAM
 Black Road,ºÚÉ«´óµÀ,
 Black Rock Caverns,ºÚÑÒ¶´Ñ¨,µØÃû¡£
 Black Rock Main Chamber,ºÚÑÒ-Ö÷¶´Ìü,
 Black Shalk,ºÚÉ«É°¿Ç³æ,
 Black Shalk Cornerclub,ºÚÉ°¿Ç³æ½Ö½Ç¾ãÀÖ²¿,CEL|ACTI.FNAM
+Black Shirt,ºÚÉ«ÉÏÒÂ,CLOT.FNAM
 Black-Heart Blight,ºÚĞÄ¿İÎ®Êõ,SPEL.FNAM
 Blackcap,ÃÉÃæ,FACT.RNAM
 Blackened Heart,ÄùÎÛÖ®ĞÄ,CEL
@@ -1800,11 +1763,13 @@ Blessed Spear,×£¸£³¤Ç¹,WEAP.FNAM
 Blessed Touch,×£¸£Ö®´¥,SPEL.FNAM
 Blessed Tower Shield,×£¸£Ëş¶Ü,ARMO.FNAM
 Blessed Word,×£¸£Ó½³ª,SPEL.FNAM
+Blessing,×£¸£|ÓÓ,SPEL.FNAM
 Blessings of the First Corner,µÚÒ»½ÇµÄ×£¸£,SPEL.FNAM
 Blessings of the Fourth Corner,µÚËÄ½ÇµÄ×£¸£,SPEL.FNAM
 Blessings of the Second Corner,µÚ¶ş½ÇµÄ×£¸£,SPEL.FNAM
 Blessings of the Third Corner,µÚÈı½ÇµÄ×£¸£,SPEL.FNAM
-Blight Disease,¿İÎ®²¡,Óëthe BlightÇø·Ö¡£
+Blight Cure,¿İÎ®ÖÎÓúÊõ,SPEL.FNAM
+Blight Disease,¿İÎ®²¡,GMST.STRV
 Blight Disease Immunity,¿İÎ®²¡ÃâÒßÊõ,SPEL.FNAM
 Blight Storms,¿İÎ®²¡·ç±©,
 Blighted Alit,¿İÎ®öùòá,CREA.FNAM
@@ -1817,16 +1782,19 @@ Blighted Rat,¿İÎ®ÀÏÊó,CREA.FNAM
 Blighted Scrib,¿İÎ®Ó×³æ,CREA.FNAM
 Blighted Shalk,¿İÎ®É°¿Ç³æ,CREA.FNAM
 Blightguard,¿İÎ®Ö®¶Ü,SPEL.FNAM
-Blind,Ê§Ã÷,SPEL.FNAM
+Blind,Ê§Ã÷,GMST.STRV|SPEL.FNAM
 Blind Ring,Ã¤Ä¿Ö®½ä,CLOT.FNAM
 Blind Thrall,Ã¤Å«,FACT.RNAM
 Bliss,¸£µØ,Õ½ÀõÈºµº¿ñÔêµÄÖ÷Òª³ÇÕò£¬´ú±í×ÅĞÂĞ»¶ûË¹»¶ÓäºÍÃ÷ÁÁµÄÒ»Ãæ¡£
 Bloat,ÅòÕÍ¿é¾¥,INGR.FNAM
 Bloated Float,ÅİÕÍÆ¯¸¡,´¬Ãû¡£
 Bloatspore,ÅòÕÍæß×Ó,CONT.FNAM
+Block,¸ñµ²,GMST.STRV
 Blocked door to Anudnabia,Í¨Íù°¢Å¬µÂÄÉ±ÈÑÇµÄ¶Â×¡µÄÃÅ,DOOR.FNAM
+Blocks,×èµ²,GMST.STRV
 Blodskaal,Ë¹¿¨¶ûÑªÇ×,
 Blonia,²¼ÂåÄáÑÇ,MISC.FNAM|NPC_.FNAM
+Blood,Ñª,SPEL.FNAM
 Blood Axe,ÊÈÑª¸«,WEAP.FNAM
 Blood Belt,ÑªÖ®Ñü´ø,CLOT.FNAM
 Blood Curse: Fatigue,ÑªÖ®×çÖä£ºÌåÁ¦,SPEL.FNAM
@@ -1852,12 +1820,15 @@ Bloodskal,ÑªÒ÷ÈĞ,WEAP.FNAM
 Bloodskal Barrow,ÑªÒ÷¹ÅÚ£,CEL
 Bloodworm Helm,ÑªÈä³æÖ®¿ø,ARMO.FNAM
 Bloody Note,´øÑªµÄ±Ê¼Ç,BOOK.FNAM
+Bloom,·±Ê¢,SPEL.FNAM
+Blouse,ÉÀ,CLOT.FNAM
 Blue Clay Pot,À¶É«Õ³ÍÁºø,MISC.FNAM
 Blue Glass Pot,À¶É«²£Á§ºø,MISC.FNAM
 Blue Road,À¶É«´óµÀ,
 Blue-Tooth,À¶ÑÀ,NPC_.FNAM
 BlueDev,¿ª·¢Õß,CLOT.FNAM
 BlueDev's Ring of Viewing,¿ª·¢ÕßµÄ»Ø¿´Ö®½ä,CLOT.FNAM
+Blunt Weapon,¶ÛÆ÷,GMST.STRV
 Boat Hull,´¬²Õ,ACTI.FNAM
 Bodean,²¨µÏ¶÷,NPC_.FNAM
 Bodean Camp,²©¶¡ÓªµØ,
@@ -1942,6 +1913,7 @@ Book of Life and Service,¡¶ÉúÃüÓë·îÏ×Ö®Êé¡·,BOOK.FNAM
 Book of Rest and Endings,¡¶³¤ÃßÓëÖÕ½áÖ®Êé¡·,BOOK.FNAM
 Bookseller,ÊéÉÌ,CEL|CLAS.FNAM
 Bookshelf,Êé¼Ü,ACTI.FNAM
+Boots,Ñ¥×Ó,ARMO.FNAM
 Boots of Blinding Speed,ÖÂÃ¤ÉñËÙÑ¥,ARMO.FNAM
 Boots of the Apostle,Ê¹Í½Ö®Ñ¥,ARMO.FNAM
 Border Watch,±ßÍû,
@@ -1953,6 +1925,7 @@ Borwen,²©ö©,NPC_.FNAM
 Boryn,²¨Àû¶÷,NPC_.FNAM
 Boryn Varen,²¨Àû¶÷¡¤ÍßÂ×,NPC_.FNAM
 Bosmer,²¨Ë¹Äª,ÓÖÃûÄ¾¾«Áé£¬¾Ó×¡ÔÚÌ©Ä·Èğ¶ûÄÏ²¿µÄÉ­ÁÖ¡£-merÊÇ·ÇÈËÀàÓï¾³ÏÂµÄ³Æºô£¬·­ÒëÊ±²»ÄÜÖ±½Ó·­ÒëÎªÄ¾¾«Áé£¬Òª×ñÑ­Ô­ÎÄ·­ÒëÎª²¨Ë¹Äª¡£
+Bosom,Óµ,SPEL.FNAM
 Boss,²¨Ë¹,NPC_.FNAM
 Boss Crito,²¨Ë¹¡¤¿ËÀïÍĞ,NPC_.FNAM
 Both,²©Ë¹,NPC_.FNAM
@@ -1960,22 +1933,25 @@ Both gro-Durug,²©Ë¹¡¤¸ñÂŞ-¶ÅÂ³¸ñ,NPC_.FNAM
 Botrir,²©ÌØÀï¶û,NPC_.FNAM
 Bottle,Æ¿×Ó,MISC.FNAM
 Bottom Level,µ×²ã,CEL
-Bound Battle Axe,Êø¸¿¾Ş¸«,WEAP.FNAM
+Bound Battle Axe,Êø¸¿¾Ş¸«,GMST.STRV|WEAP.FNAM
 Bound Battle-Axe,Êø¸¿¾Ş¸«,SPEL.FNAM
-Bound Boots,Êø¸¿Ñ¥×Ó,ARMO.FNAM|SPEL.FNAM
-Bound Cuirass,Êø¸¿ĞØ¼×,ARMO.FNAM|SPEL.FNAM
-Bound Dagger,Êø¸¿Ø°Ê×,SPEL.FNAM|WEAP.FNAM
+Bound Boots,Êø¸¿Ñ¥×Ó,ARMO.FNAM|GMST.STRV|SPEL.FNAM
+Bound Cuirass,Êø¸¿ĞØ¼×,ARMO.FNAM|GMST.STRV|SPEL.FNAM
+Bound Dagger,Êø¸¿Ø°Ê×,GMST.STRV|SPEL.FNAM|WEAP.FNAM
 Bound Gauntlets,Êø¸¿Íó¼×,SPEL.FNAM
-Bound Helm,Êø¸¿Í·¿ø,SPEL.FNAM
+Bound Gloves,Êø¸¿ÊÖÌ×,GMST.STRV
+Bound Helm,Êø¸¿Í·¿ø,GMST.STRV|SPEL.FNAM
 Bound Left Gauntlet,Êø¸¿×óÍó¼×,ARMO.FNAM
-Bound Longbow,Êø¸¿³¤¹­,SPEL.FNAM|WEAP.FNAM
-Bound Longsword,Êø¸¿³¤½£,SPEL.FNAM|WEAP.FNAM
-Bound Mace,Êø¸¿¶¤´¸,SPEL.FNAM|WEAP.FNAM
+Bound Longbow,Êø¸¿³¤¹­,GMST.STRV|SPEL.FNAM|WEAP.FNAM
+Bound Longsword,Êø¸¿³¤½£,GMST.STRV|SPEL.FNAM|WEAP.FNAM
+Bound Mace,Êø¸¿¶¤´¸,GMST.STRV|SPEL.FNAM|WEAP.FNAM
 Bound Right Gauntlet,Êø¸¿ÓÒÍó¼×,ARMO.FNAM
-Bound Shield,Êø¸¿¶ÜÅÆ,ARMO.FNAM|SPEL.FNAM
-Bound Spear,Êø¸¿³¤Ç¹,SPEL.FNAM|WEAP.FNAM
+Bound Shield,Êø¸¿¶ÜÅÆ,ARMO.FNAM|GMST.STRV|SPEL.FNAM
+Bound Spear,Êø¸¿³¤Ç¹,GMST.STRV|SPEL.FNAM|WEAP.FNAM
 Bound_Helm,Êø¸¿Í·¿ø,ARMO.FNAM
+Bounty,ÉÍ½ğ,GMST.STRV
 Bovkinna,²¨Ü½¼ªÄÈ,NPC_.FNAM
+Bow,¹­,WEAP.FNAM
 Bow of Shadows,°µÓ°Ö®¹­,WEAP.FNAM
 Bowl,Íë,MISC.FNAM
 Bracques,²¼À­¿ËË¹,NPC_.FNAM
@@ -1988,7 +1964,7 @@ Bralas Mels,²¼À­À×Ë¹¡¤Ã·¶ûË¹,NPC_.FNAM
 Bralis,²¼À­ÀïË¹,NPC_.FNAM
 Bralis Seralas,²¼À­ÀïË¹¡¤ÈûÀ­À­Ë¹,NPC_.FNAM
 Brallion,²¼À­Àï°º,CLOT.FNAM|MISC.FNAM|NPC_.FNAM
-Brallion's Exquisite Ring,²¼À­Àï°ºµÄ¾«ÖÂ½äÖ¸,CLOT.FNAM
+Brallion's Exquisite Ring,²¼À­Àï°ºµÄ¾«ÖÂµÄ½äÖ¸,CLOT.FNAM
 Brallion's Key,²¼À­Àï°ºµÄÔ¿³×,MISC.FNAM
 Bralsea,²¼À­Î÷æ«,NPC_.FNAM
 Bralsea Seloth,²¼À­Î÷æ«¡¤ÉªÂŞË¹,NPC_.FNAM
@@ -2023,6 +1999,7 @@ Braynas Hlervu's House,²¼À×ÄÉË¹¡¤ºÕÀÕÎäµÄ·¿×Ó,CEL
 Bread,Ãæ°ü,INGR.FNAM
 Breakneck Cave,¶Ï¾±¶´Ñ¨,»òÓÃbreakneckµÄ³£¼ûÒıÉêÒå£¬<q>dangerous or reckless<q>¡£
 Breakneck Cave Inner Chamber,¶Ï¾±¶´Ñ¨-ÄÚÌü,
+Breath,Ï¢|ºôÎü,CEL|GMST.STRV
 Breathing Water,¡¶Ë®ÖĞºôÎü¡·,BOOK.FNAM
 Bredasu,²¼Èğ´ïËÕ,NPC_.FNAM
 Bredasu Gilaram,²¼Èğ´ïËÕ¡¤¼ªÀ­Ä·,NPC_.FNAM
@@ -2065,6 +2042,8 @@ Breyns,²¼ÈğË¹,NPC_.FNAM
 Breyns Othravel,²¼ÈğË¹¡¤°ÂË¹À­Î¬¶û,NPC_.FNAM
 Breyns Randas,²¼ÈğË¹¡¤È»´ïË¹,NPC_.FNAM
 Briarheart,¾£¼¬Ö®ĞÄ,
+Bribe Fail,»ßÂ¸Ê§°Ü,GMST.STRV
+Bribe Success,»ßÂ¸³É¹¦,GMST.STRV
 Bridge of Heldon,ºÕ¶û¶ÙÇÅ,¡¶ÅåÁÖÄÉ¶ûÖ®¸è¡·ÖĞ³öÏÖµÄµØµã£¬¿ÉÄÜÎ»ÓÚ°×ºÓÉÏ¡£
 Brief History of the Empire v 1,¡¶µÛ¹ú¼òÊ·¡¤¾íÒ»¡·,BOOK.FNAM
 Brief History of the Empire v 2,¡¶µÛ¹ú¼òÊ·¡¤¾í¶ş¡·,BOOK.FNAM
@@ -2102,7 +2081,6 @@ Broom,É¨Öã,MISC.FNAM
 Broris,²¼ÂŞÀûË¹,NPC_.FNAM
 Broris Fals,²¼ÂŞÀûË¹¡¤·¨À­Ë¹,NPC_.FNAM
 Brotch Camp,²¼ÂŞÆæÓªµØ,»òÈÏÎª±­ÈüÓÃÁËbroachµÄ·½ÑÔ°æ±¾£¬¡°×êÍ·ÓªµØ¡±¡£
-Brother,ĞÖµÜ,FACT.RNAM
 Brothes,²¼ÂŞÉªË¹,NPC_.FNAM
 Brothes Oran,²¼ÂŞÉªË¹¡¤°ÂÀ¼,NPC_.FNAM
 Brown Book of 3E 426,¡¶µÚÈı¼ÍÔª426Äê×ØÆ¤Êé¡·,BOOK.FNAM
@@ -2160,7 +2138,7 @@ Buoyant Armiger,Áé¶¯ìè´Ó,NPC_.FNAM
 Buoyant Armigers,Áé¶¯ìè´Ó,
 Burcanius,²¼¶û¿¨ÄáÎÚË¹,NPC_.FNAM
 Burcanius Varo,²¼¶û¿¨ÄáÎÚË¹¡¤ÍßÂŞ,NPC_.FNAM
-Burden,ÖØ¸ºÊõ,SPEL.FNAM
+Burden,ÖØ¸º|ÖØ¸ºÊõ,GMST.STRV|SPEL.FNAM
 Burden of Sin,×ïÖ®ÖØ¸º,SPEL.FNAM
 Burden Touch,ÖØ¸ºÖ®´¥,SPEL.FNAM
 Burned Out Torch,ÉÕÍêµÄ»ğ°Ñ,ACTI.FNAM|LIGH.FNAM
@@ -2191,20 +2169,21 @@ Caius Cosades' Key,¿­ÎÚË¹¡¤¿ÆÈøµÂË¹µÄÔ¿³×,MISC.FNAM
 Caius' Black Pants,¿­ÎÚË¹µÄºÚÉ«¿ã×Ó,CLOT.FNAM
 Caius' Black Shirt,¿­ÎÚË¹µÄºÚÉ«ÉÏÒÂ,CLOT.FNAM
 Caius' Ring,¿­ÎÚË¹µÄ½äÖ¸,CLOT.FNAM
-Calcinator,ìÑÉÕÆ÷,
+Calcinator,ìÑÉÕÆ÷,GMST.STRV
 Caldera,¿¨¶ûµÂÀ­,CEL|ACTI.FNAM
 Caldera Ledger,¿¨¶ûµÂÀ­ÕË²¾,BOOK.FNAM
 Caldera Mine,¿¨¶ûµÂÀ­¿ó³¡,CEL
 Caldera Mining Company,¿¨¶ûµÂÀ­¿óÒµ¹«Ë¾,ACTI.FNAM
 Caldera Mining Contract,¿¨¶ûµÂÀ­¿ó³¡ºÏÍ¬Êé,BOOK.FNAM
 Caldera Slave Key,¿¨¶ûµÂÀ­Å«Á¥Ô¿³×,MISC.FNAM
+Caliginy,ëüëÊÊõ,SPEL.FNAM
 Caliginy Ring,ëüëÊÖ®½ä,CLOT.FNAM
 Calinden,¿¨ÁÖµÇ,ÑÇÀúµÂÄĞÃû¡£
-Call Bear,»½ĞÜÊõ,SPEL.FNAM
-Call Wolf,»½ÀÇÊõ,SPEL.FNAM
+Call Bear,ºô½ĞĞÜ|»½ĞÜÊõ,GMST.STRV|SPEL.FNAM
+Call Wolf,ºô½ĞÀÇ|»½ÀÇÊõ,GMST.STRV|SPEL.FNAM
 Callonus,¿¨ÂŞÅ¬Ë¹,MISC.FNAM|NPC_.FNAM
-Calm Creature,ÉúÎïÕò¶¨,SPEL.FNAM
-Calm Humanoid,ÈËĞÎÉúÎïÕò¶¨,SPEL.FNAM
+Calm Creature,ÉúÎïÕò¶¨,GMST.STRV|SPEL.FNAM
+Calm Humanoid,ÈËĞÎÉúÎïÕò¶¨,GMST.STRV|SPEL.FNAM
 Calmaninde,¿¨¶ûÂêÄşµÏ,NPC_.FNAM
 Calming Touch,Æ½¾²Ö®´¥,SPEL.FNAM
 Calne,¸øÓè,ÑÇÀúµÂÓï¡£
@@ -2267,6 +2246,10 @@ Caryarel's Shack,¿¨ÑÇÀ×µÄĞ¡Îİ,CEL
 Case of Mead,ÃÛ¾ÆÈİÆ÷,CONT.FNAM
 Cassius,¿¨Î÷ÎÚË¹,NPC_.FNAM
 Cassius Olcinius,¿¨Î÷ÎÚË¹¡¤°Â»ùÄáÎÚË¹,NPC_.FNAM
+Cast Cost,Ê©·¨ÏûºÄ,GMST.STRV
+Cast Once,Ò»´ÎĞÔÏûºÄÆ·,GMST.STRV
+Cast When Strikes,±»¶¯´¥·¢Ê©·¨,GMST.STRV
+Cast When Used,Ê¹ÓÃÊ±Ê©·¨,GMST.STRV
 Caster,Ê©·¨Õß,Ò»ÖÖÖ°Òµ¡£
 Castle,³Ç±¤,ÓëÒªÈû£¨Stronghold£©¡¢±¤Àİ£¨Fortress£©¡¢±¤£¨Fort£©¡¢³Ç£¨Hold£©½øĞĞÇø·Ö¡£
 Castle Alessia,°¢À³Î÷ÑÇ³Ç±¤,
@@ -2284,6 +2267,7 @@ Catius,¿¨ÌáÎÚË¹,NPC_.FNAM
 Catman,Ã¨ÈË,*Ïê¼ûKhajiit´ÊÌõ¡£¶Ô¿¨¼ªÌØµÄ±ğ³Æ£¬Í¨³£´øÓĞ±áÒå¡£
 Catraso,¿¨ÌØÀ­Ë÷,NPC_.FNAM
 Cattle,ÑªĞó,FACT.RNAM|NPC_.FNAM
+Cauldron,´ó¹ø,ACTI.FNAM
 Cava Arpenia,¿¨Íß¡¤°¢¶ûÅåÄáÑÇ,Î»ÓÚÍßÈø¡¤°ÍÀûÄ·ÒÅ¼£ÄÚ
 Cava Beldameld,¿¨Íß¡¤±´¶û´ïÃ·¶ûµÂ,Î»ÓÚÍßÈø¡¤°ÍÀûÄ·ÒÅ¼£ÄÚ
 Cava Marspanga,¿¨Íß¡¤ÂêË¹ÅË¼Ó,Î»ÓÚÍßÈø¡¤°ÍÀûÄ·ÒÅ¼£ÄÚ
@@ -2291,7 +2275,7 @@ Cave of Hidden Music,ÒşÃØÒôÀÖ¶´Ñ¨,CEL
 Cave Rat,¶´Ñ¨Êó,CREA.FNAM
 Cavern,¶´Ñ¨,CEL
 Cavern Door,É½¶´ÃÅ,DOOR.FNAM
-Cavern of the Incarnate,»¯Éí¶´Ñ¨,CEL
+Cavern of the Incarnate,»¯Éí¶´Ñ¨,CEL|GMST.STRV
 Caverns,¶´Ñ¨,CEL
 Caverns of Karstaag,¿¨Ë¹Ëş¸ñ¶´Ñ¨,CEL
 Caves of Fjalding,·ÆÑÇ¶¡¶´Ñ¨,CEL
@@ -2313,13 +2297,14 @@ Ceno,ÈûÅµ,NPC_.FNAM
 Census and Excise Gate,ÆÕ²é¼°Ë°Îñ¾Ö´óÃÅ,DOOR.FNAM
 Census and Excise Office,ÆÕ²é¼°Ë°Îñ°ìÊÂ´¦,CEL|FACT.FNAM
 Census and Excise Warehouse,ÆÕ²é¼°Ë°Îñ¾Ö²Ö¿â,CEL
-Center,ÖĞÑë,CEL
+Center,ÖĞĞÄ|ÖĞÑë,CEL|GMST.STRV
 Central Gearworks,ÖĞÑë³İÂÖ¹¤×÷Çø,CEL
 Central Tower,ÖĞÑëËşÂ¥,CEL
 Central Vault,ÖĞÑë½ğ¿â,CEL
 Centurion Archer,ÉäÊÖ°Ù·ò³¤,CREA.FNAM
 Centurion Sphere,Çò×´°Ù·ò³¤,CREA.FNAM
 Centurion Spider,Ö©Öë°Ù·ò³¤,CREA.FNAM
+Cephalopod Helm,Í·×ã¸ÙÍ·¿ø,ARMO.FNAM
 Ceramic,ÌÕ´É,ÌÕ´É£¬ºÍÌÕ²»ÊÇÍ¬Ò»ÖÖ¶«Î÷
 Ceramic Bowl,ÌÕ´ÉÍë,MISC.FNAM
 Ceramic Candlestick,ÌÕ´ÉÖòÌ¨,LIGH.FNAM
@@ -2335,19 +2320,23 @@ Ceysel,¿­Èû¶û,ÒâÎª¡°Ó°Ö®Ìü¡±£¬Î»ÓÚËş¶ûÎÂ¿ËÒÅ¼£ÄÚ£¬»òÎ»ÓÚÙ¤À­Ë¹¡¤ÂíÀ­ËşÒÅ¼£ÄÚ¡£
 Chair,ÒÎ×Ó,ACTI.FNAM
 Chalone,ÏÄÂ¡,NPC_.FNAM
 Chalureel,²éÂ³À×¶û,NPC_.FNAM
+Chamber,ÊÒ,CEL
 Chamber Door,²ÕÃÅ,DOOR.FNAM
 Chamber of Sohleh,Ë÷ÀÕÖ®Îİ,CEL
 Chamber of Song,¸èÇúÊÒ,CEL
-Chambers,»áÒéÌü,CEL
+Chambers,·¿¼ä|»áÒéÌü,CEL
 Chambers of Alta Vor,°¢¶ûËş¡¤·ğ¶ûµÄ·¿¼ä,CEL
-Chameleon,±äÉ«Áú,SPEL.FNAM
+Chameleon,±äÉ«Áú,GMST.STRV|SPEL.FNAM
 Chameleon Ring,±äÉ«ÁúÖ®½ä,CLOT.FNAM
 Champion,ÓÂÊ¿,CLAS.FNAM|FACT.RNAM
 Champion Belt,º´ÎÀÕßÑü´ø,CLOT.FNAM
 Champion of Cyrodiil,Î÷ÂŞµÛ¶ûÓÂÊ¿,The Elder Scrolls IV: OblivionµÄÖ÷½Ç¡£
-Chance,Ç®Ë¹,BOOK.FNAM
+Chance,Ç®Ë¹|³É¹¦ÂÊ,BOOK.FNAM|GMST.STRV
 Chance's Folly,¡¶Ç®Ë¹µÄÓŞ´À¡·,BOOK.FNAM
 Chancellor of Exactitude,ÑÏ½÷Ö®³¼,
+Change Face,¸Ä±äÁ³ĞÍ,GMST.STRV
+Change Hair,¸Ä±ä·¢ĞÍ,GMST.STRV
+Change Sex,¸Ä±äĞÔ±ğ,GMST.STRV
 Changed Folk,±ä¾«Áé,*Ïê¼ûChimer´ÊÌõ¡£
 Chanil-Lee,ÏÄÄá¶û-Àò,NPC_.FNAM
 Chanthrax Blight,Ì¿¾Ò¿İÎ®Êõ,SPEL.FNAM
@@ -2369,6 +2358,7 @@ Charioteer,Óù·òÖ®ÊÖ,SPEL.FNAM
 Charisma,÷ÈÁ¦Êõ,SPEL.FNAM
 Chark,²é¿Ë,NPC_.FNAM
 Charles the Plant,Ö²Öê²é¶ûË¹,CONT.FNAM
+Charm,÷È»ó,GMST.STRV
 Charm Mortal,·²ÈË÷È»óÊõ,SPEL.FNAM
 Charma,»ğÁú,CEL
 Charma's Breath,»ğÁúÖ®Ï¢,CEL
@@ -2427,7 +2417,7 @@ Cherim,ÇĞÈğÄ·,BOOK.FNAM
 Cherim's Heart of Anequina,¡¶ÇĞÈğÄ·µÄ°²¿üÄÉÖ®ĞÄ¡·,BOOK.FNAM
 Chest,Ïä×Ó,CONT.FNAM
 Chest Key,Ïä×ÓÔ¿³×,MISC.FNAM
-"Chest marked ""Evidence""","Ğ´×Å¡°Ö¤Îï¡±±ê¼ÇµÄÏä×Ó","CONT.FNAM"
+Chest marked "Evidence",Ğ´×Å¡°Ö¤Îï¡±±ê¼ÇµÄÏä×Ó,CONT.FNAM
 Chest of Bloodmoon Armor,ÑªÔÂ¿ø¼×Ïä,CONT.FNAM
 Chest of Bloodmoon Clothes,ÑªÔÂ·şÊÎÏä,CONT.FNAM
 Chest of Bloodmoon Weapons,ÑªÔÂÎäÆ÷Ïä,CONT.FNAM
@@ -2470,6 +2460,10 @@ Chitin War Axe,¼×¿ÇÕ½¸«,WEAP.FNAM
 Chiwish,ÆæÎ¬Ï£,NPC_.FNAM
 Chodala,ÇÇ´ïÀ­,ARMO.FNAM|NPC_.FNAM|WEAP.FNAM
 Chokeweed,ÖÏÏ¢²İ,CONT.FNAM|INGR.FNAM
+Choose a Skill,Ñ¡ÔñÒ»Ïî¼¼ÄÜ,GMST.STRV
+Choose a Specialization,Ñ¡ÔñÒ»Ïî×¨Òµ,GMST.STRV
+Choose an Attribute,Ñ¡ÔñÒ»¸öÊôĞÔ,GMST.STRV
+Choose Another Class,Ñ¡ÔñÆäËüÖ°Òµ,GMST.STRV
 Chorrol,¿ÆÂå¶û,¾İµãÃû¡£
 Chrelm,¿ËÀ×Ä·,NPC_.FNAM
 Chriditte,¿ËÀïµÏÌØ,NPC_.FNAM
@@ -2515,6 +2509,8 @@ Clanholder,ÊÏ×å³ÉÔ±,FACT.RNAM
 Clanler,¿ËÀ¼ÀÕ,NPC_.FNAM
 Clannfear,¾ª¾åÊŞ,CREA.FNAM
 Clasomo,¿ËÀ­Ë÷Äª,NPC_.FNAM
+Class,Ö°Òµ,GMST.STRV
+Class Description,Ö°ÒµÃèÊö,GMST.STRV
 Clavicus Vile,¿ËÀ­Íş¿âË¹¡¤Î¬¶û,¿ËÀ­Íş¿âË¹¡¤Î¬¶ûÊÇÕÆ¹ÜÁ¦Á¿¡¢Í¨¹ıµ»¸æµŞ½áÆõÔ¼µÄ´ó¾ı¡£»ÚºŞÔ­Ò°ÊÇÆäÁìÓò¡£
 Clay,ÌÕ,ÌÕÆ÷¡£
 Clay Pot,ÌÕºø,MISC.FNAM
@@ -2545,7 +2541,7 @@ Cloud Ruler Temple,ÁèÔÆÉñÃí,
 Cloud Top,ÔÆ¶¥,
 Cloudcleaver,ÆÆÔÆÕß,WEAP.FNAM
 Cloudrest,ÔÆí¬,¾İµãÃû¡£ÏÄÄº×î¸ß³Ç£¬±»ÓşÎª¡°°ÁÌØÄªÖ®¸ß³²¡±£¬ÓĞÊ¨ğÕÆÜÏ¢¡£
-Club,1.¹÷°ô|2.¾ãÀÖ²¿,ÎäÆ÷ÀàĞÍ£¬×÷ÎªµØµãÃû´ÊµÄ×é³É²¿·ÖÊ±Ò»°ã·­ÒëÎª¾ãÀÖ²¿¡£
+Club,¹÷°ô,WEAP.FNAM
 Clumsiness,±¿×¾Êõ,SPEL.FNAM
 Clumsy Touch,±¿×¾Ö®´¥,SPEL.FNAM
 Cluson,¿ËÂ³É­,NPC_.FNAM
@@ -2555,6 +2551,7 @@ Cnisia,ÈûÄáÎ÷ÑÇ,NPC_.FNAM
 Cocistian,¿ÆÎ÷Ë¹,NPC_.FNAM
 Cocistian Quaspus,¿ÆÎ÷Ë¹¡¤¿¨Ë¹ÆÕË¹,NPC_.FNAM
 Coda Flower,Î²Éù»¨,INGR.FNAM
+Code Book,°µºÅ±¾,BOOK.FNAM
 Codus,¿Æ´ïË¹,MISC.FNAM|NPC_.FNAM
 Codus Callonus,¿Æ´ïË¹¡¤¿¨ÂŞÅ¬Ë¹,NPC_.FNAM
 Codus Callonus' Key,¿Æ´ïË¹¡¤¿¨ÂŞÅ¬Ë¹µÄÔ¿³×,MISC.FNAM
@@ -2568,6 +2565,7 @@ Coldharbour,Àä¸Û,ÄªÀ­¸ñ°Í¶ûµÄÁìÓò¡£
 Collapsed Mine,Ì®Ëú¿ó³¡,
 Collapsed Mine - Breakthrough,Ì®Ëú¿ó³¡-ÔäÍ¨¿óµÀ,
 Collapsed Rocks,Ì®ËúµÄÑÒÊ¯,ACTI.FNAM
+Collar,¾±È¦,CLOT.FNAM
 College of Whispers,µÍÓïÑ§Ôº,·¨Ê¦¹«»á½âÉ¢ºó³ÉÁ¢µÄĞÂ×éÖ¯Ö®Ò»£¬ÁíÒ»¸öÎªÏ£ÅµÑ§»á¡£ÊÜµÛ¹ú¹Ù·½ÈÏ¿É¡£
 Collywobbles,³¦²ü,SPEL.FNAM
 Colollius,¿ËÂŞÀïÎÚË¹,NPC_.FNAM
@@ -2577,10 +2575,11 @@ Colovia,¿ÆÂåÎ¬ÑÇ,SPEL.FNAM
 Colovia's Grace,¿ÆÂåÎ¬ÑÇµÄ¶÷µä,SPEL.FNAM
 Colovian Fur Helm,¿ÆÂåÎ¬ÑÇÃ«Æ¤Í·¿ø,ARMO.FNAM
 Colovian Highlands,¿ÆÂåÎ¬ÑÇ¸ßµØ,
+Combat,¸ñ¶·,GMST.STRV
 Comberry,ÒìÃ·,CONT.FNAM|INGR.FNAM
 Command Beast,Ò°ÊŞÃüÁîÊõ,SPEL.FNAM
-Command Creature,ÃüÁîÉúÎï,SPEL.FNAM
-Command Humanoid,ÃüÁîÈËĞÎÉúÎï,SPEL.FNAM
+Command Creature,ÃüÁîÉúÎï,GMST.STRV|SPEL.FNAM
+Command Humanoid,ÃüÁîÈËĞÎÉúÎï,GMST.STRV|SPEL.FNAM
 Command of the Third Corner,µÚÈı½ÇµÄÃüÁî,SPEL.FNAM
 Commander,Ö¸»Ó¹Ù,FACT.RNAM
 Commanding Touch,ÃüÁîÖ®´¥,SPEL.FNAM
@@ -2600,14 +2599,16 @@ Common Skirt,ÆÕÍ¨µÄÈ¹×Ó,CLOT.FNAM
 Common Soul Gem,ÆÕÍ¨Áé»êÊ¯,MISC.FNAM
 Commoner,Æ½Ãñ,CLAS.FNAM
 Communal Hut,¹«ÓÃĞ¡Îİ,CEL
+Companion Share,Í¬°é·İ¶î,GMST.STRV
 Companions,Õ½ÓÑÍÅ,×Ü²¿Î»ÓÚ°×ÍÄ³Ç£¬»îÔ¾ÓÚÌì¼ÊµÄÀàÕ½Ê¿¹«»á×éÖ¯¡£
 Company Guard,¶«µÛ¹ú¹«Ë¾ÎÀ±ø,NPC_.FNAM
 Concealment,ÒşÄäÊõ,SPEL.FNAM
 Conciatius,¿µÎ÷ÑÇĞŞË¹,NPC_.FNAM
+Condition,ÄÍ¾Ã,GMST.STRV
 Confessions of a Skooma-Eater,¡¶Ò»¸öË¹¿âÂêÊ³ÓÃÕßµÄ×Ô°×¡·,BOOK.FNAM
 Confused Lunatic,À§»óµÄ·è×Ó,NPC_.FNAM
 Conician,¿µÄáÆæ°²,NPC_.FNAM
-Conjuration,ÕÙ»½Ïµ,ÕÙ»½Ïµ·¨Êõ¡£
+Conjuration,ÕÙ»½Ïµ,GMST.STRV
 Conjurer,»½ÖäÊ¦,FACT.RNAM
 Connorflenge Barrow,¿µÄÉ¸¥ÁÖ¸ñ¹ÅÚ£,CEL
 Conoon,¿ÆÅ©,ARMO.FNAM|NPC_.FNAM|WEAP.FNAM
@@ -2617,9 +2618,11 @@ Conoon Chodala's Boots,¿ÆÅ©¡¤ÇÇ´ïÀ­µÄÑ¥×Ó,ARMO.FNAM
 Conqueror of Madness,Õ÷·ş·è¿ñÕß,¼´Talym Rend¡£
 Constans,¿µË¹Ì¹Ë¹,NPC_.FNAM
 Constans Atrius,¿µË¹Ì¹Ë¹¡¤°¢ÌØÀûÎÚË¹,NPC_.FNAM
+Constant Effect,ÓÀ¾ÃĞ§¹û,GMST.STRV
 Constellations,ĞÇ×ù,ÉÏ¹Å¾íÖáÀïµÄĞÇ×ùÓëÏÖÊµÀàËÆ£¬Ò»¹²ÓĞ13¸öÖ÷ÒªĞÇ×ù£¬Ò»¸öĞÇ×ùÔÚ²»Í¬ÎÄ»¯ÖĞ¿ÉÄÜ»áÓĞ²»Í¬µÄÃû×Ö¡£
 Construction Contract,Ê©¹¤ºÏÍ¬,BOOK.FNAM
 Consummate Politician of Oblivion,äÎÃğµÄÍêÃÀÕşÖÎ¼Ò,*Ïê¼ûClavicus Vile´ÊÌõ¡£
+Container,ÈİÆ÷,GMST.STRV
 Corbolo,¿Ü²®ÂŞ,ÔªÀÏÔºÓÚ3e275Äê¶©Á¢µÄ±£ÃÜĞ­Òé¡£
 Corbolo River,¿Ü²®ÂŞºÓ,
 Corelanya,¿ÆÂåÀ¼Å·,ÓÃÓÚ³ÆºôÂä´¸µÄ¸ß¾«Áé¡£
@@ -2630,15 +2633,16 @@ Corkbulb Bolt,ÈíÄ¾ÁÛ¾¥åó¼ı,WEAP.FNAM
 Corkbulb Root,ÈíÄ¾ÁÛ¾¥¸ù,INGR.FNAM
 Corky,¿¼»ù,CREA.FNAM
 Cormar View,¿Æ¶ûÂíÍû,³¿·çÎ÷±±µÄÒ»¸ö´å×¯£¬Á¬½ÓÌì¼Ê¡£
+Cornerclub,½Ö½Ç¾ãÀÖ²¿,CEL|ACTI.FNAM
 Cornered Spheres,Àâã£Ö®Çò,¶ÍÄªµÄã£ÂÛ²úÎï¡£
-Corprus,Ê¬»¯Êõ,SPEL.FNAM
+Corprus,Ê¬»¯|Ê¬»¯Êõ,GMST.STRV|SPEL.FNAM
 Corprus beasts,Ê¬»¯ÊŞ,
 Corprus Immunity,Ê¬»¯ÃâÒßÊõ,SPEL.FNAM
 Corprus Stalker,Ê¬»¯×·ÁÔÕß,CREA.FNAM
 Corprus weepings,Ê¬»¯·ÖÃÚÎï,INGR.FNAM
 Corprusarium,Ê¬»¯²¡¶´Ñ¨,CEL
 Corprusarium Bowels,Ê¬»¯²¡¶´Ñ¨Ö®¸­,CEL
-Corpse,ÒÅÌå,CONT.FNAM
+Corpse,ÒÅÌå|Ê¬Ìå,CONT.FNAM|NPC_.FNAM
 Corpse of a fallen soldier,ÕóÍöÊ¿±øµÄÒÅÌå,CONT.FNAM
 Corpse of a fallen warrior,ÔÉÂäÕ½Ê¿µÄÒÅÌå,CONT.FNAM
 Corpse of a lost sailor,ÃÔÍ¾Ë®ÊÖµÄÊ¬Ìå,CONT.FNAM
@@ -2656,6 +2660,7 @@ Corrudus Secunia,¿ÆÂ³´ïË¹¡¤Éª¿âÄáÑÇ,NPC_.FNAM
 Corundum,¸ÕÓñ,
 Cosades,¿ÆÈøµÂË¹,CEL|MISC.FNAM|NPC_.FNAM
 Cosmic Severer,ÓîÖæ¸ô¶ÏÕß,*Ïê¼ûAzura´ÊÌõ¡£
+Cough,¿È,SPEL.FNAM
 Council Club,Òé»áËù,CEL|ACTI.FNAM
 Council Hostel,Òé»áÕĞ´ıËù,CEL
 Council of Skiffs,ÈºÖÛÒé»á,
@@ -2683,7 +2688,9 @@ Crayfish Vents,òüÏº-Í¨·ç´¦,
 Crazy Batou,·è×Ó°ÍÍĞÎÚ,NPC_.FNAM
 Crazy-Legs,·èÍÈ,NPC_.FNAM
 Crazy-Legs Arantamo,·èÍÈ¡¤°¢À¼ËşÄª,NPC_.FNAM
+Created Effects,ÒÑ´´ÔìĞ§¹û,GMST.STRV
 Creator of Curses,×çÖä´´ÔìÕß,*Ïê¼ûMalacath´ÊÌõ¡£
+Credentials,Ö¤Ã÷,BOOK.FNAM
 Creeper,ÅÀĞĞÕß,CREA.FNAM
 Crescent River,¿ËÀ×É­ÌØºÓ,»òÒëÎªĞÂÔÂºÓ£¬Á÷¾­ÍßÂ×ÎéµÂºÍ°¬Ë¹Î¬¶û±ß¾³µÄºÓÁ÷£¬·¢Ô´ÓÚ»êéäµÄ¸ßµØ£¬È»ºóÔÚ°¢Â×ÌáÑÇ¸½½üÓëË¹ÌØÀïµÂºÓ»ãºÏ¡£
 Crimson Despair,ĞÉºì¾øÍû,SPEL.FNAM
@@ -2696,6 +2703,7 @@ Crito,¿ËÀïÍĞ,NPC_.FNAM
 Crito Olcinius,¿ËÀïÍĞ¡¤°Â»ùÄáÎÚË¹,NPC_.FNAM
 Cropsford,¹È½ò,
 Crosier of St. Llothis,Ê¥¡¤ÂŞÌáË¹Ö®ÕÈ,WEAP.FNAM
+Crosshair,Ê®×Ö×¼ĞÇ,GMST.STRV
 Crottus,¿¼Í¼Ë¹,NPC_.FNAM
 Crottus Cedus,¿¼Í¼Ë¹¡¤ÈûµÂÎÚË¹,NPC_.FNAM
 Crowhaven,Ñ»¸Û,»ò×÷¡°Ñ»±Ó¡±¡£Õâ¸ö±¤ÀİÈ·Êµ½üº££¬µ«ÓÖÃ»ÄÇÃ´½ü¡£
@@ -2736,7 +2744,7 @@ Crulius,¿ËÂ³ÁôË¹,NPC_.FNAM
 Crulius Pontanian,¿ËÂ³ÁôË¹¡¤ÅÓËşÄá°²,NPC_.FNAM
 Crumbling Mine,±ÀËú¿ó³¡,
 Crunus,¿âÂ³Å¬Ë¹,NPC_.FNAM
-Crusader,Ê¥Õ½Õß,CLAS.FNAM
+Crusader,Ê¥Õ½Õß,CLAS.FNAM|GMST.STRV
 Crushing Burden,»ÙÃğÖØ¸º,SPEL.FNAM
 Crushing Burden of Sin,»ÙÃğ×ïÖ®ÖØ¸º,SPEL.FNAM
 Crushing Burden Touch,»ÙÃğÖØ¸ºÖ®´¥,SPEL.FNAM
@@ -2747,6 +2755,7 @@ Crypt of Hearts,ĞÄÁéÄ¹Ñ¨,
 Crypt of Rielle,Èğ¶ûÀÕÄ¹Ñ¨,
 Crypt of the Night Mother,Ò¹Ä¸µÄÄ¹Ñ¨,
 Crystal-Like-Law,Ë®¾§Ëş,Î»ÓÚÏÄÄºµº±±²¿£¬ÓÉ°ÂµÂÄª½¨Á¢£¬°ÂÊõ´óÑ§½¨Á¢Ç°Ä§·¨½ÌÓıµÄ¶¥·å¡£
+Cuirass,ĞØ¼×,ARMO.FNAM
 Cuirass of the Savior's Hide,¾ÈÊÀÖ÷µÄÆ¤¼×,ARMO.FNAM
 Cullian,¿âÀû°²,NPC_.FNAM
 Culotte,¿âÂåÌØ,Î»ÓÚµÛ¶¼¶«ÄÏ·½µÄÒ»´¦Ğ¡ĞÍÑÇÀúµÂÒÅ¼£¡£
@@ -2758,18 +2767,22 @@ Cunius,¿âÄáÎÚË¹,NPC_.FNAM
 Cunius Pelelius,¿âÄáÎÚË¹¡¤ÅåÀÕÁôË¹,NPC_.FNAM
 Cup,±­×Ó,MISC.FNAM
 Cupboard,³÷¹ñ,CONT.FNAM
+Cups,±­,SPEL.FNAM
 Curate,¼ÀÖ÷,FACT.RNAM
-Cure Blight Disease,ÖÎÓú¿İÎ®²¡,SPEL.FNAM
+Cure,ÖÎÓú|Óú,SPEL.FNAM
+Cure Blight Disease,ÖÎÓú¿İÎ®²¡,GMST.STRV|SPEL.FNAM
 Cure Blight Potion Notice,ÖÎÓú¿İÎ®²¡Ò©Ë®¹«¸æµ¥,BOOK.FNAM
-Cure Common Disease,³£¼û¼²²¡ÖÎÓú,SPEL.FNAM
+Cure Common Disease,³£¼û¼²²¡ÖÎÓú|ÖÎÓú³£¼û¼²²¡,GMST.STRV|SPEL.FNAM
 Cure Common Disease on Other,ÖÎÓúÆäËü³£¼û¼²²¡,SPEL.FNAM
 Cure Common Disease Victim,ÖÎÓú³£¼û¼²²¡»¼Õß,SPEL.FNAM
-Cure Corprus Disease,ÖÎÓúÊ¬»¯²¡,SPEL.FNAM
+Cure Corprus Disease,ÖÎÓúÊ¬»¯²¡,GMST.STRV|SPEL.FNAM
 Cure Corpus Disease,Ê¬»¯²¡ÖÎÓú,SPEL.FNAM
-Cure Poison,½â¶¾Êõ,SPEL.FNAM
+Cure Paralyzation,Âé±Ô½â³ı,GMST.STRV
+Cure Poison,½â¶¾|½â¶¾Êõ,GMST.STRV|SPEL.FNAM
 Cure Poison on Touch,½â¶¾Ö®´¥,SPEL.FNAM
 Curio,¿âÀï°Â,NPC_.FNAM
 Curio Manor,¿âÀï°Â×¯Ô°,CEL
+Curse,×çÖä,GMST.STRV
 Curse Agility,×çÖäÃô½İ,SPEL.FNAM
 Curse Endurance,×çÖäÄÍÁ¦,SPEL.FNAM
 Curse Fatigue,×çÖäÌåÁ¦,SPEL.FNAM
@@ -2784,6 +2797,7 @@ Curse Willpower,×çÖäÒâÖ¾,SPEL.FNAM
 Cursed Mine,ÊÜ×ç¿ó³¡,
 Cursed Mine Breakdown Chambers,ÊÜ×ç¿ó³¡-ÆÆËéÌüÌÃ,
 Cursed Mine Lower Galleries,ÊÜ×ç¿ó³¡-ÏÂ²ãÀÈµÀ,
+Cursed Ring,×çÖä½äÖ¸,CLOT.FNAM
 Curtain Wall,Ä»Ç½,CEL
 Custom Armor Price List,¶¨ÖÆ»¤¼×¼ÛÄ¿±í,BOOK.FNAM
 Custom Fur Armor Price List,¶¨ÖÆÃ«Æ¤»¤¼×¼ÛÄ¿±í,BOOK.FNAM
@@ -2957,6 +2971,12 @@ Dalvus,´ïÎÚË¹,NPC_.FNAM
 Dalvus Helothran,´ïÎÚË¹¡¤ºÕÂŞÉº,NPC_.FNAM
 Dalyne,´ïÁÕ,NPC_.FNAM
 Dalyne Arvel,´ïÁÕ¡¤°¢Î¬¶û,NPC_.FNAM
+Damage,ÉËº¦,GMST.STRV|SPEL.FNAM
+Damage Attribute,ÊôĞÔÉËº¦,GMST.STRV
+Damage Fatigue,ÌåÁ¦ÉËº¦,GMST.STRV
+Damage Health,ÉúÃüÉËº¦,GMST.STRV
+Damage Magicka,Ä§Á¦ÉËº¦,GMST.STRV
+Damage Skill,¼¼ÄÜÉËº¦,GMST.STRV
 Damori,´ïÄªÀï,CEL|NPC_.FNAM
 Dampworm,ÊªÆø¼ÄÉú³æ,SPEL.FNAM
 Dan-Ru,µ¤-Èã,NPC_.FNAM
@@ -3127,6 +3147,7 @@ Deadlands,ËÀµØ,Ã·Â³ÄùË¹¡¤´óÙòµÄÁìÓò¡£
 Deadly Grahl,ÖÂÃüµÄ¸ñÀ­¶û,CREA.FNAM
 Deadly Poison,¶áÃü¶¾Êõ,SPEL.FNAM
 Deadly Poison [Ranged],¶áÃü¶¾Êõ [Ô¶³Ì],SPEL.FNAM
+Death Blast,ËÀÍö³å»÷,SPEL.FNAM
 Death Blow of Abernanit,¡¶°¢±´ÄÇÄáÌØµÄÖÂÃüÒ»»÷¡·,BOOK.FNAM
 Deathshead Legion,ËÀÂ­¾üÍÅ,
 Debentien,µÂ±¾Í¢,NPC_.FNAM
@@ -3195,8 +3216,8 @@ Demon Mole Crab,Ä§¹í÷úÊóĞ·Í·¿ø,ARMO.FNAM
 Demon of Knowledge,ÖªÊ¶Ä§¹í,*Ïê¼ûHermaeus Mora´ÊÌõ¡£
 Demon Tanto,Ä§¹í¶Ìµ¶,WEAP.FNAM
 Demoralize Beast,Ò°ÊŞÏû³ÁÊõ,SPEL.FNAM
-Demoralize Creature,ÉúÎïÏû³Á,SPEL.FNAM
-Demoralize Humanoid,ÈËĞÎÉúÎïÏû³Á,SPEL.FNAM
+Demoralize Creature,ÉúÎïÏû³Á,GMST.STRV|SPEL.FNAM
+Demoralize Humanoid,ÈËĞÎÉúÎïÏû³Á,GMST.STRV|SPEL.FNAM
 Demoralizing Touch,Ïû³ÁÖ®´¥,SPEL.FNAM
 Denegor,µÂÄá¸ê¶û,NPC_.FNAM
 Denian,µÂÄá°²,NPC_.FNAM
@@ -3227,11 +3248,13 @@ Deshaan,µÏÉ¯°²,
 Designer Shoes,ÃûÅÆĞ¬,CLOT.FNAM
 Desk,Êé×À,CONT.FNAM
 Desolate Shipwreck,»ÄÁ¹³Á´¬,CEL
-Destruction,»ÙÃğÏµ,»ÙÃğÏµ·¨Êõ¡£
+Destruction,»ÙÃğÏµ,GMST.STRV
+Detail Level,Ï¸½ÚµÈ¼¶,GMST.STRV
+Detect Animal,¶¯ÎïÌ½²â,GMST.STRV
 Detect Creature,ÉúÎïÌ½²âÊõ,SPEL.FNAM
-Detect Enchantment,¸½Ä§Õì²â,SPEL.FNAM
+Detect Enchantment,¸½Ä§Õì²â|»·¾³Ì½²â,GMST.STRV|SPEL.FNAM
 Detect Enchantment Ring,¸½Ä§Õì²âÖ®½ä,CLOT.FNAM
-Detect Key,Ì½²âÔ¿³×,SPEL.FNAM
+Detect Key,Ì½²âÔ¿³×|Õì²âÃÜÔ¿,GMST.STRV|SPEL.FNAM
 Dethresa,µÂÌØÀ×Èø,NPC_.FNAM
 Dethresa Saren,µÂÌØÀ×Èø¡¤ÈøÂ×,NPC_.FNAM
 Detritus,µÂ´ŞÍ¼Ë¹,NPC_.FNAM
@@ -3320,6 +3343,7 @@ Dire Weakness to Magicka,¾¿¼«¾åÄ§,SPEL.FNAM
 Dire Weakness to Poison,¾¿¼«¾å¶¾,SPEL.FNAM
 Dire Weakness to Shock,¾¿¼«¾åµç,SPEL.FNAM
 Dire Weary,¾¿¼«Æ£·¦Êõ,SPEL.FNAM
+Directions to Balmora,Ç°Íù°Í¶ûÄªÀ­µÄÖ¸Â·ËµÃ÷,BOOK.FNAM
 Directions to Caius Cosades,¹ØÓÚ¿­ÎÚË¹¡¤¿ÆÈøµÂË¹µÄÖ¸Ê¾,BOOK.FNAM
 Diren,µÏÂ×,NPC_.FNAM
 Diren Vendu,µÏÂ×¡¤ÎÄ¶Å,NPC_.FNAM
@@ -3333,6 +3357,7 @@ Dirty Muriel's Cornerclub,°¹ÔàÄÂÀï¶ûµÄ½Ö½Ç¾ãÀÖ²¿,CEL|ACTI.FNAM
 Dirver,µÏ¶ûÎ¬,NPC_.FNAM
 Dirver Relas,µÏ¶ûÎ¬¡¤ÈğÀ­Ë¹,NPC_.FNAM
 Disciple,ÃÅÍ½,FACT.RNAM
+Disease,¼²²¡,GMST.STRV
 Diseased Alit,È¾²¡öùòá,CREA.FNAM
 Diseased Cliff Racer,È¾²¡Ñ¸Äñ,CREA.FNAM
 Diseased Durzog,È¾²¡¶Å×ô¸ñ,CREA.FNAM
@@ -3342,10 +3367,11 @@ Diseased Mudcrab,È¾²¡ÄàÕÓĞ·,CREA.FNAM
 Diseased Rat,È¾²¡ÀÏÊó,CREA.FNAM
 Diseased Scrib,È¾²¡Ó×³æ,CREA.FNAM
 Diseased Shalk,È¾²¡É°¿Ç³æ,CREA.FNAM
-Disintegrate Armor,Ëğ»µ¿ø¼×,SPEL.FNAM
-Disintegrate Weapon,Ëğ»µÎäÆ÷,SPEL.FNAM
-Dispel,ÇıÉ¢,SPEL.FNAM
+Disintegrate Armor,Ëğ»µ¿ø¼×,GMST.STRV|SPEL.FNAM
+Disintegrate Weapon,Ëğ»µÎäÆ÷,GMST.STRV|SPEL.FNAM
+Dispel,ÇıÉ¢,GMST.STRV|SPEL.FNAM
 Dispel Potion Formula,ÇıÉ¢Ò©Ë®Åä·½,BOOK.FNAM
+Dispose of Corpse,´¦ÀíÊ¬Ìå,GMST.STRV
 Dissapla Mine,µÏÈøÆÕÀ­¿ó³¡,CEL
 Dissident priests,Òì¼û¼ÀË¾,
 Dissu,µÏËÕ,NPC_.FNAM
@@ -3369,7 +3395,7 @@ Divayth's Chest of Drawers,µÏÎ¬Ë¹µÄ³éÌë¹ñ,CONT.FNAM
 Divine,Ê¥Áé,°¬µÂÀ­ÉñÏµ»òÂê¸ñÄÉ-¼ªÉñÏµµÄÉñÒÔ¼°ÉáÔú¶û£¨Âå¿Ëº¹£©£¬Ò»°ãÖ¸°ËÊ¥ÁéÍâ¼ÓÒ»¸öÈ±Î»Éñ£¬ËşÂåË¹µÇÉñºóÒ»°ãÖ¸¾ÅÊ¥ÁéÍâ¼ÓÒ»¸öÈ±Î»Éñ¡£
 Divine Abilities,Ê¥ÁéÖ®²Å,SPEL.FNAM
 Divine Aid,ÉñÊ¥Ô®Öú,SPEL.FNAM
-Divine Intervention,Ê¥Áé¸ÉÔ¤,SPEL.FNAM
+Divine Intervention,Ê¥Áé¸ÉÔ¤,GMST.STRV|SPEL.FNAM
 Divine Judgement Silver Staff,ÒøÖÆÉñÊ¥ÉóÅĞ·¨ÕÈ,WEAP.FNAM
 Divine Metaphysics...,¡¶Ê¥Ö®ĞşÀí¡­¡·,BOOK.FNAM
 Divine Skin,Ê¥ÁéÖ®Æ¤,*Ïê¼ûAnumidium´ÊÌõ¡£
@@ -3399,6 +3425,7 @@ Dome of Udok,ÎÚ¶à¿Ëñ·¶¥,CEL
 Dome of Urso,ÎÚË÷ñ·¶¥,CEL
 Domesea,¶àÃ·Î÷æ«,NPC_.FNAM
 Domesea Sarethi,¶àÃ·Î÷æ«¡¤ÈøÀ×µÙ,NPC_.FNAM
+Dominator,Óù,CLOT.FNAM
 Domme,¶àÄ·,CEL
 Dondir,ÌÆµÏ¶û,NPC_.FNAM
 Dondos,ÌÆ¶àË¹,NPC_.FNAM
@@ -3409,6 +3436,8 @@ Donus Serethi,¶àÅ¬Ë¹¡¤ÈûÀ×Î÷,NPC_.FNAM
 Doomed Mine,»ÙÃğ¿ó³¡,
 Doomstones,ÖÕÍ¾Ê¯,ÉáÔú¶û/°¢¿¨ÍĞÊ²¶ÔheroºÍheroineµÄÇıÊ¹£¬¼´ÊÇ×£¸£Ò²ÊÇ×çÖä¡£
 Door,ÃÅ,DOOR.FNAM
+Doorjam,×èÈûÊõ,SPEL.FNAM
+Doorjam Ring,×èÈûÊõ½äÖ¸,CLOT.FNAM
 Doran,¶àÈ»,NPC_.FNAM
 Doren,¶àÂ×,NPC_.FNAM
 Dorisa,¶àÀöÉ¯,NPC_.FNAM
@@ -3448,11 +3477,13 @@ Dragonling,ÁúòÈ,Ò»ÖÖÍâĞÎÏñÁúµÄÅÀĞĞ¶¯Îï£¬Ò²±»³ÆÎªÏÉÅ®Áú£¨Fairy Dragon£©¡£³£±»ÈÏÎª
 Dragonscale Tower Shield,ÁúÁÛËş¶Ü,ARMO.FNAM
 Dragonstar,ÁúĞÇ,
 Dragontail Mountains,ÁúÎ²É½Âö,Âä´¸±±²¿µÄÒ»ÌõÉ½Âö£¬±±½Ó÷Ä¹ÇÍå£¬Ïò¶«ÄÏÑÓÉêºóÖğ½¥Íù¶«·½Ïò¡£
+Drain,Ï÷Èõ,GMST.STRV
 Drain Acrobatics,Ï÷Èõ£ºÔÓ¼¼,SPEL.FNAM
 Drain Alchemy,Ï÷Èõ£ºÁ¶½ğ,SPEL.FNAM
 Drain Alteration,Ï÷Èõ£º±ä»¯Ïµ,SPEL.FNAM
 Drain Armorer,Ï÷Èõ£ºĞŞÀí,SPEL.FNAM
 Drain Athletics,Ï÷Èõ£ºÔË¶¯,SPEL.FNAM
+Drain Attribute,ÊôĞÔÏ÷Èõ,GMST.STRV
 Drain Axe,Ï÷Èõ£º¸«Àà,SPEL.FNAM
 Drain Block,Ï÷Èõ£º¸ñµ²,SPEL.FNAM
 Drain Blood,Á÷ÊÅÖ®Ñª,SPEL.FNAM
@@ -3460,11 +3491,14 @@ Drain Blunt Weapon,Ï÷Èõ£º¶ÛÆ÷,SPEL.FNAM
 Drain Conjuration,Ï÷Èõ£ºÕÙ»½Ïµ,SPEL.FNAM
 Drain Destruction,Ï÷Èõ£º»ÙÃğÏµ,SPEL.FNAM
 Drain Enchant,Ï÷Èõ£º¸½Ä§,SPEL.FNAM
+Drain Fatigue,ÌåÁ¦Ï÷Èõ,GMST.STRV
 Drain Hand-to-Hand,Ï÷Èõ£ºÍ½ÊÖ,SPEL.FNAM
+Drain Health,ÉúÃüÏ÷Èõ,GMST.STRV
 Drain Heavy Armor,Ï÷Èõ£ºÖØ¼×,SPEL.FNAM
 Drain Illusion,Ï÷Èõ£º»ÃÊõÏµ,SPEL.FNAM
 Drain Light Armor,Ï÷Èõ£ºÇá¼×,SPEL.FNAM
 Drain Long Blade,Ï÷Èõ£º³¤ÈĞ,SPEL.FNAM
+Drain Magicka,Ä§Á¦Ï÷Èõ,GMST.STRV
 Drain Marksman,Ï÷Èõ£ºÉäÊõ,SPEL.FNAM
 Drain Medium Armor,Ï÷Èõ£ºÖĞ¼×,SPEL.FNAM
 Drain Mercantile,Ï÷Èõ£ºÃ³Ò×,SPEL.FNAM
@@ -3472,6 +3506,7 @@ Drain Mysticism,Ï÷Èõ£ºÉñÃØÏµ,SPEL.FNAM
 Drain Restoration,Ï÷Èõ£º»Ö¸´Ïµ,SPEL.FNAM
 Drain Security,Ï÷Èõ£º¿ªËø,SPEL.FNAM
 Drain Short Blade,Ï÷Èõ£º¶ÌÈĞ,SPEL.FNAM
+Drain Skill,¼¼ÄÜÏ÷Èõ,GMST.STRV
 Drain Sneak,Ï÷Èõ£ºÇ±ĞĞ,SPEL.FNAM
 Drain Spear,Ï÷Èõ£º³¤±ú,SPEL.FNAM
 Drain Speechcraft,Ï÷Èõ£º¿Ú²Å,SPEL.FNAM
@@ -3614,7 +3649,7 @@ Drendrisa Fareloth,µÂÂ×µÂÀïÈø¡¤·¨À×ÂåË¹,NPC_.FNAM
 Drenim,µÂÀ×ÄáÄ·,NPC_.FNAM
 Drerel,µÂÀ×¶û,NPC_.FNAM
 Drerel Indaren,µÂÀ×¶û¡¤Ó¢´ïÂ×,NPC_.FNAM
-Dres,µÂÀ×Ë¹,NPC_.FNAM|µ¤ÄªÎå´óºÀ×åÖ®Ò»¡£
+Dres,µÂÀ×Ë¹,NPC_.FNAM
 Dreth,µÂÀ×Ë¼,NPC_.FNAM
 Drethan,µÂÀ×É£,NPC_.FNAM
 Drethan Ancestral Tomb,µÂÀ×É£ÏÈ×æÄ¹Ñ¨,CEL
@@ -3819,6 +3854,7 @@ Dwarven Spear,°«ÈË³¤Ç¹,WEAP.FNAM
 Dwarven Spectre,°«ÈËÓÄÁé,CREA.FNAM
 Dwarven War Axe,°«ÈËÕ½¸«,WEAP.FNAM
 Dwarven Warhammer,°«ÈËÕ½´¸,WEAP.FNAM
+Dwelling,¾ÓËù,CEL
 Dwemer,¶ÍÄª,ÓÖÃûÉî¾«Áé£¬±´ÈûË¹´ïÎªÁË¶Ô±êÎ÷»ÃÈÈÃÅÖÖ×å¿ÌÒâ´´Ôì¡°°«ÈË¡±µÄ³ÆÎ½£¬¾İËµÕâ¸ö³ÆÎ½À´×Ô¶ÍÄªÓë¾ŞÈË×åµÄ¶Ô±È¡£-merÊÇ·ÇÈËÀàÓï¾³ÏÂµÄ³Æºô£¬·­ÒëÊ±²»ÄÜÖ±½Ó·­ÒëÎªÉî¾«Áé£¬Òª×ñÑ­Ô­ÎÄ·­ÒëÎª¶ÍÄª¡£
 Dwemer Airship Plans,¶ÍÄªº½¿ÕÍ§Éè¼ÆÍ¼,MISC.FNAM
 Dwemer Animunculi,¶ÍÄª»úĞµÌå,SPEL.FNAM
@@ -3898,7 +3934,7 @@ Ebony Scimitar,ºÚÌ´Íäµ¶,WEAP.FNAM
 Ebony Shield,ºÚÌ´¶ÜÅÆ,ARMO.FNAM
 Ebony Shortsword,ºÚÌ´¶Ì½£,WEAP.FNAM
 Ebony Spear,ºÚÌ´³¤Ç¹,WEAP.FNAM
-Ebony Staff,ºÚÌ´ÊÖÕÈ,WEAP.FNAM
+Ebony Staff,ºÚÌ´·¨ÕÈ,WEAP.FNAM
 Ebony Throwing Star,ºÚÌ´ÊÖÀï½£,WEAP.FNAM
 Ebony Tower Shield,ºÚÌ´Ëş¶Ü,ARMO.FNAM
 Ebony War Axe,ºÚÌ´Õ½¸«,WEAP.FNAM
@@ -3907,7 +3943,7 @@ Echo Mine,»ØÉù¿ó³¡,
 Echo Necromancer's Chamber,»ØÉù-ËÀÁé·¨Ê¦¶´Ìü,
 Echo Passages,»ØÉù-Í¨µÀ,
 Ectoplasm,ÁéÖÊ,INGR.FNAM
-"Edd ""Fast Eddie"" Theman","°£µÂ¡¤¡°·ÉÃ«ÍÈ°£µÏ¡±¡¤Ï£Âü","NPC_.FNAM"
+Edd "Fast Eddie" Theman,°£µÂ¡¤¡°·ÉÃ«ÍÈ°£µÏ¡±¡¤Ï£Âü,NPC_.FNAM
 Eddard,°¬µÂ´ïµÂ,SPEL.FNAM
 Eddard Barrow,°¬µÂ´ïµÂ¹ÅÚ£,CEL
 Eddard's Wrath,°¬µÂ´ïµÂÖ®Å­,SPEL.FNAM
@@ -3925,6 +3961,7 @@ Edwinna,°£µÂÎÂÄÈ,NPC_.FNAM
 Edwinna Elbert,°£µÂÎÂÄÈ¡¤°£¶û²®ÌØ,NPC_.FNAM
 EEC Stock Certificate,¶«µÛ¹ú¹«Ë¾(EEC)Ö¤È¯,BOOK.FNAM
 Effe-Tei,°¬·Æ-Ì©,NPC_.FNAM
+Efficacious Balm,Ç¿Ğ§Î¿½å,SPEL.FNAM
 Egg Mine,ÂÑ¿ó³¡,
 Egg Miner,ÂÑ¿ó¿ó¹¤,NPC_.FNAM
 Eggmine,ÂÑ¿ó³¡,CEL
@@ -4063,14 +4100,20 @@ Enar,¶÷ÄÉ,NPC_.FNAM
 Enar Dralor,¶÷ÄÉ¡¤µÂÀ­ÂŞ,NPC_.FNAM
 Enar Releth,¶÷ÄÉ¡¤ÈğÀ³Ë¹,NPC_.FNAM
 Ence,¶÷Ë¹,NPC_.FNAM
-Enchant,¸½Ä§,Ò»ÖÖ½«Ä§·¨Ğ§¹ûÓë¾ßÌåÎïÆ·°ó¶¨µÄÌØÊâ¹¤ÒÕ¡£
+Enchant,¸½Ä§,GMST.STRV
 Enchanter,¸½Ä§Ê¦,CLAS.FNAM
+Enchanting,¸½Ä§,GMST.STRV
+Enchantment,¸½Ä§,GMST.STRV
+Enchantment Menu,¸½Ä§²Ëµ¥,GMST.STRV
+Enchantment Name,¸½Ä§Ãû³Æ,GMST.STRV
+Encumbrance,¸ºÖØ,GMST.STRV
 End of the World Renter Rooms,ÌìÑÄº£½Ç³ö×â·¿,CEL
 Endar,¶÷´ï,NPC_.FNAM
 Endar Drenim,¶÷´ï¡¤µÂÀ×ÄáÄ·,NPC_.FNAM
 Endarre,¶÷´ïÈğ,ÑÇÀúµÂÄĞÃû¡£
 Endase,¶÷´ïË¹,NPC_.FNAM
 Endase Avel,¶÷´ïË¹¡¤°¢Î¬¶û,NPC_.FNAM
+Endeavor,·Ü½øºÅ,CEL
 Endre,¶÷µÂ,NPC_.FNAM
 Endring,¶÷µÂÁÖ,NPC_.FNAM
 Endris,¶÷µÂÀïË¹,CEL|NPC_.FNAM
@@ -4082,6 +4125,7 @@ Endryn,¶÷µÂÁÖ,NPC_.FNAM
 Endryn Llethan,¶÷µÂÁÖ¡¤À³É­,NPC_.FNAM
 Endul,¶÷¶Å¶û,NPC_.FNAM
 Endul Rothandus,¶÷¶Å¶û¡¤ÂŞµ¤´ïË¹,NPC_.FNAM
+Endurance,ÄÍÁ¦,GMST.STRV
 Endus,¶÷¶ÅË¹,CREA.FNAM
 Endusal,¶÷¶ÅÈø,CEL
 Enduum,¶÷¶ÅÎÚÄ·,Ò»´¦ÑÇÀúµÂÒÅ¼££¬Î»ÓÚ¹ÈÓ°°ëµº¡£¿ÉÄÜÒâÎª¡°Ô¶µØ¡±¡£
@@ -4110,6 +4154,7 @@ Ephine,°¬·ÒÄá,NPC_.FNAM
 Eplear,°£ÆÕÀÕ¶û,¾«ÁéÍõ°£ÆÕÀÕ¶û£¬Í³Ò»ÁËÍßÂ×ÎéµÂ£¬½¨Á¢ÁËÓĞÊ·ÒÔÀ´µÚÒ»¸ö¹ú¼Ò£¬´Ó´Ë¾«Áé¼ÍÔª½áÊø£¬ÊÀ½ç½øÈëµÚÒ»¼ÍÔª¡£
 Eponis,°£²¨ÄáË¹,NPC_.FNAM
 Eponis Vinipter,°£²¨ÄáË¹¡¤Î¬ÄáÆÕÌØ,NPC_.FNAM
+Equip,×°±¸,GMST.STRV
 Eraamion,ÒÁÀ­Ã×ÎÌ,NPC_.FNAM
 Erabenimsun Camp,°£ÀÕ±ÈÄáÄ·ËïÓªµØ,CEL
 Eradan,ÒÁÀ­µ¤,NPC_.FNAM
@@ -4189,6 +4234,7 @@ Ery,°£Èğ,NPC_.FNAM
 Esar-Don,°£Èø¶û-ÌÆ,NPC_.FNAM
 Esar-Don Dunsamsi,°£Èø¶û-ÌÆ¡¤µËÉ£Î÷,NPC_.FNAM
 Esatliballit,ÒÁÈøÌØÁ¦°ÍÀûÌØ,NPC_.FNAM
+Escape,ÌÓ|Òİ,SPEL.FNAM
 Esdrecus,°£Ë¹µÂÀ×¿ËË¹,NPC_.FNAM
 Esdrufus,°¬Ë¹µÂÂ³·òË¹,NPC_.FNAM
 Esdrufus Harsinia,°¬Ë¹µÂÂ³·òË¹¡¤¹şÎ÷ÄáÑÇ,NPC_.FNAM
@@ -4217,7 +4263,7 @@ Ethys Savil,°£ÈüË¹¡¤ÈøÎ¬¶û,NPC_.FNAM
 Eton Nir,ÒÁ¶Ù¡¤Äá¶û,ÏÄÄºµºÉÏ×î¸ßµÄÉ½£¬ÔÆí¬³Ç£¨Cloudrest£©×øÂäÆäÉÏ¡£
 Ettiene of Glenmoril Wyrd,¸ñÂ×ÄªÀòÅ®Î×ÍÅµÄ°¬µÙ°²,CREA.FNAM|NPC_.FNAM
 Eutei,ÓÅÌ©,NPC_.FNAM
-Evening Star,Ò¹ĞÇÔÂ,¶ÔÓ¦ÏÖÊµµÄÊ®¶şÔÂ¡£°¢¶û¹±½Ü¶ûÓï³ÆÖ®Îª×æÂåÂíÌØ£¨Xulomaht£©£¬ÒâÎªÊÅÕß¡£
+Evening Star,Ò¹ĞÇÔÂ,GMST.STRV
 Evergloam,ÓÀºã»Æ»è,Åµ¿ËÍ¼ÄÈ¶ûµÄÁìÓò¡£
 Evermore,ÓÀºã,
 Eves,ÒÁ·òË¹,NPC_.FNAM
@@ -4289,6 +4335,7 @@ Exhausting Touch,Æ£¾ëÖ®´¥,SPEL.FNAM
 Exhaustion,Æ£¾ëÊõ,SPEL.FNAM
 Exit,³ö¿Ú,DOOR.FNAM
 Exodus,³ö±¼,°ÂµÂÄªÎ¬ÂåË¹´øÁì²¿·Ö¾«Áé¸úËæÔ¤ÑÔÖ¸Òıµ½´ïÁË³¿·ç¡£
+EXPELLED,±»³ıÃû,GMST.STRV
 Expensive Amulet,°º¹óµÄ»¤·û,CLOT.FNAM
 Expensive Belt,°º¹óµÄÑü´ø,CLOT.FNAM
 Expensive Left Glove,°º¹óµÄ×óÊÖÌ×,CLOT.FNAM
@@ -4307,6 +4354,7 @@ Exquisite Robe,¾«ÖÂµÄÅÛ×Ó,CLOT.FNAM
 Exquisite Shirt,¾«ÖÂµÄ³ÄÉÀ,CLOT.FNAM
 Exquisite Shoes,¾«ÖÂµÄĞ¬×Ó,CLOT.FNAM
 Exquisite Skirt,¾«ÖÂµÄÈ¹×Ó,CLOT.FNAM
+
 Extra-Comfy Pillow,¸ñÍâÊæÊÊµÄÕíÍ·,MISC.FNAM
 Extravagant Belt,Éİ³ŞµÄÑü´ø,CLOT.FNAM
 Extravagant Left Glove,Éİ³ŞµÄ×óÊÖÌ×,CLOT.FNAM
@@ -4321,7 +4369,7 @@ Extravagant Shoes,Éİ³ŞµÄĞ¬×Ó,CLOT.FNAM
 Extravagant Skirt,Éİ³ŞµÄÈ¹×Ó,CLOT.FNAM
 Eydis,°¬µÏË¹,NPC_.FNAM
 Eydis Fire-Eye,°¬µÏË¹¡¤»ğÑÛ,NPC_.FNAM
-Eye,ÑÛ,°ÂµÂÄªÓï£¬ÊÍÒå½öÎªÍÆ²â¡£1.Ê¥Ëù|2.±ÜÄÑËù
+Eye,ÑÛ,LIGH.FNAM
 Eye of Duggan,´ï¸ùÖ®ÑÛ,CEL
 Eye of Fear,¿Ö¾åÖ®ÑÛ,SPEL.FNAM
 Eye of Night,ºÚÒ¹Ö®ÑÛ,SPEL.FNAM
@@ -4329,6 +4377,7 @@ Eye of Talos,ËşÂåË¹Ö®ÑÛ,SPEL.FNAM
 Eye of the Wolf,ÀÇÖ®ÑÛ,SPEL.FNAM
 Eye of Thom Wye,ÍĞÄ·¡¤»³Ö®ÑÛ,CEL
 Eye-Fly,·ÉÑÛ,NPC_.FNAM
+Eye-Maze,ÃÔÄ¿Êõ,SPEL.FNAM
 Eye-Maze Ring,ÃÔÄ¿Ö®½ä,CLOT.FNAM
 Eyearata,°£°¢À­Ëş,Ò»´¦Î»ÓÚ±´ÍĞÄáµºµÄÑÇÀúµÂÒÅ¼££¬¿ÉÄÜÒâÎª¡°³ç¸ßÊ¥Ëù¡±¡£
 Eyes of the Serpent,ÉßÖ®ÑÛ,
@@ -4337,6 +4386,7 @@ F'lah,ÀÏÏç,<q>Native<q>µÄ·½ÑÔ°æ¡£
 Fabricant Shock,Ğµ¹¹Ìåµç»÷,SPEL.FNAM
 Facian,·¨Î÷°²,NPC_.FNAM
 Facility Cavern,ÉèÊ©³²Ñ¨,CEL
+Faction,ÅÉÏµ,GMST.STRV
 Factor,¸ºÔğÈË,FACT.RNAM
 Factor's Estate,´úÀíÉÌ¸®Û¡,CEL
 Fadase,·¨´ïË¹,NPC_.FNAM
@@ -4454,11 +4504,12 @@ Faric,·¨Àï¿Ë,NPC_.FNAM
 Faric Panoit,·¨Àï¿Ë¡¤ÅÁÅµÒÁÌØ,NPC_.FNAM
 Farmer,Å©Ãñ,CLAS.FNAM
 Farmers and Laborers Hall,Å©ÈËºÍÀÍ¹¤µÄ´óÌü,ACTI.FNAM
+Farmhouse,Å©Éá,CEL
 Farmin,·¨Ã÷,NPC_.FNAM
 Farothran,·¨ÂŞÉ¼,NPC_.FNAM
 Farr,·¨¶û,NPC_.FNAM
 Farrun,·¨Â×,
-Farseer,ÏÈÖª,FACT.RNAM|NPC_.FNAM
+Farseer,ÏÈÖª|Ô¶¼ûÕß,FACT.RNAM|NPC_.FNAM
 Farusea,·¨Â¶Î÷æ«,CEL|NPC_.FNAM
 Farusea Salas,·¨Â¶Î÷æ«¡¤ÈøÀ­Ë¹,NPC_.FNAM
 Farusea Salas' House,·¨Â¶Î÷æ«¡¤ÈøÀ­Ë¹µÄ·¿×Ó,CEL
@@ -4494,6 +4545,7 @@ Fathis Aren's Tower,·¨ÌáË¹¡¤°¬Â×Ö®Ëş,
 Fathusa,·¨Í¼Èø,NPC_.FNAM
 Fathusa Girethi,·¨Í¼Èø¡¤¼ªÀ×µÙ,NPC_.FNAM
 Fathyron,·¨ÉªÂ¡,NPC_.FNAM
+Fatigue,ÌåÁ¦,GMST.STRV
 Fatleg's Drop Off,·ÊÍÈÂä¿Í,CEL
 Faulgor,¸£¶û¸ñ,NPC_.FNAM
 Fauseius,¸£ÈûÓÈË¹,NPC_.FNAM
@@ -4521,10 +4573,12 @@ Favise,·¨Î¬Ë¹,NPC_.FNAM
 Favise Selaren,·¨Î¬Ë¹¡¤ÈûÀ­Â×,NPC_.FNAM
 Favona,·¨ÎÖÄÈ,NPC_.FNAM
 Favona Gilnith,·¨ÎÖÄÈ¡¤¼ª¶ûÄáË¹,NPC_.FNAM
+Favorite Skills,Æ«ºÃ¼¼ÄÜ,GMST.STRV
 Fay,Ñı¾«Ö®Á¦,SPEL.FNAM
 Fearsome Grahl,¿ÉÅÂµÄ¸ñÀ­¶û,CREA.FNAM
 Fearstruck,¿Ö¾åÇ¿Ï®,Ò»ÃæÇ¿´óµÄ¶ÜÅÆ¡£
-Feather,ÇáÓğÊõ,SPEL.FNAM
+Feast,ÏíÓÃ,SPEL.FNAM
+Feather,ÇáÓğ|ÇáÓğÊõ,GMST.STRV|SPEL.FNAM
 Feather Belt,ÇáÓğÑü´ø,CLOT.FNAM
 Feather Ring,ÇáÓğÖ®½ä,CLOT.FNAM
 Feather Shield,ÇáÓğÖ®¶Ü,ARMO.FNAM
@@ -4680,12 +4734,15 @@ Fingerbowl Cave,Ö¸ÖÑ¶´Ñ¨,
 Fingerbowl Cave - Lord Crypt,Ï´Ö¸ÖÑ¶´Ñ¨-ÁìÖ÷Ä¹Ñ¨,
 Fingerbowl Cave - Noble Crypt,Ï´Ö¸ÖÑ¶´Ñ¨-¹ó×åÄ¹Ñ¨,
 Fingerbowl Cave - Servant Crypt,Ö¸ÖÑ¶´Ñ¨-ÆÍ´ÓÄ¹Ñ¨,
+Fire,»ğ,CLOT.FNAM|SPEL.FNAM
+Fire and Faith,ÈÈ³ÀÓëĞÅÄî,BOOK.FNAM
 Fire Barrier,»ğÑæÆÁÕÏ,SPEL.FNAM
 Fire Bite,×ÆÉÕÊõ,SPEL.FNAM
+Fire Damage,»ğÑæÉËº¦,GMST.STRV
 Fire Fern,»ğŞ§,CONT.FNAM
 Fire Petal,»ğŞ§»¨°ê,INGR.FNAM
 Fire Salts,»ğÑÎ,INGR.FNAM
-Fire Shield,»ğÑæ»¤¶Ü,ACTI.FNAM|SPEL.FNAM
+Fire Shield,»ğÑæ»¤¶Ü,ACTI.FNAM|GMST.STRV|SPEL.FNAM
 Fire Storm,ÁÒÑæ·ç±©,SPEL.FNAM
 Fire Trap,»ğÑæÏİÚå,SPEL.FNAM
 Fire-Eye,»ğÑÛ,NPC_.FNAM
@@ -4706,7 +4763,7 @@ First Barrier,³õ¼¶ÆÁÕÏ,SPEL.FNAM
 First Barrier Belt,³õ¼¶ÆÁÕÏÑü´ø,CLOT.FNAM
 First Barrier Ring,³õ¼¶ÆÁÕÏÖ®½ä,CLOT.FNAM
 First Folk,Ê×Ãñ,*Ïê¼ûAldmer´ÊÌõ¡£
-First Seed,³õÖÖÔÂ,¶ÔÓ¦ÏÖÊµµÄÈıÔÂ¡£°¢¶û¹±½Ü¶ûÓï³ÆÖ®ÎªÎ÷Èû£¨Sisei£©£¬ÒâË¼ÊÇĞÂÑ¿£¨Sprout£©¡£
+First Seed,³õÖÖÔÂ,GMST.STRV
 First Tree,µÚÒ»¿ÃÊ÷,ACTI.FNAM
 First Tree Sapling,µÚÒ»¿ÃÊ÷Ãç,ACTI.FNAM
 First Tree Seedling,µÚÒ»¿ÃÊ÷Ñ¿,ACTI.FNAM
@@ -4760,6 +4817,7 @@ Floating Barrel,Æ¯¸¡µÄÍ°,CONT.FNAM
 Floating Crate,Æ¯¸¡µÄ°åÌõÏä,CONT.FNAM
 Floating Dock Plank,¸¡¶¯µÄ´¬Îë°å,ACTI.FNAM
 Flooded Mine,Ë®ÑÍ¿ó³¡,
+Flower Report,ÏÊ»¨±¨¸æ,BOOK.FNAM
 Flowering Sweetbarrel,Ê¢¿ªµÄÌğÍ°»¨,CONT.FNAM
 Fly-Breath,·É-Ï¢,NPC_.FNAM
 Flying Viper,·ÉĞĞ¶¾Éß,WEAP.FNAM
@@ -4768,6 +4826,7 @@ Foe-Quern,ÄëµĞÕß,CLOT.FNAM
 Foeburner,·ÙµĞÕß,WEAP.FNAM
 Folded Cloth,ÕÛµş²¼ÁÏ,MISC.FNAM
 Follower,ĞÅÍ½,
+Folly,ÓŞ´À,BOOK.FNAM
 Folms,¸£¶ûÄ·Ë¹,NPC_.FNAM
 Folms Mirel,¸£¶ûÄ·Ë¹¡¤Ã×À×¶û,NPC_.FNAM
 Folsi,¸¥¶ûÎ÷,NPC_.FNAM
@@ -4805,6 +4864,7 @@ Foreign Quarter Plaza,Íâ°îÇø¹ã³¡,CEL
 Foreign Quarter Tomb,Íâ°îÇøÄ¹Ñ¨,CEL
 Foreign Quarter Underworks,Íâ°îÇøÏÂË®µÀ,CEL
 Foreign Quarter Upper Waistworks,Íâ°îÇøÉÏ²ã¹¤×÷Çø,CEL
+Forge,ÈÛÂ¯,CEL
 Forge of Hilbongard,Ï£¶û°î¼ÓµÂ¶ÍÔì³§,CEL
 Forgotten Galleries,ÒÅÍüÂ¥×ù,CEL
 Forgotten Hero,±»ÒÅÍüµÄÓ¢ĞÛ,The Elder Scrolls: LegendsµÄÖ÷½Ç¡£
@@ -4905,29 +4965,37 @@ Fort Virtue,ÃÀµÂ±¤,
 Fort Vlastarus,¸¥À­Ë¹ËşÂ³Ë¹±¤,
 Fort Wariel,ÍßÀï¶û±¤,
 Fort Wooden Hand,Ä¾ÊÖ±¤,
+Fortify,ÌáÉı,GMST.STRV
 Fortify Acrobatics Skill,Ç¿»¯ÔÓ¼¼¼¼ÄÜ,SPEL.FNAM
 Fortify Alchemy Skill,Ç¿»¯Á¶½ğ¼¼ÄÜ,SPEL.FNAM
 Fortify Alteration Skill,Ç¿»¯±ä»¯Ïµ¼¼ÄÜ,SPEL.FNAM
 Fortify Armorer Skill,Ç¿»¯ĞŞÀí¼¼ÄÜ,SPEL.FNAM
 Fortify Athletics Skill,Ç¿»¯ÔË¶¯¼¼ÄÜ,SPEL.FNAM
+Fortify Attack,Ç¿»¯¹¥»÷,GMST.STRV
+Fortify Attribute,ÊôĞÔÇ¿»¯,GMST.STRV
 Fortify Axe Skill,Ç¿»¯¸«Àà¼¼ÄÜ,SPEL.FNAM
 Fortify Block Skill,Ç¿»¯¸ñµ²¼¼ÄÜ,SPEL.FNAM
 Fortify Blunt Weapons Skill,Ç¿»¯¶ÛÆ÷¼¼ÄÜ,SPEL.FNAM
 Fortify Conjuration Skill,Ç¿»¯ÕÙ»½Ïµ¼¼ÄÜ,SPEL.FNAM
 Fortify Destruction Skill,Ç¿»¯»ÙÃğÏµ¼¼ÄÜ,SPEL.FNAM
 Fortify Enchant Skill,Ç¿»¯¸½Ä§¼¼ÄÜ,SPEL.FNAM
+Fortify Fatigue,ÌåÁ¦Ç¿»¯,GMST.STRV
 Fortify Hand to Hand Skill,Ç¿»¯Í½ÊÖ¼¼ÄÜ,SPEL.FNAM
+Fortify Health,ÉúÃüÇ¿»¯,GMST.STRV
 Fortify Heavy Armor Skill,Ç¿»¯ÖØ¼×¼¼ÄÜ,SPEL.FNAM
 Fortify Illusion Skill,Ç¿»¯»ÃÊõÏµ¼¼ÄÜ,SPEL.FNAM
 Fortify Light Armor Skill,Ç¿»¯Çá¼×¼¼ÄÜ,SPEL.FNAM
 Fortify Long Blade Skill,Ç¿»¯³¤ÈĞ¼¼ÄÜ,SPEL.FNAM
+Fortify Magicka,Ä§Á¦Ç¿»¯,GMST.STRV
 Fortify Marksman Skill,Ç¿»¯ÉäÊõ¼¼ÄÜ,SPEL.FNAM
+Fortify Maximum Magicka,×î´óÄ§Á¦Ç¿»¯,GMST.STRV
 Fortify Medium Armor Skill,Ç¿»¯ÖĞ¼×¼¼ÄÜ,SPEL.FNAM
 Fortify Mercantile Skill,Ç¿»¯Ã³Ò×¼¼ÄÜ,SPEL.FNAM
 Fortify Mysticism Skill,Ç¿»¯ÉñÃØÏµ¼¼ÄÜ,SPEL.FNAM
 Fortify Restoration Skill,Ç¿»¯»Ö¸´Ïµ¼¼ÄÜ,SPEL.FNAM
 Fortify Security Skill,Ç¿»¯¿ªËø¼¼ÄÜ,SPEL.FNAM
 Fortify Short Blade Skill,Ç¿»¯¶ÌÈĞ¼¼ÄÜ,SPEL.FNAM
+Fortify Skill,¼¼ÄÜÇ¿»¯,GMST.STRV
 Fortify Sneak Skill,Ç¿»¯Ç±ĞĞ¼¼ÄÜ,SPEL.FNAM
 Fortify Spear Skill,Ç¿»¯³¤±ú¼¼ÄÜ,SPEL.FNAM
 Fortify Speechcraft Skill,Ç¿»¯¿Ú²Å¼¼ÄÜ,SPEL.FNAM
@@ -4973,11 +5041,12 @@ Frelene Acques,¸¥À³ÄÉ¡¤°¢¿Ë,NPC_.FNAM
 Frenck,¸¥À¼¿Ë,NPC_.FNAM
 Frensca,ÀË,ÑÇÀúµÂÓï¡£
 Frenzy Beast,Ò°ÊŞ¿ñ»¯Êõ,SPEL.FNAM
-Frenzy Creature,ÉúÎï¿ñÂÒ,SPEL.FNAM
-Frenzy Humanoid,ÈËĞÎÉúÎï¿ñÂÒ,SPEL.FNAM
+Frenzy Creature,ÉúÎï¿ñÂÒ,GMST.STRV|SPEL.FNAM
+Frenzy Humanoid,ÈËĞÎÉúÎï¿ñÂÒ,GMST.STRV|SPEL.FNAM
 Frenzying Touch,¿ñ»¯Ö®´¥,SPEL.FNAM
 Frernis,¸¥ÀÙÄáË¹,BOOK.FNAM|MISC.FNAM|NPC_.FNAM
 Frey,½ö,·¥ÄªÓï¡£
+Friend,ÅóÓÑ|ÓÑ,WEAP.FNAM
 Frik,¸£Àû¿Æ,NPC_.FNAM
 Fringe,±ßÔµµØ,Õ½ÀõÈºµºÉÏÆäÖĞÒ»¸öÇøÓòµÄÍ³³Æ£¬Ô½Ç½ÕòÊÇÆäÖ÷Òª¶¨¾Óµã¡£
 Frink,¸¥ÁÖ¿Ë,NPC_.FNAM
@@ -4986,14 +5055,17 @@ Frinnius,¸¥ÀïÅ¦Ë¹,NPC_.FNAM
 Frinnius Posuceius,¸¥ÀïÅ¦Ë¹¡¤²¨ËÕÈûÎÚË¹,NPC_.FNAM
 Frizkav,¸¥Àï´Ä¿¨·ò,NPC_.FNAM
 Frizkav Brutya,¸¥Àï´Ä¿¨·ò¡¤²¼Â³µÙÑÇ,NPC_.FNAM
+Frock,ÉÏÒÂ,CLOT.FNAM
 "Frontier, Conquest...","¡¶Ç°Ïß£¬Õ÷·şÓëºÍ½â¡·","BOOK.FNAM"
 Frossel,·ğÈû¶û,CEL
 Frosselmane Barrow,·ğÈû¶ûÂü¹ÅÚ£,CEL
 Frost  Atronach,±ùËªÊÌÁé,CREA.FNAM
 Frost Barrier,±ùËªÆÁÕÏ,SPEL.FNAM
 Frost Bolt,±ùËªåó¼ı,SPEL.FNAM
+Frost Damage,±ùËªÉËº¦,GMST.STRV
+Frost Fall,ËªÂäÔÂ,GMST.STRV
 Frost Salts,ËªÑÎ,INGR.FNAM
-Frost Shield,±ùËª»¤¶Ü,ACTI.FNAM|SPEL.FNAM
+Frost Shield,±ùËª»¤¶Ü,ACTI.FNAM|GMST.STRV|SPEL.FNAM
 Frost Storm,±ùËª·ç±©,SPEL.FNAM
 Frost Trap,º®ËªÏİÚå,SPEL.FNAM
 Frostball,±ùÇòÊõ,SPEL.FNAM
@@ -5018,6 +5090,7 @@ Fryfnhild,¸¥À³·òÏ£¶ûµÂ,NPC_.FNAM
 Frykte,Î·²À¶´¿ß,CEL
 Fryse Hag,±ùËªÅ®Î×,NPC_.FNAM
 Fryssa,¸¥À³Èø,NPC_.FNAM
+ft,³ß,GMST.STRV
 Fuddle,ÀÃ×í,SPEL.FNAM
 Fuddle Charm,ÀÃ×íÏîÁ´,CLOT.FNAM
 Fulbenus,¸»¶û±´Å¬Ë¹,NPC_.FNAM
@@ -5027,7 +5100,7 @@ Furius,·¨ÁôË¹,NPC_.FNAM
 Furius Acilius,·¨ÁôË¹¡¤°¢Î÷ÁôË¹,NPC_.FNAM
 Furotis,¸£ÂŞÌáË¹,NPC_.FNAM
 Furstock,Æ¤ÖÖ,¶Ô¿¨¼ªÌØ²»Í¬ÑÇÖÖµÄÍ³³Æ¡£
-Fury,¿ñÅ­,WEAP.FNAM
+Fury,Å­|¿ñÅ­,SPEL.FNAM|WEAP.FNAM
 Fyr,·Æ¶û,MISC.FNAM|NPC_.FNAM
 Gaban,¸ñ°à,NPC_.FNAM
 Gabenagus,¼Ó±´ÄÉ¹ÅË¹,NPC_.FNAM
@@ -5078,7 +5151,7 @@ Galdal Omayn,¼Ó¶û´ï¶û¡¤°ÂÂü,NPC_.FNAM
 Galdiir,¼Ó¶ûµÏ¶û,NPC_.FNAM
 Galdres,¼ÓµÂÀ×Ë¹,NPC_.FNAM
 Galdres Ienith,¼ÓµÂÀ×Ë¹¡¤ÒÁÄáË¼,NPC_.FNAM
-Galen,¼ÓÂ×,NPC_.FNAM|ÊôÂä´¸Ê¡£¬°¢±ÌÏ£º£ÒÔÎ÷£¬µÂÂ³ÒÁÕÆÈ¨µÄµºÓì¡£
+Galen,¼ÓÂ×,NPC_.FNAM
 Galen Berer,¼ÓÂ×¡¤±´ÀÕ,NPC_.FNAM
 Galen Berer: Armorer,¼ÓÂ×¡¤±´ÀÕ£º»¤¼×ÉÌ,CEL|ACTI.FNAM
 Galenus,¸ÇÀÕÄÉË¹,NPC_.FNAM
@@ -5090,6 +5163,7 @@ Galero Andaram,¼ÓÀ×ÂŞ¡¤°²´ïÀ­Ä·,NPC_.FNAM
 Galis,¼ÓÀûË¹,NPC_.FNAM
 Galis Seleth,¼ÓÀûË¹¡¤ÈûÀ³Ë¹,NPC_.FNAM
 Gallant,ÓÂÕß,FACT.RNAM
+Gallery,ÀÈ,CEL
 Galmir,¼Ó¶ûÃ×¶û,NPC_.FNAM
 Galmis,¼Ó¶ûÃ×Ë¹,CREA.FNAM|MISC.FNAM|NPC_.FNAM
 Galmis Dren,¼Ó¶ûÃ×Ë¹¡¤µÂÂ×,NPC_.FNAM
@@ -5215,6 +5289,7 @@ Gavis Velas,¼ÖÎ¬Ë¹¡¤Î¬À­Ë¹,NPC_.FNAM
 Gavos,¼ÓÎÖË¹,NPC_.FNAM
 Gavyn,¼ÓÎÄ,NPC_.FNAM
 Gazalem,¼ÓÔúÀ×Ä·,NPC_.FNAM
+Gaze,ÄıÊÓ,SPEL.FNAM
 Gedna,¼ªµÂÄÉ,CREA.FNAM|SPEL.FNAM
 Gedna Relvel,¼ªµÂÄÉ¡¤Èğ°¬Î¬¶û,CREA.FNAM
 Gedna's Barrier,¼ªµÂÄÉµÄÆÁÕÏ,SPEL.FNAM
@@ -5257,6 +5332,7 @@ Ghoragdush gro-Kashug,¹ÅÀ­¸ñ¶ÅÊ²¡¤¸ñÂŞ-¿¨Êæ¸ñ,NPC_.FNAM
 Ghorak Manor,¸êÀ­¿Ë¸®Û¡,CEL
 Ghorlorz,¸êÂå×È,NPC_.FNAM
 Ghorlorz gro-Moghakh,¸êÂå×È¡¤¸ñÂŞ-Äª¸Á¿Ë,NPC_.FNAM
+Ghost,ÓÄÁé,CREA.FNAM
 Ghost Ability,ÓÄÁéÖ®Á¦,SPEL.FNAM
 Ghost Charm,ÓÄ»êÏîÁ´,CLOT.FNAM
 Ghost Curse,ÓÄ»ê×çÖä,SPEL.FNAM
@@ -5283,6 +5359,7 @@ Giden Nelvilo,¼ªµÇ¡¤ÄÚÎ¬ÂŞ,NPC_.FNAM
 Gideon,¼ªµÂ°º,ºÚÕÓÔóµØÇøµÄÖ÷Òª³ÇÊĞÖ®Ò»£¬ÓÉµÛ¹úÈË½¨Á¢ÔÚÌØÎ¬¶û±´¿ËÒÅ¼£Ö®ÉÏ£¬ºó±»°¢¶û¹±ÊÆÁ¦ÍÌ²¢¡£
 Gidran,¼ªµÂÀ¼,NPC_.FNAM
 Gidren,¼ªµÂÀ¼,CEL
+Gift,´Í|À¡|Àñ|ÀñÎï,SPEL.FNAM
 Gih-Ja,¼ªºÕ-¼Ö,NPC_.FNAM
 Giladren,¼ªÀ­µÂÂ×,NPC_.FNAM
 Gilan,¼ªÀ¼,NPC_.FNAM
@@ -5343,6 +5420,7 @@ Girara,¼ªÀ­À­,NPC_.FNAM
 Girara Teran,¼ªÀ­À­¡¤ÌØÈ»,NPC_.FNAM
 Giras,¼ªÀ­Ë¹,NPC_.FNAM
 Giras Indaram,¼ªÀ­Ë¹¡¤Òò´ïÀ­Ä·,NPC_.FNAM
+Girdle,Ñü´ø,SPEL.FNAM
 Giren,¼ªÂ×,NPC_.FNAM
 Giren Avilo,¼ªÂ×¡¤°¢Î¬Âå,NPC_.FNAM
 Girendas,¼ªÂ×´ïË¹,NPC_.FNAM
@@ -5420,6 +5498,8 @@ Glob gra-Ghasharzol,¸ñÂŞ²¼¡¤¸ñÀ­-¸ÁÉ¯×ô¶û,NPC_.FNAM
 Glonagoth,¸êÂ¡ÄÇ¸ñË¹,NPC_.FNAM
 Gloomy Cave,ÒõÉ­¶´Ñ¨,CEL
 Gloriosus,¸ñÂåÀïË÷Ë¹,NPC_.FNAM
+Glory,ÈÙÒ«,BOOK.FNAM|SPEL.FNAM
+glove,ÊÖÌ×,CLOT.FNAM
 Glove of Sanguine Horny Fist,É£¼ª¶÷¼áÈ­ÊÖÌ×,CLOT.FNAM
 Glove of Sanguine Safekeeping,É£¼ª¶÷°²±£ÊÖÌ×,CLOT.FNAM
 Glove of Sanguine Swiftblade,É£¼ª¶÷¿ìµ¶ÊÖÌ×,CLOT.FNAM
@@ -5470,7 +5550,7 @@ Golanar's Eye-Maze,¸ßÀ­ÄÉµÄÃÔÄ¿Êõ,SPEL.FNAM
 Golar,¸êÀ­¶û,NPC_.FNAM
 Golar Omoran,¸êÀ­¶û¡¤°ÂÄªÀ¼,NPC_.FNAM
 Golathyn,¸êÀ­ĞÁ,NPC_.FNAM
-Gold,½ğ±Ò,MISC.FNAM
+Gold,½ğ±Ò,GMST.STRV|MISC.FNAM
 Gold Coast,»Æ½ğº£°¶,
 Gold Kanet,½ğÉ«¿¨ÄÚÌØ,INGR.FNAM
 Gold Kanet Flower,½ğÉ«¿¨ÄÚÌØ»¨,CONT.FNAM
@@ -5540,15 +5620,19 @@ Gortwog gro-Nagorm,¸êÌØÎÖ¸ñ¡¤¸ñÂŞ-ÄÉ¹ûÄ·,
 Gorvas,¸èÍßË¹,NPC_.FNAM
 Gorven,¸è·Ò,NPC_.FNAM
 Gorven Menas,¸è·Ò¡¤Ã×ÄÈË¹,NPC_.FNAM
+Gospel,¸£Òô,SPEL.FNAM
 Gothren,¸êÉªÂ×,ARMO.FNAM|NPC_.FNAM|SPEL.FNAM
 Gothren's Cephalopod Helm,¸êÉªÂ×µÄÍ·×ã¸ÙÍ·¿ø,ARMO.FNAM
 Gothren's Gout,¸êÉªÂ×Ö®±Ô,SPEL.FNAM
 Gothryd,¸êË¹ÀïµÂ,ÀûÉ£¶ÅË¹¹úÍõµÄ¶ù×Ó¡£
 Gottlesfont Priory,¸çÌØ¶ûË¹Ê¥Ë®Ì³ĞŞµÀÔº,Ôİ¶¨£¬¿ÉÄÜÓĞ¹££¬ÒòÎªGottlesÊÇÄ£·Â×íºº·¢Bottle£¬FontÊÇÊ¥Ë®Ì³¡£»¶Ó­ÌÖÂÛ¡£
 Gottshaw Inn,¸êÌØĞ¤¿ÍÕ»,
+Gout,±Ô,SPEL.FNAM
 Goval,¸èÍß¶û,NPC_.FNAM
 Goval Ralen,¸èÍß¶û¡¤À­Â×,NPC_.FNAM
+Governing Attribute,Ö§Åä¸Ã¼¼ÄÜµÄÊôĞÔ,GMST.STRV
 Governor's Hall,×Ü¶½¸®,CEL
+gp,ÈûÆÕÍ¡,GMST.STRV
 gra-Agum,¸ñÀ­-°¢¹ÅÄ·,NPC_.FNAM
 gra-Bamog,¸ñÀ­-°ÍÄª¸ñ,NPC_.FNAM
 gra-Bargamph,¸ñÀ­-°Í¸ÁÄ··Æ,NPC_.FNAM
@@ -5599,6 +5683,7 @@ gra-Ugruma,¸ñÀ­-ÎÚ¸ñÂ³Âê,NPC_.FNAM
 gra-Ulfish,¸ñÀ­-ÎÚ¶û·ÆÏ£,NPC_.FNAM
 gra-Ushar,¸ñÀ­-ÎÚÈø,NPC_.FNAM
 gra-Yargul,¸ñÀ­-ÑÅ¹Å¶û,NPC_.FNAM
+Grace,¶÷µä,SPEL.FNAM
 Grace of Almsivi,°ÂÄ·Ï£Î¬Ö®¶÷µä,SPEL.FNAM
 Gragus,¸ñÀ­ÎÚË¹,NPC_.FNAM
 Gragus Lleran,¸ñÀ­ÎÚË¹¡¤ÀÕÈ»,NPC_.FNAM
@@ -5637,6 +5722,7 @@ Gratian Caerellius,¸ñÀ­µÙ°²¡¤¿¨À×ÀûÎÚË¹,NPC_.FNAM
 Gratian Caerellius' House,¸ñÀ­µÙ°²¡¤¿¨À×ÀûÎÚË¹µÄ·¿×Ó,CEL
 Gratius,¸ñÀ­ÌáÎÚË¹,NPC_.FNAM
 Gratus,¸ñÀ­Í¼Ë¹,CONT.FNAM|NPC_.FNAM
+Grave,Ä¹|·ØÄ¹,CEL
 Grave Curse: Agilitiy,·ØÄ¹×çÖä£ºÃô½İ,SPEL.FNAM
 Grave Curse: Endurance,·ØÄ¹×çÖä£ºÄÍÁ¦,SPEL.FNAM
 Grave Curse: Fatigue,·ØÄ¹×çÖä£ºÌåÁ¦,SPEL.FNAM
@@ -5854,6 +5940,7 @@ Guide,ÒıÁìÕß,FACT.RNAM
 Guide to Ald'ruhn,¡¶°ÂµÂ'ÈêÒòÖ¸ÄÏ¡·,BOOK.FNAM
 Guide to Balmora,¡¶°Í¶ûÄªÀ­Ö¸ÄÏ¡·,BOOK.FNAM
 Guide to Sadrith Mora,¡¶ÈøµÂÈğË¹-ÄªÀ­Ö¸ÄÏ¡·,BOOK.FNAM
+Guide to the Fishy Stick,Óã°ô°ôÖ¸ÄÏ,BOOK.FNAM
 Guide to Vivec,¡¶Î¬Íş¿Ë³ÇÖ¸ÄÏ¡·,BOOK.FNAM
 Guide to Vvardenfell,¡¶ÍßµÇ·Ñ¶ûÖ¸ÄÏ¡·,BOOK.FNAM
 Guild Guide,¹«»áÏòµ¼,CLAS.FNAM
@@ -5937,6 +6024,7 @@ Half-Troll,°ë¾ŞÄ§,CEL|NPC_.FNAM
 Halfhand,°ëÊÖ,NPC_.FNAM
 Halfway Tavern,°ëÂ·¾Æ¹İ,CEL|ACTI.FNAM
 Halit Mine,¹şÀûÌØ¿ó³¡,CEL
+Hall,¼ä|´óÌü,CEL|ACTI.FNAM
 Hall of Centrifuge,ÀëĞÄ»ú´óÌü,CEL
 Hall of Delirium,ÚŞÍı´óÌü,CEL
 Hall of Epochs,ÊÀ´úÖ®Ìü,
@@ -5965,7 +6053,7 @@ Hame Silasel,¹şÄ¬-êØÀ­Èû¶û,
 Hame Wendesel,¹şÄ¬-ÎÂµÂÈû¶û,
 Hamlof,¹şÄ·ÂŞ·ò,NPC_.FNAM
 Hamlof Red-tooth,¹şÄ·ÂŞ·ò¡¤³àÑÀ,NPC_.FNAM
-Hammer,ÖØ´¸Õß,FACT.RNAM
+Hammer,´¸|ĞŞÀí´¸|ÖØ´¸Õß,FACT.RNAM|REPA.FNAM|WEAP.FNAM
 Hammer and Tongs,´¸ÓëÇ¯,
 Hammerfell,Âä´¸,Âä´¸ĞĞÊ¡¡£
 Hammock,µõ´²,ACTI.FNAM
@@ -6026,6 +6114,7 @@ Harstryl,ÓÎÃñ,µÂÀ×ÄªÀ­£¨Dremora£©½×¼¶ÖĞ´ÎµÍ¼¶µÄ½×¼¶£¬Ã»ÓĞ²¿×å´ÍÃû£¬Ö÷ÒªÊÇÔ¶³Ì£¬½
 Harthoon,¹şËÌ,SPEL.FNAM
 Harthoon's Heavy Eyes,¹şËÌµÄ³ÁÖØÖ®ÑÛ,SPEL.FNAM
 Harvest's End,Ä©ÊÕ½Ú,Î»ÓÚÄ©ÖÖÔÂ27ÈÕ£¨27th of Last Seed£©¡£
+Harvester,ÊÕ¸îÕß,WEAP.FNAM
 Hasell,¹şÈû¶û,NPC_.FNAM
 Haskill,¹şË¹»ù¶û,¹şË¹»ù¶ûÊÇĞ»¶û¸ñÀ­Ë¹µÄÊÌ´Ó£¬¡°ÊÇ·èÉñ²»¶Ï±ä»¯µÄÆæÏëÖĞ²»±äµÄÄÇ¸ö¡±¡£ËûºÍËûµÄÍ¬ÊÂ¡¢Ç°½Ü¸ÇÀ­¸ñÊÌ´ÓµÒÎÚË¹Ò»ÑùÉíÊÀ²»Ã÷£¬¶øËû×Ô³Æ×Ô¼ºÓÉÒ»¸ö·²ÈË³ÉÎªÁËÆõÁé¡£
 Hasphat,¹şË¹ÅÁÌØ,BOOK.FNAM|MISC.FNAM|NPC_.FNAM
@@ -6046,6 +6135,7 @@ Hawker,»ô¿Ë,NPC_.FNAM
 Hawkmoth Legion Garrison,Ó¥¶ê¾üÍÅ×¤¾üµØ,CEL
 Hawkmoth Prison Cell Key,Ó¥¶ê¼àÓüÀÎ·¿µÄÔ¿³×,MISC.FNAM
 Hawkmoth Towers,Ó¥¶êÎÀËş,CEL
+Hawkshaw,Õì²âÊõ,SPEL.FNAM
 Hawkshaw Ring,Õì²âÖ®½ä,CLOT.FNAM
 Haynekhtnamet,ºÕÄÍ¿¨ÄÉÃ·ÌØ,ºÚÕÓÔóÔø¾­¾Ó×¡×Å±»°¢¶û¹±³ÆÎªÍßÂêÚÕµÄÉúÎï¡£±±·½ÀĞÈÏÎªËüÃÇºÍÁúÒ»Ñù´ÏÃ÷£¬ÄÜÓÃÉÁµçÉ±Â¾¡£
 Haynote Basin Galleries,º£ÅµÌØ¶´Ñ¨-ÅèµØÀÈµÀ,
@@ -6055,9 +6145,13 @@ He Who Records All Knowledge,È«ÖªµÄËû,*Ïê¼ûHermaeus Mora´ÊÌõ¡£
 He Who Speaks Sideways,ËùÑÔÆ«²îµÄËû,*Ïê¼ûMalacath´ÊÌõ¡£
 He-Who-Destroys and She-Who-Erases,»ÙÃğµÄËûÓëÄ¨É±µÄËı,*Ïê¼ûBoethiah´ÊÌõ¡£
 Heal Companion,ÓúºÏÖ®ÊÖ,SPEL.FNAM
-Healer,ÖÎÁÆÊ¦,CLAS.FNAM
+Healer,ÖÎÁÆÊ¦,CLAS.FNAM|GMST.STRV
 Healing Word,ÁÆÓúÖ®ÑÔ,SPEL.FNAM
+Health,ÉúÃü,GMST.STRV
+Heart,ĞÄ,INGR.FNAM
 Heart of an Innocent,ÎŞ¹¼ÕßÖ®ĞÄ,INGR.FNAM
+Heart of Anequina,°²¿üÄÉÖ®ĞÄ,BOOK.FNAM
+Heart of Fire,»ğÖ®ĞÄ,CLOT.FNAM
 Heart of Lorkhan,Âå¿Ëº¹Ö®ĞÄ,CREA.FNAM
 Heart of the Spirit Bear,ÁéĞÜÖ®ĞÄ,MISC.FNAM
 Heart of the Udyrfrykte,ÎÚµÏ¸£Èğ¿ËÖ®ĞÄ,INGR.FNAM
@@ -6067,6 +6161,7 @@ Heart Wall,ĞÄÖ®±Ú,ARMO.FNAM
 Heart-Fang,ĞÄÑÀ,NPC_.FNAM
 Heartbite,ĞÄÊÉ,SPEL.FNAM
 Heartbite Ring,ÊÉĞÄÖ®½ä,CLOT.FNAM
+Heartfire,Â¯»ğÔÂ,GMST.STRV
 Hearth Belt,Å¯Â¯Ñü´ø,CLOT.FNAM
 Hearth Heal,Å¯Â¯ÁÆÓú,SPEL.FNAM
 Hearth-Healer,Â¯ÓúÕß,NPC_.FNAM
@@ -6080,6 +6175,8 @@ Heartwood,ĞÄÄ¾,INGR.FNAM
 Heather,Ê¯éª,CONT.FNAM|INGR.FNAM
 Heaven,ÌìÌÃ,CEL
 Heaven's Gallery,ÌìÌÃÖ®ÀÈ,CEL
+Heavy,ÖØĞÍ,GMST.STRV
+Heavy Armor,ÖØ¼×,GMST.STRV
 Heavy Burden,¹ıÁ¿ÖØ¸º,SPEL.FNAM
 Heavy Burden Touch,¹ıÁ¿ÖØ¸ºÖ®´¥,SPEL.FNAM
 Heavy Door,ÖØĞÍÃÅ,DOOR.FNAM
@@ -6087,6 +6184,7 @@ Heavy Dweamer Chest,ÖØĞÍ¶ÍÄªÏä,CONT.FNAM
 Heavy Dwemer Chest,ÖØĞÍ¶ÍÄªÏä,CONT.FNAM
 Heavy Dwemer Desk,ÖØĞÍ¶ÍÄªÊé×À,CONT.FNAM
 Heavy Dwemer Door,³ÁÖØµÄ¶ÍÄªÃÅ,DOOR.FNAM
+Heavy Eyes,³ÁÖØÖ®ÑÛ,SPEL.FNAM
 Heavy Leather Boots,Æ¤¸ïÖØÑ¥,ARMO.FNAM
 Heavy metal door,ÖØĞÍ½ğÊôÃÅ,DOOR.FNAM
 Heavy metal doors,ÖØĞÍ½ğÊôÃÅ,ACTI.FNAM
@@ -6116,6 +6214,7 @@ Helga,º£¶û¼Ó,CEL|NPC_.FNAM
 Helga's Shack,º£¶û¼ÓµÄĞ¡Îİ,CEL
 Hellfire Staff,µØÓüÖ®»ğ·¨ÕÈ,WEAP.FNAM
 Helljoint,¹Ø½ÚÌÛÍ´,SPEL.FNAM
+Helm,Í·¿ø,ARMO.FNAM
 Helm of Bear Scent,ĞÜÆ¤¿±²ìÍ·¿ø,ARMO.FNAM
 Helm of Graff the White,°×É«¸ñÀ­·òÖ®¿ø,ARMO.FNAM
 Helm of Holy Fire,Ê¥»ğÍ·¿ø,ARMO.FNAM
@@ -6239,6 +6338,10 @@ Hirstaang Forest,ºÕË¹ã·É­ÁÖ,CEL
 Hisin,Ï¤ĞÁ,NPC_.FNAM
 Hisin Deep-Raed,Ï¤ĞÁ¡¤Éî½Ç,NPC_.FNAM
 Hist,Ï£Ë¹ÌØ,Ï£Ë¹ÌØÊ¥Ê÷¡£
+History of the Empire 1,¡¶µÛ¹ú¼òÊ·¡¤¾íÒ»¡·,BOOK.FNAM
+History of the Empire 2,¡¶µÛ¹ú¼òÊ·¡¤¾í¶ş¡·,BOOK.FNAM
+History of the Empire 3,¡¶µÛ¹ú¼òÊ·¡¤¾íÈı¡·,BOOK.FNAM
+History of the Empire 4,¡¶µÛ¹ú¼òÊ·¡¤¾íËÄ¡·,BOOK.FNAM
 Hive Scrib,Èº¾ÓÓ×³æ,CREA.FNAM
 Hjalti,Ï£ÑÅÌá,¼´Ì©²®¡¤ÈûÆÕÍ¡³ÆµÛÇ°µÄ±¾Ãû¡£
 Hjoldir,»ôÇÇµÏ¶û,NPC_.FNAM
@@ -6337,6 +6440,7 @@ Holamayan Monastery,»ôÀ­ÂíÑïÒşĞŞÔº,CEL
 Hold,1.³Ç|2.±¤Àİ,×÷Îªºó×ºÊ±ÒëÎª¡°-±¤Àİ¡±£¬¶ÀÁ¢´æÔÚÊ±ÒëÎª¡°³Ç¡±£¬Èç°§ÉËÖ®³ÇµÄ×¼È·Ğ´·¨£¨Mourn Hold£©ºÍ¶¬±¤£¨Winterhold£©¡£ÓëÒªÈû£¨Stronghold£©¡¢±¤Àİ£¨Fortress£©¡¢³Ç±¤£¨Castle£©¡¢±¤£¨Fort£©½øĞĞÇø·Ö¡£
 Holding Cell Key,¾ĞÁôÊÒÔ¿³×,MISC.FNAM
 Holding Cells,ÁÙÊ±ÀÎ·¿,CEL
+Hole in the Wall,Ç½¶´,CEL|ACTI.FNAM
 Hollow Stalagmite,¿ÕĞÄÊ¯Ëñ,ACTI.FNAM
 Hollow Treestump,¿ÕĞÄÊ÷×®,CONT.FNAM
 Hollowed-Out Ice Rock,ÖĞ¿ÕµÄ±ùÑÒ,CONT.FNAM
@@ -6359,6 +6463,7 @@ Hook,¹³×Ó,MISC.FNAM
 Hoom,µÍ,°¬Åµ·ÆÓï¡£
 Hoonding,ºé¶¡,
 Hopesfire,Ï£ÍûÖ®»ğ,WEAP.FNAM
+Hoptoad,ó¸Ô¾Êõ,SPEL.FNAM
 Hoptoad Ring,ó¸Ô¾Ö®½ä,CLOT.FNAM
 Horatius,»ôÀ­ÌáÎÚË¹,NPC_.FNAM
 Horker,ÈıÑÀº£Ïó,CREA.FNAM
@@ -6380,8 +6485,10 @@ Horulia,»ôÂ³ÀûÑÇ,NPC_.FNAM
 Horulia Jannus,»ôÂ³ÀûÑÇ¡¤Õ²Å¬Ë¹,NPC_.FNAM
 Horunn Outlook,»ôÂ×²tÍûÉÚ,*ÔÚesoÖĞ³öÏÖµÄ»ôÂ×±¤¡£
 Hospitality Papers,ÕĞ´ıÎÄ¼ş,BOOK.FNAM
+Hostel,ÂÃµê,CEL
 Hound Meat,ÁÔÈ®Èâ,INGR.FNAM
 Hound of Hircine,Ï£¶ûĞÁµÄÁÔÈ®,NPC_.FNAM
+House,·¿×Ó,CEL
 House Brother,Í¬ÅÛ,FACT.RNAM
 House Cousin,ÃÅÇ×,FACT.RNAM
 House Dagoth,´ï¸ñË¹¼Ò×å,ACTI.FNAM
@@ -6390,7 +6497,7 @@ House Dufort,¶Å¸£¶ûÌØ¼Ò×å,
 House Father,ËŞÀÏ,FACT.RNAM
 House Hlaalu,¹şÀ­Â³¼Ò×å,ACTI.FNAM
 House of Dibella,µÙ±´À­Ö®¼Ò,
-House of Earthly Delights,³¾ÊÀ»¶ĞÀÖ®Îİ,ACTI.FNAM
+House of Earthly Delights,³¾ÊÀ»¶ĞÀÖ®Îİ,CEL|ACTI.FNAM
 House of Reveries,ÃÎ»ÃÖ®¼Ò,ÏÄÄºµºµÄÒÕÊõ×éÖ¯¡£
 House of Troubles,»öÂÒ¼Ò×å,ÒâÖ¸»ı¼«¶Ô¿¹ÉóÅĞÏ¯µÄËÄÃûµÏµÂÀ­´ó¾ı£¬ÂíÀ­¿¨Ë¹¡¢´óÙò¡¢ÄªÀ­¸ñºÍĞ»¶û¸ñÀ­Ë¹¡£
 House Redoran,Èğ¶àÈ»¼Ò×å,ACTI.FNAM
@@ -6407,7 +6514,7 @@ Hrisskar Flat-Foot,ºÕÀûË¹¿¨¡¤Æ½×ã,NPC_.FNAM
 Hroa,ºÕÂŞÑÇ,NPC_.FNAM
 Hroldar,ºÕÂŞ´ï,SPEL.FNAM
 Hroldar the Strange,¹ÖÒìÕßºÕÂŞ´ï,NPC_.FNAM
-Hroldar's Death Blast,ºÕÂŞ´ïÖ®Á¶Óü±¬ÁÑ²¨¶¯,SPEL.FNAM
+Hroldar's Death Blast,ºÕÂŞ´ïÖ®ËÀÍö³å»÷,SPEL.FNAM
 Hrondar,ºÕÂŞ´ï,NPC_.FNAM
 Hrondar Highlander,ºÕÂŞ´ï¡¤¸ßµØÈË,NPC_.FNAM
 Hrordis,ºÕÂåµÏË¹,NPC_.FNAM
@@ -6428,6 +6535,7 @@ Hulgarth,ºÕ¶û¼ÓË¹,NPC_.FNAM
 Hulking Fabricant,ÖØĞÍĞµ¹¹Ìå,CREA.FNAM
 Hulking Fabricant Elixir,ÖØĞÍĞµ¹¹ÌåÁéÒ©,ALCH.FNAM
 Human Flesh,ÈËÈâ,INGR.FNAM
+Humility,Ç«Ñ·,SPEL.FNAM
 Hunger,¼¢¶öÄ§,CREA.FNAM
 Hunroor,ºàÂŞ¶û,SPEL.FNAM
 Hunroor's Agility,ºàÂŞ¶ûÖ®Ãô½İ,SPEL.FNAM
@@ -6450,6 +6558,7 @@ Hurg's House,ºÕ¸ñµÄ·¿×Ó,CEL
 Hurnfing,ºÕ·òÄş,NPC_.FNAM
 Hurolf,ºÕÂŞ¶û·ò,NPC_.FNAM
 Hussonia,ºúË÷ÄáÑÅ,NPC_.FNAM
+Hut,Ğ¡Îİ,CEL
 Hut Door,ÎİÅïÃÅ,DOOR.FNAM
 Hutch,²Õ¸Ç,CONT.FNAM
 Huzei,ºúÔóÒÁ,NPC_.FNAM
@@ -6462,7 +6571,6 @@ Hyna Dorn'ke,º£ÄÈ¡¤¶à¿Ë,NPC_.FNAM
 Hypha Facia,Ë¿°å¹½,CONT.FNAM|INGR.FNAM
 Hyring,º£ÁÖ,NPC_.FNAM
 Hyrma Mora,Ï£¶ûÂê¡¤ÄªÀ­,*Ïê¼ûHermaeus Mora´ÊÌõ¡£ÑÇÀúµÂ¶ÔºÕÂóÎÚË¹¡¤ÄªÀ­µÄ³Æºô¡£
-I,¾íÒ»¡·,BOOK.FNAM
 I setup your stats and stuff,ÎÒÉèÖÃÁËÄãµÄÍ³¼Æ×ÊÁÏºÍ±ğµÄ¶«Î÷,ACTI.FNAM
 I test Sounds,ÎÒ²âÊÔÉùÒô,ACTI.FNAM
 Ian,ÒÁ°²,NPC_.FNAM
@@ -6536,8 +6644,6 @@ Ignatius,ÒÁ¸ñÄÉÌáÎÚË¹,CEL|NPC_.FNAM
 Ignatius Flaccus,ÒÁ¸ñÄÉÌáÎÚË¹¡¤¸¥À­¿âË¹,NPC_.FNAM
 Ignatius Flaccus' House,ÒÁ¸ñÄÉÌáÎÚË¹¡¤¸¥À­¿âË¹µÄ·¿×Ó,CEL
 Ihinipalit,ÒÁÏ£ÄáÅÁÀïÌØ,CEL
-II,¾í¶ş¡·,BOOK.FNAM
-III,¾íÈı¡·,BOOK.FNAM
 Iingail,ÒÁÄş¸Ç¶û,NPC_.FNAM
 Iirenoore,ÒÁÀ×Åµ¶û,NPC_.FNAM
 Ilabael,ÒÁÀ­±´¶û,NPC_.FNAM
@@ -6560,7 +6666,7 @@ Ilet Tistar,ÒÁÀ³ÌØ¡¤µÙË¹Ëş,NPC_.FNAM
 Ilfhild,ÒÁ¶û·Æ¶ûµÂ,NPC_.FNAM
 Iliac,÷Ä¹ÇÍå,
 Illkurok,ÒÁ¶û¿âÂ³¿Ë,WEAP.FNAM
-Illusion,»ÃÊõÏµ,»ÃÊõÏµ·¨Êõ¡£
+Illusion,»ÃÊõÏµ,GMST.STRV
 Ilmeni,ÒÁ¶ûÃ·Äİ,CLOT.FNAM|NPC_.FNAM
 Ilmeni Dren,ÒÁ¶ûÃ·Äİ¡¤µÂÂ×,NPC_.FNAM
 Ilmeni's glove,ÒÁ¶ûÃ·ÄİµÄÊÖÌ×,CLOT.FNAM
@@ -6696,7 +6802,7 @@ Indalen's Key,Ó¢´ïÁÖµÄÔ¿³×,MISC.FNAM
 Indaram,Òò´ïÀ­Ä·,NPC_.FNAM
 Indaren,Ó¢´ïÂ×,NPC_.FNAM
 Indaren Ancestral Tomb,Ó¢´ïÂ×ÏÈ×æÄ¹Ñ¨,CEL
-Indarys,Òò´ïÈğË¹,NPC_.FNAM|ÔÚÎ÷ÂŞµÛ¶û¶«±±²¿³¹¶¡ºÀ¶ûµÄµ¤Äª¼Ò×å¡£
+Indarys,Òò´ïÈğË¹,NPC_.FNAM
 Indarys Manor,Òò´ïÈğË¹¸®Û¡,CEL
 Indavel,Ó¢´ïÎ¬¶û,NPC_.FNAM
 Indigo Tree Frog,µåÀ¶Ê÷ÍÜ,÷öÕÓµÄÒ»ÖÖÏ¡ÓĞÇàÍÜ£¬ÔÚÊ÷ÉÏÖş³²£¬Ï²°®ÈâÓ¬µÄÎ¶µÀ¡£
@@ -6720,6 +6826,7 @@ Indrele,Òò×¿¶û,CEL|NPC_.FNAM
 Indrele Rathryon,Òò×¿¶û¡¤À­ÌØÀï¶÷,NPC_.FNAM
 Indrele Rathryon's Shack,Òò×¿¶û¡¤À­ÌØÀï¶÷µÄĞ¡Îİ,CEL
 Indules,Òò¶Å¶ûË¼,NPC_.FNAM
+Indwelling,×¤Áô,SPEL.FNAM
 Inee,Ó¢Äá,NPC_.FNAM
 Iner,ÒÁÄÚ,NPC_.FNAM
 Iner Raledran,ÒÁÄÚ¡¤À­À³µÂÀ¼,NPC_.FNAM
@@ -6734,6 +6841,7 @@ Inganar,Ó¢¼ÓÄÉ¶û,NPC_.FNAM
 Ingmar,Ó¢¸ñÂê,CEL|NPC_.FNAM
 Ingmar's House,Ó¢¸ñÂêµÄ·¿×Ó,CEL
 Ingokning,Ó¢¸ê¿ËÄş,NPC_.FNAM
+Ingredients,²ÄÁÏ,GMST.STRV
 Iniel,ÒÁÄá¶û,NPC_.FNAM
 Initiate,´ÓÕß,FACT.RNAM
 Inkwell,Ä«Ë®Æ¿,MISC.FNAM
@@ -6746,9 +6854,17 @@ Inner Tower,ÄÚ²ãËşÂ¥,CEL
 Inorra,Ó¢°ÂÀ­,NPC_.FNAM
 Insane Wanderer,·è¿ñµÄÁ÷ÀËÕß,NPC_.FNAM
 Inspector,Ñ²ÊÓÔ±,FACT.RNAM
+Intelligence,ÖÇÁ¦,GMST.STRV
 Interior,ÄÚ²¿,CEL
+Interior Wonderland,ÄÚ²¿ÏÉ¾³,CEL
 Interregnum,´ó¿ÕÎ»,µÛ¹úÈ±Ê§×î¸ßÍ³ÖÎÕßµÄÊ±ÆÚ£¬Í¨³£Ö¸µÚ¶ş¼ÍÔªÏÂ°ëÒ¶¡£
-Invisibility,ÒşÉíÊõ,SPEL.FNAM
+Intervention,¸ÉÉæÊõ,SPEL.FNAM
+Intimidate,ÍşĞ²,GMST.STRV
+Intimidate Fail,ÍşĞ²Ê§°Ü,GMST.STRV
+Intimidate Success,ÍşĞ²³É¹¦,GMST.STRV
+Inventory,¿â´æ,GMST.STRV
+Inventory Menu Item,ÎïÆ·²Ëµ¥ÏîÄ¿,GMST.STRV
+Invisibility,ÒşÉí|ÒşÉíÊõ,GMST.STRV|SPEL.FNAM
 Invisibility Curse,ÒşÉí×çÖä,SPEL.FNAM
 Invocation of Azura,¡¶°¢×æÀ­µ»ÎÄ¡·,BOOK.FNAM
 Invoice,·¢Æ±,BOOK.FNAM
@@ -6858,6 +6974,10 @@ Itar,ÒÁËş¶û,MISC.FNAM
 Itar the Gentle,ÉğÊ¿ÒÁËş¶û,NPC_.FNAM
 Itar the Gentle's House,ÉğÊ¿ÒÁËş¶ûµÄ·¿×Ó,CEL
 Itar's Key,ÒÁËş¶ûµÄÔ¿³×,MISC.FNAM
+Item,ÎïÆ·,GMST.STRV
+Item Name,ÎïÆ·Ãû³Æ,GMST.STRV
+Item to QuickKey,¿ì½İ¼üÏîÄ¿,GMST.STRV
+Items to Enchant,ĞèÒª¸½Ä§µÄÎïÆ·,GMST.STRV
 Itermerel,ÒÁÌØÃ·Èğ¶û,BOOK.FNAM|NPC_.FNAM
 Itermerel's Notes,ÒÁÌØÃ·Èğ¶ûµÄ±Ê¼Ç,BOOK.FNAM
 Ithelia,ÒÁÌØÀòÑÇ,¾İËµÊÇ°×ê×£¬¾Åê×Ö®Ê×Ï¯¡£ÔøÕÆ¹ÜµÀÍ¾ÓëÃüÔË£¬ÆäĞĞÎª¶ÔÓîÖæÖÈĞòÔì³ÉÍşĞ²£¬Òò´ËÔÚ²Ò°Üºó±»Ä¨É±ºÍÒÅÍü¡£
@@ -6969,6 +7089,7 @@ Jorrvaskr,ÓÂÊ¿Ö®¼Ò,°×ÍÄ³ÇÕ½ÓÑÍÅ×Ü²¿µÄÃû³Æ¡£³£¼ûÒôÒëÎªÔÂÍßË¹¿¨¡£
 Joshur,Ô¼Êé¶û,NPC_.FNAM
 Josian Kaid,Ô¼Î÷°²¡¤¿­µÂ,An Elder Scrolls Legend: Battlespire¿ÉÄÜµÄÖ÷½Ç¡£
 Joslin,ÇÇË¹ÁÖ,NPC_.FNAM
+Journal,ÈÕÖ¾|ÈÕ¼Ç,BOOK.FNAM|GMST.STRV
 Journal of Fryssa,¸£ÈğÉ¯µÄÈÕ¼Ç,BOOK.FNAM
 Journal of Tarhiel,ËşÏ£¶ûµÄÈÕ¼Ç,BOOK.FNAM
 Journalist,¼ÇÕß,CLAS.FNAM
@@ -6982,15 +7103,17 @@ Journeyman's Probe,ÀÏÊÖ¼¶ÏİÚåÌ½Õë,PROB.FNAM
 Journeyman's Retort,ÀÏÊÖ¼¶Çú¾±Æ¿,APPA.FNAM
 Joymallow,ÀÖ½õ¿û,Ò»ÖÖ³£¼ûµÄÖ²Îï£¬ËüµÄ¶ÀÌØ»¨¶äÒÔÆäÌğÃÀµÄÆøÎ¶¶øÎÅÃû¡£
 Jucanis,Öì¿¨ÄáË¹,NPC_.FNAM
+Judgement,ÉóÅĞ,WEAP.FNAM|CLOT.FNAM
 Jug,ºø,MISC.FNAM
 Juicedaw Feather Ring,ÖìË¹×¿ÇáÓğÖ®½ä,CLOT.FNAM
+Juicedaw's Feather,ÖìË¹×¿ÇáÓğÊõ,SPEL.FNAM
 Julalanie,ÖìÀ­Äù,NPC_.FNAM
 Julan,ÖìÀ¼,NPC_.FNAM
 Julianos,ÓÈÀû°²ÅµË¹,ÖÇ»ÛÂß¼­ÓëÄ§·¨Ö®Éñ£¬Ê¥ÁéÖ®Ò»¡£
 Julielle,ÖìÀûÒ¶,CLOT.FNAM
 Julielle Aumine's Amulet,ÖìÀûÒ¶¡¤°ÂÃ÷µÄ»¤·û,CLOT.FNAM
 Jullalian,ÓÈÀ­Àï°²,NPC_.FNAM
-Jump,ÌøÔ¾ÌáÉı,SPEL.FNAM
+Jump,ÌøÔ¾,GMST.STRV|SPEL.FNAM
 Junal-Lei,ÓÈÄÇ-À×,CEL|NPC_.FNAM
 Junal-lei's House,ÓÈÄÇ-À×µÄ·¿×Ó,CEL
 Juno Burial,ÖìÅµÂñÔáÇø,CEL
@@ -7074,7 +7197,7 @@ Keptulet,¿ËÆÕÍ¼ÀÕÌØ,*Ïê¼ûKet Keptu¡£
 Ket Keptu,¿ËÌØ¡¤¿ËÆÕÍ¼,Ò»Ö§ÄáµÂ²¿Âä£¬Æ¤·ô×ØºÖ£¬·Ö²¼ÔÚÂä´¸ÖĞ²¿¡¢ÒÔ¼°Ìì¼ÊºÍÎ÷ÂŞµÂµÄ±ß½çµØÇø¡£
 Key Aralen Tombs,¿ªÆôÑÅÀ­Â×Ä¹Ñ¨µÄÔ¿³×,MISC.FNAM
 Key Dareleth tomb,´ïÀ×À³Ë¹Ä¹Ñ¨Ô¿³×,MISC.FNAM
-"Key engraved ""Venim""","±êÓĞ¡°Î¬ÄáÄ·¡±±êÖ¾µÄÔ¿³×","MISC.FNAM"
+Key engraved "Venim",±êÓĞ¡°Î¬ÄáÄ·¡±±êÖ¾µÄÔ¿³×,MISC.FNAM
 Key to Aleft chest,¿ªÆô°¢ÁĞ·òÌØÏä×ÓµÄÔ¿³×,MISC.FNAM
 Key to Andalen chest,¿ªÆô°²´ïÂ×Ïä×ÓµÄÔ¿³×,MISC.FNAM
 Key to Andalen tomb,¿ªÆô°²´ïÂ×Ä¹Ñ¨µÄÔ¿³×,MISC.FNAM
@@ -7202,6 +7325,7 @@ Kiseena,»ùÈûÄÈ,NPC_.FNAM
 Kishni,»ùÊ²Äİ,NPC_.FNAM
 Kisimba,»ùĞÁ°Í,NPC_.FNAM
 Kisisa,»ùÎ÷Èø,NPC_.FNAM
+Kiss,ÎÇ,SPEL.FNAM
 Kitbael,»ùÌØ±´¶û,CEL|NPC_.FNAM
 Kitbael Assurnumanit,»ùÌØ±´¶û¡¤°¢ËÕÅ¬ÂíÄáÌØ,NPC_.FNAM
 Kitbael's Yurt,»ùÌØ±´¶ûµÄÕÊÅñ,CEL
@@ -7212,7 +7336,7 @@ Kjolver's Dwelling,ÇÇ¶û¸¥µÄ¾ÓËù,CEL
 Klithi,¿ËÀûÏ£,ÓÈ¿â´ïµÄÒ»×ùµºÓì¡£
 Knife,µ¶×Ó,MISC.FNAM
 Knifepoint Hollow,µ¶¼â¶´¿ß,ÔøÊÇÕ½ÀõÈºµºÖªÊ¶µÄ±¦¿â¡£
-Knight,ÆïÊ¿,CLAS.FNAM
+Knight,ÆïÊ¿,CLAS.FNAM|GMST.STRV
 Knight Bachelor,ÑĞĞŞÆïÊ¿,FACT.RNAM
 Knight Brother,ÆïÊ¿Õ½ÓÑ,FACT.RNAM
 Knight Errant,Ñ²ÓÎÆïÊ¿,FACT.RNAM
@@ -7296,6 +7420,7 @@ Laenius,À³ÄáÎÚË¹,NPC_.FNAM
 Lagakh,À­¸Á¿Ë,NPC_.FNAM
 Lagakh gra-Lorga,À­¸Á¿Ë¡¤¸ñÀ­-Âå¸Á,NPC_.FNAM
 Lainlyn,À³ÒòÁÖ,Î»ÓÚÂä´¸Ê¡°¢Àû¿Ë¶ûÉ³Ä®±±²¿£¬±ôÁÙ÷Ä¹ÇÍåµÄ¸Û¿ÚĞ¡³Ç¡£Ôø±»³ÆÎª¡°ËşÍßÖ®×£¡±£¬ºóÓÉÀ³ÒòÁÖ¼Ò×åÔÚ´ËÍ³ÖÎ¶øµÃÃû¡£ÒàÓĞ·­ÒëÎª¡°À³ÁÖ¡±¡£
+Lair,³²Ñ¨,CEL
 Lair of the Udyrfrykte,ÎÚµÏ¸£Èğ¿ËµÄ³²Ñ¨,CEL
 Laire,À³¶û,NPC_.FNAM
 Lake Arrius,°¢ÀïÎÚË¹ºş,
@@ -7325,12 +7450,14 @@ Lanabi,À­ÄÉ±È,CEL|NPC_.FNAM
 Lanabi's Yurt,À­ÄÉ±ÈµÄÕÊÅñ,CEL
 Lanald,À­ÄÉµÂ,NPC_.FNAM
 Land,µØÑª,CEL
+Land Deed,µØÆõ,BOOK.FNAM
 Land's Blood Gallery,µØÑªÖ®ÀÈ,CEL
 Landa,À¼´ï,NPC_.FNAM
 Landorume,À¼¶àÂ³Ä·,NPC_.FNAM
 Lanie,À­Äİ,NPC_.FNAM
 Lanie Endre,À­Äİ¡¤¶÷µÂ,NPC_.FNAM
 Lannessa,À¼ÄÚÈø,ÑÇÀúµÂÅ®Ãû¡£
+Lantern,ÌáµÆ,LIGH.FNAM
 Larelleis,´º¼¾,ÑÇÀúµÂÓï£¬Ö±ÒëÎª¡°ÖÚÏªÊ±½Ú¡±£¬¡°ÌğË®Ê±½Ú¡±¡£
 Largakh,À­¸Á¿Ë,NPC_.FNAM
 Largakh gro-Bulfim,À­¸Á¿Ë¡¤¸ñÂŞ-°Í¶û·ÆÄ·,NPC_.FNAM
@@ -7369,12 +7496,14 @@ Lassnr's House,À­Ë¹ÄÉ¶ûµÄ·¿×Ó,CEL
 Lassnr's Well Key,À­Ë¹ÄÉ¶ûµÄ¾®Ô¿³×,MISC.FNAM
 Lassour,À­ËÕ¶û,NPC_.FNAM
 Lassour Zenammu,À­ËÕ¶û¡¤ÔóÄÉÄ·,NPC_.FNAM
+Last Dance,×îºóÒ»Îè,BOOK.FNAM
 Last Dragonborn,×îºóµÄÁúÒá,The Elder Scrolls V: SkyrimµÄÖ÷½Ç¡£
 Last Rites,ÖÕÄ©Ö®µä,WEAP.FNAM
 Last Scabbard of Akrash,¡¶°¢¿¨À­Ê²×îºóµÄ½£ÇÊ¡·,BOOK.FNAM
-Last Seed,Ä©ÖÖÔÂ,¶ÔÓ¦ÏÖÊµµÄ°ËÔÂ¡£°¢¶û¹±½Ü¶ûÓï³ÆÖ®ÎªÌáÏ£¶û£¨Thtithil£©£¬ÒâË¼ÊÇµ°£¨Egg£©¡£
+Last Seed,Ä©ÖÖÔÂ,GMST.STRV
 Last Tomorrow,×îºóµÄÃ÷Ìì,*Ïê¼ûIthelia´ÊÌõ¡£
 Last Wish,ÖÕÄ©Ö®Ô¸,WEAP.FNAM
+last words,ÒÅÑÔ,BOOK.FNAM
 Lateesh,À­ÌáÊ²,ÑÇÀúµÂÄĞÃû¡£
 Laterus Burial,¸üÊ¹ÂñÔáÇø,CEL
 Latta,¹â,ÑÇÀúµÂÓï¡£
@@ -7385,13 +7514,14 @@ Lauravenya,ÀÍÀ­ÎÄÑÇ,NPC_.FNAM
 Laurina,ÀÍÀöÄÈ,NPC_.FNAM
 Laurina Maria,ÀÍÀöÄÈ¡¤ÂêÀöÑÇ,NPC_.FNAM
 Lawman,Ö´·¨Õß,FACT.RNAM
-Layman,½ÌÍ½|½ÌÓÑ,FACT.RNAM
+Layman,½ÌÍ½,FACT.RNAM
 Lazgar,À­×È¸Á,NPC_.FNAM
 Lazgar gra-Durog,À­×È¸Á¡¤¸ñÀ­-¶ÅÂå¸ñ,NPC_.FNAM
 Leafrot Cave,¸¯Ò¶¶´Ñ¨,
 Leaky Pipe Fitting,Ğ¹Â©µÄ¹ÜµÀÅä¼ş,ACTI.FNAM
 Leather-Sealed Chest,Æ¤¸ïÃÜ·âÏä,CONT.FNAM
 Ledd,À³µÂ,NPC_.FNAM
+Ledger,ÕË²¾,BOOK.FNAM
 Leel,Àû¶û,½Ü¶ûÓï¡£Ö¸ÈıÈËÒÔÉÏÍÅÌå¡£
 Left Bal Molagmer Glove,°Í¶û¡¤ÄªÀ­¸ñÄÂ¶û×óÊÖÌ×,CLOT.FNAM
 Left Cloth Horny Fist Bracer,ĞÔ¸ĞÖ®È­×ó»¤Íó,ARMO.FNAM
@@ -7419,6 +7549,7 @@ Lesser Soul Gem,Ğ¡ĞÍÁé»êÊ¯,MISC.FNAM
 Letreius,À³ÌØÈğÎÚË¹,NPC_.FNAM
 Letreius Muco,À³ÌØÈğÎÚË¹¡¤ÄÂ¿Æ,NPC_.FNAM
 Lette,ÀÕÌØ,NPC_.FNAM
+Letter,ÕÊ²¾,BOOK.FNAM
 Letter from Gadayn,¼Ó´÷¶÷µÄĞÅ,BOOK.FNAM
 Letter From J'Zhirr,½Ü'×È¶ûµÄĞÅ,BOOK.FNAM
 Letter From Llaalam Dredil,À­À­Ä·¡¤µÂÀ×µÏ¶ûµÄĞÅ,BOOK.FNAM
@@ -7432,12 +7563,13 @@ Level 3,µÚÈı²ã,CEL
 Level 4,µÚËÄ²ã,CEL
 Level 5,µÚÎå²ã,CEL
 Levinace,ÉÁ¹âÒìµã,äÎÃğÁìÓòÖ®Ò»£¬ÕÙ»½Ê¦´Ó´Ë´¦ÕÙ»½·ç±©ÊÌÁé¡£
-Levitate,¸¡¿ÕÊõ,SPEL.FNAM
+Levitate,¸¡¿Õ|¸¡¿ÕÊõ,GMST.STRV|SPEL.FNAM
 Levus,ÁĞÎÚË¹,NPC_.FNAM
 Levus Musilchiotus,ÁĞÎÚË¹¡¤ÂíË¹ÇÇÍ¼Ë¹,NPC_.FNAM
 Leyawiin,ÀûÑÅÎÄ,
 LHKAN,ÀÕ¿²,*Ïê¼ûShezarr´ÊÌõ¡£¶ÍÄªĞğÊÂÖĞµÄÉáÔú¶û£¬´ËÇé¿öÏÂ¸Ã´ÊÍ¨³£±ØĞë´óĞ´¡£
 Lhotun,Âå¶Ù,µÚÈı¼ÍÔªÄ©ÆÚÉÚ±ø³ÇÍõ¹úµÄÍ³ÖÎÕß£¬ºìÎÀÈË¡£
+Library,Í¼Êé¹İ,CEL
 Library of Vivec,Î¬Íş¿ËÍ¼Êé¹İ,CEL
 Lich,Î×Ñı,CREA.FNAM
 Lichor,ÃÛÇí,À¶×ÏÉ«Ä§ÄÜ»¨µÄ²úÎï¡£
@@ -7454,8 +7586,9 @@ Life Ring,ÉúÃü½äÖ¸,CLOT.FNAM
 Lifeforce Trap,Ï÷ÃüÏİÚå,SPEL.FNAM
 Lifestone,ÉúÃüÊ¯,CLOT.FNAM
 Lifetaker,¶áÃüÕß,FACT.RNAM
-Light,¹âÃ÷,SPEL.FNAM
+Light,¹â|¹âÃ÷|ÇáĞÍ,SPEL.FNAM|GMST.STRV
 Light Amulet,ÉÁ¹â»¤·û,CLOT.FNAM
+Light Armor,Çá¼×,GMST.STRV
 Light of Day,°×ÈÕÖ®¹â,WEAP.FNAM
 Light of Life,ÉúÃüÖ®¹â,¼´À­Ì¹ÑÇ¡£
 Light Ring,ÉÁ¹â½äÖ¸,CLOT.FNAM
@@ -7464,7 +7597,7 @@ Lighthouse,µÆËş,CEL
 Lightkeeper Grahl,ÊØ¹âÕß¸ñÀ­¶û,CREA.FNAM
 Lightless Remnant,ÎŞ¹â²Ğ¼£,ÊÜÎÛÈ¾µÄÀ­Ì¹ÑÇ¡£
 Lightning Bolt,ÉÁµç¼ı,SPEL.FNAM
-Lightning Shield,ÉÁµç»¤¶Ü,ACTI.FNAM|SPEL.FNAM
+Lightning Shield,ÉÁµç»¤¶Ü|À×µç»¤¶Ü,ACTI.FNAM|GMST.STRV|SPEL.FNAM
 Lightning Storm,ÉÁµç·ç±©,SPEL.FNAM
 Lillandril,ÀûÀ¼µÂÈğ¶û,
 Lilmoth,Àû¶ûÄªË¹,ºÚÕÓÔóµÄ°Ë´óÖ÷Òª³ÇÊĞÖ®Ò»£¬ÊÇ÷öÕÓ×îÄÏ¶ËµÄ¸Û¿Ú£¬±»ÓşÎªºÚÕÓÔóµÄ¡°À£ÀÃ¹å±¦¡±¡£
@@ -7639,10 +7772,14 @@ Llunela,Â¬ÄİÀ­,NPC_.FNAM
 Llunela Hleran,Â¬ÄİÀ­¡¤ÀÕÀ¼,NPC_.FNAM
 Lobbyists for the Coincidence Guild,ÇÉºÏÓÎËµÕß¹«»á,
 Locations of the Stones,Ê¥Ê¯µÄÎ»ÖÃ,BOOK.FNAM
-Lock,Ëø¶¨Êõ,SPEL.FNAM
+Lock,Ëø¶¨|Ëø¶¨Êõ,GMST.STRV|SPEL.FNAM
+Lock Level,ÉÏËøµÈ¼¶,GMST.STRV
+Locket,ºĞ×¹,CLOT.FNAM
+Log,ÈÕÖ¾,BOOK.FNAM
 Londa-Vera,Â¡æ§-Ş±À­,¾Åê×Ö®Ò»£¬ÂÌê×¡£ÓëÍÁºÍÒõĞÔÁ¦Á¿ÓĞ¹Ø¡£
 Lonely Shipwreck,¹Â¶À³Á´¬,CEL
 Lonesome Shipwreck,¹Â¼Å³Á´¬,CEL
+Long Blade,³¤ÈĞ,GMST.STRV
 Long Bow,³¤¹­,WEAP.FNAM
 Long Night,³¤Ò¹,°¢À³Î÷ÑÇµÛ¹úÃğÍöµ½À×Âü½µÉúÇ°µÄ¿ÕÎ»ÆÚ¡£
 Long-Leg,³¤ÍÈ,NPC_.FNAM
@@ -7702,7 +7839,11 @@ Lower Tower,ËşÂ¥ÏÂ²ã,CEL
 Lucan,Â¬¿²,NPC_.FNAM
 Lucan Ostorius,Â¬¿²¡¤°ÂË¹ÍĞÈğË¹,NPC_.FNAM
 Lucan Scriptholder,Â¬¿²½Å±¾³ÖÓĞÕß,ACTI.FNAM
+Luck,ĞÒÔË,GMST.STRV
 Luck of the Emperor,µÛÍõÉñÔËÊõ,SPEL.FNAM
+Lucky Again,ÔÙ¶ÈĞÒÔË,SPEL.FNAM
+Lucky Break,Ç¿ÔËÖ®ÕÈ,WEAP.FNAM
+Lucky Coin,ĞÒÔË½ğ±Ò,MISC.FNAM
 Lucky Lockup,ĞÒÔËÖ®Ëø,CEL|ACTI.FNAM
 Lucretinaus,Â¬¿ËÀ×µÙÅµË¹,NPC_.FNAM
 Lucretinaus Olcinius,Â¬¿ËÀ×µÙÅµË¹¡¤°Â»ùÄáÎÚË¹,NPC_.FNAM
@@ -7756,6 +7897,7 @@ Mabrelle,Âí²¼À×¶û,CEL|NPC_.FNAM
 Mabrelle Geles,Âí²¼À×¶û¡¤¸ñÀÕË¹,NPC_.FNAM
 Mabrelle Geles's Hut,Âí²¼À×¶û¡¤¸ñÀÕË¹µÄĞ¡Îİ,CEL
 Mabrigash,Âê²¼ÈğÙ¤Ê²,CLAS.FNAM
+Mace,¶¤´¸,WEAP.FNAM
 Mace of Aevar Stone-Singer,¡°Ó½Ê¯Õß¡±°¬ÍßÖ®´¸,WEAP.FNAM
 Mace of Molag Bal,ÄªÀ­¸ñ¡¤°Í¶ûµÄ¶¤´¸,WEAP.FNAM
 Mace of Slurring,º¬ºıÖ®´¸,WEAP.FNAM
@@ -7807,7 +7949,7 @@ Maessabibi,Ã·Èø±È±È,NPC_.FNAM
 Mafala,Âê·¨À­,
 Mafre,Ëª,ÑÇÀúµÂÓï¡£
 Magas Volar,Âí¸ñË¹-ÎÖÀ­¶û,CEL
-Mage,·¨Ê¦,CLAS.FNAM
+Mage,·¨Ê¦,CLAS.FNAM|GMST.STRV
 Mage Ring,·¨Ê¦Ö®½ä,CLOT.FNAM
 Magebane,·¨Ê¦ÔÖĞÇ,WEAP.FNAM
 Mages Guild,·¨Ê¦¹«»á,FACT.FNAM
@@ -7816,10 +7958,14 @@ Mages' Guild,·¨Ê¦¹«»á,ACTI.FNAM
 Mages' Guild Caldera,¿¨¶ûµÂÀ­·¨Ê¦¹«»á,ACTI.FNAM
 Mages' Guild Supply Chest,·¨Ê¦¹«»á²¹¸øÏä,CONT.FNAM
 Magia,Âê¼ªÑÇ,NPC_.FNAM
+Magic,Ä§·¨,GMST.STRV
+Magic Effects,Ä§·¨Ğ§¹û,GMST.STRV
+Magic Items,Ä§·¨ÎïÆ·,GMST.STRV
+Magic Menu Item,Ä§·¨²Ëµ¥ÏîÄ¿,GMST.STRV
 Magic Rock of Maar Gan,Âê¶û-¸ÊµÄÄ§·¨Ö®Ê¯,ACTI.FNAM
 Magic Shop,Ä§·¨ÉÌµê,CEL
 Magician,Ä§ÄÜÊ¦,FACT.RNAM
-Magicka,1.Ä§·¨ 2.Ä§ÄÜ,ÑÇÀúµÂÓï£¬ÓÎÏ·ÖĞÖ¸´úÀ¶ÌõÊ±Òë×÷¡°Ä§ÄÜ¡±¡£
+Magicka,Ä§Á¦,GMST.STRV
 Magicka Bonus,Ä§Á¦Ìì¸³,SPEL.FNAM
 Magicka Leech,Ä§Á¦ÎüÈ¡,SPEL.FNAM
 Magickguard,Ä§·¨ÊØ»¤,SPEL.FNAM
@@ -7828,9 +7974,12 @@ Magister,µ¼Ê¦,FACT.RNAM
 Magius,Âí»ùÎÚË¹,NPC_.FNAM
 Magna-Ge,Âê¸ñÄÉ-¼ª,±³Æú´´ÊÀ¸úËæÂê¸ñÅ¬Ë¹ÌÓ×ßµÄÔ­Áé¡£
 Magnar,Âê¸ñÄÉ¶û,°¢ÌØÄªÀ­-ÅµµÂÈÏÖªÖĞµÄÂí¸ñÅ¬Ë¹¡£
+Magnitude,Á¿¼¶,GMST.STRV
 Magnus,Âê¸ñÅ¬Ë¹,Ä§·¨Ö®Éñ
 Magrus,Âê¸ñÂ³Ë¹,¿¨¼ªÌØÉñ»°ÖĞ¶ÔÓ¦Âê¸ñÅ¬Ë¹µÄÉñ¡£
 Main Pantheon,Ö÷ÒªÉñÏµ,
+Major Skills,Ö÷ĞŞ¼¼ÄÜ,GMST.STRV
+Make an Enchanted Item,ÖÆ×÷¸½Ä§ÎïÆ·,GMST.STRV
 Mal,Âí¶û,CEL|NPC_.FNAM
 Mal Mibishanit,Âí¶û¡¤Ã×±ÈÉ³ÄáÌØ,NPC_.FNAM
 Mal's Yurt,Âí¶ûµÄÕÊÅñ,CEL
@@ -7932,6 +8081,7 @@ Mano,ÂíÅµ,NPC_.FNAM
 Manolos,ÂíÅµÂåË¹,NPC_.FNAM
 Manolos Virith,ÂíÅµÂåË¹¡¤Î¬ÈğË¹,NPC_.FNAM
 Manor District,¸®Û¡Çø,CEL
+Manor Key,ÖÖÖ²Ô°Ô¿³×,MISC.FNAM
 Manor Services,¸®Û¡·şÎñÇø,CEL
 Manos,ÂíÅµË¹,CEL|NPC_.FNAM
 Manos Othreleth,ÂíÅµË¹¡¤°ÂÌØÀ×À³Ë¹,NPC_.FNAM
@@ -7991,11 +8141,12 @@ Marielle Amedee,ÂêÀö°£¶û¡¤°¢Ã·µÏ,NPC_.FNAM
 Marilia,ÂêÀöÑÇ,NPC_.FNAM
 Marilia Saram,ÂêÀöÑÇ¡¤ÈøÀ­Ä·,NPC_.FNAM
 Marius,ÂíÀïÎÚË¹,NPC_.FNAM
-Mark,±ê¼Ç|Âí¿Ë,CEL|SPEL.FNAM
+Mark,±ê¼Ç|Âí¿Ë,CEL|GMST.STRV|SPEL.FNAM
 Mark Ring,±ê¼ÇÖ®½ä,CLOT.FNAM
 Mark's Script Testing Cell,Âí¿ËµÄ¾ç±¾²âÊÔ¼ä,CEL
 Mark's Vampire Test Cell,Âí¿ËµÄÎüÑª¹í²âÊÔ¼ä,CEL
 Markarth,Âí¿¨Ë¹,×¼Òâ£º¿¨Ë¹Ö®ÉÏ¡£
+Marksman,ÉäÊõ,GMST.STRV
 Markynaz,Ä§ÈËÁìÊ¿,
 Marlena Brussiner's House,ÂêÀÙÄÈ¡¤²¼Â³Î÷Äá¶ûµÄ·¿×Ó,
 Maro,ÂíÂå,NPC_.FNAM
@@ -8038,7 +8189,7 @@ Masseranit,ÂíÈûÀ­ÄáÌØ,CEL
 Massitisun,ÂíË¹ÌáËÉ,NPC_.FNAM
 Massour,ÂêË÷¶û,NPC_.FNAM
 Massour Asserrumusa,ÂêË÷¶û¡¤°¢ÉªÈçÄÂÉ³,NPC_.FNAM
-Master,´óÊ¦,FACT.RNAM
+Master,×ÚÖ÷,FACT.RNAM|GMST.STRV
 Master Assassin,´Ì¿Í´óÊ¦,FACT.RNAM
 Master Fire Trap,´óÊ¦¼¶»ğÑæÏİÚå,SPEL.FNAM
 Master Frost Trap,´óÊ¦¼¶º®ËªÏİÚå,SPEL.FNAM
@@ -8132,6 +8283,7 @@ Mavus,ÂêÎÚË¹,NPC_.FNAM
 Mavus Ules,ÂêÎÚË¹¡¤ÎÚÀ³Ë¹,NPC_.FNAM
 Mawia,ÂêÎ¬ÑÇ,CEL
 Maximus,Âí¿ËÎ÷Ä·Ë¹,NPC_.FNAM
+Mazed Band,ÃÔ¹¬Ö®½ä,CLOT.FNAM
 Mazorn,Âê×ô¶÷,NPC_.FNAM
 Mazorn gro-Gar,Âê×ô¶÷¡¤¸ñÂŞ-Ù¤,NPC_.FNAM
 Mazte,ÂêÊ«µÙ,ALCH.FNAM
@@ -8153,6 +8305,8 @@ Meder,Ã·µÂ,NPC_.FNAM
 Meder Nulen,Ã·µÂ¡¤Å¦Â×,NPC_.FNAM
 Medila,Ã·µÏÀ­,NPC_.FNAM
 Medila Indaren,Ã·µÏÀ­¡¤Ó¢´ïÂ×,NPC_.FNAM
+Medium,ÖĞĞÍ,GMST.STRV
+Medium Armor,ÖĞ¼×,GMST.STRV
 Medium Corprusmeat Hunk,ÖĞĞÍÊ¬»¯¸¯Èâ¿é,INGR.FNAM
 Medium Wrapped Corprusmeat,ÖĞĞÍÊ¬»¯¸¯Èâ,INGR.FNAM
 Medresi,Ã·µÂÀïË¹,NPC_.FNAM
@@ -8216,7 +8370,7 @@ Menta Na,ÂüËş¡¤ÄÉ,CREA.FNAM
 Menta Na's Key,ÂüËş¡¤ÄÉµÄÔ¿³×,MISC.FNAM
 Mentor,µ¼Ê¦,CLOT.FNAM
 Mentor's Ring,µ¼Ê¦Ö®½ä,CLOT.FNAM
-Menus,Ã·Å¬Ë¹,CEL|NPC_.FNAM
+Menus,Ã·Å¬Ë¹|²Ëµ¥,CEL|GMST.STRV|NPC_.FNAM
 Menus Felas,Ã·Å¬Ë¹¡¤·ÑÀ­Ë¹,NPC_.FNAM
 Menus Felas's Farmhouse,Ã·Å¬Ë¹¡¤·ÑÀ­Ë¹µÄÅ©Éá,CEL
 Mephala,Ã··¨À­,SPEL.FNAM|WEAP.FNAM
@@ -8229,8 +8383,10 @@ Meralyn,Ã·À­ÁÕ,NPC_.FNAM
 Meralyn Othan,Ã·À­ÁÕ¡¤°ÂÉ­,NPC_.FNAM
 Merard,Ã·À­µÂ,NPC_.FNAM
 Merard Geves,Ã·À­µÂ¡¤¸ñÎ¬Ë¹,NPC_.FNAM
+Mercantile,Ã³Ò×,GMST.STRV
 Merchant,ÉÌÈË,CLAS.FNAM
 Mercius,Ä¬Î÷ÎÚË¹,NPC_.FNAM
+Mercy,ÈÊ´È,SPEL.FNAM
 Merethic Era,¾«Áé¼ÍÔª,ÓÖ³Æ¡°Éñ»°¼ÍÔª¡±£¬ÔÚÀèÃ÷¼ÍÔªºÍµÚÒ»¼ÍÔªÖ®¼ä¡£
 Merian,Ã·Àï°²,NPC_.FNAM
 Meric,Ã·Àï¿Ë,NPC_.FNAM
@@ -8301,6 +8457,7 @@ Mibdinahaz,Ã×²¼µÏÄÉ¹ş×È,NPC_.FNAM
 Mibdinahaz Addunipu,Ã×²¼µÏÄÉ¹ş×È¡¤°¢¶ÅÄáÆÕ,NPC_.FNAM
 Mibishanit,Ã×±ÈÉ³ÄáÌØ,NPC_.FNAM
 Mico,Ã×¿É,NPC_.FNAM
+Mid Year,ÄêÖĞÔÂ,GMST.STRV
 Midar,Ã×´ï¶û,NPC_.FNAM
 Midar Aravel,Ã×´ï¶û¡¤°¢À­Î¬¶û,NPC_.FNAM
 Middas,ĞÇÆÚÈı,ÉÏ¹Å¾íÖáÊÀ½ç¹ÛÖĞµÄÖÜÈı¡£
@@ -8384,6 +8541,7 @@ Minisun,Ã×ÄáËï,NPC_.FNAM
 Minisun Ulirbabi,Ã×ÄáËï¡¤ÎÚÀû¶û°Í±È,NPC_.FNAM
 Minnibi,Ã÷Äá±È,NPC_.FNAM
 Minnibi Selkin-Adda,Ã÷Äá±È¡¤Ï£¶û½ğ-°¢´ï,NPC_.FNAM
+Minor Skills,¸¨ĞŞ¼¼ÄÜ,GMST.STRV
 Minotaur,Å£Í·ÈË,
 Mir Corrup,Ã×¶û¡¤¿ÆÂ³ÆÕ,Î÷ÂŞµÛ¶ûÄÚÂ½µÄÒ»¸öÒÔÎÂÈªÁÆÑøÖøÃûµÄ³ÇÊĞ¡£
 Miraak,ÃØÀ­¿Ë,³õ´úÁúÒá¡£Ãû×ÖÔÚÁúÓïÖĞÒâÎª¡°ÖÒ³ÏµÄÏòµ¼¡±£¨Allegiance Guide£©¡£
@@ -8399,6 +8557,7 @@ Miron,Ã×Â¡,CEL|NPC_.FNAM
 Miron Garer,Ã×Â¡¡¤¼ÓÀÕ,NPC_.FNAM
 Miron Garer's Shack,Ã×Â¡¡¤¼ÓÀÕµÄĞ¡Îİ,CEL
 Mirpal,Ã×ÅÁ,NPC_.FNAM
+Mirror,¾µ,SPEL.FNAM
 Mirshamammu,Ã×¶ûÉ³ÂêÄ·,NPC_.FNAM
 Mirvon,Ã×¶ûÎÄ,NPC_.FNAM
 Mirvon Andrethi,Ã×¶ûÎÄ¡¤°²µÂÀ×Î÷,NPC_.FNAM
@@ -8441,7 +8600,7 @@ Moghakh gro-Bagdub,Äª¸ñ¹ş¿Ë¡¤¸ñÂŞ-°Í¸ñ¶Å²¼,NPC_.FNAM
 Moghakh gro-Bar,Äª¸ñ¹ş¿Ë¡¤¸ñÂŞ-°Í,NPC_.FNAM
 Mol,Äª¶û,NPC_.FNAM
 Mol gro-Shat,Äª¶û¡¤¸ñÂŞ-ÏÄÌØ,NPC_.FNAM
-Molag,ÄªÀ­¸ñ,CREA.FNAM|°ÂµÂÄªÓï¡£»ğ
+Molag,ÄªÀ­¸ñ,CREA.FNAM
 Molag Amur Region,ÄªÀ­¸ñ°¢ÄÂ¶ûµØÇø,REGN.FNAM
 Molag Bal,ÄªÀ­¸ñ¡¤°Í¶û,
 Molag Bal Statue Talker,ÄªÀ­¸ñ¡¤°Í¶ûµñÏñÌ¸»°Õß,ACTI.FNAM
@@ -8460,13 +8619,13 @@ Mondros,ÃÉµÂÂŞË¹,NPC_.FNAM
 Mondros Balur,ÃÉµÂÂŞË¹¡¤°ÍÂ¬,NPC_.FNAM
 Mongrel's Tooth Cave,ÔÓÖÖÖ®ÑÀ¶´Ñ¨,µØÃû¡£
 Moniel,ÄªÄá¶û,NPC_.FNAM
-Monk,É®ÂÂ,CLAS.FNAM
+Monk,É®ÂÂ,CLAS.FNAM|GMST.STRV
 Monkey Folk,ºïÈË,*Ïê¼ûImga´ÊÌõ¡£
 Monkey Truth,ºïÖ®ÕæÀí,ÁãÖ®Ê¥µî½áÉçËùĞÅ·îµÄÕÜÑ§¡£
 Monsey,ÃÉÎ÷,NPC_.FNAM
 Monthadan,ÃÉ´ïµ¤,NPC_.FNAM
 Moon Sugar,ÔÂÁÁÌÇ,INGR.FNAM
-Moon-and-Star,ĞÇÓëÔÂ,CLOT.FNAM|BOOK.FNAM
+Moon-and-Star,ĞÇÓëÔÂ,BOOK.FNAM|CLOT.FNAM
 Mooncalf,Ë«ÔÂÖ®³û,SPEL.FNAM
 Mooneye,°µÔÂÖ®ÑÛ,SPEL.FNAM
 Moonmoth Legion Fort,ÔÂ¶ê¾üÍÅÒªÈû,CEL|ACTI.FNAM
@@ -8499,7 +8658,7 @@ Morn,Äª¶÷,NPC_.FNAM
 Morn gra-Khatub,Äª¶÷¡¤¸ñÀ­-¿¨Í¼²¼,NPC_.FNAM
 Mornardl,ÄªÄÉµÂ¶û,NPC_.FNAM
 Morndas,ĞÇÆÚÒ»,ÉÏ¹Å¾íÖáÊÀ½ç¹ÛÖĞµÄÖÜÒ»¡£
-Morning Star,³¿ĞÇÔÂ,¶ÔÓ¦ÏÖÊµµÄÒ»ÔÂ¡£°¢¶û¹±½Ü¶ûÓï³ÆÖ®ÎªÍß¿¨£¨Vakka£©£¬ÒâË¼ÊÇÌ«Ñô£¨Sun£©¡£
+Morning Star,³¿ĞÇÔÂ,GMST.STRV
 Morning-Star-Steals-Away-Clouds,³¿-ĞÇ-ÇÔ-È¡-ÔÆ,NPC_.FNAM
 Mornsu,Äª¶÷ËÕ,NPC_.FNAM
 Mornsu Omalor,Äª¶÷ËÕ¡¤°ÂÂêÂå,NPC_.FNAM
@@ -8509,6 +8668,7 @@ Mororurg,ÄªÂŞÂ³¸ñ,NPC_.FNAM
 Morrowind,³¿·ç,Ì©Ä·Èğ¶û¶«±±·½µÄÒ»´óÆ¬ÇøÓò¡£ÆçÄª³ö×ßºóËùÁôÖ®µØ¡£
 Mortal,1.·²Éú|2.ÖÕéâ,Ö¸ÒòÉáÔú¶û¶øµ®ÉúµÄ·²Ë×ÉúÎï¡£»òÖ¸µÚËÄ¼ÍÔªÓĞÒÔ¡°ÖÕéâ¡±ÎªÃûµÄ¶¨¾Óµã£¬ºÜ¿ÉÄÜÊÇÓÉÓÚ¶¨¾ÓÕß»á´íÒâµ¼ÖÂµÄ´ÊÒåÆ«²î¡£
 Mortal Camp,ÖÕéâÓªµØ,È¡¡°·²ÈËÖÕÓĞÒ»ËÀ¡±µÄº¬Òå£¬»¹Ô­Ç¿µÁÎªÓªµØÈ¡ÃûÊ±µÄ´Ö±©±¾Òâ¡£
+Mortar,ÑĞ²§ÑĞèÆ,GMST.STRV
 Morth,ÄªË¹,NPC_.FNAM
 Morthal,ÄªÈø¶û,
 Mortrag Glacier,ÄªÌØÀ­¸ñ±ù´¨,CEL
@@ -8596,6 +8756,7 @@ Murag gro-Atumph,ÄÂÀ­¸ñ¡¤¸ñÂŞ-°¢Í¼·ò,NPC_.FNAM
 Murberius,ÄÂ±´ÀïÎÚË¹,CEL|NPC_.FNAM
 Murberius Harmevus,ÄÂ±´ÀïÎÚË¹¡¤¹şÃ·ÎÚË¹,NPC_.FNAM
 Murberius Harmevus' House,ÄÂ±´ÀïÎÚË¹¡¤¹şÃ·ÎÚË¹µÄ·¿×Ó,CEL
+Murdrum,°µÉ±Êõ,SPEL.FNAM
 Murdrum Ring,°µÉ±Ö®½ä,CLOT.FNAM
 Muriel,ÄÂÀï¶û,NPC_.FNAM
 Muriel Sette,ÄÂÀï¶û¡¤ÈûÌØ,NPC_.FNAM
@@ -8622,6 +8783,7 @@ Musan Zaintashara,ÄÂÉ½¡¤ÔŞËşÉ³À­,NPC_.FNAM
 Museum of Artifacts,ÎÄÎï²©Îï¹İ,CEL
 Mush-Mere,ÄÂÏ£-Ã·¶û,CEL|NPC_.FNAM
 Mush-Mere's Shack,ÄÂÏ£-Ã·¶ûµÄĞ¡Îİ,CEL
+Mushroom Report,Ä¢¹½±¨¸æ,BOOK.FNAM
 Musilchiotus,ÂíË¹ÇÇÍ¼Ë¹,NPC_.FNAM
 Muspidius,ÄÂË¹Æ¤µÏÎÚË¹,NPC_.FNAM
 Mussillius,ÄÂÎ÷ÀûÎÚË¹,NPC_.FNAM
@@ -8636,19 +8798,20 @@ Muvrulea Daryon,ÄÂÂ³À³ÑÇ¡¤´ïÀû°º,NPC_.FNAM
 Muz-Ra,ÄÂ×È-À­,NPC_.FNAM
 Muzgonk,ÄÂ×È¹±¿Ë,NPC_.FNAM
 Muzgonk gro-Borbog,ÄÂ×È¹±¿Ë¡¤¸ñÂŞ-²©²¨¸ñ,NPC_.FNAM
-Myn,Âõ¶÷,NPC_.FNAM|Èü°£ÎıĞÅÑöÖĞ¶«·½¹âÁéµÄ»¯Éí¡£Ã÷Ÿ¸
+Myn,Âõ¶÷,NPC_.FNAM
 Myn Farr,Âõ¶÷¡¤·¨¶û,NPC_.FNAM
 Myriad Realms,·±¼«Ö®Óò,É£¼ª¶÷µÄÁìÓò¡£È¡ÖĞ¹ú¹Å´ú³£ÓÃµÄ×î´óÊı´Ê¡°¼«¡±¡£
 Myrmidon,±©Í½,¾º¼¼³¡Î»½×¡£
 Mysterious Akavir,¡¶ÉñÃØµÄ°¢¿¨Î¬¶û¡·,BOOK.FNAM
 Mysterious Dwemer Device,ÉñÃØµÄ¶ÍÄª×°ÖÃ,ACTI.FNAM
 Mysterium Xarxes,Ôú¿ËÎ÷Ë¹ÃØµä,ÓÉ´óÙòËùÖø£¬·¢ÒôÈ¡×ÔÂí¶¡¡¤ÈûÆÕÍ¡½ÇÉ«ÅäÒô¡£
+Mystery,ÃÔ|ÃØ·¨,SPEL.FNAM
 "Mystery of Talara, Part 1","¡¶ËşÀ­ÈÃ¹«Ö÷Ö®ÃÕ¡¤¾íÒ»¡·","BOOK.FNAM"
 "Mystery of Talara, Part 2","¡¶ËşÀ­ÈÃ¹«Ö÷Ö®ÃÕ¡¤¾í¶ş¡·","BOOK.FNAM"
 "Mystery of Talara, Part 3","¡¶ËşÀ­ÈÃ¹«Ö÷Ö®ÃÕ¡¤¾íÈı¡·","BOOK.FNAM"
 "Mystery of Talara, Part 4","¡¶ËşÀ­ÈÃ¹«Ö÷Ö®ÃÕ¡¤¾íËÄ¡·","BOOK.FNAM"
 "Mystery of Talara, Part 5","¡¶ËşÀ­ÈÃ¹«Ö÷Ö®ÃÕ¡¤¾í5¡·","BOOK.FNAM"
-Mysticism,¡¶ÉñÃØÏµ¡·,BOOK.FNAM
+Mysticism,ÉñÃØÏµ,BOOK.FNAM|GMST.STRV
 Mytheria,Ã×ÉªÀûÑÇ,µØÃû¡£µÒÎÚË¹µÄ¼ÒÏç£¬µ«²»È·¶¨ÊÇ·ñÊÇÕæÊµ´æÔÚµÄµØ·½¡£
 Mythic Dawn,Éñ»°ÆÆÏş,
 Mythic Era,Éñ»°¼ÍÔª,*Ïê¼ûMerethic Era´ÊÌõ¡£
@@ -8924,9 +9087,10 @@ Niden,ÄáµÇ,NPC_.FNAM
 Niden Naros,ÄáµÇ¡¤ÄÉÂŞË¹,NPC_.FNAM
 Nidryne,ÄáµÂÁÕ,NPC_.FNAM
 Nidryne Redas,ÄáµÂÁÕ¡¤Èğ´ïË¹,NPC_.FNAM
+Night Eye,Ò¹ÊÓ,GMST.STRV
 Night Falls On Sentinel,¡¶Ò¹ÁÙÉÚ±ø³Ç¡·,BOOK.FNAM
 Night-Eye,Ò¹ÊÓ,SPEL.FNAM
-Nightblade,Ò¹ÈĞ,CLAS.FNAM
+Nightblade,Ò¹ÈĞ,CLAS.FNAM|GMST.STRV
 Nightshade,Ò¹Ó°»¨,
 Nigilius,Äá»ùÁôË¹,NPC_.FNAM
 Nikulas,Äá¹ÅÀ­Ë¹,SPEL.FNAM
@@ -9084,6 +9248,8 @@ Norus Marvel,ÅµÂ³Ë¹¡¤ÂíÎ¬¶û,NPC_.FNAM
 Norvayn,ÅµÎ¬¶÷,NPC_.FNAM
 Norvayn Ancestral Tomb,ÅµÎ¬¶÷ÏÈ×æÄ¹Ñ¨,CEL
 Norvulk,ÅµÎÚ¿Ë,Î»ÓÚ·ç±©¸Û±±²¿µÄÒ»´¦ÑÇÀúµÂÒÅ¼£¡£
+Nose,±Ç,SPEL.FNAM
+Note,±ãÌõ,BOOK.FNAM
 Note from a Glenmoril Witch,¸ñÂ×ÄªÀòÅ®Î×µÄ±ãÌõ,BOOK.FNAM
 Note from Bakarak,°Í¿¨À­¿ËµÄ±ãÌõ,BOOK.FNAM
 Note from Bashuk,°ÍÊæ¿ËµÄ±ãÌõ,BOOK.FNAM
@@ -9114,7 +9280,9 @@ Note to Salyn Sarethi,¸øÈøÀû¶÷¡¤ÈøÀ×µÙµÄ±ãÌõ,BOOK.FNAM
 Note to Slaves,¸øÅ«Á¥ÃÇµÄ±ãÌõ,BOOK.FNAM
 Note to Telvon,¸øÌØ¶ûÎÄµÄ±ãÌõ,BOOK.FNAM
 Note to Valvius,¸øÍß¶ûÎ¬Ë¹µÄ±ãÌõ,BOOK.FNAM
+Notes,±Ê¼Ç,BOOK.FNAM
 Notes by Aryon,°¢Àï°ºµÄ±Ê¼Ç,BOOK.FNAM
+notes for Cosades,±ãÌõ,BOOK.FNAM
 Notes from Huleeya,ºúÀûÑÇµÄ±Ê¼Ç,BOOK.FNAM
 Notes on Racial Phylogeny,¡¶ÖÖ×åÑİ»¯×¢½â¡·,BOOK.FNAM
 NoteToCalderaGuard,¸ø¿¨¶ûµÂÀ­ÊØÎÀµÄËµÃ÷,BOOK.FNAM
@@ -9234,7 +9402,7 @@ Old Dwemer Book,¹ÅÀÏµÄ¶ÍÄªÊé¼®,BOOK.FNAM
 Old Gate,ÀÏ¾ÉµÄ´óÃÅ,DOOR.FNAM
 Old Key,¾ÉÔ¿³×,MISC.FNAM
 Old Knocker,¹ÅÀÏ³âÔğÕß,
-Old Man,¹ÅÈË,FACT.RNAM|MISC.FNAM
+Old Man,¹ÅÈË|³Â¾ÉÕß,FACT.RNAM|MISC.FNAM
 Old Man's Lucky Coin,¹ÅÈËµÄĞÒÔË½ğ±Ò,MISC.FNAM
 Old Mary Dominion,ÏÌÖùÉñÖŞ,¿ÆÂåÎ¬ÑÇÈË¶ÔÏÈ×æÉñÖŞµÄÏ·ÚÊ½Ğ·¨¡£
 Old Metal Door,ÀÏ¾ÉµÄ½ğÊôÃÅ,DOOR.FNAM
@@ -9269,7 +9437,7 @@ Olfeigr the Fair,¹«Æ½µÄ°Â·Æ¸ñ¶û,NPC_.FNAM
 Olfin,°Â¶û·Ò,NPC_.FNAM
 Olfin gro-Logrob,°Â¶û·Ò¡¤¸ñÂŞ-²©¸ñÀ­,NPC_.FNAM
 Olink-Nur,°ÂÁÖ¿Ë-Å¬,NPC_.FNAM
-Olms,°ÂÄ·Ë¹,SPEL.FNAM|CEL
+Olms,°ÂÄ·Ë¹,CEL|SPEL.FNAM
 Olms' Benediction,°ÂÄ·Ë¹Ö®×£¸£,SPEL.FNAM
 Olquar,°Â¶û¿ä¶û,NPC_.FNAM
 Olumba,°ÂÂ×°Í,NPC_.FNAM
@@ -9312,6 +9480,7 @@ Ondusi,°º¶ÅÏ£,CLOT.FNAM|SPEL.FNAM
 Ondusi's Key,°º¶ÅÏ£µÄÔ¿³×,CLOT.FNAM
 Ondusi's Open Door,°º¶ÅÏ£µÄ¿ªÃÅÊõ,SPEL.FNAM
 Ondyn,°²µÇ,NPC_.FNAM
+One Handed,µ¥ÊÖÎäÆ÷,GMST.STRV
 One Who Knows,ÖªÏşÕß,*Ïê¼ûHermaeus Mora´ÊÌõ¡£
 One-Clan-Under-Moon-and-Star,Ò»Í³²¿×åµÄĞÇÓëÔÂ,ĞÇÓëÔÂÖ®½äµÄÖø³Æ
 Only-He-Stands-There,¶À-Ëû-Á¢-´Ë,NPC_.FNAM
@@ -9323,8 +9492,8 @@ Onnissiralis,°ÂÄáÏ£ÈğÀïË¹,CEL
 Onsi,ÎÌË¹,
 Onyx Caverns,Âêè§¶´Ñ¨,
 Onyx Hall,çÉÂêè§´óÌü,CEL
-Open,¿ªËøÊõ,SPEL.FNAM
 Open Chest,´ò¿ªµÄÏä×Ó,CONT.FNAM
+Open Door,¿ªÃÅÊõ,SPEL.FNAM
 Operative,ÌØ¹¤,FACT.RNAM
 Operator,Ö´ĞĞÕß,FACT.RNAM
 Optio,°ÂÆÕç¾Å·,NPC_.FNAM
@@ -9358,6 +9527,7 @@ Order From Mollismo,Ä¦ÀûË¹ÄªµÄÃüÁî,BOOK.FNAM
 Order Manifest,¶©µ¥Ã÷Ï¸,BOOK.FNAM
 Order of Talos,ËşÂåË¹½ÌÍÅ,³ç°İËşÂåË¹£¬Óëµ¶·æÓĞºÏ×÷¹ØÏµ¡£
 Order of the Hour,Ê±Ö®ÆïÊ¿ÍÅ,Ê±Ö®ÆïÊ¿ÍÅÊÇµÛ¹ú×îÎª¹ÅÀÏµÄ½ÌÍÅÖ®Ò»µÄ°¢¿¨ÍĞÊ²½ÌÍÅµÄÏÂÊô»ú¹¹¡£
+Orders,ÃüÁî|Ö¸Ê¾,BOOK.FNAM
 Orders for Bivale Teneran,¸ø±ÈŞ±¶û¡¤ÌØÄÉÀ¼µÄÖ¸Ê¾,BOOK.FNAM
 Ordinator,ÉñµîÎÀ±ø,CLAS.FNAM|NPC_.FNAM
 Ordinator Barracks,ÉñµîÎÀ±øÓª·¿,CEL
@@ -9466,11 +9636,12 @@ Panoit,ÅÁÅµÒÁÌØ,NPC_.FNAM
 Pansamsi,ÅËÈøÄ·Î÷,NPC_.FNAM
 Panther River,ºÚ±ªºÓ,
 Panud Egg Mine,ÅÁÅ¬µÂÂÑ¿ó³¡,CEL
-paper,ÊéÒ³,BOOK.FNAM
 Paper Lantern,Ö½ÖÊµÆÁı,LIGH.FNAM
+Papers,ÎÄÏ×,BOOK.FNAM
 Par Molag,ÅÁ¡¤ÄªÀ­¸ñ,ÑÇÀúµÂÓï£¬ÒâÎª¡°»ğÖ®È­¡±»ò¡°»ğÖ®ÎÕ¡±£¬Î»ÓÚ¸ñÂ×°º²¼À­µØÇø±±²¿±´ÇÇµÂ½ÌÌÃÒÔ±±µÄÒ»´¦ÑÇÀúµÂÒÅ¼£¡£
 Paralysis,Âé±ÔÊõ,SPEL.FNAM
 Paralysis Trap,Âé±ÔÏİÚå,SPEL.FNAM
+Paralyze,Âé±Ô,GMST.STRV
 Parchment with Scrawlings,×Ö¼£ÁÊ²İµÄÑòÆ¤Ö½,BOOK.FNAM
 Pariah,»àÃñ,
 Pariah Folk,Æú¾«Áé,*Ïê¼ûOrsimer´ÊÌõ¡£
@@ -9528,8 +9699,11 @@ Percius,çêÎ÷ÎÚË¹,NPC_.FNAM
 Percius Mercius,çêÎ÷ÎÚË¹¡¤Ä¬Î÷ÎÚË¹,NPC_.FNAM
 Peregrina,ÅåÀÙ¸ñÀöÄÈ,NPC_.FNAM
 Peregrina Cnisia,ÅåÀÙ¸ñÀöÄÈ¡¤ÈûÄáÎ÷ÑÇ,NPC_.FNAM
+Perfect Balm,ÍêÃÀÎ¿½å,SPEL.FNAM
 Perien,ÅåÀï°²,NPC_.FNAM
 Perien Aurelie,ÅåÀï°²¡¤°ÂÀ×Àû,NPC_.FNAM
+Personality,÷ÈÁ¦,GMST.STRV|SPEL.FNAM
+Persuasion,Ëµ·ş,GMST.STRV
 Peryite,ÅåÒÁÌØ,
 Petilia,ÅåÌáÀûÑÇ,NPC_.FNAM
 Petty Soul Gem,´Î¼¶Áé»êÊ¯,MISC.FNAM
@@ -9541,15 +9715,17 @@ Phiencel,·Æ¶÷Éª¶û,NPC_.FNAM
 Philulanie,·ÆÂ³À¼Äİ,NPC_.FNAM
 Phirrienele,·ÆÀï°£ÄÚÀÕ,NPC_.FNAM
 Phynaster,·ÆÄÉË¹ÌØ,·ÆÄÉË¹ÌØÖ®½äÊÇÓÉÊı°ÙÄêÇ°Ò»Î»ĞèÒªÁ¼ºÃ·ÀÓù²ÅÄÜÔÚÃ°ÏÕÉú»îÖĞÉú´æÏÂÀ´µÄÈËÖÆ×÷µÄ¡£¶à¿÷ÕâÃ¶½äÖ¸£¬·ÆÄÉË¹ÌØ»îÁËÊı°ÙÄê
+Picture Book of Wood,Ä¾Í·Í¼²á,BOOK.FNAM
 Pierlette,Æ¤Ò®À³ÌØ,NPC_.FNAM
 Pierlette Rostorard,Æ¤Ò®À³ÌØ¡¤ÂŞË¹ÍĞÀ­µÂ,NPC_.FNAM
 Pierlette Rostorard: Apothecary,Æ¤Ò®À³ÌØ¡¤ÂŞË¹ÍĞÀ­µÂ£ºÒ©¼ÁÊ¦,CEL
 Piernette,Æ¤¶ûÄÚÌØ,CEL|NPC_.FNAM
 Piernette Beluelle,Æ¤¶ûÄÚÌØ¡¤±´Àû¶û,NPC_.FNAM
 Piernette's Farmhouse,Æ¤¶ûÄÚÌØµÄÅ©Éá,CEL
-Pilgrim,³¯Ê¥Õß,CLAS.FNAM|LIGH.FNAM
+Pilgrim,³¯Ê¥Õß,CLAS.FNAM|GMST.STRV|LIGH.FNAM
 Pilgrim's Lantern,³¯Ê¥ÕßµÄÌáµÆ,LIGH.FNAM
 Pillow,ÕíÍ·,MISC.FNAM
+Pillow Book,Õí±ßÊé,BOOK.FNAM
 Pilper,Æ¤¶ûçê,NPC_.FNAM
 Pilper Muspidius,Æ¤¶ûçê¡¤ÄÂË¹Æ¤µÏÎÚË¹,NPC_.FNAM
 Pilu,Æ¤Â³,NPC_.FNAM
@@ -9576,10 +9752,11 @@ Plague Wolf,Òß²¡ÀÇ,CREA.FNAM
 Plain key,ÆÓËØµÄÔ¿³×,MISC.FNAM
 Plalocius,ÅÁÀ­ÂŞĞŞË¹,NPC_.FNAM
 Plan to Defeat Dagoth Ur,¡¶»÷°Ü´ï¸ñË¹¡¤ÎÚ¶ûµÄ¼Æ»®¡·,BOOK.FNAM
+Planbook,¼Æ»®Êé,BOOK.FNAM
+Plans,¼Æ»®,BOOK.FNAM
 Plate,ÅÌ×Ó,MISC.FNAM
 Platorius,ÆÕÀ­ÍĞÁôË¹,NPC_.FNAM
 Platter,´óÅÌ×Ó,MISC.FNAM
-player,Íæ¼Ò,NPC_.FNAM
 Plaza Brindisi Dorom,²¼ÁÖµÏÎ÷¡¤¶àÂŞÄ·¹ã³¡,CEL
 Plebo,ÆÕÀ³²©,NPC_.FNAM
 Plitinius,Æ¤ÀûÍ¢Å¦Ë¹,NPC_.FNAM
@@ -9590,7 +9767,8 @@ Pocket Guide to the Empire,µÛ¹úĞäÕäÖ¸ÄÏ,Ò»Ì×½éÉÜµÛ¹úµÄÊé¼®£¬·ÖÎªÈı¸ö°æ±¾£¬µÚÒ»°æ
 Pod,¼Ô¹Ú,Ä¢¹½Ëş¶¥²ãµÄ²¿·Ö£¬¿ÉÒÔ×÷Îª¾ÓÊÒ¡£
 Poet,Ê«ÈË,SPEL.FNAM
 Poet's Whim,Ê«ÈËÖ®ÆæÏë,SPEL.FNAM
-Poison,¶¾Êõ|¶¾ËØ,INGR.FNAM|SPEL.FNAM
+Point Cost,Ä§Á¦ÏûºÄ,GMST.STRV
+Poison,¶¾Êõ|¶¾ËØ|ÖĞ¶¾,GMST.STRV|INGR.FNAM|SPEL.FNAM
 Poison Song I,¡¶¶¾Ò©Ö®ËÌ I¡·,BOOK.FNAM
 Poison Song II,¡¶¶¾Ò©Ö®ËÌ II¡·,BOOK.FNAM
 Poison Song III,¡¶¶¾Ò©Ö®ËÌ III¡·,BOOK.FNAM
@@ -9623,10 +9801,12 @@ Potent Poison,Ç¿Á¦¶¾Êõ,SPEL.FNAM
 Potent Poison [Ranged],Ç¿Á¦¶¾Êõ [Ô¶³Ì],SPEL.FNAM
 Potentate,1.×¨ÖÆ¹ú|2.ÉãÕş,²»ÊÜÔªÀÏÔºÔ¼ÊøµÄ°¢¿¨Î¬¶ûÕşÈ¨»òÖ¸´úÆäÍ³ÖÎÕß¡£
 Pothole Caverns,ºøÑ¨¶´Ñ¨,
+Potion,Ò©Ë®,ALCH.FNAM
 Potion of Cure Blight Disease,¿İÎ®²¡ÖÎÓúÒ©Ë®,ALCH.FNAM
 Potion of Cure Common Disease,Í¨³£¼²²¡ÖÎÓúÒ©Ë®,ALCH.FNAM
 Potion of Cure Paralyzation,Âé±Ô½â³ıÒ©Ë®,ALCH.FNAM
 Potion of Cure Poison,½â¶¾Ò©Ë®,ALCH.FNAM
+Potion of Curing,ÖÎÁÆÒ©Ë®,ALCH.FNAM
 Potion of Detect Creatures,ÉúÎïÌ½²âÒ©Ë®,ALCH.FNAM
 Potion of Detect Enchantments,Ì½²â¸½Ä§ÎïÆ·Ò©Ë®,ALCH.FNAM
 Potion of Detect Key,Ì½²âÔ¿³×Ò©Ë®,ALCH.FNAM
@@ -9642,6 +9822,7 @@ Potion of Water Walking,Ë®ĞĞÒ©Ë®,ALCH.FNAM
 Potter,ÌÕ¹¤,ACTI.FNAM
 Potter's Hall,ÌÕ¹¤µÄ´óÌü,ACTI.FNAM
 Powered Dwemer Coherer,³äÄÜµÄ¶ÍÄªÄı¾ÛÆ÷,MISC.FNAM
+Powers,Á¦Á¿,GMST.STRV
 Powerwell,Ä§Á¦Ö®Èª,SPEL.FNAM
 Practice Room,Á·Ï°ÊÒ,CEL
 Prelude,Ç°×àÇú,´¬Ãû¡£
@@ -9672,6 +9853,7 @@ Prisoner Checklist,Çô·¸Ãû²á,BOOK.FNAM
 Prisoner Unbound,±»½â·ÅµÄÇôÍ½,*Ïê¼ûHero´ÊÌõ¡£
 Pritia,ÆÕÈğÌáÑÇ,NPC_.FNAM
 Pritia Plalocius,ÆÕÈğÌáÑÇ¡¤ÅÁÀ­ÂŞĞŞË¹,NPC_.FNAM
+Private Key,Ë½ÈË×¡ËùÔ¿³×,MISC.FNAM
 Private Notes -- DO NOT READ,Ë½ÈË±Ê¼Ç -- ±ğÂÒ¶Á,BOOK.FNAM
 Private Quarters Key,Ë½ÈË×¡ËùÔ¿³×,MISC.FNAM
 Processus,ÆÕÂŞÈûËÕË¹,CLOT.FNAM|NPC_.FNAM
@@ -9680,8 +9862,10 @@ Processus Vitellius' Ring,ÆÕÂŞÈûËÕË¹¡¤Î¬ÌØÁôË¹µÄ½äÖ¸,CLOT.FNAM
 Procyon,çêÂåÈû°º,NPC_.FNAM
 Procyon Nigilius,çêÂåÈû°º¡¤Äá»ùÁôË¹,NPC_.FNAM
 Profane Acolyte,ÙôäÂ¸¨¼À,CREA.FNAM
+Profit Value,ÀûÈó¼ÛÖµ,GMST.STRV
 Progress of Truth,¡¶ÕæÏàµÄ¹ı³Ì¡·,BOOK.FNAM
 Projectile Trap Spell,Í¶ÉäÏİÚåÖä,SPEL.FNAM
+Promise,ÊÄ,SPEL.FNAM
 Property of Jolda,ÇÇ¶û´ïµÄ²ÆÎï,BOOK.FNAM
 Propylon,ÒıÂ·Æ÷,¹ÅÀÏµÄµ¤Äª´«ËÍ¼¼ÊõµÄ×°ÖÃ£¬²»ÖªµÀÊÇÄ§·¨»¹ÊÇÊ²Ã´¡£
 Propylon Chamber,ÒıÂ·ÊÒ,CEL
@@ -9700,6 +9884,8 @@ Psiijic,ÈüÒÁ¿Ë,
 Psijic Order,ÈüÒÁ¿Ë½ÌÍÅ,Ò»¸ö¹ÅÀÏµÄ·¨Ê¦ĞŞ»á¡£×Ü²¿Î»ÓÚArtaeum°¢Ì©ÎÚÄ·µº¡£
 Psijii,ÈüÒÁ,
 PSJJJJ,1.ÎŞÒôÖ®±ä|2.ÈûÒÁ¿Ë½ÌÍÅ,*Ïê¼ûPadomay´ÊÌõ¡£¸Ã´Ê²»¿É·¢Òô£¬¸ÃÊÍÒå½ö¹©Àí½â£¬·­ÒëÊ±¿É±£ÁôÔ­ÎÄ¡£ÉÏ¹Å¾íÖáµÄÊÀ½çÓÉÒôµ÷¹¹³É£¬¶øPSJJJJÔò´ú±íÁËÒ»¸ö´¿´â±ä»¯µÄ²»¿ÉÈ·¶¨µÄÒô·û¡£ÁíÍâ£¬ÈûÒÁ¿Ë½ÌÍÅÒ²×Ô³ÆÎªPSJJJJ½ÌÍÅ¡£
+pt,µã,GMST.STRV
+pts,µã,GMST.STRV
 Public notice,¹«¸æ,BOOK.FNAM
 Publican,¾Æ¹İÀÏ°å,CLAS.FNAM
 Pudai Egg Mine,ÆÕ´úÂÑ¿ó³¡,CEL
@@ -9773,12 +9959,15 @@ Quality Spell Absorption,ÓÅÖÊµÄ·¨ÊõÎüÊÕÒ©Ë®,ALCH.FNAM
 Quarra,¿ä¶ûÀ­,MISC.FNAM|NPC_.FNAM
 Quarra Amulet,¿ä¶ûÀ­»¤·û,CLOT.FNAM
 Quarra Clan,¿ä¶ûÀ­ÊÏ×å,FACT.FNAM
+Quarters,ËŞÉá,CEL
+Quarters Key,ËŞÉáÔ¿³×,MISC.FNAM
 Quaspus,¿¨Ë¹ÆÕË¹,NPC_.FNAM
 Queen Mother,ÍõÌ«ºó,CLAS.FNAM
 Queen of Dawn and Dusk,ÀèÃ÷Óë»Æ»èÅ®Íõ,*Ïê¼ûAzura´ÊÌõ¡£
 Queen of Shadows,°µÓ°Å®Íõ,*Ïê¼ûBoethiah´ÊÌõ¡£
 Queen of the Night Sky,Ò¹¿ÕÅ®Íõ,*Ïê¼ûAzura´ÊÌõ¡£
 Queen's Lair,Å®Íõ³²Ñ¨,CEL
+Quick Again,ÔÙ¶ÈÑ¸ËÙ,SPEL.FNAM
 Quicksilver,´ó²½Á÷ĞÇ,SPEL.FNAM
 Quickwater Cave,¼±Á÷¶´Ñ¨,
 Quill Pen,ÓğÃ«±Ê,MISC.FNAM
@@ -9799,9 +9988,12 @@ Ra'Zahr,À­'Ôú¶û,NPC_.FNAM
 Ra'Zhid,À­'×ÈµÂ,NPC_.FNAM
 Rabinna,À­±ùÄÈ,NPC_.FNAM
 Raccan,À­¿²,NPC_.FNAM
+Race,ÖÖ×å,GMST.STRV
+Race Description,ÖÖ×åÃèÊö,GMST.STRV
 Racer Plumes,Ñ¸ÄñÖ®Óğ,INGR.FNAM
 Racer Suede Belt,Ñ¸ÄñÈŞÃæÑü´ø,CLOT.FNAM
 Racerbeak,Ñ¸ÄñÖ®à¹,WEAP.FNAM
+Racial Traits,ÖÖ×åÌØĞÔ,GMST.STRV
 Racuvar,´ò°Ü£»ÍÆ·­,ÑÇÀúµÂÓï£¬-ima¿ÉÄÜÎª±»¶¯Ê½
 Radac,À­´ï¿Ë,CEL|CREA.FNAM
 Radac Stungnthumz,À­´ï¿Ë¡¤Ë¹¶Ù¸ñÄ·×È,CREA.FNAM
@@ -9847,8 +10039,8 @@ Ralen Hlaalo,À­Â×¡¤ºÕÀ­ÂŞ,NPC_.FNAM
 Ralen Tilvur,À­Â×¡¤Ìá¶ûÎÚ,NPC_.FNAM
 Ralen Tilvur: Smith,À­Â×¡¤Ìá¶ûÎÚ£ºÌú½³,CEL
 Rally Beast,Ò°ÊŞÕñ·ÜÊõ,SPEL.FNAM
-Rally Creature,Õñ·ÜÉúÎï,SPEL.FNAM
-Rally Humanoid,Õñ·ÜÈËĞÎÉúÎï,SPEL.FNAM
+Rally Creature,ÉúÎïÕñ·Ü|Õñ·ÜÉúÎï,GMST.STRV|SPEL.FNAM
+Rally Humanoid,Õñ·ÜÈËĞÎÉúÎï,GMST.STRV|SPEL.FNAM
 Rallying Touch,Õñ·ÜÖ®´¥,SPEL.FNAM
 Ralmyn,À­Ã÷,NPC_.FNAM
 Ralmyn Othren,À­Ã÷¡¤°ÂÉªÂ×,NPC_.FNAM
@@ -9893,6 +10085,7 @@ Rararyn,À­À­ÁÖ,NPC_.FNAM
 Rararyn Radarys,À­À­ÁÖ¡¤À­´ïÀûË¹,NPC_.FNAM
 Rarayn,À­À­ÁÖ,CEL
 Rarayn Radarys' House,À­À­ÁÖ¡¤À­´ïÀûË¹µÄ·¿×Ó,CEL
+Rare Books,Õä²Ø±¾,CEL|ACTI.FNAM
 Raril,À­Àï¶û,NPC_.FNAM
 Raril Giral,À­Àï¶û¡¤¼ªÀ­¶û,NPC_.FNAM
 Rarusu,À­Â³ËÕ,NPC_.FNAM
@@ -9915,6 +10108,7 @@ Rathryon,À­ÌØÀï¶÷,CEL|NPC_.FNAM
 Rathyne,À­ÜçÄİ,NPC_.FNAM
 Rathyne Thirano,À­ÜçÄİ¡¤ÌáÀ­Åµ,NPC_.FNAM
 Rato,À­ÍĞ,NPC_.FNAM
+Rattle,»ê,CEL
 Rattles,²üÀõÊõ,SPEL.FNAM
 Rautane,Ìıµ½,ÑÇÀúµÂÓï
 Ravan,À­Íò,ÓÈ¿â´ïÄÏ²¿µÄÒ»×ùµºÓì¡£
@@ -9951,16 +10145,22 @@ Raynila,À×ÄáÀ­,NPC_.FNAM
 Raynila Aryon,À×ÄáÀ­¡¤°¢Àï°º,NPC_.FNAM
 Raynilie,À×ÄİÀò,NPC_.FNAM
 Raynilie Andromo,À×ÄİÀò¡¤°²µÂÂŞÄª,NPC_.FNAM
+Razor,Ìêµ¶,WEAP.FNAM
 Reachbreaker,ºÓÓø¿ËĞÇ,
 Reachgate,ºÓÓøÖ®ÃÅ,
+Ready Item,×¼±¸ÎïÆ·,GMST.STRV
+Ready Magic,×¼±¸Ê©·¨,GMST.STRV
+Ready Weapon,×¼±¸ÎäÆ÷,GMST.STRV
 Realizations of Acrobacy,¡¶ÔÓ¼¼µÄÊµÏÖ¡·,BOOK.FNAM
 Reaper's March,»êéäÖ®µØ,Î»ÓÚÍßÂ×ÎéµÂ
 Reaver,ÂÓ¶áÕß,FACT.RNAM|NPC_.FNAM
 Reberio,À×±´Àï°Â,NPC_.FNAM
 Rebuild,ÖØ½¨,SPEL.FNAM
-Recall,ÕÙ»Ø,SPEL.FNAM
+Recall,ÕÙ»Ø,GMST.STRV|SPEL.FNAM
 Recall Ring,ÕÙ»ØÖ®½ä,CLOT.FNAM
 Recently slain Knight,×î½ü±»É±µÄÆïÊ¿,NPC_.FNAM
+Recharge Enchanted Item,³äÄÜ¸½Ä§ÎïÆ·,GMST.STRV
+Recipies,»Ø±¨,BOOK.FNAM
 Recruit,Õ÷ÕÙ±ø,FACT.RNAM
 Red,À×µÂ,NPC_.FNAM
 Red Book of 3E 426,¡¶µÚÈı¼ÍÔª426ÄêºìÆ¤Êé¡·,BOOK.FNAM
@@ -10023,7 +10223,10 @@ Reed River,Â«Î­ºÓ,
 Reeh-Jah,À×-½Ü,NPC_.FNAM
 Reemukeeus,À×Ä·»ùÎÚË¹,NPC_.FNAM
 Reesa,ÈğÈø,NPC_.FNAM
-Reflect,·´Éä,SPEL.FNAM
+Refill,²¹¸ø,SPEL.FNAM
+Reflect,·´Éä,GMST.STRV|SPEL.FNAM
+Reflect Terrain,·´ÉäµØĞÎ,GMST.STRV
+Reflection Updating,·´Éä¸üĞÂ,GMST.STRV
 Reflections on Cult Worship,¡¶¹ØÓÚµÛ¹ú½Ì»á³ç°İµÄË¼¿¼¡·,BOOK.FNAM
 Regenerate,ÔÙÉúÊõ,SPEL.FNAM
 Regeneration,ÔÙÉúÊõ,SPEL.FNAM
@@ -10082,11 +10285,16 @@ Remas Morvayn,ÈğÂêË¹¡¤ÄªÎÄ,NPC_.FNAM
 Remasa,ÀöÂíÈø,NPC_.FNAM
 Remasa Othril,ÀöÂíÈø¡¤°ÂÉªÀï¶û,NPC_.FNAM
 Remote Shipwreck,Æ«Æ§³Á´¬,CEL
+Remove Curse,½â³ı×çÖä,GMST.STRV
 Rendas,Â×´ïË¹,NPC_.FNAM
 Rendo,Â×¶à,NPC_.FNAM
 Reni,À×Äá,NPC_.FNAM
 Renim,À×ÄáÄ·,NPC_.FNAM
+Repair,ĞŞÀí,GMST.STRV
 Repair Prongs,ĞŞÀíÇ¯,REPA.FNAM
+Repair Service Menu,ĞŞÀí·şÎñ²Ëµ¥,GMST.STRV
+Report,±¨¸æ,BOOK.FNAM
+Reputation,ÉùÍû,GMST.STRV
 Reram,À×À­Ä·,NPC_.FNAM
 Rerilie,ÈğÀûÀ³,NPC_.FNAM
 Rerilie Llandu,ÈğÀûÀ³¡¤À¼¶Å,NPC_.FNAM
@@ -10102,32 +10310,40 @@ Rerynea,ÀÙÄáÑÅ,NPC_.FNAM
 Rerynea Salas,ÀÙÄáÑÅ¡¤ÈøÀ­Ë¹,NPC_.FNAM
 Resdayn,ÈğË¹´÷¶÷,³¿·çµÄ¹Å³Æ¡£
 Resin,Ê÷Ö¬,INGR.FNAM
+Resist Blight Disease,¿İÎ®²¡¿¹ĞÔ,GMST.STRV
 Resist Cold,µÖ¿¹º®Àä,SPEL.FNAM
-Resist Common Disease,µÖ¿¹³£¼û¼²²¡,SPEL.FNAM
-Resist Corprus Disease,µÖ¿¹Ê¬»¯²¡,SPEL.FNAM
+Resist Common Disease,³£¼û¼²²¡¿¹ĞÔ|µÖ¿¹³£¼û¼²²¡,GMST.STRV|SPEL.FNAM
+Resist Corprus Disease,µÖ¿¹Ê¬»¯²¡|Ê¬»¯²¡¿¹ĞÔ,GMST.STRV|SPEL.FNAM
 Resist Corpus Disease,µÖ¿¹Ê¬»¯²¡,SPEL.FNAM
 Resist Disease,µÖ¿¹¼²²¡,SPEL.FNAM
-Resist Fire,µÖ¿¹»ğÑæ,SPEL.FNAM
-Resist Frost,µÖ¿¹±ùËª,SPEL.FNAM
-Resist Magicka,µÖ¿¹Ä§·¨,SPEL.FNAM
-Resist Normal Weapons,µÖ¿¹ÆÕÍ¨ÎäÆ÷,SPEL.FNAM
-Resist Paralysis,µÖ¿¹Âé±Ô,SPEL.FNAM
-Resist Poison,µÖ¿¹¶¾ËØ,SPEL.FNAM
-Resist Shock,µÖ¿¹ÉÁµç,SPEL.FNAM
+Resist Fire,µÖ¿¹»ğÑæ|¿¹»ğ,SPEL.FNAM|GMST.STRV
+Resist Frost,¿¹º®|µÖ¿¹±ùËª,GMST.STRV|SPEL.FNAM
+Resist Magicka,¿¹Ä§|µÖ¿¹Ä§·¨,GMST.STRV|SPEL.FNAM
+Resist Normal Weapons,µÖ¿¹³£¹æÎäÆ÷|µÖ¿¹ÆÕÍ¨ÎäÆ÷,GMST.STRV|SPEL.FNAM
+Resist Paralysis,µÖ¿¹Âé±Ô,SPEL.FNAM|GMST.STRV
+Resist Poison,¿¹¶¾|µÖ¿¹¶¾ËØ,GMST.STRV|SPEL.FNAM
+Resist Shock,¿¹À×|µÖ¿¹ÉÁµç,GMST.STRV|SPEL.FNAM
 Response from Divayth Fyr,µÏÎ¬Ë¹¡¤·Æ¶ûµÄ»Ø¸´,BOOK.FNAM
 Response to Bero's Speech,¡¶¶Ô±´ÂŞÑİ½²µÄ»ØÓ¦¡·,BOOK.FNAM
+REST,ĞİÏ¢|í¬,CEL|GMST.STRV|SPEL.FNAM
 Rest of St. Merris,Ê¥¡¤Ã·ÀûË¹Ö®í¬,SPEL.FNAM
-Restoration,»Ö¸´Ïµ,»Ö¸´Ïµ·¨Êõ¡£
+Restoration,»Ö¸´Ïµ,GMST.STRV
 Restoration Shirt,»Ö¸´³ÄÉÀ,CLOT.FNAM
+Restore,»Ö¸´,GMST.STRV
 Restore Agility,»Ö¸´Ãô½İ,SPEL.FNAM
+Restore Attribute,ÊôĞÔ»Ö¸´,GMST.STRV
 Restore Attributes,»Ö¸´ÊôĞÔ,SPEL.FNAM
 Restore Endurance,»Ö¸´ÄÍÁ¦,SPEL.FNAM
+Restore Fatigue,ÌåÁ¦»Ö¸´,GMST.STRV
 Restore Fighter,»Ö¸´Õ½Ê¿,SPEL.FNAM
+Restore Health,ÉúÃü»Ö¸´,GMST.STRV
 Restore Intelligence,»Ö¸´ÖÇÁ¦,SPEL.FNAM
 Restore Luck,»Ö¸´ĞÒÔË,SPEL.FNAM
 Restore Mage,»Ö¸´·¨Ê¦,SPEL.FNAM
+Restore Magicka,Ä§Á¦»Ö¸´,GMST.STRV
 Restore Other,»Ö¸´ÆäËû,SPEL.FNAM
 Restore Personality,»Ö¸´÷ÈÁ¦,SPEL.FNAM
+Restore Skill,¼¼ÄÜ»Ö¸´,GMST.STRV
 Restore Speed,»Ö¸´ËÙ¶È,SPEL.FNAM
 Restore Stealth,»Ö¸´Ç±ĞĞ,SPEL.FNAM
 Restore Strength,»Ö¸´Á¦Á¿,SPEL.FNAM
@@ -10142,8 +10358,9 @@ Rethandus Ancestral Tomb,À×Ì¹¶ÅË¹ÏÈ×æÄ¹Ñ¨,CEL
 Rethelas,ÈğÔóÀ­Ë¹,NPC_.FNAM
 Retheran,À×ÉªÀ¼,NPC_.FNAM
 Rethul,À×Í¼¶û,NPC_.FNAM
-retort,Çú¾±Æ¿,
+Retort,Çú¾±Æ¿,GMST.STRV
 Revenant,¹éÀ´Ö®»ê,Í³³Æ£¬ÓĞÑªÈâµÄ¹éÀ´Ö®»ê±»³ÆÎª¹ÇĞĞÕß£¬°üÀ¨º¡¹ÇĞĞÕßºÍ´óĞÍº¡¹ÇĞĞÕß£»ÎŞÑªÈâµÄ¹éÀ´Ö®»ê°üÀ¨º¡¹Ç¡¢º¡¹Ç¹­¼ıÊÖ¡¢º¡¹ÇÕ½Ê¿¡¢÷¼÷Ã¹Ú¾üºÍ¹ÇĞĞÕß¡£
+Reversal,Äæ×ª,SPEL.FNAM
 Reyas,À×ÑÇË¹,NPC_.FNAM
 Reynel,À×ÄÚ¶û,NPC_.FNAM
 Reynel Uvirith,À×ÄÚ¶û¡¤ÎÚÎ¬ÈğË¹,NPC_.FNAM
@@ -10167,7 +10384,7 @@ Riekling Lance,À¶¿ÍÁé³¤Ã¬,WEAP.FNAM
 Riekling Raider,À¶¿ÍÁéÏ®»÷Õß,CREA.FNAM
 Riekling Shield,À¶¿ÍÁé¶Ü,ARMO.FNAM
 Riekr,±ùµØ¾«,¸ç²¼ÁÖÊô£º±ùµØ¾«£¨Riekr£©
-Rielle,ÀïÒ®¶û,NPC_.FNAM|1.Î»ÓÚ²¼Â³ÂêÎ÷±±µÄÒ»×ùÖĞĞÍÑÇÀúµÂÒÅ¼£ 2.ÑÇÀúµÂÓï|1.Èğ¶ûÀÕ 2.ÃÀÀö£»ÃÀÈË
+Rielle,ÀïÒ®¶û,NPC_.FNAM
 Riellesel,Èğ¶ûÀÕÈû¶û,ÑÇÀúµÂÓï£¬ÒâÎª¡°ÃÀÖ®Ìü¡±£¬Î»ÓÚÄÜÓÀµÂ¡¤ÌØÎ¬¶ûÒÅ¼£ÄÚ¡£
 Riften,ÁÑ¹È,
 Right Bal Molagmer Glove,°Í¶û¡¤ÄªÀ­¸ñÄÂ¶ûÓÒÊÖÌ×,CLOT.FNAM
@@ -10264,6 +10481,7 @@ Ring of Toxic Cloud,¾ç¶¾Ö®Îí½äÖ¸,CLOT.FNAM
 Ring of Transcendent Wisdom,³¬·²ÖÇ»ÛÖ®½ä,CLOT.FNAM
 Ring of Transfiguring Wisdom,»¯ĞÎÖÇ»ÛÖ®½ä,CLOT.FNAM
 Ring of Vampire's Kiss,ÎüÑª¹íÖ®ÎÇ½äÖ¸,CLOT.FNAM
+Ring of Viewing,»Ø¿´Ö®½ä,CLOT.FNAM
 Ring of Wildfire,Ò°»ğÖ®½ä,CLOT.FNAM
 Ring of Wizard's Fire,Î×Ê¦Ö®»ğ½äÖ¸,CLOT.FNAM
 Ring of Wounds,´´ÉËÖ®½ä,CLOT.FNAM
@@ -10301,6 +10519,7 @@ Riverhold,ºÓ±¤,°¬Ë¹Î¬¶û±±²¿±ß¾³³ÇÊĞ¡£
 Rivul,ÀïÎ¬¶û,CEL|NPC_.FNAM
 RKHET,°¢¶û¿ËÌØ,*Ïê¼ûArkay´ÊÌõ¡£¶ÍÄªĞğÊÂÖĞµÄ°¢¶û¿­£¬´ËÇé¿öÏÂ¸Ã´ÊÍ¨³£±ØĞë´óĞ´¡£
 RKHT,ÉúËÀ,°¬Åµ·ÆÓï¡£
+Robe,³¤ÅÛ|ÅÛ,CLOT.FNAM
 Robe of Burdens,ÖØ¸º³¤ÅÛ,CLOT.FNAM
 Robe of Erur-Dan the Wise,ÖÇÕß°£Â³-µ¤Ö®ÅÛ,CLOT.FNAM
 Robe of St Roris,Ê¥¡¤ÂåÀïË¹µÄ³¤ÅÛ,CLOT.FNAM
@@ -10313,7 +10532,7 @@ Rogdul,ÂŞ¸ñ¶Å,NPC_.FNAM
 Rogdul gro-Bularz,ÂŞ¸ñ¶Å¡¤¸ñÂŞ-²¼À­×È,NPC_.FNAM
 Roggvar,ÂŞ¸ñÍß,NPC_.FNAM
 Roggvar Blue-Tooth,ÂŞ¸ñÍß¡¤À¶ÑÀ,NPC_.FNAM
-Rogue,ÏÀµÁ,CLAS.FNAM
+Rogue,ÏÀµÁ,CLAS.FNAM|GMST.STRV
 Rogue Necromancer,Á÷Ã¥ËÀÁé·¨Ê¦,BOOK.FNAM|NPC_.FNAM
 Rogue Necromancer's Journal,Á÷Ã¥ËÀÁé·¨Ê¦µÄÈÕ¼Ç,BOOK.FNAM
 Roland,ÂŞÀ¼,INGR.FNAM
@@ -10461,6 +10680,7 @@ S'Renji,É³'ÈÊ¼ª,NPC_.FNAM
 S'Vandra,É³'ÍòµÂÀ­,NPC_.FNAM
 S'virr,É³'Î¬¶û,NPC_.FNAM
 S'wit,´À»õ,¡°slackwit¡±»ò¡°slow-witted¡±µÄËõĞ´£¬Ôà»°¡£
+Saber,¾üµ¶,WEAP.FNAM
 Sabinus,Èø±ÈÅ¬Ë¹,CEL|NPC_.FNAM
 Sabinus Oranius,Èø±ÈÅ¬Ë¹¡¤°ÂÀ­Å¦Ë¹,NPC_.FNAM
 Sabinus Oranius' House,Èø±ÈÅ¬Ë¹¡¤°ÂÀ­Å¦Ë¹µÄ·¿×Ó,CEL
@@ -10469,6 +10689,7 @@ Sabrina Vitellia,Èø²¼ÀöÄÈ¡¤Î¬Ì©ÀûÑÇ,NPC_.FNAM
 Saccus,Èø¿¨Ë¹,NPC_.FNAM|REPA.FNAM
 Sack,Âé´ü,CONT.FNAM
 Sacrifice Ring,Ï×¼ÀÖ®½ä,CLOT.FNAM
+Sad Farewell,¸æ±ğĞÅ,BOOK.FNAM
 Sadal,Èø´ï¶û,NPC_.FNAM
 Sadal Doren,Èø´ï¶û¡¤¶àÂ×,NPC_.FNAM
 Sadalas,Èø´ïÀ­Ë¹,NPC_.FNAM
@@ -10585,7 +10806,7 @@ Sanaso Sarothran,É¯ÄÈæ¶¡¤ÈøÂŞÉº,NPC_.FNAM
 Sancre,½ğ,ÑÇÀúµÂÓï
 Sancre Tor,É£¿ËÀ×¡¤ÍĞ,ÑÇÀúµÂÓï£¬ÒâÎª¡°»Æ½ğÉ½Çğ¡±¡£ÔçÆÚäÎÃğºº»¯ÕßÎ´ÄÜÕÒµ½ÕıÈ··¢Òô£¬´íÒëÎª¡°É£¿¨ÍĞ¡±¡£
 "Sancre Tor, Prison","É£¿ËÀ×¡¤ÍĞ£¬¼àÓü",""
-Sanctuary,ÊØ»¤Ê¥Óò,SPEL.FNAM
+Sanctuary,ÊØ»¤Ê¥Óò,GMST.STRV|SPEL.FNAM
 Sanctum of Awakening,¾õĞÑÊ¥µØ,CEL
 Sanctum of Black Hope,ºÚÍûÊ¥µØ,CEL
 Sanctus Shrine,ÔÕËÌÊ¥ìô,CEL|ACTI.FNAM|SPEL.FNAM
@@ -10746,19 +10967,22 @@ Scathecraw Plant,¿àÍ´²İ,CONT.FNAM
 Scelian,ÈûÀû°²,NPC_.FNAM
 Scelian Plebo,ÈûÀû°²¡¤ÆÕÀ³²©,NPC_.FNAM
 Scerius,Ë¹ÈûÀïÎÚË¹,NPC_.FNAM
+School,Ä§·¨ÅÉÏµ,GMST.STRV
 Scinia,ÈûÄáÑÇ,NPC_.FNAM
 Scinia Ruin,Ï£ÄáÑÇÒÅ¼£,esoÖĞ³öÏÖµÄFort Scinia¡£
 Scourge,ÔÖ»ö,WEAP.FNAM
 Scourge Blade,ÌìÔÖÖ®ÈĞ,SPEL.FNAM
-Scout,³âºò,CLAS.FNAM
+Scout,³âºò,CLAS.FNAM|GMST.STRV
 Scrap Metal,½ğÊô·ÏÁÏ,INGR.FNAM
 Scrib,Ó×³æ,CREA.FNAM
 Scrib Cabbage,Ó×³æ¾íĞÄ²Ë,CONT.FNAM|INGR.FNAM
 Scrib Jelly,Ó×³æ½ºÖÊ,INGR.FNAM
 Scrib Jerky,Ó×³æÈâ¸É,INGR.FNAM
+Script Testing Cell,¾ç±¾²âÊÔ¼ä,CEL
 Script_IgnBBot2,Script_IgnBBot2,ACTI.FNAM
 Script_PlayScript,Script_PlayScript,ACTI.FNAM
 Script_Taren_Enable,Script_Taren_Enable,ACTI.FNAM
+Scroll,¾íÖá,BOOK.FNAM
 Scroll of Almsivi Intervention,°ÂÄ·Ï£Î¬¸ÉÔ¤¾íÖá,BOOK.FNAM
 Scroll of Alvusia's Warping,°¢ÎäÎ÷æ«µÄÅ¤Çú¾íÖá,BOOK.FNAM
 Scroll of Baleful Suffering,±¯²Ò¿àÄÑ¾íÖá,BOOK.FNAM
@@ -10908,7 +11132,7 @@ Seba Anurnudai,Èû°Í¡¤°¢Å¬¶ûÅ¬´ú,NPC_.FNAM
 Second Barrier,¶ş¼¶ÆÁÕÏ,SPEL.FNAM
 Second Barrier Belt,¶ş¼¶ÆÁÕÏÑü´ø,CLOT.FNAM
 Second Barrier Ring,¶ş¼¶ÆÁÕÏÖ®½ä,CLOT.FNAM
-Second Seed,´ÎÖÖÔÂ,¶ÔÓ¦ÏÖÊµµÄÎåÔÂ¡£°¢¶û¹±½Ü¶ûÓï³ÆÖ®ÎªÏ£Ë¹ÌØ-¶Å¿¨£¨Hist-Dooka£©£¬ÒâË¼ÊÇ³ÉÊìÏ£Ë¹ÌØ£¨Mature Hist£©¡£
+Second Seed,´ÎÖÖÔÂ,GMST.STRV
 Secret Caldera Ledger,¼ÓÃÜµÄ¿¨¶ûµÂÀ­ÕË²¾,BOOK.FNAM
 Secret Master's Lockpick,ÒşÃØ´óÊ¦¼¶¿ªËøÆ÷,LOCK.FNAM
 Secret Master's Probe,ÒşÃØ´óÊ¦¼¶ÏİÚåÌ½Õë,PROB.FNAM
@@ -10921,6 +11145,7 @@ SecretMaster's Retort,ÒşÃØ´óÊ¦¼¶Çú¾±Æ¿,APPA.FNAM
 Secrets of Dwemer Animunculi,¡¶¶ÍÄª»úĞµÇòµÄÃØÃÜ¡·,BOOK.FNAM
 Secunda,ÉªÀ¥´ï,Ë«ÔÂÖ®Ò»£¬Ë«ÔÂÖĞ½ÏĞ¡µÄÔÂÁÁ£¬ÓÖ³Æ¡°ÇÇ¶÷¡±(Jone)¡¢¡°Ë¹µ¤´ï¶ûÖ®±¯¡±(Shandar's Sorrow)¡£
 Secunia,Éª¿âÄáÑÇ,NPC_.FNAM
+Security,°²È«|¿ªËø,GMST.STRV
 Sed-Yenna,ÈûµÂ-Ò®ÄÈ,µÙ±´À­ÕêÅ®£¬Ë·Äİ-°£ÌØµÄ½ã½ã£¬À×ÂüÒ»ÊÀµÄÑøÄ¸¼æÆŞ×Ó¡£
 Sedam,Èû´ïÄ·,NPC_.FNAM
 Sedam Omalen,Èû´ïÄ·¡¤°ÂÂíÂ×,NPC_.FNAM
@@ -10948,6 +11173,7 @@ Selaren,ÈûÀ­Â×,NPC_.FNAM
 Selaro,ÈûÀ­ÂŞ,NPC_.FNAM
 Selarys,ÈûÀ­ÀïË¹,NPC_.FNAM
 Selas,ÉªÀ­Ë¹,NPC_.FNAM
+Seldom,Å¼¶û,GMST.STRV
 Seldus,Èû¶û¶ÅË¹,NPC_.FNAM
 Seldus Nerendus,Èû¶û¶ÅË¹¡¤ÄáÂ×¶ÅË¹,NPC_.FNAM
 Sele,Ï¯ÀÕ,NPC_.FNAM
@@ -10965,6 +11191,8 @@ Selk,Èû¶û¿Ë,NPC_.FNAM
 Selk Muddumummu,Èû¶û¿Ë¡¤ÄÂ¶Å¹ÅÂí,NPC_.FNAM
 Selkin-Adda,Ï£¶û½ğ-°¢´ï,NPC_.FNAM
 Selkirnemus,Èû¶û»ùÄáÄÂË¹,NPC_.FNAM
+SELLER GOLD,ÉÌÈËµÄ½ğ±Ò,GMST.STRV
+Seller Max,×î´ó½ğ¶î,GMST.STRV
 Sellus,ÈüÂ³Ë¹,NPC_.FNAM
 Sellus Gravius,ÈüÂ³Ë¹¡¤¼ÓÎ¬ÎÚË¹,NPC_.FNAM
 Selman,Èû¶ûÂü,NPC_.FNAM
@@ -11034,6 +11262,8 @@ Serila Arval,ÈûÀïÀ­¡¤°¢¶ûÎÖ,NPC_.FNAM
 Serimilk,ÉªÀûÃÖ¿Ë,CEL|NPC_.FNAM
 Serjo,´óÈË,ÀàËÆLord£¬¶ÔÎ»¸ßÈ¨ÖØÕßµÄ×ğ³Æ¡£
 Serjo Avon Oran,°£·ë¡¤°ÂÀ¼Serjo£¨´óÈË£©,NPC_.FNAM
+Sermons,²¼µÀ´Ê,BOOK.FNAM
+Sermons Manuscript,²¼µÀ´Ê-Ô­¸å,BOOK.FNAM
 Sernsi,É­Î÷,NPC_.FNAM
 Sernsi Drelas,É­Î÷¡¤µÂÀ×À­Ë¹,NPC_.FNAM
 Serothan,ÈûÂŞÉº,NPC_.FNAM
@@ -11045,6 +11275,7 @@ Serul Dathren,ÉªÂ³¡¤´ïË¹Â×,NPC_.FNAM
 Servant,ÆÍ´Ó,FACT.RNAM|MISC.FNAM
 Servant's Skull,ÆÍ´ÓµÄÍ·¹Ç,MISC.FNAM
 Serven,ÉªÎ¬¶÷,NPC_.FNAM
+Service Refusal,¾Ü¾ø·şÎñ,GMST.STRV
 Services Tower,ËşÂ¥·şÎñÇø,CEL
 Seryn,ÉªÁÕ,NPC_.FNAM|SPEL.FNAM
 Seryn Othralen,ÉªÁÕ¡¤°ÂÉªÀ­Â×,NPC_.FNAM
@@ -11056,7 +11287,7 @@ Seryne Relas,ÈûÁÕ¡¤ÈğÀ­Ë¹,NPC_.FNAM
 Seryne Relas's House,ÈûÁÕ¡¤ÈğÀ­Ë¹µÄ·¿×Ó,CEL
 Sethan,ÉªÉº,CEL|MISC.FNAM|NPC_.FNAM
 Sethan Ancestral Tomb,ÉªÉºÏÈ×æÄ¹Ñ¨,CEL
-Sethan's Tradehouse,ÉªÉºµÄÉÌĞĞ,CEL
+Sethan's Tradehouse,ÉªÉºµÄÃ³Ò×ĞĞ,CEL
 Sethandas,Î÷É­´ïË¹,NPC_.FNAM
 Sethans Tradehouse,ÈûÉ£Ë¹Ã³Ò×ĞĞ,ACTI.FNAM
 Sethesi,ÈûÎ÷Ë¹,NPC_.FNAM
@@ -11091,10 +11322,12 @@ Sha-Adnius  Key,É³-°¢µÂÅ¦Ë¹µÄÔ¿³×,MISC.FNAM
 Sha-Adnius Slave Key,É³-°¢µÂÅ¦Ë¹Å«Á¥Ô¿³×,MISC.FNAM
 Shaba,É¯°Í,NPC_.FNAM
 Shabinbael,É³±ö°Í¶û,NPC_.FNAM
+Shack,Ğ¡Îİ,CEL
 Shack Door,ÅïÎİÃÅ,ACTI.FNAM
 Shadbak,É¯µÂ°Í¿Ë,NPC_.FNAM
 Shadbak gra-Burbug,É¯µÂ°Í¿Ë¡¤¸ñÀ­-°Í°Í¸ñ,NPC_.FNAM
 Shaddarnuran,Èø´ïÅ¬À¼,CEL
+Shadow,Ó°,SPEL.FNAM
 Shadow Form,°µÓ°Ö®ĞÎ,SPEL.FNAM
 Shadow Magic,°µÓ°Ä§·¨,Óë»ÃÊõÏµºÍÉñÃØÏµ·¨ÊõÏà¹ØµÄÒ»ÖÖ·¨ÊõĞÎÌ¬¡£±»°µÓ°·¨Ê¦Azra NightwielderÊ×´ÎÀûÓÃ£¬Ëû·¢ÏÖÒõÓ°µÄ´æÔÚ²»½ö½öÒòÎªÃ»ÓĞ¹â¡£
 Shadow Shield,°µÓ°Ö®¶Ü,ARMO.FNAM
@@ -11105,6 +11338,7 @@ Shadowmage,°µÓ°·¨Ê¦,¸ù¾İlore£¬Ê×¸ö°µÓ°·¨Ê¦ÊÇAzra Nightwielder
 Shadowmask,°µÓ°¼ÙÃæ,SPEL.FNAM
 Shadowmask Ring,Ó°ÃæÖ®½ä,CLOT.FNAM
 Shadowmere,²ĞÓ°,ÂíÆ¥Ãû¡£
+Shadows,ÒõÓ°,GMST.STRV
 Shadowscale,Ó°ÁÛ,
 Shadowsting,Ó°´Ì,WEAP.FNAM
 Shadowweave Ring,Ö¯Ó°Ö®½ä,CLOT.FNAM
@@ -11168,7 +11402,7 @@ Sharkub gro-Khashnar,É³¿â²¼¡¤¸ñÂŞ-¿¦Ê²ÄÇ,NPC_.FNAM
 Sharmat,É³ÂêÌØ,Î¬Íş¿Ë¶Ô´ï¸ñË¹¡¤ÎÚ¶ûµÄ³Æºô£¬³ö×ÔÎÄÕÂ¡¶Î÷µÛË¹¡·¡£
 Sharn,É¯¶÷,BOOK.FNAM|NPC_.FNAM
 Sharn gra-Muzgob,É¯¶÷¡¤¸ñÀ­-ÄÂ×È¸ñ²¼,NPC_.FNAM
-Sharn's Legions of the Dead,É¯¶÷µÄ¡¶ËÀÍö¾üÍÅ¡·³­±¾,BOOK.FNAM
+Sharn's Legions of the Dead,É¯¶÷µÄ¡¶ËÀÍö¾üÍÅ¡·,BOOK.FNAM
 Sharog,É¯Âå¸ñ,NPC_.FNAM
 Sharog gra-Ulfish,É¯Âå¸ñ¡¤¸ñÀ­-ÎÚ¶û·ÆÏ£,NPC_.FNAM
 Sharpshooter,ÉñÉäÊÖ,CLAS.FNAM
@@ -11209,7 +11443,7 @@ Shezarr,ÉáÔú¶û,ÉáÔú¶ûµÄ¸ÅÄîÒÔºËĞÄÄáµÂÈËÀàµÄ¾«È·ÈÏÖªÎª»ù´¡£¬×ÛºÏÁËÂå¿Ëº¹¡¢Ë·¶ûµÈ¶
 Shezarrine,ÉáÔú¶ûÒò,ÉáÔú¶ûµÄÓÎµ´ÓÚÈË¼äµÄ×ªÊÀ¡£
 Shezzar,ÉáÔú¶û,*Ïê¼ûShezarr´ÊÌõ¡£ShezarrµÄÁíÒ»ÖÖÆ´Ğ´·½Ê½¡£
 Shezzarlectorate,ÉáÔú¶ûÑ¡Çø,¿¨ÌØÅµ¿üÈºµºÔ­Õş¸®Å¼¶ûÕÙ¿ªµÄ»áÒé£¬±»ÓÈÀû¶ûÎåÊÀ±©Á¦½âÉ¢¡£
-Shield,»¤¶Ü,SPEL.FNAM
+Shield,¶Ü|»¤¶Ü,SPEL.FNAM|ARMO.FNAM|GMST.STRV
 Shield of Light,¹âÃ÷Ö®¶Ü,ARMO.FNAM
 Shield of St. Delyn,Ê¥¡¤µÂÁÖÖ®¶Ü,SPEL.FNAM
 Shield of the Armiger,ìè´Ó»¤¶Ü,SPEL.FNAM
@@ -11240,6 +11474,7 @@ Shipal Zansatanit,ĞÁÅÁ¡¤ÔŞÈøÄáÌØ,NPC_.FNAM
 Shipmaster,ÕÆ¶æÕß,CLAS.FNAM
 Shipment of Mead,¼¯×°ÃÛ¾Æ,CONT.FNAM
 Shipping House,´¬ÔË¼ä,CEL
+shipping log,×°ÔË¼ÇÂ¼,BOOK.FNAM
 Shipping Notice,·¢»õÍ¨Öª,BOOK.FNAM
 Shirerib,Î÷À×Àû±È,NPC_.FNAM
 Shirerib Ashi-Iddan,Î÷À×Àû±È¡¤°¢Ï£-ÒÁµ¤,NPC_.FNAM
@@ -11253,6 +11488,7 @@ Shivering Isles,Õ½ÀõÈºµº,³õ´úäÎÃğºº»¯´íÒëÎª¡°¹Âµº¡±£¬Ğ»¶û¸ñÀ­Ë¹µÄäÎÃğÁìÓò£¬Ò²ÔøÊ
 Shock,µç»ğ»¨,SPEL.FNAM
 Shock Barrier,ÉÁµçÆÁÕÏ,SPEL.FNAM
 Shock Centurion,µç»÷°Ù·ò³¤,CREA.FNAM
+Shock Damage,À×µçÉËº¦,GMST.STRV
 Shock Shield,ÉÁµç»¤¶Ü,SPEL.FNAM
 Shock Trap,µç»÷ÏİÚå,SPEL.FNAM
 Shockball,µçÇòÊõ,SPEL.FNAM
@@ -11277,10 +11513,13 @@ Shonni-Et,Ë·Äİ-°£ÌØ,µÙ±´À­ÕêÅ®£¬ÈûµÂ-Ò®ÄÈµÄÃÃÃÃ£¬À×ÂüÒ»ÊÀµÄÑøÄ¸¼æÆŞ×Ó¡£
 Shor,Ë·¶û,*Ïê¼ûShezarr´ÊÌõ¡£½öÊÊÓÃÓÚÅµµÂÎÄ»¯µÄ³ÆÎ½£¬´ú±íÅµµÂÈÏÍ¬ÖĞÉáÔú¶ûµÄÆäÖĞÒ»Ãæ¡£¿¼ÂÇµ½¡°Âå¿Ëº¹µÄËéÆ¬¡±ÄÜ¹»³ÉÎªµÏµÂÀ­£¬Òò´ËË·¶û×÷ÎªÉáÔú¶ûµÄÒ»Ãæ¾ßÓĞÒ»Ğ©µÏµÂÀ­µÄÌØÕ÷Ò²Ê®·ÖÕı³£¡£
 Shor-El,Êæ-°£¶û,µÚÒ»¼ÍÔªµÄÒ»Î»µÛ¹ú»ÊµÛ¡£¸ÃÃû×Ö¿ÉÄÜÓëË·¶û±¾ÉíÎŞ¹Ø£¬Òò´ËÒëÎª¡°Êæ¡±ÒÔ×÷Çø·Ö¡£
 Shornhelm,¶Ï¶æ,³ÇÕòÃû¡£Î»ÓÚ¸ßÑÒµØÇøÆÆËé¼âËş¡£
+Short Blade,¶ÌÈĞ,GMST.STRV
 Short Bow,¶Ì¹­,WEAP.FNAM
 Shortbow of Sanguine Sureflight,É£¼ª¶÷ÎÈÉä¶Ì¹­,WEAP.FNAM
+Shortsword,¶Ì½£,WEAP.FNAM
 Shotherra,Ğ¤ÉªÀ­,NPC_.FNAM
 Shout,1.Áúºğ|2.ºğ½Ğ,*Ïê¼ûThu'um´ÊÌõ¡£¸Ã´ÊÔÚÉÏ¹Å¾íÖáÖĞ³£·­ÒëÎªÁúºğ¡£
+Shovel,ÌúÇÂ,CEL|ACTI.FNAM
 Shrine,Ê¥ìô,CEL
 Shrine Acrobatics Skill,Ê¥ìôÔÓ¼¼¼¼ÇÉ,SPEL.FNAM
 Shrine Alchemy Skill,Ê¥ìôÁ¶½ğ¼¼ÇÉ,SPEL.FNAM
@@ -11361,7 +11600,7 @@ Sibassius,Î÷°ÍÎ÷ÎÚË¹,NPC_.FNAM
 Siddurnanit,Î÷¶ÅÄÉÄáÌØ,NPC_.FNAM
 Sideways Cave,ÅÔÂ·¶´Ñ¨,
 Sifknir,Î÷·ò¿ËÄá¶û,NPC_.FNAM
-Sign,±êÖ¾,ACTI.FNAM
+Signet Ring,ÎÆÕÂ½äÖ¸,CLOT.FNAM
 Sigvatr the Strong,Ç¿×³ÕßÎ÷¸ñÍßÌØ,NPC_.FNAM
 Sil,Ï£¶û,CEL|ACTI.FNAM
 "Sil,","Ï£¶û£¬","CEL"
@@ -11369,7 +11608,7 @@ Silasel,êØÀ­Èû¶û,ÑÇÀúµÂÓï£¬Ö±ÒëÎª¡°ÉÁÒ«Ìü¡±£¬Êµ¼Ê¿ÉÄÜÒâÎª¡°ÀèÃ÷Ö®Ìü¡±£¬Î»ÓÚ¹şÄ¬Ò
 Silaseli,êØÀ­ÈûÀû,ÑÇÀúµÂÓï£¬ÒâÎª¡°ÉÁÒ«ÖÚÌü¡±£¬Î»ÓÚÎÂµÂ¶û±´¿ËÒÅ¼£ÄÚ¡¢»òÊÇÎ»ÓÚ°à¿ÆÀ³µÄÒ»´¦ÑÇÀúµÂÒÅ¼££¬»òÎ»ÓÚÄáÀû°¢Ë¹ËşÈğÒÅ¼£ÄÚ¡£
 Silasson,Î÷À­ËÉ,NPC_.FNAM
 Silatarn,êØÀ­Ëş¶÷,ÑÇÀúµÂÓï£¬ÒâÎª¡°¹â»ÔÃÅ»§¡±
-Silence,³ÁÄ¬,BOOK.FNAM|SPEL.FNAM
+Silence,³ÁÄ¬|³ÁÄ¬Êõ,BOOK.FNAM|GMST.STRV|SPEL.FNAM
 Silence Charm,³ÁÄ¬ÏîÁ´,CLOT.FNAM
 Silence Trap,³ÁÄ¬ÏİÚå,SPEL.FNAM
 Silencer,Ä¬É±Õß,ºÚ°µĞÖµÜ»áÎ»½×¡£
@@ -11386,6 +11625,7 @@ Silvenar,Ï£¶ûÎ¬ÄÉ,ÍßÂ×É­ÁÖµÄÖ÷Òª³ÇÊĞÖ®Ò»¡£
 Silver Arrow,ÒøÖÆ¼ı,WEAP.FNAM
 Silver Axe of Paralysis,ÒøÖÆÂé±ÔÖ®¸«,WEAP.FNAM
 Silver Bolt,ÒøÖÆåó¼ı,WEAP.FNAM
+Silver bowl,ÒøÖÆÍë,MISC.FNAM
 Silver Candlestick,ÒøÖÆÖòÌ¨,LIGH.FNAM
 Silver Claymore,ÒøÖÆ´ó½£,WEAP.FNAM
 Silver Dagger,ÒøÖÆØ°Ê×,WEAP.FNAM
@@ -11489,15 +11729,19 @@ Skeleton Pirate,÷¼÷Ãº£µÁ,CREA.FNAM
 Skeleton Pirate Captain,÷¼÷Ãº£µÁ´¬³¤,CREA.FNAM
 Skeleton War-Wizard,÷¼÷ÃÕ½¶··¨Ê¦,CREA.FNAM
 Skeleton Warrior,÷¼÷ÃÕ½Ê¿,CREA.FNAM
+Skill,¼¼ÄÜ|¼¼ÒÕ,GMST.STRV|SPEL.FNAM
+Skill Bonus,¼¼ÄÜÌì¸³,GMST.STRV
 Skingrad,Ë¹½ğ¸ñÀ­µÂ,
 Skink,Ğ¡Òñ,CLOT.FNAM
 Skink's Amulet,Ğ¡ÒñµÄ»¤·û,CLOT.FNAM
 Skink-in-Tree's-Shade,Ê÷-Òñ-ÖĞ-òá,NPC_.FNAM
+Skirt,È¹|È¹×Ó,CLOT.FNAM
 Skjoldr,Ë¹¿ÆµÂ,NPC_.FNAM
 Skjoldr Wolf-Runner,Ë¹¿ÆµÂ¡¤±¼ÀÇÕß,NPC_.FNAM
 Skjoralmor,ÉÜÀ­¶ûÄ¬,
 Skogsdrake Barrow,É­Áú¹ÅÚ£,CEL
 Skooma,Ë¹¿âÂê,ALCH.FNAM
+Skooma Pipe,Ë¹¿âÂêÑÌ¶·,APPA.FNAM
 Skull,Í·¹Ç,MISC.FNAM
 Skull Crusher,ËéÂ­Õß,WEAP.FNAM
 Skull of a Skaal Warrior,Ë¹¿¨¶ûÕ½Ê¿µÄÍ·¹Ç,MISC.FNAM
@@ -11511,6 +11755,7 @@ Skylamp's Shadow,ÌìµÆÖ®Ó°,SPEL.FNAM
 Skyrim,Ìì¼Ê,
 Skyrim Mission,Ìì¼ÊÊ¹¹İ,CEL
 Skywatch,ÌìÍû,¾İµãÃû¡£
+Slash,ºáÉ¨ÉËº¦,GMST.STRV
 Slaughterfish,Ê³ÈËÓã,CREA.FNAM
 Slave,Å«Á¥,CLAS.FNAM
 Slave Belt,Å«Á¥Ñü´ø,SPEL.FNAM
@@ -11524,6 +11769,7 @@ Slave's Left Bracer,Å«Á¥×ó»¤Íó,ARMO.FNAM
 Slave's Right Bracer,Å«Á¥ÓÒ»¤Íó,ARMO.FNAM
 Slavemaster,Å«Á¥Ö÷,CEL
 Slavemaster's Shack,Å«Á¥Ö÷µÄĞ¡Îİ,CEL
+Slavepod Key,Å«Á¥²ÕÔ¿³×,MISC.FNAM
 Sleep,³ÁË¯,SPEL.FNAM
 Sleep Amulet,³ÁË¯»¤·û,CLOT.FNAM
 Sleepers,³ÁË¯Õß,µÚÁù¼Ò×å×¨ÓÃ´Ê£¬Ö¸ÊÜ´ï¸ñË¹ÎÚ¶ûÉñÁ¦Ó°Ïì¶øÍ¬»¯µÄ±äÒìÈË¡£
@@ -11532,7 +11778,7 @@ Sload,òÒòõÈË,
 Sload Soap,òÒó¸ÈËÔí,INGR.FNAM
 Sloomalah,Ë¹Â¬ÂíÀ­,NPC_.FNAM
 Slough Fern,ÄàÕÓŞ§,CONT.FNAM
-Slowfall,»º½µ,SPEL.FNAM
+SlowFall,»º½µ,GMST.STRV|SPEL.FNAM
 Small Chest,Ğ¡Ïä×Ó,CONT.FNAM
 Small cloth sack,Ğ¡ĞÍ²¼´ü,CONT.FNAM
 Small Corprusmeat Hunk,Ğ¡ĞÍÊ¬»¯¸¯Èâ¿é,INGR.FNAM
@@ -11568,6 +11814,7 @@ Snakha,Ê²ÄÇ¿Ë¹ş,NPC_.FNAM
 Snakha gro-Marob,Ê²ÄÇ¿Ë¹ş¡¤¸ñÂŞ-ÂêÂŞ²¼,NPC_.FNAM
 Snat,Ê²ÄÉÌØ,NPC_.FNAM
 Snat gro-Ushug,Ê²ÄÉÌØ¡¤¸ñÂŞ-ÎÚÊæ¸ñ,NPC_.FNAM
+Sneak,Ç±ĞĞ,GMST.STRV
 Snedbrir the Smith,Ìú½³Ë¹ÄÎµÂ²¼Àï¶û,CEL|NPC_.FNAM
 Snorri,Ë¹ÅµÀï,NPC_.FNAM
 Snow Bear,Ñ©ĞÜ,CREA.FNAM
@@ -11635,9 +11882,10 @@ Sonnerralit,Ë÷ÄÚÀ­ÀûÌØ,NPC_.FNAM
 Sonummu,ËÉÅ¬Ä·,NPC_.FNAM
 Sonummu Zabamat,ËÉÅ¬Ä·¡¤Ôú°ÍÂíÌØ,NPC_.FNAM
 Soothe the Savage Beast,Ğ×ÃÍÒ°ÊŞ°²¸§Êõ,SPEL.FNAM
+Soothing Balm,Î¿½å,SPEL.FNAM
 Sor,Ë÷¶û,NPC_.FNAM
 Sorcalin,Ë÷¿¨ÁÖ,NPC_.FNAM
-Sorcerer,ÊõÊ¿,CLAS.FNAM
+Sorcerer,ÊõÊ¿,CLAS.FNAM|GMST.STRV
 Sorian,Ë÷Àï°²,NPC_.FNAM
 Sorkvild,Ë÷¿ËÎ¬¶ûµÂ,CEL
 Sorkvild the Raven,¡°¶ÉÑ»¡±Ë÷¿ËÎ¬¶ûµÂ,NPC_.FNAM
@@ -11659,9 +11907,10 @@ Sotha's Grace,Ë÷ÈøµÄ¶÷µä,SPEL.FNAM
 Sotha's Mirror,Ë÷ÈøÖ®¾µ,SPEL.FNAM
 Sottilde,Ë÷Ìá¶ûµÂ,BOOK.FNAM|NPC_.FNAM
 Sottilde's Code Book,Ë÷Ìá¶ûµÂµÄ°µºÅ±¾,BOOK.FNAM
-Soul,²üÀõ,CEL
+Soul,²üÀõ|Áé»ê,CEL|GMST.STRV
 Soul Cairn,Áé»êÊ¯Ú£,Ò»Æ¬äÎÃğÁìÓò£¬ºÚÉ«Áé»êÊ¯ÖĞµÄÁé»ê±»Ê¹ÓÃºó»áÀ´µ½´Ë´¦¡£
 Soul Drinker,Òû»êÕß,WEAP.FNAM
+Soul Gems with Souls,º¬ÓĞÁé»êµÄÁé»êÊ¯,GMST.STRV
 Soul of Conflict,³åÍ»Ö®»ê,The Elder Scrolls Travels: ShadowkeyµÄÖ÷½Ç¡£
 Soul of Sotha Sil,Ë÷Èø¡¤Ï£¶ûÖ®Áé,SPEL.FNAM
 Soul Ring,Áé»êÖ®½ä,CLOT.FNAM
@@ -11672,6 +11921,7 @@ Soulless One,ÎŞ»êÕß,esoÖ÷½ÇµÄ±ğ³Æ£¬µÚÈı¼ÍÔªÊ±µ¤Äª¾­³£Ê¹ÓÃÕâ¸ö³Æºô¡£
 Soulpinch,¶ó»êÊõ,SPEL.FNAM
 Soulpinch Charm,¶ó»êÏîÁ´,CLOT.FNAM
 Soulrest,»êÏ¢,¾İµãÃû¡£Î»ÓÚºÚÕÓÔó¡£
+Soultrap,Áé»êÏİÚå,GMST.STRV
 Sound_Ashl_Chimes,Sound_Ashl_Chimes,ACTI.FNAM
 Sound_BM_Ice,Sound_BM_Ice,ACTI.FNAM
 Sound_Boat_Creak,Sound_Boat_Creak,ACTI.FNAM
@@ -11718,17 +11968,25 @@ Sparkbolt,µç¹âåó¼ı,WEAP.FNAM
 Sparkbolt Ring,µç¹âåó¼ıÖ®½ä,CLOT.FNAM
 Sparkstar,µç¹âÊÖÀï½£,WEAP.FNAM
 Speaker,´úÑÔÕß,ºÚ»áÎ»½×£¬ÔİÒë¡£
+Spear,Ç¹|³¤Ç¹,GMST.STRV|WEAP.FNAM
 Spear of Bitter Mercy,±¯ÃõÖ®Ç¹,WEAP.FNAM
 Spear of Light,¹âÃ÷Ö®Ç¹,WEAP.FNAM
 Spear of the Hunter,ÁÔÈËÖ®Ç¹,WEAP.FNAM
 Spear of the Snow Prince,Ñ©Íõ×ÓÖ®Ç¹,WEAP.FNAM
 Spearman,ÕóÁĞ±ø,FACT.RNAM
 Special Flora of Tamriel,¡¶Ì©Ä·Èğ¶ûµÄÌØÊâÖ²Îï¡·,BOOK.FNAM
-Spell Absorption,·¨ÊõÎüÊÕ,SPEL.FNAM
+Specialization,×¨³¤,GMST.STRV
+Specials,ÌØĞÔ,GMST.STRV
+Speechcraft,¿Ú²Å,GMST.STRV
+Spell Absorption,·¨ÊõÎüÊÕ,GMST.STRV|SPEL.FNAM
 Spell Breaker,ÆÆ·¨Õß,ARMO.FNAM
+Spell Chance,ÊÍ·Å³É¹¦ÂÊ,GMST.STRV
 Spell Drain,·¨ÊõÏ÷Èõ,SPEL.FNAM
 Spellbreaker,ÆÆ·¨Õß,´ó¾ıÅåÒÁÌØµÄÉñÆ÷¡£
-Spellsword,Ä§½£Ê¿,CLAS.FNAM
+Spellmaking,·¨ÊõÖÆ×÷,GMST.STRV
+Spells,·¨Êõ,GMST.STRV
+Spellsword,Ä§½£Ê¿,CLAS.FNAM|GMST.STRV
+Spelltrap,²¶Ä§Êõ,SPEL.FNAM
 Spellwright,Öä·¨Ê¦,FACT.RNAM
 Sphere Centurion,Çò×´°Ù·ò³¤,CREA.FNAM
 Sphere of Negation,½ûÄ§ÁìÓò,SPEL.FNAM
@@ -11736,6 +11994,7 @@ Spider Centurion,Ö©Öë°Ù·ò³¤,CREA.FNAM
 Spider Touch,Ö©ÖëÖ®´¥,SPEL.FNAM
 Spiderbite,ÖëÒ§,WEAP.FNAM
 Spiked Club,¼âÍ·¹÷°ô,WEAP.FNAM
+Spine,¼¹,CEL
 Spiny Lloramor,ÏÉÈËÕÆ,CONT.FNAM
 Spiral Skein,ÂİĞı½ÊÉ´,Ã··¨À­µÄÁìÓò
 Spirit Bear,ÁéĞÜ,CREA.FNAM
@@ -11746,10 +12005,11 @@ Spirit of Nerevar,ÄáÈğÍßÖ®¾«Éñ,SPEL.FNAM
 "Spirit of Nirn, God of Mortals","¡¶ÄÎ¶÷Ö®»ê£¬·²ÈËÖ®Éñ¡·","BOOK.FNAM"
 Spirit of the Daedra,¡¶µÏµÂÀ­Ö®Áé¡·,BOOK.FNAM
 Spirit of the Wolf,ÀÇÖ®»ê,SPEL.FNAM
+Spirit Spear,Áé»êÖ®Ç¹,WEAP.FNAM
 Spirit Sword,Áé½£,*Ïê¼ûShehai´ÊÌõ¡£
 Spirit-Eater,¾«ÉñÍÌÊÉÕß,WEAP.FNAM
 Spiritstrike Ring,À£ÉñÖ®½ä,CLOT.FNAM
-Spite,Ô¹ºŞÊõ,SPEL.FNAM
+Spite,Ô¹|Ô¹ºŞÊõ,SPEL.FNAM
 Spite Dart,Ô¹ºŞïÚ,WEAP.FNAM
 Spite Touch,Ô¹ºŞÖ®´¥,SPEL.FNAM
 Split,½»½çµØ,
@@ -11819,6 +12079,7 @@ St. Sotha's Judgement,Ê¥¡¤Ë÷ÈøµÄÉóÅĞ,CLOT.FNAM
 St. Veloth's Hostel,Ê¥¡¤Î¬ÂåË¹µÄÂÃµê,CEL
 St. Vorys,Ê¥¡¤ÎÖÀïË¹,*Ïê¼ûVorys´ÊÌõ¡£
 Staada,Ë¹Ëşæ«´ï,CREA.FNAM
+Staff,ÕÈ|·¨ÕÈ,WEAP.FNAM
 Staff of Carnal Channeling,ÇûÌåÍ¨ÁéÖ®ÕÈ,WEAP.FNAM
 Staff of Hasedoki,¹şË¹¶àÆæÖ®ÕÈ,WEAP.FNAM
 Staff of Llevule,À³Î¬¶ûÖ®ÕÈ,WEAP.FNAM
@@ -11886,12 +12147,15 @@ Stargel,Ë¹Ëş¸ñ,NPC_.FNAM
 Starlover,ÁµĞÇÕß,BOOK.FNAM
 Starlover's Log,¡¶ÁµĞÇÕßµÄÈÕÖ¾¡·,BOOK.FNAM
 Statlilius,Ë¹´ïÌáÀûÁôË¹,NPC_.FNAM
+Stats,×´Ì¬,GMST.STRV
 Statue of Azura,°¢×æÀ­µñÏñ,ACTI.FNAM
 Statue of Boethiah,²¨Ò®Î÷ÑÇµñÏñ,ACTI.FNAM
 Statue of Malacath,ÂíÀ­¿¨Ë¹µñÏñ,ACTI.FNAM
 Statue of Mehrunes Dagon,Ã·Â³ÄùË¹¡¤´óÙòµñÏñ,ACTI.FNAM
 Statue of Molag Bal,ÄªÀ­¸ñ¡¤°Í¶ûµñÏñ,ACTI.FNAM
 Statue of Sheogorath,Ğ»¶û¸ñÀ­Ë¹µñÏñ,ACTI.FNAM
+Staunch Again,ÔÙ¶È¼á¶¨,SPEL.FNAM
+Stealth,Ç±ĞĞ,GMST.STRV
 Steam Centurion,ÕôÆû°Ù·ò³¤,CREA.FNAM
 Steam Guardian,ÕôÆûÊØÎÀ,CREA.FNAM
 Steaming Lava Vent,ÕôÆûÈÛÑÒÍ¨·ç¿×,ACTI.FNAM
@@ -12025,8 +12289,10 @@ Stone of Ulfgar,ÎÚ·ò¼Ó¶ûÖ®Ê¯,ACTI.FNAM
 Stoneflower,Ê¯»¨,CONT.FNAM
 Stoneflower Petals,Ê¯»¨»¨°ê,INGR.FNAM
 Stop the Moon Blessings,Ö¹ÔÂ×£¸£,SPEL.FNAM
+Storage,´¢²ØÊÒ,CEL
 Storage Key,´¢²Ø¼äÔ¿³×,MISC.FNAM
 Storage Room Key,´¢²ØÊÒÔ¿³×,MISC.FNAM
+Storage Sack Key,´¢²ØÊÒÔ¿³×,MISC.FNAM
 Storage Shack,´¢²ØÊÒ,CEL
 Storeroom Key,´¢²ØÊÒÔ¿³×,MISC.FNAM
 Storm Atronach,·ç±©ÊÌÁé,CREA.FNAM
@@ -12049,6 +12315,7 @@ Strange Shipwreck,¹ÖÒì³Á´¬,CEL
 Strange Steam Device,Ææ¹ÖµÄÕôÆû×°ÖÃ,ACTI.FNAM
 Strange Steam Machine,Ææ¹ÖµÄÕôÆû»úÆ÷,ACTI.FNAM
 Stream-Murk,°µ-Ïª,NPC_.FNAM
+Strength,Á¦|Á¦Á¿,GMST.STRV|SPEL.FNAM
 Strength Leech,Á¦Á¿ÎüÈ¡,SPEL.FNAM
 Strid River,Õ­¹ÈºÓ,¾ÉÒëÎªË¹ÌØÀïµÂºÓ£¬Î÷ÂŞµÛ¶ûÓëÍßÂ×ÎéµÂµÄ½çºÓ¡£
 Strillian,Ë¹ÌØÀï°²,NPC_.FNAM
@@ -12069,14 +12336,18 @@ Strong Resist Poison,Ç¿Á¦µÖ¿¹¶¾ËØ,SPEL.FNAM
 Strong Resist Shock,Ç¿Á¦µÖ¿¹ÉÁµç,SPEL.FNAM
 Strong Shock Shield,Ç¿Á¦ÉÁµç»¤¶Ü,SPEL.FNAM
 Strong Spelldrinker,Ç¿Á¦Ä§ÒûÊõ,SPEL.FNAM
+Strong-Again,ÔÙ¶ÈÇ¿×³,SPEL.FNAM
 Strongbox,±£ÏÕ¹ñ,CONT.FNAM
+Strongbox Key,±£ÏÕ¹ñÔ¿³×,MISC.FNAM
 Stronghold,1.ÒªÈû|2.³ÇÕ¯,Ò»°ãÖ¸¡°ÒªÈû¡±£¬ÓĞÊ±Ö¸ÊŞÈËµÄ³ÇÕ¯¡£Óë±¤£¨Fort£©¡¢±¤Àİ£¨Fortress£©¡¢³Ç±¤£¨Castle£©½øĞĞÇø·Ö¡£
 Strongman,Ç¿ºáÕß,FACT.RNAM
 Stros M'Kai,Ë¹ÌØÂŞË¹¡¤Ä·'¿­,Âä´¸ÁìÍÁ£¬°¢±ÌÏ£°²º£µÄ¶«²¿µºÓì£¬¿¿½üKhefremÓëĞİÖ®»ö¸ù(Hew's Bane)µÄ´óÂ½¡£
+Stuff,ÎïÆ·,CONT.FNAM
 Stuhn,Ë¹Í¼¶÷,
 Stumble,°íµ¹,SPEL.FNAM
 Stumble Charm,°íÖ®ÏîÁ´,CLOT.FNAM
 Stungnthumz,Ë¹¶Ù¸ñÄ·×È,CREA.FNAM
+Stunted Magicka,Ä§Á¦ĞéÈõ,GMST.STRV
 Sturdy Arched Door,½áÊµµÄ¹°ÃÅ,DOOR.FNAM
 Sturdy Wooden Door,½áÊµµÄÄ¾ÃÅ,DOOR.FNAM
 Su-Banadher,ËÕ-°ÍÄÉÔó¶û,Î÷ÂŞµÂµÄÄ³¸ö¹ÅµØÃû¡£
@@ -12105,26 +12376,30 @@ Sulipund,ËÕÀû°îµÂ,CEL
 Sulis,ËÕÀûË¹,NPC_.FNAM
 Sulis Rendas,ËÕÀûË¹¡¤Â×´ïË¹,NPC_.FNAM
 Summerset,ÏÄÄº,
-Summon Ancestral Ghost,ÕÙ»½ÏÈ×æÓÄ»ê,SPEL.FNAM
-Summon Bonelord,ÕÙ»½º¡¹ÇÁìÖ÷,SPEL.FNAM
-Summon Bonewolf,¹ÇÀÇÕÙ»½Êõ,SPEL.FNAM
-Summon Clannfear,ÕÙ»½¾ª¾åÊŞ,SPEL.FNAM
-Summon Daedroth,ÕÙ»½µÏµÂÂåË¹,SPEL.FNAM
-Summon Dremora,ÕÙ»½Ä§ÈË,SPEL.FNAM
-Summon Flame Atronach,ÕÙ»½»ğÑæÊÌÁé,SPEL.FNAM
-Summon Frost Atronach,ÕÙ»½±ùËªÊÌÁé,SPEL.FNAM
-Summon Golden Saint,ÕÙ»½»Æ½ğÊ¥Í½,SPEL.FNAM
-Summon Greater Bonewalker,ÕÙ»½´óĞÍº¡¹ÇĞĞÕß,SPEL.FNAM
+Summon Ancestral Ghost,ÕÙ»½ÏÈ×æÓÄ»ê|ÕÙ»½ÏÈ×æÓÄÁé,GMST.STRV|SPEL.FNAM
+Summon Bonelord,ÕÙ»½º¡¹ÇÁìÖ÷,GMST.STRV|SPEL.FNAM
+Summon Bonewalker,ÕÙ»½º¡¹ÇĞĞÕß,GMST.STRV
+Summon Bonewolf,ÕÙ»½¹ÇÀÇ|¹ÇÀÇÕÙ»½Êõ,GMST.STRV|SPEL.FNAM
+Summon Centurion Sphere,ÕÙ»½Çò×´°Ù·ò³¤,GMST.STRV
+Summon Clannfear,ÕÙ»½¾ª¾åÊŞ,GMST.STRV|SPEL.FNAM
+Summon Daedroth,ÕÙ»½µÏµÂÂåË¹,GMST.STRV|SPEL.FNAM
+Summon Dremora,ÕÙ»½Ä§ÈË,GMST.STRV|SPEL.FNAM
+Summon Fabricant,ÕÙ»½Ğµ¹¹Ìå,GMST.STRV
+Summon Flame Atronach,ÕÙ»½»ğÑæÊÌÁé,GMST.STRV|SPEL.FNAM
+Summon Frost Atronach,ÕÙ»½±ùËªÊÌÁé,GMST.STRV|SPEL.FNAM
+Summon Golden Saint,ÕÙ»½»Æ½ğÊ¥Í½,GMST.STRV|SPEL.FNAM
+Summon Greater Bonewalker,ÕÙ»½´óĞÍº¡¹ÇĞĞÕß,GMST.STRV|SPEL.FNAM
 Summon Hrelvesuu,ÕÙ»½ºÕÀÕÎ¬ËÕ,SPEL.FNAM
-Summon Hunger,ÕÙ»½¼¢¶öÄ§,SPEL.FNAM
+Summon Hunger,ÕÙ»½¼¢¶öÄ§,GMST.STRV|SPEL.FNAM
 Summon Least Bonewalker,ÕÙ»½Ğ¡ĞÍº¡¹ÇĞĞÕß,SPEL.FNAM
-Summon Scamp,ÕÙ»½ÁÓÄ§,SPEL.FNAM
-Summon Skeletal Minion,ÕÙ»½¿İ¹ÇÆÍ´Ó,SPEL.FNAM
-Summon Storm Atronach,ÕÙ»½·ç±©ÊÌÁé,SPEL.FNAM
-Summon Winged Twilight,ÕÙ»½ÊïÄºÒíÄ§,SPEL.FNAM
+Summon Scamp,ÕÙ»½ÁÓÄ§,GMST.STRV|SPEL.FNAM
+Summon Skeletal Minion,ÕÙ»½¿İ¹ÇÆÍ´Ó,GMST.STRV|SPEL.FNAM
+Summon Storm Atronach,ÕÙ»½·ç±©ÊÌÁé,GMST.STRV|SPEL.FNAM
+Summon Winged Twilight,ÕÙ»½ÊïÄºÒíÄ§,GMST.STRV|SPEL.FNAM
 Summoning Room Key,´«»½ÊÒÔ¿³×,MISC.FNAM
 Sun Birds,ÈÕÖ®Äñ,Í¨³£Ö¸Ò»ÖÖÖ²Îï£¬Ò²¿ÉÖ¸¸ß¾«ÁéµÄ·ÉĞĞÆ÷¡°°¢ÀïÅµ¶ûÈÕÖ®Äñ¡±¡£ÒòÕâÁ½ÖÖº¬Òå¶¼ºÜ¸´ÔÓÇÒÆäÌØµã¶¼ÓëĞ¡ĞÍÄñÀà½ØÈ»²»Í¬£¬¹Ê¶ø±ÜÃâ·­ÒëÎª¡°Ì«ÑôÄñ¡±ÒÔ´ËÓëÏÖÊµÖĞµÄÌ«ÑôÄñÇø·Ö¿ª¡£
 Sun Birds of Alinor,°¢ÀïÅµ¶ûÈÕÖ®Äñ,¾«Áé¼ÍÔª£¨Merethic Era£©Ê±°ÂµÂÄªÌ½Ë÷ÕßµÄÒ»¸öÉñÃØ×éÖ¯£¬´«ËµËûÃÇÊ¹ÓÃ°¬Åµ·Æ£¨Ehlnofey£©µÄÄ§·¨´©Í¸ÁËÁ¬½ÓÃÎ´ïË¹£¨Mundus£©ºÍ¹â½ç£¨Aetherius£©Ö®¼äµÄá¡Ä»£¬ÊÇÇ°Íù¹â½çµÄĞí¶à³¢ÊÔÖĞ±È½ÏÖøÃûµÄÒ»¸ö£¬µ«ÀúÊ·Ñ§½çÈÏÎªÕâÖÖËµ·¨È±·¦Ö¤¾İ¡£
+Sun Damage,ÑôÑ×ÉËº¦,GMST.STRV
 Sun Stone,ÈÕÊ¯,ACTI.FNAM
 Sun's Dawn,ÈÕÏşÔÂ,¶ÔÓ¦ÏÖÊµµÄ¶şÔÂ¡£°¢¶û¹±½Ü¶ûÓï³ÆÖ®Îª¼Ã³Û£¨Xeech£©£¬ÒâÎª¹ûÈÊ¡£
 Sun's Dusk,ÈÕÄºÔÂ,¶ÔÓ¦ÏÖÊµµÄÊ®Ò»ÔÂ¡£°¢¶û¹±½Ü¶ûÓïÖĞÒ²Ï°¹ß³Æ×Ô¼ºµÄ×åÈºÎªÈø×ÈÀû¶û£¨Saxhleel£©¡£
@@ -12146,6 +12421,8 @@ Sunkeep,Ì«Ñô³ÇÂ¥,
 Sunken Chest,³Áµ×µÄÏä×Ó,CONT.FNAM
 Sunken Vaults,³ÁÃ»µÄ½ğ¿â,CEL
 Sunspire,Ñô¼âËş,°¬Ë¹Î¬¶ûµÄ°²¿üÄÇµØÇøµÄÒ»×ù¿¨¼ªÌØÉñÃí£¬¹©·î°¢¶û¿ÆÊ²£¬Ò²³£½ĞÑô¼âËşÉñÃí£¨Sunspire temple£©¡£
+Super Tester Guy,³¬¼¶ÎŞµĞ²âÊÔ¹¤¾ßÈË,NPC_.FNAM
+Supplies,Îï×Ê¹©Ó¦,ACTI.FNAM
 Supply Room,¿â·¿,CEL
 Supply Ship,²¹¸ø´¬,CEL
 Sur,ËÕ¶û,NPC_.FNAM
@@ -12208,6 +12485,7 @@ Svenja Snow-Song,Ë¹ÎÄ¼Ó¡¤Ñ©¸è,NPC_.FNAM
 Svog,Ë¹ÎÖ¸ñ,NPC_.FNAM
 Swamp Fever,ÕÓÔóÅ±¼²,SPEL.FNAM
 Sweetpulp,Ìğ½¬,INGR.FNAM
+Swift Swim,Ñ¸½İÓÎÓ¾,GMST.STRV
 Swift-Sailer,Ñ¸½İË®ÊÖ,CEL|NPC_.FNAM
 Swimmer,Ó¾Õß,SPEL.FNAM
 Swimmer's Blessing,Ó¾ÕßµÄ×£¸£,SPEL.FNAM
@@ -12247,6 +12525,7 @@ Talanian,ËşÀ­ÄáÑÇ,NPC_.FNAM
 Talare,ËşÀ­¶û,NPC_.FNAM
 Talare Arvel,ËşÀ­¶û¡¤°¢Î¬¶û,NPC_.FNAM
 Talds,Ëş¶û×È,NPC_.FNAM
+Tale,´«Ëµ|ÍùÊÂ,BOOK.FNAM
 Talis,´ïÀöË¿,NPC_.FNAM
 Talis Drurel,´ïÀöË¿¡¤µÂÈğ¶û,NPC_.FNAM
 Talis Veran,´ïÀöË¿¡¤Î¬À¼,NPC_.FNAM
@@ -12313,6 +12592,7 @@ Tarer,Ëş¶û,BOOK.FNAM|NPC_.FNAM
 Tarer Braryn,Ëş¶û¡¤²¼Èğ¶÷,NPC_.FNAM
 Tarer's Aedra and Daedra,Ëş¶ûµÄ¡¶°¬µÂÀ­ÓëµÏµÂÀ­¡·,BOOK.FNAM
 Tarerane,ËşÀ×À­Äİ,NPC_.FNAM
+Target,Ä¿±ê,GMST.STRV
 Tarhiel,ËşÏ£¶û,NPC_.FNAM
 Tarish-Zi,ËşÀïÊ²-Æë,¹ÅÓÈ¿â´ï»ÊµÛ£¬ÓÂÊ¿Ö®³±µÄÁìĞä¡£
 Tark River,Ëş¿ËºÓ,Âä´¸ÄÏ²¿µÄÒ»ÌõºÓÁ÷¡£
@@ -12330,6 +12610,9 @@ Tashpi Ashibael,ËşÊ²Æ¤¡¤°¢Ê²±´¶û,NPC_.FNAM
 Tashpi Ashibael's Hut,ËşÊ²Æ¤¡¤°¢Ê²±´¶ûµÄĞ¡Îİ,CEL
 Tatterdemalion,ËéÂÆ,À×ÂüµÛ¹úÔÚÈûÀ¤´ï½¨Á¢µÄÖ³ÃñĞĞÊ¡¡£
 Tattered Note,ÆÆËğµÄ×ÖÌõ,BOOK.FNAM
+Taunt,³°·í,GMST.STRV
+Taunt Fail,³°·íÊ§°Ü,GMST.STRV
+Taunt Success,³°·í³É¹¦,GMST.STRV
 Tauryon,ÍĞÈğ¶÷,CEL|NPC_.FNAM
 Tauryon's House,ÍĞÈğ¶÷µÄ·¿×Ó,CEL
 Tava,ËşÍß,Ò²±»³ÆÎªTava's Blessing(ËşÍßÖ®×£)£¬ÊÇÎ»ÓÚ°¢Àû¿Ë'¶ûÉ³Ä®±±²¿º£°¶µÄĞ¡³Ç¡£ËüÊÇÒ»×ùĞ¡ĞÍµ«ÖØÒªµÄ¸Û¿Ú³ÇÊĞ£¬ÓÉÍõÈ¨ÅÉÕ¼¾İ¡£
@@ -12342,7 +12625,8 @@ Tavynu Tedran,ËşÎ¬Å¬¡¤ÌØµÂÀ¼,NPC_.FNAM
 Tax Record,Ë°Îñ¼ÇÂ¼,BOOK.FNAM
 Taxman,Ë°ÎñÔ±,FACT.RNAM
 Taxtaker,ÊÕË°Ô±,FACT.RNAM
-Tear,Àá³Ç,ÉÏ¹Å¾íÖáÖĞÌØÖ¸Àá³ÇÕâ×ù³ÇÊĞ¡£
+Tear,Àá,INGR.FNAM
+Tears,Àá,SPEL.FNAM
 Tedalen,Ì©´ïÂ×,NPC_.FNAM
 Tedas,Ì©´ïË¹,NPC_.FNAM
 Tedran,ÌØµÂÀ¼,NPC_.FNAM
@@ -12379,7 +12663,7 @@ Telas,ÌØÀ­Ë¹,NPC_.FNAM
 Telasero,Ì©À­ÈûÂå,CEL
 Telasero Propylon,Ì©À­ÈûÂåÒıÂ·Æ÷,ACTI.FNAM
 Telasero Propylon Index,Ì©À­ÈüÂåÒıÂ·Ê¯,MISC.FNAM
-Telekinesis,ÄîÁ¦,SPEL.FNAM
+Telekinesis,ÄîÁ¦,GMST.STRV|SPEL.FNAM
 Telepe,Ì©¶û°£Åå,ÑÇÀúµÂÓï£¬ÒâÎª¡°ÒøÑÔ¡±£¬Î»ÓÚÀûÑÅÎÄÎ÷±±µÄÒ»´¦Ğ¡ĞÍÑÇÀúµÂÒÅ¼£
 Teleri,ÌØÀÕÈğ,NPC_.FNAM
 Teleri Helvi,ÌØÀÕÈğ¡¤ºÕ¶ûÎ¬,NPC_.FNAM
@@ -12489,6 +12773,8 @@ Teryne,ÌØÀòÄİ,NPC_.FNAM
 Teryne Hlaalu,ÌØÀòÄİ¡¤¹şÀ­Â³,NPC_.FNAM
 Teshmus,ÌØÊ²ÄÂË¹,NPC_.FNAM
 Teshmus Assebiriddan,ÌØÊ²ÄÂË¹¡¤°¢Èû±ÈÀïµ¤,NPC_.FNAM
+Test guy,²âÊÔÈË,NPC_.FNAM
+test hole,²âÊÔ¶´,CEL
 Test of Pattern,Ä£¿é²âÊÔÕ¾,CEL
 Test Spell,²âÊÔÊ©·¨,SPEL.FNAM
 Tevral,ÌØ¸¥Èğ,SPEL.FNAM
@@ -12723,7 +13009,7 @@ Thervul Serethi: Healer,´Ş¸¥¡¤ÈûÀ×Î÷£ºÖÎÁÆÊ¦,CEL
 Thetrard,ÉªËşµÂ,NPC_.FNAM
 Thetrard Phirrienele,ÉªËşµÂ¡¤·ÆÀï°£ÄÚÀÕ,NPC_.FNAM
 Theurgist,Í¨ÉñÕß,FACT.RNAM
-Thief,µÁÔô,CLAS.FNAM
+Thief,µÁÔô,CLAS.FNAM|GMST.STRV
 Thief Ring,µÁÔôÖ®½ä,CLOT.FNAM
 Thierry,µÙ°£Àï,NPC_.FNAM
 Thieves Guild,µÁÔô¹«»á,FACT.FNAM
@@ -12785,6 +13071,7 @@ Throknolf the Craven,Å³·òË¹Âå¿ËÅµ·ò,NPC_.FNAM
 Throne Room,Íõ×ùÊÒ,CEL
 Throwing Knife of Sureflight,ÎÈÉä·Éµ¶,WEAP.FNAM
 Thrud,ÉªÀ­µÂ,NPC_.FNAM
+Thrust,´©´ÌÉËº¦,GMST.STRV
 Thtithil,Ë¹ÌáÏ£¶û,½Ü¶ûÓï¡£ÒâÎª¡°µ°¡±¡£
 Thu'um,ÍÂÄ·,Ê¹ÓÃÁúÓï·¢³öµÄ¸»ÓĞÍşÁ¦µÄºğÉù¡£
 Thug,¶ñ¹÷,FACT.RNAM
@@ -12874,6 +13161,7 @@ Tolvise,ÍĞ¶ûÎ¬Ë¹,NPC_.FNAM
 Tolvise Othralen,ÍĞ¶ûÎ¬Ë¹¡¤°ÂÉªÀ­Â×,NPC_.FNAM
 Tolvone,ÍĞÎÖÄİ,NPC_.FNAM
 Tolvone Sarendas,ÍĞÎÖÄİ¡¤ÈøÂ×´ïË¹,NPC_.FNAM
+Tomb,Ä¹Ñ¨,CEL
 Tomb Door Key,Ä¹Ñ¨Èë¿ÚÔ¿³×,MISC.FNAM
 Tombs of Skaalara,Ë¹¿¨¶ûÀ­µÄÄ¹Ñ¨,CEL
 Tonal,Òôµ÷,°Â±ÈË¹µÄÄ³ÖÖµ×²ãÒô²¨£¬ÊÇÒ»ÖÖÃèÊöÉÏ¹Å¾íÖáÓîÖæµÄ·½Ê½¡£¶ÍÄªÒôµ÷½á¹¹ºÍÁúºğ·Ö±ğÎªÒôµ÷Ä§·¨Ñ§¿ÆÖĞÉî²ãºÍÇ³²ãµÄ´ú±í¡£
@@ -12903,8 +13191,11 @@ Torpor,Âé±ÔÊõ,SPEL.FNAM
 Torpor Touch,Âé±ÔÖ®´¥,SPEL.FNAM
 Torval,ÍĞÍß¶û,ÄÏ°¬Ë¹Î¬¶û³ÇÊĞ£¬××Ê××¤µØ
 Torygg,ÍĞÒÁ¸ñ,
+TOTAL COST,×Ü¼ÆÏû·Ñ,GMST.STRV
+TOTAL SOLD,×Ü¼Æ³öÊÛ,GMST.STRV
 Totambu,ÍĞÌ¹²¼,
 Totem of Claw and Fang,¼âÑÀÀû×¦Í¼ÌÚ,MISC.FNAM
+Touch,´¥|½Ó´¥Îï,GMST.STRV|SPEL.FNAM
 Touch Dispel,ÇıÉ¢Ö®´¥,SPEL.FNAM
 TouchDrain Acrobatics,Ï÷ÈõÖ®´¥£ºÔÓ¼¼,SPEL.FNAM
 TouchDrain Agility,Ï÷ÈõÖ®´¥£ºÃô½İ,SPEL.FNAM
@@ -12935,7 +13226,7 @@ TouchDrain Spear,Ï÷ÈõÖ®´¥£º³¤±ú,SPEL.FNAM
 TouchDrain Speechcraft,Ï÷ÈõÖ®´¥£º¿Ú²Å,SPEL.FNAM
 TouchDrain Unarmored,Ï÷ÈõÖ®´¥£ºÎŞ¼×,SPEL.FNAM
 Tough,±©Í½,FACT.RNAM
-Tower,ËşÂ¥,CEL
+Tower,ËşÂ¥|Ëş,CEL
 Tower Dungeon,ËşÂ¥µØÀÎ,CEL
 Tower Entry,ËşÂ¥Èë¿Ú,CEL
 Tower Guardpost,ËşÂ¥ÊØÎÀÉÚËù,CEL
@@ -12951,13 +13242,17 @@ Tower of Dusk Vault Key,»Æ»èÖ®Ëş½ğ¿âÔ¿³×,MISC.FNAM
 Tower of Tel Fyr,Ì©¶û-·Æ¶ûÖ®Ëş,CEL
 Tower Services,ËşÂ¥·şÎñÇø,CEL
 Tower Shack,ËşÎİ,CEL
+Tower Shield,Ëş¶Ü,ARMO.FNAM
 Tower Upper,ËşÂ¥ÉÏ²ã,CEL
 Tower Zero,ÁãÖ®Ëş,*Ïê¼ûAdamantine Tower´ÊÌõ¡£
 Towers,ËşÂ¥,CEL
 Toxic Cloud,¾ç¶¾Ö®Îí,SPEL.FNAM
+Tradehouse,Ã³Ò×ĞĞ,CEL
 tradehouse notice,¡¶Ã³Ò×ĞĞ¹«¸æ¡·,BOOK.FNAM
 Trader,Ã³Ò×ÉÌ,CEL|CLAS.FNAM
 Tragrim,Ëş¸ñÀûÄ·,NPC_.FNAM
+Training,ÑµÁ·,GMST.STRV
+Traits,ÌØĞÔ,GMST.STRV
 Tralan,ÌØÀ­À¼,NPC_.FNAM
 Tralas,ÌØÀ­À­Ë¹,NPC_.FNAM
 Tralas Rendas,ÌØÀ­À­Ë¹¡¤Â×´ïË¹,NPC_.FNAM
@@ -12974,7 +13269,9 @@ Transparent Law,³Î³ºÂÉ·¨,Ë®¾§ËşËş¶¥µÄË®¾§£¬¾İËµÊÇÉáÔú¶ûÖÈĞòÃæµÄ»ØÏì¡£
 Trap,¡¶È¦Ì×¡·,BOOK.FNAM
 Trap Door,»î°åÃÅ,DOOR.FNAM
 Trapdoor,»î°åÃÅ,DOOR.FNAM
+Trapped,´¥·¢ÁËÏİÚå,GMST.STRV
 Trasteve,ÌØÀ­Ë¹µÙ·ò,NPC_.FNAM
+Travel,ÂÃĞĞ,GMST.STRV
 Travel Lantern,ÂÃĞĞÌáµÆ,LIGH.FNAM|ACTI.FNAM
 Travel-stained Pants,ÅªÔàµÄÂÃĞĞ¿ã,CLOT.FNAM
 Traveller,Ñ²¼ìÔ±,FACT.RNAM
@@ -13079,7 +13376,7 @@ Tures' House,Í¼À×Ë¹µÄ·¿×Ó,CEL
 Tureynul,Í¼À×Å¬,CREA.FNAM|MISC.FNAM
 Tureynulal,Í¼À×Å¬À­,CEL
 Turn of the Wheel,ÃüÔËÂÖ×ª,SPEL.FNAM
-Turn Undead,Çı¸ÏÍöÁé,SPEL.FNAM
+Turn Undead,Çı¸ÏÍöÁé|ÇıÉ¢ÍöÁé,GMST.STRV|SPEL.FNAM
 Tusamircil,Í¼ÈøÃ×Î÷¶û,NPC_.FNAM
 Tusenend,Í¼É­¶÷µÂ,CEL
 Tusked Bristleback,³¤ÑÀ¸Ö±³ÊŞ,CREA.FNAM
@@ -13100,6 +13397,7 @@ Twil,ÌØÎ¬¶û,¡°Äº¹â¡±£¬»ÒÉ«¿ÉÄÜ¡£À×ÂüµÄ¸¸Ç×ºÕÂå¶û¾ÍÀ´×ÔÌØÎ¬¶ûÖ®Íâ¡£
 Twilight Queen,Äº¹âÅ®Íõ,*Ïê¼ûAzura´ÊÌõ¡£
 Twilight Temple,Äº¹âÉñÃí,
 Twin Lamps,Ë«µÆ»á,FACT.FNAM|FACT.RNAM
+Two Handed,Ë«ÊÖÎäÆ÷,GMST.STRV
 Twyll,¾®,ÑÇÀúµÂÓï
 Twyllbek,ÌØÎ¬¶û±´¿Ë,Î»ÓÚ¼ªµÂ°ºÎ÷²àµÄ°ÍÈü±È¿ËÑÇÀúµÂÒÅ¼£
 Twyllvarlais,ÌØÎ¬¶ûÍßÀ³Ë¹,ÑÇÀúµÂÓï£¬ÒâÎª¡°ĞÇ³½Ö®¾®¡±£¬¼´À³ÂåÀïÑÇ
@@ -13194,6 +13492,7 @@ Umug,ÎÚÄ·¸ñ,CEL|NPC_.FNAM
 Umug gro-Mashnar,ÎÚÄ·¸ñ¡¤¸ñÂŞ-ÂêÊ²ÄÇ,NPC_.FNAM
 Umug's Hut,ÎÚÄ·¸ñµÄĞ¡Îİ,CEL
 Unala-Se,ÎÚÄÈÀ­-Éª,¾Åê×Ö®Ò»£¬»Æê×¡£Óë´óÆøÓĞ¹Ø¡£
+Unarmored,ÎŞ¼×,GMST.STRV
 Uncharted Caverns,Î´Öª¶´Ñ¨,CEL
 Uncharted Shipwreck,Î´Öª³Á´¬,CEL
 Unchartered Shipwreck,Î´Öª³Á´¬,CEL
@@ -13208,6 +13507,7 @@ Underworks,ÏÂË®µÀ,CEL
 Undil,°ºµÏ¶û,NPC_.FNAM
 Unel,ÓÈÄÚ¶û,NPC_.FNAM
 Unel Lloran,ÓÈÄÚ¶û¡¤ÂåÀ¼,NPC_.FNAM
+Unequip,Ğ¶ÏÂ,GMST.STRV
 Unexplored Shipwreck,Î´¿±³Á´¬,CEL
 Ungeleb,°º¸ñÀ³²¼,NPC_.FNAM
 Unila,ÓÈÄáÀ­,NPC_.FNAM
@@ -13216,17 +13516,19 @@ Unique Dwemer Artifact,¶ÀÌØµÄ¶ÍÄªÎÄÎï,MISC.FNAM
 University of Gwylim,¸ñÎ¬ÁÖ´óÑ§,ÓÎÏ·±³¾°ÖĞµÄÒ»¸öÑ§Êõ×éÖ¯£¬ºÜ¶àÓÎÏ·ÄÚµÄÊé¶¼ÊÇÆä³ö°æµÄ¡£
 Unjara,°º¼ªÀ­,NPC_.FNAM
 Unknown Shipwreck,²»Ã÷³Á´¬,CEL
+Unlocked,ÒÑ½âËø,GMST.STRV
 Unmarked Shipwreck,ÎŞ±ê³Á´¬,CEL
 Unnamed Book,ÎŞÌâÖ®Êé,BOOK.FNAM
 Unripened Belladonna,Î´³ÉÊìµÄµßÇÑ,CONT.FNAM
 Unripened Belladonna Berries,Î´³ÉÊìµÄµßÇÑ½¬¹û,INGR.FNAM
+Until Healed,ĞİÏ¢ÖÁÈ¬Óú,GMST.STRV
 Upper Level,ÉÏ²ã,CEL
 Upper Levels,ÉÏ²ãÇøÓò,CEL
 Upper Niben,ÉÏÄá±¾,
 Upper Redoran Vault Key,Èğ¶àÈ»ÉÏ²ã½ğ¿âÔ¿³×,MISC.FNAM
 Upper Tower,ËşÂ¥ÉÏ²ã,CEL
 Upper Tower: Therana's Chamber,ËşÂ¥ÉÏ²ã£ºÎ÷À­ÄÇµÄ·¿¼ä,CEL
-Ur,ÎÚ¶û,BOOK.FNAM|CEL|CREA.FNAM
+Ur,ÎÚ¶û,CEL|BOOK.FNAM|CREA.FNAM
 Ur-Daedra,ÎÚ¶û-µÏµÂÀ­,*Ïê¼ûHermaeus Mora´ÊÌõ¡£ÒâÎª¡°Ô­³õµÄµÏµÂÀ­¡±¡£
 Ur-dra,ÎÚ¶û-µÂÀ­,ÊôÓÚÉÙÊı¼¸¸öµÏµÂÀ­´ó¾ıµÄÍ·ÏÎ£¬¾ßÌåº¬Òå²»Ã÷£¬¿ÉÄÜÖ¸×îÄê³¤»ò×îÇ¿´óµÄ¡£
 Ur-Tower,ÎÚ¶ûËş,*Ïê¼ûAdamantine Tower´ÊÌõ¡£¿ÉÄÜÒâÎª¡°Ô­³õÖ®Ëş¡±¡£
@@ -13252,9 +13554,9 @@ Urim,ÎÚÀûÄ·,NPC_.FNAM
 Urim gro-Bulag,ÎÚÀûÄ·¡¤¸ñÂŞ-²¼À­¸ñ,NPC_.FNAM
 Urjorad,ÎÚ¶ûÔ¼À­µÂ,NPC_.FNAM
 Urn,ÎÍ,CONT.FNAM
-"Urn labeled ""D. Bryant""","±êÓĞ¡°D¡¤²¼À³¶÷ÌØ¡±µÄÎÍ","CONT.FNAM"
-"Urn labeled ""G. Lyngas""","±êÓĞ¡°G¡¤ÁÖ¼ÓË¹¡±µÄÎÍ","CONT.FNAM"
-"Urn labeled ""Lord Brinne""","±êÓĞ¡°²¼ÁÖÁìÖ÷¡±µÄÎÍ","CONT.FNAM"
+Urn labeled "D. Bryant",±êÓĞ¡°D¡¤²¼À³¶÷ÌØ¡±µÄÎÍ,CONT.FNAM
+Urn labeled "G. Lyngas",±êÓĞ¡°G¡¤ÁÖ¼ÓË¹¡±µÄÎÍ,CONT.FNAM
+Urn labeled "Lord Brinne",±êÓĞ¡°²¼ÁÖÁìÖ÷¡±µÄÎÍ,CONT.FNAM
 Urnel,¶òÄá¶û,NPC_.FNAM
 Urnel Relas,¶òÄá¶û¡¤ÈğÀ­Ë¹,NPC_.FNAM
 Urns,ÎÚ¶÷Ë¹,NPC_.FNAM
@@ -13401,12 +13703,13 @@ Valyne Vedaren,ÍßÁÕ¡¤Î¬´ïÂ×,NPC_.FNAM
 Vampire,ÎüÑª¹í,NPC_.FNAM|SPEL.FNAM
 Vampire Dust,ÎüÑª¹í»Ò½ı,INGR.FNAM
 Vampire Fly,Ñª×å·ÉĞĞ,SPEL.FNAM
+Vampire Test Cell,ÎüÑª¹í²âÊÔ¼ä,CEL
 Vampire Touch,ÎüÑª¹íÖ®´¥,SPEL.FNAM
 Vampire's Kiss,ÎüÑª¹íÖ®ÎÇ,SPEL.FNAM
 "Vampires of Vvardenfell, v I","¡¶ÍßµÇ·Ñ¶ûµÄÎüÑª¹í¡¤¾íÒ»¡·","BOOK.FNAM"
 "Vampires of Vvardenfell, v II","¡¶ÍßµÇ·Ñ¶ûµÄÎüÑª¹í¡¤¾í¶ş¡·","BOOK.FNAM"
 Vampiric Ring,ÎüÑª¹íÖ®½ä,CLOT.FNAM
-Vampirism,¿ÊÑªÖ¢,SPEL.FNAM
+Vampirism,¿ÊÑªÖ¢,GMST.STRV|SPEL.FNAM
 Vandacia,·¶´ïÎ÷ÑÇ,NPC_.FNAM
 Vando,Íò¶à,NPC_.FNAM
 Vandram,·¶µÂÀ­Ä·,NPC_.FNAM
@@ -13464,9 +13767,9 @@ Varner Hleras's corpse,Íß¶ûÄÉ¡¤ºÕÀ³À­Ë¹µÄÒÅÌå,CONT.FNAM
 Varnis,ÍßÄáË¹,NPC_.FNAM
 Varnis Stieve,ÍßÄáË¹¡¤Ë¹µÙ·ò,NPC_.FNAM
 Varo,ÍßÂŞ,NPC_.FNAM
-Varo Tradehouse,ÍßÂŞÉÌĞĞ,CEL
-Varo Tradehouse Entrance,ÍßÂŞÉÌĞĞÈë¿Ú,CEL
-Varo Tradehouse Storage,ÍßÂŞÉÌĞĞ´¢´æÊÒ,CEL
+Varo Tradehouse,ÍßÂŞÃ³Ò×ĞĞ,CEL
+Varo Tradehouse Entrance,ÍßÂŞÃ³Ò×ĞĞÈë¿Ú,CEL
+Varo Tradehouse Storage,ÍßÂŞÃ³Ò×ĞĞ´¢´æÊÒ,CEL
 Varon,ÍßÁú,NPC_.FNAM
 Varon Sadralo,ÍßÁú¡¤ÈøµÂÀ­Âå,NPC_.FNAM
 Varona,ÍßÂŞÄÈ,NPC_.FNAM
@@ -13539,7 +13842,7 @@ Veloth,Î¬ÂåË¹,WEAP.FNAM|CEL|ARMO.FNAM|CLOT.FNAM|NPC_.FNAM|SPEL.FNAM
 Veloth Ancestral Tomb,Î¬ÂåË¹ÏÈ×æÄ¹Ñ¨,CEL
 Veloth's Benison,Î¬ÂåË¹µÄ×£¸£,SPEL.FNAM
 Veloth's Gift,Î¬ÂåË¹µÄÀñÎï,SPEL.FNAM
-Veloth's Grace,Î¬ÂåË¹µÄ¶÷Ôó,SPEL.FNAM
+Veloth's Grace,Î¬ÂåË¹µÄ¶÷µä,SPEL.FNAM
 Veloth's Indwelling,Î¬ÂåË¹µÄ×¤Áô,SPEL.FNAM
 Veloth's Judgement,Î¬ÂåË¹µÄÉóÅĞ,WEAP.FNAM
 Veloth's Robe,Î¬ÂåË¹Ö®ÅÛ,CLOT.FNAM
@@ -13575,6 +13878,7 @@ Venim Manor Guard Quarters,Î¬ÄáÄ·¸®Û¡ÊØÎÀ×¡Ëù,CEL
 Venim Manor Key,Î¬ÄáÄ·¸®Û¡Ô¿³×,MISC.FNAM
 Venim Manor Private Quarters,Î¬ÄáÄ·¸®Û¡Ë½ÈË×¡Ëù,CEL
 Venim Manor Right Wing,Î¬ÄáÄ·¸®Û¡ÓÒÌü,CEL
+Venom,±Ô¶¾,SPEL.FNAM
 Venom of the Serpent,ÉßÖ®¶¾,
 Veralor,Î¬À­ÂŞ,NPC_.FNAM
 Veran,Î¬À¼,NPC_.FNAM
@@ -13643,6 +13947,7 @@ Vilamon,Î¬À­ÃÉ,NPC_.FNAM
 Vilas,Î¬À­Ë¹,NPC_.FNAM
 Vilbia,Î¬¶û±ÈÑÇ,NPC_.FNAM
 Vilbia Herennia,Î¬¶û±ÈÑÇ¡¤ºÕÂ×ÄáÑÇ,NPC_.FNAM
+Villa,±ğÊû,CEL
 Vilval,Î¬¶ûÍß¶û,NPC_.FNAM
 Vilval Relvani,Î¬¶ûÍß¶û¡¤À×ÍßÄá,NPC_.FNAM
 Vilverin,Î¬¶ûÍşÁÖ,Î»ÓÚµÛ¶¼¶«±±·½µÄÒ»×ù´óĞÍÑÇÀúµÂÒÅ¼££¬ºóÊÀ±»³ÆÎªºşÎíÒÅ¼£¡£
@@ -13755,12 +14060,15 @@ Vvardvark,ÍßµÂÍß¿ËÊŞ,
 Wabbajack,Íß°Í½Ü¿Ë,´ó¾ıĞ»¶û¸ñÀ­Ë¹µÄÉñÆ÷¡£
 Wadarkhu,Íß´ï¿â,NPC_.FNAM
 Waistworks,ÖĞ²ã¹¤×÷Çø,CEL
+Wake,ÊØÁé,BOOK.FNAM
 Walk-Brass,ĞĞÒÆ»ÆÍ­,*Ïê¼ûAnumidium´ÊÌõ¡£
 Walking Star,Â½ĞĞĞÇÌå,*Ïê¼ûAnumidium´ÊÌõ¡£
+Walking Stick,ÊÖÕÈ,WEAP.FNAM
 Wamasu,ÍßÂíËÕ,
 Wanan-Dum,ÍßÄÉ-¶ÅÄ·,NPC_.FNAM
 Wandering Idiot,Á÷ÀËµÄ°×³Õ,NPC_.FNAM
 Wandering Lunatic,Á÷ÀËµÄ·è×Ó,NPC_.FNAM
+War Axe,Õ½¸«,WEAP.FNAM
 War Axe of Airan Ammu,°¬À¼-°¢Ä·µÄÕ½¸«,WEAP.FNAM
 War Axe of Wounds,´´ÉËÕ½¸«,WEAP.FNAM
 War Durzog,Õ½¿ñ¶Å×ô¸ñ,CREA.FNAM
@@ -13769,9 +14077,11 @@ War of the Bend'r-mahk,±¾µÂ'¶û-Âí¿ËÖ®Õ½,µÛ¹ú»ÃÏóÆÚ¼ä½ÜººÄÉ¡¢Âä´¸ºÍÌì¼ÊÖ®¼ä±¬·¢µÄ
 War of the Singers,¸èÕßÖ®Õ½,Ò»´Î·´¿¹»ÊµÛµÄÆğÒåÕ½Õù¡£
 Warchief Durgoc,¶Å¶û¸ê¿ËÇõ³¤,CREA.FNAM
 Warchief Kurog,¿âÂŞ¸êÇõ³¤,CREA.FNAM
+Ward,ÊØ»¤¶Ü,ARMO.FNAM
 Warden,º´ÎÀÕß,CLOT.FNAM
 Warden's Ring,º´ÎÀÕßÖ®½ä,CLOT.FNAM
 Warder,¼àÊØÕß,FACT.RNAM
+Warding,ÊØ»¤,SPEL.FNAM
 Warding Touch,ÊØÎÀÖ®´¥,SPEL.FNAM
 wardrobe,ÒÂ¹ñ,CONT.FNAM
 Warehouse Key,²Ö¿âÔ¿³×,MISC.FNAM
@@ -13779,9 +14089,10 @@ Warehouse shipping log,²Ö¿â×°ÔËÈÕÖ¾,BOOK.FNAM
 Warhammer of Wounds,´´ÉËÕ½´¸,WEAP.FNAM
 Warlock,Î×Õß,CLOT.FNAM|CLAS.FNAM|FACT.RNAM
 Warlock's Ring,Î×ÕßÖ®½ä,CLOT.FNAM
+Warning,¾¯ÑÔ,CLOT.FNAM
 WARNING!!!,¾¯¸æ£¡£¡£¡,BOOK.FNAM
 Warp in the West,Î÷²¿Å¤Çú,Î÷²¿Å¤ÇúÊÂ¼ş·¢ÉúÓÚ÷Ä¹ÇÍåÖÜ±ßµØÇø£¬µ¼ÖÂÖÜ±ßÊÆÁ¦´óÏ´ÅÆ£¬Êµ¼ÊÊÇÒ»´ÎÁúÆÆÊÂ¼ş£¬Ò²½Ğ¡°µÚ¶şÅ¬Ã×µÏ°²Ğ§Ó¦¡±¡¢¡°ºÍÆ½Ææ¼£¡±¡£ÉÏ¹Å¾íÖá2¹ÊÊÂµÄÖ÷ÒªÄÚÈİ¡£
-Warrior,Õ½Ê¿,CLAS.FNAM
+Warrior,Õ½Ê¿,CLAS.FNAM|GMST.STRV
 Warrior Wave,Õ½Ê¿ÀË³±,ÔÚÓÈ¿â´ï´óÂ½»ÙÃğºó£¬Ğí¶àÄÑÃñÓëÕ½Ê¿£¨ËûÃÇ±»³ÆÎªRa Gada£©ÌÓÍùÁËÂä´¸Ê¡¡£ÔÚËûÃÇÖ®ÖĞ±ãÓĞ×ÅĞí¶à½£¸èÕß£¬ÉõÖÁÊÇ°²Èû£¬ÀıÈçÖøÃûµÄ¡°ÑÅ¸÷»ô²¼µÄÊ®ÈıÓÂÊ¿£¨Yaghoub's Thirteen£©¡±¡¢É³ºÕÍò¹úÍõµÄ½£¸èÕß¾ü¶ÓÒÔ¼°´«ËµÖĞµÄ¡¢½öÁôÏÂ¡°ËÄÓ¢½Ü£¨The Four£©¡±Ö®ÃûµÄ°²Èû´óÊ¦
 Warrior-poet,Ê«ÎäÕß,Î¬Íş¿ËµÄ³ÆºÅ¡£
 Warwyrd,¶·ÕùÖ®Óû,SPEL.FNAM
@@ -13789,11 +14100,11 @@ Waste Rat,»ÄµØÀÏÊó,»Ò½ıµØÇøÓò³öÃ»µÄÀÏÊó¡£
 Watch,1.Íû|2.ËşÂ¥,ÃèÊöµØÃûÊ±ÓÃ¡°Íû¡±£¬±íÊ¾¾ßÌå½¨ÖşÊ±ÓÃ¡°ËşÂ¥¡±¡£
 Watch Tower,²tÍûËş,CEL
 Watcher's Belt,ÊØÍûÕßÑü´ø,CLOT.FNAM
-Water Breathing,Ë®ÏÂºôÎü,SPEL.FNAM
+Water Breathing,Ë®ÏÂºôÎü,GMST.STRV|SPEL.FNAM
 Water Spear,Ë®Ö®Ç¹,WEAP.FNAM
 Water Spout,³öË®¿Ú,ACTI.FNAM
 Water Stone,Ë®Ê¯,ACTI.FNAM
-Water Walking,Ë®ĞĞÊõ,SPEL.FNAM
+Water Walking,Ë®ĞĞ|Ë®ĞĞÊõ,GMST.STRV|SPEL.FNAM
 Water's Edge,Ë®ÅÏ´å,
 Waters of Life,ÉúÃüÖ®Ë®,MISC.FNAM
 Waterweird,Ë®Ö®ËŞÃü,SPEL.FNAM
@@ -13808,15 +14119,17 @@ Weak From Bloodlust,ÊÈÑªĞéÈõÖ¢,SPEL.FNAM
 Weak Spelldrinker,Èõ»¯Ä§ÒûÊõ,SPEL.FNAM
 Weakening Touch,ĞéÈõÖ®´¥,SPEL.FNAM
 Weakness,ĞéÈõÊõ,SPEL.FNAM
-Weakness to Blight Disease,½µµÍ¿İÎ®²¡¿¹ĞÔ,SPEL.FNAM
-Weakness to Common Disease,½µµÍ³£¼û¼²²¡¿¹ĞÔ,SPEL.FNAM
-Weakness to Corprus Disease,½µµÍÊ¬»¯²¡¿¹ĞÔ,SPEL.FNAM
+Weakness to Blight Disease,½µµÍ¿İÎ®²¡¿¹ĞÔ,GMST.STRV|SPEL.FNAM
+Weakness to Common Disease,½µµÍ³£¼û¼²²¡¿¹ĞÔ,GMST.STRV|SPEL.FNAM
+Weakness to Corprus Disease,½µµÍÊ¬»¯²¡¿¹ĞÔ,GMST.STRV|SPEL.FNAM
 Weakness to Corpus Disease,½µµÍÊ¬»¯²¡¿¹ĞÔ,SPEL.FNAM
-Weakness to Fire,¾å»ğ,SPEL.FNAM
-Weakness to Frost,¾åº®,SPEL.FNAM
-Weakness to Magicka,¾åÄ§,SPEL.FNAM
-Weakness to Poison,¾å¶¾,SPEL.FNAM
-Weakness to Shock,¾åµç,SPEL.FNAM
+Weakness to Fire,¾å»ğ,GMST.STRV|SPEL.FNAM
+Weakness to Frost,¾åº®,GMST.STRV|SPEL.FNAM
+Weakness to Magicka,¾åÄ§,GMST.STRV|SPEL.FNAM
+Weakness to Normal Weapons,ÎïÀíĞéÈõ,GMST.STRV
+Weakness to Poison,¾å¶¾,GMST.STRV|SPEL.FNAM
+Weakness to Shock,¾åµç|¾åÀ×,GMST.STRV|SPEL.FNAM
+Weapon,ÎäÆ÷,GMST.STRV
 Weapon Eater,ÎäÆ÷ÍÌÊÉÕß,SPEL.FNAM
 Weapons and Armor Contract,ÎäÆ÷Óë»¤¼×ºÏÍ¬,BOOK.FNAM
 Weariness,Î®ÃÒÊõ,SPEL.FNAM
@@ -13824,17 +14137,21 @@ Weary,Æ£·¦Êõ,SPEL.FNAM
 Wearying Touch,Î®ÃÒÖ®´¥,SPEL.FNAM
 Weatherleah,Î¬ÉªÀûÑÇ,
 Weatherleah Estate,Î¬ÉªÀûÑÇ×¯Ô°,
+Wedding Dowry,¼Ş×±,BOOK.FNAM
+Wedding Gift,½á»éÀñÎï,CLOT.FNAM
 Weeltul,Î¤¶ûÍ¼¶û,NPC_.FNAM
 Weeping Robe,À£ÀÃ³¤ÅÛ,CLOT.FNAM
 Weeping Wound,À£ÀÃ´´ÉË,SPEL.FNAM
 Weepingbell Hall,¿ŞÆüÖ®ÁåÖ®ÊÒ,CEL
 Weer,Îº¶û,NPC_.FNAM
+Weight,ÖØÁ¿,GMST.STRV
 Welcome,»¶Ó­,ACTI.FNAM
 Welke,Î¬¶û¿Ë,¿ÉÄÜÓë¡°Ìì¿Õ¡±ÓĞ¹Ø£¬Î»ÓÚ²¼À­Î¬¶û¶«²¿µÄÒ»×ùÖĞĞÍÑÇÀúµÂÒÅ¼£
 Welke Ceyede,Î¬¶û¿Ë-¿­°£µÂ,
 Welke Edesel,Î¬¶û¿Ë-°£µÂÈû¶û,
 Welkynar,Íş¶û¿ÏÄÉ¶û,ÏÄÄºµºµÄ¾üÊÂ×éÖ¯£¬Ê¨ğÕÆïÊ¿
 Welkynd Stone,Î¬¶û½ğÊ¯,WelkyndÊÇ°ÂµÂÄªÈğÓï¡¢ÑÇÀúµÂÓï£¬ÒâÎª¡°Ìì¿ÕÖ®×Ó¡±¡£Î¬¶û½ğÊ¯ÊÇÑÇÀúµÂ´´ÔìµÄ·¢¹âº£À¶±¦Ê¯¾§Ìå£¬º¬ÓĞÅ¨ËõµÄÃÎ´ïË¹ÄÜÁ¿£¬±»ÓÃÀ´´¢´æÄ§·¨¡£
+Well Key,¾®Ô¿³×,MISC.FNAM
 Wellspring Cave,ÈªÔ´¶´Ñ¨,
 Wellspring Grove,Ô´ÈªÁÖµØ,
 Welwa,ËÄÄ¿ÊŞ,ÏÄÄºµºµÄÒ»ÖÖ¹ÅÉúÎï£¬esoÒëÃû
@@ -13850,7 +14167,7 @@ Wendir,1.ÂÃÍ¾ 2.ÎÂµÏ¶û,1.ÑÇÀúµÂÓï£¬ÒâÎª¡°ÂÃÍ¾¡±¡£ 2.¿ÆÂå¶ûºÍË¹½ğ¸ñÀ­µÂÖ®¼äµÄÒ»×ù
 Wendir Nagasel,ÎÂµÏ¶û-ÄÉ¼ÓÈû¶û,ÑÇÀúµÂÓï£¬ÒâÎª¡°ËÀÖ®Ìü¡±¡£Î»ÓÚÎÂµÏ¶ûÒÅ¼£ÄÚ¡£
 Wenyandawik,ÎÂÑÓ´ïÎ¬¿Ë,Î»ÓÚ²¼À­Î¬¶ûÎ÷±±µÄÒ»´¦ÖĞĞÍÑÇÀúµÂÒÅ¼£¡£
 Wenyandawik Edesel,ÎÂÑÓ´ïÎ¬¿Ë-°£µÂÈû¶û,
-Werewolf,ÀÇÈË,CREA.FNAM|NPC_.FNAM
+Werewolf,ÀÇÈË,GMST.STRV|CREA.FNAM|NPC_.FNAM
 Werewolf Ice Statue,ÀÇÈË±ùµñ,ACTI.FNAM
 Werewolf Innocent,ÎŞ¹¼µÄÀÇÈË,CREA.FNAM
 Werewolf Resistances,ÀÇÈËµÖ¿¹,SPEL.FNAM
@@ -13867,6 +14184,7 @@ Wetboy,½şÑªÕß,FACT.RNAM
 Weye,Î¬Ò®,
 Weynon Priory,Î¬Å©ĞŞµÀÔº,
 Where Were You ... Dragon Broke,¡¶ÁúÆÆÖ®Ê±ÄãÔÚºÎ·½£¿¡·,BOOK.FNAM
+Whim,ÆæÏë,SPEL.FNAM
 White Colovian Fur Helm,¿ÆÂåÎ¬ÑÇ°×Ã«Æ¤Í·¿ø,ARMO.FNAM
 White River,°×ºÓ,
 White Rose River,°×Ãµ¹åºÓ,
@@ -13935,6 +14253,7 @@ Wild Sparksword,¿ñÒ°µç¹âÖ®½£,WEAP.FNAM
 Wild Spelldrinker,¿ñÒ°Ä§ÒûÊõ,SPEL.FNAM
 Wild Spite,¿ñÒ°Ô¹ºŞÊõ,SPEL.FNAM
 Wild Strain,¿ñÒ°½ßÁ¦Êõ,SPEL.FNAM
+Wild Sty,¿ñÒ°ÕëÕÏ,SPEL.FNAM
 Wild Sty Ring,¿ñÒ°ÕëÕÏÖ®½ä,CLOT.FNAM
 Wild Temptation,¿ñÒ°ÓÕ»óÊõ,SPEL.FNAM
 Wild Torpor,¿ñÒ°Âé±ÔÊõ,SPEL.FNAM
@@ -13942,8 +14261,12 @@ Wild Viperblade,¿ñÒ°Éß¶¾Ö®ÈĞ,WEAP.FNAM
 Wild Vipersword,¿ñÒ°Éß¶¾Ö®½£,WEAP.FNAM
 Wild Weakness,¿ñÒ°ĞéÈõÊõ,SPEL.FNAM
 Wild Weeping Wound,¿ñÒ°À£ÀÃ´´ÉË,SPEL.FNAM
+Wilderness,»ÄÒ°,GMST.STRV
+Wiles,î£ÖÇ,CLOT.FNAM
 Willow Anther,Áø»¨»¨Ò©,INGR.FNAM
 Willow Flower,Áø»¨,CONT.FNAM
+Willpower,ÒâÖ¾,GMST.STRV
+Wind,·ç,SPEL.FNAM
 Wind Cave,·çÖ®¶´Ñ¨,µØÃû¡£
 Wind of Ahaz,°¢¹ş×ÈÖ®·ç,WEAP.FNAM
 Wind Stone,·çÊ¯,ACTI.FNAM
@@ -13960,10 +14283,11 @@ Wisdom,ÖÇ»ÛÊõ,SPEL.FNAM
 Wise Woman,Å®ÖÇÕß,CEL|CLAS.FNAM
 Wise Woman's Yurt,Å®ÖÇÕßµÄÕÊÅñ,CEL
 Wispmother,ÓÄ¹âÖ®Ä¸,
+Wit,²ÅÖÇ,SPEL.FNAM
 Witbane,ĞÄÖÇ¾ç¶¾,SPEL.FNAM
 Witch,Å®Î×,CLAS.FNAM
 Witch Charm,Å®Î×ÏîÁ´,CLOT.FNAM
-Witchhunter,ÁÔÎ×Õß,CLAS.FNAM
+Witchhunter,ÁÔÎ×Õß,CLAS.FNAM|GMST.STRV
 Witchlight,Î×¹â,
 Witchwither,Å®Î×µòÁãÖ¢,SPEL.FNAM
 Wither,µòÁãÊõ,SPEL.FNAM
@@ -14019,8 +14343,10 @@ Woodland Man,É­µØÕß,*Ïê¼ûHermaeus Mora´ÊÌõ¡£°¢ÌØÄªÀ­ÈËºÍ²¨Ë¹Äª¶ÔºÕÂóÎÚË¹¡¤ÄªÀ­µÄ
 Words and Philosophy,¡¶ÑÔ´ÇÓëÕÜÀí¡·,BOOK.FNAM
 Words of Clan Mother Ahnissi,¡¶×åÄ¸°¢ÄáÎ÷µÄÖ¼Òâ¡·,BOOK.FNAM
 Words of the Wind,¡¶·çÖ®Óï¡·,BOOK.FNAM
+Workshop,×÷·»,CEL
 Worldly-God,·²ÊÀÖ®Éñ,
 Worm Lord,³æÖ÷,CREA.FNAM
+Worn,Ä¥Ëğ,GMST.STRV
 Worn Chest,ÆÆËğµÄÏä×Ó,CONT.FNAM
 Worn Dwemer Door,Ä¥ËğµÄ¶ÍÄªÃÅ,DOOR.FNAM
 Worn Dwemer Vault Door,Ä¥ËğµÄ¶ÍÄª½ğ¿âÃÅ,DOOR.FNAM
@@ -14033,6 +14359,7 @@ Wounding Touch,´´ÉËÖ®´¥,SPEL.FNAM
 Wraith of Sul-Senipul,ËÕ¶û-ÈûÄáÆÕ¶ûÖ®»ê,CREA.FNAM
 Wraithguard,ÓÄ»êÓ°ÎÀ,ARMO.FNAM
 Wrapped Corprusmeat Hunk,Ê¬»¯¸¯Èâ¿é,INGR.FNAM
+Wrath,Å­,SPEL.FNAM
 Wrath of Araynys,°¢À×ÄáË¹Ö®Å­,SPEL.FNAM
 Wrath of Dagoth,´ï¸ñË¹Ö®Å­,SPEL.FNAM
 Wrath of Endus,¶÷¶ÅË¹Ö®Å­,SPEL.FNAM
@@ -14166,6 +14493,7 @@ Ysmir,ÒÁË¹Ã×¶û,SPEL.FNAM
 Ysmir's Cough,ÒÁË¹Ã×¶ûÖ®¿È,SPEL.FNAM
 Ysneslea,ÒÁË¹ÄÚË¹ÀïÑÇ,ÓÈÈğ¶ûÎåÊÀÕ÷·şµÄµºÓìÖ®Ò»¡£
 Yul,ÓÈ¶û,Akos KasazµºÄÏ²¿µÄÒ»¸ö³ÇÊĞ»òµØÇø¡£
+Yurt,ÕÊÅñ,CEL
 Yvienne,ÒÁÎ¬°²,NPC_.FNAM
 Z'en,Ôó¶÷,
 Zaba,Ôú°Í,NPC_.FNAM

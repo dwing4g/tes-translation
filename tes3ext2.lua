@@ -158,7 +158,7 @@ for tag, st in pairs(all) do
 			or  function(a1, a2) return a1[1] < a2[1] end)
 		for _, a in ipairs(es) do
 			local term = a[2]
-			if isTerm then
+			if (isTerm or tag == "GMST.STRV" and term:find '^[%a ]+$') and term ~= a[3] then
 				local trans = a[3]
 				local note = tag -- .. " " .. a[1]
 				if	term:find ','  or trans:find ','  or note:find ',' or
