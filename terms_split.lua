@@ -7,6 +7,7 @@
 -- luajit terms_split.lua ~$ext2m\terms.csv ~$ext2m\terms_split.csv
 -- luajit terms_split.lua ~$ext2t\terms.csv ~$ext2t\terms_split.csv
 -- luajit terms_split.lua ~$ext2b\terms.csv ~$ext2b\terms_split.csv
+-- luajit terms_split.lua TamrielRebuilt\TR_Mainland.cel TamrielRebuilt\~$cel_split.csv
 
 local cel = arg[1]:find "%.cel$"
 if not cel and not arg[1]:find "%.csv$" then
@@ -22,6 +23,7 @@ local function write(k, v, c)
 		f:write(k, ',', v, ',', c, '\n')
 	end
 end
+local lineId = 0
 
 local addIgnored = {
 	Armory = true,
@@ -44,6 +46,7 @@ local addIgnored = {
 	Tale = true,
 	Tower = true,
 	Uleni = true,
+	Wake = true,
 }
 local t = {}
 local tc = {}
@@ -54,7 +57,7 @@ local function add(k, v, c)
 		if t[k] then
 			if t[k] ~= v then
 				if tc[k] == c and not addIgnored[k] then
-					error("ERROR: duplicated k=" .. k .. ", v=" .. t[k] .. " or " .. v .. ", c=" .. c)
+					error("ERROR(" .. lineId .. "): duplicated k=" .. k .. ", v=" .. t[k] .. " or " .. v .. ", c=" .. c)
 				else
 					t[k] = v
 					tc[k] = c
@@ -70,7 +73,7 @@ local function add(k, v, c)
 			write(k, v, c)
 		end
 	else
-		error("ERROR: empty k=" .. k .. " or v=" .. v)
+		error("ERROR(" .. lineId .. "): empty k=" .. k .. " or v=" .. v)
 	end
 end
 
@@ -115,11 +118,15 @@ local subIgnored = {
 	["GrandMaster's Armorer"] = true,
 	["Her Hand"] = true,
 	["Journeyman's Armorer"] = true,
+	["Lower Queen"] = true,
 	["Master's Armorer"] = true,
 	["Redoran Watchman"] = true,
 	["Secret Master"] = true,
+	["Sewers: Thieves"] = true,
+	["Sewers: Uriel"] = true,
 	["The Lizard"] = true,
 	["The Warrior"] = true,
+	["Upper Queen"] = true,
 }
 local function addSub(line, k, v, c)
 	k = k:gsub("^%s+", ""):gsub("%s+$", "")
@@ -130,7 +137,7 @@ local function addSub(line, k, v, c)
 		if not v1 then
 			v1, v2 = v:match "^(...-)Ö®(.+)$"
 			if not v1 then
-				error("ERROR: unmatched line: " .. line)
+				error("ERROR(" .. lineId .. "): unmatched line: " .. line)
 			end
 		end
 		add(k1, v1, c)
@@ -142,7 +149,7 @@ local function addSub(line, k, v, c)
 			if not v4 then
 				v4, v3 = v:match "^(...-)Ö®(.+)$"
 				if not v4 then
-					error("ERROR: unmatched line: " .. line)
+					error("ERROR(" .. lineId .. "): unmatched line: " .. line)
 				end
 			end
 			local v1, v2 = v4:match "^(...-)¡¤(.+)$"
@@ -165,16 +172,17 @@ local function addSub(line, k, v, c)
 end
 
 for line in io.lines(arg[1]) do
+	lineId = lineId + 1
 	if cel then
 		local k, v = line:match "^(.+)\t(.+)$"
 		if not k then
-			error("ERROR: unknown line: " .. line)
+			error("ERROR(" .. lineId .. "): unknown line: " .. line)
 		end
 		local k1, k2, k3 = k:match "^([^,]+),([^,]+),([^,]+)$"
 		if k1 then
 			local v1, v2, v3 = v:match "^([^,]+)£¬([^,]+)£¬([^,]+)$"
 			if not v1 then
-				error("ERROR: unmatched line: " .. line)
+				error("ERROR(" .. lineId .. "): unmatched line: " .. line)
 			end
 			add(k1, v1, "CEL")
 			add(k2, v2, "CEL")
@@ -187,7 +195,7 @@ for line in io.lines(arg[1]) do
 			if k1 then
 				local v1, v2 = v:match "^([^,]+)£¬([^,]+)$"
 				if not v1 then
-					error("ERROR: unmatched line: " .. line)
+					error("ERROR(" .. lineId .. "): unmatched line: " .. line)
 				end
 				add(k1, v1, "CEL")
 				add(k2, v2, "CEL")
@@ -207,7 +215,7 @@ for line in io.lines(arg[1]) do
 		else
 			k, v, c = line:match '^([^,]+),([^,]+),([^,]*)$'
 			if not k then
-				error("ERROR: unknown line: " .. line)
+				error("ERROR(" .. lineId .. "): unknown line: " .. line)
 			end
 		end
 		add(k, v, c)

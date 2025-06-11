@@ -477,6 +477,7 @@ Aloie Indaram,阿洛依·因达拉姆,NPC_.FNAM
 Alonisea,阿罗尼西娅,NPC_.FNAM
 Alonisea Varys,阿罗尼西娅·瓦里斯,NPC_.FNAM
 Also-He-Washes,他-也-洗,NPC_.FNAM
+Alt,艾尔特,
 Altadoon,武器,艾诺菲语。
 Altar of Thrond,瑟隆德祭坛,CEL
 Altar to Mephala,梅法拉祭坛,ACTI.FNAM
@@ -3777,7 +3778,8 @@ Dumbuk gro-Bolak,杜穆布克·格罗-博拉克,NPC_.FNAM
 Dumbuk's Strongbox Key,杜穆布克的保险柜钥匙,MISC.FNAM
 Dumburz,杜穆布兹,NPC_.FNAM
 Dumburz gro-Bulfish,杜穆布兹·格罗-布尔菲希,NPC_.FNAM
-Dun-Ahhe,敦-艾赫,CEL|NPC_.FNAM
+Dun,邓,
+Dun-Ahhe,邓-艾赫,CEL|NPC_.FNAM
 Dun-Ilu,邓-伊鲁,NPC_.FNAM
 Dun-Ilu Assurnumausur,邓-伊鲁·阿苏努马苏尔,NPC_.FNAM
 Dunbarrow Cove,邓巴罗湾,
@@ -3798,7 +3800,7 @@ Dunmer Trader,丹莫商行,ACTI.FNAM
 Dunmer Weapons/Armor,丹莫武器/护甲,ACTI.FNAM
 Dunmereth,丹莫瑞斯,*诺德人对晨风的古称，详见Morrowind词条。
 Dunsalipal,邓萨利帕,NPC_.FNAM
-Dunsalipal Dun-Ahhe,邓萨利帕·敦-艾赫,NPC_.FNAM
+Dunsalipal Dun-Ahhe,邓萨利帕·邓-艾赫,NPC_.FNAM
 Dunsamsi,邓桑西,NPC_.FNAM
 Dur,达尔,NPC_.FNAM
 Dur gro-Grambak,达尔·格罗-格拉姆巴克,NPC_.FNAM
@@ -5127,7 +5129,7 @@ Gaenor's Amulet,盖诺的护符,CLOT.FNAM
 Gaenor's Escape,盖诺之逸,SPEL.FNAM
 Gah,加,NPC_.FNAM
 Gah Julan,加·朱兰,NPC_.FNAM
-Gah-Julan,伽-尤兰,一种丹莫文化。
+Gah-Julan,加-朱兰,一种丹莫文化。
 Gah-Julan Bonemold Cuirass,加-朱兰骨模胸甲,ARMO.FNAM
 Gah-Julan Bonemold L Pauldron,加-朱兰骨模左肩甲,ARMO.FNAM
 Gah-Julan Bonemold R Pauldron,加-朱兰骨模右肩甲,ARMO.FNAM
@@ -5543,6 +5545,7 @@ Godrod Hairy-Breeks,戈德罗德·剃须者,NPC_.FNAM
 Godros,哥德罗斯,NPC_.FNAM
 Godsreach,神临区,CEL
 Gogrek,戈格瑞克,NPC_.FNAM
+Gol,戈尔,
 Golana,歌拉娜,NPC_.FNAM
 Golana Giralvel,歌拉娜·吉拉威尔,NPC_.FNAM
 Golanar,高拉纳,SPEL.FNAM
@@ -6346,6 +6349,7 @@ Hive Scrib,群居幼虫,CREA.FNAM
 Hjalti,希雅提,即泰伯·塞普汀称帝前的本名。
 Hjoldir,霍乔迪尔,NPC_.FNAM
 Hjotra the Peacock,孔雀霍乔迪尔,NPC_.FNAM
+Hla,哈拉,
 Hla Oad,哈拉-奥德,CEL|ACTI.FNAM
 Hlaalo,赫拉罗,NPC_.FNAM
 Hlaalo Manor,赫拉罗府邸,CEL
@@ -9405,6 +9409,7 @@ Old Man,古人|陈旧者,FACT.RNAM|MISC.FNAM
 Old Man's Lucky Coin,古人的幸运金币,MISC.FNAM
 Old Mary Dominion,咸柱神洲,科洛维亚人对先祖神洲的戏谑叫法。
 Old Metal Door,老旧的金属门,DOOR.FNAM
+Old Mournhold,哀伤之城旧址,
 Old Mournhold: Abandoned Crypt,哀伤之城旧址：被遗弃的地穴,CEL
 Old Mournhold: Abandoned Passageway,哀伤之城旧址：被遗弃的走廊,CEL
 Old Mournhold: Armory Ruins,哀伤之城旧址：军营废墟,CEL
@@ -10518,6 +10523,7 @@ Riverhold,河堡,艾斯维尔北部边境城市。
 Rivul,里维尔,CEL|NPC_.FNAM
 RKHET,阿尔克特,*详见Arkay词条。锻莫叙事中的阿尔凯，此情况下该词通常必须大写。
 RKHT,生死,艾诺菲语。
+Roa,罗亚,
 Robe,长袍|袍,CLOT.FNAM
 Robe of Burdens,重负长袍,CLOT.FNAM
 Robe of Erur-Dan the Wise,智者埃鲁-丹之袍,CLOT.FNAM
@@ -12639,6 +12645,7 @@ Tee,缇,NPC_.FNAM
 Tee-Lan,提-兰,NPC_.FNAM
 Teegla,蒂格拉,NPC_.FNAM
 Teeth of the Urshilaku,乌尔希拉库之牙,CLOT.FNAM
+Tel,泰尔,
 Tel Aruhn,泰尔-阿汝因,CEL|ACTI.FNAM
 Tel Aruhn Slave Key,泰尔-阿汝因奴隶钥匙,MISC.FNAM
 Tel Branora,泰尔-布勒诺拉,CEL|ACTI.FNAM
@@ -13365,6 +13372,7 @@ Tunila,图尼拉,NPC_.FNAM
 Tunila Omavel,图尼拉·奥玛维,NPC_.FNAM
 Tunipy,图尼皮,NPC_.FNAM
 Tunipy Shamirbasour,图尼皮·沙米尔巴苏尔,NPC_.FNAM
+Tur,特,
 Turdas,星期四,上古卷轴世界观中的周四。
 Turedus,图雷德,NPC_.FNAM
 Turedus Talanian,图雷德·塔拉尼亚,NPC_.FNAM
