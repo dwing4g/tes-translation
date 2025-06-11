@@ -316,17 +316,17 @@ for _, v in ipairs(binaryTags) do binaryTags[v] = true end
 --[[ classes for translation
 class *.esm         tes3cn.esp Morrowind_cn.esp
 TES3: 1                        -> 1
-ACTI: 697+346+202              -> 697   NAME -> FNAM       地点名
+ACTI: 697+346+202              -> 697   NAME -> FNAM       地点和可交互物品名
 ALCH: 258+2+6                  -> 258   NAME -> FNAM       药水名
 APPA: 22+5+0                   -> 22    NAME -> FNAM       炼金器材名
-ARMO: 280+79+96                -> 280   NAME -> FNAM       重甲盾牌名
-BOOK: 574+44+49       -> 574   -> 574   NAME -> FNAM,TEXT  书籍标题,书籍内容
+ARMO: 280+79+96                -> 280   NAME -> FNAM       护甲名
+BOOK: 574+44+49       -> 574   -> 574   NAME -> FNAM,TEXT  书信笔记标题,书信笔记内容
 BSGN: 13                       -> 13    NAME -> FNAM       星座名
 CELL: 2538+276+121             -> 2538  NAME -> NAME       地区名
 CLAS: 77+1+5          -> 77    -> 77    NAME -> FNAM,DESC  职业名,职业描述
-CLOT: 510+42+31                -> 510   NAME -> FNAM       轻甲饰品名
-CONT: 890+133+104              -> 890   NAME -> FNAM       场景物品名
-CREA: 260+75+97                -> 260   NAME -> FNAM       战斗NPC名
+CLOT: 510+42+31                -> 510   NAME -> FNAM       服饰名
+CONT: 890+133+104              -> 890   NAME -> FNAM       容器名
+CREA: 260+75+97                -> 260   NAME -> FNAM       战斗单位名
 DIAL: 2358+860+893    -> 4053  -> 2354  NAME -> NAME(部分) 关键词
 DOOR: 140+95+87                -> 139   NAME -> FNAM       传送门名
 ENCH: 708+42+46                -> 708   NAME -> ????       ????
@@ -338,14 +338,14 @@ LIGH: 574+74+44                -> 574   NAME -> FNAM       灯源名
 LOCK: 6                        -> 6     NAME -> FNAM       开锁器名
 MGEF: 137+4+1         -> 137   -> 137   INDX -> DESC       魔法效果描述
 MISC: 536+76+55                -> 536   NAME -> FNAM       杂项物品名
-NPC_: 2675+215+159             -> 2675  NAME -> FNAM       NPC名
+NPC_: 2675+215+159             -> 2675  NAME -> FNAM       NPC人名
 PROB: 6                        -> 6     NAME -> FNAM       侦测器名
 RACE: 10              -> 10    -> 10    NAME -> FNAM,DESC  种族名,种族描述
 REGN: 9+6+1                    -> 9     NAME -> FNAM       区域名
 REPA: 6+4+0                    -> 6     NAME -> FNAM       修理锤名
 SCPT: 632+336+263     -> 182   -> 632   SCHD -> SCTX       脚本
 SKIL: 27              -> 27    -> 27    INDX -> DESC       技能描述
-SPEL: 990+33+45       -> 990   -> 990   NAME -> FNAM       魔法名
+SPEL: 990+33+45       -> 990   -> 990   NAME -> FNAM       法术名
 WEAP: 485+110+74               -> 485   NAME -> FNAM       武器名
 TOTAL:                            40744
 --]]

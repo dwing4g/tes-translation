@@ -3911,6 +3911,7 @@ Eastern Guard Tower,¶«ÎÀ±øËþ,CEL
 Eastmarch,¶«Úï,×¼Òô£ºÒÁË¹ÌØÂíÆæ
 Eat Me,³ÔµôÎÒ,DOOR.FNAM
 Ebernanit,°£²®ÄÏÌØ,CEL
+Ebon,ºÚÌ´,
 Ebonarm,ºÚÌ´±Û,ºÚÌ´±Û£¨Ebonarm£©ÊÇÕ½Ê¿µÄÊØ»¤Éñ£¬Âä´¸°¢Àû¿Ë¶ûÉ³Ä®µÄÖÚ¶àÕ½Ê¿¹«»á¶¼¹©·îµk¡£µkÒ²ÊÇ³ý·èÉñÖ®ÍâËùÓÐµÏµÂÀ­´ó¾ý(Daedric Prince)µÄ¹«µÐ£¬Í¬Ê±»¹ÓëË¹Ì¹´ï¶ûÐÅÍ½ÒÔ¼°·¨Ê¦¹«»áµÐ¶Ô£¬ÔÚ°²Î¬¶ûÄÜÕÒµ½ÓÐ¹ØµkµÄÒÅ¼£¡£
 Ebonheart,ºÚÌ´ÐÄ,CEL|ACTI.FNAM
 Ebony,ºÚÌ´,
@@ -4354,7 +4355,6 @@ Exquisite Robe,¾«ÖÂµÄÅÛ×Ó,CLOT.FNAM
 Exquisite Shirt,¾«ÖÂµÄ³ÄÉÀ,CLOT.FNAM
 Exquisite Shoes,¾«ÖÂµÄÐ¬×Ó,CLOT.FNAM
 Exquisite Skirt,¾«ÖÂµÄÈ¹×Ó,CLOT.FNAM
-
 Extra-Comfy Pillow,¸ñÍâÊæÊÊµÄÕíÍ·,MISC.FNAM
 Extravagant Belt,ÉÝ³ÞµÄÑü´ø,CLOT.FNAM
 Extravagant Left Glove,ÉÝ³ÞµÄ×óÊÖÌ×,CLOT.FNAM
@@ -4758,7 +4758,7 @@ Firebloom,»ð»¨Êõ,SPEL.FNAM
 Firefist,»ðÈ­,SPEL.FNAM
 Firejade Amulet,»ðÓñ»¤·û,CLOT.FNAM
 Firestone,»ðÖ®Ê¯,CLOT.FNAM
-Firewatch,»ðÍû,Î»ÓÚ³¿·ç´óÂ½¶«±±½Ç£¬³¿·çÖ÷³ÇÖ®Ò»
+Firewatch,»ðÍû³Ç,Î»ÓÚ³¿·ç´óÂ½¶«±±½Ç£¬³¿·çÖ÷³ÇÖ®Ò»
 First Barrier,³õ¼¶ÆÁÕÏ,SPEL.FNAM
 First Barrier Belt,³õ¼¶ÆÁÕÏÑü´ø,CLOT.FNAM
 First Barrier Ring,³õ¼¶ÆÁÕÏÖ®½ä,CLOT.FNAM
@@ -7290,7 +7290,7 @@ Khagra,¿¨¸ñÀ­,NPC_.FNAM
 Khagra gro-Lurkul,¿¨¸ñÀ­¡¤¸ñÂÞ-Â³¿â¶û,NPC_.FNAM
 Khajiit,¿¨¼ªÌØ,RACE.FNAM
 Khamuzi,¿¨¹þÄÂ×È,NPC_.FNAM
-Khan,Íõ,°¬Åµ·ÆÓï¡£
+Khan,¿Éº¹,°¬Åµ·ÆÓï¡£Íõ
 Khan Belt,¿Éº¹Ñü´ø,CLOT.FNAM
 Khargol,¿¨¸ê¶û,NPC_.FNAM
 Khargol gro-Boguk,¿¨¸ê¶û¡¤¸ñÂÞ-²©¹Å¿Ë,NPC_.FNAM
@@ -8998,7 +8998,6 @@ Nenalata Sel Aran Arpena,ÄÜ°¢À­Ëþ-Èû¶û¡¤°¢À¼¡¤°¢¶ûÅåÄÉ,ÑÇÀúµÂÓï£¬ÒâÎª¡°¸ß¹óÖ®ÍõÌ
 Nenalata Wendesel,ÄÜ°¢À­Ëþ-ÎÂµÂÈû¶û,
 Nenyond Twyll,ÄÜÓÀµÂ¡¤ÌØÎ¬¶û,ÑÇÀúµÂÓï£¬ÒâÎª¡°»ÒË®Ö®¾®¡±¡£ÊÇÎ»ÓÚµÛ¶¼ÄÏ·½£¬ÈüÂåµÏ¶û´óÉ­ÁÖµØÇøµÄÒ»´¦ÖÐÐÍÑÇÀúµÂÒÅ¼£¡£
 Nenyond Twyll Riellesel,ÄÜÓÀµÂ¡¤ÌØÎ¬¶û-Èð¶ûÀÕÈû¶û,
-Nenyond Twyll Riellesel.,ÄÜÓÀµÂ¡¤ÌØÎ¬¶û-Èð¶ûÀÕÈû¶û,
 Neonate,ÐÂÉúÕß,FACT.RNAM
 Neonymic,ÐÂÃû,ÕæÃûµÄ×é³É²¿·Ö¡£
 Neophyte,Èë½ÌÕß,Î»½×£¬Ö¸ÐÂÈë½ÌÕß¡£
@@ -11603,7 +11602,6 @@ Sifknir,Î÷·ò¿ËÄá¶û,NPC_.FNAM
 Signet Ring,ÎÆÕÂ½äÖ¸,CLOT.FNAM
 Sigvatr the Strong,Ç¿×³ÕßÎ÷¸ñÍßÌØ,NPC_.FNAM
 Sil,Ï£¶û,CEL|ACTI.FNAM
-"Sil,","Ï£¶û£¬","CEL"
 Silasel,êØÀ­Èû¶û,ÑÇÀúµÂÓï£¬Ö±ÒëÎª¡°ÉÁÒ«Ìü¡±£¬Êµ¼Ê¿ÉÄÜÒâÎª¡°ÀèÃ÷Ö®Ìü¡±£¬Î»ÓÚ¹þÄ¬ÒÅ¼£ÄÚ¡£
 Silaseli,êØÀ­ÈûÀû,ÑÇÀúµÂÓï£¬ÒâÎª¡°ÉÁÒ«ÖÚÌü¡±£¬Î»ÓÚÎÂµÂ¶û±´¿ËÒÅ¼£ÄÚ¡¢»òÊÇÎ»ÓÚ°à¿ÆÀ³µÄÒ»´¦ÑÇÀúµÂÒÅ¼££¬»òÎ»ÓÚÄáÀû°¢Ë¹ËþÈðÒÅ¼£ÄÚ¡£
 Silasson,Î÷À­ËÉ,NPC_.FNAM
@@ -11902,7 +11900,6 @@ Sosia Caristiana,Ë÷Î÷æ«¡¤¿¨ÀûË¹µÙÑÇÄÉ,NPC_.FNAM
 Sotha,Ë÷Èø,CEL|ACTI.FNAM|CLOT.FNAM|SPEL.FNAM
 Sotha Nall,Ë÷Èø¡¤ÄÉ¶û,Ë÷Èø¡¤Ï£¶ûµÄ½ã½ã£¬ËÀÓÚ´óÙòµÄÈëÇÖ¡£
 Sotha Sil,Ë÷Èø¡¤Ï£¶û,CEL|ACTI.FNAM
-"Sotha Sil,","Ë÷Èø¡¤Ï£¶û£¬","CEL"
 Sotha's Grace,Ë÷ÈøµÄ¶÷µä,SPEL.FNAM
 Sotha's Mirror,Ë÷ÈøÖ®¾µ,SPEL.FNAM
 Sottilde,Ë÷Ìá¶ûµÂ,BOOK.FNAM|NPC_.FNAM
@@ -14089,8 +14086,6 @@ Warehouse shipping log,²Ö¿â×°ÔËÈÕÖ¾,BOOK.FNAM
 Warhammer of Wounds,´´ÉËÕ½´¸,WEAP.FNAM
 Warlock,Î×Õß,CLOT.FNAM|CLAS.FNAM|FACT.RNAM
 Warlock's Ring,Î×ÕßÖ®½ä,CLOT.FNAM
-Warning,¾¯ÑÔ,CLOT.FNAM
-WARNING!!!,¾¯¸æ£¡£¡£¡,BOOK.FNAM
 Warp in the West,Î÷²¿Å¤Çú,Î÷²¿Å¤ÇúÊÂ¼þ·¢ÉúÓÚ÷Ä¹ÇÍåÖÜ±ßµØÇø£¬µ¼ÖÂÖÜ±ßÊÆÁ¦´óÏ´ÅÆ£¬Êµ¼ÊÊÇÒ»´ÎÁúÆÆÊÂ¼þ£¬Ò²½Ð¡°µÚ¶þÅ¬Ã×µÏ°²Ð§Ó¦¡±¡¢¡°ºÍÆ½Ææ¼£¡±¡£ÉÏ¹Å¾íÖá2¹ÊÊÂµÄÖ÷ÒªÄÚÈÝ¡£
 Warrior,Õ½Ê¿,CLAS.FNAM|GMST.STRV
 Warrior Wave,Õ½Ê¿ÀË³±,ÔÚÓÈ¿â´ï´óÂ½»ÙÃðºó£¬Ðí¶àÄÑÃñÓëÕ½Ê¿£¨ËûÃÇ±»³ÆÎªRa Gada£©ÌÓÍùÁËÂä´¸Ê¡¡£ÔÚËûÃÇÖ®ÖÐ±ãÓÐ×ÅÐí¶à½£¸èÕß£¬ÉõÖÁÊÇ°²Èû£¬ÀýÈçÖøÃûµÄ¡°ÑÅ¸÷»ô²¼µÄÊ®ÈýÓÂÊ¿£¨Yaghoub's Thirteen£©¡±¡¢É³ºÕÍò¹úÍõµÄ½£¸èÕß¾ü¶ÓÒÔ¼°´«ËµÖÐµÄ¡¢½öÁôÏÂ¡°ËÄÓ¢½Ü£¨The Four£©¡±Ö®ÃûµÄ°²Èû´óÊ¦

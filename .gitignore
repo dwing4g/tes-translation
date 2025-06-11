@@ -3,6 +3,7 @@
 *.esp
 *.enc.esp
 errors.txt
+openai.tmp.json
 
 /OblivionRemastered/*_P/
 /OblivionRemastered/*.pak
