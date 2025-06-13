@@ -1,68 +1,68 @@
 -- luajit openai.lua openai.trans.lua 输入.txt 输出.txt
+--[[
+luajit openai.lua openai.trans.lua TamrielRebuilt\TR_Mainland.cel TamrielRebuilt\TR_Mainland.c.cel
 
--- luajit openai.lua openai.trans.lua TamrielRebuilt\TR_Mainland.cel TamrielRebuilt\TR_Mainland.c.cel
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\ACTI.FNAM.txt TamrielData\~$ext2\ACTI.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\ALCH.FNAM.txt TamrielData\~$ext2\ALCH.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\APPA.FNAM.txt TamrielData\~$ext2\APPA.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\ARMO.FNAM.txt TamrielData\~$ext2\ARMO.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\BOOK.FNAM.txt TamrielData\~$ext2\BOOK.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\CLAS.FNAM.txt TamrielData\~$ext2\CLAS.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\CLOT.FNAM.txt TamrielData\~$ext2\CLOT.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\CONT.FNAM.txt TamrielData\~$ext2\CONT.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\CREA.FNAM.txt TamrielData\~$ext2\CREA.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\DOOR.FNAM.txt TamrielData\~$ext2\DOOR.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\FACT.FNAM.txt TamrielData\~$ext2\FACT.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\FACT.RNAM.txt TamrielData\~$ext2\FACT.RNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\INGR.FNAM.txt TamrielData\~$ext2\INGR.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\LIGH.FNAM.txt TamrielData\~$ext2\LIGH.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\LOCK.FNAM.txt TamrielData\~$ext2\LOCK.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\MISC.FNAM.txt TamrielData\~$ext2\MISC.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\NPC_.FNAM.txt TamrielData\~$ext2\NPC_.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\PROB.FNAM.txt TamrielData\~$ext2\PROB.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\RACE.FNAM.txt TamrielData\~$ext2\RACE.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\REGN.FNAM.txt TamrielData\~$ext2\REGN.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\REPA.FNAM.txt TamrielData\~$ext2\REPA.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\SPEL.FNAM.txt TamrielData\~$ext2\SPEL.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\WEAP.FNAM.txt TamrielData\~$ext2\WEAP.FNAM.c.txt
 
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\ACTI.FNAM.txt TamrielData\~$ext2\ACTI.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\ALCH.FNAM.txt TamrielData\~$ext2\ALCH.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\APPA.FNAM.txt TamrielData\~$ext2\APPA.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\ARMO.FNAM.txt TamrielData\~$ext2\ARMO.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\BOOK.FNAM.txt TamrielData\~$ext2\BOOK.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\CLAS.FNAM.txt TamrielData\~$ext2\CLAS.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\CLOT.FNAM.txt TamrielData\~$ext2\CLOT.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\CONT.FNAM.txt TamrielData\~$ext2\CONT.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\CREA.FNAM.txt TamrielData\~$ext2\CREA.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\DOOR.FNAM.txt TamrielData\~$ext2\DOOR.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\FACT.FNAM.txt TamrielData\~$ext2\FACT.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\FACT.RNAM.txt TamrielData\~$ext2\FACT.RNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\INGR.FNAM.txt TamrielData\~$ext2\INGR.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\LIGH.FNAM.txt TamrielData\~$ext2\LIGH.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\LOCK.FNAM.txt TamrielData\~$ext2\LOCK.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\MISC.FNAM.txt TamrielData\~$ext2\MISC.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\NPC_.FNAM.txt TamrielData\~$ext2\NPC_.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\PROB.FNAM.txt TamrielData\~$ext2\PROB.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\RACE.FNAM.txt TamrielData\~$ext2\RACE.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\REGN.FNAM.txt TamrielData\~$ext2\REGN.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\REPA.FNAM.txt TamrielData\~$ext2\REPA.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\SPEL.FNAM.txt TamrielData\~$ext2\SPEL.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\WEAP.FNAM.txt TamrielData\~$ext2\WEAP.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\ACTI.FNAM.txt TamrielRebuilt\~$ext2\ACTI.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\ALCH.FNAM.txt TamrielRebuilt\~$ext2\ALCH.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\APPA.FNAM.txt TamrielRebuilt\~$ext2\APPA.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\ARMO.FNAM.txt TamrielRebuilt\~$ext2\ARMO.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\BOOK.FNAM.txt TamrielRebuilt\~$ext2\BOOK.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\CLOT.FNAM.txt TamrielRebuilt\~$ext2\CLOT.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\CONT.FNAM.txt TamrielRebuilt\~$ext2\CONT.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\CREA.FNAM.txt TamrielRebuilt\~$ext2\CREA.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\DOOR.FNAM.txt TamrielRebuilt\~$ext2\DOOR.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\FACT.FNAM.txt TamrielRebuilt\~$ext2\FACT.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\FACT.RNAM.txt TamrielRebuilt\~$ext2\FACT.RNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\INGR.FNAM.txt TamrielRebuilt\~$ext2\INGR.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\LIGH.FNAM.txt TamrielRebuilt\~$ext2\LIGH.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\LOCK.FNAM.txt TamrielRebuilt\~$ext2\LOCK.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\MISC.FNAM.txt TamrielRebuilt\~$ext2\MISC.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\NPC_.FNAM.txt TamrielRebuilt\~$ext2\NPC_.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\PROB.FNAM.txt TamrielRebuilt\~$ext2\PROB.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\REGN.FNAM.txt TamrielRebuilt\~$ext2\REGN.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\REPA.FNAM.txt TamrielRebuilt\~$ext2\REPA.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\SPEL.FNAM.txt TamrielRebuilt\~$ext2\SPEL.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\WEAP.FNAM.txt TamrielRebuilt\~$ext2\WEAP.FNAM.c.txt
 
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\ACTI.FNAM.txt TamrielRebuilt\~$ext2\ACTI.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\ALCH.FNAM.txt TamrielRebuilt\~$ext2\ALCH.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\APPA.FNAM.txt TamrielRebuilt\~$ext2\APPA.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\ARMO.FNAM.txt TamrielRebuilt\~$ext2\ARMO.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\BOOK.FNAM.txt TamrielRebuilt\~$ext2\BOOK.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\CLOT.FNAM.txt TamrielRebuilt\~$ext2\CLOT.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\CONT.FNAM.txt TamrielRebuilt\~$ext2\CONT.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\CREA.FNAM.txt TamrielRebuilt\~$ext2\CREA.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\DOOR.FNAM.txt TamrielRebuilt\~$ext2\DOOR.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\FACT.FNAM.txt TamrielRebuilt\~$ext2\FACT.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\FACT.RNAM.txt TamrielRebuilt\~$ext2\FACT.RNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\INGR.FNAM.txt TamrielRebuilt\~$ext2\INGR.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\LIGH.FNAM.txt TamrielRebuilt\~$ext2\LIGH.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\LOCK.FNAM.txt TamrielRebuilt\~$ext2\LOCK.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\MISC.FNAM.txt TamrielRebuilt\~$ext2\MISC.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\NPC_.FNAM.txt TamrielRebuilt\~$ext2\NPC_.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\PROB.FNAM.txt TamrielRebuilt\~$ext2\PROB.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\REGN.FNAM.txt TamrielRebuilt\~$ext2\REGN.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\REPA.FNAM.txt TamrielRebuilt\~$ext2\REPA.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\SPEL.FNAM.txt TamrielRebuilt\~$ext2\SPEL.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\WEAP.FNAM.txt TamrielRebuilt\~$ext2\WEAP.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\ACTI.FNAM.txt TamrielRebuiltFactions\~$ext2\ACTI.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\BOOK.FNAM.txt TamrielRebuiltFactions\~$ext2\BOOK.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\DOOR.FNAM.txt TamrielRebuiltFactions\~$ext2\DOOR.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\FACT.FNAM.txt TamrielRebuiltFactions\~$ext2\FACT.FNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\FACT.RNAM.txt TamrielRebuiltFactions\~$ext2\FACT.RNAM.c.txt
 
--- luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\ACTI.FNAM.txt TamrielRebuiltFactions\~$ext2\ACTI.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\BOOK.FNAM.txt TamrielRebuiltFactions\~$ext2\BOOK.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\DOOR.FNAM.txt TamrielRebuiltFactions\~$ext2\DOOR.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\FACT.FNAM.txt TamrielRebuiltFactions\~$ext2\FACT.FNAM.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\FACT.RNAM.txt TamrielRebuiltFactions\~$ext2\FACT.RNAM.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\CLAS.DESC.txt TamrielData\~$ext2\CLAS.DESC.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\RACE.DESC.txt TamrielData\~$ext2\RACE.DESC.c.txt
+luajit openai.lua openai.trans.lua TamrielData\~$ext2\SCPT.SCTX.txt TamrielData\~$ext2\SCPT.SCTX.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\SCPT.SCTX.txt TamrielRebuilt\~$ext2\SCPT.SCTX.c.txt
+luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\SCPT.SCTX.txt TamrielRebuiltFactions\~$ext2\SCPT.SCTX.c.txt
 
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\CLAS.DESC.txt TamrielData\~$ext2\CLAS.DESC.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\RACE.DESC.txt TamrielData\~$ext2\RACE.DESC.c.txt
--- luajit openai.lua openai.trans.lua TamrielData\~$ext2\SCPT.SCTX.txt TamrielData\~$ext2\SCPT.SCTX.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuilt\~$ext2\SCPT.SCTX.txt TamrielRebuilt\~$ext2\SCPT.SCTX.c.txt
--- luajit openai.lua openai.trans.lua TamrielRebuiltFactions\~$ext2\SCPT.SCTX.txt TamrielRebuiltFactions\~$ext2\SCPT.SCTX.c.txt
-
--- BOOK
--- INFO
-
+BOOK
+INFO
+--]]
 url = 'http://127.0.0.1:8080/v1/chat/completions'
 openai_api_key = nil
 model = nil

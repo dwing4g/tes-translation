@@ -1,5 +1,63 @@
 -- luajit tes3mod2.lua fix.ext.txt tag from.txt to.txt
--- luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt ACTI.FNAM TamrielData\~$ext2\ACTI.FNAM.txt TamrielData\~$ext2\ACTI.FNAM.c.txt
+--[[
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt ACTI.FNAM TamrielData\~$ext2\ACTI.FNAM.txt TamrielData\~$ext2\ACTI.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt ALCH.FNAM TamrielData\~$ext2\ALCH.FNAM.txt TamrielData\~$ext2\ALCH.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt APPA.FNAM TamrielData\~$ext2\APPA.FNAM.txt TamrielData\~$ext2\APPA.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt ARMO.FNAM TamrielData\~$ext2\ARMO.FNAM.txt TamrielData\~$ext2\ARMO.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt BOOK.FNAM TamrielData\~$ext2\BOOK.FNAM.txt TamrielData\~$ext2\BOOK.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt CLAS.FNAM TamrielData\~$ext2\CLAS.FNAM.txt TamrielData\~$ext2\CLAS.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt CLOT.FNAM TamrielData\~$ext2\CLOT.FNAM.txt TamrielData\~$ext2\CLOT.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt CONT.FNAM TamrielData\~$ext2\CONT.FNAM.txt TamrielData\~$ext2\CONT.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt CREA.FNAM TamrielData\~$ext2\CREA.FNAM.txt TamrielData\~$ext2\CREA.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt DOOR.FNAM TamrielData\~$ext2\DOOR.FNAM.txt TamrielData\~$ext2\DOOR.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt FACT.FNAM TamrielData\~$ext2\FACT.FNAM.txt TamrielData\~$ext2\FACT.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt FACT.FNAM TamrielData\~$ext2\FACT.FNAM.txt TamrielData\~$ext2\FACT.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt INGR.FNAM TamrielData\~$ext2\INGR.FNAM.txt TamrielData\~$ext2\INGR.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt LIGH.FNAM TamrielData\~$ext2\LIGH.FNAM.txt TamrielData\~$ext2\LIGH.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt LOCK.FNAM TamrielData\~$ext2\LOCK.FNAM.txt TamrielData\~$ext2\LOCK.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt MISC.FNAM TamrielData\~$ext2\MISC.FNAM.txt TamrielData\~$ext2\MISC.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt NPC_.FNAM TamrielData\~$ext2\NPC_.FNAM.txt TamrielData\~$ext2\NPC_.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt PROB.FNAM TamrielData\~$ext2\PROB.FNAM.txt TamrielData\~$ext2\PROB.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt RACE.FNAM TamrielData\~$ext2\RACE.FNAM.txt TamrielData\~$ext2\RACE.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt REGN.FNAM TamrielData\~$ext2\REGN.FNAM.txt TamrielData\~$ext2\REGN.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt REPA.FNAM TamrielData\~$ext2\REPA.FNAM.txt TamrielData\~$ext2\REPA.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt SPEL.FNAM TamrielData\~$ext2\SPEL.FNAM.txt TamrielData\~$ext2\SPEL.FNAM.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt WEAP.FNAM TamrielData\~$ext2\WEAP.FNAM.txt TamrielData\~$ext2\WEAP.FNAM.c.txt
+
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt ACTI.FNAM TamrielRebuilt\~$ext2\ACTI.FNAM.txt TamrielRebuilt\~$ext2\ACTI.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt ALCH.FNAM TamrielRebuilt\~$ext2\ALCH.FNAM.txt TamrielRebuilt\~$ext2\ALCH.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt APPA.FNAM TamrielRebuilt\~$ext2\APPA.FNAM.txt TamrielRebuilt\~$ext2\APPA.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt ARMO.FNAM TamrielRebuilt\~$ext2\ARMO.FNAM.txt TamrielRebuilt\~$ext2\ARMO.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt BOOK.FNAM TamrielRebuilt\~$ext2\BOOK.FNAM.txt TamrielRebuilt\~$ext2\BOOK.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt CLOT.FNAM TamrielRebuilt\~$ext2\CLOT.FNAM.txt TamrielRebuilt\~$ext2\CLOT.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt CONT.FNAM TamrielRebuilt\~$ext2\CONT.FNAM.txt TamrielRebuilt\~$ext2\CONT.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt CREA.FNAM TamrielRebuilt\~$ext2\CREA.FNAM.txt TamrielRebuilt\~$ext2\CREA.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt DOOR.FNAM TamrielRebuilt\~$ext2\DOOR.FNAM.txt TamrielRebuilt\~$ext2\DOOR.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt FACT.FNAM TamrielRebuilt\~$ext2\FACT.FNAM.txt TamrielRebuilt\~$ext2\FACT.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt FACT.RNAM TamrielRebuilt\~$ext2\FACT.RNAM.txt TamrielRebuilt\~$ext2\FACT.RNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt INGR.FNAM TamrielRebuilt\~$ext2\INGR.FNAM.txt TamrielRebuilt\~$ext2\INGR.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt LIGH.FNAM TamrielRebuilt\~$ext2\LIGH.FNAM.txt TamrielRebuilt\~$ext2\LIGH.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt LOCK.FNAM TamrielRebuilt\~$ext2\LOCK.FNAM.txt TamrielRebuilt\~$ext2\LOCK.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt MISC.FNAM TamrielRebuilt\~$ext2\MISC.FNAM.txt TamrielRebuilt\~$ext2\MISC.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt NPC_.FNAM TamrielRebuilt\~$ext2\NPC_.FNAM.txt TamrielRebuilt\~$ext2\NPC_.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt PROB.FNAM TamrielRebuilt\~$ext2\PROB.FNAM.txt TamrielRebuilt\~$ext2\PROB.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt REGN.FNAM TamrielRebuilt\~$ext2\REGN.FNAM.txt TamrielRebuilt\~$ext2\REGN.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt REPA.FNAM TamrielRebuilt\~$ext2\REPA.FNAM.txt TamrielRebuilt\~$ext2\REPA.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt SPEL.FNAM TamrielRebuilt\~$ext2\SPEL.FNAM.txt TamrielRebuilt\~$ext2\SPEL.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt WEAP.FNAM TamrielRebuilt\~$ext2\WEAP.FNAM.txt TamrielRebuilt\~$ext2\WEAP.FNAM.c.txt
+
+luajit tes3mod2.lua TamrielRebuiltFactions\tes3cn_TR_Factions.ext.txt ACTI.FNAM TamrielRebuiltFactions\~$ext2\ACTI.FNAM.txt TamrielRebuiltFactions\~$ext2\ACTI.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuiltFactions\tes3cn_TR_Factions.ext.txt BOOK.FNAM TamrielRebuiltFactions\~$ext2\BOOK.FNAM.txt TamrielRebuiltFactions\~$ext2\BOOK.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuiltFactions\tes3cn_TR_Factions.ext.txt DOOR.FNAM TamrielRebuiltFactions\~$ext2\DOOR.FNAM.txt TamrielRebuiltFactions\~$ext2\DOOR.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuiltFactions\tes3cn_TR_Factions.ext.txt FACT.FNAM TamrielRebuiltFactions\~$ext2\FACT.FNAM.txt TamrielRebuiltFactions\~$ext2\FACT.FNAM.c.txt
+luajit tes3mod2.lua TamrielRebuiltFactions\tes3cn_TR_Factions.ext.txt FACT.RNAM TamrielRebuiltFactions\~$ext2\FACT.RNAM.txt TamrielRebuiltFactions\~$ext2\FACT.RNAM.c.txt
+
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt CLAS.DESC TamrielData\~$ext2\CLAS.DESC.txt TamrielData\~$ext2\CLAS.DESC.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt RACE.DESC TamrielData\~$ext2\RACE.DESC.txt TamrielData\~$ext2\RACE.DESC.c.txt
+luajit tes3mod2.lua TamrielData\tes3cn_Tamriel_Data.ext.txt SCPT.SCTX TamrielData\~$ext2\SCPT.SCTX.txt TamrielData\~$ext2\SCPT.SCTX.c.txt
+luajit tes3mod2.lua TamrielRebuilt\tes3cn_TR_Mainland.ext.txt SCPT.SCTX TamrielRebuilt\~$ext2\SCPT.SCTX.txt TamrielRebuilt\~$ext2\SCPT.SCTX.c.txt
+luajit tes3mod2.lua TamrielRebuiltFactions\tes3cn_TR_Factions.ext.txt SCPT.SCTX TamrielRebuiltFactions\~$ext2\SCPT.SCTX.txt TamrielRebuiltFactions\~$ext2\SCPT.SCTX.c.txt
+--]]
 
 local io = io
 local write = io.write
