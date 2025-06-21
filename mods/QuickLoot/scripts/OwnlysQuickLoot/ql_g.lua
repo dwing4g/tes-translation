@@ -401,8 +401,11 @@ end
 local function actuallyActivate(arg)
 	local player = arg[1]
 	local obj = arg[2]
-	--actuallyActivateTable[player.id] = 2
-	--world._runStandardActivationAction(obj, player)
+	local force = arg[3]
+	if force then
+		--actuallyActivateTable[player.id] = 2
+		world._runStandardActivationAction(obj, player)
+	end
 	removeInvisibility(player)
 	obj:activateBy(player)
 end

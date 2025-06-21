@@ -113,6 +113,14 @@
 "Experimental looting workaround": "实验中的替换搜刮方法"
 "If you have some ammo mod that keeps deleting your ammo for some reason": "如果你有某种弹药模组，不知为何总是删除你的弹药"
 
+"can loot during death animation": "死亡动画过程中可以搜刮"
+"it's currently not possible to check the values in the settings.cfg": "现在还不可能检查settings.cfg里的值"
+
+"disable scripted containers": "对有脚本的容器禁用"
+
+"disable scripted actors": "对有脚本的角色禁用"
+"no clue if this is ever necessary, and i dont know what the script is called that prevents looting in the arena": "不知道是否有必要，而且也不知道防止竞技场内搜刮的脚本是什么"
+
 
 "QuickLoot Pickpocket": "快速搜刮 - 扒窃"
 

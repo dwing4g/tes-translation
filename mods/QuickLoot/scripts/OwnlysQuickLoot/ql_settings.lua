@@ -365,6 +365,27 @@ settings = {
 			default = false
 			
 		},
+		{
+			key = "CAN_LOOT_DURING_DEATH_ANIMATION",
+			name = "can loot during death animation",
+			description = "it's currently not possible to check the values in the settings.cfg",
+			renderer = "checkbox",
+			default = false
+		},
+		{
+			key = "DISABLE_SCRIPTED_CONTAINERS",
+			name = "disable scripted containers",
+			description = "",
+			renderer = "checkbox",
+			default = true
+		},
+		{
+			key = "DISABLE_SCRIPTED_ACTORS",
+			name = "disable scripted actors",
+			description = "no clue if this is ever necessary, and i dont know what the script is called that prevents looting in the arena",
+			renderer = "checkbox",
+			default = false
+		},
 		
 	}
 }

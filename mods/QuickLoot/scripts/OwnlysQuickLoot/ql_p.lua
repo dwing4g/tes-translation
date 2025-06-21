@@ -18,6 +18,7 @@ KEY = require('openmw.input').KEY
 input = require('openmw.input')
 v2 = util.vector2
 v3 = util.vector3
+local animation = require('openmw.animation')
 local Controls = require('openmw.interfaces').Controls
 local l10n = core.l10n('QuickLoot')
 makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
@@ -70,7 +71,20 @@ local makeTooltip = require("scripts.OwnlysQuickLoot.tooltip")
 local containerHash = 0
 local ambient = require('openmw.ambient')
 local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
-
+local groups = {
+	["death1"] = true,
+	["death2"] = true,
+	["death3"] = true,
+	["death4"] = true,
+	["death5"] = true,
+	["deathknockdown"] = true,
+	["seathknockout"] = true,
+	["swimdeath"] = true,
+	["swimdeath2"] = true,
+	["swimdeath3"] = true,
+	["swimdeathknockdown"] = true,
+	["swimdeathknockout"] = true,
+}
 
 function updateModEnabled()
 	local tempState = true
@@ -126,13 +140,16 @@ input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sne
 	if inspectedContainer then
 		core.sendGlobalEvent("OwnlysQuickLoot_actuallyActivate",{self, inspectedContainer})
 		I.UI.setMode("Container",{target = inspectedContainer})
-		types.Actor.setStance(self, types.Actor.STANCE.Nothing)
+		--types.Actor.setStance(self, types.Actor.STANCE.Nothing)
 	end
 end))
 
 input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer and (not types.Actor.objectIsInstance(inspectedContainer) or types.Actor.isDead(inspectedContainer)) then
 		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed(), playerSection:get("EXPERIMENTAL_LOOTING")})
+		if types.Container.objectIsInstance(inspectedContainer) and playerSection:get("CONTAINER_ANIMATION") == "on take" then
+			inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
+		end
 	end
 end))
 
@@ -211,7 +228,7 @@ function drawUI()
 
 	local stealCol = nil
 	if inspectedContainer.owner.recordId
-	or inspectedContainer.owner.factionId and types.NPC.getFactionRank(self, inspectedContainer.owner.factionId) == 0
+	or inspectedContainer.owner.factionId and types.NPC.getFactionRank(self, inspectedContainer.owner.factionId)
 	or inspectedContainer.owner.factionId and types.NPC.getFactionRank(self, inspectedContainer.owner.factionId) < inspectedContainer.owner.factionRank then
 		--stealCol = util.color.rgba(1,0.714, 0.706, 1)
 		stealCol = util.color.rgba(1,0.05, 0.05, 1)
@@ -1126,7 +1143,36 @@ function closeHud()
 	end
 end
 
-function stahlrimCheck(cont)
+local scriptWhitelist = {
+ ["balynscript"] = true,
+ ["sleeperscript"] = true,
+ ["float"] = true,
+ ["ajirascript"] = true,
+ ["nolore"] = true,
+ ["eydisscript"] = true,
+ ["localstate"] = true,
+ ["voduniusscript"] = true,
+ ["db_assassinscript"] = true,
+}
+
+function scriptCheck(cont)
+	local script = cont.type.record(cont).mwscript
+	if not script or scriptWhitelist[script] then 
+		return true 
+	end
+	
+	if not types.Container.objectIsInstance(cont) then --is Creature or NPC
+		if playerSection:get("DISABLE_SCRIPTED_ACTORS") then
+			print("quickloot: actor has script '"..script.."'")
+			return false
+		else
+			return true
+		end
+	end
+	if playerSection:get("DISABLE_SCRIPTED_CONTAINERS") then
+		print("quickloot: container has script '"..script.."'")
+		return false
+	end
 	if not (cont.recordId:find("contain_bm_stalhrim")) then
 		return true
 	end
@@ -1139,6 +1185,27 @@ function stahlrimCheck(cont)
 	return false
 end
 
+local function deathAnimCheck(actor)
+	if playerSection:get("CAN_LOOT_DURING_DEATH_ANIMATION")
+	or types.Actor.isDeathFinished(actor)
+	then
+		deathAnimationProgress = 0
+		return true
+	end
+
+	local progress = 0
+	for groupName in pairs(groups) do
+		local time = animation.getCompletion(actor, groupName)
+		if time then
+			progress=time
+		end
+	end
+	if progress > 0.55 then
+		return true
+	end
+	return false
+	
+end
 
 function onFrame(dt)
 	--if inspectedContainer then
@@ -1178,6 +1245,10 @@ function onFrame(dt)
 	if not modEnabled then
 		return
 	end
+	if not types.Player.isCharGenFinished(self) then
+		return
+	end
+	
 	if I.UI.getMode() and not showInMainMenuOverride then
 		return
 	end
@@ -1208,7 +1279,8 @@ function onFrame(dt)
 		cameraPos + camera.viewportToWorldVector(v2(0.5,0.5)) * activationDistance,
 		{ ignore = self }
 	)
-	
+	hoveredContainer = res.hitObject
+
 	if inspectedContainer and (res.hitObject == nil or res.hitObject ~= inspectedContainer) then
 		closeHud()
 	elseif inspectedContainer and types.Actor.getEncumbrance(self) ~= encumbranceCurrent then
@@ -1217,6 +1289,7 @@ function onFrame(dt)
 	--if inspectedContainer then
 	--	print(inspectedContainer.rotation)
 	--end
+	
 	if inspectedContainer 
 	and res.hitObject
 	and res.hitObject.type == types.NPC
@@ -1234,6 +1307,16 @@ function onFrame(dt)
 	then
 		closeHud()
 	end
+	if inspectedContainer and 
+			(
+				res.hitObject.type == types.NPC
+				or res.hitObject.type == types.Creature
+			)
+			and types.Actor.isDead(res.hitObject)
+		then
+		
+	end
+	
 	if inspectedContainer then
 		pickpocket.onFrame(self, inspectedContainer, input, drawUI)
 	elseif not inspectedContainer 
@@ -1246,6 +1329,7 @@ function onFrame(dt)
 				or res.hitObject.type == types.Creature
 			)
 			and types.Actor.isDead(res.hitObject)
+			and deathAnimCheck(res.hitObject)
 		)
 		or (
 			crimesVersion >= 2
@@ -1256,7 +1340,7 @@ function onFrame(dt)
 	)	
 	and not types.Lockable.isLocked(res.hitObject)
 	and not types.Lockable.getTrapSpell(res.hitObject)
-	and stahlrimCheck(res.hitObject)
+	and scriptCheck(res.hitObject)
 	then
 		if not types.Container.inventory(res.hitObject):isResolved() then
 			core.sendGlobalEvent("OwnlysQuickLoot_resolve",res.hitObject)
@@ -1332,7 +1416,7 @@ local function onMouseWheel(vertical)
 	end
 end
 
-function onControllerButtonPress (ctrl)
+function onControllerButtonPress(ctrl)
 	if not modEnabled then
 		return
 	end
@@ -1381,6 +1465,8 @@ local function activatedContainer(data)
 		if pickpocket.activate(self, inspectedContainer, input) then
 			drawUI()
 		end
+	elseif not inspectedContainer and not scriptCheck(cont) then
+		core.sendGlobalEvent("OwnlysQuickLoot_actuallyActivate",{self, cont, true})
 	end
 end
 
@@ -1448,6 +1534,8 @@ end
 local function playSound(sound)
 	ambient.playSound(sound)
 end
+
+
 
 return {    
 	eventHandlers = {

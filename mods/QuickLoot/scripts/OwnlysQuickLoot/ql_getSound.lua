@@ -1,3 +1,5 @@
+local types = require('openmw.types')
+
 local function getArmorClass(armor)
 	local record = types.Armor.record(armor)
 	local referenceWeight = 0
