@@ -1185,6 +1185,18 @@ function scriptCheck(cont)
 	return false
 end
 
+local function chargenFinished()
+	if types.Player.isCharGenFinished(self) then
+		return true
+	end
+	playerItems = types.Container.inventory(self):getAll()
+	for a,b in pairs(playerItems) do
+		if b.recordId == "chargen statssheet" then
+			return true
+		end
+	end
+end
+
 local function deathAnimCheck(actor)
 	if playerSection:get("CAN_LOOT_DURING_DEATH_ANIMATION")
 	or types.Actor.isDeathFinished(actor)
@@ -1245,7 +1257,7 @@ function onFrame(dt)
 	if not modEnabled then
 		return
 	end
-	if not types.Player.isCharGenFinished(self) then
+	if not chargenFinished() then
 		return
 	end
 	
