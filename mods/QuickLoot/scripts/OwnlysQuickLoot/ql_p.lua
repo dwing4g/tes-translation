@@ -71,6 +71,25 @@ local makeTooltip = require("scripts.OwnlysQuickLoot.tooltip")
 local containerHash = 0
 local ambient = require('openmw.ambient')
 local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+local printThrottle = 0
+local lastPrint = {}
+
+local function log(...)
+	local newPrint = {...}
+	local sameMessage = true
+	for a,b in pairs(newPrint) do
+		if lastPrint[a] ~=b then
+			sameMessage = false
+			break
+		end
+	end
+	lastPrint = newPrint
+	if not sameMessage or printThrottle <=0 then
+		printThrottle = 1
+		print(...)
+	end
+end
+
 local groups = {
 	["death1"] = true,
 	["death2"] = true,
@@ -495,14 +514,14 @@ function drawUI()
 
 	
 	local sortedItems = {
-		{}, --cash = {},
-		{}, --keys = {},
-		{}, --lockpicks = {},
-		{}, --soulgems = {},
-		{}, --ingredients= {},
-		{}, --repair = {},
-		{}, --worthless = {},
-		{}, --other = {}
+		{}, --cash = {}, --1
+		{}, --keys = {}, --2
+		{}, --lockpicks = {}, --3
+		{}, --soulgems = {}, --4
+		{}, --ingredients= {}, --5
+		{}, --repair = {}, --6
+		{}, --worthless = {}, --7
+		{}, --other = {} --8
 	}
 	for _,item in pairs(containerItems) do
 		local itemType = item.type
@@ -544,7 +563,7 @@ function drawUI()
 				elseif playerSection:get("CONTAINER_SORTING_STATS") == "Highest Value" then
 					return a[2]>b[2]
 				else --"Best W/V"
-					return a[2]/math.max(1,a[3]) > b[2]/math.max(1,b[3])
+					return a[2]/math.max(0.1,a[3]) > b[2]/math.max(0.1,b[3])
 				end
 			end)
 		else
@@ -1153,6 +1172,14 @@ local scriptWhitelist = {
  ["localstate"] = true,
  ["voduniusscript"] = true,
  ["db_assassinscript"] = true,
+ ["sound_flies"] = true,
+}
+
+local scriptBlacklist = {
+ ["processusscript"] = true,
+
+
+
 }
 
 function scriptCheck(cont)
@@ -1160,17 +1187,20 @@ function scriptCheck(cont)
 	if not script or scriptWhitelist[script] then 
 		return true 
 	end
-	
+	if scriptBlacklist[script] then
+		log("quickloot: actor has script '"..script.." (blacklist)'")
+		return false
+	end
 	if not types.Container.objectIsInstance(cont) then --is Creature or NPC
 		if playerSection:get("DISABLE_SCRIPTED_ACTORS") then
-			print("quickloot: actor has script '"..script.."'")
+			log("quickloot: actor has script '"..script.."'")
 			return false
 		else
 			return true
 		end
 	end
 	if playerSection:get("DISABLE_SCRIPTED_CONTAINERS") then
-		print("quickloot: container has script '"..script.."'")
+		log("quickloot: container has script '"..script.."'")
 		return false
 	end
 	if not (cont.recordId:find("contain_bm_stalhrim")) then
@@ -1220,6 +1250,7 @@ local function deathAnimCheck(actor)
 end
 
 function onFrame(dt)
+	printThrottle = printThrottle - dt
 	--if inspectedContainer then
 	--	-- Get the yaw angle of the container
 	--	local containerYaw = inspectedContainer.rotation:getYaw()

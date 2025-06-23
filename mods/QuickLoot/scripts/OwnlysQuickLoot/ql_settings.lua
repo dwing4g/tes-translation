@@ -374,14 +374,14 @@ settings = {
 		},
 		{
 			key = "DISABLE_SCRIPTED_CONTAINERS",
-			name = "disable scripted containers",
+			name = "ignore scripted containers",
 			description = "",
 			renderer = "checkbox",
 			default = true
 		},
 		{
 			key = "DISABLE_SCRIPTED_ACTORS",
-			name = "disable scripted actors",
+			name = "ignore scripted actors",
 			description = "no clue if this is ever necessary, and i dont know what the script is called that prevents looting in the arena",
 			renderer = "checkbox",
 			default = false

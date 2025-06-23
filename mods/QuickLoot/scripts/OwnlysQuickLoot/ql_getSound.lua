@@ -1,4 +1,5 @@
 local types = require('openmw.types')
+local core = require('openmw.core')
 
 local function getArmorClass(armor)
 	local record = types.Armor.record(armor)
