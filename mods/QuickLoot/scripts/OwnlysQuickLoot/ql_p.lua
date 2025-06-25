@@ -527,6 +527,7 @@ function drawUI()
 		local itemType = item.type
 		local itemRecordId =item.recordId
 		local itemRecord = item.type.record(itemRecordId)
+		
 		if not itemRecord.name 
 		or itemRecord.name == "" 
 		or not types.Item.isCarriable(item) 
@@ -1162,33 +1163,19 @@ function closeHud()
 	end
 end
 
-local scriptWhitelist = {
- ["balynscript"] = true,
- ["sleeperscript"] = true,
- ["float"] = true,
- ["ajirascript"] = true,
- ["nolore"] = true,
- ["eydisscript"] = true,
- ["localstate"] = true,
- ["voduniusscript"] = true,
- ["db_assassinscript"] = true,
- ["sound_flies"] = true,
-}
 
-local scriptBlacklist = {
- ["processusscript"] = true,
-
-
-
-}
+local scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
 
 function scriptCheck(cont)
 	local script = cont.type.record(cont).mwscript
-	if not script or scriptWhitelist[script] then 
+	if not script then
+		return true 
+	elseif scriptDB[script] == false then
+		log("quickloot: target has script '"..script.."' (whitelist)")
 		return true 
 	end
-	if scriptBlacklist[script] then
-		log("quickloot: actor has script '"..script.." (blacklist)'")
+	if scriptDB[script] then
+		log("quickloot: target has script '"..script.."' (blacklist)")
 		return false
 	end
 	if not types.Container.objectIsInstance(cont) then --is Creature or NPC
