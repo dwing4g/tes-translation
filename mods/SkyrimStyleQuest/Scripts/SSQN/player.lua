@@ -38,7 +38,8 @@ local iconlist = {}		local ignorelist = {}
 local updateList = {}
 
 local questLog = {}			local questIndex = {}
-local proxy = { log = {}, index = {} }
+local locations = {}
+local proxy = { log = {}, index = {}, names = {} }
 
 local function parseList(list, isMain)
 	if type(list) ~= "table" then return		end
@@ -179,7 +180,7 @@ local function displayPopup(msg)
 	local e = {
 		x=settings:get("bannerposx"), y=settings:get("bannerposy"),
 --		showTitle = true, showIcon = settings:get("showicon"),
-		width = 420, height = 72,	textX = 0.56, textY = 0.7,
+		width = 360, height = 72,	textX = 0.56, textY = 0.7,
 	}
 
 	local txt = msg.text		local header = msg.header
@@ -263,8 +264,9 @@ local function displayPopup(msg)
 		soundfile = soundfiles[msg.sound] or msg.sound
 		sound = core.sound.records[msg.sound]
 	end
-	--	Adjust volume of quest_update.wav
-	local sndOpt = {volume = soundfile == soundfiles["snd_sky_quest"] and 2 or 1}
+	--	Normalize volume of sound file
+--	local sndOpt = {volume = soundfile == soundfiles["snd_sky_quest"] and 2 or 1}
+	local sndOpt = {volume = soundfile and soundfiles.volume[soundfile:lower()] or 1}
 
 	if sound then
 		ambient.playSound(msg.sound, sndOpt)
@@ -303,6 +305,8 @@ local function journalHandler()
 	displayPopup(msg)
 end
 
+local player = { name="" }
+
 time.runRepeatedly(function()
 	if settings:get("bannerdemo") and element == nil then
 		local finish = playerqlist.testbanner_id
@@ -312,6 +316,45 @@ time.runRepeatedly(function()
 	else
 		journalHandler()
 	end
+	if self.cell ~= player.cell then
+		local c = self.cell
+		if player.cell and c.isExterior and c.name and c.name ~= "" then
+			local name = c.name
+			local s = name:find(",")	if s then name = name:sub(1, s - 1)		end
+		--	print("EXT CELL NAME "..name)
+			local cells, found = locations[name]
+			if not cells then
+				cells = {}
+				locations[name] = cells
+				if settings:get("showDiscover") then
+					I.SSQN.showBanner{ text=name, header=l10n("text_discover") }
+				end
+			end
+			for _, v in ipairs(cells) do
+				if c.gridX == v.gridX and c.gridY == v.gridY then
+					found = true
+				end
+			end
+			if not found then
+				local p = self.position
+			--	print("NEW ENTRY IN LOCATION "..name)
+				table.insert(cells, {
+					gridX = c.gridX, gridY = c.gridY, name = c.name,
+					time = math.floor(core.getGameTime()),
+					position = util.vector3(
+						math.floor(p.x), math.floor(p.y), math.ceil(p.z) 
+					)
+				})
+				local l = {}
+				for k, v in ipairs(cells) do
+					l[k] = util.makeReadOnly(v)
+				end
+				proxy.names[name] = util.makeReadOnly(l)
+			end
+--			player.name = c.name
+		end
+		player.cell = c
+	end	
 end, 1 * time.second)
 
 local dialogTarget
@@ -396,10 +439,20 @@ return {
 					proxy.index[k] = util.makeReadOnly(v)
 				end
 			end
+			if e and e.locations then
+				locations = e.locations
+				for k, v in pairs(locations) do
+					local l = {}
+					for k, v in ipairs(v) do
+						l[k] = util.makeReadOnly(v)
+					end
+					proxy.names[k] = util.makeReadOnly(l)
+				end
+			end
 			initQuestlist()
 		end,
 		onSave = function()
-			return{ version=135, journal = questLog, index = questIndex }
+			return{ version=136, journal = questLog, index = questIndex, locations=locations }
 		end
 	},
 
@@ -442,6 +495,7 @@ return {
 		end,
 		getJournalIndex = function()	return util.makeReadOnly(proxy.index)		end,
 		getJournalQuests = function()	return util.makeReadOnly(proxy.log)		end,
+		getLocations = function()	return util.makeReadOnly(proxy.names)		end,
 		showBanner = function(m)
 			assert(type(m) == "table" and m.text, "showBanner: text key must be a string")
 			m.template = m.template or "objective"

@@ -81,3 +81,7 @@ ssqn.registerQBlock("PC_m1_Tvy_NobleDebt2")
 ssqn.registerQBlock("PC_m1_Tvy_NobleDebt3")
 
 
+-- MAO_Weather.esm
+
+ssqn.registerQBlock("AO_Weather_reload")
+

@@ -10,11 +10,14 @@ local sounds = {
 	snd_book1 = "Fx\\BOOKPAG1.wav",
 	snd_book2 = "Fx\\BOOKPAG2.wav",
 	snd_journal = "SSQN\\journal_update.wav",
+	snd_none = "", snd_custom = "custom", snd_same = "same",
+	snd_mw_quest_1 = "SSQN\\K4zM4k_quest_begin.wav",
+	snd_mw_quest_2 = "SSQN\\K4zM4k_quest_complete.wav",
+
 	snd_ui_quest_new = "Fx\\ui\\ui_quest_new.wav",
 	snd_ui_obj_new_01 = "Fx\\ui\\ui_objective_new_01.wav",
 	snd_ui_skill_increase = "Fx\\ui\\ui_skill_increase.wav",
 	snd_ui_levelup = "Fx\\ui\\ui_levelup.wav",
-	snd_none = "", snd_custom = "custom", snd_same = "same",
 
 	["Skyrim Quest"] = "SSQN\\quest_update.wav",
 	["6th House Chime"] = "Fx\\envrn\\bell2.wav",
@@ -27,7 +30,7 @@ local sounds = {
 
 local default = {
 	snd_ui_quest_new = "SSQN\\quest_update.wav",
-	snd_ui_obj_new_01 = "SSQN\\ob_quest.wav",
+	snd_ui_obj_new_01 = sounds.snd_mw_quest_1,
 	snd_ui_skill_increase = "Fx\\inter\\levelUP.wav",
 	snd_ui_levelup = "Fx\\inter\\levelUP.wav",
 }
@@ -45,5 +48,14 @@ for k, v in pairs(sounds) do
 		end
 	end
 end
+
+sounds.volume = {}
+for k, v in pairs{ snd_sky_quest = 2, snd_mw_quest_1 = 2,  snd_mw_quest_2 = 2 } do
+	local path = sounds[k]
+	if path then
+		sounds.volume[path:lower()] = v
+	end
+end
+
 
 return sounds

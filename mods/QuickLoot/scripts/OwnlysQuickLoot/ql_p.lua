@@ -73,6 +73,9 @@ local ambient = require('openmw.ambient')
 local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
 local printThrottle = 0
 local lastPrint = {}
+local currentScript = nil
+local scriptThrottle = 0
+
 
 local function log(...)
 	local newPrint = {...}
@@ -1154,6 +1157,8 @@ function closeHud()
 		Camera.enableZoom("quickloot")
 		containerHash = 99999999
 		pickpocket.closeHud(self)
+		currentScript = nil
+		scriptThrottle = 0
 		if root then 
 			root:destroy() 
 		end
@@ -1167,39 +1172,73 @@ end
 local scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
 
 function scriptCheck(cont)
+
+	--if (cont.recordId:find("contain_bm_stalhrim")) then
+	--	playerItems = types.Container.inventory(self):getAll()
+	--	for a,b in pairs(playerItems) do
+	--		if b.recordId == "bm nordic pick" then
+	--			return true
+	--		end
+	--	end
+	--	return false
+	--end
+
 	local script = cont.type.record(cont).mwscript
+	if script == currentScript then
+		return true
+	end
 	if not script then
 		return true 
 	elseif scriptDB[script] == false then
 		log("quickloot: target has script '"..script.."' (whitelist)")
 		return true 
 	end
-	if scriptDB[script] then
-		log("quickloot: target has script '"..script.."' (blacklist)")
-		return false
-	end
-	if not types.Container.objectIsInstance(cont) then --is Creature or NPC
-		if playerSection:get("DISABLE_SCRIPTED_ACTORS") then
-			log("quickloot: actor has script '"..script.."'")
-			return false
-		else
-			return true
-		end
-	end
-	if playerSection:get("DISABLE_SCRIPTED_CONTAINERS") then
-		log("quickloot: container has script '"..script.."'")
-		return false
-	end
-	if not (cont.recordId:find("contain_bm_stalhrim")) then
+	if playerSection:get("RUN_SCRIPT_ONCE") and savegameData.openedScriptedContainers[cont.id] then
 		return true
 	end
-	playerItems = types.Container.inventory(self):getAll()
-	for a,b in pairs(playerItems) do
-		if b.recordId == "bm nordic pick" then
-			return true
+	if scriptDB[script] then
+		log("quickloot: target has script '"..script.."' (blacklist)")
+		local now = core.getRealTime()
+		if now - scriptThrottle >=1 then
+			core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+			scriptThrottle = now
 		end
+		return false
+	else
+		log("quickloot: target has script '"..script.."' (unknown)")
+		local now = core.getRealTime()
+		if now - scriptThrottle >=1 then
+			core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+			scriptThrottle = now
+		end
+		return false
 	end
-	return false
+	
+	--if not types.Container.objectIsInstance(cont) then --is Creature or NPC
+	--	if playerSection:get("DISABLE_SCRIPTED_ACTORS") then
+	--		log("quickloot: actor has script '"..script.."'")
+	--		return false
+	--	else
+	--		local now = core.getRealTime()
+	--		if now - scriptThrottle >=1 then
+	--			core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+	--			scriptThrottle = now
+	--		end
+	--		return false --new
+	--		--return true --new
+	--	end
+	--end
+	--if playerSection:get("DISABLE_SCRIPTED_CONTAINERS") then
+	--	log("quickloot: container has script '"..script.."'")
+	--	return false
+	--else --new
+	--	local now = core.getRealTime()
+	--	if now - scriptThrottle >=1 then
+	--		core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+	--		scriptThrottle = now
+	--	end
+	--	return false --new
+	--end
 end
 
 local function chargenFinished()
@@ -1528,6 +1567,9 @@ local function onLoad(data)
 	else
 		savegameData = {}
 	end
+	if not savegameData.openedScriptedContainers then
+		savegameData.openedScriptedContainers = {}
+	end
 end
 
 local function onSave()
@@ -1565,6 +1607,20 @@ local function playSound(sound)
 	ambient.playSound(sound)
 end
 
+local function triedScript(cont)
+	if I.UI.getMode() then
+		log("quickloot: container script triggered")
+		I.UI.setMode()
+		currentScript = cont.type.record(cont).mwscript
+		savegameData.openedScriptedContainers[cont.id] = true
+		
+	else
+		log("quickloot: container script not triggered successfully")
+	end
+end
+
+
+
 
 
 return {    
@@ -1576,6 +1632,7 @@ return {
 		OwnlysQuickLoot_toggle = toggle, -- toggle(<true/false>, "myModName")
 		OwnlysQuickLoot_receiveCrimesVersion = receiveCrimesVersion,
 		OwnlysQuickLoot_playSound = playSound,
+		OwnlysQuickLoot_triedScript = triedScript,
 	},
 	engineHandlers = {
 		onFrame = onFrame,

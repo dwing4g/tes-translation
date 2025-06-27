@@ -1,5 +1,6 @@
 text_queststart: "Quest Started:"
 text_questfinish: "Quest Finished:"
+text_discover: "Discovered:"
 
 snd_sky_quest: "Skyrim Quest"
 snd_sixth: "6th House Chime"
@@ -7,17 +8,19 @@ snd_levelup: "Skill Raise"
 snd_mystic: "Magic Effect"
 snd_ob_quest: "Oblivion Quest"
 snd_racer: "Cliff Racer"
-snd_journal: "Journal"
+snd_journal: "Write on Paper"
 snd_book1: "Book Page 1"
 snd_book2: "Book Page 2"
+snd_none: "None"
+snd_custom: "Custom"
+snd_same: "Same as Start"
+snd_mw_quest_1: "Morrowind Quest 1"
+snd_mw_quest_2: "Morrowind Quest 2"
 
 snd_ui_quest_new: "UI New Quest"
 snd_ui_obj_new_01: "UI Objective 1"
 snd_ui_skill_increase: "UI Skill Increase"
 snd_ui_levelup: "UI Level Up"
-snd_none: "None"
-snd_custom: "Custom"
-snd_same: "Same as Start"
 
 opt_anim_scroll: "Scroll and fadeout"
 opt_fadeout: "Fadeout only"
@@ -25,15 +28,16 @@ opt_none: "None"
 
 settings_modName: "Skyrim Style Quest Notifications"
 
-settings_modDesc: "OpenMW version by Taitechnic\t\tv1.35
+settings_modDesc: "OpenMW version by Taitechnic\t\tv1.36
 \noriginal MWSE mod by Nazz.\n\nThis mod notifies you when you start or finish a quest.
  The idea is to mimic the quest notifications from Skyrim, hence the name."
 
 settings_modCategory1_name: "Preferences"
 settings_modCategory1_setting01_name: "Enable Start/Finish Quest Notifications"
 settings_modCategory1_setting01a_name: "Show Quest Notification Icon"
-settings_modCategory1_setting01d_name: "Font size of Quest Name"
-settings_modCategory1_setting01e_name: "Font size of header text"
+settings_modCategory1_setting01b_name: "Enable Discover New Location Notifications"
+settings_modCategory1_setting01d_name: "Font size of Banner name text"
+settings_modCategory1_setting01e_name: "Font size of Banner header text"
 
 settings_modCategory1_setting02_name: "Transparent Notification Banner"
 settings_modCategory1_setting03_name: "Position of Notification Banner on screen"

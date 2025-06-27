@@ -373,18 +373,11 @@ settings = {
 			default = false
 		},
 		{
-			key = "DISABLE_SCRIPTED_CONTAINERS",
-			name = "ignore scripted containers",
-			description = "",
+			key = "RUN_SCRIPT_ONCE",
+			name = "Run MWscripts only once",
+			description = "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
 			renderer = "checkbox",
 			default = true
-		},
-		{
-			key = "DISABLE_SCRIPTED_ACTORS",
-			name = "ignore scripted actors",
-			description = "no clue if this is ever necessary, and i dont know what the script is called that prevents looting in the arena",
-			renderer = "checkbox",
-			default = false
 		},
 		
 	}

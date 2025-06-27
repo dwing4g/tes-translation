@@ -1,5 +1,6 @@
 text_queststart: "任务开始："
 text_questfinish: "任务完成："
+text_discover: "发现:"
 
 snd_sky_quest: "天际任务"
 snd_sixth: "第六家族钟声"
@@ -7,17 +8,19 @@ snd_levelup: "技能提升"
 snd_mystic: "魔法效果"
 snd_ob_quest: "湮灭任务"
 snd_racer: "峭壁迅鸟"
-snd_journal: "日志"
+snd_journal: "纸上书写"
 snd_book1: "书籍翻页1"
 snd_book2: "书籍翻页2"
+snd_none: "无"
+snd_custom: "自定义"
+snd_same: "同任务开始"
+snd_mw_quest_1: "晨风任务1"
+snd_mw_quest_2: "晨风任务2"
 
 snd_ui_quest_new: "UI新任务"
 snd_ui_obj_new_01: "UI目标1"
 snd_ui_skill_increase: "UI技能提升"
 snd_ui_levelup: "UI等级提升"
-snd_none: "无"
-snd_custom: "自定义"
-snd_same: "同任务开始"
 
 opt_anim_scroll: "滚动并淡出"
 opt_fadeout: "仅淡出"
@@ -25,15 +28,16 @@ opt_none: "无"
 
 settings_modName: "天际风格任务通知"
 
-settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.35
+settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.36
 \n原版MWSE模组制作者：Nazz。\n\n这个模组在你开始和完成任务时会通知你。
  这个想法是模仿天际的任务通知，因此取了这个名字。"
 
 settings_modCategory1_name: "偏好"
 settings_modCategory1_setting01_name: "开始/完成任务时开启通知"
 settings_modCategory1_setting01a_name: "显示任务通知图标"
-settings_modCategory1_setting01d_name: "任务名的字体大小"
-settings_modCategory1_setting01e_name: "标题文字的字体大小"
+settings_modCategory1_setting01b_name: "启用发现新地名的通知"1
+settings_modCategory1_setting01d_name: "栏名称文字的字体大小"
+settings_modCategory1_setting01e_name: "栏标题文字的字体大小"
 
 settings_modCategory1_setting02_name: "透明的通知栏"
 settings_modCategory1_setting03_name: "通知栏在屏幕的位置"

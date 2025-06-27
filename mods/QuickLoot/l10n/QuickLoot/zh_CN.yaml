@@ -116,10 +116,8 @@
 "can loot during death animation": "死亡动画过程中可以搜刮"
 "it's currently not possible to check the values in the settings.cfg": "现在还不可能检查settings.cfg里的值"
 
-"ignore scripted containers": "忽略带脚本的容器"
-
-"ignore scripted actors": "忽略带脚本的角色"
-"no clue if this is ever necessary, and i dont know what the script is called that prevents looting in the arena": "不知道是否有必要，而且也不知道防止竞技场内搜刮的脚本是什么"
+"Run MWscripts only once": "只运行一次MWscripts"
+"after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again": "一个mwscript成功激活后(道具闪烁一秒)不再允许此容器的脚本"
 
 
 "QuickLoot Pickpocket": "快速搜刮 - 扒窃"

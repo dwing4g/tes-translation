@@ -489,6 +489,15 @@ local function modDisposition(data)
 	types.NPC.modifyBaseDisposition(target, player, value)
 end
 
+local function tryScript(data)
+	player = data[1]
+	obj = data[2]
+	
+	player:sendEvent("OwnlysQuickLoot_triedScript", obj)
+	obj:activateBy(player)
+	--world._runStandardActivationAction(obj, player)
+end
+
 return {
 	eventHandlers = {
 		OwnlysQuickLoot_freshLoot = freshLoot,
@@ -505,6 +514,7 @@ return {
 		OwnlysQuickLoot_commitCrime = commitCrime,
 		OwnlysQuickLoot_rotateNpc = rotateNpc,
 		OwnlysQuickLoot_modDisposition = modDisposition,
+		OwnlysQuickLoot_tryScript = tryScript,
 	},
 	engineHandlers = {
 		onUpdate = onUpdate,

@@ -5,16 +5,6 @@ local vfs = require('openmw.vfs')
 local sounds = {}
 sounds.files = require("scripts.SSQN.configSound")
 
---[[
-for k, v in pairs(sounds.files) do
-	if v ~= "" and v ~= "custom" and v ~= "same" then
-		local path = "Sound\\" .. v
-		if not vfs.fileExists(path) then
-			print("Skip sound " .. path)	sounds.files[k] = nil
-		end
-	end
-end
---]]
 
 local function build(m)
 	local f = sounds.files		local list = {}
@@ -25,14 +15,19 @@ local function build(m)
 end
 
 sounds.start = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
+	"snd_mw_quest_1", "snd_mw_quest_2",
 	"snd_sky_quest", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
 	"snd_racer", "snd_none", "snd_custom" }
 
 sounds.finish = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
+	"snd_mw_quest_1", "snd_mw_quest_2",
 	"snd_sky_quest", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
 	"snd_racer", "snd_none", "snd_custom", "snd_same" }
 
-sounds.update = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_journal", 
+sounds.update = build {
+	"snd_ui_obj_new_01", "snd_ui_skill_increase",
+	"snd_mw_quest_1",
+	"snd_journal",
 	"snd_book1", "snd_book2", "snd_none", "snd_custom" }
 
 
@@ -61,6 +56,12 @@ I.Settings.registerGroup({
          default = true,
          renderer = "checkbox",
          name = "settings_modCategory1_setting01a_name",
+      },
+      {
+         key = "showDiscover",
+         default = true,
+         renderer = "checkbox",
+         name = "settings_modCategory1_setting01b_name",
       },
         {
             key = "textSizeTitle",
