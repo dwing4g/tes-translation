@@ -1200,16 +1200,20 @@ function scriptCheck(cont)
 		log("quickloot: target has script '"..script.."' (blacklist)")
 		local now = core.getRealTime()
 		if now - scriptThrottle >=1 then
-			core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+			--core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+			cont:activateBy(self)--new--new
 			scriptThrottle = now
+			scriptContainer = cont
 		end
 		return false
 	else
 		log("quickloot: target has script '"..script.."' (unknown)")
 		local now = core.getRealTime()
 		if now - scriptThrottle >=1 then
-			core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+			--core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
+			cont:activateBy(self)--new--new
 			scriptThrottle = now
+			scriptContainer = cont
 		end
 		return false
 	end
@@ -1275,7 +1279,10 @@ local function deathAnimCheck(actor)
 	
 end
 
+
 function onFrame(dt)
+
+	--print("onframe", I.UI.getMode() or "I.UI.getMode() = nil")
 	printThrottle = printThrottle - dt
 	--if inspectedContainer then
 	--	-- Get the yaw angle of the container
@@ -1552,7 +1559,19 @@ local function UiModeChanged(data)
 		return
 	end
 	if data.newMode then
-		closeHud()
+		local now = core.getRealTime()
+		if now - scriptThrottle < 0.2 then
+			if I.UI.getMode() == "Container" then
+				I.UI.setMode()
+				currentScript = scriptContainer.type.record(scriptContainer).mwscript
+				savegameData.openedScriptedContainers[scriptContainer.id] = true
+				
+			else
+				closeHud()
+			end
+		else
+			closeHud()
+		end
 	else
 	--print(data.arg)
 	end
@@ -1608,15 +1627,7 @@ local function playSound(sound)
 end
 
 local function triedScript(cont)
-	if I.UI.getMode() then
-		log("quickloot: container script triggered")
-		I.UI.setMode()
-		currentScript = cont.type.record(cont).mwscript
-		savegameData.openedScriptedContainers[cont.id] = true
-		
-	else
-		log("quickloot: container script not triggered successfully")
-	end
+
 end
 
 
@@ -1632,7 +1643,7 @@ return {
 		OwnlysQuickLoot_toggle = toggle, -- toggle(<true/false>, "myModName")
 		OwnlysQuickLoot_receiveCrimesVersion = receiveCrimesVersion,
 		OwnlysQuickLoot_playSound = playSound,
-		OwnlysQuickLoot_triedScript = triedScript,
+		--OwnlysQuickLoot_triedScript = triedScript,
 	},
 	engineHandlers = {
 		onFrame = onFrame,

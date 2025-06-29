@@ -492,9 +492,9 @@ end
 local function tryScript(data)
 	player = data[1]
 	obj = data[2]
-	
-	player:sendEvent("OwnlysQuickLoot_triedScript", obj)
+	print("tryscript")
 	obj:activateBy(player)
+	player:sendEvent("OwnlysQuickLoot_triedScript", obj)
 	--world._runStandardActivationAction(obj, player)
 end
 
