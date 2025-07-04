@@ -6,7 +6,7 @@ local activateSecondNextUpdate = {}
 local deleteSecondNextUpdate = {}
 local world = require('openmw.world')
 local I = require("openmw.interfaces")
-local actuallyActivateTable = {}
+local vanillaActivateTable = {}
 local openedGUIs = {}
 local getSound = require("scripts.OwnlysQuickLoot.ql_getSound")
 local util = require('openmw.util')
@@ -210,9 +210,11 @@ local onActivateStuff = {
 ["TR_m3_Kha_Chest_02"] = true,
 ["TR_m3_sarvayn_chest"] = true,
 ["ralen hlaalo"] = true,
+["flora_treestump_unique"] = true,
+
 }
 onActivateStuffOnce = {}
-
+local getSound = require("scripts.OwnlysQuickLoot.ql_getSound")
 
 local function removeInvisibility(player)
 	for a,b in pairs(types.Actor.activeSpells(player)) do
@@ -228,14 +230,15 @@ function triggerMwscriptTrap(obj, player)
 	local script = world.mwscript.getLocalScript(obj, player)
 	--print(world.mwscript.getLocalScript(obj, player).scriptText)
 	--print(world.mwscript.getGlobalScript(recordId, player).scriptText)
+	
 	if script then
 		if script.variables.setonce == 0 
 		or script.variables.done == 0 
 		or script.variables.doOnce == 0
 		then
+			--obj:activateBy(player)
 			player:sendEvent("OwnlysQuickLoot_fellForTrap", obj)
-			obj:activateBy(player)
-			--world._runStandardActivationAction(obj, world.players[1])
+			world._runStandardActivationAction(obj, player)
 			return true
 		
 		elseif not script.variables.setonce
@@ -245,8 +248,8 @@ function triggerMwscriptTrap(obj, player)
 		and not onActivateStuffOnce[obj.recordId] then
 			onActivateStuffOnce[obj.recordId] = true
 			player:sendEvent("OwnlysQuickLoot_fellForTrap", obj)
-			obj:activateBy(player)
-			--world._runStandardActivationAction(obj, world.players[1])
+			--obj:activateBy(player)
+			world._runStandardActivationAction(obj, player)
 			return true
 		end
 	end
@@ -256,7 +259,10 @@ end
 
 local function activateContainer(cont, player)
 	removeInvisibility(player)
-	if not disabledPlayers[player.id] and not actuallyActivateTable[player.id] then
+	if vanillaActivateTable[player.id] then
+		return true
+	end
+	if not disabledPlayers[player.id] and not vanillaActivateTable[player.id] then
 		--world._runStandardActivationAction(cont, world.players[1])
 		triggerMwscriptTrap(cont,player)
 		if not types.Lockable.isLocked(cont)
@@ -270,11 +276,11 @@ local function activateContainer(cont, player)
 end
 
 local function activateActor(actor,player)
-	--if not disabledPlayers[player.id] and not actuallyActivateTable[player.id] and not actor.type.isDead(actor) then
+	--if not disabledPlayers[player.id] and not vanillaActivateTable[player.id] and not actor.type.isDead(actor) then
 	--	player:sendEvent("OwnlysQuickLoot_activatedContainer", {actor, not actor.type.isDead(actor)})
 	--	return false
 	--end
-	if not disabledPlayers[player.id] and not actuallyActivateTable[player.id] and 
+	if not disabledPlayers[player.id] and not vanillaActivateTable[player.id] and 
 	(	actor.type.isDead(actor) 
 		or (
 			openedGUIs[player.id] -- sneaking		
@@ -291,6 +297,38 @@ end
 
 local function resolve(cont)
 	types.Container.inventory(cont):resolve()
+end
+
+local function deposit(data)
+	local player = data[1]
+	local container = data[2]
+	local thing = data[3]
+	local isPickpocketing = data[4]
+	local experimentalLooting = data[5]
+	thing:moveInto(types.Container.inventory(container))
+	player:sendEvent("OwnlysQuickLoot_playSound", getSound(thing))
+end
+
+local function depositAll(data)
+	local player = data[1]
+	local container = data[2]
+	local disposeCorpse = data[3]
+	local isCorpse = data[4]
+	local experimentalLooting = data[5]
+	local i =0
+	if not triggerMwscriptTrap(container,player) then
+		--print(container,container.type,types.Container.inventory(container):isResolved())
+		local containerInventory = types.Container.inventory(container)
+		for _, thing in pairs(types.Player.inventory(player):getAll()) do
+			if not types.Actor.hasEquipped(player,thing) then
+				if not disposeCorpse or containerInventory:countOf(thing.recordId) > 0 then
+					thing:moveInto(containerInventory)
+					player:sendEvent("OwnlysQuickLoot_playSound", getSound(thing))
+				end
+				i=i+1
+			end
+		end
+	end
 end
 
 local function take(data)
@@ -375,12 +413,12 @@ local function onUpdate(dt)
 		end
 		t[1]:activateBy(t[2])
 	end
-	--for a,b in pairs(actuallyActivateTable) do
-	--	actuallyActivateTable[a] = b-1
-	--	if b == 0 then 
-	--		actuallyActivateTable[a] = nil
-	--	end
-	--end
+	for a,b in pairs(vanillaActivateTable) do
+		vanillaActivateTable[a] = b-1
+		if b == 0 then 
+			vanillaActivateTable[a] = nil
+		end
+	end
 	for i, t in pairs(deleteSecondNextUpdate) do
 		if t[2]>1 then
 			t[2] = 1
@@ -398,12 +436,12 @@ local function playerToggledMod(arg)
 	disabledPlayers[player.id] = not toggle
 end
 
-local function actuallyActivate(arg)
+local function vanillaActivate(arg)
 	local player = arg[1]
 	local obj = arg[2]
 	local force = arg[3]
 	if force then
-		--actuallyActivateTable[player.id] = 2
+		vanillaActivateTable[player.id] = 2
 		world._runStandardActivationAction(obj, player)
 	end
 	removeInvisibility(player)
@@ -413,7 +451,7 @@ end
 local function freshLoot(arg)
 	local player = arg[1]
 	local obj = arg[2]
-	--actuallyActivateTable[player.id] = 2
+	--vanillaActivateTable[player.id] = 2
 	--world._runStandardActivationAction(obj, player)
 	if I.FreshLoot then
 		if I.FreshLoot.processLoot then
@@ -492,7 +530,6 @@ end
 local function tryScript(data)
 	player = data[1]
 	obj = data[2]
-	print("tryscript")
 	obj:activateBy(player)
 	player:sendEvent("OwnlysQuickLoot_triedScript", obj)
 	--world._runStandardActivationAction(obj, player)
@@ -502,10 +539,12 @@ return {
 	eventHandlers = {
 		OwnlysQuickLoot_freshLoot = freshLoot,
 		OwnlysQuickLoot_take = take,
+		OwnlysQuickLoot_deposit = deposit,
+		OwnlysQuickLoot_depositAll = depositAll,
 		OwnlysQuickLoot_takeAll = takeAll,
 		OwnlysQuickLoot_takeBook = takeBook,
 		OwnlysQuickLoot_resolve = resolve,
-		OwnlysQuickLoot_actuallyActivate = actuallyActivate,
+		OwnlysQuickLoot_vanillaActivate = vanillaActivate,
 		OwnlysQuickLoot_playerToggledMod = playerToggledMod,
 		OwnlysQuickLoot_test = test,
 		OwnlysQuickLoot_openGUI = openGUI,

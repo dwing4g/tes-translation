@@ -999,7 +999,6 @@ local function onFrame(dt)
 		local res = nearby.castRenderingRay(cameraPos, cameraPos+camera.viewportToWorldVector(v2(0.5,0.5)):emul(v3(2000,2000,2000)))
 		crosshairFilter = res.hitObject
 	end
-	
 	for _,actor in pairs(nearby.actors) do
 		--print(actor.id)
 		local actorPos = actor.position
@@ -1008,20 +1007,28 @@ local function onFrame(dt)
 			local height = false
 			local actorRecordId = actor.recordId
 			local actorScale = actor.scale
-			if not boxCache[actorRecordId] then
+			if not boxCache[actorRecordId] or math.random()<0.15 and dt > 0 then
 				local npcRecord = types.NPC.record(actorRecordId)
 				if npcRecord then-- and types.NPC.races.record(npcRecord.race).isBeast then -- somehow beasts have huge bounding boxes
-					if npcRecord.isMale then
-						boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale)}
-					else
-						boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale)}
+					if not boxCache[actorRecordId] then
+						if npcRecord.isMale then
+							boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale)}
+						else
+							boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale)}
+						end
 					end
 				else
 					--print(actor:getBoundingBox().halfSize)
 					local box = actor:getBoundingBox()
+					local newCache = {box.center-actorPos:ediv(v3(actorScale,actorScale,actorScale)), box.halfSize:ediv(v3(actorScale,actorScale,actorScale)), 1}
 					
 					--print( actorRecordId,box.center,box.halfSize)
-					boxCache[actorRecordId] = {box.center-actorPos:ediv(v3(actorScale,actorScale,actorScale)), box.halfSize:ediv(v3(actorScale,actorScale,actorScale))}
+					if not boxCache[actorRecordId] then
+						boxCache[actorRecordId] = newCache
+					else
+						local strength = 1/(boxCache[actorRecordId][3]+1)+0.01
+						boxCache[actorRecordId] = {boxCache[actorRecordId][1]*(1-strength)+newCache[1]*strength, boxCache[actorRecordId][2]*(1-strength)+newCache[2]*strength, boxCache[actorRecordId][3]+1}
+					end
 					--print(box.center, box.halfSize)
 					--print(boxCache[actorRecordId][1],boxCache[actorRecordId][2])
 				end
@@ -1142,8 +1149,9 @@ local function onFrame(dt)
 			local viewpPos = v2(viewPos_XYZ.x/uiScale, viewPos_XYZ.y/uiScale)
 			local rootViewpPos = v2(rootViewPos_XYZ.x/uiScale, rootViewPos_XYZ.y/uiScale)
 			local v = camera.viewportToWorldVector(v2(0.5, 0.5))
-			
 			local u = (barPos - cameraPos):normalize()
+			--print(v,u)
+			--print(v*u)
 			local angleInRadians = math.acos(v:dot(u) / math.max(0.0001,v * u))
 			local stanceFilter = true
 			if playerSettings:get("ONLY_IN_COMBAT") and types.Actor.getStance(actor) == types.Actor.STANCE.Nothing and (not AI_DB[actor.id] or AI_DB[actor.id].Combat >= now-1) then

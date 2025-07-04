@@ -65,10 +65,12 @@
 "verythick": "非常厚"
 
 "Show read books": "显示已读的读书"
-"doesn't work with the font fix below": "开启下面的字体修正时不起作用"
+"bookworm will highlight books that you have actually read (for 20 seconds)": "书虫会高亮你实际阅读过(20秒以上)的书籍"
 "off": "关"
 "unread": "未读"
 "read": "已读"
+"bookworm": "书虫"
+"bookworm unread": "书虫未读"
 
 "Font Color": "字体颜色"
 "Icon Tint": "图标着色"
@@ -119,10 +121,16 @@
 "Run MWscripts only once": "只运行一次MWscripts"
 "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again": "一个mwscript成功激活后(道具闪烁一秒)不再允许此容器的脚本"
 
+"R switches to deposit": "R键切换成存放"
+"switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.": "使用切换法术键在存放和收回之间切换。\n使用“全部存放”时，它会忽略已装备的物品。在使用“处理尸体”模式时，它只会堆叠容器中已有的物品。"
+
 
 "QuickLoot Pickpocket": "快速搜刮 - 扒窃"
 
 
 "Search": "搜索"
+"Withdraw": "收回"
+"Deposit": "存放"
 "Take All": "全部拿走"
+"Deposit All": "全部存放"
 "scroll to reveal pocket contents": "滚动会展示包裹内容"

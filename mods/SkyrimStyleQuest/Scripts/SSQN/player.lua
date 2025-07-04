@@ -13,8 +13,8 @@ local l10n = core.l10n("SSQN")
 
 
 local soundfiles = require("scripts.SSQN.configSound")
--- local comments = require("scripts.SSQN.comments")
 local comments = {}
+-- local comments = require("scripts.SSQN.comments")
 
 local settings = storage.playerSection("Settings_openmw_SSQN")
 
@@ -99,6 +99,17 @@ local function updateKeys()
 end
 
 updateKeys()
+
+local function updateSettings(_, key)
+	local s = soundfiles.settingKeys[key]
+	if s then
+		soundfiles[s] = settings:get(key)
+	--	print(s, soundfiles[s])
+	end
+end
+
+settings:subscribe(async:callback(updateSettings))
+for k, _ in pairs(soundfiles.settingKeys) do	updateSettings(_, k)		end
 
 
 local function initQuestlist()
@@ -246,18 +257,18 @@ local function displayPopup(msg)
 	element = uicode.renderBanner(e)
 
 	local soundfile, sound
-	if tmpl == "objective" and settings:get("soundfile") ~= "snd_none" then
-	--	soundfile = soundfiles["snd_ui_obj_new_01"] or soundfiles["snd_ob_quest"]
-		soundfile = soundfiles["snd_ui_obj_new_01"]
+
+	if tmpl == "objective" then
+		soundfile = soundfiles[settings:get("sound_objective")]
 	elseif tmpl == "questStart" then
 		soundfile = soundfiles[settings:get("soundfile")]
-		if soundfile == "custom" then soundfile = settings:get("soundcustom")	end
+--		if soundfile == "custom" then soundfile = settings:get("soundcustom")	end
 	elseif tmpl == "questFinish" then
 		soundfile = soundfiles[settings:get("soundfilefin")]
 		if soundfile == "same" then
 			soundfile = soundfiles[settings:get("soundfile")]
-		elseif soundfile == "custom" then
-			soundfile = settings:get("soundcustomfin")
+--		elseif soundfile == "custom" then
+--			soundfile = settings:get("soundcustomfin")
 		end
 	end
 	if type(msg.sound) == "string" then
@@ -322,12 +333,15 @@ time.runRepeatedly(function()
 			local name = c.name
 			local s = name:find(",")	if s then name = name:sub(1, s - 1)		end
 		--	print("EXT CELL NAME "..name)
-			local cells, found = locations[name]
+			local cells, found = locations[name:lower()]
 			if not cells then
 				cells = {}
-				locations[name] = cells
+				locations[name:lower()] = cells
 				if settings:get("showDiscover") then
-					I.SSQN.showBanner{ text=name, header=l10n("text_discover") }
+					I.SSQN.showBanner{
+						text=settings:get("discoverUpper") and name:upper() or name,
+						header=l10n("text_discover")
+					}
 				end
 			end
 			for _, v in ipairs(cells) do
@@ -349,7 +363,7 @@ time.runRepeatedly(function()
 				for k, v in ipairs(cells) do
 					l[k] = util.makeReadOnly(v)
 				end
-				proxy.names[name] = util.makeReadOnly(l)
+				proxy.names[name:lower()] = util.makeReadOnly(l)
 			end
 --			player.name = c.name
 		end
@@ -393,7 +407,7 @@ local function onQuestUpdate(id, stage)
 	end
 
 	local soundfile = soundfiles[settings:get("soundfileupdate")]
-	if soundfile == "custom" then soundfile = settings:get("soundcustomupdate")	end
+--	if soundfile == "custom" then soundfile = settings:get("soundcustomupdate")	end
 	if soundfile then
 		if element == nil and not core.isWorldPaused() then
 			updateList[#updateList + 1] = {}
@@ -480,7 +494,7 @@ return {
 
 	interfaceName = "SSQN",
 	interface = {
-		version = 135,
+		version = 136,
 		registerQIcon = function(id, path)
 			if path:find("^\\") then path = string.sub(path, 2, -1)		end
 			iconlist[id:lower()] = path

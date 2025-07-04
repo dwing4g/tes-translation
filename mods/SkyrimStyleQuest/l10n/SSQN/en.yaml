@@ -12,10 +12,15 @@ snd_journal: "Write on Paper"
 snd_book1: "Book Page 1"
 snd_book2: "Book Page 2"
 snd_none: "None"
-snd_custom: "Custom"
 snd_same: "Same as Start"
+
+snd_custom: "Custom Sound 1"
+snd_custom_2: "Custom Sound 2"
+snd_custom_3: "Custom Sound 3"
+
 snd_mw_quest_1: "Morrowind Quest 1"
 snd_mw_quest_2: "Morrowind Quest 2"
+snd_mw_objective: "Morrowind Objective"
 
 snd_ui_quest_new: "UI New Quest"
 snd_ui_obj_new_01: "UI Objective 1"
@@ -35,7 +40,8 @@ settings_modDesc: "OpenMW version by Taitechnic\t\tv1.36
 settings_modCategory1_name: "Preferences"
 settings_modCategory1_setting01_name: "Enable Start/Finish Quest Notifications"
 settings_modCategory1_setting01a_name: "Show Quest Notification Icon"
-settings_modCategory1_setting01b_name: "Enable Discover New Location Notifications"
+settings_modCategory1_setting01b_name: "Enable New Location Discovery Notifications"
+settings_modCategory1_setting01c_name: "Show New Location name in upper case"
 settings_modCategory1_setting01d_name: "Font size of Banner name text"
 settings_modCategory1_setting01e_name: "Font size of Banner header text"
 
@@ -50,23 +56,28 @@ settings_modCategory1_setting04a_name: "Notification banner animation style"
 
 settings_modCategory1_setting05_name: "How long to display notification (seconds)"
 
-settings_modCategory1_setting06_name: "Notification Sound Start"
-settings_modCategory1_setting06_desc: "Select the sound to be played when the Start Quest
- notification appears. Selecting None silences the notification\n\nDefault: Skyrim Quest"
+settings_modCategory1_setting06_name: "Quest Started Sound"
+settings_modCategory1_setting06_desc: "Select the sound to be played when a Quest is started.
+ Selecting None silences the notification.\n\nDefault: UI New Quest"
 
-settings_modCategory1_setting07_name: "Custom Sound File"
+
+settings_modCategory1_setting08_name: "Quest Finished Sound"
+settings_modCategory1_setting08_desc: "Select the sound to be played when a Quest is finished.
+\n\nDefault: Same as Start"
+
+settings_modCategory1_setting09a_name: "Objective Notification Sound"
+settings_modCategory1_setting09a_desc: "Sound played when all other types of notifications are shown.
+ Used for New Location Discovery.\n\nDefault: UI Objective 1"
+
+settings_modCategory1_setting10_name: "Journal Update Sound"
+settings_modCategory1_setting10_desc: "Sound played when there is a new entry in the Journal.
+\n\nDefault: Write on Paper"
+
+settings_modCategory1_setting07_name: "Custom Sound File 1"
 settings_modCategory1_setting07_desc: "File path in Sound\\ folder, include extension."
+settings_modCategory1_setting09_name: "Custom Sound File 2"
+settings_modCategory1_setting11_name: "Custom Sound File 3"
 
-settings_modCategory1_setting08_name: "Notification Sound Finish"
-settings_modCategory1_setting08_desc: "Select the sound to be played when the Finish Quest
- notification appears.\n\nDefault: Skyrim Quest"
-
-settings_modCategory1_setting09_name: "Custom Sound File"
-settings_modCategory1_setting10_name: "Quest Update Sound"
-settings_modCategory1_setting10_desc: "Select the sound to be played when a Quest stage advances.
-\n\nDefault: Journal Update"
-
-settings_modCategory1_setting11_name: "Custom Sound File"
 settings_modCategory1_setting12_name: "Run notification banner test mode"
 
 

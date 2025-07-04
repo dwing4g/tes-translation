@@ -43,14 +43,19 @@ inspectedContainer = nil
 crimesVersion = 0
 local selectedIndex = 1
 local backupSelectedIndex = 1
-local backupSelectedContainer = nil
 local scrollPos = 1
+local backupSelectedContainer = nil
+local depositSelectedIndex = 1
+local depositBackupSelectedIndex = 1
+local depositScrollPos = 1
 local containerItems = {}
 TAKEALL_KEYBINDING = KEY.F
 uiLoc = v2(playerSection:get("X")/100,playerSection:get("Y")/100)
 uiSize = v2(playerSection:get("WIDTH")/100,playerSection:get("HEIGHT")/100)
 local textureCache = {}
-local bookSection = storage.playerSection('ReadBooks'..MODNAME)
+local bookSection = storage.playerSection('ReadBooks3'..MODNAME)
+local bookTimer = 0
+local currentBook = nil
 local encumbranceCurrent = 0
 local organicContainers = {
 	barrel_01_ahnassi_drink=true,
@@ -75,7 +80,8 @@ local printThrottle = 0
 local lastPrint = {}
 local currentScript = nil
 local scriptThrottle = 0
-
+vanillaActivate = 0
+local deposit = false
 
 local function log(...)
 	local newPrint = {...}
@@ -160,15 +166,29 @@ end
 
 input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer then
-		core.sendGlobalEvent("OwnlysQuickLoot_actuallyActivate",{self, inspectedContainer})
-		I.UI.setMode("Container",{target = inspectedContainer})
-		--types.Actor.setStance(self, types.Actor.STANCE.Nothing)
+		if playerSection:get("R_DEPOSIT") then
+			deposit = not deposit
+			selectedIndex, depositSelectedIndex = depositSelectedIndex, selectedIndex
+			backupSelectedIndex, depositBackupSelectedIndex = depositBackupSelectedIndex, backupSelectedIndex
+			scrollPos, depositScrollPos = depositScrollPos, scrollPos
+			drawUI()
+		else
+			vanillaActivate = core.getRealTime()
+			core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, inspectedContainer, true})
+			--inspectedContainer:activateBy(self)
+			I.UI.setMode("Container",{target = inspectedContainer})
+			--types.Actor.setStance(self, types.Actor.STANCE.Nothing)
+		end
 	end
 end))
 
 input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer and (not types.Actor.objectIsInstance(inspectedContainer) or types.Actor.isDead(inspectedContainer)) then
-		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed(), playerSection:get("EXPERIMENTAL_LOOTING")})
+		if deposit then
+			core.sendGlobalEvent("OwnlysQuickLoot_depositAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed(), playerSection:get("EXPERIMENTAL_LOOTING")})
+		else
+			core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed(), playerSection:get("EXPERIMENTAL_LOOTING")})
+		end
 		if types.Container.objectIsInstance(inspectedContainer) and playerSection:get("CONTAINER_ANIMATION") == "on take" then
 			inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
 		end
@@ -205,6 +225,10 @@ function drawUI()
 		selectedIndex = backupSelectedIndex
 	else
 		scrollPos = 1
+		depositSelectedIndex = 1
+		depositBackupSelectedIndex = 1
+		depositScrollPos = 1
+		deposit = false
 	end
 	backupSelectedIndex = selectedIndex
 	backupSelectedContainer = inspectedContainer 
@@ -271,12 +295,15 @@ function drawUI()
 		content = ui.content({})
 	}
 	table.insert(root.layout.content,headline)
-	
+	local titleText = ""..localizedName.." "
+	if deposit then
+		titleText = "->> "..localizedName.." "
+	end
 	table.insert(headline.content,{
 		type = ui.TYPE.Text,
 		template = quickLootText,
 		props = {
-			text = ""..localizedName.." ",
+			text = titleText,
 			textSize= 25*textSizeMult,
 			position = v2(0, 0),
 			size  = v2(rootWidth,outerHeaderFooterHeight),
@@ -368,12 +395,15 @@ function drawUI()
 	end
 	
 	--GET CONTENTS
-	containerItems = types.Container.inventory(inspectedContainer):getAll()
-	if isPickpocketing then
-		containerItems = pickpocket.filterItems(self, inspectedContainer, containerItems)
+	if deposit then
+		containerItems = types.Container.inventory(self):getAll()
+	else
+		containerItems = types.Container.inventory(inspectedContainer):getAll()
+		if isPickpocketing then
+			containerItems = pickpocket.filterItems(self, inspectedContainer, containerItems)
+		end
+	
 	end
-	
-	
 	
 	-- HEADER
 	if header_footer_setting == "show both" or header_footer_setting == "all top" or header_footer_setting ==  "only top" then
@@ -561,13 +591,15 @@ function drawUI()
 	containerItems = {}
 	for cat, tbl in pairs(sortedItems) do
 		if playerSection:get("CONTAINER_SORTING_STATS") ~= "Vanilla" then
-			table.sort(tbl, function(a,b)
+			table.sort(tbl, function(a, b)
 				if playerSection:get("CONTAINER_SORTING_STATS") == "Lowest Weight" then
-					return a[3]<b[3]
+					return a[3] < b[3] or (a[3] == b[3] and a[1].type.record(a[1]).name:lower() < b[1].type.record(b[1]).name:lower())
 				elseif playerSection:get("CONTAINER_SORTING_STATS") == "Highest Value" then
-					return a[2]>b[2]
-				else --"Best W/V"
-					return a[2]/math.max(0.1,a[3]) > b[2]/math.max(0.1,b[3])
+					return a[2] > b[2] or (a[2] == b[2] and a[1].type.record(a[1]).name:lower() < b[1].type.record(b[1]).name:lower())
+				else -- "Best W/V"
+					local a_WV = a[2] / math.max(0.1, a[3])
+					local b_WV = b[2] / math.max(0.1, b[3])
+					return a_WV > b_WV or (a_WV == b_WV and a[1].type.record(a[1]).name:lower() < b[1].type.record(b[1]).name:lower())
 				end
 			end)
 		else
@@ -735,7 +767,7 @@ function drawUI()
 				local ench = thing and (thing.enchant or thingRecord.enchant ~= "" and thingRecord.enchant )
 				if icon then
 					local tempTemplate = nil
-					if types.Actor.hasEquipped(inspectedContainer,thing) then
+					if deposit and types.Actor.hasEquipped(self,thing) or types.Actor.hasEquipped(inspectedContainer,thing) then
 						tempTemplate = borderTemplate
 					end
 					local iconBox ={
@@ -782,16 +814,8 @@ function drawUI()
 						}
 					})
 				end
-				local readItem = ""
-				if not ench and thing.itemRecordId ~="sc_paper plain" and playerSection:get("READ_BOOKS") ~= "off" and thing.type == types.Book then
-					if playerSection:get("READ_BOOKS") == "read" then
-						readItem = bookSection:get(thing.recordId) and " "..(not playerSection:get("FONT_FIX") and hextoutf8(0xd83d) or "(R)") or ""
-					else
-						readItem = not bookSection:get(thing.recordId) and " "..(not playerSection:get("FONT_FIX") and hextoutf8(0xd83d) or "(R)") or ""
-					end
-				end
-				if readItem ~= "" then
-					table.insert(list.content, {
+				local readItem = "" --(not playerSection:get("FONT_FIX") and hextoutf8(0xd83d) or "(R)")
+				local readElement = {
 						type = ui.TYPE.Image,
 						props = {
 							resource = getTexture("textures/read_indicator.dds"),
@@ -806,8 +830,40 @@ function drawUI()
 							position = v2(3,1),
 							color = playerSection:get("FONT_TINT"),
 						}
-					})
-					readItem = ""
+					}
+				if ench or thing.itemRecordId =="sc_paper plain" or playerSection:get("READ_BOOKS") == "off" or thing.type ~= types.Book then
+					readElement = nil
+				else
+					if playerSection:get("READ_BOOKS") == "bookworm unread" then
+						local DBentry = bookSection:get(thing.recordId)
+						if savegameData.bookSection[thing.recordId] then
+							readElement.props.resource = getTexture("textures/hearteye3.dds")
+						end
+						if DBentry and DBentry >= 20 then
+							readElement = nil
+						end
+					elseif playerSection:get("READ_BOOKS") == "bookworm" then
+						local DBentry = bookSection:get(thing.recordId)
+						if not savegameData.bookSection[thing.recordId] then
+							readElement = nil
+						elseif DBentry and DBentry >= 20 then
+							readElement.props.resource = getTexture("textures/hearteye3.dds")
+						end
+					elseif playerSection:get("READ_BOOKS") == "read" then
+						local DBentry = bookSection:get(thing.recordId)
+						if not savegameData.bookSection[thing.recordId] then
+							readElement = nil
+						elseif DBentry and DBentry >= 20 then
+							readElement.props.resource = getTexture("textures/hearteye.dds")
+						end
+					else
+						if savegameData.bookSection[thing.recordId] then
+							readElement = nil
+						end
+					end
+				end
+				if readElement then
+					table.insert(list.content, readElement)
 				end
 				-- ITEM NAME + COUNT
 				table.insert(list.content, { 
@@ -1107,7 +1163,7 @@ function drawUI()
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
-				text = l10n("Take All"),
+				text = l10n(deposit and "Deposit All" or "Take All"),
 				textSize= 20*textSizeMult,
 				position = v2(rootWidth*0.508+outerHeaderFooterHeight*0.8,rootHeight-outerHeaderFooterHeight/2+1),
 				textColor = playerSection:get("ICON_TINT"),
@@ -1129,11 +1185,19 @@ function drawUI()
 			}
 		})
 		--SUB-FOOTER TEXT Left
+		local searchText = "Search"
+		if playerSection:get("R_DEPOSIT") then
+			if deposit then
+				searchText = "Withdraw"
+			else
+				searchText = "Deposit"
+			end
+		end
 		table.insert(root.layout.content,{
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
-				text = l10n("Search"),
+				text = l10n(searchText),
 				textSize= 20*textSizeMult,
 				textAlignH = ui.ALIGNMENT.End,
 				position = v2(rootWidth*0.493-outerHeaderFooterHeight*0.8,rootHeight-outerHeaderFooterHeight/2+1),
@@ -1441,7 +1505,13 @@ function onFrame(dt)
 	if inspectedContainer then
 		local newHash = ""
 		local entryCount = 0
-		for _, thing in pairs(types.Container.inventory(inspectedContainer):getAll()) do
+		local inv =nil
+		if deposit then
+			inv = types.Container.inventory(self):getAll()
+		else
+			inv = types.Container.inventory(inspectedContainer):getAll()
+		end
+		for _, thing in pairs(inv) do
 			--itemCount = itemCount + thing.count
 			newHash = newHash..thing.count..thing.recordId
 			entryCount = entryCount + 1
@@ -1532,7 +1602,11 @@ local function activatedContainer(data)
 				pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
 				drawUI()
 			else
-				core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+				if deposit then
+					core.sendGlobalEvent("OwnlysQuickLoot_deposit",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+				else
+					core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+				end
 			end
 			if isAlive == nil and playerSection:get("CONTAINER_ANIMATION") == "on take" then
 				inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
@@ -1542,26 +1616,42 @@ local function activatedContainer(data)
 			drawUI()
 		end
 	elseif not inspectedContainer and not scriptCheck(cont) then
-		core.sendGlobalEvent("OwnlysQuickLoot_actuallyActivate",{self, cont, true})
+		core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, cont, true})
 	end
 end
 
 local function UiModeChanged(data)
-	if data.newMode == "Book" or data.newMode == "Scroll" then
-		--print(data.oldMode,data.newMode, data.arg.recordId)
-		--local readBooks = bookSection:get("ReadBooks") 
-		--readBooks = shallowcopy(readBooks)
-		--bookSection:get("ReadBooks")
-		--readBooks[data.arg.recordId] = true
-		bookSection:set(data.arg.recordId, true)
+	if (data.newMode == "Book" or data.newMode == "Scroll") and data.arg.recordId then
+		local now = core.getRealTime()
+		currentBook = data.arg.recordId
+		if not bookSection:get(currentBook) then
+			if data.newMode == "Book" then
+				bookSection:set(currentBook, 0)
+			else
+				bookSection:set(currentBook, 10)
+			end
+		end
+		bookTimer = now
+		savegameData.bookSection[data.arg.recordId] = true
+	elseif (data.oldMode == "Book" or data.oldMode == "Scroll") and currentBook then
+		local now = core.getRealTime()
+		local DBentry = bookSection:get(currentBook)
+		bookSection:set(currentBook, DBentry + now - bookTimer)
+		--print("read for "..(now-bookTimer).." seconds")
 	end
+	--for a,b in pairs(savegameData.openedScriptedContainers) do
+	--	print(a,b)
+	--end
 	if not modEnabled then
 		return
 	end
 	if data.newMode then
 		local now = core.getRealTime()
-		if now - scriptThrottle < 0.2 then
-			if I.UI.getMode() == "Container" then
+		if now - vanillaActivate < 0.2 then
+			closeHud()
+		elseif now - scriptThrottle < 0.2 then
+			--print(scriptContainer.id,I.UI.getMode() == "Container" ,savegameData.openedScriptedContainers[scriptContainer.id])
+			if I.UI.getMode() == "Container"  then
 				I.UI.setMode()
 				currentScript = scriptContainer.type.record(scriptContainer).mwscript
 				savegameData.openedScriptedContainers[scriptContainer.id] = true
@@ -1588,6 +1678,9 @@ local function onLoad(data)
 	end
 	if not savegameData.openedScriptedContainers then
 		savegameData.openedScriptedContainers = {}
+	end
+	if not savegameData.bookSection then
+		savegameData.bookSection = {}
 	end
 end
 

@@ -12,10 +12,15 @@ snd_journal: "纸上书写"
 snd_book1: "书籍翻页1"
 snd_book2: "书籍翻页2"
 snd_none: "无"
-snd_custom: "自定义"
 snd_same: "同任务开始"
+
+snd_custom: "自定义音效"
+snd_custom_2: "自定义音效2"
+snd_custom_3: "自定义音效3"
+
 snd_mw_quest_1: "晨风任务1"
 snd_mw_quest_2: "晨风任务2"
+snd_mw_objective: "晨风目标"
 
 snd_ui_quest_new: "UI新任务"
 snd_ui_obj_new_01: "UI目标1"
@@ -35,7 +40,8 @@ settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.36
 settings_modCategory1_name: "偏好"
 settings_modCategory1_setting01_name: "开始/完成任务时开启通知"
 settings_modCategory1_setting01a_name: "显示任务通知图标"
-settings_modCategory1_setting01b_name: "启用发现新地名的通知"1
+settings_modCategory1_setting01b_name: "启用新地名发现通知"
+settings_modCategory1_setting01c_name: "用大写显示新地名"
 settings_modCategory1_setting01d_name: "栏名称文字的字体大小"
 settings_modCategory1_setting01e_name: "栏标题文字的字体大小"
 
@@ -50,23 +56,28 @@ settings_modCategory1_setting04a_name: "通知栏动画风格"
 
 settings_modCategory1_setting05_name: "显示通知时长(秒)"
 
-settings_modCategory1_setting06_name: "任务开始的通知音效"
-settings_modCategory1_setting06_desc: "选择出现任务开始通知时播放的音效。
- 选择无则表示通知时无声\n\n默认: 天际任务"
+settings_modCategory1_setting06_name: "任务开始的音效"
+settings_modCategory1_setting06_desc: "选择任务开始时播放的音效。
+ 选择无则表示通知时无声。\n\n默认: UI新任务"
 
-settings_modCategory1_setting07_name: "自定义音效文件"
+
+settings_modCategory1_setting08_name: "任务完成的音效"
+settings_modCategory1_setting08_desc: "选择任务完成时播放的音效。
+\n\n默认: 同开始"
+
+settings_modCategory1_setting09a_name: "目标通知音效"
+settings_modCategory1_setting09a_desc: "当所有其它类型的通知显示时播放的音效。
+ 用于发现新地点。\n\n默认: UI目标1"
+ 
+settings_modCategory1_setting10_name: "日志更新音效"
+settings_modCategory1_setting10_desc: "当日志中有新条目时播放的音效。
+\n\n默认: 纸上书写"
+
+settings_modCategory1_setting07_name: "自定义音效文件1"
 settings_modCategory1_setting07_desc: "Sound\\文件夹内的文件路径，包括后缀名。"
+settings_modCategory1_setting09_name: "自定义音效文件2"
+settings_modCategory1_setting11_name: "自定义音效文件3"
 
-settings_modCategory1_setting08_name: "任务完成的通知音效"
-settings_modCategory1_setting08_desc: "选择出现任务完成通知时播放的音效。
- \n\n默认: 天际任务"
-
-settings_modCategory1_setting09_name: "自定义音效文件"
-settings_modCategory1_setting10_name: "任务更新音效"
-settings_modCategory1_setting10_desc: "选择出现任务进度推进时播放的音效。
-\n\n默认: 日志更新"
-
-settings_modCategory1_setting11_name: "自定义音效文件"
 settings_modCategory1_setting12_name: "运行通知栏测试模式"
 
 

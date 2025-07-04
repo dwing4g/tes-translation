@@ -14,21 +14,42 @@ local function build(m)
 	return list
 end
 
-sounds.start = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
-	"snd_mw_quest_1", "snd_mw_quest_2",
-	"snd_sky_quest", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
-	"snd_racer", "snd_none", "snd_custom" }
+sounds.start = build {
+	"snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
+	"snd_mw_quest_1", "snd_mw_quest_2", "snd_mw_objective",
+	"snd_sky_quest", "snd_ob_quest", "snd_sixth", "snd_levelup", "snd_mystic",
+	"snd_racer", "snd_none",
+	"snd_custom", "snd_custom_2", "snd_custom_3",
+}
 
-sounds.finish = build { "snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
-	"snd_mw_quest_1", "snd_mw_quest_2",
-	"snd_sky_quest", "snd_sixth", "snd_levelup", "snd_mystic", "snd_ob_quest",
-	"snd_racer", "snd_none", "snd_custom", "snd_same" }
+sounds.finish = build {
+	"snd_ui_obj_new_01", "snd_ui_skill_increase", "snd_ui_quest_new",
+	"snd_mw_quest_1", "snd_mw_quest_2", "snd_mw_objective",
+	"snd_sky_quest", "snd_ob_quest", "snd_sixth", "snd_levelup", "snd_mystic",
+	"snd_racer", "snd_none", "snd_same",
+	"snd_custom", "snd_custom_2", "snd_custom_3"
+}
 
 sounds.update = build {
 	"snd_ui_obj_new_01", "snd_ui_skill_increase",
+	"snd_mw_objective",
 	"snd_mw_quest_1",
 	"snd_journal",
-	"snd_book1", "snd_book2", "snd_none", "snd_custom" }
+	"snd_book1", "snd_book2", "snd_none",
+	"snd_custom", "snd_custom_2", "snd_custom_3"
+}
+
+sounds.objective = build {
+	"snd_ui_obj_new_01",
+	"snd_ob_quest",
+	"snd_mw_objective",
+	"snd_mw_quest_1",
+	"snd_sixth",
+	"snd_mystic",
+	"snd_ui_skill_increase",
+	"snd_none",
+	"snd_custom", "snd_custom_2", "snd_custom_3"
+}
 
 
 I.Settings.registerPage {
@@ -62,6 +83,12 @@ I.Settings.registerGroup({
          default = true,
          renderer = "checkbox",
          name = "settings_modCategory1_setting01b_name",
+      },
+      {
+         key = "discoverUpper",
+         default = true,
+         renderer = "checkbox",
+         name = "settings_modCategory1_setting01c_name",
       },
         {
             key = "textSizeTitle",
@@ -143,13 +170,6 @@ I.Settings.registerGroup({
                 items = sounds.start,
             },
 	},
-      {
-         key = "soundcustom",
-         default = "SSQN\\quest_update.wav",
-         renderer = "textLine",
-         name = "settings_modCategory1_setting07_name",
-         description = "settings_modCategory1_setting07_desc",
-      },
         {
             key = "soundfilefin",
             name = "settings_modCategory1_setting08_name",
@@ -161,13 +181,19 @@ I.Settings.registerGroup({
                 l10n = "SSQN", 
                 items = sounds.finish,
             },
-	},
-      {
-         key = "soundcustomfin",
-         default = "SSQN\\quest_update.wav",
-         renderer = "textLine",
-         name = "settings_modCategory1_setting09_name",
-      },
+        },
+        {
+            key = "sound_objective",
+            name = "settings_modCategory1_setting09a_name",
+            description = "settings_modCategory1_setting09a_desc",
+            default = "snd_ui_obj_new_01",
+            renderer = "select",
+            argument = {
+                disabled = false,
+                l10n = "SSQN",
+                items = sounds.objective,
+            },
+        },
         {
             key = "soundfileupdate",
             name = "settings_modCategory1_setting10_name",
@@ -178,20 +204,33 @@ I.Settings.registerGroup({
                 disabled = false,
                 l10n = "SSQN",
                 items = sounds.update,
-            },
-	},
-      {
+            }
+        },
+        {
+         key = "soundcustom",
+         default = "SSQN\\ob_quest.wav",
+         renderer = "textLine",
+         name = "settings_modCategory1_setting07_name",
+         description = "settings_modCategory1_setting07_desc",
+        },
+        {
+         key = "soundcustomfin",
+         default = "SSQN\\ob_quest.wav",
+         renderer = "textLine",
+         name = "settings_modCategory1_setting09_name",
+        },
+        {
          key = "soundcustomupdate",
-         default = "SSQN\\quest_update.wav",
+         default = "SSQN\\ob_quest.wav",
          renderer = "textLine",
          name = "settings_modCategory1_setting11_name",
-      },
-      {
+        },
+        {
          key = "bannerdemo",
          default = false,
          renderer = "checkbox",
          name = "settings_modCategory1_setting12_name",
-      },
+        },
    },
 })
 

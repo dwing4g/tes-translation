@@ -250,13 +250,13 @@ settings = {
 		{
 			key = "READ_BOOKS",
 			name = "Show read books",
-			description = "doesn't work with the font fix below",
+			description = "bookworm will highlight books that you have actually read (for 20 seconds)",
 			default = "read", 
 			renderer = "select",
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
-				items = {"off", "unread", "read"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+				items = {"off", "unread", "read", "bookworm", "bookworm unread"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
 		{
@@ -376,6 +376,14 @@ settings = {
 			key = "RUN_SCRIPT_ONCE",
 			name = "Run MWscripts only once",
 			description = "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
+			renderer = "checkbox",
+			default = true
+		},
+		
+		{
+			key = "R_DEPOSIT",
+			name = "R switches to deposit",
+			description = "switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.",
 			renderer = "checkbox",
 			default = true
 		},
