@@ -16709,7 +16709,7 @@ End yarnarScript"
  NPC_.AI_W [40 00 05 00 00 3C 14 0A 0A 00 00 00 0A 01]
 -NPC_
  NPC_.NAME "Donus Serethi$00"
- NPC_.FNAM "多努斯·塞雷西$00"
+ NPC_.FNAM "多努斯·瑟雷提$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Spellsword$00"
  NPC_.ANAM "Hlaalu$00"
@@ -25351,7 +25351,7 @@ End yarnarScript"
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 61 6C 6D 61 6C 65 78 69 61 00 0C 00 00 00 0C 00 00 00 08 BF F6 00 11 7A 4F 00 9C F3 12 00 0C 00 01 00]
 -NPC_
  NPC_.NAME "arnas therethi$00"
- NPC_.FNAM "女神之手阿纳斯·特雷西$00"
+ NPC_.FNAM "女神之手阿纳斯·特雷提$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM "Hands of Almalexia$00"
@@ -28063,20 +28063,20 @@ End yarnarScript"
  INFO.PNAM "118261324145532529$00"
  INFO.NNAM "5794310032282014326$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。"
+ INFO.NAME "埃德里诺·阿雷提告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。"
 -INFO
  INFO.INAM "5794310032282014326$00"
  INFO.PNAM "2036621708180619508$00"
  INFO.NNAM "24483205232516713567$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我杀死了英灵庄园里的病鼠。 {疾病,老鼠}"
+ INFO.NAME "埃德里诺·阿雷提感谢我杀死了英灵庄园里的病鼠。 {疾病,老鼠}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "24483205232516713567$00"
  INFO.PNAM "5794310032282014326$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。"
+ INFO.NAME "我告诉埃德里诺·阿雷提，英灵·半巨魔已经死了。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "A2_1_MeetSulMatuul$00"
@@ -28768,7 +28768,7 @@ End yarnarScript"
  INFO.PNAM "2839229721161495417$00"
  INFO.NNAM "16510247332609229131$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷西的船 -- 精灵游荡号。 {保镖}"
+ INFO.NAME "树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷提的船 -- 精灵游荡号。 {保镖}"
 -INFO
  INFO.INAM "27601113291517218622$00"
  INFO.PNAM "71931900728227932$00"
@@ -28934,20 +28934,20 @@ End yarnarScript"
  INFO.PNAM "592117482455429205$00"
  INFO.NNAM "7639104823142341$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤瑞多然家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。"
+ INFO.NAME "艾辛·萨雷提告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤瑞多然家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。"
 -INFO
  INFO.INAM "44478237168813631$00"
  INFO.PNAM "2296283342732510674$00"
  INFO.NNAM "18236225772463028214$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂感谢我恢复了瑞多然家族的荣誉。"
+ INFO.NAME "艾辛·萨雷提感谢我恢复了瑞多然家族的荣誉。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "18236225772463028214$00"
  INFO.PNAM "44478237168813631$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂指控我谋杀了欧德雷斯·内拉诺。"
+ INFO.NAME "艾辛·萨雷提指控我谋杀了欧德雷斯·内拉诺。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_CalderaCorrupt$00"
@@ -29010,7 +29010,7 @@ End yarnarScript"
  INFO.PNAM "28411199313161917482$00"
  INFO.NNAM "12985302127815680$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "洛罗斯·萨拉诺让我查查瓦乌尔·萨雷蒂是从哪里得到灰烬雕像的。"
+ INFO.NAME "洛罗斯·萨拉诺让我查查瓦乌尔·萨雷提是从哪里得到灰烬雕像的。"
 -INFO
  INFO.INAM "96572710715321683$00"
  INFO.PNAM "25954306322338612530$00"
@@ -29123,20 +29123,20 @@ End yarnarScript"
  INFO.PNAM "1228027271813227592$00"
  INFO.NNAM "1680226948119611407$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷西。"
+ INFO.NAME "埃德里诺·阿雷提告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷提。"
 -INFO
  INFO.INAM "2423413073985532585$00"
  INFO.PNAM "1680226948119611407$00"
  INFO.NNAM "80161154198418224$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我从穆鲁迪斯·弗莱厄斯那里拿到了800金币。"
+ INFO.NAME "埃德里诺·阿雷提感谢我从穆鲁迪斯·弗莱厄斯那里拿到了800金币。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "80161154198418224$00"
  INFO.PNAM "2423413073985532585$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。"
+ INFO.NAME "埃德里诺·阿雷提感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_EscortMerchant$00"
@@ -29153,13 +29153,13 @@ End yarnarScript"
  INFO.PNAM "1471615591391915114$00"
  INFO.NNAM "7392263603260720591$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {保镖}"
+ INFO.NAME "埃德里诺·阿雷提让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {保镖}"
 -INFO
  INFO.INAM "1996331301205355064$00"
  INFO.PNAM "85333945279755953$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {保镖}"
+ INFO.NAME "埃德里诺·阿雷提感谢我护送塔文·法伦前往佩拉吉亚德。 {保镖}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_AshlanderEbony$00"
@@ -29176,20 +29176,20 @@ End yarnarScript"
  INFO.PNAM "2488627585889230507$00"
  INFO.NNAM "14463212941048128367$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。"
+ INFO.NAME "埃德里诺·阿雷提让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。"
 -INFO
  INFO.INAM "31234061904826862$00"
  INFO.PNAM "2009412850271512772$00"
  INFO.NNAM "3145212414923826479$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我与哉纳布进行了谈判。"
+ INFO.NAME "埃德里诺·阿雷提感谢我与哉纳布进行了谈判。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "3145212414923826479$00"
  INFO.PNAM "31234061904826862$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉埃德里安·阿雷西，因为我杀了他们中的一个人，所以哉纳布的人不会和我交易。"
+ INFO.NAME "我告诉埃德里安·阿雷提，因为我杀了他们中的一个人，所以哉纳布的人不会和我交易。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_SunkenTreasure$00"
@@ -29206,13 +29206,13 @@ End yarnarScript"
  INFO.PNAM "14780163631053519629$00"
  INFO.NNAM "44131684462727731$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西知道前奏曲号那艘船沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉胁差，并把它还给埃德里诺·阿雷西。 {迪德拉式}"
+ INFO.NAME "埃德里诺·阿雷提知道前奏曲号那艘船沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉胁差，并把它还给埃德里诺·阿雷提。 {迪德拉式}"
 -INFO
  INFO.INAM "44131684462727731$00"
  INFO.PNAM "7515702985821156$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我归还了迪德拉胁差。 {迪德拉式}"
+ INFO.NAME "埃德里诺·阿雷提感谢我归还了迪德拉胁差。 {迪德拉式}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HT_TheranaClothes$00"
@@ -29969,20 +29969,20 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "1025354912338120284$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "瑞多然家族：营救瓦乌尔·萨雷蒂"
+ INFO.NAME "瑞多然家族：营救瓦乌尔·萨雷提"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "1025354912338120284$00"
  INFO.PNAM "27128175562942722941$00"
  INFO.NNAM "15625242182690320029$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂让我去维尼姆府邸救他的儿子瓦乌尔·萨雷蒂，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则瑞多然家族的其他议员会反对我。"
+ INFO.NAME "艾辛·萨雷提让我去维尼姆府邸救他的儿子瓦乌尔·萨雷提，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则瑞多然家族的其他议员会反对我。"
 -INFO
  INFO.INAM "5844115132424315150$00"
  INFO.PNAM "131151588917328996$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂感谢我从维尼姆府邸救出了他的儿子。"
+ INFO.NAME "艾辛·萨雷提感谢我从维尼姆府邸救出了他的儿子。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_OrethiSisters$00"
@@ -29999,13 +29999,13 @@ End yarnarScript"
  INFO.PNAM "7346221962927829557$00"
  INFO.NNAM "257356135208117736$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "阿瑞妮·奥瑞缇让我查明她姐妹薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}"
+ INFO.NAME "阿瑞妮·奥雷提让我查明她姐妹薇尔莎·奥雷提的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}"
 -INFO
  INFO.INAM "893133791234926605$00"
  INFO.PNAM "5466113511146527996$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "阿瑞妮·奥瑞缇感谢我帮助了她的姐妹。"
+ INFO.NAME "阿瑞妮·奥雷提感谢我帮助了她的姐妹。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_AttackUvirith$00"
@@ -30045,20 +30045,20 @@ End yarnarScript"
  INFO.PNAM "1514298982781716531$00"
  INFO.NNAM "1263826052318442451$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。"
+ INFO.NAME "埃德里诺·阿雷提告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。"
 -INFO
  INFO.INAM "11067184411845825714$00"
  INFO.PNAM "1263826052318442451$00"
  INFO.NNAM "32259312781758210603$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我杀死了偷窃拉伦·提尔乌商店的小偷。"
+ INFO.NAME "埃德里诺·阿雷提感谢我杀死了偷窃拉伦·提尔乌商店的小偷。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "32259312781758210603$00"
  INFO.PNAM "11067184411845825714$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉埃德里诺·阿雷西，拉伦·提尔乌已经死了。"
+ INFO.NAME "我告诉埃德里诺·阿雷提，拉伦·提尔乌已经死了。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_RentCollector$00"
@@ -31145,20 +31145,20 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "9036156472772618059$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "瑞多然家族：守卫萨雷蒂府邸"
+ INFO.NAME "瑞多然家族：守卫萨雷提府邸"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "9036156472772618059$00"
  INFO.PNAM "335818112386222498$00"
  INFO.NNAM "23593315432462118968$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "内明达让我守卫萨雷蒂府邸。 {瓜尔,卫兵}"
+ INFO.NAME "内明达让我守卫萨雷提府邸。 {瓜尔,卫兵}"
 -INFO
  INFO.INAM "664792032309314006$00"
  INFO.PNAM "2504325623162391355$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "内明达感谢我卫兵保护艾辛·萨雷蒂Serjo（大人）。"
+ INFO.NAME "内明达感谢我卫兵保护艾辛·萨雷提Serjo（大人）。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_AshimanuMine$00"
@@ -31221,27 +31221,27 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "2340317191134797593$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "瑞多然家族：清脱瓦乌尔·萨雷蒂的罪名"
+ INFO.NAME "瑞多然家族：清脱瓦乌尔·萨雷提的罪名"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "2340317191134797593$00"
  INFO.PNAM "178553275847284$00"
  INFO.NNAM "2138581353121119655$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷蒂被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷蒂府邸审问瓦乌尔·萨雷蒂。"
+ INFO.NAME "艾辛·萨雷提Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷提被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷提府邸审问瓦乌尔·萨雷提。"
 -INFO
  INFO.INAM "2217967581718628042$00"
  INFO.PNAM "261062157177445094$00"
  INFO.NNAM "25311205027667809$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。"
+ INFO.NAME "艾辛·萨雷提感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "25311205027667809$00"
  INFO.PNAM "2217967581718628042$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "洛罗斯·萨拉诺说，瓦乌尔·萨雷蒂将洗脱谋杀布拉伦·卡瓦伦的罪名。"
+ INFO.NAME "洛罗斯·萨拉诺说，瓦乌尔·萨雷提将洗脱谋杀布拉伦·卡瓦伦的罪名。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_MorvaynManor$00"
@@ -33024,20 +33024,20 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "3211954743028115006$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "战士公会：维雷西帮"
+ INFO.NAME "战士公会：维雷提帮"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "3211954743028115006$00"
  INFO.PNAM "250852298875311231$00"
  INFO.NNAM "14760934222272524$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。"
+ INFO.NAME "艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷提，他是维雷提帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。"
 -INFO
  INFO.INAM "14760934222272524$00"
  INFO.PNAM "3211954743028115006$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾迪斯·火眼付给我1000金币，让我把维雷西帮赶尽杀绝。 {事}"
+ INFO.NAME "艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {事}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "FG_HungerLoose$00"
@@ -33204,13 +33204,13 @@ End yarnarScript"
  INFO.PNAM "3135525542026710245$00"
  INFO.NNAM "2562433173124518036$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}"
+ INFO.NAME "埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}"
 -INFO
  INFO.INAM "38030277295099293$00"
  INFO.PNAM "2562433173124518036$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我交付了密封的命令。 {指示}"
+ INFO.NAME "埃德里诺·阿雷提感谢我交付了密封的命令。 {指示}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_BeroSupport$00"
@@ -33535,14 +33535,14 @@ End yarnarScript"
  INFO.PNAM "36402284113064052$00"
  INFO.NNAM "2349910328103832028$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "当艾辛·萨雷蒂任命我为瑞多然统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是瑞多然家族选中的勇士。 {沙尔}"
+ INFO.NAME "当艾辛·萨雷提任命我为瑞多然统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是瑞多然家族选中的勇士。 {沙尔}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2349910328103832028$00"
  INFO.PNAM "20621853163211746$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂给我看了一份公告，上面写着我是一名帝国密探。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {帝国人}"
+ INFO.NAME "艾辛·萨雷提给我看了一份公告，上面写着我是一名帝国密探。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {帝国人}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "B5_SarethiHort$00"
@@ -33559,7 +33559,7 @@ End yarnarScript"
  INFO.PNAM "718226521261324568$00"
  INFO.NNAM "38372373322594187$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "由于我杀害了一名瑞多然顾问，萨雷蒂说其他议员绝不会同意让我担任统谏使。 {咨询}"
+ INFO.NAME "由于我杀害了一名瑞多然顾问，萨雷提说其他议员绝不会同意让我担任统谏使。 {咨询}"
 -DIAL
  DIAL.NAME "B5_RamoranHort$00"
  DIAL.DATA [04]
@@ -35202,14 +35202,14 @@ End yarnarScript"
  INFO.PNAM "1944308643252616338$00"
  INFO.NNAM "25974211622522932654$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。"
+ INFO.NAME "艾辛·萨雷提相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "25974211622522932654$00"
  INFO.PNAM "3194027223008328872$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂感谢我结束了舒林巴尔的走私活动。"
+ INFO.NAME "艾辛·萨雷提感谢我结束了舒林巴尔的走私活动。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_FindTharen$00"
@@ -36536,7 +36536,7 @@ End yarnarScript"
  INFO.PNAM "66963342383619252$00"
  INFO.NNAM "26483164862152927578$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的新家主。"
+ INFO.NAME "艾辛·萨雷提让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的新家主。"
 -INFO
  INFO.INAM "2082553503074113793$00"
  INFO.PNAM "631127783245123006$00"
@@ -37392,13 +37392,13 @@ End yarnarScript"
  INFO.PNAM "124319454968611453$00"
  INFO.NNAM "2816223022547429863$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。"
+ INFO.NAME "埃德里诺·阿雷提让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。"
 -INFO
  INFO.INAM "891121596153821637$00"
  INFO.PNAM "1442965783004424632$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷西感谢我保护了奥迪尔尼兰。"
+ INFO.NAME "埃德里诺·阿雷提感谢我保护了奥迪尔尼兰。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_BankFraud$00"
@@ -38064,13 +38064,13 @@ End yarnarScript"
  INFO.PNAM "30395195041156017584$00"
  INFO.NNAM "29494241139524307$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷蒂在幽魂之门的灵动扈从兵营里的私人箱子里。"
+ INFO.NAME "绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷提在幽魂之门的灵动扈从兵营里的私人箱子里。"
 -INFO
  INFO.INAM "29494241139524307$00"
  INFO.PNAM "2219630828870221827$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷蒂在幽魂之门的箱子里。"
+ INFO.NAME "绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷提在幽魂之门的箱子里。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MV_SlaveMule$00"
@@ -38460,7 +38460,7 @@ End yarnarScript"
  INFO.PNAM "842617421345914450$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂担心我没有实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。"
+ INFO.NAME "艾辛·萨雷提担心我没有实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。"
 -DIAL
  DIAL.NAME "B8_BackDoor2$00"
  DIAL.DATA [04]
@@ -39963,7 +39963,7 @@ End yarnarScript"
  INFO.PNAM "1650670122645023757$00"
  INFO.NNAM "979912035222915252$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "幽魂之门的灵动扈从萨利恩·萨雷蒂声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷蒂挑战，比试智慧、诗歌和荣誉礼节。"
+ INFO.NAME "幽魂之门的灵动扈从萨利恩·萨雷提声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷提挑战，比试智慧、诗歌和荣誉礼节。"
 -INFO
  INFO.INAM "28011321812039127676$00"
  INFO.PNAM "501141552931426994$00"
@@ -39976,7 +39976,7 @@ End yarnarScript"
  INFO.PNAM "28011321812039127676$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "苍白者弗拉德听到我输掉了对萨利恩·萨雷蒂的挑战后很失望，但他感谢我有勇气迎接挑战。"
+ INFO.NAME "苍白者弗拉德听到我输掉了对萨利恩·萨雷提的挑战后很失望，但他感谢我有勇气迎接挑战。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IL_Smuggler$00"
@@ -41494,20 +41494,20 @@ End yarnarScript"
  INFO.PNAM "23481756870716288$00"
  INFO.NNAM "409073402921730443$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂说，瑞多然贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。"
+ INFO.NAME "艾辛·萨雷提说，瑞多然贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。"
 -INFO
  INFO.INAM "3038997131625721006$00"
  INFO.PNAM "21517185743027323784$00"
  INFO.NNAM "2625011566253311759$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂感谢我杀死了疯狂领主阿雷森·曼达斯。"
+ INFO.NAME "艾辛·萨雷提感谢我杀死了疯狂领主阿雷森·曼达斯。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2625011566253311759$00"
  INFO.PNAM "3038997131625721006$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "艾辛·萨雷蒂感谢我让阿雷森·曼达斯恢复理智。"
+ INFO.NAME "艾辛·萨雷提感谢我让阿雷森·曼达斯恢复理智。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_EggMine$00"
@@ -63744,7 +63744,7 @@ Journal town_Vivec 5"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Redoran$00"
  INFO.ANAM "Ald-ruhn$00"
- INFO.NAME "大家都说瓦乌尔·萨雷蒂谋杀了布拉伦·卡瓦伦。但我不信，他们是最好的朋友。"
+ INFO.NAME "大家都说瓦乌尔·萨雷提谋杀了布拉伦·卡瓦伦。但我不信，他们是最好的朋友。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -63833,7 +63833,7 @@ Journal town_Vivec 5"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Redoran$00"
  INFO.ANAM "Ald-ruhn$00"
- INFO.NAME "艾辛·萨雷蒂也许是“瑞多然的希望”，但有人想要他的命。他已经受到莫拉格堂三次的袭击了。"
+ INFO.NAME "艾辛·萨雷提也许是“瑞多然的希望”，但有人想要他的命。他已经受到莫拉格堂三次的袭击了。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [50 00 00 00]
  INFO.SCVR "17XX0bolvyn venim"
@@ -84019,7 +84019,7 @@ player->AddItem ""bladepiece_02"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Hlaalu$00"
  INFO.ANAM "Vivec$00"
- INFO.NAME "如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷西。 {事}"
+ INFO.NAME "如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷提。 {事}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO

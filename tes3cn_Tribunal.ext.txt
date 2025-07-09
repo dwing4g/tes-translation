@@ -4197,7 +4197,7 @@ Anrel
 
 > NPC_.FNAM Donus Serethi
 Donus Serethi
-多努斯·塞雷西
+多努斯·瑟雷提
 
 > NPC_.FNAM King Hlaalu Helseth
 King Hlaalu Helseth
@@ -7146,7 +7146,7 @@ Hand Drals Indobar
 
 > NPC_.FNAM arnas therethi
 Hand Arnas Therethi
-女神之手阿纳斯·特雷西
+女神之手阿纳斯·特雷提
 
 > NPC_.FNAM savor hlan
 Hand Savor Hlan
@@ -8389,15 +8389,15 @@ House Hlaalu: Exterminator
 
 > INFO.NAME hh_theexterminator 2036621708180619508
 Edryno Arethi told me that Yngling Half-Troll raises game rats for the Arena. A competitor has placed diseased rats among Yngling's game rats. I must go to Yngling Manor in the St. Olms Plaza and kill the diseased rats, but spare the prized game rats.
-埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
+埃德里诺·阿雷提告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
 
 > INFO.NAME hh_theexterminator 5794310032282014326
 Edryno Arethi thanked me for killing the diseased rats in Yngling Manor.
-埃德里诺·阿雷西感谢我杀死了英灵庄园里的病鼠。 {疾病,老鼠}
+埃德里诺·阿雷提感谢我杀死了英灵庄园里的病鼠。 {疾病,老鼠}
 
 > INFO.NAME hh_theexterminator 24483205232516713567
 I told Edryno Arethi that Yngling Half-Troll is dead.
-我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。
+我告诉埃德里诺·阿雷提，英灵·半巨魔已经死了。
 
 > INFO.NAME a2_1_meetsulmatuul 6700287971415821869
 Meet Sul-Matuul
@@ -8757,7 +8757,7 @@ Mages Guild: Escort Tenyeminwe
 
 > INFO.NAME mg_escortscholar1 27493305952297617750
 Skink asked me to escort the scholar Tenyeminwe to Gals Arethi's ship, the Elf-Skerring, over at the Telvanni docks.
-树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷西的船 -- 精灵游荡号。 {保镖}
+树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷提的船 -- 精灵游荡号。 {保镖}
 
 > INFO.NAME mg_escortscholar1 27601113291517218622
 Skink thanked me for escorting Tenyeminwe to the Elf-Skerring.
@@ -8845,15 +8845,15 @@ House Redoran: Ondres Nerano's Slanders
 
 > INFO.NAME hr_honorchallenge 1766118066273288836
 Athyn Sarethi told me that a Hlaalu Noble, Ondres Nerano, has been slandering House Redoran. I must find Ondres Nerano in Balmora and challenge him to withdraw his statements.
-艾辛·萨雷蒂告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤瑞多然家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。
+艾辛·萨雷提告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤瑞多然家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。
 
 > INFO.NAME hr_honorchallenge 44478237168813631
 Athyn Sarethi thanked me for restoring the honor of House Redoran.
-艾辛·萨雷蒂感谢我恢复了瑞多然家族的荣誉。
+艾辛·萨雷提感谢我恢复了瑞多然家族的荣誉。
 
 > INFO.NAME hr_honorchallenge 18236225772463028214
 Athyn Sarethi accused me of murdering Ondres Nerano.
-艾辛·萨雷蒂指控我谋杀了欧德雷斯·内拉诺。
+艾辛·萨雷提指控我谋杀了欧德雷斯·内拉诺。
 
 > INFO.NAME hr_calderacorrupt 31730381675699159
 House Redoran: Evidence of Corruption
@@ -8885,7 +8885,7 @@ House Redoran: Ash Statue
 
 > INFO.NAME hr_sixthhousebase 298966103149132701
 Lloros Sarano asked me to find out where Varvur Sarethi got the ash statue.
-洛罗斯·萨拉诺让我查查瓦乌尔·萨雷蒂是从哪里得到灰烬雕像的。
+洛罗斯·萨拉诺让我查查瓦乌尔·萨雷提是从哪里得到灰烬雕像的。
 
 > INFO.NAME hr_sixthhousebase 96572710715321683
 Lloros Sarano thanked me for stopping the spread of the ash statues.
@@ -8945,15 +8945,15 @@ House Hlaalu: Murudius Flaeus's Debt
 
 > INFO.NAME hh_buriedtreasure 2045064223213027837
 Edryno Arethi told me that Murudius Flaeus owes a Hlaalu noble over 800 gold. I must get the 800 gold from Murudius Flaeus in Hla Oad and return it to Edryno Arethi.
-埃德里诺·阿雷西告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷西。
+埃德里诺·阿雷提告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷提。
 
 > INFO.NAME hh_buriedtreasure 2423413073985532585
 Edryno Arethi thanked me for getting the 800 gold from Murudius Flaeus.
-埃德里诺·阿雷西感谢我从穆鲁迪斯·弗莱厄斯那里拿到了800金币。
+埃德里诺·阿雷提感谢我从穆鲁迪斯·弗莱厄斯那里拿到了800金币。
 
 > INFO.NAME hh_buriedtreasure 80161154198418224
 Edryno Arethi thanked me for killing Murudius Flaeus as an example for others.
-埃德里诺·阿雷西感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。
+埃德里诺·阿雷提感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。
 
 > INFO.NAME hh_escortmerchant 1471615591391915114
 House Hlaalu: Escort Tarvyn Faren
@@ -8961,11 +8961,11 @@ House Hlaalu: Escort Tarvyn Faren
 
 > INFO.NAME hh_escortmerchant 615616476473814178
 Edryno Arethi asked me to escort the trader Tarvyn Faren from the North Landing here in Vivec to Pelagiad.
-埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷提让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {保镖}
 
 > INFO.NAME hh_escortmerchant 1996331301205355064
 Edryno Arethi thanked me for escorting Tarvyn Faren to Pelagiad.
-埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷提感谢我护送塔文·法伦前往佩拉吉亚德。 {保镖}
 
 > INFO.NAME hh_ashlanderebony 2488627585889230507
 House Hlaalu: Ashlander Ebony
@@ -8973,15 +8973,15 @@ House Hlaalu: Ashlander Ebony
 
 > INFO.NAME hh_ashlanderebony 3264319771810328151
 Edryno Arethi asked me to go to the Zainab camp and make sure they only sell ebony through House Hlaalu.
-埃德里诺·阿雷西让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。
+埃德里诺·阿雷提让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。
 
 > INFO.NAME hh_ashlanderebony 31234061904826862
 Edryno Arethi thanked me for negotiating with the Zainab.
-埃德里诺·阿雷西感谢我与哉纳布进行了谈判。
+埃德里诺·阿雷提感谢我与哉纳布进行了谈判。
 
 > INFO.NAME hh_ashlanderebony 3145212414923826479
 I told Edryon Arethi that the Zainab would not deal with me since I killed one of them.
-我告诉埃德里安·阿雷西，因为我杀了他们中的一个人，所以哉纳布的人不会和我交易。
+我告诉埃德里安·阿雷提，因为我杀了他们中的一个人，所以哉纳布的人不会和我交易。
 
 > INFO.NAME hh_sunkentreasure 14780163631053519629
 House Hlaalu: The Shipwreck 'Prelude'
@@ -8989,11 +8989,11 @@ House Hlaalu: The Shipwreck 'Prelude'
 
 > INFO.NAME hh_sunkentreasure 7515702985821156
 Edryno Arethi knows that the ship Prelude sunk east of Bal Fell. She believes it lies two or three islands due east of Bal Fell. I must find the Daedric Wakizashi that sunk with that ship and return it to Edryno Arethi.
-埃德里诺·阿雷西知道前奏曲号那艘船沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉胁差，并把它还给埃德里诺·阿雷西。 {迪德拉式}
+埃德里诺·阿雷提知道前奏曲号那艘船沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉胁差，并把它还给埃德里诺·阿雷提。 {迪德拉式}
 
 > INFO.NAME hh_sunkentreasure 44131684462727731
 Edryno Arethi thanked me for returning the Daedric Wakizashi.
-埃德里诺·阿雷西感谢我归还了迪德拉胁差。 {迪德拉式}
+埃德里诺·阿雷提感谢我归还了迪德拉胁差。 {迪德拉式}
 
 > INFO.NAME ht_theranaclothes 1206327953222646565
 House Telvanni: New Clothes
@@ -9389,15 +9389,15 @@ Lorbumol gro-Aglakh gave me the bounty on Dro'Sakhar.
 
 > INFO.NAME hr_rescuesarethi 27128175562942722941
 House Redoran: Rescue Varvur Sarethi
-瑞多然家族：营救瓦乌尔·萨雷蒂
+瑞多然家族：营救瓦乌尔·萨雷提
 
 > INFO.NAME hr_rescuesarethi 1025354912338120284
 Serjo Athyn Sarethi asked me to rescue his son, Varvur Sarethi, from Venim Manor, the first Manor on the right as you enter Skar. He warned me that I should not kill Bolvyn Venim, or the other councilors of House Redoran would turn against me.
-艾辛·萨雷蒂让我去维尼姆府邸救他的儿子瓦乌尔·萨雷蒂，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则瑞多然家族的其他议员会反对我。
+艾辛·萨雷提让我去维尼姆府邸救他的儿子瓦乌尔·萨雷提，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则瑞多然家族的其他议员会反对我。
 
 > INFO.NAME hr_rescuesarethi 5844115132424315150
 Serjo Athyn Sarethi thanked me for rescuing his son from Venim Manor.
-艾辛·萨雷蒂感谢我从维尼姆府邸救出了他的儿子。
+艾辛·萨雷提感谢我从维尼姆府邸救出了他的儿子。
 
 > INFO.NAME hr_orethisisters 7346221962927829557
 House Redoran: Velsa Orethi
@@ -9405,11 +9405,11 @@ House Redoran: Velsa Orethi
 
 > INFO.NAME hr_orethisisters 112415702151845997
 Aryni Orethi asked me to find out what happened to her sister, Velsa Orethi, a blood guard in Venim Manor.
-阿瑞妮·奥瑞缇让我查明她姐妹薇尔莎·奥瑞缇的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}
+阿瑞妮·奥雷提让我查明她姐妹薇尔莎·奥雷提的下落，她是维尼姆府邸的一名血族卫兵。 {瓜尔}
 
 > INFO.NAME hr_orethisisters 893133791234926605
 Aryni Orethi thanked me for helping her sister.
-阿瑞妮·奥瑞缇感谢我帮助了她的姐妹。
+阿瑞妮·奥雷提感谢我帮助了她的姐妹。
 
 > INFO.NAME hr_attackuvirith 27964263851198513136
 House Redoran: Slay Reynel Uvirith
@@ -9429,15 +9429,15 @@ House Hlaalu: Guard Ralen Tilvur
 
 > INFO.NAME hh_guardmerchant 1223487243028017695
 Edryno Arethi told me that Ralen Tilvur's shop in Vivec's Foreign Quarter Plaza has been robbed three nights in a row. I must go to Ralen Tilvur's shop and kill any thieves that arrive.
-埃德里诺·阿雷西告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。
+埃德里诺·阿雷提告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。
 
 > INFO.NAME hh_guardmerchant 11067184411845825714
 Edryno Arethi thanked me for killing the thief that was stealing from Ralen Tilvur.
-埃德里诺·阿雷西感谢我杀死了偷窃拉伦·提尔乌商店的小偷。
+埃德里诺·阿雷提感谢我杀死了偷窃拉伦·提尔乌商店的小偷。
 
 > INFO.NAME hh_guardmerchant 32259312781758210603
 I told Edryno Arethi that Ralen Tilvur was dead.
-我告诉埃德里诺·阿雷西，拉伦·提尔乌已经死了。
+我告诉埃德里诺·阿雷提，拉伦·提尔乌已经死了。
 
 > INFO.NAME hh_rentcollector 2889123118727931033
 House Hlaalu :Rent and Taxes
@@ -10017,15 +10017,15 @@ I reported to Percius Mercius that Avon Oran was dead. Therefore, there is no co
 
 > INFO.NAME hr_guardsarethi 335818112386222498
 House Redoran: Guard Sarethi Manor
-瑞多然家族：守卫萨雷蒂府邸
+瑞多然家族：守卫萨雷提府邸
 
 > INFO.NAME hr_guardsarethi 9036156472772618059
 Neminda asked me to guard Sarethi Manor.
-内明达让我守卫萨雷蒂府邸。 {瓜尔,卫兵}
+内明达让我守卫萨雷提府邸。 {瓜尔,卫兵}
 
 > INFO.NAME hr_guardsarethi 664792032309314006
 Neminda thanked me for guarding Serjo Athyn Sarethi.
-内明达感谢我卫兵保护艾辛·萨雷蒂Serjo（大人）。
+内明达感谢我卫兵保护艾辛·萨雷提Serjo（大人）。
 
 > INFO.NAME hr_ashimanumine 24286192451480712831
 House Redoran: Ashimanu Mine
@@ -10057,19 +10057,19 @@ Theldyn Virith thanked me for taking care of the last Telvanni at Shishi.
 
 > INFO.NAME hr_clearsarethi 178553275847284
 House Redoran: Clear Varvur Sarethi's Name
-瑞多然家族：清脱瓦乌尔·萨雷蒂的罪名
+瑞多然家族：清脱瓦乌尔·萨雷提的罪名
 
 > INFO.NAME hr_clearsarethi 2340317191134797593
 Serjo Athyn Sarethi asked me to clear his son's name. Varvur Sarethi has been charged with the murder of Bralen Carvaren. Perhaps I should start by questioning Varvur Sarethi in Sarethi Manor.
-艾辛·萨雷蒂Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷蒂被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷蒂府邸审问瓦乌尔·萨雷蒂。
+艾辛·萨雷提Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷提被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷提府邸审问瓦乌尔·萨雷提。
 
 > INFO.NAME hr_clearsarethi 2217967581718628042
 Athyn Sarethi thanked me for clearing his son's name. He suggested that I speak with Lloros Sarano again about the ash statue.
-艾辛·萨雷蒂感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。
+艾辛·萨雷提感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。
 
 > INFO.NAME hr_clearsarethi 25311205027667809
 Lloros Sarano said that Varvur Sarethi would be cleared of the murder of Bralen Carvaren.
-洛罗斯·萨拉诺说，瓦乌尔·萨雷蒂将洗脱谋杀布拉伦·卡瓦伦的罪名。
+洛罗斯·萨拉诺说，瓦乌尔·萨雷提将洗脱谋杀布拉伦·卡瓦伦的罪名。
 
 > INFO.NAME hr_morvaynmanor 1466622823306351020
 House Redoran: Mission to Morvayn Manor
@@ -11029,15 +11029,15 @@ Hrundi thanked me for bringing Rels Tenim to justice and gave me 200 gold.
 
 > INFO.NAME fg_verethigang 250852298875311231
 Fighters Guild: The Verethi Gang
-战士公会：维雷西帮
+战士公会：维雷提帮
 
 > INFO.NAME fg_verethigang 3211954743028115006
 Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Verethi Gang. They are based in Mannammu just southeast of Pelagiad.
-艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
+艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷提，他是维雷提帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
 
 > INFO.NAME fg_verethigang 14760934222272524
 Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
-艾迪斯·火眼付给我1000金币，让我把维雷西帮赶尽杀绝。 {事}
+艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {事}
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
@@ -11125,11 +11125,11 @@ House Hlaalu: Bank Courier
 
 > INFO.NAME hh_bankcourier 3950135161216932088
 Edryno Arethi wants me to deliver sealed orders to Treasurer Baren Alen in the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-埃德里诺·阿雷西要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}
+埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}
 
 > INFO.NAME hh_bankcourier 38030277295099293
 Edryno Arethi thanked me for delivering the sealed orders.
-埃德里诺·阿雷西感谢我交付了密封的命令。 {指示}
+埃德里诺·阿雷提感谢我交付了密封的命令。 {指示}
 
 > INFO.NAME hh_berosupport 13958147662968228958
 House Hlaalu: Bero's Support
@@ -11297,11 +11297,11 @@ I have been named Hortator of House Redoran by Redoran's councilors. When I have
 
 > INFO.NAME b5_redoranhort 20621853163211746
 When Athyn Sarethi named me Redoran Hortator, he gave me an enchanted ring, a token of my office called the "Ring of the Hortator." By this ring others shall know me as House Redoran's chosen champion.
-当艾辛·萨雷蒂任命我为瑞多然统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是瑞多然家族选中的勇士。 {沙尔}
+当艾辛·萨雷提任命我为瑞多然统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是瑞多然家族选中的勇士。 {沙尔}
 
 > INFO.NAME b5_redoranhort 2349910328103832028
 Athyn Sarethi showed me a public notice revealing that I am an Imperial agent. He did not ask for an explanation. He said he was satisfied that I was sincere. But he said others might not be so understanding.
-艾辛·萨雷蒂给我看了一份公告，上面写着我是一名帝国密探。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {帝国人}
+艾辛·萨雷提给我看了一份公告，上面写着我是一名帝国密探。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {帝国人}
 
 > INFO.NAME b5_sarethihort 718226521261324568
 Redoran Hortator
@@ -11309,7 +11309,7 @@ Redoran Hortator
 
 > INFO.NAME b5_sarethihort 25385940354022416
 Since I have killed a Redoran counselor, Sarethi says the other councilors will never consent to making me Hortator.
-由于我杀害了一名瑞多然顾问，萨雷蒂说其他议员绝不会同意让我担任统谏使。 {咨询}
+由于我杀害了一名瑞多然顾问，萨雷提说其他议员绝不会同意让我担任统谏使。 {咨询}
 
 > INFO.NAME b5_ramoranhort 43485592206012450
 Redoran Hortator
@@ -12185,11 +12185,11 @@ House Redoran: Shurinbaal
 
 > INFO.NAME hr_shurinbaal 3194027223008328872
 Serjo Athyn Sarethi believes there are smugglers in the cave of Shurinbaal, just southwest down the coast from Gnaar Mok. I must find and kill the leaders of the smugglers, Daroder and Enjine.
-艾辛·萨雷蒂相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。
+艾辛·萨雷提相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。
 
 > INFO.NAME hr_shurinbaal 25974211622522932654
 Serjo Athyn Sarethi thanked me for shutting down the smuggling operations in Shurinbaal.
-艾辛·萨雷蒂感谢我结束了舒林巴尔的走私活动。
+艾辛·萨雷提感谢我结束了舒林巴尔的走私活动。
 
 > INFO.NAME hr_findtharen 2404510183512315834
 House Redoran: Find Fedris Tharen
@@ -12885,7 +12885,7 @@ House Redoran: Duel with Bolvyn Venim
 
 > INFO.NAME hr_archmaster 17741203752809611543
 Athyn Sarethi told me to meet Bolvyn Venim in a duel. The winner will become the Archmaster of House Redoran.
-艾辛·萨雷蒂让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的新家主。
+艾辛·萨雷提让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的新家主。
 
 > INFO.NAME hr_archmaster 2082553503074113793
 I defeated Bolvyn Venim and am now the Archmaster of House Redoran.
@@ -13357,11 +13357,11 @@ House Hlaalu: Telvanni at Odirniran
 
 > INFO.NAME hh_odirniran 1198157082016519822
 Edryno Arethi asked me to secure Odirniran for House Hlaalu. I should go there and speak with any survivors. If there are no survivors, I should find and kill the Telvanni responsible.
-埃德里诺·阿雷西让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。
+埃德里诺·阿雷提让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。
 
 > INFO.NAME hh_odirniran 891121596153821637
 Edryno Arethi thanked me for securing Odirniran.
-埃德里诺·阿雷西感谢我保护了奥迪尔尼兰。
+埃德里诺·阿雷提感谢我保护了奥迪尔尼兰。
 
 > INFO.NAME hh_bankfraud 31813244592924313368
 House Hlaalu: Sealed Orders
@@ -13709,11 +13709,11 @@ Thieves Guild: Bal Molagmer, Enamor
 
 > INFO.NAME tg_ss_enamor 2219630828870221827
 Gentleman Jim Stacey asked me to return the stolen sword "Enamor" to Salyn Sarethi's personal chest in the Buoyant Armiger barracks in Ghostgate along with a note.
-绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷蒂在幽魂之门的灵动扈从兵营里的私人箱子里。
+绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷提在幽魂之门的灵动扈从兵营里的私人箱子里。
 
 > INFO.NAME tg_ss_enamor 29494241139524307
 Gentleman Jim Stacey thanked me for delivering the sword "Enamor" and the note to Salyn Sarethi's chest in Ghostgate.
-绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷蒂在幽魂之门的箱子里。
+绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷提在幽魂之门的箱子里。
 
 > INFO.NAME mv_slavemule 6203271422929218835
 Rabinna's Inner Beauty
@@ -13921,7 +13921,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_backdoor1 10901625642699447
 Athyn Sarethi was concerned that I had not fulfilled the Nerevarine prophecies. He says that Archcanon Saryoni hopes I will come speak with him at the High Fane in Vivec City.
-艾辛·萨雷蒂担心我没有实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。
+艾辛·萨雷提担心我没有实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。
 
 > INFO.NAME b8_backdoor2 3525313401580925556
 Hortator and Nerevarine
@@ -14741,7 +14741,7 @@ Imperial Legion: Courtesy
 
 > INFO.NAME il_courtesy 2546513586540130753
 The Buoyant Armiger Salyn Sarethi in Ghostgate claims that we have no courtesy. Frald the White asked me to challenge Salyn Sarethi to a contest of wit, poetry, and honor.
-幽魂之门的灵动扈从萨利恩·萨雷蒂声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷蒂挑战，比试智慧、诗歌和荣誉礼节。
+幽魂之门的灵动扈从萨利恩·萨雷提声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷提挑战，比试智慧、诗歌和荣誉礼节。
 
 > INFO.NAME il_courtesy 28011321812039127676
 Frald the White was pleased to hear that I won the duel of wit and poetry.
@@ -14749,7 +14749,7 @@ Frald the White was pleased to hear that I won the duel of wit and poetry.
 
 > INFO.NAME il_courtesy 1364308412004225817
 Frald the White was disappointed to hear that I lost the challenge against Salyn Sarethi, but he thanked me for having the courage to meet the challenge.
-苍白者弗拉德听到我输掉了对萨利恩·萨雷蒂的挑战后很失望，但他感谢我有勇气迎接挑战。
+苍白者弗拉德听到我输掉了对萨利恩·萨雷提的挑战后很失望，但他感谢我有勇气迎接挑战。
 
 > INFO.NAME il_smuggler 284901820664227861
 Imperial Legion: Dwemer Artifacts at Drinar Varyon's Place
@@ -15585,15 +15585,15 @@ House Redoran: The Mad Lord of Milk
 
 > INFO.NAME hr_madmilk 243156941636814418
 Athyn Sarethi told me that the Redoran Noble, Arethan Mandas, has gone insane and has been demanding tribute from travellers from the cavern Milk which is on the road to Maar Gan just north of the crossroads. I should find a way to cure him if possible, or kill him if necessary. He suggested that I speak with Arethan's father, Llerar Mandas in Ebonheart.
-艾辛·萨雷蒂说，瑞多然贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。
+艾辛·萨雷提说，瑞多然贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。
 
 > INFO.NAME hr_madmilk 3038997131625721006
 Athyn Sarethi thanked me for killing the Mad Lord, Arethan Mandas.
-艾辛·萨雷蒂感谢我杀死了疯狂领主阿雷森·曼达斯。
+艾辛·萨雷提感谢我杀死了疯狂领主阿雷森·曼达斯。
 
 > INFO.NAME hr_madmilk 2625011566253311759
 Athyn Sarethi thanked me for restoring Arethan Mandas to his senses.
-艾辛·萨雷蒂感谢我让阿雷森·曼达斯恢复理智。
+艾辛·萨雷提感谢我让阿雷森·曼达斯恢复理智。
 
 > INFO.NAME hh_eggmine 48252821488173201
 House Hlaalu: Inanius Egg Mine
@@ -25223,7 +25223,7 @@ Did you hear Bolvyn Venim killed another outlander in a duel. The man was an off
 
 > INFO.NAME latest rumors 1532512058430410891
 Everyone says Varvur Sarethi murdered Bralen Carvaren, but I don't believe it. They were the best of friends.
-大家都说瓦乌尔·萨雷蒂谋杀了布拉伦·卡瓦伦。但我不信，他们是最好的朋友。
+大家都说瓦乌尔·萨雷提谋杀了布拉伦·卡瓦伦。但我不信，他们是最好的朋友。
 
 > INFO.NAME latest rumors 279581339097492106
 These outlanders won't be happy until slavery is outlawed. Personally, I don't want slaves. No one I know has any. But it's our right to have slaves, by law and custom, and it's none of their damn business.
@@ -25247,7 +25247,7 @@ Morvayn Manor was overrun by corprus monsters. I thought they couldn't get out o
 
 > INFO.NAME latest rumors 479020780242431784
 Athyn Sarethi may be the 'Hope of the Redoran,' but someone wants him dead. He's fended off three Morag Tong attacks already.
-艾辛·萨雷蒂也许是“瑞多然的希望”，但有人想要他的命。他已经受到莫拉格堂三次的袭击了。
+艾辛·萨雷提也许是“瑞多然的希望”，但有人想要他的命。他已经受到莫拉格堂三次的袭击了。
 
 > INFO.NAME latest rumors 1033715297528023583
 I heard Bolvyn Venim was having an affair with the wife of one of the other Councilors.
@@ -33443,7 +33443,7 @@ Actually, I believe we've finished our business. I will notify the Temple that y
 
 > INFO.NAME business 313639872174827490
 If you want to talk business, speak with Crassius Curio or Edryno Arethi.
-如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷西。 {事}
+如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷提。 {事}
 
 > INFO.NAME business 22838144922953728258
 Yes, let's discuss what you can do to assist my, err, our cause.
