@@ -40,6 +40,8 @@
 "Lowest Weight": "轻量优先"
 "Highest Value": "高价优先"
 "Best V/W": "价值比优先"
+"Sorting: Quest Items On Top": "排序: 任务物品置顶"
+"Let me know if you find any that got falsely flagged as quest": "如果你发现有被错误标记成任务的，请告诉我"
 "Sorting: Cash On Top": "排序: 金钱置顶"
 "Sorting: Keys On Top": "排序: 钥匙置顶"
 "Sorting: Lockpicks On Top": "排序: 开锁器置顶"
@@ -47,7 +49,6 @@
 "Sorting: Ingredients Below [x] Weight On Top": "排序: 低于[x]重量的材料置顶"
 "0 = Disable": "0 = 禁用"
 "Sorting: Repair Tools On Top": "排序: 修理工具置顶"
-"Sorting: Zero Value On Top": "排序: 零值置顶"
 
 "Show Pickpocket Column": "显示扒窃列"
 "Show Weight Column": "显示重量列"
@@ -120,6 +121,9 @@
 
 "Run MWscripts only once": "只运行一次MWscripts"
 "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again": "一个mwscript成功激活后(道具闪烁一秒)不再允许此容器的脚本"
+
+"Loose Aiming": "宽松瞄准"
+"Don't have to aim exactly at the container.\ntiny performance impact": "不用必须准确瞄准容器。\n轻微的性能影响"
 
 "R switches to deposit": "R键切换成存放"
 "switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.": "使用切换法术键在存放和收回之间切换。\n使用“全部存放”时，它会忽略已装备的物品。在使用“处理尸体”模式时，它只会堆叠容器中已有的物品。"

@@ -105,7 +105,8 @@ function borderTemplates(thickness,color,borderSize,background)
                 relativePosition = v,
                 size = (v2(1, 1) - direction * 3) * borderSize,
                 relativeSize = direction,
-				color = color
+				color = color,
+				alpha = color and color.a or nil
             }
         }
     end
@@ -116,7 +117,8 @@ function borderTemplates(thickness,color,borderSize,background)
                 position = -v * borderSize,
                 relativePosition = v,
                 size = borderV,
-				color = color
+				color = color,
+				alpha = color and color.a or nil
             },
         }
     end

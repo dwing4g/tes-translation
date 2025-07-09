@@ -26,7 +26,7 @@
 -- }
 -- inspectedContainer
 local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
-
+local SOUL_GEM_REBALANCE = true
 
 tooltipText = {
 	props = {
@@ -581,6 +581,21 @@ local function getItemInfo(item)
 			info.value = 0
 			--return nil
 		end
+		if record.id:sub(1, #"misc_soulgem_") == "misc_soulgem_" then
+			local soulId = types.Item.itemData(item).soul
+			if soulId then
+				local creature = types.Creature.records[soulId]
+				if creature then
+					info.soulName = creature.name
+					info.soulValue = creature.soulValue
+					if SOUL_GEM_REBALANCE then
+						info.value = math.floor(0.0001 * info.soulValue ^ 3 + 2 * info.soulValue)
+					else
+						info.value = math.floor(value * soulValue)
+					end
+				end
+			end
+		end
 	end
 	info.enchantment = getEnchantmentData(item)
 	
@@ -594,7 +609,7 @@ end
 
 
 -- MAIN FUNCTION
-return function (item,highlightPosition, isPickpocketing) --makeTooltip
+return function (item,highlightPosition, isPickpocketing, colorTheme) --makeTooltip
 	local transparency = playerSection:get("TRANSPARENCY")
 	if playerSection:get("TOOLTIP_MODE") == "off" then
 		return
@@ -613,7 +628,11 @@ return function (item,highlightPosition, isPickpocketing) --makeTooltip
 	elseif playerSection:get("TOOLTIP_TEXT_ALIGNMENT") == "right" then
 		tooltipTextAlignment = ui.ALIGNMENT.End
 	end
-	local borderTemplate = makeBorder(borderFile, borderColor or nil, borderOffset, {
+	local newBorderColor
+	if colorTheme then 
+		newBorderColor = util.color.rgba(colorTheme.r,colorTheme.g,colorTheme.b,0.5)
+	end
+	local borderTemplate = makeBorder(borderFile, newBorderColor or borderColor or nil, borderOffset, {
 			type = ui.TYPE.Image,
 			props = {
 				resource = background,
@@ -621,6 +640,7 @@ return function (item,highlightPosition, isPickpocketing) --makeTooltip
 				alpha = transparency,
 			}
 		}).borders
+
 	local root = ui.create({
 		type = ui.TYPE.Container,
 		layer = 'HUD',
@@ -744,14 +764,18 @@ return function (item,highlightPosition, isPickpocketing) --makeTooltip
 	if item.count and item.count > 1 then
 		name = name.." ("..item.count..")"
 	end
+	if info.soulName then
+		name = name.." ("..info.soulName..")"
+	end
 	if isPickpocketing then-- and  then
 		local text = pickpocket.getTooltipText1(self,inspectedContainer,item)
 		if not playerSection:get("COLUMN_PICKPOCKET") then
 			name = name..text
 		end
 	end
+	colorTheme = nil -- uncomment for red colored item name when stealing
 	--textElement(fromutf8(name), playerSection:get("ICON_TINT"))
-	textElement(name, playerSection:get("ICON_TINT"))
+	textElement(name, colorTheme and util.color.rgba(1,0.05, 0.05, 1) or playerSection:get("ICON_TINT"))
 
 	flex.content:add{ props = { size = v2(1, 1) * 1 } }
 	

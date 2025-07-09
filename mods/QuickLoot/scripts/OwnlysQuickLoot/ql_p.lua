@@ -79,9 +79,14 @@ local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
 local printThrottle = 0
 local lastPrint = {}
 local currentScript = nil
-local scriptThrottle = 0
+local mwScriptCalled = 0
 vanillaActivate = 0
 local deposit = false
+local questItems = require("scripts.OwnlysQuickLoot.ql_questItems")
+local redStealingWindow = true
+local openMwTooOld = false
+local showVanillaInventory = 0
+
 
 local function log(...)
 	local newPrint = {...}
@@ -166,18 +171,22 @@ end
 
 input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer then
-		if playerSection:get("R_DEPOSIT") then
+		if playerSection:get("R_DEPOSIT") and not input.isShiftPressed() then
 			deposit = not deposit
 			selectedIndex, depositSelectedIndex = depositSelectedIndex, selectedIndex
 			backupSelectedIndex, depositBackupSelectedIndex = depositBackupSelectedIndex, backupSelectedIndex
 			scrollPos, depositScrollPos = depositScrollPos, scrollPos
 			drawUI()
 		else
-			vanillaActivate = core.getRealTime()
-			core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, inspectedContainer, true})
-			--inspectedContainer:activateBy(self)
+			--vanillaActivate = core.getRealTime()
+			--core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, inspectedContainer, true})
+			--no activation anymore
+			
+			----inspectedContainer:activateBy(self)
+			local now = core.getRealTime()
+			showVanillaInventory = now
 			I.UI.setMode("Container",{target = inspectedContainer})
-			--types.Actor.setStance(self, types.Actor.STANCE.Nothing)
+			----types.Actor.setStance(self, types.Actor.STANCE.Nothing)
 		end
 	end
 end))
@@ -209,6 +218,60 @@ input.bindAction('Use', async:callback(function(dt, use, sneak, run)
 	return use
 end), {  })
 
+function isQuestItem(item)
+	local record = item.type.record(item)
+	local script = record.mwscript
+	-- works, but goes too deep maybe
+	if types.Player.quests(self)["TR_m3_AT_RatFriend"] and types.Player.quests(self)["TR_m3_AT_RatFriend"].stage>=10 and not types.Player.quests(self)["TR_m3_AT_RatFriend"].finished then
+		local requirements = {
+			p_restore_magicka_q          =true,
+			ingred_bread_01              =true,
+			ingred_red_lichen_01         =true,
+			potion_cyro_brandy_01        =true,
+			tr_m3_at_ratfriend_journal   =true,
+		}
+		if requirements[item.recordId] then
+			return true
+		end
+	end
+	if scriptName then
+		local scriptName = record.mwscript
+		if scriptName:find("cursed") 
+		or scriptName:sub(-6,-1) == "dae_01"
+		or scriptName == "tr_m3_aar_clo_dubious"
+		or scriptName == "tr_m1_ench_shield_i62"
+		or scriptName == "t_de_goldcoinghost_05"
+		or scriptName == "tr_m1_soulgem_curse_i62"
+		or scriptName == "t_ingmine_emeralddetomb_01"
+		or scriptName == "tr_m7_armiger_note_gh"
+		or scriptName == "t_com_goldcoindae_05"
+		or scriptName == "t_ingmine_rubydetomb_01"
+		or scriptName == "t_ingmine_pearldetomb_01"
+		or scriptName == "t_ingmine_diamonddetomb_01"
+		then
+			return false
+		end
+		
+		local script = core.mwscripts and core.mwscripts.records[record.mwscript]
+		if script then
+			if script:lower():find("setjournal") or script:lower():find("startscript") or script:lower():find("addtopic") or script:lower():find("journal ") then
+				return true
+			end
+		end
+	end
+	if not questItems[item.recordId] then 
+		return false 
+	end 
+	
+	local itemType = item.type
+	if itemType == types.Ingredient then
+		return false
+	elseif itemType == types.Miscellaneous or itemType == types.Book then
+		return true
+	end
+	return true --?
+end
+
 function drawUI()
 	local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
 	--if isPickpocketing and not startedPickpocketing then
@@ -233,12 +296,7 @@ function drawUI()
 	backupSelectedIndex = selectedIndex
 	backupSelectedContainer = inspectedContainer 
 	local uiSize = uiSize
-	borderFile = "thin"
-	if playerSection:get("BORDER_STYLE") == "verythick" or playerSection:get("BORDER_STYLE") == "thick" then
-		borderFile = "thick"
-	end
-	borderOffset = playerSection:get("BORDER_STYLE") == "verythick" and 4 or playerSection:get("BORDER_STYLE") == "thick" and 3 or playerSection:get("BORDER_STYLE") == "normal" and 2 or (playerSection:get("BORDER_STYLE") == "thin" or playerSection:get("BORDER_STYLE") == "max performance") and 1 or 0
-	borderTemplate =  makeBorder(borderFile, borderColor or nil, borderOffset).borders
+	
 	if root then 
 		root:destroy()
 	end
@@ -273,15 +331,18 @@ function drawUI()
 	
 
 	local stealCol = nil
-	if inspectedContainer.owner.recordId
-	or inspectedContainer.owner.factionId and types.NPC.getFactionRank(self, inspectedContainer.owner.factionId)
-	or inspectedContainer.owner.factionId and types.NPC.getFactionRank(self, inspectedContainer.owner.factionId) < inspectedContainer.owner.factionRank then
+	if isPickpocketing
+	or inspectedContainer.owner.recordId
+	or inspectedContainer.owner.factionId and not types.NPC.getFactionRank(self, inspectedContainer.owner.factionId)
+	or inspectedContainer.owner.factionId and types.NPC.getFactionRank(self, inspectedContainer.owner.factionId) < (inspectedContainer.owner.factionRank or 999) then
 		--stealCol = util.color.rgba(1,0.714, 0.706, 1)
 		stealCol = util.color.rgba(1,0.05, 0.05, 1)
 		--STEALING ICON
 		--captionOffset = outerHeaderFooterHeight/hudAspectRatio
 		
 	end
+	
+
 	--Caption: CONTAINER NAME
 	local headline ={
 		type = ui.TYPE.Flex,
@@ -327,6 +388,13 @@ function drawUI()
 			}
 		})
 	end
+	stealCol = stealCol and util.color.rgba(1,0.4, 0.4, 1)
+	borderFile = "thin"
+	if playerSection:get("BORDER_STYLE") == "verythick" or playerSection:get("BORDER_STYLE") == "thick" then
+		borderFile = "thick"
+	end
+	borderOffset = playerSection:get("BORDER_STYLE") == "verythick" and 4 or playerSection:get("BORDER_STYLE") == "thick" and 3 or playerSection:get("BORDER_STYLE") == "normal" and 2 or (playerSection:get("BORDER_STYLE") == "thin" or playerSection:get("BORDER_STYLE") == "max performance") and 1 or 0
+	borderTemplate =  makeBorder(borderFile, stealCol or borderColor or nil, borderOffset).borders
 	
 	-- BOX
 	boxHeight = rootHeight - 2 * (outerHeaderFooterHeight + outerHeaderFooterMargin)
@@ -445,6 +513,7 @@ function drawUI()
 				position = v2(0,-1),
 				relativePosition = v2(0, 1),
 				alpha = 0.4,
+				color = stealCol
 			}
 		})
 		if (header_footer_setting == "all top" or header_footer_setting ==  "only top") and isPickpocketing and pickpocket.footerText then
@@ -553,7 +622,7 @@ function drawUI()
 		{}, --soulgems = {}, --4
 		{}, --ingredients= {}, --5
 		{}, --repair = {}, --6
-		{}, --worthless = {}, --7
+		{}, --questItems = {}, --7
 		{}, --other = {} --8
 	}
 	for _,item in pairs(containerItems) do
@@ -566,24 +635,24 @@ function drawUI()
 		or not types.Item.isCarriable(item) 
 		then
 			-- ignore
-		elseif itemType == types.Miscellaneous and itemRecordId == "gold_001" and playerSection:get("CONTAINER_SORTING_CASH") then
+		elseif playerSection:get("CONTAINER_SORTING_QUEST") and isQuestItem(item) then
 			table.insert(sortedItems[1], {item, itemRecord.value, itemRecord.weight})
-		elseif itemType == types.Miscellaneous and itemRecord.isKey and playerSection:get("CONTAINER_SORTING_KEYS") then
+		elseif itemType == types.Miscellaneous and itemRecordId == "gold_001" and playerSection:get("CONTAINER_SORTING_CASH") then
 			table.insert(sortedItems[2], {item, itemRecord.value, itemRecord.weight})
-		elseif (itemType == types.Lockpick or itemType == types.Probe) and playerSection:get("CONTAINER_SORTING_LOCKPICKS") then
+		elseif itemType == types.Miscellaneous and itemRecord.isKey and playerSection:get("CONTAINER_SORTING_KEYS") then
 			table.insert(sortedItems[3], {item, itemRecord.value, itemRecord.weight})
-		elseif itemType == types.Miscellaneous and itemRecordId:sub(1,12) == "misc_soulgem" and playerSection:get("CONTAINER_SORTING_SOULGEMS") then
+		elseif (itemType == types.Lockpick or itemType == types.Probe) and playerSection:get("CONTAINER_SORTING_LOCKPICKS") then
 			table.insert(sortedItems[4], {item, itemRecord.value, itemRecord.weight})
+		elseif itemType == types.Miscellaneous and itemRecordId:sub(1,12) == "misc_soulgem" and playerSection:get("CONTAINER_SORTING_SOULGEMS") then
+			table.insert(sortedItems[5], {item, itemRecord.value, itemRecord.weight})
 		elseif itemType == types.Ingredient and playerSection:get("CONTAINER_SORTING_INGREDIENTS") > 0 then
 			if itemRecord.weight <= playerSection:get("CONTAINER_SORTING_INGREDIENTS") then
-				table.insert(sortedItems[5], {item, itemRecord.value, itemRecord.weight})
+				table.insert(sortedItems[6], {item, itemRecord.value, itemRecord.weight})
 			else
 				table.insert(sortedItems[7], {item, itemRecord.value, itemRecord.weight})
 			end
 		elseif itemType == types.Repair and playerSection:get("CONTAINER_SORTING_REPAIR") then
 			table.insert(sortedItems[6], {item, itemRecord.value, itemRecord.weight})
-		elseif itemRecord.value == 0 and playerSection:get("CONTAINER_SORTING_WORTHLESS") then
-			table.insert(sortedItems[7], {item, itemRecord.value, itemRecord.weight})
 		else
 			table.insert(sortedItems[8], {item, itemRecord.value, itemRecord.weight})
 		end
@@ -737,6 +806,10 @@ function drawUI()
 				local countText = thingCount > 1 and " ("..thing.count..")" or ""
 				if i == selectedIndex then
 					-- SELECTION HIGHLIGHT
+					local stealCol = stealCol
+					if stealCol then
+						stealCol = util.color.rgba(stealCol.r*1.4,stealCol.g*1.4,stealCol.b*1.4,stealCol.a)
+					end
 					table.insert(list.content, {
 						type = ui.TYPE.Image,
 						props = {
@@ -748,7 +821,7 @@ function drawUI()
 							relativePosition = v2(0,relativePosition),
 							position = v2(0,0),
 							alpha = 0.3,
-							color = playerSection:get("ICON_TINT"),
+							color = stealCol or playerSection:get("ICON_TINT"),
 						}
 					})
 					tooltip = makeTooltip(
@@ -761,16 +834,16 @@ function drawUI()
 						-- highlight position * list height
 						+relativePosition*listHeight
 						,
-						isPickpocketing
+						isPickpocketing,
+						stealCol
 					)
 				end
 				local ench = thing and (thing.enchant or thingRecord.enchant ~= "" and thingRecord.enchant )
-				if icon then
-					local tempTemplate = nil
-					if deposit and types.Actor.hasEquipped(self,thing) or types.Actor.hasEquipped(inspectedContainer,thing) then
-						tempTemplate = borderTemplate
-					end
-					local iconBox ={
+				local tempTemplate = nil
+				if deposit and types.Actor.hasEquipped(self,thing) or types.Actor.hasEquipped(inspectedContainer,thing) then
+					tempTemplate = borderTemplate
+				end
+				local iconBox ={
 						template = tempTemplate,
 						props = {
 							relativePosition = v2(0,relativePosition),
@@ -780,7 +853,8 @@ function drawUI()
 						},
 						content = ui.content{}
 					}
-					table.insert(list.content, iconBox)
+				table.insert(list.content, iconBox)
+				if icon then
 					if ench then 
 						--ENCHANT ICON
 						table.insert(iconBox.content, {
@@ -823,11 +897,13 @@ function drawUI()
 							tileV = false,
 							--relativePosition = v2(0,relativePosition),
 							--size = v2(absLineHeight*0.7,absLineHeight*0.7),
-							relativePosition = v2(0,relativePosition),
-							size = v2(absLineHeight-2,absLineHeight-2),
+							--relativePosition = v2(0,relativePosition),
+							--size = v2(absLineHeight-2,absLineHeight-2),
+							relativePosition = v2(0,0),
+							relativeSize = v2(1,1),
 							anchor = v2(0,0),
 							alpha = 0.7,
-							position = v2(3,1),
+							--position = v2(3,1),
 							color = playerSection:get("FONT_TINT"),
 						}
 					}
@@ -863,7 +939,27 @@ function drawUI()
 					end
 				end
 				if readElement then
-					table.insert(list.content, readElement)
+					table.insert(iconBox.content, readElement)
+				end
+				if isQuestItem(thing) then
+					iconBox.content:add{
+						type = ui.TYPE.Image,
+						props = {
+							resource = getTexture("textures/questItem2.dds"),
+							tileH = false,
+							tileV = false,
+							--relativePosition = v2(0,relativePosition),
+							--size = v2(absLineHeight*0.7,absLineHeight*0.7),
+							--relativePosition = v2(0,relativePosition),
+							--size = v2(absLineHeight-2,absLineHeight-2),
+							relativePosition = v2(0,0),
+							relativeSize = v2(1,1),
+							anchor = v2(0,0),
+							alpha = 1,
+							--position = v2(3,1),
+							--color = playerSection:get("FONT_TINT"),
+						}
+					}
 				end
 				-- ITEM NAME + COUNT
 				table.insert(list.content, { 
@@ -1002,6 +1098,7 @@ function drawUI()
 				position = v2(0,0),
 				relativePosition = v2(0, 0),
 				alpha = 0.4,
+				color = stealCol
 			}
 		})
 		local encumbranceColor = playerSection:get("FONT_TINT")
@@ -1222,7 +1319,7 @@ function closeHud()
 		containerHash = 99999999
 		pickpocket.closeHud(self)
 		currentScript = nil
-		scriptThrottle = 0
+		mwScriptCalled = 0
 		if root then 
 			root:destroy() 
 		end
@@ -1233,9 +1330,9 @@ function closeHud()
 end
 
 
-local scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
+--local scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
 
-function scriptCheck(cont)
+function scriptAllows(cont)
 
 	--if (cont.recordId:find("contain_bm_stalhrim")) then
 	--	playerItems = types.Container.inventory(self):getAll()
@@ -1248,6 +1345,25 @@ function scriptCheck(cont)
 	--end
 
 	local script = cont.type.record(cont).mwscript
+	local scriptRecord = script and core.mwscripts and core.mwscripts.records[script]
+	if types.Lockable.getTrapSpell(cont) then
+		return false
+	end
+	if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
+		--print(script.." ok")
+		return true
+	end
+	if script then
+		--local now = core.getRealTime()
+		--if now - mwScriptCalled >=1 then
+		--	mwScriptCalled = now
+		--	cont:activateBy(self)
+		--end
+		return false
+	else
+		return true
+	end
+	---------------------------------------------------------------------------------------------
 	if script == currentScript then
 		return true
 	end
@@ -1263,20 +1379,20 @@ function scriptCheck(cont)
 	if scriptDB[script] then
 		log("quickloot: target has script '"..script.."' (blacklist)")
 		local now = core.getRealTime()
-		if now - scriptThrottle >=1 then
+		if now - mwScriptCalled >=1 then
 			--core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
 			cont:activateBy(self)--new--new
-			scriptThrottle = now
+			mwScriptCalled = now
 			scriptContainer = cont
 		end
 		return false
 	else
 		log("quickloot: target has script '"..script.."' (unknown)")
 		local now = core.getRealTime()
-		if now - scriptThrottle >=1 then
+		if now - mwScriptCalled >=1 then
 			--core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
 			cont:activateBy(self)--new--new
-			scriptThrottle = now
+			mwScriptCalled = now
 			scriptContainer = cont
 		end
 		return false
@@ -1288,9 +1404,9 @@ function scriptCheck(cont)
 	--		return false
 	--	else
 	--		local now = core.getRealTime()
-	--		if now - scriptThrottle >=1 then
+	--		if now - mwScriptCalled >=1 then
 	--			core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
-	--			scriptThrottle = now
+	--			mwScriptCalled = now
 	--		end
 	--		return false --new
 	--		--return true --new
@@ -1301,9 +1417,9 @@ function scriptCheck(cont)
 	--	return false
 	--else --new
 	--	local now = core.getRealTime()
-	--	if now - scriptThrottle >=1 then
+	--	if now - mwScriptCalled >=1 then
 	--		core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
-	--		scriptThrottle = now
+	--		mwScriptCalled = now
 	--	end
 	--	return false --new
 	--end
@@ -1409,16 +1525,67 @@ function onFrame(dt)
 	local cameraPos = camera.getPosition()
 	local iMaxActivateDist = core.getGMST("iMaxActivateDist")+0.1
 	local activationDistance = iMaxActivateDist + camera.getThirdPersonDistance();
+	local bonusDistance = 0
+	if hoveredContainer then
+		bonusDistance = 20
+	end
 	local telekinesis = types.Actor.activeEffects(self):getEffect(core.magic.EFFECT_TYPE.Telekinesis);
 	if (telekinesis) then
 		activationDistance = activationDistance + (telekinesis.magnitude * 22);
 	end
 	activationDistance = activationDistance+0.1
+	
 	local res = nearby.castRenderingRay(
 		cameraPos,
-		cameraPos + camera.viewportToWorldVector(v2(0.5,0.5)) * activationDistance,
+		cameraPos + camera.viewportToWorldVector(v2(0.5,0.5)) * (activationDistance + bonusDistance),
 		{ ignore = self }
 	)
+	if hoveredContainer ~= res.hitObject then
+		res = nearby.castRenderingRay(
+			cameraPos,
+			cameraPos + camera.viewportToWorldVector(v2(0.5,0.5)) * (activationDistance + 0),
+			{ ignore = self }
+		)
+	end
+	if playerSection:get("LOOSE_AIMING2") and (not res.hitObject or (res.hitObject.type ~= types.Container and not types.Actor.objectIsInstance(res.hitObject))) then
+		local numPoints = 8
+		local radius = 0.006
+		for i = 1, numPoints do
+			local angle = (2 * math.pi / numPoints) * i
+			local x = 0.5 + radius * math.cos(angle)
+			local y = 0.5 + radius * math.sin(angle)*16/9
+			res = nearby.castRenderingRay(
+				cameraPos ,
+				cameraPos + camera.viewportToWorldVector(v2(x,y)) * activationDistance,
+				{ ignore = self }
+			)
+			
+			if res.hitObject and res.hitObject.type == types.Container then -- and types.Container.record(res.hitObject).isOrganic and not organicContainers[res.hitObject.recordId] and (not types.Container.content(res.hitObject):isResolved() or types.Container.content(res.hitObject):getAll()[1]) then
+				break
+			end
+		end
+		if (not res.hitObject or (res.hitObject.type ~= types.Container and not types.Actor.objectIsInstance(res.hitObject))) then
+			local numPoints = 8
+			local radius = 0.011
+			for i = 1, numPoints do
+				local angle = (2 * math.pi / numPoints) * i
+				local x = 0.5 + radius * math.cos(angle)
+				local y = 0.5 + radius * math.sin(angle)*16/9
+				res = nearby.castRenderingRay(
+					cameraPos ,
+					cameraPos + camera.viewportToWorldVector(v2(x,y)) * activationDistance,
+					{ ignore = self }
+				)
+				
+				if res.hitObject and res.hitObject.type == types.Container then -- and types.Container.record(res.hitObject).isOrganic and not organicContainers[res.hitObject.recordId] and (not types.Container.content(res.hitObject):isResolved() or types.Container.content(res.hitObject):getAll()[1]) then
+					break
+				end
+			end
+		end
+	end
+	if (not res.hitObject or (res.hitObject.type ~= types.Container and not types.Actor.objectIsInstance(res.hitObject))) then
+		res = {hitObject = nil}
+	end
 	hoveredContainer = res.hitObject
 
 	if inspectedContainer and (res.hitObject == nil or res.hitObject ~= inspectedContainer) then
@@ -1480,7 +1647,7 @@ function onFrame(dt)
 	)	
 	and not types.Lockable.isLocked(res.hitObject)
 	and not types.Lockable.getTrapSpell(res.hitObject)
-	and scriptCheck(res.hitObject)
+	and scriptAllows(res.hitObject)
 	then
 		if not types.Container.inventory(res.hitObject):isResolved() then
 			core.sendGlobalEvent("OwnlysQuickLoot_resolve",res.hitObject)
@@ -1588,15 +1755,17 @@ function onControllerButtonPress(ctrl)
 end
 
 
-
-local function activatedContainer(data)
-	local cont = data[1]
-	local isAlive = data[2] --isPickpocketing (nil for containers)
-	if not modEnabled then
+input.registerTriggerHandler('Activate', async:callback(function()
+--local function activatedContainer(data)
+	--local cont = data[1]
+	local cont = inspectedContainer
+	--local isAlive = data[2] --isPickpocketing (nil for containers)
+	if not modEnabled or not cont then
 		return
 	end
+	local isAlive = types.Actor.objectIsInstance(cont) and not types.Actor.isDead(cont)  --isPickpocketing (nil for containers)
 	--print(inspectedContainer,cont)
-	if inspectedContainer == cont then
+	--if inspectedContainer == cont then
 		if containerItems[selectedIndex] then
 			if isAlive then
 				pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
@@ -1615,10 +1784,11 @@ local function activatedContainer(data)
 		if pickpocket.activate(self, inspectedContainer, input) then
 			drawUI()
 		end
-	elseif not inspectedContainer and not scriptCheck(cont) then
-		core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, cont, true})
-	end
-end
+	--elseif not inspectedContainer and not scriptAllows(cont) then
+	--	core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, cont, true})
+	--end
+end))
+--end
 
 local function UiModeChanged(data)
 	if (data.newMode == "Book" or data.newMode == "Scroll") and data.arg.recordId then
@@ -1647,14 +1817,16 @@ local function UiModeChanged(data)
 	end
 	if data.newMode then
 		local now = core.getRealTime()
-		if now - vanillaActivate < 0.2 then
+		if now - showVanillaInventory < 0.2 then
 			closeHud()
-		elseif now - scriptThrottle < 0.2 then
+			showVanillaInventory = 0
+		elseif now - mwScriptCalled < 1 then
 			--print(scriptContainer.id,I.UI.getMode() == "Container" ,savegameData.openedScriptedContainers[scriptContainer.id])
 			if I.UI.getMode() == "Container"  then
 				I.UI.setMode()
 				currentScript = scriptContainer.type.record(scriptContainer).mwscript
 				savegameData.openedScriptedContainers[scriptContainer.id] = true
+				core.sendGlobalEvent("OwnlysQuickLoot_openedScriptedContainer", scriptContainer.id)
 				
 			else
 				closeHud()

@@ -133,6 +133,13 @@ settings = {
 			},
 		},
 		{
+			key = "CONTAINER_SORTING_QUEST",
+			name = "Sorting: Quest Items On Top",
+			description = "Let me know if you find any that got falsely flagged as quest",
+			renderer = "checkbox",
+			default = true
+		},
+		{
 			key = "CONTAINER_SORTING_CASH",
 			name = "Sorting: Cash On Top",
 			description = "",
@@ -174,13 +181,6 @@ settings = {
 		{
 			key = "CONTAINER_SORTING_REPAIR",
 			name = "Sorting: Repair Tools On Top",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "CONTAINER_SORTING_WORTHLESS",
-			name = "Sorting: Zero Value On Top",
 			description = "",
 			renderer = "checkbox",
 			default = true
@@ -376,6 +376,13 @@ settings = {
 			key = "RUN_SCRIPT_ONCE",
 			name = "Run MWscripts only once",
 			description = "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
+			renderer = "checkbox",
+			default = true
+		},
+		{
+			key = "LOOSE_AIMING2",
+			name = "Loose Aiming",
+			description = "Don't have to aim exactly at the container.\ntiny performance impact",
 			renderer = "checkbox",
 			default = true
 		},
