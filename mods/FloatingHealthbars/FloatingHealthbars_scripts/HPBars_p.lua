@@ -965,6 +965,8 @@ local function rootViewpPosCheck(actorPos)
 end
 
 local function onFrame(dt)
+	local HUDMBlacklist = types.Actor.activeEffects(self):getEffect("detectanimal").magnitude > 0 and I.HUDMarkers and I.HUDMarkers.version >= 3 and math.random() < 0.25 and {}
+	
 	frame = frame+1
 	if computeBoundingBoxes then
 		computeBoundingBoxes_tick()
@@ -1259,6 +1261,9 @@ local function onFrame(dt)
 							cachedMagicka = types.Actor.stats.dynamic.magicka(actor).current,
 							lastBarOffset = barOffset,
 						}
+						if HUDMBlacklist then
+							HUDMBlacklist[actor.id] = true
+						end
 						barCache[actor.id] = c
 					else
 						if dt == 0 then
@@ -1266,6 +1271,9 @@ local function onFrame(dt)
 						end
 						c.healthPaused, c.healthLag, c.healthTimer, c.lerpHealth = ownlysLag(currentHealth, c.lerpHealth, c.cachedHealth, c.healthPaused, c.healthLag, c.healthTimer, now-c.lastRender, drainSpeed, timerLength, 0)
 						c.lastRender = now
+						if HUDMBlacklist then
+							HUDMBlacklist[actor.id] = true
+						end
 					end
 					
 					if c.deathTimer <0.75 then
@@ -1305,6 +1313,9 @@ local function onFrame(dt)
 				end
 			end
 		end
+	end
+	if HUDMBlacklist then
+		I.HUDMarkers.FHBarsBlacklist(HUDMBlacklist)
 	end
 	local sortBars = {}
 	for a,b in pairs(updateBars) do
