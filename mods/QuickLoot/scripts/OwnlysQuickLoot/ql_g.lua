@@ -5,6 +5,7 @@ local disabledPlayers = {}
 local activateNextUpdate = {}
 local activateSecondNextUpdate = {}
 local deleteSecondNextUpdate = {}
+local limbo = {}
 local world = require('openmw.world')
 local I = require("openmw.interfaces")
 local vanillaActivateTable = {}
@@ -18,6 +19,10 @@ local organicContainers = {
 	com_chest_02_mg_supply =true,
 	flora_treestump_unique =true,
 }
+
+if not core.mwscripts then
+	scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
+end
 
 onActivateStuffOnce = {}
 local getSound = require("scripts.OwnlysQuickLoot.ql_getSound")
@@ -33,16 +38,39 @@ local function removeInvisibility(player)
 end
 
 local function sa(cont)
-	local script = cont.type.record(cont).mwscript
-	local scriptRecord = script and core.mwscripts and core.mwscripts.records[script]
+	--if (cont.recordId:find("contain_bm_stalhrim")) then
+	--	playerItems = types.Container.inventory(self):getAll()
+	--	for a,b in pairs(playerItems) do
+	--		if b.recordId == "bm nordic pick" then
+	--			return true
+	--		end
+	--	end
+	--	return false
+	--end
 	if types.Lockable.getTrapSpell(cont) then
 		return false
 	end
-	if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
-		return true
-	end
+
+	local script = cont.type.record(cont).mwscript	
 	if script then
-		return false
+		if core.mwscripts then
+			local scriptRecord = core.mwscripts.records[script]
+			if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
+				--print(script.." ok")
+				return true
+			else
+				--print(script.." not ok")
+				return false
+			end
+		else
+			if scriptDB[script] == false then
+				--print(script.." ok")
+				return true
+			else -- nil or true
+				--print(script.." not ok")
+				return false
+			end
+		end
 	else
 		return true
 	end
@@ -89,7 +117,9 @@ local function activateContainer(cont, player)
 	if cont.type.record(cont).isOrganic and not organicContainers[cont.recordId] then --plants but not guild chests
 		return true
 	end
-	
+	if types.Lockable.isLocked(cont) or types.Lockable.getTrapSpell(cont) then
+		return true
+	end
 	if disabledPlayers[player.id] or vanillaActivateTable[player.id] then
 		return true
 	end
@@ -239,10 +269,12 @@ local function takeAll(data)
 		end
 		if disposeCorpse and types.Actor.objectIsInstance(container) and types.Actor.isDead(container) then
 			table.insert(deleteSecondNextUpdate,{container,2})
+			player:sendEvent("OwnlysQuickLoot_playSound", "item armor light up")
 		end
 		if i>0 then
 			--player:sendEvent("TakeAll_PlaySound","Item Ingredient Up")
 		end
+		player:sendEvent("HUDM_recheckObject", container)
 	--end
 end
 
@@ -270,12 +302,23 @@ local function onUpdate(dt)
 		if t[2]>1 then
 			t[2] = 1
 		else
-			t[1]:remove(1)
+			if types.Actor.isDeathFinished(t[1]) then
+				t[1]:remove(1)
+			else
+				t[1]:teleport(t[1].cell, t[1].position-util.vector3(0,0,300))
+				table.insert(limbo, t[1])
+			end
 			table.remove(deleteSecondNextUpdate,i)
 		end
 	end
 	activateNextUpdate = activateSecondNextUpdate
 	activateSecondNextUpdate = {}
+	for i, actor in pairs(limbo) do
+		if types.Actor.isDeathFinished(actor) then
+			actor:remove(1)
+			limbo[i] = nil
+		end
+	end
 end
 local function playerToggledMod(arg)
 	local player = arg[1]

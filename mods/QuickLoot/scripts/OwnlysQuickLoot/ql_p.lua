@@ -1329,8 +1329,9 @@ function closeHud()
 	end
 end
 
-
---local scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
+if not core.mwscripts then
+	scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
+end
 
 function scriptAllows(cont)
 
@@ -1343,23 +1344,30 @@ function scriptAllows(cont)
 	--	end
 	--	return false
 	--end
-
-	local script = cont.type.record(cont).mwscript
-	local scriptRecord = script and core.mwscripts and core.mwscripts.records[script]
 	if types.Lockable.getTrapSpell(cont) then
 		return false
 	end
-	if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
-		--print(script.." ok")
-		return true
-	end
+
+	local script = cont.type.record(cont).mwscript	
 	if script then
-		--local now = core.getRealTime()
-		--if now - mwScriptCalled >=1 then
-		--	mwScriptCalled = now
-		--	cont:activateBy(self)
-		--end
-		return false
+		if core.mwscripts then
+			local scriptRecord = core.mwscripts.records[script]
+			if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
+				--print(script.." ok")
+				return true
+			else
+				--print(script.." not ok")
+				return false
+			end
+		else
+			if scriptDB[script] == false then
+				--print(script.." ok")
+				return true
+			else -- nil or true
+				--print(script.." not ok")
+				return false
+			end
+		end
 	else
 		return true
 	end
