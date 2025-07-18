@@ -50,25 +50,27 @@ local function sa(cont)
 	if types.Lockable.getTrapSpell(cont) then
 		return false
 	end
-
-	local script = cont.type.record(cont).mwscript	
+	local script = cont.type.record(cont).mwscript
 	if script then
 		if core.mwscripts then
 			local scriptRecord = core.mwscripts.records[script]
 			if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
-				--print(script.." ok")
+				print("onActivate: "..script.." ok")
 				return true
 			else
-				--print(script.." not ok")
+				print("onActivate: "..script.." not ok")
 				return false
 			end
 		else
 			if scriptDB[script] == false then
-				--print(script.." ok")
+				print("onActivate: "..script.." ok")
 				return true
-			else -- nil or true
-				--print(script.." not ok")
+			elseif scriptDB[script] then
+				print("onActivate: "..script.." not ok (blacklist)")
 				return false
+			else
+				print("onActivate: "..script.." ok (unknown)")
+				return true
 			end
 		end
 	else
@@ -268,7 +270,7 @@ local function takeAll(data)
 		--moveInto(types.Player.inventory(player))
 		end
 		if disposeCorpse and types.Actor.objectIsInstance(container) and types.Actor.isDead(container) then
-			table.insert(deleteSecondNextUpdate,{container,2})
+			table.insert(deleteSecondNextUpdate,{container,2, player})
 			player:sendEvent("OwnlysQuickLoot_playSound", "item armor light up")
 		end
 		if i>0 then
@@ -303,19 +305,21 @@ local function onUpdate(dt)
 			t[2] = 1
 		else
 			if types.Actor.isDeathFinished(t[1]) then
+				t[3]:sendEvent("HUDM_objectRemoved",t[1])
 				t[1]:remove(1)
 			else
 				t[1]:teleport(t[1].cell, t[1].position-util.vector3(0,0,300))
-				table.insert(limbo, t[1])
+				table.insert(limbo, {t[1], t[3]})
 			end
 			table.remove(deleteSecondNextUpdate,i)
 		end
 	end
 	activateNextUpdate = activateSecondNextUpdate
 	activateSecondNextUpdate = {}
-	for i, actor in pairs(limbo) do
-		if types.Actor.isDeathFinished(actor) then
-			actor:remove(1)
+	for i, t in pairs(limbo) do
+		if types.Actor.isDeathFinished(t[1]) then
+			t[2]:sendEvent("HUDM_objectRemoved",t[1])
+			t[1]:remove(1)
 			limbo[i] = nil
 		end
 	end

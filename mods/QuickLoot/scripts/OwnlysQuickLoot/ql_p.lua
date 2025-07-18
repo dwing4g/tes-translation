@@ -462,11 +462,22 @@ function drawUI()
 		listY = listY + headerFooterHeight
 	end
 	
+	local function filterItems(t)
+		local ret = {}
+		for i, item in pairs(t) do
+			if item.recordId:sub(1,9) ~= "_mca_mask" and item.recordId:sub(1,8) ~= "_mca_wig" then
+				table.insert(ret,item)
+			end
+		end
+		return ret
+	end
 	--GET CONTENTS
 	if deposit then
 		containerItems = types.Container.inventory(self):getAll()
+		containerItems = filterItems(containerItems)
 	else
 		containerItems = types.Container.inventory(inspectedContainer):getAll()
+		containerItems = filterItems(containerItems)
 		if isPickpocketing then
 			containerItems = pickpocket.filterItems(self, inspectedContainer, containerItems)
 		end
@@ -1344,28 +1355,33 @@ function scriptAllows(cont)
 	--	end
 	--	return false
 	--end
+	if types.Actor.objectIsInstance(cont) and not types.Actor.isDead(cont) then
+		return true
+	end
 	if types.Lockable.getTrapSpell(cont) then
 		return false
 	end
-
-	local script = cont.type.record(cont).mwscript	
+	local script = cont.type.record(cont).mwscript
 	if script then
 		if core.mwscripts then
 			local scriptRecord = core.mwscripts.records[script]
 			if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
-				--print(script.." ok")
+				log(script.." ok")
 				return true
 			else
-				--print(script.." not ok")
+				log(script.." not ok")
 				return false
 			end
 		else
 			if scriptDB[script] == false then
-				--print(script.." ok")
+				log(script.." ok")
 				return true
-			else -- nil or true
-				--print(script.." not ok")
+			elseif scriptDB[script] then
+				log(script.." not ok (blacklist)")
 				return false
+			else
+				log(script.." ok (unknown)")
+				return true
 			end
 		end
 	else
