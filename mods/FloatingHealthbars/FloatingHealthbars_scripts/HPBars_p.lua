@@ -965,6 +965,7 @@ local function rootViewpPosCheck(actorPos)
 end
 
 local function onFrame(dt)
+
 	local HUDMBlacklist = types.Actor.activeEffects(self):getEffect("detectanimal").magnitude > 0 and I.HUDMarkers and I.HUDMarkers.version >= 3 and math.random() < 0.25 and {}
 	
 	frame = frame+1
@@ -985,6 +986,18 @@ local function onFrame(dt)
 	local screenres = ui.screenSize()
 	local uiScale = screenres.x / width
 	screenres= screenres:ediv(v2(uiScale,uiScale))
+	local viewportToWorldVector = camera.viewportToWorldVector(v2(0.5, 0.5))
+	local viewportLength = viewportToWorldVector:length()
+	
+	-- fov calculation:
+	local leftEdge = camera.viewportToWorldVector(util.vector2(0, 0.5))
+	local halfFovDot = viewportToWorldVector:dot(leftEdge)
+	local halfFovLength = viewportToWorldVector:length() * leftEdge:length()
+	local halfFovCosine = halfFovDot / halfFovLength * 0.98
+	
+	local isFirstPerson = camera.getMode() ~= camera.MODE.FirstPerson
+	local OWN_BAR = playerSettings:get("OWN_BAR")
+	local MAX_DISTANCE = playerSettings:get("MAX_DISTANCE")
 	local updateBars = {}
 	--local usedThisFrame = {}
 	local crosshairFilter = false
@@ -994,321 +1007,327 @@ local function onFrame(dt)
 		end
 	elseif playerSettings:get("UNDER_CROSSHAIR") == "Weapon readied" then
 		if types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing then
-			local res = nearby.castRenderingRay(cameraPos, cameraPos+camera.viewportToWorldVector(v2(0.5,0.5)):emul(v3(2000,2000,2000)))
+			local res = nearby.castRenderingRay(cameraPos, cameraPos+viewportToWorldVector:emul(v3(2000,2000,2000)))
 			crosshairFilter = res.hitObject
 		end
 	elseif playerSettings:get("UNDER_CROSSHAIR") == "always" then
-		local res = nearby.castRenderingRay(cameraPos, cameraPos+camera.viewportToWorldVector(v2(0.5,0.5)):emul(v3(2000,2000,2000)))
+		local res = nearby.castRenderingRay(cameraPos, cameraPos+viewportToWorldVector:emul(v3(2000,2000,2000)))
 		crosshairFilter = res.hitObject
 	end
 	for _,actor in pairs(nearby.actors) do
 		--print(actor.id)
 		local actorPos = actor.position
-		if actor~=self.object and (actorPos - cameraPos):length() < playerSettings:get("MAX_DISTANCE") or playerSettings:get("OWN_BAR") and camera.getMode() ~= camera.MODE.FirstPerson then
-			--print(actor.type)
-			local height = false
-			local actorRecordId = actor.recordId
-			local actorScale = actor.scale
-			if not boxCache[actorRecordId] or math.random()<0.15 and dt > 0 then
-				local npcRecord = types.NPC.record(actorRecordId)
-				if npcRecord then-- and types.NPC.races.record(npcRecord.race).isBeast then -- somehow beasts have huge bounding boxes
-					if not boxCache[actorRecordId] then
-						if npcRecord.isMale then
-							boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale)}
-						else
-							boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale)}
-						end
-					end
-				else
-					--print(actor:getBoundingBox().halfSize)
-					local box = actor:getBoundingBox()
-					local newCache = {box.center-actorPos:ediv(v3(actorScale,actorScale,actorScale)), box.halfSize:ediv(v3(actorScale,actorScale,actorScale)), 1}
-					
-					--print( actorRecordId,box.center,box.halfSize)
-					if not boxCache[actorRecordId] then
-						boxCache[actorRecordId] = newCache
-					else
-						local strength = 1/(boxCache[actorRecordId][3]+1)+0.01
-						boxCache[actorRecordId] = {boxCache[actorRecordId][1]*(1-strength)+newCache[1]*strength, boxCache[actorRecordId][2]*(1-strength)+newCache[2]*strength, boxCache[actorRecordId][3]+1}
-					end
-					--print(box.center, box.halfSize)
-					--print(boxCache[actorRecordId][1],boxCache[actorRecordId][2])
-				end
-				--print(actorRecordId, boxCache[actorRecordId])
-			end
-			
-			--core.sendGlobalEvent("HPBars_VFX",actorPos-boxCache[actorRecordId][2])
-			--local hugeness = math.log10(boxCache[actorRecordId][2].x*boxCache[actorRecordId][2].y*boxCache[actorRecordId][2].z)
-			
-			local barPos = actorPos
-			local barOffset=v3(0,0,0)
-			--print(actorRecordId)
-			local model = types.Creature.objectIsInstance(actor) and types.Creature.records[actor.recordId].model:lower()
-			if model then
-				--box center:
-				barOffset = (computedBoxes[model] and computedBoxes[model][1]:emul(v3(0,0,1)) or boxCache[actorRecordId][1]:emul(v3(0,0,1)))*actorScale
-				--print(computedBoxes[model] and computedBoxes[model][1]:emul(v3(1,1,1)))
-				if playerSettings:get("ANCHOR") == "head" then
-					--barOffset =  boxCache[actorRecordId][2]:emul(v3(0,0,actorScale))
-					if customHeights[model] then
-						barOffset = v3(barOffset.x, barOffset.y, customHeights[model]*actorScale)
-					elseif computedBoxes[model] then
-						barOffset = v3(0,0, barOffset.z + computedBoxes[model][2].z/2*actorScale)
-					else
-						barOffset = v3(0,0, barOffset.z + boxCache[actorRecordId][2].z*actorScale)
-					end
-				else
-					if computedBoxes[model] then
-						barOffset = v3(0,0, barOffset.z - computedBoxes[model][2].z/2*actorScale)
-					else
-						barOffset = v3(0,0, barOffset.z - boxCache[actorRecordId][2].z*actorScale)
-					end
-				end
-			else
-				if playerSettings:get("ANCHOR") == "head" then --npcs are too predictable to use the engine's buggy bounding boxes as fallback already
-					barOffset = boxCache[actorRecordId][1]+boxCache[actorRecordId][2]
-				else
-					barOffset = v3(0,0,0)
-				end
-			end
-				--print(animation.getTextKeyTime(actor, "knockout: start"))
-				--print(animation.getTextKeyTime(actor, "knockdown: loop start"))
+		local toObject = actorPos - cameraPos
+		local dotProduct = viewportToWorldVector:dot(toObject)
+		if dotProduct > 0 and (actor~=self.object or OWN_BAR and not isFirstPerson) then
+			local toObjectLength = toObject:length()
+			if toObjectLength < MAX_DISTANCE and dotProduct / (viewportLength * toObjectLength) > halfFovCosine then
+				--print(actor.type)
 				
-				--print(animation.getCurrentTime(actor, "knockout"))
-			local currentHealth = types.Actor.stats.dynamic.health(actor).current
-			local isDead = types.Actor.isDead(actor)
-			--local deathAnim = nil
-			if animation.hasAnimation(actor) then
-				if (animation.isPlaying(actor, "knockout") ) then
-					local animStart = animation.getTextKeyTime(actor, "knockout: start")
-					local animStop = animation.getTextKeyTime(actor, "knockout: stop")-animStart
-					local animLoopStart = animation.getTextKeyTime(actor, "knockout: loop start")-animStart
-					local animLoopStop = animation.getTextKeyTime(actor, "knockout: loop stop")-animStart
-					local animCurrent = animation.getCurrentTime(actor, "knockout")-animStart
-					if animCurrent <= animLoopStart then
-						local animPct = ((animCurrent/animLoopStart)*1.25-0.25)^2
-						barOffset = barOffset*(1-animPct) + barOffset/2*animPct
-					elseif animCurrent >= animLoopStop then
-						animCurrent = animCurrent - animLoopStop
-						animStop = animStop - animLoopStop
-						animStop = animStop *0.9
-						animLoopStop = 0
-						local animPct = math.min(1,((animCurrent/animStop)*1.2-0.2)^2)
-						barOffset = barOffset/2*(1-animPct) + barOffset*animPct
+				local height = false
+				local actorRecordId = actor.recordId
+				local actorScale = actor.scale
+				if not boxCache[actorRecordId] or math.random()<0.15 and dt > 0 then
+					local npcRecord = types.NPC.record(actorRecordId)
+					if npcRecord then-- and types.NPC.races.record(npcRecord.race).isBeast then -- somehow beasts have huge bounding boxes
+						if not boxCache[actorRecordId] then
+							if npcRecord.isMale then
+								boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.male*67.5/actorScale)}
+							else
+								boxCache[actorRecordId] = {v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale),v3(0,0,types.NPC.races.record(npcRecord.race).height.female*67.5/actorScale)}
+							end
+						end
 					else
-						barOffset = barOffset / 2
-					end
-					if barCache[actor.id] then
-						barCache[actor.id].lastBarOffset = barOffset
-					end
-				elseif animation.isPlaying(actor, "knockdown") then
-					local animStart = animation.getTextKeyTime(actor, "knockdown: start")
-					local animStop = animation.getTextKeyTime(actor, "knockdown: stop")-animStart
-					local animMiddle = animStop/2
-					local animCurrent = animation.getCurrentTime(actor, "knockdown")-animStart
-					if animCurrent <= animStop/4 then
-						local animPct = math.min(1,((animCurrent/(animStop/4))*1.2-0.2)^2)
-						barOffset = barOffset*(1-animPct) + barOffset*3/4*animPct
-					elseif animCurrent >= animStop*3/4 then
-						animCurrent = animCurrent - animStop*3/4
-						local animPct = math.min(1,((animCurrent/(animStop/4))*1.2-0.2)^2)
-						barOffset = barOffset*3/4*(1-animPct) + barOffset*animPct
-					else
-						barOffset = barOffset*3/4
-					end
-					if barCache[actor.id] then
-						barCache[actor.id].lastBarOffset = barOffset
-					end
-				--elseif animation.isPlaying(actor, "deathknockout") then
-				--	deathAnim = "deathknockout"
-				--elseif animation.isPlaying(actor, "deathknockdown") then
-				--	deathAnim = "deathknockdown"
-				--elseif animation.isPlaying(actor, "death1") then
-				--	deathAnim = "death1"
-				--elseif animation.isPlaying(actor, "death2") then
-				--	deathAnim = "death2"
-				--elseif animation.isPlaying(actor, "death3") then
-				--	deathAnim = "death3"
-				--elseif animation.isPlaying(actor, "death4") then
-				--	deathAnim = "death4"
-				--elseif animation.isPlaying(actor, "death5") then
-				--	deathAnim = "death5"
-				end
-			end
-			--if (deathAnim or currentHealth <= 0) and barCache[actor.id] then
-			if isDead and barCache[actor.id] then
-				--local animStart = animation.getTextKeyTime(actor, deathAnim..": start")
-				--local animStop = (animation.getTextKeyTime(actor, deathAnim..": stop")-animStart+3)/3
-				--local animCurrent = animation.getCurrentTime(actor, deathAnim)-animStart
-				--local animPct = ((animCurrent/animStop)*2)^2
-				local animPct = (barCache[actor.id].deathTimer/0.75)^2
-				barOffset = barCache[actor.id].lastBarOffset*(1-animPct) + barCache[actor.id].lastBarOffset*0.8*animPct
-			end
-			--print(barOffset)
-			barPos =  barPos + barOffset
-			local viewPos_XYZ = camera.worldToViewportVector(barPos)
-			local rootViewPos_XYZ = camera.worldToViewportVector(actorPos)
-			local viewpPos = v2(viewPos_XYZ.x/uiScale, viewPos_XYZ.y/uiScale)
-			local rootViewpPos = v2(rootViewPos_XYZ.x/uiScale, rootViewPos_XYZ.y/uiScale)
-			local v = camera.viewportToWorldVector(v2(0.5, 0.5))
-			local u = (barPos - cameraPos):normalize()
-			--print(v,u)
-			--print(v*u)
-			local angleInRadians = math.acos(v:dot(u) / math.max(0.0001,v * u))
-			local stanceFilter = true
-			if playerSettings:get("ONLY_IN_COMBAT") and types.Actor.getStance(actor) == types.Actor.STANCE.Nothing and (not AI_DB[actor.id] or AI_DB[actor.id].Combat >= now-1) then
-				stanceFilter = false
-			end
-			
-			local maxHealth = types.Actor.stats.dynamic.health(actor).base
-			if (not model or not modelBlacklist[model]) 
-			and (barCache[actor.id] or not isDead)  
-			--and viewPos_XYZ.z < playerSettings:get("MAX_DISTANCE") +100
-			and angleInRadians < math.pi/2 and viewpPos.x >= screenres.x*-0.1 
-			and viewpPos.x <= screenres.x*1.1 
-			and (viewpPos.y >= screenres.y*-0.02 or viewpPos.y < screenres.y*-0.02 and rootViewPos_XYZ.y >= screenres.y*0.5 and rootViewPos_XYZ.y <screenres.y*1.4)
-			and viewpPos.y <= screenres.y*(playerSettings:get("ANCHOR") == "head" and 1.02 or 1.4)
-			and (stanceFilter 
-				or AI_DB[actor.id] and AI_DB[actor.id].Pursue and AI_DB[actor.id].Pursue> now -1
-				or (playerSettings:get("DAMAGED_ACTORS") and currentHealth ~= maxHealth) 
-				or checkBuffs (actor, "debuffs") 
-				or crosshairFilter == true 
-				or crosshairFilter == actor) then
-				--print(hugeness)
-				
-				if not raytracing[actor.id] then
-					raytracing[actor.id] = {}
-					raytracing[actor.id].lastHit = 0
-					raytracing[actor.id].actor = actor
-					raytracing[actor.id].failedHits = 0
-				end
-				raytracing[actor.id].healthPct = currentHealth/maxHealth
-				raytracing[actor.id].lastHealthUpdate = now
-				raytracing[actor.id].barPos = barPos
-				raytracing[actor.id].actorPos = actorPos
-				raytracing[actor.id].distance = viewPos_XYZ.z
-				local rayCheck = true
-				local raytracingAlphaMult = 1
-				if playerSettings:get("RAYTRACING") then
-					if raytracing[actor.id].lastHit < now-1 then
-						rayCheck = false
-					elseif raytracing[actor.id].lastHit < now-0.05 then
-						raytracingAlphaMult = 1-(now - raytracing[actor.id].lastHit)/1
-					end
-				end
-				if rayCheck then
-					--local hugeness1 = (boxCache[actorRecordId][2].x+boxCache[actorRecordId][2].y)
-					--
-					local hugeness2 = 0.85
-					local hugeness3 = 0.85
-					local hugeness = 0.85--model and customScales[model] and customScales[model]/100 or 1
-					if model then
-						local height = boxCache[actorRecordId][2].z*2
-						if customHeights[model] then
-							height = math.max(height,customHeights[model])
-						end
-						if computedBoxes[model] then
-							height = math.max(height, computedBoxes[model][2].z)
-						end
-						height = height*actorScale
-						if height < 110 then
-							hugeness = 0.66 + height/323								
-						else
-							hugeness = 1 + 3*(1-0.7^((height-110)/215))
-						end
-					end
-					if model then
-						if computedBoxes[model] then
-							hugeness2 = (computedBoxes[model][2].x*computedBoxes[model][2].y*computedBoxes[model][2].z)^0.333 / 90
-							hugeness3 = (computedBoxes[model][2].x*computedBoxes[model][2].y)^0.333 / 90
-						else
-							hugeness2 = (boxCache[actorRecordId][2].x*boxCache[actorRecordId][2].y*boxCache[actorRecordId][2].z)^0.333 / 90
-							hugeness3 = (boxCache[actorRecordId][2].x*boxCache[actorRecordId][2].y)^0.5 / 90
-						end
-					end
+						--print(actor:getBoundingBox().halfSize)
+						local box = actor:getBoundingBox()
+						local newCache = {box.center-actorPos:ediv(v3(actorScale,actorScale,actorScale)), box.halfSize:ediv(v3(actorScale,actorScale,actorScale)), 1}
 						
-					hugeness = 0.3 + hugeness/4 + hugeness2/4 + hugeness3/4 + math.log10(maxHealth/10)/4
-					if model then
-						hugeness = hugeness + (customScales[model] or 0)
-					end
-					local offsetScale = 500/ viewPos_XYZ.z*playerSettings:get("SCALE")
-					if offsetScale >1 then
-						offsetScale = 1 + 10.7*(1-0.75^((offsetScale-1)/3))
-					end
-					local sizeMult = offsetScale*hugeness*0.85
-					local c = barCache[actor.id]
-					if not c or c.lastRender < now-1 then
-						if c and c.bar then
-							c.bar:destroy()
+						--print( actorRecordId,box.center,box.halfSize)
+						if not boxCache[actorRecordId] then
+							boxCache[actorRecordId] = newCache
+						else
+							local strength = 1/(boxCache[actorRecordId][3]+1)+0.01
+							boxCache[actorRecordId] = {boxCache[actorRecordId][1]*(1-strength)+newCache[1]*strength, boxCache[actorRecordId][2]*(1-strength)+newCache[2]*strength, boxCache[actorRecordId][3]+1}
 						end
-						c = {
-							actor = actor,
-							lastRender = now,
-							healthPaused = currentHealth,
-							healthTimer = 0,
-							lerpHealth = currentHealth,
-							healthLag = currentHealth,
-							cachedHealth = currentHealth,
-							cachedLerpHealth = currentHealth,
-							cachedIncomingHealing = 0,
-							cachedHealthLag = currentHealth,
-							cachedBorderAlpha = 0.5,
-							textVisible = sizeMult>1,
-							deathTimer = 0,
-							lastBuffUpdate = now,
-							hasBuffs = true,
-							cachedFatigue = types.Actor.stats.dynamic.fatigue(actor).current,
-							cachedMagicka = types.Actor.stats.dynamic.magicka(actor).current,
-							lastBarOffset = barOffset,
-						}
-						if HUDMBlacklist then
-							HUDMBlacklist[actor.id] = true
+						--print(box.center, box.halfSize)
+						--print(boxCache[actorRecordId][1],boxCache[actorRecordId][2])
+					end
+					--print(actorRecordId, boxCache[actorRecordId])
+				end
+				
+				--core.sendGlobalEvent("HPBars_VFX",actorPos-boxCache[actorRecordId][2])
+				--local hugeness = math.log10(boxCache[actorRecordId][2].x*boxCache[actorRecordId][2].y*boxCache[actorRecordId][2].z)
+				
+				local barPos = actorPos
+				local barOffset=v3(0,0,0)
+				--print(actorRecordId)
+				local model = types.Creature.objectIsInstance(actor) and types.Creature.records[actor.recordId].model:lower()
+				if model then
+					--box center:
+					barOffset = (computedBoxes[model] and computedBoxes[model][1]:emul(v3(0,0,1)) or boxCache[actorRecordId][1]:emul(v3(0,0,1)))*actorScale
+					--print(computedBoxes[model] and computedBoxes[model][1]:emul(v3(1,1,1)))
+					if playerSettings:get("ANCHOR") == "head" then
+						--barOffset =  boxCache[actorRecordId][2]:emul(v3(0,0,actorScale))
+						if customHeights[model] then
+							barOffset = v3(barOffset.x, barOffset.y, customHeights[model]*actorScale)
+						elseif computedBoxes[model] then
+							barOffset = v3(0,0, barOffset.z + computedBoxes[model][2].z/2*actorScale)
+						else
+							barOffset = v3(0,0, barOffset.z + boxCache[actorRecordId][2].z*actorScale)
 						end
-						barCache[actor.id] = c
 					else
-						if dt == 0 then
-							c.lastRender = now
-						end
-						c.healthPaused, c.healthLag, c.healthTimer, c.lerpHealth = ownlysLag(currentHealth, c.lerpHealth, c.cachedHealth, c.healthPaused, c.healthLag, c.healthTimer, now-c.lastRender, drainSpeed, timerLength, 0)
-						c.lastRender = now
-						if HUDMBlacklist then
-							HUDMBlacklist[actor.id] = true
+						if computedBoxes[model] then
+							barOffset = v3(0,0, barOffset.z - computedBoxes[model][2].z/2*actorScale)
+						else
+							barOffset = v3(0,0, barOffset.z - boxCache[actorRecordId][2].z*actorScale)
 						end
 					end
+				else
+					if playerSettings:get("ANCHOR") == "head" then --npcs are too predictable to use the engine's buggy bounding boxes as fallback already
+						barOffset = boxCache[actorRecordId][1]+boxCache[actorRecordId][2]
+					else
+						barOffset = v3(0,0,0)
+					end
+				end
+					--print(animation.getTextKeyTime(actor, "knockout: start"))
+					--print(animation.getTextKeyTime(actor, "knockdown: loop start"))
 					
-					if c.deathTimer <0.75 then
-						if isDead then
-							c.deathTimer = c.deathTimer+dt
-						end
-						if stylizedBars[playerSettings:get("BORDER_STYLE")] then
-							updateStylized(c, currentHealth, maxHealth,sizeMult)
+					--print(animation.getCurrentTime(actor, "knockout"))
+				local currentHealth = types.Actor.stats.dynamic.health(actor).current
+				local isDead = types.Actor.isDead(actor)
+				--local deathAnim = nil
+				if animation.hasAnimation(actor) then
+					if (animation.isPlaying(actor, "knockout") ) then
+						local animStart = animation.getTextKeyTime(actor, "knockout: start")
+						local animStop = animation.getTextKeyTime(actor, "knockout: stop")-animStart
+						local animLoopStart = animation.getTextKeyTime(actor, "knockout: loop start")-animStart
+						local animLoopStop = animation.getTextKeyTime(actor, "knockout: loop stop")-animStart
+						local animCurrent = animation.getCurrentTime(actor, "knockout")-animStart
+						if animCurrent <= animLoopStart then
+							local animPct = ((animCurrent/animLoopStart)*1.25-0.25)^2
+							barOffset = barOffset*(1-animPct) + barOffset/2*animPct
+						elseif animCurrent >= animLoopStop then
+							animCurrent = animCurrent - animLoopStop
+							animStop = animStop - animLoopStop
+							animStop = animStop *0.9
+							animLoopStop = 0
+							local animPct = math.min(1,((animCurrent/animStop)*1.2-0.2)^2)
+							barOffset = barOffset/2*(1-animPct) + barOffset*animPct
 						else
-							update(c, currentHealth, maxHealth,sizeMult)
+							barOffset = barOffset / 2
 						end
-						viewpPos = v2(viewpPos.x+playerSettings:get("OFFSET_X")*offsetScale,viewpPos.y+playerSettings:get("OFFSET_Y")*offsetScale)
-						if playerSettings:get("ANCHOR") == "head" then
-							if viewpPos.y < (28*sizeMult+2)*2/4  then
-								viewpPos = v2(viewpPos.x,(28*sizeMult+2)*2/4)
-							--	c.bar.layout.props.anchor = v2(0.5,0.25)
-							--else
-							--	c.bar.layout.props.anchor = v2(0.5,0.625)
-							end
+						if barCache[actor.id] then
+							barCache[actor.id].lastBarOffset = barOffset
+						end
+					elseif animation.isPlaying(actor, "knockdown") then
+						local animStart = animation.getTextKeyTime(actor, "knockdown: start")
+						local animStop = animation.getTextKeyTime(actor, "knockdown: stop")-animStart
+						local animMiddle = animStop/2
+						local animCurrent = animation.getCurrentTime(actor, "knockdown")-animStart
+						if animCurrent <= animStop/4 then
+							local animPct = math.min(1,((animCurrent/(animStop/4))*1.2-0.2)^2)
+							barOffset = barOffset*(1-animPct) + barOffset*3/4*animPct
+						elseif animCurrent >= animStop*3/4 then
+							animCurrent = animCurrent - animStop*3/4
+							local animPct = math.min(1,((animCurrent/(animStop/4))*1.2-0.2)^2)
+							barOffset = barOffset*3/4*(1-animPct) + barOffset*animPct
 						else
-							if viewpPos.y > screenres.y  then
-								viewpPos = v2(viewpPos.x,screenres.y)
+							barOffset = barOffset*3/4
+						end
+						if barCache[actor.id] then
+							barCache[actor.id].lastBarOffset = barOffset
+						end
+					--elseif animation.isPlaying(actor, "deathknockout") then
+					--	deathAnim = "deathknockout"
+					--elseif animation.isPlaying(actor, "deathknockdown") then
+					--	deathAnim = "deathknockdown"
+					--elseif animation.isPlaying(actor, "death1") then
+					--	deathAnim = "death1"
+					--elseif animation.isPlaying(actor, "death2") then
+					--	deathAnim = "death2"
+					--elseif animation.isPlaying(actor, "death3") then
+					--	deathAnim = "death3"
+					--elseif animation.isPlaying(actor, "death4") then
+					--	deathAnim = "death4"
+					--elseif animation.isPlaying(actor, "death5") then
+					--	deathAnim = "death5"
+					end
+				end
+				--if (deathAnim or currentHealth <= 0) and barCache[actor.id] then
+				if isDead and barCache[actor.id] then
+					--local animStart = animation.getTextKeyTime(actor, deathAnim..": start")
+					--local animStop = (animation.getTextKeyTime(actor, deathAnim..": stop")-animStart+3)/3
+					--local animCurrent = animation.getCurrentTime(actor, deathAnim)-animStart
+					--local animPct = ((animCurrent/animStop)*2)^2
+					local animPct = (barCache[actor.id].deathTimer/0.75)^2
+					barOffset = barCache[actor.id].lastBarOffset*(1-animPct) + barCache[actor.id].lastBarOffset*0.8*animPct
+				end
+				--print(barOffset)
+				barPos =  barPos + barOffset
+				local viewPos_XYZ = camera.worldToViewportVector(barPos)
+				local rootViewPos_XYZ = camera.worldToViewportVector(actorPos)
+				local viewpPos = v2(viewPos_XYZ.x/uiScale, viewPos_XYZ.y/uiScale)
+				local rootViewpPos = v2(rootViewPos_XYZ.x/uiScale, rootViewPos_XYZ.y/uiScale)
+				local v = viewportToWorldVector
+				local u = (barPos - cameraPos):normalize()
+				--print(v,u)
+				--print(v*u)
+				local angleInRadians = math.acos(v:dot(u) / math.max(0.0001,v * u))
+				local stanceFilter = true
+				if playerSettings:get("ONLY_IN_COMBAT") and types.Actor.getStance(actor) == types.Actor.STANCE.Nothing and (not AI_DB[actor.id] or AI_DB[actor.id].Combat >= now-1) then
+					stanceFilter = false
+				end
+				
+				local maxHealth = types.Actor.stats.dynamic.health(actor).base
+				if (not model or not modelBlacklist[model]) 
+				and (barCache[actor.id] or not isDead)  
+				--and viewPos_XYZ.z < playerSettings:get("MAX_DISTANCE") +100
+				and angleInRadians < math.pi/2 and viewpPos.x >= screenres.x*-0.1 
+				and viewpPos.x <= screenres.x*1.1 
+				and (viewpPos.y >= screenres.y*-0.02 or viewpPos.y < screenres.y*-0.02 and rootViewPos_XYZ.y >= screenres.y*0.5 and rootViewPos_XYZ.y <screenres.y*1.4)
+				and viewpPos.y <= screenres.y*(playerSettings:get("ANCHOR") == "head" and 1.02 or 1.4)
+				and (stanceFilter 
+					or AI_DB[actor.id] and AI_DB[actor.id].Pursue and AI_DB[actor.id].Pursue> now -1
+					or (playerSettings:get("DAMAGED_ACTORS") and currentHealth ~= maxHealth) 
+					or checkBuffs (actor, "debuffs") 
+					or crosshairFilter == true 
+					or crosshairFilter == actor) then
+					--print(hugeness)
+					
+					if not raytracing[actor.id] then
+						raytracing[actor.id] = {}
+						raytracing[actor.id].lastHit = 0
+						raytracing[actor.id].actor = actor
+						raytracing[actor.id].failedHits = 0
+					end
+					raytracing[actor.id].healthPct = currentHealth/maxHealth
+					raytracing[actor.id].lastHealthUpdate = now
+					raytracing[actor.id].barPos = barPos
+					raytracing[actor.id].actorPos = actorPos
+					raytracing[actor.id].distance = viewPos_XYZ.z
+					local rayCheck = true
+					local raytracingAlphaMult = 1
+					if playerSettings:get("RAYTRACING") then
+						if raytracing[actor.id].lastHit < now-1 then
+							rayCheck = false
+						elseif raytracing[actor.id].lastHit < now-0.05 then
+							raytracingAlphaMult = 1-(now - raytracing[actor.id].lastHit)/1
+						end
+					end
+					if rayCheck then
+						--local hugeness1 = (boxCache[actorRecordId][2].x+boxCache[actorRecordId][2].y)
+						--
+						local hugeness2 = 0.85
+						local hugeness3 = 0.85
+						local hugeness = 0.85--model and customScales[model] and customScales[model]/100 or 1
+						if model then
+							local height = boxCache[actorRecordId][2].z*2
+							if customHeights[model] then
+								height = math.max(height,customHeights[model])
+							end
+							if computedBoxes[model] then
+								height = math.max(height, computedBoxes[model][2].z)
+							end
+							height = height*actorScale
+							if height < 110 then
+								hugeness = 0.66 + height/323								
+							else
+								hugeness = 1 + 3*(1-0.7^((height-110)/215))
 							end
 						end
-						c.bar.layout.props.position = viewpPos
-						c.bar.layout.props.alpha = math.max(0,math.min(1, 1.1-(1.219^(c.deathTimer*5)-1) ))*raytracingAlphaMult
-						c.bar.layout.props.size = v2(100*sizeMult+2,28*sizeMult+2)
-						updateBars[sizeMult] = c.bar
-						--c.bar:update()
-						c.cachedHealth = currentHealth
-					else
-						if c.bar then
-							c.bar:destroy()
+						if model then
+							if computedBoxes[model] then
+								hugeness2 = (computedBoxes[model][2].x*computedBoxes[model][2].y*computedBoxes[model][2].z)^0.333 / 90
+								hugeness3 = (computedBoxes[model][2].x*computedBoxes[model][2].y)^0.333 / 90
+							else
+								hugeness2 = (boxCache[actorRecordId][2].x*boxCache[actorRecordId][2].y*boxCache[actorRecordId][2].z)^0.333 / 90
+								hugeness3 = (boxCache[actorRecordId][2].x*boxCache[actorRecordId][2].y)^0.5 / 90
+							end
 						end
-						barCache[actor.id] = nil
+							
+						hugeness = 0.3 + hugeness/4 + hugeness2/4 + hugeness3/4 + math.log10(maxHealth/10)/4
+						if model then
+							hugeness = hugeness + (customScales[model] or 0)
+						end
+						local offsetScale = 500/ viewPos_XYZ.z*playerSettings:get("SCALE")
+						if offsetScale >1 then
+							offsetScale = 1 + 10.7*(1-0.75^((offsetScale-1)/3))
+						end
+						local sizeMult = offsetScale*hugeness*0.85
+						local c = barCache[actor.id]
+						if not c or c.lastRender < now-1 then
+							if c and c.bar then
+								c.bar:destroy()
+							end
+							c = {
+								actor = actor,
+								lastRender = now,
+								healthPaused = currentHealth,
+								healthTimer = 0,
+								lerpHealth = currentHealth,
+								healthLag = currentHealth,
+								cachedHealth = currentHealth,
+								cachedLerpHealth = currentHealth,
+								cachedIncomingHealing = 0,
+								cachedHealthLag = currentHealth,
+								cachedBorderAlpha = 0.5,
+								textVisible = sizeMult>1,
+								deathTimer = 0,
+								lastBuffUpdate = now,
+								hasBuffs = true,
+								cachedFatigue = types.Actor.stats.dynamic.fatigue(actor).current,
+								cachedMagicka = types.Actor.stats.dynamic.magicka(actor).current,
+								lastBarOffset = barOffset,
+							}
+							if HUDMBlacklist then
+								HUDMBlacklist[actor.id] = true
+							end
+							barCache[actor.id] = c
+						else
+							if dt == 0 then
+								c.lastRender = now
+							end
+							c.healthPaused, c.healthLag, c.healthTimer, c.lerpHealth = ownlysLag(currentHealth, c.lerpHealth, c.cachedHealth, c.healthPaused, c.healthLag, c.healthTimer, now-c.lastRender, drainSpeed, timerLength, 0)
+							c.lastRender = now
+							if HUDMBlacklist then
+								HUDMBlacklist[actor.id] = true
+							end
+						end
+						
+						if c.deathTimer <0.75 then
+							if isDead then
+								c.deathTimer = c.deathTimer+dt
+							end
+							if stylizedBars[playerSettings:get("BORDER_STYLE")] then
+								updateStylized(c, currentHealth, maxHealth,sizeMult)
+							else
+								update(c, currentHealth, maxHealth,sizeMult)
+							end
+							viewpPos = v2(viewpPos.x+playerSettings:get("OFFSET_X")*offsetScale,viewpPos.y+playerSettings:get("OFFSET_Y")*offsetScale)
+							if playerSettings:get("ANCHOR") == "head" then
+								if viewpPos.y < (28*sizeMult+2)*2/4  then
+									viewpPos = v2(viewpPos.x,(28*sizeMult+2)*2/4)
+								--	c.bar.layout.props.anchor = v2(0.5,0.25)
+								--else
+								--	c.bar.layout.props.anchor = v2(0.5,0.625)
+								end
+							else
+								if viewpPos.y > screenres.y  then
+									viewpPos = v2(viewpPos.x,screenres.y)
+								end
+							end
+							c.bar.layout.props.position = viewpPos
+							c.bar.layout.props.alpha = math.max(0,math.min(1, 1.1-(1.219^(c.deathTimer*5)-1) ))*raytracingAlphaMult
+							c.bar.layout.props.size = v2(100*sizeMult+2,28*sizeMult+2)
+							updateBars[sizeMult] = c.bar
+							--c.bar:update()
+							c.cachedHealth = currentHealth
+						else
+							if c.bar then
+								c.bar:destroy()
+							end
+							barCache[actor.id] = nil
+						end
 					end
 				end
 			end
