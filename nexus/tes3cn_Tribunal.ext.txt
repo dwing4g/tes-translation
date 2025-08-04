@@ -22,7 +22,7 @@ Teleportation magic does not work here.
 
 > GMST.STRV sLevitateDisabled
 Levitation magic does not work here.
-漂浮魔法在这里不起作用。
+浮空魔法在这里不起作用。
 
 > GMST.STRV sInfoRefusal
 Info Refusal
@@ -152,7 +152,7 @@ Share
 
 > GMST.STRV sCompanionWarningMessage
 Your mercenary is poorer now than when he contracted with you.  Your mercenary will quit if you do not give him gold or goods to bring his Profit to a positive value.
-你的雇佣兵现在比与您签约时更穷。如果你不给他金币或物品使他的利润达到正值，你的雇佣兵就会退出。
+你的雇佣兵现在比与你签约时更穷。如果你不给他金币或物品使他的利润达到正值，你的雇佣兵就会退出。
 
 > GMST.STRV sCompanionWarningButtonOne
 Let the mercenary quit.
@@ -236,7 +236,7 @@ By the Grace of All Gods, King of Morrowind, Duke of Mournhold and Hlaalu Provin
 
 > FACT.FNAM Royal Guard
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > FACT.RNAM Royal Guard 1
 Guard
@@ -296,7 +296,7 @@ Hands of Almalexia
 
 > MGEF.DESC [89 00 00 00]
 This effect summons a Verminous Fabricant. It appears six feet in front of the caster and attacks any entity that attacks the caster until the effect ends or the summoning is killed. If summoned in town, the guards will attack you and the summoning on sight.
-该效果会召唤出一个械构体。它出现在施法者前方六英尺处，攻击任何攻击施法者的实体，直到效果结束或召唤物被杀死。如果在城镇中召唤，守卫会当场攻击你和召唤物。
+该效果会召唤出一个械构体。它出现在施法者前方六尺处，攻击任何攻击施法者的实体，直到效果结束或召唤物被杀死。如果在城镇中召唤，守卫会当场攻击你和召唤物。
 
 > SCPT.SCTX almaScript s1
 Many Blessings upon you, my loyal servant.
@@ -2552,7 +2552,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 祸乱家族<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-陪伴圣·维洛斯和歧莫进入晨风乐土的远古祖灵中，代德拉四大君主马拉卡斯、梅鲁涅斯·大衮、莫拉格·巴尔、谢尔格拉斯，号称「祸乱四角」。这些代德拉君主背叛了审判席的劝告和训诫，在氏族和大家族中引起了极大的亲族冲突与混乱。<BR>
+陪伴圣·维洛斯和歧莫进入晨风乐土的远古祖灵中，迪德拉四大君主马拉卡斯、梅鲁涅斯·大衮、莫拉格·巴尔、谢尔格拉斯，号称「祸乱四角」。这些迪德拉君主背叛了审判席的劝告和训诫，在氏族和大家族中引起了极大的亲族冲突与混乱。<BR>
 <BR>
 马拉卡斯、梅鲁涅斯·大衮、莫拉格·巴尔和谢尔格拉斯是神圣的，因为他们在试炼中充当了障碍。随着时间的推移，他们有时会与当地的敌人联系在一起，比如诺德人、阿卡维尔人或山间兽人。<BR>
 <BR>
@@ -2910,13 +2910,13 @@ Azura is the Anticipation of Sotha Sil, but female to his male. Azura was the an
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 预知者<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-代德拉外来神是强大的先祖之灵，外型与本质皆与审判席相似（称颂他们的圣名），但是力量较弱，而且对凡人的事务更专断也更疏离。古时，歧莫将代德拉君主当成圣神崇拜，然而他们不配获此尊崇，因为代德拉君主经常伤害其崇拜者，比例跟帮助他们不相上下。<BR>
+迪德拉外来神是强大的先祖之灵，外型与本质皆与审判席相似（称颂他们的圣名），但是力量较弱，而且对凡人的事务更专断也更疏离。古时，歧莫将迪德拉君主当成圣神崇拜，然而他们不配获此尊崇，因为迪德拉君主经常伤害其崇拜者，比例跟帮助他们不相上下。<BR>
 <BR>
-审判席（称颂他们的圣名）的出现改变了这痛苦的情况。经过神格化，审判席（称颂他们的圣名）成为丹莫人的保护者和高等祖灵，并命令代德拉君主展现适度的敬意和服从。三位善良代德拉君主波耶西亚、阿祖拉和梅法拉，被认可为先祖三位一体，是为神（称颂他们的圣名）。至于反叛的代德拉君主莫拉格·巴尔、马拉卡斯、谢尔格拉斯和梅鲁涅斯·大衮，则拒绝向审判席（称颂他们的圣名）宣示效忠，他们的崇拜者也遭驱逐。<BR>
+审判席（称颂他们的圣名）的出现改变了这痛苦的情况。经过神格化，审判席（称颂他们的圣名）成为丹莫人的保护者和高等祖灵，并命令迪德拉君主展现适度的敬意和服从。三位善良迪德拉君主波耶西亚、阿祖拉和梅法拉，被认可为先祖三位一体，是为神（称颂他们的圣名）。至于反叛的迪德拉君主莫拉格·巴尔、马拉卡斯、谢尔格拉斯和梅鲁涅斯·大衮，则拒绝向审判席（称颂他们的圣名）宣示效忠，他们的崇拜者也遭驱逐。<BR>
 <BR>
-这些反叛的代德拉君主因而成为动乱之屋的四角，不断打搅我们的安宁并引诱粗心之人堕入异教崇拜。神殿的祭司随时警惕着魔鬼再现，他们有时仰仗忠诚的三位善良的代德拉君主，毕竟他们更为熟知自己的造反同胞有哪些花招诡计。<BR>
+这些反叛的迪德拉君主因而成为动乱之屋的四角，不断打搅我们的安宁并引诱粗心之人堕入异教崇拜。神殿的祭司随时警惕着魔鬼再现，他们有时仰仗忠诚的三位善良的迪德拉君主，毕竟他们更为熟知自己的造反同胞有哪些花招诡计。<BR>
 <BR>
-神殿称呼三位善良的代德拉君主为预知者，因为他们是扶持审判席的早期祖先。这三位预知者，即是代德拉君主波耶西亚、梅法拉和阿祖拉。<BR>
+神殿称呼三位善良的迪德拉君主为预知者，因为他们是扶持审判席的早期祖先。这三位预知者，即是迪德拉君主波耶西亚、梅法拉和阿祖拉。<BR>
 <BR>
 波耶西亚是阿玛莱西娅的预知者，不过是男性。早于神话纪元的许久以前，波耶西亚启蒙了精灵。他告诉他们洛克汗试炼的真相，并打败了奥瑞-艾尔的勇士崔尼马克。波耶西亚吃了崔尼马克，再将他放出来。波耶西亚和崔尼马克的追随者将混含崔尼马克的土壤抹在自己身上，改变了肤色。<BR>
 <BR>
@@ -3098,7 +3098,7 @@ Eventually, Men returned to Tamriel.  The Nords were the first, colonizing the n
 <BR>
 这时候，在十二个创造之物的世界中，生命逐渐诞生，并蓬勃发展着。在不知过了多少岁月之后，帕杜梅重返时间之中。他看到了创造之物，他也厌恶着阿努与尼尔所创造的世界。他挥剑，将十二个世界尽数粉碎。阿努再次醒来，并又一次与帕杜梅展开了战斗。这场漫长而激烈的战斗，最终以阿努的胜利告终。他抛弃了他认为已经死去的兄弟的遗体，试图将十二个残破的世界合为一体，创造出一个新的世界--奈恩。就在阿努尝试重塑创造之物时，帕杜梅从他身后一击击穿了他的胸膛。两个兄弟互相搏斗，最终阿努将自己与帕杜梅都永远拉到了时间之外。<BR>
 <BR>
-帕杜梅的血之中诞生了代德拉，阿努的血之中诞生了繁星，而帕杜梅与阿努的血所混合之物中诞生了艾德拉（因此他们同时拥有善与恶的能力，他们对于凡间的影响力也强于与创造之物无关的代德拉）。<BR>
+帕杜梅的血之中诞生了迪德拉，阿努的血之中诞生了繁星，而帕杜梅与阿努的血所混合之物中诞生了艾德拉（因此他们同时拥有善与恶的能力，他们对于凡间的影响力也强于与创造之物无关的迪德拉）。<BR>
 <BR>
 奈恩的世界一片混乱，创造之物的十二个世界中唯二的幸存者便是伊尔诺菲和希斯特。伊尔诺菲是人与莫的祖先，而希斯特则成为了阿尔贡尼亚人的神树。奈恩本来是陆地之间穿插着小片的海域，并没有大片的海洋。<BR>
 <BR>
@@ -3165,7 +3165,7 @@ Eventually, Men returned to Tamriel.  The Nords were the first, colonizing the n
 <BR>
 这时候，在十二个创造之物的世界中，生命逐渐诞生，并蓬勃发展着。在不知过了多少岁月之后，帕杜梅重返时间之中。他看到了创造之物，他也厌恶着阿努与尼尔所创造的世界。他挥剑，将十二个世界尽数粉碎。阿努再次醒来，并又一次与帕杜梅展开了战斗。这场漫长而激烈的战斗，最终以阿努的胜利告终。他抛弃了他认为已经死去的兄弟的遗体，试图将十二个残破的世界合为一体，创造出一个新的世界--奈恩。就在阿努尝试重塑创造之物时，帕杜梅从他身后一击击穿了他的胸膛。两个兄弟互相搏斗，最终阿努将自己与帕杜梅都永远拉到了时间之外。<BR>
 <BR>
-帕杜梅的血之中诞生了代德拉，阿努的血之中诞生了繁星，而帕杜梅与阿努的血所混合之物中诞生了艾德拉（因此他们同时拥有善与恶的能力，他们对于凡间的影响力也强于与创造之物无关的代德拉）。<BR>
+帕杜梅的血之中诞生了迪德拉，阿努的血之中诞生了繁星，而帕杜梅与阿努的血所混合之物中诞生了艾德拉（因此他们同时拥有善与恶的能力，他们对于凡间的影响力也强于与创造之物无关的迪德拉）。<BR>
 <BR>
 奈恩的世界一片混乱，创造之物的十二个世界中唯二的幸存者便是伊尔诺菲和希斯特。伊尔诺菲是人与莫的祖先，而希斯特则成为了阿尔贡尼亚人的神树。奈恩本来是陆地之间穿插着小片的海域，并没有大片的海洋。<BR>
 <BR>
@@ -3334,7 +3334,7 @@ But then, in the fall, Lord Ihlendam received a message from Councilor Bluthanch
 
 > BOOK.FNAM bk_BookOfDaedra
 The Book of Daedra
-《代德拉之书》
+《迪德拉之书》
 
 > BOOK.TEXT bk_BookOfDaedra
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -3381,9 +3381,9 @@ Vaernima, whose sphere is the realm of dreams and nightmares, and from whose rea
 "...yet though Malacath blessed Scourge to be potent against his Daedra kin, he thought not that it should fall into Daedric hands, then to serve as a tool for private war among caitiff and forsaken. Thus did Malacath curse the device such that, should any dark kin seek to invoke its powers, that a void should open and swallow that Daedra, and purge him into Oblivion's voidstreams, from thence to pathfind back to the Real and Unreal Worlds in the full order of time." <BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-代德拉之书<BR><BR>
+迪德拉之书<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-[这些是这本长篇巨著的节选，描述了每一位代德拉君主的本质。]<BR>
+[这些是这本长篇巨著的节选，描述了每一位迪德拉君主的本质。]<BR>
 <BR>
 阿祖拉，掌管暮色与破晓，是黄昏魔法的象征，被奉为“月影”，“玫瑰之母”以及“夜空女王”。<BR>
 <BR>
@@ -3393,7 +3393,7 @@ Vaernima, whose sphere is the realm of dreams and nightmares, and from whose rea
 <BR>
 赫麦乌斯·莫拉，天命的预言者，运用占星回首往事，预知未来，是知识与经验宝库的主宰。<BR>
 <BR>
-希尔辛，掌管狩猎、代德拉竞技、运动会以及赛跑，被奉为“猎人”与“人兽之祖”。<BR>
+希尔辛，掌管狩猎、迪德拉竞技、运动会以及赛跑，被奉为“猎人”与“人兽之祖”。<BR>
 <BR>
 马拉卡斯，流放者的保护神，掌管誓言与血腥诅咒。<BR>
 <BR>
@@ -3405,7 +3405,7 @@ Vaernima, whose sphere is the realm of dreams and nightmares, and from whose rea
 <BR>
 莫拉格·巴尔，掌管主宰与役使凡人。他在世间制造争端与冲突，以实现他收割并统治世人魂灵的野心。<BR>
 <BR>
-娜米拉，掌管先古的黑暗。被奉为“代德拉魂灵”、“黑暗主宰”以及“暗影之魂”。与蜘蛛、昆虫、刺蛾等令人反感的生物颇有渊源。<BR>
+娜米拉，掌管先古的黑暗。被奉为“迪德拉魂灵”、“黑暗主宰”以及“暗影之魂”。与蜘蛛、昆虫、刺蛾等令人反感的生物颇有渊源。<BR>
 <BR>
 诺克图娜尔，掌管黑夜，被奉为“暗夜女神”。<BR>
 <BR>
@@ -3417,11 +3417,11 @@ Vaernima, whose sphere is the realm of dreams and nightmares, and from whose rea
 <BR>
 瓦尔迷纳，掌管梦境与梦魇，不祥之兆皆出于此。<BR>
 <BR>
-（“马拉卡斯”条目下的特殊标记表明你找到了一本关于惩罚者的参考书，这是马拉卡斯赐予凡人的礼物。简而言之，本书告诉我们任何试图运用这一武器力量的代德拉将被放逐至湮灭的虚无之溪。）<BR>
+（“马拉卡斯”条目下的特殊标记表明你找到了一本关于惩罚者的参考书，这是马拉卡斯赐予凡人的礼物。简而言之，本书告诉我们任何试图运用这一武器力量的迪德拉将被放逐至湮灭的虚无之溪。）<BR>
 <BR>
-“代德拉的传奇器物天下闻名，例如阿祖拉之星，以及谢尔格拉斯之杖。还有一些的名头则没有那么响亮，譬如惩罚者、马克堪之锤、代德拉灾星......”<BR>
+“迪德拉的传奇器物天下闻名，例如阿祖拉之星，以及谢尔格拉斯之杖。还有一些的名头则没有那么响亮，譬如惩罚者、马克堪之锤、迪德拉灾星......”<BR>
 <BR>
-“......然而尽管马拉卡斯希望惩罚者成为对付他代德拉族人的利器，但他还是认为其不应落入代德拉之手，成为解决私人恩怨的工具。因此马拉卡斯诅咒了此物，若心怀不轨的族人试图调动它的力量，它就将打开一道缝隙，吞噬这名代德拉，将其打入湮灭的虚无之溪，其余生就将在寻求返回现实与虚无世界的道路中度过”<BR>"""
+“......然而尽管马拉卡斯希望惩罚者成为对付他迪德拉族人的利器，但他还是认为其不应落入迪德拉之手，成为解决私人恩怨的工具。因此马拉卡斯诅咒了此物，若心怀不轨的族人试图调动它的力量，它就将打开一道缝隙，吞噬这名迪德拉，将其打入湮灭的虚无之溪，其余生就将在寻求返回现实与虚无世界的道路中度过”<BR>"""
 
 > CREA.FNAM centurion_shock_baladas
 Shock Centurion
@@ -3550,7 +3550,7 @@ The wake was considered a great success as the beverage killed a great many gues
 因此，在第九个哀悼日，许多奴隶与敌人都被献祭了，并且按照哈宁的公式的指示混合出传递之杯：<BR>
 <BR>
   2 份叛徒之血<BR>
-  1 份代德拉之心<BR>
+  1 份迪德拉之心<BR>
   1 份混合了苦绿花瓣、虚无盐、绿色地衣和骨粉的混合物<BR>
   1 份月亮糖<BR>
   5 瓶弗林<BR>
@@ -4151,12 +4151,12 @@ Some have quietly suggested that Prince Helseth was the most accomplished and su
 And, further, The Common Tongue does not wish to suggest that King Helseth is a poisoner, or that the recent death of King Athyn Llethan's was a poisoning, and not a natural death. The Common Tongue has never seen a single scrap of evidence that would prove such an indictment. And the Imperial coroners have ruled that Athyn Llethan died a natural death. <BR>
 <BR>"""
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-[这份报道是用廉价纸抄写的信息，报道了哀伤之城的一些耸人听闻的事件。一篇文章描述了一些在可疑情况下死亡的人员名单，他们的利益与“前西方王子”的利益发生冲突。而如今晨风的国王赫尔塞斯王，以前是高岩省途歇城王国的一个王子。]<BR>
+【这份报道是用廉价纸抄写的信息，报道了哀伤之城的一些耸人听闻的事件。一篇文章描述了一些在可疑情况下死亡的人员名单，他们的利益与“前西方王子”的利益发生冲突。而如今晨风的国王赫尔塞斯王，以前是高岩省途歇城王国的一个王子。】<BR>
 <BR>
 <DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 众口真言<BR>
 <DIV ALIGN="LEFT"><BR>
-"诗人提笔撰文意在影射现实，除此之外别无他求。"  -- 维威克领主<BR>
+"诗人提笔撰文意在影射现实，除此之外别无他求。"  -- 维威克大人<BR>
 <BR>
 <BR>
 <DIV ALIGN="CENTER"><BR>
@@ -4298,15 +4298,15 @@ Some have quietly suggested that Prince Helseth was the most accomplished and su
 And, further, The Common Tongue does not wish to suggest that King Helseth is a poisoner, or that the recent death of King Athyn Llethan's was a poisoning, and not a natural death. The Common Tongue has never seen a single scrap of evidence that would prove such an indictment. And the Imperial coroners have ruled that Athyn Llethan died a natural death. <BR>
 <BR>"""
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-[这份报道是用廉价纸抄写的信息，报道了哀伤之城的一些耸人听闻的事件。一篇文章描述了一些在可疑情况下死亡的人员名单，他们的利益与“前西方王子”的利益发生冲突。而如今晨风的国王赫尔塞斯王，以前是高岩省途歇城王国的一个王子。]<BR>
+【这份报道是用廉价纸抄写的信息，报道了哀伤之城的一些耸人听闻的事件。一篇文章描述了一些在可疑情况下死亡的人员名单，他们的利益与“前西方王子”的利益发生冲突。而如今晨风的国王赫尔塞斯王，以前是高岩省途歇城王国的一个王子。】<BR>
 <BR>
-[这份抄本是在伊武伦·伊拉诺床头的枕头下发现的，床脚的箱子的所有权表明了该文件的所有权。]<BR>
+【这份抄本是在伊武伦·伊拉诺床头的枕头下发现的，床脚的箱子的所有权表明了该文件的所有权。】<BR>
 <BR>
 <BR>
 <DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 众口真言<BR>
 <DIV ALIGN="LEFT"><BR>
-"诗人提笔撰文意在影射现实，除此之外别无他求。"  -- 维威克领主<BR>
+"诗人提笔撰文意在影射现实，除此之外别无他求。"  -- 维威克大人<BR>
 <BR>
 <BR>
 <DIV ALIGN="CENTER"><BR>
@@ -5663,35 +5663,35 @@ Her Hand's Left Gauntlet
 
 > ARMO.FNAM Helsethguard_Helmet
 Royal Guard Helm
-王室卫兵头盔
+王宫卫兵头盔
 
 > ARMO.FNAM Helsethguard_boots
 Royal Guard Boots
-王室卫兵靴子
+王宫卫兵靴子
 
 > ARMO.FNAM Helsethguard_cuirass
 Royal Guard Cuirass
-王室卫兵胸甲
+王宫卫兵胸甲
 
 > ARMO.FNAM Helsethguard_greaves
 Royal Guard Greaves
-王室卫兵胫甲
+王宫卫兵胫甲
 
 > ARMO.FNAM Helsethguard_gauntlet_left
 Royal Guard Left Gauntlet
-王室卫兵左护手
+王宫卫兵左护手
 
 > ARMO.FNAM Helsethguard_gauntlet_right
 Royal Guard Right Gauntlet
-王室卫兵右护手
+王宫卫兵右护手
 
 > ARMO.FNAM Helsethguard_pauldron_left
 Royal Guard Left Pauldron
-王室卫兵左肩甲
+王宫卫兵左肩甲
 
 > ARMO.FNAM Helsethguard_pauldron_right
 Royal Guard Right Pauldron
-王室卫兵右肩甲
+王宫卫兵右肩甲
 
 > WEAP.FNAM Mace of Slurring
 Mace of Slurring
@@ -6402,7 +6402,7 @@ Wooden Door
 
 > NPC_.FNAM royal guard_karrod
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > WEAP.FNAM nerevarblade_01
 Trueflame
@@ -6898,7 +6898,7 @@ Wooden Door
 
 > WEAP.FNAM daedric dagger_bar
 Daedric Dagger
-代德拉匕首
+迪德拉匕首
 
 > ACTI.FNAM Sound_Waterfall00
 Sound_Waterfall00
@@ -6922,7 +6922,7 @@ Hulking Fabricant
 
 > NPC_.FNAM Guard_Helseth_attack
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > CREA.FNAM fabricant_hulkin_attack
 Hulking Fabricant
@@ -7146,7 +7146,7 @@ Hand Drals Indobar
 
 > NPC_.FNAM arnas therethi
 Hand Arnas Therethi
-阿玛莱西娅之手 阿纳斯·特雷西
+阿玛莱西娅之手 阿纳斯·特雷提
 
 > NPC_.FNAM savor hlan
 Hand Savor Hlan
@@ -7200,7 +7200,7 @@ The Bearer of this document, under special dispensation of the Night Mother, who
 
 > NPC_.FNAM Guard_Helseth
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > CONT.FNAM com_chest_02_v_sosia
 Chest
@@ -7815,7 +7815,7 @@ Free the Slaves
 
 > INFO.NAME ms_jobashaabolitionist 83331906191803939
 Jobasha told me that the Khajiti slaves in the Ascadian Isles and Caldera suffer.
-乔巴沙告诉我，阿斯卡迪亚群岛和卡尔德拉的卡吉特奴隶们很痛苦。
+乔巴沙告诉我，阿斯卡迪亚群岛和卡尔德拉的卡吉特奴隶们很痛苦。 {阿斯卡迪安群岛}
 
 > INFO.NAME ms_jobashaabolitionist 659112541183927887
 Jobasha gave me some books for helping free the slaves.
@@ -8375,7 +8375,7 @@ House Redoran: Kill Gordol
 
 > INFO.NAME hr_cultelimination 1409018371307518477
 Theldyn Virith asked me to kill Gordol in Ashalmawia, the Daedric ruin just east of Ald Velothi.
-塞尔丁·维瑞斯让我去阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是位于奥德-维洛提以东的代德拉废墟。 {迪德拉式,奥德·维洛提}
+塞尔丁·维瑞斯让我去阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是位于奥德-维洛提以东的迪德拉废墟。 {迪德拉式,奥德·维洛提}
 
 > INFO.NAME hr_cultelimination 31277232741542631241
 Theldyn Virith thanked me for killing Gordol.
@@ -8387,15 +8387,15 @@ House Hlaalu: Exterminator
 
 > INFO.NAME hh_theexterminator 2036621708180619508
 Edryno Arethi told me that Yngling Half-Troll raises game rats for the Arena. A competitor has placed diseased rats among Yngling's game rats. I must go to Yngling Manor in the St. Olms Plaza and kill the diseased rats, but spare the prized game rats.
-埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
+埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_theexterminator 5794310032282014326
 Edryno Arethi thanked me for killing the diseased rats in Yngling Manor.
-埃德里诺·阿雷西感谢我杀死了英灵庄园里的病鼠。 {疾病,老鼠}
+埃德里诺·阿雷西感谢我杀死了英灵庄园里的病鼠。 {埃德里诺·阿雷提,疾病,老鼠}
 
 > INFO.NAME hh_theexterminator 24483205232516713567
 I told Edryno Arethi that Yngling Half-Troll is dead.
-我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。
+我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。 {埃德里诺·阿雷提}
 
 > INFO.NAME a2_1_meetsulmatuul 6700287971415821869
 Meet Sul-Matuul
@@ -8843,15 +8843,15 @@ House Redoran: Ondres Nerano's Slanders
 
 > INFO.NAME hr_honorchallenge 1766118066273288836
 Athyn Sarethi told me that a Hlaalu Noble, Ondres Nerano, has been slandering House Redoran. I must find Ondres Nerano in Balmora and challenge him to withdraw his statements.
-艾辛·萨雷蒂告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤勒多兰家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。
+艾辛·萨雷蒂告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤勒多兰家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。 {艾辛·萨雷提}
 
 > INFO.NAME hr_honorchallenge 44478237168813631
 Athyn Sarethi thanked me for restoring the honor of House Redoran.
-艾辛·萨雷蒂感谢我恢复了勒多兰家族的荣誉。
+艾辛·萨雷蒂感谢我恢复了勒多兰家族的荣誉。 {艾辛·萨雷提}
 
 > INFO.NAME hr_honorchallenge 18236225772463028214
 Athyn Sarethi accused me of murdering Ondres Nerano.
-艾辛·萨雷蒂指控我谋杀了欧德雷斯·内拉诺。
+艾辛·萨雷蒂指控我谋杀了欧德雷斯·内拉诺。 {艾辛·萨雷提}
 
 > INFO.NAME hr_calderacorrupt 31730381675699159
 House Redoran: Evidence of Corruption
@@ -8883,7 +8883,7 @@ House Redoran: Ash Statue
 
 > INFO.NAME hr_sixthhousebase 298966103149132701
 Lloros Sarano asked me to find out where Varvur Sarethi got the ash statue.
-洛罗斯·萨拉诺让我查查瓦乌尔·萨雷蒂是从哪里得到灰烬雕像的。
+洛罗斯·萨拉诺让我查查瓦乌尔·萨雷蒂是从哪里得到灰烬雕像的。 {瓦乌尔·萨雷提}
 
 > INFO.NAME hr_sixthhousebase 96572710715321683
 Lloros Sarano thanked me for stopping the spread of the ash statues.
@@ -8943,15 +8943,15 @@ House Hlaalu: Murudius Flaeus's Debt
 
 > INFO.NAME hh_buriedtreasure 2045064223213027837
 Edryno Arethi told me that Murudius Flaeus owes a Hlaalu noble over 800 gold. I must get the 800 gold from Murudius Flaeus in Hla Oad and return it to Edryno Arethi.
-埃德里诺·阿雷西告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷西。 {哈拉·奥德}
+埃德里诺·阿雷西告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷西。 {埃德里诺·阿雷提,哈拉·奥德}
 
 > INFO.NAME hh_buriedtreasure 2423413073985532585
 Edryno Arethi thanked me for getting the 800 gold from Murudius Flaeus.
-埃德里诺·阿雷西感谢我从穆鲁迪斯·弗莱厄斯那里拿到了 800 金币。
+埃德里诺·阿雷西感谢我从穆鲁迪斯·弗莱厄斯那里拿到了 800 金币。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_buriedtreasure 80161154198418224
 Edryno Arethi thanked me for killing Murudius Flaeus as an example for others.
-埃德里诺·阿雷西感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。
+埃德里诺·阿雷西感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_escortmerchant 1471615591391915114
 House Hlaalu: Escort Tarvyn Faren
@@ -8959,11 +8959,11 @@ House Hlaalu: Escort Tarvyn Faren
 
 > INFO.NAME hh_escortmerchant 615616476473814178
 Edryno Arethi asked me to escort the trader Tarvyn Faren from the North Landing here in Vivec to Pelagiad.
-埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {埃德里诺·阿雷提,保镖}
 
 > INFO.NAME hh_escortmerchant 1996331301205355064
 Edryno Arethi thanked me for escorting Tarvyn Faren to Pelagiad.
-埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {埃德里诺·阿雷提,保镖}
 
 > INFO.NAME hh_ashlanderebony 2488627585889230507
 House Hlaalu: Ashlander Ebony
@@ -8971,11 +8971,11 @@ House Hlaalu: Ashlander Ebony
 
 > INFO.NAME hh_ashlanderebony 3264319771810328151
 Edryno Arethi asked me to go to the Zainab camp and make sure they only sell ebony through House Hlaalu.
-埃德里诺·阿雷西让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。
+埃德里诺·阿雷西让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_ashlanderebony 31234061904826862
 Edryno Arethi thanked me for negotiating with the Zainab.
-埃德里诺·阿雷西感谢我与哉纳布进行了谈判。
+埃德里诺·阿雷西感谢我与哉纳布进行了谈判。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_ashlanderebony 3145212414923826479
 I told Edryon Arethi that the Zainab would not deal with me since I killed one of them.
@@ -8987,11 +8987,11 @@ House Hlaalu: The Shipwreck 'Prelude'
 
 > INFO.NAME hh_sunkentreasure 7515702985821156
 Edryno Arethi knows that the ship Prelude sunk east of Bal Fell. She believes it lies two or three islands due east of Bal Fell. I must find the Daedric Wakizashi that sunk with that ship and return it to Edryno Arethi.
-埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的代德拉协差，并把它还给埃德里诺·阿雷西。 {巴尔·费尔,迪德拉式,胁差}
+埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉协差，并把它还给埃德里诺·阿雷西。 {埃德里诺·阿雷提,巴尔·费尔,迪德拉式,胁差}
 
 > INFO.NAME hh_sunkentreasure 44131684462727731
 Edryno Arethi thanked me for returning the Daedric Wakizashi.
-埃德里诺·阿雷西感谢我归还了代德拉协差。 {迪德拉式,胁差}
+埃德里诺·阿雷西感谢我归还了迪德拉协差。 {埃德里诺·阿雷提,迪德拉式,胁差}
 
 > INFO.NAME ht_theranaclothes 1206327953222646565
 House Telvanni: New Clothes
@@ -9083,7 +9083,7 @@ I have been named Nerevarine by all four tribes of the Vvardenfell Ashlanders --
 
 > INFO.NAME tg_ss_generosity1 22149270561687231907
 Thieves Guild: Bal Molagmer, The Hlervu Locket
-盗贼公会：巴尔·莫拉格穆尔，赫勒武的宝盒
+盗贼公会：巴尔·莫拉格穆尔，赫勒乌的宝盒
 
 > INFO.NAME tg_ss_generosity1 208451036451265574
 Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the light of justice throughout Morrowind, stealing from the unjust, and giving to the poor. He gave me a pair of Bal Molagmer gloves, which I should wear before speaking with him again.
@@ -9091,11 +9091,11 @@ Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the ligh
 
 > INFO.NAME tg_ss_generosity1 1751914300170125850
 Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlervu.
-绅士吉姆·史戴西感谢我将赫勒武的盒坠归还给布雷纳斯·赫勒武。
+绅士吉姆·史戴西感谢我将赫勒乌的盒坠归还给布雷纳斯·赫勒乌。
 
 > INFO.NAME tg_ss_generosity1 1069021420716385
 Gentleman Jim Stacey was upset to hear that Braynas Hlervu was dead, but he believes there is other work the Bal Molagmer must do.
-绅士吉姆·史戴西听说布雷纳斯·赫勒武已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
+绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
 
 > INFO.NAME tg_ss_generosity2 2204782701611628005
 Thieves Guild: Bal Molagmer, Land Deed
@@ -9183,7 +9183,7 @@ Imperial Legion: Honthjolf is a Traitor
 
 > INFO.NAME il_traitorwarrior 3186922894921516318
 Frald the White told me that Honthjolf, a former Knight Errant of the Order of Ebonheart, has made a pact with the Daedra worshippers of Aharnabi, which is on the far southeastern shores of Azura's coast, near the Shrine of Azura. Honthjolf is a traitor to the Order and must be killed.
-苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的代德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉圣祠。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉,迪德拉崇拜}
+苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉圣祠。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}
 
 > INFO.NAME il_traitorwarrior 24006245331514017420
 Frald the White thanked me for killing Honthjolf, the traitor to our Order.
@@ -9391,11 +9391,11 @@ House Redoran: Rescue Varvur Sarethi
 
 > INFO.NAME hr_rescuesarethi 1025354912338120284
 Serjo Athyn Sarethi asked me to rescue his son, Varvur Sarethi, from Venim Manor, the first Manor on the right as you enter Skar. He warned me that I should not kill Bolvyn Venim, or the other councilors of House Redoran would turn against me.
-艾辛·萨雷蒂让我去维尼姆府邸救他的儿子瓦乌尔·萨雷蒂，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则勒多兰家族的其他议员会反对我。
+艾辛·萨雷蒂让我去维尼姆府邸救他的儿子瓦乌尔·萨雷蒂，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则勒多兰家族的其他议员会反对我。 {艾辛·萨雷提,瓦乌尔·萨雷提}
 
 > INFO.NAME hr_rescuesarethi 5844115132424315150
 Serjo Athyn Sarethi thanked me for rescuing his son from Venim Manor.
-艾辛·萨雷蒂感谢我从维尼姆府邸救出了他的儿子。
+艾辛·萨雷蒂感谢我从维尼姆府邸救出了他的儿子。 {艾辛·萨雷提}
 
 > INFO.NAME hr_orethisisters 7346221962927829557
 House Redoran: Velsa Orethi
@@ -9427,15 +9427,15 @@ House Hlaalu: Guard Ralen Tilvur
 
 > INFO.NAME hh_guardmerchant 1223487243028017695
 Edryno Arethi told me that Ralen Tilvur's shop in Vivec's Foreign Quarter Plaza has been robbed three nights in a row. I must go to Ralen Tilvur's shop and kill any thieves that arrive.
-埃德里诺·阿雷西告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。
+埃德里诺·阿雷西告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_guardmerchant 11067184411845825714
 Edryno Arethi thanked me for killing the thief that was stealing from Ralen Tilvur.
-埃德里诺·阿雷西感谢我杀死了偷窃拉伦·提尔乌商店的小偷。
+埃德里诺·阿雷西感谢我杀死了偷窃拉伦·提尔乌商店的小偷。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_guardmerchant 32259312781758210603
 I told Edryno Arethi that Ralen Tilvur was dead.
-我告诉埃德里诺·阿雷西，拉伦·提尔乌已经死了。
+我告诉埃德里诺·阿雷西，拉伦·提尔乌已经死了。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_rentcollector 2889123118727931033
 House Hlaalu :Rent and Taxes
@@ -9487,7 +9487,7 @@ The Citadels of the Sixth House
 
 > INFO.NAME c3_destroydagoth 1814157691496631652
 As I fled from the destruction of the Chamber of Akulakhan, I encountered the presence of the Daedra Lord Azura. She told me I had achieved my destiny and was free. The prophecies are fulfilled, and the Blight gone. But now I am Hortator and Nerevarine, Protector of Morrowind, and must defend the people from monsters and villains. She gave me a ring as a token of thanks and blessing.
-在我逃离即将毁灭的阿库拉汗之室的时候，我遇到了代德拉君主阿祖拉。她告诉我，我已经完成了使命，获得了自由。预言实现了，枯萎之症也消失了。但现在我是统谏使和尼瑞瓦因，晨风的守护者，必须保卫人民不受怪物和恶人的侵害。她送给我一枚戒指，作为感谢和祝福的信物。 {迪德拉}
+在我逃离即将毁灭的阿库拉汗之室的时候，我遇到了迪德拉君主阿祖拉。她告诉我，我已经完成了使命，获得了自由。预言实现了，枯萎之症也消失了。但现在我是统谏使和尼瑞瓦因，晨风的守护者，必须保卫人民不受怪物和恶人的侵害。她送给我一枚戒指，作为感谢和祝福的信物。
 
 > INFO.NAME ht_attackindarys 26423124102425322574
 House Telvanni: Kill Banden Indarys
@@ -10023,7 +10023,7 @@ Neminda asked me to guard Sarethi Manor.
 
 > INFO.NAME hr_guardsarethi 664792032309314006
 Neminda thanked me for guarding Serjo Athyn Sarethi.
-内明达感谢我卫兵保护艾辛·萨雷蒂Serjo（大人）。
+内明达感谢我卫兵保护艾辛·萨雷蒂Serjo（大人）。 {艾辛·萨雷提}
 
 > INFO.NAME hr_ashimanumine 24286192451480712831
 House Redoran: Ashimanu Mine
@@ -10059,15 +10059,15 @@ House Redoran: Clear Varvur Sarethi's Name
 
 > INFO.NAME hr_clearsarethi 2340317191134797593
 Serjo Athyn Sarethi asked me to clear his son's name. Varvur Sarethi has been charged with the murder of Bralen Carvaren. Perhaps I should start by questioning Varvur Sarethi in Sarethi Manor.
-艾辛·萨雷蒂Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷蒂被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷蒂府邸审问瓦乌尔·萨雷蒂。
+艾辛·萨雷蒂Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷蒂被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷蒂府邸审问瓦乌尔·萨雷蒂。 {艾辛·萨雷提,瓦乌尔·萨雷提}
 
 > INFO.NAME hr_clearsarethi 2217967581718628042
 Athyn Sarethi thanked me for clearing his son's name. He suggested that I speak with Lloros Sarano again about the ash statue.
-艾辛·萨雷蒂感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。
+艾辛·萨雷蒂感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。 {艾辛·萨雷提}
 
 > INFO.NAME hr_clearsarethi 25311205027667809
 Lloros Sarano said that Varvur Sarethi would be cleared of the murder of Bralen Carvaren.
-洛罗斯·萨拉诺说，瓦乌尔·萨雷蒂将洗脱谋杀布拉伦·卡瓦伦的罪名。
+洛罗斯·萨拉诺说，瓦乌尔·萨雷蒂将洗脱谋杀布拉伦·卡瓦伦的罪名。 {瓦乌尔·萨雷提}
 
 > INFO.NAME hr_morvaynmanor 1466622823306351020
 House Redoran: Mission to Morvayn Manor
@@ -10563,7 +10563,7 @@ Imperial Legion: Rescue Joncis Dalomax
 
 > INFO.NAME il_rescueknight 181452001900512781
 Joncis Dalomax, a Knight Errant, has been captured. He is being held in Ashurnibibi, a Daedric Ruin on an island northwest of Hla Oad.
-乔西斯·达洛马克斯，一名游侠骑士，已被俘虏。他被关押在哈拉-奥德西北一座岛屿上的代德拉废墟阿舒尼比比。 {迪德拉式,哈拉·奥德}
+乔西斯·达洛马克斯，一名游侠骑士，已被俘虏。他被关押在哈拉-奥德西北一座岛屿上的迪德拉废墟阿舒尼比比。 {迪德拉式,哈拉·奥德}
 
 > INFO.NAME il_rescueknight 2075911366431032758
 Imsin the Dreamer thanked me for rescuing Joncis Dalomax.
@@ -10911,11 +10911,11 @@ Someone suggested, if I am looking for an anonymous writer, that I should talk t
 
 > INFO.NAME tr09_journalist 1910120722584628677
 'Ten-Tongues' Weerhat says the guy who writes 'The Common Tongue' is named Trels Varis. He says he does not know Trels Varis personally, but he says the first place he heard about Trels Varis was in the Craftsmen's Hall.
-“十舌”维哈特说，写《众口真言》的人名叫特雷斯·瓦里斯。他说他并不认识特雷斯·瓦里斯本人，但他说他第一次听说特雷斯·瓦里斯的地方是在工匠大厅。 {令状}
+“十舌”维哈特说，写《众口真言》的人名叫特雷斯·瓦里斯。他说他并不认识特雷斯·瓦里斯本人，但他说他第一次听说特雷斯·瓦里斯的地方是在工匠之间。 {令状}
 
 > INFO.NAME tr09_journalist 2522430370161841036
 I'm told there's no one named Trels Varis in the Craftsmen's Hall. But the way it's being said, I am almost certain that Trels Varis is here somewhere, but that no one is going to admit it.
-我被告知工匠大厅里没有叫特雷斯·瓦里斯的人。但从现在的说法来看，我几乎可以肯定，特雷斯·瓦里斯就在这里的某个地方，但没有人愿意承认。
+我被告知工匠之间里没有叫特雷斯·瓦里斯的人。但从现在的说法来看，我几乎可以肯定，特雷斯·瓦里斯就在这里的某个地方，但没有人愿意承认。
 
 > INFO.NAME tr09_journalist 1105986762881416793
 I found Trels Varis. But now he is going to kill me to preserve the secret of his hidden office.
@@ -10951,11 +10951,11 @@ I reported to Tienius Delitian that Trels Varis had given me his word that he wo
 
 > INFO.NAME tr09_journalist 1552423991295423512
 I reported to Tienius Delitian that Trels Varis had given me his word that he would not discuss King Helseth in 'The Common Tongue'. Tienius Delitian was very pleased with my service. He gave me 3000 gold to cover my expenses and a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors.
-我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上讨论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我3000金币来弥补我的开销，还有一把利刃“国王之誓”--和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {瓜尔}
+我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上讨论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我3000金币来弥补我的开销，还有一把利刃“国王之誓”--和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {瓜尔}
 
 > INFO.NAME tr09_journalist 11323103702988113938
 I reported to Tienius Delitian that Trels Varis had given me his word that he would not discuss King Helseth in 'The Common Tongue'. Tienius Delitian was very pleased with my service. He gave me 5000 gold and a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors.
-我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上谈论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我5000金币和一把利刃“国王之誓”--和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {讨论,瓜尔}
+我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上谈论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我5000金币和一把利刃“国王之誓”--和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {讨论,瓜尔}
 
 > INFO.NAME tr09_journalist 21939299612338517151
 I reported to Tienius Delitian that Trels Varis was dead, and that he could no longer print lies about King Helseth. Tienius Delitian was pleased with my service, and gave me 5000 gold as a reward.
@@ -11031,11 +11031,11 @@ Fighters Guild: The Verethi Gang
 
 > INFO.NAME fg_verethigang 3211954743028115006
 Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Verethi Gang. They are based in Mannammu just southeast of Pelagiad.
-艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
+艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。 {维雷提帮}
 
 > INFO.NAME fg_verethigang 14760934222272524
 Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
-艾迪斯·火眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {事}
+艾迪斯·火眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {维雷提帮,事}
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
@@ -11123,11 +11123,11 @@ House Hlaalu: Bank Courier
 
 > INFO.NAME hh_bankcourier 3950135161216932088
 Edryno Arethi wants me to deliver sealed orders to Treasurer Baren Alen in the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-埃德里诺·阿雷西要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}
+埃德里诺·阿雷西要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {埃德里诺·阿雷提,指示}
 
 > INFO.NAME hh_bankcourier 38030277295099293
 Edryno Arethi thanked me for delivering the sealed orders.
-埃德里诺·阿雷西感谢我交付了密封的命令。 {指示}
+埃德里诺·阿雷西感谢我交付了密封的命令。 {埃德里诺·阿雷提,指示}
 
 > INFO.NAME hh_berosupport 13958147662968228958
 House Hlaalu: Bero's Support
@@ -11295,11 +11295,11 @@ I have been named Hortator of House Redoran by Redoran's councilors. When I have
 
 > INFO.NAME b5_redoranhort 20621853163211746
 When Athyn Sarethi named me Redoran Hortator, he gave me an enchanted ring, a token of my office called the "Ring of the Hortator." By this ring others shall know me as House Redoran's chosen champion.
-当艾辛·萨雷蒂任命我为勒多兰统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是勒多兰家族选中的勇士。 {沙尔}
+当艾辛·萨雷蒂任命我为勒多兰统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是勒多兰家族选中的勇士。 {艾辛·萨雷提,沙尔}
 
 > INFO.NAME b5_redoranhort 2349910328103832028
 Athyn Sarethi showed me a public notice revealing that I am an Imperial agent. He did not ask for an explanation. He said he was satisfied that I was sincere. But he said others might not be so understanding.
-艾辛·萨雷蒂给我看了一份公告，上面写着我是一名帝国间谍。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {帝国人}
+艾辛·萨雷蒂给我看了一份公告，上面写着我是一名帝国间谍。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {艾辛·萨雷提,帝国人}
 
 > INFO.NAME b5_sarethihort 718226521261324568
 Redoran Hortator
@@ -11711,11 +11711,11 @@ A Cure for Vampirism
 
 > INFO.NAME ms_vampirecure 326181630328718198
 I have found a some papers by a Buoyant Armiger, Galur Rithari. In them, he gives hints as to how vampirism may be cured. It suggests that the cure may be obtained with the help of a Daedra Prince, perhaps Molag Bal.
-我找到了灵动扈从加卢·瑞萨里的一些文献。其中，他给出了如何治愈渴血症的提示。他说可以通过一位代德拉君主的帮助来治愈，也许就是莫拉格·巴尔。 {迪德拉}
+我找到了灵动扈从加卢·瑞萨里的一些文献。其中，他给出了如何治愈渴血症的提示。他说可以通过一位迪德拉君主的帮助来治愈，也许就是莫拉格·巴尔。
 
 > INFO.NAME ms_vampirecure 216594519137006200
 I've returned to the Shrine of Molag Bal and spoken with the Daedra Lord. He was pleased with my efforts, and has retrieved the cure from the Daedra Vaermina.
-我回到了莫拉格·巴尔圣祠，并与代德拉领主进行了交谈。他对我的努力很满意，并从代德拉君主瓦尔迷娜那里拿到了解药。 {迪德拉}
+我回到了莫拉格·巴尔圣祠，并与迪德拉领主进行了交谈。他对我的努力很满意，并从迪德拉君主瓦尔迷娜那里拿到了解药。
 
 > INFO.NAME ic_8_nord_alms 16416178748054522
 Imperial Cult: Alms from the Skyrim Mission
@@ -11883,7 +11883,7 @@ I gave the poor sorcerer a potion of levitation so he could escape from his high
 
 > INFO.NAME ms_nord_burial 2002031927884222008
 A Nord named Ennbjof gave me a key and a tale about a ship burial of Olmgerd the Outlaw, son of Harald Hand-Free, a First Age king of Skyrim. Ennbjof thinks an enchanted battle-axe called Stormkiss was buried with Oldgerd. Ennbjof thinks the burial is somewhere on the stretch between the Daedric ruins at Zaintiraris and Tel Branora, on the western side of the peninsula.
-一个叫恩布乔夫的诺德人给了我一把钥匙并告诉了我一个关于“不法之徒”奥姆格德的船葬的故事，他是第一纪元的天际国王哈拉尔德·逸手的儿子。恩布乔夫认为一把名为风暴之吻的附魔战斧与奥姆格德一同被埋葬了。恩布乔夫认为墓葬在扎伊蒂拉里斯的代德拉遗址和泰尔-布勒诺拉之间的某处，在半岛的西侧。 {手斧,迪德拉式,泰尔·布勒诺拉}
+一个叫恩布乔夫的诺德人给了我一把钥匙并告诉了我一个关于“不法之徒”奥姆格德的船葬的故事，他是第一纪元的天际国王哈拉尔德·逸手的儿子。恩布乔夫认为一把名为风暴之吻的附魔战斧与奥姆格德一同被埋葬了。恩布乔夫认为墓葬在扎伊蒂拉里斯的迪德拉遗址和泰尔-布勒诺拉之间的某处，在半岛的西侧。 {手斧,迪德拉式,泰尔·布勒诺拉}
 
 > INFO.NAME ms_fargothring 81190652580027338
 Fargoth's Ring
@@ -12031,7 +12031,7 @@ I confronted Ahnia about the scrolls, and she attacked me.  I was forced to defe
 
 > INFO.NAME ms_scrollsales 25459225061713729395
 'Ten-Tongues' Weerhat admitted that he's been involved in some shady business with a Khajiit named Ahnia.  She can be found in the Sewers underneath the Bazaar.
-“十舌”维哈特承认他和一个叫阿妮娅的卡吉特卷入了一些不光彩的事。她可以在集市下面的下水道里找到。
+“十舌”维哈特承认他和一个叫阿妮娅的卡吉特卷入了一些不光彩的事。她可以在巨市下面的下水道里找到。
 
 > INFO.NAME ms_scrollsales 22527328258781776
 When I questioned 'Ten-Tongues' Weerhat about the scrolls he offers at discount prices, he mentioned someone named Ahnia, but wouldn't say more.
@@ -12183,11 +12183,11 @@ House Redoran: Shurinbaal
 
 > INFO.NAME hr_shurinbaal 3194027223008328872
 Serjo Athyn Sarethi believes there are smugglers in the cave of Shurinbaal, just southwest down the coast from Gnaar Mok. I must find and kill the leaders of the smugglers, Daroder and Enjine.
-艾辛·萨雷蒂相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。 {纳尔·莫克}
+艾辛·萨雷蒂相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。 {艾辛·萨雷提,纳尔·莫克}
 
 > INFO.NAME hr_shurinbaal 25974211622522932654
 Serjo Athyn Sarethi thanked me for shutting down the smuggling operations in Shurinbaal.
-艾辛·萨雷蒂感谢我结束了舒林巴尔的走私活动。
+艾辛·萨雷蒂感谢我结束了舒林巴尔的走私活动。 {艾辛·萨雷提}
 
 > INFO.NAME hr_findtharen 2404510183512315834
 House Redoran: Find Fedris Tharen
@@ -12339,15 +12339,15 @@ Mouth Mallam Ryon thanked me for asking Baladas Demnevanni the three questions.
 
 > INFO.NAME ht_daedraskin 1064265412400715408
 House Telvanni: Daedra Skin
-泰瓦尼家族：代德拉之皮
+泰瓦尼家族：迪德拉之皮
 
 > INFO.NAME ht_daedraskin 25412168641350826411
 Mouth Mallam Ryon asked me to acquire a Daedra skin and deliver it to Master Aryon in Tel Vos.
-发言人马拉姆·里昂让我去买一张代德拉之皮，并把它交给泰尔-沃斯的阿里昂大师。 {迪德拉,迪德拉之皮,泰尔·沃斯}
+发言人马拉姆·里昂让我去买一张迪德拉之皮，并把它交给泰尔-沃斯的阿里昂大师。 {泰尔·沃斯}
 
 > INFO.NAME ht_daedraskin 9879179541047526015
 Master Aryon thanked me for bringing him a Daedra skin.
-阿里昂大师感谢我给他带来了一张代德拉之皮。 {迪德拉,迪德拉之皮}
+阿里昂大师感谢我给他带来了一张迪德拉之皮。
 
 > INFO.NAME ht_silverdawn 184942478530226925
 House Telvanni: Staff of the Silver Dawn
@@ -12611,7 +12611,7 @@ Thieves Guild: Redoran Master Helm
 
 > INFO.NAME tg_masterhelm 1258232087147310181
 Aengoth the Jeweler asked me to bring him a Redoran Master Helm. Many of the Redoran councilors have one, but Aengoth knows of one in Arobar Manor.
-珠宝商阿恩戈斯让我给他带一个勒多兰大师头盔。许多勒多兰议员都有一个，但阿恩戈斯知道阿罗巴庄园里有一个没人戴的。
+珠宝商阿恩戈斯让我给他带一个勒多兰大师头盔。许多勒多兰议员都有一个，但阿恩戈斯知道阿罗巴庄园里有一个没人戴的。 {阿罗巴府邸}
 
 > INFO.NAME tg_masterhelm 150001016689706260
 Aengoth the Jeweler thanked me for bringing him a Redoran Master Helm.
@@ -12743,7 +12743,7 @@ Sheogorath's Quest
 
 > INFO.NAME da_sheogorath 21163218724510171
 I have entered the Shrine of Sheogorath and spoken with the Daedra Prince of Madness. He has offered me the opportunity to perform a service for him. First, I am to recover a powerful artifact, the Fork of Horripilation, from a mad hermit who lives on an island off the northernmost points of Tamriel. Then, I must slay a giant bull netch that has taken residence near this island. If I can do this, Sheogorath promises I will be rewarded well.
-我进入了谢尔格拉斯圣祠，与代德拉君主进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器--惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯特保证会给我丰厚的报酬。 {迪德拉,巨型气母}
+我进入了谢尔格拉斯圣祠，与迪德拉君主进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器--惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯特保证会给我丰厚的报酬。 {巨型气母}
 
 > INFO.NAME da_sheogorath 32230109952487810069
 The giant bull netch is dead, as Sheogorath asked. However, I was not wielding the Fork of Horripilation when the netch met its end. My quest for the Prince of Madness is a failure.
@@ -12751,7 +12751,7 @@ The giant bull netch is dead, as Sheogorath asked. However, I was not wielding t
 
 > INFO.NAME da_sheogorath 308434402258354687
 I've returned to the Shrine of Sheogorath, and the Daedra Prince spoke with me again. He seemed pleased that I had completed my quest...not because he wanted the bull netch dead, but he enjoyed seeing me struggle to do it. He has rewarded me well, though, and given me the Spear of Bitter Mercy.
-我回到了谢尔格拉斯圣祠，代德拉君主又和我谈了一次话。他似乎很高兴我完成了任务……并不是因为他想要那只雄性气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把苦痛仁慈之枪给了我。 {迪德拉}
+我回到了谢尔格拉斯圣祠，迪德拉君主又和我谈了一次话。他似乎很高兴我完成了任务……并不是因为他想要那只雄性气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把苦痛仁慈之枪给了我。
 
 > INFO.NAME c0_act_c_expo 12185198392765628145
 The Citadels of the Sixth House
@@ -12759,7 +12759,7 @@ The Citadels of the Sixth House
 
 > INFO.NAME c0_act_c_expo 2673716600945818363
 Buoyant Armigers at Ghostgate told me that all their intelligence is old. No one has ventured far inside the fence for years. They gave me a map showing the locations of the citadels of the various ash vampires. Sixth House creatures have become more numerous and powerful, and the most powerful can conjure powerful daedra. There are no safe refuges or services inside the fence; I must return to Ghostgate to rest and heal.
-幽魂之门的灵动扈从告诉我，他们的情报都是陈年旧事。已经有很多年没人敢深入栅栏内部了。他们给了我一张地图，上面标明了各种灰烬吸血鬼的城堡位置。第六家族的生物变得越来越多，也越来越强大，最强大的可以召唤出强大的代德拉。栅栏内没有安全的避难所和服务，我必须返回幽魂之门休息和疗伤。 {智力,迪德拉}
+幽魂之门的灵动扈从告诉我，他们的情报都是陈年旧事。已经有很多年没人敢深入栅栏内部了。他们给了我一张地图，上面标明了各种灰烬吸血鬼的城堡位置。第六家族的生物变得越来越多，也越来越强大，最强大的可以召唤出强大的迪德拉。栅栏内没有安全的避难所和服务，我必须返回幽魂之门休息和疗伤。 {智力}
 
 > INFO.NAME ic8_ingokning 237101289963692773
 Imperial Cult: Alms from the Skyrim Mission
@@ -12883,7 +12883,7 @@ House Redoran: Duel with Bolvyn Venim
 
 > INFO.NAME hr_archmaster 17741203752809611543
 Athyn Sarethi told me to meet Bolvyn Venim in a duel. The winner will become the Archmaster of House Redoran.
-艾辛·萨雷蒂让我与波尔文·维尼姆决斗。胜者将成为勒多兰家族的新家主。
+艾辛·萨雷蒂让我与波尔文·维尼姆决斗。胜者将成为勒多兰家族的新家主。 {艾辛·萨雷提}
 
 > INFO.NAME hr_archmaster 2082553503074113793
 I defeated Bolvyn Venim and am now the Archmaster of House Redoran.
@@ -13191,7 +13191,7 @@ Meryn Othralas says Gureryne Selvilo, the leading lady, is dead, so there won't 
 
 > INFO.NAME tr_shrinedead 2689613140389531748
 The Shrine of the Dead
-亡者神殿
+亡者圣祠
 
 > INFO.NAME tr_shrinedead 1368326864996726446
 Fedris Hler, apparently pleased with my efforts involving the goblin army, has another task for me. He has instructed me to speak with Gavas Drin, Almalexia's head priest.
@@ -13199,23 +13199,23 @@ Fedris Hler, apparently pleased with my efforts involving the goblin army, has a
 
 > INFO.NAME tr_shrinedead 1140531858212056346
 I've met with Gavas Drin, who would like me to perform a task for Almalexia. Deep in the ruins beneath the Temple is a shrine that has been untouched for many years. Apparently, the shrine has soured, and the entire area overrun by the undead.
-我会见了加瓦斯·德林，他想让我为阿玛莱西娅执行一项任务。在神殿下的废墟深处，有一座多年无人踏足的神殿。显然，神殿已被腐化，整个地区都被亡灵占领了。
+我会见了加瓦斯·德林，他想让我为阿玛莱西娅执行一项任务。在神殿下的废墟深处，有一座多年无人踏足的圣祠。显然，圣祠已被腐化，整个地区都被亡灵占领了。
 
 > INFO.NAME tr_shrinedead 3197816904508814549
 It is Almelexia's belief that the Shrine of the Dead can be reclaimed, and its power used for the good of Mournhold. Although traditional Temple doctrine disavows ancestor worship, the Lady believes that it has its place, and that the power to be gained from the ancestors is great.
-阿玛莱西娅认为，亡者神殿可以被收回，它的力量可以用来造福哀伤之城。虽然传统的神殿教义不赞成祖先崇拜，但圣母认为它有其存在的价值，而且能从祖先们那里获得巨大的力量。 {亡者圣祠,先祖}
+阿玛莱西娅认为，亡者圣祠可以被收复，它的力量可以用来造福哀伤之城。虽然传统的神殿教义不赞成祖先崇拜，但圣母认为它有其存在的价值，而且能从祖先们那里获得巨大的力量。 {先祖}
 
 > INFO.NAME tr_shrinedead 19788202563149212965
 Drin asks that I escort one of Almalexia's young curates, Urvel Dulni, to this shrine to cleanse it and restore its power. I will first have to rid the area of all of the Profane, powerful liches who draw strength from the power of the Shrine of the Dead. When they are destroyed, Dulni will cleanse the shrine. I should enter the sewers from the Temple basement. Once there, I will need to head east through the old Temple Gardens, then south to find the Shrine of the Dead.
-德林要求我护送阿玛莱西娅的一位年轻祭主，乌维尔·杜尔尼，到这个神殿去净化它，恢复它的力量。我首先要清除这个地区所有的亵渎者，它们是从亡者神殿的力量中汲取能量的强大巫妖。当它们被消灭后，杜尔尼将净化神殿。我应该从神殿的地下室进入下水道。一旦到了那里，我就需要向东走，穿过神殿花园的旧址，然后向南走，找到亡者神殿。 {保镖,亡者圣祠}
+德林要求我护送阿玛莱西娅的一位年轻祭主，乌维尔·杜尔尼，到这个圣祠去净化它，恢复它的力量。我首先要清除这个地区所有的亵渎者，它们是从亡者圣祠的力量中汲取能量的强大巫妖。当它们被消灭后，杜尔尼将净化圣祠。我应该从神殿的地下室进入下水道。一旦到了那里，我就需要向东走，穿过神殿花园的旧址，然后向南走，找到亡者圣祠。 {保镖}
 
 > INFO.NAME tr_shrinedead 2102228915256767355
 I have killed the last of the Profane, the liches guarding the Shrine of the Dead.
-我已经杀死了最后一个亵渎者，也就是守卫亡者神殿的巫妖。 {卫兵,亡者圣祠}
+我已经杀死了最后一个亵渎者，也就是守卫亡者圣祠的巫妖。 {卫兵}
 
 > INFO.NAME tr_shrinedead 9407162282470717836
 Urvel Dulni has succeeded in cleansing the shrine.
-乌维尔·杜尔尼已经成功地净化了神殿。
+乌维尔·杜尔尼已经成功地净化了圣祠。
 
 > INFO.NAME tr_shrinedead 9502223152642032295
 Urvel Dulni has died.
@@ -13223,19 +13223,19 @@ Urvel Dulni has died.
 
 > INFO.NAME tr_shrinedead 6535325622581417460
 Gavas Drin was pleased, and a bit surprised, at the news we were able to restore the shrine. He has presented me with a Blessed Spear, a gift from the Lady Almalexia.
-加瓦斯·德林对我们能够恢复神殿的消息感到高兴，也有点惊讶。他向我赠送了圣母阿玛莱西娅的礼物 -- 一把祝福长枪。
+加瓦斯·德林对我们能够净化圣祠的消息感到高兴，也有点惊讶。他向我赠送了圣母阿玛莱西娅的礼物 -- 一把祝福长枪。
 
 > INFO.NAME tr_shrinedead 188156793104013242
 Gavas Drin was disturbed that Urvel Dulni died on our journey, before the shrine could be cleansed.
-加瓦斯·德林很不安，因为乌维尔·杜尔尼在神殿被净化之前就死在了我们的旅途中。
+加瓦斯·德林很不安，因为乌维尔·杜尔尼在圣祠被净化之前就死在了我们的旅途中。
 
 > INFO.NAME tr_shrinedead 1572644653068024653
 Gavas Drin was unhappy that Urvel Dulni was killed, but seemed a bit consoled in the fact that the Shrine had been cleansed. He gave me some gold as reward for my efforts.
-加瓦斯·德林对乌维尔·杜尔尼的死很不高兴，但似乎对神殿被清洗的事实感到些许快慰。他给了我一些金币作为报酬，以感谢我的努力。
+加瓦斯·德林对乌维尔·杜尔尼的死很不高兴，但似乎对圣祠被净化的事实感到些许慰藉。他给了我一些金币作为报酬，以感谢我的努力。
 
 > INFO.NAME tr_shrinedead 6692203641409420497
 Gavas Drin was unhappy that Urvel Dulni was killed, and the Shrine of the Dead will never be cleansed.
-加瓦斯·德林对乌维尔·杜尔尼被杀感到很不高兴，而且亡者神殿再也不会被净化了。 {亡者圣祠}
+加瓦斯·德林对乌维尔·杜尔尼被杀感到很不高兴，而且亡者圣祠再也不会被净化了。
 
 > INFO.NAME tr_shrinedead 1901676363133124644
 I have been told that I will be granted an audience with the goddess Almalexia.
@@ -13327,7 +13327,7 @@ Fighters Guild: Alof and the Orcs
 
 > INFO.NAME fg_alofsfarm 33331678365682641
 Eydis Fire-Eye told me to talk to Alof the Easterner at his farm northeast of Pelagiad and just north of the Arvel Plantation. Alof saw some Orcs at a Daedric ruin nearby.
-艾迪斯·火眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些代德拉遗迹里的兽人。 {迪德拉遗迹里的兽人,迪德拉式}
+艾迪斯·火眼让我去佩拉吉亚德东北方向、阿罗夫种植园北面的东方人阿罗夫的农场找他谈谈。阿洛夫在附近看到了一些迪德拉遗迹里的兽人。 {迪德拉式}
 
 > INFO.NAME fg_alofsfarm 289519483102661641
 Eydis Fire-Eye gave me 500 gold for the Duke's contract.
@@ -13355,11 +13355,11 @@ House Hlaalu: Telvanni at Odirniran
 
 > INFO.NAME hh_odirniran 1198157082016519822
 Edryno Arethi asked me to secure Odirniran for House Hlaalu. I should go there and speak with any survivors. If there are no survivors, I should find and kill the Telvanni responsible.
-埃德里诺·阿雷西让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。
+埃德里诺·阿雷西让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_odirniran 891121596153821637
 Edryno Arethi thanked me for securing Odirniran.
-埃德里诺·阿雷西感谢我保护了奥迪尔尼兰。
+埃德里诺·阿雷西感谢我保护了奥迪尔尼兰。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_bankfraud 31813244592924313368
 House Hlaalu: Sealed Orders
@@ -13443,7 +13443,7 @@ House Telvanni: Ring of Equity
 
 > INFO.NAME ht_eddiering 12608296121945928820
 Fast Eddie offered to bring me the Ring of Equity from a hidden place in Master Neloth's treasury if I bring him one of the keys for Tel Naga. Any guard should have a key as should Master Neloth himself.
-飞毛腿埃迪提出，如果我给他带来泰尔-纳加的一把钥匙，他就会从内洛斯大师宝库的隐秘处给我带来平衡之戒。任何卫兵都应该有一把钥匙，内洛斯大师本人也应该有。 {戒指,瓜尔}
+飞毛腿埃迪提出，如果我给他带来泰尔·纳加的一把钥匙，他就会从内洛斯大师宝库的隐秘处给我带来平衡之戒。任何卫兵都应该有一把钥匙，内洛斯大师本人也应该有。 {戒指,瓜尔}
 
 > INFO.NAME ht_eddiering 1329931594315021528
 Fast Eddie gave me the Ring of Equity.
@@ -13707,11 +13707,11 @@ Thieves Guild: Bal Molagmer, Enamor
 
 > INFO.NAME tg_ss_enamor 2219630828870221827
 Gentleman Jim Stacey asked me to return the stolen sword "Enamor" to Salyn Sarethi's personal chest in the Buoyant Armiger barracks in Ghostgate along with a note.
-绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷蒂在幽魂之门的灵动扈从兵营里的私人箱子里。
+绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷蒂在幽魂之门的灵动扈从兵营里的私人箱子里。 {萨利恩·萨雷提}
 
 > INFO.NAME tg_ss_enamor 29494241139524307
 Gentleman Jim Stacey thanked me for delivering the sword "Enamor" and the note to Salyn Sarethi's chest in Ghostgate.
-绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷蒂在幽魂之门的箱子里。
+绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷蒂在幽魂之门的箱子里。 {萨利恩·萨雷提}
 
 > INFO.NAME mv_slavemule 6203271422929218835
 Rabinna's Inner Beauty
@@ -13919,7 +13919,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_backdoor1 10901625642699447
 Athyn Sarethi was concerned that I had not fulfilled the Nerevarine prophecies. He says that Archcanon Saryoni hopes I will come speak with him at the High Fane in Vivec City.
-艾辛·萨雷蒂担心我没有实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。
+艾辛·萨雷蒂担心我没有实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。 {艾辛·萨雷提}
 
 > INFO.NAME b8_backdoor2 3525313401580925556
 Hortator and Nerevarine
@@ -13967,7 +13967,7 @@ Imperial Cult: Gathering Corkbulb Root
 
 > INFO.NAME ic5_corkbulb 2528429878813829874
 Synnolian Tunifus needs five units of corkbulb root for cure common disease and restore health potions. The Imperial Cult has an agreement with the Ascadian Isles plantation owners that permits us to gather corkbulb, so that's a good place to look. Since I have to cross water, he taught me a little spell.
-索诺里安·图尼夫斯需要五个软木鳞茎根，用于炼制治疗常见疾病和生命恢复药水。帝国教团与阿斯卡迪亚群岛的种植园主签有协议，允许我们采集软木鳞茎，所以那是个不错的地方。由于我必须渡水，他教了我一个小咒语。 {这些药水,帝国人}
+索诺里安·图尼夫斯需要五个软木鳞茎根，用于炼制治疗常见疾病和生命恢复药水。帝国教团与阿斯卡迪亚群岛的种植园主签有协议，允许我们采集软木鳞茎，所以那是个不错的地方。由于我必须渡水，他教了我一个小咒语。 {这些药水,帝国人,阿斯卡迪安群岛}
 
 > INFO.NAME ic5_corkbulb 773131614251017369
 I told Synnolian Tunifus I would not be able to bring him the five units of corkbulb root he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -14031,7 +14031,7 @@ While exploring a dungeon in the northern regions of Vvardenfell, I encountered 
 
 > INFO.NAME va_vampcurse 28463237491595118525
 I have decided not to assist Mastrius in escaping his prison. I have no wish to meddle in the affairs of this vampire, especially when it concerns a Daedra Prince.
-我决定不协助马斯特里乌斯逃出监狱。我不想插手这个吸血鬼的事情，尤其是这件事还关系到一位代德拉君主的时候。 {迪德拉}
+我决定不协助马斯特里乌斯逃出监狱。我不想插手这个吸血鬼的事情，尤其是这件事还关系到一位迪德拉君主的时候。
 
 > INFO.NAME va_vampcurse 306329381859724942
 I have killed Mastrius. He will never again see the outside world.
@@ -14171,7 +14171,7 @@ Imperial Cult: Skull-Crusher
 
 > INFO.NAME ic29_crusher 4594192092072731924
 The Oracle believes that I am fated to recover the ancient warhammer Skull-Crusher. I must discover a sealed Daedric ruin that may be accessed only through the Halls of the Dead. To help me solve the puzzle of this prophecy, the Oracle told me to consult a Dunmer scout and a Dunmer savant. Her vision suggests I must face restless spirits and powerful Daedra to recover the warhammer. If I find Skull-Crusher, I must return it to the Oracle so she may free it of its creators' curse.
-神谕者认为，我命中注定要找回远古战斧碎颅者。我必须发现一个封闭的代德拉废墟，只有通过亡灵殿堂才能进入。为了帮我解开这个预言的谜题，神谕者让我去咨询一位丹莫侦察兵和一位丹莫学者。她的幻象显示，我必须面对不安分的亡灵和强大的代德拉才能找回战锤。如果我找到了碎颅者，就必须把它还给神谕者，这样她就能解除它的创造者下的诅咒。 {封闭的迪德拉废墟,迪德拉式,迪德拉}
+神谕者认为，我命中注定要找回远古战斧碎颅者。我必须发现一个封闭的迪德拉废墟，只有通过亡灵殿堂才能进入。为了帮我解开这个预言的谜题，神谕者让我去咨询一位丹莫侦察兵和一位丹莫学者。她的幻象显示，我必须面对不安分的亡灵和强大的迪德拉才能找回战锤。如果我找到了碎颅者，就必须把它还给神谕者，这样她就能解除它的创造者下的诅咒。 {迪德拉式,丹莫斥候}
 
 > INFO.NAME ic29_crusher 244173012020273776
 The Oracle says she can detect no evil curse upon Skull-Crusher. She assured me it is safe, and gave me a special blessing so I might dedicate myself further to the service of the Nine. She has no more quests for me, but she will send word for me through others of high rank in the cult if she needs my help again.
@@ -14183,7 +14183,7 @@ Imperial Cult: The Scroll of Fiercely Roasting
 
 > INFO.NAME ic28_urjorad 201067417818410201
 The Oracle has sent me to the Daedric shrine of Ashalmimilkala to recover a powerful artifact called the Scroll of Fiercely Roasting and to return it to her. If I choose a greater challenge and risk, I may try to use the scroll instead to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
-神谕者派我前往代德拉的圣祠阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
+神谕者派我前往迪德拉的圣祠阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
 
 > INFO.NAME ic28_urjorad 24678144462691930217
 The Oracle thanked me for giving her the Scroll of Fiercely Roasting. She left the matter of trying to slay Carecalmo and Meryaran to my judgement, since, as opponents, she thinks they may be too great for me. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -14419,23 +14419,23 @@ The Black Dart Gang
 
 > INFO.NAME ms_blackdart 294151621112736271
 I met a Dunmer named Narisa Adus in the Bazaar Sewers. Her lover, Variner, was killed by the Black Dart Gang in the Temple Sewers, and now his ghost comes to her at night, begging her to rescue him. The ghost says he has a message for her, but she is afraid to go further.  She says the Black Dart Gang are very dangerous. They dress like poor beggars, but they throw deadly poison darts -- one is enough to kill you. I offered to help, but she thinks I should run if I see the Black Dart Gang.
-我在集市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有有件事要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。我主动提议帮忙，但她认为我要是遇上了黑镖帮的话应该立刻逃命。 {信息}
+我在巨市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有有件事要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。我主动提议帮忙，但她认为我要是遇上了黑镖帮的话应该立刻逃命。 {信息}
 
 > INFO.NAME ms_blackdart 2040663262834519520
 I met a Dunmer named Narisa Adus in the Bazaar Sewers. Her lover, Variner, was killed by the Black Dart Gang in the Temple Sewers, and now his ghost comes to her at night, begging her to rescue him.  The ghost says he has a message for her, but she is afraid to go further.  She says the Black Dart Gang are very dangerous.  They dress like poor beggars, but they throw deadly poison darts -- one is enough to kill you.  I offered to hlep, but she doubts I would stand a chance against the Black Dart Gang.
-我在集市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有有件事要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。我主动提议帮忙，但她怀疑我面对黑镖帮毫无胜算。 {信息}
+我在巨市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有有件事要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。我主动提议帮忙，但她怀疑我面对黑镖帮毫无胜算。 {信息}
 
 > INFO.NAME ms_blackdart 2919912620206474162
 I met a Dunmer named Narisa Adus in the Bazaar Sewers. Her lover, Variner, was killed by the Black Dart Gang in the Temple Sewers, and now his ghost comes to her at night, begging her to rescue him. The ghost says he has a message for her, but she is afraid to go further. She says the Black Dart Gang are very dangerous. They dress like poor beggars, but they throw deadly poison darts -- one is enough to kill you.
-我在集市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有个信息要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。
+我在巨市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有个信息要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。
 
 > INFO.NAME ms_blackdart 2206615461731028446
 I met a Dunmer named Narisa Adus in the Bazaar Sewers. She said her lover, Variner, was killed by the Black Dart Gang, and now his ghost comes to her at night, begging her to rescue him. The ghost says he has a message for her, but she is afraid to go further. She says the Black Dark Gang are very dangerous. They dress like poor beggars, but they throw deadly poison darts -- one is enough to kill you.
-我在集市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她说她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有个信息要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。
+我在巨市下水道里遇到一个叫娜丽莎·阿杜斯的丹莫。她说她的爱人瓦里纳在神殿下水道被黑镖帮杀害了，现在他的幽灵在晚上来找她，求她救他。幽灵说他有个信息要告诉她，但她不敢再听下去。她说黑镖帮非常危险。他们穿得像穷困的乞丐，但他们会投掷致命的毒镖--一支就足以杀死你。
 
 > INFO.NAME ms_blackdart 226223102775823013
 Narisa Adus in the Bazaar Sewers made a request. If I see the ghost of her lover, Variner, she wants me to listen to the ghost, and see if he has a message for her.
-集市下水道里的娜丽莎·阿杜斯请求我，如果我看到她的爱人瓦里纳的幽灵，她希望我听一听幽灵的信息，看看他是否有话要告诉她。
+巨市下水道里的娜丽莎·阿杜斯请求我，如果我看到她的爱人瓦里纳的幽灵，她希望我听一听幽灵的信息，看看他是否有话要告诉她。
 
 > INFO.NAME ms_blackdart 2279225351742029354
 I spoke with Variner's ghost. He told me a way to drown the Black Dart Gang in their hideout by flooding the room. But first I have to find the mechanism. It's a lever that looks like a torch holder. If I pull it down, the room will flood. The mechanism is on the wall somewhere at the east end, at head height. But I must be careful not to get too close to the gang or they will kill me. The hideout is in Old Mournhold, Temple Sewers West.
@@ -14643,7 +14643,7 @@ Temple: Foul Cult Beneath St. Delyn Canton
 
 > INFO.NAME tt_staralor 277841628162623259
 Endryn Llethan asked me to cleanse the foul Daedra worshippers from beneath the St. Delyn Canton here in Vivec. I must kill the leader of the cult, Bjadmund.
-恩德林·莱森要我在维威克这里的圣·德林行政区地下清除肮脏的代德拉崇拜者。我必须杀死这个教派的首领比加德蒙德。 {迪德拉,迪德拉崇拜}
+恩德林·莱森要我在维威克这里的圣·德林行政区地下清除肮脏的迪德拉崇拜者。我必须杀死这个教派的首领比加德蒙德。
 
 > INFO.NAME tt_staralor 215458014195531955
 Endryn Llethan thanked me for cleansing St. Delyn Canton.
@@ -14739,7 +14739,7 @@ Imperial Legion: Courtesy
 
 > INFO.NAME il_courtesy 2546513586540130753
 The Buoyant Armiger Salyn Sarethi in Ghostgate claims that we have no courtesy. Frald the White asked me to challenge Salyn Sarethi to a contest of wit, poetry, and honor.
-幽魂之门的灵动扈从萨利恩·萨雷蒂声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷蒂挑战，比试智慧、诗歌和荣誉礼节。
+幽魂之门的灵动扈从萨利恩·萨雷蒂声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷蒂挑战，比试智慧、诗歌和荣誉礼节。 {萨利恩·萨雷提}
 
 > INFO.NAME il_courtesy 28011321812039127676
 Frald the White was pleased to hear that I won the duel of wit and poetry.
@@ -14747,7 +14747,7 @@ Frald the White was pleased to hear that I won the duel of wit and poetry.
 
 > INFO.NAME il_courtesy 1364308412004225817
 Frald the White was disappointed to hear that I lost the challenge against Salyn Sarethi, but he thanked me for having the courage to meet the challenge.
-苍白者弗拉德听到我输掉了对萨利恩·萨雷蒂的挑战后很失望，但他感谢我有勇气迎接挑战。
+苍白者弗拉德听到我输掉了对萨利恩·萨雷蒂的挑战后很失望，但他感谢我有勇气迎接挑战。 {萨利恩·萨雷提}
 
 > INFO.NAME il_smuggler 284901820664227861
 Imperial Legion: Dwemer Artifacts at Drinar Varyon's Place
@@ -14771,7 +14771,7 @@ Molag Bal's Quest
 
 > INFO.NAME da_molagbal 2429970382803322484
 While in a Shrine to Molag Bal, the Daedric Prince spoke to me at the altar. He was angered, and I was afraid. His anger, however, was not directed at me, but rather toward one of his minions. Menta Na, a Daedroth Monarch, has grown lazy, and no longer does Molag Bal's bidding. If I kill Menta Na in his dungeon Kora-Dur, returning his soul to the Outer Realms where Molag Bal can punish him, then Molag Bal will reward me well.
-在莫拉格·巴尔的圣祠中，代德拉君主在祭坛前对我说话。他很愤怒，这令我感到了恐惧。然而，他的愤怒并不是针对我，而是针对他的一个爪牙。魔鳄兽曼塔·纳变得越来越懒惰，不再听从莫拉格·巴尔的命令。如果我在莫拉格·巴尔的地牢科拉-杜尔杀死曼塔·纳，将他的灵魂送回湮灭领域，让莫拉格·巴尔惩罚他，那么莫拉格·巴尔会给我丰厚的报酬。 {迪德拉式,老鼠,杀了我}
+在莫拉格·巴尔的圣祠中，迪德拉君主在祭坛前对我说话。他很愤怒，这令我感到了恐惧。然而，他的愤怒并不是针对我，而是针对他的一个爪牙。魔鳄兽曼塔·纳变得越来越懒惰，不再听从莫拉格·巴尔的命令。如果我在莫拉格·巴尔的地牢科拉-杜尔杀死曼塔·纳，将他的灵魂送回湮灭领域，让莫拉格·巴尔惩罚他，那么莫拉格·巴尔会给我丰厚的报酬。 {迪德拉式,老鼠,杀了我}
 
 > INFO.NAME da_molagbal 146375713884121843
 I've returned to the Shrine of Molag Bal, having killed the Daedroth Monarch. Molag Bal was true to his word, and has rewarded me with his mace, the Mace of Molag Bal.
@@ -14783,7 +14783,7 @@ Mehrunes Dagon's Quest
 
 > INFO.NAME da_mehrunes 22460207912053412117
 At a Shrine to Mehrunes Dagon, I received a vision from the Daedra Prince himself. He has told me I appear unworthy of his favor, but will allow me a chance to prove myself, if I feel up to the task.
-在梅鲁涅斯·大衮的圣祠中，我得到了代德拉君主本人的幻象。他告诉我，我似乎不配得到他的青睐，但如果我觉得可以胜任，他会给我一个证明自己的机会。 {迪德拉,忙,任务}
+在梅鲁涅斯·大衮的圣祠中，我得到了迪德拉君主本人的幻象。他告诉我，我似乎不配得到他的青睐，但如果我觉得可以胜任，他会给我一个证明自己的机会。 {忙,任务}
 
 > INFO.NAME da_mehrunes 2935331512215731181
 Mehrunes Dagon was pleased that I was able to recover the once-great artifact from its resting place. He has taken the dagger and infused it once again with his power. As I have proven myself a worthy bearer of the weapon, Mehrunes Dagon has given me the restored Razor.
@@ -14799,7 +14799,7 @@ I spoke to the khajiit M'aiq, and he gave me information on a sunken shrine to B
 
 > INFO.NAME da_boethiah 12676225553046131092
 I have returned to the completed Shrine to Boethiah. The Daedra seemed pleased with the work that has been done, and has rewarded me with Goldbrand, a truly spectacular weapon.
-我回到了已经完工的波耶西亚圣祠。代德拉君主似乎对已完成的工作很满意，并奖励我一件真正壮观的武器--黄金烙印。 {迪德拉,报酬}
+我回到了已经完工的波耶西亚圣祠。迪德拉君主似乎对已完成的工作很满意，并奖励我一件真正壮观的武器--黄金烙印。 {报酬}
 
 > INFO.NAME da_malacath 2029227732236431088
 Malacath's Quest
@@ -14807,11 +14807,11 @@ Malacath's Quest
 
 > INFO.NAME da_malacath 24907271173046912119
 I entered the shrine of Malacath and summoned the Daedra. He spoke to me of a helm of great power, once belonging to the elven hero Oreyn Bearclaw. In reality, he was no hero, though. The deeds attributed to him were actually performed by an orc, Kharag gro-Khar. If I can find the last of the Oreyn family bloodline, and kill him, I will be rewarded with the helm.
-我进入马拉卡斯圣祠，召唤出了代德拉君主。他向我讲述了曾经属于精灵英雄的奥伦·熊爪之盔的强大力量。但实际上，那个精灵并不是什么英雄。他的事迹实际上是由兽人卡拉格·格罗-卡尔完成的。如果我能找到奥伦家族最后的血脉，并杀死他，我就能得到头盔。 {迪德拉,”熊爪“奥伦,报酬}
+我进入马拉卡斯圣祠，召唤出了迪德拉君主。他向我讲述了曾经属于精灵英雄的奥伦·熊爪之盔的强大力量。但实际上，那个精灵并不是什么英雄。他的事迹实际上是由兽人卡拉格·格罗-卡尔完成的。如果我能找到奥伦家族最后的血脉，并杀死他，我就能得到头盔。 {“熊爪”奥雷恩,报酬}
 
 > INFO.NAME da_malacath 26707319651263018566
 I've returned to the shrine of Malacath, who already knew of my success in killing Farvyn Oreyn. Malacath was as good as his word, and I now have the Helm of Oreyn Bearclaw in my possession. It is a fantastic helm, misnamed though it may be.
-我回到了马拉卡斯的圣祠，他已经知道我成功杀死了法文·奥伦。马拉卡斯言出必行，我现在拥有了奥伦·熊爪之盔。这是一个神奇的头盔，虽然它的名字可能是错的。 {”熊爪“奥伦}
+我回到了马拉卡斯的圣祠，他已经知道我成功杀死了法文·奥伦。马拉卡斯言出必行，我现在拥有了奥伦·熊爪之盔。这是一个神奇的头盔，虽然它的名字可能是错的。 {法尔文·奥雷恩,“熊爪”奥雷恩}
 
 > INFO.NAME b2c_yenammu 2977828507157279833
 Ahemmusa Nerevarine
@@ -15071,7 +15071,7 @@ Imperial Cult: Boots of the Apostle
 
 > INFO.NAME ic26_amanin 247152866426488483
 Lalatia Varian, an Oracle of the Imperial cult, has been given a prophecy of the Boots of the Apostle, a legendary treasure of Cyrodiil, relics of Tiber Septim who was also called Talos. "Through the doors of Berandas, within the silent caverns, beneath the wings of twilight, dust sleeps in the shoes that Talos wore." The Oracle bid me retrieve the Boots of the Apostle. A Dunmer savant or Dunmer scout may have clues to the meaning of the Oracle's prophetic words.
-帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。“穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。”。先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人}
+帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。“穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。”。先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人,丹莫斥候}
 
 > INFO.NAME ic26_amanin 25980298942494824563
 I retrieved the Boots of the Apostle from Berandas and brought them to Lalatia Varian. She praised me, and said that I was meant to keep the boots for myself, and that I should dedicate them to the service of the Nine. The Oracle said to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -15175,7 +15175,7 @@ I've been told to speak to Asciene Rane in the Grand Council Chambers about tran
 
 > INFO.NAME tr_dbattack 990629136204134460
 Asciene Rane has agreed to transport me to Mournhold. If I wish to return to the mainland, I should speak to Effe-Tei, an Argonian Mage in the Royal Palace. When I arrive, I should speak with one of the Royal Guard for more information about the Dark Brotherhood.
-阿赛妮·拉尼已经同意把我送到哀伤之城。如果我想回到主大陆，我应该和王宫里的阿尔贡法师艾菲-泰谈谈。当我到达时，我应该找一位王室卫兵谈谈，了解更多关于黑暗兄弟会的信息。 {阿尔贡,瓜尔}
+阿赛妮·拉尼已经同意把我送到哀伤之城。如果我想回到主大陆，我应该和王宫里的阿尔贡法师艾菲-泰谈谈。当我到达时，我应该找一位王宫卫兵谈谈，了解更多关于黑暗兄弟会的信息。 {阿尔贡,瓜尔}
 
 > INFO.NAME tr_dbattack 9743192612930222534
 I've been told that the Dark Brotherhood is rumored to have a base in the ruins of Old Mournhold, accessible through the sewer system in the Great Bazaar. I've been warned that I enter there at my own peril.
@@ -15419,7 +15419,7 @@ Now that I have gained the king's confidence, he would like me to gather what in
 
 > INFO.NAME tr_champion 18918308152625521390
 I have returned to King Helseth and reported the details of my encounter with Almalexia in the Clockwork City of Sotha Sil. The King did not seem displeased that the gods are dead, though he realizes it may take some time for the people of Morrowind to accept what has happened. Helseth believes that a new era has come to Morrowind, and that the Dunmer will thrive under his guidance. King Helseth has rewarded me with a full set of the armor of his Royal Guards.
-我已经回到了赫尔塞斯国王那里，报告了我与阿玛莱西娅在索萨·希尔的发条城交锋的细节。国王似乎对于两位神明的死并无不快，但他意识到晨风的人民可能需要一些时间才能接受发生的事情。赫尔塞斯相信，晨风已经迎来了一个新的时代，丹莫将在他的引领下蓬勃发展。赫尔塞斯国王赏赐给我一整套他的王室卫兵的盔甲。 {报酬,瓜尔}
+我已经回到了赫尔塞斯国王那里，报告了我与阿玛莱西娅在索萨·希尔的发条城交锋的细节。国王似乎对于两位神明的死并无不快，但他意识到晨风的人民可能需要一些时间才能接受发生的事情。赫尔塞斯相信，晨风已经迎来了一个新的时代，丹莫将在他的引领下蓬勃发展。赫尔塞斯国王赏赐给我一整套他的王宫卫兵的盔甲。 {报酬,瓜尔}
 
 > INFO.NAME tr_sothasil 2818522370236898830
 The Mad God
@@ -15447,7 +15447,7 @@ Almalexia is dead at my hand. The goddess hoped to leave me here dead, and make 
 
 > INFO.NAME tr_sothasil 2330566401209622813
 I have returned to Mournhold and been visited by the spirit of the Daedra Azura. She has told me that the death of Almalexia was just, and that it was she, not Sotha Sil, who was mad. The time of the Tribunal, says Azura, is gone. As a sign of her love for the Dunmer, she has ended the ashstorms in Mournhold, and promised they will never return.
-我回到哀伤之城，魔神阿祖拉的幻象出现在我面前。她告诉我，阿玛莱西娅的死是正确的，发疯的是她而不是索萨·希尔。阿祖拉说，审判席的时代已经结束。为了表示她对丹莫的爱，她终结了哀伤之城刮起的灰烬风暴，并保证风暴再也不会重现。 {迪德拉,哀伤之城刮起灰烬风暴}
+我回到哀伤之城，迪德拉大君阿祖拉的幻象出现在我面前。她告诉我，阿玛莱西娅的死不足惜，发疯的是她而不是索萨·希尔。阿祖拉说，审判席的时代已经结束。为了表示她对丹莫的爱，她终结了哀伤之城刮起的灰烬风暴，并保证风暴再也不会重现。 {哀伤之城刮起灰烬风暴}
 
 > INFO.NAME tr_mhattack 553898541945428391
 An Attack on Mournhold
@@ -15455,11 +15455,11 @@ An Attack on Mournhold
 
 > INFO.NAME tr_mhattack 2850722401293162574
 Strange creatures have burst through the ground at the Plaza Brindisi Dorom, and the High Ordinators and Royal Guard are trying to protect the city.
-奇怪的生物在布林迪西·多隆广场上破土而出，至高神殿卫兵和王室卫兵正在努力保护这座城市。 {神殿卫兵们,瓜尔}
+奇怪的生物在布林迪西·多隆广场上破土而出，至高神殿卫兵和王宫卫兵正在努力保护这座城市。 {神殿卫兵们,瓜尔}
 
 > INFO.NAME tr_mhattack 1505611594491311659
 The Royal Guard have asked me to help defend the city against the attacking creatures.
-王室卫兵要求我帮助保卫城市，抵御生物的攻击。 {瓜尔}
+王宫卫兵要求我帮助保卫城市，抵御生物的攻击。 {瓜尔}
 
 > INFO.NAME tr_mhattack 933322953255182044
 The High Ordinators have asked me to help defend the city against the attacking creatures.
@@ -15471,7 +15471,7 @@ The creatures attacking the city have been defeated. The plaza is in ruins.
 
 > INFO.NAME tr_mhattack 30132451218255526
 The Royal Guard have ordered me to report the attack to Tienius Delitian at the Royal Palace.
-王室卫兵命令我向王宫的蒂纽斯·德利天报告这次袭击。 {瓜尔}
+王宫卫兵命令我向王宫的蒂纽斯·德利天报告这次袭击。 {瓜尔}
 
 > INFO.NAME tr_mhattack 300511110064724031
 The High Ordinators have ordered me to report the attack to Fedris Hler at the Temple.
@@ -15583,15 +15583,15 @@ House Redoran: The Mad Lord of Milk
 
 > INFO.NAME hr_madmilk 243156941636814418
 Athyn Sarethi told me that the Redoran Noble, Arethan Mandas, has gone insane and has been demanding tribute from travellers from the cavern Milk which is on the road to Maar Gan just north of the crossroads. I should find a way to cure him if possible, or kill him if necessary. He suggested that I speak with Arethan's father, Llerar Mandas in Ebonheart.
-艾辛·萨雷蒂说，勒多兰贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。 {玛尔·甘}
+艾辛·萨雷蒂说，勒多兰贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。 {艾辛·萨雷提,玛尔·甘}
 
 > INFO.NAME hr_madmilk 3038997131625721006
 Athyn Sarethi thanked me for killing the Mad Lord, Arethan Mandas.
-艾辛·萨雷蒂感谢我杀死了疯狂领主阿雷森·曼达斯。
+艾辛·萨雷蒂感谢我杀死了疯狂领主阿雷森·曼达斯。 {艾辛·萨雷提}
 
 > INFO.NAME hr_madmilk 2625011566253311759
 Athyn Sarethi thanked me for restoring Arethan Mandas to his senses.
-艾辛·萨雷蒂感谢我让阿雷森·曼达斯恢复理智。
+艾辛·萨雷蒂感谢我让阿雷森·曼达斯恢复理智。 {艾辛·萨雷提}
 
 > INFO.NAME hh_eggmine 48252821488173201
 House Hlaalu: Inanius Egg Mine
@@ -15755,7 +15755,7 @@ Mephala's Quest
 
 > INFO.NAME da_mephala 247672770592332649
 While in a Morag Tong Shrine to Mephala, I spoke to a priest of the Daedra. Taros Dral told me he had been given an important task by Mephala, and wanted to know if I wished to help.
-在莫拉格堂的梅法拉圣祠里，我和一位代德拉祭司交谈过。塔罗斯·德拉尔告诉我，梅法拉交给他一项重要任务，想知道我是否愿意帮忙。 {迪德拉}
+在莫拉格堂的梅法拉圣祠里，我和一位迪德拉祭司交谈过。塔罗斯·德拉尔告诉我，梅法拉交给他一项重要任务，想知道我是否愿意帮忙。
 
 > INFO.NAME da_mephala 2039573792836428252
 Taros Dral was not pleased that I had killed Balyn Omavel in a way other than the one he described.
@@ -15763,7 +15763,7 @@ Taros Dral was not pleased that I had killed Balyn Omavel in a way other than th
 
 > INFO.NAME da_mephala 2124160673266220521
 I've returned to the Mephala Shrine. Upon arriving, the Daedra spoke to me, and was pleased with what I had done. As a reward, I was given the Ring of Khajiit. It seems a powerful artifact, and well suited for the Morag Tong.
-我回到了梅法拉圣祠。到达后，代德拉君主与我交谈，对我的所作所为很满意。作为奖励，我得到了卡吉特之戒。它似乎是一件强大的神器，非常适合莫拉格堂。 {迪德拉,报酬,戒指}
+我回到了梅法拉圣祠。到达后，迪德拉君主与我交谈，对我的所作所为很满意。作为奖励，我得到了卡吉特之戒。它似乎是一件强大的神器，非常适合莫拉格堂。 {报酬,戒指}
 
 > INFO.NAME ic3_willow 32064146750623517
 Imperial Cult: Gathering Willow Anther
@@ -15987,7 +15987,7 @@ Disloyalty Among the Guards
 
 > INFO.NAME tr07_guard 14416176761433625113
 Tienius Delitian has questions about the loyalties of some of the Royal Guards. I'm to pose as a candidate wanting to join the Guards as an excuse for talking to the guards, sounding them out, and looking for evidence of disloyalty. If I find any hint of treason or find evidence of disloyalty, I should bring it to Tienius Delitian. I should take no action against any guard, but should let Tienius Delitian decide what to do.
-蒂纽斯·德利天有些怀疑王室卫兵的忠诚。我将冒充一个想加入卫队的候选人，作为与卫兵们交谈的借口，倾听他们的意见，并寻找不忠的证据。如果我发现任何叛国的暗示或发现不忠的证据，我应该向蒂纽斯·德利天报告。我不应该对任何一个卫兵采取任何行动，而应该让蒂纽斯·德利天决定该怎么做。 {问题,瓜尔}
+蒂纽斯·德利天有些怀疑王宫卫兵的忠诚。我将冒充一个想加入卫队的候选人，作为与卫兵们交谈的借口，倾听他们的意见，并寻找不忠的证据。如果我发现任何叛国的暗示或发现不忠的证据，我应该向蒂纽斯·德利天报告。我不应该对任何一个卫兵采取任何行动，而应该让蒂纽斯·德利天决定该怎么做。 {问题,瓜尔}
 
 > INFO.NAME tr07_guard 4078244882569210655
 When I asked Ivulen Irano about King Helseth, he delivered what sounded like a memorized and not-very-sincere sounding speech. Maybe he's just not very bright. But maybe he's just not a very good liar.
@@ -16143,7 +16143,7 @@ Today I met an extremely rude smithy's apprentice by the name of Ilnori Faustus.
 
 > INFO.NAME ms_jobhunt 275417235288364505
 Bols Indalen at the Craftmen's Hall in Mournhold has lost his apprentice. The smith told me to send anyone I find looking for work his way.
-哀伤之城工匠大厅的波尔斯·英达林失去了他的学徒。铁匠告诉我，如果我遇到有人在找工作的话就介绍到他这来。
+哀伤之城工匠之间的波尔斯·英达林失去了他的学徒。铁匠告诉我，如果我遇到有人在找工作的话就介绍到他这来。
 
 > INFO.NAME ms_jobhunt 29890191853054622997
 I met a Redguard by the name of Therdon looking for work. I told him about the apprentice leaving Bols Indalen's service, and he seemed interested. He said he will stop by there and apply soon.
@@ -16151,7 +16151,7 @@ I met a Redguard by the name of Therdon looking for work. I told him about the a
 
 > INFO.NAME ms_jobhunt 5690203932050191
 Therdon applied and got the job as a smith's apprentice with Bols Indalen at the Craftmen's Hall. Both Therdon and Bols seem quite happy with their arrangement.
-瑟顿申请并得到了在工匠大厅当波尔斯·英达林的铁匠学徒的工作。瑟顿和波尔斯似乎都对此很满意。
+瑟顿申请并得到了在工匠之间当波尔斯·英达林的铁匠学徒的工作。瑟顿和波尔斯似乎都对此很满意。
 
 > INFO.NAME tr09_varis 1616304402765626823
 Muckraking Journalist
@@ -16199,7 +16199,7 @@ Mages Guild: Recruit or Kill Llarar Bereloth
 
 > INFO.NAME mg_joinus 799911165242925427
 Ranis asked me to convince Llarar Bereloth to join the guild. If he cannot be convinced, I must kill him. To get to Sulipund, I should leave Balmora east and pass Fort Moonmoth. Then cross the bridge to Molag Amur and follow the trail east until I reach a lake. I should see a Dunmer stronghold to the south. If I head north on the path between the hills, Sulipund will be on my left, just before the path splits.
-拉尼斯让我说服拉拉尔·贝瑞洛斯加入公会。如果说服不了他，我就必须杀了他。要去苏利邦德，我应该向东离开巴尔莫拉，经过月蛾堡。然后经过锻莫遗迹的桥和锻莫遗迹前往莫拉格-阿穆尔，沿着小路向东一直走到一个湖边。我应该会在南边看到一个丹莫的堡垒。如果我沿着山丘间的小路向北走，苏利邦德就会在我的左手边，就在小路分岔之前。
+拉尼斯让我说服拉拉尔·贝瑞洛斯加入公会。如果说服不了他，我就必须杀了他。要去苏利邦德，我应该向东离开巴尔莫拉，经过月蛾堡。然后经过锻莫遗迹的桥和锻莫遗迹前往莫拉格-阿穆尔，沿着小路向东一直走到一个湖边。我应该会在南边看到一个丹莫的堡垒。如果我沿着山丘间的小路向北走，苏利邦德就会在我的左手边，就在小路分岔之前。 {莫拉格·阿穆尔}
 
 > INFO.NAME mg_joinus 33971608031362531
 I reported my success to Ranis Athrys in Balmora.
@@ -16303,7 +16303,7 @@ Imperial Cult: Gathering Netch Leather
 
 > INFO.NAME ic7_netch 14793102952203313187
 Synnolian Tunifus needs one unit of netch leather for cure paralyzation potions. He suggested hunting in the Ascadian Isles near Balur Salvu's house. He advised me to start with bull netch, because the betty netch are more dangerous.
-索诺里安·图尼夫斯需要一个单位的气母皮来制作治疗麻痹药水。他建议在巴卢·萨尔福家附近的阿斯卡迪亚群岛狩猎。他建议我从雄性气母开始，因为雌性气母更危险。 {这些药水}
+索诺里安·图尼夫斯需要一个单位的气母皮来制作治疗麻痹药水。他建议在巴卢·萨尔福家附近的阿斯卡迪亚群岛狩猎。他建议我从雄性气母开始，因为雌性气母更危险。 {这些药水,阿斯卡迪安群岛}
 
 > INFO.NAME ic7_netch 2925110583240533254
 I told Synnolian Tunifus I would not be able to bring him the one unit of netch leather he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -16435,11 +16435,11 @@ Azura's Quest
 
 > INFO.NAME da_azura 2957918279256919733
 I have spoken with Azura, Queen of the Night Sky, at her shrine. She has tasked me to travel to and island near Dagon Fel and rid the island of the daedra Sheogorath has sent, and to bring back proof that he sent them. I may not disturb Rayna Drolan, the woman living there. If I can do this for her, she will reward me well.
-我在夜空女王阿祖拉的神殿与她交谈。她让我去大衮-费尔附近的一个岛屿，并将谢尔格拉斯派来的代德拉赶出这个岛屿。我也要带回证据，证明是谢尔格拉斯派来了他们。我不能打扰住在那里的女人蕾娜·卓兰。如果我能够为阿祖拉完成这个任务，她会给我丰厚的奖赏。 {大衮·费尔,迪德拉,报酬}
+我在夜空女王阿祖拉的神殿与她交谈。她让我去大衮-费尔附近的一个岛屿，并将谢尔格拉斯派来的迪德拉赶出这个岛屿。我也要带回证据，证明是谢尔格拉斯派来了他们。我不能打扰住在那里的女人蕾娜·卓兰。如果我能够为阿祖拉完成这个任务，她会给我丰厚的奖赏。 {大衮·费尔,报酬}
 
 > INFO.NAME da_azura 564729806158762256
 I returned to the Shrine of Azura to let it be known I have cleared the island of the daedra there and returned with proof that Sheogorath was behind the problems. Azura was grateful, and rewarded me with her Star, a magical soul gem of immense power.
-我回到阿祖拉圣祠，让阿祖拉知道我已经清除了岛上的代德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰--一颗威力无穷的神奇灵魂石--赏赐给了我。 {迪德拉,报酬}
+我回到阿祖拉圣祠，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰--一颗威力无穷的神奇灵魂石--赏赐给了我。 {报酬}
 
 > INFO.NAME da_azura 2266052442035519898
 I returned to the Shrine of Azura. She was not pleased that I had disturbed the solace of Rayna Drolan, for she now must forfeit the wager.
@@ -16571,7 +16571,7 @@ After taking the shield to a smith, I've been told that the spike on the shield 
 
 > INFO.NAME tr_blade 18369222971960413910
 I've been told that the best weaponsmith in town is Yagak gro-Gluk, who is located in the Craftmen's Hall.
-有人告诉我，城里最好的武器匠是亚噶克·格罗-格鲁克，他在工匠大厅里。
+有人告诉我，城里最好的武器匠是亚噶克·格罗-格鲁克，他在工匠之间里。
 
 > INFO.NAME tr_blade 768329705239387503
 Yagak gro-Gluk has told me that he can remake the blade, but it will take him two days to complete it.
@@ -16931,7 +16931,7 @@ Good. If you find evidence of disloyalty among the Guards, bring it to me.
 
 > INFO.NAME disloyalty among the guards 189208220516211179
 I've replaced many of the former king's guards with more reliable men. But I had to keep some experienced guards, and I can't be certain of their loyalties. I will pretend you wish to join the Royal Guards. That's your excuse for talking to the guards, sounding them out, and looking for evidence of disloyalty. If you find any hint of treason or evidence of disloyalty, report it to me. Take no action. Report to me, and I will judge what action is appropriate.
-我已经用更可靠的人取代了许多前国王的卫兵。但我不得不保留一些有经验的卫兵，而且我不能确定他们的忠诚度。我需要你假装你希望加入王室卫兵。作为你与卫兵交谈的借口，听他们的意见，寻找不忠诚的证据。如果你发现任何叛国的暗示或不忠的证据，请向我报告。不要采取任何行动。向我报告，我来判断怎么行动合适。 {瓜尔}
+我已经用更可靠的人取代了许多前国王的卫兵。但我不得不保留一些有经验的卫兵，而且我不能确定他们的忠诚度。我需要你假装你希望加入王宫卫兵。作为你与卫兵交谈的借口，听他们的意见，寻找不忠诚的证据。如果你发现任何叛国的暗示或不忠的证据，请向我报告。不要采取任何行动。向我报告，我来判断怎么行动合适。 {瓜尔}
 
 > INFO.BNAM disloyalty among the guards 189208220516211179 c1
 I'll take care of it.
@@ -17127,7 +17127,7 @@ For the Dunmer, Almalexia has always represented the motherly virtues of compass
 
 > INFO.NAME discontent in the temple 230879835320426665
 I've heard that a group of Temple priests plan to reform the Temple, to restore the ancient worship of the ancestors -- and the good Daedra in particular. I think the idea is to worship Almalexia, Sotha Sil, and Vivec more like saints than like gods -- the way Saint Nerevar is worshipped. They say the war with Dagoth Ur has exhausted the Tribunal, and they wish to retire. Since they haven't appeared publicly in so long, the Temple wouldn't be so different, really.
-我听说有一群神殿祭司计划改革神殿，恢复先祖们的古老信仰 -- 特别是对善良的代德拉。我认为他们的想法是把阿玛莱西娅、索萨·希尔和维威克城当作圣徒来崇拜，而不是当作神 -- 就像对圣徒尼瑞瓦的崇拜那样。他们说，与达格斯·乌尔的战争已经耗尽了审判席的力量，他们希望退休。既然他们已经很久没有公开露面，神殿也不会有什么不同，真的。 {善良的迪德拉,迪德拉,圣·尼瑞瓦}
+我听说有一群神殿祭司计划改革神殿，恢复先祖们的古老信仰 -- 特别是对善良的迪德拉。我认为他们的想法是把阿玛莱西娅、索萨·希尔和维威克城当作圣徒来崇拜，而不是当作神 -- 就像对圣徒尼瑞瓦的崇拜那样。他们说，与达格斯·乌尔的战争已经耗尽了审判席的力量，他们希望退休。既然他们已经很久没有公开露面，神殿也不会有什么不同，真的。 {圣·尼瑞瓦}
 
 > INFO.NAME discontent in the temple 31805345116225653
 I've heard some of the high priests of the Temple are going to be relocated. I haven't heard who or where, or why, but it seems to be a result of some serious disagreement about Temple doctrine between the Alma Rula and some outspoken critics.
@@ -17555,11 +17555,11 @@ Thank you, %PCName.  You are a true friend of the museum.
 
 > INFO.NAME helm of oreyn bearclaw 1176661262191220877
 You don't have the Helm of Oreyn Bearclaw with you? Then come back with it, and we'll settle the deal.
-你没有带奥伦·熊爪之盔？那就带着它回来吧，我们再达成交易。 {”熊爪“奥伦}
+你没有带奥伦·熊爪之盔？那就带着它回来吧，我们再达成交易。 {“熊爪”奥雷恩}
 
 > INFO.NAME helm of oreyn bearclaw 1321153121980426378
 You don't have the Helm of Oreyn Bearclaw with you? Then come back with it, and we'll settle the deal.
-你没有带奥伦·熊爪之盔？那就带着它回来吧，我们再达成交易。 {”熊爪“奥伦}
+你没有带奥伦·熊爪之盔？那就带着它回来吧，我们再达成交易。 {“熊爪”奥雷恩}
 
 > INFO.NAME helm of oreyn bearclaw 1866014648262616436
 It's your choice.  I hope you find it useful.
@@ -17707,7 +17707,7 @@ That's correct. While these storms may be common on the island of Vvardenfell, t
 
 > INFO.NAME making ourselves ready 9670272931397023662
 We realize that the end of the era will bring many changes. We believe that the gates of Oblivion will open, and the multitude of daedra will roam this world freely. Some might tell you that this is a good thing, that we are descended from the daedra and it will be a return to the natural order of things. I know differently, though. The coming age will be a time of great horror.
-我们意识到，纪元的结束将带来巨变。我们相信，湮灭之门即将洞开，众多的代德拉将在这个世界上自由游荡。有些人可能会告诉你，这是一件好事，因为我们是代德拉的后代，这将让一切回归自然的秩序。但我的看法不同。即将到来的时代将是一个极度恐慌的时代。 {迪德拉}
+我们意识到，纪元的结束将带来巨变。我们相信，湮灭之门即将洞开，众多的迪德拉将在这个世界上自由游荡。有些人可能会告诉你，这是一件好事，因为我们是迪德拉的后代，这将让一切回归自然的秩序。但我的看法不同。即将到来的时代将是一个极度恐慌的时代。
 
 > INFO.NAME threat to our monarchy 330429129299071888
 Any threat will be dealt with quickly. And severely.
@@ -17783,11 +17783,11 @@ The public bazaar, with its various itinerent merchants and crafters, are in the
 
 > INFO.NAME someone in particular 1715812087395619656
 The manors are in the west; the Winged Guar -- the local cornerclub -- the Craftmen's Hall and the Museum of Artifacts are in the east. Hession is the publican of the Winged Guar, and Torasa Aram is the curator of the museum. Bols Indalen, our celebrated local smith, has a forge at Craftmen's Hall, along with other merchants and crafters. It's a big city. If there's someone else you want, you'll have to ask around.
-西侧是宅邸区，东侧是瓜尔添翼旅店--本地的街角吧--还有工匠大厅和文物博物馆。黑森是瓜尔添翼旅店的老板，托拉萨·阿拉姆是博物馆的馆长。波尔斯·英达林是我们这里有名的铁匠，他在工匠大厅有个熔炉，和其他商人与工匠一起。这是个大城市。如果你想找其他人，你得四处打听。
+西侧是宅邸区，东侧是瓜尔添翼旅店--本地的街角吧--还有工匠之间和文物博物馆。黑森是瓜尔添翼旅店的老板，托拉萨·阿拉姆是博物馆的馆长。波尔斯·英达林是我们这里有名的铁匠，他在工匠之间有个熔炉，和其他商人与工匠一起。这是个大城市。如果你想找其他人，你得四处打听。
 
 > INFO.NAME someone in particular 26077673137419609
 Almalexia, our Lady of Mercy, dwells in her Temple. Her steward, Fedris Hler, and the Lord Archcanon, Gavas Drin, also reside in the Temple. King Hlaalu Helseth and his mother, Queen Barenziah, live in the Royal Palace. Tienius Delitian is Captain of the Royal Guard. It's a big city. If there's someone else you want, ask around.
-我们的仁慈圣母阿玛莱西娅，住在她的神殿里。她的管家费德里斯·海勒和大主教加瓦斯·德林也住在神殿里。哈拉鲁·赫尔塞斯国王和他的母亲巴兰兹娅太后住在王宫里。蒂纽斯·德利天是王室卫兵的队长。这是一个很大的城市。如果你想找别的人，四处问问看。 {瓜尔}
+我们的仁慈圣母阿玛莱西娅，住在她的神殿里。她的管家费德里斯·海勒和大主教加瓦斯·德林也住在神殿里。哈拉鲁·赫尔塞斯国王和他的母亲巴兰兹娅太后住在王宫里。蒂纽斯·德利天是王宫卫兵的队长。这是一个很大的城市。如果你想找别的人，四处问问看。 {瓜尔}
 
 > INFO.NAME someone in particular 2963712435680719868
 What do you mean you're looking for me? I don't know you, do I? You say you have a note from Ernil?
@@ -17807,7 +17807,7 @@ You hear folks say old King Llethan was a fool. Well, folks should keep their mo
 
 > INFO.NAME join the royal guards 3224656232826229107
 What did Tienius Delitian send you to me for? If he wants you to be a Royal Guard, then you'll be a Royal Guard. Nothing to do with me. How do I like it? You think I was born yesterday? My mom didn't teach me to blabber to strangers. So old King Llethan was a bit of a fool, but he was good to me. And King Helseth is no fool. He's got to keep some experienced men like me around. All these new fellows, like you... someone's gotta teach them their business, 'cause they don't know it.
-蒂纽斯·德利天派你来找我是为了什么？如果他想让你加入王室卫兵，那你就已经是王室卫兵了。与我无关。我怎么会喜欢呢？你以为我是昨天才出生的吗？我妈妈没有教我对陌生人胡说八道。所以，老国王莱森是有点傻，但他对我很好。而赫尔塞斯国王也不是傻瓜。他必须在身边保留一些像我这样有经验的人。所有这些新来的家伙，比如你……总得有人教他们怎么做事，因为他们不知道。 {瓜尔}
+蒂纽斯·德利天派你来找我是为了什么？如果他想让你加入王宫卫兵，那你就已经是王宫卫兵了。与我无关。我怎么会喜欢呢？你以为我是昨天才出生的吗？我妈妈没有教我对陌生人胡说八道。所以，老国王莱森是有点傻，但他对我很好。而赫尔塞斯国王也不是傻瓜。他必须在身边保留一些像我这样有经验的人。所有这些新来的家伙，比如你……总得有人教他们怎么做事，因为他们不知道。 {瓜尔}
 
 > INFO.BNAM join the royal guards 3224656232826229107 c1
 Ask about King Llethan.
@@ -17823,7 +17823,7 @@ Mention your Hlaalu connections.
 
 > INFO.NAME join the royal guards 2891273801948711086
 If you join the Royal Guard, you swear an oath to the king. Your loyalty to the king is the important thing. And of course House Hlaalu is loyal to King Helseth.
-如果你加入王室卫兵，你要向国王宣誓。你对国王的忠诚才是最重要的。哈拉鲁家族当然也会忠于赫尔塞斯国王。 {瓜尔}
+如果你加入王宫卫兵，你要向国王宣誓。你对国王的忠诚才是最重要的。哈拉鲁家族当然也会忠于赫尔塞斯国王。 {瓜尔}
 
 > INFO.NAME join the royal guards 181778717823631633
 It is my honor to serve King Helseth and Queen Barenziah.
@@ -17835,7 +17835,7 @@ I'd rather not talk about it.
 
 > INFO.NAME join the royal guards 26585303952110923358
 I serve King Helseth, just like I served King Llethan, and I keep my mouth shut. You want to be in the Royal Guards? That's Tienius Delitian's business, and your business, and none of mine.
-我侍奉赫尔塞斯国王，就像我侍奉莱森国王一样，而且我懂得保持沉默。你想加入王室卫兵？那是蒂纽斯·德利天的事，也是你的事，与我无关。 {发言人,瓜尔}
+我侍奉赫尔塞斯国王，就像我侍奉莱森国王一样，而且我懂得保持沉默。你想加入王宫卫兵？那是蒂纽斯·德利天的事，也是你的事，与我无关。 {发言人,瓜尔}
 
 > INFO.BNAM join the royal guards 26585303952110923358 c1
 Ask about King Llethan.
@@ -17867,7 +17867,7 @@ What about him? He was what he was. He was the king, and my noble lord, and I se
 
 > INFO.NAME join the royal guards 254779490176819368
 I've been a Royal Guard all my life, and so was my mother and her mother. I served King Llethan for many years, and now I'll serve King Helseth. Long live the King, and long live the Emperor. It's none of my business, of course, but why do you want to be a guard? You look like you've done well enough for yourself as an adventurer.
-我一生都是王室卫兵，我的母亲和她的母亲也是。我侍奉莱森国王多年，现在我将侍奉赫尔塞斯国王。国王万岁，皇帝也万岁。当然，这不关我的事，但你为什么要加入卫兵？你当冒险家干得很不错啊。 {瓜尔}
+我一生都是王宫卫兵，我的母亲和她的母亲也是。我侍奉莱森国王多年，现在我将侍奉赫尔塞斯国王。国王万岁，皇帝也万岁。当然，这不关我的事，但你为什么要加入卫兵？你当冒险家干得很不错啊。 {瓜尔}
 
 > INFO.BNAM join the royal guards 254779490176819368 c1
 Ask about King Llethan.
@@ -18323,11 +18323,11 @@ I can promise nothing.
 
 > INFO.NAME reorganize the temple 777060658815161
 Without the power of the Heart, our divine powers diminish. Our days as gods are numbered. I have told my priests that I shall withdraw from the world, and that the Temple should be prepared for a change. We may be honored no longer as gods, but as saints and heroes, and the Temple will return to the faith of our forefathers -- the worship of our ancestors and the three good daedra, Azura, Mephala, and Boethiah. The missions and traditions of the Temple must continue... but without its Living Gods.
-没有了洛克汗之心的力量，我们的神力就会减弱。我们作为神的日子已经不多了。我已经告诉我的祭司们，我将退出这个世界，神殿应该准备好迎接一场变革。我们可能不再被尊为神，而是被尊为圣徒和英雄，神殿将回到我们祖先的信仰 -- 对我们先祖们和三位善良的代德拉，阿祖拉、梅法拉和波耶西亚的崇拜。神殿的使命和传统必须继续……但再没有现世神。 {沙尔,善良的迪德拉,迪德拉}
+没有了洛克汗之心的力量，我们的神力就会减弱。我们作为神的日子已经不多了。我已经告诉我的祭司们，我将退出这个世界，神殿应该准备好迎接一场变革。我们可能不再被尊为神，而是被尊为圣徒和英雄，神殿将回到我们祖先的信仰 -- 对我们先祖们和三位善良的迪德拉，阿祖拉、梅法拉和波耶西亚的崇拜。神殿的使命和传统必须继续……但再没有现世神。 {沙尔}
 
 > INFO.NAME boots of the apostle 1972225609398918055
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是代德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式,迪德拉}
+先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}
 
 > INFO.NAME boots of the apostle 2315079573118114217
 You found the boots? You must tell me all about it....
@@ -18339,11 +18339,11 @@ You found the boots? You must tell me all about it....
 
 > INFO.NAME boots of the apostle 30678111231429010357
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫堡垒。我也毫不惊讶地发现，“曙暮翼魔”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是魔神阿祖拉的代德拉仆人，是审判席神殿崇拜的预知者之一。 {迪德拉式,迪德拉}
+神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫堡垒。我也毫不惊讶地发现，“曙暮翼魔”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是大君阿祖拉的迪德拉仆从，是审判席神殿崇拜的预知者之一。 {迪德拉式}
 
 > INFO.NAME boots of the apostle 14011281241423210826
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是代德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式,迪德拉}
+先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}
 
 > INFO.NAME boots of the apostle 907124192203373181
 You don't have the Boots of the Apostle with you? Then come back with them, and we'll settle the deal.
@@ -18623,7 +18623,7 @@ Do you mock me, plebe? I aspire to heights greater than you've ever dreamed of. 
 
 > INFO.NAME reclaim your station 5495238071015227583
 For years, the Chimer and the Dwemer had been at war. The Dwemer spurned the Daedra that the Chimer worshipped, instead placing their faith in their metal creations. It was only when the Nords invaded Resdayn that the two nations were able to join as one, under the leadership of our Nerevar and the Dwarf-King Dumac. In time, the two generals became blood friends, and on the day that Nerevar and I were wed, Dumac presented us with twin blades, Hopesfire and Trueflame.
-多年来，歧莫和锻莫一直在交战。锻莫藐视歧莫所崇拜的代德拉，而信仰他们自己的金属造物。直到诺德人入侵瑞斯戴恩，两个国家才得以在我们的尼瑞瓦和矮人国王杜玛克的领导下联合起来。随着时间的推移，两位将军成了生死之交，在我和尼瑞瓦结婚的那一天，杜玛克赠与我们雌雄双剑，希望之火和真理之焰。 {锻莫族,迪德拉,礼物,刀锋卫士}
+多年来，歧莫和锻莫一直在交战。锻莫藐视歧莫所崇拜的迪德拉，而信仰他们自己的金属造物。直到诺德人入侵瑞斯戴恩，两个国家才得以在我们的尼瑞瓦和矮人国王杜玛克的领导下联合起来。随着时间的推移，两位将军成了生死之交，在我和尼瑞瓦结婚的那一天，杜玛克赠与我们雌雄双剑，希望之火和真理之焰。 {锻莫族,礼物,刀锋卫士}
 
 > INFO.NAME slight inconvenience 6669136443097815563
 We understand you were visited by some Dark Brotherhood assassins. A regrettable occurrence. They are a difficult lot, but they do have their usefulness. I'm certain that will no longer be a problem for you.
@@ -18659,7 +18659,7 @@ This is the Plaza Brindisi Dorom. Although one can hardly tell after that attack
 
 > INFO.NAME plaza brindisi dorom 1585031614280815455
 This is the Plaza Brindisi Dorom. The statue in the center honors the Lady Almalexia and her defeat of the Daedra Prince Mehrunes Dagon. The battle leveled the city, but the lives of many were saved by the goddess' valor.
-这就是布林迪西·多隆广场。中间的雕像是为了纪念阿玛莱西娅圣母和她击败魔神梅鲁涅斯·大衮的壮举。这场战斗将城市夷为平地，但许多人的生命因女神的英勇而得以挽救。 {迪德拉}
+这就是布林迪西·多隆广场。中间的雕像是为了纪念阿玛莱西娅圣母和她击败大君梅鲁涅斯·大衮的壮举。这场战斗将城市夷为平地，但许多人的生命因女神的英勇而得以挽救。 {迪德拉}
 
 > INFO.NAME plaza brindisi dorom 21175301831278510108
 This is the Plaza Brindisi Dorom. The statue in the center honors Almalexia and her battle with Mehrunes Dagon. Must have been quite a battle, as almost the entire city was destroyed.
@@ -19623,7 +19623,7 @@ Keep the items.
 
 > INFO.NAME suldreni salandas 31457142301331832716
 You'll have to take care of her yourself, %PCName.  I believe you can find her somewhere in the Bazaar, wasting time as always.
-你必须自己搞定她，%PCName。我相信你可以在集市的某个地方找到她，她总是会在那里打发时间。
+你必须自己搞定她，%PCName。我相信你可以在巨市的某个地方找到她，她总是会在那里打发时间。
 
 > INFO.NAME suldreni salandas 1025348241675312570
 Yes. Yes, indeed. It's difficult to comprehend that so many sycophants can be concentrated in such a small area.  She's another of *them*, of course.  Loyal to whomever happens to be in power at the time, and then only if it serves her purpose. She has a mace and an amulet I find intriguing.  Can you bring them to me?
@@ -19643,7 +19643,7 @@ Wait in the antechamber outside Barenziah's room at nightfall and protect her fr
 
 > INFO.NAME protect barenziah 14621163341000426850
 It would be unwise to station more guards outside her doors, as that would alert the killers to our knowledge. Better to catch them in the act. One of our royal guards could be involved in this attempt, so they will be kept occupied elsewhere. You will stay in the antechamber outside our mother's chambers tomorrow evening, and deal with these assassins when they arrive. Close the door behind you and hide behind the screens, so as not to alert them to your presence. Meantime, find out whatever else you can.
-在她的门外派驻更多的警卫是不明智的，因为那会让杀手们知道我们的存在。最好在行动中抓住他们。我们的王室卫兵中可能有人参与了这次行动，所以他们将被安排在其他地方。明天晚上你就呆在我们母亲房间外面的候见厅里，等这些刺客来了再对付他们。关上你身后的门，躲在屏风后面，以免惊动他们。同时，尽你所能找到其他信息。 {瓜尔}
+在她的门外派驻更多的警卫是不明智的，因为那会让杀手们知道我们的存在。最好在行动中抓住他们。我们的王宫卫兵中可能有人参与了这次行动，所以他们将被安排在其他地方。明天晚上你就呆在我们母亲房间外面的候见厅里，等这些刺客来了再对付他们。关上你身后的门，躲在屏风后面，以免惊动他们。同时，尽你所能找到其他信息。 {瓜尔}
 
 > INFO.NAME protect barenziah 7547368142016737
 Protect her? Ha! My sympathies lie with the assassins, friend. The Lady is far from helpless, as many have come to find out the hard way. Still, it is odd that someone would even attempt it. Why kill her? Her son lives only down the hall, and he bears the burden of rule. There is no understanding the machinations of madmen or politicians.
@@ -19763,7 +19763,7 @@ You believe you've killed their leader? I wouldn't count on that. You probably o
 
 > INFO.NAME dark brotherhood 2143510411258486053
 You've killed their leader, huh? Don't be so sure. You may have killed a high ranking officer around here, but there's always another to replace him. I don't know anything about who might have hired them, either. That's none of my business. Talk to one of the Royal Guard, or head over to the Temple.
-你杀了他们的首领，嗯？别那么肯定。你也许杀了这里的一个高级官员，但总会有另一个人来代替他。我也不知道是谁雇佣了他们。这不关我的事。跟一个王室卫兵谈谈，或者去神殿。 {瓜尔}
+你杀了他们的首领，嗯？别那么肯定。你也许杀了这里的一个高级官员，但总会有另一个人来代替他。我也不知道是谁雇佣了他们。这不关我的事。跟一个王宫卫兵谈谈，或者去神殿。 {瓜尔}
 
 > INFO.NAME dark brotherhood 1969313694195622814
 I don't know why you'd want to go looking for those demons. Some say they live in the sewers beneath the Great Bazaar.
@@ -20135,7 +20135,7 @@ Here's what I've heard. I've heard that the guy who writes 'The Common Tongue' i
 
 > INFO.NAME anonymous writer 25799307421703815813
 Here's what I've heard. I've heard that the guy who writes 'The Common Tongue' is someone named Trels Varis. Now, this is not a name known to me personally. I make it a habit to know the names of people in Mournhold personally. And this guy I do not know. And other people I talk to also do not know. Which is noteworthy in itself. I make the guess that this guy is well-hid, and wants to stay well-hid. But where do I first hear about this guy? In the Craftsmen's Hall. So maybe that is a one place to look.
-我听说的就这些。我听说写《众口真言》的人是一个叫特雷斯·瓦里斯的人。我自己并不认识这个名字。我有一个习惯，就是亲自认识哀伤之城的人的名字。而这个人我并不认识。而其他我交谈的人也不认识。这本身就很值得注意。我猜，这个人躲得很好，而且想保持隐蔽。但我是在哪里第一次听说这个人的？在工匠大厅里。所以，也许可以去那找找。 {令状}
+我听说的就这些。我听说写《众口真言》的人是一个叫特雷斯·瓦里斯的人。我自己并不认识这个名字。我有一个习惯，就是亲自认识哀伤之城的人的名字。而这个人我并不认识。而其他我交谈的人也不认识。这本身就很值得注意。我猜，这个人躲得很好，而且想保持隐蔽。但我是在哪里第一次听说这个人的？在工匠之间里。所以，也许可以去那找找。 {令状}
 
 > INFO.NAME anonymous writer 1838910054968732762
 I might know something. And when I really like someone, I can go a long way out of my way to help that someone.
@@ -20155,7 +20155,7 @@ So Trels Varis is the anonymous writer of 'The Common Tongue'. And Trels Varis i
 
 > INFO.NAME anonymous writer 2524167801232013910
 I give you a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors. I salute you, and welcome you into our brotherhood. And there's one last official matter. Go to Lady Barenziah. She's asked to speak with you.
-我给你一把利刃“国王之誓” -- 和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我向你致敬，并欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {瓜尔}
+我给你一把利刃“国王之誓” -- 和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我向你致敬，并欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {瓜尔}
 
 > INFO.NAME anonymous writer 2723632302576919840
 So Trels Varis is the anonymous writer of 'The Common Tongue'. And you threatened the lives of his aged parents. And Trels Varis gave you his word that he would not discuss King Helseth in 'The Common Tongue'. You show fine judgement, and a light touch. We are very satisfied with your service, and are pleased to give you a rich reward, and great honor besides.
@@ -20167,11 +20167,11 @@ Continue
 
 > INFO.NAME anonymous writer 22179118802829427969
 We place great trust in your judgement, and we are very satisfied with your service and sentiments. You shall have 3000 gold to cover your expenses, and a rich reward and great honor besides. I give you a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors. And there's one last official matter. Go to Lady Barenziah. She's asked to speak with you.
-我们非常信任你的判断，我们对你的服务和情操非常满意。我们会付给你3000金币弥补你的开销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 与王室卫兵所使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
+我们非常信任你的判断，我们对你的服务和情操非常满意。我们会付给你3000金币弥补你的开销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 与王宫卫兵所使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
 
 > INFO.NAME anonymous writer 92471633303278
 We place great trust in your judgement. We are very satisfied with your service. You shall have your expenses, and a rich reward and great honor besides. I give you a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors. I welcome you into our brotherhood. And there's one last official matter. Go to Lady Barenziah. She's asked to speak with you.
-我们非常信任你的判断。我们对你的服务非常满意。我们将补偿你的花销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
+我们非常信任你的判断。我们对你的服务非常满意。我们将补偿你的花销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
 
 > INFO.NAME anonymous writer 2306353231696517178
 Yes. So you give me your word that Trels Varis will keep HIS word? Well. We have placed our trust in your judgement, and I'm sure you will stand guarantee for it. And you shall have your expenses, and rich reward besides. Thank you. There's just one more official matter. Go to Lady Barenziah. She's asked to speak with you.
@@ -20715,11 +20715,11 @@ The soldier? I have little use for him. He is concerned only with the physical: 
 
 > INFO.NAME tienius delitian 309116682549117285
 Tienius has been with Helseth since he was a child in the Emperor's court. He's a career soldier, and has risen through the ranks quickly. Helseth chose him to lead the Royal Guard not only because he is a fine warrior--Delitian is also a savvy politician, and he is an excellent judge of character.
-蒂纽斯从小就在皇帝的宫廷里与赫尔塞斯在一起。他是个职业军人，而且升职很快。赫尔塞斯选择他来领导王室卫兵，不仅是因为他是一个优秀的战士 -- 德利天也是一个精明的政治家，看人看事也从不走眼。 {瓜尔}
+蒂纽斯从小就在皇帝的宫廷里与赫尔塞斯在一起。他是个职业军人，而且升职很快。赫尔塞斯选择他来领导王宫卫兵，不仅是因为他是一个优秀的战士 -- 德利天也是一个精明的政治家，看人看事也从不走眼。 {瓜尔}
 
 > INFO.NAME tienius delitian 14952389475872353
 He's the leader of the young king's Royal Guard, I believe. An Imperial. They're all the same.
-我想他是年轻国王的王室卫兵的领导者。一个帝国人。他们都一样。 {瓜尔}
+我想他是年轻国王的王宫卫兵的领导者。一个帝国人。他们都一样。 {瓜尔}
 
 > INFO.NAME tienius delitian 1335121779711961
 Word is, the Imperial was murdered. No surprise.
@@ -20739,7 +20739,7 @@ The Imperial is probably at the palace, with the rest of them.
 
 > INFO.NAME tienius delitian 3101520547166011858
 Captain Delitian is often found in the Throne Room of the Palace. He often confers with other members of the Royal Guard while there.
-德利天队长通常待在宫殿的王座室里。他经常在那里与其他王室卫兵交流。 {瓜尔}
+德利天队长通常待在宫殿的王座室里。他经常在那里与其他王宫卫兵交流。 {瓜尔}
 
 > INFO.NAME travel together 10200169763196329114
 Really? Excellent! I mean...I wouldn't want to get in the way. You understand. I'll guard your back from here.
@@ -20919,7 +20919,7 @@ Ask whether Athyn Llethan died a natural death.
 
 > INFO.NAME official matter 1322327984829027767
 %PCName. Yes, I know your name. And I'm Tienius Delitian, Captain of King Helseth's Royal Guards. I have influence with King Helseth. And King Helseth is known for rewarding his friends. I have an official matter you might be able to help me with.
-%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王室卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
+%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王宫卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
 
 > INFO.BNAM official matter 1322327984829027767 c1
 Tell me more.
@@ -20935,7 +20935,7 @@ Show him evidence Helseth tried to have you killed.
 
 > INFO.NAME official matter 24131101771206420422
 %PCName. Yes, I know your name. And I'm Tienius Delitian, Captain of King Helseth's Royal Guards. I have influence with King Helseth. And King Helseth is known for rewarding his friends. I have an official matter you might be able to help me with.
-%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王室卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
+%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王宫卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
 
 > INFO.BNAM official matter 24131101771206420422 c1
 Tell me more.
@@ -22572,7 +22572,7 @@ Have you spoken with him? I'd like to know as much as possible about what's goin
 
 > INFO.NAME elbert nermarc 571330019848219892
 He's the enchanter working over at the Craftsmen's Hall. I have no idea what business she would have with him, but if she's been making the effort to visit him, then perhaps he may have some insight as to her condition. Could you go talk to him, %PCName, and ask him about Golena Sadri? I'd go myself, but I feel that I really should remain here to comfort her.
-他是在工匠大厅工作的附魔师。我不知道她会和他有什么关系，但如果她一直在努力拜访他，那么他也许会对她的情况有所了解。%PCName，你能不能去找他谈谈，问问他戈蕾娜·萨德利的事？我想自己去，但我觉得我真的应该留在这里安慰她。
+他是在工匠之间工作的附魔师。我不知道她会和他有什么关系，但如果她一直在努力拜访他，那么他也许会对她的情况有所了解。%PCName，你能不能去找他谈谈，问问他戈蕾娜·萨德利的事？我想自己去，但我觉得我真的应该留在这里安慰她。
 
 > INFO.NAME larrius varro 170116092516092
 With the recent troubles, we have had many Writs issued. The most challenging I have saved for you, %PCRank. This one is for Larrius Varro in Fort Moonmoth near Balmora.
@@ -22652,7 +22652,7 @@ You want my advice, outlander? Stay clear of the Cammona Tong. We don't like out
 
 > INFO.NAME little advice 19139287163203512660
 How do you judge a job's difficulty? Consider three things: location, opposition, and payoff. Long walks into the wilderness are usually tougher than local or town tasks. Tough opponents make tough jobs. Daedra, vampires, rogue Telvanni -- you'll learn which ones to look out for. And finally, if the reward offered is large, the dangers will be large, too.
-如何判断一些工作的难度？考虑三点：地点、敌人和回报。在野外长途跋涉的任务通常比在本地或城镇执行任务更难。艰难的敌人造就艰难的任务。代德拉、吸血鬼、泰瓦尼无赖--你会知道哪些人需要提防。最后，如果报酬很高，风险也会很高。 {迪德拉}
+如何判断一些工作的难度？考虑三点：地点、敌人和回报。在野外长途跋涉的任务通常比在本地或城镇执行任务更难。艰难的敌人造就艰难的任务。迪德拉、吸血鬼、泰瓦尼无赖--你会知道哪些人需要提防。最后，如果报酬很高，风险也会很高。
 
 > INFO.NAME little advice 190453052515814369
 How do you know when you've been given a task too tough for you? You have to decide. If it seems too tough, it probably is. Guild stewards and faction leaders don't really know how much you can handle. And some don't care. You have to look out for yourself. But as long as you haven't been given a deadline for completion, it's usually smart to wait and tackle those tough jobs after you're stronger and better equipped.
@@ -22700,7 +22700,7 @@ Thinking of setting yourself up as a mercenary or questing hero? Not much call f
 
 > INFO.NAME little advice 39552635230657179
 You're a freelance adventurer, yes? If you're looking for challenge, try Esutanamus, a Daedric shrine on an offshore island to the southeast, or Nchuleft, a Dwemer ruin to the southeast where the plains and the slopes of Red Mountain meet. They're large ruins -- easy to find.
-你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的代德拉圣祠埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹纳曲莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}
+你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的迪德拉圣祠埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹纳曲莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}
 
 > INFO.NAME little advice 22741266951436712057
 You're a freelance adventurer, yes? There're many tombs, ruins, and lairs in the Grazelands to the south and west. Just keep your eyes open. They're often marked by a clump of rocks or trees at the entrance.
@@ -22892,7 +22892,7 @@ Buy paralyze as soon as you can. Keeps the creatures off you and allows you to c
 
 > INFO.NAME little advice 20075696663035558
 How do you judge a job, decide if it's too tough for you? Good question. Me, I check three things: location, opposition, and payoff. First, if it's a long walk, I worry. If it's a Daedric ruin, or a Dunmer stronghold, or a Telvanni tower, I worry. If it's way up north, or near Red Mountain, I worry. Second, if the opposition is tough, I worry. Daedra worry me. Vampires worry me. Telvanni wizards worry me. Third, if the reward is fat, I worry. Nobody pays you a crate of gold for a walk in the park.
-如何判断一个任务是否对你来说太难？问得好。我主要看三点：地点、对手和回报。首先，如果是长途跋涉，我就会担心。如果是代德拉废墟、丹莫堡垒或泰瓦尼塔楼，我就会担心。如果是在北方或红山附近，我就会担心。其次，如果对手很强，我也会担心。代德拉让我担心。吸血鬼让我担心。泰瓦尼巫师让我担心。第三，如果奖励丰厚，我也会担心。没人会给你一箱金币让你在公园里散步。 {迪德拉式,迪德拉,报酬}
+如何判断一个任务是否对你来说太难？问得好。我主要看三点：地点、对手和回报。首先，如果是长途跋涉，我就会担心。如果是迪德拉废墟、丹莫堡垒或泰瓦尼塔楼，我就会担心。如果是在北方或红山附近，我就会担心。其次，如果对手很强，我也会担心。迪德拉让我担心。吸血鬼让我担心。泰瓦尼巫师让我担心。第三，如果奖励丰厚，我也会担心。没人会给你一箱金币让你在公园里散步。 {迪德拉式,报酬}
 
 > INFO.NAME little advice 33523429197013181
 Nobody is going to coddle you in the Fighters Guild. In the Imperial cult, they give you stuff that old ladies could do in their sleep. But here, you get in line for work, and if something comes to you that is out of your depth, you're supposed to be smart enough to back off and come at it again later when you have the equipment and chops.
@@ -22912,11 +22912,11 @@ Trerayna Dalen has challenged Mistress Therana for Tel Branora. Dalen and her me
 
 > INFO.NAME little advice 3075413332454929067
 The Shrine of Molag Bal is not a pilgrimage for the casual traveler. The interior is cursed and dangerous, and the Temple has not been successful in keeping it clean of Daedra-worshipping witches and warlocks. Go view the ruins from the outside, but don't go inside unless you are strong and well-prepared.
-莫拉格·巴尔圣祠可不是随便什么人都能去朝圣的。内部被诅咒，危险重重，神殿也没能成功地清除掉崇拜代德拉的女巫和巫者。你可以去外面的废墟看一看，但除非身体强壮、准备充分，否则不要进去。 {迪德拉}
+莫拉格·巴尔圣祠可不是随便什么人都能去朝圣的。内部被诅咒，危险重重，神殿也没能成功地清除掉崇拜迪德拉的女巫和巫者。你可以去外面的废墟看一看，但除非身体强壮、准备充分，否则不要进去。
 
 > INFO.NAME little advice 2117237921323220278
 Don't bother looking for a convenient system of bridges or ferries across the lakes and rivers. There aren't any. If you're traveling in the Ascadian Isles, be prepared to get wet, or to use magic to fly or walk across the waterways.
-不要费心寻找方便的桥梁系统或渡船横跨湖泊和河流。根本没有。如果你要在阿斯卡迪亚群岛旅行，就要做好淋雨的准备，或者使用魔法飞过或走过水道。
+不要费心寻找方便的桥梁系统或渡船横跨湖泊和河流。根本没有。如果你要在阿斯卡迪亚群岛旅行，就要做好淋雨的准备，或者使用魔法飞过或走过水道。 {阿斯卡迪安群岛}
 
 > INFO.NAME little advice 508824254249168437
 The Fields of Kummu is an easy, safe walk southeast from town. Visit the shrine, and earn the blessing of Vivec.
@@ -23036,11 +23036,11 @@ We've had a lot of trouble with blight monsters escaping through the Ghostfence 
 
 > INFO.NAME little advice 29808239682462111553
 Visit the Tower shrine, and ask the priests there about it. Quite a story. 'To you, Lord Dagon, I bite my thumb.'  Hah hah hah. Quite a trick. Maybe, if you're a questing hero, you'd like to match your wits against a Daedra?
-参观塔楼圣祠，向那里的祭司打听一下。有个不错的故事。”为了你，大衮大人，我咬破了大拇指。“哈哈哈。真是好笑。也许，如果你是个探险英雄，你想和代德拉比试比试？ {迪德拉}
+参观塔楼圣祠，向那里的祭司打听一下。有个不错的故事。”为了你，大衮大人，我咬破了大拇指。“哈哈哈。真是好笑。也许，如果你是个探险英雄，你想和迪德拉比试比试？
 
 > INFO.NAME little advice 66814576200015326
 Not much up here to keep a questing hero like yourself busy, I'm afraid. It's pretty quiet, and that's the way we like it. You might take a look at the Daedric ruins to the southwest, though. Don't know anything about them, myself. No business fooling with that stuff. But they say a lot of those old sites have hidden treasures.
-恐怕这里没什么需要你这样的探险英雄操心忙碌的事。这里很宁静，我们就喜欢这样。不过你可以去西南边的代德拉废墟看看。我对那里一无所知，也没必要知道，但据说很多古迹都藏有宝藏。 {忙着,迪德拉式}
+恐怕这里没什么需要你这样的探险英雄操心忙碌的事。这里很宁静，我们就喜欢这样。不过你可以去西南边的迪德拉废墟看看。我对那里一无所知，也没必要知道，但据说很多古迹都藏有宝藏。 {忙着,迪德拉式}
 
 > INFO.NAME little advice 31770240923247032717
 People around here are suspicious of strangers asking a lot of questions. Maybe something they're doing isn't exactly legal. They don't want anyone poking around. You understand?
@@ -23096,7 +23096,7 @@ I bet you couldn't throw a stone around here without hitting a smuggler. 'Smuggl
 
 > INFO.NAME little advice 32358161091915225615
 A fellow looking for trouble might take a peek around in the old Daedric ruins on an island to the south. Probably safer than stirring up trouble in town, anyway.
-想找麻烦的人可以去南边岛上的代德拉废墟看看，总比在城里惹事要安全得多。 {迪德拉式}
+想找麻烦的人可以去南边岛上的迪德拉废墟看看，总比在城里惹事要安全得多。 {迪德拉式}
 
 > INFO.NAME little advice 323723948562628631
 You look like someone who is thinking about going into Red Mountain. We will not stop you. But we warn you: without protection from blight diseases, you won't get far. And even with protection, and plenty of blight cures when protection fails, you must plan on short forays inside and quick returns for heals and cures. And the creatures inside are terrible and numerous. And the ruins and citadels are worse.
@@ -23144,11 +23144,11 @@ If you want weapons or arms in Ald'ruhn, or need weapons and armor repaired, loo
 
 > INFO.NAME little advice 2820953291952514426
 While you're here, you have to take a look at the Daedric ruins. Ashalmawia. Very old. Remarkable. Safe to go up there, in the daytime at least. I wouldn't go inside, though. Place is cursed.
-既然来了，不妨去代德拉遗迹，阿沙尔马维亚看看。它非常、非常古老。至少白天去是安全的，但我不会进去。那地方被诅咒了。 {迪德拉式}
+既然来了，不妨去迪德拉遗迹，阿沙尔马维亚看看。它非常、非常古老。至少白天去是安全的，但我不会进去。那地方被诅咒了。 {迪德拉式}
 
 > INFO.NAME little advice 25957198471077212354
 Strangers get lost up here. Be careful. My advice is keep an eye to the coast, then pick a landmark, then keep them both is sight as you explore. The Daedric ruins to the east, for example, are visible for a long distance.
-陌生人很容易在这里迷路。小心点。我的建议是先观察海岸，然后选一个地标，然后在探索过程中同时观察这两个地标。比如东边的代德拉废墟，很远就能看到。 {迪德拉式}
+陌生人很容易在这里迷路。小心点。我的建议是先观察海岸，然后选一个地标，然后在探索过程中同时观察这两个地标。比如东边的迪德拉废墟，很远就能看到。 {迪德拉式}
 
 > INFO.NAME little advice 2434625998154753841
 We don't like outlanders. We don't like them in our Council Club. We don't like trouble. We do like a little peace and quiet. If you don't mind.
@@ -23268,31 +23268,31 @@ Well, if you're considering a mercenary career, the Fighters Guild isn't too cho
 
 > INFO.NAME little advice 16828113161949615915
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型代德拉怪物和别的可怕的东西，对吧？ {迪德拉}
+一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 10298161991897813833
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型代德拉怪物和别的可怕的东西，对吧？ {迪德拉}
+一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 31790184793267027713
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型代德拉怪物和别的可怕的东西，对吧？ {迪德拉}
+一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 47672746471018226
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型代德拉怪物和别的可怕的东西，对吧？ {迪德拉}
+一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 18087333361045222
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型代德拉怪物和别的可怕的东西，对吧？ {迪德拉}
+一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 5120133021792918467
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型代德拉怪物和别的可怕的东西，对吧？ {迪德拉}
+一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 1086921438100814259
 One little word. 'Ingredients.' Pointy hats and bottlepackers all need their ingredients. Go out, pop a skeleton apart, get the bonemeal, make a quick drake. Now, you have to be careful, because the locals don't like you out digging up their aunties. So get a book, read up, know the kinds of rocks and herbs you're looking for, and off you go. Start small. Leave the big Daedra and scary stuff alone, right?
-一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型代德拉怪物和别的可怕的东西，对吧？ {迪德拉}
+一个简单的词，“素材”。那些尖帽子巫师和天天捣药玩瓶子的都需要素材。到外面去，随便拆一具骷髅，拿到骨粉，随便造点药水赚点龙币。不过你得小心点，本地人不是很喜欢你随便去挖他们的七大姑八大婶。所以事先找本书读一读，了解你要找的石头和草药的种类，然后就出发，从简单的做起。别去找那些大型迪德拉怪物和别的可怕的东西，对吧？
 
 > INFO.NAME little advice 4554537349246222
 If you want to make your mark as a mage, you haven't got much choice. It's the Mages Guild or nothing. Oh, you can pick up experience and education from the Temple or the Imperial cult, but here in the settled West, the Mages Guild has all the best people, best libraries and facilities, best work opportunities. Of course, all the REAL wizards are Telvanni Dunmer, out on the east coast. But they are all either cranky or crazy or just plain mean. You got to be tough just to TALK with those wizard-lords.
@@ -23584,7 +23584,7 @@ Wha?
 
 > INFO.NAME little secret 930395562513723882
 If you are looking for access to the places of power, start with Tienius Delitian, King Helseth's Captain of the Royal Guard. He's fair and professional, and King Helseth is no simple figurehead, unlike his predecessor. There's real power there, and Helseth is just going to get more powerful as he learns how Mournhold works.
-如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王室卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
+如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王宫卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
 
 > INFO.NAME little secret 1124825171175287403
 Modern Mournhold is built upon the ruins of Old Mournhold. At the end of the First Era, Mournhold was destroyed by Mehrunes Dagon. Sotha Sil and Almalexia arrived and drove Mehrunes Dagon back into Oblivion, but the city already lay in ruins. You can reach the abandoned passages of Old Mournhold through the sewers beneath Mournhold, and adventurers still seek lost treasures in the First Era ruins.
@@ -23600,7 +23600,7 @@ Don't mess with the Hands of Almalexia. It's not a mistake you'll get to repeat.
 
 > INFO.NAME little secret 944310901808522852
 Don't mess with the Royal Guard. It's not a mistake you'll get to repeat.
-别惹王室卫兵。这不是一个你能再犯第二次的错误。 {瓜尔}
+别惹王宫卫兵。这不是一个你能再犯第二次的错误。 {瓜尔}
 
 > INFO.NAME little secret 65414780932151
 All the power in Mournhold starts with Almalexia at the Temple. Of course, no mere mortal is going to get access to the Lady of Mercy. But Fedris Hler, her steward, is quite approachable. Start with him, win his confidence, and then maybe things will open up for you.
@@ -23608,7 +23608,7 @@ All the power in Mournhold starts with Almalexia at the Temple. Of course, no me
 
 > INFO.NAME little secret 16941787082512064
 If you are looking for access to the places of power, start with Tienius Delitian, King Helseth's Captain of the Royal Guard. He's fair and professional, and King Helseth is no simple figurehead, unlike his predecessor. There's real power there, and Helseth is just going to get more powerful as he learns how Mournhold works.
-如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王室卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
+如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王宫卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
 
 > INFO.NAME little secret 10185225361949731231
 You're an adventurer, right? Then watch out if you go down in the sewers. That's the way to the ruins of Old Mournhold, yes, and that's where an adventurer can make his fortune. But... the Black Dart Gang preys on adventurers down below. They look harmless -- like outcasts or beggars. You may think you're tough... you can handle anything. But not the Black Dart Gang.
@@ -23656,11 +23656,11 @@ This is a dangerous place, so none of the House people will come here. So we hav
 
 > INFO.NAME little secret 673821472106711099
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做 "引路石 "的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的代德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
+我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做 "引路石 "的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 785732822678819521
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做 "引路石 "的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的代德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
+我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做 "引路石 "的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 826321646924279
 Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.
@@ -23688,11 +23688,11 @@ Everyone knows the people who worship Mehrunes Dagon have returned to Indoranyon
 
 > INFO.NAME little secret 3047192883193230349
 South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is the entrance to an old cavern called Sanit. That is where they found two hunter dead, their flesh white and bloated by the corprus. That is not a place where a wise man would go.
-库什塔什皮的南边和西边，也就是阿希穆萨营地西边的代德拉老地方，是一个叫做桑尼特的古老洞穴的入口。他们就是在那里发现了两个猎人的尸体，他们的肉被尸化得又白又膨胀。智者是不会去那里的。 {迪德拉式,膨胀块茎}
+库什塔什皮的南边和西边，也就是阿希穆萨营地西边的迪德拉老地方，是一个叫做桑尼特的古老洞穴的入口。他们就是在那里发现了两个猎人的尸体，他们的肉被尸化得又白又膨胀。智者是不会去那里的。 {迪德拉式,膨胀块茎}
 
 > INFO.NAME little secret 18494172951218821168
 Are you interested in seeing the old places of the Daedra worshippers? Look upon Esutanamus. It sits upon an island east of the mainland beaches, southeast of the Telvanni town of Tel Mora. Sometimes a champion will enter there in search of ancient weapons and treasures.
-你有兴趣看看代德拉信徒的老地方吗？看看埃苏塔纳摩斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰尔瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉,迪德拉崇拜,主大陆,泰尔·莫拉}
+你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳摩斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰尔瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆,泰尔·莫拉}
 
 > INFO.NAME little secret 72601897126734412
 The old stones at Zergonipal... beneath those stones are dark chambers and a great statue. None of our people have been there in many years.
@@ -23700,7 +23700,7 @@ The old stones at Zergonipal... beneath those stones are dark chambers and a gre
 
 > INFO.NAME little secret 57151610461039919
 Kushtashpi, that is the name of old Daedric stones west of Ahemmusa camp. No one goes there. It is a deep and dark place.
-库什塔什皮，是阿希穆萨营地西边代德拉古石的名字，没人去过那里。那里又深又黑。 {迪德拉式}
+库什塔什皮，是阿希穆萨营地西边迪德拉古石的名字，没人去过那里。那里又深又黑。 {迪德拉式}
 
 > INFO.NAME little secret 2300925401118294094
 Vampires have returned to Vvardenfell. In the ruins of the Deep Elves at Druscashti. They are foul, and must be destroyed... but these are difficult times, and who can risk his life or his tribe by drawing the attention of such creatures?
@@ -23716,7 +23716,7 @@ The ancient Dunmer stronghold at Valenvaryon... we have seen orcs there. Orcs wo
 
 > INFO.NAME little secret 14610155733087714119
 Kushtashpi, that is the name of old Daedric stones west of Ahemmusa camp. No one goes there. It is a deep and dark place.
-库什塔什皮，是阿希穆萨营地西边代德拉古石的名字，没人去过那里。那里又深又黑。 {迪德拉式}
+库什塔什皮，是阿希穆萨营地西边迪德拉古石的名字，没人去过那里。那里又深又黑。 {迪德拉式}
 
 > INFO.NAME little secret 4724201062304617772
 Orvas Dren is my brother. I don't know what you've heard of him. I won't defend everything he's done. But don't become his enemy.
@@ -23752,7 +23752,7 @@ Gods be with you, %PCName. And thanks for the mazte.
 
 > INFO.NAME little secret 124974922249611126
 They say they buried Olmgerd in the bottom of an ancient Dunmer tomb. From the skald's telling, the burial was on a long finger of land on the southeast coast of Vvardenfell, on a little island close to shore on the west coast of the peninsula. Figure it's somewhere on the stretch between the Daedric ruins at Zaintiraris and Tel Branora. Gods be with you. And thanks for the mazte.
-据说他们把奥姆格德埋在了一座古老的丹莫墓穴底部。听斯卡尔德说，埋葬地点在瓦登费尔东南海岸的一指长长的陆地上，半岛西岸靠近海岸的一个小岛上。估计是在扎因蒂拉里的代德拉遗迹和泰尔-布勒诺拉之间的某个地方。诸神与你同在，谢谢你的玛诗蒂。 {迪德拉式,泰尔·布勒诺拉}
+据说他们把奥姆格德埋在了一座古老的丹莫墓穴底部。听斯卡尔德说，埋葬地点在瓦登费尔东南海岸的一指长长的陆地上，半岛西岸靠近海岸的一个小岛上。估计是在扎因蒂拉里的迪德拉遗迹和泰尔-布勒诺拉之间的某个地方。诸神与你同在，谢谢你的玛诗蒂。 {迪德拉式,泰尔·布勒诺拉}
 
 > INFO.NAME little secret 130163195829191694
 And of course they buried Stormkiss with him. Stormkiss was Olmgerd's enchanted battle-axe. And you see this old key? See what it says on it? 'Stormkiss.' Here. Take it. Healer says the mazte is killing me. I'm going home to Skyrim to die. You, you got your life ahead of you. Go ahead. Take it.
@@ -23860,43 +23860,43 @@ So, you think House Hlaalu is just an Imperial puppet? Shows what you know. Who 
 
 > INFO.NAME little secret 5153114063062417325
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
-我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去代德拉遗迹的。 {迪德拉式,这些药水}
+我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}
 
 > INFO.NAME little secret 73905396517031350
 You want my advice, rookie? I've been around. I've risen to %Rank rank in the Legion by being smart and careful. And if I were you, I'd stay away from Daedric ruins until you have a little more experience, and a heftier kit bag.
-你想听我的建议吗，菜鸟？我是过来人，我靠着聪明和谨慎升到了军团的%Rank等级。如果我是你，我会远离代德拉遗迹，直到你有更多的经验和更厚的装备包。 {迪德拉式}
+你想听我的建议吗，菜鸟？我是过来人，我靠着聪明和谨慎升到了军团的%Rank等级。如果我是你，我会远离迪德拉遗迹，直到你有更多的经验和更厚的装备包。 {迪德拉式}
 
 > INFO.NAME little secret 3962143723136126567
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
-我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去代德拉遗迹的。 {迪德拉式,这些药水}
+我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}
 
 > INFO.NAME little secret 2170362482698328141
 You want my advice, rookie? I've been around. I've risen to %Rank rank in the cult by being smart and careful. And if I were you, I'd stay away from Daedric ruins until you have a little more experience, and a heftier kit bag.
-你想听我的建议吗，菜鸟？我是过来人，我靠着聪明和小心在教派里升到了%Rank的等级，如果我是你，我会远离代德拉遗迹，直到你有更多的经验和更厚实的装备包。 {迪德拉式}
+你想听我的建议吗，菜鸟？我是过来人，我靠着聪明和小心在教派里升到了%Rank的等级，如果我是你，我会远离迪德拉遗迹，直到你有更多的经验和更厚实的装备包。 {迪德拉式}
 
 > INFO.NAME little secret 3198722930517580
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
-我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去代德拉遗迹的。 {迪德拉式,这些药水}
+我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}
 
 > INFO.NAME little secret 7534284182983423279
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
-我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去代德拉遗迹的。 {迪德拉式,这些药水}
+我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}
 
 > INFO.NAME little secret 61927594186111733
 You want my advice, rookie? I've been around. I've risen to %Rank rank in the Guild by being smart and careful. And if I were you, I'd stay away from Daedric ruins until you have a little more experience, and a heftier kit bag.
-你想听我的建议吗，菜鸟？我是过来人，我靠着聪明和谨慎升到了公会的%Rank等级。如果我是你，我会远离代德拉废墟，直到你有更多的经验和更厚实的装备包。 {迪德拉式}
+你想听我的建议吗，菜鸟？我是过来人，我靠着聪明和谨慎升到了公会的%Rank等级。如果我是你，我会远离迪德拉废墟，直到你有更多的经验和更厚实的装备包。 {迪德拉式}
 
 > INFO.NAME little secret 49237814276683283
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
-我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去代德拉遗迹的。 {迪德拉式,这些药水}
+我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}
 
 > INFO.NAME little secret 209698789290548259
 You want my advice, rookie? I've been around. I've risen to %Rank rank in this outfit by being smart and careful. And if I were you, I'd stay away from Daedric ruins until you have a little more experience, and a heftier kit bag.
-你想听我的建议吗，菜鸟？我是过来人，我是靠聪明和小心才升到%Rank级的。如果我是你，我会远离代德拉遗迹，直到你有更多的经验和更大的装备包。 {迪德拉式}
+你想听我的建议吗，菜鸟？我是过来人，我是靠聪明和小心才升到%Rank级的。如果我是你，我会远离迪德拉遗迹，直到你有更多的经验和更大的装备包。 {迪德拉式}
 
 > INFO.NAME little secret 16227327142683617241
 I'm %Rank rank in %Faction, and I'd think twice about going down in a Daedric ruin without a crateful of potions and scrolls.
-我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去代德拉遗迹的。 {迪德拉式,这些药水}
+我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}
 
 > INFO.NAME little secret 2702611209137626743
 Interested in Dwarven artifacts? Fine. Dwarven ruins are fascinating. And there's good loot. Just one suggestion: you find yourself over your head, back out, and go back to running errands and hunting rats for a while. Seriously. Those centurions -- spider centurions, sphere centurions, steam centurions -- they are far too dangerous for most adventurers.
@@ -23912,19 +23912,19 @@ You like to poke your nose into doors out in the backcountry? A little suggestio
 
 > INFO.NAME little secret 703916010385010941
 You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.
-你是个外地人，也许你不知道我们晨风这里的代德拉遗迹的种类。代德拉邪教崇拜邪恶的代德拉，你可以在神殿了解到更多信息。总之，很久以前，在神殿制止这一切之前，人们经常在神殿圣祠中祭拜邪恶的代德拉--莫拉格·巴尔、马拉卡斯、谢尔格拉斯斯和梅鲁涅斯·大衮。但最近，自从帝国来了之后，有些人开始出没于这些旧址祭拜邪恶的代德拉。我警告你，这些地方很危险。 {迪德拉式,迪德拉,迪德拉邪教,邪恶的迪德拉,泰姆瑞尔帝国}
+你是个外地人，也许你不知道我们晨风这里的迪德拉遗迹的种类。迪德拉邪教崇拜邪恶的迪德拉，你可以在神殿了解到更多信息。总之，很久以前，在神殿制止这一切之前，人们经常在神殿圣祠中祭拜邪恶的迪德拉--莫拉格·巴尔、马拉卡斯、谢尔格拉斯斯和梅鲁涅斯·大衮。但最近，自从帝国来了之后，有些人开始出没于这些旧址祭拜邪恶的迪德拉。我警告你，这些地方很危险。 {迪德拉式,泰姆瑞尔帝国}
 
 > INFO.NAME little secret 1588253092529329077
 What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghost Fence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally. And the Dwemer sites are pretty bad, too.
-晨风最危险的地方是哪里？嗯，可能是幽魂之墙内的灰烬吸血鬼城堡，在红山上。但是幽魂之墙外面呢？我猜代德拉废墟是最危险的地方，那里到处都是邪恶的代德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗迹也很糟糕 。 {迪德拉式,邪恶的迪德拉,迪德拉,锻莫族,锻莫遗址}
+晨风最危险的地方是哪里？嗯，可能是幽魂之墙内的灰烬吸血鬼城堡，在红山上。但是幽魂之墙外面呢？我猜迪德拉废墟是最危险的地方，那里到处都是邪恶的迪德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗迹也很糟糕 。 {迪德拉式,锻莫族,锻莫遗址}
 
 > INFO.NAME little secret 16531102192603444
 Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cults worship Daedra. Bad people who summon bad Daedra. Stay away from them. Why? Because Daedra are nasty. And the folks that worship them are even nastier.
-代德拉？你知道它们是什么吧？代德拉圣祠是代德拉邪教祭拜代德拉的地方，恶人会召唤邪恶的代德拉，离他们远点。为什么？因为代德拉很恶心，而崇拜他们的人更下流。 {迪德拉,迪德拉式,迪德拉邪教,邪恶的迪德拉}
+迪德拉？你知道它们是什么吧？迪德拉圣祠是迪德拉邪教祭拜迪德拉的地方，恶人会召唤邪恶的迪德拉，离他们远点。为什么？因为迪德拉很恶心，而崇拜他们的人更下流。 {迪德拉式}
 
 > INFO.NAME little secret 452027941264710687
 How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.
-怎么辨别代德拉圣祠？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式,奥德·索萨,巴尔·费尔}
+怎么辨别迪德拉圣祠？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式,奥德·索萨,巴尔·费尔}
 
 > INFO.NAME little secret 1906331586162422013
 You know, people say the Zainab -- and Ashlanders in general -- are lying and untrustworthy. But I think it is partly a problem of pride. If the truth will shame them, they don't want to say it. Among the Ashlanders, no one would be rude enough to force an Ashlander to admit something shameful. But we civilized people, in may ways we are less careful of another's feelings than the Ashlander savages. In particular, the men are very proud. I don't know about the women. We rarely see them here.
@@ -24048,7 +24048,7 @@ Have you heard of this new secret cult, the Sixth House? They say they sit aroun
 
 > INFO.NAME little secret 3241323702538914393
 If you're thinking of traveling up country, near Sheogorad, or out Molag Amur way, or inside the Ghostfence, you need to know about corprus. It's a disease that turns normal creatures into beasts. Turns men into twisted, mad lumps of flesh, superhumanly strong, and full of hatred. You get corprus from fighting with diseased creatures. It's hard to get corprus, but harder to get rid of it. In fact, I hear there is no cure.
-勒多兰家族一直在派遣雇佣兵 打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地 尽管与泰瓦尼塔楼的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的勒多兰家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {谢尔格拉德,幽魂之墙内,幽魂之墙,需要,尸化,疾病,患病的生物}
+勒多兰家族一直在派遣雇佣兵 打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地 尽管与泰瓦尼塔楼的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的勒多兰家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {谢尔格拉德,莫拉格·阿穆尔,幽魂之墙内,幽魂之墙,需要,尸化,疾病,患病的生物}
 
 > INFO.NAME little secret 140611308994321843
 Buy from merchants and traders who like you. You get better prices. Members of your own factions usually like you best.
@@ -24116,7 +24116,7 @@ You killed the Black Dart Gang? I didn't think it was possible! I've heard their
 
 > INFO.NAME latest rumors 355832256474522964
 What's the most dangerous thing in Mournhold? Apart from Helseth's Royal Guards and the Hands of Almalexia -- which you've got no business fooling with anyway -- I'd say the Black Dart Gang. I've had no experience with them, personally, but from what I hear, they are really bad news.
-哀伤之城最危险的东西是什么？除了赫尔塞斯的王室卫兵和阿玛莱西娅之手 -- 反正你也不会没事跟他们惹上麻烦 -- 我想说的是黑镖帮。我个人没有遇到过他们，但据我所知，他们绝非善类。 {瓜尔,消息}
+哀伤之城最危险的东西是什么？除了赫尔塞斯的王宫卫兵和阿玛莱西娅之手 -- 反正你也不会没事跟他们惹上麻烦 -- 我想说的是黑镖帮。我个人没有遇到过他们，但据我所知，他们绝非善类。 {瓜尔,消息}
 
 > INFO.NAME latest rumors 109197301008718284
 If you're thinking of going down the sewers to explore Old Mournhold, watch out for the Black Dart Gang. They look like helpless paupers, but they are deadly. They prey on adventurers coming out of the ruins loaded with treasure. They call them the Black Dart Gang on account of the poisoned black darts they use -- deadly poison -- one is enough to kill you.
@@ -24184,7 +24184,7 @@ Did you hear the guards caught and killed the thief who stole the Bipolar Blade 
 
 > INFO.NAME latest rumors 902853462590223318
 Detritus Caria at the Craftsmen's Hall? He's not a craftsmen at all -- just a collector. Collects the strangest things -- spoons, candlesticks, plates. Says it's hard to come by complete sets of some things, and people will pay good money for them. Takes all kinds to make a world.
-德崔图斯·卡利亚在工匠大厅？他根本就不是工匠 -- 只是一个收集者。他收集最奇怪的东西 -- 勺子、烛台、盘子。他说，有些东西很难买到成套的，而人们会花大价钱买。世上总是有各种各样的人。
+德崔图斯·卡利亚在工匠之间？他根本就不是工匠 -- 只是一个收集者。他收集最奇怪的东西 -- 勺子、烛台、盘子。他说，有些东西很难买到成套的，而人们会花大价钱买。世上总是有各种各样的人。
 
 > INFO.NAME latest rumors 1588288791438916339
 That play Meryn Othralas has going in the Great Bazaar -- The Horror of Castle Xyr? I hear it's pretty good. No! If you've seen it already, don't tell me... I hear it has a surprise ending.
@@ -24468,7 +24468,7 @@ I hear Lesley's working out of a cave on the island east of Vivec.
 
 > INFO.NAME latest rumors 25729225963140232687
 This is the way Herd figures it. He's got his bandit hideaway right between Ald Sotha and Bal Fell, two of the nastiest holes in Vvardenfell, but convenient by boat to both Ebonheart and Vivec. The appalling neighbors keep traffic down, but as long as he leaves the Daedra cultists alone, he feels he's safe enough.
-赫德就是这么想的。他在奥德-索萨和巴尔-费尔之间建了个强盗藏身处，那是瓦登费尔最肮脏的两个地方，但坐船去黑檀心和维威克都很方便。骇人听闻的邻居让这里的交通很不顺畅，但只要不招惹代德拉邪教徒，他就觉得自己足够安全。 {奥德·索萨,巴尔·费尔,迪德拉}
+赫德就是这么想的。他在奥德-索萨和巴尔-费尔之间建了个强盗藏身处，那是瓦登费尔最肮脏的两个地方，但坐船去黑檀心和维威克都很方便。骇人听闻的邻居让这里的交通很不顺畅，但只要不招惹迪德拉邪教徒，他就觉得自己足够安全。 {奥德·索萨,巴尔·费尔}
 
 > INFO.NAME latest rumors 114761960175325290
 Take care when walking the roads. There have been rumors of a bandit robbing careless travelers near Hla Oad.
@@ -24500,7 +24500,7 @@ My cousin claimed he saw a city in the water near Gnaar Mok. He's a drunkard, th
 
 > INFO.NAME latest rumors 276633262352427495
 I've heard there's a shrine to Sheogorath hidden in Vivec. Some claim to have spoken to the Daedra Prince, but they must be madmen. At least, they are now.
-我听说维威克有个谢尔格拉斯圣祠，有人声称和代德拉君主说过话，但他们一定是疯子，至少现在是。 {迪德拉}
+我听说维威克有个谢尔格拉斯圣祠，有人声称和迪德拉君主说过话，但他们一定是疯子，至少现在是。
 
 > INFO.NAME latest rumors 146312481502513753
 The Dark Brotherhood is ready to make their move on the Morag Tong. I hear the Night Mother herself has come to Vvardenfell.
@@ -24552,7 +24552,7 @@ Elvil Vidron in Suran is claiming to be the Incarnate. So far the Temple hasn't 
 
 > INFO.NAME latest rumors 25621103999213660
 I've heard there's a cult of Daedra worshippers right here in Vivec. Somewhere in the St. Delyn Canton.
-我听说在维威克就有一个代德拉信徒的教派组织，在圣·德林行政区的某个地方。 {迪德拉,迪德拉崇拜}
+我听说在维威克就有一个迪德拉信徒的教派组织，在圣·德林行政区的某个地方。 {迪德拉崇拜}
 
 > INFO.NAME latest rumors 171152284584620395
 One of the Temple's priests dreamt that the Shoes of St. Rilms are in the ruins of Ald Sotha.
@@ -24724,7 +24724,7 @@ Dram Bero is a very secretive man. Only his closest friends know where he lives.
 
 > INFO.NAME latest rumors 334461681178013103
 Odral Helvi wants to set up a netch ranch of his own in the Ascadian Isles, but none of the farmers are selling.
-奥德拉尔·赫尔维想在阿斯卡迪亚群岛建立一个自己的气母牧场，但农民们都不卖。
+奥德拉尔·赫尔维想在阿斯卡迪亚群岛建立一个自己的气母牧场，但农民们都不卖。 {阿斯卡迪安群岛}
 
 > INFO.NAME latest rumors 1652242911944932224
 Odral Helvi's up to no good. He's the most corrupt fatcat in all of Caldera.
@@ -24948,7 +24948,7 @@ Now that they found Lesley's little hole over by Ebonheart, where do you suppose
 
 > INFO.NAME latest rumors 10264129061834732554
 House Redoran has been sending groups of mercenaries against the rogue Telvanni bases cropping up out in Molag Amur and the Ashlands. They don't seem to be having much luck, even though these rogue Telvanni are small fry compared to the mage-lords of the Telvanni towers. Maybe the hard-headed Redorans are sticking too closely to the armored-knight charge-and-bash drill. Maybe someone with a little subtlety might do better.
-如果你想去谢尔格拉斯德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {勒多兰家族,雇佣兵,泰瓦尼无赖,灰烬之地,幸运,泰瓦尼塔}
+如果你想去谢尔格拉斯德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {勒多兰家族,雇佣兵,泰瓦尼无赖,莫拉格·阿穆尔,灰烬之地,幸运,泰瓦尼塔}
 
 > INFO.NAME latest rumors 423623936915927973
 I heard someone kidnapped Miner Arobar's daughter.
@@ -24956,7 +24956,7 @@ I heard someone kidnapped Miner Arobar's daughter.
 
 > INFO.NAME latest rumors 1461523369218891091
 House Redoran has been sending groups of mercenaries against the rogue Telvanni bases cropping up out in Molag Amur and the Ashlands. They don't seem to be having much luck, even though these rogue Telvanni are small fry compared to the mage-lords of the Telvanni towers. Maybe the hard-headed Redorans are sticking too closely to the armored-knight charge-and-bash drill. Maybe someone with a little subtlety might do better.
-如果你想去谢尔格拉斯德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {勒多兰家族,雇佣兵,泰瓦尼无赖,灰烬之地,幸运,泰瓦尼塔}
+如果你想去谢尔格拉斯德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {勒多兰家族,雇佣兵,泰瓦尼无赖,莫拉格·阿穆尔,灰烬之地,幸运,泰瓦尼塔}
 
 > INFO.NAME latest rumors 390813500242161843
 I hear there's a secret organization called the Twin Lamps. It helps runaway slaves escape. It's against the law to aid runaway slaves. But I think slavery is wrong, and I can understand why these Abolitionists would be willing to break the law.
@@ -25016,7 +25016,7 @@ I tell you. This Peakstar? The Temple says she's dead. So how could she be the N
 
 > INFO.NAME latest rumors 1840510199186276782
 The Temple forbids the worship of the four bad Daedra -- Mehrunes Dagon, Malacath, Molag Bal, and Sheogorath. But it's a big island, and there's a lot of wilderness, with lots of old Daedric ruins just waiting for a new group of worshippers. The Ordinators have their hands full with heretics and dissidents at home. They can't go out chasing Daedra lovers.
-神殿禁止崇拜四个邪恶的代德拉：梅鲁涅斯·大衮、马拉卡斯、莫拉格·巴尔和谢尔格拉斯。但这个岛很大，有很多荒野，有很多古老的代德拉遗迹，正等待着一群新的崇拜者。神殿卫兵们在晨风内忙于对付异端和异见祭司。他们不可能出去追逐代德拉爱好者。 {邪恶的迪德拉,迪德拉,迪德拉式,手}
+神殿禁止崇拜四个邪恶的迪德拉：梅鲁涅斯·大衮、马拉卡斯、莫拉格·巴尔和谢尔格拉斯。但这个岛很大，有很多荒野，有很多古老的迪德拉遗迹，正等待着一群新的崇拜者。神殿卫兵们在晨风内忙于对付异端和异见祭司。他们不可能出去追逐迪德拉爱好者。 {迪德拉式,手}
 
 > INFO.NAME latest rumors 204221102699029955
 Of course, most Mages Guild wizards are pathetic clowns. But I must admit, that lizard that goes by the barbarous title of 'Skink-in-Tree's-Shade' is a very astute practitioner, almost as sage and learned as Telvanni aspirants five times his age. But I have heard he carries his anti-slavery politics a little too far, and much farther than Imperial law allows.
@@ -25116,7 +25116,7 @@ I hear there's a secret organization called the Twin Lamps. It helps runaway sla
 
 > INFO.NAME latest rumors 2386233692091024778
 These outlanders won't be happy until slavery is outlawed. Our plantations depend on slaves, mostly down south in Dres District, but here in the Ascadian Isles, too. It's our right to have slaves, by law and custom, and it's none of their damn business.
-除非奴隶制度被取缔，否则这些外地人不会高兴的，我们的种植园依赖奴隶们，大部分在德雷斯区南部。但在阿斯卡迪亚群岛也一样。根据法律和习俗，拥有奴隶是我们的权利，这不关他们的事。
+除非奴隶制度被取缔，否则这些外地人不会高兴的，我们的种植园依赖奴隶们，大部分在德雷斯区南部。但在阿斯卡迪亚群岛也一样。根据法律和习俗，拥有奴隶是我们的权利，这不关他们的事。 {阿斯卡迪安群岛}
 
 > INFO.NAME latest rumors 31523315014305168
 House Hlaalu would much rather have the Caldera charter, thank you very much, and run those ebony mines ourselves. But it hasn't worked out so badly. The Imperial Caldera Mining Company is laying out the cash and doing the work, and we're talking the cream off the top in graft and bribes. No wonder Redoran is angry. And when they're angry, they're dangerous.
@@ -25220,7 +25220,7 @@ Did you hear Bolvyn Venim killed another outlander in a duel. The man was an off
 
 > INFO.NAME latest rumors 1532512058430410891
 Everyone says Varvur Sarethi murdered Bralen Carvaren, but I don't believe it. They were the best of friends.
-大家都说瓦乌尔·萨雷蒂谋杀了布拉伦·卡瓦伦。但我不信，他们是最好的朋友。
+大家都说瓦乌尔·萨雷蒂谋杀了布拉伦·卡瓦伦。但我不信，他们是最好的朋友。 {瓦乌尔·萨雷提}
 
 > INFO.NAME latest rumors 279581339097492106
 These outlanders won't be happy until slavery is outlawed. Personally, I don't want slaves. No one I know has any. But it's our right to have slaves, by law and custom, and it's none of their damn business.
@@ -25244,7 +25244,7 @@ Morvayn Manor was overrun by corprus monsters. I thought they couldn't get out o
 
 > INFO.NAME latest rumors 479020780242431784
 Athyn Sarethi may be the 'Hope of the Redoran,' but someone wants him dead. He's fended off three Morag Tong attacks already.
-艾辛·萨雷蒂也许是“勒多兰的希望”，但有人想要他的命。他已经受到莫拉格堂三次的袭击了。
+艾辛·萨雷蒂也许是“勒多兰的希望”，但有人想要他的命。他已经受到莫拉格堂三次的袭击了。 {艾辛·萨雷提}
 
 > INFO.NAME latest rumors 1033715297528023583
 I heard Bolvyn Venim was having an affair with the wife of one of the other Councilors.
@@ -25692,7 +25692,7 @@ It is a glorious sacrifice for the good of all the people.
 
 > INFO.NAME the cleansing 279916338606412388
 It is a glorious ritual, friend %PCName. Our followers cleanse themselves of all of their troubles, all of their burdens here on this earth. They send themselves ahead to the ancestors, spreading our word, making ready for when we shall all join them in our fight against the daedric hordes.
-这是一个光荣的仪式，%PCName朋友。我们的追随者清洗他们所有的麻烦，他们在这个世界上所有的负担。他们把自己送到祖先们面前，传播我们的话语，为我们与他们一起对抗代德拉大军做准备。 {先祖,沙尔,迪德拉式}
+这是一个光荣的仪式，%PCName朋友。我们的追随者清洗他们所有的麻烦，他们在这个世界上所有的负担。他们把自己送到祖先们面前，传播我们的话语，为我们与他们一起对抗迪德拉大军做准备。 {先祖,沙尔,迪德拉式}
 
 > INFO.NAME greater honor 26560251211023025681
 The only thing I hope for is to one day be able to publish further volumes of the work, to chronicle the Lady's life after her marriage to King Eadwyre. Perhaps one day I will be able to, but I am old, and my time grows short. Oh, that I could write fiction as great as the plot the Lady Barenziah has lived!
@@ -25784,7 +25784,7 @@ Almalexia, Sotha Sil, and I gained our divine powers from the Heart of Lorkhan. 
 
 > INFO.NAME meralyn othan 2860518401569310536
 Look for her in the Bazaar. Find out what she knows.
-在集市上找找她。看看她知道些什么。
+在巨市上找找她。看看她知道些什么。
 
 > INFO.NAME meralyn othan 1989532008248462947
 I am she.
@@ -25792,7 +25792,7 @@ I am she.
 
 > INFO.NAME meralyn othan 1699932422447616004
 She's around here somewhere. Check over to the west end of the Bazaar.
-她就在这附近。到集市的西端去看看。
+她就在这附近。到巨市的西边去看看。
 
 > INFO.NAME other matters 9308308071979514
 Mournhold is a town of two minds. On the one hand, there is the monarchy, led by Helseth, and on the other there is the Temple, and the goddess Almalexia. It is hard to know whom you may trust. While there has been no open hostility between the two, there are always undercurrents that bear watching. I would like you to make yourself known to the Temple. See what you can learn. Speak to Fedris Hler. He is a powerful man in the Temple, a confidant of Almalexia. See if you can get to know him a bit.
@@ -26240,7 +26240,7 @@ Very little is known about them yet, but there is one very disturbing fact we ha
 
 > INFO.NAME great horror 18487327421804021090
 The Daedra Princes are not our ancestors. Nor are they our allies. They will wash over the land, destroying all that man and mer have built over these thousands of years. The only protection from this scourge will be our true ancestors that have gone before us and watch over us even now. Many of our followers choose to participate in the Cleansing, to prepare the way for the rest of us. It is a sacrifice to be sure, but it is for the greater good.
-魔神们不是我们的祖先。也不是我们的盟友。他们会冲垮这片土地，摧毁人类和精灵在这几千年中所建立的一切。唯一能保护我们不受这一祸害的是我们真正的祖先们，他们早已逝去，但甚至现在还在守护着我们。我们的许多追随者选择参与清洗，为我们其他人铺平道路。这当然是一种牺牲，但这是为了更大的利益。 {迪德拉,先祖}
+迪德拉们不是我们的祖先。也不是我们的盟友。他们会冲垮这片土地，摧毁人类和精灵在这几千年中所建立的一切。唯一能保护我们不受这一祸害的是我们真正的祖先们，他们早已逝去，但甚至现在还在守护着我们。我们的许多追随者选择参与清洗，为我们其他人铺平道路。这当然是一种牺牲，但这是为了更大的利益。 {先祖}
 
 > INFO.NAME queen mother 1341234317010034
 You know, of course, of Queen Barenziah. We returned to Mournhold together, after the unpleasantness in Wayrest. An amazing woman, our mother. Not one to be taken lightly. Not much happens in Mournhold that she is not aware of. She is a valuable asset to us.
@@ -26460,11 +26460,11 @@ You'll find the Great Bazaar in the eastern section of town. We don't want any t
 
 > INFO.NAME great bazaar 32045308282236119332
 It's in the eastern section of the Mournhold. You'll find some of the best wares in all of Morrowind on sale there. Check out some of the stores nearby, as well. They sell some excellent items. While you're at the Bazaar, see if anyone is putting on a play. Some of the actors they get are just terrible.
-它在哀伤之城的东部。你在那里可以找到一些全晨风最好的商品。也可以去附近的一些商店看看。他们也卖一些好东西。当你在集市上时，看看是否有人在演戏。他们找来的一些演员实在是太糟糕了。
+它在哀伤之城的东部。你在那里可以找到一些全晨风最好的商品。也可以去附近的一些商店看看。他们也卖一些好东西。当你在巨市上时，看看是否有人在演戏。他们找来的一些演员实在是太糟糕了。
 
 > INFO.NAME great bazaar 1127218441346416815
 It's in the eastern section of the Mournhold. You'll find some of the best wares in all of Morrowind on sale there. Check out some of the stores nearby, as well. They sell some excellent items. While you're at the Bazaar, see if there's a public performance. They can be amusing.
-它在哀伤之城的东部。你在那里可以找到一些全晨风最好的商品。也可以去附近的一些商店看看。他们也卖一些好东西。当你在集市上时，看看是否有公共演出。他们可能会很有意思。
+它在哀伤之城的东部。你在那里可以找到一些全晨风最好的商品。也可以去附近的一些商店看看。他们也卖一些好东西。当你在巨市上时，看看是否有公共演出。他们可能会很有意思。
 
 > INFO.NAME advancement 307481458477726961
 You are the Grandmaster of House Hlaalu, %PCName.
@@ -26852,7 +26852,7 @@ Fedris Hler has been found dead! This is a very sad time for us here at the Temp
 
 > INFO.NAME fedris hler 4262141771556624818
 Fedris Hler is the Lady Almalexia's Steward. You may find him in his office in the Temple Reception area.
-费德里斯·海勒是阿玛莱西娅圣母的总管。你可以在神殿礼宾大堂的办公室找到他。
+费德里斯·海勒是阿玛莱西娅圣母的总管。你可以在神殿接待处的办公室找到他。
 
 > INFO.NAME fedris hler 18214188123201324513
 Fedris Hler has been found dead. Murdered, it seems. That anyone would dare do this in my Temple.... My Hands will find the murderer, and he will be dealt with severely.
@@ -26916,7 +26916,7 @@ I've heard that Hler was killed.
 
 > INFO.NAME fedris hler 17720198492962432643
 Fedris Hler is the Chief Steward of Almalexia. You may find him in the Temple Reception Area.
-费德里斯·海勒是阿玛莱西娅的总管。你可以在神殿礼宾大堂找到他。
+费德里斯·海勒是阿玛莱西娅的总管。你可以在神殿接待处找到他。
 
 > INFO.NAME fedris hler 52723157810034846
 Oh yeah, sure. Heard ya the f-f-first time.
@@ -27584,11 +27584,11 @@ Young King Helseth's handpicked thugs. Ridiculous that they are allowed to dispe
 
 > INFO.NAME royal guard 31086261812684616432
 I am the leader of the Royal Guards. We live to protect King Helseth. Only the strongest and most loyal were picked by our king to serve. Any who would threaten the monarchy will be dealth with severely.
-我是王室卫兵的队长。我们活着就是为了保护赫尔塞斯国王。只有最强壮和最忠诚的人能被选中侍奉我们的国王。任何威胁到统治的人都将受到严厉的惩罚。 {瓜尔}
+我是王宫卫兵的队长。我们活着就是为了保护赫尔塞斯国王。只有最强壮和最忠诚的人能被选中侍奉我们的国王。任何威胁到统治的人都将受到严厉的惩罚。 {瓜尔}
 
 > INFO.NAME royal guard 3070610228570825910
 I am of the Royal Guard. What can I do for you?
-我是王室卫兵。我能为你做什么？ {瓜尔}
+我是王宫卫兵。我能为你做什么？ {瓜尔}
 
 > INFO.NAME royal guard 133051880428815588
 Hmmph. Amateurs.
@@ -27596,15 +27596,15 @@ Hmmph. Amateurs.
 
 > INFO.NAME royal guard 25698127743116326492
 King Helseth's Royal guard are an elite group chosen by the king himself. You'll find them in the Royal Palace.
-赫尔塞斯国王的王室卫兵是由国王亲自挑选的精英卫队。你可以在王宫里找到他们。 {瓜尔}
+赫尔塞斯国王的王宫卫兵是由国王亲自挑选的精英卫队。你可以在王宫里找到他们。 {瓜尔}
 
 > INFO.NAME royal guard 694274841001228862
 You'll find the Royal Guard around the Royal Palace, mostly. I've heard they're dangerous men. I know I'm going to stay clear of them.
-你通常会在王宫周围找到王室卫兵。我听说他们是很危险的人。我知道我将和他们保持距离。 {瓜尔}
+你通常会在王宫周围找到王宫卫兵。我听说他们是很危险的人。我知道我将和他们保持距离。 {瓜尔}
 
 > INFO.NAME royal guard 3471171691845727634
 You'll find the Royal Guard around the Royal Palace, mostly. I understand that they're King Helseth's personal bodyguards.
-通常你可以在王宫周围看到王室卫兵。我知道他们都是赫尔塞斯国王的私人保镖。 {瓜尔}
+通常你可以在王宫周围看到王宫卫兵。我知道他们都是赫尔塞斯国王的私人保镖。 {瓜尔}
 
 > INFO.NAME royal guard 232509732247381254
 A bunch of thugs, that's what I say. Brought in to be the muscle for our new king.
@@ -29460,35 +29460,35 @@ Murderer! Take that!
 
 > INFO.NAME greeting 1 7363080922429670
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 25821258491375217
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 2145024501310819849
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 2165525376319625258
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 25382218042027022858
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 1181181399367923
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 66961581102136365
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 2064152171881118881
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 621213521571122808
 There are no more official matters to discuss. You are to report directly to the King himself.
@@ -29512,7 +29512,7 @@ I have heard about the attack on the city, and I've dispatched guards to take ca
 
 > INFO.NAME greeting 1 17629275802324325528
 I'm the captain of King Helseth's Royal Guards. Is this an official matter? Or is there something else you want?
-我是赫尔塞斯国王的王室卫兵的队长。有什么公务要谈吗？还是你有别的什么事？ {瓜尔}
+我是赫尔塞斯国王的王宫卫兵的队长。有什么公务要谈吗？还是你有别的什么事？ {瓜尔}
 
 > INFO.NAME greeting 1 1660732249308423536
 Yes, %PCName. Is this an official matter? Or is there something else you want?
@@ -29704,7 +29704,7 @@ Ashstorms here in Mournhold! Surely the goddess will protect us from this!
 
 > INFO.NAME greeting 1 2961311794199375738
 This weather is awful! I don't know how the Bazaar is staying open!
-这种天气太可怕了！我不知道集市怎么还开着！
+这种天气太可怕了！我不知道巨市怎么还开着！
 
 > INFO.NAME greeting 1 5418272701652517024
 I can't believe these ashstorms! I've heard of them on the island, but not here in Mournhold! How can this be?
@@ -31476,7 +31476,7 @@ So. Have you decided? Have you come to submit? Or come to die?
 
 > INFO.NAME greeting 1 5562177692283826616
 %PCName. Star-blessed hero? Or the Daedra's Pawn? Only one way to find out. If you have the courage.
-%PCName。被星辰祝福的英雄？抑或只是代德拉的走狗？彰显你的勇气，结果自然水落石出。 {迪德拉,迪德拉的走狗}
+%PCName。被星辰祝福的英雄？抑或只是迪德拉的走狗？彰显你的勇气，结果自然水落石出。
 
 > INFO.NAME greeting 1 2714312089177516612
 I'm a sportsman. I'll give you a fighting chance. Go ahead. Make the first move.
@@ -31484,11 +31484,11 @@ I'm a sportsman. I'll give you a fighting chance. Go ahead. Make the first move.
 
 > INFO.NAME greeting 1 2113134302501210239
 Look! It's Azura's Fool! Look at you. Not a real thing at all. Just a pathetic puppet of prophecy. And you think you can trust the Daedra Lords?
-看哪！信阿祖拉的白痴！看看你，一点都不真实，只是预言中的可怜傀儡！你以为你能相信代德拉君主？ {迪德拉,迪德拉大君}
+看哪！信阿祖拉的白痴！看看你，一点都不真实，只是预言中的可怜傀儡！你以为你能相信迪德拉君主？ {迪德拉大君}
 
 > INFO.NAME greeting 1 15284121342264030153
 Come on! You're the prophesied Incarnate! Azura has promised you fame and glory! Surely you can't be afraid of me, can you? Don't be shy. With a Daedra Lord for ally and patron, how could you lose? Oh, PLEASE don't hurt me, star-blessed hero!
-得了吧，你是预言的化身，阿祖拉许诺给你名声和荣耀，你不会怕我吧？别害羞，有一个代德拉领主做盟友和靠山，你怎么会输呢？请不要伤害我，被星辰祝福的英雄！ {迪德拉,资助者}
+得了吧，你是预言的化身，阿祖拉许诺给你名声和荣耀，你不会怕我吧？别害羞，有一个迪德拉领主做盟友和靠山，你怎么会输呢？请不要伤害我，被星辰祝福的英雄！ {资助者}
 
 > INFO.NAME greeting 1 1751832505196081433
 What are you doing? You have no idea. Poor animal. You struggle and fight, and understand nothing.
@@ -32208,7 +32208,7 @@ We are the High Ordinators.
 
 > INFO.NAME background 672431160671510926
 I am a Royal Guard.
-我是一名王室卫兵。 {瓜尔}
+我是一名王宫卫兵。 {瓜尔}
 
 > INFO.NAME background 1011014399322156665
 I am an Ordinator.
@@ -32356,7 +32356,7 @@ Thank you for mentioning that job opportunity at the smithy's to me, %PCName. I 
 
 > INFO.NAME drink away 2545215469614928165
 What's that? Bols Indalen at Craftmen's Hall is looking for a new apprentice? Hmm....  Well, it's not making pillows, but it is work. I just might try that out. Thanks, %PCRace. Next time you see me, perhaps I'll be working in the smith's shop. Have a drink on me!
-什么？工匠大厅的波尔斯·英达林在找新学徒？嗯…虽然不是做枕头，但也是工作。我可能会试试。谢谢，% PCRace。下次你见到我时，也许我会在铁匠铺工作。为我举杯吧！
+什么？工匠之间的波尔斯·英达林在找新学徒？嗯…虽然不是做枕头，但也是工作。我可能会试试。谢谢，% PCRace。下次你见到我时，也许我会在铁匠铺工作。为我举杯吧！
 
 > INFO.NAME drink away 11446266333137416728
 It didn't take long for the money guys in the exquisites upstairs to burn through all our pillow venture capital. Offices in the best Telvanni towers, 1500-septim chairs upholstered in the finest scamp skin, and unlimited stores of matze. We would spend 16 hours a day or more in there, doing what we loved -- crafting pillows. It was a dream come true for me. Ever since I was young, I dreamed of creating the perfect pillow. Well, those days are over now. I need to find work.
@@ -33248,7 +33248,7 @@ Nasty place, that.
 
 > INFO.NAME myn dhrur 2978479209707870
 Deep, deep caves. An old Daedric ruin. Fool Dunmer...worshipping those beasts. I say kill 'em all! Used to be a good spot for all sorts of resources, though. Of course, that was when there were any of us left who needed them! You can find the place through a cave-in at the Passage of the Walker. Take care down there, youngster. No telling what you may run into. You might discover a new way to die. That'd be something, at least. You should be able to find some Pyroil Tar, though. Bring that back to me.
-很深、很深的山洞。一个古老的代德拉废墟。愚蠢的丹莫…崇拜那些野兽。要我说，就该把他们都杀了！不过，以前那是个获取各种资源的好地方。当然，那是在我们还有人需要它们的时候！你可以通过行者通道的一个洞穴找到那里。在那里要小心，年轻人。不知道你会碰上什么。你可能会遇上一种全新的死法。那至少挺有意思。不过你应该能找到些火焦油。把它带回来给我。 {迪德拉式}
+很深、很深的山洞。一个古老的迪德拉废墟。愚蠢的丹莫…崇拜那些野兽。要我说，就该把他们都杀了！不过，以前那是个获取各种资源的好地方。当然，那是在我们还有人需要它们的时候！你可以通过行者通道的一个洞穴找到那里。在那里要小心，年轻人。不知道你会碰上什么。你可能会遇上一种全新的死法。那至少挺有意思。不过你应该能找到些火焦油。把它带回来给我。 {迪德拉式}
 
 > INFO.NAME biography 18286103571226610667
 Why, "The Real Barenziah," of course! I felt it my duty to give to history a true and honest account of this remarkable woman. The story I presented, while true, was perceived as scandalous. My exuberance for the tale was left unchecked by wisdom, and I fear I caused some damage to the woman, not to mention the Imperial family.
@@ -33272,7 +33272,7 @@ You're looking for someone to make a blade? I can make anything. Tell me what yo
 
 > INFO.NAME craftsmen 2871318565588612105
 There are many in the city. If it's weaponsmithing you're interested in, try Yagak gro-Gluk at the Craftmen's Hall. He's a sharp one.
-城里有很多工匠。如果你想锻造武器，可以去工匠大厅找亚噶克·格罗-格鲁克。他是个厉害的家伙。
+城里有很多工匠。如果你想锻造武器，可以去工匠之间找亚噶克·格罗-格鲁克。他是个厉害的家伙。
 
 > INFO.NAME mournhold 1942810023178430634
 Mournhold is the Imperial capital of Morrowind and the Holy City of Almalexia, one of Morrowind's three Living Gods. Modern Mournhold is built upon the ruins of Old Mournhold, which was destroyed by Mehrunes Dagon at the end of the First Era. You can reach the abandoned passages of Old Mournhold through the sewers beneath Mournhold, and adventurers still seek lost treasures in the First Era ruins.
@@ -33388,7 +33388,7 @@ You're in Godsreach.
 
 > INFO.NAME godsreach 2666529922709331460
 You're in Godsreach. As you leave here, you'll see the Winged Guar directly in front of you, and the Craftsmen's Hall on your right.
-你正在神临区。在你现在的位置，你会看到有翼瓜尔在你的正前方，工匠大厅在你的右边。
+你正在神临区。在你现在的位置，你会看到有翼瓜尔在你的正前方，工匠之间在你的右边。
 
 > INFO.NAME godsreach 5480779949524373
 You're in Godsreach.
@@ -33404,27 +33404,27 @@ You're in Godsreach.
 
 > INFO.NAME godsreach 328116658269114450
 You're in Godsreach. That's where thee Craftsmen's Hall is located. As you leave, the two buildings nearby are the Winged Guar, a fine place for a drink or to rent a room, and the Museum of Artifacts.
-你正在神临区。这里是工匠大厅的所在地。在你现在的位置，旁边的两座建筑是有翼瓜尔，一个喝酒或租住的好地方，以及文物博物馆。
+你正在神临区。这里是工匠之间的所在地。在你现在的位置，旁边的两座建筑是有翼瓜尔，一个喝酒或租住的好地方，以及文物博物馆。
 
 > INFO.NAME godsreach 6244732793711976
 You're in Godsreach. That's where the Winged Guar is located. You'll find the Museum and the Craftsmen's Hall nearby, if that's what you're looking for.
-你现在在神临区。瓜尔添翼旅店就在这里。你可以在附近找到博物馆和工匠大厅，如果你那是你的目的地的话。
+你现在在神临区。瓜尔添翼旅店就在这里。你可以在附近找到博物馆和工匠之间，如果你那是你的目的地的话。
 
 > INFO.NAME godsreach 2212497561798528673
 You're in Godsreach. The Craftsmen's Hall is to the far east of this section of town, right near the Winged Guar and the Museum of Artifacts.
-你现在在神临区。工匠大厅位于城镇的最东边，就在瓜尔添翼旅店和文物博物馆附近。
+你现在在神临区。工匠之间位于城镇的最东边，就在瓜尔添翼旅店和文物博物馆附近。
 
 > INFO.NAME godsreach 1729215038810915121
 Godsreach is on the western side of the city. There are a number of manors there, owned by some of the more wealthy citizens. You'll also find the Craftsmen's Hall, which is a fine place to find armor and weapons. They'll even make them to order, provided you have the materials. You can check out the Winged Guar Tavern as well. Not a bad place for a drink, or if you need a place to stay for the night. You might check out the Museum of Artifacts as well. The curator is always trying to add to the collection.
-神临区在城市的西边。那里有许多宅邸，由一些富人阶级拥有。你也能找到工匠大厅，一个购置盔甲和武器的好地方。只要你有材料，你甚至可以找他们下单订做。你也可以去看看瓜尔添翼酒馆。那是个喝酒的好去处，或者也适合你过夜。你也可以去文物博物馆看看。馆长一直在努力扩充馆藏。 {需要}
+神临区在城市的西边。那里有许多宅邸，由一些富人阶级拥有。你也能找到工匠之间，一个购置盔甲和武器的好地方。只要你有材料，你甚至可以找他们下单订做。你也可以去看看瓜尔添翼酒馆。那是个喝酒的好去处，或者也适合你过夜。你也可以去文物博物馆看看。馆长一直在努力扩充馆藏。 {需要}
 
 > INFO.NAME godsreach 5507122512837915635
 Godsreach is on the western side of the city. There are a number of manors there, owned by some of the more wealthy citizens. You'll also find the Craftsmen's Hall, which is a fine place to find armor and weapons. They'll even make them to order, provided you have the materials. You can check out the Winged Guar Tavern as well. Not a bad place for a drink, or if you need a place to stay for the night. You might check out the Museum of Artifacts as well. The curator is always trying to add to the collection.
-神临区在城市的西边。那里有许多宅邸，由一些富人阶级拥有。你也能找到工匠大厅，一个购置盔甲和武器的好地方。只要你有材料，你甚至可以找他们下单订做。你也可以去看看瓜尔添翼酒馆。那是个喝酒的好去处，或者也适合你过夜。你也可以去文物博物馆看看。馆长一直在努力扩充馆藏。 {需要}
+神临区在城市的西边。那里有许多宅邸，由一些富人阶级拥有。你也能找到工匠之间，一个购置盔甲和武器的好地方。只要你有材料，你甚至可以找他们下单订做。你也可以去看看瓜尔添翼酒馆。那是个喝酒的好去处，或者也适合你过夜。你也可以去文物博物馆看看。馆长一直在努力扩充馆藏。 {需要}
 
 > INFO.NAME godsreach 1612628657962710321
 Godsreach is on the western side of the city. There are a number of manors there, owned by some of the more wealthy citizens. You'll also find the Craftsmen's Hall, which is a fine place to find armor and weapons. They'll even make them to order, provided you have the materials. You can check out the Winged Guar Tavern as well. Not a bad place for a drink, or if you need a place to stay for the night. You might check out the Museum of Artifacts as well. The curator is always trying to add to the collection.
-神临区在城市的西边。那里有许多宅邸，由一些富人阶级拥有。你也能找到工匠大厅，一个购置盔甲和武器的好地方。只要你有材料，你甚至可以找他们下单订做。你也可以去看看瓜尔添翼酒馆。那是个喝酒的好去处，或者也适合你过夜。你也可以去文物博物馆看看。馆长一直在努力扩充馆藏。 {需要}
+神临区在城市的西边。那里有许多宅邸，由一些富人阶级拥有。你也能找到工匠之间，一个购置盔甲和武器的好地方。只要你有材料，你甚至可以找他们下单订做。你也可以去看看瓜尔添翼酒馆。那是个喝酒的好去处，或者也适合你过夜。你也可以去文物博物馆看看。馆长一直在努力扩充馆藏。 {需要}
 
 > INFO.NAME business 3748250542379720869
 It's no concern of yours, %PCRace.
@@ -33440,7 +33440,7 @@ Actually, I believe we've finished our business. I will notify the Temple that y
 
 > INFO.NAME business 313639872174827490
 If you want to talk business, speak with Crassius Curio or Edryno Arethi.
-如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷西。 {事}
+如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷西。 {事,埃德里诺·阿雷提}
 
 > INFO.NAME business 22838144922953728258
 Yes, let's discuss what you can do to assist my, err, our cause.
@@ -33484,7 +33484,7 @@ Wha?
 
 > INFO.NAME services 25770154614365306
 You'll find the smith Bols Indalen at Craftmen's Hall in Godsreach, along with several other fine craftsmen. There's a healer and an Imperial altar in the Royal Palace. Go to the Temple for Temple services. Otherwise, most trainers, crafters, and merchants are in the Great Bazaar.
-你可以在神临区的工匠大厅找到铁匠波尔斯·英达林，还有其他一些优秀的工匠。在王宫里有一位治疗者和一个帝国祭坛。到神殿去寻求神殿服务。除此之外，大多数训练师、工匠和商人都在巨市里。 {治疗师,帝国人}
+你可以在神临区的工匠之间找到铁匠波尔斯·英达林，还有其他一些优秀的工匠。在王宫里有一位治疗者和一个帝国祭坛。到神殿去寻求神殿服务。除此之外，大多数训练师、工匠和商人都在巨市里。 {治疗师,帝国人}
 
 > INFO.NAME services 9706194263037723833
 I sell potions and spells, charms and marvels. And I can teach some of what I know, if you can pay.
@@ -33664,7 +33664,7 @@ Our beliefs are very simple, dear friend. The blessed Tribunal, though once fill
 
 > INFO.NAME beliefs 2218610984558912743
 They preach that the Tribunal have lost their powers, and that this is a signal that the apocalypse is near. Eno Romari teaches his followers that our time in Tamriel is at an end, and the gates of Oblivion will soon open and the daedra will walk the land. Only the ancestors who have already left this world will remain once the daedric scourge covers the earth. And so he promotes what he calls "the Cleansing."
-他们宣扬审判席已经失去了力量，这是末日将至的预兆。恩诺·罗马利教导他的追随者们，我们在泰姆瑞尔已经命数将尽，湮灭之门即将洞开，代德拉将肆虐这片大地。在那之后，只有那些早已离世的先祖们能留存于世。因此，他宣扬他称之为“清洗”的仪式。 {迪德拉,迪德拉式}
+他们宣扬审判席已经失去了力量，这是末日将至的预兆。恩诺·罗马利教导他的追随者们，我们在泰姆瑞尔已经命数将尽，湮灭之门即将洞开，迪德拉将肆虐这片大地。在那之后，只有那些早已离世的先祖们能留存于世。因此，他宣扬他称之为“清洗”的仪式。 {迪德拉式}
 
 > INFO.NAME beliefs 3112617757320987918
 This cult will be gone from my city soon, %PCName. I cannot allow such heresy to poison the minds of my people.
@@ -34344,7 +34344,7 @@ I do not want company. Go away.
 
 > INFO.NAME hello 943722942952127376
 Health and healing are my specialties.
-生命值和治愈是我的专长。
+生命和治愈是我的专长。
 
 > INFO.NAME hello 2131714339460410214
 Talk to the boss.
@@ -34488,7 +34488,7 @@ I'm a big fan of Robot Arena. Aren't you?
 
 > INFO.NAME hello 276823656791412982
 Strange creatures in the city? Have you alerted the Royal Guard?
-城里有奇怪的生物？你通知王室卫兵了吗？
+城里有奇怪的生物？你通知王宫卫兵了吗？
 
 > INFO.NAME hello 395242592033014270
 Good for the Empire, good for all, eh, citizen?
@@ -36436,7 +36436,7 @@ There are Dwemer ruins nearby called Arkngthand. I need you to run over there an
 
 > INFO.NAME favor 1427024818124768213
 You must REALLY think I'm dense, %PCRace. Like YOU could put together a whole suit of Daedric Armor! I'm sure you just think you're so funny, don't you? Well, I'll teach you to laugh at me! You just wait, %PCName. I'll get you when you least expect it!!!
-你一定是真把我当成傻子，%PCRace。说得好像你能凑齐一整套代德拉式盔甲一样！你肯定只是觉得自己很幽默，对吧？好吧，我要让你知道嘲笑我的下场！你就等着吧，%PCName。我会在你最意想不到的时候干掉你！！！ {迪德拉式}
+你一定是真把我当成傻子，%PCRace。说得好像你能凑齐一整套迪德拉式盔甲一样！你肯定只是觉得自己很幽默，对吧？好吧，我要让你知道嘲笑我的下场！你就等着吧，%PCName。我会在你最意想不到的时候干掉你！！！
 
 > INFO.NAME favor 21620292953016531237
 I'm sorry, what? Oh, come on. Look at you! I'm sure you've got a whole stash of ebony weapons someplace! Probably have your own Ebony mine! I know you can spare it, so hand it over!
@@ -36452,7 +36452,7 @@ I said no.
 
 > INFO.NAME favor 1077923272908815004
 Wow. What a great sword. I've held a few swords in my lifetime, but this... this is exquisite. Okay, clearly you've got some connections. How about getting me, your good friend, a full suit of Daedric armor? I'm sure there's enough floating around that you can find it, and get it for me. What do you say?
-哇哦。真是把好剑。我这辈子也拿起过几把剑，但这……这太精美了。好吧，显然你不是凡夫俗子。给我，你的好朋友，弄到一套完整的代德拉式盔甲怎么样？我相信你在周围多找找一定找得到，然后送给我。你怎么说？ {迪德拉式}
+哇哦。真是把好剑。我这辈子也拿起过几把剑，但这……这太精美了。好吧，显然你不是凡夫俗子。给我，你的好朋友，弄到一套完整的迪德拉式盔甲怎么样？我相信你在周围多找找一定找得到，然后送给我。你怎么说？
 
 > INFO.BNAM favor 1077923272908815004 c1
 Sure, I'll do that.
@@ -36464,7 +36464,7 @@ No, I don't think so.
 
 > INFO.NAME favor 26515240481753828440
 What, you don't have one? Well, then don't offer me something you don't have! Sheesh. Some people. But listen. I don't need the sword all that badly, so it's okay. What I could REALLY use is a full suit of Daedric armor. I'm sure you've got an extra lying around someplace, right? Or you could dig one up for me? How about it, %PCName?
-什么，你没有？那就不要给我你没有的东西！啧啧。有些人。但听着。我没那么需要一把剑，所以这没什么。我真正需要的是一整套代德拉式盔甲。我想你在某处肯定有一套多余的，对吧？或者你能为我挖出一套来？怎么样，%PCName？ {迪德拉式}
+什么，你没有？那就不要给我你没有的东西！啧啧。有些人。但听着。我没那么需要一把剑，所以这没什么。我真正需要的是一整套迪德拉式盔甲。我想你在某处肯定有一套多余的，对吧？或者你能为我挖出一套来？怎么样，%PCName？
 
 > INFO.BNAM favor 26515240481753828440 c1
 Sure, I'll get right on that.

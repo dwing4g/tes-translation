@@ -2745,7 +2745,7 @@ Olfeigr the Fair
 
 > NPC_.FNAM svenja snow-song
 Svenja Snow-Song
-斯文加·雪歌
+斯文娅·雪歌
 
 > NPC_.FNAM jeleen
 Jeleen
@@ -3843,7 +3843,7 @@ Uncle Sweetshare
 
 > NPC_.FNAM m'nashi
 M'nashi
-麦'纳西
+姆'纳西
 
 > BOOK.FNAM sc_unclesweetshare
 The Song of Uncle Sweetshare
@@ -4204,7 +4204,7 @@ Skull of Griss the Yellow
 
 > NPC_.FNAM svenja_outside
 Svenja Snow-Song
-斯文加·雪歌
+斯文娅·雪歌
 
 > DOOR.FNAM Ex_S_door_double_fixing
 Wooden Door
@@ -4503,7 +4503,7 @@ Humbly,<BR>
 Falco Galenus<BR>
 """
 """<DIV ALIGN=$$LEFT$$><FONT COLOR=$$000000$$ SIZE=$$3$$ FACE=$$Magic Cards$$><BR>
-乌鸦岩进度更新
+鸦石进度更新
 <BR>
 毫无疑问，代理人知道，矿山已经扩大，矿石产量增加了 18%。每周的配额定期得到满足。<BR>
 在最后两批物资中，发现有两箱灯芯麦腐烂了。该问题已与供应商解决，退款应在未来几天内的某个时间到达代理人的办公室。<BR>
@@ -4589,7 +4589,7 @@ C. Magius<BR>"""
 <BR>
 一百<BR>
 <BR>
-东帝国公司乌鸦岩分部普通股（以下简称$$本公司$$）的缴足股款且不应纳税的股份，每股面值为一（1）枚塞普汀币，可由持有人本人或持有人的正式授权代表在交出经适当的本证书后在公司账簿上转让。<BR>
+东帝国公司鸦石分部普通股（以下简称$$本公司$$）的缴足股款且不应纳税的股份，每股面值为一（1）枚塞普汀币，可由持有人本人或持有人的正式授权代表在交出经适当的本证书后在公司账簿上转让。<BR>
 本证书及其所代表的股份的发行和持有应遵守公司章程和公司章规（其副本在公司总部存档）的所有规定，所有通过接受持有人同意。除非由转让代理人签署并由注册处登记，否则该证书无效。<BR>
 兹证明，本公司已安排其正式授权人员的亲笔签名和印有公司印章的副本件签署本证书。<BR>
 <BR>
@@ -6663,7 +6663,7 @@ Free the Slaves
 
 > INFO.NAME ms_jobashaabolitionist 83331906191803939
 Jobasha told me that the Khajiti slaves in the Ascadian Isles and Caldera suffer.
-乔巴沙告诉我，阿斯卡迪亚群岛和卡尔德拉的卡吉特奴隶们很痛苦。
+乔巴沙告诉我，阿斯卡迪亚群岛和卡尔德拉的卡吉特奴隶们很痛苦。 {阿斯卡迪安群岛}
 
 > INFO.NAME ms_jobashaabolitionist 659112541183927887
 Jobasha gave me some books for helping free the slaves.
@@ -7163,15 +7163,15 @@ House Hlaalu: Exterminator
 
 > INFO.NAME hh_theexterminator 2036621708180619508
 Edryno Arethi told me that Yngling Half-Troll raises game rats for the Arena. A competitor has placed diseased rats among Yngling's game rats. I must go to Yngling Manor in the St. Olms Plaza and kill the diseased rats, but spare the prized game rats.
-埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。
+埃德里诺·阿雷西告诉我，英灵·半巨魔为竞技场饲养竞赛鼠。有竞争者在英灵的竞赛鼠中放进了染了疾病的老鼠。我必须前往圣·奥姆斯区的英灵庄园，杀死染病的老鼠，但放过珍贵的竞赛鼠。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_theexterminator 5794310032282014326
 Edryno Arethi thanked me for killing the diseased rats in Yngling Manor.
-埃德里诺·阿雷西感谢我杀死了英灵庄园里的病鼠。 {疾病,老鼠}
+埃德里诺·阿雷西感谢我杀死了英灵庄园里的病鼠。 {埃德里诺·阿雷提,疾病,老鼠}
 
 > INFO.NAME hh_theexterminator 24483205232516713567
 I told Edryno Arethi that Yngling Half-Troll is dead.
-我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。
+我告诉埃德里诺·阿雷西，英灵·半巨魔已经死了。 {埃德里诺·阿雷提}
 
 > INFO.NAME a2_1_meetsulmatuul 6700287971415821869
 Meet Sul-Matuul
@@ -7587,15 +7587,15 @@ House Redoran: Ondres Nerano's Slanders
 
 > INFO.NAME hr_honorchallenge 1766118066273288836
 Athyn Sarethi told me that a Hlaalu Noble, Ondres Nerano, has been slandering House Redoran. I must find Ondres Nerano in Balmora and challenge him to withdraw his statements.
-艾辛·萨雷蒂告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤勒多兰家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。
+艾辛·萨雷蒂告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤勒多兰家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。 {艾辛·萨雷提}
 
 > INFO.NAME hr_honorchallenge 44478237168813631
 Athyn Sarethi thanked me for restoring the honor of House Redoran.
-艾辛·萨雷蒂感谢我恢复了勒多兰家族的荣誉。
+艾辛·萨雷蒂感谢我恢复了勒多兰家族的荣誉。 {艾辛·萨雷提}
 
 > INFO.NAME hr_honorchallenge 18236225772463028214
 Athyn Sarethi accused me of murdering Ondres Nerano.
-艾辛·萨雷蒂指控我谋杀了欧德雷斯·内拉诺。
+艾辛·萨雷蒂指控我谋杀了欧德雷斯·内拉诺。 {艾辛·萨雷提}
 
 > INFO.NAME hr_calderacorrupt 31730381675699159
 House Redoran: Evidence of Corruption
@@ -7627,7 +7627,7 @@ House Redoran: Ash Statue
 
 > INFO.NAME hr_sixthhousebase 298966103149132701
 Lloros Sarano asked me to find out where Varvur Sarethi got the ash statue.
-洛罗斯·萨拉诺让我查查瓦乌尔·萨雷蒂是从哪里得到灰烬雕像的。
+洛罗斯·萨拉诺让我查查瓦乌尔·萨雷蒂是从哪里得到灰烬雕像的。 {瓦乌尔·萨雷提}
 
 > INFO.NAME hr_sixthhousebase 96572710715321683
 Lloros Sarano thanked me for stopping the spread of the ash statues.
@@ -7687,15 +7687,15 @@ House Hlaalu: Murudius Flaeus's Debt
 
 > INFO.NAME hh_buriedtreasure 2045064223213027837
 Edryno Arethi told me that Murudius Flaeus owes a Hlaalu noble over 800 gold. I must get the 800 gold from Murudius Flaeus in Hla Oad and return it to Edryno Arethi.
-埃德里诺·阿雷西告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷西。 {哈拉·奥德}
+埃德里诺·阿雷西告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷西。 {埃德里诺·阿雷提,哈拉·奥德}
 
 > INFO.NAME hh_buriedtreasure 2423413073985532585
 Edryno Arethi thanked me for getting the 800 gold from Murudius Flaeus.
-埃德里诺·阿雷西感谢我从穆鲁迪斯·弗莱厄斯那里拿到了 800 金币。
+埃德里诺·阿雷西感谢我从穆鲁迪斯·弗莱厄斯那里拿到了 800 金币。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_buriedtreasure 80161154198418224
 Edryno Arethi thanked me for killing Murudius Flaeus as an example for others.
-埃德里诺·阿雷西感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。
+埃德里诺·阿雷西感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_escortmerchant 1471615591391915114
 House Hlaalu: Escort Tarvyn Faren
@@ -7703,11 +7703,11 @@ House Hlaalu: Escort Tarvyn Faren
 
 > INFO.NAME hh_escortmerchant 615616476473814178
 Edryno Arethi asked me to escort the trader Tarvyn Faren from the North Landing here in Vivec to Pelagiad.
-埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {埃德里诺·阿雷提,保镖}
 
 > INFO.NAME hh_escortmerchant 1996331301205355064
 Edryno Arethi thanked me for escorting Tarvyn Faren to Pelagiad.
-埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {埃德里诺·阿雷提,保镖}
 
 > INFO.NAME hh_ashlanderebony 2488627585889230507
 House Hlaalu: Ashlander Ebony
@@ -7715,11 +7715,11 @@ House Hlaalu: Ashlander Ebony
 
 > INFO.NAME hh_ashlanderebony 3264319771810328151
 Edryno Arethi asked me to go to the Zainab camp and make sure they only sell ebony through House Hlaalu.
-埃德里诺·阿雷西让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。
+埃德里诺·阿雷西让我去哉纳布营地，确保他们只能通过哈拉鲁家族出售黑檀。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_ashlanderebony 31234061904826862
 Edryno Arethi thanked me for negotiating with the Zainab.
-埃德里诺·阿雷西感谢我与哉纳布进行了谈判。
+埃德里诺·阿雷西感谢我与哉纳布进行了谈判。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_ashlanderebony 3145212414923826479
 I told Edryon Arethi that the Zainab would not deal with me since I killed one of them.
@@ -7731,11 +7731,11 @@ House Hlaalu: The Shipwreck 'Prelude'
 
 > INFO.NAME hh_sunkentreasure 7515702985821156
 Edryno Arethi knows that the ship Prelude sunk east of Bal Fell. She believes it lies two or three islands due east of Bal Fell. I must find the Daedric Wakizashi that sunk with that ship and return it to Edryno Arethi.
-埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉协差，并把它还给埃德里诺·阿雷西。 {巴尔·费尔,迪德拉式,胁差}
+埃德里诺·阿雷西知道“前奏曲号”沉没在巴尔-费尔以东。她认为它就在巴尔-费尔正东方的两三个岛上。我必须找到和那艘船一起沉没的迪德拉协差，并把它还给埃德里诺·阿雷西。 {埃德里诺·阿雷提,巴尔·费尔,迪德拉式,胁差}
 
 > INFO.NAME hh_sunkentreasure 44131684462727731
 Edryno Arethi thanked me for returning the Daedric Wakizashi.
-埃德里诺·阿雷西感谢我归还了迪德拉协差。 {迪德拉式,胁差}
+埃德里诺·阿雷西感谢我归还了迪德拉协差。 {埃德里诺·阿雷提,迪德拉式,胁差}
 
 > INFO.NAME ht_theranaclothes 1206327953222646565
 House Telvanni: New Clothes
@@ -7827,7 +7827,7 @@ I have been named Nerevarine by all four tribes of the Vvardenfell Ashlanders --
 
 > INFO.NAME tg_ss_generosity1 22149270561687231907
 Thieves Guild: Bal Molagmer, The Hlervu Locket
-盗贼公会：巴尔·莫拉格穆尔，赫勒武的宝盒
+盗贼公会：巴尔·莫拉格穆尔，赫勒乌的宝盒
 
 > INFO.NAME tg_ss_generosity1 208451036451265574
 Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the light of justice throughout Morrowind, stealing from the unjust, and giving to the poor. He gave me a pair of Bal Molagmer gloves, which I should wear before speaking with him again.
@@ -7835,11 +7835,11 @@ Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the ligh
 
 > INFO.NAME tg_ss_generosity1 1751914300170125850
 Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlervu.
-绅士吉姆·史戴西感谢我将赫勒武的盒坠归还给布雷纳斯·赫勒武。
+绅士吉姆·史戴西感谢我将赫勒乌的盒坠归还给布雷纳斯·赫勒乌。
 
 > INFO.NAME tg_ss_generosity1 1069021420716385
 Gentleman Jim Stacey was upset to hear that Braynas Hlervu was dead, but he believes there is other work the Bal Molagmer must do.
-绅士吉姆·史戴西听说布雷纳斯·赫勒武已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
+绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
 
 > INFO.NAME tg_ss_generosity2 2204782701611628005
 Thieves Guild: Bal Molagmer, Land Deed
@@ -8087,11 +8087,11 @@ House Redoran: Rescue Varvur Sarethi
 
 > INFO.NAME hr_rescuesarethi 1025354912338120284
 Serjo Athyn Sarethi asked me to rescue his son, Varvur Sarethi, from Venim Manor, the first Manor on the right as you enter Skar. He warned me that I should not kill Bolvyn Venim, or the other councilors of House Redoran would turn against me.
-艾辛·萨雷蒂让我去维尼姆府邸救他的儿子瓦乌尔·萨雷蒂，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则勒多兰家族的其他议员会反对我。
+艾辛·萨雷蒂让我去维尼姆府邸救他的儿子瓦乌尔·萨雷蒂，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则勒多兰家族的其他议员会反对我。 {艾辛·萨雷提,瓦乌尔·萨雷提}
 
 > INFO.NAME hr_rescuesarethi 5844115132424315150
 Serjo Athyn Sarethi thanked me for rescuing his son from Venim Manor.
-艾辛·萨雷蒂感谢我从维尼姆府邸救出了他的儿子。
+艾辛·萨雷蒂感谢我从维尼姆府邸救出了他的儿子。 {艾辛·萨雷提}
 
 > INFO.NAME hr_orethisisters 7346221962927829557
 House Redoran: Velsa Orethi
@@ -8123,15 +8123,15 @@ House Hlaalu: Guard Ralen Tilvur
 
 > INFO.NAME hh_guardmerchant 1223487243028017695
 Edryno Arethi told me that Ralen Tilvur's shop in Vivec's Foreign Quarter Plaza has been robbed three nights in a row. I must go to Ralen Tilvur's shop and kill any thieves that arrive.
-埃德里诺·阿雷西告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。
+埃德里诺·阿雷西告诉我，拉伦·提尔乌在维威克外邦区广场的商店连续三个晚上被抢劫。我必须前往拉伦·提尔乌的商店，杀死所有到来的盗贼。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_guardmerchant 11067184411845825714
 Edryno Arethi thanked me for killing the thief that was stealing from Ralen Tilvur.
-埃德里诺·阿雷西感谢我杀死了偷窃拉伦·提尔乌商店的小偷。
+埃德里诺·阿雷西感谢我杀死了偷窃拉伦·提尔乌商店的小偷。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_guardmerchant 32259312781758210603
 I told Edryno Arethi that Ralen Tilvur was dead.
-我告诉埃德里诺·阿雷西，拉伦·提尔乌已经死了。
+我告诉埃德里诺·阿雷西，拉伦·提尔乌已经死了。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_rentcollector 2889123118727931033
 House Hlaalu :Rent and Taxes
@@ -8603,7 +8603,7 @@ Neminda asked me to guard Sarethi Manor.
 
 > INFO.NAME hr_guardsarethi 664792032309314006
 Neminda thanked me for guarding Serjo Athyn Sarethi.
-内明达感谢我卫兵保护艾辛·萨雷蒂Serjo（大人）。
+内明达感谢我卫兵保护艾辛·萨雷蒂Serjo（大人）。 {艾辛·萨雷提}
 
 > INFO.NAME hr_ashimanumine 24286192451480712831
 House Redoran: Ashimanu Mine
@@ -8639,15 +8639,15 @@ House Redoran: Clear Varvur Sarethi's Name
 
 > INFO.NAME hr_clearsarethi 2340317191134797593
 Serjo Athyn Sarethi asked me to clear his son's name. Varvur Sarethi has been charged with the murder of Bralen Carvaren. Perhaps I should start by questioning Varvur Sarethi in Sarethi Manor.
-艾辛·萨雷蒂Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷蒂被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷蒂府邸审问瓦乌尔·萨雷蒂。
+艾辛·萨雷蒂Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷蒂被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷蒂府邸审问瓦乌尔·萨雷蒂。 {艾辛·萨雷提,瓦乌尔·萨雷提}
 
 > INFO.NAME hr_clearsarethi 2217967581718628042
 Athyn Sarethi thanked me for clearing his son's name. He suggested that I speak with Lloros Sarano again about the ash statue.
-艾辛·萨雷蒂感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。
+艾辛·萨雷蒂感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。 {艾辛·萨雷提}
 
 > INFO.NAME hr_clearsarethi 25311205027667809
 Lloros Sarano said that Varvur Sarethi would be cleared of the murder of Bralen Carvaren.
-洛罗斯·萨拉诺说，瓦乌尔·萨雷蒂将洗脱谋杀布拉伦·卡瓦伦的罪名。
+洛罗斯·萨拉诺说，瓦乌尔·萨雷蒂将洗脱谋杀布拉伦·卡瓦伦的罪名。 {瓦乌尔·萨雷提}
 
 > INFO.NAME hr_morvaynmanor 1466622823306351020
 House Redoran: Mission to Morvayn Manor
@@ -9579,11 +9579,11 @@ Fighters Guild: The Verethi Gang
 
 > INFO.NAME fg_verethigang 3211954743028115006
 Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Verethi Gang. They are based in Mannammu just southeast of Pelagiad.
-艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。
+艾迪斯·火眼让我杀死走私者多佛瑞斯·维雷西，他是维雷西帮的首领。他们的基地就在佩拉吉亚德东南方的曼纳姆。 {维雷提帮}
 
 > INFO.NAME fg_verethigang 14760934222272524
 Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
-艾迪斯·火眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {事}
+艾迪斯·火眼付给我 1000 金币，让我把维雷西帮赶尽杀绝。 {维雷提帮,事}
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
@@ -9671,11 +9671,11 @@ House Hlaalu: Bank Courier
 
 > INFO.NAME hh_bankcourier 3950135161216932088
 Edryno Arethi wants me to deliver sealed orders to Treasurer Baren Alen in the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-埃德里诺·阿雷西要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}
+埃德里诺·阿雷西要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {埃德里诺·阿雷提,指示}
 
 > INFO.NAME hh_bankcourier 38030277295099293
 Edryno Arethi thanked me for delivering the sealed orders.
-埃德里诺·阿雷西感谢我交付了密封的命令。 {指示}
+埃德里诺·阿雷西感谢我交付了密封的命令。 {埃德里诺·阿雷提,指示}
 
 > INFO.NAME hh_berosupport 13958147662968228958
 House Hlaalu: Bero's Support
@@ -9843,11 +9843,11 @@ I have been named Hortator of House Redoran by Redoran's councilors. When I have
 
 > INFO.NAME b5_redoranhort 20621853163211746
 When Athyn Sarethi named me Redoran Hortator, he gave me an enchanted ring, a token of my office called the "Ring of the Hortator." By this ring others shall know me as House Redoran's chosen champion.
-当艾辛·萨雷蒂任命我为勒多兰统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是勒多兰家族选中的勇士。 {沙尔}
+当艾辛·萨雷蒂任命我为勒多兰统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是勒多兰家族选中的勇士。 {艾辛·萨雷提,沙尔}
 
 > INFO.NAME b5_redoranhort 2349910328103832028
 Athyn Sarethi showed me a public notice revealing that I am an Imperial agent. He did not ask for an explanation. He said he was satisfied that I was sincere. But he said others might not be so understanding.
-艾辛·萨雷蒂给我看了一份公告，上面写着我是一名帝国间谍。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {帝国人}
+艾辛·萨雷蒂给我看了一份公告，上面写着我是一名帝国间谍。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {艾辛·萨雷提,帝国人}
 
 > INFO.NAME b5_sarethihort 718226521261324568
 Redoran Hortator
@@ -10805,11 +10805,11 @@ House Redoran: Shurinbaal
 
 > INFO.NAME hr_shurinbaal 3194027223008328872
 Serjo Athyn Sarethi believes there are smugglers in the cave of Shurinbaal, just southwest down the coast from Gnaar Mok. I must find and kill the leaders of the smugglers, Daroder and Enjine.
-艾辛·萨雷蒂相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。 {纳尔·莫克}
+艾辛·萨雷蒂相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。 {艾辛·萨雷提,纳尔·莫克}
 
 > INFO.NAME hr_shurinbaal 25974211622522932654
 Serjo Athyn Sarethi thanked me for shutting down the smuggling operations in Shurinbaal.
-艾辛·萨雷蒂感谢我结束了舒林巴尔的走私活动。
+艾辛·萨雷蒂感谢我结束了舒林巴尔的走私活动。 {艾辛·萨雷提}
 
 > INFO.NAME hr_findtharen 2404510183512315834
 House Redoran: Find Fedris Tharen
@@ -11233,7 +11233,7 @@ Thieves Guild: Redoran Master Helm
 
 > INFO.NAME tg_masterhelm 1258232087147310181
 Aengoth the Jeweler asked me to bring him a Redoran Master Helm. Many of the Redoran councilors have one, but Aengoth knows of one in Arobar Manor.
-珠宝商阿恩戈斯让我给他带一个勒多兰大师头盔。许多勒多兰议员都有一个，但阿恩戈斯知道阿罗巴庄园里有一个没人戴的。
+珠宝商阿恩戈斯让我给他带一个勒多兰大师头盔。许多勒多兰议员都有一个，但阿恩戈斯知道阿罗巴庄园里有一个没人戴的。 {阿罗巴府邸}
 
 > INFO.NAME tg_masterhelm 150001016689706260
 Aengoth the Jeweler thanked me for bringing him a Redoran Master Helm.
@@ -11505,7 +11505,7 @@ House Redoran: Duel with Bolvyn Venim
 
 > INFO.NAME hr_archmaster 17741203752809611543
 Athyn Sarethi told me to meet Bolvyn Venim in a duel. The winner will become the Archmaster of House Redoran.
-艾辛·萨雷蒂让我与波尔文·维尼姆决斗。胜者将成为勒多兰家族的新家主。
+艾辛·萨雷蒂让我与波尔文·维尼姆决斗。胜者将成为勒多兰家族的新家主。 {艾辛·萨雷提}
 
 > INFO.NAME hr_archmaster 2082553503074113793
 I defeated Bolvyn Venim and am now the Archmaster of House Redoran.
@@ -11649,7 +11649,7 @@ I told Synnolian Tunifus I would not be able to bring him the one unit of netch 
 
 > INFO.NAME colony_update 14375268842311416908
 East Empire Company: Raven Rock Updates
-东帝国公司：乌鸦岩更新
+东帝国公司：鸦石更新
 
 > INFO.NAME colony_update 1898222083456730209
 I should check in and see if there's a new assignment for me.
@@ -11777,11 +11777,11 @@ Thirsk Hunters
 
 > INFO.NAME bm_meadhall_c 15217311212417124116
 Svenja Snow-Song has sent out hunters to kill snow bears and snow wolves, and return with their pelts.
-斯文加·雪歌派出了猎人去猎杀雪熊和雪狼群，并带着它们的皮毛返回。
+斯文娅·雪歌派出了猎人去猎杀雪熊和雪狼群，并带着它们的皮毛返回。
 
 > INFO.NAME bm_meadhall_c 29437158551869518377
 The hunters have returned, and Svenja has given me the snow bear and snow wolf pelts they managed to secure.
-猎人们已经回来了，斯文加把他们设法弄到的雪熊和雪狼皮交给了我。
+猎人们已经回来了，斯文娅把他们设法弄到的雪熊和雪狼皮交给了我。
 
 > INFO.NAME mg_stealbook 2556412707148647624
 Mages Guild: Steal Chimarvamidium
@@ -11889,11 +11889,11 @@ House Hlaalu: Telvanni at Odirniran
 
 > INFO.NAME hh_odirniran 1198157082016519822
 Edryno Arethi asked me to secure Odirniran for House Hlaalu. I should go there and speak with any survivors. If there are no survivors, I should find and kill the Telvanni responsible.
-埃德里诺·阿雷西让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。
+埃德里诺·阿雷西让我为哈拉鲁家族保护奥迪尔尼兰。我应该去那里和任何可能的幸存者谈谈。如果没有幸存者，我应该找到并杀死泰瓦尼家族的人。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_odirniran 891121596153821637
 Edryno Arethi thanked me for securing Odirniran.
-埃德里诺·阿雷西感谢我保护了奥迪尔尼兰。
+埃德里诺·阿雷西感谢我保护了奥迪尔尼兰。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_bankfraud 31813244592924313368
 House Hlaalu: Sealed Orders
@@ -11977,7 +11977,7 @@ House Telvanni: Ring of Equity
 
 > INFO.NAME ht_eddiering 12608296121945928820
 Fast Eddie offered to bring me the Ring of Equity from a hidden place in Master Neloth's treasury if I bring him one of the keys for Tel Naga. Any guard should have a key as should Master Neloth himself.
-飞毛腿埃迪提出，如果我给他带来泰尔-纳加的一把钥匙，他就会从内洛斯大师宝库的隐秘处给我带来平衡之戒。任何卫兵都应该有一把钥匙，内洛斯大师本人也应该有。 {戒指,瓜尔}
+飞毛腿埃迪提出，如果我给他带来泰尔·纳加的一把钥匙，他就会从内洛斯大师宝库的隐秘处给我带来平衡之戒。任何卫兵都应该有一把钥匙，内洛斯大师本人也应该有。 {戒指,瓜尔}
 
 > INFO.NAME ht_eddiering 1329931594315021528
 Fast Eddie gave me the Ring of Equity.
@@ -12241,11 +12241,11 @@ Thieves Guild: Bal Molagmer, Enamor
 
 > INFO.NAME tg_ss_enamor 2219630828870221827
 Gentleman Jim Stacey asked me to return the stolen sword "Enamor" to Salyn Sarethi's personal chest in the Buoyant Armiger barracks in Ghostgate along with a note.
-绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷蒂在幽魂之门的灵动扈从兵营里的私人箱子里。
+绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷蒂在幽魂之门的灵动扈从兵营里的私人箱子里。 {萨利恩·萨雷提}
 
 > INFO.NAME tg_ss_enamor 29494241139524307
 Gentleman Jim Stacey thanked me for delivering the sword "Enamor" and the note to Salyn Sarethi's chest in Ghostgate.
-绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷蒂在幽魂之门的箱子里。
+绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷蒂在幽魂之门的箱子里。 {萨利恩·萨雷提}
 
 > INFO.NAME mv_slavemule 6203271422929218835
 Rabinna's Inner Beauty
@@ -12453,7 +12453,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_backdoor1 10901625642699447
 Athyn Sarethi was concerned that I had not fulfilled the Nerevarine prophecies. He says that Archcanon Saryoni hopes I will come speak with him at the High Fane in Vivec City.
-艾辛·萨雷蒂担心我是否实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。
+艾辛·萨雷蒂担心我是否实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。 {艾辛·萨雷提}
 
 > INFO.NAME b8_backdoor2 3525313401580925556
 Hortator and Nerevarine
@@ -12501,7 +12501,7 @@ Imperial Cult: Gathering Corkbulb Root
 
 > INFO.NAME ic5_corkbulb 2528429878813829874
 Synnolian Tunifus needs five units of corkbulb root for cure common disease and restore health potions. The Imperial Cult has an agreement with the Ascadian Isles plantation owners that permits us to gather corkbulb, so that's a good place to look. Since I have to cross water, he taught me a little spell.
-索诺里安·图尼夫斯需要五个软木鳞茎根，用于炼制治疗常见疾病和生命恢复药水。帝国教团与阿斯卡迪亚群岛的种植园主签有协议，允许我们采集软木鳞茎，所以那是个不错的地方。由于我必须渡水，他教了我一个小咒语。 {这些药水,帝国人}
+索诺里安·图尼夫斯需要五个软木鳞茎根，用于炼制治疗常见疾病和生命恢复药水。帝国教团与阿斯卡迪亚群岛的种植园主签有协议，允许我们采集软木鳞茎，所以那是个不错的地方。由于我必须渡水，他教了我一个小咒语。 {这些药水,帝国人,阿斯卡迪安群岛}
 
 > INFO.NAME ic5_corkbulb 773131614251017369
 I told Synnolian Tunifus I would not be able to bring him the five units of corkbulb root he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -12705,7 +12705,7 @@ Imperial Cult: Skull-Crusher
 
 > INFO.NAME ic29_crusher 4594192092072731924
 The Oracle believes that I am fated to recover the ancient warhammer Skull-Crusher. I must discover a sealed Daedric ruin that may be accessed only through the Halls of the Dead. To help me solve the puzzle of this prophecy, the Oracle told me to consult a Dunmer scout and a Dunmer savant. Her vision suggests I must face restless spirits and powerful Daedra to recover the warhammer. If I find Skull-Crusher, I must return it to the Oracle so she may free it of its creators' curse.
-神谕者认为，我命中注定要找回远古战斧碎颅者。我必须发现一个封闭的迪德拉废墟，只有通过亡灵殿堂才能进入。为了帮我解开这个预言的谜题，神谕者让我去咨询一位丹莫侦察兵和一位丹莫学者。她的幻象显示，我必须面对不安分的亡灵和强大的迪德拉才能找回战锤。如果我找到了碎颅者，就必须把它还给神谕者，这样她就能解除它的创造者下的诅咒。 {迪德拉式}
+神谕者认为，我命中注定要找回远古战斧碎颅者。我必须发现一个封闭的迪德拉废墟，只有通过亡灵殿堂才能进入。为了帮我解开这个预言的谜题，神谕者让我去咨询一位丹莫侦察兵和一位丹莫学者。她的幻象显示，我必须面对不安分的亡灵和强大的迪德拉才能找回战锤。如果我找到了碎颅者，就必须把它还给神谕者，这样她就能解除它的创造者下的诅咒。 {迪德拉式,丹莫斥候}
 
 > INFO.NAME ic29_crusher 244173012020273776
 The Oracle says she can detect no evil curse upon Skull-Crusher. She assured me it is safe, and gave me a special blessing so I might dedicate myself further to the service of the Nine. She has no more quests for me, but she will send word for me through others of high rank in the cult if she needs my help again.
@@ -13041,7 +13041,7 @@ After learning I failed to gain entrance to Hrothmund's Barrow, Louis Beauchamp 
 
 > INFO.NAME bm_airship_c 198730648213631629
 I told Svenja Snow-Song I failed to gain entrance to Hrothmund's Barrow, and she was filled with sorrow. She doubts Thirsk will ever reopen. Looks like I've failed this quest miserably.
-我告诉斯文加·雪歌我没能进入霍斯蒙德之冢时，她满脸愁容。她怀疑瑟斯克不会重新开放了。看来我这次探险失败了。
+我告诉斯文娅·雪歌我没能进入霍斯蒙德之冢时，她满脸愁容。她怀疑瑟斯克不会重新开放了。看来我这次探险失败了。
 
 > INFO.NAME mg_bethamez 3179832321381018887
 Mages Guild: Bethamez
@@ -13325,7 +13325,7 @@ Imperial Legion: Courtesy
 
 > INFO.NAME il_courtesy 2546513586540130753
 The Buoyant Armiger Salyn Sarethi in Ghostgate claims that we have no courtesy. Frald the White asked me to challenge Salyn Sarethi to a contest of wit, poetry, and honor.
-幽魂之门的灵动扈从萨利恩·萨雷蒂声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷蒂挑战，比试智慧、诗歌和荣誉礼节。
+幽魂之门的灵动扈从萨利恩·萨雷蒂声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷蒂挑战，比试智慧、诗歌和荣誉礼节。 {萨利恩·萨雷提}
 
 > INFO.NAME il_courtesy 28011321812039127676
 Frald the White was pleased to hear that I won the duel of wit and poetry.
@@ -13333,7 +13333,7 @@ Frald the White was pleased to hear that I won the duel of wit and poetry.
 
 > INFO.NAME il_courtesy 1364308412004225817
 Frald the White was disappointed to hear that I lost the challenge against Salyn Sarethi, but he thanked me for having the courage to meet the challenge.
-苍白者弗拉德听到我输掉了对萨利恩·萨雷蒂的挑战后很失望，但他感谢我有勇气迎接挑战。
+苍白者弗拉德听到我输掉了对萨利恩·萨雷蒂的挑战后很失望，但他感谢我有勇气迎接挑战。 {萨利恩·萨雷提}
 
 > INFO.NAME il_smuggler 284901820664227861
 Imperial Legion: Dwemer Artifacts at Drinar Varyon's Place
@@ -13393,11 +13393,11 @@ Malacath's Quest
 
 > INFO.NAME da_malacath 24907271173046912119
 I entered the shrine of Malacath and summoned the Daedra. He spoke to me of a helm of great power, once belonging to the elven hero Oreyn Bearclaw. In reality, he was no hero, though. The deeds attributed to him were actually performed by an orc, Kharag gro-Khar. If I can find the last of the Oreyn family bloodline, and kill him, I will be rewarded with the helm.
-我进入马拉卡斯圣祠，召唤出了迪德拉君主。他向我讲述了曾经属于精灵英雄的奥伦·熊爪之盔的强大力量。但实际上，那个精灵并不是什么英雄。他的事迹实际上是由兽人卡拉格·格罗-卡尔完成的。如果我能找到奥伦家族最后的血脉，并杀死他，我就能得到头盔。 {”熊爪“奥伦,报酬}
+我进入马拉卡斯圣祠，召唤出了迪德拉君主。他向我讲述了曾经属于精灵英雄的奥伦·熊爪之盔的强大力量。但实际上，那个精灵并不是什么英雄。他的事迹实际上是由兽人卡拉格·格罗-卡尔完成的。如果我能找到奥伦家族最后的血脉，并杀死他，我就能得到头盔。 {“熊爪”奥雷恩,报酬}
 
 > INFO.NAME da_malacath 26707319651263018566
 I've returned to the shrine of Malacath, who already knew of my success in killing Farvyn Oreyn. Malacath was as good as his word, and I now have the Helm of Oreyn Bearclaw in my possession. It is a fantastic helm, misnamed though it may be.
-我回到了马拉卡斯的圣祠，他已经知道我成功杀死了法文·奥伦。马拉卡斯言出必行，我现在拥有了奥伦·熊爪之盔。这是一个神奇的头盔，虽然它的名字可能是错的。 {”熊爪“奥伦}
+我回到了马拉卡斯的圣祠，他已经知道我成功杀死了法文·奥伦。马拉卡斯言出必行，我现在拥有了奥伦·熊爪之盔。这是一个神奇的头盔，虽然它的名字可能是错的。 {法尔文·奥雷恩,“熊爪”奥雷恩}
 
 > INFO.NAME b2c_yenammu 2977828507157279833
 Ahemmusa Nerevarine
@@ -13657,7 +13657,7 @@ Imperial Cult: Boots of the Apostle
 
 > INFO.NAME ic26_amanin 247152866426488483
 Lalatia Varian, an Oracle of the Imperial cult, has been given a prophecy of the Boots of the Apostle, a legendary treasure of Cyrodiil, relics of Tiber Septim who was also called Talos. "Through the doors of Berandas, within the silent caverns, beneath the wings of twilight, dust sleeps in the shoes that Talos wore." The Oracle bid me retrieve the Boots of the Apostle. A Dunmer savant or Dunmer scout may have clues to the meaning of the Oracle's prophetic words.
-帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。“穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。”。先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人}
+帝国教团的神谕者拉拉蒂亚·瓦里安得到了使徒之靴的预言，它是西罗帝尔的传奇宝物，泰伯·塞普汀的遗物，他也曾被称为塔洛斯。“穿过贝兰达斯之门，在寂静的洞穴内，在曙暮之翼下，尘埃沉睡在塔洛斯穿过的鞋子里。”。先知让我取回使徒之靴。一位丹莫学者或丹莫侦察兵可能会有一些线索来解释先知预言之语的含义。 {帝国人,丹莫斥候}
 
 > INFO.NAME ic26_amanin 25980298942494824563
 I retrieved the Boots of the Apostle from Berandas and brought them to Lalatia Varian. She praised me, and said that I was meant to keep the boots for myself, and that I should dedicate them to the service of the Nine. The Oracle said to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -13741,39 +13741,39 @@ The Mead Hall Massacre
 
 > INFO.NAME bm_meadhall 51852135816344768
 The mead hall of Thirsk has been attacked by a monster called the Udyrfrykte.  The creature struck without warning and killed everyone he could.  Svenja Snow-Song was finally able to drive the beast away with her arrows, but she fears the Udyrfrykte will return.
-瑟斯克的蜜酒大厅遭到了一只名为乌迪福瑞克的怪物的袭击。他毫无征兆地发动袭击，见人就杀。最终斯文加·雪歌用箭把他赶走了，但她担心乌迪福瑞克会卷土重来。
+瑟斯克的蜜酒大厅遭到了一只名为乌迪福瑞克的怪物的袭击。他毫无征兆地发动袭击，见人就杀。最终斯文娅·雪歌用箭把他赶走了，但她担心乌迪福瑞克会卷土重来。
 
 > INFO.NAME bm_meadhall 16681297651819814103
 Svenja Snow-Song implored me to slay the Udyrfrykte, but I refused. She's convinced the beast will eventually return to Thirsk and finish what he started.
-斯文加·雪歌恳求我去杀掉乌迪福瑞克，被我拒绝了。她相信这只野兽最后一定会重返瑟斯克，完成他的使命。
+斯文娅·雪歌恳求我去杀掉乌迪福瑞克，被我拒绝了。她相信这只野兽最后一定会重返瑟斯克，完成他的使命。
 
 > INFO.NAME bm_meadhall 30434158302448722872
 Svenja Snow-Song asked me to slay the Udyrfrykte, and I agreed. I can probably find the beast in his lair. The entrance is on the eastern shore of Lake Fjalding, just to the west of Thirsk. If I can slay the Udyrfrykte, I should claim some kind of trophy from the body. If I bring this trophy back to Svenja Snow-Song, I may be named chieftain of Thirsk.
-斯文加·雪歌让我去杀掉乌迪福瑞克，我同意了。他很有可能就待在野兽的巢穴里，而入口就在瑟斯克以西的菲亚丁湖东岸。如果我杀死了乌迪福瑞克，我可以从它的尸体上得到某种战利品。把它带回给斯文加·雪歌，我就有可能被任命为瑟斯克的首领。
+斯文娅·雪歌让我去杀掉乌迪福瑞克，我同意了。他很有可能就待在野兽的巢穴里，而入口就在瑟斯克以西的菲亚丁湖东岸。如果我杀死了乌迪福瑞克，我可以从它的尸体上得到某种战利品。把它带回给斯文娅·雪歌，我就有可能被任命为瑟斯克的首领。
 
 > INFO.NAME bm_meadhall 30403227865607204
 I have slain the Udyrfrykte.  I should claim a part of the beast as a battle trophy and bring it to Svenja Snow-Song at Thirsk.
-我已经杀死了乌迪福瑞克。我应该拾取野兽的一部分作为战利品，并将它带给瑟斯克的斯文加·雪歌。
+我已经杀死了乌迪福瑞克。我应该拾取野兽的一部分作为战利品，并将它带给瑟斯克的斯文娅·雪歌。
 
 > INFO.NAME bm_meadhall 6138227262716518795
 I gave the Heart of the Udyrfrykte to Svenja Snow-Song.  She says there is one more task I must complete before being named chieftain of Thirsk.
-我将乌迪福瑞克之心交给了斯文加·雪歌。她说，在被任命为瑟斯克首领之前，我必须再完成一个任务。
+我将乌迪福瑞克之心交给了斯文娅·雪歌。她说，在被任命为瑟斯克首领之前，我必须再完成一个任务。
 
 > INFO.NAME bm_meadhall 26288303051065427179
 I must journey west to the Moesring Mountains and find the hidden barrow of Hrothmund, the first chieftain of the mead hall. Once there, I must lay my hands on Hrothmund's great axe and utter my intention to rule over Thirsk and its people.  If Hrothmund's spirit approves, he will grant his blessing. While I'm away, Svenja will see to the repairs of the mead hall.
-我必须向西前往莫斯林山脉，找到酒馆第一任首领霍斯蒙德之冢藏地。到了那里，我必须亲手接过霍斯蒙德的大斧，说出我想统治瑟斯克和它的子民的愿望。如果霍斯蒙德的灵魂同意，他将赐予祝福。我不在的时候，斯文加会去修缮蜜酒大厅。 {手斧}
+我必须向西前往莫斯林山脉，找到酒馆第一任首领霍斯蒙德之冢藏地。到了那里，我必须亲手接过霍斯蒙德的大斧，说出我想统治瑟斯克和它的子民的愿望。如果霍斯蒙德的灵魂同意，他将赐予祝福。我不在的时候，斯文娅会去修缮蜜酒大厅。 {手斧}
 
 > INFO.NAME bm_meadhall 2702516852078819276
 I laid my hands on Hrothmund's great axe and uttered my intention to serve as Thirsk's chieftain.  Hrothmund's spirit answered by granting his blessing. I should now return to the mead hall and talk to Svenja Snow-Song so that I may be named chieftain.
-我将手放在霍斯蒙德的大斧上，说出了我想成为瑟斯克首领的意愿。霍斯蒙德的灵魂给予了我祝福。我现在应该回到蜜酒大厅，和斯文加·雪歌谈谈，这样我就可以被任命为首领了。 {手斧,侍奉}
+我将手放在霍斯蒙德的大斧上，说出了我想成为瑟斯克首领的意愿。霍斯蒙德的灵魂给予了我祝福。我现在应该回到蜜酒大厅，和斯文娅·雪歌谈谈，这样我就可以被任命为首领了。 {手斧,侍奉}
 
 > INFO.NAME bm_meadhall 996142912988528146
 Svenja Snow-Song has namd me chieftain of Thirsk.  The position is permanent, and I must serve it until I die.  Svenja has offered to serve as my advisor and second-in-command, and will take care of all mead hall matters in my absence.
-斯文加·雪歌任命我为瑟斯克的首领。这个职位是永久性的，我必须为它效力，直到我死去。斯文加愿意担任我的顾问和副手，并在我不在时负责蜜酒大厅的一切事务。 {侍奉}
+斯文娅·雪歌任命我为瑟斯克的首领。这个职位是永久性的，我必须为它效力，直到我死去。斯文娅愿意担任我的顾问和副手，并在我不在时负责蜜酒大厅的一切事务。 {侍奉}
 
 > INFO.NAME bm_meadhall 2213950292322026833
 I killed Svenja-Snow Song.  Without her support, I will never be chieftain of Thirsk.  And, seeing as Svenja was overseeing the repairs of the mead hall, Thirsk will never reopen.
-我杀了斯文加·雪歌。没有她的支持，我永远也当不上瑟斯克的首领。而且，由于斯文加正在监督蜜酒大厅的修缮工作，瑟斯克将永远无法重新开张。
+我杀了斯文娅·雪歌。没有她的支持，我永远也当不上瑟斯克的首领。而且，由于斯文娅正在监督蜜酒大厅的修缮工作，瑟斯克将永远无法重新开张。
 
 > INFO.NAME bm_meadhall 283679243043914510
 I laid my hands on Hrothmund's great axe and uttered my intention to serve as Thirsk's chieftain.  Hrothmund did not grant his blessing.  I shall never be the chieftain of the mead hall.
@@ -14009,15 +14009,15 @@ House Redoran: The Mad Lord of Milk
 
 > INFO.NAME hr_madmilk 243156941636814418
 Athyn Sarethi told me that the Redoran Noble, Arethan Mandas, has gone insane and has been demanding tribute from travellers from the cavern Milk which is on the road to Maar Gan just north of the crossroads. I should find a way to cure him if possible, or kill him if necessary. He suggested that I speak with Arethan's father, Llerar Mandas in Ebonheart.
-艾辛·萨雷蒂说，勒多兰贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。 {玛尔·甘}
+艾辛·萨雷蒂说，勒多兰贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。 {艾辛·萨雷提,玛尔·甘}
 
 > INFO.NAME hr_madmilk 3038997131625721006
 Athyn Sarethi thanked me for killing the Mad Lord, Arethan Mandas.
-艾辛·萨雷蒂感谢我杀死了疯狂领主阿雷森·曼达斯。
+艾辛·萨雷蒂感谢我杀死了疯狂领主阿雷森·曼达斯。 {艾辛·萨雷提}
 
 > INFO.NAME hr_madmilk 2625011566253311759
 Athyn Sarethi thanked me for restoring Arethan Mandas to his senses.
-艾辛·萨雷蒂感谢我让阿雷森·曼达斯恢复理智。
+艾辛·萨雷蒂感谢我让阿雷森·曼达斯恢复理智。 {艾辛·萨雷提}
 
 > INFO.NAME hh_eggmine 48252821488173201
 House Hlaalu: Inanius Egg Mine
@@ -14553,7 +14553,7 @@ Mages Guild: Recruit or Kill Llarar Bereloth
 
 > INFO.NAME mg_joinus 799911165242925427
 Ranis asked me to convince Llarar Bereloth to join the guild. If he cannot be convinced, I must kill him. To get to Sulipund, I should leave Balmora east and pass Fort Moonmoth. Then cross the bridge to Molag Amur and follow the trail east until I reach a lake. I should see a Dunmer stronghold to the south. If I head north on the path between the hills, Sulipund will be on my left, just before the path splits.
-拉尼斯让我说服拉拉尔·贝瑞洛斯加入公会。如果说服不了他，我就必须杀了他。要去苏利邦德，我应该向东离开巴尔莫拉，经过月蛾堡垒。然后经过锻莫遗迹的桥和锻莫遗迹前往莫拉格-阿穆尔，沿着小路向东一直走到一个湖边。我应该会在南边看到一个丹莫的堡垒。如果我沿着山丘间的小路向北走，苏利邦德就会在我的左手边，就在小路分岔之前。
+拉尼斯让我说服拉拉尔·贝瑞洛斯加入公会。如果说服不了他，我就必须杀了他。要去苏利邦德，我应该向东离开巴尔莫拉，经过月蛾堡垒。然后经过锻莫遗迹的桥和锻莫遗迹前往莫拉格-阿穆尔，沿着小路向东一直走到一个湖边。我应该会在南边看到一个丹莫的堡垒。如果我沿着山丘间的小路向北走，苏利邦德就会在我的左手边，就在小路分岔之前。 {莫拉格·阿穆尔}
 
 > INFO.NAME mg_joinus 33971608031362531
 I reported my success to Ranis Athrys in Balmora.
@@ -14657,7 +14657,7 @@ Imperial Cult: Gathering Netch Leather
 
 > INFO.NAME ic7_netch 14793102952203313187
 Synnolian Tunifus needs one unit of netch leather for cure paralyzation potions. He suggested hunting in the Ascadian Isles near Balur Salvu's house. He advised me to start with bull netch, because the betty netch are more dangerous.
-索诺里安·图尼夫斯需要一个单位的气母皮来制作治疗麻痹药水。他建议在巴卢·萨尔福家附近的阿斯卡迪亚群岛狩猎。他建议我从雄性气母开始，因为雌性气母更危险。 {这些药水}
+索诺里安·图尼夫斯需要一个单位的气母皮来制作治疗麻痹药水。他建议在巴卢·萨尔福家附近的阿斯卡迪亚群岛狩猎。他建议我从雄性气母开始，因为雌性气母更危险。 {这些药水,阿斯卡迪安群岛}
 
 > INFO.NAME ic7_netch 2925110583240533254
 I told Synnolian Tunifus I would not be able to bring him the one unit of netch leather he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -14853,7 +14853,7 @@ In Search of the Falmer
 
 > INFO.NAME bm_falmer 12101216091114611300
 I met one of Raven Rock colony's new arrivals, an Altmer noble named Athellor.  It seems Athellor came to Solstheim to investigate the Falmer, or Snow Elves.  The local belief is that the Rieklings are actually the Falmer of legend, but Athellor finds that suggestion absurd.
-我见到了乌鸦岩新来的人之一，一位名叫阿瑟罗的傲特莫贵族。阿瑟罗来到索瑟泰姆似乎是为了调查伐莫，也就是雪精灵。当地人认为蓝客灵其实就是传说中的伐莫，但阿瑟罗觉得这种说法很荒谬。
+我见到了鸦石新来的人之一，一位名叫阿瑟罗的傲特莫贵族。阿瑟罗来到索瑟泰姆似乎是为了调查伐莫，也就是雪精灵。当地人认为蓝客灵其实就是传说中的伐莫，但阿瑟罗觉得这种说法很荒谬。
 
 > INFO.NAME bm_falmer 2744612169484732313
 Athellor is convinced the Falmer were actual Elves, much like himself.  He believes they intermingled with the other Elven races and ceased to exist as an identifiable culture.  Athellor must really be itching to share his story with someone -- the more I listen, the more drinks he buys me....
@@ -15073,7 +15073,7 @@ Aldam has told me that three torches have been placed at the potential building 
 
 > INFO.NAME co_estate 3051426192119868250
 I've been told that plans were included for an estate for the Factor, and I need to give instructions as to where it should be built. I need to find Aldam Berendus at the Raven Rock site.
-我被告知，董事私人住宅的图纸已经包含在内，我需要下达建造地点的指示。我需要在乌鸦岩找到阿尔达姆·贝伦杜斯。 {计划}
+我被告知，董事私人住宅的图纸已经包含在内，我需要下达建造地点的指示。我需要在鸦石找到阿尔达姆·贝伦杜斯。 {计划}
 
 > INFO.NAME tt_balur 1936126244197972048
 Temple: Molag Bal of the House of Troubles
@@ -15533,7 +15533,7 @@ East Empire Company: Drastic Measures
 
 > INFO.NAME co_13a 2773222791925621517
 Constans Atrius named me Factor of the Raven Rock division of the East Empire Company.
-康斯坦斯·阿特里斯任命我为东帝国公司乌鸦岩分部的董事。
+康斯坦斯·阿特里斯任命我为东帝国公司鸦石分部的董事。
 
 > INFO.NAME co_13a 3107111773777717245
 Carnius attacked me when I confronted him with what Toralf told me. I was forced to kill him.
@@ -15557,7 +15557,7 @@ Toralf wants the weapons and armor handed out to his men. When I've finished tha
 
 > INFO.NAME co_13a 3033027070158922609
 Carnius has asked me to deliver equipment to a group of Nords arriving on Solstheim. He's hired them to slaughter the colonists at Raven Rock, making it appear as if the natives did it.
-卡尼乌斯让我把装备交给一群来到索瑟泰姆的诺德人。他雇他们去屠杀乌鸦岩的殖民者，并且让人以为是当地人干的。
+卡尼乌斯让我把装备交给一群来到索瑟泰姆的诺德人。他雇他们去屠杀鸦石的殖民者，并且让人以为是当地人干的。
 
 > INFO.NAME co_3a 22151121693221127598
 East Empire Company: Missing Supply Ship
@@ -15737,7 +15737,7 @@ East Empire Company: Hiring Guards
 
 > INFO.NAME co_11 10295270252075716941
 I've reported my findings to Carnius, who will take over equipping the guards for Raven Rock. It should take several days.
-我已向卡尼乌斯报告了我的发现，他将接管为乌鸦岩配备卫兵。这需要几天时间。 {瓜尔}
+我已向卡尼乌斯报告了我的发现，他将接管为鸦石配备卫兵。这需要几天时间。 {瓜尔}
 
 > INFO.NAME co_11 106976916110997801
 I've reported my findings to Falco, who will take over equipping the guards for the colony. It should take several days.
@@ -15793,7 +15793,7 @@ East Empire Company: Under Siege
 
 > INFO.NAME co_13 195322458175579177
 Falco has named me as the new Factor of the Raven Rock division of the East Empire Company.
-法尔科任命我为东帝国公司乌鸦岩分部的新董事。
+法尔科任命我为东帝国公司鸦石分部的新董事。
 
 > INFO.NAME co_13 13763132313257018700
 I have killed Carnius Magius.
@@ -15849,7 +15849,7 @@ Gidar, Gamin, and Sabinus have arrived safely at the site. I should speak with F
 
 > INFO.NAME co_1 3273619466256768250
 I have agreed to escort Gidar, Gamin, and Sabinus to the Raven Rock site.
-我已同意护送吉达尔、加明和萨比努斯前往乌鸦岩遗址。 {保镖}
+我已同意护送吉达尔、加明和萨比努斯前往鸦石遗址。 {保镖}
 
 > INFO.NAME co_1 11266280081342818445
 Carnius has instructed me to escort several men to the mining site. I should find Gidar Verothan by the dock south of the fort.
@@ -15933,7 +15933,7 @@ The supply ship never showed up. Falco suggested I ask around, in case anyone ha
 
 > INFO.NAME co_3 379655023121619966
 Carnius has asked me to go to Raven Rock and see Falco. He wants me to get a copy of the shipping manifest from the first supply ship.
-卡尼乌斯让我去乌鸦岩找法尔科。他想让我拿到第一艘补给船的装运清单副本。
+卡尼乌斯让我去鸦石找法尔科。他想让我拿到第一艘补给船的装运清单副本。
 
 > INFO.NAME co_4 165672964634458268
 East Empire Company: Setting up Shop
@@ -16025,7 +16025,7 @@ Baro Egnatius was extremely rude to me, and demanded a large sum of money to tra
 
 > INFO.NAME co_5 18113235391220529400
 Falco has told me that the new supply ship has arrived, but the captain, Baro Egnatius, won't budge without some sort of extra payment. Falco has no intention of paying him, and instead wants me to talk sense into him. He should be at the dock in Raven Rock.
-法尔科告诉我新的补给船已经到了，但船长巴罗·埃格纳提乌斯在没有得到某种额外报酬之前不打算让步。法尔科拒绝付钱给他，所以是想让我跟他讲讲道理。船长应该在乌鸦岩的码头。 {谈}
+法尔科告诉我新的补给船已经到了，但船长巴罗·埃格纳提乌斯在没有得到某种额外报酬之前不打算让步。法尔科拒绝付钱给他，所以是想让我跟他讲讲道理。船长应该在鸦石的码头。 {谈}
 
 > INFO.NAME co_5 12748259086415463
 There's some sort of problem with the new supply ship at the colony. Carnius has asked me to check in with Falco and deal with it.
@@ -16125,7 +16125,7 @@ Seler Favelnim has apparently gone crazy, and is on some sort of rampage in the 
 
 > INFO.NAME co_7 166551751190015804
 Falco needs me to deal with Seler Favelnim, who's on some sort of rampage at the Raven Rock bar.
-法尔科要我去对付塞勒·法维尼姆，他正在乌鸦岩的酒吧里闹事。 {需要}
+法尔科要我去对付塞勒·法维尼姆，他正在鸦石的酒吧里闹事。 {需要}
 
 > INFO.NAME co_8 1637724958120414276
 East Empire Company: Discovery in the Mine
@@ -16301,7 +16301,7 @@ Thank you. Thank you so much. Look, take this key. You'll find all of the mispla
 
 > INFO.NAME shipments stopped arriving 24136205242319227690
 I'm finished. I'll never leave this island now. At least not alive. Carius will have my head! What have you done? I hope you're happy, %PCName.
-我完了。我再也不能离开这座岛了，至少不会活着离开。卡利尤斯会砍了我的头的！你做了什么？我希望你高兴，%PCName。
+我完了。我再也不能离开这座岛了，至少不会活着离开。卡利尤斯会砍了我的头的！你做了什么？你现在开心了吧，%PCName。
 
 > INFO.NAME shipments stopped arriving 362532767723326978
 Well, I have no idea.... You've been in my desk? My desk? You've been in there? Why...that's an outrage! Stolen liquor? I have no idea.... All right. Perhaps I have been hiding the alcohol. It was for their own good! And...I had hoped that if the soldiers got fed up and revolted, I'd be able to justify going home to my superiors. Look, I don't want any trouble from you.
@@ -16589,7 +16589,7 @@ Aside from Captain Carius, I'm the only one here worth talking to.
 
 > INFO.NAME someone in particular 6283306532064711136
 If you get to Thirsk, heed the wisdom of Svenja Snow-Song. She has long been my good friend, and I have always known her advice to be sound.
-如果你到了瑟斯克，请听从斯文加·雪歌的智慧。她一直是我的好朋友，我知道她的建议很有道理。
+如果你到了瑟斯克，请听从斯文娅·雪歌的智慧。她一直是我的好朋友，我知道她的建议很有道理。
 
 > INFO.NAME someone in particular 3129930858460316476
 If your weapons and armor are in need of repair, speak with Snedbrir the Smith. You'll find him in his house, usually. If it's a disease you've got, Bronrod the Roarer may be able to help.
@@ -16685,7 +16685,7 @@ There's no Mirisa around here. If she left the Imperial Cult shrine and was head
 
 > INFO.NAME mirisa never returned 2909816132232708867
 Aye, the missionary came here several weeks ago. She started talking about her Shrine, and then began preaching about the evils of mead. Nice lass, but a little high-strung. Erich, he...he didn't really like what she had to say. Thought he'd teach her a lesson. I'm...I'm not really sure where she is now. [Skjoldr gives you a knowing look, and then gestures with his head to the staircase leading to the second floor.]
-是的，传教士几周前来过这里。她开始谈论她的圣祠，然后开始宣扬蜂蜜酒的邪恶。这姑娘不错，就是有点神经质。埃里希，他……他不太喜欢她说的话。他想给她上一课。我…我不确定她现在在哪。【斯克约尔德给了你一个会意的眼神，然后用头指了指通往二楼的楼梯。】
+是的，传教士几周前来过这里。她开始谈论她的圣祠，然后开始宣扬蜂蜜酒的邪恶。这姑娘不错，就是有点神经质。埃里希，他……他不太喜欢她说的话。他想给她上一课。我…我不确定她现在在哪。【斯科德给了你一个意味深长的眼神，然后点点头----指了指通往二楼的楼梯。】
 
 > INFO.NAME mirisa never returned 32420167051000822422
 Well, it would seem Erich has finally met his destiny, so there's no harm in letting you know the truth. The missionary is upstairs, locked in Erich's room. She's been there for quite a while, too, poor thing. If you intend to let her go, no one here will stop you.
@@ -16797,7 +16797,7 @@ Yes, I will kill the Udyrfrykte and claim the chieftain's throne of Thirsk.
 
 > INFO.BNAM beast must be stopped 14575132012716315592 c2
 No, I can't help you, Svenja.  Your problems are none of my concern.
-不，我帮不了你，斯文加。你的问题与我无关。
+不，我帮不了你，斯文娅。你的问题与我无关。
 
 > INFO.NAME more ashlander raids 3238231202108612107
 It's not bad enough with the blight storms this year, but the Ashlanders are also going crazy, jumping caravans and pilgrims, raiding villages, scrapping with the Legions. They ought to send the Legions out and teach them a lesson.
@@ -16897,7 +16897,7 @@ We must find out what has happened. Perhaps this is a sign of prophecy, perhaps 
 
 > INFO.NAME east empire company 7283251118328906
 They are building the mine at Raven Rock.
-他们正在乌鸦岩建造矿场。
+他们正在鸦石建造矿场。
 
 > INFO.NAME east empire company 297827496882022317
 The East Empire Company is a monopolistic mercantile enterprise chartered by the Emperor and managed by a board of directors appointed by the Emperor. The Company has sole authority to trade in certain goods, like flin, raw ebony, raw glass, and Dwemer artifacts, and it also enjoys favorable tariffs and regulations for import and export of other common and exotic goods, like kwama eggs, marshmerrow pulp, saltrice, and Telvanni bug musk.
@@ -17013,7 +17013,7 @@ Yes, I know it has. These soldiers lead a difficult existence on this island. It
 
 > INFO.NAME morale has been low 25484325302217725866
 I believe that business is complete. Thank you for your help.
-我想生意已经谈完了。谢谢你的帮助。 {事}
+我想这件事已经结束了。谢谢你的帮助。
 
 > INFO.NAME morale has been low 26577323112283225245
 You say that the shipment had merely been misplaced and this was all a big miscommunication? That's ridiculous. I expected better of my men, and myself. Especially of myself. Thank you for your help, %PCName. Take these--there are diseases on this island we have never encountered. I would hate to see you take ill. Now, though, there is more fort business to discuss.
@@ -18294,11 +18294,11 @@ Just deliver the equipment as I've asked, %PCRank. That's all you need to do; I'
 
 > INFO.NAME drastic measures 54564273557021080
 If a band of raving Nordic lunatics from the North were to slaughter all of the colonists, that might be enough to convince anyone interested in the Raven Rock site that it's just not worth it. You're going to see to it that it happens, %PCRank.
-如果一帮来自北方的诺德疯子屠杀了所有殖民者，那足以打消任何人对鸦石的兴趣。你要确保这一切将会发生，%PCRank。 {诺德人,诺德风格,乌鸦岩}
+如果一帮来自北方的诺德疯子屠杀了所有殖民者，那足以打消任何人对鸦石的兴趣。你要确保这一切将会发生，%PCRank。 {诺德人,诺德风格}
 
 > INFO.NAME drastic measures 2173313512850310823
 I've underestimated the resolve of several of our investors. Their indominitable greed has kept them from backing out of our arrangement, despite all the terrible things that have befallen Raven Rock. In order to change their minds, something very unfortunate will have to happen. Perhaps if the native Nords on the island slaughter all of the colonists, they might think twice about their choice....
-我低估了几个投资者的决心。尽管乌鸦岩发生了这么多可怕的事情，他们不屈不挠的贪婪使他们没有放弃我们的安排。为了改变他们的想法，必须发生一些非常不幸的事情。也许如果岛上的诺德人屠杀了所有殖民者，他们就会对自己的选择三思而后行……
+我低估了几个投资者的决心。尽管鸦石发生了这么多可怕的事情，他们不屈不挠的贪婪使他们没有放弃我们的安排。为了改变他们的想法，必须发生一些非常不幸的事情。也许如果岛上的诺德人屠杀了所有殖民者，他们就会对自己的选择三思而后行……
 
 > INFO.NAME service refusal 861622254451322094
 You think I'd lift a finger to help you? Think again, %PCRank. Be thankful you still have a job.
@@ -19006,7 +19006,7 @@ The master...Karstaag that is...has taken off. Gone. Don't know why, don't know 
 
 > INFO.NAME mortrag glacier 30128247391111224793
 Some have been saying that the glacier collapsed on itself. I'm just glad Raven Rock is far away from the place.
-有人说冰川自己坍塌了。我很高兴乌鸦岩离那地方很远。
+有人说冰川自己坍塌了。我很高兴鸦石离那地方很远。
 
 > INFO.NAME mortrag glacier 1888843542338420947
 I heard there was a glacier in the northwest corner of the island. Don't know much more than that.
@@ -19042,15 +19042,15 @@ Yes, this is the last of the three books I was looking for. I know I had another
 
 > INFO.NAME specific place 1906014833141124249
 The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, boasts a bar and a Trader's Outpost. All thanks to me, of course.
-这里的生活设施充其量只能算差强人意。和我以前住的地方完全不一样。有一个圣祠和一个军械库，其他就没什么了。而乌鸦岩却有一个酒吧和一个贸易商前哨。当然，这都是我的功劳。 {虚张声势}
+这里的生活设施充其量只能算差强人意。和我以前住的地方完全不一样。有一个圣祠和一个军械库，其他就没什么了。而鸦石却有一个酒吧和一个贸易商前哨。当然，这都是我的功劳。 {虚张声势}
 
 > INFO.NAME specific place 3213523809742220831
 The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock, however, is far more civilized, having both a bar and a smithy. You can thank me for that.
-这里的设施充其量只能算差强人意。和我习惯的地方完全不一样。这里有一个圣祠和一个军械库，其他就没什么了。而乌鸦岩则文明得多。这里有酒吧和铁匠铺。这都是拜我所赐。
+这里的设施充其量只能算差强人意。和我习惯的地方完全不一样。这里有一个圣祠和一个军械库，其他就没什么了。而鸦石则文明得多。这里有酒吧和铁匠铺。这都是拜我所赐。
 
 > INFO.NAME specific place 28363297111018518667
 The amenities here are poor, at best. Certainly nothing like what I'm used to. There's a shrine and an armory, but little else. Raven Rock should change that, however.
-这里的设施充其量只能算差强人意。和我以前住的地方完全不一样。这里有圣祠和军械库，其他的就很少了。不过乌鸦岩应该会改变这一切。
+这里的设施充其量只能算差强人意。和我以前住的地方完全不一样。这里有圣祠和军械库，其他的就很少了。不过鸦石应该会改变这一切。
 
 > INFO.NAME specific place 941132532568727871
 Bronrod has some useful potions, and Snedbrir can fix your weapons and armor. We're a small village, without many needs. You might want to head back to the Imperials if you're looking for anything else.
@@ -19058,7 +19058,7 @@ Bronrod has some useful potions, and Snedbrir can fix your weapons and armor. We
 
 > INFO.NAME specific place 3261659012193201
 There's not much here at Fort Frostmoth. We've got a smith in the Armory and a shrine at the Imperial Cult Shrine, but that's about it. If you're looking for more than that, head over to Raven Rock and see if they've got anyone to help you.
-霜蛾堡没什么好东西。军械库里有个铁匠铺，帝国教团圣祠里有个神龛，但也仅此而已。如果你想找更多的东西，可以去乌鸦岩看看有没有人可以帮你。 {帝国人}
+霜蛾堡没什么好东西。军械库里有个铁匠铺，帝国教团圣祠里有个神龛，但也仅此而已。如果你想找更多的东西，可以去鸦石看看有没有人可以帮你。 {帝国人}
 
 > INFO.NAME specific place 130527842206889953
 North of here, nestled in the snowy woods, is a strange house alight with colored lanterns. I'm not sure who lives there, but it's not unusual to hear singing coming from inside.
@@ -19826,11 +19826,11 @@ You did what you had to do, %PCName. It was clearly self-defense, and no one can
 
 > INFO.NAME carnius magius 19982286102496918517
 He's the local Factor, and is in charge of development and mining for Raven Rock. You can find him at the Fort; he's been given quarters above the Imperial shrine. I have my suspicions that he has alterior motives for accepting this position, however.
-他是当地的董事，负责乌鸦岩的开发和矿场。你可以在堡垒找到他；帝国圣祠楼上有他的住处。不过，我怀疑他接受这个职位另有隐情。 {帝国人}
+他是当地的董事，负责鸦石的开发和矿场。你可以在堡垒找到他；帝国圣祠楼上有他的住处。不过，我怀疑他接受这个职位另有隐情。 {帝国人}
 
 > INFO.NAME carnius magius 3950282291955251
 He's the local Factor, and is in charge of development and mining for Raven Rock. You can find him at the Fort; he's been given quarters above the Imperial shrine.
-他是当地的董事，负责乌鸦岩的开发和矿场。您可以在堡垒找到他；帝国圣祠楼上有他的住处。 {帝国人}
+他是当地的董事，负责鸦石的开发和矿场。您可以在堡垒找到他；帝国圣祠楼上有他的住处。 {帝国人}
 
 > INFO.NAME carnius magius 156610112691616718
 He's the boss. Tough guy, but what people say about him isn't all true. Really. I mean, why would I say anything bad about him?
@@ -20326,7 +20326,7 @@ Smart as they come, that's Lusius. Everyone around here likes him, too. Real eas
 
 > INFO.NAME saenus lusius 2646813204622332449
 Smart as they come, that's Lusius. Everyone around here likes him, too. Real easy to talk to. Not the most handy guy with the steel, but he makes up for it in smarts. You can probably find him in the General Quarters.
-卢修斯就是这么聪明，这里的人也都喜欢他，他很好说话。虽然不是最能打的，但他的聪明可以弥补这一点。你可以在指挥官住所找到他。 {谈,钢}
+卢西乌斯就是这么聪明，这里的人也都喜欢他，他很好说话。虽然不是最能打的，但他的聪明可以弥补这一点。你可以在指挥官住所找到他。 {谈,钢}
 
 > INFO.NAME some research 2825917023607604
 Yes, research on the Falmer.  Some call them Snow Elves, though I find that designation a gross oversimplification.  You see, according to Nord legend, the Falmer are an elusive race of Elves who dwell in cold, remote regions.  They're usually blamed for any number of disasters -- blizzards, missing children, you name it.  The locals think those vile Riekling ice creatures are the Falmer of legend, an insulting and absurd notion if ever there was one.  Here, please, have another drink....
@@ -20790,7 +20790,7 @@ I continued to learn what I could of the ways of the living flesh and the energi
 
 > INFO.NAME candy treats 9518170782178310157
 My candy treats are tasty, they are!  And filled with special sugar and love!  They bring happiness!  Happiness to everyone on Solstheim!  That's what I do, you see!  I give out my special sugary treats and spread happiness throughout the land!  It's difficult work, but oh so very rewarding!  M'nashi certainly thought so.  Ahh, M'nashi, the dear lad....
-我的糖果宴会确实美味可口，充满了特殊的糖和爱。它们带来了幸福！给索瑟泰姆的每个人带来幸福！你看，这就是我的工作！我分发我的特制糖果，把快乐传遍整个大陆！虽然工作很辛苦，但却非常有意义！麦'纳西也是这么想的。啊，麦'纳西，亲爱的小伙子…… {报酬}
+我的糖果宴会确实美味可口，充满了特殊的糖和爱。它们带来了幸福！给索瑟泰姆的每个人带来幸福！你看，这就是我的工作！我分发我的特制糖果，把快乐传遍整个大陆！虽然工作很辛苦，但却非常有意义！姆'纳西也是这么想的。啊，姆'纳西，亲爱的小伙子…… {报酬}
 
 > INFO.NAME brodir grove 1302623000259477530
 Brodir Grove is where Grimkell ambushed us.  My friends were turned to stone on that very spot, and there they remain, a monument of betrayal.  I too was caught in the spell, but thought I had been spared its effects.  I was wrong.  Instead of killing me, like it did my friends, Grimkell's magicka turned me into living stone.  You see, these events did take place -- five hundred years ago.  I have remained here ever since.  And here I will stay, until I finally find the entrance to Sovngarde.
@@ -21330,7 +21330,7 @@ Gladly. Let's go.
 
 > INFO.NAME ready to go 157512543115238648
  We're still headed for Raven Rock, right?
- 我们还是要去乌鸦岩，对吧？
+ 我们还是要去鸦石，对吧？
 
 > INFO.BNAM ready to go 157512543115238648 c1
 Wait here.
@@ -21670,7 +21670,7 @@ I'll help you, Ulfgar.  I will do everything in my power to defeat you in armed 
 
 > INFO.NAME greeting 1 18734306931781631090
 Welcome back, %PCName.  I hope Solstheim has been treating you well.  So tell me...have you managed to locate the entrance to Sovngarde?  Ha!  Of course you haven't!  I searched for five hundred years and never succeeded!  You know, there's a part of me that feels Sovngarde doesn't even exist....
-欢迎回来，%PCName。我希望你在索瑟姆一切都好。告诉我……你找到松加德的入口了吗？当然没有！当然没有！我找了五百年都没找到！你知道吗，我有时候甚至觉得松加德根本不存在…… {索瑟泰姆}
+欢迎回来，%PCName。我希望你在索瑟泰姆一切都好。告诉我……你找到松加德的入口了吗？当然没有！当然没有！我找了五百年都没找到！你知道吗，我有时候甚至觉得松加德根本不存在……
 
 > INFO.BNAM greeting 1 18734306931781631090 c1
 Actually, Ulfgar, I came upon this book.  It's called 'Sovngarde, a Reexamination,' and seems to offer new theories on how one may enter Sovngarde.  I think it may have the answers you seek.
@@ -21682,7 +21682,7 @@ I have been waiting for you, %PCName.  The hour of battle is upon us.  I hope yo
 
 > INFO.NAME greeting 1 295458120132598183
 Hail, %PCClass. Svenja Snow-Song is my name. We welcome guests here at Thirsk, so long as they behave themselves. Respect my home and my clan, and we'll get along just fine. Normally I'd tell outsiders to stay clear of Erich the Unworthy, but I see that won't be necessary now, will it?
-向你致敬，%PCClass。我的名字是斯文加·雪歌。我们在瑟斯克欢迎客人。只要他们规矩一点，尊重我的家和我的族人，我们就能相处得很好。通常我会告诉外人不要靠近卑劣者埃里希，但我看现在没必要了，对吧？
+向你致敬，%PCClass。我的名字是斯文娅·雪歌。我们在瑟斯克欢迎客人。只要他们规矩一点，尊重我的家和我的族人，我们就能相处得很好。通常我会告诉外人不要靠近卑劣者埃里希，但我看现在没必要了，对吧？
 
 > INFO.NAME greeting 1 28648310991695427202
 Good to see you again, %PCName.  I hope our fair island is treating you well enough.
@@ -21830,7 +21830,7 @@ Greetings, %PCName.  My name is Bereditte Jastal.  Perhaps you'd like to buy one
 
 > INFO.NAME greeting 1 28379122511349819353
 Hail, %PCClass. Svenja Snow-Song is my name. We welcome guests here at Thirsk, so long as they behave themselves. Respect my home and my clan, and we'll get along just fine. One word of advice, though -- stay clear of Erich the Unworthy. He's more trouble than he's worth.
-向你致敬，%PCClass。我叫斯文加·雪歌。我们瑟斯克欢迎客人，只要他们规矩点。尊重我的家和我的族人，我们就能相处得很好。不过我有个忠告，离卑劣者埃里希远点。他是个大麻烦。
+向你致敬，%PCClass。我叫斯文娅·雪歌。我们瑟斯克欢迎客人，只要他们规矩点。尊重我的家和我的族人，我们就能相处得很好。不过我有个忠告，离卑劣者埃里希远点。他是个大麻烦。
 
 > INFO.NAME greeting 1 3276191812384925826
 He...he came to the mead hall and killed...killed everyone he could!  There was no warning! My clan fought bravely, but they were no match. I rained arrows upon the beast, and finally drove him off. But he'll be back!  It all happened so quickly. We were just standing here, enjoying our mead and the warmth of the fire, when he struck. Never have I seen a creature so savage. If I didn't know better, I'd say the monster that did this was the Udyrfrykte, but how could that be?
@@ -22934,11 +22934,11 @@ You've got to find the Captain! The fort needs him!
 
 > INFO.NAME greeting 1 296401292608821267
 He's gone! Those creatures took him during the battle. Someone has got to find the Captain! And where's Lusius? He's dead, too? This is horrible!
-他不见了，那些怪物在战斗中带走了他。必须有人找到队长！卢修斯呢？他也死了？太可怕了！
+他不见了，那些怪物在战斗中带走了他。必须有人找到队长！卢西乌斯呢？他也死了？太可怕了！
 
 > INFO.NAME greeting 1 236130638108512271
 He's gone! Those creatures took him during the battle. Someone has got to find the Captain!
-他死了。那些怪物在战斗中带走了他。得有人找到队长！
+他不见了。那些怪物在战斗中带走了他。得有人找到队长！
 
 > INFO.NAME greeting 1 1464325841537425883
 What the...? Someone attacked the fort while we were gone! We've gotta find the Cap'n right now!
@@ -23162,7 +23162,7 @@ Welcome to Solstheim, jewel of absolutely nowhere. It's a miserable place, even 
 
 > INFO.NAME greeting 1 2724215468161597167
 Do you wish to go back to Vvardenfell as much as I do? What about Raven Rock, where the new colony is going to be built? I can take you there for a price.
-你和我一样想回瓦登费尔吗？乌鸦岩如何，新殖民地将建在那里？我可以带你过去，只要付钱。
+你和我一样想回瓦登费尔吗？鸦石如何，新殖民地将建在那里？我可以带你过去，只要付钱。
 
 > INFO.NAME greeting 1 1454427736574310322
 Greetings. Are you in need of transport? S'virr will gladly take you to Fort Frostmoth in Solstheim for a small fee.
@@ -23362,7 +23362,7 @@ I, uhh.... I take it you have resolved your problems with Carnius? Perhaps you s
 
 > INFO.NAME greeting 1 1687916831263988386
 I, uhh.... I take it you have resolved your problems with Carnius? Well, that makes you the ranking official at the Raven Rock site. In, uhh, in that case, I'd be happy to forward along the appropriate paperwork and have you instated as the local Factor. I hope that's satisfactory, your factor-ness....
-我，呃……我想你已经解决了与卡尼乌斯的问题？那你就是乌鸦岩的最高长官了。这样的话，我很乐意把相关文件转交给你，让你成为当地的负责人。希望你满意……
+我，呃……我想你已经解决了与卡尼乌斯的问题？那你就是鸦石的最高长官了。这样的话，我很乐意把相关文件转交给你，让你成为当地的负责人。希望你满意……
 
 > INFO.NAME greeting 1 120821022620246619
 Eh? Oh, you're here about the swords? Hrmph. Very well, here you go. Though I don't know that they'll be of much help to the likes of you.
@@ -23718,7 +23718,7 @@ What can I do for you, Factor?
 
 > INFO.NAME greeting 1 8185135575641753
 Carnius is dead? I'm sorry, %PCName. I didn't think it would come to that. You've lived through it, though, and Raven Rock will be a better place for it. Now, someone needs to be put in charge.... I know I don't want the job. You're next in line for it, so I'll make sure the paperwork goes through. You're now the Factor of the Raven Rock division of the East Empire Company. Congratulations!
-卡尼乌斯死了？对不起，%PCName。我没想到会这样。但你经历了这一切，乌鸦岩也会因此变得更好。现在，需要有人负责……我知道我不想要这份工作。你是下一个人选，所以我会确保文书工作顺利进行。你现在是东帝国公司乌鸦岩分部的负责人。恭喜你！
+卡尼乌斯死了？对不起，%PCName。我没想到会这样。但你经历了这一切，鸦石也会因此变得更好。现在，需要有人负责……我知道我不想要这份工作。你是下一个人选，所以我会确保文书工作顺利进行。你现在是东帝国公司鸦石分部的负责人。恭喜你！
 
 > INFO.NAME greeting 1 237975006319752247
 Take that note to Carnius, %PCName, and see what he has to say for himself.
@@ -23846,7 +23846,7 @@ So you're the escort? Well, fine. Let me know when you're ready to go.
 
 > INFO.NAME greeting 1 14410146582869918431
 Sorry, %PCRace. Can't talk right now; we're waiting for our escort to Raven Rock. Go see Carnius Magius in the shrine if you need something.
-抱歉，%PCRace。现在不能说话，我们在等护送我们去乌鸦岩的人。有事就去圣祠找卡尼乌斯·马基乌斯吧。 {谈,保镖,需要}
+抱歉，%PCRace。现在不能说话，我们在等护送我们去鸦石的人。有事就去圣祠找卡尼乌斯·马基乌斯吧。 {谈,保镖,需要}
 
 > INFO.NAME greeting 1 224541147282137952
 CHAPPY -- BLOODMOON GREETINGS ABOVE
@@ -26226,11 +26226,11 @@ It would appear that the matter of Uryn Maren has been settled for us, %PCName.
 
 > INFO.NAME assignment 12968174211368213769
 Uryn Maren is dead. An incident this serious will most likely shut down Raven Rock. There's nothing I can do.
-乌林·马伦已经死了。这么严重的事件很可能会导致乌鸦岩关闭。我无能为力。
+乌林·马伦已经死了。这么严重的事件很可能会导致鸦石关闭。我无能为力。
 
 > INFO.NAME assignment 27691264991381629481
 Aldam Berendus is dead. An incident this serious will most likely shut down Raven Rock. There's nothing I can do.
-阿尔达姆·贝伦杜斯已死。如此严重的事件很可能会关闭乌鸦岩。我无能为力。
+阿尔达姆·贝伦杜斯已死。如此严重的事件很可能会关闭鸦石。我无能为力。
 
 > INFO.NAME assignment 2078517032414627392
 Uryn Maren saw you following him. It's over.
@@ -26570,7 +26570,7 @@ There's no work for you right now, %PCRank. Check again in a few days.
 
 > INFO.NAME assignment 1757613375704420978
 He's dead? Wonderful! That'll send a message: anyone who gets in the way of the Raven Rock project will suffer dearly. Excellent work, %PCRank. Oh, don't worry about what Falco thinks. He still takes orders from me, you know.
-他死了？好极了。这将传达一个指示信息：任何阻碍乌鸦岩计划的人都将付出惨重代价。干得好，%PCRank。别担心法尔科会怎么想，他还是听我的，你知道的。 {工作}
+他死了？好极了。这将传达一个指示信息：任何阻碍鸦石计划的人都将付出惨重代价。干得好，%PCRank。别担心法尔科会怎么想，他还是听我的，你知道的。 {工作}
 
 > INFO.NAME assignment 27059168641536915993
 So it's been dealt with? Shame that you didn't just kill him outright, but fair enough. As long as the work can continue. Good job, %PCRank.
@@ -26774,7 +26774,7 @@ Follow him, %PCName. My guess is that now that he thinks he's safe, he'll probab
 
 > INFO.NAME uryn maren 10515140221890110987
 What? My information was very reliable... it may be that he was tipped off by someone. I don't claim to have a monopoly on spying here at Raven Rock. Well, if we don't have any evidence, then we'll just have to catch him red-handed. He should be in the mine; follow him and see if he does anything suspicious. Take care not to be seen by anyone, as they could alert him to your presence.
-什么？我的情报非常可靠……也许他是被谁告密了。在乌鸦岩，我可没说我垄断了间谍活动。好吧，如果我们没有任何证据，那就只能人赃并获了。他应该在矿场，跟踪他，看他是否有可疑举动。注意不要被任何人看到，因为他们可能会提醒他你的存在。 {提示}
+什么？我的情报非常可靠……也许他是被谁告密了。在鸦石，我可没说我垄断了间谍活动。好吧，如果我们没有任何证据，那就只能人赃并获了。他应该在矿场，跟踪他，看他是否有可疑举动。注意不要被任何人看到，因为他们可能会提醒他你的存在。 {提示}
 
 > INFO.NAME uryn maren 189653128749722069
 You have the key, %PCName. Go find that chest, and the proof we need.
@@ -26806,11 +26806,11 @@ Would you consider aiding me, %PCName? With your help, I could see that much goo
 
 > INFO.NAME crossroads 12678216553270314585
 If he hasn't already, I'm sure Carnius will approach you before long. He will attempt to draw you into his plans for this colony, and though I do not know what they are, I know they will be carried out at the expense of the hard-working people of this colony. Rather than see you fall prey to his greed, I hope that you would give consideration to aiding me in making Raven Rock a better place for us all.
-如果卡尼乌斯还没有来，我相信他很快就会来找你。他会试图把你拉进他的殖民地计划中。虽然我不知道他的计划是什么，但我知道他的计划将以牺牲殖民地辛勤劳作的人民为代价。与其看着你们成为他贪婪的牺牲品，我希望你们能考虑帮助我，让乌鸦岩成为一个对我们所有人都更好的地方。 {工作,老鼠}
+如果卡尼乌斯还没有来，我相信他很快就会来找你。他会试图把你拉进他的殖民地计划中。虽然我不知道他的计划是什么，但我知道他的计划将以牺牲殖民地辛勤劳作的人民为代价。与其看着你们成为他贪婪的牺牲品，我希望你们能考虑帮助我，让鸦石成为一个对我们所有人都更好的地方。 {工作,老鼠}
 
 > INFO.NAME snow bears 266835893170245266
 Snow bears are larger than normal bears, and have thick white fur that protects them against the frost and cold. They're very aggressive when encountered, and their attacks have been known to freeze human flesh. Snow bears can be pretty hard to find, but hunters have seen them in the snowy forested regions along Solstheim's southern coast
-雪熊比普通熊大，有厚厚的白毛，可以保护它们免受霜冻和寒冷。与它们遭遇时，它们的攻击性会很强，据说它们的攻击可以冻住人的肉体。它们神出鬼没，但有猎人曾在索瑟姆南部海岸的雪林地区看到它们 {索瑟泰姆}
+雪熊比普通熊大，有厚厚的白毛，可以保护它们免受霜冻和寒冷。与它们遭遇时，它们的攻击性会很强，据说它们的攻击可以冻住人的肉体。它们神出鬼没，但有猎人曾在索瑟泰姆南部海岸的雪林地区看到它们
 
 > INFO.NAME snow bears 966465902164524709
 Maybe I saw one. Maybe it was just snowing really hard. Either way, haven't seen one since.
@@ -26834,11 +26834,11 @@ Their kind isn't welcome here. They like mead well enough, it's true, but the be
 
 > INFO.NAME berserkers 1396224021218415248
 They are called "bare-sarks" in the Nord tongue, beause of their insistence on going bare-chested even in the most severe blizzard. They're crazy as they come, friend, and care only for savagery and murder. It is said they are so attracted to death, they make their homes in some of Solstheim's burial barrows. I've also heard rumor of some kind of berserker "mother" but no one has ever seen her and lived to tell about it.
-在诺德人的口中，他们被称为“赤沙克”，因为他们即使在最严重的暴风雪中也坚持赤膊上阵。他们疯疯癫癫的，关心的只有野蛮和谋杀。据说他们被死亡所吸引，在索瑟姆的一些墓穴中安家。我还听说过关于某种狂战士的“母亲”的传闻，但没有人见过她，也没有人活着讲述过。 {索瑟泰姆}
+在诺德人的口中，他们被称为“赤沙克”，因为他们即使在最严重的暴风雪中也坚持赤膊上阵。他们疯疯癫癫的，关心的只有野蛮和谋杀。据说他们被死亡所吸引，在索瑟泰姆的一些墓穴中安家。我还听说过关于某种狂战士的“母亲”的传闻，但没有人见过她，也没有人活着讲述过。
 
 > INFO.NAME berserkers 290772171403513699
 They are the "bare-sarks" or bare-chested. The berserkers wear no clothing and have been driven mad by the cold and too much mead. They are not welcome here or anywhere else on Solstheim, for that matter.
-他们是“赤沙克”或者说赤膊人。这些狂战士不穿衣服，被寒冷和太多的蜜酒酿成了疯子。无论是这里还是索瑟姆的任何地方都不欢迎他们。 {索瑟泰姆}
+他们是“赤沙克”或者说赤膊人。这些狂战士不穿衣服，被寒冷和太多的蜜酒酿成了疯子。无论是这里还是索瑟泰姆的任何地方都不欢迎他们。
 
 > INFO.NAME berserkers 14375304282006331520
 They are crazed Nords roaming the forest. Stay away from them.
@@ -26854,11 +26854,11 @@ The berserkers are half-naked Nords who live to kill. They've been driven mad by
 
 > INFO.NAME fryse hags 3233563402024329602
 The fryse hags are mages dedicated to the teachings of Kyne, the widow of the god Shor. Each is a powerful sorceress skilled in the use of frost-based magicka. They're vicious lasses, and view most people as a threat to their beliefs. They've been seen out in the wild, and in a couple of the ice caves.
-冰霜女巫是信奉朔尔神遗孀凯恩教义的法师。她们都是精通冰霜魔法的强大女巫。她们是恶毒的女孩，视大多数人为其信仰的威胁。人们曾在野外和几个冰洞中看到过她们。 {魔力}
+冰霜女巫是信奉朔尔神遗孀吉讷教义的法师。她们都是精通冰霜魔法的强大女巫。她们是恶毒的女孩，视大多数人为其信仰的威胁。人们曾在野外和几个冰洞中看到过她们。 {魔力}
 
 > INFO.NAME fryse hags 154255821006816837
 The fryse hags are powerful and savage mages dedicated to the teachings of Kyne, the Mother of Men. They despise anyone not of their order, and will attack on sight.
-冰霜女巫是强大而野蛮的法师，信奉人类之母凯恩的教义。他们蔑视任何不属于他们教派的人，一打照面他们就会发动攻击。
+冰霜女巫是强大而野蛮的法师，信奉人类之母吉讷的教义。他们蔑视任何不属于他们教派的人，一打照面他们就会发动攻击。
 
 > INFO.NAME raven rock 289187297656316390
 The empire's mining colony, bringing wealth to the empire. But at what cost?
@@ -26926,7 +26926,7 @@ There's a mining colony there now. It was just a matter of time before someone c
 
 > INFO.NAME raven rock 17412539031547511
 Raven Rock is on the southern shore, toward the west end of the island. It's name comes from the black coloring caused by all the ebony ore that can be found there.
-乌鸦岩在南海岸，岛的西端。乌鸦岩的名字源于那里的黑檀矿石所呈现出来的黑色。
+鸦石在南海岸，岛的西端。鸦石的名字源于那里的黑檀矿石所呈现出来的黑色。
 
 > INFO.NAME werewolves 8530353148485107
 Terrible beasts, as I have come to learn. Though I thought they had been hunted to extinction, I see now that this is clearly not the case.
@@ -27554,7 +27554,7 @@ Aside from this shop, you mean? Well, that's an easy answer. Nothing. If it's no
 
 > INFO.NAME services 935181001719718349
 You're standing the midst of the services Raven Rock has to offer. If you need anything else, you're better off checking at Fort Frostmoth.
-乌鸦岩提供的服务应有尽有。如果你还需要什么，最好去霜蛾堡看看。
+鸦石提供的服务应有尽有。如果你还需要什么，最好去霜蛾堡看看。
 
 > INFO.NAME services 1537321329814719126
 We've precious few services to offer. We're simple people, and we need but our weapons and our health. If your weapons are your problem, check with Snedbrir the Smith. If it's your health that concerns you, speak with Bronrod the Roarer.
@@ -27830,7 +27830,7 @@ I haven't decided yet.
 
 > INFO.NAME decision 496318281606632531
 Raven Rock is expanding nicely, despite the heavy ore quotas Carnius has insisted on. It's time we build something other than housing, and the funds are available to build either a smithy or a trader's outpost. I'm having a difficult time deciding which would suit us better, and I'd value your opinion. Take some time and think it over, talk to the workers if you like, and come back when you've made up your mind.
-尽管卡尼乌斯坚持矿石配额过高，乌鸦岩仍在顺利扩张。是时候建造房屋以外的东西了，我们有资金建造铁匠铺或贸易商前哨。我很难决定哪一个更适合我们，我希望您能提供意见。花点时间考虑一下，如果你愿意，可以和工人们谈谈，等你拿定主意后再回来。 {工作}
+尽管卡尼乌斯坚持矿石配额过高，鸦石仍在顺利扩张。是时候建造房屋以外的东西了，我们有资金建造铁匠铺或贸易商前哨。我很难决定哪一个更适合我们，我希望您能提供意见。花点时间考虑一下，如果你愿意，可以和工人们谈谈，等你拿定主意后再回来。 {工作}
 
 > INFO.NAME decision 22569293201341118213
 It was decided already, %PCName.
@@ -28030,11 +28030,11 @@ Find those Nords and kill them. They're the only ones who understand the true im
 
 > INFO.NAME stalhrim 30158186984095955
 It's Nordic, whether the fools at Raven Rock know it or not. And it's immensely valuable - worth more than the rest of that whole stinking mine. Know that this, THIS is the reason I took this ridiculous position in the first place; I want that ice, and I want all of it. Since Graring is already dead, there's no one to stop you from taking it.
-不管乌鸦岩的蠢货们知不知道，它都是诺德人的。而且它价值连城，比整个臭矿场的其他东西都值钱。要知道，这就是我一开始采取这种荒谬立场的原因；我要那块冰，我要它的全部。既然加拉林已经死了，就没人能阻止你拿走它。 {诺德风格}
+不管鸦石的蠢货们知不知道，它都是诺德人的。而且它价值连城，比整个臭矿场的其他东西都值钱。要知道，这就是我一开始采取这种荒谬立场的原因；我要那块冰，我要它的全部。既然加拉林已经死了，就没人能阻止你拿走它。 {诺德风格}
 
 > INFO.NAME stalhrim 1126922898306423231
 It's Nordic, whether the fools at Raven Rock know it or not. And it's immensely valuable - worth more than the rest of that whole stinking mine. Know that this, THIS is the reason I took this ridiculous position in the first place; I want that ice, and I want all of it. That means you're going to eliminate the only people who know anything about it. Go to the north, just south of where the Harstad river meets the Ilsid, and find the three Nords there. Kill them, and get the pick axe I know they have.
-不管乌鸦岩的蠢货们知不知道，它都是诺德的。而且它价值连城，比整个臭矿场的其他东西都值钱。要知道，这就是我一开始采取这种荒谬立场的原因；我要那块冰，我要它的全部。这意味着你要除掉唯一了解它的人。去北边，就在哈尔斯塔德河与伊尔西德河交汇处的南边，找到那里的三个诺德人。杀了他们，拿到我知道他们有的斧头。 {诺德风格,手斧}
+不管鸦石的蠢货们知不知道，它都是诺德的。而且它价值连城，比整个臭矿场的其他东西都值钱。要知道，这就是我一开始采取这种荒谬立场的原因；我要那块冰，我要它的全部。这意味着你要除掉唯一了解它的人。去北边，就在哈尔斯塔德河与伊尔西德河交汇处的南边，找到那里的三个诺德人。杀了他们，拿到我知道他们有的斧头。 {诺德风格,手斧}
 
 > INFO.NAME stalhrim 31580105842381012513
 Stale what? I assure you I have no idea what you're talking about, %PCRank.
@@ -28154,7 +28154,7 @@ This is what gives the Skaal power! It is the balance of our lands, the trees an
 
 > INFO.NAME m'nashi 10520313452757123850
 M'nashi was my assistant!  He helped me make my candy!  He so loved his sugar, M'nashi did.  Loved it a little too much, I'm afraid!  He died, you see.  His, ah, sweet tooth got the better of him.  I buried him, just outside.  We had a lovely little ceremony.  The horkers came and sang for him, they did!  He he he!  Ha ha ha ha ha!
-麦'纳西是我的助手。他帮我做糖果。麦'纳西很喜欢他的糖，恐怕爱得有点过头了。他死了。他爱吃甜食，所以死了。我把他埋在外面。我们举行了一个小小的仪式，三牙海象来为他唱歌，真的！他他他……哈哈哈哈！ {协助}
+姆'纳西是我的助手。他帮我做糖果。姆'纳西很喜欢他的糖，恐怕爱得有点过头了。他死了。他爱吃甜食，所以死了。我把他埋在外面。我们举行了一个小小的仪式，三牙海象来为他唱歌，真的！他他他……哈哈哈哈！ {协助}
 
 > INFO.NAME aesliip 1076820732157431706
 There is nothing more to say about the creature.
@@ -28790,7 +28790,7 @@ Factor Magius had quite a bit to do today. I believe he was headed out to locati
 
 > INFO.NAME report 1711612411241423612
 Let's see. He had quite a busy schedule for today. I believe he's out at Brodir Grove, looking at potential sites for expanding Raven Rock. Perhaps you can catch him there?
-让我想想，他今天行程很满。我想他在泊地尔石阵寻找扩建乌鸦岩的潜在地点。也许你能在那里见到他？ {忙着,树林}
+让我想想，他今天行程很满。我想他在泊地尔石阵寻找扩建鸦石的潜在地点。也许你能在那里见到他？ {忙着,树林}
 
 > INFO.NAME report 1787920381420628507
 It never made it to the fort, and Tirvel never returned....  I don't know what happened.
@@ -29742,7 +29742,7 @@ Get them away, get them away! The horrid things!
 
 > INFO.NAME hello 885713103265735503
 Raven Rock, the jewel of Solstheim.... For whatever that's worth.
-乌鸦岩，索瑟泰姆的瑰宝……虽然这话听起来有点没分量。
+鸦石，索瑟泰姆的瑰宝……虽然这话听起来有点没分量。
 
 > INFO.NAME hello 2555529360313783763
 Another day, another hundred piles of ore.
