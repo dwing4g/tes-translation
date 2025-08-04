@@ -20,7 +20,7 @@ Teleportation magic does not work here.
 
 > GMST.STRV sLevitateDisabled
 Levitation magic does not work here.
-漂浮魔法在这里不起作用。
+浮空魔法在这里不起作用。
 
 > GMST.STRV sInfoRefusal
 Info Refusal
@@ -232,7 +232,7 @@ By the Grace of All Gods, King of Morrowind, Duke of Mournhold and Hlaalu Provin
 
 > FACT.FNAM Royal Guard
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > FACT.RNAM Royal Guard 1
 Guard
@@ -3233,7 +3233,7 @@ $93I was friends with your grandfather,$94 the Underking says, $93He sent me to 
 <BR>
 随着他的神被摧毁，武夫哈斯发现他很难保持自己的状态。他踉踉跄跄地走出红山，来到更远处的战场。天地震动，晨风化作火海。一阵强风刮起，将他的灰烬吹回了天际。<BR>
 <BR>
-武夫哈斯接受了诺德人，并随后为诺德人所接受。灰风伊斯米尔，吉内之风。但由于洛克汗，他失去了自己的民族身份。他需要诺德人的唯一目的就是杀死审判席。他掀起一场风暴，派出他的人民，却被审判席的力量击退。现在的丹莫太强了。武夫哈斯进入地下等待，并重新强化和改造他的身体。奇怪的是，恰恰是阿玛莱西娅打搅了他的安息，她召唤出幽域之主，与审判席并肩对抗阿达'苏姆·迪尔-卡玛尔，阿卡维尔恶魔。武夫哈斯在阿达'苏姆被击败后消失了，三百年间都没有回来。<BR>
+武夫哈斯接受了诺德人，并随后为诺德人所接受。灰风伊斯米尔，凯娜之风。但由于洛克汗，他失去了自己的民族身份。他需要诺德人的唯一目的就是杀死审判席。他掀起一场风暴，派出他的人民，却被审判席的力量击退。现在的丹莫太强了。武夫哈斯进入地下等待，并重新强化和改造他的身体。奇怪的是，恰恰是阿玛莱西娅打搅了他的安息，她召唤出幽域之主，与审判席并肩对抗阿达'苏姆·迪尔-卡玛尔，阿卡维尔恶魔。武夫哈斯在阿达'苏姆被击败后消失了，三百年间都没有回来。<BR>
 <BR>
 唤醒他的是灰胡子的隆隆声。虽然帝国已经崩溃，但有传言称，一位被选中的人将会重建它。这位新皇帝将击败精灵并统治统一的泰姆瑞尔。自然，武夫哈斯认为他就是预言中的人物。他直接前往霍斯加高峰聆听灰胡子的讲话。当他们这样做时，伊斯米尔再次被炸成灰烬。他不是被选中的人。被选中的是一位来自高岩的青年战士。当灰风去寻找这个男孩时，他听到了灰胡子的警告：记住背叛的颜色，武夫哈斯国王。<BR>
 <BR>
@@ -3986,7 +3986,7 @@ Invisibility, one of the most prized effects of potions, can be made only from c
 <BR>
 “轻羽术”可以减轻疲惫的旅行者的负担，此种魔法的效果也从石楠花和虫酪中获得。石楠是阿斯卡迪安群岛的一种低矮的常绿灌木，以其小而粉紫色的花而闻名。虫酪是瓦登费尔最受欢迎的当地菜肴，与奶酪相似，其实是由当地甲虫的肉制成。<BR>
 <BR>
-“漂浮术”的效果可以由以下任意两种成分产生：特拉玛根、迅鸟羽和尾声花。特拉玛灌木的根生长在灰烬之地、莫拉格-阿穆尔河和红山地区。迅鸟羽是从死去的峭壁迅鸟身上拔下来的。尾声花是从苦涩海岸的原始拖尾植物中采集的。<BR>
+“浮空术”的效果可以由以下任意两种成分产生：特拉玛根、迅鸟羽和尾声花。特拉玛灌木的根生长在灰烬之地、莫拉格-阿穆尔河和红山地区。迅鸟羽是从死去的峭壁迅鸟身上拔下来的。尾声花是从苦涩海岸的原始拖尾植物中采集的。<BR>
 <BR>
 水中呼吸的能力对旅行者来说很方便。产生这种效果的药剂可以由以下两种或两种以上的成分制成：微光红菇、颈羽罗叶和夸蚂膏。微光红菇是一种矮胖的、斑驳的褐绿色毒蕈蘑菇，生长在苦涩海岸地区。颈羽罗叶是一种多汁的草类植物叶子，因其味道和效力而备受赞誉。夸蚂膏是一种坚硬的蜡质物质，来自夸蚂的口腔。<BR>
 <BR>
@@ -5665,35 +5665,35 @@ Her Hand's Left Gauntlet
 
 > ARMO.FNAM Helsethguard_Helmet
 Royal Guard Helm
-王室卫兵头盔
+王宫卫兵头盔
 
 > ARMO.FNAM Helsethguard_boots
 Royal Guard Boots
-王室卫兵靴子
+王宫卫兵靴子
 
 > ARMO.FNAM Helsethguard_cuirass
 Royal Guard Cuirass
-王室卫兵胸甲
+王宫卫兵胸甲
 
 > ARMO.FNAM Helsethguard_greaves
 Royal Guard Greaves
-王室卫兵胫甲
+王宫卫兵胫甲
 
 > ARMO.FNAM Helsethguard_gauntlet_left
 Royal Guard Left Gauntlet
-王室卫兵左腕甲
+王宫卫兵左腕甲
 
 > ARMO.FNAM Helsethguard_gauntlet_right
 Royal Guard Right Gauntlet
-王室卫兵右腕甲
+王宫卫兵右腕甲
 
 > ARMO.FNAM Helsethguard_pauldron_left
 Royal Guard Left Pauldron
-王室卫兵左肩甲
+王宫卫兵左肩甲
 
 > ARMO.FNAM Helsethguard_pauldron_right
 Royal Guard Right Pauldron
-王室卫兵右肩甲
+王宫卫兵右肩甲
 
 > WEAP.FNAM Mace of Slurring
 Mace of Slurring
@@ -5821,7 +5821,7 @@ Feranos Hlando
 
 > NPC_.FNAM Veros Nerethi
 Veros Nerethi
-维罗斯·内瑞蒂
+维罗斯·内雷提
 
 > NPC_.FNAM Sendel Tedas
 Sendel Tedas
@@ -6404,7 +6404,7 @@ Wooden Door
 
 > NPC_.FNAM royal guard_karrod
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > WEAP.FNAM nerevarblade_01
 Trueflame
@@ -6923,7 +6923,7 @@ Hulking Fabricant
 
 > NPC_.FNAM Guard_Helseth_attack
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > CREA.FNAM fabricant_hulkin_attack
 Hulking Fabricant
@@ -7200,7 +7200,7 @@ The Bearer of this document, under special dispensation of the Night Mother, who
 
 > NPC_.FNAM Guard_Helseth
 Royal Guard
-王室卫兵
+王宫卫兵
 
 > CONT.FNAM com_chest_02_v_sosia
 Chest
@@ -9085,7 +9085,7 @@ I have been named Nerevarine by all four tribes of the Vvardenfell Ashlanders --
 
 > INFO.NAME tg_ss_generosity1 22149270561687231907
 Thieves Guild: Bal Molagmer, The Hlervu Locket
-盗贼公会：巴尔·莫拉格穆尔，赫勒武的宝盒
+盗贼公会：巴尔·莫拉格穆尔，赫勒乌的宝盒
 
 > INFO.NAME tg_ss_generosity1 208451036451265574
 Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the light of justice throughout Morrowind, stealing from the unjust, and giving to the poor. He gave me a pair of Bal Molagmer gloves, which I should wear before speaking with him again.
@@ -9093,11 +9093,11 @@ Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the ligh
 
 > INFO.NAME tg_ss_generosity1 1751914300170125850
 Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlervu.
-绅士吉姆·史戴西感谢我将赫勒武的盒坠归还给布雷纳斯·赫勒武。
+绅士吉姆·史戴西感谢我将赫勒乌的盒坠归还给布雷纳斯·赫勒乌。
 
 > INFO.NAME tg_ss_generosity1 1069021420716385
 Gentleman Jim Stacey was upset to hear that Braynas Hlervu was dead, but he believes there is other work the Bal Molagmer must do.
-绅士吉姆·史戴西听说布雷纳斯·赫勒武已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
+绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
 
 > INFO.NAME tg_ss_generosity2 2204782701611628005
 Thieves Guild: Bal Molagmer, Land Deed
@@ -10953,11 +10953,11 @@ I reported to Tienius Delitian that Trels Varis had given me his word that he wo
 
 > INFO.NAME tr09_journalist 1552423991295423512
 I reported to Tienius Delitian that Trels Varis had given me his word that he would not discuss King Helseth in 'The Common Tongue'. Tienius Delitian was very pleased with my service. He gave me 3000 gold to cover my expenses and a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors.
-我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上讨论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我3000金币来弥补我的开销，还有一把利刃“国王之誓”-- 和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {瓜尔}
+我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上讨论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我3000金币来弥补我的开销，还有一把利刃“国王之誓”-- 和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {瓜尔}
 
 > INFO.NAME tr09_journalist 11323103702988113938
 I reported to Tienius Delitian that Trels Varis had given me his word that he would not discuss King Helseth in 'The Common Tongue'. Tienius Delitian was very pleased with my service. He gave me 5000 gold and a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors.
-我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上谈论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我5000金币和一把利刃“国王之誓”-- 和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {讨论,瓜尔}
+我向蒂纽斯·德利天报告说，特雷斯·瓦里斯已经向我保证，他不会再在《众口真言》上谈论赫尔塞斯国王。蒂纽斯·德利天对我的努力非常满意。他给了我5000金币和一把利刃“国王之誓”-- 和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。 {讨论,瓜尔}
 
 > INFO.NAME tr09_journalist 21939299612338517151
 I reported to Tienius Delitian that Trels Varis was dead, and that he could no longer print lies about King Helseth. Tienius Delitian was pleased with my service, and gave me 5000 gold as a reward.
@@ -11865,7 +11865,7 @@ The Sad Sorcerer
 
 > INFO.NAME ms_hatandskirt 19484231022911617439
 I found this poor sorcerer imprisoned by a swarm of scamps. They fed him his companions in a broth. And stripped him and forced him to wear a skirt and hat. He looks very melancholy. He asked me to get him a potion of levitation so he could escape from his high perch. He offered to reward me with the attractive skirt and remarkable hat they made him wear.
-我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点漂浮药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
+我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点浮空药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
 
 > INFO.NAME ms_hatandskirt 32130211451349113829
 I gave the poor sorcerer a potion of levitation so he could escape from his high perch, and accepted his skirt and hat as reward.
@@ -12885,11 +12885,11 @@ House Redoran: Duel with Bolvyn Venim
 
 > INFO.NAME hr_archmaster 17741203752809611543
 Athyn Sarethi told me to meet Bolvyn Venim in a duel. The winner will become the Archmaster of House Redoran.
-艾辛·萨雷提让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的新家主。
+艾辛·萨雷提让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的大家主。
 
 > INFO.NAME hr_archmaster 2082553503074113793
 I defeated Bolvyn Venim and am now the Archmaster of House Redoran.
-我击败了波尔文·维尼姆，现在是瑞多然家族的家主。
+我击败了波尔文·维尼姆，现在是瑞多然家族的大家主。
 
 > INFO.NAME b6_hlaalubook 2100630069111459365
 Hlaalu Hortator
@@ -13201,7 +13201,7 @@ Fedris Hler, apparently pleased with my efforts involving the goblin army, has a
 
 > INFO.NAME tr_shrinedead 1140531858212056346
 I've met with Gavas Drin, who would like me to perform a task for Almalexia. Deep in the ruins beneath the Temple is a shrine that has been untouched for many years. Apparently, the shrine has soured, and the entire area overrun by the undead.
-我会见了加瓦斯·德林，他想让我为阿玛莱西娅执行一项任务。在神殿下的废墟深处，有一座多年无人踏足的神殿。显然，神殿已被腐化，整个地区都被亡灵占领了。
+我会见了加瓦斯·德林，他想让我为阿玛莱西娅执行一项任务。在神殿下的废墟深处，有一座多年无人踏足的圣祠。显然，圣祠已被腐化，整个地区都被亡灵占领了。
 
 > INFO.NAME tr_shrinedead 3197816904508814549
 It is Almelexia's belief that the Shrine of the Dead can be reclaimed, and its power used for the good of Mournhold. Although traditional Temple doctrine disavows ancestor worship, the Lady believes that it has its place, and that the power to be gained from the ancestors is great.
@@ -13217,7 +13217,7 @@ I have killed the last of the Profane, the liches guarding the Shrine of the Dea
 
 > INFO.NAME tr_shrinedead 9407162282470717836
 Urvel Dulni has succeeded in cleansing the shrine.
-乌维尔·杜尔尼已经成功地净化了神殿。
+乌维尔·杜尔尼已经成功地净化了圣祠。
 
 > INFO.NAME tr_shrinedead 9502223152642032295
 Urvel Dulni has died.
@@ -13225,15 +13225,15 @@ Urvel Dulni has died.
 
 > INFO.NAME tr_shrinedead 6535325622581417460
 Gavas Drin was pleased, and a bit surprised, at the news we were able to restore the shrine. He has presented me with a Blessed Spear, a gift from the Lady Almalexia.
-加瓦斯·德林对我们能够恢复神殿的消息感到高兴，也有点惊讶。他向我赠送了圣母阿玛莱西娅的礼物 -- 一把祝福长枪。
+加瓦斯·德林对我们能够净化圣祠的消息感到高兴，也有点惊讶。他向我赠送了圣母阿玛莱西娅的礼物 -- 一把祝福长枪。
 
 > INFO.NAME tr_shrinedead 188156793104013242
 Gavas Drin was disturbed that Urvel Dulni died on our journey, before the shrine could be cleansed.
-加瓦斯·德林很不安，因为乌维尔·杜尔尼在神殿被净化之前就死在了我们的旅途中。
+加瓦斯·德林很不安，因为乌维尔·杜尔尼在圣祠被净化之前就死在了我们的旅途中。
 
 > INFO.NAME tr_shrinedead 1572644653068024653
 Gavas Drin was unhappy that Urvel Dulni was killed, but seemed a bit consoled in the fact that the Shrine had been cleansed. He gave me some gold as reward for my efforts.
-加瓦斯·德林对乌维尔·杜尔尼的死很不高兴，但似乎对神殿被清洗的事实感到些许快慰。他给了我一些金币作为报酬，以感谢我的努力。
+加瓦斯·德林对乌维尔·杜尔尼的死很不高兴，但似乎对圣祠被净化的事实感到些许慰藉。他给了我一些金币作为报酬，以感谢我的努力。
 
 > INFO.NAME tr_shrinedead 6692203641409420497
 Gavas Drin was unhappy that Urvel Dulni was killed, and the Shrine of the Dead will never be cleansed.
@@ -15177,7 +15177,7 @@ I've been told to speak to Asciene Rane in the Grand Council Chambers about tran
 
 > INFO.NAME tr_dbattack 990629136204134460
 Asciene Rane has agreed to transport me to Mournhold. If I wish to return to the mainland, I should speak to Effe-Tei, an Argonian Mage in the Royal Palace. When I arrive, I should speak with one of the Royal Guard for more information about the Dark Brotherhood.
-阿赛妮·拉尼已经同意把我送到哀伤之城。如果我想回到主大陆，我应该和王室宫殿里的阿尔贡法师艾菲-泰谈谈。当我到达时，我应该找一位王室卫兵谈谈，了解更多关于黑暗兄弟会的信息。 {瓜尔}
+阿赛妮·拉尼已经同意把我送到哀伤之城。如果我想回到主大陆，我应该和王室宫殿里的阿尔贡法师艾菲-泰谈谈。当我到达时，我应该找一位王宫卫兵谈谈，了解更多关于黑暗兄弟会的信息。 {瓜尔}
 
 > INFO.NAME tr_dbattack 9743192612930222534
 I've been told that the Dark Brotherhood is rumored to have a base in the ruins of Old Mournhold, accessible through the sewer system in the Great Bazaar. I've been warned that I enter there at my own peril.
@@ -15421,7 +15421,7 @@ Now that I have gained the king's confidence, he would like me to gather what in
 
 > INFO.NAME tr_champion 18918308152625521390
 I have returned to King Helseth and reported the details of my encounter with Almalexia in the Clockwork City of Sotha Sil. The King did not seem displeased that the gods are dead, though he realizes it may take some time for the people of Morrowind to accept what has happened. Helseth believes that a new era has come to Morrowind, and that the Dunmer will thrive under his guidance. King Helseth has rewarded me with a full set of the armor of his Royal Guards.
-我已经回到了赫尔塞斯国王那里，报告了我与阿玛莱西娅在索萨·希尔的发条城交锋的细节。国王似乎对于两位神明的死并无不快，但他意识到晨风的人民可能需要一些时间才能接受发生的事情。赫尔塞斯相信，晨风已经迎来了一个新的时代，丹莫将在他的引领下蓬勃发展。赫尔塞斯国王赏赐给我一整套他的王室卫兵的盔甲。 {报酬,瓜尔}
+我已经回到了赫尔塞斯国王那里，报告了我与阿玛莱西娅在索萨·希尔的发条城交锋的细节。国王似乎对于两位神明的死并无不快，但他意识到晨风的人民可能需要一些时间才能接受发生的事情。赫尔塞斯相信，晨风已经迎来了一个新的时代，丹莫将在他的引领下蓬勃发展。赫尔塞斯国王赏赐给我一整套他的王宫卫兵盔甲。 {报酬,瓜尔}
 
 > INFO.NAME tr_sothasil 2818522370236898830
 The Mad God
@@ -15457,11 +15457,11 @@ An Attack on Mournhold
 
 > INFO.NAME tr_mhattack 2850722401293162574
 Strange creatures have burst through the ground at the Plaza Brindisi Dorom, and the High Ordinators and Royal Guard are trying to protect the city.
-奇怪的生物在布林迪西·多罗姆广场上破土而出，至高神殿卫兵和王室卫兵正在努力保护这座城市。 {神殿卫兵们,瓜尔}
+奇怪的生物在布林迪西·多罗姆广场上破土而出，至高神殿卫兵和王宫卫兵正在努力保护这座城市。 {神殿卫兵们,瓜尔}
 
 > INFO.NAME tr_mhattack 1505611594491311659
 The Royal Guard have asked me to help defend the city against the attacking creatures.
-王室卫兵要求我帮助保卫城市，抵御生物的攻击。 {瓜尔}
+王宫卫兵要求我帮助保卫城市，抵御生物的攻击。 {瓜尔}
 
 > INFO.NAME tr_mhattack 933322953255182044
 The High Ordinators have asked me to help defend the city against the attacking creatures.
@@ -15473,7 +15473,7 @@ The creatures attacking the city have been defeated. The plaza is in ruins.
 
 > INFO.NAME tr_mhattack 30132451218255526
 The Royal Guard have ordered me to report the attack to Tienius Delitian at the Royal Palace.
-王室卫兵命令我向王室宫殿的蒂纽斯·德利天报告这次袭击。 {瓜尔}
+王宫卫兵命令我向王室宫殿的蒂纽斯·德利天报告这次袭击。 {瓜尔}
 
 > INFO.NAME tr_mhattack 300511110064724031
 The High Ordinators have ordered me to report the attack to Fedris Hler at the Temple.
@@ -15745,11 +15745,11 @@ Mysterious Killings in Vivec
 
 > INFO.NAME town_vivec 3086445582648927038
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Belt of the Armor of God.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神之铠甲腰带中任选其一。我接受了神甲腰带。
+我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了神甲腰带。
 
 > INFO.NAME town_vivec 1711925436295071793
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Indoril helm and cuirass. I am not supposed to wear it in Vivec City, to avoid being mistaken for an Ordinator.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀的那个丹莫女人符合他要处决的凶手的描述。作为奖赏，他让我在因多瑞尔头盔和铠甲或神之铠甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。 {报酬}
+我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。
 
 > INFO.NAME da_mephala 9104096839921513
 Mephala's Quest
@@ -15989,7 +15989,7 @@ Disloyalty Among the Guards
 
 > INFO.NAME tr07_guard 14416176761433625113
 Tienius Delitian has questions about the loyalties of some of the Royal Guards. I'm to pose as a candidate wanting to join the Guards as an excuse for talking to the guards, sounding them out, and looking for evidence of disloyalty. If I find any hint of treason or find evidence of disloyalty, I should bring it to Tienius Delitian. I should take no action against any guard, but should let Tienius Delitian decide what to do.
-蒂纽斯·德利天有些怀疑王室卫兵的忠诚。我将冒充一个想加入卫队的候选人，作为与卫兵们交谈的借口，倾听他们的意见，并寻找不忠的证据。如果我发现任何叛国的暗示或发现不忠的证据，我应该向蒂纽斯·德利天报告。我不应该对任何一个卫兵采取任何行动，而应该让蒂纽斯·德利天决定该怎么做。 {问题,瓜尔}
+蒂纽斯·德利天有些怀疑王宫卫兵的忠诚。我将冒充一个想加入卫队的候选人，作为与卫兵们交谈的借口，倾听他们的意见，并寻找不忠的证据。如果我发现任何叛国的暗示或发现不忠的证据，我应该向蒂纽斯·德利天报告。我不应该对任何一个卫兵采取任何行动，而应该让蒂纽斯·德利天决定该怎么做。 {问题,瓜尔}
 
 > INFO.NAME tr07_guard 4078244882569210655
 When I asked Ivulen Irano about King Helseth, he delivered what sounded like a memorized and not-very-sincere sounding speech. Maybe he's just not very bright. But maybe he's just not a very good liar.
@@ -16661,7 +16661,7 @@ Erabenimsun Nerevarine
 
 > INFO.NAME b4_robe 9397405685914188
 I gave Han-Ammu the Robe of Erur-Dan the Wise and made a little speech about wisdom and symbols and responsibility. I believe he has taken the lesson to heart, and will consider accepting his responsibilities as ashkhan, and consider naming me Nerevarine. But he said he does not need the robe, and he asked me to keep it.
-我把贤者埃鲁·丹的长袍送给了罕-阿姆，并就智慧、象征和责任发表了一番讲话。我相信他已将这一教训铭记于心，会考虑接受他作为灰烬可汗的责任，并考虑给我任命为尼瑞瓦因。但他说他不需要这件袍子，请我收下。
+我把智者埃鲁-丹的长袍送给了罕-阿姆，并就智慧、象征和责任发表了一番讲话。我相信他已将这一教训铭记于心，会考虑接受他作为灰烬可汗的责任，并考虑给我任命为尼瑞瓦因。但他说他不需要这件袍子，请我收下。
 
 > INFO.NAME ic6_rat 200181671099131736
 Imperial Cult: Gathering Rat Meat
@@ -16933,7 +16933,7 @@ Good. If you find evidence of disloyalty among the Guards, bring it to me.
 
 > INFO.NAME disloyalty among the guards 189208220516211179
 I've replaced many of the former king's guards with more reliable men. But I had to keep some experienced guards, and I can't be certain of their loyalties. I will pretend you wish to join the Royal Guards. That's your excuse for talking to the guards, sounding them out, and looking for evidence of disloyalty. If you find any hint of treason or evidence of disloyalty, report it to me. Take no action. Report to me, and I will judge what action is appropriate.
-我已经用更可靠的人取代了许多前国王的卫兵。但我不得不保留一些有经验的卫兵，而且我不能确定他们的忠诚度。我需要你假装你希望加入王室卫兵。作为你与卫兵交谈的借口，听他们的意见，寻找不忠诚的证据。如果你发现任何叛国的暗示或不忠的证据，请向我报告。不要采取任何行动。向我报告，我来判断怎么行动合适。 {瓜尔}
+我已经用更可靠的人取代了许多前国王的卫兵。但我不得不保留一些有经验的卫兵，而且我不能确定他们的忠诚度。我需要你假装你希望加入王宫卫兵。作为你与卫兵交谈的借口，听他们的意见，寻找不忠诚的证据。如果你发现任何叛国的暗示或不忠的证据，请向我报告。不要采取任何行动。向我报告，我来判断怎么行动合适。 {瓜尔}
 
 > INFO.BNAM disloyalty among the guards 189208220516211179 c1
 I'll take care of it.
@@ -17789,7 +17789,7 @@ The manors are in the west; the Winged Guar -- the local cornerclub -- the Craft
 
 > INFO.NAME someone in particular 26077673137419609
 Almalexia, our Lady of Mercy, dwells in her Temple. Her steward, Fedris Hler, and the Lord Archcanon, Gavas Drin, also reside in the Temple. King Hlaalu Helseth and his mother, Queen Barenziah, live in the Royal Palace. Tienius Delitian is Captain of the Royal Guard. It's a big city. If there's someone else you want, ask around.
-阿玛莱西娅，我们的仁慈圣母，住在她的神殿里。她的管家费德里斯·赫勒和大主教加瓦斯·德林也住在神殿里。哈拉鲁·赫尔塞斯国王和他的母亲巴兰兹娅太后住在王室宫殿里。蒂纽斯·德利天是王室卫兵的队长。这是一个很大的城市。如果你想找别的人，四处问问看。 {瓜尔}
+阿玛莱西娅，我们的仁慈圣母，住在她的神殿里。她的管家费德里斯·赫勒和大主教加瓦斯·德林也住在神殿里。哈拉鲁·赫尔塞斯国王和他的母亲巴兰兹娅太后住在王室宫殿里。蒂纽斯·德利天是王宫卫兵的队长。这是一个很大的城市。如果你想找别的人，四处问问看。 {瓜尔}
 
 > INFO.NAME someone in particular 2963712435680719868
 What do you mean you're looking for me? I don't know you, do I? You say you have a note from Ernil?
@@ -17809,7 +17809,7 @@ You hear folks say old King Llethan was a fool. Well, folks should keep their mo
 
 > INFO.NAME join the royal guards 3224656232826229107
 What did Tienius Delitian send you to me for? If he wants you to be a Royal Guard, then you'll be a Royal Guard. Nothing to do with me. How do I like it? You think I was born yesterday? My mom didn't teach me to blabber to strangers. So old King Llethan was a bit of a fool, but he was good to me. And King Helseth is no fool. He's got to keep some experienced men like me around. All these new fellows, like you... someone's gotta teach them their business, 'cause they don't know it.
-蒂纽斯·德利天派你来找我是为了什么？如果他想让你加入王室卫兵，那你就已经是王室卫兵了。与我无关。我怎么会喜欢呢？你以为我是昨天才出生的吗？我妈妈没有教我对陌生人胡说八道。所以，老国王莱森是有点傻，但他对我很好。而赫尔塞斯国王也不是傻瓜。他必须在身边保留一些像我这样有经验的人。所有这些新来的家伙，比如你…总得有人教他们怎么做事，因为他们不知道。 {瓜尔}
+蒂纽斯·德利天派你来找我是为了什么？如果他想让你加入王宫卫兵，那你就已经是王宫卫兵了。与我无关。我怎么会喜欢呢？你以为我是昨天才出生的吗？我妈妈没有教我对陌生人胡说八道。所以，老国王莱森是有点傻，但他对我很好。而赫尔塞斯国王也不是傻瓜。他必须在身边保留一些像我这样有经验的人。所有这些新来的家伙，比如你…总得有人教他们怎么做事，因为他们不知道。 {瓜尔}
 
 > INFO.BNAM join the royal guards 3224656232826229107 c1
 Ask about King Llethan.
@@ -17825,7 +17825,7 @@ Mention your Hlaalu connections.
 
 > INFO.NAME join the royal guards 2891273801948711086
 If you join the Royal Guard, you swear an oath to the king. Your loyalty to the king is the important thing. And of course House Hlaalu is loyal to King Helseth.
-如果你加入王室卫兵，你要向国王宣誓。你对国王的忠诚才是最重要的。哈拉鲁家族当然也会忠于赫尔塞斯国王。 {瓜尔}
+如果你加入王宫卫兵，你要向国王宣誓。你对国王的忠诚才是最重要的。哈拉鲁家族当然也会忠于赫尔塞斯国王。 {瓜尔}
 
 > INFO.NAME join the royal guards 181778717823631633
 It is my honor to serve King Helseth and Queen Barenziah.
@@ -17837,7 +17837,7 @@ I'd rather not talk about it.
 
 > INFO.NAME join the royal guards 26585303952110923358
 I serve King Helseth, just like I served King Llethan, and I keep my mouth shut. You want to be in the Royal Guards? That's Tienius Delitian's business, and your business, and none of mine.
-我侍奉赫尔塞斯国王，就像我侍奉莱森国王一样，而且我懂得保持沉默。你想加入王室卫兵？那是蒂纽斯·德利天的事，也是你的事，与我无关。 {发言人,瓜尔}
+我侍奉赫尔塞斯国王，就像我侍奉莱森国王一样，而且我懂得保持沉默。你想加入王宫卫兵？那是蒂纽斯·德利天的事，也是你的事，与我无关。 {发言人,瓜尔}
 
 > INFO.BNAM join the royal guards 26585303952110923358 c1
 Ask about King Llethan.
@@ -17869,7 +17869,7 @@ What about him? He was what he was. He was the king, and my noble lord, and I se
 
 > INFO.NAME join the royal guards 254779490176819368
 I've been a Royal Guard all my life, and so was my mother and her mother. I served King Llethan for many years, and now I'll serve King Helseth. Long live the King, and long live the Emperor. It's none of my business, of course, but why do you want to be a guard? You look like you've done well enough for yourself as an adventurer.
-我一生都是王室卫兵，我的母亲和她的母亲也是。我侍奉莱森国王多年，现在我将侍奉赫尔塞斯国王。国王万岁，皇帝也万岁。当然，这不关我的事，但你为什么要加入卫兵？你当冒险家干得很不错啊。 {瓜尔}
+我一生都是王宫卫兵，我的母亲和她的母亲也是。我侍奉莱森国王多年，现在我将侍奉赫尔塞斯国王。国王万岁，皇帝也万岁。当然，这不关我的事，但你为什么要加入卫兵？你当冒险家干得很不错啊。 {瓜尔}
 
 > INFO.BNAM join the royal guards 254779490176819368 c1
 Ask about King Llethan.
@@ -19645,7 +19645,7 @@ Wait in the antechamber outside Barenziah's room at nightfall and protect her fr
 
 > INFO.NAME protect barenziah 14621163341000426850
 It would be unwise to station more guards outside her doors, as that would alert the killers to our knowledge. Better to catch them in the act. One of our royal guards could be involved in this attempt, so they will be kept occupied elsewhere. You will stay in the antechamber outside our mother's chambers tomorrow evening, and deal with these assassins when they arrive. Close the door behind you and hide behind the screens, so as not to alert them to your presence. Meantime, find out whatever else you can.
-在她的门外派驻更多的警卫是不明智的，因为那会让杀手们知道我们的存在。最好在行动中抓住他们。我们的王室卫兵中可能有人参与了这次行动，所以他们将被安排在其他地方。明天晚上你就呆在我们母亲房间外面的候见厅里，等这些刺客来了再对付他们。关上你身后的门，躲在屏风后面，以免惊动他们。同时，尽你所能找到其他信息。 {瓜尔}
+在她的门外派驻更多的警卫是不明智的，因为那会让杀手们知道我们的存在。最好在行动中抓住他们。我们的王宫卫兵中可能有人参与了这次行动，所以他们将被安排在其他地方。明天晚上你就呆在我们母亲房间外面的候见厅里，等这些刺客来了再对付他们。关上你身后的门，躲在屏风后面，以免惊动他们。同时，尽你所能找到其他信息。 {瓜尔}
 
 > INFO.NAME protect barenziah 7547368142016737
 Protect her? Ha! My sympathies lie with the assassins, friend. The Lady is far from helpless, as many have come to find out the hard way. Still, it is odd that someone would even attempt it. Why kill her? Her son lives only down the hall, and he bears the burden of rule. There is no understanding the machinations of madmen or politicians.
@@ -19765,7 +19765,7 @@ You believe you've killed their leader? I wouldn't count on that. You probably o
 
 > INFO.NAME dark brotherhood 2143510411258486053
 You've killed their leader, huh? Don't be so sure. You may have killed a high ranking officer around here, but there's always another to replace him. I don't know anything about who might have hired them, either. That's none of my business. Talk to one of the Royal Guard, or head over to the Temple.
-你杀了他们的首领，嗯？别那么肯定。你也许杀了这里的一个高级官员，但总会有另一个人来代替他。我也不知道是谁雇佣了他们。这不关我的事。跟一个王室卫兵谈谈，或者去神殿。 {瓜尔}
+你杀了他们的首领，嗯？别那么肯定。你也许杀了这里的一个高级官员，但总会有另一个人来代替他。我也不知道是谁雇佣了他们。这不关我的事。跟一个王宫卫兵谈谈，或者去神殿。 {瓜尔}
 
 > INFO.NAME dark brotherhood 1969313694195622814
 I don't know why you'd want to go looking for those demons. Some say they live in the sewers beneath the Great Bazaar.
@@ -20157,7 +20157,7 @@ So Trels Varis is the anonymous writer of 'The Common Tongue'. And Trels Varis i
 
 > INFO.NAME anonymous writer 2524167801232013910
 I give you a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors. I salute you, and welcome you into our brotherhood. And there's one last official matter. Go to Lady Barenziah. She's asked to speak with you.
-我给你一把利刃“国王之誓” -- 和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我向你致敬，并欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {瓜尔}
+我给你一把利刃“国王之誓” -- 和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我向你致敬，并欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {瓜尔}
 
 > INFO.NAME anonymous writer 2723632302576919840
 So Trels Varis is the anonymous writer of 'The Common Tongue'. And you threatened the lives of his aged parents. And Trels Varis gave you his word that he would not discuss King Helseth in 'The Common Tongue'. You show fine judgement, and a light touch. We are very satisfied with your service, and are pleased to give you a rich reward, and great honor besides.
@@ -20169,11 +20169,11 @@ Continue
 
 > INFO.NAME anonymous writer 22179118802829427969
 We place great trust in your judgement, and we are very satisfied with your service and sentiments. You shall have 3000 gold to cover your expenses, and a rich reward and great honor besides. I give you a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors. And there's one last official matter. Go to Lady Barenziah. She's asked to speak with you.
-我们非常信任你的判断，我们对你的服务和情操非常满意。我们会付给你3000金币弥补你的开销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 与王室卫兵所使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
+我们非常信任你的判断，我们对你的服务和情操非常满意。我们会付给你3000金币弥补你的开销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 与王宫卫兵所使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
 
 > INFO.NAME anonymous writer 92471633303278
 We place great trust in your judgement. We are very satisfied with your service. You shall have your expenses, and a rich reward and great honor besides. I give you a 'King's Oath' blade -- exactly like those used by the Royal Guard. Only those sworn to the king's service and tested by great trials may use them. They bear deadly curses that kill thieves and traitors. I welcome you into our brotherhood. And there's one last official matter. Go to Lady Barenziah. She's asked to speak with you.
-我们非常信任你的判断。我们对你的服务非常满意。我们将补偿你的花销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 和王室卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
+我们非常信任你的判断。我们对你的服务非常满意。我们将补偿你的花销，以及丰富的报偿和巨大的荣誉。我给你一把利刃“国王之誓” -- 和王宫卫兵使用的一模一样。只有那些宣誓为国王服务并经过巨大考验的人才能使用它们。它们带有致命的诅咒，可以杀死盗贼和叛徒。我欢迎你加入我们的兄弟会。还有最后一件公务。去找巴兰兹娅夫人。她要求和你谈谈。 {沙尔,报酬,瓜尔}
 
 > INFO.NAME anonymous writer 2306353231696517178
 Yes. So you give me your word that Trels Varis will keep HIS word? Well. We have placed our trust in your judgement, and I'm sure you will stand guarantee for it. And you shall have your expenses, and rich reward besides. Thank you. There's just one more official matter. Go to Lady Barenziah. She's asked to speak with you.
@@ -20717,11 +20717,11 @@ The soldier? I have little use for him. He is concerned only with the physical: 
 
 > INFO.NAME tienius delitian 309116682549117285
 Tienius has been with Helseth since he was a child in the Emperor's court. He's a career soldier, and has risen through the ranks quickly. Helseth chose him to lead the Royal Guard not only because he is a fine warrior--Delitian is also a savvy politician, and he is an excellent judge of character.
-蒂纽斯从小就在皇帝的宫廷里与赫尔塞斯在一起。他是个职业军人，而且升职很快。赫尔塞斯选择他来领导王室卫兵，不仅是因为他是一个优秀的战士 -- 德利天也是一个精明的政治家，看人看事也从不走眼。 {瓜尔}
+蒂纽斯从小就在皇帝的宫廷里与赫尔塞斯在一起。他是个职业军人，而且升职很快。赫尔塞斯选择他来领导王宫卫兵，不仅是因为他是一个优秀的战士 -- 德利天也是一个精明的政治家，看人看事也从不走眼。 {瓜尔}
 
 > INFO.NAME tienius delitian 14952389475872353
 He's the leader of the young king's Royal Guard, I believe. An Imperial. They're all the same.
-我想他是年轻国王的王室卫兵的领导者。一个帝国人。他们都一样。 {瓜尔}
+我想他是年轻国王的王宫卫兵的领导者。一个帝国人。他们都一样。 {瓜尔}
 
 > INFO.NAME tienius delitian 1335121779711961
 Word is, the Imperial was murdered. No surprise.
@@ -20741,7 +20741,7 @@ The Imperial is probably at the palace, with the rest of them.
 
 > INFO.NAME tienius delitian 3101520547166011858
 Captain Delitian is often found in the Throne Room of the Palace. He often confers with other members of the Royal Guard while there.
-德利天队长通常待在宫殿的王座室里。他经常在那里与其他王室卫兵交流。 {瓜尔}
+德利天队长通常待在宫殿的王座室里。他经常在那里与其他王宫卫兵交流。 {瓜尔}
 
 > INFO.NAME travel together 10200169763196329114
 Really? Excellent! I mean...I wouldn't want to get in the way. You understand. I'll guard your back from here.
@@ -20921,7 +20921,7 @@ Ask whether Athyn Llethan died a natural death.
 
 > INFO.NAME official matter 1322327984829027767
 %PCName. Yes, I know your name. And I'm Tienius Delitian, Captain of King Helseth's Royal Guards. I have influence with King Helseth. And King Helseth is known for rewarding his friends. I have an official matter you might be able to help me with.
-%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王室卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
+%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王宫卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
 
 > INFO.BNAM official matter 1322327984829027767 c1
 Tell me more.
@@ -20937,7 +20937,7 @@ Show him evidence Helseth tried to have you killed.
 
 > INFO.NAME official matter 24131101771206420422
 %PCName. Yes, I know your name. And I'm Tienius Delitian, Captain of King Helseth's Royal Guards. I have influence with King Helseth. And King Helseth is known for rewarding his friends. I have an official matter you might be able to help me with.
-%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王室卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
+%PCName。是的，我知道你的名字。我是蒂纽斯·德利天，赫尔塞斯国王的王宫卫兵队长。我对赫尔塞斯国王有影响力。赫尔塞斯国王以赏赐他的朋友而闻名。我有一件公务，你也许可以帮助我。 {认识你,瓜尔,报酬,帮我}
 
 > INFO.BNAM official matter 24131101771206420422 c1
 Tell me more.
@@ -23587,7 +23587,7 @@ Wha?
 
 > INFO.NAME little secret 930395562513723882
 If you are looking for access to the places of power, start with Tienius Delitian, King Helseth's Captain of the Royal Guard. He's fair and professional, and King Helseth is no simple figurehead, unlike his predecessor. There's real power there, and Helseth is just going to get more powerful as he learns how Mournhold works.
-如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王室卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
+如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王宫卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
 
 > INFO.NAME little secret 1124825171175287403
 Modern Mournhold is built upon the ruins of Old Mournhold. At the end of the First Era, Mournhold was destroyed by Mehrunes Dagon. Sotha Sil and Almalexia arrived and drove Mehrunes Dagon back into Oblivion, but the city already lay in ruins. You can reach the abandoned passages of Old Mournhold through the sewers beneath Mournhold, and adventurers still seek lost treasures in the First Era ruins.
@@ -23603,7 +23603,7 @@ Don't mess with the Hands of Almalexia. It's not a mistake you'll get to repeat.
 
 > INFO.NAME little secret 944310901808522852
 Don't mess with the Royal Guard. It's not a mistake you'll get to repeat.
-别惹王室卫兵。这不是一个你能再犯第二次的错误。 {瓜尔}
+别惹王宫卫兵。这不是一个你能再犯第二次的错误。 {瓜尔}
 
 > INFO.NAME little secret 65414780932151
 All the power in Mournhold starts with Almalexia at the Temple. Of course, no mere mortal is going to get access to the Lady of Mercy. But Fedris Hler, her steward, is quite approachable. Start with him, win his confidence, and then maybe things will open up for you.
@@ -23611,7 +23611,7 @@ All the power in Mournhold starts with Almalexia at the Temple. Of course, no me
 
 > INFO.NAME little secret 16941787082512064
 If you are looking for access to the places of power, start with Tienius Delitian, King Helseth's Captain of the Royal Guard. He's fair and professional, and King Helseth is no simple figurehead, unlike his predecessor. There's real power there, and Helseth is just going to get more powerful as he learns how Mournhold works.
-如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王室卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
+如果你在寻找进入权力场所的途径，从蒂纽斯·德利天开始，他是赫尔塞斯国王的王宫卫兵队长。他公正而专业，而且赫尔塞斯国王不像他的前任那样简单。他是个真正有手腕的人，而赫尔塞斯在了解了哀伤之城的情况后，只会变得更加强大。 {瓜尔,工作}
 
 > INFO.NAME little secret 10185225361949731231
 You're an adventurer, right? Then watch out if you go down in the sewers. That's the way to the ruins of Old Mournhold, yes, and that's where an adventurer can make his fortune. But... the Black Dart Gang preys on adventurers down below. They look harmless -- like outcasts or beggars. You may think you're tough... you can handle anything. But not the Black Dart Gang.
@@ -24119,7 +24119,7 @@ You killed the Black Dart Gang? I didn't think it was possible! I've heard their
 
 > INFO.NAME latest rumors 355832256474522964
 What's the most dangerous thing in Mournhold? Apart from Helseth's Royal Guards and the Hands of Almalexia -- which you've got no business fooling with anyway -- I'd say the Black Dart Gang. I've had no experience with them, personally, but from what I hear, they are really bad news.
-哀伤之城最危险的东西是什么？除了赫尔塞斯的王室卫兵和阿玛莱西娅之手 -- 反正你也不会没事跟他们惹上麻烦 -- 我想说的是黑镖帮。我个人没有遇到过他们，但据我所知，他们绝非善类。 {瓜尔,消息}
+哀伤之城最危险的东西是什么？除了赫尔塞斯的王宫卫兵和阿玛莱西娅之手 -- 反正你也不会没事跟他们惹上麻烦 -- 我想说的是黑镖帮。我个人没有遇到过他们，但据我所知，他们绝非善类。 {瓜尔,消息}
 
 > INFO.NAME latest rumors 109197301008718284
 If you're thinking of going down the sewers to explore Old Mournhold, watch out for the Black Dart Gang. They look like helpless paupers, but they are deadly. They prey on adventurers coming out of the ruins loaded with treasure. They call them the Black Dart Gang on account of the poisoned black darts they use -- deadly poison -- one is enough to kill you.
@@ -27587,11 +27587,11 @@ Young King Helseth's handpicked thugs. Ridiculous that they are allowed to dispe
 
 > INFO.NAME royal guard 31086261812684616432
 I am the leader of the Royal Guards. We live to protect King Helseth. Only the strongest and most loyal were picked by our king to serve. Any who would threaten the monarchy will be dealth with severely.
-我是王室卫兵的队长。我们活着就是为了保护赫尔塞斯国王。只有最强壮和最忠诚的人能被选中侍奉我们的国王。任何威胁到统治的人都将受到严厉的惩罚。 {瓜尔}
+我是王宫卫兵的队长。我们活着就是为了保护赫尔塞斯国王。只有最强壮和最忠诚的人能被选中侍奉我们的国王。任何威胁到统治的人都将受到严厉的惩罚。 {瓜尔}
 
 > INFO.NAME royal guard 3070610228570825910
 I am of the Royal Guard. What can I do for you?
-我是王室卫兵。我能为你做什么？ {瓜尔}
+我是王宫卫兵。我能为你做什么？ {瓜尔}
 
 > INFO.NAME royal guard 133051880428815588
 Hmmph. Amateurs.
@@ -27599,15 +27599,15 @@ Hmmph. Amateurs.
 
 > INFO.NAME royal guard 25698127743116326492
 King Helseth's Royal guard are an elite group chosen by the king himself. You'll find them in the Royal Palace.
-赫尔塞斯国王的王室卫兵是由国王亲自挑选的精英卫队。你可以在王室宫殿里找到他们。 {瓜尔}
+赫尔塞斯国王的王宫卫兵是由国王亲自挑选的精英卫队。你可以在王室宫殿里找到他们。 {瓜尔}
 
 > INFO.NAME royal guard 694274841001228862
 You'll find the Royal Guard around the Royal Palace, mostly. I've heard they're dangerous men. I know I'm going to stay clear of them.
-你通常会在王室宫殿周围找到王室卫兵。我听说他们是很危险的人。我知道我将和他们保持距离。 {瓜尔}
+你通常会在王室宫殿周围找到王宫卫兵。我听说他们是很危险的人。我知道我将和他们保持距离。 {瓜尔}
 
 > INFO.NAME royal guard 3471171691845727634
 You'll find the Royal Guard around the Royal Palace, mostly. I understand that they're King Helseth's personal bodyguards.
-通常你可以在王室宫殿周围看到王室卫兵。我知道他们都是赫尔塞斯国王的私人保镖。 {瓜尔}
+通常你可以在王室宫殿周围看到王宫卫兵。我知道他们都是赫尔塞斯国王的私人保镖。 {瓜尔}
 
 > INFO.NAME royal guard 232509732247381254
 A bunch of thugs, that's what I say. Brought in to be the muscle for our new king.
@@ -29463,35 +29463,35 @@ Murderer! Take that!
 
 > INFO.NAME greeting 1 7363080922429670
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 25821258491375217
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 2145024501310819849
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 2165525376319625258
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 25382218042027022858
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 1181181399367923
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 66961581102136365
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 2064152171881118881
 Your killing of one of my Royal Guards is a matter to be resolved according to the law. But regardless of the law, I refuse to have anything further to do with you.
-你杀了我的一个王室卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
+你杀了我的一个王宫卫兵，这事应该按照法律来裁决。但不管法律如何，我拒绝再跟你有任何往来。 {瓜尔}
 
 > INFO.NAME greeting 1 621213521571122808
 There are no more official matters to discuss. You are to report directly to the King himself.
@@ -29515,7 +29515,7 @@ I have heard about the attack on the city, and I've dispatched guards to take ca
 
 > INFO.NAME greeting 1 17629275802324325528
 I'm the captain of King Helseth's Royal Guards. Is this an official matter? Or is there something else you want?
-我是赫尔塞斯国王的王室卫兵的队长。有什么公务要谈吗？还是你有别的什么事？ {瓜尔}
+我是赫尔塞斯国王的王宫卫兵的队长。有什么公务要谈吗？还是你有别的什么事？ {瓜尔}
 
 > INFO.NAME greeting 1 1660732249308423536
 Yes, %PCName. Is this an official matter? Or is there something else you want?
@@ -32211,7 +32211,7 @@ We are the High Ordinators.
 
 > INFO.NAME background 672431160671510926
 I am a Royal Guard.
-我是一名王室卫兵。 {瓜尔}
+我是一名王宫卫兵。 {瓜尔}
 
 > INFO.NAME background 1011014399322156665
 I am an Ordinator.
@@ -34347,7 +34347,7 @@ I do not want company. Go away.
 
 > INFO.NAME hello 943722942952127376
 Health and healing are my specialties.
-生命值和治愈是我的专长。
+生命和治愈是我的专长。
 
 > INFO.NAME hello 2131714339460410214
 Talk to the boss.
@@ -34491,7 +34491,7 @@ I'm a big fan of Robot Arena. Aren't you?
 
 > INFO.NAME hello 276823656791412982
 Strange creatures in the city? Have you alerted the Royal Guard?
-城里有奇怪的生物？你通知王室卫兵了吗？
+城里有奇怪的生物？你通知王宫卫兵了吗？
 
 > INFO.NAME hello 395242592033014270
 Good for the Empire, good for all, eh, citizen?
@@ -35123,19 +35123,19 @@ Archmagister of House Telvanni, how may I serve you?
 
 > INFO.NAME hello 196581377229133661
 Archmaster of Redoran, how may I serve you?
-瑞多然的家主，我能为你做什么？
+瑞多然的大家主，我能为你做什么？
 
 > INFO.NAME hello 2192127480549114635
 Archmaster of Redoran, how may I serve you?
-瑞多然的家主，我能为你做什么？
+瑞多然的大家主，我能为你做什么？
 
 > INFO.NAME hello 15649215033135612839
 Archmaster of Redoran, how may I serve you?
-瑞多然的家主，我能为你做什么？
+瑞多然的大家主，我能为你做什么？
 
 > INFO.NAME hello 904459032737916193
 Archmaster of Redoran, how may I serve you?
-瑞多然的家主，我能为你做什么？
+瑞多然的大家主，我能为你做什么？
 
 > INFO.NAME hello 124482742136726141
 Knight of the Garland, how may I serve you?

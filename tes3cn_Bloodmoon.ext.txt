@@ -20,7 +20,7 @@ Teleportation magic does not work here.
 
 > GMST.STRV sLevitateDisabled
 Levitation magic does not work here.
-漂浮魔法在这里不起作用。
+浮空魔法在这里不起作用。
 
 > GMST.STRV sInfoRefusal
 Info Refusal
@@ -6593,7 +6593,7 @@ Agnes<BR>
 <BR>
 为此，我精心制作了一卷灭狼者卷轴。卷轴上的迪德拉文字蕴含了仪式的核心力量。我已精细打磨羊皮纸，确保它能与原仪式相媲美。在此，我提出一个慎重的请求：除非万不得已，不要轻易动用此卷。它的制作并非易事，女巫会希望如果可能，它能为未来的需要保留。
 <BR>
-那卷轴已被藏匿在索瑟泰姆的一处洞穴中，那是一个位于阴暗洞穴天花板上悬挂冰柱的凹洞内。你将需要借助乌鸦形态，或是悬浮药水，才能触及它。
+那卷轴已被藏匿在索瑟泰姆的一处洞穴中，那是一个位于阴暗洞穴天花板上悬挂冰柱的凹洞内。你将需要借助乌鸦形态，或是浮空药水，才能触及它。
 <BR>
 艾格尼丝<BR>
 <BR>
@@ -7838,7 +7838,7 @@ I have been named Nerevarine by all four tribes of the Vvardenfell Ashlanders --
 
 > INFO.NAME tg_ss_generosity1 22149270561687231907
 Thieves Guild: Bal Molagmer, The Hlervu Locket
-盗贼公会：巴尔·莫拉格穆尔，赫勒武的宝盒
+盗贼公会：巴尔·莫拉格穆尔，赫勒乌的宝盒
 
 > INFO.NAME tg_ss_generosity1 208451036451265574
 Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the light of justice throughout Morrowind, stealing from the unjust, and giving to the poor. He gave me a pair of Bal Molagmer gloves, which I should wear before speaking with him again.
@@ -7846,11 +7846,11 @@ Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the ligh
 
 > INFO.NAME tg_ss_generosity1 1751914300170125850
 Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlervu.
-绅士吉姆·史戴西感谢我将赫勒武的盒坠归还给布雷纳斯·赫勒武。
+绅士吉姆·史戴西感谢我将赫勒乌的盒坠归还给布雷纳斯·赫勒乌。
 
 > INFO.NAME tg_ss_generosity1 1069021420716385
 Gentleman Jim Stacey was upset to hear that Braynas Hlervu was dead, but he believes there is other work the Bal Molagmer must do.
-绅士吉姆·史戴西听说布雷纳斯·赫勒武已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
+绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
 
 > INFO.NAME tg_ss_generosity2 2204782701611628005
 Thieves Guild: Bal Molagmer, Land Deed
@@ -10422,7 +10422,7 @@ The Sad Sorcerer
 
 > INFO.NAME ms_hatandskirt 19484231022911617439
 I found this poor sorcerer imprisoned by a swarm of scamps. They fed him his companions in a broth. And stripped him and forced him to wear a skirt and hat. He looks very melancholy. He asked me to get him a potion of levitation so he could escape from his high perch. He offered to reward me with the attractive skirt and remarkable hat they made him wear.
-我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点漂浮药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
+我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点浮空药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
 
 > INFO.NAME ms_hatandskirt 32130211451349113829
 I gave the poor sorcerer a potion of levitation so he could escape from his high perch, and accepted his skirt and hat as reward.
@@ -11518,11 +11518,11 @@ House Redoran: Duel with Bolvyn Venim
 
 > INFO.NAME hr_archmaster 17741203752809611543
 Athyn Sarethi told me to meet Bolvyn Venim in a duel. The winner will become the Archmaster of House Redoran.
-艾辛·萨雷提让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的新家主。
+艾辛·萨雷提让我与波尔文·维尼姆决斗。胜者将成为瑞多然家族的大家主。
 
 > INFO.NAME hr_archmaster 2082553503074113793
 I defeated Bolvyn Venim and am now the Archmaster of House Redoran.
-我击败了波尔文·维尼姆，现在是瑞多然家族的家主。
+我击败了波尔文·维尼姆，现在是瑞多然家族的大家主。
 
 > INFO.NAME b6_hlaalubook 2100630069111459365
 Hlaalu Hortator
@@ -14182,11 +14182,11 @@ Mysterious Killings in Vivec
 
 > INFO.NAME town_vivec 3086445582648927038
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Belt of the Armor of God.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神之铠甲腰带中任选其一。我接受了神甲腰带。
+我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了神甲腰带。
 
 > INFO.NAME town_vivec 1711925436295071793
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Indoril helm and cuirass. I am not supposed to wear it in Vivec City, to avoid being mistaken for an Ordinator.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀的那个丹莫女人符合他要处决的凶手的描述。作为奖赏，他让我在因多瑞尔头盔和铠甲或神之铠甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。 {报酬}
+我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。
 
 > INFO.NAME da_mephala 9104096839921513
 Mephala's Quest
@@ -15370,7 +15370,7 @@ Erabenimsun Nerevarine
 
 > INFO.NAME b4_robe 9397405685914188
 I gave Han-Ammu the Robe of Erur-Dan the Wise and made a little speech about wisdom and symbols and responsibility. I believe he has taken the lesson to heart, and will consider accepting his responsibilities as ashkhan, and consider naming me Nerevarine. But he said he does not need the robe, and he asked me to keep it.
-我把贤者埃鲁·丹的长袍送给了罕-阿姆，并就智慧、象征和责任发表了一番讲话。我相信他已将这一教训铭记于心，会考虑接受他作为灰烬可汗的责任，并考虑给我任命为尼瑞瓦因。但他说他不需要这件袍子，请我收下。
+我把智者埃鲁-丹的长袍送给了罕-阿姆，并就智慧、象征和责任发表了一番讲话。我相信他已将这一教训铭记于心，会考虑接受他作为灰烬可汗的责任，并考虑给我任命为尼瑞瓦因。但他说他不需要这件袍子，请我收下。
 
 > INFO.NAME ic6_rat 200181671099131736
 Imperial Cult: Gathering Rat Meat
@@ -16314,7 +16314,7 @@ Thank you. Thank you so much. Look, take this key. You'll find all of the mispla
 
 > INFO.NAME shipments stopped arriving 24136205242319227690
 I'm finished. I'll never leave this island now. At least not alive. Carius will have my head! What have you done? I hope you're happy, %PCName.
-我完了。我再也不能离开这座岛了，至少不会活着离开。卡利尤斯会砍了我的头的！你做了什么？我希望你高兴，%PCName。
+我完了。我再也不能离开这座岛了，至少不会活着离开。卡利尤斯会砍了我的头的！你做了什么？你现在开心了吧，%PCName。
 
 > INFO.NAME shipments stopped arriving 362532767723326978
 Well, I have no idea.... You've been in my desk? My desk? You've been in there? Why...that's an outrage! Stolen liquor? I have no idea.... All right. Perhaps I have been hiding the alcohol. It was for their own good! And...I had hoped that if the soldiers got fed up and revolted, I'd be able to justify going home to my superiors. Look, I don't want any trouble from you.
@@ -17026,7 +17026,7 @@ Yes, I know it has. These soldiers lead a difficult existence on this island. It
 
 > INFO.NAME morale has been low 25484325302217725866
 I believe that business is complete. Thank you for your help.
-我想生意已经谈完了。谢谢你的帮助。 {事}
+我想这件事已经结束了。谢谢你的帮助。
 
 > INFO.NAME morale has been low 26577323112283225245
 You say that the shipment had merely been misplaced and this was all a big miscommunication? That's ridiculous. I expected better of my men, and myself. Especially of myself. Thank you for your help, %PCName. Take these--there are diseases on this island we have never encountered. I would hate to see you take ill. Now, though, there is more fort business to discuss.
@@ -22028,7 +22028,7 @@ Return to me when you have obtained the petals of the wolfsbane flower.
 
 > INFO.NAME greeting 1 3125513759232317176
 In order for the Rite of the Wolf Giver to proceed, my sisters and I need the petals of a wolfsbane flower. Wolfsbane is rare, and grows on Solstheim in only one place. You must go to the southern end of the Moesring Mountains, to the top of Hvitkald Peak. There you will find a single wolfsbane flower in bloom. Retrieve the petals of this wolfsbane flower and return them to me. Take this Rising Force Potion. You may need it to reach the peak.
-为了让狼人仪式顺利进行，我和我的姐妹们需要乌头花瓣。乌头花很稀有，在索瑟泰姆只有一个地方生长。你们必须前往摩斯林山脉南端的赫维特卡尔德高峰。在那里您会发现一朵盛开的乌头花。把这朵乌头花的花瓣捡回来还给我。带上这瓶“上升之力”药水。你可能需要它才能到达山顶。
+为了让狼人仪式顺利进行，我和我的姐妹们需要乌头花瓣。乌头花很稀有，在索瑟泰姆只有一个地方生长。你们必须前往摩斯林山脉南端的赫维特卡尔德高峰。在那里您会发现一朵盛开的乌头花。把这朵乌头花的花瓣捡回来还给我。带上这瓶上升之力药水。你可能需要它才能到达山顶。
 
 > INFO.NAME greeting 1 11116232311664414400
 Speak first with our sister Etienne.  She is the point of the dagger.  The piercing of body and mind begins with her.
@@ -26676,7 +26676,7 @@ I am not sure with whom I will work.
 
 > INFO.NAME my airship 43758722053027926
 I...built an airship, you see.  Quite a...quite a...um...beautiful craft, if I may be so...bold. Some scavenged Dwemer equip...um...parts, a few, you know...ahh...long-lasting levitation spells.  Very clever...a capital idea, I know!  Even hired a gang of...well, a crew I guess you'd call them.  They were to fly far...to the north!  Away from all this dust...to Solstheim! I paid them...paid them rather well.  They were to locate Hrothmund's Barrow, and find a certain...um...item.
-你看，我…造了一艘飞艇。相当…相当…嗯…漂亮的飞艇，如果我可以这么…大胆的话。一些从锻莫那里搜刮来的装备…嗯…零件，一些，你知道的…啊…长效漂浮咒语。非常聪明…我知道这是个好主意！甚至还雇了一帮…嗯，我想你可以叫他们船员。他们要飞很远…到北方去！远离这些尘土…去索瑟泰姆！我给了他们…相当丰厚的报酬。他们要找到霍斯蒙德之冢，找到某样…嗯…东西。 {老鼠}
+你看，我…造了一艘飞艇。相当…相当…嗯…漂亮的飞艇，如果我可以这么…大胆的话。一些从锻莫那里搜刮来的装备…嗯…零件，一些，你知道的…啊…长效浮空咒语。非常聪明…我知道这是个好主意！甚至还雇了一帮…嗯，我想你可以叫他们船员。他们要飞很远…到北方去！远离这些尘土…去索瑟泰姆！我给了他们…相当丰厚的报酬。他们要找到霍斯蒙德之冢，找到某样…嗯…东西。 {老鼠}
 
 > INFO.NAME my airship 10389276342426430826
 Oh, %PCName, the ship...well, airship...is so very beautiful.  The best...most ambitious thing...that is to say...it was my, well...pet project.  And it flew...so very well! Well...um...it flew, and I...um..I guess that was good enough...hmmm....
@@ -26868,11 +26868,11 @@ The berserkers are half-naked Nords who live to kill. They've been driven mad by
 
 > INFO.NAME fryse hags 3233563402024329602
 The fryse hags are mages dedicated to the teachings of Kyne, the widow of the god Shor. Each is a powerful sorceress skilled in the use of frost-based magicka. They're vicious lasses, and view most people as a threat to their beliefs. They've been seen out in the wild, and in a couple of the ice caves.
-冰霜女巫是信奉朔尔神遗孀凯恩教义的法师。她们都是精通冰霜魔法的强大女巫。她们是恶毒的女孩，视大多数人为其信仰的威胁。人们曾在野外和几个冰洞中看到过她们。 {魔力}
+冰霜女巫是信奉朔尔神遗孀凯娜教义的法师。她们都是精通冰霜魔法的强大女巫。她们是恶毒的女孩，视大多数人为其信仰的威胁。人们曾在野外和几个冰洞中看到过她们。 {魔力}
 
 > INFO.NAME fryse hags 154255821006816837
 The fryse hags are powerful and savage mages dedicated to the teachings of Kyne, the Mother of Men. They despise anyone not of their order, and will attack on sight.
-冰霜女巫是强大而野蛮的法师，信奉人类之母凯恩的教义。他们蔑视任何不属于他们教派的人，一打照面他们就会发动攻击。
+冰霜女巫是强大而野蛮的法师，信奉人类之母凯娜的教义。他们蔑视任何不属于他们教派的人，一打照面他们就会发动攻击。
 
 > INFO.NAME raven rock 289187297656316390
 The empire's mining colony, bringing wealth to the empire. But at what cost?
