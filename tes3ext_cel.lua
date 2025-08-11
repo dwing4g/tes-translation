@@ -1,6 +1,7 @@
 local cellBegin = false
 local i = 0
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	i = i + 1
 	if line == "-CELL" then
 		cellBegin = true

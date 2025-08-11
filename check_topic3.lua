@@ -15,6 +15,7 @@ local ignores = {
 local N = tonumber(arg[2])
 local i = 0
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	i = i + 1
 	local topics = line:match " {([^}]+)}$"
 	if topics then

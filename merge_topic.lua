@@ -11,6 +11,7 @@ local function loadTopics(filename)
 	local newLine = false
 	local i = 1
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		local topic, checkTopic, more = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%](.*)$"
 		if not topic or more:find "%S" then
 			if not newLine then newLine = true io.stderr:write "\n" end

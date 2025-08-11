@@ -15,6 +15,7 @@ local function loadCels(filename)
 	local newLine = false
 	local i = 1
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		local cel, checkCel = line:match "^([^\t]+)\t+(.*)$"
 		if not cel then
 			if not newLine then newLine = true errwrite "\n" end
@@ -47,6 +48,7 @@ if err == 0 then
 	local t = {}
 	errwrite("triming ", arg[#arg], " ... ")
 	for line in io.lines(arg[#arg]) do
+		line = line:gsub("\r+$", "")
 		local cel = line:match "^([^\t]+)"
 		if cel and not cels[cel] then
 			t[#t + 1] = line

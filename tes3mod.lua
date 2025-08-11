@@ -19,6 +19,7 @@ end
 
 local topics = {}
 for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
+	line = line:gsub("\r+$", "")
 	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[k] = v
@@ -63,6 +64,7 @@ local trans = {}
 local s, i, n = 0, 0, 0
 local k, v1, v2 = nil, nil, nil
 for line in io.lines(arg[2]) do
+	line = line:gsub("\r+$", "")
 	i = i + 1
 	if line ~= "" or s == 2 or s == 4 then
 		if s == 0 then
@@ -285,6 +287,7 @@ local function modScr(line, p, lineId)
 end
 local k, v, t, r, tag, d, dl, fid
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	i = i + 1
 	if not v then
 		tag = line:match "^ ([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]%.[%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) \""

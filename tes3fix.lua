@@ -246,6 +246,7 @@ local lines = {}
 local checks = {}
 local n, s, e = 0, 0
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	i = i + 1
 	if line:find "^> " then
 		s, e = 1

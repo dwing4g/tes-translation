@@ -15,6 +15,7 @@ local function loadCels(filename)
 	local newLine = false
 	local i = 1
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		local cel, checkCel = line:match "^([^\t]+)\t+(.*)$"
 		if not cel then
 			if not newLine then newLine = true errwrite "\n" end

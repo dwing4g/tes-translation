@@ -35,6 +35,7 @@ for i = 2, #arg do
 	else
 		local lineId = 0
 		for line in io.lines(arg[i]) do
+			line = line:gsub("\r+$", "")
 			lineId = lineId + 1
 			local term, tran, note = line:match '^"(..-)","(..-)","(.*)"$'
 			if term then

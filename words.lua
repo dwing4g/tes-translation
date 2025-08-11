@@ -54,6 +54,7 @@ local function calcWords()
 	local t = {}
 	for _, file in ipairs(files) do
 		for line in io.lines(file) do
+			line = line:gsub("\r+$", "")
 			if not line:find "^> " then
 				for word in line:gmatch "%a%l+" do
 					word = word:lower()

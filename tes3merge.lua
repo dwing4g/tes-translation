@@ -6,6 +6,7 @@
 local function loadExt(filename, callback)
 	local k, e, c, m, n = nil, nil, nil, false, 0
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		n = n + 1
 		if line ~= "" or m then
 			if not k then

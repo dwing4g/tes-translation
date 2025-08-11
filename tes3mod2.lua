@@ -91,12 +91,14 @@ local trans = {}
 local lines = {}
 write("loading '" .. arg[3] .. "' ... ")
 for line in io.lines(arg[3]) do
+	line = line:gsub("\r+$", "")
 	lines[#lines + 1] = line
 end
 write("OK (" .. #lines .. " lines)\n")
 local n = 0
 write("loading '" .. arg[4] .. "' ... ")
 for line in io.lines(arg[4]) do
+	line = line:gsub("\r+$", "")
 	n = n + 1
 	if n > #lines then
 		error("ERROR: too many lines")
@@ -128,6 +130,7 @@ local i, s = 0, 0
 local tag, k, v1, v2
 local newLineMark = "<n/>" -- 主要出现在INFO里的txt中
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	i = i + 1
 	if line ~= "" or s == 2 or s == 4 then
 		if s == 0 then

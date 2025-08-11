@@ -69,6 +69,7 @@ local all = {}
 local i, s = 0, 0
 local tag, k, v1, v2
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	i = i + 1
 	if line ~= "" or s == 2 or s == 4 then
 		if s == 0 then

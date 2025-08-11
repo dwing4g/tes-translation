@@ -24,6 +24,7 @@ local function loadTxt(fn)
 	local t = {}
 	local i = 0
 	for line in io.lines(fn) do
+		line = line:gsub("\r+$", "")
 		i = i + 1
 		local k, v = line:match "^(.-)=(.+)$"
 		if not k or k == "" then

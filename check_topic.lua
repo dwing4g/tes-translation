@@ -107,6 +107,7 @@ local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM
 	local localTopicMap = {}
 	local n, topic = 0
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		local s = line:match "^%x*:?%s*DIAL%.NAME%s*\"(.-)\""
 		if s then
 			topic = s:gsub("%$00$", "")
@@ -210,6 +211,7 @@ newLine = false
 local err = 0
 local check0, check1 = {}, {}
 for line in io.lines(topics_filename) do
+	line = line:gsub("\r+$", "")
 	local topic, checkTopic, more = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%](.*)$"
 	if not topic or more:find "%S" then
 		if err == 0 then errwrite "\n" newLine = true end
@@ -319,6 +321,7 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 	newLine = false
 	local i, n, dn, ss, inam, dial, key = 1, 0, 0
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		local topic = line:match "[Aa]dd[Tt]opic%s*\"\"(.-)\"\""
 		if topic and not topicMap[topic:lower()] and not line:find ";%s*[Aa]dd[Tt]opic%s*\"\"" then
 			warn("not found topic at line ", i, ": ", line)
@@ -582,6 +585,7 @@ local function fixTexts(src_filename, dst_filename, fixedTexts)
 		end
 	end
 	for line in io.lines(src_filename) do
+		line = line:gsub("\r+$", "")
 		out = false
 		if ss then
 			local isEnd, s = readString(line, 1)

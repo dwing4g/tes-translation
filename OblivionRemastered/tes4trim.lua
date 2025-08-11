@@ -68,6 +68,7 @@ local reserved = {
 local g = 0
 local ln = 0
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	ln = ln + 1
 	local g1, g2, g3, g4 = line:match "^{GRUP %[(%x+) (%x+) (%x+) (%x+)"
 	if g1 then

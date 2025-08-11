@@ -12,6 +12,7 @@ local t, t1, t2 = {}, {}, {}
 local strs = {}
 local pos = 0
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	local idx, str = line:match "^<(%d+)> ?(.*)$"
 	if idx then
 		idx = tonumber(idx)

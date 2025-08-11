@@ -103,6 +103,7 @@ local groups = {}
 local ver
 local tag, param
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	if ss then
 		local isEnd, s = readString(line, 1)
 		ss[#ss + 1] = s

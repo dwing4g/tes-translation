@@ -22,6 +22,7 @@ local topics = {}
 local fn = #arg > 3 and arg[3] or "topics.txt"
 io.stderr:write("INFO: loading '", fn, "' ...\n")
 for line in io.lines(fn) do
+	line = line:gsub("\r+$", "")
 	local k, v = line:match "%[(.-)%]%s*=>%s*%[(.-)%]"
 	if k then
 		topics[v] = k
@@ -61,6 +62,7 @@ local function loadTxt(fns)
 		end
 
 		for line in io.lines(fn) do
+			line = line:gsub("\r+$", "")
 			i = i + 1
 			local m = line:match "^ ([%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]%.[%u%d_<=>?:;@%z\x01-\x14][%u%d_][%u%d_][%u%d_]) \""
 			if m then

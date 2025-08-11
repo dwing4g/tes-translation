@@ -23,6 +23,7 @@ local reserved = {
 local w, e, i
 local ln = 0
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	ln = ln + 1
 	if e then
 		i = 1

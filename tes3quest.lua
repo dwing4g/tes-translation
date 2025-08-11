@@ -23,6 +23,7 @@ end
 local function loadExt(filename, callback)
 	local k, e, c, m, n = nil, nil, nil, false, 0
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		n = n + 1
 		if line ~= "" or m then
 			if not k then
@@ -87,6 +88,7 @@ io.write("loading ", fne, " and saving " .. fnc .. " ... ")
 local fc = io.open(fnc, "wb")
 local n = 0
 for line in io.lines(fne) do
+	line = line:gsub("\r+$", "")
 	-- ["a1_10_mehramilo"] = "Meet Mehra Milo",
 	line = line:gsub('%["(.-)("%]%s*=%s*")(.-)"', function(k, m, e)
 		local c = t[e:gsub("\\'", "'")]

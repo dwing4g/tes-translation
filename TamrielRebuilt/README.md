@@ -23,7 +23,7 @@
 
 6. 再运行下面命令, 从`TR_Mainland.txt`生成初始的对照文本文件`tes3cn_TR_Mainland.ext.txt`:
 
-   `..\luajit ..\tes3ext.lua TR_Mainland.txt TR_Mainland.txt tes3cn_TR_Mainland.ext.txt`
+   `..\luajit ..\tes3ext.lua TR_Mainland.txt TR_Mainland.txt topics.txt tes3cn_TR_Mainland.ext.txt`
 
 ### 开始翻译
 
@@ -43,7 +43,7 @@ Yes
 
 1. 在当前目录运行下面命令, 用`TR_Mainland.txt`和`tes3cn_TR_Mainland.ext.txt`生成`tes3cn_TR_Mainland.txt`:
 
-   `..\luajit ..\tes3mod.lua TR_Mainland.txt tes3cn_TR_Mainland.ext.txt tes3cn_TR_Mainland.txt`
+   `..\luajit ..\tes3mod.lua TR_Mainland.txt tes3cn_TR_Mainland.ext.txt topics.txt tes3cn_TR_Mainland.txt`
 
    可能会输出一些警告(WARN)和错误(ERROR)信息, 如有错误信息, 说明无法生成出正常的`tes3cn_TR_Mainland.txt`.
    可按警告和错误提示修正并重做此步.

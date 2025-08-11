@@ -172,6 +172,7 @@ local function addSub(line, k, v, c)
 end
 
 for line in io.lines(arg[1]) do
+	line = line:gsub("\r+$", "")
 	lineId = lineId + 1
 	if cel then
 		local k, v = line:match "^(.+)\t(.+)$"

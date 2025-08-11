@@ -114,6 +114,7 @@ local forbids = arg[1] and arg or {
 for _, filename in ipairs(filenames) do
 	local i = 0
 	for line in io.lines(filename) do
+		line = line:gsub("\r+$", "")
 		i = i + 1
 		for _, forbid in ipairs(forbids) do
 			if type(forbid) == "string" then

@@ -26,6 +26,7 @@ newLine = false
 local err = 0
 local check0, check1 = {}, {}
 for line in io.lines(topics_filename) do
+	line = line:gsub("\r+$", "")
 	local et, ct = line:match "^%s*%[(.-)%]%s*=>%s*%[(.-)%]"
 	if et then
 		topics[#topics + 1] = { et:lower(), ct:lower() }
