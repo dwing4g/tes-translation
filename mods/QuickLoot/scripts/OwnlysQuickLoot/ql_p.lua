@@ -1519,7 +1519,7 @@ function onFrame(dt)
 		return false
 	end
 	if inspectedContainer and core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
-		types.Actor.setStance(self, types.Actor.STANCE.Nothing)
+		--types.Actor.setStance(self, types.Actor.STANCE.Nothing)
 	end
  --self.controls.use = 0
 	if not modEnabled then
@@ -1647,7 +1647,6 @@ function onFrame(dt)
 		then
 		
 	end
-	
 	if inspectedContainer then
 		pickpocket.onFrame(self, inspectedContainer, input, drawUI)
 	elseif not inspectedContainer 
