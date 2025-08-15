@@ -202,11 +202,10 @@ local function modScr(line, p, lineId)
 					trans[k] = nil
 					n = n + 1
 					if t then
-						if s == t[1] then
-							s = t[2]
-						else
+						if s ~= t[1] then
 							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
+						s = t[2]
 					else
 						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
@@ -226,11 +225,10 @@ local function modScr(line, p, lineId)
 					trans[k] = nil
 					n = n + 1
 					if t then
-						if s == t[1] then
-							s = t[2]
-						else
+						if s ~= t[1] then
 							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
+						s = t[2]
 					else
 						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
@@ -249,11 +247,10 @@ local function modScr(line, p, lineId)
 					trans[k] = nil
 					n = n + 1
 					if t then
-						if s == t[1] then
-							s = t[2]
-						else
+						if s ~= t[1] then
 							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
+						s = t[2]
 					else
 						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
@@ -268,11 +265,10 @@ local function modScr(line, p, lineId)
 					trans[k] = nil
 					n = n + 1
 					if t then
-						if s == t[1] then
-							s = t[2]
-						else
+						if s ~= t[1] then
 							warn("unmatched translation key '", k, "' at line ", lineId, " in '", arg[1], '\':\n"""', s, '"""\n"""', t[1], '"""')
 						end
+						s = t[2]
 					else
 						warn("not found translation key '", k, "' at line ", lineId, " in '", arg[1], "'")
 					end
@@ -332,11 +328,10 @@ for line in io.lines(arg[1]) do
 					trans[kk] = nil
 					n = n + 1
 					if t then
-						if v == t[1] then
-							v = t[2]
-						else
+						if v ~= t[1] then
 							warn("unmatched translation key '", kk, "' at line ", i, " in '", arg[1], '\':\n"""', v, '"""\n"""', t[1], '"""')
 						end
+						v = t[2]
 					else
 						warn("not found translation key '", kk, "' at line ", i, " in '", arg[1], "'")
 					end
