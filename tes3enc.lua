@@ -60,7 +60,7 @@ local function readString(s, i)
 			if not e then
 				if c >= 0x81 and i + 1 <= n then
 					e = true
-					if c <= 0xa0 or c >= 0xf8 or byte(s, i + 1) <= 0xa0 then
+					if c <= 0xa0 or (c >= 0xaa and c <= 0xaf) or c >= 0xf8 or byte(s, i + 1) <= 0xa0 then
 						c = sub(s, i, i + 1)
 						if not goodGBK[c] then
 							badGBK[c] = true
