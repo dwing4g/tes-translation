@@ -36734,13 +36734,13 @@ C<BR>"
  INFO.PNAM "1185418068258991984$00"
  INFO.NNAM "266992328826309498$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "疯腿阿兰塔莫告诉我，有个客户让我们偷一份裁决者的任务报告。报告在正义厅堂。"
+ INFO.NAME "疯腿·阿兰塔莫告诉我，有个客户让我们偷一份裁决者的任务报告。报告在正义厅堂。"
 -INFO
  INFO.INAM "266992328826309498$00"
  INFO.PNAM "12685229461625414827$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "疯腿阿兰塔莫感谢我给他带来了裁决者的任务报告。"
+ INFO.NAME "疯腿·阿兰塔莫感谢我给他带来了裁决者的任务报告。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MV_CultistVictim$00"
