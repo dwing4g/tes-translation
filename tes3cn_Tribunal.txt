@@ -7440,7 +7440,7 @@ endif
 
 if ( umbrasword == 0 )
 	if player->(GetItemCount ""longsword_umbra_unique"") == 1
-		addtopic ""噬影""
+		addtopic ""本影剑""
 		set umbrasword to 1
 		set itemcount to ( itemcount + 1 )
 	endif
@@ -14267,7 +14267,7 @@ End yarnarScript"
  CREA.NAME "ancestor_mg_wisewoman$00"
  CREA.MODL "r\AncestorGhost.NIF$00"
  CREA.CNAM "ancestor_ghost$00"
- CREA.FNAM "卡妮特·阿什鲁尼萨米斯$00"
+ CREA.FNAM "卡尼特·阿什鲁尼萨米斯$00"
  CREA.NPDT [02 00 00 00 08 00 00 00 64 00 00 00 32 00 00 00 1E 00 00 00 50 00 00 00 12 00 00 00 14 00 00 00 5A 00 00 00 14 00 00 00 DC 00 00 00 18 01 00 00 90 01 00 00 18 01 00 00 3C 00 00 00 50 00 00 00 14 00 00 00 01 00 00 00 0A 00 00 00 01 00 00 00 0A 00 00 00 01 00 00 00 0A 00 00 00 00 00 00 00]
  CREA.FLAG [48 04 00 00]
  CREA.NPCO [0A 00 00 00 47 6F 6C 64 5F 30 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -15464,7 +15464,7 @@ End yarnarScript"
 -WEAP [00 00 00 00 00 20 00 00]
  WEAP.NAME "longsword_umbra_unique$00"
  WEAP.MODL "w\W_art_claymore_umbra.NIF$00"
- WEAP.FNAM "噬影$00"
+ WEAP.FNAM "本影剑$00"
  WEAP.WPDT [00 00 20 42 B0 AD 01 00 02 00 64 19 CD CC AC 3F 00 00 80 3F C4 09 0A 32 0A 2D 0A 28 01 00 00 00]
  WEAP.ITEX "w\W_longsword_umbra.tga$00"
  WEAP.ENAM "umbra's hunger$00"
@@ -16086,9 +16086,9 @@ End yarnarScript"
 <BR>
 黑沼泽曾经以阿尔贡呼之为“瓦马苏斯”的沼龙的栖息地而闻名。北方人认为他们是智慧的龙族，血脉中流淌着闪电力量。这一族中一只强大的怪兽 -- 哈尼赫纳迈，被北方人在七天七夜之内，以数十人的伤亡为代价所击杀。幸存者中的一员拔下一只尖牙作为战利品带回家。尖牙被雕刻成刀刃，制成了一把短匕。该匕首神秘地附有怪兽本身的一些魔法属性，并令使用者可对对手造成电击伤害。此柄独特的匕首偶尔会为云游四方的英杰们所目睹。<BR>
 <BR>
-噬影剑<BR>
+本影剑<BR>
 <BR>
-噬影剑由古代女巫奈茵拉·瓦尔所附魔，其唯一目的即是俘获灵魂。此剑与灵魂石结合使用，令执剑人有机会将敌人的灵魂囚禁在灵魂石中。奈茵拉因其恶堕造物而被处决，但在此前她将噬影剑藏匿起来。噬影剑对执剑人的选择甚是挑剔，因此在堪当斯任者出现前会一直隐匿不见。<BR>
+本影剑由古代女巫奈茵拉·瓦尔所附魔，其唯一目的即是俘获灵魂。此剑与灵魂石结合使用，令执剑人有机会将敌人的灵魂囚禁在灵魂石中。奈茵拉因其恶堕造物而被处决，但在此前她将本影剑藏匿起来。本影剑对执剑人的选择甚是挑剔，因此在堪当斯任者出现前会一直隐匿不见。<BR>
 <BR>
 丹斯塔格莫之戒<BR>
 <BR>
@@ -17325,7 +17325,7 @@ End yarnarScript"
 -WEAP [00 00 00 00 00 04 00 00]
  WEAP.NAME "longsword_umbra_unique_x$00"
  WEAP.MODL "w\W_art_claymore_umbra.NIF$00"
- WEAP.FNAM "噬影$00"
+ WEAP.FNAM "本影剑$00"
  WEAP.WPDT [00 00 20 42 B0 AD 01 00 02 00 64 19 CD CC AC 3F 00 00 80 3F C4 09 0A 32 0A 2D 0A 28 01 00 00 00]
  WEAP.SCRI "MuseumUmbraSword$00"
  WEAP.ITEX "w\W_longsword_umbra.tga$00"
@@ -26106,9 +26106,9 @@ End yarnarScript"
 <BR>
 黑沼泽曾经以阿尔贡呼之为“瓦马苏斯”的沼龙的栖息地而闻名。北方人认为他们是智慧的龙族，血脉中流淌着闪电力量。这一族中一只强大的怪兽 -- 哈尼赫纳迈，被北方人在七天七夜之内，以数十人的伤亡为代价所击杀。幸存者中的一员拔下一只尖牙作为战利品带回家。尖牙被雕刻成刀刃，制成了一把短匕。该匕首神秘地附有怪兽本身的一些魔法属性，并令使用者可对对手造成电击伤害。此柄独特的匕首偶尔会为云游四方的英杰们所目睹。<BR>
 <BR>
-噬影剑<BR>
+本影剑<BR>
 <BR>
-噬影剑由古代女巫奈茵拉·瓦尔所附魔，其唯一目的即是俘获灵魂。此剑与灵魂石结合使用，令执剑人有机会将敌人的灵魂囚禁在灵魂石中。奈茵拉因其恶堕造物而被处决，但在此前她将噬影剑藏匿起来。噬影剑对执剑人的选择甚是挑剔，因此在堪当斯任者出现前会一直隐匿不见。<BR>
+本影剑由古代女巫奈茵拉·瓦尔所附魔，其唯一目的即是俘获灵魂。此剑与灵魂石结合使用，令执剑人有机会将敌人的灵魂囚禁在灵魂石中。奈茵拉因其恶堕造物而被处决，但在此前她将本影剑藏匿起来。本影剑对执剑人的选择甚是挑剔，因此在堪当斯任者出现前会一直隐匿不见。<BR>
 <BR>
 丹斯塔格莫之戒<BR>
 <BR>
@@ -28308,14 +28308,14 @@ End yarnarScript"
  INFO.PNAM "49966646244930708$00"
  INFO.NNAM "23662160202358619713$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "蜜唇·哈巴西感谢我说服海瑟琳德帮助保护南墙。"
+ INFO.NAME "蜜唇·哈巴西感谢我说服海瑟林德帮助保护南墙。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "23662160202358619713$00"
  INFO.PNAM "18611219941033930549$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "蜜唇·哈巴西对海瑟琳德的死非常难过。哈巴西没有其它一些活给我干了。"
+ INFO.NAME "蜜唇·哈巴西对海瑟林德的死非常难过。哈巴西没有其它一些活给我干了。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TG_AldruhnDefenses$00"
@@ -28332,13 +28332,13 @@ End yarnarScript"
  INFO.PNAM "5355144912284716178$00"
  INFO.NNAM "268755071147624722$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "珠宝商阿恩戈斯要我给他带四块金属废料，好让埃斯托利尔修理一些锻莫蜘蛛百夫长来守卫盗贼公会。 {瓜尔,卫兵}"
+ INFO.NAME "珠宝商阿恩戈斯要我给他带四块金属废料，好让艾斯托莉尔修理一些锻莫蜘蛛百夫长来守卫盗贼公会。 {瓜尔,卫兵}"
 -INFO
  INFO.INAM "268755071147624722$00"
  INFO.PNAM "271471936188039643$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "珠宝商阿恩戈斯感谢我给他带来了四块金属废料。现在埃斯托利尔要修理锻莫蜘蛛百夫长了。 {锻莫族}"
+ INFO.NAME "珠宝商阿恩戈斯感谢我给他带来了四块金属废料。现在艾斯托莉尔要修理锻莫蜘蛛百夫长了。 {锻莫族}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TG_CookbookAlchemy$00"
@@ -38799,7 +38799,7 @@ End yarnarScript"
  INFO.PNAM "6542246101801925478$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "埃斯托利尔给了我一笔雄蛾基金捐款。"
+ INFO.NAME "艾斯托莉尔给了我一笔雄蛾基金捐款。"
 -DIAL
  DIAL.NAME "IC10_aengoth$00"
  DIAL.DATA [04]
@@ -38831,7 +38831,7 @@ End yarnarScript"
  INFO.PNAM "3229031124122312449$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "埃拉尼尔给了我一笔雄蛾基金捐款。"
+ INFO.NAME "艾拉妮尔给了我一笔雄蛾基金捐款。"
 -DIAL
  DIAL.NAME "IC10_tauryon$00"
  DIAL.DATA [04]
@@ -43103,7 +43103,7 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "205324493163868504$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "噬影"
+ INFO.NAME "本影"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "205324493163868504$00"
@@ -43123,7 +43123,7 @@ End yarnarScript"
  INFO.PNAM "185211072930588708$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "我已经杀了那个叫噬影的兽人。他是个英勇的战士，他死得其所。"
+ INFO.NAME "我已经杀了那个叫本影的兽人。他是个英勇的战士，他死得其所。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "FG_Sanit$00"
@@ -66714,7 +66714,7 @@ set lordsmail to 2
  INFO.ONAM "Geon Auline$00"
  INFO.NAME "据我所知，她正在拍卖她已故丈夫的一些物品。我担心卓洛斯匕首会被纳入拍卖范围，我可能会失去它的踪迹。我，啊，不会被允许参加拍卖会的。"
 -DIAL
- DIAL.NAME "噬影$00"
+ DIAL.NAME "本影剑$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "12510172382125910517$00"
@@ -66787,7 +66787,7 @@ player->additem ""gold_001"" 30000
  INFO.NNAM "840931679773512097$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着噬影？那就带着它回来，我们再达成交易。"
+ INFO.NAME "你没有带着本影剑？那就带着它回来，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
 -INFO
@@ -66796,7 +66796,7 @@ player->additem ""gold_001"" 30000
  INFO.NNAM "30301884192782798$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着噬影？那就带着它回来，我们再达成交易。"
+ INFO.NAME "你没有带着本影剑？那就带着它回来，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX0longsword_umbra_unique"

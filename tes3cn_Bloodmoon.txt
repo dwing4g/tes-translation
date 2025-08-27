@@ -34769,14 +34769,14 @@ C<BR>"
  INFO.PNAM "49966646244930708$00"
  INFO.NNAM "23662160202358619713$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "蜜唇·哈巴西感谢我说服海瑟琳德帮助保护南墙。"
+ INFO.NAME "蜜唇·哈巴西感谢我说服海瑟林德帮助保护南墙。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "23662160202358619713$00"
  INFO.PNAM "18611219941033930549$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "蜜唇·哈巴西对海瑟琳德的死非常难过。哈巴西没有其它一些活给我干了。"
+ INFO.NAME "蜜唇·哈巴西对海瑟林德的死非常难过。哈巴西没有其它一些活给我干了。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TG_AldruhnDefenses$00"
@@ -34793,13 +34793,13 @@ C<BR>"
  INFO.PNAM "5355144912284716178$00"
  INFO.NNAM "268755071147624722$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "珠宝商阿恩戈斯要我给他带四块金属废料，好让埃斯托利尔修理一些锻莫蜘蛛百夫长来守卫盗贼公会。 {瓜尔,卫兵}"
+ INFO.NAME "珠宝商阿恩戈斯要我给他带四块金属废料，好让艾斯托莉尔修理一些锻莫蜘蛛百夫长来守卫盗贼公会。 {瓜尔,卫兵}"
 -INFO
  INFO.INAM "268755071147624722$00"
  INFO.PNAM "271471936188039643$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "珠宝商阿恩戈斯感谢我给他带来了四块金属废料。现在埃斯托利尔要修理锻莫蜘蛛百夫长了。 {锻莫族}"
+ INFO.NAME "珠宝商阿恩戈斯感谢我给他带来了四块金属废料。现在艾斯托莉尔要修理锻莫蜘蛛百夫长了。 {锻莫族}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TG_CookbookAlchemy$00"
@@ -44842,7 +44842,7 @@ C<BR>"
  INFO.PNAM "6542246101801925478$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "埃斯托利尔给了我一笔雄蛾基金捐款。"
+ INFO.NAME "艾斯托莉尔给了我一笔雄蛾基金捐款。"
 -DIAL
  DIAL.NAME "IC10_aengoth$00"
  DIAL.DATA [04]
@@ -44874,7 +44874,7 @@ C<BR>"
  INFO.PNAM "3229031124122312449$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "埃拉尼尔给了我一笔雄蛾基金捐款。"
+ INFO.NAME "艾拉妮尔给了我一笔雄蛾基金捐款。"
 -DIAL
  DIAL.NAME "IC10_tauryon$00"
  DIAL.DATA [04]
@@ -49353,7 +49353,7 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "205324493163868504$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "噬影"
+ INFO.NAME "本影"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "205324493163868504$00"
@@ -49373,7 +49373,7 @@ C<BR>"
  INFO.PNAM "185211072930588708$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "我已经杀了那个叫噬影的兽人。他是个英勇的战士，他死得其所。"
+ INFO.NAME "我已经杀了那个叫本影的兽人。他是个英勇的战士，他死得其所。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "FG_Sanit$00"
