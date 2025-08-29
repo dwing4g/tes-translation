@@ -58,12 +58,15 @@
 "Show V/W Column": "显示价值重量比列"
 "Show V/W Column When Pickpocketing": "扒窃时显示价值重量比列"
 
-"Border style": "边框风格"
+"Border Style": "边框风格"
 "none": "无"
 "thin": "薄"
 "normal": "普通"
 "thick": "厚"
 "verythick": "非常厚"
+
+"Border Fix": "边框修正"
+"Use vanilla borders, so the equipped indicator doesnt turn invisible": "使用原版边框，这样装备指示器就不会看不见"
 
 "Show read books": "显示已读的读书"
 "bookworm will highlight books that you have actually read (for 20 seconds)": "书虫会高亮你实际阅读过(20秒以上)的书籍"

@@ -25,7 +25,12 @@
 -- 	}
 -- }
 -- inspectedContainer
-local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+local pickpocket 
+if vfs.fileExists("scripts/OwnlysQuickLoot/ql_pickpocket_overhaul.lua") then
+	pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket_overhaul")
+else
+	pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+end
 local SOUL_GEM_REBALANCE = true
 
 tooltipText = {
@@ -609,7 +614,7 @@ end
 
 
 -- MAIN FUNCTION
-return function (item,highlightPosition, isPickpocketing, colorTheme) --makeTooltip
+return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) --makeTooltip
 	local transparency = playerSection:get("TRANSPARENCY")
 	if playerSection:get("TOOLTIP_MODE") == "off" then
 		return
@@ -768,7 +773,7 @@ return function (item,highlightPosition, isPickpocketing, colorTheme) --makeTool
 		name = name.." ("..info.soulName..")"
 	end
 	if isPickpocketing then-- and  then
-		local text = pickpocket.getTooltipText1(self,inspectedContainer,item)
+		local text = pickpocket.getTooltipText1(self,inspectedContainer, item, deposit)
 		if not playerSection:get("COLUMN_PICKPOCKET") then
 			name = name..text
 		end

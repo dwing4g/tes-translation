@@ -21,8 +21,8 @@ v3 = util.vector3
 local animation = require('openmw.animation')
 local Controls = require('openmw.interfaces').Controls
 local l10n = core.l10n('QuickLoot')
-makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
 local settings = require("scripts.OwnlysQuickLoot.ql_settings")
+makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
 local helpers = require("scripts.OwnlysQuickLoot.ql_helpers")
 readFont, texText, rgbToHsv, hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber,tableContains = unpack(helpers)
 background = ui.texture { path = 'black' }
@@ -75,7 +75,12 @@ local uiScale = screenres.x / uiWidth
 local makeTooltip = require("scripts.OwnlysQuickLoot.tooltip")
 local containerHash = 0
 local ambient = require('openmw.ambient')
-local pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+local pickpocket 
+if vfs.fileExists("scripts/OwnlysQuickLoot/ql_pickpocket_overhaul.lua") then
+	pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket_overhaul")
+else
+	pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
+end
 local printThrottle = 0
 local lastPrint = {}
 local currentScript = nil
@@ -84,7 +89,6 @@ vanillaActivate = 0
 local deposit = false
 local questItems = require("scripts.OwnlysQuickLoot.ql_questItems")
 local redStealingWindow = true
-local openMwTooOld = false
 local showVanillaInventory = 0
 
 
@@ -172,11 +176,14 @@ end
 input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer then
 		if playerSection:get("R_DEPOSIT") and not input.isShiftPressed() then
-			deposit = not deposit
-			selectedIndex, depositSelectedIndex = depositSelectedIndex, selectedIndex
-			backupSelectedIndex, depositBackupSelectedIndex = depositBackupSelectedIndex, backupSelectedIndex
-			scrollPos, depositScrollPos = depositScrollPos, scrollPos
-			drawUI()
+			local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
+			if not isPickpocketing or pickpocket.version then
+				deposit = not deposit
+				selectedIndex, depositSelectedIndex = depositSelectedIndex, selectedIndex
+				backupSelectedIndex, depositBackupSelectedIndex = depositBackupSelectedIndex, backupSelectedIndex
+				scrollPos, depositScrollPos = depositScrollPos, scrollPos
+				drawUI()
+			end
 		else
 			--vanillaActivate = core.getRealTime()
 			--core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, inspectedContainer, true})
@@ -390,10 +397,11 @@ function drawUI()
 	end
 	stealCol = stealCol and util.color.rgba(1,0.4, 0.4, 1)
 	borderFile = "thin"
-	if playerSection:get("BORDER_STYLE") == "verythick" or playerSection:get("BORDER_STYLE") == "thick" then
+	local BORDER_STYLE = playerSection:get("BORDER_STYLE")
+	if BORDER_STYLE == "verythick" or BORDER_STYLE == "thick" then
 		borderFile = "thick"
 	end
-	borderOffset = playerSection:get("BORDER_STYLE") == "verythick" and 4 or playerSection:get("BORDER_STYLE") == "thick" and 3 or playerSection:get("BORDER_STYLE") == "normal" and 2 or (playerSection:get("BORDER_STYLE") == "thin" or playerSection:get("BORDER_STYLE") == "max performance") and 1 or 0
+	borderOffset = BORDER_STYLE == "verythick" and 4 or BORDER_STYLE == "thick" and 3 or BORDER_STYLE == "normal" and 2 or 1
 	borderTemplate =  makeBorder(borderFile, stealCol or borderColor or nil, borderOffset).borders
 	
 	-- BOX
@@ -422,7 +430,7 @@ function drawUI()
 	})
 	--box BORDER
 	table.insert(box.content, {
-		template = borderTemplate,
+		template = BORDER_STYLE ~= "none" and borderTemplate or nil,
 		props = {
 			relativeSize  = v2(1,1),
 			alpha = 0.5,
@@ -512,21 +520,23 @@ function drawUI()
 			}
 		})
 		--list HEADER Line
-		table.insert(header.content,
-		{
-			type = ui.TYPE.Image,
-			props = {
-				resource = getTexture("textures/menu_thin_border_bottom.dds"),
-				tileH = false,
-				tileV = false,
-				relativeSize  = v2(1,0),
-				size = v2(0,1),
-				position = v2(0,-1),
-				relativePosition = v2(0, 1),
-				alpha = 0.4,
-				color = stealCol
-			}
-		})
+		if BORDER_STYLE ~= "none" then
+			table.insert(header.content,
+			{
+				type = ui.TYPE.Image,
+				props = {
+					resource = playerSection:get("BORDER_FIX") and getTexture("textures/ql_makeborder/menu_thin_border_bottom.dds") or getTexture("textures/menu_thin_border_bottom.dds"),
+					tileH = false,
+					tileV = false,
+					relativeSize  = v2(1,0),
+					size = v2(0,1),
+					position = v2(0,-1),
+					relativePosition = v2(0, 1),
+					alpha = 0.4,
+					color = stealCol
+				}
+			})
+		end
 		if (header_footer_setting == "all top" or header_footer_setting ==  "only top") and isPickpocketing and pickpocket.footerText then
 
 			header.content:add{
@@ -803,7 +813,7 @@ function drawUI()
 	local relativePosition = 0
 	local renderedEntries = 0
 	
-	if not isPickpocketing or pickpocket.showContents then			
+	if not isPickpocketing or pickpocket.showContents or deposit then			
 		for i, thing in pairs(containerItems) do
 			local thingRecord = thing.type.records[thing.recordId]
 			if not thingRecord then
@@ -846,7 +856,8 @@ function drawUI()
 						+relativePosition*listHeight
 						,
 						isPickpocketing,
-						stealCol
+						stealCol,
+						deposit
 					)
 				end
 				local ench = thing and (thing.enchant or thingRecord.enchant ~= "" and thingRecord.enchant )
@@ -858,9 +869,9 @@ function drawUI()
 						template = tempTemplate,
 						props = {
 							relativePosition = v2(0,relativePosition),
-							size = v2(absLineHeight-2,absLineHeight-2),
+							size = v2(absLineHeight-1,absLineHeight-1),
 							position = v2(1,1),
-							alpha = 0.7,
+							alpha = 0.85,
 						},
 						content = ui.content{}
 					}
@@ -1009,7 +1020,7 @@ function drawUI()
 							textColor = util.color.rgb(0.85,0, 0)
 						end
 					elseif widget == "pickpocket" then
-						text = pickpocket.getColumnText(self, inspectedContainer, thing)
+						text = pickpocket.getColumnText(self, inspectedContainer, thing, deposit)
 					else
 						text = formatNumber(thingValue, "value")
 					end
@@ -1097,21 +1108,23 @@ function drawUI()
 			}
 		})
 		--list FOOTER Line
-		table.insert(footer.content,
-		{
-			type = ui.TYPE.Image,
-			props = {
-				resource = getTexture("textures/menu_thin_border_bottom.dds"),
-				tileH = false,
-				tileV = false,
-				relativeSize  = v2(1,0),
-				size = v2(0,1),
-				position = v2(0,0),
-				relativePosition = v2(0, 0),
-				alpha = 0.4,
-				color = stealCol
-			}
-		})
+		if BORDER_STYLE ~= "none" then
+			table.insert(footer.content,
+			{
+				type = ui.TYPE.Image,
+				props = {
+					resource = playerSection:get("BORDER_FIX") and getTexture("textures/ql_makeborder/menu_thin_border_bottom.dds") or getTexture("textures/menu_thin_border_bottom.dds"),
+					tileH = false,
+					tileV = false,
+					relativeSize  = v2(1,0),
+					size = v2(0,1),
+					position = v2(0,0),
+					relativePosition = v2(0, 0),
+					alpha = 0.4,
+					color = stealCol
+				}
+			})
+		end
 		local encumbranceColor = playerSection:get("FONT_TINT")
 		local encumbranceIconColor = playerSection:get("ICON_TINT")
 		if encumbranceCurrent > encumbranceMax then
@@ -1518,9 +1531,9 @@ function onFrame(dt)
 	if types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing and input.getBooleanActionValue("Use") then
 		return false
 	end
-	if inspectedContainer and core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
+	--if inspectedContainer and core.contentFiles.has("QuickSpellCast.omwscripts")  and types.Actor.getStance(self) == types.Actor.STANCE.Spell then
 		--types.Actor.setStance(self, types.Actor.STANCE.Nothing)
-	end
+	--end
  --self.controls.use = 0
 	if not modEnabled then
 		return
@@ -1777,21 +1790,25 @@ function onControllerButtonPress(ctrl)
 	end
 end
 
-
-input.registerTriggerHandler('Activate', async:callback(function()
---local function activatedContainer(data)
+function lootItem()
+	--local function activatedContainer(data)
 	--local cont = data[1]
 	local cont = inspectedContainer
 	--local isAlive = data[2] --isPickpocketing (nil for containers)
 	if not modEnabled or not cont then
 		return
 	end
-	local isAlive = types.Actor.objectIsInstance(cont) and not types.Actor.isDead(cont)  --isPickpocketing (nil for containers)
+	local isActor = types.Actor.objectIsInstance(cont)
+	local isAlive = isActor and not types.Actor.isDead(cont)  --isPickpocketing (nil for containers)
 	--print(inspectedContainer,cont)
 	--if inspectedContainer == cont then
 		if containerItems[selectedIndex] then
 			if isAlive then
-				pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
+				if deposit and pickpocket.version then
+					pickpocket.reversePickpocket(self, inspectedContainer, containerItems[selectedIndex])
+				else
+					pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
+				end
 				drawUI()
 			else
 				if deposit then
@@ -1800,7 +1817,7 @@ input.registerTriggerHandler('Activate', async:callback(function()
 					core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
 				end
 			end
-			if isAlive == nil and playerSection:get("CONTAINER_ANIMATION") == "on take" then
+			if not isActor and playerSection:get("CONTAINER_ANIMATION") == "on take" then
 				inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
 			end
 		end
@@ -1810,6 +1827,9 @@ input.registerTriggerHandler('Activate', async:callback(function()
 	--elseif not inspectedContainer and not scriptAllows(cont) then
 	--	core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, cont, true})
 	--end
+end
+input.registerTriggerHandler('Activate', async:callback(function()
+	lootItem()
 end))
 --end
 
@@ -1925,7 +1945,7 @@ end
 return {    
 	eventHandlers = {
 		UiModeChanged = UiModeChanged,
-		OwnlysQuickLoot_activatedContainer = activatedContainer,
+		--OwnlysQuickLoot_activatedContainer = activatedContainer,
 		OwnlysQuickLoot_fellForTrap = fellForTrap,
 		OwnlysQuickLoot_windowVisible = windowVisible,
 		OwnlysQuickLoot_toggle = toggle, -- toggle(<true/false>, "myModName")
@@ -1943,6 +1963,11 @@ return {
         onLoad = onLoad,
         onInit = onLoad,
     },
+	interfaceName = "QuickLoot",
+	interface = {
+		version = 1,
+		lootItem = lootItem,
+	}
 	--eventHandlers = {
     --    FHB_AI_update = AI_update,
     --}

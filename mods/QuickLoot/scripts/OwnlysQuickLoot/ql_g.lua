@@ -184,9 +184,31 @@ local function deposit(data)
 	local thing = data[3]
 	local isPickpocketing = data[4]
 	local experimentalLooting = data[5]
-	thing:moveInto(types.Container.inventory(container))
+	local count = data[6]
+	local use = data[7]
+	if thing.count == 0 then
+		return
+	end
+	if count then
+		if count < thing.count then
+			thing = thing:split(count)
+		end
+	end
+	if use then
+		if types.Potion.objectIsInstance(thing) then
+			core.sendGlobalEvent('UseItem', {object = thing, actor = container})
+		else
+			thing:moveInto(types.Container.inventory(container))
+			core.sendGlobalEvent('UseItem', {object = thing, actor = container})
+		end
+	else
+		thing:moveInto(types.Container.inventory(container))
+	end
 	player:sendEvent("OwnlysQuickLoot_playSound", getSound(thing))
 end
+
+
+
 
 local function depositAll(data)
 	local player = data[1]
@@ -216,6 +238,9 @@ local function take(data)
 	local thing = data[3]
 	local isPickpocketing = data[4]
 	local experimentalLooting = data[5]
+	if thing.count == 0 then
+		return
+	end
 	
 	if isPickpocketing then
 		thing:moveInto(types.Player.inventory(player))
@@ -232,6 +257,7 @@ local function take(data)
 		thing.owner.recordId = container.owner.recordId
 		table.insert(activateNextUpdate,{thing,player})
 	end
+	player:sendEvent("HUDM_recheckObject", container)
 	--thing:activateBy(player)
 --moveInto(types.Player.inventory(player))
 	--player:sendEvent("TakeAll_closeUI")
@@ -397,8 +423,9 @@ local function commitCrime(data)
 	local player = data[1]
 	local container = data[2]
 	local price = data[3]
+	local type = data[4] or types.Player.OFFENSE_TYPE.Pickpocket
 	local commitCrimeOutputs = I.Crimes.commitCrime(player,{
-		type = types.Player.OFFENSE_TYPE.Pickpocket,
+		type = type,
 		victim = container,
 		arg = price,
 		victimAware = true
@@ -429,6 +456,17 @@ local function tryScript(data)
 	--world._runStandardActivationAction(obj, player)
 end
 
+local function onObjectActive(object)
+	if types.Container.objectIsInstance(object) then
+		object:addScript("scripts/OwnlysQuickLoot/ql_cont2.lua")
+	end
+end
+
+local function unhookObject(object)
+	--if object:hasScript("scripts/OwnlysQuickLoot/ql_cont2.lua") then --unnecessary?
+	object:removeScript("scripts/OwnlysQuickLoot/ql_cont2.lua")
+end
+
 return {
 	eventHandlers = {
 		OwnlysQuickLoot_freshLoot = freshLoot,
@@ -448,8 +486,10 @@ return {
 		OwnlysQuickLoot_rotateNpc = rotateNpc,
 		OwnlysQuickLoot_modDisposition = modDisposition,
 		OwnlysQuickLoot_tryScript = tryScript,
+		OwnlysQuickLoot_unhookObject = unhookObject,
 	},
 	engineHandlers = {
 		onUpdate = onUpdate,
+		onObjectActive = onObjectActive,
 	}
 }

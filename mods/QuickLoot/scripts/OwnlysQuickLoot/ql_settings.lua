@@ -237,7 +237,7 @@ settings = {
 		},
 		{
 			key = "BORDER_STYLE",
-			name = "Border style",
+			name = "Border Style",
 			description = "",
 			default = "thin", 
 			renderer = "select",
@@ -246,6 +246,13 @@ settings = {
 				l10n = "QuickLoot", 
 				items = {"none", "thin", "normal", "thick", "verythick"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
+		},
+		{
+			key = "BORDER_FIX",
+			name = "Border Fix",
+			description = "Use vanilla borders, so the equipped indicator doesnt turn invisible",
+			renderer = "checkbox",
+			default = true
 		},
 		{
 			key = "READ_BOOKS",
@@ -409,14 +416,15 @@ local function updateSettings()
 	--core.sendGlobalEvent("OwnlysQuickLoot_playerToggledMod",{self,playerSection:get("ENABLED")})
 	updateModEnabled()
 	quickLootText = {
-	props = {
-			textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
-			textShadow = true,
-			textShadowColor = util.color.rgba(0,0,0,0.75),
-			--textAlignV = ui.ALIGNMENT.Center,
-			--textAlignH = ui.ALIGNMENT.Center,
+		props = {
+				textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
+				textShadow = true,
+				textShadowColor = util.color.rgba(0,0,0,0.75),
+				--textAlignV = ui.ALIGNMENT.Center,
+				--textAlignH = ui.ALIGNMENT.Center,
+		}
 	}
-}
+	makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
 	--calculateBarPositions()
 	--if container then
 	--	container:destroy()

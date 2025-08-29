@@ -73,12 +73,16 @@ onUpdate = function(dt)
 	end
 end
 
+local function onInactive()
+	core.sendGlobalEvent("OwnlysQuickLoot_unhookObject",self)
+end
 
 return{
 	engineHandlers = { 
 		onUpdate = onUpdate,
 		_onAnimationTextKey = onAnimationTextKey,
 		_onPlayAnimation = playBlendedAnimation,
+		onInactive = onInactive,
 	},
 	eventHandlers = { 
 		OwnlysQuickLoot_openAnimation = QuickLoot_openAnimation,
