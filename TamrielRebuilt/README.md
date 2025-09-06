@@ -7,21 +7,25 @@
 
    `..\luajit ..\tes3dec.lua TR_Mainland.esm 1252 raw > TR_Mainland.txt`
 
-   如果`esm/esp`文件比较大, 需要耐心等待, 完成之后不再需要`TR_Mainland.esm`, 可以删除.
+   如果`esm/esp`文件比较大, 需要耐心等待, 正常完成之后不再需要`TR_Mainland.esm`, 可以删除.
 
-3. 再运行下面命令, 从`TR_Mainland.txt`精简掉跟汉化无关的内容, 生成`TR_Mainland.trim.txt`:
+3. 再运行下面命令, 从`TR_Mainland.txt`提取cel文件, 生成`TR_Mainland.cel`:
+
+   `..\luajit ..\tes3ext_cel.lua TR_Mainland.txt > TR_Mainland.cel`
+
+4. 再运行下面命令, 从`TR_Mainland.txt`精简掉跟汉化无关的内容, 生成`TR_Mainland.trim.txt`:
 
    `..\luajit ..\tes3trim.lua TR_Mainland.txt > TR_Mainland.trim.txt`
 
-4. 再运行下面命令, 把`TR_Mainland.trim.txt`改名并覆盖`TR_Mainland.txt`:
+5. 再运行下面命令, 把`TR_Mainland.trim.txt`改名并覆盖`TR_Mainland.txt`:
 
    `move /y TR_Mainland.trim.txt TR_Mainland.txt`
 
-5. 再运行下面命令, 从`TR_Mainland.txt`提取关键词, 生成`topics.txt`(当前目录如有此文件先删掉再运行):
+6. 再运行下面命令, 从`TR_Mainland.txt`提取关键词, 生成`topics.txt`(当前目录如有此文件先删掉再运行):
 
    `..\luajit ..\check_topic.lua topics.txt TR_Mainland.txt TR_Mainland.txt TR_Mainland.fix.txt`
 
-6. 再运行下面命令, 从`TR_Mainland.txt`生成初始的对照文本文件`tes3cn_TR_Mainland.ext.txt`:
+7. 再运行下面命令, 从`TR_Mainland.txt`生成初始的对照文本文件`tes3cn_TR_Mainland.ext.txt`:
 
    `..\luajit ..\tes3ext.lua TR_Mainland.txt TR_Mainland.txt topics.txt tes3cn_TR_Mainland.ext.txt`
 

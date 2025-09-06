@@ -3,6 +3,9 @@
 local io = io
 local arg = arg
 
+local ADD = false -- false for only items in A.cel
+local OVERWRITE = true -- true for overwriting with no conflict
+
 local cels = {}
 local err = 0
 
@@ -10,7 +13,7 @@ local function errwrite(...)
 	io.stderr:write(...)
 end
 
-local function loadCels(filename)
+local function loadCels(filename, add)
 	errwrite("loading ", filename, " ... ")
 	local newLine = false
 	local i = 1
@@ -23,15 +26,15 @@ local function loadCels(filename)
 			err = err + 1
 		else
 			if cels[cel] then
-				if checkCel ~= cel and cels[cel] ~= cel and cels[cel] ~= "" and cels[cel] ~= checkCel then
+				if not OVERWRITE and checkCel ~= cel and cels[cel] ~= cel and cels[cel] ~= "" and cels[cel] ~= checkCel then
 					if not newLine then newLine = true errwrite "\n" end
 					errwrite("ERROR: unmatched translation of cel [", cel, "] => [", cels[cel], "] [", checkCel, "] at line ", i, "\n")
 					err = err + 1
 				end
-				if cels[cel] == cel then
+				if OVERWRITE or cels[cel] == cel then
 					cels[cel] = checkCel
 				end
-			else
+			elseif add then
 				cels[cel] = checkCel
 			end
 			i = i + 1
@@ -41,7 +44,7 @@ local function loadCels(filename)
 end
 
 for i = 1, #arg - 1 do
-	loadCels(arg[i])
+	loadCels(arg[i], i == 1 or ADD)
 end
 
 if err == 0 then
