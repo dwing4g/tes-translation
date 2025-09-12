@@ -1905,7 +1905,7 @@ Skull
 
 > CONT.FNAM kollop_03
 Small Kollop
-小型扇贝
+小型蚌贝
 
 > DOOR.FNAM ex_cave_door_01
 Cavern Door
@@ -1921,7 +1921,7 @@ Dagoth Gares
 
 > CREA.FNAM ancestor_mg_wisewoman
 Kanit Ashurnisammis
-卡尼特·阿什鲁尼萨米斯
+卡尼特·阿舒尔尼萨米斯
 
 > ACTI.FNAM active_6th_bell_01
 Bell
@@ -7961,7 +7961,7 @@ Vivec Informants
 
 > INFO.NAME a1_v_vivecinformants 31063204821378011980
 Caius sent me to Vivec with three tasks: speak with Addhiranirr, a Khajiit Thieves Guild operative in St. Olms; speak with Huleeya, an Argonian in the Foreign Quarter, at the Black Shalk Cornerclub; and speak with Mehra Milo, a Temple priestess at the Hall of Wisdom in the Temple Compound. When I have information about the Nerevarine cult and the Sixth House cult from these three, I report back to Caius. Caius gave me instructions in writing.
-凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特 -- 盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角俱乐部与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
+凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特 -- 盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
 
 > INFO.NAME a1_v_vivecinformants 7514278082367630855
 The Spymaster took my report, and the notes from Huleeya and the 'Progress of Truth.' He needs time to read and digest my report, but in the meantime, he gave me 200 gold to spend and told me to go out and get some guild or freelance jobs, or get some training. When I'm ready, he says to come back, and he'll have new orders for me.
@@ -7977,7 +7977,7 @@ Huleeya Informant
 
 > INFO.NAME a1_7huleeyainformant 2371113469284309043
 I found Huleeya, but we can't talk at the Black Shalk Cornerclub because some troublesome fools are bothering him. He says he'll answer my questions if I'll travel together with him to Jobasha's Rare Books.
-我找到了胡利亚，但我们不能在黑砂壳虫街角俱乐部谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
+我找到了胡利亚，但我们不能在黑砂壳虫街角酒吧谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
 
 > INFO.NAME a1_7huleeyainformant 2050715403896519486
 Huleeya hadn't heard of a Sixth House cult, but he knew a lot about the Nerevarine cult. He gave me notes to give to Caius. The main thing I gathered is that the Temple's conflict with the Nerevarine cult is tied up with ancient grievances between the Ashlanders and the Great Houses.
@@ -8361,7 +8361,7 @@ Mages Guild: Unsanctioned Training
 
 > INFO.NAME mg_stopcompetition 3145751682893411625
 Ranis wants me to convince an Argonian at the South Wall Cornerclub to stop offering unsanctioned training in Restoration.
-拉尼斯要我说服南墙街角俱乐部的一位教人恢复系魔法的阿尔贡停止提供未经批准的训练。
+拉尼斯要我说服南墙街角酒吧的一位教人恢复系魔法的阿尔贡停止提供未经批准的训练。
 
 > INFO.NAME mg_stopcompetition 9152209433093011266
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore.
@@ -8417,7 +8417,7 @@ Report to Caius Cosades
 
 > INFO.NAME a1_1_findspymaster 31540100981975929470
 My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.
-我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角俱乐部问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
+我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角酒吧问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
 
 > INFO.NAME a1_1_findspymaster 155946986227161440
 I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
@@ -9677,15 +9677,15 @@ Imperial Legion: Rescue Madura Seran
 
 > INFO.NAME il_rescuepilgrim 21994228813157730128
 Darius asked me to rescue a pilgrim from an outcast Ashlander camp outside of Ald Velothi. The pilgrim's name is Madura Seran.
-达瑞斯让我从奥德-维洛提城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。
+达里乌斯让我从奥德-维洛提城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。
 
 > INFO.NAME il_rescuepilgrim 1662012700838418077
 Darius thanked me for rescuing Madura Seran.
-达瑞斯感谢我救出了玛杜拉·瑟然。
+达里乌斯感谢我救出了玛杜拉·瑟然。
 
 > INFO.NAME il_rescuepilgrim 23011163791225331557
 I told Darius that the pilgrim Madura Seran was dead.
-我告诉达瑞斯，朝圣者玛杜拉·瑟然已经死了。
+我告诉达里乌斯，朝圣者玛杜拉·瑟然已经死了。
 
 > INFO.NAME il_protectentius 17017795143126386
 Imperial Legion: Saprius Entius
@@ -10381,7 +10381,7 @@ Thieves Guild: Find Brother Nads
 
 > INFO.NAME tg_brotherthief 2372713093177241669
 Gentleman Jim Stacey asked me to find out what happened to a fellow thief, Nads Tharen, who was going to deliver a key to us. Nads Tharen used to hang out at the Elven Nations Cornerclub. I must find out what happened to him and bring back the key he was supposed to deliver.
-绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在精灵国度街角俱乐部出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
+绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在精灵国度街角酒吧出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
 
 > INFO.NAME tg_brotherthief 1945415510163388475
 Gentleman Jim Stacey thanked me for returning Nads Tharen's key.
@@ -10497,15 +10497,15 @@ Imperial Legion: Gnisis Eggmine
 
 > INFO.NAME il_gnisisblight 4283228892444510000
 Darius asked me to cure the Kwama Queen in the Gnisis Eggmine. The Kwama Queen is blighted and the villagers suffer.
-达瑞斯让我去给尼希斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。
+达里乌斯让我去给尼希斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。
 
 > INFO.NAME il_gnisisblight 1340619687105833960
 Darius thanked me for curing the Kwama Queen in the Gnisis Eggmine.
-达瑞斯感谢我治好了尼希斯卵矿场的夸蚂女王。
+达里乌斯感谢我治好了尼希斯卵矿场的夸蚂女王。
 
 > INFO.NAME il_gnisisblight 16311232791527013138
 I told Darius that the kwama queen in the Gnisis Eggmine was dead.
-我告诉达瑞斯，尼希斯卵矿场的夸蚂女王已经死了。
+我告诉达里乌斯，尼希斯卵矿场的夸蚂女王已经死了。
 
 > INFO.NAME il_rescueragash 133251571921746191
 Imperial Legion: Rescue Ragash gra-Shuzgub
@@ -10513,15 +10513,15 @@ Imperial Legion: Rescue Ragash gra-Shuzgub
 
 > INFO.NAME il_rescueragash 11510117321270511841
 Darius asked me to find out what happened to Ragash gra-Shuzgub, who tried to collect taxes from Baladas Demnevanni. Baladas lives in Arvs Drelen, the tower here in Gnisis.
-达瑞斯让我查查拉加什·格拉-舒兹古布的下落，他曾试图向巴拉达斯·德姆内瓦尼收税。巴拉达斯住在阿维斯-德雷伦，也就是尼希斯这里的塔楼。
+达里乌斯让我查查拉加什·格拉-舒兹古布的下落，他曾试图向巴拉达斯·德姆内瓦尼收税。巴拉达斯住在阿维斯-德雷伦，也就是尼希斯这里的塔楼。
 
 > INFO.NAME il_rescueragash 319938633070121050
 Darius thanked me for rescuing Ragash gra-Shuzgub.
-达瑞斯感谢我救出拉加什·格拉-舒兹古布。
+达里乌斯感谢我救出拉加什·格拉-舒兹古布。
 
 > INFO.NAME il_rescueragash 2309553982810429072
 I told Darius that Ragash was dead.
-我告诉达瑞斯，拉加什已经死了。
+我告诉达里乌斯，拉加什已经死了。
 
 > INFO.NAME il_talostreason 17080157391021516430
 Imperial Legion: Talos Cult Conspiracy
@@ -10529,11 +10529,11 @@ Imperial Legion: Talos Cult Conspiracy
 
 > INFO.NAME il_talostreason 19235221881662330851
 Darius suspects that some of his troops involved with the Talos Cult are involved in some sort of conspiracy. Darius asked me to find proof of this conspiracy.
-达瑞斯怀疑他的一些与塔洛斯神教有关的部队参与了某种阴谋。达瑞斯让我找到这个阴谋的证据。
+达里乌斯怀疑他的一些与塔洛斯神教有关的部队参与了某种阴谋。达里乌斯让我找到这个阴谋的证据。
 
 > INFO.NAME il_talostreason 1216319208314521919
 Darius thanked me for bringing him proof of his troops' treasonous plans and for enacting justice upon them.
-达瑞斯感谢我给他带来了他的部队计划谋反的证据，并感谢我为他们伸张正义。
+达里乌斯感谢我给他带来了他的部队计划谋反的证据，并感谢我为他们伸张正义。
 
 > INFO.NAME il_taxesbaladas 1617614549246277303
 Imperial Legion: Baladas Demnevanni's Taxes
@@ -10541,11 +10541,11 @@ Imperial Legion: Baladas Demnevanni's Taxes
 
 > INFO.NAME il_taxesbaladas 13144274632735111309
 Darius asked me to collect taxes from Baladas Demnevanni. Since I am the Nerevarine, Darius believes that Baladas will listen to me.
-达瑞斯让我向巴拉达斯·德姆内瓦尼收税。因为我是尼瑞瓦因，达瑞斯相信巴拉达斯会听我的话。
+达里乌斯让我向巴拉达斯·德姆内瓦尼收税。因为我是尼瑞瓦因，达里乌斯相信巴拉达斯会听我的话。
 
 > INFO.NAME il_taxesbaladas 146862825131748467
 Darius thanked me for convincing Baladas to pay his taxes.
-达瑞斯感谢我说服巴拉达斯交税。
+达里乌斯感谢我说服巴拉达斯交税。
 
 > INFO.NAME il_knightshield 3243828009133986161
 Imperial Legion: Lord's Mail
@@ -10701,7 +10701,7 @@ Mages Guild: Stolen Reports
 
 > INFO.NAME mg_stolenreport 30634202122356212014
 Ajira told me that her reports on the mushrooms and flowers of Vvardenfell have been stolen. Ajira thinks that Galbedir stole them. I should look around the Mages Guild here in Balmora for the reports and return them to Ajira.
-阿吉拉告诉我，她关于瓦登费尔的蘑菇和花卉的报告被偷了。阿吉拉认为是加尔贝迪尔偷走了它们。我应该在巴尔莫拉的法师公会里找找这些报告，然后还给阿吉拉。
+阿吉拉告诉我，她关于瓦登费尔的蘑菇和花卉的报告被偷了。阿吉拉认为是伽尔贝蒂尔偷走了它们。我应该在巴尔莫拉的法师公会里找找这些报告，然后还给阿吉拉。
 
 > INFO.NAME mg_stolenreport 1444417001799726776
 Ajira thanked me for finding her stolen reports.
@@ -12157,11 +12157,11 @@ I told Lorbumol gro-Aglakh that Tongue-Toad won't be causing our client any more
 
 > INFO.NAME fg_deseledebt 2598528150113217823
 Fighters Guild: Desele's Debt
-战士公会：德塞尔的债务
+战士公会：德塞莱的债务
 
 > INFO.NAME fg_deseledebt 1590641161166229824
 Eydis Fire-Eye told me that Helviane Desele in Suran owes Manos Othreleth 200 gold. I must get this debt money from Desele and return it to Eydis Fire-Eye.
-艾迪斯·火眼告诉我，苏兰的赫薇娅妮·德塞尔欠马诺斯·奥特雷莱斯200金币。我必须从德塞勒那里拿到这笔欠款，然后还给艾迪斯·火眼。
+艾迪斯·火眼告诉我，苏兰的赫薇娅妮·德塞莱欠马诺斯·奥特雷莱斯200金币。我必须从德塞莱那里拿到这笔欠款，然后还给艾迪斯·火眼。
 
 > INFO.NAME fg_deseledebt 18942162913232826833
 Eydis Fire-Eye gave me my share of the debt money.
@@ -12697,11 +12697,11 @@ Imperial Legion: Blueprints
 
 > INFO.NAME il_blueprints 807316655234512192
 Darius told me that the Emperor himself wants the plans to the Anumidium. These plans may be somewhere under Red Mountain.
-达瑞斯告诉我，皇帝本人想要努米迪安的蓝图。这些图纸可能就在红山下的某个地方。 {计划}
+达里乌斯告诉我，皇帝本人想要努米迪安的蓝图。这些图纸可能就在红山下的某个地方。 {计划}
 
 > INFO.NAME il_blueprints 27360274471932613959
 Darius thanked me for finding the blueprints to Anumidium. They will be sent immediately to the Emperor himself.
-达瑞斯感谢我找到了努米迪安的蓝图。这些图纸会马上送给皇帝陛下。
+达里乌斯感谢我找到了努米迪安的蓝图。这些图纸会马上送给皇帝陛下。
 
 > INFO.NAME il_scrapmetal 177517983092325209
 Imperial Legion: Scrap Metal
@@ -12737,7 +12737,7 @@ I found a corpse while traveling near Seyda Neen. It seems to be the corpse of o
 
 > INFO.NAME mv_deadtaxman 28520312023193131007
 After killing Gilnith, I reported my findings to the Census and Excise Office. Socucius seemed pleased to see Processus' murder avenged, and he paid me as promised.
-杀死吉尔尼斯后，我向普查及税务办事处报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
+杀死吉尔尼斯后，我向普查及税务局报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
 
 > INFO.NAME da_sheogorath 20522273699125249
 Sheogorath's Quest
@@ -13269,7 +13269,7 @@ Mages Guild: Meeting with a Wise Woman
 
 > INFO.NAME mg_wisewoman 23338176113233031689
 Skink would like to arrange a meeting with one of the Wise Women of the Ashlanders. He asked me to negotiate a meeting.
-斯金克想与灰烬之民的一位女智者安排一次会面。他让我去洽谈会面事宜。 {女人}
+树荫想与灰烬之民的一位女智者安排一次会面。他让我去洽谈会面事宜。 {女人}
 
 > INFO.NAME mg_wisewoman 53082221799309531
 Somehow Minabi arrived at the Mages Guild before me. Skink thanked me for arranging the exchange of knowledge.
@@ -13629,7 +13629,7 @@ Morag Tong: Writ for Guril Retheran
 
 > INFO.NAME mt_writguril 261904701147301907
 I have been given a Writ for the honorable execution of Guril Retheran. He may be found at the Flowers of Gold Cornerclub in the Redoran Waistworks.
-我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层工作区的金花街角俱乐部找到。
+我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层工作区的金花街角酒吧找到。
 
 > INFO.NAME mt_writguril 22197144573075531930
 I reported the honorable execution of Guril Retheran.
@@ -13757,15 +13757,15 @@ Imperial Legion: Widow Vabdas' Deed
 
 > INFO.NAME il_widowland 4424264053177911804
 General Darius of the Imperial Legion has asked me to get the deed to the Widow Vabdas' land.
-帝国军团的达瑞斯将军让我去拿寡妇瓦布达斯的地契。 {帝国人}
+帝国军团的达里乌斯将军让我去拿寡妇瓦布达斯的地契。 {帝国人}
 
 > INFO.NAME il_widowland 239673125995622689
 I brought the deed to Widow Vabdas' land to Darius.
-我把寡妇瓦布达斯的地契带给了达瑞斯。
+我把寡妇瓦布达斯的地契带给了达里乌斯。
 
 > INFO.NAME il_widowland 11708311412320325207
 Darius thanked me for slaying Lugrub gro-Ogdum, the murderer of Mansilamat Vabdas.
-达瑞斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格罗-奥格杜姆。
+达里乌斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格罗-奥格杜姆。
 
 > INFO.NAME town_tel_vos 30227109372672518025
 Trade Mission to the Zainab
@@ -14477,7 +14477,7 @@ Mages Guild: Vampires of Vvardenfell, Vol II
 
 > INFO.NAME mg_vampvol2 4228194381760512531
 Skink wants a copy of "Vampires of Vvardenfell volume two." He suggested I try rare bookstores.
-斯金克想要一本《瓦登费尔的吸血鬼·卷二》，他建议我去珍藏本书店看看。
+树荫想要一本《瓦登费尔的吸血鬼·卷二》，他建议我去珍藏本书店看看。
 
 > INFO.NAME mg_vampvol2 6397174011545818917
 I delivered Vampires of Vvardenfell volume two to Skink in Sadrith Mora.
@@ -14673,7 +14673,7 @@ Morag Tong: Writ for Feruren Oran
 
 > INFO.NAME mt_writoran 2180567281021329577
 I have been given a Writ for the honorable execution of Feruren Oran. He may be found in the Elven Nations Cornerclub in the Hlaalu Plaza here in Vivec.
-我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁广场的精灵国度街角俱乐部找到。
+我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁广场的精灵国度街角酒吧找到。
 
 > INFO.NAME mt_writoran 20066255772525114995
 I reported the honorable execution of Feruren Oran.
@@ -14877,11 +14877,11 @@ Mages Guild: Fake Soul Gem
 
 > INFO.NAME mg_sabotage 2032217651464016623
 Ajira gave me a fake soul gem. She wants me to sabotage Galbedir's Journeyman project. I should put the fake soul gem in Galbedir's desk.
-阿吉拉给了我一颗伪造的灵魂石。她想让我破坏加尔贝迪尔的计划。我应该把伪造的灵魂石放在加尔贝迪尔的桌子上。
+阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子上。
 
 > INFO.NAME mg_sabotage 1126144581591424416
 Ajira thanked me for helping her sabotage Galbedir's experiment.
-阿吉拉感谢我帮她破坏加尔贝迪尔的实验。
+阿吉拉感谢我帮她破坏伽尔贝蒂尔的实验。
 
 > INFO.NAME a2_6_conoon 122185547218202335
 The Path of the Incarnate
@@ -14969,7 +14969,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_dinner 1432819242135819097
 Iulus Truptor says we need 5 bottles of Cyrodilic brandy for a fundraising dinner. I'm to make the rounds of the tradehouses and cornerclubs in Balmora and ask if the publicans will donate the necessary brandy. When I have the brandy, I'm to deliver it to Iulus Truptor.
-尤卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角俱乐部转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给尤卢斯·特拉普托。
+尤卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角酒吧转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给尤卢斯·特拉普托。
 
 > INFO.NAME ic12_dinner 8526111421483114877
 I delivered five bottles of Cyrodilic brandy to Iulus Truptor at Fort Moonmoth. He was very pleased. He gave me tokens of Zenithar's special blessing, and told me to speak to him again when I'm ready for another almoner's mission.
@@ -15449,7 +15449,7 @@ Almalexia is dead at my hand. The goddess hoped to leave me here dead, and make 
 
 > INFO.NAME tr_sothasil 2330566401209622813
 I have returned to Mournhold and been visited by the spirit of the Daedra Azura. She has told me that the death of Almalexia was just, and that it was she, not Sotha Sil, who was mad. The time of the Tribunal, says Azura, is gone. As a sign of her love for the Dunmer, she has ended the ashstorms in Mournhold, and promised they will never return.
-我回到哀伤之城，迪德拉阿祖拉的幻象出现在我面前。她告诉我，阿玛莱西娅的死是正确的，发疯的是她而不是索萨·希尔。阿祖拉说，审判席的时代已经结束。为了表示她对丹莫的爱，她终结了哀伤之城刮起灰烬风暴，并保证风暴再也不会重现。
+我回到哀伤之城，迪德拉之灵阿祖拉出现在我面前。她告诉我，阿玛莱西娅的死是正确的，发疯的是她而不是索萨·希尔。阿祖拉说，审判席的时代已经结束。为了表示她对丹莫的爱，她终结了哀伤之城刮起灰烬风暴，并保证风暴再也不会重现。
 
 > INFO.NAME tr_mhattack 553898541945428391
 An Attack on Mournhold
@@ -16481,7 +16481,7 @@ Imperial Cult: Gathering Muck
 
 > INFO.NAME ic2_muck 79719018100675200
 Bring Synnolian Tunifus five units of muck for cure common disease potions. A farmer in Gnisis, Abishpulu Shand, has a muckspunge patch right near his hut, and Chaplain Ogrul at Fort Darius has cut a deal with Shand to gather muck there for free. While I'm in the West Gash, look in on Chaplain Ogrul, give him four Restore Health potions, and ask him if he'll teach me a few tricks.
-辛诺里安·图尼夫斯要我给他带五份淤泥，用于治疗常见疾病药水。尼希斯的一位农夫阿比什普鲁·尚德就在他的小屋附近有一片淤泥海绵地，达瑞斯要塞的牧师奥格鲁尔与尚德达成协议，可以免费在那里采集淤泥。当我在西境之痕时，去找牧师奥格鲁尔，给他四瓶生命恢复药水，并问他是否愿意教我几招。 {这些药水}
+辛诺里安·图尼夫斯要我给他带五份淤泥，用于治疗常见疾病药水。尼希斯的一位农夫阿比什普鲁·尚德就在他的小屋附近有一片淤泥海绵地，达里乌斯要塞的牧师奥格鲁尔与尚德达成协议，可以免费在那里采集淤泥。当我在西境之痕时，去找牧师奥格鲁尔，给他四瓶生命恢复药水，并问他是否愿意教我几招。 {这些药水}
 
 > INFO.NAME ic2_muck 1960297291109528990
 I told Synnolian Tunifus I would not be able to bring him the five units of muck he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -17785,7 +17785,7 @@ The public bazaar, with its various itinerent merchants and crafters, are in the
 
 > INFO.NAME someone in particular 1715812087395619656
 The manors are in the west; the Winged Guar -- the local cornerclub -- the Craftmen's Hall and the Museum of Artifacts are in the east. Hession is the publican of the Winged Guar, and Torasa Aram is the curator of the museum. Bols Indalen, our celebrated local smith, has a forge at Craftmen's Hall, along with other merchants and crafters. It's a big city. If there's someone else you want, you'll have to ask around.
-西侧是宅邸区，东侧是瓜尔添翼 -- 本地的街角俱乐部 -- 还有工匠大厅和文物博物馆。黑森是瓜尔添翼的老板，托拉萨·阿拉姆是博物馆的馆长。波尔斯·英达林是我们这里有名的铁匠，他在工匠大厅有个熔炉，和其他商人与工匠一起。这是个大城市。如果你想找其他人，你得四处打听。
+西侧是宅邸区，东侧是瓜尔添翼 -- 本地的街角酒吧 -- 还有工匠大厅和文物博物馆。黑森是瓜尔添翼的老板，托拉萨·阿拉姆是博物馆的馆长。波尔斯·英达林是我们这里有名的铁匠，他在工匠大厅有个熔炉，和其他商人与工匠一起。这是个大城市。如果你想找其他人，你得四处打听。
 
 > INFO.NAME someone in particular 26077673137419609
 Almalexia, our Lady of Mercy, dwells in her Temple. Her steward, Fedris Hler, and the Lord Archcanon, Gavas Drin, also reside in the Temple. King Hlaalu Helseth and his mother, Queen Barenziah, live in the Royal Palace. Tienius Delitian is Captain of the Royal Guard. It's a big city. If there's someone else you want, ask around.
@@ -22955,7 +22955,7 @@ Best bet if you're new here is to hook up with one of the Imperial Guilds -- Fig
 
 > INFO.NAME little advice 2018520112243419605
 You look like a f'lah who knows his way around, eh? Looking for what others are looking for. Well, they don't have an Imperial charter, but there's honor among thieves, if you know what I mean. Look in the tradehouses and cornerclubs, talk around. If you look likely, and talk likely, they'll give you the word.
-你看起来像个懂行的f'lah（伙计），对吧？在找别人在找的东西。好吧，他们没有帝国人的特许证，但盗亦有道，你懂我的意思吧。在贸易行和街角俱乐部里找找看，四处聊聊。如果你看起来有可能，说话也有可能，他们就会给你消息。 {谈}
+你看起来像个懂行的f'lah（伙计），对吧？在找别人在找的东西。好吧，他们没有帝国人的特许证，但盗亦有道，你懂我的意思吧。在贸易行和街角酒吧里找找看，四处聊聊。如果你看起来有可能，说话也有可能，他们就会给你消息。 {谈}
 
 > INFO.NAME little advice 26860306083247622226
 Don't expect the natives to take to you right away. Colonists like us -- outlanders, settlers from the other provinces -- will be more open and friendly at the start. Then, maybe when you do a few things, get your name around, gain a reputation, then the locals will open up a little. Stick to your own kind to start, and it will go a little easier.
@@ -23087,7 +23087,7 @@ It's pretty quiet right around Gnisis, especially for a questing hero like yours
 
 > INFO.NAME little advice 99882645159588640
 If you're looking for work, you might consider the Deathshead Legion. This is not a very popular posting, and there might be openings. Check with General Darius.
-如果你想找工作，可以考虑一下死颅军团。这职位没没那么抢手，可能会有空缺。问问达瑞斯将军吧。
+如果你想找工作，可以考虑一下死颅军团。这职位没没那么抢手，可能会有空缺。问问达里乌斯将军吧。
 
 > INFO.NAME little advice 3228712911958911917
 Since you're here, you should take a look at the Mask of Vivec. Ask Mehra Drora at the Temple to tell you the story behind the Mask of Vivec.
@@ -23107,7 +23107,7 @@ You look like someone who is thinking about going into Red Mountain. We will not
 
 > INFO.NAME little advice 6126261832187221723
 The Imperial Legion may be recruiting. I hear the units are at full strength in the town forts, but there might be openings on the frontier, up at Fort Darius. Speak to Frald the White, Knight Bachelor and Chapter Steward of the Hawkmoth Legion.
-帝国军团可能正在招兵买马。我听说城镇要塞里的部队已经满员了，但边境上的达瑞斯要塞可能还有空缺。去找苍白者弗拉德吧，他是鹰蛾军团的学士骑士兼分会管事。 {帝国人,力量}
+帝国军团可能正在招兵买马。我听说城镇要塞里的部队已经满员了，但边境上的达里乌斯要塞可能还有空缺。去找苍白者弗拉德吧，他是鹰蛾军团的学士骑士兼分会管事。 {帝国人,力量}
 
 > INFO.NAME little advice 3528677187410269
 We get pilgrims here from time to time, since we're the closest port to a pair of sites, the Malacath shrine and the Sanctus Shrine. If you were thinking of visiting the sites, let me warn you. I heard that a group of orcs are camped out over at the site of the Malacath shrine.
@@ -23159,31 +23159,31 @@ We don't like outlanders. We don't like them in our Council Club. We don't like 
 
 > INFO.NAME little advice 18709150742074210919
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 26032308699877464
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1056027601173315131
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1640011017124474875
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 3067152352518928844
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1595924223937988
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 338298952125091
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 84372506210727392
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
@@ -23383,11 +23383,11 @@ Llevana Salaren at the Temple in Molag Mar is the most knowledgeable acrobat I k
 
 > INFO.NAME little advice 21062112881978123370
 My notion of the ideal knight is an Orc named Dumbuk gro-Bolak. He serves with the Legion under General Darius up in Gnisis. You'll usually find him in the barracks. Look him up. He knows his trade, and Vvardenfell.
-我心目中的理想骑士是一个名叫杜穆布克·格罗-博拉克的兽人。他在尼希斯的达瑞斯将军麾下的军团服役。你通常能在兵营里找到他。去找他，他很了解他的职业，也了解瓦登费尔。
+我心目中的理想骑士是一个名叫杜穆布克·格罗-博拉克的兽人。他在尼希斯的达里乌斯将军麾下的军团服役。你通常能在兵营里找到他。去找他，他很了解他的职业，也了解瓦登费尔。
 
 > INFO.NAME little advice 8210236801373718478
 My notion of the ideal knight is an Orc named Dumbuk gro-Bolak. He serves with the Legion under General Darius up in Gnisis. You'll usually find him in the barracks. Look him up. He knows his trade, and Vvardenfell.
-我心目中的理想骑士是一个名叫杜穆布克·格罗-博拉克的兽人。他在尼希斯的达瑞斯将军麾下的军团服役。你通常能在兵营里找到他。去找他，他很了解他的职业，也了解瓦登费尔。
+我心目中的理想骑士是一个名叫杜穆布克·格罗-博拉克的兽人。他在尼希斯的达里乌斯将军麾下的军团服役。你通常能在兵营里找到他。去找他，他很了解他的职业，也了解瓦登费尔。
 
 > INFO.NAME little advice 2072645232283522584
 Albecius Colollius is a veteran battlemage. He hangs out at Arrille's Tradehouse in Seyda Neen. Talk to him if you want to know about battlemages and how they work here in Morrowind.
@@ -23411,7 +23411,7 @@ The master-at-arms at Fort Pelagiad, Angoril, is a good source if you are curiou
 
 > INFO.NAME little advice 2654193981022617554
 There's a crusader in residence at Desele's House of Earthly Delights in Suran. His name is Snorri. Talk to him if you want a good, long lecture on a crusader's experiences on Vvardenfell.
-苏兰的尘世欢欣之屋住着一位圣战者。他的名字是斯诺里。如果你想听他长篇大论地讲讲圣战者在瓦登费尔的经历，可以去找他。 {谈}
+在苏兰，德塞莱的尘世欢欣之屋住着一位圣战者。他的名字是斯诺里。如果你想听他长篇大论地讲讲圣战者在瓦登费尔的经历，可以去找他。 {谈}
 
 > INFO.NAME little advice 234875632110220344
 If you were to ask me for the model of a warrior, I'd have to say Miles Gloriosus. He's at the Andus Tradehouse in Maar Gan right now, on a crusade to kill off all the monsters sneaking through the Ghostfence, but he always has time to talk with an admirer.
@@ -24655,7 +24655,7 @@ Skink-in-Tree's-Shade seems like a decent sort... for an Argonian. But he has an
 
 > INFO.NAME latest rumors 180192908213401659
 Ajira made a bet with Galbedir about who would get to the rank of Journeyman first. I hope it doesn't end with more flame atronachs in the guild library like last time.
-阿吉拉与加尔贝迪尔的打赌，赌谁会最先晋级。我希望这不会像上次那样，以公会图书馆里更多的火焰元素侍灵而告终。 {火焰侍灵}
+阿吉拉与伽尔贝蒂尔的打赌，赌谁会最先晋级。我希望这不会像上次那样，以公会图书馆里更多的火焰元素侍灵而告终。 {火焰侍灵}
 
 > INFO.NAME latest rumors 164502802716755727
 The Gnisis Eggmine wasn't closed because of the Blight. I wish I knew the real reason they're keeping the miners out of the lower levels.
@@ -27067,7 +27067,7 @@ As I said, meet my informant at the Winged Guar. Ask him about his uncle's farm.
 
 > INFO.NAME this matter 1691123165242221147
 I wish for you to meet an informant of mine at a local cornerclub, The Winged Guar. You'll find it in Godsreach. He's an orc, and shouldn't be hard to pick out. Find him, and ask him about his "uncle's farm." He'll know what it means. Then report back to me with your information.
-我希望你能去当地的一家街角俱乐部吧，瓜尔添翼，跟我的一个线人碰头。你可以在神临区找到它。他是个兽人，应该不难找到。找到他，问他关于他的“叔叔的农场”。他将知道那是什么意思。然后把你的信息报告给我。
+我希望你能去当地的一家街角酒吧，瓜尔添翼，跟我的一个线人碰头。你可以在神临区找到它。他是个兽人，应该不难找到。找到他，问他关于他的“叔叔的农场”。他将知道那是什么意思。然后把你的信息报告给我。
 
 > INFO.NAME goval ralen 59809181197121642
 Ugh. I like flattery as much as the next girl, %PCName, but he really layed it on too thick. It got annoying after a while. If this is the kind of man you think I'd be interested in, clearly we've both wasted our time and energy on this. In fact, I think we probably shouldn't talk at all anymore. The last thing I need is a constant reminder of how badly this went. Goodbye, %PCName.
@@ -30023,7 +30023,7 @@ Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's no
 
 > INFO.NAME greeting 1 290445316827329292
 Darius says you can be here, so it's okay with me.
-达瑞斯说你可以在这里，我没意见。
+达里乌斯说你可以在这里，我没意见。
 
 > INFO.NAME greeting 1 1217817362189026777
 You fight pretty well for a Redoran. I take back what I said about Bolvyn Venim.

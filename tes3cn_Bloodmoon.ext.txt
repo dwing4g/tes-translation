@@ -1951,7 +1951,7 @@ Personal Secretary to the Emperor<BR>
 <BR>
 遵循这些指示：<BR>
 <BR>
-前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。他将是你未来的上司和资助者，你要听从他的命令。他的住处不详，但可以在当地名为“南墙”的街角俱乐部里询问。那里的人会知道在哪里可以找到凯乌斯。当你向凯乌斯报到时，把这包文件交给他，等待进一步的命令。<BR>
+前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。他将是你未来的上司和资助者，你要听从他的命令。他的住处不详，但可以在当地名为“南墙”的街角酒吧里询问。那里的人会知道在哪里可以找到凯乌斯。当你向凯乌斯报到时，把这包文件交给他，等待进一步的命令。<BR>
 <BR>
 记住，你的生命和自由归功于皇帝。认真对待他的命令，你会得到回报。如果背叛他，你将遭受和其他所有叛徒一样的命运。<BR>
 <BR>
@@ -6806,7 +6806,7 @@ Vivec Informants
 
 > INFO.NAME a1_v_vivecinformants 31063204821378011980
 Caius sent me to Vivec with three tasks: speak with Addhiranirr, a Khajiit Thieves Guild operative in St. Olms; speak with Huleeya, an Argonian in the Foreign Quarter, at the Black Shalk Cornerclub; and speak with Mehra Milo, a Temple priestess at the Hall of Wisdom in the Temple Compound. When I have information about the Nerevarine cult and the Sixth House cult from these three, I report back to Caius. Caius gave me instructions in writing.
-凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特 -- 盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角俱乐部与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
+凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特 -- 盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
 
 > INFO.NAME a1_v_vivecinformants 7514278082367630855
 The Spymaster took my report, and the notes from Huleeya and the 'Progress of Truth.' He needs time to read and digest my report, but in the meantime, he gave me 200 gold to spend and told me to go out and get some guild or freelance jobs, or get some training. When I'm ready, he says to come back, and he'll have new orders for me.
@@ -6822,7 +6822,7 @@ Huleeya Informant
 
 > INFO.NAME a1_7huleeyainformant 2371113469284309043
 I found Huleeya, but we can't talk at the Black Shalk Cornerclub because some troublesome fools are bothering him. He says he'll answer my questions if I'll travel together with him to Jobasha's Rare Books.
-我找到了胡利亚，但我们不能在黑砂壳虫街角俱乐部谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
+我找到了胡利亚，但我们不能在黑砂壳虫街角酒吧谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
 
 > INFO.NAME a1_7huleeyainformant 2050715403896519486
 Huleeya hadn't heard of a Sixth House cult, but he knew a lot about the Nerevarine cult. He gave me notes to give to Caius. The main thing I gathered is that the Temple's conflict with the Nerevarine cult is tied up with ancient grievances between the Ashlanders and the Great Houses.
@@ -7146,7 +7146,7 @@ Mages Guild: Unsanctioned Training
 
 > INFO.NAME mg_stopcompetition 3145751682893411625
 Ranis wants me to convince an Argonian at the South Wall Cornerclub to stop offering unsanctioned training in Restoration.
-拉尼斯要我说服南墙街角俱乐部的一位教人恢复系魔法的阿尔贡停止提供未经批准的训练。
+拉尼斯要我说服南墙街角酒吧的一位教人恢复系魔法的阿尔贡停止提供未经批准的训练。
 
 > INFO.NAME mg_stopcompetition 9152209433093011266
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore.
@@ -7202,7 +7202,7 @@ Report to Caius Cosades
 
 > INFO.NAME a1_1_findspymaster 31540100981975929470
 My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.
-我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角俱乐部问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
+我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角酒吧问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
 
 > INFO.NAME a1_1_findspymaster 155946986227161440
 I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
@@ -8382,15 +8382,15 @@ Imperial Legion: Rescue Madura Seran
 
 > INFO.NAME il_rescuepilgrim 21994228813157730128
 Darius asked me to rescue a pilgrim from an outcast Ashlander camp outside of Ald Velothi. The pilgrim's name is Madura Seran.
-达瑞斯让我从奥德-维洛提城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。
+达里乌斯让我从奥德-维洛提城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。
 
 > INFO.NAME il_rescuepilgrim 1662012700838418077
 Darius thanked me for rescuing Madura Seran.
-达瑞斯感谢我救出了玛杜拉·瑟然。
+达里乌斯感谢我救出了玛杜拉·瑟然。
 
 > INFO.NAME il_rescuepilgrim 23011163791225331557
 I told Darius that the pilgrim Madura Seran was dead.
-我告诉达瑞斯，朝圣者玛杜拉·瑟然已经死了。
+我告诉达里乌斯，朝圣者玛杜拉·瑟然已经死了。
 
 > INFO.NAME il_protectentius 17017795143126386
 Imperial Legion: Saprius Entius
@@ -8970,7 +8970,7 @@ Thieves Guild: Find Brother Nads
 
 > INFO.NAME tg_brotherthief 2372713093177241669
 Gentleman Jim Stacey asked me to find out what happened to a fellow thief, Nads Tharen, who was going to deliver a key to us. Nads Tharen used to hang out at the Elven Nations Cornerclub. I must find out what happened to him and bring back the key he was supposed to deliver.
-绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在精灵国度街角俱乐部出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
+绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在精灵国度街角酒吧出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
 
 > INFO.NAME tg_brotherthief 1945415510163388475
 Gentleman Jim Stacey thanked me for returning Nads Tharen's key.
@@ -9086,15 +9086,15 @@ Imperial Legion: Gnisis Eggmine
 
 > INFO.NAME il_gnisisblight 4283228892444510000
 Darius asked me to cure the Kwama Queen in the Gnisis Eggmine. The Kwama Queen is blighted and the villagers suffer.
-达瑞斯让我去给尼希斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。
+达里乌斯让我去给尼希斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。
 
 > INFO.NAME il_gnisisblight 1340619687105833960
 Darius thanked me for curing the Kwama Queen in the Gnisis Eggmine.
-达瑞斯感谢我治好了尼希斯卵矿场的夸蚂女王。
+达里乌斯感谢我治好了尼希斯卵矿场的夸蚂女王。
 
 > INFO.NAME il_gnisisblight 16311232791527013138
 I told Darius that the kwama queen in the Gnisis Eggmine was dead.
-我告诉达瑞斯，尼希斯卵矿场的夸蚂女王已经死了。
+我告诉达里乌斯，尼希斯卵矿场的夸蚂女王已经死了。
 
 > INFO.NAME il_rescueragash 133251571921746191
 Imperial Legion: Rescue Ragash gra-Shuzgub
@@ -9102,15 +9102,15 @@ Imperial Legion: Rescue Ragash gra-Shuzgub
 
 > INFO.NAME il_rescueragash 11510117321270511841
 Darius asked me to find out what happened to Ragash gra-Shuzgub, who tried to collect taxes from Baladas Demnevanni. Baladas lives in Arvs Drelen, the tower here in Gnisis.
-达瑞斯让我查查拉加什·格拉-舒兹古布的下落，他曾试图向巴拉达斯·德姆内瓦尼收税。巴拉达斯住在阿维斯-德雷伦，也就是尼希斯这里的塔楼。
+达里乌斯让我查查拉加什·格拉-舒兹古布的下落，他曾试图向巴拉达斯·德姆内瓦尼收税。巴拉达斯住在阿维斯-德雷伦，也就是尼希斯这里的塔楼。
 
 > INFO.NAME il_rescueragash 319938633070121050
 Darius thanked me for rescuing Ragash gra-Shuzgub.
-达瑞斯感谢我救出拉加什·格拉-舒兹古布。
+达里乌斯感谢我救出拉加什·格拉-舒兹古布。
 
 > INFO.NAME il_rescueragash 2309553982810429072
 I told Darius that Ragash was dead.
-我告诉达瑞斯，拉加什已经死了。
+我告诉达里乌斯，拉加什已经死了。
 
 > INFO.NAME il_talostreason 17080157391021516430
 Imperial Legion: Talos Cult Conspiracy
@@ -9118,11 +9118,11 @@ Imperial Legion: Talos Cult Conspiracy
 
 > INFO.NAME il_talostreason 19235221881662330851
 Darius suspects that some of his troops involved with the Talos Cult are involved in some sort of conspiracy. Darius asked me to find proof of this conspiracy.
-达瑞斯怀疑他的一些与塔洛斯神教有关的部队参与了某种阴谋。达瑞斯让我找到这个阴谋的证据。
+达里乌斯怀疑他的一些与塔洛斯神教有关的部队参与了某种阴谋。达里乌斯让我找到这个阴谋的证据。
 
 > INFO.NAME il_talostreason 1216319208314521919
 Darius thanked me for bringing him proof of his troops' treasonous plans and for enacting justice upon them.
-达瑞斯感谢我给他带来了他的部队计划谋反的证据，并感谢我为他们伸张正义。
+达里乌斯感谢我给他带来了他的部队计划谋反的证据，并感谢我为他们伸张正义。
 
 > INFO.NAME il_taxesbaladas 1617614549246277303
 Imperial Legion: Baladas Demnevanni's Taxes
@@ -9130,11 +9130,11 @@ Imperial Legion: Baladas Demnevanni's Taxes
 
 > INFO.NAME il_taxesbaladas 13144274632735111309
 Darius asked me to collect taxes from Baladas Demnevanni. Since I am the Nerevarine, Darius believes that Baladas will listen to me.
-达瑞斯让我向巴拉达斯·德姆内瓦尼收税。因为我是尼瑞瓦因，达瑞斯相信巴拉达斯会听我的话。
+达里乌斯让我向巴拉达斯·德姆内瓦尼收税。因为我是尼瑞瓦因，达里乌斯相信巴拉达斯会听我的话。
 
 > INFO.NAME il_taxesbaladas 146862825131748467
 Darius thanked me for convincing Baladas to pay his taxes.
-达瑞斯感谢我说服巴拉达斯交税。
+达里乌斯感谢我说服巴拉达斯交税。
 
 > INFO.NAME il_knightshield 3243828009133986161
 Imperial Legion: Lord's Mail
@@ -9290,7 +9290,7 @@ Mages Guild: Stolen Reports
 
 > INFO.NAME mg_stolenreport 30634202122356212014
 Ajira told me that her reports on the mushrooms and flowers of Vvardenfell have been stolen. Ajira thinks that Galbedir stole them. I should look around the Mages Guild here in Balmora for the reports and return them to Ajira.
-阿吉拉告诉我，她关于瓦登费尔的蘑菇和花卉的报告被偷了。阿吉拉认为是加尔贝迪尔偷走了它们。我应该在巴尔莫拉的法师公会里找找这些报告，然后还给阿吉拉。
+阿吉拉告诉我，她关于瓦登费尔的蘑菇和花卉的报告被偷了。阿吉拉认为是伽尔贝蒂尔偷走了它们。我应该在巴尔莫拉的法师公会里找找这些报告，然后还给阿吉拉。
 
 > INFO.NAME mg_stolenreport 1444417001799726776
 Ajira thanked me for finding her stolen reports.
@@ -10790,11 +10790,11 @@ I told Lorbumol gro-Aglakh that Tongue-Toad won't be causing our client any more
 
 > INFO.NAME fg_deseledebt 2598528150113217823
 Fighters Guild: Desele's Debt
-战士公会：德塞尔的债务
+战士公会：德塞莱的债务
 
 > INFO.NAME fg_deseledebt 1590641161166229824
 Eydis Fire-Eye told me that Helviane Desele in Suran owes Manos Othreleth 200 gold. I must get this debt money from Desele and return it to Eydis Fire-Eye.
-艾迪斯·火眼告诉我，苏兰的赫薇娅妮·德塞尔欠马诺斯·奥特雷莱斯200金币。我必须从德塞勒那里拿到这笔欠款，然后还给艾迪斯·火眼。
+艾迪斯·火眼告诉我，苏兰的赫薇娅妮·德塞莱欠马诺斯·奥特雷莱斯200金币。我必须从德塞莱那里拿到这笔欠款，然后还给艾迪斯·火眼。
 
 > INFO.NAME fg_deseledebt 18942162913232826833
 Eydis Fire-Eye gave me my share of the debt money.
@@ -11330,11 +11330,11 @@ Imperial Legion: Blueprints
 
 > INFO.NAME il_blueprints 807316655234512192
 Darius told me that the Emperor himself wants the plans to the Anumidium. These plans may be somewhere under Red Mountain.
-达瑞斯告诉我，皇帝本人想要努米迪安的蓝图。这些图纸可能就在红山下的某个地方。 {计划}
+达里乌斯告诉我，皇帝本人想要努米迪安的蓝图。这些图纸可能就在红山下的某个地方。 {计划}
 
 > INFO.NAME il_blueprints 27360274471932613959
 Darius thanked me for finding the blueprints to Anumidium. They will be sent immediately to the Emperor himself.
-达瑞斯感谢我找到了努米迪安的蓝图。这些图纸会马上送给皇帝陛下。
+达里乌斯感谢我找到了努米迪安的蓝图。这些图纸会马上送给皇帝陛下。
 
 > INFO.NAME il_scrapmetal 177517983092325209
 Imperial Legion: Scrap Metal
@@ -11370,7 +11370,7 @@ I found a corpse while traveling near Seyda Neen. It seems to be the corpse of o
 
 > INFO.NAME mv_deadtaxman 28520312023193131007
 After killing Gilnith, I reported my findings to the Census and Excise Office. Socucius seemed pleased to see Processus' murder avenged, and he paid me as promised.
-杀死吉尔尼斯后，我向普查及税务办事处报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
+杀死吉尔尼斯后，我向普查及税务局报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
 
 > INFO.NAME da_sheogorath 20522273699125249
 Sheogorath's Quest
@@ -11814,7 +11814,7 @@ Mages Guild: Meeting with a Wise Woman
 
 > INFO.NAME mg_wisewoman 23338176113233031689
 Skink would like to arrange a meeting with one of the Wise Women of the Ashlanders. He asked me to negotiate a meeting.
-斯金克想与灰烬之民的一位女智者安排一次会面。他让我去洽谈会面事宜。 {女人}
+树荫想与灰烬之民的一位女智者安排一次会面。他让我去洽谈会面事宜。 {女人}
 
 > INFO.NAME mg_wisewoman 53082221799309531
 Somehow Minabi arrived at the Mages Guild before me. Skink thanked me for arranging the exchange of knowledge.
@@ -12174,7 +12174,7 @@ Morag Tong: Writ for Guril Retheran
 
 > INFO.NAME mt_writguril 261904701147301907
 I have been given a Writ for the honorable execution of Guril Retheran. He may be found at the Flowers of Gold Cornerclub in the Redoran Waistworks.
-我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层工作区的金花街角俱乐部找到。
+我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层工作区的金花街角酒吧找到。
 
 > INFO.NAME mt_writguril 22197144573075531930
 I reported the honorable execution of Guril Retheran.
@@ -12302,15 +12302,15 @@ Imperial Legion: Widow Vabdas' Deed
 
 > INFO.NAME il_widowland 4424264053177911804
 General Darius of the Imperial Legion has asked me to get the deed to the Widow Vabdas' land.
-帝国军团的达瑞斯将军让我去拿寡妇瓦布达斯的地契。 {帝国人}
+帝国军团的达里乌斯将军让我去拿寡妇瓦布达斯的地契。 {帝国人}
 
 > INFO.NAME il_widowland 239673125995622689
 I brought the deed to Widow Vabdas' land to Darius.
-我把寡妇瓦布达斯的地契带给了达瑞斯。
+我把寡妇瓦布达斯的地契带给了达里乌斯。
 
 > INFO.NAME il_widowland 11708311412320325207
 Darius thanked me for slaying Lugrub gro-Ogdum, the murderer of Mansilamat Vabdas.
-达瑞斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格罗-奥格杜姆。
+达里乌斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格罗-奥格杜姆。
 
 > INFO.NAME town_tel_vos 30227109372672518025
 Trade Mission to the Zainab
@@ -13074,7 +13074,7 @@ Mages Guild: Vampires of Vvardenfell, Vol II
 
 > INFO.NAME mg_vampvol2 4228194381760512531
 Skink wants a copy of "Vampires of Vvardenfell volume two." He suggested I try rare bookstores.
-斯金克想要一本《瓦登费尔的吸血鬼·卷二》，他建议我去珍藏本书店看看。
+树荫想要一本《瓦登费尔的吸血鬼·卷二》，他建议我去珍藏本书店看看。
 
 > INFO.NAME mg_vampvol2 6397174011545818917
 I delivered Vampires of Vvardenfell volume two to Skink in Sadrith Mora.
@@ -13270,7 +13270,7 @@ Morag Tong: Writ for Feruren Oran
 
 > INFO.NAME mt_writoran 2180567281021329577
 I have been given a Writ for the honorable execution of Feruren Oran. He may be found in the Elven Nations Cornerclub in the Hlaalu Plaza here in Vivec.
-我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁广场的精灵国度街角俱乐部找到。
+我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁广场的精灵国度街角酒吧找到。
 
 > INFO.NAME mt_writoran 20066255772525114995
 I reported the honorable execution of Feruren Oran.
@@ -13474,11 +13474,11 @@ Mages Guild: Fake Soul Gem
 
 > INFO.NAME mg_sabotage 2032217651464016623
 Ajira gave me a fake soul gem. She wants me to sabotage Galbedir's Journeyman project. I should put the fake soul gem in Galbedir's desk.
-阿吉拉给了我一颗伪造的灵魂石。她想让我破坏加尔贝迪尔的计划。我应该把伪造的灵魂石放在加尔贝迪尔的桌子上。
+阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子上。
 
 > INFO.NAME mg_sabotage 1126144581591424416
 Ajira thanked me for helping her sabotage Galbedir's experiment.
-阿吉拉感谢我帮她破坏加尔贝迪尔的实验。
+阿吉拉感谢我帮她破坏伽尔贝蒂尔的实验。
 
 > INFO.NAME a2_6_conoon 122185547218202335
 The Path of the Incarnate
@@ -13566,7 +13566,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_dinner 1432819242135819097
 Iulus Truptor says we need 5 bottles of Cyrodilic brandy for a fundraising dinner. I'm to make the rounds of the tradehouses and cornerclubs in Balmora and ask if the publicans will donate the necessary brandy. When I have the brandy, I'm to deliver it to Iulus Truptor.
-尤卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角俱乐部转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给尤卢斯·特拉普托。
+尤卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角酒吧转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给尤卢斯·特拉普托。
 
 > INFO.NAME ic12_dinner 8526111421483114877
 I delivered five bottles of Cyrodilic brandy to Iulus Truptor at Fort Moonmoth. He was very pleased. He gave me tokens of Zenithar's special blessing, and told me to speak to him again when I'm ready for another almoner's mission.
@@ -15170,7 +15170,7 @@ Imperial Cult: Gathering Muck
 
 > INFO.NAME ic2_muck 79719018100675200
 Bring Synnolian Tunifus five units of muck for cure common disease potions. A farmer in Gnisis, Abishpulu Shand, has a muckspunge patch right near his hut, and Chaplain Ogrul at Fort Darius has cut a deal with Shand to gather muck there for free. While I'm in the West Gash, look in on Chaplain Ogrul, give him four Restore Health potions, and ask him if he'll teach me a few tricks.
-辛诺里安·图尼夫斯要我给他带五份淤泥，用于治疗常见疾病药水。尼希斯的一位农夫阿比什普鲁·尚德就在他的小屋附近有一片淤泥海绵地，达瑞斯要塞的牧师奥格鲁尔与尚德达成协议，可以免费在那里采集淤泥。当我在西境之痕时，去找牧师奥格鲁尔，给他四瓶生命恢复药水，并问他是否愿意教我几招。 {这些药水}
+辛诺里安·图尼夫斯要我给他带五份淤泥，用于治疗常见疾病药水。尼希斯的一位农夫阿比什普鲁·尚德就在他的小屋附近有一片淤泥海绵地，达里乌斯要塞的牧师奥格鲁尔与尚德达成协议，可以免费在那里采集淤泥。当我在西境之痕时，去找牧师奥格鲁尔，给他四瓶生命恢复药水，并问他是否愿意教我几招。 {这些药水}
 
 > INFO.NAME ic2_muck 1960297291109528990
 I told Synnolian Tunifus I would not be able to bring him the five units of muck he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -24152,7 +24152,7 @@ Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's no
 
 > INFO.NAME greeting 1 290445316827329292
 Darius says you can be here, so it's okay with me.
-达瑞斯说你可以在这里，我没意见。
+达里乌斯说你可以在这里，我没意见。
 
 > INFO.NAME greeting 1 1217817362189026777
 You fight pretty well for a Redoran. I take back what I said about Bolvyn Venim.
@@ -29832,7 +29832,7 @@ There are garrisons all over Vvardenfell, but Fort Frostmoth is the only one aro
 
 > INFO.NAME forts 11705217681361130035
 We have garrisons at Fort Pelagiad in Pelagiad, Fort Hawkmoth in Ebonheart, Fort Moonmoth outside Balmora, Fort Buckmoth outside Ald'ruhn, and Fort Darius in Gnisis.
-我们在佩拉吉亚德要塞、黑檀心的鹰蛾要塞、巴尔莫拉郊外的月蛾要塞、奥德'汝因郊外的雄蛾要塞和尼希斯的达瑞斯要塞都有驻军。
+我们在佩拉吉亚德要塞、黑檀心的鹰蛾要塞、巴尔莫拉郊外的月蛾要塞、奥德'汝因郊外的雄蛾要塞和尼希斯的达里乌斯要塞都有驻军。
 
 > INFO.NAME booze 19082137452685917367
 I'm not a drinker myself.
