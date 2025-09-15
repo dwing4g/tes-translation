@@ -201,7 +201,7 @@ end))
 input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer and (not types.Actor.objectIsInstance(inspectedContainer) or types.Actor.isDead(inspectedContainer)) then
 		if deposit then
-			core.sendGlobalEvent("OwnlysQuickLoot_depositAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed(), playerSection:get("EXPERIMENTAL_LOOTING")})
+			core.sendGlobalEvent("OwnlysQuickLoot_depositAll",{self, inspectedContainer, input.isShiftPressed() and playerSection:get("SELECTIVE_DEPOSIT"), playerSection:get("EXPERIMENTAL_LOOTING")})
 		else
 			core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, playerSection:get("DISPOSE_CORPSE") == "Shift + F" and input.isShiftPressed(), playerSection:get("EXPERIMENTAL_LOOTING")})
 		end
@@ -1059,7 +1059,7 @@ function drawUI()
 							},
 						})
 					end
-					widgetOffset =widgetOffset+ math.max(0.12,0.105*textSizeMult)
+					widgetOffset = widgetOffset + math.max(0.12,0.105*textSizeMult)
 				end
 				relativePosition = relativePosition + relLineHeight--
 			end
@@ -1802,28 +1802,30 @@ function lootItem()
 	local isAlive = isActor and not types.Actor.isDead(cont)  --isPickpocketing (nil for containers)
 	--print(inspectedContainer,cont)
 	--if inspectedContainer == cont then
-		if containerItems[selectedIndex] then
-			if isAlive then
-				if deposit and pickpocket.version then
-					pickpocket.reversePickpocket(self, inspectedContainer, containerItems[selectedIndex])
-				else
-					pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
-				end
-				drawUI()
+	if containerItems[selectedIndex] then
+		if isAlive then
+			if deposit and pickpocket.version then
+				pickpocket.reversePickpocket(self, inspectedContainer, containerItems[selectedIndex])
 			else
-				if deposit then
-					core.sendGlobalEvent("OwnlysQuickLoot_deposit",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
-				else
-					core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
-				end
+				pickpocket.stealItem(self, inspectedContainer, containerItems[selectedIndex])
 			end
-			if not isActor and playerSection:get("CONTAINER_ANIMATION") == "on take" then
-				inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
-			end
-		end
-		if pickpocket.activate(self, inspectedContainer, input) then
 			drawUI()
+		else
+			if deposit then
+				core.sendGlobalEvent("OwnlysQuickLoot_deposit",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+			else
+				core.sendGlobalEvent("OwnlysQuickLoot_take",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+			end
 		end
+		if not isActor and playerSection:get("CONTAINER_ANIMATION") == "on take" then
+			inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
+		end
+	else
+		core.sendGlobalEvent("OwnlysQuickLoot_transferIfEmpty",{self, cont, containerItems[selectedIndex], isAlive, playerSection:get("EXPERIMENTAL_LOOTING")})
+	end
+	if pickpocket.activate(self, inspectedContainer, input) then
+		drawUI()
+	end
 	--elseif not inspectedContainer and not scriptAllows(cont) then
 	--	core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, cont, true})
 	--end

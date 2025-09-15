@@ -393,7 +393,6 @@ settings = {
 			renderer = "checkbox",
 			default = true
 		},
-		
 		{
 			key = "R_DEPOSIT",
 			name = "R switches to deposit",
@@ -401,7 +400,18 @@ settings = {
 			renderer = "checkbox",
 			default = true
 		},
-		
+		{
+			key = "SELECTIVE_DEPOSIT",
+			name = "Shift + Deposit All Mode",
+			description = "what to deposit when pressing shift+F in deposit mode",
+			default = "ingredients", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"ingredients", "restack"},
+			},
+		},
 	}
 }
 

@@ -213,7 +213,7 @@ end
 local function depositAll(data)
 	local player = data[1]
 	local container = data[2]
-	local disposeCorpse = data[3]
+	local selectiveDesposit = data[3]
 	local isCorpse = data[4]
 	local experimentalLooting = data[5]
 	local i =0
@@ -222,7 +222,9 @@ local function depositAll(data)
 		local containerInventory = types.Container.inventory(container)
 		for _, thing in pairs(types.Player.inventory(player):getAll()) do
 			if not types.Actor.hasEquipped(player,thing) then
-				if not disposeCorpse or containerInventory:countOf(thing.recordId) > 0 then
+				if not selectiveDesposit 
+				or selectiveDesposit == "restack" and containerInventory:countOf(thing.recordId) > 0 
+				or selectiveDesposit == "ingredients" and types.Ingredient.objectIsInstance(thing) then
 					thing:moveInto(containerInventory)
 					player:sendEvent("OwnlysQuickLoot_playSound", getSound(thing))
 				end
@@ -241,7 +243,11 @@ local function take(data)
 	if thing.count == 0 then
 		return
 	end
-	
+	if I.TransferItemsSpells then
+		if I.TransferItemsSpells.moveSelectedItemsToContainer(player, container) then
+			return
+		end
+    end
 	if isPickpocketing then
 		thing:moveInto(types.Player.inventory(player))
 	elseif thing.type == types.Book or experimentalLooting and container.owner.factionId == nil and container.owner.recordId == nil then
@@ -261,6 +267,16 @@ local function take(data)
 	--thing:activateBy(player)
 --moveInto(types.Player.inventory(player))
 	--player:sendEvent("TakeAll_closeUI")
+end
+local function transferIfEmpty(data)
+	if I.TransferItemsSpells then
+		local player = data[1]
+		local container = data[2]
+		--local thing = data[3]
+		--local isPickpocketing = data[4]
+		--local experimentalLooting = data[5]
+		I.TransferItemsSpells.moveSelectedItemsToContainer(player, container)
+	end
 end
 
 local function takeAll(data)
@@ -487,6 +503,7 @@ return {
 		OwnlysQuickLoot_modDisposition = modDisposition,
 		OwnlysQuickLoot_tryScript = tryScript,
 		OwnlysQuickLoot_unhookObject = unhookObject,
+		OwnlysQuickLoot_transferIfEmpty = transferIfEmpty,
 	},
 	engineHandlers = {
 		onUpdate = onUpdate,

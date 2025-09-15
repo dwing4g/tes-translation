@@ -131,6 +131,11 @@
 "R switches to deposit": "R键切换成存放"
 "switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.": "使用切换法术键在存放和收回之间切换。\n使用“全部存放”时，它会忽略已装备的物品。在使用“处理尸体”模式时，它只会堆叠容器中已有的物品。"
 
+"Shift + Deposit All Mode": "Shift + 全部存放模式"
+"what to deposit when pressing shift+F in deposit mode": "在存放模式下，当按Shift+F时存放哪些"
+"ingredients": "材料"
+"restack": "重新堆叠"
+
 
 "QuickLoot Pickpocket": "快速搜刮 - 扒窃"
 
