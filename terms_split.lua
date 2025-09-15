@@ -130,7 +130,7 @@ local subIgnored = {
 }
 local function addSub(line, k, v, c)
 	k = k:gsub("^%s+", ""):gsub("%s+$", "")
-	v = v:gsub("^%s+", ""):gsub("%s+$", ""):gsub("^¡¶", ""):gsub("¡·$", "")
+	v = v:gsub("^%s+", ""):gsub("%s+$", ""):gsub("^¡¶(.*)¡·$", function(a) return a end)
 	local k1, k2 = k:match "^(%a%S*)'s? (%a.*)$"
 	if k1 and not subIgnored[k1] then
 		local v1, v2 = v:match "^(...-)µÄ(.+)$"
