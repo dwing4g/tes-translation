@@ -88,9 +88,13 @@ luajit tes3enc.lua tes3cn_Bloodmoon.fix.txt tes3cn_Bloodmoon.fix.esp
 
 - Unofficial Chinese Localisation for Morrowind by Pack Rat EN-CN: https://www.nexusmods.com/morrowind/mods/53885
 - Tamriel Data(Tamriel_Data): https://www.nexusmods.com/morrowind/mods/44537
+  - CHS: https://www.nexusmods.com/morrowind/mods/54231
   - Tamriel Rebuilt(TR_Mainland): https://www.nexusmods.com/morrowind/mods/42145
+    - CHS: https://www.nexusmods.com/morrowind/mods/54240 https://www.nexusmods.com/morrowind/mods/56858
   - Project Tamriel: https://www.project-tamriel.com/
     - Skyrim Home Of The Nords(Sky_Main): https://www.nexusmods.com/morrowind/mods/44921
     - Project Cyrodiil(Cyr_Main): https://www.nexusmods.com/morrowind/mods/44922
     - High Rock: 3E427: (No Release Now)
     - Project Hammerfell: (No Release Now)
+- OAAB Data(OAAB_Data): https://www.nexusmods.com/morrowind/mods/49042
+  - CHS: https://www.nexusmods.com/morrowind/mods/53001
