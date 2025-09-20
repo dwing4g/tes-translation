@@ -126,7 +126,10 @@
 "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again": "一个mwscript成功激活后(道具闪烁一秒)不再允许此容器的脚本"
 
 "Loose Aiming": "宽松瞄准"
-"Don't have to aim exactly at the container.\ntiny performance impact": "不用必须准确瞄准容器。\n轻微的性能影响"
+"Don't have to aim exactly at the container.\nCan have a performance impact if you have many mods with raycasts": "不必准确瞄准容器。\n如果你用了很多射线探测的mod就会有性能影响"
+"Off": "关"
+"On": "开"
+"Precise": "精确"
 
 "R switches to deposit": "R键切换成存放"
 "switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.": "使用切换法术键在存放和收回之间切换。\n使用“全部存放”时，它会忽略已装备的物品。在使用“处理尸体”模式时，它只会堆叠容器中已有的物品。"

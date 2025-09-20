@@ -473,13 +473,16 @@ local function tryScript(data)
 end
 
 local function onObjectActive(object)
-	if types.Container.objectIsInstance(object) then
+	if types.Container.objectIsInstance(object) and not types.Container.record(object).isOrganic then
+		--print("+", object)
 		object:addScript("scripts/OwnlysQuickLoot/ql_cont2.lua")
+		object:sendEvent("OwnlysQuickLoot_initialize")
 	end
 end
 
 local function unhookObject(object)
 	--if object:hasScript("scripts/OwnlysQuickLoot/ql_cont2.lua") then --unnecessary?
+	--print("-", object)
 	object:removeScript("scripts/OwnlysQuickLoot/ql_cont2.lua")
 end
 

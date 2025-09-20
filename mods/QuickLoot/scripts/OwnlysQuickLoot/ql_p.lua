@@ -860,7 +860,7 @@ function drawUI()
 						deposit
 					)
 				end
-				local ench = thing and (thing.enchant or thingRecord.enchant ~= "" and thingRecord.enchant )
+				local ench = thing and (thing.enchant or thingRecord.enchant ~= "" and thingRecord.enchant or types.Item.itemData(thing).soul)
 				local tempTemplate = nil
 				if deposit and types.Actor.hasEquipped(self,thing) or types.Actor.hasEquipped(inspectedContainer,thing) then
 					tempTemplate = borderTemplate
@@ -906,7 +906,7 @@ function drawUI()
 							--anchor = v2(0,0),
 							--position = v2(1,1),
 							relativeSize = v2(1,1),
-							alpha = 0.7,
+							alpha = 0.9,
 						}
 					})
 				end
@@ -1584,26 +1584,29 @@ function onFrame(dt)
 			{ ignore = self }
 		)
 	end
-	if playerSection:get("LOOSE_AIMING2") and (not res.hitObject or (res.hitObject.type ~= types.Container and not types.Actor.objectIsInstance(res.hitObject))) then
+	local LOOSE_AIMING = playerSection:get("LOOSE_AIMING3")
+	if LOOSE_AIMING ~= "Off" and (not res.hitObject or (res.hitObject.type ~= types.Container and not types.Actor.objectIsInstance(res.hitObject))) then
 		local numPoints = 8
 		local radius = 0.006
-		for i = 1, numPoints do
-			local angle = (2 * math.pi / numPoints) * i
-			local x = 0.5 + radius * math.cos(angle)
-			local y = 0.5 + radius * math.sin(angle)*16/9
-			res = nearby.castRenderingRay(
-				cameraPos ,
-				cameraPos + camera.viewportToWorldVector(v2(x,y)) * activationDistance,
-				{ ignore = self }
-			)
-			
-			if res.hitObject and res.hitObject.type == types.Container then -- and types.Container.record(res.hitObject).isOrganic and not organicContainers[res.hitObject.recordId] and (not types.Container.content(res.hitObject):isResolved() or types.Container.content(res.hitObject):getAll()[1]) then
-				break
+		if LOOSE_AIMING == "Precise" then
+			for i = 1, numPoints do
+				local angle = (2 * math.pi / numPoints) * i
+				local x = 0.5 + radius * math.cos(angle)
+				local y = 0.5 + radius * math.sin(angle)*16/9
+				res = nearby.castRenderingRay(
+					cameraPos ,
+					cameraPos + camera.viewportToWorldVector(v2(x,y)) * activationDistance,
+					{ ignore = self }
+				)
+				
+				if res.hitObject and res.hitObject.type == types.Container then -- and types.Container.record(res.hitObject).isOrganic and not organicContainers[res.hitObject.recordId] and (not types.Container.content(res.hitObject):isResolved() or types.Container.content(res.hitObject):getAll()[1]) then
+					break
+				end
 			end
 		end
 		if (not res.hitObject or (res.hitObject.type ~= types.Container and not types.Actor.objectIsInstance(res.hitObject))) then
-			local numPoints = 8
-			local radius = 0.011
+			numPoints = 8
+			radius = 0.011
 			for i = 1, numPoints do
 				local angle = (2 * math.pi / numPoints) * i
 				local x = 0.5 + radius * math.cos(angle)

@@ -23,6 +23,9 @@ local function initialize()
 		lootTime = animation.getTextKeyTime(self, "containeropen: loot")
 		stopTime = animation.getTextKeyTime(self, "containeropen: stop") or 0
 		closeTime = animation.getTextKeyTime(self, "containerclose: stop") or 0
+		if not lootTime then
+			core.sendGlobalEvent("OwnlysQuickLoot_unhookObject",self)
+		end	
 	end
 end
 
@@ -86,6 +89,7 @@ return{
 	},
 	eventHandlers = { 
 		OwnlysQuickLoot_openAnimation = QuickLoot_openAnimation,
-		OwnlysQuickLoot_closeAnimation =QuickLoot_closeAnimation,
+		OwnlysQuickLoot_closeAnimation = QuickLoot_closeAnimation,
+		OwnlysQuickLoot_initialize = initialize,
 	}
 }

@@ -46,7 +46,7 @@ settings = {
 			name = "Width (%)",
 			description = "of the ui element (1-100)",
 			renderer = "number",
-			default = 20,
+			default = 23,
 			argument = {
 				min = 1,
 				max = 100,
@@ -57,7 +57,7 @@ settings = {
 			name = "Height (%)",
 			description = "of the ui element (1-100)",
 			renderer = "number",
-			default = 30,
+			default = 35,
 			argument = {
 				min = 1,
 				max = 100,
@@ -90,7 +90,7 @@ settings = {
 			name = "textSizeMult (%)",
 			description = "1-200",
 			renderer = "number",
-			default = 75,
+			default = 93,
 			argument = {
 				min = 1,
 				max = 200,
@@ -387,11 +387,16 @@ settings = {
 			default = true
 		},
 		{
-			key = "LOOSE_AIMING2",
+			key = "LOOSE_AIMING3",
 			name = "Loose Aiming",
-			description = "Don't have to aim exactly at the container.\ntiny performance impact",
-			renderer = "checkbox",
-			default = true
+			description = "Don't have to aim exactly at the container.\nCan have a performance impact if you have many mods with raycasts",
+			default = "On", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"Off", "On", "Precise"},
+			},
 		},
 		{
 			key = "R_DEPOSIT",
