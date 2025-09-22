@@ -50326,7 +50326,7 @@ end"
 <BR>
 请以朋友的身份来到沙玛特·达格斯·乌尔身边。<BR>
 <BR>
-AE HERMA MORA ALTADOON PADHOME LKHAN AE AI.<BR>（奥德莫语：赫马·莫拉之力，即帕多梅，洛克汗，即我）<BR>
+AE HERMA MORA ALTADOON PADHOME LKHAN AE AI.<BR>（奥德莫语：赫马·莫拉即力量，即帕多梅、勒坎即本我）<BR>
 <BR>"
 -BOOK
  BOOK.NAME "BookSkill_Alteration4$00"
@@ -104808,7 +104808,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "extravagant_rt_art_wild$00"
  CLOT.MODL "c\c_glove_extravagant1_GND.NIF$00"
- CLOT.FNAM "甘博尔普蒂$00"
+ CLOT.FNAM "欢腾布迪$00"
  CLOT.CTDT [05 00 00 00 00 00 80 3F 80 3E C8 00]
  CLOT.ITEX "c\tx_glove_extravagant_1.tga$00"
  CLOT.ENAM "wildjack$00"
@@ -187710,7 +187710,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "259563428213195461$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“甘博布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。"
+ INFO.NAME "索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。"
 -INFO
  INFO.INAM "259563428213195461$00"
  INFO.PNAM "2424420934616717875$00"
@@ -212014,7 +212014,7 @@ Choice ""继续"" 1"
  INFO.NNAM "238932080655311548$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dram bero$00"
- INFO.NAME "很好。我相信这把迪德拉式巨斧会对你有用的。 {有所用途}"
+ INFO.NAME "很好。我相信这把迪德拉巨斧会对你有用的。 {迪德拉式,有所用途}"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.BNAM "Player->AddItem ""daedric battle axe"" 1"
@@ -212024,7 +212024,7 @@ Choice ""继续"" 1"
  INFO.NNAM "14569272131398421066$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dram bero$00"
- INFO.NAME "嗯，钝器类武器的话，我有这把迪德拉式的权杖，也许不是你要找的东西，但它质量上乘。"
+ INFO.NAME "嗯，钝器类武器的话，我有这把迪德拉权杖，也许不是你要找的东西，但它质量上乘。 {迪德拉式}"
  INFO.SCVR "01500"
  INFO.INTV [04 00 00 00]
  INFO.BNAM "Player->AddItem ""daedric staff"" 1"
@@ -212034,7 +212034,7 @@ Choice ""继续"" 1"
  INFO.NNAM "31882766643491381$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dram bero$00"
- INFO.NAME "我有一样东西适合你：一把迪德拉式的武士刀，据说是产自阿卡维尔。"
+ INFO.NAME "我有一样东西适合你：一把迪德拉武士刀，据说是产自阿卡维尔。 {迪德拉式}"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "Player->AddItem ""daedric katana"" 1"
@@ -212044,7 +212044,7 @@ Choice ""继续"" 1"
  INFO.NNAM "10599176632402013147$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dram bero$00"
- INFO.NAME "我也喜欢和敌人保持距离，请收下这把迪德拉式的长弓，带着我的感激之情。"
+ INFO.NAME "我也喜欢和敌人保持距离，请收下这把迪德拉长弓，带着我的感激之情。 {迪德拉式}"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "Player->AddItem ""daedric long bow"" 1"
@@ -212054,7 +212054,7 @@ Choice ""继续"" 1"
  INFO.NNAM "307422442440019203$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dram bero$00"
- INFO.NAME "我有一把迪德拉式的胁差，据说是产自阿卡维尔，请收下它。"
+ INFO.NAME "我有一把迪德拉胁差，据说是产自阿卡维尔，请收下它。 {迪德拉式}"
  INFO.SCVR "01500"
  INFO.INTV [07 00 00 00]
  INFO.BNAM "Player->AddItem ""daedric wakizashi"" 1"
@@ -212064,7 +212064,7 @@ Choice ""继续"" 1"
  INFO.NNAM "269415533761331770$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dram bero$00"
- INFO.NAME "我正好有一把迪德拉式的长枪，我向你保证，整个瓦登费尔都找不到比这更好的长枪了。"
+ INFO.NAME "我正好有一把迪德拉长枪，我向你保证，整个瓦登费尔都找不到比这更好的长枪了。 {迪德拉式}"
  INFO.SCVR "01500"
  INFO.INTV [08 00 00 00]
  INFO.BNAM "Player->AddItem ""daedric spear"" 1"
@@ -283657,7 +283657,7 @@ ShowMap ""Fields of Kummu"""
  INFO.NNAM "3093529840607520818$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tholer saryoni$00"
- INFO.NAME "祸乱家族的第四角是谢尔格拉斯，他以疯狂威胁着丹莫。现在该是维威克与谢尔格拉斯许久以前签订的契约的时候了。为此，你必须找到甘博布迪。"
+ INFO.NAME "祸乱家族的第四角是谢尔格拉斯，他以疯狂威胁着丹莫。现在该是维威克与谢尔格拉斯许久以前签订的契约的时候了。为此，你必须找到欢腾布迪。"
  INFO.SCVR "34JX3TT_DagonFel"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "44JX3TT_AldSotha"
@@ -298857,7 +298857,7 @@ Goodbye"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Choice ""我为我做的事道歉…"" 1 ""没事了。"" 2"
 -DIAL
- DIAL.NAME "甘博布迪$00"
+ DIAL.NAME "欢腾布迪$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "23569194731754522786$00"
@@ -298874,7 +298874,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tholer saryoni$00"
- INFO.NAME "是的，我知道这是个奇怪的名字，但谢尔格拉斯的所有作品都带有疯狂的气息。在奥德-迪德洛斯找到甘博布迪，把它捐给谢尔格拉斯在那里的雕像，同时背诵维威克的“四角”。这样就能重续契约，防止谢尔格拉斯用疯狂折磨我们。奥德-迪德洛斯在谢尔格拉德和阿祖拉海岸之间的一座岛上。我会在你的地图上标出这个地方。"
+ INFO.NAME "是的，我知道这是个奇怪的名字，但谢尔格拉斯的所有作品都带有疯狂的气息。在奥德-迪德洛斯找到欢腾布迪，把它捐给谢尔格拉斯在那里的雕像，同时背诵维威克的“四角”。这样就能重续契约，防止谢尔格拉斯用疯狂折磨我们。奥德-迪德洛斯在谢尔格拉德和阿祖拉海岸之间的一座岛上。我会在你的地图上标出这个地方。"
  INFO.BNAM "Journal TT_AldDaedroth 10
 ShowMap ""Ald Daedroth"""
 -DIAL
@@ -347705,7 +347705,7 @@ Journal ""B8_MeetVivec"" 20"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "garothmuk gro-muzgub$00"
- INFO.NAME "长剑是军团中军官的标准武器，也是西方贵族的武器。在晨风，玻璃长剑、黑檀长剑和迪德拉式的长剑是贵族战士世代相传的珍贵传家宝。"
+ INFO.NAME "长剑是军团中军官的标准武器，也是西方贵族的武器。在晨风，玻璃长剑、黑檀长剑和迪德拉长剑是贵族战士世代相传的珍贵传家宝。 {迪德拉式}"
 -DIAL
  DIAL.NAME "短弓$00"
  DIAL.DATA [00]
@@ -361929,7 +361929,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "garothmuk gro-muzgub$00"
- INFO.NAME "在晨风，斧类武器的样式多种多样，令人眼花缭乱。灰烬之地和丹莫大家族所青睐的尖刺甲壳战斧在某些方面更像是一把钉锤而不是斧头。钢战斧是双刃的；铁战斧是单刃的；玻璃战斧、黑檀战斧和迪德拉式战斧是带有平衡尖刺的单刃战斧。 {忙}"
+ INFO.NAME "在晨风，斧类武器的样式多种多样，令人眼花缭乱。灰烬之地和丹莫大家族所青睐的尖刺甲壳战斧在某些方面更像是一把钉锤而不是斧头。钢战斧是双刃的；铁战斧是单刃的；玻璃战斧、黑檀战斧和迪德拉战斧是带有平衡尖刺的单刃战斧。 {忙,迪德拉式}"
 -DIAL
  DIAL.NAME "盾角蜥$00"
  DIAL.DATA [00]
@@ -365138,7 +365138,7 @@ ModDisposition 20"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "edryno arethi$00"
- INFO.NAME "这艘船试图在一个秘密的码头降落，可能很难被找到。我相信他们坠毁在巴尔-费尔东边的一个岛上。从那里出发，朝正东方向前进，在经过的岛屿周围寻找。应该就在巴尔-费尔的两三个岛屿之内。那艘船沉没时载有一把迪德拉式胁差。把那把胁差带来给我，你可以保留你在那里找到的任何东西。"
+ INFO.NAME "这艘船试图在一个秘密的码头降落，可能很难被找到。我相信他们坠毁在巴尔-费尔东边的一个岛上。从那里出发，朝正东方向前进，在经过的岛屿周围寻找。应该就在巴尔-费尔的两三个岛屿之内。那艘船沉没时载有一把迪德拉胁差。把那把胁差带来给我，你可以保留你在那里找到的任何东西。 {迪德拉式}"
  INFO.SCVR "34JX3HH_AshlanderEbony"
  INFO.INTV [64 00 00 00]
  INFO.BNAM "Journal HH_SunkenTreasure 10
@@ -421866,7 +421866,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "garothmuk gro-muzgub$00"
- INFO.NAME "钉锤是西方骑士最喜爱的武器，可与标准盾牌配合使用。锻莫长枪和迪德拉式长枪是极好的武器，但昂贵而稀有，是丹莫大贵族的珍贵传家宝。 {忙}"
+ INFO.NAME "钉锤是西方骑士最喜爱的武器，可与标准盾牌配合使用。锻莫和迪德拉钉锤是极好的武器，但昂贵而稀有，是丹莫大贵族的珍贵传家宝。 {忙,迪德拉式}"
 -DIAL
  DIAL.NAME "瓜尔$00"
  DIAL.DATA [00]

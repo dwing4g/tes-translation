@@ -43493,7 +43493,7 @@ Kar Alber
 
 > CLOT.FNAM extravagant_rt_art_wild
 Gambolpuddy
-甘博尔普蒂
+欢腾布迪
 
 > ACTI.FNAM furn_bannerd_goods_a4_01
 Fadase Selvayn: Trader
@@ -79425,7 +79425,7 @@ I made the Pilgrimage to the Fields of Kummu and read the Grace of Humility.
 
 > INFO.NAME tt_alddaedroth 2424420934616717875
 Tholer Saryoni told me that the Fourth Corner of the House of Troubles is Sheogorath. I must renew a pact with Sheogorath by finding a glove called the "Gambolpuddy" and donating it to Sheogorath's statue in Ald Daedroth. This shrine is on an island between Vvardenfell and Azura's Coast.
-索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“甘博布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
+索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
 
 > INFO.NAME tt_alddaedroth 259563428213195461
 I made the Pilgrimage to Ald Daedroth and read a passage from the Four Corners of the House of Troubles. The pact with Sheogorath has been renewed.
@@ -91381,27 +91381,27 @@ Nevermind.
 
 > INFO.NAME vassir didanat mine 1637516755341926555
 Very well. I believe this Daedric Battle Axe will be of some use to you.
-很好。我相信这把迪德拉式巨斧会对你有用的。 {有所用途}
+很好。我相信这把迪德拉巨斧会对你有用的。 {迪德拉式,有所用途}
 
 > INFO.NAME vassir didanat mine 238932080655311548
 Hm. A blunt weapon... I do have this Daedric Staff. Perhaps not quite what you were looking for, but it is of the highest quality.
-嗯，钝器类武器的话，我有这把迪德拉式的权杖，也许不是你要找的东西，但它质量上乘。
+嗯，钝器类武器的话，我有这把迪德拉权杖，也许不是你要找的东西，但它质量上乘。 {迪德拉式}
 
 > INFO.NAME vassir didanat mine 14569272131398421066
 I have just the thing for you. A Daedric Katana. It is rumored to be of Akaviri manufacture.
-我有一样东西适合你：一把迪德拉式的武士刀，据说是产自阿卡维尔。
+我有一样东西适合你：一把迪德拉武士刀，据说是产自阿卡维尔。 {迪德拉式}
 
 > INFO.NAME vassir didanat mine 31882766643491381
 I like to keep a distance from my enemies as well. Please take this Daedric Longbow with my gratitude.
-我也喜欢和敌人保持距离，请收下这把迪德拉式的长弓，带着我的感激之情。
+我也喜欢和敌人保持距离，请收下这把迪德拉长弓，带着我的感激之情。 {迪德拉式}
 
 > INFO.NAME vassir didanat mine 10599176632402013147
 I have a Daedric Wakizashi. Rumored to be an Akaviri original. Take it with my gratitude.
-我有一把迪德拉式的胁差，据说是产自阿卡维尔，请收下它。
+我有一把迪德拉胁差，据说是产自阿卡维尔，请收下它。 {迪德拉式}
 
 > INFO.NAME vassir didanat mine 307422442440019203
 It just so happens that I have a Daedric Spear. No finer spear may be found in all of Vvardenfell, I assure you.
-我正好有一把迪德拉式的长枪，我向你保证，整个瓦登费尔都找不到比这更好的长枪了。
+我正好有一把迪德拉长枪，我向你保证，整个瓦登费尔都找不到比这更好的长枪了。 {迪德拉式}
 
 > INFO.NAME vassir didanat mine 269415533761331770
 So. That is technically not in my jurisdiction, but I can still make use of his knowledge. I feel you deserve some compensation... What type of weapon do you use?
@@ -120937,7 +120937,7 @@ You have finished the Pilgrimages of the Four Corners of the House of Troubles. 
 
 > INFO.NAME four corners 2766468512454813770
 The Fourth Corner of the House of Troubles is Sheogorath, the Mad Star, who threatens the Dunmer with madness. It is time to renew a pact Vivec made with Sheogorath long ago. To do so, you must find the Gambolpuddy.
-祸乱家族的第四角是谢尔格拉斯，他以疯狂威胁着丹莫。现在该是维威克与谢尔格拉斯许久以前签订的契约的时候了。为此，你必须找到甘博布迪。
+祸乱家族的第四角是谢尔格拉斯，他以疯狂威胁着丹莫。现在该是维威克与谢尔格拉斯许久以前签订的契约的时候了。为此，你必须找到欢腾布迪。
 
 > INFO.NAME four corners 3093529840607520818
 The Third Corner of the House of Troubles is Molag Bal, who tries to destroy the Dunmer by corrupting our bloodlines. Bal Ur is known as the Birthplace of Molag Bal where the Doom Drum tricked Molag Bal into becoming mortal. Vivec defeated Molag Bal here and sent him back into Oblivion. Bal Ur is just north of Suran, but to get there easily, you will need a way to levitate over the mountains.
@@ -127249,7 +127249,7 @@ Yes, you found it and returned it to Sheogorath. The pact has been renewed.
 
 > INFO.NAME gambolpuddy 7845286491425821777
 Yes, I know it is a strange name, but all Sheogorath's creations have the touch of madness. Find the Gambolpuddy in Ald Daedroth and donate it to Sheogorath's statue there while reciting Vivec's "Four Corners." This will renew the pact and prevent Sheogorath from tormenting us with madness. Ald Daedroth is on one of the islands between Sheogorad and Azura's Coast. I will mark this place on your map.
-是的，我知道这是个奇怪的名字，但谢尔格拉斯的所有作品都带有疯狂的气息。在奥德-迪德洛斯找到甘博布迪，把它捐给谢尔格拉斯在那里的雕像，同时背诵维威克的“四角”。这样就能重续契约，防止谢尔格拉斯用疯狂折磨我们。奥德-迪德洛斯在谢尔格拉德和阿祖拉海岸之间的一座岛上。我会在你的地图上标出这个地方。
+是的，我知道这是个奇怪的名字，但谢尔格拉斯的所有作品都带有疯狂的气息。在奥德-迪德洛斯找到欢腾布迪，把它捐给谢尔格拉斯在那里的雕像，同时背诵维威克的“四角”。这样就能重续契约，防止谢尔格拉斯用疯狂折磨我们。奥德-迪德洛斯在谢尔格拉德和阿祖拉海岸之间的一座岛上。我会在你的地图上标出这个地方。
 
 > INFO.NAME arvel manor 1086934712893522055
 Arvel Manor is just north of the Foreign Quarter, above Dren Plantation, at Arvel Plantation. There's no direct road, so I just swim the lakes. By the way, the Arvels are slave-holders. Remember: slavery is legal here. I don't know how you feel. I don't like it, but as a member of the Imperial cult, I feel honor-bound to respect the law.
@@ -146677,7 +146677,7 @@ Monks dedicated to the ascetic philosophies of Elsweyr have long cultivated the 
 
 > INFO.NAME longsword 295819958194376852
 The longsword is the standard officer's weapon in the Legions, and a noble's weapon in the West. In Morrowind, glass, ebony, and Daedric longswords are precious heirlooms passed down through generations of noble warriors in a Great House.
-长剑是军团中军官的标准武器，也是西方贵族的武器。在晨风，玻璃长剑、黑檀长剑和迪德拉式的长剑是贵族战士世代相传的珍贵传家宝。
+长剑是军团中军官的标准武器，也是西方贵族的武器。在晨风，玻璃长剑、黑檀长剑和迪德拉长剑是贵族战士世代相传的珍贵传家宝。 {迪德拉式}
 
 > INFO.NAME short bow 1502998911577228069
 In the West, the wooden short bow is the standard weapon of Legionary missile troops and scouts. In Morrowind, however, wood is in very short supply, and the chitin bow favored by the Ashlanders is laminated bone-shell-and resin.
@@ -152537,7 +152537,7 @@ The long reach and high efficiency of this two-handed long-shafted axe-like weap
 
 > INFO.NAME war axe 26368164150011690
 A bewildering variety of one-hand axe styles are found in Morrowind. The spiked chitin war axe favored by Ashlander and Great House Dunmer is in some ways more like a mace than an axe. The steel war axe is double-bladed; the iron war axe is single-bladed; the glass, ebony, and daedric war axes are single-bladed with balancing spikes.
-在晨风，斧类武器的样式多种多样，令人眼花缭乱。灰烬之地和丹莫大家族所青睐的尖刺甲壳战斧在某些方面更像是一把钉锤而不是斧头。钢战斧是双刃的；铁战斧是单刃的；玻璃战斧、黑檀战斧和迪德拉式战斧是带有平衡尖刺的单刃战斧。 {忙}
+在晨风，斧类武器的样式多种多样，令人眼花缭乱。灰烬之地和丹莫大家族所青睐的尖刺甲壳战斧在某些方面更像是一把钉锤而不是斧头。钢战斧是双刃的；铁战斧是单刃的；玻璃战斧、黑檀战斧和迪德拉战斧是带有平衡尖刺的单刃战斧。 {忙,迪德拉式}
 
 > INFO.NAME kagouti 371643611115519171
 Magnificent beasts, aren't they. Truly gorgeous creatures!
@@ -154053,7 +154053,7 @@ Keep the Wakizashi.
 
 > INFO.NAME prelude 212118874212127267
 The ship was trying to land at a secret dock and is likely to be hard to find. I believe they crashed on an island east of Bal Fell. Start there, head due east, and look around the islands you pass. It should be within two or three islands of Bal Fell. The ship was carrying a Daedric Wakizashi when it sank. Bring that Wakizashi to me. You can keep anything else you find there.
-这艘船试图在一个秘密的码头降落，可能很难被找到。我相信他们坠毁在巴尔-费尔东边的一个岛上。从那里出发，朝正东方向前进，在经过的岛屿周围寻找。应该就在巴尔-费尔的两三个岛屿之内。那艘船沉没时载有一把迪德拉式胁差。把那把胁差带来给我，你可以保留你在那里找到的任何东西。
+这艘船试图在一个秘密的码头降落，可能很难被找到。我相信他们坠毁在巴尔-费尔东边的一个岛上。从那里出发，朝正东方向前进，在经过的岛屿周围寻找。应该就在巴尔-费尔的两三个岛屿之内。那艘船沉没时载有一把迪德拉胁差。把那把胁差带来给我，你可以保留你在那里找到的任何东西。 {迪德拉式}
 
 > INFO.NAME baladas 3131724517410931826
 Speaking. Hurry up.
@@ -175649,7 +175649,7 @@ Darts are light, easy-to-use missile weapons. Skirmishers throw several darts to
 
 > INFO.NAME mace 27490147102083214873
 The mace is a favored weapon of the Western knight, combined with a standard shield. Dwemer and Daedric maces, superb weapons, but expensive and rare, are prized heirlooms of the Dunmer Great House nobility.
-钉锤是西方骑士最喜爱的武器，可与标准盾牌配合使用。锻莫长枪和迪德拉式长枪是极好的武器，但昂贵而稀有，是丹莫大贵族的珍贵传家宝。 {忙}
+钉锤是西方骑士最喜爱的武器，可与标准盾牌配合使用。锻莫和迪德拉钉锤是极好的武器，但昂贵而稀有，是丹莫大贵族的珍贵传家宝。 {忙,迪德拉式}
 
 > INFO.NAME guar 82066228252682449
 Now, why did you have to go and do a thing like that? When did Corky ever hurt you?
