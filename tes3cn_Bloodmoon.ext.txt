@@ -6814,7 +6814,7 @@ The Spymaster took my report, and the notes from Huleeya and the 'Progress of Tr
 
 > INFO.NAME a1_v_vivecinformants 20092262721213126669
 The Spymaster promoted me to Journeyman Rank in the Blades. He seems pleased with me, because he also gave me a little present.
-情报总管把我晋升为刀锋卫士专员的级别。他似乎对我很满意，因为他还给了我一个小礼物。
+情报总管把我晋升为刀锋专员的级别。他似乎对我很满意，因为他还给了我一个小礼物。
 
 > INFO.NAME a1_7huleeyainformant 2218521863164705518
 Huleeya Informant
@@ -6846,7 +6846,7 @@ The Spymaster seemed happy with the notes I gave him on the Nerevarine from Shar
 
 > INFO.NAME a1_4_muzgobinformant 1450229266230788256
 The Spymaster promoted me to Apprentice Rank in the Blades. He seems pleased with me, because he also gave me a little present.
-情报总管把我晋升为刀锋卫士学徒。他似乎对我很满意，为他还给了我一个小礼物。
+情报总管把我晋升为刀锋学徒。他似乎对我很满意，为他还给了我一个小礼物。
 
 > INFO.NAME tg_grandmasterretort 9795263632623723230
 Thieves Guild: The Grandmaster's Retort
@@ -7190,7 +7190,7 @@ Meet Sul-Matuul
 
 > INFO.NAME a2_1_meetsulmatuul 153801167584714421
 Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's secret orders and told me to read them. The Emperor thinks the Nerevarine prophecies are genuine, and that I may be the Nerevarine. I'm being sent to the Urshilaku Camp to speak with the heads of the Nerevarine cult, Sul-Matuul and Nibani Maesa. I'll tell them my story, and tell them to test me against the Nerevarine prophecies, then report back to Caius.
-凯乌斯将我晋升为刀锋卫士学徒，并将皇帝的秘密指令交给我，让我阅读。皇帝认为尼瑞瓦因预言是真的，而且我很可能就是尼瑞瓦因。我被派往乌尔希拉库营地，与尼瑞瓦因教派的首领苏尔-玛图尔和尼巴妮·玛伊沙谈话。我会告诉他们我的故事，让他们根据尼瑞瓦因预言对我进行测试，然后向凯乌斯报告。 {指示}
+凯乌斯将我晋升为刀锋学徒，并将皇帝的秘密指令交给我，让我阅读。皇帝认为尼瑞瓦因预言是真的，而且我很可能就是尼瑞瓦因。我被派往乌尔希拉库营地，与尼瑞瓦因教派的首领苏尔-玛图尔和尼巴妮·玛伊沙谈话。我会告诉他们我的故事，让他们根据尼瑞瓦因预言对我进行测试，然后向凯乌斯报告。 {指示}
 
 > INFO.NAME a2_1_meetsulmatuul 16981214271045313693
 Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.
@@ -7206,7 +7206,7 @@ My orders are to go to the town of Balmora in Vvardenfell District and report to
 
 > INFO.NAME a1_1_findspymaster 155946986227161440
 I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
-我已经把文件包裹给了凯乌斯·科萨德斯。根据皇帝的命令，凯乌斯·科萨德斯让我加入刀锋卫士帝国情报局，担任刀锋卫士新人，凯乌斯·科萨德斯将是我的情报总管，我将听从他的指示。 {帝国人,智力}
+我已经把文件包裹给了凯乌斯·科萨德斯。根据皇帝的命令，凯乌斯·科萨德斯让我加入刀锋帝国情报局，担任刀锋新人，凯乌斯·科萨德斯将是我的情报总管，我将听从他的指示。 {帝国人,智力}
 
 > INFO.NAME a1_1_findspymaster 16759451398915021
 Spymaster Caius Cosades gave me 200 gold to spend as I please. And he also told me to establish a cover identity as a freelance adventurer. He suggested I join the Fighters Guild, or Mages Guild, or Imperial cult, advance in the ranks, gain skill and experience, or go out on my own, get freelance work. Then, when I'm ready, I come back to Caius for orders.
@@ -16254,7 +16254,7 @@ Very well, then. You are now an %NextPCRank in the East Empire Company, %PCName.
 
 > INFO.NAME join the east empire company 322838711831330428
 The East Empire Company is a business at heart. Applicants should have a winning personality, and a strong will. Those with the ability to speak eloquently and barter shrewdly are most valuable. Given the hostile environments the Company often ventures into, applicants should have a keen sense of security. Finally, all applicants should be trained in the time-honored virtues of long blades and medium armor, as has been customary for the Company for generations.
-东帝国公司本质上是一家企业。应聘者应具备成功的个性和坚强的意志。能言善辩、精明能干的人最有价值。鉴于公司经常涉足的敌对环境，应聘者应具备敏锐的安全意识。最后，所有申请者都应接受过长刃武器和中甲的训练，这也是公司世代相传的传统美德。 {事,魅力,开锁,刀锋卫士}
+东帝国公司本质上是一家企业。应聘者应具备成功的个性和坚强的意志。能言善辩、精明能干的人最有价值。鉴于公司经常涉足的敌对环境，应聘者应具备敏锐的安全意识。最后，所有申请者都应接受过长刃武器和中甲的训练，这也是公司世代相传的传统美德。 {事,魅力,开锁,刀锋}
 
 > INFO.BNAM join the east empire company 322838711831330428 c1
 Okay, I'm in.
@@ -19964,7 +19964,7 @@ They say spriggans die three deaths. Best to avoid them if I were you.
 
 > INFO.NAME little advice 1750236642132030573
 Sometimes it's worth killing a berserker just to get his weapon. Some of them favor special silver blades that are enchanted to do extra damage to their opponents.
-有时为了得到狂战士的武器，杀他也是值得的。有些狂战士喜欢用附魔师的特殊银色刀刃来给对手造成额外伤害。 {忙,刀锋卫士}
+有时为了得到狂战士的武器，杀他也是值得的。有些狂战士喜欢用附魔师的特殊银色刀刃来给对手造成额外伤害。 {忙,刀锋}
 
 > INFO.NAME little advice 18981213741218711903
 If you run into any snow wolves or snow bears, attack them with fire. They have a natural weakness to it
@@ -19980,7 +19980,7 @@ At night, when the snow starts falling, it's hard to see more than a few feet in
 
 > INFO.NAME little advice 12662772236445636
 Sometimes it's worth killing a berserker just to get his weapon. Some of them favor special silver blades that are enchanted to do extra damage to their opponents.
-有时为了得到狂战士的武器，杀他也是值得的。有些狂战士喜欢用附魔师的特殊银色刀刃来给对手造成额外伤害。 {忙,刀锋卫士}
+有时为了得到狂战士的武器，杀他也是值得的。有些狂战士喜欢用附魔师的特殊银色刀刃来给对手造成额外伤害。 {忙,刀锋}
 
 > INFO.NAME little advice 30715198212531627985
 If you're looking for a good short-bladed weapon, try to get your hands on a frysehag's winterwound dagger. Its magical frost can damage flesh and disintegrate armor.

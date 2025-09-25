@@ -1985,7 +1985,7 @@ Ekkhi
 
 > NPC_.FNAM Sirollus Saccus
 Sirollus Saccus
-西罗卢斯·萨卡斯
+西罗卢斯·萨库斯
 
 > DOOR.FNAM in_hlaalu_loaddoor_02
 Door
@@ -7969,7 +7969,7 @@ The Spymaster took my report, and the notes from Huleeya and the 'Progress of Tr
 
 > INFO.NAME a1_v_vivecinformants 20092262721213126669
 The Spymaster promoted me to Journeyman Rank in the Blades. He seems pleased with me, because he also gave me a little present.
-情报总管把我晋升为刀锋卫士专员的级别。他似乎对我很满意，因为他还给了我一个小礼物。
+情报总管把我晋升为刀锋专员的级别。他似乎对我很满意，因为他还给了我一个小礼物。
 
 > INFO.NAME a1_7huleeyainformant 2218521863164705518
 Huleeya Informant
@@ -8001,7 +8001,7 @@ The Spymaster seemed happy with the notes I gave him on the Nerevarine from Shar
 
 > INFO.NAME a1_4_muzgobinformant 1450229266230788256
 The Spymaster promoted me to Apprentice Rank in the Blades. He seems pleased with me, because he also gave me a little present.
-情报总管把我晋升为刀锋卫士学徒。他似乎对我很满意，为他还给了我一个小礼物。
+情报总管把我晋升为刀锋学徒。他似乎对我很满意，为他还给了我一个小礼物。
 
 > INFO.NAME tg_grandmasterretort 9795263632623723230
 Thieves Guild: The Grandmaster's Retort
@@ -8405,7 +8405,7 @@ Meet Sul-Matuul
 
 > INFO.NAME a2_1_meetsulmatuul 153801167584714421
 Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's secret orders and told me to read them. The Emperor thinks the Nerevarine prophecies are genuine, and that I may be the Nerevarine. I'm being sent to the Urshilaku Camp to speak with the heads of the Nerevarine cult, Sul-Matuul and Nibani Maesa. I'll tell them my story, and tell them to test me against the Nerevarine prophecies, then report back to Caius.
-凯乌斯将我晋升为刀锋卫士学徒，并将皇帝的秘密指令交给我，让我阅读。皇帝认为尼瑞瓦因预言是真的，而且我很可能就是尼瑞瓦因。我被派往乌尔希拉库营地，与尼瑞瓦因教派的首领苏尔-玛图尔和尼巴妮·玛伊沙谈话。我会告诉他们我的故事，让他们根据尼瑞瓦因预言对我进行测试，然后向凯乌斯报告。 {指示}
+凯乌斯将我晋升为刀锋学徒，并将皇帝的秘密指令交给我，让我阅读。皇帝认为尼瑞瓦因预言是真的，而且我很可能就是尼瑞瓦因。我被派往乌尔希拉库营地，与尼瑞瓦因教派的首领苏尔-玛图尔和尼巴妮·玛伊沙谈话。我会告诉他们我的故事，让他们根据尼瑞瓦因预言对我进行测试，然后向凯乌斯报告。 {指示}
 
 > INFO.NAME a2_1_meetsulmatuul 16981214271045313693
 Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.
@@ -8421,7 +8421,7 @@ My orders are to go to the town of Balmora in Vvardenfell District and report to
 
 > INFO.NAME a1_1_findspymaster 155946986227161440
 I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
-我已经把文件包裹给了凯乌斯·科萨德斯。根据皇帝的命令，凯乌斯·科萨德斯让我加入刀锋卫士帝国情报局，担任刀锋卫士新人，凯乌斯·科萨德斯将是我的情报总管，我将听从他的指示。 {帝国人,智力}
+我已经把文件包裹给了凯乌斯·科萨德斯。根据皇帝的命令，凯乌斯·科萨德斯让我加入刀锋帝国情报局，担任刀锋新人，凯乌斯·科萨德斯将是我的情报总管，我将听从他的指示。 {帝国人,智力}
 
 > INFO.NAME a1_1_findspymaster 16759451398915021
 Spymaster Caius Cosades gave me 200 gold to spend as I please. And he also told me to establish a cover identity as a freelance adventurer. He suggested I join the Fighters Guild, or Mages Guild, or Imperial cult, advance in the ranks, gain skill and experience, or go out on my own, get freelance work. Then, when I'm ready, I come back to Caius for orders.
@@ -16541,7 +16541,7 @@ Almalexia believes me to be the Nerevarine, the reincarnation of her former love
 
 > INFO.NAME tr_blade 81201166155028465
 Almalexia has told me of Trueflame and Hopesfire, the blades of Nerevar and Almalexia.Trueflame was apparently lost at the Battle of Red Mountain.
-阿玛莱西娅向我讲述了真理之焰和希望之火，尼瑞瓦和阿玛莱西娅之剑的故事。看来真理之焰在红山之战中遗失了。 {刀锋卫士}
+阿玛莱西娅向我讲述了真理之焰和希望之火，尼瑞瓦和阿玛莱西娅之剑的故事。看来真理之焰在红山之战中遗失了。 {刀锋}
 
 > INFO.NAME tr_blade 2742656352180510860
 According to Almalexia, the pieces of the blade are all in Mournhold. She has given me the first, and when I find the other two, I am to find the craftsman who will best be able to forge the blade.
@@ -17233,7 +17233,7 @@ I'm afraid I don't know much about the Temple.
 
 > INFO.NAME improve my effectiveness 2180028017552627774
 If you want better performance, give me better gear. Think of it as an investment in your future. I'm skilled with long blades and blunt weapons, and trained with shield, heavy armor, and medium armor.
-如果你想让我表现得更好，那就给我更好的装备。把这当作是对你未来的投资。我精通长刃武器和钝器类，并接受过盾牌、重甲和中甲的训练。 {刀锋卫士}
+如果你想让我表现得更好，那就给我更好的装备。把这当作是对你未来的投资。我精通长刃武器和钝器类，并接受过盾牌、重甲和中甲的训练。 {刀锋}
 
 > INFO.NAME transport to vvardenfell 2328323454454129619
 Let me know when you wish to return.
@@ -18625,7 +18625,7 @@ Do you mock me, plebe? I aspire to heights greater than you've ever dreamed of. 
 
 > INFO.NAME reclaim your station 5495238071015227583
 For years, the Chimer and the Dwemer had been at war. The Dwemer spurned the Daedra that the Chimer worshipped, instead placing their faith in their metal creations. It was only when the Nords invaded Resdayn that the two nations were able to join as one, under the leadership of our Nerevar and the Dwarf-King Dumac. In time, the two generals became blood friends, and on the day that Nerevar and I were wed, Dumac presented us with twin blades, Hopesfire and Trueflame.
-多年来，歧莫和锻莫一直在交战。锻莫藐视歧莫所崇拜的迪德拉，而信仰他们自己的金属造物。直到诺德人入侵瑞斯戴恩，两个国家才得以在我们的尼瑞瓦和矮人国王杜玛克的领导下联合起来。随着时间的推移，两位将军成了生死之交，在我和尼瑞瓦结婚的那一天，杜玛克赠与我们雌雄双剑，希望之火和真理之焰。 {锻莫族,礼物,刀锋卫士}
+多年来，歧莫和锻莫一直在交战。锻莫藐视歧莫所崇拜的迪德拉，而信仰他们自己的金属造物。直到诺德人入侵瑞斯戴恩，两个国家才得以在我们的尼瑞瓦和矮人国王杜玛克的领导下联合起来。随着时间的推移，两位将军成了生死之交，在我和尼瑞瓦结婚的那一天，杜玛克赠与我们雌雄双剑，希望之火和真理之焰。 {锻莫族,礼物,刀锋}
 
 > INFO.NAME slight inconvenience 6669136443097815563
 We understand you were visited by some Dark Brotherhood assassins. A regrettable occurrence. They are a difficult lot, but they do have their usefulness. I'm certain that will no longer be a problem for you.
@@ -23379,7 +23379,7 @@ You should speak with the monk An-Deesei at the Argonian Mission. If the monk's 
 
 > INFO.NAME little advice 97131103009413563
 Llevana Salaren at the Temple in Molag Mar is the most knowledgeable acrobat I know. I didn't say BEST acrobat. There's others who can leap higher and jump farther, but she can TALK acrobat talk better than any other acrobat I've ever met.
-莫拉格-玛尔神殿的莱瓦娜·萨拉伦是我认识的最博学的杂技演员。我可没说她是最棒的杂技演员。还有其他人能跳得更高更远，但她比我见过的任何其他杂技演员都更会说杂技术语。 {谈}
+莫拉格-玛尔神殿的莱瓦娜·萨拉伦是我认识的最博学的杂技师。我可没说她是最棒的杂技师。还有其他人能跳得更高更远，但她比我见过的任何其他杂技师都更会说杂技术语。 {谈}
 
 > INFO.NAME little advice 21062112881978123370
 My notion of the ideal knight is an Orc named Dumbuk gro-Bolak. He serves with the Legion under General Darius up in Gnisis. You'll usually find him in the barracks. Look him up. He knows his trade, and Vvardenfell.
@@ -23687,7 +23687,7 @@ Do the old places of the Deep Elves interest you? then you must look upon Nchule
 
 > INFO.NAME little secret 15868320951144631638
 Everyone knows the people who worship Mehrunes Dagon have returned to Indoranyon. It is none of our business, and they are very unpleasant if disturbed. They stay in the dark, and do not bother us or our herds.
-大家都知道崇拜梅鲁涅斯·大衮的人已经回到了因多瑞尼恩。这不关我们的事，如果被打扰，他们会很不高兴。他们待在暗处，不会打扰我们和我们的牧群。 {我们的事情}
+大家都知道崇拜梅鲁涅斯·大衮的人已经回到了因多拉尼昂。这不关我们的事，如果被打扰，他们会很不高兴。他们待在暗处，不会打扰我们和我们的牧群。 {我们的事情}
 
 > INFO.NAME little secret 3047192883193230349
 South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is the entrance to an old cavern called Sanit. That is where they found two hunter dead, their flesh white and bloated by the corprus. That is not a place where a wise man would go.
@@ -24459,11 +24459,11 @@ A caravaner told me he delivered a bunch of pilgrims in robes and a pile of equi
 
 > INFO.NAME latest rumors 12007123412634519825
 A shipmaster told me he ferried a group of young Telvanni and their guard from Tel Aruhn to the mainland south of Indoranyon, the old Dunmer stronghold. When the shipmaster left, he said it looked like the Telvanni were planning to set themselves up somewhere west of Indoranyon.
-一位船长告诉我，他把一群年轻的泰瓦尼人和他们的卫兵从泰尔-阿汝因运到了因多瑞尼恩南部的大陆，那里是丹莫的老堡垒。船长离开时说，泰瓦尼家族的人似乎打算在因多瑞尼恩以西的某个地方安营扎寨。 {瓜尔,主大陆}
+一位船长告诉我，他把一群年轻的泰瓦尼人和他们的卫兵从泰尔-阿汝因运到了因多拉尼昂南部的大陆，那里是丹莫的老堡垒。船长离开时说，泰瓦尼家族的人似乎打算在因多拉尼昂以西的某个地方安营扎寨。 {瓜尔,主大陆}
 
 > INFO.NAME latest rumors 3076823581420910820
 A fisherman said he thinks smugglers are working out of a cave on the coast south of Tel Mora. He said he saw a small boat unloading goods on a beach. He's not sure of the exact location, but he knows it was north of Indoranyon, the old Dunmer stronghold, the best landmark on that stretch of coast.
-一位渔夫说，他认为走私者正在泰尔-莫拉南部海岸的一个山洞里活动。他说他看到一艘小船在海滩上卸货。他不确定具体位置，但他知道是在因多瑞尼恩以北，那是丹莫的老堡垒，也是那片海岸最好的地标。 {工作}
+一位渔夫说，他认为走私者正在泰尔-莫拉南部海岸的一个山洞里活动。他说他看到一艘小船在海滩上卸货。他不确定具体位置，但他知道是在因多拉尼昂以北，那是丹莫的老堡垒，也是那片海岸最好的地标。 {工作}
 
 > INFO.NAME latest rumors 25342141811535922422
 I hear Lesley's working out of a cave on the island east of Vivec.
@@ -27047,7 +27047,7 @@ Yes. Hopesfire and Trueflame.
 
 > INFO.NAME twin blades 875511454298682155
 Each was a magnificent blade, the pinnacle of Dwemer craftsmanship. Their blades burned with an unearthly fire, and the sight of them struck fear into our enemies. My blade has been kept safe, but not so Trueflame, the Blade of Nerevar. It was lost at the battle of Red Mountain.
-它们都是华丽的锋刃，是锻莫工艺的巅峰之作。它们的锋芒上燃烧着超凡绝伦的火焰，仅仅一瞥就足以让敌人胆寒。我的剑一直完好无缺，但尼瑞瓦的剑，真理之焰却并非如此。它在红山之战中丢失了。 {刀锋卫士}
+它们都是华丽的锋刃，是锻莫工艺的巅峰之作。它们的锋芒上燃烧着超凡绝伦的火焰，仅仅一瞥就足以让敌人胆寒。我的剑一直完好无缺，但尼瑞瓦的剑，真理之焰却并非如此。它在红山之战中丢失了。 {刀锋}
 
 > INFO.NAME his madness 381582613099799
 I have suspected for some time that the Lord Sotha Sil had entered Sheogorath's realm. His visits have been more and more infrequent, and punctuated by violent fits of anger. He began to speak of the fall of the Tribunal and the return of the Old Gods. But Sotha Sil is not a Seer; he is a Maker. He shapes the Here and the Now, while only I have been privy to what is to come. I know this...he is no longer the man he once was.
