@@ -3738,7 +3738,7 @@ Corprus
 
 > GMST.STRV sEffectVampirism
 Vampirism
-渴血症
+吸血病
 
 > GMST.STRV sEffectSummonCenturionSphere
 Summon Centurion Sphere
@@ -12531,19 +12531,19 @@ Sanguine Fluid Evasion
 
 > SPEL.FNAM vampire sun damage
 Vampirism
-渴血症
+吸血病
 
 > SPEL.FNAM vampire attributes
 Vampirism
-渴血症
+吸血病
 
 > SPEL.FNAM vampire skills
 Vampirism
-渴血症
+吸血病
 
 > SPEL.FNAM vampire immunities
 Vampirism
-渴血症
+吸血病
 
 > SPEL.FNAM vampire levitate
 Vampire Fly
@@ -12551,15 +12551,15 @@ Vampire Fly
 
 > SPEL.FNAM vampire quarra specials
 Vampirism
-渴血症
+吸血病
 
 > SPEL.FNAM vampire aundae specials
 Vampirism
-渴血症
+吸血病
 
 > SPEL.FNAM vampire berne specials
 Vampirism
-渴血症
+吸血病
 
 > SPEL.FNAM star-curse
 Star-Curse
@@ -28484,9 +28484,9 @@ A strong, feminine hand clamped over the mouth and a thumb jabbed under his chin
 <BR>
 “那么现在就由我来给他们再上一课。”莱多斯这样想着，穿梭于迷宫般的污泥隧道中，离开了城镇范围。他的瓜尔正停在城门口等他，他用挂在瓜尔行囊里的野草灌木简单做了一顿晚餐之后就骑上瓜尔离开了。<BR>
 <BR>
-在前往维威克城的路上，他想到了加莉西娅和伊玛林。也许他们已经被逮捕，被送去审问了，可惜他已经没机会看到他们接受审讯的样子了。在警卫队的压力下，谁会率先被突破精神防线？两个人之中伊玛林毫无疑问更加地强硬，但加莉西娅又好像留了什么后手。不过这都无所谓了：这两个人以为他的名字叫莱多斯，并且将会在阴谋与膏药俱乐部里与他们碰面。因此。帝国当局绝对不会想到要在维威克城找到一位名叫萨提斯的丹莫来问罪。<BR>
+在前往维威克城的路上，他想到了加莉西娅和伊玛林。也许他们已经被逮捕，被送去审问了，可惜他已经没机会看到他们接受审讯的样子了。在警卫队的压力下，谁会率先被突破精神防线？两个人之中伊玛林毫无疑问更加地强硬，但加莉西娅又好像留了什么后手。不过这都无所谓了：这两个人以为他的名字叫莱多斯，并且将会在阴谋与膏药酒吧里与他们碰面。因此。帝国当局绝对不会想到要在维威克城找到一位名叫萨提斯的丹莫来问罪。<BR>
 <BR>
-他乘着坐骑往前赶路，当太阳升起时，萨提斯想象着加莉西娅和伊玛林还没有接受审讯，而是在发财的美梦中熟睡着，幻想着怎么花这一大笔钱。两个人都会早早地醒来，冲向阴谋与膏药俱乐部。他现在仿佛可以看到他们在做什么，伊玛林笑着打趣，加莉西娅让他安静下来，以免引起不必要的注意。他们会点几壶格里夫酒，或者可能会点一顿饭 -- 点一顿大餐 -- 然后随着等待，他们的情绪会渐渐平淡，两个被背叛的人都会出现一系列的反应：紧张、怀疑、困惑、愤怒。<BR>
+他乘着坐骑往前赶路，当太阳升起时，萨提斯想象着加莉西娅和伊玛林还没有接受审讯，而是在发财的美梦中熟睡着，幻想着怎么花这一大笔钱。两个人都会早早地醒来，冲向阴谋与膏药酒吧。他现在仿佛可以看到他们在做什么，伊玛林笑着打趣，加莉西娅让他安静下来，以免引起不必要的注意。他们会点几壶格里夫酒，或者可能会点一顿饭 -- 点一顿大餐 -- 然后随着等待，他们的情绪会渐渐平淡，两个被背叛的人都会出现一系列的反应：紧张、怀疑、困惑、愤怒。<BR>
 <BR>
 当萨提斯到达他位于维威克城郊外房子的马厩时，太阳已经完全升起了。他拴住了他的瓜尔，填满了饲料。其余的马厩位都是空的。直到那天下午，他的仆人们从尼希斯的圣·蕾姆斯宴会中回来了。这些仆人都是好人，他对他们很好，但是以他的经验，这帮仆人是一帮大嘴巴。如果他们开始将他的缺席和其他城镇的盗窃案联系起来，他们去当局报案可能只是时间问题。不过再怎么说，他们也只是普通人。从长远的角度来看，每当他出差时，最好给他们一周的带薪假。<BR>
 <BR>
@@ -36661,7 +36661,7 @@ Dorisa Darvel
 
 > NPC_.FNAM dralasa nithryon
 Dralasa Nithryon
-德拉拉萨·尼瑟隆
+德拉拉萨·尼瑟里昂
 
 > NPC_.FNAM meldor
 Meldor
@@ -46112,7 +46112,7 @@ Volume I<BR><BR>
 <BR>
 …据说，吸血鬼是由吸血鬼袭击的伤口感染而来。由于很少有受害者在吸血鬼袭击或喂食后幸存下来，因此人们对感染这种疾病的过程知之甚少。有人提出，受害者可能自愿服从吸血鬼的意志，但没有真正的证据……<BR>
 <BR>
-…潜伏期，持续长达72小时，渴血症没有任何症状，可以通过一般法术或教会祝福治愈。然而，在潜伏期，一些受害者报告了睡眠障碍和令人不安的梦境。然而，在出现症状后，这种疾病是无法治愈和不可逆转的……<BR>
+…潜伏期，持续长达72小时，吸血病没有任何症状，可以通过一般法术或教会祝福治愈。然而，在潜伏期，一些受害者报告了睡眠障碍和令人不安的梦境。然而，在出现症状后，这种疾病是无法治愈和不可逆转的……<BR>
 <BR>"""
 
 > BOOK.FNAM bk_reflectionsoncultworship...
@@ -48207,11 +48207,11 @@ In the East, the Western tradition of Vampire Hunters is unknown. Vampirism is k
 <BR>
 …在西方，一个由吸血鬼猎人组成的暗影兄弟会被认为主要由以前受苦的吸血鬼组成，这些吸血鬼已经治愈了这种疾病。相传，吸血鬼猎人拒绝透露治疗这种疾病的方法，因为害怕这会鼓励堕落寻求刺激的人故意感染自己。<BR>
 <BR>
-在东方，吸血鬼猎人的西方传统是未知的。众所周知，渴血症是无法治愈的，就算能被治愈，被治愈的吸血鬼也应是被毁灭的可憎之物。如果在三天内治疗，这种疾病是绝对可治愈的，那么在遭遇吸血鬼后不治疗自己将被视为故意感染这种疾病，是可怕的堕落标志……<BR>
+在东方，吸血鬼猎人的西方传统是未知的。众所周知，吸血病是无法治愈的，就算能被治愈，被治愈的吸血鬼也应是被毁灭的可憎之物。如果在三天内治疗，这种疾病是绝对可治愈的，那么在遭遇吸血鬼后不治疗自己将被视为故意感染这种疾病，是可怕的堕落标志……<BR>
 <BR>
 …在神殿教义中，一个古老的传统认为，在他的许多其他罪行中，怪物之父莫拉格·巴尔在一名被击败的敌人尸体上产生了第一个吸血鬼。这个故事有几个不同的版本，敌人被定义为迪德拉领主、神殿圣徒或强大的野兽生物。这种关于吸血鬼起源的说法是晨风特有的，在帝国人的传说中没有其他地方出现过。不幸的是，神殿不鼓励对这个话题进行学术研究，因为神殿控制着对晨风中唯一大量历史和文化记录的访问……<BR>
 <BR>
-... 虽然丹莫相信这种疾病是无法治愈的，但一位名叫加卢·瑞萨里的前灵动扈从坚持认为他已经治愈了渴血症。最初作为异端被神殿囚禁，后来他改过自新，被释放，并在维威克的智慧大厅担任图书管理员度过了最后几年。有趣的是，在因异端入狱之前，瑞萨里曾被派往巴尔-乌尔的灵动扈从驻地，这里是被誉为“莫拉格·巴尔出生地”的朝圣地。<BR>
+... 虽然丹莫相信这种疾病是无法治愈的，但一位名叫加卢·瑞萨里的前灵动扈从坚持认为他已经治愈了吸血病。最初作为异端被神殿囚禁，后来他改过自新，被释放，并在维威克的智慧大厅担任图书管理员度过了最后几年。有趣的是，在因异端入狱之前，瑞萨里曾被派往巴尔-乌尔的灵动扈从驻地，这里是被誉为“莫拉格·巴尔出生地”的朝圣地。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_gnisiseggmineledger
@@ -51006,7 +51006,7 @@ When you've spoken with each of these persons, and gotten what information they 
 <BR>
 阿迪拉尼尔是个卡吉特，是盗贼公会特工。她不会很容易找到，平时出没于圣·奥姆斯区，要在圣·奥姆斯区四处打听。在圣·奥姆斯区，人们很容易被冒犯；所以所以说话要注意点礼貌，可能还得塞一点钱作为对对方的一点小恩惠，这些都有助于让你和她取得联系。<BR>
 <BR>
-胡利亚是个阿尔贡，是莫拉格堂刺客。在外邦区的黑砂壳虫俱乐部寻找他。他以热爱书籍和收藏旧物而闻名于维威克城。<BR>
+胡利亚是个阿尔贡，是莫拉格堂刺客。在外邦区的黑砂壳虫酒吧寻找他。他以热爱书籍和收藏旧物而闻名于维威克城。<BR>
 <BR>
 梅拉·米洛是一名神殿女祭司，在维威克城神殿区的智慧与正义厅堂的图书馆工作。智慧与正义厅堂对公众开放。进去到处走走，直到找到她。不要向智慧与正义殿堂的任何人询问梅拉·米洛的事。我不想让人注意到她会和一个外地人谈话这件事。梅拉·米洛是个比较特别的朋友，我不希望她惹上麻烦。<BR>
 <BR>
@@ -57713,7 +57713,7 @@ Private Papers of Galur Rithari, Buoyant Armiger<BR><BR>
 <BR>
 “对自己的腐败感到羞耻，对自己的福祉感到绝望，我被动地默认我逐渐融入了昂戴氏族的事务。我不以人为猎物，只以野兽为猎物，并与其他氏族保持距离；尽管如此，我还是放弃了希望，像野兽一样生活。”<BR>
 <BR>
-"被我之前生活的暗示所吸引，我访问了我在巴尔-乌尔的旧驻地，希望也许可以通过捕食那里的怪物或在他们的攻击下丧生来为我的罪行赎罪。在那里，一次偶然的机会，我在朝圣者神殿下方洞穴深处的一座祭坛上向麻烦之王莫拉格·巴尔提出了请愿。当莫拉格·巴尔，或某个化身或迪德拉领主的代理人为我提供治愈渴血症的机会时，我感到惊讶、激动和恐惧，以换取一个人情。然而，除非我能被治愈，否则我的灵魂或精神没有希望，我接受了他的任务。<BR>
+"被我之前生活的暗示所吸引，我访问了我在巴尔-乌尔的旧驻地，希望也许可以通过捕食那里的怪物或在他们的攻击下丧生来为我的罪行赎罪。在那里，一次偶然的机会，我在朝圣者神殿下方洞穴深处的一座祭坛上向麻烦之王莫拉格·巴尔提出了请愿。当莫拉格·巴尔，或某个化身或迪德拉领主的代理人为我提供治愈吸血病的机会时，我感到惊讶、激动和恐惧，以换取一个人情。然而，除非我能被治愈，否则我的灵魂或精神没有希望，我接受了他的任务。<BR>
 <BR>
 [瑞萨里在达格斯·乌尔北坡的一个深洞中寻找并获得了一颗神秘的被诅咒灵魂石，把它送到了巴尔-乌尔的莫拉格·巴尔神殿。]<BR>
 <BR>
@@ -63428,7 +63428,7 @@ Foot bridges connect with the mainland between the Ebonheart region and Hlaalu C
 <BR>
 哈拉鲁驻地<BR>
 <BR>
-哈拉鲁驻地是最西面的社区。哈拉鲁议员克拉西乌斯·库里奥在这里有一栋顶级豪宅。下层社区包含哈拉鲁宝库、资料库、拘留所、和各种大家族服务。这里有两个酒吧：精灵国度和无名俱乐部。各种工匠和商人也在哈拉鲁驻地开设商店。一些哈拉鲁家族贵族和家臣宁愿把他们的住所安置在没那么多规矩的圣·德林和圣·奥姆斯区。<BR>
+哈拉鲁驻地是最西面的社区。哈拉鲁议员克拉西乌斯·库里奥在这里有一栋顶级豪宅。下层社区包含哈拉鲁宝库、资料库、拘留所、和各种大家族服务。这里有两个酒吧：精灵国度和无名酒吧。各种工匠和商人也在哈拉鲁驻地开设商店。一些哈拉鲁家族贵族和家臣宁愿把他们的住所安置在没那么多规矩的圣·德林和圣·奥姆斯区。<BR>
 <BR>
 泰瓦尼驻地<BR>
 <BR>
@@ -68668,7 +68668,7 @@ Lucky Lockup
 
 > ACTI.FNAM furn_bannerd_goods_balmorapawn
 Dralasa Nithryon: Pawnbroker
-德拉拉萨·尼瑟隆：典当商
+德拉拉萨·尼瑟里昂：典当商
 
 > ACTI.FNAM furn_bannerd_goods_balmoraoutf
 Clagius Clanler: Outfitter
@@ -70538,7 +70538,7 @@ Closet
 
 > ACTI.FNAM furn_banner_tavern_noname
 No Name Club
-无名俱乐部
+无名酒吧
 
 > ACTI.FNAM furn_bannerd_alchemy_hlaalu
 Hlaalu Alchemist
@@ -76297,7 +76297,7 @@ Sugar-Lips Habasi thanked me for bringing her Ra'Zhid's dwemer artifacts.
 
 > INFO.NAME tg_balmoradefenses 692953783052416942
 Sugar-Lips Habasi has a job for me that involves the South Wall and a master of security.
-蜜唇·哈巴西给我安排了一项工作，涉及南墙俱乐部和那里的一位开锁大师。
+蜜唇·哈巴西给我安排了一项工作，涉及南墙和那里的一位开锁大师。
 
 > INFO.NAME tg_balmoradefenses 26082804528820663
 Sugar-Lips Habasi told me that one of the masters of locks and traps has been living here in Balmora, but has not contacted the Thieves Guild. I should find this Altmer and convince him to help secure the South Wall.
@@ -80125,15 +80125,15 @@ I told Imsin the Dreamer that Varona Nelas was dead.
 
 > INFO.NAME ms_vampirecure 326181630328718198
 I have found a some papers by a Buoyant Armiger, Galur Rithari. In them, he gives hints as to how vampirism may be cured. It suggests that the cure may be obtained with the help of a Daedra Prince, perhaps Molag Bal.
-我找到了灵动扈从加卢·瑞萨里的一些文献。其中，他给出了如何治愈渴血症的提示。他说可以通过一位迪德拉大君的帮助来治愈，也许就是莫拉格·巴尔。
+我找到了灵动扈从加卢·瑞萨里的一些文献。其中，他给出了如何治愈吸血病的提示。他说可以通过一位迪德拉大君的帮助来治愈，也许就是莫拉格·巴尔。
 
 > INFO.NAME ms_vampirecure 205745775971924366
 In Molag Bal's shrine in Bal Ur, I spoke with Derar Hlervu. She has told me that she knows of no cure for vampirism, and that only the Daedra Lord himself will be able to help me.
-在巴尔-乌尔的莫拉格·巴尔圣祠里，我和德拉·赫勒乌交谈过。她告诉我，她不知道有什么方法可以治愈渴血症，只有迪德拉领主本人能够帮我。
+在巴尔-乌尔的莫拉格·巴尔圣祠里，我和德拉·赫勒乌交谈过。她告诉我，她不知道有什么方法可以治愈吸血病，只有迪德拉领主本人能够帮我。
 
 > INFO.NAME ms_vampirecure 118965566497012515
 I have spoken to Molag Bal through his statue in the shrine at Bal Ur. He tells me that he does not have the cure for my vampirism, but he will get it for me if I do him a favor. His daughter, Molag Grunda, has been consorting with a Frost Atronach named Nomeg Gwai. If I can kill the two of them, returning their souls to a realm where Molag Bal may punish them, Molag Bal will give me the cure. They live now in the cave Dubdilla, south of Vos.
-我通过巴尔-乌尔圣祠中的莫拉格·巴尔雕像与他进行了交谈。他告诉我，他没有治疗渴血症的方法，但如果我帮他一个忙，他就会帮我弄到。他的女儿莫拉格·格伦达一直在和一个名叫诺梅格·夭的冰霜侍灵苟合。如果我能杀死他们两个，让他们的灵魂回到莫拉格·巴尔可以惩罚他们的领域，莫拉格·巴尔就会给我解药。他们现在住在沃斯南部的杜比德拉洞穴里。
+我通过巴尔-乌尔圣祠中的莫拉格·巴尔雕像与他进行了交谈。他告诉我，他没有治疗吸血病的方法，但如果我帮他一个忙，他就会帮我弄到。他的女儿莫拉格·格伦达一直在和一个名叫诺梅格·夭的冰霜侍灵苟合。如果我能杀死他们两个，让他们的灵魂回到莫拉格·巴尔可以惩罚他们的领域，莫拉格·巴尔就会给我解药。他们现在住在沃斯南部的杜比德拉洞穴里。
 
 > INFO.NAME ms_vampirecure 3008623530844527865
 I have succeeded in killing Molag Grunda and her paramour, Nomeg Gwai.
@@ -95853,7 +95853,7 @@ Their hatred saddens and angers me. I hate the custom of despising another on ac
 
 > INFO.NAME troublesome fools 6972632857616578
 The sight of a free Argonian offends these racist thugs. It would tarnish my Morag Tong honor to slay them, and I don't want to trouble my friend Saralis Golmis by fighting in his club. But I must go to my friend's bookstore, where we can talk in peace. If you have a way with words, perhaps you can talk to them. Or if you have a way with money, they might be bought. Otherwise, I fear there must be bloodshed.
-看到一个自由的阿尔贡就会触怒这些种族主义暴徒。杀了他们会玷污我莫拉格堂的荣誉，我不想因为在我的朋友萨拉里斯·戈尔米斯的俱乐部里打架而给他添麻烦。但我必须去我朋友的书店。我们可以在那里好好谈谈，如果你善于言辞，也许你可以和他们谈谈。如果你有钱，也许可以收买他们。否则恐怕会有流血冲突。 {棍棒}
+看到一个自由的阿尔贡就会触怒这些种族主义暴徒。杀了他们会玷污我莫拉格堂的荣誉，我不想因为在我的朋友萨拉里斯·戈尔米斯的酒吧里打架而给他添麻烦。但我必须去我朋友的书店。我们可以在那里好好谈谈，如果你善于言辞，也许你可以和他们谈谈。如果你有钱，也许可以收买他们。否则恐怕会有流血冲突。 {棍棒}
 
 > INFO.NAME hannat zainsubani 21859267502372626985
 Yes, I am Hannat Zainsubani, son of Hassour Zainsubani.
@@ -106671,7 +106671,7 @@ The Foreign Quarter is the large three-tiered canton to the north. Originally, f
 
 > INFO.NAME hlaalu compound 38874683121713974
 Hlaalu Compound is the westmost canton. Councilor Crassius Curio has a splendid tier-top mansion here. The tiers below contain Hlaalu treasuries, records, holding cells, and various services. There are two public houses: the Elven Nations and the No Name Club. A variety of craftsmen and tradesmen also have shops at Hlaalu Compound. Some House Hlaalu nobles maintain residences in the less-formal St. Delyn and St. Olms cantons. Councilor Velanda Omani's manor is east of the city on Elmas Island.
-哈拉鲁驻地是最西边的区域。克拉西乌斯·库里奥议员在这里有一座华丽的顶级豪宅。下面几层是哈拉鲁财政部、资料室、监狱和各种服务设施。这里有两个公共场所：精灵国度和无名俱乐部。各种工匠和商人也在哈拉鲁大院开店。哈拉鲁家族的一些贵族在不太正式的圣·德林区和圣·奥姆斯行政区也有住所。维兰达·奥曼尼庄园位于城东的埃尔马斯岛。 {棍棒}
+哈拉鲁驻地是最西边的区域。克拉西乌斯·库里奥议员在这里有一座华丽的顶级豪宅。下面几层是哈拉鲁财政部、资料室、监狱和各种服务设施。这里有两个公共场所：精灵国度和无名酒吧。各种工匠和商人也在哈拉鲁大院开店。哈拉鲁家族的一些贵族在不太正式的圣·德林区和圣·奥姆斯行政区也有住所。维兰达·奥曼尼庄园位于城东的埃尔马斯岛。 {棍棒}
 
 > INFO.NAME st. olms canton 7890181971676018509
 St. Delyn Canton and St. Olms Canton are residence cantons for commoners and paupers. The Temple charges very reasonable rents for comfortable workshops, shops, and apartments, and most of Vvardenfell's crafts and light industry is housed in these cantons. The Abbey of St. Delyn the Wise is on the top tier of St. Delyn, and Hlaalu Councilor Yngling Half-Troll has a top-tier manor on St. Olms.
@@ -108647,7 +108647,7 @@ The Ashlander Urshilaku tribe has a permanent settlement at Urshilaku camp on th
 
 > INFO.NAME can be reached 13275126611408728289
 I understand. You, too, are a nomad of sorts. Then I shall send word to this friend of yours, Caius Cosades. I know the South Wall club and its proprietor, Bacola Closcius, and I will send word through him to your friend Caius about the current location of the Urshilaku camp.
-我明白了，你也是个游牧民族。那我就把消息传给你的这位朋友凯乌斯·科萨德斯。我认识南墙俱乐部及其老板，巴科拉·克娄斯基乌斯，我会通过他向你的朋友凯乌斯传递乌尔希拉库营地目前的位置。 {沙尔,棍棒}
+我明白了，你也是个游牧民族。那我就把消息传给你的这位朋友凯乌斯·科萨德斯。我认识南墙酒吧及其老板，巴科拉·克娄斯基乌斯，我会通过他向你的朋友凯乌斯传递乌尔希拉库营地目前的位置。 {沙尔,棍棒}
 
 > INFO.NAME mathis dalobar 4814160731644529355
 You have been expelled from House Redoran. Make amends and perhaps we can speak again.
@@ -111859,35 +111859,35 @@ You still have the stench of the grave on you. Enjoy what is left of your life.
 
 > INFO.NAME vampirism cure 32354297442887026523
 A cure for vampirism? There are those who say that the cure resides only with our daedra princes. My lord Molag Bal has dealt before with the dark walkers, though they are not of his making. It is possible he holds the secrets to this, but I would not expect him to tell you. Only those who have the disease, and are truly desperate to be rid of it, are of interest to Molag Bal.
-渴血症的解药？有人说只有我们的迪德拉大君才有治愈的方法。莫拉格·巴尔大人曾与黑暗行尸打过交道，虽然它们不是他制造的，他有可能掌握了其中的秘密，但我不希望他告诉你。莫拉格·巴尔只对那些罹患此病，并迫切希望摆脱它的人感兴趣。 {疾病}
+吸血病的解药？有人说只有我们的迪德拉大君才有治愈的方法。莫拉格·巴尔大人曾与黑暗行尸打过交道，虽然它们不是他制造的，他有可能掌握了其中的秘密，但我不希望他告诉你。莫拉格·巴尔只对那些罹患此病，并迫切希望摆脱它的人感兴趣。 {疾病}
 
 > INFO.NAME vampirism cure 763350323131824126
 Everyone knows there is no cure for vampirism, other than the destruction of the vampire.
-每个人都知道，除了消灭吸血鬼，没有其他方法可以治愈吸血鬼。 {渴血症,毁灭}
+每个人都知道，除了消灭吸血鬼，没有其他方法可以治愈吸血病。 {毁灭}
 
 > INFO.NAME vampirism cure 10405300302424723975
 Everyone knows there is no cure for vampirism, other than the destruction of the vampire.
-每个人都知道，除了消灭吸血鬼，没有其他方法可以治愈吸血鬼。 {渴血症,毁灭}
+每个人都知道，除了消灭吸血鬼，没有其他方法可以治愈吸血病。 {毁灭}
 
 > INFO.NAME vampirism cure 7892176062394826081
 I don't know whether vampirism is a disease. And if it is a disease, I don't know if it can be cured, or how. But I have heard rumors of a cure for vampirism. And I recall reading a reference in a rare local book that might be useful. Look for a book called 'Vampires of Vvardenfell, Volume II.' It might be hard to find here. It was suppressed by the Temple. But I recall reading something there about a Buoyant Armiger who became a vampire, but who was cured.
-我不知道渴血症是不是一种疾病。如果它是一种疾病，我也不知道它是否可以治愈，或者如何治愈。但我听说过治愈吸血鬼的传言。我记得我在一本本地稀有书籍中读到过，也许会有用。找一本叫《瓦登费尔的吸血鬼》的书，第二卷。在这里可能很难找到，它被神殿压制了。但我记得在书中读到过一个灵动扈从变成了吸血鬼，但又被治愈的故事。
+我不知道吸血病是不是一种疾病。如果它是一种疾病，我也不知道它是否可以治愈，或者如何治愈。但我听说过治愈吸血病的传言。我记得我在一本本地稀有书籍中读到过，也许会有用。找一本叫《瓦登费尔的吸血鬼》的书，第二卷。在这里可能很难找到，它被神殿压制了。但我记得在书中读到过一个灵动扈从变成了吸血鬼，但又被治愈的故事。
 
 > INFO.NAME vampirism cure 2169812524305609729
 I don't know whether vampirism is a disease. And if it is a disease, I don't know if it can be cured, or how. But I have heard rumors of a cure for vampirism. And I recall reading a reference in a rare local book that might be useful. Look for a book called 'Vampires of Vvardenfell, Volume II.' It might be hard to find here. It was suppressed by the Temple. But I recall reading something there about a Buoyant Armiger who became a vampire, but who was cured.
-我不知道渴血症是不是一种疾病。如果它是一种疾病，我也不知道它是否可以治愈，或者如何治愈。但我听说过治愈吸血鬼的传言。我记得我在一本本地稀有书籍中读到过，也许会有用。找一本叫《瓦登费尔的吸血鬼》的书，第二卷。在这里可能很难找到，它被神殿压制了。但我记得在书中读到过一个灵动扈从变成了吸血鬼，但又被治愈的故事。
+我不知道吸血病是不是一种疾病。如果它是一种疾病，我也不知道它是否可以治愈，或者如何治愈。但我听说过治愈吸血病的传言。我记得我在一本本地稀有书籍中读到过，也许会有用。找一本叫《瓦登费尔的吸血鬼》的书，第二卷。在这里可能很难找到，它被神殿压制了。但我记得在书中读到过一个灵动扈从变成了吸血鬼，但又被治愈的故事。
 
 > INFO.NAME vampirism cure 873163244797162
 I don't know whether vampirism is a disease. And if it is a disease, I don't know if it can be cured, or how. But I have heard rumors of a cure for vampirism. And I recall reading a reference in a rare local book that might be useful. Look for a book called 'Vampires of Vvardenfell, Volume II.' It might be hard to find here. It was suppressed by the Temple. But I recall reading something there about a Buoyant Armiger who became a vampire, but who was cured.
-我不知道渴血症是不是一种疾病。如果它是一种疾病，我也不知道它是否可以治愈，或者如何治愈。但我听说过治愈吸血鬼的传言。我记得我在一本本地稀有书籍中读到过，也许会有用。找一本叫《瓦登费尔的吸血鬼》的书，第二卷。在这里可能很难找到，它被神殿压制了。但我记得在书中读到过一个灵动扈从变成了吸血鬼，但又被治愈的故事。
+我不知道吸血病是不是一种疾病。如果它是一种疾病，我也不知道它是否可以治愈，或者如何治愈。但我听说过治愈吸血病的传言。我记得我在一本本地稀有书籍中读到过，也许会有用。找一本叫《瓦登费尔的吸血鬼》的书，第二卷。在这里可能很难找到，它被神殿压制了。但我记得在书中读到过一个灵动扈从变成了吸血鬼，但又被治愈的故事。
 
 > INFO.NAME vampirism cure 2083218842158914997
 I think I've heard someone say that vampirism is a disease. And if it's a disease, there might be a cure. But there are diseases that have no cure, aren't there?
-我好像听人说过，渴血症是一种病。如果是一种疾病，也许就有治愈的办法。但有些病是无药可治的，不是吗？
+我好像听人说过，吸血病是一种病。如果是一种疾病，也许就有治愈的办法。但有些病是无药可治的，不是吗？
 
 > INFO.NAME vampirism cure 15378278292501212836
 I think I've heard someone say that vampirism is a disease. And if it's a disease, there might be a cure. But there are diseases that have no cure, aren't there?
-我好像听人说过，渴血症是一种病。如果是一种疾病，也许就有治愈的办法。但有些病是无药可治的，不是吗？
+我好像听人说过，吸血病是一种病。如果是一种疾病，也许就有治愈的办法。但有些病是无药可治的，不是吗？
 
 > INFO.NAME greater saints 8208174021231619565
 The greater saints of the Temple, listed with their proper spheres, are: Blessed Almalexia the Warden -- Healers, Teachers, Lord Sotha Sil the Magus -- Artificers, Wizards, Lord Vivec the Poet -- Artists, Rogues, Saint Nerevar the Captain -- Warriors, Statesmen, and Saint Veloth the Pilgrim -- Outcasts, Seekers.
@@ -122401,7 +122401,7 @@ A horrible thing indeed. If you see one, let M'Aiq know. M'Aiq wants to make sur
 
 > INFO.NAME lifeless one 27244228822679317120
 Yes, I am familiar with vampirism, and I find your kind pitiable. But I have nothing here to help you. My lord Molag Bal may be able to cure you of your affliction, but I am not privy to my lord's whims. Speak with the great Molag Bal yourself, blood fiend.
-是的，我对渴血症很熟悉，我觉得你们这种人很可怜。但我这里没有什么能帮你的。我的主人莫拉格·巴尔也许能治好你的吸血鬼病，但我不知道主人的想法。你自己去找伟大的莫拉格·巴尔吧，邪魔。
+是的，我对吸血病很熟悉，我觉得你们这种人很可怜。但我这里没有什么能帮你的。我的主人莫拉格·巴尔也许能治好你的吸血鬼病，但我不知道主人的想法。你自己去找伟大的莫拉格·巴尔吧，邪魔。
 
 > INFO.NAME madura seran 24046923714138937
 Yes, I'm her.
@@ -130477,11 +130477,11 @@ Vampire! I curse you, in Almsivi's name, and in the name of all the ancestors. L
 
 > INFO.NAME greeting 2 1168020397697927416
 Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.
-了不起，一个吸血鬼。在晨风，而且还是活着的…我可以这么说，如果你在找治愈渴血症的解药，我帮不了你。但我可以告诉你从哪里开始找。
+了不起，一个吸血鬼。在晨风，而且还是活着的…我可以这么说，如果你在找治愈吸血病的解药，我帮不了你。但我可以告诉你从哪里开始找。
 
 > INFO.NAME greeting 2 1901771442409431438
 Remarkable. A vampire. In Morrowind. And still alive... so to speak. [Chuckles.] If you're looking for a vampirism cure, I can't help you. But I can tell you where to start looking.
-了不起，一个吸血鬼。在晨风，而且还是活着的…我可以这么说，如果你在找治愈渴血症的解药，我帮不了你。但我可以告诉你从哪里开始找。
+了不起，一个吸血鬼。在晨风，而且还是活着的…我可以这么说，如果你在找治愈吸血病的解药，我帮不了你。但我可以告诉你从哪里开始找。
 
 > INFO.NAME greeting 2 22154188692129820500
 I don't fear you, vampire. Begone, fiend.
@@ -130621,7 +130621,7 @@ I can't officially take any action against you, but you killed a fellow Hlaalu, 
 
 > INFO.NAME greeting 4 26139704971782004
 Just... just... get out of my club.
-快…快滚…滚出我的俱乐部。 {棍棒}
+快…快滚…滚出我的酒吧。 {棍棒}
 
 > INFO.NAME greeting 4 302946901316717399
 I liked Guril Retheran, but I don't want any trouble with the Morag Tong.
@@ -130633,7 +130633,7 @@ Whatever you're doing here is none of my business. Just don't take anything that
 
 > INFO.NAME greeting 4 264877156181401916
 I don't care who you are. If you ever do anything like that in my club again, you'll be sorry.
-我不管你是谁，如果你再在我的俱乐部里做这种事，你会后悔的。 {棍棒}
+我不管你是谁，如果你再在我的酒吧里做这种事，你会后悔的。 {棍棒}
 
 > INFO.NAME greeting 4 1580118447388516444
 I don't know who you are or what argument you had with Feruren, but I want no part of it.
@@ -147421,23 +147421,23 @@ YOU offer ME an ultimatum? No servant of Mephala can command me!
 
 > INFO.NAME vampirism 12045269321106310824
 I've heard some say that vampirism is a disease. But no wise woman has ever been able to cure it, and I've never heard of a sorcerer's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to cure one. We would destroy them on sight if we could.
-我听说有人说渴血症是一种疾病。但从来没有女智者能治愈它，我也没听说过巫师的咒语能治愈它。但我承认，我从未遇到过吸血鬼，也从未想过如何治愈渴血症。如果可以，我们会当场消灭他们。
+我听说有人说吸血病是一种疾病。但从来没有女智者能治愈它，我也没听说过巫师的咒语能治愈它。但我承认，我从未遇到过吸血鬼，也从未想过如何治愈吸血病。如果可以，我们会当场消灭他们。
 
 > INFO.NAME vampirism 566225628114317774
 I've heard some say that vampirism is a disease. But no temple or cult has ever been able to cure it, and I've never heard of a mage's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to treat one. I think I'd be more worried about getting away from one than curing it. And I don't know how it is in the rest of the Empire, but here we know vampires are terribly dangerous, and evil, and we'd destroy them on sight if we could.
-我听有人说过，渴血症是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
+我听有人说过，吸血病是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
 
 > INFO.NAME vampirism 2444431425474223684
 I've heard some say that vampirism is a disease. But no temple or cult has ever been able to cure it, and I've never heard of a mage's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to treat one. I think I'd be more worried about getting away from one than curing it. And I don't know how it is in the rest of the Empire, but here we know vampires are terribly dangerous, and evil, and we'd destroy them on sight if we could.
-我听有人说过，渴血症是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
+我听有人说过，吸血病是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
 
 > INFO.NAME vampirism 247338631499412815
 I've heard some say that vampirism is a disease. But no temple or cult has ever been able to cure it, and I've never heard of a mage's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to treat one. I think I'd be more worried about getting away from one than curing it. And I don't know how it is in the rest of the Empire, but here we know vampires are terribly dangerous, and evil, and we'd destroy them on sight if we could.
-我听有人说过，渴血症是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
+我听有人说过，吸血病是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
 
 > INFO.NAME vampirism 2701357291645311948
 I've heard some say that vampirism is a disease. But no temple or cult has ever been able to cure it, and I've never heard of a mage's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to treat one. I think I'd be more worried about getting away from one than curing it. And I don't know how it is in the rest of the Empire, but here we know vampires are terribly dangerous, and evil, and we'd destroy them on sight if we could.
-我听有人说过，渴血症是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
+我听有人说过，吸血病是一种疾病。但从来没有哪个神殿或教派能治好它，我也没听说过哪个法师的咒语能治好它。但我承认，我从未遇到过吸血鬼，也从未想过如何治疗吸血鬼。我想我更担心的是如何摆脱吸血鬼，而不是如何治愈它。我不知道泰姆瑞尔帝国其他地方的情况如何，但在这里，我们知道吸血鬼是非常危险和邪恶的，如果可以，我们会当场消灭他们。
 
 > INFO.NAME my friend 31321322362777327434
 What? Edras didn't make it? Oh, my. I, I...I don't know what to say. He did love the outdoors, though, and it seems only fitting that he meet his end here. Such a kind, gentle soul to meet such a bitter end. I'll miss my friend greatly. Well, %PCName, I thank you for your time, even if it turned out so poorly. Please, take this. It was...Edras'. I must go now...it just seems pointless to continue my journey without my dear friend. Goodbye.
@@ -147697,7 +147697,7 @@ A creature's willpower is its property of maintaining its purpose and identify i
 
 > INFO.NAME get cured 1263919471067115275
 Common disease and blight disease are different, and need different spells and potions for cures. And no one can cure corprus disease, I'm afraid. And I've heard that vampirism is a disease, but I've never heard of a vampirism cure.
-常见疾病和枯萎病是不同的，需要不同的法术和药水来治愈。而尸化病恐怕没人能治愈。而且我听说渴血症也是一种疾病，但从来没听说过有治愈渴血症的方法。 {这些药水}
+常见疾病和枯萎病是不同的，需要不同的法术和药水来治愈。而尸化病恐怕没人能治愈。而且我听说吸血病也是一种疾病，但从来没听说过有治愈吸血病的方法。 {这些药水}
 
 > INFO.NAME get cured 2372819063510717150
 Buy cure potions from healers, apothecaries, alchemists, or traders. Enchanters sell cure scrolls. Best way, of course, is learn the spell and cure yourself, so you have an endless, portable, cheap source of cures.
@@ -147713,7 +147713,7 @@ Get diseases cured at the Temple or Imperial cult, or a healer or apothecary or 
 
 > INFO.NAME get cured 3089380191631874
 Common disease and blight disease are different, and need different spells and potions for cures. And no one can cure corprus disease, I'm afraid. And I've heard that vampirism is a disease, but I've never heard of a vampirism cure.
-常见疾病和枯萎病是不同的，需要不同的法术和药水来治愈。而尸化病恐怕没人能治愈。而且我听说渴血症也是一种疾病，但从来没听说过有治愈渴血症的方法。 {这些药水}
+常见疾病和枯萎病是不同的，需要不同的法术和药水来治愈。而尸化病恐怕没人能治愈。而且我听说吸血病也是一种疾病，但从来没听说过有治愈吸血病的方法。 {这些药水}
 
 > INFO.NAME get cured 60552938320472213
 Buy cure potions from healers, apothecaries, alchemists, or traders. Enchanters sell cure scrolls. Best way, of course, is learn the spell and cure yourself, so you have an endless, portable, cheap source of cures.
@@ -150733,7 +150733,7 @@ Imperial culture regards blood vampires as destructive monsters to be hunted and
 
 > INFO.NAME vampires 3539264032092816621
 The Dunmer hate necromancy and the undead, and hate blood vampires in particular. Blood vampires are powerful undead creatures that feed on humanoid blood. The vampire curse is contracted from disease-contaminated blood; victims of vampire attacks sometimes become vampires. There is no known cure for vampirism but the destruction of the vampire. Ash vampires are not blood vampires; though both are powerful immortal undead, ash vampire do not feed on blood, and have no connection with blood vampires.
-丹莫痛恨死灵法术和亡灵，尤其痛恨血族吸血鬼。血族吸血鬼是以类人血液为食的强大不死生物。吸血鬼的诅咒是从被疾病污染的血液中感染的；吸血鬼袭击的受害者有时也会变成吸血鬼。目前还没有已知的治疗渴血症的方法，只能消灭吸血鬼。灰烬吸血鬼不是血液吸血鬼；虽然两者都是强大的亡灵生物，但灰烬吸血鬼不以血液为食，与血族吸血鬼没有任何联系。 {合同,毁灭}
+丹莫痛恨死灵法术和亡灵，尤其痛恨血族吸血鬼。血族吸血鬼是以类人血液为食的强大不死生物。吸血鬼的诅咒是从被疾病污染的血液中感染的；吸血鬼袭击的受害者有时也会变成吸血鬼。目前还没有已知的治疗吸血病的方法，只能消灭吸血鬼。灰烬吸血鬼不是血液吸血鬼；虽然两者都是强大的亡灵生物，但灰烬吸血鬼不以血液为食，与血族吸血鬼没有任何联系。 {合同,毁灭}
 
 > INFO.BNAM vampires 3539264032092816621 c1
 Continue
@@ -150741,11 +150741,11 @@ Continue
 
 > INFO.NAME vampires 9496591091148345
 The Dunmer hate necromancy and the undead, and hate blood vampires in particular. Blood vampires are powerful undead creatures that feed on humanoid blood. The vampire curse is contracted from disease-contaminated blood; victims of vampire attacks sometimes become vampires. There is no known cure for vampirism but the destruction of the vampire. Ash vampires are not blood vampires; though both are powerful immortal undead, ash vampire do not feed on blood, and have no connection with blood vampires.
-丹莫痛恨死灵法术和亡灵，尤其痛恨血族吸血鬼。血族吸血鬼是以类人血液为食的强大不死生物。吸血鬼的诅咒是从被疾病污染的血液中感染的；吸血鬼袭击的受害者有时也会变成吸血鬼。目前还没有已知的治疗渴血症的方法，只能消灭吸血鬼。灰烬吸血鬼不是血液吸血鬼；虽然两者都是强大的亡灵生物，但灰烬吸血鬼不以血液为食，与血族吸血鬼没有任何联系。 {合同,毁灭}
+丹莫痛恨死灵法术和亡灵，尤其痛恨血族吸血鬼。血族吸血鬼是以类人血液为食的强大不死生物。吸血鬼的诅咒是从被疾病污染的血液中感染的；吸血鬼袭击的受害者有时也会变成吸血鬼。目前还没有已知的治疗吸血病的方法，只能消灭吸血鬼。灰烬吸血鬼不是血液吸血鬼；虽然两者都是强大的亡灵生物，但灰烬吸血鬼不以血液为食，与血族吸血鬼没有任何联系。 {合同,毁灭}
 
 > INFO.NAME vampires 29795176531888832742
 The Dunmer hate necromancy and the undead, and hate blood vampires in particular. Blood vampires are powerful undead creatures that feed on humanoid blood. The vampire curse is contracted from disease-contaminated blood; victims of vampire attacks sometimes become vampires. There is no known cure for vampirism but the destruction of the vampire. Ash vampires are not blood vampires; though both are powerful immortal undead, ash vampire do not feed on blood, and have no connection with blood vampires.
-丹莫痛恨死灵法术和亡灵，尤其痛恨血族吸血鬼。血族吸血鬼是以类人血液为食的强大不死生物。吸血鬼的诅咒是从被疾病污染的血液中感染的；吸血鬼袭击的受害者有时也会变成吸血鬼。目前还没有已知的治疗渴血症的方法，只能消灭吸血鬼。灰烬吸血鬼不是血液吸血鬼；虽然两者都是强大的亡灵生物，但灰烬吸血鬼不以血液为食，与血族吸血鬼没有任何联系。 {合同,毁灭}
+丹莫痛恨死灵法术和亡灵，尤其痛恨血族吸血鬼。血族吸血鬼是以类人血液为食的强大不死生物。吸血鬼的诅咒是从被疾病污染的血液中感染的；吸血鬼袭击的受害者有时也会变成吸血鬼。目前还没有已知的治疗吸血病的方法，只能消灭吸血鬼。灰烬吸血鬼不是血液吸血鬼；虽然两者都是强大的亡灵生物，但灰烬吸血鬼不以血液为食，与血族吸血鬼没有任何联系。 {合同,毁灭}
 
 > INFO.NAME vampires 231898841949512483
 That is what we are, and what we will always be. We live apart from the clans: Aundae, Berne, and Quarra. They will not accept us into their fold, so we live under the ground, surfacing to prey on the warmbloods that live above. Though the clans shun us, we are powerful, and have very few weaknesses.
@@ -152933,23 +152933,23 @@ Yes. I have Ash-Chancre. Look at my face! My hands! That is why the others stay 
 
 > INFO.NAME disease 32381159192783722455
 In Morrowind you worry about three kinds of disease -- common disease, blight disease, and corprus disease. Common disease isn't so bad. You can get cured at shrines or temples easily -- but you need to get cured, or people don't want to talk with you. Blight disease is more serious, and potions and cures are harder come by. Corprus disease can't be cured. And some say vampirism is a disease. But the only cure for a vampire is destroying it. Policy on vampires is 'kill on sight.' Or 'run on sight.'
-在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说渴血症也是一种病。但治愈吸血鬼的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
+在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说吸血病也是一种病。但治愈吸血病的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
 
 > INFO.NAME disease 24682215932296825717
 In Morrowind you worry about three kinds of disease -- common disease, blight disease, and corprus disease. Common disease isn't so bad. You can get cured at shrines or temples easily -- but you need to get cured, or people don't want to talk with you. Blight disease is more serious, and potions and cures are harder come by. Corprus disease can't be cured. And some say vampirism is a disease. But the only cure for a vampire is destroying it. Policy on vampires is 'kill on sight.' Or 'run on sight.'
-在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说渴血症也是一种病。但治愈吸血鬼的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
+在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说吸血病也是一种病。但治愈吸血病的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
 
 > INFO.NAME disease 215368109259289164
 In Morrowind you worry about three kinds of disease -- common disease, blight disease, and corprus disease. Common disease isn't so bad. You can get cured at shrines or temples easily -- but you need to get cured, or people don't want to talk with you. Blight disease is more serious, and potions and cures are harder come by. Corprus disease can't be cured. And some say vampirism is a disease. But the only cure for a vampire is destroying it. Policy on vampires is 'kill on sight.' Or 'run on sight.'
-在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说渴血症也是一种病。但治愈吸血鬼的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
+在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说吸血病也是一种病。但治愈吸血病的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
 
 > INFO.NAME disease 188163101303419745
 In Morrowind you worry about three kinds of disease -- common disease, blight disease, and corprus disease. Common disease isn't so bad. You can get cured at shrines or temples easily -- but you need to get cured, or people don't want to talk with you. Blight disease is more serious, and potions and cures are harder come by. Corprus disease can't be cured. And some say vampirism is a disease. But the only cure for a vampire is destroying it. Policy on vampires is 'kill on sight.' Or 'run on sight.'
-在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说渴血症也是一种病。但治愈吸血鬼的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
+在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说吸血病也是一种病。但治愈吸血病的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
 
 > INFO.NAME disease 18832131871497913666
 In Morrowind you worry about three kinds of disease -- common disease, blight disease, and corprus disease. Common disease isn't so bad. You can get cured at shrines or temples easily -- but you need to get cured, or people don't want to talk with you. Blight disease is more serious, and potions and cures are harder come by. Corprus disease can't be cured. And some say vampirism is a disease. But the only cure for a vampire is destroying it. Policy on vampires is 'kill on sight.' Or 'run on sight.'
-在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说渴血症也是一种病。但治愈吸血鬼的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
+在晨风，有三种疾病需要注意 -- 常见疾病、枯萎病和尸化病。常见疾病并不可怕。你可以在圣祠或神殿轻松得到痊愈 -- 而且你需要去治愈，否则人们不愿与你交谈。枯萎病比较严重，而且药水和治疗方法比较难得。尸化病无法治愈。还有人说吸血病也是一种病。但治愈吸血病的唯一办法就是消灭它。对吸血鬼的政策是“格杀勿论”。或者“见到就跑”。 {这些药水}
 
 > INFO.NAME muddled 205733683299535436
 Yes, everything was so confusing there for a while. You've got to watch those slaughterfish bites. I'd heard they can cause disease, but I didn't realize how severely.

@@ -339,7 +339,7 @@ time.runRepeatedly(function()
 				locations[name:lower()] = cells
 				if settings:get("showDiscover") then
 					I.SSQN.showBanner{
-						text=settings:get("discoverUpper") and name:upper() or name,
+						text="#{sCell="..name.."}", -- settings:get("discoverUpper") and name:upper() or name,
 						header=l10n("text_discover")
 					}
 				end
