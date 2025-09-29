@@ -101,6 +101,27 @@ local function inTableValue(t, v)
 	end
 end
 
+local function lowerGBK(s)
+	if not s:find "[A-Z]" then
+		return s
+	end
+	if not s:find "[\x80-\xff]" then
+		return s:lower()
+	end
+	local t = {}
+	local i = 1
+	while i <= #s do
+		if s:byte(i) < 0x80 then
+			t[#t + 1] = s:sub(i, i):lower()
+			i = i + 1
+		else
+			t[#t + 1] = s:sub(i, i + 1)
+			i = i + 2
+		end
+	end
+	return concat(t)
+end
+
 local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM, INAM => { topics }
 	errwrite("loading ", filename, " ... ")
 	newLine = false
@@ -115,7 +136,7 @@ local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM
 			s = line:match "^%x*:?%s*DIAL%.DATA %[(.-)%]"
 			if s then
 				if s == "00" then -- 00:Topic 01:Voice 02:Greeting 03:Persuasion 04:Journal
-					topicMap[topic:lower()] = true
+					topicMap[lowerGBK(topic)] = true
 				else
 					dials[topic] = true
 					topic = nil
@@ -124,7 +145,7 @@ local function loadTopics(filename, topicMap, topicMapR, dials) -- topic => INAM
 				s = line:match "^%x*:?%s*INFO%.INAM%s*\"(.*)\"$"
 				if s then
 					s = s:gsub("%$00$", "")
-					topic = topic:lower()
+					topic = lowerGBK(topic)
 					if localTopicMap[topic] then
 						warn("duplicated topic: ", topic, " => ", s)
 					end
@@ -260,7 +281,7 @@ for topic in pairs(topicMap) do
 end
 for checkTopic, inam in pairs(checkTopicMap) do
 	if not check1[checkTopic] then
-		errwrite("ERROR: undefined check topic [", checkTopic, "], ref [" .. (topicMapR[inam] or {})[1] .. "] => [" .. inam .. "]\n")
+		errwrite("ERROR: undefined check topic [", checkTopic, "], ref [" .. tostring((topicMapR[inam] or {})[1]) .. "] => [" .. tostring(inam) .. "]\n")
 		err = err + 1
 	end
 end
@@ -323,7 +344,7 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 	for line in io.lines(filename) do
 		line = line:gsub("\r+$", "")
 		local topic = line:match "[Aa]dd[Tt]opic%s*\"\"(.-)\"\""
-		if topic and not topicMap[topic:lower()] and not line:find ";%s*[Aa]dd[Tt]opic%s*\"\"" then
+		if topic and not topicMap[lowerGBK(topic)] and not line:find ";%s*[Aa]dd[Tt]opic%s*\"\"" then
 			warn("not found topic at line ", i, ": ", line)
 		end
 		if ss then
@@ -360,7 +381,7 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 					if s == "01" then -- 00:Topic 01:Voice 02:Greeting 03:Persuasion 04:Journal
 						dial = nil
 					elseif s == "00" then
-						dial = dial:lower()
+						dial = lowerGBK(dial)
 					end
 				elseif dial then
 					local s = line:match "^%x*:?%s*INFO%.INAM%s*\"(.*)\"$"
@@ -416,7 +437,7 @@ local function loadFile(src_filename, dst_filename)
 			local topics = {}
 			local i, j, n = 1, 1, #text
 			local curNode = topicTree
-			text = text:lower()
+			text = lowerGBK(text)
 			while j <= n do
 				local c = sub(text, i, i)
 				local nextNode = curNode[c]
@@ -613,7 +634,7 @@ local function fixTexts(src_filename, dst_filename, fixedTexts)
 				if s == "01" then -- 00:Topic 01:Voice 02:Greeting 03:Persuasion 04:Journal
 					dial = nil
 				elseif s == "00" then
-					dial = dial:lower()
+					dial = lowerGBK(dial)
 				end
 			elseif dial then
 				if tag == "INFO.INAM" then

@@ -8,6 +8,27 @@ local exts = {
 	"tes3cn_Bloodmoon.ext.txt",
 }
 
+local function lowerGBK(s)
+	if not s:find "[A-Z]" then
+		return s
+	end
+	if not s:find "[\x80-\xff]" then
+		return s:lower()
+	end
+	local t = {}
+	local i = 1
+	while i <= #s do
+		if s:byte(i) < 0x80 then
+			t[#t + 1] = s:sub(i, i):lower()
+			i = i + 1
+		else
+			t[#t + 1] = s:sub(i, i + 1)
+			i = i + 2
+		end
+	end
+	return table.concat(t)
+end
+
 local function loadExt(filename, callback)
 	local k, e, c, m, n = nil, nil, nil, false, 0
 	for line in io.lines(filename) do
@@ -48,14 +69,14 @@ local function loadExt(filename, callback)
 	end
 end
 
-local me = arg[1]:lower()
-local mc = arg[2]:lower()
+local me = lowerGBK(arg[1])
+local mc = lowerGBK(arg[2])
 for _, ext in ipairs(exts) do
 	-- write("======== ", ext, "\n")
 	local n = 0
 	loadExt(ext, function(k, e, c)
-		local _, ne = e:lower():gsub(me, me)
-		local _, nc = c:lower():gsub("{[^}]-}%s*$", ""):gsub(mc, mc)
+		local _, ne = lowerGBK(e):gsub(me, me)
+		local _, nc = lowerGBK(c):gsub("{[^}]-}%s*$", ""):gsub(mc, mc)
 		if ne ~= nc and c ~= "###" then
 			n = n + 1
 			write("---", k, "\n")

@@ -6,6 +6,27 @@ local arg = arg
 local topics, checkTopics = {}, {}
 local err = 0
 
+local function lowerGBK(s)
+	if not s:find "[A-Z]" then
+		return s
+	end
+	if not s:find "[\x80-\xff]" then
+		return s:lower()
+	end
+	local t = {}
+	local i = 1
+	while i <= #s do
+		if s:byte(i) < 0x80 then
+			t[#t + 1] = s:sub(i, i):lower()
+			i = i + 1
+		else
+			t[#t + 1] = s:sub(i, i + 1)
+			i = i + 2
+		end
+	end
+	return table.concat(t)
+end
+
 local function loadTopics(filename)
 	io.stderr:write("loading ", filename, " ... ")
 	local newLine = false
@@ -18,9 +39,9 @@ local function loadTopics(filename)
 			io.stderr:write("ERROR: invalid topic file at line ", i, ": ", line, "\n")
 			err = err + 1
 		else
-			topic = topic:lower()
+			topic = lowerGBK(topic)
 			if not checkTopic:find "[\x80-\xff]" then
-				checkTopic = checkTopic:lower()
+				checkTopic = lowerGBK(checkTopic)
 			end
 			if topics[topic] then
 				if checkTopic ~= topic and topics[topic] ~= topic and topics[topic] ~= checkTopic then

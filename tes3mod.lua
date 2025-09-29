@@ -17,6 +17,27 @@ local function warn(...)
 	io.stderr:write "\n"
 end
 
+local function lowerGBK(s)
+	if not s:find "[A-Z]" then
+		return s
+	end
+	if not s:find "[\x80-\xff]" then
+		return s:lower()
+	end
+	local t = {}
+	local i = 1
+	while i <= #s do
+		if s:byte(i) < 0x80 then
+			t[#t + 1] = s:sub(i, i):lower()
+			i = i + 1
+		else
+			t[#t + 1] = s:sub(i, i + 1)
+			i = i + 2
+		end
+	end
+	return table.concat(t)
+end
+
 local topics = {}
 for line in io.lines(#arg > 3 and arg[3] or "topics.txt") do
 	line = line:gsub("\r+$", "")
@@ -172,7 +193,7 @@ local function modScr(line, p, lineId)
 			local first = true
 			str = str:gsub('"(.-)"', function(s)
 				first = false
-				local t = topics[s:lower()]
+				local t = topics[lowerGBK(s)]
 				if t then
 					s = t
 				else
@@ -182,7 +203,7 @@ local function modScr(line, p, lineId)
 			end)
 			if first and not str:find '"' then
 				str = str:gsub('(%S+)', function(s)
-					local t = topics[s:lower()]
+					local t = topics[lowerGBK(s)]
 					if t then
 						s = t
 					else
@@ -346,12 +367,12 @@ for line in io.lines(arg[1]) do
 			if r then
 				error("ERROR: not single line DIAL.NAME at line " .. i .. " in '" .. arg[1] .. "'")
 			end
-			d = d:gsub("%$%$", "@TeS3ModmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ModmArK@", "$$"):lower()
+			d = lowerGBK(d:gsub("%$%$", "@TeS3ModmArK@"):gsub("%$00.*$", ""):gsub("@TeS3ModmArK@", "$$"))
 			dl, line = line, nil
 		elseif tag == "DIAL.DATA" then
 			if line:find "%[00%]" then
 				dl = dl:gsub('"(.-)([%$"])', function(s, e)
-					local t = topics[s:lower()]
+					local t = topics[lowerGBK(s)]
 					if t then
 						s = t
 					else

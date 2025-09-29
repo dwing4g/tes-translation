@@ -3398,7 +3398,7 @@ Blind
 
 > GMST.STRV sEffectSound
 Sound
-响声
+喧响
 
 > GMST.STRV sEffectCalmHumanoid
 Calm Humanoid
@@ -12659,7 +12659,7 @@ Koal Cave Blessing
 
 > SPEL.FNAM shrine_kummu_sp
 Fields of Kummu Blessing
-库姆之野神祠的祝福
+库姆原野祝福
 
 > SPEL.FNAM shrine_palace_sp
 Palace Blessings
@@ -17182,7 +17182,7 @@ Proseccus nodded and had the doors to the throne room closed once again.  The co
 <BR>
 皇家卫队拔剑出鞘，向前推进。正当他们这么做时，突然闪出一道光线，然后屋里就被由布罗西卡斯率领的帝王夜刃堆满了。他们已经在暗影里潜伏了好几个小时了。<BR>
 <BR>
-“以皇帝尤里尔·塞普汀七世至高无上的威严名义，我要逮捕你，”斯塔尔说道。<BR>
+“以皇帝尤利尔·塞普汀七世至高无上的威严名义，我要逮捕你，”斯塔尔说道。<BR>
 <BR>
 房门被打开，国王和王后低着头被带了出来。吉娜告诉布罗西卡斯他们的孩子塞隆王子最有可能出现的地方。大臣和贵族们在会议室里看着这奇怪而又庄严的一幕，国王和皇后被投进了自己的皇家监狱。没人多说一句话。<BR>
 <BR>
@@ -36661,7 +36661,7 @@ Dorisa Darvel
 
 > NPC_.FNAM dralasa nithryon
 Dralasa Nithryon
-德拉拉萨·尼瑟里昂
+德拉拉莎·尼瑟里昂
 
 > NPC_.FNAM meldor
 Meldor
@@ -41357,7 +41357,7 @@ Andilu Drothan
 
 > NPC_.FNAM aurane frernis
 Aurane Frernis
-奥拉妮·弗蕾尼斯
+奥拉妮·弗雷尼斯
 
 > CLOT.FNAM Expensive_Ring_01_HRDT
 Nervion Ancestor Ring
@@ -51356,7 +51356,7 @@ Secret Caldera Ledger
 
 > BOOK.FNAM bk_AuraneFrernis1
 Aurane Frernis' Recipies
-奥拉妮·弗蕾尼斯的回报
+奥拉妮·弗雷尼斯的回报
 
 > BOOK.TEXT bk_AuraneFrernis1
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -51369,7 +51369,7 @@ Another common potion is that of restore fatigue. This can be made from scrib je
 <BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-奥拉妮·弗蕾尼斯的<BR>
+奥拉妮·弗雷尼斯的<BR>
 炼金配方<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 最常见的药水，生命恢复药水，可以直接由瓦登费尔的原生材料来制作。沼泽糖蔗、灯芯麦和砂壳虫脂的任意组合都可以。如果准备得当，所炼制出来的药水不会有任何负面影响。<BR>
@@ -51380,7 +51380,7 @@ Another common potion is that of restore fatigue. This can be made from scrib je
 
 > BOOK.FNAM bk_auranefrernis2
 Aurane Frernis' Recipies
-奥拉妮·弗蕾尼斯的回报
+奥拉妮·弗雷尼斯的回报
 
 > BOOK.TEXT bk_auranefrernis2
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -51398,7 +51398,7 @@ So far the only mixtures I've found to be even partially effective is scrib jell
 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-奥拉妮·弗蕾尼斯的<BR>
+奥拉妮·弗雷尼斯的<BR>
 炼金配方<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 治疗常见疾病的药水的需求可以说是非常常见了。这种药水在瓦登费尔制作起来很简单，而且相当廉价，因为这些挑剔的丹莫给他们祖先所使用的坟土质量都很好（保存的也很好）。将适量的坟土和绿色地衣混合，用小火加热，直到混合物变成棕色为止即可。<BR>
@@ -51414,7 +51414,7 @@ So far the only mixtures I've found to be even partially effective is scrib jell
 
 > BOOK.FNAM bk_auranefrernis3
 Aurane Frernis' Recipies
-奥拉妮·弗蕾尼斯的回报
+奥拉妮·弗雷尼斯的回报
 
 > BOOK.TEXT bk_auranefrernis3
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -51431,7 +51431,7 @@ Note: Do NOT mix plumes with trama root.<BR>
 <BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-奥拉妮·弗蕾尼斯的<BR>
+奥拉妮·弗雷尼斯的<BR>
 炼金配方<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 一瓶简单的水下呼吸药水可以由微光红菇（一种在苦涩海岸发现的真菌）和颈羽罗叶制成。把蘑菇和叶子碾压成糊状，慢慢加水，直到混合物几乎变成液体为止即可，可以直接饮用。<BR>
@@ -56293,7 +56293,7 @@ Manse Andus
 
 > NPC_.FNAM miles gloriosus
 Miles Gloriosus
-迈尔斯·格洛里索斯
+迈尔斯·格洛里欧苏斯
 
 > NPC_.FNAM bugdurash gra-gashel
 Bugdurash gra-Gashel
@@ -56792,7 +56792,7 @@ Selkirnemus
 
 > NPC_.FNAM dunel saryon
 Dunel Saryon
-杜乃尔·萨里昂
+杜内尔·萨里昂
 
 > NPC_.FNAM nilioniel
 Nilioniel
@@ -58850,7 +58850,7 @@ Morvayn Manor Key
 
 > NPC_.FNAM simine fralinie
 Simine Fralinie
-西蒙尼·法兰琳涅
+西米内·弗拉林涅
 
 > NPC_.FNAM remas morvayn
 Remas Morvayn
@@ -63268,7 +63268,7 @@ The large island of Sheogorad lies north of Vvardenfell. This island and its ass
 <BR>
 奥德-索萨是一座壮丽的迪德拉废墟，在维威克城的视线范围内。虽然充满异国情调，风景如画，但这是一个危险的地方，充满了古老的魔法，黑暗的信徒和他们召唤的迪德拉。因此，此地不推荐给观光客。<BR>
 <BR>
-苏兰是一个农业村，位于富饶的阿斯卡迪安群岛地区的东北角。附近有两个著名的朝圣地 -- 库姆的田野和莫拉格·巴尔的圣地。<BR>
+苏兰是一个农业村，位于富饶的阿斯卡迪安群岛地区的东北角。附近有两个著名的朝圣地 -- 库姆原野和莫拉格·巴尔的圣地。<BR>
 <BR>
 佩拉吉亚德是一座新特许的帝国村庄，位于巴尔莫拉和维威克城之间，位于阿斯卡迪安群岛地区的西部边缘。这个村庄就在帝国军团驻守的佩拉吉亚德堡外。房子和商店都是按照西方帝国的风格建造的，这使得佩拉吉亚德看起来更像是一个帝国的村庄，而不是一个晨风的定居点。<BR>
 <BR>
@@ -68668,7 +68668,7 @@ Lucky Lockup
 
 > ACTI.FNAM furn_bannerd_goods_balmorapawn
 Dralasa Nithryon: Pawnbroker
-德拉拉萨·尼瑟里昂：典当商
+德拉拉莎·尼瑟里昂：典当商
 
 > ACTI.FNAM furn_bannerd_goods_balmoraoutf
 Clagius Clanler: Outfitter
@@ -70546,7 +70546,7 @@ Hlaalu Alchemist
 
 > ACTI.FNAM furn_bannerd_wa_shop_hlaalu
 Hlaalu Weaponsmith
-哈拉鲁武器商
+哈拉鲁武器匠
 
 > ACTI.FNAM furn_bannerd_goods_hlaalu
 Hlaalu General Goods
@@ -70638,7 +70638,7 @@ Chest
 
 > MISC.FNAM key_aurane1
 Aurane Frernis' Key
-奥拉妮·弗蕾尼斯的钥匙
+奥拉妮·弗雷尼斯的钥匙
 
 > CONT.FNAM chest_small_02_HHRD
 Ascadian Land Deeds
@@ -71201,11 +71201,11 @@ Jeanne: Trader
 
 > ACTI.FNAM furn_bannerd_goods_V_SF
 Simine Fralinie: Bookseller
-西蒙尼·法兰琳涅：书商
+西米内·弗拉林涅：书商
 
 > ACTI.FNAM furn_bannerd_alchemy_V_AF
 Aurane Frernis: Apothecary
-奥拉妮·弗蕾尼斯：药剂师
+奥拉妮·弗雷尼斯：药剂师
 
 > ACTI.FNAM furn_bannerd_alchemy_V_AD
 Andilu Drothan: Alchemist
@@ -72890,7 +72890,7 @@ See these testimonials:<BR>
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 注意了！！！！<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-不要与奥拉妮·弗蕾尼斯进行任何交易！！！<BR>
+不要与奥拉妮·弗雷尼斯进行任何交易！！！<BR>
 众所周知，她在交易当中既不道德也不守信用！！！<BR>
 她所使用的材料既劣质又危险！！！<BR>
 使用她的产品，你会蒙受巨大的损失！！！<BR>
@@ -72913,7 +72913,7 @@ Codus Callonus: Bookseller
 
 > ACTI.FNAM furn_bannerd_books_V_SF
 Simine Fralinie: Bookseller
-西蒙尼·法兰琳涅：书商
+西米内·弗拉林涅：书商
 
 > ACTI.FNAM furn_bannerd_books_V_JRB
 Jobasha's Rare Books
@@ -73780,7 +73780,7 @@ Shrine of Vivec's Fury
 
 > ACTI.FNAM Furn_shrine_Vivec_cure_02
 Fields of Kummu Shrine
-库姆之野圣祠
+库姆原野圣祠
 
 > ACTI.FNAM Furn_shrine_Vivec_cure_03
 Ghostgate Shrine
@@ -75801,11 +75801,11 @@ Botrir has been killed while attempting to recover his prized axe, Widowmaker. I
 
 > INFO.NAME ms_gold_kanet_flower 8914109682747830794
 Aurane Frernis needs me to find a rare gold kanet plant called Roland's Tear.
-奥拉妮·弗蕾尼斯需要我去寻找一种名为“罗兰之泪”的稀有金色卡内特植物。 {计划,泪城}
+奥拉妮·弗雷尼斯需要我去寻找一种名为“罗兰之泪”的稀有金色卡内特植物。 {计划,泪城}
 
 > INFO.NAME ms_gold_kanet_flower 5219168812833422036
 I've agreed to find the gold kanet plant called Roland's Tear. One variation of this plant is said to have wondrous powers when combined with other ingredients. She said she would make me something extra-special and rare if I bring her five flowers from this plant. Aurane Frernis believes it can be found at the eastern edge of the ruins of Ald Sotha, to the east of Vivec.
-我已经答应去找一种叫“罗兰之泪”的金色卡内特植物。据说这种植物的一种变种与其它材料结合后会产生奇妙的力量。她说如果我给她带来五朵这种植物的花，她就会给我做一些特别稀有的东西。奥拉妮·弗蕾尼斯认为可以在维威克东面的奥德-索萨废墟东边找到这种植物。 {计划,泪城}
+我已经答应去找一种叫“罗兰之泪”的金色卡内特植物。据说这种植物的一种变种与其它材料结合后会产生奇妙的力量。她说如果我给她带来五朵这种植物的花，她就会给我做一些特别稀有的东西。奥拉妮·弗雷尼斯认为可以在维威克东面的奥德-索萨废墟东边找到这种植物。 {计划,泪城}
 
 > INFO.NAME ms_gold_kanet_flower 325732042533123600
 After some searching, I found the plant she was looking for.
@@ -75813,7 +75813,7 @@ After some searching, I found the plant she was looking for.
 
 > INFO.NAME ms_gold_kanet_flower 132524742323629620
 When I returned with the plant, Aurane Frernis made me a potion of luck.
-当我带着植物回来时，奥拉妮·弗蕾尼斯为我制作了幸运药水。 {计划}
+当我带着植物回来时，奥拉妮·弗雷尼斯为我制作了幸运药水。 {计划}
 
 > INFO.NAME b8_failed_nerevarine 43851903161131700
 I have killed one of the leaders of the Ashlander tribes. Now there is no possibility that I could be accepted by the Ashlander tribes as the Nerevarine of prophecy.
@@ -75885,7 +75885,7 @@ I've met a wandering pilgrim named Nevrasa Dralor.
 
 > INFO.NAME mv_wanderingpilgrim 23717142232695026655
 Apparently, Nevrasa has been searching for a holy place near here, the Fields of Kummu. She tells me it is near a farm, and along the coast.
-显然，内维拉莎一直在寻找这附近的一个圣地 -- 库姆原野。她告诉我圣地就在一个农场附近，靠近湖畔。
+显然，内维拉莎一直在寻找这附近的一个圣地——库姆原野。她告诉我圣地就在一个农场附近，靠近湖畔。
 
 > INFO.NAME mv_wanderingpilgrim 31996106912631628160
 I have agreed to escort Nevrasa Dralor to the Fields of Kummu. It can be dangerous traveling in this area, and she doesn't look like she can take care of herself. She tells me the Fields of Kummu are somewhere along the coast, near a farm.
@@ -79921,7 +79921,7 @@ Since Eydis Fire-Eye is dead, there is little we can do to bribe her.
 
 > INFO.NAME tg_withershins 604447982280926096
 Aengoth the Jeweler asked me to bring him a copy of the book "Withershins." He thinks Miles Gloriosus in the Maar Gan Tradehouse has a copy.
-珠宝商阿恩戈斯让我给他带一本《逆时针》。他认为玛尔-甘贸易行的迈尔斯·格洛里索斯有一本。
+珠宝商阿恩戈斯让我给他带一本《逆时针》。他认为玛尔-甘贸易行的迈尔斯·格洛里欧苏斯有一本。
 
 > INFO.NAME tg_withershins 2585211742772929196
 Aengoth the Jeweler thanked me for bringing him a copy of "Withershins."
@@ -81857,7 +81857,7 @@ Minabibi gave me an ancestor's ring.
 
 > INFO.NAME fg_bigbosses 24879245252386425050
 Sjoring Hard-Heart asked me to kill the Master Thief, Gentleman Jim Stacey. He can be found in Simine Fralinie's bookstore in Vivec.
-舒灵·铁心让我去杀神偷绅士吉姆·史戴西。他可以在维威克城的西蒙尼·法兰琳涅书店找到。
+舒灵·铁心让我去杀神偷绅士吉姆·史戴西。他可以在维威克城的西米内·弗拉林涅书店找到。
 
 > INFO.NAME fg_bigbosses 108025782428019482
 I told Sjoring Hard-Heart about killing the Master Thief. When he got the news, he attacked me, saying I was a threat to his position.
@@ -84297,15 +84297,15 @@ I took Avon Oran's gold and killed the kwama queen in the Inanius egg mine anywa
 
 > INFO.NAME hh_indesp1 169271277804720997
 Nileno Dorvayn asked me to steal the alchemical formulas of Aurane Frernis whose shop is in the Market Canton in Vivec.
-尼莱诺·多维恩让我去偷奥拉妮·弗蕾尼斯的炼金配方，她的商店就在维威克城的市场区。
+尼莱诺·多维恩让我去偷奥拉妮·弗雷尼斯的炼金配方，她的商店就在维威克城的市场区。
 
 > INFO.NAME hh_indesp1 26320305233043512179
 I gave Aurane Frernis' formulas to Nileno Dorvayn.
-我把奥拉妮·弗蕾尼斯的配方交给了尼莱诺·多维恩。
+我把奥拉妮·弗雷尼斯的配方交给了尼莱诺·多维恩。
 
 > INFO.NAME hh_indesp1 2412977438442582
 I told Nileno Dorvayn that I killed Aurane Frernis.
-我告诉尼莱诺·多维恩是我杀了奥拉妮·弗蕾尼斯。
+我告诉尼莱诺·多维恩是我杀了奥拉妮·弗雷尼斯。
 
 > INFO.NAME hh_indesp4 9252143110114917
 The East Empire Company threatened to buy ebony from House Redoran unless House Hlaalu lowers prices. I must convince Canctunian Ponius at the East Empire Company in Ebonheart to buy ebony only from House Hlaalu, or I must shut down Sudanit mine.
@@ -85101,7 +85101,7 @@ While in Vivec, a man approached me and handed me a leaflet. He told me it conta
 
 > INFO.NAME eb_false 2842818786220858586
 I have spoken to Aurane Frernis, the apothecary mentioned in the leaflet I was given. She was furious about the slanderous comments it contained, and offered me a reward if I could find out who was behind the misinformation.
-我已经和药剂师奥拉妮·弗蕾尼斯谈过了，她就是传单上提到的那位。她对传单中的诽谤言论非常生气，并表示如果我能找出谁是幕后黑手，她会给我一笔奖金。 {报酬}
+我已经和药剂师奥拉妮·弗雷尼斯谈过了，她就是传单上提到的那位。她对传单中的诽谤言论非常生气，并表示如果我能找出谁是幕后黑手，她会给我一笔奖金。 {报酬}
 
 > INFO.NAME eb_false 14046257891856710303
 I spoke to Domalen, the Redguard man who was handing out the leaflets. He told me that he was hired by Galuro Belan, another apothecary in Vivec, to distribute the materials.
@@ -85113,11 +85113,11 @@ Domalen is dead. Although he told me the source of the leaflets, his crime was n
 
 > INFO.NAME eb_false 2402162313061812896
 Domalen is dead. Frernis will not have to worry about him handing out more leaflets.
-多马伦死了，弗蕾尼斯不用再担心他会继续散发传单了。
+多马伦死了，弗雷尼斯不用再担心他会继续散发传单了。
 
 > INFO.NAME eb_false 24682319482683327503
 Galuro Belan was ashamed when I approached her with the information that she was spreading lies about Aurane Frernis. She has offered me 100 drakes to keep my mouth shut about this.
-当我找到加鲁罗·贝兰，告知她散布关于奥拉妮·弗蕾尼斯的谎言时，她感到很羞愧。她给了我100龙币，让我对此守口如瓶。 {发言人}
+当我找到加鲁罗·贝兰，告知她散布关于奥拉妮·弗雷尼斯的谎言时，她感到很羞愧。她给了我100龙币，让我对此守口如瓶。 {发言人}
 
 > INFO.NAME eb_false 107195147846087
 I have agreed to keep Belan's secret. For a modest fee.
@@ -85129,7 +85129,7 @@ I've told Belan I will have no part in her lies.
 
 > INFO.NAME eb_false 7637128371177819218
 Aurane Frernis was glad to know who was responsible for the false claims that were being made about her. She rewarded me with 100 drakes.
-奥拉妮·弗蕾尼斯很高兴知道是谁在诬陷她。她奖励了我100龙币。 {报酬}
+奥拉妮·弗雷尼斯很高兴知道是谁在诬陷她。她奖励了我100龙币。 {报酬}
 
 > INFO.NAME ic_guide 129731689213005089
 An Imperial cult member gave me a copy of 'For my Gods and Emperor,' a handbook for members of the Imperial cult. It may help me decide whether I should join the Imperial cult.
@@ -86385,7 +86385,7 @@ Things are bad for man and Khajiit. The provinces war with one another, never sm
 
 > INFO.NAME unrest in cyrodiil city 165843760212649393
 Uriel Septim was never a strong Emperor. And now he's finally dying of age and illness. A coward's death. They say Ocato makes the real decisions. They say Uriel's heirs are really Daedra or shapeshifters planted by Jagar Tharn. They say the Emperor might pull back the Legions to try and protect himself. Some of the generals in the Legions have one eye on Uriel Septim and one eye on the throne. At a time like this, only the Imperial Guilds with strong allies will survive.
-尤利尔·塞普汀从来就不是什么很强大的皇帝。现在他终于要因为年老多病而死了，懦夫之死。他们说奥卡托才是真正的决策人。坊间说尤里尔的继承人们其实是迪德拉变的，或者是亚卡尔·塔恩安插的幻化人。他们说皇帝可能会撤回军团，以求自保，军团中的一些将领一只眼睛盯着尤利尔·塞普汀，一只眼睛盯着皇位。在这种时候，只有拥有强大盟友的帝国公会才能生存下去。 {决定,计划,帝国人}
+尤利尔·塞普汀从来就不是什么很强大的皇帝。现在他终于要因为年老多病而死了，懦夫之死。他们说奥卡托才是真正的决策人。坊间说尤利尔的继承人们其实是迪德拉变的，或者是亚卡尔·塔恩安插的幻化人。他们说皇帝可能会撤回军团，以求自保，军团中的一些将领一只眼睛盯着尤利尔·塞普汀，一只眼睛盯着皇位。在这种时候，只有拥有强大盟友的帝国公会才能生存下去。 {决定,计划,帝国人}
 
 > INFO.NAME unrest in cyrodiil city 231787716240629886
 Uriel Septim is sick, and wizards say his heir, Geldall Septim, and the younger Septims, Enman and Ebel, are just doppelgangers placed in the household during Jagar Tharn's tenure as Imperial Battlemage. They say the Guard charged a mob demanding destruction of the false heirs... lots of folks were killed.
@@ -88361,7 +88361,7 @@ Hm. Maybe we could use you. Why not visit the South Wall Cornerclub? Spend some 
 
 > INFO.NAME join the thieves guild 21008195143051312326
 Maybe we could use you. Talk to Gentleman Jim Stacey in Simine Fralinie's shop?
-也许我们用得着你，去西蒙尼·法兰琳涅的店里找绅士吉姆·史戴西谈谈？
+也许我们用得着你，去西米内·弗拉林涅的店里找绅士吉姆·史戴西谈谈？
 
 > INFO.NAME unique dwemer artifact 906818881835524127
 Do you know what this is? This is Wraithguard, an enchanted device created ages ago by my former master, High Craftlord Kagrenac, a long-dead Dwemer mage-smith. I believe it is one of the tools he created to forge mythopoeic enchantments. I was one of Lord Kagrenac's Master Crafters, and though I didn't work on this project, I knew of it from my fellow mage-smiths.
@@ -89461,7 +89461,7 @@ Birer Indaram is the Buoyant Armiger Deputy Marshal and head of the Buoyant Armi
 
 > INFO.NAME someone in particular 30243315452336213912
 Manse Andus is the publican of Andus Tradehouse, and Miles Gloriosus, famous questing swordsman and monster-slayer, is taking his lodgings there while he hunts the blight creatures plaguing the village. Tralas Rendas and Salen Ravel are the Tribunal priests at the Tower shrine. Alds Baro, the smith, is ranking Redoran at the Maar Gan Outpost.
-曼斯·安杜斯是安杜斯贸易行的老板，著名的探险剑士和怪物猎人迈尔斯·格洛里索斯在狩猎困扰村庄的枯萎生物时就住在这里。特拉拉斯·伦达斯和莎伦·拉维尔是塔楼圣祠的审判席祭司。铁匠阿德斯·巴罗在玛尔-甘前哨为瑞多然评级。 {枯萎之症}
+曼斯·安杜斯是安杜斯贸易行的老板，著名的探险剑士和怪物猎人迈尔斯·格洛里欧苏斯在狩猎困扰村庄的枯萎生物时就住在这里。特拉拉斯·伦达斯和莎伦·拉维尔是塔楼圣祠的审判席祭司。铁匠阿德斯·巴罗在玛尔-甘前哨为瑞多然评级。 {枯萎之症}
 
 > INFO.NAME someone in particular 14245092772722720
 Thongar the Nord runs Thongar's Tradehouse, the Redoran-style building over to the east. The rest of these shacks are fisherman's homes.
@@ -90801,15 +90801,15 @@ He's gone, %PCRank.
 
 > INFO.NAME gentleman jim stacey 9744266671311225333
 Look for him in Vivec. You'll find him in the basement of Simine Fralinie's bookstore in the Foreign Quarter.
-去维威克找他，你可以在外邦区，西蒙尼·法兰琳涅书店的地下室找到他。
+去维威克找他，你可以在外邦区，西米内·弗拉林涅书店的地下室找到他。
 
 > INFO.NAME gentleman jim stacey 54746591292393920
 Look for him in Vivec. You'll find him in the back room of Simine Fralinie's bookstore in the Foreign Quarter.
-在维威克找他，你会在外邦区西蒙尼·法兰琳涅书店的密室里找到他。
+在维威克找他，你会在外邦区西米内·弗拉林涅书店的密室里找到他。
 
 > INFO.NAME gentleman jim stacey 33981028295941780
 Look for him in Vivec. You'll find him in the basement of Simine Fralinie's bookstore in the Foreign Quarter.
-去维威克找他，你可以在外邦区，西蒙尼·法兰琳涅书店的地下室找到他。
+去维威克找他，你可以在外邦区，西米内·弗拉林涅书店的地下室找到他。
 
 > INFO.NAME gentleman jim stacey 7223195011900129208
 Look around, fool.
@@ -90829,7 +90829,7 @@ You can find him through that door.
 
 > INFO.NAME gentleman jim stacey 1137511112019518819
 Check Simine Fralinie's bookstore in the Foreign Quarter, %PCRank. You should be able to find him.
-去看看西蒙尼·法兰琳涅，在外邦区的书店，%PCRank。你应该能找到他。
+去看看西米内·弗拉林涅的书店，在外邦区的书店，%PCRank。你应该能找到他。
 
 > INFO.NAME gentleman jim stacey 1365193292598930989
 I've heard he frequents a bookseller's place in the Foreign Quarter.
@@ -91137,7 +91137,7 @@ You have already shown me the formulas.
 
 > INFO.NAME alchemical formulas 13262233511688727387
 You were not supposed to kill Aurane Frernis. While it does remove the competition, House Hlaalu will lose honor. This may even provoke the Duke or the Empire. Try and do business as I say, %PCRank. Don't speculate until you can handle yourself.
-你不应该杀死奥拉妮·弗蕾尼斯。这样做虽然能除掉竞争对手，但哈拉鲁家族会失去荣誉。这甚至会激怒公爵或帝国。照我说的去做，%PCRank。在你能处理好自己的事情之前，不要妄加猜测。 {泰姆瑞尔帝国}
+你不应该杀死奥拉妮·弗雷尼斯。这样做虽然能除掉竞争对手，但哈拉鲁家族会失去荣誉。这甚至会激怒公爵或帝国。照我说的去做，%PCRank。在你能处理好自己的事情之前，不要妄加猜测。 {泰姆瑞尔帝国}
 
 > INFO.NAME alchemical formulas 26010153641561725387
 Yes, excellent. You can keep the formulas. I will make a copy and deliver it to the loyal Hlaalu alchemists in Vivec.
@@ -91161,7 +91161,7 @@ Go back to her shop in Vivec and bring me the formulas.
 
 > INFO.NAME alchemical formulas 3215613152428731487
 Do you have the formulas from Aurane Frernis?
-你找到奥拉妮·弗蕾尼斯的配方了吗？
+你找到奥拉妮·弗雷尼斯的配方了吗？
 
 > INFO.BNAM alchemical formulas 3215613152428731487 c1
 Yes, here they are.
@@ -91173,7 +91173,7 @@ No, not yet.
 
 > INFO.NAME alchemical formulas 1959269981540221952
 Go to Vivec, to the shop of Aurane Frernis. Find some of her notes or formulas and bring them back to me. While you're there, you might want to pay a visit to Edryno Arethi.
-去维威克，去奥拉妮·弗蕾尼斯的商店。找一些她的笔记或配方，然后带回来给我。顺便去拜访一下埃德里诺·阿雷提。
+去维威克，去奥拉妮·弗雷尼斯的商店。找一些她的笔记或配方，然后带回来给我。顺便去拜访一下埃德里诺·阿雷提。
 
 > INFO.NAME plunder the dungeon 31418299991257831235
 When you live for thousands of years, you need a hobby. Something you love, always sparks your interest. I collect treasures, and invite thieves to steal them. I'm a collector, and a sportsman. I collect enchanted items and ancient artifacts. Have quite a few Dwemer pieces. And, as a sportsman, I love letting thieves try to steal my well-guarded treasures. Only a few rules. One, don't hurt the inmates. Two, don't hurt my daughters. My Warden and guards can look out for themselves.
@@ -115527,7 +115527,7 @@ There's a crusader in residence at Desele's House of Earthly Delights in Suran. 
 
 > INFO.NAME little advice 234875632110220344
 If you were to ask me for the model of a warrior, I'd have to say Miles Gloriosus. He's at the Andus Tradehouse in Maar Gan right now, on a crusade to kill off all the monsters sneaking through the Ghostfence, but he always has time to talk with an admirer.
-如果你要问我战士的典范，我不得不说迈尔斯·格洛里索斯。他现在正在玛尔-甘的安杜斯贸易行，讨伐所有偷偷穿越幽魂之墙的怪物，但他总是有时间和崇拜者聊天。 {潜行,谈}
+如果你要问我战士的典范，我不得不说迈尔斯·格洛里欧苏斯。他现在正在玛尔-甘的安杜斯贸易行，讨伐所有偷偷穿越幽魂之墙的怪物，但他总是有时间和崇拜者聊天。 {潜行,谈}
 
 > INFO.NAME little advice 291392498268423164
 If you want to talk to a smith about his trade, talk to Garothmuk gro-Muzgub. He is not a master smith, but he's well-spoken, friendly, and knows a lot about smithing in Morrowind.
@@ -119991,7 +119991,7 @@ I hear you killed the Master Thief. Great work, %PCName. Thanks for taking care 
 
 > INFO.NAME master thief 6500325681567321531
 The Master Thief and his second-in-command are in Simine Fralinie's bookstore. Get rid of Gentleman Jim Stacey, the Redguard. He's in charge. I wouldn't mind if you took out his lackey as well. Once you have crippled the Thieves Guild, I will make you the new Guildmaster and retire.
-神偷和他的副手在西蒙尼·法兰琳涅的书店里。除掉红卫人绅士吉姆·史戴西。他是负责人。我不介意你把他的走狗也干掉。一旦你打垮了盗贼公会，我就任命你为新的公会会长，然后退休。
+神偷和他的副手在西米内·弗拉林涅的书店里。除掉红卫人绅士吉姆·史戴西。他是负责人。我不介意你把他的走狗也干掉。一旦你打垮了盗贼公会，我就任命你为新的公会会长，然后退休。
 
 > INFO.NAME master thief 20614234792904519769
 First you need to advance to the rank of Champion.
@@ -126425,7 +126425,7 @@ This is the right book, %PCName. I'll give you a fair price for it. How does 100
 
 > INFO.NAME withershins 28531006396010330
 Well, keep looking. Like I said, I think Miles Gloriosus over in Maar Gan has a copy. I don't know where he keeps it, though.
-就像我说的，继续找吧。玛尔-甘的迈尔斯·格洛里索斯应该有一本，不过我不知道他把它放哪儿了。
+就像我说的，继续找吧。玛尔-甘的迈尔斯·格洛里欧苏斯应该有一本，不过我不知道他把它放哪儿了。
 
 > INFO.NAME withershins 14871243791130115580
 Did you get a copy of "Withershins?"
@@ -126441,7 +126441,7 @@ No, not yet
 
 > INFO.NAME withershins 2198391773122030806
 Another client wants us to find a copy of this book for him. It's not for sale if you know what I mean. I've heard that Miles Gloriosus over at the Andus Tradehouse in Maar Gan has a copy.
-另一个客户想让我们帮他找一本这本书。如果你明白我的意思，这本书是非卖品。我听说在玛尔-甘的安杜斯贸易行工作的迈尔斯·格洛里索斯手上有一本。
+另一个客户想让我们帮他找一本这本书。如果你明白我的意思，这本书是非卖品。我听说在玛尔-甘的安杜斯贸易行工作的迈尔斯·格洛里欧苏斯手上有一本。
 
 > INFO.NAME ilmeni dren 638432023208531058
 You can find her in Vivec. I care not for her.
@@ -154225,7 +154225,7 @@ It has important information in it. Something must be done.
 
 > INFO.NAME leaflet 694422155254333697
 I'm just going to hand these out until Belan stops paying me. I've got nothing against Frernis, but she's not paying the bills.
-在贝兰不付我钱之前，我就把这些东西发下去。我和弗蕾尼斯没什么过节，但她不付我钱。
+在贝兰不付我钱之前，我就把这些东西发下去。我和弗雷尼斯没什么过节，但她不付我钱。
 
 > INFO.NAME leaflet 11153592941811631
 Look, I don't have to tell you a thing. Get out of my way.
@@ -154241,7 +154241,7 @@ What about it?
 
 > INFO.BNAM leaflet 24238160622494210432 c1
 These are all lies. Frernis is an honest woman.
-这些都是谎言。弗蕾尼斯是个诚实的女人。
+这些都是谎言。弗雷尼斯是个诚实的女人。
 
 > INFO.BNAM leaflet 24238160622494210432 c2
 Tell me where these leaflets are from!

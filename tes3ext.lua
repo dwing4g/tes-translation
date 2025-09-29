@@ -18,6 +18,27 @@ local function warn(...)
 	io.stderr:write "\n"
 end
 
+local function lowerGBK(s)
+	if not s:find "[A-Z]" then
+		return s
+	end
+	if not s:find "[\x80-\xff]" then
+		return s:lower()
+	end
+	local t = {}
+	local i = 1
+	while i <= #s do
+		if s:byte(i) < 0x80 then
+			t[#t + 1] = s:sub(i, i):lower()
+			i = i + 1
+		else
+			t[#t + 1] = s:sub(i, i + 1)
+			i = i + 2
+		end
+	end
+	return table.concat(t)
+end
+
 local topics = {}
 local fn = #arg > 3 and arg[3] or "topics.txt"
 io.stderr:write("INFO: loading '", fn, "' ...\n")
@@ -205,7 +226,7 @@ local function extTxt(en)
 			v = t["GMST.STRV"]
 			if not v then k = nil end
 		elseif tag == "DIAL" then
-			dn = t[tag .. ".NAME"]:lower()
+			dn = lowerGBK(t[tag .. ".NAME"])
 			if topics[dn] then
 				dn = topics[dn]
 			end
@@ -325,7 +346,7 @@ for _, k in ipairs(es) do
 		end
 	end
 	local same = e == c and not noTrans[k]
---	local same = e:gsub(" +", " "):lower():gsub("%A", "") == c:gsub(" +", " "):lower():gsub("%A", "") and not noTrans[k]
+--	local same = lowerGBK(e:gsub(" +", " ")):gsub("%A", "") == lowerGBK(c:gsub(" +", " ")):gsub("%A", "") and not noTrans[k]
 	if not diff or not same then
 		f:write("> ", k, "\r\n")
 		f:write(escape(e), "\r\n")
