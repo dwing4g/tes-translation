@@ -12647,7 +12647,7 @@ End yarnarScript"
  SPEL.ENAM [53 00 00 FF 00 00 00 00 00 00 00 00 00 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "Royal_Resistance$00"
- SPEL.FNAM "王室抵抗$00"
+ SPEL.FNAM "王室抗性$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [5A 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 64 00 00 00 64 00 00 00]
  SPEL.ENAM [61 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 32 00 00 00 32 00 00 00]
@@ -12724,7 +12724,7 @@ End yarnarScript"
  SPEL.ENAM [10 00 FF FF 01 00 00 00 01 00 00 00 0A 00 00 00 14 00 00 00 1E 00 00 00]
 -SPEL
  SPEL.NAME "trap_shock_killer$00"
- SPEL.FNAM "大师级电击陷阱$00"
+ SPEL.FNAM "大师级闪电陷阱$00"
  SPEL.SPDT [00 00 00 00 05 00 00 00 00 00 00 00]
  SPEL.ENAM [0F 00 FF FF 01 00 00 00 01 00 00 00 0A 00 00 00 14 00 00 00 1E 00 00 00]
 -SPEL
@@ -12759,7 +12759,7 @@ End yarnarScript"
  SPEL.ENAM [10 00 FF FF 01 00 00 00 0A 00 00 00 00 00 00 00 32 00 00 00 C8 00 00 00]
 -SPEL [00 00 00 00 00 20 00 00]
  SPEL.NAME "prox_mine_shock$00"
- SPEL.FNAM "触发式电击地雷$00"
+ SPEL.FNAM "触发式闪电地雷$00"
  SPEL.SPDT [00 00 00 00 2E 00 00 00 04 00 00 00]
  SPEL.ENAM [0F 00 FF FF 01 00 00 00 0A 00 00 00 00 00 00 00 32 00 00 00 C8 00 00 00]
 -SPEL [00 00 00 00 00 20 00 00]
@@ -12825,7 +12825,7 @@ End yarnarScript"
  SPEL.ENAM [11 00 FF 05 00 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "shockimperfect$00"
- SPEL.FNAM "械构体电击$00"
+ SPEL.FNAM "械构体闪电$00"
  SPEL.SPDT [00 00 00 00 64 00 00 00 00 00 00 00]
  SPEL.ENAM [0F 00 FF FF 02 00 00 00 32 00 00 00 01 00 00 00 3C 00 00 00 64 00 00 00]
  SPEL.ENAM [1E 00 FF FF 02 00 00 00 32 00 00 00 05 00 00 00 32 00 00 00 32 00 00 00]
@@ -15300,7 +15300,7 @@ End yarnarScript"
  CREA.NAME "centurion_shock_baladas$00"
  CREA.MODL "r\Sphere_Centurions.NIF$00"
  CREA.CNAM "centurion_sphere$00"
- CREA.FNAM "电击百夫长$00"
+ CREA.FNAM "闪电百夫长$00"
  CREA.SCRI "baladasCenturion$00"
  CREA.NPDT [00 00 00 00 08 00 00 00 4B 00 00 00 19 00 00 00 46 00 00 00 4B 00 00 00 46 00 00 00 4B 00 00 00 0A 00 00 00 32 00 00 00 96 00 00 00 96 00 00 00 20 03 00 00 00 00 00 00 32 00 00 00 5A 00 00 00 14 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 00 00 00 00]
  CREA.FLAG [48 08 00 00]
@@ -24441,7 +24441,7 @@ End yarnarScript"
 -WEAP
  WEAP.NAME "centurion_projectile_dart_shock$00"
  WEAP.MODL "w\W_DwarvenSphereDart.NIF$00"
- WEAP.FNAM "矮人电击镖$00"
+ WEAP.FNAM "矮人闪电镖$00"
  WEAP.WPDT [CD CC 4C 3E 14 00 00 00 0B 00 C8 00 00 00 C0 3F 00 00 80 3F 64 00 14 32 14 32 14 32 01 00 00 00]
  WEAP.ITEX "w\Tx_W_DwarvenSphereDart.dds$00"
  WEAP.ENAM "dwrv_dart_area_shock$00"
@@ -27133,7 +27133,7 @@ End yarnarScript"
  INFO.PNAM "5562265143202030297$00"
  INFO.NNAM "30821222483074732663$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽疟疾治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}"
+ INFO.NAME "当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽热的治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}"
 -INFO
  INFO.INAM "25174140782343012571$00"
  INFO.PNAM "2011716451647510719$00"
@@ -29659,7 +29659,7 @@ End yarnarScript"
  INFO.PNAM "19274129591209832383$00"
  INFO.NNAM "29088146022719413342$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚侦测附魔师戒指，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病}"
+ INFO.NAME "一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚探测附魔之戒，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病,戒指}"
 -INFO
  INFO.INAM "8885276992550027196$00"
  INFO.PNAM "2735754743148812155$00"
@@ -33482,7 +33482,7 @@ End yarnarScript"
  INFO.PNAM "7369256841224413873$00"
  INFO.NNAM "2049613153176725614$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽疟疾，而泰尔-莫拉没有神殿可以让她治病。"
+ INFO.NAME "塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽热，而泰尔-莫拉没有神殿可以让她治病。"
 -INFO
  INFO.INAM "29555146671808116956$00"
  INFO.PNAM "2049613153176725614$00"
@@ -36252,7 +36252,7 @@ End yarnarScript"
  INFO.PNAM "1330188121887130999$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "杀死吉尔尼斯后，我向普查及税务局报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。"
+ INFO.NAME "杀死吉尔尼斯后，我向普查及税务局报告了我的发现。苏库修斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "DA_Sheogorath$00"
@@ -38954,7 +38954,7 @@ End yarnarScript"
  INFO.PNAM "27564327541410930750$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "先知说她在碎颅者身上检测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。"
+ INFO.NAME "先知说她在碎颅者身上探测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "IC28_Urjorad$00"
@@ -42606,13 +42606,13 @@ End yarnarScript"
  INFO.PNAM "84761413082472263$00"
  INFO.NNAM "6753265843187330376$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶生物探测药水。"
+ INFO.NAME "埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶探测生物药水。"
 -INFO
  INFO.INAM "3139587441170010072$00"
  INFO.PNAM "6753265843187330376$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我将生物探测药水交给了内明达。"
+ INFO.NAME "我将探测生物药水交给了内明达。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MG_JoinUs$00"
@@ -57056,7 +57056,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Commoner$00"
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "离泥沼蟹远点。沼泽疟疾，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。"
+ INFO.NAME "离泥沼蟹远点。沼泽热，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -64256,7 +64256,7 @@ set spellbreaker to 2
  INFO.NNAM "8460317492075730605$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "据我所知，这是面强大的盾牌，而且有着强大的魔法抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。 {魔力}"
+ INFO.NAME "据我所知，这是面强大的盾牌，而且有着强大的魔力抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。"
  INFO.SCVR "03sX0spellbreaker"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX0TR_Blade"
@@ -64268,7 +64268,7 @@ set spellbreaker to 2
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "据我所知，这是面强大的盾牌，而且有着强大的魔法抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。 {魔力}"
+ INFO.NAME "据我所知，这是面强大的盾牌，而且有着强大的魔力抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。"
  INFO.SCVR "03sX0spellbreaker"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Choice: ""出售物品。"" 1 ""保留物品。"" 2"

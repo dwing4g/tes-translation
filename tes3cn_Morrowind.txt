@@ -3605,7 +3605,7 @@
  GMST.STRV "火焰伤害"
 -GMST
  GMST.NAME "sEffectShockDamage"
- GMST.STRV "雷电伤害"
+ GMST.STRV "闪电伤害"
 -GMST
  GMST.NAME "sEffectFrostDamage"
  GMST.STRV "冰霜伤害"
@@ -3644,31 +3644,31 @@
  GMST.STRV "中毒"
 -GMST
  GMST.NAME "sEffectWeaknessToFire"
- GMST.STRV "惧火"
+ GMST.STRV "火焰虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToFrost"
- GMST.STRV "惧寒"
+ GMST.STRV "冰霜虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToShock"
- GMST.STRV "惧雷"
+ GMST.STRV "闪电虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToMagicka"
- GMST.STRV "惧魔"
+ GMST.STRV "魔力虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToCommonDisease"
- GMST.STRV "降低常见疾病抗性"
+ GMST.STRV "常见疾病虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToBlightDisease"
- GMST.STRV "降低枯萎病抗性"
+ GMST.STRV "枯萎病虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToCorprusDisease"
- GMST.STRV "降低尸化病抗性"
+ GMST.STRV "尸化病虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToPoison"
- GMST.STRV "惧毒"
+ GMST.STRV "毒素虚弱"
 -GMST
  GMST.NAME "sEffectWeaknessToNormalWeapons"
- GMST.STRV "物理虚弱"
+ GMST.STRV "常规武器虚弱"
 -GMST
  GMST.NAME "sEffectDisintegrateWeapon"
  GMST.STRV "损坏武器"
@@ -3752,13 +3752,13 @@
  GMST.STRV "奥姆希维干预"
 -GMST
  GMST.NAME "sEffectDetectAnimal"
- GMST.STRV "动物探测"
+ GMST.STRV "探测动物"
 -GMST
  GMST.NAME "sEffectDetectEnchantment"
- GMST.STRV "环境探测"
+ GMST.STRV "探测环境"
 -GMST
  GMST.NAME "sEffectDetectKey"
- GMST.STRV "侦测密钥"
+ GMST.STRV "探测钥匙"
 -GMST
  GMST.NAME "sEffectSpellAbsorption"
  GMST.STRV "法术吸收"
@@ -3830,16 +3830,16 @@
  GMST.STRV "技能吸收"
 -GMST
  GMST.NAME "sEffectResistFire"
- GMST.STRV "抗火"
+ GMST.STRV "抵抗火焰"
 -GMST
  GMST.NAME "sEffectResistFrost"
- GMST.STRV "抗寒"
+ GMST.STRV "抵抗冰霜"
 -GMST
  GMST.NAME "sEffectResistShock"
- GMST.STRV "抗雷"
+ GMST.STRV "抵抗闪电"
 -GMST
  GMST.NAME "sEffectResistMagicka"
- GMST.STRV "抗魔"
+ GMST.STRV "抵抗魔力"
 -GMST
  GMST.NAME "sEffectResistCommonDisease"
  GMST.STRV "常见疾病抗性"
@@ -7809,7 +7809,7 @@
  MGEF.BVFX "VFX_DestructBolt$00"
  MGEF.HVFX "VFX_DestructHit$00"
  MGEF.AVFX "VFX_Drain$00"
- MGEF.DESC "该效果会暂时降低目标的魔力值。任何衍生属性都会重新计算。当法术结束时，魔力值会恢复到初始值。效果强度决定了持续时间内每秒减少的魔法值单位。"
+ MGEF.DESC "该效果会暂时降低目标的魔力值。任何衍生属性都会重新计算。当法术结束时，魔力值会恢复到初始值。效果强度决定了持续时间内每秒减少的魔力值单位。"
 -MGEF
  MGEF.INDX [14 00 00 00]
  MGEF.MEDT [02 00 00 00 00 00 00 40 00 06 00 00 EE 00 00 00 CE 00 00 00 B7 00 00 00 00 00 80 3F 00 00 80 3F 00 00 48 42]
@@ -7859,7 +7859,7 @@
  MGEF.BVFX "VFX_DestructBolt$00"
  MGEF.HVFX "VFX_DestructHit$00"
  MGEF.AVFX "VFX_DestructArea$00"
- MGEF.DESC "该效果会降低目标的魔法值。任何衍生属性都会重新计算。魔力值不会在法术持续时间结束时恢复到初始值；它会正常恢复，也可以用恢复魔力值的法术或药水恢复。效果强度决定了持续时间内每秒损失的魔法值单位。"
+ MGEF.DESC "该效果会降低目标的魔力值。任何衍生属性都会重新计算。魔力值不会在法术持续时间结束时恢复到初始值；它会正常恢复，也可以用恢复魔力值的法术或药水恢复。效果强度决定了持续时间内每秒损失的魔力值单位。"
 -MGEF
  MGEF.INDX [19 00 00 00]
  MGEF.MEDT [02 00 00 00 00 00 80 40 00 06 00 00 C6 00 00 00 41 00 00 00 39 00 00 00 00 00 80 3F 00 00 80 3F 00 00 48 42]
@@ -8277,7 +8277,7 @@
  MGEF.BVFX "VFX_MysticismBolt$00"
  MGEF.HVFX "VFX_MysticismHit$00"
  MGEF.AVFX "VFX_MysticismArea$00"
- MGEF.DESC "该效果的施法者可以侦测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有角色和所有类别的怪物（生物、类人、元素、迪德拉、亡灵、文物、植物、吸血鬼）。该效果的大小为动物被探测到的距离施法者的范围（以尺为单位）。"
+ MGEF.DESC "该效果的施法者可以探测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有角色和所有类别的怪物（生物、类人、元素、迪德拉、亡灵、文物、植物、吸血鬼）。该效果的大小为动物被探测到的距离施法者的范围（以尺为单位）。"
 -MGEF
  MGEF.INDX [41 00 00 00]
  MGEF.MEDT [04 00 00 00 00 00 80 3F 00 06 00 00 F1 00 00 00 E4 00 00 00 EF 00 00 00 00 00 80 3F 00 00 80 3F 00 00 48 42]
@@ -8287,7 +8287,7 @@
  MGEF.BVFX "VFX_MysticismBolt$00"
  MGEF.HVFX "VFX_MysticismHit$00"
  MGEF.AVFX "VFX_MysticismArea$00"
- MGEF.DESC "该效果的施法者可以检测附魔物品，它们会以符号的形式出现在地图上。该效果的范围是施法者检测到附魔物品的距离（以尺为单位）。"
+ MGEF.DESC "该效果的施法者可以探测附魔物品，它们会以符号的形式出现在地图上。该效果的范围是施法者探测到附魔物品的距离（以尺为单位）。"
 -MGEF
  MGEF.INDX [42 00 00 00]
  MGEF.MEDT [04 00 00 00 00 00 80 3F 00 06 00 00 F1 00 00 00 E4 00 00 00 EF 00 00 00 00 00 80 3F 00 00 80 3F 00 00 48 42]
@@ -8297,7 +8297,7 @@
  MGEF.BVFX "VFX_MysticismBolt$00"
  MGEF.HVFX "VFX_MysticismHit$00"
  MGEF.AVFX "VFX_MysticismArea$00"
- MGEF.DESC "该效果的施法者可以侦测钥匙；钥匙的位置会以符号的形式显示在地图上。该效果的范围是以尺为单位，从施法者身边检测到钥匙的范围。"
+ MGEF.DESC "该效果的施法者可以探测钥匙；钥匙的位置会以符号的形式显示在地图上。该效果的范围是以尺为单位，从施法者身边探测到钥匙的范围。"
 -MGEF
  MGEF.INDX [43 00 00 00]
  MGEF.MEDT [04 00 00 00 00 00 20 41 00 06 00 00 FF 00 00 00 F9 00 00 00 FF 00 00 00 00 00 80 3F 00 00 80 3F 00 00 48 42]
@@ -8397,7 +8397,7 @@
  MGEF.BVFX "VFX_RestoreBolt$00"
  MGEF.HVFX "VFX_RestorationHit$00"
  MGEF.AVFX "VFX_RestorationArea$00"
- MGEF.DESC "如果目标的魔力值因魔法攻击而减少，该效果可以将魔力值恢复到初始值。恢复量为持续时间内每秒恢复的魔法值单位。"
+ MGEF.DESC "如果目标的魔力值因魔法攻击而减少，该效果可以将魔力值恢复到初始值。恢复量为持续时间内每秒恢复的魔力值单位。"
 -MGEF
  MGEF.INDX [4D 00 00 00]
  MGEF.MEDT [05 00 00 00 00 00 80 3F 00 06 00 00 D5 00 00 00 EA 00 00 00 F9 00 00 00 00 00 80 3F 00 00 80 3F 00 00 48 42]
@@ -8477,7 +8477,7 @@
  MGEF.BVFX "VFX_RestoreBolt$00"
  MGEF.HVFX "VFX_RestorationHit$00"
  MGEF.AVFX "VFX_RestorationArea$00"
- MGEF.DESC "该效果可暂时修改用于计算角色魔法值的乘数。数值乘以角色的智力来计算魔力值。标准乘数为0.5（智力*0.5）。幅度为2时，产生的魔力值等于角色的智力*2。"
+ MGEF.DESC "该效果可暂时修改用于计算角色魔力值的乘数。数值乘以角色的智力来计算魔力值。标准乘数为0.5（智力*0.5）。幅度为2时，产生的魔力值等于角色的智力*2。"
 -MGEF
  MGEF.INDX [55 00 00 00]
  MGEF.MEDT [04 00 00 00 00 00 00 40 00 06 00 00 FF 00 00 00 DF 00 00 00 FF 00 00 00 00 00 80 3F 00 00 80 3F 00 00 48 42]
@@ -36948,7 +36948,7 @@ end"
  SPEL.ENAM [5E 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 4B 00 00 00 4B 00 00 00]
 -SPEL
  SPEL.NAME "resist magicka_50$00"
- SPEL.FNAM "抵抗魔法$00"
+ SPEL.FNAM "抵抗魔力$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [5D 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
@@ -36973,22 +36973,22 @@ end"
  SPEL.ENAM [5C 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "weakness fire_50$00"
- SPEL.FNAM "惧火$00"
+ SPEL.FNAM "火焰虚弱$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [1C 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "weakness magicka_50$00"
- SPEL.FNAM "惧魔$00"
+ SPEL.FNAM "魔力虚弱$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [1F 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "weakness frost_25$00"
- SPEL.FNAM "惧寒$00"
+ SPEL.FNAM "冰霜虚弱$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [1D 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 19 00 00 00 19 00 00 00]
 -SPEL
  SPEL.NAME "weakness shock_25$00"
- SPEL.FNAM "惧电$00"
+ SPEL.FNAM "闪电虚弱$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [1E 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 19 00 00 00 19 00 00 00]
 -SPEL
@@ -37677,7 +37677,7 @@ end"
  SPEL.ENAM [16 00 FF 04 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "curse spell points$00"
- SPEL.FNAM "诅咒魔力$00"
+ SPEL.FNAM "诅咒法术点$00"
  SPEL.SPDT [00 00 00 00 06 00 00 00 01 00 00 00]
  SPEL.ENAM [18 00 FF FF 01 00 00 00 00 00 00 00 05 00 00 00 02 00 00 00 04 00 00 00]
 -SPEL
@@ -37687,7 +37687,7 @@ end"
  SPEL.ENAM [18 00 FF FF 02 00 00 00 00 00 00 00 0A 00 00 00 02 00 00 00 04 00 00 00]
 -SPEL
  SPEL.NAME "dread curse: spell points$00"
- SPEL.FNAM "骇人诅咒：魔力$00"
+ SPEL.FNAM "骇人诅咒：法术点$00"
  SPEL.SPDT [00 00 00 00 03 00 00 00 01 00 00 00]
  SPEL.ENAM [18 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 05 00 00 00 0C 00 00 00]
 -SPEL
@@ -37697,7 +37697,7 @@ end"
  SPEL.ENAM [18 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "ash curse: spell points$00"
- SPEL.FNAM "灰烬诅咒：魔力$00"
+ SPEL.FNAM "灰烬诅咒：法术点$00"
  SPEL.SPDT [00 00 00 00 83 00 00 00 01 00 00 00]
  SPEL.ENAM [18 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 0A 00 00 00 14 00 00 00]
  SPEL.ENAM [84 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00]
@@ -38219,7 +38219,7 @@ end"
  SPEL.ENAM [13 00 FF FF 02 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "magicka leech$00"
- SPEL.FNAM "魔力吸取$00"
+ SPEL.FNAM "魔力蛭吸$00"
  SPEL.SPDT [00 00 00 00 7E 00 00 00 01 00 00 00]
  SPEL.ENAM [13 00 FF FF 01 00 00 00 00 00 00 00 3C 00 00 00 06 00 00 00 0F 00 00 00]
 -SPEL
@@ -38234,7 +38234,7 @@ end"
  SPEL.ENAM [13 00 FF FF 02 00 00 00 00 00 00 00 03 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "strength leech$00"
- SPEL.FNAM "力量吸取$00"
+ SPEL.FNAM "力量蛭吸$00"
  SPEL.SPDT [00 00 00 00 1E 00 00 00 01 00 00 00]
  SPEL.ENAM [11 00 FF 00 01 00 00 00 00 00 00 00 1E 00 00 00 14 00 00 00 14 00 00 00]
 -SPEL
@@ -38434,67 +38434,67 @@ end"
  SPEL.ENAM [0F 00 FF FF 02 00 00 00 05 00 00 00 01 00 00 00 02 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "weakness to blight disease$00"
- SPEL.FNAM "降低枯萎病抗性$00"
+ SPEL.FNAM "枯萎病虚弱$00"
  SPEL.SPDT [00 00 00 00 15 00 00 00 01 00 00 00]
  SPEL.ENAM [21 00 FF FF 01 00 00 00 00 00 00 00 0A 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "weakness to corpus disease$00"
- SPEL.FNAM "降低尸化病抗性$00"
+ SPEL.FNAM "尸化病虚弱$00"
  SPEL.SPDT [00 00 00 00 15 00 00 00 01 00 00 00]
  SPEL.ENAM [22 00 FF FF 01 00 00 00 00 00 00 00 0A 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "weakness to common disease$00"
- SPEL.FNAM "降低常见疾病抗性$00"
+ SPEL.FNAM "常见疾病虚弱$00"
  SPEL.SPDT [00 00 00 00 10 00 00 00 01 00 00 00]
  SPEL.ENAM [20 00 FF FF 02 00 00 00 00 00 00 00 0A 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "dire weakness to fire$00"
- SPEL.FNAM "究极惧火$00"
+ SPEL.FNAM "究极火焰虚弱$00"
  SPEL.SPDT [00 00 00 00 2F 00 00 00 01 00 00 00]
  SPEL.ENAM [1C 00 FF FF 02 00 00 00 00 00 00 00 0A 00 00 00 02 00 00 00 3C 00 00 00]
 -SPEL
  SPEL.NAME "weakness to fire$00"
- SPEL.FNAM "惧火$00"
+ SPEL.FNAM "火焰虚弱$00"
  SPEL.SPDT [00 00 00 00 08 00 00 00 01 00 00 00]
  SPEL.ENAM [1C 00 FF FF 02 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "dire weakness to frost$00"
- SPEL.FNAM "究极惧寒$00"
+ SPEL.FNAM "究极冰霜虚弱$00"
  SPEL.SPDT [00 00 00 00 2F 00 00 00 01 00 00 00]
  SPEL.ENAM [1D 00 FF FF 02 00 00 00 00 00 00 00 0A 00 00 00 02 00 00 00 3C 00 00 00]
 -SPEL
  SPEL.NAME "weakness to frost$00"
- SPEL.FNAM "惧寒$00"
+ SPEL.FNAM "冰霜虚弱$00"
  SPEL.SPDT [00 00 00 00 08 00 00 00 01 00 00 00]
  SPEL.ENAM [1D 00 FF FF 02 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "dire weakness to magicka$00"
- SPEL.FNAM "究极惧魔$00"
+ SPEL.FNAM "究极魔力虚弱$00"
  SPEL.SPDT [00 00 00 00 2F 00 00 00 01 00 00 00]
  SPEL.ENAM [1F 00 FF FF 02 00 00 00 00 00 00 00 0A 00 00 00 02 00 00 00 3C 00 00 00]
 -SPEL
  SPEL.NAME "weakness to magicka$00"
- SPEL.FNAM "惧魔$00"
+ SPEL.FNAM "魔力虚弱$00"
  SPEL.SPDT [00 00 00 00 08 00 00 00 01 00 00 00]
  SPEL.ENAM [1F 00 FF FF 02 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "dire weakness to poison$00"
- SPEL.FNAM "究极惧毒$00"
+ SPEL.FNAM "究极毒素虚弱$00"
  SPEL.SPDT [00 00 00 00 2F 00 00 00 01 00 00 00]
  SPEL.ENAM [23 00 FF FF 02 00 00 00 00 00 00 00 0A 00 00 00 02 00 00 00 3C 00 00 00]
 -SPEL
  SPEL.NAME "weakness to poison$00"
- SPEL.FNAM "惧毒$00"
+ SPEL.FNAM "毒素虚弱$00"
  SPEL.SPDT [00 00 00 00 08 00 00 00 01 00 00 00]
  SPEL.ENAM [23 00 FF FF 02 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "dire weakness to shock$00"
- SPEL.FNAM "究极惧电$00"
+ SPEL.FNAM "究极闪电虚弱$00"
  SPEL.SPDT [00 00 00 00 2F 00 00 00 01 00 00 00]
  SPEL.ENAM [1E 00 FF FF 02 00 00 00 00 00 00 00 0A 00 00 00 02 00 00 00 3C 00 00 00]
 -SPEL
  SPEL.NAME "weakness to shock$00"
- SPEL.FNAM "惧电$00"
+ SPEL.FNAM "闪电虚弱$00"
  SPEL.SPDT [00 00 00 00 08 00 00 00 01 00 00 00]
  SPEL.ENAM [1E 00 FF FF 02 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
@@ -38771,7 +38771,7 @@ end"
  SPEL.ENAM [3F 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00]
 -SPEL
  SPEL.NAME "detect enchantment$00"
- SPEL.FNAM "附魔侦测$00"
+ SPEL.FNAM "探测附魔$00"
  SPEL.SPDT [00 00 00 00 05 00 00 00 01 00 00 00]
  SPEL.ENAM [41 00 FF FF 00 00 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
@@ -38916,7 +38916,7 @@ end"
  SPEL.ENAM [58 00 FF FF 02 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "energy leech$00"
- SPEL.FNAM "能量吸取$00"
+ SPEL.FNAM "能量蛭吸$00"
  SPEL.SPDT [00 00 00 00 4B 00 00 00 01 00 00 00]
  SPEL.ENAM [58 00 FF FF 01 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
@@ -40225,7 +40225,7 @@ end"
  SPEL.ENAM [5B 00 FF FF 00 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "great resist magicka$00"
- SPEL.FNAM "极致抵抗魔法$00"
+ SPEL.FNAM "极致抵抗魔力$00"
  SPEL.SPDT [00 00 00 00 1E 00 00 00 01 00 00 00]
  SPEL.ENAM [5D 00 FF FF 00 00 00 00 00 00 00 00 0A 00 00 00 1E 00 00 00 1E 00 00 00]
 -SPEL
@@ -40235,17 +40235,17 @@ end"
  SPEL.ENAM [5C 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 14 00 00 00 28 00 00 00]
 -SPEL
  SPEL.NAME "strong resist magicka$00"
- SPEL.FNAM "强力抵抗魔法$00"
+ SPEL.FNAM "强力抵抗魔力$00"
  SPEL.SPDT [00 00 00 00 14 00 00 00 01 00 00 00]
  SPEL.ENAM [5D 00 FF FF 00 00 00 00 00 00 00 00 0A 00 00 00 14 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "variable resist magicka$00"
- SPEL.FNAM "无定抵抗魔法$00"
+ SPEL.FNAM "无定抵抗魔力$00"
  SPEL.SPDT [00 00 00 00 10 00 00 00 01 00 00 00]
  SPEL.ENAM [5D 00 FF FF 00 00 00 00 00 00 00 00 0A 00 00 00 01 00 00 00 1E 00 00 00]
 -SPEL
  SPEL.NAME "resist magicka$00"
- SPEL.FNAM "抵抗魔法$00"
+ SPEL.FNAM "抵抗魔力$00"
  SPEL.SPDT [00 00 00 00 05 00 00 00 01 00 00 00]
  SPEL.ENAM [5D 00 FF FF 00 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
@@ -40605,7 +40605,7 @@ end"
  SPEL.ENAM [11 00 FF 04 00 00 00 00 00 00 00 00 01 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "swamp fever$00"
- SPEL.FNAM "沼泽疟疾$00"
+ SPEL.FNAM "沼泽热$00"
  SPEL.SPDT [03 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [11 00 FF 00 00 00 00 00 00 00 00 00 01 00 00 00 0A 00 00 00 14 00 00 00]
  SPEL.ENAM [11 00 FF 05 00 00 00 00 00 00 00 00 01 00 00 00 0A 00 00 00 14 00 00 00]
@@ -41128,7 +41128,7 @@ end"
  SPEL.ENAM [19 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 C8 00 00 00 C8 00 00 00]
 -SPEL
  SPEL.NAME "resist magicka_25$00"
- SPEL.FNAM "抵抗魔法$00"
+ SPEL.FNAM "抵抗魔力$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [5D 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 19 00 00 00 19 00 00 00]
 -SPEL
@@ -41394,7 +41394,7 @@ end"
  SPEL.ENAM [45 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00]
 -SPEL
  SPEL.NAME "immune to normal weapons$00"
- SPEL.FNAM "物理免疫$00"
+ SPEL.FNAM "常规武器免疫$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [62 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 64 00 00 00 64 00 00 00]
 -SPEL
@@ -41431,7 +41431,7 @@ end"
  SPEL.ENAM [28 00 FF FF 00 00 00 00 00 00 00 00 0A 00 00 00 3C 00 00 00 3C 00 00 00]
 -SPEL
  SPEL.NAME "weakness frost_60$00"
- SPEL.FNAM "惧寒$00"
+ SPEL.FNAM "冰霜虚弱$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [1D 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 3C 00 00 00 3C 00 00 00]
 -SPEL
@@ -41476,7 +41476,7 @@ end"
  SPEL.ENAM [4A 00 FF 07 00 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "detect_creature$00"
- SPEL.FNAM "生物探测术$00"
+ SPEL.FNAM "探测生物$00"
  SPEL.SPDT [00 00 00 00 13 00 00 00 03 00 00 00]
  SPEL.ENAM [40 00 FF FF 00 00 00 00 00 00 00 00 05 00 00 00 32 00 00 00 96 00 00 00]
 -SPEL
@@ -41779,7 +41779,7 @@ end"
  SPEL.ENAM [1B 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 1E 00 00 00]
 -SPEL
  SPEL.NAME "shock$00"
- SPEL.FNAM "电火花$00"
+ SPEL.FNAM "闪电$00"
  SPEL.SPDT [00 00 00 00 03 00 00 00 01 00 00 00]
  SPEL.ENAM [0F 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 0F 00 00 00]
 -SPEL
@@ -41853,7 +41853,7 @@ end"
  SPEL.ENAM [02 00 FF FF 00 00 00 00 00 00 00 00 78 00 00 00 01 00 00 00 01 00 00 00]
 -SPEL
  SPEL.NAME "weakness to corprus disease$00"
- SPEL.FNAM "降低尸化病抗性$00"
+ SPEL.FNAM "尸化病虚弱$00"
  SPEL.SPDT [00 00 00 00 15 00 00 00 01 00 00 00]
  SPEL.ENAM [22 00 FF FF 01 00 00 00 00 00 00 00 0A 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
@@ -41883,7 +41883,7 @@ end"
  SPEL.ENAM [60 00 FF FF 00 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "weakness poison_50$00"
- SPEL.FNAM "惧毒$00"
+ SPEL.FNAM "毒素虚弱$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [23 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
@@ -41918,7 +41918,7 @@ end"
  SPEL.ENAM [05 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "dagoth_ur_shield_04$00"
- SPEL.FNAM "达格斯·乌尔魔法$00"
+ SPEL.FNAM "达格斯·乌尔魔力$00"
  SPEL.SPDT [01 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
@@ -50015,11 +50015,11 @@ end"
 <BR>
 英佐莉亚：当然不是，我也不会那样对你。只是做个智力测试。<BR>
 <BR>
-马瓦西安：好，如果单纯是一个智力测试的话，我对你施一个汲取生命的魔法，这样可以夺走你的生命来治疗我自己。毕竟，在这到希尔维纳的路上有不少强盗，一个重伤的法师拿着贵重物品会成为及其诱人的猎物。我可不希望活着逃出了艾尔登树林，却死在野外。<BR>
+马瓦西安：好，如果单纯是一个智力测试的话，我对你施一个蛭吸生命的魔法，这样可以夺走你的生命来治疗我自己。毕竟，在这到希尔维纳的路上有不少强盗，一个重伤的法师拿着贵重物品会成为及其诱人的猎物。我可不希望活着逃出了艾尔登树林，却死在野外。<BR>
 <BR>
 英佐莉亚：这是一个很合理的应答。只有我自己，再说一遍，我不是说自己想这么做，但我想一个小而突然的闪电魔法可以很好的达到我的目的。我知道强盗的危险，但别忘了我们还有一瓶治疗药剂呢。我可以轻松地杀了你，然后使自己痊愈。<BR>
 <BR>
-马瓦西安：非常可行。那问题就是看谁的魔法在那一瞬间更有效了。如果我们的魔法互相抵消，我夺走了你的生命，却又被你的闪电魔法打成重伤，我们两个可能都会死掉。或者如此接近死亡，以至于一瓶治疗药剂无法帮助我们中的任何一个，更别说两个了。如果两个狡诈战斗法师 -- 我不是在说我们狡诈，只是为了这个智力测试 -- 被留在死亡的边缘，完全用尽了魔力，又只有一瓶药剂，那将多么具有讽刺意味。谁会得到财宝呢？<BR>
+马瓦西安：非常可行。那问题就是看谁的魔法在那一瞬间更有效了。如果我们的魔法互相抵消，我蛭吸了你的生命，却又被你的闪电魔法打成重伤，我们两个可能都会死掉。或者如此接近死亡，以至于一瓶治疗药剂无法帮助我们中的任何一个，更别说两个了。如果两个狡诈战斗法师 -- 我不是在说我们狡诈，只是为了这个智力测试 -- 被留在死亡的边缘，完全用尽了魔力，又只有一瓶药剂，那将多么具有讽刺意味。谁会得到财宝呢？<BR>
 <BR>
 英佐莉亚：从逻辑上讲，是先喝到药剂的人 -- 在这种情况下应该是你，因为你拿到它了。那么如果我们两个人都受伤了，但没有被杀死了呢？<BR>
 <BR>
@@ -112215,7 +112215,7 @@ C的意思是异梅(Comberry)。<BR>
 甘西勒<p>"
 -NPC_
  NPC_.NAME "chargen class$00"
- NPC_.FNAM "苏库基乌斯·埃尔加拉$00"
+ NPC_.FNAM "苏库修斯·埃尔加拉$00"
  NPC_.RNAM "Breton$00"
  NPC_.CNAM "Agent$00"
  NPC_.ANAM "Census and Excise$00"
@@ -114594,7 +114594,7 @@ BJTXCDBDSIBBVZFDQSBBBJBJUFBBIDBJEBXMABRBBBEBEBIJDHCJEBEBHJ
  CREA.NAME "centurion_shock_baladas$00"
  CREA.MODL "r\Sphere_Centurions.NIF$00"
  CREA.CNAM "centurion_sphere$00"
- CREA.FNAM "电击百夫长$00"
+ CREA.FNAM "闪电百夫长$00"
  CREA.SCRI "baladasCenturion$00"
  CREA.NPDT [00 00 00 00 08 00 00 00 4B 00 00 00 19 00 00 00 46 00 00 00 4B 00 00 00 46 00 00 00 4B 00 00 00 0A 00 00 00 32 00 00 00 96 00 00 00 96 00 00 00 20 03 00 00 00 00 00 00 32 00 00 00 5A 00 00 00 14 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 00 00 00 00]
  CREA.FLAG [48 08 00 00]
@@ -125367,7 +125367,7 @@ ps ：如果我不在我躲的地方，请到另一个地方看看。<BR>"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF C8 00 00 00 F5 8C 28 00 41 00 00 00]
 -NPC_
  NPC_.NAME "bethes sarothril$00"
- NPC_.FNAM "贝西斯·萨罗瑟利$00"
+ NPC_.FNAM "贝西斯·萨罗西尔$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Witchhunter$00"
  NPC_.ANAM "Temple$00"
@@ -125400,7 +125400,7 @@ ps ：如果我不在我躲的地方，请到另一个地方看看。<BR>"
  NPC_.AI_T [00 5F BB 47 80 8D 20 48 00 E0 B2 44 01 01 00 00]
 -NPC_
  NPC_.NAME "drores arvel$00"
- NPC_.FNAM "德雷斯·阿维尔$00"
+ NPC_.FNAM "德洛雷斯·阿维尔$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Witchhunter$00"
  NPC_.ANAM "Temple$00"
@@ -125913,7 +125913,7 @@ ps ：如果我不在我躲的地方，请到另一个地方看看。<BR>"
  ALCH.NAME "p_detect_creatures_s$00"
  ALCH.MODL "m\Misc_Potion_Fresh_01.nif$00"
  ALCH.TEXT "m\Tx_potion_fresh_01.tga$00"
- ALCH.FNAM "生物探测药水$00"
+ ALCH.FNAM "探测生物药水$00"
  ALCH.ALDT [00 00 80 3F 23 00 00 00 00 00 00 00]
  ALCH.ENAM [40 00 FF FF 00 00 00 00 00 00 00 00 0F 00 00 00 0A 00 00 00 0A 00 00 00]
 -ALCH
@@ -126319,7 +126319,7 @@ ps ：如果我不在我躲的地方，请到另一个地方看看。<BR>"
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 0A 00 00 00 00 01]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "saryn sarothril$00"
- NPC_.FNAM "萨琳·萨罗瑟利$00"
+ NPC_.FNAM "萨琳·萨罗西尔$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Master-at-Arms$00"
  NPC_.ANAM "Redoran$00"
@@ -153186,7 +153186,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -BOOK
  BOOK.NAME "sc_redweakness$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "赤红疲弱卷轴$00"
+ BOOK.FNAM "赤红虚弱卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 70 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">WOE UPON YOU</FONT><BR>
@@ -153381,7 +153381,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_blackweakness$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "漆黑疲弱卷轴$00"
+ BOOK.FNAM "漆黑虚弱卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 86 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">DOWN WITH DUNMER OPPRESSION</FONT><BR>
@@ -153520,7 +153520,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_greyweakness$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "铅灰疲弱卷轴$00"
+ BOOK.FNAM "铅灰虚弱卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 70 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">WOE UPON YOU</FONT><BR>
@@ -175251,7 +175251,7 @@ D.文物 - +35%<p>"
 -CLOT
  CLOT.NAME "Detect_Enchantment_ring$00"
  CLOT.MODL "c\C_Ring_expensive_3.NIF$00"
- CLOT.FNAM "附魔侦测之戒$00"
+ CLOT.FNAM "探测附魔之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 1E 00 96 00]
  CLOT.ITEX "c\tx_ring_expensive03.tga$00"
  CLOT.ENAM "detect enchantment_en$00"
@@ -181188,7 +181188,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "30821222483074732663$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽疟疾治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}"
+ INFO.NAME "当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽热的治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}"
 -INFO
  INFO.INAM "30821222483074732663$00"
  INFO.PNAM "1548825034111724309$00"
@@ -183888,13 +183888,13 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "29088146022719413342$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚侦测附魔师戒指，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病}"
+ INFO.NAME "一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚探测附魔之戒，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病,戒指}"
 -INFO
  INFO.INAM "29088146022719413342$00"
  INFO.PNAM "2535447501761520275$00"
  INFO.NNAM "2735754743148812155$00"
  INFO.DATA [04 00 00 00 02 00 00 00 FF FF FF 00]
- INFO.NAME "凯说我们的神谕者拉拉蒂亚·瓦里安在梦中见过银制羞辱法杖。她说银杖就在燃烧岩石之地，恐惧之山的阴影之下。凯说坎德山的一个古老名字就是恐惧山。神谕认为，法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。我有一枚侦测附魔戒指，可以帮助找到法杖。 {魔法疾病}"
+ INFO.NAME "凯说我们的神谕者拉拉蒂亚·瓦里安在梦中见过银制羞辱法杖。她说银杖就在燃烧岩石之地，恐惧之山的阴影之下。凯说坎德山的一个古老名字就是恐惧山。神谕认为，法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。我有一枚探测附魔之戒，可以帮助找到法杖。 {魔法疾病,戒指}"
 -INFO
  INFO.INAM "2735754743148812155$00"
  INFO.PNAM "29088146022719413342$00"
@@ -187746,7 +187746,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "2049613153176725614$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽疟疾，而泰尔-莫拉没有神殿可以让她治病。"
+ INFO.NAME "塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽热，而泰尔-莫拉没有神殿可以让她治病。"
 -INFO
  INFO.INAM "2049613153176725614$00"
  INFO.PNAM "24169263062726817438$00"
@@ -191007,7 +191007,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "16691114961401313454$00"
  INFO.NNAM "34242188296011546$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "我和赛达尼恩的苏库修斯·埃尔加拉谈过普罗塞苏斯·维特留斯。索库修斯想知道我是否在尸体上找到了他收的税金。"
+ INFO.NAME "我和赛达尼恩的苏库修斯·埃尔加拉谈过普罗塞苏斯·维特留斯。苏库修斯想知道我是否在尸体上找到了他收的税金。"
 -INFO
  INFO.INAM "34242188296011546$00"
  INFO.PNAM "2939531992100946429$00"
@@ -191037,7 +191037,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "9081232661824011654$00"
  INFO.NNAM "26685299282317122055$00"
  INFO.DATA [04 00 00 00 30 00 00 00 FF FF FF 00]
- INFO.NAME "他似乎对我的诚实印象深刻，但对为什么有人会谋杀普罗普特斯却不拿走他的钱感到困惑。如果我能查出是谁干的，并处死凶手，索库西斯答应付我500金币。"
+ INFO.NAME "他似乎对我的诚实印象深刻，但对为什么有人会谋杀普罗普特斯却不拿走他的钱感到困惑。如果我能查出是谁干的，并处死凶手，苏库修斯答应付我500金币。"
 -INFO
  INFO.INAM "26685299282317122055$00"
  INFO.PNAM "2363849332656219826$00"
@@ -191079,7 +191079,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "1330188121887130999$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "杀死吉尔尼斯后，我向普查及税务局报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。"
+ INFO.NAME "杀死吉尔尼斯后，我向普查及税务局报告了我的发现。苏库修斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。"
 -DIAL
  DIAL.NAME "DA_Sheogorath$00"
  DIAL.DATA [04]
@@ -191628,7 +191628,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "苏拉妮·利奥里亚娜建议我去卡尔德拉总督大厅找拉罗斯·乌万，学习检测附魔的咒语。它可以显示附魔的物品在哪里，既可以显示在敌人身上，也可以显示在隐藏的地方。 {苏兰,魔法疾病}"
+ INFO.NAME "苏拉妮·利奥里亚娜建议我去卡尔德拉总督大厅找拉罗斯·乌万，学习探测附魔的咒语。它可以显示附魔的物品在哪里，既可以显示在敌人身上，也可以显示在隐藏的地方。 {苏兰,魔法疾病}"
 -DIAL
  DIAL.NAME "blades_Gildan$00"
  DIAL.DATA [04]
@@ -194082,7 +194082,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "27564327541410930750$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "先知说她在碎颅者身上检测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。"
+ INFO.NAME "先知说她在碎颅者身上探测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。"
 -DIAL
  DIAL.NAME "IC28_Urjorad$00"
  DIAL.DATA [04]
@@ -196620,19 +196620,19 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "6753265843187330376$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶生物探测药水。"
+ INFO.NAME "埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶探测生物药水。"
 -INFO
  INFO.INAM "6753265843187330376$00"
  INFO.PNAM "790323952752226336$00"
  INFO.NNAM "3139587441170010072$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "树荫给了我一个生物探测药水。"
+ INFO.NAME "树荫给了我一个探测生物药水。"
 -INFO
  INFO.INAM "3139587441170010072$00"
  INFO.PNAM "6753265843187330376$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我将生物探测药水交给了内明达。"
+ INFO.NAME "我将探测生物药水交给了内明达。"
 -DIAL
  DIAL.NAME "MG_JoinUs$00"
  DIAL.DATA [04]
@@ -200177,7 +200177,7 @@ Goodbye"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -DIAL
- DIAL.NAME "生物探测药水$00"
+ DIAL.NAME "探测生物药水$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "397128577193745298$00"
@@ -200257,7 +200257,7 @@ ModDisposition 10"
  INFO.NNAM "2637322085948726229$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "edwinna elbert$00"
- INFO.NAME "你不像一个合格的%PCRank，你说话不算数。在你把生物探测药水交给我之前，我当然不会再给你任何你职务对应的任务。"
+ INFO.NAME "你不像一个合格的%PCRank，你说话不算数。在你把探测生物药水交给我之前，我当然不会再给你任何你职务对应的任务。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "ModDisposition -10"
@@ -200267,7 +200267,7 @@ ModDisposition 10"
  INFO.NNAM "18248327143241612193$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edwinna elbert$00"
- INFO.NAME "你不像一个合格的%PCRank，你说话不算数。在你把生物探测药水交给我之前，我当然不会再给你任何你职务对应的任务。"
+ INFO.NAME "你不像一个合格的%PCRank，你说话不算数。在你把探测生物药水交给我之前，我当然不会再给你任何你职务对应的任务。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
 -INFO
@@ -200277,7 +200277,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "edwinna elbert$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "啊，你终于给我带来了生物探测药水。现在就把药水给我好吗？"
+ INFO.NAME "啊，你终于给我带来了探测生物药水。现在就把药水给我好吗？"
  INFO.SCVR "34JX3MG_Potion"
  INFO.INTV [32 00 00 00]
  INFO.BNAM "Choice ""给你药水"" 1 ""现在还不行"" 2"
@@ -200288,7 +200288,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "edwinna elbert$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，然后把生物探测药水带回来就可以了。"
+ INFO.NAME "去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，然后把探测生物药水带回来就可以了。"
  INFO.SCVR "34JX3MG_Potion"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -201937,7 +201937,7 @@ journal IC12_Bacola 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Kaye$00"
- INFO.NAME "我们的神谕者拉拉蒂亚·瓦里安说，她在梦中见过银制羞辱法杖躺在燃烧岩石之地，恐惧之山的阴影之下。我不懂解梦的胡言乱语，但她告诉我，坎德山的一个古老名字就是恐惧山。根据她的解梦，她认为法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。侦测附魔的戒指应该能帮你找到法杖。 {魔法疾病}"
+ INFO.NAME "我们的神谕者拉拉蒂亚·瓦里安说，她在梦中见过银制羞辱法杖躺在燃烧岩石之地，恐惧之山的阴影之下。我不懂解梦的胡言乱语，但她告诉我，坎德山的一个古老名字就是恐惧山。根据她的解梦，她认为法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。探测附魔之戒应该能帮你找到法杖。 {魔法疾病,戒指}"
  INFO.BNAM "Journal IC18_Silver_Staff 2"
 -DIAL
  DIAL.NAME "这可再好不过了$00"
@@ -204202,7 +204202,7 @@ Choice ""把书给他"" 1 ""把书留着"" 2"
  INFO.NNAM "7141128481352217489$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "strillian macro$00"
- INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}"
+ INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "7141128481352217489$00"
@@ -204210,7 +204210,7 @@ Choice ""把书给他"" 1 ""把书留着"" 2"
  INFO.NNAM "163233711782120864$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "melvure rindu$00"
- INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}"
+ INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "163233711782120864$00"
@@ -204218,7 +204218,7 @@ Choice ""把书给他"" 1 ""把书留着"" 2"
  INFO.NNAM "2921228351588328852$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "eraamion$00"
- INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}"
+ INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "2921228351588328852$00"
@@ -204226,7 +204226,7 @@ Choice ""把书给他"" 1 ""把书留着"" 2"
  INFO.NNAM "2780210397294588887$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}"
+ INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "2780210397294588887$00"
@@ -204234,7 +204234,7 @@ Choice ""把书给他"" 1 ""把书留着"" 2"
  INFO.NNAM "17499115152901810549$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}"
+ INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "17499115152901810549$00"
@@ -204242,7 +204242,7 @@ Choice ""把书给他"" 1 ""把书留着"" 2"
  INFO.NNAM "3176116500146246976$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "smokey morth$00"
- INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}"
+ INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "3176116500146246976$00"
@@ -204250,7 +204250,7 @@ Choice ""把书给他"" 1 ""把书留着"" 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
- INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}"
+ INFO.NAME "其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -DIAL
  DIAL.NAME "基本属性$00"
@@ -240341,7 +240341,7 @@ journal blades_Nine_Toes 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 00 00]
  INFO.ONAM "surane leoriane$00"
  INFO.DNAM "Blades$00"
- INFO.NAME "我们当然可以训练你，当然，你要付钱，但比在刀锋外面付的要少得多。我建议你找个人教你侦测附魔的咒语吧？每当你在探险的时候，知道附魔师的位置是很有好处的，有时危险的敌人就在那里…持有附魔师的地方，有时会看到隐藏在深潭或高台上的物品，去卡尔德拉总督大厅找夜刃拉罗斯·乌万吧。 {魔法疾病}"
+ INFO.NAME "我们当然可以训练你，当然，你要付钱，但比在刀锋外面付的要少得多。我建议你找个人教你探测附魔的咒语吧？每当你在探险的时候，知道附魔师的位置是很有好处的，有时危险的敌人就在那里…持有附魔师的地方，有时会看到隐藏在深潭或高台上的物品，去卡尔德拉总督大厅找夜刃拉罗斯·乌万吧。 {魔法疾病}"
  INFO.SCVR "01065"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "journal blades_Surane 1"
@@ -258561,7 +258561,7 @@ addtopic ""晨风的居所"""
  INFO.NNAM "124140733236917912$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "nalion$00"
- INFO.NAME "侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}"
+ INFO.NAME "探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -258571,7 +258571,7 @@ addtopic ""晨风的居所"""
  INFO.NNAM "2242215538617320948$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}"
+ INFO.NAME "探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -258581,7 +258581,7 @@ addtopic ""晨风的居所"""
  INFO.NNAM "1687412729006948$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "tendris vedran$00"
- INFO.NAME "侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}"
+ INFO.NAME "探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -258591,7 +258591,7 @@ addtopic ""晨风的居所"""
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "anarenen$00"
- INFO.NAME "侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}"
+ INFO.NAME "探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -258902,42 +258902,42 @@ addtopic ""晨风的居所"""
  INFO.NNAM "7323204272725211542$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Wise Woman Service$00"
- INFO.NAME "外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}"
+ INFO.NAME "外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}"
 -INFO
  INFO.INAM "7323204272725211542$00"
  INFO.PNAM "48547332137273430$00"
  INFO.NNAM "1615697381450326313$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "maela kaushad$00"
- INFO.NAME "外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}"
+ INFO.NAME "外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}"
 -INFO
  INFO.INAM "1615697381450326313$00"
  INFO.PNAM "7323204272725211542$00"
  INFO.NNAM "17749156981068711093$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "vala catraso$00"
- INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
+ INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
 -INFO
  INFO.INAM "17749156981068711093$00"
  INFO.PNAM "1615697381450326313$00"
  INFO.NNAM "118278111503127637$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
+ INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
 -INFO
  INFO.INAM "118278111503127637$00"
  INFO.PNAM "17749156981068711093$00"
  INFO.NNAM "28374665720854718$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "tendris vedran$00"
- INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
+ INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
 -INFO
  INFO.INAM "28374665720854718$00"
  INFO.PNAM "118278111503127637$00"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
+ INFO.NAME "我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}"
 -DIAL
  DIAL.NAME "枯萎病$00"
  DIAL.DATA [00]
@@ -268235,7 +268235,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Commoner$00"
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "离泥沼蟹远点，沼泽疟疾，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。"
+ INFO.NAME "离泥沼蟹远点，沼泽热，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -276956,7 +276956,7 @@ ModDisposition 20"
  INFO.NNAM "2850828362805927913$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "strillian macro$00"
- INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}"
+ INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "2850828362805927913$00"
@@ -276964,7 +276964,7 @@ ModDisposition 20"
  INFO.NNAM "28461657215992978$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "melvure rindu$00"
- INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}"
+ INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "28461657215992978$00"
@@ -276972,7 +276972,7 @@ ModDisposition 20"
  INFO.NNAM "2048982571475824571$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "eraamion$00"
- INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}"
+ INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "2048982571475824571$00"
@@ -276980,7 +276980,7 @@ ModDisposition 20"
  INFO.NNAM "21592061381742229$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}"
+ INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "21592061381742229$00"
@@ -276988,7 +276988,7 @@ ModDisposition 20"
  INFO.NNAM "1583026377106328758$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}"
+ INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "1583026377106328758$00"
@@ -276996,7 +276996,7 @@ ModDisposition 20"
  INFO.NNAM "3152769131282116838$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "smokey morth$00"
- INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}"
+ INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "3152769131282116838$00"
@@ -277004,7 +277004,7 @@ ModDisposition 20"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
- INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}"
+ INFO.NAME "毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -DIAL
  DIAL.NAME "抗性法术$00"
@@ -277015,7 +277015,7 @@ ModDisposition 20"
  INFO.NNAM "30833153261647726181$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "eraamion$00"
- INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}"
+ INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "30833153261647726181$00"
@@ -277023,7 +277023,7 @@ ModDisposition 20"
  INFO.NNAM "9957329884115317$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "strillian macro$00"
- INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}"
+ INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "9957329884115317$00"
@@ -277031,7 +277031,7 @@ ModDisposition 20"
  INFO.NNAM "23242292403146810474$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "melvure rindu$00"
- INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}"
+ INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "23242292403146810474$00"
@@ -277039,7 +277039,7 @@ ModDisposition 20"
  INFO.NNAM "765925645426430957$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}"
+ INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "765925645426430957$00"
@@ -277047,7 +277047,7 @@ ModDisposition 20"
  INFO.NNAM "89301726617062274$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}"
+ INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "89301726617062274$00"
@@ -277055,7 +277055,7 @@ ModDisposition 20"
  INFO.NNAM "2000751281170626256$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "smokey morth$00"
- INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}"
+ INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "2000751281170626256$00"
@@ -277063,7 +277063,7 @@ ModDisposition 20"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
- INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}"
+ INFO.NAME "恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -DIAL
  DIAL.NAME "小圣徒们$00"
@@ -296073,7 +296073,7 @@ ModDisposition 10"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist"
 -DIAL
- DIAL.NAME "沼泽疟疾$00"
+ DIAL.NAME "沼泽热$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "1359525574962610836$00"
@@ -296162,7 +296162,7 @@ moddisposition 20"
  INFO.NNAM "1967823882987210230$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Wise Woman Service$00"
- INFO.NAME "沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
+ INFO.NAME "沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -INFO
  INFO.INAM "1967823882987210230$00"
@@ -296170,7 +296170,7 @@ moddisposition 20"
  INFO.NNAM "2280420963161812106$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "maela kaushad$00"
- INFO.NAME "沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
+ INFO.NAME "沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -INFO
  INFO.INAM "2280420963161812106$00"
@@ -296178,7 +296178,7 @@ moddisposition 20"
  INFO.NNAM "35191203013893329$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
+ INFO.NAME "沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -INFO
  INFO.INAM "35191203013893329$00"
@@ -296186,7 +296186,7 @@ moddisposition 20"
  INFO.NNAM "16706918308612129$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "tendris vedran$00"
- INFO.NAME "沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
+ INFO.NAME "沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -INFO
  INFO.INAM "16706918308612129$00"
@@ -296194,7 +296194,7 @@ moddisposition 20"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
+ INFO.NAME "沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -DIAL
  DIAL.NAME "黄虱$00"
@@ -299064,14 +299064,14 @@ Goodbye"
  INFO.NNAM "31959230201741413535$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Duke's Guard_tomb$00"
- INFO.NAME "是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔法。不管它在谁手里，都是通过其他方式得到的。 {魔力}"
+ INFO.NAME "是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔力。不管它在谁手里，都是通过其他方式得到的。"
 -INFO
  INFO.INAM "31959230201741413535$00"
  INFO.PNAM "2443617506215076705$00"
  INFO.NNAM "16615164001889021508$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Duke's Guard_tomb2$00"
- INFO.NAME "是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔法。不管它在谁手里，都是通过其他方式得到的。 {魔力}"
+ INFO.NAME "是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔力。不管它在谁手里，都是通过其他方式得到的。"
 -INFO
  INFO.INAM "16615164001889021508$00"
  INFO.PNAM "31959230201741413535$00"
@@ -310964,7 +310964,7 @@ Player->additem ""Akatosh Ring"" 1"
  INFO.NNAM "4144214151371720011$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Lalatia Varian$00"
- INFO.NAME "这就是碎颅者？确实很神奇，但我没发现这武器上有邪恶的诅咒。它很安全，我向你保证。也许这只是个传说，也许我们能从中感知到神的隐秘动作。接受我的特别祝福吧，这样你就能为九圣灵服务了。这就是我给你的所有任务。如果我还需要你的帮助，我会通过教派中的其他高层传话给你。 {沙尔}"
+ INFO.NAME "这就是碎颅者？确实很神奇，但我没探测到这武器上有邪恶的诅咒。它很安全，我向你保证。也许这只是个传说，也许我们能从中感知到神的隐秘动作。接受我的特别祝福吧，这样你就能为九圣灵服务了。这就是我给你的所有任务。如果我还需要你的帮助，我会通过教派中的其他高层传话给你。 {沙尔}"
  INFO.SCVR "04JX3IC29_Crusher"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX3warhammer_crusher_unique"
@@ -310983,7 +310983,7 @@ Goodbye"
  INFO.NNAM "113969096129124138$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Lalatia Varian$00"
- INFO.NAME "这就是碎颅者？确实很神奇，但我看不出这武器上有任何邪恶诅咒的痕迹。也许这只是个传说，也许是一种祝福，而不是诅咒，使它免遭盗贼之手，也许我们能从中感知到神的隐秘动作。它很安全，我向你保证。接受我的特别祝福吧，这样你就能为九圣灵服务了。当你准备好接受我的另一个神谕者的任务时再来找我吧。"
+ INFO.NAME "这就是碎颅者？确实很神奇，但我没探测到这武器上有任何邪恶诅咒的痕迹。也许这只是个传说，也许是一种祝福，而不是诅咒，使它免遭盗贼之手，也许我们能从中感知到神的隐秘动作。它很安全，我向你保证。接受我的特别祝福吧，这样你就能为九圣灵服务了。当你准备好接受我的另一个神谕者的任务时再来找我吧。"
  INFO.SCVR "04JX3IC29_Crusher"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX3warhammer_crusher_unique"
@@ -311375,7 +311375,7 @@ player->additem key_Nedhelas 1"
  INFO.NNAM "243293043999454250$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "caryarel$00"
- INFO.NAME "是的，我在黑檀心的帝国教堂接受过沼泽疟疾治疗，但我对教堂用石灰碗一无所知。所以你走吧，别来烦我。 {帝国人}"
+ INFO.NAME "是的，我在黑檀心的帝国教堂接受过沼泽热的治疗，但我对教堂用石灰碗一无所知。所以你走吧，别来烦我。 {帝国人}"
  INFO.SCVR "04JX3IC15_Missing_Limeware"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Journal IC15_Missing_Limeware 25
@@ -311809,7 +311809,7 @@ Goodbye"
  INFO.NNAM "2923227933164520480$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Kaye$00"
- INFO.NAME "一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚侦测附魔的戒指和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病}"
+ INFO.NAME "一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚探测附魔之戒和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病,戒指}"
  INFO.SCVR "04JX0IC17_Witch_not"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -312099,7 +312099,7 @@ Choice ""没有，但我正在努力。"" 1 ""抱歉，我找不到那个碗了。"" 2"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF 00 00]
  INFO.ONAM "Kaye$00"
  INFO.DNAM "Imperial Cult$00"
- INFO.NAME "好的，我需要点帮助。我们为一位名叫卡亚雷的高精灵治疗了沼泽疟疾，但后来我们发现，当他在这里的时候，一个稀有的教堂用石灰碗从我们的圣祠里消失了。你能找到这个卡亚雷，帮我们找回我们的碗吗？高精灵在瓦登费尔是一个紧密团结的小团体。试着问问其他高精灵是否认识卡亚雷以及他住在哪里。"
+ INFO.NAME "好的，我需要点帮助。我们为一位名叫卡亚雷的高精灵治疗了沼泽热，但后来我们发现，当他在这里的时候，一个稀有的教堂用石灰碗从我们的圣祠里消失了。你能找到这个卡亚雷，帮我们找回我们的碗吗？高精灵在瓦登费尔是一个紧密团结的小团体。试着问问其他高精灵是否认识卡亚雷以及他住在哪里。"
  INFO.SCVR "04JX4IC15_Missing_Limeware"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "11500"
@@ -312161,7 +312161,7 @@ player->additem gold_001 300"
  INFO.NNAM "4052197071301917034$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Kaye$00"
- INFO.NAME "一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚侦测附魔的戒指和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病}"
+ INFO.NAME "一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚探测附魔之戒和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病,戒指}"
  INFO.SCVR "04JX3IC17_Witch"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX4IC18_Silver_Staff"
@@ -314009,7 +314009,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Synnolian Tunifus$00"
  INFO.DNAM "Imperial Cult$00"
- INFO.NAME "给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你侦测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}"
+ INFO.NAME "给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你探测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}"
  INFO.SCVR "04JX0IC3_willow_not"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX3localdaysPassed"
@@ -314316,7 +314316,7 @@ Journal IC3_willow 1"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Synnolian Tunifus$00"
  INFO.DNAM "Imperial Cult$00"
- INFO.NAME "给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你侦测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}"
+ INFO.NAME "给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你探测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}"
  INFO.SCVR "04JX3IC3_willow"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX4IC4_scrib"
@@ -315935,7 +315935,7 @@ Goodbye"
  INFO.NNAM "185323119111727510$00"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "edwinna elbert$00"
- INFO.NAME "你从树荫那里拿到生物探测药水了吗？"
+ INFO.NAME "你从树荫那里拿到探测生物药水了吗？"
  INFO.SCVR "01390"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX2MG_Potion"
@@ -316499,7 +316499,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lette$00"
  INFO.DNAM "Temple$00"
- INFO.NAME "是的，我得了沼泽疟疾。我头晕目眩，浑身无力。"
+ INFO.NAME "是的，我得了沼泽热。我头晕目眩，浑身无力。"
  INFO.SCVR "34JX4TT_CuringTouch"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -328937,7 +328937,7 @@ moddisposition 10"
  INFO.NNAM "2842020301815112305$00"
  INFO.DATA [02 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "你好，%PCName。我是%Name。这里是赛达尼恩，世界沼泽疟疾之都。我猜你想知道这里发生了什么事，我可以告诉你本地的服务在哪里。没有多少。我还能告诉你最新传言，除非你已经听说了。"
+ INFO.NAME "你好，%PCName。我是%Name。这里是赛达尼恩，世界沼泽热之都。我猜你想知道这里发生了什么事，我可以告诉你本地的服务在哪里。没有多少。我还能告诉你最新传言，除非你已经听说了。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -353411,7 +353411,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF 04 00]
  INFO.ONAM "crassius curio$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "去卡尔德拉和奥德拉尔·赫尔维谈谈，对他施展你的魅力，亲爱的，谈谈生意。如果你觉得他的要求有问题，就跟我说，我再给你指示。让克拉西乌斯舅舅消息灵通，我会奖赏你的。 {事,报酬}"
+ INFO.NAME "去卡尔德拉和奥德拉尔·赫尔维谈谈，对他施展你的魅力，亲爱的，谈谈生意。如果你觉得他的要求有问题，就跟我说，我再给你指示。让克拉西乌斯叔叔消息灵通，我会奖赏你的。 {事,报酬}"
  INFO.BNAM "Journal HH_BankFraud 5"
 -INFO
  INFO.INAM "3628283521129728633$00"
@@ -359488,7 +359488,7 @@ ShowMap ""Gnaar Mok"""
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Kaye$00"
- INFO.NAME "他身材高大，黑发，五官锐利 -- 但这种形容适合很多高精灵。我们给他治疗的是沼泽疟疾，所以也许他住在海岸边，因为泥蟹有时会携带疾病。正如我所说的，试着在高精灵中打听一下。我相信有几个人在黑檀心的鹰蛾军团驻扎地服役。"
+ INFO.NAME "他身材高大，黑发，五官锐利 -- 但这种形容适合很多高精灵。我们给他治疗的是沼泽热，所以也许他住在海岸边，因为泥蟹有时会携带疾病。正如我所说的，试着在高精灵中打听一下。我相信有几个人在黑檀心的鹰蛾军团驻扎地服役。"
 -DIAL
  DIAL.NAME "内德拉斯$00"
  DIAL.DATA [00]
@@ -362024,7 +362024,7 @@ Goodbye"
  INFO.NNAM "14349284303227422403$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "tendris vedran$00"
- INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}"
+ INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -362034,7 +362034,7 @@ Goodbye"
  INFO.NNAM "472124081241971946$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "nalion$00"
- INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}"
+ INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -362044,7 +362044,7 @@ Goodbye"
  INFO.NNAM "3144611471925214760$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}"
+ INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -362054,7 +362054,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "anarenen$00"
- INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}"
+ INFO.NAME "炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";alchemist; apothecary; healer; trader;"
@@ -373138,7 +373138,7 @@ AddTopic ""崔博尼乌斯"""
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "edwinna elbert$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "我已经等了*数年*才从萨德瑞斯-莫拉的树荫·中·蜥那里得到一瓶生物探测药水。"
+ INFO.NAME "我已经等了*数年*才从萨德瑞斯-莫拉的树荫·中·蜥那里得到一瓶探测生物药水。"
  INFO.SCVR "34JX3MG_NchuleftBook"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -373279,7 +373279,7 @@ Set givenLetter to 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "skinkintreesshade$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "%PCName，我稍后可能有职务给你。现在我正忙着为奥德'汝因的埃德温娜制作生物探测药水。"
+ INFO.NAME "%PCName，我稍后可能有职务给你。现在我正忙着为奥德'汝因的埃德温娜制作探测生物药水。"
 -INFO
  INFO.INAM "221412592288155059$00"
  INFO.PNAM "13030265523172521200$00"
@@ -415819,7 +415819,7 @@ ModDisposition 10"
  INFO.NNAM "12690201451259720024$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharer rotheloth$00"
- INFO.NAME "神殿不传教，但我们也为非信徒做善事。泰尔-莫拉的红卫人勒特得了沼泽疟疾。治好她的沼泽疟疾，然后回来找我。 {工作}"
+ INFO.NAME "神殿不传教，但我们也为非信徒做善事。泰尔-莫拉的红卫人勒特得了沼泽热。治好她的沼泽热，然后回来找我。 {工作}"
  INFO.BNAM "Journal TT_CuringTouch 10"
 -INFO
  INFO.INAM "12690201451259720024$00"

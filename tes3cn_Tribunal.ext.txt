@@ -904,7 +904,7 @@ Royal Blood
 
 > SPEL.FNAM Royal_Resistance
 Royal Resistance
-王室抵抗
+王室抗性
 
 > SPEL.FNAM blood curse: fatigue
 Blood Curse: Fatigue
@@ -948,7 +948,7 @@ Master Frost Trap
 
 > SPEL.FNAM trap_shock_killer
 Master Shock Trap
-大师级电击陷阱
+大师级闪电陷阱
 
 > SPEL.FNAM trap_poison_killer
 Master Poison Trap
@@ -976,7 +976,7 @@ Proximity Mine Frost
 
 > SPEL.FNAM prox_mine_shock
 Proximity Mine Shock
-触发式电击地雷
+触发式闪电地雷
 
 > SPEL.FNAM prox_mine_poison
 Proximity Mine Poison
@@ -1020,7 +1020,7 @@ Crimson Plague
 
 > SPEL.FNAM shockimperfect
 Fabricant Shock
-械构体电击
+械构体闪电
 
 > SPEL.FNAM rotbone
 Rotbone
@@ -3427,7 +3427,7 @@ Vaernima, whose sphere is the realm of dreams and nightmares, and from whose rea
 
 > CREA.FNAM centurion_shock_baladas
 Shock Centurion
-电击百夫长
+闪电百夫长
 
 > ACTI.FNAM a_furn_de_table_8
 Table
@@ -6871,7 +6871,7 @@ Advanced Steam Centurion
 
 > WEAP.FNAM centurion_projectile_dart_shock
 Dwarven Shock Dart
-矮人电击镖
+矮人闪电镖
 
 > CLOT.FNAM mazed_band_end
 Barilzar's Mazed Band
@@ -7901,7 +7901,7 @@ Imperial Cult: Missing Limeware
 
 > INFO.NAME ic15_missing_limeware 1548825034111724309
 While a High Elf named Caryarel was being treated for swamp fever at the Imperial Chapels, a rare limeware bowl disappeared. Kaye asked me to find Caryarel and retrieve the missing chapel limeware bowl. Kaye says the High Elves are a small, tight-knit community on Vvardenfell, so he suggests I ask other High Elves if they know Caryarel and where he lives.
-当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽疟疾治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}
+当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽热的治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}
 
 > INFO.NAME ic15_missing_limeware 25174140782343012571
 I returned the Chapel Limeware Bowl to Kaye. He was pleased enough to give me 200 gold to cover my expenses. He also gave me some divine intervention scrolls.
@@ -9229,7 +9229,7 @@ Imperial Cult: The Silver Staff of Shaming
 
 > INFO.NAME ic18_silver_staff 2535447501761520275
 An acolyte named Linus Iulus disappeared some years ago. Our oracle, Lalatia Varian, has had a vision of a Silver Staff of Shaming, and Linus Iulus had one of these staves. Kaye gave me a Detect Enchantment ring, and told me to go to Mount Kand. I'm to find a Silver Staff of Shaming there that belonged to Linus Iulus. I should bring it to Kaye, along with any other personal effects I find that belonged to Linus Iulus.
-一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚侦测附魔师戒指，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病}
+一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚探测附魔之戒，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病,戒指}
 
 > INFO.NAME ic18_silver_staff 8885276992550027196
 I gave Kaye the Silver Staff of Shaming. As a reward, Kaye gave me a Restoration shirt. He thanked me for my exertions on the cult's behalf, and told me to speak to him again when I'm ready for another mission.
@@ -11269,7 +11269,7 @@ Temple: Cure Lette
 
 > INFO.NAME tt_curingtouch 24169263062726817438
 Tharer Rotheloth asked me to cure a villager named Lette in Tel Mora. She has swamp fever and there is no Temple in Tel Mora where she can go for healing.
-塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽疟疾，而泰尔-莫拉没有神殿可以让她治病。
+塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽热，而泰尔-莫拉没有神殿可以让她治病。
 
 > INFO.NAME tt_curingtouch 29555146671808116956
 Tharer Rotheloth thanked me for curing Lette.
@@ -12737,7 +12737,7 @@ I found a corpse while traveling near Seyda Neen. It seems to be the corpse of o
 
 > INFO.NAME mv_deadtaxman 28520312023193131007
 After killing Gilnith, I reported my findings to the Census and Excise Office. Socucius seemed pleased to see Processus' murder avenged, and he paid me as promised.
-杀死吉尔尼斯后，我向普查及税务局报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
+杀死吉尔尼斯后，我向普查及税务局报告了我的发现。苏库修斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
 
 > INFO.NAME da_sheogorath 20522273699125249
 Sheogorath's Quest
@@ -14177,7 +14177,7 @@ The Oracle believes that I am fated to recover the ancient warhammer Skull-Crush
 
 > INFO.NAME ic29_crusher 244173012020273776
 The Oracle says she can detect no evil curse upon Skull-Crusher. She assured me it is safe, and gave me a special blessing so I might dedicate myself further to the service of the Nine. She has no more quests for me, but she will send word for me through others of high rank in the cult if she needs my help again.
-先知说她在碎颅者身上检测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。
+先知说她在碎颅者身上探测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。
 
 > INFO.NAME ic28_urjorad 28671147781823231363
 Imperial Cult: The Scroll of Fiercely Roasting
@@ -16189,11 +16189,11 @@ Mages Guild: A Potion from Skink-in-Tree's-Shade
 
 > INFO.NAME mg_potion 790323952752226336
 Edwinna asked me to talk to Skink-in-Tree's-Shade in Sadrith Mora and get a Detect Creatures Potion from him.
-埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶生物探测药水。
+埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶探测生物药水。
 
 > INFO.NAME mg_potion 3139587441170010072
 I delivered the Detect Creatures Potion to Neminda.
-我将生物探测药水交给了内明达。
+我将探测生物药水交给了内明达。
 
 > INFO.NAME mg_joinus 18221248862756332400
 Mages Guild: Recruit or Kill Llarar Bereloth
@@ -22931,7 +22931,7 @@ If you do the crime, pay the fine. You KNOW you owe it. So why don't you just PA
 
 > INFO.NAME little advice 541957932461430658
 Stay away from the mudcrabs. Swamp Fever. Or join the Tribunal Temple. Initiates get free Cure Disease at the shrines.
-离泥沼蟹远点。沼泽疟疾，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。
+离泥沼蟹远点。沼泽热，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。
 
 > INFO.NAME little advice 1259920497247168398
 Some neglected ancestral tombs around here. Locals don't like it, but you can find some nice bits. Ghosts and ancestral spirit guardians are dangerous.
@@ -25407,7 +25407,7 @@ You don't have Spell Breaker with you? Then come back with it, and we'll settle 
 
 > INFO.NAME spell breaker 144398162662511070
 A wonderful shield, and very resistant to magicka, from what I understand.  May we add this to our collection? I can offer you 30000 gold in exchange for it.
-据我所知，这是面强大的盾牌，而且有着强大的魔法抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。 {魔力}
+据我所知，这是面强大的盾牌，而且有着强大的魔力抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。
 
 > INFO.BNAM spell breaker 144398162662511070 c1
 Sell the item.
@@ -25423,7 +25423,7 @@ Donate the item.
 
 > INFO.NAME spell breaker 8460317492075730605
 A wonderful shield, and very resistant to magicka, from what I understand.  May we add this to our collection? I can offer you 30000 gold in exchange for it.
-据我所知，这是面强大的盾牌，而且有着强大的魔法抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。 {魔力}
+据我所知，这是面强大的盾牌，而且有着强大的魔力抗性。我们可以把它加入我们的藏品吗？我可以用30000金币买下它。
 
 > INFO.BNAM spell breaker 8460317492075730605 c1
 Sell the item.

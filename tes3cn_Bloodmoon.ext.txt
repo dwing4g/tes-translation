@@ -261,7 +261,7 @@ Skaal
 > MGEF.DESC [40 00 00 00]
 """The caster of this effect can detect any entity animated by a spirit; they appear on the map as symbols. This effect includes all classes of monsters. The effect's magnitude is the range in feet from the caster that animals are detected.
 """
-"""该效果的施法者可以侦测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有等级的怪物。该效果的大小是指在距离施法者几尺的范围内探测到的动物。
+"""该效果的施法者可以探测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有等级的怪物。该效果的大小是指在距离施法者几尺的范围内探测到的动物。
 """
 
 > SCPT.SCTX CavernIncarnateDoor s1
@@ -862,7 +862,7 @@ Hunter's Wind
 
 > SPEL.FNAM werewolf resists
 Werewolf Resistances
-狼人抵抗
+狼人抗性
 
 > CONT.FNAM barrel_01
 Barrel
@@ -6758,7 +6758,7 @@ Imperial Cult: Missing Limeware
 
 > INFO.NAME ic15_missing_limeware 1548825034111724309
 While a High Elf named Caryarel was being treated for swamp fever at the Imperial Chapels, a rare limeware bowl disappeared. Kaye asked me to find Caryarel and retrieve the missing chapel limeware bowl. Kaye says the High Elves are a small, tight-knit community on Vvardenfell, so he suggests I ask other High Elves if they know Caryarel and where he lives.
-当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽疟疾治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}
+当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽热的治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}
 
 > INFO.NAME ic15_missing_limeware 25174140782343012571
 I returned the Chapel Limeware Bowl to Kaye. He was pleased enough to give me 200 gold to cover my expenses. He also gave me some divine intervention scrolls.
@@ -7982,7 +7982,7 @@ Imperial Cult: The Silver Staff of Shaming
 
 > INFO.NAME ic18_silver_staff 2535447501761520275
 An acolyte named Linus Iulus disappeared some years ago. Our oracle, Lalatia Varian, has had a vision of a Silver Staff of Shaming, and Linus Iulus had one of these staves. Kaye gave me a Detect Enchantment ring, and told me to go to Mount Kand. I'm to find a Silver Staff of Shaming there that belonged to Linus Iulus. I should bring it to Kaye, along with any other personal effects I find that belonged to Linus Iulus.
-一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚侦测附魔师戒指，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病}
+一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚探测附魔之戒，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病,戒指}
 
 > INFO.NAME ic18_silver_staff 8885276992550027196
 I gave Kaye the Silver Staff of Shaming. As a reward, Kaye gave me a Restoration shirt. He thanked me for my exertions on the cult's behalf, and told me to speak to him again when I'm ready for another mission.
@@ -9826,7 +9826,7 @@ Temple: Cure Lette
 
 > INFO.NAME tt_curingtouch 24169263062726817438
 Tharer Rotheloth asked me to cure a villager named Lette in Tel Mora. She has swamp fever and there is no Temple in Tel Mora where she can go for healing.
-塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽疟疾，而泰尔-莫拉没有神殿可以让她治病。
+塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽热，而泰尔-莫拉没有神殿可以让她治病。
 
 > INFO.NAME tt_curingtouch 29555146671808116956
 Tharer Rotheloth thanked me for curing Lette.
@@ -11370,7 +11370,7 @@ I found a corpse while traveling near Seyda Neen. It seems to be the corpse of o
 
 > INFO.NAME mv_deadtaxman 28520312023193131007
 After killing Gilnith, I reported my findings to the Census and Excise Office. Socucius seemed pleased to see Processus' murder avenged, and he paid me as promised.
-杀死吉尔尼斯后，我向普查及税务局报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
+杀死吉尔尼斯后，我向普查及税务局报告了我的发现。苏库修斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
 
 > INFO.NAME da_sheogorath 20522273699125249
 Sheogorath's Quest
@@ -11690,15 +11690,15 @@ I should check in with Carnius Magius to see if he has any assignments for me.
 
 > INFO.NAME bm_cariusgone 729727102223246358
 The Disappearance of Captain Carius
-卡利尤斯队长的失踪
+卡里乌斯队长的失踪
 
 > INFO.NAME bm_cariusgone 297210246715421238
 Upon returning to Fort Frostmoth, I learned that the fort had been attacked by strange, wolflike creatures, and that Captain Carius has been abducted.
-回到霜蛾要塞后，我得知要塞遭到了类似狼的奇怪生物的袭击，卡利尤斯队长被绑架了。
+回到霜蛾要塞后，我得知要塞遭到了类似狼的奇怪生物的袭击，卡里乌斯队长被绑架了。
 
 > INFO.NAME bm_cariusgone 30917172091966721146
 Gaea Artoria suggests I should seek out the Nords who live on the northern coast of Solstheim. She says that these Nords worship animals, specifically wolves. She believes that they may be responsible for Captain Carius' disappearance. She doesn't believe they'll tell me much, as I am an outsider. So, she's given me a skull found in a Nord burial ground to give to the Skaal to better earn their trust. I'm to remain with them until I know more.
-盖娅·阿尔托利亚建议我去寻找生活在索瑟泰姆北部海岸的诺德人。她说这些诺德人崇拜动物，特别是狼。她认为卡利尤斯队长的失踪可能与他们有关。她不相信他们会告诉我太多，因为我是个外人，所以，她给了我一个在诺德人墓地找到的头骨，让我交给斯卡尔人，以更好地赢得他们的信任。在我知道更多信息之前，我要一直和他们在一起。
+盖娅·阿尔托利亚建议我去寻找生活在索瑟泰姆北部海岸的诺德人。她说这些诺德人崇拜动物，特别是狼。她认为卡里乌斯队长的失踪可能与他们有关。她不相信他们会告诉我太多，因为我是个外人，所以，她给了我一个在诺德人墓地找到的头骨，让我交给斯卡尔人，以更好地赢得他们的信任。在我知道更多信息之前，我要一直和他们在一起。
 
 > INFO.NAME bm_cariusgone 2373113641115530237
 Saenus Lusius believes that I should seek out the Nords who live on the northern coast of Solstheim. Lusius tells me that these Nords are nature worshippers, and would know what these animals were that attacked the fort. He would like me to remain with these people, work my way into their confidence, though it may take a long time. He's given me a skull found in a Skaal tomb, in the hopes they will accept it as a sign of good faith.
@@ -11714,11 +11714,11 @@ Tharsten Heart-Fang says he knows nothing about the attack on Fort Frostmoth, an
 
 > INFO.NAME bm_cariusgone 2252150182508680
 I have returned to Fort Frostmoth and spoken with Saenus Lusius. He was disappointed the Skaal have not told me more, but not surprised. He wishes for me to return to them and live among them until I can find out what has happened to Captain Carius.
-我已经回到霜蛾要塞，并与塞努斯·卢西乌斯进行了交谈。他很失望斯卡尔人没有告诉我更多，但并不感到惊讶。他希望我回到他们身边，和他们生活在一起，直到我找到卡利尤斯队长的下落。
+我已经回到霜蛾要塞，并与塞努斯·卢西乌斯进行了交谈。他很失望斯卡尔人没有告诉我更多，但并不感到惊讶。他希望我回到他们身边，和他们生活在一起，直到我找到卡里乌斯队长的下落。
 
 > INFO.NAME bm_cariusgone 2447642984659646
 Gaea Artoria did not believe that the Skaal knew nothing about the attack or Carius' disappearance. She would like me to return, earn their trust, and continue to live among them. She believes that, given time, I might be able to find out what has happened to Captain Carius.
-盖娅·阿尔托利亚不相信斯卡尔人对袭击和卡利尤斯的失踪一无所知。她希望我回去，赢得他们的信任，继续生活在他们中间。她相信，假以时日，我也许能找到卡利尤斯队长到底出了什么事。
+盖娅·阿尔托利亚不相信斯卡尔人对袭击和卡里乌斯的失踪一无所知。她希望我回去，赢得他们的信任，继续生活在他们中间。她相信，假以时日，我也许能找到卡里乌斯队长到底出了什么事。
 
 > INFO.NAME bm_missionary 1993326604289994235
 The Missing Missionary
@@ -12722,7 +12722,7 @@ The Oracle believes that I am fated to recover the ancient warhammer Skull-Crush
 
 > INFO.NAME ic29_crusher 244173012020273776
 The Oracle says she can detect no evil curse upon Skull-Crusher. She assured me it is safe, and gave me a special blessing so I might dedicate myself further to the service of the Nine. She has no more quests for me, but she will send word for me through others of high rank in the cult if she needs my help again.
-先知说她在碎颅者身上检测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。
+先知说她在碎颅者身上探测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。
 
 > INFO.NAME ic28_urjorad 28671147781823231363
 Imperial Cult: The Scroll of Fiercely Roasting
@@ -12754,19 +12754,19 @@ The Frostmoth Smugglers
 
 > INFO.NAME bm_smugglers 14170152172484017258
 Captain Carius mentioned that he believes there is a problem with smugglers at Fort Frostmoth. He has noticed that the weapons stores are dangerously low, and he believes that someone must be smuggling them off the island.
-卡利尤斯队长提到，他认为霜蛾要塞存在走私问题。他注意到武器库储备数量极为低下，并确信有人正在将武器私运出岛。
+卡里乌斯队长提到，他认为霜蛾要塞存在走私问题。他注意到武器库储备数量极为低下，并确信有人正在将武器私运出岛。
 
 > INFO.NAME bm_smugglers 1250212643183229542
 I should speak with either Saenus Lusius or Gaea Artoria to help me ferret out the smugglers. Captain Carius tells me that Saenus Lusius is one of his brightest soldiers, and Gaea Artoria one of his strongest. I'll be able to find Lusius in the General Quarters, and Artoria in the General Quarters, Upper Level.
-我应该找塞努斯·卢西乌斯或盖娅·阿尔托利亚谈谈，让他们帮我揪出走私者。卡利尤斯队长告诉我，塞努斯·卢西乌斯是他手下最聪明的士兵之一，盖娅·阿尔托利亚是他手下最强壮的士兵之一。我可以在指挥官住所找到卢西乌斯，在上层区域的指挥官住所找到阿尔托莉雅。
+我应该找塞努斯·卢西乌斯或盖娅·阿尔托利亚谈谈，让他们帮我揪出走私者。卡里乌斯队长告诉我，塞努斯·卢西乌斯是他手下最聪明的士兵之一，盖娅·阿尔托利亚是他手下最强壮的士兵之一。我可以在指挥官住所找到卢西乌斯，在上层区域的指挥官住所找到阿尔托莉雅。
 
 > INFO.NAME bm_smugglers 19042221730563145
 I have chosen to work with Saenus Lusius to discover the smuggling ring here at Fort Frostmoth. He seems to be very knowledgeable, and should be a valuable companion. We are to find the smuggled goods and report to Captain Carius. We may deal with the smugglers as we see fit.
-我选择与塞努斯·卢西乌斯合作，来发现霜蛾要塞这里的走私团伙。他似乎见多识广，应该是个有价值的伙伴。我们要找到走私货物并向卡利尤斯队长报告。我们可以酌情处理走私者。 {工作,戒指}
+我选择与塞努斯·卢西乌斯合作，来发现霜蛾要塞这里的走私团伙。他似乎见多识广，应该是个有价值的伙伴。我们要找到走私货物并向卡里乌斯队长报告。我们可以酌情处理走私者。 {工作,戒指}
 
 > INFO.NAME bm_smugglers 321316029250097350
 I have chosen to work with Gaea Artoria to discover the smuggling ring here at Fort Frostmoth. From what I gather, there is no finer warrior at the garrison. We are to find the smuggled goods and report to Captain Carius. We may deal with the smugglers as we see fit.
-我选择与盖娅·阿尔托利亚合作，在霜蛾要塞发现走私团伙。据我所知，这里没有比她更优秀的战士了。我们要找到走私货物，并向卡利尤斯队长报告。我们可以酌情处理走私者。 {工作,戒指}
+我选择与盖娅·阿尔托利亚合作，在霜蛾要塞发现走私团伙。据我所知，这里没有比她更优秀的战士了。我们要找到走私货物，并向卡里乌斯队长报告。我们可以酌情处理走私者。 {工作,戒指}
 
 > INFO.NAME bm_smugglers 210137019841113107
 Saenus Lusius has suggested we speak with a few of the soldiers to see who may be involved in the smuggling ring. The first he suggests we speak with is Zeno Faustus, whom Lusius believes we may trust. He can be found in the Armory.
@@ -12810,11 +12810,11 @@ I've declined Gualtierus Spurius' offer. He tells me that I will need to kill hi
 
 > INFO.NAME bm_smugglers 12411585426279396
 All of the smugglers in the hideout have been defeated. I should report to Captain Carius.
-藏身处所有的走私者都已被击败。我该向卡利尤斯队长报告了。
+藏身处所有的走私者都已被击败。我该向卡里乌斯队长报告了。
 
 > INFO.NAME bm_smugglers 186671012745167558
 I've returned to Fort Frostmoth to report to Captain Carius, but the Fort has been attacked in my absence.
-我已经回到霜蛾要塞向卡利尤斯队长报告，但要塞在我不在的时候遭到了袭击。
+我已经回到霜蛾要塞向卡里乌斯队长报告，但要塞在我不在的时候遭到了袭击。
 
 > INFO.NAME bm_moonsugar 11547125161186622127
 The Moon Sugar Mystery
@@ -13826,23 +13826,23 @@ I received a dream from Hircine calling me to join him for his Hunt. When I awok
 
 > INFO.NAME bm_wildhunt 1295913728126523287
 Hircine spoke to me, telling me that I was to be a part of his hunt. He has gathered the champions of Solstheim--Falx Carius from Fort Frostmoth, Tharsten Heart-Fang from the Skaal, and the frost giant Karstaag--to participate. All of us are to find our way through this glacier, though the others have gone ahead already. Only one of us will survive to face the Hunter in battle. I should continue ahead and see what awaits me.
-希尔辛对我说话，告诉我我要参加他的狩猎。他召集了索瑟泰姆的勇士 -- 霜蛾要塞的法尔斯·卡利尤斯、斯卡尔的塔斯滕·心牙和冰霜巨人卡斯塔格 -- 参加狩猎。我们所有人都要找到出路穿越冰川，尽管其他人已经先行一步。我们中只有一个人能活下来与猎人战斗。我应该继续前进，看看有什么在等着我。
+希尔辛对我说话，告诉我我要参加他的狩猎。他召集了索瑟泰姆的勇士 -- 霜蛾要塞的法尔斯·卡里乌斯、斯卡尔的塔斯滕·心牙和冰霜巨人卡斯塔格 -- 参加狩猎。我们所有人都要找到出路穿越冰川，尽管其他人已经先行一步。我们中只有一个人能活下来与猎人战斗。我应该继续前进，看看有什么在等着我。
 
 > INFO.NAME bm_wildhunt 1675676051538012168
 I've encountered Captain Falx Carius, who was brought here after the attack on Fort Frostmoth. He suggests we work together to escape Hircine's prison.
-我遇到了伐克斯·卡利尤斯队长，他是在霜蛾要塞遇袭后被带到这里来的。他建议我们合作逃出希尔辛的监狱。 {工作}
+我遇到了伐克斯·卡里乌斯队长，他是在霜蛾要塞遇袭后被带到这里来的。他建议我们合作逃出希尔辛的监狱。 {工作}
 
 > INFO.NAME bm_wildhunt 3142728887296638452
 I have chosen to work with Carius to escape this place.
-我选择和卡利尤斯一起逃离这里。 {工作}
+我选择和卡里乌斯一起逃离这里。 {工作}
 
 > INFO.NAME bm_wildhunt 1044011680951130263
 I have told Carius that only one of us can survive this test, and it must be me. I will have to fight the captain.
-我告诉卡利尤斯，我们中只有一个人能通过考验，而这个人必须是我。我必须和队长战斗。
+我告诉卡里乌斯，我们中只有一个人能通过考验，而这个人必须是我。我必须和队长战斗。
 
 > INFO.NAME bm_wildhunt 27328226622244623964
 Carius has died in the Mortrag Glacier.
-卡利尤斯已经死在了莫特拉格冰川。
+卡里乌斯已经死在了莫特拉格冰川。
 
 > INFO.NAME bm_wildhunt 280641611868778920
 I have found the key that will allow me to proceed through the gate in the center of this maze.
@@ -13850,7 +13850,7 @@ I have found the key that will allow me to proceed through the gate in the cente
 
 > INFO.NAME bm_wildhunt 1996313375195684724
 As we approached the gate, Carius told me that he can go no further. If I am to finish this fight, I will have to do so alone. He warned me to beware the giant Karstaag, as well as Heart-Fang, whom he does not trust. If I succeed, perhaps Carius will be able to find a way out of this place himself.
-当我们接近大门时，卡利尤斯告诉我，他已经走不动了。如果我想结束这场战斗，就必须独自完成。他警告我要小心巨人卡斯塔格，以及他不信任的心牙。如果我成功了，也许卡利尤斯自己就能找到离开这里的办法。
+当我们接近大门时，卡里乌斯告诉我，他已经走不动了。如果我想结束这场战斗，就必须独自完成。他警告我要小心巨人卡斯塔格，以及他不信任的心牙。如果我成功了，也许卡里乌斯自己就能找到离开这里的办法。
 
 > INFO.NAME bm_wildhunt 2460514759723923702
 In the next ring of the glacier, I was greeted by Tharsten Heart-Fang, who has also been brought here by the Daedra Lord Hircine. He believes we should work together to fight Hircine.
@@ -14554,11 +14554,11 @@ Mages Guild: A Potion from Skink-in-Tree's-Shade
 
 > INFO.NAME mg_potion 790323952752226336
 Edwinna asked me to talk to Skink-in-Tree's-Shade in Sadrith Mora and get a Detect Creatures Potion from him.
-埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶生物探测药水。
+埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶探测生物药水。
 
 > INFO.NAME mg_potion 3139587441170010072
 I delivered the Detect Creatures Potion to Neminda.
-我将生物探测药水交给了内明达。
+我将探测生物药水交给了内明达。
 
 > INFO.NAME mg_joinus 18221248862756332400
 Mages Guild: Recruit or Kill Llarar Bereloth
@@ -14754,7 +14754,7 @@ I have been told there is now a boat in Khuul that offers transport to the islan
 
 > INFO.NAME bm_rumors 221727903209618856
 I have arrived on the island of Solstheim. Captain Falx Carius is the commander at Fort Frostmoth, and I should speak with him. Captain Carius is likely in his chambers at Fort Frostmoth, which can be reached through the General Quarters, at the top of the south staircase. For matters dealing with the new colony, I should speak with Carnius Magius at the Imperial Cult Shrine.
-我已抵达索瑟泰姆岛。伐克斯·卡利尤斯队长是霜蛾要塞的指挥官，我应该和他谈谈。卡利尤斯队长可能在霜蛾要塞他的会议厅，可以通过南面楼梯顶端的指挥官住所到达。有关新殖民地的事情，我应该去帝国教团圣祠找卡尼乌斯·马基乌斯谈谈。 {能够抵达,帝国人}
+我已抵达索瑟泰姆岛。伐克斯·卡里乌斯队长是霜蛾要塞的指挥官，我应该和他谈谈。卡里乌斯队长可能在霜蛾要塞他的会议厅，可以通过南面楼梯顶端的指挥官住所到达。有关新殖民地的事情，我应该去帝国教团圣祠找卡尼乌斯·马基乌斯谈谈。 {能够抵达,帝国人}
 
 > INFO.NAME bm_morale 1569321721254021945
 Rebellion at Frostmoth
@@ -14762,11 +14762,11 @@ Rebellion at Frostmoth
 
 > INFO.NAME bm_morale 2346331212824521181
 Captain Carius has told me a little about the situation here at Fort Frostmoth. Most of the soldiers are stationed here because they were unfit to serve in the more important forts. They are a normally restless bunch, and Carius believes that they are recently even more edgy than usual.
-卡利尤斯队长告诉了我一些霜蛾要塞的情况。大部分士兵都驻扎在这里，因为他们不适合在更重要的要塞服役。他们通常都是一群烦躁不安的人，卡利尤斯认为他们最近比平时更加急躁。 {侍奉}
+卡里乌斯队长告诉了我一些霜蛾要塞的情况。大部分士兵都驻扎在这里，因为他们不适合在更重要的要塞服役。他们通常都是一群烦躁不安的人，卡里乌斯认为他们最近比平时更加急躁。 {侍奉}
 
 > INFO.NAME bm_morale 19869156022624716725
 Captain Carius would like me to investigate the unease he's feeling coming from the soldiers stationed here at Fort Frostmoth. He believes that there must be someone who is spreading ill will among his men. I should speak with the soldiers here and see what I might learn from them.
-卡利尤斯队长从驻扎在霜蛾要塞的士兵身上感受到了不安的情绪，他希望我能调查一下原因。他非常确定有人在士兵中散布了恶意。我得与这里的士兵谈谈，看看能了解到什么。
+卡里乌斯队长从驻扎在霜蛾要塞的士兵身上感受到了不安的情绪，他希望我能调查一下原因。他非常确定有人在士兵中散布了恶意。我得与这里的士兵谈谈，看看能了解到什么。
 
 > INFO.NAME bm_morale 852663791102128163
 The troops at Fort Frostmoth seemed at first to be unwilling to speak with me, perhaps upset at the recent ban on alcohol consumption at the fort. However, giving the soldier some alcohol has raised his spirits somewhat.
@@ -14774,11 +14774,11 @@ The troops at Fort Frostmoth seemed at first to be unwilling to speak with me, p
 
 > INFO.NAME bm_morale 286393199307113934
 A soldier has agreed to speak with me in exchange for some liquor I had with me. Apparently, Captain Carius has forbidden all alcohol consumption, and the soldiers are restless. They believe he has done it as a punishment for poor performance. I should report my findings to Carius.
-一名士兵同意与我交谈，前提是给他酒喝。很显然，卡利尤斯队长禁止一切饮酒，这让士兵们坐立不安。他们认为这是他对表现不佳的士兵的惩罚。我应该向卡利尤斯报告我的发现。
+一名士兵同意与我交谈，前提是给他酒喝。很显然，卡里乌斯队长禁止一切饮酒，这让士兵们坐立不安。他们认为这是他对表现不佳的士兵的惩罚。我应该向卡里乌斯报告我的发现。
 
 > INFO.NAME bm_morale 29696491441032515
 Carius tells me that although he and Antonius Nuncius discussed the effects of alcohol on the men, he never actually banned liquor consumption. The shipments, however, have stopped arriving. Captain Carius would like me to speak with the soldiers some more and find out where these rumors are being started.
-卡利尤斯告诉我，虽然他和安东尼乌斯·农基乌斯讨论过酒精对士兵的影响，但他从未真正禁止过饮酒。不过，酒已经停运了。卡利尤斯队长想让我再和士兵们谈谈，看看这些谣言是从哪里传出来的。
+卡里乌斯告诉我，虽然他和安东尼乌斯·农基乌斯讨论过酒精对士兵的影响，但他从未真正禁止过饮酒。不过，酒已经停运了。卡里乌斯队长想让我再和士兵们谈谈，看看这些谣言是从哪里传出来的。
 
 > INFO.NAME bm_morale 130821468190527779
 The soldiers seem willing to take the alcohol in my posession in exchange for information about what has become a dry fort. It seems that a bit of the drink makes them much more disposed to chatting.
@@ -14786,11 +14786,11 @@ The soldiers seem willing to take the alcohol in my posession in exchange for in
 
 > INFO.NAME bm_morale 32327291001612046
 One of the soldiers has told me that it was Antonius Nuncius who told him that the alcohol ban was a punishment from Captain Carius. Of course, I'll need more proof of that before I can possibly report this information to Carius. I should be able to find Nuncius either in the Imperial Cult Shrine, or in his office, located above the Armory.
-其中一个士兵告诉我，是安东尼乌斯·农基乌斯告诉他禁酒令是卡利尤斯队长的惩罚。当然，在向卡利尤斯报告这个消息之前，我需要更多的证据。我应该可以在帝国教团圣祠或者军械库楼上他的办公室找到农基乌斯。 {帝国人}
+其中一个士兵告诉我，是安东尼乌斯·农基乌斯告诉他禁酒令是卡里乌斯队长的惩罚。当然，在向卡里乌斯报告这个消息之前，我需要更多的证据。我应该可以在帝国教团圣祠或者军械库楼上他的办公室找到农基乌斯。 {帝国人}
 
 > INFO.NAME bm_morale 18143213902432221639
 Antonius Nuncius denies spreading rumors about Captain Carius or starting any trouble at all in the Fort. He claims to be a simple priest dedicated to serving his fellow man. He acts guilty, though, so perhaps it bears further investigation.
-安东尼乌斯·农基乌斯否认散布关于卡利尤斯队长的谣言，也否认在要塞制造任何麻烦。他声称自己只是个一心为同胞服务的普通牧师。不过他表现得很心虚，也许值得进一步调查。 {熊}
+安东尼乌斯·农基乌斯否认散布关于卡里乌斯队长的谣言，也否认在要塞制造任何麻烦。他声称自己只是个一心为同胞服务的普通牧师。不过他表现得很心虚，也许值得进一步调查。 {熊}
 
 > INFO.NAME bm_morale 675714535121884926
 I've found a large stash of alcohol in Antonius Nuncius' desk.
@@ -14806,19 +14806,19 @@ I have agreed to keep Antonius Nuncius' secret. In exchange, he has given me the
 
 > INFO.NAME bm_morale 438428070390411212
 I told Antonius Nuncius that I would be unable to keep his actions a secret from Captain Carius.
-我告诉安东尼乌斯·农基乌斯，我无法对卡利尤斯队长隐瞒他的行动。
+我告诉安东尼乌斯·农基乌斯，我无法对卡里乌斯队长隐瞒他的行动。
 
 > INFO.NAME bm_morale 1655920093103808159
 Captain Carius has thanked me for finding the source of the low morale among his troops. In gratitude, he has given me some useful Cure Disease potions, as there are diseases on this island not common in Vvardenfell, and a silver sparkblade. Carius will also request that Nuncius' assignment at the Fort be extended indefinitely.
-卡利尤斯队长感谢我找到了他部队士气低落的根源。为了表示感谢，他给了我一些有用的治愈疾病药剂，因为这座岛上有些疾病在瓦登费尔并不常见，他还给了我一把银火花刀。卡利尤斯还将请求无限期延长农基乌斯在要塞的任期。 {治愈疾病的药水,药水,这些药水,业务}
+卡里乌斯队长感谢我找到了他部队士气低落的根源。为了表示感谢，他给了我一些有用的治愈疾病药剂，因为这座岛上有些疾病在瓦登费尔并不常见，他还给了我一把银火花刀。卡里乌斯还将请求无限期延长农基乌斯在要塞的任期。 {治愈疾病的药水,药水,这些药水,业务}
 
 > INFO.NAME bm_morale 2705331067268224660
 Although I did not reveal the source of the low morale of the Fort's troops, Captain Carius has noticed a change in their attitude, and has thanked me for my assistance. He gave me some Cure Disease potions, as he says there are diseases on this island that have never before been encountered.
-虽然我没有揭开要塞部队士气低落的根源，但卡利尤斯队长已经注意到他们态度的转变，并对我的协助表示感谢。他给了我一些治疗疾病的药水，因为他说这座岛上有一些从未遇到过的疾病。 {治愈疾病的药水,这些药水}
+虽然我没有揭开要塞部队士气低落的根源，但卡里乌斯队长已经注意到他们态度的转变，并对我的协助表示感谢。他给了我一些治疗疾病的药水，因为他说这座岛上有一些从未遇到过的疾病。 {治愈疾病的药水,这些药水}
 
 > INFO.NAME bm_morale 296333852365532511
 Antonius Nuncius is dead, and Captain Carius has told me to stop searching for the source of the low morale.
-安东尼乌斯·农基乌斯已经死了，卡利尤斯队长让我停止寻找士气低落的根源。
+安东尼乌斯·农基乌斯已经死了，卡里乌斯队长让我停止寻找士气低落的根源。
 
 > INFO.NAME bm_ingmar 2554291451018522593
 Ingmar in a Bind
@@ -16314,7 +16314,7 @@ Thank you. Thank you so much. Look, take this key. You'll find all of the mispla
 
 > INFO.NAME shipments stopped arriving 24136205242319227690
 I'm finished. I'll never leave this island now. At least not alive. Carius will have my head! What have you done? I hope you're happy, %PCName.
-我完了。我再也不能离开这座岛了，至少不会活着离开。卡利尤斯会砍了我的头的！你做了什么？你现在开心了吧，%PCName。
+我完了。我再也不能离开这座岛了，至少不会活着离开。卡里乌斯会砍了我的头的！你做了什么？你现在开心了吧，%PCName。
 
 > INFO.NAME shipments stopped arriving 362532767723326978
 Well, I have no idea.... You've been in my desk? My desk? You've been in there? Why...that's an outrage! Stolen liquor? I have no idea.... All right. Perhaps I have been hiding the alcohol. It was for their own good! And...I had hoped that if the soldiers got fed up and revolted, I'd be able to justify going home to my superiors. Look, I don't want any trouble from you.
@@ -16322,7 +16322,7 @@ Well, I have no idea.... You've been in my desk? My desk? You've been in there? 
 
 > INFO.BNAM shipments stopped arriving 362532767723326978 c1
 I'll need to report this to Carius.
-我要向卡利尤斯报告这件事。
+我要向卡里乌斯报告这件事。
 
 > INFO.BNAM shipments stopped arriving 362532767723326978 c2
 Your secret is safe with me.
@@ -16454,7 +16454,7 @@ The smugglers are dead, so the smuggling ring is effectively broken. Not the way
 
 > INFO.NAME weapons being smuggled 19665235932969330041
 You have made your decision. I will let you report these findings to Carius. I hope you have made the correct decision.
-你已经做出了决定。我会让你向卡利尤斯报告这些发现。希望你的决定是正确的。
+你已经做出了决定。我会让你向卡里乌斯报告这些发现。希望你的决定是正确的。
 
 > INFO.NAME weapons being smuggled 2601729155144437399
 I believe we have enough information to break up this ring. Let us finish.
@@ -16478,7 +16478,7 @@ All taken care of.
 
 > INFO.NAME weapons being smuggled 14749119681063317963
 I figure they're all dead. We better get back to Cap'n Carius.
-我想他们都死了。我们最好回去找卡利尤斯队长。
+我想他们都死了。我们最好回去找卡里乌斯队长。
 
 > INFO.NAME weapons being smuggled 244992179364564546
 Looks like we're in the right place. We're gonna have to take all of them out if we're going to break up the smuggling ring. Kill all of these smugglers. I like the sound of that. Let's go!
@@ -16598,7 +16598,7 @@ It is right that you do this, as it is your people who have caused the damage. S
 
 > INFO.NAME someone in particular 2225931001740931554
 Aside from Captain Carius, I'm the only one here worth talking to.
-除了卡利尤斯队长，我是这里唯一值得交谈的人。
+除了卡里乌斯队长，我是这里唯一值得交谈的人。
 
 > INFO.NAME someone in particular 6283306532064711136
 If you get to Thirsk, heed the wisdom of Svenja Snow-Song. She has long been my good friend, and I have always known her advice to be sound.
@@ -16846,11 +16846,11 @@ I have been in this cave for many centuries. The draugr you met in this place ar
 
 > INFO.NAME barbarian's sad tale 191342994444195886
 I came to Solstheim with four of my brothers-in-arms.  We were on a quest, you see.  We were getting close...we could feel it.  But then, one of our fellowship -- a powerful sorceror named Grimkell -- betrayed the rest of us.  He laid an ambush, and assailed us with powerful magicka.  I managed to slay Grimkell, but not before my three other companions were turned to stone. You may have seen them, for they are the three standing stones of Brodir Grove, not far from here.
-我和四个兄弟一起来到索瑟泰姆。我们是来探险的。我们越来越接近…我们能感觉到。但是，我们的一个同伴，一个名叫格里姆凯尔的强大巫师，背叛了我们其他人。他设下埋伏，用强大的魔法攻击我们，我设法杀死了格瑞姆凯尔，但我的另外三个同伴却被变成了石头。你们可能见过他们，因为他们就是泊地尔石阵的三块巨石，离这里不远。 {魔力,树林}
+我和四个兄弟一起来到索瑟泰姆。我们是来探险的。我们越来越接近…我们能感觉到。但是，我们的一个同伴，一个名叫格里姆凯尔的强大巫师，背叛了我们其他人。他设下埋伏，用强大的魔力攻击我们，我设法杀死了格瑞姆凯尔，但我的另外三个同伴却被变成了石头。你们可能见过他们，因为他们就是泊地尔石阵的三块巨石，离这里不远。 {树林}
 
 > INFO.NAME protect these people 19432458115259792
 You have done well by the Skaal. My worst fears have been realized, %PCName. These creatures are werewolves, as you surely know. This is not a good omen for our village. And I have more troubling news. I have used my magic to detect any of the infection these beasts leave in their wake. You, my friend, have been infected.
-你们对斯卡尔人做得很好。我最担心的事情发生了，%PCName。这些怪物是狼人，你肯定知道。这对我们的村子可不是什么好兆头。我还有更麻烦的消息。我已经用魔法检测到了这些野兽留下的任何感染痕迹。你，我的朋友，已经被感染了。
+你们对斯卡尔人做得很好。我最担心的事情发生了，%PCName。这些怪物是狼人，你肯定知道。这对我们的村子可不是什么好兆头。我还有更麻烦的消息。我已经用魔法探测到了这些野兽留下的任何感染痕迹。你，我的朋友，已经被感染了。
 
 > INFO.NAME please the all-maker 557096290740
 The Ristaag has failed.
@@ -17550,7 +17550,7 @@ Please, %PCRace -- what news of my son Tymvaul?
 
 > INFO.BNAM old man's anguish 1644930801133724028 c1
 Tymvaul lives! He has given up his study of the dark arts, and is leaving Solstheim to study legitimate magicka. He said he will return some day and make you proud.
-蒂姆沃还活着！他放弃了黑魔法的研究，要离开索瑟泰姆去研究合法的魔法。他说他总有一天会回来，让你感到骄傲。
+蒂姆沃还活着！他放弃了黑魔法的研究，要离开索瑟泰姆去研究合法的魔力。他说他总有一天会回来，让你感到骄傲。
 
 > INFO.NAME old man's anguish 10838214951360828948
 Please, %PCRace -- what news of my son Tymvaul?
@@ -18010,11 +18010,11 @@ The Skaal say they know nothing of the attack? Interesting. I have no doubt that
 
 > INFO.NAME find the captain 2081522852892620877
 You must find Carius. And the Nord village would be a good place to begin looking.
-你必须找到卡利尤斯。从诺德村庄开始寻找是个不错的选择。 {诺德人}
+你必须找到卡里乌斯。从诺德村庄开始寻找是个不错的选择。 {诺德人}
 
 > INFO.NAME find the captain 46301907810277546
 There was a terrible battle. We were caught completely by surprise. And in the aftermath we realized that Captain Carius was missing. I searched thoroughly, and there was no sign of his body, so I do not believe he is dead. And these wolf creatures...they were horrible and fierce. You must find him, %PCName. There is a Nord village on the north end of this island. They may know something about what has occurred.
-发生了一场恶战，我们完全措手不及。战后我们发现卡利尤斯队长失踪了。我彻底搜查过了，没有发现他的尸体。所以我不相信他已经死了。而这些狼形生物…它们又可怕又凶猛。你一定要找到他，%PCName。这个岛的北端有一个诺德村庄。他们可能知道发生了什么事。 {诺德人}
+发生了一场恶战，我们完全措手不及。战后我们发现卡里乌斯队长失踪了。我彻底搜查过了，没有发现他的尸体。所以我不相信他已经死了。而这些狼形生物…它们又可怕又凶猛。你一定要找到他，%PCName。这个岛的北端有一个诺德村庄。他们可能知道发生了什么事。 {诺德人}
 
 > INFO.NAME find the captain 8607287322760015660
 We've given up the search. He still might turn up, but I'm not counting on it.
@@ -19232,7 +19232,7 @@ This place is a wreck, and the soldiers are pretty messed up. It's not a good th
 
 > INFO.NAME fort frostmoth 17754854594596817
 It's no easy tour up here at the fort, but I can handle it. You may hear whining and crying from some of the other soldiers here at the fort, but that's not how I see it. This place can be a model fort with Captain Carius commanding us.
-在要塞巡视可不是件容易的事，但我能应付得来。你可能会听到堡垒里其他士兵的抱怨和哭泣，但我不这么认为。在卡利尤斯队长的指挥下，这里可以成为模范要塞。
+在要塞巡视可不是件容易的事，但我能应付得来。你可能会听到堡垒里其他士兵的抱怨和哭泣，但我不这么认为。在卡里乌斯队长的指挥下，这里可以成为模范要塞。
 
 > INFO.NAME fort frostmoth 29050219592339626826
 Things are improving here, but there is still a great deal that must be done. I hold out hope, though.
@@ -19244,7 +19244,7 @@ The fort is in a terrible state right now. Hopefully, we will be able to get thi
 
 > INFO.NAME fort frostmoth 1131611911809323076
 It is a difficult assignment, that is certain. However, some of us make the best of it. It will be better one day, under the leadership of Captain Carius.
-这是一项艰巨的任务，这是肯定的。不过，我们中的一些人已经尽力了。在卡利尤斯队长的领导下，总有一天会好起来的。 {业务}
+这是一项艰巨的任务，这是肯定的。不过，我们中的一些人已经尽力了。在卡里乌斯队长的领导下，总有一天会好起来的。 {业务}
 
 > INFO.NAME fort frostmoth 26693096634557119
 You're in Fort Frostmoth, jewel of the Empire. Get out while you can.
@@ -19264,11 +19264,11 @@ It's the Imperial fort on the southern shore. Pretty hard to miss.
 
 > INFO.NAME captain carius 283931087369911077
 I am Captain Falx Carius, commander of Fort Frostmoth.
-我是伐克斯·卡利尤斯队长，霜蛾要塞的指挥官。
+我是伐克斯·卡里乌斯队长，霜蛾要塞的指挥官。
 
 > INFO.NAME captain carius 199998448237135861
 I am Captain Falx Carius, commander of Fort Frostmoth.
-我是伐克斯·卡利尤斯队长，霜蛾要塞的指挥官。
+我是伐克斯·卡里乌斯队长，霜蛾要塞的指挥官。
 
 > INFO.NAME captain carius 1970813735125011972
 There's been no word of him in weeks. He's assumed dead.
@@ -20224,7 +20224,7 @@ Evil, you say?  Self-righteous fool!  Spare me your sanctimonious lecturing!  Th
 
 > INFO.NAME mantle of woe 27548157401229012753
 Father? My...father? Could it be that he still holds me dear to his heart? I...I only wanted to study magic, free from the laws of the Skaal. Necromancy was quick, and easy. The power it offers is so overwhelming. Here...take the Mantle of Woe! Destroy it! I have brought shame to my father. I will leave Solstheim, I will find a place to study magicka, true magicka. Tell my father his love has saved me. I will return to him some day, when I can truly make him proud.
-父亲？我的…父亲？难道他还把我放在心上？我…我只想学习魔法，不受斯卡尔法律的约束。死灵法术又快又简单。它提供的力量让人难以抗拒。给…拿着悲痛外衣！毁了它！我让我的父亲蒙羞。我要离开索瑟泰姆，我要找个地方学习魔法，真正的魔法。告诉我父亲，他的爱救了我。我总有一天会回到他身边，当我能真正让他感到骄傲的时候。 {魔力}
+父亲？我的…父亲？难道他还把我放在心上？我…我只想学习魔法，不受斯卡尔法律的约束。死灵法术又快又简单。它提供的力量让人难以抗拒。给…拿着悲痛外衣！毁了它！我让我的父亲蒙羞。我要离开索瑟泰姆，我要找个地方学习魔力，真正的魔力。告诉我父亲，他的爱救了我。我总有一天会回到他身边，当我能真正让他感到骄傲的时候。
 
 > INFO.NAME mantle of woe 17016266101307620871
 Fool!  Such power cannot be shared!  I alone wear the Mantle of Woe!  I alone am master of the dead!  I shall slay you and add your corpse to my ranks!
@@ -20244,7 +20244,7 @@ The Mantle of Woe is now yours, %PCName. I urge you to destroy the robe, lest it
 
 > INFO.NAME mantle of woe 806130380249905604
 Behold the vestments I now wear!  When I read the old stories I had to learn the truth.  Could it be that an item of such grand magicka lie so close at hand, in the caves beneath my very village?  I could contain my eagerness no longer, and jumped into the well.  I braved Rimhull's dangers, and at last my efforts were rewarded.  Soon the dead shall walk, and Tymvaul the Dark shall lead them!
-看我现在穿的圣衣！当我读到这些古老的故事时，我不得不了解真相。难道在我村子下面的洞穴里，如此伟大的魔法物品就近在咫尺？我再也抑制不住内心的渴望，跳进了井里。我冒着寒霜冰洞的危险，终于得到了回报。亡者很快就会复活，黑暗的蒂姆沃将带领他们前进！ {魔力,报酬,沙尔}
+看我现在穿的圣衣！当我读到这些古老的故事时，我不得不了解真相。难道在我村子下面的洞穴里，如此伟大的魔力就近在咫尺？我再也抑制不住内心的渴望，跳进了井里。我冒着寒霜冰洞的危险，终于得到了回报。亡者很快就会复活，黑暗的蒂姆沃将带领他们前进！ {报酬,沙尔}
 
 > INFO.BNAM mantle of woe 806130380249905604 c1
 You're insane! You must die, as all evil should!
@@ -20268,7 +20268,7 @@ Such power must never be wielded by one so feeble!  The Mantle will be mine!
 
 > INFO.NAME mantle of woe 26351180222618218171
 Behold the vestments I now wear!  When I read the old stories I had to learn the truth.  Could it be that an item of such grand magicka lie so close at hand, in the caves beneath my very village?  I could contain my eagerness no longer, and jumped into the well.  I braved Rimhull's dangers, and at last my efforts were rewarded.  Soon the dead shall walk, and Tymvaul the Dark shall lead them!
-看我现在穿的圣衣！当我读到这些古老的故事时，我不得不了解真相。难道在我村子下面的洞穴里，如此伟大的魔法物品就近在咫尺？我再也抑制不住内心的渴望，跳进了井里。我冒着寒霜冰洞的危险，终于得到了回报。亡者很快就会复活，黑暗的蒂姆沃将带领他们前进！ {魔力,报酬,沙尔}
+看我现在穿的圣衣！当我读到这些古老的故事时，我不得不了解真相。难道在我村子下面的洞穴里，如此伟大的魔力就近在咫尺？我再也抑制不住内心的渴望，跳进了井里。我冒着寒霜冰洞的危险，终于得到了回报。亡者很快就会复活，黑暗的蒂姆沃将带领他们前进！ {报酬,沙尔}
 
 > INFO.BNAM mantle of woe 26351180222618218171 c1
 You're insane, Tymvaul.  You must die, as all evil should!
@@ -20316,7 +20316,7 @@ I heard he'd been killed. I'll find whoever did it.
 
 > INFO.NAME saenus lusius 60626714232288864
 He's a good guy. Bright one, too. He'll be running some errands for Captain Carius about now. Sure he'll be back soon, though.
-他是个好人，也很聪明，他现在去给卡利尤斯队长跑腿了，不过他很快就会回来的。 {差事}
+他是个好人，也很聪明，他现在去给卡里乌斯队长跑腿了，不过他很快就会回来的。 {差事}
 
 > INFO.NAME saenus lusius 222971031190516842
 He's a good guy. Bright one, too.
@@ -20748,7 +20748,7 @@ She was one of the finest warriors the Legion has ever known. She will be missed
 
 > INFO.NAME gaea artoria 17191145342932015927
 A fine warrior, second only to the Captain himself. She'll likely be off on errands for Captain Carius now.
-她是仅次于团长的优秀战士，她现在可能要去给卡利尤斯队长跑腿了。 {差事}
+她是仅次于团长的优秀战士，她现在可能要去给卡里乌斯队长跑腿了。 {差事}
 
 > INFO.NAME gaea artoria 1634111671564213706
 A fine warrior, second only to the Captain himself. She would be an excellent traveling companion.
@@ -20772,7 +20772,7 @@ She's with you, isn't she?
 
 > INFO.NAME gaea artoria 932010742777023255
 Tough fighter. Short temper. She can be a bit thick, but there's no one I'd want more on my side in a fight. I heard she was off on some errand for Captain Carius. She'll be back soon, I'm sure.
-坚强的战士，脾气暴躁，她是有点粗鲁，但打起仗来我最希望她站在我这边。我听说她去给卡利尤斯队长办事了，我相信她很快就会回来的。 {差事}
+坚强的战士，脾气暴躁，她是有点粗鲁，但打起仗来我最希望她站在我这边。我听说她去给卡里乌斯队长办事了，我相信她很快就会回来的。 {差事}
 
 > INFO.NAME gaea artoria 205712335959612845
 Tough fighter. Short temper. She can be a bit thick, but there's no one I'd want more on my side in a fight. You can probably find her in the General Quarters, Upper Level.
@@ -20808,7 +20808,7 @@ My candy treats are tasty, they are!  And filled with special sugar and love!  T
 
 > INFO.NAME brodir grove 1302623000259477530
 Brodir Grove is where Grimkell ambushed us.  My friends were turned to stone on that very spot, and there they remain, a monument of betrayal.  I too was caught in the spell, but thought I had been spared its effects.  I was wrong.  Instead of killing me, like it did my friends, Grimkell's magicka turned me into living stone.  You see, these events did take place -- five hundred years ago.  I have remained here ever since.  And here I will stay, until I finally find the entrance to Sovngarde.
-泊地尔石阵是格里姆凯尔伏击我们的地方。我的朋友们就在那个地方被变成了石头，他们就留在那里，成为了背叛的纪念碑。我也中了咒语，但我以为自己没有受到影响。我错了，格力姆凯尔的魔法没有杀死我，反而把我变成了活石。你看，这些事情确实发生了 -- 五百年前。从那时起我就一直待在这里，我会一直待在这里，直到我找到松加德的入口。 {树林,魔力}
+泊地尔石阵是格里姆凯尔伏击我们的地方。我的朋友们就在那个地方被变成了石头，他们就留在那里，成为了背叛的纪念碑。我也中了咒语，但我以为自己没有受到影响。我错了，格力姆凯尔的魔力没有杀死我，反而把我变成了活石。你看，这些事情确实发生了 -- 五百年前。从那时起我就一直待在这里，我会一直待在这里，直到我找到松加德的入口。 {树林}
 
 > INFO.NAME assassinated 2350524040492646
 Well, you certainly blew it, didn't you?
@@ -21408,7 +21408,7 @@ I can't let you do that.
 
 > INFO.NAME make a deal 14337273261010026742
 I'll get off the island. Leave the weapons behind. You just let me go peacefully and don't cause any trouble with Carius, and I'm gone. And, look, I'll give you this nice axe as a little bonus for keeping this quiet. Carius will never miss me, and I'll just disappear. Ask Lusius about it. He'll give you good advice.
-我会离开这座岛，把武器留下。你只要让我和平离开，别给卡利尤斯惹麻烦，我就走。听着，我会给你这把好斧头，作为你保持沉默的一点奖励。卡利尤斯不会想我的，我就会消失了。问问卢西乌斯，他会给你很好的建议。
+我会离开这座岛，把武器留下。你只要让我和平离开，别给卡里乌斯惹麻烦，我就走。听着，我会给你这把好斧头，作为你保持沉默的一点奖励。卡里乌斯不会想我的，我就会消失了。问问卢西乌斯，他会给你很好的建议。
 
 > INFO.NAME make a deal 3142627724182042095
 Interesting. Well, I suppose you could let him go. I know Spurius, and while he wasn't the best soldier, he wasn't the worst, either. And I know he has a family to feed back home. Still, he has stolen from the Legion, and his crimes are punishable by death. I'm afraid the decision is yours, my friend. Whatever you decide, I will support it.
@@ -21904,15 +21904,15 @@ All hail %PCName, the new chieftain of Thirsk! My lord, I can provide you with s
 
 > INFO.NAME greeting 1 159314428136815855
 Use whatever magicka you used to get in here and get out!  The mead hall is closed!  We've got a lot of work to do and don't need you in our way.  If you can't use your fancy spells then maybe you can just squeeze out through the main doors.  They're boarded up on the other side to prevent people like you from getting in, but I think you can make it through.  Now get going, before I get nasty!
-不管你用什么魔法进来的，都给我出去！酒馆关门了！我们有很多事要做，不需要你来碍事。如果你不能用你的魔法，也许你可以从大门挤出去。门的另一边用木板封住了，以防你这种人进来。但我想你能通过的。趁我还没发火，赶紧走吧！ {魔力,蜜酒,工作}
+不管你用什么魔力进来的，都给我出去！酒馆关门了！我们有很多事要做，不需要你来碍事。如果你不能用你那漂亮的法术，也许你可以从大门挤出去。门的另一边用木板封住了，以防你这种人进来。但我想你能通过的。趁我还没发火，赶紧走吧！ {蜜酒,工作}
 
 > INFO.NAME greeting 1 2586935333272195
 Use whatever magicka you used to get in here and get out!  The mead hall is closed!  We've got a lot of work to do and don't need you in our way.  If you can't use your fancy spells then maybe you can just squeeze out through the main doors.  They're boarded up on the other side to prevent people like you from getting in, but I think you can make it through.  Now get going, before I get nasty!
-不管你用什么魔法进来的，都给我出去！酒馆关门了！我们有很多事要做，不需要你来碍事。如果你不能用你的魔法，也许你可以从大门挤出去。门的另一边用木板封住了，以防你这种人进来。但我想你能通过的。趁我还没发火，赶紧走吧！ {魔力,蜜酒,工作}
+不管你用什么魔力进来的，都给我出去！酒馆关门了！我们有很多事要做，不需要你来碍事。如果你不能用你那漂亮的法术，也许你可以从大门挤出去。门的另一边用木板封住了，以防你这种人进来。但我想你能通过的。趁我还没发火，赶紧走吧！ {蜜酒,工作}
 
 > INFO.NAME greeting 1 335259792230710527
 Use whatever magicka you used to get in here and get out!  The mead hall is closed!  We've got a lot of work to do and don't need you in our way.  If you can't use your fancy spells then maybe you can just squeeze out through the main doors.  They're boarded up on the other side to prevent people like you from getting in, but I think you can make it through.  Now get going, before I get nasty!
-不管你用什么魔法进来的，都给我出去！酒馆关门了！我们有很多事要做，不需要你来碍事。如果你不能用你的魔法，也许你可以从大门挤出去。门的另一边用木板封住了，以防你这种人进来。但我想你能通过的。趁我还没发火，赶紧走吧！ {魔力,蜜酒,工作}
+不管你用什么魔力进来的，都给我出去！酒馆关门了！我们有很多事要做，不需要你来碍事。如果你不能用你那漂亮的法术，也许你可以从大门挤出去。门的另一边用木板封住了，以防你这种人进来。但我想你能通过的。趁我还没发火，赶紧走吧！ {蜜酒,工作}
 
 > INFO.NAME greeting 1 14681182612655820574
 My thanks for escorting me back to the Imperial Cult Shrine! If you haven't already, make sure you talk to Jeleen. He'll want to reward you for your duty.
@@ -22924,7 +22924,7 @@ I've nothing to say to you.
 
 > INFO.NAME greeting 1 1127625935149917108
 Carius is back! I don't know where he was, but I knew he'd find a way home. Things'll go much better with him around.
-卡利尤斯回来了！我不知道他去了哪里，但我知道他会找到回家的路的，有他在，一切都会好起来的。
+卡里乌斯回来了！我不知道他去了哪里，但我知道他会找到回家的路的，有他在，一切都会好起来的。
 
 > INFO.NAME greeting 1 121358563532626322
 Still no word from the Captain. I suppose we have to figure he's gone for good.
@@ -22980,7 +22980,7 @@ There has been no word from the Captain. I fear the worst.
 
 > INFO.NAME greeting 1 289018642493719579
 Captain Carius has returned. He's said very little about his ordeal, but we are all just glad he is back where he belongs. Fort Frostmoth will be stronger than ever.
-卡利尤斯队长回来了。他对自己的遭遇知之甚少，但我们都很高兴他回到了属于他的地方。霜蛾要塞会比以前更加强大。
+卡里乌斯队长回来了。他对自己的遭遇知之甚少，但我们都很高兴他回到了属于他的地方。霜蛾要塞会比以前更加强大。
 
 > INFO.NAME greeting 1 1638111468175893831
 As I said, someone must find the Captain!
@@ -22996,15 +22996,15 @@ From what Artoria has told us, the course is clear. You must travel to the Nord 
 
 > INFO.NAME greeting 1 27140127253223731449
 Thank the gods you've returned! I see that Artoria has not returned with you. This day is filled with horrible news. There was a terrible battle. And Captain Carius...someone must find the Captain!
-感谢诸神，你回来了！我看到阿尔托莉雅没有和你一起回来。今天有很多可怕的消息，发生了一场可怕的战斗。卡利尤斯队长…必须有人找到队长！
+感谢诸神，你回来了！我看到阿尔托莉雅没有和你一起回来。今天有很多可怕的消息，发生了一场可怕的战斗。卡里乌斯队长…必须有人找到队长！
 
 > INFO.NAME greeting 1 223981908204043980
 Thank the gods you've returned! There was a terrible battle. And Captain Carius...someone must find the Captain!
-感谢诸神，你回来了！发生了一场可怕的战斗。卡利尤斯队长…一定要找到队长！
+感谢诸神，你回来了！发生了一场可怕的战斗。卡里乌斯队长…一定要找到队长！
 
 > INFO.NAME greeting 1 573264902532323637
 Wait! Something here is amiss. The fort has been attacked while we were gone. We must find Captain Carius immediately!
-等等！这里有点不对劲，我们不在的时候要塞被袭击了，我们必须马上找到卡利尤斯队长！
+等等！这里有点不对劲，我们不在的时候要塞被袭击了，我们必须马上找到卡里乌斯队长！
 
 > INFO.NAME greeting 1 295389804147599156
 He wants to make a deal with you, does he?
@@ -23012,15 +23012,15 @@ He wants to make a deal with you, does he?
 
 > INFO.NAME greeting 1 1142220652806514659
 Yes? Would you like to continue to travel together? I imagine it would be best with the task at hand. Captain Carius wishes for us to work together.
-是吗？你们愿意一起去吗？我想这对我们手头的任务最好不过了。卡利尤斯队长希望我们合作。 {工作}
+是吗？你们愿意一起去吗？我想这对我们手头的任务最好不过了。卡里乌斯队长希望我们合作。 {工作}
 
 > INFO.NAME greeting 1 855119299901925858
 I understand you have chosen to work with my compatriot, Gaea Artoria. There is no finer warrior in Fort Frostmoth, save perhaps Captain Carius. I wish you both the best of luck.
-我知道你选择和我的同胞盖娅·阿尔托利亚合作，除了卡利尤斯队长，霜蛾要塞没有比他更优秀的战士了。祝你们好运。 {工作,幸运}
+我知道你选择和我的同胞盖娅·阿尔托利亚合作，除了卡里乌斯队长，霜蛾要塞没有比他更优秀的战士了。祝你们好运。 {工作,幸运}
 
 > INFO.NAME greeting 1 1323130865661912093
 Captain Carius mentioned that you might come to speak with me. How may I assist you?
-卡利尤斯队长说你可能会来找我。我能协助你吗？
+卡里乌斯队长说你可能会来找我。我能协助你吗？
 
 > INFO.NAME greeting 1 1324825270933028237
 What do you want?
@@ -23124,15 +23124,15 @@ I was mentioning to you that the men seem edgy.
 
 > INFO.NAME greeting 1 137632770207883628
 Yes? What can I do for you? I am Captain Falx Carius, commander of Fort Frostmoth.
-什么事？有何贵干？我是伐克斯·卡利尤斯队长，霜蛾要塞的指挥官。
+什么事？有何贵干？我是伐克斯·卡里乌斯队长，霜蛾要塞的指挥官。
 
 > INFO.NAME greeting 1 25759284532884413267
 There is still no word from Captain Carius. We will have to learn to manage here without him.
-卡利尤斯队长还是没有消息，没有他，我们也得学会管理这里。
+卡里乌斯队长还是没有消息，没有他，我们也得学会管理这里。
 
 > INFO.NAME greeting 1 1465721479153773983
 Captain Carius has returned! I've not heard the story, but he is in his chambers.
-卡利尤斯队长回来了！虽然我不知道他经历了什么，但他在他的房间里。
+卡里乌斯队长回来了！虽然我不知道他经历了什么，但他在他的房间里。
 
 > INFO.NAME greeting 1 2719126091197493678
 What will we do without the Captain here? This is terrible. Something must be done. What if those creatures come back?
@@ -23156,23 +23156,23 @@ The fort...the creatures. It's horrible. And, the Captain, I haven't seen him...
 
 > INFO.NAME greeting 1 5785324155371234
 What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想干什么？去见卡利尤斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
+你想干什么？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
 
 > INFO.NAME greeting 1 14424134471853613220
 What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想干什么？去见卡利尤斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
+你想干什么？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
 
 > INFO.NAME greeting 1 1742919251110211032
 What do you want? Go see Captain Carius. Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想干什么？去见卡利尤斯队长，如果你想找点事做，就去找卡利尤斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
+你想干什么？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
 
 > INFO.NAME greeting 1 7709380342601831
 What do you want? Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想要什么？如果你想找点事做，就去找卡利尤斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
+你想要什么？如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
 
 > INFO.NAME greeting 1 149479153259528429
 Welcome to Solstheim, jewel of absolutely nowhere. It's a miserable place, even for the warmbloods. If you want to leave, I'd be happy to take you back to Vvardenfell. If you feel you must stay, speak with Captain Falx Carius in his chambers at Fort Frostmoth. Captain Carius is the commander here. Not a bad man, but he is a fool for remaining in this place. So cold. So cold. If you are here about the colony, Carnius Magius is the man you will speak to. Find him at the Imperial Cult Shrine.
-欢迎来到索瑟泰姆，无处不在的宝石。这是个悲惨的地方，即使是对温血人来说。如果你想离开，我很乐意带你回瓦登费尔。如果你觉得必须留下，就去伐克斯·卡利尤斯队长在霜蛾要塞的会议厅找他。卡利尤斯队长是这里的指挥官。人不坏，但留在这里就是个傻子。太冷了。太冷了。如果你是为殖民地的事而来，卡尼乌斯·马基乌斯就是你要找的人。去帝国教团圣祠找他吧。 {帝国人}
+欢迎来到索瑟泰姆，无处不在的宝石。这是个悲惨的地方，即使是对温血人来说。如果你想离开，我很乐意带你回瓦登费尔。如果你觉得必须留下，就去伐克斯·卡里乌斯队长在霜蛾要塞的会议厅找他。卡里乌斯队长是这里的指挥官。人不坏，但留在这里就是个傻子。太冷了。太冷了。如果你是为殖民地的事而来，卡尼乌斯·马基乌斯就是你要找的人。去帝国教团圣祠找他吧。 {帝国人}
 
 > INFO.NAME greeting 1 2724215468161597167
 Do you wish to go back to Vvardenfell as much as I do? What about Raven Rock, where the new colony is going to be built? I can take you there for a price.
@@ -26640,7 +26640,7 @@ Up to you. I'll be here if you need me.
 
 > INFO.NAME assist you 250507164541925610
 Sounds good. Let's go get 'em. Saenus will have to run those other errands that Captain Carius had for us to do. I'm ready for some action.
-听起来不错。我们去找他们吧。塞努斯还得去办卡利尤斯队长交待的事。我准备好行动了。 {差事}
+听起来不错。我们去找他们吧。塞努斯还得去办卡里乌斯队长交待的事。我准备好行动了。 {差事}
 
 > INFO.NAME assist you 484311056140511865
 Yeah, Cap'n said something about some smugglers. Wanna go crack some skulls?
@@ -26660,11 +26660,11 @@ As you wish. If you change your mind, please let me know.
 
 > INFO.NAME assist you 1379215723152159737
 Excellent. Gaea Artoria will have to perform the other tasks that Captain Carius had for me today, but no matter. Let us find these scoundrels!
-好极了。盖娅·阿尔托利亚今天还得执行卡利尤斯队长交给我的其他任务，不过没关系。让我们找到这些恶棍！
+好极了。盖娅·阿尔托利亚今天还得执行卡里乌斯队长交给我的其他任务，不过没关系。让我们找到这些恶棍！
 
 > INFO.NAME assist you 29269206844150370
 Ah yes, this smuggling ring. Captain Carius mentioned something about that. I would be glad to help. Though I'm admittedly not the most handy with my blade, I believe I can help guide you through this conundrum.
-对了，这个走私团伙，卡利尤斯队长提到过，我很乐意帮忙。虽然我的刀刃技术不怎么样，但我相信我能帮你们解决这个难题。 {戒指}
+对了，这个走私团伙，卡里乌斯队长提到过，我很乐意帮忙。虽然我的刀刃技术不怎么样，但我相信我能帮你们解决这个难题。 {戒指}
 
 > INFO.BNAM assist you 29269206844150370 c1
 I would like you to work with me.
@@ -26868,7 +26868,7 @@ The berserkers are half-naked Nords who live to kill. They've been driven mad by
 
 > INFO.NAME fryse hags 3233563402024329602
 The fryse hags are mages dedicated to the teachings of Kyne, the widow of the god Shor. Each is a powerful sorceress skilled in the use of frost-based magicka. They're vicious lasses, and view most people as a threat to their beliefs. They've been seen out in the wild, and in a couple of the ice caves.
-冰霜女巫是信奉朔尔神遗孀凯娜教义的法师。她们都是精通冰霜魔法的强大女巫。她们是恶毒的女孩，视大多数人为其信仰的威胁。人们曾在野外和几个冰洞中看到过她们。 {魔力}
+冰霜女巫是信奉朔尔神遗孀凯娜教义的法师。她们都是精通冰霜魔力的强大女巫。她们是恶毒的女孩，视大多数人为其信仰的威胁。人们曾在野外和几个冰洞中看到过她们。
 
 > INFO.NAME fryse hags 154255821006816837
 The fryse hags are powerful and savage mages dedicated to the teachings of Kyne, the Mother of Men. They despise anyone not of their order, and will attack on sight.
@@ -27700,7 +27700,7 @@ I have no real interest in banning alcohol at Fort Frostmoth, especially since t
 
 > INFO.NAME dry fort 32333211692661618893
 Looks like that all got cleared up. I didn't think Captain Carius was such a bad guy. I mean, he's the only one who actually seems to enjoy living on this island.
-看来事情都解决了。我不觉得卡利尤斯队长是个坏人，我是说，他是唯一一个看起来很喜欢住在这个岛上的人。
+看来事情都解决了。我不觉得卡里乌斯队长是个坏人，我是说，他是唯一一个看起来很喜欢住在这个岛上的人。
 
 > INFO.NAME dry fort 2086423597133116327
 I'd feel a whole lot better talking about this if I had something to wet my whistle, but you seem okay. I just know that I heard from Antonius Nuncius that the Captain had placed a ban on all alcohol at the fort. And, sure enough, there was none to be found.
@@ -27724,7 +27724,7 @@ It's a pretty foul situation, if you ask me.
 
 > INFO.NAME dry fort 232673708231219126
 That's right...no liquor at all is allowed at Fort Frostmoth these days. Captain's orders, I guess. Seemed odd coming from him. Captain Carius seemed like a fair enough guy, as long as we carried out our duties. Guess he figured we weren't up to his standards, so he cut us off. Since then, everyone's been in a pretty foul mood.
-没错…霜蛾要塞最近不准喝酒。我猜是队长的命令，从他嘴里说出来有点奇怪。卡利尤斯队长看起来很公正，只要我们按照指示履行职务就行。我猜他觉得我们达不到他的标准，所以就把我们赶走了。从那以后，每个人的心情都很糟糕。
+没错…霜蛾要塞最近不准喝酒。我猜是队长的命令，从他嘴里说出来有点奇怪。卡里乌斯队长看起来很公正，只要我们按照指示履行职务就行。我猜他觉得我们达不到他的标准，所以就把我们赶走了。从那以后，每个人的心情都很糟糕。
 
 > INFO.NAME survivor 1727529530273162614
 You did the right thing by bringing her here, %PCName.
@@ -29496,7 +29496,7 @@ Ah, well. Duty calls.
 
 > INFO.NAME hello 1457456982281498
 Yes? What can I do for you? I am Captain Falx Carius, commander of Fort Frostmoth.
-什么事？有何贵干？我是伐克斯·卡利尤斯队长，霜蛾要塞的指挥官。
+什么事？有何贵干？我是伐克斯·卡里乌斯队长，霜蛾要塞的指挥官。
 
 > INFO.NAME hello 177052367153614661
 Stuck here. Forever. I'll die.
@@ -29536,7 +29536,7 @@ All is well here at Fort Frostmoth.
 
 > INFO.NAME hello 95085293067214145
 We must find Captain Carius. This place will fall to shambles without him.
-我们必须找到卡利尤斯队长。没有他这里会变得一团糟的。
+我们必须找到卡里乌斯队长。没有他这里会变得一团糟的。
 
 > INFO.NAME hello 1754973041763330618
 Thank the gods you've returned!
@@ -29548,7 +29548,7 @@ Let us ferret out this ring of smugglers.
 
 > INFO.NAME hello 26928226011047512912
 Captain Carius mentioned that you might come to speak with me. How may I assist you?
-卡利尤斯队长说你可能会来找我。我能为您效劳吗？
+卡里乌斯队长说你可能会来找我。我能为您效劳吗？
 
 > INFO.NAME hello 193419224975110833
 I'll be gone soon. I promise you that.

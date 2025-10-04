@@ -3266,7 +3266,7 @@ Fire Damage
 
 > GMST.STRV sEffectShockDamage
 Shock Damage
-雷电伤害
+闪电伤害
 
 > GMST.STRV sEffectFrostDamage
 Frost Damage
@@ -3318,39 +3318,39 @@ Poison
 
 > GMST.STRV sEffectWeaknessToFire
 Weakness to Fire
-惧火
+火焰虚弱
 
 > GMST.STRV sEffectWeaknessToFrost
 Weakness to Frost
-惧寒
+冰霜虚弱
 
 > GMST.STRV sEffectWeaknessToShock
 Weakness to Shock
-惧雷
+闪电虚弱
 
 > GMST.STRV sEffectWeaknessToMagicka
 Weakness to Magicka
-惧魔
+魔力虚弱
 
 > GMST.STRV sEffectWeaknessToCommonDisease
 Weakness to Common Disease
-降低常见疾病抗性
+常见疾病虚弱
 
 > GMST.STRV sEffectWeaknessToBlightDisease
 Weakness to Blight Disease
-降低枯萎病抗性
+枯萎病虚弱
 
 > GMST.STRV sEffectWeaknessToCorprusDisease
 Weakness to Corprus Disease
-降低尸化病抗性
+尸化病虚弱
 
 > GMST.STRV sEffectWeaknessToPoison
 Weakness to Poison
-惧毒
+毒素虚弱
 
 > GMST.STRV sEffectWeaknessToNormalWeapons
 Weakness to Normal Weapons
-物理虚弱
+常规武器虚弱
 
 > GMST.STRV sEffectDisintegrateWeapon
 Disintegrate Weapon
@@ -3462,15 +3462,15 @@ Almsivi Intervention
 
 > GMST.STRV sEffectDetectAnimal
 Detect Animal
-动物探测
+探测动物
 
 > GMST.STRV sEffectDetectEnchantment
 Detect Enchantment
-环境探测
+探测环境
 
 > GMST.STRV sEffectDetectKey
 Detect Key
-侦测密钥
+探测钥匙
 
 > GMST.STRV sEffectSpellAbsorption
 Spell Absorption
@@ -3566,19 +3566,19 @@ Absorb Skill
 
 > GMST.STRV sEffectResistFire
 Resist Fire
-抗火
+抵抗火焰
 
 > GMST.STRV sEffectResistFrost
 Resist Frost
-抗寒
+抵抗冰霜
 
 > GMST.STRV sEffectResistShock
 Resist Shock
-抗雷
+抵抗闪电
 
 > GMST.STRV sEffectResistMagicka
 Resist Magicka
-抗魔
+抵抗魔力
 
 > GMST.STRV sEffectResistCommonDisease
 Resist Common Disease
@@ -5755,7 +5755,7 @@ This effect temporarily lowers the value of a victim's health. Any derived attri
 
 > MGEF.DESC [13 00 00 00]
 This effect temporarily lowers the value of a victim's magicka. Any derived attributes are recalculated. Magicka returns to its original value when the spell ends. The magnitude is the units of magicka reduced each second of duration.
-该效果会暂时降低目标的魔力值。任何衍生属性都会重新计算。当法术结束时，魔力值会恢复到初始值。效果强度决定了持续时间内每秒减少的魔法值单位。
+该效果会暂时降低目标的魔力值。任何衍生属性都会重新计算。当法术结束时，魔力值会恢复到初始值。效果强度决定了持续时间内每秒减少的魔力值单位。
 
 > MGEF.DESC [14 00 00 00]
 This effect temporarily lowers the value of a victim's fatigue. Any derived attributes are recalculated. Fatigue returns to its original value when the spell ends. The magnitude is the units of fatigue reduced each second of duration.
@@ -5776,7 +5776,7 @@ This effect lowers the value of one of a victim's attributes. Only Strength, Int
 
 > MGEF.DESC [18 00 00 00]
 This effect lowers the value of a victim's magicka. Any derived attributes are recalculated. Magicka does not return to its original value at the end of the spell's duration; it restores normally, or may be restored with a restore magicka spell or potion. The magnitude is the units of magicka lost each second of duration.
-该效果会降低目标的魔法值。任何衍生属性都会重新计算。魔力值不会在法术持续时间结束时恢复到初始值；它会正常恢复，也可以用恢复魔力值的法术或药水恢复。效果强度决定了持续时间内每秒损失的魔法值单位。
+该效果会降低目标的魔力值。任何衍生属性都会重新计算。魔力值不会在法术持续时间结束时恢复到初始值；它会正常恢复，也可以用恢复魔力值的法术或药水恢复。效果强度决定了持续时间内每秒损失的魔力值单位。
 
 > MGEF.DESC [19 00 00 00]
 """This effect lowers the value of a victim's fatigue. Any derived attributes are recalculated. Fatigue does not return to its original value at the end of the spell's duration; it restores normally, or may be restored with a restore fatigue spell or potion. The magnitude is the units of fatigue lost each second of duration.
@@ -5941,15 +5941,15 @@ The subject of this effect is transported instantaneously to the altar of the ne
 > MGEF.DESC [40 00 00 00]
 """The caster of this effect can detect any entity animated by a spirit; they appear on the map as symbols. This effect includes all characters and all classes of monsters (creatures, humanoids, elementals, Daedra, undead, artifacts, plants, vampires). The effect's magnitude is the range in feet from the caster that animals are detected.
 """
-该效果的施法者可以侦测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有角色和所有类别的怪物（生物、类人、元素、迪德拉、亡灵、文物、植物、吸血鬼）。该效果的大小为动物被探测到的距离施法者的范围（以尺为单位）。
+该效果的施法者可以探测到任何由灵魂控制的实体；它们会以符号的形式出现在地图上。该效果包括所有角色和所有类别的怪物（生物、类人、元素、迪德拉、亡灵、文物、植物、吸血鬼）。该效果的大小为动物被探测到的距离施法者的范围（以尺为单位）。
 
 > MGEF.DESC [41 00 00 00]
 The caster of this effect can detect enchanted items; they appear on the map as symbols. The effect's magnitude is the range in feet from the caster that enchanted items are detected.
-该效果的施法者可以检测附魔物品，它们会以符号的形式出现在地图上。该效果的范围是施法者检测到附魔物品的距离（以尺为单位）。
+该效果的施法者可以探测附魔物品，它们会以符号的形式出现在地图上。该效果的范围是施法者探测到附魔物品的距离（以尺为单位）。
 
 > MGEF.DESC [42 00 00 00]
 The caster of this effect can detect keys; their locations appear on the map as symbols. The effect's magnitude is the range in feet from the caster that keys are detected.
-该效果的施法者可以侦测钥匙；钥匙的位置会以符号的形式显示在地图上。该效果的范围是以尺为单位，从施法者身边检测到钥匙的范围。
+该效果的施法者可以探测钥匙；钥匙的位置会以符号的形式显示在地图上。该效果的范围是以尺为单位，从施法者身边探测到钥匙的范围。
 
 > MGEF.DESC [43 00 00 00]
 This effect allows the caster to absorb an attacking spell's power as an increase to his reservoir of magicka. The magnitude is the percentage chance that an attacking spell is absorbed. If successful, the caster absorbs the attacking spell's cost in spell points as increased magicka. (The caster's magicka cannot be increased above the caster's standard magicka score.) If failed, the attacking spell takes effect normally.
@@ -5989,7 +5989,7 @@ If a subject's health has been reduced by magical attack, the effect can restore
 
 > MGEF.DESC [4C 00 00 00]
 If a subject's magicka has been reduced by magical attack, the effect can restore magicka to its original value. The magnitude is the units of magicka restored for each second of duration.
-如果目标的魔力值因魔法攻击而减少，该效果可以将魔力值恢复到初始值。恢复量为持续时间内每秒恢复的魔法值单位。
+如果目标的魔力值因魔法攻击而减少，该效果可以将魔力值恢复到初始值。恢复量为持续时间内每秒恢复的魔力值单位。
 
 > MGEF.DESC [4D 00 00 00]
 If a subject's fatigue has been reduced by magical attack, the effect can restore fatigue to its original value. The magnitude is the units of fatigue restored for each second of duration.
@@ -6022,7 +6022,7 @@ This effect temporarily increases the value of one of a subject's skills. The sk
 > MGEF.DESC [54 00 00 00]
 """This effect temporarily modifies the multiplier used to derive the amount of magicka a character has.  The magnitude is multiplied by a character's Intelligence to derive magicka.  The standard multiplier is 0.5 (Intelligence * 0.5).  A magnitude of 2 produces magicka equal to the character's Intelligence * 2.
 """
-该效果可暂时修改用于计算角色魔法值的乘数。数值乘以角色的智力来计算魔力值。标准乘数为0.5（智力*0.5）。幅度为2时，产生的魔力值等于角色的智力*2。
+该效果可暂时修改用于计算角色魔力值的乘数。数值乘以角色的智力来计算魔力值。标准乘数为0.5（智力*0.5）。幅度为2时，产生的魔力值等于角色的智力*2。
 
 > MGEF.DESC [55 00 00 00]
 This effect temporarily transfers a portion of the victim's attribute to the caster. Only Strength, Intelligence, Willpower, Agility, Speed, Endurance, Personality, and Luck are affected. The caster may exceed the attribute's maximum for the duration. When the effect ends, both caster and victim attributes return to original values.
@@ -9367,7 +9367,7 @@ Resist Disease
 
 > SPEL.FNAM resist magicka_50
 Resist Magicka
-抵抗魔法
+抵抗魔力
 
 > SPEL.FNAM thunder fist
 Thunder Fist
@@ -9387,19 +9387,19 @@ Resist Shock
 
 > SPEL.FNAM weakness fire_50
 Weakness to Fire
-惧火
+火焰虚弱
 
 > SPEL.FNAM weakness magicka_50
 Weakness to Magicka
-惧魔
+魔力虚弱
 
 > SPEL.FNAM weakness frost_25
 Weakness to Frost
-惧寒
+冰霜虚弱
 
 > SPEL.FNAM weakness shock_25
 Weakness to Shock
-惧电
+闪电虚弱
 
 > SPEL.FNAM burning hand
 Burning Hand
@@ -9943,7 +9943,7 @@ Clench
 
 > SPEL.FNAM curse spell points
 Curse Spell Points
-诅咒魔力
+诅咒法术点
 
 > SPEL.FNAM grave curse: spell points
 Grave Curse: Magicka
@@ -9951,7 +9951,7 @@ Grave Curse: Magicka
 
 > SPEL.FNAM dread curse: spell points
 Dread Curse: Spell Points
-骇人诅咒：魔力
+骇人诅咒：法术点
 
 > SPEL.FNAM soulpinch
 Soulpinch
@@ -9959,7 +9959,7 @@ Soulpinch
 
 > SPEL.FNAM ash curse: spell points
 Ash Curse: Spell Points
-灰烬诅咒：魔力
+灰烬诅咒：法术点
 
 > SPEL.FNAM curse strength
 Curse Strength
@@ -10375,7 +10375,7 @@ Gash Spirit [Ranged]
 
 > SPEL.FNAM magicka leech
 Magicka Leech
-魔力吸取
+魔力蛭吸
 
 > SPEL.FNAM spell drain
 Spell Drain
@@ -10387,7 +10387,7 @@ Wild Flay Spirit
 
 > SPEL.FNAM strength leech
 Strength Leech
-力量吸取
+力量蛭吸
 
 > SPEL.FNAM wild weakness
 Wild Weakness
@@ -10547,55 +10547,55 @@ Spark
 
 > SPEL.FNAM weakness to blight disease
 Weakness to Blight Disease
-降低枯萎病抗性
+枯萎病虚弱
 
 > SPEL.FNAM weakness to corpus disease
 Weakness to Corpus Disease
-降低尸化病抗性
+尸化病虚弱
 
 > SPEL.FNAM weakness to common disease
 Weakness to Common Disease
-降低常见疾病抗性
+常见疾病虚弱
 
 > SPEL.FNAM dire weakness to fire
 Dire Weakness to Fire
-究极惧火
+究极火焰虚弱
 
 > SPEL.FNAM weakness to fire
 Weakness to Fire
-惧火
+火焰虚弱
 
 > SPEL.FNAM dire weakness to frost
 Dire Weakness to Frost
-究极惧寒
+究极冰霜虚弱
 
 > SPEL.FNAM weakness to frost
 Weakness to Frost
-惧寒
+冰霜虚弱
 
 > SPEL.FNAM dire weakness to magicka
 Dire Weakness to Magicka
-究极惧魔
+究极魔力虚弱
 
 > SPEL.FNAM weakness to magicka
 Weakness to Magicka
-惧魔
+魔力虚弱
 
 > SPEL.FNAM dire weakness to poison
 Dire Weakness to Poison
-究极惧毒
+究极毒素虚弱
 
 > SPEL.FNAM weakness to poison
 Weakness to Poison
-惧毒
+毒素虚弱
 
 > SPEL.FNAM dire weakness to shock
 Dire Weakness to Shock
-究极惧电
+究极闪电虚弱
 
 > SPEL.FNAM weakness to shock
 Weakness to Shock
-惧电
+闪电虚弱
 
 > SPEL.FNAM force bolt
 Force Bolt
@@ -10815,7 +10815,7 @@ Almsivi Intervention
 
 > SPEL.FNAM detect enchantment
 Detect Enchantment
-附魔侦测
+探测附魔
 
 > SPEL.FNAM tevral's hawkshaw
 Tevral's Hawkshaw
@@ -10931,7 +10931,7 @@ Absorb Fatigue [Ranged]
 
 > SPEL.FNAM energy leech
 Energy Leech
-能量吸取
+能量蛭吸
 
 > SPEL.FNAM absorb health
 Absorb Health
@@ -11963,7 +11963,7 @@ Resist Frost
 
 > SPEL.FNAM great resist magicka
 Great Resist Magicka
-极致抵抗魔法
+极致抵抗魔力
 
 > SPEL.FNAM shockguard
 Shockguard
@@ -11971,15 +11971,15 @@ Shockguard
 
 > SPEL.FNAM strong resist magicka
 Strong Resist Magicka
-强力抵抗魔法
+强力抵抗魔力
 
 > SPEL.FNAM variable resist magicka
 Variable Resist Magicka
-无定抵抗魔法
+无定抵抗魔力
 
 > SPEL.FNAM resist magicka
 Resist Magicka
-抵抗魔法
+抵抗魔力
 
 > SPEL.FNAM greater resist poison
 Greater Resist Poison
@@ -12259,7 +12259,7 @@ Collywobbles
 
 > SPEL.FNAM swamp fever
 Swamp Fever
-沼泽疟疾
+沼泽热
 
 > SPEL.FNAM wither
 Wither
@@ -12635,7 +12635,7 @@ Lover's Kiss
 
 > SPEL.FNAM resist magicka_25
 Resist Magicka
-抵抗魔法
+抵抗魔力
 
 > SPEL.FNAM sheogorath's blessing
 Sheogorath's Blessing
@@ -12795,7 +12795,7 @@ Vivec's Touch
 
 > SPEL.FNAM immune to normal weapons
 Immune to Normal Weapons
-物理免疫
+常规武器免疫
 
 > SPEL.FNAM reflect_60
 Reflect
@@ -12823,7 +12823,7 @@ Chameleon
 
 > SPEL.FNAM weakness frost_60
 Weakness to Frost
-惧寒
+冰霜虚弱
 
 > SPEL.FNAM immune to fire
 Immune to Fire
@@ -12859,7 +12859,7 @@ Ogrul's Lucky Again
 
 > SPEL.FNAM detect_creature
 Detect Creature
-生物探测术
+探测生物
 
 > SPEL.FNAM Swimmer's_Blessing
 Swimmer's Blessing
@@ -13095,7 +13095,7 @@ Viperbite
 
 > SPEL.FNAM shock
 Shock
-电火花
+闪电
 
 > SPEL.FNAM Fireball_large
 Greater Fireball
@@ -13151,7 +13151,7 @@ M'aiq's Water Walking
 
 > SPEL.FNAM weakness to corprus disease
 Weakness to Corprus Disease
-降低尸化病抗性
+尸化病虚弱
 
 > SPEL.FNAM cure corprus disease
 Cure Corprus Disease
@@ -13175,7 +13175,7 @@ Resist Corprus Disease
 
 > SPEL.FNAM weakness poison_50
 Weakness to Poison
-惧毒
+毒素虚弱
 
 > SPEL.FNAM kwama_poison
 Kwama Poison
@@ -13203,7 +13203,7 @@ Dagoth Ur Shock
 
 > SPEL.FNAM dagoth_ur_shield_04
 Dagoth Ur Magicka
-达格斯·乌尔魔法
+达格斯·乌尔魔力
 
 > SPEL.FNAM hand of azura
 Hand of Dagoth
@@ -15724,11 +15724,11 @@ As Inzoliah lugs the chest off toward Silvenar, and Malvasian expires on the sta
 <BR>
 英佐莉亚：当然不是，我也不会那样对你。只是做个智力测试。<BR>
 <BR>
-马瓦西安：好，如果单纯是一个智力测试的话，我对你施一个汲取生命的魔法，这样可以夺走你的生命来治疗我自己。毕竟，在这到希尔维纳的路上有不少强盗，一个重伤的法师拿着贵重物品会成为及其诱人的猎物。我可不希望活着逃出了艾尔登树林，却死在野外。<BR>
+马瓦西安：好，如果单纯是一个智力测试的话，我对你施一个蛭吸生命的魔法，这样可以夺走你的生命来治疗我自己。毕竟，在这到希尔维纳的路上有不少强盗，一个重伤的法师拿着贵重物品会成为及其诱人的猎物。我可不希望活着逃出了艾尔登树林，却死在野外。<BR>
 <BR>
 英佐莉亚：这是一个很合理的应答。只有我自己，再说一遍，我不是说自己想这么做，但我想一个小而突然的闪电魔法可以很好的达到我的目的。我知道强盗的危险，但别忘了我们还有一瓶治疗药剂呢。我可以轻松地杀了你，然后使自己痊愈。<BR>
 <BR>
-马瓦西安：非常可行。那问题就是看谁的魔法在那一瞬间更有效了。如果我们的魔法互相抵消，我夺走了你的生命，却又被你的闪电魔法打成重伤，我们两个可能都会死掉。或者如此接近死亡，以至于一瓶治疗药剂无法帮助我们中的任何一个，更别说两个了。如果两个狡诈战斗法师 -- 我不是在说我们狡诈，只是为了这个智力测试 -- 被留在死亡的边缘，完全用尽了魔力，又只有一瓶药剂，那将多么具有讽刺意味。谁会得到财宝呢？<BR>
+马瓦西安：非常可行。那问题就是看谁的魔法在那一瞬间更有效了。如果我们的魔法互相抵消，我蛭吸了你的生命，却又被你的闪电魔法打成重伤，我们两个可能都会死掉。或者如此接近死亡，以至于一瓶治疗药剂无法帮助我们中的任何一个，更别说两个了。如果两个狡诈战斗法师 -- 我不是在说我们狡诈，只是为了这个智力测试 -- 被留在死亡的边缘，完全用尽了魔力，又只有一瓶药剂，那将多么具有讽刺意味。谁会得到财宝呢？<BR>
 <BR>
 英佐莉亚：从逻辑上讲，是先喝到药剂的人 -- 在这种情况下应该是你，因为你拿到它了。那么如果我们两个人都受伤了，但没有被杀死了呢？<BR>
 <BR>
@@ -51661,7 +51661,7 @@ Ganciele<p>"""
 
 > NPC_.FNAM chargen class
 Socucius Ergalla
-苏库基乌斯·埃尔加拉
+苏库修斯·埃尔加拉
 
 > NPC_.FNAM chargen name
 Jiub
@@ -52628,7 +52628,7 @@ Amulet of Flesh Made Whole
 
 > CREA.FNAM centurion_shock_baladas
 Shock Centurion
-电击百夫长
+闪电百夫长
 
 > ARMO.FNAM daedric_cuirass_htab
 Daedric Cuirass
@@ -56063,11 +56063,11 @@ Bottle
 
 > NPC_.FNAM bethes sarothril
 Bethes Sarothril
-贝西斯·萨罗瑟利
+贝西斯·萨罗西尔
 
 > NPC_.FNAM drores arvel
 Drores Arvel
-德雷斯·阿维尔
+德洛雷斯·阿维尔
 
 > NPC_.FNAM daral thireloth
 Daral Thireloth
@@ -56163,7 +56163,7 @@ Potion of Fool's Luck
 
 > ALCH.FNAM p_detect_creatures_s
 Potion of Detect Creatures
-生物探测药水
+探测生物药水
 
 > ALCH.FNAM p_cure_common_s
 Potion of Cure Common Disease
@@ -56313,7 +56313,7 @@ Alds Baro
 
 > NPC_.FNAM saryn sarothril
 Saryn Sarothril
-萨琳·萨罗瑟利
+萨琳·萨罗西尔
 
 > NPC_.FNAM nuleno tedas
 Nuleno Tedas
@@ -64436,7 +64436,7 @@ Scroll of Red Scorn
 
 > BOOK.FNAM sc_redweakness
 Scroll of Red Weakness
-赤红疲弱卷轴
+赤红虚弱卷轴
 
 > BOOK.TEXT sc_redweakness
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -64641,7 +64641,7 @@ Scroll of Black Sloth
 
 > BOOK.FNAM sc_blackweakness
 Scroll of Black Weakness
-漆黑疲弱卷轴
+漆黑虚弱卷轴
 
 > BOOK.TEXT sc_blackweakness
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">DOWN WITH DUNMER OPPRESSION</FONT><BR>
@@ -64776,7 +64776,7 @@ Scroll of Grey Sloth
 
 > BOOK.FNAM sc_greyweakness
 Scroll of Grey Weakness
-铅灰疲弱卷轴
+铅灰虚弱卷轴
 
 > BOOK.TEXT sc_greyweakness
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -73459,7 +73459,7 @@ Restoration Shirt
 
 > CLOT.FNAM Detect_Enchantment_ring
 Detect Enchantment Ring
-附魔侦测之戒
+探测附魔之戒
 
 > MISC.FNAM key_Dubdilla
 Old Key
@@ -75593,7 +75593,7 @@ Though his other faults are too great to number, the oaf is nothing if not grate
 
 > INFO.NAME ic15_missing_limeware 1548825034111724309
 While a High Elf named Caryarel was being treated for swamp fever at the Imperial Chapels, a rare limeware bowl disappeared. Kaye asked me to find Caryarel and retrieve the missing chapel limeware bowl. Kaye says the High Elves are a small, tight-knit community on Vvardenfell, so he suggests I ask other High Elves if they know Caryarel and where he lives.
-当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽疟疾治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}
+当一个名叫卡亚雷的高精灵在帝国教堂接受沼泽热的治疗时，一个罕见的石灰碗不见了。凯让我找到卡亚雷，取回丢失的教堂用石灰碗。凯说在瓦登费尔的高精灵们是一个小而紧密的族群，所以他建议我问问其他高精灵是否认识卡亚雷以及他住在哪里。 {帝国人}
 
 > INFO.NAME ic15_missing_limeware 30821222483074732663
 I told Kaye I would not be able to retrieve the Chapel Limeware Bowl as he requested. He was disappointed, and told me not to come back for at least a day. He told me to get my priorities straight before I ask him again for a shrine sergeant mission.
@@ -77181,11 +77181,11 @@ As a token of appreciation, I have received an Akatosh Ring from the Imperial cu
 
 > INFO.NAME ic18_silver_staff 2535447501761520275
 An acolyte named Linus Iulus disappeared some years ago. Our oracle, Lalatia Varian, has had a vision of a Silver Staff of Shaming, and Linus Iulus had one of these staves. Kaye gave me a Detect Enchantment ring, and told me to go to Mount Kand. I'm to find a Silver Staff of Shaming there that belonged to Linus Iulus. I should bring it to Kaye, along with any other personal effects I find that belonged to Linus Iulus.
-一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚侦测附魔师戒指，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病}
+一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚探测附魔之戒，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病,戒指}
 
 > INFO.NAME ic18_silver_staff 29088146022719413342
 Kaye says that Lalatia Varian, our oracle, she has seen the Silver Staff of Shaming in a dream. She says it lies in the land of burning rock, under the shadow of the Mountain of Fear. Kaye says that an old name for Mount Kand is Mountain of Fear. The oracle believes the staff will be found either east or west of the mountain, in the shadow of the rising or setting sun. I have a Detect Enchantment ring to help find the staff.
-凯说我们的神谕者拉拉蒂亚·瓦里安在梦中见过银制羞辱法杖。她说银杖就在燃烧岩石之地，恐惧之山的阴影之下。凯说坎德山的一个古老名字就是恐惧山。神谕认为，法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。我有一枚侦测附魔戒指，可以帮助找到法杖。 {魔法疾病}
+凯说我们的神谕者拉拉蒂亚·瓦里安在梦中见过银制羞辱法杖。她说银杖就在燃烧岩石之地，恐惧之山的阴影之下。凯说坎德山的一个古老名字就是恐惧山。神谕认为，法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。我有一枚探测附魔之戒，可以帮助找到法杖。 {魔法疾病,戒指}
 
 > INFO.NAME ic18_silver_staff 2735754743148812155
 I told Kaye I have given up trying to find the Silver Staff of Shaming that belonged to Linus Iulus. He was disappointed, and told me not to come back for at least a day. He told me to decide whether I was serious about serving the Imperial cult before I ask him again for a shrine sergeant mission.
@@ -79445,7 +79445,7 @@ Saryoni thanked me for bringing him the Ebony Mail, but said that I should keep 
 
 > INFO.NAME tt_curingtouch 24169263062726817438
 Tharer Rotheloth asked me to cure a villager named Lette in Tel Mora. She has swamp fever and there is no Temple in Tel Mora where she can go for healing.
-塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽疟疾，而泰尔-莫拉没有神殿可以让她治病。
+塔瑞尔·罗瑟罗斯让我去治疗泰尔-莫拉一个名叫勒特的村民。她得了沼泽热，而泰尔-莫拉没有神殿可以让她治病。
 
 > INFO.NAME tt_curingtouch 2049613153176725614
 I cured Lette of her simple affliction.
@@ -81401,7 +81401,7 @@ I found a corpse while traveling near Seyda Neen. It seems to be the corpse of o
 
 > INFO.NAME mv_deadtaxman 2939531992100946429
 I've spoken to Socucius Ergalla in Seyda Neen about Processus Vitellius. Socucius wants to know if I found the tax money he'd collected on the corpse.
-我和赛达尼恩的苏库修斯·埃尔加拉谈过普罗塞苏斯·维特留斯。索库修斯想知道我是否在尸体上找到了他收的税金。
+我和赛达尼恩的苏库修斯·埃尔加拉谈过普罗塞苏斯·维特留斯。苏库修斯想知道我是否在尸体上找到了他收的税金。
 
 > INFO.NAME mv_deadtaxman 34242188296011546
 I've told Socucius the truth about the 200 gold in tax money I found on the corpse of Processus.
@@ -81421,7 +81421,7 @@ I've been able to get 200 gold to replace the money on Processus' corpse, and I'
 
 > INFO.NAME mv_deadtaxman 2363849332656219826
 He seemed impressed with my honesty, but confused as to why someone would murder Processus but not take his money. If I can find out who has done this, and execute the murderer, Socucius has promised to pay me 500 gold.
-他似乎对我的诚实印象深刻，但对为什么有人会谋杀普罗普特斯却不拿走他的钱感到困惑。如果我能查出是谁干的，并处死凶手，索库西斯答应付我500金币。
+他似乎对我的诚实印象深刻，但对为什么有人会谋杀普罗普特斯却不拿走他的钱感到困惑。如果我能查出是谁干的，并处死凶手，苏库修斯答应付我500金币。
 
 > INFO.NAME mv_deadtaxman 26685299282317122055
 I've asked around town about the murder of Processus Vitellius. It seems he wasn't a popular person in general, which is no surprise, considering he was a tax collector. Some have suggested I speak with Thavere Vedrano, the lighthouse keeper, as she seemed to have some relationship with him.
@@ -81449,7 +81449,7 @@ I brought the ring I found on Gilnith's body to Thavere Vedrano in the lighthous
 
 > INFO.NAME mv_deadtaxman 28520312023193131007
 After killing Gilnith, I reported my findings to the Census and Excise Office. Socucius seemed pleased to see Processus' murder avenged, and he paid me as promised.
-杀死吉尔尼斯后，我向普查及税务局报告了我的发现。索库西斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
+杀死吉尔尼斯后，我向普查及税务局报告了我的发现。苏库修斯似乎很高兴看到普罗普特斯大仇得报，他如约付给了我报酬。
 
 > INFO.NAME da_sheogorath 21163218724510171
 I have entered the Shrine of Sheogorath and spoken with the Daedra Prince of Madness. He has offered me the opportunity to perform a service for him. First, I am to recover a powerful artifact, the Fork of Horripilation, from a mad hermit who lives on an island off the northernmost points of Tamriel. Then, I must slay a giant bull netch that has taken residence near this island. If I can do this, Sheogorath promises I will be rewarded well.
@@ -81769,7 +81769,7 @@ Satyana attacked me when I refused to help her find her father's amulet.
 
 > INFO.NAME blades_surane 30467135141782028490
 Surane Leoriane suggested I see Llaros Uvayn at the Caldera Governor's Hall and learn the Detect Enchantment spell. It shows where enchanted items are, both in enemies, and in hidden locations.
-苏拉妮·利奥里亚娜建议我去卡尔德拉总督大厅找拉罗斯·乌万，学习检测附魔的咒语。它可以显示附魔的物品在哪里，既可以显示在敌人身上，也可以显示在隐藏的地方。 {苏兰,魔法疾病}
+苏拉妮·利奥里亚娜建议我去卡尔德拉总督大厅找拉罗斯·乌万，学习探测附魔的咒语。它可以显示附魔的物品在哪里，既可以显示在敌人身上，也可以显示在隐藏的地方。 {苏兰,魔法疾病}
 
 > INFO.NAME blades_gildan 241918648177583706
 Gildan recommended I see Wayn at the Balmora Guild of Fighters. He sells jink blades which Paralyze and spider blades which poison. He says they aren't honorable weapons, and most smiths don't sell them.
@@ -83241,7 +83241,7 @@ A Dunmer savant told me that 'Halls of the Dead' might refer to any Dunmer ances
 
 > INFO.NAME ic29_crusher 244173012020273776
 The Oracle says she can detect no evil curse upon Skull-Crusher. She assured me it is safe, and gave me a special blessing so I might dedicate myself further to the service of the Nine. She has no more quests for me, but she will send word for me through others of high rank in the cult if she needs my help again.
-先知说她在碎颅者身上检测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。
+先知说她在碎颅者身上探测不到邪恶的诅咒。她向我保证这里是安全的，并给了我一个特别的祝福，让我可以进一步为九圣灵服务。她已经没有任务给我了，但如果她再需要我的帮助，她会通过教团中的其他高层传话给我。
 
 > INFO.NAME ic28_urjorad 201067417818410201
 The Oracle has sent me to the Daedric shrine of Ashalmimilkala to recover a powerful artifact called the Scroll of Fiercely Roasting and to return it to her. If I choose a greater challenge and risk, I may try to use the scroll instead to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
@@ -84709,15 +84709,15 @@ Banor Seran at the Council Club gave me a bottle of Cyrodilic brandy for the fun
 
 > INFO.NAME mg_potion 790323952752226336
 Edwinna asked me to talk to Skink-in-Tree's-Shade in Sadrith Mora and get a Detect Creatures Potion from him.
-埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶生物探测药水。
+埃德温娜让我去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，从他那里得到一瓶探测生物药水。
 
 > INFO.NAME mg_potion 6753265843187330376
 Skink gave me a Detect Creatures Potion.
-树荫给了我一个生物探测药水。
+树荫给了我一个探测生物药水。
 
 > INFO.NAME mg_potion 3139587441170010072
 I delivered the Detect Creatures Potion to Neminda.
-我将生物探测药水交给了内明达。
+我将探测生物药水交给了内明达。
 
 > INFO.NAME mg_joinus 799911165242925427
 Ranis asked me to convince Llarar Bereloth to join the guild. If he cannot be convinced, I must kill him. To get to Sulipund, I should leave Balmora east and pass Fort Moonmoth. Then cross the bridge to Molag Amur and follow the trail east until I reach a lake. I should see a Dunmer stronghold to the south. If I head north on the path between the hills, Sulipund will be on my left, just before the path splits.
@@ -86421,15 +86421,15 @@ Oh? Where is the potion? Do you have it with you?
 
 > INFO.NAME detect creatures potion 872612872408318005
 Unlike a proper %PCRank, you do not keep your word. I certainly am not going to give you any more duties until you deliver a Detect Creatures potion to me.
-你不像一个合格的%PCRank，你说话不算数。在你把生物探测药水交给我之前，我当然不会再给你任何你职务对应的任务。
+你不像一个合格的%PCRank，你说话不算数。在你把探测生物药水交给我之前，我当然不会再给你任何你职务对应的任务。
 
 > INFO.NAME detect creatures potion 2637322085948726229
 Unlike a proper %PCRank, you do not keep your word. I certainly am not going to give you any more duties until you deliver a Detect Creatures potion to me.
-你不像一个合格的%PCRank，你说话不算数。在你把生物探测药水交给我之前，我当然不会再给你任何你职务对应的任务。
+你不像一个合格的%PCRank，你说话不算数。在你把探测生物药水交给我之前，我当然不会再给你任何你职务对应的任务。
 
 > INFO.NAME detect creatures potion 18248327143241612193
 Ah, at last, you've brought me a Detect Creatures potion. Will you give the potion to me now?
-啊，你终于给我带来了生物探测药水。现在就把药水给我好吗？
+啊，你终于给我带来了探测生物药水。现在就把药水给我好吗？
 
 > INFO.BNAM detect creatures potion 18248327143241612193 c1
 Yes, here it is
@@ -86441,7 +86441,7 @@ No
 
 > INFO.NAME detect creatures potion 18023171252229020242
 Just go talk to Skink-in-Tree's-Shade in Sadrith Mora and bring back the Detect Creatures potion.
-去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，然后把生物探测药水带回来就可以了。
+去找萨德瑞斯-莫拉的树-荫-中-蜥谈谈，然后把探测生物药水带回来就可以了。
 
 > INFO.NAME detect creatures potion 3131105322833827259
 It's simply taking Skink-in-Tree's-Shade forever to finish it. Go to Wolverine Hall in Sadrith Mora and bring the potion back to me as soon as Skink is finished.
@@ -87129,7 +87129,7 @@ Thank you for recovering the staff.
 
 > INFO.NAME silver staff of shaming 567632522863720191
 Lalatia Varian, our oracle, says that in a dream she has seen the Silver Staff of Shaming lying in the land of burning rock, under the shadow of the Mountain of Fear. I don't understand the mumbo-jumbo of dream interpretation, but she tells me that an old name for Mount Kand is Mountain of Fear. As she reads her dream, she believes the staff will be found either east or west of the mountain, in the shadow of the rising or setting sun. The Detect Enchantment ring should help you find the staff.
-我们的神谕者拉拉蒂亚·瓦里安说，她在梦中见过银制羞辱法杖躺在燃烧岩石之地，恐惧之山的阴影之下。我不懂解梦的胡言乱语，但她告诉我，坎德山的一个古老名字就是恐惧山。根据她的解梦，她认为法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。侦测附魔的戒指应该能帮你找到法杖。 {魔法疾病}
+我们的神谕者拉拉蒂亚·瓦里安说，她在梦中见过银制羞辱法杖躺在燃烧岩石之地，恐惧之山的阴影之下。我不懂解梦的胡言乱语，但她告诉我，坎德山的一个古老名字就是恐惧山。根据她的解梦，她认为法杖会在山的东面或西面，在太阳升起或落下的阴影中找到。探测附魔之戒应该能帮你找到法杖。 {魔法疾病,戒指}
 
 > INFO.NAME nothing could be better 11890323041436530010
 It's been simply wonderful, my friend. Glathel and I are perfectly suited for one another. Here, please take this as a token of our gratitude.
@@ -88189,31 +88189,31 @@ The Caldera Mine Company is chartered by the Emperor to extract ebony ore from r
 
 > INFO.NAME other mysticism spells 641330430300271218
 Other mysticism spells work directly upon the subtle magical forces of the unseen world. The most common of these mysticism spells are: purge magicka, touch dispel, Almalexia's grace, soul trap, telekinesis, detect creature, detect enchantment, detect key, spell absorption, and reflect.
-其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}
+其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}
 
 > INFO.NAME other mysticism spells 7141128481352217489
 Other mysticism spells work directly upon the subtle magical forces of the unseen world. The most common of these mysticism spells are: purge magicka, touch dispel, Almalexia's grace, soul trap, telekinesis, detect creature, detect enchantment, detect key, spell absorption, and reflect.
-其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}
+其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}
 
 > INFO.NAME other mysticism spells 163233711782120864
 Other mysticism spells work directly upon the subtle magical forces of the unseen world. The most common of these mysticism spells are: purge magicka, touch dispel, Almalexia's grace, soul trap, telekinesis, detect creature, detect enchantment, detect key, spell absorption, and reflect.
-其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}
+其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}
 
 > INFO.NAME other mysticism spells 2921228351588328852
 Other mysticism spells work directly upon the subtle magical forces of the unseen world. The most common of these mysticism spells are: purge magicka, touch dispel, Almalexia's grace, soul trap, telekinesis, detect creature, detect enchantment, detect key, spell absorption, and reflect.
-其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}
+其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}
 
 > INFO.NAME other mysticism spells 2780210397294588887
 Other mysticism spells work directly upon the subtle magical forces of the unseen world. The most common of these mysticism spells are: purge magicka, touch dispel, Almalexia's grace, soul trap, telekinesis, detect creature, detect enchantment, detect key, spell absorption, and reflect.
-其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}
+其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}
 
 > INFO.NAME other mysticism spells 17499115152901810549
 Other mysticism spells work directly upon the subtle magical forces of the unseen world. The most common of these mysticism spells are: purge magicka, touch dispel, Almalexia's grace, soul trap, telekinesis, detect creature, detect enchantment, detect key, spell absorption, and reflect.
-其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}
+其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}
 
 > INFO.NAME other mysticism spells 3176116500146246976
 Other mysticism spells work directly upon the subtle magical forces of the unseen world. The most common of these mysticism spells are: purge magicka, touch dispel, Almalexia's grace, soul trap, telekinesis, detect creature, detect enchantment, detect key, spell absorption, and reflect.
-其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、侦测生物、侦测附魔、侦测钥匙、法术吸收和反射。 {工作,魔法疾病}
+其它类神秘系法术直接作用于不可见世界的微妙魔法力量。这些神秘系法术中最常见的有：消除魔力、触碰驱散、阿玛莱西娅的恩典、灵魂陷阱、心灵感应、探测生物、探测附魔、探测钥匙、法术吸收和反射。 {工作,魔法疾病}
 
 > INFO.NAME fundamental attributes 1419312496317607602
 The eleven fundamental attributes of natural and supernatural beings are agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magicka. Scholars and sages of the six magic colleges are familiar with these fundamental attributes from the works of the earliest Aldmeri philosophers, and the concepts have been adopted by all the other scholarly disciplines of Imperial culture.
@@ -103171,7 +103171,7 @@ Yes, I offer training, but only to Blades.
 
 > INFO.NAME blades trainers 1915820015225438668
 Of course we can train you. You pay, of course, but much less than you would outside the Blades. And may I suggest you find someone to teach you the Detect Enchantment spell? Whenever you're exploring, it's good to know where enchanted items are. Sometimes that's where dangerous enemies are... HOLDING the enchanted items. And sometimes that shows items hidden from view in deep pools or on high ledges. See Llaros Uvayn the Nightblade at the Caldera Governor's Hall.
-我们当然可以训练你，当然，你要付钱，但比在刀锋外面付的要少得多。我建议你找个人教你侦测附魔的咒语吧？每当你在探险的时候，知道附魔师的位置是很有好处的，有时危险的敌人就在那里…持有附魔师的地方，有时会看到隐藏在深潭或高台上的物品，去卡尔德拉总督大厅找夜刃拉罗斯·乌万吧。 {魔法疾病}
+我们当然可以训练你，当然，你要付钱，但比在刀锋外面付的要少得多。我建议你找个人教你探测附魔的咒语吧？每当你在探险的时候，知道附魔师的位置是很有好处的，有时危险的敌人就在那里…持有附魔师的地方，有时会看到隐藏在深潭或高台上的物品，去卡尔德拉总督大厅找夜刃拉罗斯·乌万吧。 {魔法疾病}
 
 > INFO.NAME blades trainers 20823195772998220732
 Yes, I offer training, but only to Blades.
@@ -111259,19 +111259,19 @@ Resist potions increase the subject's natural resistances to various harmful for
 
 > INFO.NAME detect potions 30852111901584429406
 Detect potions provide magical means of perceiving certain classes of things in space. Detect potions include: detect key, detect creatures, and detect enchantment.
-侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}
+探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}
 
 > INFO.NAME detect potions 124140733236917912
 Detect potions provide magical means of perceiving certain classes of things in space. Detect potions include: detect key, detect creatures, and detect enchantment.
-侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}
+探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}
 
 > INFO.NAME detect potions 2242215538617320948
 Detect potions provide magical means of perceiving certain classes of things in space. Detect potions include: detect key, detect creatures, and detect enchantment.
-侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}
+探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}
 
 > INFO.NAME detect potions 1687412729006948
 Detect potions provide magical means of perceiving certain classes of things in space. Detect potions include: detect key, detect creatures, and detect enchantment.
-侦测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和附魔侦测。 {这些药水,魔法疾病}
+探测药水提供了感知空间中某些类别事物的魔法手段。探测药水包括：探测钥匙、探测生物和探测附魔。 {这些药水,魔法疾病}
 
 > INFO.NAME shield potions 24457630966171660
 Shield potions protect the subject from various forms of physical attack while injuring attackers in close proximity. Shield potions include: fire shield, lightning shield, and frost shield.
@@ -111383,27 +111383,27 @@ The waters of the Padomaic Ocean completely surround Tamriel. The continent of A
 
 > INFO.NAME common disease 48547332137273430
 There are sixteen common diseases, outlander: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. The healers of the settled peoples divide them into three kinds: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}
+外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}
 
 > INFO.NAME common disease 7323204272725211542
 There are sixteen common diseases, outlander: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. The healers of the settled peoples divide them into three kinds: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}
+外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}
 
 > INFO.NAME common disease 1615697381450326313
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
 
 > INFO.NAME common disease 17749156981068711093
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
 
 > INFO.NAME common disease 118278111503127637
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
 
 > INFO.NAME common disease 28374665720854718
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽疟疾、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
 
 > INFO.NAME blight disease 17481279481519214044
 Lord Dagoth has sent the blight to destroy the foreigners, and to chasten those Dunmer who bend to foreign will. Those who oppose Lord Dagoth shall wither and die, while those who join Lord Dagoth shall be healed and strengthened, filled with the power and glory of Red Mountain, and inspired by the dreams of Dagoth Ur.
@@ -115043,7 +115043,7 @@ If you do the crime, pay the fine. You KNOW you owe it. So why don't you just PA
 
 > INFO.NAME little advice 541957932461430658
 Stay away from the mudcrabs. Swamp Fever. Or join the Tribunal Temple. Initiates get free Cure Disease at the shrines.
-离泥沼蟹远点，沼泽疟疾，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。
+离泥沼蟹远点，沼泽热，或者加入审判席神殿。入会者可在圣祠免费获得疾病治愈。
 
 > INFO.NAME little advice 1259920497247168398
 Some neglected ancestral tombs around here. Locals don't like it, but you can find some nice bits. Ghosts and ancestral spirit guardians are dangerous.
@@ -118187,59 +118187,59 @@ The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a d
 
 > INFO.NAME vulnerability 88377877926619698
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 2850828362805927913
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 28461657215992978
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 2048982571475824571
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 21592061381742229
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 1583026377106328758
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 3152769131282116838
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火、霜、魔、毒和电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：惧火、惧寒、惧魔、惧电和惧毒。 {魔力}
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
 
 > INFO.NAME resist spells 21635148911959019306
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 30833153261647726181
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 9957329884115317
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 23242292403146810474
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 765925645426430957
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 89301726617062274
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 2000751281170626256
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔法、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。 {魔力}
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME lesser saints 3158712881221261901
 The lesser saints of the Temple are: Saint Felms the Bold -- Butchers, Fishmongers, Saint Llothis the Pious --  Tailors, Dyers, Saint Meris the Peacemaker -- Farmers, Laborers, Saint Roris the Martyr -- Furnishers and Caravaners, Saint Aralor the Penitent -- Tanners and Miners, Saint Delyn the Wise -- Potters, Glassmakers, Saint Olms the Just -- Sailors, Chandlers, Clerks, Saint Rilms the Barefooted -- Pilgrims, Beggars, and Saint Seryn the Merciful -- Brewers, Bakers, Distillers.
@@ -126037,23 +126037,23 @@ The symptoms include high body temperature and delirium, but there are no easily
 
 > INFO.NAME swamp fever 498125622585132334
 Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.
-沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
+沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
 
 > INFO.NAME swamp fever 1967823882987210230
 Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.
-沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
+沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
 
 > INFO.NAME swamp fever 2280420963161812106
 Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.
-沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
+沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
 
 > INFO.NAME swamp fever 35191203013893329
 Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.
-沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
+沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
 
 > INFO.NAME swamp fever 16706918308612129
 Swamp fever is a mild common disease affecting the victim's strength and behavior. Symptoms include high body temperature and delirium. It may be contracted from the mudcrab.
-沼泽疟疾是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
+沼泽热是一种轻微的常见疾病，会影响患者的力量和行为。症状包括体温过高和神志不清。这种病可能是从泥沼蟹身上感染的。 {合同}
 
 > INFO.NAME yellow tick 719523947848812753
 Yellow tick is a mild common disease affecting a victim's strength and mobility. Symptoms include dark, bruise-like swelling, sensitive to touch. It may be contracted from the least kagouti.
@@ -127337,11 +127337,11 @@ Yes, I heard it was found.
 
 > INFO.NAME lord's mail 2443617506215076705
 Yes, it has gone missing. I can assure you that no one got past us. We've been right here. I suspect foul play, or evil magicka. Whoever has it, got in some other way.
-是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔法。不管它在谁手里，都是通过其他方式得到的。 {魔力}
+是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔力。不管它在谁手里，都是通过其他方式得到的。
 
 > INFO.NAME lord's mail 31959230201741413535
 Yes, it has gone missing. I can assure you that no one got past us. We've been right here. I suspect foul play, or evil magicka. Whoever has it, got in some other way.
-是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔法。不管它在谁手里，都是通过其他方式得到的。 {魔力}
+是的，它失踪了。我可以向你保证，没人能逃过我们的眼睛。我们一直在这里，我怀疑是有人做了手脚，或者是邪恶的魔力。不管它在谁手里，都是通过其他方式得到的。
 
 > INFO.NAME lord's mail 16615164001889021508
 I have hunch, yes. Furius Acilius, who was banished from the Legion some time ago. He spoke of the armor before his leave, and of secret caves below the castle. Motive and opportunity; he seemed to have both. Ask about him at the Imperial Guard Garrison, he used to stay there.
@@ -131805,11 +131805,11 @@ You have done well, %PCName. You have kept your oath well, and faithfully served
 
 > INFO.NAME greeting 5 620624443268656991
 This is Skull-Crusher? It is indeed marvelous. But I can detect no evil curse upon this weapon. It is safe, I assure you. Perhaps it is only a legend. Perhaps we can perceive the hidden motions of the gods in this. Receive my special blessing, so you may dedicate yourself further to the service of the Nine. That's all the quests I have for you. If I need your help again, I shall send word for you through others of high rank in the cult.
-这就是碎颅者？确实很神奇，但我没发现这武器上有邪恶的诅咒。它很安全，我向你保证。也许这只是个传说，也许我们能从中感知到神的隐秘动作。接受我的特别祝福吧，这样你就能为九圣灵服务了。这就是我给你的所有任务。如果我还需要你的帮助，我会通过教派中的其他高层传话给你。 {沙尔}
+这就是碎颅者？确实很神奇，但我没探测到这武器上有邪恶的诅咒。它很安全，我向你保证。也许这只是个传说，也许我们能从中感知到神的隐秘动作。接受我的特别祝福吧，这样你就能为九圣灵服务了。这就是我给你的所有任务。如果我还需要你的帮助，我会通过教派中的其他高层传话给你。 {沙尔}
 
 > INFO.NAME greeting 5 4144214151371720011
 This is Skull-Crusher? It is indeed marvelous. But I can detect no trace of any evil curse upon this weapon. Perhaps it is only a legend. Perhaps it is a blessing, and not a curse, that preserves it from thieves. And perhaps we can perceive the hidden motions of the gods in this. It is safe, I assure you. Receive my special blessing, so you may dedicate yourself further to the service of the Nine. And speak to me again when you are ready for another of my Oracle's Quests.
-这就是碎颅者？确实很神奇，但我看不出这武器上有任何邪恶诅咒的痕迹。也许这只是个传说，也许是一种祝福，而不是诅咒，使它免遭盗贼之手，也许我们能从中感知到神的隐秘动作。它很安全，我向你保证。接受我的特别祝福吧，这样你就能为九圣灵服务了。当你准备好接受我的另一个神谕者的任务时再来找我吧。
+这就是碎颅者？确实很神奇，但我没探测到这武器上有任何邪恶诅咒的痕迹。也许这只是个传说，也许是一种祝福，而不是诅咒，使它免遭盗贼之手，也许我们能从中感知到神的隐秘动作。它很安全，我向你保证。接受我的特别祝福吧，这样你就能为九圣灵服务了。当你准备好接受我的另一个神谕者的任务时再来找我吧。
 
 > INFO.NAME greeting 5 113969096129124138
 %PCRank %PCName, I believe it is your fate to recover the long-lost artifact Skull-Crusher. When you have this legendary weapon in hand, bring it to me so I may bless it.
@@ -131929,7 +131929,7 @@ I don't know what you're talking about. You say you found a bowl in my shack? We
 
 > INFO.NAME greeting 5 328353471475922536
 Yes. I was treated for swamp fever at the Imperial Chapels in Ebonheart. But I don't know anything about a Chapel Limeware Bowl. So go away. And leave me alone.
-是的，我在黑檀心的帝国教堂接受过沼泽疟疾治疗，但我对教堂用石灰碗一无所知。所以你走吧，别来烦我。 {帝国人}
+是的，我在黑檀心的帝国教堂接受过沼泽热的治疗，但我对教堂用石灰碗一无所知。所以你走吧，别来烦我。 {帝国人}
 
 > INFO.NAME greeting 5 243293043999454250
 Expelled again? No, don't bother to explain. I don't want to hear it. Just go away.
@@ -132089,7 +132089,7 @@ I told you not to come back for a full day. And understand -- if I do give you a
 
 > INFO.NAME greeting 5 12249215252745012615
 An acolyte named Linus Iulus disappeared some years ago. He was last seen leaving Suran headed east on foot for Zafirbel Bay. Recently our oracle, Lalatia Varian, has had a vision of a Silver Staff of Shaming, and Linus Iulus had one of these staves. Here is a Detect Enchantment ring and 100 gold for expenses. Go to Mount Kand. Find a Silver Staff of Shaming there, retrieve it, and bring it to me, along with any other personal effects you find that belonged to Linus Iulus.
-一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚侦测附魔的戒指和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病}
+一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚探测附魔之戒和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病,戒指}
 
 > INFO.NAME greeting 5 2923227933164520480
 Have you found and killed the witch Thelsa Dral in Asha-Ahhe Egg Mine?
@@ -132221,7 +132221,7 @@ Hmm. That's too bad. I could sure use some help here. But... go ahead. What can 
 
 > INFO.NAME greeting 5 6749158962630762
 Good. I could use a little help here. We treated a High Elf named Caryarel for swamp fever, but we later discovered that while he was here, a rare Chapel Limeware Bowl disappeared from our shrine. Will you find this Caryarel and retrieve our bowl for us? The High Elves are a small, tight-knit community on Vvardenfell. Try asking other High Elves if they know Caryarel and where he lives.
-好的，我需要点帮助。我们为一位名叫卡亚雷的高精灵治疗了沼泽疟疾，但后来我们发现，当他在这里的时候，一个稀有的教堂用石灰碗从我们的圣祠里消失了。你能找到这个卡亚雷，帮我们找回我们的碗吗？高精灵在瓦登费尔是一个紧密团结的小团体。试着问问其他高精灵是否认识卡亚雷以及他住在哪里。
+好的，我需要点帮助。我们为一位名叫卡亚雷的高精灵治疗了沼泽热，但后来我们发现，当他在这里的时候，一个稀有的教堂用石灰碗从我们的圣祠里消失了。你能找到这个卡亚雷，帮我们找回我们的碗吗？高精灵在瓦登费尔是一个紧密团结的小团体。试着问问其他高精灵是否认识卡亚雷以及他住在哪里。
 
 > INFO.NAME greeting 5 72299549489932063
 Hello, %PCRank %PCName. My name is Kaye, and I'm in charge of the volunteer shrine sergeants for the cult. Are you ready for a shrine sergeant assignment?
@@ -132249,7 +132249,7 @@ Not long ago we drove a coven of witches from the old Daedric ruins of Ashalmawi
 
 > INFO.NAME greeting 5 1578829326764123625
 An acolyte named Linus Iulus disappeared some years ago. He was last seen leaving Suran headed east on foot for Zafirbel Bay. Recently our oracle, Lalatia Varian, has had a vision of a Silver Staff of Shaming, and Linus Iulus had one of these staves. Here is a Detect Enchantment ring and 100 gold for expenses. Go to Mount Kand. Find a Silver Staff of Shaming there, retrieve it, and bring it to me, along with any other personal effects you find that belonged to Linus Iulus.
-一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚侦测附魔的戒指和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病}
+一个名叫莱纳斯·尤卢斯的圣徒几年前失踪了。最后一次有人看见他离开苏兰，向东徒步前往扎菲尔贝尔湾。最近我们的神谕者拉拉蒂亚·瓦里安看到了银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的银杖。这里有一枚探测附魔之戒和100金作为费用。前往坎德山。在那里找到银制羞辱法杖，取回它，然后把它带给我，还有你找到的属于莱纳斯·尤卢斯的其他私人物品。 {魔法疾病,戒指}
 
 > INFO.NAME greeting 5 4052197071301917034
 An Argonian named Okur in Hla Oad has asked for our aid. This devout follower of the Nine is sensitive to spirits of the otherworld, and she says she is being visited by the ghost of a murder victim. The guards can't do anything in such cases. Go and speak with Okur. Here's some gold for expenses. If possible, discover the nature of the crime, and bring justice to wronged spirit so it can be laid to rest.
@@ -132977,7 +132977,7 @@ You must take time to reflect upon your shortcomings and attempt to amend them b
 
 > INFO.NAME greeting 5 1133626077240411192
 Bring me five units of scrib jelly for cure poison and cure blight potions. The closest reliable source of scribs is the Shulk Egg mine, southwest of Balmora, on the west bank of the Ouadi Oadi, near a swinging bridge. The kwama worker is not aggressive, but the kwama warrior and kwama forager are another matter. Be careful with them. I'll teach you the Detect Creature spell to help you hunt scribs.
-给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你侦测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}
+给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你探测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}
 
 > INFO.NAME greeting 5 153707795210681614
 Have you brought me five units of willow anther for cure common disease potions? Or have you come to report your failure?
@@ -133089,7 +133089,7 @@ Bring me five units of willow anther for cure paralyzation potions. I am ashamed
 
 > INFO.NAME greeting 5 50025038185357445
 Bring me five units of scrib jelly for cure poison and cure blight potions. The closest reliable source of scribs is the Shulk Egg mine, southwest of Balmora, on the west bank of the Ouadi Oadi, near a swinging bridge. The kwama worker is not aggressive, but the kwama warrior and kwama forager are another matter. Be careful with them. I'll teach you the Detect Creature spell to help you hunt scribs.
-给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你侦测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}
+给我带五个幼虫胶质，用于炼制治疗毒性和治愈枯萎病的药水。最近的幼虫可靠来源是舒尔克卵矿场，在巴尔莫拉西南方，奥代河西岸，一座吊桥附近。夸蚂工虫没有攻击性，但夸蚂兵虫和夸蚂觅食者则另当别论。要小心对付它们。我会教你探测生物的咒语，帮你猎杀幼虫。 {这些药水,工作}
 
 > INFO.NAME greeting 5 816116211642320087
 Bring me five units of corkbulb for cure common disease and restore health potions. The best place to look for corkbulb is the Ascadian Isles, and Arvel Manor in particular. The Imperial Cult has an agreement with the Ascadian Isles plantation owners that permits us to gather corkbulb. The direct route means swimming, so I'll teach you a little spell.
@@ -133709,7 +133709,7 @@ Did you get Chimarvamidium?
 
 > INFO.NAME greeting 5 7629228481313617558
 Did you get the Detect Creatures Potion from Skink?
-你从树荫那里拿到生物探测药水了吗？
+你从树荫那里拿到探测生物药水了吗？
 
 > INFO.NAME greeting 5 185323119111727510
 Well, don't just stand there. Have you found a copy of Chronicles of Nchuleft or not?
@@ -133901,7 +133901,7 @@ Red Mountain spreads ash and blight! Sinners gather at the House! The time of th
 
 > INFO.NAME greeting 5 2724127407898516429
 Yes. I have Swamp Fever. My head is swimming and I feel terribly weak.
-是的，我得了沼泽疟疾。我头晕目眩，浑身无力。
+是的，我得了沼泽热。我头晕目眩，浑身无力。
 
 > INFO.NAME greeting 5 23042042403711932
 Ra'Virr knows why you are here. You want to buy Ra'Virr's famous Daedric weapons.
@@ -138853,7 +138853,7 @@ You're new to Seyda Neen, right? I'm %Name. I'm sure you have questions. Go ahea
 
 > INFO.NAME greeting 9 203662833221211623
 Well, hello, %PCName. I'm %name. This is Seyda Neen, Swamp Fever Capital of the World. I suppose you're wondering what's going on here. I can tell you where the services are. There aren't many. And I can tell you the latest rumors -- unless you've already hear them.
-你好，%PCName。我是%Name。这里是赛达尼恩，世界沼泽疟疾之都。我猜你想知道这里发生了什么事，我可以告诉你本地的服务在哪里。没有多少。我还能告诉你最新传言，除非你已经听说了。
+你好，%PCName。我是%Name。这里是赛达尼恩，世界沼泽热之都。我猜你想知道这里发生了什么事，我可以告诉你本地的服务在哪里。没有多少。我还能告诉你最新传言，除非你已经听说了。
 
 > INFO.NAME greeting 9 2842020301815112305
 I'm %name. Welcome to scenic Seyda Neen. Gateway to Morrowind. Are you looking for someone in particular? Or do you just want a little advice?
@@ -149065,7 +149065,7 @@ You're doing well, dumpling. Just speak with Odral Helvi again and keep me infor
 
 > INFO.NAME business 20963185872032015548
 Speak with Odral Helvi in Caldera. Turn your charms on him, sweetie, and talk about business. If you feel his request is questionable, speak with me for further directions. Keep Uncle Crassius well informed, and I'll reward you.
-去卡尔德拉和奥德拉尔·赫尔维谈谈，对他施展你的魅力，亲爱的，谈谈生意。如果你觉得他的要求有问题，就跟我说，我再给你指示。让克拉西乌斯舅舅消息灵通，我会奖赏你的。 {事,报酬}
+去卡尔德拉和奥德拉尔·赫尔维谈谈，对他施展你的魅力，亲爱的，谈谈生意。如果你觉得他的要求有问题，就跟我说，我再给你指示。让克拉西乌斯叔叔消息灵通，我会奖赏你的。 {事,报酬}
 
 > INFO.NAME business 3628283521129728633
 I do not have any business for you right now, %PCName.
@@ -151525,7 +151525,7 @@ Well. I'm glad you were able to get the bowl without... well... excessive force.
 
 > INFO.NAME caryarel 523527507153857170
 He was a tall, dark-haired fellow with sharp features -- but that description would fit a lot of High Elves. We were treating him for swamp fever, so perhaps he lives along the coasts, when mud crabs sometimes carry disease. As I said, try asking around among High Elves. I believe there are several serving in the Hawkmoth Legion Garrison here in Ebonheart.
-他身材高大，黑发，五官锐利 -- 但这种形容适合很多高精灵。我们给他治疗的是沼泽疟疾，所以也许他住在海岸边，因为泥蟹有时会携带疾病。正如我所说的，试着在高精灵中打听一下。我相信有几个人在黑檀心的鹰蛾军团驻扎地服役。
+他身材高大，黑发，五官锐利 -- 但这种形容适合很多高精灵。我们给他治疗的是沼泽热，所以也许他住在海岸边，因为泥蟹有时会携带疾病。正如我所说的，试着在高精灵中打听一下。我相信有几个人在黑檀心的鹰蛾军团驻扎地服役。
 
 > INFO.NAME nedhelas 20395837371329479
 Nedhelas? He's dead. You should know that, since you were responsible for his death. If you had any business with Nedhelas, you should have taken care of it BEFORE you killed him.
@@ -152573,19 +152573,19 @@ The Dremora are a class of intelligent, powerful war spirits in the service of t
 
 > INFO.NAME potions 3237732066846131594
 Alchemists, apothecaries, and healers, as well as general merchants, sell commercial potions. These potions are easy and reliable, but costly. If you have training and skill in alchemy, and the necessary apparatus and ingredients, you can make your own homemade potions in the field. The eleven kinds of potions are: cure potions, restore potions, fortify potions, resist potions, aquatic potions, mysticism potions, alteration potions, illusion potions, detect potions, shield potions, and toxic potions.
-炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}
+炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}
 
 > INFO.NAME potions 14349284303227422403
 Alchemists, apothecaries, and healers, as well as general merchants, sell commercial potions. These potions are easy and reliable, but costly. If you have training and skill in alchemy, and the necessary apparatus and ingredients, you can make your own homemade potions in the field. The eleven kinds of potions are: cure potions, restore potions, fortify potions, resist potions, aquatic potions, mysticism potions, alteration potions, illusion potions, detect potions, shield potions, and toxic potions.
-炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}
+炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}
 
 > INFO.NAME potions 472124081241971946
 Alchemists, apothecaries, and healers, as well as general merchants, sell commercial potions. These potions are easy and reliable, but costly. If you have training and skill in alchemy, and the necessary apparatus and ingredients, you can make your own homemade potions in the field. The eleven kinds of potions are: cure potions, restore potions, fortify potions, resist potions, aquatic potions, mysticism potions, alteration potions, illusion potions, detect potions, shield potions, and toxic potions.
-炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}
+炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}
 
 > INFO.NAME potions 3144611471925214760
 Alchemists, apothecaries, and healers, as well as general merchants, sell commercial potions. These potions are easy and reliable, but costly. If you have training and skill in alchemy, and the necessary apparatus and ingredients, you can make your own homemade potions in the field. The eleven kinds of potions are: cure potions, restore potions, fortify potions, resist potions, aquatic potions, mysticism potions, alteration potions, illusion potions, detect potions, shield potions, and toxic potions.
-炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、侦测药水、探测药水和毒性药水。 {幻术系,护盾药水}
+炼金术士、药剂师和治疗师以及普通商人都出售药水商品。这些药水简单可靠，但价格昂贵。如果你受过炼金训练，掌握炼金技巧，并拥有必要的炼金仪器和材料，就可以在野外自制药水。这十一种药水分别是：治愈药水、恢复药水、强化药水、抗性药水、水生药水、神秘系药水、变化系药水、幻觉药水、探测药水、护盾药水和毒性药水。 {幻术系}
 
 > INFO.NAME scuttle 11456267101026716571
 Scuttle is Vvardenfell's favorite local dish. This cheese-like, greasy substance made from the flesh of local beetles is remarkably tasty, and has modest magical properties.
@@ -157269,7 +157269,7 @@ Sirilonwe in the Mages Guild in Vivec has somehow acquired a copy of Chimarvamid
 
 > INFO.NAME duties 159220191805528908
 I have been waiting for *ages* to get a Detect Creatures potion from Skink-in-Tree's-Shade in Sadrith Mora.
-我已经等了*数年*才从萨德瑞斯-莫拉的树荫·中·蜥那里得到一瓶生物探测药水。
+我已经等了*数年*才从萨德瑞斯-莫拉的树荫·中·蜥那里得到一瓶探测生物药水。
 
 > INFO.NAME duties 2847734082225514753
 Yes, %PCRank, there is something you could do for me. I am looking for a copy of the rare Dwarven book Chronicles of Nchuleft.
@@ -157325,7 +157325,7 @@ For now, just deliver the potion back to Edwinna in Ald'ruhn.
 
 > INFO.NAME duties 13030265523172521200
 I may have duties for you later, %PCName. Right now I am busy making a Detect Creatures potion for Edwinna in Ald'ruhn.
-%PCName，我稍后可能有职务给你。现在我正忙着为奥德'汝因的埃德温娜制作生物探测药水。
+%PCName，我稍后可能有职务给你。现在我正忙着为奥德'汝因的埃德温娜制作探测生物药水。
 
 > INFO.NAME duties 221412592288155059
 Of course, %PCRank, whatever you say.
@@ -173393,7 +173393,7 @@ Has Lette been cured? You are indeed worthy of the Tribunal's praise. Perhaps yo
 
 > INFO.NAME lette 7104251811572923309
 The Temple does not proselytize, but we do good works for non-believers. Lette, a Redguard in Tel Mora, has swamp fever. Cure her of swamp fever and return to me.
-神殿不传教，但我们也为非信徒做善事。泰尔-莫拉的红卫人勒特得了沼泽疟疾。治好她的沼泽疟疾，然后回来找我。 {工作}
+神殿不传教，但我们也为非信徒做善事。泰尔-莫拉的红卫人勒特得了沼泽热。治好她的沼泽热，然后回来找我。 {工作}
 
 > INFO.NAME lette 12690201451259720024
 She's on the shore to the north.
