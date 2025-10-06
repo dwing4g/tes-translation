@@ -948,7 +948,7 @@ Master Frost Trap
 
 > SPEL.FNAM trap_shock_killer
 Master Shock Trap
-大师级闪电陷阱
+大师级电击陷阱
 
 > SPEL.FNAM trap_poison_killer
 Master Poison Trap
@@ -976,7 +976,7 @@ Proximity Mine Frost
 
 > SPEL.FNAM prox_mine_shock
 Proximity Mine Shock
-触发式闪电地雷
+触发式电击地雷
 
 > SPEL.FNAM prox_mine_poison
 Proximity Mine Poison
@@ -1020,7 +1020,7 @@ Crimson Plague
 
 > SPEL.FNAM shockimperfect
 Fabricant Shock
-械构体闪电
+械构体电击
 
 > SPEL.FNAM rotbone
 Rotbone
@@ -3427,7 +3427,7 @@ Vaernima, whose sphere is the realm of dreams and nightmares, and from whose rea
 
 > CREA.FNAM centurion_shock_baladas
 Shock Centurion
-闪电百夫长
+电击百夫长
 
 > ACTI.FNAM a_furn_de_table_8
 Table
@@ -3791,7 +3791,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 君王链甲<BR>
 <BR>
-有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸收生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
+有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸取生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
 <BR>
 黑檀链甲<BR>
 <BR>
@@ -6871,7 +6871,7 @@ Advanced Steam Centurion
 
 > WEAP.FNAM centurion_projectile_dart_shock
 Dwarven Shock Dart
-矮人闪电镖
+矮人电击镖
 
 > CLOT.FNAM mazed_band_end
 Barilzar's Mazed Band
@@ -7501,7 +7501,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 君王链甲<BR>
 <BR>
-有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸收生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
+有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸取生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
 <BR>
 黑檀链甲<BR>
 <BR>
@@ -23671,7 +23671,7 @@ Do the old places of the Deep Elves interest you? Then you should go see Nchulef
 
 > INFO.NAME little secret 20738188521691715837
 All outlanders are looking for the old Deep Elf places. Have you heard of Nchardumz? Maybe not. Maybe you will be surprised when you see it.
-所有外地人都在寻找古老的深精灵之地。你听说过纳查达姆兹吗？也许没有。也许当你看到它时会大吃一惊。
+所有外地人都在寻找古老的深精灵之地。你听说过恩查杜姆兹吗？也许没有。也许当你看到它时会大吃一惊。
 
 > INFO.NAME little secret 10957302252415313667
 Southeast of Erabenimsun camp is an old stone place called Tusenend. That is where we send outlanders when we are tired of listening to them.
@@ -33391,7 +33391,7 @@ You're in Godsreach.
 
 > INFO.NAME godsreach 2666529922709331460
 You're in Godsreach. As you leave here, you'll see the Winged Guar directly in front of you, and the Craftsmen's Hall on your right.
-你正在神临区。在你现在的位置，你会看到有翼瓜尔在你的正前方，工匠大厅在你的右边。
+你正在神临区。在你现在的位置，你会看到瓜尔添翼在你的正前方，工匠大厅在你的右边。
 
 > INFO.NAME godsreach 5480779949524373
 You're in Godsreach.
@@ -33407,7 +33407,7 @@ You're in Godsreach.
 
 > INFO.NAME godsreach 328116658269114450
 You're in Godsreach. That's where thee Craftsmen's Hall is located. As you leave, the two buildings nearby are the Winged Guar, a fine place for a drink or to rent a room, and the Museum of Artifacts.
-你正在神临区。这里是工匠大厅的所在地。在你现在的位置，旁边的两座建筑是有翼瓜尔，一个喝酒或租住的好地方，以及文物博物馆。
+你正在神临区。这里是工匠大厅的所在地。在你现在的位置，旁边的两座建筑是瓜尔添翼，一个喝酒或租住的好地方，以及文物博物馆。
 
 > INFO.NAME godsreach 6244732793711976
 You're in Godsreach. That's where the Winged Guar is located. You'll find the Museum and the Craftsmen's Hall nearby, if that's what you're looking for.

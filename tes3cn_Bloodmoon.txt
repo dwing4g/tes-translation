@@ -27214,7 +27214,7 @@ C. 马基乌斯<BR>"
 -WEAP
  WEAP.NAME "BM_ice_minion_lance$00"
  WEAP.MODL "w\IceMspear.NIF$00"
- WEAP.FNAM "蓝客灵长矛$00"
+ WEAP.FNAM "蓝客灵骑枪$00"
  WEAP.WPDT [00 00 20 41 64 00 00 00 00 00 2C 01 66 66 A6 3F 00 00 80 3F 50 00 01 0A 01 0F 0D 18 00 00 00 00]
  WEAP.ITEX "w\IceM_Spear.dds$00"
 -LEVI
@@ -28807,7 +28807,7 @@ C. 马基乌斯<BR>"
 -WEAP
  WEAP.NAME "BM riekling lance$00"
  WEAP.MODL "w\IceMspear.NIF$00"
- WEAP.FNAM "蓝客灵长矛$00"
+ WEAP.FNAM "蓝客灵骑枪$00"
  WEAP.WPDT [00 00 20 41 64 00 00 00 00 00 2C 01 66 66 A6 3F 00 00 80 3F 50 00 01 0A 01 0F 0D 18 00 00 00 00]
  WEAP.ITEX "w\IceM_Spear.dds$00"
 -CONT
@@ -60760,7 +60760,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "31003265883114019894$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "如果您想找一把好的短刃武器，不妨试试雪狼的冬伤匕首。它的魔力冰霜可以伤害肉体，损坏盔甲。 {手}"
+ INFO.NAME "如果您想找一把好的短刃武器，不妨试试雪狼的冬伤匕首。它的魔力冰霜可以伤害肉体，瓦解盔甲。 {手}"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -60785,7 +60785,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "264911721322342960$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "如果您想找一把好的短刃武器，不妨试试雪狼的冬伤匕首。它的魔力冰霜可以伤害肉体，损坏盔甲。 {手}"
+ INFO.NAME "如果您想找一把好的短刃武器，不妨试试雪狼的冬伤匕首。它的魔力冰霜可以伤害肉体，瓦解盔甲。 {手}"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [3C 00 00 00]
 -INFO

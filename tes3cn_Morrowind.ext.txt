@@ -2194,7 +2194,7 @@ Drain
 
 > GMST.STRV sAbsorb
 Absorb
-吸收
+吸取
 
 > GMST.STRV sFortify
 Fortify
@@ -3214,7 +3214,7 @@ Swift Swim
 
 > GMST.STRV sEffectWaterWalking
 Water Walking
-水行
+水上行走
 
 > GMST.STRV sEffectShield
 Shield
@@ -3258,7 +3258,7 @@ Lock
 
 > GMST.STRV sEffectOpen
 Open
-开启
+开锁
 
 > GMST.STRV sEffectFireDamage
 Fire Damage
@@ -3266,7 +3266,7 @@ Fire Damage
 
 > GMST.STRV sEffectShockDamage
 Shock Damage
-闪电伤害
+电击伤害
 
 > GMST.STRV sEffectFrostDamage
 Frost Damage
@@ -3274,43 +3274,43 @@ Frost Damage
 
 > GMST.STRV sEffectDrainAttribute
 Drain Attribute
-属性削弱
+削弱属性
 
 > GMST.STRV sEffectDrainHealth
 Drain Health
-生命削弱
+削弱生命
 
 > GMST.STRV sEffectDrainSpellpoints
 Drain Magicka
-魔力削弱
+削弱魔力
 
 > GMST.STRV sEffectDrainFatigue
 Drain Fatigue
-体力削弱
+削弱体力
 
 > GMST.STRV sEffectDrainSkill
 Drain Skill
-技能削弱
+削弱技能
 
 > GMST.STRV sEffectDamageAttribute
 Damage Attribute
-属性伤害
+流失属性
 
 > GMST.STRV sEffectDamageHealth
 Damage Health
-生命伤害
+流失生命
 
 > GMST.STRV sEffectDamageMagicka
 Damage Magicka
-魔力伤害
+流失魔力
 
 > GMST.STRV sEffectDamageFatigue
 Damage Fatigue
-体力伤害
+流失体力
 
 > GMST.STRV sEffectDamageSkill
 Damage Skill
-技能伤害
+流失技能
 
 > GMST.STRV sEffectPoison
 Poison
@@ -3326,7 +3326,7 @@ Weakness to Frost
 
 > GMST.STRV sEffectWeaknessToShock
 Weakness to Shock
-闪电虚弱
+电击虚弱
 
 > GMST.STRV sEffectWeaknessToMagicka
 Weakness to Magicka
@@ -3354,11 +3354,11 @@ Weakness to Normal Weapons
 
 > GMST.STRV sEffectDisintegrateWeapon
 Disintegrate Weapon
-损坏武器
+瓦解武器
 
 > GMST.STRV sEffectDisintegrateArmor
 Disintegrate Armor
-损坏盔甲
+瓦解盔甲
 
 > GMST.STRV sEffectInvisibility
 Invisibility
@@ -3370,7 +3370,7 @@ Chameleon
 
 > GMST.STRV sEffectLight
 Light
-光明
+发光
 
 > GMST.STRV sEffectSanctuary
 Sanctuary
@@ -3466,7 +3466,7 @@ Detect Animal
 
 > GMST.STRV sEffectDetectEnchantment
 Detect Enchantment
-探测环境
+探测附魔
 
 > GMST.STRV sEffectDetectKey
 Detect Key
@@ -3546,23 +3546,23 @@ Fortify Maximum Magicka
 
 > GMST.STRV sEffectAbsorbAttribute
 Absorb Attribute
-属性吸收
+吸取属性
 
 > GMST.STRV sEffectAbsorbHealth
 Absorb Health
-生命吸收
+吸取生命
 
 > GMST.STRV sEffectAbsorbSpellPoints
 Absorb Magicka
-魔力吸收
+吸取魔力
 
 > GMST.STRV sEffectAbsorbFatigue
 Absorb Fatigue
-体力吸收
+吸取体力
 
 > GMST.STRV sEffectAbsorbSkill
 Absorb Skill
-技能吸收
+吸取技能
 
 > GMST.STRV sEffectResistFire
 Resist Fire
@@ -3574,7 +3574,7 @@ Resist Frost
 
 > GMST.STRV sEffectResistShock
 Resist Shock
-抵抗闪电
+抵抗电击
 
 > GMST.STRV sEffectResistMagicka
 Resist Magicka
@@ -3750,7 +3750,7 @@ Sun Damage
 
 > GMST.STRV sEffectStuntedMagicka
 Stunted Magicka
-魔力虚弱
+魔力阻滞
 
 > GMST.STRV sSchoolAlteration
 Alteration
@@ -5626,19 +5626,19 @@ The spell effects of the College of Conjuration include the mental domination of
 
 > SKIL.DESC [0E 00 00 00]
 The spells of the College of Mysticism shape and focus otherworldly forces to bind souls in gems, or teleport the caster's body, or manipulate the world with telekinesis, or absorb or reflect magical energies, or sense unseen objects at a distance.
-神秘系学派的法术塑造并聚焦异界力量将灵魂束缚于灵魂石之中，或者传送施法者的肉体，或者用心灵感应操纵世界，或者吸收或反射魔力，或者感知远处不可见的物体。
+神秘系学派的法术塑造并聚焦异界力量将灵魂束缚于灵魂石之中，或者传送施法者的肉体，或者用心灵感应操纵世界，或者吸取或反射魔力，或者感知远处不可见的物体。
 
 > SKIL.DESC [0F 00 00 00]
 Adepts of the College of Restoration heal, restore, and fortify the body's attributes and abilities, cure disease, and protect it from other malign influences. Restoration spells can also augment or absorb strength, endurance, intelligence, agility, and other bodily attributes.
-恢复系学派的专家们能够治愈、恢复和强化身体的属性和能力，治疗疾病，保护身体免受负面影响。恢复系法术还能够增强或吸收力量、耐力、智力、敏捷和其它身体属性。
+恢复系学派的专家们能够治愈、恢复和强化身体的属性和能力，治疗疾病，保护身体免受负面影响。恢复系法术还能够增强或吸取力量、耐力、智力、敏捷和其它身体属性。
 
 > SKIL.DESC [10 00 00 00]
 Alchemy identifies magical properties in mundane substances. Substances are consumed directly, or prepared as potions to provide long-lasting benefits like healing and curing disease, water-walking, magical shielding, and fortifying bodily attributes.
-炼金能鉴定凡间物质的魔法要素。这些物质可以直接消耗，或者炼制成药剂以提供长期的帮助，例如治愈和治疗疾病、水行、魔法护盾和增强身体属性。
+炼金能鉴定凡间物质的魔法要素。这些物质可以直接消耗，或者炼制成药剂以提供长期的帮助，例如治愈和治疗疾病、水上行走、魔法护盾和增强身体属性。
 
 > SKIL.DESC [11 00 00 00]
 Unarmored skill lets one avoid or reduce injury during combat while not wearing any armor by evading, deflecting, or absorbing blows. Those versed in this skill are better defended wearing no armor at all than they are when wearing armor.
-无甲技能能够让你在战斗中不穿任何护甲时通过躲避、转移或吸收打击的方式避免或减少伤害。精通此技能的人在完全不穿戴护甲时能获得比穿戴护甲更佳的防护。
+无甲技能能够让你在战斗中不穿任何护甲时通过躲避、转移或吸取打击的方式避免或减少伤害。精通此技能的人在完全不穿戴护甲时能获得比穿戴护甲更佳的防护。
 
 > SKIL.DESC [12 00 00 00]
 Security skill lets one open locked doors and containers with lock-picks or disarm traps with probes. This skill is essential for agents and thieves alike.
@@ -5698,7 +5698,7 @@ This effect creates a shield of elemental fire around the subject's entire body.
 
 > MGEF.DESC [05 00 00 00]
 This effect creates a shield of elemental shock around the subject's entire body. The spell adds its magnitude to the subject's Armor Rating, and also greatly reduces damage from shock attacks.
-该效果会在主体全身形成一个闪电元素护盾。该法术会增加主体的护甲等级，并大幅降低闪电攻击的伤害。
+该效果会在主体全身形成一个电击元素护盾。该法术会增加主体的护甲等级，并大幅降低电击攻击的伤害。
 
 > MGEF.DESC [06 00 00 00]
 This effect creates a shield of elemental frost around the subject's entire body. The spell adds its magnitude to the subject's Armor Rating, and also greatly reduces damage from frost attacks.
@@ -5801,7 +5801,7 @@ This effect decreases the target's resistance to damage from elemental frost.
 
 > MGEF.DESC [1E 00 00 00]
 This effect decreases the target's resistance to damage from elemental shock.
-该效果会降低目标对闪电元素伤害的抗性。
+该效果会降低目标对电击元素伤害的抗性。
 
 > MGEF.DESC [1F 00 00 00]
 This effect decreases the target's resistance to damage from non-elemental magical effects.
@@ -5953,7 +5953,7 @@ The caster of this effect can detect keys; their locations appear on the map as 
 
 > MGEF.DESC [43 00 00 00]
 This effect allows the caster to absorb an attacking spell's power as an increase to his reservoir of magicka. The magnitude is the percentage chance that an attacking spell is absorbed. If successful, the caster absorbs the attacking spell's cost in spell points as increased magicka. (The caster's magicka cannot be increased above the caster's standard magicka score.) If failed, the attacking spell takes effect normally.
-该效果可让施法者吸收攻击法术的威力，以增加自身的魔力储备。效果强度决定了攻击性法术被吸收的几率百分比。如果成功，施法者会吸收攻击性法术所消耗的法术点数作为增加的魔力值。(施法者的魔力值不能超过施法者的标准魔力值）。如果失败，攻击法术正常生效。
+该效果可让施法者吸取攻击法术的威力，以增加自身的魔力储备。效果强度决定了攻击性法术被吸取的几率百分比。如果成功，施法者会吸取攻击性法术所消耗的法术点数作为增加的魔力值。(施法者的魔力值不能超过施法者的标准魔力值）。如果失败，攻击法术正常生效。
 
 > MGEF.DESC [44 00 00 00]
 This effect allows the subject to reflect spell effects back at an attacking caster.  The effect's magnitude is the percent chance that spell effect is reflected.  If the reflect spell is successful, the opposing spells reflect back at the attacking caster. If the reflect spell fails, the opposing spells take effect normally.
@@ -6054,7 +6054,7 @@ This effect increases the target's resistance to damage from elemental frost. Th
 
 > MGEF.DESC [5C 00 00 00]
 This effect increases the target's resistance to damage from elemental shock. The magnitude is percentage reduction in damage caused by elemental shock damage effects.
-该效果提高目标对闪电元素伤害的抗性。效果强度决定了闪电元素伤害效果造成的伤害降低百分比。
+该效果提高目标对电击元素伤害的抗性。效果强度决定了电击元素伤害效果造成的伤害降低百分比。
 
 > MGEF.DESC [5D 00 00 00]
 This effect increases the target's resistance to damage from magicka-based attacks (i.e., magical attacks not based on elemental forces). The magnitude is percentage reduction in damage caused by non-elemental magical damage effects.
@@ -9383,7 +9383,7 @@ Immune to Frost
 
 > SPEL.FNAM resist shock_50
 Resist Shock
-抵抗闪电
+抵抗电击
 
 > SPEL.FNAM weakness fire_50
 Weakness to Fire
@@ -9399,7 +9399,7 @@ Weakness to Frost
 
 > SPEL.FNAM weakness shock_25
 Weakness to Shock
-闪电虚弱
+电击虚弱
 
 > SPEL.FNAM burning hand
 Burning Hand
@@ -9619,19 +9619,19 @@ Sixth Barrier
 
 > SPEL.FNAM shock barrier
 Shock Barrier
-闪电屏障
+电击屏障
 
 > SPEL.FNAM shock shield
 Shock Shield
-闪电护盾
+电击护盾
 
 > SPEL.FNAM strong shock shield
 Strong Shock Shield
-强力闪电护盾
+强力电击护盾
 
 > SPEL.FNAM fierce shock shield
 Fierce Shock Shield
-狂烈闪电护盾
+狂烈电击护盾
 
 > SPEL.FNAM water breathing
 Water Breathing
@@ -9643,7 +9643,7 @@ Vivec's Kiss
 
 > SPEL.FNAM water walking
 Water Walking
-水行术
+水上行走
 
 > SPEL.FNAM blessed touch
 Blessed Touch
@@ -9995,7 +9995,7 @@ Armor Eater
 
 > SPEL.FNAM disintegrate armor
 Disintegrate Armor
-损坏盔甲
+瓦解盔甲
 
 > SPEL.FNAM weapon eater
 Weapon Eater
@@ -10003,7 +10003,7 @@ Weapon Eater
 
 > SPEL.FNAM disintegrate weapon
 Disintegrate Weapon
-损坏武器
+瓦解武器
 
 > SPEL.FNAM clumsy touch
 Clumsy Touch
@@ -10531,7 +10531,7 @@ Shockball
 
 > SPEL.FNAM shocking touch
 Shocking Touch
-雷电之触
+电击之触
 
 > SPEL.FNAM smite the ungodly
 Smite the Ungodly
@@ -10539,7 +10539,7 @@ Smite the Ungodly
 
 > SPEL.FNAM shockbite
 Shockbite
-雷牙术
+电牙术
 
 > SPEL.FNAM spark
 Spark
@@ -10591,11 +10591,11 @@ Weakness to Poison
 
 > SPEL.FNAM dire weakness to shock
 Dire Weakness to Shock
-究极闪电虚弱
+究极电击虚弱
 
 > SPEL.FNAM weakness to shock
 Weakness to Shock
-闪电虚弱
+电击虚弱
 
 > SPEL.FNAM force bolt
 Force Bolt
@@ -10743,7 +10743,7 @@ Concealment
 
 > SPEL.FNAM light
 Light
-光明
+发光
 
 > SPEL.FNAM night-eye
 Night-Eye
@@ -10907,27 +10907,27 @@ Shalidor's Mirror
 
 > SPEL.FNAM absorb agility
 Absorb Agility
-敏捷吸收
+吸取敏捷
 
 > SPEL.FNAM absorb agility [ranged]
 Absorb Agility [Ranged]
-敏捷吸收 [远程]
+吸取敏捷 [远程]
 
 > SPEL.FNAM absorb endurance
 Absorb Endurance
-耐力吸收
+吸取耐力
 
 > SPEL.FNAM absorb endurance [ranged]
 Absorb Endurance [Ranged]
-耐力吸收 [远程]
+吸取耐力 [远程]
 
 > SPEL.FNAM absorb fatigue
 Absorb Fatigue
-体力吸收
+吸取体力
 
 > SPEL.FNAM absorb fatigue [ranged]
 Absorb Fatigue [Ranged]
-体力吸收 [远程]
+吸取体力 [远程]
 
 > SPEL.FNAM energy leech
 Energy Leech
@@ -10935,11 +10935,11 @@ Energy Leech
 
 > SPEL.FNAM absorb health
 Absorb Health
-生命吸收
+吸取生命
 
 > SPEL.FNAM absorb health [ranged]
 Absorb Health [Ranged]
-生命吸收 [远程]
+吸取生命 [远程]
 
 > SPEL.FNAM vampire's kiss
 Vampire's Kiss
@@ -10959,59 +10959,59 @@ Drain Blood
 
 > SPEL.FNAM absorb intelligence
 Absorb Intelligence
-智力吸收
+吸取智力
 
 > SPEL.FNAM absorb intelligence [ranged]
 Absorb Intelligence [Ranged]
-智力吸收 [远程]
+吸取智力 [远程]
 
 > SPEL.FNAM absorb luck
 Absorb Luck
-幸运吸收
+吸取幸运
 
 > SPEL.FNAM absorb luck [ranged]
 Absorb Luck [Ranged]
-幸运吸收 [远程]
+吸取幸运 [远程]
 
 > SPEL.FNAM absorb personality
 Absorb Personality
-魅力吸收
+吸取魅力
 
 > SPEL.FNAM absorb personality [ranged]
 Absorb Personality [Ranged]
-魅力吸收 [远程]
+吸取魅力 [远程]
 
 > SPEL.FNAM absorb speed
 Absorb Speed
-速度吸收
+吸取速度
 
 > SPEL.FNAM absorb speed [ranged]
 Absorb Speed [Ranged]
-速度吸收 [远程]
+吸取速度 [远程]
 
 > SPEL.FNAM absorb spell points
 Absorb Spell Points
-魔力吸收
+吸取魔力
 
 > SPEL.FNAM absorb spell points [ranged]
 Absorb Spell Points [Ranged]
-魔力吸收 [远程]
+吸取魔力 [远程]
 
 > SPEL.FNAM absorb strength
 Absorb Strength
-力量吸收
+吸取力量
 
 > SPEL.FNAM absorb strength [ranged]
 Absorb Strength [Ranged]
-力量吸收 [远程]
+吸取力量 [远程]
 
 > SPEL.FNAM absorb willpower
 Absorb Willpower
-意志吸收
+吸取意志
 
 > SPEL.FNAM absorb willpower [ranged]
 Absorb Willpower [Ranged]
-意志吸收 [远程]
+吸取意志 [远程]
 
 > SPEL.FNAM red despair
 Red Despair
@@ -11075,7 +11075,7 @@ Resist Poison
 
 > SPEL.FNAM resist shock
 Resist Shock
-抵抗闪电
+抵抗电击
 
 > SPEL.FNAM fortify acrobatics skill
 Fortify Acrobatics Skill
@@ -11967,7 +11967,7 @@ Great Resist Magicka
 
 > SPEL.FNAM shockguard
 Shockguard
-闪电守护
+电击守护
 
 > SPEL.FNAM strong resist magicka
 Strong Resist Magicka
@@ -11999,7 +11999,7 @@ Variable Resist Poison
 
 > SPEL.FNAM great resist shock
 Great Resist Shock
-极致抵抗闪电
+极致抵抗电击
 
 > SPEL.FNAM poisonguard
 Poisonguard
@@ -12007,11 +12007,11 @@ Poisonguard
 
 > SPEL.FNAM strong resist shock
 Strong Resist Shock
-强力抵抗闪电
+强力抵抗电击
 
 > SPEL.FNAM variable resist shock
 Variable Resist Shock
-无定抵抗闪电
+无定抵抗电击
 
 > SPEL.FNAM restore agility
 Restore Agility
@@ -12335,7 +12335,7 @@ Summon Skeletal Minion
 
 > SPEL.FNAM lightning shield
 Lightning Shield
-闪电护盾
+电击护盾
 
 > SPEL.FNAM daedric bite
 Daedric Bite
@@ -12779,7 +12779,7 @@ Witchwither
 
 > SPEL.FNAM water walking (unique)
 Water Walking
-水行术
+水上行走
 
 > SPEL.FNAM masterful red wisdom
 Masterful Red Wisdom
@@ -12811,7 +12811,7 @@ Resist Frost
 
 > SPEL.FNAM resist shock_75
 Resist Shock
-抵抗闪电
+抵抗电击
 
 > SPEL.FNAM regenerate [ability]
 Regenerate
@@ -12835,7 +12835,7 @@ Resist Frost
 
 > SPEL.FNAM immune to shock
 Immune to Shock
-闪电免疫
+电击免疫
 
 > SPEL.FNAM resist fire_75
 Resist Fire
@@ -13095,7 +13095,7 @@ Viperbite
 
 > SPEL.FNAM shock
 Shock
-闪电
+电击
 
 > SPEL.FNAM Fireball_large
 Greater Fireball
@@ -13147,7 +13147,7 @@ Maar Gan Blessings
 
 > SPEL.FNAM water_walk_UNIQUE
 M'aiq's Water Walking
-麦奎的水行术
+麦奎的水上行走
 
 > SPEL.FNAM weakness to corprus disease
 Weakness to Corprus Disease
@@ -15694,7 +15694,7 @@ As Inzoliah lugs the chest off toward Silvenar, and Malvasian expires on the sta
 <BR>
 英佐莉亚突然漂到舞台顶端。一个半透明的幽灵出现在丛林中，扑向另一个人，恰好是希亚瓦斯。当野蛮人尖叫着用剑砍它时，幽灵向他散出阵阵气体，希亚瓦斯倒在了地上。幽灵接着转向多瑟图斯，正当它集中精力向可怜的多瑟图斯施放寒冰魔法时，马瓦西安射出了一个火球，幽灵化为蒸汽消失在雾蒙蒙的天空中。<BR>
 <BR>
-英佐莉亚落回地面，马瓦西安正查看多瑟图斯和希亚瓦斯的尸体，他们两个脸色苍白，看样子都中了幽灵吸收力量的魔法。<BR>
+英佐莉亚落回地面，马瓦西安正查看多瑟图斯和希亚瓦斯的尸体，他们两个脸色苍白，看样子都中了幽灵吸取力量的魔法。<BR>
 <BR>
 马瓦西安：你到底还是留了些魔力。<BR>
 <BR>
@@ -15766,7 +15766,7 @@ As Inzoliah lugs the chest off toward Silvenar, and Malvasian expires on the sta
 <BR>
 突然，英佐莉亚飞来，从指尖向强盗们放出闪电魔法，他们很快爬着逃跑了。她落在地上并拾起箱子。马瓦西安倒在地上即将死亡。<BR>
 <BR>
-马瓦西安：假如……一个战斗法师对另一个施放的魔法不会瞬间伤害他，但是……一点点地吸收他的耐力和魔力，他当时不知道，但……却自信地把药剂留下了会怎样？<BR>
+马瓦西安：假如……一个战斗法师对另一个施放的魔法不会瞬间伤害他，但是……一点点地吸取他的耐力和魔力，他当时不知道，但……却自信地把药剂留下了会怎样？<BR>
 <BR>
 英佐莉亚：她真是个狡猾的战斗法师。<BR>
 <BR>
@@ -18718,7 +18718,7 @@ Charwich<BR>
 <BR>
 我知道我已经招惹了一个恐怖的存在，于是我拼尽全力冲向来时的走廊。然而，一道从巴里亚瑟指间射出蓝色的闪光划过了我的身体，在那一瞬间，我感受到了死亡的降临。我相信他绝对有能力用上千种法术来将我折磨致死，然而他却选择了一种我可以承受的，可以在挣扎中接受他嘲笑的咒语。可是在最后，我却没有让他得偿所愿。<BR>
 <BR>
-由于已经被魔法击中，神秘系的魔法反制 -- 这是一种可以驱散法力，将其吸收或反射给施术者的魔法 -- 丧失了它的作用。但是我还可以使用被称为“重置”的心灵传送法术将我传送到上一个我留下精神印记的地方。我得承认我已经忘记上一次留下精神印记是在什么地方，可能是在伊利亚克湾的博理安，也可能在坎布里，又或者是在格里姆特里花园 -- 那是我碰到看守者的地方，当然也不排除我把印记留在了魏瑞斯特的宫殿里。当时我在心中暗自祈祷着之前我们一起在晨风的时候我没有顺手将印记留在那里，因为如果传送距离过远，施术者很有可能会迷失在次元夹缝之中。但我别无选择，为了避免成为巴里亚瑟手中的玩物，我必须孤注一掷。<BR>
+由于已经被魔法击中，神秘系的魔法反制 -- 这是一种可以驱散法力，将其吸取或反射给施术者的魔法 -- 丧失了它的作用。但是我还可以使用被称为“重置”的心灵传送法术将我传送到上一个我留下精神印记的地方。我得承认我已经忘记上一次留下精神印记是在什么地方，可能是在伊利亚克湾的博理安，也可能在坎布里，又或者是在格里姆特里花园 -- 那是我碰到看守者的地方，当然也不排除我把印记留在了魏瑞斯特的宫殿里。当时我在心中暗自祈祷着之前我们一起在晨风的时候我没有顺手将印记留在那里，因为如果传送距离过远，施术者很有可能会迷失在次元夹缝之中。但我别无选择，为了避免成为巴里亚瑟手中的玩物，我必须孤注一掷。<BR>
 <BR>
 我使用了法术，然后下一瞬间，我发现自己被传送到穆灵女士宫殿的门阶上。逃出生天的我松了一口气，尽管我更加希望我将精神印记留在法师公会或者有治疗者的神殿附近。但我很清楚以我此时的身体状况无法走太远，于是我只好敲响了面前的大门然后便被送到了我现在写这封信的地方。<BR>
 <BR>
@@ -39609,7 +39609,7 @@ Frostguard Robe
 
 > CLOT.FNAM shockguard robe
 Shockguard Robe
-闪电守护长袍
+电击守护长袍
 
 > CLOT.FNAM magickguard robe
 Magickguard Robe
@@ -39817,7 +39817,7 @@ Amulet of Opening
 
 > CLOT.FNAM amulet of water walking
 Amulet of Water Walking
-水行护符
+水上行走护符
 
 > CLOT.FNAM amulet of slowfalling
 Amulet of Slowfalling
@@ -43565,7 +43565,7 @@ Standard Potion of Invisibility
 
 > ALCH.FNAM p_light_s
 Standard Potion of Light
-一般的光明药水
+一般的发光药水
 
 > ALCH.FNAM p_lightning shield_s
 Standard Lightning Shield
@@ -43977,19 +43977,19 @@ Exclusive Rising Force Potion
 
 > ALCH.FNAM p_light_c
 Cheap Potion of Light
-劣质的光明药水
+劣质的发光药水
 
 > ALCH.FNAM p_light_b
 Bargain Potion of Light
-弱效的光明药水
+弱效的发光药水
 
 > ALCH.FNAM p_light_e
 Exclusive Potion of Light
-高级的光明药水
+高级的发光药水
 
 > ALCH.FNAM p_light_q
 Quality Potion of Light
-优质的光明药水
+优质的发光药水
 
 > ALCH.FNAM p_lightning shield_c
 Cheap Lightning Shield
@@ -49198,7 +49198,7 @@ Senilius Cadiusus<BR>
 <BR>
 如果机关墙的秘密没有在近几代人这段时间内遗失就好了。如果有那些珍贵的卷轴，我就能够进入下层去寻找那些真正的全新的发现了。<BR>
 <BR>
-不过还是有一些好消息的。我找到了你想找的那个“姆祖莱夫特”。显然，“姆祖莱夫特”是大衮-费尔南边的大型锻莫遗迹的名字。注意不要把它和附近的“纳查达尔克”遗迹混淆了。<BR>
+不过还是有一些好消息的。我找到了你想找的那个“姆祖莱夫特”。显然，“姆祖莱夫特”是大衮-费尔南边的大型锻莫遗迹的名字。注意不要把它和附近的“恩查达尔克”遗迹混淆了。<BR>
 <BR>
 上层的最后一只锻莫蜘蛛百夫长终于被停机了，这样才能将其拆解进行研究。虽然我也希望能在它活动的时候研究它，但那样太危险了。<BR>
 <BR>
@@ -52628,7 +52628,7 @@ Amulet of Flesh Made Whole
 
 > CREA.FNAM centurion_shock_baladas
 Shock Centurion
-闪电百夫长
+电击百夫长
 
 > ARMO.FNAM daedric_cuirass_htab
 Daedric Cuirass
@@ -56235,7 +56235,7 @@ Potion of Water Breathing
 
 > ALCH.FNAM p_water_walking_s
 Potion of Water Walking
-水行药水
+水上行走药水
 
 > BOOK.FNAM bk_ravilamemorial
 Ravila Memorial
@@ -65149,7 +65149,7 @@ Scroll of Flameguard
 
 > BOOK.FNAM sc_shockguard
 Scroll of Shockguard
-闪电守护卷轴
+电击守护卷轴
 
 > BOOK.TEXT sc_shockguard
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -65230,7 +65230,7 @@ Scroll of Inas' Chastening
 
 > BOOK.FNAM sc_elementalburstshock
 Scroll of Elemental Burst:Shock
-闪电元素爆发卷轴
+电击元素爆发卷轴
 
 > BOOK.TEXT sc_elementalburstshock
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">DESTRUCTION TO ALL FOES</FONT><BR>
@@ -70630,7 +70630,7 @@ Standard Restore Health Potion
 
 > ALCH.FNAM p_detect_enchantment_s
 Potion of Detect Enchantments
-探测附魔物品药水
+探测附魔药水
 
 > CONT.FNAM de_r_chest_01_aurane
 Chest
@@ -73275,7 +73275,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 君王链甲<BR>
 <BR>
-有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸收生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
+有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸取生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
 <BR>
 黑檀链甲<BR>
 <BR>
@@ -93973,27 +93973,27 @@ Both the Western 'militia' and eastern 'Ashlander' armor styles depends on light
 
 > INFO.NAME exotic armor types 3075976112588917522
 Fur armor is a light armor style popular among Nord barbarians. Dreugh is a remarkably strong Dunmer medium armor, made from Dreugh hide. But the most famous exotic armor is Dwemer, or Dwarvish armor, a highly ornate heavy armor valued as much for its rarity and antique craftsmanship as for its distinctive impact-absorbing qualities in combat.
-毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸收能力而备受重视。
+毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸取能力而备受重视。
 
 > INFO.NAME exotic armor types 1073221625313808102
 Fur armor is a light armor style popular among Nord barbarians. Dreugh is a remarkably strong Dunmer medium armor, made from Dreugh hide. But the most famous exotic armor is Dwemer, or Dwarvish armor, a highly ornate heavy armor valued as much for its rarity and antique craftsmanship as for its distinctive impact-absorbing qualities in combat.
-毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸收能力而备受重视。
+毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸取能力而备受重视。
 
 > INFO.NAME exotic armor types 1433124739157622171
 Fur armor is a light armor style popular among Nord barbarians. Dreugh is a remarkably strong Dunmer medium armor, made from Dreugh hide. But the most famous exotic armor is Dwemer, or Dwarvish armor, a highly ornate heavy armor valued as much for its rarity and antique craftsmanship as for its distinctive impact-absorbing qualities in combat.
-毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸收能力而备受重视。
+毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸取能力而备受重视。
 
 > INFO.NAME exotic armor types 17364246801593522284
 Fur armor is a light armor style popular among Nord barbarians. Dreugh is a remarkably strong Dunmer medium armor, made from Dreugh hide. But the most famous exotic armor is Dwemer, or Dwarvish armor, a highly ornate heavy armor valued as much for its rarity and antique craftsmanship as for its distinctive impact-absorbing qualities in combat.
-毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸收能力而备受重视。
+毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸取能力而备受重视。
 
 > INFO.NAME exotic armor types 275052597188132118
 Fur armor is a light armor style popular among Nord barbarians. Dreugh is a remarkably strong Dunmer medium armor, made from Dreugh hide. But the most famous exotic armor is Dwemer, or Dwarvish armor, a highly ornate heavy armor valued as much for its rarity and antique craftsmanship as for its distinctive impact-absorbing qualities in combat.
-毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸收能力而备受重视。
+毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸取能力而备受重视。
 
 > INFO.NAME exotic armor types 970820214929715523
 Fur armor is a light armor style popular among Nord barbarians. Dreugh is a remarkably strong Dunmer medium armor, made from Dreugh hide. But the most famous exotic armor is Dwemer, or Dwarvish armor, a highly ornate heavy armor valued as much for its rarity and antique craftsmanship as for its distinctive impact-absorbing qualities in combat.
-毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸收能力而备受重视。
+毛皮甲是诺德人野蛮人中流行的一种轻甲样式。蟹灵甲是一种异常坚固的丹莫中甲，由蟹灵皮制成。但最著名的异域盔甲是锻莫（或矮人盔甲），这是一种高度华丽的重甲，因其稀有性和古董般的工艺以及在战斗中独特的冲击吸取能力而备受重视。
 
 > INFO.NAME material and craft 1647324345213796668
 Weapons popular in Morrowind can be categorized according to their material and craft. In approximate order of value and utility, the types are: chitin, iron, steel, silver, dwarven, nordic, glass, ebony, and daedric.
@@ -97437,31 +97437,31 @@ There are many common variants of alteration spells, not to mention the countles
 
 > INFO.NAME absorption spells 189562236611077547
 Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.
-吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸收敏捷、吸收耐力、吸收体力、吸收生命、吸收智力、吸收幸运、吸收魅力、吸收速度、吸收力量、吸收意志力和吸收法术点数。
+吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸取敏捷、吸取耐力、吸取体力、吸取生命、吸取智力、吸取幸运、吸取魅力、吸取速度、吸取力量、吸取意志力和吸取法术点数。
 
 > INFO.NAME absorption spells 258291189453055914
 Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.
-吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸收敏捷、吸收耐力、吸收体力、吸收生命、吸收智力、吸收幸运、吸收魅力、吸收速度、吸收力量、吸收意志力和吸收法术点数。
+吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸取敏捷、吸取耐力、吸取体力、吸取生命、吸取智力、吸取幸运、吸取魅力、吸取速度、吸取力量、吸取意志力和吸取法术点数。
 
 > INFO.NAME absorption spells 19418230893253012817
 Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.
-吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸收敏捷、吸收耐力、吸收体力、吸收生命、吸收智力、吸收幸运、吸收魅力、吸收速度、吸收力量、吸收意志力和吸收法术点数。
+吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸取敏捷、吸取耐力、吸取体力、吸取生命、吸取智力、吸取幸运、吸取魅力、吸取速度、吸取力量、吸取意志力和吸取法术点数。
 
 > INFO.NAME absorption spells 2857520032356929682
 Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.
-吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸收敏捷、吸收耐力、吸收体力、吸收生命、吸收智力、吸收幸运、吸收魅力、吸收速度、吸收力量、吸收意志力和吸收法术点数。
+吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸取敏捷、吸取耐力、吸取体力、吸取生命、吸取智力、吸取幸运、吸取魅力、吸取速度、吸取力量、吸取意志力和吸取法术点数。
 
 > INFO.NAME absorption spells 2921012004189507884
 Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.
-吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸收敏捷、吸收耐力、吸收体力、吸收生命、吸收智力、吸收幸运、吸收魅力、吸收速度、吸收力量、吸收意志力和吸收法术点数。
+吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸取敏捷、吸取耐力、吸取体力、吸取生命、吸取智力、吸取幸运、吸取魅力、吸取速度、吸取力量、吸取意志力和吸取法术点数。
 
 > INFO.NAME absorption spells 944945281596112884
 Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.
-吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸收敏捷、吸收耐力、吸收体力、吸收生命、吸收智力、吸收幸运、吸收魅力、吸收速度、吸收力量、吸收意志力和吸收法术点数。
+吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸取敏捷、吸取耐力、吸取体力、吸取生命、吸取智力、吸取幸运、吸取魅力、吸取速度、吸取力量、吸取意志力和吸取法术点数。
 
 > INFO.NAME absorption spells 224891991146239
 Absorption spells transfer fundamental attributes from the victim to the caster. For the duration of the spell, the victim's attributes are drained, while the caster's attributes are increased. At the end of the spell effect, attributes return to normal. The most common of these mysticism spells are: absorb agility, absorb endurance, absorb fatigue, absorb health, absorb intelligence, absorb luck, absorb personality, absorb speed, absorb strength, absorb willpower, and absorb spell points.
-吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸收敏捷、吸收耐力、吸收体力、吸收生命、吸收智力、吸收幸运、吸收魅力、吸收速度、吸收力量、吸收意志力和吸收法术点数。
+吸收类法术会将目标的基本属性转移给施法者。在法术持续期间，目标的属性会被削弱，而施法者的属性则会增加。法术效果结束时，属性恢复正常。这些神秘系法术中最常见的有：吸取敏捷、吸取耐力、吸取体力、吸取生命、吸取智力、吸取幸运、吸取魅力、吸取速度、吸取力量、吸取意志力和吸取法术点数。
 
 > INFO.NAME domination spells 15682663842864130
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
@@ -101071,31 +101071,31 @@ St. Delyn Canton and St. Olms Canton are residence cantons for commoners and pau
 
 > INFO.NAME mysticism spells 265379333265821025
 There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide mysticism into three different classes of effects: transport spells, absorption spells, and other mysticism spells.
-神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：运输类法术、吸收类法术和其它类神秘系法术。
+神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：传送类法术、吸收类法术和其它类神秘系法术。
 
 > INFO.NAME mysticism spells 3419948118528617
 There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide mysticism into three different classes of effects: transport spells, absorption spells, and other mysticism spells.
-神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：运输类法术、吸收类法术和其它类神秘系法术。
+神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：传送类法术、吸收类法术和其它类神秘系法术。
 
 > INFO.NAME mysticism spells 17536113282322916399
 There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide mysticism into three different classes of effects: transport spells, absorption spells, and other mysticism spells.
-神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：运输类法术、吸收类法术和其它类神秘系法术。
+神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：传送类法术、吸收类法术和其它类神秘系法术。
 
 > INFO.NAME mysticism spells 80142234040629837
 There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide mysticism into three different classes of effects: transport spells, absorption spells, and other mysticism spells.
-神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：运输类法术、吸收类法术和其它类神秘系法术。
+神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：传送类法术、吸收类法术和其它类神秘系法术。
 
 > INFO.NAME mysticism spells 3253570728765633
 There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide mysticism into three different classes of effects: transport spells, absorption spells, and other mysticism spells.
-神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：运输类法术、吸收类法术和其它类神秘系法术。
+神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：传送类法术、吸收类法术和其它类神秘系法术。
 
 > INFO.NAME mysticism spells 3815240172447224784
 There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide mysticism into three different classes of effects: transport spells, absorption spells, and other mysticism spells.
-神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：运输类法术、吸收类法术和其它类神秘系法术。
+神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：传送类法术、吸收类法术和其它类神秘系法术。
 
 > INFO.NAME mysticism spells 17916173031766812673
 There are many common variants of mysticism spells, not to mention the countless custom versions created by ambitious spellcasters. It helps to divide mysticism into three different classes of effects: transport spells, absorption spells, and other mysticism spells.
-神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：运输类法术、吸收类法术和其它类神秘系法术。
+神秘系法术有许多常见变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。将神秘系法术分为三种不同的效果等级：传送类法术、吸收类法术和其它类神秘系法术。
 
 > INFO.NAME elemental damage 21538143052067225098
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
@@ -101127,31 +101127,31 @@ Elemental damage spells injure natural and supernatural creatures with magics ba
 
 > INFO.NAME transport spells 141069937166524149
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
-运输类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
+传送类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
 
 > INFO.NAME transport spells 862425980289372497
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
-运输类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
+传送类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
 
 > INFO.NAME transport spells 2257238681580318844
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
-运输类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
+传送类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
 
 > INFO.NAME transport spells 10689201702225514679
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
-运输类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
+传送类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
 
 > INFO.NAME transport spells 19092221378783177
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
-运输类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
+传送类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
 
 > INFO.NAME transport spells 1900712879312329865
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
-运输类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
+传送类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
 
 > INFO.NAME transport spells 23119152142393726326
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
-运输类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
+传送类法术可以瞬间将施法者从一个地点传送到另一个地点。神秘系的传送效果在晨风中常见的有四种：标记、召回、圣灵干预和奥姆希维干预。
 
 > INFO.NAME summoning spells 840729737232129082
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
@@ -106251,19 +106251,19 @@ Fortify potions temporarily increase attributes and abilities. Fortify potions i
 
 > INFO.NAME aquatic potions 18607140981910625628
 Aquatic potions aid the subject in movement and survival in an aquatic environment. Aquatic potions include: water breathing, swift swim, and water walking.
-水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水行。
+水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水上行走。
 
 > INFO.NAME aquatic potions 9208279802501730000
 Aquatic potions aid the subject in movement and survival in an aquatic environment. Aquatic potions include: water breathing, swift swim, and water walking.
-水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水行。
+水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水上行走。
 
 > INFO.NAME aquatic potions 2058124146994018021
 Aquatic potions aid the subject in movement and survival in an aquatic environment. Aquatic potions include: water breathing, swift swim, and water walking.
-水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水行。
+水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水上行走。
 
 > INFO.NAME aquatic potions 6354264572501325763
 Aquatic potions aid the subject in movement and survival in an aquatic environment. Aquatic potions include: water breathing, swift swim, and water walking.
-水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水行。
+水生药水可以帮助受试者在水生环境中移动和生存。这些药水包括：水下呼吸、迅捷游泳和水上行走。
 
 > INFO.NAME animal products 146126815875621450
 Animal products of commercial value on Vvardenfell include the following: alit hide, crab meat, dreugh wax, guar hide, hound meat, kagouti hide, kwama cuttle, kwama egg, netch leather, racer plumes, rat meat, scales, scrib jelly, scrib jerky, scuttle , shalk resin, and Sload soap.
@@ -106703,31 +106703,31 @@ The Palace of Vivec is the abode of the mortal form of the god-hero Lord Vivec, 
 
 > INFO.NAME illusion spells 2051713987232456892
 There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.
-幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、光明、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
+幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、发光、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
 
 > INFO.NAME illusion spells 8859450720313783
 There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.
-幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、光明、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
+幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、发光、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
 
 > INFO.NAME illusion spells 6779220327317569
 There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.
-幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、光明、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
+幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、发光、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
 
 > INFO.NAME illusion spells 21382245491290728240
 There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.
-幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、光明、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
+幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、发光、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
 
 > INFO.NAME illusion spells 92621983563175296
 There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.
-幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、光明、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
+幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、发光、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
 
 > INFO.NAME illusion spells 1948327046316217551
 There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.
-幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、光明、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
+幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、发光、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
 
 > INFO.NAME illusion spells 29352121462664811057
 There are many common variants of illusion spells, not to mention the countless custom versions created by ambitious spellcasters. But here is a list of the most basic spells, representing all the fundamental classes of spell effects produced by this college: hide, chameleon, light, chameleon, night-eye, charming touch, paralysis, silence, blind, earwig, calm humanoid, calm creature, frenzy humanoid, frenzy creature, demoralize humanoid, demoralize creature, rally humanoid, and rally creature.
-幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、光明、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
+幻觉类法术有许多常见的变体，更不用说雄心勃勃的施法者们创造的无数自定义版本了。但这里列出的是最基本的法术，代表了该学院产生的所有基本类别的法术效果：隐身、变色龙、发光、变色龙、夜眼、魅惑之触、麻痹、沉默、失明、耳鸣、人形生物镇定、生物镇定、人形生物狂乱、生物狂乱、人形生物消沉、生物消沉、振奋人形生物和振奋生物。 {幻术系}
 
 > INFO.NAME tribunal temple 2853011934596714848
 The Temple believes that Almalexia, Vivec, and Sotha Sil were mortal guardians of Morrowind who walked the earth, defeated the Dunmer's greatest enemies, the Nords and the Dwarves, and achieved divine substance through superhuman discipline and virtue and supernatural wisdom and insight. Like loving ancestors, they guard and counsel their followers. Like stern parents, they punish sin and error. Like generous relatives, they share their bounty among the greatest and least, according to their needs.
@@ -109871,7 +109871,7 @@ You may wait as long as you wish.
 
 > INFO.NAME sanctus shrine 370914584915329295
 To make the Pilgrimage, I must swear you to silence. If you speak with anyone before reaching the shrine, you will have broken your vow. Before you are sworn to silence, you may wish to purchase some potions of levitation or water walking. There is no easy way to get to the Sanctus Shrine in Dagon Fel and the waters can be dangerous. Tell me when you are ready to take the vow of Silence.
-要进行朝圣，我必须让你发誓保持沉默。如果你在到达圣祠之前与任何人交谈，你就违背了誓言。在你宣誓保持沉默之前，你可以购买一些浮空药水或水行药水。要去大衮-费尔的哉颂圣祠并不容易，而且水里可能很危险。准备好宣读沉默誓言时告诉我。 {这些药水}
+要进行朝圣，我必须让你发誓保持沉默。如果你在到达圣祠之前与任何人交谈，你就违背了誓言。在你宣誓保持沉默之前，你可以购买一些浮空药水或水上行走药水。要去大衮-费尔的哉颂圣祠并不容易，而且水里可能很危险。准备好宣读沉默誓言时告诉我。 {这些药水}
 
 > INFO.BNAM sanctus shrine 370914584915329295 c1
 Take vow of silence
@@ -110619,7 +110619,7 @@ There are three cultures on Vvardenfel: the nomadic Ashlanders: the settled Hous
 
 > INFO.NAME morrowind lore 30229305721924712283
 The three armor styles common here are light, medium, and heavy. Light armor is weak but less tiring to wear, and is better for fast running. Heavy armor is strong but slow and tiring. Medium armor is a compromise between light and heavy. The fourth style is unarmored, evading attacks rather than absorbing them with armor.
-这里常见的三种盔甲样式是轻甲、中甲和重甲样式。轻甲薄弱，但穿着不累，适合快速奔跑。重甲坚固，但速度慢且累人。中甲是轻甲和重甲的折中。第四种是无甲，可以躲避攻击，而不是用盔甲吸收攻击。 {老鼠}
+这里常见的三种盔甲样式是轻甲、中甲和重甲样式。轻甲薄弱，但穿着不累，适合快速奔跑。重甲坚固，但速度慢且累人。中甲是轻甲和重甲的折中。第四种是无甲，可以躲避攻击，而不是用盔甲吸取攻击。 {老鼠}
 
 > INFO.NAME morrowind lore 316620366293225399
 Let me tell you about the ten races most commonly encountered in Morrowind: Redguard, Breton, Nord, Altmer, Dunmer, Bosmer, Imperial, Khajiit, Argonian, and Orc. Dunmer are the native majority, but on Vvardenfell, heavily colonized by Imperial outlanders, only one in two individuals are Dunmer. The other nine races are about equally distributed. As mercenaries, House Hlaalu prefers Imperials and Redguards, Redoran prefers Nords and Altmer, and Telvanni prefer Bosmer and Bretons.
@@ -111243,19 +111243,19 @@ The storm atronach is a powerful Daedric summoning associated with elemental lig
 
 > INFO.NAME resist potions 121932432428424711
 Resist potions increase the subject's natural resistances to various harmful forces and conditions. Resist potions include: resist fire, resist frost, resist shock, resist magicka, resist disease, and resist poison.
-抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
+抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
 
 > INFO.NAME resist potions 5285302695965259
 Resist potions increase the subject's natural resistances to various harmful forces and conditions. Resist potions include: resist fire, resist frost, resist shock, resist magicka, resist disease, and resist poison.
-抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
+抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
 
 > INFO.NAME resist potions 1029611606225614489
 Resist potions increase the subject's natural resistances to various harmful forces and conditions. Resist potions include: resist fire, resist frost, resist shock, resist magicka, resist disease, and resist poison.
-抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
+抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
 
 > INFO.NAME resist potions 8366286013052127962
 Resist potions increase the subject's natural resistances to various harmful forces and conditions. Resist potions include: resist fire, resist frost, resist shock, resist magicka, resist disease, and resist poison.
-抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
+抗性药水可以增强受试者对各种有害力量和环境的自然抗性。抗性药水包括：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗疾病和抵抗毒素。 {这些药水}
 
 > INFO.NAME detect potions 30852111901584429406
 Detect potions provide magical means of perceiving certain classes of things in space. Detect potions include: detect key, detect creatures, and detect enchantment.
@@ -116055,7 +116055,7 @@ Do the old places of the Deep Elves interest you? Then you should go see Nchulef
 
 > INFO.NAME little secret 20738188521691715837
 All outlanders are looking for the old Deep Elf places. Have you heard of Nchardumz? Maybe not. Maybe you will be surprised when you see it.
-所有外地人都在寻找古老的深精灵之地。你听说过纳查达姆兹吗？也许没有。也许当你看到它时会大吃一惊。
+所有外地人都在寻找古老的深精灵之地。你听说过恩查杜姆兹吗？也许没有。也许当你看到它时会大吃一惊。
 
 > INFO.NAME little secret 10957302252415313667
 Southeast of Erabenimsun camp is an old stone place called Tusenend. That is where we send outlanders when we are tired of listening to them.
@@ -118187,59 +118187,59 @@ The Blight is gone. Completely. Blue skies over Red Mountain. We all owe you a d
 
 > INFO.NAME vulnerability 88377877926619698
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和电击等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、电击虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 2850828362805927913
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和电击等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、电击虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 28461657215992978
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和电击等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、电击虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 2048982571475824571
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和电击等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、电击虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 21592061381742229
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和电击等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、电击虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 1583026377106328758
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和电击等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、电击虚弱和毒素虚弱。
 
 > INFO.NAME vulnerability 3152769131282116838
 Vulnerability spells make natural and supernatural creatures more vulnerable to magics based on the elemental forces of fire, frost, magica, poison, and shock, reducing the chance that a victim will avoid suffering the effects of all or part of a magical attack. The most common of these destruction spells are: weakness to fire, weakness to frost, weakness to shock, weakness to magicka, and weakness to poison.
-毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和闪电等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、闪电虚弱和毒素虚弱。
+毁灭系法术中的削弱性法术会使自然生物和超自然生物更容易受到基于火焰、冰霜、魔力、毒素和电击等元素力量的魔法的伤害，降低受害者避免遭受全部或部分魔法攻击效果的几率。这些破坏性法术中最常见的有：火焰虚弱、冰霜虚弱、魔力虚弱、电击虚弱和毒素虚弱。
 
 > INFO.NAME resist spells 21635148911959019306
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 30833153261647726181
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 9957329884115317
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 23242292403146810474
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 765925645426430957
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 89301726617062274
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME resist spells 2000751281170626256
 Resist spells increase the subject's ability to resist the hostile effects of a variety of malign influences. The most common restoration spells of this kind are: resist fire, resist frost, resist shock, resist magicka, resist common disease, resist blight disease, resist poison, and resist paralysis.
-恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗闪电、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
+恢复系法术中的抗性法术可以增强受试者抵御各种恶意影响的能力。最常见的此类恢复系法术有：抵抗火焰、抵抗冰霜、抵抗电击、抵抗魔力、抵抗常见疾病、抵抗枯萎病、抵抗毒素和抵抗麻痹。
 
 > INFO.NAME lesser saints 3158712881221261901
 The lesser saints of the Temple are: Saint Felms the Bold -- Butchers, Fishmongers, Saint Llothis the Pious --  Tailors, Dyers, Saint Meris the Peacemaker -- Farmers, Laborers, Saint Roris the Martyr -- Furnishers and Caravaners, Saint Aralor the Penitent -- Tanners and Miners, Saint Delyn the Wise -- Potters, Glassmakers, Saint Olms the Just -- Sailors, Chandlers, Clerks, Saint Rilms the Barefooted -- Pilgrims, Beggars, and Saint Seryn the Merciful -- Brewers, Bakers, Distillers.
@@ -146657,7 +146657,7 @@ Rule Number One: The boss says you do business with him, or you don't do busines
 
 > INFO.NAME unarmored 1566625622894013680
 The unarmored discipline is the skill of avoiding or reducing injury during combat by evading, deflecting, or absorbing blows. This discipline is traditionally associated with the mystical martial arts disciplines of the Khajiit, but has been adapted in the West for use by mages whose spellcasting is adversely affected by encumbering armor and weapons.
-无甲术是在战斗中通过躲避、偏转或吸收打击，来避免或减少伤害的技能。这门学科传统上与卡吉特的神秘武术学科有关，但在西方已被法师们改编使用，因为法师们的施法会受到盔甲和武器的不利影响。
+无甲术是在战斗中通过躲避、偏转或吸取打击，来避免或减少伤害的技能。这门学科传统上与卡吉特的神秘武术学科有关，但在西方已被法师们改编使用，因为法师们的施法会受到盔甲和武器的不利影响。
 
 > INFO.NAME unarmored 228202939277106630
 Monks dedicated to the ascetic philosophies of Elsweyr have long cultivated the unarmored martial arts traditions called the 'Rain-of-Sand' fighting styles. The Mages Guild and other societies have had some success adapting these styles for self-defense training of wizards and other armor-averse vocations. Students of the unarmored styles wear little or no armor, and count on evasion and deflection to avoid injury.
@@ -147729,7 +147729,7 @@ Get diseases cured at the Temple or Imperial cult, or a healer or apothecary or 
 
 > INFO.NAME mysticism 245175112128166780
 The mysticism discipline is the mastery of the spell effects of the College of Mysticism. The mysticism spells involve the manipulation of magical forces and boundaries to bypass the structures and limitations of the physical world. These spells bind souls in gems, or teleport the caster's body, or manipulate the world with telekinesis, or absorb or reflect magical energies, or sense unseen objects at a distance.
-神秘系学科是对神秘学法术效果的掌握。神秘系法术涉及对魔法力量和界限的操纵，以绕过物理世界的结构和限制。这些法术可以将灵魂束缚在宝石中，或传送施法者的身体，或用心灵遥感操纵世界，或吸收或反射魔法能量，或感知远处看不见的物体。
+神秘系学科是对神秘学法术效果的掌握。神秘系法术涉及对魔法力量和界限的操纵，以绕过物理世界的结构和限制。这些法术可以将灵魂束缚在宝石中，或传送施法者的身体，或用心灵遥感操纵世界，或吸取或反射魔法能量，或感知远处看不见的物体。
 
 > INFO.NAME athletics 3032218923107868846
 The athletics discipline is training and conditioning for running and swimming, moving short and long distances over land with speed and efficiency, and conserving breath while swimming swiftly underwater.
@@ -150109,11 +150109,11 @@ I'm an alchemist. Alchemy is the process of refining and preserving the magical 
 
 > INFO.NAME my trade 13097439299548614
 I am a nightblade. Blending the disciplines of the agent and wizard, I move unseen and undetected, foil locks and traps, and teleport to safety when threatened, or strike like a viper from ambush. The College of Illusion hides me and fuddles or pacifies my opponents. The College of Mysticism detects my object, reflects and dispels enemy spells, and makes good my escape. I sell spells, and I am a spellmaker who creates spells to your specifications. I can also teach you in my skills, for a fee.
-我是一名夜刃。我融合了密探和巫师的技能，行动时神不知鬼不觉，能解除锁和陷阱，在受到威胁时瞬移到安全地带，或像毒蛇一样从埋伏中发动攻击。幻术系学派可以隐藏我，迷惑或安抚我的对手。神秘系学派侦测我的目标，反射和驱散敌人的法术，让我顺利逃脱。我出售法术，也是一名法术师，可以根据您的要求制作法术。我也可以有偿传授你我的技能。
+我是一名夜刃。我融合了密探和巫师的技能，行动时神不知鬼不觉，能解除锁和陷阱，在受到威胁时瞬移到安全地带，或像毒蛇一样从埋伏中发动攻击。幻术系学派可以隐藏我，迷惑或安抚我的对手。神秘系学派探测我的目标，反射和驱散敌人的法术，让我顺利逃脱。我出售法术，也是一名法术师，可以根据您的要求制作法术。我也可以有偿传授你我的技能。
 
 > INFO.NAME my trade 28473128141111413050
 I am a nightblade. Blending the disciplines of the stealthy agent and subtle wizard, I move unseen and undetected, foil locks and traps, and teleport to safety when threatened, or strike like a viper from ambush. The College of Illusion hides me and fuddles or pacifies my opponents. The College of Mysticism detects my object, reflects and dispels enemy spells, and makes good my escape. The key to a nightblade's success is avoidance, by spell or by stealth; with these skills, all things are possible.
-我是一名夜刃。我融合了隐秘密探和精妙巫师的技艺，行动时神不知鬼不觉，能解除锁具和陷阱，在受到威胁时瞬移到安全的地方，或者像毒蛇一样从埋伏中发动攻击。幻术系学派可以隐藏我，迷惑或安抚我的对手。神秘系学派可可以侦测我的目标，反射和驱散敌人的法术，让我顺利逃脱。夜刃成功的关键在于躲避，无论是咒语还是隐身；有了这些技能，一切皆有可能。
+我是一名夜刃。我融合了隐秘密探和精妙巫师的技艺，行动时神不知鬼不觉，能解除锁具和陷阱，在受到威胁时瞬移到安全的地方，或者像毒蛇一样从埋伏中发动攻击。幻术系学派可以隐藏我，迷惑或安抚我的对手。神秘系学派可可以探测我的目标，反射和驱散敌人的法术，让我顺利逃脱。夜刃成功的关键在于躲避，无论是咒语还是隐身；有了这些技能，一切皆有可能。
 
 > INFO.NAME my trade 1945312791710414024
 I am a spellsword. I make war with spell and sword, combining the arts of the College of Restoration, the College of Alteration, and the College of Destruction with training in medium armor style, in block defense, and in the offensive disciplines of axes, blunt weapons, and long blades. I rely on enchanted weapons and enchanted armors to further augment my offensive and defensive abilities. This balance of steel and spell, offense and defense, mobility and protection is the signature of the Spellsword.

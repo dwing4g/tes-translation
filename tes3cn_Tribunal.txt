@@ -12724,7 +12724,7 @@ End yarnarScript"
  SPEL.ENAM [10 00 FF FF 01 00 00 00 01 00 00 00 0A 00 00 00 14 00 00 00 1E 00 00 00]
 -SPEL
  SPEL.NAME "trap_shock_killer$00"
- SPEL.FNAM "大师级闪电陷阱$00"
+ SPEL.FNAM "大师级电击陷阱$00"
  SPEL.SPDT [00 00 00 00 05 00 00 00 00 00 00 00]
  SPEL.ENAM [0F 00 FF FF 01 00 00 00 01 00 00 00 0A 00 00 00 14 00 00 00 1E 00 00 00]
 -SPEL
@@ -12759,7 +12759,7 @@ End yarnarScript"
  SPEL.ENAM [10 00 FF FF 01 00 00 00 0A 00 00 00 00 00 00 00 32 00 00 00 C8 00 00 00]
 -SPEL [00 00 00 00 00 20 00 00]
  SPEL.NAME "prox_mine_shock$00"
- SPEL.FNAM "触发式闪电地雷$00"
+ SPEL.FNAM "触发式电击地雷$00"
  SPEL.SPDT [00 00 00 00 2E 00 00 00 04 00 00 00]
  SPEL.ENAM [0F 00 FF FF 01 00 00 00 0A 00 00 00 00 00 00 00 32 00 00 00 C8 00 00 00]
 -SPEL [00 00 00 00 00 20 00 00]
@@ -12825,7 +12825,7 @@ End yarnarScript"
  SPEL.ENAM [11 00 FF 05 00 00 00 00 00 00 00 00 00 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "shockimperfect$00"
- SPEL.FNAM "械构体闪电$00"
+ SPEL.FNAM "械构体电击$00"
  SPEL.SPDT [00 00 00 00 64 00 00 00 00 00 00 00]
  SPEL.ENAM [0F 00 FF FF 02 00 00 00 32 00 00 00 01 00 00 00 3C 00 00 00 64 00 00 00]
  SPEL.ENAM [1E 00 FF FF 02 00 00 00 32 00 00 00 05 00 00 00 32 00 00 00 32 00 00 00]
@@ -15300,7 +15300,7 @@ End yarnarScript"
  CREA.NAME "centurion_shock_baladas$00"
  CREA.MODL "r\Sphere_Centurions.NIF$00"
  CREA.CNAM "centurion_sphere$00"
- CREA.FNAM "闪电百夫长$00"
+ CREA.FNAM "电击百夫长$00"
  CREA.SCRI "baladasCenturion$00"
  CREA.NPDT [00 00 00 00 08 00 00 00 4B 00 00 00 19 00 00 00 46 00 00 00 4B 00 00 00 46 00 00 00 4B 00 00 00 0A 00 00 00 32 00 00 00 96 00 00 00 96 00 00 00 20 03 00 00 00 00 00 00 32 00 00 00 5A 00 00 00 14 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 00 00 00 00]
  CREA.FLAG [48 08 00 00]
@@ -15972,7 +15972,7 @@ End yarnarScript"
 <BR>
 君王链甲<BR>
 <BR>
-有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸收生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
+有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸取生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
 <BR>
 黑檀链甲<BR>
 <BR>
@@ -24441,7 +24441,7 @@ End yarnarScript"
 -WEAP
  WEAP.NAME "centurion_projectile_dart_shock$00"
  WEAP.MODL "w\W_DwarvenSphereDart.NIF$00"
- WEAP.FNAM "矮人闪电镖$00"
+ WEAP.FNAM "矮人电击镖$00"
  WEAP.WPDT [CD CC 4C 3E 14 00 00 00 0B 00 C8 00 00 00 C0 3F 00 00 80 3F 64 00 14 32 14 32 14 32 01 00 00 00]
  WEAP.ITEX "w\Tx_W_DwarvenSphereDart.dds$00"
  WEAP.ENAM "dwrv_dart_area_shock$00"
@@ -25992,7 +25992,7 @@ End yarnarScript"
 <BR>
 君王链甲<BR>
 <BR>
-有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸收生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
+有时亦唤作墨里奥斯之甲或吉娜瑞斯馈赠，是质量无与伦比的古代胸甲。其赋予着甲者吸取生命值、抵御魔法效果并在并在中毒后解毒的神力。据说，当吉娜瑞斯认为着甲者难堪兹位时，君王链甲便会被剥夺，并藏匿至下一位获选者出现。<BR>
 <BR>
 黑檀链甲<BR>
 <BR>
@@ -59571,7 +59571,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Erabenimsun Camp$00"
- INFO.NAME "所有外地人都在寻找古老的深精灵之地。你听说过纳查达姆兹吗？也许没有。也许当你看到它时会大吃一惊。"
+ INFO.NAME "所有外地人都在寻找古老的深精灵之地。你听说过恩查杜姆兹吗？也许没有。也许当你看到它时会大吃一惊。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -83914,7 +83914,7 @@ player->AddItem ""bladepiece_02"" 1"
  INFO.NNAM "5480779949524373$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Museum of Artifacts$00"
- INFO.NAME "你正在神临区。在你现在的位置，你会看到有翼瓜尔在你的正前方，工匠大厅在你的右边。"
+ INFO.NAME "你正在神临区。在你现在的位置，你会看到瓜尔添翼在你的正前方，工匠大厅在你的右边。"
 -INFO
  INFO.INAM "5480779949524373$00"
  INFO.PNAM "2666529922709331460$00"
@@ -83942,7 +83942,7 @@ player->AddItem ""bladepiece_02"" 1"
  INFO.NNAM "6244732793711976$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Mournhold, Craftsmen's Hall$00"
- INFO.NAME "你正在神临区。这里是工匠大厅的所在地。在你现在的位置，旁边的两座建筑是有翼瓜尔，一个喝酒或租住的好地方，以及文物博物馆。"
+ INFO.NAME "你正在神临区。这里是工匠大厅的所在地。在你现在的位置，旁边的两座建筑是瓜尔添翼，一个喝酒或租住的好地方，以及文物博物馆。"
 -INFO
  INFO.INAM "6244732793711976$00"
  INFO.PNAM "328116658269114450$00"
