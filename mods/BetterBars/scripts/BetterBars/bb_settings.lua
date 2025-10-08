@@ -105,6 +105,13 @@ settings = {
 			},
 		},
 		{
+			key = "LOCKED",
+			renderer = "checkbox",
+			name = "Position locked",
+			description = "Lock bar position\nMakes bars click-through\nThis will also hide bars during loading screens",
+			default = false,
+		},
+		{
 			key = "THICKNESS",
 			name = "Thickness",
 			description = "of the bars",
@@ -224,13 +231,30 @@ settings = {
 			default = util.color.hex("5a0f8c"), --green
 			renderer = "color",
 		},
+		{
+			key = "PERFORMANCE_MODE",
+			renderer = "checkbox",
+			name = "Performance mode",
+			description = "For low end systems or when you have a very high framerate anyway\nOnly updates one resource per frame",
+			default = true,
+		},
 	}
 }
 
+function readAllSettings()
+	for i, entry in pairs(settings.settings) do
+		_G[entry.key] = playerSettings:get(entry.key)
+	end
+end
+
+readAllSettings()
 
 
-
-local function updateSettings()
+local function updateSettings(_, setting)
+	if setting == "POSITION" then
+		saveData.windowPos = nil
+	end
+	readAllSettings()
 	calculateBarPositions()
 	if container then
 		container:destroy()

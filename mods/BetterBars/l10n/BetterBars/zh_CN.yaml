@@ -31,6 +31,9 @@
 "Bottom Left": "左下角"
 "Top Left": "左上角"
 
+"Position locked": "位置锁定"
+"Lock bar position\nMakes bars click-through\nThis will also hide bars during loading screens": "锁定状态条位置\n使状态条可点击穿透\n这也会在加载屏幕期间隐藏状态条"
+
 "Thickness": "宽度"
 "of the bars": "用于状态条"
 "Animation Speed": "动画速度"
@@ -52,3 +55,6 @@
 "Magicka Color": "魔力颜色"
 "Magicka Damage Color": "魔力损失部分的颜色"
 "Color of recently lost magicka": "魔力最近损失部分的颜色"
+
+"Performance mode": "性能模式"
+"For low end systems or when you have a very high framerate anyway\nOnly updates one resource per frame": "适用于低端系统或您本来就拥有极高帧率的情况\n每帧仅更新一个资源"

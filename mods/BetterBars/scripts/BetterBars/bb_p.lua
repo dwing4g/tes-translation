@@ -18,6 +18,13 @@ input = require('openmw.input')
 v2 = util.vector2
 v3 = util.vector3
 resources = types.Actor.stats.dynamic
+
+--resources = {
+--	health = function(actor) return  {base = 100, current = 50,modified = 50} end ,
+--	magicka = function(actor) return {base = 100, current = 50,modified = 50} end ,
+--	fatigue = function(actor) return {base = 100, current = 50,modified = 50} end ,
+--}
+
 local makeBorder = require("scripts.BetterBars.bb_makeborder")
 local settings = require("scripts.BetterBars.bb_settings")
 local helpers = require("scripts.BetterBars.bb_helpers")
@@ -26,43 +33,96 @@ local foreground = ui.texture { path = "textures/BetterBars_Bar.dds" }
 local flashing = ui.texture { path = "textures/BetterBars_lowWarning.dds" }
 local background = ui.texture { path = 'black' }
 local screenres = ui.screenSize()
+local layerId = ui.layers.indexOf("Modal")
+local uiSize = ui.layers[layerId].size
+local uiScale = screenres.x / uiSize.x
+
 local averageLength = 0
 local widgets = {"magicka","fatigue", "health"}
 local hudVisible = I.UI.isHudVisible()
+local iterateWidgets = nil
 
 function calculateBarPositions()
-	verticalOffset = playerSettings:get("THICKNESS")+3
-	barThickness = playerSettings:get("THICKNESS")
+	verticalOffset = THICKNESS+3
+	barThickness = THICKNESS
 	startOffset = math.max(3, 57-verticalOffset*#widgets)
-	if playerSettings:get("POSITION") == "Top Left" then
+	if POSITION == "Top Left" then
 		startOffset = math.floor(verticalOffset/2)
 	end
 end
 calculateBarPositions()
 
 function makeUI()
+	print("make")
 	borderFile = "thin"
-	if playerSettings:get("BORDER_STYLE") == "verythick" or playerSettings:get("BORDER_STYLE") == "thick" then
+	if BORDER_STYLE == "verythick" or BORDER_STYLE == "thick" then
 		borderFile = "thick"
 	end
-	borderOffset = playerSettings:get("BORDER_STYLE") == "verythick" and 4 or playerSettings:get("BORDER_STYLE") == "thick" and 3 or playerSettings:get("BORDER_STYLE") == "normal" and 2 or (playerSettings:get("BORDER_STYLE") == "thin" or playerSettings:get("BORDER_STYLE") == "max performance") and 1 or 0
+	borderOffset = BORDER_STYLE == "verythick" and 4 or BORDER_STYLE == "thick" and 3 or BORDER_STYLE == "normal" and 2 or (BORDER_STYLE == "thin" or BORDER_STYLE == "max performance") and 1 or 0
 	borderTemplate =  makeBorder(borderFile, borderColor or nil, borderOffset).borders
 	container = ui.create({	--root
 		type = ui.TYPE.Widget,
-		layer = 'HUD',
+		layer = LOCKED and 'Scene' or 'Modal',
 		props = {
-			position = playerSettings:get("POSITION") == "Bottom Left" and v2(94,-startOffset) or v2(startOffset,startOffset),
+			position = POSITION == "Bottom Left" and v2(94,-startOffset) or v2(startOffset,startOffset),
 			size = v2(-startOffset,3*verticalOffset),
-			anchor = playerSettings:get("POSITION") == "Bottom Left" and v2(0,1) or v2(0,0),
-			relativePosition = playerSettings:get("POSITION") == "Bottom Left" and v2(0,1) or v2(0,0),
+			anchor = POSITION == "Bottom Left" and v2(0,1) or v2(0,0),
+			relativePosition = POSITION == "Bottom Left" and v2(0,1) or v2(0,0),
 			relativeSize = v2(1,0)
 		},
 		content = ui.content {
 			
+		},
+		userData = {
+			windowStartPosition =saveData.windowPos,
+		},
+		events = {
+			mousePress = async:callback(function(data, elem)
+				if data.button == 1 then
+					if not container.layout.userData then
+						container.layout.userData = {}
+					end
+					container.layout.userData.isDragging = true
+					container.layout.userData.dragStartPosition = data.position
+					container.layout.userData.windowStartPosition = container.layout.props.position or v2(0, 0)
+				end
+			--	topBarBackground.props.alpha = 0.2
+				container:update()
+				--print("upd")
+			end),
+			
+			mouseRelease = async:callback(function(data, elem)
+				if container.layout.userData then
+					container.layout.userData.isDragging = false
+				end
+			--	topBarBackground.props.alpha = 0.1
+				container:update()
+				--print("upd")
+			end),
+			
+			mouseMove = async:callback(function(data, elem)
+				if container.layout.userData and container.layout.userData.isDragging then
+					local deltaX = data.position.x - container.layout.userData.dragStartPosition.x
+					local deltaY = data.position.y - container.layout.userData.dragStartPosition.y
+					local newPosition = v2(
+						container.layout.userData.windowStartPosition.x + deltaX,
+						container.layout.userData.windowStartPosition.y + deltaY
+					)
+					saveData.windowPos = newPosition
+					container.layout.props.position = newPosition
+					container:update()
+					--print("upd")
+				end
+			end),
 		}
 	})
+	if saveData.windowPos then
+		container.layout.props.position = saveData.windowPos
+	else
+		saveData.windowPos = container.layout.props.position
+	end
 	
-	local pos =  playerSettings:get("POSITION") == "Bottom Left" and 0 or (4-#widgets) * verticalOffset - barThickness
+	local pos =  POSITION == "Bottom Left" and 0 or (4-#widgets) * verticalOffset - barThickness
 	
 	local totalLength = 0
 	for _,resource in pairs(widgets) do
@@ -70,15 +130,42 @@ function makeUI()
 	end
 	averageLength = totalLength /3
 	
-	
+
 	for _,resource in pairs(widgets) do
 		local current = resources[resource](self).current
 		local max = resources[resource](self).base
-		local newMax = max * (1-playerSettings:get("LENGTH_EQUALIZER")) + averageLength * playerSettings:get("LENGTH_EQUALIZER")
-		local LENGTH_MULT = _G[resource] and _G[resource].LENGTH_MULT or newMax / math.max(1,max) * playerSettings:get("LENGTH_MULT")
+		local newMax = max * (1-LENGTH_EQUALIZER) + averageLength * LENGTH_EQUALIZER
+		local LENGTH_MULT = _G[resource] and _G[resource].LENGTH_MULT or newMax / math.max(1,max) * LENGTH_MULT
 		if max <= 0 then
 			LENGTH_MULT = 0
 		end
+		local backgroundStuff = ui.create({ --r.1
+			type = ui.TYPE.Widget,
+			props = {
+				relativeSize  = v2(0,1),
+				size = v2(max*LENGTH_MULT,0),
+			},
+			content = ui.content ({
+				{
+					type = ui.TYPE.Image,
+					props = {
+						resource = background,
+						tileH = false,
+						tileV = false,
+						relativeSize  = v2(1,1),
+						alpha = 0.5,
+					},
+				},
+				BORDER_STYLE~="none" and 
+				{ -- Border
+					template = borderTemplate,
+					props = {
+						relativeSize  = v2(1,1),
+						alpha = 0.5,
+					}
+				} or {},
+			})
+		})
 		table.insert(container.layout.content, ui.create({ --r.1
 				type = ui.TYPE.Widget,
 				props = {
@@ -89,40 +176,14 @@ function makeUI()
 					position = v2(0,-pos),
 					},
 				content = ui.content {
-					ui.create({ --r.1
-						type = ui.TYPE.Widget,
-						props = {
-							relativeSize  = v2(0,1),
-							size = v2(max*LENGTH_MULT,0),
-						},
-						content = ui.content ({
-							{
-								type = ui.TYPE.Image,
-								props = {
-									resource = background,
-									tileH = false,
-									tileV = false,
-									relativeSize  = v2(1,1),
-									alpha = 0.5,
-								},
-							},
-							playerSettings:get("BORDER_STYLE")~="none" and 
-							{ -- Border
-								template = borderTemplate,
-								props = {
-									relativeSize  = v2(1,1),
-									alpha = 0.5,
-								}
-							} or {},
-						})
-					}),
+					backgroundStuff,
 					ui.create({ --r.2
 						type = ui.TYPE.Widget,
 						props = {
 							relativeSize  = v2(1,1)
 						},
 						content = ui.content ({
-							playerSettings:get("LAGBAR") and { -- Damage Bar r.2.lag
+							LAGBAR and { -- Damage Bar r.2.lag
 								name = "lag",
 								type = ui.TYPE.Image,
 								props = {
@@ -152,25 +213,25 @@ function makeUI()
 									relativeSize  = v2(0,1),
 								},
 							},
-							resource == "health" and playerSettings:get("HEALBAR") and { -- Healing r.2.healing
+							resource == "health" and HEALBAR and { -- Healing r.2.healing
 								name = "healing",
 								type = ui.TYPE.Image,
 								props = {
 									resource = foreground,
 									tileH = true,
 									tileV = false,
-									color =  playerSettings:get("HEALING_COL"),
+									color =  HEALING_COL,
 									alpha = 0.45,
 									size = v2(0,0),
 									position = v2(-borderOffset,0),
 									relativeSize  = v2(0,1),
 								}
 							} or {},
-							playerSettings:get("TEXT") ~= "hidden" and {
+							TEXT ~= "hidden" and {
 								name = 'text',
 								type = ui.TYPE.Text,
 								props = {
-									text = playerSettings:get("TEXT") == "current" and ""..math.floor(current) or math.floor(current).."/".. math.floor(max),
+									text = TEXT == "current" and ""..math.floor(current) or math.floor(current).."/".. math.floor(max),
 									textColor = util.color.rgba(1, 1, 1, 0.85),
 									position = v2(2, -math.floor(barThickness/12)),
 									textShadow = true,
@@ -214,14 +275,19 @@ function makeUI()
 			timer = 0,
 			lerp = current,
 			LENGTH_MULT = LENGTH_MULT,
-			flashing = false
+			flashing = false,
+			lastMax = -1,
+			lastLag = -1,
+			lastLerp = -1,
+			lastUpdate = core.getRealTime(),
+			
 		}
-		if playerSettings:get("TEXT") ~="hidden" then
-			if playerSettings:get("TEXT_POS") == "right" then
-				_G[resource].bar[2].layout.content["text"].props.position = v2(math.floor(max*LENGTH_MULT)-2,0)
+		if TEXT ~="hidden" then
+			if TEXT_POS == "right" then
+				_G[resource].bar[2].layout.content["text"].props.position = v2(math.floor(max*LENGTH_MULT)-2,-1)
 				_G[resource].bar[2].layout.content["text"].props.anchor = v2(1,0.5)
-			elseif playerSettings:get("TEXT_POS") == "right outside" then
-				_G[resource].bar[2].layout.content["text"].props.position = v2(math.floor(max*LENGTH_MULT)+2,0)
+			elseif TEXT_POS == "right outside" then
+				_G[resource].bar[2].layout.content["text"].props.position = v2(math.floor(max*LENGTH_MULT)+2,-1)
 				
 			end
 		end
@@ -229,11 +295,10 @@ function makeUI()
 	
 end
 
-makeUI()
 
 
 local function lerpValues(old, new, dt)
-	local mult = playerSettings:get("LERPSPEED")/8
+	local mult = LERPSPEED
 	
 	if new > old then
 		old = math.min(new,old*(1-dt*mult) + new*dt*mult)
@@ -297,42 +362,46 @@ local function update(bar, resource, dt, treshold)
 	local current = resources[resource](self).current
 	local max = resources[resource](self).base
 	local healing = 0
-	local drainSpeed = playerSettings:get("LERPSPEED")
-	local timerLength = playerSettings:get("LAGDURATION")
+	local drainSpeed =  LERPSPEED
+	local timerLength = LAGDURATION
+
+	
 	bar.paused, bar.lag, bar.timer, bar.lerp = ownlysLag(current, bar.lerp, bar.cached, bar.paused, bar.lag, bar.timer, dt, drainSpeed, timerLength, treshold, max)
 	local refreshLayering = 0
+	local bench = nil
 	
 	bar.max = lerpValues(bar.max, max*bar.LENGTH_MULT, dt)
-	if math.abs(bar.bar[1].layout.props.size.x- math.floor(bar.max)) >= 1 or updateAll then
+	if math.abs(math.floor(bar.lastMax) - math.floor(bar.max)) >= 1 or updateAll then
 		--print(bar.max,max*bar.LENGTH_MULT)
 		bar.bar[1].layout.props.size = v2( math.floor(bar.max),0)
 		--bar.max = max
 		bar.bar[1]:update()
+		--print("upd")
 		refreshLayering = 2
 		--shouldUpdate = true
-		if playerSettings:get("TEXT") ~="hidden" then
-			if playerSettings:get("TEXT_POS") ~= "left" then
-				if playerSettings:get("TEXT_POS") == "right" then
+		if TEXT ~= "hidden" then
+			if TEXT_POS ~= "left" then
+				if TEXT_POS == "right" then
 					bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)-2,0)
 					bar.bar[2].layout.content["text"].props.anchor = v2(1,0.5)
-				elseif playerSettings:get("TEXT_POS") == "right outside" then
+				elseif TEXT_POS == "right outside" then
 					bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)+2,0)
 				end
 				shouldUpdate = true
 			end
 		end
 	end
-	if playerSettings:get("TEXT") ~="hidden" and math.floor(current) ~= math.floor(bar.cached) then
+	if TEXT ~="hidden" and math.floor(current) ~= math.floor(bar.cached) then
 		shouldUpdate = true
 	end
 	
 	local newLag = bar.lag*bar.LENGTH_MULT-borderOffset*2
-	if playerSettings:get("LAGBAR") and math.abs(math.floor(newLag) - bar.bar[2].layout.content["lag"].props.size.x) >= 1 then
+	if LAGBAR and math.abs(math.floor(newLag) - math.floor(bar.lastLag)) >= 1 then
 		shouldUpdate = true
 	end
 	
 	local newLerp = math.min(bar.max, bar.lerp* bar.LENGTH_MULT)  - borderOffset*2
-	if math.abs(math.floor(newLerp) - bar.bar[2].layout.content["main"].props.size.x) >= 1 then
+	if math.abs(math.floor(newLerp) - math.floor(bar.lastLerp)) >= 1 then
 		shouldUpdate = true
 	end
 	--if math.abs(bar.lerp - max) < 1 and bar.lerp ~= max then
@@ -341,7 +410,7 @@ local function update(bar, resource, dt, treshold)
 	
 	local newHealPos 
 	local newHealSize
-	if resource == "health" and playerSettings:get("HEALBAR") then
+	if resource == "health" and HEALBAR then
 		healing = calculateHealing(self)
 		local healingTarget = current + healing
 		newHealPos = newLerp + borderOffset
@@ -349,26 +418,27 @@ local function update(bar, resource, dt, treshold)
 		if math.abs(math.floor(newHealPos) - bar.bar[2].layout.content["healing"].props.position.x) >= 1 
 		or math.abs(math.floor(newHealSize) - bar.bar[2].layout.content["healing"].props.size.x) >= 1 then
 			shouldUpdate = true
+			
 		end
 	end
 	
-	local newFlashing = math.max(0,current/max) < playerSettings:get(resource:upper().."_FLASHING_THRESHOLD") and (bar.flashing or 0)+dt
+	local newFlashing = math.max(0,current/max) < _G[resource:upper().."_FLASHING_THRESHOLD"] and (bar.flashing or 0)+dt
 	local updateFlashing = false
 	if bar.flashing or newFlashing then
 		if not newFlashing then --turn off flashing
 			bar.bar[3].layout.props.alpha = 0
 			updateFlashing = true
-			if playerSettings:get("TEXT") ~= "hidden" and playerSettings:get("TEXT_POS") ~= "left" then
+			if TEXT ~= "hidden" and TEXT_POS ~= "left" then
 				bar.bar[2].layout.content["text"].props.textColor = util.color.rgba(1, 1, 1, 0.85)
 				shouldUpdate = true
 			end
 		elseif not bar.flashing or newFlashing+dt/5 > 1/60 then
-			local col = playerSettings:get(resource:upper().."LAG_COL")
+			local col = _G[resource:upper().."LAG_COL"]
 			local flashBrightness = (col.r+col.g+col.b)/3
 			bar.bar[3].layout.props.alpha = math.min(1,math.abs(math.sin(core.getRealTime()*5))*(1.33-flashBrightness))
 			bar.bar[3].layout.props.size = v2(math.floor(bar.max),0)
 			updateFlashing = true
-			if not bar.flashing and playerSettings:get("TEXT") ~= "hidden" and playerSettings:get("TEXT_POS") ~= "left" then -- turn on colored text if right
+			if not bar.flashing and TEXT ~= "hidden" and TEXT_POS ~= "left" then -- turn on colored text if right
 				local h,s,v = rgbToHsv(col.r,col.g,col.b)
 				local r,g,b = hsvToRgb(h,0.95,1)
 				bar.bar[2].layout.content["text"].props.textColor = util.color.rgba(r,g,b, 0.85)
@@ -380,35 +450,42 @@ local function update(bar, resource, dt, treshold)
 	end
 	
 	if shouldUpdate or updateAll then
-		if playerSettings:get("LAGBAR") then
+		if LAGBAR then
 			bar.bar[2].layout.content["lag"].props.size =v2(math.floor(newLag),-borderOffset*2)
 			bar.lagCached = bar.lag
 		end
 		bar.bar[2].layout.content["main"].props.size =v2(math.floor(newLerp),-borderOffset*2)
-		if resource == "health" and playerSettings:get("HEALBAR") then
+		if resource == "health" and HEALBAR then
 			bar.bar[2].layout.content["healing"].props.position = v2(math.floor(newHealPos)+0.99,borderOffset)
 			bar.bar[2].layout.content["healing"].props.size = v2(math.floor(newHealSize),-borderOffset*2)
 		end
-		if playerSettings:get("TEXT") ~= "hidden" then
-			bar.bar[2].layout.content["text"].props.text = playerSettings:get("TEXT") == "current" and ""..math.floor(current) or math.floor(current).."/".. math.floor(max)
+		if TEXT ~= "hidden" then
+			bar.bar[2].layout.content["text"].props.text = TEXT == "current" and ""..math.floor(current) or math.floor(current).."/".. math.floor(max)
 		end
 		bar.bar[2]:update()
+		--print("upd")
 		refreshLayering = refreshLayering-1
 		--print(resource)
 	end
-	if (updateFlashing or bar.shouldUpdateFlashing) and playerSettings:get(resource:upper().."_FLASHING_THRESHOLD") > 0 then
+	if (updateFlashing or bar.shouldUpdateFlashing) and _G[resource:upper().."_FLASHING_THRESHOLD"] > 0 then
 		bar.bar[3]:update()
+		--print("upd")
 		refreshLayering = refreshLayering-1
 		--print(resource.." flash")
 		bar.shouldUpdateFlashing = false
 	end
 	if refreshLayering > 0 then
 		bar.barContainer:update()
+		--print("upd")
 	end
 	if shouldUpdate and bar.flashing then
 		bar.shouldUpdateFlashing = true --fixes some weird rare flicker
 	end
+	
 	--print(I.UI.isHudVisible())
+	bar.lastMax = bar.max
+	bar.lastLag = newLag
+	bar.lastLerp = newLerp
 	bar.cached = current
 end
 
@@ -416,7 +493,7 @@ function onFrame(dt)
 	dt = core.getRealFrameDuration()
 	
 	--updateAll = false
-	if playerSettings:get("LENGTH_EQUALIZER") > 0 then
+	if _G["LENGTH_EQUALIZER"] > 0 then
 		local totalLength = 0
 		for _,resource in pairs(widgets) do
 			totalLength = totalLength + resources[resource](self).base
@@ -430,20 +507,20 @@ function onFrame(dt)
 			if max <= 0 then
 				_G[resource].LENGTH_MULT = 0
 			else
-				local newMax = max * (1-playerSettings:get("LENGTH_EQUALIZER")) + averageLength * playerSettings:get("LENGTH_EQUALIZER")
-				_G[resource].LENGTH_MULT = newMax / max * playerSettings:get("LENGTH_MULT")
+				local newMax = max * (1-LENGTH_EQUALIZER) + averageLength * LENGTH_EQUALIZER
+				_G[resource].LENGTH_MULT = newMax / max * LENGTH_MULT
 			end
 		end
 	else
 		for a,resource in pairs(widgets) do
-			_G[resource].LENGTH_MULT =  playerSettings:get("LENGTH_MULT")
+			_G[resource].LENGTH_MULT =  LENGTH_MULT
 		end
 	end
 	local maxLength = 0
 	for a,resource in pairs(widgets) do
-		maxLength = math.max(maxLength, resources[resource](self).base* playerSettings:get("LENGTH_MULT"))
+		maxLength = math.max(maxLength, resources[resource](self).base* LENGTH_MULT)
 	end
-	local lengthMult = math.min(1, playerSettings:get("MAX_LENGTH")/maxLength )
+	local lengthMult = math.min(1, MAX_LENGTH/maxLength )
 	for a,resource in pairs(widgets) do
 		_G[resource].LENGTH_MULT = _G[resource].LENGTH_MULT*lengthMult
 	end
@@ -458,22 +535,41 @@ function onFrame(dt)
 		screenres=newscreenres
 	end
 	
-	
-	for _,resource in pairs(widgets) do
+	if PERFORMANCE_MODE then
+		iterateWidgets = next(widgets, iterateWidgets) or next(widgets)
+		local resource = widgets[iterateWidgets]
+		local now = core.getRealTime()
+		dt = now - _G[resource].lastUpdate
+		_G[resource].lastUpdate = now
 		update(_G[resource], resource, dt, resource == "fatigue" and 1 or 0)
+	else
+		for _,resource in pairs(widgets) do
+			update(_G[resource], resource, dt, resource == "fatigue" and 1 or 0)
+		end
 	end
 	if I.UI.isHudVisible() ~= hudVisible then
 		hudVisible = I.UI.isHudVisible()
 		container.layout.props.visible = hudVisible
 		container:update()
+		--print("upd")
 	end
 	
 end
+local function onLoad(data)
+	saveData = data or {}
+	makeUI()
+end
 
+local function onSave()
+	return saveData
+end
 
 return {    
 	engineHandlers = {
-		onFrame = onFrame,
+		onFrame = onFrame,		
+		onLoad = onLoad,
+		onInit = onLoad,
+		onSave = onSave,
 		--onKeyPress = onKey
     },
 	--eventHandlers = {
