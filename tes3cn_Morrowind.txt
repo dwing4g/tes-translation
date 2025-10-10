@@ -7765,7 +7765,7 @@
  MGEF.CVFX "VFX_DestructCast$00"
  MGEF.HVFX "VFX_LightningHit$00"
  MGEF.AVFX "VFX_LightningArea$00"
- MGEF.DESC "该法术效果可产生闪电元素。伤害程度为闪电路径上第一个目标受到的伤害。"
+ MGEF.DESC "该法术效果可产生闪电元素弩箭。伤害程度为弩箭路径上第一个目标受到的伤害。"
 -MGEF
  MGEF.INDX [10 00 00 00]
  MGEF.MEDT [02 00 00 00 00 00 A0 40 00 06 00 00 92 00 00 00 A2 00 00 00 EF 00 00 00 00 00 80 3F CD CC 4C 3F 00 00 48 42]
@@ -29423,7 +29423,7 @@ if ( QuestionState == 10 )
 	Set button to GetButtonPressed
 
 	if ( button == 0 )
-		MessageBox ""你想要什么祝福？"" ""治愈疾病"" ""治愈枯萎病"" ""解毒"" ""尼瑞瓦之精神""
+		MessageBox ""你想要什么祝福？"" ""治愈疾病"" ""治愈枯萎病"" ""解毒"" ""尼瑞瓦之灵""
 		set QuestionState to 20
 	elseif ( button == 1 )
 		set QuestionState to 0
@@ -37233,32 +37233,32 @@ end"
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 05 00 00 00]
 -SPEL
  SPEL.NAME "first barrier$00"
- SPEL.FNAM "初级屏障$00"
+ SPEL.FNAM "第一屏障$00"
  SPEL.SPDT [00 00 00 00 1E 00 00 00 01 00 00 00]
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "second barrier$00"
- SPEL.FNAM "二级屏障$00"
+ SPEL.FNAM "第二屏障$00"
  SPEL.SPDT [00 00 00 00 3C 00 00 00 01 00 00 00]
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 14 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "third barrier$00"
- SPEL.FNAM "三级屏障$00"
+ SPEL.FNAM "第三屏障$00"
  SPEL.SPDT [00 00 00 00 5A 00 00 00 01 00 00 00]
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 1E 00 00 00 1E 00 00 00]
 -SPEL
  SPEL.NAME "fourth barrier$00"
- SPEL.FNAM "四级屏障$00"
+ SPEL.FNAM "第四屏障$00"
  SPEL.SPDT [00 00 00 00 78 00 00 00 01 00 00 00]
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 28 00 00 00 28 00 00 00]
 -SPEL
  SPEL.NAME "fifth barrier$00"
- SPEL.FNAM "五级屏障$00"
+ SPEL.FNAM "第五屏障$00"
  SPEL.SPDT [00 00 00 00 96 00 00 00 01 00 00 00]
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "sixth barrier$00"
- SPEL.FNAM "六级屏障$00"
+ SPEL.FNAM "第六屏障$00"
  SPEL.SPDT [00 00 00 00 B4 00 00 00 01 00 00 00]
  SPEL.ENAM [03 00 FF FF 00 00 00 00 00 00 00 00 1E 00 00 00 3C 00 00 00 3C 00 00 00]
 -SPEL
@@ -37303,7 +37303,7 @@ end"
  SPEL.ENAM [65 00 FF FF 01 00 00 00 00 00 00 00 1E 00 00 00 64 00 00 00 64 00 00 00]
 -SPEL
  SPEL.NAME "blessed word$00"
- SPEL.FNAM "祝福咏唱$00"
+ SPEL.FNAM "祝福之辞$00"
  SPEL.SPDT [00 00 00 00 0A 00 00 00 04 00 00 00]
  SPEL.ENAM [65 00 FF FF 02 00 00 00 00 00 00 00 1E 00 00 00 64 00 00 00 64 00 00 00]
 -SPEL
@@ -37549,7 +37549,7 @@ end"
  SPEL.ENAM [17 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 05 00 00 00 0C 00 00 00]
 -SPEL
  SPEL.NAME "spirit knife$00"
- SPEL.FNAM "灵魂短刃$00"
+ SPEL.FNAM "灵刀术$00"
  SPEL.SPDT [00 00 00 00 04 00 00 00 01 00 00 00]
  SPEL.ENAM [17 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
@@ -38184,37 +38184,37 @@ end"
  SPEL.ENAM [15 00 1A FF 01 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "torpor touch$00"
- SPEL.FNAM "麻痹之触$00"
+ SPEL.FNAM "迟钝之触$00"
  SPEL.SPDT [00 00 00 00 13 00 00 00 01 00 00 00]
  SPEL.ENAM [11 00 FF 04 01 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "torpor$00"
- SPEL.FNAM "麻痹术$00"
+ SPEL.FNAM "迟钝术$00"
  SPEL.SPDT [00 00 00 00 1C 00 00 00 01 00 00 00]
  SPEL.ENAM [11 00 FF 04 02 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "wild torpor$00"
- SPEL.FNAM "狂野麻痹术$00"
+ SPEL.FNAM "狂野迟钝术$00"
  SPEL.SPDT [00 00 00 00 1C 00 00 00 01 00 00 00]
  SPEL.ENAM [11 00 FF 04 02 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "flay spirit$00"
- SPEL.FNAM "灵魂掠夺$00"
+ SPEL.FNAM "掠灵术$00"
  SPEL.SPDT [00 00 00 00 96 00 00 00 01 00 00 00]
  SPEL.ENAM [13 00 FF FF 01 00 00 00 00 00 00 00 3C 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "flay spirit [ranged]$00"
- SPEL.FNAM "灵魂掠夺 [远程]$00"
+ SPEL.FNAM "掠灵术 [远程]$00"
  SPEL.SPDT [00 00 00 00 E1 00 00 00 01 00 00 00]
  SPEL.ENAM [13 00 FF FF 02 00 00 00 00 00 00 00 3C 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "gash spirit$00"
- SPEL.FNAM "灵魂撕裂$00"
+ SPEL.FNAM "裂灵术$00"
  SPEL.SPDT [00 00 00 00 4B 00 00 00 01 00 00 00]
  SPEL.ENAM [13 00 FF FF 01 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
  SPEL.NAME "gash spirit [ranged]$00"
- SPEL.FNAM "灵魂撕裂 [远程]$00"
+ SPEL.FNAM "裂灵术 [远程]$00"
  SPEL.SPDT [00 00 00 00 71 00 00 00 01 00 00 00]
  SPEL.ENAM [13 00 FF FF 02 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
 -SPEL
@@ -38229,7 +38229,7 @@ end"
  SPEL.ENAM [13 00 FF FF 02 00 00 00 00 00 00 00 1E 00 00 00 0A 00 00 00 1E 00 00 00]
 -SPEL
  SPEL.NAME "wild flay spirit$00"
- SPEL.FNAM "狂野精神掠夺术$00"
+ SPEL.FNAM "狂野掠灵术$00"
  SPEL.SPDT [00 00 00 00 09 00 00 00 01 00 00 00]
  SPEL.ENAM [13 00 FF FF 02 00 00 00 00 00 00 00 03 00 00 00 01 00 00 00 14 00 00 00]
 -SPEL
@@ -38309,7 +38309,7 @@ end"
  SPEL.ENAM [0E 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 0F 00 00 00]
 -SPEL
  SPEL.NAME "flamebolt$00"
- SPEL.FNAM "燃火弩箭$00"
+ SPEL.FNAM "火焰弩箭$00"
  SPEL.SPDT [00 00 00 00 18 00 00 00 01 00 00 00]
  SPEL.ENAM [0E 00 FF FF 02 00 00 00 0A 00 00 00 02 00 00 00 0A 00 00 00 32 00 00 00]
 -SPEL
@@ -38389,7 +38389,7 @@ end"
  SPEL.ENAM [1B 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 19 00 00 00]
 -SPEL
  SPEL.NAME "viper$00"
- SPEL.FNAM "剧毒术$00"
+ SPEL.FNAM "蛇毒术$00"
  SPEL.SPDT [00 00 00 00 02 00 00 00 01 00 00 00]
  SPEL.ENAM [1B 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 02 00 00 00 08 00 00 00]
 -SPEL
@@ -38399,7 +38399,7 @@ end"
  SPEL.ENAM [1B 00 FF FF 02 00 00 00 0A 00 00 00 02 00 00 00 0A 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "lightning bolt$00"
- SPEL.FNAM "闪电箭$00"
+ SPEL.FNAM "闪电弩箭$00"
  SPEL.SPDT [00 00 00 00 22 00 00 00 01 00 00 00]
  SPEL.ENAM [0F 00 FF FF 02 00 00 00 0A 00 00 00 02 00 00 00 0A 00 00 00 32 00 00 00]
 -SPEL
@@ -38499,7 +38499,7 @@ end"
  SPEL.ENAM [1E 00 FF FF 02 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "force bolt$00"
- SPEL.FNAM "力场箭$00"
+ SPEL.FNAM "力场弩箭$00"
  SPEL.SPDT [00 00 00 00 7D 00 00 00 01 00 00 00]
  SPEL.ENAM [12 00 FF FF 02 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 14 00 00 00]
  SPEL.ENAM [2D 00 FF FF 02 00 00 00 00 00 00 00 04 00 00 00 01 00 00 00 01 00 00 00]
@@ -38947,7 +38947,7 @@ end"
  SPEL.ENAM [56 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "drain blood$00"
- SPEL.FNAM "流逝之血$00"
+ SPEL.FNAM "汲取血液$00"
  SPEL.SPDT [00 00 00 00 3C 00 00 00 01 00 00 00]
  SPEL.ENAM [12 00 FF FF 01 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 05 00 00 00]
  SPEL.ENAM [13 00 FF FF 01 00 00 00 00 00 00 00 1E 00 00 00 05 00 00 00 05 00 00 00]
@@ -39709,7 +39709,7 @@ end"
  SPEL.ENAM [52 00 FF FF 00 00 00 00 00 00 00 00 D0 02 00 00 01 00 00 00 08 00 00 00]
 -SPEL
  SPEL.NAME "spirit of nerevar$00"
- SPEL.FNAM "尼瑞瓦之精神$00"
+ SPEL.FNAM "尼瑞瓦之灵$00"
  SPEL.SPDT [00 00 00 00 01 00 00 00 00 00 00 00]
  SPEL.ENAM [52 00 FF FF 01 00 00 00 00 00 00 00 40 0B 00 00 14 00 00 00 14 00 00 00]
 -SPEL
@@ -41002,7 +41002,7 @@ end"
  SPEL.ENAM [62 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 32 00 00 00 32 00 00 00]
 -SPEL
  SPEL.NAME "vampire levitate$00"
- SPEL.FNAM "血族飞行$00"
+ SPEL.FNAM "吸血鬼飞行$00"
  SPEL.SPDT [00 00 00 00 19 00 00 00 00 00 00 00]
  SPEL.ENAM [0A 00 FF FF 00 00 00 00 00 00 00 00 0F 00 00 00 1E 00 00 00 46 00 00 00]
 -SPEL
@@ -41335,7 +41335,7 @@ end"
  SPEL.ENAM [16 00 FF 07 01 00 00 00 00 00 00 00 00 00 00 00 05 00 00 00 05 00 00 00]
 -SPEL
  SPEL.NAME "nchuleftingth_trap_sp$00"
- SPEL.FNAM "究极剧毒$00"
+ SPEL.FNAM "究极蛇毒$00"
  SPEL.SPDT [00 00 00 00 00 00 00 00 00 00 00 00]
  SPEL.ENAM [1B 00 FF FF 01 00 00 00 00 00 00 00 05 00 00 00 05 00 00 00 07 00 00 00]
 -SPEL
@@ -88934,7 +88934,7 @@ Hortator 点点头，继续学习。<BR>
 -WEAP
  WEAP.NAME "flame_bolt$00"
  WEAP.MODL "w\W_Bolt_steel.NIF$00"
- WEAP.FNAM "燃火弩箭$00"
+ WEAP.FNAM "火焰弩箭$00"
  WEAP.WPDT [CD CC CC 3D 05 00 00 00 0D 00 0A 00 00 00 80 3F 00 00 80 3F 14 00 02 04 00 01 00 01 01 00 00 00]
  WEAP.ITEX "w\tx_bolt_steel.tga$00"
  WEAP.ENAM "flame_en$00"
@@ -89139,7 +89139,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "first barrier ring$00"
  CLOT.MODL "c\C_Ring_common02.NIF$00"
- CLOT.FNAM "初级屏障之戒$00"
+ CLOT.FNAM "第一屏障之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 0F 00 0A 00]
  CLOT.ITEX "c\tx_ring_common02.tga$00"
  CLOT.ENAM "first barrier_en$00"
@@ -89690,7 +89690,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "first barrier belt$00"
  CLOT.MODL "c\C_belt_Common_4.NIF$00"
- CLOT.FNAM "初级屏障腰带$00"
+ CLOT.FNAM "第一屏障腰带$00"
  CLOT.CTDT [03 00 00 00 00 00 80 3F 0F 00 0A 00]
  CLOT.ITEX "c\tx_belt_common04.tga$00"
  CLOT.ENAM "first barrier_en$00"
@@ -89875,7 +89875,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "flamebolt ring$00"
  CLOT.MODL "c\C_Ring_common04.NIF$00"
- CLOT.FNAM "燃火弩箭之戒$00"
+ CLOT.FNAM "火焰弩箭之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 05 00 0A 00]
  CLOT.ITEX "c\tx_ring_common04.tga$00"
  CLOT.ENAM "flamebolt_enu$00"
@@ -90289,7 +90289,7 @@ Hortator 点点头，继续学习。<BR>
 -WEAP
  WEAP.NAME "cruel flame bolt$00"
  WEAP.MODL "w\W_Bolt_silver.NIF$00"
- WEAP.FNAM "残酷燃火弩箭$00"
+ WEAP.FNAM "残酷火焰弩箭$00"
  WEAP.WPDT [CD CC CC 3D 07 00 00 00 0D 00 0A 00 00 00 80 3F 00 00 80 3F 10 00 03 03 00 01 00 01 01 00 00 00]
  WEAP.ITEX "w\tx_bolt_silver.tga$00"
  WEAP.ENAM "cruel flame_en$00"
@@ -94578,7 +94578,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "cruel flamebolt ring$00"
  CLOT.MODL "c\C_Ring_common05.NIF$00"
- CLOT.FNAM "残酷燃火弩箭之戒$00"
+ CLOT.FNAM "残酷火焰弩箭之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 08 00 0A 00]
  CLOT.ITEX "c\tx_ring_common05.tga$00"
  CLOT.ENAM "cruel flamebolt_enu$00"
@@ -94628,7 +94628,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "second barrier belt$00"
  CLOT.MODL "c\C_belt_Common_5.NIF$00"
- CLOT.FNAM "二级屏障腰带$00"
+ CLOT.FNAM "第二屏障腰带$00"
  CLOT.CTDT [03 00 00 00 00 00 80 3F 26 00 0A 00]
  CLOT.ITEX "c\tx_belt_common05.tga$00"
  CLOT.ENAM "second barrier_en$00"
@@ -95038,7 +95038,7 @@ Hortator 点点头，继续学习。<BR>
 -WEAP
  WEAP.NAME "dire flame bolt$00"
  WEAP.MODL "w\W_Bolt_bonemold.NIF$00"
- WEAP.FNAM "究极燃火弩箭$00"
+ WEAP.FNAM "究极火焰弩箭$00"
  WEAP.WPDT [CD CC CC 3D 08 00 00 00 0D 00 0A 00 00 00 80 3F 00 00 80 3F 10 00 03 04 00 01 00 01 01 00 00 00]
  WEAP.ITEX "w\tx_bolt_bonemold.tga$00"
  WEAP.ENAM "dire flame_en$00"
@@ -95087,7 +95087,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "second barrier ring$00"
  CLOT.MODL "c\C_Ring_expensive_1.NIF$00"
- CLOT.FNAM "二级屏障之戒$00"
+ CLOT.FNAM "第二屏障之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 3F 00 58 02]
  CLOT.ITEX "c\tx_ring_expensive01.tga$00"
  CLOT.ENAM "second barrier_en$00"
@@ -96766,7 +96766,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "dire flamebolt ring$00"
  CLOT.MODL "c\C_Ring_common02.NIF$00"
- CLOT.FNAM "究极燃火弩箭之戒$00"
+ CLOT.FNAM "究极火焰弩箭之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 0A 00 0A 00]
  CLOT.ITEX "c\tx_ring_common02.tga$00"
  CLOT.ENAM "dire flamebolt_en$00"
@@ -96810,7 +96810,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "third barrier belt$00"
  CLOT.MODL "c\C_belt_Extravagant_2.NIF$00"
- CLOT.FNAM "三级屏障腰带$00"
+ CLOT.FNAM "第三屏障腰带$00"
  CLOT.CTDT [03 00 00 00 00 00 80 3F 58 00 0A 00]
  CLOT.ITEX "c\tx_belt_extravagant02.tga$00"
  CLOT.ENAM "third barrier_en$00"
@@ -97149,7 +97149,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "ring of ice bolts$00"
  CLOT.MODL "c\C_Ring_expensive_3.NIF$00"
- CLOT.FNAM "冰霜箭之戒$00"
+ CLOT.FNAM "冰霜弩箭之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 32 00 58 02]
  CLOT.ITEX "c\tx_ring_expensive03.tga$00"
  CLOT.ENAM "ice bolt_en$00"
@@ -97199,7 +97199,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "third barrier ring$00"
  CLOT.MODL "c\C_Ring_expensive_1.NIF$00"
- CLOT.FNAM "三级屏障之戒$00"
+ CLOT.FNAM "第三屏障之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 4B 00 58 02]
  CLOT.ITEX "c\tx_ring_expensive01.tga$00"
  CLOT.ENAM "third barrier_en$00"
@@ -97340,7 +97340,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "ring of lightning bolt$00"
  CLOT.MODL "c\C_Ring_expensive_3.NIF$00"
- CLOT.FNAM "闪电箭之戒$00"
+ CLOT.FNAM "闪电弩箭之戒$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 37 00 96 00]
  CLOT.ITEX "c\tx_ring_expensive03.tga$00"
  CLOT.ENAM "lightning bolt_en$00"
@@ -109690,7 +109690,7 @@ ZGSBM DROO FHV RMUOFVMXV DRGS WFPV GL YOLXP XLMGIZXGH RU KLHHRYOV<BR>
 圣·费尔姆斯赐予“费尔姆斯之荣誉”，以增强恢复魔法的能力。<BR>
 圣·罗提斯赐予“罗提斯之石”，以强化意志。<BR>
 圣·梅利斯赐予“梅利斯之守护”，以抵抗尸化病。<BR>
-圣·尼瑞瓦赐予“尼瑞瓦之精神”，以增强身体活力。<BR>
+圣·尼瑞瓦赐予“尼瑞瓦之灵”，以增强身体活力。<BR>
 圣·奥姆斯赐予“奥姆斯之祝福”，以抵抗常见的疾病。<BR>
 圣·蕾姆斯赐予了“蕾姆斯之优雅”，以使你能忍受艰难困苦。<BR>
 圣·洛里斯赐予“洛里斯之花”，以增化身体的健康程度。<BR>
@@ -152690,11 +152690,11 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -BOOK
  BOOK.NAME "sc_ninthbarrier$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "九级屏障卷轴$00"
+ BOOK.FNAM "第九屏障卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 96 02 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">THE NINTH BARRIER CANNOT EXIST!</FONT><BR>
-<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Magic Cards"">（九级屏障不该存在！）</FONT><BR>"
+<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Magic Cards"">（第九屏障不该存在！）</FONT><BR>"
  BOOK.ENAM "sc_ninthbarrier_en$00"
 -ENCH
  ENCH.NAME "sc_hellfire_en$00"
@@ -154040,7 +154040,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_firstbarrier$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "初级屏障卷轴$00"
+ BOOK.FNAM "第一屏障卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 44 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">WOE UPON YOU</FONT><BR>
@@ -154049,7 +154049,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_secondbarrier$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "二级屏障卷轴$00"
+ BOOK.FNAM "第二屏障卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 5A 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">WOE UPON YOU</FONT><BR>
@@ -154058,7 +154058,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_thirdbarrier$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "三级屏障卷轴$00"
+ BOOK.FNAM "第三屏障卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 70 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">WOE UPON YOU</FONT><BR>
@@ -154067,7 +154067,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_fourthbarrier$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "四级屏障卷轴$00"
+ BOOK.FNAM "第四屏障卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 86 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">WOE UPON YOU</FONT><BR>
@@ -154076,7 +154076,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_fifthbarrier$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "五级屏障卷轴$00"
+ BOOK.FNAM "第五屏障卷轴$00"
  BOOK.BKDT [CD CC 4C 3E 9C 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">ENDLESS PAIN AND SUFFERING</FONT><BR>
@@ -154085,7 +154085,7 @@ By my will I cleanse myself of the red sands.<P>
 -BOOK
  BOOK.NAME "sc_sixthbarrier$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
- BOOK.FNAM "六级屏障卷轴$00"
+ BOOK.FNAM "第六屏障卷轴$00"
  BOOK.BKDT [CD CC 4C 3E B2 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">WOE UPON YOU</FONT><BR>
@@ -175783,7 +175783,7 @@ D.文物 - +35%<p>"
 -BOOK
  BOOK.NAME "bk_SecretsDwemerAnimunculi$00"
  BOOK.MODL "m\Text_Folio_04.NIF$00"
- BOOK.FNAM "《锻莫机械球的秘密》$00"
+ BOOK.FNAM "《锻莫机械体的秘密》$00"
  BOOK.BKDT [00 00 80 40 C2 01 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.SCRI "secretsAnimunculi$00"
  BOOK.ITEX "m\Tx_folio_04.tga$00"
@@ -190269,13 +190269,13 @@ D.文物 - +35%<p>"
  INFO.PNAM "31320193021966724075$00"
  INFO.NNAM "151039695192415245$00"
  INFO.DATA [04 00 00 00 D2 00 00 00 FF FF FF 00]
- INFO.NAME "卢妮拉·勒兰愿意开始我的堡垒的最后阶段。不过，她认为我的堡垒需要更好的卫兵。她希望我把加洛姆-代乌斯的《锻莫机械球的秘密》一书带给她。如果我这么做了，我的堡垒将成为有史以来第一个由锻莫百夫长守卫的堡垒。 {瓜尔,锻莫机械体}"
+ INFO.NAME "卢妮拉·勒兰愿意开始我的堡垒的最后阶段。不过，她认为我的堡垒需要更好的卫兵。她希望我把加洛姆-代乌斯的《锻莫机械体的秘密》一书带给她。如果我这么做了，我的堡垒将成为有史以来第一个由锻莫百夫长守卫的堡垒。 {瓜尔}"
 -INFO
  INFO.INAM "151039695192415245$00"
  INFO.PNAM "1686613804262542865$00"
  INFO.NNAM "1697275891925026501$00"
  INFO.DATA [04 00 00 00 0E 01 00 00 FF FF FF 00]
- INFO.NAME "卢妮拉·勒兰感谢我带给她《锻莫机械球的秘密》一书。她马上就会下达开始我堡垒的最后阶段指示。 {锻莫机械体}"
+ INFO.NAME "卢妮拉·勒兰感谢我带给她《锻莫机械体的秘密》一书。她马上就会下达开始我堡垒的最后阶段指示。"
 -INFO
  INFO.INAM "1697275891925026501$00"
  INFO.PNAM "151039695192415245$00"
@@ -218995,7 +218995,7 @@ Goodbye"
  INFO.NNAM "20780160022419727103$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "strillian macro$00"
- INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。"
+ INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
@@ -219005,7 +219005,7 @@ Goodbye"
  INFO.NNAM "26790282882451215188$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "melvure rindu$00"
- INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。"
+ INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
@@ -219015,7 +219015,7 @@ Goodbye"
  INFO.NNAM "32302230132066123021$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "eraamion$00"
- INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。"
+ INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
@@ -219025,7 +219025,7 @@ Goodbye"
  INFO.NNAM "17698231441407514327$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。"
+ INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
@@ -219035,7 +219035,7 @@ Goodbye"
  INFO.NNAM "17235241301126528962$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。"
+ INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
@@ -219045,7 +219045,7 @@ Goodbye"
  INFO.NNAM "30600124662855028420$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "smokey morth$00"
- INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。"
+ INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
@@ -219055,7 +219055,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
- INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。"
+ INFO.NAME "毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
@@ -234808,7 +234808,7 @@ AddItem bk_IndreleDeed 1"
  INFO.NNAM "6472288652477128840$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "strillian macro$00"
- INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
+ INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "6472288652477128840$00"
@@ -234816,7 +234816,7 @@ AddItem bk_IndreleDeed 1"
  INFO.NNAM "23895263252073118517$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "melvure rindu$00"
- INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
+ INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "23895263252073118517$00"
@@ -234824,7 +234824,7 @@ AddItem bk_IndreleDeed 1"
  INFO.NNAM "904628996815513762$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "eraamion$00"
- INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
+ INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "904628996815513762$00"
@@ -234832,7 +234832,7 @@ AddItem bk_IndreleDeed 1"
  INFO.NNAM "512261082634622336$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
+ INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "512261082634622336$00"
@@ -234840,7 +234840,7 @@ AddItem bk_IndreleDeed 1"
  INFO.NNAM "29255107962182718759$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
+ INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "29255107962182718759$00"
@@ -234848,7 +234848,7 @@ AddItem bk_IndreleDeed 1"
  INFO.NNAM "28108211933125125330$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "smokey morth$00"
- INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
+ INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "28108211933125125330$00"
@@ -234856,7 +234856,7 @@ AddItem bk_IndreleDeed 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
- INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
+ INFO.NAME "毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -DIAL
  DIAL.NAME "传送类法术$00"

@@ -5738,7 +5738,7 @@ This spell effect produces a manifestation of elemental fire. Upon contact with 
 
 > MGEF.DESC [0F 00 00 00]
 This spell effect produces bolts of elemental lightning.   The magnitude is the damage received by the first victim along a bolt's path.
-该法术效果可产生闪电元素。伤害程度为闪电路径上第一个目标受到的伤害。
+该法术效果可产生闪电元素弩箭。伤害程度为弩箭路径上第一个目标受到的伤害。
 
 > MGEF.DESC [10 00 00 00]
 This spell effect produces a manifestation of elemental frost. Upon contact with an object, this manifestation causes frost damage over the area of the spell.
@@ -8063,7 +8063,7 @@ Cure Poison
 
 > SCPT.SCTX shrineNerevar m10
 Spirit of Nerevar
-尼瑞瓦之精神
+尼瑞瓦之灵
 
 > SCPT.SCTX shrineNerevar m11
 You are not afflicted with a common disease.
@@ -9595,27 +9595,27 @@ Shield
 
 > SPEL.FNAM first barrier
 First Barrier
-初级屏障
+第一屏障
 
 > SPEL.FNAM second barrier
 Second Barrier
-二级屏障
+第二屏障
 
 > SPEL.FNAM third barrier
 Third Barrier
-三级屏障
+第三屏障
 
 > SPEL.FNAM fourth barrier
 Fourth Barrier
-四级屏障
+第四屏障
 
 > SPEL.FNAM fifth barrier
 Fifth Barrier
-五级屏障
+第五屏障
 
 > SPEL.FNAM sixth barrier
 Sixth Barrier
-六级屏障
+第六屏障
 
 > SPEL.FNAM shock barrier
 Shock Barrier
@@ -9651,7 +9651,7 @@ Blessed Touch
 
 > SPEL.FNAM blessed word
 Blessed Word
-祝福咏唱
+祝福之辞
 
 > SPEL.FNAM holy touch
 Holy Touch
@@ -9847,7 +9847,7 @@ Dread Curse: Health
 
 > SPEL.FNAM spirit knife
 Spirit Knife
-灵魂短刃
+灵刀术
 
 > SPEL.FNAM blood sacrifice
 Blood Sacrifice
@@ -10347,31 +10347,31 @@ TouchDrain Hand to Hand
 
 > SPEL.FNAM torpor touch
 Torpor Touch
-麻痹之触
+迟钝之触
 
 > SPEL.FNAM torpor
 Torpor
-麻痹术
+迟钝术
 
 > SPEL.FNAM wild torpor
 Wild Torpor
-狂野麻痹术
+狂野迟钝术
 
 > SPEL.FNAM flay spirit
 Flay Spirit
-灵魂掠夺
+掠灵术
 
 > SPEL.FNAM flay spirit [ranged]
 Flay Spirit [Ranged]
-灵魂掠夺 [远程]
+掠灵术 [远程]
 
 > SPEL.FNAM gash spirit
 Gash Spirit
-灵魂撕裂
+裂灵术
 
 > SPEL.FNAM gash spirit [ranged]
 Gash Spirit [Ranged]
-灵魂撕裂 [远程]
+裂灵术 [远程]
 
 > SPEL.FNAM magicka leech
 Magicka Leech
@@ -10383,7 +10383,7 @@ Spell Drain
 
 > SPEL.FNAM wild flay spirit
 Wild Flay Spirit
-狂野精神掠夺术
+狂野掠灵术
 
 > SPEL.FNAM strength leech
 Strength Leech
@@ -10447,7 +10447,7 @@ Flame
 
 > SPEL.FNAM flamebolt
 Flamebolt
-燃火弩箭
+火焰弩箭
 
 > SPEL.FNAM freezing touch
 Freezing Touch
@@ -10511,7 +10511,7 @@ Sting
 
 > SPEL.FNAM viper
 Viper
-剧毒术
+蛇毒术
 
 > SPEL.FNAM viperbolt
 Viperbolt
@@ -10519,7 +10519,7 @@ Viperbolt
 
 > SPEL.FNAM lightning bolt
 Lightning Bolt
-闪电箭
+闪电弩箭
 
 > SPEL.FNAM lightning storm
 Lightning Storm
@@ -10599,7 +10599,7 @@ Weakness to Shock
 
 > SPEL.FNAM force bolt
 Force Bolt
-力场箭
+力场弩箭
 
 > SPEL.FNAM wizard rend
 Wizard Rend
@@ -10955,7 +10955,7 @@ Righteousness
 
 > SPEL.FNAM drain blood
 Drain Blood
-流逝之血
+汲取血液
 
 > SPEL.FNAM absorb intelligence
 Absorb Intelligence
@@ -11563,7 +11563,7 @@ Reman's Girdle
 
 > SPEL.FNAM spirit of nerevar
 Spirit of Nerevar
-尼瑞瓦之精神
+尼瑞瓦之灵
 
 > SPEL.FNAM assured horny fist
 Assured Horny Fist
@@ -12547,7 +12547,7 @@ Vampirism
 
 > SPEL.FNAM vampire levitate
 Vampire Fly
-血族飞行
+吸血鬼飞行
 
 > SPEL.FNAM vampire quarra specials
 Vampirism
@@ -12751,7 +12751,7 @@ Hand of Dagoth
 
 > SPEL.FNAM nchuleftingth_trap_sp
 Dire Viper
-究极剧毒
+究极蛇毒
 
 > SPEL.FNAM ghost_snake
 Ghost Snake
@@ -39501,7 +39501,7 @@ Orcish Bolt
 
 > WEAP.FNAM flame_bolt
 Flamebolt
-燃火弩箭
+火焰弩箭
 
 > WEAP.FNAM shard_bolt
 Shardbolt
@@ -39593,7 +39593,7 @@ Bone Guard Belt
 
 > CLOT.FNAM first barrier ring
 First Barrier Ring
-初级屏障之戒
+第一屏障之戒
 
 > CLOT.FNAM red despair amulet
 Red Despair Amulet
@@ -39789,7 +39789,7 @@ Belt of Wisdom
 
 > CLOT.FNAM first barrier belt
 First Barrier Belt
-初级屏障腰带
+第一屏障腰带
 
 > CLOT.FNAM belt of balyna's soothing balm
 Belt of Balyna's Soothing Balm
@@ -39849,7 +39849,7 @@ Ring of Fleabite
 
 > CLOT.FNAM flamebolt ring
 Flamebolt Ring
-燃火弩箭之戒
+火焰弩箭之戒
 
 > CLOT.FNAM sparkbolt ring
 Sparkbolt Ring
@@ -40069,7 +40069,7 @@ Last Rites
 
 > WEAP.FNAM cruel flame bolt
 Cruel Flame Bolt
-残酷燃火弩箭
+残酷火焰弩箭
 
 > WEAP.FNAM cruel shard bolt
 Cruel Shard Bolt
@@ -41041,7 +41041,7 @@ Steel Vipermauler
 
 > CLOT.FNAM cruel flamebolt ring
 Cruel Flamebolt Ring
-残酷燃火弩箭之戒
+残酷火焰弩箭之戒
 
 > CLOT.FNAM cruel shardbolt ring
 Cruel Shardbolt Ring
@@ -41065,7 +41065,7 @@ Ring of Ironhand
 
 > CLOT.FNAM second barrier belt
 Second Barrier Belt
-二级屏障腰带
+第二屏障腰带
 
 > WEAP.FNAM flying viper
 Flying Viper
@@ -41185,7 +41185,7 @@ Founder's Belt
 
 > WEAP.FNAM dire flame bolt
 Dire Flamebolt
-究极燃火弩箭
+究极火焰弩箭
 
 > WEAP.FNAM dire shard bolt
 Dire Shardbolt
@@ -41213,7 +41213,7 @@ Dire Sparkarrow
 
 > CLOT.FNAM second barrier ring
 Second Barrier Ring
-二级屏障之戒
+第二屏障之戒
 
 > CLOT.FNAM crimson despair amulet
 Crimson Despair Amulet
@@ -41589,7 +41589,7 @@ Silver Viperskewer
 
 > CLOT.FNAM dire flamebolt ring
 Dire Flamebolt Ring
-究极燃火弩箭之戒
+究极火焰弩箭之戒
 
 > CLOT.FNAM dire shardbolt ring
 Dire Shardbolt Ring
@@ -41605,7 +41605,7 @@ Dire Viperbolt Ring
 
 > CLOT.FNAM third barrier belt
 Third Barrier Belt
-三级屏障腰带
+第三屏障腰带
 
 > CLOT.FNAM ring of knuckle luck
 Ring of Knuckle Luck
@@ -41741,7 +41741,7 @@ Spiritstrike Ring
 
 > CLOT.FNAM ring of ice bolts
 Ring of Ice Bolts
-冰霜箭之戒
+冰霜弩箭之戒
 
 > CLOT.FNAM ring of poisonblooms
 Ring of Poisonblooms
@@ -41765,7 +41765,7 @@ Graveward Amulet
 
 > CLOT.FNAM third barrier ring
 Third Barrier Ring
-三级屏障之戒
+第三屏障之戒
 
 > CLOT.FNAM blood despair amulet
 Blood Despair Amulet
@@ -41825,7 +41825,7 @@ Ring of Ice Storm
 
 > CLOT.FNAM ring of lightning bolt
 Ring of Lightning Bolt
-闪电箭之戒
+闪电弩箭之戒
 
 > CLOT.FNAM ring of fire storm
 Ring of Fire Storm
@@ -49519,7 +49519,7 @@ The Faithful are granted these blessings when they pray at the shrines and make 
 圣·费尔姆斯赐予“费尔姆斯之荣誉”，以增强恢复魔法的能力。<BR>
 圣·罗提斯赐予“罗提斯之石”，以强化意志。<BR>
 圣·梅利斯赐予“梅利斯之守护”，以抵抗尸化病。<BR>
-圣·尼瑞瓦赐予“尼瑞瓦之精神”，以增强身体活力。<BR>
+圣·尼瑞瓦赐予“尼瑞瓦之灵”，以增强身体活力。<BR>
 圣·奥姆斯赐予“奥姆斯之祝福”，以抵抗常见的疾病。<BR>
 圣·蕾姆斯赐予了“蕾姆斯之优雅”，以使你能忍受艰难困苦。<BR>
 圣·洛里斯赐予“洛里斯之花”，以增化身体的健康程度。<BR>
@@ -64292,12 +64292,12 @@ Scroll of Hellfire
 
 > BOOK.FNAM sc_ninthbarrier
 Scroll of The Ninth Barrier
-九级屏障卷轴
+第九屏障卷轴
 
 > BOOK.TEXT sc_ninthbarrier
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">THE NINTH BARRIER CANNOT EXIST!</FONT><BR>
 """<DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">THE NINTH BARRIER CANNOT EXIST!</FONT><BR>
-<DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Magic Cards">（九级屏障不该存在！）</FONT><BR>"""
+<DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Magic Cards">（第九屏障不该存在！）</FONT><BR>"""
 
 > BOOK.FNAM sc_restoration
 Scroll of Restoration
@@ -65167,7 +65167,7 @@ Scroll of Healing
 
 > BOOK.FNAM sc_firstbarrier
 Scroll of The First Barrier
-初级屏障卷轴
+第一屏障卷轴
 
 > BOOK.TEXT sc_firstbarrier
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -65176,7 +65176,7 @@ Scroll of The First Barrier
 
 > BOOK.FNAM sc_secondbarrier
 Scroll of The Second Barrier
-二级屏障卷轴
+第二屏障卷轴
 
 > BOOK.TEXT sc_secondbarrier
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -65185,7 +65185,7 @@ Scroll of The Second Barrier
 
 > BOOK.FNAM sc_thirdbarrier
 Scroll of The Third Barrier
-三级屏障卷轴
+第三屏障卷轴
 
 > BOOK.TEXT sc_thirdbarrier
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -65194,7 +65194,7 @@ Scroll of The Third Barrier
 
 > BOOK.FNAM sc_fourthbarrier
 Scroll of The Fourth Barrier
-四级屏障卷轴
+第四屏障卷轴
 
 > BOOK.TEXT sc_fourthbarrier
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -65203,7 +65203,7 @@ Scroll of The Fourth Barrier
 
 > BOOK.FNAM sc_fifthbarrier
 Scroll of The Fifth Barrier
-五级屏障卷轴
+第五屏障卷轴
 
 > BOOK.TEXT sc_fifthbarrier
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">ENDLESS PAIN AND SUFFERING</FONT><BR>
@@ -65212,7 +65212,7 @@ Scroll of The Fifth Barrier
 
 > BOOK.FNAM sc_sixthbarrier
 Scroll of The Sixth Barrier
-六级屏障卷轴
+第六屏障卷轴
 
 > BOOK.TEXT sc_sixthbarrier
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">WOE UPON YOU</FONT><BR>
@@ -73716,7 +73716,7 @@ Shrine of the Tribunal
 
 > BOOK.FNAM bk_SecretsDwemerAnimunculi
 Secrets of Dwemer Animunculi
-《锻莫机械球的秘密》
+《锻莫机械体的秘密》
 
 > BOOK.TEXT bk_SecretsDwemerAnimunculi
 """<DIV ALIGN="CENTER"><BR>
@@ -80961,11 +80961,11 @@ The second stage of my stronghold should be complete today.
 
 > INFO.NAME ht_stronghold 1686613804262542865
 Llunela Hleran is willing to order the final stage of my stronghold. However, she believes that my stronghold needs better guards. She wants me to bring her the book "Secrets of Dwemer Animunculi" from Galom Daeus. If I do this, my stronghold will be the first in ages to be guarded by Dwemer Centurions.
-卢妮拉·勒兰愿意开始我的堡垒的最后阶段。不过，她认为我的堡垒需要更好的卫兵。她希望我把加洛姆-代乌斯的《锻莫机械球的秘密》一书带给她。如果我这么做了，我的堡垒将成为有史以来第一个由锻莫百夫长守卫的堡垒。 {瓜尔,锻莫机械体}
+卢妮拉·勒兰愿意开始我的堡垒的最后阶段。不过，她认为我的堡垒需要更好的卫兵。她希望我把加洛姆-代乌斯的《锻莫机械体的秘密》一书带给她。如果我这么做了，我的堡垒将成为有史以来第一个由锻莫百夫长守卫的堡垒。 {瓜尔}
 
 > INFO.NAME ht_stronghold 151039695192415245
 Llunela Hleran thanked me for bringing her the book "Secrets of Dwemer Animunculi." She gave orders to begin the last stage of my stronghold.
-卢妮拉·勒兰感谢我带给她《锻莫机械球的秘密》一书。她马上就会下达开始我堡垒的最后阶段指示。 {锻莫机械体}
+卢妮拉·勒兰感谢我带给她《锻莫机械体的秘密》一书。她马上就会下达开始我堡垒的最后阶段指示。
 
 > INFO.NAME ht_stronghold 1697275891925026501
 The last stage of my stronghold is complete.
@@ -94469,31 +94469,31 @@ There are many common variants of restoration spells, not to mention the countle
 
 > INFO.NAME attribute-draining 861951363362084
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 20780160022419727103
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 26790282882451215188
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 32302230132066123021
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 17698231441407514327
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 17235241301126528962
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 30600124662855028420
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、灵魂撕裂、厄运、怨恨、竭力、诱惑、麻痹、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-damaging 95046402805215634
 Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.
@@ -101099,31 +101099,31 @@ There are many common variants of mysticism spells, not to mention the countless
 
 > INFO.NAME elemental damage 21538143052067225098
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
-毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
+毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
 
 > INFO.NAME elemental damage 6472288652477128840
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
-毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
+毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
 
 > INFO.NAME elemental damage 23895263252073118517
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
-毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
+毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
 
 > INFO.NAME elemental damage 904628996815513762
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
-毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
+毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
 
 > INFO.NAME elemental damage 512261082634622336
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
-毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
+毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
 
 > INFO.NAME elemental damage 29255107962182718759
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
-毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
+毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
 
 > INFO.NAME elemental damage 28108211933125125330
 Elemental damage spells injure natural and supernatural creatures with magics based on the elemental forces of fire, frost, shock, and poison. Here is a list of the most basic destruction spells, representing all the fundamental classes of elemental damage effects: flame, flamebolt, spark, sparkbolt, shard, shardbolt, poison, and poisonbolt. In general, these effects cause damage on touch or at range, and the '-bolt' version is the ranged variant of the spell.
-毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、燃火弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
+毁灭系法术法术以火、冰、电和毒等元素力量为基础，用魔法伤害自然生物和超自然生物。以下是最基本的毁灭法术列表，代表了元素伤害效果的所有基本类别：火焰术、火焰弩箭、电火花、电光弩箭、裂片术、凛冽弩箭、毒术和毒弩箭。一般来说，这些效果会在触碰或范围内造成伤害，而“弩箭”版则是该法术的范围变体。
 
 > INFO.NAME transport spells 141069937166524149
 Transport spells instantaneously transport the caster from one location to another. Four mysticism transport effects are common in Morrowind: mark, recall, divine intervention, and Almsivi intervention.
