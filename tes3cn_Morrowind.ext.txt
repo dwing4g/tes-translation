@@ -7459,7 +7459,7 @@ Cure Poison
 
 > SCPT.SCTX shrineAralor m10
 Aralor's Intervention
-阿拉洛的干涉术
+阿拉洛之干预
 
 > SCPT.SCTX shrineAralor m11
 You are not afflicted with a common disease.
@@ -10639,11 +10639,11 @@ Commanding Touch
 
 > SPEL.FNAM frenzy beast
 Frenzy Beast
-野兽狂化术
+野兽狂乱术
 
 > SPEL.FNAM frenzying touch
 Frenzying Touch
-狂化之触
+狂乱之触
 
 > SPEL.FNAM demoralize beast
 Demoralize Beast
@@ -10767,7 +10767,7 @@ Sanctuary
 
 > SPEL.FNAM father's hand
 Father's Hand
-先驱之手
+慈父之手
 
 > SPEL.FNAM sotha's grace
 Sotha's Grace
@@ -10783,15 +10783,15 @@ Silence
 
 > SPEL.FNAM noise
 Noise
-噪声术
+喧响术
 
 > SPEL.FNAM cruel noise
 Cruel Noise
-残酷噪声术
+残酷喧响术
 
 > SPEL.FNAM dire noise
 Dire Noise
-究极噪声术
+究极喧响术
 
 > SPEL.FNAM earwig
 Earwig
@@ -13055,7 +13055,7 @@ Veloth's Indwelling
 
 > SPEL.FNAM aralor's intervention
 Aralor's Intervention
-阿拉洛的干涉术
+阿拉洛之干预
 
 > SPEL.FNAM vivec's fury
 Vivec's Fury
@@ -37465,7 +37465,7 @@ Nelso Salenim
 
 > NPC_.FNAM galar rothan
 Galar Rothan
-加勒·罗森
+伽拉尔·罗森
 
 > NPC_.FNAM niras farys
 Niras Farys
@@ -38125,7 +38125,7 @@ Cocistian Quaspus
 
 > NPC_.FNAM syloria siruliulus
 Syloria Siruliulus
-索罗利雅·西鲁留鲁斯
+叙洛莉雅·西鲁里乌卢斯
 
 > NPC_.FNAM imsin the dreamer
 Imsin the Dreamer
@@ -46183,7 +46183,7 @@ Thus was the first Archmagister of the Mages Guild trained. From the Psijics of 
 <BR>
 三个月后，特雷切图斯从盖恩纳西的庄园逃跑了。他逃到了艾琳诺，穿越了半个夏暮岛。一队吟游诗人发现他时，他蜷缩在路边的一道沟里，已经濒临死亡。他们照料他，直到他恢复健康，让他做他们的跑腿以换取食物和住所。其中一个名叫赫理安德的占卜者测试了特雷切图斯的头脑，发现这个男孩尽管很腼腆，却拥有异于常人的智力，以及在他的人生经历中超乎寻常的老练。赫理安德在男孩身上看到了熟悉的特质 -- 赫理安德曾经在阿泰乌姆岛受训成为一名秘术师。<BR>
 <BR>
-当队伍在夏暮岛最东边的村庄波坦萨演出时，赫理安德带上了已经十一岁的特雷切图斯，前往阿泰乌姆岛。岛上的导师埃克西斯(Iachesis)在特雷切图斯上看到了无尽的潜力，将他收为学徒，给了他一个名字 -- 瓦努斯·加勒里昂。瓦努斯在阿泰乌姆岛上训练自己的精神，也训练自己的肉体。<BR>
+当队伍在夏暮岛最东边的村庄波坦萨演出时，赫理安德带上了已经十一岁的特雷切图斯，前往阿泰乌姆岛。岛上的导师埃克西斯(Iachesis)在特雷切图斯上看到了无尽的潜力，将他收为学徒，给了他一个名字 -- 瓦努斯·伽拉里昂。瓦努斯在阿泰乌姆岛上训练自己的精神，也训练自己的肉体。<BR>
 <BR>
 这就是法师公会第一任大导师受到的训练。从阿泰乌姆岛的赛伊克那里，他接受了教导。从他那充满不公正和渴求的童年之中，他接受了分享知识的哲学。<BR>
 <BR>"""
@@ -49514,7 +49514,7 @@ The Faithful are granted these blessings when they pray at the shrines and make 
 <BR>
 那些带有圣徒肖像的神龛也可以给予圣徒的特别祝福，罗列如下：<BR>
 <BR>
-圣·阿拉洛赐予“阿拉洛之干涉”，以强化魅力。<BR>
+圣·阿拉洛赐予“阿拉洛之干预”，以强化魅力。<BR>
 圣·德林赐予“圣·德林之盾”，用于抵抗枯萎病。<BR>
 圣·费尔姆斯赐予“费尔姆斯之荣誉”，以增强恢复魔法的能力。<BR>
 圣·罗提斯赐予“罗提斯之石”，以强化意志。<BR>
@@ -62588,7 +62588,7 @@ Mornsu Omalor
 
 > NPC_.FNAM Galar Baren
 Galar Baren
-加勒·巴伦
+伽拉尔·巴伦
 
 > NPC_.FNAM Moria Uulentanus
 Moria Uulentanus
@@ -68218,7 +68218,7 @@ Caldera Slave Key
 
 > MISC.FNAM key_vivectelvannislaves_01
 Telvanni Canalworks Slave Key
-泰瓦尼河道工作区奴隶钥匙
+泰瓦尼河道区奴隶钥匙
 
 > MISC.FNAM key_panatslaves_01
 Panat Slave Key
@@ -71655,7 +71655,7 @@ Key to Sandas tomb
 
 > MISC.FNAM key_Sarano_tomb
 Key to Sarano tomb
-开启萨拉诺之墓的钥匙
+开启萨拉诺墓穴的钥匙
 
 > MISC.FNAM key_Sarano_chest
 Key to Sarano chest
@@ -71803,7 +71803,7 @@ Key to Rethandus chest
 
 > MISC.FNAM key_Rothan_tomb
 Key to Rothan tomb
-开启罗森之墓的钥匙
+开启罗森墓穴的钥匙
 
 > MISC.FNAM key_Dareleth_tomb
 Key Dareleth tomb
@@ -74006,7 +74006,7 @@ Historically, our relationship with the Tribunal Temple is difficult and unfrien
 <BR>
 帝国教团接受所有品德高尚、信仰坚定的公民。我们只要求一次捐赠50龙币来维持我们的组织运作，此后当您使用我们的恢复、治愈和祝福祭坛时，只需要提交适当的费用即可 -- 这可以帮助我们将九圣灵的祝福传播给比我们更为不幸的人们。<BR>
 <BR>
-那些希望加入瓦登费尔帝国教团的人们将会受到我们教团迎宾员的热烈欢迎：佩拉吉雅德的耶格法、雄蛾军团要塞的索罗利雅·西鲁留鲁斯、月蛾军团要塞的苏穆蒂斯·文尼斯、黑檀心总议会厅的鲁西亚·康尼奇安以及黑檀心帝国教堂的拉拉蒂亚·瓦里安。<BR>
+那些希望加入瓦登费尔帝国教团的人们将会受到我们教团迎宾员的热烈欢迎：佩拉吉雅德的耶格法、雄蛾军团要塞的叙洛莉雅·西鲁里乌卢斯、月蛾军团要塞的苏穆蒂斯·文尼斯、黑檀心总议会厅的鲁西亚·康尼奇安以及黑檀心帝国教堂的拉拉蒂亚·瓦里安。<BR>
 <BR>
 如何在帝国教团中晋升？<BR>
 <BR>
@@ -75353,11 +75353,11 @@ Basket
 
 > INFO.NAME a1_6_addhiranirrinformant 30643123741319511643
 I'm told that Addhiranirr is hiding because a Census and Excise agent is in the area. She's probably down in the underworks.
-我听说阿迪拉尼尔躲起来了，因为有税务局密探在这附近。她可能躲在下水道里。
+我听说阿迪拉尼尔躲起来了，因为有税务局密探在这附近。她可能躲在底层区里。
 
 > INFO.NAME a1_6_addhiranirrinformant 148792839765926703
 Addhiranirr will be hiding in the underworks while the Census and Excise agent is in the area.
-只要税务局密探还在这个行政区域内，阿迪拉尼尔就会一直躲在下水道里。
+只要税务局密探还在这个行政区域内，阿迪拉尼尔就会一直躲在底层区里。
 
 > INFO.NAME a1_6_addhiranirrinformant 2036832174183455127
 Addhiranirr was too concerned about the Census and Excise agent to answer questions for the Spymaster. Maybe I can do something to get rid of him.
@@ -75377,7 +75377,7 @@ Addhiranirr says that some smugglers are now working for the Sixth House, but Ad
 
 > INFO.NAME a1_6_addhiranirrinformant 6134106522752623066
 When I told the Census and Excise agent to look for Addhiranirr in the underworks, he was pleased. He didn't seem in a hurry to do anything, though. I wonder how Addhiranirr will feel about what I've done.
-当我告诉税务局密探去下水道找阿迪拉尼尔时，他很高兴。不过他似乎并不急于行动。不知道阿迪拉尼尔对我的所作所为会作何感想。
+当我告诉税务局密探去底层区找阿迪拉尼尔时，他很高兴。不过他似乎并不急于行动。不知道阿迪拉尼尔对我的所作所为会作何感想。
 
 > INFO.NAME a1_6_addhiranirrinformant 16668297552055419639
 Addhiranirr was angry that I'd told the Census and Excise agent where to find her. Now it's going to be very hard to persuade her to answer my questions on the Nerevarine cult and the Sixth House cult.
@@ -77261,7 +77261,7 @@ Lorbumol gro-Aglakh said he has a bounty for a Khajiit outlaw named Dro'Sakhar w
 
 > INFO.NAME fg_khajiitbounty 187944604103476596
 I was told that Dro'Sakhar lives in St. Olms Canal South-Two, the middle door on the south side of the St. Olms Canton.
-我听说多'萨卡住在圣·奥姆斯斯河道南部第二间，也就是圣·奥姆斯行政区河道南部第一间。
+我听说多'萨卡住在圣·奥姆斯河道南二号，也就是圣·奥姆斯行政区南侧中间的门。
 
 > INFO.NAME fg_khajiitbounty 2067183243220912942
 Percius Mercius believes that the bounty on Dro'Sakhar is a valid one, as the Khajiit is a known outlaw.
@@ -78429,11 +78429,11 @@ I was told that Nads Tharen spoke with Arvama Rathri the last time he was in the
 
 > INFO.NAME tg_brotherthief 161972654232402239
 I was told that Nads Tharen lives in the St. Delyn Canalworks South-Two.
-有人告诉我，纳德斯·莎伦住在圣-德林区南二号河道工作区。
+有人告诉我，纳德斯·莎伦住在圣·德林河道区南二号。
 
 > INFO.NAME tg_brotherthief 27877161972704022718
 I was told that Arvama Rathri lives in the St. Delyn Canalworks South-Two.
-有人告诉我，阿瓦玛·拉瑟利住在圣-德林区南二号河道工作区。 {老鼠}
+有人告诉我，阿瓦玛·拉瑟利住在圣·德林河道区南二号。 {老鼠}
 
 > INFO.NAME tg_brotherthief 20487275621113316907
 Arvama Rathri told me that she has never spoken with Nads Tharen.
@@ -79185,7 +79185,7 @@ Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
 
 > INFO.NAME fg_hungerloose 31539249493084511613
 Eydis Fire-Eye told me a Hunger is loose in the Sarano Tomb which is over the hills southeast of the Fort Moonmoth between the Ashlands and Lake Amaya. I am ordered to travel to the tomb and kill the Hunger.
-艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
+艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺墓穴里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
 
 > INFO.NAME fg_hungerloose 1625028503916121756
 Eydis Fire-Eye thanked me for slaying the Hunger and paid me 1000 gold.
@@ -79205,7 +79205,7 @@ I was told that Mathis Dalobar never made it to Maar Gan. He may have had troubl
 
 > INFO.NAME hr_finddalobar 2196182245753765
 I was told that someone was seen near the Rothan Tomb just before the storm hit.
-有人告诉我，风暴来临前，有人在罗森之墓附近出现过。
+有人告诉我，风暴来临前，有人在罗森墓穴附近出现过。
 
 > INFO.NAME hr_finddalobar 91731343855258223
 I found Mathis Dalobar. He asked to be escorted safely back to the Maar Gan Shrine.
@@ -79313,7 +79313,7 @@ Nileno Dorvayn thanked me for killing Thanelen Velas for Larrius Varro. Apparent
 
 > INFO.NAME hh_bankcourier 3950135161216932088
 Edryno Arethi wants me to deliver sealed orders to Treasurer Baren Alen in the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}
+埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的顶层。 {指示}
 
 > INFO.NAME hh_bankcourier 2562433173124518036
 I delivered the sealed orders to Baren Alen.
@@ -80189,7 +80189,7 @@ The ghost of Ane Teria gave me a book and a mace.
 
 > INFO.NAME hh_replacedocs 48978964231896166
 Odral Helvi wants me to replace a scroll in the Hlaalu Records in Vivec. The Records are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side. I should put the scroll in the chest of Ascadian land deeds.
-奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层工作区北侧的上层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
+奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的顶层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
 
 > INFO.NAME hh_replacedocs 52716556191914875
 I gave the false document to Crassius Curio. He said he would take care of the matter.
@@ -81181,7 +81181,7 @@ Once I got Mistress Dratha to listen to my story, she was more than willing to n
 
 > INFO.NAME mt_writgalasa 15217306901428922005
 I have been given a Writ for the honorable execution of Galasa Uvayn. She may be found at the Hlaalu Treasury in the Waistworks of the Hlaalu Compound in Vivec.
-我已收到光荣处决加拉萨·乌万的令状。她可以在维威克城哈拉鲁驻地中层工作区的哈拉鲁财政部找到。
+我已收到光荣处决加拉萨·乌万的令状。她可以在维威克城哈拉鲁驻地中层区的哈拉鲁财政部找到。
 
 > INFO.NAME mt_writgalasa 32104221422797316007
 Galasa Uvayn has been slain according to the traditional and honorable doctrine of the Morag Tong. The execution was reported as a crime.
@@ -81209,7 +81209,7 @@ I executed the Writ on Master Neloth.
 
 > INFO.NAME mt_db_contact 30979221302504114130
 Grandmaster Eno Hlaalu believes that Miun-Gei might know how to contact the Dark Brotherhood. He is an Enchanter in the Lower Waistworks of the Foreign Quarter. When I get a name from Miun-Gei, I should report back to the Grandmaster.
-伊诺·哈拉鲁宗师认为缪恩-格可能知道如何联系黑暗兄弟会。他是外邦区下层工作区的一名附魔师。当我从缪恩-格那里得到一个名字时，我应该向宗师报告。
+伊诺·哈拉鲁宗师认为缪恩-格可能知道如何联系黑暗兄弟会。他是外邦区下层区的一名附魔师。当我从缪恩-格那里得到一个名字时，我应该向宗师报告。
 
 > INFO.NAME mt_db_contact 2396186842398313861
 I spoke with Miun-Gei and asked for contact in the Dark Brotherhood. Miun-Gei told me to speak with Tsrazami, a Khajiit who is also in the Market Canton. I should report her name to the Grandmaster.
@@ -81653,7 +81653,7 @@ I've spoken to Gadayn Andarys about the note of his I found on the ground. He te
 
 > INFO.NAME eb_unrequited 5979200653260922740
 I have agreed to speak with Eraldil about Gadayn. He suggested I might find her in the Hlaalu Waistworks.
-我同意和艾拉蒂尔谈谈加达因。他建议我去哈拉鲁中层工作区找她。
+我同意和艾拉蒂尔谈谈加达因。他建议我去哈拉鲁中层区找她。
 
 > INFO.NAME eb_unrequited 285573229139524747
 I've decided not to get involved with Gadayn and his love for Eraldil.
@@ -81933,7 +81933,7 @@ Eydis Fire-Eye gave me 500 gold for the Duke's contract.
 
 > INFO.NAME hr_redastomb 192431971891145202
 Faral Retheran asked me to bring her the Redas War Axe, the Redas Chalice, and the Redas Robe of Deeds from the Redas Tomb. It is south of Molag Mar, over the mountains. I should head west along the mountains until I can cross to the south, then head back east until I see the tomb, which is near an ashlander camp.
-法拉·雷瑟兰让我把瑞达斯战斧、瑞达斯圣杯和瑞达斯契约长袍从瑞达斯之墓中带给她。它在莫拉格-玛尔的南边，翻过山就到了。我应该沿着山脉向西走，直到能越过山脉到达南边，然后再向东走，直到看到坟墓，它就在灰烬之民的营地附近。
+法拉·雷瑟兰让我把瑞达斯战斧、瑞达斯圣杯和瑞达斯契约长袍从瑞达斯墓穴中带给她。它在莫拉格-玛尔的南边，翻过山就到了。我应该沿着山脉向西走，直到能越过山脉到达南边，然后再向东走，直到看到坟墓，它就在灰烬之民的营地附近。
 
 > INFO.NAME hr_redastomb 306792339124688432
 I brought the Redas treasures to Faral Retheran.
@@ -81977,7 +81977,7 @@ Crassius Curio asked me to speak with Odral Helvi in Caldera.
 
 > INFO.NAME hh_bankfraud 2446926709295014304
 Odral Helvi gave me sealed orders to deliver to the assistant treasury clerk, Tenisi Lladri, at the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-奥德拉尔·赫尔维给了我密封的命令，让我交给维威克哈拉鲁金库的财政部助理特尼西·拉德罗。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示,协助}
+奥德拉尔·赫尔维给了我密封的命令，让我交给维威克哈拉鲁金库的财政部助理特尼西·拉德罗。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的顶层。 {指示,协助}
 
 > INFO.NAME hh_bankfraud 2109717881198120986
 I gave the orders to Tenisi Lladri in Vivec.
@@ -82329,7 +82329,7 @@ I reported the honorable execution of Ethal Seloth and Idroso Vendu.
 
 > INFO.NAME mt_writguril 261904701147301907
 I have been given a Writ for the honorable execution of Guril Retheran. He may be found at the Flowers of Gold Cornerclub in the Redoran Waistworks.
-我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层工作区的金花街角酒吧找到。
+我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层区的金花街角酒吧找到。
 
 > INFO.NAME mt_writguril 2413528845184014714
 Guril Retheran has been slain according to the traditional and honorable doctrine of the Morag Tong. The execution was reported as a crime.
@@ -82369,7 +82369,7 @@ I reported the honorable execution of Mavon Drenim.
 
 > INFO.NAME mt_writbemis 2097750793329282
 I have been given a Writ for the honorable execution of Mathyn Bemis, who may be found in the Hlaalu Ancestral Vaults which are accessible from the Canalworks of the Hlaalu Canton.
-我收到了光荣处决令状，要求处决马蒂恩·比米斯，他可能在哈拉鲁先祖墓穴里，从哈拉鲁金库的河道工作区可以进入。
+我收到了光荣处决令状，要求处决马蒂恩·比米斯，他可能在哈拉鲁先祖墓穴里，从哈拉鲁金库的河道区可以进入。
 
 > INFO.NAME mt_writbemis 158879546910929961
 Mathyn Bemis has been slain according to the traditional and honorable doctrine of the Morag Tong. The execution was reported as a crime.
@@ -84433,15 +84433,15 @@ Stacey has learned that Hrundi is dead. He will be of little help to our cause.
 
 > INFO.NAME town_vivec 3086445582648927038
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Belt of the Armor of God.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了神甲腰带。
+我向埃拉姆·安达斯报告，他说我在外邦区的底层区杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了神甲腰带。
 
 > INFO.NAME town_vivec 1711925436295071793
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Indoril helm and cuirass. I am not supposed to wear it in Vivec City, to avoid being mistaken for an Ordinator.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。
+我向埃拉姆·安达斯报告，他说我在外邦区的底层区杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。
 
 > INFO.NAME town_vivec 1749187691432013704
 In the Foreign Quarter I was told that someone has seen a Dunmer woman down in the Underworks. That's odd, since Dunmer are not seen often in the Foreign Quarter, and there's nothing in the Underworks but rats and sewers.
-在外邦区，有人告诉我有人在下水道看到过一个丹莫女人。这就奇怪了，因为在外邦区并不常见到丹莫，而下水道里除了老鼠和污水什么都没有。
+在外邦区，有人告诉我有人在底层区看到过一个丹莫女人。这就奇怪了，因为在外邦区并不常见到丹莫，而底层区里除了老鼠和污水什么都没有。
 
 > INFO.NAME town_vivec 6070861343909868
 There are no witnesses to any of the killings. But in Hlaalu compound, at about the same time as one of the killings, an outlander reported being threatened by Dunmer woman armed with a dagger. It was dark, but the outlander was sure the Dunmer woman with a dagger was dressed in a skirt and netch leather armor.
@@ -84613,7 +84613,7 @@ I have spoken to Moroni Uvelas about her missing husband. It seems the man was s
 
 > INFO.NAME eb_deadmen 3027628809210081399
 I have agreed to try and find her husband Danar, and cure him if I can. He was last seen heading into the underworks near St. Olms.
-我同意去找她的丈夫达纳尔，如果可以的话，把他治好。最后一次有人看见他是在圣·奥姆斯区附近的下水道里。
+我同意去找她的丈夫达纳尔，如果可以的话，把他治好。最后一次有人看见他是在圣·奥姆斯区附近的底层区里。
 
 > INFO.NAME eb_deadmen 3620282402264914284
 I have decided not to become involved in this incident. The fate of a diseased skooma addict is not my concern.
@@ -84621,7 +84621,7 @@ I have decided not to become involved in this incident. The fate of a diseased s
 
 > INFO.NAME eb_deadmen 2152718379607828625
 I've killed a corprus stalker in the Underworks of Vivec. I fear this is what Danar Uvelas has become.
-我在维威克的下水道杀了一个尸化追猎者。我担心这就是达纳尔·乌维拉斯的下场。
+我在维威克的底层区杀了一个尸化追猎者。我担心这就是达纳尔·乌维拉斯的下场。
 
 > INFO.NAME eb_deadmen 30755319342640224073
 I returned to Moroni Uvelas with her husband's ring. She was saddened by the news of her husband's fate, but did not seem surprised. She was grateful that he was finally put to rest, and rewarded me with some potions of that will cure disease.
@@ -85157,7 +85157,7 @@ I have given Han-Ammu the Robe of Erur-Dan the Wise and made a little speech abo
 
 > INFO.NAME ic6_rat 17608309432745315343
 Synnolian Tunifus needs five units of rat meat for cure poison potions. He says the best place to hunt rats is in the underworks of any of Vivec's cantons. He says to enter the underworks through trapdoors in the canalworks or through the outflow drains, which are underwater along the sides of each canton. He also warned me to be careful, because bad things-- and bad people -- hide in the underworks.
-辛诺里安·图尼夫斯需要五个单位的老鼠肉来制作解毒药剂。他说猎杀老鼠的最佳地点是维威克城任何一个行政区的下水道。他说要从河道工作区的活板门或出水口进入下水道，出水口在每个区外围两侧的水下。他还警告我一定要小心，因为地下水道里藏着坏东西 -- 和恶人。 {药水,这些药水}
+辛诺里安·图尼夫斯需要五个单位的老鼠肉来制作解毒药剂。他说猎杀老鼠的最佳地点是维威克城任何一个行政区的底层区。他说要从河道区的活板门或出水口进入底层区，出水口在每个区外围两侧的水下。他还警告我一定要小心，因为底层区里藏着坏东西——和恶人。 {药水,这些药水}
 
 > INFO.NAME ic6_rat 3541109972223827727
 I told Synnolian Tunifus I would not be able to bring him the five units of rat meat he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -85261,7 +85261,7 @@ I've decided not to bother with Audenian Velius' rat problem.
 
 > INFO.NAME eb_pest 15112225371334915351
 It appears now that Audenian Valius didn't just want me to kill the rats in his store, but also the nest of them that have been coming up from the Underworks.
-现在看来，奥邓尼安·瓦留斯不只是想让我杀死他店里的老鼠，还想让我杀死从下水道上来的那一窝老鼠。
+现在看来，奥邓尼安·瓦留斯不只是想让我杀死他店里的老鼠，还想让我杀死从底层区上来的那一窝老鼠。
 
 > INFO.NAME eb_pest 16281373250230257
 I believe I have killed all of the rats plaguing Audenian Valius.
@@ -85269,7 +85269,7 @@ I believe I have killed all of the rats plaguing Audenian Valius.
 
 > INFO.NAME eb_pest 197995275183132618
 I have killed the nest of rats in the Underworks, and returned to Audenian Valius. He was grateful for my help, and rewarded me with a valuable soul gem.
-我杀死了下水道里的一窝老鼠，回到了奥邓尼安·瓦留斯身边。他对我的帮助非常感激，并奖励了我一颗价值连城的灵魂石。 {报酬}
+我杀死了底层区里的一窝老鼠，回到了奥邓尼安·瓦留斯身边。他对我的帮助非常感激，并奖励了我一颗价值连城的灵魂石。 {报酬}
 
 > INFO.NAME mg_bowl 2875210791149328797
 Ajira asked me to find her a ceramic bowl. She told me that Ra'Virr the trader here in Balmora might have one.
@@ -88473,11 +88473,11 @@ I'm sorry for you, and for your misfortunes. Perhaps your attributes are so grea
 
 > INFO.NAME join the imperial cult 31986419155198072
 Speak with Ygfa at Fort Pelagiad, Syloria Siruliulus at Fort Buckmoth, Somutis Vunnis at Fort Moonmoth, Ruccia Conician in the Grand Council Chambers in Ebonheart, or Lalatia Varian in the Imperial Chapels at Ebonheart.
-请与佩拉吉亚德要塞的耶格法、雄蛾要塞的索罗利雅·西鲁留鲁斯、月蛾要塞的苏穆蒂斯·文尼斯、黑檀心大议会厅的鲁西亚·康尼奇安或黑檀心帝国教堂的拉拉蒂亚·瓦里安谈谈。 {帝国人}
+请与佩拉吉亚德要塞的耶格法、雄蛾要塞的叙洛莉雅·西鲁里乌卢斯、月蛾要塞的苏穆蒂斯·文尼斯、黑檀心大议会厅的鲁西亚·康尼奇安或黑檀心帝国教堂的拉拉蒂亚·瓦里安谈谈。 {帝国人}
 
 > INFO.NAME join the imperial cult 2585332132899910599
 Speak with Ygfa at Fort Pelagiad, Syloria Siruliulus at Fort Buckmoth, Somutis Vunnis at Fort Moonmoth, Ruccia Conician in the Grand Council Chambers in Ebonheart, or Lalatia Varian in the Imperial Chapels at Ebonheart. And here's my copy of 'For my Gods and Emperor'. It's a handbook for members of the Imperial cult. Keep it. Read it. It may help you decide whether you should join the Imperial cult.
-请与佩拉吉亚德要塞的耶格法、雄蛾要塞的索罗利雅·西鲁留鲁斯、月蛾要塞的苏穆蒂斯·文尼斯、黑檀心大议会厅的鲁西亚·康尼奇安或黑檀心帝国教堂的拉拉蒂亚·瓦里安谈谈。这是我的“献给我的众神和皇帝”。这是给帝国教团成员的手册。留着吧，读一读，也许能帮你决定是否加入帝国教团。 {帝国人}
+请与佩拉吉亚德要塞的耶格法、雄蛾要塞的叙洛莉雅·西鲁里乌卢斯、月蛾要塞的苏穆蒂斯·文尼斯、黑檀心大议会厅的鲁西亚·康尼奇安或黑檀心帝国教堂的拉拉蒂亚·瓦里安谈谈。这是我的“献给我的众神和皇帝”。这是给帝国教团成员的手册。留着吧，读一读，也许能帮你决定是否加入帝国教团。 {帝国人}
 
 > INFO.NAME imperial cult doctrine 32766151232851324457
 We also say -- do not harm one another. It is forbidden to attack another person of the Imperial cult, and of course, forbidden to kill another member. It is forbidden to steal from another member, whether by open theft or by covert pickpocketing. It is forbidden to trespass upon the private property of another member -- private property being understood to be anything behind a locked door. Break any one of these rules, and be expelled from the cult.
@@ -89329,7 +89329,7 @@ Faral Retheran, the treasurer, is in the Redoran Vaults. Various other Redoran l
 
 > INFO.NAME someone in particular 1997316701148224721
 Baren Alen in the Hlaalu Vaults is the head Treasurer. Edryno Arethi's house is in the waistworks. Crassius Curio has a manor in the Hlaalu Plaza. Yngling Half-Troll lives in the St. Olms Canton. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena. Imperial guildsmen are in the Foreign Quarter.
-哈拉鲁金库中的巴伦·阿伦是首席财务官。埃德里诺·阿雷提的家在中层工作区。克拉西乌斯·库里奥在哈拉鲁广场有一座庄园。英灵·半巨魔住在圣·奥姆斯行政区。神殿祭司、书记官和神殿卫兵们在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。帝国公会在外邦区。 {帝国人}
+哈拉鲁金库中的巴伦·阿伦是首席财务官。埃德里诺·阿雷提的家在中层区。克拉西乌斯·库里奥在哈拉鲁广场有一座庄园。英灵·半巨魔住在圣·奥姆斯行政区。神殿祭司、书记官和神殿卫兵们在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。帝国公会在外邦区。 {帝国人}
 
 > INFO.NAME someone in particular 17390257552385729172
 All the important Telvanni retainers and mercenaries live here in the Telvanni Compound. Mavon Drenim, the ranking Telvanni lord here in Vivec, lives in the tower. Various Hlaalu retainers live in Hlaalu Compound, St. Olms, and St. Delyn. Redorans live in Redoran Compound. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena. Imperial guildsmen are in the Foreign Quarter.
@@ -89385,7 +89385,7 @@ The most important people in the Temple Compound are Archcanon Saryoni at the Hi
 
 > INFO.NAME someone in particular 1426926249294284134
 Here in the Foreign Quarter, you'll find the Imperial Guilds -- Fighters Guild, Mages Guild -- and an Imperial cult shrine down in the Canalworks. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena.
-在外邦区，你可以找到帝国公会 -- 战士公会和法师公会，以及位于河道工作区的帝国教团圣祠。瑞多然家族的人住在瑞多然驻地，泰瓦尼家族的人住在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，但也有一部分在圣·德林区和圣·奥姆斯行政区。神殿的祭司、书记员和神殿卫兵们住在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。 {帝国人}
+在外邦区，你可以找到帝国公会 -- 战士公会和法师公会，以及位于河道区的帝国教团圣祠。瑞多然家族的人住在瑞多然驻地，泰瓦尼家族的人住在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，但也有一部分在圣·德林区和圣·奥姆斯行政区。神殿的祭司、书记员和神殿卫兵们住在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 253229625295328705
 Imperial guildsmen are in the Foreign Quarter. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena.
@@ -90061,11 +90061,11 @@ Jobasha's Rare Books is a bookshop with a wide selection of rare and obscure boo
 
 > INFO.NAME jobasha's rare books 101501956308714453
 Jobasha's Rare Books is a bookshop with a wide selection of rare and obscure books. My friend, Jobasha, a Khajiit, is the owner. The shop is here in Vivec's Foreign Quarter, in the Lower Waistworks, on the same level as the Black Shalk Cornerclub, but down at the end of the west corridor.
-乔巴沙的珍藏本是一家精选各种珍稀晦涩书籍的书店。我的朋友乔巴沙是店主，卡吉特。书店位于维威克的外邦区，在中层工作区，与黑砂壳虫街角酒吧在同一层，但在西走廊的尽头。 {沙尔}
+乔巴沙的珍藏本是一家精选各种珍稀晦涩书籍的书店。我的朋友乔巴沙是店主，卡吉特。书店位于维威克的外邦区，在下层区，与黑砂壳虫街角酒吧在同一层，但在西走廊的尽头。 {沙尔}
 
 > INFO.NAME jobasha's rare books 17934299742607118249
 It's here in the Foreign Quarter, on the west end of the lower waistworks.
-就在外邦区，下层工作区的西端。
+就在外邦区，下层区的西端。
 
 > INFO.NAME jobasha's rare books 275335831713124251
 It's in the Foreign Quarter.
@@ -91905,35 +91905,35 @@ Yes, my VERY special friend. Ahnassi hopes we will always have things to share -
 
 > INFO.NAME woman with a dagger 14084282822740328547
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 2777721523432623030
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 48281048278007230
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 506627801079729715
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 2944879423168445
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 2732010266116258577
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 998325926235847817
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 499672231288811582
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that. But I recall someone -- maybe one of the sewer cleaners -- saying something about seeing a Dunmer woman down in the Underworks. Not that odd, really, though Dunmer are not seen as much in the Foreign Quarter. But in the Underworks. That's odd. Nothing down there but rats and sewers.
-一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人 -- 也许是下水道清洁工 -- 说过在下水道见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在下水道里，那就奇怪了。下面除了老鼠和污水什么都没有。
+一个丹莫女人，穿着裙子和气母皮甲？还带着一把匕首？不，没见过这样的人。但我记得有人——也许是底层区清洁工——说过在底层区见过一个丹莫女人。丹莫在外邦区虽然不多见，不过也没那么奇怪，但在底层区里，那就奇怪了。下面除了老鼠和污水什么都没有。
 
 > INFO.NAME woman with a dagger 1759225764308088861
 A Dunmer woman, in a skirt and netch leather armor? With a dagger? No. Haven't seen anyone like that.
@@ -92193,7 +92193,7 @@ I believe the current Grandmaster is Eno Hlaalu. I have heard rumors that the Mo
 
 > INFO.NAME join the morag tong 870227794202657527
 If you seek the Morag Tong you should look in the storage area here in the Canalworks.
-如果你要寻找莫拉格堂，请到河道工作区的储存室寻找。
+如果你要寻找莫拉格堂，请到河道区的储存室寻找。
 
 > INFO.NAME join the morag tong 1023111355124622548
 Here in Morrowind, members of the Morag Tong follow an honorable and traditional profession. I do see them from time to time at this post.
@@ -94141,15 +94141,15 @@ Vvardenfell has nine regions, each with their own plants and terrain. They're ca
 
 > INFO.NAME agrippina herrenia 237646521367726311
 She's a clothier in Vivec. Her shop is in the Canalworks of the Foreign Quarter. Sells a nice selection of fine clothing, some provided by yours truly, and transported with care by Rollie.
-她是维威克的裁缝铺主。她的店铺位于外邦区河道工作区。她卖的衣服都很不错，有些是由我提供的，有些是罗利精心挑选的。
+她是维威克的裁缝铺主。她的店铺位于外邦区的河道区。她卖的衣服都很不错，有些是由我提供的，有些是罗利精心挑选的。
 
 > INFO.NAME agrippina herrenia 419928088752019127
 You can find Agrippina Herrenia's store here in Vivec. She is located in the Foreign Quarter Canalworks, which can be accessed through the Foreign Quarter Lower Waistworks. Her selection of clothing is excellent.
-你可以在维威克找到阿格里皮娜·赫伦妮亚的店铺。她位于外邦区河道工作区，可以从外邦区下层工作区进入。她店里的衣服都很不错。
+你可以在维威克找到阿格里皮娜·赫伦妮亚的店铺。她位于外邦区的河道区，可以从外邦区的下层区进入。她店里的衣服都很不错。
 
 > INFO.NAME agrippina herrenia 12784258021907518332
 She's a clothier in the Foreign Quarter; I think her shop is in the Canalworks. Nice merchandise, actually.
-她是外邦区的裁缝铺主，我想她的店应该在河道工作区。其实她的商品很不错。
+她是外邦区的裁缝铺主，我想她的店应该在河道区。其实她的商品很不错。
 
 > INFO.NAME stole all my goods 11953306463129123950
 Come back when you've got all my glass.
@@ -100467,7 +100467,7 @@ Is Miun-Gei dead? Hm. Try searching his shop. Perhaps you can find some clues th
 
 > INFO.NAME dark brotherhood 2175921259213211577
 The Dark Brotherhood rebelled against the Morag Tong many years ago. Since then they have been our enemy. I want you to speak with Miun-Gei, a Mehrunes Dagon cultist who has an Enchantment shop in the Lower Waistworks of the Foreign Quarter. I believe he knows of a contact in the Dark Brotherhood. When you have taken a name from him, bring that name to me.
-黑暗兄弟会多年前反抗莫拉格堂，从那时起他们就是我们的敌人。我想让你和缪恩-格谈谈，他是梅鲁涅斯·大衮的附魔师，在外邦区的中层工作区开了一家附魔店。我相信他知道黑暗兄弟会的一个联络人。你从他那里得到一个名字后，把那个名字带给我。 {魔法疾病}
+黑暗兄弟会多年前反抗莫拉格堂，从那时起他们就是我们的敌人。我想让你和缪恩-格谈谈，他是梅鲁涅斯·大衮的附魔师，在外邦区的下层区开了一家附魔店。我相信他知道黑暗兄弟会的一个联络人。你从他那里得到一个名字后，把那个名字带给我。 {魔法疾病}
 
 > INFO.NAME dark brotherhood 2601215598124884165
 %Name hears much of you. %Name is loyal to you now, not the Dark Brotherhood. Trust %Name.
@@ -103315,7 +103315,7 @@ Thank you, %PCName. I will follow you to Jobasha's Rare Books, and we will speak
 
 > INFO.NAME travel together 2010323127278002946
 Will you travel together with me to Jobasha's Rare Books? We leave the door to the Foreign Quarter Waistworks, turn right, west, continue down the hall and across the atrium on the same level, then follow the opposite corridor west on the other side of the atrium all the way to Jobasha's door.
-你愿意和我一起去往乔巴沙的珍藏本吗？我们离开这家店的大门，前去大厅沿着走廊走到同一层的中庭对面，然后沿着对面走廊向里面走，一直走到底就能到乔巴沙的店门口。 {外邦区}
+你愿意和我一起去往乔巴沙的珍藏本吗？我们离开去外邦区中层区的门，向右转，朝西走，继续沿着走廊并穿过同一层的中庭，然后沿着中庭另一侧的走廊一直朝西走到乔巴沙的门前。
 
 > INFO.BNAM travel together 2010323127278002946 c1
 Yes, please follow me to Jobasha's Rare Books.
@@ -103327,7 +103327,7 @@ No, you should wait here for now.
 
 > INFO.NAME travel together 178631673225958934
 Will you travel together with me to Jobasha's Rare Books? We leave the door to the Foreign Quarter Waistworks, turn right, west, continue down the hall and across the atrium on the same level, then follow the opposite corridor west on the other side of the atrium all the way to Jobasha's door. I must warn you: unless these troublesome fools are persuaded to behave like civilized beings, there may be fighting and killing if we try to travel together.
-你愿意和我一起去往乔巴沙的珍藏本吗？我们离开这家店的大门，前去大厅沿着走廊走到同一层的中庭对面，然后沿着对面走廊向里面走，一直走到底就能到乔巴沙的店门口。我必须警告你：除非劝服这些惹是生非的蠢货们像文明人一样行事，否则一旦我们试图离开，可能会发生战斗和杀戮。 {外邦区}
+你愿意和我一起去往乔巴沙的珍藏本吗？我们离开去外邦区中层区的门，向右转，朝西走，继续沿着走廊并穿过同一层的中庭，然后沿着中庭另一侧的走廊一直朝西走到乔巴沙的门前。我必须警告你：除非劝服这些惹是生非的蠢货们像文明人一样行事，否则一旦我们试图离开，可能会发生战斗和杀戮。
 
 > INFO.BNAM travel together 178631673225958934 c1
 Yes, please follow me to Jobasha's Rare Books.
@@ -107347,7 +107347,7 @@ Yes, this is the House Hlaalu Treasury. The northeast door leads to the prisons.
 
 > INFO.NAME hlaalu treasury 2075118645232817751
 You can enter the treasury from the Waistworks. The door is on the upper level on the north side.
-你可以从中层工作区进入金库。门在北侧的上层区域。
+你可以从中层区进入金库。门在北侧的上层区域。
 
 > INFO.NAME my imprisonment 668886872354931319
 I have been trapped in this place for centuries, kept here by Azura, damn her meddlesome ways. I had lived for years, feeding off the human cattle until she imprisoned me here, leaving me weak, powerless, and helpless. I tire of feeding off rats to keep me alive. But I may have found a way to escape.
@@ -107787,7 +107787,7 @@ You've gotten rid of them all? Excellent! Well, as promised, here's something fo
 
 > INFO.NAME rat infestation 129126688246183210
 You've killed the rats in my back room? Well, I could have done that! I'm talking about the source of the infestation. There must be a nest of them somewhere, probably down in the Underworks. When you've gotten rid of those, let me know, and I'll reward you.
-你杀了我密室里的老鼠？我本来可以杀的，我说的是鼠患的源头，一定有一个老鼠窝，可能就在下水道里。等你把它们赶走了，告诉我，我会奖励你的。 {谈,报酬}
+你杀了我密室里的老鼠？我本来可以杀的，我说的是鼠患的源头，一定有一个老鼠窝，可能就在底层区里。等你把它们赶走了，告诉我，我会奖励你的。 {谈,报酬}
 
 > INFO.NAME rat infestation 28615110302518722625
 Oh well. I'm sure I'll find a way to take care of this problem.
@@ -109083,15 +109083,15 @@ I do not wish to discuss it.
 
 > INFO.NAME nalvilie saren 1354916379286297037
 She lives near here in St. Olms Canalworks South-One. I'm glad my brother warned me about her before she could test her favors on me.
-她就住在圣·奥姆斯区南一号河道工作区附近。我很高兴我哥哥在她对我施展恩惠之前，警告过我关于她的事。 {忙}
+她就住在圣·奥姆斯河道区南一号附近。我很高兴我哥哥在她对我施展恩惠之前，警告过我关于她的事。 {忙}
 
 > INFO.NAME nalvilie saren 9270119602692311587
 Yes, I knew her. I sometimes wish I didn't. It's not a good thing these days to have been one of her lovers. If you really want to see her, she lives near here, in St. Olms Canalworks South-One.
-是的，我认识她。有时我真希望我不认识她，这年头做她的情人可不是什么好事。如果你真的想见她，她就住在附近，圣·奥姆斯区河道工作区南一区。
+是的，我认识她。有时我真希望我不认识她，这年头做她的情人可不是什么好事。如果你真的想见她，她就住在附近，圣·奥姆斯河道区南一号。
 
 > INFO.NAME nalvilie saren 18112282013902222
 I see her now and then, though we're not close like we used to be, before I realized what her game was. I think she has a shop on the south side of the Canalworks.
-我时不时会去看她，虽然我们不像以前那么亲密了，在我意识到她的把戏之前，我想她在河道工作区南边开了家店。
+我时不时会去看她，虽然我们不像以前那么亲密了，在我意识到她的把戏之前，我想她在河道区南边开了家店。
 
 > INFO.NAME nalvilie saren 3142133451983713443
 Nalvilie? Yes, I remember her. I don't know where she is now, though.
@@ -110051,7 +110051,7 @@ I have given this Writ to you already, %PCName. As you know, Writs are issued on
 
 > INFO.NAME guril retheran 3151470093212324811
 Guril Retheran may be found in the Flowers of Gold Cornerclub in the Redoran Canton Waistworks. His family is influential in House Redoran, and this may have consequences, but the Writ is genuine and honorable and must be executed.
-古利尔·雷瑟兰可以在瑞多然领地中层工作区的金花街角酒吧找到。他的家族在瑞多然家族中很有影响力，这可能会带来后果，但光荣处决令状是真实可信的，必须执行。
+古利尔·雷瑟兰可以在瑞多然领地中层区的金花街角酒吧找到。他的家族在瑞多然家族中很有影响力，这可能会带来后果，但光荣处决令状是真实可信的，必须执行。
 
 > INFO.NAME specific place 749914731240121175
 Pelagiad is the next town up the road. Cross the bridge out of town and just stay on the road. From Pelagiad, take the road north to Balmora and Caldera, or east to Ebonheart and Vivec. If you have the cash, and are in a hurry, or afraid of getting lost, take the silt strider to Balmora or Vivec. Speak to Darvame Hleran at the silt strider landing, across the bridge and south along the shore. And if you plan to travel widely, get a copy of 'Guide to Vvardenfell' from Arrille. It's got maps.
@@ -113011,7 +113011,7 @@ Her shop is on the west side, by Jobasha's Rare Books and Andilu Drothan's shop.
 
 > INFO.NAME aurane frernis 157917291233207630
 Her shop is in the west side of the Lower Waistworks here in the Foreign Quarter.
-她的商店在外邦区下层工作区的西侧。
+她的商店在外邦区下层区的西侧。
 
 > INFO.NAME aurane frernis 18908217391512310062
 Her shop is in the Foreign Quarter.
@@ -115575,11 +115575,11 @@ Tendris Vedran is the person I'd talk to if I wanted to know about the apothecar
 
 > INFO.NAME little advice 23213323002688228604
 If you want to talk to an enchanter about enchanting, try Galar Rothan at the Telvanni Council House. He's not a stiff shirt like a lot of the Telvanni wizards, and he knows his stuff.
-如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试加勒·罗森。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
+如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试伽拉尔·罗森。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
 
 > INFO.NAME little advice 1560894202897913784
 If you want to talk to an enchanter about enchanting, try Galar Rothan at the Telvanni Council House. He's not a stiff shirt like a lot of the Telvanni wizards, and he knows his stuff.
-如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试加勒·罗森。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
+如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试伽拉尔·罗森。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
 
 > INFO.NAME little advice 20868296541967631924
 Anarenen at the Ald'ruhn Guild of Mages is happy to talk your ear off about alchemy. He's been on Vvardenfell a while, and knows everything there is to know about practicing the profession here.
@@ -115923,7 +115923,7 @@ So Durus Marius is dead and the cult in Assernerairan has been crushed. Please t
 
 > INFO.NAME assernerairan 22997706194302552
 Assernerairan is in the Underworks of the St. Olms Canton here in Vivec City. Find this foul place and honorably execute Durus Marius, the leader of these Mehrunes Dagon cultists.
-阿瑟内拉兰就在维威克城圣·奥姆斯行政区的下水道里。找到这个肮脏的地方，光荣地处决梅鲁涅斯·大衮邪教徒的首领杜鲁斯·马里乌斯。
+阿瑟内拉兰就在维威克城圣·奥姆斯行政区的底层区里。找到这个肮脏的地方，光荣地处决梅鲁涅斯·大衮邪教徒的首领杜鲁斯·马里乌斯。
 
 > INFO.NAME dissapla mine 2492730217118499073
 Teres is dead?! Double damn.... Leave me. Now.
@@ -119271,7 +119271,7 @@ She lives near here to the south on the upper level.
 
 > INFO.NAME edryno arethi 659550062327311586
 Her home is in the Hlaalu Canton Waistworks.
-她的家在哈拉鲁行政区的中层工作区。
+她的家在哈拉鲁行政区的中层区。
 
 > INFO.NAME velanda omani 526515430314401207
 Omani Manor is on an island east of Vivec. You can get there by following the road east of Vivec, then south past Ald Sotha, but it might be easier to just swim there from Vivec.
@@ -121053,7 +121053,7 @@ I have given this Writ to you already, %PCName. As you know, Writs are issued on
 
 > INFO.NAME galasa uvayn 3041930018228309485
 This Writ is for Galasa Uvayn who offended a Redoran Lord. She may be found at the Hlaalu Treasury in the Waistworks of the Hlaalu Canton. Go.
-加拉萨·乌万得罪了瑞多然领主，这封令状是给她的。她可以在哈拉鲁财政部找到，就在哈拉鲁行政区的中层工作区。去吧。
+加拉萨·乌万得罪了瑞多然领主，这封令状是给她的。她可以在哈拉鲁财政部找到，就在哈拉鲁行政区的中层区。去吧。
 
 > INFO.NAME mavon drenim 6585289123239516948
 You have been expelled.
@@ -122781,7 +122781,7 @@ No? Well, I can't blame you. My problems are my own, and I've no reason to expec
 
 > INFO.NAME gone missing 34521107320161656
 You will? I can't tell you how relieved that would make me. Danar and his no-good friends sometimes take to the Underworks near here when they've got some skooma. You might find him down there.
-你会吗？那我就放心了。达纳尔和他的坏朋友们有时会去附近的下水道，当他们有斯库玛的时候，你也许能在那儿找到他。
+你会吗？那我就放心了。达纳尔和他的坏朋友们有时会去附近的底层区，当他们有斯库玛的时候，你也许能在那儿找到他。
 
 > INFO.NAME gone missing 2442624470239911961
 Yes...my husband, Danar Uvelas, is missing again. It happens with him. See, he has a problem with skooma, although he swears he's been trying to stop. Last time he disappeared it was for days, and when he came back, he didn't look so good. I'm worried that he might have been infected with corprus, or something equally horrible. Do you think you might be able to find him for me?
@@ -122801,7 +122801,7 @@ Yes, that's my husband. I only wish I knew what had become of him.
 
 > INFO.NAME danar uvelas 3150775931610718181
 A skooma-addict, that one. His wife works all the time in the Hall, and he takes the money and spends it all on the skooma. He and his friends spend all their time down in the Underworks using the stuff. That poor woman.
-他是个斯库玛瘾君子。他妻子一直在市政厅工作，他却把钱都花在了斯库玛身上，他和他的朋友们整天都在下水道里用这些东西。可怜的女人。
+他是个斯库玛瘾君子。他妻子一直在市政厅工作，他却把钱都花在了斯库玛身上，他和他的朋友们整天都在底层区里用这些东西。可怜的女人。
 
 > INFO.NAME exotic items 30396188152850323930
 Well, some of the finer materials are hard to come by these days. While it would be nice to have such items as dwarven limeware, it has become too difficult to obtain it.
@@ -124637,7 +124637,7 @@ No
 
 > INFO.BNAM addhiranirr 18068278061564118475 c3
 I think you might find her in the underworks.
-她就躲在下水道里。
+她就躲在底层区里。
 
 > INFO.NAME addhiranirr 1140817346183198607
 Yes. Her name is Addhiranirr, and she is a Khajiit. Do you know where I can find her?
@@ -124653,7 +124653,7 @@ No
 
 > INFO.NAME addhiranirr 908622339478520563
 Okay. I know Addhiranirr. And if I know Addhiranirr, she'll be staying out of sight as long as the Census and Excise agent is lurking about. Probably down in the underworks. Look for trapdoors down from the canalworks level.
-好吧，我认识阿迪拉尼尔。以我对她的了解，只要税务局密探还在附近，她就不会露面。可能就在下水道里，从河道工作区往下，去那里找找向下的活板门。
+好吧，我认识阿迪拉尼尔。以我对她的了解，只要税务局密探还在附近，她就不会露面。可能就在底层区里，从河道区往下，去那里找找向下的活板门。
 
 > INFO.NAME addhiranirr 2349764632674531275
 Oh. Addhiranirr. Maybe that name does sound a little familiar. For some reason, I just can't seem to remember.
@@ -124673,7 +124673,7 @@ That Khajiit sneak? What do you want with her? Hiding from the Census and Excise
 
 > INFO.NAME addhiranirr 31446240571567215557
 A Census and Excise agent has been prowling the canton, f'lah. And this agent, whose name is Duvianus Platorius, has been showing an interest in Addhiranirr. So my guess is that while this Census and Excise agent is making his appearance, Addhiranirr will be hiding in the underworks. Swims pretty good for a kitty. Gets her inspiration from the Census and Excise, I reckon. Look for trapdoors down from the canalworks level.
-一位税务局密探一直在城里转悠，f'lah（伙计）。这个叫杜维亚努斯·普拉托留斯的人，对阿迪拉尼尔很感兴趣。所以我猜，当税务局密探出现时，阿迪拉尼尔会躲在下水道里。作为一只漂亮的小猫，她很能游泳。我估计她是从普查及税务局得到的灵感。寻找从河道工作区向下的活板门。
+一位税务局密探一直在城里转悠，f'lah（伙计）。这个叫杜维亚努斯·普拉托留斯的人，对阿迪拉尼尔很感兴趣。所以我猜，当税务局密探出现时，阿迪拉尼尔会躲在底层区里。作为一只漂亮的小猫，她很能游泳。我估计她是从普查及税务局得到的灵感。寻找从河道区向下的活板门。
 
 > INFO.NAME addhiranirr 1505014022672216914
 Addhiranirr is a Khajiit, and a Thieves Guild operative. You'll find her in St. Olms Canton in Vivec. Be careful what you say, and use common sense. People in the cantons are suspicious of outsiders; you may have to win... or purchase... their confidence.
@@ -124849,7 +124849,7 @@ You already killed the Hunger? Then take the 1000 septims for this contract.
 
 > INFO.NAME sarano tomb 477917962517610214
 A Hunger has violated the Sarano Tomb. Go to this tomb, which is over the hills southeast of Fort Moonmoth between the Ashlands and Lake Amaya, and kill the Hunger.
-一个饥饿魔侵入了萨拉诺之墓。这座古墓位于灰烬之地和阿玛雅湖之间的月蛾要塞东南方山丘上，去那把饥饿魔杀了。
+一个饥饿魔侵入了萨拉诺墓穴。这座古墓位于灰烬之地和阿玛雅湖之间的月蛾要塞东南方山丘上，去那把饥饿魔杀了。
 
 > INFO.NAME first trial 1449919062308162706
 This refers to your birthsign -- to your birth on a certain day to uncertain parents, just like in the Stranger prophecy.
@@ -126357,7 +126357,7 @@ So that's settled then.
 
 > INFO.NAME nads tharen 192027211210518254
 Alright, I'll tell you just one thing. I saw Nads Tharen talking with Arvama Rathri the last day he was here. Haven't seen him in a while, though. Check over in St. Delyn canton, South Side canalworks. That's where he lives.
-好吧，我只告诉你一件事，纳德斯·莎伦在这里的最后一天，我看见他和阿瓦玛·拉瑟利在谈话，不过有段时间没见过他了。去圣·德林区南城河道工作区看看吧，那是他住的地方。 {老鼠,圣·德林行政区}
+好吧，我只告诉你一件事，纳德斯·莎伦在这里的最后一天，我看见他和阿瓦玛·拉瑟利在谈话，不过有段时间没见过他了。去圣·德林区南城河道区看看吧，那是他住的地方。 {老鼠,圣·德林行政区}
 
 > INFO.NAME nads tharen 253796133187821347
 I really couldn't say.
@@ -126461,11 +126461,11 @@ Maybe she can use the money from the ring you brought her to help end slavery.
 
 > INFO.NAME ilmeni dren 10590278472818118334
 Ilmeni Dren lives here in Vivec in the St. Delyn Canalworks South-One. Be courteous with her, %PCName. The last thing we need right now is trouble with the Duke.
-伊尔梅妮·德伦住在维威克，圣·德林区南第一间河道工作区。对她客气点，%PCName。我们现在最不该的就是和公爵闹僵。 {需要}
+伊尔梅妮·德伦住在维威克，圣·德林河道区南一号。对她客气点，%PCName。我们现在最不该的就是和公爵闹僵。 {需要}
 
 > INFO.NAME ilmeni dren 775719462700816110
 Of course. She lives in South-One here in St. Delyn.
-当然可以，她住在圣·德林区的南一区。
+当然可以，她住在圣·德林区的南一号。
 
 > INFO.NAME ilmeni dren 3039924276601419113
 I've heard the name. Try the St. Delyn canton.
@@ -127513,7 +127513,7 @@ Her shop is right over there.
 
 > INFO.NAME rolasa oren 24030162251953827926
 She has a small stall in the Upper Waistworks along with a few other merchants.
-她和其他几个商人在上层工作区有个小摊位。
+她和其他几个商人在上层区有个小摊位。
 
 > INFO.NAME rolasa oren 11257410115698128
 Try the Foreign Quarter.
@@ -127653,7 +127653,7 @@ No? Well, perhaps one day I'll get the courage to speak with her myself.
 
 > INFO.NAME love letter 26713184502154919613
 You will? Wonderful. If you'll just tell her how I feel, tell her how happy I'd make her, I'm sure she'd be interested. You'll probably find her in the Waistworks. That's where I've watched...seen her at times.
-你会吗？太好了。如果你能告诉她我的感受，告诉她我能让她多么幸福，我相信她会感兴趣的。你也许能在中层工作区找到她。我曾在那里…见过她几次。
+你会吗？太好了。如果你能告诉她我的感受，告诉她我能让她多么幸福，我相信她会感兴趣的。你也许能在中层区找到她。我曾在那里…见过她几次。
 
 > INFO.NAME love letter 1050611042202885739
 You found that? Oh, dear. I really meant to throw that away. It's all true, though. I have loved her since the moment I first set eyes on her. I just haven't had the courage to speak to her yet. Perhaps you'll speak to her for me? Plead my case? I'd be very grateful.
@@ -131365,7 +131365,7 @@ What is the latest from Nchurdamz? Have you investigated it yet?
 
 > INFO.NAME greeting 5 39921882484809733
 Did you find time in your schedule to visit the Sarano tomb yet? Give me the status.
-你抽出时间去萨拉诺之墓了吗？告诉我情况。
+你抽出时间去萨拉诺墓穴了吗？告诉我情况。
 
 > INFO.NAME greeting 5 591790924681500
 Tell me what is happening with that Verethi gang. I'll assume you've taken care of it?
@@ -132913,7 +132913,7 @@ You must take time to reflect upon your shortcomings and attempt to amend them b
 
 > INFO.NAME greeting 5 73952271467114264
 Bring me five units of rat meat for cure poison potions. The best place to hunt rats is in the underworks of any of Vivec's cantons. Enter the underworks through trapdoors in the canalworks, or enter through the exterior outflow drains underwater along the sides of each canton -- if you don't mind a swim. And be careful. Sometimes bad things -- and bad people -- hide in the underworks. So don't go poking into anything you can't handle.
-给我带五份老鼠肉，用于做解毒药水。猎杀老鼠的最佳地点是维威克城任何一个行政区的下水道。从河道工作区的活板门进入下水道，或者从每个行政区两侧水下的外排水沟进入 -- 如果你不介意游泳的话。一定要小心。有时下水道里会藏有一些歹徒恶人或者别的什么牛鬼蛇神。所以，不要去窥探任何你无法掌控的东西。 {这些药水}
+给我带五份老鼠肉，用于做解毒药水。猎杀老鼠的最佳地点是维威克城任何一个行政区的底层区。从河道区的活板门进入底层区，或者从每个行政区两侧水下的外排水沟进入——如果你不介意游泳的话。一定要小心。有时底层区里会藏有一些歹徒恶人或者别的什么牛鬼蛇神。所以，不要去窥探任何你无法掌控的东西。 {这些药水}
 
 > INFO.NAME greeting 5 1156176542057632635
 Have you brought me five units of corkbulb root for cure common disease and restore health potions? Or have you come to report your failure?
@@ -133097,7 +133097,7 @@ Bring me five units of corkbulb for cure common disease and restore health potio
 
 > INFO.NAME greeting 5 1460882643163512764
 Bring me five units of rat meat for cure poison potions. The best place to hunt rats is in the underworks of any of Vivec's cantons. Enter the underworks through trapdoors in the canalworks, or enter through the exterior outflow drains underwater along the sides of each canton -- if you don't mind a swim. And be careful. Sometimes bad things -- and bad people -- hide in the underworks. So don't go poking into anything you can't handle.
-给我带五份老鼠肉，用于做解毒药水。猎杀老鼠的最佳地点是维威克城任何一个行政区的下水道。从河道工作区的活板门进入下水道，或者从每个行政区两侧水下的外排水沟进入 -- 如果你不介意游泳的话。一定要小心。有时下水道里会藏有一些歹徒恶人或者别的什么牛鬼蛇神。所以，不要去窥探任何你无法掌控的东西。 {这些药水}
+给我带五份老鼠肉，用于做解毒药水。猎杀老鼠的最佳地点是维威克城任何一个行政区的底层区。从河道区的活板门进入底层区，或者从每个行政区两侧水下的外排水沟进入——如果你不介意游泳的话。一定要小心。有时底层区里会藏有一些歹徒恶人或者别的什么牛鬼蛇神。所以，不要去窥探任何你无法掌控的东西。 {这些药水}
 
 > INFO.NAME greeting 5 3103019949187356597
 Bring me one unit of netch leather for cure paralyzation potions. The Ascadian Isles is a good place to hunt. I suggest you start by looking around near Balur Salvu's house. He says he sees wild bull netch all the time. Now, stick with bull netch to start with. The betty netch are rather more dangerous.
@@ -134753,7 +134753,7 @@ Did you convince Rothis Nethan to appear for the duel?
 
 > INFO.NAME greeting 5 27145262732100515713
 Do you have the treasures of the Redas Tomb?
-你拿到瑞达斯之墓的宝藏了吗？
+你拿到瑞达斯墓穴的宝藏了吗？
 
 > INFO.NAME greeting 5 173327356545919724
 Have you convinced Meril Hlaano to stop his slanders against our House?
@@ -144945,11 +144945,11 @@ The sewers. Down under. How do you think they keep it so clean and fresh up here
 
 > INFO.NAME underworks 301437028296278541
 The underworks are the canton sewers. Go out and look over the side. You can see the outflow drains under water. Very nice place. Yes, indeed.
-下水道是州的下水道。出去看看那边，你可以看到水下的排水沟，真是个好地方，没错。
+底层区是行政区的下水道。出去看看那边，你可以看到水下的排水沟，真是个好地方，没错。
 
 > INFO.NAME underworks 412623842663210406
 The one spot where the taxmen won't bother you. Down in the sewers. Under the canton. Taxmen don't fancy swimming in our stinks.
-税务员不会来打扰你的地方，在下水道里，在下水道里，税务员可不想在我们的臭水沟里游泳。
+有个税务员不会来打扰你的地方，下到下水道里，在行政区下方，税务员可不想在我们的臭水沟里游泳。
 
 > INFO.NAME ihinipalit 3031530767408715845
 I have heard that you are a False Incarnate. I am not yet convinced, but I no longer trust you.
@@ -145017,7 +145017,7 @@ We accept all citizens of good character and earnest faith. We ask only a one-ti
 
 > INFO.NAME lay member 25806171273028127740
 We accept all citizens of good character and earnest faith. We ask only a one-time pledge of 50 drakes to aid us in our good works. To become a lay member of the Imperial cult, speak with Ygfa at Fort Pelagiad, Syloria Siruliulus at Fort Buckmoth, Somutis Vunnis at Fort Moonmoth, Ruccia Conician in the Grand Council Chambers in Ebonheart, or Lalatia Varian in the Imperial Chapels at Ebonheart.
-我们接受所有品行端正、信仰虔诚的公民。我们只要求一次性缴纳50龙币，以帮助我们开展善举。要成为帝国教团的业余成员，请与佩拉吉亚德要塞的耶格法、雄蛾要塞的索罗利雅·西鲁留鲁斯、月蛾要塞的苏穆蒂斯·文尼斯、帝国教堂黑檀心大议会厅的鲁西亚·帝国教团或拉拉蒂亚·瓦里安交谈。 {工作,帝国人}
+我们接受所有品行端正、信仰虔诚的公民。我们只要求一次性缴纳50龙币，以帮助我们开展善举。要成为帝国教团的业余成员，请与佩拉吉亚德要塞的耶格法、雄蛾要塞的叙洛莉雅·西鲁里乌卢斯、月蛾要塞的苏穆蒂斯·文尼斯、帝国教堂黑檀心大议会厅的鲁西亚·帝国教团或拉拉蒂亚·瓦里安交谈。 {工作,帝国人}
 
 > INFO.NAME chrysamere 2116816273201314971
 You've been expelled. Join the Imperial Legion again. Then you can return Chrysamere with honor.
@@ -145933,7 +145933,7 @@ I was too far from town when the storm hit. I took shelter in here until the sto
 
 > INFO.NAME ash storm 283025653343723465
 %Name was running fast as %Name's legs could go, but %Name saw someone near the Rothan Tomb. %Name hopes he made it okay.
-%Name跑得飞快，但%Name在罗森之墓附近看到了一个人。%Name希望他没事。
+%Name跑得飞快，但%Name在罗森墓穴附近看到了一个人。%Name希望他没事。
 
 > INFO.NAME ash storm 291814073432323402
 It was a bad one. I'm glad I wasn't caught in it.
@@ -145945,7 +145945,7 @@ The ash storm caught alot of people by surprise. When a storm hits like that, yo
 
 > INFO.NAME ash storm 262387803265125370
 Just before the storm hit, I saw someone leading some pack guar up to the Rothan Tomb. I hope they made it okay.
-就在风暴来临之前，我看到有人带着驮货瓜尔去了罗森之墓。希望他们没事。
+就在风暴来临之前，我看到有人带着驮货瓜尔去了罗森墓穴。希望他们没事。
 
 > INFO.NAME ash storm 8082263061836210556
 Maar Gan got the worst of it.
@@ -149149,7 +149149,7 @@ What can I do for you, %PCRank?
 
 > INFO.NAME business 281421122316734830
 I have no more business for you. Why not speak with Crassius Curio or Edryno Arethi? They both live in the Hlaalu Canton in Vivec. Curio Manor is in the Plaza, and Edryno lives in the Waistworks.
-我没你的事了。为什么不找克拉西乌斯·库里奥或埃德里诺·阿雷提？他们都住在维威克的哈拉鲁行政区。库里奥庄园在广场，埃德里诺住在中层工作区。
+我没你的事了。为什么不找克拉西乌斯·库里奥或埃德里诺·阿雷提？他们都住在维威克的哈拉鲁行政区。库里奥庄园在广场，埃德里诺住在中层区。
 
 > INFO.NAME business 2188414712131681506
 Business as usual, except for the ebony trade.
@@ -151965,11 +151965,11 @@ I am in the service of the Morag Tong, a modest Thrall in rank, and by vocation 
 
 > INFO.NAME huleeya 322652278294922767
 Huleeya? The Argonian Morag Tong? Not many Argonians in the Morag Tong. I'd look for him at the Black Shalk Cornerclub in the Lower Waistworks of the Foreign Quarter. Or at Jobasha's Books, on the same level of the Lower Waistworks as the Black Shalk Cornerclub.
-胡利亚？莫拉格堂的阿尔贡？莫拉格堂的阿尔贡人不多。我会去外邦区下层工作区的黑砂壳虫街角酒吧找他。或者去乔巴沙的书店，和黑砂壳虫街角酒吧在下层工作区的同一层。 {沙尔}
+胡利亚？莫拉格堂的阿尔贡？莫拉格堂的阿尔贡人不多。我会去外邦区下层区的黑砂壳虫街角酒吧找他。或者去乔巴沙的书店，和黑砂壳虫街角酒吧在下层区的同一层。 {沙尔}
 
 > INFO.NAME huleeya 3136693961028632509
 Huleeya is an Argonian and a Morag Tong assassin. You'll find him in Vivec, at the Black Shalk Cornerclub in the Lower Waistworks of the Foreign Quarter. In addition to his other skills, Huleeya is also known around Vivec City as a student of history and a lover of books and old things.
-胡利亚是个阿尔贡，莫拉格堂的刺客。您可以在维威克找到他，地点在外邦区下层工作区的黑砂壳虫街角酒吧。除了其他技能之外，胡利亚还是维威克城附近出了名的历史学者，也是书籍和旧物的爱好者。 {沙尔}
+胡利亚是个阿尔贡，莫拉格堂的刺客。您可以在维威克找到他，地点在外邦区下层区的黑砂壳虫街角酒吧。除了其他技能之外，胡利亚还是维威克城附近出了名的历史学者，也是书籍和旧物的爱好者。 {沙尔}
 
 > INFO.NAME huleeya 11702396139577409
 Huleeya was a good friend of Jobasha. And Jobasha hears you are the one who killed Huleeya.
@@ -153917,11 +153917,11 @@ Dragons? Oh, they're everywhere! You must fly very high to see most of them, tho
 
 > INFO.NAME cantons 2136174887007007
 Vivec's cantons are buildings with many levels. The upperworks are the rooftops with shops and rich folks' manors. The waistworks are the next tier down, usually shops and guilds, with some apartments. Canalside is the lowest level, where poor folks live. The underworks are sewers below canalside; only grubbers and cleaners go down there. The corridors are like mazes, so watch how you go. The Temple built all the cantons, and leases them to shops, guilds, and residents.
-维威克城的行政区是多层建筑。上层是屋顶，有商店和富人的庄园。下一层是中层工作区，通常是商店和公会，也有一些公寓。最底层是运河边，是穷人居住的地方。运河边下面是下水道，只有拾荒者和清洁工才会下去。走廊就像迷宫一样，所以小心不要迷路。神殿建造了所有的行政区，并将其出租给商店、公会和居民。
+维威克城的行政区是多层建筑。上层是屋顶，有商店和富人的庄园。下一层是中层区，通常是商店和公会，也有一些公寓。最底层是运河边，是穷人居住的地方。运河边下面的底层区是下水道，只有拾荒者和清洁工才会下去。走廊就像迷宫一样，所以小心不要迷路。神殿建造了所有的行政区，并将其出租给商店、公会和居民。
 
 > INFO.NAME cantons 9740210791387731892
 Vivec's cantons are buildings with many levels. The upperworks are the rooftops with shops and rich folks' manors. The waistworks are the next tier down, usually shops and guilds, with some apartments. Canalside is the lowest level, where poor folks live. The underworks are sewers below canalside; only grubbers and cleaners go down there. The corridors are like mazes, so watch how you go. The Temple built all the cantons, and leases them to shops, guilds, and residents.
-维威克城的行政区是多层建筑。上层是屋顶，有商店和富人的庄园。下一层是中层工作区，通常是商店和公会，也有一些公寓。最底层是运河边，是穷人居住的地方。运河边下面是下水道，只有拾荒者和清洁工才会下去。走廊就像迷宫一样，所以小心不要迷路。神殿建造了所有的行政区，并将其出租给商店、公会和居民。
+维威克城的行政区是多层建筑。上层是屋顶，有商店和富人的庄园。下一层是中层区，通常是商店和公会，也有一些公寓。最底层是运河边，是穷人居住的地方。运河边下面的底层区是下水道，只有拾荒者和清洁工才会下去。走廊就像迷宫一样，所以小心不要迷路。神殿建造了所有的行政区，并将其出租给商店、公会和居民。
 
 > INFO.NAME kill me 2791431008204537983
 Don't worry about me, %PCName. Just report back to the Fighter's Guild. If I must, I'll *swim* back to our home. I have friends in the Twin Lamps who can help.
@@ -156541,7 +156541,7 @@ I don't have any more orders for you, %PCName. Try asking the Guild Stewards at 
 
 > INFO.NAME orders 2659576601744128536
 There is a dangerous creature loose in the Sarano Tomb.
-萨拉诺之墓里有个危险的生物出没。
+萨拉诺墓穴里有个危险的生物出没。
 
 > INFO.NAME orders 302195394851030199
 A distinguished client has placed a contract on the Verethi Gang.
@@ -157093,7 +157093,7 @@ Rothis Nethan failed to appear for a duel of honor with Brethas Deras, a Hlaalu 
 
 > INFO.NAME duties 564053211407626175
 The last of the Redas family line has bequeathed the family's belongings to House Redoran. I need someone to recover the family treasures from the Redas Tomb.
-瑞达斯家族的最后一脉将家族财产遗赠给了瑞多然家族。我需要有人从瑞达斯之墓中找回家族宝藏。
+瑞达斯家族的最后一脉将家族财产遗赠给了瑞多然家族。我需要有人从瑞达斯墓穴中找回家族宝藏。
 
 > INFO.NAME duties 299811150295725409
 The son of a Hlaalu noble has slandered House Redoran. Find Meril Hlaano in Balmora and demand that he withdraw the slander.
@@ -175213,7 +175213,7 @@ So you were able to convince Rothis Nethan at last. I hope he will appear for th
 
 > INFO.NAME duel 10237313881527310050
 I believe Rothis Nethan is hiding out at the Flowers of Gold Cornerclub in the Redoran Waistworks here in Vivec. Go talk to him, and make him realize how this has cost the honor of House Redoran.
-我相信罗西斯·内森正藏身于维威克中层工作区的金花街角酒吧。去找他谈谈，让他意识到，瑞多然家族的荣誉是如何受损的。
+我相信罗西斯·内森正藏身于维威克中层区的金花街角酒吧。去找他谈谈，让他意识到，瑞多然家族的荣誉是如何受损的。
 
 > INFO.NAME duel 106011049153032576
 I won. But at least Rothis Nethan showed up and proved he had some courage.

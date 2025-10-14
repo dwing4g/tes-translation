@@ -3105,7 +3105,7 @@ Riekling Raider
 
 > CREA.FNAM BM_frost_boar
 Tusked Bristleback
-长牙钢背兽
+长牙野猪
 
 > CREA.FNAM BM_horker
 Horker
@@ -5768,7 +5768,7 @@ Antoinette
 <BR>
 雅克把藏匿物放在菲耶尔冰洞里，并通知了卢锡安。我拿到了我的报酬，我要回夏暮岛了。我会在那里见你。
 <BR>
-还有一件事 -- 帮我一个忙，忘记你对钢背兽肉的痴迷。是的，它可能尝起来像猪肉，但不值得。那些东西是致命的，它们令人毛骨悚然的小骑手比它们看起来更恶毒。
+还有一件事 -- 帮我一个忙，忘记你对野猪肉的痴迷。是的，它可能尝起来像猪肉，但不值得。那些东西是致命的，它们令人毛骨悚然的小骑手比它们看起来更恶毒。
 <BR>
 安托瓦内特
 
@@ -6626,7 +6626,7 @@ Addhiranirr Informant
 
 > INFO.NAME a1_6_addhiranirrinformant 30643123741319511643
 I'm told that Addhiranirr is hiding because a Census and Excise agent is in the area. She's probably down in the underworks.
-我听说阿迪拉尼尔躲起来了，因为有税务局密探在这附近。她可能躲在下水道里。
+我听说阿迪拉尼尔躲起来了，因为有税务局密探在这附近。她可能躲在底层区里。
 
 > INFO.NAME a1_6_addhiranirrinformant 5594065291889243
 Addhiranirr says that some smugglers are now working for the Sixth House, but Addhiranirr couldn't find out what they are smuggling. Addhiranirr thought it was strange that smugglers who usually brag about their smuggling are suddenly being very quiet about what they smuggle for the Sixth House. I wonder what is being smuggled, and why it is such a big secret. I think this is the sort of thing Caius Cosades is looking for.
@@ -6634,7 +6634,7 @@ Addhiranirr says that some smugglers are now working for the Sixth House, but Ad
 
 > INFO.NAME a1_6_addhiranirrinformant 6134106522752623066
 When I told the Census and Excise agent to look for Addhiranirr in the underworks, he was pleased. He didn't seem in a hurry to do anything, though. I wonder how Addhiranirr will feel about what I've done.
-当我告诉税务局密探去下水道找阿迪拉尼尔时，他很高兴。不过他似乎并不急于行动。不知道阿迪拉尼尔对我的所作所为会作何感想。
+当我告诉税务局密探去底层区找阿迪拉尼尔时，他很高兴。不过他似乎并不急于行动。不知道阿迪拉尼尔对我的所作所为会作何感想。
 
 > INFO.NAME a1_6_addhiranirrinformant 16668297552055419639
 Addhiranirr was angry that I'd told the Census and Excise agent where to find her. Now it's going to be very hard to persuade her to answer my questions on the Nerevarine cult and the Sixth House cult.
@@ -9598,11 +9598,11 @@ Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
-战士公会：萨拉诺之墓中的饥饿魔
+战士公会：萨拉诺墓穴中的饥饿魔
 
 > INFO.NAME fg_hungerloose 31539249493084511613
 Eydis Fire-Eye told me a Hunger is loose in the Sarano Tomb which is over the hills southeast of the Fort Moonmoth between the Ashlands and Lake Amaya. I am ordered to travel to the tomb and kill the Hunger.
-艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
+艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺墓穴里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。
 
 > INFO.NAME fg_hungerloose 1625028503916121756
 Eydis Fire-Eye thanked me for slaying the Hunger and paid me 1000 gold.
@@ -9682,7 +9682,7 @@ House Hlaalu: Bank Courier
 
 > INFO.NAME hh_bankcourier 3950135161216932088
 Edryno Arethi wants me to deliver sealed orders to Treasurer Baren Alen in the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层工作区的上层。 {指示}
+埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的上层。 {指示}
 
 > INFO.NAME hh_bankcourier 38030277295099293
 Edryno Arethi thanked me for delivering the sealed orders.
@@ -10350,7 +10350,7 @@ House Hlaalu: Erroneous Documents
 
 > INFO.NAME hh_replacedocs 48978964231896166
 Odral Helvi wants me to replace a scroll in the Hlaalu Records in Vivec. The Records are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side. I should put the scroll in the chest of Ascadian land deeds.
-奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层工作区北侧的上层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
+奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的上层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
 
 > INFO.NAME hh_replacedocs 754722062219716561
 I told Odral Helvi that I replaced the documents as he asked.
@@ -11154,7 +11154,7 @@ Morag Tong: Writ for Galasa Uvayn
 
 > INFO.NAME mt_writgalasa 15217306901428922005
 I have been given a Writ for the honorable execution of Galasa Uvayn. She may be found at the Hlaalu Treasury in the Waistworks of the Hlaalu Compound in Vivec.
-我已收到光荣处决加拉萨·乌万的令状。她可以在维威克城哈拉鲁驻地中层工作区的哈拉鲁财政部找到。
+我已收到光荣处决加拉萨·乌万的令状。她可以在维威克城哈拉鲁驻地中层区的哈拉鲁财政部找到。
 
 > INFO.NAME mt_writgalasa 2064522874228362512
 I reported the honorable execution of Galasa Uvayn.
@@ -11182,7 +11182,7 @@ Mages Guild: A Contact in the Dark Brotherhood
 
 > INFO.NAME mt_db_contact 30979221302504114130
 Grandmaster Eno Hlaalu believes that Miun-Gei might know how to contact the Dark Brotherhood. He is an Enchanter in the Lower Waistworks of the Foreign Quarter. When I get a name from Miun-Gei, I should report back to the Grandmaster.
-伊诺·哈拉鲁宗师认为缪恩-格可能知道如何联系黑暗兄弟会。他是外邦区下层工作区的一名附魔师。当我从缪恩-格那里得到一个名字时，我应该向宗师报告。
+伊诺·哈拉鲁宗师认为缪恩-格可能知道如何联系黑暗兄弟会。他是外邦区下层区的一名附魔师。当我从缪恩-格那里得到一个名字时，我应该向宗师报告。
 
 > INFO.NAME mt_db_contact 115423898225259879
 Eno Hlaalu thanked me for giving him the name of a contact in the Dark Brotherhood.
@@ -11882,11 +11882,11 @@ Eydis Fire-Eye gave me 500 gold for the Duke's contract.
 
 > INFO.NAME hr_redastomb 45864638426932607
 House Redoran: Redas Tomb
-瑞多然家族：瑞达斯之墓
+瑞多然家族：瑞达斯墓穴
 
 > INFO.NAME hr_redastomb 192431971891145202
 Faral Retheran asked me to bring her the Redas War Axe, the Redas Chalice, and the Redas Robe of Deeds from the Redas Tomb. It is south of Molag Mar, over the mountains. I should head west along the mountains until I can cross to the south, then head back east until I see the tomb, which is near an ashlander camp.
-法拉·雷瑟兰让我把瑞达斯战斧、瑞达斯圣杯和瑞达斯契约长袍从瑞达斯之墓中带给她。它在莫拉格-玛尔的南边，翻过山就到了。我应该沿着山脉向西走，直到能越过山脉到达南边，然后再向东走，直到看到坟墓，它就在灰烬之民的营地附近。
+法拉·雷瑟兰让我把瑞达斯战斧、瑞达斯圣杯和瑞达斯契约长袍从瑞达斯墓穴中带给她。它在莫拉格-玛尔的南边，翻过山就到了。我应该沿着山脉向西走，直到能越过山脉到达南边，然后再向东走，直到看到坟墓，它就在灰烬之民的营地附近。
 
 > INFO.NAME hr_redastomb 306792339124688432
 I brought the Redas treasures to Faral Retheran.
@@ -12174,7 +12174,7 @@ Morag Tong: Writ for Guril Retheran
 
 > INFO.NAME mt_writguril 261904701147301907
 I have been given a Writ for the honorable execution of Guril Retheran. He may be found at the Flowers of Gold Cornerclub in the Redoran Waistworks.
-我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层工作区的金花街角酒吧找到。
+我收到了光荣处决古利尔·雷瑟兰的令状。他可以在瑞多然中层区的金花街角酒吧找到。
 
 > INFO.NAME mt_writguril 22197144573075531930
 I reported the honorable execution of Guril Retheran.
@@ -12206,7 +12206,7 @@ Mages Guild: Writ for Mathyn Bemis
 
 > INFO.NAME mt_writbemis 2097750793329282
 I have been given a Writ for the honorable execution of Mathyn Bemis, who may be found in the Hlaalu Ancestral Vaults which are accessible from the Canalworks of the Hlaalu Canton.
-我收到了光荣处决令状，要求处决马蒂恩·比米斯，他可能在哈拉鲁先祖墓穴里，从哈拉鲁金库的河道工作区可以进入。
+我收到了光荣处决令状，要求处决马蒂恩·比米斯，他可能在哈拉鲁先祖墓穴里，从哈拉鲁金库的河道区可以进入。
 
 > INFO.NAME mt_writbemis 1495113924294982079
 I reported the honorable execution of Mathyn Bemis.
@@ -14182,11 +14182,11 @@ Mysterious Killings in Vivec
 
 > INFO.NAME town_vivec 3086445582648927038
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Belt of the Armor of God.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了神甲腰带。
+我向埃拉姆·安达斯报告，他说我在外邦区的底层区杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了神甲腰带。
 
 > INFO.NAME town_vivec 1711925436295071793
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Indoril helm and cuirass. I am not supposed to wear it in Vivec City, to avoid being mistaken for an Ordinator.
-我向埃拉姆·安达斯报告，他说我在外邦区下水道杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。
+我向埃拉姆·安达斯报告，他说我在外邦区的底层区杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。
 
 > INFO.NAME da_mephala 9104096839921513
 Mephala's Quest
@@ -15378,7 +15378,7 @@ Imperial Cult: Gathering Rat Meat
 
 > INFO.NAME ic6_rat 17608309432745315343
 Synnolian Tunifus needs five units of rat meat for cure poison potions. He says the best place to hunt rats is in the underworks of any of Vivec's cantons. He says to enter the underworks through trapdoors in the canalworks or through the outflow drains, which are underwater along the sides of each canton. He also warned me to be careful, because bad things-- and bad people -- hide in the underworks.
-辛诺里安·图尼夫斯需要五个单位的老鼠肉来制作解毒药剂。他说猎杀老鼠的最佳地点是维威克城任何一个行政区的下水道。他说要从河道工作区的活板门或出水口进入下水道，出水口在每个区外围两侧的水下。他还警告我一定要小心，因为地下水道里藏着坏东西 -- 和恶人。 {药水,这些药水}
+辛诺里安·图尼夫斯需要五个单位的老鼠肉来制作解毒药剂。他说猎杀老鼠的最佳地点是维威克城任何一个行政区的底层区。他说要从河道区的活板门或出水口进入底层区，出水口在每个区外围两侧的水下。他还警告我一定要小心，因为底层区里藏着坏东西——和恶人。 {药水,这些药水}
 
 > INFO.NAME ic6_rat 3541109972223827727
 I told Synnolian Tunifus I would not be able to bring him the five units of rat meat he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -15438,7 +15438,7 @@ I have heard rumors in Vivec of a merchant with a rat infestation problem. Appar
 
 > INFO.NAME eb_pest 197995275183132618
 I have killed the nest of rats in the Underworks, and returned to Audenian Valius. He was grateful for my help, and rewarded me with a valuable soul gem.
-我杀死了下水道里的一窝老鼠，回到了奥邓尼安·瓦留斯身边。他对我的帮助非常感激，并奖励了我一颗价值连城的灵魂石。 {报酬}
+我杀死了底层区里的一窝老鼠，回到了奥邓尼安·瓦留斯身边。他对我的帮助非常感激，并奖励了我一颗价值连城的灵魂石。 {报酬}
 
 > INFO.NAME mg_bowl 257131082734417152
 Mages Guild: Ceramic Bowl
@@ -17490,7 +17490,7 @@ It is an ancient prophecy, one that I hope is but a myth. It tells of a time whe
 
 > INFO.NAME tusked bristleback 12313639122189945
 The Tusked Bristleback is a mystery to us. It is a natural being, created by the All-Maker, but it is a cruel and vicious animal. The Rieklings use them as mounts, and have bred the creatures to be even more warlike and dangerous.
-长牙钢背兽对我们来说是个谜。它是造物主创造的自然生物，但却是一种残忍凶狠的动物。蓝客灵把它们当作坐骑，并把这种生物培育得更加好战和危险。
+长牙野猪对我们来说是个谜。它是造物主创造的自然生物，但却是一种残忍凶狠的动物。蓝客灵把它们当作坐骑，并把这种生物培育得更加好战和危险。
 
 > INFO.NAME tusked bristleback 207996137330819725
 It's a large boar-like creature. I have heard they can be fairly vicious. Some say that the Rieklings of this island have tamed them and use them as mounts.
@@ -17498,7 +17498,7 @@ It's a large boar-like creature. I have heard they can be fairly vicious. Some s
 
 > INFO.NAME tusked bristleback 663279541835814910
 The Tusked Bristleback is a type of boar native to Solstheim. There are lots of them around, and they're sometimes hunted for their meat.  The Bristlebacks can be vicious, too. That's why the Rieklings use them as mounts.
-长牙钢背兽是索瑟泰姆土生土长的一种野猪。它们在附近有很多，有时会被猎杀吃肉。獠牙野猪也很凶残。所以蓝客灵把它们当作坐骑。
+长牙野猪是索瑟泰姆土生土长的一种野猪。它们在附近有很多，有时会被猎杀吃肉。獠牙野猪也很凶残。所以蓝客灵把它们当作坐骑。
 
 > INFO.NAME progress of truth 674262862325718452
 This book lists the disputes of the Dissident priests with Tribunal Temple doctrines. The Temple has outlawed the sale or possession of the book, so it will be hard to find. We have a copy here, but I fear I'm being watched by Ordinators here. A safer plan would be to search local booksellers. Some booksellers ignore Temple bans on outlawed books for profits or for principles.
@@ -27540,7 +27540,7 @@ Heard of them, but I've never seen one. I don't venture far to the north, and th
 
 > INFO.NAME rieklings 18382236423151121579
 They're vicious little things. If you see one, you're in for a fight. If you see one riding a Tusked Bristleback, you're in for a REAL fight.
-它们是邪恶的小东西。如果你看到一只，你就等着挨打吧。如果你看到它们骑着长牙钢背兽，那你就真的要大打出手了。
+它们是邪恶的小东西。如果你看到一只，你就等着挨打吧。如果你看到它们骑着长牙野猪，那你就真的要大打出手了。
 
 > INFO.NAME my story 2185346851489019511
 I have begun to tell you my story, and how I was cast out.
