@@ -1913,11 +1913,11 @@ And shall we tolerate the hidden hosts of the undead, the arrogant princes of ne
 <DIV ALIGN="LEFT"><BR><BR>
 ……它们既不进入这个世界，亦不离开这个世界，而是在世界之间徘徊，被血缘与忠诚维系在壁龛与坟墓之间。若它们不请自来，是出于对亲属的爱或信仰的义务，这并非不洁。这不过是先祖的回应，不眠之人的苏醒，唤来那些通过壁炉和房屋来保卫氏族的人。<BR>
 <BR>
-但若是巫师将它们唤来，那这般召唤便是亵渎神明，为部族和神殿所憎，乃大罪，即使多年的焚烧也无法洗清的过错。你们中不可有巫师，因为他来是要刨你们祖宗的骸骨，偷你们坟墓的尘土。他试图以蛮力束缚你的权利，将温暖的灵魂从他们的世界中拖出来，并像奴隶和野兽一样束缚为其所用。<BR>
+但若是术士将它们唤来，那这般召唤便是亵渎神明，为部族和神殿所憎，乃大罪，即使多年的焚烧也无法洗清的过错。你们中不可有术士，因为他来是要刨你们祖宗的骸骨，偷你们坟墓的尘土。他试图以蛮力束缚你的权利，将温暖的灵魂从他们的世界中拖出来，并像奴隶和野兽一样束缚为其所用。<BR>
 <BR>
 谁能知晓死者的耻辱，死灵法师的奴仆无休无止的哭泣？祖先对壁龛和亲属的爱已够残忍。但幽灵或护卫，骸骨行者亦或骸骨领主，被亵渎的仪式召唤，被强行束缚在尸体挖掘者的意志之下，这般灵魂怎可安息？它怎可回到它的血脉与氏族之中？<BR>
 <BR>
-只有正义的丹莫，血脉相连，骨肉相连，誓言服务于神殿，才能召唤丹莫死者的灵魂。那些入侵我们海岸的异族巫师，能否允许他们抢劫我们的坟墓，把我们的亲族捆绑成魔法奴隶，偷走我们死者的生命以及我们生者的土地？不，不行，绝不，要我说几遍都行。这样的死灵法师必死，他们亵渎的魔法必同他们一起消亡。<BR>
+只有正义的丹莫，血脉相连，骨肉相连，誓言服务于神殿，才能召唤丹莫死者的灵魂。那些入侵我们海岸的异族术士，能否允许他们抢劫我们的坟墓，把我们的亲族捆绑成魔法奴隶，偷走我们死者的生命以及我们生者的土地？不，不行，绝不，要我说几遍都行。这样的死灵法师必死，他们亵渎的魔法必同他们一起消亡。<BR>
 <BR>
 我们是否应该容忍亡灵隐藏的宿主，死灵法师傲慢的大君，从西方巢穴中爬出的古老吸血鬼恶魔，在亵渎的迪德拉祭坛，被遗弃的丹莫堡垒，以及被憎恶的、锻莫的腐败地下迷宫中寻求庇护？千百年来，豪族与神殿，一直保卫着我们的土地，不受吸血鬼的污染，如今这些亡灵领主和他们的奴仆又回来了。这些吸血鬼必死，他们腐败的血畜也必死，他们的血污必被烈火和木桩永远抹去。<BR>
 """
@@ -6794,7 +6794,7 @@ House Hlaalu: Kill Reynel Uvirith
 
 > INFO.NAME hh_destroyteluvirith 960532680109922394
 Crassius Curio asked me to kill Reynel Uvirith, the Telvanni Sorcerer who lives in the Telvanni Stronghold of Tel Uvirith which is in the ashlands due west of Tel Fyr.
-克拉西乌斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼巫师，住在泰尔-菲尔正西灰烬之地的泰瓦尼堡垒泰尔-乌维瑞斯里。
+克拉西乌斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼术士，住在泰尔-菲尔正西灰烬之地的泰瓦尼堡垒泰尔-乌维瑞斯里。
 
 > INFO.NAME hh_destroyteluvirith 141809463285295777
 Crassius Curio thanked me for killing Reynel Uvirith.
@@ -10322,7 +10322,7 @@ Mages Guild: The Staff of Magnus
 
 > INFO.NAME mg_staffmagnus 1351314864188613354
 Ajira told me that the Staff of Magnus is in Assu, a sorcerer's cave on the slopes of Mount Kand northwest of Molag Mar.
-阿吉拉告诉我，玛格努斯之杖在阿苏，一个位于莫拉格-玛尔西北坎德山山坡上的巫师洞穴里。
+阿吉拉告诉我，玛格努斯之杖在阿苏，位于莫拉格-玛尔西北坎德山山坡上的术士洞穴里。
 
 > INFO.NAME mg_staffmagnus 297116913325805726
 Ajira congratulated me for finding the Staff of Magnus.
@@ -10422,7 +10422,7 @@ The Sad Sorcerer
 
 > INFO.NAME ms_hatandskirt 19484231022911617439
 I found this poor sorcerer imprisoned by a swarm of scamps. They fed him his companions in a broth. And stripped him and forced him to wear a skirt and hat. He looks very melancholy. He asked me to get him a potion of levitation so he could escape from his high perch. He offered to reward me with the attractive skirt and remarkable hat they made him wear.
-我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点浮空药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
+我发现这个可怜的术士被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点浮空药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
 
 > INFO.NAME ms_hatandskirt 32130211451349113829
 I gave the poor sorcerer a potion of levitation so he could escape from his high perch, and accepted his skirt and hat as reward.
@@ -10562,7 +10562,7 @@ Betrayal at Brodir Grove
 
 > INFO.NAME bm_brodirgrove 1920210590298791438
 I met Ulfgar the Unending and he told me his sad tale.  He and his four companions came to Solstheim on some sort of quest.  One of the five, a sorcerer named Grimkell, betrayed Ulfgar and the others.  Ulfgar killed Grimkell, but the other three companions were turned to stone.  They are the standing stones of Brodir Grove.
-我遇到了无尽者乌夫加尔，他向我讲述了他的悲惨故事。他和他的四个同伴来到索瑟泰姆进行某种探险。五人中有一个名叫格里姆凯尔的巫师背叛了乌夫加尔和其他人。乌夫加尔杀死了格里姆凯尔，但其他三个同伴却变成了石头。他们就是泊地尔石阵的立石。 {树林}
+我遇到了无尽者乌夫加尔，他向我讲述了他的悲惨故事。他和他的四个同伴来到索瑟泰姆进行某种探险。五人中有一个名叫格里姆凯尔的术士背叛了乌夫加尔和其他人。乌夫加尔杀死了格里姆凯尔，但其他三个同伴却变成了石头。他们就是泊地尔石阵的立石。 {树林}
 
 > INFO.NAME bm_brodirgrove 2560469252726718385
 For five hundred years Ulfgar has been unsuccessfully searching for the entrance to Sovngarde, the mythical fortress where valiant Nords may live forever.  He feels he has failed in his quest, and will be forever in my debt if I can find the entrance myself.
@@ -11074,15 +11074,15 @@ Temple: Compassion
 
 > INFO.NAME tt_compassion 31919179021757618115
 Tuls Valen wants me to reenact Vivec's compassionate healing of a foe. I must either learn the Rilm's Gift spell or use the potion he gave me to cure the Orc Bulfim gra-Shugharz of Ash-Chancre. Bulfim gra-Shugarz is in Maelkashishi. I can get there by heading east from Ald Velothi until I reach the mountains, then following the mountains south.
-图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之礼”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人巴菲姆·格拉-舒噶兹。巴菲姆·格拉-舒噶兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
+图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之赐”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
 
 > INFO.NAME tt_compassion 836014959162526210
 Tuls Valen thanked me for curing Bulfim gra-Shugharz.
-图尔斯·瓦伦感谢我治好了巴菲姆·格拉-舒噶兹。
+图尔斯·瓦伦感谢我治好了布尔菲姆·格拉-舒加兹。
 
 > INFO.NAME tt_compassion 34723248094518804
 I told Tuls Valen that Bulfim gra-Shugharz was dead.
-我告诉图尔斯·瓦伦，巴菲姆·格拉-舒噶兹已经死了。
+我告诉图尔斯·瓦伦，布尔菲姆·格拉-舒加兹已经死了。
 
 > INFO.NAME tt_rilmsshoes 31231256503050815369
 Temple: Shoes of St. Rilms
@@ -11598,7 +11598,7 @@ Imperial Cult: Ice Blade of the Monarch
 
 > INFO.NAME ic27_oracle_a 11068257052639322639
 Adusamsi Assurnarairan asked me to recover her ring from Llaren Terano, the sorcerer who captured her. She doesn't sound quite right in the head. She thinks the sorcerer may have poisoned her mind with spells. She says she can use the enchantments to escape. She asked me also to free the slaves here. Llaren Terano has their slave key.
-阿杜萨姆西·阿苏纳莱诺让我从抓走她的巫师拉伦·特兰诺那里找回她的戒指。她看起来精神不太正常。她认为巫师可能用咒语毒害了她的大脑。她说她可以用附魔之术逃走。她还让我释放这里的奴隶们。拉伦·特兰诺有奴隶们的钥匙。 {魔法疾病}
+阿杜萨姆西·阿苏纳莱诺让我从抓走她的术士拉伦·特兰诺那里找回她的戒指。她看起来精神不太正常。她认为术士可能用咒语毒害了她的大脑。她说她可以用附魔之术逃走。她还让我释放这里的奴隶们。拉伦·特兰诺有奴隶们的钥匙。 {魔法疾病}
 
 > INFO.NAME va_vampblood2 149022019173226331
 Blood for Mistress Dratha
@@ -17510,7 +17510,7 @@ I thank you again for helping me, %PCRace. You came to my aid when no one else w
 
 > INFO.NAME old man's anguish 2172169722028113362
 Dead.  So it is as I feared. Well, at least now I know the truth.  Thank you so much, %PCRace. Without my son for company, I feel I shall soon wither and pass.  But so be it.  I will soon see my wife and son again in the afterlife.  Again, my thanks.  I don't have much to offer as a reward, but I want you to have these. They are the pelts of a snow bear I killed many years ago. Brynjolfr at Thirsk can forge them into special armor for you. Thanks again, kind %PCName.
-死了。果然如我所料，至少现在我知道真相了。非常感谢你，%PCRace。没有儿子的陪伴，我觉得自己很快就会枯萎死去，不过，就这样吧。我很快就能在来世再见到我的妻子和儿子了，再次表示感谢。我没有太多的奖赏，但我想把这些给你！这是我多年前杀死的一只雪熊的熊皮，瑟斯克的布林约夫可以为你把它们锻造成特殊的盔甲。再次感谢你，好心的，%PCName。 {沙尔,凋零,报酬}
+死了。果然如我所料，至少现在我知道真相了。非常感谢你，%PCRace。没有儿子的陪伴，我觉得自己很快就会枯萎死去，不过，就这样吧。我很快就能在来世再见到我的妻子和儿子了，再次表示感谢。我没有太多的奖赏，但我想把这些给你！这是我多年前杀死的一只雪熊的熊皮，瑟斯克的布林约夫可以为你把它们锻造成特殊的盔甲。再次感谢你，好心的，%PCName。 {沙尔,凋零症,报酬}
 
 > INFO.NAME old man's anguish 14571607365368254
 You...you killed my son? I send you to find him, save him, and you end his life? No! You will pay for this! You have killed my only son!
@@ -19956,7 +19956,7 @@ Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't
 
 > INFO.NAME little advice 84763094217021120
 It's always a good idea to carry some cure disease potions while you're on Solstheim. A lot of the animals carry Ataxia or Yellow Tick.
-在索瑟泰姆的时候，最好随身携带一些治愈疾病的药剂。很多动物都带有共济失调或黄虱。 {治愈疾病的药水,药水,这些药水}
+在索瑟泰姆的时候，最好随身携带一些治愈疾病的药剂。很多动物都带有失调症或黄蜱病。 {治愈疾病的药水,药水,这些药水}
 
 > INFO.NAME little advice 2355218310679513292
 They say spriggans die three deaths. Best to avoid them if I were you.
@@ -19988,7 +19988,7 @@ If you're looking for a good short-bladed weapon, try to get your hands on a fry
 
 > INFO.NAME little advice 264911721322342960
 It's always a good idea to carry some cure disease potions while you're on Solstheim. A lot of the animals carry Ataxia or Yellow Tick.
-在索瑟泰姆的时候，最好随身携带一些治愈疾病的药剂。很多动物都带有共济失调或黄虱。 {治愈疾病的药水,药水,这些药水}
+在索瑟泰姆的时候，最好随身携带一些治愈疾病的药水。很多动物都带有失调症或黄蜱病。 {这些药水}
 
 > INFO.NAME little advice 18164972221617238
 If you run into any snow wolves or snow bears, attack them with fire. They have a natural weakness to it

@@ -3678,11 +3678,11 @@ Fortify Attack
 
 > GMST.STRV sEffectCommandCreatures
 Command Creature
-命令生物
+控制生物
 
 > GMST.STRV sEffectCommandHumanoids
 Command Humanoid
-命令人形生物
+控制人形生物
 
 > GMST.STRV sEffectBoundDagger
 Bound Dagger
@@ -5518,7 +5518,7 @@ Breton
 
 > RACE.DESC Breton
 Passionate and eccentric, poetic and flamboyant, intelligent and willful, the Bretons feel an inborn, instinctive bond with the mercurial forces of magic and the supernatural. Many great sorcerers have come out of their home province of High Rock, and in addition to their quick and perceptive grasp of spellcraft, enchantment, and alchemy, even the humblest of Bretons can boast a high resistance to destructive and dominating magical energies.
-激情而又古怪，诗意而又浮夸，聪慧而又任性，布莱顿民族与超自然的魔法之力有着天生的、本能的联系。许多伟大的巫师都出自他们的故乡高岩省，他们不仅能够快速且轻易的掌握魔法、附魔和炼金，就连最弱小的布莱顿人也对毁灭和支配的魔法有着极强的抗性。
+激情而又古怪，诗意而又浮夸，聪慧而又任性，布莱顿民族与超自然的魔法之力有着天生的、本能的联系。许多伟大的术士都出自他们的故乡高岩省，他们不仅能够快速且轻易的掌握魔法、附魔和炼金，就连最弱小的布莱顿人也对毁灭和支配的魔法有着极强的抗性。
 
 > RACE.FNAM Nord
 Nord
@@ -8231,7 +8231,7 @@ Cure Poison
 
 > SCPT.SCTX shrineRilm m10
 Rilm's Grace
-蕾姆的恩典
+蕾姆之优雅
 
 > SCPT.SCTX shrineRilm m11
 You are not afflicted with a common disease.
@@ -8495,7 +8495,7 @@ Cure Poison
 
 > SCPT.SCTX shrineTemple m10
 Lady's Grace
-女士的恩典
+圣母之恩典
 
 > SCPT.SCTX shrineTemple m11
 Soul of Sotha Sil
@@ -9067,7 +9067,7 @@ Once like a Great House founded on sand, Stood our Temple whose pillars on troub
 
 > SCPT.SCTX VampireMolag s1
 So, you do not enjoy the blood hunger, little leech? Do you miss the warmth of the sun? I can obtain the cure for you, but you will help me first. You will find my daughter, Molag Grunda, in the dungeon Dubdilla below Mt. Assarnibibi. There she hides with her consort, the lowly atronach Nomeg Gwai. She believes hiding in a sorcerer's cave will shield her from my eyes. Foolish girl!
-小水蛭，你不喜欢对血液的渴望吗？你想念温暖的阳光吗？我可以为你找到解药，但你要先帮我。你会在阿萨尼比比山下的地牢杜比德拉找到我的女儿莫拉格·格伦达。她和她的情人，卑贱的侍灵诺梅格·夭躲在那里。她以为躲在巫师的洞穴里就能躲过我的眼睛，愚蠢的女孩！
+小水蛭，你不喜欢对血液的渴望吗？你想念温暖的阳光吗？我可以为你找到解药，但你要先帮我。你会在阿萨尼比比山下的地牢杜比德拉找到我的女儿莫拉格·格伦达。她和她的情人，卑贱的侍灵诺梅格·夭躲在那里。她以为躲在术士的洞穴里就能躲过我的眼睛，愚蠢的女孩！
 
 > SCPT.SCTX VampireMolag s2
 I ordered her not to associate with these animals. I told her what the penalty would be for her disobediance! Yet she continues to defy me! Willful beast! I cannot have this. Find her, mortal. Kill her and the atronach, so I may deal with them in the Outer Realms. When this is done, return to me, and I will rid you of your unlife. Take care, mortal, for she is powerful. She is still a daughter of Molag Bal.
@@ -10631,11 +10631,11 @@ Calming Touch
 
 > SPEL.FNAM command beast
 Command Beast
-野兽命令术
+控制野兽
 
 > SPEL.FNAM commanding touch
 Commanding Touch
-命令之触
+控制之触
 
 > SPEL.FNAM frenzy beast
 Frenzy Beast
@@ -10671,11 +10671,11 @@ Calm Humanoid
 
 > SPEL.FNAM command creature
 Command Creature
-命令生物
+控制生物
 
 > SPEL.FNAM command humanoid
 Command Humanoid
-命令人形生物
+控制人形生物
 
 > SPEL.FNAM frenzy creature
 Frenzy Creature
@@ -10891,7 +10891,7 @@ Wild Spelldrinker
 
 > SPEL.FNAM vivec's feast
 Vivec's Feast
-维威克之享用
+维威克之饕食
 
 > SPEL.FNAM spell absorption
 Spell Absorption
@@ -10903,7 +10903,7 @@ Telekinesis
 
 > SPEL.FNAM shalidor's mirror
 Shalidor's Mirror
-夏利德之镜
+沙利多之镜
 
 > SPEL.FNAM absorb agility
 Absorb Agility
@@ -11039,7 +11039,7 @@ Rilm's Cure
 
 > SPEL.FNAM rilm's gift
 Rilm's Gift
-蕾姆之礼
+蕾姆之赐
 
 > SPEL.FNAM cure corpus disease
 Cure Corpus Disease
@@ -11551,7 +11551,7 @@ Fortitude
 
 > SPEL.FNAM lady's grace
 Lady's Grace
-女士的恩典
+圣母之恩典
 
 > SPEL.FNAM vigor
 Vigor
@@ -11579,7 +11579,7 @@ Surpassing Horny Fist
 
 > SPEL.FNAM vitality
 Vitality
-生命强化术
+生机术
 
 > SPEL.FNAM ysmir's cough
 Ysmir's Cough
@@ -12043,7 +12043,7 @@ Balyna's Soothing Balm
 
 > SPEL.FNAM great heal companion
 Great Heal Companion
-极致愈合之手
+极致治疗同伴
 
 > SPEL.FNAM regenerate
 Regenerate
@@ -12055,7 +12055,7 @@ Rapid Regenerate
 
 > SPEL.FNAM strong heal companion
 Strong Heal Companion
-强力愈合之手
+强力治疗同伴
 
 > SPEL.FNAM troll's blood
 Troll's Blood
@@ -12075,7 +12075,7 @@ Veloth's Grace
 
 > SPEL.FNAM heal companion
 Heal Companion
-愈合之手
+治疗同伴
 
 > SPEL.FNAM mother's kiss
 Mother's Kiss
@@ -12247,7 +12247,7 @@ Rattles
 
 > SPEL.FNAM yellow tick
 Yellow Tick
-黄虱术
+黄蜱术
 
 > SPEL.FNAM brown rot
 Brown Rot
@@ -12255,7 +12255,7 @@ Brown Rot
 
 > SPEL.FNAM collywobbles
 Collywobbles
-肠颤
+肠颤术
 
 > SPEL.FNAM swamp fever
 Swamp Fever
@@ -12279,11 +12279,11 @@ Rust Chancre
 
 > SPEL.FNAM dampworm
 Dampworm
-湿气寄生虫
+湿虫颤
 
 > SPEL.FNAM greenspore
 Greenspore
-绿孢
+绿孢病
 
 > SPEL.FNAM serpiginous dementia
 Serpiginous dementia
@@ -12295,7 +12295,7 @@ Chills
 
 > SPEL.FNAM witbane
 Witbane
-心智剧毒
+智衰症
 
 > SPEL.FNAM helljoint
 Helljoint
@@ -12687,7 +12687,7 @@ Blessings of the Second Corner
 
 > SPEL.FNAM shrine_balur_sp
 Command of the Third Corner
-第三角的命令
+第三角的控制
 
 > SPEL.FNAM shrine_alddaedroth_sp
 Blessings of the Fourth Corner
@@ -12903,7 +12903,7 @@ Blind
 
 > SPEL.FNAM cure common disease other
 Cure Common Disease on Other
-治愈其它常见疾病
+治愈他人常见疾病
 
 > SPEL.FNAM Tap Energy
 Tap Energy
@@ -13047,7 +13047,7 @@ Seryn's Shield
 
 > SPEL.FNAM rilm's grace
 Rilm's Grace
-蕾姆的恩典
+蕾姆之优雅
 
 > SPEL.FNAM veloth's indwelling
 Veloth's Indwelling
@@ -13067,7 +13067,7 @@ Vivec's Humility
 
 > SPEL.FNAM Quicksilver
 Quicksilver
-大步流星
+水银快步
 
 > SPEL.FNAM emasculate
 Emasculate
@@ -13211,7 +13211,7 @@ Hand of Dagoth
 
 > SPEL.FNAM lady's grace shrine
 Lady's Grace
-女士的恩典
+圣母之恩典
 
 > SPEL.FNAM Vivec_Abilities
 Divine Abilities
@@ -15456,7 +15456,7 @@ It certainly isn't a coincidence that a master of the School of Illusion cast th
 <BR>
 贝罗以对包括祖林·阿克图斯这位泰伯·塞普汀的皇家战斗法师，以至于贾加·萨恩 -- 尤利尔·塞普汀七世的帝国法师在内的著名战斗法师们的偶然事件的描述作为他讲演的开始。他的意图是想说明当需要时，战斗法师会依靠其他系别的魔法，而不是本应作为战斗法师特殊专长的毁灭系法术。首先请允许我对这些所谓的史实提出质疑。<BR>
 <BR>
-祖林·阿克图斯并不像贝罗宣称的那样用神秘系法术和召唤系法术创造出了纳米迪安傀儡。真相是，在对那些词语的传统判断标准下，我们并不知道纳米迪安是怎么产生的，甚至不知道它是不是一个傀儡或者是不是一个元素人。尤利尔五世的所谓战斗法师海瑟斯，严格来说并不是一名皇家战斗法师 -- 他仅仅是一个受雇于帝国的法师，因此他在阿卡维尔的各种战场上施放的是哪种法术就无关紧要了，更不必说那些谣言了。贝罗把莫里哈萨女皇的战斗法师维洛克称作“一位有造诣的外交官”而不是“一位毁灭系的优秀学生”。我首先祝贺贝罗终于能正确的辨别出一位皇家战斗法师，然而有不少书面的例子证实了维洛克的毁灭系技艺。例如，贤者切拉鲁斯，大篇阐述了关于维洛克对黑玫瑰的叛军施放吸收之云，导致他们的力量和技能被传递给他们对手的事迹。这是什么，难道不是一个令人印象深刻的毁灭系例子吗？<BR>
+祖林·阿克图斯并不像贝罗宣称的那样用神秘系法术和召唤系法术创造出了纳米迪安傀儡。真相是，在对那些词语的传统判断标准下，我们并不知道纳米迪安是怎么产生的，甚至不知道它是不是一个傀儡或者是不是一个元素人。尤利尔五世的所谓战斗法师海瑟斯，严格来说并不是一名皇家战斗法师 -- 他仅仅是一个受雇于帝国的术士，因此他在阿卡维尔的各种战场上施放的是哪种法术就无关紧要了，更不必说那些谣言了。贝罗把莫里哈萨女皇的战斗法师维洛克称作“一位有造诣的外交官”而不是“一位毁灭系的优秀学生”。我首先祝贺贝罗终于能正确的辨别出一位皇家战斗法师，然而有不少书面的例子证实了维洛克的毁灭系技艺。例如，贤者切拉鲁斯，大篇阐述了关于维洛克对黑玫瑰的叛军施放吸收之云，导致他们的力量和技能被传递给他们对手的事迹。这是什么，难道不是一个令人印象深刻的毁灭系例子吗？<BR>
 <BR>
 贝罗颇为乏味的在他列出的技艺欠佳战斗法师名单中涵盖了贾加·萨恩。将一个发疯的叛徒作为理性行为的范例，这样的立场是站不住脚的。贝罗想要怎么样？让贾加通过更传统的途径使用毁灭系法术来毁灭泰姆瑞尔吗？<BR>
 <BR>
@@ -17138,7 +17138,7 @@ Proseccus nodded and had the doors to the throne room closed once again.  The co
 <BR>
 “我派他去处理一些微妙的事情去了。”国王拧紧了眉毛。“这都过了一个星期了，他一点讯息都没有。是遇到什么困难了吗？”<BR><BR>
 <BR>
-“很有可能，艾瑞尔大人也不该走了这么长时间，”王后也皱起眉头。“如果有流窜的法师来威胁我们怎么办？陛下，别笑话我，这就是为什么所有高岩的皇室一直紧密地控制着他们的魔仆。用邪恶魔法来保卫他们的皇室，就像我们可怜的皇帝最近遭受到的那样。”<BR>
+“很有可能，艾瑞尔大人也不该走了这么长时间，”王后也皱起眉头。“如果有流窜的术士来威胁我们怎么办？陛下，别笑话我，这就是为什么所有高岩的皇室一直紧密地控制着他们的魔仆。用邪恶魔法来保卫他们的皇室，就像我们可怜的皇帝最近遭受到的那样。”<BR>
 <BR>
 “被他自己的战斗法师出卖了。”国王轻笑道。<BR>
 <BR>
@@ -18416,7 +18416,7 @@ The Year continues in First Seed.<BR>
 <BR>
 索萨·希尔看着他的学徒一个接一个浮上奥松树顶，看着他们从它高耸的枝头上摘下一颗果子或一朵花，随即以各种优雅的姿势落回地面。他赞许地点了点头，享受着这段时光。白色粉刷的希拉班古老塑像矗立在峭壁上，俯瞰着海湾。淡紫色的泊斯卡托花丛在风中来回摇摆。远方，是海洋，以及阿泰乌姆与夏暮群岛主岛间若隐若现的边界。<BR>
 <BR>
-“总的来说，算是不错的了。”他宣告，接过最后一名学生放在他手中的果子。他挥挥手，所有果实和花朵都回到了树上。他又一挥手，学生们便在术师身边围成了一个半圆。他从白袍上取下一只直径约一尺的纤维状小球。<BR>
+“总的来说，算是不错的了。”他宣告，接过最后一名学生放在他手中的果子。他挥挥手，所有果实和花朵都回到了树上。他又一挥手，学生们便在术士身边围成了一个半圆。他从白袍上取下一只直径约一尺的纤维状小球。<BR>
 <BR>
 “这是什么？”<BR>
 <BR>
@@ -18424,7 +18424,7 @@ The Year continues in First Seed.<BR>
 <BR>
 “一个球。”一个名叫韦勒格的年轻诺德说。有几个学徒呵呵笑起来，但大多数人皱了皱眉，包括索萨·希尔。<BR>
 <BR>
-“如果你非要当个笨蛋不可，起码也得有点幽默感吧。”术师低声咆哮，随即看向一个表情困惑的黑发奥特莫少女。“莉拉莎，你知道吗？”<BR>
+“如果你非要当个笨蛋不可，起码也得有点幽默感吧。”术士低声咆哮，随即看向一个表情困惑的黑发奥特莫少女。“莉拉莎，你知道吗？”<BR>
 <BR>
 “是格罗姆，”莉拉莎不确定地说，“螃蟹人造出来的。在它们完成……科·科卡·卡雷文那西姆之后。”<BR>
 <BR>
@@ -19252,7 +19252,7 @@ The Year Continues in Second Seed.<BR>
 <BR>
 “您……成功了吗？”她问。<BR>
 <BR>
-“与我谈话的魔君们同意了我们的条件。”他淡淡地说，“像吉佛戴尔那样的惨剧不会再发生了。只有透过特定的媒介，像是女巫或是术师，他们才能对人类和精灵的呼唤作出回应。”<BR>
+“与我谈话的魔君们同意了我们的条件。”他淡淡地说，“像吉佛戴尔那样的惨剧不会再发生了。只有透过特定的媒介，像是女巫或是术士，他们才能对人类和精灵的呼唤作出回应。”<BR>
 <BR>
 “那您答应给他们什么作为回报呢？”诺德男孩韦勒格问。<BR>
 <BR>
@@ -19288,11 +19288,11 @@ The Year Continues in Second Seed.<BR>
 <BR>
 索萨·希尔仅仅转向了塔格里斯片刻，但就在这时尖叫声传来，他立刻明白发生什么事了。诺德男孩韦勒格没有正确地施放法术，结果烧了起来。头发和血肉灼烧的气味令其他学生惊慌失措，他们手忙脚乱地拉着他想爬出沟底。但斜坡太陡，离出口又太远。索萨·希尔一挥手驱散了火焰。<BR>
 <BR>
-韦勒格和其他几个学生被烧伤了，好在并不严重。术师向他们释放了治疗法术，随即再次转向塔格里斯。<BR>
+韦勒格和其他几个学生被烧伤了，好在并不严重。术士向他们释放了治疗法术，随即再次转向塔格里斯。<BR>
 <BR>
 “我马上就过去，为阿莱玛西亚接风洗尘。”索萨·希尔又转向学生，声音平静地说，“恐惧并不能破坏咒语，但疑虑和无能是施法者最大的敌人。韦勒格大师，你可以收拾行李了。我会安排一条船，明天一早送你回大陆。”<BR>
 <BR>
-术师在书房见到了阿莱玛西亚和伊阿奇斯，二人正喝着热茶谈笑。她比他记忆中的更加美丽，尽管他从没见过她如此衣衫不整的样子。她裹着一条毯子，正在火上晾干她乌黑的长发。看到索萨·希尔，她跳了起来，张开双臂拥抱了他。<BR>
+术士在书房见到了阿莱玛西亚和伊阿奇斯，二人正喝着热茶谈笑。她比他记忆中的更加美丽，尽管他从没见过她如此衣衫不整的样子。她裹着一条毯子，正在火上晾干她乌黑的长发。看到索萨·希尔，她跳了起来，张开双臂拥抱了他。<BR>
 <BR>
 “难道你是从晨风一路游泳过来的吗？”他微笑道<BR>
 <BR>
@@ -28725,7 +28725,7 @@ The Year is Concluded in Evening Star.<BR>
 <BR>
 “我之前还犹豫要不要来，”他大声地说道，声音在这片混乱中轰鸣。“不来的话就错过这一场好戏了。”<BR>
 <BR>
-突然，一道细微的光从地面冲上红黑混合的天空，他的注意力被吸引了过去。他来到这道光的源头，看到两个身影，一男一女站在镇子上面的山丘上。男子穿着白袍，他认得此人叫索萨·希尔，正是那个一手促成湮灭魔君们达成休战的巫士。<BR>
+突然，一道细微的光从地面冲上红黑混合的天空，他的注意力被吸引了过去。他来到这道光的源头，看到两个身影，一男一女站在镇子上面的山丘上。男子穿着白袍，他认得此人叫索萨·希尔，正是那个一手促成湮灭魔君们达成休战的术士。<BR>
 <BR>
 “如果你是来找哀伤之城的公爵，他不在这里。”梅鲁涅斯大笑着说。“不过下雨的时候，你会发现他的五脏六腑从天而降。”<BR>
 <BR>
@@ -29029,7 +29029,7 @@ He looked up through a crick in the ceiling into the night sky.  It was midnight
 <BR>
 在这座城市烟雾缭绕的地下墓穴里，索萨·希尔用他神秘的发条装置打造了未来，一些意想不到的事情发生了。一个油腻的泡泡从机器中冒出来消失了。法师的注意力立刻被转到它与被它激发的连锁反应上。一根管子向左移了半尺。一个踏板被跳过了。一个线圈反绕起来，开始向反方向旋转。一个活塞几千年来一直在“左右左右”地移动，突然开始向“右左”移动了。没有东西损坏，但是每样东西都变了。<BR>
 <BR>
-“现在没法修好它。”法师安静地说道。<BR>
+“现在没法修好它。”术士安静地说道。<BR>
 <BR>
 他抬头看向天空。是午夜。<BR>
 <BR>
@@ -30401,7 +30401,7 @@ The Year is Continued in Last Seed.<BR>
 <BR>
 维威克从水中起身，感到一天的炎热从身体上被尽数洗去。他从一个仆人手中接过一块毛巾。索萨·希尔站在阳台上看着他的老友。<BR>
 <BR>
-“自从上次见你以来，你似乎添了不少新疤。”术师说。<BR>
+“自从上次见你以来，你似乎添了不少新疤。”术士说。<BR>
 <BR>
 “阿祖拉保佑，暂时不会再添了。”维威克笑道，“你什么时候到的？”<BR>
 <BR>
@@ -30433,7 +30433,7 @@ The Year is Continued in Last Seed.<BR>
 2920年，日高月，25日<BR>
 晨风，泰尔-阿汝因<BR>
 <BR>
-夜母在她那仅由淡淡月光照亮的客厅中接见了索萨·希尔。她穿着一件式样简单的黑色丝质长袍，慵懒地斜卧在她的长沙发上，透出一种残酷的美丽。她作了个手势，遣散了身披红斗篷的卫兵们，递给术师一杯葡萄酒。<BR>
+夜母在她那仅由淡淡月光照亮的客厅中接见了索萨·希尔。她穿着一件式样简单的黑色丝质长袍，慵懒地斜卧在她的长沙发上，透出一种残酷的美丽。她作了个手势，遣散了身披红斗篷的卫兵们，递给术士一杯葡萄酒。<BR>
 <BR>
 “你正好错过了你的公爵朋友。”她细语道，“他很不高兴，不过我想我们会解决他的问题的。”<BR>
 <BR>
@@ -30448,7 +30448,7 @@ The Year is Continued in Last Seed.<BR>
 2920年，日高月，27日<BR>
 晨风，内海<BR>
 <BR>
-索萨·希尔观察水面已经有两天了，他在等待一艘特别的船舰。现在他看到了它，一艘飘扬着哀伤之城旗帜的重型船只。术师在它接近港口前阻截住了它。火焰从他身上喷出，裹住他的身形，将他的声音和形体伪装成一个迪德拉的样子。<BR>
+索萨·希尔观察水面已经有两天了，他在等待一艘特别的船舰。现在他看到了它，一艘飘扬着哀伤之城旗帜的重型船只。术士在它接近港口前阻截住了它。火焰从他身上喷出，裹住他的身形，将他的声音和形体伪装成一个迪德拉的样子。<BR>
 <BR>
 “弃船！”他吼叫道，“除非你们想与它一起沉没！”<BR>
 <BR>
@@ -32745,7 +32745,7 @@ Dul gro-Dush
 
 > NPC_.FNAM largakh gro-bulfim
 Largakh gro-Bulfim
-拉噶克·格罗-巴尔菲姆
+拉噶克·格罗-布尔菲姆
 
 > NPC_.FNAM bogdub gra-gurakh
 Bogdub gra-Gurakh
@@ -47662,7 +47662,7 @@ Azura is the only Daedra Princess I have ever worshipped who seems to care about
 <DIV ALIGN="LEFT"><BR><BR>
 三百年来，我一直是阿祖拉的女祭司，月影的迪德拉大君，玫瑰之母和夜空女王。我们在初种月21日庆祝的每一个霍吉瑟姆节，我们都会召唤她寻求指导，并向女王陛下提供有价值和美丽的东西。她是一个残忍却又睿智的女主人。我们不会在任何受到雷暴困扰的霍吉瑟姆节召唤她，因为那些夜晚属于疯狂的谢尔格拉斯，即使它们确实恰逢其时。阿祖拉在这种时候理解我们的谨慎。<BR>
 <BR>
-阿祖拉的祈愿是非常个人化的祈愿。我曾担任过另外三位迪德拉大君的女祭司，但阿祖拉重视她的崇拜者的品质，以及我们对她崇拜背后的真相。当我还是一个十六岁的暗精灵女仆时，我加入了我祖母的女巫团，他们是阴谋公主莫拉格·巴尔的崇拜者。勒索、勒索和贿赂是莫拉格巴尔女巫的武器，就和黑魔法一样。除了暴风雨天气外，莫拉格·巴尔祈福会在夜星月20日举行。这个仪式很少被错过，但莫拉格·巴尔经常在其他日子以凡人的姿态出现在她的信徒面前。当我的祖母试图毒害火望城的继承人而死时，我重新审视了我对这个教派的信仰。<BR>
+阿祖拉的祈愿是非常个人化的祈愿。我曾担任过另外三位迪德拉大君的女祭司，但阿祖拉重视她的崇拜者的品质，以及我们对她崇拜背后的真相。当我还是一个十六岁的暗精灵女仆时，我加入了我祖母的女巫团，他们是阴谋公主莫拉格·巴尔的崇拜者。勒索、勒索和贿赂是莫拉格巴尔女巫的武器，就和黑暗魔法一样。除了暴风雨天气外，莫拉格·巴尔祈福会在夜星月20日举行。这个仪式很少被错过，但莫拉格·巴尔经常在其他日子以凡人的姿态出现在她的信徒面前。当我的祖母试图毒害火望城的继承人而死时，我重新审视了我对这个教派的信仰。<BR>
 <BR>
 我哥哥是波耶西亚教派的巫者 -- 据他告诉我，黑暗战士比奸诈的莫拉格·巴尔更接近我的灵魂。波耶西亚是一位战士公主，她的行为比任何其他迪德拉都更加公开。经过多年的鬼鬼祟祟和阴谋诡计，为女主人做一些能带来直接后果的事情感觉很好。此外，我喜欢波耶西亚是一个属于暗精灵的迪德拉。我们的教派会在被我们称为“考验”的那一天，即日暮月2日召唤她。血腥的比赛会以她的名义举行，决斗和战斗将持续下去，直到九名教徒被其他教徒杀死。波耶西亚几乎不关心她的信徒 -- 她只关心我们的鲜血。我确实认为，当我在一场争执中不小心杀死了我的兄弟时，我看到了她的微笑。我想，我的恐惧让她非常高兴。<BR>
 <BR>
@@ -47741,7 +47741,7 @@ One need not be a member of the Mages Guild to know that this carefully contrive
 法师公会的起源<BR>
 首席法师萨拉斯　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-一群法师、巫师和各式各样的神秘主义者集中他们的资源和才能用于研究和公益事业，这在第二纪元初期是一个革命性的概念。当时唯一在目标和结构上与我们今天所知的法师行会最接近的组织是阿泰乌姆岛上的赛伊克教团。在那个时代，魔法是由个人习得的，或者，最多是在亲密的契约关系中习得的。法师，如果不是真正的隐士，通常是非常孤独的。<BR>
+一群法师、术士和各式各样的神秘主义者集中他们的资源和才能用于研究和公益事业，这在第二纪元初期是一个革命性的概念。当时唯一在目标和结构上与我们今天所知的法师行会最接近的组织是阿泰乌姆岛上的赛伊克教团。在那个时代，魔法是由个人习得的，或者，最多是在亲密的契约关系中习得的。法师，如果不是真正的隐士，通常是非常孤独的。<BR>
 <BR>
 赛伊克教团作为顾问服务于夏暮岛的统治者，并通过一种复杂的、仪式化的方法来选择其成员，这种方法不为外人所理解。该组织的宗旨和目标也同样未被公布，反对者认为其最大的罪过是该组织权力的来源。事实上，对这一古老组织的信仰可以被理解为祖先崇拜，而这是一种在第二纪元越来越不流行的哲学。<BR>
 <BR>
@@ -48507,9 +48507,9 @@ Another type of lesser Daedra often encountered in Morrowind is the Atronach, or
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 最深沉的黑暗<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-在晨风，崇拜者和巫师都召唤低等的迪德拉，并将迪德拉束缚为仆从和工具。<BR>
+在晨风，崇拜者和术士都召唤低等的迪德拉，并将迪德拉束缚为仆从和工具。<BR>
 <BR>
-大多数迪德拉仆从只能在非常脆弱的命令和约束框架内被巫师召唤很短的时间。幸运的是，这限制了他们造成损害的能力，尽管在短短几分钟内，这些仆从中的大多数都可以对他们的召唤者和敌人造成可怕的伤害。<BR>
+大多数迪德拉仆从只能在非常脆弱的命令和约束框架内被术士召唤很短的时间。幸运的是，这限制了他们造成损害的能力，尽管在短短几分钟内，这些仆从中的大多数都可以对他们的召唤者和敌人造成可怕的伤害。<BR>
 <BR>
 崇拜者可以通过仪式和契约将其他迪德拉仆从束缚在这个位面。这样的安排导致迪德拉仆从无限期地留在这个位面 -- 或者至少直到他们在这个位面的物质形式被摧毁，将他们的超自然本质沉淀回湮灭。每当在迪德拉废墟或坟墓中遇到迪德拉时，他们几乎都是我们位面的长期访客。<BR>
 <BR>
@@ -48517,7 +48517,7 @@ Another type of lesser Daedra often encountered in Morrowind is the Atronach, or
 <BR>
 晨风审判席神殿将迪德拉视为次等神灵，臣服于不朽的奥姆希维，即阿玛莱西亚、索萨希尔和维威克的三位一体神。这些从属迪德拉分为好迪德拉和坏迪德拉。好迪德拉甘愿服从奥姆希维的权威；坏迪德拉则是反抗奥姆希维的反叛者 -- 他们往往是敌人而不是盟友。<BR>
 <BR>
-好迪德拉是波耶西亚、阿祖拉和梅法拉。饥饿魔是一个强大而暴力的低等迪德拉，与阴谋之父波耶西亚有关 -- 它是一种蜿蜒、长肢、长尾的生物，有着野兽般的头颅，以其麻痹触感和分解武器和盔甲的能力而闻名。曙暮翼魔是黄昏与黎明女神阿祖拉的使者。曙暮翼魔类似西方的野生鹰身女妖，尽管相较而言，曙暮翼魔女性化的一面更加迷人，并且它们长而尖的钩状尾巴也更加致命。蛛形迪德拉是梅法拉的仆人，以半蜘蛛半人形的形象出现。它上半身赤裸，躯干和手臂与人类比例相似，安置在巨型蜘蛛的八条腿和装甲甲壳上。不幸的是，这些迪德拉是如此凶猛和非理性，以至于不能相信他们会听从纺纱者的命令。因此，很少有巫师愿意在晨风召唤或束缚这样的生物。<BR>
+好迪德拉是波耶西亚、阿祖拉和梅法拉。饥饿魔是一个强大而暴力的低等迪德拉，与阴谋之父波耶西亚有关 -- 它是一种蜿蜒、长肢、长尾的生物，有着野兽般的头颅，以其麻痹触感和分解武器和盔甲的能力而闻名。曙暮翼魔是黄昏与黎明女神阿祖拉的使者。曙暮翼魔类似西方的野生鹰身女妖，尽管相较而言，曙暮翼魔女性化的一面更加迷人，并且它们长而尖的钩状尾巴也更加致命。蛛形迪德拉是梅法拉的仆人，以半蜘蛛半人形的形象出现。它上半身赤裸，躯干和手臂与人类比例相似，安置在巨型蜘蛛的八条腿和装甲甲壳上。不幸的是，这些迪德拉是如此凶猛和非理性，以至于不能相信他们会听从纺纱者的命令。因此，很少有术士愿意在晨风召唤或束缚这样的生物。<BR>
 <BR>
 坏迪德拉是梅鲁涅斯·大衮、马拉卡斯、谢尔格拉斯和莫拉格·巴尔。有三个低等迪德拉与梅鲁涅斯·大衮有关：敏捷而讨厌的劣魔，凶猛如野兽的惊惧兽，以及高贵而致命的魔人。被称为迪德洛斯的鳄鱼头人形迪德拉是莫拉格·巴尔的仆人，而巨大却愚笨的食人魔则是马拉卡斯的仆人。谢尔格拉斯的低等迪德拉，黄金圣徒，外表是半裸的人类女性，对魔法有很强的抵抗力，也是一个危险的施法者。<BR>
 <BR>
@@ -49459,11 +49459,11 @@ And shall we tolerate the hidden hosts of the undead, the arrogant princes of ne
 <DIV ALIGN="LEFT"><BR><BR>
 …它们既不进入这个世界，亦不离开这个世界，而是在世界之间徘徊，被血缘与忠诚维系在壁龛与坟墓之间。若它们不请自来，是出于对亲属的爱或信仰的义务，这并非不洁。这不过是先祖的回应，不眠之人的苏醒，唤来那些通过壁炉和房屋来保卫氏族的人。<BR>
 <BR>
-但若是巫师将它们唤来，那这般召唤便是亵渎神明，为部族和神殿所憎，乃大罪，即使多年的焚烧也无法洗清的过错。你们中不可有巫师，因为他来是要刨你们祖宗的骸骨，偷你们坟墓的尘土。他试图以蛮力束缚你的权利，将温暖的灵魂从他们的世界中拖出来，并像奴隶和野兽一样束缚为其所用。<BR>
+但若是术士将它们唤来，那这般召唤便是亵渎神明，为部族和神殿所憎，乃大罪，即使多年的焚烧也无法洗清的过错。你们中不可有术士，因为他来是要刨你们祖宗的骸骨，偷你们坟墓的尘土。他试图以蛮力束缚你的权利，将温暖的灵魂从他们的世界中拖出来，并像奴隶和野兽一样束缚为其所用。<BR>
 <BR>
 谁能知晓死者的耻辱，死灵法师的奴仆无休无止的哭泣？祖先对壁龛和亲属的爱已够残忍。但幽灵或护卫，骸骨行者亦或骸骨领主，被亵渎的仪式召唤，被强行束缚在尸体挖掘者的意志之下，这般灵魂怎可安息？它怎可回到它的血脉与氏族之中？<BR>
 <BR>
-只有正义的丹莫，血脉相连，骨肉相连，誓言服务于神殿，才能召唤丹莫死者的灵魂。那些入侵我们海岸的异族巫师，能否允许他们抢劫我们的坟墓，把我们的亲族捆绑成魔法奴隶，偷走我们死者的生命以及我们生者的土地？不，不行，绝不，要我说几遍都行。这样的死灵法师必死，他们亵渎的魔法必同他们一起消亡。<BR>
+只有正义的丹莫，血脉相连，骨肉相连，誓言服务于神殿，才能召唤丹莫死者的灵魂。那些入侵我们海岸的异族术士，能否允许他们抢劫我们的坟墓，把我们的亲族捆绑成魔法奴隶，偷走我们死者的生命以及我们生者的土地？不，不行，绝不，要我说几遍都行。这样的死灵法师必死，他们亵渎的魔法必同他们一起消亡。<BR>
 <BR>
 我们是否应该容忍亡灵隐藏的宿主，死灵法师傲慢的大君，从西方巢穴中爬出的古老吸血鬼恶魔，在亵渎的迪德拉祭坛，被遗弃的丹莫堡垒，以及被憎恶的、锻莫的腐败地下迷宫中寻求庇护？千百年来，豪族与神殿，一直保卫着我们的土地，不受吸血鬼的污染，如今这些亡灵领主和他们的奴仆又回来了。这些吸血鬼必死，他们腐败的血畜也必死，他们的血污必被烈火和木桩永远抹去。<BR>
 """
@@ -49510,7 +49510,7 @@ The Faithful are granted these blessings when they pray at the shrines and make 
 <BR>
 所有的神龛都能治疗常见的疾病、枯萎病，解除中毒的痛苦。<BR>
 <BR>
-那些带有维威克、阿玛莱西亚和索萨·希尔神像的神龛也可以赐予“奥姆希维恢复之祝福”，可恢复受损的属性，以及带来奥姆希维的三种祝福：“维威克之神秘”可带来好运；“索萨·希尔之魂”可带来魔法的力量；“女士的赐福”可增强忍耐力，让你克服困难。<BR>
+那些带有维威克、阿玛莱西亚和索萨·希尔神像的神龛也可以赐予“奥姆希维恢复之祝福”，可恢复受损的属性，以及带来奥姆希维的三种祝福：“维威克之神秘”可带来好运；“索萨·希尔之魂”可带来魔法的力量；“圣母之恩典”可增强忍耐力，让你克服困难。<BR>
 <BR>
 那些带有圣徒肖像的神龛也可以给予圣徒的特别祝福，罗列如下：<BR>
 <BR>
@@ -49521,7 +49521,7 @@ The Faithful are granted these blessings when they pray at the shrines and make 
 圣·梅利斯赐予“梅利斯之守护”，以抵抗尸化病。<BR>
 圣·尼瑞瓦赐予“尼瑞瓦之灵”，以增强身体活力。<BR>
 圣·奥姆斯赐予“奥姆斯之祝福”，以抵抗常见的疾病。<BR>
-圣·蕾姆斯赐予了“蕾姆斯之优雅”，以使你能忍受艰难困苦。<BR>
+圣·蕾姆斯赐予了“蕾姆之优雅”，以使你能忍受艰难困苦。<BR>
 圣·洛里斯赐予“洛里斯之花”，以增化身体的健康程度。<BR>
 圣·瑟琳赐予“瑟琳之盾”，以抵抗毒药。<BR>
 圣·维洛斯赐予“维洛斯之留置”，以使你获得魔法力量，同时也赐予“奥姆希维恢复之祝福”，它可以受损的属性。<BR>
@@ -54264,7 +54264,7 @@ Dagoth Araynys
 
 > NPC_.FNAM bulfim_gra_shugarz
 Bulfim gra-Shugarz
-巴菲姆·格拉-舒噶兹
+布尔菲姆·格拉-舒加兹
 
 > NPC_.FNAM endryn llethan
 Endryn Llethan
@@ -56127,7 +56127,7 @@ Durzub gro-Bogamakh
 
 > NPC_.FNAM murzush gra-bulfim
 Murzush gra-Bulfim
-穆祖希·格拉-巴尔菲姆
+穆祖希·格拉-布尔菲姆
 
 > NPC_.FNAM edril vules
 Edril Vules
@@ -63292,9 +63292,9 @@ The large island of Sheogorad lies north of Vvardenfell. This island and its ass
 <BR>
 泰尔-布勒诺拉是古怪的泰瓦尼巫师西拉娜女士的塔的所在。塔和小村庄坐落在阿祖拉海岸最东南端的岩石海角上。<BR>
 <BR>
-泰尔-菲尔是魔法师迪维斯·菲尔的泰瓦尼塔。塔下是尸化病疗养院，这是一座难民监狱，在这里，致命尸化病的精神错乱、扭曲的受害者得到了收容和照料。<BR>
+泰尔-菲尔是术士领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病疗养院，这是一座难民监狱，在这里，致命尸化病的精神错乱、扭曲的受害者得到了收容和照料。<BR>
 <BR>
-泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔，他是泰瓦尼法师领主，也是泰瓦尼家族议会的议长。相关的定居点是一个相当大的村庄，也是节庆奴隶市场的所在地，此地是瓦登费尔最大的奴隶市场。<BR>
+泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔，他是泰瓦尼术士领主，也是泰瓦尼家族议会的议长。相关的定居点是一个相当大的村庄，也是节庆奴隶市场的所在地，此地是瓦登费尔最大的奴隶市场。<BR>
 <BR>
 泰尔-莫拉是德拉萨女士的泰瓦尼塔，她是泰瓦尼议会的一位古老的巫师，这个小定居点包括几名工匠和一处贸易行。<BR>
 <BR>
@@ -64861,7 +64861,7 @@ Scroll of Vigor
 
 > BOOK.FNAM sc_vitality
 Scroll of Vitality
-生命力卷轴
+生机卷轴
 
 > BOOK.TEXT sc_vitality
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">SHE WAS A LOVELY CHILD, FULL OF LIFE AND BEAUTY. MY ACTIONS PAINED ME, BUT I DID WHAT HAD TO BE DONE...TO SAVE HER.</FONT><BR>
@@ -65674,7 +65674,7 @@ Barenziah smiled and shrugged.  $93I don't know.  Or, no ... maybe I do.  Yes, I
 <BR>
 牧师往后退了一步，正要咒骂，但在他嘴里吐出三个多字之前，塞马库斯就打在他脸上。他重重地倒下去，头猛地撞在组成火坑的一块石头上。他当场就死了。<BR>
 <BR>
-塞马库斯抢走了金子，逃离了这座城市。他边跑边念叨着一个词，像是巫师的咒语。“巴兰兹娅，”他说。“巴兰兹娅。巴兰兹娅。”<BR>
+塞马库斯抢走了金子，逃离了这座城市。他边跑边念叨着一个词，像是术士的咒语。“巴兰兹娅，”他说。“巴兰兹娅。巴兰兹娅。”<BR>
 <BR>
 ***<BR>
 <BR>
@@ -66289,7 +66289,7 @@ Pleasant dreams.  <BR>
 <BR>
 巴兰兹娅诡异的笑着，这事情的演变实在太过于曲折，“我原本以为，这句话应当从我口中说出来。您说吧，我如何帮得上忙，国王大人？”<BR>
 <BR>
-艾德威尔很快地把计划说了一遍。法师瑞雅·席曼本是贾加·萨恩的学徒，但她遭到假皇帝以叛国的名义杀害。她找到方法保留了些许的能量，并且成功地联系上她在人界里的亲友。她选出一名勇士，来找寻被那个阴险的法师藏在一个隐密之处的混沌之杖。勇士得要使用唯一能够伤害到贾加·萨恩的混沌之杖来摧毁他，并且救出被囚禁在其他空间的皇帝。但是那位勇者，尽管他还活着，却正在帝国的地窖中受苦。她必须转移萨恩的注意力，让瑞雅的灵魂有足够的时间救出勇士。巴兰兹娅能够吸引皇帝的注意，尤其是他的目光。但是这样就够了吗？<BR>
+艾德威尔很快地把计划说了一遍。法师瑞雅·席曼本是贾加·萨恩的学徒，但她遭到假皇帝以叛国的名义杀害。她找到方法保留了些许的能量，并且成功地联系上她在人界里的亲友。她选出一名勇士，来找寻被那个阴险的术士藏在一个隐密之处的混沌之杖。勇士得要使用唯一能够伤害到贾加·萨恩的混沌之杖来摧毁他，并且救出被囚禁在其他空间的皇帝。但是那位勇者，尽管他还活着，却正在帝国的地窖中受苦。她必须转移萨恩的注意力，让瑞雅的灵魂有足够的时间救出勇士。巴兰兹娅能够吸引皇帝的注意，尤其是他的目光。但是这样就够了吗？<BR>
 <BR>
 “我应该可以再让假皇帝召见我一次”巴兰兹娅小心翼翼地说道。“但是这样就够了吗？您得知道我跟我的孩子已经被帝国认为是叛国贼了”<BR>
 <BR>
@@ -75637,7 +75637,7 @@ Lorbumol gro-Aglakh paid me the bounty on Rufinus Alleius.
 
 > INFO.NAME hh_destroyteluvirith 960532680109922394
 Crassius Curio asked me to kill Reynel Uvirith, the Telvanni Sorcerer who lives in the Telvanni Stronghold of Tel Uvirith which is in the ashlands due west of Tel Fyr.
-克拉西乌斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼巫师，住在泰尔-菲尔正西灰烬之地的泰瓦尼堡垒泰尔-乌维瑞斯里。
+克拉西乌斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼术士，住在泰尔-菲尔正西灰烬之地的泰瓦尼堡垒泰尔-乌维瑞斯里。
 
 > INFO.NAME hh_destroyteluvirith 141809463285295777
 Crassius Curio thanked me for killing Reynel Uvirith.
@@ -78685,7 +78685,7 @@ I returned the Lord's Mail to Varus Vatinius.
 
 > INFO.NAME il_knightshield 20508594254504916
 The second artifact Varus wants me to bring him is the Paladin's Blade, Chrysamere. It is rumored to be in the possession of Draramu Hloran, a powerful sorcerer near Sadrith Mora.
-瓦鲁斯要我带给他的第二件神器是圣骑士之刃克里萨米尔。传闻它在萨德瑞斯-莫拉附近的强大巫师德拉拉姆·赫罗兰手中。
+瓦鲁斯要我带给他的第二件神器是圣骑士之刃克里萨米尔。传闻它在萨德瑞斯-莫拉附近的强大术士德拉拉姆·赫罗兰手中。
 
 > INFO.NAME il_knightshield 2795815632158909175
 I was told Draramu Hloran is in the Abanabi Caves, southwest of Sadrith Mora.
@@ -80173,7 +80173,7 @@ Crulius Pontanian gave me a selection of scrolls.
 
 > INFO.NAME mg_staffmagnus 1351314864188613354
 Ajira told me that the Staff of Magnus is in Assu, a sorcerer's cave on the slopes of Mount Kand northwest of Molag Mar.
-阿吉拉告诉我，玛格努斯之杖在阿苏，一个位于莫拉格-玛尔西北坎德山山坡上的巫师洞穴里。
+阿吉拉告诉我，玛格努斯之杖在阿苏，位于莫拉格-玛尔西北坎德山山坡上的术士洞穴里。
 
 > INFO.NAME mg_staffmagnus 297116913325805726
 Ajira congratulated me for finding the Staff of Magnus.
@@ -80253,7 +80253,7 @@ I have completed the Pilgrimages of the Seven Graces.
 
 > INFO.NAME ms_hatandskirt 19484231022911617439
 I found this poor sorcerer imprisoned by a swarm of scamps. They fed him his companions in a broth. And stripped him and forced him to wear a skirt and hat. He looks very melancholy. He asked me to get him a potion of levitation so he could escape from his high perch. He offered to reward me with the attractive skirt and remarkable hat they made him wear.
-我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点浮空药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
+我发现这个可怜的术士被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点浮空药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
 
 > INFO.NAME ms_hatandskirt 32130211451349113829
 I gave the poor sorcerer a potion of levitation so he could escape from his high perch, and accepted his skirt and hat as reward.
@@ -81081,19 +81081,19 @@ Caius Cosades was recalled to the Imperial City. He says he believes I am really
 
 > INFO.NAME tt_compassion 31919179021757618115
 Tuls Valen wants me to reenact Vivec's compassionate healing of a foe. I must either learn the Rilm's Gift spell or use the potion he gave me to cure the Orc Bulfim gra-Shugharz of Ash-Chancre. Bulfim gra-Shugarz is in Maelkashishi. I can get there by heading east from Ald Velothi until I reach the mountains, then following the mountains south.
-图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之礼”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人巴菲姆·格拉-舒噶兹。巴菲姆·格拉-舒噶兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
+图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学习法术“蕾姆之赐”，或者用他给我的药水来治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
 
 > INFO.NAME tt_compassion 536336575864985
 I cured Bulfim gra-Shugharz.
-我治好了巴菲姆·格拉-舒噶兹。
+我治好了布尔菲姆·格拉-舒加兹。
 
 > INFO.NAME tt_compassion 836014959162526210
 Tuls Valen thanked me for curing Bulfim gra-Shugharz.
-图尔斯·瓦伦感谢我治好了巴菲姆·格拉-舒噶兹。
+图尔斯·瓦伦感谢我治好了布尔菲姆·格拉-舒加兹。
 
 > INFO.NAME tt_compassion 34723248094518804
 I told Tuls Valen that Bulfim gra-Shugharz was dead.
-我告诉图尔斯·瓦伦，巴菲姆·格拉-舒噶兹已经死了。
+我告诉图尔斯·瓦伦，布尔菲姆·格拉-舒加兹已经死了。
 
 > INFO.NAME tt_rilmsshoes 116461663793163881
 Endryn Llethan asked me to find the Shoes of St. Rilms and return them to the Temple. A priest recently dreamt that the shoes were in the depths of Ald Sotha northeast of Vivec.
@@ -81725,7 +81725,7 @@ I reported taking care of the haunted house for Nedhelas. Kaye seemed pleased. H
 
 > INFO.NAME ic27_oracle_a 11068257052639322639
 Adusamsi Assurnarairan asked me to recover her ring from Llaren Terano, the sorcerer who captured her. She doesn't sound quite right in the head. She thinks the sorcerer may have poisoned her mind with spells. She says she can use the enchantments to escape. She asked me also to free the slaves here. Llaren Terano has their slave key.
-阿杜萨姆西·阿苏纳莱诺让我从抓走她的巫师拉伦·特兰诺那里找回她的戒指。她看起来精神不太正常。她认为巫师可能用咒语毒害了她的大脑。她说她可以用附魔之术逃走。她还让我释放这里的奴隶们。拉伦·特兰诺有奴隶们的钥匙。 {魔法疾病}
+阿杜萨姆西·阿苏纳莱诺让我从抓走她的术士拉伦·特兰诺那里找回她的戒指。她看起来精神不太正常。她认为术士可能用咒语毒害了她的大脑。她说她可以用附魔之术逃走。她还让我释放这里的奴隶们。拉伦·特兰诺有奴隶们的钥匙。 {魔法疾病}
 
 > INFO.NAME ic27_oracle_a 21377191231692810857
 I recovered Adusamsi's Ring and returned it to her. I suppose she will use its Divine Intervention enchantment to escape. Now I can return to the Oracle and report having completed my task. And I should also bring her the Ice Blade of the Monarch, if I can find it.
@@ -81817,7 +81817,7 @@ Skink would like to arrange a meeting with one of the Wise Women of the Ashlande
 
 > INFO.NAME mg_wisewoman 2620014707133617829
 Nibani Maesa told me that she would never meet with an Argonian Sorcerer.
-尼巴妮·玛伊沙告诉我，她绝不会和阿尔贡的巫师见面。
+尼巴妮·玛伊沙告诉我，她绝不会和阿尔贡的术士见面。
 
 > INFO.NAME mg_wisewoman 2451817196300018626
 Wise Woman Manirai told me she is too busy to meet with Skink-in-Tree's-Shade.
@@ -82721,7 +82721,7 @@ I killed the haunting, and reported to Angaredhel, but he says no matter how oft
 
 > INFO.NAME town_sadrith 223421461584452603
 Angaredhel says the haunting is in the South Turret bed chamber. It's upstairs, then south and up stairs to the room. He says it isn't hard to drive it away, but it always comes back. Mage-Mistress Arara Uvulas, Master Neloth's Mouth, inspected the room, but couldn't say why it reappears or how to stop it. She thinks it may be some mischievous sorcerer. I should go talk to her; she's always at the Telvanni Council House.
-安加雷德尔说闹鬼的地方在南塔的会议厅。从楼上往南走，再上楼梯就到房间了。他说要赶走它并不难，但它总会回来。内洛斯大师的发言人，法师艾拉拉·乌弗拉斯检查了房间，但说不清楚它为什么会再次出现，也不知道如何阻止它。她认为可能是某个调皮的巫师干的。我应该去找她谈谈；她总是在泰瓦尼议会所。
+安加雷德尔说闹鬼的地方在南塔的会议厅。从楼上往南走，再上楼梯就到房间了。他说要赶走它并不难，但它总会回来。内洛斯大师的发言人，法师艾拉拉·乌弗拉斯检查了房间，但说不清楚它为什么会再次出现，也不知道如何阻止它。她认为可能是某个调皮的术士干的。我应该去找她谈谈；她总是在泰瓦尼议会所。
 
 > INFO.NAME town_sadrith 1416122265445217093
 Angaredhel at the Gateway Inn says a ghost keeps reappearing in the South Turret bed chamber. He can't rent the room, and all the guests are in an uproar. Mage-Mistress Arara Uvulas, Master Neloth's Mouth, came to take a look, but said she couldn't see how to stop the hauntings. Angaredhel says the person who gets rid of the ghost permanently will receive a very generous gift from a local enchanter.
@@ -84449,7 +84449,7 @@ There are no witnesses to any of the killings. But in Hlaalu compound, at about 
 
 > INFO.NAME town_vivec 3179627010127551700
 Two outlander victims were found in Foreign Quarters corridors, one on Foreign Quarter Canalside, one in a Hlaalu Compound corridor, and one in the water near the Arena. All were armed. Only one, a mage, appears to have put up a fight. All had their throats slit with a dagger. The two Ordinators with their throats slit were found near the victim at Hlaalu Compound. It may be someone very stealthy or a very powerful sorcerer.
-在外邦区走廊发现两名外地人受害者，在外邦区运河边发现一名，在哈拉鲁驻地走廊发现一名，在竞技场附近的水里发现一名。所有人都携带武器。只有一名法师似乎进行了反抗。他们都被匕首割破了喉咙。被割喉的两名神殿卫兵是在哈拉鲁大院的受害者附近发现的。这可能是一个非常隐蔽的人，也可能是一个非常厉害的巫师。 {神殿卫兵们}
+在外邦区走廊发现两名外地人受害者，在外邦区运河边发现一名，在哈拉鲁驻地走廊发现一名，在竞技场附近的水里发现一名。所有人都携带武器。只有一名法师似乎进行了反抗。他们都被匕首割破了喉咙。被割喉的两名神殿卫兵是在哈拉鲁大院的受害者附近发现的。这可能是一个非常隐蔽的人，也可能是一个非常厉害的术士。 {神殿卫兵们}
 
 > INFO.NAME town_vivec 20718113743117218032
 Elam Andas, chief of Vivec's Order of the Watch, has asked me to find and execute a killer who has slit the throats of five outlanders and two Ordinators.
@@ -89729,7 +89729,7 @@ Continue
 
 > INFO.NAME politics and religion 302356162951420496
 The Imperial colonists and House Hlaalu find common cause in their shared tastes for progress, tolerant polytheism, free trade, and vigorous exploitation of Vvardenfell's untapped resources. The policies of House Telvanni's sorcerer-lords are completely unpredictable, whimsically allying with or opposing one faction or another for their own obscure reasons.
-帝国人和哈拉鲁家族的共同点在于他们对进步、宽容的多神教、自由贸易和大力开发瓦登费尔的未开发资源的共同喜好。泰瓦尼家族的巫师领主们的政策完全难以预料，他们会因为自己模糊不清的原因异想天开地与某个派系结盟或对立。
+帝国人和哈拉鲁家族的共同点在于他们对进步、宽容的多神教、自由贸易和大力开发瓦登费尔的未开发资源的共同喜好。泰瓦尼家族的术士领主们的政策完全难以预料，他们会因为自己模糊不清的原因异想天开地与某个派系结盟或对立。
 
 > INFO.NAME politics and religion 7022303201609527301
 Vvardenfell District's Grand Council, presided over by the sovereign Lord Vedam Dren, Duke of Ebonheart and Vvardenfell, is dominated by five interest groups: the three Great Houses, the Temple, and the Imperial colonists. The Temple and House Redoran are champions of ancient Dunmer customs and privileges, and uncompromising and intolerant worshippers of the native religion call the Tribunal Temple, which venerates three immortal god-kings -- Lord Vivec, Lord Sotha Sil, and Lady Almalexia.
@@ -89741,7 +89741,7 @@ Continue
 
 > INFO.NAME politics and religion 882021571193614081
 The Imperial colonists and House Hlaalu find common cause in their shared tastes for progress, tolerant polytheism, free trade, and vigorous exploitation of Vvardenfell's untapped resources. The policies of House Telvanni's sorcerer-lords are completely unpredictable, whimsically allying with or opposing one faction or another for their own obscure reasons.
-帝国人和哈拉鲁家族的共同点在于他们对进步、宽容的多神教、自由贸易和大力开发瓦登费尔的未开发资源的共同喜好。泰瓦尼家族的巫师领主们的政策完全难以预料，他们会因为自己模糊不清的原因异想天开地与某个派系结盟或对立。
+帝国人和哈拉鲁家族的共同点在于他们对进步、宽容的多神教、自由贸易和大力开发瓦登费尔的未开发资源的共同喜好。泰瓦尼家族的术士领主们的政策完全难以预料，他们会因为自己模糊不清的原因异想天开地与某个派系结盟或对立。
 
 > INFO.NAME politics and religion 4676632922705519
 Vvardenfell District's Grand Council, presided over by the sovereign Lord Vedam Dren, Duke of Ebonheart and Vvardenfell, is dominated by five interest groups: the three Great Houses, the Temple, and the Imperial colonists. The Temple and House Redoran are champions of ancient Dunmer customs and privileges, and uncompromising and intolerant worshippers of the native religion call the Tribunal Temple, which venerates three immortal god-kings -- Lord Vivec, Lord Sotha Sil, and Lady Almalexia.
@@ -90313,7 +90313,7 @@ Wraithguard's primary function is to protect the wearer from the fatal energies 
 
 > INFO.NAME dagoth ur's servants 3071827592150624738
 Chief among his servants are his seven brothers, the ash vampires, powerful heartwights and cunning sorcerers of old. These creatures appear to die, but always are revived at the Heart. Somehow Dagoth Ur has conferred some portion of his immortality upon them. Or perhaps they sustain themselves through more conventional sorcery.
-他的仆人中最主要的是他的七个兄弟 -- 灰烬吸血鬼、强大的心魔和狡猾的古代巫师。这些生物看似会死亡，但总会在心脏处复活。达格斯·乌尔以某种方式将自己的部分不死之身赋予了他们。又或者，它们通过更传统的巫术维持着自己的生命。
+他的仆人中最主要的是他的七个兄弟 -- 灰烬吸血鬼、强大的心魔和狡猾的古代术士。这些生物看似会死亡，但总会在心脏处复活。达格斯·乌尔以某种方式将自己的部分不死之身赋予了他们。又或者，它们通过更传统的巫术维持着自己的生命。
 
 > INFO.NAME dagoth ur's servants 2363974602738031516
 These are the monstrous servants of Dagoth Ur known by name to natives of Vvardenfell. Corprus beasts include the corprus stalker and the lame corprus. Lesser Dagoth followers include the ash slave and ash zombie. The greatest, most feared of Dagoth Ur's servants are the ash ghoul, the ascended sleeper, and the ash vampire.
@@ -91205,7 +91205,7 @@ No, Telvanni make the worst councilors. I wouldn't listen to their advice if I w
 
 > INFO.NAME telvanni councilors 23403290561736116141
 I am told that wizards who speak for the Telvanni councilors may be found in a strange building in Sadrith Mora. The councilors themselves are ageless sorcerers living in the towers scattered over Vvardenfell. I know nothing about them, except that they are old, terrible, and evil.
-我听说在萨德瑞斯-莫拉的一栋奇怪建筑里能找到为泰瓦尼议员说话的巫师。议员本身是不老的巫师，住在散布于瓦登费尔的塔楼里。我对他们一无所知，只知道他们古老、可怕、邪恶。
+我听说在萨德瑞斯-莫拉的一栋奇怪建筑里能找到为泰瓦尼议员说话的巫师。议员本身是不老的术士，住在散布于瓦登费尔的塔楼里。我对他们一无所知，只知道他们古老、可怕、邪恶。
 
 > INFO.NAME telvanni councilors 165088352650819690
 You should consult the recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences. Let me mark the locations of the councilor's towers on your map -- Tel Aruhn, Tel Vos, Tel Mora, Tel Branora. And Tel Naga is right in the center of Sadrith Mora. And don't forget Baladas Demnevanni. He is a councilor of House Telvanni now as well.
@@ -91857,7 +91857,7 @@ A fourth Great House style, the Velothi or Temple style, is evident in the monum
 
 > INFO.NAME three main cultures 573549541970932190
 The three Dunmer Great Houses that have settled Vvardenfell have distinctive architectures and lifestyles. Aristocratic, warlike Great House Redoran favors a spacious, irregular, organic building style. Great House Hlaalu, an aggressive mercantile culture, strongly admiring and influenced by Imperial culture, prefers simpler, more modern, more densely populated settlements, while bizarre wizard towers dominate mushroom-hut villages of the Great House Telvanni sorcerer-lords.
-定居在瓦登费尔的三个丹莫大家族拥有各具特色的建筑和生活方式。贵族出身、好战的瑞多然家族偏爱宽敞、不规定、有机的建筑风格。哈拉鲁家族是一种积极进取的商业贸易文化，强烈崇拜帝国文化并受其影响，喜欢更简单、更现代、人口更稠密的定居点，而怪异的巫师塔楼则主导着泰瓦尼家族巫师的蘑菇小屋村庄。 {忙,帝国人,帝国教团}
+定居在瓦登费尔的三个丹莫大家族拥有各具特色的建筑和生活方式。贵族出身、好战的瑞多然家族偏爱宽敞、不规定、有机的建筑风格。哈拉鲁家族是一种积极进取的商业贸易文化，强烈崇拜帝国文化并受其影响，喜欢更简单、更现代、人口更稠密的定居点，而怪异的巫师塔楼则主导着泰瓦尼家族术士领主们的蘑菇小屋村庄。 {忙,帝国人,帝国教团}
 
 > INFO.BNAM three main cultures 573549541970932190 c1
 Continue
@@ -91877,7 +91877,7 @@ A fourth Great House style, the Velothi or Temple style, is evident in the monum
 
 > INFO.NAME three main cultures 894068383125210191
 The three Dunmer Great Houses that have settled Vvardenfell have distinctive architectures and lifestyles. Aristocratic, warlike Great House Redoran favors a spacious, irregular, organic building style. Great House Hlaalu, an aggressive mercantile culture, strongly admiring and influenced by Imperial culture, prefers simpler, more modern, more densely populated settlements, while bizarre wizard towers dominate mushroom-hut villages of the Great House Telvanni sorcerer-lords.
-定居在瓦登费尔的三个丹莫大家族拥有各具特色的建筑和生活方式。贵族出身、好战的瑞多然家族偏爱宽敞、不规定、有机的建筑风格。哈拉鲁家族是一种积极进取的商业贸易文化，强烈崇拜帝国文化并受其影响，喜欢更简单、更现代、人口更稠密的定居点，而怪异的巫师塔楼则主导着泰瓦尼家族巫师的蘑菇小屋村庄。 {忙,帝国人,帝国教团}
+定居在瓦登费尔的三个丹莫大家族拥有各具特色的建筑和生活方式。贵族出身、好战的瑞多然家族偏爱宽敞、不规定、有机的建筑风格。哈拉鲁家族是一种积极进取的商业贸易文化，强烈崇拜帝国文化并受其影响，喜欢更简单、更现代、人口更稠密的定居点，而怪异的巫师塔楼则主导着泰瓦尼家族术士领主们的蘑菇小屋村庄。 {忙,帝国人,帝国教团}
 
 > INFO.BNAM three main cultures 894068383125210191 c1
 Continue
@@ -94325,7 +94325,7 @@ We know of the incident of which you speak. Tinti and Hairan are honorable warri
 
 > INFO.NAME slaughterfish bite 3039311244198314745
 Ahh...this man has been bitten by a slaughterfish. That would explain the behavior you've described to me. Those slaughterfish bites can cause Greenspore on rare occasions. Once afflicted with it, the victim will often have violent outbursts and show signs of dementia. But, enough talk; this man needs my help.
-啊…这个人被食人鱼咬过。这就能解释你描述的行为了。在极少数情况下，食人鱼咬伤会导致绿孢子症。一旦染上这种病，受害者通常会暴跳如雷，并出现痴呆症状。好了，别说了，这个人需要我的帮助。 {谈}
+啊…这个人被食人鱼咬过。这就能解释你描述的行为了。在极少数情况下，食人鱼咬伤会导致绿孢病。一旦染上这种病，受害者通常会暴跳如雷，并出现痴呆症状。好了，别说了，这个人需要我的帮助。 {谈}
 
 > INFO.NAME slaughterfish bite 24134226994821737
 He should be fine now. It is good that you brought him here.
@@ -95813,11 +95813,11 @@ I am too busy to meet with animals.
 
 > INFO.NAME arrange a meeting 3025832412143820982
 The Urshilaku will never meet with an Argonian Sorcerer. You may be Nerevarine, but your judgement is clouded by your Outlander past, or you would not ask such questions.
-乌尔希拉库绝不会见阿尔贡的巫师。你也许是尼瑞瓦因，但你的判断力被外地人的过去蒙蔽了，否则你不会问这种问题。
+乌尔希拉库绝不会见阿尔贡的术士。你也许是尼瑞瓦因，但你的判断力被外地人的过去蒙蔽了，否则你不会问这种问题。
 
 > INFO.NAME arrange a meeting 18358113672639716828
 The Urshilaku will never meet with an Argonian Sorcerer.
-乌尔希拉库绝不会与阿尔贡的巫师见面。
+乌尔希拉库绝不会与阿尔贡的术士见面。
 
 > INFO.NAME arrange a meeting 2844133711727116111
 I have not yet had word from Arch-Mage Trebonius in Vivec. Until then, I must consider you expelled.
@@ -97465,31 +97465,31 @@ Absorption spells transfer fundamental attributes from the victim to the caster.
 
 > INFO.NAME domination spells 15682663842864130
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
-支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、命令生物和命令人形。 {指示}
+支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、控制生物和控制人形生物。 {指示}
 
 > INFO.NAME domination spells 3216521985792816683
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
-支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、命令生物和命令人形。 {指示}
+支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、控制生物和控制人形生物。 {指示}
 
 > INFO.NAME domination spells 23662178662511613319
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
-支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、命令生物和命令人形。 {指示}
+支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、控制生物和控制人形生物。 {指示}
 
 > INFO.NAME domination spells 5977132241682112894
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
-支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、命令生物和命令人形。 {指示}
+支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、控制生物和控制人形生物。 {指示}
 
 > INFO.NAME domination spells 1689116672131531659
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
-支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、命令生物和命令人形。 {指示}
+支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、控制生物和控制人形生物。 {指示}
 
 > INFO.NAME domination spells 15644975454601995
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
-支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、命令生物和命令人形。 {指示}
+支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、控制生物和控制人形生物。 {指示}
 
 > INFO.NAME domination spells 13622126102273914180
 Domination spells permit the caster to bend the will of creatures and humanoids to the caster's service. Affected creatures and humanoids will not, alas, listen to or follow orders, but they will feel a compulsion to aid and protect the caster. Most otherworldly creatures are unaffected, though the undead can be compelled to avoid the caster. The most common domination spells are: turn undead, command creatures, and command humanoids.
-支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、命令生物和命令人形。 {指示}
+支配类法术允许施法者将人形和非人形生物的意志屈从于施法者。受影响的人形和非人形生物不会直接听从或服从命令，但他们会感到一种想要帮助和保护施法者的冲动。大多数迪德拉生物都不会受到影响，不过亡灵会被蛊惑然后避开施法者。最常见的支配法术有：转化亡灵、控制生物和控制人形生物。 {指示}
 
 > INFO.NAME mortar and pestle 259837412284349153
 Mortar and Pestle is a bowl and grinding tool for mechanically reducing raw materials into the powders or pulps used in alchemical preparations.
@@ -101155,31 +101155,31 @@ Transport spells instantaneously transport the caster from one location to anoth
 
 > INFO.NAME summoning spells 840729737232129082
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
-召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级巫师外，对其他人来说都不实用。
+召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级术士外，对其他人来说都不实用。
 
 > INFO.NAME summoning spells 2782091362716810383
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
-召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级巫师外，对其他人来说都不实用。
+召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级术士外，对其他人来说都不实用。
 
 > INFO.NAME summoning spells 815710329405228975
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
-召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级巫师外，对其他人来说都不实用。
+召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级术士外，对其他人来说都不实用。
 
 > INFO.NAME summoning spells 3050776952842713146
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
-召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级巫师外，对其他人来说都不实用。
+召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级术士外，对其他人来说都不实用。
 
 > INFO.NAME summoning spells 9803214401253319157
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
-召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级巫师外，对其他人来说都不实用。
+召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级术士外，对其他人来说都不实用。
 
 > INFO.NAME summoning spells 3688255662191031689
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
-召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级巫师外，对其他人来说都不实用。
+召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级术士外，对其他人来说都不实用。
 
 > INFO.NAME summoning spells 1756623776980030532
 Summoning spells summon otherworldly creatures from the outer realms to ward and protect the caster for the duration of the magical effect. More common spells of this sort include: summon ancestral ghost, summon least bonewalker, summon greater bonewalker, summon skeletal minion, and summon scamp. More powerful spells of this class, like summon dremora and summon daedroth, expend too much magicka to be practical for all but master sorcerers.
-召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级巫师外，对其他人来说都不实用。
+召唤造物类法术从湮灭领域召唤异界生物，在魔法效果持续期间守护和保护施法者。比较常见的此类法术包括：召唤先祖幽魂、召唤小型骸骨行者、召唤大型骸骨行者、召唤枯骨仆从和召唤劣魔。更强大的此类法术，如召唤魔人和召唤迪德洛斯，消耗的魔力过多，除了大师级术士外，对其他人来说都不实用。
 
 > INFO.NAME mage disciplines 274555612431324717
 The nine disciplines traditionally associated with the Mages Guild are: enchant, destruction, alteration, illusion, conjuration, mysticism, restoration, alchemy, and unarmored.
@@ -101491,7 +101491,7 @@ I inspected the manifestations in the South Turret bed chamber of the Gateway In
 
 > INFO.NAME gateway haunting 21050220211288029122
 The ghost is in the South Turret bed chamber if you want look for yourself. Head upstairs, then keep heading south and up stairs to the room. It isn't hard to drive it away, but it always comes back. Mage-Mistress Arara Uvulas, Master Neloth's Mouth, inspected the room, but couldn't say why it reappears or how to stop it. Go talk to her if you like; she's always at the Telvanni Council House. She thinks it may be some mischievous sorcerer. If that's true, find out who is responsible, and make it stop!
-鬼魂就在南塔的会议厅里，如果你想自己去看的话。先上楼，然后一直往南走，上楼梯到房间。要赶走它并不难，但它总会回来。内洛斯大师的发言人女法师艾拉拉·乌弗拉斯检查了这个房间，但说不出它为什么会再出现，也不知道如何阻止它。你可以去找她谈谈，她一直都在泰瓦尼议会所。她认为可能是某个调皮的巫师干的。如果真是这样，那就找出罪魁祸首，让它停止！
+鬼魂就在南塔的会议厅里，如果你想自己去看的话。先上楼，然后一直往南走，上楼梯到房间。要赶走它并不难，但它总会回来。内洛斯大师的发言人女法师艾拉拉·乌弗拉斯检查了这个房间，但说不出它为什么会再出现，也不知道如何阻止它。你可以去找她谈谈，她一直都在泰瓦尼议会所。她认为可能是某个调皮的术士干的。如果真是这样，那就找出罪魁祸首，让它停止！
 
 > INFO.NAME gateway haunting 28528161891890919905
 Angaredhel mentioned your handling of the Gateway haunting affair. It was quite an embarrassment for our house, and we are grateful.
@@ -104995,7 +104995,7 @@ I would rather die free than be a slave again.
 
 > INFO.NAME slave rebellion 11801246712219815016
 I am surprised you are willing to listen... Will you help us? I was a sorcerer in Black Marsh, but I cannot cast spells with these slave bracers on. Will you find the key to our slave bracers and free us? There may be a key here, but we have not yet found it. I am sure there is a key in Tel Branora.
-你竟然愿意听我说…你愿意帮我们吗？我曾是黑沼泽的巫师，但戴着这奴隶手铐无法施法，你能帮我们找到奴隶手镯的钥匙，然后放了我们吗？这里可能有钥匙，但我们还没找到。我确信泰尔-布勒诺拉有一把钥匙。
+你竟然愿意听我说…你愿意帮我们吗？我曾是黑沼泽的术士，但戴着这奴隶手铐无法施法，你能帮我们找到奴隶手镯的钥匙，然后放了我们吗？这里可能有钥匙，但我们还没找到。我确信泰尔-布勒诺拉有一把钥匙。
 
 > INFO.BNAM slave rebellion 11801246712219815016 c1
 Agree to free them.
@@ -107831,7 +107831,7 @@ Cure Common Disease and Cure Blight Disease potions are most popular with travel
 
 > INFO.NAME popular scrolls 16746157653118729443
 Vigor and Vitality are our best-selling bargain items, restoring fatigue and health, respectively. Almsivi Intervention and Divine Intervention transport you instantly to the nearest Temple or nearest Imperial shrine -- good for routine or emergency transportation. Heartwise helps with persuasion. Summon Skeletal Minion brings help in a jiffy. And Drathis' Winter Guest does a lot of damage at a touch -- handy to whittle a too-tough opponent down to size.
-活力卷轴和生命卷轴是我们最畅销的商品，它们分别能恢复体力和生命。奥姆希维干预卷轴和圣灵干预卷轴可以立即将你送到最近的审判席神殿或最近的帝国人圣祠 -- 适合于日常或紧急传送。智慧之心卷轴有助于说服他人。召唤枯骨仆从卷轴可以给你带来一个短暂的援手。德拉西斯的冬客卷轴可以一触即发造成大量伤害 -- 以便于将强悍的对手击溃。
+活力卷轴和生机卷轴是我们最畅销的商品，它们分别能恢复体力和生命。奥姆希维干预卷轴和圣灵干预卷轴可以立即将你送到最近的审判席神殿或最近的帝国人圣祠 -- 适合于日常或紧急传送。智慧之心卷轴有助于说服他人。召唤枯骨仆从卷轴可以给你带来一个短暂的援手。德拉西斯的冬客卷轴可以一触即发造成大量伤害 -- 以便于将强悍的对手击溃。
 
 > INFO.NAME help in a fight 1570123766176028329
 Ajira sells potions of restore health for when you are bleeding. And potions of restore fatigue when you are weary.
@@ -110455,7 +110455,7 @@ Let me tell you about current events. The Great Houses are always fighting each 
 
 > INFO.NAME morrowind lore 997241371403727396
 Three Great Houses dominate Vvardenfell's politics. Aristocratic, warlike House Redoran champions ancient Dunmer honor and morality, and strongly supports the Temple. Great House Hlaalu is an aggressive mercantile culture, influenced by Imperial values of progress, tolerant polytheism, and free enterprise. The sorcerer-lords of Great House Telvanni dedicate themselves to ruthless competition among themselves for arcane mastery, and competition with other Great Houses for Vvardenfell's resources.
-三大家族主导着瓦登费尔的政治。贵族出身、好战的瑞多然家族崇尚古老的丹莫荣誉与道德，大力支持神殿。哈拉鲁家族是一个积极进取的重商文化，受到帝国人的进步价值观、宽容的多神教和自由企业贸易商的影响。泰瓦尼家族的巫师领主们致力于无情的竞争，相互之间争夺奥术精通，并与其他大家族争夺瓦登费尔的资源。
+三大家族主导着瓦登费尔的政治。贵族出身、好战的瑞多然家族崇尚古老的丹莫荣誉与道德，大力支持神殿。哈拉鲁家族是一个积极进取的重商文化，受到帝国人的进步价值观、宽容的多神教和自由企业贸易商的影响。泰瓦尼家族的术士领主们致力于无情的竞争，相互之间争夺奥术精通，并与其他大家族争夺瓦登费尔的资源。
 
 > INFO.NAME morrowind lore 2796331215720730867
 Let me tell you about Morrowind's economy. Morrowind used to be an agrarian aristocracy, mostly free farmers and herders and fishermen ruled by great houses and their noble councils. But since the Imperial occupation, and especially here on Vvardenfell, the Dunmer are developing a mercantile economy on the model of the Empire, ruled by the Emperor, law, and legions, but driven by trade in crafts and goods.
@@ -111139,7 +111139,7 @@ The Imperial legions are mighty warriors. No one can defeat them when they march
 
 > INFO.NAME morrowind lore 12173300901755031800
 Three Dunmer Great Houses dominate Vvardenfell politics. The Hlaalu are loyal friends of the Empire, and love trade and wealth. The Redoran honor the traditions of the noble warrior houses. The Telvanni are ruled by thousand-year-old sorcerers who care for nothing but magic and power.
-三个丹莫大家族主宰着瓦登费尔的政治。哈拉鲁是帝国的忠实朋友，热爱贸易和财富。瑞多然族尊崇贵族武士家族的传统。泰瓦尼由千年巫师统治，他们只关心魔法和权力。 {泰姆瑞尔帝国}
+三个丹莫大家族主宰着瓦登费尔的政治。哈拉鲁是帝国的忠实朋友，热爱贸易和财富。瑞多然族尊崇贵族武士家族的传统。泰瓦尼由千年术士统治，他们只关心魔法和权力。 {泰姆瑞尔帝国}
 
 > INFO.NAME morrowind lore 1734188513187019186
 The Dunmer don't like outlanders. After four centuries, they still aren't really part of the Empire. I understand their loyalty to religion and culture, but at heart, I think they just hate other races.
@@ -111203,7 +111203,7 @@ Worn-out weapons and armor work poorly. Repair them yourself, if you have some s
 
 > INFO.NAME who to talk to 860127356318808805
 Smiths know about weapons and armor, and how to repair them. Clothiers know about clothes. Enchanters know about enchanting and enchanted items. Ashlanders know about ashlands ecology and geography. Nobles can tell you about the Great Houses. Priests know about cults and shrines. Savants know about history, speechcraft, and language. Sorcerers know about daedra. Barbarians know about creatures. Mages know about undead. Miners know about eggmines and kwama. Scouts know about places, and how to reach them.
-铁匠了解武器和盔甲，知道如何修理它们。裁缝了解服装。附魔师了解附魔和附魔物品。灰烬之民了解灰烬之地的生态和地理。贵族可以向你介绍各大家族。牧师了解教派和圣祠。精通者了解历史、语言和文字。巫师了解迪德拉。野蛮人了解生物。法师了解亡灵。矿工了解卵矿场和夸蚂。斥候了解地点和到达地点的方法。 {口才,尼希斯卵矿场}
+铁匠了解武器和盔甲，知道如何修理它们。裁缝了解服装。附魔师了解附魔和附魔物品。灰烬之民了解灰烬之地的生态和地理。贵族可以向你介绍各大家族。牧师了解教派和圣祠。精通者了解历史、语言和文字。术士了解迪德拉。野蛮人了解生物。法师了解亡灵。矿工了解卵矿场和夸蚂。斥候了解地点和到达地点的方法。 {口才,尼希斯卵矿场}
 
 > INFO.NAME throwing knife 2786027748292154557
 Small thrown weapons are a Khajiit specialty. Throwing knives are useful in cultures like the Khajiit whose warrior classes disdain heavy weapons and heavy armors, relying on stealth and maneuver for success in personal and clan combats. Throwing knives are also popular in criminal subcultures.
@@ -111211,11 +111211,11 @@ Small thrown weapons are a Khajiit specialty. Throwing knives are useful in cult
 
 > INFO.NAME ancestor ghost 2284117320853827076
 Ancestor ghosts commonly defend the tombs of clan and kin, but may also be summoned and controlled by sorcerers. Ancestor ghosts are aggressive but not very dangerous -- IF you have an enchanted or silvered weapon, or deadly sorcery.
-先祖幽灵通常守护着氏族和亲属的坟墓，但也可能被巫师召唤和控制。先祖幽魂具有攻击性，但并不十分危险 -- 如果你有附魔的或银质的武器，或者带有致命的法术的话。
+先祖幽灵通常守护着氏族和亲属的坟墓，但也可能被术士召唤和控制。先祖幽魂具有攻击性，但并不十分危险 -- 如果你有附魔的或银质的武器，或者带有致命的法术的话。
 
 > INFO.NAME ancestor ghost 19796655898998177
 Ancestor ghosts commonly defend the tombs of clan and kin, but may also be summoned and controlled by sorcerers. Ancestor ghosts are aggressive but not very dangerous  -- IF you have an enchanted or silvered weapon, or deadly sorcery.
-先祖幽灵通常守护着氏族和亲属的坟墓，但也可能被巫师召唤和控制。先祖幽魂具有攻击性，但并不十分危险 -- 如果你有附魔的或银质的武器，或者带有致命的法术的话。
+先祖幽灵通常守护着氏族和亲属的坟墓，但也可能被术士召唤和控制。先祖幽魂具有攻击性，但并不十分危险 -- 如果你有附魔的或银质的武器，或者带有致命的法术的话。
 
 > INFO.NAME flame atronach 22010612395371320
 The flame atronach is a powerful Daedric summoning associated with elemental fire. Crystalline elemental fire compounds called fire salts may be salvaged from the remains of banished fire atronachs.
@@ -111383,31 +111383,31 @@ The waters of the Padomaic Ocean completely surround Tamriel. The continent of A
 
 > INFO.NAME common disease 48547332137273430
 There are sixteen common diseases, outlander: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. The healers of the settled peoples divide them into three kinds: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}
+外地人的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。
 
 > INFO.NAME common disease 7323204272725211542
 There are sixteen common diseases, outlander: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. The healers of the settled peoples divide them into three kinds: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-外地人的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。 {腹疼}
+外地人的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。
 
 > INFO.NAME common disease 1615697381450326313
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME common disease 17749156981068711093
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME common disease 118278111503127637
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME common disease 28374665720854718
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、心智剧毒、寒颤症、慢性痴呆症、绿孢病、湿气寄生虫、锈性下疳、消沉病、共济失调病、凋零病、沼泽热、肠颤症、褐腐病、黄虱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。 {腹疼}
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME blight disease 17481279481519214044
 Lord Dagoth has sent the blight to destroy the foreigners, and to chasten those Dunmer who bend to foreign will. Those who oppose Lord Dagoth shall wither and die, while those who join Lord Dagoth shall be healed and strengthened, filled with the power and glory of Red Mountain, and inspired by the dreams of Dagoth Ur.
-达格斯大人派枯萎病来消灭外邦人，并惩罚那些屈从于外邦人意志的丹莫。反对达格斯大人的人将会因枯萎之症凋零而亡，而投靠达格斯大人的人将会得到治愈和力量，充满红山的力量和荣耀，并被达格斯·乌尔的梦想所鼓舞。 {沙尔}
+达格斯大人派枯萎之症来消灭外邦人，并惩罚那些屈从于外邦人意志的丹莫。反对达格斯大人的人将会因凋零症而亡，而投靠达格斯大人的人将会得到治愈和力量，充满红山的力量和荣耀，并被达格斯·乌尔的梦想所鼓舞。 {沙尔}
 
 > INFO.NAME blight disease 32507101472165631161
 Ridding a colony of blight is expensive and dangerous, because of the fierce attacks of sick kwama foragers and warriors, and the risk of spreading disease.
@@ -111819,31 +111819,31 @@ Restore spells restore fundamental attributes reduced by attribute-damaging magi
 
 > INFO.NAME fortify spells 2455689471078230594
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生命强化术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 3123917090226584833
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生命强化术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 70456088203228809
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生命强化术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 17760325603127919468
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生命强化术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 89051981737381826
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生命强化术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 1014728330323026151
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生命强化术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 3251759921593423704
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生命强化术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME vampirism cure 24767148812529226840
 If the lord Molag Bal wishes to help you, he will. He has no greater love for your kind than any other.
@@ -113779,7 +113779,7 @@ The diseased shalk has been infecting Kwama and miners, so the mine's been aband
 
 > INFO.NAME shishi report 16059164232654622362
 You found a Telvanni sorcerer? I'm relieved. I thought I might be going crazy.
-你找到泰瓦尼巫师了？我松了口气，我还以为自己要疯了。
+你找到泰瓦尼术士了？我松了口气，我还以为自己要疯了。
 
 > INFO.NAME shishi report 201245784706824603
 Brerama Selas believes that all the Telvanni have been found, but I don't know... I think there may be a few hiding somewhere. Sometimes I hear strange noises in the room below this one.
@@ -114039,7 +114039,7 @@ I was blind, but Azura's star has guided me through my dreams. Vivec's high prie
 
 > INFO.NAME seventh trial 1858721136248129081
 'The cursed false gods' must be the Tribunal. They are surely false gods, evil sorcerers and necromancers, and they murdered Nerevar so they might set themselves up as gods. "Binds the broken" must refer to Nerevar's broken promise to the Ashlanders to honor the ways of the Spirits and rights of the Land.
-“被诅咒的伪神”一定是审判席。他们肯定是伪神，是邪恶的巫师和死灵法师，他们谋杀了尼瑞瓦，好让自己成为神。“束缚破碎者”一定是指尼瑞瓦违背了对灰烬之民的承诺，不遵守神灵之道和土地权利。
+“被诅咒的伪神”一定是审判席。他们肯定是伪神，是邪恶的术士和死灵法师，他们谋杀了尼瑞瓦，好让自己成为神。“束缚破碎者”一定是指尼瑞瓦违背了对灰烬之民的承诺，不遵守神灵之道和土地权利。
 
 > INFO.NAME sealed report 2938014119877632517
 You already gave me the sealed report, %PCName.
@@ -114383,7 +114383,7 @@ Have you asked yourself WHY you are doing Azura's bidding? Are you in the habit 
 
 > INFO.NAME moon-and-star 24534293452671821209
 The enchanted ring called Moon-and-Star -- or One-Clan-Under-Moon-and-Star, as the Ashlanders call it -- was forged for the hero Nerevar by one of the Dwemer Sorcerer-Priest Kagrenac's smiths, and blessed by the Daedra Lord Azura. The ring gave Nerevar supernatural powers of persuasion and indisputable proof of identity, since any other who tried to wear the ring would be killed instantly.
-这枚名为星与月的附魔戒指 -- 灰烬之民们称之为“一统部族的星与月”-- 是由一位锻莫族巫师兼祭司卡格瑞纳克的铁匠为英雄尼瑞瓦铸造的，并得到了迪德拉领主阿祖拉的祝福。这枚戒指赋予了尼瑞瓦超凡的说服力和无可争辩的身份证明，因为除了尼瑞瓦以外任何试图佩戴这枚戒指的人都会被立即杀死。 {证据}
+这枚名为星与月的附魔戒指 -- 灰烬之民们称之为“一统部族的星与月”-- 是由一位锻莫族术士兼祭司卡格瑞纳克的铁匠为英雄尼瑞瓦铸造的，并得到了迪德拉领主阿祖拉的祝福。这枚戒指赋予了尼瑞瓦超凡的说服力和无可争辩的身份证明，因为除了尼瑞瓦以外任何试图佩戴这枚戒指的人都会被立即杀死。 {证据}
 
 > INFO.NAME moon-and-star 15768297661664816899
 You wear the Moon-and-Star of Nerevar. The legend of Moon-and-Star is known to all loremasters. No man but Nerevar may wear that ring and live. This is a true sign. This is a miracle, a blessing of Azura, and no man may deny it.
@@ -117751,7 +117751,7 @@ I hear you're in a little trouble with the law. Why don't you pay the magistrate
 
 > INFO.NAME latest rumors 1091125581126610899
 Heard about the Gateway haunting? A ghost is haunting the South Turret bed chamber. Somebody drives it out? And it comes right back. The Gateway is too new to have its own haunts. Some sorcerer up to mischief is my guess. But it's ruining business at the Gateway, and Angaredhel the Prefect is NOT happy. Be good if somebody would take care of it before someone gets hurt.
-听说闸门闹鬼的事了吗？有个鬼魂在南炮塔会议厅闹鬼，有人把它赶出去了？然后它又回来了。闸门是新建的，没听说过这地方以前有鬼魂。我猜是某个巫师在捣鬼，但它毁了闸门的生意，安加雷德尔长官很不高兴。如果有人能在有人受伤之前处理一下就好了。
+听说闸门闹鬼的事了吗？有个鬼魂在南炮塔会议厅闹鬼，有人把它赶出去了？然后它又回来了。闸门是新建的，没听说过这地方以前有鬼魂。我猜是某个术士在捣鬼，但它毁了闸门的生意，安加雷德尔长官很不高兴。如果有人能在有人受伤之前处理一下就好了。
 
 > INFO.NAME latest rumors 362626263324774509
 That bigmouth Varro over at Moonmoth Legion Fort says he's going to stop corruption. He doesn't know what he's talking about. What he calls corruption is just the routine greasing of the wheels of commerce. These outlanders come in here and think they know how things should work. They don't understand anything about the way things work in Morrowind.
@@ -117851,7 +117851,7 @@ You've got to hand it to the little daemon-charmers. They surprised us. The Telv
 
 > INFO.NAME latest rumors 27359308853209726135
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Got to be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-有什么能在神殿卫兵们拔出武器之前杀死他们？割断他们的喉咙？就在维威克发生过，肯定是巫师或吸血鬼干的。正义厅堂的监察办事处很担心，他们会派自己的神殿卫兵去追捕凶手。有传言说监察办事处正在寻求外援。你是外地人，你知道另外五个外地人也是这样被杀的吗？
+有什么能在神殿卫兵们拔出武器之前杀死他们？割断他们的喉咙？就在维威克发生过，肯定是术士或吸血鬼干的。正义厅堂的监察办事处很担心，他们会派自己的神殿卫兵去追捕凶手。有传言说监察办事处正在寻求外援。你是外地人，你知道另外五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 7897104801480424251
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
@@ -118367,7 +118367,7 @@ Yes, I made an agreement with the Guild to bring me a potion recipe. Why are you
 
 > INFO.NAME seven victims 12528203581531321491
 The two Ordinators were found dead near the victim at Hlaalu Compound, and we think they coincidentally interrupted the killer at work. Both had their throats slit with a dagger. That neither Ordinator had drawn a weapon is extremely unsettling. It suggests either extraordinary stealth, or a very powerful sorcerer. That's all we know about the victims. And there's not much information from witnesses, either.
-这两名神殿卫兵被发现死在哈拉鲁驻地的死者附近，我们认为他们是在凶手工作时巧合地打断了凶手的工作。两人的喉咙都被匕首割破了，神殿卫兵们都没有拔出武器，这让人非常不安。这说明凶手要么具有超常的隐蔽性，要么就是一个非常厉害的巫师。这就是我们所知道的关于受害者的一切。证人提供的信息也不多。 {发现死亡}
+这两名神殿卫兵被发现死在哈拉鲁驻地的死者附近，我们认为他们是在凶手工作时巧合地打断了凶手的工作。两人的喉咙都被匕首割破了，神殿卫兵们都没有拔出武器，这让人非常不安。这说明凶手要么具有超常的隐蔽性，要么就是一个非常厉害的术士。这就是我们所知道的关于受害者的一切。证人提供的信息也不多。 {发现死亡}
 
 > INFO.NAME seven victims 76026875168720375
 None of the five outlander victims had been on Vvardenfell longer than a week. Two were found in Foreign Quarters corridors, one on Foreign Quarter Canalside, one in a Hlaalu Compound corridor, and one in the water near the Arena. All were armed. Only one, a mage, appears to have put up a fight. All had their throats slit with a dagger. Until the two Ordinators were killed, we thought it might be an anti-Imperial fanatic. And it still might be.
@@ -121357,11 +121357,11 @@ I need three portions of vampire dust for a spell I am currently researching. Yo
 
 > INFO.NAME vampire dust 2886236132659018225
 Of interest only to necromancers and alchemists, vampire dust is collected solely from the withering corpses of slain vampires.
-只有死灵法师和炼金术士才会对吸血鬼灰烬感兴趣，它是从被杀死的吸血鬼凋零的尸体上采集的。
+只有死灵法师和炼金术士才会对吸血鬼灰烬感兴趣，它是从被杀死的吸血鬼凋零的尸体上采集的。 {凋零症}
 
 > INFO.NAME vampire dust 19179246992116920010
 Of interest only to necromancers and alchemists, vampire dust is collected solely from the withering corpses of slain vampires.
-只有死灵法师和炼金术士才会对吸血鬼灰烬感兴趣，它是从被杀死的吸血鬼凋零的尸体上采集的。
+只有死灵法师和炼金术士才会对吸血鬼灰烬感兴趣，它是从被杀死的吸血鬼凋零的尸体上采集的。 {凋零症}
 
 > INFO.NAME black anther 8237287811732916219
 Black anther is a flowering plant that grows along Azura's Coast.
@@ -121405,19 +121405,19 @@ Rust chancre is a mild common disease affecting a victim's mobility and behavior
 
 > INFO.NAME collywobbles 28437140812623026640
 Collywobbles is a serious common disease affecting a victim's strength, endurance, and mobility. Symptoms include uncontrollable shaking and chronic weariness. It may be contracted from the fiery shalk.
-肠颤是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
+肠颤症是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
 
 > INFO.NAME collywobbles 8317265233196924781
 Collywobbles is a serious common disease affecting a victim's strength, endurance, and mobility. Symptoms include uncontrollable shaking and chronic weariness. It may be contracted from the fiery shalk.
-肠颤是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
+肠颤症是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
 
 > INFO.NAME collywobbles 807135221651825426
 Collywobbles is a serious common disease affecting a victim's strength, endurance, and mobility. Symptoms include uncontrollable shaking and chronic weariness. It may be contracted from the fiery shalk.
-肠颤是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
+肠颤症是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
 
 > INFO.NAME collywobbles 3086479701889229858
 Collywobbles is a serious common disease affecting a victim's strength, endurance, and mobility. Symptoms include uncontrollable shaking and chronic weariness. It may be contracted from the fiery shalk.
-肠颤是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
+肠颤症是一种严重的常见疾病，会影响受害者的体力、耐力和行动能力。症状包括无法控制的腹疼、颤抖和长期疲倦。火砂壳虫可能会感染这种疾病。 {力量,合同,沙尔}
 
 > INFO.NAME bitter coast 297272151202249876
 The western coast of Vvardenfell from Seyda Neen north to Gnaar Mok is called the Bitter Coast. The salt marshes and humid swamps of this region are uninhabited, with the only settlements found at the good harbors of Gnaar Mok, Hla Oad, and Seyda Neen. Also called 'the Smuggler's Coast', the region's secluded coves and islands provide refuge for criminal trade, and the frequent rain and fog hides small boats from Excise cutters.
@@ -122397,7 +122397,7 @@ I have no more to do in this life. I have saved whole towns from packs of daedra
 
 > INFO.NAME naked liches 17866212193028026670
 A horrible thing indeed. If you see one, let M'Aiq know. M'Aiq wants to make sure to look in the other direction.
-这的确是件可怕的事。如果你看到了，告诉麦奎。麦奎要确保朝另一个方向看。
+确实很可怕。如果你看到一只，就告诉麦奎。麦奎想确保看另一个方向。
 
 > INFO.NAME lifeless one 27244228822679317120
 Yes, I am familiar with vampirism, and I find your kind pitiable. But I have nothing here to help you. My lord Molag Bal may be able to cure you of your affliction, but I am not privy to my lord's whims. Speak with the great Molag Bal yourself, blood fiend.
@@ -125085,7 +125085,7 @@ We had a good deal going with Caldera, but then House Redoran opened their tradi
 
 > INFO.NAME divayth fyr 812019992595412324
 As you know, he's probably the oldest and most powerful wizard alive. Not counting liches, or divine sorcerers like Vivec, of course. And there may be some older in the West, on Summerset Isles, perhaps. And I don't think there's a kinder, more generous wizard alive. Not that there's much competition in the kind-and-generous-wizard department, I'll grant you.
-如你所知，他可能是现存最古老、最强大的巫师。当然，这还不包括巫妖和维威克这样的神级巫师。西方夏暮岛可能还有更老的巫师。我觉得没有比他更仁慈、更慷慨的巫师了。我承认，在仁慈慷慨的巫师中，竞争者并不多。
+如你所知，他可能是现存最古老、最强大的巫师。当然，这还不包括巫妖和维威克这样的神级术士。西方夏暮岛可能还有更老的巫师。我觉得没有比他更仁慈、更慷慨的巫师了。我承认，在仁慈慷慨的巫师中，竞争者并不多。
 
 > INFO.NAME divayth fyr 13752119553133027041
 Lord Fyr is in his study. I'm sure he won't mind being disturbed. We get few visitors here. You CAN levitate, can't you? The study is on an upper level, accessible only by the central flywell. I'm afraid we aren't set up to accommodate barbarians or peasants. Understand? Go up the ramps to the Hall of Fyr, then walk around, looking up, until you see a shaft above you. Then levitate. Up the shaft. Then look for Lord Fyr in his study.
@@ -126057,19 +126057,19 @@ Swamp fever is a mild common disease affecting the victim's strength and behavio
 
 > INFO.NAME yellow tick 719523947848812753
 Yellow tick is a mild common disease affecting a victim's strength and mobility. Symptoms include dark, bruise-like swelling, sensitive to touch. It may be contracted from the least kagouti.
-黄虱是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
+黄蜱病是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
 
 > INFO.NAME yellow tick 220592554354231562
 Yellow tick is a mild common disease affecting a victim's strength and mobility. Symptoms include dark, bruise-like swelling, sensitive to touch. It may be contracted from the least kagouti.
-黄虱是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
+黄蜱病是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
 
 > INFO.NAME yellow tick 3750256452689612111
 Yellow tick is a mild common disease affecting a victim's strength and mobility. Symptoms include dark, bruise-like swelling, sensitive to touch. It may be contracted from the least kagouti.
-黄虱是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
+黄蜱病是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
 
 > INFO.NAME yellow tick 3103549233218329712
 Yellow tick is a mild common disease affecting a victim's strength and mobility. Symptoms include dark, bruise-like swelling, sensitive to touch. It may be contracted from the least kagouti.
-黄虱是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
+黄蜱病是一种轻微的常见疾病，会影响患者的力量和行动能力。症状包括皮肤呈现暗色、淤血样肿胀，对触觉变得敏感。它可能是从染病的盾角蜥身上感染的。 {合同}
 
 > INFO.NAME ash-chancre 9259123351514917776
 Ash-chancre is an acute blight disease affecting a victim's behavior. It may be contracted from corprus beasts or other blight monsters.
@@ -131265,7 +131265,7 @@ Please? Get me a potion of levitation, and I'll give you this very attractive sk
 
 > INFO.NAME greeting 5 2159075413115622935
 Please. Have mercy. I was the sorcerer on this job, but the ogrim got out of control. And the scamps slaughtered my companions and served them to me in a broth. And stripped me. And made me wear this outfit. Help me out of here. Please. Get me a potion of levitation -- there're several in here -- and I'll give you... this very attractive skirt. And this remarkable hat. They're all I have.
-求你了，发发慈悲吧！我是这次任务的巫师，但我的奥格力姆失控了，那些劣魔屠杀了我的同伴，把他们煮成肉汤给我喝，还剥了我的衣服，让我穿上这身衣服！帮我离开这里，求你了！给我一瓶浮空药水。这里有好几种。我会给你…这条迷人的裙子？还有这顶引人注目的帽子？我只有这些。
+求你了，发发慈悲吧！我是这次任务的术士，但我的奥格力姆失控了，那些劣魔屠杀了我的同伴，把他们煮成肉汤给我喝，还剥了我的衣服，让我穿上这身衣服！帮我离开这里，求你了！给我一瓶浮空药水。这里有好几种。我会给你…这条迷人的裙子？还有这顶引人注目的帽子？我只有这些。
 
 > INFO.NAME greeting 5 12223619297979364
 I can't thank you enough. I wish I had a more suitable reward. If you don't mind, I'll think I had better wait here for a while until I calm down. But I'll be just fine.
@@ -131445,7 +131445,7 @@ Are you here for scrolls, %PCName? Or are you here from some other enchantments?
 
 > INFO.NAME greeting 5 20642322762426321011
 Step right up, %PCName, and look over my collection of scrolls. How about the flashy and cheap Taldam's Scorcher to burn your foes? Or Ondusi's Unhinging to open stuck chests and doors? If you're going somewhere dangerous, try some scrolls of Vitality and Vigor to restore your and health and fatigue. If you're in real trouble, you'll want Almsivi Intervention or Divine Intervention to transport you instantly to the nearest Temple or nearest Imperial shrine.
-过来看看，%PCName，看看我的收藏品卷轴。用华丽而廉价的塔尔达姆的热炎卷轴烧死你的敌人怎么样？或者用昂杜希的解体卷轴来打开卡住的箱子和门？如果你要去一个危险的地方，可以试试活力和精力卷轴来恢复你的生命和体力。如果你遇到了真正的麻烦，你会想到奥姆希维干预或圣灵干预，将你立即送到最近的神殿或最近的帝国神殿。 {帝国人}
+过来看看，%PCName，看看我的收藏品卷轴。用华丽而廉价的塔尔达姆的热炎卷轴烧死你的敌人怎么样？或者用昂杜希的解体卷轴来打开卡住的箱子和门？如果你要去一个危险的地方，可以试试生机和活力卷轴来恢复你的生命和体力。如果你遇到了真正的麻烦，你会想到奥姆希维干预或圣灵干预，将你立即送到最近的神殿或最近的帝国神殿。 {帝国人}
 
 > INFO.NAME greeting 5 572813906165156914
 Thank you, %PCName, for rescuing me. Now I'll stay here at Holamayan with Master Barelo and assist him with the monastery's library.
@@ -131741,7 +131741,7 @@ Bring me my ring! BRING ME MY RING!
 
 > INFO.NAME greeting 5 1341589332622117393
 Please. Llaren Terano is a sorcerer and worshipper of Molag Bal. He is a terrible sorcerer, but he also carries a deadly sword. He stripped me and made me his prisoner. That's all I can remember. I can't recall how I got here, or why. I think he has poisoned my mind with spells. If you can recover my ring from Llaren Terano, I can use its enchantments to escape. Please, rescue these slaves, too, if you can. Llaren Terano has their slave key. Bring me my ring. Please.
-求求你！拉伦·特兰诺是一名巫师，也是莫拉格·巴尔的信徒。他是个可怕的巫师，但他也有一把致命的剑。他剥光了我的衣服，把我变成了他的囚犯。我只记得这些。我不记得我是怎么来到这里的，也不知道为什么。我想他用咒语荼毒了我的大脑。如果你能从拉伦·特兰诺那里找回我的戒指，我就能用它的附魔之术逃脱了。如果可以的话，请把这些奴隶们也救出来。他们的奴隶钥匙在拉伦·特兰诺手里。把我的戒指拿来，求你了。 {魔法疾病}
+求求你！拉伦·特兰诺是一名术士，也是莫拉格·巴尔的信徒。他是个可怕的术士，但他也有一把致命的剑。他剥光了我的衣服，把我变成了他的囚犯。我只记得这些。我不记得我是怎么来到这里的，也不知道为什么。我想他用咒语荼毒了我的大脑。如果你能从拉伦·特兰诺那里找回我的戒指，我就能用它的附魔之术逃脱了。如果可以的话，请把这些奴隶们也救出来。他们的奴隶钥匙在拉伦·特兰诺手里。把我的戒指拿来，求你了。 {魔法疾病}
 
 > INFO.NAME greeting 5 2957836571784811148
 So. Have you brought me a Divine Intervention scroll?
@@ -134881,7 +134881,7 @@ Have you chastised the False Incarnate?
 
 > INFO.NAME greeting 5 1843616862630821356
 Have you shown compassion to Bulfim gra-Shugarz?
-你对巴菲姆·格拉-舒噶兹施展怜悯之心了吗？
+你对布尔菲姆·格拉-舒加兹施展怜悯之心了吗？
 
 > INFO.NAME greeting 5 840517847623012145
 Have you cleansed the cult of Ihinipalit?
@@ -141893,11 +141893,11 @@ Foolish outlanders believe WE are necromancers because we are protected by our a
 
 > INFO.NAME necromancy 313992229469025322
 Necromancy is an evil magic that forces the spirits and remains of our ancestors to serve a black sorcerer. There is no greater evil than profaning the bones or spirits of our fathers.
-死灵法术是一种邪恶的魔法，它强迫我们先祖的灵魂和遗骸侍奉那些黑巫师。没有比亵渎先祖的骸骨和灵魂更邪恶的事情了。
+死灵法术是一种邪恶的魔法，它强迫我们先祖的灵魂和遗骸侍奉那些黑术士。没有比亵渎先祖的骸骨和灵魂更邪恶的事情了。
 
 > INFO.NAME necromancy 1591029856163771358
 According to the Dunmer, animation or control of a deceased's flesh or spirit is righteous when practiced according to established cult ritual, but illegal and abominable when practiced by secular sorcerers. However, in Telvanni districts, necromancy is privately practiced by wizards in defiance of Temple censure.
-根据丹莫的说法，按照既定的教派仪式对死者的肉体或灵魂进行动画或控制是正义的，但由世俗巫师实施则是非法和可憎的。然而，在泰瓦尼地区，巫师们无视神殿的谴责，私下施展死灵法术。
+根据丹莫的说法，按照既定的教派仪式对死者的肉体或灵魂进行动画或控制是正义的，但由世俗术士实施则是非法和可憎的。然而，在泰瓦尼地区，巫师们无视神殿的谴责，私下施展死灵法术。
 
 > INFO.NAME necromancy 218221251706511636
 Our practice of binding our dead to protect sacred and family property is our right, and protected by Temple and Imperial law.
@@ -141997,7 +141997,7 @@ The Ghostfence is a magic wall around Red Mountain. The settled people created t
 
 > INFO.NAME ghostfence 2587223070235431838
 The chiefs of the settled people -- Vivec, Almalexia, and Sotha Sil -- are false gods, but they must be mighty sorcerers to create and feed the powerful magic of the Ghostfence.
-定居者的首领 -- 维威克、阿玛莱西娅和索萨·希尔 -- 都是伪神，但他们必须是强大的巫师，才能创造和供养幽魂之墙强大的魔法。
+定居者的首领 -- 维威克、阿玛莱西娅和索萨·希尔 -- 都是伪神，但他们必须是强大的术士，才能创造和供养幽魂之墙强大的魔法。
 
 > INFO.NAME ghostfence 31815112487065507
 In the past, the Ghostfence was completely effective, but now we hear reports of encounters with blighted monsters outside the fence.
@@ -143565,7 +143565,7 @@ You have been expelled from the Temple.
 
 > INFO.NAME compassion 2312527976221225592
 Bulfim gra-Shugharz is dead.
-布尔菲姆·格拉-舒格尔茨已经死了。
+布尔菲姆·格拉-舒加兹已经死了。
 
 > INFO.NAME compassion 2002195351748419616
 You have already proven your compassion.
@@ -143573,11 +143573,11 @@ You have already proven your compassion.
 
 > INFO.NAME compassion 29914238421347426986
 You have slain Bulfim gra-Shugharz?! You were to cure her -- not kill her! Perhaps you are not suited for the Temple.
-你杀了布尔菲姆·格拉-舒格尔茨？你是来治愈她的，不是来杀她的！也许你不适合神殿。
+你杀了布尔菲姆·格拉-舒加兹？你是来治愈她的，不是来杀她的！也许你不适合神殿。
 
 > INFO.NAME compassion 2215026641968827092
 Bulfim gra-Shugharz is dead? That is a shame. Perhaps you can prove your compassion some other way.
-布尔菲姆·格拉-舒格尔茨死了？真遗憾。也许你可以用其他方法证明你的怜悯之心。
+布尔菲姆·格拉-舒加兹死了？真遗憾。也许你可以用其他方法证明你的怜悯之心。
 
 > INFO.NAME compassion 613064632292223605
 You have performed beyond my expectations, %PCName. You are indeed resourceful as well as compassionate. Are you ready for further duties?
@@ -143593,7 +143593,7 @@ Unfortunate. But its use promoted a virtuous act. Well done, %PCName. Are you re
 
 > INFO.NAME compassion 2796670822571010700
 You cured Bulfim gra-Shugharz and have proven your compassion. You might be interested in this book, which has an important lesson on the rewards of compassion. Were you able to preserve the potion?
-你治好了布尔菲姆·格拉-舒格尔茨，也证明了你的怜悯之心。你可能会对这本书感兴趣，里面有一堂关于慈悲的重要课程。你能保存好药水吗？ {报酬}
+你治好了布尔菲姆·格拉-舒加兹，也证明了你的怜悯之心。你可能会对这本书感兴趣，里面有一堂关于慈悲的重要课程。你能保存好药水吗？ {报酬}
 
 > INFO.BNAM compassion 2796670822571010700 c1
 Yes, I have it right here.
@@ -143605,11 +143605,11 @@ No. I had to use it.
 
 > INFO.NAME compassion 102013759499815014
 Seek the Orc called Bulfim gra-Shugarz at the Maelkashishi Shrine. Cure her and learn the meaning of compassion. And if at all possible, return the potion which I have entrusted to your care.
-去梅尔卡诗诗圣祠找那个叫巴菲姆·格拉-舒噶兹的兽人。治好她，学会怜悯之心的意义。如果可能的话，不使用我托付给你的药水，完成任务智慧把药水还给我。
+去梅尔卡诗诗圣祠找那个叫布尔菲姆·格拉-舒加兹的兽人。治好她，学会怜悯之心的意义。如果可能的话，不使用我托付给你的药水，完成任务智慧把药水还给我。
 
 > INFO.NAME compassion 148132270975028751
 Vivec often showed compassion to his enemies. You must show compassion by curing Bulfim gra-Shugarz, a Sheogorath worshipper in Maelkashishi. Take this potion of cure blight. You can cure Bulfim by giving her the potion... But it is expensive. I would prefer you learned a spell such as "Rilm's Gift" and returned the potion to me.
-维威克经常对他的敌人表示同情。你必须通过治愈巴菲姆·格拉-舒噶兹来表达你的怜悯之心，她是谢尔格拉斯的信徒。去梅尔卡诗诗圣祠找到她，给她服用这种治愈枯萎病的药水，就能治好布尔菲姆…但是很药水贵。我希望你能学会“蕾姆之礼”之类的咒语，然后在完成任务后把药水还给我。
+维威克经常对他的敌人表示同情。你必须通过治愈布尔菲姆·格拉-舒加兹来表达你的怜悯之心，她是谢尔格拉斯的信徒。去梅尔卡诗诗圣祠找到她，给她服用这种治愈枯萎病的药水，就能治好布尔菲姆…但是很药水贵。我希望你能学会“蕾姆之赐”之类的咒语，然后在完成任务后把药水还给我。
 
 > INFO.NAME mount kand 408123122128446361
 Mount Kand is in the Molag Amur region. Speak to Nevosi Hlan, shipmaster at the Ebonheart docks. Take a ship to Tel Branora; from there, you can get a ship to Molag Mar. From Molag Mar travel on foot north by roads, watching for signs to Mount Kand. I don't know the region myself, but I've heard it is wild and dangerous, and easy to get lost in.
@@ -143877,19 +143877,19 @@ A calming tea with modest magical properties is brewed from the thick, bitter-ta
 
 > INFO.NAME greenspore 10666320821228615824
 Greenspore is a serious common disease affecting a victim's behavior. Symptoms include irritability and violent outbursts, and may include mild dementia. It may be contracted from slaughterfish.
-绿孢是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
+绿孢病是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME greenspore 190726481304421592
 Greenspore is a serious common disease affecting a victim's behavior. Symptoms include irritability and violent outbursts, and may include mild dementia. It may be contracted from slaughterfish.
-绿孢是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
+绿孢病是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME greenspore 26972223251998030197
 Greenspore is a serious common disease affecting a victim's behavior. Symptoms include irritability and violent outbursts, and may include mild dementia. It may be contracted from slaughterfish.
-绿孢是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
+绿孢病是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME greenspore 2033141882461314636
 Greenspore is a serious common disease affecting a victim's behavior. Symptoms include irritability and violent outbursts, and may include mild dementia. It may be contracted from slaughterfish.
-绿孢是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
+绿孢病是一种严重影响受害者行为的常见疾病。症状包括易怒和暴力爆发，也可能包括轻度痴呆。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME grazelands 25601354777615609
 The regular rain and dark soils of the Grazelands produce the rich grazing for Ashlander herds that gives the region its name. The region lies in the northeast of Vvardenfell, sandwiched between the Ashlands and Azura's Coast. Permanent settlements include Vos village and the towers of Tel Vos and Tel Fyr. The Ashlanders of Zainab camp move their herds across the plains in search of fresh grazing. There are no roads or tracks, but travel is easy across the open plains.
@@ -147321,23 +147321,23 @@ Tel Aruhn is the wizard's tower and village of the Telvanni Archmagister Gothren
 
 > INFO.NAME tel aruhn 14260144211131320124
 Tel Aruhn is the Telvanni tower of Archmagister Gothren, Telvanni Sorcerer-Lord and head of the Telvanni Council. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.
-泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼巫师领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
+泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
 
 > INFO.NAME tel aruhn 31755116621499513073
 Tel Aruhn is the Telvanni tower of Archmagister Gothren, Telvanni Sorcerer-Lord and head of the Telvanni Council. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.
-泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼巫师领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
+泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
 
 > INFO.NAME tel aruhn 725619746377716436
 Tel Aruhn is the Telvanni tower of Archmagister Gothren, Telvanni Sorcerer-Lord and head of the Telvanni Council. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.
-泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼巫师领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
+泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
 
 > INFO.NAME tel aruhn 18953231231825222247
 Tel Aruhn is the Telvanni tower of Archmagister Gothren, Telvanni Sorcerer-Lord and head of the Telvanni Council. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.
-泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼巫师领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
+泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
 
 > INFO.NAME tel aruhn 725821340115426925
 Tel Aruhn is the Telvanni tower of Archmagister Gothren, Telvanni Sorcerer-Lord and head of the Telvanni Council. The associated settlement is a sizable village, and the site of the Festival Slave Market, the largest slave market on Vvardenfell.
-泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼巫师领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
+泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场 -- 节日奴隶市场的所在地。
 
 > INFO.NAME dagon fel 119818862849716705
 The locals haven't shown an appreciation of my unique talents.
@@ -147421,7 +147421,7 @@ YOU offer ME an ultimatum? No servant of Mephala can command me!
 
 > INFO.NAME vampirism 12045269321106310824
 I've heard some say that vampirism is a disease. But no wise woman has ever been able to cure it, and I've never heard of a sorcerer's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to cure one. We would destroy them on sight if we could.
-我听说有人说吸血病是一种疾病。但从来没有女智者能治愈它，我也没听说过巫师的咒语能治愈它。但我承认，我从未遇到过吸血鬼，也从未想过如何治愈吸血病。如果可以，我们会当场消灭他们。
+我听说有人说吸血病是一种疾病。但从来没有女智者能治愈它，我也没听说过术士的咒语能治愈它。但我承认，我从未遇到过吸血鬼，也从未想过如何治愈吸血病。如果可以，我们会当场消灭他们。
 
 > INFO.NAME vampirism 566225628114317774
 I've heard some say that vampirism is a disease. But no temple or cult has ever been able to cure it, and I've never heard of a mage's spell that could cure it. But I admit, I've never encountered a vampire, and never thought about how to treat one. I think I'd be more worried about getting away from one than curing it. And I don't know how it is in the rest of the Empire, but here we know vampires are terribly dangerous, and evil, and we'd destroy them on sight if we could.
@@ -148077,27 +148077,27 @@ Nevermind.
 
 > INFO.NAME mabrigash 576925922481230387
 The wise-woman who left us, and our rules. She steals a man's vital essence to make herself a powerful sorcerer. Her camp is to the west, along the lava. She has others with her and I would stay away. It'll be hard to find the camp in this landscape anyway.
-离开我们的女智者，还有我们的规定。她偷了男人的精气神，让自己成为一个强大的巫师。她的营地在西边，沿着熔岩，她还带着其他人。我建议你离她远点，反正在这种地形下也很难找到营地。
+离开我们的女智者，还有我们的规定。她偷了男人的精气神，让自己成为一个强大的术士。她的营地在西边，沿着熔岩，她还带着其他人。我建议你离她远点，反正在这种地形下也很难找到营地。
 
 > INFO.NAME mabrigash 21431945678929255
 A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war. By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior. The manifestation of her dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.
-玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为准则，抛弃了规定，成为了黑魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的巫师和战士。她的黑暗力量的表现形式被称为“鬼蛇”，可以麻痹和消耗受害者的生命力。
+玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为规定，成为了黑暗魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的术士和战士。她的黑暗力量的表现形式被称为“幽灵之蛇”，它可以麻痹和消耗受害者的生命力。
 
 > INFO.NAME mabrigash 1750676562642721708
 A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war. By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior. The manifestation of her dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.
-玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为准则，抛弃了规定，成为了黑魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的巫师和战士。她的黑暗力量的表现形式被称为“鬼蛇”，可以麻痹和消耗受害者的生命力。
+玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为规定，成为了黑暗魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的术士和战士。她的黑暗力量的表现形式被称为“幽灵之蛇”，可以麻痹和消耗受害者的生命力。
 
 > INFO.NAME mabrigash 5048304081133917538
 The manifestation of the mabrigash's dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.
-玛布瑞伽什的黑暗力量的表现形式被称为“鬼蛇”，它能麻痹并消耗受害者的生命力。
+玛布瑞伽什的黑暗力量的表现形式被称为“幽灵之蛇”，它能麻痹并消耗受害者的生命力。
 
 > INFO.NAME mabrigash 185765862889827659
 By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior.
-通过秘密仪式，玛布瑞伽什会窃取人的生命精华，使自己成为强大的巫师和战士。
+通过秘密仪式，玛布瑞伽什会窃取人的生命精华，使自己成为强大的术士和战士。
 
 > INFO.NAME mabrigash 61477696696217308
 A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war.
-玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为准则，抛弃了一切规定，成为了黑魔法和战争武器的大师。
+玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为准则，抛弃了一切规定，成为了黑暗魔法和战争武器的大师。
 
 > INFO.NAME high rock 2369613016247696787
 High Rock encompasses the many lands and clans of Greater Betony, the Dellese Isles, the Bjoulsae River tribes, and, by tradition, the Western Reach. The rugged highland strongholds and isolated valley settlements have encouraged the fierce independence of the various local Breton clans, and this contentious tribal nature has never been completely integrated into a provincial or Imperial identity. Nonetheless, their language, bardic traditions, and heroic legends are a unifying common legacy.
@@ -148169,7 +148169,7 @@ So Honthjolf is dead. It is always sad when someone betrays the Legions, but we 
 
 > INFO.NAME honthjolf 17800272171933632584
 Honthjolf was once a member of the Order of Ebonheart. He turned our backs on us and works as a guard for Llarusea Andrethi in Aharnabi, a foul den of sorcerers and Daedra worshippers on the far southeast corner of Azura's coast, near the Shrine of Azura. Find the traitor and kill him.
-赫斯乔夫曾经是黑檀心骑士团的一员。他背弃了我们，在阿哈纳比给拉卢西娅·安德雷提当卫兵，阿哈纳比是阿祖拉海岸东南角的一个巫师和迪德拉崇拜者的肮脏巢穴，靠近阿祖拉圣祠。找到叛徒并杀了他。 {工作,瓜尔}
+赫斯乔夫曾经是黑檀心骑士团的一员。他背弃了我们，在阿哈纳比给拉卢西娅·安德雷提当卫兵，阿哈纳比是阿祖拉海岸东南角的一个术士和迪德拉崇拜者的肮脏巢穴，靠近阿祖拉圣祠。找到叛徒并杀了他。 {工作,瓜尔}
 
 > INFO.NAME apologies 212731722754717191
 I suppose there's nothing more to say about this.
@@ -149025,7 +149025,7 @@ I have no more business for you, pudding. Maybe it's time you were introduced to
 
 > INFO.NAME business 27722183252963525488
 The naughty Telvanni also built a stronghold without a charter. Before the Duke grants this stronghold legitimacy, I want you to deal with the Telvanni sorcerer Reynel Uvirith.
-淘气的泰瓦尼还在没有特许证的情况下建造了一个堡垒。在公爵授予这个堡垒合法地位之前，我要你去对付泰瓦尼巫师雷内尔·乌维瑞斯。
+淘气的泰瓦尼还在没有特许证的情况下建造了一个堡垒。在公爵授予这个堡垒合法地位之前，我要你去对付泰瓦尼术士雷内尔·乌维瑞斯。
 
 > INFO.NAME business 22289122691671718174
 You know how I feel about you, but I just can't discuss business with anyone under the rank of %NextPCRank. You'll also need to build a big stronghold.
@@ -149857,7 +149857,7 @@ I'm the treasurer of House Redoran. I'm very busy. So, if you'll just let me get
 
 > INFO.NAME my trade 496627295199233926
 We are the Ashlander witch-warriors, women who defy the man's rules of behavior for women, mastering the man's weapons of war and the sorcerer's powerful magics. Craven men whine that we steal their vital essences to feed our dark purposes. But men are fools and cowards. Only women can understand the secrets of the ghost snake and its hidden mysteries that make men tremble like maidens.
-我们是灰烬之民的巫师战士，是蔑视男人对女性行为规范的女性，掌握着男人的战争武器和巫师的强大魔法。懦弱的男人抱怨我们偷取他们的生命精华来满足我们的黑暗目的。但男人是傻瓜和懦夫。只有女人才能了解鬼蛇的秘密和它隐藏的奥秘，让男人像少女一样颤抖。 {规定}
+我们是灰烬之民的巫师战士，是蔑视男人对女性行为规范的女性，掌握着男人的战争武器和术士的强大魔法。懦弱的男人抱怨我们偷取他们的生命精华来满足我们的黑暗目的。但男人是傻瓜和懦夫。只有女人才能了解幽灵之蛇的秘密和它隐藏的奥秘，让男人像少女一样颤抖。 {规定}
 
 > INFO.NAME my trade 25801247022820415156
 I am a Buoyant Armiger, a member of a small military order of the Tribunal Temple, exclusively dedicated to and answering to Lord Vivec. We pattern ourselves on Lord Vivec's heroic spirit of exploration and adventure, and emulate his mastery of the varied arts of personal combat, chivalric courtesy, and subtle verse. We serve the Temple as champions and knights-errant, and are friendly rivals of the more solemn Ordinators in our dedicated service to Lord Vivec and the Temple.
@@ -150293,19 +150293,19 @@ Saltrice is another of the tasty and nutritious foodstuffs with modest magical p
 
 > INFO.NAME dampworm 79884573897210203
 Dampworm is a serious common disease affecting a victim's mobility. Symptoms include uncontrollable muscle spasms and twitching. It may be contracted from the nix-hound.
-湿气寄生虫是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
+湿虫颤是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
 
 > INFO.NAME dampworm 3260922415177449135
 Dampworm is a serious common disease affecting a victim's mobility. Symptoms include uncontrollable muscle spasms and twitching. It may be contracted from the nix-hound.
-湿气寄生虫是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
+湿虫颤是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
 
 > INFO.NAME dampworm 3190875012898017460
 Dampworm is a serious common disease affecting a victim's mobility. Symptoms include uncontrollable muscle spasms and twitching. It may be contracted from the nix-hound.
-湿气寄生虫是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
+湿虫颤是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
 
 > INFO.NAME dampworm 255979318166018835
 Dampworm is a serious common disease affecting a victim's mobility. Symptoms include uncontrollable muscle spasms and twitching. It may be contracted from the nix-hound.
-湿气寄生虫是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
+湿虫颤是一种严重影响受害者行动能力的常见疾病。症状包括无法控制的肌肉痉挛和抽搐。这种病可能是从尼克斯猎犬身上感染的。 {合同}
 
 > INFO.NAME ashlands 1320127372673415453
 The Ashlands are the dry, inhospitable wastelands surrounding the lower slopes of Red Mountain. The Ashlands extend to the Sea of Ghosts to the north, and elsewhere form a wide margin between the blighted Red Mountain region and other geographic regions. The town of Ald'ruhn and the village of Maar Gan are the only sizable permanent Ashlands settlements. Ashlanders hunt for game here, and their herds find sparse grazing. It rains rarely, and suffers frequent ash storms.
@@ -152329,23 +152329,23 @@ Tel Fyr is Divayth Fyr's tower. The only way to get there is to swim straight so
 
 > INFO.NAME tel fyr 2923923898876320174
 Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.
-泰尔-菲尔是巫师领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
+泰尔-菲尔是术士领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
 
 > INFO.NAME tel fyr 11822143701769616883
 Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.
-泰尔-菲尔是巫师领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
+泰尔-菲尔是术士领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
 
 > INFO.NAME tel fyr 322253683531122972
 Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.
-泰尔-菲尔是巫师领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
+泰尔-菲尔是术士领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
 
 > INFO.NAME tel fyr 17355103502646228063
 Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.
-泰尔-菲尔是巫师领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
+泰尔-菲尔是术士领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
 
 > INFO.NAME tel fyr 6320218361768920673
 Tel Fyr is the Telvanni tower of Sorcerer-Lord Divayth Fyr. Beneath the tower is the Corprusarium, a refuge-prison where the deranged, distorted victims of the deadly corprus disease are housed and tended. Here. Let me mark it on your map.
-泰尔-菲尔是巫师领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
+泰尔-菲尔是术士领主迪维斯·菲尔的泰瓦尼塔。塔下是尸化病洞穴，是一座避难监狱，收容和照料因致命的尸化病而精神错乱和扭曲的受害者。在这里，让我在你的地图上做个记号。 {疾病}
 
 > INFO.NAME my race 11271182948214634
 Once I was a Master Crafter in the service of Lord Kagrenac, chief architect of the great Second Empire freeholds, and the greatest enchanter of his time. I could not match the genius of Lord Kagrenac, but what he could envision, I and my colleagues could build. All of that is gone forever. I still retain my cunning, but my hands and eyes fail me, and my memories have long faded. My only consolation is each day to mock the gods who destroyed my race, and condemned me to this bleak existence.
@@ -152377,19 +152377,19 @@ Now, with Ashkhan Ulath-Pal and his supporters dead, we may consider the Nerevar
 
 > INFO.NAME counsel 14019196903151723658
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun. I think you will defeat Ranabi and Ashu-Ahhe in single combat. But if you stand alone against Ulath-Pal and his bodyguard, Ahaz, you may not prevail. If you have hidden skills and resources, or you are a mighty sorcerer or enchanter, perhaps you may defeat them.
-如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请了解你的敌人，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。我认为你会在单挑中打败拉纳比和阿舒-艾赫。但如果你独自对抗乌拉斯-帕和他的保镖阿哈兹，你可能不会取得胜利。如果你有隐藏的技能和资源，或者你是一个强大的巫师或附魔师，也许你可以打败他们。 {认识你}
+如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请了解你的敌人，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。我认为你会在单挑中打败拉纳比和阿舒-艾赫。但如果你独自对抗乌拉斯-帕和他的保镖阿哈兹，你可能不会取得胜利。如果你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，也许你可以打败他们。 {认识你}
 
 > INFO.NAME counsel 7340228062460010366
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun. Perhaps you could defeat Ranabi and Ashu-Ahhe in single combat. But, unless you have hidden skills and resources, or you are a mighty sorcerer or enchanter, I don't know how you could defeat Ulath-Pal and his bodyguard, Ahaz.
-如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。也许你能在单挑中击败拉纳比和阿舒-艾赫。但是，除非你有隐藏的技能和资源，或者你是一个强大的巫师或附魔师，否则我不知道你怎么能打败乌拉斯-帕和他的保镖阿哈兹。 {认识你}
+如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。也许你能在单挑中击败拉纳比和阿舒-艾赫。但是，除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败乌拉斯-帕和他的保镖阿哈兹。 {认识你}
 
 > INFO.NAME counsel 19181314282708623986
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun, and much stronger than you. Unless you have hidden skills and resources, or you are a mighty sorcerer or enchanter, I don't know how you could defeat them.
-如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你强大得多。除非你有隐藏的技能和资源，或者你是一个强大的巫师或附魔师，否则我不知道你怎么能打败他们。 {认识你}
+如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你强大得多。除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败他们。 {认识你}
 
 > INFO.NAME counsel 1938199411544321286
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun, and more experienced than you. Unless you have hidden skills and resources, or you are a mighty sorcerer or enchanter, I don't know how you could defeat them.
-如果你要与灰烬可汗·乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你更有经验。除非你有隐藏的技能和资源，或者你是一个强大的巫师或附魔师，否则我不知道你怎么能打败他们。 {认识你}
+如果你要与灰烬可汗·乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你更有经验。除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败他们。 {认识你}
 
 > INFO.NAME counsel 2416420111417724390
 I warn you. Be wary of Ashkhan Ulath-Pal and his supporters. They all hate Outlanders, and love nothing more than to kill them and loot them. They do not respect custom or hospitality, and they think nothing of killing unarmed men, women, or children. They are bad men, and bad leaders, and you should fear them.
@@ -152665,19 +152665,19 @@ Heather is a low evergreen shrub of the Ascadian Isles, known for its small, pin
 
 > INFO.NAME witbane 1275158232062132675
 Witbane is an acute common disease affecting a victim's memory and thought processes. Symptoms include loss of memory and disorientation. It may be contracted from the rat.
-心智剧毒是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
+智衰症是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
 
 > INFO.NAME witbane 298467811390718066
 Witbane is an acute common disease affecting a victim's memory and thought processes. Symptoms include loss of memory and disorientation. It may be contracted from the rat.
-心智剧毒是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
+智衰症是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
 
 > INFO.NAME witbane 839723809726629754
 Witbane is an acute common disease affecting a victim's memory and thought processes. Symptoms include loss of memory and disorientation. It may be contracted from the rat.
-心智剧毒是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
+智衰症是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
 
 > INFO.NAME witbane 13364195601269730410
 Witbane is an acute common disease affecting a victim's memory and thought processes. Symptoms include loss of memory and disorientation. It may be contracted from the rat.
-心智剧毒是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
+智衰症是一种急性常见疾病，会影响患者的记忆和思维过程。症状包括失忆和迷失方向。它可能是从老鼠身上感染的。 {合同}
 
 > INFO.NAME rattles 2340012146250303186
 Rattles is a mild common diseased affecting a victim's willpower and dexterity. Symptoms include muscle spasms and listlessness. It may be contracted from the nix-hound.
@@ -157073,7 +157073,7 @@ The Hlaalu have also been expanding, and at a more alarming rate. Go to Rethan M
 
 > INFO.NAME duties 85505330202053551
 The Telvanni have begun expanding all over Vvardenfell. This must be stopped. Go to the new Telvanni stronghold of Tel Uvirith and kill the Telvanni Sorcerer Reynel Uvirith.
-泰瓦尼已经开始向瓦登费尔各地扩张，必须制止这一切。前往泰瓦尼的新堡垒泰尔-乌维瑞斯，杀死泰瓦尼巫师雷内尔·乌维瑞斯。
+泰瓦尼已经开始向瓦登费尔各地扩张，必须制止这一切。前往泰瓦尼的新堡垒泰尔-乌维瑞斯，杀死泰瓦尼术士雷内尔·乌维瑞斯。
 
 > INFO.NAME duties 22597674029035
 Before I give you more duties, you must build a stronghold and expand your stronghold.
@@ -158629,11 +158629,11 @@ Elegant and efficient, the Akaviri katana is too expensive and sophisticated a w
 
 > INFO.NAME wraith 13378205222174727107
 Wraiths are revenant spirits that commonly defend the tombs of clan and kin, but may also be summoned and controlled by sorcerers. Wraiths are aggressive and very dangerous. Ectoplasm is a filmy residue with modest magical properties that remains after a revenant spirit has been banished from the mortal plane.
-灵魂是亡灵生物，是保护族人和亲属坟墓的归来之魂，但也可能被巫师召唤和控制。灵魂具有攻击性，非常危险。灵质是一种具有适度魔法属性的薄膜状残留物，是复仇之灵被驱逐出凡间后留下的。 {计划}
+灵魂是亡灵生物，是保护族人和亲属坟墓的归来之魂，但也可能被术士召唤和控制。灵魂具有攻击性，非常危险。灵质是一种具有适度魔法属性的薄膜状残留物，是复仇之灵被驱逐出凡间后留下的。 {计划}
 
 > INFO.NAME wraith 1925319814528918097
 Wraiths are revenant spirits that commonly defend the tombs of clan and kin, but may also be summoned and controlled by sorcerers. Wraiths are aggressive and very dangerous. Ectoplasm is a filmy residue with modest magical properties that remains after a revenant spirit has been banished from the mortal plane.
-灵魂是亡灵生物，是保护族人和亲属坟墓的归来之魂，但也可能被巫师召唤和控制。灵魂具有攻击性，非常危险。灵质是一种具有适度魔法属性的薄膜状残留物，是复仇之灵被驱逐出凡间后留下的。 {计划}
+灵魂是亡灵生物，是保护族人和亲属坟墓的归来之魂，但也可能被术士召唤和控制。灵魂具有攻击性，非常危险。灵质是一种具有适度魔法属性的薄膜状残留物，是复仇之灵被驱逐出凡间后留下的。 {计划}
 
 > INFO.NAME hunger 19445557144421072
 The hunger is one of the many voracious servants of the Daedra Lord Boethiah. Daedra hearts have modest magical properties.
@@ -158753,35 +158753,35 @@ Droops is a serious common disease that affects a victim's strength. Symptoms in
 
 > INFO.NAME ataxia 32406302372501010192
 Ataxia is a mild common disease affecting the victim's strength and dexterity. Symptoms include generalized pain and muscle stiffness. It may be contracted from slaughterfish.
-共济失调是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
+失调症是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME ataxia 81141753620098819
 Ataxia is a mild common disease affecting the victim's strength and dexterity. Symptoms include generalized pain and muscle stiffness. It may be contracted from slaughterfish.
-共济失调是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
+失调症是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME ataxia 989450117819702
 Ataxia is a mild common disease affecting the victim's strength and dexterity. Symptoms include generalized pain and muscle stiffness. It may be contracted from slaughterfish.
-共济失调是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
+失调症是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME ataxia 164121984326629897
 Ataxia is a mild common disease affecting the victim's strength and dexterity. Symptoms include generalized pain and muscle stiffness. It may be contracted from slaughterfish.
-共济失调是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
+失调症是一种轻微的常见疾病，会影响患者的力量和灵活性。症状包括全身疼痛和肌肉僵硬。它可能是从食人鱼身上感染的。 {合同}
 
 > INFO.NAME wither 219589084967412334
 Wither is a mild common disease that affects a victim's strength and endurance. Symptoms include loss of energy and shortness of breath. It may be contracted from dreugh.
-凋零病是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
+凋零症是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
 
 > INFO.NAME wither 2315130260380818379
 Wither is a mild common disease that affects a victim's strength and endurance. Symptoms include loss of energy and shortness of breath. It may be contracted from dreugh.
-凋零病是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
+凋零症是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
 
 > INFO.NAME wither 2828729170302119140
 Wither is a mild common disease that affects a victim's strength and endurance. Symptoms include loss of energy and shortness of breath. It may be contracted from dreugh.
-凋零病是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
+凋零症是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
 
 > INFO.NAME wither 31469266322286724494
 Wither is a mild common disease that affects a victim's strength and endurance. Symptoms include loss of energy and shortness of breath. It may be contracted from dreugh.
-凋零病是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
+凋零症是一种影响受害者体力和耐力的轻微常见疾病。症状包括力量下降和呼吸急促。可能是从蟹灵感染的。 {合同}
 
 > INFO.NAME gnisis 103857971936326361
 Everyone here leaves me alone. That's how I like it.
@@ -159185,7 +159185,7 @@ We Dunmer prize the virtues of duty, gravity, and piety. Duty is to one's own ho
 
 > INFO.NAME dunmer 6658279302972929041
 The dark-skinned, red-eyed Dunmer combine powerful intellect with strong and agile physiques, producing superior warriors and sorcerers. On the battlefield, we are noted for our skilled and balanced integration of swordsmen, marksmen, and war wizards. In character, we are grim, aloof, and reserved. We wisely distrust and disdain the lesser achievements of the inferior races.
-黑皮肤、红眼睛的丹莫将强大的智力与强壮敏捷的体格结合在一起，造就了卓越的战士和巫师。在战场上，我们以剑士、神射手和战争巫师的娴熟技能和均衡组合而著称。在性格上，我们严峻、冷漠、矜持。我们明智地不信任和蔑视劣等种族的低级成就。
+黑皮肤、红眼睛的丹莫将强大的智力与强壮敏捷的体格结合在一起，造就了卓越的战士和术士。在战场上，我们以剑士、神射手和战争巫师的娴熟技能和均衡组合而著称。在性格上，我们严峻、冷漠、矜持。我们明智地不信任和蔑视劣等种族的低级成就。
 
 > INFO.BNAM dunmer 6658279302972929041 c1
 Continue
@@ -159205,7 +159205,7 @@ We Dunmer prize the virtues of duty, gravity, and piety. Duty is to one's own ho
 
 > INFO.NAME dunmer 1709656033245726087
 The dark-skinned, red-eyed Dunmer combine powerful intellect with strong and agile physiques, producing superior warriors and sorcerers. On the battlefield, we are noted for our skilled and balanced integration of swordsmen, marksmen, and war wizards. In character, we are grim, aloof, and reserved. We wisely distrust and disdain the lesser achievements of the inferior races.
-黑皮肤、红眼睛的丹莫将强大的智力与强壮敏捷的体格结合在一起，造就了卓越的战士和巫师。在战场上，我们以剑士、神射手和战争巫师的娴熟技能和均衡组合而著称。在性格上，我们严峻、冷漠、矜持。我们明智地不信任和蔑视劣等种族的低级成就。
+黑皮肤、红眼睛的丹莫将强大的智力与强壮敏捷的体格结合在一起，造就了卓越的战士和术士。在战场上，我们以剑士、神射手和战争巫师的娴熟技能和均衡组合而著称。在性格上，我们严峻、冷漠、矜持。我们明智地不信任和蔑视劣等种族的低级成就。
 
 > INFO.BNAM dunmer 1709656033245726087 c1
 Continue
@@ -159321,15 +159321,15 @@ Bretons are arrogant, undisciplined, subject to wild swings of emotion. They mak
 
 > INFO.NAME breton 143123651622324752
 We Bretons are natural magicians, and born with a high resistance to destructive and dominating spells. Many great sorcerers have come from our home province of High Rock.
-我们布莱顿人是天生的魔法师，对破坏性和支配性法术天生具有很强的抵抗力。许多伟大的巫师都来自我们的家乡高岩省。
+我们布莱顿人是天生的魔法师，对破坏性和支配性法术天生具有很强的抵抗力。许多伟大的术士都来自我们的家乡高岩省。
 
 > INFO.NAME breton 28449234932087916717
 Passionate and eccentric, poetic and flamboyant, intelligent and willful, Bretons feel an inborn, instinctive bond with the mercurial forces of magic and the supernatural. Many great sorcerers have come from their home province of High Rock, and in addition to their quick and perceptive grasp of spellcraft, enchantment, and alchemy, even the humblest of Bretons can boast a high resistance to destructive and dominating magical energies.
-布莱顿人热情而古怪，富有诗意而张扬，聪明而任性，他们与魔法和超自然的力量有着与生俱来的本能联系。许多伟大的巫师都来自他们的故乡高岩省，除了对法术、附魔和炼金的快速而敏锐的掌握之外，即使是最卑微的布莱顿人也能对破坏性和支配性的魔法能量拥有很强的抵抗力。 {魔法疾病,虚张声势}
+布莱顿人热情而古怪，富有诗意而张扬，聪明而任性，他们与魔法和超自然的力量有着与生俱来的本能联系。许多伟大的术士都来自他们的故乡高岩省，除了对法术、附魔和炼金的快速而敏锐的掌握之外，即使是最卑微的布莱顿人也能对破坏性和支配性的魔法能量拥有很强的抵抗力。 {魔法疾病,虚张声势}
 
 > INFO.NAME breton 20392179202195211733
 Passionate and eccentric, poetic and flamboyant, intelligent and willful, Bretons feel an inborn, instinctive bond with the mercurial forces of magic and the supernatural. Many great sorcerers have come from their home province of High Rock, and in addition to their quick and perceptive grasp of spellcraft, enchantment, and alchemy, even the humblest of Bretons can boast a high resistance to destructive and dominating magical energies.
-布莱顿人热情而古怪，富有诗意而张扬，聪明而任性，他们与魔法和超自然的力量有着与生俱来的本能联系。许多伟大的巫师都来自他们的故乡高岩省，除了对法术、附魔和炼金的快速而敏锐的掌握之外，即使是最卑微的布莱顿人也能对破坏性和支配性的魔法能量拥有很强的抵抗力。 {魔法疾病,虚张声势}
+布莱顿人热情而古怪，富有诗意而张扬，聪明而任性，他们与魔法和超自然的力量有着与生俱来的本能联系。许多伟大的术士都来自他们的故乡高岩省，除了对法术、附魔和炼金的快速而敏锐的掌握之外，即使是最卑微的布莱顿人也能对破坏性和支配性的魔法能量拥有很强的抵抗力。 {魔法疾病,虚张声势}
 
 > INFO.NAME gildan 963216702824014293
 Nightblade Gildan lives in Ald'ruhn, the Redoran district seat north of here, beyond Caldera. Gildan is in the southeast corner of town, in a house to the right of the steps up to the temple.
@@ -173205,7 +173205,7 @@ There are Dwemer ruins nearby called Arkngthand. I need you to run over there an
 
 > INFO.NAME scamp 27026660941786938
 At first he did everything I told him, but he tricked me! He wasn't really under my control. Then he started tearing the place up, and he took all my clothes, and I locked myself in this closet, and it's been just horrible. I don't want to be a Sorcerer anymore. I won't ever summon another Daedra as long as I live.
-起初，他对我言听计从，但他欺骗了我！他并不受我控制。然后他就开始拆房子，还拿走了我所有的衣服，我就把自己锁在衣柜里。这一切都太可怕了。我再也不想当巫师了，只要我活着，就不会再召唤迪德拉了。 {泪城,服装}
+起初，他对我言听计从，但他欺骗了我！他并不受我控制。然后他就开始拆房子，还拿走了我所有的衣服，我就把自己锁在衣柜里。这一切都太可怕了。我再也不想当术士了，只要我活着，就不会再召唤迪德拉了。 {泪城,服装}
 
 > INFO.NAME scamp 822187301391323893
 Kill it! Kill the scamp before it causes any more trouble!
@@ -176009,7 +176009,7 @@ Thief Ring
 
 > INFO.NAME work 657117141488523503
 Well. I'm extremely displeased that you will not tell me the name of the sorcerer responsible. But you have gotten rid of the ghost, so you shall have your reward. I have a Fighter Ring, a Mage Ring, and a Thief Ring. Each ring fortifies the attributes most prized in each of these specialized disciplines. Which ring would you prefer?
-好吧，你不告诉我那个巫师的名字，我非常不高兴，但你已经除掉了幽灵，所以你会得到奖赏的。我有战士戒指，法师戒指和盗贼戒指，每枚戒指都能强化这三种职业最珍贵的属性。你喜欢哪种戒指？ {沙尔,报酬}
+好吧，你不告诉我那个术士的名字，我非常不高兴，但你已经除掉了幽灵，所以你会得到奖赏的。我有战士戒指，法师戒指和盗贼戒指，每枚戒指都能强化这三种职业最珍贵的属性。你喜欢哪种戒指？ {沙尔,报酬}
 
 > INFO.BNAM work 657117141488523503 c1
 Fighter Ring
