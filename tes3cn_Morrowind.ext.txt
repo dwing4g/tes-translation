@@ -5590,7 +5590,7 @@ Blunt Weapon skill makes you more effective when using heavy bashing weapons lik
 
 > SKIL.DESC [05 00 00 00]
 Long Blade skill lets one use broadswords, sabers, longswords, claymores, katanas, and dai-katanas effectively.
-长刃技能能够让你高效地使用阔剑、军刀、长剑、大剑、武士刀以及大武士刀。
+长刃技能能够让你高效地使用阔剑、军刀、长剑、巨剑、武士刀以及大武士刀。
 
 > SKIL.DESC [06 00 00 00]
 Axe skill helps a user wield heavy chopping weapons like war axes and battleaxes more effectively.
@@ -10419,7 +10419,7 @@ Burning Touch
 
 > SPEL.FNAM fire storm
 Fire Storm
-烈焰风暴
+火焰风暴
 
 > SPEL.FNAM fireball
 Fireball
@@ -10455,7 +10455,7 @@ Freezing Touch
 
 > SPEL.FNAM frostbite
 Frostbite
-冰噬术
+霜噬术
 
 > SPEL.FNAM frostball
 Frostball
@@ -11659,7 +11659,7 @@ Wulfharth$92s Cups
 
 > SPEL.FNAM jack of trades
 Jack of Trades
-杰克的贸易术
+万事通
 
 > SPEL.FNAM vivec's mystery
 Vivec's Mystery
@@ -13631,7 +13631,7 @@ Iron Shortsword
 
 > WEAP.FNAM nordic claymore
 Nordic Claymore
-诺德大剑
+诺德巨剑
 
 > WEAP.FNAM steel dai-katana
 Steel Dai-katana
@@ -13659,7 +13659,7 @@ Sturdy Wooden Door
 
 > WEAP.FNAM iron claymore
 Iron Claymore
-铁制大剑
+铁制巨剑
 
 > WEAP.FNAM silver longsword
 Silver Longsword
@@ -14279,7 +14279,7 @@ Bronze Door
 
 > WEAP.FNAM steel claymore
 Steel Claymore
-钢制大剑
+钢制巨剑
 
 > WEAP.FNAM steel katana
 Steel Katana
@@ -32413,7 +32413,7 @@ Daedric Battle Axe
 
 > WEAP.FNAM daedric claymore
 Daedric Claymore
-迪德拉大剑
+迪德拉巨剑
 
 > WEAP.FNAM daedric club
 Daedric Club
@@ -32485,7 +32485,7 @@ Dwarven Battle Axe
 
 > WEAP.FNAM dwarven claymore
 Dwarven Claymore
-矮人大剑
+矮人巨剑
 
 > WEAP.FNAM dwarven crossbow
 Dwarven Crossbow
@@ -32545,7 +32545,7 @@ Ebony War Axe
 
 > WEAP.FNAM glass claymore
 Glass Claymore
-玻璃大剑
+玻璃巨剑
 
 > WEAP.FNAM glass dagger
 Glass Dagger
@@ -32585,7 +32585,7 @@ Short Bow
 
 > WEAP.FNAM silver claymore
 Silver Claymore
-银制大剑
+银制巨剑
 
 > WEAP.FNAM silver dagger
 Silver Dagger
@@ -37709,7 +37709,7 @@ Malven Romori
 
 > NPC_.FNAM trebonius artorius
 Trebonius Artorius
-崔博尼乌斯·阿托留斯
+崔博尼乌斯·阿托里乌斯
 
 > NPC_.FNAM sirilonwe
 Sirilonwe
@@ -41653,7 +41653,7 @@ Steel Broadsword of Hewing
 
 > WEAP.FNAM steel claymore of hewing
 Steel Claymore of Hewing
-钢制劈砍大剑
+钢制劈砍巨剑
 
 > WEAP.FNAM steel war axe of deep biting
 Steel War Axe of Deep Biting
@@ -41821,7 +41821,7 @@ Ring of Fireball
 
 > CLOT.FNAM ring of ice storm
 Ring of Ice Storm
-冰霜风暴之戒
+寒冰风暴之戒
 
 > CLOT.FNAM ring of lightning bolt
 Ring of Lightning Bolt
@@ -41829,7 +41829,7 @@ Ring of Lightning Bolt
 
 > CLOT.FNAM ring of fire storm
 Ring of Fire Storm
-烈焰风暴之戒
+火焰风暴之戒
 
 > CLOT.FNAM ring of lightning storm
 Ring of Lightning Storm
@@ -70410,7 +70410,7 @@ In the Emperor's Name,<BR>
 Ocato<BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-致尊敬的首席法师崔博尼乌斯·阿托留斯，瓦登费尔的公会会长，<BR>
+致尊敬的首席法师崔博尼乌斯·阿托里乌斯，瓦登费尔的公会会长，<BR>
 <BR>
 收到这封信后，您将辞去职务，并将首席法师的头衔授予%PCName。从今天开始，%PCName将处理瓦登费尔的所有公会事务。你可以保留首席法师的头衔，但你将不再积极参与公会的事务。<BR>
 <BR>
@@ -72704,7 +72704,7 @@ Felyn Saranas <BR>
 我，费林·萨拉纳斯，特此同意在交付以下物品后支付10000（壹万）枚龙币：<BR>
 <BR>
 铁制短剑 (20)<BR>
-铁制大剑 (15)<BR>
+铁制巨剑 (15)<BR>
 铁制钉锤 (10)<BR>
 铁制长枪 (15)<BR>
 钢制手斧 (10)<BR>
@@ -73287,7 +73287,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 克里萨米尔<BR>
 <BR>
-圣骑士之剑是一柄古老的阔剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
+圣骑士之剑是一柄古老的巨剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
 <BR>
 玛格努斯之杖<BR>
 <BR>
@@ -73339,7 +73339,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 君主冰刃<BR>
 <BR>
-君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的阔剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
+君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的巨剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
 <BR>
 周遭之戒<BR>
 <BR>
@@ -82733,7 +82733,7 @@ A ghost is haunting the South Turret bed chamber at the Gateway Inn. When someon
 
 > INFO.NAME ms_apologies 11295118391967110309
 Tarer Braryn insulted Trebonius Artorius last night and now has a nasty rash. He wants me to go to the Guild of Mages with a gift and his apologies. If I do it, he'll pay me 50 gold.
-塔尔·布瑞恩在昨晚侮辱了崔博尼乌斯·阿托留斯，现在他身上起了难看的疹子。他要我带着礼物和他的歉意去法师公会。如果我去了，他会给我50金币。
+塔尔·布瑞恩在昨晚侮辱了崔博尼乌斯·阿托里乌斯，现在他身上起了难看的疹子。他要我带着礼物和他的歉意去法师公会。如果我去了，他会给我50金币。
 
 > INFO.NAME ms_apologies 20305317612081224039
 I've agreed to deliver the book and Braryn's apologies to Trebonius. He's in the Mages Guild here in Vivec.
@@ -82745,7 +82745,7 @@ I've decided not to help Tarer Braryn with his problem.
 
 > INFO.NAME ms_apologies 117318188887329590
 I delivered the message to Trebonius Artorius. For my efforts he gave me a potion for myself and a potion to take back to Tarer Braryn.
-我把信息传给了崔博尼乌斯·阿托留斯。为了感谢我的努力，他给了我一瓶药水，让我自己喝。还有一瓶药水让我带回给塔尔·布瑞恩。
+我把信息传给了崔博尼乌斯·阿托里乌斯。为了感谢我的努力，他给了我一瓶药水，让我自己喝。还有一瓶药水让我带回给塔尔·布瑞恩。
 
 > INFO.NAME ms_apologies 199837456680117037
 When I returned with the potion for his rash, Tarer Braryn was so happy he gave me 100 gold instead of the promised 50.
@@ -86309,7 +86309,7 @@ M'aiq has heard of this. They've got all the money. Mudcrabs taking over everyth
 
 > INFO.NAME ice blade of the monarch 191304562205788
 The Evil Archmage Almion Celmo of the Summerset Isles created the blade for a warrior, Thurgnarr Assi, who was to assassinate a king. The assassination failed, Thurgnarr Assi was slain, Almion Celmo was imprisoned, and the Ice Blade fell into the hands of a series of malefactors. The weapon is a claymore enchanted to cause frost damage, and is rumored to pass from owner to owner of its own volition.
-夏暮岛的邪恶大法师艾尔米恩·塞尔莫为一个名叫瑟格纳尔·阿西的勇士打造了这把武器，他要刺杀一位国王。刺客刺杀失败，瑟格纳尔·阿西被杀，艾尔米恩·塞尔莫被囚禁，君王之刃落入了一系列歹徒之手。这把武器是一把附魔的大剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
+夏暮岛的邪恶大法师艾尔米恩·塞尔莫为一个名叫瑟格纳尔·阿西的勇士打造了这把武器，他要刺杀一位国王。刺客刺杀失败，瑟格纳尔·阿西被杀，艾尔米恩·塞尔莫被囚禁，君王之刃落入了一系列歹徒之手。这把武器是一把附魔的巨剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
 
 > INFO.NAME report to caius cosades 293362909430451391
 So, %PCName. Are you looking for orders? Or did you have a question about the Blade Trainers?
@@ -110555,7 +110555,7 @@ Let me tell you about the armor styles most common in Morrowind. The heavy armor
 
 > INFO.NAME morrowind lore 545445642133130101
 Let me tell you about the weapon types most common in Morrowind. Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts.
-我可以告诉你在晨风最常见的武器种类：短刃武器包括匕首、短刀、短剑和胁差；长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀；钝器类武器包括棍棒、手杖、钉锤、流星锤和战锤；斧类武器包括战斧和巨斧；长柄武器包括长枪和长戟；射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀，弓类射弓箭、弩射弩箭。 {刀锋}
+我可以告诉你在晨风最常见的武器种类：短刃武器包括匕首、短刀、短剑和胁差；长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀；钝器类武器包括棍棒、手杖、钉锤、流星锤和战锤；斧类武器包括战斧和巨斧；长柄武器包括长枪和长戟；射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀，弓类射弓箭、弩射弩箭。 {刀锋}
 
 > INFO.NAME morrowind lore 276973156525593854
 Let me tell you how House Hlaalu feels about killing. By House Hlaalu custom, killing is justifiable in war, self-defense, defense of property, affairs of honor, and House Wars affairs. Other killings are foul murder and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination. Justifiable but unnecessary or cruel killing is scandalous but legal. A cynical acceptable of abuse of power by the rich and powerful is a feature of Hlaalu philosophy.
@@ -110771,7 +110771,7 @@ Blunt weapons include the club, staff, mace, morningstar, and warhammer.
 
 > INFO.NAME morrowind lore 24165310601214915195
 Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana.
-长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。 {刀锋}
+长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。 {刀锋}
 
 > INFO.NAME morrowind lore 2361116661037332738
 Short blades include the dagger, tanto, shortsword, and wakizashi.
@@ -111819,31 +111819,31 @@ Restore spells restore fundamental attributes reduced by attribute-damaging magi
 
 > INFO.NAME fortify spells 2455689471078230594
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 3123917090226584833
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 70456088203228809
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 17760325603127919468
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 89051981737381826
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 1014728330323026151
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME fortify spells 3251759921593423704
 Fortify spells temporarily increase fundamental attributes for the duration of the spell effects. The most common restoration spells of this kind are: nimbleness, fortitude, vigor, vitality, wisdom, jack of trades, charisma, feet of notorgo, powerwell, orc strength, and iron will.
-恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、杰克的贸易术、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
+恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}
 
 > INFO.NAME vampirism cure 24767148812529226840
 If the lord Molag Bal wishes to help you, he will. He has no greater love for your kind than any other.
@@ -114251,7 +114251,7 @@ If you are having trouble finding these spells, should speak with the Telvanni m
 
 > INFO.NAME wizard spells 3088429521932618889
 Learn the rudimentary spell of Recall, a spell of flying, and a spell fire damage. I will recognize the standard spells such as Levitate, Great Levitate, or Wild Levitate. For fire damage, I would suggest Fireball, Greater Fireball, or Fire Storm. Spells you research yourself will not be sufficient.
-学习初级召回法术、飞行法术和火焰伤害系法术。我会识别标准法术，如浮空术、极致浮空术或狂野浮空术。至于火焰伤害系，我建议使用火球术、大型火球术或烈焰风暴。你自己研究的法术是不够的。
+学习初级召回法术、飞行法术和火焰伤害系法术。我会识别标准法术，如浮空术、极致浮空术或狂野浮空术。至于火焰伤害系，我建议使用火球术、大型火球术或火焰风暴。你自己研究的法术是不够的。
 
 > INFO.NAME coded message 221203792280099714
 I gave you the response to Master Aryon's request. I will not change my answer.
@@ -114951,7 +114951,7 @@ If possible, always take a single item at a time. It increases the risk, but it'
 
 > INFO.NAME little advice 3078911023292535132
 Always study your target, and take a good inventory of what he has before attempting to steal anything. If he has his eye on that shiny silver claymore, he won't notice you pocketing a few tarnished throwing stars.
-在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质大剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
+在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质巨剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
 
 > INFO.NAME little advice 268212608920701313
 Practice stealing and pickpocketing by taking cheap things from small merchants. Don't go after the big stuff until you're experienced.
@@ -121177,23 +121177,23 @@ The unarmed, unarmored martial arts traditions of the Marshmerrow, Salt Rice, an
 
 > INFO.NAME weapon types 17098299891459423078
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 24709238542445824686
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 3050179131571526503
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 727781822443375
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 124763387963326761
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME short blades 134419081525912824
 The dagger and short sword are Western Imperial weapons. The tanto and wakizashi are styled after Akaviri blades. These weapons are light and fast, most effective against lightly armored opponents, but a skilled user can outlast more heavily armed and armored opponents. The dagger, tanto, and short sword are thrusting weapons, the wakizashi a chopping and slashing weapon. Rank them by effectiveness as dagger, tanto, short sword, and wakizashi, with dagger least effective.
@@ -125693,31 +125693,31 @@ Never!
 
 > INFO.NAME long blades 62733222519907425
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 4432109802161215583
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 8723275151912222112
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 1199208193172521729
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 303971191417855011
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 159830404129329399
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 3057927005156215367
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME armor types 16323104462012610132
 Shields and tower shields are basic armor protection, but limit you to one-handed weapons. For body armor, get a cuirass first for the chest, then greaves for the legs, helm for the head, and boots for the feet. Add left and right pauldrons for upper arms and gauntlets or bracers for lower arms. Balance protection against weight; you can't fight if you're exhausted by the weight of your armor.
@@ -135065,7 +135065,7 @@ What can I do for you, %PCRank?
 
 > INFO.NAME greeting 5 19096306681778019591
 Yes, I remember you, but do you remember me? I am Arch-Mage Trebonius Artorius and head of the Guild of Mages here in Vvardenfell.
-是的，我记得你，但你记得我吗？我是首席法师崔博尼乌斯·阿托留斯，瓦登费尔法师公会的首领。
+是的，我记得你，但你记得我吗？我是首席法师崔博尼乌斯·阿托里乌斯，瓦登费尔法师公会的首领。
 
 > INFO.NAME greeting 5 26065253482426819473
 Oh, hello! I see you've found Paur! Please, allow me to give you some reward for your efforts.
@@ -143725,7 +143725,7 @@ The term 'battle axe' includes all very heavy axes used two-handed. Most battle 
 
 > INFO.NAME broadsword 9626320352768611401
 Long popular in the West, the mass-produced, one-handed, double-edged heavy broadsword commonly used by the Legions is descended from the original elaborate, decorated Breton broadsword designs. The Nordic broadsword developed independently, and is a more plain, practical weapon. All broadswords are commonly used with sword-and-shield techniques, the Bretons favoring the heavy tower shield, while the legions prefer a smaller standard-sized shield.
-长期以来流行于西方、军团常用的大规模生产的单手双刃重型阔剑是最初精心装饰的布莱顿人阔剑设计的后裔。诺德风格是独立发展起来的，是一种更加朴素、实用的武器。所有阔剑都常用剑盾术，布莱顿人偏爱重型塔盾，而军团则偏爱较小的标准尺寸盾。 {诺德人,忙}
+长期以来流行于西方、军团常用的大规模生产的单手双刃重型阔剑是最初精心装饰的布莱顿人阔剑设计的后裔。诺德风格阔剑是独立发展起来的，是一种更加朴素、实用的武器。所有阔剑都常用剑盾术，布莱顿人偏爱重型塔盾，而军团则偏爱较小的标准尺寸盾。 {诺德人,忙}
 
 > INFO.NAME dai-katana 425536392608716596
 These exotic two-handed, single-edged long blades of Akaviri design are neither common nor popular for military or private use. They are superb examples of weaponcraft, but expensive and subtle in technique.
@@ -144701,7 +144701,7 @@ The alteration discipline is the mastery of the spell effects of the College of 
 
 > INFO.NAME long blade 2246228081396829682
 The long blade weapon discipline is the study and mastery of the broadsword, saber, longsword, claymore, katana, and dai-katana weapon styles. To use any style of weapon effectively, the user must be trained, conditioned, and skilled in its use.
-长刃类武器学科是对阔剑、军刀、长剑、大剑、武士刀和大武士刀等武器样式的研究和掌握。要有效地使用任何一种武器，使用者都必须经过训练、调整状态并熟练掌握其使用方法。
+长刃类武器学科是对阔剑、军刀、长剑、巨剑、武士刀和大武士刀等武器样式的研究和掌握。要有效地使用任何一种武器，使用者都必须经过训练、调整状态并熟练掌握其使用方法。
 
 > INFO.NAME acrobatics 112626264101571051
 The acrobatics discipline is the ability to jump long distances and to avoid damage when falling great distances.
@@ -148205,7 +148205,7 @@ Good. Take this book to him, and tell him I'm truly sorry. You'll find him in th
 
 > INFO.NAME apologies 1359219556106738155
 I'm afraid I was rather drunk last night when I ran into Trebonius Artorius, that arrogant fool. It seems that the drink took over my tongue, and I called him a Flat-Head. Now I have a horrid rash. No matter what I do, now matter how many potions I use or spells I cast, it won't go away. I've tried everything! If you give him my most sincere apologies, maybe he'll make it go away. I'd do it myself but I'm feeling a little under the weather. I'll pay you 50 gold for your trouble.
-恐怕昨晚我喝醉了。我撞见了傲慢的蠢货崔博尼乌斯·阿托留斯时，似乎是酒后失言了，我叫了他一声榆木脑袋。现在我得了可怕的皮疹，不管我做什么，不管我用了多少药水，施了多少咒语，它都不会消失。我什么办法都试过了。如果你能替我向他表达我最诚挚的歉意，也许他能让它消失。我想自己来，但我现在已经走不动路了。我会付你50金币作为报酬的。 {老鼠,这些药水}
+恐怕昨晚我喝醉了。我撞见了傲慢的蠢货崔博尼乌斯·阿托里乌斯时，似乎是酒后失言了，我叫了他一声榆木脑袋。现在我得了可怕的皮疹，不管我做什么，不管我用了多少药水，施了多少咒语，它都不会消失。我什么办法都试过了。如果你能替我向他表达我最诚挚的歉意，也许他能让它消失。我想自己来，但我现在已经走不动路了。我会付你50金币作为报酬的。 {老鼠,这些药水}
 
 > INFO.BNAM apologies 1359219556106738155 c1
 Sure, why not?
@@ -150233,7 +150233,7 @@ I am a merchant. I look for goods that are well-made, that people want to buy, t
 
 > INFO.NAME claymore 1545771941493431003
 Highland Bretons were the first to use the very heavy two-handed sword called the claymore, but powerful Redguards were quick to adopt these massive shock weapons to their heroic melee styles. Not suitable for use by close order troops, the claymore is favored by the solitary hero-adventurer, particularly against great beasts and otherworldly creatures.
-高岩的布莱顿人最先使用被称为大剑的非常沉重的双手剑，但强大的红卫人也很快将这些巨大的冲击性武器运用到他们的英雄近战风格中。大剑不适合近身部队使用，因此受到独行英雄冒险者的青睐，尤其是在对付巨兽和异界生物时。 {忙}
+高岩的布莱顿人最先使用被称为巨剑的非常沉重的双手剑，但强大的红卫人也很快将这些巨大的冲击性武器运用到他们的英雄近战风格中。巨剑不适合近身部队使用，因此受到独行英雄冒险者的青睐，尤其是在对付巨兽和异界生物时。 {忙}
 
 > INFO.NAME crossbow 16881142961813413247
 The Dwemer crossbow is an ingenious device that permits someone with only modest training and skill to fire a missile bolt massive enough to penetrate heavy armor. The Imperial Legion's mass-produced version is somewhat less effective, and most Imperial missile troops and hunters use the more popular short and long bows.
