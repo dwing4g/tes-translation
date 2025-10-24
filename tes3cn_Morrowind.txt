@@ -39689,7 +39689,7 @@ end"
  SPEL.ENAM [53 00 09 FF 00 00 00 00 00 00 00 00 3C 00 00 00 0C 00 00 00 0C 00 00 00]
 -SPEL
  SPEL.NAME "fortitude$00"
- SPEL.FNAM "坚韧术$00"
+ SPEL.FNAM "刚毅术$00"
  SPEL.SPDT [00 00 00 00 1E 00 00 00 01 00 00 00]
  SPEL.ENAM [4F 00 FF 05 00 00 00 00 00 00 00 00 3C 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
@@ -89650,7 +89650,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "belt of fortitude$00"
  CLOT.MODL "c\C_belt_Common_5.NIF$00"
- CLOT.FNAM "坚韧腰带$00"
+ CLOT.FNAM "刚毅腰带$00"
  CLOT.CTDT [03 00 00 00 00 00 80 3F 06 00 0A 00]
  CLOT.ITEX "c\tx_belt_common05.tga$00"
  CLOT.ENAM "fortitude_en$00"
@@ -89672,7 +89672,7 @@ Hortator 点点头，继续学习。<BR>
 -CLOT
  CLOT.NAME "belt of jack of trades$00"
  CLOT.MODL "c\C_belt_Common_5.NIF$00"
- CLOT.FNAM "杰克的贸易腰带$00"
+ CLOT.FNAM "万事通腰带$00"
  CLOT.CTDT [03 00 00 00 00 00 80 3F 06 00 0A 00]
  CLOT.ITEX "c\tx_belt_common05.tga$00"
  CLOT.ENAM "jack of trades_en$00"
@@ -259884,7 +259884,7 @@ ModDisposition 10"
  INFO.NNAM "3123917090226584833$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "strillian macro$00"
- INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
+ INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、刚毅术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "3123917090226584833$00"
@@ -259892,7 +259892,7 @@ ModDisposition 10"
  INFO.NNAM "70456088203228809$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "melvure rindu$00"
- INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
+ INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、刚毅术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "70456088203228809$00"
@@ -259900,7 +259900,7 @@ ModDisposition 10"
  INFO.NNAM "17760325603127919468$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "eraamion$00"
- INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
+ INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、刚毅术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "17760325603127919468$00"
@@ -259908,7 +259908,7 @@ ModDisposition 10"
  INFO.NNAM "89051981737381826$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
+ INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、刚毅术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "89051981737381826$00"
@@ -259916,7 +259916,7 @@ ModDisposition 10"
  INFO.NNAM "1014728330323026151$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
+ INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、刚毅术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "1014728330323026151$00"
@@ -259924,7 +259924,7 @@ ModDisposition 10"
  INFO.NNAM "3251759921593423704$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "smokey morth$00"
- INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
+ INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、刚毅术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -INFO
  INFO.INAM "3251759921593423704$00"
@@ -259932,7 +259932,7 @@ ModDisposition 10"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
- INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、坚韧术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
+ INFO.NAME "恢复系法术中的强化类法术可以在法术效果持续期间暂时增加基本属性。最常见的此类恢复系法术有：敏捷术、刚毅术、活力术、生机术、智慧术、万事通、魅力术、诺托果之足、魔力之泉、兽人之力和钢铁意志。 {力量}"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -DIAL
  DIAL.NAME "治愈吸血病$00"
