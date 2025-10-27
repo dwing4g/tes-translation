@@ -56015,11 +56015,11 @@ Black Right Glove
 
 > CLOT.FNAM common_glove_l_balmolagmer
 Left Bal Molagmer Glove
-巴尔·莫拉格穆尔左手套
+巴尔·莫拉格莫左手套
 
 > CLOT.FNAM common_glove_r_balmolagmer
 Right Bal Molagmer Glove
-巴尔·莫拉格穆尔右手套
+巴尔·莫拉格莫右手套
 
 > CLOT.FNAM common_pants_03_c
 Common Pants
@@ -59361,7 +59361,7 @@ Bal Molagmer<BR>
 <BR>
 一个公会小贼偷窃了你。虽然这种大胆的行为已劝诫了小贼，但被盗者却并不适用。刀“倾赖之刃”已归还给它的主人，我们深表歉意。<BR>
 <BR>
-巴尔·莫拉格穆尔<BR>"""
+巴尔·莫拉格莫<BR>"""
 
 > NPC_.FNAM berel sala
 Berel Sala
@@ -76225,7 +76225,7 @@ I have returned the Ring of Sanguine Transfiguring Wisdom, one of the 27 Threads
 
 > INFO.NAME tg_ss_greedyslaver 2119365843259718793
 Gentleman Jim Stacey wishes for me to do something involving a slaver in the name of the Bal Molagmer.
-绅士吉姆·史戴西希望我以巴尔·莫拉格穆尔的名义做一件涉及奴隶主的事。
+绅士吉姆·史戴西希望我以巴尔·莫拉格莫的名义做一件涉及奴隶主的事。
 
 > INFO.NAME tg_ss_greedyslaver 32333202331336217895
 Gentleman Jim Stacey asked me to steal Brallion's ring and give it to Ilmeni Dren. Brallion is a wealthy slave-trader in the Great Market of Sadrith Mora, and Ilmeni Dren is a secret abolitionist in St. Delyn Canton in Vivec.
@@ -76233,19 +76233,19 @@ Gentleman Jim Stacey asked me to steal Brallion's ring and give it to Ilmeni Dre
 
 > INFO.NAME tg_ss_greedyslaver 44002674279527766
 I nicked Brallion's ring right off his hand. The Bal Molagmer would have been proud.
-我把布拉里昂之戒从他手上直接摘了下来。巴尔·莫拉格穆尔一定会为我感到骄傲的。 {戒指}
+我把布拉里昂之戒从他手上直接摘了下来。巴尔·莫拉格莫一定会为我感到骄傲的。 {戒指}
 
 > INFO.NAME tg_ss_greedyslaver 15731309011257232736
 I bought Brallion's ring from him. It was a poor investment, but the obvious duty of the Bal Molagmer.
-我从他那里买下了布拉里昂之戒。这是个糟糕的投资，但显然是巴尔·莫拉格穆尔的职责所在。 {戒指}
+我从他那里买下了布拉里昂之戒。这是个糟糕的投资，但显然是巴尔·莫拉格莫的职责所在。 {戒指}
 
 > INFO.NAME tg_ss_greedyslaver 4559293192510724782
 Ilmeni Dren accepted Brallion's ring, but questioned my knowledge of the Bal Molagmer. Perhaps I should have worn the gloves.
-伊尔梅妮·德伦接受了布拉里昂之戒，但质疑我对巴尔·莫拉格穆尔的了解。也许我应该戴上手套。 {戒指}
+伊尔梅妮·德伦接受了布拉里昂之戒，但质疑我对巴尔·莫拉格莫的了解。也许我应该戴上手套。 {戒指}
 
 > INFO.NAME tg_ss_greedyslaver 8552168463110821577
 Ilmeni Dren accepted Brallion's ring, and seemed to have stories of the Bal Molagmer.
-伊尔梅妮·德伦收下了布拉里昂之戒，似乎对巴尔·莫拉格穆尔颇有了解。 {戒指}
+伊尔梅妮·德伦收下了布拉里昂之戒，似乎对巴尔·莫拉格莫颇有了解。 {戒指}
 
 > INFO.NAME tg_ss_greedyslaver 22612323823085830691
 Gentleman Jim Stacey thanked me for stealing Brallion's ring and delivering it to Ilmeni Dren.
@@ -76253,7 +76253,7 @@ Gentleman Jim Stacey thanked me for stealing Brallion's ring and delivering it t
 
 > INFO.NAME tg_ss_greedyslaver 83801767243043680
 Stacey was unhappy to learn that Ilmeni Dren is dead, and does not want the Bal Molagmer to be associated with her death.
-史戴西得知伊尔梅妮·德伦已经死了，不希望巴尔·莫拉格穆尔和她的死联系在一起，他很不高兴。
+史戴西得知伊尔梅妮·德伦已经死了，不希望巴尔·莫拉格莫和她的死联系在一起，他很不高兴。
 
 > INFO.NAME tg_ss_greedyslaver 2264796882612116899
 Stacey learned that Brallion was dead, and did not want to be associated with his death.
@@ -76261,7 +76261,7 @@ Stacey learned that Brallion was dead, and did not want to be associated with hi
 
 > INFO.NAME tg_ss_churchpolice 1245918801870616483
 Gentleman Jim Stacey asked me to steal Berel Sala's large Dwemer goblet and donate it to Danso Indules in the name of the Bal Molagmer. Berel Sala is the head of the Ordinators. He and his Dwemer goblet are in the Justice Offices in Vivec. Danso Indules wanders about the city of Vivec healing the sick. I'm likely to find her in the Temple area, near the High Fane.
-绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格穆尔的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
+绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
 
 > INFO.NAME tg_ss_churchpolice 188483051445223323
 Danso Indules accepted the large Dwemer goblet, but seemed puzzled.
@@ -76269,7 +76269,7 @@ Danso Indules accepted the large Dwemer goblet, but seemed puzzled.
 
 > INFO.NAME tg_ss_churchpolice 210952139391457579
 Danso Indules accepted the goblet, and seemed appreciative. She has heard stories of the return of the Bal Molagmer.
-丹索·因杜尔思接过高脚杯，似乎很感激。她听说过巴尔·莫拉格穆尔回归的故事。
+丹索·因杜尔思接过高脚杯，似乎很感激。她听说过巴尔·莫拉格莫回归的故事。
 
 > INFO.NAME tg_ss_churchpolice 301862189120891597
 Danso Indules said that he would not accept anything stolen from Berel Sala.
@@ -76957,11 +76957,11 @@ I have returned the Ring of Sanguine Transcendent Wisdom, one of the 27 Threads 
 
 > INFO.NAME tg_ss_generosity1 208451036451265574
 Gentleman Jim Stacey told me of the Bal Molagmer. How they once carried the light of justice throughout Morrowind, stealing from the unjust, and giving to the poor. He gave me a pair of Bal Molagmer gloves, which I should wear before speaking with him again.
-绅士吉姆·史戴西告诉了我巴尔·莫拉格穆尔的故事。他们曾经如何在整个晨风中传递正义之光，从不义者手中窃取财富，并施舍给穷人。他给了我一双巴尔·莫拉格穆尔手套，我应该戴上它再和他说话。
+绅士吉姆·史戴西告诉了我巴尔·莫拉格莫的故事。他们曾经如何在整个晨风中传递正义之光，从不义者手中窃取财富，并施舍给穷人。他给了我一双巴尔·莫拉格莫手套，我应该戴上它再和他说话。
 
 > INFO.NAME tg_ss_generosity1 27432166242026317234
 Gentleman Jim Stacey asked me to find the Hlervu Locket in Venim Manor in Ald'ruhn and return it to Braynas Hlervu in the name of the Bal Molagmer.
-绅士吉姆·史戴西让我在奥德'汝因的维尼姆府邸找到赫勒乌的盒坠，并以巴尔·莫拉格穆尔的名义归还给布雷纳斯·赫勒乌。
+绅士吉姆·史戴西让我在奥德'汝因的维尼姆府邸找到赫勒乌的盒坠，并以巴尔·莫拉格莫的名义归还给布雷纳斯·赫勒乌。
 
 > INFO.NAME tg_ss_generosity1 2144926294121523571
 I gave the locket back to Bolvyn Venim.
@@ -76973,7 +76973,7 @@ Braynas Hlervu accepted the Hlervu Locket as a gift.
 
 > INFO.NAME tg_ss_generosity1 107667649529328531
 Braynas Hlervu accepted the Hlervu Locket in the name of the Bal Molagmer.
-布雷纳斯·赫勒乌以巴尔·莫拉格穆尔的名义接受了赫勒乌的盒坠。
+布雷纳斯·赫勒乌以巴尔·莫拉格莫的名义接受了赫勒乌的盒坠。
 
 > INFO.NAME tg_ss_generosity1 1751914300170125850
 Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlervu.
@@ -76981,11 +76981,11 @@ Gentleman Jim Stacey thanked me for returning the Hlervu Locket to Braynas Hlerv
 
 > INFO.NAME tg_ss_generosity1 1069021420716385
 Gentleman Jim Stacey was upset to hear that Braynas Hlervu was dead, but he believes there is other work the Bal Molagmer must do.
-绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。
+绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格莫还有其他工作要做。
 
 > INFO.NAME tg_ss_generosity2 10676148462966128467
 Gentleman Jim Stacey asked me to find a forged deed of sale for Indrele Rathryon's land. The deed is in the Library of Vivec. I should deliver the deed to Indrele Rathryon herself in Seyda Neen in the name of the Bal Molagmer.
-绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达尼恩以巴尔·莫拉格穆尔的名义将地契交给因卓尔·拉特里恩本人。
+绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达尼恩以巴尔·莫拉格莫的名义将地契交给因卓尔·拉特里恩本人。
 
 > INFO.NAME tg_ss_generosity2 22971196401575626362
 I gave the land deed back to Velanda Omani.
@@ -76997,7 +76997,7 @@ Indrele Rathryon accepted the false deed to her land.
 
 > INFO.NAME tg_ss_generosity2 24860674263976803
 Indrele Rathryon accepted the false deed to her land. She seemed to recognize the Bal Molagmer gloves I was wearing, but could not place from where.
-因卓尔·拉特里恩接受了假地契。她似乎认出了我戴的巴尔·莫拉格穆尔手套，但不知道是哪里来的。
+因卓尔·拉特里恩接受了假地契。她似乎认出了我戴的巴尔·莫拉格莫手套，但不知道是哪里来的。
 
 > INFO.NAME tg_ss_generosity2 71893279168886388
 Gentleman Jim Stacey thanked me for taking the land deed to Indrele Rathryon.
@@ -100847,7 +100847,7 @@ Can you get me out of here?
 
 > INFO.NAME forged land deed 535412220890519954
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.
-我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
+我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
 
 > INFO.NAME forged land deed 1036312146125447659
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -100867,7 +100867,7 @@ You have the land deed? Take it to Indrele Rathryon in Seyda Neen.
 
 > INFO.NAME forged land deed 3123625870320926210
 The Hlaalu Councilor Velanda Omani wants Indrele Rathryon's land. Velanda Omani forged a land deed and placed it in the Library of Vivec. Without our help, Velanda Omani's bribes will prevent justice, and allow the forged deed to stand. Go to the Library of Vivec, find the deed, and deliver it to Indrele Rathryon in the name of the Bal Molagmer.
-哈拉鲁议员维兰达·奥曼尼想要因德尔·拉特里恩的土地。维兰达·奥曼尼伪造了一份地契，放在维威克图书馆里。如果没有我们的帮助，维兰达·奥曼尼的贿赂就会妨碍正义，让伪造的契约成立。去维威克的图书馆，找到地契，以巴尔·莫拉格穆尔的名义交给因卓尔·拉特里恩。
+哈拉鲁议员维兰达·奥曼尼想要因德尔·拉特里恩的土地。维兰达·奥曼尼伪造了一份地契，放在维威克图书馆里。如果没有我们的帮助，维兰达·奥曼尼的贿赂就会妨碍正义，让伪造的契约成立。去维威克的图书馆，找到地契，以巴尔·莫拉格莫的名义交给因卓尔·拉特里恩。
 
 > INFO.NAME forged land deed 22391288163153227573
 I burned that land deed. If Velanda Omani wants my land she'll have to forge another one. I don't know if she'd do that or not, but for now, my land is safe.
@@ -106471,7 +106471,7 @@ No, I didn't find anything.
 
 > INFO.NAME brallion's ring 161071963925511592
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.
-我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
+我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
 
 > INFO.NAME brallion's ring 2984416372124716826
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -106519,11 +106519,11 @@ How could I wear a ring like that when there is so much suffering in Tamriel? If
 
 > INFO.NAME brallion's ring 1989235172324815862
 The Bal Molagmer? I remember tales of them told to me when I was a child, and I have heard whisperings recently that they were returning. I accept this ring as a symbol of good faith.
-巴尔·莫拉格穆尔？我记得小时候听人说起过他们的故事，最近我又听到悄悄话说他们要回来了。我接受这枚戒指作为诚意的象征。 {信仰}
+巴尔·莫拉格莫？我记得小时候听人说起过他们的故事，最近我又听到悄悄话说他们要回来了。我接受这枚戒指作为诚意的象征。 {信仰}
 
 > INFO.NAME brallion's ring 4238270821071427189
 The Bal Molagmer? What do you know of this, thief? I have heard of these noble bandits, but you show no sign of being one. Still, anything taken from a slaver is a good thing.
-巴尔·莫拉格穆尔？你知道些什么，小偷？我听说过这些高贵的强盗，但你一点也不像。不过，从奴隶主手里抢来的东西都是好东西。
+巴尔·莫拉格莫？你知道些什么，小偷？我听说过这些高贵的强盗，但你一点也不像。不过，从奴隶主手里抢来的东西都是好东西。
 
 > INFO.NAME brallion's ring 21322256572068221919
 This is for me? What are you suggesting?
@@ -106535,7 +106535,7 @@ I stole it for you.
 
 > INFO.BNAM brallion's ring 21322256572068221919 c2
 In the name of the Bal Molagmer, I return this to you.
-以巴尔·莫拉格穆尔之名，我把这个还给你。
+以巴尔·莫拉格莫之名，我把这个还给你。
 
 > INFO.NAME brallion's ring 45821865731554650
 Keep it. I wouldn't wear that gaudy thing anyway.
@@ -106603,7 +106603,7 @@ Too rich for me.
 
 > INFO.NAME dren plantation 614529232189597842
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Clear your name, and perhaps we can speak again.
-我对你很失望，%PCName。你破坏了我们的规定，我不能让巴尔·莫拉格穆尔有你这样的名声。自己想办法洗清你的罪名，也许我们还能再谈谈。
+我对你很失望，%PCName。你破坏了我们的规定，我不能让巴尔·莫拉格莫有你这样的名声。自己想办法洗清你的罪名，也许我们还能再谈谈。
 
 > INFO.NAME dren plantation 202028863205529801
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -116751,7 +116751,7 @@ You want to hire a wizard as a guard? Talk to Arielle Phiencel.
 
 > INFO.NAME hlervu locket 1235736256005107
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.
-我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
+我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
 
 > INFO.NAME hlervu locket 26751263162622918984
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -116763,7 +116763,7 @@ You aren't wearing the gloves, %PCRank.
 
 > INFO.NAME hlervu locket 18377249141786929336
 You say Braynas Hlervu is dead? That's terrible to hear. I'm sure you had nothing to do with that. Well, we'll have to move on, then. There are other ways the Bal Molagmer may help.
-你说布雷纳斯·赫勒乌死了？这消息太可怕了，我相信你与此事无关，那我们得继续前进了，巴尔·莫拉格穆尔还有其他办法可以帮忙。
+你说布雷纳斯·赫勒乌死了？这消息太可怕了，我相信你与此事无关，那我们得继续前进了，巴尔·莫拉格莫还有其他办法可以帮忙。
 
 > INFO.NAME hlervu locket 3138320991782123306
 The Hlervu Locket has been returned.
@@ -116771,7 +116771,7 @@ The Hlervu Locket has been returned.
 
 > INFO.NAME hlervu locket 306103232232220533
 Good. Justice has been done. And if you kept a little something for yourself, I can certainly understand. I know something else the reformed Bal Molagmer might do if you're interested.
-很好，正义得到了伸张。如果你为自己留了一点东西，我当然可以理解。如果你有兴趣，我知道巴尔·莫拉格穆尔还能做些什么。
+很好，正义得到了伸张。如果你为自己留了一点东西，我当然可以理解。如果你有兴趣，我知道巴尔·莫拉格莫还能做些什么。
 
 > INFO.NAME hlervu locket 3243268701278516124
 So is that the locket? Take it to Braynas Hlervu in Ald'ruhn.
@@ -116783,7 +116783,7 @@ So is that the locket? Take it to Braynas Hlervu in Ald'ruhn. And make sure you 
 
 > INFO.NAME hlervu locket 2436329922181731048
 Braynas Hlervu is a poor, retired egg miner. He gave his family's treasured locket to the taxmen this year. The locket is now being held in Venim Manor with the rest of the taxes. Wear the gloves I gave you and pay a visit to Venim Manor in Ald'ruhn. Find the Hlervu Locket and return it to Braynas Hlervu in the name of the Bal Molagmer.
-布雷纳斯·赫勒乌是个贫穷的退休卵矿矿工。今年，他把家里珍藏的小盒子交给了税官。小盒现在和其他税款一起被扣押在维尼姆府邸。戴上我给你的手套，去拜访奥德'汝因的维尼姆府邸。找到赫勒乌的盒坠，以巴尔·莫拉格穆尔的名义归还给布雷纳斯·赫勒乌。
+布雷纳斯·赫勒乌是个贫穷的退休卵矿矿工。今年，他把家里珍藏的小盒子交给了税官。小盒现在和其他税款一起被扣押在维尼姆府邸。戴上我给你的手套，去拜访奥德'汝因的维尼姆府邸。找到赫勒乌的盒坠，以巴尔·莫拉格莫的名义归还给布雷纳斯·赫勒乌。
 
 > INFO.NAME hlervu locket 25648299562416528978
 Bolvyn Venim sent his Blood Guards to look for the locket, but they didn't find it and left me alone. It's too dangerous to keep here. When my nephew comes to visit, I'll give it to him.
@@ -116811,7 +116811,7 @@ I stole it from Venim Manor.
 
 > INFO.BNAM hlervu locket 2172211501467717141 c2
 In the name of the Bal Molagmer, I return this to you.
-以巴尔·莫拉格穆尔之名，我把这个还给你。
+以巴尔·莫拉格莫之名，我把这个还给你。
 
 > INFO.NAME hlervu locket 2735529623103710891
 Oh. My family had a locket just like that. I only thought...
@@ -116867,11 +116867,11 @@ Here, take it.
 
 > INFO.BNAM hlervu locket 139475263152307134 c2
 The Bal Molagmer will return it to its owner.
-巴尔·莫拉格穆尔会物归原主的。
+巴尔·莫拉格莫会物归原主的。
 
 > INFO.NAME history books 21221271758922977
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Clear you name, and perhaps we can speak again.
-我对你很失望，%PCName。你破坏了我们的规定，巴尔·莫拉格穆尔不能再有你这样的人了。还你清白，也许我们还能再谈谈。
+我对你很失望，%PCName。你破坏了我们的规定，巴尔·莫拉格莫不能再有你这样的人了。还你清白，也许我们还能再谈谈。
 
 > INFO.NAME history books 1470126099150552764
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -116891,11 +116891,11 @@ It is not just the charity that is important, but stealing from the unjust. Go s
 
 > INFO.NAME history books 2551120131278414428
 Odral Helvi in Caldera has all four volumes of "A Brief History of the Empire." They are personal treasures of his, bound with gold and delicately printed. Family heirlooms. I want you to steal all four of these books and deliver them to Vala Catraso at the reading school at the Guild of Mages in Ald'ruhn. The school always accepts these books as donations, but I want you to donate Odral Helvi's books in the name of the Bal Molagmer. You'll find Helvi and the books in the Governor's Hall in Caldera.
-卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。它们是他的私人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四卷书都偷出来，送到奥德'汝因法师公会的阅读学校，瓦拉·卡特拉索那里去。学校一直接受这些书的捐赠，但我希望你以巴尔·莫拉格穆尔的名义捐赠奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}
+卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。它们是他的私人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四卷书都偷出来，送到奥德'汝因法师公会的阅读学校，瓦拉·卡特拉索那里去。学校一直接受这些书的捐赠，但我希望你以巴尔·莫拉格莫的名义捐赠奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}
 
 > INFO.NAME history books 1626491201979523650
 Odral Helvi in Caldera has all four volumes of "A Brief History of the Empire." They are personal treasures of his, bound with gold and delicately printed. Family heirlooms. I want you to steal all four of these books and deliver them to Vala Catraso at the reading school at the Guild of Mages in Ald'ruhn. The school always accepts books as donations, but I want you to donate Odral Helvi's books in the name of the Bal Molagmer. You'll find Helvi and the books in the Governor's Hall in Caldera.
-卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。这是他的个人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四本书都偷出来，然后交给瓦拉·卡特拉索，在奥德'汝因的法师公会阅读学校，学校一直接受捐书，但我希望你以巴尔·莫拉格穆尔的名义捐出奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}
+卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。这是他的个人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四本书都偷出来，然后交给瓦拉·卡特拉索，在奥德'汝因的法师公会阅读学校，学校一直接受捐书，但我希望你以巴尔·莫拉格莫的名义捐出奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}
 
 > INFO.NAME history books 1704219242458426963
 Those last books you brought me haven't worn out yet.
@@ -116907,11 +116907,11 @@ I'll just pretend I didn't hear that last thing you said, whatever it was. Thank
 
 > INFO.NAME history books 285371325279332325
 The Bal Molagmer? I have heard rumors of their return, and now this. Those gloves are priceless, I hope you know. I don't know what to say. Thank you for the books, these should last at least a few months.
-巴尔·莫拉格穆尔？我听说过他们回来的传言，现在又是这个，那些手套是无价之宝，我希望你知道，我不知道该说什么，谢谢你的书，这些至少能用几个月。
+巴尔·莫拉格莫？我听说过他们回来的传言，现在又是这个，那些手套是无价之宝，我希望你知道，我不知道该说什么，谢谢你的书，这些至少能用几个月。
 
 > INFO.NAME history books 110452375683148601
 The Bal Molagmer? Well, with all due respect to this generous gift, I think I probably know more about that than you do. I've heard stories of their return, but you do not wear their trappings. These books are in excellent condition, %PCName. They should last at least a few months.
-巴尔·莫拉格穆尔？恕我直言，我比你更了解那份厚礼，我听说过他们回来的故事，但你并没有穿上他们的外衣。这些书保存得很好，%PCName，至少能保存几个月。
+巴尔·莫拉格莫？恕我直言，我比你更了解那份厚礼，我听说过他们回来的故事，但你并没有穿上他们的外衣。这些书保存得很好，%PCName，至少能保存几个月。
 
 > INFO.NAME history books 2181631253136617506
 These are exquisite! I've never seen their equal, %PCName. Where did you get them?
@@ -116923,7 +116923,7 @@ I stole them from Odral Helvi.
 
 > INFO.BNAM history books 2181631253136617506 c2
 Consider them a gift from the Bal Molagmer.
-就当是巴尔·莫拉格穆尔送的礼物吧。
+就当是巴尔·莫拉格莫送的礼物吧。
 
 > INFO.NAME history books 2008153441680414409
 Yes, these will do. The old ones are almost completely worn out. I am very grateful, %PCName.
@@ -116983,7 +116983,7 @@ Put that back, %PCName.
 
 > INFO.NAME dwemer goblet 757140392688427679
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.
-我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
+我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
 
 > INFO.NAME dwemer goblet 320511777053927908
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -117043,7 +117043,7 @@ I stole it from Berel Sala.
 
 > INFO.BNAM dwemer goblet 220406661291426414 c2
 The Bal Molagmer wish you well.
-巴尔·莫拉格穆尔祝你好运。
+巴尔·莫拉格莫祝你好运。
 
 > INFO.NAME dwemer goblet 462029541115214917
 Well, if it's none of my business...
@@ -121533,7 +121533,7 @@ Sorry. You're on your own.
 
 > INFO.NAME bal molagmer 1261107151197432102
 I wish you could have carried out the work of the Bal Molagmer, but you've been expelled. If you make amends, perhaps you can do the work of the Bal Molagmer again.
-我希望你能执行巴尔·莫拉格穆尔的工作，但你已经被驱逐了。如果你做出补偿，改过自新，也许你还能再做巴尔·莫拉格穆尔的工作。
+我希望你能执行巴尔·莫拉格莫的工作，但你已经被驱逐了。如果你做出补偿，改过自新，也许你还能再做巴尔·莫拉格莫的工作。
 
 > INFO.NAME bal molagmer 15639234532370317415
 Don't you have your gloves, %PCName? It's important you have them.
@@ -121545,23 +121545,23 @@ Don't you have your gloves, %PCName? It's important you have them.
 
 > INFO.NAME bal molagmer 2621284896864194
 If you don't wear the gloves of the Bal Molagmer, how can you show these Dunmer that thieves are not wholly evil?
-如果你不戴上巴尔·莫拉格穆尔的手套，你怎么能让这些丹莫知道盗贼并不完全是邪恶的呢？
+如果你不戴上巴尔·莫拉格莫的手套，你怎么能让这些丹莫知道盗贼并不完全是邪恶的呢？
 
 > INFO.NAME bal molagmer 6792257962008624827
 The Bal Molagmer once carried burning stones from Red Mountain throughout Morrowind, lighting hearth fires and spreading the light of justice.
-巴尔·莫拉格穆尔曾经带着燃烧的石头从红山出发，穿越整个晨风，点燃炉火，传播正义之光。
+巴尔·莫拉格莫曾经带着燃烧的石头从红山出发，穿越整个晨风，点燃炉火，传播正义之光。
 
 > INFO.NAME bal molagmer 811649601486920555
 I don't know what else the Bal Molagmer should do.
-我不知道巴尔·莫拉格穆尔还应该做些什么。
+我不知道巴尔·莫拉格莫还应该做些什么。
 
 > INFO.NAME bal molagmer 23688326211158224361
 Now you know as well as I do what the Bal Molagmer should do. I will trust your judgement.
-现在你和我一样清楚巴尔·莫拉格穆尔应该做什么了。我相信你的判断。
+现在你和我一样清楚巴尔·莫拉格莫应该做什么了。我相信你的判断。
 
 > INFO.NAME bal molagmer 1798812873262011597
 Now you know as well as I do what the Bal Molagmer should do. I will trust your judgement.
-现在你和我一样清楚巴尔·莫拉格穆尔应该做什么了。我相信你的判断。
+现在你和我一样清楚巴尔·莫拉格莫应该做什么了。我相信你的判断。
 
 > INFO.NAME bal molagmer 17714146852247623309
 The Ordinators have been harassing Danso Indules, an honest but poor priest. I want you to steal a Dwemer goblet and donate it to her cause.
@@ -121569,7 +121569,7 @@ The Ordinators have been harassing Danso Indules, an honest but poor priest. I w
 
 > INFO.NAME bal molagmer 15522254661406325782
 There is a rumor that you murdered Vala Catraso. I do not know if it is true, but I cannot let you pretend to be a Bal Molagmer with these rumors.
-有传言说你谋杀了瓦拉·卡特拉索。我不知道这是否属实，但我不能让你在这些谣言中冒充巴尔·莫拉格穆尔。
+有传言说你谋杀了瓦拉·卡特拉索。我不知道这是否属实，但我不能让你在这些谣言中冒充巴尔·莫拉格莫。
 
 > INFO.NAME bal molagmer 19316131961436220937
 Everyone in Caldera is corrupt. Rather than act directly, I want you to steal Odral Helvi's history books.
@@ -121581,11 +121581,11 @@ Everyone in Caldera is corrupt. Rather than act directly, I want you to steal Od
 
 > INFO.NAME bal molagmer 781330257296781574
 Unlike most Dunmer, the Bal Molagmer opposed slavery. I want you to steal Brallion's ring.
-与大多数丹莫不同，巴尔·莫拉格穆尔的人反对奴隶制度。我要你去偷布拉里昂之戒。 {戒指}
+与大多数丹莫不同，巴尔·莫拉格莫的人反对奴隶制度。我要你去偷布拉里昂之戒。 {戒指}
 
 > INFO.NAME bal molagmer 1381221982773723624
 Unfortunately, you are known to have killed Salyn Sarethi. No Dunmer would follow one such as you. I will have to find someone else to carry on the work of the Bal Molagmer.
-不幸的是，众所周知你杀了萨利恩·萨雷提。没有丹莫会追随你这样的人。我得找别人来继承巴尔·莫拉格穆尔的事业。 {工作}
+不幸的是，众所周知你杀了萨利恩·萨雷提。没有丹莫会追随你这样的人。我得找别人来继承巴尔·莫拉格莫的事业。 {工作}
 
 > INFO.NAME bal molagmer 20071247279245436
 One of our brothers stole from the wrong man. I need someone to return the blade Enamor.
@@ -121601,7 +121601,7 @@ A poor widow needs our help. A Hlaalu Councilor is trying to steal her land with
 
 > INFO.NAME bal molagmer 8219188282528413403
 You did well with the Hlervu Locket. For the next appearance of the Bal Molagmer, I want proof of Yngling Half-Troll's corruption.
-你的赫勒乌的盒坠做得很好。为了巴尔·莫拉格穆尔的下一次出现，我需要英灵·半巨魔腐败的证据。
+你的赫勒乌的盒坠做得很好。为了巴尔·莫拉格莫的下一次出现，我需要英灵·半巨魔腐败的证据。
 
 > INFO.NAME bal molagmer 31986210911442518986
 Find proof of Yngling Half-Troll's corruption.
@@ -121609,19 +121609,19 @@ Find proof of Yngling Half-Troll's corruption.
 
 > INFO.NAME bal molagmer 153554965116619426
 I've chosen something simple for the first mission of the reformed Bal Molagmer. I need you to return the Hlervu Locket.
-我为改革后的巴尔·莫拉格穆尔选择了一个简单的任务。我需要你归还赫勒乌的盒坠。
+我为改革后的巴尔·莫拉格莫选择了一个简单的任务。我需要你归还赫勒乌的盒坠。
 
 > INFO.NAME bal molagmer 26301293161474010072
 There is a legend about "Stone Fire Men" who brought the light of justice to the land. Though the Bal Molagmer were thieves, they stole only from the unjust and gave to those in need. They vanished early in the Third Era, and have not been seen since. I believe it is time for the Bal Molagmer to return. Here--these gloves were used by the Bal Molagmer to carry their burning stones from the Red Mountain. When you are ready to rekindle the fires of the Bal Molagmer, wear the gloves and speak with me again.
-有一个关于“石火人”的传说，他们为这片土地带来了正义之光，巴尔·莫拉格穆尔虽然是盗贼，但他们只偷不义之人的东西，并施舍给需要的人。他们在第三纪元初消失了，从此杳无音讯。我相信巴尔·莫拉格穆尔人是时候回归了。给 -- 巴尔·莫拉格穆尔人曾用这双手套从红山搬运燃烧的石头。当你准备好重新点燃巴尔·莫拉格穆尔之火时，戴上这副手套，再与我交谈。
+有一个关于“石火人”的传说，他们为这片土地带来了正义之光，巴尔·莫拉格莫虽然是盗贼，但他们只偷不义之人的东西，并施舍给需要的人。他们在第三纪元初消失了，从此杳无音讯。我相信巴尔·莫拉格莫人是时候回归了。给 -- 巴尔·莫拉格莫人曾用这双手套从红山搬运燃烧的石头。当你准备好重新点燃巴尔·莫拉格莫之火时，戴上这副手套，再与我交谈。
 
 > INFO.NAME bal molagmer 171812307104124617
 The Bal Molagmer, or "Stone Fire Men," once carried their burning stones from Red Mountain over all of Morrowind, lighting hearth fires and lanterns. Are those Bal Molagmer gloves? Those are priceless historical treasures.
-巴尔·莫拉格穆尔，又称“石火人”，曾经从红山搬运燃烧的石头，在整个晨风中点燃炉火和灯笼。那是巴尔·莫拉格穆尔的手套吗？那可是无价的历史宝藏。
+巴尔·莫拉格莫，又称“石火人”，曾经从红山搬运燃烧的石头，在整个晨风中点燃炉火和灯笼。那是巴尔·莫拉格莫的手套吗？那可是无价的历史宝藏。
 
 > INFO.NAME bal molagmer 1888018521793830868
 The Bal Molagmer, or "Stone Fire Men," once carried their burning stones from Red Mountain over all of Morrowind, lighting hearth fires and lanterns. It is said that their fires brought the light of justice. They vanished many years ago.
-巴尔·莫拉格穆尔，又称“石火人”，曾经从红山带着燃烧的石头走遍整个晨风，点燃炉火和灯笼。据说他们的火种带来了正义之光。他们在很多年前就消失了。
+巴尔·莫拉格莫，又称“石火人”，曾经从红山带着燃烧的石头走遍整个晨风，点燃炉火和灯笼。据说他们的火种带来了正义之光。他们在很多年前就消失了。
 
 > INFO.NAME nerano manor 1627714415913516768
 Habasi hears you broke our agreement. Habasi does not want to speak with you now.
@@ -131045,7 +131045,7 @@ Were you able to bring the Dwemer Goblet to one more worthy of its value?
 
 > INFO.NAME greeting 5 236821446280029722
 Did you deliver those history books in the name of the Bal Molagmer?
-你是否以巴尔·莫拉格穆尔的名义交付了那些历史书？
+你是否以巴尔·莫拉格莫的名义交付了那些历史书？
 
 > INFO.NAME greeting 5 305222455983543324
 You were sent to steal Brallion's Ring and deliver it to Ilmeni Dren. Tell me your status.
@@ -131061,7 +131061,7 @@ Did you recover the forged land deed, %PCRank?
 
 > INFO.NAME greeting 5 26537539884657320
 The Bal Molagmer must end Yngling Half-Troll's corruption. Have you found the ledger?
-巴尔·莫拉格穆尔必须结束英灵·半巨魔的腐败。你找到账本了吗？
+巴尔·莫拉格莫必须结束英灵·半巨魔的腐败。你找到账本了吗？
 
 > INFO.NAME greeting 5 270373246818687193
 You were to return the Hlervu Locket, %PCRank.
@@ -133937,7 +133937,7 @@ Please help me. I am being held hostage by Master Neloth. If you can get me out 
 
 > INFO.NAME greeting 5 1405027892721525098
 I may have jobs for you, but you might be interested in something a bit different: the Bal Molagmer.
-我可能有一些活给你干，但你可能会对一些不同的东西感兴趣：巴尔·莫拉格穆尔。
+我可能有一些活给你干，但你可能会对一些不同的东西感兴趣：巴尔·莫拉格莫。
 
 > INFO.NAME greeting 5 9523291201261418953
 You say you've found out what happened to my pillow shipment?
@@ -144305,7 +144305,7 @@ Keep the cup
 
 > INFO.NAME corruption 51864883781213184
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.
-我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
+我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
 
 > INFO.NAME corruption 138615532154354579
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -144361,11 +144361,11 @@ You killed Yngling Half-Troll. No need to deny it; I have my sources. You and I 
 
 > INFO.NAME corruption 261112441171928989
 Yngling Half-Troll is corrupt. Many know this, but no one dares act. The Bal Molagmer bring justice to those who think themselves above justice. Go to Yngling Manor in Vivec. There you will find a ledger with proof of his corruption. Bring that ledger to me.
-英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格穆尔会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。
+英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格莫会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。
 
 > INFO.NAME corruption 13253271791963615474
 Yngling Half-Troll is corrupt. Many know this, but no one dares act. The Bal Molagmer bring justice to those who think themselves above justice. Go to Yngling Manor in Vivec. There you will find a ledger with proof of his corruption. Bring that ledger to me.
-英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格穆尔会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。
+英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格莫会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。
 
 > INFO.NAME corruption 677528952398621886
 I think I told you that our conversation about this was over. You try my patience.
@@ -158909,7 +158909,7 @@ You certainly deserve it. If you speak with Vanjirra, I'm sure she'll give you t
 
 > INFO.NAME enamor 3869262101710230208
 I'm very disappointed in you, %PCName. You broke our rules, and I can't have one of your reputation in the Bal Molagmer. Make amends, and perhaps we can speak again.
-我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
+我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。
 
 > INFO.NAME enamor 2802655181704113213
 I'm disappointed in you, %PCName. You've been caught too many times. Tone down your act, pay off yours debts, then come see me again.
@@ -158937,7 +158937,7 @@ This is Enamor. A Guild member stole it from Salyn Sarethi, a noble and generous
 
 > INFO.NAME enamor 24464289543257920336
 I found the blade with a note from the Bal Molagmer which said the sword was stolen by mistake. I have no love for thieves, but perhaps these new Bal Molagmer are like the Bal Molagmer of the old poems. Honorable thieves, worthy of respect. Only time will tell.
-我发现这把刀和巴尔·莫拉格穆尔的字条在一起，字条上说这把刀是被误偷的。我不喜欢小偷，但也许这些新巴尔·莫拉格穆尔就像古诗中的巴尔·莫拉格穆尔一样。光荣的小偷，值得尊敬。只有时间才能证明。
+我发现这把刀和巴尔·莫拉格莫的字条在一起，字条上说这把刀是被误偷的。我不喜欢小偷，但也许这些新巴尔·莫拉格莫就像古诗中的巴尔·莫拉格莫一样。光荣的小偷，值得尊敬。只有时间才能证明。
 
 > INFO.NAME enamor 389826103201461712
 Yes, it was stolen. I did not know anyone else knew. It was a priceless blade, a gift from Vivec himself. I was ashamed to report it.

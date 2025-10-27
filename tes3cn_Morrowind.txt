@@ -125206,7 +125206,7 @@ ps ：如果我不在我躲的地方，请到另一个地方看看。<BR>"
 -CLOT
  CLOT.NAME "common_glove_l_balmolagmer$00"
  CLOT.MODL "c\C_glove_Balmolagmer_GND.NIF$00"
- CLOT.FNAM "巴尔·莫拉格穆尔左手套$00"
+ CLOT.FNAM "巴尔·莫拉格莫左手套$00"
  CLOT.CTDT [06 00 00 00 00 00 80 3F 02 00 0A 00]
  CLOT.ITEX "c\tx_glove_balmolagmer.tga$00"
  CLOT.INDX [07]
@@ -125214,7 +125214,7 @@ ps ：如果我不在我躲的地方，请到另一个地方看看。<BR>"
 -CLOT
  CLOT.NAME "common_glove_r_balmolagmer$00"
  CLOT.MODL "c\C_glove_Balmolagmer_GND.NIF$00"
- CLOT.FNAM "巴尔·莫拉格穆尔右手套$00"
+ CLOT.FNAM "巴尔·莫拉格莫右手套$00"
  CLOT.CTDT [05 00 00 00 00 00 80 3F 02 00 0A 00]
  CLOT.SCRI "gloveScript$00"
  CLOT.ITEX "c\tx_glove_balmolagmer.tga$00"
@@ -138601,7 +138601,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 <BR>
 一个公会小贼偷窃了你。虽然这种大胆的行为已劝诫了小贼，但被盗者却并不适用。刀“倾赖之刃”已归还给它的主人，我们深表歉意。<BR>
 <BR>
-巴尔·莫拉格穆尔<BR>"
+巴尔·莫拉格莫<BR>"
 -NPC_
  NPC_.NAME "berel sala$00"
  NPC_.FNAM "贝瑞尔·萨拉$00"
@@ -182271,7 +182271,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "32333202331336217895$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西希望我以巴尔·莫拉格穆尔的名义做一件涉及奴隶主的事。"
+ INFO.NAME "绅士吉姆·史戴西希望我以巴尔·莫拉格莫的名义做一件涉及奴隶主的事。"
 -INFO
  INFO.INAM "32333202331336217895$00"
  INFO.PNAM "2119365843259718793$00"
@@ -182283,25 +182283,25 @@ D.文物 - +35%<p>"
  INFO.PNAM "32333202331336217895$00"
  INFO.NNAM "15731309011257232736$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "我把布拉里昂之戒从他手上直接摘了下来。巴尔·莫拉格穆尔一定会为我感到骄傲的。 {戒指}"
+ INFO.NAME "我把布拉里昂之戒从他手上直接摘了下来。巴尔·莫拉格莫一定会为我感到骄傲的。 {戒指}"
 -INFO
  INFO.INAM "15731309011257232736$00"
  INFO.PNAM "44002674279527766$00"
  INFO.NNAM "4559293192510724782$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我从他那里买下了布拉里昂之戒。这是个糟糕的投资，但显然是巴尔·莫拉格穆尔的职责所在。 {戒指}"
+ INFO.NAME "我从他那里买下了布拉里昂之戒。这是个糟糕的投资，但显然是巴尔·莫拉格莫的职责所在。 {戒指}"
 -INFO
  INFO.INAM "4559293192510724782$00"
  INFO.PNAM "15731309011257232736$00"
  INFO.NNAM "8552168463110821577$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "伊尔梅妮·德伦接受了布拉里昂之戒，但质疑我对巴尔·莫拉格穆尔的了解。也许我应该戴上手套。 {戒指}"
+ INFO.NAME "伊尔梅妮·德伦接受了布拉里昂之戒，但质疑我对巴尔·莫拉格莫的了解。也许我应该戴上手套。 {戒指}"
 -INFO
  INFO.INAM "8552168463110821577$00"
  INFO.PNAM "4559293192510724782$00"
  INFO.NNAM "22612323823085830691$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "伊尔梅妮·德伦收下了布拉里昂之戒，似乎对巴尔·莫拉格穆尔颇有了解。 {戒指}"
+ INFO.NAME "伊尔梅妮·德伦收下了布拉里昂之戒，似乎对巴尔·莫拉格莫颇有了解。 {戒指}"
 -INFO
  INFO.INAM "22612323823085830691$00"
  INFO.PNAM "8552168463110821577$00"
@@ -182313,7 +182313,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "22612323823085830691$00"
  INFO.NNAM "2264796882612116899$00"
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "史戴西得知伊尔梅妮·德伦已经死了，不希望巴尔·莫拉格穆尔和她的死联系在一起，他很不高兴。"
+ INFO.NAME "史戴西得知伊尔梅妮·德伦已经死了，不希望巴尔·莫拉格莫和她的死联系在一起，他很不高兴。"
 -INFO
  INFO.INAM "2264796882612116899$00"
  INFO.PNAM "83801767243043680$00"
@@ -182328,7 +182328,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "188483051445223323$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格穆尔的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。"
+ INFO.NAME "绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。"
 -INFO
  INFO.INAM "188483051445223323$00"
  INFO.PNAM "1245918801870616483$00"
@@ -182340,7 +182340,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "188483051445223323$00"
  INFO.NNAM "301862189120891597$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "丹索·因杜尔思接过高脚杯，似乎很感激。她听说过巴尔·莫拉格穆尔回归的故事。"
+ INFO.NAME "丹索·因杜尔思接过高脚杯，似乎很感激。她听说过巴尔·莫拉格莫回归的故事。"
 -INFO
  INFO.INAM "301862189120891597$00"
  INFO.PNAM "210952139391457579$00"
@@ -183522,13 +183522,13 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "27432166242026317234$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西告诉了我巴尔·莫拉格穆尔的故事。他们曾经如何在整个晨风中传递正义之光，从不义者手中窃取财富，并施舍给穷人。他给了我一双巴尔·莫拉格穆尔手套，我应该戴上它再和他说话。"
+ INFO.NAME "绅士吉姆·史戴西告诉了我巴尔·莫拉格莫的故事。他们曾经如何在整个晨风中传递正义之光，从不义者手中窃取财富，并施舍给穷人。他给了我一双巴尔·莫拉格莫手套，我应该戴上它再和他说话。"
 -INFO
  INFO.INAM "27432166242026317234$00"
  INFO.PNAM "208451036451265574$00"
  INFO.NNAM "2144926294121523571$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西让我在奥德'汝因的维尼姆府邸找到赫勒乌的盒坠，并以巴尔·莫拉格穆尔的名义归还给布雷纳斯·赫勒乌。"
+ INFO.NAME "绅士吉姆·史戴西让我在奥德'汝因的维尼姆府邸找到赫勒乌的盒坠，并以巴尔·莫拉格莫的名义归还给布雷纳斯·赫勒乌。"
 -INFO
  INFO.INAM "2144926294121523571$00"
  INFO.PNAM "27432166242026317234$00"
@@ -183546,7 +183546,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "8921174171377031430$00"
  INFO.NNAM "1751914300170125850$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "布雷纳斯·赫勒乌以巴尔·莫拉格穆尔的名义接受了赫勒乌的盒坠。"
+ INFO.NAME "布雷纳斯·赫勒乌以巴尔·莫拉格莫的名义接受了赫勒乌的盒坠。"
 -INFO
  INFO.INAM "1751914300170125850$00"
  INFO.PNAM "107667649529328531$00"
@@ -183558,7 +183558,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "1751914300170125850$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格穆尔还有其他工作要做。"
+ INFO.NAME "绅士吉姆·史戴西听说布雷纳斯·赫勒乌已经死了，他很难过，但他认为巴尔·莫拉格莫还有其他工作要做。"
 -DIAL
  DIAL.NAME "TG_SS_Generosity2$00"
  DIAL.DATA [04]
@@ -183567,7 +183567,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "22971196401575626362$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达尼恩以巴尔·莫拉格穆尔的名义将地契交给因卓尔·拉特里恩本人。"
+ INFO.NAME "绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达尼恩以巴尔·莫拉格莫的名义将地契交给因卓尔·拉特里恩本人。"
 -INFO
  INFO.INAM "22971196401575626362$00"
  INFO.PNAM "10676148462966128467$00"
@@ -183585,7 +183585,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "2183525073418911887$00"
  INFO.NNAM "71893279168886388$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "因卓尔·拉特里恩接受了假地契。她似乎认出了我戴的巴尔·莫拉格穆尔手套，但不知道是哪里来的。"
+ INFO.NAME "因卓尔·拉特里恩接受了假地契。她似乎认出了我戴的巴尔·莫拉格莫手套，但不知道是哪里来的。"
 -INFO
  INFO.INAM "71893279168886388$00"
  INFO.PNAM "24860674263976803$00"
@@ -234190,7 +234190,7 @@ Player->AddItem exquisite_shoes_01 1"
  INFO.NNAM "1036312146125447659$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -234245,7 +234245,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "哈拉鲁议员维兰达·奥曼尼想要因德尔·拉特里恩的土地。维兰达·奥曼尼伪造了一份地契，放在维威克图书馆里。如果没有我们的帮助，维兰达·奥曼尼的贿赂就会妨碍正义，让伪造的契约成立。去维威克的图书馆，找到地契，以巴尔·莫拉格穆尔的名义交给因卓尔·拉特里恩。"
+ INFO.NAME "哈拉鲁议员维兰达·奥曼尼想要因德尔·拉特里恩的土地。维兰达·奥曼尼伪造了一份地契，放在维威克图书馆里。如果没有我们的帮助，维兰达·奥曼尼的贿赂就会妨碍正义，让伪造的契约成立。去维威克的图书馆，找到地契，以巴尔·莫拉格莫的名义交给因卓尔·拉特里恩。"
  INFO.SCVR "34JX3TG_SS_Yngling"
  INFO.INTV [64 00 00 00]
  INFO.BNAM "Journal TG_SS_Generosity2 10"
@@ -246955,7 +246955,7 @@ Choice ""是的，尸体上有你的东西。"" 1 ""不，我什么也没找到。"" 2"
  INFO.NNAM "2984416372124716826$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -247084,7 +247084,7 @@ ModDisposition 10"
  INFO.NNAM "4238270821071427189$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ilmeni dren$00"
- INFO.NAME "巴尔·莫拉格穆尔？我记得小时候听人说起过他们的故事，最近我又听到悄悄话说他们要回来了。我接受这枚戒指作为诚意的象征。 {信仰}"
+ INFO.NAME "巴尔·莫拉格莫？我记得小时候听人说起过他们的故事，最近我又听到悄悄话说他们要回来了。我接受这枚戒指作为诚意的象征。 {信仰}"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.SCVR "12sX0TGglove"
@@ -247098,7 +247098,7 @@ ModDisposition 20"
  INFO.NNAM "21322256572068221919$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ilmeni dren$00"
- INFO.NAME "巴尔·莫拉格穆尔？你知道些什么，小偷？我听说过这些高贵的强盗，但你一点也不像。不过，从奴隶主手里抢来的东西都是好东西。"
+ INFO.NAME "巴尔·莫拉格莫？你知道些什么，小偷？我听说过这些高贵的强盗，但你一点也不像。不过，从奴隶主手里抢来的东西都是好东西。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Journal TG_SS_GreedySlaver 50
@@ -247113,7 +247113,7 @@ ModDisposition 10"
  INFO.NAME "这是给我的？你想说什么？"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
- INFO.BNAM "Choice ""我为你偷的。"" 1 ""以巴尔·莫拉格穆尔之名，我把这个还给你。"" 2"
+ INFO.BNAM "Choice ""我为你偷的。"" 1 ""以巴尔·莫拉格莫之名，我把这个还给你。"" 2"
 -INFO
  INFO.INAM "45821865731554650$00"
  INFO.PNAM "21322256572068221919$00"
@@ -247239,7 +247239,7 @@ moddisposition 15"
  INFO.NNAM "202028863205529801$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName。你破坏了我们的规定，我不能让巴尔·莫拉格穆尔有你这样的名声。自己想办法洗清你的罪名，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName。你破坏了我们的规定，我不能让巴尔·莫拉格莫有你这样的名声。自己想办法洗清你的罪名，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -273230,7 +273230,7 @@ AddItem Ingred_Raw_Ebony_01 4
  INFO.NNAM "26751263162622918984$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -273259,7 +273259,7 @@ AddItem Ingred_Raw_Ebony_01 4
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "你说布雷纳斯·赫勒乌死了？这消息太可怕了，我相信你与此事无关，那我们得继续前进了，巴尔·莫拉格穆尔还有其他办法可以帮忙。"
+ INFO.NAME "你说布雷纳斯·赫勒乌死了？这消息太可怕了，我相信你与此事无关，那我们得继续前进了，巴尔·莫拉格莫还有其他办法可以帮忙。"
  INFO.SCVR "36DX2braynas hlervu"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Journal TG_SS_Generosity1 110"
@@ -273280,7 +273280,7 @@ AddItem Ingred_Raw_Ebony_01 4
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "很好，正义得到了伸张。如果你为自己留了一点东西，我当然可以理解。如果你有兴趣，我知道巴尔·莫拉格穆尔还能做些什么。"
+ INFO.NAME "很好，正义得到了伸张。如果你为自己留了一点东西，我当然可以理解。如果你有兴趣，我知道巴尔·莫拉格莫还能做些什么。"
  INFO.SCVR "34JX3TG_SS_Generosity1"
  INFO.INTV [32 00 00 00]
  INFO.BNAM "Journal TG_SS_Generosity1 100
@@ -273321,7 +273321,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "布雷纳斯·赫勒乌是个贫穷的退休卵矿矿工。今年，他把家里珍藏的小盒子交给了税官。小盒现在和其他税款一起被扣押在维尼姆府邸。戴上我给你的手套，去拜访奥德'汝因的维尼姆府邸。找到赫勒乌的盒坠，以巴尔·莫拉格穆尔的名义归还给布雷纳斯·赫勒乌。"
+ INFO.NAME "布雷纳斯·赫勒乌是个贫穷的退休卵矿矿工。今年，他把家里珍藏的小盒子交给了税官。小盒现在和其他税款一起被扣押在维尼姆府邸。戴上我给你的手套，去拜访奥德'汝因的维尼姆府邸。找到赫勒乌的盒坠，以巴尔·莫拉格莫的名义归还给布雷纳斯·赫勒乌。"
  INFO.SCVR "24JX4TG_SS_Generosity1"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "34JX3TG_SS_Generosity1"
@@ -273380,7 +273380,7 @@ ModDisposition 20"
  INFO.NAME "这是我的盒坠，你从哪儿弄来的？"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
- INFO.BNAM "Choice ""我从维尼姆府邸偷来的。"" 1 ""以巴尔·莫拉格穆尔之名，我把这个还给你。"" 2"
+ INFO.BNAM "Choice ""我从维尼姆府邸偷来的。"" 1 ""以巴尔·莫拉格莫之名，我把这个还给你。"" 2"
 -INFO
  INFO.INAM "2735529623103710891$00"
  INFO.PNAM "2172211501467717141$00"
@@ -273493,7 +273493,7 @@ Goodbye"
  INFO.NAME "你拿那个干什么？那是税收的一部分，要么给我，要么接受审判。 {正义}"
  INFO.SCVR "05IX3exquisite_amulet_hlervu1"
  INFO.INTV [01 00 00 00]
- INFO.BNAM "Choice ""拿去吧。"" 1 ""巴尔·莫拉格穆尔会物归原主的。"" 2"
+ INFO.BNAM "Choice ""拿去吧。"" 1 ""巴尔·莫拉格莫会物归原主的。"" 2"
 -DIAL
  DIAL.NAME "历史书$00"
  DIAL.DATA [00]
@@ -273503,7 +273503,7 @@ Goodbye"
  INFO.NNAM "1470126099150552764$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName。你破坏了我们的规定，巴尔·莫拉格穆尔不能再有你这样的人了。还你清白，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName。你破坏了我们的规定，巴尔·莫拉格莫不能再有你这样的人了。还你清白，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -273556,7 +273556,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。它们是他的私人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四卷书都偷出来，送到奥德'汝因法师公会的阅读学校，瓦拉·卡特拉索那里去。学校一直接受这些书的捐赠，但我希望你以巴尔·莫拉格穆尔的名义捐赠奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}"
+ INFO.NAME "卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。它们是他的私人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四卷书都偷出来，送到奥德'汝因法师公会的阅读学校，瓦拉·卡特拉索那里去。学校一直接受这些书的捐赠，但我希望你以巴尔·莫拉格莫的名义捐赠奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}"
  INFO.SCVR "06DX3brallion"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "34JX0TG_SS_GreedySlaver"
@@ -273571,7 +273571,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。这是他的个人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四本书都偷出来，然后交给瓦拉·卡特拉索，在奥德'汝因的法师公会阅读学校，学校一直接受捐书，但我希望你以巴尔·莫拉格穆尔的名义捐出奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}"
+ INFO.NAME "卡尔德拉的奥德拉尔·赫尔维有全部四卷《帝国简史》。这是他的个人珍宝，用金币点缀，印刷精美，简直是传家宝。我要你把这四本书都偷出来，然后交给瓦拉·卡特拉索，在奥德'汝因的法师公会阅读学校，学校一直接受捐书，但我希望你以巴尔·莫拉格莫的名义捐出奥德拉尔·赫尔维的书。你可以在卡尔德拉的总督大厅找到赫尔维和书。 {泰姆瑞尔帝国}"
  INFO.SCVR "34JX3TG_SS_GreedySlaver"
  INFO.INTV [64 00 00 00]
  INFO.BNAM "Journal TG_SS_Plutocrats 10"
@@ -273605,7 +273605,7 @@ ModDisposition 20"
  INFO.NNAM "110452375683148601$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vala catraso$00"
- INFO.NAME "巴尔·莫拉格穆尔？我听说过他们回来的传言，现在又是这个，那些手套是无价之宝，我希望你知道，我不知道该说什么，谢谢你的书，这些至少能用几个月。"
+ INFO.NAME "巴尔·莫拉格莫？我听说过他们回来的传言，现在又是这个，那些手套是无价之宝，我希望你知道，我不知道该说什么，谢谢你的书，这些至少能用几个月。"
  INFO.SCVR "01500"
  INFO.INTV [0B 00 00 00]
  INFO.SCVR "32sX0TGglove"
@@ -273622,7 +273622,7 @@ ModDisposition 20"
  INFO.NNAM "2181631253136617506$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vala catraso$00"
- INFO.NAME "巴尔·莫拉格穆尔？恕我直言，我比你更了解那份厚礼，我听说过他们回来的故事，但你并没有穿上他们的外衣。这些书保存得很好，%PCName，至少能保存几个月。"
+ INFO.NAME "巴尔·莫拉格莫？恕我直言，我比你更了解那份厚礼，我听说过他们回来的故事，但你并没有穿上他们的外衣。这些书保存得很好，%PCName，至少能保存几个月。"
  INFO.SCVR "01500"
  INFO.INTV [0B 00 00 00]
  INFO.BNAM "Journal TG_SS_Plutocrats 50
@@ -273640,7 +273640,7 @@ ModDisposition 20"
  INFO.NAME "这些书很精致！我从没见过这么精致的，%PCName。你从哪儿弄来的？"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
- INFO.BNAM "Choice ""我从奥德拉尔·赫尔维那里偷来的。"" 10 ""就当是巴尔·莫拉格穆尔送的礼物吧。"" 11"
+ INFO.BNAM "Choice ""我从奥德拉尔·赫尔维那里偷来的。"" 10 ""就当是巴尔·莫拉格莫送的礼物吧。"" 11"
 -INFO
  INFO.INAM "2008153441680414409$00"
  INFO.PNAM "2181631253136617506$00"
@@ -273764,7 +273764,7 @@ ModDisposition 20"
  INFO.NNAM "320511777053927908$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -273904,7 +273904,7 @@ Player->RemoveItem misc_dwrv_goblet10_tgcp 1"
  INFO.NAME "你为什么把这个给我？我知道我可以用这笔钱，但是…"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
- INFO.BNAM "Choice ""我从贝瑞尔·萨拉那里偷来的。"" 1 ""巴尔·莫拉格穆尔祝你好运。"" 2"
+ INFO.BNAM "Choice ""我从贝瑞尔·萨拉那里偷来的。"" 1 ""巴尔·莫拉格莫祝你好运。"" 2"
 -INFO
  INFO.INAM "462029541115214917$00"
  INFO.PNAM "220406661291426414$00"
@@ -285252,7 +285252,7 @@ Goodbye"
  INFO.BNAM "Journal ""MV_RecoverWidowmaker"" 20
 Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
 -DIAL
- DIAL.NAME "巴尔·莫拉格穆尔$00"
+ DIAL.NAME "巴尔·莫拉格莫$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "1261107151197432102$00"
@@ -285260,7 +285260,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "15639234532370317415$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我希望你能执行巴尔·莫拉格穆尔的工作，但你已经被驱逐了。如果你做出补偿，改过自新，也许你还能再做巴尔·莫拉格穆尔的工作。"
+ INFO.NAME "我希望你能执行巴尔·莫拉格莫的工作，但你已经被驱逐了。如果你做出补偿，改过自新，也许你还能再做巴尔·莫拉格莫的工作。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -285295,7 +285295,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "6792257962008624827$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "如果你不戴上巴尔·莫拉格穆尔的手套，你怎么能让这些丹莫知道盗贼并不完全是邪恶的呢？"
+ INFO.NAME "如果你不戴上巴尔·莫拉格莫的手套，你怎么能让这些丹莫知道盗贼并不完全是邪恶的呢？"
  INFO.SCVR "02sX0TGglove"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX3TG_SS_Generosity1"
@@ -285306,7 +285306,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "811649601486920555$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "巴尔·莫拉格穆尔曾经带着燃烧的石头从红山出发，穿越整个晨风，点燃炉火，传播正义之光。"
+ INFO.NAME "巴尔·莫拉格莫曾经带着燃烧的石头从红山出发，穿越整个晨风，点燃炉火，传播正义之光。"
  INFO.SCVR "01460"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -285315,7 +285315,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "23688326211158224361$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我不知道巴尔·莫拉格穆尔还应该做些什么。"
+ INFO.NAME "我不知道巴尔·莫拉格莫还应该做些什么。"
  INFO.SCVR "34JX0TG_SS_ChurchPolice"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -285324,7 +285324,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "1798812873262011597$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "现在你和我一样清楚巴尔·莫拉格穆尔应该做什么了。我相信你的判断。"
+ INFO.NAME "现在你和我一样清楚巴尔·莫拉格莫应该做什么了。我相信你的判断。"
  INFO.SCVR "06DX3danso indules"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "34JX3TG_SS_Plutocrats"
@@ -285337,7 +285337,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "17714146852247623309$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "现在你和我一样清楚巴尔·莫拉格穆尔应该做什么了。我相信你的判断。"
+ INFO.NAME "现在你和我一样清楚巴尔·莫拉格莫应该做什么了。我相信你的判断。"
  INFO.SCVR "34JX3TG_SS_ChurchPolice"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -285359,7 +285359,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "19316131961436220937$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "有传言说你谋杀了瓦拉·卡特拉索。我不知道这是否属实，但我不能让你在这些谣言中冒充巴尔·莫拉格穆尔。"
+ INFO.NAME "有传言说你谋杀了瓦拉·卡特拉索。我不知道这是否属实，但我不能让你在这些谣言中冒充巴尔·莫拉格莫。"
  INFO.SCVR "06DX3vala catraso"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -285398,7 +285398,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "1381221982773723624$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "与大多数丹莫不同，巴尔·莫拉格穆尔的人反对奴隶制度。我要你去偷布拉里昂之戒。 {戒指}"
+ INFO.NAME "与大多数丹莫不同，巴尔·莫拉格莫的人反对奴隶制度。我要你去偷布拉里昂之戒。 {戒指}"
  INFO.SCVR "05IX3common_glove_l_balmolagmer"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX3common_glove_r_balmolagmer"
@@ -285412,7 +285412,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "20071247279245436$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "不幸的是，众所周知你杀了萨利恩·萨雷提。没有丹莫会追随你这样的人。我得找别人来继承巴尔·莫拉格穆尔的事业。 {工作}"
+ INFO.NAME "不幸的是，众所周知你杀了萨利恩·萨雷提。没有丹莫会追随你这样的人。我得找别人来继承巴尔·莫拉格莫的事业。 {工作}"
  INFO.SCVR "06DX3salyn sarethi"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -285464,7 +285464,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "31986210911442518986$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "你的赫勒乌的盒坠做得很好。为了巴尔·莫拉格穆尔的下一次出现，我需要英灵·半巨魔腐败的证据。"
+ INFO.NAME "你的赫勒乌的盒坠做得很好。为了巴尔·莫拉格莫的下一次出现，我需要英灵·半巨魔腐败的证据。"
  INFO.SCVR "05IX3common_glove_l_balmolagmer"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX3common_glove_r_balmolagmer"
@@ -285492,7 +285492,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "26301293161474010072$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我为改革后的巴尔·莫拉格穆尔选择了一个简单的任务。我需要你归还赫勒乌的盒坠。"
+ INFO.NAME "我为改革后的巴尔·莫拉格莫选择了一个简单的任务。我需要你归还赫勒乌的盒坠。"
  INFO.SCVR "05IX3common_glove_l_balmolagmer"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX3common_glove_r_balmolagmer"
@@ -285505,7 +285505,7 @@ Choice ""我会帮你找回你的斧头。"" 1 ""抱歉，你得靠自己了。"" 2"
  INFO.NNAM "171812307104124617$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "有一个关于“石火人”的传说，他们为这片土地带来了正义之光，巴尔·莫拉格穆尔虽然是盗贼，但他们只偷不义之人的东西，并施舍给需要的人。他们在第三纪元初消失了，从此杳无音讯。我相信巴尔·莫拉格穆尔人是时候回归了。给 -- 巴尔·莫拉格穆尔人曾用这双手套从红山搬运燃烧的石头。当你准备好重新点燃巴尔·莫拉格穆尔之火时，戴上这副手套，再与我交谈。"
+ INFO.NAME "有一个关于“石火人”的传说，他们为这片土地带来了正义之光，巴尔·莫拉格莫虽然是盗贼，但他们只偷不义之人的东西，并施舍给需要的人。他们在第三纪元初消失了，从此杳无音讯。我相信巴尔·莫拉格莫人是时候回归了。给 -- 巴尔·莫拉格莫人曾用这双手套从红山搬运燃烧的石头。当你准备好重新点燃巴尔·莫拉格莫之火时，戴上这副手套，再与我交谈。"
  INFO.SCVR "04JX4TG_SS_Generosity1"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Journal TG_SS_Generosity1 1
@@ -285518,7 +285518,7 @@ Player->AddItem Common_Glove_L_BalMolagmer 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.CNAM "Savant$00"
- INFO.NAME "巴尔·莫拉格穆尔，又称“石火人”，曾经从红山搬运燃烧的石头，在整个晨风中点燃炉火和灯笼。那是巴尔·莫拉格穆尔的手套吗？那可是无价的历史宝藏。"
+ INFO.NAME "巴尔·莫拉格莫，又称“石火人”，曾经从红山搬运燃烧的石头，在整个晨风中点燃炉火和灯笼。那是巴尔·莫拉格莫的手套吗？那可是无价的历史宝藏。"
  INFO.SCVR "02sX0TGglove"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -285530,7 +285530,7 @@ Player->AddItem Common_Glove_L_BalMolagmer 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.CNAM "Savant$00"
- INFO.NAME "巴尔·莫拉格穆尔，又称“石火人”，曾经从红山带着燃烧的石头走遍整个晨风，点燃炉火和灯笼。据说他们的火种带来了正义之光。他们在很多年前就消失了。"
+ INFO.NAME "巴尔·莫拉格莫，又称“石火人”，曾经从红山带着燃烧的石头走遍整个晨风，点燃炉火和灯笼。据说他们的火种带来了正义之光。他们在很多年前就消失了。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -DIAL
@@ -309140,7 +309140,7 @@ goodbye"
  INFO.NNAM "305222455983543324$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "你是否以巴尔·莫拉格穆尔的名义交付了那些历史书？"
+ INFO.NAME "你是否以巴尔·莫拉格莫的名义交付了那些历史书？"
  INFO.SCVR "04JX3TG_SS_Plutocrats"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4TG_SS_Plutocrats"
@@ -309184,7 +309184,7 @@ goodbye"
  INFO.NNAM "270373246818687193$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "巴尔·莫拉格穆尔必须结束英灵·半巨魔的腐败。你找到账本了吗？"
+ INFO.NAME "巴尔·莫拉格莫必须结束英灵·半巨魔的腐败。你找到账本了吗？"
  INFO.SCVR "04JX3TG_SS_Yngling"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4TG_SS_Yngling"
@@ -316578,7 +316578,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF 02 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "我可能有一些活给你干，但你可能会对一些不同的东西感兴趣：巴尔·莫拉格穆尔。"
+ INFO.NAME "我可能有一些活给你干，但你可能会对一些不同的东西感兴趣：巴尔·莫拉格莫。"
  INFO.SCVR "06DX0salyn sarethi"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX0TG_SS_Generosity1"
@@ -341969,7 +341969,7 @@ Player->RemoveItem Artifact_bittercup_01 1"
  INFO.NNAM "138615532154354579$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -342115,7 +342115,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格穆尔会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。"
+ INFO.NAME "英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格莫会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。"
  INFO.SCVR "16DX3braynas hlervu"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "34JX0TG_SS_Generosity1"
@@ -342128,7 +342128,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格穆尔会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。"
+ INFO.NAME "英灵·半巨魔是个腐败分子。很多人都知道这一点，但没人敢采取行动。巴尔·莫拉格莫会为那些自以为凌驾于正义之上的人伸张正义。前往维威克的英灵庄园。你会在那里找到一本账簿，上面有他腐败的证据。把账本带给我。"
  INFO.SCVR "34JX3TG_SS_Generosity1"
  INFO.INTV [64 00 00 00]
  INFO.BNAM "Journal TG_SS_Yngling 10"
@@ -376728,7 +376728,7 @@ Journal ""MV_TraderMissed"" 100"
  INFO.NNAM "2802655181704113213$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格穆尔可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
+ INFO.NAME "我对你很失望，%PCName，你破坏了我们的规定，巴尔·莫拉格莫可容不下你这样的人。做出补偿，改过自新，也许我们还能再谈谈。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -376812,7 +376812,7 @@ Player->AddItem Glass_Dagger_Enamor 1"
  INFO.NNAM "389826103201461712$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "salyn sarethi$00"
- INFO.NAME "我发现这把刀和巴尔·莫拉格穆尔的字条在一起，字条上说这把刀是被误偷的。我不喜欢小偷，但也许这些新巴尔·莫拉格穆尔就像古诗中的巴尔·莫拉格穆尔一样。光荣的小偷，值得尊敬。只有时间才能证明。"
+ INFO.NAME "我发现这把刀和巴尔·莫拉格莫的字条在一起，字条上说这把刀是被误偷的。我不喜欢小偷，但也许这些新巴尔·莫拉格莫就像古诗中的巴尔·莫拉格莫一样。光荣的小偷，值得尊敬。只有时间才能证明。"
  INFO.SCVR "34JX3TG_SS_Enamor"
  INFO.INTV [64 00 00 00]
 -INFO
