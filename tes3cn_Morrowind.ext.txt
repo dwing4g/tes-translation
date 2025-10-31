@@ -55034,7 +55034,7 @@ Sarayn Sadus
 
 > NPC_.FNAM mavon drenim
 Mavon Drenim
-梅文·德雷尼姆
+马文·德雷尼姆
 
 > NPC_.FNAM mathyn bemis
 Mathyn Bemis
@@ -63432,7 +63432,7 @@ Foot bridges connect with the mainland between the Ebonheart region and Hlaalu C
 <BR>
 泰瓦尼驻地<BR>
 <BR>
-泰瓦尼驻地是最东面的社区。法师领主梅文·德雷尼姆是泰瓦尼的贵族。泰瓦尼向神殿租赁了驻地，当做维洛提塔凑合着使用，以代替他们喜欢的蘑菇塔。行政中心包括一个宝库和资料厅。奴隶被安置在满是怪物的最底层。那里有许多商人，工匠，和训练师，蜥脑街角酒吧为泰瓦尼同族及雇佣兵提供食宿。<BR>
+泰瓦尼驻地是最东面的社区。法师领主马文·德雷尼姆是泰瓦尼的贵族。泰瓦尼向神殿租赁了驻地，当做维洛提塔凑合着使用，以代替他们喜欢的蘑菇塔。行政中心包括一个宝库和资料厅。奴隶被安置在满是怪物的最底层。那里有许多商人，工匠，和训练师，蜥脑街角酒吧为泰瓦尼同族及雇佣兵提供食宿。<BR>
 <BR>
 瑞多然驻地<BR>
 <BR>
@@ -68965,7 +68965,7 @@ The afore-mentioned personage has been marked for honorable execution in accorda
 <IMG SRC="MoragTong.tga" WIDTH="96" HEIGHT="96"><BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-梅文·德雷尼姆<BR><BR>
+马文·德雷尼姆<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 根据莫拉格通公会的合法传统和惯例，上述人士已被标记为光荣处决。这份无可争议的文件的持有人拥有官方批准的杀死上述人士的许可证。<BR>
 <BR>
@@ -78209,7 +78209,7 @@ I gave Ahnassi the Flamemirror Robe as a gift. I think she was impressed. In ret
 
 > INFO.NAME romance_ahnassi 2963431702149001105
 Ahnassi says that a friend has told her that the wizard Mavon Drenim has a Flamemirror Robe that he does not wear, but keeps in his clothes closet at the Telvanni Tower of the Telvanni Compound in Vivec. Ahnassi wants me to get this Flamemirror Robe and show it to her, to show her how smart I am.
-阿娜西说，一个朋友告诉她，巫师梅文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}
+阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}
 
 > INFO.NAME romance_ahnassi 515227887840326164
 I brought Ahnassi her two flowers -- one coda flower for Ahnassi, and one pretty gold kanet for me. Now she says it is my turn again to ask Ahnassi to share a gift.
@@ -82349,23 +82349,23 @@ I reported the honorable execution of Guril Retheran.
 
 > INFO.NAME mt_writmavon 1025124379160483116
 I have been given a Writ for the honorable execution of Mavon Drenim. He may be found at the Telvanni Tower in the Telvanni Plaza here in Vivec.
-我收到了光荣处决梅文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。
+我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。
 
 > INFO.NAME mt_writmavon 3162930890261978816
 Mavon Drenim has been slain according to the traditional and honorable doctrine of the Morag Tong. The execution was reported as a crime.
-梅文·德雷尼姆已按照莫拉格堂的传统和荣誉教义被处死，处决被报告为犯罪。
+马文·德雷尼姆已按照莫拉格堂的传统和荣誉教义被处死，处决被报告为犯罪。
 
 > INFO.NAME mt_writmavon 55472125040122412
 Mavon Drenim has been slain according to the traditional and honorable doctrine of the Morag Tong. None dared to report my actions.
-梅文·德雷尼姆已按照莫拉格堂传统而光荣的教义被处死，没有人敢举报我的行为。 {报告}
+马文·德雷尼姆已按照莫拉格堂传统而光荣的教义被处死，没有人敢举报我的行为。 {报告}
 
 > INFO.NAME mt_writmavon 25968105362150119292
 I reported the honorable execution of Mavon Drenim.
-我报告了梅文·德雷尼姆的光荣处决。
+我报告了马文·德雷尼姆的光荣处决。
 
 > INFO.NAME mt_writmavon 172073493204830063
 I reported the honorable execution of Mavon Drenim.
-我报告了梅文·德雷尼姆的光荣处决。
+我报告了马文·德雷尼姆的光荣处决。
 
 > INFO.NAME mt_writbemis 2097750793329282
 I have been given a Writ for the honorable execution of Mathyn Bemis, who may be found in the Hlaalu Ancestral Vaults which are accessible from the Canalworks of the Hlaalu Canton.
@@ -89333,7 +89333,7 @@ Baren Alen in the Hlaalu Vaults is the head Treasurer. Edryno Arethi's house is 
 
 > INFO.NAME someone in particular 17390257552385729172
 All the important Telvanni retainers and mercenaries live here in the Telvanni Compound. Mavon Drenim, the ranking Telvanni lord here in Vivec, lives in the tower. Various Hlaalu retainers live in Hlaalu Compound, St. Olms, and St. Delyn. Redorans live in Redoran Compound. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena. Imperial guildsmen are in the Foreign Quarter.
-所有重要的泰瓦尼家臣和雇佣兵都住在泰瓦尼驻地里。梅文·德雷尼姆是泰瓦尼在维威克的头号领主，他住在塔楼里。各种哈拉鲁家臣住在哈拉鲁驻地、圣·奥姆斯区和圣·德林区。瑞多然家族的人住在瑞多然驻地。神殿祭司、书记官和神殿卫兵们分别住在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。帝国公会在外邦区。 {帝国人}
+所有重要的泰瓦尼家臣和雇佣兵都住在泰瓦尼驻地里。马文·德雷尼姆是泰瓦尼在维威克的头号领主，他住在塔楼里。各种哈拉鲁家臣住在哈拉鲁驻地、圣·奥姆斯区和圣·德林区。瑞多然家族的人住在瑞多然驻地。神殿祭司、书记官和神殿卫兵们分别住在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。帝国公会在外邦区。 {帝国人}
 
 > INFO.NAME someone in particular 57785304475526395
 All sorts of people live here in St. Olms. Three Hlaalu lords also live here -- Crassius Curio, Yngling Half-Troll, and Dram Bero. A number of Hlaalu lords and retainers live in Hlaalu Compound and in St. Olms. Redorans live in Redoran Compound and Telvanni live in Telvanni Compound. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena. Imperial guildsmen are in the Foreign Quarter.
@@ -97365,7 +97365,7 @@ No
 
 > INFO.NAME telvanni compound 102953672285444195
 Telvanni Compound is the eastmost canton. The mage-lord Mavon Drenim is the ranking Telvanni noble. The Telvanni rent the compound from the Temple, and have to make do with a Velothi tower instead of their preferred mushroom towers. The administrative center includes a treasury and a hall of records. Slaves are housed in the lowest tiers. There are many tradesmen, craftsmen, and trainers, and the Lizard's Head cornerclub provides lodgings for Telvanni kin and mercenaries.
-泰瓦尼驻地是最东边的营地。梅文·德雷尼姆法师是泰瓦尼的最高贵族。泰瓦尼家族的人向神殿租用大院，只能用一座维洛提塔楼代替他们喜欢的蘑菇塔。行政中心包括一个金库和一个档案馆。奴隶们住在最底层。这里有许多商人、工匠和驯兽师，蜥脑街角酒吧为泰瓦尼亲属和雇佣兵提供住宿。
+泰瓦尼驻地是最东边的营地。马文·德雷尼姆法师是泰瓦尼的最高贵族。泰瓦尼家族的人向神殿租用大院，只能用一座维洛提塔楼代替他们喜欢的蘑菇塔。行政中心包括一个金库和一个档案馆。奴隶们住在最底层。这里有许多商人、工匠和驯兽师，蜥脑街角酒吧为泰瓦尼亲属和雇佣兵提供住宿。
 
 > INFO.NAME ministry of truth 10532754067328341
 The Ministry of Truth was hollowed out to provide a prison and re-education center operated by the Temple Ordinators for the correction of heretics.
@@ -117411,7 +117411,7 @@ No one knows what happened to Brilnosu Llarys. She's a Battlemage gone bad, want
 
 > INFO.NAME latest rumors 2501374731614330561
 Mavon Drenim heard the Morag Tong was after her. She's prepared an ambush in the Telvanni Tower in Vivec.
-梅文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。
+马文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。
 
 > INFO.NAME latest rumors 3175328762106929345
 Sarayn Sadus fled from Vivec. I heard the Morag Tong has a writ on him.
@@ -121061,19 +121061,19 @@ You have been expelled.
 
 > INFO.NAME mavon drenim 916855842265021024
 Mavon Drenim is dead.
-梅文·德雷尼姆已死。
+马文·德雷尼姆已死。
 
 > INFO.NAME mavon drenim 16487130451745321035
 You say Mavon Drenim is already dead? Then I am sorry I have wasted your time with this request, %PCName. I will give you credit for this Writ.
-你说梅文·德雷尼姆已经死了？那我很抱歉浪费了你的时间，%PCName。我会给你这份令状记上一笔的。
+你说马文·德雷尼姆已经死了？那我很抱歉浪费了你的时间，%PCName。我会给你这份令状记上一笔的。
 
 > INFO.NAME mavon drenim 1667870252344816433
 You have honorably executed Mavon Drenim. Please take the payment and credit, %PCName.
-你光荣地处决了梅文·德雷尼姆。请收下酬金和功劳，%PCName。
+你光荣地处决了马文·德雷尼姆。请收下酬金和功劳，%PCName。
 
 > INFO.NAME mavon drenim 288542635397314445
 You have honorably executed Mavon Drenim. Please take the payment and credit, %PCName.
-你光荣地处决了梅文·德雷尼姆。请收下酬金和功劳，%PCName。
+你光荣地处决了马文·德雷尼姆。请收下酬金和功劳，%PCName。
 
 > INFO.NAME mavon drenim 1832926354498923533
 I have given this Writ to you already, %PCName.
@@ -121085,7 +121085,7 @@ I have given this Writ to you already, %PCName. As you know, Writs are issued on
 
 > INFO.NAME mavon drenim 626220779149545557
 This Writ is for the honorable execution of  Mavon Drenim. He may be found in the Telvanni tower in the Plaza of the Telvanni Compound in Vivec. Mephala guide your hand.
-此光荣处决令状用于处决梅文·德雷尼姆。他在维威克泰瓦尼驻地广场的泰瓦尼塔楼中，愿梅法拉指引你。
+此光荣处决令状用于处决马文·德雷尼姆。他在维威克泰瓦尼驻地广场的泰瓦尼塔楼中，愿梅法拉指引你。
 
 > INFO.NAME mathyn bemis 7727342055120196
 You have been expelled.
@@ -122137,7 +122137,7 @@ Ahnassi can't wait to see this Flamemirror Robe. Very valuable. Very mysterious.
 
 > INFO.NAME share a gift 12064128402121312652
 Ahnassi has a secret! Do you know what a Flamemirror Robe is? Well, Ahnassi does not, but she knows it is VERY valuable. And... A friend has told Ahnassi where it is! In the Telvanni Tower in Vivec! At the Telvanni Compound! This wizard Mavon Drenim, he does not wear it, so he keeps in it his clothes closet! Because you are so smart, Ahnassi knows you will get this Flamemirror Robe. And bring it to show Ahnassi how smart you are.
-阿娜西有一个秘密！你知道火镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔楼里。这个魔法师梅文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件火焰镜袍。带上它，让阿娜西看看你有多聪明。 {服装}
+阿娜西有一个秘密！你知道火镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔楼里。这个魔法师马文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件火焰镜袍。带上它，让阿娜西看看你有多聪明。 {服装}
 
 > INFO.NAME share a gift 1345620136626220872
 I LOVE my pretty coda flower. And I LOVE your pretty gold kanet, too. So you keep the gold kanet, yes, and treasure it always. Thank you so much. Thank you, thank you, thank you. And now... you can ask Ahnassi to share a gift again, for it is Ahnassi's turn! Isn't this fun?
@@ -130609,7 +130609,7 @@ I want no part of this. Good day.
 
 > INFO.NAME greeting 4 14367256971364129203
 You're from the Morag Tong, aren't you? Mavon Drenim is upstairs, but she's been expecting you. Don't tell her I warned you.
-你是从莫拉格堂来的，是吗？梅文·德雷尼姆在楼上，但她一直在等你。别告诉她我警告过你。
+你是从莫拉格堂来的，是吗？马文·德雷尼姆在楼上，但她一直在等你。别告诉她我警告过你。
 
 > INFO.NAME greeting 4 1593114301531216394
 So you've finally arrived. I will not interfere.
@@ -175573,7 +175573,7 @@ I have a Writ on Mathyn Bemis and a Writ on Brilnosu Llarys.
 
 > INFO.NAME writ 7443176761871420385
 There is an outstanding Writ on Mavon Drenim and a new Writ on Tirer Belvayn.
-有一份关于梅文·德雷尼姆的未执行令状和一份关于提勒·贝尔万的新令状。
+有一份关于马文·德雷尼姆的未执行令状和一份关于提勒·贝尔万的新令状。
 
 > INFO.NAME writ 29519325333193883
 There are two outstanding Writs. One on Guril Retheran and one on Galasa Uvayn.

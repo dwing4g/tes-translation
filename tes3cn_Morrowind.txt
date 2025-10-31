@@ -121602,7 +121602,7 @@ PS：为了以防万一，我在这里给你留下了一些浮空药水。我不记得你是否知道浮空魔法，所
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 4E 65 6C 76 6F 6E 20 52 61 64 61 73 00 00 0C 00 00 00 9C 22 B4 00 C1 3A 4F 00 5C F1 A6 00 0C 00 01 00]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "mavon drenim$00"
- NPC_.FNAM "梅文·德雷尼姆$00"
+ NPC_.FNAM "马文·德雷尼姆$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Mage$00"
  NPC_.ANAM "Telvanni$00"
@@ -150565,7 +150565,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 <BR>
 泰瓦尼驻地<BR>
 <BR>
-泰瓦尼驻地是最东面的社区。法师领主梅文·德雷尼姆是泰瓦尼的贵族。泰瓦尼向神殿租赁了驻地，当做维洛提塔凑合着使用，以代替他们喜欢的蘑菇塔。行政中心包括一个宝库和资料厅。奴隶被安置在满是怪物的最底层。那里有许多商人，工匠，和训练师，蜥脑街角酒吧为泰瓦尼同族及雇佣兵提供食宿。<BR>
+泰瓦尼驻地是最东面的社区。法师领主马文·德雷尼姆是泰瓦尼的贵族。泰瓦尼向神殿租赁了驻地，当做维洛提塔凑合着使用，以代替他们喜欢的蘑菇塔。行政中心包括一个宝库和资料厅。奴隶被安置在满是怪物的最底层。那里有许多商人，工匠，和训练师，蜥脑街角酒吧为泰瓦尼同族及雇佣兵提供食宿。<BR>
 <BR>
 瑞多然驻地<BR>
 <BR>
@@ -163861,7 +163861,7 @@ By my will I cleanse thee of the red sands.<P>
  BOOK.BKDT [CD CC 4C 3E 01 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_paper_roll_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-梅文·德雷尼姆<BR><BR>
+马文·德雷尼姆<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 根据莫拉格通公会的合法传统和惯例，上述人士已被标记为光荣处决。这份无可争议的文件的持有人拥有官方批准的杀死上述人士的许可证。<BR>
 <BR>
@@ -185661,7 +185661,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "12263212581999016524$00"
  INFO.NNAM "515227887840326164$00"
  INFO.DATA [04 00 00 00 55 00 00 00 FF FF FF 00]
- INFO.NAME "阿娜西说，一个朋友告诉她，巫师梅文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
+ INFO.NAME "阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
 -INFO
  INFO.INAM "515227887840326164$00"
  INFO.PNAM "2963431702149001105$00"
@@ -192615,31 +192615,31 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "3162930890261978816$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我收到了光荣处决梅文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。"
+ INFO.NAME "我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。"
 -INFO
  INFO.INAM "3162930890261978816$00"
  INFO.PNAM "1025124379160483116$00"
  INFO.NNAM "55472125040122412$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "梅文·德雷尼姆已按照莫拉格堂的传统和荣誉教义被处死，处决被报告为犯罪。"
+ INFO.NAME "马文·德雷尼姆已按照莫拉格堂的传统和荣誉教义被处死，处决被报告为犯罪。"
 -INFO
  INFO.INAM "55472125040122412$00"
  INFO.PNAM "3162930890261978816$00"
  INFO.NNAM "25968105362150119292$00"
  INFO.DATA [04 00 00 00 5A 00 00 00 FF FF FF 00]
- INFO.NAME "梅文·德雷尼姆已按照莫拉格堂传统而光荣的教义被处死，没有人敢举报我的行为。 {报告}"
+ INFO.NAME "马文·德雷尼姆已按照莫拉格堂传统而光荣的教义被处死，没有人敢举报我的行为。 {报告}"
 -INFO
  INFO.INAM "25968105362150119292$00"
  INFO.PNAM "55472125040122412$00"
  INFO.NNAM "172073493204830063$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我报告了梅文·德雷尼姆的光荣处决。"
+ INFO.NAME "我报告了马文·德雷尼姆的光荣处决。"
 -INFO
  INFO.INAM "172073493204830063$00"
  INFO.PNAM "25968105362150119292$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "我报告了梅文·德雷尼姆的光荣处决。"
+ INFO.NAME "我报告了马文·德雷尼姆的光荣处决。"
 -DIAL
  DIAL.NAME "MT_WritBemis$00"
  DIAL.DATA [04]
@@ -206915,7 +206915,7 @@ Choice ""继续"" 1"
  INFO.NNAM "57785304475526395$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec, Telvanni$00"
- INFO.NAME "所有重要的泰瓦尼家臣和雇佣兵都住在泰瓦尼驻地里。梅文·德雷尼姆是泰瓦尼在维威克的头号领主，他住在塔楼里。各种哈拉鲁家臣住在哈拉鲁驻地、圣·奥姆斯区和圣·德林区。瑞多然家族的人住在瑞多然驻地。神殿祭司、书记官和神殿卫兵们分别住在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。帝国公会在外邦区。 {帝国人}"
+ INFO.NAME "所有重要的泰瓦尼家臣和雇佣兵都住在泰瓦尼驻地里。马文·德雷尼姆是泰瓦尼在维威克的头号领主，他住在塔楼里。各种哈拉鲁家臣住在哈拉鲁驻地、圣·奥姆斯区和圣·德林区。瑞多然家族的人住在瑞多然驻地。神殿祭司、书记官和神殿卫兵们分别住在智慧厅堂和正义厅堂。一些战士在竞技场生活和训练。帝国公会在外邦区。 {帝国人}"
  INFO.SCVR "0CsX0nolore"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -225792,7 +225792,7 @@ ModDisposition 10"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec$00"
- INFO.NAME "泰瓦尼驻地是最东边的营地。梅文·德雷尼姆法师是泰瓦尼的最高贵族。泰瓦尼家族的人向神殿租用大院，只能用一座维洛提塔楼代替他们喜欢的蘑菇塔。行政中心包括一个金库和一个档案馆。奴隶们住在最底层。这里有许多商人、工匠和驯兽师，蜥脑街角酒吧为泰瓦尼亲属和雇佣兵提供住宿。"
+ INFO.NAME "泰瓦尼驻地是最东边的营地。马文·德雷尼姆法师是泰瓦尼的最高贵族。泰瓦尼家族的人向神殿租用大院，只能用一座维洛提塔楼代替他们喜欢的蘑菇塔。行政中心包括一个金库和一个档案馆。奴隶们住在最底层。这里有许多商人、工匠和驯兽师，蜥脑街角酒吧为泰瓦尼亲属和雇佣兵提供住宿。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";Vivec;"
@@ -274810,7 +274810,7 @@ Journal town_Vivec 5"
  INFO.NNAM "3175328762106929345$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "mevil molor$00"
- INFO.NAME "梅文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。"
+ INFO.NAME "马文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。"
  INFO.SCVR "04JX4MT_WritMavon"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -284012,7 +284012,7 @@ ModDisposition 5"
  INFO.BNAM "Journal MT_WritGalasa 10
 Player->AddItem ""writ_galasa"" 1"
 -DIAL
- DIAL.NAME "梅文·德雷尼姆$00"
+ DIAL.NAME "马文·德雷尼姆$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "6585289123239516948$00"
@@ -284029,7 +284029,7 @@ Player->AddItem ""writ_galasa"" 1"
  INFO.NNAM "16487130451745321035$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "梅文·德雷尼姆已死。"
+ INFO.NAME "马文·德雷尼姆已死。"
  INFO.SCVR "34JX3MT_WritMavon"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -284038,7 +284038,7 @@ Player->AddItem ""writ_galasa"" 1"
  INFO.NNAM "1667870252344816433$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "你说梅文·德雷尼姆已经死了？那我很抱歉浪费了你的时间，%PCName。我会给你这份令状记上一笔的。"
+ INFO.NAME "你说马文·德雷尼姆已经死了？那我很抱歉浪费了你的时间，%PCName。我会给你这份令状记上一笔的。"
  INFO.SCVR "06DX3mavon drenim"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "34JX0MT_WritMavon"
@@ -284051,7 +284051,7 @@ ModPCFacRep 5 ""Morag Tong"""
  INFO.NNAM "288542635397314445$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "你光荣地处决了梅文·德雷尼姆。请收下酬金和功劳，%PCName。"
+ INFO.NAME "你光荣地处决了马文·德雷尼姆。请收下酬金和功劳，%PCName。"
  INFO.SCVR "34JX0MT_WritMavon"
  INFO.INTV [5A 00 00 00]
  INFO.BNAM "Journal MT_WritMavon 100
@@ -284064,7 +284064,7 @@ ModDisposition 10"
  INFO.NNAM "1832926354498923533$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "你光荣地处决了梅文·德雷尼姆。请收下酬金和功劳，%PCName。"
+ INFO.NAME "你光荣地处决了马文·德雷尼姆。请收下酬金和功劳，%PCName。"
  INFO.SCVR "34JX0MT_WritMavon"
  INFO.INTV [50 00 00 00]
  INFO.BNAM "Journal MT_WritMavon 100
@@ -284099,7 +284099,7 @@ ModDisposition 5"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "此光荣处决令状用于处决梅文·德雷尼姆。他在维威克泰瓦尼驻地广场的泰瓦尼塔楼中，愿梅法拉指引你。"
+ INFO.NAME "此光荣处决令状用于处决马文·德雷尼姆。他在维威克泰瓦尼驻地广场的泰瓦尼塔楼中，愿梅法拉指引你。"
  INFO.SCVR "44JX3MT_WritGuril"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "54JX3MT_WritGalasa"
@@ -286776,7 +286776,7 @@ Choice ""谢谢阿娜西的提示。"" 3 ""把这件长袍作为礼物送给阿娜西。"" 4"
  INFO.NNAM "1345620136626220872$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ahnassi$00"
- INFO.NAME "阿娜西有一个秘密！你知道火镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔楼里。这个魔法师梅文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件火焰镜袍。带上它，让阿娜西看看你有多聪明。 {服装}"
+ INFO.NAME "阿娜西有一个秘密！你知道火镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔楼里。这个魔法师马文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件火焰镜袍。带上它，让阿娜西看看你有多聪明。 {服装}"
  INFO.SCVR "04JX3Romance_Ahnassi"
  INFO.INTV [53 00 00 00]
  INFO.BNAM ";Ahnassi; Journal Romance_Ahnassi >= 82; Agility >= 85; 
@@ -307880,7 +307880,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Breton$00"
  INFO.ANAM "Vivec, Telvanni Tower$00"
- INFO.NAME "你是从莫拉格堂来的，是吗？梅文·德雷尼姆在楼上，但她一直在等你。别告诉她我警告过你。"
+ INFO.NAME "你是从莫拉格堂来的，是吗？马文·德雷尼姆在楼上，但她一直在等你。别告诉她我警告过你。"
  INFO.SCVR "34JX2MT_WritMavon"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "44JX4MT_WritMavon"
@@ -421673,7 +421673,7 @@ Journal B1_UnifyUrshilaku 25"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "有一份关于梅文·德雷尼姆的未执行令状和一份关于提勒·贝尔万的新令状。"
+ INFO.NAME "有一份关于马文·德雷尼姆的未执行令状和一份关于提勒·贝尔万的新令状。"
  INFO.SCVR "24JX3MT_WritGalasa"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "34JX3MT_WritGuril"
