@@ -4828,7 +4828,7 @@ Rusted Lever
 
 > NPC_.FNAM Calvus Horatius
 Calvus Horatius
-卡留斯·霍拉提乌斯
+卡尔乌斯·霍拉提乌斯
 
 > NPC_.FNAM meryn othralas
 Meryn Othralas
@@ -5537,7 +5537,7 @@ Golden Saint
 
 > CREA.FNAM ogrim titan_velas
 Ogrim Titan
-巨型奥格力姆
+巨型欧格林
 
 > CREA.FNAM golden saint_velas2
 Golden Saint
@@ -5948,7 +5948,7 @@ Yagak gro-Gluk
 
 > NPC_.FNAM plitinius mero
 Plitinius Mero
-皮利廷纽斯·梅罗
+普利蒂尼乌斯·梅罗
 
 > NPC_.FNAM bakh gro-sham
 Bakh gro-Sham
@@ -7861,23 +7861,23 @@ Baladas Demnevanni thanked me for bringing him a copy of "Chronicles of Nchuleft
 
 > INFO.NAME mv_innocentashlanders 403510844162827739
 Marsus Tullius' Missing Hides
-马苏斯·图留斯未暴露的藏身处
+马苏斯·图里乌斯未暴露的藏身处
 
 > INFO.NAME mv_innocentashlanders 2457048842612031780
 Marsus Tullius tells me that he has been robbed by a couple of Ashlanders, and they've stolen the guar hides he was carrying to Tel Aruhn.
-马苏斯·图留斯告诉我，他被几个灰烬之民抢劫了，他们偷走了他带去泰尔-阿汝因的瓜尔皮。 {瓜尔的皮}
+马苏斯·图里乌斯告诉我，他被几个灰烬之民抢劫了，他们偷走了他带去泰尔-阿汝因的瓜尔皮。 {瓜尔的皮}
 
 > INFO.NAME mv_innocentashlanders 30841224161731232084
 I've decided against trying to track down the Ashlanders who robbed Marsus Tullius.
-我决定不去追查抢劫马苏斯·图留斯的灰烬之民。
+我决定不去追查抢劫马苏斯·图里乌斯的灰烬之民。
 
 > INFO.NAME mv_innocentashlanders 11510157602295918450
 I've told Tullius of my decision not to accept the hides from the Ashlanders. He genuinely seemed surprised that the herds belonged to the Erabenimsun people, and was only dismayed that he would have to find more hides to replace them. Unfortunately, his father financed this trade excursion, and without the hides, he has no money with which to reward me.
-我已经告诉图留斯，我决定不接受灰烬之民的瓜尔皮。他似乎真的对这些瓜尔群属于埃勒比尼姆孙人感到惊讶，只是无奈地表示必须找到其他的瓜尔皮来替代。不幸的是，这次贸易之旅是由他的父亲资助的，如果没有瓜尔皮，他就无法支付我的报酬。
+我已经告诉图里乌斯，我决定不接受灰烬之民的瓜尔皮。他似乎真的对这些瓜尔群属于埃勒比尼姆孙人感到惊讶，只是无奈地表示必须找到其他的瓜尔皮来替代。不幸的是，这次贸易之旅是由他的父亲资助的，如果没有瓜尔皮，他就无法支付我的报酬。
 
 > INFO.NAME mv_innocentashlanders 32339154672798627312
 I've spoken with Tullius' father, and he's rewarded me for helping his son.
-我和图留斯的父亲谈过了，因为我帮助了他的儿子，他给了我报酬。
+我和图里乌斯的父亲谈过了，因为我帮助了他的儿子，他给了我报酬。
 
 > INFO.NAME mv_paralyzedbarbarian 383522752736717000
 The Paralyzed Barbarian
@@ -8453,19 +8453,19 @@ I told Uvoo Llaren than Assantus Hansar was dead.
 
 > INFO.NAME mt_writyasalmibaal 1821359032060022632
 Morag Tong: Writ for Odaishah Yasalmibaal
-莫拉格堂：奥代杉·亚沙米巴的令状
+莫拉格堂：奥代沙·亚沙米巴的令状
 
 > INFO.NAME mt_writyasalmibaal 2909151212606414662
 I have been given a Writ for the honorable execution of Odaishah Yasalmibaal. To get to him, I should take a boat to Tel Aruhn and swim southwest until I reach the coast. Odaishah is in a yurt on the coast near the end of a small peninsula.
-我收到了一份光荣处决奥代杉·亚沙米巴的令状。为了找到他，我应该乘船去泰尔-阿汝因，然后向西南方向游，直到抵达海岸。奥代杉就在海岸边靠近一个小半岛尽头的帐篷里。
+我收到了一份光荣处决奥代沙·亚沙米巴的令状。为了找到他，我应该乘船去泰尔-阿汝因，然后向西南方向游，直到抵达海岸。奥代沙就在海岸边靠近一个小半岛尽头的帐篷里。
 
 > INFO.NAME mt_writyasalmibaal 278355374705110514
 I reported the honorable execution of Odaishah Yasalmibaal.
-我报告了奥代杉·亚沙米巴被光荣处决的事。
+我报告了奥代沙·亚沙米巴被光荣处决的事。
 
 > INFO.NAME mt_writyasalmibaal 304813001193727129
 I reported the honorable execution of Odaishah Yasalmibaal.
-我报告了奥代杉·亚沙米巴被光荣处决的事。
+我报告了奥代沙·亚沙米巴被光荣处决的事。
 
 > INFO.NAME tg_ss_greedyslaver 6701290641522921315
 Thieves Guild: Bal Molagmer, Brallion's Ring
@@ -8817,7 +8817,7 @@ Fighters Guild: Vandacia's Bounty
 
 > INFO.NAME fg_silencetaxgirl 1402825533417820530
 Lorbumol gro-Aglakh said he had a bounty contract for Adraria Vandacia in Seyda Neen.
-洛布莫·格罗-阿格拉克说他在赛达尼恩有一份阿德拉里娅·范达西亚的赏金合同。
+洛布莫·格罗-阿格拉克说他在赛达-尼恩有一份阿德拉里娅·范达西亚的赏金合同。
 
 > INFO.NAME fg_silencetaxgirl 1015322741673631645
 Lorbumol gro-Aglakh paid me the bounty for Adraria Vandacia.
@@ -9105,7 +9105,7 @@ Thieves Guild: Bal Molagmer, Land Deed
 
 > INFO.NAME tg_ss_generosity2 10676148462966128467
 Gentleman Jim Stacey asked me to find a forged deed of sale for Indrele Rathryon's land. The deed is in the Library of Vivec. I should deliver the deed to Indrele Rathryon herself in Seyda Neen in the name of the Bal Molagmer.
-绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达尼恩以巴尔·莫拉格莫的名义将地契交给因卓尔·拉特里恩本人。
+绅士吉姆·史戴西让我找到一份伪造的因卓尔·拉特里恩的土地买卖契约。契约就在维威克图书馆里。我应该在赛达-尼恩以巴尔·莫拉格莫的名义将地契交给因卓尔·拉特里恩本人。
 
 > INFO.NAME tg_ss_generosity2 71893279168886388
 Gentleman Jim Stacey thanked me for taking the land deed to Indrele Rathryon.
@@ -9901,7 +9901,7 @@ I warned Bedal Alen that Tienius Delitian had evidence of his conspiracy, and th
 
 > INFO.NAME merc_calvus_quit 1708850322719721221
 The mercenary Calvus Horatius has resigned because I took his stuff. He warned me he was working for profit, and would quit if I ever left him with a total of less than 750 gold worth of gear and cash. He was very angry, and said he would never work for me again.
-雇佣兵卡留斯·霍拉提乌斯已辞职，因为我拿走了他的东西。他警告我说，他是在为利益工作，如果我留给他的装备和现金总价值低于750金币，他就会辞职。他非常生气，并说他再也不会为我工作了。
+雇佣兵卡尔乌斯·霍拉提乌斯已辞职，因为我拿走了他的东西。他警告我说，他是在为利益工作，如果我留给他的装备和现金总价值低于750金币，他就会辞职。他非常生气，并说他再也不会为我工作了。
 
 > INFO.NAME ms_barbarianbook 312578304190565295
 The Barbarian and the Book
@@ -11757,7 +11757,7 @@ Meet Sul-Matuul
 
 > INFO.NAME a2_1_supplies2 1639929052870028096
 Crulius Pontanian gave me a selection of scrolls.
-克鲁留斯·庞塔尼安给了我一些卷轴。
+克鲁里乌斯·庞塔尼安给了我一些卷轴。
 
 > INFO.NAME mg_staffmagnus 43052027399275971
 Mages Guild: The Staff of Magnus
@@ -12657,7 +12657,7 @@ A Man and His Guar
 
 > INFO.NAME mv_richtrader 1354429058674025913
 I ran into a trader, Teris Raledran, while traveling near Seyda Neen. He is trying to get a shipment of clothing to Agrippina Herennia in Vivec. He would like me to escort him and his pack guar, Rollie, and ensure their safety on the way.
-我在赛达尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔 -- 瓜尔罗利，并确保他们在途中的安全。 {保镖}
+我在赛达-尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔 -- 瓜尔罗利，并确保他们在途中的安全。 {保镖}
 
 > INFO.NAME mv_richtrader 1829461442819417989
 I've decided to escort neither Teris Raledran nor his guar to Vivec. This man is unstable at best. And the guar is no better.
@@ -12733,7 +12733,7 @@ Death of a Taxman
 
 > INFO.NAME mv_deadtaxman 16691114961401313454
 I found a corpse while traveling near Seyda Neen. It seems to be the corpse of one Processus Vitellius, based on some items found on his body. He is carrying a parchment with what look like tax records. He also had 200 gold on his body, probably taxes he'd collected.
-我在赛达尼恩附近旅行时发现了一具尸体。根据在他身上发现的一些物品来看，这似乎是一个名叫普罗塞苏斯·维特留斯的人的尸体。他随身携带着一张羊皮纸，上面似乎有税务记录。他身上还有200金币，可能是他征收的税款。
+我在赛达-尼恩附近旅行时发现了一具尸体。根据在他身上发现的一些物品来看，这似乎是一个名叫普罗塞苏斯·维特里乌斯的人的尸体。他随身携带着一张羊皮纸，上面似乎有税务记录。他身上还有200金币，可能是他征收的税款。
 
 > INFO.NAME mv_deadtaxman 28520312023193131007
 After killing Gilnith, I reported my findings to the Census and Excise Office. Socucius seemed pleased to see Processus' murder avenged, and he paid me as promised.
@@ -12921,7 +12921,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_benunius 1387914722261938192
 Benunius Agrudilius refused to give me Cyrodilic brandy, and gave me a bottle of greef instead.
-本纽乌斯·阿格鲁迪留斯拒绝给我西罗帝尔白兰地，而给了我一瓶格里夫。
+贝努尼乌斯·阿格鲁迪里乌斯拒绝给我西罗帝尔白兰地，而给了我一瓶格里夫。
 
 > INFO.NAME eb_unrequited 2714681673226926262
 For the Love of a Bosmer
@@ -13005,11 +13005,11 @@ Someone said a High Elf has been seen in the company of a local woman, Volmyni D
 
 > INFO.NAME ic13_rich_not 2287618969466925540
 Imperial Cult: Donation from Cunius Pelelius
-帝国教团：来自库尼乌斯·佩勒留斯的捐赠
+帝国教团：来自库尼乌斯·佩勒里乌斯的捐赠
 
 > INFO.NAME ic13_rich_not 287546525257710930
 I told Iulus Truptor I couldn't get Cunius Pelelius to donate 500 gold to the Imperial cult's Widows and Orphans Fund. Iulus was disappointed, and told me to decide whether my talents and temperaments are suited for soliciting donations. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我没能让库尼乌斯·佩勒留斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
+我告诉尤卢斯·特拉普托，我没能让库尼乌斯·佩勒里乌斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
 
 > INFO.NAME ic4_scrib_not 68125218163189360
 Imperial Cult: Gathering Scrib Jelly
@@ -14277,7 +14277,7 @@ I've asked Barenziah about the Mazed Band. She had heard of it, but did not know
 
 > INFO.NAME tr_mazedband 310616092723920411
 Plitinius Mero did not wish to speak to me about the Mazed Band. He believes it is an evil artifact, and something that is best left buried. It was an odd reaction from this rational scholar.
-皮利廷纽斯·梅罗不希望和我谈及迷宫之戒。他认为那是一件邪恶的神器，最好被深深埋藏。这位理性的学者的反应很奇怪。
+普利蒂尼乌斯·梅罗不希望和我谈及迷宫之戒。他认为那是一件邪恶的神器，最好被深深埋藏。这位理性的学者的反应很奇怪。
 
 > INFO.NAME tr_mazedband 3778226541834828937
 I've spoken with Torasa Aram, the curator at the Museum of Artifacts in Mournhold. She had heard of the band, but was unsure whether it truly existed. The band is rumored to be very powerful, and only able to be worn and used by beings of divine power.
@@ -14377,11 +14377,11 @@ King Hlaalu Helseth has spoken to me about possible threats to his monarchy. He 
 
 > INFO.NAME tr_assassins 15714197241619525556
 I've spoken to Barenziah about the plot Helseth suspects. She finds the idea a bit farfetched. She suggests I speak with a friend of hers, Plitinius Mero, who can often be found wandering in the Palace Courtyard.
-我和巴兰兹娅谈过了赫尔塞斯疑虑的阴谋。她认为这个想法有点牵强。她建议我和她的朋友皮利廷纽斯·梅罗谈谈，他经常在宫殿庭院里闲逛。
+我和巴兰兹娅谈过了赫尔塞斯疑虑的阴谋。她认为这个想法有点牵强。她建议我和她的朋友普利蒂尼乌斯·梅罗谈谈，他经常在宫殿庭院里闲逛。
 
 > INFO.NAME tr_assassins 1888927612387829059
 Plitinius Mero tells me that Helseth is incredibly well protected, and any attempt on him would be unlikely to succeed. He suggests I speak with the informant, though. Also, Mero has told me I may return to him any time I am in need of information.
-皮利廷纽斯·梅罗告诉我，赫尔塞斯被保护得非常好，任何针对他的企图都不太可能成功。不过，他建议我和线人谈谈。此外，梅罗还告诉我，如果我需要信息的话，可以随时回来找他。
+普利蒂尼乌斯·梅罗告诉我，赫尔塞斯被保护得非常好，任何针对他的企图都不太可能成功。不过，他建议我和线人谈谈。此外，梅罗还告诉我，如果我需要信息的话，可以随时回来找他。
 
 > INFO.NAME tr_assassins 31252824018021765
 I have found Helseth's informant in the Winged Guar. His name is Bakh gro-Sham.
@@ -14397,7 +14397,7 @@ The Queen Mother is unconcerned about any attempt on her life. She believes it t
 
 > INFO.NAME tr_assassins 9649100341005329085
 Plitinius Mero does not believe that an attempt on Barenziah's life makes any sense. He does say that Helseth could be using this as a sort of test, and wouldn't be above putting his mother in harm's way.
-皮利廷纽斯·梅罗不认为刺杀巴兰兹娅的企图有任何意义。他说，赫尔塞斯可能会把这当成一种测试，并且不惜将他的母亲置于险境。
+普利蒂尼乌斯·梅罗不认为刺杀巴兰兹娅的企图有任何意义。他说，赫尔塞斯可能会把这当成一种测试，并且不惜将他的母亲置于险境。
 
 > INFO.NAME tr_assassins 17290138162284619603
 I've relayed the information to King Helseth regarding the plot against his mother. He has asked me to wait in the room outside Barenziah's chambers tomorrow night and protect her from any attackers. I am to close both doors in the anteroom and hide behind the screens in the room, so as not to alert the attackers.
@@ -15333,19 +15333,19 @@ Warlords
 
 > INFO.NAME merc_calvus 2298480873050719102
 I've hired the mercenary Calvus Horatius as a bodyguard and companion for a thirty-day contract. He will follow me everywhere, and fight when I fight. I should keep him healthy and safe. He will follow or stay, at my command. If I want to change the plan, I should just talk to him about it.
-我雇佣了佣兵卡留斯·霍拉提乌斯作为保镖和同伴，合同为期30天。他将跟随我到任何地方，和我一同战斗。我应该让他保持健康和安全。他将听从我的命令跟随或等待。如果我想改变计划，我应该直接和他交谈。 {生命}
+我雇佣了佣兵卡尔乌斯·霍拉提乌斯作为保镖和同伴，合同为期30天。他将跟随我到任何地方，和我一同战斗。我应该让他保持健康和安全。他将听从我的命令跟随或等待。如果我想改变计划，我应该直接和他交谈。 {生命}
 
 > INFO.NAME merc_calvus 183220155172256086
 The mercenary Calvus Horatius has completed his first thirty-day contract with me, and has left my service.
-雇佣兵卡留斯·霍拉提乌斯已经完成了他与我的第一个30天合同，并不再为我服务。
+雇佣兵卡尔乌斯·霍拉提乌斯已经完成了他与我的第一个30天合同，并不再为我服务。
 
 > INFO.NAME merc_calvus 18464145472347432644
 I've re-hired the mercenary Calvus Horatius as a bodyguard and companion for a thirty-day contract. The terms are the same. He will follow me everywhere, and fight when I fight. I should keep him healthy and safe. He will follow or stay, at my command. If I want to change the plan, I should just talk to him about it.
-我重新雇用了佣兵卡留斯·霍拉提乌斯作为保镖和伙伴，合同为期30天。条件是一样的。他将跟随我到任何地方，和我一同战斗。我应该让他保持健康和安全。他将听从我的命令跟随或等待。如果我想改变计划，我应该直接和他交谈。 {重新雇佣,生命}
+我重新雇用了佣兵卡尔乌斯·霍拉提乌斯作为保镖和伙伴，合同为期30天。条件是一样的。他将跟随我到任何地方，和我一同战斗。我应该让他保持健康和安全。他将听从我的命令跟随或等待。如果我想改变计划，我应该直接和他交谈。 {重新雇佣,生命}
 
 > INFO.NAME merc_calvus 1843584361655129470
 The mercenary Calvus Horatius has completed another thirty-day contract with me, and has left my service.
-雇佣兵卡留斯·霍拉提乌斯已经完成了又一个与我同行30天的合同，并不再为我服务。
+雇佣兵卡尔乌斯·霍拉提乌斯已经完成了又一个与我同行30天的合同，并不再为我服务。
 
 > INFO.NAME ms_summoner 12812299811564910654
 The Summoner
@@ -15865,27 +15865,27 @@ I delivered a red shirt with a black vest to Iulus Truptor for the Harvest's End
 
 > INFO.NAME ic13_rumor 16246221781536317663
 Imperial Cult: Donation from Cunius Pelelius
-帝国教团：来自库尼乌斯·佩勒留斯的捐赠
+帝国教团：来自库尼乌斯·佩勒里乌斯的捐赠
 
 > INFO.NAME ic13_rumor 1558344103167615
 Olumba gro-Boglar, a member of the Imperial cult, told me why Cunius Pelelius is slow to redeem his pledged donation. Olumba says Cunius Pelelius has gotten into money trouble, and that he's trying to handle his trouble by skimming from the Caldera mine and smuggling raw ebony. I might be able to pressure Cunius Pelelius if I had proof of his misdeeds. Olumba says the slaves in the mine would know, but they'll be afraid to talk. Perhaps I can persuade them....
-帝国教团的成员奥伦巴·格罗-博格拉告诉我，库尼乌斯·佩勒留斯为什么迟迟不兑现他承诺的捐赠。奥伦巴说库尼乌斯·佩勒留斯陷入了金钱上的麻烦，他想通过从卡尔德拉矿场揩油和走私的黑檀矿来解决麻烦。如果有证据证明库尼乌斯·佩勒留斯的不法行为，我也许能给他施加压力。奥伦巴说，矿场里的奴隶们会知道，但他们不敢说。也许我能说服他们来谈谈…… {帝国人}
+帝国教团的成员奥伦巴·格罗-博格拉告诉我，库尼乌斯·佩勒里乌斯为什么迟迟不兑现他承诺的捐赠。奥伦巴说库尼乌斯·佩勒里乌斯陷入了金钱上的麻烦，他想通过从卡尔德拉矿场揩油和走私的黑檀矿来解决麻烦。如果有证据证明库尼乌斯·佩勒里乌斯的不法行为，我也许能给他施加压力。奥伦巴说，矿场里的奴隶们会知道，但他们不敢说。也许我能说服他们来谈谈…… {帝国人}
 
 > INFO.NAME ic13_slave 25095172633259629653
 Imperial Cult: Donation from Cunius Pelelius
-帝国教团：来自库尼乌斯·佩勒留斯的捐赠
+帝国教团：来自库尼乌斯·佩勒里乌斯的捐赠
 
 > INFO.NAME ic13_slave 733930594248439348
 I spoke to a slave in the Caldera Mines, and he said the 'boss man' sneaks in at night, takes ebony, puts it in a bag, then takes it away. Perhaps this is not solid enough evidence to take to the guards. But perhaps, if confronted with this testimony, Cunius Pelelius may reconsider his unwillingness to donate 500 gold to the Widows and Orphans Fund.
-我和卡尔德拉矿场的一个奴隶谈过，他说“老板”晚上偷偷潜行溜进来，拿走黑檀，装进袋子里，然后带走。也许这些证据还不够确凿，不能拿给卫兵看。但是，如果面对这些证词，库尼乌斯·佩勒留斯也许会重新考虑他不愿向孤寡老人基金捐赠500金币的想法。 {瓜尔}
+我和卡尔德拉矿场的一个奴隶谈过，他说“老板”晚上偷偷潜行溜进来，拿走黑檀，装进袋子里，然后带走。也许这些证据还不够确凿，不能拿给卫兵看。但是，如果面对这些证词，库尼乌斯·佩勒里乌斯也许会重新考虑他不愿向孤寡老人基金捐赠500金币的想法。 {瓜尔}
 
 > INFO.NAME ic13_fight 13828172921028422032
 Imperial Cult: Donation from Cunius Pelelius
-帝国教团：来自库尼乌斯·佩勒留斯的捐赠
+帝国教团：来自库尼乌斯·佩勒里乌斯的捐赠
 
 > INFO.NAME ic13_fight 2958120272412919974
 When I demanded that Cunius Pelelius deliver the money he had promised, he took offense, and attacked me. Now there is no chance that Cunius Pelelius will give me 500 gold for the Widows and Orphans Fund.
-当我要求库尼乌斯·佩勒留斯交付他承诺的钱时，他不以为然，还攻击了我。现在库尼乌斯·佩勒留斯不可能再给我500金币作为孤儿寡母基金了。
+当我要求库尼乌斯·佩勒里乌斯交付他承诺的钱时，他不以为然，还攻击了我。现在库尼乌斯·佩勒里乌斯不可能再给我500金币作为孤儿寡母基金了。
 
 > INFO.NAME eb_clients 12768204011721012895
 The Client List
@@ -16345,15 +16345,15 @@ Hoki gave me a donation for the Buckmoth Fund.
 
 > INFO.NAME ic13_rich 10671117012798023308
 Imperial Cult: Donation from Cunius Pelelius
-帝国教团：来自库尼乌斯·佩勒留斯的捐赠
+帝国教团：来自库尼乌斯·佩勒里乌斯的捐赠
 
 > INFO.NAME ic13_rich 16720155441557895
 Iulus Truptor has sent me to the Governor's Hall in Caldera to persuade Cunius Pelelius of the Caldera Mining Company to donate 500 gold to the Imperial cult's Widows and Orphans Fund. When I've obtained the donation, I'm to deliver it to Iulus Truptor.
-尤卢斯·特拉普托派我前往卡尔德拉总督大厅，说服卡尔德拉矿业公司的库尼乌斯·佩勒留斯向帝国教团的孤儿寡母基金捐赠500金币。我拿到捐款后，要把它交给尤卢斯·特拉普托。 {帝国人}
+尤卢斯·特拉普托派我前往卡尔德拉总督大厅，说服卡尔德拉矿业公司的库尼乌斯·佩勒里乌斯向帝国教团的孤儿寡母基金捐赠500金币。我拿到捐款后，要把它交给尤卢斯·特拉普托。 {帝国人}
 
 > INFO.NAME ic13_rich 1786928265237026139
 I told Iulus Truptor I couldn't get Cunius Pelelius to donate 500 gold to the Imperial cult's Widows and Orphans Fund. Iulus was disappointed, and told me to decide whether my talents and temperaments are suited for soliciting donations. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我没能让库尼乌斯·佩勒留斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
+我告诉尤卢斯·特拉普托，我没能让库尼乌斯·佩勒里乌斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
 
 > INFO.NAME ic13_rich 6617174472804123909
 I delivered 500 gold to Iulus Truptor for the Widows and Orphans Fund. He was very pleased. He gave me an interesting assortment of scrolls he had received from an anonymous donor, and told me to speak to him again when I'm ready for another almoner's mission.
@@ -16725,11 +16725,11 @@ The Enchanter's Rats
 
 > INFO.NAME eb_pest 268321172207113896
 I have heard rumors in Vivec of a merchant with a rat infestation problem. Apparently, Audenian Valius, a Telvanni enchanter, has been overrun by rats in recent weeks.
-我在维威克听到了一个商人有鼠患问题的传言。显然，奥邓尼安·瓦留斯，一位泰瓦尼的附魔师，最近几周被老鼠泛滥成灾的问题困扰着。
+我在维威克听到了一个商人有鼠患问题的传言。显然，奥德尼安·瓦里乌斯，一位泰瓦尼的附魔师，最近几周被老鼠泛滥成灾的问题困扰着。
 
 > INFO.NAME eb_pest 197995275183132618
 I have killed the nest of rats in the Underworks, and returned to Audenian Valius. He was grateful for my help, and rewarded me with a valuable soul gem.
-我杀死了底层区里的一窝老鼠，回到了奥邓尼安·瓦留斯身边。他对我的帮助非常感激，并奖励了我一颗价值连城的灵魂石。 {报酬}
+我杀死了底层区里的一窝老鼠，回到了奥德尼安·瓦里乌斯身边。他对我的帮助非常感激，并奖励了我一颗价值连城的灵魂石。 {报酬}
 
 > INFO.NAME mg_bowl 257131082734417152
 Mages Guild: Ceramic Bowl
@@ -18885,7 +18885,7 @@ You have all the pieces. Well done, %PCName. I wish you well.
 
 > INFO.NAME pieces of the blade 3081272131443032575
 You've retrieved one of the pieces. Excellent. I don't know what else I can tell you, my friend. Perhaps dear Plitinius can give you some advice. Good luck, %PCName.
-你找回了其中一块碎片。很好。我不知道我还能告诉你什么，我的朋友。也许亲爱的皮利廷纽斯可以给你一些建议。祝你好运，%PCName。 {幸运}
+你找回了其中一块碎片。很好。我不知道我还能告诉你什么，我的朋友。也许亲爱的普利蒂尼乌斯可以给你一些建议。祝你好运，%PCName。 {幸运}
 
 > INFO.NAME pieces of the blade 196615291979615131
 Reforge the blade of Nerevar? I have heard rumors of the Nerevarine returning...could it be you? I wonder.... If what Almalexia says is true, and all the pieces of the blade are here in Mournhold, I have few suggestions for you. Helseth's champion, Karrod, carries a blade that is of ancient Dwemer design. Perhaps you will learn more from him. He respects you, %PCName, and that is a rare thing indeed.
@@ -19333,7 +19333,7 @@ If the Queen Mother considers you a friend, so do I. Her wisdom is vast, and I a
 
 > INFO.NAME whom you may trust 271607591634923853
 A difficult question, especially in the company of gods and kings. I am always here to answer your questions. My time in the political arena is done, and I will not miss it. I do, however, like to know what is happening to my son, and to his monarchy. I stay interested. You should also take the time to speak with Plitinius Mero, a dear friend of mine. He is knowledgeable on a great many subjects, and is always interesting to speak with. Apart we two, it is up to you to decide who your friends are.
-这是个很难回答的问题，尤其是在神明和国王在旁的情况下。我一直在这里回答你的问题。我早已退出政坛，我也不会怀念政治。然而，我确实想知道我的儿子和他的统治发生了什么。我一直很感兴趣。你也应该花时间和皮利廷纽斯·梅罗谈谈，他是我的一位挚友。他在很多方面都很有见地，和他说话总是很有趣。除了我们两个，谁是你的朋友就看你自己了。 {竞技场}
+这是个很难回答的问题，尤其是在神明和国王在旁的情况下。我一直在这里回答你的问题。我早已退出政坛，我也不会怀念政治。然而，我确实想知道我的儿子和他的统治发生了什么。我一直很感兴趣。你也应该花时间和普利蒂尼乌斯·梅罗谈谈，他是我的一位挚友。他在很多方面都很有见地，和他说话总是很有趣。除了我们两个，谁是你的朋友就看你自己了。 {竞技场}
 
 > INFO.NAME dissident priests 2496127873165737557
 The Dissident priests dispute Temple doctrine. They challenge the purity and divinity of the Tribunal, suggesting their powers are sorcerous, not divine. They also condemn the arbitrary power of the Ordinators, and accuse the Temple hierarchy of self-interest and corruption. The Dissident Priests are outlawed and persecuted by the Temple.
@@ -22535,7 +22535,7 @@ I heard he had been killed. He was a dear, dear friend of mine. If I find out wh
 
 > INFO.NAME plitinius mero 517669172142116495
 Ahhh...Plitinius. He's a dear friend of mine. An author, a man of the people. He's a good source of information. These royal trappings don't allow me to get out as much as I'd like, but I can always count on Plitinius to know how the winds will change. You'll often find him wandering about in the Palace Courtyard. Get to know him, %PCName. His knowledge and judgement are unparalleled.
-啊…皮利廷纽斯。他是我亲爱的朋友。一位作家，人民中的一员。他是个不错的消息源。王室的这些繁文缛节不允许我随心所欲地出去，但我总能指望皮利廷纽斯来了解风声。你会发现他经常在王宫庭院里闲逛。去认识他吧，%PCName。他的知识和判断力无与伦比。 {作者}
+啊…普利蒂尼乌斯。他是我亲爱的朋友。一位作家，人民中的一员。他是个不错的消息源。王室的这些繁文缛节不允许我随心所欲地出去，但我总能指望普利蒂尼乌斯来了解风声。你会发现他经常在王宫庭院里闲逛。去认识他吧，%PCName。他的知识和判断力无与伦比。 {作者}
 
 > INFO.NAME prove yourself 1974954873172923721
 I require all those close to me to be powerful, able to defend me from any adversary. Perhaps you have met my personal bodyguard, Karrod? He is a perfect example: the finest fighter I have met in all my travels, and loyal to me to the death.
@@ -22999,7 +22999,7 @@ Your first visit to Morrowind, outlander? Then learn the law and local customs. 
 
 > INFO.NAME little advice 8301187191161611327
 We see a lot of new faces like yours here in Seyda Neen. If you're hoping to stand out from the crowd, you need to practice a lot to improve your skills. And if you want to increase your general level of competence, focus on your major skills -- the ones most important to your trade. That way you'll advance more quickly. And another little tip newcomers forget. Always carry a little food so you can freshen up when fatigue gets you down. Eat a little, and you can feel your energy coming back.
-我们在赛达尼恩见过很多像你这样的新面孔。如果你想在人群中脱颖而出，就得多加练习，提高自己的技能。如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,提示}
+我们在赛达-尼恩见过很多像你这样的新面孔。如果你想在人群中脱颖而出，就得多加练习，提高自己的技能。如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,提示}
 
 > INFO.NAME little advice 3134129964876314433
 You wouldn't think so, but there are number of old abandoned tombs in the area. I thought this area had never been settled, but apparently, long before the Empire opened Vvardenfell up for settlement, someone has put a lot of ancestors to rest here. Most of us can't get past a superstitious distaste for rooting around in ancestral tombs. But you're an outlander. It shouldn't bother you, should it?
@@ -23095,7 +23095,7 @@ Since you're here, you should take a look at the Mask of Vivec. Ask Mehra Drora 
 
 > INFO.NAME little advice 686453462120328096
 I bet you couldn't throw a stone around here without hitting a smuggler. 'Smuggler's Coast' is what they call this stretch of coast from Seyda Neen north to West Gash. Now, no one HERE would think of trying to cheat the Emperor of his taxes. No. We're loyal citizens.
-我敢打赌，你在这里随便扔块石头出去都能砸到个走私者。“走私者海岸”是他们对从赛达尼恩向北到西境之痕这段海岸的称呼。不，这里没有人会想去偷税漏税，我们是忠诚的公民。
+我敢打赌，你在这里随便扔块石头出去都能砸到个走私者。“走私者海岸”是他们对从赛达-尼恩向北到西境之痕这段海岸的称呼。不，这里没有人会想去偷税漏税，我们是忠诚的公民。
 
 > INFO.NAME little advice 32358161091915225615
 A fellow looking for trouble might take a peek around in the old Daedric ruins on an island to the south. Probably safer than stirring up trouble in town, anyway.
@@ -23347,7 +23347,7 @@ If you need to know about clothes, and you want to talk to a clothier, talk to M
 
 > INFO.NAME little advice 6527196682828317469
 If you want to know about a place on Vvardenfell, talk to a scout. And the scout I'd talk to is Elone. You can find her at Arrille's Tradehouse in Seyda Neen. She's traveled all over the island.
-如果你想了解瓦登费尔的某个地方，那就去找个斥候问问。如果是我就会去找斥候埃隆。你可以在赛达尼恩的阿里尔贸易行找到她。她走遍了整个岛屿。 {谈}
+如果你想了解瓦登费尔的某个地方，那就去找个斥候问问。如果是我就会去找斥候埃隆。你可以在赛达-尼恩的阿里尔贸易行找到她。她走遍了整个岛屿。 {谈}
 
 > INFO.NAME little advice 1582215293888325846
 Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.
@@ -23391,11 +23391,11 @@ My notion of the ideal knight is an Orc named Dumbuk gro-Bolak. He serves with t
 
 > INFO.NAME little advice 2072645232283522584
 Albecius Colollius is a veteran battlemage. He hangs out at Arrille's Tradehouse in Seyda Neen. Talk to him if you want to know about battlemages and how they work here in Morrowind.
-阿尔贝基乌斯·克罗里乌斯是一位资深战斗法师。他经常在赛达尼恩的阿里尔贸易行出没。如果你想了解战斗法师以及他们在晨风中的工作方式，可以和他谈谈。
+阿尔贝基乌斯·克罗里乌斯是一位资深战斗法师。他经常在赛达-尼恩的阿里尔贸易行出没。如果你想了解战斗法师以及他们在晨风中的工作方式，可以和他谈谈。
 
 > INFO.NAME little advice 17938310922374418991
 Albecius Colollius is a veteran battlemage. He hangs out at Arrille's Tradehouse in Seyda Neen. Talk to him if you want to know about battlemages and how they work here in Morrowind.
-阿尔贝基乌斯·克罗里乌斯是一位资深战斗法师。他经常在赛达尼恩的阿里尔贸易行出没。如果你想了解战斗法师以及他们在晨风中的工作方式，可以和他谈谈。
+阿尔贝基乌斯·克罗里乌斯是一位资深战斗法师。他经常在赛达-尼恩的阿里尔贸易行出没。如果你想了解战斗法师以及他们在晨风中的工作方式，可以和他谈谈。
 
 > INFO.NAME little advice 1539016600270828441
 Mervs Uvayn has been an agent for House Hlaalu for quite a while. You'll find him at the Hlaalu Council Manor in Balmora. Talk to him if you want to know about the agent's trade.
@@ -23463,11 +23463,11 @@ Tendris Vedran is the person I'd talk to if I wanted to know about the apothecar
 
 > INFO.NAME little advice 23213323002688228604
 If you want to talk to an enchanter about enchanting, try Galar Rothan at the Telvanni Council House. He's not a stiff shirt like a lot of the Telvanni wizards, and he knows his stuff.
-如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试伽拉尔·罗森。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
+如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试伽拉尔·罗桑。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
 
 > INFO.NAME little advice 1560894202897913784
 If you want to talk to an enchanter about enchanting, try Galar Rothan at the Telvanni Council House. He's not a stiff shirt like a lot of the Telvanni wizards, and he knows his stuff.
-如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试伽拉尔·罗森。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
+如果你想和附魔师谈谈附魔的事，可以去泰瓦尼议会所试试伽拉尔·罗桑。他不像很多泰瓦尼巫师那样死板，而且他很懂行。
 
 > INFO.NAME little advice 20868296541967631924
 Anarenen at the Ald'ruhn Guild of Mages is happy to talk your ear off about alchemy. He's been on Vvardenfell a while, and knows everything there is to know about practicing the profession here.
@@ -23535,7 +23535,7 @@ If all it takes is a little persuasion, a flask of Telvanni bug musk is what you
 
 > INFO.NAME little advice 131552644227112359
 Best bargain for a risk-taker is a jug of sujamma. Makes you strong as an ogrim -- not for long, but long enough.
-对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像奥格力姆一样强壮 -- 时间不长，但也足够了。
+对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像欧格林一样强壮 -- 时间不长，但也足够了。
 
 > INFO.NAME little advice 151721995257886024
 I've never seen a successful adventurer who didn't carry a couple of Almsivi Intervention scrolls with him on long expeditions. Two reasons. Emergency exit. And it lets you move a LOT more loot than you can carry on foot. And faster goes without saying.
@@ -23851,7 +23851,7 @@ When the blight gets a mine, you have to kill or cure them. It doesn't pay to cu
 
 > INFO.NAME little secret 266442382321106923
 Want to cure a blighted queen, but don't have the cure blight spell? Then you need to buy some Scroll of Daerir's Blessing scrolls. NOT Daerir's Miracle -- they cure YOU. Daerir's Blessing scrolls cure the target. Try Crulius Pontanian at Fort Moonmoth, or Miraso Seran at Telvanni Council Hall, or Ureso Drath at the Ald'ruhn Temple.
-想要治愈得了枯萎病的夸蚂女王，但没有治愈枯萎病的魔法？那么你需要购买一些戴瑞尔的祝福卷轴。不是戴瑞尔的奇迹 -- 它们只能治愈你自己。戴瑞尔的祝福卷轴可以治愈目标。去月蛾要塞的克鲁留斯·庞塔尼安，或者泰瓦尼议会大厅的米拉索·瑟然，或者奥德'汝因神殿的尤瑞索·达拉斯试试。
+想要治愈得了枯萎病的夸蚂女王，但没有治愈枯萎病的魔法？那么你需要购买一些戴瑞尔的祝福卷轴。不是戴瑞尔的奇迹 -- 它们只能治愈你自己。戴瑞尔的祝福卷轴可以治愈目标。去月蛾要塞的克鲁里乌斯·庞塔尼安，或者泰瓦尼议会大厅的米拉索·瑟然，或者奥德'汝因神殿的尤瑞索·达拉斯试试。
 
 > INFO.NAME little secret 27578249051902727234
 You thinking about looking around for Dwemer sites? Well, it's your funeral. There's a well-known one called Mzahnch, on an island a ways east of Vivec. You don't look ready for that kind of excitement, but, heck, you don't try, you'll never learn, right?
@@ -24139,7 +24139,7 @@ I heard about your fight with that Velas wizard, %PCName. Tough talk, but not mu
 
 > INFO.NAME latest rumors 865122772262155073
 With all the troubles on Vvardenfell, any decent mercenaries demand fancy wages there, and get them, no questions asked. Doesn't leave much choice around here for hiring. That Imperial fellow, Calvus Horatius, is the only one I know about. He's new to Mournhold -- no reputation, no references -- but he looks like a veteran, and has an honest face.
-瓦登费尔有那么多麻烦，任何正经的雇佣兵都会在那里要求高薪，并毫无疑问地得到薪水。这里的雇佣兵没有多少选择。那个叫卡留斯·霍拉提乌斯的帝国人，就我所知是这里的唯一一个。他刚来哀伤之城 -- 没名气，没来头 -- 但他看起来像个老手，而且有一张诚实的脸。 {问题}
+瓦登费尔有那么多麻烦，任何正经的雇佣兵都会在那里要求高薪，并毫无疑问地得到薪水。这里的雇佣兵没有多少选择。那个叫卡尔乌斯·霍拉提乌斯的帝国人，就我所知是这里的唯一一个。他刚来哀伤之城 -- 没名气，没来头 -- 但他看起来像个老手，而且有一张诚实的脸。 {问题}
 
 > INFO.NAME latest rumors 1422977451256710174
 Someone brought a big piece of adamantium ore out of the ruins again. You'd think they'd have been worked clean by now. But, then again, they say they're still parts of the old city left unexplored after all these centuries. It's partly a matter of engineering -- most passages of the old city collapsed ages ago. But it's also a matter of what's down in those sealed passages. Some says those passages were sealed for a reason.
@@ -24419,7 +24419,7 @@ I'm just a courier. Delivery boy. Follow orders and get paid. I don't know nothi
 
 > INFO.NAME latest rumors 2105310739237204445
 Part of the time I keep an eye on who comes and goes here in Seyda Neen. But most of my job is learning the land. Morrowind has been a province for centuries, but we really haven't had access to Vvardenfell until the last decade or so. It's a wild place, and even the natives get lost once they get off the roads.
-部分时间我在赛达尼恩监视来往的人，但我的大部分工作是了解这片土地。晨风作为一个行省已经有几个世纪了，但我们真正进入瓦登费尔还是在最近十几年。那是个荒凉的地方，即使是当地人一旦离开道路也会迷路。
+部分时间我在赛达-尼恩监视来往的人，但我的大部分工作是了解这片土地。晨风作为一个行省已经有几个世纪了，但我们真正进入瓦登费尔还是在最近十几年。那是个荒凉的地方，即使是当地人一旦离开道路也会迷路。
 
 > INFO.NAME latest rumors 2190811908785615033
 ...so Throknolf the Craven, who is strong and tough, but not the brightest star in the sky, wanders into Shenk's Shovel and drinks enough to choke a guar. Then he tells everyone about the loads of loot stashed in their cave, and how the guards will never find it. And then he stumbles out of Shenk's Shovel and wanders west of town, not paying any attention to me following along behind, and after a while he ducks into this cave. Poor fellow. He will never learn.
@@ -24799,7 +24799,7 @@ I have heard that you have taken personal vengeance for the murder of Airan-Ahhe
 
 > INFO.NAME latest rumors 65592047847565529
 There's been a pretty bad rat problem in the Telvanni section of Vivec. Audenian Valius the enchanter has gotten the worst of it, apparently.
-在维威克的泰瓦尼地区，老鼠问题很严重。附魔师奥邓尼安·瓦留斯显然是首当其冲。
+在维威克的泰瓦尼地区，老鼠问题很严重。附魔师奥德尼安·瓦里乌斯显然是首当其冲。
 
 > INFO.NAME latest rumors 20129319702329227564
 Rumors? Sorry, I haven't really been paying attention to those things since my husband has gone missing.
@@ -25283,7 +25283,7 @@ Have you seen Ienas Sarandas lately? What a remarkably good-looking young man he
 
 > INFO.NAME latest rumors 1469412633283572447
 I've heard that the local tax collector, Processus Vitellius, is missing. No surprise, really. He wasn't well liked around here.
-我听说当地的税官普罗塞苏斯·维特留斯失踪了，这并不奇怪，他在这里人缘不好。 {收集者}
+我听说当地的税官普罗塞苏斯·维特里乌斯失踪了，这并不奇怪，他在这里人缘不好。 {收集者}
 
 > INFO.NAME latest rumors 27440159621703420683
 These Imperial tax collectors have really started to get on everyone's nerves. Haven't seen the local one in a while, though...not that anyone is complaining.
@@ -37311,7 +37311,7 @@ Someone try to kill me? Ridiculous! Certainly I've made my share of enemies in m
 
 > INFO.NAME plot 27344112721791021374
 My son believes someone would try to assassinate him? It's possible, I suppose, but not likely to succeed. He's more well-guarded than the emperor himself. It's all a bit overdone, if you ask me. Still...someone could be up to something. I suggest you speak with an old friend of mine, Plitinius Mero.
-我儿子相信有人会试图暗杀他？我想这有可能，但不太可能成功。他比皇帝本人防卫还要严密。如果你问我，都有点过分了。不过…有人可能在打什么主意。我建议你和我的一个老朋友皮利廷纽斯·梅罗谈谈。 {瓜尔,卫兵}
+我儿子相信有人会试图暗杀他？我想这有可能，但不太可能成功。他比皇帝本人防卫还要严密。如果你问我，都有点过分了。不过…有人可能在打什么主意。我建议你和我的一个老朋友普利蒂尼乌斯·梅罗谈谈。 {瓜尔,卫兵}
 
 > INFO.NAME plot 2384909208326369
 It seems you've taken care of that situation. I find the whole thing very odd, my friend. You should take care.
