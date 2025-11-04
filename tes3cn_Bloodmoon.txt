@@ -37857,7 +37857,7 @@ C<BR>"
  INFO.PNAM "2198112079125556634$00"
  INFO.NNAM "1874551932018420231$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "辛那穆·米帕同意我履行了自己的诺言。奥德-迪德洛斯足够安全，可以成为阿希穆萨的避难所。因此，她任命我为阿希穆萨的尼瑞瓦因、阿希穆萨的战争领袖和人民保护者。她还赐予我阿希穆萨的附魔之石，这是阿希穆萨部落的传家之宝，它将向所有丹莫昭示，阿希穆萨已将我任命为尼瑞瓦因。 {疯狂之石,沙尔}"
+ INFO.NAME "辛纳穆·米帕同意我履行了自己的诺言。奥德-迪德洛斯足够安全，可以成为阿希穆萨的避难所。因此，她任命我为阿希穆萨的尼瑞瓦因、阿希穆萨的战争领袖和人民保护者。她还赐予我阿希穆萨的附魔之石，这是阿希穆萨部落的传家之宝，它将向所有丹莫昭示，阿希穆萨已将我任命为尼瑞瓦因。 {疯狂之石,沙尔}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MT_WritBrilnosu$00"
@@ -38615,7 +38615,7 @@ C<BR>"
  INFO.PNAM "4348101392033717142$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "辛那穆·米帕陪我一起去奥德-迪德洛斯。如果她能安全进入古老的圣殿，看到那里的大雕像，她就会让我成为阿希穆萨的尼瑞瓦因。"
+ INFO.NAME "辛纳穆·米帕陪我一起去奥德-迪德洛斯。如果她能安全进入古老的圣殿，看到那里的大雕像，她就会让我成为阿希穆萨的尼瑞瓦因。"
 -DIAL
  DIAL.NAME "B2_AhemmusaKill$00"
  DIAL.DATA [04]
@@ -43275,14 +43275,14 @@ C<BR>"
  INFO.PNAM "9151119402931831049$00"
  INFO.NNAM "116341047217369269$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "不知怎的，米纳比比我先到了法师公会。树荫感谢我安排了这次知识交流。"
+ INFO.NAME "不知怎的，米娜比比我先到了法师公会。树荫感谢我安排了这次知识交流。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "116341047217369269$00"
  INFO.PNAM "53082221799309531$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "米纳比给了我一枚先祖之戒指。"
+ INFO.NAME "米娜比碧给了我一枚先祖之戒指。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "FG_BigBosses$00"
@@ -44487,7 +44487,7 @@ C<BR>"
  INFO.PNAM "1093225014162453895$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "阿希穆萨的古拉可汗杜塔达克让我和女智者辛那穆·米帕谈谈，告诉她我会为阿希穆萨找到一个安全的地方。"
+ INFO.NAME "阿希穆萨的古拉可汗杜塔达克让我和女智者辛纳穆·米帕谈谈，告诉她我会为阿希穆萨找到一个安全的地方。"
 -DIAL
  DIAL.NAME "B8_BackDoor1$00"
  DIAL.DATA [04]
@@ -46254,7 +46254,7 @@ C<BR>"
  INFO.PNAM "2977828507157279833$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "阿希穆萨的古拉可汗耶那姆让我去找女智者辛那穆·米帕。她是阿希穆萨的首领。"
+ INFO.NAME "阿希穆萨的古拉可汗耶那姆让我去找女智者辛纳穆·米帕。她是阿希穆萨的首领。"
 -DIAL
  DIAL.NAME "CX_BackPath$00"
  DIAL.DATA [04]
@@ -48506,7 +48506,7 @@ C<BR>"
  INFO.PNAM "21681198663016632555$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "阿希穆萨的古拉可汗考乌斯承认，他们是一个贫穷、悲伤的部落，没有灰烬可汗，由一位女智者领导。他让我去找那位智慧的女智者辛那穆·米帕谈谈，做英雄该做的事，拯救阿希穆萨人。"
+ INFO.NAME "阿希穆萨的古拉可汗考乌斯承认，他们是一个贫穷、悲伤的部落，没有灰烬可汗，由一位女智者领导。他让我去找那位智慧的女智者辛纳穆·米帕谈谈，做英雄该做的事，拯救阿希穆萨人。"
 -DIAL
  DIAL.NAME "IC4_scrib$00"
  DIAL.DATA [04]
@@ -96489,7 +96489,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "Vo\a\f\Idl_AF006.mp3$00"
- INFO.NAME "把灯芯麦粘软，然后加入棉花糖……"
+ INFO.NAME "把灯芯麦粘软，然后加入棉花糖…"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96500,7 +96500,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "Vo\a\f\Idl_AF005.mp3$00"
- INFO.NAME "它藏起来了，是的，没人能找到它……"
+ INFO.NAME "它藏起来了，是的，没人能找到它…"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
