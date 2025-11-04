@@ -57623,7 +57623,7 @@ Hortator 点点头，继续学习。<BR>
 <BR>
 “陛下”，艾切西斯说道，然后更正了一下，“我们的君主起初以一千二百万金币的价格要求我们帮助泰姆瑞尔在西海岸防卫派安多尼亚的军队。最终我们以五千万达成协议。如今考虑到派安多尼亚侵略的危险性，我们接受了他的最初价格”<BR>
 <BR>
-“法师公会法师公会慷慨地 --”<BR>
+“法师公会慷慨地——”<BR>
 <BR>
 “他们大约接受了一千万金币的低价”。<BR>
 <BR>
@@ -190197,19 +190197,19 @@ D.文物 - +35%<p>"
  INFO.PNAM "1269821649210103220$00"
  INFO.NNAM "935818089266449213$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "卢妮拉·勒兰告诉我，为了建造我的堡垒，我必须从维达姆·德伦公爵那里获得一份施工合同。我还必须将拥有强大的灵魂的灵魂石交给卢妮拉。"
+ INFO.NAME "卢妮拉·勒兰告诉我，为了建造我的堡垒，我必须从维达姆·德伦公爵那里获得一份施工合同。我还必须将拥有强大灵魂的灵魂石交给卢妮拉。"
 -INFO
  INFO.INAM "935818089266449213$00"
  INFO.PNAM "17564172461802620842$00"
  INFO.NNAM "217161775179625278$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "卢妮拉·勒兰给了我两颗大灵魂宝石。我必须给它们注入强大的灵魂，并在她开始我的堡垒工程工作之前将它们还给她。"
+ INFO.NAME "卢妮拉·勒兰给了我两颗大灵魂宝石。我必须给它们注入强大灵魂，并在她开始我的堡垒工程工作之前将它们还给她。"
 -INFO
  INFO.INAM "217161775179625278$00"
  INFO.PNAM "935818089266449213$00"
  INFO.NNAM "20730100432604918744$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "卢妮拉·勒兰接受了施工合同和装有强大的灵魂的灵魂石。她说她会下达开始施工的指示。"
+ INFO.NAME "卢妮拉·勒兰接受了施工合同和装有强大灵魂的灵魂石。她说她会下达开始施工的指示。"
 -INFO
  INFO.INAM "20730100432604918744$00"
  INFO.PNAM "217161775179625278$00"
@@ -197924,7 +197924,7 @@ Choice ""是的，但钱已经不在我这里了。"" 3 ""不，他身上什么都没有。"" 2"
  INFO.NNAM "215421237372325771$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "foryn gilnith$00"
- INFO.NAME "你是他们的人？来杀了我？那就尽全力吧，%PCRace！我不介意让皇帝的走狗们多流点血！"
+ INFO.NAME "你是他们的人，嗯？来杀了我？那就尽全力吧，%PCRace！我不介意让皇帝的走狗们多流点血！"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM "Journal ""MV_DeadTaxman"" 85
@@ -197972,7 +197972,7 @@ Choice ""我相信你说的话，我不会对当局说什么的。"" 5 ""抱歉，这不是谋杀的借口，你
  INFO.NNAM "1181614601662221205$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "他终于遭殃了，是吧？我想这并不奇怪，没人喜欢收税的。特别是拿着我们的血汗钱，还炫耀自己财富的人。只有灯塔那边的塔维尔还能忍受他，他们两个在一起呆了一段时间。真遗憾，她看起来是个不错的女人。 {收集者}"
+ INFO.NAME "他终于遭殃了，嗯？我想这并不奇怪，没人喜欢收税的。特别是拿着我们的血汗钱，还炫耀自己财富的人。只有灯塔那边的塔维尔还能忍受他，他们两个在一起呆了一段时间。真遗憾，她看起来是个不错的女人。 {收集者}"
  INFO.SCVR "04JX3MV_DeadTaxman"
  INFO.INTV [30 00 00 00]
  INFO.SCVR "14JX5MV_DeadTaxman"
@@ -197988,7 +197988,7 @@ Choice ""我相信你说的话，我不会对当局说什么的。"" 5 ""抱歉，这不是谋杀的借口，你
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "找到他的尸体了？那就看你怎么处理了。如果你愿意介入这件事的话，我认为去告诉普查及税务局的苏库修斯·埃尔加拉应该是最合适的。"
+ INFO.NAME "找到他的尸体了，嗯？那就看你怎么处理了。如果你愿意介入这件事的话，我认为去告诉普查及税务局的苏库修斯·埃尔加拉应该是最合适的。"
  INFO.SCVR "04JX0MV_DeadTaxman"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -218679,7 +218679,7 @@ StartCombat Player"
  INFO.NNAM "185298859198819009$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Relam Arinith$00"
- INFO.NAME "沃拉死了？这不关我的事，只是意味着我的债务被免除了。"
+ INFO.NAME "沃拉死了，嗯？这不关我的事，只是意味着我的债务被免除了。"
  INFO.SCVR "06DX2vorar helas"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX3MV_SlaveMule"
@@ -223872,7 +223872,7 @@ Goodbye"
  INFO.NNAM "6863169311329315760$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "neloth$00"
- INFO.NAME "不，不，不，别再说了。你到底在说什么？你以为你是谁？你以为你是谁？闭嘴！胡说八道！迷信的胡说八道！别用这种愚蠢的事打断我。闭嘴，走开。 {谈}"
+ INFO.NAME "不，不，不，别再说了。你到底在说什么？你以为你是谁？不，快闭嘴！胡说八道！迷信的胡说八道！别用这种愚蠢的事打断我。闭嘴，走开。 {谈}"
  INFO.BNAM "Journal ""B7_NelothHort"" 30"
 -INFO
  INFO.INAM "6863169311329315760$00"
@@ -232876,7 +232876,7 @@ Goodbye"
  INFO.NNAM "408019386932219623$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
- INFO.NAME "瓦登费尔遇到的亡灵生物包括幽灵，如先祖幽魂、守护先祖、灵魂、矮人幽灵、矮人守护者和矮人缠绕者。有血肉的归来之魂被称为骸骨行者，包括骸骨行者和大型骸骨行者。无血肉的归来之魂包括骷髅、骷髅弓箭手、骷髅勇士、骷髅勇士和骸骨领主。吸血鬼是亵渎神明的不死生物，几乎被猎杀殆尽。 {卫兵}"
+ INFO.NAME "瓦登费尔遇到的亡灵生物包括幽灵，如先祖幽魂、守护先祖、灵魂、矮人幽灵、矮人守护者和矮人缠绕者。有血肉的归来之魂被称为骸骨行者，包括骸骨行者和大型骸骨行者。无血肉的归来之魂包括骷髅、骷髅弓箭手、骷髅战士、骷髅勇士和骸骨领主。吸血鬼是亵渎神明的不死生物，几乎被猎杀殆尽。 {卫兵}"
  INFO.BNAM ";mage"
 -INFO
  INFO.INAM "408019386932219623$00"
@@ -232884,7 +232884,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "vala catraso$00"
- INFO.NAME "瓦登费尔遇到的亡灵生物包括幽灵，如先祖幽魂、守护先祖、灵魂、矮人幽灵、矮人守护者和矮人缠绕者。有血肉的归来之魂被称为骸骨行者，包括骸骨行者和大型骸骨行者。无血肉的归来之魂包括骷髅、骷髅弓箭手、骷髅勇士、骷髅勇士和骸骨领主。吸血鬼是亵渎神明的不死生物，几乎被猎杀殆尽。 {卫兵}"
+ INFO.NAME "瓦登费尔遇到的亡灵生物包括幽灵，如先祖幽魂、守护先祖、灵魂、矮人幽灵、矮人守护者和矮人缠绕者。有血肉的归来之魂被称为骸骨行者，包括骸骨行者和大型骸骨行者。无血肉的归来之魂包括骷髅、骷髅弓箭手、骷髅战士、骷髅勇士和骸骨领主。吸血鬼是亵渎神明的不死生物，几乎被猎杀殆尽。 {卫兵}"
  INFO.BNAM ";priest"
 -DIAL
  DIAL.NAME "自制药水$00"
@@ -243204,7 +243204,7 @@ Player->AddItem Gold_001 1000"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Caldera$00"
- INFO.NAME "你疯了吗？你疯了吗？"
+ INFO.NAME "什么？你疯了吗？"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -DIAL
@@ -271746,7 +271746,7 @@ journal MS_nord_burial 1"
  INFO.NNAM "3319327481502917379$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ennbjof$00"
- INFO.NAME "当然他们也把风暴之吻和他葬在一起了。风暴之吻是附魔的巨斧，看到这把旧钥匙了吗？看到上面写了什么吗？风暴之吻，拿着，拿着，治疗师说玛诗蒂会要了我的命，我要回天际等死，你还有大好前程呢，拿着吧。拿着吧。"
+ INFO.NAME "当然他们也把风暴之吻和他葬在一起了。风暴之吻是附魔的巨斧，看到这把旧钥匙了吗？看到上面写了什么吗？风暴之吻，拿着，拿着，治疗师说玛诗蒂会要了我的命，我要回天际等死，你还有大好前程呢，去吧。拿着。"
  INFO.SCVR "01500"
  INFO.INTV [04 00 00 00]
  INFO.BNAM "Choice ""继续"" 5"
@@ -272877,7 +272877,7 @@ AddTopic ""雷-杰""
  INFO.SCVR "04JX4MV_RunawaySlave"
  INFO.INTV [14 00 00 00]
  INFO.BNAM "Journal ""MV_RunawaySlave"" 20
-Choice ""一个逃跑的奴隶？我会帮你找到使馆的。"" 1 ""离家出走的奴隶？你在泰尔-阿汝因还值点钱。跟我走，否则我就在你站的地方杀了你。"" 2 ""你走吧，我不想卷入这件事。"" 3"
+Choice ""一个逃跑的奴隶？我会帮你找到使馆的。"" 1 ""离家出走的奴隶，嗯？你在泰尔-阿汝因还值点钱。跟我走，否则我就在你站的地方杀了你。"" 2 ""你走吧，我不想卷入这件事。"" 3"
 -INFO
  INFO.INAM "1014426992663214933$00"
  INFO.PNAM "1346910058101422147$00"
@@ -283054,7 +283054,7 @@ Journal ""A2_3_CorprusCure"" 40"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ralyn othravel$00"
- INFO.NAME "谁告诉你的？谁告诉你的？你不知道我经历了什么，你不知道我是怎么得到这把弓的。我不会放弃的。不是为了你，我有更重要的事要做，%PCRace。再见。"
+ INFO.NAME "谁告诉你的？不，算了，我不在乎了。你不知道我经历了什么，你不知道我是怎么得到这把弓的。我不会放弃的。不是为了你，我有更重要的事要做，%PCRace。再见。"
  INFO.BNAM "ModDisposition -10
 Goodbye"
 -DIAL
@@ -288495,7 +288495,7 @@ Player->AddItem Gold_001 10"
  INFO.SCVR "1CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -DIAL
- DIAL.NAME "强大的灵魂$00"
+ DIAL.NAME "强大灵魂$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "8449103592593211322$00"
@@ -288512,7 +288512,7 @@ Player->AddItem Gold_001 10"
  INFO.NNAM "19389260531509322592$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "llunela hleran$00"
- INFO.NAME "我给了你两个灵魂石。用元素侍灵当中的风暴侍灵的灵魂，要么就是黄金圣徒或曙暮翼魔的灵魂填满它们。也许这附近有人知道哪里能找到这些强大的灵魂。"
+ INFO.NAME "我给了你两个灵魂石。用元素侍灵当中的风暴侍灵的灵魂，要么就是黄金圣徒或曙暮翼魔的灵魂填满它们。也许这附近有人知道哪里能找到这些强大灵魂。"
  INFO.SCVR "34JX3HT_Stronghold"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -292979,7 +292979,7 @@ Player->AddItem bk_tiramgadarscredentials 1"
  INFO.NNAM "1075232338919132181$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "adaves therayn$00"
- INFO.NAME "阿迪拉尼尔？没听说过，没听说过，绝对没有，从没听说过这个名字。"
+ INFO.NAME "阿迪拉尼尔？没听说过，没有，绝对确定，从没听说过这个名字。"
  INFO.SCVR "04JX3A1_V_VivecInformants"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4A1_6_AddhiranirrInformant"
@@ -301160,7 +301160,7 @@ ModFight 10"
  INFO.NNAM "3190558963063415128$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "muvis moran$00"
- INFO.NAME "这地方不错吧？"
+ INFO.NAME "这地方不错吧，嗯？"
 -INFO
  INFO.INAM "3190558963063415128$00"
  INFO.PNAM "3067862222658526395$00"
@@ -310506,7 +310506,7 @@ Goodbye"
  INFO.NNAM "2417218944666821074$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "daric bielle$00"
- INFO.NAME "你好啊，这地方不错吧？好地方，让我忘掉烦恼的好地方。想他们也没用，愚蠢的奴隶们，他们为什么要跑？啊？当然，如果他们不跑就没事可做了。但为什么他们也要躲起来？"
+ INFO.NAME "你好啊，这地方不错吧，嗯？好地方，让我忘掉烦恼的好地方。想他们也没用，愚蠢的奴隶们，他们为什么要跑？嗯？当然，如果他们不跑就没事可做了。但为什么他们也要躲起来？"
  INFO.SCVR "06DX0hides_his_eyes"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX4MV_BountyHunter"
@@ -310569,7 +310569,7 @@ Goodbye"
  INFO.NNAM "26689110631261324944$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "din$00"
- INFO.NAME "什么？什么事？怎么了？我很抱歉…事情变得一团混乱，但我的头脑清醒多了。"
+ INFO.NAME "什么？嗯？什么事？我很抱歉…事情变得一团混乱，但我的头脑清醒多了。"
  INFO.SCVR "04JX0MV_MonsterDisease"
  INFO.INTV [31 00 00 00]
 -INFO
@@ -310663,7 +310663,7 @@ Goodbye"
  INFO.NNAM "31191105114705102$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "fargoth$00"
- INFO.NAME "怎么了？怎么了？你在跟踪我？别烦我！"
+ INFO.NAME "什么？怎么了？你在跟踪我？别烦我！"
  INFO.SCVR "04JX2MS_Lookout"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "12sX3fargothwalk"
@@ -319947,7 +319947,7 @@ AiFollow Player 0,-20286,57404,1584,0"
  INFO.NNAM "311221576619660995$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "din$00"
- INFO.NAME "你好，陌生人。怎么了？你在看什么鬼东西？在我把你的头砍下来之前快滚吧，我只想捕捉食人鱼。这有错吗？啊？不客气！"
+ INFO.NAME "你好，陌生人。怎么了？你在看什么鬼东西？在我把你的头砍下来之前快滚吧，我只想捕捉食人鱼。这有错吗？嗯？不客气！"
  INFO.SCVR "04JX0MV_MonsterDisease"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Journal ""MV_MonsterDisease"" 10"
@@ -320853,7 +320853,7 @@ Goodbye"
  INFO.NNAM "44544941952613905$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "bugrol gro-bagul$00"
- INFO.NAME "嘿，你，你不是镇上的老大吧？你来帮我怎么样？怎么样？我给你个礼物。"
+ INFO.NAME "嘿，你，你不是镇上的老大吧？你来帮我怎么样？嗯？我给你个礼物。"
  INFO.SCVR "06DX0bashuk gra-bat"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX4MV_Bugrol"
@@ -338547,7 +338547,7 @@ ModPCFacRep 5 ""Telvanni"""
  INFO.NNAM "11087112751022126023$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "llunela hleran$00"
- INFO.NAME "你有施工合同，但我还需要两个强大的灵魂来为你的堡垒打地基。"
+ INFO.NAME "你有施工合同，但我还需要两个强大灵魂来为你的堡垒打地基。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX2bk_stronghold_c_hlaalu"
@@ -338558,7 +338558,7 @@ ModPCFacRep 5 ""Telvanni"""
  INFO.NNAM "5104805296711169$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "llunela hleran$00"
- INFO.NAME "你有两个强大的灵魂，但你还必须从黑檀心的维达姆·德伦公爵那里拿到施工合同。"
+ INFO.NAME "你有两个强大灵魂，但你还必须从黑檀心的维达姆·德伦公爵那里拿到施工合同。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "13sX0hasSoul"
@@ -338578,7 +338578,7 @@ ModPCFacRep 5 ""Telvanni"""
  INFO.NNAM "13399177771272030981$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "llunela hleran$00"
- INFO.NAME "那就别浪费我的时间了，你必须给我带来施工合同和两个强大的灵魂。"
+ INFO.NAME "那就别浪费我的时间了，你必须给我带来施工合同和两个强大灵魂。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
 -INFO
@@ -338588,7 +338588,7 @@ ModPCFacRep 5 ""Telvanni"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 04 00]
  INFO.ONAM "llunela hleran$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "你有施工合同和两个强大的灵魂吗？"
+ INFO.NAME "你有施工合同和两个强大灵魂吗？"
  INFO.SCVR "34JX3HT_Stronghold"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM "Choice ""是的，找到了。"" 1 ""不，还没有。"" 2"
@@ -338599,7 +338599,7 @@ ModPCFacRep 5 ""Telvanni"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 04 00]
  INFO.ONAM "llunela hleran$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "是的，我可以为你建造一座属于你自己的塔楼，%PCRank。首先，你必须从维达姆·德伦公爵那里获得一份施工合同。然后给我两个强大的灵魂，为你的堡垒打地基。"
+ INFO.NAME "是的，我可以为你建造一座属于你自己的塔楼，%PCRank。首先，你必须从维达姆·德伦公爵那里获得一份施工合同。然后给我两个强大灵魂，为你的堡垒打地基。"
  INFO.BNAM "Journal HT_Stronghold 10"
 -INFO
  INFO.INAM "29623104501760820$00"
@@ -341680,7 +341680,7 @@ Player->AddItem ""expensive_ring_aeta"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dro'zhirr$00"
- INFO.NAME "你见过她了？这跟我有什么关系？多'兹尔是为了钱，不是为了什么可笑的感情。除非你有更好的提议，我就不跟你多说了。"
+ INFO.NAME "你见过她了，嗯？这跟我有什么关系？多'兹尔是为了钱，不是为了什么可笑的感情。除非你有更好的提议，我就不跟你多说了。"
  INFO.BNAM "Choice ""我会把珠宝还给她，然后给你她付给我的钱的一半。"" 1 ""我只想要珠宝。"" 2"
 -DIAL
  DIAL.NAME "寡妇制造者$00"
@@ -347345,7 +347345,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Priest Service$00"
  INFO.FNAM "Imperial Cult$00"
- INFO.NAME "晨风，丹莫的家乡，是位于泰姆瑞尔泰姆瑞尔帝国最东北部的一个省。大多数人集中在晨风中部的高地以及肥沃的河谷部分，尤其是内海的附近。瓦登费尔区域包括了瓦登费尔岛和环绕周遭的内海，以巨型火山 -- 红山，以及周围伴随着的灰烬之地为主。岛上的大多数人口仅限于相对好客友善的西海岸和西南海岸。"
+ INFO.NAME "晨风，丹莫的家乡，是位于泰姆瑞尔帝国最东北部的一个省。大多数人集中在晨风中部的高地以及肥沃的河谷部分，尤其是内海的附近。瓦登费尔区域包括了瓦登费尔岛和环绕周遭的内海，以巨型火山 -- 红山，以及周围伴随着的灰烬之地为主。岛上的大多数人口仅限于相对好客友善的西海岸和西南海岸。"
  INFO.BNAM ";Imperial Legion; Imperial cult; bard, bookseller, savant;"
 -INFO
  INFO.INAM "10810221091046128251$00"
@@ -347354,7 +347354,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Priest$00"
  INFO.FNAM "Imperial Cult$00"
- INFO.NAME "晨风，丹莫的家乡，是位于泰姆瑞尔泰姆瑞尔帝国最东北部的一个省。大多数人集中在晨风中部的高地以及肥沃的河谷部分，尤其是内海的附近。瓦登费尔区域包括了瓦登费尔岛和环绕周遭的内海，以巨型火山 -- 红山，以及周围伴随着的灰烬之地为主。岛上的大多数人口仅限于相对好客友善的西海岸和西南海岸。"
+ INFO.NAME "晨风，丹莫的家乡，是位于泰姆瑞尔帝国最东北部的一个省。大多数人集中在晨风中部的高地以及肥沃的河谷部分，尤其是内海的附近。瓦登费尔区域包括了瓦登费尔岛和环绕周遭的内海，以巨型火山 -- 红山，以及周围伴随着的灰烬之地为主。岛上的大多数人口仅限于相对好客友善的西海岸和西南海岸。"
  INFO.BNAM ";Imperial Legion; Imperial cult; bard, bookseller, savant;"
 -INFO
  INFO.INAM "219685084866713461$00"
@@ -347363,7 +347363,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Knight$00"
  INFO.FNAM "Imperial Legion$00"
- INFO.NAME "晨风，丹莫的家乡，是位于泰姆瑞尔泰姆瑞尔帝国最东北部的一个省。大多数人集中在晨风中部的高地以及肥沃的河谷部分，尤其是内海的附近。瓦登费尔区域包括了瓦登费尔岛和环绕周遭的内海，以巨型火山 -- 红山，以及周围伴随着的灰烬之地为主。岛上的大多数人口仅限于相对好客友善的西海岸和西南海岸。"
+ INFO.NAME "晨风，丹莫的家乡，是位于泰姆瑞尔帝国最东北部的一个省。大多数人集中在晨风中部的高地以及肥沃的河谷部分，尤其是内海的附近。瓦登费尔区域包括了瓦登费尔岛和环绕周遭的内海，以巨型火山 -- 红山，以及周围伴随着的灰烬之地为主。岛上的大多数人口仅限于相对好客友善的西海岸和西南海岸。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";Imperial Legion; Imperial cult; bard, bookseller, savant;"
@@ -363014,7 +363014,7 @@ AddTopic ""食人鱼咬伤""
  INFO.NNAM "2715912549403922083$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "din$00"
- INFO.NAME "咒语？没听说过食人鱼会施法的，尽力而为吧！别再看我了！"
+ INFO.NAME "咒语，嗯？没听说过食人鱼会施法的，尽力而为吧！别再看我了！"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Journal ""MV_MonsterDisease"" 46"
@@ -371021,7 +371021,7 @@ PCRaiseRank"
  INFO.NNAM "297749082693230546$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "caius cosades$00"
- INFO.NAME "哦，天哪。沙恩给了你尼瑞瓦因教派的笔记，但你不能给我，因为你现在手上没有。那你还在等什么？你还在等什么？去拿笔记，带给我，像风一样飞过去拿。"
+ INFO.NAME "哦，天哪。沙恩给了你尼瑞瓦因教派的笔记，但你不能给我，因为你现在手上没有，是吧？那你还在等什么？去拿笔记，带给我，像风一样飞过去拿。"
  INFO.SCVR "05IX5bk_a1_4_sharnsnotes"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX3A1_4_MuzgobInformant"
@@ -406989,7 +406989,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF075.mp3$00"
- INFO.NAME "天气不错吧？"
+ INFO.NAME "天气不错吧，嗯？"
  INFO.SCVR "01590"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Weather=1"
@@ -419136,7 +419136,7 @@ Player->AddItem ""amulet_berne"" 1"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "Vo\a\f\Idl_AF006.mp3$00"
- INFO.NAME "把灯芯麦粘软，然后加入棉花糖…"
+ INFO.NAME "把灯芯麦粘软，然后加入棉花糖……"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -419147,7 +419147,7 @@ Player->AddItem ""amulet_berne"" 1"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "Vo\a\f\Idl_AF005.mp3$00"
- INFO.NAME "它藏起来了，藏起来了，没人能找到它…"
+ INFO.NAME "它藏起来了，是的，没人能找到它……"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"

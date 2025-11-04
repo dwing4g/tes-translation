@@ -46549,7 +46549,7 @@ Goodbye"
  INFO.NNAM "1361727374294904935$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "meryn othralas$00"
- INFO.NAME "啊，是的，好吧，我确实打算全额支付你。让我看看，在演出中你犯了六个错误。我想我当初应该等一个专业演员来，对吧？好吧，无论如何，拿着这些金币作为报酬吧。再次感谢你，我希望你能原谅我们。"
+ INFO.NAME "啊，是的，好吧，我确实打算全额支付你。让我看看，在演出中你犯了六个错误。我想我当初应该等一个专业演员来，嗯？好吧，无论如何，拿着这些金币作为报酬吧。再次感谢你，我希望你能原谅我们。"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "13fX0missCounter"
@@ -46562,7 +46562,7 @@ player->AddItem ""Gold_001"" 800"
  INFO.NNAM "3009617289159437883$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "meryn othralas$00"
- INFO.NAME "啊，是的，好吧，我确实打算全额支付你。让我看看，在演出中你犯了五个错误。我想我当初应该等一个专业演员来，对吧？好吧，无论如何，拿着这些金币作为报酬吧。再次感谢你，我希望你能原谅我们。"
+ INFO.NAME "啊，是的，好吧，我确实打算全额支付你。让我看看，在演出中你犯了五个错误。我想我当初应该等一个专业演员来，嗯？好吧，无论如何，拿着这些金币作为报酬吧。再次感谢你，我希望你能原谅我们。"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "13fX0missCounter"
@@ -59812,7 +59812,7 @@ journal MS_nord_burial 1"
  INFO.NNAM "3319327481502917379$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ennbjof$00"
- INFO.NAME "当然他们也把风暴之吻和他葬在一起了。风暴之吻是附魔的巨斧，看到这把旧钥匙了吗？看到上面写了什么吗？风暴之吻，拿着，拿着，治疗师说玛诗蒂会要了我的命，我要回天际等死，你还有大好前程呢，拿着吧。拿着吧。"
+ INFO.NAME "当然他们也把风暴之吻和他葬在一起了。风暴之吻是附魔的巨斧，看到这把旧钥匙了吗？看到上面写了什么吗？风暴之吻，给你，拿着，治疗师说玛诗蒂会要了我的命，我要回天际等死，你还有大好前程呢，去吧。拿着。"
  INFO.SCVR "01500"
  INFO.INTV [04 00 00 00]
  INFO.BNAM "Choice ""继续"" 5"
@@ -65092,7 +65092,7 @@ moddisposition 5"
  INFO.NNAM "168280592832719718$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ralyn othravel$00"
- INFO.NAME "谁告诉你的？谁告诉你的？你不知道我经历了什么，你不知道我是怎么得到这把弓的。我不会放弃的。不是为了你，我有更重要的事要做，%PCRace。再见。"
+ INFO.NAME "谁告诉你的？不，算了，我不在乎了。你不知道我经历了什么，你不知道我是怎么得到这把弓的。我不会放弃的。不是为了你，我有更重要的事要做，%PCRace。再见。"
  INFO.BNAM "ModDisposition -10
 Goodbye"
 -INFO
@@ -70132,7 +70132,7 @@ goodbye"
  INFO.NNAM "11643838329977535$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagak gro-gluk$00"
- INFO.NAME "是啊，是你要我重铸利刃的。我想你认为我已经做完了，是吗？"
+ INFO.NAME "是啊，是你要我重铸利刃的。我想你认为我已经做完了，嗯？"
  INFO.SCVR "04JX3TR_Blade"
  INFO.INTV [3C 00 00 00]
  INFO.SCVR "12sX0bladefix"
@@ -74876,7 +74876,7 @@ ModFight 10"
  INFO.NNAM "3190558963063415128$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "muvis moran$00"
- INFO.NAME "这地方不错吧？"
+ INFO.NAME "这地方不错吧，嗯？"
 -INFO
  INFO.INAM "3190558963063415128$00"
  INFO.PNAM "3067862222658526395$00"
@@ -94215,7 +94215,7 @@ addtopic ""“十舌”维哈特"""
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\d\m\tIdl_DM021.mp3$00"
- INFO.NAME "呜 -- 呼 -- 呼！"
+ INFO.NAME "呜-呼-呼-呼！"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Making noises to amuse himself."
@@ -94227,7 +94227,7 @@ addtopic ""“十舌”维哈特"""
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\d\m\tIdl_DM022.mp3$00"
- INFO.NAME "哒 -- 哒 -- 哒 -- 滴 -- 哒 -- 滴 -- 哒。"
+ INFO.NAME "哒-哒-哒-滴-哒-滴-哒。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";singing any tune, but doesn't know the words"

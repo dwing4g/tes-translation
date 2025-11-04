@@ -16230,7 +16230,7 @@ The power is restored. The Oneness of the lands is in balance.
 
 > INFO.NAME restore the power of the skaal 32392142562214631127
 You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.
-你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
+你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在，现在是时候证明你的智慧了。 {钉锤}
 
 > INFO.NAME restore the power of the skaal 2590175251454860
 Wind-Eye has told you of the Ritual of the Gifts, has he not? Go to it.
@@ -16582,7 +16582,7 @@ The power is restored. The Oneness of the lands is in balance.
 
 > INFO.NAME the power of the skaal 32392142562214631127
 You have completed the Ritual of the Gifts. I am impressed with your efforts, outlander. But there is more to be done. You have shown a certain loyalty to the Skaal, and it surprises me. Tradition dictates that you now hold this, the Mace of Aevar Stonesinger. This is a treasure of the Skaal that I do not relish giving to an outsider. Still, you have earned it. For now. Now it is time to prove your wisdom.
-你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}
+你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在，现在是时候证明你的智慧了。 {钉锤}
 
 > INFO.NAME the power of the skaal 2590175251454860
 Wind-Eye has told you of the Ritual of the Gifts, has he not? Go to it.
@@ -20360,7 +20360,7 @@ The mere suggestion that the Falmer are no more than the Rieklings is ridiculous
 
 > INFO.NAME seen anything 4698190732348228604
 So that was the ship, huh?
-那就是那艘船吗？
+那就是那艘船吗，嗯？
 
 > INFO.NAME seen anything 969645811424421855
 I already told you what I can, %PCName. Just that light to the northwest. Maybe you should go take a look.
@@ -22964,11 +22964,11 @@ Someone's gotta find the Captain! Gotta figure out what happened here!
 
 > INFO.NAME greeting 1 25641257162504322840
 Huh? You want us to travel together? I think that's what the Cap'n wants, so we better stick together. Besides, I'm handy to have around.
-你要我们一起走？你要我们一起走？我想那是队长想要的，所以我们最好在一起。而且，有我在身边很方便。 {一起去}
+嗯？你要我们一起走？我想那是队长想要的，所以我们最好在一起。而且，有我在身边很方便。 {一起去}
 
 > INFO.NAME greeting 1 231033110495513861
 Gonna work with Lusius, huh? Can't say I blame you. He's one smart guy.
-你要和卢西乌斯合作？不能怪你，他是个聪明人。 {工作}
+你要和卢西乌斯合作，嗯？不能怪你，他是个聪明人。 {工作}
 
 > INFO.NAME greeting 1 38560013040329840
 Cap'n said you'd be by. I'm supposed to assist you with something?
@@ -23188,7 +23188,7 @@ MARK -- BLOODMOON GREEETINGS ABOVE
 
 > INFO.NAME greeting 1 1506729542428621866
 Yes? What is it?
-什么事？什么事？
+嗯？什么事？
 
 > INFO.NAME greeting 1 366721276314825182
 Greetings, %PCName.
@@ -23480,7 +23480,7 @@ Where's my husband? Is he okay?
 
 > INFO.NAME greeting 1 5683612427292553
 Are you going in there? You are, aren't you? What have they told you to do? Please don't hurt my husband!
-你要进去吗？你要进去吗？他们让你做什么？请别伤害我的丈夫！
+你要进去吗？你要进去，不是吗？他们让你做什么？请别伤害我的丈夫！
 
 > INFO.NAME greeting 1 2839468275546700
 Oh please, please. Don't hurt my husband. He's just an old man.
@@ -23536,7 +23536,7 @@ Don't tell anyone, but I just wanted to take a break for a little while. Standin
 
 > INFO.NAME greeting 1 1240131279302398997
 Hello, %PCName. Never thought I'd be doing this...  I'm supposed to guard this room. Orders from Falco himself. Weird, huh?
-你好，%PCName。没想到我会干这个…我应该卫兵这个房间。法尔科亲自下的指示，奇怪吧？ {瓜尔}
+你好，%PCName。没想到我会干这个…我应该卫兵这个房间。法尔科亲自下的指示，奇怪吧，嗯？ {瓜尔}
 
 > INFO.NAME greeting 1 3033232045166867068
 The company's work is never done, %PCName. What can I do for you?
@@ -24032,7 +24032,7 @@ Runa's a real gem, isn't she?
 
 > INFO.NAME greeting 1 3067862222658526395
 Great place, huh?
-这地方不错吧？
+这地方不错吧，嗯？
 
 > INFO.NAME greeting 1 3190558963063415128
 Just between you and me, I always rest here between pilgrimages.
@@ -26568,7 +26568,7 @@ No, %PCRank. Nothing for you to do. Come back another time.
 
 > INFO.NAME assignment 1305311624187912938
 WHAT? It's gone? This is unacceptable! After the money I spent on this venture... Fine, fine. Another ship will have to be sent for. Well, don't just stand there; the longer I look at you, the longer I have to think about it. Just take this and go away. Come back in a few days.
-什么？没了？这可不行！我花了那么多钱…好吧，好吧，好吧，好吧，那就另找一艘船吧。好了，别傻站着了，我看你看得越久，想你想得越久。拿着这个走吧，过几天再来。
+什么？没了？这可不行！我花了那么多钱…好吧，好吧，那就另找一艘船吧。好了，别傻站着了，我看你看得越久，想你想得越久。拿着这个走吧，过几天再来。
 
 > INFO.NAME assignment 23228302482995518933
 I need to know the status of those supplies, %PCRank. Get moving.
@@ -28092,11 +28092,11 @@ You are not the first to seek it. Outsiders like this woman have been here befor
 
 > INFO.NAME stalhrim 20491359422657064
 Is that the stuff we found in the mine? Weird, huh? It looks just like ice, but we couldn't put a dent in it.
-这就是我们在矿场找到的东西？很奇怪吧？它看起来就像冰，但我们没法把它砸出个凹痕来。
+这就是我们在矿场找到的东西？很奇怪，嗯？它看起来就像冰，但我们没法把它砸出个凹痕来。
 
 > INFO.NAME stalhrim 636826752824332726
 Is that the stuff we found in the mine? Weird, huh? It looks just like ice, but we couldn't put a dent in it.
-这就是我们在矿场找到的东西？很奇怪吧？它看起来就像冰，但我们没法把它砸出个凹痕来。
+这就是我们在矿场找到的东西？很奇怪，嗯？它看起来就像冰，但我们没法把它砸出个凹痕来。
 
 > INFO.NAME stalhrim 1702824556150167478
 That's of no concern to you. There are some things, some sacred things, that are best left as they are.
@@ -28912,7 +28912,7 @@ Should be done soon.
 
 > INFO.NAME estate 27544313672522922520
 No, huh? Well, okay. There are two other spots, you know. One north of here, and one at the west end of the colony. Maybe you'd like one of those better?
-不喜欢？那好吧，还有两个地方，一个在北边，一个在殖民地的西边，也许你更喜欢其中一个？
+不喜欢，嗯？那好吧，还有两个地方，一个在北边，一个在殖民地的西边，也许你更喜欢其中一个？
 
 > INFO.NAME estate 586020751162134323
 What the Factor wants, the Factor gets. I'll see to it that work gets started real soon on this, but it'll probably take a few days to be completed. Just so you know. I'd say at least five, provided we're left alone to work. If you keep coming back, it may slow us down some.
@@ -28920,7 +28920,7 @@ What the Factor wants, the Factor gets. I'll see to it that work gets started re
 
 > INFO.NAME estate 277406052254937627
 No, huh? Well, okay. There are two other spots, you know. One south of here, and one at the west end of the colony. Maybe you'd like one of those better?
-不喜欢？那好吧，还有两个地方，一个在南边，一个在殖民地的西边，也许你更喜欢其中一个？
+不喜欢，嗯？那好吧，还有两个地方，一个在南边，一个在殖民地的西边，也许你更喜欢其中一个？
 
 > INFO.NAME estate 274902483838241198
 What the Factor wants, the Factor gets. I'll see to it that work gets started real soon on this, but it'll probably take a few days to be completed. Just so you know. I'd say at least five, provided we're left alone to work. If you keep coming back, it may slow us down some.
@@ -28928,7 +28928,7 @@ What the Factor wants, the Factor gets. I'll see to it that work gets started re
 
 > INFO.NAME estate 14775317421594532152
 No, huh? Well, okay. There are two other spots, you know. Both of them are east of here. One's a little to the north, the other a little to the south. Maybe you'd like one of those better?
-不喜欢？那好吧，还有两个地方，都在这里的东边，一个在北边，另一个在南边，也许你更喜欢其中一个？
+不喜欢，嗯？那好吧，还有两个地方，都在这里的东边，一个在北边，另一个在南边，也许你更喜欢其中一个？
 
 > INFO.NAME estate 1997585231311824321
 What the Factor wants, the Factor gets. I'll see to it that work gets started real soon on this, but it'll probably take a few days to be completed. Just so you know. I'd say at least five, provided we're left alone to work. If you keep coming back, it may slow us down some.
@@ -33336,7 +33336,7 @@ Stick the wickwheat until soft, add the marshwillow...
 
 > INFO.NAME idle 853118089134615124
 It is hidden away. Yes. No one will find it...
-它藏起来了，藏起来了，没人能找到它…
+它藏起来了，是的，没人能找到它…
 
 > INFO.NAME idle 205292049103299830
 A new scent is here. Who can it be?

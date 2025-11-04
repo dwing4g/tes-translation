@@ -51235,7 +51235,7 @@ C<BR>"
  INFO.NNAM "2590175251454860$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}"
+ INFO.NAME "你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在，现在是时候证明你的智慧了。 {钉锤}"
  INFO.SCVR "04JX0BM_Stones"
  INFO.INTV [50 00 00 00]
  INFO.BNAM "player->AddItem BM_Mace_Aevar_UNI 1
@@ -52188,7 +52188,7 @@ Journal BM_Ceremony1 100"
  INFO.NNAM "2590175251454860$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在。现在是时候证明你的智慧了。 {钉锤}"
+ INFO.NAME "你们已经完成了馈赠仪式。你的努力让我印象深刻，外地人，但还有更多工作要做。你对斯卡尔表现出了一定的忠诚，这让我很吃惊。传统要求你现在持有这个，“咏石者”艾瓦之锤。这是斯卡尔的宝物，我不喜欢给外人。但这是你应得的。现在，现在是时候证明你的智慧了。 {钉锤}"
  INFO.SCVR "04JX0BM_Stones"
  INFO.INTV [50 00 00 00]
  INFO.BNAM "player->AddItem BM_Mace_Aevar_UNI 1
@@ -61611,7 +61611,7 @@ ModDisposition 10"
  INFO.NNAM "969645811424421855$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gamin Girith$00"
- INFO.NAME "那就是那艘船吗？"
+ INFO.NAME "那就是那艘船吗，嗯？"
  INFO.SCVR "04JX3CO_3"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -68219,7 +68219,7 @@ Goodbye"
  INFO.NNAM "231033110495513861$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gaea artoria$00"
- INFO.NAME "你要我们一起走？你要我们一起走？我想那是队长想要的，所以我们最好在一起。而且，有我在身边很方便。 {一起去}"
+ INFO.NAME "嗯？你要我们一起走？我想那是队长想要的，所以我们最好在一起。而且，有我在身边很方便。 {一起去}"
  INFO.SCVR "04JX3BM_Smugglers"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "12sX0artoriachosen"
@@ -68232,7 +68232,7 @@ Goodbye"
  INFO.NNAM "38560013040329840$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gaea artoria$00"
- INFO.NAME "你要和卢西乌斯合作？不能怪你，他是个聪明人。 {工作}"
+ INFO.NAME "你要和卢西乌斯合作，嗯？不能怪你，他是个聪明人。 {工作}"
  INFO.SCVR "04JX3BM_Smugglers"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "12sX0artoriachosen"
@@ -68887,7 +68887,7 @@ Goodbye"
  INFO.NNAM "366721276314825182$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gratian Caerellius$00"
- INFO.NAME "什么事？什么事？"
+ INFO.NAME "嗯？什么事？"
 -INFO
  INFO.INAM "366721276314825182$00"
  INFO.PNAM "1506729542428621866$00"
@@ -69665,7 +69665,7 @@ Goodbye"
  INFO.NNAM "2839468275546700$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dralora Favelnim$00"
- INFO.NAME "你要进去吗？你要进去吗？他们让你做什么？请别伤害我的丈夫！"
+ INFO.NAME "你要进去吗？你要进去，不是吗？他们让你做什么？请别伤害我的丈夫！"
  INFO.SCVR "04JX3CO_7"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "13sX0draltalked"
@@ -69807,7 +69807,7 @@ Goodbye"
  INFO.NNAM "3033232045166867068$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Aldam Berendus$00"
- INFO.NAME "你好，%PCName。没想到我会干这个…我应该卫兵这个房间。法尔科亲自下的指示，奇怪吧？ {瓜尔}"
+ INFO.NAME "你好，%PCName。没想到我会干这个…我应该卫兵这个房间。法尔科亲自下的指示，奇怪吧，嗯？ {瓜尔}"
  INFO.SCVR "04JX3CO_6"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -71124,7 +71124,7 @@ ModFight 10"
  INFO.NNAM "3190558963063415128$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "muvis moran$00"
- INFO.NAME "这地方不错吧？"
+ INFO.NAME "这地方不错吧，嗯？"
 -INFO
  INFO.INAM "3190558963063415128$00"
  INFO.PNAM "3067862222658526395$00"
@@ -78492,7 +78492,7 @@ Set ColonyService to 5"
  INFO.NNAM "23228302482995518933$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "什么？没了？这可不行！我花了那么多钱…好吧，好吧，好吧，好吧，那就另找一艘船吧。好了，别傻站着了，我看你看得越久，想你想得越久。拿着这个走吧，过几天再来。"
+ INFO.NAME "什么？没了？这可不行！我花了那么多钱…好吧，好吧，那就另找一艘船吧。好了，别傻站着了，我看你看得越久，想你想得越久。拿着这个走吧，过几天再来。"
  INFO.SCVR "04JX0CO_3"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM "Journal CO_3 70
@@ -82147,7 +82147,7 @@ StartScript ColonyNordAxe"
  INFO.NNAM "636826752824332726$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "这就是我们在矿场找到的东西？很奇怪吧？它看起来就像冰，但我们没法把它砸出个凹痕来。"
+ INFO.NAME "这就是我们在矿场找到的东西？很奇怪，嗯？它看起来就像冰，但我们没法把它砸出个凹痕来。"
  INFO.SCVR "04JX3CO_8a"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -82156,7 +82156,7 @@ StartScript ColonyNordAxe"
  INFO.NNAM "1702824556150167478$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "这就是我们在矿场找到的东西？很奇怪吧？它看起来就像冰，但我们没法把它砸出个凹痕来。"
+ INFO.NAME "这就是我们在矿场找到的东西？很奇怪，嗯？它看起来就像冰，但我们没法把它砸出个凹痕来。"
  INFO.SCVR "04JX3CO_8"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -84313,7 +84313,7 @@ StartScript ColonyAssassin"
  INFO.NNAM "586020751162134323$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Aldam Berendus$00"
- INFO.NAME "不喜欢？那好吧，还有两个地方，一个在北边，一个在殖民地的西边，也许你更喜欢其中一个？"
+ INFO.NAME "不喜欢，嗯？那好吧，还有两个地方，一个在北边，一个在殖民地的西边，也许你更喜欢其中一个？"
  INFO.SCVR "01500"
  INFO.INTV [08 00 00 00]
 -INFO
@@ -84336,7 +84336,7 @@ Goodbye"
  INFO.NNAM "274902483838241198$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Aldam Berendus$00"
- INFO.NAME "不喜欢？那好吧，还有两个地方，一个在南边，一个在殖民地的西边，也许你更喜欢其中一个？"
+ INFO.NAME "不喜欢，嗯？那好吧，还有两个地方，一个在南边，一个在殖民地的西边，也许你更喜欢其中一个？"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
 -INFO
@@ -84359,7 +84359,7 @@ Goodbye"
  INFO.NNAM "1997585231311824321$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Aldam Berendus$00"
- INFO.NAME "不喜欢？那好吧，还有两个地方，都在这里的东边，一个在北边，另一个在南边，也许你更喜欢其中一个？"
+ INFO.NAME "不喜欢，嗯？那好吧，还有两个地方，都在这里的东边，一个在北边，另一个在南边，也许你更喜欢其中一个？"
  INFO.SCVR "01500"
  INFO.INTV [04 00 00 00]
 -INFO
@@ -96489,7 +96489,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "Vo\a\f\Idl_AF006.mp3$00"
- INFO.NAME "把灯芯麦粘软，然后加入棉花糖…"
+ INFO.NAME "把灯芯麦粘软，然后加入棉花糖……"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
@@ -96500,7 +96500,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "Vo\a\f\Idl_AF005.mp3$00"
- INFO.NAME "它藏起来了，藏起来了，没人能找到它…"
+ INFO.NAME "它藏起来了，是的，没人能找到它……"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Replace sound file-revise text"
