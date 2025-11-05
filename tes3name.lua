@@ -50,7 +50,7 @@ local fixed = {
 	Jodoin = "乔多因",
 	Nalcarya = "娜尔卡娅",
 	Roberto = "罗伯托",
-	Theman = "希曼",
+	Theman = "赛曼",
 	Ulfgar = "乌夫加尔",
 
 	["Captain Roberto Jodoin"] = "罗伯托·乔多因船长",
@@ -74,7 +74,7 @@ local fixed = {
 	["Todd's Super Tester Guy"] = "陶德的超级无敌测试工具人",
 	["Used Clutter Salesman"] = "二手杂物推销员",
 	["Viciously clawed dead smuggler"] = "被紧抓住的死亡走私者",
-	['Edd "Fast Eddie" Theman'] = "埃德·“飞毛腿埃迪”·希曼",
+	['Edd "Fast Eddie" Theman'] = "埃德·“飞毛腿埃迪”·赛曼",
 
 	["Black Dart"] = "黑镖",
 	["Corpse"] = "尸体",
