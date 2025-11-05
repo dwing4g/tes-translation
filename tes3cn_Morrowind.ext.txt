@@ -10035,7 +10035,7 @@ Exhausting Touch
 
 > SPEL.FNAM exhaustion
 Exhaustion
-疲倦术
+疲惫术
 
 > SPEL.FNAM hand of sleep
 Hand of Sleep
@@ -10051,15 +10051,15 @@ Sleep
 
 > SPEL.FNAM wild exhaustion
 Wild Exhaustion
-狂野疲倦术
+狂野疲惫术
 
 > SPEL.FNAM wearying touch
 Wearying Touch
-萎靡之触
+疲倦之触
 
 > SPEL.FNAM weariness
 Weariness
-萎靡术
+疲倦术
 
 > SPEL.FNAM hand of decay
 Hand of Decay
@@ -12271,7 +12271,7 @@ Ataxia
 
 > SPEL.FNAM droops
 Droops
-消沉术
+萎靡术
 
 > SPEL.FNAM rust chancre
 Rust Chancre
@@ -12291,7 +12291,7 @@ Serpiginous dementia
 
 > SPEL.FNAM chills
 Chills
-寒颤术
+寒蚀术
 
 > SPEL.FNAM witbane
 Witbane
@@ -19795,7 +19795,7 @@ We never found Abelle Chriditte or the diamond.  Whether she completed her pilgr
 <BR>
 “因为钻石粉末只在刀子的左边有而已，”一个经过我旁边的老炼金术士说“我可以感觉效果越来越弱，她无形中穿过奥德'汝因的街道匆忙离开了锅中之鼠。”<BR>
 <BR>
-我们再也没有见过阿贝勒·克理迪特或是钻石了，她是不是到奥德-瑞达尼亚又是另一个猜测了。蛋糕没有效，除了让欧迪亚德持续消沉了将近一个礼拜以外。<BR>"""
+我们再也没有见过阿贝勒·克理迪特或是钻石了，她是不是到奥德-瑞达尼亚又是另一个猜测了。蛋糕没有效，除了让欧迪亚德持续萎靡了将近一个礼拜以外。<BR>"""
 
 > BOOK.FNAM BookSkill_Alchemy3
 Song of the Alchemists
@@ -41729,7 +41729,7 @@ Robe of Trials
 
 > CLOT.FNAM ring of exhaustion
 Ring of Exhaustion
-疲倦之戒
+疲惫之戒
 
 > CLOT.FNAM ring of fireballs
 Ring of Fireballs
@@ -58431,7 +58431,7 @@ Kashtes Ilabael
 
 > NPC_.FNAM marsus tullius
 Marsus Tullius
-马苏斯·图里乌斯
+马尔苏斯·图里乌斯
 
 > NPC_.FNAM tinti
 Tinti
@@ -58447,7 +58447,7 @@ Stentus Tullius
 
 > INGR.FNAM ingred_guar_hide_marsus
 Marsus' Guar Hide
-马苏斯的瓜尔皮
+马尔苏斯的瓜尔皮
 
 > NPC_.FNAM ulwaen
 Ulwaen
@@ -75493,7 +75493,7 @@ Baladas Demnevanni thanked me for bringing him a copy of "Chronicles of Nchuleft
 
 > INFO.NAME mv_innocentashlanders 2457048842612031780
 Marsus Tullius tells me that he has been robbed by a couple of Ashlanders, and they've stolen the guar hides he was carrying to Tel Aruhn.
-马苏斯·图里乌斯告诉我，他被几个灰烬之民抢劫了，他们偷走了他带去泰尔-阿汝因的瓜尔皮。 {瓜尔的皮}
+马尔苏斯·图里乌斯告诉我，他被几个灰烬之民抢劫了，他们偷走了他带去泰尔-阿汝因的瓜尔皮。 {瓜尔的皮}
 
 > INFO.NAME mv_innocentashlanders 220611756015992153
 Tullius says that if I am able to recover the hides for him, his father in Tel Aruhn will reward me handsomely.
@@ -75501,11 +75501,11 @@ Tullius says that if I am able to recover the hides for him, his father in Tel A
 
 > INFO.NAME mv_innocentashlanders 19932267422647019461
 I've agreed to help Marsus Tullius recover his stolen guar hides. Tullius could give my no information on his attackers, other than that they were Ashlanders. It will probably be best to check the nearby Ashlander camps for any clues.
-我答应帮马苏斯·图里乌斯找回他被偷的瓜尔皮。图里乌斯没有告诉我袭击者的信息，只说他们是灰烬之民。最好还是去灰烬之地附近的营地寻找线索。 {瓜尔的皮}
+我答应帮马尔苏斯·图里乌斯找回他被偷的瓜尔皮。图里乌斯没有告诉我袭击者的信息，只说他们是灰烬之民。最好还是去灰烬之地附近的营地寻找线索。 {瓜尔的皮}
 
 > INFO.NAME mv_innocentashlanders 30841224161731232084
 I've decided against trying to track down the Ashlanders who robbed Marsus Tullius.
-我决定不去追查抢劫马苏斯·图里乌斯的灰烬之民。
+我决定不去追查抢劫马尔苏斯·图里乌斯的灰烬之民。
 
 > INFO.NAME mv_innocentashlanders 324922302523653076
 I've spoken to members of the Zainab Ashlander tribe. They seem to have no knowledge of the guar hide theft.
@@ -75525,7 +75525,7 @@ I spoke to members of the Erabenimsun Ashlander camp, and they tell me that two 
 
 > INFO.NAME mv_innocentashlanders 3228528993233221090
 Tinti and Hairan tell me that the guar hides that Marsus Tullius had in his possession were taken from the Erabenimsun Tribal Herds. They question his right to call them thieves, when all the have done is reclaim what is their own, in their eyes.
-廷提和海冉告诉我，马苏斯·图里乌斯手中的瓜尔皮是从埃勒比尼姆孙部落的畜群中抢来的。他们质疑马苏斯·图里乌斯称他们为盗贼的权利，因为在他们看来他们只是夺回了属于自己的东西。 {瓜尔的皮}
+廷提和海冉告诉我，马尔苏斯·图里乌斯手中的瓜尔皮是从埃勒比尼姆孙部落的畜群中抢来的。他们质疑马尔苏斯·图里乌斯称他们为盗贼的权利，因为在他们看来他们只是夺回了属于自己的东西。 {瓜尔的皮}
 
 > INFO.NAME mv_innocentashlanders 141595604601013199
 Because the Ashlanders have accepted me as one of their own, Tinti and Hairan are willing to give me the hides to return, in the name of friendship.
@@ -82609,15 +82609,15 @@ In Tel Vos they say their new mage-lord Master Aryon has done a lot for Tel Vos,
 
 > INFO.NAME town_balmora 106947767301187310
 Larrius Varro says that everything has been taken care of. I assume he is referring to the deaths of Vadusa Sathryon, Marasa Aren, Medrale Thirith, Sovor Trandrel, and Thanelen Velas of the Camonna Tong. He then gave me a ring he called the 'nice present from the Emperor.' He also gave me a book in recognition of my exceptional discretion.
-拉里乌斯·瓦罗说一切都已经处理好了。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·艾伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后，他给了我一枚戒指，他称之为“皇帝送的漂亮的礼物”。他还送了我一本书，以表彰我非凡的谨慎。 {玛拉}
+拉里乌斯·瓦罗说一切都已经处理好了。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·艾伦、梅德莱尔·瑟里斯、索沃·特兰德尔和塔内伦·维拉斯的死讯。然后，他给了我一枚戒指，他称之为“皇帝送的漂亮的礼物”。他还送了我一本书，以表彰我非凡的谨慎。 {玛拉}
 
 > INFO.NAME town_balmora 8969326612968028034
 Larrius Varro says that everything has been taken care of. I assume he is referring to the deaths of Vadusa Sathryon, Marasa Aren, Medrale Thirith, Sovor Trandrel, and Thanelen Velas of the Camonna Tong. He then gave me a ring he called the 'nice present from the Emperor.'
-拉里乌斯·瓦罗说一切都已处理妥当。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·艾伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后他给了我一枚戒指，说是“皇帝送的漂亮的礼物”。 {玛拉}
+拉里乌斯·瓦罗说一切都已处理妥当。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·艾伦、梅德莱尔·瑟里斯、索沃·特兰德尔和塔内伦·维拉斯的死讯。然后他给了我一枚戒指，说是“皇帝送的漂亮的礼物”。 {玛拉}
 
 > INFO.NAME town_balmora 855874551571818859
 A Thieves Guild informant tells me that if the bad people I am looking for are Camonna Tong, and they're in Balmora, I'll find them at the Council Club cornerclub, the local Camonna Tong hangout. Larrius Varro mentioned a scout, a pawnbroker, a savant, a thief, and a smith. The scout would be Vadusa Sathryon. Marasa Aren would be the pawnbroker. The thief would be Madrale Thirith. Sovor Trandrel is the savant. Thanelen Velas would be the smith.
-盗贼公会的线人告诉我，如果我要找的恶人是卡莫纳堂的，而且他们在巴尔莫拉，我会在议会所街角酒吧找到他们，那是卡莫纳堂在当地的聚集地。拉里乌斯·瓦罗提到了一个斥候、一个典当商、一个精通者、一个小偷和一个铁匠铺。斥候是瓦杜莎·萨斯里昂。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃·特兰德雷尔是精通者。塔内伦·维拉斯是铁匠铺老板。 {棍棒,玛拉}
+盗贼公会的线人告诉我，如果我要找的恶人是卡莫纳堂的，而且他们在巴尔莫拉，我会在议会所街角酒吧找到他们，那是卡莫纳堂在当地的聚集地。拉里乌斯·瓦罗提到了一个斥候、一个典当商、一个学者、一个小偷和一个铁匠。斥候是瓦杜莎·萨斯里昂。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃·特兰德尔是学者。塔内伦·维拉斯是那位铁匠。 {棍棒,玛拉}
 
 > INFO.NAME town_balmora 29388302491301911975
 I was told that the Balmora hangout for the Camonna Tong is the cornerclub called the Council Club.
@@ -82629,7 +82629,7 @@ Larrius Varro, says he has a 'nice present from the Emperor.' He says it is supp
 
 > INFO.NAME town_balmora 601623550817812633
 The 'bad people' that Larrius Varro wants to 'go away' are five members of the Camonna Tong. Varro doesn't know their names, but he knows they are a scout, a pawnbroker, a savant, a thief, and a smith, and that they are in Balmora. It seems that Varro wants me to find the names of these 'bad people' and make them 'go away.' In a bloodbath.
-拉里乌斯·瓦罗想要“赶走”的“恶人”是卡莫纳堂的五名成员。瓦罗不知道他们的名字，但他知道他们分别是一个斥候、一个典当商、一个精明人、一个小偷和一个铁匠铺，而且他们都在巴尔莫拉。看来瓦罗想让我找到这些“恶人”的名字，血洗他们，让他们彻底“消失”。
+拉里乌斯·瓦罗想要“赶走”的“恶人”是卡莫纳堂的五名成员。瓦罗不知道他们的名字，但他知道他们分别是一个斥候、一个典当商、一个学者、一个小偷和一个铁匠，而且他们都在巴尔莫拉。看来瓦罗想让我找到这些“恶人”的名字，血洗他们，让他们彻底“消失”。
 
 > INFO.NAME town_balmora 3550111103007924097
 The Legion Champion, Larrius Varro, at Fort Moonmoth told me a little story. He didn't come right out and say it, but he suggests that some 'bad people' are bribing a 'bad magistrate' to fix sentences and crimes for criminals. The General also suggests making these 'bad people' go away might require a 'bloodbath.' I think he wants ME to provide the bloodbath.
@@ -90005,7 +90005,7 @@ Vvardenfell District is one of the six administrative districts of the Imperial 
 
 > INFO.NAME peace in black marsh 13725146131115017209
 A sailor from Soulrest says he heard the Expeditionary Force has put down the tribal uprisings in Black Marsh. He says local traders expect exports of gold and timber to resume after the plantations and mines are rebuilt.
-一名来自魂息城的水手说，他听说远征军已经镇压了黑沼泽的部落起义。他说，当地商人预计在种植园和矿场重建后，金币和木材的出口将会恢复。 {贸易商}
+一名来自魂息城的水手说，他听说远征军已经镇压了黑沼泽的部落起义。他说，当地贸易商预计在种植园和矿场重建后，金币和木材的出口将会恢复。
 
 > INFO.NAME more ashlander raids 3238231202108612107
 It's not bad enough with the blight storms this year, but the Ashlanders are also going crazy, jumping caravans and pilgrims, raiding villages, scrapping with the Legions. They ought to send the Legions out and teach them a lesson.
@@ -92213,7 +92213,7 @@ Thank you again. That bowl means a lot to my husband and me.
 
 > INFO.NAME missing silver bowl 28566261832327412815
 Thank you very much. It means a lot to me and my husband. I'm sorry. I'm just a poor farmer, and have little to offer as a reward. But I've lived here for years, and my husband and I have many friends. Perhaps I can offer you some valuable advice on how to get best value for your goods. And can I introduce you to a good friend at Fort Pelagiad? Ygfa is a Healer and Imperial cult Adept. She might try to get you to join the Imperial cult. But that's not a bad thing.
-非常感谢，它对我和我的丈夫意义重大。对不起，我只是个贫穷的农民，没有什么可以作为回报的。但我在这里住了很多年，我和我的丈夫有很多朋友，也许我能给你一些宝贵的建议，如何让你的货物物有所值。我还能为你介绍佩拉吉亚德要塞的一位好朋友吗？耶格法是一名治疗师和帝国教团的精通者。她可能会让你加入帝国教团。但这不是坏事。 {报酬,帝国人}
+非常感谢，它对我和我的丈夫意义重大。对不起，我只是个贫穷的农民，没有什么可以作为回报的。但我在这里住了很多年，我和我的丈夫有很多朋友，也许我能给你一些宝贵的建议，如何让你的货物物有所值。我还能为你介绍佩拉吉亚德要塞的一位好朋友吗？耶格法是一名治疗师和帝国教团的司铎。她可能会让你加入帝国教团。但这不是坏事。 {报酬,帝国人}
 
 > INFO.BNAM missing silver bowl 28566261832327412815 m1
 Your Mercantile skill has increased by 1.
@@ -94469,31 +94469,31 @@ There are many common variants of restoration spells, not to mention the countle
 
 > INFO.NAME attribute-draining 861951363362084
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲惫、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 20780160022419727103
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲惫、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 26790282882451215188
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲惫、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 32302230132066123021
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲惫、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 17698231441407514327
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲惫、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 17235241301126528962
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲惫、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-draining 30600124662855028420
 Attribute-draining spells reduce the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The reduction is only temporary, and the attribute returns to normal after the duration of the magical effect elapses. The most common of these destruction spells are: clumsiness, distraction, exhaustion, gash spirit , misfortune, spite, strain, temptation, torpor, weakness, and wound.
-毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲倦、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
+毁灭系法术中的属性削弱法术会降低自然生物和超自然生物的十一种基本属性：敏捷、耐力、体力、生命、智力、幸运、魅力、速度、力量、意志和魔力。状态减损只是暂时的，在魔法效果持续时间结束后，属性就会恢复正常。最常见的毁灭系法术有：笨拙、涣散、疲惫、裂灵术、厄运、怨恨、竭力、诱惑、迟钝、虚弱和创伤。
 
 > INFO.NAME attribute-damaging 95046402805215634
 Attribute-damaging spells actually destroy the eleven fundamental attributes of natural and supernatural beings: agility, endurance, fatigue, health, intelligence, luck, personality, speed, strength, willpower, magica. The victim's attributes are reduced permanently. The most common of these destruction spells are: curse agility, curse endurance, curse fatigue, curse health, curse intelligence, curse luck, curse personality, curse speed, curse strength, curse willpower, and curse spell points.
@@ -110471,7 +110471,7 @@ Let me tell you the basics about weapon wear. Weapons become less effective with
 
 > INFO.NAME morrowind lore 223528202255862310
 Of Morrowind's five Great Houses, three are represented on Vvardenfell. House Redoran is an aristocratic house of noble warriors, strong supporters of the Temple. House Hlaalu is an enterprising house of traders and merchant princes, strong supporters of the Empire. House Telvanni is an independent association of wizard-lords, equally hostile to the Empire, the Temple, and the other houses. House Indoril and House Dres are the two Great Houses not represented on Vvardenfell.
-在晨风的五个大家族中，瓦登费尔有三个。瑞多然家族是由高贵战士组成的贵族家族，是神殿的坚定支持者。哈拉鲁家族是由贸易商和商人领主组成的进取家族，是帝国的坚定支持者。泰瓦尼家族是一个独立的巫师协会，同样敌视帝国、神殿和其他家族。因多瑞尔家族和德雷斯家族是在瓦登费尔地区没有代表的两个大家族。 {泰姆瑞尔帝国}
+在晨风的五个大家族中，瓦登费尔有三个。瑞多然家族是由高贵战士组成的贵族家族，是神殿的坚定支持者。哈拉鲁家族是由贸易商和商界巨头组成的进取家族，是泰姆瑞尔帝国的坚定支持者。泰瓦尼家族是一个独立的巫师协会，同样敌视帝国、神殿和其他家族。因多瑞尔家族和德雷斯家族是在瓦登费尔地区没有代表的两个大家族。
 
 > INFO.NAME morrowind lore 29023165523057524484
 Let me tell you about the Imperial cult. The Imperial cult brings divine inspiration and consolation to the Empire's remote provinces. The cult combines the worship of the Nine Divines -- the Aedra Akatosh, Dibella, Arkay, Zenithar, Mara, Stendarr, Kynareth, and Julianos -- and the Talos cult, dedicated to the divine god-hero Tiber Septim, founder and patron of the Empire. Imperial cult priests provide worship and services for all these gods at Imperial shrines in settlements throughout Vvardenfell.
@@ -110943,7 +110943,7 @@ House Telvanni is ruled by old, evil wizards -- Daedra worshippers and necromanc
 
 > INFO.NAME morrowind lore 25995174252118425200
 House Hlaalu is an ambitious house of traders and merchant princes. They are strong supporters of the Empire.
-哈拉鲁家族是一个由贸易商和商人领主组成的雄心勃勃的家族。他们是泰姆瑞尔帝国的坚定支持者。
+哈拉鲁家族是一个由贸易商和商界巨头组成的雄心勃勃的家族。他们是泰姆瑞尔帝国的坚定支持者。
 
 > INFO.NAME morrowind lore 2352947542922514800
 House Hlaalu is a pack of lying thieves. They send their traders to try to trick us out of our treasure. And if they cannot trick us, they send soldiers to drive us away from our lands. They want to steal our land and put houses and towns there.
@@ -111203,7 +111203,7 @@ Worn-out weapons and armor work poorly. Repair them yourself, if you have some s
 
 > INFO.NAME who to talk to 860127356318808805
 Smiths know about weapons and armor, and how to repair them. Clothiers know about clothes. Enchanters know about enchanting and enchanted items. Ashlanders know about ashlands ecology and geography. Nobles can tell you about the Great Houses. Priests know about cults and shrines. Savants know about history, speechcraft, and language. Sorcerers know about daedra. Barbarians know about creatures. Mages know about undead. Miners know about eggmines and kwama. Scouts know about places, and how to reach them.
-铁匠了解武器和盔甲，知道如何修理它们。裁缝了解服装。附魔师了解附魔和附魔物品。灰烬之民了解灰烬之地的生态和地理。贵族可以向你介绍各大家族。牧师了解教派和圣祠。精通者了解历史、语言和文字。术士了解迪德拉。野蛮人了解生物。法师了解亡灵。矿工了解卵矿场和夸蚂。斥候了解地点和到达地点的方法。 {口才,尼希斯卵矿场}
+铁匠了解武器和盔甲，知道如何修理它们。裁缝了解服装。附魔师了解附魔和附魔物品。灰烬之民了解灰烬之地的生态和地理。贵族可以向你介绍各大家族。牧师了解教派和圣祠。学者了解历史、语言和文字。术士了解迪德拉。野蛮人了解生物。法师了解亡灵。矿工了解卵矿场和夸蚂。斥候了解地点和到达地点的方法。 {口才,尼希斯卵矿场}
 
 > INFO.NAME throwing knife 2786027748292154557
 Small thrown weapons are a Khajiit specialty. Throwing knives are useful in cultures like the Khajiit whose warrior classes disdain heavy weapons and heavy armors, relying on stealth and maneuver for success in personal and clan combats. Throwing knives are also popular in criminal subcultures.
@@ -111383,27 +111383,27 @@ The waters of the Padomaic Ocean completely surround Tamriel. The continent of A
 
 > INFO.NAME common disease 48547332137273430
 There are sixteen common diseases, outlander: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. The healers of the settled peoples divide them into three kinds: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-外地人的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。
+外地人的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒蚀症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、萎靡症、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。
 
 > INFO.NAME common disease 7323204272725211542
 There are sixteen common diseases, outlander: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. The healers of the settled peoples divide them into three kinds: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-外地人的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。
+外地人的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒蚀症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、萎靡症、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。定居民族的医士将其分为三种：轻度、重度和急性。严度和急性当然更危险，但都不会致命。但你必须去找治疗师把它们治好，否则它们会让你变得虚弱，人们就不想和你谈话了。
 
 > INFO.NAME common disease 1615697381450326313
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒蚀症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、萎靡症、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME common disease 17749156981068711093
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒蚀症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、萎靡症、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME common disease 118278111503127637
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒蚀症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、萎靡症、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME common disease 28374665720854718
 There are sixteen common diseases I've encountered on Vvardenfell: rockjoint, helljoint, witbane, chills, serpiginous dementia, greenspore, dampworm, rust chancre, droops, ataxia, wither, swamp fever, collywobbles, brown rot, yellow tick, rattles. We group their effects in three levels: mild, serious, and acute. Serious and acute are more dangerous, of course, but none of them are fatal. But you must get them cured, or they weaken you, and people won't want to talk to you.
-我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒颤症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、消沉病、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
+我在瓦登费尔遇到的常见疾病有十六种：关节僵硬、关节疼痛、智衰症、寒蚀症、慢性痴呆、绿孢病、湿虫颤、锈性下疳、萎靡症、失调症、凋零症、沼泽热、肠颤症、褐腐病、黄蜱病、颤栗症。我们把它们的影响分为三个等级：轻微、严重和急性。严重和急性当然更危险，但都不会致命。但你必须把它们治好，否则它们会让你变得虚弱，人们就不想和你交谈了。
 
 > INFO.NAME blight disease 17481279481519214044
 Lord Dagoth has sent the blight to destroy the foreigners, and to chasten those Dunmer who bend to foreign will. Those who oppose Lord Dagoth shall wither and die, while those who join Lord Dagoth shall be healed and strengthened, filled with the power and glory of Red Mountain, and inspired by the dreams of Dagoth Ur.
@@ -117787,7 +117787,7 @@ You know what I heard about Baram? The other day he woke up in the Temple, but c
 
 > INFO.NAME latest rumors 1942232671391721246
 A sailor from Soulrest says he heard the Expeditionary Force has put down the tribal uprisings in Black Marsh. He says local traders expect exports of gold and timber to resume after the plantations and mines are rebuilt.
-一名来自魂息城的水手说，他听说远征军已经镇压了黑沼泽的部落起义。他说，当地商人预计在种植园和矿场重建后，金币和木材的出口将会恢复。 {贸易商}
+一名来自魂息城的水手说，他听说远征军已经镇压了黑沼泽的部落起义。他说，当地贸易商预计在种植园和矿场重建后，金币和木材的出口将会恢复。
 
 > INFO.NAME latest rumors 2896020437806218398
 Tanusea Veloth has the Divine Disease, but she refuses to leave the city.
@@ -119823,15 +119823,15 @@ Dunmer membership in a Great House is a matter of birth and marriage, but Imperi
 
 > INFO.NAME great houses 13742319311583627988
 Three Great Houses rule Vvardenfell. House Redoran are noble warriors, and strong supporters of the Temple. House Hlaalu are traders and merchant princes, and strong supporters of the Empire. House Telvanni are independent wizard-lords, hostile to the Empire, the Temple, and the other Great Houses.
-三大家族统治着瓦登费尔。瑞多然家族是高贵的战士，也是神殿的坚定支持者。哈拉鲁家族是贸易商和商人领主，也是帝国的坚定支持者。泰瓦尼家族是独立的巫师领主，与帝国、神殿和其他大家族为敌。 {泰姆瑞尔帝国}
+三大家族统治着瓦登费尔。瑞多然家族是高贵的战士，也是神殿的坚定支持者。哈拉鲁家族是贸易商和商界巨头，也是泰姆瑞尔帝国的坚定支持者。泰瓦尼家族是独立的巫师领主，与帝国、神殿和其他大家族为敌。
 
 > INFO.NAME great houses 30843450992115001
 Three Great Houses rule Vvardenfell. House Redoran are noble warriors, and strong supporters of the Temple. House Hlaalu are traders and merchant princes, and strong supporters of the Empire. House Telvanni are independent wizard-lords, hostile to the Empire, the Temple, and the other Great Houses.
-三大家族统治着瓦登费尔。瑞多然家族是高贵的战士，也是神殿的坚定支持者。哈拉鲁家族是贸易商和商人领主，也是帝国的坚定支持者。泰瓦尼家族是独立的巫师领主，与帝国、神殿和其他大家族为敌。 {泰姆瑞尔帝国}
+三大家族统治着瓦登费尔。瑞多然家族是高贵的战士，也是神殿的坚定支持者。哈拉鲁家族是贸易商和商界巨头，也是泰姆瑞尔帝国的坚定支持者。泰瓦尼家族是独立的巫师领主，与帝国、神殿和其他大家族为敌。
 
 > INFO.NAME great houses 109310311766226967
 Three Great Houses rule Vvardenfell. House Redoran are noble warriors, and strong supporters of the Temple. House Hlaalu are traders and merchant princes, and strong supporters of the Empire. House Telvanni are independent wizard-lords, hostile to the Empire, the Temple, and the other Great Houses.
-三大家族统治着瓦登费尔。瑞多然家族是高贵的战士，也是神殿的坚定支持者。哈拉鲁家族是贸易商和商人领主，也是帝国的坚定支持者。泰瓦尼家族是独立的巫师领主，与帝国、神殿和其他大家族为敌。 {泰姆瑞尔帝国}
+三大家族统治着瓦登费尔。瑞多然家族是高贵的战士，也是神殿的坚定支持者。哈拉鲁家族是贸易商和商界巨头，也是泰姆瑞尔帝国的坚定支持者。泰瓦尼家族是独立的巫师领主，与帝国、神殿和其他大家族为敌。
 
 > INFO.NAME great houses 136441232538718421
 The Great Houses traditions derive from ancient Dunmer clan and tribes, but now function as political parties. Dunmer Great House membership is largely a matter of birth and marriage, but Imperial colonists may also become retainers of a Great House, or may be adopted into a Great House.
@@ -119871,7 +119871,7 @@ House Telvanni is an independent association of wizard-lords, equally hostile to
 
 > INFO.NAME great houses 2653938493045421043
 House Hlaalu, the Great House that strongly supports the Empire, is ruled by traders and merchant princes.
-哈拉鲁家族是大力支持泰姆瑞尔帝国的大家族，由贸易商和商人领主统治。
+哈拉鲁家族是大力支持泰姆瑞尔帝国的大家族，由贸易商和商界巨头统治。
 
 > INFO.NAME great houses 846912879184703986
 Of the three Great Houses that rule Vvardenfell, House Redoran is the aristocratic house of noble warriors, and strong supporters of the Temple.
@@ -120581,7 +120581,7 @@ House Hlaalu is one of the three Dunmer Great Houses with holdings on Vvardenfel
 
 > INFO.NAME house hlaalu 1895417279972315126
 House Hlaalu is one of the three Dunmer Great Houses on Vvardenfell. They're loyal supporters of the Empire, open-minded in religious and cultural matters, and greedy and ambitious in the best Imperial tradition. It's difficult to rise in their ranks as an outlander, but the Great Houses hold the power in Morrowind. Talk to Hlaalu councilors if you want to become a Hlaalu retainer.
-哈拉鲁家族是瓦登费尔的三大丹莫家族之一。他们是帝国人的忠实支持者，在宗教和文化事务上思想较为开放，并秉承帝国的优良传统，贪婪且野心勃勃。作为外地人，很难在他们的队伍中崭露头角，但晨风的大家族终究是掌握着大权。如果您想成为哈拉鲁的家臣，请与哈拉鲁议员交谈。 {泰姆瑞尔帝国}
+哈拉鲁家族是瓦登费尔的三大丹莫家族之一。他们是帝国人的忠实支持者，在宗教和文化事务上思想较为开放，并秉承泰姆瑞尔帝国的优良传统，贪婪且野心勃勃。作为外地人，很难在他们的队伍中崭露头角，但晨风的大家族终究是掌握着大权。如果您想成为哈拉鲁的家臣，请与哈拉鲁议员交谈。
 
 > INFO.NAME house hlaalu 1249730581815419782
 The khans of the Great Houses are called 'councilors.' The khans of House Hlaalu meet in a place on a river far away. They call the place 'Balmora' -- 'stonewood' in our speech. You must find these councilors and persuade them to name you Hortator. I can tell you nothing about these people. You must go there and learn for yourself.
@@ -120613,7 +120613,7 @@ If you wish to learn more of my House, go to Balmora.
 
 > INFO.NAME house hlaalu 166012938575166710
 House Hlaalu is the only Great House that knows how to do business with the Empire. They are more tolerant of foreigners like myself and more willing to do business. They're not paranoid and insular like the Telvanni, nor do they try and covert you to the Tribunal Temple like House Redoran.
-哈拉鲁家族是唯一懂得如何与帝国做生意的大家族。他们对像我这样的外邦人更加宽容，也更愿意做生意。他们不像泰瓦尼家族的人那样偏执孤僻，也不会像瑞多然家族那样帮审判席神殿暗中监视你。 {事,泰姆瑞尔帝国}
+哈拉鲁家族是唯一懂得如何与泰姆瑞尔帝国做生意的大家族。他们对像我这样的外邦人更为宽容，也更愿意做生意。他们不像泰瓦尼家族的人那样偏执排外，也不会像瑞多然家族那样试图将你拉入审判席神殿。 {事}
 
 > INFO.NAME house hlaalu 4463109422629413947
 House Hlaalu hopes to live in peace and harmony with the other races, and share in the growth and prosperity of the Empire.
@@ -120621,11 +120621,11 @@ House Hlaalu hopes to live in peace and harmony with the other races, and share 
 
 > INFO.NAME house hlaalu 30039168872938027350
 House Hlaalu still respects the old Dunmer ways, the ancestors, the Temple, and the noble houses. But times change, and the Empire changes with the times.
-哈拉鲁家族仍然尊重先祖的古道，尊重丹莫先祖，尊重神殿，尊重贵族家族。但时代在变，帝国也在与时俱进。 {泰姆瑞尔帝国}
+哈拉鲁家族仍然尊重先祖的古道，尊重丹莫先祖，尊重神殿，尊重贵族家族。但时代在变，泰姆瑞尔帝国也在与时俱进。
 
 > INFO.NAME house hlaalu 1288914115230518969
 House Hlaalu has always been loyal to the Emperor and the Empire. Hlaalu welcomes Imperial law and the Legions, and freedom of trade and religion.
-哈拉鲁家族始终忠于皇帝和帝国。哈拉鲁欢迎帝国法律和帝国军团，欢迎贸易和宗教自由。 {泰姆瑞尔帝国,帝国人}
+哈拉鲁家族始终忠于皇帝和泰姆瑞尔帝国。哈拉鲁欢迎帝国法律和帝国军团，欢迎贸易和宗教自由。 {帝国人}
 
 > INFO.NAME house hlaalu 70741606358547098
 House Hlaalu is one of the three Dunmer Great Houses with holdings on Vvardenfell. House Hlaalu has always been loyal to the Emperor and the Empire. Hlaalu welcomes Imperial law and the Legions, and freedom of trade and religion. We still respect the old Dunmer ways, the ancestors, the Temple, and the noble houses. But times change, and the Empire changes with the times. House Hlaalu hopes to live in peace and harmony with the other races, and share in the growth and prosperity of the Empire.
@@ -120641,11 +120641,11 @@ House Hlaalu is one of the three Dunmer Great Houses with holdings on Vvardenfel
 
 > INFO.NAME house hlaalu 21111159941028231300
 House Hlaalu, the Great House that strongly supports the Empire, is ruled by traders and merchant princes.
-哈拉鲁家族是大力支持泰姆瑞尔帝国的大家族，由贸易商和商人领主统治。
+哈拉鲁家族是大力支持泰姆瑞尔帝国的大家族，由贸易商和商界巨头统治。
 
 > INFO.NAME house hlaalu 2464859681687830342
 House Hlaalu has always been loyal to the Emperor and the Empire. Hlaalu welcomes Imperial law and the Legions, and freedom of trade and religion.
-哈拉鲁家族始终忠于皇帝和帝国。哈拉鲁欢迎帝国法律和帝国军团，欢迎贸易和宗教自由。 {泰姆瑞尔帝国,帝国人}
+哈拉鲁家族始终忠于皇帝和泰姆瑞尔帝国。哈拉鲁欢迎帝国法律和帝国军团，欢迎贸易和宗教自由。 {帝国人}
 
 > INFO.NAME house hlaalu 1211322416980232400
 House Hlaalu is one of the three Dunmer Great Houses with holdings on Vvardenfell.
@@ -131657,11 +131657,11 @@ Yes? Huh? What is it? I'm sorry...things had been so muddled, but my mind is muc
 
 > INFO.NAME greeting 5 26689110631261324944
 Blessings of the Nine, %PCName. Piernette Beluelle told me about you. I am Ygfa, Fort Pelagiad's Healer, and an Adept of the Imperial cult. I barter for potions and other goods, and can teach a number of spells. All proceeds go to the benefit of the Imperial cult and its many worthwhile projects. From what Piernette told me, you should join the Imperial cult.
-九圣灵祝福你，%PCName。皮尔内特·贝利尔跟我提起过你。我是耶格法，佩拉吉亚德要塞的治疗师，也是帝国教团的一名精通者。我可以以物易物，换取这些药水和其他物品，还可以教授一些法术。所有收入都将用于帝国教团及其许多有意义的项目。从皮尔内特告诉我的情况来看，你应该加入帝国教团。 {帝国人}
+九圣灵祝福你，%PCName。皮尔内特·贝利尔跟我提起过你。我是耶格法，佩拉吉亚德要塞的治疗师，也是帝国教团的一名司铎。我可以以物易物，换取这些药水和其他物品，还可以教授一些法术。所有收入都将用于帝国教团及其许多有意义的项目。从皮尔内特告诉我的情况来看，你应该加入帝国教团。 {帝国人}
 
 > INFO.NAME greeting 5 24205752258151922
 Blessings of the Nine, %PCName. I am Ygfa, Fort Pelagiad's Healer, and an Adept of the Imperial cult. I barter for potions and other goods, and can teach a number of spells. All proceeds go to the benefit of the Imperial cult and its many worthwhile projects. Would you like to join the Imperial cult?
-九圣灵祝福你，%PCName。我是耶格法，佩拉吉亚德要塞的治疗师，也是帝国教团的一名圣徒。我可以以物易物，换取这些药水和其他物品，还可以传授一些法术。所有收入都将用于帝国教团及其许多有意义的项目。你愿意加入帝国教团吗？ {帝国人}
+九圣灵祝福你，%PCName。我是耶格法，佩拉吉亚德要塞的治疗师，也是帝国教团的一名司铎。我可以以物易物，换取这些药水和其他物品，还可以传授一些法术。所有收入都将用于帝国教团及其许多有意义的项目。你愿意加入帝国教团吗？ {帝国人}
 
 > INFO.NAME greeting 5 27568104441591529098
 Hello. Thank you again for returning my bowl. Now, can I help you find a specific place here in Pelagiad? Or services? Or someone in particular? Would you like a little advice?
@@ -144885,11 +144885,11 @@ Yes, among new friends, Ahnassi has good things to share. This is Ahnassi's spec
 
 > INFO.NAME bad people 42482119487863166
 If the bad people you are looking for are Camonna Tong, and they're in Balmora, you'll find them at the Council Club cornerclub. That's the local Camonna Tong hangout. The Scout would be Vadusa Sathryon. Marasa Aren would be the Pawnbroker. The Thief would be Madrale Thirith. Sovor Trandrel is the Savant. Thanelen Velas would be the Smith.
-如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德雷尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
+如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
 
 > INFO.NAME bad people 710422438173878002
 If the bad people you are looking for are Camonna Tong, and they're in Balmora, you'll find them at the Council Club cornerclub. That's the local Camonna Tong hangout. The Scout would be Vadusa Sathryon. Marasa Aren would be the Pawnbroker. The Thief would be Madrale Thirith. Sovor Trandrel is the Savant. Thanelen Velas would be the Smith.
-如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德雷尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
+如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
 
 > INFO.NAME bad people 197924310197626013
 I don't know who you're talking about.
@@ -148409,7 +148409,7 @@ Ajira thanks you again for bringing her the samples.
 
 > INFO.NAME mushrooms 2599357752391912393
 Yes, these are all good samples. Now Ajira can write the report and be a Journeyman of the Mages Guild. Ajira has made potions for you to take in return. Ajira is no great alchemist yet, but Ajira thinks you can use these.
-是的，这些都是很好的样本。现在阿吉拉可以写报告，成为法师公会的精通者了。阿吉拉为您炼制了药水作为回报。阿吉拉还不是伟大的炼金术士，但阿吉拉认为你能用上这些东西。 {令状,这些药水}
+是的，这些都是很好的样本。现在阿吉拉可以写报告，成为法师公会的学者了。阿吉拉为您炼制了药水作为回报。阿吉拉还不是伟大的炼金术士，但阿吉拉认为你能用上这些东西。 {令状,这些药水}
 
 > INFO.NAME mushrooms 443498832435823519
 Where are these samples? Ajira does not see all four samples.
@@ -151037,7 +151037,7 @@ House Redoran maintains a hostel with beds, food, and sundries in the Tower of D
 
 > INFO.NAME services 716021976685527181
 Agning is the publican of the Six Fishes; he rents beds and sells food and sundries. The Imperial cult shrine services include a priest, healer, monk, enchanter, apothecary, trader, and savant. The Imperial Legion services of the Hawkmoth Legion Garrison include a healer, smith, master-at-arms, scout, trader, chaplain, and battlemage. For other services, visit Vivec City -- the Foreign Quarter, in particular, for Fighters Guild and Mages Guild services, and the Great House compounds for kin and retainers.
-艾格宁是六鱼的老板；他出租床位，出售食物和杂物。帝国教团圣祠的服务人员包括牧师、医士、僧侣、附魔师、药剂师、贸易商和精通者。鹰蛾军团驻军的帝国军团服务包括治疗师、铁匠铺、武器大师、斥候、贸易商、牧师和战斗法师。如需其他服务，请访问维威克城 -- 特别是外邦区的战士公会和法师公会服务，以及大家族行政区的亲属和家臣服务。 {帝国人}
+艾格宁是六鱼的老板；他出租床位，出售食物和杂物。帝国教团圣祠的服务人员包括牧师、医士、僧侣、附魔师、药剂师、贸易商和学者。鹰蛾军团驻军的帝国军团服务包括治疗师、铁匠铺、武器大师、斥候、贸易商、牧师和战斗法师。如需其他服务，请访问维威克城 -- 特别是外邦区的战士公会和法师公会服务，以及大家族行政区的亲属和家臣服务。 {帝国人}
 
 > INFO.NAME services 25879152062699229239
 This is a private plantation. But some people may be willing to train you on the side. Drillmaster Arver Rethul, Scout Suvryn Doves, Master-at-Arms Ivrosa Verethi, and Savant Guldrise Dralor have shacks in the western part of the compound.
@@ -152925,7 +152925,7 @@ The Khajiit are the cat people of the province of Elsweyr. Though the race has a
 
 > INFO.NAME disease 1947775561585611002
 I have Droops. I can barely move and I have no strength.
-我得了消沉病。我几乎不能动，也没有力量。
+我得了萎靡症。我几乎不能动，也没有力量。
 
 > INFO.NAME disease 335814206187176520
 Yes. I have Ash-Chancre. Look at my face! My hands! That is why the others stay away from me. You'd better stay away, too, if you know what's good for you.
@@ -158237,7 +158237,7 @@ You have answered my riddle, mortal. Go on to the next challenge before your war
 
 > INFO.NAME riddle 1917828747684414781
 Excellent. You are a worthy opponent. If you do not wish to feel the chills of Oblivion, you may pass.
-好极了。你是个值得尊敬的对手，如果你不想感受湮灭的寒意，你可以过去了。 {寒颤}
+好极了。你是个值得尊敬的对手，如果你不想感受湮灭的寒意，你可以过去了。 {寒蚀症}
 
 > INFO.NAME riddle 89052178301533136
 You have failed the second riddle. You are unworthy.
@@ -158677,19 +158677,19 @@ Skooma is an illegal narcotic substance made from refined moon sugar. Criminals 
 
 > INFO.NAME chills 14943179951402113773
 Chills is an extremely dangerous common disease affecting the victim's mind and coordination. Symptoms include clumsiness and mental confusion. It may be contracted from the bonewalker, skeleton, greater bonewalker, or bonelord.
-寒颤是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
+寒蚀症是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
 
 > INFO.NAME chills 2892139222816530559
 Chills is an extremely dangerous common disease affecting the victim's mind and coordination. Symptoms include clumsiness and mental confusion. It may be contracted from the bonewalker, skeleton, greater bonewalker, or bonelord.
-寒颤是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
+寒蚀症是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
 
 > INFO.NAME chills 28502312402534429086
 Chills is an extremely dangerous common disease affecting the victim's mind and coordination. Symptoms include clumsiness and mental confusion. It may be contracted from the bonewalker, skeleton, greater bonewalker, or bonelord.
-寒颤是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
+寒蚀症是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
 
 > INFO.NAME chills 136230448734818011
 Chills is an extremely dangerous common disease affecting the victim's mind and coordination. Symptoms include clumsiness and mental confusion. It may be contracted from the bonewalker, skeleton, greater bonewalker, or bonelord.
-寒颤是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
+寒蚀症是一种极其危险的常见疾病，会影响受害者的智力和协调能力，症状包括笨拙和精神错乱。可从骸骨行者、骷髅、大型骸骨行者或骸骨领主身上感染。 {合同}
 
 > INFO.NAME droops 2188411447268774056
 You have cured me, %PCName.
@@ -158737,19 +158737,19 @@ May I try to cure you?
 
 > INFO.NAME droops 177318650666414432
 Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.
-消沉症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
+萎靡症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
 
 > INFO.NAME droops 14648475210684080
 Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.
-消沉症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
+萎靡症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
 
 > INFO.NAME droops 2582821838293230459
 Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.
-消沉症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
+萎靡症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
 
 > INFO.NAME droops 5228245061319112791
 Droops is a serious common disease that affects a victim's strength. Symptoms include weak and flaccid muscle tissues. It may be contracted from all forms and stages of kwama.
-消沉症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
+萎靡症是一种严重的常见疾病，会影响患者的力量，症状包括肌肉组织无力和松弛。所有形式和阶段的夸蚂都可能感染这种疾病。 {合同}
 
 > INFO.NAME ataxia 32406302372501010192
 Ataxia is a mild common disease affecting the victim's strength and dexterity. Symptoms include generalized pain and muscle stiffness. It may be contracted from slaughterfish.
