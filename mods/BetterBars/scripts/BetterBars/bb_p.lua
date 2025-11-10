@@ -53,7 +53,7 @@ end
 calculateBarPositions()
 
 function makeUI()
-	print("make")
+	--print("make")
 	borderFile = "thin"
 	if BORDER_STYLE == "verythick" or BORDER_STYLE == "thick" then
 		borderFile = "thick"
@@ -62,7 +62,7 @@ function makeUI()
 	borderTemplate =  makeBorder(borderFile, borderColor or nil, borderOffset).borders
 	container = ui.create({	--root
 		type = ui.TYPE.Widget,
-		layer = LOCKED and 'Scene' or 'Modal',
+		layer = LOCKED and 'HUD' or 'Modal',
 		props = {
 			position = POSITION == "Bottom Left" and v2(94,-startOffset) or v2(startOffset,startOffset),
 			size = v2(-startOffset,3*verticalOffset),
@@ -489,10 +489,34 @@ local function update(bar, resource, dt, treshold)
 	bar.cached = current
 end
 
+local function chargenFinished()
+	if saveData.chargenFinished then
+		return true
+	end
+	if types.Player.getBirthSign(self) ~= "" then
+		saveData.chargenFinished = true
+		return true
+	end
+    if types.Player.isCharGenFinished(self) then
+		saveData.chargenFinished = true
+        return true
+    end
+    playerItems = types.Container.inventory(self):getAll()
+    for a,b in pairs(playerItems) do
+        if b.recordId == "chargen statssheet" then
+			saveData.chargenFinished = true
+            return true
+        end
+    end
+	return false
+end
+
+
 function onFrame(dt)
 	dt = core.getRealFrameDuration()
 	
 	--updateAll = false
+	-- Step 1: Calculate base LENGTH_MULT for each resource (with LENGTH_EQUALIZER if enabled)
 	if _G["LENGTH_EQUALIZER"] > 0 then
 		local totalLength = 0
 		for _,resource in pairs(widgets) do
@@ -516,13 +540,20 @@ function onFrame(dt)
 			_G[resource].LENGTH_MULT =  LENGTH_MULT
 		end
 	end
+	
+	-- Step 2: Apply MAX_LENGTH cap independently (find what the longest bar would be)
 	local maxLength = 0
 	for a,resource in pairs(widgets) do
-		maxLength = math.max(maxLength, resources[resource](self).base* LENGTH_MULT)
+		local wouldBeLength = resources[resource](self).base * _G[resource].LENGTH_MULT
+		maxLength = math.max(maxLength, wouldBeLength)
 	end
-	local lengthMult = math.min(1, MAX_LENGTH/maxLength )
-	for a,resource in pairs(widgets) do
-		_G[resource].LENGTH_MULT = _G[resource].LENGTH_MULT*lengthMult
+	
+	-- Step 3: If longest bar exceeds MAX_LENGTH, scale everything down proportionally
+	if maxLength > MAX_LENGTH then
+		local cappingFactor = MAX_LENGTH / maxLength
+		for a,resource in pairs(widgets) do
+			_G[resource].LENGTH_MULT = _G[resource].LENGTH_MULT * cappingFactor
+		end
 	end
 	
 	local newscreenres = ui.screenSize()
@@ -547,14 +578,14 @@ function onFrame(dt)
 			update(_G[resource], resource, dt, resource == "fatigue" and 1 or 0)
 		end
 	end
-	if I.UI.isHudVisible() ~= hudVisible then
-		hudVisible = I.UI.isHudVisible()
+	if I.UI.isHudVisible() and chargenFinished() ~= hudVisible then
+		hudVisible = I.UI.isHudVisible() and chargenFinished()
 		container.layout.props.visible = hudVisible
 		container:update()
 		--print("upd")
 	end
-	
 end
+
 local function onLoad(data)
 	saveData = data or {}
 	makeUI()

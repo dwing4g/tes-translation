@@ -109,7 +109,7 @@ settings = {
 			renderer = "checkbox",
 			name = "Position locked",
 			description = "Lock bar position\nMakes bars click-through\nThis will also hide bars during loading screens",
-			default = false,
+			default = true,
 		},
 		{
 			key = "THICKNESS",
