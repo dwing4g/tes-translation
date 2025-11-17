@@ -578,7 +578,7 @@ function onFrame(dt)
 			update(_G[resource], resource, dt, resource == "fatigue" and 1 or 0)
 		end
 	end
-	if I.UI.isHudVisible() and chargenFinished() ~= hudVisible then
+	if (I.UI.isHudVisible() and chargenFinished()) ~= hudVisible then
 		hudVisible = I.UI.isHudVisible() and chargenFinished()
 		container.layout.props.visible = hudVisible
 		container:update()
