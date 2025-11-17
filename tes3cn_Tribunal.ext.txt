@@ -3803,7 +3803,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 克里萨米尔<BR>
 <BR>
-圣骑士之剑是一柄古老的巨剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
+圣骑士之剑是一柄古老的大剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
 <BR>
 玛格努斯之杖<BR>
 <BR>
@@ -3855,7 +3855,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 君主冰刃<BR>
 <BR>
-君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的巨剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
+君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的大剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
 <BR>
 周遭之戒<BR>
 <BR>
@@ -6356,7 +6356,7 @@ Adamantium Shortsword
 
 > WEAP.FNAM adamantium_claymore
 Adamantium Claymore
-精金巨剑
+精金大剑
 
 > WEAP.FNAM adamantium_axe
 Admantium Axe
@@ -7513,7 +7513,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 克里萨米尔<BR>
 <BR>
-圣骑士之剑是一柄古老的巨剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
+圣骑士之剑是一柄古老的大剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
 <BR>
 玛格努斯之杖<BR>
 <BR>
@@ -7565,7 +7565,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 君主冰刃<BR>
 <BR>
-君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的巨剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
+君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的大剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
 <BR>
 周遭之戒<BR>
 <BR>
@@ -17097,7 +17097,7 @@ Keep the item.
 
 > INFO.NAME ice blade of the monarch 191304562205788
 The Evil Archmage Almion Celmo of the Summerset Isles created the blade for a warrior, Thurgnarr Assi, who was to assassinate a king. The assassination failed, Thurgnarr Assi was slain, Almion Celmo was imprisoned, and the Ice Blade fell into the hands of a series of malefactors. The weapon is a claymore enchanted to cause frost damage, and is rumored to pass from owner to owner of its own volition.
-夏暮岛的邪恶大法师艾尔米恩·塞尔莫为一个名叫瑟格纳尔·阿西的勇士打造了这把武器，他要刺杀一位国王。刺客刺杀失败，瑟格纳尔·阿西被杀，艾尔米恩·塞尔莫被囚禁，君王之刃落入了一系列歹徒之手。这把武器是一把附魔的巨剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
+夏暮岛的邪恶大法师艾尔米恩·塞尔莫为一个名叫瑟格纳尔·阿西的勇士打造了这把武器，他要刺杀一位国王。刺客刺杀失败，瑟格纳尔·阿西被杀，艾尔米恩·塞尔莫被囚禁，君王之刃落入了一系列歹徒之手。这把武器是一把附魔的大剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
 
 > INFO.NAME discontent in the temple 2284162361367518207
 Wha?
@@ -22839,7 +22839,7 @@ If possible, always take a single item at a time. It increases the risk, but it'
 
 > INFO.NAME little advice 3078911023292535132
 Always study your target, and take a good inventory of what he has before attempting to steal anything. If he has his eye on that shiny silver claymore, he won't notice you pocketing a few tarnished throwing stars.
-在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质巨剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
+在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质大剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
 
 > INFO.NAME little advice 268212608920701313
 Practice stealing and pickpocketing by taking cheap things from small merchants. Don't go after the big stuff until you're experienced.

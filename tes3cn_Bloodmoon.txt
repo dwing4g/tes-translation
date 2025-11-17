@@ -16548,7 +16548,7 @@ End WolfRitualRing
 -WEAP
  WEAP.NAME "silver claymore$00"
  WEAP.MODL "w\W_Silver_Claymore.nif$00"
- WEAP.FNAM "银制巨剑$00"
+ WEAP.FNAM "银制大剑$00"
  WEAP.WPDT [CD CC AC 41 40 01 00 00 02 00 EC 04 00 00 A0 3F 00 00 80 3F 38 00 01 1B 01 17 01 10 03 00 00 00]
  WEAP.ITEX "w\Tx_Claymore_Silver.tga$00"
 -WEAP
@@ -18802,7 +18802,7 @@ End WolfRitualRing
 -WEAP
  WEAP.NAME "BM nordic silver claymore$00"
  WEAP.MODL "w\W_Nord_claymore.NIF$00"
- WEAP.FNAM "诺德银制巨剑$00"
+ WEAP.FNAM "诺德银制大剑$00"
  WEAP.WPDT [00 00 C8 41 E8 03 00 00 02 00 D0 07 00 00 A0 3F 00 00 80 3F 96 00 06 23 06 1E 06 18 03 00 00 00]
  WEAP.ITEX "w\Nord_claymore.dds$00"
 -WEAP
@@ -30149,7 +30149,7 @@ C. 马基乌斯<BR>"
 -WEAP
  WEAP.NAME "BM nordic silver claymore_ber$00"
  WEAP.MODL "w\W_Nord_claymore.NIF$00"
- WEAP.FNAM "银制狂暴巨剑$00"
+ WEAP.FNAM "银制狂暴大剑$00"
  WEAP.WPDT [00 00 C8 41 E8 03 00 00 02 00 D0 07 00 00 A0 3F 00 00 80 3F 96 00 06 23 06 1E 06 18 03 00 00 00]
  WEAP.ITEX "w\Nord_claymore.dds$00"
  WEAP.ENAM "bloodletting_en$00"

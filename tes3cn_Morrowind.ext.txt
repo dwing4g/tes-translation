@@ -5590,7 +5590,7 @@ Blunt Weapon skill makes you more effective when using heavy bashing weapons lik
 
 > SKIL.DESC [05 00 00 00]
 Long Blade skill lets one use broadswords, sabers, longswords, claymores, katanas, and dai-katanas effectively.
-长刃技能能够让你高效地使用阔剑、军刀、长剑、巨剑、武士刀以及大武士刀。
+长刃技能能够让你高效地使用阔剑、军刀、长剑、大剑、武士刀以及大武士刀。
 
 > SKIL.DESC [06 00 00 00]
 Axe skill helps a user wield heavy chopping weapons like war axes and battleaxes more effectively.
@@ -13631,7 +13631,7 @@ Iron Shortsword
 
 > WEAP.FNAM nordic claymore
 Nordic Claymore
-诺德巨剑
+诺德大剑
 
 > WEAP.FNAM steel dai-katana
 Steel Dai-katana
@@ -13659,7 +13659,7 @@ Sturdy Wooden Door
 
 > WEAP.FNAM iron claymore
 Iron Claymore
-铁制巨剑
+铁制大剑
 
 > WEAP.FNAM silver longsword
 Silver Longsword
@@ -14279,7 +14279,7 @@ Bronze Door
 
 > WEAP.FNAM steel claymore
 Steel Claymore
-钢制巨剑
+钢制大剑
 
 > WEAP.FNAM steel katana
 Steel Katana
@@ -26048,13 +26048,13 @@ For many days, Chance screamed and screamed, as she tried to find a way out of t
 <BR>
 “太好了！”钱斯说道，完全没有被他的杂乱无章搞糊涂。“我们明天早上出发。”<BR>
 <BR>
-当钱斯第二天早上遇到乌斯提尔的时候，他身披甲壳护甲并装备着一把不同寻常且散发着微弱火光的附魔巨剑。在他们启程后，她尝试过与他进行交流，但是他的回答毫无条理，这使她很快放弃了这个打算。突如其来的暴风雨席卷了旷野，淋湿了他们，但是因为她并没有穿着护甲，而乌斯提尔装备着光滑的甲壳护甲，他们的行程并没有被妨碍。<BR>
+当钱斯第二天早上遇到乌斯提尔的时候，他身披甲壳护甲并装备着一把不同寻常且散发着微弱火光的附魔剑。在他们启程后，她尝试过与他进行交流，但是他的回答毫无条理，这使她很快放弃了这个打算。突如其来的暴风雨席卷了旷野，淋湿了他们，但是因为她并没有穿着护甲，而乌斯提尔装备着光滑的甲壳护甲，他们的行程并没有被妨碍。<BR>
 <BR>
 到达了阴暗的赫冉墓穴之后，他们开始探索。她的直觉非常正确 -- 他们是很好的一对搭档。<BR>
 <BR>
 她在古老的细绳陷阱，屋顶刺柱，和机械栅栏还没被触发之前就发现了它们，并且打开了所有的锁：简单的齿轮锁，复合锁，拧转的搭扣锁，双层挡片锁，没有现称的古代变种锁，和很多用正确钥匙打开都很困难的生锈锁。<BR>
 <BR>
-至于乌斯提尔，他解决了城市女孩钱斯从未见过的大量奇异恶魔。他附魔巨剑上的火焰法术对冰霜侍灵特别有效。他甚至在她失去平衡几乎坠入地板上的阴暗缝隙的时候救了她一命。<BR>
+至于乌斯提尔，他解决了城市女孩钱斯从未见过的大量奇异恶魔。他附魔剑上的火焰法术对冰霜侍灵特别有效。他甚至在她失去平衡几乎坠入地板上的阴暗缝隙的时候救了她一命。<BR>
 <BR>
 “别伤着了，”他说道，他的脸上表现出诚挚的关心。“门后还有墙，五十三。削弱之戒。两个月后回来。用岩石支撑。来吧，钱斯女士。”<BR>
 <BR>
@@ -32413,7 +32413,7 @@ Daedric Battle Axe
 
 > WEAP.FNAM daedric claymore
 Daedric Claymore
-迪德拉巨剑
+迪德拉大剑
 
 > WEAP.FNAM daedric club
 Daedric Club
@@ -32485,7 +32485,7 @@ Dwarven Battle Axe
 
 > WEAP.FNAM dwarven claymore
 Dwarven Claymore
-矮人巨剑
+矮人大剑
 
 > WEAP.FNAM dwarven crossbow
 Dwarven Crossbow
@@ -32545,7 +32545,7 @@ Ebony War Axe
 
 > WEAP.FNAM glass claymore
 Glass Claymore
-玻璃巨剑
+玻璃大剑
 
 > WEAP.FNAM glass dagger
 Glass Dagger
@@ -32585,7 +32585,7 @@ Short Bow
 
 > WEAP.FNAM silver claymore
 Silver Claymore
-银制巨剑
+银制大剑
 
 > WEAP.FNAM silver dagger
 Silver Dagger
@@ -41653,7 +41653,7 @@ Steel Broadsword of Hewing
 
 > WEAP.FNAM steel claymore of hewing
 Steel Claymore of Hewing
-钢制劈砍巨剑
+钢制劈砍大剑
 
 > WEAP.FNAM steel war axe of deep biting
 Steel War Axe of Deep Biting
@@ -72704,7 +72704,7 @@ Felyn Saranas <BR>
 我，费林·萨拉纳斯，特此同意在交付以下物品后支付10000（壹万）枚龙币：<BR>
 <BR>
 铁制短剑 (20)<BR>
-铁制巨剑 (15)<BR>
+铁制大剑 (15)<BR>
 铁制钉锤 (10)<BR>
 铁制长枪 (15)<BR>
 钢制手斧 (10)<BR>
@@ -73287,7 +73287,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 克里萨米尔<BR>
 <BR>
-圣骑士之剑是一柄古老的巨剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
+圣骑士之剑是一柄古老的大剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
 <BR>
 玛格努斯之杖<BR>
 <BR>
@@ -73339,7 +73339,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 君主冰刃<BR>
 <BR>
-君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的巨剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
+君王冰刃实乃泰姆瑞尔最为珍贵的神器之一。传说有闻，邪恶的大法师阿尔米昂·塞尔莫用一只寻常寒霜元素的加强形态 -- 寒霜君王的灵魂附魔了一名勇士的大剑。战士苏尼亚尔·阿西本打算参与对一位域外贤王行刺，并僭祚为新君。暗杀失败，大法师也被囚禁。冰刃会冻结任何剑下之敌。君王冰刃在人际相传，不得久留。<BR>
 <BR>
 周遭之戒<BR>
 <BR>
@@ -86309,7 +86309,7 @@ M'aiq has heard of this. They've got all the money. Mudcrabs taking over everyth
 
 > INFO.NAME ice blade of the monarch 191304562205788
 The Evil Archmage Almion Celmo of the Summerset Isles created the blade for a warrior, Thurgnarr Assi, who was to assassinate a king. The assassination failed, Thurgnarr Assi was slain, Almion Celmo was imprisoned, and the Ice Blade fell into the hands of a series of malefactors. The weapon is a claymore enchanted to cause frost damage, and is rumored to pass from owner to owner of its own volition.
-夏暮岛的邪恶大法师艾尔米恩·塞尔莫为一个名叫瑟格纳尔·阿西的勇士打造了这把武器，他要刺杀一位国王。刺客刺杀失败，瑟格纳尔·阿西被杀，艾尔米恩·塞尔莫被囚禁，君王之刃落入了一系列歹徒之手。这把武器是一把附魔的巨剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
+夏暮岛的邪恶大法师艾尔米恩·塞尔莫为一个名叫瑟格纳尔·阿西的勇士打造了这把武器，他要刺杀一位国王。刺客刺杀失败，瑟格纳尔·阿西被杀，艾尔米恩·塞尔莫被囚禁，君王之刃落入了一系列歹徒之手。这把武器是一把附魔的大剑，能造成冰霜伤害，据传会主动从主人手中传到另一个主人手中。
 
 > INFO.NAME report to caius cosades 293362909430451391
 So, %PCName. Are you looking for orders? Or did you have a question about the Blade Trainers?
@@ -110555,7 +110555,7 @@ Let me tell you about the armor styles most common in Morrowind. The heavy armor
 
 > INFO.NAME morrowind lore 545445642133130101
 Let me tell you about the weapon types most common in Morrowind. Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts.
-我可以告诉你在晨风最常见的武器种类：短刃武器包括匕首、短刀、短剑和胁差；长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀；钝器类武器包括棍棒、手杖、钉锤、流星锤和战锤；斧类武器包括战斧和巨斧；长柄武器包括长枪和长戟；射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀，弓类射弓箭、弩射弩箭。 {刀锋}
+我可以告诉你在晨风最常见的武器种类：短刃武器包括匕首、短刀、短剑和胁差；长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀；钝器类武器包括棍棒、手杖、钉锤、流星锤和战锤；斧类武器包括战斧和巨斧；长柄武器包括长枪和长戟；射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀，弓类射弓箭、弩射弩箭。 {刀锋}
 
 > INFO.NAME morrowind lore 276973156525593854
 Let me tell you how House Hlaalu feels about killing. By House Hlaalu custom, killing is justifiable in war, self-defense, defense of property, affairs of honor, and House Wars affairs. Other killings are foul murder and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination. Justifiable but unnecessary or cruel killing is scandalous but legal. A cynical acceptable of abuse of power by the rich and powerful is a feature of Hlaalu philosophy.
@@ -110771,7 +110771,7 @@ Blunt weapons include the club, staff, mace, morningstar, and warhammer.
 
 > INFO.NAME morrowind lore 24165310601214915195
 Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana.
-长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。 {刀锋}
+长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。 {刀锋}
 
 > INFO.NAME morrowind lore 2361116661037332738
 Short blades include the dagger, tanto, shortsword, and wakizashi.
@@ -114951,7 +114951,7 @@ If possible, always take a single item at a time. It increases the risk, but it'
 
 > INFO.NAME little advice 3078911023292535132
 Always study your target, and take a good inventory of what he has before attempting to steal anything. If he has his eye on that shiny silver claymore, he won't notice you pocketing a few tarnished throwing stars.
-在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质巨剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
+在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质大剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
 
 > INFO.NAME little advice 268212608920701313
 Practice stealing and pickpocketing by taking cheap things from small merchants. Don't go after the big stuff until you're experienced.
@@ -121177,23 +121177,23 @@ The unarmed, unarmored martial arts traditions of the Marshmerrow, Salt Rice, an
 
 > INFO.NAME weapon types 17098299891459423078
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 24709238542445824686
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 3050179131571526503
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 727781822443375
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME weapon types 124763387963326761
 Short blades include the dagger, tanto, shortsword, and wakizashi. Long blades include the broadsword, saber, longsword, katana, claymore, and dai-katana. Blunt weapons include the club, staff, mace, morningstar, and warhammer. Axes include the war axe and battle axe. Spears include spears and halberds. Marksman weapons include short bow, long bow, crossbow, throwing star, and throwing knife. Bows shoot arrows; crossbows shoot bolts. Use of each weapon type relies on a different skill.
-短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、巨剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
+短刃武器包括匕首、短刀、短剑和胁差。长刃武器包括阔剑、军刀、长剑、武士刀、大剑和大武士刀。钝器类武器包括棍棒、钉锤、狼牙棒、流星锤和战锤。斧类武器包括战斧和巨斧。长柄武器包括长枪和长戟。射术武器包括短弓、长弓、十字弩、投掷手里剑和飞刀。弓射的是箭，弩射的是弩箭。每种武器的使用都依赖于不同的技能。 {刀锋,杖}
 
 > INFO.NAME short blades 134419081525912824
 The dagger and short sword are Western Imperial weapons. The tanto and wakizashi are styled after Akaviri blades. These weapons are light and fast, most effective against lightly armored opponents, but a skilled user can outlast more heavily armed and armored opponents. The dagger, tanto, and short sword are thrusting weapons, the wakizashi a chopping and slashing weapon. Rank them by effectiveness as dagger, tanto, short sword, and wakizashi, with dagger least effective.
@@ -125693,31 +125693,31 @@ Never!
 
 > INFO.NAME long blades 62733222519907425
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 4432109802161215583
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 8723275151912222112
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 1199208193172521729
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 303971191417855011
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 159830404129329399
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME long blades 3057927005156215367
 The broadsword, saber, longsword, and claymore are Western weapons. The katana and dai-katana are Akaviri-style blades. Long blades, one-handed or two-handed, and the most common weapons here. The claymore and dai-katana are two-handed weapons, and relatively heavy and slow; the rest are one-handed. Rank them by effectiveness as broadsword, saber, longsword, katana, claymore, and dai-katana, with broadsword least effective.
-阔剑、军刀、长剑和巨剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。巨剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、巨剑和大武士刀，其中阔剑的强度最低。 {刀锋}
+阔剑、军刀、长剑和大剑是源于西方的武器，而武士刀和大武士刀则是源自阿卡维尔样式的兵器。在长刃武器中，单手和双手武器都属于非常常见的武器。大剑和大武士刀是双手武器，相对较为笨重，挥砍速度也比较慢；而其余的则都是单手武器。按强度由弱至强排列的话，应该是阔剑、军刀、长剑、武士刀、大剑和大武士刀，其中阔剑的强度最低。 {刀锋}
 
 > INFO.NAME armor types 16323104462012610132
 Shields and tower shields are basic armor protection, but limit you to one-handed weapons. For body armor, get a cuirass first for the chest, then greaves for the legs, helm for the head, and boots for the feet. Add left and right pauldrons for upper arms and gauntlets or bracers for lower arms. Balance protection against weight; you can't fight if you're exhausted by the weight of your armor.
@@ -144701,7 +144701,7 @@ The alteration discipline is the mastery of the spell effects of the College of 
 
 > INFO.NAME long blade 2246228081396829682
 The long blade weapon discipline is the study and mastery of the broadsword, saber, longsword, claymore, katana, and dai-katana weapon styles. To use any style of weapon effectively, the user must be trained, conditioned, and skilled in its use.
-长刃类武器学科是对阔剑、军刀、长剑、巨剑、武士刀和大武士刀等武器样式的研究和掌握。要有效地使用任何一种武器，使用者都必须经过训练、调整状态并熟练掌握其使用方法。
+长刃类武器学科是对阔剑、军刀、长剑、大剑、武士刀和大武士刀等武器样式的研究和掌握。要有效地使用任何一种武器，使用者都必须经过训练、调整状态并熟练掌握其使用方法。
 
 > INFO.NAME acrobatics 112626264101571051
 The acrobatics discipline is the ability to jump long distances and to avoid damage when falling great distances.
@@ -150233,7 +150233,7 @@ I am a merchant. I look for goods that are well-made, that people want to buy, t
 
 > INFO.NAME claymore 1545771941493431003
 Highland Bretons were the first to use the very heavy two-handed sword called the claymore, but powerful Redguards were quick to adopt these massive shock weapons to their heroic melee styles. Not suitable for use by close order troops, the claymore is favored by the solitary hero-adventurer, particularly against great beasts and otherworldly creatures.
-高岩的布莱顿人最先使用被称为巨剑的非常沉重的双手剑，但强大的红卫人也很快将这些巨大的冲击性武器运用到他们的英雄近战风格中。巨剑不适合近身部队使用，因此受到独行英雄冒险者的青睐，尤其是在对付巨兽和异界生物时。 {忙}
+高岩的布莱顿人最先使用被称为大剑的非常沉重的双手剑，但强大的红卫人也很快将这些巨大的冲击性武器运用到他们的英雄近战风格中。大剑不适合近身部队使用，因此受到独行英雄冒险者的青睐，尤其是在对付巨兽和异界生物时。 {忙}
 
 > INFO.NAME crossbow 16881142961813413247
 The Dwemer crossbow is an ingenious device that permits someone with only modest training and skill to fire a missile bolt massive enough to penetrate heavy armor. The Imperial Legion's mass-produced version is somewhat less effective, and most Imperial missile troops and hunters use the more popular short and long bows.
