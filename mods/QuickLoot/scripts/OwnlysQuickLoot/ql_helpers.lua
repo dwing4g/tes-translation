@@ -489,7 +489,7 @@ local function formatNumber(num, mode)
 		end
 		text = text.." "..suffixes[i]
 	elseif text >= 1000 then
-		text = math.floor(text/1000)..(not playerSection:get("FONT_FIX") and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%.3f",math.floor((text%1000)/1000)):sub(3)
+		text = math.floor(text/1000)..(not playerSection:get("FONT_FIX") and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%03d", math.floor((text%1000)/100)*100)
 	end
 	return ""..text
 end

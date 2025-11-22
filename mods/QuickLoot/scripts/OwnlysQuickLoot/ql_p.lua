@@ -1259,10 +1259,10 @@ function drawUI()
 	if playerSection:get("FOOTER_HINTS") ~= "Disabled" then
 		local fTex = fKeyTex
 		local rTex = rKeyTex
-		if playerSection:get("FOOTER_HINTS") == "Symbolic" then
+		--if playerSection:get("FOOTER_HINTS") == "Symbolic" then
 			fTex = fSymbolicTex
 		    rTex = rSymbolicTex
-		end	
+		--end	
 			
 		--SUB-FOOTER ICON Right
 		table.insert(root.layout.content,{

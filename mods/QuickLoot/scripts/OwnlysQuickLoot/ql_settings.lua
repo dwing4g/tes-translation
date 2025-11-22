@@ -117,7 +117,7 @@ settings = {
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
-				items = {"Disabled", "Symbolic", "F / R"},
+				items = {"Disabled", "Symbolic"},--, "F / R"},
 			},
 		},
 		{

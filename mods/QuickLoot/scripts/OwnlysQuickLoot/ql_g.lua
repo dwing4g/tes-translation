@@ -328,6 +328,7 @@ acti.addHandlerForType(types.NPC, activateActor)
 acti.addHandlerForType(types.Creature, activateActor)
 
 local function onUpdate(dt)
+	if dt==0 then return end
 	for _, t in pairs(activateNextUpdate) do
 		if t[3] then
 			t[1].owner.factionId = t[3].owner.factionId
