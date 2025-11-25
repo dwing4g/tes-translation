@@ -277503,7 +277503,7 @@ Choice ""我能找到你要找的奴隶。"" 1 ""我不会帮你找奴隶的。"" 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "m'aiq$00"
- INFO.NAME "爬绳子太难了，麦奎喜欢爬水平绑着的绳子。"
+ INFO.NAME "爬吊着的绳子太难了，麦奎喜欢爬水平绑着的绳子。"
 -DIAL
  DIAL.NAME "乔西安·安科伊斯$00"
  DIAL.DATA [00]
@@ -277699,7 +277699,7 @@ ModDisposition 10"
  INFO.NNAM "194628832854511441$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "uupse fyr$00"
- INFO.NAME "他们似乎觉得击鼓很舒服，可怜的孩子们。我想他们现在会更平静了。"
+ INFO.NAME "他们似乎的确觉得鼓声很舒服，可怜的家伙们。我想他们现在会平静多了。"
  INFO.SCVR "04JX3A2_3_CorprusSafe"
  INFO.INTV [64 00 00 00]
  INFO.BNAM ";Uupse Fyr;"
@@ -278454,7 +278454,7 @@ Player->AddItem ""misc_fakesoulgem"" 1"
  INFO.NNAM "30609280472005426260$00"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec, St. Olms$00"
- INFO.NAME "入口在广场的坎上，进入广场后，它就在你的右手边。"
+ INFO.NAME "入口在行政区广场。进入广场后，右手边就是。"
  INFO.SCVR "04JX2TG_SS_Yngling"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "1CsX0NoLore"
