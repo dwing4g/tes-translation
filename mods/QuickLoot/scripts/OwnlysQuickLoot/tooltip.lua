@@ -10,14 +10,14 @@
 -- core = require('openmw.core')
 -- types = require('openmw.types')
 -- makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
--- borderOffset = playerSection:get("BORDER_STYLE") == "verythick" and 4 or playerSection:get("BORDER_STYLE") == "thick" and 3 or playerSection:get("BORDER_STYLE") == "normal" and 2 or (playerSection:get("BORDER_STYLE") == "thin" or playerSection:get("BORDER_STYLE") == "max performance") and 1 or 0
--- uiLoc = v2(playerSection:get("X")/100,playerSection:get("Y")/100)
--- uiSize = v2(playerSection:get("WIDTH")/100,playerSection:get("HEIGHT")/100)
+-- borderOffset = BORDER_STYLE == "verythick" and 4 or BORDER_STYLE == "thick" and 3 or BORDER_STYLE == "normal" and 2 or (BORDER_STYLE == "thin" or BORDER_STYLE == "max performance") and 1 or 0
+-- uiLoc = v2(X/100,Y/100)
+-- uiSize = v2(WIDTH/100,HEIGHT/100)
 -- itemFontSize = 20
 -- textSizeMult = ui.screenSize().y /1200*(uiSize.y/0.4)
 -- quickLootText = {
 -- 	props = {
--- 			textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
+-- 			textColor = FONT_TINT,--util.color.rgba(1, 1, 1, 1),
 -- 			textShadow = true,
 -- 			textShadowColor = util.color.rgba(0,0,0,0.75),
 -- 			--textAlignV = ui.ALIGNMENT.Center,
@@ -35,7 +35,7 @@ local SOUL_GEM_REBALANCE = true
 
 tooltipText = {
 	props = {
-			textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
+			textColor = FONT_TINT,--util.color.rgba(1, 1, 1, 1),
 			textShadow = true,
 			textShadowColor = util.color.rgba(0,0,0,0.75),
 			textAlignV = ui.ALIGNMENT.Center,
@@ -357,7 +357,7 @@ end
 
 local function getEffects(eff, type)
 	local effects = {}
-	local shortTexts = playerSection:get("TOOLTIP_SHORT_TEXT")
+	local shortTexts = TOOLTIP_SHORT_TEXT
 	
 	for i, effect in ipairs(eff) do
 		local text = getMagicEffectName(effect.id)
@@ -615,8 +615,8 @@ end
 
 -- MAIN FUNCTION
 return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) --makeTooltip
-	local transparency = playerSection:get("TRANSPARENCY")
-	if playerSection:get("TOOLTIP_MODE") == "off" then
+	local transparency = TRANSPARENCY
+	if TOOLTIP_MODE == "off" then
 		return
 	end
 
@@ -628,9 +628,9 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 	local rootHeight = hudLayerSize.y * uiSize.y
 	local absPos = v2(hudLayerSize.x * uiLoc.x, hudLayerSize.y * uiLoc.y)
 	local tooltipTextAlignment = ui.ALIGNMENT.Center
-	if playerSection:get("TOOLTIP_TEXT_ALIGNMENT") == "left" then
+	if TOOLTIP_TEXT_ALIGNMENT == "left" then
 		tooltipTextAlignment = ui.ALIGNMENT.Start
-	elseif playerSection:get("TOOLTIP_TEXT_ALIGNMENT") == "right" then
+	elseif TOOLTIP_TEXT_ALIGNMENT == "right" then
 		tooltipTextAlignment = ui.ALIGNMENT.End
 	end
 	local newBorderColor
@@ -673,15 +673,15 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 	
 	
 	-- TOOLTIP LOCATION:
-	if playerSection:get("TOOLTIP_MODE") == "top" then
+	if TOOLTIP_MODE == "top" then
 		root.layout.props = {
 			anchor = v2(0.5,1), 
 			position = v2(absPos.x, absPos.y-rootHeight/2),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "bottom" then
+	elseif TOOLTIP_MODE == "bottom" then
 		local temp = 0
-		if playerSection:get("FOOTER_HINTS") == "Disabled" then
+		if FOOTER_HINTS == "Disabled" then
 			temp = outerHeaderFooterHeight
 		end
 		root.layout.props = {
@@ -689,49 +689,49 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 			position = v2(absPos.x, absPos.y+rootHeight/2+1-temp),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "left" then
+	elseif TOOLTIP_MODE == "left" then
 		root.layout.props = {
 			anchor = v2(1,0), 
 			position = v2(absPos.x-rootWidth/2, absPos.y-rootHeight/2+highlightPosition),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "right" then
+	elseif TOOLTIP_MODE == "right" then
 		root.layout.props = {
 			anchor = v2(0,0), 
 			position = v2(absPos.x+rootWidth/2, absPos.y-rootHeight/2+highlightPosition),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed)" then
+	elseif TOOLTIP_MODE == "left (fixed)" then
 		root.layout.props = {
 			anchor = v2(1,0.5), 
 			position = v2(absPos.x-rootWidth/2, absPos.y),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed 2)" then
+	elseif TOOLTIP_MODE == "left (fixed 2)" then
 		root.layout.props = {
 			anchor = v2(1,0), 
 			position = v2(absPos.x-rootWidth/2, absPos.y-boxHeight/4),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "left (fixed 3)" then
+	elseif TOOLTIP_MODE == "left (fixed 3)" then
 		root.layout.props = {
 			anchor = v2(0.5,0), 
 			position = v2(math.max(absPos.x-rootWidth*0.9,(absPos.x-rootWidth/2)/2), absPos.y-boxHeight/4),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "right (fixed 2)" then
+	elseif TOOLTIP_MODE == "right (fixed 2)" then
 		root.layout.props = {
 			anchor = v2(0,0), 
 			position = v2(absPos.x+rootWidth/2, absPos.y-boxHeight/4),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "right (fixed 3)" then
+	elseif TOOLTIP_MODE == "right (fixed 3)" then
 		root.layout.props = {
 			anchor = v2(0.5,0), 
 			position = v2(math.min(99999999--[[absPos.x+rootWidth*0.9]],(uiWidth+absPos.x+rootWidth/2)/2), absPos.y-boxHeight/4),
 			autoSize = true
 		}
-	elseif playerSection:get("TOOLTIP_MODE") == "crosshair" then
+	elseif TOOLTIP_MODE == "crosshair" then
 		root.layout.props = {
 			anchor = v2(0.5,0), 
 			position = v2(uiWidth/2, uiHeight/2+20),
@@ -748,7 +748,7 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 	
 	
 	local ench = item and (item.enchant or item.enchant ~= "" and item.enchant )
-	local fontWidthMult = playerSection:get("TOOLTIP_FONT_WIDTH")
+	local fontWidthMult = TOOLTIP_FONT_WIDTH
 	local function textElement(str, color)
 		flex.content:add { 
 			type = ui.TYPE.Text,
@@ -774,13 +774,13 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 	end
 	if isPickpocketing then-- and  then
 		local text = pickpocket.getTooltipText1(self,inspectedContainer, item, deposit)
-		if not playerSection:get("COLUMN_PICKPOCKET") then
+		if not COLUMN_PICKPOCKET then
 			name = name..text
 		end
 	end
 	colorTheme = nil -- uncomment for red colored item name when stealing
-	--textElement(fromutf8(name), playerSection:get("ICON_TINT"))
-	textElement(name, colorTheme and util.color.rgba(1,0.05, 0.05, 1) or playerSection:get("ICON_TINT"))
+	--textElement(fromutf8(name), ICON_TINT)
+	textElement(name, colorTheme and util.color.rgba(1,0.05, 0.05, 1) or ICON_TINT)
 
 	flex.content:add{ props = { size = v2(1, 1) * 1 } }
 	
@@ -813,7 +813,7 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 		textElement(core.getGMST("sCondition")..": ".. math.floor(weaponOrArmor.durability.current+0.5).."/"..math.floor(weaponOrArmor.durability.max+0.5))
 	end
 	
-	if info.type == "weapon" and playerSection:get("TOOLTIP_MELEE_INFO") then
+	if info.type == "weapon" and TOOLTIP_MELEE_INFO then
 		textElement(core.getGMST("sRange")..": "..(math.floor((info.weaponData.reach*6.05)*10)/10).." "..core.getGMST("sfootarea"))
 		textElement(core.getGMST("sAttributeSpeed")..": "..math.floor((info.weaponData.speed)*100+0.5).."%")
 	end

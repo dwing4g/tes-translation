@@ -13,27 +13,45 @@ local function getColorFromGameSettings(colorTag)
     end
     return util.color.rgb(rgb[1] / 255, rgb[2] / 255, rgb[3] / 255)
 end
+-- Settings Migration
+local legacySection = storage.playerSection('SettingsPlayer'..MODNAME)
+if legacySection:get("FOOTER_HINTS") ==  "F / R" then
+	legacySection:set("FOOTER_HINTS", "Symbolic")
+end
 
-settings = {
-    key = 'SettingsPlayer'..MODNAME,
+
+local tempKey
+local orderCounter = 0
+local function getOrder()
+	orderCounter = orderCounter + 1
+	return orderCounter
+end
+
+local settingsTemplate = {}
+-- change name maybe:
+--cleanSettingsTemplate = settingsTemplate
+
+tempKey = "General"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
     l10n = "QuickLoot",
-    name = "QuickLoot",
-	description = "",
-    permanentStorage = true,
-    settings = {
+    name = tempKey,
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
 			key = "ENABLED",
 			name = "Enabled",
 			description = "Allows disabling the mod entirely",
 			renderer = "checkbox",
-			default = true,
+			default = legacySection:get("ENABLED") or true,
 		},
 		{
 			key = "CONTAINER_ANIMATION",
 			name = "Container Animation",
 			description = "For 'Animated Containers' \nCan make looting stuff on top of containers more difficult\nIf it doesn't work, your OpenMW version might not be recent enough",
-			default = "immediately", 
+			default = legacySection:get("CONTAINER_ANIMATION") or "immediately", 
 			renderer = "select",
 			argument = {
 				disabled = false,
@@ -42,11 +60,30 @@ settings = {
 			},
 		},
 		{
+			key = "PICKPOCKETING",
+			name = "Enable Pickpocketing",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("PICKPOCKETING") or true
+		},
+	},
+}
+
+tempKey = "UI"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
+    page = MODNAME,
+    l10n = "QuickLoot",
+    name = tempKey,
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
 			key = "WIDTH",
 			name = "Width (%)",
 			description = "of the ui element (1-100)",
 			renderer = "number",
-			default = 23,
+			default = legacySection:get("WIDTH") or 23,
 			argument = {
 				min = 1,
 				max = 100,
@@ -57,7 +94,7 @@ settings = {
 			name = "Height (%)",
 			description = "of the ui element (1-100)",
 			renderer = "number",
-			default = 35,
+			default = legacySection:get("HEIGHT") or 35,
 			argument = {
 				min = 1,
 				max = 100,
@@ -68,7 +105,7 @@ settings = {
 			name = "X Position (%)",
 			description = "Location of the center (1-100)",
 			renderer = "number",
-			default = 71,
+			default = legacySection:get("X") or 71,
 			argument = {
 				min = 1,
 				max = 100,
@@ -79,18 +116,18 @@ settings = {
 			name = "Y Position (%)",
 			description = "Location of the center (1-100)",
 			renderer = "number",
-			default = 50,
+			default = legacySection:get("Y") or 50,
 			argument = {
 				min = 1,
 				max = 100,
 			},
 		},
 		{
-			key = "textSizeMult",
+			key = "TEXTSIZEMULT",
 			name = "textSizeMult (%)",
 			description = "1-200",
 			renderer = "number",
-			default = 93,
+			default = legacySection:get("textSizeMult") or 93,
 			argument = {
 				min = 1,
 				max = 200,
@@ -100,7 +137,7 @@ settings = {
 			key = "HEADER_FOOTER",
 			name = "List Header/Footer",
 			description = "Show list header/footer",
-			default = "show both", 
+			default = legacySection:get("HEADER_FOOTER") or "show both", 
 			renderer = "select",
 			argument = {
 				disabled = false,
@@ -112,134 +149,19 @@ settings = {
 			key = "FOOTER_HINTS",
 			name = "Keybinding Hints",
 			description = "shows the keybinding hints for 'Take All' and 'Search'",
-			default = "Symbolic", 
+			default = legacySection:get("FOOTER_HINTS") or "Symbolic", 
 			renderer = "select",
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
-				items = {"Disabled", "Symbolic"},--, "F / R"},
+				items = {"Disabled", "Symbolic"}--, "F / R"},
 			},
-		},
-		{
-			key = "CONTAINER_SORTING_STATS",
-			name = "Item Sorting by Value / Weight",
-			description = "Changes the order of icons in containers",
-			default = "Best V/W", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = "QuickLoot", 
-				items = {"Vanilla", "Lowest Weight", "Highest Value", "Best V/W"},
-			},
-		},
-		{
-			key = "CONTAINER_SORTING_QUEST",
-			name = "Sorting: Quest Items On Top",
-			description = "Let me know if you find any that got falsely flagged as quest",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "CONTAINER_SORTING_CASH",
-			name = "Sorting: Cash On Top",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "CONTAINER_SORTING_KEYS",
-			name = "Sorting: Keys On Top",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "CONTAINER_SORTING_LOCKPICKS",
-			name = "Sorting: Lockpicks On Top",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "CONTAINER_SORTING_SOULGEMS",
-			name = "Sorting: Soulgems On Top",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "CONTAINER_SORTING_INGREDIENTS",
-			name = "Sorting: Ingredients Below [x] Weight On Top",
-			description = "0 = Disable",
-			renderer = "number",
-			default = 1.5,
-			argument = {
-				min = 0,
-				max = 200,
-			},
-		},
-		{
-			key = "CONTAINER_SORTING_REPAIR",
-			name = "Sorting: Repair Tools On Top",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		
-		{
-			key = "COLUMN_PICKPOCKET",
-			name = "Show Pickpocket Column",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "COLUMN_WEIGHT",
-			name = "Show Weight Column",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "COLUMN_WEIGHT_PICKPOCKETING",
-			name = "Show Weight Column When Pickpocketing",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "COLUMN_VALUE",
-			name = "Show Value Column",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "COLUMN_VALUE_PICKPOCKETING",
-			name = "Show Value Column When Pickpocketing",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "COLUMN_WV",
-			name = "Show V/W Column",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "COLUMN_WV_PICKPOCKETING",
-			name = "Show V/W Column When Pickpocketing",
-			description = "",
-			renderer = "checkbox",
-			default = false
 		},
 		{
 			key = "BORDER_STYLE",
 			name = "Border Style",
 			description = "",
-			default = "thin", 
+			default = legacySection:get("BORDER_STYLE") or "thin", 
 			renderer = "select",
 			argument = {
 				disabled = false,
@@ -252,26 +174,14 @@ settings = {
 			name = "Border Fix",
 			description = "Use vanilla borders, so the equipped indicator doesnt turn invisible",
 			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "READ_BOOKS",
-			name = "Show read books",
-			description = "bookworm will highlight books that you have actually read (for 20 seconds)",
-			default = "read", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = "QuickLoot", 
-				items = {"off", "unread", "read", "bookworm", "bookworm unread"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
-			},
+			default = legacySection:get("BORDER_FIX") or true
 		},
 		{
 			key = "FONT_TINT",
 			name = "Font Color",
 			description = "",
 			disabled = false,
-			default = getColorFromGameSettings("FontColor_color_normal"), --green
+			default = legacySection:get("FONT_TINT") or getColorFromGameSettings("FontColor_color_normal"), --green
 			renderer = "color",
 		},
 		{
@@ -279,7 +189,7 @@ settings = {
 			name = "Icon Tint",
 			description = "",
 			disabled = false,
-			default = getColorFromGameSettings("FontColor_color_normal_over"), --green
+			default = legacySection:get("ICON_TINT") or getColorFromGameSettings("FontColor_color_normal_over"), --green
 			renderer = "color",
 		},
 		{
@@ -287,20 +197,181 @@ settings = {
 			name = "Fix buggy font",
 			description = "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font",
 			renderer = "checkbox",
-			default = true
+			default = legacySection:get("FONT_FIX") or true
 		},
 		{
 			key = "HAND_SYMBOL",
 			name = "Stealing Hand Symbol",
 			description = "Enable the pink hand next to the red text when the container belongs to someone",
 			renderer = "checkbox",
-			default = true
+			default = legacySection:get("HAND_SYMBOL") or true
 		},
+		{
+			key = "TRANSPARENCY",
+			name = "Transparency",
+			description = "",
+			renderer = "number",
+			default = legacySection:get("TRANSPARENCY") or 0.4,
+			argument = {
+				min = 0,
+				max = 1,
+			},
+		},
+	},
+}
+
+tempKey = "Sorting"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
+    page = MODNAME,
+    l10n = "QuickLoot",
+    name = tempKey,
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
+			key = "CONTAINER_SORTING_STATS",
+			name = "Item Sorting by Value / Weight",
+			description = "Changes the order of icons in containers",
+			default = legacySection:get("CONTAINER_SORTING_STATS") or "Best V/W", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"Vanilla", "Lowest Weight", "Highest Value", "Best V/W"},
+			},
+		},
+		{
+			key = "CONTAINER_SORTING_QUEST",
+			name = "Sorting: Quest Items On Top",
+			description = "Let me know if you find any that got falsely flagged as quest",
+			renderer = "checkbox",
+			default = legacySection:get("CONTAINER_SORTING_QUEST") or true
+		},
+		{
+			key = "CONTAINER_SORTING_CASH",
+			name = "Sorting: Cash On Top",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("CONTAINER_SORTING_CASH") or true
+		},
+		{
+			key = "CONTAINER_SORTING_KEYS",
+			name = "Sorting: Keys On Top",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("CONTAINER_SORTING_KEYS") or true
+		},
+		{
+			key = "CONTAINER_SORTING_LOCKPICKS",
+			name = "Sorting: Lockpicks On Top",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("CONTAINER_SORTING_LOCKPICKS") or true
+		},
+		{
+			key = "CONTAINER_SORTING_SOULGEMS",
+			name = "Sorting: Soulgems On Top",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("CONTAINER_SORTING_SOULGEMS") or true
+		},
+		{
+			key = "CONTAINER_SORTING_INGREDIENTS",
+			name = "Sorting: Ingredients Below [x] Weight On Top",
+			description = "0 = Disable",
+			renderer = "number",
+			default = legacySection:get("CONTAINER_SORTING_INGREDIENTS") or 1.5,
+			argument = {
+				min = 0,
+				max = 200,
+			},
+		},
+		{
+			key = "CONTAINER_SORTING_REPAIR",
+			name = "Sorting: Repair Tools On Top",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("CONTAINER_SORTING_REPAIR") or true
+		},
+	},
+}
+
+tempKey = "Columns"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
+    page = MODNAME,
+    l10n = "QuickLoot",
+    name = tempKey,
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+				{
+			key = "COLUMN_PICKPOCKET",
+			name = "Show Pickpocket Column",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("COLUMN_PICKPOCKET") or true
+		},
+		{
+			key = "COLUMN_WEIGHT",
+			name = "Show Weight Column",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("COLUMN_WEIGHT") or true
+		},
+		{
+			key = "COLUMN_WEIGHT_PICKPOCKETING",
+			name = "Show Weight Column When Pickpocketing",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("COLUMN_WEIGHT_PICKPOCKETING") or true
+		},
+		{
+			key = "COLUMN_VALUE",
+			name = "Show Value Column",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("COLUMN_VALUE") or true
+		},
+		{
+			key = "COLUMN_VALUE_PICKPOCKETING",
+			name = "Show Value Column When Pickpocketing",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("COLUMN_VALUE_PICKPOCKETING") or true
+		},
+		{
+			key = "COLUMN_WV",
+			name = "Show V/W Column",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("COLUMN_WV") or true
+		},
+		{
+			key = "COLUMN_WV_PICKPOCKETING",
+			name = "Show V/W Column When Pickpocketing",
+			description = "",
+			renderer = "checkbox",
+			default = legacySection:get("COLUMN_WV_PICKPOCKETING") or false
+		},
+	},
+}
+
+tempKey = "Tooltip"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
+    page = MODNAME,
+    l10n = "QuickLoot",
+    name = tempKey,
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
 			key = "TOOLTIP_MODE",
 			name = "Tooltip position",
 			description = "doesn't work with the font fix below",
-			default = "left", 
+			default = legacySection:get("TOOLTIP_MODE") or "left", 
 			renderer = "select",
 			argument = {
 				disabled = false,
@@ -313,13 +384,13 @@ settings = {
 			name = "tooltip show melee info",
 			description = "'show melee info' enabled in engine OpenMW settings",
 			renderer = "checkbox",
-			default = false
+			default = legacySection:get("TOOLTIP_MELEE_INFO") or false
 		},
 		{
 			key = "TOOLTIP_TEXT_ALIGNMENT",
 			name = "Tooltip text alignment",
 			description = "",
-			default = "center", 
+			default = legacySection:get("TOOLTIP_TEXT_ALIGNMENT") or "center", 
 			renderer = "select",
 			argument = {
 				disabled = false,
@@ -332,13 +403,37 @@ settings = {
 			name = "shorter tooltip texts",
 			description = "shortens effect texts",
 			renderer = "checkbox",
-			default = false
+			default = legacySection:get("TOOLTIP_SHORT_TEXT") or false
+		},
+	},
+}
+
+tempKey = "Misc"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
+    page = MODNAME,
+    l10n = "QuickLoot",
+    name = tempKey,
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
+			key = "READ_BOOKS",
+			name = "Show read books",
+			description = "bookworm will highlight books that you have actually read (for 20 seconds)",
+			default = legacySection:get("READ_BOOKS") or "read", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"off", "unread", "read", "bookworm", "bookworm unread"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+			},
 		},
 		{
 			key = "DISPOSE_CORPSE",
 			name = "Dispose corpse Key",
 			description = "",
-			default = "Shift + F", 
+			default = legacySection:get("DISPOSE_CORPSE") or "Shift + F", 
 			renderer = "select",
 			argument = {
 				disabled = false,
@@ -347,29 +442,11 @@ settings = {
 			},
 		},
 		{
-			key = "TRANSPARENCY",
-			name = "Transparency",
-			description = "",
-			renderer = "number",
-			default = 0.4,
-			argument = {
-				min = 0,
-				max = 1,
-			},
-		},
-		{
-			key = "PICKPOCKETING",
-			name = "Enable Pickpocketing",
-			description = "",
-			renderer = "checkbox",
-			default = true
-		},
-		{
 			key = "EXPERIMENTAL_LOOTING",
 			name = "Experimental looting workaround",
 			description = "If you have some ammo mod that keeps deleting your ammo for some reason",
 			renderer = "checkbox",
-			default = false
+			default = legacySection:get("EXPERIMENTAL_LOOTING") or false
 			
 		},
 		{
@@ -377,39 +454,27 @@ settings = {
 			name = "can loot during death animation",
 			description = "it's currently not possible to check the values in the settings.cfg",
 			renderer = "checkbox",
-			default = false
+			default = legacySection:get("CAN_LOOT_DURING_DEATH_ANIMATION") or false
 		},
 		{
 			key = "RUN_SCRIPT_ONCE",
 			name = "Run MWscripts only once",
 			description = "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
 			renderer = "checkbox",
-			default = true
-		},
-		{
-			key = "LOOSE_AIMING3",
-			name = "Loose Aiming",
-			description = "Don't have to aim exactly at the container.\nCan have a performance impact if you have many mods with raycasts",
-			default = "On", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = "QuickLoot", 
-				items = {"Off", "On", "Precise"},
-			},
+			default = legacySection:get("RUN_SCRIPT_ONCE") or true
 		},
 		{
 			key = "R_DEPOSIT",
 			name = "R switches to deposit",
 			description = "switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.",
 			renderer = "checkbox",
-			default = true
+			default = legacySection:get("R_DEPOSIT") or true
 		},
 		{
 			key = "SELECTIVE_DEPOSIT",
 			name = "Shift + Deposit All Mode",
 			description = "what to deposit when pressing shift+F in deposit mode",
-			default = "ingredients", 
+			default = legacySection:get("SELECTIVE_DEPOSIT") or "ingredients", 
 			renderer = "select",
 			argument = {
 				disabled = false,
@@ -417,39 +482,35 @@ settings = {
 				items = {"ingredients", "restack"},
 			},
 		},
-	}
+	},
+}
+
+tempKey = "Performance"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
+    page = MODNAME,
+    l10n = "QuickLoot",
+    name = tempKey,
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
+			key = "PERFORMANCE_MODE",
+			name = "Raycast Performance Hit",
+			description = "You really don't need to set it to desperate unless you're playing starwind on a gameboy",
+			default = "Normal", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"Desperate", "Normal"},
+			},
+		},
+	},
 }
 
 
-
-
-local function updateSettings()
-	showInMainMenuOverride = true
-	uiLoc = v2(playerSection:get("X")/100,playerSection:get("Y")/100)
-	uiSize = v2(playerSection:get("WIDTH")/100,playerSection:get("HEIGHT")/100)
-	closeHud()
-	--core.sendGlobalEvent("OwnlysQuickLoot_playerToggledMod",{self,playerSection:get("ENABLED")})
-	updateModEnabled()
-	quickLootText = {
-		props = {
-				textColor = playerSection:get("FONT_TINT"),--util.color.rgba(1, 1, 1, 1),
-				textShadow = true,
-				textShadowColor = util.color.rgba(0,0,0,0.75),
-				--textAlignV = ui.ALIGNMENT.Center,
-				--textAlignH = ui.ALIGNMENT.Center,
-		}
-	}
-	makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
-	--calculateBarPositions()
-	--if container then
-	--	container:destroy()
-	--end
-	--container = nil
-	----makeUI()
-end
-
-
-I.Settings.registerGroup(settings)
+legacySection:reset()
 
 
 I.Settings.registerPage {
@@ -460,5 +521,44 @@ I.Settings.registerPage {
 }
 
 
-playerSection:subscribe(async:callback(updateSettings))
-return true
+for id, template in pairs(settingsTemplate) do
+	I.Settings.registerGroup(template)
+end
+
+function readAllSettings()
+	for _, template in pairs(settingsTemplate) do
+		local settingsSection = storage.playerSection(template.key)
+		for i, entry in pairs(template.settings) do
+			_G[entry.key] = settingsSection:get(entry.key)
+		end
+	end
+end
+
+readAllSettings()
+
+-- ────────────────────────────────────────────────────────────────────────── Settings Event ──────────────────────────────────────────────────────────────────────────
+
+for _, template in pairs(settingsTemplate) do
+	local sectionName = template.key
+	local settingsSection = storage.playerSection(template.key)
+	settingsSection:subscribe(async:callback(function (_,setting)
+		local oldValue = _G[setting]
+		readAllSettings()
+		showInMainMenuOverride = true
+		uiLoc = v2(X/100,Y/100)
+		uiSize = v2(WIDTH/100,HEIGHT/100)
+		closeHud()
+		--core.sendGlobalEvent("OwnlysQuickLoot_playerToggledMod",{self,ENABLED})
+		updateModEnabled()
+		quickLootText = {
+			props = {
+				textColor = FONT_TINT,--util.color.rgba(1, 1, 1, 1),
+				textShadow = true,
+				textShadowColor = util.color.rgba(0,0,0,0.75),
+				--textAlignV = ui.ALIGNMENT.Center,
+				--textAlignH = ui.ALIGNMENT.Center,
+			}
+		}
+		makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
+	end))
+end

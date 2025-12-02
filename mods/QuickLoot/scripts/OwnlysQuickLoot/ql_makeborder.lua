@@ -25,7 +25,7 @@ local cornerParts = {
 local borderSidePattern = 'textures/menu_%s_border_%s.dds'
 local borderCornerPattern = 'textures/menu_%s_border_%s_corner.dds'
 
-if playerSection:get("BORDER_FIX") then
+if BORDER_FIX then
 	borderSidePattern = 'textures/ql_makeborder/menu_%s_border_%s.dds'
 	borderCornerPattern = 'textures/ql_makeborder/menu_%s_border_%s_corner.dds'
 end
