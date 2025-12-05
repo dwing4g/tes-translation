@@ -27,6 +27,11 @@ local function getOrder()
 	return orderCounter
 end
 
+local function boolDefault(value, default)
+	if value == nil then return default end
+	return value
+end
+
 local settingsTemplate = {}
 -- change name maybe:
 --cleanSettingsTemplate = settingsTemplate
@@ -45,7 +50,7 @@ settingsTemplate[tempKey] = {
 			name = "Enabled",
 			description = "Allows disabling the mod entirely",
 			renderer = "checkbox",
-			default = legacySection:get("ENABLED") or true,
+			default = boolDefault(legacySection:get("ENABLED"), true),
 		},
 		{
 			key = "CONTAINER_ANIMATION",
@@ -64,7 +69,7 @@ settingsTemplate[tempKey] = {
 			name = "Enable Pickpocketing",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("PICKPOCKETING") or true
+			default = boolDefault(legacySection:get("PICKPOCKETING"), true)
 		},
 	},
 }
@@ -174,7 +179,7 @@ settingsTemplate[tempKey] = {
 			name = "Border Fix",
 			description = "Use vanilla borders, so the equipped indicator doesnt turn invisible",
 			renderer = "checkbox",
-			default = legacySection:get("BORDER_FIX") or true
+			default = boolDefault(legacySection:get("BORDER_FIX"), true)
 		},
 		{
 			key = "FONT_TINT",
@@ -197,14 +202,14 @@ settingsTemplate[tempKey] = {
 			name = "Fix buggy font",
 			description = "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font",
 			renderer = "checkbox",
-			default = legacySection:get("FONT_FIX") or true
+			default = boolDefault(legacySection:get("FONT_FIX"), true)
 		},
 		{
 			key = "HAND_SYMBOL",
 			name = "Stealing Hand Symbol",
 			description = "Enable the pink hand next to the red text when the container belongs to someone",
 			renderer = "checkbox",
-			default = legacySection:get("HAND_SYMBOL") or true
+			default = boolDefault(legacySection:get("HAND_SYMBOL"), true)
 		},
 		{
 			key = "TRANSPARENCY",
@@ -246,35 +251,35 @@ settingsTemplate[tempKey] = {
 			name = "Sorting: Quest Items On Top",
 			description = "Let me know if you find any that got falsely flagged as quest",
 			renderer = "checkbox",
-			default = legacySection:get("CONTAINER_SORTING_QUEST") or true
+			default = boolDefault(legacySection:get("CONTAINER_SORTING_QUEST"), true)
 		},
 		{
 			key = "CONTAINER_SORTING_CASH",
 			name = "Sorting: Cash On Top",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("CONTAINER_SORTING_CASH") or true
+			default = boolDefault(legacySection:get("CONTAINER_SORTING_CASH"), true)
 		},
 		{
 			key = "CONTAINER_SORTING_KEYS",
 			name = "Sorting: Keys On Top",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("CONTAINER_SORTING_KEYS") or true
+			default = boolDefault(legacySection:get("CONTAINER_SORTING_KEYS"), true)
 		},
 		{
 			key = "CONTAINER_SORTING_LOCKPICKS",
 			name = "Sorting: Lockpicks On Top",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("CONTAINER_SORTING_LOCKPICKS") or true
+			default = boolDefault(legacySection:get("CONTAINER_SORTING_LOCKPICKS"), true)
 		},
 		{
 			key = "CONTAINER_SORTING_SOULGEMS",
 			name = "Sorting: Soulgems On Top",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("CONTAINER_SORTING_SOULGEMS") or true
+			default = boolDefault(legacySection:get("CONTAINER_SORTING_SOULGEMS"), true)
 		},
 		{
 			key = "CONTAINER_SORTING_INGREDIENTS",
@@ -292,7 +297,7 @@ settingsTemplate[tempKey] = {
 			name = "Sorting: Repair Tools On Top",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("CONTAINER_SORTING_REPAIR") or true
+			default = boolDefault(legacySection:get("CONTAINER_SORTING_REPAIR"), true)
 		},
 	},
 }
@@ -311,49 +316,49 @@ settingsTemplate[tempKey] = {
 			name = "Show Pickpocket Column",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("COLUMN_PICKPOCKET") or true
+			default = boolDefault(legacySection:get("COLUMN_PICKPOCKET"), true)
 		},
 		{
 			key = "COLUMN_WEIGHT",
 			name = "Show Weight Column",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("COLUMN_WEIGHT") or true
+			default = boolDefault(legacySection:get("COLUMN_WEIGHT"), true)
 		},
 		{
 			key = "COLUMN_WEIGHT_PICKPOCKETING",
 			name = "Show Weight Column When Pickpocketing",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("COLUMN_WEIGHT_PICKPOCKETING") or true
+			default = boolDefault(legacySection:get("COLUMN_WEIGHT_PICKPOCKETING"), true)
 		},
 		{
 			key = "COLUMN_VALUE",
 			name = "Show Value Column",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("COLUMN_VALUE") or true
+			default = boolDefault(legacySection:get("COLUMN_VALUE"), true)
 		},
 		{
 			key = "COLUMN_VALUE_PICKPOCKETING",
 			name = "Show Value Column When Pickpocketing",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("COLUMN_VALUE_PICKPOCKETING") or true
+			default = boolDefault(legacySection:get("COLUMN_VALUE_PICKPOCKETING"), true)
 		},
 		{
 			key = "COLUMN_WV",
 			name = "Show V/W Column",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("COLUMN_WV") or true
+			default = boolDefault(legacySection:get("COLUMN_WV"), true)
 		},
 		{
 			key = "COLUMN_WV_PICKPOCKETING",
 			name = "Show V/W Column When Pickpocketing",
 			description = "",
 			renderer = "checkbox",
-			default = legacySection:get("COLUMN_WV_PICKPOCKETING") or false
+			default = boolDefault(legacySection:get("COLUMN_WV_PICKPOCKETING"), false)
 		},
 	},
 }
@@ -384,7 +389,7 @@ settingsTemplate[tempKey] = {
 			name = "tooltip show melee info",
 			description = "'show melee info' enabled in engine OpenMW settings",
 			renderer = "checkbox",
-			default = legacySection:get("TOOLTIP_MELEE_INFO") or false
+			default = boolDefault(legacySection:get("TOOLTIP_MELEE_INFO"), false)
 		},
 		{
 			key = "TOOLTIP_TEXT_ALIGNMENT",
@@ -403,7 +408,7 @@ settingsTemplate[tempKey] = {
 			name = "shorter tooltip texts",
 			description = "shortens effect texts",
 			renderer = "checkbox",
-			default = legacySection:get("TOOLTIP_SHORT_TEXT") or false
+			default = boolDefault(legacySection:get("TOOLTIP_SHORT_TEXT"), false)
 		},
 	},
 }
@@ -446,7 +451,7 @@ settingsTemplate[tempKey] = {
 			name = "Experimental looting workaround",
 			description = "If you have some ammo mod that keeps deleting your ammo for some reason",
 			renderer = "checkbox",
-			default = legacySection:get("EXPERIMENTAL_LOOTING") or false
+			default = boolDefault(legacySection:get("EXPERIMENTAL_LOOTING"), false)
 			
 		},
 		{
@@ -454,21 +459,21 @@ settingsTemplate[tempKey] = {
 			name = "can loot during death animation",
 			description = "it's currently not possible to check the values in the settings.cfg",
 			renderer = "checkbox",
-			default = legacySection:get("CAN_LOOT_DURING_DEATH_ANIMATION") or false
+			default = boolDefault(legacySection:get("CAN_LOOT_DURING_DEATH_ANIMATION"), false)
 		},
 		{
 			key = "RUN_SCRIPT_ONCE",
 			name = "Run MWscripts only once",
 			description = "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
 			renderer = "checkbox",
-			default = legacySection:get("RUN_SCRIPT_ONCE") or true
+			default = boolDefault(legacySection:get("RUN_SCRIPT_ONCE"), true)
 		},
 		{
 			key = "R_DEPOSIT",
 			name = "R switches to deposit",
 			description = "switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.",
 			renderer = "checkbox",
-			default = legacySection:get("R_DEPOSIT") or true
+			default = boolDefault(legacySection:get("R_DEPOSIT"), true)
 		},
 		{
 			key = "SELECTIVE_DEPOSIT",
