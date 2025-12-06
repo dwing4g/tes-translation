@@ -15768,77 +15768,47 @@ Maps of Vvardenfell<BR><BR>
 <IMG SRC="OAAB\vvardenfellcitymap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-Travel Routes of Vvardenfell<BR>
-<BR>
 <IMG SRC="OAAB\MW_travelroutes.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
-<BR>
-Travel Routes of Vivec<BR>
 <BR>
 <IMG SRC="OAAB\Vivec_travelmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-The Ascadian Isles<BR>
-<BR>
 <IMG SRC="OAAB\Ascadian_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
-<BR>
-The Bitter Coast<BR>
 <BR>
 <IMG SRC="OAAB\BitterCoast_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-The West Gash<BR>
-<BR>
 <IMG SRC="OAAB\WestGash_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
-<BR>
-The Ashlands<BR>
 <BR>
 <IMG SRC="OAAB\Ashlands_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-Molag Amur<BR>
-<BR>
 <IMG SRC="OAAB\MolagAmur_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
-<BR>
-Southern Azura's Coast<BR>
 <BR>
 <IMG SRC="OAAB\AzurasCoastS_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-Northern Azura's Coast<BR>
-<BR>
 <IMG SRC="OAAB\AzurasCoastN_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
-<BR>
-The Grazelands<BR>
 <BR>
 <IMG SRC="OAAB\Grazelands_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-Sheogorad<BR>
-<BR>
 <IMG SRC="OAAB\Sheogorad_regionmap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
-<BR>
-Vivec<BR>
 <BR>
 <IMG SRC="OAAB\Vivec_citymap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-Balmora<BR>
-<BR>
 <IMG SRC="OAAB\Balmora_citymap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
 <BR>
-Ald'ruhn<BR>
-<BR>
 <IMG SRC="OAAB\Aldruhn_citymap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>
-<BR>
-Sadrith Mora<BR>
 <BR>
 <IMG SRC="OAAB\SadrithMora_citymap.dds" WIDTH="240" HEIGHT="240"><BR>
 <BR>"""
@@ -16835,7 +16805,7 @@ The First Scroll of Baan Dar
 The First Scroll of Baan Dar<BR>
 By Arkan<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-What follows is a translation of the first fragment from a series of vellum scrolls found in 3 Alabaster jars sealed in a cave. The discoverer was a nomad wanderer somewhere on the shores of Lake Vread in the Province of Elswyer. I can neither vouch for nor deny its authenticity or veracity - only that the scrolls, as such, DO exist. Read and judge for yourself:<BR>
+What follows is a translation of the first fragment from a series of vellum scrolls found in 3 Alabaster jars sealed in a cave. The discoverer was a nomad wanderer somewhere on the shores of Lake Vread in the Province of Elsweyr. I can neither vouch for nor deny its authenticity or veracity - only that the scrolls, as such, DO exist. Read and judge for yourself:<BR>
 <BR>
 Baan Dar, The Legend... Thief, Warlock, ShadowMaster, Ruthless Assassin, Undying Avenger, Dark God, Robber Baron, MasterMind of Nefarious Plots. All these things and more are the Legendary Baan Dar, he who is called The Bandit God. But what is the Truth?<BR>
 <BR>
@@ -18888,20 +18858,116 @@ Yamuz
 Kwama Poison
 ###
 
+> INFO.NAME blight disease 4469299792298022445
+Ridding a colony of blight is expensive and dangerous, because of the fierce attacks of sick kwama foragers and warriors, and the risk of spreading disease.
+###
+
+> INFO.NAME blight disease 2861652852597225576
+A diseased kwama mine is a great hardship for the whole mining community. Blighted eggs are inedible, and miners catch blight diseases.
+###
+
+> INFO.NAME blight disease 302562312286861661
+Kwama foragers range far from their homes, deep into the ashlands as far as the Ghostfence. Foragers caught in blight storms become infected, and return and infect their queen and the whole colony.
+###
+
+> INFO.NAME kwama 4136127341628814266
+Kwama colonies, also known as eggmines, are inhabited by the following varieties of kwama: kwama queen, kwama warrior, kwama worker, kwama forager, and scrib.
+###
+
 > INFO.NAME kwama colonies 3260819296184355236
 Kwama colonies, also known as eggmines, are home to the large creatures known as kwama. They are pock-marked with tunnels carved out by the foragers and workers. The former spray rock with acid to soften it, while the latter use their hard beaks to dig through the softened material. Egg miners must often use picks to widen tunnels too narrow to pass through in order to gather the precious kwama eggs.
 ###
 
-> INFO.NAME kwama worker 417843733019126207
-The kwama worker digs the colony's tunnels and chambers and tends the queen and the eggs. Workers are unaggressive, but not completely helpless.
+> INFO.NAME kwama egg 6664261351375023166
+Kwama eggs are one of the most popular sources of protein in Morrowind. They stay fresh for a long time and their soft shells make them relatively easy to transport, which has made them popular throughout the Empire. Mind yourself around the eggs though, outlander. The mature ones will splash you with acid if you get too close. Look for the eggs that throb slightly. If you hear a scream: run.
+###
+
+> INFO.NAME kwama egg 930163781085819814
+Kwama eggs are one of the most popular sources of protein in Morrowind. They stay fresh for a long time and their soft shells make them relatively easy to transport which has spread their popularity throughout the empire. Mind yourself around the eggs though, %PCRace. The mature ones will splash you with acid if you get too close. Look for the eggs that throb slightly. If you hear a scream: run.
+###
+
+> INFO.NAME kwama forager 2360610529211488206
+The kwama forager scouts the surface of the land and natural underground passages, searching for suitable locations for new colonies, and hunting for prey. Foragers are aggressive but not very dangerous. When they return, they are often severely engorged with food for the colony. They will then be suspended in a place where they can provide nourishment to other kwama. I'd recommend avoiding any such foragers you see, lest you stimulate them to regurgitate their food onto yourself.
 ###
 
 > INFO.NAME kwama queen 1757912614789023419
 The kwama queen is the huge, bloated kwama that produces the colony's eggs and their meaty, blood-filled nests. The queens are too large and fat to move, and all their needs are attended by worker kwama.
 ###
 
-> INFO.NAME kwama 4136127341628814266
-Kwama colonies, also known as eggmines, are inhabited by the following varieties of kwama: kwama queen, kwama warrior, kwama worker, kwama forager, and scrib.
+> INFO.NAME kwama warrior 25826199042428018858
+The kwama warrior defends the kwama colony's tunnels and chambers. Warriors are aggressive and dangerous.
+###
+
+> INFO.NAME kwama worker 417843733019126207
+The kwama worker digs the colony's tunnels and chambers and tends the queen and the eggs. Workers are unaggressive, but not completely helpless.
+###
+
+> INFO.NAME my trade 3518129623169417618
+I$92m a clerk. As such, I$92m responsible for keeping accurate records of all activities within my organization. I possess the knowledge to understand a variety of documents, perform basic mathematical calculations, and discuss the laws and regulations governing my organization.
+###
+
+> INFO.NAME my trade 1485711316298468672
+I am a sailor. I'm most at home on a ship on the sea. I know how to tie a good strong knot and which gods to pray to when it storms. I'm a brawler by nature and I've hardened my knuckles fighting in so many different ports I've lost count. If the going gets really tough, I'm no stranger to the cutlass. Most sailors in Morrowind serve in the Imperial Navy or aboard merchant vessels. Some daring rascals turn to piracy.
+###
+
+> INFO.NAME my trade 189783080212146991
+I am a miner. Usually, here on Vvardenfell, being a miner means you're an eggminer. Scrib jerky, scrib jelly, kwama eggs, and kwama cuttle are the basis of our Vvardenfell economy, and they all come from kwama. Yes, there are more valuable resources we take from mines -- raw ebony, raw glass, dreugh wax, daedra skin, daedra heart, diamond, ash salts, and so forth -- and that's good work, too. But it's the eggminers that feed Morrowind, and bring cash from all over the Empire.
+###
+
+> INFO.NAME my trade 15512170004057988
+As a grocer, I stock quality produce, dry goods, and other food items. I manage my own inventory so I can make sure my shelves are full and my customers satisfied.
+###
+
+> INFO.NAME my trade 4944125591468219541
+I$92m the foreman in charge here. I organize the workers to complete the project. I have the supervisory and technical skills required to ensure that the work is done efficiently and that resources are managed wisely. My employer doesn$92t want his investment wasted.
+###
+
+> INFO.NAME my trade 3061012618648818876
+I am a weaver. I make my living by creating intricate fabrics and garments. I use a loom to create cloth from natural fibers such as wool, cotton, or silk. My skill lies in my knowledge of fibers and patterns and my ability to create desirable products with them, as well as in my long years of practice at the loom.
+###
+
+> INFO.NAME my trade 325782910870819213
+As a surgeon, I specialize in diagnosing and treating medical conditions without the aid of magic. I can identify ailments quickly and then perform a variety of surgical procedures as required. I am knowledgeable in the latest treatments and have a good understanding of anatomy.
+###
+
+> INFO.NAME my trade 13465235794373375
+I$92m a butcher. I am responsible for the slaughter and preparation of animals into meat that's fit for the kitchens of my customers. I use my knowledge of animal anatomy to ensure nothing goes to waste.
+###
+
+> INFO.NAME my trade 2149326172171928374
+I am an author, which means I use the written word to evoke emotion and shape opinion - or just tell a great story. Ideally, my patron or my adoring public pay me for those works. I have my preferred genres, but literature comes in many formats and I dabble in the others from time to time.
+###
+
+> INFO.NAME my trade 8182251331099210424
+I am a sculptor. I create works of art out of stone, metal, and other materials. I use my eye for detail to transform a block of material into something remarkable. My knowledge of sculpting techniques and raw materials allows me to bring life to my creations.
+###
+
+> INFO.NAME my trade 10989275701383130942
+I$92m a painter. I use a variety of mediums to capture my creative vision on canvas, be it something as simple as a summer day, or something as short-lived as a noblewoman$92s youth. From landscapes to portraits, I take delight in mixing colors and seeking out the perfect composition.
+###
+
+> INFO.NAME my trade 92616263314896502
+I have no trade. Down on my luck, you see. Spare a coin?
+###
+
+> INFO.NAME pomegranates 1823619065319444473
+The pomegranate is a succulent shrub that produces fruit with a sweet and tart flavored juice that is popularly fermented into wine. Pomegranates primarily grow in the Molag Amur region but have grown scarce due to the spread of the Blight. The few surviving fruit-bearing plants have developed a resistance to blight disease.
+###
+
+> INFO.NAME pomegranates 63822837979725186
+The pomegranate is a succulent shrub that produces fruit with a sweet and tart flavored juice that is popularly fermented into wine. Pomegranates primarily grow in the Molag Amur region but have grown scarce due to the spread of the Blight. The few surviving fruit-bearing plants have developed a resistance to blight disease.
+###
+
+> INFO.NAME pomegranates 1428324046106732385
+The pomegranate is a succulent shrub that produces fruit with a sweet and tart flavored juice that is popularly fermented into wine. Pomegranates primarily grow in the Molag Amur region but have grown scarce due to the spread of the Blight. The few surviving fruit-bearing plants have developed a resistance to blight disease.
+###
+
+> INFO.NAME scrib 161816634391919726
+The scrib is a late larval form of the kwama. Towards the end of their life-cycle, scrib will encase themselves in a cocoon where they transform into either the male forager or female worker. The sharp tips of their legs secrete a mild paralyzing agent which they use to escape predators. Crushed scribs produce a nutritious but sour-tasting gelatin that goes well with wickwheat bread.
+###
+
+> INFO.NAME scrib 12459116222316522014
+The scrib is a late larval form of the kwama. Towards the end of their life-cycle, scrib will encase themselves in a cocoon where they transform into either the male forager or female worker. The sharp tips of their legs secrete a mild paralyzing agent which they use to escape predators. Crushed scribs produce a nutritious but sour-tasting gelatin with modest magical properties that the natives eat with gusto.
 ###
 
 > INFO.NAME spare a coin 702318310711011162
@@ -18926,34 +18992,6 @@ Can you spare a coin?
 
 > INFO.BNAM spare a coin 2533532098255582004 c2
 No.
-###
-
-> INFO.NAME scrib 161816634391919726
-The scrib is a late larval form of the kwama. Towards the end of their life-cycle, scrib will encase themselves in a cocoon where they transform into either the male forager or female worker. The sharp tips of their legs secrete a mild paralyzing agent which they use to escape predators. Crushed scribs produce a nutritious but sour-tasting gelatin that goes well with wickwheat bread.
-###
-
-> INFO.NAME scrib 12459116222316522014
-The scrib is a late larval form of the kwama. Towards the end of their life-cycle, scrib will encase themselves in a cocoon where they transform into either the male forager or female worker. The sharp tips of their legs secrete a mild paralyzing agent which they use to escape predators. Crushed scribs produce a nutritious but sour-tasting gelatin with modest magical properties that the natives eat with gusto.
-###
-
-> INFO.NAME blight disease 4469299792298022445
-Ridding a colony of blight is expensive and dangerous, because of the fierce attacks of sick kwama foragers and warriors, and the risk of spreading disease.
-###
-
-> INFO.NAME blight disease 2861652852597225576
-A diseased kwama mine is a great hardship for the whole mining community. Blighted eggs are inedible, and miners catch blight diseases.
-###
-
-> INFO.NAME blight disease 302562312286861661
-Kwama foragers range far from their homes, deep into the ashlands as far as the Ghostfence. Foragers caught in blight storms become infected, and return and infect their queen and the whole colony.
-###
-
-> INFO.NAME kwama egg 6664261351375023166
-Kwama eggs are one of the most popular sources of protein in Morrowind. They stay fresh for a long time and their soft shells make them relatively easy to transport, which has made them popular throughout the Empire. Mind yourself around the eggs though, outlander. The mature ones will splash you with acid if you get too close. Look for the eggs that throb slightly. If you hear a scream: run.
-###
-
-> INFO.NAME kwama egg 930163781085819814
-Kwama eggs are one of the most popular sources of protein in Morrowind. They stay fresh for a long time and their soft shells make them relatively easy to transport which has spread their popularity throughout the empire. Mind yourself around the eggs though, %PCRace. The mature ones will splash you with acid if you get too close. Look for the eggs that throb slightly. If you hear a scream: run.
 ###
 
 > INFO.NAME hello 21363319462597427878
@@ -19210,73 +19248,5 @@ I'm so hungry...
 
 > INFO.NAME hello 11549287008930329
 One more coin and I can get a pair of shoes.
-###
-
-> INFO.NAME my trade 3518129623169417618
-I$92m a clerk. As such, I$92m responsible for keeping accurate records of all activities within my organization. I possess the knowledge to understand a variety of documents, perform basic mathematical calculations, and discuss the laws and regulations governing my organization.
-###
-
-> INFO.NAME my trade 1485711316298468672
-I am a sailor. I'm most at home on a ship on the sea. I know how to tie a good strong knot and which gods to pray to when it storms. I'm a brawler by nature and I've hardened my knuckles fighting in so many different ports I've lost count. If the going gets really tough, I'm no stranger to the cutlass. Most sailors in Morrowind serve in the Imperial Navy or aboard merchant vessels. Some daring rascals turn to piracy.
-###
-
-> INFO.NAME my trade 189783080212146991
-I am a miner. Usually, here on Vvardenfell, being a miner means you're an eggminer. Scrib jerky, scrib jelly, kwama eggs, and kwama cuttle are the basis of our Vvardenfell economy, and they all come from kwama. Yes, there are more valuable resources we take from mines -- raw ebony, raw glass, dreugh wax, daedra skin, daedra heart, diamond, ash salts, and so forth -- and that's good work, too. But it's the eggminers that feed Morrowind, and bring cash from all over the Empire.
-###
-
-> INFO.NAME my trade 15512170004057988
-As a grocer, I stock quality produce, dry goods, and other food items. I manage my own inventory so I can make sure my shelves are full and my customers satisfied.
-###
-
-> INFO.NAME my trade 4944125591468219541
-I$92m the foreman in charge here. I organize the workers to complete the project. I have the supervisory and technical skills required to ensure that the work is done efficiently and that resources are managed wisely. My employer doesn$92t want his investment wasted.
-###
-
-> INFO.NAME my trade 3061012618648818876
-I am a weaver. I make my living by creating intricate fabrics and garments. I use a loom to create cloth from natural fibers such as wool, cotton, or silk. My skill lies in my knowledge of fibers and patterns and my ability to create desirable products with them, as well as in my long years of practice at the loom.
-###
-
-> INFO.NAME my trade 325782910870819213
-As a surgeon, I specialize in diagnosing and treating medical conditions without the aid of magic. I can identify ailments quickly and then perform a variety of surgical procedures as required. I am knowledgeable in the latest treatments and have a good understanding of anatomy.
-###
-
-> INFO.NAME my trade 13465235794373375
-I$92m a butcher. I am responsible for the slaughter and preparation of animals into meat that's fit for the kitchens of my customers. I use my knowledge of animal anatomy to ensure nothing goes to waste.
-###
-
-> INFO.NAME my trade 2149326172171928374
-I am an author, which means I use the written word to evoke emotion and shape opinion - or just tell a great story. Ideally, my patron or my adoring public pay me for those works. I have my preferred genres, but literature comes in many formats and I dabble in the others from time to time.
-###
-
-> INFO.NAME my trade 8182251331099210424
-I am a sculptor. I create works of art out of stone, metal, and other materials. I use my eye for detail to transform a block of material into something remarkable. My knowledge of sculpting techniques and raw materials allows me to bring life to my creations.
-###
-
-> INFO.NAME my trade 10989275701383130942
-I$92m a painter. I use a variety of mediums to capture my creative vision on canvas, be it something as simple as a summer day, or something as short-lived as a noblewoman$92s youth. From landscapes to portraits, I take delight in mixing colors and seeking out the perfect composition.
-###
-
-> INFO.NAME my trade 92616263314896502
-I have no trade. Down on my luck, you see. Spare a coin?
-###
-
-> INFO.NAME kwama forager 2360610529211488206
-The kwama forager scouts the surface of the land and natural underground passages, searching for suitable locations for new colonies, and hunting for prey. Foragers are aggressive but not very dangerous. When they return, they are often severely engorged with food for the colony. They will then be suspended in a place where they can provide nourishment to other kwama. I'd recommend avoiding any such foragers you see, lest you stimulate them to regurgitate their food onto yourself.
-###
-
-> INFO.NAME pomegranates 1823619065319444473
-The pomegranate is a succulent shrub that produces fruit with a sweet and tart flavored juice that is popularly fermented into wine. Pomegranates primarily grow in the Molag Amur region but have grown scarce due to the spread of the Blight. The few surviving fruit-bearing plants have developed a resistance to blight disease.
-###
-
-> INFO.NAME pomegranates 63822837979725186
-The pomegranate is a succulent shrub that produces fruit with a sweet and tart flavored juice that is popularly fermented into wine. Pomegranates primarily grow in the Molag Amur region but have grown scarce due to the spread of the Blight. The few surviving fruit-bearing plants have developed a resistance to blight disease.
-###
-
-> INFO.NAME pomegranates 1428324046106732385
-The pomegranate is a succulent shrub that produces fruit with a sweet and tart flavored juice that is popularly fermented into wine. Pomegranates primarily grow in the Molag Amur region but have grown scarce due to the spread of the Blight. The few surviving fruit-bearing plants have developed a resistance to blight disease.
-###
-
-> INFO.NAME kwama warrior 25826199042428018858
-The kwama warrior defends the kwama colony's tunnels and chambers. Warriors are aggressive and dangerous.
 ###
 
