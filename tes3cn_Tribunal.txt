@@ -28040,7 +28040,7 @@ End yarnarScript"
  INFO.PNAM "2338313372265959102$00"
  INFO.NNAM "31277232741542631241$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是奥德-维洛提以东的迪德拉废墟。 {迪德拉式}"
+ INFO.NAME "塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，在奥德-维洛提以东的迪德拉废墟。 {迪德拉式}"
 -INFO
  INFO.INAM "31277232741542631241$00"
  INFO.PNAM "1409018371307518477$00"
@@ -29576,7 +29576,7 @@ End yarnarScript"
  INFO.PNAM "23577167122243321851$00"
  INFO.NNAM "24006245331514017420$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉圣祠。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}"
+ INFO.NAME "苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉祭坛。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}"
 -INFO
  INFO.INAM "24006245331514017420$00"
  INFO.PNAM "3186922894921516318$00"
@@ -32213,7 +32213,7 @@ End yarnarScript"
  INFO.PNAM "1531924868963018893$00"
  INFO.NNAM "1735225242322829051$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔玛特的梅鲁涅斯·大衮信徒。"
+ INFO.NAME "空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔马特的梅鲁涅斯·大衮信徒。"
 -INFO
  INFO.INAM "1735225242322829051$00"
  INFO.PNAM "41323180567625906$00"
@@ -33429,7 +33429,7 @@ End yarnarScript"
  INFO.PNAM "12062236722614115036$00"
  INFO.NNAM "259563428213195461$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。"
+ INFO.NAME "索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座祭坛位于瓦登费尔和阿祖拉海岸之间的一座小岛上。"
 -INFO
  INFO.INAM "259563428213195461$00"
  INFO.PNAM "2424420934616717875$00"
@@ -37421,14 +37421,14 @@ End yarnarScript"
  INFO.PNAM "3701319172388510000$00"
  INFO.NNAM "212014581175726572$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "奥德拉尔·赫尔维感谢我传达命令。 {指示}"
+ INFO.NAME "奥德拉尔·赫尔维感谢我传达指示。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "212014581175726572$00"
  INFO.PNAM "30241273552336613484$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特尼西·拉德罗而生气。"
+ INFO.NAME "奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特妮斯·拉德里而生气。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HT_Odirniran$00"
@@ -38971,7 +38971,7 @@ End yarnarScript"
  INFO.PNAM "28671147781823231363$00"
  INFO.NNAM "24678144462691930217$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "神谕者派我前往迪德拉的圣祠阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}"
+ INFO.NAME "神谕者派我前往迪德拉祭坛阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}"
 -INFO
  INFO.INAM "24678144462691930217$00"
  INFO.PNAM "201067417818410201$00"
@@ -40069,13 +40069,13 @@ End yarnarScript"
  INFO.PNAM "245012428262403354$00"
  INFO.NNAM "44223264729964525$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚圣祠。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。"
+ INFO.NAME "我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚祭坛。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。"
 -INFO
  INFO.INAM "12676225553046131092$00"
  INFO.PNAM "822914639974521236$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "我回到了已经完工的波耶西亚圣祠。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}"
+ INFO.NAME "我回到了已经完工的波耶西亚祭坛。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "DA_Malacath$00"
@@ -43086,14 +43086,14 @@ End yarnarScript"
  INFO.PNAM "2027152011292416279$00"
  INFO.NNAM "2266052442035519898$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我回到阿祖拉圣祠，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}"
+ INFO.NAME "我回到阿祖拉祭坛，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2266052442035519898$00"
  INFO.PNAM "564729806158762256$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "我回到了阿祖拉圣祠。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。"
+ INFO.NAME "我回到了阿祖拉祭坛。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "MS_Umbra$00"
@@ -56349,7 +56349,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "22741266951436712057$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Tel Vos$00"
- INFO.NAME "你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的迪德拉圣祠埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹恩楚莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}"
+ INFO.NAME "你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的迪德拉祭坛埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹恩楚莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -59537,7 +59537,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.NNAM "785732822678819521$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ONAM "arantamo$00"
- INFO.NAME "我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}"
+ INFO.NAME "我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们 -- 一种叫做“引路石”的小东西。有个家伙想卖给我一个 -- 想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}"
  INFO.SCVR "04JX4MS_propylon"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Journal MS_propylon 1"
@@ -59548,7 +59548,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF 00 00]
  INFO.ONAM "arantamo$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}"
+ INFO.NAME "我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们 -- 一种叫做“引路石”的小东西。有个家伙想卖给我一个 -- 想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}"
  INFO.SCVR "04JX4MS_propylon"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Journal MS_propylon 1"
@@ -59641,7 +59641,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Ahemmusa Camp$00"
- INFO.NAME "你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳摩斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}"
+ INFO.NAME "你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳姆斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -59689,7 +59689,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Urshilaku Camp$00"
- INFO.NAME "在阿舒纳比塔什遗址，有一座古老的梅鲁涅斯·大衮圣祠。远离那个地方 -- 它被诅咒了。"
+ INFO.NAME "在阿舒纳比塔什的废墟里，有一座古老的梅鲁涅斯·大衮的祭坛。远离那个地方 -- 它被诅咒了。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -59799,7 +59799,7 @@ Journal town_balmora 10"
  INFO.NNAM "130163195829191694$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ennbjof$00"
- INFO.NAME "据说他们把奥姆格德埋在了一座古老的丹莫墓穴底部。听斯卡尔德说，埋葬地点在瓦登费尔东南海岸的一指长长的陆地上，半岛西岸靠近海岸的一个小岛上。估计是在扎因蒂拉里的迪德拉遗迹和泰尔-布勒诺拉之间的某个地方。诸神与你同在，谢谢你的玛诗蒂。 {迪德拉式}"
+ INFO.NAME "他们说他们把奥姆格德埋葬在一个古老的丹莫坟墓的底部。根据吟游诗人的讲述，墓葬在瓦登费尔东南海岸的一个长突起上，在半岛西海岸靠近海岸的一个小岛上。我想这是在迪德拉遗址扎因蒂拉里斯和泰尔-布勒诺拉之间的某个地方。诸神与你同在。谢谢你的玛诗蒂。 {迪德拉式}"
  INFO.SCVR "01500"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "player->removeitem Potion_Local_Brew_01 1
@@ -60173,7 +60173,7 @@ ModDisposition 10"
  INFO.PNAM "1588253092529329077$00"
  INFO.NNAM "452027941264710687$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF 00 FF 00]
- INFO.NAME "迪德拉？你知道它们是什么吧？迪德拉圣祠是迪德拉邪教祭拜迪德拉的地方，恶人会召唤邪恶的迪德拉，离他们远点。为什么？因为迪德拉很恶心，而崇拜他们的人更下流。 {迪德拉式}"
+ INFO.NAME "迪德拉？你知道它们是什么吧？迪德拉祭坛是迪德拉邪教祭拜迪德拉的地方，恶人会召唤邪恶的迪德拉，离他们远点。为什么？因为迪德拉很恶心，而崇拜他们的人更下流。 {迪德拉式,圣祠}"
  INFO.SCVR "0BLX0Balmora"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1BLX0Vivec"
@@ -60191,7 +60191,7 @@ ModDisposition 10"
  INFO.PNAM "16531102192603444$00"
  INFO.NNAM "1906331586162422013$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF 01 FF 00]
- INFO.NAME "怎么辨别迪德拉圣祠？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}"
+ INFO.NAME "怎么辨别迪德拉祭坛？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}"
  INFO.SCVR "0BLX0Balmora"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1BLX0Vivec"
@@ -74954,7 +74954,7 @@ ModFight 10"
  INFO.NNAM "23682213221278725710$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lucan ostorius2$00"
- INFO.NAME "你想偷我的武器，N'wah（外地人）？没人能骗卢坎，死吧！"
+ INFO.NAME "你想偷我的武器，外地人？没人能骗卢坎，死吧！"
  INFO.SCVR "04JX4MV_ThiefTrader"
  INFO.INTV [5A 00 00 00]
  INFO.BNAM "Journal MV_ThiefTrader 90
@@ -75082,7 +75082,7 @@ Goodbye"
  INFO.NNAM "22375223931675031754$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "giras indaram$00"
- INFO.NAME "你杀了我的兄弟，n'wah（外地人）。"
+ INFO.NAME "你杀了我的兄弟，外地人。"
  INFO.SCVR "06DX2tidros indaram"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "SetFight 100
@@ -75094,7 +75094,7 @@ Goodbye"
  INFO.NNAM "195334816294223613$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "giras indaram$00"
- INFO.NAME "你杀了我的兄弟，n'wah（外地人）。"
+ INFO.NAME "你杀了我的兄弟，外地人。"
  INFO.SCVR "06DX2birer indaram"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "SetFight 100
@@ -75147,7 +75147,7 @@ Goodbye"
  INFO.NNAM "3043225056297124928$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "birer indaram$00"
- INFO.NAME "你杀了我的兄弟，n'wah（外地人）。"
+ INFO.NAME "你杀了我的兄弟，外地人。"
  INFO.SCVR "06DX2giras indaram"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "SetFight 100
@@ -75159,7 +75159,7 @@ Goodbye"
  INFO.NNAM "22062238891067428847$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "birer indaram$00"
- INFO.NAME "你杀了我的兄弟，n'wah（外地人）。"
+ INFO.NAME "你杀了我的兄弟，外地人。"
  INFO.SCVR "06DX2tidros indaram"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "SetFight 100
@@ -75171,7 +75171,7 @@ Goodbye"
  INFO.NNAM "34822388670161640$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tidros indaram$00"
- INFO.NAME "你杀了我的兄弟，n'wah（外地人）。"
+ INFO.NAME "你杀了我的兄弟，外地人。"
  INFO.SCVR "06DX2giras indaram"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "SetFight 100
@@ -75183,7 +75183,7 @@ Goodbye"
  INFO.NNAM "16939641270732618$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tidros indaram$00"
- INFO.NAME "你杀了我的兄弟，n'wah（外地人）。"
+ INFO.NAME "你杀了我的兄弟，外地人。"
  INFO.SCVR "06DX2birer indaram"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "SetFight 100
@@ -75792,7 +75792,7 @@ AddTopic ""龙""
 AddTopic ""马匹""
 AddTopic ""坐骑""
 AddTopic ""多人游戏""
-AddTopic ""波耶西亚圣祠""
+AddTopic ""波耶西亚祭坛""
 AddTopic ""会动的尸体""
 AddTopic ""矮人之谜""
 AddTopic ""鲨鱼人""
@@ -78944,7 +78944,7 @@ Journal ""A1_SleepersAwake"" 1"
  INFO.NNAM "9240284842583731439$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dralas Gilu$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -78960,7 +78960,7 @@ ModDisposition -20"
  INFO.NNAM "12050108581041716221$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Drarayne Girith$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -78976,7 +78976,7 @@ ModDisposition -20"
  INFO.NNAM "2213820978326944761$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Rararyn Radarys$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -78992,7 +78992,7 @@ ModDisposition -20"
  INFO.NNAM "19729118182244914507$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llandras Belaal$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth fovon"
@@ -79008,7 +79008,7 @@ ModDisposition -20"
  INFO.NNAM "1009652312824523400$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Dravasa Andrethi$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0hanarai assutlanipal"
@@ -79024,7 +79024,7 @@ ModDisposition -20"
  INFO.NNAM "2985628411297043774$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Eralane Hledas$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -79040,7 +79040,7 @@ ModDisposition -20"
  INFO.NNAM "25079166171226232605$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Vivyne Andrano$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -79056,7 +79056,7 @@ ModDisposition -20"
  INFO.NNAM "9780474725122440$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Nelmil Hler$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -79072,7 +79072,7 @@ ModDisposition -20"
  INFO.NNAM "1225229167227159949$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Relur Faryon$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -79088,7 +79088,7 @@ ModDisposition -20"
  INFO.NNAM "2120529614275622146$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Alvura Othrenim$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -79104,7 +79104,7 @@ ModDisposition -20"
  INFO.NNAM "2899424566354131250$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Neldris Llervu$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -79120,7 +79120,7 @@ ModDisposition -20"
  INFO.NNAM "234573068125761255$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Daynasa Telandas$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0dagoth_hlevul"
@@ -79136,7 +79136,7 @@ ModDisposition -20"
  INFO.NNAM "25634324702059012904$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Endris Dilmyn$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0Dagoth Draven"
@@ -79152,7 +79152,7 @@ ModDisposition -20"
  INFO.NNAM "24918361598521734$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Vireveri Darethran$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0Dagoth Draven"
@@ -79168,7 +79168,7 @@ ModDisposition -20"
  INFO.NNAM "1928413707324032726$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Assi Serimilk$00"
- INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。"
+ INFO.NAME "灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX0Dagoth Draven"

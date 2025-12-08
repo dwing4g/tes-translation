@@ -7162,7 +7162,7 @@ House Redoran: Kill Gordol
 
 > INFO.NAME hr_cultelimination 1409018371307518477
 Theldyn Virith asked me to kill Gordol in Ashalmawia, the Daedric ruin just east of Ald Velothi.
-塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是奥德-维洛提以东的迪德拉废墟。 {迪德拉式}
+塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，在奥德-维洛提以东的迪德拉废墟。 {迪德拉式}
 
 > INFO.NAME hr_cultelimination 31277232741542631241
 Theldyn Virith thanked me for killing Gordol.
@@ -7938,7 +7938,7 @@ Imperial Legion: Honthjolf is a Traitor
 
 > INFO.NAME il_traitorwarrior 3186922894921516318
 Frald the White told me that Honthjolf, a former Knight Errant of the Order of Ebonheart, has made a pact with the Daedra worshippers of Aharnabi, which is on the far southeastern shores of Azura's coast, near the Shrine of Azura. Honthjolf is a traitor to the Order and must be killed.
-苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉圣祠。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}
+苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉祭坛。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}
 
 > INFO.NAME il_traitorwarrior 24006245331514017420
 Frald the White thanked me for killing Honthjolf, the traitor to our Order.
@@ -9186,7 +9186,7 @@ Imperial Legion: Kill Tonasi Belas
 
 > INFO.NAME il_traitorcoven 41323180567625906
 Imsin the Dreamer asked me to find and kill Tonasi Belas, who was once a member of our Order. She is now a worshipper of Mehrunes Dagon in Assarnatamat east of Caldera.
-空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔玛特的梅鲁涅斯·大衮信徒。
+空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔马特的梅鲁涅斯·大衮信徒。
 
 > INFO.NAME il_traitorcoven 1735225242322829051
 Imsin the Dreamer thanked me for killing the traitor Tonasi Belas.
@@ -9798,7 +9798,7 @@ Temple: Sheogorath of the House of Troubles
 
 > INFO.NAME tt_alddaedroth 2424420934616717875
 Tholer Saryoni told me that the Fourth Corner of the House of Troubles is Sheogorath. I must renew a pact with Sheogorath by finding a glove called the "Gambolpuddy" and donating it to Sheogorath's statue in Ald Daedroth. This shrine is on an island between Vvardenfell and Azura's Coast.
-索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
+索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座祭坛位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
 
 > INFO.NAME tt_alddaedroth 259563428213195461
 I made the Pilgrimage to Ald Daedroth and read a passage from the Four Corners of the House of Troubles. The pact with Sheogorath has been renewed.
@@ -11922,7 +11922,7 @@ Odral Helvi thanked me for delivering the orders.
 
 > INFO.NAME hh_bankfraud 212014581175726572
 Odral Helvi was angry with me for not delivering the orders to Tenisi Lladri as he asked.
-奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特尼西·拉德罗而生气。
+奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特妮斯·拉德里而生气。
 
 > INFO.NAME ht_odirniran 2168170932394623431
 House Telvanni: Odirniran
@@ -12730,7 +12730,7 @@ Imperial Cult: The Scroll of Fiercely Roasting
 
 > INFO.NAME ic28_urjorad 201067417818410201
 The Oracle has sent me to the Daedric shrine of Ashalmimilkala to recover a powerful artifact called the Scroll of Fiercely Roasting and to return it to her. If I choose a greater challenge and risk, I may try to use the scroll instead to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
-神谕者派我前往迪德拉的圣祠阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
+神谕者派我前往迪德拉祭坛阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
 
 > INFO.NAME ic28_urjorad 24678144462691930217
 The Oracle thanked me for giving her the Scroll of Fiercely Roasting. She left the matter of trying to slay Carecalmo and Meryaran to my judgement, since, as opponents, she thinks they may be too great for me. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -13394,11 +13394,11 @@ Boethiah's Quest
 
 > INFO.NAME da_boethiah 23364227112127510702
 I spoke to the khajiit M'aiq, and he gave me information on a sunken shrine to Boethiah off the coast near Hla Oad. It's difficult to know whether or not this is true. This khajiit seems to have a lot of ridiculous information.
-我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚圣祠。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。
+我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚祭坛。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。
 
 > INFO.NAME da_boethiah 12676225553046131092
 I have returned to the completed Shrine to Boethiah. The Daedra seemed pleased with the work that has been done, and has rewarded me with Goldbrand, a truly spectacular weapon.
-我回到了已经完工的波耶西亚圣祠。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
+我回到了已经完工的波耶西亚祭坛。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
 
 > INFO.NAME da_malacath 2029227732236431088
 Malacath's Quest
@@ -15130,11 +15130,11 @@ I have spoken with Azura, Queen of the Night Sky, at her shrine. She has tasked 
 
 > INFO.NAME da_azura 564729806158762256
 I returned to the Shrine of Azura to let it be known I have cleared the island of the daedra there and returned with proof that Sheogorath was behind the problems. Azura was grateful, and rewarded me with her Star, a magical soul gem of immense power.
-我回到阿祖拉圣祠，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}
+我回到阿祖拉祭坛，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}
 
 > INFO.NAME da_azura 2266052442035519898
 I returned to the Shrine of Azura. She was not pleased that I had disturbed the solace of Rayna Drolan, for she now must forfeit the wager.
-我回到了阿祖拉圣祠。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。
+我回到了阿祖拉祭坛。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。
 
 > INFO.NAME ms_umbra 10902106032522513677
 Umbra
@@ -24064,7 +24064,7 @@ Hello there, %PCRace. Looking for a good time?
 
 > INFO.NAME greeting 1 127743205155719728
 You'd try to steal my weapons, n'wah? Nobody cheats Lucan! Die!
-你想偷我的武器，N'wah（外地人）？没人能骗卢坎，死吧！
+你想偷我的武器，外地人？没人能骗卢坎，死吧！
 
 > INFO.NAME greeting 1 23682213221278725710
 Ahhhh...you've removed this enchantment with your spell to cure disease!
@@ -24108,11 +24108,11 @@ You want a duel? You got a duel.
 
 > INFO.NAME greeting 1 29932107482621229535
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 22375223931675031754
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 195334816294223613
 Come to collect more debts for cowardly smiths, %PCName?
@@ -24132,19 +24132,19 @@ I'm not paying those armor repair debts.
 
 > INFO.NAME greeting 1 1195581501496527750
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 3043225056297124928
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 22062238891067428847
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 34822388670161640
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 16939641270732618
 Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's none of my business.
@@ -25420,63 +25420,63 @@ I am a Sleeper, one among thousands. I bring you a message. Dagoth Ur calls you,
 
 > INFO.NAME greeting 1 23362116982283716453
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 9240284842583731439
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 12050108581041716221
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2213820978326944761
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 19729118182244914507
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1009652312824523400
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2985628411297043774
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 25079166171226232605
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 9780474725122440
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1225229167227159949
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2120529614275622146
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2899424566354131250
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 234573068125761255
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 25634324702059012904
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 24918361598521734
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1928413707324032726
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.

@@ -8377,7 +8377,7 @@ House Redoran: Kill Gordol
 
 > INFO.NAME hr_cultelimination 1409018371307518477
 Theldyn Virith asked me to kill Gordol in Ashalmawia, the Daedric ruin just east of Ald Velothi.
-塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是奥德-维洛提以东的迪德拉废墟。 {迪德拉式}
+塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，在奥德-维洛提以东的迪德拉废墟。 {迪德拉式}
 
 > INFO.NAME hr_cultelimination 31277232741542631241
 Theldyn Virith thanked me for killing Gordol.
@@ -9185,7 +9185,7 @@ Imperial Legion: Honthjolf is a Traitor
 
 > INFO.NAME il_traitorwarrior 3186922894921516318
 Frald the White told me that Honthjolf, a former Knight Errant of the Order of Ebonheart, has made a pact with the Daedra worshippers of Aharnabi, which is on the far southeastern shores of Azura's coast, near the Shrine of Azura. Honthjolf is a traitor to the Order and must be killed.
-苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉圣祠。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}
+苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉祭坛。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}
 
 > INFO.NAME il_traitorwarrior 24006245331514017420
 Frald the White thanked me for killing Honthjolf, the traitor to our Order.
@@ -10597,7 +10597,7 @@ Imperial Legion: Kill Tonasi Belas
 
 > INFO.NAME il_traitorcoven 41323180567625906
 Imsin the Dreamer asked me to find and kill Tonasi Belas, who was once a member of our Order. She is now a worshipper of Mehrunes Dagon in Assarnatamat east of Caldera.
-空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔玛特的梅鲁涅斯·大衮信徒。
+空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔马特的梅鲁涅斯·大衮信徒。
 
 > INFO.NAME il_traitorcoven 1735225242322829051
 Imsin the Dreamer thanked me for killing the traitor Tonasi Belas.
@@ -11241,7 +11241,7 @@ Temple: Sheogorath of the House of Troubles
 
 > INFO.NAME tt_alddaedroth 2424420934616717875
 Tholer Saryoni told me that the Fourth Corner of the House of Troubles is Sheogorath. I must renew a pact with Sheogorath by finding a glove called the "Gambolpuddy" and donating it to Sheogorath's statue in Ald Daedroth. This shrine is on an island between Vvardenfell and Azura's Coast.
-索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
+索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座祭坛位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
 
 > INFO.NAME tt_alddaedroth 259563428213195461
 I made the Pilgrimage to Ald Daedroth and read a passage from the Four Corners of the House of Troubles. The pact with Sheogorath has been renewed.
@@ -13373,11 +13373,11 @@ Crassius Curio asked me to speak with Odral Helvi in Caldera.
 
 > INFO.NAME hh_bankfraud 30241273552336613484
 Odral Helvi thanked me for delivering the orders.
-奥德拉尔·赫尔维感谢我传达命令。 {指示}
+奥德拉尔·赫尔维感谢我传达指示。
 
 > INFO.NAME hh_bankfraud 212014581175726572
 Odral Helvi was angry with me for not delivering the orders to Tenisi Lladri as he asked.
-奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特尼西·拉德罗而生气。
+奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特妮斯·拉德里而生气。
 
 > INFO.NAME ht_odirniran 2168170932394623431
 House Telvanni: Odirniran
@@ -14185,7 +14185,7 @@ Imperial Cult: The Scroll of Fiercely Roasting
 
 > INFO.NAME ic28_urjorad 201067417818410201
 The Oracle has sent me to the Daedric shrine of Ashalmimilkala to recover a powerful artifact called the Scroll of Fiercely Roasting and to return it to her. If I choose a greater challenge and risk, I may try to use the scroll instead to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
-神谕者派我前往迪德拉的圣祠阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
+神谕者派我前往迪德拉祭坛阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
 
 > INFO.NAME ic28_urjorad 24678144462691930217
 The Oracle thanked me for giving her the Scroll of Fiercely Roasting. She left the matter of trying to slay Carecalmo and Meryaran to my judgement, since, as opponents, she thinks they may be too great for me. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -14797,11 +14797,11 @@ Boethiah's Quest
 
 > INFO.NAME da_boethiah 23364227112127510702
 I spoke to the khajiit M'aiq, and he gave me information on a sunken shrine to Boethiah off the coast near Hla Oad. It's difficult to know whether or not this is true. This khajiit seems to have a lot of ridiculous information.
-我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚圣祠。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。
+我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚祭坛。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。
 
 > INFO.NAME da_boethiah 12676225553046131092
 I have returned to the completed Shrine to Boethiah. The Daedra seemed pleased with the work that has been done, and has rewarded me with Goldbrand, a truly spectacular weapon.
-我回到了已经完工的波耶西亚圣祠。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
+我回到了已经完工的波耶西亚祭坛。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
 
 > INFO.NAME da_malacath 2029227732236431088
 Malacath's Quest
@@ -16441,11 +16441,11 @@ I have spoken with Azura, Queen of the Night Sky, at her shrine. She has tasked 
 
 > INFO.NAME da_azura 564729806158762256
 I returned to the Shrine of Azura to let it be known I have cleared the island of the daedra there and returned with proof that Sheogorath was behind the problems. Azura was grateful, and rewarded me with her Star, a magical soul gem of immense power.
-我回到阿祖拉圣祠，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}
+我回到阿祖拉祭坛，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}
 
 > INFO.NAME da_azura 2266052442035519898
 I returned to the Shrine of Azura. She was not pleased that I had disturbed the solace of Rayna Drolan, for she now must forfeit the wager.
-我回到了阿祖拉圣祠。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。
+我回到了阿祖拉祭坛。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。
 
 > INFO.NAME ms_umbra 10902106032522513677
 Umbra
@@ -22703,7 +22703,7 @@ Thinking of setting yourself up as a mercenary or questing hero? Not much call f
 
 > INFO.NAME little advice 39552635230657179
 You're a freelance adventurer, yes? If you're looking for challenge, try Esutanamus, a Daedric shrine on an offshore island to the southeast, or Nchuleft, a Dwemer ruin to the southeast where the plains and the slopes of Red Mountain meet. They're large ruins -- easy to find.
-你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的迪德拉圣祠埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹恩楚莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}
+你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的迪德拉祭坛埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹恩楚莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}
 
 > INFO.NAME little advice 22741266951436712057
 You're a freelance adventurer, yes? There're many tombs, ruins, and lairs in the Grazelands to the south and west. Just keep your eyes open. They're often marked by a clump of rocks or trees at the entrance.
@@ -23659,11 +23659,11 @@ This is a dangerous place, so none of the House people will come here. So we hav
 
 > INFO.NAME little secret 673821472106711099
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
+我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们 -- 一种叫做“引路石”的小东西。有个家伙想卖给我一个 -- 想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 785732822678819521
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
+我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们 -- 一种叫做“引路石”的小东西。有个家伙想卖给我一个 -- 想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 826321646924279
 Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.
@@ -23695,7 +23695,7 @@ South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is th
 
 > INFO.NAME little secret 18494172951218821168
 Are you interested in seeing the old places of the Daedra worshippers? Look upon Esutanamus. It sits upon an island east of the mainland beaches, southeast of the Telvanni town of Tel Mora. Sometimes a champion will enter there in search of ancient weapons and treasures.
-你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳摩斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}
+你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳姆斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}
 
 > INFO.NAME little secret 72601897126734412
 The old stones at Zergonipal... beneath those stones are dark chambers and a great statue. None of our people have been there in many years.
@@ -23711,7 +23711,7 @@ Vampires have returned to Vvardenfell. In the ruins of the Deep Elves at Druscas
 
 > INFO.NAME little secret 253678996155285776
 At the ruins of Assurnabitashpi, they have an old shrine to Mehrunes Dagon. Stay far from that place -- it is cursed.
-在阿舒纳比塔什遗址，有一座古老的梅鲁涅斯·大衮圣祠。远离那个地方 -- 它被诅咒了。
+在阿舒纳比塔什的废墟里，有一座古老的梅鲁涅斯·大衮的祭坛。远离那个地方 -- 它被诅咒了。
 
 > INFO.NAME little secret 48555751121988520
 The ancient Dunmer stronghold at Valenvaryon... we have seen orcs there. Orcs worship Malacath. It is a bad place.
@@ -23755,7 +23755,7 @@ Gods be with you, %PCName. And thanks for the mazte.
 
 > INFO.NAME little secret 124974922249611126
 They say they buried Olmgerd in the bottom of an ancient Dunmer tomb. From the skald's telling, the burial was on a long finger of land on the southeast coast of Vvardenfell, on a little island close to shore on the west coast of the peninsula. Figure it's somewhere on the stretch between the Daedric ruins at Zaintiraris and Tel Branora. Gods be with you. And thanks for the mazte.
-据说他们把奥姆格德埋在了一座古老的丹莫墓穴底部。听斯卡尔德说，埋葬地点在瓦登费尔东南海岸的一指长长的陆地上，半岛西岸靠近海岸的一个小岛上。估计是在扎因蒂拉里的迪德拉遗迹和泰尔-布勒诺拉之间的某个地方。诸神与你同在，谢谢你的玛诗蒂。 {迪德拉式}
+他们说他们把奥姆格德埋葬在一个古老的丹莫坟墓的底部。根据吟游诗人的讲述，墓葬在瓦登费尔东南海岸的一个长突起上，在半岛西海岸靠近海岸的一个小岛上。我想这是在迪德拉遗址扎因蒂拉里斯和泰尔-布勒诺拉之间的某个地方。诸神与你同在。谢谢你的玛诗蒂。 {迪德拉式}
 
 > INFO.NAME little secret 130163195829191694
 And of course they buried Stormkiss with him. Stormkiss was Olmgerd's enchanted battle-axe. And you see this old key? See what it says on it? 'Stormkiss.' Here. Take it. Healer says the mazte is killing me. I'm going home to Skyrim to die. You, you got your life ahead of you. Go ahead. Take it.
@@ -23923,11 +23923,11 @@ What are the most dangerous places in Morrowind? Well, probably the ash vampire 
 
 > INFO.NAME little secret 16531102192603444
 Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cults worship Daedra. Bad people who summon bad Daedra. Stay away from them. Why? Because Daedra are nasty. And the folks that worship them are even nastier.
-迪德拉？你知道它们是什么吧？迪德拉圣祠是迪德拉邪教祭拜迪德拉的地方，恶人会召唤邪恶的迪德拉，离他们远点。为什么？因为迪德拉很恶心，而崇拜他们的人更下流。 {迪德拉式}
+迪德拉？你知道它们是什么吧？迪德拉祭坛是迪德拉邪教祭拜迪德拉的地方，恶人会召唤邪恶的迪德拉，离他们远点。为什么？因为迪德拉很恶心，而崇拜他们的人更下流。 {迪德拉式,圣祠}
 
 > INFO.NAME little secret 452027941264710687
 How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.
-怎么辨别迪德拉圣祠？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}
+怎么辨别迪德拉祭坛？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}
 
 > INFO.NAME little secret 1906331586162422013
 You know, people say the Zainab -- and Ashlanders in general -- are lying and untrustworthy. But I think it is partly a problem of pride. If the truth will shame them, they don't want to say it. Among the Ashlanders, no one would be rude enough to force an Ashlander to admit something shameful. But we civilized people, in may ways we are less careful of another's feelings than the Ashlander savages. In particular, the men are very proud. I don't know about the women. We rarely see them here.
@@ -29935,7 +29935,7 @@ Hello there, %PCRace. Looking for a good time?
 
 > INFO.NAME greeting 1 127743205155719728
 You'd try to steal my weapons, n'wah? Nobody cheats Lucan! Die!
-你想偷我的武器，N'wah（外地人）？没人能骗卢坎，死吧！
+你想偷我的武器，外地人？没人能骗卢坎，死吧！
 
 > INFO.NAME greeting 1 23682213221278725710
 Ahhhh...you've removed this enchantment with your spell to cure disease!
@@ -29979,11 +29979,11 @@ You want a duel? You got a duel.
 
 > INFO.NAME greeting 1 29932107482621229535
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 22375223931675031754
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 195334816294223613
 Come to collect more debts for cowardly smiths, %PCName?
@@ -30003,19 +30003,19 @@ I'm not paying those armor repair debts.
 
 > INFO.NAME greeting 1 1195581501496527750
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 3043225056297124928
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 22062238891067428847
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 34822388670161640
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 16939641270732618
 Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's none of my business.
@@ -31291,63 +31291,63 @@ I am a Sleeper, one among thousands. I bring you a message. Dagoth Ur calls you,
 
 > INFO.NAME greeting 1 23362116982283716453
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 9240284842583731439
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 12050108581041716221
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2213820978326944761
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 19729118182244914507
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1009652312824523400
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2985628411297043774
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 25079166171226232605
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 9780474725122440
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1225229167227159949
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2120529614275622146
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2899424566354131250
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 234573068125761255
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 25634324702059012904
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 24918361598521734
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1928413707324032726
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.

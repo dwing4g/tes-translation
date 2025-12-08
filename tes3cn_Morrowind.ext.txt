@@ -42421,7 +42421,7 @@ Ralen Tilvur
 
 > NPC_.FNAM tenisi lladri
 Tenisi Lladri
-特尼西·拉德罗
+特妮斯·拉德里
 
 > NPC_.FNAM nevena ules
 Nevena Ules
@@ -49426,7 +49426,7 @@ Odral Helvi<BR>
 <BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-最亲爱的特尼西，<BR>
+最亲爱的特妮斯，<BR>
 <BR>
 在很多方面，你的帮助对我们双方都有利。我还有一件事要拜托：找到阿斯卡迪安群岛的土地契约，将罗沃恩·阿维尔所拥有的文件替换为你自己巧妙设计过的文件。<BR>
 <BR>
@@ -52766,7 +52766,7 @@ A minor tax revolt in Balmora was suppressed without undue harm to life and prop
 <BR>
 英灵·半巨魔，以奥姆希维之恩典，哈拉鲁议会荣誉议员，瓦登费尔地区自由贸易商，居住于晨风省，瓦登费尔地区，维威克城，圣·奥姆斯区，英灵庄园<BR>
 <BR>
-内维娜·乌莱斯夫人，以奥姆希维之恩典，哈拉鲁议会荣誉议员，瓦登菲尔地区自由贸易商，晨风省，瓦登费尔地区，阿斯卡迪安群岛，苏兰镇，乌莱斯庄园所有者<BR>
+内维娜·乌莱斯夫人，以奥姆希维之恩典，哈拉鲁议会荣誉议员，瓦登菲尔地区自由贸易商，晨风省，瓦登费尔地区，巴尔-乌尔，阿斯卡迪安群岛，苏兰镇，乌莱斯庄园所有者<BR>
 <DIV ALIGN="CENTER"><BR>
 重要的议会事务<BR>
 <DIV ALIGN="LEFT"><BR>
@@ -67205,7 +67205,7 @@ Chest
 
 > ACTI.FNAM Ex_DAE_Boethiah_fixed
 Shrine to Boethiah
-波耶西亚圣祠
+波耶西亚祭坛
 
 > BOOK.FNAM bk_NerevarineNotice
 Public notice
@@ -67485,7 +67485,7 @@ Menta Na's Key
 
 > ACTI.FNAM active_DAE_B_Bo_Head
 Ruined Shrine to Boethiah
-毁坏的波耶西亚圣祠
+毁坏的波耶西亚祭坛
 
 > INGR.FNAM ingred_treated_bittergreen_uniq
 Treated Bittergreen Petals
@@ -76049,7 +76049,7 @@ I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anym
 
 > INFO.NAME hr_cultelimination 1409018371307518477
 Theldyn Virith asked me to kill Gordol in Ashalmawia, the Daedric ruin just east of Ald Velothi.
-塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是奥德-维洛提以东的迪德拉废墟。 {迪德拉式}
+塞尔丁·维瑞斯让我在阿沙尔马维亚杀死戈多尔，在奥德-维洛提以东的迪德拉废墟。 {迪德拉式}
 
 > INFO.NAME hr_cultelimination 31277232741542631241
 Theldyn Virith thanked me for killing Gordol.
@@ -76081,7 +76081,7 @@ Caius promoted me to Apprentice rank in the Blades, and gave me the Emperor's se
 
 > INFO.NAME a2_1_meetsulmatuul 8951296252418318767
 Nuleno Tedas gave me directions to Urshilaku camp. The camp is due north from Maar Gan, but high ridges lie in the way. Follow Foyada Bani-Dad, a deep ravine just north of Maar Gan, northwest to the sea. A shipwreck at the seamouth of the ravine is a landmark. Swim east around the headland. Pass east through the ruins of Assurnabitashpi Shrine. Urshilaku Camp lies east of the ruins, inland in a low hollow.
-努莱诺·泰达斯给我指了去乌尔希拉库营地的路。营地在玛尔-甘的正北方，但高高的山脊挡住了去路。沿着巴尼-达德熔渠，玛尔-甘北面的一条深谷，向西北方的海边走去。峡谷海口的沉船是一个地标。绕过岬角向东游。向东穿过阿舒纳比塔什圣祠遗址。乌尔希拉库营地位于迪德拉遗迹以东的内陆低凹处。
+努莱诺·泰达斯给我指了去乌尔希拉库营地的路。营地在玛尔-甘的正北方，但高高的山脊挡住了去路。沿着巴尼-达德熔渠，玛尔-甘北面的一条深谷，向西北方的海边走去。峡谷海口的沉船是一个地标。绕过岬角向东游。向东穿过阿舒纳比塔什祭坛遗址。乌尔希拉库营地位于迪德拉遗迹以东的内陆低凹处。
 
 > INFO.NAME a2_1_meetsulmatuul 890623466759531948
 I have slain an Urshilaku Ashlander. This will make my mission to speak with Sul-Matuul and Nibani Maesa more difficult.
@@ -77137,7 +77137,7 @@ Din met his end on the road to Gnisis. Although he seemed mad, I fear it was a d
 
 > INFO.NAME il_traitorwarrior 3186922894921516318
 Frald the White told me that Honthjolf, a former Knight Errant of the Order of Ebonheart, has made a pact with the Daedra worshippers of Aharnabi, which is on the far southeastern shores of Azura's coast, near the Shrine of Azura. Honthjolf is a traitor to the Order and must be killed.
-苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉圣祠。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}
+苍白者弗拉德告诉我，黑檀心骑士团的前骑士赫斯乔夫与阿哈纳比的迪德拉信徒们达成了协议，阿哈纳比就在阿祖拉海岸的东南方，靠近阿祖拉祭坛。赫斯乔夫是骑士团的叛徒，必须杀死他。 {迪德拉崇拜}
 
 > INFO.NAME il_traitorwarrior 24006245331514017420
 Frald the White thanked me for killing Honthjolf, the traitor to our Order.
@@ -78365,11 +78365,11 @@ Sinnammu Mirpal has told me that first I must go to Ald Daedroth and make it saf
 
 > INFO.NAME b2_ahemmusasafe 25377313742696812970
 The wise woman of the Ahemmusa Ashlanders, Sinnammu Mirpal, has said that she will name me Ahemmusa Nerevarine, but first I must go to the Daedric shrine at Ald Daedroth and make it safe for the Ahemmusa. When I have made Ald Daedroth safe, I must then return to Sinnammu Mirpal, and then she will accompany me to Ald Daedroth. Then, when she has seen whether Ald Daedroth is safe or not, she will name me Ahemmusa Nerevarine.
-阿希穆萨灰烬之民的女智者辛纳穆·米帕尔说，她会让我成为阿希穆萨的尼瑞瓦因，但我必须先去位于奥德-迪德洛斯的迪德拉圣祠，保证那个地方安全。当我让奥德-迪德洛斯安全之后，我必须回到辛纳穆·米帕身边，然后她会陪我一起去奥德-迪德洛斯。然后，当她看到奥德-迪德洛斯是否安全时，她会让我成为阿希穆萨的尼瑞瓦因。 {迪德拉式}
+阿希穆萨灰烬之民的女智者辛纳穆·米帕尔说，她会让我成为阿希穆萨的尼瑞瓦因，但我必须先去位于奥德-迪德洛斯的迪德拉祭坛，保证那个地方安全。当我让奥德-迪德洛斯安全之后，我必须回到辛纳穆·米帕身边，然后她会陪我一起去奥德-迪德洛斯。然后，当她看到奥德-迪德洛斯是否安全时，她会让我成为阿希穆萨的尼瑞瓦因。 {迪德拉式}
 
 > INFO.NAME b2_ahemmusasafe 12223216112537115274
 The wise woman of the Ahemmusa Ashlanders, Sinnammu Mirpal, has said that she will name me Ahemmusa Nerevarine, but first I must go to the Daedric shrine at Ald Daedroth and make it safe for the Ahemmusa. When I have made Ald Daedroth safe, I must then return to Sinnammu Mirpal, and then she will accompany me to Ald Daedroth. Then, when she has seen whether Ald Daedroth is safe or not, she will name me Ahemmusa Nerevarine.
-阿希穆萨灰烬之民的女智者辛纳穆·米帕尔说，她会让我成为阿希穆萨的尼瑞瓦因，但我必须先去位于奥德-迪德洛斯的迪德拉圣祠，保证那个地方安全。当我让奥德-迪德洛斯安全之后，我必须回到辛纳穆·米帕身边，然后她会陪我一起去奥德-迪德洛斯。然后，当她看到奥德-迪德洛斯是否安全时，她会让我成为阿希穆萨的尼瑞瓦因。 {迪德拉式}
+阿希穆萨灰烬之民的女智者辛纳穆·米帕尔说，她会让我成为阿希穆萨的尼瑞瓦因，但我必须先去位于奥德-迪德洛斯的迪德拉祭坛，保证那个地方安全。当我让奥德-迪德洛斯安全之后，我必须回到辛纳穆·米帕身边，然后她会陪我一起去奥德-迪德洛斯。然后，当她看到奥德-迪德洛斯是否安全时，她会让我成为阿希穆萨的尼瑞瓦因。 {迪德拉式}
 
 > INFO.NAME mt_writbrilnosu 2100416252997656
 I have been given a Writ for the honorable execution of Brilnosu Llarys. She may be found at the Dunmer stronghold of Hlormaren which is on the coast west of Balmora north of Hla Oad.
@@ -78745,7 +78745,7 @@ I told Radd Hard-Heart that Jocien Ancois is dead.
 
 > INFO.NAME il_traitorcoven 41323180567625906
 Imsin the Dreamer asked me to find and kill Tonasi Belas, who was once a member of our Order. She is now a worshipper of Mehrunes Dagon in Assarnatamat east of Caldera.
-空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔玛特的梅鲁涅斯·大衮信徒。
+空想者伊姆辛要我找到并杀死托纳西·贝拉斯，她曾经是我们骑士团的成员。她现在是卡尔德拉东部阿萨纳塔马特的梅鲁涅斯·大衮信徒。
 
 > INFO.NAME il_traitorcoven 1735225242322829051
 Imsin the Dreamer thanked me for killing the traitor Tonasi Belas.
@@ -79425,7 +79425,7 @@ I made the Pilgrimage to the Fields of Kummu and read the Grace of Humility.
 
 > INFO.NAME tt_alddaedroth 2424420934616717875
 Tholer Saryoni told me that the Fourth Corner of the House of Troubles is Sheogorath. I must renew a pact with Sheogorath by finding a glove called the "Gambolpuddy" and donating it to Sheogorath's statue in Ald Daedroth. This shrine is on an island between Vvardenfell and Azura's Coast.
-索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座圣祠位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
+索勒·萨里奥尼告诉我，《祸乱家族》的第四角是谢尔格拉斯。我必须与谢尔格拉斯重修盟约，找到一只名为“欢腾布迪”的手套，并将它捐献给奥德-迪德洛斯的谢尔格拉斯雕像。这座祭坛位于瓦登费尔和阿祖拉海岸之间的一座小岛上。
 
 > INFO.NAME tt_alddaedroth 259563428213195461
 I made the Pilgrimage to Ald Daedroth and read a passage from the Four Corners of the House of Troubles. The pact with Sheogorath has been renewed.
@@ -81977,11 +81977,11 @@ Crassius Curio asked me to speak with Odral Helvi in Caldera.
 
 > INFO.NAME hh_bankfraud 2446926709295014304
 Odral Helvi gave me sealed orders to deliver to the assistant treasury clerk, Tenisi Lladri, at the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-奥德拉尔·赫尔维给了我密封的命令，让我交给维威克哈拉鲁金库的财政部助理特尼西·拉德罗。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的顶层。 {指示,协助}
+奥德拉尔·赫尔维给了我密封的命令，让我交给维威克哈拉鲁金库的财政部助理特妮斯·拉德里。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的顶层。 {指示,协助}
 
 > INFO.NAME hh_bankfraud 2109717881198120986
 I gave the orders to Tenisi Lladri in Vivec.
-我向维威克的特尼西·拉德罗下达了指示。
+我向维威克的特妮斯·拉德里下达了指示。
 
 > INFO.NAME hh_bankfraud 3269118746236219940
 I gave the orders to Crassius Curio.
@@ -82001,7 +82001,7 @@ Odral Helvi thanked me for delivering the orders.
 
 > INFO.NAME hh_bankfraud 212014581175726572
 Odral Helvi was angry with me for not delivering the orders to Tenisi Lladri as he asked.
-奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特尼西·拉德罗而生气。
+奥德拉尔·赫尔维因为我没有按照他的指示把命令交给特妮斯·拉德里而生气。
 
 > INFO.NAME ht_odirniran 288043581061714886
 Master Aryon asked me to help Milyn Faram who is being attacked by Hlaalu in Odirniran. I should find Milyn Faram first to find out how many Hlaalu there are.
@@ -83233,7 +83233,7 @@ The Oracle believes that I am fated to recover the ancient warhammer Skull-Crush
 
 > INFO.NAME ic29_crusher 26806301411984296
 A Dunmer scout told me that the sealed Daedric ruin I seek may well be Anudnabia, a ruin near Sadrith Mora. The lower halls of Anudnubia have been inaccessible since the First Era. And several other Daedric ruins are known to have within their chambers glowing pools of molten stone. Such pools might have fueled the forge of a master weaponmaker and his enchanter.
-一名丹莫斥候告诉我，我所寻找的封闭的迪德拉废墟很可能就是萨德瑞斯-莫拉附近的阿努德纳比亚。自第一纪元以来，阿奴达比亚的下层大厅一直无法进入。而其他几处迪德拉遗迹的会议厅内都有发光的熔岩池。这些熔池可能是武器制造大师和他的附魔锻造武器的燃料。 {迪德拉式}
+一名丹莫斥候告诉我，我所寻找的封闭的迪德拉废墟很可能就是萨德瑞斯-莫拉附近的阿努德纳比亚。自第一纪元以来，阿努德纳比亚的下层大厅一直无法进入。而其他几处迪德拉遗迹的会议厅内都有发光的熔岩池。这些熔池可能是武器制造大师和他的附魔锻造武器的燃料。 {迪德拉式}
 
 > INFO.NAME ic29_crusher 27564327541410930750
 A Dunmer savant told me that 'Halls of the Dead' might refer to any Dunmer ancestral tomb. The ancient Dunmer word for ancestral tomb is 'cardruhn'. 'Ruhn' translates as 'home' or 'hearth-hall'. 'Card' means 'undeparted kin-wardens'. Then to find access to Skull-Crusher in its sealed Daedric ruin, I must search for ancestral tombs near the ruin. Perhaps there is an underground passage between a tomb and the sealed Daedric ruin?
@@ -83245,7 +83245,7 @@ The Oracle says she can detect no evil curse upon Skull-Crusher. She assured me 
 
 > INFO.NAME ic28_urjorad 201067417818410201
 The Oracle has sent me to the Daedric shrine of Ashalmimilkala to recover a powerful artifact called the Scroll of Fiercely Roasting and to return it to her. If I choose a greater challenge and risk, I may try to use the scroll instead to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
-神谕者派我前往迪德拉的圣祠阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
+神谕者派我前往迪德拉祭坛阿沙米米卡拉，去找回一件名为汹炙卷轴的强大神器，并将其归还给她。如果我选择更大的挑战和风险，我可以尝试用卷轴来杀死圣祠中古老的高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
 
 > INFO.NAME ic28_urjorad 24678144462691930217
 The Oracle thanked me for giving her the Scroll of Fiercely Roasting. She left the matter of trying to slay Carecalmo and Meryaran to my judgement, since, as opponents, she thinks they may be too great for me. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
@@ -83705,11 +83705,11 @@ Mehrunes Dagon was pleased that I was able to recover the once-great artifact fr
 
 > INFO.NAME da_boethiah 23364227112127510702
 I spoke to the khajiit M'aiq, and he gave me information on a sunken shrine to Boethiah off the coast near Hla Oad. It's difficult to know whether or not this is true. This khajiit seems to have a lot of ridiculous information.
-我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚圣祠。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。
+我和卡吉特麦奎交谈之后，他告诉我在哈拉-奥德附近的海岸边有一座沉没的波耶西亚祭坛。很难确定这是否属实。这个卡吉特似乎掌握了很多荒唐的信息。
 
 > INFO.NAME da_boethiah 44223264729964525
 I have found the sunken shrine to Boethiah and spoken to the Daedra. He is understandably upset that his shrine has been allowed to remain in ruins, and wishes for a new one to be erected. If I can get the shrine rebuilt, he will reward me with the Goldbrand, a legendary sword. My first step should be to find a sculptor.
-我找到了沉没的波耶西亚圣祠，并与迪德拉进行了交谈。可以理解的是，他对自己的圣祠被允许留在废墟中感到很不高兴，并希望能建立一座新的圣祠。如果我能重建圣祠，他就会奖励我黄金烙印 -- 一把传说中的宝刀。我的第一步应该是找到一位雕塑家。 {报酬}
+我找到了沉没的波耶西亚祭坛，并与迪德拉进行了交谈。可以理解的是，他对自己的圣祠被允许留在废墟中感到很不高兴，并希望能建立一座新的圣祠。如果我能重建圣祠，他就会奖励我黄金烙印 -- 一把传说中的宝刀。我的第一步应该是找到一位雕塑家。 {报酬}
 
 > INFO.NAME da_boethiah 1704032453267627057
 Boethiah spoke in a riddle to me, to help me find the one who can recreate the shrine: Rough hands to smooth stone; Carving rock instead of bone; In Caldera an artist waits; His masterpiece to create
@@ -83725,11 +83725,11 @@ I don't think this could be the sculptor I seek.
 
 > INFO.NAME da_boethiah 2153731805198902
 I have asked Duma gro-Lag about rebuilding the shrine to Boethiah. He has agreed that it would be a wonderful project to be a part of, but he will need 2000 septims for materials, and will need some idea of how the shrine should look. Duma suggests I seek out a book that describes the shrine as it once was. In the meantime, he will search the area for an appropriate place to build the shrine.
-我曾向杜玛·格罗-拉格询问重建波耶西亚圣祠的事宜。他同意这将是一个非常好的项目，但他需要2000塞普汀作为材料，还需要一些关于圣祠外观的想法。杜马建议我寻找一本描述圣祠曾经面貌的书。与此同时，他会在附近寻找合适的地方建造圣祠。
+我曾向杜玛·格罗-拉格询问重建波耶西亚祭坛的事宜。他同意这将是一个非常好的项目，但他需要2000塞普汀作为材料，还需要一些关于圣祠外观的想法。杜马建议我寻找一本描述圣祠曾经面貌的书。与此同时，他会在附近寻找合适的地方建造圣祠。
 
 > INFO.NAME da_boethiah 24425227002359016847
 I have returned to Duma gro-Lag with the items he required to recreate the Shrine to Boethiah. He seemed excited to begin, but warned me it would take some weeks to complete.
-我带着杜玛·格罗-拉格要求的物品回去找他，重新建造波耶西亚圣祠。他似乎很兴奋，但告诉我需要几周的时间才能完成。
+我带着杜玛·格罗-拉格要求的物品回去找他，重新建造波耶西亚祭坛。他似乎很兴奋，但告诉我需要几周的时间才能完成。
 
 > INFO.NAME da_boethiah 822914639974521236
 Duma gro-Lag tells me his work is complete, and that the shrine is rebuilt.
@@ -83737,7 +83737,7 @@ Duma gro-Lag tells me his work is complete, and that the shrine is rebuilt.
 
 > INFO.NAME da_boethiah 12676225553046131092
 I have returned to the completed Shrine to Boethiah. The Daedra seemed pleased with the work that has been done, and has rewarded me with Goldbrand, a truly spectacular weapon.
-我回到了已经完工的波耶西亚圣祠。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
+我回到了已经完工的波耶西亚祭坛。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
 
 > INFO.NAME da_malacath 24907271173046912119
 I entered the shrine of Malacath and summoned the Daedra. He spoke to me of a helm of great power, once belonging to the elven hero Oreyn Bearclaw. In reality, he was no hero, though. The deeds attributed to him were actually performed by an orc, Kharag gro-Khar. If I can find the last of the Oreyn family bloodline, and kill him, I will be rewarded with the helm.
@@ -84985,11 +84985,11 @@ I've disturbed Rayna Drolan. Azura will not be pleased.
 
 > INFO.NAME da_azura 564729806158762256
 I returned to the Shrine of Azura to let it be known I have cleared the island of the daedra there and returned with proof that Sheogorath was behind the problems. Azura was grateful, and rewarded me with her Star, a magical soul gem of immense power.
-我回到阿祖拉圣祠，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}
+我回到阿祖拉祭坛，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}
 
 > INFO.NAME da_azura 2266052442035519898
 I returned to the Shrine of Azura. She was not pleased that I had disturbed the solace of Rayna Drolan, for she now must forfeit the wager.
-我回到了阿祖拉圣祠。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。
+我回到了阿祖拉祭坛。她很不高兴我打扰了蕾娜·卓兰的安宁，因为她现在必须放弃赌注。
 
 > INFO.NAME ms_umbra 205324493163868504
 While in Suran, I spoke to Ashumanu Eraishah. She told me of a madman on a hill nearby. She thinks the man is dangerous, although he hasn't harmed anyone around.
@@ -87301,7 +87301,7 @@ You have prevented the Barbarian Burub gra-Bamog from becoming a threat to Vvard
 
 > INFO.NAME orcs at a daedric ruin 20236901688267200
 I have no reason to hate Orcs. In fact, I admire King Gortwog for his political skill. In the case of the Orcs at Alof's farm, however, I've heard that the leader is the Barbarian Burub gra-Bamog. She is wanted for murder, theft, and banditry. If Burub is gathering forces in Ashunartes, I want someone to put a stop to it.
-我没有理由憎恨兽人。事实上，我钦佩戈特沃格国王的政治才能。不过，就阿洛夫农场的兽人而言，我听说首领是野蛮人布鲁布·格拉-巴莫格。她因谋杀、盗窃和强盗行为被通缉。如果布尔布在阿舒纳尔特斯集结军队，我希望有人能阻止她。
+我没有理由憎恨兽人。事实上，我钦佩戈特沃格国王的政治才能。不过，就阿洛夫农场的兽人而言，我听说首领是野蛮人布鲁布·格拉-巴莫格。她因谋杀、盗窃和强盗行为被通缉。如果布尔布在阿舒纳特斯集结军队，我希望有人能阻止她。
 
 > INFO.NAME orcs at a daedric ruin 5057204923192519674
 I'm glad you got rid of those Orcs, %PCName. You better report back to Eydis Fire-Eye before she decides to keep the contract money for herself.
@@ -92845,7 +92845,7 @@ I know of no such Daedric ruin. Perhaps you should consult with a Dunmer scout, 
 
 > INFO.NAME sealed daedric ruin 12626577166702831
 A Daedric ruin sealed by a rockfall. That might well be Anudnabia, a ruin near Sadrith Mora. The lower halls of Anudnubia have been inaccessible since the First Era. And several other Daedric ruins are known to have within their chambers glowing pools of molten stone. Such pools might have fueled the forge of a master weaponmaker and his enchanter.
-被落石封住的迪德拉遗迹，那很可能是萨德瑞斯-莫拉附近的遗迹阿努德纳比亚。自第一纪元以来，阿奴达比亚的下层大厅就一直无法进入。其他几处迪德拉遗迹的会议厅中也有发光的熔岩池。这些熔池可能是武器制造大师和他的附魔师锻造武器的燃料。 {迪德拉式}
+被落石封住的迪德拉遗迹，那很可能是萨德瑞斯-莫拉附近的遗迹阿努德纳比亚。自第一纪元以来，阿努德纳比亚的下层大厅就一直无法进入。其他几处迪德拉遗迹的会议厅中也有发光的熔岩池。这些熔池可能是武器制造大师和他的附魔师锻造武器的燃料。 {迪德拉式}
 
 > INFO.NAME sealed daedric ruin 607113303119517652
 Indeed, you must have located Hilbongard's long-lost forge in the ruins of Andunabia.
@@ -107339,11 +107339,11 @@ It's not far from here. Just leave my house and go north. The Treasury connects 
 
 > INFO.NAME hlaalu treasury 15734126081037417972
 Go to the Hlaalu Canton in Vivec. You should be able to get better directions there. Tenisi works in the vaults.
-去维威克的哈拉鲁行政区吧，你应该能得到更好的方向。特尼斯在金库工作。
+去维威克的哈拉鲁行政区吧，你应该能得到更好的方向。特妮斯在金库工作。
 
 > INFO.NAME hlaalu treasury 9559114171550926813
 Yes, this is the House Hlaalu Treasury. The northeast door leads to the prisons. The southeast door leads to the Hlaalu Records. Go downstairs if you want to see Baren Alen or his assistant, Tenisi Lladri, in the Hlaalu Vaults.
-没错，这里就是哈拉鲁家族财政部。东北方向的门通往监狱，东南门通向哈拉鲁资料室。如果你想在哈拉鲁金库见到巴伦·阿伦或他的助手特尼西·拉德罗，请下楼。 {哈拉鲁财政部,协助}
+没错，这里就是哈拉鲁家族财政部。东北方向的门通往监狱，东南门通向哈拉鲁资料室。如果你想在哈拉鲁金库见到巴伦·阿伦或他的助手特妮斯·拉德里，请下楼。 {哈拉鲁财政部,协助}
 
 > INFO.NAME hlaalu treasury 2075118645232817751
 You can enter the treasury from the Waistworks. The door is on the upper level on the north side.
@@ -108619,7 +108619,7 @@ Zainsubani says the Urshilaku camp lies close to the Sea of Ghosts, north of the
 
 > INFO.NAME urshilaku camp 472922052261189196
 Urshilaku camp is due north from Maar Gan, but high ridges lie in the way. From Maar Gan head east past the Silt Strider, then take a trail north to the Foyada Bani-Dad. Follow the Foyada northwest to the sea. A shipwreck at the seamouth of the ravine is a landmark. Swim east around the headland. Pass east through the ruins of Assurnabitashpi Shrine. Avoid Daedra here. They're powerful and aggressive. Urshilaku Camp lies east of the ruins, inland in a low hollow.
-乌尔希拉库营地在玛尔-甘的正北方向，但有高高的山脊挡住去路。从玛尔-甘向东走，经过阔步沙蚤，然后向北走到巴尼-达德熔渠。沿着熔渠向西北走，就到了海边。峡谷海口的沉船是一个地标。绕过岬角向东游泳。向东穿过阿舒纳比塔什圣祠的废墟。避开这里的迪德拉。它们强大而凶猛。乌尔希拉库营地位于废墟以东，内陆的一个低凹处。
+乌尔希拉库营地在玛尔-甘的正北方向，但有高高的山脊挡住去路。从玛尔-甘向东走，经过阔步沙蚤，然后向北走到巴尼-达德熔渠。沿着熔渠向西北走，就到了海边。峡谷海口的沉船是一个地标。绕过岬角向东游泳。向东穿过阿舒纳比塔什祭坛的废墟。避开这里的迪德拉。它们强大而凶猛。乌尔希拉库营地位于废墟以东，内陆的一个低凹处。
 
 > INFO.NAME urshilaku camp 2685615237503112317
 The Ashlander Urshilaku tribe has a permanent settlement at Urshilaku camp on the northern coast of Vvardenfell, north of Maar Gan village. Ald Redaynia is north of there. Here, let me mark it on your map.
@@ -113955,11 +113955,11 @@ My granddaughter is safe for now, but I fear she will be in trouble again.
 
 > INFO.NAME delyna mandas 7893194543109516498
 You have rescued my granddaughter, and I am grateful. Please take this helm from all the Mandas family. Know that you have earned an ally in House Redoran.
-你救了我的孙女，我很感激。请接受曼达斯家族的掌舵。要知道，你们在瑞多然家族赢得了一位盟友。
+你救了我的孙女，我很感激。请收下曼达斯家族的头盔。谨记，你已经赢得了一位瑞多然家族的盟友。
 
 > INFO.NAME delyna mandas 104022639463003691
 She is being held captive in Tel Fyr. I do not want to lose another grandchild to the Telvanni. Please bring her back to me.
-她被囚禁在泰尔-菲尔。我不想再让泰瓦尼家族的人失去一个孙女。请把她还给我。
+她被关在泰尔-菲尔。我不能再让泰瓦尼家族夺走我一个孙女了。求你了，一定要把她带回我身边。
 
 > INFO.NAME delyna mandas 1994312694300195424
 So you managed to set her free? Why tell me about it?
@@ -114159,15 +114159,15 @@ You've already given me the orders, pudding.
 
 > INFO.NAME sealed orders 2125013205946413017
 Good, good. Now we have some proof of Odral's corruption, but it takes time for the wheels of law to turn. I will make sure these orders are... edited, sealed, and delivered to Tenisi Lladri. For being a sweetie and keeping me informed, why not take this gift of 500 drakes? Buy yourself something pretty for Uncle Crassius.
-很好，很好。现在我们有证据证明奥德拉尔的腐败行为，但法律的车轮需要时间来转动，我会确保这些指示…编辑，密封，并交付给特尼西·拉德罗。看在你这么贴心，一直通知我的份上，何不收下这份500龙币的礼物？给克拉西乌斯叔叔买点漂亮的东西吧。
+很好，很好。现在我们有证据证明奥德拉尔的腐败行为，但法律的车轮需要时间来转动，我会确保这些指示…编辑，密封，并交付给特妮斯·拉德里。看在你这么贴心，一直通知我的份上，何不收下这份500龙币的礼物？给克拉西乌斯叔叔买点漂亮的东西吧。
 
 > INFO.NAME sealed orders 2739311365729922850
 Well, I wouldn't advise giving them to Tenisi Lladri. You don't know what you might get involved in. I wouldn't want anything to happen to you, dumpling.
-嗯，我不建议把它们送给特尼西·拉德罗。你不知道你会被卷入什么。我可不想你出事，小甜甜。
+嗯，我不建议把它们送给特妮斯·拉德里。你不知道你会被卷入什么。我可不想你出事，小甜甜。
 
 > INFO.NAME sealed orders 135999282311726679
 So he asked you to deliver orders to Tenisi Lladri instead of Baren Alen, the Treasury clerk? This is interesting. Give the orders to me instead, pudding, and I will take care of everything.
-他让你把命令交给特尼西·拉德罗，而不是财政部的巴伦·阿伦？这可有意思了。把命令交给我，我的小布丁，我会处理好一切的。 {指示}
+他让你把命令交给特妮斯·拉德里，而不是财政部的巴伦·阿伦？这可有意思了。把命令交给我，我的小布丁，我会处理好一切的。 {指示}
 
 > INFO.BNAM sealed orders 135999282311726679 c1
 Here they are.
@@ -114215,7 +114215,7 @@ I do not have any more sealed orders for you to deliver.
 
 > INFO.NAME sealed orders 288462305170711990
 You delivered them  to the wrong person. You were supposed to deliver the sealed orders to Tenisi Lladri. I am not sure whether to trust you with any more business or not.
-你送错人了，你应该把密封的命令交给特尼西·拉德罗的，我不知道该不该再相信你了。 {指示,事}
+你送错人了，你应该把密封的命令交给特妮斯·拉德里的，我不知道该不该再相信你了。 {指示,事}
 
 > INFO.NAME sealed orders 25341164732839914687
 You should not have opened the orders, %PCName, but at least you delivered them to the right person. I might have more business to discuss with you.
@@ -114223,15 +114223,15 @@ You should not have opened the orders, %PCName, but at least you delivered them 
 
 > INFO.NAME sealed orders 25400190621218821537
 You delivered the orders? Good. I have more business to discuss with you.
-你把命令送到了？那就好，我还有更多的生意要和你谈。 {指示,事,讨论}
+你把指示送到了？那就好，我还有更多的生意要和你谈。 {事,讨论}
 
 > INFO.NAME sealed orders 2062734593918822
 I've already given you the orders. Take them to Tenisi Lladri at the Hlaalu Treasury in Vivec.
-我已经给你的命令。把它们交给特尼西·拉德罗，在维威克的哈拉鲁财政部。 {指示}
+我已经给你的指示。把它们交给特妮斯·拉德里，在维威克的哈拉鲁财政部。
 
 > INFO.NAME sealed orders 1410730205592218439
 Take these sealed orders to the Hlaalu Treasury in Vivec. Deliver them to Tenisi Lladri, the assistant clerk. Whatever you do, do NOT deliver them to the head of the treasury, Baren Alen. Or to anyone else. This is a... trivial matter, and you don't have to trouble anyone but the assistant clerk.
-把这些密封的指示命令送到维威克的哈拉鲁财政部，交给助理办事员特尼西·拉德罗，无论如何都不要交给库房主管巴伦·阿伦，或者其他人。这是…小事，你不必麻烦任何人，只需麻烦助理办事员。 {密封的命令,协助}
+把这些密封的命令送到维威克的哈拉鲁财政部，交给助理办事员特妮斯·拉德里，无论如何都不要交给库房主管巴伦·阿伦，或者其他人。这是…小事，你不必麻烦任何人，只需麻烦助理办事员。 {指示,协助}
 
 > INFO.NAME wizard spells 1280311661531218170
 You have demonstrated your knowledge of the basic spells.
@@ -114467,7 +114467,7 @@ Very well, then. I will wait here for now.
 
 > INFO.NAME accompany you 26949321972009317085
 Very well, %PCName. I will accompany you to Ald Daedroth, and we will speak further when we stand before the great statue in the inner shrine.
-很好，%PCName。我会陪着你去奥德-迪德洛斯，等我们站在内部圣祠的大雕像前再详谈。
+很好，%PCName。我会陪着你去奥德-迪德洛斯，等我们站在内部祭坛的大雕像前再详谈。
 
 > INFO.NAME accompany you 17258938821019115
 Are you ready now for me to accompany you to Ald Daedroth?
@@ -114491,7 +114491,7 @@ Very well, %PCName. I will accompany you to Ald Daedroth, and we will speak furt
 
 > INFO.NAME accompany you 1796152213109715098
 I am accompanying you to Ald Daedroth, where we will see if you have made it safe for the Ahemmusa. I will accompany you until we stand before the great statue in the inner shrine, where we will speak further. Do you wish me to continue accompanying you?
-我要陪着你去奥德-迪德洛斯，在那里我们要看看你是否让那个地方变得对阿希穆萨族人安全了。我会一直陪着你，直到我们站在内部圣祠的大雕像前，我们再进一步交谈。你希望我继续陪您吗？
+我要陪着你去奥德-迪德洛斯，在那里我们要看看你是否让那个地方变得对阿希穆萨族人安全了。我会一直陪着你，直到我们站在内部祭坛的大雕像前，我们再进一步交谈。你希望我继续陪您吗？
 
 > INFO.BNAM accompany you 1796152213109715098 c1
 Yes, please continue with me to Ald Daedroth.
@@ -114507,11 +114507,11 @@ Very well, then. I will wait here for now. When you are ready, come to me, and I
 
 > INFO.NAME accompany you 2682512249265228814
 Very well, %PCName. Now I will accompany you to the Daedric shrine on Ald Daedroth. And when you have brought me to the old sanctuary beneath the ruins, and I may see the great statue of Sheogorath in the inner shrine, then I will surely know that you have made Ald Daedroth safe for the Ahemmusa, and I will name you Ahemmusa Nerevarine. Go ahead, and we will speak further before the great statue.
-很好，%PCName。现在我陪着你去奥德-迪德洛斯圣祠。当你把我带到废墟下的古老圣祠，让我看到内部圣祠中的谢尔格拉斯大雕像时，我一定会知道你已经让奥德-迪德洛斯对阿希穆萨人安全了，我会将你任命为阿希穆萨的尼瑞瓦因。去吧，我们将在大雕像前进一步交谈。 {迪德拉式}
+很好，%PCName。现在我陪着你去奥德-迪德洛斯的迪德拉祭坛。当你把我带到废墟下的古老祭坛，让我看到内部祭坛中的谢尔格拉斯大雕像时，我一定会知道你已经让奥德-迪德洛斯对阿希穆萨人安全了，我会将你任命为阿希穆萨的尼瑞瓦因。去吧，我们将在大雕像前进一步交谈。 {迪德拉式}
 
 > INFO.NAME accompany you 22911232913039718394
 Have you made Ald Daedroth a safe place for the Ahemmusa? If I may pass in safety to the old sanctuary and see the great statue in the inner shrine, then the place is safe for my people. If Ald Daedroth is safe, are you ready for me to accompany you there and test with our lives whether it is indeed safe?
-你把奥德-迪德洛斯变成对于阿希穆萨人安全的地方了吗？如果我能安全地通过古老的圣祠，看到内部圣祠里的大雕像，那么对我的族人来说，这里就是安全的。如果奥德-迪德洛斯是安全的，你准备好让我陪着你去那里，用我们的生命来检验它是否真的安全了吗？
+你把奥德-迪德洛斯变成对于阿希穆萨人安全的地方了吗？如果我能安全地通过古老的祭坛，看到内部祭坛里的大雕像，那么对我的族人来说，这里就是安全的。如果奥德-迪德洛斯是安全的，你准备好让我陪着你去那里，用我们的生命来检验它是否真的安全了吗？
 
 > INFO.BNAM accompany you 22911232913039718394 c1
 Yes, please accompany me to Ald Daedroth.
@@ -114523,7 +114523,7 @@ No, you should wait here for now.
 
 > INFO.NAME accompany you 92038942909521601
 When you are sure Ald Daedroth is safe, then you will return here to me. Then I will accompany you, and together we will cross the water to Ald Daedroth. If I may pass in safety to the old sanctuary and see the great statue in the inner shrine, then the place is safe for my people. I have not the arts of war, but I have courage. I wager my life against the safety of my people. But if Ald Daedroth is not safe... if I die on my journey... remember... if I die, you will not be named Ahemmusa Nerevarine.
-当你确定奥德-迪德洛斯是安全的，你就回到这里来找我。然后，我将陪着你一起跨越河流前往奥德-迪德洛斯。如果我能安全到达古老的圣祠，看到内部圣祠中的伟大雕像，那么对我的人民来说，这里就是安全的。我没有战争技艺，但我有勇气。我用我的生命来赌我族人的安全。但如果奥德-迪德洛斯不安全…如果我死在旅途中…记住…如果我死了，你将不会被任命为阿希穆萨的尼瑞瓦因。
+当你确定奥德-迪德洛斯是安全的，你就回到这里来找我。然后，我将陪着你一起跨越河流前往奥德-迪德洛斯。如果我能安全到达古老的祭坛，看到内部祭坛中的伟大雕像，那么对我的人民来说，这里就是安全的。我没有战争技艺，但我有勇气。我用我的生命来赌我族人的安全。但如果奥德-迪德洛斯不安全…如果我死在旅途中…记住…如果我死了，你将不会被任命为阿希穆萨的尼瑞瓦因。
 
 > INFO.NAME falura llervu 9703141368216906
 I admit, I am a little anxious about marrying an Ashlander, even an Ashlander chief, but anything is better than being a slave, and I am very tough and smart, and determined to make the best of my chances. But Savile Imayn said you wanted to give me something. Some presents....
@@ -114815,7 +114815,7 @@ Thinking of setting yourself up as a mercenary or questing hero? Not much call f
 
 > INFO.NAME little advice 39552635230657179
 You're a freelance adventurer, yes? If you're looking for challenge, try Esutanamus, a Daedric shrine on an offshore island to the southeast, or Nchuleft, a Dwemer ruin to the southeast where the plains and the slopes of Red Mountain meet. They're large ruins -- easy to find.
-你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的迪德拉圣祠埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹恩楚莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}
+你是自由冒险者，对吧？如果你想挑战一下，可以去东南方离岸小岛上的迪德拉祭坛埃苏塔纳姆斯，或是东南方平原和红山山坡交汇处的锻莫遗迹恩楚莱夫特。这些遗迹都很大，很容易找到。 {迪德拉式}
 
 > INFO.NAME little advice 22741266951436712057
 You're a freelance adventurer, yes? There're many tombs, ruins, and lairs in the Grazelands to the south and west. Just keep your eyes open. They're often marked by a clump of rocks or trees at the entrance.
@@ -116043,11 +116043,11 @@ This is a dangerous place, so none of the House people will come here. So we hav
 
 > INFO.NAME little secret 673821472106711099
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
+我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们 -- 一种叫做“引路石”的小东西。有个家伙想卖给我一个 -- 想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 785732822678819521
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，N'wah（外地人）。给你个提示，引路器。去过丹莫的堡垒吗？你见过有两根大石柱的引路室吗？它们是传送装置，不过你需要一把钥匙来使用它们 -- 一个叫做“引路石”的小东西。有个家伙想卖给我一个，要价不菲，我让他滚蛋。后来我听说这家伙去了一个叫梅尔卡诗诗的迪德拉圣祠，却没再回来。所以也许引路石和他一起留在了那里。 {财富,迪德拉式}
+我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们 -- 一种叫做“引路石”的小东西。有个家伙想卖给我一个 -- 想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}
 
 > INFO.NAME little secret 826321646924279
 Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.
@@ -116079,7 +116079,7 @@ South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is th
 
 > INFO.NAME little secret 18494172951218821168
 Are you interested in seeing the old places of the Daedra worshippers? Look upon Esutanamus. It sits upon an island east of the mainland beaches, southeast of the Telvanni town of Tel Mora. Sometimes a champion will enter there in search of ancient weapons and treasures.
-你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳摩斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}
+你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳姆斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}
 
 > INFO.NAME little secret 72601897126734412
 The old stones at Zergonipal... beneath those stones are dark chambers and a great statue. None of our people have been there in many years.
@@ -116095,7 +116095,7 @@ Vampires have returned to Vvardenfell. In the ruins of the Deep Elves at Druscas
 
 > INFO.NAME little secret 253678996155285776
 At the ruins of Assurnabitashpi, they have an old shrine to Mehrunes Dagon. Stay far from that place -- it is cursed.
-在阿舒纳比塔什遗址，有一座古老的梅鲁涅斯·大衮圣祠。远离那个地方 -- 它被诅咒了。
+在阿舒纳比塔什的废墟里，有一座古老的梅鲁涅斯·大衮的祭坛。远离那个地方 -- 它被诅咒了。
 
 > INFO.NAME little secret 48555751121988520
 The ancient Dunmer stronghold at Valenvaryon... we have seen orcs there. Orcs worship Malacath. It is a bad place.
@@ -116139,7 +116139,7 @@ Gods be with you, %PCName. And thanks for the mazte.
 
 > INFO.NAME little secret 124974922249611126
 They say they buried Olmgerd in the bottom of an ancient Dunmer tomb. From the skald's telling, the burial was on a long finger of land on the southeast coast of Vvardenfell, on a little island close to shore on the west coast of the peninsula. Figure it's somewhere on the stretch between the Daedric ruins at Zaintiraris and Tel Branora. Gods be with you. And thanks for the mazte.
-据说他们把奥姆格德埋在了一座古老的丹莫墓穴底部。听斯卡尔德说，埋葬地点在瓦登费尔东南海岸的一指长长的陆地上，半岛西岸靠近海岸的一个小岛上。估计是在扎因蒂拉里的迪德拉遗迹和泰尔-布勒诺拉之间的某个地方。诸神与你同在，谢谢你的玛诗蒂。 {迪德拉式}
+他们说他们把奥姆格德埋葬在一个古老的丹莫坟墓的底部。根据吟游诗人的讲述，墓葬在瓦登费尔东南海岸的一个长突起上，在半岛西海岸靠近海岸的一个小岛上。我想这是在迪德拉遗址扎因蒂拉里斯和泰尔-布勒诺拉之间的某个地方。诸神与你同在。谢谢你的玛诗蒂。 {迪德拉式}
 
 > INFO.NAME little secret 130163195829191694
 And of course they buried Stormkiss with him. Stormkiss was Olmgerd's enchanted battle-axe. And you see this old key? See what it says on it? 'Stormkiss.' Here. Take it. Healer says the mazte is killing me. I'm going home to Skyrim to die. You, you got your life ahead of you. Go ahead. Take it.
@@ -116307,11 +116307,11 @@ What are the most dangerous places in Morrowind? Well, probably the ash vampire 
 
 > INFO.NAME little secret 16531102192603444
 Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cults worship Daedra. Bad people who summon bad Daedra. Stay away from them. Why? Because Daedra are nasty. And the folks that worship them are even nastier.
-迪德拉？你知道它们是什么吧？迪德拉圣祠是迪德拉邪教祭拜迪德拉的地方，恶人会召唤邪恶的迪德拉，离他们远点。为什么？因为迪德拉很恶心，而崇拜他们的人更下流。 {迪德拉式}
+迪德拉？你知道它们是什么吧？迪德拉祭坛是迪德拉邪教祭拜迪德拉的地方，恶人会召唤邪恶的迪德拉，离他们远点。为什么？因为迪德拉很恶心，而崇拜他们的人更下流。 {迪德拉式,圣祠}
 
 > INFO.NAME little secret 452027941264710687
 How do you recognize a Daedric shrine? Well, they've got long, funny names, like Ashurnibibi or Zaintiraris. Some are well-known sites, like Ald Sotha and Bal Fell. And stone and architecture is unmistakable. Big, dark, grey-green stone ruins, funny angles, funny markings and patterns on the stone. Weird oval crooked doors. And inside, all funny angles.
-怎么辨别迪德拉圣祠？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}
+怎么辨别迪德拉祭坛？它们的名字又长又有趣，比如阿舒尼比比和扎因蒂拉里斯，有些是著名的地点，比如奥德-索萨和巴尔-费尔。石头和建筑都是独一无二的。巨大、阴暗、灰绿色的石头废墟，石头上有奇怪的角度、奇怪的标记和图案。奇怪的椭圆形歪门。里面都是奇怪的角度。 {迪德拉式}
 
 > INFO.NAME little secret 1906331586162422013
 You know, people say the Zainab -- and Ashlanders in general -- are lying and untrustworthy. But I think it is partly a problem of pride. If the truth will shame them, they don't want to say it. Among the Ashlanders, no one would be rude enough to force an Ashlander to admit something shameful. But we civilized people, in may ways we are less careful of another's feelings than the Ashlander savages. In particular, the men are very proud. I don't know about the women. We rarely see them here.
@@ -120841,11 +120841,11 @@ This site is an ancient shrine to Sheogorath, the Mad Lord. But now it will also
 
 > INFO.NAME ald daedroth 202484823143412349
 The Ald Daedroth Daedric site is a shrine to Sheogorath, the Mad Lord. The surface ruins are on an island a great distance north as the racer flies.
-奥德-迪德洛斯遗址是祭祀疯神谢尔格拉斯的圣祠。遗迹的地表部分在这个营地向北最远的一个小岛上。 {迪德拉式}
+奥德-迪德洛斯遗址是祭祀疯神谢尔格拉斯的祭坛。遗迹的地表部分在这个营地向北最远的一个小岛上。 {迪德拉式}
 
 > INFO.NAME ald daedroth 276183227581616893
 Ald Daedroth is an abandoned Daedric site on an island north along the coast, in the straits between Vvardenfell and Sheogorad island. I say 'abandoned', but I've heard worshippers have rededicated the old temple there. And I also heard the Ordinators were hiring a ship and planning to burn them out. The island is out of sight of the mainland, and not easy to find.
-奥德-迪德洛斯是一处废弃的迪德拉遗址，位于海岸线以北的一座岛屿上，在瓦登费尔和谢尔格拉德岛之间的海峡中。我说是“废弃”，但我听说信徒们已经在那里重修了古老的神殿。我还听说神殿卫兵们租了一艘船，打算把他们烧掉。这座岛远离陆地，不容易找到。 {迪德拉式,主大陆}
+奥德-迪德洛斯是一处废弃的迪德拉遗址，位于海岸线以北的一座岛屿上，在瓦登费尔和谢尔格拉德岛之间的海峡中。我说是“废弃”，但我听说信徒们已经在那里重修了古老的祭坛。我还听说神殿卫兵们租了一艘船，打算把他们烧掉。这座岛远离陆地，不容易找到。 {迪德拉式,主大陆}
 
 > INFO.NAME ald daedroth 2484023613165571715
 Ald Daedroth is a very impressive Daedric ruin in the Sheogorad region of northeast Vvardenfell. The site itself is on a small island between Vvardenfell and Sheogorad island to the north. Tel Mora is the closest settlement. From there you'll have to fly or water-walk; Ald Daedroth is long abandoned, and there's no boat service.
@@ -121813,7 +121813,7 @@ Yes, I see what you mean. I respect your methods, %PCRace. Until I learn somethi
 
 > INFO.NAME camonna tong 26616123212947528298
 If you have nothing, you are nothing. Get out of my sight, n'wah.
-如果你什么都没有，你就什么都不是。滚出我的视线，N'wah（外地人）。
+如果你什么都没有，你就什么都不是。滚出我的视线，外地人。
 
 > INFO.NAME camonna tong 9116128841980112945
 So you've come to bargain, have you? What have you got?
@@ -124261,123 +124261,123 @@ Do you mean... have I been... under a spell? A curse? And this was caused by Six
 
 > INFO.NAME sixth house 27838159622142612029
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 183375131166112732
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 21348222781054818615
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 1381627890237414274
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 125621501304318718
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 998673212907024917
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 68113966345218324
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 8285167901775519788
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 116572641368520747
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 1421814334265519710
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 17195157092340212958
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 11138269831773311453
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 30258320212719012958
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 1710127238223196561
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 14754140323127010594
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Rejoice, and join us. Come to Red Mountain, and prepare the way for his coming.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！欢呼吧，加入我们吧！来到红山，为他的到来做好准备。
 
 > INFO.NAME sixth house 2228820944513115945
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 26343206982263727499
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 46022140150889270
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 4189101232490916222
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 337770411951028747
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 6115518113924870
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 1771918854144078749
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 103861990245892713
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 2087020852641730126
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 22527109181135525191
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 4361189281330324887
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 16241194422339517824
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 21752199521701717760
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 2708525712178928293
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 1010250002734832001
 The Sixth House, the Sleeping House, House Dagoth, the House of Lord Dagoth. The true house, the one house to welcome all true Dunmer, and drive the n'wah from our land. Take heed, outlander. The day of reckoning is at hand. Take what you can, and leave our place, for when Lord Dagoth comes, this will be no place for you.
-第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将n'wah（外地人）赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
+第六家族，沉睡的家族，达格斯家族，达格斯大人的家族，真正的大家族，欢迎所有真正的丹莫。将外地人赶出我们的土地！注意了，外地人，清算之日就在眼前！拿上你们能拿的，滚出我们的土地，达格斯大人来的时候，这里就不是你们能来的地方了。
 
 > INFO.NAME sixth house 24287286951883532352
 We've heard. It sounds serious. We're glad you're on the case.
@@ -124921,7 +124921,7 @@ Sul-Matuul has sent you to seek the Third Trial. He has told you of the shrine t
 
 > INFO.NAME third trial 1271729426301492411
 In legend there is a shrine to Azura called the Cavern of the Incarnate. There are secrets I may not tell you about this cavern. Do not ask.
-传说中有一座阿祖拉圣祠，名为化身洞穴。关于这个洞穴，有些秘密我不能告诉你。不要问了。
+传说中有一座阿祖拉祭坛，名为化身洞穴。关于这个洞穴，有些秘密我不能告诉你。不要问了。
 
 > INFO.NAME fifth trial 2664515124226204483
 Thus are joined the four tribes of the Ashlanders under one leader, %PCName, the Nerevarine. Ahemmusa, Zainab, Erabenimsun, and Urshilaku, together, will hunt the creatures of Dagoth Ur.
@@ -128337,7 +128337,7 @@ Hello there, %PCRace. Looking for a good time?
 
 > INFO.NAME greeting 1 127743205155719728
 You'd try to steal my weapons, n'wah? Nobody cheats Lucan! Die!
-你想偷我的武器，N'wah（外地人）？没人能骗卢坎，死吧！
+你想偷我的武器，外地人？没人能骗卢坎，死吧！
 
 > INFO.NAME greeting 1 23682213221278725710
 Ahhhh...you've removed this enchantment with your spell to cure disease!
@@ -128381,11 +128381,11 @@ You want a duel? You got a duel.
 
 > INFO.NAME greeting 1 29932107482621229535
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 22375223931675031754
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 195334816294223613
 Come to collect more debts for cowardly smiths, %PCName?
@@ -128405,19 +128405,19 @@ I'm not paying those armor repair debts.
 
 > INFO.NAME greeting 1 1195581501496527750
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 3043225056297124928
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 22062238891067428847
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 34822388670161640
 You have slain my brother, n'wah.
-你杀了我的兄弟，n'wah（外地人）。
+你杀了我的兄弟，外地人。
 
 > INFO.NAME greeting 1 16939641270732618
 Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's none of my business.
@@ -129693,63 +129693,63 @@ I am a Sleeper, one among thousands. I bring you a message. Dagoth Ur calls you,
 
 > INFO.NAME greeting 1 23362116982283716453
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 9240284842583731439
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 12050108581041716221
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2213820978326944761
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 19729118182244914507
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1009652312824523400
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2985628411297043774
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 25079166171226232605
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 9780474725122440
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1225229167227159949
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2120529614275622146
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 2899424566354131250
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 234573068125761255
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 25634324702059012904
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 24918361598521734
 The wickwheat is winnowed, and under the harrow, the earth is prepared for planting. The n'wah must die, and their flesh serve to sweeten the soil.
-灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。n'wah（外地人）必须死，令其血肉丰沃瘠壤。
+灯芯麦尽已簸选，耙犁之下，沃土正待耕耘。外地人必须死，令其血肉丰沃瘠壤。
 
 > INFO.NAME greeting 1 1928413707324032726
 The Sixth House is risen, and Dagoth is its glory. You have defied my Lord Dagoth, and his judgement is death. Flee, and hide, or die where you stand.
@@ -131829,19 +131829,19 @@ I am glad you were able to recover this scroll. It is an item of terrible power,
 
 > INFO.NAME greeting 5 18569280251891529066
 I asked you to recover a powerful artifact called the Scroll of Fiercely Roasting and to return it to me. When you have the scroll, or when you have slain Carecalmo, the ancient High Elf priest of the Daedric shrine of Ashalmimilkala, and his powerful High Elf bodyguard Meryaran, return to me.
-我要求你找回一件名为“汹炙卷轴”的强大神器，并将其交还给我。当你拿到卷轴，或者当你杀死了阿沙米米卡拉迪德拉圣祠的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰之后，再回到我这里来。 {迪德拉式}
+我要求你找回一件名为“汹炙卷轴”的强大神器，并将其交还给我。当你拿到卷轴，或者当你杀死了阿沙米米卡拉迪德拉祭坛的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰之后，再回到我这里来。 {迪德拉式}
 
 > INFO.NAME greeting 5 1371319345227026507
 %Rank %PCName, the healer Urjorad is overdue and presumed dead. He went to the Daedric shrine of Ashalmimilkala with a powerful artifact called the Scroll of Fiercely Roasting. Signs say he has come to grief inside Ashalmimilkala. Go find his body, recover the scroll and return it to us. Or, if you would risk your life to complete the quest that took Urjorad's life, use the scroll to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
-%Rank，治疗师乌尔约拉德逾期未归，据推测已经死亡。他带着一件名为汹炙卷轴的强大神器前往迪德拉圣祠。有迹象表明他在阿沙米米卡拉陷入了悲痛。去找到他的尸体，找回卷轴并归还给我们。或者，如果你愿意冒着生命危险去完成夺走乌尔约拉德生命的任务，那就用卷轴去杀死圣祠的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
+%Rank，治疗师乌尔约拉德逾期未归，据推测已经死亡。他带着一件名为汹炙卷轴的强大神器前往迪德拉祭坛阿沙米米卡拉。有迹象表明他在阿沙米米卡拉陷入了悲痛。去找到他的尸体，找回卷轴并归还给我们。或者，如果你愿意冒着生命危险去完成夺走乌尔约拉德生命的任务，那就用卷轴去杀死圣祠的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
 
 > INFO.NAME greeting 5 82235685474427401
 %Rank %PCName, the healer Urjorad is overdue and presumed dead. He went to the Daedric shrine of Ashalmimilkala with a powerful artifact called the Scroll of Fiercely Roasting. Signs say he has come to grief inside Ashalmimilkala. Go find his body, recover the scroll and return it to us. Or, if you would risk your life to complete the quest that took Urjorad's life, use the scroll to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
-%Rank，治疗师乌尔约拉德逾期未归，据推测已经死亡。他带着一件名为汹炙卷轴的强大神器前往迪德拉圣祠。有迹象表明他在阿沙米米卡拉陷入了悲痛。去找到他的尸体，找回卷轴并归还给我们。或者，如果你愿意冒着生命危险去完成夺走乌尔约拉德生命的任务，那就用卷轴去杀死圣祠的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
+%Rank，治疗师乌尔约拉德逾期未归，据推测已经死亡。他带着一件名为汹炙卷轴的强大神器前往迪德拉祭坛阿沙米米卡拉。有迹象表明他在阿沙米米卡拉陷入了悲痛。去找到他的尸体，找回卷轴并归还给我们。或者，如果你愿意冒着生命危险去完成夺走乌尔约拉德生命的任务，那就用卷轴去杀死圣祠的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
 
 > INFO.NAME greeting 5 377729379119625775
 %Rank %PCName, the healer Urjorad is overdue and presumed dead. He went to the Daedric shrine of Ashalmimilkala with a powerful artifact called the Scroll of Fiercely Roasting. Signs say he has come to grief inside Ashalmimilkala. Go find his body, recover the scroll and return it to us. Or, if you would risk your life to complete the quest that took Urjorad's life, use the scroll to slay Carecalmo, the shrine's ancient High Elf priest, and his powerful High Elf bodyguard Meryaran.
-%Rank，治疗师乌尔约拉德逾期未归，据推测已经死亡。他带着一件名为汹炙卷轴的强大神器前往迪德拉圣祠。有迹象表明他在阿沙米米卡拉陷入了悲痛。去找到他的尸体，找回卷轴并归还给我们。或者，如果你愿意冒着生命危险去完成夺走乌尔约拉德生命的任务，那就用卷轴去杀死圣祠的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
+%Rank，治疗师乌尔约拉德逾期未归，据推测已经死亡。他带着一件名为汹炙卷轴的强大神器前往迪德拉祭坛阿沙米米卡拉。有迹象表明他在阿沙米米卡拉陷入了悲痛。去找到他的尸体，找回卷轴并归还给我们。或者，如果你愿意冒着生命危险去完成夺走乌尔约拉德生命的任务，那就用卷轴去杀死圣祠的古代高精灵祭司克尔卡莫和他强大的高精灵保镖梅亚兰。 {迪德拉式}
 
 > INFO.NAME greeting 5 217524727150644157
 Adusamsi Assurnarairan has told me how you rescued her, and begs me to give you this as a token of her gratitude. From what she says, your task was not easy. And you also managed to recover the Ice Blade of the Monarch, which I hope you will keep and dedicate to the service of the Imperial cult. I celebrate you, and your courage and determination. Thank you again, and speak to me when you are ready to undertake another of the Oracle's Quests.
@@ -134149,7 +134149,7 @@ You must be the one the Fighters Guild sent with a new load of sujamma.
 
 > INFO.NAME greeting 5 2316530084712032116
 Make it quick, n'wah.
-动作快点，n'wah（外地人）。
+动作快点，外地人。
 
 > INFO.NAME greeting 5 1023991982094418451
 Weren't you the one who was going to deliver my ash yams? What took you so long? I've got all these kwama eggs and no ash yams because I hate ash yams.
@@ -136213,7 +136213,7 @@ Look. Just leave me alone.
 
 > INFO.NAME greeting 5 231474719869012302
 Just leave me alone, n'wah.
-别烦我了，N'wah（外地人）。
+别烦我了，外地人。
 
 > INFO.NAME greeting 5 29711230393013323345
 Fine. It's just a filthy lizard, anyway, nothing to get upset about. We'll leave him alone. Go on. Get out, before we change our minds.
@@ -136221,7 +136221,7 @@ Fine. It's just a filthy lizard, anyway, nothing to get upset about. We'll leave
 
 > INFO.NAME greeting 5 2884229482104949921
 Get out of our way, n'wah. We got issues with this filthy lizard here.
-别挡路，n'wah（外地人）。我们跟这只肮脏的蜥蜴有过节。
+别挡路，外地人。我们跟这只肮脏的蜥蜴有过节。
 
 > INFO.NAME greeting 5 1472479171317616771
 Whatever you say, pilgrim. Just let it ride. We'll leave him alone.
@@ -136237,7 +136237,7 @@ If you don't get lost, I'm gonna hit you AND that filthy lizard so hard that whe
 
 > INFO.NAME greeting 5 27227169724201681
 I don't care, n'wah. Just leave me alone.
-我才不在乎呢，n'wah（外地人）。别烦我。
+我才不在乎呢，外地人。别烦我。
 
 > INFO.NAME greeting 5 30152176278592737
 Hello again, %PCName. I trust I find you well. Is there anything else you'd like to ask about?
@@ -143517,7 +143517,7 @@ You have made Ald Daedroth a safe refuge for the Ahemmusa. Thank you, %PCName.
 
 > INFO.NAME safe place 2506946612893128418
 In seasons past, when threatened, the Ahemmusa could take shelter in the ruins of Ald Daedroth. But now the priestess Hlireni Indavel has come and restored the Daedric shrine, and worshippers of Sheogorath dwell there, protected by terrible sorceries and summonings. First, you will go to Ald Daedroth and make it safe for the Ahemmusa. Then you will return, and I will accompany you there, and if Ald Daedroth is a safe place for my people, then I will name you Nerevarine.
-在过去的季节里，当受到威胁时，阿希穆萨人可以在奥德-迪德洛斯的废墟中躲避。但现在，女祭司赫里雷尼·英达维尔来到这里，修复了迪德拉圣祠，谢尔格拉斯的信徒们居住在那里，那里受到可怕的巫术和召唤的保护。首先，你要去奥德-迪德洛斯，保证那个地方安全，然后回来找我，我陪着你去那个地方看看。如果那时候奥德-迪德洛斯对阿希穆萨的族人来说是个安全的地方，那么我就任命你为尼瑞瓦因。 {迪德拉式}
+在过去的季节里，当受到威胁时，阿希穆萨人可以在奥德-迪德洛斯的废墟中躲避。但现在，女祭司赫里雷尼·英达维尔来到这里，修复了迪德拉祭坛，谢尔格拉斯的信徒们居住在那里，那里受到可怕的巫术和召唤的保护。首先，你要去奥德-迪德洛斯，保证那个地方安全，然后回来找我，我陪着你去那个地方看看。如果那时候奥德-迪德洛斯对阿希穆萨的族人来说是个安全的地方，那么我就任命你为尼瑞瓦因。 {迪德拉式}
 
 > INFO.NAME safe place 292442930812206363
 You have made Ald Daedroth a safe refuge for the Ahemmusa. Thank you, %PCName.
@@ -143605,11 +143605,11 @@ No. I had to use it.
 
 > INFO.NAME compassion 102013759499815014
 Seek the Orc called Bulfim gra-Shugarz at the Maelkashishi Shrine. Cure her and learn the meaning of compassion. And if at all possible, return the potion which I have entrusted to your care.
-去梅尔卡诗诗圣祠找那个叫布尔菲姆·格拉-舒加兹的兽人。治好她，学会怜悯之心的意义。如果可能的话，不使用我托付给你的药水，完成任务智慧把药水还给我。
+去梅尔卡诗诗祭坛找那个叫布尔菲姆·格拉-舒加兹的兽人。治好她，学会怜悯之心的意义。如果可能的话，不使用我托付给你的药水，完成任务智慧把药水还给我。
 
 > INFO.NAME compassion 148132270975028751
 Vivec often showed compassion to his enemies. You must show compassion by curing Bulfim gra-Shugarz, a Sheogorath worshipper in Maelkashishi. Take this potion of cure blight. You can cure Bulfim by giving her the potion... But it is expensive. I would prefer you learned a spell such as "Rilm's Gift" and returned the potion to me.
-维威克经常对他的敌人表示同情。你必须通过治愈布尔菲姆·格拉-舒加兹来表达你的怜悯之心，她是谢尔格拉斯的信徒。去梅尔卡诗诗圣祠找到她，给她服用这种治愈枯萎病的药水，就能治好布尔菲姆…但是很药水贵。我希望你能学会“蕾姆之赐”之类的咒语，然后在完成任务后把药水还给我。
+维威克经常对他的敌人表示同情。你必须通过治愈布尔菲姆·格拉-舒加兹来表达你的怜悯之心，她是谢尔格拉斯的信徒。去梅尔卡诗诗祭坛找到她，给她服用这种治愈枯萎病的药水，就能治好布尔菲姆…但是很药水贵。我希望你能学会“蕾姆之赐”之类的咒语，然后在完成任务后把药水还给我。
 
 > INFO.NAME mount kand 408123122128446361
 Mount Kand is in the Molag Amur region. Speak to Nevosi Hlan, shipmaster at the Ebonheart docks. Take a ship to Tel Branora; from there, you can get a ship to Molag Mar. From Molag Mar travel on foot north by roads, watching for signs to Mount Kand. I don't know the region myself, but I've heard it is wild and dangerous, and easy to get lost in.
@@ -144969,7 +144969,7 @@ You already cleansed the dark cult from Ihinipalit? Then you have earned the res
 
 > INFO.NAME ihinipalit 15056236732001914979
 Yes, I heard Bjadmund is dead and the dark cult has been cleansed from the shrine of Ihinipalit. You have earned the respect of the Ancestors. Please take this Ancestral Wisdom Staff and my gratitude.
-是的，我听说比加德蒙德已经死了，黑暗教派已经从伊希尼帕里特圣祠中清除了。你赢得了先祖的尊敬。请收下这根先祖智慧之杖和我的谢意。
+是的，我听说比加德蒙德已经死了，黑暗教派已经从伊希尼帕里特祭坛中清除了。你赢得了先祖的尊敬。请收下这根先祖智慧之杖和我的谢意。
 
 > INFO.NAME ihinipalit 13493326771957210662
 Find Ihinipalit beneath the St. Delyn Canton. Bring the Temple's justice to the leader of this cult, Bjadmund.
@@ -144981,7 +144981,7 @@ The cult meets there. I know only that Ihinipalit is somewhere beneath the St. D
 
 > INFO.NAME ihinipalit 574829537840520129
 The cult meets there. I know only that Ihinipalit is somewhere beneath the St. Delyn Canton. Go there with fire in your eyes and in your heart. Bring the Temple's justice to the leader of this cult, Bjadmund. I wish I could accompany you, %PCRank %PCName, but I cannot. However, I can offer you these scrolls. This place holds as much danger as Ald Sotha. I did not believe you were ready, but you have proven me wrong. I hope that you will surprise me and return unharmed from Ihinipalit as well.
-教派在那里集会。我只知道伊希尼帕里特就在圣·德林行政区地下的某个地方。带着你心中的火焰前往那里吧。将神殿的正义带给教派首领比加德蒙德。我希望我能陪着你去，%PCRank%PCName，但我不能。不过，我可以给你这些卷轴。这个地方和奥德-索萨一样危险。我不相信你已经准备好了，但你证明我错了。我希望你能给我一个惊喜，从伊尼帕利特安然归来。
+教派在那里集会。我只知道伊希尼帕里特就在圣·德林行政区地下的某个地方。带着你心中的火焰前往那里吧。将神殿的正义带给教派首领比加德蒙德。我希望我能陪着你去，%PCRank%PCName，但我不能。不过，我可以给你这些卷轴。这个地方和奥德-索萨一样危险。我不相信你已经准备好了，但你证明我错了。我希望你能给我一个惊喜，从伊希尼帕里特安然归来。
 
 > INFO.NAME do you for 27366302862729421428
 Hope you find the book useful. I did.
@@ -145537,7 +145537,7 @@ Ah, the current Guildmaster. It is rumored that he was promoted to his current p
 
 > INFO.NAME trebonius 1561451722031811724
 Imperial s'wit. He knows nothing of the Dunmer and even less of politics. When you're speaking with him, just nod your head and smile and then forget everything he said.
-帝国s'wit（蠢货）。他不懂丹莫，更不懂政治。当你和他说话时，只需点头微笑，然后忘掉他说的一切。 {帝国人}
+帝国蠢货。他不懂丹莫，更不懂政治。当你和他说话时，只需点头微笑，然后忘掉他说的一切。 {帝国人}
 
 > INFO.NAME trebonius 8556272091103422420
 We get along rather well. He is always willing to listen to my advice.
@@ -145569,7 +145569,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 759714111504811569
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 2045219413276165568
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145581,7 +145581,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 2794116671175074785
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 2846845961886214110
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145593,7 +145593,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 1097171743183222167
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 77241274620821358
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145605,7 +145605,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 11010311511205318175
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 236155256884916801
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145617,7 +145617,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 37162473119839664
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 65922119953922641
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145629,7 +145629,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 794819980441023588
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 8776304952224412533
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145641,7 +145641,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 17043244473247132537
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 1623160421777730579
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145653,7 +145653,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 325568552160024441
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 1849438161154415989
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145665,7 +145665,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 151227983342612528
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 2054024116113302079
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145677,7 +145677,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 159970802852018576
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 27623229023092931167
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145689,7 +145689,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 8610175651661230370
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 2375793713139828070
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145701,7 +145701,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 1567317852271643684
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 14940325782851922327
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145713,7 +145713,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 3268218621158529590
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 1100786323161511581
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145725,7 +145725,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 1723931364115259907
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 14474261511955820098
 The Devil Dagoth Ur is dead, and all his kin. And the Blight has gone, too, and the skies are blue over Red Mountain.
@@ -145737,7 +145737,7 @@ It is the Hour of Wakening. He comes forth in his glory, and his people shall re
 
 > INFO.NAME dagoth ur 945742012895524878
 He is the Lord, and Father of the Mountain. He sleeps, but when he wakes, we shall rise from our dreams, shall sweep our land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. 'All shall greet him as flesh, or as dust.'
-他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“n'wah（外地人）”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他沉睡着，但当他醒来之时，我们将从梦中站起，将我们的土地中的“外地人”清扫干净。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 72121090102358916
 He will not come to you, Lord Nerevar. It is you who must beg forgiveness. Go to him, beneath Red Mountain, kneel before him, and he will show you mercy.
@@ -145781,15 +145781,15 @@ Dagoth Ur is the Awakened Lord of the Sixth House, come to cast down false gods,
 
 > INFO.NAME dagoth ur 272538181106332984
 He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."
-他是主，他是山之父。他醒来之时，大地也随之苏醒。所有的土地，所有的人民，都将从沉睡中苏醒，将这片土地上的“n'wah（外地人）”一扫而空。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他醒来之时，大地也随之苏醒。所有的土地，所有的人民，都将从沉睡中苏醒，将这片土地上的“外地人”一扫而空。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 870214545525920274
 He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."
-他是主，他是山之父。他醒来之时，大地也随之苏醒。所有的土地，所有的人民，都将从沉睡中苏醒，将这片土地上的“n'wah（外地人）”一扫而空。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他醒来之时，大地也随之苏醒。所有的土地，所有的人民，都将从沉睡中苏醒，将这片土地上的“外地人”一扫而空。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 12386198611142525550
 He is the Lord, and Father of the Mountain. He wakes, and the land wakes with him. All the land, and all of its people, shall rise from sleep, and sweep the land clean of the n'wah. Why have you denied him? As Lord Dagoth has said. "All shall greet him as flesh, or as dust."
-他是主，他是山之父。他醒来之时，大地也随之苏醒。所有的土地，所有的人民，都将从沉睡中苏醒，将这片土地上的“n'wah（外地人）”一扫而空。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
+他是主，他是山之父。他醒来之时，大地也随之苏醒。所有的土地，所有的人民，都将从沉睡中苏醒，将这片土地上的“外地人”一扫而空。你为什么要拒绝他？达格斯大人说过，“所有人都将以肉身或尘土迎接他”。 {沙尔}
 
 > INFO.NAME dagoth ur 826279552648327963
 It is the Hour of Wakening. He comes forth in his glory, and his people shall rejoice, and his enemies shall scatter like dust.
@@ -146269,7 +146269,7 @@ You've already killed the Necromancer in Odirniran? Good work. Take these 500 dr
 
 > INFO.NAME odirniran 8317258352062724216
 Go to Odirniran, on Azura's coast, west of the shrine to Azura and south of the old Dwemer ruins of Nchurdamz. I will mark these ruins on your map. If there are any survivors, ask them what needs to be done. If there are no survivors, take revenge on the foul Telvanni there.
-去奥迪尔尼兰，阿祖拉海岸，阿祖拉圣祠以西，恩楚尔达姆兹古老的锻莫废墟以南。我会在你的地图上标出这些废墟。如果有幸存者，问问他们需要做什么。如果没有幸存者，就向那里肮脏的泰瓦尼家族的人复仇。
+去奥迪尔尼兰，阿祖拉海岸，阿祖拉祭坛以西，恩楚尔达姆兹古老的锻莫废墟以南。我会在你的地图上标出这些废墟。如果有幸存者，问问他们需要做什么。如果没有幸存者，就向那里肮脏的泰瓦尼家族的人复仇。
 
 > INFO.NAME odirniran 2714427483100712578
 House Hlaalu will be able to hold Odirniran now, %PCName.
@@ -146345,7 +146345,7 @@ Yes, the leader of the Hlaalu in Odirniran has been retired... Perhaps they will
 
 > INFO.NAME odirniran 28906155033167413424
 It is on Azura's coast, west of the shrine to Azura and south of the old Dwemer ruins of Nchurdamz. I will mark these ruins on your map. Go there and speak with Milyn Faram who is under attack by forces of House Hlaalu. He is probably making his last stand at the top of his tower.
-它位于阿祖拉海岸，阿祖拉圣祠以西，恩楚尔达姆兹古老的锻莫废墟以南。我会在你们的地图上标出这些废墟。去那里和米林·法拉姆谈谈，他正受到哈拉鲁家族军队的攻击。他可能正在塔楼顶端做最后的抵抗。
+它位于阿祖拉海岸，阿祖拉祭坛以西，恩楚尔达姆兹古老的锻莫废墟以南。我会在你们的地图上标出这些废墟。去那里和米林·法拉姆谈谈，他正受到哈拉鲁家族军队的攻击。他可能正在塔楼顶端做最后的抵抗。
 
 > INFO.NAME game rats 1901166683196814348
 I'm glad you spared my game rats. Go talk to Edryno Arethi. I told her to give you a bonus if you did your job well.
@@ -147605,7 +147605,7 @@ Figures. No one left in this world willing to help an honest trader.
 
 > INFO.NAME robbed me 48797672435519363
 Yes, the bastard n'wahs nearly killed me, and they took my entire shipment of guar hides. It's easy to tell they're mine; they have my damn mark on them! Look, if you can help me get those hides back, and kill the fetchers who stole them, I promise you an excellent reward. Although I have nothing left since I was attacked, my friend Berwen in Tel Mora will be most generous, I promise you. What do you say?
-是啊，那群混蛋n'wah（外地人）差点杀了我，还抢走了我的整批瓜尔皮。很容易就能分辨出那是我的，上面有我该死的标记！听着，如果你能帮我拿回那些瓜尔皮，并杀死偷走瓜尔皮的取皮人，我保证会给你丰厚的报酬。虽然我被袭击后一无所有，但我向你保证，我的朋友伯雯会非常慷慨，他就在泰尔-莫拉。你觉得怎么样？ {瓜尔的皮,没什么好说的}
+是啊，那群混蛋外地人差点杀了我，还抢走了我的整批瓜尔皮。很容易就能分辨出那是我的，上面有我该死的标记！听着，如果你能帮我拿回那些瓜尔皮，并杀死偷走瓜尔皮的取皮人，我保证会给你丰厚的报酬。虽然我被袭击后一无所有，但我向你保证，我的朋友伯雯会非常慷慨，他就在泰尔-莫拉。你觉得怎么样？ {瓜尔的皮,没什么好说的}
 
 > INFO.BNAM robbed me 48797672435519363 c1
 I'll see if I can find your hides for you.
@@ -148169,7 +148169,7 @@ So Honthjolf is dead. It is always sad when someone betrays the Legions, but we 
 
 > INFO.NAME honthjolf 17800272171933632584
 Honthjolf was once a member of the Order of Ebonheart. He turned our backs on us and works as a guard for Llarusea Andrethi in Aharnabi, a foul den of sorcerers and Daedra worshippers on the far southeast corner of Azura's coast, near the Shrine of Azura. Find the traitor and kill him.
-赫斯乔夫曾经是黑檀心骑士团的一员。他背弃了我们，在阿哈纳比给拉卢西娅·安德雷提当卫兵，阿哈纳比是阿祖拉海岸东南角的一个术士和迪德拉崇拜者的肮脏巢穴，靠近阿祖拉圣祠。找到叛徒并杀了他。 {工作,瓜尔}
+赫斯乔夫曾经是黑檀心骑士团的一员。他背弃了我们，在阿哈纳比给拉卢西娅·安德雷提当卫兵，阿哈纳比是阿祖拉海岸东南角的一个术士和迪德拉崇拜者的肮脏巢穴，靠近阿祖拉祭坛。找到叛徒并杀了他。 {工作,瓜尔}
 
 > INFO.NAME apologies 212731722754717191
 I suppose there's nothing more to say about this.
@@ -151093,7 +151093,7 @@ Me? Well, I have done a few pieces. Mostly, Ghorak just throw them really far. Y
 
 > INFO.BNAM sculptor 2882619774129331461 c1
 I wish for you to recreate the Shrine of Boethiah.
-我希望你能重现波耶西亚的圣祠。
+我希望你能重现波耶西亚祭坛。
 
 > INFO.BNAM sculptor 2882619774129331461 c2
 No, I'm not interested in your work.
@@ -151145,7 +151145,7 @@ Sulipund is further along the trail from Punabi. Sulipund is just before the for
 
 > INFO.NAME kogoruhn 1131515014464226706
 Kogoruhn was an ancient Dunmer stronghold. Here. Let me mark it on your map. Go by day, in good weather, or you may miss your way. Follow the coast east from Urshilaku camp to the ruined Dunmer stronghold called Valenvaryon, then turn southwest. You'll see Ebernanit, a ruined Daedric shrine. Continue south from Ebernanit to Kogoruhn, a great table of stone with many ruined buildings. There are many rooms. The passages are old and deep. Beneath are caves with pools of fire. It is a bad place. Go prepared.
-科戈汝因是丹莫的一个古老堡垒。在这里，让我在你的地图上做个记号。等白天的时候再去，天气好的时候，否则你可能会迷路。从乌尔希拉库营地沿海岸线向东走，到达名为瓦伦瓦里昂的丹莫废墟堡垒，然后转向西南。你会看到一座被毁的迪德拉圣祠艾伯纳尼特。从艾伯纳尼特继续向南走，就到了科戈汝因，这是一个巨大的石台，上面有许多被毁坏的建筑。这里有很多房间，通道古老而幽深。下面是有火池的洞穴。这是个糟糕的地方，有备无患。 {迪德拉式}
+科戈汝因是丹莫的一个古老堡垒。在这里，让我在你的地图上做个记号。等白天的时候再去，天气好的时候，否则你可能会迷路。从乌尔希拉库营地沿海岸线向东走，到达名为瓦伦瓦里昂的丹莫废墟堡垒，然后转向西南。你会看到一座被毁的迪德拉祭坛艾伯纳尼特。从艾伯纳尼特继续向南走，就到了科戈汝因，这是一个巨大的石台，上面有许多被毁坏的建筑。这里有很多房间，通道古老而幽深。下面是有火池的洞穴。这是个糟糕的地方，有备无患。 {迪德拉式}
 
 > INFO.NAME j'saddha 312401251667414385
 We have taken him to friends on the mainland. He will return to his homeland.
@@ -154977,7 +154977,7 @@ Ha!
 
 > INFO.NAME attack 8702158311262415515
 This is the end of you, s'wit.
-你的末日到了，s'wit（蠢货）。
+你的末日到了，蠢货。
 
 > INFO.NAME attack 20211182512817119366
 Your life's end is approaching.
@@ -155785,7 +155785,7 @@ There is no escape!
 
 > INFO.NAME attack 1092418785295565404
 This is the end of you, s'wit.
-你的末日到了，s'wit（蠢货）。
+你的末日到了，蠢货。
 
 > INFO.NAME attack 31229107821559032208
 You will suffer greatly!
@@ -155797,7 +155797,7 @@ Die, fetcher.
 
 > INFO.NAME attack 28709294402365525299
 You n'wah!
-你这个n'wah（外地人）！
+你这个外地人！
 
 > INFO.NAME attack 14294188750320181
 Surrender your life to me and I will end your pain!
@@ -155853,7 +155853,7 @@ ARRRR!
 
 > INFO.NAME attack 1282210422208319210
 You n'wah!
-你这个n'wah（外地人）！
+你这个外地人！
 
 > INFO.NAME attack 14054180582060016307
 Die, fetcher.
@@ -156409,7 +156409,7 @@ I'm not ready for you yet. And you're not at the level of performance I'm lookin
 
 > INFO.NAME orders 2581185871472231536
 And these are Sharn's notes on the Nerevarine cult? Excellent. I'm promoting you to Blades Apprentice, %PCName. Now give me some time to think how this fits in with the Emperor's plans for you. And I'd like to see you at a higher level of conditioning before I send you out again. So take some time to polish your skills and enhance your cover story with a little freelance adventuring. Then, when you're at the level of performance I want to see, I'll have new orders ready for you.
-这些是沙恩关于尼瑞瓦因教派的笔记？好极了。我升你为刀锋学徒，%PCName。现在给我点时间想想，这和皇帝为你准备的计划有什么关系。在我再次派你出去之前，我希望你能达到更高的境界。所以，花点时间磨练你的技能，通过一些自由冒险来增强你的掩护能力，等你的表现达到了我的要求，我就会给你下达新的命令。 {指示}
+这些是沙恩关于尼瑞瓦因教派的笔记？好极了。我升你为刀锋学徒，%PCName。现在给我点时间想想，这和皇帝为你准备的计划有什么关系。在我再次派你出去之前，我希望你能达到更高的境界。所以，花点时间磨练你的技能，通过一些自由冒险来增强你的掩护能力，等你的表现达到了我的要求，我就会给你下达新的指示。
 
 > INFO.NAME orders 1769827919139593749
 Oh, dear. Sharn gave you notes on the Nerevarine cult. But you can't GIVE them to me. Because you don't HAVE them. Well? What are you waiting for? Go get the notes. Bring them to me. Fly like the wind.
@@ -168509,11 +168509,11 @@ We end all talk now.
 
 > INFO.NAME hello 530230356222187880
 Filthy s'wit!
-肮脏的s'wit（蠢货）！
+肮脏的蠢货！
 
 > INFO.NAME hello 24610257047534695
 What, n'wah?
-什么事，n'wah（外地人）？
+什么事，外地人？
 
 > INFO.NAME hello 720919475141138618
 Go now.
@@ -169677,11 +169677,11 @@ We end all talk now.
 
 > INFO.NAME hello 4308193263001812896
 Filthy s'wit!
-肮脏的s'wit（蠢货）！
+肮脏的蠢货！
 
 > INFO.NAME hello 2043642502037723323
 What, n'wah?
-什么事，n'wah（外地人）？
+什么事，外地人？
 
 > INFO.NAME hello 31985114281381823421
 Go now.
@@ -172997,7 +172997,7 @@ There is no escape!
 
 > INFO.NAME thief 188122352300623914
 Filthy S'wit!
-肮脏的S'wit（蠢货）！
+肮脏的蠢货！
 
 > INFO.NAME thief 11856209471280716543
 Help!
@@ -173013,7 +173013,7 @@ Grab him!
 
 > INFO.NAME thief 2992730408848915825
 Filthy S'wit!
-肮脏的S'wit（蠢货）！
+肮脏的蠢货！
 
 > INFO.NAME thief 7832103221311512038
 That is quite enough thief!
@@ -173721,7 +173721,7 @@ If you wanted the pants that bad, why didn't you say so? Here, take 'em. It was 
 
 > INFO.NAME pants 2268524931304865024
 Why do you want Hentus' pants? That s'wit couldn't put them on without help.
-你为什么想要亨特斯的裤子？那个s'wit（蠢货）没有人帮他穿上裤子。
+你为什么想要亨特斯的裤子？那个蠢货没有人帮他穿上裤子。
 
 > INFO.NAME pants 2212525530191638887
 Thanks for getting my pants back.
