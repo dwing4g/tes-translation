@@ -1,12 +1,107 @@
 
-settings = {
-    key = 'SettingsPlayer'..MODNAME,
-    page = MODNAME,
-    l10n = MODNAME,
-    name = MODNAME,
-	description = "",
-    permanentStorage = true,
-    settings = {
+local tempKey
+local orderCounter = 0
+local function getOrder()
+	orderCounter = orderCounter + 1
+	return orderCounter
+end
+
+local settingsTemplate = {}
+local presetColors = {
+    "c83c1e", --HEALTH_COL red
+    "9b050a", --HEALTHLAG_COL red dark
+    "3ca01e", -- HEALING_COL green
+    "00963c", -- FATIGUE_COL green
+    "f3ed16", -- FATIGUELAG_COL yellow
+    "35459f", -- MAGICKA_COL blue
+    "5a0f8c", -- MAGICKALAG_COL purple
+
+-- vanilla colors:
+    "caa560", -- fontColor_color_normal
+    "d4b77f", -- goldenMix
+    "dfc99f", -- FontColor_color_normal_over
+    "eee2c9", -- lightText
+    "253170", -- fontColor_color_journal_link
+    "3a4daf", -- fontColor_color_journal_link_over
+    "707ecf", -- fontColor_color_journal_link_pressed
+}
+
+
+local colorRenderer =  "SuperColorPicker2"
+
+tempKey = "General"
+settingsTemplate[tempKey] = {
+    key = 'Settings'..MODNAME..tempKey,
+	page = MODNAME,
+	l10n = MODNAME,
+	name = tempKey.."                                             ", -- lol
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
+			key = "LAGBAR",
+			renderer = "checkbox",
+			name = "Damage-Bar",
+			description = "Visualizes recently lost resources",
+			default = true,
+		},
+		{
+			key = "HEALBAR",
+			renderer = "checkbox",
+			name = "Healbar",
+			description = "Visualizes incoming healing",
+			default = true,
+		},
+		{
+			key = "PERFORMANCE_MODE",
+			renderer = "checkbox",
+			name = "Performance mode",
+			description = "For low end systems or when you have a very high framerate anyway\nOnly updates one resource per frame",
+			default = true,
+		},
+		{
+			key = "POSITION",
+			name = "Position",
+			description = "you can drag them around if they are not locked",
+			default = "Bottom Left", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = MODNAME, 
+				items = {"Bottom Left", "Top Left"},
+			},
+		},
+		{
+			key = "LOCKED",
+			renderer = "checkbox",
+			name = "Position locked",
+			description = "Lock bar position\nMakes bars click-through\nThis will also hide bars during loading screens",
+			default = true,
+		},
+	},
+}
+
+
+tempKey = "Size"
+settingsTemplate[tempKey] = {
+    key = 'Settings'..MODNAME..tempKey,
+	page = MODNAME,
+	l10n = MODNAME,
+	name = tempKey.."                                             ", -- lol
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
+			key = "THICKNESS",
+			name = "Thickness",
+			description = "You can use the mousewheel when dragging them around\n(if they are not locked)",
+			renderer = "number",
+			default = 12,
+			argument = {
+				min = 1,
+				max = 1000,
+			},
+		},
 		{
 			key = "LENGTH_MULT",
 			name = "Bar length Multiplier",
@@ -42,20 +137,18 @@ settings = {
 				max = 1,
 			},
 		},
-		{
-			key = "LAGBAR",
-			renderer = "checkbox",
-			name = "Damage-Bar",
-			description = "Visualizes recently lost resources",
-			default = true,
-		},
-		{
-			key = "HEALBAR",
-			renderer = "checkbox",
-			name = "Healbar",
-			description = "Visualizes incoming healing",
-			default = true,
-		},
+	},
+}
+
+tempKey = "Appearance"
+settingsTemplate[tempKey] = {
+    key = 'Settings'..MODNAME..tempKey,
+	page = MODNAME,
+	l10n = MODNAME,
+	name = tempKey.."                                             ", -- lol
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
 			key = "TEXT",
 			name = "Text",
@@ -90,36 +183,6 @@ settings = {
 				disabled = false,
 				l10n = MODNAME, 
 				items = {"none", "thin", "normal", "thick", "verythick"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
-			},
-		},
-		{
-			key = "POSITION",
-			name = "Position",
-			description = "",
-			default = "Bottom Left", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = MODNAME, 
-				items = {"Bottom Left", "Top Left"},
-			},
-		},
-		{
-			key = "LOCKED",
-			renderer = "checkbox",
-			name = "Position locked",
-			description = "Lock bar position\nMakes bars click-through\nThis will also hide bars during loading screens",
-			default = true,
-		},
-		{
-			key = "THICKNESS",
-			name = "Thickness",
-			description = "of the bars",
-			renderer = "number",
-			default = 12,
-			argument = {
-				min = 1,
-				max = 1000,
 			},
 		},
 		{
@@ -171,6 +234,18 @@ settings = {
 			},
 			renderer = "number",
 		},
+	},
+}
+
+tempKey = "Colors"
+settingsTemplate[tempKey] = {
+    key = 'Settings'..MODNAME..tempKey,
+	page = MODNAME,
+	l10n = MODNAME,
+	name = tempKey.."                                             ", -- lol
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
 			key = "HEALTH_COL",
 			name = "Health Color",
@@ -179,7 +254,8 @@ settings = {
 			default =  util.color.hex("c83c1e"), --red
 			--default =  util.color.hex("a00004"), --red
 			--default =  util.color.hex("b7b7b7"), --white
-			renderer = "color",
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "HEALTHLAG_COL",
@@ -189,7 +265,8 @@ settings = {
 			default =  util.color.hex("9b050a"), --red
 			--default =  util.color.hex("a00004"), --red
 			--default =  util.color.hex("b7b7b7"), --white
-			renderer = "color",
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "HEALING_COL",
@@ -197,15 +274,17 @@ settings = {
 			description = "Color of incoming healing",
 			disabled = false,
 			default = util.color.hex("3ca01e"), --green
-			renderer = "color",
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "FATIGUE_COL",
 			name = "Fatigue Color",
 			description = "",
 			disabled = false,
-			default = util.color.hex("00963c"), --yellow
-			renderer = "color",
+			default = util.color.hex("00963c"), --green
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "FATIGUELAG_COL",
@@ -213,58 +292,46 @@ settings = {
 			description = "Color of recently lost fatigue",
 			disabled = false,
 			default = util.color.hex("f3ed16"), --yellow
-			renderer = "color",
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "MAGICKA_COL",
 			name = "Magicka Color",
 			description = "",
 			disabled = false,
-			default = util.color.hex("35459f"), --green
-			renderer = "color",
+			default = util.color.hex("35459f"), --blue
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "MAGICKALAG_COL",
 			name = "Magicka Damage Color",
 			description = "Color of recently lost magicka",
 			disabled = false,
-			default = util.color.hex("5a0f8c"), --green
-			renderer = "color",
-		},
-		{
-			key = "PERFORMANCE_MODE",
-			renderer = "checkbox",
-			name = "Performance mode",
-			description = "For low end systems or when you have a very high framerate anyway\nOnly updates one resource per frame",
-			default = true,
-		},
-	}
+			default = util.color.hex("5a0f8c"), --purple
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
+		}
+	},
 }
 
-function readAllSettings()
-	for i, entry in pairs(settings.settings) do
-		_G[entry.key] = playerSettings:get(entry.key)
+-- Settings Migration
+local legacySection = storage.playerSection('SettingsPlayer'..MODNAME)
+if legacySection:get("TEXT") then
+	for id, template in pairs(settingsTemplate) do
+		local settingsSection = storage.playerSection(template.key)
+		for i, entry in pairs(template.settings) do
+			settingsSection:set(entry.key, legacySection:get(entry.key) or entry.default)
+		end
 	end
+	legacySection:reset()
 end
 
-readAllSettings()
-
-
-local function updateSettings(_, setting)
-	if setting == "POSITION" then
-		saveData.windowPos = nil
-	end
-	readAllSettings()
-	calculateBarPositions()
-	if container then
-		container:destroy()
-	end
-	container = nil
-	--makeUI()
+for id, template in pairs(settingsTemplate) do
+	
+	I.Settings.registerGroup(template)
 end
-
-
-I.Settings.registerGroup(settings)
 
 
 I.Settings.registerPage {
@@ -274,6 +341,79 @@ I.Settings.registerPage {
     description = MODNAME
 }
 
+-- called on init and when settings change
+local function readAllSettings()
+	for _, template in pairs(settingsTemplate) do
+		local settingsSection = storage.playerSection(template.key)
+		for i, entry in pairs(template.settings) do
+			_G[entry.key] = settingsSection:get(entry.key)
+		end
+	end
+end
 
-playerSettings:subscribe(async:callback(updateSettings))
-return true
+readAllSettings()
+for _, template in pairs(settingsTemplate) do
+	local sectionName = template.key
+	local settingsSection = storage.playerSection(template.key)
+	settingsSection:subscribe(async:callback(function (_,setting)
+		local oldValue = _G[setting]
+		_G[setting] = settingsSection:get(setting)
+		--print(setting.." changed to "..settingsSection:get(setting))
+		--readAllSettings()
+		if setting == "POSITION" then
+			saveData.windowPos = nil
+		end
+		calculateBarPositions()
+		if container and setting == "THICKNESS" then
+			calculateBarPositions() -- barThickness, verticalOffset
+			local pos =  POSITION == "Bottom Left" and 0 or (4-#widgets) * verticalOffset - barThickness
+	
+			container.layout.props.size = v2(-startOffset,3*verticalOffset)
+			container:update()
+			
+			container.layout.content[1].layout.props.size = v2(0,barThickness)
+			container.layout.content[1].layout.props.position = v2(0,-pos)
+			container.layout.content[1]:update()
+			if container.layout.content[1].layout.content[2].layout.content.text then
+			--	container.layout.content[1].layout.content[2].layout.content.text.props.position = v2(2, -math.floor(barThickness/12))
+				container.layout.content[1].layout.content[2].layout.content.text.props.textSize = barThickness+math.floor(barThickness/6)
+			--	container.layout.content[1].layout.content[2]:update()
+			end
+			pos = pos+verticalOffset
+			
+			container.layout.content[2].layout.props.size = v2(0,barThickness)
+			container.layout.content[2].layout.props.position = v2(0,-pos)
+			container.layout.content[2]:update()
+			if container.layout.content[2].layout.content[2].layout.content.text then
+			--	container.layout.content[2].layout.content[2].layout.content.text.props.position = v2(2, -math.floor(barThickness/12))
+				container.layout.content[2].layout.content[2].layout.content.text.props.textSize = barThickness+math.floor(barThickness/6)
+			--	container.layout.content[2].layout.content[2]:update()
+			end
+			pos = pos+verticalOffset
+			
+			container.layout.content[3].layout.props.size = v2(0,barThickness)
+			container.layout.content[3].layout.props.position = v2(0,-pos)
+			container.layout.content[3]:update()
+			if container.layout.content[3].layout.content[2].layout.content.text then
+			--	container.layout.content[3].layout.content[2].layout.content.text.props.position = v2(2, -math.floor(barThickness/12))
+				container.layout.content[3].layout.content[2].layout.content.text.props.textSize = barThickness+math.floor(barThickness/6)
+			--	container.layout.content[3].layout.content[2]:update()
+			end
+			pos = pos+verticalOffset
+			updateAll = true
+			for _,resource in pairs(widgets) do
+				update(_G[resource], resource, 0, resource == "fatigue" and 1 or 0)
+			end
+			updateAll = false
+			return
+		end
+		
+		
+		--readAllSettings()
+		
+		if container then
+			container:destroy()
+		end
+		container = nil
+	end))
+end

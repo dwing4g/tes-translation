@@ -3,7 +3,7 @@ NPC = require('openmw.types').NPC
 core = require('openmw.core')
 storage = require('openmw.storage')
 MODNAME = "BetterBars"
-playerSettings = storage.playerSection('SettingsPlayer'..MODNAME)
+thicknessSection = storage.playerSection('Settings'..MODNAME.."Size")
 I = require("openmw.interfaces")
 self = require("openmw.self")
 nearby = require('openmw.nearby')
@@ -38,7 +38,7 @@ local uiSize = ui.layers[layerId].size
 local uiScale = screenres.x / uiSize.x
 
 local averageLength = 0
-local widgets = {"magicka","fatigue", "health"}
+widgets = {"magicka","fatigue", "health"}
 local hudVisible = I.UI.isHudVisible()
 local iterateWidgets = nil
 
@@ -191,7 +191,7 @@ function makeUI()
 									--relativePosition= v2(0,0.5),
 									tileH = true,
 									tileV = false,
-									color =  playerSettings:get(resource:upper().."LAG_COL"),
+									color =  _G[resource:upper().."LAG_COL"],
 									position = v2(borderOffset,borderOffset),
 									--size = v2(-2,-3),
 									size = v2(current*LENGTH_MULT-borderOffset*2,-borderOffset*2),
@@ -206,7 +206,7 @@ function makeUI()
 									resource = foreground,
 									tileH = false,
 									tileV = false,
-									color =  playerSettings:get(resource:upper().."_COL"),
+									color =  _G[resource:upper().."_COL"],
 									--position = v2(1, 1),
 									position = v2(borderOffset,borderOffset),
 									size = v2(math.min(max,current)*LENGTH_MULT-borderOffset*2,-borderOffset*2),
@@ -243,13 +243,13 @@ function makeUI()
 							} or {},
 						})
 					}),
-					playerSettings:get(resource:upper().."_FLASHING_THRESHOLD") >0 and ui.create{ -- r.3
+					_G[resource:upper().."_FLASHING_THRESHOLD"] >0 and ui.create{ -- r.3
 						type = ui.TYPE.Image,
 						props = {
 							resource = flashing,
 							tileH = false,
 							tileV = false,
-							color =  playerSettings:get(resource:upper().."LAG_COL"),
+							color =  _G[resource:upper().."LAG_COL"],
 							--position = v2(1, 1),
 							--position = v2(borderOffset,borderOffset),
 							--size = v2(math.min(max,current)*LENGTH_MULT-borderOffset*2,-borderOffset*2),
@@ -357,7 +357,7 @@ function calculateHealing(actor)
 	return incomingHealing
 end
 
-local function update(bar, resource, dt, treshold)
+function update(bar, resource, dt, treshold)
 	local shouldUpdate = false
 	local current = resources[resource](self).current
 	local max = resources[resource](self).base
@@ -586,6 +586,34 @@ function onFrame(dt)
 	end
 end
 
+
+if input.triggers["MenuMouseWheelUp"] then
+	input.registerTriggerHandler("MenuMouseWheelUp", async:callback(function()
+		local vertical = 1
+		if container and container.layout.userData.isDragging then
+			--if input.isShiftPressed() then
+			--	uiSection:set("BACKGROUND_ALPHA", math.min(1, math.max(0, BACKGROUND_ALPHA + vertical/10)))
+			--else
+				thicknessSection:set("THICKNESS", math.max(1, THICKNESS + vertical)) -- minimum 5 to keep readable
+			--end
+		end
+	end))
+end
+if input.triggers["MenuMouseWheelDown"] then
+	input.registerTriggerHandler("MenuMouseWheelDown", async:callback(function()
+		local vertical = -1
+		if container and container.layout.userData.isDragging then
+			--if input.isShiftPressed() then
+			--	uiSection:set("BACKGROUND_ALPHA", math.min(1, math.max(0, BACKGROUND_ALPHA + vertical/10)))
+			--else
+				thicknessSection:set("THICKNESS", math.max(1, THICKNESS + vertical)) -- minimum 5 to keep readable
+			--end
+		end
+	end))
+end
+
+
+
 local function onLoad(data)
 	saveData = data or {}
 	makeUI()
@@ -603,7 +631,4 @@ return {
 		onSave = onSave,
 		--onKeyPress = onKey
     },
-	--eventHandlers = {
-    --    FHB_AI_update = AI_update,
-    --}
 }
