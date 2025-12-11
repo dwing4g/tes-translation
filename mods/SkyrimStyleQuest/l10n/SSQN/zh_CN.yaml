@@ -33,26 +33,27 @@ opt_none: "无"
 
 settings_modName: "天际风格任务通知"
 
-settings_modDesc: "OpenMW版本制作者：Taitechnic\t\tv1.36
-\n原版MWSE模组制作者：Nazz。\n\n这个模组在你开始和完成任务时会通知你。
- 这个想法是模仿天际的任务通知，因此取了这个名字。"
+settings_modDesc: "OpenMW版本作者：Taitechnic\t\tv1.36
+\n基于原版MWSE模组制作者：Nazz。\n\n这个模组在你开始和完成任务、
+及首次进入有名字的地点时会通知你。这个想法是模仿天际的横幅通知，
+因此取了这个名字。"
 
 settings_modCategory1_name: "偏好"
 settings_modCategory1_setting01_name: "开始/完成任务时开启通知"
 settings_modCategory1_setting01a_name: "显示任务通知图标"
 settings_modCategory1_setting01b_name: "启用新地名发现通知"
 settings_modCategory1_setting01c_name: "用大写显示新地名"
-settings_modCategory1_setting01d_name: "栏名称文字的字体大小"
-settings_modCategory1_setting01e_name: "栏标题文字的字体大小"
+settings_modCategory1_setting01d_name: "横幅名称文字的字体大小"
+settings_modCategory1_setting01e_name: "横幅标题文字的字体大小"
 
-settings_modCategory1_setting02_name: "透明的通知栏"
-settings_modCategory1_setting03_name: "通知栏在屏幕的位置"
+settings_modCategory1_setting02_name: "通知横幅的透明度(0-100)"
+settings_modCategory1_setting03_name: "通知横幅的屏幕位置"
 settings_modCategory1_setting03_desc: "水平位置 0.0 = 左边缘, 1.0 = 右边缘"
 
 settings_modCategory1_setting04_name: ""
 settings_modCategory1_setting04_desc: "垂直位置 0.0 = 上边缘, 1.0 = 下边缘"
 
-settings_modCategory1_setting04a_name: "通知栏动画风格"
+settings_modCategory1_setting04a_name: "通知横幅的动画风格"
 
 settings_modCategory1_setting05_name: "显示通知时长(秒)"
 
@@ -68,7 +69,7 @@ settings_modCategory1_setting08_desc: "选择任务完成时播放的音效。
 settings_modCategory1_setting09a_name: "目标通知音效"
 settings_modCategory1_setting09a_desc: "当所有其它类型的通知显示时播放的音效。
  用于发现新地点。\n\n默认: UI目标1"
- 
+
 settings_modCategory1_setting10_name: "日志更新音效"
 settings_modCategory1_setting10_desc: "当日志中有新条目时播放的音效。
 \n\n默认: 纸上书写"
@@ -78,6 +79,6 @@ settings_modCategory1_setting07_desc: "Sound\\文件夹内的文件路径，包�
 settings_modCategory1_setting09_name: "自定义音效文件2"
 settings_modCategory1_setting11_name: "自定义音效文件3"
 
-settings_modCategory1_setting12_name: "运行通知栏测试模式"
+settings_modCategory1_setting12_name: "运行通知横幅的测试模式"
 
 

@@ -121,11 +121,22 @@ I.Settings.registerGroup({
             min = 2.0,
          },
 	},
+--[[
       {
          key = "bannertransp",
          default = false,
          renderer = "checkbox",
          name = "settings_modCategory1_setting02_name",
+      },
+--]]
+      {
+         key = "bannerAlpha",
+         default = 75.0,
+         renderer = "number",
+         name = "settings_modCategory1_setting02_name",
+         argument = {
+            min = 0.0, max = 100.0,
+         },
       },
 	{
          key = "bannerposx",

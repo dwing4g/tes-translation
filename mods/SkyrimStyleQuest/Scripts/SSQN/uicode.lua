@@ -4,6 +4,7 @@ local core = common.omw.core
 local I = common.omw.interfaces
 local util = common.omw.util
 local l10n = common.omw.l10n
+local auxUi = require("openmw_aux.ui")
 
 
 local function gmstToRgb(id, blend)
@@ -33,8 +34,20 @@ function self.renderBanner(m)
 		fadeStart = m.duration + (m.onlyFade and 0 or 0.15)
 	}
 
-	local template = m.transparent and I.MWUI.templates.boxTransparentThick
-		or I.MWUI.templates.boxSolidThick
+--	local template = m.transparent and I.MWUI.templates.boxTransparentThick
+--		or I.MWUI.templates.boxSolidThick
+	local template = auxUi.deepLayoutCopy(I.MWUI.templates.boxThick)
+	template.content:insert(1, {
+		type = ui.TYPE.Image,
+		props = {
+			resource = ui.texture { path = "white" },
+			color = util.color.rgb(0, 0, 0),
+			alpha = m.transparency,
+			relativeSize = util.vector2(1, 1),
+			size = (util.vector2(1, 1) * 4) * 2,
+	        },
+	})
+
 
 	local endCap = { type = ui.TYPE.Image,
 		props = {

@@ -14,7 +14,7 @@ local l10n = core.l10n("SSQN")
 
 local soundfiles = require("scripts.SSQN.configSound")
 local comments = {}
--- local comments = require("scripts.SSQN.comments")
+--	local comments = require("scripts.SSQN.comments")
 
 local settings = storage.playerSection("Settings_openmw_SSQN")
 
@@ -25,15 +25,7 @@ common = { omw = { ui=ui, core=core, interfaces=I, util=util, l10n=l10n },
 
 local playerqlist = { ["testbanner_id"] = true }
 local element = nil
-local questnames = {}
---[[
-if core.dialogue then
-	questnames = {}
-else
-	questnames = require("scripts.SSQN.qnamelist")
-	print("No dialogue API. Using qnamelist.lua ...")
-end
---]]
+
 local iconlist = {}		local ignorelist = {}
 local updateList = {}
 
@@ -170,8 +162,6 @@ local function getQuestName(i)
 	if core.dialogue then
 		name = core.dialogue.journal.records[i]
 		if name then		name = name.questName		end
-	else
-		name = questnames[i]
 	end
 	return name
 end
@@ -227,25 +217,10 @@ local function displayPopup(msg)
 		header = nil
 	end
 
-	e.transparent = settings:get("bannertransp")
+--	e.transparent = settings:get("bannertransp")
+	e.transparency = settings:get("bannerAlpha") / 100
 	if not header and not notificationImage then		e.height = 48		end
 	e.bodySize = tonumber(settings:get("textSizeTitle"))
-
---[[
-	local l = txt:len()		local pt = tonumber(settings:get("textSize"))
-	e.bodySize = (l > 34 and pt) or (l > 24 and pt*1.25) or (pt*1.5)
-	if index then
-		e.textX = 0.5		e.showIcon = false
-		e.bodySize = (l > 40 and pt) or (pt*1.25)
-		if txt ~= "New Journal Entry" then
-			e.textY = 0.5	e.showTitle = false	e.height = 48
-		end
-	elseif not e.showIcon then
-		e.textX = 0.5	e.textY = 0.7
-		e.bodySize = (l > 40 and pt) or (l > 30 and pt*1.25) or (pt*1.5)
-	end
-	print(e.bodySize)
---]]
 
 	e.text = txt		e.icon = notificationImage		e.header = header
 	e.onlyFade = common.settings:get("anim_style") ~= "opt_anim_scroll"
@@ -276,7 +251,6 @@ local function displayPopup(msg)
 		sound = core.sound.records[msg.sound]
 	end
 	--	Normalize volume of sound file
---	local sndOpt = {volume = soundfile == soundfiles["snd_sky_quest"] and 2 or 1}
 	local sndOpt = {volume = soundfile and soundfiles.volume[soundfile:lower()] or 1}
 
 	if sound then
@@ -318,6 +292,47 @@ end
 
 local player = { name="" }
 
+local function locationHandler(c)
+	if not(player.cell and c.isExterior and c.name and c.name ~= "") then
+		player.cell = c
+		return
+	end
+	player.cell = c			local name = c.name
+	local s = name:find(",")	if s then name = name:sub(1, s - 1)		end
+--	print("EXT CELL NAME "..name)
+	local cells, found = locations[name:lower()]
+	if not cells then
+		cells = {}
+		locations[name:lower()] = cells
+		if settings:get("showDiscover") then
+			I.SSQN.showBanner{
+				text=settings:get("discoverUpper") and name:upper() or name,
+				header=l10n("text_discover")
+			}
+		end
+	end
+	for _, v in ipairs(cells) do
+		if c.gridX == v.gridX and c.gridY == v.gridY then
+			found = true
+		end
+	end
+	if not found then
+		local p = self.position
+	--	print("NEW ENTRY IN LOCATION "..name)
+		table.insert(cells, {
+			gridX = c.gridX, gridY = c.gridY, name = c.name,
+			time = math.floor(core.getGameTime()),
+			position = util.vector3(math.floor(p.x), math.floor(p.y), math.ceil(p.z))
+		})
+		local l = {}
+		for k, v in ipairs(cells) do
+			l[k] = util.makeReadOnly(v)
+		end
+		proxy.names[name:lower()] = util.makeReadOnly(l)
+	end
+--	player.name = c.name
+end
+
 time.runRepeatedly(function()
 	if settings:get("bannerdemo") and element == nil then
 		local finish = playerqlist.testbanner_id
@@ -327,48 +342,7 @@ time.runRepeatedly(function()
 	else
 		journalHandler()
 	end
-	if self.cell ~= player.cell then
-		local c = self.cell
-		if player.cell and c.isExterior and c.name and c.name ~= "" then
-			local name = c.name
-			local s = name:find(",")	if s then name = name:sub(1, s - 1)		end
-		--	print("EXT CELL NAME "..name)
-			local cells, found = locations[name:lower()]
-			if not cells then
-				cells = {}
-				locations[name:lower()] = cells
-				if settings:get("showDiscover") then
-					I.SSQN.showBanner{
-						text="#{sCell="..name.."}", -- settings:get("discoverUpper") and name:upper() or name,
-						header=l10n("text_discover")
-					}
-				end
-			end
-			for _, v in ipairs(cells) do
-				if c.gridX == v.gridX and c.gridY == v.gridY then
-					found = true
-				end
-			end
-			if not found then
-				local p = self.position
-			--	print("NEW ENTRY IN LOCATION "..name)
-				table.insert(cells, {
-					gridX = c.gridX, gridY = c.gridY, name = c.name,
-					time = math.floor(core.getGameTime()),
-					position = util.vector3(
-						math.floor(p.x), math.floor(p.y), math.ceil(p.z) 
-					)
-				})
-				local l = {}
-				for k, v in ipairs(cells) do
-					l[k] = util.makeReadOnly(v)
-				end
-				proxy.names[name:lower()] = util.makeReadOnly(l)
-			end
---			player.name = c.name
-		end
-		player.cell = c
-	end	
+	if self.cell ~= player.cell then	locationHandler(self.cell)		end	
 end, 1 * time.second)
 
 local dialogTarget

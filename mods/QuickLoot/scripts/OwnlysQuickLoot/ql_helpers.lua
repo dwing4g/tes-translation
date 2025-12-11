@@ -463,7 +463,7 @@ local function formatNumber(num, mode)
 	end
 	infSymbol = false
 	if text == 1/0 then
-		if not playerSection:get("FONT_FIX") then
+		if not FONT_FIX then
 			text = hextoutf8(0x221e)
 		else
 			text = "-" -- instead of "Inf"
@@ -489,7 +489,7 @@ local function formatNumber(num, mode)
 		end
 		text = text.." "..suffixes[i]
 	elseif text >= 1000 then
-		text = math.floor(text/1000)..(not playerSection:get("FONT_FIX") and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%03d", math.floor((text%1000)/100)*100)
+		text = math.floor(text/1000)..(not FONT_FIX and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%03d", math.floor((text%1000)/100)*100)
 	end
 	return ""..text
 end

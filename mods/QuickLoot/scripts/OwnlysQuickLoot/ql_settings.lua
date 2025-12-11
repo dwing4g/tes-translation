@@ -198,13 +198,6 @@ settingsTemplate[tempKey] = {
 			renderer = "color",
 		},
 		{
-			key = "FONT_FIX",
-			name = "Fix buggy font",
-			description = "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font",
-			renderer = "checkbox",
-			default = boolDefault(legacySection:get("FONT_FIX"), true)
-		},
-		{
 			key = "HAND_SYMBOL",
 			name = "Stealing Hand Symbol",
 			description = "Enable the pink hand next to the red text when the container belongs to someone",
@@ -221,6 +214,13 @@ settingsTemplate[tempKey] = {
 				min = 0,
 				max = 1,
 			},
+		},
+		{
+			key = "FONT_FIX",
+			name = "Fix buggy font",
+			description = "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font",
+			renderer = "checkbox",
+			default = boolDefault(legacySection:get("FONT_FIX"), true)
 		},
 	},
 }
