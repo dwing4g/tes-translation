@@ -48,6 +48,7 @@ local tags = {
 	['ARMO.FULL'] = strings,
 	['AVIF.ANAM'] = strings,
 	['AVIF.FULL'] = strings,
+	['BOOK.CNAM'] = strings,
 	['BOOK.FULL'] = strings,
 	['BPTD.BPTN'] = strings,
 	['CELL.FULL'] = strings,
@@ -102,7 +103,7 @@ local tags = {
 	['WOOP.FULL'] = strings,
 	['WOOP.TNAM'] = strings,
 	['WRLD.FULL'] = strings,
-	-- Fallout4 addon
+	-- Fallout4 addons
 	['ACTI.ATTX'] = strings,
 	['ALCH.DNAM'] = strings,
 	['AMMO.ONAM'] = strings,
@@ -132,13 +133,46 @@ local tags = {
 	['TERM.RNAM'] = strings,
 	['TERM.UNAM'] = strings,
 	['TERM.WNAM'] = strings,
+	-- Starfield addons
+	['BIOM.FULL'] = strings,
+	['BOOK.ENAM'] = strings,
+	['BOOK.FNAM'] = strings,
+	['CHAL.FULL'] = strings,
+	['DMGT.FULL'] = strings,
+	['GBFM.FULL'] = strings,
+	['GBFM.HULL'] = strings,
+	['IDLE.FULL'] = strings,
+	['IRES.FULL'] = strings,
+	['IRES.NNAM'] = strings,
+	['LVLN.ONAM'] = strings,
+	['MISC.NNAM'] = strings,
+	['NPC_.LNAM'] = strings,
+	['PKIN.FULL'] = strings,
+	['PMFT.FULL'] = strings,
+	['PNDT.FULL'] = strings,
+	['QUST.QMDP'] = strings,
+	['QUST.QMDS'] = strings,
+	['QUST.QMDT'] = strings,
+	['QUST.QMSU'] = strings,
+	['RACE.FDSL'] = strings,
+	['RACE.SNAM'] = strings,
+	['REFR.UNAM'] = strings,
+	['RSPJ.FULL'] = strings,
+	['STDT.FULL'] = strings,
+	['TMLM.BTXT'] = strings,
+	['TMLM.FULL'] = strings,
+	['TMLM.INAM'] = strings,
+	['TMLM.ISTX'] = strings,
+	['TMLM.ITXT'] = strings,
+	['TMLM.UNAM'] = strings,
+	['WEAP.WABB'] = strings,
 
 	['INFO.NAM1'] = ilstrings,
 
 	-- Skyrim
+	['AMMO.DESC'] = dlstrings,
 	['ARMO.DESC'] = dlstrings,
 	['AVIF.DESC'] = dlstrings,
-	['BOOK.CNAM'] = dlstrings,
 	['BOOK.DESC'] = dlstrings,
 	['COLL.DESC'] = dlstrings,
 	['MESG.DESC'] = dlstrings,
@@ -149,10 +183,13 @@ local tags = {
 	['SHOU.DESC'] = dlstrings,
 	['SPEL.DESC'] = dlstrings,
 	['WEAP.DESC'] = dlstrings,
-	-- Fallout4 addon
+	-- Fallout4 addons
 	['ALCH.DESC'] = dlstrings,
 	['COBJ.DESC'] = dlstrings,
 	['OMOD.DESC'] = dlstrings,
+	-- Starfield addons
+	['CHAL.DESC'] = dlstrings,
+	['RSPJ.DESC'] = dlstrings,
 }
 
 local i = 0
@@ -242,11 +279,13 @@ for line in io.lines(arg[1]) do
 end
 
 local function check(t, name)
+	local n = 0
 	local st = {}
 	for k in pairs(t[1]) do
 		if not t[4][k] then
 			st[#st + 1] = k
 		end
+		n = n + 1
 	end
 	table.sort(st)
 	for _, k in ipairs(st) do
@@ -254,6 +293,7 @@ local function check(t, name)
 		print('WARN: unused in ' .. name .. ': ' .. k .. ': ' .. e)
 		f:write('> ****.**** <', t[3], k, '>\n', addEscape(e), '\n', addEscape(c), '\n\n')
 	end
+	print('INFO: ' .. (n - #st) .. '/' .. n .. ' ' .. name)
 end
 check(strings  , 'strings')
 check(ilstrings, 'ilstrings')
