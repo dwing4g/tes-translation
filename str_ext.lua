@@ -150,31 +150,39 @@ local function hexToInt(s)
 end
 
 local f = io.open(arg[4], 'wb')
-local idTag, id
+local idTag, id, k, v
 for line in io.lines(arg[1]) do
 	i = i + 1
-	local k, v = line:match '^%s*([%w_]+%.[%w_]+)%s+(["%[].*["%]])%s*$'
+	if not k then
+		k, v = line:match '^%s*([%w_]+%.[%w_]+)%s+(["%[].*)$'
+	else
+		v = v .. '\r\n' .. line
+	end
 	if k then
-		local strs = tags[k]
-		if strs then
-			if not idTag or idTag:sub(1,4) ~= k:sub(1,4) then
-				error(i .. ': unmatch tag: ' .. (idTag or '<nil>') .. ' != ' .. k)
+		if v:sub(2, -1):gsub('""', '@'):find '["%]]$' then
+			local strs = tags[k]
+			if strs then
+				if not idTag or idTag:sub(1,4) ~= k:sub(1,4) then
+					error(i .. ': unmatch tag: ' .. (idTag or '<nil>') .. ' != ' .. k)
+				end
+				local idx = hexToInt(v)
+				local e, c = strs[1][idx], strs[2][idx]
+				if e or c then
+					strs[4][idx] = true
+					f:write('> ', k, ' ', id, ' <', strs[3], idx, '>\n', addEscape(e), '\n', addEscape(c), '\n\n')
+				end
+			elseif k:sub(-5, -1) == '.EDID' then
+				idTag = k
+				id = v:gsub('^["%[]', ''):gsub('["%]]$', ''):gsub('%$00$', '')
 			end
-			local idx = hexToInt(v)
-			local e, c = strs[1][idx], strs[2][idx]
-			if e or c then
-				strs[4][idx] = true
-				f:write('> ', k, ' ', id, ' <', strs[3], idx, '>\n', addEscape(e), '\n', addEscape(c), '\n\n')
-			end
-		elseif k:sub(-5, -1) == '.EDID' then
-			idTag = k
-			id = v:gsub('^["%[]', ''):gsub('["%]]$', ''):gsub('%$00$', '')
+			k = nil
 		end
 	elseif line:sub(1, 1) == '-' then
 		k, v = line:match '^%-([%w_]+)%s+%[%x+%s+%x+%s+%x+%s+%x+%s+(%x+%s+%x+%s+%x+%s+%x+)'
 		if k then
 			idTag = k
 			id = '<' .. hexToInt(v) .. '>'
+			k = nil
 		end
 	end
 end
