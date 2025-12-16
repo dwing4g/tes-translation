@@ -1,4 +1,21 @@
--- luajit str_ext.lua skyrim.txt skyrim_english skyrim_chinese skyrim.ext.txt
+-- for %a in (*.esm)    do luajit ../tes3dec.lua %a 1252 raw > %~na.txt
+-- for %a in (*strings) do luajit ../str_dec.lua %a %a.txt
+-- check and change *_en.*strings.txt to utf-8
+-- luajit ../str_ext.lua Skyrim.txt      skyrim_english      skyrim_chinese      Skyrim.ext.txt
+-- luajit ../str_ext.lua Dawnguard.txt   dawnguard_english   dawnguard_chinese   Dawnguard.ext.txt
+-- luajit ../str_ext.lua Dragonborn.txt  dragonborn_english  dragonborn_chinese  Dragonborn.ext.txt
+-- luajit ../str_ext.lua HearthFires.txt hearthfires_english hearthfires_chinese HearthFires.ext.txt
+
+-- for %a in (*.esm)    do luajit ../tes3dec.lua %a 1252 raw > %~na.txt
+-- for %a in (*strings) do luajit ../str_dec.lua %a %a.txt
+-- check and change *_en.*strings.txt to utf-8
+-- luajit ../str_ext.lua Fallout4.txt      Fallout4_en      Fallout4_cn      Fallout4.ext.txt
+-- luajit ../str_ext.lua DLCCoast.txt      DLCCoast_en      DLCCoast_cn      DLCCoast.ext.txt
+-- luajit ../str_ext.lua DLCNukaWorld.txt  DLCNukaWorld_en  DLCNukaWorld_cn  DLCNukaWorld.ext.txt
+-- luajit ../str_ext.lua DLCRobot.txt      DLCRobot_en      DLCRobot_cn      DLCRobot.ext.txt
+-- luajit ../str_ext.lua DLCworkshop01.txt DLCworkshop01_en DLCworkshop01_cn DLCworkshop01.ext.txt
+-- luajit ../str_ext.lua DLCworkshop02.txt DLCworkshop02_en DLCworkshop02_cn DLCworkshop02.ext.txt
+-- luajit ../str_ext.lua DLCworkshop03.txt DLCworkshop03_en DLCworkshop03_cn DLCworkshop03.ext.txt
 
 local function loadStrings(fn)
 	local t = {}
@@ -22,12 +39,14 @@ local ilstrings = { loadStrings(arg[2] .. '.ilstrings.txt'), loadStrings(arg[3] 
 local dlstrings = { loadStrings(arg[2] .. '.dlstrings.txt'), loadStrings(arg[3] .. '.dlstrings.txt'), 'd', {} }
 
 local tags = {
+	-- Skyrim
 	['ACTI.FULL'] = strings,
 	['ACTI.RNAM'] = strings,
 	['ALCH.FULL'] = strings,
 	['AMMO.FULL'] = strings,
 	['APPA.FULL'] = strings,
 	['ARMO.FULL'] = strings,
+	['AVIF.ANAM'] = strings,
 	['AVIF.FULL'] = strings,
 	['BOOK.FULL'] = strings,
 	['BPTD.BPTN'] = strings,
@@ -83,9 +102,40 @@ local tags = {
 	['WOOP.FULL'] = strings,
 	['WOOP.TNAM'] = strings,
 	['WRLD.FULL'] = strings,
+	-- Fallout4 addon
+	['ACTI.ATTX'] = strings,
+	['ALCH.DNAM'] = strings,
+	['AMMO.ONAM'] = strings,
+	['CMPO.FULL'] = strings,
+	['DOOR.CNAM'] = strings,
+	['DOOR.ONAM'] = strings,
+	['FLOR.ATTX'] = strings,
+	['FLST.FULL'] = strings,
+	['FURN.ATTX'] = strings,
+	['INNR.WNAM'] = strings,
+	['KYWD.FULL'] = strings,
+	['LVLI.ONAM'] = strings,
+	['MESG.NNAM'] = strings,
+	['MSTT.FULL'] = strings,
+	['NOTE.FULL'] = strings,
+	['NPC_.ATTX'] = strings,
+	['OMOD.FULL'] = strings,
+	['RACE.FMRN'] = strings,
+	['RACE.MPPN'] = strings,
+	['RACE.TTGP'] = strings,
+	['SCOL.FULL'] = strings,
+	['STAT.FULL'] = strings,
+	['TERM.BTXT'] = strings,
+	['TERM.FULL'] = strings,
+	['TERM.ITXT'] = strings,
+	['TERM.NAM0'] = strings,
+	['TERM.RNAM'] = strings,
+	['TERM.UNAM'] = strings,
+	['TERM.WNAM'] = strings,
 
 	['INFO.NAM1'] = ilstrings,
 
+	-- Skyrim
 	['ARMO.DESC'] = dlstrings,
 	['AVIF.DESC'] = dlstrings,
 	['BOOK.CNAM'] = dlstrings,
@@ -99,6 +149,10 @@ local tags = {
 	['SHOU.DESC'] = dlstrings,
 	['SPEL.DESC'] = dlstrings,
 	['WEAP.DESC'] = dlstrings,
+	-- Fallout4 addon
+	['ALCH.DESC'] = dlstrings,
+	['COBJ.DESC'] = dlstrings,
+	['OMOD.DESC'] = dlstrings,
 }
 
 local i = 0
@@ -186,17 +240,24 @@ for line in io.lines(arg[1]) do
 		end
 	end
 end
-f:close()
 
 local function check(t, name)
-	for k, v in pairs(t[1]) do
+	local st = {}
+	for k in pairs(t[1]) do
 		if not t[4][k] then
-			print('WARN: unused in ' .. name .. ': ' .. k .. ': ' .. v)
+			st[#st + 1] = k
 		end
+	end
+	table.sort(st)
+	for _, k in ipairs(st) do
+		local e, c = t[1][k], t[2][k]
+		print('WARN: unused in ' .. name .. ': ' .. k .. ': ' .. e)
+		f:write('> ****.**** <', t[3], k, '>\n', addEscape(e), '\n', addEscape(c), '\n\n')
 	end
 end
 check(strings  , 'strings')
 check(ilstrings, 'ilstrings')
 check(dlstrings, 'dlstrings')
+f:close()
 
 print 'done!'

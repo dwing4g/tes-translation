@@ -444,7 +444,7 @@ local function readClasses(posEnd)
 --]]
 				if n < 4 then error(format("ERROR: 0x%08X: n=%d < 4", pos, n)) end
 				write "<\n" -- compress begin
-				local dn = readInt4(0x20000)
+				local dn = readInt4(0x100000)
 				n = n - 4
 				b = n > 0 and f:read(n) or ""
 				if b ~= "" then
