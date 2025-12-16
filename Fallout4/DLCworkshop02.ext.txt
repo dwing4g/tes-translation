@@ -1,0 +1,5776 @@
+> KYWD.FULL WorkshopRecipeFilterResource02Power03Marquee04LetterKit <2077>
+Marquee
+透光看板
+
+> KYWD.FULL DLC05WorkshopRecipeFilterDecor02DisplayCases03DisplayCases <1524>
+Display Cases
+展示柜
+
+> KYWD.FULL DLC05WorkshopRecipeFilterDecor02WallDecorations03Posters <1497>
+Flags
+旗帜
+
+> KYWD.FULL DLC05WorkshopRecipeFilterDecor02DisplayCases03WeaponRacks <1495>
+Weapon Racks
+武器架
+
+> KYWD.FULL DLC05WorkshopRecipeFilterDecor02DisplayCases03ArmorRacks <1496>
+Armor Racks
+护甲架
+
+> KYWD.FULL DLC05WorkshopRecipeFilterDecor02DisplayCases03PowerArmor <1508>
+Power Armor
+动力装甲
+
+> KYWD.FULL DLC05WorkshopRecipeFilterDecor02DisplayCases <1503>
+Display
+展示
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Boxcars03Orange <1510>
+Orange
+橙色
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Boxcars03Blue <1507>
+Blue
+蓝色
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Boxcars <1506>
+Boxcars
+货柜
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding03Wall <1413>
+Walls
+墙壁
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding03Stairs <1279>
+Stairs
+楼梯
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding03Roof <1380>
+Roofs
+屋顶
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding03Prefabs <1187>
+Prefabs
+预制
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding03Misc <1167>
+Miscellaneous
+其他
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding03Floor <1233>
+Floors
+地面
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding03Doors <1401>
+Doors
+门
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Scaffolding <1267>
+Scaffolding
+脚手架
+
+> KYWD.FULL DLC05RecipeFireworks <1089>
+FIREWORKS
+烟花
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse03Doors <375>
+Doors
+门
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse03Wall <524>
+Walls
+墙壁
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse03Stairs <82>
+Stairs
+楼梯
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse03Roof <762>
+Roofs
+屋顶
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse03Prefabs <181>
+Prefabs
+预制
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse03Misc <320>
+Miscellaneous
+其他
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse03Floor <51>
+Floors
+地面
+
+> KYWD.FULL DLC05WorkshopRecipeFilterBuilding02Warehouse <46>
+Warehouse
+仓库
+
+> RACE.FULL DLC05HumanRaceAdditiveSubgraphData <1810>
+Human
+人类
+
+> RACE.DESC DLC05HumanRaceAdditiveSubgraphData <d1806>
+Needs to be zeroed out so NPCs don't use this (and t-pose). This is for the player only.
+必须归零才不会让NPC拿去使用（和摆饰），此仅适用于玩家。
+
+> RACE.FULL DLC05ArmorRackRace <153>
+Human
+人类
+
+> RACE.DESC DLC05ArmorRackRace <d459>
+Needs to be zeroed out so NPCs don't use this (and t-pose). This is for the player only.
+必须归零才不会让NPC拿去使用（和摆饰），此仅适用于玩家。
+
+> SPEL.FULL DLC05RadStormFastTransitionSpell <2749>
+Radiation Storm
+辐射暴风
+
+> ACTI.FULL DLC05WorkshopConveyorBeltTripwire02 <2623>
+Laser Tripwire - Switch
+激光绊索 - 开关
+
+> ACTI.FULL DLC05WorkshopPoweredSpeakerPulseVibrato01 <2620>
+Powered Speaker (Pulse Vibrato)
+插电喇叭（脉冲颤音）
+
+> ACTI.FULL DLC05WorkshopPoweredSpeakerPercussion01 <2622>
+Powered Speaker (Percussion)
+插电喇叭（打击乐）
+
+> ACTI.FULL DLC05WorkshopPoweredSpeakerFXExplosion01 <2621>
+Powered Speaker (Explosions)
+插电喇叭（爆炸）
+
+> ACTI.FULL DLC05WorkshopPoweredSpeakerFXBlip01 <2615>
+Powered Speaker (Blip)
+插电喇叭（哔音）
+
+> ACTI.FULL DLC05WorkshopPoweredSpeakerTriangle01 <2616>
+Powered Speaker (Triangle)
+插电喇叭（三角）
+
+> ACTI.FULL DLC05WorkshopPoweredSpeakerSquare01 <2607>
+Powered Speaker (Square)
+插电喇叭（正方）
+
+> ACTI.FULL DLC05WorkshopPoweredSpeakerSine01 <2614>
+Powered Speaker (Sine)
+插电喇叭（正弦）
+
+> ACTI.FULL DLC05ConduitCeilingRadiator01 <2601>
+Conduit - Power Radiator
+管线 - 电源散热器
+
+> ACTI.FULL DLC05ConduitFloorRadiator01 <2602>
+Conduit - Power Radiator
+管线 - 电源散热器
+
+> ACTI.FULL WksBallTrackStraightTrigger02 <2561>
+Ball Track - Pulse
+滚球道 - 脉冲
+
+> ACTI.FULL DLC05WorkshopConveyorBeltTripwire01 <2499>
+Laser Tripwire
+激光绊索
+
+> ACTI.FULL DLC05WorkshopTrapStationaryGunPaintball <2370>
+Stationary Paintball Gun
+固定陷阱漆弹枪
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedStr01 <2357>
+Conveyor Belt - Straight
+输送带 - 直线
+
+> ACTI.FULL DLC05WorkshopConveyorFloorStr01 <2355>
+Conveyor Belt - Straight
+输送带 - 直线
+
+> ACTI.FULL DLC05WorkshopConveyorFloorStr02 <2362>
+Conveyor Belt - Straight
+输送带 - 直线
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedStr02 <2352>
+Conveyor Belt - Straight
+输送带 - 直线
+
+> ACTI.FULL DLC05WorkshopConveyorFloorYBranchL <2364>
+Conveyor Belt - Left Branch
+输送带 - 左边支线
+
+> ACTI.FULL DLC05WorkshopConveyorFloorYBranchR <2361>
+Conveyor Belt - Right Branch
+输送带 - 右边支线
+
+> ACTI.FULL DLC05WorkshopConveyorYSwitchR <2347>
+Conveyor Belt - Right Diverter
+输送带 - 右分流器
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedYBranchR <2358>
+Conveyor Belt - Right Branch
+输送带 - 右边支线
+
+> ACTI.FULL DLC05WorkshopSwitchLogicGateXNOR <2265>
+XNOR Logic Gate
+XNOR 逻辑门
+
+> ACTI.FULL DLC05_PosterBFrame41 <2252>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame40 <2246>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame39 <2243>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame38 <2239>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame41 <2248>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame40 <2241>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame39 <2245>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame38 <2244>
+Poster
+海报
+
+> ACTI.FULL DLC05WorkshopWarehouseGarageDoor01 <2253>
+Rolling Metal Door
+铁卷门
+
+> ACTI.FULL DLC05JunkMortar01 <2064>
+Junk Mortar
+垃圾发射器
+
+> ACTI.FULL DLC05_workshop_FiringTarget_Pulse <2061>
+Firing Target Pulse
+射击脉冲器
+
+> ACTI.FULL DLC05_ElevatorButton04 <2008>
+Floor 4
+4楼
+
+> ACTI.ATTX DLC05_ElevatorButton04 <2015>
+Press
+按下
+
+> ACTI.FULL DLC05_ElevatorButton03 <2005>
+Floor 3
+3楼
+
+> ACTI.ATTX DLC05_ElevatorButton03 <2002>
+Press
+按下
+
+> ACTI.FULL DLC05_ElevatorButton02 <2006>
+Floor 2
+2楼
+
+> ACTI.ATTX DLC05_ElevatorButton02 <2012>
+Press
+按下
+
+> ACTI.FULL DLC05_ElevatorButton01 <2004>
+Floor 1
+1楼
+
+> ACTI.ATTX DLC05_ElevatorButton01 <2013>
+Press
+按下
+
+> ACTI.FULL DLC05WorkshopTrapStationaryGun <1991>
+Stationary Gun
+固定枪陷阱
+
+> ACTI.FULL DLC05ElevatorCar4 <2011>
+4 Floor Elevator
+4层楼电梯
+
+> ACTI.FULL DLC05ElevatorCar3 <2014>
+3 Floor Elevator
+3层楼电梯
+
+> ACTI.FULL DLC05ElevatorCar2 <2016>
+2 Floor Elevator
+2层楼电梯
+
+> ACTI.FULL DLC05MarqueeArrowUpTurnRight01 <1990>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowUpTurnLeft01 <1995>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowUpStraight01 <2001>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowTurnRightUp01 <1999>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowTurnRightDown01 <1886>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowTurnLeftUp01 <2000>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowTurnLeftDown01 <1996>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowRightStraight01 <1992>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowLeftStraight01 <1998>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowDownTurnRight01 <1997>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowDownTurnLeft01 <1993>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05MarqueeArrowDownStraight01 <1994>
+Marquee Arrow
+箭头招牌
+
+> ACTI.FULL DLC05ConduitCeilingLight01A <1864>
+Conduit Light
+管线灯
+
+> ACTI.FULL DLC05ConduitFloorLight01A <1866>
+Conduit Light
+管线灯
+
+> ACTI.FULL DLC05MarqueeSign01 <1851>
+Marquee Sign
+大字广告招牌
+
+> ACTI.FULL DLC05ConduitFloorSwitch01 <1844>
+Conduit Switch
+管线开关
+
+> ACTI.FULL DLC05BasketballHoopSwitch02 <1840>
+Hoop Switch
+漏斗开关
+
+> ACTI.FULL DLC05BasketballHoopSwitch01 <1835>
+Hoop Switch
+漏斗开关
+
+> ACTI.FULL DLC05WorkshopConveyorFloorRollersTurn <2363>
+Rollers - Curve
+滚轴 - 曲面
+
+> ACTI.FULL DLC05WorkshopConveyorFloorRollersStr01 <2348>
+Rollers - Straight
+滚轴 - 直面
+
+> ACTI.FULL DLC05WorkshopConveyorFloorPowered01 <2350>
+Conveyor Belt - Power Junction
+输送带 - 电枢纽
+
+> ACTI.FULL DLC05WorkshopConveyorFloorLR <2354>
+Conveyor Belt - Right Turn
+输送带 - 右弯
+
+> ACTI.FULL DLC05WorkshopConveyorFloorLL <2365>
+Conveyor Belt - Left Turn
+输送带 - 左弯
+
+> ACTI.FULL DLC05WorkshopConveyorYSwitchL <1805>
+Conveyor Belt - Left Diverter
+输送带 - 左分流器
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedRollersTurn <2366>
+Rollers - Curve
+滚轴 - 曲面
+
+> ACTI.FULL DLC05_workshop_FiringTarget <1803>
+Firing Target Toggle
+射击开关
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedYBranchL <2351>
+Conveyor Belt - Left Branch
+输送带 - 左边支线
+
+> ACTI.FULL DLC05WorkshopConveyorStrRollersRampDown <2360>
+Rollers - Downward Ramp
+滚轴 - 下坡道
+
+> ACTI.FULL DLC05WorkshopConveyorStrRampDown <2367>
+Conveyor Belt - Downward Ramp
+输送带 - 下坡道
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedPowered01 <2356>
+Conveyor Belt - Elevated Power Junction
+输送带 - 高架电枢纽
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedLR <2349>
+Conveyor Belt - Right Turn
+输送带 - 右弯
+
+> ACTI.FULL DLC05WorkshopConveyorElevatedLL <2359>
+Conveyor Belt - Left Turn
+输送带 - 左弯
+
+> ACTI.FULL WksBallTrackSplit01 <1626>
+Ball Track - Split
+滚球道 - 分叉
+
+> ACTI.FULL WksDisplayCaseWall02a <1543>
+Display Case
+展示柜
+
+> ACTI.FULL WksDisplayCaseWall03a <1547>
+Display Case
+展示柜
+
+> ACTI.FULL WksDisplayCaseWall03 <1544>
+Display Case
+展示柜
+
+> ACTI.FULL WksDisplayCaseWall02 <1546>
+Display Case
+展示柜
+
+> ACTI.FULL WksDisplayCaseWall01 <1550>
+Display Case
+展示柜
+
+> ACTI.FULL WksDisplayCaseFree01 <1538>
+Display Case
+展示柜
+
+> ACTI.FULL DLC05_PosterBFrame37 <1870>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame36 <1967>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame35 <1883>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame34 <1872>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame33 <1955>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame32 <1885>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame31 <1868>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame30 <1919>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame29 <1874>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame28 <1950>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame27 <1888>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame26 <1911>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame25 <1959>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame24 <1972>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame23 <1934>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame22 <1909>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame21 <1951>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame20 <1871>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame19 <1935>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame18 <1867>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame17 <1926>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame16 <1880>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame15 <1966>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame14 <1964>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame13 <1940>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame12 <1890>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame11 <1903>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame10 <1929>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame09 <1873>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame08 <1916>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame07 <1941>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame06 <1532>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame05 <1534>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame04 <1522>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame03 <1529>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame02 <1520>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterBFrame01 <1531>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame37 <1896>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame36 <1963>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame35 <1971>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame34 <2612>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame33 <1897>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame32 <1953>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame31 <1970>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame30 <1942>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame29 <1876>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame28 <1879>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame27 <1968>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame26 <1969>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame25 <1881>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame24 <1891>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame23 <1877>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame22 <1960>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame21 <1913>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame20 <1957>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame19 <1947>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame18 <1889>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame17 <1910>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame16 <1973>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame15 <2617>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame14 <1878>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame13 <1956>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame12 <1894>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame11 <1900>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame10 <1914>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame09 <1958>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame08 <1922>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame07 <1925>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame06 <1527>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame05 <1519>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame04 <1526>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame03 <1528>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame02 <1525>
+Poster
+海报
+
+> ACTI.FULL DLC05_PosterAFrame01 <1523>
+Poster
+海报
+
+> ACTI.FULL DLC05WorkshopSwitchLogicGateXOR <1516>
+XOR Logic Gate
+XOR  逻辑门
+
+> ACTI.FULL WksBallTrackBallDropPwr01 <1483>
+Ball Track - Ball Drop Powered
+滚球道 - 通电的球坠落口
+
+> ACTI.FULL WksBallTrackStraightTrigger01 <1476>
+Ball Track - Switch
+滚球道 - 球轨切换器
+
+> ACTI.FULL WksBallTrackBallDrop01 <1460>
+Ball Track - Ball Drop
+滚球道 - 球坠落口
+
+> ACTI.FULL DLC05WorkshopPowerArmorDisplayYellow01 <1500>
+Power Armor Display
+动力装甲展示架
+
+> ACTI.FULL DLC05WorkshopPowerArmorDisplayRed01 <1511>
+Power Armor Display
+动力装甲展示架
+
+> ACTI.FULL DLC05WorkshopPowerArmorDisplayBlue01 <1501>
+Power Armor Display
+动力装甲展示架
+
+> ACTI.FULL DLC05WorkshopPowerArmorDisplay01 <1494>
+Power Armor Display
+动力装甲展示架
+
+> ACTI.FULL DLC05WorkshopSwitchLogicGateOR <11>
+OR Logic Gate
+OR  逻辑门
+
+> ACTI.FULL DLC05WorkshopSwitchLogicGateNOT <13>
+NOT Logic Gate
+NOT  逻辑门
+
+> ACTI.FULL DLC05WorkshopSwitchLogicGateNOR <12>
+NOR Logic Gate
+NOR  逻辑门
+
+> ACTI.FULL DLC05WorkshopSwitchLogicGateNAND <16>
+NAND Logic Gate
+NAND 逻辑门
+
+> ACTI.FULL DLC05WorkshopSwitchLogicGateAND <17>
+AND Logic Gate
+AND  逻辑门
+
+> ARMO.FULL DLC05_Armor_Power_T51_Torso_SugarBombs <1875>
+T-51 Chest Piece
+T-51胸甲
+
+> ARMO.DESC DLC05_Armor_Power_T51_Torso_SugarBombs <d1901>
+T-51 Torso Armor
+T-51 躯干装甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_Torso_SugarBombs <1944>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_Torso_Abraxo <1928>
+T-51 Chest Piece
+T-51胸甲
+
+> ARMO.DESC DLC05_Armor_Power_T51_Torso_Abraxo <d1898>
+T-51 Torso Armor
+T-51 躯干装甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_Torso_Abraxo <1965>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegRight_SugarBombs <1949>
+T-51 Right Leg
+T-51右腿
+
+> ARMO.DESC DLC05_Armor_Power_T51_LegRight_SugarBombs <d1932>
+T-51 Right Leg Armor
+T-51 右腿甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegRight_SugarBombs <1908>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegRight_Abraxo <1946>
+T-51 Right Leg
+T-51右腿
+
+> ARMO.DESC DLC05_Armor_Power_T51_LegRight_Abraxo <d1882>
+T-51 Right Leg Armor
+T-51 右腿甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegRight_Abraxo <1945>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegLeft_SugarBombs <1905>
+T-51 Left Leg
+T-51左腿
+
+> ARMO.DESC DLC05_Armor_Power_T51_LegLeft_SugarBombs <d1912>
+T-51 Left Leg Armor
+T-51 左腿甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegLeft_SugarBombs <1927>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegLeft_Abraxo <1939>
+T-51 Left Leg
+T-51左腿
+
+> ARMO.DESC DLC05_Armor_Power_T51_LegLeft_Abraxo <d1938>
+T-51 Left Leg Armor
+T-51 左腿甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_LegLeft_Abraxo <1869>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_Helmet_SugarBombs <1895>
+T-51 Helm
+T-51头盔
+
+> ARMO.DESC DLC05_Armor_Power_T51_Helmet_SugarBombs <d1937>
+T-51 Helmet Armor
+T-51 头盔装甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_Helmet_SugarBombs <1936>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_Helmet_Abraxo <1962>
+T-51 Helm
+T-51头盔
+
+> ARMO.DESC DLC05_Armor_Power_T51_Helmet_Abraxo <d1933>
+T-51 Helmet Armor
+T-51 头盔装甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_Helmet_Abraxo <1948>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmRight_SugarBombs <1893>
+T-51 Right Arm
+T-51右臂
+
+> ARMO.DESC DLC05_Armor_Power_T51_ArmRight_SugarBombs <d1918>
+T-51 Right Arm Armor
+T-51 右臂甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmRight_SugarBombs <1930>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmRight_Abraxo <1952>
+T-51 Right Arm
+T-51右臂
+
+> ARMO.DESC DLC05_Armor_Power_T51_ArmRight_Abraxo <d1924>
+T-51 Right Arm Armor
+T-51 右臂甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmRight_Abraxo <1904>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmLeft_SugarBombs <1887>
+T-51 Left Arm
+T-51左臂
+
+> ARMO.DESC DLC05_Armor_Power_T51_ArmLeft_SugarBombs <d1899>
+T-51 Left Arm Armor
+T-51 左臂甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmLeft_SugarBombs <1917>
+T51a Lining
+T51a内衬
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmLeft_Abraxo <1923>
+T-51 Left Arm
+T-51左臂
+
+> ARMO.DESC DLC05_Armor_Power_T51_ArmLeft_Abraxo <d1921>
+T-51 Left Arm Armor
+T-51 左臂甲
+
+> ARMO.FULL DLC05_Armor_Power_T51_ArmLeft_Abraxo <1920>
+T51a Lining
+T51a内衬
+
+> CONT.FULL DLC05WorkshopHopper03 <2608>
+Conveyor Storage
+输送储藏库
+
+> CONT.FULL DLC05WorkshopConveyorLift08 <2589>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopConveyorLift07 <2576>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopConveyorLift06 <2587>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopConveyorLift05 <2567>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopBuilderAmmo01 <2303>
+Ammunition Plant
+弹药制造机
+
+> CONT.FULL DLC05WorkshopSorter02 <2118>
+Component Sorter
+组件分类机
+
+> CONT.FULL DLC05WorkshopBuilderClothing01 <2066>
+Auto-Loom
+自动织布机
+
+> CONT.FULL DLC05WorkshopConveyorLift04 <2029>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopConveyorLift03 <2021>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopConveyorLift02 <2057>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopConveyorLift01 <2026>
+Conveyor Belt Lift
+升降输送带
+
+> CONT.FULL DLC05WorkshopWeaponRackLong01 <1985>
+Weapon Rack - Long
+武器架 - 长版
+
+> CONT.FULL DLC05WorkshopWeaponRackShort01 <1975>
+Weapon Rack - Short
+武器架 - 短版
+
+> CONT.FULL DLC05WorkshopBuilderArmor01 <1811>
+Armor Forge
+护甲锻造机
+
+> CONT.FULL DLC05WorkshopBuilderExplosives02 <1783>
+Pyrotechnics Mill
+烟花制造机
+
+> CONT.FULL DLC05WorkshopBuilderExplosives01 <1744>
+Explosives Mill
+炸药制造机
+
+> CONT.FULL DLC05WorkshopBuilderFood01 <1680>
+Food Processor
+食品加工机
+
+> CONT.FULL DLC05WorkshopBuilderWeapon03 <1662>
+Heavy Weapon Forge
+重型武器锻造机
+
+> CONT.FULL DLC05WorkshopBuilderWeapon02 <1650>
+Energy Weapon Forge
+能量武器锻造机
+
+> CONT.FULL DLC05WorkshopSorter01 <1623>
+Sorter
+分类机
+
+> CONT.FULL DLC05WorkshopHopper02 <1624>
+Vacuum Hopper
+清空漏斗
+
+> CONT.FULL DLC05WorkshopBuilderWeapon01 <1563>
+Weapon Forge
+武器锻造机
+
+> CONT.FULL DLC05WorkshopFireworkMortar02 <1537>
+Firework Mortar (Angled)
+烟花发射器（倾斜）
+
+> CONT.FULL DLC05WorkshopBuilder01 <1541>
+Builder
+制造机
+
+> CONT.FULL DLC05WorkshopPitchingMachine01 <1517>
+Pitching Machine
+投球机
+
+> CONT.FULL DLC05WorkshopHopper01 <1487>
+Hopper
+集料箱
+
+> CONT.FULL DLC05WorkshopWeaponStand01 <1514>
+Heavy Weapon Stand
+重型武器立架
+
+> CONT.FULL DLC05WorkshopWeaponRack02 <1486>
+Weapon Rack
+武器架
+
+> CONT.FULL DLC05WorkshopPistolRack02 <1485>
+Pistol Rack
+手枪架
+
+> CONT.FULL DLC05WorkshopPistolRack01 <1461>
+Pistol Rack
+手枪架
+
+> CONT.FULL DLC05WorkshopFireworkMortar01 <1087>
+Firework Mortar
+烟花发射器
+
+> CONT.FULL DLC05WorkshopWeaponRack01 <427>
+Weapon Rack
+武器架
+
+> DOOR.FULL Dlc05GrnhsDoorSm02 <2313>
+Door
+门
+
+> DOOR.FULL Dlc05GrnhsDoorSm01 <2310>
+Door
+门
+
+> DOOR.FULL DLC05_Boxcar_Door02 <1509>
+Box Car Door
+货柜车门
+
+> DOOR.FULL DLC05_Boxcar_Door01 <1456>
+Box Car Door
+货柜车门
+
+> DOOR.FULL Dlc05WrhsDoorMed01alt <5>
+Door
+门
+
+> DOOR.FULL Dlc05WrhsDoorMed01 <6>
+Door
+门
+
+> DOOR.FULL Dlc05WrhsDoorSm02 <4>
+Door
+门
+
+> DOOR.FULL Dlc05WrhsDoorSm01 <1>
+Door
+门
+
+> DOOR.FULL Dlc05WrhsDoorMed02alt <9>
+Door
+门
+
+> DOOR.FULL Dlc05WrhsDoorMed02 <8>
+Door
+门
+
+> MISC.FULL DLC05FireworkShellCrackle <2249>
+Firework Shell - Crackle
+烟花弹 - 爆裂
+
+> MISC.FULL DLC05FireworkShellPalmGold <2250>
+Firework Shell - Palm Gold
+烟花弹 - 热带金
+
+> MISC.FULL DLC05FireworkShellPalmSilver <2247>
+Firework Shell - Palm Silver
+烟花弹 - 热带银
+
+> MISC.FULL DLC05FireworkShellPeonyBlue <2240>
+Firework Shell - Peony Blue
+烟花弹 - 牡丹蓝
+
+> MISC.FULL DLC05FireworkShellPeonyYellow <2238>
+Firework Shell - Peony Yellow
+烟花弹 - 牡丹黄
+
+> MISC.FULL DLC05FireworkShellPeonyPink <2251>
+Firework Shell - Peony Pink
+烟花弹 - 牡丹粉红
+
+> MISC.FULL DLC05FireworkShellPeonyRed <1553>
+Firework Shell - Peony Red
+烟花弹 - 牡丹红
+
+> MISC.FULL DLC05WorkshopBallTrackBall01 <1482>
+Steel Ball
+钢球
+
+> MISC.FULL DLC05FireworkShellMinutemenFlare <1300>
+Emergency Flare Shell
+紧急烟雾子弹
+
+> MISC.FULL DLC05FireworkShellWeatherRadstorm <1107>
+Weather Change Shell - Radstorm
+天气弹 - 辐射风暴
+
+> MISC.FULL DLC05FireworkShellWeatherRain <1100>
+Weather Change Shell - Rain
+天气弹 - 雨天
+
+> MISC.FULL DLC05FireworkShellWeatherClear <1118>
+Weather Change Shell - Clear
+天气弹 - 晴朗
+
+> MISC.FULL DLC05FireworkShellPeonyGreen <1090>
+Firework Shell - Peony Green
+烟花弹 - 牡丹绿
+
+> STAT.FULL WksBallTrackFloorFunnelMid02 <2562>
+Ball Track - Funnel - Floor
+滚球道 - 漏斗 - 底部
+
+> STAT.FULL Dlc05GrnhsRoofPrefB01 <2325>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofPrefA01 <2330>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsWallTopFasciaR01 <2276>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopFasciaL01 <2272>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopSlantLFull01 <2301>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopSlantL01 <2311>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopArchR01 <2305>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopArchL01 <2273>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopA02 <2277>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopA01 <2280>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallB01 <2267>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallA02 <2293>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallA01 <2288>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsRoofTwinPeakG01 <2296>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofTwinPeakF01 <2278>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofTwinPeakE01 <2275>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofTwinPeakD01 <2306>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofTwinPeakC01 <2268>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofTwinPeakB01 <2290>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofTwinPeakA01 <2298>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofFlatA02 <2274>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofFlatA01 <2269>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofCorIn01 <2300>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsRoofA02 <2281>
+Roof
+屋顶
+
+> STAT.FULL Dlc05GrnhsWallTopSlantRFull01 <2286>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsWallTopSlantR01 <2297>
+Wall
+墙壁
+
+> STAT.FULL Dlc05GrnhsRoofA01 <2282>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsPrefabFull01 <2212>
+Warehouse
+仓库
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-Z <2096>
+Acrylic Letter - Z
+亚克力字母 - Z
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-Y <2124>
+Acrylic Letter - Y
+亚克力字母 - Y
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-X <2131>
+Acrylic Letter - X
+亚克力字母 - X
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-W <2157>
+Acrylic Letter - W
+亚克力字母 - W
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-V <2078>
+Acrylic Letter - V
+亚克力字母 - V
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-U <2095>
+Acrylic Letter - U
+亚克力字母 - U
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-T <2128>
+Acrylic Letter - T
+亚克力字母 - T
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-Star <2163>
+Acrylic Symbol - Star
+亚克力符号 - 星星
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-S <2135>
+Acrylic Letter - S
+亚克力字母 - S
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-R <2079>
+Acrylic Letter - R
+亚克力字母 - R
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-QuestionMark <2115>
+Acrylic Punctuation - Question Mark
+亚克力标点 - 问号
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-Q <2158>
+Acrylic Letter - Q
+亚克力字母 - Q
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-P <2160>
+Acrylic Letter - P
+亚克力字母 - P
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-O <2093>
+Acrylic Letter - O
+亚克力字母 - O
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-N <2156>
+Acrylic Letter - N
+亚克力字母 - N
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-M <2081>
+Acrylic Letter - M
+亚克力字母 - M
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-L <2151>
+Acrylic Letter - L
+亚克力字母 - L
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-K <2076>
+Acrylic Letter - K
+亚克力字母 - K
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-J <2119>
+Acrylic Letter - J
+亚克力字母 - J
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-I <2165>
+Acrylic Letter - I
+亚克力字母 - I
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-H <2085>
+Acrylic Letter - H
+亚克力字母 - H
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-G <2121>
+Acrylic Letter - G
+亚克力字母 - G
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-F <2070>
+Acrylic Letter - F
+亚克力字母 - F
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-ExclaimationMark <2105>
+Acrylic Punctuation - Exclaimation Mark
+亚克力标点 - 感叹号
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-E <2134>
+Acrylic Letter - E
+亚克力字母 - E
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-DollarSign <2103>
+Acrylic Symbol - Dollar Sign
+亚克力符号 - 美元符号
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-D <2155>
+Acrylic Letter - D
+亚克力字母 - D
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-C <2090>
+Acrylic Letter - C
+亚克力字母 - C
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-B <2169>
+Acrylic Letter - B
+亚克力字母 - B
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-A <2122>
+Acrylic Letter - A
+亚克力字母 - A
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-9 <2173>
+Acrylic Number - 9
+亚克力数字 - 9
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-8 <2159>
+Acrylic Number - 8
+亚克力数字 - 8
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-7 <2144>
+Acrylic Number - 7
+亚克力数字 - 7
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-6 <2098>
+Acrylic Number - 6
+亚克力数字 - 6
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-5 <2138>
+Acrylic Number - 5
+亚克力数字 - 5
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-4 <2111>
+Acrylic Number - 4
+亚克力数字 - 4
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-3 <2108>
+Acrylic Number - 3
+亚克力数字 - 3
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-2 <2101>
+Acrylic Number - 2
+亚克力数字 - 2
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-1 <2166>
+Acrylic Number - 1
+亚克力数字 - 1
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Red-0 <2088>
+Acrylic Number - 0
+亚克力数字 - 0
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-Z <2117>
+Acrylic Letter - Z
+亚克力字母 - Z
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-Y <2072>
+Acrylic Letter - Y
+亚克力字母 - Y
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-X <2137>
+Acrylic Letter - X
+亚克力字母 - X
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-W <2129>
+Acrylic Letter - W
+亚克力字母 - W
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-V <2091>
+Acrylic Letter - V
+亚克力字母 - V
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-U <2094>
+Acrylic Letter - U
+亚克力字母 - U
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-T <2171>
+Acrylic Letter - T
+亚克力字母 - T
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-Star <2161>
+Acrylic Symbol - Star
+亚克力符号 - 星星
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-S <2153>
+Acrylic Letter - S
+亚克力字母 - S
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-R <2075>
+Acrylic Letter - R
+亚克力字母 - R
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-QuestionMark <2140>
+Acrylic Punctuation - Question Mark
+亚克力标点 - 问号
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-Q <2152>
+Acrylic Letter - Q
+亚克力字母 - Q
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-P <2074>
+Acrylic Letter - P
+亚克力字母 - P
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-O <2099>
+Acrylic Letter - O
+亚克力字母 - O
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-N <2170>
+Acrylic Letter - N
+亚克力字母 - N
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-M <2092>
+Acrylic Letter - M
+亚克力字母 - M
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-L <2133>
+Acrylic Letter - L
+亚克力字母 - L
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-K <2102>
+Acrylic Letter - K
+亚克力字母 - K
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-J <2154>
+Acrylic Letter - J
+亚克力字母 - J
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-I <2149>
+Acrylic Letter - I
+亚克力字母 - I
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-H <2087>
+Acrylic Letter - H
+亚克力字母 - H
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-G <2123>
+Acrylic Letter - G
+亚克力字母 - G
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-F <2100>
+Acrylic Letter - F
+亚克力字母 - F
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-ExclaimationMark <2106>
+Acrylic Punctuation - Exclamation Mark
+亚克力标点 - 感叹号
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-E <2113>
+Acrylic Letter - E
+亚克力字母 - E
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-DollarSign <2130>
+Acrylic Symbol - Dollar Sign
+亚克力符号 - 美元符号
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-D <2141>
+Acrylic Letter - D
+亚克力字母 - D
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-C <2147>
+Acrylic Letter - C
+亚克力字母 - C
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-B <2146>
+Acrylic Letter - B
+亚克力字母 - B
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-A <2172>
+Acrylic Letter - A
+亚克力字母 - A
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-9 <2167>
+Acrylic Number - 9
+亚克力数字 - 9
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-8 <2143>
+Acrylic Number - 8
+亚克力数字 - 8
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-7 <2089>
+Acrylic Number - 7
+亚克力数字 - 7
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-6 <2071>
+Acrylic Number - 6
+亚克力数字 - 6
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-5 <2136>
+Acrylic Number - 5
+亚克力数字 - 5
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-4 <2142>
+Acrylic Number - 4
+亚克力数字 - 4
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-3 <2104>
+Acrylic Number - 3
+亚克力数字 - 3
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-2 <2139>
+Acrylic Number - 2
+亚克力数字 - 2
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-1 <2145>
+Acrylic Number - 1
+亚克力数字 - 1
+
+> STAT.FULL DLC05WorkshopMarqueeLetter-Black-0 <2083>
+Acrylic Number - 0
+亚克力数字 - 0
+
+> STAT.FULL Dlc05WrhsPost02 <2132>
+Post
+柱
+
+> STAT.FULL Dlc05WrhsRoofTwinPeakG01 <2073>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofTwinPeakF01 <2148>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofTwinPeakE01 <2150>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofTwinPeakD01 <2082>
+Roof
+屋顶
+
+> STAT.FULL DLC05ConduitFloorToCeil02B <2009>
+Conduit - Wall Pass-Through
+管线 - 穿墙
+
+> STAT.FULL DLC05ConduitFloorToCeil01B <2007>
+Conduit - Wall Pass-Through
+管线 - 穿墙
+
+> STAT.FULL DLC05ConduitFloorToCeil02 <1865>
+Conduit
+导管
+
+> STAT.FULL DLC05ConduitCeilingBox01E <1854>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitCeilingBox01D <1849>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitCeilingBox01C <1856>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitCeilingBox01B <1841>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitCeilingBox01A <1857>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorTurn01C <1842>
+Conduit
+导管
+
+> STAT.FULL DLC05ConduitFloor01C <1846>
+Conduit
+导管
+
+> STAT.FULL DLC05ConduitFloor01B <1852>
+Conduit
+导管
+
+> STAT.FULL DLC05ConduitFloorBox02E <1848>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorBox02D <1843>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorBox02C <1855>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorBox02B <1847>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorBox01D <1850>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorBox01C <1845>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorBox01B <1858>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorToCeil01 <1853>
+Conduit
+导管
+
+> STAT.FULL DLC05ConduitFloorTurn01B <1831>
+Conduit
+导管
+
+> STAT.FULL DLC05ConduitFloorTurn01A <1836>
+Conduit
+导管
+
+> STAT.FULL DLC05ConduitFloorBox02A <1819>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloorBox01A <1815>
+Conduit Junction
+管线接点
+
+> STAT.FULL DLC05ConduitFloor01A <1827>
+Conduit
+导管
+
+> STAT.FULL WksBallTrackStraight01Dbl <1632>
+Ball Track - Ramp High - Double
+滚球道 - 高坡度 - 双重
+
+> STAT.FULL WksBallTrackCurveR03 <1633>
+Ball Track - Curve Right - 360
+滚球道 - 右弯 - 360度
+
+> STAT.FULL WksBallTrackCurveR02 <1628>
+Ball Track - Curve Right - 180
+滚球道 - 右弯 - 180度
+
+> STAT.FULL WksBallTrackCurveL03 <1625>
+Ball Track - Curve Left - 360
+滚球道 - 左弯：360度
+
+> STAT.FULL WksBallTrackCurveL02 <1631>
+Ball Track - Curve Left - 180
+滚球道 - 左弯：180度
+
+> STAT.FULL WksBallTrackFloorFunnelEdge01 <1627>
+Ball Track - Funnel - Edge
+滚球道 - 漏斗 - 侧边
+
+> STAT.FULL WksBallTrackFloorFunnelMid01 <1630>
+Ball Track - Funnel - Floor
+滚球道 - 漏斗 - 底部
+
+> STAT.FULL WksBallTrackMerge01 <1629>
+Ball Track - Merge
+滚球道 - 合并
+
+> STAT.FULL Dlc05WrhsWallPrefCorA01 <2198>
+Wall - Corner
+墙壁 - 拐角
+
+> STAT.FULL Dlc05WrhsWallHalfPrefCorA02 <2226>
+Wall - Corner
+墙壁 - 拐角
+
+> STAT.FULL Dlc05WrhsWallHalfPrefCorA01 <2182>
+Wall - Corner
+墙壁 - 拐角
+
+> STAT.FULL Dlc05WrhsRoofPrefC02 <2232>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofPrefC01 <2236>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofPrefB01 <2194>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofPrefA01 <2206>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofTwinPeakC01 <2180>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofTwinPeakB01 <2179>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofTwinPeakA01 <2210>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsWallTopSlantRFull01 <2214>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallTopSlantLFull01 <2219>
+Wall
+墙壁
+
+> STAT.FULL DLC05ScaffWatchtowerB <1518>
+Scaffolding Tower
+鹰架塔
+
+> STAT.FULL DLC05ScaffWatchtowerA <1515>
+Scaffolding Tower
+鹰架塔
+
+> STAT.FULL DLC05WorkshopClockNuka <1498>
+Nuka Cola Clock
+核子可乐钟
+
+> STAT.FULL WksBallTrackCurveL01 <1445>
+Ball Track - Curve Left
+滚球道 - 左弯
+
+> STAT.FULL WksBallTrackSupport01 <1477>
+Ball Track - Supports
+滚球道 - 支架
+
+> STAT.FULL WksBallTrackCurveR01 <1457>
+Ball Track - Curve Right
+滚球道 - 右弯
+
+> STAT.FULL WksBallTrackStraight03a <1467>
+Ball Track - Ramp Low Supported
+滚球道 - 支架低坡度
+
+> STAT.FULL WksBallTrackStraight03 <1475>
+Ball Track - Ramp Low
+滚球道 - 低坡度
+
+> STAT.FULL WksBallTrackStraight02a <1473>
+Ball Track - Ramp Medium Supported
+滚球道 - 支架中坡度
+
+> STAT.FULL WksBallTrackStraight02 <1447>
+Ball Track - Ramp Medium
+滚球道 - 中坡度
+
+> STAT.FULL WksBallTrackStraight01a <1444>
+Ball Track - Ramp High Supported
+滚球道 - 支架高坡度
+
+> STAT.FULL WksBallTrackStraight01 <1480>
+Ball Track - Ramp High
+滚球道 - 高坡度
+
+> STAT.FULL DLC05_BoxCarMid_02a_Orange <1472>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01b_Orange <1478>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01a_Orange <1449>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03b_Orange <1443>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03a_Orange <1446>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_02c_Orange <1451>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_02b_Orange <1468>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01d_Orange <1479>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01c_Orange <1474>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03c_Orange <1464>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03d_Orange <1469>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_02d_Orange <1453>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_02a <1442>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01b <1452>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01a <1448>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03d <1441>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03c <1471>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03b <1463>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_Boxcar_03a <1459>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_02d <1481>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_02c <1465>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_02b <1466>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01d <1450>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05_BoxCarMid_01c <1455>
+Box Car
+货柜车厢
+
+> STAT.FULL DLC05ScaffStairHalfB <1106>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffStairHalfBRail <1127>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffStairHalfA <1093>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffStairHalfARail <1128>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffFrame2x2x2B <1123>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffFrame2x2x1B <1109>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffFrame2x1x1B <1116>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffPlatform2x2A <1102>
+Scaffolding Floor
+鹰架地板
+
+> STAT.FULL DLC05ScaffRampARail <1122>
+Scaffolding Ramp
+鹰架坡道
+
+> STAT.FULL DLC05ScaffRampBRail <1095>
+Scaffolding Ramp
+鹰架坡道
+
+> STAT.FULL DLC05ScaffRailx1A <1112>
+Scaffolding Railing
+鹰架栏杆
+
+> STAT.FULL DLC05ScaffRailx2A <1121>
+Scaffolding Railing
+鹰架栏杆
+
+> STAT.FULL DLC05ScaffPlatform1x2B <1113>
+Scaffolding Floor
+鹰架地板
+
+> STAT.FULL DLC05ScaffPlatform1x1C <1103>
+Scaffolding Floor
+鹰架地板
+
+> STAT.FULL DLC05ScaffPlatform1x2C <1091>
+Scaffolding Floor
+鹰架地板
+
+> STAT.FULL DLC05ScaffFrame1x2x2A <1099>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffFrame2x2x2A <1105>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffStairBRail <1126>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffStairB <1111>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffStairARail <1104>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffStairA <1125>
+Scaffolding Stairs
+鹰架楼梯
+
+> STAT.FULL DLC05ScaffFrame1x2x1A <1098>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffFrame1x1x1A <1097>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffFrame2x1x1A <1115>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffFrame2x2x1A <1124>
+Scaffolding Frame
+鹰架骨架
+
+> STAT.FULL DLC05ScaffPlatform1x2A <1114>
+Scaffolding Floor
+鹰架地板
+
+> STAT.FULL DLC05ScaffPlatform1x1B <1108>
+Scaffolding Floor
+鹰架地板
+
+> STAT.FULL DLC05ScaffPlatform1x1A <1092>
+Scaffolding Floor
+鹰架地板
+
+> STAT.FULL DLC05ScaffRampB <1119>
+Scaffolding Ramp
+鹰架坡道
+
+> STAT.FULL DLC05ScaffRampA <1094>
+Scaffolding Ramp
+鹰架坡道
+
+> STAT.FULL Dlc05WrhsRoofCap02 <2213>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofCap01 <2181>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofPlatACorIn01 <2230>
+Roof - Platform
+屋顶 - 平台
+
+> STAT.FULL Dlc05WrhsRoofCupola01 <2195>
+Roof Cupola
+穹型屋顶
+
+> STAT.FULL Dlc05WrhsRoofPlatBCorIn01 <2177>
+Roof - Platform
+屋顶 - 平台
+
+> STAT.FULL Dlc05WrhsRoofPlatB01 <2218>
+Roof - Platform
+屋顶 - 平台
+
+> STAT.FULL Dlc05WrhsRoofPlatA01 <2235>
+Roof - Platform
+屋顶 - 平台
+
+> STAT.FULL Dlc05WrhsPost01 <20>
+Post
+柱
+
+> STAT.FULL Dlc05WrhsFloorMeshSmSq01 <2228>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsFloorWoodSmSq01 <2201>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsWallTopFasciaR01 <2174>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallTopFasciaL01 <2227>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsRafter01 <2229>
+Roof - Rafter
+屋顶 - 横梁
+
+> STAT.FULL Dlc05WrhsFloorMeshFull01 <2199>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsWallTopSlantR01 <2192>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallTopSlantL01 <2211>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsRoofCorIn01 <2237>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsWallTopArchR01 <2203>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallTopArchL01 <2220>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallTopB01 <2188>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallTopA01 <2231>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallE02 <2225>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallE01 <2221>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallD02 <2224>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallD01 <2197>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallC04 <2223>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallC03 <2191>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallC02 <2205>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallC01 <2234>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallB02 <2217>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallB01 <2216>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallA04 <2183>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallA03 <2215>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallA02 <2209>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsWallA01 <2208>
+Wall
+墙壁
+
+> STAT.FULL Dlc05WrhsStairs02 <2187>
+Stairs
+楼梯
+
+> STAT.FULL Dlc05WrhsStairs01 <2207>
+Stairs
+楼梯
+
+> STAT.FULL Dlc05WrhsRoofFlatB01 <2222>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofFlatA01 <2233>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofB03 <2202>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofB02 <2200>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofB01 <2196>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofA03 <2185>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofA02 <2193>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsRoofA01 <2190>
+Roof
+屋顶
+
+> STAT.FULL Dlc05WrhsFloorWoodHalf01 <2189>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsFloorWood01 <2186>
+Floor
+地板
+
+> STAT.FULL DLC05WrhsFloorSlate01 <2184>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsFloorMesh04 <2178>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsFloorMesh03 <2204>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsFloorMesh02 <2176>
+Floor
+地板
+
+> STAT.FULL Dlc05WrhsFloorMesh01 <2175>
+Floor
+地板
+
+> FURN.FULL DLC05_PowerArmor_SugarBombs <1931>
+Power Armor
+动力装甲
+
+> FURN.ATTX DLC05_PowerArmor_SugarBombs <1915>
+Enter
+进入
+
+> FURN.FULL DLC05_PowerArmor_Abraxo <1954>
+Power Armor
+动力装甲
+
+> FURN.ATTX DLC05_PowerArmor_Abraxo <1943>
+Enter
+进入
+
+> FURN.FULL DLC05NPCWorkshopPillory <1745>
+Pillory
+颈手枷
+
+> WEAP.FULL DLC05PaintballGunYellow <2500>
+Paintball Gun
+漆弹枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2406>
+Pipe Gun
+自制枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2441>
+Simple Pistol
+简易手枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2548>
+Simple Rifle
+简易步枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2454>
+Random
+随机
+
+> WEAP.FULL DLC05PaintballGunYellow <2498>
+Semi-Auto Pistol
+半自动手枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2514>
+Auto Pistol
+自动手枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2425>
+Rifle (non-assault)
+步枪（非突击）
+
+> WEAP.FULL DLC05PaintballGunYellow <2414>
+Assault Rifle
+突击步枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2444>
+Sniper Rifle
+狙击步枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2544>
+SMG
+冲锋枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2520>
+Random Pitsol
+随机手枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2546>
+Random Rifle
+随机步枪
+
+> WEAP.FULL DLC05PaintballGunYellow <2435>
+Simple Pistol Epic
+简单手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2426>
+Simple Rifle Epic
+简易步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2418>
+Random Epic
+随机史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2539>
+Semi-Auto Pistol Epic
+半自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2547>
+Auto Pistol Epic
+自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2537>
+Rifle (non-assault) Epic
+步枪（非突击）史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2424>
+Assault Rifle Epic
+突击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2457>
+Sniper Rifle Epic
+狙击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2445>
+SMG Epic
+冲锋枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2495>
+Random Pistol Epic
+随机手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunYellow <2490>
+Random Rifle Epic
+随机步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2555>
+Paintball Gun
+漆弹枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2459>
+Pipe Gun
+自制枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2442>
+Simple Pistol
+简易手枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2461>
+Simple Rifle
+简易步枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2477>
+Random
+随机
+
+> WEAP.FULL DLC05PaintballGunWhite <2468>
+Semi-Auto Pistol
+半自动手枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2485>
+Auto Pistol
+自动手枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2501>
+Rifle (non-assault)
+步枪（非突击）
+
+> WEAP.FULL DLC05PaintballGunWhite <2446>
+Assault Rifle
+突击步枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2545>
+Sniper Rifle
+狙击步枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2497>
+SMG
+冲锋枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2541>
+Random Pitsol
+随机手枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2465>
+Random Rifle
+随机步枪
+
+> WEAP.FULL DLC05PaintballGunWhite <2496>
+Simple Pistol Epic
+简单手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2481>
+Simple Rifle Epic
+简易步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2551>
+Random Epic
+随机史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2482>
+Semi-Auto Pistol Epic
+半自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2549>
+Auto Pistol Epic
+自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2488>
+Rifle (non-assault) Epic
+步枪（非突击）史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2455>
+Assault Rifle Epic
+突击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2453>
+Sniper Rifle Epic
+狙击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2503>
+SMG Epic
+冲锋枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2550>
+Random Pistol Epic
+随机手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunWhite <2405>
+Random Rifle Epic
+随机步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2559>
+Paintball Gun
+漆弹枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2492>
+Pipe Gun
+自制枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2558>
+Simple Pistol
+简易手枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2491>
+Simple Rifle
+简易步枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2437>
+Random
+随机
+
+> WEAP.FULL DLC05PaintballGunGlow <2493>
+Semi-Auto Pistol
+半自动手枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2476>
+Auto Pistol
+自动手枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2456>
+Rifle (non-assault)
+步枪（非突击）
+
+> WEAP.FULL DLC05PaintballGunGlow <2486>
+Assault Rifle
+突击步枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2443>
+Sniper Rifle
+狙击步枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2447>
+SMG
+冲锋枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2470>
+Random Pitsol
+随机手枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2554>
+Random Rifle
+随机步枪
+
+> WEAP.FULL DLC05PaintballGunGlow <2484>
+Simple Pistol Epic
+简单手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2452>
+Simple Rifle Epic
+简易步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2479>
+Random Epic
+随机史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2526>
+Semi-Auto Pistol Epic
+半自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2407>
+Auto Pistol Epic
+自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2506>
+Rifle (non-assault) Epic
+步枪（非突击）史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2509>
+Assault Rifle Epic
+突击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2412>
+Sniper Rifle Epic
+狙击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2553>
+SMG Epic
+冲锋枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2504>
+Random Pistol Epic
+随机手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGlow <2552>
+Random Rifle Epic
+随机步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2427>
+Paintball Gun
+漆弹枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2522>
+Pipe Gun
+自制枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2420>
+Simple Pistol
+简易手枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2508>
+Simple Rifle
+简易步枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2422>
+Random
+随机
+
+> WEAP.FULL DLC05PaintballGunOrange <2409>
+Semi-Auto Pistol
+半自动手枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2543>
+Auto Pistol
+自动手枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2515>
+Rifle (non-assault)
+步枪（非突击）
+
+> WEAP.FULL DLC05PaintballGunOrange <2415>
+Assault Rifle
+突击步枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2413>
+Sniper Rifle
+狙击步枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2511>
+SMG
+冲锋枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2416>
+Random Pitsol
+随机手枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2513>
+Random Rifle
+随机步枪
+
+> WEAP.FULL DLC05PaintballGunOrange <2528>
+Simple Pistol Epic
+简单手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2450>
+Simple Rifle Epic
+简易步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2556>
+Random Epic
+随机史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2474>
+Semi-Auto Pistol Epic
+半自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2431>
+Auto Pistol Epic
+自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2439>
+Rifle (non-assault) Epic
+步枪（非突击）史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2557>
+Assault Rifle Epic
+突击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2527>
+Sniper Rifle Epic
+狙击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2430>
+SMG Epic
+冲锋枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2458>
+Random Pistol Epic
+随机手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunOrange <2487>
+Random Rifle Epic
+随机步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2507>
+Paintball Gun
+漆弹枪
+
+> WEAP.FULL DLC05PaintballGunRed <2478>
+Pipe Gun
+自制枪
+
+> WEAP.FULL DLC05PaintballGunRed <2451>
+Simple Pistol
+简易手枪
+
+> WEAP.FULL DLC05PaintballGunRed <2471>
+Simple Rifle
+简易步枪
+
+> WEAP.FULL DLC05PaintballGunRed <2560>
+Random
+随机
+
+> WEAP.FULL DLC05PaintballGunRed <2434>
+Semi-Auto Pistol
+半自动手枪
+
+> WEAP.FULL DLC05PaintballGunRed <2421>
+Auto Pistol
+自动手枪
+
+> WEAP.FULL DLC05PaintballGunRed <2531>
+Rifle (non-assault)
+步枪（非突击）
+
+> WEAP.FULL DLC05PaintballGunRed <2542>
+Assault Rifle
+突击步枪
+
+> WEAP.FULL DLC05PaintballGunRed <2428>
+Sniper Rifle
+狙击步枪
+
+> WEAP.FULL DLC05PaintballGunRed <2529>
+SMG
+冲锋枪
+
+> WEAP.FULL DLC05PaintballGunRed <2423>
+Random Pitsol
+随机手枪
+
+> WEAP.FULL DLC05PaintballGunRed <2419>
+Random Rifle
+随机步枪
+
+> WEAP.FULL DLC05PaintballGunRed <2483>
+Simple Pistol Epic
+简单手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2505>
+Simple Rifle Epic
+简易步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2516>
+Random Epic
+随机史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2462>
+Semi-Auto Pistol Epic
+半自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2466>
+Auto Pistol Epic
+自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2489>
+Rifle (non-assault) Epic
+步枪（非突击）史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2540>
+Assault Rifle Epic
+突击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2408>
+Sniper Rifle Epic
+狙击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2480>
+SMG Epic
+冲锋枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2463>
+Random Pistol Epic
+随机手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunRed <2473>
+Random Rifle Epic
+随机步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2440>
+Paintball Gun
+漆弹枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2448>
+Pipe Gun
+自制枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2464>
+Simple Pistol
+简易手枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2449>
+Simple Rifle
+简易步枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2502>
+Random
+随机
+
+> WEAP.FULL DLC05PaintballGunGreen <2469>
+Semi-Auto Pistol
+半自动手枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2438>
+Auto Pistol
+自动手枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2432>
+Rifle (non-assault)
+步枪（非突击）
+
+> WEAP.FULL DLC05PaintballGunGreen <2538>
+Assault Rifle
+突击步枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2436>
+Sniper Rifle
+狙击步枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2536>
+SMG
+冲锋枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2475>
+Random Pitsol
+随机手枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2433>
+Random Rifle
+随机步枪
+
+> WEAP.FULL DLC05PaintballGunGreen <2410>
+Simple Pistol Epic
+简单手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2494>
+Simple Rifle Epic
+简易步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2535>
+Random Epic
+随机史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2534>
+Semi-Auto Pistol Epic
+半自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2467>
+Auto Pistol Epic
+自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2533>
+Rifle (non-assault) Epic
+步枪（非突击）史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2532>
+Assault Rifle Epic
+突击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2472>
+Sniper Rifle Epic
+狙击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2530>
+SMG Epic
+冲锋枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2525>
+Random Pistol Epic
+随机手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunGreen <2524>
+Random Rifle Epic
+随机步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2392>
+Paintball Gun
+漆弹枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2398>
+Pipe Gun
+自制枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2382>
+Simple Pistol
+简易手枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2373>
+Simple Rifle
+简易步枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2397>
+Random
+随机
+
+> WEAP.FULL DLC05PaintballGunBlue <2389>
+Semi-Auto Pistol
+半自动手枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2375>
+Auto Pistol
+自动手枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2387>
+Rifle (non-assault)
+步枪（非突击）
+
+> WEAP.FULL DLC05PaintballGunBlue <2394>
+Assault Rifle
+突击步枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2371>
+Sniper Rifle
+狙击步枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2372>
+SMG
+冲锋枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2377>
+Random Pitsol
+随机手枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2395>
+Random Rifle
+随机步枪
+
+> WEAP.FULL DLC05PaintballGunBlue <2403>
+Simple Pistol Epic
+简单手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2383>
+Simple Rifle Epic
+简易步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2393>
+Random Epic
+随机史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2376>
+Semi-Auto Pistol Epic
+半自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2399>
+Auto Pistol Epic
+自动手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2400>
+Rifle (non-assault) Epic
+步枪（非突击）史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2396>
+Assault Rifle Epic
+突击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2379>
+Sniper Rifle Epic
+狙击步枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2391>
+SMG Epic
+冲锋枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2378>
+Random Pistol Epic
+随机手枪史诗级
+
+> WEAP.FULL DLC05PaintballGunBlue <2384>
+Random Rifle Epic
+随机步枪史诗级
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPalmGold <2345>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPalmSilver <2344>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPeonyBlue <2257>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPeonyCrackle <2261>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPeonyYellow <2254>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPeonyPink <2264>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponWeatherRain <1713>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponWeatherRadstorm <1724>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponWeatherClear <1679>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPeonyRed <1706>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponPeonyGreen <1685>
+Mortar
+迫击炮
+
+> WEAP.FULL DLC05WorkshopFireworkWeaponMinutemenFlare <1740>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05AmmoPaintballYellow <2523>
+Paintball - Yellow
+漆弹 - 黄色
+
+> AMMO.ONAM DLC05AmmoPaintballYellow <2460>
+Paintball
+漆弹
+
+> AMMO.FULL DLC05AmmoPaintballWhite <2521>
+Paintball - White
+漆弹 - 白色
+
+> AMMO.ONAM DLC05AmmoPaintballWhite <2519>
+Paintball
+漆弹
+
+> AMMO.FULL DLC05AmmoPaintballRed <2518>
+Paintball - Red
+漆弹 - 红色
+
+> AMMO.ONAM DLC05AmmoPaintballRed <2517>
+Paintball
+漆弹
+
+> AMMO.FULL DLC05AmmoPaintballOrange <2411>
+Paintball - Orange
+漆弹 - 橙色
+
+> AMMO.ONAM DLC05AmmoPaintballOrange <2417>
+Paintball
+漆弹
+
+> AMMO.FULL DLC05AmmoPaintballGreen <2512>
+Paintball - Green
+漆弹 - 绿色
+
+> AMMO.ONAM DLC05AmmoPaintballGreen <2510>
+Paintball
+漆弹
+
+> AMMO.FULL DLC05AmmoPaintballGlow <2404>
+Paintball - Glow
+漆弹 - 发光
+
+> AMMO.ONAM DLC05AmmoPaintballGlow <2429>
+Paintball
+漆弹
+
+> AMMO.FULL DLC05AmmoPaintballBlue <2368>
+Paintball - Blue
+漆弹 - 蓝色
+
+> AMMO.ONAM DLC05AmmoPaintballBlue <2402>
+Paintball
+漆弹
+
+> AMMO.FULL DLC05FireworkAmmoPalmGold <2342>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoPalmGold <2341>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoPalmSilver <2346>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoPalmSilver <2343>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoCrackle <2266>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoCrackle <2258>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoPeonyPink <2256>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoPeonyPink <2262>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoPeonyBlue <2263>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoPeonyBlue <2259>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoPeonyYellow <2260>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoPeonyYellow <2255>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoWeatherRain <1720>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoWeatherRain <1723>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoWeatherRadstorm <1709>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoWeatherRadstorm <1741>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoWeatherClear <1747>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoWeatherClear <1703>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoPeonyRed <1748>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoPeonyRed <1742>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoPeonyGreen <1690>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoPeonyGreen <1737>
+Mortar
+迫击炮
+
+> AMMO.FULL DLC05FireworkAmmoMinutemenFlare <1704>
+Mortar
+迫击炮
+
+> AMMO.ONAM DLC05FireworkAmmoMinutemenFlare <1753>
+Mortar
+迫击炮
+
+> NPC_.FULL DLC05WorkshopArmorRackFemale01 <673>
+Armor Rack
+护甲架
+
+> NPC_.ATTX DLC05WorkshopArmorRackFemale01 <1004>
+Use
+使用
+
+> NPC_.ATTX DLC05WorkshopArmorRackMale01 <952>
+Use
+使用
+
+> TERM.FULL DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2685>
+Speaker Control
+喇叭控制
+
+> TERM.BTXT DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2644>
+"""Universal Electric, Inc.
+
+Set percussion speaker sound:"""
+"""宇宙电子企业
+
+设定打击乐喇叭声音："""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2727>
+Kick
+大鼓
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2742>
+Setting sound to "Kick".
+设定声音为“大鼓”。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2707>
+Snare
+小鼓
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2713>
+Setting sound to "Snare".
+设定声音为“小鼓”。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2689>
+Hi-Hat Closed
+双面钹闭合音
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2664>
+"""Setting sound to "Hi-Hat Closed".
+"""
+"""设定声音为“双面钹闭合音”。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2733>
+Hi-Hat Open
+双面钹开启音
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2665>
+Setting sound to "Hi-Hat Open".
+设定声音为“双面钹开启音”。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2715>
+Crash
+铜钹
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuPercussion <2728>
+Setting sound to "Crash".
+设定声音为“铜钹”。
+
+> TERM.FULL DLC05nativeWorkshopSpeakerTerminalPercussion <2738>
+>Speaker Control - Percussion
+> 喇叭控制 - 打击乐
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalPercussion <2746>
+ > Speaker Control - Percussion
+ > 喇叭控制 - 打击乐
+
+> TERM.RNAM DLC05nativeWorkshopSpeakerTerminalPercussion <2736>
+Accessing Universal Electric Speaker Control...
+正在访问宇宙电子喇叭控制…………
+
+> TERM.FULL DLC05nativeWorkshopSpeakerTerminalExplosion <2735>
+>Speaker Control - Explosion
+> 喇叭控制 - 爆炸
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalExplosion <2684>
+ > Speaker Control - Explosion
+ > 喇叭控制 - 爆炸
+
+> TERM.RNAM DLC05nativeWorkshopSpeakerTerminalExplosion <2641>
+Accessing Universal Electric Speaker Control...
+正在访问宇宙电子喇叭控制…………
+
+> TERM.FULL DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2627>
+Speaker Control
+喇叭控制
+
+> TERM.BTXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2691>
+"""Universal Electric, Inc.
+
+Set explosion speaker pitch:
+"""
+"""宇宙电子企业
+
+设定爆炸喇叭音高：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2672>
+C3
+C3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2626>
+"""Setting pitch to C3.
+"""
+"""设定音高为C3。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2666>
+C3#
+C3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2718>
+Setting pitch to C3#.
+设定音高为C3#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2726>
+D3
+D3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2706>
+"""Setting pitch to D3.
+"""
+"""设定音高为D3。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2629>
+D3#
+D3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2696>
+Setting pitch to D3#.
+设定音高为D3#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2646>
+E3
+E3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2729>
+Setting pitch to E3.
+设定音高为E3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2632>
+F3
+F3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2712>
+"""Setting pitch to F3.
+"""
+"""设定音高为F3。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2654>
+F3#
+F3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2690>
+Setting pitch to F3#.
+设定音高为F3#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2630>
+G3
+G3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2734>
+Setting pitch to G3.
+设定音高为G3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2741>
+G3#
+G3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2639>
+"""Setting pitch to G3#.
+"""
+"""设定音高为G3#。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2628>
+A3
+A3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2659>
+Setting pitch to A3.
+设定音高为A3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2731>
+A3#
+A3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2633>
+"""Setting pitch to A3#.
+"""
+"""设定音高为A3#。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2722>
+B3
+B3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2677>
+Setting pitch to B3.
+设定音高为B3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2698>
+C4
+C4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2702>
+Setting pitch to C4.
+设定音高为C4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2714>
+C4#
+C4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2631>
+Setting pitch to C4#.
+设定音高为C4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2686>
+D4
+D4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2705>
+Setting pitch to D4.
+设定音高为D4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2744>
+D4#
+D4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2668>
+Setting pitch to D4#.
+设定音高为D4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2682>
+E4
+E4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2724>
+Setting pitch to E4.
+设定音高为E4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2740>
+F4
+F4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2725>
+Setting pitch to F4.
+设定音高为F4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2670>
+F4#
+F4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2716>
+Setting pitch to F4#.
+设定音高为F4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2655>
+G4
+G4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2743>
+Setting pitch to G4.
+设定音高为G4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2683>
+G4#
+G4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2687>
+Setting pitch to G4#.
+设定音高为G4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2667>
+A4
+A4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2737>
+Setting pitch to A4.
+设定音高为A4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2723>
+A4#
+A4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2721>
+Setting pitch to A4#.
+设定音高为A4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2745>
+B4
+B4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2673>
+Setting pitch to B4.
+设定音高为B4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2679>
+C5
+C5
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuExplosion <2719>
+Setting pitch to C5.
+设定音高为c5。
+
+> TERM.FULL DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2739>
+Speaker Control
+喇叭控制
+
+> TERM.BTXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2675>
+"""Universal Electric, Inc.
+
+Set blip speaker pitch:
+"""
+"""宇宙电子企业
+
+设定哔音喇叭音高：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2662>
+C3
+C3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2709>
+"""Setting pitch to C3.
+"""
+"""设定音高为C3。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2708>
+C3#
+C3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2703>
+Setting pitch to C3#.
+设定音高为C3#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2730>
+D3
+D3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2656>
+"""Setting pitch to D3.
+"""
+"""设定音高为D3。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2747>
+D3#
+D3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2704>
+Setting pitch to D3#.
+设定音高为D3#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2701>
+E3
+E3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2700>
+Setting pitch to E3.
+设定音高为E3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2699>
+F3
+F3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2643>
+"""Setting pitch to F3.
+"""
+"""设定音高为F3。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2697>
+F3#
+F3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2695>
+Setting pitch to F3#.
+设定音高为F3#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2635>
+G3
+G3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2688>
+Setting pitch to G3.
+设定音高为G3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2694>
+G3#
+G3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2693>
+"""Setting pitch to G3#.
+"""
+"""设定音高为G3#。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2637>
+A3
+A3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2658>
+Setting pitch to A3.
+设定音高为A3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2663>
+A3#
+A3#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2717>
+"""Setting pitch to A3#.
+"""
+"""设定音高为A3#。
+"""
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2634>
+B3
+B3
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2681>
+Setting pitch to B3.
+设定音高为B3。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2680>
+C4
+C4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2678>
+Setting pitch to C4.
+设定音高为C4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2676>
+C4#
+C4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2711>
+Setting pitch to C4#.
+设定音高为C4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2674>
+D4
+D4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2660>
+Setting pitch to D4.
+设定音高为D4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2692>
+D4#
+D4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2669>
+Setting pitch to D4#.
+设定音高为D4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2732>
+E4
+E4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2652>
+Setting pitch to E4.
+设定音高为E4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2748>
+F4
+F4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2710>
+Setting pitch to F4.
+设定音高为F4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2720>
+F4#
+F4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2657>
+Setting pitch to F4#.
+设定音高为F4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2653>
+G4
+G4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2651>
+Setting pitch to G4.
+设定音高为G4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2650>
+G4#
+G4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2661>
+Setting pitch to G4#.
+设定音高为G4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2648>
+A4
+A4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2647>
+Setting pitch to A4.
+设定音高为A4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2640>
+A4#
+A4#
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2645>
+Setting pitch to A4#.
+设定音高为A4#。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2624>
+B4
+B4
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2625>
+Setting pitch to B4.
+设定音高为B4。
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2649>
+C5
+C5
+
+> TERM.UNAM DLC05nativeWorkshopSpeakerTerminalSubMenuBlip <2642>
+Setting pitch to C5.
+设定音高为c5。
+
+> TERM.FULL DLC05nativeWorkshopSpeakerTerminalBlip <2638>
+>Speaker Control - Blip
+> 喇叭控制 - 哔音
+
+> TERM.ITXT DLC05nativeWorkshopSpeakerTerminalBlip <2671>
+ > Speaker Control - Blip
+ > 喇叭控制 - 哔音
+
+> TERM.RNAM DLC05nativeWorkshopSpeakerTerminalBlip <2636>
+Accessing Universal Electric Speaker Control...
+正在访问宇宙电子喇叭控制…………
+
+> TERM.FULL DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2592>
+Universal Pyrotechnics Junk Mortar Control
+环球烟花垃圾发射器控制
+
+> TERM.BTXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2578>
+"""Universal Pyrotechnics Junk Mortar Control Panel
+
+Set output force:
+"""
+"""环球烟花垃圾发射器控制面板
+
+设定输出力道：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2565>
+1.0
+1.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2585>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2573>
+2.0
+2.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2566>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.UNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2590>
+"""
+"""
+"""
+"""
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2577>
+3.0
+3.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2588>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2583>
+4.0
+4.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2594>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2571>
+5.0 (recommended)
+5.0（建议）
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2584>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2581>
+6.0
+6.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2582>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2579>
+7.0
+7.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2564>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2586>
+8.0
+8.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2591>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2580>
+9.0
+9.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2575>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2574>
+10.0
+10.0
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuForce <2593>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.FULL DLC05nativeWorkshopJunkMortarTerminalSubMenu <2572>
+Universal Pyrotechnics Junk Mortar Control
+环球烟花垃圾发射器控制
+
+> TERM.BTXT DLC05nativeWorkshopJunkMortarTerminalSubMenu <2569>
+"""Universal Pyrotechnics Junk Mortar Control Panel
+
+Please choose an option:
+"""
+"""环球烟花垃圾发射器控制面板
+
+请选择以下选项：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenu <2570>
+Set Firing Angle
+设定发射角度
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenu <2568>
+Set Firing Force
+设定发射力道
+
+> TERM.FULL DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2334>
+Universal Junk Mortar Control
+环球垃圾发射器控制
+
+> TERM.BTXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2337>
+"""Universal Pyrotechnics, Inc. Junk Mortar Control Panel
+
+Set firing angle:"""
+"""环球烟花公司垃圾发射器控制面板
+
+设定发射角度：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2319>
+-45 degrees
+-45度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2316>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2323>
+-30 degrees
+-30度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2317>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.UNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2340>
+"""
+"""
+"""
+"""
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2318>
+-15 degrees
+-15度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2336>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2331>
+0 degrees
+0度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2338>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2333>
+15 degrees
+15度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2335>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2320>
+30 degrees
+30度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2315>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2321>
+45 degrees
+45度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2326>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2332>
+60 degrees
+60度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2322>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2314>
+75 degrees
+75度
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminalSubMenuAngle <2339>
+Changing mortar firing angle...
+改变发射器角度……
+
+> TERM.FULL DLC05nativeWorkshopJunkMortarTerminal <2329>
+> Universal Pyrotechnics Junk Mortar Control
+> 环球烟花垃圾发射器控制
+
+> TERM.ITXT DLC05nativeWorkshopJunkMortarTerminal <2328>
+ > Junk Mortar Control
+> 垃圾发射器控制
+
+> TERM.RNAM DLC05nativeWorkshopJunkMortarTerminal <2327>
+Accessing Universal Pyrotechnics Junk Mortar Control...
+正在访问环球烟花垃圾发射器控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2294>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2299>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select item to manufacture:
+"""
+"""廉价小物自动制造控制面板
+
+选择制造物品：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2307>
+10mm Round
+10mm弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2295>
+2mm Electromagnetic Cartridge
+2mm电磁弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2291>
+.308 Round
+.308弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2304>
+.38 Round
+.38弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2302>
+.44 Round
+.44弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2292>
+.45 Round
+.45弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2289>
+.50 Round
+.50弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2270>
+5.56 Round
+5.56弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2287>
+5mm Round
+5mm弹药
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01TerminalSubMenu <2285>
+Shotgun Shell
+霰弹
+
+> TERM.FULL DLC05nativeWorkshopBuilderAmmo01Terminal <2284>
+> Schlocket Automated Ammunition Plant
+> 廉价小物自动弹药制造机
+
+> TERM.ITXT DLC05nativeWorkshopBuilderAmmo01Terminal <2283>
+ > Ammunition Plant Control
+> 弹药制造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderAmmo01Terminal <2279>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2162>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2127>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select item to manufacture:
+"""
+"""廉价小物自动制造控制面板
+
+选择制造物品：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2084>
+Green Dress
+绿色洋装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2107>
+Denim Dress
+牛仔洋装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2097>
+Rose Dress
+玫瑰洋装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2109>
+Blue Dress
+蓝色连衣裙
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2126>
+Cream Dress
+米色洋装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2112>
+Pink Dress
+粉红洋装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2164>
+Loungewear
+居家便服
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2120>
+Checkered Shirt and Slacks
+格纹衬衫和宽裤
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2168>
+Sweater Vest and Slacks
+毛衣背心和休闲裤
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2110>
+T-Shirt and Slacks
+T恤和休闲裤
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2116>
+Casual Outfit
+休闲服
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2380>
+Black Suit
+黑色西装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2401>
+Blue Suit
+蓝色西装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2386>
+Grey Suit
+灰色服装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2369>
+Striped Suit
+条纹西装
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01TerminalSubMenu <2381>
+Tan Suit
+褐色西装
+
+> TERM.FULL DLC05nativeWorkshopBuilderClothing01Terminal <2068>
+> Schlocket Automated Manufactory Control
+> 廉价小物自动制造控制
+
+> TERM.ITXT DLC05nativeWorkshopBuilderClothing01Terminal <2069>
+ > Auto-Loom Control
+> 自动织布机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderClothing01Terminal <2067>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1837>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1832>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select item to manufacture:
+"""
+"""廉价小物自动制造控制面板
+
+选择制造物品：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1821>
+Leather Armor - Light
+皮革护甲 - 轻型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1825>
+Leather Armor - Medium
+皮革护甲 - 中型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1812>
+Leather Armor - Heavy
+皮革护甲 - 重型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1817>
+Metal Armor - Light
+金属护甲 - 轻型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1822>
+Metal Armor - Medium
+金属护甲 - 中型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1816>
+Metal Armor - Heavy
+金属护甲 - 重型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1839>
+Combat Armor - Light
+战斗护甲 - 轻型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1833>
+Combat Armor - Medium
+战斗护甲 - 中型
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01TerminalSubMenu <1838>
+Combat Armor - Heavy
+战斗护甲 - 重型
+
+> TERM.FULL DLC05nativeWorkshopBuilderArmor01Terminal <1807>
+> Schlocket Automated Manufactory Control
+> 廉价小物自动制造控制
+
+> TERM.ITXT DLC05nativeWorkshopBuilderArmor01Terminal <1809>
+ > Armor Forge Control
+> 护甲锻造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderArmor01Terminal <1808>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1773>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1793>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select item to manufacture:
+"""
+"""廉价小物自动制造控制面板
+
+选择制造物品：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <2597>
+Firework Shell - Crackle
+烟花弹 - 爆裂
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <2596>
+Firework Shell - Palm Gold
+烟花弹 - 热带金
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <2599>
+Firework Shell - Palm Silver
+烟花弹 - 热带银
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <2595>
+Firework Shell - Peony Blue
+烟花弹 - 牡丹蓝
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1791>
+Firework Shell - Peony Green
+烟花弹 - 牡丹绿
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <2600>
+Firework Shell - Peony Pink
+烟花弹 - 牡丹粉红
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1775>
+Firework Shell - Peony Red
+烟花弹 - 牡丹红
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <2598>
+Firework Shell - Peony Yellow
+烟花弹 - 牡丹黄
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1795>
+Weather Change Shell - Clear
+天气弹 - 晴朗
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1782>
+Weather Change Shell - Radstorm
+天气弹 - 辐射风暴
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1787>
+Weather Change Shell - Rain
+天气弹 - 雨天
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02TerminalSubMenu <1792>
+Emergency Flare Shell
+紧急烟雾子弹
+
+> TERM.FULL DLC05nativeWorkshopBuilderExplosives02Terminal <1786>
+> Schlocket Automated Pyrotechnics Mill
+> 廉价小物自动烟花制造机
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives02Terminal <1764>
+ > Pyrotechnics Mill Control
+> 烟花制造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderExplosives02Terminal <1776>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderFood01TerminalSubMenu <1765>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <1784>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select food product to manufacture:
+"""
+"""廉价小物工业自动制造控制面板
+
+选择制造食物产品：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <1785>
+Blamco Brand Mac and Cheese
+白兰哥干酪通心面
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <2030>
+Cram
+饱饱牌肉罐头
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <1778>
+Fancy Lads Snack Cakes
+俏男孩夹心蛋糕
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <1774>
+InstaMash
+快餐薯泥
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <2034>
+Pork n' Beans
+豌豆猪肉罐头
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <2027>
+Potato Crisps
+薯片
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <1789>
+Salisbury Steak
+索尔兹伯里牛肉饼
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <1797>
+Sugar Bombs
+甜麦炮弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01TerminalSubMenu <2058>
+Yum Yum Deviled Eggs
+美味魔鬼蛋
+
+> TERM.FULL DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1761>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1780>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select item to manufacture:
+"""
+"""廉价小物自动制造控制面板
+
+选择制造物品：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1777>
+Baseball Grenade
+棒球手榴弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1779>
+Cryogenic Grenade
+冷冻手榴弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1798>
+Fragmentation Grenade
+破片手榴弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1800>
+Molotov Cocktail
+汽油弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1794>
+Plasma Grenade
+等离子手榴弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1788>
+Pulse Grenade
+脉冲手榴弹
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1768>
+Bottlecap Mine
+瓶盖地雷
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1762>
+Cryo Mine
+冷冻地雷
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1766>
+Fragmentation Mine
+破片地雷
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1799>
+Nuke Mine
+核子地雷
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1771>
+Plasma Mine
+等离子地雷
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01TerminalSubMenu <1772>
+Pulse Mine
+脉冲地雷
+
+> TERM.FULL DLC05nativeWorkshopBuilderExplosives01Terminal <1717>
+> Schlocket Automated Explosives Mill
+> 廉价小物自动爆裂物制造机
+
+> TERM.ITXT DLC05nativeWorkshopBuilderExplosives01Terminal <1755>
+ > Explosives Mill Control
+> 爆裂物制造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderExplosives01Terminal <1707>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderFood01Terminal <1715>
+> Schlocket Automated Food Processor Control
+> 廉价小物自动食品加工机控制
+
+> TERM.ITXT DLC05nativeWorkshopBuilderFood01Terminal <1689>
+ > Food Processor Control
+> 食品加工机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderFood01Terminal <1674>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1730>
+Schlocket Conveyor Control
+廉价小物输送器控制
+
+> TERM.BTXT DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1676>
+"""Schlocket Industries Conveyor Control Panel
+
+Set conveyor speed:
+"""
+"""廉价小物工业输送器控制面板
+
+设定输送速度：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1743>
+1.0
+1.0
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1702>
+Changing Conveyor speed...
+改变输送速度……
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1701>
+2.0
+2.0
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1714>
+Changing Conveyor speed...
+改变输送速度……
+
+> TERM.UNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1749>
+"""Schlocket Industries Conveyor Control Panel
+
+Set conveyor 
+speed:
+"""
+"""廉价小物工业输送器控制面板
+
+设定输送器
+速度：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1735>
+5.0
+5.0
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1710>
+Changing Conveyor speed...
+改变输送速度……
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1686>
+10.0
+10.0
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1726>
+Changing Conveyor speed...
+改变输送速度……
+
+> TERM.UNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1700>
+WARNING: Conveyor speed exceeds recommended safety parameters. Property damage or injury may result.
+警告：输送速度超出建议安全范围。可能造成机器受损和人员伤害。
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1752>
+20.0
+20.0
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1725>
+Changing Conveyor speed...
+改变输送速度……
+
+> TERM.UNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1699>
+WARNING: Conveyor speed exceeds recommended safety parameters. Property damage or injury may result.
+警告：输送速度超出建议安全范围。可能造成机器受损和人员伤害。
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1693>
+30.0
+30.0
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1727>
+Changing Conveyor speed...
+改变输送速度……
+
+> TERM.UNAM DLC05nativeWorkshopConveyorTerminalSubMenuSpeed <1756>
+WARNING: Conveyor speed exceeds recommended safety parameters. Property damage or injury may result.
+警告：输送速度超出建议安全范围。可能造成机器受损和人员伤害。
+
+> TERM.FULL DLC05nativeWorkshopConveyorTerminalSubMenuDirection <1688>
+Schlocket Conveyor Control
+廉价小物输送器控制
+
+> TERM.BTXT DLC05nativeWorkshopConveyorTerminalSubMenuDirection <1692>
+"""Schlocket Industries Conveyor Control Panel
+
+Set direction:
+"""
+"""廉价小物工业输送器控制面板
+
+设定方向：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuDirection <1696>
+Forward
+正向
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuDirection <1758>
+Changing Conveyor direction...
+改变输送方向……
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenuDirection <1681>
+Reverse
+反向
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminalSubMenuDirection <1698>
+Changing Conveyor direction...
+改变输送方向……
+
+> TERM.UNAM DLC05nativeWorkshopConveyorTerminalSubMenuDirection <1705>
+"""
+"""
+"""
+"""
+
+> TERM.FULL DLC05nativeWorkshopConveyorTerminalSubMenu <1757>
+Schlocket Conveyor Control
+廉价小物输送器控制
+
+> TERM.BTXT DLC05nativeWorkshopConveyorTerminalSubMenu <1746>
+"""Schlocket Industries Conveyor Control Panel
+
+Please choose an option:
+"""
+"""廉价小物工业输送器控制面板
+
+请选择以下选项：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenu <1760>
+Set Conveyor Direction
+设定输送方向
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminalSubMenu <1697>
+Set Conveyor Speed
+设定输送速度
+
+> TERM.FULL DLC05nativeWorkshopConveyorTerminal <1678>
+> Schlocket Conveyor Control
+> 廉价小物输送器控制
+
+> TERM.ITXT DLC05nativeWorkshopConveyorTerminal <1736>
+ > Conveyor Control
+> 输送器控制
+
+> TERM.RNAM DLC05nativeWorkshopConveyorTerminal <1731>
+Accessing Schlocket Conveyor Control...
+正在访问廉价小物输送器控制
+
+> TERM.FULL DLC05nativeWorkshopFireworkTerminal <1754>
+> Universal Pyrotechnics Firework Mortar Control
+> 环球烟花发射器控制
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminal <1738>
+ > Firework Mortar Control
+> 烟花发射器控制
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminal <1759>
+Accessing Universal Pyrotechnics Firework Mortar Control...
+正在访问环球烟花发射器控制……
+
+> TERM.FULL DLC05nativeWorkshopFireworkTerminalSubMenu <1683>
+Universal Firework Control
+环球烟花控制
+
+> TERM.BTXT DLC05nativeWorkshopFireworkTerminalSubMenu <1695>
+"""Universal Pyrotechnics, Inc. Firework Mortar Control Panel
+
+Set output timer:
+"""
+"""环球烟花公司烟花发射器控制面板
+
+设定发射定时器：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1733>
+0.5 s
+0.5秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1691>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1732>
+1.0 s
+1.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1739>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1729>
+2.0 s
+2.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1718>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.UNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1751>
+"""
+"""
+"""
+"""
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1711>
+3.0 s
+3.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1734>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1677>
+4.0 s
+4.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1750>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1722>
+5.0 s
+5.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1721>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1675>
+10.0 s
+10.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1716>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1719>
+15.0 s
+15.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1682>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1687>
+20.0 s
+20.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1728>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.ITXT DLC05nativeWorkshopFireworkTerminalSubMenu <1694>
+30.0 s
+30.0秒
+
+> TERM.RNAM DLC05nativeWorkshopFireworkTerminalSubMenu <1684>
+Changing mortar settings...
+更改发射器设定……
+
+> TERM.FULL DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1643>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1661>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+New build item: <Token.Name=RecipeName>
+
+Required components:
+"""
+"""廉价小物工业自动制造控制面板
+
+新制造物品： <Token.Name=RecipeName>
+
+需要组件："""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1641>
+<Token.Name=ComponentName0> <Token.ValueInt=ComponentCount0>
+<Token.Name=ComponentName0> <Token.ValueInt=ComponentCount0>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1642>
+<Token.Name=ComponentName1> <Token.ValueInt=ComponentCount1>
+<Token.Name=ComponentName1> <Token.ValueInt=ComponentCount1>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1671>
+<Token.Name=ComponentName2> <Token.ValueInt=ComponentCount2>
+<Token.Name=ComponentName2> <Token.ValueInt=ComponentCount2>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1648>
+<Token.Name=ComponentName3> <Token.ValueInt=ComponentCount3>
+<Token.Name=ComponentName3> <Token.ValueInt=ComponentCount3>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1659>
+<Token.Name=ComponentName4> <Token.ValueInt=ComponentCount4>
+<Token.Name=ComponentName4> <Token.ValueInt=ComponentCount4>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1645>
+<Token.Name=ComponentName5> <Token.ValueInt=ComponentCount5>
+<Token.Name=ComponentName5> <Token.ValueInt=ComponentCount5>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1672>
+<Token.Name=ComponentName6> <Token.ValueInt=ComponentCount6>
+<Token.Name=ComponentName6> <Token.ValueInt=ComponentCount6>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1669>
+<Token.Name=ComponentName7> <Token.ValueInt=ComponentCount7>
+<Token.Name=ComponentName7> <Token.ValueInt=ComponentCount7>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1657>
+<Token.Name=ComponentName8> <Token.ValueInt=ComponentCount8>
+<Token.Name=ComponentName8> <Token.ValueInt=ComponentCount8>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1653>
+<Token.Name=ComponentName9> <Token.ValueInt=ComponentCount9>
+<Token.Name=ComponentName9> <Token.ValueInt=ComponentCount9>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1639>
+<Token.Name=ComponentName10> <Token.ValueInt=ComponentCount10>
+<Token.Name=ComponentName10> <Token.ValueInt=ComponentCount10>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1651>
+<Token.Name=ComponentName11> <Token.ValueInt=ComponentCount11>
+<Token.Name=ComponentName11> <Token.ValueInt=ComponentCount11>
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubmenuDisplayRecipe <1664>
+<Token.Name=ComponentName12> <Token.ValueInt=ComponentCount12>
+<Token.Name=ComponentName12> <Token.ValueInt=ComponentCount12>
+
+> TERM.FULL DLC05nativeWorkshopBuilderWeapon03TerminalSubMenu <1644>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderWeapon03TerminalSubMenu <1666>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select weapon to manufacture:
+"""
+"""廉价小物工业自动制造控制面板
+
+选择制造武器：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon03TerminalSubMenu <1636>
+Fatman
+胖子核弹发射器
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon03TerminalSubMenu <1670>
+Gauss Rifle
+高斯步枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon03TerminalSubMenu <1668>
+Minigun
+旋转机枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon03TerminalSubMenu <1665>
+Missile Launcher
+导弹发射器
+
+> TERM.FULL DLC05nativeWorkshopBuilderWeapon03Terminal <1663>
+> Schlocket Automated Manufactory Control
+> 廉价小物自动制造控制
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon03Terminal <1646>
+ > Heavy Weapon Forge Control
+> 重型武器锻造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderWeapon03Terminal <1673>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderWeapon02TerminalSubMenu <1667>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderWeapon02TerminalSubMenu <1649>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select weapon to manufacture:
+"""
+"""廉价小物工业自动制造控制面板
+
+选择制造武器：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon02TerminalSubMenu <1640>
+Gamma Gun
+伽马枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon02TerminalSubMenu <1635>
+Gatling Laser
+激光机枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon02TerminalSubMenu <1647>
+Laser Gun
+激光枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon02TerminalSubMenu <1652>
+Laser Musket
+激光滑膛枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon02TerminalSubMenu <1660>
+Plasma Gun
+等离子枪
+
+> TERM.FULL DLC05nativeWorkshopBuilderWeapon02Terminal <1654>
+> Schlocket Automated Manufactory Control
+> 廉价小物自动制造控制
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon02Terminal <1658>
+ > Energy Weapon Forge Control
+> 能量武器锻造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderWeapon02Terminal <1638>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopHopperTerminalSubMenuForce <1574>
+Schlocket Hopper Control
+廉价小物漏斗控制
+
+> TERM.BTXT DLC05nativeWorkshopHopperTerminalSubMenuForce <1598>
+"""Schlocket Industries Hopper Control Panel
+
+Set output force:
+"""
+"""廉价小物工业漏斗控制面板
+
+设定输出力量：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuForce <1610>
+1.0
+1.0
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1616>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuForce <1607>
+2.0
+2.0
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1558>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.UNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1560>
+"""
+"""
+"""
+"""
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuForce <1596>
+5.0
+5.0
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1615>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuForce <1586>
+10.0
+10.0
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1603>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.UNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1565>
+WARNING: Output force exceeds recommended safety parameters.
+警告：输出力量超出建议安全范围。
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuForce <1605>
+20.0
+20.0
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1561>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.UNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1599>
+WARNING: Output force exceeds recommended safety parameters.
+警告：输出力量超出建议安全范围。
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuForce <1602>
+30.0
+30.0
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1592>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.UNAM DLC05nativeWorkshopHopperTerminalSubMenuForce <1559>
+WARNING: Output force exceeds recommended safety parameters.
+警告：输出力量超出建议安全范围。
+
+> TERM.FULL DLC05nativeWorkshopHopperTerminalSubMenuTimer <1618>
+Schlocket Hopper Control
+廉价小物漏斗控制
+
+> TERM.BTXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1611>
+"""Schlocket Industries Hopper Control Panel
+
+Set output timer:
+"""
+"""廉价小物工业漏斗控制面板
+
+设定输出定时器：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1597>
+0.5 s
+0.5秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1621>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.UNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1590>
+WARNING: Timer outside manufacturer recommended settings. Jamming may result.
+警告：定时器超出制造商建议设定。可能会造成堵塞。
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1617>
+1.0 s
+1.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1594>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1604>
+2.0 s
+2.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1587>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.UNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1567>
+"""
+"""
+"""
+"""
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1619>
+3.0 s
+3.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1606>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1554>
+4.0 s
+4.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1571>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1572>
+5.0 s
+5.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1593>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1579>
+10.0 s
+10.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1613>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1569>
+15.0 s
+15.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1576>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1564>
+20.0 s
+20.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1577>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenuTimer <1601>
+30.0 s
+30.0秒
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminalSubMenuTimer <1570>
+Changing Hopper settings...
+更改漏斗设定……
+
+> TERM.FULL DLC05nativeWorkshopHopperTerminalSubMenu <1578>
+Schlocket Hopper Control
+廉价小物漏斗控制
+
+> TERM.BTXT DLC05nativeWorkshopHopperTerminalSubMenu <1582>
+"""Schlocket Industries Hopper Control Panel
+
+Please choose an option:
+"""
+"""廉价小物工业漏斗控制面板
+
+请选择以下选项：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenu <1580>
+Set Output Timer
+设定输出定时器
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminalSubMenu <1608>
+Set Output Force
+设定输出力量
+
+> TERM.FULL DLC05nativeWorkshopHopperTerminal <1568>
+> Schlocket Automated Hopper Control
+> 廉价小物自动漏斗控制
+
+> TERM.ITXT DLC05nativeWorkshopHopperTerminal <1609>
+ > Hopper Control
+> 漏斗控制
+
+> TERM.RNAM DLC05nativeWorkshopHopperTerminal <1620>
+Accessing Schlocket Automated Hopper Control...
+正在访问廉价小物自动漏斗控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1566>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1622>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select weapon to manufacture:
+"""
+"""廉价小物工业自动制造控制面板
+
+选择制造武器：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1591>
+10mm Pistol
+10mm手枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1589>
+.44 Caliber Pistol
+.44手枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1595>
+Assault Rifle
+突击步枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1573>
+Combat Rifle
+战斗步枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1557>
+Combat Shotgun
+战斗霰弹枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1588>
+Double-Barrel Shotgun
+双管霰弹枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1575>
+Flamer
+火焰喷射器
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1637>
+Hunting Rifle
+猎枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1712>
+Pipe Gun
+自制枪
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01TerminalSubMenu <1634>
+Submachine Gun
+冲锋枪
+
+> TERM.FULL DLC05nativeWorkshopBuilderWeapon01Terminal <1600>
+> Schlocket Automated Manufactory Control
+> 廉价小物自动制造控制
+
+> TERM.ITXT DLC05nativeWorkshopBuilderWeapon01Terminal <1581>
+ > Weapon Forge Control
+> 武器锻造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderWeapon01Terminal <1583>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> TERM.FULL DLC05nativeWorkshopBuilderTerminalSubMenu <1536>
+Schlocket Automated Manufactory Control
+廉价小物自动制造控制
+
+> TERM.BTXT DLC05nativeWorkshopBuilderTerminalSubMenu <1545>
+"""Schlocket Industries Automated Manufactory Control Panel
+
+Select item to manufacture:
+"""
+"""廉价小物自动制造控制面板
+
+选择制造物品：
+"""
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1540>
+Steel Ball
+钢球
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1539>
+Bowling Pin
+保龄球瓶
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1796>
+Teddy Bear
+泰迪熊
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1802>
+Giddyup Buttercup (TM)
+奶油小马
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1781>
+Jangles the Moon Monkey (TM)
+月亮猴强哥
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1790>
+Kickball
+球
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1770>
+Vault-Tec Lunchbox
+避难所科技午餐盒
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1763>
+Plastic Pumpkin
+万圣节南瓜
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1767>
+Toy Alien
+外星人玩具
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1801>
+Toy Rocketship
+玩具火箭船
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminalSubMenu <1769>
+Toy Truck
+玩具卡车
+
+> TERM.FULL DLC05nativeWorkshopBuilderTerminal <1552>
+> Schlocket Automated Manufactory Control
+> 廉价小物自动制造控制
+
+> TERM.ITXT DLC05nativeWorkshopBuilderTerminal <1542>
+ > Builder Control
+> 制造机控制
+
+> TERM.RNAM DLC05nativeWorkshopBuilderTerminal <1549>
+Accessing Schlocket Automated Manufactory Control...
+正在访问廉价小物自动制造控制……
+
+> CELL.FULL TestDrewWorkshop <1961>
+Quick Test Cell
+快速测试房间
+
+> CELL.FULL TestCory01 <1458>
+Quick Test Cell
+快速测试房间
+
+> FLST.FULL DLC05WorkshopPoweredSpeakersEffects <2613>
+Powered Speaker (Effects)
+插电喇叭（音效）
+
+> FLST.FULL DLC05WorkshopPoweredSpeakersMusic <2610>
+Powered Speaker (Music)
+插电喇叭（音乐）
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Walls02 <2604>
+Wall
+墙壁
+
+> FLST.FULL DLC05WorkshopWarehouseKit_RoofsPlatforms <2606>
+Roof
+屋顶
+
+> FLST.FULL DLC05WorkshopWarehouseKit_GreenhousePrefabs <2385>
+Prefab
+预制
+
+> FLST.FULL DLC05WorkshopArmorRackListFemale <2353>
+Armor Rack
+护甲架
+
+> FLST.FULL DLC05WorkshopWarehouseKit_GreenhouseDoors <2308>
+Door
+门
+
+> FLST.FULL DLC05WorkshopWarehouseKit_GreenhouseRoofs <2312>
+Roof
+屋顶
+
+> FLST.FULL DLC05WorkshopWarehouseKit_GreenhouseWalls <2309>
+Wall
+墙壁
+
+> FLST.FULL DLC05MarqueeLetters-Red <2114>
+Marquee Letters
+招牌大字母
+
+> FLST.FULL DLC05MarqueeLetters-Black <2080>
+Marquee Letters
+招牌大字母
+
+> FLST.FULL DLC05ComponentSorterList <2086>
+Components
+组件
+
+> FLST.FULL DLC05WorkshopConveyorBeltsLifts <2022>
+Conveyor Lift
+升降输送带
+
+> FLST.FULL DLC05WorkshopBallTrackStraight <2390>
+Ball Track
+轴承滚道
+
+> FLST.FULL DLC05WorkshopWarehouseKit_MiscCupola <2033>
+Roof - Cupola
+屋顶 - 穹型
+
+> FLST.FULL DLC05WorkshopWarehouseKit_RoofsMetal <2028>
+Roof
+屋顶
+
+> FLST.FULL DLC05WorkshopWarehouseKit_RoofsCap02 <2048>
+Roof
+屋顶
+
+> FLST.FULL DLC05WorkshopWarehouseKit_WallsGlass <2035>
+Wall
+墙壁
+
+> FLST.FULL DLC05WorkshopWarehouseKit_PrefabsGlass <2062>
+Prefab
+预制
+
+> FLST.FULL DLC05MarqueeArrows <1907>
+Marquee Arrow
+箭头招牌
+
+> FLST.FULL DLC05WorkshopScaffoldKit_StairsWood <1860>
+Scaffolding Ramp
+鹰架坡道
+
+> FLST.FULL DLC05WorkshopWarehouseKit_DoorsMetal <1859>
+Door
+门
+
+> FLST.FULL DLC05WorkshopWarehouseKit_FloorsWood <1863>
+Floor
+地板
+
+> FLST.FULL DLC05WorkshopWarehouseKit_FloorsSlate <1861>
+Floor
+地板
+
+> FLST.FULL DLC05ConveyorBeltsRollers <1862>
+Conveyor Belt
+输送带
+
+> FLST.FULL DLC05Conduits <1826>
+Conduit
+导管
+
+> FLST.FULL DLC05WorkshopWksDisplayCase <1548>
+Display Cases
+展示柜
+
+> FLST.FULL DLC05ConveyorBelts <1521>
+Conveyor Belt
+输送带
+
+> FLST.FULL DLC05PistolRackList <1505>
+Pistol Rack
+手枪架
+
+> FLST.FULL DLC05WeaponRackList <1499>
+Weapon Rack
+武器架
+
+> FLST.FULL DLC05WorkshopMenu01Decor02DisplayCases <1512>
+Display
+展示
+
+> FLST.FULL DLC05PowerArmorDisplayList <1513>
+Power Armor Display
+动力装甲展示架
+
+> FLST.FULL DLC05WorkshopBoxCarOrange <1504>
+Boxcars
+货柜
+
+> FLST.FULL DLC05WorkshopMenu01Build02Boxcars <1502>
+Boxcars
+货柜
+
+> FLST.FULL DLC05WorkshopScaffold_Prefabs <1493>
+Scaffolding Tower
+鹰架塔
+
+> FLST.FULL DLC05PoweredPosterFrame <1491>
+Poster
+海报
+
+> FLST.FULL DLC05WorkshopBallTrackCurves <2374>
+Ball Track
+轴承滚道
+
+> FLST.FULL DLC05WorkshopWksBallTrackWood <1462>
+Ball Track
+轴承滚道
+
+> FLST.FULL DLC05WorkshopBoxCarBlue <1454>
+Boxcars
+货柜
+
+> FLST.FULL DLC05WorkshopMenu01Build02Scaffolding <1238>
+Building
+建筑
+
+> FLST.FULL DLC05WorkshopScaffoldKit_Railings <1101>
+Scaffolding Railing
+鹰架栏杆
+
+> FLST.FULL DLC05WorkshopScaffoldKit_Frames <1117>
+Scaffolding Frame
+鹰架骨架
+
+> FLST.FULL DLC05WorkshopScaffoldKit_Stairs <1096>
+Scaffolding Stairs
+鹰架楼梯
+
+> FLST.FULL DLC05WorkshopScaffoldKit_Floors <1120>
+Scaffolding Floor
+鹰架地板
+
+> FLST.FULL DLC05WorkshopScaffoldKit <1110>
+Scaffolding
+脚手架
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Prefabs <331>
+Prefab
+预制
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Misc <732>
+Post
+柱
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Stairs <686>
+Stairs
+楼梯
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Floors <396>
+Floor
+地板
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Doors <324>
+Door
+门
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Roofs <321>
+Roof
+屋顶
+
+> FLST.FULL DLC05WorkshopWarehouseKit_Walls <319>
+Wall
+墙壁
+
+> FLST.FULL DLC05WorkshopMenu01Build02Warehouse <317>
+Building
+建筑
+
+> FLST.FULL DLC05WorkshopArmorRackListMale <316>
+Armor Rack
+护甲架
+
+> FLST.FULL DLC05WorkshopWarehouseKit <10>
+Warehouse Kit
+仓库模型组
+
+> MESG.DESC DLC05_ElevatorRequiresPowerMessage <d2010>
+Requires Power to function.
+"""需要电力才能运作。
+"""
+
+> MESG.FULL DLC05_ElevatorRequiresPowerMessage <2003>
+Requires Power to function.
+需要电力才能运作。
+
+> MESG.DESC DLC05WorkshopTutorialMessageFireworks <d1986>
+"""A Firework Mortar can be loaded with firework shells, which it will then fire as long as it has power. You can change the firing delay by using a Terminal connected to the same power grid.
+
+Firework shells of different types can be crafted at a Chemistry Station, or you can create them using a Pyrotechnics Mill builder."""
+"""烟花发射器可以装载多个烟花弹，只要持续供应电力，发射器就能一直运作。只要在发射器的电厂上连接一台终端机，即可变更发射延迟时间。
+
+你可以在化学工作台或用烟花制造机制造不同种类的烟花弹。
+"""
+
+> MESG.FULL DLC05WorkshopTutorialMessageFireworks <1984>
+Contraptions Workshop - Fireworks
+装置工房 - 烟花
+
+> MESG.NNAM DLC05WorkshopTutorialMessageFireworks <1979>
+Fireworks
+烟花
+
+> MESG.DESC DLC05WorkshopTutorialMessageBuilders <d1982>
+"""A builder is used to create new objects out of the objects in its inventory. You can place objects into it directly, or attach a conveyor belt to feed items into it automatically.
+
+The builder will continue to create new objects as long as it has power and the required objects or components in its inventory.
+
+To change what a builder creates, use a Terminal connected to the same power grid."""
+"""制造机可以从栏位里选取物品，制造新的物品。你可以直接将物品放入制造机，或者接一条输送带自动将物品送进去。
+
+只要电力持续供应，栏位里还有可用的物品，制造机就会不停制造新物品。
+
+只要在制造机的电厂上连接一台终端机，即可变更制造机制造的物品。"""
+
+> MESG.FULL DLC05WorkshopTutorialMessageBuilders <1977>
+Contraptions Workshop - Builders
+装置工房 - 制造机
+
+> MESG.NNAM DLC05WorkshopTutorialMessageBuilders <1983>
+Builders
+制造机
+
+> MESG.DESC DLC05WorkshopTutorialMessageLogicGates <d1981>
+"""Use Logic Gates to create more sophisticated setups with the power grid. Logic Gates have two points to attach wires: input and output. There are two basic types:
+
+AND/OR/XOR: These gates act like switches; they transmit power or not depending on the combination of power to their inputs.
+
+AND: Transmits power if all inputs have power.
+OR: Transmits power if any input has power.
+XOR: Transmits power if exactly one input has power.
+
+NOT/NAND/NOR/XNOR: These gates only transmit power if their inputs are connected directly to the output of other logic gates.
+
+NOT and NOR: Transmits power when no inputs have power.
+NAND: Transmits power unless all inputs have power.
+XNOR: Transmits power when all inputs are the same (powered or unpowered)."""
+"""利用逻辑门设置更复杂的电厂设定。逻辑门有两头可以接上电线：输入端和输出端。逻辑门分成两种基本类型：
+
+AND/OR/XOR：这些逻辑门就像电源开关，逻辑门是否传输电力，端看输入端电力的组合方式。
+
+AND：如果所有输入端有电，则传输电力。
+OR：如果任何输入端有电，则传输电力。
+XOR：如果特定输入端有电，则传输电力。
+
+NOT/NAND/NOR/XNOR: 这些逻辑门的输入端必须直接连接其他逻辑门的输出端，才能传输电力。
+
+NOT和NOR：若没有输入端有电，则传输电力。
+NAND：若所有输入端都有电，则不传输电力。
+XNOR：若所有输入端都一样（无论有无电力），则传输电力。
+"""
+
+> MESG.FULL DLC05WorkshopTutorialMessageLogicGates <1976>
+Contraptions Workshop - Logic Gates
+装置工房 - 逻辑门
+
+> MESG.NNAM DLC05WorkshopTutorialMessageLogicGates <1978>
+Logic Gates
+逻辑门
+
+> MESG.FULL DLC05WorkshopBuilderArmor01CombatArmorMediumName <1834>
+Combat Armor - Medium
+战斗护甲 - 中型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01CombatArmorLightName <1824>
+Combat Armor - Light
+战斗护甲 - 轻型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01CombatArmorHeavyName <1828>
+Combat Armor - Heavy
+战斗护甲 - 重型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01MetalArmorMediumName <1830>
+Metal Armor - Medium
+金属护甲 - 中型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01MetalArmorLightName <1814>
+Metal Armor - Light
+金属护甲 - 轻型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01MetalArmorHeavyName <1813>
+Metal Armor - Heavy
+金属护甲 - 重型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01LeatherArmorHeavyName <1823>
+Leather Armor - Heavy
+皮革护甲 - 重型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01LeatherArmorMediumName <1820>
+Leather Armor - Medium
+皮革护甲 - 中型
+
+> MESG.FULL DLC05WorkshopBuilderArmor01LeatherArmorLightName <1818>
+Leather Armor - Light
+皮革护甲 - 轻型
+
+> MESG.FULL DLC05WorkshopBuilder02PipeGunName <1708>
+Pipe Gun
+自制枪
+
+> MESG.FULL DLC05WorkshopBuilder02PlasmaGunName <1656>
+Plasma Gun
+等离子枪
+
+> MESG.FULL DLC05WorkshopBuilder02LaserGunName <1655>
+Laser Gun
+激光枪
+
+> MESG.DESC DLC05FireworkMortarMessageFull <d1088>
+The mortar can only hold one type of shell at a time.
+"""发射器一次只能置入一种炮弹。
+"""
+
+> MESG.DESC DLC05WeaponRackMessageInvalid <d24>
+You can only place weapons on the rack.
+"""架子上只能摆放武器。
+"""
+
+> MESG.DESC DLC05WeaponRackMessageFull <d25>
+You can't put any more weapons on the rack.
+"""架子上已经摆不下武器了。
+"""
+
+> COBJ.DESC DLC05workshop_co_WorkshopTripwireLaser02 <d2750>
+Toggles power on and off when triggered.
+启动之后即开始切换电源开关。
+
+> COBJ.DESC DLC05workshop_co_PoweredSpeakersEffects <d2618>
+Plays an effect when powered. Use a connected terminal to change the sound.
+供电时会播放一个音效。使用连线的终端机变更声音。
+
+> COBJ.DESC DLC05workshop_co_PoweredSpeakersMusic <d2609>
+Plays a musical tone when powered. Use a connected terminal to change the pitch.
+供电时会播放一个乐音。使用联机的终端机更改音调。
+
+> COBJ.DESC DLC05workshop_co_WorkshopHopper03 <d2619>
+Stores objects delivered by a conveyor belt.
+保存输送带送来的物件。
+
+> COBJ.DESC DLC05workshop_co_WorkshopWeaponRackLong <d2605>
+Display a single medium-sized weapon.
+展示一把中型武器。
+
+> COBJ.DESC DLC05workshop_co_WorkshopWeaponRackShort <d2603>
+Display a single pistol or hand weapon.
+展示一把手枪或单手大小的武器。
+
+> COBJ.DESC DLC05workshop_co_BallTrackStraightTrigger02 <d2563>
+Turns power on briefly when it is triggered.
+启动时将短暂开启电源。
+
+> COBJ.DESC DLC05workshop_co_WorkshopTripwireLaser01 <d2751>
+Transmits power while triggered.
+启动之后即开始传输电力。
+
+> COBJ.DESC DLC05workshop_co_StationaryGunPaintball <d2388>
+Stationary mounted paintball gun which fires while powered.
+固定安装漆弹枪，通电后可开火。
+
+> COBJ.DESC DLC05workshop_co_WorkshopArmorRackFemale <d2752>
+Displays equipped clothing and armor.
+展示装备的服装和护甲。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderAmmo01 <d2271>
+Builds ammunition from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造弹药。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05Workshop_co_WorkshopSwitchLogicGateXNOR <d2324>
+Transmits power when all inputs are the same (powered or unpowered).
+若所有输入端都一样（无论有无电力），则传输电力。
+
+> COBJ.DESC DLC05workshop_co_WorkshopSorter02 <d2125>
+Sorts incoming objects by the components they contain, based on its current inventory.
+根据目前所有的栏位，将运输来物品依含有的组件分类。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderClothing01 <d2065>
+Builds clothing from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造服装。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_JunkMortar <d2611>
+Fires objects dropped inside it when powered.
+通电后会发射被放入的物体。
+
+> COBJ.DESC DLC05workshop_co_FiringTarget02 <d2054>
+Switches power on briefly when struck.
+发射时将电源打开。
+
+> COBJ.DESC DLC05workshop_co_BallTrackBall <d2032>
+Polished steel ball perfect for testing your ball track.
+平滑的钢球最适合测试滚球道。
+
+> COBJ.DESC DLC05workshop_co_BallTrackBallDropPwr01 <d2018>
+Releases a ball when powered.
+通电时放出球。
+
+> COBJ.DESC DLC05workshop_co_BallTrackStraightTrigger01 <d2050>
+Turns power on or off each time it is triggered.
+每次发射，打开或关闭开关。
+
+> COBJ.DESC DLC05workshop_co_BallTrackSplit01 <d2056>
+Switches between different tracks when power is on or off.
+电源开或关改变不同轨道。
+
+> COBJ.DESC DLC05workshop_co_BallTrackBallDrop01 <d2024>
+Manually releases a ball.
+手动放出球。
+
+> COBJ.DESC DLC05workshop_co_StationaryGun <d2049>
+Stationary mounted pipe gun which fires while powered.
+固定安装自制枪，通电后可开火。
+
+> COBJ.DESC DLC05workshop_co_ElevatorFrame03 <d2059>
+A four-story elevator.
+四层楼的电梯。
+
+> COBJ.DESC DLC05workshop_co_ElevatorFrame02 <d2060>
+A three-story elevator.
+三层楼的电梯。
+
+> COBJ.DESC DLC05workshop_co_ElevatorFrame01 <d2045>
+A two-story elevator.
+两层楼的电梯。
+
+> COBJ.DESC DLC05workshop_co_BasketballHoopSwitch02 <d2063>
+Switches power on briefly when triggered.
+启动时将电源开关打开。
+
+> COBJ.DESC DLC05workshop_co_BasketballHoopSwitch01 <d2047>
+Switches power on briefly when triggered.
+启动时将电源开关打开。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderArmor01 <d2040>
+Builds armor from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造装甲。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_FiringTarget01 <d2019>
+Switches power on or off each time it is struck.
+每次发射，打开或关闭开关。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderExplosives02 <d2055>
+Builds firework shells from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造烟花弹。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_WorkshopFireworkMortar02 <d2023>
+Launches firework shells when powered. Shells can be crafted at a Chemistry Station.
+通电时发射烟花弹。烟花弹可以在化学工作台制作。
+
+> COBJ.DESC DLC05Workshop_co_Pillory <d2053>
+For those who deserve punishment.
+锁住罪有应得的人。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderExplosives01 <d2052>
+Builds mines or grenades from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造地雷和手榴弹。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderFood01 <d2051>
+Creates a variety of processed food from its inventory when powered. Use a connected terminal to set what to create.
+通电时从栏位选择制造各种各样的加工食品。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderWeapon03 <d2044>
+Builds heavy weapons from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造重型武器。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderWeapon02 <d2031>
+Builds energy weapons from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造能量武器。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_WorkshopSorter01 <d2046>
+Sorts incoming objects when powered, based on its current inventory.
+通电时，根据目前所有的栏位，将运输来的物品分类。
+
+> COBJ.DESC DLC05workshop_co_WorkshopHopper02 <d2038>
+Pulls items out of an adjacent container when powered.
+通电时从旁边的容器取出物品。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilderWeapon01 <d2020>
+Builds basic weapons from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造基本武器。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_WorkshopBuilder01 <d2041>
+Builds a variety of basic objects from its inventory when powered. Use a connected terminal to set what to build.
+通电时从栏位选择制造各种各样的基本物品。使用连接的终端机设定要制造什么。
+
+> COBJ.DESC DLC05workshop_co_WorkshopPitchingMachine01 <d2042>
+Launches small objects from its inventory when powered.
+通电时射出栏位选择的小物品。
+
+> COBJ.DESC DLC05workshop_co_WorkshopHopper01 <d2043>
+Drops collected inventory out the bottom when powered.
+通电时会落下栏位中的东西。
+
+> COBJ.DESC DLC05workshop_co_WorkshopWeaponStand <d2039>
+Display a single large weapon.
+展示一把大型武器。
+
+> COBJ.DESC DLC05workshop_co_PowerArmorDisplay <d2017>
+Lighted power armor display case.
+动力装甲灯照展示架。
+
+> COBJ.DESC DLC05Workshop_co_WorkshopSwitchLogicGateXOR <d1488>
+Transmits power if exactly one input has power.
+如果特定输入端有电，则传输电力。
+
+> COBJ.DESC DLC05workshop_co_WorkshopArmorRackMale <d2753>
+Displays equipped clothing and armor.
+展示装备的服装和护甲。
+
+> COBJ.DESC DLC05workshop_co_WorkshopPistolRack <d2037>
+Display a single pistol.
+展示一把手枪。
+
+> COBJ.DESC DLC05workshop_co_WorkshopFireworkMortar01 <d2036>
+Launches firework shells when powered. Shells can be crafted at a Chemistry Station.
+通电时发射烟花弹。烟花弹可以在化学工作台制作。
+
+> COBJ.DESC DLC05workshop_co_WorkshopWeaponRack <d2025>
+Display a single medium-sized weapon.
+展示一把中型武器。
+
+> COBJ.DESC DLC05Workshop_co_WorkshopSwitchLogicGateNOR <d19>
+Transmits power when no inputs have power.
+若没有输入端有电，则传输电力。
+
+> COBJ.DESC DLC05Workshop_co_WorkshopSwitchLogicGateNAND <d14>
+Transmits power unless all inputs have power.
+若所有输入端都有电，则不传输电力。
+
+> COBJ.DESC DLC05Workshop_co_WorkshopSwitchLogicGateNOT <d21>
+Transmits power when no inputs have power.
+若没有输入端有电，则传输电力。
+
+> COBJ.DESC DLC05Workshop_co_WorkshopSwitchLogicGateOR <d18>
+Transmits power if any input has power.
+如果任何输入端有电，则传输电力。
+
+> COBJ.DESC DLC05Workshop_co_WorkshopSwitchLogicGateAND <d15>
+Transmits power if all inputs have power.
+如果所有输入端有电，则传输电力。
+
+> OMOD.FULL DLC05_PA_Material_SugarBombs <1906>
+Sugar Bombs Paint Job
+糖衣炸弹涂装
+
+> OMOD.DESC DLC05_PA_Material_SugarBombs <d1884>
+Increases Strength with all pieces painted.
+所有零件涂装后可增加力量。
+
+> OMOD.FULL DLC05_PA_Material_Abraxo <1902>
+Abraxo Paint Job
+艾巴索涂装
+
+> OMOD.DESC DLC05_PA_Material_Abraxo <d1892>
+Increases Agility with all pieces painted.
+所有零件涂装后可增加敏捷。
+
+> ****.**** <2>
+Build base bot?
+建造机器人本体？
+
+> ****.**** <7>
+You must build the base bot first
+必须先建造机器人本体
+
+> ****.**** <223030>
+Logic Gates
+逻辑门
+
