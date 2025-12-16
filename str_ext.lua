@@ -1,14 +1,12 @@
 -- for %a in (*.esm)    do luajit ../tes3dec.lua %a 1252 raw > %~na.txt
 -- for %a in (*strings) do luajit ../str_dec.lua %a %a.txt
 -- check and change *_en.*strings.txt to utf-8
+
 -- luajit ../str_ext.lua Skyrim.txt      skyrim_english      skyrim_chinese      Skyrim.ext.txt
 -- luajit ../str_ext.lua Dawnguard.txt   dawnguard_english   dawnguard_chinese   Dawnguard.ext.txt
 -- luajit ../str_ext.lua Dragonborn.txt  dragonborn_english  dragonborn_chinese  Dragonborn.ext.txt
 -- luajit ../str_ext.lua HearthFires.txt hearthfires_english hearthfires_chinese HearthFires.ext.txt
 
--- for %a in (*.esm)    do luajit ../tes3dec.lua %a 1252 raw > %~na.txt
--- for %a in (*strings) do luajit ../str_dec.lua %a %a.txt
--- check and change *_en.*strings.txt to utf-8
 -- luajit ../str_ext.lua Fallout4.txt      Fallout4_en      Fallout4_cn      Fallout4.ext.txt
 -- luajit ../str_ext.lua DLCCoast.txt      DLCCoast_en      DLCCoast_cn      DLCCoast.ext.txt
 -- luajit ../str_ext.lua DLCNukaWorld.txt  DLCNukaWorld_en  DLCNukaWorld_cn  DLCNukaWorld.ext.txt
@@ -16,6 +14,8 @@
 -- luajit ../str_ext.lua DLCworkshop01.txt DLCworkshop01_en DLCworkshop01_cn DLCworkshop01.ext.txt
 -- luajit ../str_ext.lua DLCworkshop02.txt DLCworkshop02_en DLCworkshop02_cn DLCworkshop02.ext.txt
 -- luajit ../str_ext.lua DLCworkshop03.txt DLCworkshop03_en DLCworkshop03_cn DLCworkshop03.ext.txt
+
+-- luajit ../str_ext.lua Starfield.txt starfield_en starfield_zhhans Starfield.ext.txt
 
 local function loadStrings(fn)
 	local t = {}
