@@ -49354,7 +49354,7 @@ end"
 <BR>
 “索巴德专注地听着苟葛斯讲述的关于魔法公会的一切，包括那位出色的大导师和那种不可思议的炼金、附魔工具。当这个小伙子讲完这些时，索巴德写下了一张便条，将它和一支鹅毛笔交给了苟葛斯。便条上写着，‘用它们给这支鹅毛笔附魔。’”<BR>
 <BR>
-“这么做的开销可不少’，苟葛斯说。”<BR>
+“‘这么做的开销可不少’，苟葛斯说。”<BR>
 <BR>
 “索巴德随手给了苟葛斯他这些年存的一大堆有数千金币，随后就将他送出了门外。这时索巴德终于有机会将荣耀带入奥瑞-艾尔神殿让艾尔菲尔斯刮目相看了。”<BR>
 <BR>
@@ -74266,7 +74266,7 @@ Hortator 点点头，继续学习。<BR>
 -NPC_
  NPC_.NAME "dro'tasarr$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'塔萨尔$00"
+ NPC_.FNAM "卓'塔萨尔$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Commoner$00"
  NPC_.ANAM [00]
@@ -76063,7 +76063,7 @@ Hortator 点点头，继续学习。<BR>
 -NPC_
  NPC_.NAME "dro'zah$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'扎$00"
+ NPC_.FNAM "卓'扎$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Slave$00"
  NPC_.ANAM [00]
@@ -87383,7 +87383,7 @@ Hortator 点点头，继续学习。<BR>
 -NPC_
  NPC_.NAME "dro'sakhar$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'萨卡$00"
+ NPC_.FNAM "卓'萨卡$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Thief$00"
  NPC_.ANAM [00]
@@ -101594,7 +101594,7 @@ Hortator 点点头，继续学习。<BR>
 -NPC_
  NPC_.NAME "dro'shavir$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'沙维尔$00"
+ NPC_.FNAM "卓'沙维尔$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Commoner$00"
  NPC_.ANAM [00]
@@ -104093,7 +104093,7 @@ Hortator 点点头，继续学习。<BR>
 -NPC_
  NPC_.NAME "dro'zaymar$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'扎伊玛$00"
+ NPC_.FNAM "卓'扎伊玛$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Assassin$00"
  NPC_.ANAM [00]
@@ -109812,7 +109812,7 @@ ZGSBM DROO FHV RMUOFVMXV DRGS WFPV GL YOLXP XLMGIZXGH RU KLHHRYOV<BR>
 岩石大厅里排列着拱门和尖塔，<BR>
 被死者之灵朦胧地照亮。<BR>
 <BR>
-破碎家庭与家族之血，<BR>
+破碎壁炉、家族的鲜血，<BR>
 在红色的河流中奔跑，在喷泉中绽放。<BR>
 <BR>
 在鬼魂之墙的包围中，<BR>
@@ -127825,7 +127825,7 @@ ps ：如果我不在我躲的地方，请到另一个地方看看。<BR>"
 -NPC_
  NPC_.NAME "dro'barri$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'巴里$00"
+ NPC_.FNAM "卓'巴里$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Commoner$00"
  NPC_.ANAM [00]
@@ -133508,7 +133508,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -NPC_
  NPC_.NAME "dro'qanar$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'卡纳尔$00"
+ NPC_.FNAM "卓'卡纳尔$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Slave$00"
  NPC_.ANAM [00]
@@ -134401,7 +134401,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -NPC_
  NPC_.NAME "dro'zhirr$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'兹尔$00"
+ NPC_.FNAM "卓'兹尔$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Thief$00"
  NPC_.ANAM [00]
@@ -149562,11 +149562,11 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -BOOK
  BOOK.NAME "bk_uleni's_papers$00"
  BOOK.MODL "m\Text_Parchment_01.NIF$00"
- BOOK.FNAM "确认无鬼魂券$00"
+ BOOK.FNAM "不闹鬼证明$00"
  BOOK.BKDT [CD CC 4C 3E 00 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_parchment_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-*确认无鬼魂券*<BR>
+*不闹鬼证明*<BR>
 <BR>
 由超级无敌民主的无坏心眼法师议会授权<BR>
 <BR>
@@ -168017,7 +168017,7 @@ By my will I cleanse thee of the red sands.<P>
 -NPC_
  NPC_.NAME "Dro'zharim$00"
  NPC_.MODL "base_animKnA.nif$00"
- NPC_.FNAM "多'扎利姆$00"
+ NPC_.FNAM "卓'扎利姆$00"
  NPC_.RNAM "Khajiit$00"
  NPC_.CNAM "Pauper$00"
  NPC_.ANAM [00]
@@ -184038,25 +184038,25 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "187944604103476596$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "洛布莫·格罗-阿格拉克说他在悬赏金捉拿一个叫多'萨卡的卡吉特，他藏在维威克城的某个地方。"
+ INFO.NAME "洛布莫·格罗-阿格拉克说他在悬赏金捉拿一个叫卓'萨卡的卡吉特，他藏在维威克城的某个地方。"
 -INFO
  INFO.INAM "187944604103476596$00"
  INFO.PNAM "349728872163532058$00"
  INFO.NNAM "2067183243220912942$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我听说多'萨卡住在圣·奥姆斯河道南二号，也就是圣·奥姆斯行政区南侧中间的门。"
+ INFO.NAME "我听说卓'萨卡住在圣·奥姆斯河道南二号，也就是圣·奥姆斯行政区南侧中间的门。"
 -INFO
  INFO.INAM "2067183243220912942$00"
  INFO.PNAM "187944604103476596$00"
  INFO.NNAM "238369819520826801$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "珀西乌斯·默西乌斯相信对多'萨卡的赏金是有效的，因为卡吉特是众所周知的亡命之徒。"
+ INFO.NAME "珀西乌斯·默西乌斯相信对卓'萨卡的赏金是有效的，因为卡吉特是众所周知的亡命之徒。"
 -INFO
  INFO.INAM "238369819520826801$00"
  INFO.PNAM "2067183243220912942$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "洛布莫·格罗-阿格拉克把多'萨卡的赏金给了我。"
+ INFO.NAME "洛布莫·格罗-阿格拉克把卓'萨卡的赏金给了我。"
 -DIAL
  DIAL.NAME "HR_RescueSarethi$00"
  DIAL.DATA [04]
@@ -186129,7 +186129,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "221701820711020346$00"
  INFO.NNAM "2672744182337512755$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "艾塔-破浪者的戒指和护身符被偷了。这两样东西显然都是传家宝，她愿意用它们的价值来换回它们。她甚至认为自己认出了那个小偷，而那个小偷显然在当地很有名 -- 多'兹尔。"
+ INFO.NAME "艾塔-破浪者的戒指和护身符被偷了。这两样东西显然都是传家宝，她愿意用它们的价值来换回它们。她甚至认为自己认出了那个小偷，而那个小偷显然在当地很有名——卓'兹尔。"
 -INFO
  INFO.INAM "2672744182337512755$00"
  INFO.PNAM "6353246951191427920$00"
@@ -186153,13 +186153,13 @@ D.文物 - +35%<p>"
  INFO.PNAM "6601271861482721741$00"
  INFO.NNAM "23755110482197817513$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我已经和多'兹尔谈过了，并向他提供了珠宝报酬的一半，这比珠宝在黑市上的价格要高得多。他同意了这个提议。 {命题}"
+ INFO.NAME "我已经和卓'兹尔谈过了，并向他提供了珠宝报酬的一半，这比珠宝在黑市上的价格要高得多。他同意了这个提议。 {命题}"
 -INFO
  INFO.INAM "23755110482197817513$00"
  INFO.PNAM "109154360462628468$00"
  INFO.NNAM "2534713618673514243$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉多'兹尔我只想要回珠宝，这似乎激怒了他。"
+ INFO.NAME "我告诉卓'兹尔我只想要回珠宝，这似乎激怒了他。"
 -INFO
  INFO.INAM "2534713618673514243$00"
  INFO.PNAM "23755110482197817513$00"
@@ -186177,13 +186177,13 @@ D.文物 - +35%<p>"
  INFO.PNAM "1264426933461029391$00"
  INFO.NNAM "521719306854427061$00"
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "我已经把偷来的珠宝还给了艾伊塔·破浪者，她对此非常感激。她也如约付给了我丰厚的报酬。当然，我还欠多'兹尔一半的酬劳，但一半也比这些东西在黑市上卖要好。"
+ INFO.NAME "我已经把偷来的珠宝还给了艾伊塔·破浪者，她对此非常感激。她也如约付给了我丰厚的报酬。当然，我还欠卓'兹尔一半的酬劳，但一半也比这些东西在黑市上卖要好。"
 -INFO
  INFO.INAM "521719306854427061$00"
  INFO.PNAM "1585797582194027376$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 78 00 00 00 FF FF FF 00]
- INFO.NAME "我已经把欠多'兹尔的那部分报酬付给了他。他似乎对结果很满意。以我对这个流氓的了解，他很可能下次再偷。"
+ INFO.NAME "我已经把欠卓'兹尔的那部分报酬付给了他。他似乎对结果很满意。以我对这个流氓的了解，他很可能下次再偷。"
 -DIAL
  DIAL.NAME "MV_SkoomaCorpse$00"
  DIAL.DATA [04]
@@ -194103,7 +194103,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "24678144462691930217$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。"
+ INFO.NAME "神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人卓'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。"
 -DIAL
  DIAL.NAME "book_history$00"
  DIAL.DATA [04]
@@ -203955,7 +203955,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aeta wave-breaker$00"
- INFO.NAME "是的，我就在几小时前被抢劫了。我确定是个卡吉特，多'兹尔带领的那伙人干的，他们抢走了我所有的珠宝，但最重要的是，他们抢走了我的两件传家宝。它们在我家已经传承很多年了，如果你能把它们带回来，我很乐意付你等价值的金币。"
+ INFO.NAME "是的，我就在几小时前被抢劫了。我确定是个卡吉特，卓'兹尔带领的那伙人干的，他们抢走了我所有的珠宝，但最重要的是，他们抢走了我的两件传家宝。它们在我家已经传承很多年了，如果你能把它们带回来，我很乐意付你等价值的金币。"
  INFO.SCVR "04JX4MV_BanditVictim"
  INFO.INTV [14 00 00 00]
  INFO.BNAM "Journal ""MV_BanditVictim"" 20
@@ -229843,7 +229843,7 @@ Choice ""给菲欧100塞普汀"" 1 ""拒绝给菲欧100塞普汀"" 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "caius cosades$00"
- INFO.NAME "我提升你为学徒，立即生效。这是个小礼物，两个法术卷轴。圣灵干预卷轴会把你召回最近的帝国圣祠，而奥姆希维干预卷轴会把你召回最近的神殿，它们在快速逃跑时非常有用。不，不，%PCName，不用谢。你做得很好，这是你应得的。现在，暂时离开这里，让我读读书。 {帝国人,需要,工作}"
+ INFO.NAME "我提升你为学徒，立即生效。这是个小礼物，两个法术卷轴。圣灵干预会把你召回最近的帝国圣祠，而奥姆希维干预会把你召回最近的神殿，它们在快速逃跑时非常有用。不，不，%PCName，不用谢。你做得很好，这是你应得的。现在，暂时离开这里，让我读读书。 {帝国人,需要,工作}"
  INFO.BNAM "Player->AddItem, ""sc_divineintervention"", 1
 Player->AddItem, ""sc_almsiviintervention"", 1
 Journal A1_4_MuzgobInformant 55"
@@ -233714,7 +233714,7 @@ Goodbye"
  INFO.NNAM "13029261261931418583$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dro'zhirr$00"
- INFO.NAME "多'兹尔认为你欠他钱，朋友。你最好尽快把钱给我，多'兹尔知道那些珠宝至少值150塞普汀。现在，去拿我的钱！"
+ INFO.NAME "卓'兹尔认为你欠他钱，朋友。你最好尽快把钱给我，卓'兹尔知道那些珠宝至少值150塞普汀。现在，去拿我的钱！"
  INFO.SCVR "04JX0MV_BanditVictim"
  INFO.INTV [6E 00 00 00]
  INFO.SCVR "15IX4Gold_001"
@@ -233750,7 +233750,7 @@ Goodbye"
  INFO.NNAM "117012109166621226$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dro'zhirr$00"
- INFO.NAME "你不是要把那些东西还给诺德女人吗？你最好快去，不然多'兹尔就得把珠宝还给你了。 {诺德人}"
+ INFO.NAME "你不是要把那些东西还给诺德女人吗？你最好快去，不然卓'兹尔就得把珠宝还给你了。 {诺德人}"
  INFO.SCVR "04JX0MV_BanditVictim"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -233759,7 +233759,7 @@ Goodbye"
  INFO.NNAM "25411176202983810436$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dro'zhirr$00"
- INFO.NAME "传家宝？哈！多'兹尔找到过很多传家宝，它们就像掉进他的口袋里一样。事实上，多'兹尔今天早些时候刚找到几件新东西，从一个诺德女人手里抢来的。她哭得像个孩子：“哦，我珍贵的传家宝！” {诺德人}"
+ INFO.NAME "传家宝？哈！卓'兹尔找到过很多传家宝，它们就像掉进他的口袋里一样。事实上，卓'兹尔今天早些时候刚找到几件新东西，从一个诺德女人手里抢来的。她哭得像个孩子：“哦，我珍贵的传家宝！” {诺德人}"
  INFO.SCVR "04JX3MV_BanditVictim"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "14JX4MV_BanditVictim"
@@ -235641,7 +235641,7 @@ choice ""继续"" 1"
  INFO.NNAM "46547322305774795$00"
  INFO.DATA [00 00 00 00 32 00 00 00 FF FF FF 00]
  INFO.ONAM "uleni heleran$00"
- INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“鬼魂免费券”交给他？ {忙}"
+ INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“不闹鬼证明”交给他？ {忙}"
  INFO.SCVR "04JX3town_sadrith_expert"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235654,7 +235654,7 @@ Journal ""town_Sadrith"" 35"
  INFO.NNAM "81583622859120604$00"
  INFO.DATA [00 00 00 00 32 00 00 00 FF FF FF 00]
  INFO.ONAM "uleni heleran$00"
- INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“鬼魂免费券”交给他？ {忙}"
+ INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“不闹鬼证明”交给他？ {忙}"
  INFO.SCVR "04JX3town_Sadrith"
  INFO.INTV [0F 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235668,7 +235668,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“鬼魂免费券”交给他，以示我…我对他的“好感”？"
+ INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“不闹鬼证明”交给他，以示我…我对他的“好感”？"
  INFO.SCVR "04JX3town_sadrith_expert"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235682,7 +235682,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“鬼魂免费券”交给他，以示我…我对他的“好感”？"
+ INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“不闹鬼证明”交给他，以示我…我对他的“好感”？"
  INFO.SCVR "04JX3town_Sadrith"
  INFO.INTV [0F 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235696,7 +235696,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Imperial Legion$00"
- INFO.NAME "你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}"
+ INFO.NAME "你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}"
  INFO.SCVR "04JX3town_sadrith_expert"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235710,7 +235710,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Imperial Legion$00"
- INFO.NAME "你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}"
+ INFO.NAME "你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}"
  INFO.SCVR "04JX3town_Sadrith"
  INFO.INTV [0F 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235724,7 +235724,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Imperial Cult$00"
- INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}"
+ INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}"
  INFO.SCVR "04JX3town_sadrith_expert"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235738,7 +235738,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Imperial Cult$00"
- INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}"
+ INFO.NAME "你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}"
  INFO.SCVR "04JX3town_Sadrith"
  INFO.INTV [0F 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235752,7 +235752,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？"
+ INFO.NAME "那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？"
  INFO.SCVR "04JX3town_sadrith_expert"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -235766,7 +235766,7 @@ Journal ""town_Sadrith"" 35"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF 00 00]
  INFO.ONAM "uleni heleran$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？"
+ INFO.NAME "那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？"
  INFO.SCVR "04JX3town_Sadrith"
  INFO.INTV [0F 00 00 00]
  INFO.BNAM ";Uleni Heleran; Journal ""town_Sadrith"" >= 15; 
@@ -257954,7 +257954,7 @@ addtopic ""晨风的居所"""
  INFO.NNAM "273192317800227593$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "我们是游牧民族，住在小木屋组成的营地里。我们从一个地方到另一个地方，建造营地，然后继续前进，为我们的牧群寻找新的牧草，为狩猎寻找新的牧场。"
+ INFO.NAME "我们是游牧民族，住在小屋组成的营地里。我们四处旅行，建造营地，然后继续前进，为牧群寻觅新的草场，为狩猎寻找新的猎场。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [25 00 00 00]
  INFO.BNAM ";default; random100 <= 60;"
@@ -258400,7 +258400,7 @@ addtopic ""晨风的居所"""
  INFO.NNAM "1876222912775829177$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "我们是游牧民族，住在小木屋组成的营地里。我们从一个地方到另一个地方，建造营地，然后继续前进，为我们的牧群寻找新的牧草，为狩猎寻找新的牧场。"
+ INFO.NAME "我们是游牧民族，住在小屋组成的营地里。我们四处旅行，建造营地，然后继续前进，为牧群寻觅新的草场，为狩猎寻找新的猎场。"
  INFO.BNAM ";default; random100 <= 60;"
 -INFO
  INFO.INAM "1876222912775829177$00"
@@ -274764,7 +274764,7 @@ Journal town_Vivec 5"
  INFO.NNAM "29464191702272012639$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "raig$00"
- INFO.NAME "多'扎伊玛，圣·德林区的卡吉特，跳得比我认识的任何人都高。不知道他有什么秘诀。"
+ INFO.NAME "卓'扎伊玛，圣·德林区的卡吉特，跳得比我认识的任何人都高。不知道他有什么秘诀。"
 -INFO
  INFO.INAM "29464191702272012639$00"
  INFO.PNAM "596087961075116800$00"
@@ -309617,7 +309617,7 @@ Choice ""收下裙子和帽子。"" 1 ""收下裙子，不要帽子。"" 2 ""收下帽子，不要裙子。"
  INFO.NNAM "1554615376108105697$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lorbumol gro-aglakh$00"
- INFO.NAME "我把那个卡吉特多'萨卡的契约给你了。他死了吗？ {合同}"
+ INFO.NAME "我把那个卡吉特卓'萨卡的契约给你了。他死了吗？ {合同}"
  INFO.SCVR "04JX3FG_KhajiitBounty"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4FG_KhajiitBounty"
@@ -311021,7 +311021,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF 03 00]
  INFO.ONAM "Lalatia Varian$00"
  INFO.DNAM "Imperial Cult$00"
- INFO.NAME "你杀死了克尔卡莫和梅亚兰，为治疗师乌尔约拉德和他的老师多'法拉恩·铁颈报了仇，也为世界除去了一个大恶魔。你为帝国教团立下了汗马功劳。请带上这些荣耀之腕甲，好好利用它们。当你准备好进行另一项神谕者的任务时再来找我。 {帝国人}"
+ INFO.NAME "你杀死了克尔卡莫和梅亚兰，为治疗师乌尔约拉德和他的老师卓'法拉恩·铁颈报了仇，也为世界除去了一个大恶魔。你为帝国教团立下了汗马功劳。请带上这些荣耀之腕甲，好好利用它们。当你准备好进行另一项神谕者的任务时再来找我。 {帝国人}"
  INFO.SCVR "04JX3IC28_Urjorad"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "16DX3carecalmo"
@@ -337694,7 +337694,7 @@ ModDisposition 10"
  INFO.NAME "赫薇娅妮·德塞莱在苏兰开了家街角酒吧，她欠马诺斯·奥特雷莱斯，我们的一个客户200塞普汀。把钱给我，我给你一半。"
  INFO.BNAM "Journal FG_DeseleDebt 10"
 -DIAL
- DIAL.NAME "多'萨卡$00"
+ DIAL.NAME "卓'萨卡$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "1285313042877624077$00"
@@ -337741,7 +337741,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lorbumol gro-aglakh$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "多'萨卡已经死了，那他的赏金就归你了。这是500塞普汀。"
+ INFO.NAME "卓'萨卡已经死了，那他的赏金就归你了。这是500塞普汀。"
  INFO.SCVR "34JX0FG_KhajiitBounty"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "56DX3dro'sakhar"
@@ -337771,7 +337771,7 @@ Player->AddItem Gold_001 500"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lorbumol gro-aglakh$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "我用赏金悬赏多'萨卡这个卡吉特。他躲在维威克这里，我想有可能是躲在圣·奥姆斯区。"
+ INFO.NAME "我用赏金悬赏卓'萨卡这个卡吉特。他躲在维威克这里，我想有可能是躲在圣·奥姆斯区。"
  INFO.BNAM "Journal FG_KhajiitBounty 10"
 -INFO
  INFO.INAM "242138384466729627$00"
@@ -341647,7 +341647,7 @@ Choice ""我会带你找到这地方的。"" 1 ""对不起，我没时间。"" 2"
  INFO.NNAM "3190416226829188$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dro'zhirr$00"
- INFO.NAME "多'兹尔说完了。 {谈}"
+ INFO.NAME "卓'兹尔说完了。 {谈}"
  INFO.SCVR "04JX3MV_BanditVictim"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -341656,7 +341656,7 @@ Choice ""我会带你找到这地方的。"" 1 ""对不起，我没时间。"" 2"
  INFO.NNAM "30730297309815675$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dro'zhirr$00"
- INFO.NAME "嗯…有趣的交易，如果那女人按她说的付你钱，那就比多'兹尔从我们的同伙那里得到的要好得多了。听起来很公平，朋友。不过你一定要把我那份带回来。多'兹尔的朋友知道他被骗了可不会高兴的。"
+ INFO.NAME "嗯…有趣的交易，如果那女人按她说的付你钱，那就比卓'兹尔从我们的同伙那里得到的要好得多了。听起来很公平，朋友。不过你一定要把我那份带回来。卓'兹尔的朋友知道他被骗了可不会高兴的。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Journal ""MV_BanditVictim"" 50
@@ -341680,7 +341680,7 @@ Player->AddItem ""expensive_ring_aeta"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dro'zhirr$00"
- INFO.NAME "你见过她了，嗯？这跟我有什么关系？多'兹尔是为了钱，不是为了什么可笑的感情。除非你有更好的提议，我就不跟你多说了。"
+ INFO.NAME "你见过她了，嗯？这跟我有什么关系？卓'兹尔是为了钱，不是为了什么可笑的感情。除非你有更好的提议，我就不跟你多说了。"
  INFO.BNAM "Choice ""我会把珠宝还给她，然后给你她付给我的钱的一半。"" 1 ""我只想要珠宝。"" 2"
 -DIAL
  DIAL.NAME "寡妇制造者$00"
@@ -352018,7 +352018,7 @@ Choice ""我会杀了他。"" 1 ""我对此毫无兴趣。"" 2"
  INFO.SCVR "04JX3IC16_Haunting"
  INFO.INTV [01 00 00 00]
 -DIAL
- DIAL.NAME "多'兹尔$00"
+ DIAL.NAME "卓'兹尔$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "105752034716668514$00"
@@ -365841,7 +365841,7 @@ Set ""S'Bakha"".slaveStatus to 2"
  INFO.NNAM "1188811381437817844$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Lalatia Varian$00"
- INFO.NAME "你为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克之死报了仇，也为世界除去了一个大恶魔。"
+ INFO.NAME "你为治疗师乌尔约拉德和他的主人卓'法拉恩·斯蒂芬-内克之死报了仇，也为世界除去了一个大恶魔。"
  INFO.SCVR "04JX3IC28_Urjorad"
  INFO.INTV [37 00 00 00]
 -INFO
@@ -365859,7 +365859,7 @@ Set ""S'Bakha"".slaveStatus to 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Lalatia Varian$00"
- INFO.NAME "乌尔约拉德是多'法拉恩·斯蒂芬-内克的徒弟和门徒，多'法拉恩·斯蒂芬-内克是被克尔卡莫杀死的帝国教团的治疗师和圣僧。乌尔约拉德发誓要为师父的生命复仇，他带着死去师父的武器，一把带有附魔之术的武器和一个名为“汹炙卷轴”的强大物品追杀克尔卡莫。乌尔约拉德的实力根本不足以挑战克尔卡莫和梅亚兰，但他无法被说服，放弃了复仇的追求。 {帝国人,魔法疾病}"
+ INFO.NAME "乌尔约拉德是卓'法拉恩·斯蒂芬-内克的徒弟和门徒，卓'法拉恩·斯蒂芬-内克是被克尔卡莫杀死的帝国教团的治疗师和圣僧。乌尔约拉德发誓要为师父的生命复仇，他带着死去师父的武器，一把带有附魔之术的武器和一个名为“汹炙卷轴”的强大物品追杀克尔卡莫。乌尔约拉德的实力根本不足以挑战克尔卡莫和梅亚兰，但他无法被说服，放弃了复仇的追求。 {帝国人,魔法疾病}"
 -DIAL
  DIAL.NAME "玛拉皮$00"
  DIAL.DATA [00]
@@ -371286,7 +371286,7 @@ player->additem gold_001 200"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "lorbumol gro-aglakh$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "我以赏金悬赏一个卡吉特，他叫多'萨卡。"
+ INFO.NAME "我以赏金悬赏一个卡吉特，他叫卓'萨卡。"
  INFO.SCVR "34JX3FG_TongueToad"
  INFO.INTV [64 00 00 00]
 -INFO

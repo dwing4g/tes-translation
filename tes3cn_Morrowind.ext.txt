@@ -14409,7 +14409,7 @@ $93We will continue the tale after your conjuration test, provided you both perf
 <BR>
 “索巴德专注地听着苟葛斯讲述的关于魔法公会的一切，包括那位出色的大导师和那种不可思议的炼金、附魔工具。当这个小伙子讲完这些时，索巴德写下了一张便条，将它和一支鹅毛笔交给了苟葛斯。便条上写着，‘用它们给这支鹅毛笔附魔。’”<BR>
 <BR>
-“这么做的开销可不少’，苟葛斯说。”<BR>
+“‘这么做的开销可不少’，苟葛斯说。”<BR>
 <BR>
 “索巴德随手给了苟葛斯他这些年存的一大堆有数千金币，随后就将他送出了门外。这时索巴德终于有机会将荣耀带入奥瑞-艾尔神殿让艾尔菲尔斯刮目相看了。”<BR>
 <BR>
@@ -36501,7 +36501,7 @@ Dular gro-Buzga
 
 > NPC_.FNAM dro'tasarr
 Dro'Tasarr
-多'塔萨尔
+卓'塔萨尔
 
 > NPC_.FNAM dather manel
 Dather Manel
@@ -36829,7 +36829,7 @@ J'Dato
 
 > NPC_.FNAM dro'zah
 Dro'Zah
-多'扎
+卓'扎
 
 > NPC_.FNAM ahnarra
 Ahnarra
@@ -39121,7 +39121,7 @@ Nar gro-Shagramph
 
 > NPC_.FNAM dro'sakhar
 Dro'Sakhar
-多'萨卡
+卓'萨卡
 
 > CREA.FNAM ash_zombie_fgaz
 Ash Zombie
@@ -42821,7 +42821,7 @@ Odairan Ashummi-Ammus
 
 > NPC_.FNAM dro'shavir
 Dro'Shavir
-多'沙维尔
+卓'沙维尔
 
 > NPC_.FNAM bashuk gra-bat
 Bashuk gra-Bat
@@ -43361,7 +43361,7 @@ Closet
 
 > NPC_.FNAM dro'zaymar
 Dro'Zaymar
-多'扎伊玛
+卓'扎伊玛
 
 > NPC_.FNAM tralayn vavas
 Tralayn Vavas
@@ -49757,7 +49757,7 @@ Will it take to seal this restless tomb?<BR>
 岩石大厅里排列着拱门和尖塔，<BR>
 被死者之灵朦胧地照亮。<BR>
 <BR>
-破碎家庭与家族之血，<BR>
+破碎壁炉、家族的鲜血，<BR>
 在红色的河流中奔跑，在喷泉中绽放。<BR>
 <BR>
 在鬼魂之墙的包围中，<BR>
@@ -56684,7 +56684,7 @@ Faven Arns
 
 > NPC_.FNAM dro'barri
 Dro'Barri
-多'巴里
+卓'巴里
 
 > NPC_.FNAM delmus rurvyn
 Delmus Rurvyn
@@ -58153,7 +58153,7 @@ Mim-Jeen
 
 > NPC_.FNAM dro'qanar
 Dro'Qanar
-多'卡纳尔
+卓'卡纳尔
 
 > NPC_.FNAM inerri
 Inerri
@@ -58372,7 +58372,7 @@ Aeta Wave-Breaker
 
 > NPC_.FNAM dro'zhirr
 Dro'Zhirr
-多'兹尔
+卓'兹尔
 
 > NPC_.FNAM maurrie aurmine
 Maurrie Aurmine
@@ -62814,7 +62814,7 @@ Representing the Sovereign Council of the Great House Telvanni<BR>
 
 > BOOK.FNAM bk_uleni's_papers
 Ghost-Free Papers
-确认无鬼魂券
+不闹鬼证明
 
 > BOOK.TEXT bk_uleni's_papers
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -62833,7 +62833,7 @@ Representing the Super Extra Very Sovereign Council of Mages Without Digits With
 <BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-*确认无鬼魂券*<BR>
+*不闹鬼证明*<BR>
 <BR>
 由超级无敌民主的无坏心眼法师议会授权<BR>
 <BR>
@@ -70863,7 +70863,7 @@ Vari: Enchanter
 
 > NPC_.FNAM Dro'zharim
 Dro'zharim
-多'扎利姆
+卓'扎利姆
 
 > MISC.FNAM key_Gimothran
 Key to Gimothran master burial
@@ -77257,19 +77257,19 @@ Percius Mercius thanked me for killing Sjoring Hard-Heart. He promoted me to Mas
 
 > INFO.NAME fg_khajiitbounty 349728872163532058
 Lorbumol gro-Aglakh said he has a bounty for a Khajiit outlaw named Dro'Sakhar who's hiding somewhere in Vivec.
-洛布莫·格罗-阿格拉克说他在悬赏金捉拿一个叫多'萨卡的卡吉特，他藏在维威克城的某个地方。
+洛布莫·格罗-阿格拉克说他在悬赏金捉拿一个叫卓'萨卡的卡吉特，他藏在维威克城的某个地方。
 
 > INFO.NAME fg_khajiitbounty 187944604103476596
 I was told that Dro'Sakhar lives in St. Olms Canal South-Two, the middle door on the south side of the St. Olms Canton.
-我听说多'萨卡住在圣·奥姆斯河道南二号，也就是圣·奥姆斯行政区南侧中间的门。
+我听说卓'萨卡住在圣·奥姆斯河道南二号，也就是圣·奥姆斯行政区南侧中间的门。
 
 > INFO.NAME fg_khajiitbounty 2067183243220912942
 Percius Mercius believes that the bounty on Dro'Sakhar is a valid one, as the Khajiit is a known outlaw.
-珀西乌斯·默西乌斯相信对多'萨卡的赏金是有效的，因为卡吉特是众所周知的亡命之徒。
+珀西乌斯·默西乌斯相信对卓'萨卡的赏金是有效的，因为卡吉特是众所周知的亡命之徒。
 
 > INFO.NAME fg_khajiitbounty 238369819520826801
 Lorbumol gro-Aglakh gave me the bounty on Dro'Sakhar.
-洛布莫·格罗-阿格拉克把多'萨卡的赏金给了我。
+洛布莫·格罗-阿格拉克把卓'萨卡的赏金给了我。
 
 > INFO.NAME hr_rescuesarethi 1025354912338120284
 Serjo Athyn Sarethi asked me to rescue his son, Varvur Sarethi, from Venim Manor, the first Manor on the right as you enter Skar. He warned me that I should not kill Bolvyn Venim, or the other councilors of House Redoran would turn against me.
@@ -78493,7 +78493,7 @@ I met a traveler named Aeta Wave-Breaker, who has apparently been attacked by a 
 
 > INFO.NAME mv_banditvictim 6353246951191427920
 Aeta Wave-Breaker has had her ring and amulet stolen. Both were apparently family heirlooms, and she is willing to pay me their value for their return. She even believes she recognized the thief, who is apparently well known in the area--Dro'zhirr.
-艾塔-破浪者的戒指和护身符被偷了。这两样东西显然都是传家宝，她愿意用它们的价值来换回它们。她甚至认为自己认出了那个小偷，而那个小偷显然在当地很有名 -- 多'兹尔。
+艾塔-破浪者的戒指和护身符被偷了。这两样东西显然都是传家宝，她愿意用它们的价值来换回它们。她甚至认为自己认出了那个小偷，而那个小偷显然在当地很有名——卓'兹尔。
 
 > INFO.NAME mv_banditvictim 2672744182337512755
 Aeta Wave-Breaker tells me the jewelry she has lost included a ring and an amulet, both inscribed.
@@ -78509,11 +78509,11 @@ I've decided not to help Aeta Wave-Breaker. Of course, I could always try and re
 
 > INFO.NAME mv_banditvictim 109154360462628468
 I've spoken to Dro'zhirr, and offered him one half of the reward money for the jewelry, which is much more than the pieces would be able to bring on the black market. He has agreed to this proposition.
-我已经和多'兹尔谈过了，并向他提供了珠宝报酬的一半，这比珠宝在黑市上的价格要高得多。他同意了这个提议。 {命题}
+我已经和卓'兹尔谈过了，并向他提供了珠宝报酬的一半，这比珠宝在黑市上的价格要高得多。他同意了这个提议。 {命题}
 
 > INFO.NAME mv_banditvictim 23755110482197817513
 I've told Dro'zhirr I just want the jewels back, which seemed to anger him.
-我告诉多'兹尔我只想要回珠宝，这似乎激怒了他。
+我告诉卓'兹尔我只想要回珠宝，这似乎激怒了他。
 
 > INFO.NAME mv_banditvictim 2534713618673514243
 I've returned the stolen jewelry to Aeta Wave-Breaker, for which she was very grateful. She has paid me handsomely, as promised.
@@ -78525,11 +78525,11 @@ I've returned the stolen jewelry to Aeta Wave-Breaker, for which she was very gr
 
 > INFO.NAME mv_banditvictim 1585797582194027376
 I've returned the stolen jewelry to Aeta Wave-Breaker, for which she was very grateful. She has paid me handsomely, as promised. Of course, I owe half of this reward to Dro'zhirr, but half is still better than what these goods would fetch on the black market.
-我已经把偷来的珠宝还给了艾伊塔·破浪者，她对此非常感激。她也如约付给了我丰厚的报酬。当然，我还欠多'兹尔一半的酬劳，但一半也比这些东西在黑市上卖要好。
+我已经把偷来的珠宝还给了艾伊塔·破浪者，她对此非常感激。她也如约付给了我丰厚的报酬。当然，我还欠卓'兹尔一半的酬劳，但一半也比这些东西在黑市上卖要好。
 
 > INFO.NAME mv_banditvictim 521719306854427061
 I've paid Dro'zhirr the portion of the reward money owed him. He seemed pleased with the outcome. Knowing this rogue, he'll probably just steal them another time.
-我已经把欠多'兹尔的那部分报酬付给了他。他似乎对结果很满意。以我对这个流氓的了解，他很可能下次再偷。
+我已经把欠卓'兹尔的那部分报酬付给了他。他似乎对结果很满意。以我对这个流氓的了解，他很可能下次再偷。
 
 > INFO.NAME mv_skoomacorpse 11440112941267623549
 After having found the corpse of Ernil, and the other objects on it, I decided to travel to see Tsiya in Balmora.
@@ -83253,7 +83253,7 @@ The Oracle thanked me for giving her the Scroll of Fiercely Roasting. She left t
 
 > INFO.NAME ic28_urjorad 10144175852044614336
 The Oracle says that by killing Carecalmo and Meryaran I have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil. As a reward she gave me the Gauntlets of Glory. She told me to speak to her again when I am ready to undertake another of the Oracle's Quests.
-神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。
+神谕说，通过杀死克尔卡莫和梅亚兰，我为治疗师乌尔约拉德和他的主人卓'法拉恩·斯蒂芬-内克报了仇，并为世界除去了一个大魔头。作为报酬，她给了我荣耀之腕甲。她告诉我，当我准备好进行另一项神谕者的任务时，再和她联系。
 
 > INFO.NAME book_history 236713753295718220
 When I asked about Morrowind history, Caius Cosades gave me a copy of 'A Short History of Morrowind', and suggested I look for a copy of 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
@@ -88045,7 +88045,7 @@ Well! I'm sorry you're too busy to help out someone in need. Goodbye to you, the
 
 > INFO.NAME some notorious thieves 23322234183080623390
 Yes, just a few hours ago I was robbed. I'm certain it was the group led by the Khajiit, Dro'zhirr. They stole all of my jewelry, but most importantly, they got two family heirlooms of mine. They've been in my family for years. If you can return them to me, I'd gladly pay your their weight in gold.
-是的，我就在几小时前被抢劫了。我确定是个卡吉特，多'兹尔带领的那伙人干的，他们抢走了我所有的珠宝，但最重要的是，他们抢走了我的两件传家宝。它们在我家已经传承很多年了，如果你能把它们带回来，我很乐意付你等价值的金币。
+是的，我就在几小时前被抢劫了。我确定是个卡吉特，卓'兹尔带领的那伙人干的，他们抢走了我所有的珠宝，但最重要的是，他们抢走了我的两件传家宝。它们在我家已经传承很多年了，如果你能把它们带回来，我很乐意付你等价值的金币。
 
 > INFO.BNAM some notorious thieves 23322234183080623390 c1
 I'll get your jewels back.
@@ -99073,7 +99073,7 @@ Yes. Congratulations. Just get on with it.
 
 > INFO.NAME blades apprentice 1010328727326818700
 I'm promoting you to Apprentice Rank, effective immediately. And here's a little present -- two spell scrolls. The Divine Intervention will recall you to the nearest Imperial shrine, and the Almsivi Intervention will recall you the nearest Temple. They come in handy for a quick getaway. No, no, %PCName. No thanks needed. You're doing great work. Now, get out of here and let me read.
-我提升你为学徒，立即生效。这是个小礼物，两个法术卷轴。圣灵干预卷轴会把你召回最近的帝国圣祠，而奥姆希维干预卷轴会把你召回最近的神殿，它们在快速逃跑时非常有用。不，不，%PCName，不用谢。你做得很好，这是你应得的。现在，暂时离开这里，让我读读书。 {帝国人,需要,工作}
+我提升你为学徒，立即生效。这是个小礼物，两个法术卷轴。圣灵干预会把你召回最近的帝国圣祠，而奥姆希维干预会把你召回最近的神殿，它们在快速逃跑时非常有用。不，不，%PCName，不用谢。你做得很好，这是你应得的。现在，暂时离开这里，让我读读书。 {帝国人,需要,工作}
 
 > INFO.NAME progress of truth 674262862325718452
 This book lists the disputes of the Dissident priests with Tribunal Temple doctrines. The Temple has outlawed the sale or possession of the book, so it will be hard to find. We have a copy here, but I fear I'm being watched by the Ordinators here. A safer plan would be to search local booksellers. Some booksellers ignore Temple bans on outlawed books for profits or for principles.
@@ -100647,7 +100647,7 @@ That's right. Just tell Yak gro-Skandar that's what you have. And hurry up about
 
 > INFO.NAME family heirlooms 13699262521609031449
 Dro'zhirr thinks you owe him some money, friend. You'd better get that to me soon. Dro'zhirr knows those jewels were worth at least 150 septims. Now, go get my money!
-多'兹尔认为你欠他钱，朋友。你最好尽快把钱给我，多'兹尔知道那些珠宝至少值150塞普汀。现在，去拿我的钱！
+卓'兹尔认为你欠他钱，朋友。你最好尽快把钱给我，卓'兹尔知道那些珠宝至少值150塞普汀。现在，去拿我的钱！
 
 > INFO.NAME family heirlooms 13029261261931418583
 Ahhh...she made good on her promise then! Nice dealing with you, %PCName. Perhaps we can do business again sometime.
@@ -100655,11 +100655,11 @@ Ahhh...she made good on her promise then! Nice dealing with you, %PCName. Perhap
 
 > INFO.NAME family heirlooms 12874167382123131938
 I thought you were going to return those things to the Nord woman? You'd better get going, or Dro'zhirr will have to take the jewels back from you.
-你不是要把那些东西还给诺德女人吗？你最好快去，不然多'兹尔就得把珠宝还给你了。 {诺德人}
+你不是要把那些东西还给诺德女人吗？你最好快去，不然卓'兹尔就得把珠宝还给你了。 {诺德人}
 
 > INFO.NAME family heirlooms 117012109166621226
 Heirlooms? Hah! Dro'zhirr has found plenty of heirlooms. They just seem to fall into his pockets! In fact, Dro'zhirr just found a few new pieces earlier today. Took them from some Nord woman. Cried like a baby, she did. "Oh, my precious jewelry!"
-传家宝？哈！多'兹尔找到过很多传家宝，它们就像掉进他的口袋里一样。事实上，多'兹尔今天早些时候刚找到几件新东西，从一个诺德女人手里抢来的。她哭得像个孩子：“哦，我珍贵的传家宝！” {诺德人}
+传家宝？哈！卓'兹尔找到过很多传家宝，它们就像掉进他的口袋里一样。事实上，卓'兹尔今天早些时候刚找到几件新东西，从一个诺德女人手里抢来的。她哭得像个孩子：“哦，我珍贵的传家宝！” {诺德人}
 
 > INFO.NAME family heirlooms 25411176202983810436
 You've found them! I'm so relieved. Here, please take this gold as payment. I was able to keep it hidden when the outlaws robbed me, and I'd be glad for you to have it. Thank you again!
@@ -101439,43 +101439,43 @@ No, no, no. It wouldn't be as funny as the first time. Unless there was some cle
 
 > INFO.NAME gateway haunting 2693016410435916237
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! That squeeze-butt Angaredhel is taking it pretty hard, eh? That clown had me brought up before the magistrate when I first came here for not having my Hospitality Papers. But I suppose you're right. The joke is losing its freshness. And I don't want to get anyone hurt. Go tell Angaredhel that the Gateway haunting will end. But do me a favor, will you? Give him these 'Ghost-Free Papers' from me?
-你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“鬼魂免费券”交给他？ {忙}
+你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“不闹鬼证明”交给他？ {忙}
 
 > INFO.NAME gateway haunting 46547322305774795
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! That squeeze-butt Angaredhel is taking it pretty hard, eh? That clown had me brought up before the magistrate when I first came here for not having my Hospitality Papers. But I suppose you're right. The joke is losing its freshness. And I don't want to get anyone hurt. Go tell Angaredhel that the Gateway haunting will end. But do me a favor, will you? Give him these 'Ghost-Free Papers' from me?
-你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“鬼魂免费券”交给他？ {忙}
+你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，就因为没带招待文件，被那个小丑带到地方法官面前了，不过我想你是对的，这个笑话已经失去了新鲜感，我不想让任何人受到伤害。去告诉安加雷德尔，闸门鬼魂会结束的。我可拜托你了，好吗？把我的“不闹鬼证明”交给他？ {忙}
 
 > INFO.NAME gateway haunting 81583622859120604
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Fighters Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“鬼魂免费券”交给他，以示我…我对他的“好感”？
+你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“不闹鬼证明”交给他，以示我…我对他的“好感”？
 
 > INFO.NAME gateway haunting 8450120222510961
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Fighters Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“鬼魂免费券”交给他，以示我…我对他的“好感”？
+你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧？我刚来的时候，他就把我带到了地方官面前，因为我没有带招待文件，这就是我的报复，不过既然你是战士公会的成员，应你的要求，我将解决闸门鬼魂。去告诉安加雷德尔吧！请你把这些“不闹鬼证明”交给他，以示我…我对他的“好感”？
 
 > INFO.NAME gateway haunting 5282133811297817924
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial legion, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}
+你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}
 
 > INFO.NAME gateway haunting 908521882275713035
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial legion, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}
+你怀疑我是闸门闹鬼的幕后黑手？哈哈哈！安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，但既然你是帝国军团的人，应你的要求，我将结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}
 
 > INFO.NAME gateway haunting 4924132562060415208
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial cult, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}
+你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}
 
 > INFO.NAME gateway haunting 2868329128261209589
 So. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a member of the Imperial cult, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？ {帝国人}
+你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈！安加雷德尔一定很生气吧，嗯？我刚来的时候，他把我带到地方官面前，因为我没有招待文件，这就是我的报复，不过既然你是帝国教团的一员，我就应你的要求，结束闸门鬼魂的纠缠。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？ {帝国人}
 
 > INFO.NAME gateway haunting 388917341240124806
 So, %PCRank %PCName. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a fellow member of the Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？
+那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？
 
 > INFO.NAME gateway haunting 20679170461445328008
 So, %PCRank %PCName. You suspect me of being behind the Gateway haunting? Hah-hah-hah! Angaredhel is taking it pretty hard, eh? He brought me before the magistrate when I first came here for not having my Hospitality Papers. And this is my revenge. But since you are a fellow member of the Guild, at your request, I will put an end to the Gateway haunting. Go tell Angaredhel. And would you please give him these 'Ghost-Free Papers' as a token of my... 'affection' for him?
-那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“鬼魂免费券”交给他，以示我…对他的“好感”？
+那么，%PCRank%PCName。你怀疑我是闸门闹鬼事件的幕后黑手？哈哈哈，安加雷德尔很生气吧？我刚来的时候，他把我带到地方官面前，因为我没有招待文件。这就是我的报复。不过既然你是公会的同伴，应你的要求，我将结束闸门鬼魂。去告诉安加雷德尔吧，请你把这些“不闹鬼证明”交给他，以示我…对他的“好感”？
 
 > INFO.NAME gateway haunting 2576831474302609630
 So. Arara Uvulas thinks a Conjuration expert is behind the Gateway haunting, and someone told you that I'm a Conjuration expert. Well, who cares what Arara Uvulas thinks. And maybe I AM a Conjuration expert, but what does that prove? Nothing.
@@ -111051,7 +111051,7 @@ Ashlanders are nomadic barbarians, living in camps of small portable huts.
 
 > INFO.NAME morrowind lore 8161610017157289
 We are nomads, living in camps of small portable huts. We travel from place to place, build our camps, then move on to find new grass for our herds and new ranges for hunting.
-我们是游牧民族，住在小木屋组成的营地里。我们从一个地方到另一个地方，建造营地，然后继续前进，为我们的牧群寻找新的牧草，为狩猎寻找新的牧场。
+我们是游牧民族，住在小屋组成的营地里。我们四处旅行，建造营地，然后继续前进，为牧群寻觅新的草场，为狩猎寻找新的猎场。
 
 > INFO.NAME morrowind lore 273192317800227593
 The Imperial cult brings Imperial religion to the Empire's remote provinces. Imperial cult priests provide worship and services for the Nine Divines at Imperial shrines throughout Vvardenfell.
@@ -111195,7 +111195,7 @@ In case you didn't know, weapons and armor are less effective when they get worn
 
 > INFO.NAME morrowind lore 2705844682954521120
 We are nomads, living in camps of small portable huts. We travel from place to place, build our camps, then move on to find new grass for our herds and new ranges for hunting.
-我们是游牧民族，住在小木屋组成的营地里。我们从一个地方到另一个地方，建造营地，然后继续前进，为我们的牧群寻找新的牧草，为狩猎寻找新的牧场。
+我们是游牧民族，住在小屋组成的营地里。我们四处旅行，建造营地，然后继续前进，为牧群寻觅新的草场，为狩猎寻找新的猎场。
 
 > INFO.NAME morrowind lore 1876222912775829177
 Worn-out weapons and armor work poorly. Repair them yourself, if you have some skill, or take them to a smith for repair.
@@ -117387,7 +117387,7 @@ The Dark Brotherhood is ready to make their move on the Morag Tong. I hear the N
 
 > INFO.NAME latest rumors 596087961075116800
 Dro'Zaymar, a Khajiit in St. Delyn, can jump higher than anyone I know. I wonder what his secret is.
-多'扎伊玛，圣·德林区的卡吉特，跳得比我认识的任何人都高。不知道他有什么秘诀。
+卓'扎伊玛，圣·德林区的卡吉特，跳得比我认识的任何人都高。不知道他有什么秘诀。
 
 > INFO.NAME latest rumors 29464191702272012639
 An Orc over at the Gateway Inn in Sadrith Mora by the name of Gluronk was bragging about how her boss gave her a "sanguine belt."
@@ -131289,7 +131289,7 @@ You collect on that debt money I sent you for? Where is it?
 
 > INFO.NAME greeting 5 172681264814431208
 I gave you the contract on that Khajiit, Dro'Sakhar. He dead yet?
-我把那个卡吉特多'萨卡的契约给你了。他死了吗？ {合同}
+我把那个卡吉特卓'萨卡的契约给你了。他死了吗？ {合同}
 
 > INFO.NAME greeting 5 1554615376108105697
 You get Tongue-Toad to shut his mouth yet? I want that done.
@@ -131821,7 +131821,7 @@ This is Skull-Crusher? It is indeed marvelous. But I can detect no trace of any 
 
 > INFO.NAME greeting 5 481758991057512523
 By killing Carecalmo and Meryaran you have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil. You have served the Imperial cult well. Please take these Gauntlets of Glory, and put them to good use. Speak to me again when you are ready to undertake another of the Oracle's Quests.
-你杀死了克尔卡莫和梅亚兰，为治疗师乌尔约拉德和他的老师多'法拉恩·铁颈报了仇，也为世界除去了一个大恶魔。你为帝国教团立下了汗马功劳。请带上这些荣耀之腕甲，好好利用它们。当你准备好进行另一项神谕者的任务时再来找我。 {帝国人}
+你杀死了克尔卡莫和梅亚兰，为治疗师乌尔约拉德和他的老师卓'法拉恩·铁颈报了仇，也为世界除去了一个大恶魔。你为帝国教团立下了汗马功劳。请带上这些荣耀之腕甲，好好利用它们。当你准备好进行另一项神谕者的任务时再来找我。 {帝国人}
 
 > INFO.NAME greeting 5 27787171622323417104
 I am glad you were able to recover this scroll. It is an item of terrible power, and I am glad it has not fallen into evil hands. Thank you for completing this task. As to the matter of Carecalmo and Meryaran, I leave that matter to your judgement. As opponents, they may be too great for you. Speak to me again when you are ready to undertake another of the Oracle's Quests.
@@ -142569,7 +142569,7 @@ You sure got that Khajiit, %PCRank.
 
 > INFO.NAME dro'sakhar 605342961734514737
 So Dro'Sakhar is already dead. You get his bounty then. Here's the 500 septims.
-多'萨卡已经死了，那他的赏金就归你了。这是500塞普汀。
+卓'萨卡已经死了，那他的赏金就归你了。这是500塞普汀。
 
 > INFO.NAME dro'sakhar 1748015982406012139
 I heard you got that Khajiit. Here's the 500 septim bounty.
@@ -142577,7 +142577,7 @@ I heard you got that Khajiit. Here's the 500 septim bounty.
 
 > INFO.NAME dro'sakhar 22399301022664217471
 I got a bounty on this Khajiit outlaw Dro'Sakhar. He's hiding here in Vivec. In St. Olms, I think.
-我用赏金悬赏多'萨卡这个卡吉特。他躲在维威克这里，我想有可能是躲在圣·奥姆斯区。
+我用赏金悬赏卓'萨卡这个卡吉特。他躲在维威克这里，我想有可能是躲在圣·奥姆斯区。
 
 > INFO.NAME dro'sakhar 242138384466729627
 %Name knows nothing of this.
@@ -144149,11 +144149,11 @@ I'm sorry. I haven't the time.
 
 > INFO.NAME nord woman 12081556374155920
 Dro'zhirr is done talking about her.
-多'兹尔说完了。 {谈}
+卓'兹尔说完了。 {谈}
 
 > INFO.NAME nord woman 3190416226829188
 Hmmm...an interesting bargain. If the woman pays you what she says, that would be a great deal better than what Dro'zhirr can get for them from our associates. Sounds like a fair deal, friend. Make sure you come back with my share, though. Dro'zhirr has friends who wouldn't be happy to know he's been cheated.
-嗯…有趣的交易，如果那女人按她说的付你钱，那就比多'兹尔从我们的同伙那里得到的要好得多了。听起来很公平，朋友。不过你一定要把我那份带回来。多'兹尔的朋友知道他被骗了可不会高兴的。
+嗯…有趣的交易，如果那女人按她说的付你钱，那就比卓'兹尔从我们的同伙那里得到的要好得多了。听起来很公平，朋友。不过你一定要把我那份带回来。卓'兹尔的朋友知道他被骗了可不会高兴的。
 
 > INFO.NAME nord woman 30730297309815675
 Nothing else to say? Then as far as I'm concerned, you're just another victim, trespassing on my property. You'd better leave. Now.
@@ -144161,7 +144161,7 @@ Nothing else to say? Then as far as I'm concerned, you're just another victim, t
 
 > INFO.NAME nord woman 1333416029989022865
 You've met her, huh? What has that got to do with me? Dro'zhirr is in this for the cash, not for some ridiculous sentiment. No more to say to you, unless you've got a better offer.
-你见过她了，嗯？这跟我有什么关系？多'兹尔是为了钱，不是为了什么可笑的感情。除非你有更好的提议，我就不跟你多说了。
+你见过她了，嗯？这跟我有什么关系？卓'兹尔是为了钱，不是为了什么可笑的感情。除非你有更好的提议，我就不跟你多说了。
 
 > INFO.BNAM nord woman 1333416029989022865 c1
 I'll bring them back to her, then give you half of what she pays me.
@@ -154361,7 +154361,7 @@ Nevermind.
 
 > INFO.NAME urjorad 268651702160441608
 You have avenged the deaths of the healer Urjorad and his master Dro'farahn Stiff-Neck, and rid the world of a great evil.
-你为治疗师乌尔约拉德和他的主人多'法拉恩·斯蒂芬-内克之死报了仇，也为世界除去了一个大恶魔。
+你为治疗师乌尔约拉德和他的主人卓'法拉恩·斯蒂芬-内克之死报了仇，也为世界除去了一个大恶魔。
 
 > INFO.NAME urjorad 1188811381437817844
 I am sorry, but I had feared Urjorad was dead.
@@ -154369,7 +154369,7 @@ I am sorry, but I had feared Urjorad was dead.
 
 > INFO.NAME urjorad 1583328785811620295
 Urjorad is the apprentice and protege of Dro'farahn Stiff-Neck, a healer and holy monk of the Imperial cult slain by Carecalmo. Urjorad had sworn vengeance for the life of his master, and pursued Carecalmo, armed with his dead master's weapons, enchantments, and a powerful item called Scroll of Fiercely Roasting. Urjorad is in no way strong enough to challenge Carecalmo and Meryaran, but he could not be persuaded from following his quest for revenge.
-乌尔约拉德是多'法拉恩·斯蒂芬-内克的徒弟和门徒，多'法拉恩·斯蒂芬-内克是被克尔卡莫杀死的帝国教团的治疗师和圣僧。乌尔约拉德发誓要为师父的生命复仇，他带着死去师父的武器，一把带有附魔之术的武器和一个名为“汹炙卷轴”的强大物品追杀克尔卡莫。乌尔约拉德的实力根本不足以挑战克尔卡莫和梅亚兰，但他无法被说服，放弃了复仇的追求。 {帝国人,魔法疾病}
+乌尔约拉德是卓'法拉恩·斯蒂芬-内克的徒弟和门徒，卓'法拉恩·斯蒂芬-内克是被克尔卡莫杀死的帝国教团的治疗师和圣僧。乌尔约拉德发誓要为师父的生命复仇，他带着死去师父的武器，一把带有附魔之术的武器和一个名为“汹炙卷轴”的强大物品追杀克尔卡莫。乌尔约拉德的实力根本不足以挑战克尔卡莫和梅亚兰，但他无法被说服，放弃了复仇的追求。 {帝国人,魔法疾病}
 
 > INFO.NAME mallapi 2471018668482410247
 All I know is that it is near Gnaar Mok. Perhaps you can find out more there.
@@ -156521,7 +156521,7 @@ Suvryn Doves says that Lirielle Stoine in Ald'ruhn owes him 2000 septims. Get Li
 
 > INFO.NAME orders 5257862417724508
 I got a bounty on a Khajiit. Name's Dro'Sakhar.
-我以赏金悬赏一个卡吉特，他叫多'萨卡。
+我以赏金悬赏一个卡吉特，他叫卓'萨卡。
 
 > INFO.NAME orders 10745111182190324722
 There's an Argonian that can't keep its mouth shut. Go shut Tongue-Toad's mouth.
