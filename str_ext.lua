@@ -17,10 +17,16 @@
 
 -- luajit ../str_ext.lua Starfield.txt starfield_en starfield_zhhans Starfield.ext.txt
 
+-- luajit ../str_ext.lua LondonWorldSpace.txt - - LondonWorldSpace.chs.ext.txt
+
+local starfield = arg[1]:find '[Ss]tar[Ff]ield'
+
 local function loadStrings(fn)
+	if fn:find '^%-' then return false end
 	local t = {}
 	local lastK
 	for line in io.lines(fn) do
+		line = line:gsub('\r+', '')
 		local k, v = line:match '^<(%d+)> (.*)$'
 		if k then
 			lastK = tonumber(k)
@@ -83,7 +89,7 @@ local tags = {
 	['NPC_.FULL'] = strings,
 	['NPC_.SHRT'] = strings,
 	['PERK.EPF2'] = strings,
-	['PERK.EPFD'] = strings,
+	['PERK.EPFD'] = starfield and strings or nil,
 	['PERK.FULL'] = strings,
 	['PROJ.FULL'] = strings,
 	['QUST.FULL'] = strings,
@@ -192,14 +198,15 @@ local tags = {
 	['RSPJ.DESC'] = dlstrings,
 }
 
+local multiLineMark = "'''"
 local i = 0
 local function addEscape(s)
 	if not s then return '<NA>' end
-	s = s:gsub('\r', '')
-	if s:find '"""' then
-		error(i .. ': found """ in string: ' .. s)
+	s = s:gsub('\r+', '')
+	if s:find(multiLineMark, 1, true) then
+		error(i .. ': found ' .. multiLineMark .. ' in string: ' .. s)
 	end
-	return s:find '\n' and ('"""' .. s .. '"""') or s
+	return s:find '%c' and (multiLineMark .. s .. multiLineMark) or s
 end
 local function hexToInt(s)
 	local r, f = 0, 1
@@ -239,15 +246,56 @@ local function hexToInt(s)
 	end
 	return r
 end
+local function getStr(t, idx, s)
+	if t then
+		return t[idx]
+	end
+	local t = {}
+	if s:find '^"' then
+		local i, b, n = 2, 2, #s
+		while i <= n do
+			local c = s:byte(i)
+			if c == 0x22 then -- "
+				if i + 1 <= n and s:byte(i + 1) == 0x22 then
+					if b < i then t[#t + 1] = s:sub(b, i - 1) end
+					i = i + 1
+					b = i
+				else
+					break
+				end
+			elseif c == 0x24 then -- $
+				if b < i then t[#t + 1] = s:sub(b, i - 1) end
+				local d = s:sub(i + 1, i + 2)
+				if d:find '%x%x' then
+					t[#t + 1] = string.char(tonumber(d, 16))
+					i = i + 2
+					b = i + 1
+				else
+					i = i + 1
+					b = i
+				end
+			end
+			i = i + 1
+		end
+		if b < i then t[#t + 1] = s:sub(b, i - 1) end
+	else
+		for b in s:gmatch '%x%x' do
+			t[#t + 1] = string.char(tonumber(b, 16))
+		end
+	end
+	s = table.concat(t):gsub('%z$', '')
+	return s:find '%z' and '' or s
+end
 
 local f = io.open(arg[4], 'wb')
-local idTag, id, k, v
+local idTag, id, n, k, v
 for line in io.lines(arg[1]) do
+	line = line:gsub('\r+', '')
 	i = i + 1
 	if not k then
 		k, v = line:match '^%s*([%w_]+%.[%w_]+)%s+(["%[].*)$'
 	else
-		v = v .. '\r\n' .. line
+		v = v .. '\n' .. line
 	end
 	if k then
 		if v:sub(2, -1):gsub('""', '@'):find '["%]]$' then
@@ -256,15 +304,23 @@ for line in io.lines(arg[1]) do
 				if not idTag or idTag:sub(1,4) ~= k:sub(1,4) then
 					error(i .. ': unmatch tag: ' .. (idTag or '<nil>') .. ' != ' .. k)
 				end
-				local idx = hexToInt(v)
-				local e, c = strs[1][idx], strs[2][idx]
-				if e or c then
+				local idx = strs[1] and hexToInt(v)
+				local e, c = getStr(strs[1], idx, v), getStr(strs[2], idx, v)
+				if e and e ~= '' or c and c ~= '' then
 					strs[4][idx] = true
-					f:write('> ', k, ' ', id, ' <', strs[3], idx, '>\n', addEscape(e), '\n', addEscape(c), '\n\n')
+					if idx then
+						f:write('> ', k, ' ', id, ' <', strs[3], idx, '>\n', addEscape(e), '\n', addEscape(c), '\n\n')
+					elseif n == 0 then
+						f:write('> ', k, ' ', id, '\n', addEscape(e), '\n', addEscape(c), '\n\n')
+					else
+						f:write('> ', k, ' ', id, ' <', n, '>\n', addEscape(e), '\n', addEscape(c), '\n\n')
+					end
+					n = n + 1
 				end
 			elseif k:sub(-5, -1) == '.EDID' then
 				idTag = k
 				id = v:gsub('^["%[]', ''):gsub('["%]]$', ''):gsub('%$00$', '')
+				n = 0
 			end
 			k = nil
 		end
@@ -273,12 +329,14 @@ for line in io.lines(arg[1]) do
 		if k then
 			idTag = k
 			id = '<' .. hexToInt(v) .. '>'
+			n = 0
 			k = nil
 		end
 	end
 end
 
 local function check(t, name)
+	if not t[1] then return end
 	local n = 0
 	local st = {}
 	for k in pairs(t[1]) do
