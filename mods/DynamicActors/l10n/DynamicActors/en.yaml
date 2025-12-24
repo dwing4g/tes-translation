@@ -1,0 +1,68 @@
+msg_moveon: "Player movement enabled"
+msg_moveoff: "Player movement disabled"
+msg_pause: "Force Game Pause"
+msg_ctrlon: "Camera controls enabled"
+msg_ctrloff: "Camera controls disabled"
+msg_selecton: "Animation selector enabled"
+msg_selectoff: "Animation selector disabled"
+
+opt_nopause: "don't pause"
+opt_delaypause: "pause after greeting"
+opt_alwayspause: "always pause"
+
+anim_armsfolded: "Arms folded"
+anim_akimbo: "Hands on hips"
+anim_handsback: "Hands behind back"
+
+settings_camera_modName: "Dynamic Actors - Camera"
+settings_camera_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.30
+\n\nCustomize options for Player camera positioning during dialogue."
+
+settings_modName: "Dynamic Actors - Gameplay"
+
+settings_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.30
+\n\nDynamically adds extra idle animations to NPC\'s when in Dialogue with them,
+ and to the Player when stationery for an extended time.
+\n\nCustomize options for Player auto helmet removal, stationery idle animations,
+ and for hotkey triggered activation of custom animated poses with camera control."
+
+settings_camera_name: "Camera Settings"
+settings_camera_01_name: "Disable HUD during Dialogue"
+settings_camera_02_name: "Auto-switch to first person view during Dialogue"
+settings_camera_03_name: "Auto zoom-in when in first person view during Dialogue"
+settings_camera_04_name: "Auto zoom-in distance. Lower = zoom closer to target"
+settings_camera_05_name: "Auto zoom-in Background Blur strength"
+settings_camera_05_desc: "(0 = Disabled) Higher number blurs the background more.
+ Requires Dynamic Camera Effects to be installed."
+settings_camera_06_name: "Auto zoom-in Widescreen Effect ratio"
+settings_camera_06_desc: "(0 = Disabled) Higher number for a greater widescreen effect.
+ Requires Dynamic Camera Effects to be installed."
+settings_camera_07_name: "Auto zoom-in speed. (10-200)"
+settings_camera_08_name: "Auto zoom-in focal point offset"
+settings_camera_08_desc: "Horizontal offset +/- in degrees"
+
+settings_player_name: "Player Settings"
+settings_player_setting06_name: "Choose hotkey used to activate special Actions"
+settings_player_setting06_desc: "Use Actions hotkey to play a Custom animation on player.
+ Use Actions key in 3rd Person mode during Dialogue, to enable/disable control of camera."
+settings_player_setting07_name: "Player base idle animation (main)"
+settings_player_setting07_desc: "Animation played on player when standing still"
+settings_player_setting08_name: "Player base idle animation (upper body)"
+settings_player_setting08_desc: "(None) = use same base idle as main setting"
+settings_player_setting09_name: "Add extra random idle animations over Base Idle"
+settings_player_setting10_name: "Auto Helmet removal when weapon sheathed"
+settings_player_setting12_name: "Headwear when weapon drawn (record ID)"
+settings_player_setting13_name: "Headwear when weapon sheathed (record ID)"
+
+settings_modCategory2_name: "World Settings"
+settings_modCategory2_setting1_name: "Add extra idle animations to NPC actors when in Dialogue"
+settings_modCategory2_setting2_name: "Make NPC actors turn to face you during Dialogue"
+settings_modCategory2_setting2_desc: "Disable this if there are conflicts with other mods that animate NPC actors."
+settings_modCategory2_setting3_name: "Pause game when Dialogue opens"
+settings_modCategory2_setting3_desc: "Stop or allow game pause, or delay pause until after greeting animation."
+settings_modCategory2_setting4_name: "Override AI of wandering NPC's"
+settings_modCategory2_setting4_desc: "During unpaused dialog, wandering NPC's will be blocked from speaking or moving too close."
+settings_modCategory2_setting5_name: "Shield Sheathing has been disabled"
+settings_modCategory2_setting5_desc: "Enable this option if you have TURNED OFF the OpenMW feature that allows Shield Sheathing on NPC's."
+settings_modCategory2_setting6_name: "Print debug messages in game log"
+

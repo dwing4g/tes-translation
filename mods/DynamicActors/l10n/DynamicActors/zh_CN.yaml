@@ -1,0 +1,70 @@
+msg_moveon: "玩家移动已启用"
+msg_moveoff: "玩家移动已禁用"
+msg_pause: "强制游戏暂停"
+msg_ctrlon: "相机控制已启用"
+msg_ctrloff: "相机控制已禁用"
+msg_selecton: "动画选择器已启用"
+msg_selectoff: "动画选择器已禁用"
+
+opt_nopause: "不暂停"
+opt_delaypause: "问候之后暂停"
+opt_alwayspause: "总是暂停"
+
+anim_armsfolded: "双臂合抱"
+anim_akimbo: "双手叉腰"
+anim_handsback: "双手背在身后"
+
+settings_camera_modName: "动态角色 - 相机"
+settings_camera_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.30
+\n\n玩家在对话期间相机位置的自定义选项。"
+
+settings_modName: "动态角色 - 玩法"
+
+settings_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.30
+\n\n在与NPC对话时为他们动态添加额外的空闲动画，并在玩家长时间静止时也添加空闲动画。
+\n\n可自定义玩家自动脱下头盔、静止空闲动画，以及通过快捷键触发自定义动画姿势并控制相机的选项。"
+
+settings_camera_name: "相机设置"
+settings_camera_01_name: "对话期间禁用HUD"
+settings_camera_02_name: "对话期间自动切换至第一人称视角"
+settings_camera_03_name: "对话期间为第一人称视角自动拉进"
+settings_camera_04_name: "自动拉进距离。数值越低，越靠近目标"
+settings_camera_05_name: "自动拉进时的背景模糊强度"
+settings_camera_05_desc: "(0 = 禁用) 数值越高，背景模糊效果越强。需要安装动态相机效果插件。"
+settings_camera_06_name: "自动拉进时的宽屏效果比例"
+settings_camera_06_desc: "(0 = 禁用) 数值越高，宽屏效果越宽。需要安装动态相机效果插件。"
+settings_camera_07_name: "自动拉进的速度。(10-200)"
+settings_camera_08_name: "自动拉进的焦点偏移"
+settings_camera_08_desc: "水平偏移+/-度数"
+
+settings_player_name: "玩家设置"
+settings_player_setting06_name: "选择用于激活特殊动作的快捷键"
+settings_player_setting06_desc: "使用动作快捷键来播放玩家自身的自定义动画。在第三人称模式的对话期间使用动作键，以启用/禁用相机控制。"
+settings_player_setting07_name: "玩家基础空闲动画(主要)"
+settings_player_setting07_desc: "玩家静止站立时播放的动画"
+settings_player_setting08_name: "玩家基础空闲动画(上身)"
+settings_player_setting08_desc: "(无) = 使用与主要设置相同的基础空闲动画"
+settings_player_setting09_name: "在基础空闲动画上添加额外的随机空闲动画"
+settings_player_setting10_name: "收起武器时自动移除头盔"
+settings_player_setting12_name: "拔出武器时的头饰(记录ID)"
+settings_player_setting13_name: "收起武器时的头饰(记录ID)"
+
+settings_modCategory2_name: "世界设置"
+settings_modCategory2_setting1_name: "在对话时为NPC角色添加额外的空闲动画"
+settings_modCategory2_setting2_name: "在对话期间让NPC角色转向面对你"
+settings_modCategory2_setting2_desc: "如果有其它模组控制NPC角色动画而导致冲突，请禁用此选项。"
+settings_modCategory2_setting3_name: "对话框开启时暂停游戏"
+settings_modCategory2_setting3_desc: "停止或允许游戏暂停，或者延迟暂停直到问候动画结束。"
+settings_modCategory2_setting4_name: "覆盖游荡NPC的AI"
+settings_modCategory2_setting4_desc: "在未暂停的对话期间，游荡的NPC将被阻止说话或靠得太近。"
+settings_modCategory2_setting5_name: "已禁用收起盾牌"
+settings_modCategory2_setting5_desc: "如果你已关闭允许NPC收起盾牌的OpenMW功能，请启用此选项。"
+settings_modCategory2_setting6_name: "在游戏日志中打印调试消息"
+
+
+"None": "无"
+"Ready Pose": "准备姿势"
+"Hand on Hip contrapose": "双手反向叉腰"
+"Idle2": "空闲2"
+"Arms Folded": "双臂合抱"
+"Arms Back Clasp": "双手向后交叉"

@@ -1,0 +1,5 @@
+GLOBAL:scripts/DynamicActors/global.lua
+MENU:scripts/DynamicActors/menuSettings.lua
+PLAYER:scripts/DynamicActors/player.lua
+CUSTOM:scripts/DynamicActors/npcDialog.lua
+CUSTOM:scripts/DynamicActors/npcDialogAI.lua
