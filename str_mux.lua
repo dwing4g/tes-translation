@@ -1,4 +1,6 @@
--- luajit str_mux.lua LondonWorldSpace.en.ext.txt LondonWorldSpace.chs.ext.txt LondonWorldSpace.ext.txt
+if #arg < 3 then
+	print 'USAGE: luajit str_mux.lua input.1.ext.txt input.2.ext.txt ... output.mux.ext.txt'
+end
 
 local newLine = true
 local function warn(...)
@@ -85,18 +87,26 @@ local function loadExt(fn, func)
 	newLine = true
 end
 
-local trans = {}
-loadExt(arg[2], function(k, v1, v2)
-	if trans[k] then
-		warn('duplicated key "', k, '" in "', arg[2], '"')
-	else
-		trans[k] = v2
-	end
-end)
+local transs = {}
+for i = 2, #arg - 1 do
+	local trans = {}
+	loadExt(arg[i], function(k, v1, v2)
+		if trans[k] then
+			warn('duplicated key "', k, '" in "', arg[i], '"')
+		else
+			trans[k] = v2
+		end
+	end)
+	transs[#transs + 1] = trans
+end
 
-local f = io.open(arg[3], 'wb')
+local f = io.open(arg[#arg], 'wb')
 loadExt(arg[1], function(k, v1, v2)
-	f:write('> ', k, '\n', addEscape(v1), '\n', addEscape(trans[k] or v2), '\n\n')
+	f:write('> ', k, '\n', addEscape(v1), '\n')
+	for _, trans in ipairs(transs) do
+		f:write(addEscape(trans[k] or '<NA>'), '\n')
+	end
+	f:write '\n'
 end)
 f:close()
 
