@@ -154,17 +154,17 @@ function M.enableShaders(m)
 end
 
 function M.autoCam(dt)
-	local zoom1st, d = common.zoom1st, common.dialogCam
+	local z, d = common.zoom1st, common.dialogCam
 	local ctrls = self.controls
 
 	-- Force-set 1st person zoom every frame, to counter camera.lua resetting it
 	local lerp
-	if zoom1st.force then
-		lerp = 1 - (zoom1st.level - 1) ^ 6
-		camera.setFirstPersonOffset(zoom1st.vector["0xy"] * lerp)
-	--	camera.setFirstPersonOffset(util.vector3(0, zoom1st.vector.x, zoom1st.vector.y) * lerp)
+	if z.force then
+		lerp = 1 - (z.level - 1) ^ 6
+		camera.setFirstPersonOffset(z.vector["0xy"] * lerp)
+	--	camera.setFirstPersonOffset(util.vector3(0, z.vector.x, z.vector.y) * lerp)
 	end
-	if zoom1st.offset ~= 0 then camera.setExtraYaw(zoom1st.offset) end
+	if z.offset ~= 0 then camera.setExtraYaw(z.offset) end
 	ctrls.movement = 0
 	ctrls.sideMovement = 0
 	local turningToTarget = false
@@ -198,36 +198,36 @@ function M.autoCam(dt)
 	if math.abs(deltaPitch) > math.rad(1) then
 		ctrls.pitchChange = util.clamp(deltaPitch, -v, v)
 	end
-	if turningToTarget or (not zoom1st.zoomIn) then	return		end
+	if turningToTarget or (not z.zoomIn) then	return		end
 
-	local distance = (deltaPos:length() - d.radius) * zoom1st.scale
+	local distance = (deltaPos:length() - d.radius) * z.scale
 	destVec = util.vector2(lengthXY, deltaPos.z):normalize()
-	destVec = destVec * util.clamp(distance - zoom1st.dist, -5, 300)
+	destVec = destVec * util.clamp(distance - z.dist, -5, 300)
 --	d.dDist = distance		d.destVec = destVec		d.lxy = lengthXY
-	if not zoom1st.force then
-		zoom1st.force = true
-		zoom1st.vector = destVec
--- print(d.deltaPos:length(), distance, destVec:length(), math.max(distance - 300, zoom1st.dist))
+	if not z.force then
+		z.force = true
+		z.vector = destVec
+-- print(d.deltaPos:length(), distance, destVec:length(), math.max(distance - 300, z.dist))
 	end
-	if (destVec - zoom1st.vector):length() > 5 then zoom1st.vector = destVec	end
-	if d.aperture > 0 and zoom1st.level > 0.4 then
-		lerp = math.min(zoom1st.level - 0.4, 0.2) / 0.2
+	if (destVec - z.vector):length() > 5 then	z.vector = destVec	end
+	if z.level >= 1 then	return		end
+
+	z.level = z.level + (dt * z.speed)		z.level = math.min(1, z.level)
+	if d.aperture > 0 and z.level > 0.4 then
+		lerp = math.min(z.level - 0.4, 0.2) / 0.2
 		local dof = d.shaders.dof
-		dof.uDepth = d.radius / 3 + math.max(distance - 300, zoom1st.dist)
+		dof.uDepth = d.radius / 3 + math.max(distance - 300, z.dist)
 		dof.uAperture = d.aperture * lerp
 	end
---	if d.barsRatio > 0 and zoom1st.level > 0.2 then
-	if Bars.size and zoom1st.level > 0.2 then
-		lerp = math.min(zoom1st.level - 0.2, 0.4) / 0.4
+--	if d.barsRatio > 0 and z.level > 0.2 then
+	if Bars.size and z.level > 0.2 then
+		lerp = math.min(z.level - 0.2, 0.4) / 0.4
 	--	d.shaders.bars.ratio = 1.8 + math.max(d.barsRatio - 1.8, 0) * lerp
 		local barSize = util.vector2(1, Bars.size * lerp)
 		Bars.propsB1.relativeSize = barSize
 		Bars.propsB2.relativeSize = barSize
 		blackBars:update()
 	end
-	if zoom1st.level == 1 then	return		end
-	if zoom1st.level < 1 then zoom1st.level = zoom1st.level + (dt * zoom1st.speed) end
-	zoom1st.level = math.min(zoom1st.level, 1)
 end
 
 function M.autoCamUpdate(dt)

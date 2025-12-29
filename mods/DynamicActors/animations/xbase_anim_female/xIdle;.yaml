@@ -15,6 +15,10 @@ blending_rules:
     to: "idle"
     easing: "sineInOut"
     duration: 0.7
+  - from: "idle2*"
+    to: "idle"
+    easing: "sineInOut"
+    duration: 0.7
   - from: "readypose"
     to: "idle"
     easing: "sineInOut"

@@ -2,17 +2,15 @@ local ai = require("openmw.interfaces").AI
 local core = require("openmw.core")
 local self = require("openmw.self")
 
-local AI = ai.getActivePackage() or {}
+local AI = ai and ai.getActivePackage() or {}
 
 local function removeCheck()
 	--	print("NPCWANDER FORCE REMOVE")
 	local valid
 	if self.isActive(self) and AI.type == "Wander" then
-		if target and AI.distance == 0
-			and (target.position - self.position):length() > 300 then
-		else
-			valid = true
-		end
+		valid = true
+	--	if AI.distance == 0 and (target.position - self.position):length() > 300 then
+	--	end
 	end
 	if not valid then
 		core.sendGlobalEvent("dynRemoveScript",
@@ -36,6 +34,8 @@ local function onUpdate(dt)
 --		print("STOP SOUND")
 		core.sound.stopSay(self)
 	end
+	if AI.distance == 0 then	return		end
+
         local dPos = target.position - self.position
 	if dPos:length() < 300 then
 		local dVec = util.vector2(dPos.x, dPos.y):rotate(self.rotation:getYaw())
