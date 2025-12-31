@@ -1477,6 +1477,30 @@ local function chargenFinished()
 	end
 end
 
+
+function chargenFinished()
+	if savegameData.chargenFinished then
+		return true
+	end
+	if types.Player.getBirthSign(self) ~= "" then
+		savegameData.chargenFinished = true
+		return true
+	end
+	if types.Player.isCharGenFinished(self) then
+		savegameData.chargenFinished = true
+		return true
+	end
+	playerItems = types.Container.inventory(self):getAll()
+	for a,b in pairs(playerItems) do
+		if b.recordId == "chargen statssheet" then
+			savegameData.chargenFinished = true
+			return true
+		end
+	end
+	return false
+end
+
+
 local function deathAnimCheck(actor)
 	if CAN_LOOT_DURING_DEATH_ANIMATION
 	or types.Actor.isDeathFinished(actor)

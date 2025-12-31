@@ -439,6 +439,14 @@ local function loadFile(src_filename, dst_filename)
 			local curNode = topicTree
 			text = lowerGBK(text)
 			while j <= n do
+				-- while i == j and i > 1 and j <= n do
+				-- 	local c = byte(text, i - 1)
+				-- 	if c < 0x61 or c > 0x7a or byte(text, i) >= 0x80 then -- a-z
+				-- 		break
+				-- 	end
+				-- 	j = j + 1
+				-- 	i = j
+				-- end
 				local c = sub(text, i, i)
 				local nextNode = curNode[c]
 				if nextNode then
