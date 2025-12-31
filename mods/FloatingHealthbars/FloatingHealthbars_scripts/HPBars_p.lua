@@ -5,25 +5,24 @@ HP_TEXT_ALPHA = nil
 --the actor's level reaches it's maximum shade of green or red if it's this much above/below the player:
 LEVEL_COLOR_RANGE = 8
 
-local types = require('openmw.types')
-local NPC = require('openmw.types').NPC
-local core = require('openmw.core')
-local storage = require('openmw.storage')
-local playerSettings = storage.playerSection('SettingsPlayerHPBars')
-local I = require("openmw.interfaces")
-local self = require("openmw.self")
-local nearby = require('openmw.nearby')
-local camera = require('openmw.camera')
-local util = require('openmw.util')
-local ui = require('openmw.ui')
-local auxUi = require('openmw_aux.ui')
-local async = require('openmw.async')
-local vfs = require('openmw.vfs')
+types = require('openmw.types')
+NPC = require('openmw.types').NPC
+core = require('openmw.core')
+storage = require('openmw.storage')
+I = require("openmw.interfaces")
+self = require("openmw.self")
+nearby = require('openmw.nearby')
+camera = require('openmw.camera')
+util = require('openmw.util')
+ui = require('openmw.ui')
+auxUi = require('openmw_aux.ui')
+async = require('openmw.async')
+vfs = require('openmw.vfs')
+input = require('openmw.input')
+v2 = util.vector2
+v3 = util.vector3
 local modData = storage.globalSection('HPBars')
 local KEY = require('openmw.input').KEY
-local input = require('openmw.input')
-local v2 = util.vector2
-local v3 = util.vector3
 local boxCache = {}
 local makeBorder = require("FloatingHealthbars_scripts.makeborder")
 local frame = 0
@@ -41,7 +40,7 @@ local helpers = require("FloatingHealthbars_scripts.helpers")
 hdTexPath, vfx, unpackV3, nextValue, tableFind, readFont, toutf8, fromutf8 = unpack(helpers)
 
 local s = require("FloatingHealthbars_scripts.settings")
-local updateSettings, applyRows = unpack(s)
+local updateSettings, applyRows, readAllSettings, settingsTemplate = unpack(s)
 
 local database = require("FloatingHealthbars_scripts.database")
 local customHeights, computedBoxes, customScales, modelBlacklist, checkedModels  = unpack(database)
@@ -107,7 +106,7 @@ applyRows()
 
 
 -- lineheight is the absolute minimum that the font needs to be displayed, not the real font's line height, so the font might not be centered
-glyphs,lineHeight = readFont("textures\\FloatingHealthbars_fonts\\"..playerSettings:get("FONT")..".fnt")
+glyphs,lineHeight = readFont("textures\\FloatingHealthbars_fonts\\"..FONT..".fnt")
 lineXOffset = 0.0
 daedric,daedricHeight = readFont("textures\\FloatingHealthbars_fonts\\ayembedt.fnt")
 
@@ -179,7 +178,7 @@ local function texText(t)--currentHealth,maxHealth,size,color, widgetWidth, widg
 	local widgetWidth = t.widgetWidth or 50
 	local widgetHeight = t.widgetHeight or 14
 	local lineLevel = 0
-	local size = (t.size or playerSettings:get("HP_SIZE"))
+	local size = (t.size or HP_SIZE)
 	local relScale = 1/lineHeight*size
 	local aspectRatio = widgetHeight/widgetWidth
 	local str = ""
@@ -255,14 +254,17 @@ local function texText(t)--currentHealth,maxHealth,size,color, widgetWidth, widg
 			--print(relScale,glyphWidth,aspectRatio)
 			--print(glyphs[symbol].height*relScale,glyphs[symbol].height,relScale)
 			local relTotal = relScale*total*aspectRatio
-			local letterDepth = math.max(0,(glyphs[symbol].height+glyphs[symbol].yoffset-lineLevel)/lineHeight)
-			--print(symbol, letterDepth)
+			local letterDepth = (glyphs[symbol].height+glyphs[symbol].yoffset-lineLevel)/lineHeight
+			if math.abs(letterDepth) < 0.01 then
+				letterDepth = math.max(0, letterDepth)
+			end
+			local yPos = 0.41+size/3+letterDepth*relScale*160+TEXT_OFFSET
 			local anchor = letterDepth / (glyphs[symbol].height*relScale)/1.5
 			table.insert(ret,{
 				type = ui.TYPE.Image,
 				props = {
 					resource = glyphs[symbol].texture,
-					relativePosition= v2(currentPos+relSpaceLeft, 0.41+size/3+letterDepth*relScale*160+playerSettings:get("TEXT_OFFSET")),--glyphs[symbol].yoffset*relScale+(1-size)/2),
+					relativePosition= v2(currentPos+relSpaceLeft, yPos),--glyphs[symbol].yoffset*relScale+(1-size)/2),
 					relativeSize  = v2(relWidth, glyphs[symbol].height*relScale),
 					color = t.color,
 					anchor = v2(0,1)
@@ -304,7 +306,7 @@ local function updateBuffIcons(c)
 	--local isntPlayer = c.actor ~= self.object
 	local content = {}
 	local i = 0
-	local iconSize = math.min(2,playerSettings:get("BUFF_ICONSIZE"))*0.5
+	local iconSize = math.min(2,BUFF_ICONSIZE)*0.5
 	local width = iconSize*7/50*2
 	local bc = buffCache[actor.id]
 	local multSizes = 1
@@ -371,11 +373,11 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 	--print(fatigue/maxFatigue)
 	local t
 
-	local HOSTILE_COL =  util.color.rgb(unpackV3(playerSettings:get("HOSTILE_COL"):asRgb()*healthPct+playerSettings:get("HOSTILE_DAMAGED_COL"):asRgb()*(1-healthPct)))
-	local NEUTRAL_COL = util.color.rgb(unpackV3(playerSettings:get("NEUTRAL_COL"):asRgb()*healthPct+playerSettings:get("NEUTRAL_DAMAGED_COL"):asRgb()*(1-healthPct)))
-	local ALLY_HPBAR_COL = util.color.rgb(unpackV3(playerSettings:get("ALLY_COL"):asRgb()*healthPct+playerSettings:get("ALLY_DAMAGED_COL"):asRgb()*(1-healthPct)))
-	local DAMAGE_COL = playerSettings:get("DAMAGE_COL")
-	local HEAL_COL = playerSettings:get("HEAL_COL")
+	local hostileColor =  util.color.rgb(unpackV3(HOSTILE_COL:asRgb()*healthPct+HOSTILE_DAMAGED_COL:asRgb()*(1-healthPct)))
+	local neutralColor = util.color.rgb(unpackV3(NEUTRAL_COL:asRgb()*healthPct+NEUTRAL_DAMAGED_COL:asRgb()*(1-healthPct)))
+	local allyColor = util.color.rgb(unpackV3(ALLY_COL:asRgb()*healthPct+ALLY_DAMAGED_COL:asRgb()*(1-healthPct)))
+	local DAMAGE_COL = DAMAGE_COL
+	local HEAL_COL = HEAL_COL
 	local actorAI = AI_DB[c.actor.id]
 	local isAlly = (types.Player.objectIsInstance(c.actor) or 
 					actorAI and ( 
@@ -385,51 +387,49 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 	local aggro = (not types.Player.objectIsInstance(c.actor) and actorAI and actorAI.Combat and actorAI.Combat > now-0.6) == true
 	local reaction = aggro and "hostile" or isAlly and "ally" or "neutral"
 	if aggro then
-		HPBAR_COL = HOSTILE_COL
+		HPBAR_COL = hostileColor
 	elseif isAlly then
-		HPBAR_COL = ALLY_HPBAR_COL
+		HPBAR_COL = allyColor
 	else
-		HPBAR_COL = NEUTRAL_COL
+		HPBAR_COL = neutralColor
 	end
 	if c.reactionCache == nil then c.reactionCache = reaction end
 	local playerLevel = types.Actor.stats.level(self).current
 	local level = types.Actor.stats.level(c.actor).current
-	if (playerSettings:get("LEVEL") ~= "hidden" or playerSettings:get("BORDER_COLOR") == "relative level") and c.actor ~= self.object then
-		if playerSettings:get("LEVEL") == "color-coded" or playerSettings:get("BORDER_COLOR") == "relative level" then
+	if (LEVEL ~= "hidden" or BORDER_COLOR == "relative level") and c.actor ~= self.object then
+		if LEVEL == "color-coded" or BORDER_COLOR == "relative level" then
 			local r = math.max(0,math.min(1,1-(playerLevel-level)/LEVEL_COLOR_RANGE))
 			local g = math.max(0,math.min(1,1-(level-playerLevel)/LEVEL_COLOR_RANGE))
 			levelColor = util.color.rgb(r,g,0)
-			if playerSettings:get("BORDER_COLOR") == "relative level" then
+			if BORDER_COLOR == "relative level" then
 				borderColor = util.color.rgb(r,g,0)
 			end
-		elseif playerSettings:get("LEVEL") == "gray" then
+		elseif LEVEL == "gray" then
 			levelColor = util.color.rgb(0.75,0.75,0.75)
-		elseif playerSettings:get("LEVEL") == "bar-color" then
+		elseif LEVEL == "bar-color" then
 			levelColor = HPBAR_COL
 		end
 	end
-	if playerSettings:get("BORDER_COLOR") == "reaction" then
+	if BORDER_COLOR == "reaction" then
 		
 		if AI_DB[c.actor.id] and AI_DB[c.actor.id].Combat and AI_DB[c.actor.id].Combat > now-0.5 then
 			borderColor = util.color.rgb(0.8,0.1,0.1)
 		end
 	end
 	local nameColor
-	if playerSettings:get("NAME_COLOR") == "reaction" then
+	if NAME_BEHAVIOR == "reaction color" then
 		if reaction == "hostile" then
-			nameColor = playerSettings:get("HOSTILE_COL")
+			nameColor = HOSTILE_COL
 		else
-			util.color.hex("ffffff")
+			nameColor = util.color.hex("ffffff")
 		end
-	elseif playerSettings:get("NAME_COLOR") == "gray" then
-		nameColor = util.color.hex("aaaaaa")
-	else --white / hidden in combat
-		nameColor = util.color.hex("ffffff")
+	else
+		nameColor = NAME_COL or util.color.hex("ffffff")
 	end
 	local incomingHealing = calculateHealing(c.actor)
-	local template = stylizedBars[playerSettings:get("BORDER_STYLE")]
+	local template = stylizedBars[BORDER_STYLE]
 	local resourceTemplate = {}
-	if playerSettings:get("RESOURCES") == "Fatigue + Magicka" then
+	if RESOURCES_SETTING == "Fatigue + Magicka" then
 		resourceTemplate = {
 			{ 
 				type = ui.TYPE.Image,
@@ -437,7 +437,7 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 					resource = foreground,
 					tileH = false,
 					tileV = false,
-					color = playerSettings:get("FATIGUE_COL"),
+					color = FATIGUE_COL,
 					relativeSize  = v2(fatigue/maxFatigue,1),
 					position = v2(0,-1), --for guarranteed visibility far away, but it seems to be always 1 pixel anyway
 					anchor = v2(0,-0.9)
@@ -449,14 +449,14 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 					resource = foreground,
 					tileH = false,
 					tileV = false,
-					color = playerSettings:get("MAGICKA_COL"),
+					color = MAGICKA_COL,
 					relativeSize  = v2(magicka/maxMagicka,1),
 					--position = v2(0,-1), --for guarranteed visibility far away, but it seems to be always 1 pixel anyway
 					anchor = v2(0,-0.95)
 				},
 			}
 		}
-	elseif playerSettings:get("RESOURCES")~="nothing" then
+	elseif RESOURCES_SETTING~="nothing" then
 		resourceTemplate = {
 			{ 
 				type = ui.TYPE.Image,
@@ -464,20 +464,20 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 					resource = foreground,
 					tileH = false,
 					tileV = false,
-					color = playerSettings:get("RESOURCES") == "Magicka" and playerSettings:get("MAGICKA_COL") or playerSettings:get("FATIGUE_COL"),
-					relativeSize  = v2(playerSettings:get("RESOURCES") == "Magicka" and magicka/maxMagicka or fatigue/maxFatigue,1),
+					color = RESOURCES_SETTING == "Magicka" and MAGICKA_COL or FATIGUE_COL,
+					relativeSize  = v2(RESOURCES_SETTING == "Magicka" and magicka/maxMagicka or fatigue/maxFatigue,1),
 					position = v2(0,0), --for guarranteed visibility far away, but it seems to be always 1 pixel anyway
 					anchor = v2(0,-0.95)
 				},
 			}
 		}
 	end
-	local borderOffset = playerSettings:get("BORDER_STYLE") == "verythick" and 4 or playerSettings:get("BORDER_STYLE") == "thick" and 3 or playerSettings:get("BORDER_STYLE") == "normal" and 2 or (playerSettings:get("BORDER_STYLE") == "thin" or playerSettings:get("BORDER_STYLE") == "max performance") and 1 or 0
+	local borderOffset = BORDER_STYLE == "verythick" and 4 or BORDER_STYLE == "thick" and 3 or BORDER_STYLE == "normal" and 2 or (BORDER_STYLE == "thin" or BORDER_STYLE == "max performance") and 1 or 0
 	if not c.bar then
 		local actorName
 		if NAME then
 			actorName = c.actor.recordId
-			if reaction == "hostile" and playerSettings:get("NAME_COLOR") == "hidden in combat" then
+			if reaction == "hostile" and NAME_BEHAVIOR == "hidden in combat" then
 				actorName = "player"
 			end
 			local npcRecord = types.NPC.record(actorName)
@@ -495,7 +495,7 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 		--	actorName = model
 		--end
 		local borderFile = "thin"
-		if playerSettings:get("BORDER_STYLE") == "verythick" or playerSettings:get("BORDER_STYLE") == "thick" then
+		if BORDER_STYLE == "verythick" or BORDER_STYLE == "thick" then
 			borderFile = "thick"
 		end
 		local resources = {}
@@ -523,6 +523,7 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 									size = BORDERS.size,
 									--position = BORDERS.position,
 									anchor = BORDERS.anchor,
+									visible = not c.nameOnly,
 								},
 								content = ui.content ({
 									{
@@ -539,11 +540,11 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 											alpha = 0.5,
 										},
 									},
-									playerSettings:get("BORDER_STYLE")~="none" and 
+									BORDER_STYLE~="none" and 
 									{ -- Border
 										template = borderTemplate,
 										props = {
-											--relativeSize  = v2(1/2,0.5*playerSettings:get("THICKNESS")),
+											--relativeSize  = v2(1/2,0.5*THICKNESS),
 											--relativeSize  = v2(0.999/2,0.999),
 											relativeSize  = v2(1,1),
 											--size = v2(1,-1),
@@ -556,16 +557,17 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 							ui.create({-- r.1.2
 								type = ui.TYPE.Widget,
 								props = {
-									relativeSize  = v2(1,playerSettings:get("THICKNESS")*0.25),
+									relativeSize  = v2(1,THICKNESS*0.25),
 									relativePosition= HPBARS.relativePosition,
 									anchor = HPBARS.anchor,
 									--size = v2(-4,-4),
 									--position = v2(1, 1),
 									position = HPBARS.position, --v2(borderOffset, -borderOffset),
 									size = HPBARS.size, --v2(-borderOffset*2,-borderOffset*2),
+									visible = not c.nameOnly,
 								},
 								content = ui.content {
-									playerSettings:get("LAGBAR") and { -- Damage Bar r.1.2/1
+									LAGBAR and { -- Damage Bar r.1.2/1
 										type = ui.TYPE.Image,
 										props = {
 											resource = foreground,
@@ -608,27 +610,28 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 									},
 								},
 							}),
-							playerSettings:get("RESOURCES") ~="nothing" and ui.create({ -- r.1.3
+							RESOURCES_SETTING ~="nothing" and ui.create({ -- r.1.3
 								type = ui.TYPE.Widget,
 								props = {
 									--position = v2(0, 1),
 									relativeSize  = RESOURCES.relativeSize,
 									size  = RESOURCES.size,
-									--relativePosition = v2(0.5, 0.5+playerSettings:get("THICKNESS")*0.25),
+									--relativePosition = v2(0.5, 0.5+THICKNESS*0.25),
 									position= RESOURCES.position,
 									relativePosition= RESOURCES.relativePosition,
 									anchor = RESOURCES.anchor,
+									visible = not c.nameOnly,
 									--size = v2(0,1),
 									--props = {
-									--	relativeSize  = v2(1,playerSettings:get("THICKNESS")*0.249999),
+									--	relativeSize  = v2(1,THICKNESS*0.249999),
 									--	relativePosition= v2(0.25,0.5),
 									--	size = v2(4,4),
 									--	--position = v2(1, 1),
 									--},
-									--anchor=v2(0,-playerSettings:get("THICKNESS")*28*0.25)
+									--anchor=v2(0,-THICKNESS*28*0.25)
 									--size = v2(0,1),
 									--position = v2(0,-1),
-									--visible = c.textVisible and  playerLevel>=level + playerSettings:get("REQUIRED_HP"),
+									--visible = c.textVisible and  playerLevel>=level + REQUIRED_HP,
 									--anchor = v2(0.5,0.5)
 								},
 								content = ui.content (resourceTemplate)
@@ -651,18 +654,18 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 									relativePosition = (HP and HP.relativePosition or HP_MAXHP and HP_MAXHP.relativePosition),
 									position = (HP and HP.position or HP_MAXHP and HP_MAXHP.position),
 									--v2(0.5,0.25+ (
-									--	playerSettings:get("HP_POSITION") == "other side of buffs" and (
-									--		playerSettings:get("BUFFS") == "above" and 0.25+playerSettings:get("THICKNESS")*0.25+0.125-(1-playerSettings:get("HP_SIZE"))/16 --below
-									--		or 0.125+(1-playerSettings:get("HP_SIZE"))/16 --above
+									--	HP_POSITION == "other side of buffs" and (
+									--		BUFFS_SETTING == "above" and 0.25+THICKNESS*0.25+0.125-(1-HP_SIZE)/16 --below
+									--		or 0.125+(1-HP_SIZE)/16 --above
 									--	)
-									--	or 0.25 + playerSettings:get("THICKNESS")*0.125 --on bar
+									--	or 0.25 + THICKNESS*0.125 --on bar
 									--)),
-									--0.01*(playerSettings:get("THICKNESS")-playerSettings:get("HP_SIZE"))),
-									visible = c.textVisible and  playerLevel>=level + playerSettings:get("REQUIRED_HP"),
+									--0.01*(THICKNESS-HP_SIZE)),
+									visible = not c.nameOnly and c.textVisible and  playerLevel>=level + REQUIRED_HP,
 									anchor = v2(0.5,0.5),
 									alpha = HP_TEXT_ALPHA,
 								},
-								content = ui.content (texText({currentHealth = currentHealth,maxHealth = maxHealth,widgetWidth = 100*0.5, widgetHeight = 28*0.4}))
+								content = ui.content (texText({currentHealth = currentHealth,maxHealth = maxHealth,widgetWidth = 100*0.5, widgetHeight = 28*0.4, color = HP_TEXT_COL}))
 								--content = ui.content {{
 								--		type = ui.TYPE.Image,
 								--		props = {
@@ -679,26 +682,26 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 								props = {
 									--position = v2(0, 2),
 									relativeSize  = v2(0.5,0.5),
-									relativePosition = BUFFS.relativePosition,--v2(0.25, playerSettings:get("BUFFS") == "above" and 0.2505 or 0.505+0.25*playerSettings:get("THICKNESS"))
-									position = BUFFS.position,--v2(0.25, playerSettings:get("BUFFS") == "above" and 0.2505 or 0.505+0.25*playerSettings:get("THICKNESS"))
-									--visible = false,
+									relativePosition = BUFFS.relativePosition,--v2(0.25, BUFFS_SETTING == "above" and 0.2505 or 0.505+0.25*THICKNESS)
+									position = BUFFS.position,--v2(0.25, BUFFS_SETTING == "above" and 0.2505 or 0.505+0.25*THICKNESS)
+									visible = not c.nameOnly,
 									anchor = BUFFS.anchor
 									--size = v2(borderOffset*2,borderOffset*2),
 								},
 								content = ui.content ({})
 							}) or{},
-							playerSettings:get("LEVEL") ~= "hidden" and c.actor ~= self.object and ui.create({ -- r.1.6
+							LEVEL ~= "hidden" and c.actor ~= self.object and ui.create({ -- r.1.6
 								type = ui.TYPE.Widget,
 								props = {
 									--position = v2(0, 1),
 									relativeSize  = v2(0.1,0.25),
-									anchor = v2(playerSettings:get("LEVEL_POSITION") == "left" and 1 or 0,0.5),
-									--relativePosition = v2(0.52,0.5-0.25*(1-playerSettings:get("THICKNESS"))),
+									anchor = v2(LEVEL_POSITION == "left" and 1 or 0,0.5),
+									--relativePosition = v2(0.52,0.5-0.25*(1-THICKNESS)),
 									position = LEVELTEXT.position,
 									relativePosition = LEVELTEXT.relativePosition,
-									visible = not (playerSettings:get("hideLevelInsteadOfObscuring") and playerLevel <level+playerSettings:get("REQUIRED_LEVEL")),
+									visible = not c.nameOnly and not (hideLevelInsteadOfObscuring and playerLevel <level+REQUIRED_LEVEL),
 								},
-								content = ui.content (texText({currentHealth = level,size = playerSettings:get("LEVELTEXT_SIZE"),color = levelColor,widgetWidth = 100*0.1,widgetHeight = 28*0.25,align = playerSettings:get("LEVEL_POSITION") ,obscured = playerLevel <level+playerSettings:get("REQUIRED_LEVEL")}))
+								content = ui.content (texText({currentHealth = level,size = LEVELTEXT_SIZE,color = levelColor,widgetWidth = 100*0.1,widgetHeight = 28*0.25,align = LEVEL_POSITION ,obscured = playerLevel <level+REQUIRED_LEVEL}))
 							}) or {},
 							NAME and ui.create({ -- r.1.7
 								type = ui.TYPE.Widget,
@@ -707,10 +710,10 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 									relativeSize  = v2(1,0.4),
 									relativePosition = NAME.relativePosition,
 									position = NAME.position,
-									--visible = c.textVisible and  playerLevel>=level + playerSettings:get("REQUIRED_HP"),
+									--visible = c.textVisible and  playerLevel>=level + REQUIRED_HP,
 									anchor = v2(0.5,0.5)
 								},
-								content = ui.content (texText({currentHealth = actorName,widgetWidth=100*1,widgetHeight = 28*0.4, color = nameColor, size = playerSettings:get("NAME_SIZE")}))
+								content = ui.content (texText({currentHealth = actorName,widgetWidth=100*1,widgetHeight = 28*0.4, color = nameColor, size = NAME_SIZE}))
 								--content = ui.content {{
 								--		type = ui.TYPE.Image,
 								--		props = {
@@ -741,9 +744,33 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 				}
 			})
 	else
+		-- Update visibility if nameOnly state changed
+		if c.cachedNameOnly ~= c.nameOnly then
+			c.bar.layout.content[1].layout.content[1].layout.props.visible = not c.nameOnly
+			c.bar.layout.content[1].layout.content[1]:update()
+			c.bar.layout.content[1].layout.content[2].layout.props.visible = not c.nameOnly
+			c.bar.layout.content[1].layout.content[2]:update()
+			if RESOURCES_SETTING ~= "nothing" then
+				c.bar.layout.content[1].layout.content[3].layout.props.visible = not c.nameOnly
+				c.bar.layout.content[1].layout.content[3]:update()
+			end
+			if HP or HP_MAXHP then
+				c.bar.layout.content[1].layout.content[4].layout.props.visible = not c.nameOnly and c.textVisible and playerLevel>=level + REQUIRED_HP
+				c.bar.layout.content[1].layout.content[4]:update()
+			end
+			if BUFFS then
+				c.bar.layout.content[1].layout.content[5].layout.props.visible = not c.nameOnly
+				c.bar.layout.content[1].layout.content[5]:update()
+			end
+			if LEVEL ~= "hidden" and c.actor ~= self.object then
+				c.bar.layout.content[1].layout.content[6].layout.props.visible = not c.nameOnly and not (hideLevelInsteadOfObscuring and playerLevel <level+REQUIRED_LEVEL)
+				c.bar.layout.content[1].layout.content[6]:update()
+			end
+			c.cachedNameOnly = c.nameOnly
+		end
 		local updateResources = false
-		if playerSettings:get("RESOURCES") ~="nothing" then
-			if playerSettings:get("RESOURCES") == "Fatigue + Magicka" then
+		if RESOURCES_SETTING ~="nothing" then
+			if RESOURCES_SETTING == "Fatigue + Magicka" then
 				if math.abs(fatigue-c.cachedFatigue) >1 or math.abs(magicka-c.cachedMagicka) >1 then
 					c.bar.layout.content[1].layout.content[3].layout.content[1].props.relativeSize = v2(fatigue/maxFatigue,1)
 					c.bar.layout.content[1].layout.content[3].layout.content[2].props.relativeSize = v2(magicka/maxMagicka,1)
@@ -751,14 +778,14 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 					c.cachedMagicka = magicka
 					c.cachedFatigue = fatigue
 				end
-			elseif playerSettings:get("RESOURCES") == "Fatigue" then
+			elseif RESOURCES_SETTING == "Fatigue" then
 				if math.abs(fatigue-c.cachedFatigue) >1 then
 					c.bar.layout.content[1].layout.content[3].layout.content[1].props.relativeSize = v2(fatigue/maxFatigue,1)
 					c.bar.layout.content[1].layout.content[3]:update()
 					c.cachedMagicka = magicka
 					c.cachedFatigue = fatigue
 				end
-			elseif playerSettings:get("RESOURCES") == "Magicka" then
+			elseif RESOURCES_SETTING == "Magicka" then
 				if math.abs(magicka-c.cachedMagicka) >1 then
 					c.bar.layout.content[1].layout.content[3].layout.content[1].props.relativeSize = v2(magicka/maxMagicka,1)
 					c.bar.layout.content[1].layout.content[3]:update()
@@ -777,14 +804,14 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 		local updateLevel = false
 		local updateBorders = false
 		local targetBorderAlpha = math.max(0.1,math.min(0.71,sizeMult/3))
-		if (playerSettings:get("BORDER_STYLE")=="thin" or playerSettings:get("BORDER_STYLE")=="normal" or playerSettings:get("BORDER_STYLE")=="thick" or playerSettings:get("BORDER_STYLE")=="verythick") and math.abs(targetBorderAlpha-c.cachedBorderAlpha) >= 0.1 then
+		if (BORDER_STYLE=="thin" or BORDER_STYLE=="normal" or BORDER_STYLE=="thick" or BORDER_STYLE=="verythick") and math.abs(targetBorderAlpha-c.cachedBorderAlpha) >= 0.1 then
 			updateBorders = true
 			--print("-----------")
 		end
 		if (HP or HP_MAXHP) and (sizeMult>1 and math.floor(c.cachedHealth)~=math.floor(currentHealth) or (sizeMult>1 ~=c.textVisible)) then
-			c.bar.layout.content[1].layout.content[4].layout.content = ui.content (texText({currentHealth = currentHealth,maxHealth = maxHealth,widgetWidth = 100*0.5, widgetHeight = 28*0.4}))
+			c.bar.layout.content[1].layout.content[4].layout.content = ui.content (texText({currentHealth = currentHealth,maxHealth = maxHealth,widgetWidth = 100*0.5, widgetHeight = 28*0.4, color = HP_TEXT_COL}))
 			c.textVisible = sizeMult>1
-			c.bar.layout.content[1].layout.content[4].layout.props.visible = c.textVisible and playerLevel>=level + playerSettings:get("REQUIRED_HP")
+			c.bar.layout.content[1].layout.content[4].layout.props.visible = not c.nameOnly and c.textVisible and playerLevel>=level + REQUIRED_HP
 			c.bar.layout.content[1].layout.content[4]:update()
 			--print("-----")
 		end
@@ -798,37 +825,37 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 		if c.reactionCache ~=reaction then
 			--print(reaction,c.reactionCache)
 			updateBars = true
-			if playerSettings:get("BORDER_COLOR") == "reaction" then
+			if BORDER_COLOR == "reaction" then
 				updateBorders = true
 			end
-			if NAME and (playerSettings:get("NAME_COLOR") == "reaction" or playerSettings:get("NAME_COLOR") == "hidden in combat") then
+			if NAME and (NAME_BEHAVIOR == "reaction color" or NAME_BEHAVIOR == "hidden in combat") then
 				updateName = true
 			end
 			updateLevel = true
 		end
-		if playerSettings:get("LAGBAR") and math.abs(c.cachedHealthLag -c.healthLag) / maxHealth >= 1/(50 *sizeMult) then
+		if LAGBAR and math.abs(c.cachedHealthLag -c.healthLag) / maxHealth >= 1/(50 *sizeMult) then
 			updateBars = true
 		end
-		if (playerSettings:get("HEALBAR") or isAlly or not isAlly and c.cachedIncomingHealing > 0) and math.abs(c.cachedIncomingHealing - incomingHealing) / maxHealth >= 1/(50 *sizeMult) then
+		if (HEALBAR or isAlly or not isAlly and c.cachedIncomingHealing > 0) and math.abs(c.cachedIncomingHealing - incomingHealing) / maxHealth >= 1/(50 *sizeMult) then
 			updateBars = true
 		end
 		
-		if updateLevel and playerSettings:get("LEVEL") == "bar-color" then
-			c.bar.layout.content[1].layout.content[6].layout.content = ui.content (texText({currentHealth = level,size = playerSettings:get("LEVELTEXT_SIZE"),color = levelColor,widgetWidth = 100*0.1,widgetHeight = 28*0.25,align = playerSettings:get("LEVEL_POSITION") ,obscured = playerLevel <level+playerSettings:get("REQUIRED_LEVEL")}))
+		if updateLevel and LEVEL == "bar-color" then
+			c.bar.layout.content[1].layout.content[6].layout.content = ui.content (texText({currentHealth = level,size = LEVELTEXT_SIZE,color = levelColor,widgetWidth = 100*0.1,widgetHeight = 28*0.25,align = LEVEL_POSITION ,obscured = playerLevel <level+REQUIRED_LEVEL}))
 			c.bar.layout.content[1].layout.content[6]:update()
 		end
 		
 		if updateBorders then
-			if playerSettings:get("BORDER_COLOR") == "reaction" then
+			if BORDER_COLOR == "reaction" then
 				local borderColor = nil
 				if aggro then
 					borderColor = util.color.rgb(0.8,0.1,0.1)
 				end
-				local borderTemplate = (playerSettings:get("BORDER_STYLE") == "thick" or playerSettings:get("BORDER_STYLE") == "verythick") and makeBorder('thick',borderColor,borderOffset).borders or makeBorder('thin',borderColor,borderOffset).borders
+				local borderTemplate = (BORDER_STYLE == "thick" or BORDER_STYLE == "verythick") and makeBorder('thick',borderColor,borderOffset).borders or makeBorder('thin',borderColor,borderOffset).borders
 				c.bar.layout.content[1].layout.content[1].layout.content[2].template = borderTemplate
 				c.reactionCache = reaction
 			end
-			if playerSettings:get("BORDER_STYLE")=="thin" or playerSettings:get("BORDER_STYLE")=="normal" or playerSettings:get("BORDER_STYLE")=="thick" or playerSettings:get("BORDER_STYLE")=="verythick" then
+			if BORDER_STYLE=="thin" or BORDER_STYLE=="normal" or BORDER_STYLE=="thick" or BORDER_STYLE=="verythick" then
 				c.cachedBorderAlpha = math.floor(targetBorderAlpha*10)/10
 				c.bar.layout.content[1].layout.content[1].layout.content[2].props.alpha = c.cachedBorderAlpha
 			end
@@ -836,7 +863,7 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 		end
 		if updateName then
 			local actorName = c.actor.recordId
-			if reaction == "hostile" and playerSettings:get("NAME_COLOR") == "hidden in combat" then
+			if reaction == "hostile" and NAME_BEHAVIOR == "hidden in combat" then
 				actorName = "player"
 			end
 			local npcRecord = types.NPC.record(actorName)
@@ -847,7 +874,7 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 			if creatureRecord then
 				actorName = creatureRecord.name
 			end
-			c.bar.layout.content[1].layout.content[7].layout.content =  ui.content (texText({currentHealth = actorName,widgetWidth=100*1,widgetHeight = 28*0.4, color = nameColor, size = playerSettings:get("NAME_SIZE")}))
+			c.bar.layout.content[1].layout.content[7].layout.content =  ui.content (texText({currentHealth = actorName,widgetWidth=100*1,widgetHeight = 28*0.4, color = nameColor, size = NAME_SIZE}))
 			c.bar.layout.content[1].layout.content[7]:update()
 		end
 		if updateBars then
@@ -858,13 +885,13 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 				--c.bar.layout.content[1].layout.content[2].layout.content[2].props.resource = ui.texture{ path = "textures\\hpbars\\"..template.path.."\\fill.dds", size = v2(c.lerpHealth/maxHealth*template.width,template.height)}
 			end
 			c.cachedLerpHealth = c.lerpHealth
-			if playerSettings:get("COLOR_PRESET") == "dynamic1" then
+			if COLOR_PRESET == "dynamic1" then
 				c.bar.layout.content[1].layout.content[2].layout.content[2].props.color = HPBAR_COL
 			end
 			
 			c.bar.layout.content[1].layout.content[2].layout.content[2].props.color = HPBAR_COL
 			c.reactionCache = reaction
-			if playerSettings:get("LAGBAR") then
+			if LAGBAR then
 				if math.abs((c.healthLag-c.lerpHealth)/maxHealth) <= 1/(50 *sizeMult) then
 					c.bar.layout.content[1].layout.content[2].layout.content[1].props.relativeSize  = v2(c.lerpHealth/maxHealth/2,1)
 					c.cachedHealthLag = c.lerpHealth
@@ -874,8 +901,8 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 				end
 			end
 			
-			if (playerSettings:get("HEALBAR") or isAlly or not isAlly and c.cachedIncomingHealing > 0) then
-				if not playerSettings:get("HEALBAR") and not isAlly and c.cachedIncomingHealing > 0 then
+			if (HEALBAR or isAlly or not isAlly and c.cachedIncomingHealing > 0) then
+				if not HEALBAR and not isAlly and c.cachedIncomingHealing > 0 then
 					c.bar.layout.content[1].layout.content[2].layout.content[3].props.relativeSize  = v2(0,0)
 					c.bar.layout.content[1].layout.content[2].layout.content[3].props.relativePosition = v2(0,0)
 					c.cachedIncomingHealing = 0
@@ -898,7 +925,7 @@ end
 
 local function checkBuffs (actor, checkType)
 	if checkType == "debuffs" then
-		if not playerSettings:get("ALWAYS_CHECK_BUFFS") then
+		if not ALWAYS_CHECK_BUFFS then
 			return false
 		end
 	end
@@ -974,13 +1001,16 @@ local function onFrame(dt)
 	end
 	--local heightDB = modData:getCopy("heightDB")
 	for a,b in pairs(queueSettingsChange) do
-		playerSettings:set(b[1],b[2])
+		setSetting(b[1], b[2])
 	end
 	queueSettingsChange = {}
 	local cameraPos = camera.getPosition()
+	local playerPos = self.position
+	local fastCheckPos = cameraPos --v3(cameraPos.x,cameraPos.y, playerPos.z)
 	local now = core.getRealTime()
-	local drainSpeed = playerSettings:get("LERPSPEED")
-	local timerLength = playerSettings:get("LAGDURATION")
+	local nowSim = core.getSimulationTime()
+	local drainSpeed = LERPSPEED
+	local timerLength = LAGDURATION
 	local layerId = ui.layers.indexOf("HUD")
 	local width = ui.layers[layerId].size.x 
 	local screenres = ui.screenSize()
@@ -988,40 +1018,42 @@ local function onFrame(dt)
 	screenres= screenres:ediv(v2(uiScale,uiScale))
 	local viewportToWorldVector = camera.viewportToWorldVector(v2(0.5, 0.5))
 	local viewportLength = viewportToWorldVector:length()
+	local isFirstPerson = camera.getMode() == camera.MODE.FirstPerson
+	
+	local actorOffset = ANCHOR == "head" and v3(0,0,100) or v3(0,0,0)
 	
 	-- fov calculation:
 	local leftEdge = camera.viewportToWorldVector(util.vector2(0, 0.5))
 	local halfFovDot = viewportToWorldVector:dot(leftEdge)
 	local halfFovLength = viewportToWorldVector:length() * leftEdge:length()
-	local halfFovCosine = halfFovDot / halfFovLength * 0.98
+	local halfFovCosine = halfFovDot / halfFovLength * (isFirstPerson and 0.95 or 0.9)
 	
-	local isFirstPerson = camera.getMode() ~= camera.MODE.FirstPerson
-	local OWN_BAR = playerSettings:get("OWN_BAR")
-	local MAX_DISTANCE = playerSettings:get("MAX_DISTANCE")
+	local OWN_BAR = OWN_BAR
+	local MAX_DISTANCE = MAX_DISTANCE
 	local updateBars = {}
 	--local usedThisFrame = {}
 	local crosshairFilter = false
-	if playerSettings:get("UNDER_CROSSHAIR") == "Weapon readied = everyone" then
+	if UNDER_CROSSHAIR == "Weapon readied = everyone" then
 		if types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing then
 			crosshairFilter = true
 		end
-	elseif playerSettings:get("UNDER_CROSSHAIR") == "Weapon readied" then
+	elseif UNDER_CROSSHAIR == "Weapon readied" then
 		if types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing then
 			local res = nearby.castRenderingRay(cameraPos, cameraPos+viewportToWorldVector:emul(v3(2000,2000,2000)))
 			crosshairFilter = res.hitObject
 		end
-	elseif playerSettings:get("UNDER_CROSSHAIR") == "always" then
+	elseif UNDER_CROSSHAIR == "always" then
 		local res = nearby.castRenderingRay(cameraPos, cameraPos+viewportToWorldVector:emul(v3(2000,2000,2000)))
 		crosshairFilter = res.hitObject
-	end
+	end 
 	for _,actor in pairs(nearby.actors) do
 		--print(actor.id)
 		local actorPos = actor.position
-		local toObject = actorPos - cameraPos
+		local toObject = (actorPos + actorOffset) - fastCheckPos
 		local dotProduct = viewportToWorldVector:dot(toObject)
 		if dotProduct > 0 and (actor~=self.object or OWN_BAR and not isFirstPerson) then
 			local toObjectLength = toObject:length()
-			if toObjectLength < MAX_DISTANCE and dotProduct / (viewportLength * toObjectLength) > halfFovCosine then
+			if toObjectLength < MAX_DISTANCE and (dotProduct / (viewportLength * toObjectLength) > halfFovCosine or toObjectLength <200) then
 				--print(actor.type)
 				
 				local height = false
@@ -1066,7 +1098,7 @@ local function onFrame(dt)
 					--box center:
 					barOffset = (computedBoxes[model] and computedBoxes[model][1]:emul(v3(0,0,1)) or boxCache[actorRecordId][1]:emul(v3(0,0,1)))*actorScale
 					--print(computedBoxes[model] and computedBoxes[model][1]:emul(v3(1,1,1)))
-					if playerSettings:get("ANCHOR") == "head" then
+					if ANCHOR == "head" then
 						--barOffset =  boxCache[actorRecordId][2]:emul(v3(0,0,actorScale))
 						if customHeights[model] then
 							barOffset = v3(barOffset.x, barOffset.y, customHeights[model]*actorScale)
@@ -1083,7 +1115,7 @@ local function onFrame(dt)
 						end
 					end
 				else
-					if playerSettings:get("ANCHOR") == "head" then --npcs are too predictable to use the engine's buggy bounding boxes as fallback already
+					if ANCHOR == "head" then --npcs are too predictable to use the engine's buggy bounding boxes as fallback already
 						barOffset = boxCache[actorRecordId][1]+boxCache[actorRecordId][2]
 					else
 						barOffset = v3(0,0,0)
@@ -1174,24 +1206,36 @@ local function onFrame(dt)
 				--print(v*u)
 				local angleInRadians = math.acos(v:dot(u) / math.max(0.0001,v * u))
 				local stanceFilter = true
-				if playerSettings:get("ONLY_IN_COMBAT") and types.Actor.getStance(actor) == types.Actor.STANCE.Nothing and (not AI_DB[actor.id] or AI_DB[actor.id].Combat >= now-1) then
+				if ONLY_IN_COMBAT and types.Actor.getStance(actor) == types.Actor.STANCE.Nothing and (not AI_DB[actor.id] or math.max(AI_DB[actor.id].Combat, AI_DB[actor.id].Pursue) < nowSim-1) then
 					stanceFilter = false
 				end
 				
 				local maxHealth = types.Actor.stats.dynamic.health(actor).base
+				local yPosFactor = -(0.02)
+				if toObjectLength < 200 then
+					yPosFactor = yPosFactor - (200-toObjectLength)/400
+				end
 				if (not model or not modelBlacklist[model]) 
 				and (barCache[actor.id] or not isDead)  
-				--and viewPos_XYZ.z < playerSettings:get("MAX_DISTANCE") +100
+				--and viewPos_XYZ.z < MAX_DISTANCE +100
 				and angleInRadians < math.pi/2 and viewpPos.x >= screenres.x*-0.1 
-				and viewpPos.x <= screenres.x*1.1 
-				and (viewpPos.y >= screenres.y*-0.02 or viewpPos.y < screenres.y*-0.02 and rootViewPos_XYZ.y >= screenres.y*0.5 and rootViewPos_XYZ.y <screenres.y*1.4)
-				and viewpPos.y <= screenres.y*(playerSettings:get("ANCHOR") == "head" and 1.02 or 1.4)
+				and viewpPos.x <= screenres.x*1.1
+				-- above screen
+				and (viewpPos.y >= screenres.y*yPosFactor or toObjectLength < 400 and dotProduct / (viewportLength * toObjectLength) > 0.7)
+				and viewpPos.y <= screenres.y*(ANCHOR == "head" and 1.02 or 1.4)
 				and (stanceFilter 
-					or AI_DB[actor.id] and AI_DB[actor.id].Pursue and AI_DB[actor.id].Pursue> now -1
-					or (playerSettings:get("DAMAGED_ACTORS") and currentHealth ~= maxHealth) 
+					or (DAMAGED_ACTORS and currentHealth ~= maxHealth) 
 					or checkBuffs (actor, "debuffs") 
 					or crosshairFilter == true 
-					or crosshairFilter == actor) then
+					or crosshairFilter == actor
+					or ALWAYS_SHOW_NAME) then
+					-- nameOnly: show only name when actor is visible solely due to ALWAYS_SHOW_NAME
+					local nameOnly = ALWAYS_SHOW_NAME and NAME
+						and not stanceFilter
+						and not (DAMAGED_ACTORS and currentHealth ~= maxHealth)
+						and not checkBuffs(actor, "debuffs")
+						and crosshairFilter ~= true
+						and crosshairFilter ~= actor
 					--print(hugeness)
 					
 					if not raytracing[actor.id] then
@@ -1207,7 +1251,7 @@ local function onFrame(dt)
 					raytracing[actor.id].distance = viewPos_XYZ.z
 					local rayCheck = true
 					local raytracingAlphaMult = 1
-					if playerSettings:get("RAYTRACING") then
+					if RAYTRACING then
 						if raytracing[actor.id].lastHit < now-1 then
 							rayCheck = false
 						elseif raytracing[actor.id].lastHit < now-0.05 then
@@ -1249,7 +1293,7 @@ local function onFrame(dt)
 						if model then
 							hugeness = hugeness + (customScales[model] or 0)
 						end
-						local offsetScale = 500/ viewPos_XYZ.z*playerSettings:get("SCALE")
+						local offsetScale = 500/ viewPos_XYZ.z*SCALE
 						if offsetScale >1 then
 							offsetScale = 1 + 10.7*(1-0.75^((offsetScale-1)/3))
 						end
@@ -1278,6 +1322,8 @@ local function onFrame(dt)
 								cachedFatigue = types.Actor.stats.dynamic.fatigue(actor).current,
 								cachedMagicka = types.Actor.stats.dynamic.magicka(actor).current,
 								lastBarOffset = barOffset,
+								nameOnly = nameOnly,
+								cachedNameOnly = nameOnly,
 							}
 							if HUDMBlacklist then
 								HUDMBlacklist[actor.id] = true
@@ -1289,6 +1335,7 @@ local function onFrame(dt)
 							end
 							c.healthPaused, c.healthLag, c.healthTimer, c.lerpHealth = ownlysLag(currentHealth, c.lerpHealth, c.cachedHealth, c.healthPaused, c.healthLag, c.healthTimer, now-c.lastRender, drainSpeed, timerLength, 0)
 							c.lastRender = now
+							c.nameOnly = nameOnly
 							if HUDMBlacklist then
 								HUDMBlacklist[actor.id] = true
 							end
@@ -1298,13 +1345,13 @@ local function onFrame(dt)
 							if isDead then
 								c.deathTimer = c.deathTimer+dt
 							end
-							if stylizedBars[playerSettings:get("BORDER_STYLE")] then
+							if stylizedBars[BORDER_STYLE] then
 								updateStylized(c, currentHealth, maxHealth,sizeMult)
 							else
 								update(c, currentHealth, maxHealth,sizeMult)
 							end
-							viewpPos = v2(viewpPos.x+playerSettings:get("OFFSET_X")*offsetScale,viewpPos.y+playerSettings:get("OFFSET_Y")*offsetScale)
-							if playerSettings:get("ANCHOR") == "head" then
+							viewpPos = v2(viewpPos.x+OFFSET_X*offsetScale,viewpPos.y+OFFSET_Y*offsetScale)
+							if ANCHOR == "head" then
 								if viewpPos.y < (28*sizeMult+2)*2/4  then
 									viewpPos = v2(viewpPos.x,(28*sizeMult+2)*2/4)
 								--	c.bar.layout.props.anchor = v2(0.5,0.25)
@@ -1344,20 +1391,20 @@ local function onFrame(dt)
 	for a,b in pairs(sortBars) do
 		updateBars[b]:update()
 	end
-	if playerSettings:get("RAYTRACING") then
+	if RAYTRACING then
 		rayCounter = 0
 		for i=1,15 do
 			if not raytracing[nextRay] then
 				nextRay = nil
 			end
 			nextRay = next(raytracing,nextRay)
-			if not raytracing[nextRay] or raytracing[nextRay].lastHealthUpdate < now or raytracing[nextRay].distance > playerSettings:get("MAX_DISTANCE") then
+			if not raytracing[nextRay] or raytracing[nextRay].lastHealthUpdate < now or raytracing[nextRay].distance > MAX_DISTANCE then
 				
 			else
 				rayCounter = rayCounter + 1
 				--print("queuing "..raytracing[nextRay].actor.id)
 				--print(camera.getPosition(), raytracing[nextRay].actorPos)
-				--local rayTarget = (raytracing[nextRay].barPos-camera.getPosition()):normalize():emul(v3(playerSettings:get("MAX_DISTANCE")))
+				--local rayTarget = (raytracing[nextRay].barPos-camera.getPosition()):normalize():emul(v3(MAX_DISTANCE))
 				local rayTarget = nil
 				local forward = (raytracing[nextRay].barPos-cameraPos):normalize()
 				local up = v3(0,0,1)
@@ -1395,7 +1442,7 @@ local function onFrame(dt)
 		end
 			
 		for a,b in pairs(raytracing) do
-			if b.lastHealthUpdate < now or b.distance > playerSettings:get("MAX_DISTANCE") then
+			if b.lastHealthUpdate < now or b.distance > MAX_DISTANCE then
 				raytracing[a] = nil
 			end
 		end
@@ -1431,7 +1478,8 @@ end
 
  
 function AI_update(param)
-	AI_DB[param.id] = AI_DB[param.id] or {Combat = 0, Follow = 0}
+	
+	AI_DB[param.id] = AI_DB[param.id] or {Combat = 0, Follow = 0, Pursue = 0}
 	if param.package == "Combat" then
 		AI_DB[param.id].Combat = core.getSimulationTime()
 	elseif param.package == "Follow" then
@@ -1441,7 +1489,6 @@ function AI_update(param)
 	end
 end
 
-playerSettings:subscribe(async:callback(updateSettings))
 
 
 

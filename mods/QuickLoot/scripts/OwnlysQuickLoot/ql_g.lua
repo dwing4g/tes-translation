@@ -264,6 +264,7 @@ local function take(data)
 		table.insert(activateNextUpdate,{thing,player})
 	end
 	player:sendEvent("HUDM_recheckObject", container)
+	player:sendEvent("OwnlysQuickLoot_lootedItem", {container, thing})
 	--thing:activateBy(player)
 --moveInto(types.Player.inventory(player))
 	--player:sendEvent("TakeAll_closeUI")
@@ -287,6 +288,7 @@ local function takeAll(data)
 	local experimentalLooting = data[5]
 	local i =0
 	types.Container.inventory(container):resolve()
+	local lootedItems = {}
 	--if not triggerMwscriptTrap(container,player) then
 		--print(container,container.type,types.Container.inventory(container):isResolved())
 		for _, thing in pairs(types.Container.inventory(container):getAll()) do
@@ -295,16 +297,19 @@ local function takeAll(data)
 				--ignore
 			elseif thing.type == types.Book then
 				thing:moveInto(types.Player.inventory(player))
+				table.insert(lootedItems, thing)
 				i=i+1
 			elseif thing.recordId == "gold_001" or thing.recordId == "gold_005" or thing.recordId == "gold_010" or thing.recordId == "gold_025" or thing.recordId == "gold_100" then --90% sure its just gold_001
 				thing:teleport(player.cell, player.position, player.rotation)
 				table.insert(activateSecondNextUpdate,{thing,player,container}) -- gold takes 2 ticks to become valid and allow owner changes
+				table.insert(lootedItems, thing)
 			else
 				thing:teleport(player.cell, player.position, player.rotation)
 				thing.owner.factionId = container.owner.factionId
 				thing.owner.factionRank = container.owner.factionRank
 				thing.owner.recordId = container.owner.recordId
 				table.insert(activateNextUpdate,{thing,player})
+				table.insert(lootedItems, thing)
 				
 				i=i+1
 			end
@@ -319,6 +324,7 @@ local function takeAll(data)
 			--player:sendEvent("TakeAll_PlaySound","Item Ingredient Up")
 		end
 		player:sendEvent("HUDM_recheckObject", container)
+		player:sendEvent("OwnlysQuickLoot_lootedItems", {container, lootedItems})
 	--end
 end
 
@@ -349,7 +355,9 @@ local function onUpdate(dt)
 		else
 			if types.Actor.isDeathFinished(t[1]) then
 				t[3]:sendEvent("HUDM_objectRemoved",t[1])
-				t[1]:remove(1)
+				if t[1].count > 0 then
+					t[1]:remove(1)
+				end
 			else
 				t[1]:teleport(t[1].cell, t[1].position-util.vector3(0,0,300))
 				table.insert(limbo, {t[1], t[3]})
@@ -362,7 +370,9 @@ local function onUpdate(dt)
 	for i, t in pairs(limbo) do
 		if types.Actor.isDeathFinished(t[1]) then
 			t[2]:sendEvent("HUDM_objectRemoved",t[1])
-			t[1]:remove(1)
+			if t[1].count > 0 then
+				t[1]:remove(1)
+			end
 			limbo[i] = nil
 		end
 	end

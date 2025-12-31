@@ -1,60 +1,76 @@
-local function rgbToHsv(r, g, b, a)
-  --r, g, b, a = r / 255, g / 255, b / 255, a / 255
-  local max, min = math.max(r, g, b), math.min(r, g, b)
-  local h, s, v
-  v = max
+local core = require('openmw.core')
+local vfs = require('openmw.vfs')
+local v3 = require('openmw.util').vector3
+local v2 = require('openmw.util').vector2
+local ui = require('openmw.ui')
 
-  local d = max - min
-  if max == 0 then s = 0 else s = d / max end
 
-  if max == min then
-    h = 0 -- achromatic
-  else
-    if max == r then
-    h = (g - b) / d
-    if g < b then h = h + 6 end
-    elseif max == g then h = (b - r) / d + 2
-    elseif max == b then h = (r - g) / d + 4
-    end
-    h = h / 6
-  end
-
-  return h, s, v, a
+local function hdTexPath(str)
+	--print(str)
+	local newPath = str:gsub("icons\\s\\", "textures\\icons\\")
+	if(vfs.fileExists(newPath)) then
+		return newPath
+	end
+	return str
 end
 
---[[
- * Converts an HSV color value to RGB. Conversion formula
- * adapted from http://en.wikipedia.org/wiki/HSV_color_space.
- * Assumes h, s, and v are contained in the set [0, 1] and
- * returns r, g, and b in the set [0, 255].
- *
- * @param   Number  h       The hue
- * @param   Number  s       The saturation
- * @param   Number  v       The value
- * @return  Array           The RGB representation
-]]
-local function hsvToRgb(h, s, v, a)
-  local r, g, b
-
-  local i = math.floor(h * 6);
-  local f = h * 6 - i;
-  local p = v * (1 - s);
-  local q = v * (1 - f * s);
-  local t = v * (1 - (1 - f) * s);
-
-  i = i % 6
-
-  if i == 0 then r, g, b = v, t, p
-  elseif i == 1 then r, g, b = q, v, p
-  elseif i == 2 then r, g, b = p, v, t
-  elseif i == 3 then r, g, b = p, q, v
-  elseif i == 4 then r, g, b = t, p, v
-  elseif i == 5 then r, g, b = v, p, q
-  end
-
-  return r,g,b,a --r * 255, g * 255, b * 255, a * 255
+function vfx(pos)
+	local effect = core.magic.effects.records[9]
+	--core.vfx.spawn(effect.castStatic, pos) -- in world
 end
 
+local function unpackV3(v3)
+	return v3.x,v3.y,v3.z
+end
+
+local function nextValue (t,k,backwards)
+	if not k then
+		return t[1]
+	end
+	for i,v in ipairs(t) do
+		if v == k then
+			if backwards then
+				if i>=2 then
+					return t[i-1]
+				else
+					return nil
+				end
+			else
+				if i < #t then
+					return t[i+1]
+				else
+					return nil
+				end
+			end
+			
+		end
+	end
+	return nil
+end
+
+local function tableFind (t,k)
+	for a,b in pairs(t) do
+		if k==b then
+			return a
+		end
+	end
+	return nil
+end
+
+local fixInterpolation={
+["OpenSans"] = {
+	["h"] = 1,
+	["l"] = 1,
+	["n"] = 1,
+}
+}
+local customLineHeight={
+--["pelagiad"]= 100,
+--["ayembedt"]= 100,
+--["OpenSans"]= 103,
+--["roboto"]  = 100,
+--["blackops"]= 100,
+}
 local function readFont(file)
 	local temp = file:reverse()
 	local fileNameLength = temp:find("\\")-1
@@ -114,122 +130,6 @@ local function readFont(file)
 	return glyphs,lineHeight
 end
 
-local function texText(t)--currentHealth,maxHealth,size,color, widgetWidth, widgetHeight, align)
-	if t.currentHealth == "player" then
-		return {}
-	end
-	local glyphs = glyphs
-	local lineHeight = lineHeight
-	if t.obscured then
-		glyphs = daedric
-		lineHeight = daedricHeight
-	end
-	local widgetWidth = t.widgetWidth or 50
-	local widgetHeight = t.widgetHeight or 14
-	local lineLevel = 0
-	local size = (t.size or playerSettings:get("HP_SIZE"))
-	local relScale = 1/lineHeight*size
-	local aspectRatio = widgetHeight/widgetWidth
-	local str = ""
-	if type(t.currentHealth) == "number" then
-		str= str..math.floor(t.currentHealth)
-	else
-		str = str..(t.currentHealth or "")
-	end
-	if HP_MAXHP and t.maxHealth then
-		str = str.."/"..math.floor(t.maxHealth)
-	end
-	local ret = {}
-	local totalWidth = 0
-	
-	local middleOffset = 0
-	local stretchGlyph = 1
-	local gapMult = 0.5
-	for i=1, #str do
-		local symbol = str:sub(i,i)
-		if glyphs[symbol] and glyphs[symbol].width then
-			local glyphHeight = lineHeight
-			--local glyphHeight = glyphs[symbol].height
-			local spaceLeft = glyphs[symbol].xoffset*gapMult
-			local spaceRight = (glyphs[symbol].xadvance- glyphs[symbol].xoffset- glyphs[symbol].width)*gapMult
-			local glyphWidth =  glyphs[symbol].width*stretchGlyph
-			if symbol == " " then
-				glyphWidth = glyphWidth+8
-			end
-			local total = spaceLeft+spaceRight+glyphWidth
-			local relTotal = relScale* total   *aspectRatio
-			if symbol =="/" then
-				middleOffset = totalWidth+relTotal/2
-			end
-			totalWidth = totalWidth+relTotal
-		end
-	end
-	if middleOffset > 0 then
-		middleOffset = totalWidth/2-middleOffset
-	end
-	local currentPos = 0.5-totalWidth/2+middleOffset
-	if t.align =="right" then
-		currentPos = 0
-	elseif t.align == "left" then
-		currentPos = 1-totalWidth
-	end
-	local levelChars = {"a","b","c","d","e"}
-	local lineLevel= 0
-	for a,b in pairs(levelChars) do
-		if glyphs[b] then
-			lineLevel = math.max(lineLevel, glyphs[b].height+glyphs[b].yoffset)
-		end
-	end
-	if lineLevel == 0 then
-		lineLevel = glyphs["0"].height+glyphs["0"].yoffset
-	end
-	lineLevel = lineLevel+0.005
-	for i=1, #str do
-		local symbol = str:sub(i,i)
-		if glyphs[symbol] and glyphs[symbol].width then
-			local glyphHeight = lineHeight
-			--local glyphHeight = glyphs[symbol].height
-			local spaceLeft = glyphs[symbol].xoffset*gapMult
-			local spaceRight = (glyphs[symbol].xadvance- glyphs[symbol].xoffset- glyphs[symbol].width)*gapMult
-			local glyphWidth =  glyphs[symbol].width*stretchGlyph
-			if symbol == " " then
-				glyphWidth = glyphWidth+10
-			end
-			local total = spaceLeft+spaceRight+glyphWidth
-			local relSpaceLeft = relScale*spaceLeft*aspectRatio
-			local relSpaceRight = relScale*spaceRight*aspectRatio
-			local relWidth = relScale*glyphWidth*aspectRatio
-			--print(relScale,glyphWidth,aspectRatio)
-			--print(glyphs[symbol].height*relScale,glyphs[symbol].height,relScale)
-			local relTotal = relScale*total*aspectRatio
-			local letterDepth = math.max(0,(glyphs[symbol].height+glyphs[symbol].yoffset-lineLevel)/lineHeight)
-			--print(symbol, letterDepth)
-			local anchor = letterDepth / (glyphs[symbol].height*relScale)/1.5
-			table.insert(ret,{
-				type = ui.TYPE.Image,
-				props = {
-					resource = glyphs[symbol].texture,
-					relativePosition= v2(currentPos+relSpaceLeft, 0.41+size/3+letterDepth*relScale*160+TEXT_OFFSET),--glyphs[symbol].yoffset*relScale+(1-size)/2),
-					relativeSize  = v2(relWidth, glyphs[symbol].height*relScale),
-					color = t.color,
-					anchor = v2(0,1)
-				}
-			} )
-			currentPos = currentPos + relTotal
-		end
-	end
-	--table.insert(ret,{
-	--	type = ui.TYPE.Image,
-	--	props = {
-	--		resource = background,
-	--		tileH = false,
-	--		tileV = false,
-	--		relativeSize  = v2(1,1),
-	--		alpha = 0.6,
-	--	},
-	--})
-	return ret
-end
 
 ---- UTF8 conversions
 local char, byte, pairs, floor = string.char, string.byte, pairs, math.floor
@@ -406,8 +306,6 @@ for code1252, code in pairs(map_1252_to_unicode) do
 end
 
 local function fromutf8(utf8str)
-   return utf8str
---[[
    local pos, result_1252 = 1, {}
    while pos <= #utf8str do
       local code, size = utf8_to_unicode(utf8str, pos)
@@ -416,19 +314,15 @@ local function fromutf8(utf8str)
       table_insert(result_1252, char(code))
    end
    return table_concat(result_1252)
---]]
 end
 
 local function toutf8(str1252)
-   return str1252
---[[
    local result_utf8 = {}
    for pos = 1, #str1252 do
       local code = str1252:byte(pos)
       table_insert(result_utf8, unicode_to_utf8(map_1252_to_unicode[code] or code))
    end
    return table_concat(result_utf8)
---]]
 end
 
 local bytemarkers = { {0x7FF,192}, {0xFFFF,224}, {0x1FFFFF,240} }
@@ -450,57 +344,5 @@ local function hextoutf8(decimal)
     return table.concat(charbytes)
 
 end
-local function formatNumber(num, mode)
-	local text = math.floor(num*10)/10
-	local textColor = nil
-	if mode == "v/w" then
-		text = (math.floor(num*10+0.5)/10)
-	elseif mode == "weight" then
-		text = math.floor(num*10+0.5)/10
-	end
-	if text >99 or text > 1.2 and (text%1 <=0.1 or text%1 >=0.9) then
-		text = math.floor(text)
-	end
-	infSymbol = false
-	if text == 1/0 then
-		if not FONT_FIX then
-			text = hextoutf8(0x221e)
-		else
-			text = "-" -- instead of "Inf"
-			infSymbol = true
-		end
-	elseif text >= 10^6-100 then --1m
-		text = text/1000--*1.005/1000
-		local e = math.floor(math.log10(text))
-		text = text + 10^e*1.005-10^e
-		local suffixes = {"K","M","G","T","P","E","Z"}
-		local i = 1
-		while text >= 1000 do
-			text = text/1000
-			i=i+1
-		end
-		--text = string.format("%.2f",text)
-		text = math.floor(text*100)/100 -- control rounding instead of string format
-		text = string.format("%.2f",text)
-		if #text == 6 then
-			text=text:sub(1,3)
-		else
-			text = text:sub(1,4)
-		end
-		text = text.." "..suffixes[i]
-	elseif text >= 1000 then
-		text = math.floor(text/1000)..(not FONT_FIX and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%03d", math.floor((text%1000)/100)*100)
-	end
-	return ""..text
-end
 
-local function tableContains(t,entry)
-	for a,b in pairs(t) do
-		if b == entry then
-			return entry
-		end
-	end
-	return false
-end
-
-return {readFont,texText,rgbToHsv,hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber,tableContains}
+return {hdTexPath, vfx, unpackV3, nextValue, tableFind, readFont, toutf8, fromutf8}

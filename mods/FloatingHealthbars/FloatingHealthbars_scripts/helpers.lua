@@ -110,7 +110,7 @@ local function readFont(file)
 	--print("minY",minYOffset)
 	--print("maxHeight",maxHeight)
 	--print("lineHeight",lineHeight)
-	--local lineHeight = customLineHeight[playerSettings:get("FONT")] or maxHeight
+	--local lineHeight = customLineHeight[FONT] or maxHeight
 	for i=5,#glyphData do
 		local character = string.char(tonumber(glyphData[i].id))
 		fixInt = 0--fixInterpolation[playerSettings:get("FONT")][character] or 0

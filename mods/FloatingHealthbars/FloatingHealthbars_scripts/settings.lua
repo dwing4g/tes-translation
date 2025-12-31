@@ -6,21 +6,45 @@ local core = require('openmw.core')
 local v2 = require('openmw.util').vector2
 local I = require("openmw.interfaces")
 
-settings = {
-    key = "SettingsPlayerHPBars",
-    page = "HPBars",
-    l10n = "HPBars",
-    name = "HPBars",
-	description = "",
-    permanentStorage = true,
-    settings = {
-		--{
-        --    key = "TESTKEY",
-        --    renderer = "textKey",
-        --    name = "Toggle",
-        --    default = input.getKeyName(KEY.Minus) .. " Key",
-        --    argument = { keyName = "asd" },
-        --},
+local presetColors = {
+	"ffffff", -- white
+	"aaaaaa", -- gray
+	"a00004", -- red
+	"300004", -- dark red
+	"600004", -- darker red
+	"cc1a1a", -- bright red
+	"bb2100", -- red-orange
+	"cc2a00", -- red-orange 2
+	"b55500", -- orange
+	"9a5517", -- brown-orange
+	"ccbb00", -- yellow
+	"cccc00", -- yellow 2
+	"ada11a", -- olive
+	"c5a15e", -- tan
+	"9a5e3a", -- brown
+	"ad6364", -- dusty rose
+	"3ca01e", -- green
+	"1263b0", -- blue
+	"4c6188", -- gray-blue
+	"0011ee", -- bright blue
+}
+
+local orderCounter = 0
+local function getOrder()
+	orderCounter = orderCounter + 1
+	return orderCounter
+end
+
+local settingsTemplate = {}
+
+settingsTemplate["Layout"] = {
+	key = "SettingsPlayerHPBars_Layout",
+	page = "HPBars",
+	l10n = "HPBars",
+	name = "Layout",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
 			key = "ROW1",
 			name = "Row 1 Widget",
@@ -82,6 +106,29 @@ settings = {
 			},
 		},
 		{
+			key = "ANCHOR",
+			name = "Bar anchor",
+			description = "",
+			default = "head", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "HPBars", 
+				items = {"feet", "head"},
+			},
+		},
+	},
+}
+
+settingsTemplate["Visibility"] = {
+	key = "SettingsPlayerHPBars_Visibility",
+	page = "HPBars",
+	l10n = "HPBars",
+	name = "Visibility",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
 			key = "OWN_BAR",
 			renderer = "checkbox",
 			name = "Own bar",
@@ -137,6 +184,24 @@ settings = {
 			},
 		},
 		{
+			key = "ALWAYS_SHOW_NAME",
+			name = "Always Show Name",
+			description = "Show Name even when the actor is not in combat. can get overridden by the setting which hides the name in combat",
+			default = false,
+			renderer = "checkbox",
+		},
+	},
+}
+
+settingsTemplate["Animation"] = {
+	key = "SettingsPlayerHPBars_Animation",
+	page = "HPBars",
+	l10n = "HPBars",
+	name = "Animation",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
 			key = "LAGBAR",
 			renderer = "checkbox",
 			name = "Damage-Bar",
@@ -150,25 +215,44 @@ settings = {
 			description = "Visualizes incoming enemy healing",
 			default = true,
 		},
-		--{
-		--	key = "HPTEXT",
-		--	name = "HP Numbers",
-		--	description = "Choose what text should be displayed on the bar",
-		--	default = "HP/MaxHP", 
-		--	renderer = "select",
-		--	argument = {
-		--		disabled = false,
-		--		l10n = "HPBars", 
-		--		items = {"none", "HP", "HP/MaxHP"},
-		--	},
-		--},
 		{
-			key = "REQUIRED_HP",
-			name = "Required level to see HP",
-			description = "Relative to the actor's level",
+			key = "LERPSPEED",
+			name = "Animation Speed",
+			description = "How fast the bars are animated, for example on physical damage taken",
+			default = 128,
+			min = 1,
 			renderer = "number",
-			default = -4,
-			integer = true
+		},
+		{
+			key = "LAGDURATION",
+			name = "Damage Taken Visualizer Duration",
+			description = "For how long the damage bar will indicate recently taken damage",
+			default = 0.7, 
+			min = 0.1,
+			renderer = "number",
+		},
+	},
+}
+
+settingsTemplate["Text"] = {
+	key = "SettingsPlayerHPBars_Text",
+	page = "HPBars",
+	l10n = "HPBars",
+	name = "Text & Font",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
+			key = "FONT",
+			name = "Font",
+			description = "Global Addon Font",
+			default = "Pelagiad", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "HPBars", 
+				items = {"Pelagiad", "MysticCards", "Daedra", "OpenSans", "Roboto", "BlackOps", "Asul"},
+			},
 		},
 		{
 			key = "HP_SIZE",
@@ -179,6 +263,72 @@ settings = {
 			min = 0.01,
 			default = 0.73,
 		},
+		{
+			key = "TEXT_OFFSET",
+			name = "Text offset",
+			description = "Global text offset, 0-1",
+			renderer = "number",
+			max = 0.5,
+			min = 0.01,
+			default = 0.08,
+		},
+		{
+			key = "NAME_SIZE",
+			name = "Name size",
+			description = "Percentage of bar height, 0-1",
+			renderer = "number",
+			max = 1,
+			min = 0.1,
+			default = 0.7,
+		},
+		{
+			key = "NAME_BEHAVIOR",
+			name = "Name Behavior",
+			description = "When to show the actor's name",
+			default = "hidden in combat", 
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "HPBars", 
+				items = {"always", "hidden in combat", "reaction color"},
+			},
+		},
+		{
+			key = "NAME_COL",
+			name = "Name Color",
+			description = "Color of the actor's name (ignored if reaction color is used)",
+			default = util.color.hex("ffffff"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
+		},
+		{
+			key = "HP_TEXT_COL",
+			name = "HP Text Color",
+			description = "Color of the HP/MaxHP text",
+			default = util.color.hex("ffffff"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
+		},
+		{
+			key = "BUFF_ICONSIZE",
+			name = "Buff IconSize",
+			description = "",
+			renderer = "number",
+			max = 1,
+			min = 0.1,
+			default = 1,
+		},
+	},
+}
+
+settingsTemplate["Level"] = {
+	key = "SettingsPlayerHPBars_Level",
+	page = "HPBars",
+	l10n = "HPBars",
+	name = "Level Display",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
 			key = "LEVEL",
 			name = "Level number",
@@ -212,6 +362,14 @@ settings = {
 			integer = true
 		},
 		{
+			key = "REQUIRED_HP",
+			name = "Required level to see HP",
+			description = "Relative to the actor's level",
+			renderer = "number",
+			default = -4,
+			integer = true
+		},
+		{
 			key = "hideLevelInsteadOfObscuring",
 			name = "Hide Level Instead Of Obscuring",
 			description = "If your level is too low, hides the actor's level instead of using the daedric font",
@@ -223,109 +381,37 @@ settings = {
 			name = "Level Number size",
 			description = "Percentage of bar height, 0-1",
 			renderer = "number",
-			max = 0.1,
-			min = 1,
+			max = 1,
+			min = 0.1,
 			default = 0.8,
 		},
+	},
+}
+
+settingsTemplate["Size"] = {
+	key = "SettingsPlayerHPBars_Size",
+	page = "HPBars",
+	l10n = "HPBars",
+	name = "Size & Position",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
-			key = "FONT",
-			name = "Font",
-			description = "Global Addon Font",
-			default = "Pelagiad", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = "HPBars", 
-				items = {"Pelagiad", "MysticCards", "Daedra", "OpenSans", "Roboto", "BlackOps", "Asul"},
-			},
-		},
-		{
-			key = "TEXT_OFFSET",
-			name = "Text offset",
-			description = "Global text offset, 0-1",
+			key = "SCALE",
+			name = "HP Bars Scale",
+			description = "Multiplier on the final bar scale (after distance scaling)",
+			default = 0.9,
+			min = 0.1,
 			renderer = "number",
-			max = 0.5,
-			min = 0.01,
-			default = 0.08,
 		},
 		{
-			key = "NAME_SIZE",
-			name = "Name size",
-			description = "Percentage of bar height, 0-1",
+			key = "THICKNESS",
+			name = "HP Bars Thickness",
+			description = "Multiplier on the bar thichness",
+			default = 0.999,
+			min = 0.1,
 			renderer = "number",
-			max = 0.1,
-			min = 1,
-			default = 0.7,
 		},
-		{
-			key = "NAME_COLOR",
-			name = "Name Color",
-			description = "Color of the Actor's name, if enabled",
-			default = "reaction", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = "HPBars", 
-				items = {"white", "gray", "reaction", "hidden in combat"},
-			},
-		},
-		--{
-		--	key = "HP_POSITION",
-		--	name = "HP Text Position",
-		--	description = "Small performance hit",
-		--	renderer = "select",
-		--	default = "on bar",
-		--	argument = {
-		--		disabled = false,
-		--		l10n = "HPBars", 
-		--		items = {"on bar", "other side of buffs"},
-		--	},
-		--},
-		--{
-		--	key = "BUFFS",
-		--	name = "Buffs & Debuffs",
-		--	description = "Small performance hit",
-		--	renderer = "select",
-		--	default = "below", 
-		--	argument = {
-		--		disabled = false,
-		--		l10n = "HPBars", 
-		--		items = {"hidden", "above", "below"},
-		--	},
-		--},
-		{
-			key = "BUFF_ICONSIZE",
-			name = "Buff IconSize",
-			description = "",
-			renderer = "number",
-			max = 0.1,
-			min = 1,
-			default = 1,
-		},
-		{
-			key = "ANCHOR",
-			name = "Bar anchor",
-			description = "",
-			default = "head", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = "HPBars", 
-				items = {"feet", "head"},
-			},
-		},
-		--{
-		--	key = "ACTOR_NAME",
-		--	name = "Actor Name",
-		--	description = "Show the actor's name above or below the Nameplate where it fits\nSome options may have no effect depending on your other settings",
-		--	default = "head", 
-		--	renderer = "select",
-		--	argument = {
-		--		disabled = false,
-		--		l10n = "HPBars", 
-		--		items = {"hidden", "higher","middle", "lower"},
-		--	},
-		--},
 		{
 			key = "OFFSET_X",
 			name = "Offset X",
@@ -337,40 +423,7 @@ settings = {
 			key = "OFFSET_Y",
 			name = "Offset Y",
 			description = "Moves the bars up or down",
-			default = -15, 
-			renderer = "number",
-		},
-		{
-			key = "LERPSPEED",
-			name = "Animation Speed",
-			description = "How fast the bars are animated, for example on physical damage taken",
-			default = 128,
-			min = 1,
-			renderer = "number",
-		},
-		{
-			key = "LAGDURATION",
-			name = "Damage Taken Visualizer Duration",
-			description = "For how long the damage bar will indicate recently taken damage",
-			default = 0.7, 
-			min = 0.1,
-			renderer = "number",
-		},
-		{
-			key = "SCALE",
-			name = "HP Bars Scale",
-			description = "Multiplier on the final bar scale (after distance scaling)",
-			default = 0.9,
-			min = 0.1,
-			renderer = "number",
-		},
-		
-		{
-			key = "THICKNESS",
-			name = "HP Bars Thickness",
-			description = "Multiplier on the bar thichness",
-			default = 0.999,
-			min = 0.1,
+			default = -8, 
 			renderer = "number",
 		},
 		{
@@ -382,7 +435,7 @@ settings = {
 			argument = {
 				disabled = false,
 				l10n = "HPBars", 
-				items = {"none", "max performance", "thin", "normal", "thick", "verythick"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+				items = {"none", "max performance", "thin", "normal", "thick", "verythick"},
 			},
 		},
 		{
@@ -394,9 +447,20 @@ settings = {
 			argument = {
 				disabled = false,
 				l10n = "HPBars", 
-				items = {"default", "relative level", "reaction"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
+				items = {"default", "relative level", "reaction"},
 			},
 		},
+	},
+}
+
+settingsTemplate["Colors"] = {
+	key = "SettingsPlayerHPBars_Colors",
+	page = "HPBars",
+	l10n = "HPBars",
+	name = "Colors",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
 		{
 			key = "COLOR_PRESET",
 			name = "Color Preset",
@@ -413,120 +477,126 @@ settings = {
 			key = "HOSTILE_COL",
 			name = "Hostile HP Bar Color",
 			description = "Health color for actors that are attacking you.",
-			disabled = false,
-			--default = util.color.hex("9a5e3a"), --tan (unused)
-			--default =  util.color.hex("c5a15e"), --paper
-			--default =  util.color.hex("b55500"), --orange
-			default =  util.color.hex("a00004"),
-			--default =  util.color.hex("a00004"), --red
-			renderer = "color",
+			default = util.color.hex("a00004"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "HOSTILE_DAMAGED_COL",
 			name = "Hostile+Damaged HP Bar Color",
 			description = "Health color at 0 HP for actors that are attacking you.",
-			disabled = false,
-			--default = util.color.hex("9a5e3a"), --tan (unused)
-			--default =  util.color.hex("c5a15e"), --paper
-			--default =  util.color.hex("b55500"), --orange
-			default =  util.color.hex("300004"), --yellow
-			--default =  util.color.hex("a00004"), --red
-			renderer = "color",
+			default = util.color.hex("300004"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "NEUTRAL_COL",
 			name = "Neutral HP Bar Color",
 			description = "Health color for normal actors",
-			disabled = false,
-			--default = util.color.hex("9a5e3a"), --tan (unused)
-			--default =  util.color.hex("c5a15e"), --paper
-			--default =  util.color.hex("b55500"), --orange
-			default =  util.color.hex("ccbb00"), --yellow
-			--default =  util.color.hex("a00004"), --red
-			renderer = "color",
+			default = util.color.hex("ccbb00"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "NEUTRAL_DAMAGED_COL",
 			name = "Neutral+Damaged HP Bar Color",
 			description = "Health color at 0 HP for normal actors.",
-			disabled = false,
-			--default = util.color.hex("9a5e3a"), --tan (unused)
-			--default =  util.color.hex("c5a15e"), --paper
-			--default =  util.color.hex("b55500"), --orange
-			default =  util.color.hex("a00004"), --yellow
-			--default =  util.color.hex("a00004"), --red
-			renderer = "color",
+			default = util.color.hex("a00004"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "ALLY_COL",
 			name = "Allied HP Bar Color",
 			description = "Allied Health color",
-			disabled = false,
-			default =  util.color.hex("1263b0"), --blue
-			--default =  util.color.hex("999999"), --gray-white
-			--default =  util.color.hex("ccbb00"), --yellow
-			renderer = "color",
+			default = util.color.hex("1263b0"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "ALLY_DAMAGED_COL",
 			name = "Allied+Damaged HP Bar Color",
 			description = "Health color at 0 HP for allied actors.",
-			disabled = false,
-			default =  util.color.hex("1263b0"), --blue
-			--default =  util.color.hex("999999"), --gray-white
-			--default =  util.color.hex("ccbb00"), --yellow
-			renderer = "color",
+			default = util.color.hex("1263b0"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "DAMAGE_COL",
 			name = "Damage Color",
 			description = "'Lag-Bar' color",
-			disabled = false,
-			default =  util.color.hex("a00004"), --red
-			--default =  util.color.hex("a00004"), --red
-			--default =  util.color.hex("b7b7b7"), --white
-			renderer = "color",
+			default = util.color.hex("a00004"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "HEAL_COL",
 			name = "Healing Color",
 			description = "Color of incoming healing",
-			disabled = false,
-			default = util.color.hex("3ca01e"), --green
-			renderer = "color",
+			default = util.color.hex("3ca01e"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "FATIGUE_COL",
 			name = "Fatigue Color",
 			description = "Color of the fatigue bar, if enabled",
-			disabled = false,
-			default = util.color.hex("cccc00"), --yellow
-			renderer = "color",
+			default = util.color.hex("cccc00"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
 		{
 			key = "MAGICKA_COL",
 			name = "Magicka Color",
 			description = "Color of the magicka bar, if enabled",
-			disabled = false,
-			default = util.color.hex("0011ee"), --green
-			renderer = "color",
+			default = util.color.hex("0011ee"),
+			renderer = "SuperColorPicker2",
+			argument = { presetColors = presetColors },
 		},
-
-	}
+	},
 }
 
+-- Settings Migration from old single-section format
+local legacySection = storage.playerSection('SettingsPlayerHPBars')
+if legacySection:get("ROW1") ~= nil then
+	for _, template in pairs(settingsTemplate) do
+		local settingsSection = storage.playerSection(template.key)
+		for _, entry in ipairs(template.settings) do
+			local legacyValue = legacySection:get(entry.key)
+			if legacyValue ~= nil then
+				settingsSection:set(entry.key, legacyValue)
+			end
+		end
+	end
+	legacySection:reset()
+end
+
+-- Initialize all settings as globals
+-- Note: RESOURCES setting stored as RESOURCES_SETTING to avoid collision with layout table
+local function readAllSettings()
+	for _, template in pairs(settingsTemplate) do
+		local settingsSection = storage.playerSection(template.key)
+		for _, entry in ipairs(template.settings) do
+			if entry.key == "RESOURCES" then
+				RESOURCES_SETTING = settingsSection:get(entry.key)
+			else
+				_G[entry.key] = settingsSection:get(entry.key)
+			end
+		end
+	end
+end
 
 local previousSettings = {
-	ROW1 = playerSettings:get("ROW1"),
-	ROW2 = playerSettings:get("ROW2"),
-	ROW3 = playerSettings:get("ROW3"),
-	ROW4 = playerSettings:get("ROW4"),
+	ROW1 = storage.playerSection(settingsTemplate["Layout"].key):get("ROW1"),
+	ROW2 = storage.playerSection(settingsTemplate["Layout"].key):get("ROW2"),
+	ROW3 = storage.playerSection(settingsTemplate["Layout"].key):get("ROW3"),
+	ROW4 = storage.playerSection(settingsTemplate["Layout"].key):get("ROW4"),
 }
 
 
 local function verifyRows (changedSetting, option, backwards)
 --print(backwards)
-	local currentSetting = option or playerSettings:get(changedSetting)
+	local currentSetting = option or _G[changedSetting]
 	if currentSetting == "nothing" then
 		return currentSetting
 	end
@@ -534,7 +604,7 @@ local function verifyRows (changedSetting, option, backwards)
 	local occupiedSettings = {}
 	for i=1,4 do
 		if "ROW"..i ~= changedSetting then
-			occupiedSettings[playerSettings:get("ROW"..i)] = true
+			occupiedSettings[_G["ROW"..i]] = true
 		end
 	end
 	if occupiedSettings["HP"] or occupiedSettings["HP/MaxHP"] then 
@@ -565,39 +635,47 @@ local function applyRows ()
 	HP = nil
 	HP_MAXHP = nil
 	BUFFS = nil
-	local borderOffset = playerSettings:get("BORDER_STYLE") == "verythick" and 4 or playerSettings:get("BORDER_STYLE") == "thick" and 3 or playerSettings:get("BORDER_STYLE") == "normal" and 2 or (playerSettings:get("BORDER_STYLE") == "thin" or playerSettings:get("BORDER_STYLE") == "max performance") and 1 or 0
+	local fontYOffset = {
+		MysticCards = -0.007,
+		OpenSans = -0.03,
+		Roboto = -0.01,
+		BlackOps = -0.04,
+		Asul = -0.01,
+	}
+	local textYOffset = fontYOffset[FONT] or 0
+	local borderOffset = BORDER_STYLE == "verythick" and 4 or BORDER_STYLE == "thick" and 3 or BORDER_STYLE == "normal" and 2 or (BORDER_STYLE == "thin" or BORDER_STYLE == "max performance") and 1 or 0
 	HPBARS = {
-		relativePosition = v2(0.25,0.5+ playerSettings:get("THICKNESS")*0.25),
+		relativePosition = v2(0.25,0.5+ THICKNESS*0.25),
 		position = v2(borderOffset, -borderOffset),
 		size = v2(-borderOffset*2,1), -- !! at least 1 pixel width
 		anchor = v2(0,1),
 	}
-	local resourcesHeight = playerSettings:get("RESOURCES") == "Stamina + Mana" and 4 or 2
+	local resourcesHeight = RESOURCES_SETTING == "Stamina + Mana" and 4 or 2
 	RESOURCES = {
-		relativePosition = v2(0.25,0.5+ playerSettings:get("THICKNESS")*0.25),
-		relativeSize = v2(0.5,playerSettings:get("THICKNESS")*0.25),
+		relativePosition = v2(0.25,0.5+ THICKNESS*0.25),
+		relativeSize = v2(0.5,THICKNESS*0.25),
 		--position = v2(0,math.min(resourcesHeight,borderOffset)),
 		position = v2(borderOffset, -borderOffset),
 		size = v2(-borderOffset*2,-borderOffset*2),
 		anchor = v2(0,1),
 	}
 	BORDERS = {
-		relativePosition = v2(0.25,0.5+ playerSettings:get("THICKNESS")*0.25),
-		relativeSize  = v2(0.5,playerSettings:get("THICKNESS")*0.25),
-		size = v2(0,borderOffset*2+1), --playerSettings:get("BORDER_STYLE") == "verythick" and v2(8,8) or playerSettings:get("BORDER_STYLE") == "thick" and v2(6,6) or playerSettings:get("BORDER_STYLE") == "normal" and v2(4,4) or (playerSettings:get("BORDER_STYLE") == "thin" or playerSettings:get("BORDER_STYLE") == "max performance")and v2(2,2) or v2(0,0),
+		relativePosition = v2(0.25,0.5+ THICKNESS*0.25),
+		relativeSize  = v2(0.5,THICKNESS*0.25),
+		size = v2(0,borderOffset*2+1),
 		anchor = v2(0,1),
 	}
 	LEVELTEXT = {
 		position = v2(0,-borderOffset),
-		relativePosition = v2(playerSettings:get("LEVEL_POSITION") == "left" and 0.24 or 0.77, 0.5 + playerSettings:get("THICKNESS")*0.125),
+		relativePosition = v2(LEVEL_POSITION == "left" and 0.24 or 0.77, 0.5 + THICKNESS*0.125 + textYOffset),
 	}
 	--local options = {"nothing", "Actor Name", "HP", "HP/MaxHP", "Buffs"}
 	local dublicates = {}
 	local ROWS = {
-		ROW1 = playerSettings:get("ROW1"),
-		ROW2 = playerSettings:get("ROW2"),
-		ROW3 = playerSettings:get("ROW3"),
-		ROW4 = playerSettings:get("ROW4"),
+		ROW1 = ROW1,
+		ROW2 = ROW2,
+		ROW3 = ROW3,
+		ROW4 = ROW4,
 	}
 	
 	local ROWSETTINGS = {
@@ -612,12 +690,12 @@ local function applyRows ()
 			anchor = v2(0,0),
 		},
 		ROW3 = {
-			relativePosition = v2(0.5,0.5+ playerSettings:get("THICKNESS")*0.125),
+			relativePosition = v2(0.5,0.5+ THICKNESS*0.125),
 			position = v2(0,-borderOffset),
 			anchor = v2(0,0.5),
 		},
 		ROW4 = {
-			relativePosition = v2(0.5, 0.125+ 0.5+0.25*playerSettings:get("THICKNESS")),
+			relativePosition = v2(0.5, 0.125+ 0.5+0.25*THICKNESS),
 			position = v2(0,borderOffset),
 			anchor = v2(0,0),
 		},
@@ -635,7 +713,7 @@ local function applyRows ()
 			BUFFANCHOR = "bottom",
 		},
 		ROW4 = {
-			relativePosition = v2(0.5, 0.25*playerSettings:get("THICKNESS")+ 0.5),
+			relativePosition = v2(0.5, 0.25*THICKNESS+ 0.5),
 			anchor = v2(0.5,0),
 		},
 	}
@@ -643,7 +721,7 @@ local function applyRows ()
 	if ROWS.ROW2 == "Buffs" then --buffs above
 		--borderOffset = borderOffset *-1
 		BORDERS = {
-			relativeSize  = v2(0.5,playerSettings:get("THICKNESS")*0.25),
+			relativeSize  = v2(0.5,THICKNESS*0.25),
 			relativePosition= v2(0.25,0.5),
 			size = v2(0,borderOffset*2+1),
 		}
@@ -656,7 +734,6 @@ local function applyRows ()
 		
 		RESOURCES.anchor = v2(0,0)
 		RESOURCES.relativePosition = v2(0.25,0.5)
-								-- 	 v2(0.25,0.5+ playerSettings:get("THICKNESS")*0.25),
 		RESOURCES.position = v2(borderOffset, borderOffset)
 		RESOURCES.size = v2(-borderOffset*2,1)
 		ROWSETTINGS.ROW2.relativePosition = v2(0.5,0.5)
@@ -666,7 +743,7 @@ local function applyRows ()
 		ROWSETTINGS.ROW3.position = v2(0,borderOffset)
 		LEVELTEXT = {
 			position = v2(0,borderOffset),
-			relativePosition = v2(playerSettings:get("LEVEL_POSITION") == "left" and 0.24 or 0.77, 0.5 + playerSettings:get("THICKNESS")*0.125), --same
+			relativePosition = v2(LEVEL_POSITION == "left" and 0.24 or 0.77, 0.5 + THICKNESS*0.125 + textYOffset), --same
 		}
 	end
 	
@@ -683,9 +760,11 @@ local function applyRows ()
 		if b == "Actor Name" then
 			NAME = {relativePosition = ROWSETTINGS[a].relativePosition, position = ROWSETTINGS[a].position}
 		elseif b == "HP" then
-			HP = {relativePosition = ROWSETTINGS[a].relativePosition, position = ROWSETTINGS[a].position}
+			local rp = ROWSETTINGS[a].relativePosition
+			HP = {relativePosition = v2(rp.x, rp.y + textYOffset), position = ROWSETTINGS[a].position}
 		elseif b == "HP/MaxHP" then
-			HP_MAXHP = {relativePosition = ROWSETTINGS[a].relativePosition, position = ROWSETTINGS[a].position}
+			local rp = ROWSETTINGS[a].relativePosition
+			HP_MAXHP = {relativePosition = v2(rp.x, rp.y + textYOffset), position = ROWSETTINGS[a].position}
 		elseif b == "Buffs" then
 			BUFFS = BUFFSETTINGS[a]
 		end
@@ -693,14 +772,18 @@ local function applyRows ()
 end
 
 
-local updateSettings = function (_,setting)
-	--if #queueSettingsChange > 0 then
-	--	return
-	--end
-	--items = {"Y/T/B/R/G  ", "O/T/B/R/G  ", "R/T/B/W/G ", "O/Y2/B/W/G","O/Y/B/R/G  ","O/B/R/G    "},
-	--"R/T/B/W/G", "O/Y2/B/W/G"
+local updateSettings = function (section, setting)
+	-- Update global variable for this setting
+	-- Note: RESOURCES stored as RESOURCES_SETTING to avoid collision with layout table
+	local settingsSection = storage.playerSection(section)
+	if setting == "RESOURCES" then
+		RESOURCES_SETTING = settingsSection:get(setting)
+	else
+		_G[setting] = settingsSection:get(setting)
+	end
+	
 	if setting=="COLOR_PRESET" then
-		if playerSettings:get("COLOR_PRESET") == "Y/T/B/R/G  " then
+		if COLOR_PRESET == "Y/T/B/R/G  " then
 			table.insert(queueSettingsChange,{"HOSTILE_COL",util.color.rgb(204/255,187/255,0)})
 			table.insert(queueSettingsChange,{"HOSTILE_DAMAGED_COL",util.color.rgb(204/255,42/255,0)})
 			table.insert(queueSettingsChange,{"NEUTRAL_COL",util.color.hex("c5a15e")})
@@ -709,16 +792,16 @@ local updateSettings = function (_,setting)
 			table.insert(queueSettingsChange,{"ALLY_DAMAGED_COL",util.color.hex("4c6188")})
 			table.insert(queueSettingsChange,{"DAMAGE_COL",util.color.hex("a00004")})
 			table.insert(queueSettingsChange,{"HEAL_COL",util.color.hex("3ca01e")})
-		elseif playerSettings:get("COLOR_PRESET") == "O/T/B/R/G  " then
+		elseif COLOR_PRESET == "O/T/B/R/G  " then
 			table.insert(queueSettingsChange,{"HOSTILE_COL",util.color.hex("b55500")})
 			table.insert(queueSettingsChange,{"HOSTILE_DAMAGED_COL",util.color.hex("bb2100")})
 			table.insert(queueSettingsChange,{"NEUTRAL_COL",util.color.hex("c5a15e")})
-			table.insert(queueSettingsChange,{"NEUTRAL_DAMAGED_COL",util.color.hex("9a5e3a")})--
+			table.insert(queueSettingsChange,{"NEUTRAL_DAMAGED_COL",util.color.hex("9a5e3a")})
 			table.insert(queueSettingsChange,{"ALLY_COL",util.color.hex("1263b0")})
 			table.insert(queueSettingsChange,{"ALLY_DAMAGED_COL",util.color.hex("4c6188")})
 			table.insert(queueSettingsChange,{"DAMAGE_COL",util.color.hex("a00004")})
 			table.insert(queueSettingsChange,{"HEAL_COL",util.color.hex("3ca01e")})
-		elseif playerSettings:get("COLOR_PRESET") == "R/T/B/W/G " then
+		elseif COLOR_PRESET == "R/T/B/W/G " then
 			table.insert(queueSettingsChange,{"HOSTILE_COL",util.color.hex("a00004")})
 			table.insert(queueSettingsChange,{"HOSTILE_DAMAGED_COL",util.color.hex("600004")})
 			table.insert(queueSettingsChange,{"NEUTRAL_COL",util.color.hex("c5a15e")})
@@ -727,7 +810,7 @@ local updateSettings = function (_,setting)
 			table.insert(queueSettingsChange,{"ALLY_DAMAGED_COL",util.color.hex("4c6188")})
 			table.insert(queueSettingsChange,{"DAMAGE_COL",util.color.hex("AAAAAA")})
 			table.insert(queueSettingsChange,{"HEAL_COL",util.color.hex("3ca01e")})
-		elseif playerSettings:get("COLOR_PRESET") == "O/Y2/B/W/G" then
+		elseif COLOR_PRESET == "O/Y2/B/W/G" then
 			table.insert(queueSettingsChange,{"HOSTILE_COL",util.color.hex("b55500")})
 			table.insert(queueSettingsChange,{"HOSTILE_DAMAGED_COL",util.color.hex("a00004")})
 			table.insert(queueSettingsChange,{"NEUTRAL_COL",util.color.hex("ccbb00")})
@@ -736,72 +819,46 @@ local updateSettings = function (_,setting)
 			table.insert(queueSettingsChange,{"ALLY_DAMAGED_COL",util.color.hex("4c6188")})
 			table.insert(queueSettingsChange,{"DAMAGE_COL",util.color.hex("FFFFFF")})
 			table.insert(queueSettingsChange,{"HEAL_COL",util.color.hex("3ca01e")})
-		elseif playerSettings:get("COLOR_PRESET") == "O/Y/B/R/G  " then
+		elseif COLOR_PRESET == "O/Y/B/R/G  " then
 			table.insert(queueSettingsChange,{"HOSTILE_COL",util.color.hex("b55500")})
-			--table.insert(queueSettingsChange,{"HOSTILE_DAMAGED_COL",util.color.hex("996542")})
 			table.insert(queueSettingsChange,{"HOSTILE_DAMAGED_COL",util.color.hex("9a5517")})
 			table.insert(queueSettingsChange,{"NEUTRAL_COL",util.color.hex("ccbb00")})
-			--table.insert(queueSettingsChange,{"NEUTRAL_DAMAGED_COL",util.color.hex("c7ba73")})
 			table.insert(queueSettingsChange,{"NEUTRAL_DAMAGED_COL",util.color.hex("ada11a")})
-			
 			table.insert(queueSettingsChange,{"ALLY_COL",util.color.hex("1263b0")})
 			table.insert(queueSettingsChange,{"ALLY_DAMAGED_COL",util.color.hex("4c6188")})
-
 			table.insert(queueSettingsChange,{"DAMAGE_COL",util.color.hex("a00004")})
 			table.insert(queueSettingsChange,{"HEAL_COL",util.color.hex("3ca01e")})
-			
-		elseif playerSettings:get("COLOR_PRESET") == "O/B/R/G    " then
+		elseif COLOR_PRESET == "O/B/R/G    " then
 			table.insert(queueSettingsChange,{"HOSTILE_COL",util.color.rgb(204/255,187/255,0)})
 			table.insert(queueSettingsChange,{"NEUTRAL_COL",util.color.rgb(204/255,187/255,0)})
 			table.insert(queueSettingsChange,{"HOSTILE_DAMAGED_COL",util.color.rgb(204/255,42/255,0)})
 			table.insert(queueSettingsChange,{"NEUTRAL_DAMAGED_COL",util.color.rgb(204/255,42/255,0)})
-			
-			table.insert(queueSettingsChange,{"ALLY_COL",		 util.color.rgb(18/255,99/255,176/255)})
+			table.insert(queueSettingsChange,{"ALLY_COL",util.color.rgb(18/255,99/255,176/255)})
 			table.insert(queueSettingsChange,{"ALLY_DAMAGED_COL",util.color.rgb(173/255,99/255,100/255)})
-
-			
 			table.insert(queueSettingsChange,{"DAMAGE_COL",util.color.hex("a00004")})
 			table.insert(queueSettingsChange,{"HEAL_COL",util.color.hex("3ca01e")})
-			
-			
-			--	HPBAR_COL = util.color.rgb(204/255,(42+145*currentHealth/maxHealth)/255,0/255)
-			--	ALLY_HPBAR_COL = util.color.rgb((18+155*(1-currentHealth/maxHealth))/255,99/255,(100+76*currentHealth/maxHealth)/255)
-			----default =  util.color.hex("1263b0"), --blue
-			----default =  util.color.hex("999999"), --gray-white
-			----default =  util.color.hex("ccbb00"), --yellow
-			----default = util.color.hex("9a5e3a"), --tan (unused)
-			----default =  util.color.hex("c5a15e"), --paper
-			----default =  util.color.hex("b55500"), --orange
-			----default =  util.color.hex("a00004"), --red
 		end
 	elseif setting == "FONT" then
-		glyphs,lineHeight = readFont("textures\\FloatingHealthbars_fonts\\"..playerSettings:get("FONT")..".fnt")
+		glyphs,lineHeight = readFont("textures\\FloatingHealthbars_fonts\\"..FONT..".fnt")
 		lineXOffset = 0.0
 	elseif setting:sub(1,-2) == "ROW" then
 		local options = {"nothing", "Actor Name", "HP", "HP/MaxHP", "Buffs"}
-		local newSettingIndex = tableFind(options, playerSettings:get(setting))
+		local newSettingIndex = tableFind(options, _G[setting])
 		local oldSettingIndex = tableFind(options, previousSettings[setting])
-		--print(oldSettingIndex," -> ",newSettingIndex)
-		local backwards =false
+		local backwards = false
 		if newSettingIndex < oldSettingIndex and oldSettingIndex - newSettingIndex <2 or newSettingIndex - oldSettingIndex > 2 then
 			backwards = true
 		end
-		--print(playerSettings:get(setting))
-		--print(backwards)
-		--print("validate:")
 		local validSetting = verifyRows (setting, nil, backwards) 
-		--print(validSetting)
-		if validSetting ~= playerSettings:get(setting) then
+		if validSetting ~= _G[setting] then
 			table.insert(queueSettingsChange,{setting,validSetting})
-			
 		end
 		previousSettings = {
-			ROW1 = playerSettings:get("ROW1"),
-			ROW2 = playerSettings:get("ROW2"),
-			ROW3 = playerSettings:get("ROW3"),
-			ROW4 = playerSettings:get("ROW4"),
+			ROW1 = ROW1,
+			ROW2 = ROW2,
+			ROW3 = ROW3,
+			ROW4 = ROW4,
 		}
-		--previousSettings[
 	end
 	
 	for a,c in pairs(barCache) do
@@ -819,11 +876,28 @@ local updateSettings = function (_,setting)
 		c.lastBuffUpdate = core.getRealTime()
 		c.hasBuffs = true
 	end
-	applyRows ()
+	applyRows()
 end
 
 
-I.Settings.registerGroup(settings)
+-- Register all setting groups
+for _, template in pairs(settingsTemplate) do
+	I.Settings.registerGroup(template)
+end
+
+local settingsKeyToSection = {}
+for _, template in pairs(settingsTemplate) do
+	for _, entry in pairs(template.settings) do
+		settingsKeyToSection[entry.key] = template.key
+	end
+end
+
+function setSetting(key, value)
+	local sectionKey = settingsKeyToSection[key]
+	if sectionKey then
+		storage.playerSection(sectionKey):set(key, value)
+	end
+end
 
 
 I.Settings.registerPage {
@@ -833,6 +907,17 @@ I.Settings.registerPage {
     description = 'Floating Healthbars'
 }
 
+-- Initialize all settings as globals on load
+readAllSettings()
+
+-- Subscribe to all settings groups
+for _, template in pairs(settingsTemplate) do
+	local settingsSection = storage.playerSection(template.key)
+	settingsSection:subscribe(async:callback(function(_, setting)
+		updateSettings(template.key, setting)
+	end))
+end
 
 
-return {updateSettings,applyRows}
+
+return {updateSettings, applyRows, readAllSettings, settingsTemplate}

@@ -41,7 +41,7 @@ settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
     l10n = "QuickLoot",
-    name = tempKey,
+    name = tempKey.."                                                    ", -- "select" renderer fix
 	permanentStorage = true,
 	order = getOrder(),
 	settings = {
@@ -129,7 +129,7 @@ settingsTemplate[tempKey] = {
 		},
 		{
 			key = "TEXTSIZEMULT",
-			name = "textSizeMult (%)",
+			name = "Text Size Multiplier (%)",
 			description = "1-200",
 			renderer = "number",
 			default = legacySection:get("textSizeMult") or 93,
@@ -153,7 +153,7 @@ settingsTemplate[tempKey] = {
 		{
 			key = "FOOTER_HINTS",
 			name = "Keybinding Hints",
-			description = "shows the keybinding hints for 'Take All' and 'Search'",
+			description = "Shows the keybinding hints for 'Take All' and 'Search'",
 			default = legacySection:get("FOOTER_HINTS") or "Symbolic", 
 			renderer = "select",
 			argument = {
@@ -375,7 +375,7 @@ settingsTemplate[tempKey] = {
 		{
 			key = "TOOLTIP_MODE",
 			name = "Tooltip position",
-			description = "doesn't work with the font fix below",
+			description = "Doesn't work with the font fix below",
 			default = legacySection:get("TOOLTIP_MODE") or "left", 
 			renderer = "select",
 			argument = {
@@ -386,8 +386,8 @@ settingsTemplate[tempKey] = {
 		},
 		{
 			key = "TOOLTIP_MELEE_INFO",
-			name = "tooltip show melee info",
-			description = "'show melee info' enabled in engine OpenMW settings",
+			name = "Tooltip show melee info",
+			description = "Turn on if 'Show melee info' is enabled in OpenMW engine settings",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("TOOLTIP_MELEE_INFO"), false)
 		},
@@ -405,8 +405,8 @@ settingsTemplate[tempKey] = {
 		},
 		{
 			key = "TOOLTIP_SHORT_TEXT",
-			name = "shorter tooltip texts",
-			description = "shortens effect texts",
+			name = "Shorter tooltip texts",
+			description = "Shortens effect texts",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("TOOLTIP_SHORT_TEXT"), false)
 		},
@@ -425,7 +425,7 @@ settingsTemplate[tempKey] = {
 		{
 			key = "READ_BOOKS",
 			name = "Show read books",
-			description = "bookworm will highlight books that you have actually read (for 20 seconds)",
+			description = "Bookworm will highlight books that you have actually read (for 20 seconds)",
 			default = legacySection:get("READ_BOOKS") or "read", 
 			renderer = "select",
 			argument = {
@@ -457,28 +457,33 @@ settingsTemplate[tempKey] = {
 		{
 			key = "CAN_LOOT_DURING_DEATH_ANIMATION",
 			name = "can loot during death animation",
-			description = "it's currently not possible to check the values in the settings.cfg",
+			description = "It's currently not possible to check the values in the settings.cfg",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("CAN_LOOT_DURING_DEATH_ANIMATION"), false)
 		},
 		{
 			key = "RUN_SCRIPT_ONCE",
 			name = "Run MWscripts only once",
-			description = "after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
+			description = "After an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("RUN_SCRIPT_ONCE"), true)
 		},
 		{
-			key = "R_DEPOSIT",
+			key = "R_DEPOSIT2",
 			name = "R switches to deposit",
-			description = "switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.",
-			renderer = "checkbox",
-			default = boolDefault(legacySection:get("R_DEPOSIT"), true)
+			description = "Instead of opening the inventory, switch between deposit and withdraw with the ToggleSpell key\nShift + R always does the other thing",
+			renderer = "select",
+			default = "Yes",
+			argument = {
+				disabled = false,
+				l10n = "QuickLoot", 
+				items = {"Yes", "No", "Only when pickpocketing"}
+			},
 		},
 		{
 			key = "SELECTIVE_DEPOSIT",
 			name = "Shift + Deposit All Mode",
-			description = "what to deposit when pressing shift+F in deposit mode",
+			description = "What to deposit when pressing shift+F in deposit mode\nIt always ignores equipped items",
 			default = legacySection:get("SELECTIVE_DEPOSIT") or "ingredients", 
 			renderer = "select",
 			argument = {

@@ -175,8 +175,10 @@ end
 
 input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sneak, run)
 	if inspectedContainer then
-		if R_DEPOSIT and not input.isShiftPressed() then
-			local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
+		local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
+		local effectiveDeposit = R_DEPOSIT2 == "Yes" or (R_DEPOSIT2 == "Only when pickpocketing" and isPickpocketing)
+		--if effectiveDeposit and not input.isShiftPressed() or not effectiveDeposit and input.isShiftPressed() then -- effectively XOR
+		if effectiveDeposit ~= input.isShiftPressed() then
 			if not isPickpocketing or pickpocket.version then
 				deposit = not deposit
 				selectedIndex, depositSelectedIndex = depositSelectedIndex, selectedIndex
@@ -1307,7 +1309,8 @@ function drawUI()
 		})
 		--SUB-FOOTER TEXT Left
 		local searchText = "Search"
-		if R_DEPOSIT then
+		local effectiveDeposit = R_DEPOSIT2 == "Yes" or (R_DEPOSIT2 == "Only when pickpocketing" and isPickpocketing)
+		if effectiveDeposit then
 			if deposit then
 				searchText = "Withdraw"
 			else

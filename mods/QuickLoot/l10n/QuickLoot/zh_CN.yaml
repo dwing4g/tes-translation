@@ -2,7 +2,7 @@
 "If you're aiming at a container, a preview will appear as soon as you change a setting": "如果你瞄准一个容器，就会出现预览，只要你修改这个设置"
 
 
-"General": "通用"
+"General                                                    ": "通用                                                    "
 
 "Enabled": "启用"
 "Allows disabling the mod entirely": "允许禁用整个模组"
@@ -25,7 +25,7 @@
 "X Position (%)": "X位置(%)"
 "Location of the center (1-100)": "相对中心位置的百分比(1-100)"
 "Y Position (%)": "Y位置(%)"
-"textSizeMult (%)": "文字尺寸系数(%)"
+"Text Size Multiplier (%)": "文字尺寸系数(%)"
 
 "List Header/Footer": "表头/表尾"
 "Show list header/footer": "显示列表的表头/表尾"
@@ -37,7 +37,7 @@
 "only bottom": "仅表尾"
 
 "Keybinding Hints": "按键绑定提示"
-"shows the keybinding hints for 'Take All' and 'Search'": "显示“全部拿走”和“搜索”的按键绑定提示"
+"Shows the keybinding hints for 'Take All' and 'Search'": "显示“全部拿走”和“搜索”的按键绑定提示"
 "Disabled": "禁用"
 "Symbolic": "小图标"
 "F / R": "价值比"
@@ -97,7 +97,7 @@
 "Tooltip": "提示框"
 
 "Tooltip position": "提示框位置"
-"doesn't work with the font fix below": "无法跟下面的字体修正同时起作用"
+"Doesn't work with the font fix below": "无法跟下面的字体修正同时起作用"
 "left": "左"
 "left (fixed)": "左(修正)"
 "left (fixed 2)": "左(修正2)"
@@ -110,22 +110,22 @@
 "bottom": "下"
 "top": "上"
 
-"tooltip show melee info": "提示框显示近战武器信息"
-"'show melee info' enabled in engine OpenMW settings": "“显示近战武器信息”在OpenMW引擎设置里开启"
+"Tooltip show melee info": "提示框显示近战武器信息"
+"Turn on if 'Show melee info' is enabled in OpenMW engine settings": "如果“显示近战武器信息”在OpenMW引擎设置里开启了就可以打开"
 
 "Tooltip text alignment": "提示框文字对齐"
 "center": "居中"
 "left": "居左"
 "right": "居右"
 
-"shorter tooltip texts": "更短的提示框文字"
-"shortens effect texts": "让效果文字更短"
+"Shorter tooltip texts": "更短的提示框文字"
+"Shortens effect texts": "让效果文字更短"
 
 
 "Misc": "杂项"
 
 "Show read books": "显示已读的读书"
-"bookworm will highlight books that you have actually read (for 20 seconds)": "书虫会高亮你实际阅读过(20秒以上)的书籍"
+"Bookworm will highlight books that you have actually read (for 20 seconds)": "书虫会高亮你实际阅读过(20秒以上)的书籍"
 "off": "关"
 "unread": "未读"
 "read": "已读"
@@ -140,16 +140,19 @@
 "If you have some ammo mod that keeps deleting your ammo for some reason": "如果你有某种弹药模组，不知为何总是删除你的弹药"
 
 "can loot during death animation": "死亡动画过程中可以搜刮"
-"it's currently not possible to check the values in the settings.cfg": "现在还不可能检查settings.cfg里的值"
+"It's currently not possible to check the values in the settings.cfg": "现在还不可能检查settings.cfg里的值"
 
 "Run MWscripts only once": "只运行一次MWscripts"
-"after an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again": "一个mwscript成功激活后(道具闪烁一秒)不再允许此容器的脚本"
+"After an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again": "一个mwscript成功激活后(道具闪烁一秒)不再允许此容器的脚本"
 
 "R switches to deposit": "R键切换成存放"
-"switch between deposit and withdraw with the ToggleSpell key\nWith 'Deposit All' it ignores equipped items. when using the 'Dispose corpse' mode, it only stacks items that the container has too.": "使用切换法术键在存放和收回之间切换。\n使用“全部存放”时，它会忽略已装备的物品。在使用“处理尸体”模式时，它只会堆叠容器中已有的物品。"
+"Instead of opening the inventory, switch between deposit and withdraw with the ToggleSpell key\nShift + R always does the other thing": "不打开库存列表，而是使用切换法术键在存放和收回之间切换\n按下Shift+R键总是会执行另一种操作"
+"Yes": "是"
+"No": "否"
+"Only when pickpocketing": "仅在扒窃时"
 
 "Shift + Deposit All Mode": "Shift + 全部存放模式"
-"what to deposit when pressing shift+F in deposit mode": "在存放模式下，当按Shift+F时存放哪些"
+"What to deposit when pressing shift+F in deposit mode\nIt always ignores equipped items": "在存放模式下，当按Shift+F时存放哪些\n总是忽略已装备的物品"
 "ingredients": "材料"
 "restack": "重新堆叠"
 

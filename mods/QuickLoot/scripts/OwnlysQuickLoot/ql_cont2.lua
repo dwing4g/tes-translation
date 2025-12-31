@@ -20,6 +20,7 @@ local function initialize()
 	if not initialized then
 		initialized = true
 		animation = require('openmw.animation')
+		if not animation.hasAnimation(self) then return end
 		lootTime = animation.getTextKeyTime(self, "containeropen: loot")
 		stopTime = animation.getTextKeyTime(self, "containeropen: stop") or 0
 		closeTime = animation.getTextKeyTime(self, "containerclose: stop") or 0
