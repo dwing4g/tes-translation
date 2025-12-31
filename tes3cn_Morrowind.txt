@@ -135931,7 +135931,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -MISC
  MISC.NAME "index_hlor$00"
  MISC.MODL "m\misc_portal_shard.NIF$00"
- MISC.FNAM "赫洛玛伦引路石$00"
+ MISC.FNAM "赫洛马伦引路石$00"
  MISC.MCDT [00 00 00 40 F4 01 00 00 00 00 00 00]
  MISC.ITEX "m\misc_portal_shard.tga$00"
 -MISC
@@ -186582,7 +186582,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "26965240152911423534$00"
  INFO.NNAM "2441428291823012447$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "赫洛马·醉酒听说不能立刻拿回他的物品，丝毫不高兴，要求我选择站在哪一边。我选择站在赫洛玛一边。"
+ INFO.NAME "赫洛马·醉酒听说不能立刻拿回他的物品，丝毫不高兴，要求我选择站在哪一边。我选择站在赫洛马一边。"
 -INFO
  INFO.INAM "2441428291823012447$00"
  INFO.PNAM "3028095561908912770$00"
@@ -213449,7 +213449,7 @@ Goodbye"
  INFO.SCVR "04JX2MV_AbusedHealer"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Hlormar Wine-Sot
-Choice ""这是你的斧头，霍洛玛。"" 1 ""它属于真正的勇士，我。"" 2"
+Choice ""这是你的斧头，赫洛马。"" 1 ""它属于真正的勇士，我。"" 2"
 -DIAL
  DIAL.NAME "卡格瑞纳克的计划书$00"
  DIAL.DATA [00]
@@ -287228,7 +287228,7 @@ Journal ""MV_abusedhealer"" 85"
  INFO.SCVR "15IX2cloudcleaver_unique"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";Hlormar Wine-Sot
-Choice ""这是你的斧头，霍洛玛。"" 6 ""它属于真正的勇士，我。"" 7"
+Choice ""这是你的斧头，赫洛马。"" 6 ""它属于真正的勇士，我。"" 7"
 -INFO
  INFO.INAM "30762243651249824115$00"
  INFO.PNAM "17661150863116919945$00"
@@ -287239,7 +287239,7 @@ Choice ""这是你的斧头，霍洛玛。"" 6 ""它属于真正的勇士，我。"" 7"
  INFO.SCVR "15IX2cloudcleaver_unique"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";Hlormar Wine-Sot
-Choice ""这是你的斧头，霍洛玛。"" 6 ""它属于真正的勇士，我。"" 7"
+Choice ""这是你的斧头，赫洛马。"" 6 ""它属于真正的勇士，我。"" 7"
 -INFO
  INFO.INAM "80832147577017222$00"
  INFO.PNAM "30762243651249824115$00"
