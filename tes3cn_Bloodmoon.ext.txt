@@ -10398,7 +10398,7 @@ Imperial Cult: Ring in Darkness
 
 > INFO.NAME ic25_jonhawker 62712071953449119
 Oracle Lalatia Varian had a vision of the Ring in Darkness. She saw the Ring of the Wind, a legendary treasure of Elsweyr. "I have seen the wind upon a dark elf's hand. I have seen fire gleam upon a Dwarf's face. I have seen darkness on a ring of water. I have heard no name whispered in the mouth of stone." The Oracle bid me retrieve the Ring in Darkness. I must ask Dark Elven savants and scouts about the meaning of the Oracle's vision.
-先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物 -- 风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的专家和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}
+先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物 -- 风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的学者和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}
 
 > INFO.NAME ic25_jonhawker 19672283111636521771
 I retrieved the Ring of the Wind from Galmis Dren and brought it to Lalatia Varian. She praised me, and said that I was meant to keep the ring myself, and that I should use it in the service of the Nine.
@@ -21840,7 +21840,7 @@ Hail, traveler.  I'd tell you about my wares, but by now you're probably well aw
 
 > INFO.NAME greeting 1 1145678002639923126
 Greetings, %PCName.  My name is Bereditte Jastal.  Perhaps you'd like to buy one of my books?  I'm a bookseller by trade, but my real passion is writing.  I recently finished two scholarly works, Thirsk, a History and Sovngarde, a Reexamination.  I have copies of both for sale, among others.
-您好，%PCName。我叫贝雷迪特·贾斯塔尔。也许你想买我的一本书？我的职业是书商，但我真正的爱好是写作。我最近完成了两部学术著作《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售。 {令状,工作}
+您好，%PCName。我叫贝雷迪特·贾斯塔尔。也许你想买我的一本书？我的职业是书商，但我真正的爱好是写作。我最近完成了两部学术著作《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售，其它的也有。 {令状,工作}
 
 > INFO.NAME greeting 1 28379122511349819353
 Hail, %PCClass. Svenja Snow-Song is my name. We welcome guests here at Thirsk, so long as they behave themselves. Respect my home and my clan, and we'll get along just fine. One word of advice, though -- stay clear of Erich the Unworthy. He's more trouble than he's worth.
@@ -21852,7 +21852,7 @@ He...he came to the mead hall and killed...killed everyone he could!  There was 
 
 > INFO.NAME greeting 1 17737234017289989
 My goodness, is everything all right downstairs? I heard screaming, and the sounds of battle!  I would have gone down to investigate, but I'm much more of an observer than a participant, if you get my meaning.  I'm a bookseller by trade, but my real passion is writing.  The Solstheim Nords are my area of expertise, you might say. I recently finished two scholarly works -- Thirsk, a History and Sovngarde, a Reexamination.  I have copies of both for sale, among others.
-天哪，楼下没事吧？我听到了尖叫声和战斗声！我本想下去看看，但我更像是个旁观者，而不是参与者，如果你明白我的意思的话。我是个书商，但我真正的爱好是写作。可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作 --《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售。 {令状,工作}
+天哪，楼下没事吧？我听到了尖叫声和战斗声！我本想下去看看，但我更像是个旁观者，而不是参与者，如果你明白我的意思的话。我是个书商，但我真正的爱好是写作。可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作 --《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售，其它的也有。 {令状,工作}
 
 > INFO.NAME greeting 1 364625860607322551
 Hello, my friend. *Yawn!*  I hope you're doing well. If you haven't already, make sure you go to Gyldenhul and collect its riches. Me, I'm going to get some more sleep. I'll try, anyway. Not easy with all the screaming and banging going on downstairs! My kinsfolk do love their ale!
@@ -21892,7 +21892,7 @@ Thormoor has marked Glydenhul on your map.
 
 > INFO.NAME greeting 1 2206617259636225661
 My goodness, I feel so silly wearing this bear armor.  I know, I look quite ridiculous.  But at least it will keep me warm while I'm outside waiting for Thirsk to reopen.  I'm not a Nord, you see.  I'm a Breton.  I'm a bookseller by trade, but my real passion is writing.  The Solstheim Nords are my area of expertise, you might say. I recently finished two scholarly works -- Thirsk, a History and Sovngarde, a Reexamination.  I have copies of both for sale, among others.
-我的天啊，穿上这熊铠甲感觉好傻。我知道，我看起来很可笑，但至少在外面等瑟斯克重开的时候，它能给我保暖。你看，我不是诺德人，我是布莱顿人，我是个书商，但我真正的爱好是写作。你可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作 -- 《瑟斯克，一段历史》和《再探松加德》。我有这两本书的副本出售，还有其他一些。 {令状,工作}
+我的天啊，穿上这熊铠甲感觉好傻。我知道，我看起来很可笑，但至少在外面等瑟斯克重开的时候，它能给我保暖。你看，我不是诺德人，我是布莱顿人，我是个书商，但我真正的爱好是写作。你可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作 -- 《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售，其它的也有。 {令状,工作}
 
 > INFO.NAME greeting 1 598329492382618646
 It was horrible, %PCName!  I had finally found someone interested in my custom snow bear armor and snow wolf armor.  We were talking about prices, when suddenly this hideous black beast came up from the ice lake.  It...it killed my customer!  Then it went inside the mead hall!  I heard screaming...sounds of battle!  Then the thing came out again, pierced with arrows!  It headed back toward the lake but first it came back for my customer and dragged off his body!

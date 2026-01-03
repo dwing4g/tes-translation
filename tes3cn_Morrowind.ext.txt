@@ -61600,7 +61600,7 @@ Galvene Othrobar
 
 > NPC_.FNAM viras guls
 Hetman Guls
-赫特曼·古尔斯
+古尔斯护民官
 
 > NPC_.FNAM broder garil
 Broder Garil
@@ -74542,7 +74542,7 @@ By contrast, many Indoril nobles chose to commit suicide rather than submit to t
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 在晨风<BR>
 一个帝国的行省<BR>
-来自曙光城的厄拉曼维　著<BR><BR>
+来自阳堡的厄拉曼维　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 在征服落锤后，帝国军团沿着西罗帝尔的东北边境集结，入侵舰队也在天际省准备就绪。<BR>
 <BR>
@@ -77861,7 +77861,7 @@ I found a Breton healer in Berandas named Ama Nin. She had been snatched from th
 
 > INFO.NAME book_onmorrowind 2792793691877310201
 When I asked Hasphat Antabolis about Morrowind history, he gave me a copy of 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-当我向哈斯帕特·安塔波利斯询问晨风的历史时，他给了我一本由曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
+当我向哈斯帕特·安塔波利斯询问晨风的历史时，他给了我一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME town_tel_vos_she 2876532113109629633
 When I asked an Ashlander what trade goods the Zainab need, she mentioned one thing. Though the tribe's wise women were good healers, they could not make the bottled magics that cure common disease and blight disease, so the trader and all the Zainab were often in short supply of these things. Now I can report back to Turedus Talanian, and tell him that Cure Common Disease and Cure Blight Disease potions would be valuable trade goods.
@@ -78289,7 +78289,7 @@ I found Mehra Milo in the back of the library. She says she knows nothing about 
 
 > INFO.NAME a1_10_mehramilo 4404262952243126651
 Mehra Milo says copies of 'Progress of Truth' can be found in the secret libraries of the Hall of Wisdom, but that they are guarded. She says it will be safer to search booksellers for a copy. She says some booksellers will sell outlawed books.
-梅拉·米洛说，在智慧厅堂的秘密图书馆里可以找到《真相的过程》的副本，但它们都有人看守。她说还是去书商那里找比较安全。她说有些书商会出售非法书籍。 {瓜尔,卫兵}
+梅拉·米洛说，在智慧厅堂的秘密图书馆里可以找到《真相的过程》，但它们都有人看守。她说还是去书商那里找比较安全。她说有些书商会出售非法书籍。 {瓜尔,卫兵}
 
 > INFO.NAME a1_10_mehramilo 173330173129130820
 Mehra Milo says to tell Caius Cosades that she is worried that she is being watched by Ordinators, and that if something goes wrong, she will leave a message under the agreed code word "amaya".
@@ -78765,11 +78765,11 @@ I have left Hlormar to his own devices. I am too busy to take up the problems of
 
 > INFO.NAME mv_abusedhealer 483624844361229554
 We have met up with the supposed witch at her camp. Her name is Sosia Caristiana, a healer, and the story she tells is decidedly different from that of Hlormar. Sosia Caristiana says that she accepted Hlormar Wine-Sot merely as a traveling companion for protection, but when he got too friendly she was forced to put him to sleep and take his things to teach him a lesson.
-我们在那个女巫的营地见到了她。她叫索西雅·卡利斯蒂亚纳，是个治疗师，她讲述的故事与赫洛马的截然不同。索西雅·卡利斯蒂亚纳说，她只是把赫洛马·醉酒当作旅伴来保护，但当他变得太过热情莽撞时，她就不得不让他睡觉，并拿走他的东西来给他点教训。
+我们在那个女巫的营地见到了她。她叫索西娅·卡利斯蒂亚纳，是个治疗师，她讲述的故事与赫洛马的截然不同。索西娅·卡利斯蒂亚纳说，她只是把赫洛马·醉酒当作旅伴来保护，但当他变得太过热情莽撞时，她就不得不让他睡觉，并拿走他的东西来给他点教训。
 
 > INFO.NAME mv_abusedhealer 26965240152911423534
 Sosia Caristiana refuses to give back his property immediately but will meet him in three days at the Caldera Mage Guild and return everything then.
-索西雅·卡利斯蒂亚纳拒绝立即归还他的财产，但三天后会在卡尔德拉法师公会与他见面，届时会归还所有东西。
+索西娅·卡利斯蒂亚纳拒绝立即归还他的财产，但三天后会在卡尔德拉法师公会与他见面，届时会归还所有东西。
 
 > INFO.NAME mv_abusedhealer 3028095561908912770
 Hlormar Wine-Sot was not pleased in the least to hear that he could not have his items back immediately, and demanded that I choose a side. I have chosen to side with Hlormar.
@@ -78777,11 +78777,11 @@ Hlormar Wine-Sot was not pleased in the least to hear that he could not have his
 
 > INFO.NAME mv_abusedhealer 2441428291823012447
 Hlormar Wine-Sot was not pleased in the least to hear that he could not have his items back immediately, and demanded that I choose a side. I have chosen to side with Sosia.
-赫洛马·醉酒丝毫不高兴听到他不能立即拿回自己的物品，并要求我选择站在哪一边。我选择站在索西亚一边。
+赫洛马·醉酒丝毫不高兴听到他不能立即拿回自己的物品，并要求我选择站在哪一边。我选择站在索西娅一边。
 
 > INFO.NAME mv_abusedhealer 2481769841740918543
 Sosia Caristiana was so grateful to me for my protection that she gave me three potions as a reward. I'm glad to see that she can live another day to help those in need.
-索西雅·卡利斯蒂亚纳非常感激我的保护，送给我三瓶药水作为报酬。我很高兴看到她能多活一天，去帮助那些需要帮助的人。 {这些药水}
+索西娅·卡利斯蒂亚纳非常感激我的保护，送给我三瓶药水作为报酬。我很高兴看到她能多活一天，去帮助那些需要帮助的人。 {这些药水}
 
 > INFO.NAME mv_abusedhealer 1588118759687897
 I decided to keep Cloudcleaver for myself. One as uncivil as Hlormar need not wield such a fine weapon. The loss of so much life is always a shame, but at least I can take comfort in the beauty of my new axe, Cloudcleaver.
@@ -80229,7 +80229,7 @@ I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes. He had
 
 > INFO.NAME ic25_jonhawker 62712071953449119
 Oracle Lalatia Varian had a vision of the Ring in Darkness. She saw the Ring of the Wind, a legendary treasure of Elsweyr. "I have seen the wind upon a dark elf's hand. I have seen fire gleam upon a Dwarf's face. I have seen darkness on a ring of water. I have heard no name whispered in the mouth of stone." The Oracle bid me retrieve the Ring in Darkness. I must ask Dark Elven savants and scouts about the meaning of the Oracle's vision.
-先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物 -- 风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的专家和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}
+先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物 -- 风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的学者和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}
 
 > INFO.NAME ic25_jonhawker 1248419214211093335
 A Dunmer scout told me that Nammu, or 'no-name,' is a cavern in the wildlands of Sunna Guradan, somewhat west of the tower of Tel Aruhn. In the cavern is a great high chamber, flooded, with a central spire rising from the water. The water around the bottom of the spire might be the ring of water in darkness from the Oracle's vision.
@@ -80893,11 +80893,11 @@ Helviane Desele agreed to send two of her older girls to my stronghold where the
 
 > INFO.NAME hr_stronghold 1667820224327111578
 The Arvel family agreed to send any suitable slaves to my stronghold instead of back to the mainland. This should satisfy Hetman Guls.
-阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让赫特曼·古尔斯满意。 {奴隶们}
+阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让古尔斯护民官满意。 {奴隶们}
 
 > INFO.NAME hr_stronghold 236413351529828150
 Hetman Guls said he was satisfied that the men around my stronghold would be able to find wives. I should speak with Galsa Gindu again about construction.
-赫特曼·古尔斯说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。
+古尔斯护民官说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。
 
 > INFO.NAME hr_stronghold 9503227231245829738
 Galsa Gindu gave the orders to begin constructing the final stages of my stronghold.
@@ -83257,7 +83257,7 @@ The Oracle says that by killing Carecalmo and Meryaran I have avenged the deaths
 
 > INFO.NAME book_history 236713753295718220
 When I asked about Morrowind history, Caius Cosades gave me a copy of 'A Short History of Morrowind', and suggested I look for a copy of 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-当我问起晨风的历史时，凯乌斯·科萨德斯给了我一本《晨风简史》，并建议我找一本由曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
+当我问起晨风的历史时，凯乌斯·科萨德斯给了我一本《晨风简史》，并建议我找一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME blades_elone 26368191221925118059
 Elone gave me a copy of 'Guide to Vvardenfell' so I can learn something about Vvardenfell's land and people.
@@ -83301,7 +83301,7 @@ I was told that Jobasha in Vivec might have a copy, but for a very high price.
 
 > INFO.NAME mg_vampvol2 2658124791985027248
 I was told that the Tribunal Temple does not have a copy of Vampires of Vvardenfell, and that if they did have a copy, they wouldn't tell me about it.
-我被告知审判席神殿没有《瓦登费尔的吸血鬼》的副本，即使有副本，他们也不会告诉我。
+我被告知审判席神殿没有《瓦登费尔的吸血鬼》，即使有副本，他们也不会告诉我。
 
 > INFO.NAME mg_vampvol2 6397174011545818917
 I delivered Vampires of Vvardenfell volume two to Skink in Sadrith Mora.
@@ -87185,7 +87185,7 @@ I know it may be difficult to find this book. You could try the Dwemer ruin of N
 
 > INFO.NAME chronicles of nchuleft 21657126292392918147
 Have you found a copy of Chronicles of Nchuleft?
-你找到《恩楚莱夫特编年史》的副本了吗？
+你找到《恩楚莱夫特编年史》了吗？
 
 > INFO.BNAM chronicles of nchuleft 21657126292392918147 c1
 Yes, here it is
@@ -89977,15 +89977,15 @@ Indarys Manor will have more settlers soon enough.
 
 > INFO.NAME attract more settlers 7984216862523425252
 So, Hetman Guls is satisfied. I will give the orders to begin the last stage of your stronghold.
-所以，赫特曼·古尔斯很满意。我将下达指示，开始你的堡垒的最后一道工序。
+所以，古尔斯护民官很满意。我将下达指示，开始你的堡垒的最后一道工序。
 
 > INFO.NAME attract more settlers 27792235692012361
 So, Hetman Guls believes there should be more women there. I am inclined to agree with him. A stronghold cannot grow and prosper with so few women there. I am spoken for, of course, but if the men at Indarys Manor need wives, there are a few here in town.
-所以，赫特曼·古尔斯认为那里应该有更多的女人。我同意他的看法，一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯府邸的男人们需要老婆，城里也有几个。
+所以，古尔斯护民官认为那里应该有更多的女人。我同意他的看法，一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯府邸的男人们需要老婆，城里也有几个。
 
 > INFO.NAME attract more settlers 1770530849447717108
 Yes, speak with Hetman Guls at your stronghold of Indarys Manor. He can tell you of anything troubling your settlers.
-是的，去因达瑞斯府邸的堡垒和赫特曼·古尔斯谈谈吧。他能告诉你任何困扰你们定居者的事。
+是的，去因达瑞斯府邸的堡垒和古尔斯护民官谈谈吧。他能告诉你任何困扰你们定居者的事。
 
 > INFO.NAME attract more settlers 850775252952223238
 Yes, you have found wives for us. Now the settlement around Indarys Manor will grow and prosper.
@@ -97561,19 +97561,19 @@ Caius says he's fed up with heroes. The Empire keeps sending them out here to th
 
 > INFO.NAME morrowind history 26641290942936731915
 I won't bore you blathering about history. That's what Caius is for. But if you're really interested, try 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold. I have an extra copy you can have. What an adventurer like you REALLY needs is a sense of current events. Who hates who? Where's trouble brewing? That's where opportunity lies for an outlander like you.
-我不会喋喋不休地给你讲历史的，那是凯乌斯的职责所在。但如果你真的感兴趣，可以去读读曙光城的厄拉曼维写的《在晨风，帝国的行省》。我还有一本可以给你，像你这样的冒险者真正需要的是对当前的事件的了解。谁憎恨谁？哪里正在酝酿麻烦？这就是像你这样的外地人的机会所在。 {帝国人}
+我不会喋喋不休地给你讲历史的，那是凯乌斯的职责所在。但如果你真的感兴趣，可以去读读阳堡的厄拉曼维写的《在晨风，帝国的行省》。我还有一本可以给你，像你这样的冒险者真正需要的是对当前的事件的了解。谁憎恨谁？哪里正在酝酿麻烦？这就是像你这样的外地人的机会所在。 {帝国人}
 
 > INFO.NAME morrowind history 2824215751328330834
 As I said, Jeanette Sitte's little book is a good place to start. And I also recommend 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-正如我所说，杰内特·塞提的小书是一个很好的开始。我还推荐曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
+正如我所说，杰内特·塞提的小书是一个很好的开始。我还推荐阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME morrowind history 31831207152653332496
 Jeanette Sitte's little book is a good place to start. I have a copy here. Take it. You might also look for  'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-杰内特·塞提的小书是一个很好的开始，我这里有一本，拿着它。你也可以找找曙光城的厄拉曼维写的《在晨风，帝国的行省》。 {帝国人}
+杰内特·塞提的小书是一个很好的开始，我这里有一本，拿着它。你也可以找找阳堡的厄拉曼维写的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME morrowind history 26431244142805929937
 'Almost four centuries after the coming of the Imperial Legions, Morrowind is still occupied by Imperial legions, with a figurehead Imperial King, though the Empire has reserved most functions of the traditional local government to the Ruling Councils of the Five Great Houses.' For a good treatment of Morrowind since it became part of the Empire, look for 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-晨风在帝国军团到来近四个世纪后，仍由帝国军团占领，并有一位身居要职的帝国国王，不过帝国已将传统地方政府的大部分职能保留给了五大家族的议会。关于晨风成为泰姆瑞尔帝国一部分后的良好处理，请参考曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
+晨风在帝国军团到来近四个世纪后，仍由帝国军团占领，并有一位身居要职的帝国国王，不过帝国已将传统地方政府的大部分职能保留给了五大家族的议会。关于晨风成为泰姆瑞尔帝国一部分后的良好处理，请参考阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME morrowind history 826656378525456
 'The ancient ancestor worship of the tribes was in time superceded by the monolithic Tribunal Temple theocracy, and the Dunmer grew into a great nation called Resdayn. Resdayn was the last of the provinces to submit to Tiber Septim; alone of all the provinces, it was never successfully invaded, and was peacefully incorporated by treaty into the Empire as the Province of Morrowind.'
@@ -97597,7 +97597,7 @@ I hope you found 'Short History of Morrowind' useful.
 
 > INFO.NAME morrowind history 27365739087626328
 Here's a copy of a short work by Jeanette Sitte distributed by the Imperial cult. For a good treatment of Morrowind since it became part of the Empire, look for 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold. Both are by Imperial scholars, but balanced and fair.
-这里有一份帝国教团分发的杰内特·塞提的短篇作品。如果你想了解“晨风”成为泰姆瑞尔帝国的一部分之后的发展情况，请参考曙光城的厄拉曼维写的《在晨风，帝国的行省》。这两本书的作者都是帝国人，但写的并不偏袒，都很公正。 {工作}
+这里有一份帝国教团分发的杰内特·塞提的短篇作品。如果你想了解“晨风”成为泰姆瑞尔帝国的一部分之后的发展情况，请参考阳堡的厄拉曼维写的《在晨风，帝国的行省》。这两本书的作者都是帝国人，但写的并不偏袒，都很公正。 {工作}
 
 > INFO.NAME food in morrowind 14890311583243729807
 The most popular beverages are mazte (a local beer brewed from fermented saltrice) and sujamma (a potent, bitter liquor).
@@ -104691,7 +104691,7 @@ You have these lost prophecies? You will tell me these things, over and over, un
 
 > INFO.NAME lost prophecies 1522532721216974818
 We have given you copies of 'Kagrenac's Tools', 'The Lost Prophecy', and 'The Seven Curses'. From what you tell me, you may now have the Lost Prophecies the Wise Woman Nibani Maesa asked you to seek. Perhaps you should share your new knowledge with her.
-我们已经给了你们《卡格瑞纳克的工具》、《失落的预言》和《七大诅咒》的副本。从你告诉我的情况来看，你现在可能已经得到了女智者尼巴妮·玛伊沙让你寻找的失落的预言。也许你应该与她分享你的新知识。 {七个诅咒}
+我们已经给了你们《卡格瑞纳克的工具》、《失落的预言》和《七大诅咒》。从你告诉我的情况来看，你现在可能已经得到了女智者尼巴妮·玛伊沙让你寻找的失落的预言。也许你应该与她分享你的新知识。 {七个诅咒}
 
 > INFO.NAME lost prophecies 1989213207236428662
 We have also prepared a document for you called 'Kagrenac's Tools'. This document will explain to you, and to others, the terrible secret that the Temple conceals about the true history of the Tribunal and the corrupt nature of their divine powers. It is to conceal this secret that the Temple persecutes the Nerevarine and the Dissident Priests. This persecution must stop. We must be united against the true enemy, Dagoth Ur. And if you are the Nerevarine, you must lead us against him.
@@ -107423,7 +107423,7 @@ Time is short. Serious questions please.
 
 > INFO.NAME varus vantinius 3164012942838516226
 You are greater than he. You have my honor. How may I serve you?
-你比他伟大，你拥有我的荣誉，我能为你做什么？
+您比他更伟大。我谨以荣誉向您起誓。请吩咐？
 
 > INFO.NAME varus vantinius 594532292896410149
 He's upstairs, with the Duke.
@@ -107491,7 +107491,7 @@ Yes. I heard about his death. Unfortunate.
 
 > INFO.NAME cunius pelelius 21666137133217222892
 I don't know anything about it. Other folk can say all they want, but it's more than my life's worth to pass rumors about a rich man like Cunius Pelelius.
-我对此一无所知，别人想怎么说就怎么说，但像库尼乌斯·佩勒里乌斯这样的有钱人传出流言，对我来说太不值了。
+我对此一无所知，别人想怎么说就怎么说，但散播库尼乌斯·佩勒里乌斯这种有钱人的谣言？那可是要我的命，我可担待不起。
 
 > INFO.NAME cunius pelelius 2735823472467121835
 He's dead, you say? Sorry to hear it.
@@ -107959,7 +107959,7 @@ I will not swear.
 
 > INFO.NAME darl elf savant 934299821358628615
 The only Dark Elf savant that comes to mind is Llaalam Dredil. Fortunately, he's close by, in the Ebonheart Grand Council Chambers.
-唯一能想到的暗精灵圣徒是拉拉姆·德雷迪尔。幸运的是，他就在附近，在黑檀心大议会厅。
+唯一能想到的暗精灵学者是拉拉姆·德雷迪尔。幸运的是，他就在附近，在黑檀心大议会厅。
 
 > INFO.NAME temple compound 17416141761178812938
 The Temple Compound includes the High Fane, the largest Tribunal temple on Vvardenfell, and The Ministry of Truth, a moon suspended by Vivec's power above the Temple Compound, where the Temple Ordinators are quartered. The Hall of Wisdom and Hall of Justice house the executive, administrative, judicial, and martial operations of the Tribunal Temple. The Palace of Vivec is the abode of the god-hero Lord Vivec. Beneath the Palace of Vivec is the Puzzle Canal, a place of testing for questing heroes.
@@ -109111,7 +109111,7 @@ Nalvilie... Now that's a name I haven't heard in years. I heard she's had some h
 
 > INFO.NAME nalvilie saren 262153006699978500
 Yes, I remember her. We grew up together in Vivec. She always had a man on each arm.
-是的，我记得她，我们一起在维威克长大，她总是搂着一个男人。
+是的，我记得她，我们一起在维威克长大，她总是左拥右抱着男人。
 
 > INFO.NAME nalvilie saren 2754732466101033297
 I haven't heard that name in years... I have many fond memories of her, but I don't know where she is now.
@@ -109899,7 +109899,7 @@ You brought the Temple's justice to Delvam Andarys.
 
 > INFO.NAME delvam andarys 13771258712510221954
 You already brought justice to Delvam Andarys? You have done the Temple a great service. I have more urgent duties for you.
-你已经为德瓦姆·安达里斯伸张正义了？你为神殿立下了汗马功劳，我有更紧急的职务给你。
+你已经制裁了德瓦姆·安达里斯？你为神殿立下了大功。我还有更紧急的任务要交给你。 {正义,职务}
 
 > INFO.NAME delvam andarys 198642015546015508
 Delvam Andarys is dead. You have done the Temple a great service. When you are ready, I have more urgent duties for you.
@@ -113523,7 +113523,7 @@ Madness is a sickness in the soul. It comes from a lack of faith, and a love of 
 
 > INFO.NAME soul sickness 123692425836628353
 I've heard savants say that Dagoth Ur was the source of the bad dreams and madness. Now that Dagoth Ur is dead, there should be no more madness and bad dreams. If the savants are right.
-我听救世主说，达格斯·乌尔是噩梦和疯狂的源头。现在达格斯·乌尔死了，应该不会再有疯狂和噩梦了。如果这些人是对的。
+我听学者说，达格斯·乌尔是噩梦和疯狂的源头。现在达格斯·乌尔死了，应该不会再有疯狂和噩梦了。如果这些学者是对的。
 
 > INFO.NAME soul sickness 26532294224732903
 Well, the Temple has always said that madness is a soul sickness, and a sign of sin. But in the Empire, they say it's just another kind of disease.
@@ -118627,7 +118627,7 @@ Ebonheart's Imperial cult shrine is in a small walled keep in the far western en
 
 > INFO.NAME imperial cult 252303789802829581
 Ald'ruhn's Imperial cult shrine is in Fort Buckmoth, south of town. The altar there cures disease and poison. Cocistian Quaspus, the apothecary, sells cure potions, and they also have a savant, an enchanter, and a trader.
-奥德'汝因的帝国教团圣祠位于镇南的雄蛾要塞。那里的祭坛可以治愈疾病和毒。科西斯·卡斯普斯药剂师出售治愈药水，他们还有一名圣徒、一名附魔师和一名贸易商。 {帝国人,这些药水}
+奥德'汝因的帝国教团圣祠位于镇南的雄蛾要塞。那里的祭坛可以治愈疾病和毒。科西斯·卡斯普斯药剂师出售治愈药水，他们还有一名学者、一名附魔师和一名贸易商。 {帝国人,这些药水}
 
 > INFO.NAME imperial cult 647515114304220564
 Pelagiad's Imperial cult shrine is here in Fort Pelagiad, behind that door over there. The healing altar cures disease and poison, and Ygfa, the healer, sells cure potions.
@@ -118659,7 +118659,7 @@ I have told you all I know. Go. Think on what I've told you. And do what must be
 
 > INFO.NAME pass the test 309174525291904929
 You are not the Nerevarine. You are one who may become the Nerevarine. It is a puzzle, and a hard one. But you have found some of the pieces, and you may find more. Do you choose to be the Nerevarine? Then seek the lost prophecies among the Dissident priests of the Temple. Find the lost prophecies, bring them to me, and I will be your guide. And take these copies of the Stranger and the Seven Visions. Now. I have told you all I know. Go. Think on what I've told you. And do what must be done.
-你不是尼瑞瓦因，你是有可能成为尼瑞瓦因的人。这是个谜题，而且很难解开。但你已经找到了一些拼图碎片，也许还能找到更多。你选择成为尼瑞瓦因吗？那就在神殿的异见祭司中寻找失落的预言。找到失落的预言，把它们带给我，我会做你的向导。带上这些异客和《七大异象》的副本。那么，我知道的都告诉你了，去吧，好好想想我告诉你的，做该做的事。
+你不是尼瑞瓦因，你是有可能成为尼瑞瓦因的人。这是个谜题，而且很难解开。但你已经找到了一些拼图碎片，也许还能找到更多。你选择成为尼瑞瓦因吗？那就在神殿的异见祭司中寻找失落的预言。找到失落的预言，把它们带给我，我会做你的向导。带上这些异客和《七大异象》。那么，我知道的都告诉你了，去吧，好好想想我告诉你的，做该做的事。
 
 > INFO.NAME sosia's offer 2239543419732420
 Then you will die alongside her!
@@ -120997,7 +120997,7 @@ So Ethal Seloth and Idroso Vendu are already dead? And you think you are better 
 
 > INFO.NAME idroso vendu 8913202573267231606
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME idroso vendu 2944832506200417839
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -121005,7 +121005,7 @@ Both targets are not dead, %PCName. You have not finished the Writ.
 
 > INFO.NAME idroso vendu 42299391175325156
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME idroso vendu 28720175451455117129
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -123101,7 +123101,7 @@ So Ethal Seloth and Idroso Vendu are already dead? And you think you are better 
 
 > INFO.NAME ethal seloth 8913202573267231606
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME ethal seloth 2944832506200417839
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -123109,7 +123109,7 @@ Both targets are not dead, %PCName. You have not finished the Writ.
 
 > INFO.NAME ethal seloth 42299391175325156
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME ethal seloth 28720175451455117129
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -126429,7 +126429,7 @@ Well, keep looking. Like I said, I think Miles Gloriosus over in Maar Gan has a 
 
 > INFO.NAME withershins 14871243791130115580
 Did you get a copy of "Withershins?"
-你拿到了《逆时针》的副本了吗？
+你拿到了《逆时针》了吗？
 
 > INFO.BNAM withershins 14871243791130115580 c1
 Yes, here it is
@@ -133317,7 +133317,7 @@ You're not supposed to be here, Redoran.
 
 > INFO.NAME greeting 5 16640103302741310761
 I am Hetman Guls. What can I do for you?
-我是赫特曼·古尔斯。我能为你做什么？
+我是古尔斯护民官。我能为你做什么？
 
 > INFO.NAME greeting 5 2897075251173223280
 What are you here for, Hlaalu? Didn't I already tell Edryno that I didn't have the debt money?
@@ -133753,7 +133753,7 @@ Were you able to arrange a meeting?
 
 > INFO.NAME greeting 5 1976211709165892805
 Have you found a copy of Vampires of Vvardenfell?
-你找到《瓦登费尔的吸血鬼》的副本了吗？
+你找到《瓦登费尔的吸血鬼》了吗？
 
 > INFO.NAME greeting 5 1465415107211327261
 Did Tenyeminwe make it safely to the ship?
@@ -142657,7 +142657,7 @@ The last stage of your stronghold is under construction.
 
 > INFO.NAME stronghold 15815302591153123672
 I am ready to give you a stronghold fit for a House Redoran Councilor. But first you must speak with Hetman Guls at your stronghold. Ask him what must be done to attract more settlers.
-我准备给你一个适合瑞多然家族议员的堡垒，但首先，你必须在你的堡垒与赫特曼·古尔斯谈谈。问问他该怎么做才能吸引更多定居者。
+我准备给你一个适合瑞多然家族议员的堡垒，但首先，你必须在你的堡垒与古尔斯护民官谈谈。问问他该怎么做才能吸引更多定居者。
 
 > INFO.NAME stronghold 315227697298816094
 The second stage of your stronghold is complete. Speak with me again when you need a stronghold fit for a House Redoran Councilor.
@@ -148145,7 +148145,7 @@ Here is what I'm thinking. I love the law. I love the Empire. I love the people 
 
 > INFO.NAME bloodbath 305841595426487649
 The bad people in my story are five members of the Camonna Tong. I know they are a scout, a pawnbroker, a savant, a thief, and a smith, and that they are in Balmora. Unfortunately, I don't know their names. But maybe you can find their names. And where to find them. And then maybe my story could have a happy ending. With a little bloodbath, instead of a little prayer.
-我故事里的恶人是卡莫纳堂的五个成员。我知道他们由一个斥候、一个典当商、一个专家、一个小偷和一个铁匠组成，也知道他们在巴尔莫拉。遗憾的是，我不知道他们的名字。但也许你能找到他们的名字，以及在哪里能找到他们，这样我的故事就能有个圆满的结局了。当然这个结局可能会需要一点“血洗”。
+我故事里的恶人是卡莫纳堂的五个成员。我知道他们由一个斥候、一个典当商、一个学者、一个小偷和一个铁匠组成，也知道他们在巴尔莫拉。遗憾的是，我不知道他们的名字。但也许你能找到他们的名字，以及在哪里能找到他们，这样我的故事就能有个圆满的结局了。当然这个结局可能会需要一点“血洗”。
 
 > INFO.NAME witnesses 28282285111638331684
 There are no witnesses to any of the killings. But in Hlaalu compound, at about the same time as one of the killings, an outlander reported being threatened by Dunmer woman armed with a dagger. It was dark, and the outlander transported magically to safety, so he couldn't give us a very clear description. But he was sure the Dunmer woman with a dagger was dressed in a skirt and netch leather armor.
@@ -149909,11 +149909,11 @@ I am a savant. I am a woman of wide learning and cosmopolitan tastes, a well-tra
 
 > INFO.NAME my trade 4581257102921030376
 I am a savant. I am a man of wide learning and cosmopolitan tastes, a well-traveled man, educated, refined in manner, able to converse on various topics with authority, and a man ever ready to defend his honor, and the honor of my companions. In short, you see before you a gentleman. I can discourse upon history, speechcraft, language, and customs. And, for a fee, I offer training that will permit you to share a few of my many virtues.
-我是个专家，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}
+我是个学者，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}
 
 > INFO.NAME my trade 1130113111152019012
 I am a savant. I am a man of wide learning and cosmopolitan tastes, a well-traveled man, educated, refined in manner, able to converse on various topics with authority, and a man ever ready to defend his honor, and the honor of my companions. In short, you see before you a gentleman. I can discourse upon history, speechcraft, language, and customs. And, for a fee, I offer training that will permit you to share a few of my many virtues.
-我是个专家，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}
+我是个学者，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}
 
 > INFO.NAME my trade 20176256091647614653
 I am a publican. I have food to buy, and beds for lodgers. I also know the neighborhood, and can share the local lore, or, if you prefer, I can give you a little Morrowind lore. I also am likely to have heard the latest rumors, and am happy to share them with you in the spirit of fellowship.
@@ -157285,7 +157285,7 @@ Take the letter to Trebonius in Vivec.
 
 > INFO.NAME duties 258201875962211950
 I am honored to have worked with you, %PCName, and I have one more task. Take this letter to Arch-Mage Trebonius in Vivec.
-我很荣幸能与你合作，%PCName，再来一个任务。把这封信带给维威克的首席法师崔博尼乌斯。 {工作,再完成一个任务,勒特}
+我很荣幸能与你合作，%PCName，再完成一个任务。把这封信带给维威克的首席法师崔博尼乌斯。 {工作,勒特}
 
 > INFO.NAME duties 58442776905715651
 Find out what you need for advancement and speak with me again.

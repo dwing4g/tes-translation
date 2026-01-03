@@ -143809,7 +143809,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 0A 00 00 00 00 01]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "viras guls$00"
- NPC_.FNAM "赫特曼·古尔斯$00"
+ NPC_.FNAM "古尔斯护民官$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Master-at-Arms$00"
  NPC_.ANAM "Redoran$00"
@@ -177004,7 +177004,7 @@ D.文物 - +35%<p>"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
 在晨风<BR>
 一个帝国的行省<BR>
-来自曙光城的厄拉曼维　著<BR><BR>
+来自阳堡的厄拉曼维　著<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 在征服落锤后，帝国军团沿着西罗帝尔的东北边境集结，入侵舰队也在天际省准备就绪。<BR>
 <BR>
@@ -185058,7 +185058,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "当我向哈斯帕特·安塔波利斯询问晨风的历史时，他给了我一本由曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
+ INFO.NAME "当我向哈斯帕特·安塔波利斯询问晨风的历史时，他给了我一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
 -DIAL
  DIAL.NAME "town_Tel_Vos_she$00"
  DIAL.DATA [04]
@@ -185784,7 +185784,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "167019926104484450$00"
  INFO.NNAM "173330173129130820$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "梅拉·米洛说，在智慧厅堂的秘密图书馆里可以找到《真相的过程》的副本，但它们都有人看守。她说还是去书商那里找比较安全。她说有些书商会出售非法书籍。 {瓜尔,卫兵}"
+ INFO.NAME "梅拉·米洛说，在智慧厅堂的秘密图书馆里可以找到《真相的过程》，但它们都有人看守。她说还是去书商那里找比较安全。她说有些书商会出售非法书籍。 {瓜尔,卫兵}"
 -INFO
  INFO.INAM "173330173129130820$00"
  INFO.PNAM "4404262952243126651$00"
@@ -186570,13 +186570,13 @@ D.文物 - +35%<p>"
  INFO.PNAM "1344227220907914481$00"
  INFO.NNAM "26965240152911423534$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "我们在那个女巫的营地见到了她。她叫索西雅·卡利斯蒂亚纳，是个治疗师，她讲述的故事与赫洛马的截然不同。索西雅·卡利斯蒂亚纳说，她只是把赫洛马·醉酒当作旅伴来保护，但当他变得太过热情莽撞时，她就不得不让他睡觉，并拿走他的东西来给他点教训。"
+ INFO.NAME "我们在那个女巫的营地见到了她。她叫索西娅·卡利斯蒂亚纳，是个治疗师，她讲述的故事与赫洛马的截然不同。索西娅·卡利斯蒂亚纳说，她只是把赫洛马·醉酒当作旅伴来保护，但当他变得太过热情莽撞时，她就不得不让他睡觉，并拿走他的东西来给他点教训。"
 -INFO
  INFO.INAM "26965240152911423534$00"
  INFO.PNAM "483624844361229554$00"
  INFO.NNAM "3028095561908912770$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "索西雅·卡利斯蒂亚纳拒绝立即归还他的财产，但三天后会在卡尔德拉法师公会与他见面，届时会归还所有东西。"
+ INFO.NAME "索西娅·卡利斯蒂亚纳拒绝立即归还他的财产，但三天后会在卡尔德拉法师公会与他见面，届时会归还所有东西。"
 -INFO
  INFO.INAM "3028095561908912770$00"
  INFO.PNAM "26965240152911423534$00"
@@ -186588,13 +186588,13 @@ D.文物 - +35%<p>"
  INFO.PNAM "3028095561908912770$00"
  INFO.NNAM "2481769841740918543$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "赫洛马·醉酒丝毫不高兴听到他不能立即拿回自己的物品，并要求我选择站在哪一边。我选择站在索西亚一边。"
+ INFO.NAME "赫洛马·醉酒丝毫不高兴听到他不能立即拿回自己的物品，并要求我选择站在哪一边。我选择站在索西娅一边。"
 -INFO
  INFO.INAM "2481769841740918543$00"
  INFO.PNAM "2441428291823012447$00"
  INFO.NNAM "1588118759687897$00"
  INFO.DATA [04 00 00 00 4B 00 00 00 FF FF FF 00]
- INFO.NAME "索西雅·卡利斯蒂亚纳非常感激我的保护，送给我三瓶药水作为报酬。我很高兴看到她能多活一天，去帮助那些需要帮助的人。 {这些药水}"
+ INFO.NAME "索西娅·卡利斯蒂亚纳非常感激我的保护，送给我三瓶药水作为报酬。我很高兴看到她能多活一天，去帮助那些需要帮助的人。 {这些药水}"
 -INFO
  INFO.INAM "1588118759687897$00"
  INFO.PNAM "2481769841740918543$00"
@@ -189045,7 +189045,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "1248419214211093335$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物 -- 风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的专家和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}"
+ INFO.NAME "先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物 -- 风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的学者和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}"
 -INFO
  INFO.INAM "1248419214211093335$00"
  INFO.PNAM "62712071953449119$00"
@@ -190164,13 +190164,13 @@ D.文物 - +35%<p>"
  INFO.PNAM "1396212391991723680$00"
  INFO.NNAM "236413351529828150$00"
  INFO.DATA [04 00 00 00 F5 00 00 00 FF FF FF 00]
- INFO.NAME "阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让赫特曼·古尔斯满意。 {奴隶们}"
+ INFO.NAME "阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让古尔斯护民官满意。 {奴隶们}"
 -INFO
  INFO.INAM "236413351529828150$00"
  INFO.PNAM "1667820224327111578$00"
  INFO.NNAM "9503227231245829738$00"
  INFO.DATA [04 00 00 00 FA 00 00 00 FF FF FF 00]
- INFO.NAME "赫特曼·古尔斯说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。"
+ INFO.NAME "古尔斯护民官说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。"
 -INFO
  INFO.INAM "9503227231245829738$00"
  INFO.PNAM "236413351529828150$00"
@@ -194112,7 +194112,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "当我问起晨风的历史时，凯乌斯·科萨德斯给了我一本《晨风简史》，并建议我找一本由曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
+ INFO.NAME "当我问起晨风的历史时，凯乌斯·科萨德斯给了我一本《晨风简史》，并建议我找一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
 -DIAL
  DIAL.NAME "blades_Elone$00"
  DIAL.DATA [04]
@@ -194202,7 +194202,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "1604311388249663775$00"
  INFO.NNAM "6397174011545818917$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我被告知审判席神殿没有《瓦登费尔的吸血鬼》的副本，即使有副本，他们也不会告诉我。"
+ INFO.NAME "我被告知审判席神殿没有《瓦登费尔的吸血鬼》，即使有副本，他们也不会告诉我。"
 -INFO
  INFO.INAM "6397174011545818917$00"
  INFO.PNAM "2658124791985027248$00"
@@ -202109,7 +202109,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "你找到《恩楚莱夫特编年史》的副本了吗？"
+ INFO.NAME "你找到《恩楚莱夫特编年史》了吗？"
  INFO.SCVR "34JX3HT_DwemerLaw"
  INFO.INTV [05 00 00 00]
  INFO.BNAM "Choice ""找到了，这个就是"" 1 ""不，还没有"" 2"
@@ -208601,7 +208601,7 @@ Choice ""我会帮你拿到名单。"" 1 ""我帮不了你。"" 2"
  INFO.NNAM "27792235692012361$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "galsa gindu$00"
- INFO.NAME "所以，赫特曼·古尔斯很满意。我将下达指示，开始你的堡垒的最后一道工序。"
+ INFO.NAME "所以，古尔斯护民官很满意。我将下达指示，开始你的堡垒的最后一道工序。"
  INFO.SCVR "34JX3HR_Stronghold"
  INFO.INTV [FA 00 00 00]
  INFO.BNAM "Journal HR_Stronghold 270
@@ -208614,7 +208614,7 @@ Player->ModReputation 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 07 00]
  INFO.ONAM "galsa gindu$00"
  INFO.DNAM "Redoran$00"
- INFO.NAME "所以，赫特曼·古尔斯认为那里应该有更多的女人。我同意他的看法，一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯府邸的男人们需要老婆，城里也有几个。"
+ INFO.NAME "所以，古尔斯护民官认为那里应该有更多的女人。我同意他的看法，一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯府邸的男人们需要老婆，城里也有几个。"
  INFO.SCVR "34JX3HR_Stronghold"
  INFO.INTV [DC 00 00 00]
 -INFO
@@ -208624,7 +208624,7 @@ Player->ModReputation 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 07 00]
  INFO.ONAM "galsa gindu$00"
  INFO.DNAM "Redoran$00"
- INFO.NAME "是的，去因达瑞斯府邸的堡垒和赫特曼·古尔斯谈谈吧。他能告诉你任何困扰你们定居者的事。"
+ INFO.NAME "是的，去因达瑞斯府邸的堡垒和古尔斯护民官谈谈吧。他能告诉你任何困扰你们定居者的事。"
  INFO.SCVR "34JX3HR_Stronghold"
  INFO.INTV [C8 00 00 00]
 -INFO
@@ -226280,7 +226280,7 @@ ModDisposition 10"
  INFO.NNAM "2824215751328330834$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "hasphat antabolis$00"
- INFO.NAME "我不会喋喋不休地给你讲历史的，那是凯乌斯的职责所在。但如果你真的感兴趣，可以去读读曙光城的厄拉曼维写的《在晨风，帝国的行省》。我还有一本可以给你，像你这样的冒险者真正需要的是对当前的事件的了解。谁憎恨谁？哪里正在酝酿麻烦？这就是像你这样的外地人的机会所在。 {帝国人}"
+ INFO.NAME "我不会喋喋不休地给你讲历史的，那是凯乌斯的职责所在。但如果你真的感兴趣，可以去读读阳堡的厄拉曼维写的《在晨风，帝国的行省》。我还有一本可以给你，像你这样的冒险者真正需要的是对当前的事件的了解。谁憎恨谁？哪里正在酝酿麻烦？这就是像你这样的外地人的机会所在。 {帝国人}"
  INFO.BNAM "player->additem bk_OnMorrowind 1
 Journal book_OnMorrowind 1"
 -INFO
@@ -226289,7 +226289,7 @@ Journal book_OnMorrowind 1"
  INFO.NNAM "31831207152653332496$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "caius cosades$00"
- INFO.NAME "正如我所说，杰内特·塞提的小书是一个很好的开始。我还推荐曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
+ INFO.NAME "正如我所说，杰内特·塞提的小书是一个很好的开始。我还推荐阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
  INFO.SCVR "04JX3book_history"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4A1_4_MuzgobInformant"
@@ -226300,7 +226300,7 @@ Journal book_OnMorrowind 1"
  INFO.NNAM "26431244142805929937$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "caius cosades$00"
- INFO.NAME "杰内特·塞提的小书是一个很好的开始，我这里有一本，拿着它。你也可以找找曙光城的厄拉曼维写的《在晨风，帝国的行省》。 {帝国人}"
+ INFO.NAME "杰内特·塞提的小书是一个很好的开始，我这里有一本，拿着它。你也可以找找阳堡的厄拉曼维写的《在晨风，帝国的行省》。 {帝国人}"
  INFO.SCVR "04JX4A1_4_MuzgobInformant"
  INFO.INTV [32 00 00 00]
  INFO.BNAM "player->additem bk_ShortHistoryMorrowind 1
@@ -226311,7 +226311,7 @@ Journal book_history 1"
  INFO.NNAM "826656378525456$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "晨风在帝国军团到来近四个世纪后，仍由帝国军团占领，并有一位身居要职的帝国国王，不过帝国已将传统地方政府的大部分职能保留给了五大家族的议会。关于晨风成为泰姆瑞尔帝国一部分后的良好处理，请参考曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
+ INFO.NAME "晨风在帝国军团到来近四个世纪后，仍由帝国军团占领，并有一位身居要职的帝国国王，不过帝国已将传统地方政府的大部分职能保留给了五大家族的议会。关于晨风成为泰姆瑞尔帝国一部分后的良好处理，请参考阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "; savant; bard; mage; bookseller; merchant; CHOICE 2"
@@ -226352,7 +226352,7 @@ Choice ""继续"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "这里有一份帝国教团分发的杰内特·塞提的短篇作品。如果你想了解“晨风”成为泰姆瑞尔帝国的一部分之后的发展情况，请参考曙光城的厄拉曼维写的《在晨风，帝国的行省》。这两本书的作者都是帝国人，但写的并不偏袒，都很公正。 {工作}"
+ INFO.NAME "这里有一份帝国教团分发的杰内特·塞提的短篇作品。如果你想了解“晨风”成为泰姆瑞尔帝国的一部分之后的发展情况，请参考阳堡的厄拉曼维写的《在晨风，帝国的行省》。这两本书的作者都是帝国人，但写的并不偏袒，都很公正。 {工作}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; savant; bard; mage; bookseller; merchant; 
@@ -243286,7 +243286,7 @@ Journal ""A2_6_Incarnate"" 1"
  INFO.NNAM "1989213207236428662$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gilvas barelo$00"
- INFO.NAME "我们已经给了你们《卡格瑞纳克的工具》、《失落的预言》和《七大诅咒》的副本。从你告诉我的情况来看，你现在可能已经得到了女智者尼巴妮·玛伊沙让你寻找的失落的预言。也许你应该与她分享你的新知识。 {七个诅咒}"
+ INFO.NAME "我们已经给了你们《卡格瑞纳克的工具》、《失落的预言》和《七大诅咒》。从你告诉我的情况来看，你现在可能已经得到了女智者尼巴妮·玛伊沙让你寻找的失落的预言。也许你应该与她分享你的新知识。 {七个诅咒}"
  INFO.SCVR "04JX3A2_4_MiloGone"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Gilvas Barelo; Journal ""A2_4_MiloGone"" >= 50;"
@@ -249115,7 +249115,7 @@ Choice ""我会找到你孩子的。"" 1 ""我帮不了你。"" 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 09 00]
  INFO.FNAM "Imperial Legion$00"
  INFO.DNAM "Imperial Legion$00"
- INFO.NAME "你比他伟大，你拥有我的荣誉，我能为你做什么？"
+ INFO.NAME "您比他更伟大。我谨以荣誉向您起誓。请吩咐？"
 -INFO
  INFO.INAM "594532292896410149$00"
  INFO.PNAM "3164012942838516226$00"
@@ -249302,7 +249302,7 @@ Choice ""我会找到你孩子的。"" 1 ""我帮不了你。"" 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "FFFF$00"
  INFO.ANAM "Caldera$00"
- INFO.NAME "我对此一无所知，别人想怎么说就怎么说，但像库尼乌斯·佩勒里乌斯这样的有钱人传出流言，对我来说太不值了。"
+ INFO.NAME "我对此一无所知，别人想怎么说就怎么说，但散播库尼乌斯·佩勒里乌斯这种有钱人的谣言？那可是要我的命，我可担待不起。"
  INFO.SCVR "04JX3IC13_rich"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4IC14_Ponius"
@@ -250219,7 +250219,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Iulus Truptor$00"
- INFO.NAME "唯一能想到的暗精灵圣徒是拉拉姆·德雷迪尔。幸运的是，他就在附近，在黑檀心大议会厅。"
+ INFO.NAME "唯一能想到的暗精灵学者是拉拉姆·德雷迪尔。幸运的是，他就在附近，在黑檀心大议会厅。"
 -DIAL
  DIAL.NAME "神殿驻地$00"
  DIAL.DATA [00]
@@ -252834,7 +252834,7 @@ AddTopic ""纳尔维娜·萨里尼思"""
  INFO.NNAM "2754732466101033297$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tanusea veloth$00"
- INFO.NAME "是的，我记得她，我们一起在维威克长大，她总是搂着一个男人。"
+ INFO.NAME "是的，我记得她，我们一起在维威克长大，她总是左拥右抱着男人。"
 -INFO
  INFO.INAM "2754732466101033297$00"
  INFO.PNAM "262153006699978500$00"
@@ -254765,7 +254765,7 @@ Choice ""宣读沉默誓言"" 1 ""等待"" 2"
  INFO.NNAM "198642015546015508$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharer rotheloth$00"
- INFO.NAME "你已经为德瓦姆·安达里斯伸张正义了？你为神殿立下了汗马功劳，我有更紧急的职务给你。"
+ INFO.NAME "你已经制裁了德瓦姆·安达里斯？你为神殿立下了大功。我还有更紧急的任务要交给你。 {正义,职务}"
  INFO.SCVR "06DX2delvam andarys"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX0TT_Mawia"
@@ -264325,7 +264325,7 @@ Player->AddItem key_neranomanor 1"
  INFO.NNAM "26532294224732903$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Hlaalu$00"
- INFO.NAME "我听救世主说，达格斯·乌尔是噩梦和疯狂的源头。现在达格斯·乌尔死了，应该不会再有疯狂和噩梦了。如果这些人是对的。"
+ INFO.NAME "我听学者说，达格斯·乌尔是噩梦和疯狂的源头。现在达格斯·乌尔死了，应该不会再有疯狂和噩梦了。如果这些学者是对的。"
  INFO.SCVR "04JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -278081,7 +278081,7 @@ startscript CorprusBeastSafe"
  INFO.NNAM "647515114304220564$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Ald-ruhn$00"
- INFO.NAME "奥德'汝因的帝国教团圣祠位于镇南的雄蛾要塞。那里的祭坛可以治愈疾病和毒。科西斯·卡斯普斯药剂师出售治愈药水，他们还有一名圣徒、一名附魔师和一名贸易商。 {帝国人,这些药水}"
+ INFO.NAME "奥德'汝因的帝国教团圣祠位于镇南的雄蛾要塞。那里的祭坛可以治愈疾病和毒。科西斯·卡斯普斯药剂师出售治愈药水，他们还有一名学者、一名附魔师和一名贸易商。 {帝国人,这些药水}"
  INFO.SCVR "0CsX0nolore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -278161,7 +278161,7 @@ startscript CorprusBeastSafe"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nibani maesa$00"
- INFO.NAME "你不是尼瑞瓦因，你是有可能成为尼瑞瓦因的人。这是个谜题，而且很难解开。但你已经找到了一些拼图碎片，也许还能找到更多。你选择成为尼瑞瓦因吗？那就在神殿的异见祭司中寻找失落的预言。找到失落的预言，把它们带给我，我会做你的向导。带上这些异客和《七大异象》的副本。那么，我知道的都告诉你了，去吧，好好想想我告诉你的，做该做的事。"
+ INFO.NAME "你不是尼瑞瓦因，你是有可能成为尼瑞瓦因的人。这是个谜题，而且很难解开。但你已经找到了一些拼图碎片，也许还能找到更多。你选择成为尼瑞瓦因吗？那就在神殿的异见祭司中寻找失落的预言。找到失落的预言，把它们带给我，我会做你的向导。带上这些异客和《七大异象》。那么，我知道的都告诉你了，去吧，好好想想我告诉你的，做该做的事。"
  INFO.SCVR "04JX3A2_1_MeetSulMatuul"
  INFO.INTV [2D 00 00 00]
  INFO.BNAM "Journal ""A2_1_MeetSulMatuul"" 60
@@ -283836,7 +283836,7 @@ ModDisposition -10"
  INFO.NNAM "2944832506200417839$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。"
+ INFO.NAME "我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}"
  INFO.SCVR "34JX0MT_WritVendu"
  INFO.INTV [5A 00 00 00]
  INFO.BNAM "Journal MT_WritVendu 110
@@ -283859,7 +283859,7 @@ ModDisposition 10"
  INFO.NNAM "28720175451455117129$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。"
+ INFO.NAME "我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}"
  INFO.SCVR "34JX0MT_WritVendu"
  INFO.INTV [50 00 00 00]
  INFO.BNAM "Journal MT_WritVendu 100
@@ -288977,7 +288977,7 @@ ModDisposition -10"
  INFO.NNAM "2944832506200417839$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。"
+ INFO.NAME "我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}"
  INFO.SCVR "34JX0MT_WritVendu"
  INFO.INTV [5A 00 00 00]
  INFO.BNAM "Journal MT_WritVendu 110
@@ -289000,7 +289000,7 @@ ModDisposition 10"
  INFO.NNAM "28720175451455117129$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。"
+ INFO.NAME "我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}"
  INFO.SCVR "34JX0MT_WritVendu"
  INFO.INTV [50 00 00 00]
  INFO.BNAM "Journal MT_WritVendu 100
@@ -297034,7 +297034,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aengoth$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "你拿到了《逆时针》的副本了吗？"
+ INFO.NAME "你拿到了《逆时针》了吗？"
  INFO.SCVR "05IX3bookskill_restoration1"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Choice ""是的，在这里"" 1 ""不，还没有"" 2"
@@ -314910,7 +314910,7 @@ Goodbye"
  INFO.NNAM "2897075251173223280$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "viras guls$00"
- INFO.NAME "我是赫特曼·古尔斯。我能为你做什么？"
+ INFO.NAME "我是古尔斯护民官。我能为你做什么？"
 -INFO
  INFO.INAM "2897075251173223280$00"
  INFO.PNAM "16640103302741310761$00"
@@ -316070,7 +316070,7 @@ Goodbye"
  INFO.NNAM "1465415107211327261$00"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "skinkintreesshade$00"
- INFO.NAME "你找到《瓦登费尔的吸血鬼》的副本了吗？"
+ INFO.NAME "你找到《瓦登费尔的吸血鬼》了吗？"
  INFO.SCVR "01390"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX2MG_VampVol2"
@@ -337970,7 +337970,7 @@ ShowMap ""Gnaar Mok"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 07 00]
  INFO.ONAM "galsa gindu$00"
  INFO.DNAM "Redoran$00"
- INFO.NAME "我准备给你一个适合瑞多然家族议员的堡垒，但首先，你必须在你的堡垒与赫特曼·古尔斯谈谈。问问他该怎么做才能吸引更多定居者。"
+ INFO.NAME "我准备给你一个适合瑞多然家族议员的堡垒，但首先，你必须在你的堡垒与古尔斯护民官谈谈。问问他该怎么做才能吸引更多定居者。"
  INFO.SCVR "34JX3HR_Stronghold"
  INFO.INTV [C8 00 00 00]
  INFO.BNAM "Journal HR_Stronghold 210"
@@ -351272,7 +351272,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "larrius varro$00"
- INFO.NAME "我故事里的恶人是卡莫纳堂的五个成员。我知道他们由一个斥候、一个典当商、一个专家、一个小偷和一个铁匠组成，也知道他们在巴尔莫拉。遗憾的是，我不知道他们的名字。但也许你能找到他们的名字，以及在哪里能找到他们，这样我的故事就能有个圆满的结局了。当然这个结局可能会需要一点“血洗”。"
+ INFO.NAME "我故事里的恶人是卡莫纳堂的五个成员。我知道他们由一个斥候、一个典当商、一个学者、一个小偷和一个铁匠组成，也知道他们在巴尔莫拉。遗憾的是，我不知道他们的名字。但也许你能找到他们的名字，以及在哪里能找到他们，这样我的故事就能有个圆满的结局了。当然这个结局可能会需要一点“血洗”。"
  INFO.BNAM ";Larrius Varro; 
 Journal town_balmora 20"
 -DIAL
@@ -355448,7 +355448,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.NNAM "1130113111152019012$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF 00 FF 00]
  INFO.CNAM "Savant Service$00"
- INFO.NAME "我是个专家，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}"
+ INFO.NAME "我是个学者，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";Savant; MALE; History, Speechcraft, Language and Usage in Modern Morrowind"
@@ -355458,7 +355458,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.NNAM "20176256091647614653$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF 00 FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "我是个专家，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}"
+ INFO.NAME "我是个学者，我学识渊博，具有世界性的品位，走南闯北，受过良好的教育，举止文雅，能够就各种话题进行权威性的对话，时刻准备捍卫自己和同伴的荣誉。总之，你们面前的是一位绅士。我可以谈论历史、口才技巧、语言和习俗。我还提供有偿训练，让你分享我的一些美德。 {作者}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";Savant; MALE; History, Speechcraft, Language and Usage in Modern Morrowind"
@@ -373176,7 +373176,7 @@ AddTopic ""崔博尼乌斯"""
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF 08 00]
  INFO.ONAM "skinkintreesshade$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "我很荣幸能与你合作，%PCName，再来一个任务。把这封信带给维威克的首席法师崔博尼乌斯。 {工作,再完成一个任务,勒特}"
+ INFO.NAME "我很荣幸能与你合作，%PCName，再完成一个任务。把这封信带给维威克的首席法师崔博尼乌斯。 {工作,勒特}"
  INFO.SCVR "34JX3MG_VampireCure"
  INFO.INTV [64 00 00 00]
  INFO.BNAM "Journal MG_Guildmaster 20
