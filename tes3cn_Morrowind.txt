@@ -150580,7 +150580,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 <BR>
 交通<BR>
 <BR>
-天桥连接黑檀心地区与哈拉鲁驻地、北部湾地区和外地人区，和东部湾地区和泰瓦尼驻地之间的大陆。从哈拉鲁驻地桥头起始的大道往南通向黑檀心，往北通向赛达-尼恩和北部地带。从外地人区桥头起始的大道西向赛达-尼恩，北朝苏兰和阿斯卡迪安群岛，东面莫拉格-玛尔。从泰瓦尼驻地桥头起始的道路通常对前往莫拉格-玛尔旅行很有帮助。阔步沙蚤服务站在外地人区桥头的北面尽头，从维威克城出发前往苏兰、赛达-尼恩、巴尔莫拉和莫拉格-玛尔。外邦区的码头渡船前往黑檀心、哈拉-奥德、莫拉格-玛尔和泰尔-布勒诺拉。从邻可近的黑檀心以乘船航向哈拉-奥德、萨德瑞斯-莫拉、泰尔-布勒诺拉，和维威克城的外邦区。价格低廉的小篷船在维威克的河渠上穿梭于各区之间接送旅客。<BR>
+天桥连接黑檀心地区与哈拉鲁驻地、北部湾地区和外地人区，和东部湾地区和泰瓦尼驻地之间的大陆。从哈拉鲁驻地桥头起始的大道往南通向黑檀心，往北通向赛达-尼恩和北部地带。从外地人区桥头起始的大道西向赛达-尼恩，北朝苏兰和阿斯卡迪安群岛，东面莫拉格-玛尔。从泰瓦尼驻地桥头起始的道路通常对前往莫拉格-玛尔旅行很有帮助。阔步沙蚤服务站在外地人区桥头的北面尽头，从维威克城出发前往苏兰、赛达-尼恩、巴尔莫拉和莫拉格-玛尔。外邦区的码头渡船前往黑檀心、哈拉-奥德、莫拉格-玛尔和泰尔-布勒诺拉。从邻可近的黑檀心以乘船航向哈拉-奥德、萨德瑞斯-莫拉、泰尔-布勒诺拉，和维威克城的外邦区。价格低廉的贡多拉渡船在维威克的河渠上穿梭于各区之间接送旅客。<BR>
 "
 -BOOK
  BOOK.NAME "bk_guide_to_balmora$00"
@@ -180818,7 +180818,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "2036832174183455127$00"
  INFO.NNAM "103936328262522564$00"
  INFO.DATA [04 00 00 00 0F 00 00 00 FF FF FF 00]
- INFO.NAME "当我告诉税务局密探阿迪拉尼尔乘船去大陆时，他说反正他也要回主大陆，会在那里找她。也许阿迪拉尼尔会感激我替她摆脱了他。"
+ INFO.NAME "当我告诉税务局密探阿迪拉尼尔乘贡多拉渡船去大陆时，他说反正他也要回主大陆，会在那里找她。也许阿迪拉尼尔会感激我替她摆脱了他。"
 -INFO
  INFO.INAM "103936328262522564$00"
  INFO.PNAM "2719613612229508884$00"
@@ -205191,7 +205191,7 @@ Journal A1_4_MuzgobInformant 12"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Gnisis$00"
- INFO.NAME "这个镇子附近有几个地方：西北方有金尼斯，东北方有雷坦德斯，可能还有其他的，但我不知道在哪。"
+ INFO.NAME "这个镇子附近有几个地方：西北方有基尼斯，东北方有雷坦杜斯，可能还有其他的，但我不知道在哪。"
  INFO.SCVR "04JX3VA_VampCult"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -205791,7 +205791,7 @@ ModDisposition 10"
  INFO.NNAM "2978729673242626386$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nar gro-shagramph$00"
- INFO.NAME "我把戒指给你了，你已经把它弄丢了？"
+ INFO.NAME "我把戒指给你了，你转眼就弄丢了？"
  INFO.SCVR "34JX3FG_DebtOrc"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -208096,7 +208096,7 @@ Choice ""继续"" 1"
  INFO.NNAM "887017512825419136$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hisin deep-raed$00"
- INFO.NAME "干得好，%PCName！作为一个魔法师，你很有荣誉感！拿着这个，我家族的头盔，冰帽盖。这是我父亲戴过的，他父亲也戴过，还有他的前辈也戴过。它能保护你度过最寒冷的夜晚，光荣地戴上它吧。现在，我得去杀了那个女巫。我要把她的头插在木桩上，让所有人都看到！ {沙尔,计划}"
+ INFO.NAME "干得好，%PCName！作为一个魔法师，你很有荣誉感！拿着这个，我家族的头盔，冰帽盖。这是我父亲戴过的，他父亲也戴过，还有他的父亲也戴过。它能保护你度过最寒冷的夜晚，光荣地戴上它吧。现在，我得去杀了那个女巫。我要把她的头插在木桩上，让所有人都看到！ {沙尔,计划}"
  INFO.SCVR "04JX0MV_ParalyzedBarbarian"
  INFO.INTV [41 00 00 00]
  INFO.BNAM "Journal ""MV_ParalyzedBarbarian"" 100
@@ -208486,7 +208486,7 @@ StartScript Strong_Build3_H"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Fighters Guild$00"
  INFO.ANAM "Balmora, Guild of Fighters$00"
- INFO.NAME "去找弗莱尼亚，她负责合同。"
+ INFO.NAME "去找弗拉埃妮娅，她负责合同。"
  INFO.SCVR "34JX3HH_Stronghold"
  INFO.INTV [CD 00 00 00]
 -INFO
@@ -284615,7 +284615,7 @@ Player->AddItem ""writ_bemis"" 1"
  INFO.NNAM "19444126321447125865$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "gudling the rascal$00"
- INFO.NAME "灰烬之民最常见的两种群居动物是瓜尔和砂壳虫。瓜尔是一种大型两足动物，被训练成驮兽，饲养的目的是为了吃肉和取皮。在野外会遇到野生卫兵；它们通常很安分。砂壳虫是一种大型甲虫，没有攻击性，饲养它是为了获取肉类和壳中的树脂。 {沙尔}"
+ INFO.NAME "灰烬之民最常见的两种群居动物是瓜尔和砂壳虫。瓜尔是一种大型两足动物，被训练成驮兽，饲养的目的是为了吃肉和取皮。在野外会遇到野生瓜尔；它们通常很安分。砂壳虫是一种大型甲虫，没有攻击性，饲养它是为了获取肉类和壳中的树脂。 {沙尔,卫兵}"
  INFO.BNAM ";hunter"
 -INFO
  INFO.INAM "19444126321447125865$00"
@@ -284623,7 +284623,7 @@ Player->AddItem ""writ_bemis"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "Briring$00"
- INFO.NAME "灰烬之民最常见的两种群居动物是瓜尔和砂壳虫。瓜尔是一种大型两足动物，被训练成驮兽，饲养的目的是为了吃肉和取皮。在野外会遇到野生卫兵；它们通常很安分。砂壳虫是一种大型甲虫，没有攻击性，饲养它是为了获取肉类和壳中的树脂。 {沙尔}"
+ INFO.NAME "灰烬之民最常见的两种群居动物是瓜尔和砂壳虫。瓜尔是一种大型两足动物，被训练成驮兽，饲养的目的是为了吃肉和取皮。在野外会遇到野生瓜尔；它们通常很安分。砂壳虫是一种大型甲虫，没有攻击性，饲养它是为了获取肉类和壳中的树脂。 {沙尔,卫兵}"
  INFO.BNAM ";barbarian"
 -DIAL
  DIAL.NAME "治愈药水$00"
@@ -292938,7 +292938,7 @@ Player->AddItem bk_tiramgadarscredentials 1"
  INFO.NAME "对，她叫阿迪拉尼尔，是个卡吉特。你知道我在哪儿能找到她吗？"
  INFO.SCVR "34JX3A1_6_AddhiranirrInformant"
  INFO.INTV [0C 00 00 00]
- INFO.BNAM "Choice, ""[撒谎。] 她刚坐船去了大陆。"", 1, ""我不知道"", 2, ""她就躲在底层区里。"", 3"
+ INFO.BNAM "Choice, ""[撒谎。] 她刚坐贡多拉渡船去了大陆。"", 1, ""我不知道"", 2, ""她就躲在底层区里。"", 3"
 -INFO
  INFO.INAM "1140817346183198607$00"
  INFO.PNAM "18068278061564118475$00"
@@ -297123,7 +297123,7 @@ ModDisposition 10"
  INFO.NNAM "16036169045463807$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nireli farys$00"
- INFO.NAME "我的战舰“春天号”可以载你从泰尔-布勒诺拉前往维威克、黑檀心、莫拉格-玛尔和萨德瑞斯-莫拉。"
+ INFO.NAME "我的船“春天号”可以载你从泰尔-布勒诺拉前往维威克、黑檀心、莫拉格-玛尔和萨德瑞斯-莫拉。"
  INFO.BNAM ";Dagon Fel; Haema Farseer; shipmaster"
 -INFO
  INFO.INAM "16036169045463807$00"
@@ -297131,7 +297131,7 @@ ModDisposition 10"
  INFO.NNAM "1106582441570731257$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "talmeni drethan$00"
- INFO.NAME "我的飞船“奥门韦杜尔号”可以载你从库尔前往纳尔-莫克和大衮-费尔。"
+ INFO.NAME "我的船“奥门韦杜尔号”可以载你从库尔前往纳尔-莫克和大衮-费尔。"
  INFO.BNAM ";Dagon Fel; Haema Farseer; shipmaster"
 -INFO
  INFO.INAM "1106582441570731257$00"
@@ -297139,7 +297139,7 @@ ModDisposition 10"
  INFO.NNAM "18056251503250617059$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "haema farseer$00"
- INFO.NAME "我的飞船“狂野漫游者号”可以载您从大衮-费尔前往萨德瑞斯-莫拉、泰尔-莫拉和库尔。"
+ INFO.NAME "我的船“狂野漫游者号”可以载您从大衮-费尔前往萨德瑞斯-莫拉、泰尔-莫拉和库尔。"
  INFO.BNAM ";Dagon Fel; Haema Farseer; shipmaster"
 -INFO
  INFO.INAM "18056251503250617059$00"
@@ -297273,7 +297273,7 @@ ModDisposition 10"
  INFO.NNAM "25859277861120823840$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "daras aryon$00"
- INFO.NAME "这架阔步沙蚤可以载您从玛尔-甘前往奥德'汝因、尼希斯和库尔。"
+ INFO.NAME "这只阔步沙蚤可以载您从玛尔-甘前往奥德'汝因、尼希斯和库尔。"
  INFO.BNAM ";Maar Gan; Daras Aryon; Caravaner"
 -INFO
  INFO.INAM "25859277861120823840$00"
@@ -297312,42 +297312,42 @@ ModDisposition 10"
  INFO.NNAM "642980566803164$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Adondasi Sadalvel$00"
- INFO.NAME "这艘阔步沙蚤可以载您从维威克前往苏兰、赛达-尼恩、巴尔莫拉格-玛尔。"
+ INFO.NAME "这只阔步沙蚤可以载您从维威克前往苏兰、赛达-尼恩、巴尔莫拉格-玛尔。"
 -INFO
  INFO.INAM "642980566803164$00"
  INFO.PNAM "90395799102454841$00"
  INFO.NNAM "2089112252714323557$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dalse adren$00"
- INFO.NAME "我可以搭乘渡船载你前往北部的外邦区、南部的神殿区、西部的哈拉鲁驻地或东部的泰瓦尼驻地。"
+ INFO.NAME "我可以带你乘坐贡多拉渡船到北部的外邦区、南部的神殿区、西部的哈拉鲁驻地或东部的泰瓦尼驻地。"
 -INFO
  INFO.INAM "2089112252714323557$00"
  INFO.PNAM "642980566803164$00"
  INFO.NNAM "1731175992870511845$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "fendryn drelvi$00"
- INFO.NAME "我可以带你乘坐渡船前往维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。"
+ INFO.NAME "我可以带你乘坐贡多拉渡船到维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。"
 -INFO
  INFO.INAM "1731175992870511845$00"
  INFO.PNAM "2089112252714323557$00"
  INFO.NNAM "310903222489162613$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "talsi uvayn$00"
- INFO.NAME "我可以带你乘坐渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。"
+ INFO.NAME "我可以带你乘坐贡多拉渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。"
 -INFO
  INFO.INAM "310903222489162613$00"
  INFO.PNAM "1731175992870511845$00"
  INFO.NNAM "1242265292108723180$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aren maren$00"
- INFO.NAME "我可以带你乘坐渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。"
+ INFO.NAME "我可以带你乘坐贡多拉渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。"
 -INFO
  INFO.INAM "1242265292108723180$00"
  INFO.PNAM "310903222489162613$00"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "devas irano$00"
- INFO.NAME "我可以带你乘坐渡船前往维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。"
+ INFO.NAME "我可以带你乘坐贡多拉渡船到维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。"
 -DIAL
  DIAL.NAME "达里乌斯要塞$00"
  DIAL.DATA [00]
@@ -355877,7 +355877,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.NNAM "145077227435929467$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Gondolier$00"
- INFO.NAME "我是摆渡人。我可以用渡船将您送往附近的各个目的地，费用适中。"
+ INFO.NAME "我是摆渡人。我可以用贡多拉渡船将您送往附近的各个目的地，费用适中。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";Gondolier; Destinations [like location infos], Gondola"
