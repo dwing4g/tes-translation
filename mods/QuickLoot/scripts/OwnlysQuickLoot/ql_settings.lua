@@ -40,7 +40,7 @@ tempKey = "General"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey.."                                                    ", -- "select" renderer fix
 	permanentStorage = true,
 	order = getOrder(),
@@ -60,7 +60,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"off", "immediately", "on take", "disabled by shift"},
 			},
 		},
@@ -78,7 +78,7 @@ tempKey = "UI"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey,
 	permanentStorage = true,
 	order = getOrder(),
@@ -146,7 +146,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"hide both", "show both", "all top", "all bottom", "only top", "only bottom"},
 			},
 		},
@@ -158,7 +158,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"Disabled", "Symbolic"}--, "F / R"},
 			},
 		},
@@ -170,7 +170,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"none", "thin", "normal", "thick", "verythick"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -229,7 +229,7 @@ tempKey = "Sorting"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey,
 	permanentStorage = true,
 	order = getOrder(),
@@ -242,7 +242,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"Vanilla", "Lowest Weight", "Highest Value", "Best V/W"},
 			},
 		},
@@ -306,7 +306,7 @@ tempKey = "Columns"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey,
 	permanentStorage = true,
 	order = getOrder(),
@@ -367,7 +367,7 @@ tempKey = "Tooltip"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey,
 	permanentStorage = true,
 	order = getOrder(),
@@ -380,7 +380,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"off", "left","left (fixed)", "left (fixed 2)", "left (fixed 3)", "right", "right (fixed)", "right (fixed 2)", "right (fixed 3)", "crosshair", "bottom", "top"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -399,7 +399,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"center", "left", "right"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -417,7 +417,7 @@ tempKey = "Misc"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey,
 	permanentStorage = true,
 	order = getOrder(),
@@ -430,7 +430,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"off", "unread", "read", "bookworm", "bookworm unread"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -442,7 +442,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"disabled", "Shift + F", "Jump"}--,"stylized 1", "stylized 2", "stylized 3", "stylized 4"},
 			},
 		},
@@ -476,7 +476,7 @@ settingsTemplate[tempKey] = {
 			default = "Yes",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"Yes", "No", "Only when pickpocketing"}
 			},
 		},
@@ -488,7 +488,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"ingredients", "restack"},
 			},
 		},
@@ -499,7 +499,7 @@ tempKey = "Performance"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey,
 	permanentStorage = true,
 	order = getOrder(),
@@ -512,7 +512,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none", 
+				l10n = "QuickLoot", 
 				items = {"Desperate", "Normal"},
 			},
 		},
@@ -525,7 +525,7 @@ legacySection:reset()
 
 I.Settings.registerPage {
     key = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = "QuickLoot",
     description = "If you're aiming at a container, a preview will appear as soon as you change a setting"
 }

@@ -20,6 +20,7 @@ v2 = util.vector2
 v3 = util.vector3
 local animation = require('openmw.animation')
 local Controls = require('openmw.interfaces').Controls
+local l10n = core.l10n('QuickLoot')
 local settings = require("scripts.OwnlysQuickLoot.ql_settings")
 makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
 local helpers = require("scripts.OwnlysQuickLoot.ql_helpers")
@@ -1285,7 +1286,7 @@ function drawUI()
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
-				text = deposit and "Deposit All" or "Take All",
+				text = l10n(deposit and "Deposit All" or "Take All"),
 				textSize= 20*textSizeMult,
 				position = v2(rootWidth*0.508+outerHeaderFooterHeight*0.8,rootHeight-outerHeaderFooterHeight/2+1),
 				textColor = ICON_TINT,
@@ -1320,7 +1321,7 @@ function drawUI()
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
-				text = searchText,
+				text = l10n(searchText),
 				textSize= 20*textSizeMult,
 				textAlignH = ui.ALIGNMENT.End,
 				position = v2(rootWidth*0.493-outerHeaderFooterHeight*0.8,rootHeight-outerHeaderFooterHeight/2+1),
