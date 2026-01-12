@@ -2,7 +2,6 @@ local core = require('openmw.core')
 local types = require('openmw.types')
 local ambient = require('openmw.ambient')
 local getSound = require("scripts.OwnlysQuickLoot.ql_getSound")
-local l10n = core.l10n('QuickLoot')
 local fFatigueBase = core.getGMST("fFatigueBase")
 local fFatigueMult = core.getGMST("fFatigueMult")
 local fPickPocketMod = core.getGMST("fPickPocketMod")
@@ -18,7 +17,7 @@ local function updateFooterText(target)
 
 	if attempts > maxAttempts+200000 then
 		qlpp.footerColor = util.color.rgb(0.85,0, 0)
-		qlpp.footerText = l10n("caught")
+		qlpp.footerText = "caught"
 	elseif attempts >= maxAttempts then
 		qlpp.footerColor = util.color.rgb(0.85,0, 0)
 		qlpp.footerText = attempts.." / "..maxAttempts
@@ -203,16 +202,16 @@ qlpp.filterItems = function(self, target, containerItems )
 		end
 		if qlpp.undisplayedItems > 0 then
 			if #tempContainerItems == 0 then
-				qlpp.message = qlpp.undisplayedItems..l10n(" item".. (qlpp.undisplayedItems > 1 and "s" or ""))
+				qlpp.message = qlpp.undisplayedItems.." item".. (qlpp.undisplayedItems > 1 and "s" or "")
 			else
-				qlpp.message = l10n("and ")..qlpp.undisplayedItems..l10n(" more")
+				qlpp.message = "and "..qlpp.undisplayedItems.." more"
 			end
 		else
 			qlpp.message = nil
 		end
 	else
 		local chance = qlpp.calcChance(self, target)
-		qlpp.message = l10n("reveal pocket contents") .. " ("..chance.."%)"
+		qlpp.message = "reveal pocket contents ("..chance.."%)"
 	end
 	return tempContainerItems
 end
