@@ -176164,7 +176164,7 @@ D.文物 - +35%<p>"
 <BR>
 忠实的义务<BR>
 <BR>
-你有四重职责：信仰、家庭、主人和一切美好的事物。完成神圣任务，为神殿带来光彩。不可亏负你的弟兄姐妹，也不可辱没你的家室和你的祖先。要服事贫弱的人，尊敬你的长老和你的宗族。<BR>
+你们的四大职务是：信仰、家庭、大师和一切美好的事物。完成神圣的任务，为神殿增光添彩。不可亏负你的弟兄姐妹，也不可辱没你的家室和你的祖先。要服事贫弱的人，尊敬你的长老和你的宗族。<BR>
 <BR>
 对于那些有智慧的人来说，这些圣书将是有趣的。<BR>
 <DIV ALIGN=""CENTER""><BR>
@@ -197702,7 +197702,7 @@ player->removeitem ""bk_talostreason"" 1"
  INFO.NNAM "13425230692736826703$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "general darius$00"
- INFO.NAME "这是封令人不安的信，感谢圣灵让你找到了证据，现在你必须为奥里蒂乌斯·马洛的罪行处死他们。 {勒特}"
+ INFO.NAME "这是一封极其令人不安的信。感谢圣灵你找到了证据。现在你必须处决阿里乌斯·鲁利西安和奥里蒂乌斯·马洛，他们罪有应得。 {勒特}"
  INFO.SCVR "05IX2bk_talostreason"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX3IL_TalosTreason"
@@ -198222,7 +198222,7 @@ Player->ModReputation 1"
  INFO.NNAM "1801177592343127685$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "emul-ran$00"
- INFO.NAME "你是说我们做了这件事？很好，%PCRace，因为这是事实。卡西特斯和我已经拿走了兽皮，我们会一直保存着它们，准备去见你们的神吧，因为没人能夺走我们的东西。"
+ INFO.NAME "你想说这事是我们干的？很好，%PCRace，因为没错，就是老子干的。卡什特和我拿了兽皮，东西到了我们手上，就永远是我们的。准备去见你的神吧，现在这东西归我们了，谁来了也抢不走。"
  INFO.BNAM "AddTopic ""基里斯的瓜尔皮""
 SetFight 100
 StartCombat Player
@@ -198432,7 +198432,7 @@ modDisposition 10"
  INFO.NNAM "1801177592343127685$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "emul-ran$00"
- INFO.NAME "你是说我们做了这件事？很好，%PCRace，因为这是事实。卡西特斯和我已经拿走了兽皮，我们会一直保存着它们，准备去见你们的神吧，因为没人能夺走我们的东西。"
+ INFO.NAME "你想说这事是我们干的？很好，%PCRace，因为没错，就是老子干的。卡什特和我拿了兽皮，东西到了我们手上，就永远是我们的。准备去见你的神吧，现在这东西归我们了，谁来了也抢不走。"
  INFO.BNAM "AddTopic ""基里斯的瓜尔皮""
 SetFight 100
 StartCombat Player
@@ -229246,7 +229246,7 @@ Goodbye"
  INFO.NNAM "2582528093292722917$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "这是最受欢迎的提议。我们的书记员，一个叫莫萨农的傲特莫，带着三千龙币潜逃了。我们不知道他去了哪里。为了避免丑闻，我们没有向卫兵告发罪行。如果你能找到这个莫萨农并找回丢失的3000龙币，我将非常乐意立即兑现我对帝国教团的1000龙币的押金。 {报告,瓜尔,帝国人}"
+ INFO.NAME "这是最受欢迎的提议。我们的书记员，一个叫莫萨农的傲特莫，带着3000龙币潜逃了。我们不知道他去了哪里。为了避免丑闻，我们没有向卫兵告发罪行。如果你能找到这个莫萨农并找回丢失的3000龙币，我将非常乐意立即兑现我对帝国教团1000龙币的押金承诺。 {报告,瓜尔,帝国人}"
  INFO.SCVR "04JX3IC14_Ponius"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4IC14_Ponius"
@@ -229272,7 +229272,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Iulus Truptor$00"
- INFO.NAME "前段时间我与坎克图尼安·博尼乌斯交谈时，他答应捐赠我们1000龙币，用于出使灰烬之民。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以他没有兑现承诺是很奇怪的。"
+ INFO.NAME "前段时间我与坎克图尼安·博尼乌斯交谈时，他答应捐赠我们1000龙币，用于出使灰烬之民。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以很奇怪他没有兑现他的承诺。"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
 -DIAL
@@ -248317,7 +248317,7 @@ ModDisposition 5"
  INFO.NNAM "259773258536220260$00"
  INFO.DATA [00 00 00 00 00 00 00 00 08 FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "你们的四大职务是：信仰、家庭、主人和一切美好的事物。完成神圣的任务，为神殿增添光彩。无论在思想上还是行动上，都不要违背你的兄弟姐妹，因为我们是一个整体。如果你在某种程度上未能坚持这些理想，你必须与大师或族长交谈，以洗清你的错误行为。还想加入吗？"
+ INFO.NAME "你们的四大职务是：信仰、家庭、大师和一切美好的事物。完成神圣的任务，为神殿增光添彩。无论在思想上还是行动上，都不要违背你的兄弟姐妹，因为我们是一个整体。如果你在某种程度上未能坚持这些理想，你必须与大师或族长交谈，以洗清你的错误行为。还想加入吗？"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Choice ""是的，我认为我能胜任"" 1 ""不想"" 4"
@@ -249658,7 +249658,7 @@ player->additem gold_001 2500"
  INFO.NNAM "826422288201903385$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "真不幸，那么很抱歉，我不能兑现对帝国教团的慷慨的承诺了。 {帝国人}"
+ INFO.NAME "真不幸，那么很抱歉，我不能兑现对帝国教团慷慨的承诺了。 {帝国人}"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3IC14_Ponius"
@@ -249672,7 +249672,7 @@ player->additem gold_001 2500"
  INFO.NNAM "14909278762928826161$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "真遗憾，但有总比没有好，你找到的东西，至少能让我兑现对帝国教团的慷慨的承诺。 {帝国人}"
+ INFO.NAME "真遗憾，但有总比没有好，你找到的东西，至少能让我兑现对帝国教团慷慨的承诺。 {帝国人}"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3IC14_Ponius"
@@ -249689,7 +249689,7 @@ Journal IC14_Ponius 30"
  INFO.NNAM "147051320712081932$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "真遗憾，但有总比没有好，你找到的东西，至少能让我兑现对帝国教团的慷慨的承诺。 {帝国人}"
+ INFO.NAME "真遗憾，但有总比没有好，你找到的东西，至少能让我兑现对帝国教团慷慨的承诺。 {帝国人}"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3IC14_Ponius"
@@ -249706,7 +249706,7 @@ Journal IC14_Ponius 35"
  INFO.NNAM "29024120551773714549$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "真遗憾，但有总比没有好，你找到的东西，至少能让我兑现对帝国教团的慷慨的承诺。 {帝国人}"
+ INFO.NAME "真遗憾，但有总比没有好，你找到的东西，至少能让我兑现对帝国教团慷慨的承诺。 {帝国人}"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3IC14_Ponius"
@@ -250039,7 +250039,7 @@ player->additem gold_001 1000"
  INFO.NNAM "1430325626161632435$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "如果你们能从潜逃的书记员莫萨农那里追回被挪用的资金，我很乐意兑现我的承诺。 {慷慨的承诺}"
+ INFO.NAME "如果你们能从潜逃的书记员莫萨农那里追回被挪用的资金，我很乐意兑现我慷慨的承诺。"
  INFO.SCVR "04JX3IC14_Ponius"
  INFO.INTV [0F 00 00 00]
  INFO.SCVR "14JX4IC14_Ponius"
@@ -250065,7 +250065,7 @@ Goodbye"
  INFO.NNAM "2582528093292722917$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "这是最受欢迎的提议，我们的书记员，一个叫莫萨农的傲特莫，带着三千龙币潜逃了。我们不知道他去了哪里。为了避免丑闻，我们没有向卫兵告发罪行。如果你能找到这个莫萨农并找回丢失的3000龙币，我将非常乐意立即兑现我对帝国教团的1000龙币的押金。 {报告,瓜尔,慷慨的承诺,帝国人}"
+ INFO.NAME "这是最受欢迎的提议，我们的书记员，一个叫莫萨农的傲特莫，带着3000龙币潜逃了。我们不知道他去了哪里。为了避免丑闻，我们没有向卫兵告发罪行。如果你能找到这个莫萨农并找回丢失的3000龙币，我将非常乐意立即兑现我对帝国教团慷慨的承诺。 {报告,瓜尔,帝国人}"
  INFO.SCVR "04JX3IC14_Ponius"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4IC14_Ponius"
@@ -250091,7 +250091,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Iulus Truptor$00"
- INFO.NAME "前段时间我与坎克图尼安·博尼乌斯交谈时，他答应捐赠我们1000龙币，用于出使灰烬之民。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以他没有兑现承诺是很奇怪的。 {慷慨的承诺}"
+ INFO.NAME "前段时间我与坎克图尼安·博尼乌斯交谈时，他答应捐赠我们1000龙币，用于出使灰烬之民。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以很奇怪他没有兑现他慷慨的承诺。"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
 -DIAL
@@ -275272,7 +275272,7 @@ Journal town_Vivec 5"
  INFO.NNAM "2102521282120885888$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "arrille$00"
- INFO.NAME "我听说楼上的赫里斯卡有财务问题。最近好像连赌都赢不了了。"
+ INFO.NAME "我听说楼上的赫里斯卡有财务问题。最近好像连个赌注都赢不了了。"
  INFO.SCVR "04JX0MS_Lookout"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -279402,7 +279402,7 @@ ModDisposition 25
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "habasi$00"
- INFO.NAME "他把所有的时间和金币都花在阔步沙蚤那边的议会所了。 {棍棒}"
+ INFO.NAME "他把所有的时间和金币，都花在阔步沙蚤那边的议会所了。 {棍棒}"
 -DIAL
  DIAL.NAME "鬼屋$00"
  DIAL.DATA [00]
@@ -310203,7 +310203,7 @@ goodbye"
  INFO.NNAM "16707733875531402$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "我是%Name，东帝国公司黑檀心机构的总负责人，为您服务。这和我向帝国教团的慷慨的承诺有关吗？ {帝国人}"
+ INFO.NAME "我是%Name，东帝国公司黑檀心机构的总负责人，为您服务。这和我向帝国教团慷慨的承诺有关吗？ {帝国人}"
  INFO.SCVR "04JX3IC14_Ponius"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4IC14_Ponius"
@@ -312333,7 +312333,7 @@ Goodbye"
  INFO.NNAM "19367190411167012576$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Iulus Truptor$00"
- INFO.NAME "你和坎克图尼安·博尼乌斯谈过了吗？你带来了他许诺的支持灰烬之民的慷慨的承诺了吗？还是来报告你的失败？"
+ INFO.NAME "你和坎克图尼安·博尼乌斯谈过了吗？你带来了他许诺的支持灰烬之民慷慨的承诺了吗？还是来报告你的失败？"
  INFO.SCVR "04JX3IC14_Ponius"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX3Gold_001"
@@ -312350,7 +312350,7 @@ Choice ""没有，但我正在努力。"" 1 ""抱歉，我可能无法让坎克图尼安·博尼乌斯兑现承
  INFO.NNAM "26207538728838920$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Iulus Truptor$00"
- INFO.NAME "你和坎克图尼安·博尼乌斯谈过了吗？你带来了他许诺的支持灰烬之民的慷慨的承诺了吗？还是来报告你的失败？"
+ INFO.NAME "你和坎克图尼安·博尼乌斯谈过了吗？你带来了他许诺的支持灰烬之民慷慨的承诺了吗？还是来报告你的失败？"
  INFO.SCVR "04JX3IC14_Ponius"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX4Gold_001"
@@ -359052,7 +359052,7 @@ Goodbye"
  INFO.NNAM "2593812520141509599$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "真不幸。那么很抱歉，我不能兑现对帝国教团的慷慨的承诺了。 {帝国人}"
+ INFO.NAME "真不幸。那么很抱歉，我不能兑现对帝国教团慷慨的承诺了。 {帝国人}"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3IC14_Ponius"
@@ -415294,7 +415294,7 @@ ForceGreeting"
  INFO.NNAM "10197155851661817615$00"
  INFO.DATA [00 00 00 00 00 00 00 00 08 FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "你们的四重职务是：信仰，家庭，主人，以及一切美好的事物。完成神圣的任务，为神殿增光添彩。无论在思想上还是行动上，都不要违背你的兄弟姐妹，因为我们都是一个整体。"
+ INFO.NAME "你们的四大职务是：信仰、家庭、大师和一切美好的事物。完成神圣的任务，为神殿增光添彩。无论在思想上还是行动上，都不要违背你的兄弟姐妹，因为我们是一个整体。"
  INFO.BNAM "Journal rules_temple 1"
 -INFO
  INFO.INAM "10197155851661817615$00"
