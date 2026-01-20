@@ -7408,7 +7408,7 @@ endif
 
 if (  helmbloodworm == 0 )
 	if player->(GetItemCount ""bloodworm_helm_unique"") == 1
-		addtopic ""血蠕虫之盔""
+		addtopic ""血蠕虫头盔""
 		set helmbloodworm to 1
 		set itemcount to ( itemcount + 1 )
 	endif
@@ -16066,9 +16066,9 @@ End yarnarScript"
 <BR>
 哈斯多奇据说是个争强好胜的巫师。他巡游四方，寻觅劲敌。据他所知，他从未找到一个接下战书的巫师。据信，他因为其法力为众多人所畏惧而感到颇为孤寂，便将自己的生命力与其法杖合为一体，其灵魂附于法杖之上，直至当下。泰姆瑞尔全大陆的施法者一直在寻找这魔杖。其可赋予持有者以魔法防护，显然对任何施法者而言都是一件宝具。<BR>
 <BR>
-血虫之盔<BR>
+血蠕虫头盔<BR>
 <BR>
-血虫之盔据说是蠕虫之王珍贵的孑遗之一。头盔乃是魔法构建的骨骼的造物。头盔准许佩戴者召唤骷髅并操纵亡灵。此盔对死灵法师而言可谓一件珍贵的神器。<BR>
+血蠕虫头盔据说是蠕虫之王珍贵的孑遗之一。头盔乃是魔法构建的骨骼的造物。头盔准许佩戴者召唤骷髅并操纵亡灵。此盔对死灵法师而言可谓一件珍贵的神器。<BR>
 <BR>
 龙骨链甲<BR>
 <BR>
@@ -17474,7 +17474,7 @@ End yarnarScript"
 -ARMO [00 00 00 00 00 04 00 00]
  ARMO.NAME "bloodworm_helm_unique_x$00"
  ARMO.MODL "a\A_Trollbone_Helm.NIF$00"
- ARMO.FNAM "血蠕虫之盔$00"
+ ARMO.FNAM "血蠕虫头盔$00"
  ARMO.SCRI "MuseumHelmBloodworm$00"
  ARMO.AODT [00 00 00 00 00 00 00 41 D0 84 00 00 58 02 00 00 DC 05 00 00 12 00 00 00]
  ARMO.ITEX "a\tx_Trollbone_helm.tga$00"
@@ -26086,9 +26086,9 @@ End yarnarScript"
 <BR>
 哈斯多奇据说是个争强好胜的巫师。他巡游四方，寻觅劲敌。据他所知，他从未找到一个接下战书的巫师。据信，他因为其法力为众多人所畏惧而感到颇为孤寂，便将自己的生命力与其法杖合为一体，其灵魂附于法杖之上，直至当下。泰姆瑞尔全大陆的施法者一直在寻找这魔杖。其可赋予持有者以魔法防护，显然对任何施法者而言都是一件宝具。<BR>
 <BR>
-血虫之盔<BR>
+血蠕虫头盔<BR>
 <BR>
-血虫之盔据说是蠕虫之王珍贵的孑遗之一。头盔乃是魔法构建的骨骼的造物。头盔准许佩戴者召唤骷髅并操纵亡灵。此盔对死灵法师而言可谓一件珍贵的神器。<BR>
+血蠕虫头盔据说是蠕虫之王珍贵的孑遗之一。头盔乃是魔法构建的骨骼的造物。头盔准许佩戴者召唤骷髅并操纵亡灵。此盔对死灵法师而言可谓一件珍贵的神器。<BR>
 <BR>
 龙骨链甲<BR>
 <BR>
@@ -31304,7 +31304,7 @@ End yarnarScript"
  INFO.PNAM "481829316689216895$00"
  INFO.NNAM "660210380231524077$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "哈拉伦·拉莫兰让我前往尼希斯向赫特曼·阿贝尔马维亚收税。"
+ INFO.NAME "哈拉伦·拉莫兰让我前往尼希斯向首领阿贝尔马维亚收税。"
 -INFO
  INFO.INAM "5900277372229618969$00"
  INFO.PNAM "251213180918946831$00"
@@ -54406,7 +54406,7 @@ player->additem ""gold_001"" 21000
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Choice: ""出售物品。"" 1 ""保留物品。"" 2"
 -DIAL
- DIAL.NAME "血蠕虫之盔$00"
+ DIAL.NAME "血蠕虫头盔$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "1166123243726022546$00"
@@ -54479,7 +54479,7 @@ player->additem ""gold_001"" 17000
  INFO.NNAM "236142932915924686$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着血蠕虫之盔？那就带着它回来吧，我们再达成交易。"
+ INFO.NAME "你没有带着血蠕虫头盔？那就带着它回来吧，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "15IX0bloodworm_helm_unique"
@@ -54490,7 +54490,7 @@ player->additem ""gold_001"" 17000
  INFO.NNAM "32038133091407024968$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着血蠕虫之盔？那就带着它回来吧，我们再达成交易。"
+ INFO.NAME "你没有带着血蠕虫头盔？那就带着它回来吧，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX0bloodworm_helm_unique"

@@ -84,6 +84,7 @@ local fixed = {
 	["Female Nord"] = "女诺德人",
 	["Gentleman"] = "绅士",
 	["Hand"] = "女神之手",
+	["Hetman"] = "首领",
 	["King"] = "国王",
 	["Mistress"] = "夫人",
 	["of Cloudrest"] = "云息城的",

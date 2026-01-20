@@ -14191,7 +14191,7 @@ Maeonius Man-llu
 
 > NPC_.FNAM hetman abelmawia
 Hetman Abelmawia
-赫特曼·阿贝尔马维亚
+首领阿贝尔马维亚
 
 > NPC_.FNAM assumanu mantiti
 Assumanu Mantiti
@@ -48330,7 +48330,7 @@ Knight-Protector Darius<BR>
 本证的持有者可进入尼希斯卵矿场。持证人必须在进入正常轮班前将证件交给卵矿场的卫兵。由于有传播枯萎病的风险，持证人不得进入较低层的卵矿场。<BR>
 <BR>
 签名并盖章<BR>
-赫特曼·阿贝尔马维亚<BR>
+首领阿贝尔马维亚<BR>
 守护骑士　达里乌斯<BR>"""
 
 > BOOK.FNAM bk_HouseOfTroubles_c
@@ -61599,7 +61599,7 @@ Galvene Othrobar
 
 > NPC_.FNAM viras guls
 Hetman Guls
-古尔斯护民官
+首领古尔斯
 
 > NPC_.FNAM broder garil
 Broder Garil
@@ -63112,11 +63112,11 @@ Seal of Hetman Abelmawia<BR>
 <BR>
 承蒙尼希斯领主，瑞多然家族议员，哈拉伦·拉莫兰的恩惠<BR>
 <BR>
-由他信任的仆人赫特曼·阿贝尔马维亚证明<BR>
+由他信任的仆人首领阿贝尔马维亚证明<BR>
 <BR>
 该文件授予矿工曼斯拉玛特·瓦布达斯和他的贤妻普拉娅·瓦布达斯在毗邻瓦布达斯氏族炉屋的土地上的所有租赁权、居住权、赏金和业务权，包括沿着河岸向东、向西80方的土地，以及河岸以北80方的土地与炉屋以南直至河岸的土地。<BR>
 <BR>
-赫特曼·阿贝尔马维亚的印章<BR>"""
+首领阿贝尔马维亚的印章<BR>"""
 
 > DOOR.FNAM chargen door exit
 Wooden Door
@@ -73056,7 +73056,7 @@ Chest
 
 > ARMO.FNAM bloodworm_helm_unique
 Bloodworm Helm
-血蠕虫之盔
+血蠕虫头盔
 
 > WEAP.FNAM daedric_crescent_unique
 Daedric Crescent
@@ -73368,9 +73368,9 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 哈斯多奇据说是个争强好胜的巫师。他巡游四方，寻觅劲敌。据他所知，他从未找到一个接下战书的巫师。据信，他因为其法力为众多人所畏惧而感到颇为孤寂，便将自己的生命力与其法杖合为一体，其灵魂附于法杖之上，直至当下。泰姆瑞尔全大陆的施法者一直在寻找这魔杖。其可赋予持有者以魔法防护，显然对任何施法者而言都是一件宝具。<BR>
 <BR>
-血虫之盔<BR>
+血蠕虫头盔<BR>
 <BR>
-血虫之盔据说是蠕虫之王珍贵的孑遗之一。头盔乃是魔法构建的骨骼的造物。头盔准许佩戴者召唤骷髅并操纵亡灵。此盔对死灵法师而言可谓一件珍贵的神器。<BR>
+血蠕虫头盔据说是蠕虫之王珍贵的孑遗之一。头盔乃是魔法构建的骨骼的造物。头盔准许佩戴者召唤骷髅并操纵亡灵。此盔对死灵法师而言可谓一件珍贵的神器。<BR>
 <BR>
 龙骨链甲<BR>
 <BR>
@@ -78060,11 +78060,11 @@ Miner Arobar thanked me for rescuing his daughter and pledged to support me on t
 
 > INFO.NAME hr_taxcollector 248883229237873701
 Hlaren Ramoran asked me to collect the taxes from Hetman Abelmawia in Gnisis.
-哈拉伦·拉莫兰让我前往尼希斯向赫特曼·阿贝尔马维亚收税。
+哈拉伦·拉莫兰让我前往尼希斯向首领阿贝尔马维亚收税。
 
 > INFO.NAME hr_taxcollector 660210380231524077
 Hetman Abelmawia gave me the taxes from Gnisis.
-赫特曼·阿贝尔马维亚把尼希斯的税收交给了我。
+首领阿贝尔马维亚把尼希斯的税收交给了我。
 
 > INFO.NAME hr_taxcollector 251213180918946831
 I tried to give only 50 gold to Hlaren Ramoran, and he has refused to support me on the Council.
@@ -80760,7 +80760,7 @@ To improve my stronghold, Dondos Driler told me that I must improve business aro
 
 > INFO.NAME hh_stronghold 8517323126476818
 Dondos Driler told me that I might could get scrolls of cure blight from Hetman Abelmawia in Gnisis or from Pierlette Rostorard in Sadrith Mora.
-唐多斯·钻勒告诉我，我可以从尼希斯的赫特曼·阿贝尔马维亚或者萨德瑞斯-莫拉的皮耶莱特·罗斯托拉德那里得到治愈枯萎病的卷轴。
+唐多斯·钻勒告诉我，我可以从尼希斯的首领阿贝尔马维亚或者萨德瑞斯-莫拉的皮耶莱特·罗斯托拉德那里得到治愈枯萎病的卷轴。
 
 > INFO.NAME hh_stronghold 1254417055732419051
 Dondos Driler told me that there are some unemployed miners in Gnisis and Tel Aruhn. If I can, I should draw experience miners away from House Redoran or House Telvanni.
@@ -80868,7 +80868,7 @@ The second phase of my stronghold should be complete.
 
 > INFO.NAME hr_stronghold 10406253472162329374
 Galsa Gindu told me that in order to build a stronghold fit for a House Redoran Councilor, I must speak with Viras Guls, the hetman of my village, and find out what I must do to attract more settlers.
-加尔萨·金杜告诉我，为了建造一个适合瑞多然家族议员居住的堡垒，我必须和我村子的赫特曼·古尔斯谈谈，看看我必须做些什么才能吸引更多定居者。
+加尔萨·金杜告诉我，为了建造一个适合瑞多然家族议员居住的堡垒，我必须和我村子的首领维拉斯·古尔斯谈谈，看看我必须做些什么才能吸引更多定居者。
 
 > INFO.NAME hr_stronghold 22730290713257631286
 Viras Guls told me that some of the men here are worried that they will not be able to get wives. He wants me to buy slaves and bring them to my stronghold or find women who would be willing to move to my stronghold.
@@ -80892,11 +80892,11 @@ Helviane Desele agreed to send two of her older girls to my stronghold where the
 
 > INFO.NAME hr_stronghold 1667820224327111578
 The Arvel family agreed to send any suitable slaves to my stronghold instead of back to the mainland. This should satisfy Hetman Guls.
-阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让古尔斯护民官满意。 {奴隶们}
+阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让首领古尔斯满意。 {奴隶们}
 
 > INFO.NAME hr_stronghold 236413351529828150
 Hetman Guls said he was satisfied that the men around my stronghold would be able to find wives. I should speak with Galsa Gindu again about construction.
-古尔斯护民官说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。
+首领古尔斯说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。
 
 > INFO.NAME hr_stronghold 9503227231245829738
 Galsa Gindu gave the orders to begin constructing the final stages of my stronghold.
@@ -89476,7 +89476,7 @@ Angoril of Vulkhel Guard is the boss up at the fort. Nobody else important I can
 
 > INFO.NAME someone in particular 30255278921552014475
 Mehra Drora is Gnisis Temple Priestess. Hetman Abelmawia is Village Hetman. General Darius leads the Deathshead Legion garrison at Fort Darius; Optio Bologra, an Orc, is Deathshead Legion's Camp Prefect. Fenas Madach runs the Madach Tradehouse. A renegade Telvanni wizard, Baladas Demnevanni, lives in Arvs Drelen, the Old Veloth tower.
-梅拉·德罗拉是尼希斯神殿的女祭司，赫特曼·阿贝尔马维亚是村长。达里乌斯将军率领达里乌斯要塞的死亡头颅军团驻军；奥普缇欧·博洛格拉是兽人，是死亡头颅军团的营地长官。费纳斯·马达奇经营马达奇贸易行。叛变的泰瓦尼巫师巴拉达斯·德姆内瓦尼住在老维洛斯塔楼阿维斯·德雷伦。
+梅拉·德罗拉是尼希斯神殿的女祭司，首领阿贝尔马维亚是村长。达里乌斯将军率领达里乌斯要塞的死亡头颅军团驻军；奥普缇欧·博洛格拉是兽人，是死亡头颅军团的营地长官。费纳斯·马达奇经营马达奇贸易行。叛变的泰瓦尼巫师巴拉达斯·德姆内瓦尼住在老维洛斯塔楼阿维斯·德雷伦。
 
 > INFO.NAME someone in particular 14719301421719719905
 Wadarkhu the Khajiit hangs around the Druegh-jigger's Rest; he's very serious business. Almse Arenim, she's Hlaalu, of Arenim Manor; the Arenims are the local Hlaalu lords. Nadene Rotheran's place is where the Camonna Tong people hang out. You stay away from there, outlander.
@@ -89976,15 +89976,15 @@ Indarys Manor will have more settlers soon enough.
 
 > INFO.NAME attract more settlers 7984216862523425252
 So, Hetman Guls is satisfied. I will give the orders to begin the last stage of your stronghold.
-所以，古尔斯护民官很满意。我将下达指示，开始你的堡垒的最后一道工序。
+所以，首领古尔斯很满意。我将下达指示，开始你的堡垒的最后一道工序。
 
 > INFO.NAME attract more settlers 27792235692012361
 So, Hetman Guls believes there should be more women there. I am inclined to agree with him. A stronghold cannot grow and prosper with so few women there. I am spoken for, of course, but if the men at Indarys Manor need wives, there are a few here in town.
-所以，古尔斯护民官认为那里应该有更多的女人。我同意他的看法，一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯府邸的男人们需要老婆，城里也有几个。
+所以，首领古尔斯认为那里应该有更多的女人。我同意他的看法，一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯府邸的男人们需要老婆，城里也有几个。
 
 > INFO.NAME attract more settlers 1770530849447717108
 Yes, speak with Hetman Guls at your stronghold of Indarys Manor. He can tell you of anything troubling your settlers.
-是的，去因达瑞斯府邸的堡垒和古尔斯护民官谈谈吧。他能告诉你任何困扰你们定居者的事。
+是的，去因达瑞斯府邸的堡垒和首领古尔斯谈谈吧。他能告诉你任何困扰你们定居者的事。
 
 > INFO.NAME attract more settlers 850775252952223238
 Yes, you have found wives for us. Now the settlement around Indarys Manor will grow and prosper.
@@ -93452,11 +93452,11 @@ Yes, I have taught you the spell. Now you just need to go find the queen and cur
 
 > INFO.NAME mudan-mul egg mine 13951190932475731227
 It is a rather complicated spell. [Aryon teaches you a targeted cure blight spell.] You should understand the principle now. You will find this spell is much more efficient than most. If you want, you can also buy scrolls of cure blight from Hetman Abelmawia in Gnisis.
-这是一个相当复杂的咒语。[阿里昂教你一个有针对性的治愈枯萎病的咒语]你现在应该明白原理了。你会发现这个法术比大多数法术都要有效。如果你愿意，你也可以从尼希斯的赫特曼·阿贝尔马维亚购买治愈枯萎病的卷轴。 {老鼠}
+这是一个相当复杂的咒语。[阿里昂教你一个有针对性的治愈枯萎病的咒语]你现在应该明白原理了。你会发现这个法术比大多数法术都要有效。如果你愿意，你也可以从尼希斯的首领阿贝尔马维亚购买治愈枯萎病的卷轴。 {老鼠}
 
 > INFO.NAME mudan-mul egg mine 23285136902751329926
 I trust you can already cast this spell, then. If not, speak with Hetman Abelmawia in Gnisis. He sells scrolls of cure blight.
-我相信你已经会施法了。如果不会，就去找尼希斯的赫特曼·阿贝尔马维亚。他出售治愈枯萎病的卷轴。
+我相信你已经会施法了。如果不会，就去找尼希斯的首领阿贝尔马维亚。他出售治愈枯萎病的卷轴。
 
 > INFO.NAME mudan-mul egg mine 3810172492017319811
 This mine is due west of my tower here in Tel Vos, just a few minutes from here. There's also a shortcut if you go through the dungeon. The Kwama queen there has a blight disease. If you wish, I can teach you a spell of cure blight that you can cast on the queen.
@@ -95908,7 +95908,7 @@ Not only are you lying to me about how much taxes were due, you didn't even brin
 
 > INFO.NAME taxes from gnisis 597831803248618175
 Then why are you asking me about it? Get the taxes from Hetman Abelmawia in Gnisis and bring them back to me.
-那你为什么还问我？从尼希斯的赫特曼·阿贝尔马维亚那里拿到税金，然后拿回来给我。
+那你为什么还问我？从尼希斯的首领阿贝尔马维亚那里拿到税金，然后拿回来给我。
 
 > INFO.NAME taxes from gnisis 25855212531836413400
 Do you have the taxes?
@@ -95928,7 +95928,7 @@ No, not yet.
 
 > INFO.NAME taxes from gnisis 20104848777383009
 My regular tax collector has fallen ill, but the duties are quite simple. Speak with Hetman Abelmawia and get the taxes from him. Then bring the taxes back to me.
-我固定的收税员病倒了，但职务很简单。和赫特曼·阿贝尔马维亚谈谈，从他那里拿到税金，然后把税拿回来给我。 {收藏家}
+我固定的收税员病倒了，但职务很简单。和首领阿贝尔马维亚谈谈，从他那里拿到税金，然后把税拿回来给我。 {收藏家}
 
 > INFO.NAME taxes from gnisis 17786131453113727902
 I do not think you are still collecting taxes from Gnisis.
@@ -99988,7 +99988,7 @@ Yes, I heard. You are the Hortator of House Redoran.
 
 > INFO.NAME redoran hortator 261771224292836112
 I know little of House Redoran, but I have had dealings with Athyn Sarethi in the past. Perhaps you should speak with him first. He lives under Skar in Ald'ruhn.
-我对瑞多然家族知之甚少，但我过去和艾辛·萨雷提打过交道。也许你该先和他谈谈，他住在奥德'汝因的帝王蟹骨的庄园里面。
+我对瑞多然家族知之甚少，但我过去和艾辛·萨雷提打过交道。也许你该先和他谈谈，他住在奥德'汝因的蟹骨地下。
 
 > INFO.NAME redoran hortator 15332302291304920360
 Yes, I know. They named you Hortator.
@@ -101054,7 +101054,7 @@ The Buoyant Armigers is an small military order of the Temple, exclusively dedic
 
 > INFO.NAME hetman abelmawia 1460527266306966155
 The Velothi Dunmer Hetman Abelmawia is the village hetman, and village steward for Hlaren Ramoran, Redoran Master, Councilor, Lord of Gnisis.
-维洛提丹莫赫特曼·阿贝尔马维亚是哈拉伦·拉莫兰的村长，瑞多然大师、议员、尼希斯领主。
+维洛提丹莫首领阿贝尔马维亚是哈拉伦·拉莫兰的村长，瑞多然大师、议员、尼希斯领主。
 
 > INFO.NAME telvanni mouths  17083295952647228929
 The Telvanni mage-lords are far too busy and important to attend council meetings. So they have representatives called 'Mouths' who attend to council business for them. Mouths are proteges of their wizards, and expected to step into their shoes when their masters die. Mouths have complete authority to speak for their lords, but they often defer the tough decisions to their masters.
@@ -105174,7 +105174,7 @@ Haw, haw, haw. You killed a Hlaalu councilor? And you think they'll make you a H
 
 > INFO.NAME hlaalu hortator 2887014317214031032
 So the other councilors agreed to name you Hortator, eh? Hope you got your money's worth. So you probably have a lot of work to do. And somewhere else to do it. Go see Crassius Curio. He's got the Belt of the Hortator, which you're supposed to wear.
-所以其他议员同意给你任命为统谏使，嗯？希望你物有所值。所以你可能有很多工作要做，去别的地方做吧。去找克拉西乌斯·库里奥吧。他有统谏使的腰带，你应该戴上它。
+所以其他议员同意给你任命为统谏使，嗯？希望你这钱花得值。那么你可能有很多工作要做了。并且是在别的地方。去找克拉西乌斯·库里奥，他有统谏使的腰带，你应该戴上它。
 
 > INFO.NAME hlaalu hortator 124541445935030727
 I said you had my vote, and I'm a man of my word, but you have to get the other Hlaalu Councilors to agree.
@@ -105574,7 +105574,7 @@ I thought we agreed you'd take over for me. You can name yourself Hortator now. 
 
 > INFO.NAME hlaalu hortator 304685932110689248
 That's the worst story I've ever heard. What makes you think I care about these prophecies? If you're the chosen one, why do you have to come to me? Why aren't you Hortator already, eh? I believe you have wasted enough of my time. Goodbye.
-这是我听过最烂的故事了，你凭什么认为我在乎这些预言？如果你是天命之子，为什么要来找我？你怎么还没统谏使？我相信你已经浪费我太多时间了，再见。
+这是我听过最烂的故事了，你凭什么认为我在乎这些预言？如果你是天命之子，为什么要来找我？你怎么还不是统谏使？我相信你已经浪费我太多时间了，再见。
 
 > INFO.NAME hlaalu hortator 1418519662163017603
 I have long believed it was a mistake to turn from the old gods. Perhaps Azura is with you after all. And perhaps not. I will tell you that I've spoken with Dagoth Ur. He promised me the same thing. That he will drive the foreigners from our lands. But I am not one to ignore opportunity, nor am I one to be troubled by rubbing two sides of a coin. If you are a %PCRace of your word, I am your ally. I will tell Velanda Omani and Nevena Ules to support you as Hortator of House Hlaalu.
@@ -110286,7 +110286,7 @@ A well-marked road leads southeast to Ald'ruhn. Punibi Yahaz offers silt strider
 
 > INFO.NAME specific place 21565221076732445
 Our village is on the Ouada Samsi gorge in the West Gash. The Gnisis Temple is the village center. The Gnisis eggmine lies to the east. The Legion barracks, Fort Darius, the Deathshead Legion garrison, and the Imperial shrine lie to the southeast. Madach Tradehouse and the silt strider platform are south of the Temple. Hetman Abelmawia's hut is southwest, close to the Temple. An Old Velothi tower lies under a natural arch to the northwest, built into the bluff.
-我们的村庄位于西境之痕的瓦达-萨姆西峡谷上。尼希斯神殿是村子的中心。尼希斯卵矿场位于村内东边的山上。军团兵营、达里乌斯要塞、死亡头颅军团驻扎地和帝国人圣祠位于东南方。马达奇贸易行和阔步沙蚤平台位于神殿南面。赫特曼·阿贝尔马维亚的小屋在西南方，靠近神殿。一座老维洛提塔楼位于西北方的天然拱门下，建在悬崖上。
+我们的村庄位于西境之痕的瓦达-萨姆西峡谷上。尼希斯神殿是村子的中心。尼希斯卵矿场位于村内东边的山上。军团兵营、达里乌斯要塞、死亡头颅军团驻扎地和帝国人圣祠位于东南方。马达奇贸易行和阔步沙蚤平台位于神殿南面。首领阿贝尔马维亚的小屋在西南方，靠近神殿。一座老维洛提塔楼位于西北方的天然拱门下，建在悬崖上。
 
 > INFO.BNAM specific place 21565221076732445 c1
 Continue
@@ -112770,7 +112770,7 @@ The queen there is no longer blighted. Now you can recruit some miners.
 
 > INFO.NAME shurdan-raplay 130134272615918876
 It's just across he River Odai from your stronghold. The queen there is blighted. If you need scrolls of cure blight, try speaking with Hetman Abelmawia in Gnisis or Pierlette Rostorad in Sadrith Mora.
-就在你堡垒的奥代河对面。那里的女王已经得了枯萎病。如果你需要治愈枯萎病的卷轴，可以去找尼希斯的赫特曼·阿贝尔马维亚，或者萨德瑞斯-莫拉的皮埃莱特·罗斯托拉德。
+就在你堡垒的奥代河对面。那里的女王已经得了枯萎病。如果你需要治愈枯萎病的卷轴，可以去找尼希斯的首领阿贝尔马维亚，或者萨德瑞斯-莫拉的皮埃莱特·罗斯托拉德。
 
 > INFO.NAME furius acilius 21088215792134823227
 As I said, ask at the Imperial Guard Garrison.
@@ -125164,7 +125164,7 @@ Andil in Tel Vos is the apothecary you should speak with. Get three potions of c
 
 > INFO.NAME cure blight 1845116731929925941
 I'm not a wizard. I don't know where you could learn the spell of cure blight. But I have gotten scrolls of cure blight from Hetman Abelmawia before. Perhaps he has some or knows where you can get some. Scrolls are more reliable anyway.
-我不是巫师，我不知道你能从哪里学到治愈枯萎病的咒语。但我以前从赫特曼·阿贝尔马维亚那里得到过治愈枯萎病的卷轴。也许他有一些，或者知道你在哪里能得到一些。反正卷轴更可靠。
+我不是巫师，我不知道你能从哪里学到治愈枯萎病的咒语。但我以前从首领阿贝尔马维亚那里得到过治愈枯萎病的卷轴。也许他有一些，或者知道你在哪里能得到一些。反正卷轴更可靠。
 
 > INFO.NAME cure blight 2137304871390318696
 I have scrolls of blight curing if you'd like to barter.
@@ -133316,7 +133316,7 @@ You're not supposed to be here, Redoran.
 
 > INFO.NAME greeting 5 16640103302741310761
 I am Hetman Guls. What can I do for you?
-我是古尔斯护民官。我能为你做什么？
+我是首领古尔斯。我能为你做什么？
 
 > INFO.NAME greeting 5 2897075251173223280
 What are you here for, Hlaalu? Didn't I already tell Edryno that I didn't have the debt money?
@@ -134812,7 +134812,7 @@ Is Old Blue Fin finally dead?
 
 > INFO.NAME greeting 5 4958280531226430750
 Yes, I'm Theldyn Virith. Sort of the Hetman of Ald Velothi.
-是的，我是塞尔丁·维瑞斯。算是奥德-维洛提的赫特曼。
+是的，我是塞尔丁·维瑞斯。算是奥德-维洛提的首领。
 
 > INFO.NAME greeting 5 2334731848996015332
 What brings you back to Ald Velothi, %PCName?
@@ -142656,7 +142656,7 @@ The last stage of your stronghold is under construction.
 
 > INFO.NAME stronghold 15815302591153123672
 I am ready to give you a stronghold fit for a House Redoran Councilor. But first you must speak with Hetman Guls at your stronghold. Ask him what must be done to attract more settlers.
-我准备给你一个适合瑞多然家族议员的堡垒，但首先，你必须在你的堡垒与古尔斯护民官谈谈。问问他该怎么做才能吸引更多定居者。
+我准备给你一个适合瑞多然家族议员的堡垒，但首先，你必须在你的堡垒与首领古尔斯谈谈。问问他该怎么做才能吸引更多定居者。
 
 > INFO.NAME stronghold 315227697298816094
 The second stage of your stronghold is complete. Speak with me again when you need a stronghold fit for a House Redoran Councilor.
@@ -154168,7 +154168,7 @@ No, sir.
 
 > INFO.NAME eggmine 2157213177221565784
 The eggmine was closed recently because of the risk of spreading the blight, but the miners here need the eggmine to support their families. Find the blighted kwama queen and cure her. Either cast a cure blight spell on her, or speak with Hetman Abelmawia who has scrolls of cure blight.
-尼希斯卵矿场最近被关闭了，因为有传播枯萎病的风险。但这里的矿工需要靠挖卵矿来养家糊口。去里面找到夸蚂女王并想办法治愈她，要么对她施法治愈枯萎病，要么和赫特曼·阿贝尔马维亚谈谈，他有治愈枯萎病的卷轴。 {枯萎之症}
+尼希斯卵矿场最近被关闭了，因为有传播枯萎病的风险。但这里的矿工需要靠挖卵矿来养家糊口。去里面找到夸蚂女王并想办法治愈她，要么对她施法治愈枯萎病，要么和首领阿贝尔马维亚谈谈，他有治愈枯萎病的卷轴。 {枯萎之症}
 
 > INFO.NAME eggmine 84148041264816424
 I already gave you the key, now get lost before they see us talking.
