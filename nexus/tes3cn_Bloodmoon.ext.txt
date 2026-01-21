@@ -1950,7 +1950,7 @@ Personal Secretary to the Emperor<BR>
 <BR>
 遵循这些指示：<BR>
 <BR>
-前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。他将是你未来的上司和资助者，你要听从他的命令。他的住处不详，但可以在当地名为“南墙”的街角俱乐部里询问。那里的人会知道在哪里可以找到凯乌斯。当你向凯乌斯报到时，把这包文件交给他，等待进一步的命令。<BR>
+前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。他将是你未来的上司和资助者，你要听从他的命令。他的住处不详，但可以在当地名为“南墙”的街角酒吧里询问。那里的人会知道在哪里可以找到凯乌斯。当你向凯乌斯报到时，把这包文件交给他，等待进一步的命令。<BR>
 <BR>
 记住，你的生命和自由归功于皇帝。认真对待他的命令，你会得到回报。如果背叛他，你将遭受和其他所有叛徒一样的命运。<BR>
 <BR>
@@ -6795,7 +6795,7 @@ Vivec Informants
 
 > INFO.NAME a1_v_vivecinformants 31063204821378011980
 Caius sent me to Vivec with three tasks: speak with Addhiranirr, a Khajiit Thieves Guild operative in St. Olms; speak with Huleeya, an Argonian in the Foreign Quarter, at the Black Shalk Cornerclub; and speak with Mehra Milo, a Temple priestess at the Hall of Wisdom in the Temple Compound. When I have information about the Nerevarine cult and the Sixth House cult from these three, I report back to Caius. Caius gave me instructions in writing.
-凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特--盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑色砂壳虫街角俱乐部与阿尔贡尼亚人胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {阿尔贡,沙尔,令状}
+凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特--盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {阿尔贡,沙尔,令状}
 
 > INFO.NAME a1_v_vivecinformants 7514278082367630855
 The Spymaster took my report, and the notes from Huleeya and the 'Progress of Truth.' He needs time to read and digest my report, but in the meantime, he gave me 200 gold to spend and told me to go out and get some guild or freelance jobs, or get some training. When I'm ready, he says to come back, and he'll have new orders for me.
@@ -6811,7 +6811,7 @@ Huleeya Informant
 
 > INFO.NAME a1_7huleeyainformant 2371113469284309043
 I found Huleeya, but we can't talk at the Black Shalk Cornerclub because some troublesome fools are bothering him. He says he'll answer my questions if I'll travel together with him to Jobasha's Rare Books.
-我找到了胡利亚，但我们不能在黑色砂壳虫街角俱乐部谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
+我找到了胡利亚，但我们不能在黑砂壳虫街角酒吧谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
 
 > INFO.NAME a1_7huleeyainformant 2050715403896519486
 Huleeya hadn't heard of a Sixth House cult, but he knew a lot about the Nerevarine cult. He gave me notes to give to Caius. The main thing I gathered is that the Temple's conflict with the Nerevarine cult is tied up with ancient grievances between the Ashlanders and the Great Houses.
@@ -7135,7 +7135,7 @@ Mages Guild: Unsanctioned Training
 
 > INFO.NAME mg_stopcompetition 3145751682893411625
 Ranis wants me to convince an Argonian at the South Wall Cornerclub to stop offering unsanctioned training in Restoration.
-拉妮斯要我说服南墙街角俱乐部的一位教人治愈系魔法的阿尔贡停止提供未经批准的训练。 {阿尔贡}
+拉妮斯要我说服南墙街角酒吧的一位教人治愈系魔法的阿尔贡停止提供未经批准的训练。 {阿尔贡}
 
 > INFO.NAME mg_stopcompetition 9152209433093011266
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore.
@@ -7191,7 +7191,7 @@ Report to Caius Cosades
 
 > INFO.NAME a1_1_findspymaster 31540100981975929470
 My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.
-我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角俱乐部问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
+我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角酒吧问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
 
 > INFO.NAME a1_1_findspymaster 155946986227161440
 I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
@@ -8959,7 +8959,7 @@ Thieves Guild: Find Brother Nads
 
 > INFO.NAME tg_brotherthief 2372713093177241669
 Gentleman Jim Stacey asked me to find out what happened to a fellow thief, Nads Tharen, who was going to deliver a key to us. Nads Tharen used to hang out at the Elven Nations Cornerclub. I must find out what happened to him and bring back the key he was supposed to deliver.
-绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在哈拉鲁驻地的精灵国度街角俱乐部出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
+绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在哈拉鲁驻地的精灵国度街角酒吧出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
 
 > INFO.NAME tg_brotherthief 1945415510163388475
 Gentleman Jim Stacey thanked me for returning Nads Tharen's key.
@@ -9255,11 +9255,11 @@ Mages Guild: Kill the Telvanni Councilors
 
 > INFO.NAME mg_killtelvanni 2153128333282506169
 Arch-Mage Trebonius asked me to kill all the Telvanni councilors. I'm not sure if he was serious.
-大导师崔博尼乌斯让我杀掉所有泰瓦尼议员。我不知道他是不是认真的。 {首席大法师}
+大导师崔博尼乌斯让我杀掉所有泰瓦尼议员。我不知道他是不是认真的。 {大法师}
 
 > INFO.NAME mg_killtelvanni 1541698602796924971
 Arch-Mage Trebonius thanked me for killing all the Telvanni councilors.
-大导师崔博尼乌斯感谢我杀死了所有泰瓦尼议员。 {首席大法师}
+大导师崔博尼乌斯感谢我杀死了所有泰瓦尼议员。 {大法师}
 
 > INFO.NAME fg_egg_poachers 2593574382390511855
 Fighters Guild: The Egg Poachers
@@ -9543,7 +9543,7 @@ Mages Guild: Arch-Mage
 
 > INFO.NAME mg_guildmaster 171691112155085087
 Edwinna Elbert asked me to talk to Arch-Mage Trebonius.
-埃德温娜·埃尔伯特让我去找大导师崔博尼乌斯谈谈。 {首席大法师}
+埃德温娜·埃尔伯特让我去找大导师崔博尼乌斯谈谈。 {大法师}
 
 > INFO.NAME mg_guildmaster 6847326612039925864
 I am the new Arch-Mage of the Guild of Mages in Vvardenfell.
@@ -9799,7 +9799,7 @@ Temple: Ebony Mail
 
 > INFO.NAME tt_assarnibibi 3012119815272616616
 Archcanon Tholer Saryoni asked me to bring him the Ebony Mail. The Ebony Mail can be found in Mount Assarnibibi where Molag Bal oversaw the 99 lovers of Boethiah that gave birth to Almalexia. Mount Assarnibibi is north of Molag Mar.
-大主教索勒·萨里奥尼让我把黑檀链甲带给他。黑檀链甲可以在阿萨恩尼比比山找到，莫拉格·巴尔曾在那里监督波耶西亚的99位情人，孕育了阿玛莱西娅。阿萨恩尼比比山在莫拉格-玛尔的北面。 {莫拉格·玛尔}
+大主教索勒·萨里奥尼让我把黑檀链甲带给他。黑檀链甲可以在阿萨尼比比山找到，莫拉格·巴尔曾在那里监督波耶西亚的99位情人，孕育了阿玛莱西娅。阿萨尼比比山在莫拉格-玛尔的北面。 {莫拉格·玛尔}
 
 > INFO.NAME tt_assarnibibi 2441217101257010807
 I received the Ebony Mail from the shrine at Assarnibibi.
@@ -13257,7 +13257,7 @@ Morag Tong: Writ for Feruren Oran
 
 > INFO.NAME mt_writoran 2180567281021329577
 I have been given a Writ for the honorable execution of Feruren Oran. He may be found in the Elven Nations Cornerclub in the Hlaalu Plaza here in Vivec.
-我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁驻地的精灵国度街角俱乐部找到。
+我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁驻地的精灵国度街角酒吧找到。
 
 > INFO.NAME mt_writoran 20066255772525114995
 I reported the honorable execution of Feruren Oran.
@@ -13553,7 +13553,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_dinner 1432819242135819097
 Iulus Truptor says we need 5 bottles of Cyrodilic brandy for a fundraising dinner. I'm to make the rounds of the tradehouses and cornerclubs in Balmora and ask if the publicans will donate the necessary brandy. When I have the brandy, I'm to deliver it to Iulus Truptor.
-伊卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角俱乐部转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给伊卢斯·特拉托普。
+伊卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角酒吧转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给伊卢斯·特拉托普。
 
 > INFO.NAME ic12_dinner 8526111421483114877
 I delivered five bottles of Cyrodilic brandy to Iulus Truptor at Fort Moonmoth. He was very pleased. He gave me tokens of Zenithar's special blessing, and told me to speak to him again when I'm ready for another almoner's mission.
@@ -14213,11 +14213,11 @@ Mages Guild: Mystery of the Dwarves
 
 > INFO.NAME mg_dwarves 19460502657099249
 Arch-Mage Trebonius asked me to find out what happened to the Dwarves. Unfortunately, he didn't give me much information to go on. I'm not sure if he was serious.
-大导师崔博尼乌斯让我去查查矮人的下落。不幸的是，他并没有给我提供太多信息。我不知道他是不是认真的。 {首席大法师}
+大导师崔博尼乌斯让我去查查矮人的下落。不幸的是，他并没有给我提供太多信息。我不知道他是不是认真的。 {大法师}
 
 > INFO.NAME mg_dwarves 18838102512502227053
 Arch-Mage Trebonius was pleased when I showed him the three Dwemer books. He said this was sufficient and thanked me for solving the mystery of the disappearance of the Dwarves.
-当我向大导师崔博尼乌斯展示三本锻莫书时，他很高兴。他说这就足够了，并感谢我解开了矮人的消失之谜。 {首席大法师}
+当我向大导师崔博尼乌斯展示三本锻莫书时，他很高兴。他说这就足够了，并感谢我解开了矮人的消失之谜。 {大法师}
 
 > INFO.NAME ic8_eiruki 26668260521278827056
 Imperial Cult: Alms from the Skyrim Mission
@@ -26834,11 +26834,11 @@ Their kind isn't welcome here. They like mead well enough, it's true, but the be
 
 > INFO.NAME berserkers 1396224021218415248
 They are called "bare-sarks" in the Nord tongue, beause of their insistence on going bare-chested even in the most severe blizzard. They're crazy as they come, friend, and care only for savagery and murder. It is said they are so attracted to death, they make their homes in some of Solstheim's burial barrows. I've also heard rumor of some kind of berserker "mother" but no one has ever seen her and lived to tell about it.
-在诺德人的口中，他们被称为“赤沙克”，因为他们即使在最严重的暴风雪中也坚持赤膊上阵。他们疯疯癫癫的，关心的只有野蛮和谋杀。据说他们被死亡所吸引，在索瑟泰姆的一些墓穴中安家。我还听说过关于某种狂战士的“母亲”的传闻，但没有人见过她，也没有人活着讲述过。
+在诺德人的语言里，他们被称作 “赤膊者” ，只因这群人即便身处最猛烈的暴风雪，也执意袒露胸膛。他们疯癫至极，伙计，心中只装着野蛮与杀戮。有传言说，他们对死亡如此着迷，甚至把索瑟泰姆岛上的一些远古坟冢当作了巢穴。我还听过一个关于某种狂战士 “母亲” 的传闻，但至今无人见过她的真容，更无人能活着讲述那段经历。
 
 > INFO.NAME berserkers 290772171403513699
 They are the "bare-sarks" or bare-chested. The berserkers wear no clothing and have been driven mad by the cold and too much mead. They are not welcome here or anywhere else on Solstheim, for that matter.
-他们是“赤沙克”或者说赤膊人。这些狂战士不穿衣服，被寒冷和太多的蜜酒酿成了疯子。无论是这里还是索瑟泰姆的任何地方都不欢迎他们。
+他们就是所谓的 “赤膊者”，或者是“袒胸者” 。这些狂战士赤身裸体，严寒与过量的蜜酒已将他们逼疯。无论在本地还是索瑟泰姆的其他地方，他们都不受欢迎。
 
 > INFO.NAME berserkers 14375304282006331520
 They are crazed Nords roaming the forest. Stay away from them.

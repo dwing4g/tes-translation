@@ -5510,7 +5510,7 @@ Master Wizard
 
 > FACT.RNAM Mages Guild 10
 Arch-Mage
-首席大法师
+大法师
 
 > FACT.FNAM Sixth House
 Sixth House
@@ -5547,7 +5547,7 @@ Operative
 
 > FACT.RNAM Census and Excise 7
 Agent
-特工
+代理人
 
 > FACT.RNAM Census and Excise 8
 Excise Officer
@@ -5757,7 +5757,7 @@ Axe skill helps a user wield heavy chopping weapons like war axes and battleaxes
 
 > SKIL.DESC [07 00 00 00]
 Spear skill permits effective use of long-hafted thrusting weapons like spears and halberds.
-长枪熟练度能够使你更高效的使用长枪和长戟等长枪类武器。
+长杆熟练度能够使你更高效的使用长枪和长戟等长枪类武器。
 
 > SKIL.DESC [08 00 00 00]
 Athletics skill trains and conditions one for running and swimming. Skilled athletes move short and long distances over land with speed and efficiency, and they also swim swiftly underwater.
@@ -14609,7 +14609,7 @@ $93We will continue the tale after your conjuration test, provided you both perf
 <BR>
 　    “送来这些信件的苟葛斯开始边清理边告诉索巴德镇子里的新闻--尽管男孩每次都这么做，但是很少能引起索巴德的注意。然而，这一次他对男孩带来的消息十分感兴趣：魔法公会来到阿里诺尔城了。”<BR>
 <BR>
-　    “索巴德专注地听着苟葛斯讲述的关于魔法公会的一切，包括那位出色的首席大法师和那种不可思议的炼金、附魔工具。当这个小伙子讲完这些时，索巴德写下了一张便条，将它和一支鹅毛笔交给了苟葛斯。便条上写着，‘用它们给这支鹅毛笔附魔。’”<BR>
+　    “索巴德专注地听着苟葛斯讲述的关于魔法公会的一切，包括那位出色的大法师和那种不可思议的炼金、附魔工具。当这个小伙子讲完这些时，索巴德写下了一张便条，将它和一支鹅毛笔交给了苟葛斯。便条上写着，‘用它们给这支鹅毛笔附魔。’”<BR>
 <BR>
 　    “这么做的开销可不少’，苟葛斯说。”<BR>
 <BR>
@@ -47082,7 +47082,7 @@ One need not be a member of the Mages Guild to know that this carefully contrive
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 法师公会的起源<BR>
-首席大法师萨拉斯  著<BR><BR>
+大法师萨拉斯  著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 一群法师、巫师和各式各样的神秘主义者集中他们的资源和才能用于研究和公益事业，这在第二纪元初期是一个革命性的概念。当时唯一在目标和结构上与我们今天所知的法师行会最接近的组织是阿泰乌姆岛上的塞伊克教团。在那个时代，魔法是由个人习得的，或者，最多是在亲密的契约关系中习得的。法师，如果不是真正的隐士，通常是非常孤独的。<BR>
 <BR>
@@ -47960,7 +47960,7 @@ Acatto, Imperial Battlemage<BR>
 <BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-致尊敬的首席大法师崔博尼乌斯，<BR>
+致尊敬的大法师崔博尼乌斯，<BR>
 <BR>
 递送这封信的人名为蒂拉姆·加达尔。他虽是丹莫，却在西罗帝尔长大。我推荐他作为瓦登费尔丹莫们的政治顾问。<BR>
 <BR>
@@ -52042,7 +52042,7 @@ An unfortunate tax revolt in Balmora was put down after significant property dam
 <DIV ALIGN="CENTER"><BR>
 重要的议会事务<BR>
 <DIV ALIGN="LEFT"><BR>
-总议会议员兼晨风领主哈拉鲁·艾辛·莱森国王对弗林（一种进口的帝国高烈度酒精饮料）征收优惠关税。议会对于继续对本土饮料苏伽玛、格里夫和舍饮征收沉重的关税表示抗议。<BR>
+大议会议员兼晨风领主哈拉鲁·艾辛·莱森国王对弗林（一种进口的帝国高烈度酒精饮料）征收优惠关税。议会对于继续对本土饮料苏伽玛、格里夫和舍饮征收沉重的关税表示抗议。<BR>
 <BR>
 走私和有组织犯罪在勒多兰议院管辖地区变得日益猖獗和暴力。议员们将此归咎于地方腐败、执法力度的减弱以及盗贼公会和卡莫纳堂之间的激烈竞争。<BR>
 <BR>
@@ -52173,7 +52173,7 @@ The council renews its objection to proposals placed before Duke Dren and the Gr
 <DIV ALIGN="LEFT"><BR>
 针对德伦公爵和泰瓦尼家族代表的一再抗议，泰瓦尼议会提醒他们，根据古老的法律和惯例，泰瓦尼议会对其成员个人的野心和事业没有任何限制。如果帝国或其他议会所希望对泰瓦尼家族的人在瓦登费尔的荒原和荒野上的探索和殖民提出异议，欢迎他们这样做，并衷心祝愿他们，但泰瓦尼议会不会为这种努力让渡应有的资源或权力。<BR>
 <BR>
-议会再次反对提交给德伦公爵和总议会的有关瓦登费尔地区奴隶制和奴隶交易的提案。拥有和买卖奴隶的权利受到《停战条约》条款的保障，泰瓦尼议会不会接受任何关于剥夺这些权利的讨论。<BR>"""
+议会再次反对提交给德伦公爵和大议会的有关瓦登费尔地区奴隶制和奴隶交易的提案。拥有和买卖奴隶的权利受到《停战条约》条款的保障，泰瓦尼议会不会接受任何关于剥夺这些权利的讨论。<BR>"""
 
 > NPC_.FNAM enar releth
 Enar Releth
@@ -52764,7 +52764,7 @@ Line 11: Recent reports of soul sickness and disturbed dreams come from townfolk
 <BR>
 注解<BR>
 <BR>
-第 1-3 行：模棱两可。可能是指嘲讽锻莫对神的不虔诚，或者是狡猾的达格斯家族的奸诈外交，或者两者兼而有之。然而，达格斯家族因在红山背信弃义而被斥责为背信弃义者。然而，它可能指尼瑞瓦大人和大议会创始人杜马克勋爵之间未指明的和平誓言。尼瑞瓦和杜马克一直是忠实的朋友，直到锻莫与其他大家族之间的分歧在公开冲突中爆发。<BR>
+第 1-3 行：模棱两可。可能是指嘲讽锻莫对神的不虔诚，或者是狡猾的达格斯家族的奸诈外交，或者两者兼而有之。然而，达格斯家族因在红山背信弃义而被斥责为背信弃义者。然而，它可能指尼瑞瓦大人和大议会创始人杜马克领主之间未指明的和平誓言。尼瑞瓦和杜马克一直是忠实的朋友，直到锻莫与其他大家族之间的分歧在公开冲突中爆发。<BR>
 <BR>
 第 4 行：锻莫是神的嘲笑者和亵渎者。<BR>
 <BR>
@@ -52856,9 +52856,9 @@ The Tribunal have done much good for Morrowind and the Dunmer. But they succumbe
 <DIV ALIGN="LEFT"><BR><BR>
 【摘自霍拉马扬住持吉尔瓦斯·巴雷洛和其他异见祭司的手记】<BR>
 <BR>
-在红山之下，锻莫矿工发现了一块巨大的魔法石。古代锻莫的大祭司兼法师卡格瑞纳克勋爵通过多种方法确定这块魔法石就是神明洛克汗的心脏。作为对他创造凡间的恶作剧的惩罚，早在黎明纪元就被铸造于此处。为了锻莫的种族利益，卡格瑞纳克决心用自己的魔法创造一个新的神，他锻造了三件伟大的附迪德拉器，被称为“卡格瑞纳克的工具”。幽魂影卫是一只魔法腕甲，可在提取心脏的力量的同时保护其佩戴者免受伤害。决裂是一把附魔锤子，可以敲击心脏并产生所需的精确音量和质量。哀恸是一把附魔短刀，用于从心脏中剥削和收集力量。<BR>
+在红山之下，锻莫矿工发现了一块巨大的魔法石。古代锻莫的大祭司兼法师卡格瑞纳克领主通过多种方法确定这块魔法石就是神明洛克汗的心脏。作为对他创造凡间的恶作剧的惩罚，早在黎明纪元就被铸造于此处。为了锻莫的种族利益，卡格瑞纳克决心用自己的魔法创造一个新的神，他锻造了三件伟大的附迪德拉器，被称为“卡格瑞纳克的工具”。幽魂影卫是一只魔法腕甲，可在提取心脏的力量的同时保护其佩戴者免受伤害。决裂是一把附魔锤子，可以敲击心脏并产生所需的精确音领主质量。哀恸是一把附魔短刀，用于从心脏中剥削和收集力量。<BR>
 <BR>
-当卡格瑞纳克在红山之战中将这些工具用在心脏上时，谁也不知道发生了什么，但锻莫一族却彻底从凡间消失了。尼瑞瓦勋爵和达格斯勋爵取回了这些工具，但是他们不知道这些工具是拿来做什么的。尼瑞瓦请求达格斯在他去咨询他的顾问维威克、阿玛莱西娅和索萨·希尔时，保护好这些工具。他离开之后，与他的三位顾问交谈，他们决定一起回到红山再决定接下来应该做什么。<BR>
+当卡格瑞纳克在红山之战中将这些工具用在心脏上时，谁也不知道发生了什么，但锻莫一族却彻底从凡间消失了。尼瑞瓦大人·和达格斯大人取回了这些工具，但是他们不知道这些工具是拿来做什么的。尼瑞瓦请求达格斯在他去咨询他的顾问维威克、阿玛莱西娅和索萨·希尔时，保护好这些工具。他离开之后，与他的三位顾问交谈，他们决定一起回到红山再决定接下来应该做什么。<BR>
 <BR>
 但是当尼瑞瓦不在的时候，达格斯被这些工具的力量所诱惑和迷惑。尼瑞瓦和谋士们到达时，达格斯拒绝交出工具，声称他曾向尼瑞瓦发誓要保护他们。随后达格斯与尼瑞瓦和谋士们发生了战斗，身负重伤被赶走，工具也被取回。<BR>
 <BR>
@@ -58095,7 +58095,7 @@ Falensarano Propylon Index
 
 > MISC.FNAM index_hlor
 Hlormaren Propylon Index
-赫洛玛伦引路石
+赫洛马伦引路石
 
 > MISC.FNAM index_indo
 Indoranyon Propylon Index
@@ -60912,7 +60912,7 @@ Galvene Othrobar
 
 > NPC_.FNAM viras guls
 Hetman Guls
-赫特曼·古尔斯
+古尔斯护民官
 
 > NPC_.FNAM broder garil
 Broder Garil
@@ -62707,7 +62707,7 @@ Foot bridges connect with the mainland between the Ebonheart region and Hlaalu C
 <BR>
 泰瓦尼综合区<BR>
 <BR>
-泰瓦尼综合区是最东面的社区。法师领主马文·德雷尼姆是泰瓦尼的贵族。泰瓦尼向神殿租赁了综合区，当做维洛西塔凑合着使用，以代替他们喜欢的蘑菇塔。行政中心包括一个宝库和资料厅。奴隶被安置在满是怪物的最底层。那里有许多商人，工匠，和训练师，蜥蜴脑袋街角酒吧为泰瓦尼同族及雇佣兵提供食宿。<BR>
+泰瓦尼综合区是最东面的社区。法师领主马文·德雷尼姆是泰瓦尼的贵族。泰瓦尼向神殿租赁了综合区，当做维洛西塔凑合着使用，以代替他们喜欢的蘑菇塔。行政中心包括一个财政部和资档案室。奴隶被安置在满是怪物的最底层。那里有许多商人，工匠，和训练师，蜥蜴脑袋街角酒吧为泰瓦尼同族及雇佣兵提供食宿。<BR>
 <BR>
 勒多兰综合区<BR>
 <BR>
@@ -62723,7 +62723,7 @@ Foot bridges connect with the mainland between the Ebonheart region and Hlaalu C
 <BR>
 交通<BR>
 <BR>
-天桥连接黑檀心地区与哈拉鲁综合区、北部湾地区和外地人区，和东部湾地区和泰瓦尼综合区之间的大陆。从哈拉鲁综合区桥头起始的大道往南通向黑檀心，往北通向赛达·尼恩和北部地带。从外地人区桥头起始的大道西向赛达·尼恩，北朝苏兰和阿斯卡迪安群岛，东面莫拉格·玛尔。从泰瓦尼综合区桥头起始的道路通常对前往莫拉格·玛尔旅行很有帮助。阔步沙蚤服务站在外地人区桥头的北面尽头，从维威克城出发前往苏兰、赛达·尼恩、巴尔莫拉和莫拉格·玛尔。外邦区的码头渡船前往黑檀心、哈拉·奥德、莫拉格·玛尔和泰尔·布勒诺拉。从邻可近的黑檀心以乘船航向哈拉·奥德、萨德里斯·莫拉、泰尔·布勒诺拉，和维威克城的外邦区。价格低廉的小篷船在维威克的河渠上穿梭于各区之间接送旅客。<BR>"""
+天桥连接黑檀心地区与哈拉鲁综合区、北部湾地区和外地人区，和东部湾地区和泰瓦尼综合区之间的大陆。从哈拉鲁综合区桥头起始的大道往南通向黑檀心，往北通向赛达·尼恩和北部地带。从外地人区桥头起始的大道西向赛达·尼恩，北朝苏兰和阿斯卡迪安群岛，东面莫拉格·玛尔。从泰瓦尼综合区桥头起始的道路通常对前往莫拉格·玛尔旅行很有帮助。阔步沙蚤服务站在外地人区桥头的北面尽头，从维威克城出发前往苏兰、赛达·尼恩、巴尔莫拉和莫拉格·玛尔。外邦区的码头渡船前往黑檀心、哈拉·奥德、莫拉格·玛尔和泰尔·布勒诺拉。从邻可近的黑檀心以乘船航向哈拉·奥德、萨德里斯·莫拉、泰尔·布勒诺拉，和维威克城的外邦区。价格低廉的贡多拉渡船在维威克的河渠上穿梭于各区之间接送旅客。<BR>"""
 
 > BOOK.FNAM bk_guide_to_balmora
 Guide to Balmora
@@ -63361,7 +63361,7 @@ Personal Secretary to the Emperor<BR>
 <BR>
 陛下的特殊意愿如下。<BR>
 <BR>
-晨风当地有一种迷信，认为某日出生的某个孤儿流浪者，将联合丹莫的所有部落，驱逐晨风的外来入侵者，并重建丹莫的古老法律和习俗，建立暗精灵的国家。这个弃儿在传说中被称为“尼瑞瓦因”，应该是死去已久的丹莫将军第一议员因多瑞尔·尼瑞瓦勋爵的转世。<BR>
+晨风当地有一种迷信，认为某日出生的某个孤儿流浪者，将联合丹莫的所有部落，驱逐晨风的外来入侵者，并重建丹莫的古老法律和习俗，建立暗精灵的国家。这个弃儿在传说中被称为“尼瑞瓦因”，应该是死去已久的丹莫将军第一议员因多瑞尔·尼瑞瓦大人的转世。<BR>
 <BR>
 %PCName看起来符合这个本地迷信的部分条件。所以陛下希望%PCName尽可能满足这个古老预言的条件，成为尼瑞瓦因。<BR>
 <BR>
@@ -67324,7 +67324,7 @@ Molag Mar
 
 > ACTI.FNAM active_sign_Mt_A_01
 Mount Assarnibibi
-阿萨恩尼比比山
+阿萨尼比比山
 
 > ACTI.FNAM active_sign_ald-ruhn_02
 Ald-ruhn
@@ -68699,7 +68699,7 @@ Chapters are established in Guild-owned, free-standing guildhalls in the towns o
 <BR>
 三、规则和程序<BR>
 <BR>
-对公会其他成员的犯罪将受到最严厉的纪律处分。成员是否可以恢复在公会中的地位由首席大法师决定。<BR>
+对公会其他成员的犯罪将受到最严厉的纪律处分。成员是否可以恢复在公会中的地位由大法师决定。<BR>
 <BR>
 四。会员要求<BR>
 <BR>
@@ -69591,9 +69591,9 @@ In the Emperor's Name,<BR>
 Ocato<BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-致尊敬的首席大法师崔博尼乌斯·阿托里乌斯，瓦登费尔的公会会长，<BR>
+致尊敬的大法师崔博尼乌斯·阿托里乌斯，瓦登费尔的公会会长，<BR>
 <BR>
-收到这封信后，您将辞去职务，并将首席大法师的头衔授予%PCName。从今天开始，%PCName将处理瓦登费尔的所有公会事务。你可以保留首席大法师的头衔，但你将不再积极参与公会的事务。<BR>
+收到这封信后，您将辞去职务，并将大法师的头衔授予%PCName。从今天开始，%PCName将处理瓦登费尔的所有公会事务。你可以保留大法师的头衔，但你将不再积极参与公会的事务。<BR>
 <BR>
 以皇帝之名，<BR>
 <BR>
@@ -72229,7 +72229,7 @@ Chest
 
 > ARMO.FNAM bloodworm_helm_unique
 Bloodworm Helm
-血蠕虫之盔
+鲜血蛆虫头盔
 
 > WEAP.FNAM daedric_crescent_unique
 Daedric Crescent
@@ -73098,7 +73098,7 @@ Learn what bounties and blessing might be gained by prayer at the shrines found 
 
 > BOOK.FNAM bk_formygodsandemperor
 For my Gods and Emperor
-《为了圣灵与皇帝》
+《献给我的诸神和皇帝》
 
 > BOOK.TEXT bk_formygodsandemperor
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -73156,7 +73156,7 @@ Historically, our relationship with the Tribunal Temple is difficult and unfrien
 <BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-为了圣灵与皇帝<BR>
+献给我的诸神和皇帝<BR>
 帝国教团手册<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 什么是帝国教团？<BR>
@@ -73175,7 +73175,7 @@ Historically, our relationship with the Tribunal Temple is difficult and unfrien
 <BR>
 帝国教团接受所有品德高尚、信仰坚定的公民。我们只要求一次捐赠50龙币来维持我们的组织运作，此后当您使用我们的恢复、治愈和祝福祭坛时，只需要提交适当的费用即可 -- 这可以帮助我们将九圣灵的祝福传播给比我们更为不幸的人们。<BR>
 <BR>
-那些希望加入瓦登费尔帝国教团的人们将会受到我们教团迎宾员的热烈欢迎：佩拉吉雅德的耶格法、雄蛾军团堡的叙洛莉雅·西鲁里乌卢斯、月蛾军团堡的苏穆蒂斯·文尼斯、黑檀心总议会厅的鲁西亚·康尼奇安以及黑檀心帝国教堂的拉拉蒂亚·瓦里安。<BR>
+那些希望加入瓦登费尔帝国教团的人们将会受到我们教团迎宾员的热烈欢迎：佩拉吉雅德的耶格法、雄蛾军团堡的叙洛莉雅·西鲁里乌卢斯、月蛾军团堡的苏穆蒂斯·文尼斯、黑檀心大议会厅的鲁西亚·康尼奇安以及黑檀心帝国教堂的拉拉蒂亚·瓦里安。<BR>
 <BR>
 如何在帝国教团中晋升？<BR>
 <BR>
@@ -73708,7 +73708,7 @@ By contrast, many Indoril nobles chose to commit suicide rather than submit to t
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 在晨风<BR>
 一个帝国的行省<BR>
-来自曙光城的厄拉曼维 著<BR><BR>
+来自阳堡的厄拉曼维 著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 在征服落锤后，帝国军团沿着西罗帝尔的东北边境集结，入侵舰队也在天际省准备就绪。<BR>
 <BR>
@@ -74531,7 +74531,7 @@ Addhiranirr was too concerned about the Census and Excise agent to answer questi
 
 > INFO.NAME a1_6_addhiranirrinformant 2719613612229508884
 When I told the Census and Excise agent that Addhiranirr took a gondola to the mainland, he said he was heading back to the mainland anyway, and would look for her there. Maybe Addhiranirr will be grateful that I've gotten rid of him for her.
-当我告诉税务局代理人阿迪拉尼尔乘船去大陆时，他说反正他也要回主大陆，会在那里找她。也许阿迪拉尼尔会感激我替她摆脱了他。
+当我告诉税务局代理人阿迪拉尼尔乘贡多拉渡船去大陆时，他说反正他也要回主大陆，会在那里找她。也许阿迪拉尼尔会感激我替她摆脱了他。
 
 > INFO.NAME a1_6_addhiranirrinformant 103936328262522564
 Addhiranirr was pleased that I'd taken care of the Census and Excise agent she'd been worrying about, and now she's ready to answer my questions on the Nerevarine cult and the Sixth House cult.
@@ -77027,7 +77027,7 @@ I found a Breton healer in Berandas named Ama Nin. She had been snatched from th
 
 > INFO.NAME book_onmorrowind 2792793691877310201
 When I asked Hasphat Antabolis about Morrowind history, he gave me a copy of 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-当我向哈斯帕特·安塔波利斯询问晨风的历史时，他给了我一本由曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
+当我向哈斯帕特·安塔波利斯询问晨风的历史时，他给了我一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME town_tel_vos_she 2876532113109629633
 When I asked an Ashlander what trade goods the Zainab need, she mentioned one thing. Though the tribe's wise women were good healers, they could not make the bottled magics that cure common disease and blight disease, so the trader and all the Zainab were often in short supply of these things. Now I can report back to Turedus Talanian, and tell him that Cure Common Disease and Cure Blight Disease potions would be valuable trade goods.
@@ -77931,15 +77931,15 @@ I have left Hlormar to his own devices. I am too busy to take up the problems of
 
 > INFO.NAME mv_abusedhealer 483624844361229554
 We have met up with the supposed witch at her camp. Her name is Sosia Caristiana, a healer, and the story she tells is decidedly different from that of Hlormar. Sosia Caristiana says that she accepted Hlormar Wine-Sot merely as a traveling companion for protection, but when he got too friendly she was forced to put him to sleep and take his things to teach him a lesson.
-我们在那个女巫的营地见到了她。她叫索西雅·卡利斯蒂亚纳，是个治疗师，她讲述的故事与赫洛马的截然不同。索西雅·卡利斯蒂亚纳说，她只是把赫洛马·醉酒当作旅伴来保护，但当他变得太过热情莽撞时，她就不得不让他睡觉，并拿走他的东西来给他点教训。
+我们在那个女巫的营地见到了她。她叫索西娅·卡利斯蒂亚纳，是个治疗师，她讲述的故事与赫洛马的截然不同。索西娅·卡利斯蒂亚纳说，她只是把赫洛马·醉酒当作旅伴来保护，但当他变得太过热情莽撞时，她就不得不让他睡觉，并拿走他的东西来给他点教训。
 
 > INFO.NAME mv_abusedhealer 26965240152911423534
 Sosia Caristiana refuses to give back his property immediately but will meet him in three days at the Caldera Mage Guild and return everything then.
-索西雅·卡利斯蒂亚纳拒绝立即归还他的财产，但三天后会在卡尔德拉法师公会与他见面，届时会归还所有东西。
+索西娅·卡利斯蒂亚纳拒绝立即归还他的财产，但三天后会在卡尔德拉法师公会与他见面，届时会归还所有东西。
 
 > INFO.NAME mv_abusedhealer 3028095561908912770
 Hlormar Wine-Sot was not pleased in the least to hear that he could not have his items back immediately, and demanded that I choose a side. I have chosen to side with Hlormar.
-赫洛马·醉酒听说不能立刻拿回他的物品，丝毫不高兴，要求我选择站在哪一边。我选择站在赫洛玛一边。
+赫洛马·醉酒听说不能立刻拿回他的物品，丝毫不高兴，要求我选择站在哪一边。我选择站在赫洛马一边。
 
 > INFO.NAME mv_abusedhealer 2441428291823012447
 Hlormar Wine-Sot was not pleased in the least to hear that he could not have his items back immediately, and demanded that I choose a side. I have chosen to side with Sosia.
@@ -77947,7 +77947,7 @@ Hlormar Wine-Sot was not pleased in the least to hear that he could not have his
 
 > INFO.NAME mv_abusedhealer 2481769841740918543
 Sosia Caristiana was so grateful to me for my protection that she gave me three potions as a reward. I'm glad to see that she can live another day to help those in need.
-索西雅·卡利斯蒂亚纳非常感激我的保护，送给我三瓶药水作为报酬。我很高兴看到她能多活一天，去帮助那些需要帮助的人。 {这些药水}
+索西娅·卡利斯蒂亚纳非常感激我的保护，送给我三瓶药水作为报酬。我很高兴看到她能多活一天，去帮助那些需要帮助的人。 {这些药水}
 
 > INFO.NAME mv_abusedhealer 1588118759687897
 I decided to keep Cloudcleaver for myself. One as uncivil as Hlormar need not wield such a fine weapon. The loss of so much life is always a shame, but at least I can take comfort in the beauty of my new axe, Cloudcleaver.
@@ -78075,11 +78075,11 @@ I delivered five units of marshmerrow to Synnolian Tunifus. He gave me a restore
 
 > INFO.NAME mg_killtelvanni 2153128333282506169
 Arch-Mage Trebonius asked me to kill all the Telvanni councilors. I'm not sure if he was serious.
-大导师崔博尼乌斯让我杀掉所有泰瓦尼议员。我不知道他是不是认真的。 {首席大法师}
+大导师崔博尼乌斯让我杀掉所有泰瓦尼议员。我不知道他是不是认真的。 {大法师}
 
 > INFO.NAME mg_killtelvanni 1541698602796924971
 Arch-Mage Trebonius thanked me for killing all the Telvanni councilors.
-大导师崔博尼乌斯感谢我杀死了所有泰瓦尼议员。 {首席大法师}
+大导师崔博尼乌斯感谢我杀死了所有泰瓦尼议员。 {大法师}
 
 > INFO.NAME fg_egg_poachers 31947895900716520
 Sevilo Othan and Daynila Valas, former egg miners and local troublemakers, are poaching eggs from Shulk Egg Mine. Report back to Eydis when they're dead.
@@ -78279,19 +78279,19 @@ Skink thanked me for bringing him Galur Rithari's papers.
 
 > INFO.NAME mg_guildmaster 171691112155085087
 Edwinna Elbert asked me to talk to Arch-Mage Trebonius.
-埃德温娜·埃尔伯特让我去找大导师崔博尼乌斯谈谈。 {首席大法师}
+埃德温娜·埃尔伯特让我去找大导师崔博尼乌斯谈谈。 {大法师}
 
 > INFO.NAME mg_guildmaster 1161520942726316876
 Skink-in-Tree's-Shade asked me to deliver a letter to Arch-Mage Trebonius.
-树荫-中-蜥让我给首席大法师崔博尼乌斯送一封信。 {勒特}
+树荫-中-蜥让我给大法师崔博尼乌斯送一封信。 {勒特}
 
 > INFO.NAME mg_guildmaster 1433566881846627075
 Guildmaster Trebonius challenged me to a duel in the Arena in Vivec. The duel is to the death. Whoever wins will be the Guildmaster of the Mages Guild in Vvardenfell.
-公会会长首席大法师崔博尼乌斯在维威克的竞技场向我挑战决斗。决斗是生死之战，获胜者将成为瓦登费尔的法师公会首席大法师。
+公会会长大法师崔博尼乌斯在维威克的竞技场向我挑战决斗。决斗是生死之战，获胜者将成为瓦登费尔的法师公会大法师。
 
 > INFO.NAME mg_guildmaster 6847326612039925864
 I am the new Arch-Mage of the Guild of Mages in Vvardenfell.
-我现在是瓦登费尔法师公会的新任首席大法师。
+我现在是瓦登费尔法师公会的新任大法师。
 
 > INFO.NAME mg_advancement 15885154102128129184
 I must pay my guild dues before I can advance to the next rank.
@@ -78599,7 +78599,7 @@ I made the Pilgrimage to Ald Daedroth and read a passage from the Four Corners o
 
 > INFO.NAME tt_assarnibibi 3012119815272616616
 Archcanon Tholer Saryoni asked me to bring him the Ebony Mail. The Ebony Mail can be found in Mount Assarnibibi where Molag Bal oversaw the 99 lovers of Boethiah that gave birth to Almalexia. Mount Assarnibibi is north of Molag Mar.
-大主教索勒·萨里奥尼让我把黑檀链甲带给他。黑檀链甲可以在阿萨恩尼比比山找到，莫拉格·巴尔曾在那里监督波耶西亚的99位情人，孕育了阿玛莱西娅。阿萨恩尼比比山在莫拉格·玛尔的北面。
+大主教索勒·萨里奥尼让我把黑檀链甲带给他。黑檀链甲可以在阿萨尼比比山找到，莫拉格·巴尔曾在那里监督波耶西亚的99位情人，孕育了阿玛莱西娅。阿萨尼比比山在莫拉格·玛尔的北面。
 
 > INFO.NAME tt_assarnibibi 2441217101257010807
 I received the Ebony Mail from the shrine at Assarnibibi.
@@ -80035,7 +80035,7 @@ The second phase of my stronghold should be complete.
 
 > INFO.NAME hr_stronghold 10406253472162329374
 Galsa Gindu told me that in order to build a stronghold fit for a House Redoran Councilor, I must speak with Viras Guls, the hetman of my village, and find out what I must do to attract more settlers.
-加尔萨·金杜告诉我，为了建造一个适合勒多兰家族议员居住的堡垒，我必须和我村子的赫特曼·古尔斯谈谈，看看我必须做些什么才能吸引更多定居者。
+加尔萨·金杜告诉我，为了建造一个适合勒多兰家族议员居住的堡垒，我必须和我村子的古尔斯护民官谈谈，看看我必须做些什么才能吸引更多定居者。
 
 > INFO.NAME hr_stronghold 22730290713257631286
 Viras Guls told me that some of the men here are worried that they will not be able to get wives. He wants me to buy slaves and bring them to my stronghold or find women who would be willing to move to my stronghold.
@@ -80059,11 +80059,11 @@ Helviane Desele agreed to send two of her older girls to my stronghold where the
 
 > INFO.NAME hr_stronghold 1667820224327111578
 The Arvel family agreed to send any suitable slaves to my stronghold instead of back to the mainland. This should satisfy Hetman Guls.
-阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让赫特曼·古尔斯满意。 {奴隶们}
+阿维尔家族同意将任何合适的奴隶送到我的堡垒，而不是送回主大陆。这应该会让古尔斯护民官满意。 {奴隶们}
 
 > INFO.NAME hr_stronghold 236413351529828150
 Hetman Guls said he was satisfied that the men around my stronghold would be able to find wives. I should speak with Galsa Gindu again about construction.
-赫特曼·古尔斯说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。
+古尔斯护民官说，他很满意我堡垒周围的男人都能找到妻子。我应该再和加尔萨·金杜谈谈建造的事。
 
 > INFO.NAME hr_stronghold 9503227231245829738
 Galsa Gindu gave the orders to begin constructing the final stages of my stronghold.
@@ -80203,7 +80203,7 @@ The Heirographa are the collected priestly writings of the Temple. The Apographa
 
 > INFO.NAME a2_4_milogone 2734234501584226969
 The appearance of the Sixth House is clearly a sign of a coming crisis, according to Gilvas Barelo. In such troubled times, the Dunmer may turn to the ancient pillars of faith, the ancestors and the Daedra, and the prophetic visions granted by Lord Azura. Then they may look to the Nerevarine, Saint Nerevar Reborn, to lead them against the grim armies of Dagoth Ur.
-吉尔瓦斯·巴雷洛认为，第六家族的出现显然是危机来临的征兆。在这样的动荡时期，丹莫可能会求助于古老的信仰支柱、先祖、迪德拉以及阿祖拉领主赐予的预言异象。然后，他们可以指望圣·尼瑞瓦重生，带领他们对抗达格斯·乌尔的严酷军队。 {尼瑞瓦因}
+吉尔瓦斯·巴雷洛认为，第六家族的出现显然是危机来临的征兆。在这样的动荡时期，丹莫可能会求助于古老的信仰支柱、先祖、迪德拉以及阿祖拉大人赐予的预言异象。然后，他们可以指望圣·尼瑞瓦重生，带领他们对抗达格斯·乌尔的严酷军队。 {尼瑞瓦因}
 
 > INFO.NAME a2_4_milogone 3035414440150723867
 Gilvas Barelo says that faith in the Temple's protective power was strong as long as the Ordinators, Buoyant Armigers, and Tribunal could contain the blight and Dagoth Ur's creatures within the Ghostfence. But now travelers and settlements suffer from blight storms and marauding monsters, and the people fear the Temple is losing its ages-old battle with the Devil Dagoth Ur.
@@ -82423,7 +82423,7 @@ The Oracle says that by killing Carecalmo and Meryaran I have avenged the deaths
 
 > INFO.NAME book_history 236713753295718220
 When I asked about Morrowind history, Caius Cosades gave me a copy of 'A Short History of Morrowind', and suggested I look for a copy of 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-当我问起晨风的历史时，凯乌斯·科萨德斯给了我一本《晨风简史》，并建议我找一本由曙光城的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
+当我问起晨风的历史时，凯乌斯·科萨德斯给了我一本《晨风简史》，并建议我找一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME blades_elone 26368191221925118059
 Elone gave me a copy of 'Guide to Vvardenfell' so I can learn something about Vvardenfell's land and people.
@@ -83675,7 +83675,7 @@ I delivered five units of willow anther to Synnolian Tunifus. He gave me a cure 
 
 > INFO.NAME mg_dwarves 19460502657099249
 Arch-Mage Trebonius asked me to find out what happened to the Dwarves. Unfortunately, he didn't give me much information to go on. I'm not sure if he was serious.
-大导师崔博尼乌斯让我去查查矮人的下落。不幸的是，他并没有给我提供太多信息。我不知道他是不是认真的。 {首席大法师}
+大导师崔博尼乌斯让我去查查矮人的下落。不幸的是，他并没有给我提供太多信息。我不知道他是不是认真的。 {大法师}
 
 > INFO.NAME mg_dwarves 4897226911665319656
 I was able to get the Dwemer books "The Egg of Time" and "Divine Metaphysics Adapted to the Meanest of Intellects" translated. "Divine Metaphysics" seems to be a treatise explaining how to create a new god through sorcery. "The Egg of Time" seems to be a refutation of the idea that linking to a divine source of power can be dangerous if interrupted. Though "The Egg of Time" refutes this idea, perhaps the author was wrong, and this is what happened to the Dwarves.
@@ -83683,7 +83683,7 @@ I was able to get the Dwemer books "The Egg of Time" and "Divine Metaphysics Ada
 
 > INFO.NAME mg_dwarves 18838102512502227053
 Arch-Mage Trebonius was pleased when I showed him the three Dwemer books. He said this was sufficient and thanked me for solving the mystery of the disappearance of the Dwarves.
-当我向大导师崔博尼乌斯展示三本锻莫书时，他很高兴。他说这就足够了，并感谢我解开了矮人的消失之谜。 {首席大法师}
+当我向大导师崔博尼乌斯展示三本锻莫书时，他很高兴。他说这就足够了，并感谢我解开了矮人的消失之谜。 {大法师}
 
 > INFO.NAME ic8_eiruki 30904302333035115223
 Eiruki Hearth-Healer gave me 40 gold as alms for the poor.
@@ -84299,7 +84299,7 @@ Aurane Frernis was glad to know who was responsible for the false claims that we
 
 > INFO.NAME ic_guide 129731689213005089
 An Imperial cult member gave me a copy of 'For my Gods and Emperor,' a handbook for members of the Imperial cult. It may help me decide whether I should join the Imperial cult.
-一位帝国教团成员给了我一本《献给我的众神和皇帝》，这是一本帝国教团成员手册。它可以帮我决定是否加入帝国教团。 {帝国人}
+一位帝国教团成员给了我一本《献给我的诸神和皇帝》，这是一本帝国教团成员手册。它可以帮我决定是否加入帝国教团。 {帝国人}
 
 > INFO.NAME ic_guide 274324188341227307
 An Imperial cult member gave me a copy of 'For my Gods and Emperor,' a handbook for members of the Imperial cult.
@@ -84671,7 +84671,7 @@ Why, no, %PCRank. You've been expelled, and I really can't trust your scholarshi
 
 > INFO.NAME disappearance of the dwarves 16403466167527813
 Well, I'm glad that the mystery is solved at last. Next time the Arch-Mage of Almalexia visits, I'll really have something to brag about.
-好吧，我很高兴谜团终于解开了。下次阿玛莱西娅的首席大法师来的时候，我就有得炫耀了。
+好吧，我很高兴谜团终于解开了。下次阿玛莱西娅的大法师来的时候，我就有得炫耀了。
 
 > INFO.NAME disappearance of the dwarves 25870222012130220462
 Oh? Let me see these books, %PCRank. Oh, yes, of course. This "Egg of Time" is quite obvious... in its... um... descriptions... of the things... that happened. Yes, of course. It is all quite clear to me. I would prefer that you wrote a report that... um... simplified your findings, but I trust that you have indeed solved the mystery.
@@ -84699,11 +84699,11 @@ That's what happened all right. Fetchers, all of them.
 
 > INFO.NAME attack on a guar hide trader 313303234871916712
 You are suggesting we have done this thing? That is fine, %PCRace, for it is true. Kashtes and I have taken the hides, and in our possession they will remain. Prepare to meet your gods, for no one may take what is now ours.
-你是说我们做了这件事？很好，%PCRace，因为这是事实。卡西特斯和我已经拿走了兽皮，我们会一直保存着它们，准备去见你们的神吧，因为没人能夺走我们的东西。
+你想说这事是我们干的？很好，%PCRace，因为没错，就是老子干的。卡什特和我拿了兽皮，东西到了我们手上，就永远是我们的。准备去见你的神吧，现在这东西归我们了，谁来了也抢不走。
 
 > INFO.NAME attack on a guar hide trader 1801177592343127685
 We have the hides, %PCRace, and we shall keep them. You have made a mistake coming here, for we cannot allow you to leave. Offer what prayers you may, for your time is over.
-皮在我们手上，%PCRace，我们会留住它们。你来这里是个错误，因为我们不允许你离开。祈祷吧，你们的时代已经结束了。 {沙尔}
+皮在我们手上，%PCRace，就是我们的了。你来这里是个错误，因为我们不允许你离开。祈祷吧，你的时代已经结束了。 {沙尔}
 
 > INFO.NAME attack on a guar hide trader 295522156660626532
 No. We have not done this thing. The ones you are looking for are Emul-Ran and Kashtes Ilabael. They are outcasts, belonging to none of our tribes. You should be able to find them south of here, along the water's edge. May you bring them swift justice.
@@ -84779,7 +84779,7 @@ You are suggesting we have done this thing? That is fine, %PCRace, for it is tru
 
 > INFO.NAME attack on guar hide trader 1801177592343127685
 We have the hides, %PCRace, and we shall keep them. You have made a mistake coming here, for we cannot allow you to leave. Offer what prayers you may, for your time is over.
-皮在我们手上，%PCRace，我们会留住它们。你来这里是个错误，因为我们不允许你离开。祈祷吧，你们的时代已经结束了。 {沙尔}
+皮在我们手上，%PCRace，就是我们的了。你来这里是个错误，因为我们不允许你离开。祈祷吧，你的时代已经结束了。 {沙尔}
 
 > INFO.NAME attack on guar hide trader 295522156660626532
 No. We have not done this thing. The ones you are looking for are Emul-Ran and Kashtes Ilabael. They are outcasts, belonging to none of our tribes. You should be able to find them south of here, along the water's edge. May you bring them swift justice.
@@ -85203,7 +85203,7 @@ You're welcome to rest in our beds. Speak with the others here, and you may find
 
 > INFO.NAME tribunal fight dagoth ur 2149249831908526759
 In the past, the Tribunal made seasonal campaigns to Red Mountain. We slew Dagoth Ur and his kin, though the Heart always revived them in time. Later, when we realized we couldn't destroy them, we created the Ghostfence to contain the threat. These solutions were effective until Dagoth Ur ambushed us and captured Sunder and Keening. Since that time, our fortunes have waned as his increased.
-过去审判席每个季度都会去红山出征。我们杀死了达格斯·乌尔和他的亲族，尽管心脏总能很快复活他们。后来，当我们意识到无法消灭他们时，我们创建了幽魂之墙来遏制威胁。这些办法一直很有效，直到有一次达格斯·乌尔伏击了我们，并俘虏了决裂和哀恸。从那时起，随着他的势力不断壮大，我们的命运也随之衰落。 {财富}
+过去审判席每个季度都会去红山出征。我们杀死了达格斯·乌尔和他的亲族，尽管洛克汗之心总能很快复活他们。后来，当我们意识到无法消灭他们时，我们创建了幽魂之墙来遏制威胁。这些办法一直很有效，直到有一次达格斯·乌尔伏击了我们，并俘虏了决裂和哀恸。从那时起，随着他的势力不断壮大，我们的命运也随之衰落。 {财富}
 
 > INFO.NAME geography of vvardenfell 224925382936917396
 Only recently open to settlement and trade, most of the island's population is confined to the relatively hospitable west and southwest coast, centered around the ancient city of Vivec and the old Great House district centers at Balmora, Ald'ruhn, and Sadrith Mora. The rest of the island is covered by hostile desert wastes, arid grasslands, and volcanic badlands, and thinly populated by the nomadic Ashlander tribes.
@@ -85367,7 +85367,7 @@ Join? Why would I want to do that? I already did! I don't think you'd fit in. No
 
 > INFO.NAME join the imperial legion 18847342643332070
 You are now a %NextPCRank in the Imperial Legion. Welcome, %PCName. You'll have to stay in uniform, so take this chain cuirass. You better be wearing a Legion cuirass of some kind in the presence of a higher ranking member. Take your orders from me and other knights, and your advancement through the ranks will be swift if you meet the requirements.
-你现在是帝国军团的%NextPCRank。欢迎，%PCName.。你得穿上制服，带上这个链式铠甲，在更高级别的成员面前，你最好佩戴某种军团铠甲。听从我和其他骑士的指示，如果你符合要求，你的晋级会很快。 {帝国人}
+你现在是帝国军团的%NextPCRank。欢迎，%PCName。你得穿上制服，带上这个链式铠甲，在更高级别的成员面前，你最好佩戴某种军团铠甲。听从我和其他骑士的指示，如果你符合要求，你的晋级会很快。 {帝国人}
 
 > INFO.NAME join the imperial legion 513094071019314152
 Your duties are to the Empire and to your commanding officers - in that order. Carry yourself with dignity and uphold the law. You are the face of the Empire to the common man. Respect all members of the Imperial Legion. It is treasonous to fight or steal from other members. If you break these rules, you must speak with your recruiting officer, me, to redeem your standing. Do you swear to adhere to what I have stated?
@@ -86119,7 +86119,7 @@ Census and Excise is the Imperial agency that collects taxes and tariffs. You kn
 
 > INFO.NAME vampires of vvardenfell 23534166261371318466
 I have not yet had word from Arch-Mage Trebonius in Vivec. Until then, I must consider you expelled.
-我还没有得到维威克城首席大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
+我还没有得到维威克城大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
 
 > INFO.NAME vampires of vvardenfell 24042188102382818527
 You were still expelled from the Mages Guild last I heard. Be patient. The Guild does not move quickly here in Vvardenfell.
@@ -86791,7 +86791,7 @@ There is much to do. You still have Kagrenac's Tools, potent weapons, and the wi
 
 > INFO.NAME tales of your exploits 138932711124797144
 A remarkable story. A pity to have to destroy Kagrenac's enchantments on the Heart. It would have been interesting to study them.
-一个了不起的故事。可惜不得不毁掉卡格瑞纳克在“心脏”上的附魔之术。要是能研究一下卡格瑞纳克的附魔就好了。 {魔法疾病}
+一个了不起的故事。可惜不得不毁掉卡格瑞纳克在“神心”上的附魔之术。要是能研究一下卡格瑞纳克的附魔就好了。 {魔法疾病}
 
 > INFO.NAME crosier of st. llothis 3922260952221617242
 Are you the one who claims to be the Nerevarine? You should speak with Archcanon Saryoni. Before these rumors are put to rest, I cannot give you duties.
@@ -86903,7 +86903,7 @@ The rocky, rugged archipelago of the northeast is also sparsely populated. Most 
 
 > INFO.NAME geography of morrowind 2365529848692116598
 Morrowind is the northeastmost province of the Tamrielic Empire, bounded on the north and east by the Sea of Ghosts, on the west by Skyrim, on the southwest by Cyrodiil (also known as the Imperial Province), and on the south by Black Marsh (also known as Argonia). The southeast is a warm coastal plain with broad cultivated areas and marshes and swamps similar to those found in Black Marsh. The west and south-central region is mountainous and sparsely populated.
-晨风是泰姆瑞尔帝国的最东北部，北面和东面与幽灵之海相邻，西面是天际，西南面是西罗帝尔（以帝国行省而出名），南面是黑沼泽（又称阿尔贡尼亚）。东南部是温暖的沿海平原，有广阔的耕地和类似于黑沼泽的沼泽和沼泽。西部和中南部地区多山，人口稀少。 {帝国人}
+晨风是泰姆瑞尔帝国的最东北部，北面和东面与幽灵之海相邻，西面是天际，西南面是西罗帝尔（以帝国行省而出名），南面是黑沼泽（又称阿尔贡尼亚）。东南部是温暖的沿海平原，有广阔的耕地和类似于黑沼泽的沼泽和湿地。西部和中南部地区多山，人口稀少。 {帝国人}
 
 > INFO.BNAM geography of morrowind 2365529848692116598 c1
 Continue
@@ -86915,7 +86915,7 @@ The rocky, rugged archipelago of the northeast is also sparsely populated. Most 
 
 > INFO.NAME geography of morrowind 3248109761802924673
 Morrowind is the northeastmost province of the Tamrielic Empire, bounded on the north and east by the Sea of Ghosts, on the west by Skyrim, on the southwest by Cyrodiil (also known as the Imperial Province), and on the south by Black Marsh (also known as Argonia). The southeast is a warm coastal plain with broad cultivated areas and marshes and swamps similar to those found in Black Marsh. The west and south-central region is mountainous and sparsely populated.
-晨风是泰姆瑞尔帝国的最东北部，北面和东面与幽灵之海相邻，西面是天际，西南面是西罗帝尔（以帝国行省而出名），南面是黑沼泽（又称阿尔贡尼亚）。东南部是温暖的沿海平原，有广阔的耕地和类似于黑沼泽的沼泽和沼泽。西部和中南部地区多山，人口稀少。 {帝国人}
+晨风是泰姆瑞尔帝国的最东北部，北面和东面与幽灵之海相邻，西面是天际，西南面是西罗帝尔（以帝国行省而出名），南面是黑沼泽（又称阿尔贡尼亚）。东南部是温暖的沿海平原，有广阔的耕地和类似于黑沼泽的沼泽和湿地。西部和中南部地区多山，人口稀少。 {帝国人}
 
 > INFO.BNAM geography of morrowind 3248109761802924673 c1
 Continue
@@ -86927,7 +86927,7 @@ The rocky, rugged archipelago of the northeast is also sparsely populated. Most 
 
 > INFO.NAME geography of morrowind 2518461387288412
 Morrowind is the northeastmost province of the Tamrielic Empire, bounded on the north and east by the Sea of Ghosts, on the west by Skyrim, on the southwest by Cyrodiil (also known as the Imperial Province), and on the south by Black Marsh (also known as Argonia). The southeast is a warm coastal plain with broad cultivated areas and marshes and swamps similar to those found in Black Marsh. The west and south-central region is mountainous and sparsely populated.
-晨风是泰姆瑞尔帝国的最东北部，北面和东面与幽灵之海相邻，西面是天际，西南面是西罗帝尔（以帝国行省而出名），南面是黑沼泽（又称阿尔贡尼亚）。东南部是温暖的沿海平原，有广阔的耕地和类似于黑沼泽的沼泽和沼泽。西部和中南部地区多山，人口稀少。 {帝国人}
+晨风是泰姆瑞尔帝国的最东北部，北面和东面与幽灵之海相邻，西面是天际，西南面是西罗帝尔（以帝国行省而出名），南面是黑沼泽（又称阿尔贡尼亚）。东南部是温暖的沿海平原，有广阔的耕地和类似于黑沼泽的沼泽和湿地。西部和中南部地区多山，人口稀少。 {帝国人}
 
 > INFO.BNAM geography of morrowind 2518461387288412 c1
 Continue
@@ -87515,7 +87515,7 @@ Oh, no Thieves Guild here in Ald'ruhn, no ser. But maybe you should check for yo
 
 > INFO.NAME join the thieves guild 1513217763048120821
 Talk to Sugar-Lips.
-去跟蜜-唇谈谈。
+去跟蜜唇谈谈。
 
 > INFO.NAME join the thieves guild 1537992043127627951
 Tell you what. Why not visit the South Wall Cornerclub in Balmora? Spend some time there, ask around. If people like what they see, maybe you'll learn something.
@@ -87643,7 +87643,7 @@ Speak with Ygfa at Fort Pelagiad, Syloria Siruliulus at Fort Buckmoth, Somutis V
 
 > INFO.NAME join the imperial cult 2585332132899910599
 Speak with Ygfa at Fort Pelagiad, Syloria Siruliulus at Fort Buckmoth, Somutis Vunnis at Fort Moonmoth, Ruccia Conician in the Grand Council Chambers in Ebonheart, or Lalatia Varian in the Imperial Chapels at Ebonheart. And here's my copy of 'For my Gods and Emperor'. It's a handbook for members of the Imperial cult. Keep it. Read it. It may help you decide whether you should join the Imperial cult.
-请与佩拉吉亚德堡的耶格法、雄蛾堡的叙洛莉雅·西鲁里乌卢斯、月蛾堡的苏穆蒂斯·文尼斯、黑檀心大议会厅的鲁西亚·康尼安或伊邦心帝国教堂的拉拉蒂亚·瓦里安谈谈。这是我的'献给我的众神和皇帝'。这是给帝国教团成员的手册。留着吧，读一读，也许能帮你决定是否加入帝国教团。 {帝国人}
+请与佩拉吉亚德堡的耶格法、雄蛾堡的叙洛莉雅·西鲁里乌卢斯、月蛾堡的苏穆蒂斯·文尼斯、黑檀心大议会厅的鲁西亚·康尼安或伊邦心帝国教堂的拉拉蒂亚·瓦里安谈谈。这是我的《献给我的诸神和皇帝》。这是给帝国教团成员的手册。留着吧，读一读，也许能帮你决定是否加入帝国教团。 {帝国人}
 
 > INFO.NAME imperial cult doctrine 32766151232851324457
 We also say -- do not harm one another. It is forbidden to attack another person of the Imperial cult, and of course, forbidden to kill another member. It is forbidden to steal from another member, whether by open theft or by covert pickpocketing. It is forbidden to trespass upon the private property of another member -- private property being understood to be anything behind a locked door. Break any one of these rules, and be expelled from the cult.
@@ -87823,7 +87823,7 @@ Yes, this is excellent, %PCName. A most interesting account. Please take this am
 
 > INFO.NAME galur rithari's papers 659726566320879542
 Yes, this is excellent, %PCName. A most interesting account. Please take this amulet with my gratitude.
-是的，非常好，%PCName。非常有趣的故事 请收下这个护身符，以表谢意。
+是的，非常好，%PCName 。非常有趣的故事 请收下这个护身符，以表谢意。
 
 > INFO.NAME galur rithari's papers 13123101781215832265
 I am impressed, %PCName. But did you not bring the papers with you?
@@ -87967,7 +87967,7 @@ Look at these people, %PCName. They cannot afford the services of the Mages Guil
 
 > INFO.NAME unsanctioned training 13383259681688610735
 I have not had word that you were in good standing again. If you persist in this behavior, I will be forced to make a formal complaint to Arch-Mage Trebonius.
-我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向首席大法师崔博尼乌斯正式投诉。
+我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向大法师崔博尼乌斯正式投诉。
 
 > INFO.NAME unsanctioned training 15199149422061430033
 You were expelled some time ago. Do not expect me to help you now.
@@ -89143,15 +89143,15 @@ Indarys Manor will have more settlers soon enough.
 
 > INFO.NAME attract more settlers 7984216862523425252
 So, Hetman Guls is satisfied. I will give the orders to begin the last stage of your stronghold.
-所以，赫特曼·古尔斯很满意。我将下达指示，开始您堡垒的最后一道工序。
+所以，古尔斯护民官很满意。我将下达指示，开始您堡垒的最后一道工序。
 
 > INFO.NAME attract more settlers 27792235692012361
 So, Hetman Guls believes there should be more women there. I am inclined to agree with him. A stronghold cannot grow and prosper with so few women there. I am spoken for, of course, but if the men at Indarys Manor need wives, there are a few here in town.
-所以，赫特曼·古尔斯认为那里应该有更多的女人。我同意他的看法 一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯庄园的男人们需要老婆，城里也有几个。
+所以，古尔斯护民官认为那里应该有更多的女人。我同意他的看法 一个堡垒如果只有那么几个女人，是无法发展壮大的。当然，我已经有人了，但如果因达瑞斯庄园的男人们需要老婆，城里也有几个。
 
 > INFO.NAME attract more settlers 1770530849447717108
 Yes, speak with Hetman Guls at your stronghold of Indarys Manor. He can tell you of anything troubling your settlers.
-是的，去因达瑞斯庄园的堡垒和赫特曼·古尔斯谈谈吧。他能告诉你任何困扰你们定居者的事。
+是的，去因达瑞斯庄园的堡垒和古尔斯护民官谈谈吧。他能告诉你任何困扰你们定居者的事。
 
 > INFO.NAME attract more settlers 850775252952223238
 Yes, you have found wives for us. Now the settlement around Indarys Manor will grow and prosper.
@@ -89479,7 +89479,7 @@ Wraithguard's primary function is to protect the wearer from the fatal energies 
 
 > INFO.NAME dagoth ur's servants 3071827592150624738
 Chief among his servants are his seven brothers, the ash vampires, powerful heartwights and cunning sorcerers of old. These creatures appear to die, but always are revived at the Heart. Somehow Dagoth Ur has conferred some portion of his immortality upon them. Or perhaps they sustain themselves through more conventional sorcery.
-他的仆人中最主要的是他的七个兄弟--灰烬吸血鬼、强大的心魔和狡猾的古代巫师。这些生物看似会死亡，但总会在心脏处复活。达格斯·乌尔以某种方式将自己的部分不死之身赋予了他们。又或者，它们通过更传统的巫术维持着自己的生命。
+他的仆人中最主要的是他的七个兄弟--灰烬吸血鬼、强大的心魔和狡猾的古代巫师。这些生物看似会死亡，但总会在神心处复活。达格斯·乌尔以某种方式将自己的部分不死之身赋予了他们。又或者，它们通过更传统的巫术维持着自己的生命。
 
 > INFO.NAME dagoth ur's servants 2363974602738031516
 These are the monstrous servants of Dagoth Ur known by name to natives of Vvardenfell. Corprus beasts include the corprus stalker and the lame corprus. Lesser Dagoth followers include the ash slave and ash zombie. The greatest, most feared of Dagoth Ur's servants are the ash ghoul, the ascended sleeper, and the ash vampire.
@@ -89495,7 +89495,7 @@ Confer with the Ordinators and Buoyant Armigers garrisoning Ghostgate for the la
 
 > INFO.NAME challenge my station 367930613178823695
 You think to climb higher in Brother Dagoth's eyes by defeating me? Well, then, you might rise at that. None of us Heartwights can die. The power of the Heart will bring us all back in time. But, yes, you might win Lord Dagoth's favor by defeating his lieutenants. No hard feelings, %PCName. I lose, I lose my rank. You lose, you lose all. You're playing for high stakes, %PCName. Are you sure you want to play? Surely, there is no dishonor for a mortal to serve a god?
-你以为打败了我，就能在达格斯兄弟心目中更上一层楼？好吧，那你就等着瞧吧。我们心魔骑士都不会死，心脏的力量会让我们及时复活，但是，是的，你可能会赢得达格斯大人的青睐，通过击败他的副手。别难过，%PCName。我输了，我的军衔就没了。你输了，你就输光了 你在玩高额赌注，%PCName。你确定要玩？当然，凡人侍奉神灵没有什么不光彩的？ {忙}
+你以为打败了我，就能在达格斯兄弟心目中更上一层楼？好吧，那你就等着瞧吧。我们心魔骑士都不会死，神心的力量会让我们及时复活，但是，是的，你可能会赢得达格斯大人的青睐，通过击败他的副手。别难过，%PCName。我输了，我的军衔就没了。你输了，你就输光了 你在玩高额赌注，%PCName。你确定要玩？当然，凡人侍奉神灵没有什么不光彩的？ {忙}
 
 > INFO.NAME cleaver of st. felms 2329523291386410325
 Are you the one who claims to be the Nerevarine? You should speak with Archcanon Saryoni. Before these rumors are put to rest, I cannot give you duties.
@@ -90195,7 +90195,7 @@ Now that Eydis Fire-Eye and Lorbumol gro-Aglakh are dead, you must take this bat
 
 > INFO.NAME lorbumol gro-aglakh 299822978625620016
 Good work, %PCName. You must also kill Eydis Fire-Eye.
-干得好，%PCName。你还必须杀了艾迪斯·火眼。 {工作}
+干得好，%PCName 。你还必须杀了艾迪斯·火眼。 {工作}
 
 > INFO.NAME lorbumol gro-aglakh 4880184866772598
 Lorbumol is in the Guild of Fighters in Vivec. Kill him and report back to me.
@@ -90887,7 +90887,7 @@ Thank you for getting them back. It's good to hear you were able to make at leas
 
 > INFO.NAME girith's guar hides 485623526105921775
 Good to finally have them back. Don't know how I would have made it without them. Shame you couldn't get rid of those two Ashlanders, but I thank you for your help. Remember to talk to my friend Berwen in Tel Mora. I'll send word to her to keep an eye out for you, %PCName.
-很高兴它们终于回来了。没有它们，我真不知道该怎么办。真遗憾你没能摆脱那两个灰烬之民，但我还是要感谢你的帮助。记得和我在泰尔·莫拉的朋友伯雯谈谈。我会让她帮你留意的，%PCName。 {我的朋友}
+很高兴它们终于回来了。没有它们，我真不知道该怎么办。真遗憾你没能摆脱那两个灰烬之民，但我还是要感谢你的帮助。记得和我在泰尔·莫拉的朋友伯雯谈谈。我会让她帮你留意的，%PCName 。 {我的朋友}
 
 > INFO.NAME girith's guar hides 405758861351631460
 Good luck finding them, friend. My entire business depends on getting those back.
@@ -91231,7 +91231,7 @@ Yes, let me hold her in my hands - ah, my pretty, I've missed you so....
 
 > INFO.BNAM taking cloudcleaver 2757230905834523173 c1
 Here's your axe, Hlormar.
-这是你的斧头，霍洛玛。
+这是你的斧头，赫洛马。
 
 > INFO.BNAM taking cloudcleaver 2757230905834523173 c2
 It belongs with a true warrior. Me.
@@ -92835,7 +92835,7 @@ Yes. It is a great token of power. Ahaz was a great witch-warrior. And perhaps i
 
 > INFO.NAME want to be ashkhan 24598294661751915195
 Yes. It is a great token of power. Ahaz was a great witch-warrior. But I am not Ahaz. I am not a witch-warrior of any kind. And I still do not want to be ashkhan.
-是的，这是权力的象征。亚哈斯是一位伟大的巫师勇士。但我不是亚哈斯。我不是任何巫师战士，我还是不想成为灰烬可汗。
+是的，这是权力的象征。亚哈斯是一位伟大的巫师战士。但我不是亚哈斯。我不是任何巫师战士，我还是不想成为灰烬可汗。
 
 > INFO.NAME want to be ashkhan 1567916150831919455
 Thank you. Your lesson is clear. It is the amulet that gives courage in battle, and it is the idea of the amulet that gives confidence to the tribe, but it is the ashkhan who wears the amulet, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
@@ -92851,7 +92851,7 @@ Thank you. Your lesson is clear. It is the amulet that gives courage in battle, 
 
 > INFO.NAME want to be ashkhan 2537823050999732108
 Yes. I recognize it. Ahaz wore that amulet, Sanit-Kil's Heart of Fire. Ahaz had it from his father, and Ahaz's father had it from Kinitu Nila, and Kinitu Nila had it from Sanit-Kil, a great witch-warrior. But what has that to do with my wanting to be ashkhan?
-是的，我认出来了。亚哈斯戴着那个护身符，桑尼特-基尔的火之心，亚哈斯从他父亲那里得到了它，亚哈斯的父亲又从基尼图·尼拉那里得到了它，基尼图·尼拉又从桑尼特-基尔那里得到了它，一个伟大的巫师。但这和我想成为灰烬可汗有什么关系呢？
+是的，我认出来了。亚哈斯戴着那个护身符，桑尼特-基尔的火之心，亚哈斯从他父亲那里得到了它，亚哈斯的父亲又从基尼图·尼拉那里得到了它，基尼图·尼拉又从桑尼特-基尔那里得到了它，一个伟大的巫师战士。这和我想成为灰烬可汗有什么关系呢？
 
 > INFO.BNAM want to be ashkhan 2537823050999732108 c1
 Give Sanit-Kil's Heart of Fire and make a little speech.
@@ -94867,7 +94867,7 @@ Someone saw you kill Itermerel. I'll take care of this for you, but you should b
 
 > INFO.NAME itermerel's notes 1723237212744211675
 I have not had word that you were in good standing with the Mages Guild again. If you persist in this behavior, I will be forced to make a formal complaint to Arch-Mage Trebonius.
-我还没有得到消息说你在法师公会恢复了良好的声誉。如果你继续这种行为，我将不得不向首席大法师崔博尼乌斯正式投诉。
+我还没有得到消息说你在法师公会恢复了良好的声誉。如果你继续这种行为，我将不得不向大法师崔博尼乌斯正式投诉。
 
 > INFO.NAME itermerel's notes 2356728361472519622
 You were expelled some time ago. Do not expect me to help you now.
@@ -94987,7 +94987,7 @@ The Urshilaku will never meet with an Argonian Sorcerer.
 
 > INFO.NAME arrange a meeting 2844133711727116111
 I have not yet had word from Arch-Mage Trebonius in Vivec. Until then, I must consider you expelled.
-我还没有得到维威克城首席大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
+我还没有得到维威克城大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
 
 > INFO.NAME arrange a meeting 931832367131021901
 You were still expelled from the Mages Guild last I heard. Be patient. The Guild does not move quickly here in Vvardenfell.
@@ -96531,7 +96531,7 @@ No
 
 > INFO.NAME telvanni compound 102953672285444195
 Telvanni Compound is the eastmost canton. The mage-lord Mavon Drenim is the ranking Telvanni noble. The Telvanni rent the compound from the Temple, and have to make do with a Velothi tower instead of their preferred mushroom towers. The administrative center includes a treasury and a hall of records. Slaves are housed in the lowest tiers. There are many tradesmen, craftsmen, and trainers, and the Lizard's Head cornerclub provides lodgings for Telvanni kin and mercenaries.
-泰瓦尼驻地是最东边的营地。马文·德雷尼姆法师是泰瓦尼的最高贵族。泰瓦尼家族的人向神殿租用大院，只能用一座维洛提塔楼代替他们喜欢的蘑菇塔。行政中心包括一个金库和一个档案馆。奴隶们住在最底层。这里有许多商人、工匠和驯兽师，蜥蜴脑袋角斗场为泰瓦尼亲属和雇佣兵提供住宿。
+泰瓦尼驻地是最东边的营地。马文·德雷尼姆法师是泰瓦尼的最高贵族。泰瓦尼家族的人向神殿租用大院，只能用一座维洛提塔楼代替他们喜欢的蘑菇塔。行政中心包括一个财政部和一个档案馆。奴隶们住在最底层。这里有许多商人、工匠和驯兽师，蜥蜴脑袋角斗场为泰瓦尼亲属和雇佣兵提供住宿。
 
 > INFO.NAME ministry of truth 10532754067328341
 The Ministry of Truth was hollowed out to provide a prison and re-education center operated by the Temple Ordinators for the correction of heretics.
@@ -96727,19 +96727,19 @@ Caius says he's fed up with heroes. The Empire keeps sending them out here to th
 
 > INFO.NAME morrowind history 26641290942936731915
 I won't bore you blathering about history. That's what Caius is for. But if you're really interested, try 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold. I have an extra copy you can have. What an adventurer like you REALLY needs is a sense of current events. Who hates who? Where's trouble brewing? That's where opportunity lies for an outlander like you.
-我不会喋喋不休地给你讲历史的，那是凯乌斯的职责所在。但如果你真的感兴趣，可以去读读曙光城的厄拉曼维写的《在晨风》。我还有一本可以给你，像你这样的冒险者真正需要的是对当前的事件的了解。谁憎恨谁？哪里正在酝酿麻烦？这就是像你这样的外地人的机会所在。 {帝国人}
+我不会喋喋不休地给你讲历史的，那是凯乌斯的职责所在。但如果你真的感兴趣，可以去读读阳堡的厄拉曼维写的《在晨风》。我还有一本可以给你，像你这样的冒险者真正需要的是对当前的事件的了解。谁憎恨谁？哪里正在酝酿麻烦？这就是像你这样的外地人的机会所在。 {帝国人}
 
 > INFO.NAME morrowind history 2824215751328330834
 As I said, Jeanette Sitte's little book is a good place to start. And I also recommend 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-正如我所说，杰内特·塞提的小书是一个很好的开始。我还推荐曙光城的厄拉曼维所著的《在晨风》。 {帝国人}
+正如我所说，杰内特·塞提的小书是一个很好的开始。我还推荐阳堡的厄拉曼维所著的《在晨风》。 {帝国人}
 
 > INFO.NAME morrowind history 31831207152653332496
 Jeanette Sitte's little book is a good place to start. I have a copy here. Take it. You might also look for  'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-杰内特·塞提的小书是一个很好的开始，我这里有一本，拿着它。你也可以找找曙光城的厄拉曼维写的《在晨风》。 {帝国人}
+杰内特·塞提的小书是一个很好的开始，我这里有一本，拿着它。你也可以找找阳堡的厄拉曼维写的《在晨风》。 {帝国人}
 
 > INFO.NAME morrowind history 26431244142805929937
 'Almost four centuries after the coming of the Imperial Legions, Morrowind is still occupied by Imperial legions, with a figurehead Imperial King, though the Empire has reserved most functions of the traditional local government to the Ruling Councils of the Five Great Houses.' For a good treatment of Morrowind since it became part of the Empire, look for 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-晨风在帝国军团到来近四个世纪后，仍由帝国军团占领，并有一位身居要职的帝国国王，不过帝国已将传统地方政府的大部分职能保留给了五大家族的议会所。关于晨风成为泰姆瑞尔帝国一部分后的良好处理，请参考曙光城的厄拉曼维所著的《在晨风》。 {帝国人}
+晨风在帝国军团到来近四个世纪后，仍由帝国军团占领，并有一位身居要职的帝国国王，不过帝国已将传统地方政府的大部分职能保留给了五大家族的议会所。关于晨风成为泰姆瑞尔帝国一部分后的良好处理，请参考阳堡的厄拉曼维所著的《在晨风》。 {帝国人}
 
 > INFO.NAME morrowind history 826656378525456
 'The ancient ancestor worship of the tribes was in time superceded by the monolithic Tribunal Temple theocracy, and the Dunmer grew into a great nation called Resdayn. Resdayn was the last of the provinces to submit to Tiber Septim; alone of all the provinces, it was never successfully invaded, and was peacefully incorporated by treaty into the Empire as the Province of Morrowind.'
@@ -96763,7 +96763,7 @@ I hope you found 'Short History of Morrowind' useful.
 
 > INFO.NAME morrowind history 27365739087626328
 Here's a copy of a short work by Jeanette Sitte distributed by the Imperial cult. For a good treatment of Morrowind since it became part of the Empire, look for 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold. Both are by Imperial scholars, but balanced and fair.
-这里有一份帝国教团分发的杰内特·塞提的短篇作品。如果你想了解“晨风”成为泰姆瑞尔帝国的一部分之后的发展情况，请参考曙光城的厄拉曼维写的《在晨风》。这两本书的作者都是帝国人，但写的并不偏袒，都很公正。 {工作}
+这里有一份帝国教团分发的杰内特·塞提的短篇作品。如果你想了解“晨风”成为泰姆瑞尔帝国的一部分之后的发展情况，请参考阳堡的厄拉曼维写的《在晨风》。这两本书的作者都是帝国人，但写的并不偏袒，都很公正。 {工作}
 
 > INFO.NAME food in morrowind 14890311583243729807
 The most popular beverages are mazte (a local beer brewed from fermented saltrice) and sujamma (a potent, bitter liquor).
@@ -97443,7 +97443,7 @@ I told you. This Caldera Mine trouble is not a Thieves Guild job. Yes. They are 
 
 > INFO.NAME bet with galbedir 1321911584322527982
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席大法师做出补偿，但阿吉拉告诉你，这里的法师们有很多事情要做，也有很多心事。很快，拉妮斯·阿特里斯就会忘记你被驱逐的事，阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向大法师做出补偿，但阿吉拉告诉你，这里的法师们有很多事情要做，也有很多心事。很快，拉妮斯·阿特里斯就会忘记你被驱逐的事，阿吉拉就可以再和你说话了。
 
 > INFO.NAME bet with galbedir 28406110011775631288
 Ajira won the bet. Ajira does not forget your help.
@@ -98847,7 +98847,7 @@ Only the Redoran councilors can choose a Hortator for House Redoran, and it must
 
 > INFO.NAME redoran hortator 129001121962487496
 You came to tell me that you are the reincarnation of Indoril Nerevar. Azura spoke with you. In a cave. And told you that because you are the reincarnation of Nerevar, that you must become the Hortator of all three Great Houses. And that is why you are standing here now, telling me this story of the Tribunal stealing power from a god's heart with Dwemer tools. And that Dagoth Ur is not dead, but even now plots to conquer Morrowind with the power of this alleged heart. Is that correct?
-你来告诉我，你是因多瑞尔·尼瑞瓦的转世。阿祖拉和你说过话。在一个山洞里，告诉你因为你是尼瑞瓦的转世，你必须成为三大家族的统谏使，这就是为什么你现在站在这里，告诉我审判席用锻莫工具----从神的心脏中窃取力量的故事，而达格斯·乌尔并没有死，甚至现在还在密谋用这颗所谓的心脏的力量征服晨风。是这样吗？ {阴谋}
+你来告诉我，你是因多瑞尔·尼瑞瓦的转世。阿祖拉和你说过话。在一个山洞里，告诉你因为你是尼瑞瓦的转世，你必须成为三大家族的统谏使，这就是为什么你现在站在这里，告诉我审判席用锻莫工具----从神心中窃取力量的故事，而达格斯·乌尔并没有死，甚至现在还在密谋用这颗所谓的神心的力量征服晨风。是这样吗？ {阴谋}
 
 > INFO.BNAM redoran hortator 129001121962487496 c1
 That's correct.
@@ -99272,11 +99272,11 @@ I have given you a copy of my proposed plan. Read it, study it, commit it to mem
 
 > INFO.NAME defeat dagoth ur 1953121723209921247
 To destroy Dagoth Ur, you must sever his connection with the Heart of Lorkhan. To do this, strike the Heart with the artifact hammer Sunder once, then strike the Heart more than once with the artifact blade Keening. You must wear Wraithguard, because you cannot handle either Sunder or Keening unless you are wearing Wraithguard. That is the short, simple explanation. Here is the long, detailed explanation, written down for your convenience. Read it, study it, commit it to memory.
-要消灭达格斯·乌尔，你必须切断他与洛克汗之心的联系。要做到这一点，用神锤“决裂”敲击心脏一次，然后用神刃“哀恸”穿刺心脏数次。你必须穿戴幽魂影卫，因为除非穿戴幽魂影卫，否则无法使用决裂和哀恸。这就是简短的解释。下面是详细的解释，为了方便你阅读，我把它写下来了。请阅读、学习并牢记。 {令状}
+要消灭达格斯·乌尔，你必须切断他与洛克汗之心的联系。要做到这一点，用神锤“决裂”敲击神心一次，然后用神刃“哀恸”穿刺神心数次。你必须穿戴幽魂影卫，因为除非穿戴幽魂影卫，否则无法使用决裂和哀恸。这就是简短的解释。下面是详细的解释，为了方便你阅读，我把它写下来了。请阅读、学习并牢记。 {令状}
 
 > INFO.NAME defeat dagoth ur 6739307621390017830
 To defeat Dagoth Ur, go to Red Mountain to recover the artifact hammer Sunder from Gate Citadel Vemynal, then recover the artifact blade Keening from Gate Citadel Odrosal. Then proceed with Wraithguard, Sunder, and Keening to the citadel of Dagoth Ur. Within the citadel, find the Heart of Lorkhan. Use the three artifacts to sever Dagoth Ur's connection to the Heart, and he will be destroyed, and the Blight ended on Morrowind.
-要打败达格斯·乌尔，先去红山从维密纳之门堡找回神锤“决裂”，然后从欧德罗萨之门堡找回神刃“哀恸”。然后带着幽魂影卫、决裂和哀恸前往达格斯·乌尔堡。在堡垒内找到洛克汗之心。使用三件神器切断达格斯·乌尔与心脏的联系，他就会被消灭，晨风的枯萎之症也会随之结束。
+要打败达格斯·乌尔，先去红山从维密纳之门堡找回神锤“决裂”，然后从欧德罗萨之门堡找回神刃“哀恸”。然后带着幽魂影卫、决裂和哀恸前往达格斯·乌尔堡。在堡垒内找到洛克汗之心。使用三件神器切断达格斯·乌尔与神心的联系，他就会被消灭，晨风的枯萎之症也会随之结束。
 
 > INFO.BNAM defeat dagoth ur 6739307621390017830 c1
 Continue
@@ -100964,7 +100964,7 @@ I must be mistaken.
 
 > INFO.NAME argonian mission 2973520059636313520
 The Argonian Mission is Black Marsh's diplomatic embassy to Vvardenfell District. Leave the Imperial Chapels, pass through the Grand Council Chambers, cross the bridge, then down the stairs. As you face out the gate, the Argonian Mission is to the south, on the southern side of the well.
-阿尔贡尼亚使馆是黑沼泽驻瓦登费尔地区的外交大使馆。离开帝国教堂，穿过总议会厅，过桥，然后下楼。当你面向大门外时，阿尔贡尼亚大使馆就在南面，水井的南边。 {阿尔贡,帝国人}
+阿尔贡尼亚使馆是黑沼泽驻瓦登费尔地区的外交大使馆。离开帝国教堂，穿过大议会厅，过桥，然后下楼。当你面向大门外时，阿尔贡尼亚大使馆就在南面，水井的南边。 {阿尔贡,帝国人}
 
 > INFO.NAME ring in darkness 9896327551850022158
 You have done well. Keep the ring safe, and use it to the glory of the Nine.
@@ -105020,7 +105020,7 @@ Continue
 
 > INFO.NAME final questions 247972647285714517
 I will continue to draw divine power from the Heart and distribute it to my kin and followers. I will continue to broadcast divine power upon the blight winds, so that it will touch each soul on Vvardenfell, and then more broadly, across the waters to the rest of Morrowind and Tamriel. In time, every mortal in Tamriel shall feel the liberating contact with the divine.
-我将继续从“心脏”中汲取神圣的力量，并将其分配给我的亲属和追随者。我将继续在枯萎之风中播撒神力，让枯萎之症触及瓦登费尔的每一个灵魂，然后更广泛地越过水域，到达晨风和泰姆瑞尔的其他地方。到时候，泰姆瑞尔的每一个凡人，都会感受到神力带来的解放。 {沙尔}
+我将继续从“神心”中汲取神圣的力量，并将其分配给我的亲属和追随者。我将继续在枯萎之风中播撒神力，让枯萎之症触及瓦登费尔的每一个灵魂，然后更广泛地越过水域，到达晨风和泰姆瑞尔的其他地方。到时候，泰姆瑞尔的每一个凡人，都会感受到神力带来的解放。 {沙尔}
 
 > INFO.BNAM final questions 247972647285714517 c1
 Continue
@@ -105152,7 +105152,7 @@ Continue
 
 > INFO.NAME final questions 161812158673301622
 You will follow the model of the Tribunal? That is a dull and unenterprising ambition. See what the Tribunal have done. They've sacrificed the honor and dignity of the Dunmer race, and handed over our ancient land to the mongrel dogs of the Empire. You may mean well, but you lack vision. You are not worthy of the Heart.
-你要效仿审判席？真是个乏味而无趣的野心，你看看审判席都干了些什么。他们牺牲了丹莫种族的荣誉和尊严，把我们古老的土地拱手让给了帝国的杂种狗。你也许是好意，但你缺乏远见。你不配拥有“心脏”。 {泰姆瑞尔帝国}
+你要效仿审判席？真是个乏味而无趣的野心，你看看审判席都干了些什么。他们牺牲了丹莫种族的荣誉和尊严，把我们古老的土地拱手让给了帝国的杂种狗。你也许是好意，但你缺乏远见。你不配拥有“神心”。 {泰姆瑞尔帝国}
 
 > INFO.BNAM final questions 161812158673301622 c1
 Continue
@@ -105160,7 +105160,7 @@ Continue
 
 > INFO.NAME final questions 52072529196855721
 My second question is: if you win, what do you plan to do with the power from the Heart? Will you make yourself a god, and establish a thearchy? Or will you complete Akulakhan, and dispute control of Tamriel with the Septims? Or will you share the Heart with your followers, as I have, and breed a new race of divine immortals?
-我的第二个问题是：如果你赢了，你打算如何使用心脏的力量？你会让自己成为神，建立新的统治吗？还是完成阿库拉可汗，与赛普丁争夺泰姆瑞尔的控制权？还是像我一样，与你的追随者分享神之心的力量，并孕育出新的神之种族？ {计划}
+我的第二个问题是：如果你赢了，你打算如何使用神心的力量？你会让自己成为神，建立新的统治吗？还是完成阿库拉可汗，与赛普丁争夺泰姆瑞尔的控制权？还是像我一样，与你的追随者分享神之心的力量，并孕育出新的神之种族？ {计划}
 
 > INFO.BNAM final questions 52072529196855721 c1
 Make myself a god.
@@ -106276,7 +106276,7 @@ You are now a %PCRank in the %Faction. Welcome, brother %PCName. I am one of sev
 
 > INFO.NAME join the temple 16828257892525722321
 Your fourfold duties are to: Faith, Family, Masters, and all that is good. Perform holy quests and bring luster to the Temple. Never transgress against your brothers or sisters -- in thought or deed -- as we are all one body. If you somehow fail to uphold these ideals, you must speak with a Master or the Patriarch to be cleansed of your wrongdoings. Still want to join?
-你们的四大职务是：信仰、家庭、主人和一切美好的事物。完成神圣的任务，为神殿增添光彩。无论在思想上还是行动上，都不要违背你的兄弟姐妹，因为我们是一个整体。如果你在某种程度上未能坚持这些理想，你必须与大师或族长交谈，以洗清你的错误行为。还想加入吗？
+你们的四大职务是：信仰、家庭、大师和一切美好的事物。完成神圣的任务，为神殿增添光彩。无论在思想上还是行动上，都不要违背你的兄弟姐妹，因为我们是一个整体。如果你在某种程度上未能坚持这些理想，你必须与大师或族长交谈，以洗清你的错误行为。还想加入吗？
 
 > INFO.BNAM join the temple 16828257892525722321 c1
 Yes, I am worthy
@@ -106476,7 +106476,7 @@ Violet coprinus is a tall, slender-stemmed, light-green-capped mushroom of the B
 
 > INFO.NAME staff of magnus 8928285342519022
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME staff of magnus 22619316682420711487
 Ajira knows you have found the Staff of Magnus. Now Ajira might tell you her other secret.
@@ -106496,7 +106496,7 @@ Ajira knows the Staff of Magnus is in Assu. It is a cave on the slopes of Mount 
 
 > INFO.NAME hlaalu treasury 28654272482193427753
 It's not far from here. Just leave my house and go north. The Treasury connects to the vaults, the prison, and the records office.
-离这里不远，离开我家往北走就到了，库房连接着金库、监狱和档案室。
+离这里不远，离开我家往北走就到了，财政部连接着金库、监狱和档案室。
 
 > INFO.NAME hlaalu treasury 15734126081037417972
 Go to the Hlaalu Canton in Vivec. You should be able to get better directions there. Tenisi works in the vaults.
@@ -106508,7 +106508,7 @@ Yes, this is the House Hlaalu Treasury. The northeast door leads to the prisons.
 
 > INFO.NAME hlaalu treasury 2075118645232817751
 You can enter the treasury from the Waistworks. The door is on the upper level on the north side.
-你可以从中层区进入金库。门在北侧的上层区域。
+你可以从中层区进入财政部。门在北侧的上层区域。
 
 > INFO.NAME my imprisonment 668886872354931319
 I have been trapped in this place for centuries, kept here by Azura, damn her meddlesome ways. I had lived for years, feeding off the human cattle until she imprisoned me here, leaving me weak, powerless, and helpless. I tire of feeding off rats to keep me alive. But I may have found a way to escape.
@@ -106584,7 +106584,7 @@ Time is short. Serious questions please.
 
 > INFO.NAME varus vantinius 3164012942838516226
 You are greater than he. You have my honor. How may I serve you?
-你比他伟大，你拥有我的荣誉，有何贵干？
+您比他更伟大。我谨以荣誉向您起誓。请吩咐？
 
 > INFO.NAME varus vantinius 594532292896410149
 He's upstairs, with the Duke.
@@ -106652,7 +106652,7 @@ Yes. I heard about his death. Unfortunate.
 
 > INFO.NAME cunius pelelius 21666137133217222892
 I don't know anything about it. Other folk can say all they want, but it's more than my life's worth to pass rumors about a rich man like Cunius Pelelius.
-我对此一无所知，别人想怎么说就怎么说，但像库尼乌斯·佩勒里乌斯这样的有钱人传出流言，对我来说太不值了。
+我对此一无所知，别人想怎么说就怎么说，但散播库尼乌斯·佩勒里乌斯这种有钱人的谣言？那可是要我的命，我可担待不起。
 
 > INFO.NAME cunius pelelius 2735823472467121835
 He's dead, you say? Sorry to hear it.
@@ -106896,7 +106896,7 @@ Not yet. I'm still trying.
 
 > INFO.NAME embezzled funds 31925192002227225729
 Our clerk Mossanon took 3000 drakes in gold from our treasury. Since he kept all accountings, we didn't even suspect the gold was missing until he disappeared.
-我们的书记员莫萨农，从我们的金库里拿走了3000龙币的金币，由于他保留了所有账目，我们甚至没有怀疑金币不见了，直到他消失了。
+我们的书记员莫萨农，从我们的财政部里拿走了3000龙币的金币，由于他保留了所有账目，我们甚至没有怀疑金币不见了，直到他消失了。
 
 > INFO.NAME audenian valius 30390304372567724097
 You will find him in the Telvanni section of Vivec. I'm not that familiar with the city myself; perhaps someone there can give you a more precise location. He is powerful, and his store will likely be guarded.
@@ -107120,7 +107120,7 @@ I will not swear.
 
 > INFO.NAME darl elf savant 934299821358628615
 The only Dark Elf savant that comes to mind is Llaalam Dredil. Fortunately, he's close by, in the Ebonheart Grand Council Chambers.
-唯一能想到的暗精灵圣徒是拉拉姆·德雷迪尔。幸运的是，他就在附近，在黑檀心大议会厅。
+唯一能想到的暗精灵学者是拉拉姆·德雷迪尔。幸运的是，他就在附近，在黑檀心大议会厅。
 
 > INFO.NAME temple compound 17416141761178812938
 The Temple Compound includes the High Fane, the largest Tribunal temple on Vvardenfell, and The Ministry of Truth, a moon suspended by Vivec's power above the Temple Compound, where the Temple Ordinators are quartered. The Hall of Wisdom and Hall of Justice house the executive, administrative, judicial, and martial operations of the Tribunal Temple. The Palace of Vivec is the abode of the god-hero Lord Vivec. Beneath the Palace of Vivec is the Puzzle Canal, a place of testing for questing heroes.
@@ -108272,7 +108272,7 @@ Nalvilie... Now that's a name I haven't heard in years. I heard she's had some h
 
 > INFO.NAME nalvilie saren 262153006699978500
 Yes, I remember her. We grew up together in Vivec. She always had a man on each arm.
-是的，我记得她，我们一起在维威克长大，她总是搂着一个男人。
+是的，我记得她，我们一起在维威克长大，她总是左拥右抱着男人。
 
 > INFO.NAME nalvilie saren 2754732466101033297
 I haven't heard that name in years... I have many fond memories of her, but I don't know where she is now.
@@ -109424,7 +109424,7 @@ Continue
 
 > INFO.NAME specific place 135187899394221201
 The Buoyant Armiger and Redoran garrisons, the hostels, and other services are all inside the Molag Mar Stronghold, either on the tier top or inside on the lower tiers. Roads lead north to the two pilgrim sites, Mount Assarnibibi and Mount Kand, in the Molag Amur wastes. Silt strider service goes to Suran and Vivec. From the docks get ship passage to Vivec, Tel Branora, and Hla Oad.
-灵动扈从和勒多兰的堡垒、旅店以及其他服务设施都在莫拉格·玛尔堡垒内，有的在层顶，有的在下层的内部。道路向北通往莫拉格·阿穆尔荒原上的两个朝圣地：阿萨恩尼比比山和坎德山。阔步沙蚤服务通往苏兰和维威克城。从码头可以乘船前往维威克城、泰尔·布勒诺拉和哈拉·奥德。
+灵动扈从和勒多兰的堡垒、旅店以及其他服务设施都在莫拉格·玛尔堡垒内，有的在层顶，有的在下层的内部。道路向北通往莫拉格·阿穆尔荒原上的两个朝圣地：阿萨尼比比山和坎德山。阔步沙蚤服务通往苏兰和维威克城。从码头可以乘船前往维威克城、泰尔·布勒诺拉和哈拉·奥德。
 
 > INFO.NAME specific place 276761092870272018
 The Tower shrine, the famous Maar Gan pilgrimage site, is on the east, surrounded by a wall and three watch towers. Andus Tradehouse is up the steps and through the gate at the northwest end of the village. The Maar Gan Outpost is on the southwest side, by the West Gate and the strider port. Silt strider service goes to Ald'ruhn, Gnisis, and Khuul. The main road south to Ald'ruhn runs farthest west; the back road runs closer to Red Mountain.
@@ -111368,7 +111368,7 @@ You murdered Saprius Entius, %PCName. I haven't forgotten that.
 
 > INFO.NAME saprius entius 150358888333516568
 Saprius Entius was a murderer, true. But you cannot just take justice in your own hands. I have no choice but to expel you from the Legions.
-萨普里乌斯·恩提乌斯是个杀人犯，没错。但你不能擅自伸张正义，我别无选择，只能将你逐出军团。 {手}
+萨普里乌斯·恩提乌斯是个杀人犯，没错。但你不能擅自做出制裁，别无选择，只能将你逐出军团。 {正义,手}
 
 > INFO.NAME saprius entius 34958201576927545
 I'm sorry to hear about that, %PCName. I ordered you to bring me Saprius Entius alive, and you've failed me.
@@ -111748,7 +111748,7 @@ Bungler's Bane is a mottled brown-and-orange shelf fungus collected from the tru
 
 > INFO.NAME stolen reports 26664254912191115086
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME stolen reports 228402215596730435
 Ajira remembers all the good things you have done for her.
@@ -111824,7 +111824,7 @@ I saw Galbedir carrying a scroll up to her desk, but I didn't think anything of 
 
 > INFO.NAME warlock's ring 2439032532318968299
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME warlock's ring 2817927533913016814
 Yes, Ajira knows that you are wise and brave and you have found the Warlock's Ring.
@@ -112684,7 +112684,7 @@ Madness is a sickness in the soul. It comes from a lack of faith, and a love of 
 
 > INFO.NAME soul sickness 123692425836628353
 I've heard savants say that Dagoth Ur was the source of the bad dreams and madness. Now that Dagoth Ur is dead, there should be no more madness and bad dreams. If the savants are right.
-我听救世主说，达格斯·乌尔是噩梦和疯狂的源头。现在达格斯·乌尔死了，应该不会再有疯狂和噩梦了。如果这些人是对的。
+我听学者说，达格斯·乌尔是噩梦和疯狂的源头。现在达格斯·乌尔死了，应该不会再有疯狂和噩梦了。如果这些人是对的。
 
 > INFO.NAME soul sickness 26532294224732903
 Well, the Temple has always said that madness is a soul sickness, and a sign of sin. But in the Empire, they say it's just another kind of disease.
@@ -114300,11 +114300,11 @@ Sadrith Mora is the only place to shop for goods and services in the Telvanni Di
 
 > INFO.NAME little advice 16326288722358217525
 Watch out for small camps of outcast Ashlanders. They prey on careless pilgrims. There's a large Ashlander camp beyond Mount Kand and Mount Assarnibibi to the north -- Erabenimsun camp. The Erabenimsun tribe is not very hospitable, but we're more or less at peace with them at present, so don't rile them.
-当心那些灰烬之民流放者的小营地。他们专门劫掠粗心的朝圣者。坎德山和阿萨恩尼比比山之外的北面有一个很大的灰烬之民营地 -- 埃勒比尼姆孙营地。埃勒比尼姆孙部落不是很好客，但目前我们与他们多少还算和平相处，所以不要激怒他们。 {礼物}
+当心那些灰烬之民流放者的小营地。他们专门劫掠粗心的朝圣者。坎德山和阿萨尼比比山之外的北面有一个很大的灰烬之民营地 -- 埃勒比尼姆孙营地。埃勒比尼姆孙部落不是很好客，但目前我们与他们多少还算和平相处，所以不要激怒他们。 {礼物}
 
 > INFO.NAME little advice 2184728842546019675
 Most pilgrims will need guards and guides to reach the pilgrim sites, but someone like you should have no trouble on your own. Follow Foyada Ilibaal northwest to Mount Kand, then Mount Assarnibibi is northeast of Mount Kand, across Foyada Zabirbael. Just take your time, keep landmarks in sight, and be ready to hoof it back to the stronghold if you get in trouble.
-大多数朝圣者需要卫兵和向导才能到达朝圣地，但像你这样的人自己去应该没问题。沿着伊利巴勒熔渠向西北走，就能到达坎德山，然后阿萨恩尼比比山就在坎德山的东北方向，穿过扎比尔贝尔熔渠。慢慢走，注意观察地标，如果遇到困难，随时准备马不停蹄地返回堡垒。 {瓜尔}
+大多数朝圣者需要卫兵和向导才能到达朝圣地，但像你这样的人自己去应该没问题。沿着伊利巴勒熔渠向西北走，就能到达坎德山，然后阿萨尼比比山就在坎德山的东北方向，穿过扎比尔贝尔熔渠。慢慢走，注意观察地标，如果遇到困难，随时准备马不停蹄地返回堡垒。 {瓜尔}
 
 > INFO.NAME little advice 2441142542640818872
 We've had a lot of trouble with blight monsters escaping through the Ghostfence and attacking the village and outlying settlements. The Temple and House Redoran has called for volunteers to come help protect Maar Gan from monster attacks. Talk to the priests at the shrine if you might be willing to help. And talk to the volunteers who are lodging at the Andus Tradehouse.
@@ -116816,7 +116816,7 @@ You were visited by Tiber Septim! We heard this -- we were told that the Oracle 
 
 > INFO.NAME latest rumors 411922311605125893
 I heard that Hrisskar upstairs is having some financial troubles. Can't seem to win a wager these days.
-我听说楼上的赫里斯卡有财务问题。最近好像连赌都赢不了了。
+我听说楼上的赫利斯卡有财务问题。最近好像连个赌注都赢不了了。
 
 > INFO.NAME latest rumors 2102521282120885888
 Well, I don't know if anyone else has seen him, but I saw some crazy guy wandering around the hills east of here recently. He was all decked out in armor and waving his sword, mumbling about there being no one to challenge him. I'd steer clear, stranger.
@@ -117320,7 +117320,7 @@ Have you seen Ienas Sarandas lately? What a remarkably good-looking young man he
 
 > INFO.NAME latest rumors 1469412633283572447
 I've heard that the local tax collector, Processus Vitellius, is missing. No surprise, really. He wasn't well liked around here.
-我听说当地的税官普罗塞苏斯·维特里乌斯失踪了 这并不奇怪 他在这里人缘不好。 {收集者}
+我听说当地的税官普罗塞苏斯·维特里乌斯失踪了。这并不奇怪，他在这里人缘不好。 {收集者}
 
 > INFO.NAME latest rumors 27440159621703420683
 These Imperial tax collectors have really started to get on everyone's nerves. Haven't seen the local one in a while, though...not that anyone is complaining.
@@ -118404,7 +118404,7 @@ Habasi did not mean for you to kill him. You must be more careful in the future.
 
 > INFO.NAME sovor trandel 9605152162764523118
 He spends all his time and gold at the Council Club over by the silt strider.
-他把所有的时间和金币 都花在阔步沙蚤那边的议会所了。 {棍棒}
+他把所有的时间和金币，都花在阔步沙蚤那边的议会所了。 {棍棒}
 
 > INFO.NAME haunted house 67725129326912966
 Yes, you told me. It's not haunted any more, and I thank you.
@@ -118560,7 +118560,7 @@ Fort Moonmoth is the Imperial Legions garrison southeast of Balmora, just outsid
 
 > INFO.NAME dunmer savant 10342213132248013480
 Llaalam Dredil in the Grand Council Chambers here in Ebonheart is a Dunmer savant.
-黑檀心总议会厅楼上的拉拉姆·德雷迪尔就是一位丹莫学者。
+黑檀心大议会厅楼上的拉拉姆·德雷迪尔就是一位丹莫学者。
 
 > INFO.NAME info refusal 1042231852103168171
 I'm sure you're an okay person, but I can't talk about that with just anyone.
@@ -118740,7 +118740,7 @@ Telvanni spies? Yes, I suspect there is at least one. I do not know who or where
 
 > INFO.NAME telvanni spy 24899101441471519574
 Well, you're the Arch-Mage now. If you want to know who the spy is, talk to one of my best advisors, Tiram Gadar. He'll help root the spy out. I'm sure of it.
-你现在是大法师了。如果你想知道间谍是谁，去找我最好的顾问之一，蒂拉姆·加达尔。他会帮你把间谍揪出来。我很确定。 {首席大法师,谈}
+你现在是大法师了。如果你想知道间谍是谁，去找我最好的顾问之一，蒂拉姆·加达尔。他会帮你把间谍揪出来。我很确定。 {谈}
 
 > INFO.NAME telvanni spy 11442133941023827714
 Because I'm the Archmage of Vvardenfell, of course. I'd know if there was a spy in my guild.
@@ -118776,7 +118776,7 @@ Why, no, %PCName. There are no Telvanni spies here. And I would know if there we
 
 > INFO.NAME telvanni spy 1610102231687517643
 Telvanni spy? Not that I know of. I am a special advisor to Arch-Mage Trebonius on Dunmer Issues. You can check my credentials with Trebonius himself.
-泰瓦尼间谍？据我所知不是。我是大法师崔博尼乌斯的丹莫问题特别顾问。你可以向崔博尼乌斯本人核实我的凭证。 {首席大法师}
+泰瓦尼间谍？据我所知不是。我是大法师崔博尼乌斯的丹莫问题特别顾问。你可以向崔博尼乌斯本人核实我的凭证。
 
 > INFO.NAME telvanni spy 1714319054833723876
 No, I am not a Telvanni spy. Unless you have proof, you should not make such accusations.
@@ -119494,7 +119494,7 @@ You are Hortator of all three Great Houses, Redoran, Hlaalu, and Telvanni. You h
 
 > INFO.NAME fourth trial 28758149961788717676
 The Fourth Trial is: 'A stranger's voice unites the Houses./Three Halls call him Hortator.' When you have been named 'Hortator' by each of the three Great Houses of Vvardenfell, come to me for further guidance, for you will have passed the Fourth Trial.
-第四个试炼是：“异客”：“一个陌生人的声音团结了各大家族。三个家族称他为劝导者。”当你被瓦登费尔三大家族分别任命为“统谏使”时，来找我寻求进一步指导，因为你将通过第四道试炼。
+第四个试炼是：“异客”：“一个陌生人的声音团结了各大家族。三个家族称他为统谏使。”当你被瓦登费尔三大家族分别任命为“统谏使”时，来找我寻求进一步指导，因为你将通过第四道试炼。
 
 > INFO.NAME fourth trial 1855530296200537147
 A "Hortator" is a war-leader chosen when Dunmer great houses must put aside their normal feuds to unite against a common enemy. This has not happened since the Empire invaded our land.
@@ -120158,7 +120158,7 @@ So Ethal Seloth and Idroso Vendu are already dead? And you think you are better 
 
 > INFO.NAME idroso vendu 8913202573267231606
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME idroso vendu 2944832506200417839
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -120166,7 +120166,7 @@ Both targets are not dead, %PCName. You have not finished the Writ.
 
 > INFO.NAME idroso vendu 42299391175325156
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME idroso vendu 28720175451455117129
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -121498,7 +121498,7 @@ Yes, let me hold her in my hands. Ah, my pretty, I've missed you so....
 
 > INFO.BNAM cloudcleaver 17661150863116919945 c1
 Here's your axe, Hlormar.
-这是你的斧头，霍洛玛。
+这是你的斧头，赫洛马。
 
 > INFO.BNAM cloudcleaver 17661150863116919945 c2
 It belongs with a true warrior. Me.
@@ -121510,7 +121510,7 @@ Yes, let me hold her in my hands. Ah, my pretty, I've missed you so....
 
 > INFO.BNAM cloudcleaver 30762243651249824115 c1
 Here's your axe, Hlormar.
-这是你的斧头，霍洛玛。
+这是你的斧头，赫洛马。
 
 > INFO.BNAM cloudcleaver 30762243651249824115 c2
 It belongs with a true warrior. Me.
@@ -122262,7 +122262,7 @@ So Ethal Seloth and Idroso Vendu are already dead? And you think you are better 
 
 > INFO.NAME ethal seloth 8913202573267231606
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME ethal seloth 2944832506200417839
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -122270,7 +122270,7 @@ Both targets are not dead, %PCName. You have not finished the Writ.
 
 > INFO.NAME ethal seloth 42299391175325156
 I heard how to brought justice to Ethal Seloth and Idroso Vendu. You deserve the payment and honor of this Writ.
-我听说了你是如何为伊莎·瑟罗斯和伊德罗索·文杜伸张正义的。你应该得到这份令状的报酬和荣誉。
+我听说了你是如何制裁伊莎·瑟罗斯和伊德罗索·文杜的。你应该得到这份令状的报酬和荣誉。 {正义}
 
 > INFO.NAME ethal seloth 28720175451455117129
 Both targets are not dead, %PCName. You have not finished the Writ.
@@ -122758,7 +122758,7 @@ You have been expelled and you must make amends.
 
 > INFO.NAME advancement 240406882220330171
 You have been expelled from the Mages Guild. You should speak with Arch-Mage Trebonius in Vivec and make amends.
-你被法师公会驱逐了。你应该去维威克找首席大法师崔博尼乌斯补偿赔罪。
+你被法师公会驱逐了。你应该去维威克找大法师崔博尼乌斯补偿赔罪。
 
 > INFO.NAME advancement 107193086989225800
 Advancement in the Mages Guild does not occur by magic. Pay more attention to your duties and make sure you understand our requirements.
@@ -122774,11 +122774,11 @@ The Mages Guild appreciates the duties you've done, but you simply do not meet o
 
 > INFO.NAME advancement 21876270302919121426
 Have you come to challenge me for the title of Arch-Mage?
-你是来挑战我的大法师头衔吗？ {首席大法师}
+你是来挑战我的大法师头衔吗？
 
 > INFO.NAME advancement 1530715305218225887
 As long as he holds the title, only Arch-Mage Trebonius in Vivec can grant you the title of %NextPCRank.
-只有维威克的大法师崔博尼乌斯可以授予你%NextPCRank的称号。 {首席大法师}
+只有维威克的大法师崔博尼乌斯可以授予你%NextPCRank的称号。
 
 > INFO.NAME advancement 1524214181505124325
 Congratulations. You are now %PCName the %NextPCRank.
@@ -123550,7 +123550,7 @@ Haven't heard anything about them, other than vague rumors. But something is dif
 
 > INFO.NAME sixth house 9192286043218978
 This is a new threat, and not yet widely recognized as another face of the Devil Dagoth Ur. But it is clearly a sign of a coming crisis, and the Temple may no longer be able to protect Morrowind. In such troubled times, the Dunmer may turn to the ancient pillars of faith, the ancestors and the Daedra, and especially to the prophetic visions granted by Lord Azura. Then they may look to the Nerevarine, Saint Nerevar Reborn, to lead them against the grim armies of Dagoth Ur.
-这是一个新的威胁，还没有被广泛认为是恶魔达格斯·乌尔的另一个面孔。但这显然是危机来临的征兆，神殿可能再也无力保护晨风了。在这样的动荡时期，丹莫可能会求助于古老的信仰支柱 -- 先祖和迪德拉，尤其是阿祖拉领主赐予的预言异象。然后，他们可能会指望圣·尼瑞瓦的重生，尼瑞瓦因，带领他们对抗达格斯·乌尔的阴森大军。
+这是一个新的威胁，还没有被广泛认为是恶魔达格斯·乌尔的另一个面孔。但这显然是危机来临的征兆，神殿可能再也无力保护晨风了。在这样的动荡时期，丹莫可能会求助于古老的信仰支柱 -- 先祖和迪德拉，尤其是阿祖拉大人赐予的预言异象。然后，他们可能会指望圣·尼瑞瓦的重生，尼瑞瓦因，带领他们对抗达格斯·乌尔的阴森大军。
 
 > INFO.NAME sixth house 103431475510462377
 The Sixth House was not dead, but only sleeping. Now it wakes from its long dream, and with its Lord, Dagoth Ur, it comes forth to free Morrowind of foreign rulers and divine pretenders. When the land is swept clean of false friends and greedy thieves, the children of Veloth will build anew a garden of plenty in this blighted wasteland.
@@ -123790,7 +123790,7 @@ Yes. Her name is Addhiranirr, and she is a Khajiit. Do you know where I can find
 
 > INFO.BNAM addhiranirr 18068278061564118475 c1
 [Lie.] Yes, she just took a gondola to the mainland.
-【撒谎】她刚坐船去了大陆。
+【撒谎】她刚坐贡多拉渡船去了大陆。
 
 > INFO.BNAM addhiranirr 18068278061564118475 c2
 No
@@ -125738,23 +125738,23 @@ This silt strider can carry you from Vivec to Suran, Seyda Neen, Balmora, and Mo
 
 > INFO.NAME destination 642980566803164
 I can carry you by gondola to the Foreign Quarter in the north, to the Temple district to the south, to Hlaalu Compound to the west, or to Telvanni Compound to the east.
-我可以搭乘渡船载你前往北部的外邦区、南部的神殿区、西部的哈拉鲁驻地或东部的泰瓦尼驻地。
+我可以搭乘贡多拉渡船载你前往北部的外邦区、南部的神殿区、西部的哈拉鲁驻地或东部的泰瓦尼驻地。
 
 > INFO.NAME destination 2089112252714323557
 I can carry you by gondola to the Arena in the center of Vivec, or to Hlaalu Compound to the west, or to Telvanni Compound to the east.
-我可以带你乘坐渡船前往维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。
+我可以带你乘坐贡多拉渡船前往维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。
 
 > INFO.NAME destination 1731175992870511845
 I can carry you by gondola to the Arena in the center of Vivec, or to the Foreign Quarter in the north, or to the Temple district to the south.
-我可以带你乘坐渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。
+我可以带你乘坐贡多拉渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。
 
 > INFO.NAME destination 310903222489162613
 I can carry you by gondola to the Arena in the center of Vivec, or to the Foreign Quarter in the north, or to the Temple district to the south.
-我可以带你乘坐渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。
+我可以带你乘坐贡多拉渡船到维威克中心的竞技场，或北面的外邦区，或南面的神殿区。
 
 > INFO.NAME destination 1242265292108723180
 I can carry you by gondola to the Arena in the center of Vivec, or to Hlaalu Compound to the west, or to Telvanni Compound to the east.
-我可以带你乘坐渡船前往维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。
+我可以带你乘坐贡多拉渡船前往维威克中心的竞技场，或西边的哈拉鲁驻地，或东边的泰瓦尼驻地。
 
 > INFO.NAME fort darius 58965886207931905
 This is Fort Darius.
@@ -132478,7 +132478,7 @@ You're not supposed to be here, Redoran.
 
 > INFO.NAME greeting 5 16640103302741310761
 I am Hetman Guls. What can I do for you?
-我是赫特曼·古尔斯。有何贵干？
+我是古尔斯护民官。有何贵干？
 
 > INFO.NAME greeting 5 2897075251173223280
 What are you here for, Hlaalu? Didn't I already tell Edryno that I didn't have the debt money?
@@ -132830,11 +132830,11 @@ Are you looking for me? Do you want to build a stronghold?
 
 > INFO.NAME greeting 5 25123148251518918745
 I am glad Vvardenfell finally has an Arch-Mage who cares about scholarship.
-我很高兴瓦登费尔终于有了一位关心学术的大法师。 {首席大法师}
+我很高兴瓦登费尔终于有了一位关心学术的大法师。
 
 > INFO.NAME greeting 5 22124205801540511867
 My studies are at a critical phase. I do not have any more duties for you, but I will put in a word with Arch-Mage Trebonius.
-我的学习正处于关键阶段。我没有更多的职务要交给你，但我会向大导师崔博尼乌斯说一声。 {首席大法师}
+我的学习正处于关键阶段。我没有更多的职务要交给你，但我会向大导师崔博尼乌斯说一声。 {大法师}
 
 > INFO.NAME greeting 5 20174136967916537
 Did you find any plans or blueprints in Bethamez?
@@ -132886,7 +132886,7 @@ What's so important that you would interrupt my studies? If you must have duties
 
 > INFO.NAME greeting 5 162832153225730227
 Yes, you are the Arch-Mage now. I will help you in any way I can.
-是的，你现在是大法师了。我会尽我所能帮助你的。 {首席大法师}
+是的，你现在是大法师了。我会尽我所能帮助你的。
 
 > INFO.NAME greeting 5 2898310253268612448
 You have performed all my duties honorably. I have one more thing to ask of you...
@@ -134190,7 +134190,7 @@ What can I do for you, %PCRank?
 
 > INFO.NAME greeting 5 195031247679408781
 Interesting. This letter says that I am to make you the Arch-Mage and retire. I do not know why Ocato would lose his faith in me, but I will do as he asks. But I will watch over you, %PCName, and make sure you do not betray the high principles of the Mages Guild.
-有意思，这封信说我要让你成为大法师，然后退休。我不知道为什么奥卡托会对我失去信心，但我会照他说的做。但我会监督你，%PCName，确保你不会背叛法师公会的崇高原则。 {勒特,首席大法师,信仰}
+有意思，这封信说我要让你成为大法师，然后退休。我不知道为什么奥卡托会对我失去信心，但我会照他说的做。但我会监督你，%PCName，确保你不会背叛法师公会的崇高原则。 {勒特,信仰}
 
 > INFO.NAME greeting 5 1031932072858612196
 Oh? Well, what do you want, then?
@@ -134210,11 +134210,11 @@ Nevermind.
 
 > INFO.NAME greeting 5 11397209781241726043
 Are you here to challenge my position in the Guild? Do you think you have what it takes to be the Arch-Mage?
-你是来挑战我在公会的地位吗？你觉得你有能力成为大法师吗？ {首席大法师}
+你是来挑战我在公会的地位吗？你觉得你有能力成为大法师吗？
 
 > INFO.NAME greeting 5 22951339818121385
 Greetings, %PCName. I am Arch-Mage Trebonius, Guildmaster of Vivec.
-你好，%PCName。我是大法师崔博尼乌斯，维威克的公会会长。 {首席大法师}
+你好，%PCName。我是大法师崔博尼乌斯，维威克的公会会长。
 
 > INFO.NAME greeting 5 31963224991260227016
 You've been expelled, %PCName. Are you here to make amends?
@@ -134226,7 +134226,7 @@ What can I do for you, %PCRank?
 
 > INFO.NAME greeting 5 19096306681778019591
 Yes, I remember you, but do you remember me? I am Arch-Mage Trebonius Artorius and head of the Guild of Mages here in Vvardenfell.
-是的，我记得你，但你记得我吗？我是大法师崔博尼乌斯·阿托里乌斯，瓦登费尔法师公会的首领。 {首席大法师}
+是的，我记得你，但你记得我吗？我是大法师崔博尼乌斯·阿托里乌斯，瓦登费尔法师公会的首领。
 
 > INFO.NAME greeting 5 26065253482426819473
 Oh, hello! I see you've found Paur! Please, allow me to give you some reward for your efforts.
@@ -140774,7 +140774,7 @@ I left the Mages Guild and dedicated my life to studying the adaptive responses 
 
 > INFO.NAME guild dues 32562187111284224375
 I have not had word that you were in good standing again. If you persist in this behavior, I will be forced to make a formal complaint to Arch-Mage Trebonius.
-我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向首席大法师崔博尼乌斯正式投诉。
+我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向大法师崔博尼乌斯正式投诉。
 
 > INFO.NAME guild dues 30482104332862610215
 You were expelled some time ago. Do not expect me to help you now.
@@ -140842,7 +140842,7 @@ In the Empire, necromancy is a legitimate discipline, though body and spirit are
 
 > INFO.NAME necromancy 658522588247723488
 I have not yet had word from Arch-Mage Trebonius in Vivec. Until then, I must consider you expelled.
-我还没有得到维威克城首席大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
+我还没有得到维威克城大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
 
 > INFO.NAME necromancy 21331154091702424138
 You were still expelled from the Mages Guild last I heard. Be patient. The Guild does not move quickly here in Vvardenfell.
@@ -140926,7 +140926,7 @@ Not your concern.
 
 > INFO.NAME necromancy 1801413006891110116
 I have not had word that you were in good standing again. If you persist in this behavior, I will be forced to make a formal complaint to Arch-Mage Trebonius.
-我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向首席大法师崔博尼乌斯正式投诉。
+我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向大法师崔博尼乌斯正式投诉。
 
 > INFO.NAME necromancy 2077768322628128683
 You were expelled some time ago. Do not expect me to help you now.
@@ -141094,7 +141094,7 @@ Necromancy is both illegal and utterly evil according to our custom and religion
 
 > INFO.NAME tenyeminwe 253981740513897402
 I have not yet had word from Arch-Mage Trebonius in Vivec. Until then, I must consider you expelled.
-我还没有得到维威克城首席大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
+我还没有得到维威克城大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
 
 > INFO.NAME tenyeminwe 15625302088422329
 You were still expelled from the Mages Guild last I heard. Be patient. The Guild does not move quickly here in Vvardenfell.
@@ -141818,7 +141818,7 @@ The last stage of your stronghold is under construction.
 
 > INFO.NAME stronghold 15815302591153123672
 I am ready to give you a stronghold fit for a House Redoran Councilor. But first you must speak with Hetman Guls at your stronghold. Ask him what must be done to attract more settlers.
-我准备给你一个适合勒多兰家族议员的堡垒，但首先，你必须在你的堡垒与赫特曼·古尔斯谈谈。问问他该怎么做才能吸引更多定居者。
+我准备给你一个适合勒多兰家族议员的堡垒，但首先，你必须在你的堡垒与古尔斯护民官谈谈。问问他该怎么做才能吸引更多定居者。
 
 > INFO.NAME stronghold 315227697298816094
 The second stage of your stronghold is complete. Speak with me again when you need a stronghold fit for a House Redoran Councilor.
@@ -143106,7 +143106,7 @@ Molag Amur is the rocky, uninhabited wilderness interior of southeastern Vvarden
 
 > INFO.NAME molag amur 19365192112249610796
 Molag Amur is the rocky, uninhabited wilderness interior of southeastern Vvardenfell. Molag Mar is the only settlement, and it's more a fortress than a village. Pilgrims come here to visit Mount Kand and Mount Assarnibibi, but they can't travel without well-equipped, heavily armed escorts. There are no paths, and ravines, ridges, and lava pools make it impossible to travel straight over land. And if you get in trouble, you're on your own.
-莫拉格·阿穆尔是瓦登费尔东南部岩石密布、无人居住的荒野内部。莫拉格·玛尔是唯一的定居点，与其说是村庄，不如说是堡垒。朝圣者来此朝拜坎德山和阿萨恩尼比比山，但没有装备精良、全副武装的护卫的武装护送，他们寸步难行。这里没有小路，峡谷、山脊和熔岩池让人无法在陆地上直行。如果遇到麻烦，就只能靠自己了。 {保镖}
+莫拉格·阿穆尔是瓦登费尔东南部岩石密布、无人居住的荒野内部。莫拉格·玛尔是唯一的定居点，与其说是村庄，不如说是堡垒。朝圣者来此朝拜坎德山和阿萨尼比比山，但没有装备精良、全副武装的护卫的武装护送，他们寸步难行。这里没有小路，峡谷、山脊和熔岩池让人无法在陆地上直行。如果遇到麻烦，就只能靠自己了。 {保镖}
 
 > INFO.NAME molag amur 141685183207992798
 Located inland in the southeast of Vvardenfell, Molag Amur is an uninhabited wasteland of rocky hills, steep-sided ravines, lava pools, and barren ash pavements. Pathfinding and travel is extremely difficult in this trackless wilderness, and is complicated by frequent ash storms. The Ashlanders of Erabenimsun camp hunt game here, but few others venture into this region. The worst part of Molag Amur is considered impassible even by the Ashlanders.
@@ -143262,7 +143262,7 @@ No, not yet.
 
 > INFO.NAME ebony mail 2121520152675421911
 The Ebony Mail may be found on Mount Assarnibibi, which is north of Molag Mar. Mount Assarnibibi is where Molag Bal oversaw the 99 lovers of Boethiah that gave birth to Almalexia. Go there and pray before the shrine. If you are worthy, you will receive the Ebony Mail. Return it to me and I will make you %NextPCRank of the Temple.
-黑檀链甲可以在莫拉格·玛尔北面的阿萨恩尼比比山找到。阿萨恩尼比比山是莫拉格·巴尔监督波耶西亚的99位情人孕育阿玛莱西娅的地方。去那里，在圣祠前祈祷。如果你有资格，你会收到黑檀链甲。把它还给我，我会让你成为%NextPCRank的神殿成员。
+黑檀链甲可以在莫拉格·玛尔北面的阿萨尼比比山找到。阿萨尼比比山是莫拉格·巴尔监督波耶西亚的99位情人孕育阿玛莱西娅的地方。去那里，在圣祠前祈祷。如果你有资格，你会收到黑檀链甲。把它还给我，我会让你成为%NextPCRank的神殿成员。
 
 > INFO.NAME ra'gruzgob 11008871845520914
 Fifty drakes, same as in town.
@@ -143886,11 +143886,11 @@ Saint Olms the Just is the patron of Chandlers and Clerks. Founder of the Ordina
 
 > INFO.NAME house dres 16164203006753245
 Of the five Dunmer Great Houses, House Dres is one of two houses without holdings or interest in Vvardenfell. Dres District is in the south of Morrowind, bordering the swamps and marshes of Black Marsh. House Dres is an agrarian agricultural society, and its large saltrice plantations rely completely on slave labor for their economic viability. Always firm Temple supporters, House Dres is hostile to Imperial law and culture, and in particular opposed to any attempts to limit the institution of slavery.
-在五个丹莫大家族中，德雷斯家族是两个在瓦登费尔没有领地或利益的家族之一。德雷斯区位于晨风的南部，毗邻黑沼泽的沼泽和沼泽地。德雷斯家族是一个农业社会，其大型盐水稻种植园的经济活力完全依赖于奴隶劳动。德雷斯家族一直是神殿的坚定支持者，他们敌视帝国法律和文化，尤其反对任何限制奴隶制度的尝试。 {帝国人}
+在五个丹莫大家族中，德雷斯家族是两个在瓦登费尔没有领地或利益的家族之一。德雷斯区位于晨风的南部，毗邻黑沼泽的沼泽和湿地地。德雷斯家族是一个农业社会，其大型盐水稻种植园的经济活力完全依赖于奴隶劳动。德雷斯家族一直是神殿的坚定支持者，他们敌视帝国法律和文化，尤其反对任何限制奴隶制度的尝试。 {帝国人}
 
 > INFO.NAME house dres 1606822183162028376
 Of the five Dunmer Great Houses, House Dres is one of two houses without holdings or interest in Vvardenfell. Dres District is in the south of Morrowind, bordering the swamps and marshes of Black Marsh. House Dres is an agrarian agricultural society, and its large saltrice plantations rely completely on slave labor for their economic viability. Always firm Temple supporters, House Dres is hostile to Imperial law and culture, and in particular opposed to any attempts to limit the institution of slavery.
-在五个丹莫大家族中，德雷斯家族是两个在瓦登费尔没有领地或利益的家族之一。德雷斯区位于晨风的南部，毗邻黑沼泽的沼泽和沼泽地。德雷斯家族是一个农业社会，其大型盐水稻种植园的经济活力完全依赖于奴隶劳动。德雷斯家族一直是神殿的坚定支持者，他们敌视帝国法律和文化，尤其反对任何限制奴隶制度的尝试。 {帝国人}
+在五个丹莫大家族中，德雷斯家族是两个在瓦登费尔没有领地或利益的家族之一。德雷斯区位于晨风的南部，毗邻黑沼泽的沼泽和湿地地。德雷斯家族是一个农业社会，其大型盐水稻种植园的经济活力完全依赖于奴隶劳动。德雷斯家族一直是神殿的坚定支持者，他们敌视帝国法律和文化，尤其反对任何限制奴隶制度的尝试。 {帝国人}
 
 > INFO.NAME house dres 21505247862400310992
 Always firm Temple supporters, House Dres is hostile to Imperial law and culture, and in particular opposed to any attempts to limit the institution of slavery.
@@ -144710,7 +144710,7 @@ The other day he asked me to build a new Anumidium for Ocato since the original 
 
 > INFO.NAME trebonius 2970028742938323990
 Has he given you any duties? He asked me to chain an army of dreugh to the Foreign Quarter Canton and have it towed to a more reasonable climate. Just between you and me, I don't think he's the best candidate for Arch-mage. I'd take that lizard Skink in Sadrith Mora over Trebonius any day.
-他给你安排什么职务了吗？他让我把一支蟹灵军队拴在外邦区的船上，然后把它拖到气候比较适宜的地方。我觉得他不是大法师的最佳人选。比起崔博尼乌斯，我更喜欢萨德瑞斯·莫拉的那个叫树荫的蜥蜴。 {首席大法师}
+他给你安排什么职务了吗？他让我把一支蟹灵军队拴在外邦区的船上，然后把它拖到气候比较适宜的地方。我觉得他不是大法师的最佳人选。比起崔博尼乌斯，我更喜欢萨德瑞斯·莫拉的那个叫树荫的蜥蜴。
 
 > INFO.NAME trebonius 215071069531037462
 Did he give you any duties? Oh, that's not so bad, I guess. He asked me to make an inventory of all the plates and bottles in Vvardenfell. I'm never going to get in done in time.
@@ -145874,7 +145874,7 @@ The clannfear is a fierce, green, lizardlike bipedal Daedric summoning. Daedra h
 
 > INFO.NAME ash ghoul 1999628664275575595
 I have not yet had word from Arch-Mage Trebonius in Vivec. Until then, I must consider you expelled.
-我还没有得到维威克城首席大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
+我还没有得到维威克城大法师崔博尼乌斯的消息。在那之前，我必须认为你被驱逐了。
 
 > INFO.NAME ash ghoul 2457119632269479046
 You were still expelled from the Mages Guild last I heard. Be patient. The Guild does not move quickly here in Vvardenfell.
@@ -146310,27 +146310,27 @@ We'll need to head to the east part of Vvardenfell. Here, I'll mark it on your m
 
 > INFO.NAME molag mar 1897124289255263661
 This is the stronghold of Molag Mar. It is a garrison maintained by the Tribunal Temple and House Redoran. Many come here to rest before making the dangerous pilgrimages to Mount Kand and Mount Assarnibibi.
-这里是莫拉格·玛尔的堡垒。这里是审判席神殿和勒多兰家族的驻扎地。许多人在前往坎德山和阿萨恩尼比比山的危险朝圣之旅之前，都会来这里休息。
+这里是莫拉格·玛尔的堡垒。这里是审判席神殿和勒多兰家族的驻扎地。许多人在前往坎德山和阿萨尼比比山的危险朝圣之旅之前，都会来这里休息。
 
 > INFO.NAME molag mar 1360213982157073765
 Molag Mar Stronghold is a combination frontier garrison and pilgrimage hostel jointly staffed and maintained by the Tribunal Temple and House Redoran. Both the Temple and House Redoran have garrisons of elite volunteers here to defend the stronghold. Pilgrims use the stronghold as a base from which they can attempt the difficult and dangerous pilgrimages to the Mount Kand and Mount Assarnibibi sites to the north in the Molag Amur wastelands.
-莫拉格·玛尔堡垒是由审判席和勒多兰家族共同管理和维护的边境驻军和朝圣旅店的结合体。审判席神殿和勒多兰家族都有精锐的志愿者驻扎在这里保卫堡垒。朝圣者们以该堡垒为基地，从这里出发前往坎德山和阿萨恩尼比比山进行朝圣之旅，这两座山位于莫拉格·阿穆尔荒原的北部。 {杖}
+莫拉格·玛尔堡垒是由审判席和勒多兰家族共同管理和维护的边境驻军和朝圣旅店的结合体。审判席神殿和勒多兰家族都有精锐的志愿者驻扎在这里保卫堡垒。朝圣者们以该堡垒为基地，从这里出发前往坎德山和阿萨尼比比山进行朝圣之旅，这两座山位于莫拉格·阿穆尔荒原的北部。 {杖}
 
 > INFO.NAME molag mar 1924717561737125262
 The outpost at Molag Mar is a fortified stronghold on the southeastern edge of the desolate Molag Amur region. Pilgrims bound for the nearby pilgrimage sites at Mount Assarnibibi  and Mount Kand take refuge at the outpost's hostels, comforted by the garrison of Redoran and Buoyant Armiger crusaders stationed at the stronghold.
-莫拉格·玛尔的前哨是位于荒凉的莫拉格·阿穆尔地区东南边缘的一个坚固堡垒。前往阿萨恩尼比比山和坎德山附近朝圣地的朝圣者在前哨的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞士兵的安慰。
+莫拉格·玛尔的前哨是位于荒凉的莫拉格·阿穆尔地区东南边缘的一个坚固堡垒。前往阿萨尼比比山和坎德山附近朝圣地的朝圣者在前哨的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞士兵的安慰。
 
 > INFO.NAME molag mar 16078193532418921314
 The outpost at Molag Mar is a fortified stronghold on the southeastern edge of the desolate Molag Amur region. Pilgrims bound for the nearby pilgrimage sites at Mount Assarnibibi  and Mount Kand take refuge at the outpost's hostels, comforted by the garrison of Redoran and Buoyant Armiger crusaders stationed at the stronghold.
-莫拉格·玛尔的前哨是位于荒凉的莫拉格·阿穆尔地区东南边缘的一个坚固堡垒。前往阿萨恩尼比比山和坎德山附近朝圣地的朝圣者在前哨的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞士兵的安慰。
+莫拉格·玛尔的前哨是位于荒凉的莫拉格·阿穆尔地区东南边缘的一个坚固堡垒。前往阿萨尼比比山和坎德山附近朝圣地的朝圣者在前哨的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞士兵的安慰。
 
 > INFO.NAME molag mar 5548315132993530109
 Pilgrims bound for the nearby pilgrimage sites at Mount Assarnibibi  and Mount Kand take refuge at Molag Mar's hostels, comforted by the garrison of Redoran and Buoyant Armiger crusaders stationed at the stronghold.
-前往阿萨恩尼比比山和坎德山附近朝圣地的朝圣者在莫拉格·玛尔的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞军的安慰。
+前往阿萨尼比比山和坎德山附近朝圣地的朝圣者在莫拉格·玛尔的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞军的安慰。
 
 > INFO.NAME molag mar 19183270751493031524
 Pilgrims bound for the nearby pilgrimage sites at Mount Assarnibibi  and Mount Kand take refuge at Molag Mar's hostels, comforted by the garrison of Redoran and Buoyant Armiger crusaders stationed at the stronghold.
-前往阿萨恩尼比比山和坎德山附近朝圣地的朝圣者在莫拉格·玛尔的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞军的安慰。
+前往阿萨尼比比山和坎德山附近朝圣地的朝圣者在莫拉格·玛尔的旅店避难，并得到驻扎在堡垒的勒多兰和灵动扈从要塞军的安慰。
 
 > INFO.NAME molag mar 1443918554799031772
 The outpost at Molag Mar is a fortified stronghold on the southeastern edge of the desolate Molag Amur region.
@@ -147534,7 +147534,7 @@ With a mere copy of the Anumidium, Tiber Septim was able to conquer all of Tamri
 
 > INFO.NAME arch-mage 1440921321192784393
 We now both have the title of Arch-Mage.
-我们现在都有了大法师的头衔。 {首席大法师}
+我们现在都有了大法师的头衔。
 
 > INFO.NAME arch-mage 2736952351712016287
 Meet me in the Arena.
@@ -147562,7 +147562,7 @@ Nevemind.
 
 > INFO.NAME mushrooms 1152123141125916332
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME mushrooms 14103132243013728405
 Ajira thanks you again for bringing her the samples.
@@ -147898,7 +147898,7 @@ Someday your work in Dwemer archeology may surpass even myself or Hasphat Antabo
 
 > INFO.NAME bethamez 21250289262982410476
 This is truly remarkable, %PCName. These plans are very similar. Perhaps with both of them in my possession, I can discover their secrets. It's a shame Arch-Mage Trebonius doesn't share your dedication to scholarship.
-真是了不起，%PCName。这些计划非常相似。也许这两张图纸都在我手上，我就能发现它们的秘密了。真可惜，大法师崔博尼乌斯并不像你一样热衷于学术研究。 {首席大法师}
+真是了不起，%PCName。这些计划非常相似。也许这两张图纸都在我手上，我就能发现它们的秘密了。真可惜，大法师崔博尼乌斯并不像你一样热衷于学术研究。
 
 > INFO.NAME bethamez 31548320891603631323
 Well, where are they? Didn't you bring the plans with you?
@@ -148638,7 +148638,7 @@ Alfe Fyr is the sharpest of my girls, in wit and tongue. Gets on my nerves, some
 
 > INFO.NAME theories 29186326341137021332
 Lord Kagrenac, the foremost arcane philosopher and magecrafter of my era, devised tools to shape mythopoeic forces, intending to transcend the limits of Dwemer mortality. However, in reviewing his formulae, some logicians argued that side effects were unpredictable, and errors might be catastrophic. I think Kagrenac might have succeeded in granting our race eternal life, with unforeseen consequences -- such as wholesale displacement to an Outer Realm. Or he may have erred, and utterly destroyed our race.
-卡格瑞纳克勋爵是我们那个时代最伟大的奥术哲学家和魔法师，他设计了塑造神话力量的工具，意图超越锻莫的死亡极限。然而，在审查他的公式时，一些逻辑学家认为，副作用是不可预测的，错误可能会造成灾难。我认为，卡格瑞纳克可能成功地赋予了我们种族永恒的生命，但却带来了不可预知的后果--比如整体迁移到湮灭领域。或者他可能犯了错误，彻底毁灭了我们的种族。
+卡格瑞纳克领主是我们那个时代最伟大的奥术哲学家和魔法师，他设计了塑造神话力量的工具，意图超越锻莫的死亡极限。然而，在审查他的公式时，一些逻辑学家认为，副作用是不可预测的，错误可能会造成灾难。我认为，卡格瑞纳克可能成功地赋予了我们种族永恒的生命，但却带来了不可预知的后果--比如整体迁移到湮灭领域。或者他可能犯了错误，彻底毁灭了我们的种族。
 
 > INFO.NAME ash yams 1648513801401415620
 No thank you. I already have some.
@@ -149246,7 +149246,7 @@ I'm a shipmaster. I can transport you by ship to various destinations for a mode
 
 > INFO.NAME my trade 183681924259920584
 I'm a gondolier. I can ferry you by gondola to various nearby destinations for a modest fee.
-我是摆渡人。我可以用渡船将您送往附近的各个目的地，费用适中。
+我是摆渡人。我可以用贡多拉渡船将您送往附近的各个目的地，费用适中。
 
 > INFO.NAME my trade 145077227435929467
 I'm a bookseller. I buy and sell books. I also read books, and know the sorts of things you read in books. I don't mind sharing what I know about Morrowind lore, and am happy to share a little advice, if you're interested. I can also suggest who to talk to if you want to know more about a subject.
@@ -151010,7 +151010,7 @@ Do I look like a fool? Collect your dues from someone else. Or at least give me 
 
 > INFO.NAME join us 20973199863097911097
 I have not had word that you were in good standing again. If you persist in this behavior, I will be forced to make a formal complaint to Arch-Mage Trebonius.
-我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向首席大法师崔博尼乌斯正式投诉。
+我还没有收到你恢复名誉的消息。如果你继续这种行为，我将不得不向大法师崔博尼乌斯正式投诉。
 
 > INFO.NAME join us 4899167102529916037
 You were expelled some time ago. Do not expect me to help you now.
@@ -153146,7 +153146,7 @@ He's Thieves Guild, a Wood Elf. The Telvanni prefer to hire Nords and Wood Elves
 
 > INFO.NAME flowers 1427239111867813711
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向大法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME flowers 684728182570312304
 You already brought them to Ajira.
@@ -156024,7 +156024,7 @@ But you are the Knight of the Imperial Dragon! You don't need to take orders.
 
 > INFO.NAME orders 243872450548217434
 Talk to Varus Vatinius in the Grand Council Chambers or Frald the White at the Hawkmoth Legion Garrison.
-去总议会厅找瓦鲁斯·瓦提尼乌斯，或者去鹰蛾军团驻地找苍白者弗拉德。 {谈}
+去大议会厅找瓦鲁斯·瓦提尼乌斯，或者去鹰蛾军团驻地找苍白者弗拉德。 {谈}
 
 > INFO.NAME orders 3463236541192520475
 Talk to Darius. He's in the Madach Tradehouse.
@@ -156424,7 +156424,7 @@ Take the letter to Trebonius in Vivec.
 
 > INFO.NAME duties 258201875962211950
 I am honored to have worked with you, %PCName, and I have one more task. Take this letter to Arch-Mage Trebonius in Vivec.
-我很荣幸能与你合作，%PCName，再来一个任务。把这封信带给维威克的大法师崔博尼乌斯。 {工作,再完成一个任务,勒特,首席大法师}
+我很荣幸能与你合作，%PCName，再来一个任务。把这封信带给维威克的大法师崔博尼乌斯。 {工作,再完成一个任务,勒特}
 
 > INFO.NAME duties 58442776905715651
 Find out what you need for advancement and speak with me again.
@@ -156552,7 +156552,7 @@ Yes, Ajira has duties for you. Before Ajira can be a Journeyman in the Mages Gui
 
 > INFO.NAME duties 2443309481099132366
 You could speak with Arch-Mage Trebonius, but between you and me, you might want to ask the guild stewards in Ald'ruhn, Balmora, and Sadrith Mora instead.
-你可以和首席大法师崔博尼乌斯公会谈谈，但要我说的话，你可能想问问奥德'汝因、巴尔莫拉和萨德瑞斯·莫拉的公会管家。
+你可以和大法师崔博尼乌斯公会谈谈，但要我说的话，你可能想问问奥德'汝因、巴尔莫拉和萨德瑞斯·莫拉的公会管家。
 
 > INFO.NAME duties 37584883038624175
 Speak with Ajira or Ranis Athrys. They can give you duties.
@@ -174546,7 +174546,7 @@ No. Could you teach me?
 
 > INFO.NAME muck 402447319941534
 Do not try my patience with lies and stories, %PCName. Bring me five portions of muck.
-别用谎言和故事考验我的耐心，%PCName.。给我五份淤泥。
+别用谎言和故事考验我的耐心，%PCName 。给我五份淤泥。
 
 > INFO.NAME muck 64082811816570276
 Then go get them.
@@ -175498,7 +175498,7 @@ Old Imperial fellow? Legion veteran? Named Wulf? No. Nobody like that up here th
 
 > INFO.NAME ring 12942106023022017709
 Yes, thank you for finding it! Those guards better look out.
-谢谢你找到它 那些卫兵最好小心点。 {瓜尔}
+谢谢你找到它。那些卫兵最好小心点。 {瓜尔}
 
 > INFO.NAME ring 156171272864323892
 Darn. Well if you see it let me know. It's an Engraved Ring of Healing. I know it's in there somewhere.

@@ -1492,7 +1492,7 @@ $93Sister-in-Law,$94 said Potema, addressing Bianki with deep malevolence. $93Yo
 <BR>
 “我们和落锤省的国王有一层特殊的关系”塞弗勒斯的夫人碧昂姬插嘴道，“根据斯图尔斯迈凯条约，我们是皇室的一部分，而不是附庸”<BR>
 <BR>
-“我了解到你已经向议会致辞了”玛格努斯的夫人海伦娜尖锐地说道。她显然精于政治，但是作为亚龙人国度的统治者，她很善于认清和扭转逆境。<BR>
+“我了解到你已经向议会致辞了”玛格努斯的夫人海伦娜尖锐地说道。她显然精于政治，但是作为阿尔贡国度的统治者，她很善于认清和扭转逆境。<BR>
 <BR>
 “是的”波特玛停顿了一下，取了一份手边的清蒸野味，“我今天下午就加冕礼的事情向他们简短致辞了”<BR>
 <BR>
@@ -4567,7 +4567,7 @@ Vampiric Ring
 
 > ARMO.FNAM bloodworm_helm_unique_x
 Bloodworm Helm
-血蠕虫之盔
+鲜血蛆虫头盔
 
 > DOOR.FNAM In_DB_door01
 Old Wooden Door
@@ -7959,7 +7959,7 @@ Vivec Informants
 
 > INFO.NAME a1_v_vivecinformants 31063204821378011980
 Caius sent me to Vivec with three tasks: speak with Addhiranirr, a Khajiit Thieves Guild operative in St. Olms; speak with Huleeya, an Argonian in the Foreign Quarter, at the Black Shalk Cornerclub; and speak with Mehra Milo, a Temple priestess at the Hall of Wisdom in the Temple Compound. When I have information about the Nerevarine cult and the Sixth House cult from these three, I report back to Caius. Caius gave me instructions in writing.
-凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特--盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑色砂壳虫街角俱乐部与阿尔贡尼亚人胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {阿尔贡,沙尔,令状}
+凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特--盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {阿尔贡,沙尔,令状}
 
 > INFO.NAME a1_v_vivecinformants 7514278082367630855
 The Spymaster took my report, and the notes from Huleeya and the 'Progress of Truth.' He needs time to read and digest my report, but in the meantime, he gave me 200 gold to spend and told me to go out and get some guild or freelance jobs, or get some training. When I'm ready, he says to come back, and he'll have new orders for me.
@@ -7975,7 +7975,7 @@ Huleeya Informant
 
 > INFO.NAME a1_7huleeyainformant 2371113469284309043
 I found Huleeya, but we can't talk at the Black Shalk Cornerclub because some troublesome fools are bothering him. He says he'll answer my questions if I'll travel together with him to Jobasha's Rare Books.
-我找到了胡利亚，但我们不能在黑色砂壳虫街角俱乐部谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
+我找到了胡利亚，但我们不能在黑砂壳虫街角酒吧谈话，因为有些惹是生非的蠢货在骚扰他。他说如果我和他一起去乔巴沙的珍藏本，他会回答我的问题。 {沙尔}
 
 > INFO.NAME a1_7huleeyainformant 2050715403896519486
 Huleeya hadn't heard of a Sixth House cult, but he knew a lot about the Nerevarine cult. He gave me notes to give to Caius. The main thing I gathered is that the Temple's conflict with the Nerevarine cult is tied up with ancient grievances between the Ashlanders and the Great Houses.
@@ -8359,7 +8359,7 @@ Mages Guild: Unsanctioned Training
 
 > INFO.NAME mg_stopcompetition 3145751682893411625
 Ranis wants me to convince an Argonian at the South Wall Cornerclub to stop offering unsanctioned training in Restoration.
-拉妮斯要我说服南墙街角俱乐部的一位教人治愈系魔法的阿尔贡停止提供未经批准的训练。 {阿尔贡}
+拉妮斯要我说服南墙街角酒吧的一位教人治愈系魔法的阿尔贡停止提供未经批准的训练。 {阿尔贡}
 
 > INFO.NAME mg_stopcompetition 9152209433093011266
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore.
@@ -8415,7 +8415,7 @@ Report to Caius Cosades
 
 > INFO.NAME a1_1_findspymaster 31540100981975929470
 My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.
-我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角俱乐部问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
+我奉命前往瓦登费尔地区的巴尔莫拉镇，向一个名叫凯乌斯·科萨德斯的人报告。要知道他住在哪里，我应该去巴尔莫拉镇名为南墙的街角酒吧问问。找到凯乌斯·科萨德斯后，我必须给他一个文件包裹，然后等待进一步的指示。
 
 > INFO.NAME a1_1_findspymaster 155946986227161440
 I have given Caius Cosades the package of documents. And, by the Emperor's command, Caius Cosades has inducted me into the Blades, the Imperial Intelligence service, with the rank of Novice. Caius Cosades will be my Spymaster, and I'll follow his orders.
@@ -10379,7 +10379,7 @@ Thieves Guild: Find Brother Nads
 
 > INFO.NAME tg_brotherthief 2372713093177241669
 Gentleman Jim Stacey asked me to find out what happened to a fellow thief, Nads Tharen, who was going to deliver a key to us. Nads Tharen used to hang out at the Elven Nations Cornerclub. I must find out what happened to him and bring back the key he was supposed to deliver.
-绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在哈拉鲁驻地的精灵国度街角俱乐部出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
+绅士吉姆·史戴西让我打听一个叫纳德斯·莎伦的盗贼同伴的下落，他本来要给我们送一把钥匙的。纳德斯·莎伦曾经在哈拉鲁驻地的精灵国度街角酒吧出没。我一定要查出他出了什么事，把他要送的钥匙带回来。
 
 > INFO.NAME tg_brotherthief 1945415510163388475
 Gentleman Jim Stacey thanked me for returning Nads Tharen's key.
@@ -10675,11 +10675,11 @@ Mages Guild: Kill the Telvanni Councilors
 
 > INFO.NAME mg_killtelvanni 2153128333282506169
 Arch-Mage Trebonius asked me to kill all the Telvanni councilors. I'm not sure if he was serious.
-大导师崔博尼乌斯让我杀掉所有泰瓦尼议员。我不知道他是不是认真的。 {首席大法师}
+大导师崔博尼乌斯让我杀掉所有泰瓦尼议员。我不知道他是不是认真的。 {大法师}
 
 > INFO.NAME mg_killtelvanni 1541698602796924971
 Arch-Mage Trebonius thanked me for killing all the Telvanni councilors.
-大导师崔博尼乌斯感谢我杀死了所有泰瓦尼议员。 {首席大法师}
+大导师崔博尼乌斯感谢我杀死了所有泰瓦尼议员。 {大法师}
 
 > INFO.NAME fg_egg_poachers 2593574382390511855
 Fighters Guild: The Egg Poachers
@@ -10995,7 +10995,7 @@ Mages Guild: Arch-Mage
 
 > INFO.NAME mg_guildmaster 171691112155085087
 Edwinna Elbert asked me to talk to Arch-Mage Trebonius.
-埃德温娜·埃尔伯特让我去找大导师崔博尼乌斯谈谈。 {首席大法师}
+埃德温娜·埃尔伯特让我去找大导师崔博尼乌斯谈谈。 {大法师}
 
 > INFO.NAME mg_guildmaster 6847326612039925864
 I am the new Arch-Mage of the Guild of Mages in Vvardenfell.
@@ -11251,7 +11251,7 @@ Temple: Ebony Mail
 
 > INFO.NAME tt_assarnibibi 3012119815272616616
 Archcanon Tholer Saryoni asked me to bring him the Ebony Mail. The Ebony Mail can be found in Mount Assarnibibi where Molag Bal oversaw the 99 lovers of Boethiah that gave birth to Almalexia. Mount Assarnibibi is north of Molag Mar.
-大主教索勒·萨里奥尼让我把黑檀链甲带给他。黑檀链甲可以在阿萨恩尼比比山找到，莫拉格·巴尔曾在那里监督波耶西亚的99位情人，孕育了阿玛莱西娅。阿萨恩尼比比山在莫拉格-玛尔的北面。 {莫拉格·玛尔}
+大主教索勒·萨里奥尼让我把黑檀链甲带给他。黑檀链甲可以在阿萨尼比比山找到，莫拉格·巴尔曾在那里监督波耶西亚的99位情人，孕育了阿玛莱西娅。阿萨尼比比山在莫拉格-玛尔的北面。 {莫拉格·玛尔}
 
 > INFO.NAME tt_assarnibibi 2441217101257010807
 I received the Ebony Mail from the shrine at Assarnibibi.
@@ -14671,7 +14671,7 @@ Morag Tong: Writ for Feruren Oran
 
 > INFO.NAME mt_writoran 2180567281021329577
 I have been given a Writ for the honorable execution of Feruren Oran. He may be found in the Elven Nations Cornerclub in the Hlaalu Plaza here in Vivec.
-我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁驻地的精灵国度街角俱乐部找到。
+我已接到光荣处决费鲁伦·奥兰的令状。他可以在维威克哈拉鲁驻地的精灵国度街角酒吧找到。
 
 > INFO.NAME mt_writoran 20066255772525114995
 I reported the honorable execution of Feruren Oran.
@@ -14967,7 +14967,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_dinner 1432819242135819097
 Iulus Truptor says we need 5 bottles of Cyrodilic brandy for a fundraising dinner. I'm to make the rounds of the tradehouses and cornerclubs in Balmora and ask if the publicans will donate the necessary brandy. When I have the brandy, I'm to deliver it to Iulus Truptor.
-伊卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角俱乐部转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给伊卢斯·特拉托普。
+伊卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角酒吧转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给伊卢斯·特拉托普。
 
 > INFO.NAME ic12_dinner 8526111421483114877
 I delivered five bottles of Cyrodilic brandy to Iulus Truptor at Fort Moonmoth. He was very pleased. He gave me tokens of Zenithar's special blessing, and told me to speak to him again when I'm ready for another almoner's mission.
@@ -15787,11 +15787,11 @@ Mages Guild: Mystery of the Dwarves
 
 > INFO.NAME mg_dwarves 19460502657099249
 Arch-Mage Trebonius asked me to find out what happened to the Dwarves. Unfortunately, he didn't give me much information to go on. I'm not sure if he was serious.
-大导师崔博尼乌斯让我去查查矮人的下落。不幸的是，他并没有给我提供太多信息。我不知道他是不是认真的。 {首席大法师}
+大导师崔博尼乌斯让我去查查矮人的下落。不幸的是，他并没有给我提供太多信息。我不知道他是不是认真的。 {大法师}
 
 > INFO.NAME mg_dwarves 18838102512502227053
 Arch-Mage Trebonius was pleased when I showed him the three Dwemer books. He said this was sufficient and thanked me for solving the mystery of the disappearance of the Dwarves.
-当我向大导师崔博尼乌斯展示三本锻莫书时，他很高兴。他说这就足够了，并感谢我解开了矮人的消失之谜。 {首席大法师}
+当我向大导师崔博尼乌斯展示三本锻莫书时，他很高兴。他说这就足够了，并感谢我解开了矮人的消失之谜。 {大法师}
 
 > INFO.NAME ic8_eiruki 26668260521278827056
 Imperial Cult: Alms from the Skyrim Mission
@@ -21776,11 +21776,11 @@ While I admit I find it repulsive, it's an intriguing piece for our collection. 
 
 > INFO.NAME bloodworm helm 981540112800528912
 You don't have the Bloodworm Helm with you? Then come back with it, and we'll settle the deal.
-你没有带着血蠕虫之盔？那就带着它回来吧，我们再达成交易。
+你没有带着鲜血蛆虫头盔？那就带着它回来吧，我们再达成交易。
 
 > INFO.NAME bloodworm helm 236142932915924686
 You don't have the Bloodworm Helm with you? Then come back with it, and we'll settle the deal.
-你没有带着血蠕虫之盔？那就带着它回来吧，我们再达成交易。
+你没有带着鲜血蛆虫头盔？那就带着它回来吧，我们再达成交易。
 
 > INFO.NAME bloodworm helm 32038133091407024968
 Said to have been left behind by the Worm King himself.  Evil, but beautiful. If you wish to sell it, %PCName, I can give you 17000 gold for it.
@@ -23024,11 +23024,11 @@ Sadrith Mora is the only place to shop for goods and services in the Telvanni Di
 
 > INFO.NAME little advice 16326288722358217525
 Watch out for small camps of outcast Ashlanders. They prey on careless pilgrims. There's a large Ashlander camp beyond Mount Kand and Mount Assarnibibi to the north -- Erabenimsun camp. The Erabenimsun tribe is not very hospitable, but we're more or less at peace with them at present, so don't rile them.
-当心那些灰烬之民流放者的小营地。他们专门劫掠粗心的朝圣者。坎德山和阿萨恩尼比比山之外的北面有一个很大的灰烬之民营地 -- 埃勒比尼姆孙营地。埃勒比尼姆孙部落不是很好客，但目前我们与他们多少还算和平相处，所以不要激怒他们。 {礼物}
+当心那些灰烬之民流放者的小营地。他们专门劫掠粗心的朝圣者。坎德山和阿萨尼比比山之外的北面有一个很大的灰烬之民营地 -- 埃勒比尼姆孙营地。埃勒比尼姆孙部落不是很好客，但目前我们与他们多少还算和平相处，所以不要激怒他们。 {礼物}
 
 > INFO.NAME little advice 2184728842546019675
 Most pilgrims will need guards and guides to reach the pilgrim sites, but someone like you should have no trouble on your own. Follow Foyada Ilibaal northwest to Mount Kand, then Mount Assarnibibi is northeast of Mount Kand, across Foyada Zabirbael. Just take your time, keep landmarks in sight, and be ready to hoof it back to the stronghold if you get in trouble.
-大多数朝圣者需要卫兵和向导才能到达朝圣地，但像你这样的人自己去应该没问题。沿着伊利巴勒熔渠向西北走，就能到达坎德山，然后阿萨恩尼比比山就在坎德山的东北方向，穿过扎比尔贝尔熔渠。慢慢走，注意观察地标，如果遇到困难，随时准备马不停蹄地返回堡垒。 {瓜尔}
+大多数朝圣者需要卫兵和向导才能到达朝圣地，但像你这样的人自己去应该没问题。沿着伊利巴勒熔渠向西北走，就能到达坎德山，然后阿萨尼比比山就在坎德山的东北方向，穿过扎比尔贝尔熔渠。慢慢走，注意观察地标，如果遇到困难，随时准备马不停蹄地返回堡垒。 {瓜尔}
 
 > INFO.NAME little advice 2441142542640818872
 We've had a lot of trouble with blight monsters escaping through the Ghostfence and attacking the village and outlying settlements. The Temple and House Redoran has called for volunteers to come help protect Maar Gan from monster attacks. Talk to the priests at the shrine if you might be willing to help. And talk to the volunteers who are lodging at the Andus Tradehouse.
@@ -23156,31 +23156,31 @@ We don't like outlanders. We don't like them in our Council Club. We don't like 
 
 > INFO.NAME little advice 18709150742074210919
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 26032308699877464
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1056027601173315131
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1640011017124474875
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 3067152352518928844
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1595924223937988
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 338298952125091
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角俱乐部看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 84372506210727392
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
@@ -24776,7 +24776,7 @@ You were visited by Tiber Septim! We heard this -- we were told that the Oracle 
 
 > INFO.NAME latest rumors 411922311605125893
 I heard that Hrisskar upstairs is having some financial troubles. Can't seem to win a wager these days.
-我听说楼上的赫里斯卡有财务问题。最近好像连赌都赢不了了。
+我听说楼上的赫利斯卡有财务问题。最近好像连个赌注都赢不了了。
 
 > INFO.NAME latest rumors 2102521282120885888
 Well, I don't know if anyone else has seen him, but I saw some crazy guy wandering around the hills east of here recently. He was all decked out in armor and waving his sword, mumbling about there being no one to challenge him. I'd steer clear, stranger.
@@ -25280,7 +25280,7 @@ Have you seen Ienas Sarandas lately? What a remarkably good-looking young man he
 
 > INFO.NAME latest rumors 1469412633283572447
 I've heard that the local tax collector, Processus Vitellius, is missing. No surprise, really. He wasn't well liked around here.
-我听说当地的税官普罗塞苏斯·维特留斯失踪了 这并不奇怪 他在这里人缘不好。 {收集者}
+我听说当地的税官普罗塞苏斯·维特留斯失踪了。这并不奇怪，他在这里人缘不好。 {收集者}
 
 > INFO.NAME latest rumors 27440159621703420683
 These Imperial tax collectors have really started to get on everyone's nerves. Haven't seen the local one in a while, though...not that anyone is complaining.
@@ -26112,7 +26112,7 @@ Yes, in Mournhold itself, actually. If you're feeling particularly suicidal, you
 
 > INFO.NAME asciene rane 1392327964637821771
 She's a mage who arrived in Vvardenfell the same time I did. Special appointment to Duke Dren himself. Nice woman, and a powerful mage. You should be able to find her in the Grand Council Chambers here in Ebonheart.
-她是一位法师，和我同时来到瓦登费尔。德伦公爵本人特别任命的。她是个好女人，也是个强大的法师。你应该能在黑檀心这里的总议会厅找到她。
+她是一位法师，和我同时来到瓦登费尔。德伦公爵本人特别任命的。她是个好女人，也是个强大的法师。你应该能在黑檀心这里的大议会厅找到她。
 
 > INFO.NAME asciene rane 23404284612240822214
 I am Asciene Rane. How may I help you, friend?
@@ -27580,7 +27580,7 @@ They're Helseth's personal guard. Handpicked by the young king, and all loyal to
 
 > INFO.NAME royal guard 3181317131341011297
 Young King Helseth's handpicked thugs. Ridiculous that they are allowed to dispense justice in the Lady's city. The High Ordinators do a fine job of keeping the peace around here.
-年轻国王赫尔塞斯亲自挑选的打手。荒谬的是，他们被允许在圣母的城市里伸张正义。至高神殿卫兵在维持治安方面做得很好。 {神殿卫兵们}
+年轻国王赫尔塞斯亲自挑选的打手。荒谬的是，他们被允许在圣母的城市里制裁他人。至高神殿卫兵在维持治安方面做得很好。 {正义,神殿卫兵们}
 
 > INFO.NAME royal guard 31086261812684616432
 I am the leader of the Royal Guards. We live to protect King Helseth. Only the strongest and most loyal were picked by our king to serve. Any who would threaten the monarchy will be dealth with severely.
@@ -32172,7 +32172,7 @@ No, not yet.
 
 > INFO.NAME ebony mail 2121520152675421911
 The Ebony Mail may be found on Mount Assarnibibi, which is north of Molag Mar. Mount Assarnibibi is where Molag Bal oversaw the 99 lovers of Boethiah that gave birth to Almalexia. Go there and pray before the shrine. If you are worthy, you will receive the Ebony Mail. Return it to me and I will make you %NextPCRank of the Temple.
-黑檀链甲可以在莫拉格-玛尔北面的阿萨恩尼比比山找到。阿萨恩尼比比山是莫拉格·巴尔监督波耶西亚的99位情人孕育阿玛莱西娅的地方。去那里，在圣祠前祈祷。如果你有资格，你会收到黑檀链甲。把它还给我，我会让你成为%NextPCRank的神殿成员。 {莫拉格·玛尔}
+黑檀链甲可以在莫拉格-玛尔北面的阿萨尼比比山找到。阿萨尼比比山是莫拉格·巴尔监督波耶西亚的99位情人孕育阿玛莱西娅的地方。去那里，在圣祠前祈祷。如果你有资格，你会收到黑檀链甲。把它还给我，我会让你成为%NextPCRank的神殿成员。 {莫拉格·玛尔}
 
 > INFO.NAME background 2583529070786213408
 I am %name, I serve Almalexia as one of Her Hands.
