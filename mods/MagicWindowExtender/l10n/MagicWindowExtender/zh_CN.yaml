@@ -1,0 +1,81 @@
+ConfigTitle: 魔法窗口扩展器
+ConfigSummary: |-
+  一个用于替换魔法窗口的Lua脚本，内置调整选项并提供API供其他模组添加自定义内容。
+  --- 版本 %{version} ---
+
+ConfigCategoryKeybinds: 按键绑定
+ToggleMagicWindow1: 切换魔法窗口
+ToggleMagicWindow2: 切换魔法窗口（备用键）
+
+RequiresReload: 需要重新加载Lua才能生效。
+
+ConfigCategoryWindowOptions: 窗口选项
+ReplaceVanillaWindow: 替换原版窗口
+ReplaceVanillaWindowDesc: |-
+  替换游戏内置的魔法窗口。
+  如果禁用，仍可通过按键绑定访问扩展窗口。
+  启用手柄菜单时无效。
+FontSize: 字体大小
+FontSizeDesc: |-
+  最小值：12，最大值：18，默认值：16
+MagicWindowPinned: 魔法窗口置顶
+MagicWindowX: 魔法窗口 X 坐标 (0.0 - 1.0)
+MagicWindowY: 魔法窗口 Y 坐标 (0.0 - 1.0)
+MagicWindowW: 魔法窗口宽度 (0.0 - 1.0)
+MagicWindowH: 魔法窗口高度 (0.0 - 1.0)
+
+ConfigCategoryTweaks: 调整选项
+TweakSpellIcons: 法术图标
+TweakSpellIconsDesc: |-
+  在法术列表条目旁显示图标。
+TweakSchoolFilter: 法术派系筛选
+TweakSchoolFilterDesc: |-
+  添加按钮栏以按法术派系筛选法术。
+TweakColoredSchoolIcons: 彩色学派图标
+TweakColoredSchoolIconsDesc: |-
+  将单一颜色的原版法术派系图标替换为彩色版本，以便在筛选栏中区分。
+  如果已使用图标替换包，可能需要禁用此选项。
+TweakListEditing: 列表编辑
+TweakListEditingDesc: |-
+  添加按钮以选择要置顶或从列表中隐藏的法术。
+TweakSmartSpellCycling: 智能法术循环
+TweakSmartSpellCyclingDesc: |-
+  下一个/上一个法术的快捷键将遵循你法术列表的实际顺序，包括已置顶和已隐藏的法术以及任何激活的筛选条件。
+TweakSeparatePinnedSpells: 分离置顶法术
+TweakSeparatePinnedSpellsDesc: |-
+  置顶法术将通过分隔线在视觉上与法术列表的其余部分分开。
+TweakPinnedSpellIcons: 置顶法术图标
+TweakPinnedSpellIconsDesc: |-
+  置顶法术将在法术列表中用书签图标标记。
+TweakMarkUsedPowers: 标记已使用能力
+TweakMarkUsedPowersDesc: |-
+  今日已使用的能力将在法术列表中变灰并标记为"已使用"。
+TweakSearchBarOnTop: 搜索栏置顶
+TweakSearchBarOnTopDesc: |-
+  将底部栏（搜索、筛选等）移至窗口顶部。
+TweakDeleteButtonIcon: 删除按钮图标
+TweakDeleteButtonIconDesc: |-
+  为删除按钮使用垃圾桶图标而非文字。
+
+ConfigCategoryModIntegration: 模组集成
+InterfaceReimagined: 界面重构支持
+InterfaceReimaginedDesc: |-
+  调整外观以更好地适配界面重构的风格。
+CustomSpellIconStyle: 自定义法术图标样式
+CustomSpellIconStyleDesc: |-
+  魔法窗口扩展器为一些法术模组提供了自定义效果提示。
+  每种样式都提供了两种图标样式。
+  选择最适合你设置的样式。
+CustomSpellIconStyle_Flat: 扁平
+CustomSpellIconStyle_Textured: 纹理
+
+ConfigCategoryMisc: 杂项
+ShowControllerWarning: 显示手柄警告
+ShowControllerWarningDesc: |-
+  如果启用了手柄菜单，则显示警告信息，因为窗口替换器与之不兼容。
+
+PowerUsed: 已使用
+FilterBySchool: "按学派筛选：{school}"
+
+
+DeleteSpellInstruction: "要删除 {spellName}，请打开控制台并复制粘贴以下命令。"

@@ -1,0 +1,33 @@
+1.2.4 (1/10/26)
+- Fixed dynamic stat displays not accounting for modifier
+
+1.2.3 (11/23/25)
+- Fixed window not using background color defined in openmw.cfg
+
+1.2.2 (11/19/25)
+- Fixed skill sections not rebuilding properly when player class changes
+
+1.2.1 (11/15/25)
+- API: Fixed section builders not running if tracked stat is a direct table reference
+
+1.2.0 (11/13/25)
+- Added options for minimum pane widths and width ratio
+- Added option for current & required faction rep display
+- Added option to show faction rank as number instead of title
+- Fixed drag icon re-appearing when it shouldn't
+
+1.1.2 (11/8/25)
+- Fixed invisible lines causing further lines to not be updated
+
+1.1.1 (11/7/25)
+- API: Value function no longer called for sections/lines that are not visible
+- Increased precision of stored window size and position
+
+1.1.0 (11/3/25)
+- Added option for Interface Reimagined window style
+- Fixed window title not updating if character's name changes
+- Fixed window transparency not matching player settings 
+- Fixed progress bars not conforming to line height with non-default text sizes
+
+1.0.0 (11/2/25)
+- Initial release

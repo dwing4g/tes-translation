@@ -1,0 +1,111 @@
+ConfigTitle: 状态窗口扩展器
+ConfigSummary: |-
+  一个用于替换状态窗口的Lua脚本，内置调整选项并提供API供其他模组添加自定义内容。
+  --- 版本 %{version} ---
+
+ConfigCategoryKeybinds: 按键绑定
+ToggleStatsWindow1: 切换状态窗口
+ToggleStatsWindow2: 切换状态窗口（备用键）
+
+RequiresReload: 需要重新加载Lua才能生效。
+
+ConfigCategoryWindowOptions: 窗口选项
+ReplaceVanillaWindow: 替换原版窗口
+ReplaceVanillaWindowDesc: |-
+  替换游戏内置的状态窗口。
+  如果禁用，仍可通过按键绑定访问扩展窗口。
+  启用控制器菜单时无效。
+FontSize: 字体大小
+FontSizeDesc: |-
+  最小值：12，最大值：18，默认值：16
+PaneArrangement: 窗格排列
+PaneArrangementDesc: |-
+  选择窗格的排列方式。
+
+  并排：右窗格位于左窗格旁边。
+  堆叠：右窗格位于左窗格下方。
+  自动：根据窗口大小自动切换。
+Panes_SideBySide: 并排
+Panes_Stacked: 堆叠
+Panes_Auto: 自动
+LeftPaneMinWidth: 左窗格最小宽度（像素）
+LeftPaneMinWidthDesc: |-
+  在并排模式下，左窗格不会缩小至此宽度以下。
+  在堆叠模式下，此为整个窗口的最小宽度。
+  默认值：212
+RightPaneMinWidth: 右窗格最小宽度（像素）
+RightPaneMinWidthDesc: |-
+  在自动模式下，如果右窗格宽度将低于此值，窗格将切换为堆叠模式。
+  默认值：160
+LeftPaneRatio: 左窗格宽度比例 (0.0 - 1.0)
+LeftPaneRatioDesc: |-
+  在并排模式下，左窗格将占据整个窗口宽度的此比例。
+  默认值：0.44
+StatWindowPinned: 状态窗口置顶
+StatWindowX: 状态窗口 X 坐标 (0.0 - 1.0)
+StatWindowY: 状态窗口 Y 坐标 (0.0 - 1.0)
+StatWindowW: 状态窗口宽度 (0.0 - 1.0)
+StatWindowH: 状态窗口高度 (0.0 - 1.0)
+
+ConfigCategoryTweaks: 调整选项
+RestyleBountyAndRep: 重设赏金与声望样式
+RestyleBountyAndRepDesc: |-
+  取消赏金和声望的缩进，并更改其标签颜色以匹配其他状态。
+HideZeroBounty: 零赏金隐藏
+HideZeroBountyDesc: |-
+  当赏金为零时，隐藏赏金部分。
+FactionAndRepOnLeft: 派系与声望移至左窗格
+FactionAndRepOnLeftDesc: |-
+  将派系和声望部分移至左窗格。
+MaxFactionRepLines: 最大派系/声望行高
+MaxFactionRepLinesDesc: |-
+  当派系和声望位于左窗格时，将其最大高度限制为此行数。
+  设置为0表示无限制。
+BirthsignOnLeft: 星座信息移至左窗格
+BirthsignOnLeftDesc: |-
+  将星座信息移至左窗格。
+ShowFactionRankInList: 在列表中显示派系等级
+ShowFactionRankInListDesc: |-
+  在列表中，于派系名称旁显示等级。
+ShowFactionRankInList_Off: 关闭
+ShowFactionRankInList_Number: 数字
+ShowFactionRankInList_Title: 称号
+ShowFactionRepInTooltip: 在提示中显示派系声望
+ShowFactionRepInTooltipDesc: |-
+  在派系提示中显示当前声望及升至下一等级所需声望。
+HouseNameDisplay: 家族名称显示样式
+HouseNameDisplayDesc: |-
+  选择在派系列表中显示家族名称的样式。
+  完整："勒多兰大家族"
+  部分："勒多兰家族"
+  精简："勒多兰"
+HouseNameDisplay_Full: 完整
+HouseNameDisplay_Partial: 部分
+HouseNameDisplay_Minimal: 精简
+
+ConfigCategoryModIntegration: 模组集成
+EnableTDFactions: 启用 TD 派系
+EnableTDFactionsDesc: |-
+  按 Tamriel_Data 中省份对派系列表进行分组。
+EnableTDReputation: 启用 TD 声望
+EnableTDReputationDesc: |-
+  显示所有 Tamriel_Data 中省份的声望。
+InterfaceReimagined: 界面重构mod[Interface Reimagined]支持
+InterfaceReimaginedDesc: |-
+  调整外观以更好地适配界面重构mod[Interface Reimagined]的风格。
+
+ConfigCategoryMisc: 杂项
+ShowControllerWarning: 显示手柄警告
+ShowControllerWarningDesc: |-
+  如果启用了手柄菜单，则显示警告信息，因为窗口替换器与之不兼容。
+
+TDRep_Title: 声望
+TDRep_Tooltip: 你在 %s 的声望等级。
+TDRep_Morrowind: 晨风
+TDRep_Skyrim: 天际
+TDRep_Cyrodiil: 西罗帝尔
+TDRep_PadomaicIsles: 帕多玛克群岛
+TDRep_HighRock: 高岩
+TDRep_Hammerfell: 落锤
+
+TDFactions_Title: 派系

@@ -1,0 +1,5 @@
+GLOBAL: scripts/removeSpellFix/RSF_g.lua
+PLAYER: scripts/MagicWindowExtender/api.lua
+PLAYER: scripts/MagicWindowExtender/player.lua
+MENU: scripts/MagicWindowExtender/settings/player.lua
+PLAYER: scripts/MagicWindowExtender/customSpells.lua

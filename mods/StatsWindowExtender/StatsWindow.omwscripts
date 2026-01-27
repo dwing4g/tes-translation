@@ -1,0 +1,7 @@
+PLAYER: scripts/StatsWindow/api.lua
+PLAYER: scripts/StatsWindow/player.lua
+GLOBAL: scripts/StatsWindow/global.lua
+MENU: scripts/StatsWindow/settings/player.lua
+
+PLAYER: scripts/StatsWindow/td_rep.lua
+PLAYER: scripts/StatsWindow/td_factions.lua

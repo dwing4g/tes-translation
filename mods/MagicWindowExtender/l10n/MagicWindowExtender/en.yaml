@@ -1,0 +1,81 @@
+ConfigTitle: Magic Window Extender
+ConfigSummary: |-
+  A Lua replacement for the magic window, with built-in tweaks and an API for other mods to add their own content.
+  --- v%{version} ---
+
+ConfigCategoryKeybinds: Keybinds
+ToggleMagicWindow1: Toggle Magic Window
+ToggleMagicWindow2: Toggle Magic Window (alt.)
+
+RequiresReload: Requires a Lua reload to take effect.
+
+ConfigCategoryWindowOptions: Window Options
+ReplaceVanillaWindow: Replace vanilla window
+ReplaceVanillaWindowDesc: |-
+  Replace the game's built-in magic window.
+  If disabled, you can still access the extended window via the keybind.
+  Does not work with controller menus enabled.
+FontSize: Font size
+FontSizeDesc: |-
+  Min: 12, Max: 18, Default: 16
+MagicWindowPinned: Magic window pinned
+MagicWindowX: Magic window X pos (0.0 - 1.0)
+MagicWindowY: Magic window Y pos (0.0 - 1.0)
+MagicWindowW: Magic window width (0.0 - 1.0)
+MagicWindowH: Magic window height (0.0 - 1.0)
+
+ConfigCategoryTweaks: Tweaks
+TweakSpellIcons: Spell icons
+TweakSpellIconsDesc: |-
+  Show icons next to entries in the spell list.
+TweakSchoolFilter: School filtering
+TweakSchoolFilterDesc: |-
+  Add a button bar to filter spells by school.
+TweakColoredSchoolIcons: Colored school icons
+TweakColoredSchoolIconsDesc: |-
+  Replace the monochrome vanilla school icons with colored versions to differentiate them in the filter bar.
+  You may want to disable this if you are already using an icon replacer pack.
+TweakListEditing: List editing
+TweakListEditingDesc: |-
+  Add a button to select spells to pin or hide from the list.
+TweakSmartSpellCycling: Smart spell cycling
+TweakSmartSpellCyclingDesc: |-
+  The next/previous spell hotkeys will respect the actual order of your spell list, including pinned and hidden spells and any active filters.
+TweakSeparatePinnedSpells: Separate pinned spells
+TweakSeparatePinnedSpellsDesc: |-
+  Pinned spells will be visually separated by a divider from the rest of the spell list.
+TweakPinnedSpellIcons: Pinned spell icons
+TweakPinnedSpellIconsDesc: |-
+  Pinned spells will be marked with a bookmark icon in the spell list.
+TweakMarkUsedPowers: Mark used powers
+TweakMarkUsedPowersDesc: |-
+  Powers that have been used today will be grayed out and marked with "Used" in the spell list.
+TweakSearchBarOnTop: Search bar on top
+TweakSearchBarOnTopDesc: |-
+  Move the bottom bar (search, filter, etc.) to the top of the window.
+TweakDeleteButtonIcon: Delete button icon
+TweakDeleteButtonIconDesc: |-
+  Use a trash can icon for the delete button instead of text.
+
+ConfigCategoryModIntegration: Mod Integrations
+InterfaceReimagined: Interface Reimagined support
+InterfaceReimaginedDesc: |-
+  Adjust appearance to better fit the style of Interface Reimagined.
+CustomSpellIconStyle: Custom spell icon style
+CustomSpellIconStyleDesc: |-
+  Magic Window Extender comes with custom effect tooltips for some spell mods.
+  Icons are provided for each in two styles.
+  Choose the style that best fits your setup.
+CustomSpellIconStyle_Flat: Flat
+CustomSpellIconStyle_Textured: Textured
+
+ConfigCategoryMisc: Miscellaneous
+ShowControllerWarning: Show controller warning
+ShowControllerWarningDesc: |-
+  Show a warning message if controller menus are enabled, since the window replacer is not compatible with them.
+
+PowerUsed: Used
+FilterBySchool: "Filter by school: {school}"
+
+
+DeleteSpellInstruction: "To delete {spellName}, open your console and copy-paste the command below."

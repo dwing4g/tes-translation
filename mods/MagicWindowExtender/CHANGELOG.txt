@@ -1,0 +1,29 @@
+1.2.3 (1/11/2026)
+- Added smart spell cycling: next/previous spell hotkeys respect current spell list order
+
+1.2.2 (1/11/2026)
+- Improved performance
+- Added shift-click to delete spells
+
+1.2.1 (1/10/2026)
+- Fixed spells coming back after being deleted when loading a save
+- Fixed spell deletion modal persisting when closing the magic window
+
+1.2.0 (1/9/2026)
+- Added support for displaying custom spell effects
+- Fixed cast-on-use weapons not showing in magic items list
+
+1.1.2 (1/9/2026)
+- Added toggle for pinned spell bookmark icons
+
+1.1.1 (1/9/2026)
+- Removed debug print statement in API.setStat
+
+1.1.0 (1/9/2026)
+- Added option to visually separate pinned spells in the spell list
+
+1.0.1 (1/8/2026)
+- Optimized performance and memory usage while window is active
+
+1.0.0 (1/8/2026)
+- Initial release

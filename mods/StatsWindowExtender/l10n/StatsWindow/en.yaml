@@ -1,0 +1,111 @@
+ConfigTitle: Stats Window Extender
+ConfigSummary: |-
+  A Lua replacement for the stats window, with built-in tweaks and an API for other mods to add their own content.
+  --- v%{version} ---
+
+ConfigCategoryKeybinds: Keybinds
+ToggleStatsWindow1: Toggle Stats Window
+ToggleStatsWindow2: Toggle Stats Window (alt.)
+
+RequiresReload: Requires a Lua reload to take effect.
+
+ConfigCategoryWindowOptions: Window Options
+ReplaceVanillaWindow: Replace vanilla window
+ReplaceVanillaWindowDesc: |-
+  Replace the game's built-in stats window.
+  If disabled, you can still access the extended window via the keybind.
+  Does not work with controller menus enabled.
+FontSize: Font size
+FontSizeDesc: |-
+  Min: 12, Max: 18, Default: 16
+PaneArrangement: Pane arrangement
+PaneArrangementDesc: |-
+  Choose how the panes are arranged.
+
+  Side-by-Side: Right pane next to left pane.
+  Stacked: Right pane below left pane.
+  Auto: Automatically switch based on window size.
+Panes_SideBySide: Side-by-Side
+Panes_Stacked: Stacked
+Panes_Auto: Auto
+LeftPaneMinWidth: Minimum left pane width (px)
+LeftPaneMinWidthDesc: |-
+  When in Side-by-Side mode, the left pane will not shrink below this width.
+  When in Stacked mode, this is the minimum width of the entire window.
+  Default: 212
+RightPaneMinWidth: Minimum right pane width (px)
+RightPaneMinWidthDesc: |-
+  When in Auto mode, if the right pane's width would fall below this value, the panes will switch to Stacked mode.
+  Default: 160
+LeftPaneRatio: Left pane width ratio (0.0 - 1.0)
+LeftPaneRatioDesc: |-
+  When in Side-by-Side mode, the left pane will take up this proportion of the total window width.
+  Default: 0.44
+StatWindowPinned: Stat window pinned
+StatWindowX: Stat window X pos (0.0 - 1.0)
+StatWindowY: Stat window Y pos (0.0 - 1.0)
+StatWindowW: Stat window width (0.0 - 1.0)
+StatWindowH: Stat window height (0.0 - 1.0)
+
+ConfigCategoryTweaks: Tweaks
+RestyleBountyAndRep: Restyle bounty and rep
+RestyleBountyAndRepDesc: |-
+  De-indent Bounty and Reputation and change their label color to match other stats.
+HideZeroBounty: Hide zero bounty
+HideZeroBountyDesc: |-
+  Hide the Bounty section when your bounty is zero.
+FactionAndRepOnLeft: Faction and rep on left
+FactionAndRepOnLeftDesc: |-
+  Move the Faction and Reputation sections to the left pane.
+MaxFactionRepLines: Max faction/rep line height
+MaxFactionRepLinesDesc: |-
+  When Faction and Reputation are on the left pane, limit their maximum height to this many lines.
+  Set to 0 for no limit.
+BirthsignOnLeft: Birthsign on left
+BirthsignOnLeftDesc: |-
+  Move Birthsign info to the left pane.
+ShowFactionRankInList: Show faction rank in list
+ShowFactionRankInListDesc: |-
+  Show faction ranks next to titles in the list.
+ShowFactionRankInList_Off: Off
+ShowFactionRankInList_Number: Number
+ShowFactionRankInList_Title: Title
+ShowFactionRepInTooltip: Show faction rep in tooltip
+ShowFactionRepInTooltipDesc: |-
+  Show current reputation and required reputation for next rank in faction tooltips.
+HouseNameDisplay: House name style
+HouseNameDisplayDesc: |-
+  Choose how house names are displayed in the factions list.
+  Full: "Great House Redoran"
+  Partial: "House Redoran"
+  Minimal: "Redoran"
+HouseNameDisplay_Full: Full
+HouseNameDisplay_Partial: Partial
+HouseNameDisplay_Minimal: Minimal
+
+ConfigCategoryModIntegration: Mod Integrations
+EnableTDFactions: Enable TD factions
+EnableTDFactionsDesc: |-
+  Group factions list by Tamriel_Data provinces.
+EnableTDReputation: Enable TD reputation
+EnableTDReputationDesc: |-
+  Show reputation for all Tamriel_Data provinces.
+InterfaceReimagined: Interface Reimagined support
+InterfaceReimaginedDesc: |-
+  Adjust appearance to better fit the style of Interface Reimagined.
+
+ConfigCategoryMisc: Miscellaneous
+ShowControllerWarning: Show controller warning
+ShowControllerWarningDesc: |-
+  Show a warning message if controller menus are enabled, since the window replacer is not compatible with them.
+
+TDRep_Title: Reputation
+TDRep_Tooltip: Your fame rating in %s.
+TDRep_Morrowind: Morrowind
+TDRep_Skyrim: Skyrim
+TDRep_Cyrodiil: Cyrodiil
+TDRep_PadomaicIsles: Padomaic Isles
+TDRep_HighRock: High Rock
+TDRep_Hammerfell: Hammerfell
+
+TDFactions_Title: Factions
