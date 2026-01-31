@@ -67,6 +67,7 @@ local dialogModes = {
 	[I.UI.MODE.SpellBuying] = true,
 	[I.UI.MODE.SpellCreation] = true,
 --	[I.UI.MODE.Persuasion] = true,
+	dialog = I.UI.MODE.Dialogue,
 }
 
 local forceHudModes = {
@@ -94,7 +95,7 @@ local V = { idle2sec = 2, idleCounter = 0, idlenum = 0 }
 local actionKey = nil
 local currentanim = 1
 local poseOpt = {save=1, choose=false, count=0}
-local dialogTarget = nil
+local dialogTarget, inDialog
 local dialogCam = { controls=false, block=false, instant=false, firstAuto=false,
 	height=100, interval=2, counter=0, adjust=true, pos=nil }
 poseOpt.offset3rd = camera.getFocalPreferredOffset()
@@ -359,9 +360,42 @@ local function stopPosing()
 	end
 end
 
+local function procStanceChange(inCombat)
+	if Anim.isPlaying(self, "spellcast") then	return		end
+	if Actor.isWerewolf(self) or not settings.player:get("autoHelm") then
+		stance = Actor.getStance(self)
+		return
+	end
+	local equip, head = Actor.getEquipment(self), Actor.Helmet
+	local h = equip[head]
+	if inCombat and helm.combat then
+		equip[head] = helm.combat
+		Actor.setEquipment(self, equip)
+		return
+	end
+	local store1, store2 = settings.player:get("autoHelmItemID"), settings.player:get("autoHelmItemID2")
+	local id = h and h.recordId
+	if Actor.getStance(self) == Actor.stanceNone then
+		helm.combat = h
+		if id and store1 ~= id then
+			settings.player:set("autoHelmItemID", id)
+		end
+		equip[head] = helm.idle
+	elseif stance == Actor.stanceNone then
+		if h ~= helm.combat then helm.idle = h			end
+		if id and id ~= store2 and id ~= store1 then
+			settings.player:set("autoHelmItemID2", id)
+		end
+		if helm.combat then equip[head] = helm.combat		end
+	end
+	Actor.setEquipment(self, equip)
+	stance = Actor.getStance(self)
+end
+
 
 time.runRepeatedly(function()
 	local dt = 1
+	if L.getStance(self) ~= stance then procStanceChange()			end
 	if dialogTarget and camera.getMode() == MD.FirstPerson then
 		dCam.autoCamUpdate(dt)
 	end
@@ -477,38 +511,6 @@ input.registerTriggerHandler("Jump", async:callback(function()
 end))
 
 
-local function procStanceChange(inCombat)
-	if Anim.isPlaying(self, "spellcast") then	return		end
-	if Actor.isWerewolf(self) or not settings.player:get("autoHelm") then
-		stance = Actor.getStance(self)
-		return
-	end
-	local equip, head = Actor.getEquipment(self), Actor.Helmet
-	local h = equip[head]
-	if inCombat and helm.combat then
-		equip[head] = helm.combat
-		Actor.setEquipment(self, equip)
-		return
-	end
-	local store1, store2 = settings.player:get("autoHelmItemID"), settings.player:get("autoHelmItemID2")
-	local id = h and h.recordId
-	if Actor.getStance(self) == Actor.stanceNone then
-		helm.combat = h
-		if id and store1 ~= id then
-			settings.player:set("autoHelmItemID", id)
-		end
-		equip[head] = helm.idle
-	elseif stance == Actor.stanceNone then
-		if h ~= helm.combat then helm.idle = h			end
-		if id and id ~= store2 and id ~= store1 then
-			settings.player:set("autoHelmItemID2", id)
-		end
-		if helm.combat then equip[head] = helm.combat		end
-	end
-	Actor.setEquipment(self, equip)
-	stance = Actor.getStance(self)
-end
-
 local function processCamera(dt)
 	local active
 	if posing then
@@ -537,13 +539,13 @@ end
 
 local function onUpdate(dt)
 	if dt <= 0 then				return		end
-	local st = L.getStance(self)
-	if st ~= stance then procStanceChange()			end
 	if doUpdates then processCamera(dt)			end
 	if notIdle then notIdle = false		return		end
 
+--	local st = L.getStance(self)
 	local g = L.getActiveGroup(self, 0)
-	notIdle = st ~= Actor.stanceNone or L.controls.sneak or not Anim.idleGroups[g]
+--	notIdle = st ~= Actor.stanceNone or L.controls.sneak or not Anim.idleGroups[g]
+	notIdle = L.controls.sneak or not Anim.idleGroups[g]
 	if not notIdle then	return		end
 
 	if not g:find("^turn") and V.idlenum > 0 then
@@ -559,7 +561,7 @@ local function uiModeChanged(data)
 		Anim.isBeast = types.NPC.races.records[types.NPC.records[self.recordId].race].isBeast
 	--	print("TRACK RACE MENU EVENT")
 	end
-	if dialogModes[data.newMode] and not dialogModes[data.oldMode]
+	if data.newMode == dialogModes.dialog and not dialogModes[data.oldMode]
 		and data.arg and dialogTarget ~= data.arg then
 		data.player = self		data.near = self.cell == data.arg.cell
 		for _, v in ipairs(nearby.actors) do
@@ -570,13 +572,13 @@ local function uiModeChanged(data)
 		if not data.pause then		combatActors = {}		end
 		if data.arg ~= self and Actor.isActor(data.arg) then
 			core.sendGlobalEvent("dynDialogOpened", data)
-			onDialogOpened(data)
+			inDialog = true		onDialogOpened(data)
 		end
-	elseif dialogModes[data.newMode] and dialogTarget then
+	elseif inDialog and dialogModes[data.newMode] then
 		core.sendGlobalEvent("dynDialogChange", data)
 	elseif data.newMode == nil and dialogTarget then
 		core.sendGlobalEvent("dynDialogClosed", data)
-		onDialogClosed(data)
+		inDialog = false	onDialogClosed(data)
 	end
 	if not dialogTarget then	return		end
 	if forceHudModes[data.newMode] then

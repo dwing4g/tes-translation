@@ -6,7 +6,7 @@ local types = require("openmw.types")
 local ai = require("openmw.interfaces").AI
 local I = require("openmw.interfaces")
 
-if not self.isActive then
+if not self:isActive() then
 	core.sendGlobalEvent("dynamicActors",
 		{ event="removeScript", object=self, script="scripts/dynamicactors/npcdialog.lua" })
 	return
@@ -28,7 +28,7 @@ local filters = {}
 filters.priorityArms = { [2] = 2, [3] = 2 }
 
 filters.baseIdle = {
-	{ "isMale", false, "handhippose", {loops=100, priority=1, blendMask=11, speed=0.5}, 1 },
+	{ "isMale", false, "handhippose", {loops=100, priority=1, blendMask=15, speed=0.5}, 1 },
 	{ "isMale", true, "readypose", {loops=4, priority=1, blendMask=3}, 1 },
 		}
 
@@ -57,8 +57,8 @@ filters.greeting = {
 
 filters.poseShifts = {
 		{ {
-	{ id="armsakimbo", opt={loops=1, priority=2, blendMask=12}, delay=7 },
-	{ id="idle2_copy", opt={priority=2, speed=2} },
+	{ id="armsakimbo", opt={loops=1, priority=2, blendMask=12}, delay=9 },
+	{ id="idle2_copy", opt={priority=2, speed=1.5} },
 		},
 		{
 	{ id="armsfolded", opt={loops=1, priority=2, blendMask=12}, delay=2.5 },
@@ -66,8 +66,8 @@ filters.poseShifts = {
 		} },
 
 		{ {
-	{ id="armsakimbo", opt={loops=1, priority=2, blendMask=12}, delay=7 },
-	{ id="idle2_copy", opt={priority=2, speed=2} },
+	{ id="armsakimbo", opt={loops=1, priority=2, blendMask=12}, delay=9 },
+	{ id="idle2_copy", opt={priority=2, speed=1.5} },
 		},
 		{
 	{ id="armsatback", opt={loops=1, priority=2, blendMask=12}, delay=2.5 },
