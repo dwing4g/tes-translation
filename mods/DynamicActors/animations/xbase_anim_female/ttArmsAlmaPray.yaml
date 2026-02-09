@@ -1,5 +1,5 @@
 blending_rules:
   - from: "*"
     to: "armsalmapray"
-    easing: "quartOut"
+    easing: "sineInOut"
     duration: 0.7

@@ -112,7 +112,7 @@ if Actor.isNPC(self) then
 	isGuard = Actor.record.class == "guard"
 	if npcRace == "wood elf" then voice.speed = 1.5			end
 
-	if not isBeast and not Actor.record.isMale then
+	if not Actor.record.isMale and anim.hasGroup(self, "idlespeak_idlef") then
 		voice.groups = {
 			base = "idlespeak",
 			posealma3 = "",

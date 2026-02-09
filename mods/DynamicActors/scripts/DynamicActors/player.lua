@@ -122,6 +122,8 @@ Anim.isBeast = types.NPC.races.records[types.NPC.records[self.recordId].race].is
 local dCam = require("scripts.DynamicActors.playerCamera")
 local heights = require("scripts.DynamicActors.configCamera")
 heights.byRecord = require("scripts.DynamicActors.userConfig.Dialog NPC Camera positions")
+dCam.heights = heights
+common.dCam = dCam
 
 local L = {
 	getActiveGroup = Anim.getActiveGroup,
@@ -399,7 +401,9 @@ time.runRepeatedly(function()
 	if dialogTarget and camera.getMode() == MD.FirstPerson then
 		dCam.autoCamUpdate(dt)
 	end
-	if posing and not Anim.handler("isPlay", Anim.poses[currentanim].id) then stopPosing() end
+	if posing and not Anim.handler("isPlay", Anim.poses[currentanim].id) then
+		stopPosing()
+	end
 --	if notIdle then notIdle = false		return		end
 	V.idle2sec = V.idle2sec - 1		if V.idle2sec > 0 then		return		end
 	V.idle2sec = 2			dt = 2
@@ -471,6 +475,8 @@ end
 local function onKeyPress(key)
 	if (key.code ~= actionKey) then			return		end
 	if core.isWorldPaused() or notIdle then		return		end
+	local mode = I.UI.getMode()
+	if mode and mode ~= dialogModes.dialog then		return		end
 	if dialogTarget then
 		if camera.getMode() == MD.ThirdPerson then camera.setMode(MD.Preview)		end
 		if camera.getMode() == MD.Preview then
@@ -589,6 +595,8 @@ local function uiModeChanged(data)
 end
 
 
+local useHelper = true
+
 return {
 	engineHandlers = {
 		onUpdate = onUpdate, onKeyPress = onKeyPress,
@@ -600,35 +608,46 @@ return {
 		end
 	},
 	eventHandlers = {
-	UiModeChanged = uiModeChanged,
-	tes3InfoGetText = function(e) if dialogTarget then dialogTarget:sendEvent("dynInfoEvent", e) end end,
-	dynUiMessage = function(e) ui.showMessage(l10n(e)) end,
-	OMWMusicCombatTargetsChanged = function(e)
-		if next(e.targets) == nil or not e.actor then 		return		end
-		local inCombat
-		for _, target in ipairs(e.targets) do
-			if target == self.object then
-				inCombat = true
-				break
+		UiModeChanged = uiModeChanged,
+		DialogueResponse = function(e)
+			useHelper = false
+			if dialogTarget and e.type ~= "voice" then
+				dialogTarget:sendEvent("dynInfoEvent", { info = { id=e.infoId } })
 			end
+		end,
+		tes3InfoGetText = function(e)
+			if useHelper and dialogTarget then
+				dialogTarget:sendEvent("dynInfoEvent", e)
+			end
+		end,
+		dynUiMessage = function(e) ui.showMessage(l10n(e)) end,
+		OMWMusicCombatTargetsChanged = function(e)
+			if next(e.targets) == nil or not e.actor then 		return		end
+			local inCombat
+			for _, target in ipairs(e.targets) do
+				if target == self.object then
+					inCombat = true
+					break
+				end
+			end
+			combatActors[e.actor.id] = inCombat
+			if not inCombat then		return			end
+			if dialogTarget then core.sendGlobalEvent("dynForcePause")		end
+			local pos1, pos2 = e.actor.position, self.object.position
+			if (pos1 - pos2):length() > 2000 then			return		end
+			if math.abs(pos1.z - pos2.z) > 1000 then		return		end
+			procStanceChange(true)
 		end
-		combatActors[e.actor.id] = inCombat
-		if not inCombat then		return			end
-		if dialogTarget then core.sendGlobalEvent("dynForcePause")		end
-		local pos1, pos2 = e.actor.position, self.object.position
-		if (pos1 - pos2):length() > 2000 then			return		end
-		if math.abs(pos1.z - pos2.z) > 1000 then		return		end
-		procStanceChange(true)
-	end
 	},
 
 	interfaceName = "DynamicActors",
 	interface = {
 		version = 115,
+--[[
+		c = function()		return common			end,
+		help = function()	return useHelper		end,
 		updates = function()	return doUpdates		end,
 		bars = dCam.bars,
---[[
-		dcam = function()	return dialogCam		end,
 		combat = function()	return combatActors		end
 --]]
 	}

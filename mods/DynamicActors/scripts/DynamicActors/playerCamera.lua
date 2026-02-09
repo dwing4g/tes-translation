@@ -240,17 +240,23 @@ function M.autoCamUpdate(dt)
 	--	d.pos = npc.position
 		d.deltaPos = npc.position - self.position
 	end
+	local isPlaying = Anim.getActiveGroup(npc, 0)
 	local keys, focal = d.animKeys
 	if keys then
-		local isPlaying = Anim.getActiveGroup(npc, 0)
 		for _, v in ipairs(keys) do 
 			if isPlaying == v then
 				focal = d.headPosAnim
 			end
 		end
-		focal = focal or keys[Anim.getActiveGroup(npc, 0)] or keys.default
-		focal = focal and d.npcSizeRatios:apply(focal) * npc.scale
-		if common.logging then print(isPlaying)		end
+		if not focal then
+			focal = keys[Anim.getActiveGroup(npc, 0)] or keys.default
+			focal = focal and d.npcSizeRatios:apply(focal) * npc.scale
+		end
+		if common.logging then print(isPlaying, focal)		end
+	end
+	if not focal and not M.heights.byGroup[isPlaying] then
+		-- use bounding box to calculate focal point
+		if common.logging then print("UNKNOWN BASE GROUP", isPlaying)		end
 	end
 	focal = focal or d.vecFocalDefault
 	d.vecEyeToHead = d.deltaPos + util.transform.rotateZ(npc.rotation:getYaw()):apply(focal)

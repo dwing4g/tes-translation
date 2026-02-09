@@ -14,9 +14,7 @@ Plays idle animations on the player when stationery. Plays extra idle animations
 Installation
 ------------
 
-Extract the files to an OpenMW Data folder.
-
-Use the OpenMW launcher to enable the "Dynamic Actors.omwscripts" file, or manually add an entry into the openmw.cfg file in your user folder
+Create a folder, extract the files into it, and register this folder as a Data Directory in the OpenMW launcher. Use the launcher to enable the "Dynamic Actors.omwscripts" file.
 
 
 FEATURES
@@ -86,7 +84,7 @@ The mod settings page allows you to customize or disable any of the above featur
 Conflicts with other Mods
 -------------------------
 
-Mods such as Animated Morrowind introduce new NPC's that have custom animations playing on them. Using the auto turning or random scripted idles feature on them produces visual glitches. By default, this mod will avoid using those features on any of these NPC's. The 'BLOCKLIST.LUA' file contains a list of the record ID's that will be blocked in this way.
+Mods such as Animated Morrowind introduce new NPC's that have custom animations playing on them. Using the auto turning or random scripted idles feature on them produces visual glitches. By default, this mod will avoid using those features on any of these NPC's. The file 'scripts\DynamicActors\userConfig\Dialog NPC Blocklist.lua' contains a list of the record ID's that will be blocked in this way. If you want to apply the block to any NPC not already covered, you can edit this file to add your own entries.
 
 A patch is also included with this install that disables the NPC auto turning feature of the mod UIMODES for this reason. Make sure this mod is loaded after UiModes in the game launcher load order.
 

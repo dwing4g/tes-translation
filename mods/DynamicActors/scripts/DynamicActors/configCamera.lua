@@ -1,6 +1,6 @@
 local v3 = common.omw.util.vector3
 
-return {
+local M = {
 
 	byAnim = {
 
@@ -94,6 +94,21 @@ return {
 	--	{id="tr_gremlin", height=45},
 --]]
 
-	}
+	},
+
+	byGroup = {}
 
 }
+
+for _, v in ipairs{
+	"idle", "idle2", "idle3", "idle4", "idle5", "idle6", "idle7", "idle8", "idle9",
+	"idle2_copy", "idle7_copy", "idle8_copy",
+	"armsfolded", "armsakimbo", "armsalmapray", "armssunshield", "armsatback", "readypose",
+	"handhippose", "posealma3"
+	} do
+	M.byGroup[v] = {}
+end
+
+
+return M
+
