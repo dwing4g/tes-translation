@@ -306,11 +306,11 @@ As Heart-Fang breathes his last breath, the Hircine's Ring disappears from his f
 
 > SCPT.SCTX hircine1Script s1
 Ahhh...you have arrived. The others have been here for days now, and you are the last. It is time for my Hunt, and you are to take part. I have chosen only the most worthy to take part the Hunt--Carius of the Imperials, Heart-Fang of the Skaal, the frost giant Karstaag....and you. You have proven yourself a worthy hunter, and so you have been given this honor.
-啊…你来了。其他人已经来到这个地方好几天了，你是最后一个。现在是我的狩猎时间，你们要加入我的狩猎。我只挑选了最有资格参加狩猎的人 -- 帝国队长卡里乌斯、斯卡尔首领心牙、冰霜巨人卡斯塔格……还有你。你已经证明了自己是一个值得尊敬的猎人，所以你获得了这份荣誉。
+啊…你来了。其他人已经来到这个地方好几天了，你是最后一个。现在是我的狩猎时间，你们要加入我的狩猎。我只挑选了最有资格参加狩猎的人——帝国队长卡里乌斯、斯卡尔首领心牙、冰霜巨人卡斯塔格……还有你。你已经证明了自己是一个值得尊敬的猎人，所以你获得了这份荣誉。
 
 > SCPT.SCTX hircine1Script s2
 You and the others are to find your way to my Hunting Grounds. Take great care, as only one of you will earn the glory of facing the Hunter himself in battle while the Bloodmoon lights the sky. The others have gone ahead, so only you remain to begin. Beware, mortal--my Hounds are about, and they hunger for blood. Perhaps I will see you soon. Now go.
-你和其他人将会一起前往我的狩猎场。你们必须小心谨慎，因为只有你们当中的一个人能在血月照亮天空之时赢得与猎人对决的荣耀。其他人已经先走一步，所以只剩下你要开始了。当心了，凡人 -- 我的猎犬就在附近，它们饥肠辘辘，它们渴望鲜血。也许我很快就能再见到你，现在出发吧。
+你和其他人将会一起前往我的狩猎场。你们必须小心谨慎，因为只有你们当中的一个人能在血月照亮天空之时赢得与猎人对决的荣耀。其他人已经先走一步，所以只剩下你要开始了。当心了，凡人——我的猎犬就在附近，它们饥肠辘辘，它们渴望鲜血。也许我很快就能再见到你，现在出发吧。
 
 > SCPT.SCTX hircine2Script m1
 What is the hunter's greatest strength?
@@ -338,7 +338,7 @@ I ask you, though: what is it that makes a hunter great. Is it his strength? The
 
 > SCPT.SCTX hircine2Script s3
 So you have chosen, and so shall be your fate. To face me in all my glory would be less than sporting, so you shall face but one of my aspects, the one you have chosen. We have little time--the Bloodmoon sinks low in the sky. Prepare yourself, mortal, for now you are the Hunted.
-这就是你的选择，你的命运也将如此。若直面我所有的光辉，你将失去抵抗的能力。所以你只能面对我的一个化身 -- 你所选择的那个化身。我们的时间不多了 -- 血月即将落下。准备好吧，凡人，因为现在你才是猎物。
+这就是你的选择，你的命运也将如此。若直面我所有的光辉，你将失去抵抗的能力。所以你只能面对我的一个化身——你所选择的那个化身。我们的时间不多了——血月即将落下。准备好吧，凡人，因为现在你才是猎物。
 
 > SCPT.SCTX hircineringScript m1
 Would you like to use the Ring of Hircine?
@@ -602,7 +602,7 @@ Go to the west and free the warm Sun from the Halls of Penumbra.
 
 > SCPT.SCTX stoneTreesScript m1
 The First Trees are gone. Travel east and find the one who has stolen the Seeds. Beware--he who has the seeds, controls the trees. Plant the First anew.
-最早的树已经消失了。向东走，找到偷走树种的人。小心 -- 只要是拥有树种的人，就能够控制树木。重新种植“最初之树”。
+最早的树已经消失了。向东走，找到偷走树种的人。小心——只要是拥有树种的人，就能够控制树木。重新种植“最初之树”。
 
 > SCPT.SCTX stoneUlfgarScript m1
 You have been granted the gift of Ulfgar's strength.
@@ -1116,7 +1116,7 @@ $93Werewolves aren't acrobats like that,$94 said Mallon. $93They were definitely
 <BR>
 <BR>
 <BR>
--- 居鲁斯<BR>
+——居鲁斯<BR>
 <BR>
 附言：如若可能，请带一扯木料。”<BR>
 <BR>
@@ -1165,7 +1165,7 @@ $93Werewolves aren't acrobats like that,$94 said Mallon. $93They were definitely
 <BR>
 “玛拉呀！”斯科蒂叫道。“他们冲下来了，就像下雨一样！”<BR>
 <BR>
-“可能只是豆荚种子，”马龙头也不回，耸肩说道。“一些树木不同寻常 --”<BR>
+“可能只是豆荚种子，”马龙头也不回，耸肩说道。“一些树木不同寻常——”<BR>
 <BR>
 营地陷入一片混乱当中，马车最先遭殃，接着马匹因被重创发出哀鸣，盛放美酒，淡水的木桶被刺破，酒水喷洒的满地都是。一个敏捷黑影越过斯科蒂以及马龙二人，凭借着惊人速度以及优雅姿态将成袋粮食连同金币抢入手中。斯科蒂借着附近稍纵即逝的火光，一瞥之下方才发现那是一只健美生物，长着尖尖耳朵，一对黄色大眼，身披斑驳杂毛，身后还有一条鞭状长尾。<BR>
 <BR>
@@ -2636,7 +2636,7 @@ So ends this account of the Battle of the Moesring, and the fall of the magnific
 <br>
 然后有一种巨大的平静压倒了仍然站立的精灵。雪王子确实穿过他们的群众，当一艘长艇划过菲亚丁冰冷的水域时，他与他的同胞分开了。这匹壮丽的白马减速到疾驰，然后是小跑，不知名的精灵骑手以缓慢的，近似幽灵般的速度移动到队伍的最前面。
 <br>
-诺德人战士在流血和战斗的生活中见多识广，很少对武装战斗可能带来的任何事情感到惊讶。但那天我们当中很少有人能想象到敬畏和不确定性，突然变得一动不动、一片寂静的激烈战场。这就是雪王子对我们所有人的影响。因为当精灵们欢快的叫喊声结束时，只剩下寂静的死寂。就在那时，我们聚合的主宰精灵和诺德人都加入了一个可怕的共识 -- 那天在摩斯林山脉的山坡上，胜利或失败无关紧要。我们都共享的一个事实是，那天会有诸多人死亡，无论是胜利者还是被征服者。荣光的雪王子，一个与众不同的精灵，那天确实来了，给吾等族人带来了死亡。以及他带来的死亡。
+诺德人战士在流血和战斗的生活中见多识广，很少对武装战斗可能带来的任何事情感到惊讶。但那天我们当中很少有人能想象到敬畏和不确定性，突然变得一动不动、一片寂静的激烈战场。这就是雪王子对我们所有人的影响。因为当精灵们欢快的叫喊声结束时，只剩下寂静的死寂。就在那时，我们聚合的主宰精灵和诺德人都加入了一个可怕的共识——那天在摩斯林山脉的山坡上，胜利或失败无关紧要。我们都共享的一个事实是，那天会有诸多人死亡，无论是胜利者还是被征服者。荣光的雪王子，一个与众不同的精灵，那天确实来了，给吾等族人带来了死亡。以及他带来的死亡。
 <br>
 就像一场突如其来的猛烈暴风雪，让旅行者失明，并威胁要撕裂最坚固大厅的地基，雪王子确实席卷了我们的队伍。的确，冰雪确实开始在精灵周围打转搅动，仿佛被召唤为他的命令服务。那支闪闪发光的长枪旋转为所有阻挡雪王子的人吹响了挽歌，那天我们最强大的人倒在了他面前。伍尔夫基·砧-手，白之风暴，芙蕾达·橡-杖，疯狂者海姆达尔。所有人都死在摩斯林山脚下。
 <br>
@@ -2965,7 +2965,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 霍斯蒙德的克星：<br>
 <br>
-红色霍斯蒙德以酋长身分统御瑟斯克和其住民二十一年。他软硬兼施，替瑟斯克带来和平与繁荣，然而却也是和平让霍斯蒙德毁灭。因为这个强大的诺德人在温暖安全的蜜酒大厅里反而焦躁不安。他渴望战争和冒险，想要再次体会血液结冰的感觉，他再也无法忽视体内勇猛性情的呼唤。当传言四起说有匹嗜血的白色巨狼在默斯灵山出没，威吓旅人时，霍斯蒙德便拿起他的巨斧，独自出发准备跟那头野兽一较高下。山中的人叫这匹狼“昂贾格”，即邪恶之狼。这野兽的身形庞大如公牛，皮毛白如初雪。据说没人能活着打倒昂贾格，这些山中住民的话正确无误。虽然霍斯蒙德砍下了邪恶之狼的一条腿，这强壮的诺德人还是被昂贾格整个吞吃入腹，只留下了那枝巨斧 -- 那是人类与野兽对战失败的见证。瑟斯克的居民哀痛又愤怒，他们前往山区寻找这匹他们称之为“霍斯蒙德克星”的狼。他们以众敌寡携手合作，这才终于杀了昂贾格。然后，他们大啖其肉，展现家族一心。<br>
+红色霍斯蒙德以酋长身分统御瑟斯克和其住民二十一年。他软硬兼施，替瑟斯克带来和平与繁荣，然而却也是和平让霍斯蒙德毁灭。因为这个强大的诺德人在温暖安全的蜜酒大厅里反而焦躁不安。他渴望战争和冒险，想要再次体会血液结冰的感觉，他再也无法忽视体内勇猛性情的呼唤。当传言四起说有匹嗜血的白色巨狼在默斯灵山出没，威吓旅人时，霍斯蒙德便拿起他的巨斧，独自出发准备跟那头野兽一较高下。山中的人叫这匹狼“昂贾格”，即邪恶之狼。这野兽的身形庞大如公牛，皮毛白如初雪。据说没人能活着打倒昂贾格，这些山中住民的话正确无误。虽然霍斯蒙德砍下了邪恶之狼的一条腿，这强壮的诺德人还是被昂贾格整个吞吃入腹，只留下了那枝巨斧——那是人类与野兽对战失败的见证。瑟斯克的居民哀痛又愤怒，他们前往山区寻找这匹他们称之为“霍斯蒙德克星”的狼。他们以众敌寡携手合作，这才终于杀了昂贾格。然后，他们大啖其肉，展现家族一心。<br>
 <br>
 以下是瑟斯克的酋长名单，霍斯蒙德为首任酋长：<br>
 <br>
@@ -3052,13 +3052,13 @@ Entry 13:  so cold so cold.  So huNgry...madness takKIng me I can feeeel ite.  I
 <DIV ALIGN="LEFT"><BR><BR>
 条目1：就是今天！波尚的飞艇看起来足够坚固，船员们已经准备好启航了。我们将向西北旅行，直到到达索瑟泰姆岛。根据波尚的说法，霍斯蒙德的灾祸之狼构架位于摩斯林山脉附近的某个地方。我们要探索的古墓位于狼眼。我们能得到波尚的珍贵魔法物品，并在几天后返回法师公会。怎么可能出差错？<br>
 <br>
-条目4：该死的咒术师、术士、发明家、科学家，他们净是些学术之徒！波尚向我保证他的飞艇会固定在一起，向我保证它可以像海上航行装置一样航行。全是骗人的！这个怪东西几乎没有连接在一起 -- 自从我们离开奥德'汝因以来，我们一直在追踪它的一点一滴！就在一个小时前，我们失去了一个主发动机上的锻莫齿轮！如果这是一艘护卫舰或单桅帆船，我会很好地把她绑在一起，但是，唉，试图控制飞艇就像用勺在桶里划桨一样环游大海。<br>
+条目4：该死的咒术师、术士、发明家、科学家，他们净是些学术之徒！波尚向我保证他的飞艇会固定在一起，向我保证它可以像海上航行装置一样航行。全是骗人的！这个怪东西几乎没有连接在一起——自从我们离开奥德'汝因以来，我们一直在追踪它的一点一滴！就在一个小时前，我们失去了一个主发动机上的锻莫齿轮！如果这是一艘护卫舰或单桅帆船，我会很好地把她绑在一起，但是，唉，试图控制飞艇就像用勺在桶里划桨一样环游大海。<br>
 <br>
 条目6：有陆地了嗬！<br>
 <br>
-条目7：对于船员来说，急躁是正常的，但阿尔贡最终还是发疯了。在我们离开奥德'汝因之前，我反复告诉他，飞艇是在天空中航行，而不是在水面上航行。他告诉我他明白了，但他对高度的恐惧一定最终占了上风。发狂的状态下，他抓住了帆舵，差点把我们逼到海里。我别无选择，只能宰了他。漪 -- 中 -- 游是他的名字，在这次不幸事件发生之前，他是一名优秀的船员。我更喜欢海葬，但考虑到我们目前的情况，我们别无选择，只能把他的尸体扔向海外。我们的目标是大海，但此时飞艇已经飘过索瑟泰姆。唉，我担心我们错过了，他的尸体降落在东南海岸的某个地方。<br>
+条目7：对于船员来说，急躁是正常的，但阿尔贡最终还是发疯了。在我们离开奥德'汝因之前，我反复告诉他，飞艇是在天空中航行，而不是在水面上航行。他告诉我他明白了，但他对高度的恐惧一定最终占了上风。发狂的状态下，他抓住了帆舵，差点把我们逼到海里。我别无选择，只能宰了他。漪-中-游是他的名字，在这次不幸事件发生之前，他是一名优秀的船员。我更喜欢海葬，但考虑到我们目前的情况，我们别无选择，只能把他的尸体扔向海外。我们的目标是大海，但此时飞艇已经飘过索瑟泰姆。唉，我担心我们错过了，他的尸体降落在东南海岸的某个地方。<br>
 <br>
-条目9：我们找到了霍斯蒙德之祸！至少波尚在某件事上说对了。狼形构架从西向东延伸，头部和眼睛朝向东端。我们将寻找一个落脚的地方，然后探索霍斯蒙德古墓 -- 假设那是波尚所说的地方。我还需注意，进度比我想的要慢。空气中弥漫着一股寒意，我不相信那些已经聚集在山上的乌云……<br>
+条目9：我们找到了霍斯蒙德之祸！至少波尚在某件事上说对了。狼形构架从西向东延伸，头部和眼睛朝向东端。我们将寻找一个落脚的地方，然后探索霍斯蒙德古墓——假设那是波尚所说的地方。我还需注意，进度比我想的要慢。空气中弥漫着一股寒意，我不相信那些已经聚集在山上的乌云……<br>
 <br>
 条目11：我们被暴风雪袭击了，我从未见过这样的暴风雪！我害怕暴风雨，但从来没有想过会发生这样的事情。波尚的装置在接缝处分崩离析，我认为我们无法维持高度。没有地方可以降落，但我们必须迫降！<br>
 <br>
@@ -3203,7 +3203,7 @@ He he!  Ha ho!  He he he ha ha ho!<br>
 嘻嘻！哈嚯！<br>
 我们要去作坊！<br>
 <br>
-糖果 -- 太过甜蜜！美味冬季的佳肴！<br>
+糖果——太过甜蜜！美味冬季的佳肴！<br>
 苍白炉火温润了糖<br>
 幸福弥漫了整个夜！<br>
 <br>
@@ -3218,7 +3218,7 @@ He he!  Ha ho!  He he he ha ha ho!<br>
 嘻嘻！哈嚯！<br>
 我们要去作坊！<br>
 <br>
-糖果、糖果 -- 他做了太多！<br>
+糖果、糖果——他做了太多！<br>
 使用爷爷的魔法之触！<br>
 <br>
 于是又回到了雪中的工坊！<br>
@@ -3486,9 +3486,9 @@ It is time for Nords to learn the truth.  Eternal life can be theirs, without th
 <DIV ALIGN="LEFT"><BR><BR>
 死亡。这是我们每个人都会面对的东西。不过，真的是这样的吗？
 <br>
-只要随口问问身边最近的诺德人对死亡的看法，你很有可能会听到一个悲壮的赞颂着勇气伴随着血肉横飞的场景的惊悚的故事。死亡的意义可能比普通的诺德战士所认识到的包含着更多的东西。最新证据表明，勇敢的诺德战士可以在战死后以力量和技巧的形态永生。但是为了完全理解诺德人在死后的永恒的生命，我们首先要回顾一下那些围绕着战士们归息的传奇地点 -- 松加德的传说。
+只要随口问问身边最近的诺德人对死亡的看法，你很有可能会听到一个悲壮的赞颂着勇气伴随着血肉横飞的场景的惊悚的故事。死亡的意义可能比普通的诺德战士所认识到的包含着更多的东西。最新证据表明，勇敢的诺德战士可以在战死后以力量和技巧的形态永生。但是为了完全理解诺德人在死后的永恒的生命，我们首先要回顾一下那些围绕着战士们归息的传奇地点——松加德的传说。
 <br>
-根据诺德人古老的记载以及世代口耳相传下来的故事，在很久很久以前的精灵纪元末期，有一个非常豪华，非常神圣的地方。然而它的入口，却是隐蔽的很好。那就是名为松加德的城市，这是天神朔尔为了赋予那些证明了自己在战争中的勇气的诺德人以荣耀而建造的。在这座松加德里，时间已经显得毫无意义了。生与死的概念都被留在的门口，殿内只存在着自给自足的快感，没有痛苦，没有折磨，也没有诺德人最不能忍受的 -- 烦闷无聊的生活。
+根据诺德人古老的记载以及世代口耳相传下来的故事，在很久很久以前的精灵纪元末期，有一个非常豪华，非常神圣的地方。然而它的入口，却是隐蔽的很好。那就是名为松加德的城市，这是天神朔尔为了赋予那些证明了自己在战争中的勇气的诺德人以荣耀而建造的。在这座松加德里，时间已经显得毫无意义了。生与死的概念都被留在的门口，殿内只存在着自给自足的快感，没有痛苦，没有折磨，也没有诺德人最不能忍受的——烦闷无聊的生活。
 <br>
 但是光是去松加德的入口有多隐蔽这个话题就已经在学术上争论已久，并且有些人认为朔尔所建造的神殿不过是个传说罢了，因为到现在为止也没有哪个经历过松加德之奇迹的诺德人能回来诉说那段经历。然而这却没有让人停止搜寻。一些诺德人花了一生的时间来找到通往松加德的入口。其中的大多数人都无功而返，心中装满了沉重的失败。他们永远不会知道征服没有终点的旅程就像饮用一壶饮之不竭的蜜酒一样的快乐。
 <br>
@@ -3688,7 +3688,7 @@ The old man laughed and got up from his chair.<BR>
 
 很久，很久以前，当斯卡尔村还是刚刚建立起来的时候，岛上一片和平。阳光明媚，作物繁荣，人们在造物主的恩赐下快乐地生活着。但是安逸的生活让斯卡尔人变得自满和懒散，他们开始认为造物主赐予的一切都是理所应当的。他们忘记了，以折磨造物主和他的选民为乐的造物主之敌一直在暗中窥视。造物主之敌化作普通人潜入了斯卡尔。<BR>
 <BR>
-造物主之敌有很多种形态，有时是一只邪恶的野兽，有时是一股致命的瘟疫。当时的人们称它为萨塔格 -- 世界吞噬者。后世则称其为贪婪者。<BR>
+造物主之敌有很多种形态，有时是一只邪恶的野兽，有时是一股致命的瘟疫。当时的人们称它为萨塔格——世界吞噬者。后世则称其为贪婪者。<BR>
 <BR>
 贪婪者（我们还是这样叫他，因为说出他的真名就像是在人们心中传播恐惧）在斯卡尔生活了好几个月。也许他曾经只是个普通人，而当造物主之敌附身在他身上后，他就变成了被人熟知的贪婪者。<BR>
 <BR>
@@ -3720,7 +3720,7 @@ The old man laughed and got up from his chair.<BR>
 <BR>
 “往西走到海边，然后跟着那个泳者前去生命源泉”<BR>
 <BR>
-于是艾瓦来到海洋的尽头，他看见了泳者 -- 造物主派来的一条黑色的海象。泳者一头扎进水中游出很远很远。艾瓦身体强壮，他立刻跟上去，使劲游着。他们游进一个洞穴，越游越深，艾瓦感觉自己肺都要炸开了，手脚也筋疲力尽了。最后，他终于找到了一袋空气，同时在黑暗中找到了生命源泉。喝下源泉，重新恢复力量后，他原路返回了海面。<BR>
+于是艾瓦来到海洋的尽头，他看见了泳者——造物主派来的一条黑色的海象。泳者一头扎进水中游出很远很远。艾瓦身体强壮，他立刻跟上去，使劲游着。他们游进一个洞穴，越游越深，艾瓦感觉自己肺都要炸开了，手脚也筋疲力尽了。最后，他终于找到了一袋空气，同时在黑暗中找到了生命源泉。喝下源泉，重新恢复力量后，他原路返回了海面。<BR>
 <BR>
 回到水之石碑后，造物主发话了，“你已经把水之恩赐还给了斯卡尔。海洋又会孕育果实，斯卡尔人也不会再口渴了。”<BR>
 <BR>
@@ -3907,7 +3907,7 @@ He he!  Ha ho!  He he he ha ha ho!<br>
 嘻嘻！哈嚯！<br>
 他要去作坊！<br>
 <br>
-糖果，糖果 -- 他做的太多哩！<br>
+糖果，糖果——他做的太多哩！<br>
 甜糖叔叔有了神奇的灵感！<br>
 于是又回到了雪中的作坊！<br>
 带着可爱的灯笼闪闪发光！<br>
@@ -5147,7 +5147,7 @@ Mirisa
 
 > BOOK.FNAM bk_ThirskHistory_revised_m
 Thirsk, a History -- Revised
-《瑟斯克，一段历史 -- 修订版》
+《瑟斯克，一段历史——修订版》
 
 > BOOK.TEXT bk_ThirskHistory_revised_m
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -5223,7 +5223,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-瑟斯克，一段历史 -- 修订版<BR>
+瑟斯克，一段历史——修订版<BR>
 贝雷迪特·贾斯塔尔　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 瑟斯克位在菲亚丁湖畔，那是一栋宏伟的蜜酒大厅，也是最勇猛的诺德战士的家和行动中心。<br>
@@ -5240,11 +5240,11 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 霍斯蒙德的克星：<br>
 <br>
-红色霍斯蒙德以酋长身分统御瑟斯克和其住民二十一年。他软硬兼施，替瑟斯克带来和平与繁荣，然而却也是和平让霍斯蒙德毁灭。因为这个强大的诺德人在温暖安全的蜜酒大厅里反而焦躁不安。他渴望战争和冒险，想要再次体会血液结冰的感觉，他再也无法忽视体内勇猛性情的呼唤。当传言四起说有匹嗜血的白色巨狼在默斯灵山出没，威吓旅人时，霍斯蒙德便拿起他的巨斧，独自出发准备跟那头野兽一较高下。山中的人叫这匹狼“昂贾格”，即邪恶之狼。这野兽的身形庞大如公牛，皮毛白如初雪。据说没人能活着打倒昂贾格，这些山中住民的话正确无误。虽然霍斯蒙德砍下了邪恶之狼的一条腿，这强壮的诺德人还是被昂贾格整个吞吃入腹，只留下了那枝巨斧 -- 那是人类与野兽对战失败的见证。瑟斯克的居民哀痛又愤怒，他们前往山区寻找这匹他们称之为“霍斯蒙德克星”的狼。他们以众敌寡携手合作，这才终于杀了昂贾格。然后，他们大啖其肉，展现家族一心。<br>
+红色霍斯蒙德以酋长身分统御瑟斯克和其住民二十一年。他软硬兼施，替瑟斯克带来和平与繁荣，然而却也是和平让霍斯蒙德毁灭。因为这个强大的诺德人在温暖安全的蜜酒大厅里反而焦躁不安。他渴望战争和冒险，想要再次体会血液结冰的感觉，他再也无法忽视体内勇猛性情的呼唤。当传言四起说有匹嗜血的白色巨狼在默斯灵山出没，威吓旅人时，霍斯蒙德便拿起他的巨斧，独自出发准备跟那头野兽一较高下。山中的人叫这匹狼“昂贾格”，即邪恶之狼。这野兽的身形庞大如公牛，皮毛白如初雪。据说没人能活着打倒昂贾格，这些山中住民的话正确无误。虽然霍斯蒙德砍下了邪恶之狼的一条腿，这强壮的诺德人还是被昂贾格整个吞吃入腹，只留下了那枝巨斧——那是人类与野兽对战失败的见证。瑟斯克的居民哀痛又愤怒，他们前往山区寻找这匹他们称之为“霍斯蒙德克星”的狼。他们以众敌寡携手合作，这才终于杀了昂贾格。然后，他们大啖其肉，展现家族一心。<br>
 <br>
 %PCName，恐惧之兽杀手的到来：<br>
 <br>
-百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上恐惧之兽的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。恐惧之兽曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，恐惧之兽再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。恐惧之兽最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题 -- 他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，他来了，他是索瑟泰姆土地上的陌生人，也是瑟斯克诺德人的救星。他是%PCRace%PCName，他做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进恐惧之兽的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的%PCName将恐惧之兽的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为%PCName的%PCRace被任命为蜜酒大厅的新酋长，并被他的人民尊为领袖和勇士。
+百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上恐惧之兽的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。恐惧之兽曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，恐惧之兽再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。恐惧之兽最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题——他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，他来了，他是索瑟泰姆土地上的陌生人，也是瑟斯克诺德人的救星。他是%PCRace%PCName，他做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进恐惧之兽的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的%PCName将恐惧之兽的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为%PCName的%PCRace被任命为蜜酒大厅的新酋长，并被他的人民尊为领袖和勇士。
 <br>
 以下是瑟斯克的酋长名单，霍斯蒙德为首任酋长：<br>
 <br>
@@ -5297,7 +5297,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 
 > BOOK.FNAM bk_ThirskHistory_revised_f
 Thirsk, a History -- Revised
-《瑟斯克，一段历史 -- 修订版》
+《瑟斯克，一段历史——修订版》
 
 > BOOK.TEXT bk_ThirskHistory_revised_f
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -5373,7 +5373,7 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-瑟斯克，一段历史 -- 修订版<BR>
+瑟斯克，一段历史——修订版<BR>
 贝雷迪特·贾斯塔尔　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 瑟斯克位在菲亚丁湖畔，那是一栋宏伟的蜜酒大厅，也是最勇猛的诺德战士的家和行动中心。<br>
@@ -5390,11 +5390,11 @@ Within the Mead Hall, the Chieftain serves as judge, jury and executioner if nec
 <br>
 霍斯蒙德的克星：<br>
 <br>
-红色霍斯蒙德以酋长身分统御瑟斯克和其住民二十一年。他软硬兼施，替瑟斯克带来和平与繁荣，然而却也是和平让霍斯蒙德毁灭。因为这个强大的诺德人在温暖安全的蜜酒大厅里反而焦躁不安。他渴望战争和冒险，想要再次体会血液结冰的感觉，他再也无法忽视体内勇猛性情的呼唤。当传言四起说有匹嗜血的白色巨狼在默斯灵山出没，威吓旅人时，霍斯蒙德便拿起他的巨斧，独自出发准备跟那头野兽一较高下。山中的人叫这匹狼“昂贾格”，即邪恶之狼。这野兽的身形庞大如公牛，皮毛白如初雪。据说没人能活着打倒昂贾格，这些山中住民的话正确无误。虽然霍斯蒙德砍下了邪恶之狼的一条腿，这强壮的诺德人还是被昂贾格整个吞吃入腹，只留下了那枝巨斧 -- 那是人类与野兽对战失败的见证。瑟斯克的居民哀痛又愤怒，他们前往山区寻找这匹他们称之为“霍斯蒙德克星”的狼。他们以众敌寡携手合作，这才终于杀了昂贾格。然后，他们大啖其肉，展现家族一心。<br>
+红色霍斯蒙德以酋长身分统御瑟斯克和其住民二十一年。他软硬兼施，替瑟斯克带来和平与繁荣，然而却也是和平让霍斯蒙德毁灭。因为这个强大的诺德人在温暖安全的蜜酒大厅里反而焦躁不安。他渴望战争和冒险，想要再次体会血液结冰的感觉，他再也无法忽视体内勇猛性情的呼唤。当传言四起说有匹嗜血的白色巨狼在默斯灵山出没，威吓旅人时，霍斯蒙德便拿起他的巨斧，独自出发准备跟那头野兽一较高下。山中的人叫这匹狼“昂贾格”，即邪恶之狼。这野兽的身形庞大如公牛，皮毛白如初雪。据说没人能活着打倒昂贾格，这些山中住民的话正确无误。虽然霍斯蒙德砍下了邪恶之狼的一条腿，这强壮的诺德人还是被昂贾格整个吞吃入腹，只留下了那枝巨斧——那是人类与野兽对战失败的见证。瑟斯克的居民哀痛又愤怒，他们前往山区寻找这匹他们称之为“霍斯蒙德克星”的狼。他们以众敌寡携手合作，这才终于杀了昂贾格。然后，他们大啖其肉，展现家族一心。<br>
 <br>
 %PCName，恐惧之兽杀手的到来：<br>
 <br>
-百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上恐惧之兽的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。恐惧之兽曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，恐惧之兽再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。恐惧之兽最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题 -- 他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，她来了，她是索瑟泰姆土地上的陌生人，也是瑟斯克诺德人的救星。她是%PCRace%PCName，她做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进恐惧之兽的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的%PCName将恐惧之兽的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为%PCName的%PCRace被任命为蜜酒大厅的新酋长，并被她的人民尊为领袖和勇士。
+百年来，瑟斯克的蜜酒大厅经受住了各种各样的困难，从高强度的武装袭击到同样毁灭性的黄色扁虱祸害。但在那段时间里，没有什么能比得上恐惧之兽的恐怖，那头从霍斯蒙德时代开始蹂躏蜜酒大厅的古老野兽。恐惧之兽曾被赶走，并被封印在他的巢穴中，所有人都希望他永远被封印。久而久之，野兽被人遗忘了，但野兽自己却没有忘记。当冰湖上燃起火焰，那个封印已久的巢穴的入口打开时，恐惧之兽再次踏上了陆地。他回到瑟斯克寻求他的复仇，并且他一度就要成功了。这个堕落的生物尽其所能杀死一切能看到的活体，并将蜜酒大厅拆的支离破碎。恐惧之兽最终还是被赶出了蜜酒大厅，但所有人都知道他回来完成复仇只是时间问题——他要彻底摧毁瑟斯克和所有居住在其中的人。就在那时，她来了，她是索瑟泰姆土地上的陌生人，也是瑟斯克诺德人的救星。她是%PCRace%PCName，她做了即使是强大的霍斯蒙德也做不到的事情。这位勇敢的战士大步走进恐惧之兽的巢穴，面对古老的野兽，像屠夫宰羊一样杀了他！然后，强大的%PCName将恐惧之兽的心脏作为战斗战利品，它将会一直被保存在瑟斯克的基座上。于是被称为%PCName的%PCRace被任命为蜜酒大厅的新酋长，并被她的人民尊为领袖和勇士。
 <br>
 以下是瑟斯克的酋长名单，霍斯蒙德为首任酋长：<br>
 <br>
@@ -5768,7 +5768,7 @@ Antoinette
 <BR>
 雅克把藏匿物放在菲耶尔冰洞里，并通知了卢锡安。我拿到了我的报酬，我要回夏暮岛了。我会在那里见你。
 <BR>
-还有一件事 -- 帮我一个忙，忘记你对野猪肉的痴迷。是的，它可能尝起来像猪肉，但不值得。那些东西是致命的，它们令人毛骨悚然的小骑手比它们看起来更恶毒。
+还有一件事——帮我一个忙，忘记你对野猪肉的痴迷。是的，它可能尝起来像猪肉，但不值得。那些东西是致命的，它们令人毛骨悚然的小骑手比它们看起来更恶毒。
 <BR>
 安托瓦内特
 
@@ -6774,7 +6774,7 @@ At Ghostgate I met an old Imperial veteran. He asked me to take an old lucky coi
 
 > INFO.NAME ic30_imperial_veteran 1261230599183833
 I told the Oracle about my encounter with the old Imperial veteran, the lucky coin he gave me, and the mark of good fortune -- the luck of the Emperor -- I have felt ever since. The Oracle thinks I have been visited by an aspect of Tiber Septim. She takes this as a sign of a great doom laid upon me by the gods.
-我向神谕者讲述了我与帝国老兵的邂逅，以及他给我的幸运硬币，从那时起我就感受到了幸运的烙印 -- 帝王之运，神谕者认为我是被泰伯·塞普汀的一面所拜访。她认为这预示着诸神将给我带来巨大的厄运。 {帝国人,财富}
+我向神谕者讲述了我与帝国老兵的邂逅，以及他给我的幸运硬币，从那时起我就感受到了幸运的烙印——帝王之运，神谕者认为我是被泰伯·塞普汀的一面所拜访。她认为这预示着诸神将给我带来巨大的厄运。 {帝国人,财富}
 
 > INFO.NAME fg_silencemagistrate 668916962192327734
 Fighters Guild: Alleius' Bounty
@@ -6806,7 +6806,7 @@ Vivec Informants
 
 > INFO.NAME a1_v_vivecinformants 31063204821378011980
 Caius sent me to Vivec with three tasks: speak with Addhiranirr, a Khajiit Thieves Guild operative in St. Olms; speak with Huleeya, an Argonian in the Foreign Quarter, at the Black Shalk Cornerclub; and speak with Mehra Milo, a Temple priestess at the Hall of Wisdom in the Temple Compound. When I have information about the Nerevarine cult and the Sixth House cult from these three, I report back to Caius. Caius gave me instructions in writing.
-凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特 -- 盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
+凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特——盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
 
 > INFO.NAME a1_v_vivecinformants 7514278082367630855
 The Spymaster took my report, and the notes from Huleeya and the 'Progress of Truth.' He needs time to read and digest my report, but in the meantime, he gave me 200 gold to spend and told me to go out and get some guild or freelance jobs, or get some training. When I'm ready, he says to come back, and he'll have new orders for me.
@@ -7510,7 +7510,7 @@ Mages Guild: Escort Tenyeminwe
 
 > INFO.NAME mg_escortscholar1 27493305952297617750
 Skink asked me to escort the scholar Tenyeminwe to Gals Arethi's ship, the Elf-Skerring, over at the Telvanni docks.
-树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷提的船 -- 精灵游荡号。 {保镖}
+树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷提的船——精灵游荡号。 {保镖}
 
 > INFO.NAME mg_escortscholar1 27601113291517218622
 Skink thanked me for escorting Tenyeminwe to the Elf-Skerring.
@@ -7834,7 +7834,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_all_nerevarine 183431105217211580
 I have been named Nerevarine by all four tribes of the Vvardenfell Ashlanders -- Urshilaku, Ahemmusa, Zainab, and Erabenimsun. Of the Seven Visions of Seven Trials of the Incarnate, I have now fulfilled the Fifth Trial.
-我被瓦登费尔的四个灰烬之民部落 -- 乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙称为尼瑞瓦因。在“化身的七大异象之七大试炼”中，我现在已经完成了第五个试炼。
+我被瓦登费尔的四个灰烬之民部落——乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙称为尼瑞瓦因。在“化身的七大异象之七大试炼”中，我现在已经完成了第五个试炼。
 
 > INFO.NAME tg_ss_generosity1 22149270561687231907
 Thieves Guild: Bal Molagmer, The Hlervu Locket
@@ -8810,11 +8810,11 @@ Ahnassi says that a friend has told her that the wizard Mavon Drenim has a Flame
 
 > INFO.NAME romance_ahnassi 515227887840326164
 I brought Ahnassi her two flowers -- one coda flower for Ahnassi, and one pretty gold kanet for me. Now she says it is my turn again to ask Ahnassi to share a gift.
-我给阿娜西带了她的两朵花 -- 一朵尾声花给阿娜西，一朵漂亮的金色卡内特给我。现在她说又轮到我请阿娜西分享礼物了。
+我给阿娜西带了她的两朵花——一朵尾声花给阿娜西，一朵漂亮的金色卡内特给我。现在她说又轮到我请阿娜西分享礼物了。
 
 > INFO.NAME romance_ahnassi 1102245811480511537
 Ahnassi says it is my turn to give her a gift. She wants just two flowers -- one coda flower for Ahnassi, and one pretty gold kanet for me.
-阿娜西说该我送她礼物了。她只想要两朵花 -- 一朵尾声花送给阿娜西，一朵漂亮的金色卡内特送给我。
+阿娜西说该我送她礼物了。她只想要两朵花——一朵尾声花送给阿娜西，一朵漂亮的金色卡内特送给我。
 
 > INFO.NAME romance_ahnassi 198469035952426536
 Ahnassi has a friend, Senyndie, a Redguard female, who trains fighters at the Arena in Vivec. Ahnassi says that Senyndie is a secret master of the guild discipline called 'acrobatics.' Ahnassi says I should go see Senyndie and tell her I am Ahnassi's friend, and perhaps Senyndie will teach me more about acrobatics.
@@ -9066,7 +9066,7 @@ Though it was a long journey, I was able to deliver Reeh-Ja to Im-Kilaya at the 
 
 > INFO.NAME mv_runawayslave 19460180401942327606
 I was able to bring the slave Reeh-Ja to Tel Aruhn, and turn him over to Savile Imayn, the slave trader. As I expected, she was happy to get one of her slaves back--not only is it her merchandise, but it serves to tell the others that there is no true chance of escape. And, as I assumed, there was a reward for the fool.
-我得以把奴隶雷-杰带到泰尔-阿汝因，并把他交给奴隶贸易商萨维尔·伊曼。正如我所料，她很高兴能拿回她的一个奴隶 -- 这不仅是她的商品，而且还能告诉其他人，奴隶们没有真正逃跑的机会。而且，正如我猜想的那样，这个傻瓜会得到奖赏。 {报酬}
+我得以把奴隶雷-杰带到泰尔-阿汝因，并把他交给奴隶贸易商萨维尔·伊曼。正如我所料，她很高兴能拿回她的一个奴隶——这不仅是她的商品，而且还能告诉其他人，奴隶们没有真正逃跑的机会。而且，正如我猜想的那样，这个傻瓜会得到奖赏。 {报酬}
 
 > INFO.NAME mv_runawayslave 2633144262774917495
 I've brought news of Reeh-Ja's death to Savile Imayn. His death pleased her, as it serves as an example to the others. Escape equals death.
@@ -10398,7 +10398,7 @@ Imperial Cult: Ring in Darkness
 
 > INFO.NAME ic25_jonhawker 62712071953449119
 Oracle Lalatia Varian had a vision of the Ring in Darkness. She saw the Ring of the Wind, a legendary treasure of Elsweyr. "I have seen the wind upon a dark elf's hand. I have seen fire gleam upon a Dwarf's face. I have seen darkness on a ring of water. I have heard no name whispered in the mouth of stone." The Oracle bid me retrieve the Ring in Darkness. I must ask Dark Elven savants and scouts about the meaning of the Oracle's vision.
-先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物 -- 风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的学者和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}
+先知拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物——风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”先知要我取回黑暗之戒，我必须向黑暗精灵的学者和斥候打听先知幻象的含义。 {黑暗中的戒指,发言人}
 
 > INFO.NAME ic25_jonhawker 19672283111636521771
 I retrieved the Ring of the Wind from Galmis Dren and brought it to Lalatia Varian. She praised me, and said that I was meant to keep the ring myself, and that I should use it in the service of the Nine.
@@ -10486,7 +10486,7 @@ A Wife's Retribution
 
 > INFO.NAME bm_retribution 2798126725583812494
 The widow Kolfinna wants my help in extracting wergild, the traditional retribution of the Nords, for the murder of her husband.  I am to obtain Sigvatr the Strong's family heirloom, the gem Pinetear, and return it to Kolfinna at her dwelling on the western bank of the Iggnir River.  All Kolfinna wants is Pinetear; I don't necessary have to kill Sigvatr the Strong.
-寡妇科尔芬娜想让我帮忙为她丈夫的死讨回血债，这是诺德人传统的报应方式。我要得到强壮者西格瓦特的传家宝 -- 松绿之泪，并将其送回科尔芬娜位于伊格尼尔河西岸的居所。科尔芬娜想要的只是松绿之泪，我没有必要杀死强壮者西格瓦特。
+寡妇科尔芬娜想让我帮忙为她丈夫的死讨回血债，这是诺德人传统的报应方式。我要得到强壮者西格瓦特的传家宝——松绿之泪，并将其送回科尔芬娜位于伊格尼尔河西岸的居所。科尔芬娜想要的只是松绿之泪，我没有必要杀死强壮者西格瓦特。
 
 > INFO.NAME bm_retribution 2422511994273661476
 I have refused Kolfinna's request that I extract wergild from Sigvatr the Strong.  I know better than to get involved is such a sensitive family matter.
@@ -10574,7 +10574,7 @@ The book "Sovngarde, a Reexamination" contains new theories on the god Shor's my
 
 > INFO.NAME bm_brodirgrove 4259153062611329672
 Ulfgar was both shocked and excited by the new theories contained in the book "Sovngarde, a Reexamination."  He now believes the entrance to Sovngarde has been right before him all along.  All he has to do is die an honorable death -- and he's chosen me as his opponent.
-乌夫加尔对《再探松加德》一书中的新理论既震惊又兴奋。他现在相信，松加德的入口一直就在他面前。他所要做的就是光荣地死去 -- 而他选择了我作为他的对手。
+乌夫加尔对《再探松加德》一书中的新理论既震惊又兴奋。他现在相信，松加德的入口一直就在他面前。他所要做的就是光荣地死去——而他选择了我作为他的对手。
 
 > INFO.NAME bm_brodirgrove 24429185522872617948
 Ulfgar asked me to engage him in mortal combat in the hopes that I could win, and send his soul to Sovngarde.  I refused.
@@ -11290,7 +11290,7 @@ A Man and His Guar
 
 > INFO.NAME mv_richtrader 1354429058674025913
 I ran into a trader, Teris Raledran, while traveling near Seyda Neen. He is trying to get a shipment of clothing to Agrippina Herennia in Vivec. He would like me to escort him and his pack guar, Rollie, and ensure their safety on the way.
-我在赛达-尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔 -- 瓜尔罗利，并确保他们在途中的安全。 {保镖}
+我在赛达-尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔——瓜尔罗利，并确保他们在途中的安全。 {保镖}
 
 > INFO.NAME mv_richtrader 1829461442819417989
 I've decided to escort neither Teris Raledran nor his guar to Vivec. This man is unstable at best. And the guar is no better.
@@ -11378,7 +11378,7 @@ Sheogorath's Quest
 
 > INFO.NAME da_sheogorath 21163218724510171
 I have entered the Shrine of Sheogorath and spoken with the Daedra Prince of Madness. He has offered me the opportunity to perform a service for him. First, I am to recover a powerful artifact, the Fork of Horripilation, from a mad hermit who lives on an island off the northernmost points of Tamriel. Then, I must slay a giant bull netch that has taken residence near this island. If I can do this, Sheogorath promises I will be rewarded well.
-我进入了谢尔格拉斯圣祠，与迪德拉大君进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器 -- 惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯保证会给我丰厚的报酬。 {巨型气母}
+我进入了谢尔格拉斯圣祠，与迪德拉大君进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器——惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯保证会给我丰厚的报酬。 {巨型气母}
 
 > INFO.NAME da_sheogorath 32230109952487810069
 The giant bull netch is dead, as Sheogorath asked. However, I was not wielding the Fork of Horripilation when the netch met its end. My quest for the Prince of Madness is a failure.
@@ -12338,51 +12338,51 @@ Gateway Ghost
 
 > INFO.NAME town_sadrith 3115119329299221329
 I told Angaredhel that the hauntings would stop, because I determined that Uleni Heleran was the source of the hauntings, and I 'took care of her'. He didn't want to know the details. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，因为我确定乌莱妮·赫勒兰就是闹鬼的源头，而且我“解决了她”。他不想知道细节。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指，任我选择。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，因为我确定乌莱妮·赫勒兰就是闹鬼的源头，而且我“解决了她”。他不想知道细节。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指，任我选择。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 155511865161918461
 I told Angaredhel that the hauntings would stop, because I determined that Uleni Heleran was the source of the hauntings, and I 'took care of her'. He didn't want to know the details. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，因为我确定乌莱妮·赫勒兰就是闹鬼的源头，而且我“解决了她”。他不想知道细节。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指，任我选择。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，因为我确定乌莱妮·赫勒兰就是闹鬼的源头，而且我“解决了她”。他不想知道细节。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指，任我选择。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 23452196093027114874
 I told Angaredhel that the hauntings would stop, because I determined that Uleni Heleran was the source of the hauntings, and I 'took care of her'. He didn't want to know the details. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，因为我确定乌莱妮·赫勒兰就是闹鬼的源头，而且我“解决了她”。他不想知道细节。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指，任我选择。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，因为我确定乌莱妮·赫勒兰就是闹鬼的源头，而且我“解决了她”。他不想知道细节。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指，任我选择。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 804822645179125921
 I told Angaredhel that the hauntings would stop, and gave him the note from Uleni Heleran. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，并把乌莱妮·赫勒兰的字条交给了他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，并把乌莱妮·赫勒兰的字条交给了他。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 257995907134173440
 I told Angaredhel that the hauntings would stop, and gave him the note from Uleni Heleran. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Mage Ring.
-我告诉安加雷德尔闹鬼的事会停止，并把乌莱妮·赫勒兰的字条交给了他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
+我告诉安加雷德尔闹鬼的事会停止，并把乌莱妮·赫勒兰的字条交给了他。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
 
 > INFO.NAME town_sadrith 219663015334171859
 I told Angaredhel that the hauntings would stop, and gave him the note from Uleni Heleran. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Fighter Ring.
-我告诉安加雷德尔闹鬼的事会停止，并把乌莱妮·赫勒兰的字条交给了他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
+我告诉安加雷德尔闹鬼的事会停止，并把乌莱妮·赫勒兰的字条交给了他。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
 
 > INFO.NAME town_sadrith 19915100433155118126
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 16859260523173512719
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Mage Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
 
 > INFO.NAME town_sadrith 19185361712731059
 I told Angaredhel that the hauntings would stop, and revealed Uleni's name, but I didn't give him her message. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Fighter Ring.
-我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
+我告诉安加雷德尔闹鬼的事会停止，并透露了乌莱妮的名字，但我没有把她的信息告诉他。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
 
 > INFO.NAME town_sadrith 11532154661570510630
 I told Angaredhel that the hauntings would stop, but I didn't give him the note from Uleni Heleran, or reveal Uleni's name. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Thief Ring.
-我告诉安加雷德尔闹鬼的事会停止，但我没有给他乌莱妮·赫勒兰的字条，也没有透露乌莱妮的名字。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
+我告诉安加雷德尔闹鬼的事会停止，但我没有给他乌莱妮·赫勒兰的字条，也没有透露乌莱妮的名字。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了盗贼戒指。
 
 > INFO.NAME town_sadrith 30650238421384922336
 I told Angaredhel that the hauntings would stop, but I didn't give him the note from Uleni Heleran, or reveal Uleni's name. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Mage Ring.
-我告诉安加雷德尔闹鬼的事会停止，但我没有给他乌莱妮·赫勒兰的字条，也没有透露乌莱妮的名字。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
+我告诉安加雷德尔闹鬼的事会停止，但我没有给他乌莱妮·赫勒兰的字条，也没有透露乌莱妮的名字。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了法师戒指。
 
 > INFO.NAME town_sadrith 71162169852007085
 I told Angaredhel that the hauntings would stop, but I didn't give him the note from Uleni Heleran, or reveal Uleni's name. As a reward, he gave me my choice of three enchanted rings -- a Fighter Ring, A Mage Ring, and a Thief Ring. I chose a Fighter Ring.
-我告诉安加雷德尔闹鬼的事会停止，但我没有给他乌莱妮·赫勒兰的字条，也没有透露乌莱妮的名字。作为报酬，他给了我三枚附魔的戒指 -- 战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
+我告诉安加雷德尔闹鬼的事会停止，但我没有给他乌莱妮·赫勒兰的字条，也没有透露乌莱妮的名字。作为报酬，他给了我三枚附魔的戒指——战士戒指、法师戒指和盗贼戒指。我选择了战士戒指。
 
 > INFO.NAME ms_apologies 167393199531940829
 A Rash of Insults
@@ -12682,7 +12682,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_promise 1346112838896030923
 I found Mossanon in Sadrith Mora and confronted him about the embezzled funds. He admitted his crime, and offered to return 2500 gold -- he had spent the rest -- and pay back the rest as soon as he could, if I'd promise to keep his whereabouts secret from Canctunian Ponius. I promised to keep his secret, but I think he suspected I would not honor my promise, and he refused to return the gold.
-我在萨德里斯-莫拉找到了莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应向坎克图尼安·博尼乌斯保密他的行踪，他就会归还2500金币 -- 其余的他已经花掉了 -- 并且他会尽快归还其余的钱。我答应为他保密，但我想他可能是怀疑我不会履行诺言，于是他拒绝归还金币。
+我在萨德里斯-莫拉找到了莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应向坎克图尼安·博尼乌斯保密他的行踪，他就会归还2500金币——其余的他已经花掉了——并且他会尽快归还其余的钱。我答应为他保密，但我想他可能是怀疑我不会履行诺言，于是他拒绝归还金币。
 
 > INFO.NAME eb_invisible 251942847122375055
 An Invisible Son
@@ -12830,11 +12830,11 @@ Severia Gratius asked for my help in uncovering the identity of the moon sugar p
 
 > INFO.NAME bm_moonsugar 7411331227176995
 I have agreed to help Severia Gratius discover the identity of the moon sugar poisoner and bring him to justice.  One of the victims -- the Imperial Cult priest Jeleen -- glimpsed a man with a unique white Colovian fur helm leaving the scene of the crime.  I am to find and kill this man and bring Gratius the white helm as proof.  Before I leave Frostmoth I must question Jeleen in the Cult shrine.  He may have some more information.
-我同意帮助塞维莉娅·格拉提乌斯查出月亮糖下毒者的身份，并将其绳之以法。受害者之一 -- 帝国教团牧师杰利恩 -- 瞥见一个头戴科洛维亚特有的白色毛皮头盔的人离开了犯罪现场。我要找到并杀死这个人，把白色头盔作为证据交给格拉提乌斯。在我离开霜蛾之前，我必须去圣祠询问杰利恩，他可能知道更多信息。 {正义,帝国人,罪行}
+我同意帮助塞维莉娅·格拉提乌斯查出月亮糖下毒者的身份，并将其绳之以法。受害者之一——帝国教团牧师杰利恩——瞥见一个头戴科洛维亚特有的白色毛皮头盔的人离开了犯罪现场。我要找到并杀死这个人，把白色头盔作为证据交给格拉提乌斯。在我离开霜蛾之前，我必须去圣祠询问杰利恩，他可能知道更多信息。 {正义,帝国人,罪行}
 
 > INFO.NAME bm_moonsugar 6305191315298950
 I questioned Jeleen at the Imperial Cult shrine.  A week ago, after drinking some wine, Jeleen began to feel the effects of moon sugar euphoria.  He claims that while in his drugged state, he saw a frail old man -- probably not a Nord -- wearing a white Colovian fur helm.  Jeleen can't fully trust his recollections, but he thinks he remembers the man singing a silly song...something about candy, and a workshop in the snow, with lanterns all aglow....
-我询问了帝国教团圣祠的杰利恩。一周前，喝了一些酒之后，杰利恩开始感到有月亮糖的兴奋作用。他声称，在他嗑药的状态下，他看到了一个虚弱的老人 -- 可能不是诺德人 -- 戴着白色的科洛维亚毛皮头盔。尽管杰利恩无法完全相信自己的记忆，但他觉得他记得那个人在唱一首愚蠢歌谣…是关于糖果的，还有雪地里的作坊，灯笼都亮着…… {帝国人}
+我询问了帝国教团圣祠的杰利恩。一周前，喝了一些酒之后，杰利恩开始感到有月亮糖的兴奋作用。他声称，在他嗑药的状态下，他看到了一个虚弱的老人——可能不是诺德人——戴着白色的科洛维亚毛皮头盔。尽管杰利恩无法完全相信自己的记忆，但他觉得他记得那个人在唱一首愚蠢歌谣…是关于糖果的，还有雪地里的作坊，灯笼都亮着…… {帝国人}
 
 > INFO.NAME bm_moonsugar 9846253443139022055
 I met an odd old man living in a small workshop, out in the wilderness of Solstheim. Inspired by a child's silly song, he took on the role of Uncle Sweetshare, the legendary giver of candy and spreader of cheer. He even wears a white helmet. What's most disturbing is that this particular Uncle Sweetshare has been spreading his unique brand of happiness by secretly giving people moon sugar. It's obvious this madman is the culprit Severia Gratius hired me to kill.
@@ -12862,7 +12862,7 @@ I found the door to Hrothmund's Barrow and tried to gain entrance. I uttered the
 
 > INFO.NAME bm_airship_a 2851025028259359328
 I found the door to Hrothmund's Barrow and uttered the name of the wolf -- "Ondjage" -- to gain entrance.
-我找到了霍斯蒙德之冢的大门，并喊出了狼的名字 --“昂贾格”-- 才得以进入。
+我找到了霍斯蒙德之冢的大门，并喊出了狼的名字——“昂贾格”——才得以进入。
 
 > INFO.NAME bm_ceremony1 90684239968231409
 The Totem of Claw and Fang
@@ -13010,7 +13010,7 @@ The witch Ettiene told me to talk to her sisters and complete whatever errands t
 
 > INFO.NAME bm_wolfgiver 16845270772837422414
 I must retrieve the petals of a wolsfbane flower and return them to the witch named Fallaise. Wolfsbane only grows in one place on Solstheim -- at the top of Hvitkald Peak, at the southern end of the Moesring Mountains.
-我必须取回一朵狼毒花的花瓣，并将它们交还给名叫法莱斯的女巫。乌头花只生长在索瑟泰姆的一个地方 -- 莫斯林山脉南端的赫维特卡尔德高峰。
+我必须取回一朵狼毒花的花瓣，并将它们交还给名叫法莱斯的女巫。乌头花只生长在索瑟泰姆的一个地方——莫斯林山脉南端的赫维特卡尔德高峰。
 
 > INFO.NAME bm_wolfgiver 26650313412533132168
 For the witch named Isobel I must collect one bunch of ripened belladonna berries.  Ripened belladonna berries grow only near burial barrows and crypts, and are sometimes carried by Spriggans.  Unripened berries won't do.
@@ -13374,7 +13374,7 @@ While in a Shrine to Molag Bal, the Daedric Prince spoke to me at the altar. He 
 
 > INFO.NAME da_molagbal 146375713884121843
 I've returned to the Shrine of Molag Bal, having killed the Daedroth Monarch. Molag Bal was true to his word, and has rewarded me with his mace, the Mace of Molag Bal.
-我杀了迪德洛斯君王，回到了莫拉格·巴尔的圣祠。莫拉格·巴尔言出必行，用他的锤子 -- 莫拉格·巴尔的钉锤奖赏了我。 {报酬}
+我杀了迪德洛斯君王，回到了莫拉格·巴尔的圣祠。莫拉格·巴尔言出必行，用他的锤子——莫拉格·巴尔的钉锤奖赏了我。 {报酬}
 
 > INFO.NAME da_mehrunes 15949200162884730396
 Mehrunes Dagon's Quest
@@ -13398,7 +13398,7 @@ I spoke to the khajiit M'aiq, and he gave me information on a sunken shrine to B
 
 > INFO.NAME da_boethiah 12676225553046131092
 I have returned to the completed Shrine to Boethiah. The Daedra seemed pleased with the work that has been done, and has rewarded me with Goldbrand, a truly spectacular weapon.
-我回到了已经完工的波耶西亚祭坛。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器 -- 黄金烙印。 {报酬}
+我回到了已经完工的波耶西亚祭坛。迪德拉似乎对已完成的工作很满意，并奖励我一件真正壮观的武器——黄金烙印。 {报酬}
 
 > INFO.NAME da_malacath 2029227732236431088
 Malacath's Quest
@@ -13626,7 +13626,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_demand 2285318242975215882
 I found Mossanon in Sadrith Mora and confronted him about the embezzled funds. He admitted his crime, and offered to return 2500 gold -- he had spent the rest -- and pay back the rest as soon as he could, if I'd promise to keep his whereabouts secret from Canctunian Ponius. I refused to keep his secret, and he refused to return the gold.
-我在萨德里斯-莫拉找到莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还2500金币 -- 剩下的他已经花光了 -- 并且他会尽快还清剩下的钱。我拒绝为他保密，他也拒绝归还金币。
+我在萨德里斯-莫拉找到莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还2500金币——剩下的他已经花光了——并且他会尽快还清剩下的钱。我拒绝为他保密，他也拒绝归还金币。
 
 > INFO.NAME eb_shipment 7403135282837125463
 Liberate the Limeware
@@ -13826,7 +13826,7 @@ I received a dream from Hircine calling me to join him for his Hunt. When I awok
 
 > INFO.NAME bm_wildhunt 1295913728126523287
 Hircine spoke to me, telling me that I was to be a part of his hunt. He has gathered the champions of Solstheim--Falx Carius from Fort Frostmoth, Tharsten Heart-Fang from the Skaal, and the frost giant Karstaag--to participate. All of us are to find our way through this glacier, though the others have gone ahead already. Only one of us will survive to face the Hunter in battle. I should continue ahead and see what awaits me.
-希尔辛对我说话，告诉我我要参加他的狩猎。他召集了索瑟泰姆的勇士 -- 霜蛾要塞的法尔斯·卡里乌斯、斯卡尔的塔斯滕·心牙和冰霜巨人卡斯塔格 -- 参加狩猎。我们所有人都要找到出路穿越冰川，尽管其他人已经先行一步。我们中只有一个人能活下来与猎人战斗。我应该继续前进，看看有什么在等着我。
+希尔辛对我说话，告诉我我要参加他的狩猎。他召集了索瑟泰姆的勇士——霜蛾要塞的法尔斯·卡里乌斯、斯卡尔的塔斯滕·心牙和冰霜巨人卡斯塔格——参加狩猎。我们所有人都要找到出路穿越冰川，尽管其他人已经先行一步。我们中只有一个人能活下来与猎人战斗。我应该继续前进，看看有什么在等着我。
 
 > INFO.NAME bm_wildhunt 1675676051538012168
 I've encountered Captain Falx Carius, who was brought here after the attack on Fort Frostmoth. He suggests we work together to escape Hircine's prison.
@@ -13890,7 +13890,7 @@ The frost giant Karstaag is dead. I am now the only one that has made it to the 
 
 > INFO.NAME bm_wildhunt 1265429941389310490
 Hircine has appeared and spoken to me. He says I have proven myself to be a worthy hunter, and that I now will receive the greatest honor he can bestow--to be his Prey. Hircine has also questioned me as to what the greatest strength of a hunter is: strength, speed, or guile. He says that I must choose one of these three.
-希尔辛出现了，并和我说了话。他说我已经证明了自己是一个值得尊敬的猎人，现在我将获得他所能给予的最大荣誉 -- 成为他的猎物。希尔辛还问我，猎人最大的优势是什么：力量、速度还是狡诈。他说我必须从这三者中选择一个。
+希尔辛出现了，并和我说了话。他说我已经证明了自己是一个值得尊敬的猎人，现在我将获得他所能给予的最大荣誉——成为他的猎物。希尔辛还问我，猎人最大的优势是什么：力量、速度还是狡诈。他说我必须从这三者中选择一个。
 
 > INFO.NAME bm_wildhunt 12123267882369613406
 I have chosen Strength as a hunter's greatest asset.
@@ -14370,7 +14370,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_delay 12245152474327786
 I found Mossanon in Sadrith Mora and confronted him about the embezzled funds. He admitted his crime, and offered to return 2500 gold -- he had spent the rest -- and pay back the rest as soon as he could, if I'd promise to keep his whereabouts secret from Canctunian Ponius. I took no immediate action, giving myself time to consider his offer.
-我在萨德里斯-莫拉找到了莫萨农，当面质问他被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还2500金币 -- 其余的他已经花掉了 -- 并且他会尽快归还其余的钱。我没有立即采取行动，给自己留出时间考虑他的提议。
+我在萨德里斯-莫拉找到了莫萨农，当面质问他被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还2500金币——其余的他已经花掉了——并且他会尽快归还其余的钱。我没有立即采取行动，给自己留出时间考虑他的提议。
 
 > INFO.NAME ic17_witch 3831305671804725992
 Imperial Cult: Thelsa Dral the Witch
@@ -14462,7 +14462,7 @@ The Patchwork Airship
 
 > INFO.NAME bm_airship 24571260932163020705
 I found the wreckage of a crashed airship, and read the journal of its captain.  It seems the crew had been commissioned to locate and explore Hrothmund's Barrow in search of some magic item.  Before they could set down, the airship got caught in a surprise snowstorm and crashed into the mountains.  I should get this journal to the man who sponsored the expedition -- Louis Beauchamp, at the Ald'ruhn Guild of Mages on Vvardenfell.
-我发现了一艘坠毁的飞艇残骸，并阅读了飞艇船长的日志。看来船员们受命去霍斯蒙德之冢寻找和探索某种魔法物品。他们还没来得及降落，飞艇就遭遇了一场突如其来的暴风雪，坠入了山中。我应该把这本日志交给赞助这次探险的人 -- 瓦登费尔的奥德'汝因法师公会的路易斯·波尚。
+我发现了一艘坠毁的飞艇残骸，并阅读了飞艇船长的日志。看来船员们受命去霍斯蒙德之冢寻找和探索某种魔法物品。他们还没来得及降落，飞艇就遭遇了一场突如其来的暴风雪，坠入了山中。我应该把这本日志交给赞助这次探险的人——瓦登费尔的奥德'汝因法师公会的路易斯·波尚。
 
 > INFO.NAME bm_airship 11803288292247720633
 I met Louis Beauchamp outside the Ald'ruhn Mage's Guild.  Apparently, he used magicka and some patched-together Dwemer technology to make his own airship, and then commissioned a crew to fly north to the frozen isle of Solstheim in search of a powerful magic item.
@@ -14478,7 +14478,7 @@ I turned down Louis Beauchamp's offer to discover what happened to his airship a
 
 > INFO.NAME bm_airship 25003594325061762
 I agreed to help Louis Beauchamp discover what happened to his airship, and recover the Amulet of Infectious Charm.  The crew was to fly to Solstheim and search a barrow located at the eye of a wolf-shaped formation called Hrothmund's Bane, which is only visible from the air.  In order to gain entrance to the barrow, one must utter the name of the wolf that killed Hrothmund -- "Ondjage."  If the wrong name is spoken, the crypt will be sealed forever.
-我同意帮助路易斯·波尚查明他的飞艇发生了什么事，并找回护符。船员们将飞往索瑟泰姆，搜索位于一个名为霍斯蒙德之灾的狼形阵眼处的荒冢，只有从空中才能看到这个荒冢。要进入荒冢，必须说出杀死霍斯蒙德的狼的名字 --“昂贾格”。如果说错了名字，墓穴就会被永远封印。
+我同意帮助路易斯·波尚查明他的飞艇发生了什么事，并找回护符。船员们将飞往索瑟泰姆，搜索位于一个名为霍斯蒙德之灾的狼形阵眼处的荒冢，只有从空中才能看到这个荒冢。要进入荒冢，必须说出杀死霍斯蒙德的狼的名字——“昂贾格”。如果说错了名字，墓穴就会被永远封印。
 
 > INFO.NAME bm_airship 2405916115238219632
 I found the wreckage of the crashed airship, and read the journal of its captain.  It seems the crew had located Hrothmund's Barrow, but before they could set down, the airship got caught in a surprise snowstorm and crashed into the mountains.  I need to get the captain's journal back to Louis Beauchamp, outside the Ald'ruhn Guild of Mages on Vvardenfell.  It will prove to him what happened to the airship and its crew.
@@ -14486,7 +14486,7 @@ I found the wreckage of the crashed airship, and read the journal of its captain
 
 > INFO.NAME bm_airship 1756412821777132573
 Louis Beauchamp was glad I was able to discover what happened to his airship, and has rewarded me accordingly.  He also wants me to recover the Amulet of Infectious Charm from Hrothmund's Barrow.  In order to gain entrance to the barrow I need to utter the name of the wolf that killed Hrothmund -- "Ondjage."  If I say the wrong name, the crypt will be sealed forever.
-路易斯·波尚很高兴我能发现他的飞艇发生了什么事，并因为找回护符给了我相应的奖励。他还希望我从霍斯蒙德之冢中找回传染咒符护身符。为了进入霍斯蒙德之冢，我需要说出杀死霍斯蒙德的狼的名字 --“昂贾格”。如果我说错了名字，墓穴就会被永远封印。 {报酬}
+路易斯·波尚很高兴我能发现他的飞艇发生了什么事，并因为找回护符给了我相应的奖励。他还希望我从霍斯蒙德之冢中找回传染咒符护身符。为了进入霍斯蒙德之冢，我需要说出杀死霍斯蒙德的狼的名字——“昂贾格”。如果我说错了名字，墓穴就会被永远封印。 {报酬}
 
 > INFO.NAME bm_airship 124671337617303422
 Louis Beauchamp was glad I was able to discover what happened to his airship, and has rewarded me accordingly.
@@ -14870,7 +14870,7 @@ I met one of Raven Rock colony's new arrivals, an Altmer noble named Athellor.  
 
 > INFO.NAME bm_falmer 2744612169484732313
 Athellor is convinced the Falmer were actual Elves, much like himself.  He believes they intermingled with the other Elven races and ceased to exist as an identifiable culture.  Athellor must really be itching to share his story with someone -- the more I listen, the more drinks he buys me....
-阿瑟罗坚信伐莫是真正的精灵，就像他自己一样。他认为他们与其他精灵种族混杂在一起，不再作为一种可识别的文化存在。阿瑟罗一定很想和别人分享他的故事 -- 我听得越多，他请我喝的酒就越多……
+阿瑟罗坚信伐莫是真正的精灵，就像他自己一样。他认为他们与其他精灵种族混杂在一起，不再作为一种可识别的文化存在。阿瑟罗一定很想和别人分享他的故事——我听得越多，他请我喝的酒就越多……
 
 > INFO.NAME bm_falmer 51002920850123312
 Athellor told me he's on a journey of self-discovery, and believes he has some Falmer blood in his veins.  He's hoping to hire an adventurer to help with some of the more physically demanding work.  I think I know where this conversation is going....
@@ -14886,7 +14886,7 @@ I've agreed to help Athellor in his quest to find some evidence of the Falmer's 
 
 > INFO.NAME bm_falmer 19810142141839813509
 I made an interesting find in the Jolgeirr Barrow - an ancient tome titled "Fall of the Snow Prince."  It chronicles the death of a skilled warrior in the Battle of the Moesring.  Of particular interest is the description of the Snow Prince.  He was no Nord, and definitely no Riekling.  I'd better get the book to Athellor and see what he can make of it.
-我在约尔盖尔古冢发现了一个有趣的东西 -- 一本名为《雪王子的陨落》的古籍。书中记载了一位技艺高超的战士在摩斯林战役中的死因。其中对雪王子的描述尤其引人关注。他不是诺德人，更不是蓝客灵。我最好把这本书拿给阿瑟罗，看看他能做出什么结论。
+我在约尔盖尔古冢发现了一个有趣的东西——一本名为《雪王子的陨落》的古籍。书中记载了一位技艺高超的战士在摩斯林战役中的死因。其中对雪王子的描述尤其引人关注。他不是诺德人，更不是蓝客灵。我最好把这本书拿给阿瑟罗，看看他能做出什么结论。
 
 > INFO.NAME bm_falmer 30751120132903932323
 I presented Athellor with the book "Fall of the Snow Prince," and he's convinced it gives an account of an actual Falmer warrior.  Athellor is satisfied I've investigated the matter fully, and has given me 800 gold for my troubles.
@@ -14954,7 +14954,7 @@ The Skaal Test of Strength
 
 > INFO.NAME bm_draugr 17384185671932510007
 Having completed a test of wisdom for Tharsten Heart-Fang of the Skaal, I am now to complete a third test--a test of strength.
-在完成了斯卡尔人塔斯滕·心牙的智慧考验后，我现在要完成第三个考验 -- 力量考验。
+在完成了斯卡尔人塔斯滕·心牙的智慧考验后，我现在要完成第三个考验——力量考验。
 
 > INFO.NAME bm_draugr 2916823553148989909
 Heart-Fang would like me to travel to Lake Fjalding and speak with Korst Wind-Eye. Wind-Eye will tell me more about what I am required to do. I should be able to find him on the northern shore of the lake.
@@ -15130,7 +15130,7 @@ I have spoken with Azura, Queen of the Night Sky, at her shrine. She has tasked 
 
 > INFO.NAME da_azura 564729806158762256
 I returned to the Shrine of Azura to let it be known I have cleared the island of the daedra there and returned with proof that Sheogorath was behind the problems. Azura was grateful, and rewarded me with her Star, a magical soul gem of immense power.
-我回到阿祖拉祭坛，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰 -- 一颗威力无穷的神奇灵魂石 -- 赏赐给了我。 {报酬}
+我回到阿祖拉祭坛，让阿祖拉知道我已经清除了岛上的迪德拉，并带着谢尔格拉斯是幕后黑手的证据回来了。阿祖拉非常感激，并将她的星辰——一颗威力无穷的神奇灵魂石——赏赐给了我。 {报酬}
 
 > INFO.NAME da_azura 2266052442035519898
 I returned to the Shrine of Azura. She was not pleased that I had disturbed the solace of Rayna Drolan, for she now must forfeit the wager.
@@ -15178,7 +15178,7 @@ I told Synnolian Tunifus I would not be able to bring him the five units of muck
 
 > INFO.NAME ic2_muck 634711112268428418
 I delivered five units of muck to Synnolian Tunifus. He gave me a cure common disease potion, a retort, and a copy of 'The Alchemists Formulary' -- a collection of popular alchemical recipes -- as a reward.
-我给辛诺里安·图尼夫斯送去了五份淤泥。他给了我一瓶治愈常见疾病的药水、一个曲颈瓶和一本《炼金术士配方》-- 一本流行的炼金配方集 -- 作为报酬。
+我给辛诺里安·图尼夫斯送去了五份淤泥。他给了我一瓶治愈常见疾病的药水、一个曲颈瓶和一本《炼金术士配方》——一本流行的炼金配方集——作为报酬。
 
 > INFO.NAME ic10_yak 20297315342577031900
 Imperial Cult: Buckmoth Alms
@@ -15334,7 +15334,7 @@ The Ritual of Trees
 
 > INFO.NAME bm_trees 709210091969627400
 As I approached the Tree Stone, I saw magical writing appear on its surface. They read: "The First Trees are gone. Travel east and find the one who has stolen the Seeds. Beware--he who has the seeds, controls the trees. Plant the First anew." Then, the writing disappeared.
-当我走近树石时，我看到树石表面出现了神奇的文字。上面写道“第一批树木已经消失。向东旅行，找到偷走种子的人。小心 -- 谁拥有种子，谁就能控制树木。重新种下最初之树”然后，文字消失了。 {令状,计划}
+当我走近树石时，我看到树石表面出现了神奇的文字。上面写道“第一批树木已经消失。向东旅行，找到偷走种子的人。小心——谁拥有种子，谁就能控制树木。重新种下最初之树”然后，文字消失了。 {令状,计划}
 
 > INFO.NAME bm_trees 2587519811651325923
 I've entered a clearing where there are a group of Spriggans surrounding a Riekling minion. The Spriggans seem to be in the Riekling's thrall, and look agressive.
@@ -15402,7 +15402,7 @@ Jeanne admonished me for attempting to enter her private quarters, and threatene
 
 > INFO.NAME eb_bone 23040299922935028126
 I have returned to Balen Andrano and collected my reward, a sleep amulet.
-我已回到巴伦·安德拉诺那儿，并领取了奖励 -- 沉睡护符。 {报酬}
+我已回到巴伦·安德拉诺那儿，并领取了奖励——沉睡护符。 {报酬}
 
 > INFO.NAME eb_bone 10816139411410918829
 I have returned to Balen Andrano, who was very disappointed in my failure.
@@ -16362,7 +16362,7 @@ You're in charge of the investigation now, %PCName. I suggest you stop wasting t
 
 > INFO.NAME moon sugar investigation 3606205341628112906
 Yes, I too was stricken with moon sugar euphoria.  It was just last week, after a Cult service.  I sat down to some wine, and moments later realized something was wrong.  I am a law-biding man, %PCName, and have never experienced anything so...free, in all my life!  The laughing, the dancing...it was horrible!  And then, as I drifted off, I saw him.  A strange man...old and frail -- certainly no Nord -- wearing a white Colovian fur helm.  But even stranger was his silly song.
-是的，我也被月亮糖的亢奋折磨过。就在上周的一次邪教仪式之后，我坐下来喝了点酒，过了一会儿就发现不对劲。我是一个遵纪守法的人，%PCName，在我的一生中从未经历过如此…自由的事情！笑声、舞蹈…太可怕了！然后，当我昏昏欲睡时，我看到了他。一个奇怪的人…又老又弱 -- 肯定不是诺德人 -- 戴着白色的科洛维亚毛皮头盔。但更奇怪的是他那首愚蠢歌谣。 {法律,陌生人}
+是的，我也被月亮糖的亢奋折磨过。就在上周的一次邪教仪式之后，我坐下来喝了点酒，过了一会儿就发现不对劲。我是一个遵纪守法的人，%PCName，在我的一生中从未经历过如此…自由的事情！笑声、舞蹈…太可怕了！然后，当我昏昏欲睡时，我看到了他。一个奇怪的人…又老又弱——肯定不是诺德人——戴着白色的科洛维亚毛皮头盔。但更奇怪的是他那首愚蠢歌谣。 {法律,陌生人}
 
 > INFO.NAME moon sugar investigation 17327213981927329143
 The matter has been resolved. The poisoner has been brought to justice, and the Imperial Legion has you to thank.
@@ -16610,7 +16610,7 @@ If your weapons and armor are in need of repair, speak with Snedbrir the Smith. 
 
 > INFO.NAME someone in particular 188334388243723073
 If you're looking for some new armor or weapons, check with Zeno Faustus. He's in the Armory, and can get most of what you need. If you're sick, use the shrine here to cure yourself--it's but a small donation that's needed.
-如果您想买新盔甲或武器，可以去找泽诺·福斯图斯。他就在军械库里，可以提供大部分你需要的东西。如果你生病了，可以用这里的圣祠治好自己的病 -- 只需要捐献一点钱。
+如果您想买新盔甲或武器，可以去找泽诺·福斯图斯。他就在军械库里，可以提供大部分你需要的东西。如果你生病了，可以用这里的圣祠治好自己的病——只需要捐献一点钱。
 
 > INFO.NAME someone in particular 187932051479261288
 If you're looking for some new armor or weapons, check with Zeno Faustus. He's here in the Armory, and can get most of what you need. If you're sick, head to the Imperial Cult Shrine.
@@ -17622,11 +17622,11 @@ Now that Geilir has lifted my curse, I feel like I can finally put the tragedy b
 
 > INFO.NAME thirsk, a history 209352511910714708
 I came to Thirsk all the way from Cyrodiil, by way of Vvardenfell.  My father once visited Solstheim, you see, and as a boy I was intrigued by his exciting stories of the Nords.  I was particularly fascinated with this very mead hall -- its residents and their adventures, things like that.  I arrived here over a year ago, and have been living among the Nords ever since.  I've been chronicling their lives, and recently collected enough data to complete my history of Thirsk.
-我从西罗帝尔一路来到瑟斯克，途经瓦登费尔。我父亲曾经去过索瑟泰姆，小时候我就被他讲的诺德人的故事所吸引。我对这个蜜酒馆尤其着迷 -- 这里的居民和他们的冒险经历，诸如此类。我一年多前来到这里，一直和诺德人生活在一起，我一直在记录他们的生活，最近收集到的资料足以完成我的《瑟斯克，一段历史》。
+我从西罗帝尔一路来到瑟斯克，途经瓦登费尔。我父亲曾经去过索瑟泰姆，小时候我就被他讲的诺德人的故事所吸引。我对这个蜜酒馆尤其着迷——这里的居民和他们的冒险经历，诸如此类。我一年多前来到这里，一直和诺德人生活在一起，我一直在记录他们的生活，最近收集到的资料足以完成我的《瑟斯克，一段历史》。
 
 > INFO.NAME thirsk, a history 19041152021345225436
 I came to Thirsk all the way from Cyrodiil, by way of Vvardenfell.  My father once visited Solstheim, you see, and as a boy I was intrigued by his exciting stories of the Nords.  I was particularly fascinated with this very mead hall -- its residents and their adventures, things like that.  I arrived here over a year ago, and have been living among the Nords ever since.  I've been chronicling their lives, and recently collected enough data to complete my history of Thirsk.
-我从西罗帝尔一路来到瑟斯克，途经瓦登费尔。我父亲曾经去过索瑟泰姆，小时候我就被他讲的诺德人的故事所吸引。我对这个蜜酒馆尤其着迷 -- 这里的居民和他们的冒险经历，诸如此类。我一年多前来到这里，一直和诺德人生活在一起，我一直在记录他们的生活，最近收集到的资料足以完成我的《瑟斯克，一段历史》。
+我从西罗帝尔一路来到瑟斯克，途经瓦登费尔。我父亲曾经去过索瑟泰姆，小时候我就被他讲的诺德人的故事所吸引。我对这个蜜酒馆尤其着迷——这里的居民和他们的冒险经历，诸如此类。我一年多前来到这里，一直和诺德人生活在一起，我一直在记录他们的生活，最近收集到的资料足以完成我的《瑟斯克，一段历史》。
 
 > INFO.NAME stock certificate 15809103031786529451
 Only current employees can receive stock benefits. That description doesn't apply to you.
@@ -17970,11 +17970,11 @@ I heard Nuncius is dead. That's not going to sit well with the officers.
 
 > INFO.NAME antonius nuncius 3125208702376328995
 I've got nothing more to say about him. Go talk to him if you want. Or wait for him in his office--it's upstairs.
-我对他没什么好说的了，你可以去找他谈谈，或者去他办公室等他 -- 就在楼上。
+我对他没什么好说的了，你可以去找他谈谈，或者去他办公室等他——就在楼上。
 
 > INFO.NAME antonius nuncius 7347102023202032633
 I've got nothing more to say about him. Go talk to him if you want. Or wait for him in his office--it's in the Armory.
-我对他没什么好说的了，你可以去找他谈谈，或者去他办公室等他 -- 就在军械库里。
+我对他没什么好说的了，你可以去找他谈谈，或者去他办公室等他——就在军械库里。
 
 > INFO.NAME antonius nuncius 1546783332767126382
 The priest? He's not bad, I guess, for a priest. You'll find him at the Imperial Cult Shrine here at the fort, though he keeps an office upstairs here. Could be in either place. Seems to understand us soldiers pretty well. He was telling me just the other day how it seemed unfair that the Captain had cut us off from the drink. He figures that's one of our few pleasures on this dungheap of an island.
@@ -18090,7 +18090,7 @@ Afraid not, Athellor.  I've got more important matters to attend to.
 
 > INFO.NAME hire an explorer 109292383113818899
 I've already hired an explorer -- you.  Now please get going.  I'm anxious to know what evidence you might find.
-我已经雇了一个探险家 -- 就是你，现在请出发吧。我很想知道你能找到什么证据。
+我已经雇了一个探险家——就是你，现在请出发吧。我很想知道你能找到什么证据。
 
 > INFO.NAME verdict is yours 1120918765240257898
 That matter has been settled.
@@ -19484,7 +19484,7 @@ Oddfrid White-Lip is with me once again, thanks to you, %PCName.
 
 > INFO.NAME stalhrim armor 274556851054532118
 Before we go any further, I want to make it clear to you that there's a finite amount of Stalhrim on this island. If you find enough of it, you'll be rewarded enough to certainly cover a full set of armor. I'm not going to keep track of what you've been given and what you haven't - it's your problem if you wind up with ten pairs of boots. Now that we've gotten that out of the way, we can discuss what Stalhrim armor you want as a reward for your hard work.
-在我们继续之前，我想跟你说清楚，这座岛上的魔冰数量有限。如果你找到足够多的斯大林石，你将会得到足够的奖励来购买一整套盔甲。我不会记录你们得到了什么和没有得到什么 -- 如果你们最后得到了十双靴子，那是你们的问题。既然我们已经解决了这个问题，我们就可以讨论一下你想要什么魔冰盔甲作为对你辛勤工作的奖励了。 {报酬}
+在我们继续之前，我想跟你说清楚，这座岛上的魔冰数量有限。如果你找到足够多的斯大林石，你将会得到足够的奖励来购买一整套盔甲。我不会记录你们得到了什么和没有得到什么——如果你们最后得到了十双靴子，那是你们的问题。既然我们已经解决了这个问题，我们就可以讨论一下你想要什么魔冰盔甲作为对你辛勤工作的奖励了。 {报酬}
 
 > INFO.NAME stalhrim armor 2262212750238019703
 Very well. Here you go.
@@ -20556,7 +20556,7 @@ You have lived too long with this disease, outlander. Though I no longer sense i
 
 > INFO.NAME been infected 18268146551167123180
 Ahhhh...I no longer sense the infection in you. I am happy for you, and for the Skaal as well. You have proven to be a valuable member of this community. You have been true to our people, and the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest. Also, it has been decided that you will take part in the Ristaag, an important Skaal ceremony.
-啊…我再也感觉不到你被感染了。我为你感到高兴，也为斯卡尔感到高兴。事实证明，你是这个族群的宝贵成员。你对我们的人民忠心耿耿，斯卡尔人称你为布洛斯卡尔，是我们人民的血友。你可以住在里格莫尔·半手的老房子休息。此外，我们还决定让你参加斯卡尔人的一个重要仪式 -- 净祝狩仪。
+啊…我再也感觉不到你被感染了。我为你感到高兴，也为斯卡尔感到高兴。事实证明，你是这个族群的宝贵成员。你对我们的人民忠心耿耿，斯卡尔人称你为布洛斯卡尔，是我们人民的血友。你可以住在里格莫尔·半手的老房子休息。此外，我们还决定让你参加斯卡尔人的一个重要仪式——净祝狩仪。
 
 > INFO.NAME been infected 1583410352208904563
 Please, my friend. Cure this disease. We of the Skaal wish you only good things.
@@ -20564,7 +20564,7 @@ Please, my friend. Cure this disease. We of the Skaal wish you only good things.
 
 > INFO.NAME been infected 291323299290264726
 In three days' time, the victim will become a werewolf himself. During these three days, though, a simple Cure Disease spell can stop the infection. Wait...you have rid yourself of the infection. Thank the All-Maker! You have been true to our people, and the Skaal name you Blodskaal, a blood friend to our people. You will be given a home here, Rigmor Halfhand's former residence, in which you may rest. Also, it has been decided that you will take part in the Ristaag, an important Skaal ceremony.
-三天后，受害者将变成狼人。不过在这三天里，一个简单的治愈疾病咒语就能阻止感染。等等…你已经摆脱了感染。感谢造物主，你对我们的人民忠心耿耿。斯卡尔人称你为布洛斯卡尔，我们人民的血脉之友。你将在里格莫尔·半手的故居安息。此外，我们还决定让你参加斯卡尔人的重要仪式 -- 净祝狩仪。
+三天后，受害者将变成狼人。不过在这三天里，一个简单的治愈疾病咒语就能阻止感染。等等…你已经摆脱了感染。感谢造物主，你对我们的人民忠心耿耿。斯卡尔人称你为布洛斯卡尔，我们人民的血脉之友。你将在里格莫尔·半手的故居安息。此外，我们还决定让你参加斯卡尔人的重要仪式——净祝狩仪。
 
 > INFO.NAME been infected 605190083225324351
 The infection seems innocent enough. Some weakness, perhaps. Sometimes the effects are hardly noticeable. However, in three days' time, the victim will become a werewolf himself. It is a fate I would not wish upon my greatest foe. During these three days, though, a simple Cure Disease spell can stop the infection. I beg you to do this. Until then, I fear I cannot allow you to be a part of our community, perhaps infecting others. When you have been cured, I hope you will return to us again.
@@ -20636,7 +20636,7 @@ It remains to be seen what the Game shall be. As always, it follows the Hunter's
 
 > INFO.NAME hunter's game 31176214381428924498
 According to legend, it varies from era to era. Our Grandfathers' Grandfathers tell of a time when the Hunter and his Hounds preyed upon entire tribes of men. Taken to the Hunting Grounds, the men were hunted by the Hounds. The ones that died were the lucky--the survivors faced the Hunter himself. In another era, the Hunter took only a single man as his Prey. It is said if the Prey can last through the Bloodmoon, the Hunter returns to his demon realm for another era. We have only to await the Hunter's plan.
-根据传说，不同的时代会有不同的情况，我们的祖先的祖先曾说过，猎人和他的猎犬曾猎杀过整个部落的人，这些人被带到狩猎场，被猎狗猎杀。死掉的人是幸运儿 -- 幸存者要面对猎人本人。在另一个时代，猎人只捕捉一个人作为猎物。据说，如果猎物能坚持到血月，猎人就会回到他的魔鬼领域，度过另一个时代。我们只能等待猎人的计划了。
+根据传说，不同的时代会有不同的情况，我们的祖先的祖先曾说过，猎人和他的猎犬曾猎杀过整个部落的人，这些人被带到狩猎场，被猎狗猎杀。死掉的人是幸运儿——幸存者要面对猎人本人。在另一个时代，猎人只捕捉一个人作为猎物。据说，如果猎物能坚持到血月，猎人就会回到他的魔鬼领域，度过另一个时代。我们只能等待猎人的计划了。
 
 > INFO.NAME hunter's plan 29538163692531722502
 We must wait and see. I only pray to the All-Maker that we are not all a part of this plan.
@@ -20808,7 +20808,7 @@ My candy treats are tasty, they are!  And filled with special sugar and love!  T
 
 > INFO.NAME brodir grove 1302623000259477530
 Brodir Grove is where Grimkell ambushed us.  My friends were turned to stone on that very spot, and there they remain, a monument of betrayal.  I too was caught in the spell, but thought I had been spared its effects.  I was wrong.  Instead of killing me, like it did my friends, Grimkell's magicka turned me into living stone.  You see, these events did take place -- five hundred years ago.  I have remained here ever since.  And here I will stay, until I finally find the entrance to Sovngarde.
-泊地尔石阵是格里姆凯尔伏击我们的地方。我的朋友们就在那个地方被变成了石头，他们就留在那里，成为了背叛的纪念碑。我也中了咒语，但我以为自己没有受到影响。我错了，格力姆凯尔的魔力没有杀死我，反而把我变成了活石。你看，这些事情确实发生了 -- 五百年前。从那时起我就一直待在这里，我会一直待在这里，直到我找到松加德的入口。 {树林}
+泊地尔石阵是格里姆凯尔伏击我们的地方。我的朋友们就在那个地方被变成了石头，他们就留在那里，成为了背叛的纪念碑。我也中了咒语，但我以为自己没有受到影响。我错了，格力姆凯尔的魔力没有杀死我，反而把我变成了活石。你看，这些事情确实发生了——五百年前。从那时起我就一直待在这里，我会一直待在这里，直到我找到松加德的入口。 {树林}
 
 > INFO.NAME assassinated 2350524040492646
 Well, you certainly blew it, didn't you?
@@ -21356,7 +21356,7 @@ Follow me.
 
 > INFO.NAME ready to go 2532031899315718403
 All right then. We all voted, and decided that you get to take the lead. None of us are particularly fond of the woods - I'm not saying we're cowards, mind you - and we felt that you'd be better off leading the way. I can at least mark the spot on your map, so you know which way to head. Lead on!
-那好吧，我们投票决定由你带头。我们都不太喜欢树林 - 我不是说我们胆小 - 我们觉得你带路会更好。我至少可以在你的地图上做个记号，这样你就知道该往哪走了。带路吧！
+那好吧，我们投票决定由你带头。我们都不太喜欢树林——我不是说我们胆小——我们觉得你带路会更好。我至少可以在你的地图上做个记号，这样你就知道该往哪走了。带路吧！
 
 > INFO.NAME ready to go 32643126451689331446
 Well, hurry it up. We can't stay here forever, else we'll get Carnius mad. Trust me, you don't want to see him when he's mad.
@@ -21440,7 +21440,7 @@ Wait here.
 
 > INFO.NAME go with you 315296961007521657
 Oh, thank you! There isn't even any food left to survive on - most of the supplies are gone... Well, I guess you should just take me to whomever your boss is. I mean, I hope you're not offended that I'm assuming that you're not the boss; it's just that people that tend to be bosses of things don't usually wander around the countryside looking for people to help. They send other people out to do those sort of things, don't they? Hey, how come we're not going anywhere yet?
-哦，谢谢你！这里甚至连食物都没有了 - 大部分补给品都没了…我想你应该带我去见你的老板。我的意思是，我希望你不会因为我认为你不是老板而生气；只是，通常当老板的人不会在郊外到处游荡，找人帮忙。他们会派其他人去做这些事，不是吗？嘿，我们怎么还没出发呢？
+哦，谢谢你！这里甚至连食物都没有了——大部分补给品都没了……我想你应该带我去见你的老板。我的意思是，我希望你不会因为我认为你不是老板而生气；只是，通常当老板的人不会在郊外到处游荡，找人帮忙。他们会派其他人去做这些事，不是吗？嘿，我们怎么还没出发呢？
 
 > INFO.NAME go with you 2932959192816324968
 What? You must be joking. You're seriously going to leave me out here? But I'll die!
@@ -21468,7 +21468,7 @@ I've said all I have to say on the subject, %PCRank. I suggest you leave.
 
 > INFO.NAME explanation 1528423784974317322
 You're going to accuse me of being involved in this? Ha ha! So be it. But I warn you - be very careful with how you handle this, %PCRank. It'll be my word against the word of a thief. Whom do you think will be believed?
-你要指控我参与其中？哈哈！那就这样吧。但我警告你 - %PCRank，在处理这件事时一定要小心谨慎。这将是我和一个小偷的对决。你觉得谁会被相信？
+你要指控我参与其中？哈哈！那就这样吧。但我警告你——%PCRank，在处理这件事时一定要小心谨慎。这将是我和一个小偷的对决。你觉得谁会被相信？
 
 > INFO.NAME explanation 244749112240011341
 I'm telling you, Carnius made me do it! Go ask him, if you don't believe me!
@@ -21476,7 +21476,7 @@ I'm telling you, Carnius made me do it! Go ask him, if you don't believe me!
 
 > INFO.NAME explanation 822111198127059714
 Yes, yes! You see, I... well, I was... okay, fine. You caught me. But I swear, I didn't want to do this! Carnius put me up to it - he said he'd kill me if I didn't steal as much ore as I could!
-是的，是的！你看，我…好吧，我是…好吧，好吧。你抓到我了，但我发誓，我不想这么做的！卡尼乌斯让我这么做的 - 他说如果我不尽可能多地偷矿石，他就杀了我！
+是的，是的！你看，我…好吧，我是…好吧，好吧。你抓到我了，但我发誓，我不想这么做的！卡尼乌斯让我这么做的——他说如果我不尽可能多地偷矿石，他就杀了我！
 
 > INFO.NAME snow wolves 2804023943275593227
 The snow wolves are larger, more elusive cousins of Solstheim's common wolves. They have a thick coat that protects them from the frost and cold. You can find snow wolves in and around the Moesring Mountains. Legend has it they're the descendents of Ondjage, the Fell Wolf that devoured Hrothmund the Red. It is said their attacks have been known to freeze human flesh, so be careful if you encounter one!
@@ -21616,7 +21616,7 @@ All hail the new sheeftain of Thirshk! *burp!* Becaushe of you, the mead hall is
 
 > INFO.NAME greeting 1 163424400799473
 So, you travel the wilds of Solstheim, just as I do? Here's a word of advice from one wanderer to another -- keep your eyes open and your wits about you. There's more than bears and wolves roaming about this island. If you find yourself face to face with the berserkers or fryse hags, sheathe your blade and get to running! If you need shelter, my kinsfolk at Thirsk will gladly take you in.
-你也像我一样在索瑟泰姆的荒野中旅行吗？这里有一个流浪者给另一个流浪者的忠告 -- 睁大你的眼睛，保持你的智慧。在这座岛上游荡的可不仅仅是熊和狼。如果你发现自己与狂战士或冰霜女巫面对面，就收刀入鞘，快跑吧！如果你需要庇护，我在瑟斯克的亲人们会很乐意收留你的。
+你也像我一样在索瑟泰姆的荒野中旅行吗？这里有一个流浪者给另一个流浪者的忠告——睁大你的眼睛，保持你的智慧。在这座岛上游荡的可不仅仅是熊和狼。如果你发现自己与狂战士或冰霜女巫面对面，就收刀入鞘，快跑吧！如果你需要庇护，我在瑟斯克的亲人们会很乐意收留你的。
 
 > INFO.NAME greeting 1 188192166558639640
 Oh.  I see.  I thought I sensed honor in you, %PCName.  It is why I offered you this chance at glory.  Perhaps I was wrong about you....  If you have a change of heart, return to me and we will fight valiantly to the death.  And don't worry. I'm not going to ambush you.  In order to enter Sovngarde I must die in valiant combat.  I will not lower myself to cowardice and deceit as Grimkell did.  Now leave me, %PCName.  I have much to consider.
@@ -21768,7 +21768,7 @@ Ha ha!  What's this?  Why it's little %PCName, come to pay Uncle Sweetshare a vi
 
 > INFO.NAME greeting 1 4801226782722811515
 %PCName!  You did it!  By helping me die valiantly you showed my soul the way to Sovngarde!  My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me.  I told them of your willingness to help me, and recounted our glorious battle!  The four of us wish to give you a reward fitting of such a warrior.  So, we give you a piece of ourselves.  Lay your hands on a stone, and you will receive that warrior's greatest attribute!  Now farewell, my friend!  Sovngarde awaits!
-%PCName！你做到了！你帮我英勇赴死，为我的灵魂指明了通往松加德的道路！我的朋友们 -- 亨鲁尔、埃伦德尔和尼库拉斯 -- 一直在等我。我告诉他们你愿意帮助我，并讲述了我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德等着呢！ {报酬}
+%PCName！你做到了！你帮我英勇赴死，为我的灵魂指明了通往松加德的道路！我的朋友们——亨鲁尔、埃伦德尔和尼库拉斯——一直在等我。我告诉他们你愿意帮助我，并讲述了我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德等着呢！ {报酬}
 
 > INFO.NAME greeting 1 1658620670271717558
 Hello, stranger. I don't see many sightseers out here. The cold and horkers drive most people away. Me, I just come here to watch the sea. I used to be a ship captain, you know. But that was before...before that night at sea.
@@ -21784,7 +21784,7 @@ I'm sorry, but I'm not in the mood for visitors right now.  Just look at this me
 
 > INFO.NAME greeting 1 20888149043190219153
 %PCClass, you've returned!  And you've found Oddfrid!  Yes, I know...Oddfrid is a skull.  She was a skull when I first found her, but she does talk to me.  I hear her voice inside my head.  I would have told you the truth, but I didn't want you to think I was crazy.  So tell me, %PCName -- do you want me to tell your future?  Or perhaps I should first remove Thormoor's curse of eternal wakefulness?
-%PCClass，你回来了！你找到了奥德弗里德！是的，我知道…奥德弗里德是个骷髅。我第一次发现她的时候她还是个骷髅头，但她能跟我说话，我听到她的声音在我脑海里，我本想告诉你真相，但我不想让你觉得我疯了，告诉我，%PCName -- 你想让给你算命吗？或者我应该先解除托尔穆尔的永不安寝诅咒？ {谈}
+%PCClass，你回来了！你找到了奥德弗里德！是的，我知道…奥德弗里德是个骷髅。我第一次发现她的时候她还是个骷髅头，但她能跟我说话，我听到她的声音在我脑海里，我本想告诉你真相，但我不想让你觉得我疯了，告诉我，%PCName——你想让给你算命吗？或者我应该先解除托尔穆尔的永不安寝诅咒？ {谈}
 
 > INFO.NAME greeting 1 122091097725907012
 So, Kolfinna is seeking wergild for the death of her husband, eh?  Never!  Pinetear has been in my family for generations and will be for generations to come.  Besides, Gustav got what he had coming.
@@ -21812,7 +21812,7 @@ Please, %PCName, let me go and rest. Meet me at Thirsk and I will give you your 
 
 > INFO.NAME greeting 1 2467914181324123642
 %PCName! I've had some time to rest, and am ready to grant your reward. As a sea captain, I discovered many hidden places, one of which is an ancient barrow called Gyldenhul. It lies on a small island off the northeast coast of Solstheim, not too far from here, actually. The barrow is loaded with riches, and I want you to have it all. Take this key -- the door is heavily locked. Oh, and I'll mark the dungeon on your map. Now, I must get back to sleep.  Thanks again!
-%PCName！我已经休息了一段时间，可以给你奖赏了。作为一名船长，我发现了许多隐秘的地方，其中之一就是一座名为吉尔登胡尔的古坟。它位于索瑟泰姆东北海岸的一个小岛上，其实离这里并不太远。荒冢里有很多财富，我希望你能全部拥有。拿着这把钥匙 - 门锁得很紧，哦，我会在你的地图上标出地牢的位置。现在，我得回去睡觉了，再次感谢！ {报酬}
+%PCName！我已经休息了一段时间，可以给你奖赏了。作为一名船长，我发现了许多隐秘的地方，其中之一就是一座名为吉尔登胡尔的古坟。它位于索瑟泰姆东北海岸的一个小岛上，其实离这里并不太远。荒冢里有很多财富，我希望你能全部拥有。拿着这把钥匙——门锁得很紧，哦，我会在你的地图上标出地牢的位置。现在，我得回去睡觉了，再次感谢！ {报酬}
 
 > INFO.BNAM greeting 1 2467914181324123642 m1
 Thormoor has marked Glydenhul on your map.
@@ -21824,7 +21824,7 @@ Hello, my friend. *Yawn!*  I hope you're doing well. If you haven't already, mak
 
 > INFO.NAME greeting 1 658515013115730357
 %PCClass, you've returned!  And you've found Oddfrid!  Yes, I know...Oddfrid is a skull.  She was a skull when I first found her, but she does talk to me.  I hear her voice inside my head.  I would have told you the truth, but I didn't want you to think I was crazy.  So tell me, %PCName -- do you want me to tell your future?
-%PCClass，你回来了！你还找到了奥德弗里德？是的，我知道…奥德弗里德是个骷髅。我第一次发现她的时候她还是个骷髅，但她能跟我说话，我听到她的声音在我脑海里。我本想告诉你真相，但我不想让你觉得我疯了。那么告诉我，%PCName -- 你想让我给你算命吗？ {谈}
+%PCClass，你回来了！你还找到了奥德弗里德？是的，我知道…奥德弗里德是个骷髅。我第一次发现她的时候她还是个骷髅，但她能跟我说话，我听到她的声音在我脑海里。我本想告诉你真相，但我不想让你觉得我疯了。那么告诉我，%PCName——你想让我给你算命吗？ {谈}
 
 > INFO.NAME greeting 1 15195462297632652
 Hello again, %PCClass.  It seems we still have some unfinished business.  If I'm not mistaken, there's something you want from me.
@@ -21852,7 +21852,7 @@ He...he came to the mead hall and killed...killed everyone he could!  There was 
 
 > INFO.NAME greeting 1 17737234017289989
 My goodness, is everything all right downstairs? I heard screaming, and the sounds of battle!  I would have gone down to investigate, but I'm much more of an observer than a participant, if you get my meaning.  I'm a bookseller by trade, but my real passion is writing.  The Solstheim Nords are my area of expertise, you might say. I recently finished two scholarly works -- Thirsk, a History and Sovngarde, a Reexamination.  I have copies of both for sale, among others.
-天哪，楼下没事吧？我听到了尖叫声和战斗声！我本想下去看看，但我更像是个旁观者，而不是参与者，如果你明白我的意思的话。我是个书商，但我真正的爱好是写作。可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作 --《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售，其它的也有。 {令状,工作}
+天哪，楼下没事吧？我听到了尖叫声和战斗声！我本想下去看看，但我更像是个旁观者，而不是参与者，如果你明白我的意思的话。我是个书商，但我真正的爱好是写作。可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作——《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售，其它的也有。 {令状,工作}
 
 > INFO.NAME greeting 1 364625860607322551
 Hello, my friend. *Yawn!*  I hope you're doing well. If you haven't already, make sure you go to Gyldenhul and collect its riches. Me, I'm going to get some more sleep. I'll try, anyway. Not easy with all the screaming and banging going on downstairs! My kinsfolk do love their ale!
@@ -21884,7 +21884,7 @@ You have pledged to slay the Udyrfrykte, %PCClass. Search the creature's lair on
 
 > INFO.NAME greeting 1 71382752095631387
 %PCName!  I've had some time to rest, and am ready to grant your reward. As a sea captain, I discovered many hidden places, one of which is a magnificent ice dungeon called Gyldenhul. It lies on a small island off the northeast coast of Solstheim, not too far from here, actually. The dungeon is loaded with riches, and I want you to have it all. Take this key -- the door is heavily locked. Oh, and I'll mark the dungeon on your map. Now I must get back to sleep.  Thanks again!
-%PCName！我已经休息了一段时间，可以给你奖赏了。作为一名船长，我发现了许多隐秘的地方，其中之一就是一座宏伟的冰雪地宫，名叫吉尔丹赫。它位于索瑟泰姆东北海岸的一个小岛上，其实离这里并不太远。地牢里充满了财富，我希望你能拥有这一切。拿着这把钥匙 -- 门锁得很紧，哦，我会在你的地图上标出地牢。现在我得回去睡觉了，再次感谢！ {报酬}
+%PCName！我已经休息了一段时间，可以给你奖赏了。作为一名船长，我发现了许多隐秘的地方，其中之一就是一座宏伟的冰雪地宫，名叫吉尔丹赫。它位于索瑟泰姆东北海岸的一个小岛上，其实离这里并不太远。地牢里充满了财富，我希望你能拥有这一切。拿着这把钥匙——门锁得很紧，哦，我会在你的地图上标出地牢。现在我得回去睡觉了，再次感谢！ {报酬}
 
 > INFO.BNAM greeting 1 71382752095631387 m1
 Thormoor has marked Glydenhul on your map.
@@ -21892,7 +21892,7 @@ Thormoor has marked Glydenhul on your map.
 
 > INFO.NAME greeting 1 2206617259636225661
 My goodness, I feel so silly wearing this bear armor.  I know, I look quite ridiculous.  But at least it will keep me warm while I'm outside waiting for Thirsk to reopen.  I'm not a Nord, you see.  I'm a Breton.  I'm a bookseller by trade, but my real passion is writing.  The Solstheim Nords are my area of expertise, you might say. I recently finished two scholarly works -- Thirsk, a History and Sovngarde, a Reexamination.  I have copies of both for sale, among others.
-我的天啊，穿上这熊铠甲感觉好傻。我知道，我看起来很可笑，但至少在外面等瑟斯克重开的时候，它能给我保暖。你看，我不是诺德人，我是布莱顿人，我是个书商，但我真正的爱好是写作。你可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作 -- 《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售，其它的也有。 {令状,工作}
+我的天啊，穿上这熊铠甲感觉好傻。我知道，我看起来很可笑，但至少在外面等瑟斯克重开的时候，它能给我保暖。你看，我不是诺德人，我是布莱顿人，我是个书商，但我真正的爱好是写作。你可以说，索瑟泰姆诺德人是我的专业领域。我最近完成了两部学术著作——《瑟斯克，一段历史》和《再探松加德》。这两本书我都有出售，其它的也有。 {令状,工作}
 
 > INFO.NAME greeting 1 598329492382618646
 It was horrible, %PCName!  I had finally found someone interested in my custom snow bear armor and snow wolf armor.  We were talking about prices, when suddenly this hideous black beast came up from the ice lake.  It...it killed my customer!  Then it went inside the mead hall!  I heard screaming...sounds of battle!  Then the thing came out again, pierced with arrows!  It headed back toward the lake but first it came back for my customer and dragged off his body!
@@ -22160,7 +22160,7 @@ I know that Hrothmund has granted you his blessing, for I could feel it in the a
 
 > INFO.NAME greeting 1 1543117011493730448
 Ha!  Sorry, but you can't sneak up on me, %PCName!  I'm a ghost, thanks to you! By helping me die valiantly you showed my soul the way to Sovngarde!  My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me.  I told them of our glorious battle!  The four of us wish to give you a reward fitting of such a warrior.  So, we give you a piece of ourselves.  Lay your hands on a stone, and you will receive that warrior's greatest attribute!  Now farewell, my friend! Sovngarde awaits!
-哈！抱歉，你不能偷袭我，%PCName！多亏了你，我已经变成鬼了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们 -- 洪罗尔、埃伦德尔和尼库拉斯 -- 一直在等着我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德在等你！ {潜行,报酬}
+哈！抱歉，你不能偷袭我，%PCName！多亏了你，我已经变成鬼了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——洪罗尔、埃伦德尔和尼库拉斯——一直在等着我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德在等你！ {潜行,报酬}
 
 > INFO.NAME greeting 1 3187114073240217891
 %PCName!  I've had some time to rest, and am ready to grant your reward.  As a sea captain, I discovered many hidden places, one of which is an ancient barrow called Gyldenhul. It lies on a small island off the northeast coast of Solstheim, not too far from here, actually. The barrow is loaded with riches, and I want you to have it all. Take this key -- the door is heavily locked. Oh, and I'll mark the dungeon on your map. Now, I must get back to sleep.  Thanks again!
@@ -22184,7 +22184,7 @@ Ah, hello there, %PCClass.  My thanks again for your help.
 
 > INFO.NAME greeting 1 267486912570821701
 Ha!  That's the spirit, %PCName!  But as you see, I'm already dead!  By helping me die valiantly you showed my soul the way to Sovngarde!  My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me.  I told them of our glorious battle!  The four of us wish to give you a reward fitting of such a warrior.  So, we give you a piece of ourselves.  Lay your hands on a stone, and you will receive that warrior's greatest attribute!  Now farewell, my friend! Sovngarde awaits!
-哈！就是这种精神，%PCName！但如你所见，我已经死了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们 -- 洪罗尔、埃伦德尔和尼库拉斯 -- 一直在等我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友，松加德等着呢！ {报酬}
+哈！就是这种精神，%PCName！但如你所见，我已经死了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——洪罗尔、埃伦德尔和尼库拉斯——一直在等我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友，松加德等着呢！ {报酬}
 
 > INFO.NAME greeting 1 2496026593016923603
 Hello, %PCName.  I heard you've been speaking to Severia Gratius about the moon sugar investigation.  I'll do whatever I can to assist you, of course.
@@ -22228,7 +22228,7 @@ The airship...crashed?  Horrible...such a loss of time...and money!  Oh, yes...h
 
 > INFO.NAME greeting 1 895040931970927504
 Aha!  %PCName, my old friend!  Wonderful to *cough* see you again.  Did I ever tell you how magnificently you *cough* performed your duties?  Locating the airship, returning the *cough* amulet...simply marvelous.  Thanks to you, Louis Beauchamp is an *cough* absolute lady killer!  Blondes, brunettes, red heads -- I'll take 'em all...and they can't resist me!  Ha!  It's a shame I've got this *cough* fever.  It's starting to slow me down!  Well, got to run.  I've got a *cough* hot date!
-啊！%PCName，我的老朋友！很高兴 *咳！* 再次见到你。我有没有告诉过你，你是多么出色地 *咳！* 完成了职务？找到飞艇，归还护身符…真是了不起。多亏了你，路易斯·波尚绝对是个女人杀手！金发的、黑发的、红发的 -- 我都要…她们也无法抗拒我！哈！真遗憾我发烧了。开始拖累我了！我得走了。我有个 *咳！* 热辣的约会！
+啊！%PCName，我的老朋友！很高兴 *咳！* 再次见到你。我有没有告诉过你，你是多么出色地 *咳！* 完成了职务？找到飞艇，归还护身符…真是了不起。多亏了你，路易斯·波尚绝对是个女人杀手！金发的、黑发的、红发的——我都要…她们也无法抗拒我！哈！真遗憾我发烧了。开始拖累我了！我得走了。我有个 *咳！* 热辣的约会！
 
 > INFO.NAME greeting 1 267223209468811046
 %PCName!  You...you're here...and...well...I mean...you've returned!  Have you...that is...do you know...what has happened to my...my airship?
@@ -22340,7 +22340,7 @@ Ask your questions, but be quick, %PCClass. I'm a busy man.
 
 > INFO.NAME greeting 1 2245303675905637
 Well well, aren't you a pretty little pup.  What do you want?  Speak up, wench -- I'm a busy man!
-嗯嗯，你真是个漂亮的小姑娘，你想要什么？说吧，小姑娘 -- 我很忙的！ {忙着}
+嗯嗯，你真是个漂亮的小姑娘，你想要什么？说吧，小姑娘——我很忙的！ {忙着}
 
 > INFO.NAME greeting 1 4960173231317410358
 What do you want, twig?
@@ -22428,7 +22428,7 @@ You...you attacked the draugr! Bad enough I had you serve as a distraction, but 
 
 > INFO.NAME greeting 1 1122911765647629599
 By the gods, that was a good fight!  Did you see me? I was magnificent!  With the draugr dead, I am truly a man.  I've got to get back to the Skaal Village and tell my brothers the good news.  If you're ever in the village, come to my house and I shall greet you as a brother. Oh, and %PCName...I trust you'll keep this between the two of us.  I wish I could offer some kind of reward, but I have so little. I know -- I shall leave the draugr's treasure be.  It is yours, my friend. Take all you like!
-天啊，打得真好！你看到我了吗？我太厉害了！尸鬼死了，我才是真正的男人。我得回斯卡尔村，告诉我的兄弟们这个好消息。如果你在村子里，到我家来，我会像兄弟一样迎接你。对了，%PCName…我相信你会把这件事保密的。我希望能给你一些报酬，但我的钱太少了。我知道 -- 我会把尸鬼的宝藏留下。是你的了，我的朋友，尽情享用吧！ {沙尔}
+天啊，打得真好！你看到我了吗？我太厉害了！尸鬼死了，我才是真正的男人。我得回斯卡尔村，告诉我的兄弟们这个好消息。如果你在村子里，到我家来，我会像兄弟一样迎接你。对了，%PCName…我相信你会把这件事保密的。我希望能给你一些报酬，但我的钱太少了。我知道——我会把尸鬼的宝藏留下。是你的了，我的朋友，尽情享用吧！ {沙尔}
 
 > INFO.NAME greeting 1 9186256802198116813
 Ah, %PCName!  Been helping yourself to the draugr's treasures, I hope!
@@ -22480,7 +22480,7 @@ Hello stranger. I am afraid we meet under tragic circumstances, for I grieve for
 
 > INFO.NAME greeting 1 28632125082926130801
 EMIL -- BLOODMOON GREETINGS ABOVE
-埃米尔 -- 血月对话
+埃米尔——血月对话
 
 > INFO.NAME greeting 1 11397230202253620097
 You stopped Krish, and that is good. Grahl are gone. Krish is gone. Nasty grahl. Nasty Krish. The master will be pleased when he comes home. Your master will be pleased you have helped Dulk! Good good! Now go. Dulk has much to do before his master comes back. Go!
@@ -23184,7 +23184,7 @@ Greetings. Are you in need of transport? S'virr will gladly take you to Fort Fro
 
 > INFO.NAME greeting 1 242281552492377506
 MARK -- BLOODMOON GREEETINGS ABOVE
-马克 -- 血月对话
+马克——血月对话
 
 > INFO.NAME greeting 1 1506729542428621866
 Yes? What is it?
@@ -23316,7 +23316,7 @@ Even though the Spriggans are gone, we still can't cut down this grove of trees.
 
 > INFO.NAME greeting 1 276992060962728648
 Hey, %PCName. Nice work with those Spriggans. We can get to the trees now for sure, but we still won't be able to cut them down. I tried explaining it once already, but they won't listen - something's not right with this grove.
-嘿，%PCName，那些树精干得漂亮，我们现在肯定能接近那些树了，但还是砍不倒它们。我已经解释过一次了，但他们不听 - 这片树林有点不对劲。 {工作}
+嘿，%PCName，那些树精干得漂亮，我们现在肯定能接近那些树了，但还是砍不倒它们。我已经解释过一次了，但他们不听——这片树林有点不对劲。 {工作}
 
 > INFO.NAME greeting 1 2122322807630128758
 Sorry, %PCName, but as far as I'm concerned, I'm off duty as long as those Spriggans are out there.
@@ -23448,7 +23448,7 @@ Can't.... can't keep swinging... too tired. Just, just fight me, okay? Come on..
 
 > INFO.NAME greeting 1 24651761034431073
 I suppose they've sent you to deal with me, haven't they? Well, then - let's get this over with! You're not some kind of coward, are you? Come on and fight me! If I'm going to die, then I'm going out with a bang!
-我想他们是派你来对付我的，对吧？好吧 - 那我们就速战速决吧！你不是胆小鬼吧？来跟我战斗吧！如果我要死，那我就死得轰轰烈烈！
+我想他们是派你来对付我的，对吧？好吧，那……我们就速战速决吧！你不是胆小鬼吧？来跟我战斗吧！如果我要死，那我就死得轰轰烈烈！
 
 > INFO.NAME greeting 1 17351132612092119890
 You..... get away from me. You killed my husband!
@@ -23648,7 +23648,7 @@ Look, I said I'll leave. Just stay away from me, will you?
 
 > INFO.NAME greeting 1 1914725554257516648
 OW! Okay, okay. I'll go away - just stop hitting me! Just give me a minute to collect myself. I promise I'll be gone the next time you come back. Oh, that's going to leave such a bruise...
-哦！好吧，好吧，我会走的 - 别再打我了！给我点时间冷静一下，我保证你下次回来时我就走了。哦，那会留下瘀伤的…
+哦！好吧，好吧，我会走的——别再打我了！给我点时间冷静一下，我保证你下次回来时我就走了。哦，那会留下瘀伤的…
 
 > INFO.NAME greeting 1 2241431820148328076
 I'll not give in to you! Cease this violence before you bring death and destruction on yourself!
@@ -23740,7 +23740,7 @@ Take that note to Carnius, %PCName, and see what he has to say for himself.
 
 > INFO.NAME greeting 1 4870214732269414021
 We've been had. This wasn't really a Skaal attack - it was mercenaries dressed up like them to fool us. If they'd succeeded, the whole thing would've been blamed on the wrong people. This stinks of Carnius, and I think it's time you confront him. Take this note, and show him the proof you've got of his involvement.
-我们被耍了，这并不是一起斯卡尔的袭击 -- 而是雇佣兵假扮成他们来愚弄我们的。如果他们成功了，整件事情就会被归咎于错误的人。这是卡尼乌斯的恶行，我想你该去找他对质了。拿着这张纸条，把你掌握的他参与此事的证据给他看。
+我们被耍了，这并不是一起斯卡尔的袭击——而是雇佣兵假扮成他们来愚弄我们的。如果他们成功了，整件事情就会被归咎于错误的人。这是卡尼乌斯的恶行，我想你该去找他对质了。拿着这张纸条，把你掌握的他参与此事的证据给他看。
 
 > INFO.NAME greeting 1 2227930824301646431
 %PCName!  We've been the victims of a Skaal attack!
@@ -23864,7 +23864,7 @@ Sorry, %PCRace. Can't talk right now; we're waiting for our escort to Raven Rock
 
 > INFO.NAME greeting 1 224541147282137952
 CHAPPY -- BLOODMOON GREETINGS ABOVE
-卡比 -- 血月对话
+卡比——血月对话
 
 > INFO.NAME greeting 1 1588813549227325295
 All is silence. The road is straight, without turning, in darkness. Now let there be an end to all things.
@@ -24372,7 +24372,7 @@ The witch is dead! Now, if you'll just give me Widowmaker, stranger, I'd appreci
 
 > INFO.NAME greeting 1 1504370591030625983
 Yes. This is the place I need to be. They can help me here. Take this as payment, and I'll make sure to tell my friends in the Legion about your help. Thank you, friend--you have been a big help. You know, for a slaughterfish.
-是的，这就是我需要去的地方。他们可以在这里帮我，拿着这个作为报酬，我会把你的帮助告诉军团里我的朋友的。谢谢你，朋友 -- 你帮了个大忙 -- 你知道的，对食人鱼来说。
+是的，这就是我需要去的地方。他们可以在这里帮我，拿着这个作为报酬，我会把你的帮助告诉军团里我的朋友的。谢谢你，朋友——你帮了个大忙——你知道的，对食人鱼来说。
 
 > INFO.NAME greeting 1 31423124081892923466
 Well, we've arrived...surprisingly enough. Here's your tip. Now leave me.
@@ -26452,7 +26452,7 @@ So, Hroldar has been dealt with as well? Good. He'd long outlived his usefulness
 
 > INFO.NAME assignment 1889876771308427105
 The messenger is dead? And.... you already killed Hroldar, despite that not being part of your assignment. Well, it's not the way I would've liked it to happen, but I am glad those two are out of the way. To make a point, though, you'll get no reward from me, %PCRank - keep that in mind the next time you decide to make up the rules as you go.
-信使死了？而且……你还杀了赫罗达，尽管这不是你的业务之一。虽然这不是我想要的结果，但我很高兴这两个人已经被除掉了。不过要说明一点，你不会从我这里得到任何奖励，%PCRank -- 希望你下次乱来的时候能想到这一点。 {报酬,规则,规定}
+信使死了？而且……你还杀了赫罗达，尽管这不是你的业务之一。虽然这不是我想要的结果，但我很高兴这两个人已经被除掉了。不过要说明一点，你不会从我这里得到任何奖励，%PCRank——希望你下次乱来的时候能想到这一点。 {报酬,规则,规定}
 
 > INFO.NAME assignment 167426592270318704
 The messenger is dead? And.... have you taken care of anything else? If not, I suggest you speak to Hroldar.
@@ -26488,7 +26488,7 @@ Have you dealt with Seler Favelnim, %PCRank?
 
 > INFO.NAME assignment 103805945151372278
 Yes, yes - I do have some work for you. One of the miners is causing some sort of disturbance. He's in the bar, and has apparently gone crazy, or some such nonsense. Go find this Seler Favelnim and deal with him, will you?
-是的，是的 - 我确实有一些工作给你。有一个矿工引起了一些骚乱。他在酒吧里，显然已经疯了，或者其他什么乱七八糟的。你去把这个塞勒·法维尼姆找出来处理一下，好吗？
+是的，是的……我确实有一些工作给你。有一个矿工引起了一些骚乱。他在酒吧里，显然已经疯了，或者其他什么乱七八糟的。你去把这个塞勒·法维尼姆找出来处理一下，好吗？
 
 > INFO.NAME assignment 2461823365688215729
 Good work on that last job, %PCRank. I'll let you know when I have something more for you.
@@ -26752,7 +26752,7 @@ Get the ore out of that chest in his house, %PCRank. I need him clear of suspici
 
 > INFO.NAME uryn maren 18919283351333021791
 Uryn's been stealing ore since mining began, but Falco has begun to notice the discrepancy. Thus far, he's been keeping the ore stashed in a chest in his house. I believe Falco knows about this chest, and so I need you to make sure there's no ore in it. Find it, remove the ore, and bring it to me. Here - you'll need this key to get into his house. Make it quick, %PCRank.
-自从矿场开始开采以来，尤林就一直在偷矿石，但法尔科已经开始告示他这一点。到目前为止，他一直把矿石藏在家里的一个箱子里。我相信法尔科知道这个箱子，所以我需要你确保里面没有矿石。找到它，取出矿石，然后交给我。给 - 你需要这把钥匙才能进入他的房子。动作快点，%PCRank。
+自从矿场开始开采以来，尤林就一直在偷矿石，但法尔科已经开始告示他这一点。到目前为止，他一直把矿石藏在家里的一个箱子里。我相信法尔科知道这个箱子，所以我需要你确保里面没有矿石。找到它，取出矿石，然后交给我。给……你需要这把钥匙才能进入他的房子。动作快点，%PCRank。
 
 > INFO.NAME uryn maren 22620309011735818592
 Who? I'm afraid I'm not familiar with him.
@@ -27280,7 +27280,7 @@ I do not believe you will put these things to a bad use, %PCName. You are not li
 
 > INFO.NAME misuse it 10044103771892030405
 We learned that Stalhrim can be forged much like iron or steel. We were made outcasts for it; the Skaal are too narrow-minded to understand its practical value. Some, like this woman, hear of it and come seeking it, but will not get it from us. You, however, have earned my respect. We will now see if you can truly be trusted - take this pick axe, and use it to chip off a piece of Stalhrim. Bring that piece to me.
-我们知道魔冰可以像钢铁一样锻造。我们因此被驱逐；斯卡尔人心胸狭窄，不了解它的实用价值。有些人，就像这位女士，听说了它并前来寻求，但不会从我们这里得到它。不过，你已经赢得了我的尊重。现在我们就来看看你是否真的值得信任 -- 拿着这把鹤嘴锄，用它砍下一块魔冰。把它拿给我。 {斧}
+我们知道魔冰可以像钢铁一样锻造。我们因此被驱逐；斯卡尔人心胸狭窄，不了解它的实用价值。有些人，就像这位女士，听说了它并前来寻求，但不会从我们这里得到它。不过，你已经赢得了我的尊重。现在我们就来看看你是否真的值得信任——拿着这把鹤嘴锄，用它砍下一块魔冰。把它拿给我。 {斧}
 
 > INFO.NAME messenger 2130225667299072981
 Yeh see the look on his face? Ha ha! Wasn' expectin' that, I can tell yeh!
@@ -27356,7 +27356,7 @@ I've heard talk of the walking trees. This island holds many secrets it seems.
 
 > INFO.NAME spriggans 26873227783093720913
 If you're ever out walking, admiring the trees, and trees start chasing you -- well, those are probably spriggans!
-当你在外面散步，欣赏树木的时候，如果发现有树木开始追逐你 -- 那么，那些很可能就是树精！
+当你在外面散步，欣赏树木的时候，如果发现有树木开始追逐你——那么，那些很可能就是树精！
 
 > INFO.NAME promotion 31178129653199729640
 I can't promote you if you don't work for me. It's a simple concept, really, but apparently one that escapes you.
@@ -27600,7 +27600,7 @@ We're building a trader's outpost right now, as a matter of fact.
 
 > INFO.NAME services 155376465322267884
 I hear that we're getting a smith. Good thing, too - we go through pick axes like no one's business.
-听说我们要来个铁匠了。这倒是好事 -- 我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}
+听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}
 
 > INFO.NAME services 18638214611000221354
 There's a trader's oupost in the works, but nothing at the moment.
@@ -27608,7 +27608,7 @@ There's a trader's oupost in the works, but nothing at the moment.
 
 > INFO.NAME services 1547713640285926366
 I hear that we're getting a smith. Good thing, too - we go through pick axes like no one's business.
-听说我们要来个铁匠了。这倒是好事 -- 我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}
+听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}
 
 > INFO.NAME services 3140029245306726111
 No services here. Colony isn't big enough to warrant it.
@@ -28392,7 +28392,7 @@ You're a current employee of the company. I can't re-hire you.
 
 > INFO.NAME reavers 36113481254717582
 Reavers don't like to beach their ships -- afraid of getting them stolen or burned -- so they stay out to sea after dropping off their raiding parties.
-劫匪不喜欢把船停在海滩上 -- 害怕被偷或被烧 -- 所以他们在突击队下船后就留在海上。
+劫匪不喜欢把船停在海滩上——害怕被偷或被烧——所以他们在突击队下船后就留在海上。
 
 > INFO.NAME reavers 1703616072721218102
 They are small parties of off-island axemen and archers that stage hit-and-run raids on one-hut settlements and hunting camps. There's not much threat to us.
@@ -28404,7 +28404,7 @@ We're safe from them. They avoid large settlements.
 
 > INFO.NAME reavers 80362073947489036
 Its just a Nord word for 'raiders.' We're told the reavers are out-islanders -- Nord raiders from the far north.
-这只是诺德人对“突袭者”的称呼。我们听说劫匪是外岛人 -- 来自遥远北方的诺德袭击者。
+这只是诺德人对“突袭者”的称呼。我们听说劫匪是外岛人——来自遥远北方的诺德袭击者。
 
 > INFO.NAME horkers 3157722223293619757
 Their death is a terrible thing.
@@ -28788,7 +28788,7 @@ You already delivered the report, %PCRank.
 
 > INFO.NAME report 3553159861218623373
 Hrmph. Well. I must say, I'm surprised - I didn't expect to see this report on time. Very well, %PCRank. Let Falco know I've received it.
-嗯哼，好吧，我必须说，我很惊讶 -- 我没想到会准时看到这份报告。很好，%PCRank。让法尔科知道我收到了。
+嗯哼，好吧，我必须说，我很惊讶——我没想到会准时看到这份报告。很好，%PCRank。让法尔科知道我收到了。
 
 > INFO.NAME report 109193005590056422
 I've told you all I know. Now please excuse me.
@@ -29196,7 +29196,7 @@ Enjoy our mead and kinship!
 
 > INFO.NAME hello 302631425188925509
 Candy, candy -- he makes so much! Uncle Sweetshare has a magic touch! So it's back to the workshop in the snow! With lovely lanterns all aglow! He he! Ha ho! He he he ha ha ho!
-糖果，糖果 -- 他做了这么多！甜糖叔叔有魔法！我们又回到了雪地里的工坊！点亮可爱的灯笼！嘻嘻！哈嚯！嘻嘻嘻哈哈嚯！
+糖果，糖果——他做了这么多！甜糖叔叔有魔法！我们又回到了雪地里的工坊！点亮可爱的灯笼！嘻嘻！哈嚯！嘻嘻嘻哈哈嚯！
 
 > INFO.NAME hello 519124701175217185
 Well now, if you're not the comeliest lass I've ever laid eyes on. Come here, and let Big Erich keep you warm.
@@ -30144,7 +30144,7 @@ Unel has dealt with it? That's good to hear. Perhaps once those trees are gone, 
 
 > INFO.NAME grove 113271209030138971
 They should soon be weak enough that we can cut them down - thanks to you, of course.
-它们应该很快就会变得脆弱，我们就可以把它们砍倒了 -- 当然，这要感谢你。
+它们应该很快就会变得脆弱，我们就可以把它们砍倒了——当然，这要感谢你。
 
 > INFO.NAME grove 40699222535513386
 We'll need to weaken the roots. Then we might be able to cut the trees down.
@@ -30312,7 +30312,7 @@ So it's back to the workshop in the snow! With lovely lanterns all aglow! He he!
 
 > INFO.NAME idle 2732149810067959
 Candy, candy -- he makes so much! Uncle Sweetshare has a magic touch!
-糖果，糖果 -- 他做了这么多糖果！甜糖叔叔有神奇的魔力！
+糖果，糖果——他做了这么多糖果！甜糖叔叔有神奇的魔力！
 
 > INFO.NAME idle 2586282202145727394
 It's better than trinkets, games or toys! So say all the little girls and boys!
