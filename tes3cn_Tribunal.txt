@@ -91,13 +91,13 @@
  GMST.STRV "编辑笔记"
 -GMST
  GMST.NAME "sNeedOneSkill"
- GMST.STRV "需要一项技能，关于"
+ GMST.STRV "需要一项技能达到"
 -GMST
  GMST.NAME "sNeedTwoSkills"
- GMST.STRV "需要两项技能，关于"
+ GMST.STRV "需要两项技能达到"
 -GMST
  GMST.NAME "sand"
- GMST.STRV "和"
+ GMST.STRV "还"
 -GMST
  GMST.NAME "sDifficulty"
  GMST.STRV "难度"

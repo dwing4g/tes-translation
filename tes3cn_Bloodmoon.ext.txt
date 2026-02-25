@@ -116,15 +116,15 @@ Edit Note
 
 > GMST.STRV sNeedOneSkill
 Need one skill at
-需要一项技能，关于
+需要一项技能达到
 
 > GMST.STRV sNeedTwoSkills
 Need two skills at
-需要两项技能，关于
+需要两项技能达到
 
 > GMST.STRV sand
 and
-和
+还
 
 > GMST.STRV sDifficulty
 Difficulty
@@ -12874,7 +12874,7 @@ Korst Wind-Eye has told me that he would like me to take part in a Skaal ceremon
 
 > INFO.NAME bm_ceremony1 10707733998420530
 The Totem of Claw and Fang is located in the Tombs of Skaalara, located east and a bit south of the Skaal Village.
-尖牙利爪图腾位于斯卡尔拉的墓穴，在斯卡尔村的东面和南面。
+尖牙利爪图腾位于斯卡拉拉的墓穴，在斯卡尔村的东面和南面。
 
 > INFO.NAME bm_ceremony1 16699165892880329734
 I have retrieved the Totem of Claw and Fang.
@@ -12882,7 +12882,7 @@ I have retrieved the Totem of Claw and Fang.
 
 > INFO.NAME bm_ceremony1 3799318541887326559
 Wind-Eye was pleased that I was able to return the Totem of Claw and Fang from the Tombs of Skaalara, and rewarded me with knowledge of the Skaal nature magic. He has taught me the Skaal ritual to summon a wolf to fight by my side.
-风眼很高兴我能从斯卡尔拉的墓穴中取回尖牙利爪图腾，并奖励了我斯卡尔自然魔法的知识。他教了我召唤一匹狼在我身边战斗的斯卡尔仪式。 {报酬}
+风眼很高兴我能从斯卡拉拉的墓穴中取回尖牙利爪图腾，并奖励了我斯卡尔自然魔法的知识。他教了我召唤一匹狼在我身边战斗的斯卡尔仪式。 {报酬}
 
 > INFO.NAME bm_ceremony2 1266521091202437209
 Dream of Hircine
@@ -12890,7 +12890,7 @@ Dream of Hircine
 
 > INFO.NAME bm_ceremony2 128025353407524978
 While sleeping, I had a strange dream. In it, the Daedra Prince Hircine spoke to me, telling me to journey to the Tombs of Skaalara. There, I am to keep the Skaal warriors from retrieving the Totem of Claw and Fang. I should kill any of the Skaal I meet in the Tombs. From what I saw in the dream, it appears the Tomb is located on the Felstaad Coast, southeast of the Skaal Village.
-睡觉时，我做了一个奇怪的梦。在梦中，迪德拉大君希尔辛对我说话，让我前往斯卡尔拉的墓穴。在那里，我要阻止斯卡尔勇士夺回尖牙利爪图腾。我应该杀死在墓穴里遇到的任何斯卡尔人。根据我在梦中看到的情况，古墓似乎位于斯卡尔村东南方的费尔斯塔德海岸。
+睡觉时，我做了一个奇怪的梦。在梦中，迪德拉大君希尔辛对我说话，让我前往斯卡拉拉的墓穴。在那里，我要阻止斯卡尔勇士夺回尖牙利爪图腾。我应该杀死在墓穴里遇到的任何斯卡尔人。根据我在梦中看到的情况，古墓似乎位于斯卡尔村东南方的费尔斯塔德海岸。
 
 > INFO.NAME bm_ceremony2 118103274223110491
 I have killed all of the Skaal warriors who came to retrieve the Totem of Claw and Fang.
@@ -16562,7 +16562,7 @@ You have not yet found it? Please, the Ristaag must be performed as soon as we c
 
 > INFO.NAME totem of claw and fang 3617189622590827468
 It is a powerful artifact, very sacred to the Skaal people. It is used to call to us powerful beasts that are used in the Ristaag. It was stolen many years ago, and we of the Skaal were foolish enough to believe it would not again be needed. I have learned that it may be found in the Tombs of Skaalara, to the east and a bit south of here. Please, return the Totem.
-这是一件强大的神器，对斯卡尔人来说非常神圣。它用来召唤净祝狩仪中使用的强大野兽。很多年前它被盗了，我们斯卡尔人愚蠢地认为它不会再被需要。我听说它可能在斯卡尔拉的墓穴里找到，就在这里的东边和南边一点。请把图腾还给我。
+这是一件强大的神器，对斯卡尔人来说非常神圣。它用来召唤净祝狩仪中使用的强大野兽。很多年前它被盗了，我们斯卡尔人愚蠢地认为它不会再被需要。我听说它可能在斯卡拉拉的墓穴里找到，就在这里的东边和南边一点。请把图腾还给我。
 
 > INFO.NAME the power of the skaal 2681832241930516940
 You have completed the Ritual of the Gifts!
