@@ -3995,7 +3995,7 @@ Invisibility, one of the most prized effects of potions, can be made only from c
 <BR>
 不幸的是，冒险家最喜欢的魔药需要更稀有和昂贵的成分。当然也有例外，比如制作火盾药水的配方就很简单经济。但大多数此类药剂都需要至少一种成本较高的成分。<BR>
 <BR>
-火盾药水可以由异梅和蛞蟾人皂制成。异梅是阿斯卡迪安群岛的苦浆果。蛞蟾人皂是一种蜡质物质，来自未成熟的无知觉形式的蛞蟾人。蛞蟾人皂并不贵，但药剂师或炼金术士很少储备，而且无法在当地收集。<BR>
+火盾药水可以由异梅和斯洛德皂制成。异梅是阿斯卡迪安群岛的苦浆果。斯洛德皂是一种蜡质物质，来自未成熟的无知觉形式的斯洛德。斯洛德皂并不贵，但药剂师或炼金术士很少储备，而且无法在当地收集。<BR>
 <BR>
 冒险家可以用灰烬山药和蟹灵蜡制成的药剂来增强体力。灰烬山药是一种坚硬的块根类蔬菜，在阿斯卡迪安群岛地区很常见。蟹灵蜡是从蟹灵壳上刮下来的一种坚硬的蜡质物质。蟹灵是强大的水生生物，捕猎它们是非常危险的。<BR>
 <BR>
@@ -5201,7 +5201,7 @@ THE END.<BR>
 <BR>
 乌利斯：让我看看，先生。<BR>
 <BR>
-克拉维德斯：你待会能看个够。我们现在需要驻地内的每个士兵过来搬走全部的尸体。乌利斯，我见过的战场已经够多了，但从来没见过哪次像今天这样。没有两具尸体是相似的。凯季特人，蛞蟾人，丹莫，西罗帝尔人，布莱顿人，诺德人，活活烧死的，毒死的，电死的，溶解的，身体被撕裂的，内脏被挖出来的，被撕成碎片再缝起来的。<BR>
+克拉维德斯：你待会能看个够。我们现在需要驻地内的每个士兵过来搬走全部的尸体。乌利斯，我见过的战场已经够多了，但从来没见过哪次像今天这样。没有两具尸体是相似的。凯季特人，斯洛德，丹莫，西罗帝尔人，布莱顿人，诺德人，活活烧死的，毒死的，电死的，溶解的，身体被撕裂的，内脏被挖出来的，被撕成碎片再缝起来的。<BR>
 <BR>
 乌利斯：你认为那个灰烬民从这里逃了出来，这就是真相？<BR>
 <BR>
@@ -13393,15 +13393,15 @@ Master Aryon thanked me for ending the siege of Odirniran.
 
 > INFO.NAME ht_sloadsoap 18142191211593519253
 House Telvanni: Sload Soap
-泰瓦尼家族：蛞蟾人皂
+泰瓦尼家族：斯洛德皂
 
 > INFO.NAME ht_sloadsoap 729320721714817402
 Mouth Arara Uvulas asked me to acquire five portions of Sload soap.
-发言人艾拉拉·乌弗拉斯要我购买五份蛞蟾人皂。
+发言人艾拉拉·乌弗拉斯要我购买五份斯洛德皂。
 
 > INFO.NAME ht_sloadsoap 215381939290721401
 Mouth Arara Uvulas thanked me for bringing her Sload soap.
-发言人艾拉拉·乌弗拉斯感谢我为她带来了蛞蟾人皂。
+发言人艾拉拉·乌弗拉斯感谢我为她带来了斯洛德皂。
 
 > INFO.NAME ht_blackjinx 183884031872925116
 House Telvanni: Black Jinx
@@ -24567,7 +24567,7 @@ I've been meaning to make the pilgrimage to the Sanctus Shrine, but it's such a 
 
 > INFO.NAME latest rumors 24206310958291835
 Someone thinks the Masque of Clavicus Vile is here on Vvardenfell. Apparently there are many copies of 'N'Gasta! Kvata! Kvakis!' here on Vvardenfell. N'Gasta was a great Sload necromancer and servant of Clavicus Vile in the Second Era, and he may have had a wizard's tower here. An agent came to me asking questions about N'Gasta. The agent would not give his name, but I have learned he was in the employ of someone named Sorkvild the Raven.
-有人认为克拉威库斯·维尔的面具就在瓦登费尔。显然，瓦登费尔这里有很多本《恩'加斯塔！科瓦塔！科瓦奇斯！》。恩'加斯塔是第二纪元时的一位强大的蛞蟾人死灵法师，也是克拉威库斯·维尔的仆人，他可能在这里有一座巫师塔。一位密探来找我问过关于恩'加斯塔的问题。这位密探不愿透露自己的名字，但我得知他受雇于一个叫“渡鸦”索克维尔德的人。
+有人认为克拉威库斯·维尔的面具就在瓦登费尔。显然，瓦登费尔这里有很多本《恩'加斯塔！科瓦塔！科瓦奇斯！》。恩'加斯塔是第二纪元时的一位强大的斯洛德死灵法师，也是克拉威库斯·维尔的仆人，他可能在这里有一座巫师塔。一位密探来找我问过关于恩'加斯塔的问题。这位密探不愿透露自己的名字，但我得知他受雇于一个叫“渡鸦”索克维尔德的人。
 
 > INFO.NAME latest rumors 4614293683006428302
 The Temple has been pressuring Mistress Dratha to allow them to put some healers in Tel Mora. Women, of course.
