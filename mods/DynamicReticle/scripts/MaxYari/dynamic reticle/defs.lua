@@ -1,8 +1,9 @@
-local prefix = "SMHM_"
+local prefix = "DR_"
 
 return {
     GUtoM = 69.99,
     e = {
-        HostileDamaged = prefix .. "HostileDamaged"
+        HostileDamaged = prefix .. "HostileDamaged",
+        MissedAttack = prefix .. "MissedAttack"
     }
 }

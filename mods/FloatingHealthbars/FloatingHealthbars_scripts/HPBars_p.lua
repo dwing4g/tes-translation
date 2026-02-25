@@ -28,7 +28,7 @@ local makeBorder = require("FloatingHealthbars_scripts.makeborder")
 local frame = 0
 local animation = require('openmw.animation')
 local lastCameraRotation = camera.viewportToWorldVector(v2(0.5,0.5))
-
+local activeEffects = types.Actor.activeEffects(self)
 
 
 
@@ -51,6 +51,27 @@ end
 
 --local inProgress = {}
 barCache = {}
+local actorCache = {}
+local currentCell = nil
+local statFetchers = {
+	healthStat = function(a) return types.Actor.stats.dynamic.health(a) end,
+	fatigueStat = function(a) return types.Actor.stats.dynamic.fatigue(a) end,
+	magickaStat = function(a) return types.Actor.stats.dynamic.magicka(a) end,
+	activeSpells = function(a) return types.Actor.activeSpells(a) end,
+	activeEffects = function(a) return types.Actor.activeEffects(a) end,
+}
+local function cachedStat(actor, key)
+	local id = actor.id
+	local ac = actorCache[id]
+	if not ac then
+		ac = {}
+		actorCache[id] = ac
+	end
+	if not ac[key] then
+		ac[key] = statFetchers[key](actor)
+	end
+	return ac[key]
+end
 local AI_DB = {}
 --raytracing
 local raytracing = {}
@@ -149,10 +170,13 @@ local function ownlysLag(current, lerped, cached, paused, lag, timer, dt, drainS
 	return paused, lag, timer, lerped
 end
 
-function calculateHealing(actor)
+function calculateHealing(cachedActiveSpells, cachedActiveEffects)
+	if cachedActiveEffects:getEffect("restorehealth").magnitude == 0 then
+		return 0
+	end
 	local timeBand = 3
 	local incomingHealing = 0
-	for a,b in pairs(types.Actor.activeSpells(actor)) do
+	for a,b in pairs(cachedActiveSpells) do
 		for c,d in pairs(b.effects) do
 			if d.id == "restorehealth" then --and d.durationlLeft then -- should permanent effects count? let's say yes
 				local duration = math.max(0,math.min(timeBand,d.durationLeft or timeBand))
@@ -288,7 +312,8 @@ end
 
 local function shortestBuff(actor)
 	local shortest =9000
-	for a,b in pairs(types.Actor.activeSpells(actor)) do
+	local spells = cachedStat(actor, "activeSpells")
+	for a,b in pairs(spells) do
 		--if ( b.caster ~=actor) then
 			for c,d in pairs(b.effects) do
 				if (d.duration) then
@@ -366,10 +391,10 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 	local levelColor = nil
 	local borderColor = nil
 	local healthPct = math.min(1,currentHealth/maxHealth)
-	local fatigue = types.Actor.stats.dynamic.fatigue(c.actor).current
-	local magicka = types.Actor.stats.dynamic.magicka(c.actor).current
-	local maxFatigue = types.Actor.stats.dynamic.fatigue(c.actor).base
-	local maxMagicka = types.Actor.stats.dynamic.magicka(c.actor).base
+	local fatigue = cachedStat(c.actor, "fatigueStat").current
+	local magicka = cachedStat(c.actor, "magickaStat").current
+	local maxFatigue = cachedStat(c.actor, "fatigueStat").base
+	local maxMagicka = cachedStat(c.actor, "magickaStat").base
 	--print(fatigue/maxFatigue)
 	local t
 
@@ -426,7 +451,7 @@ local function update(c,currentHealth,maxHealth,sizeMult)
 	else
 		nameColor = NAME_COL or util.color.hex("ffffff")
 	end
-	local incomingHealing = calculateHealing(c.actor)
+	local incomingHealing = calculateHealing(cachedStat(c.actor, "activeSpells"), cachedStat(c.actor, "activeEffects"))
 	local template = stylizedBars[BORDER_STYLE]
 	local resourceTemplate = {}
 	if RESOURCES_SETTING == "Fatigue + Magicka" then
@@ -953,7 +978,7 @@ local function checkBuffs (actor, checkType)
 		bc.buffCheckSum = ""
 		bc.debuffCheckSum = ""
 		
-		for a,b in pairs(types.Actor.activeSpells(actor)) do
+		for a,b in pairs(cachedStat(actor, "activeSpells")) do
 			for c,d in pairs(b.effects) do
 				local duration = d.duration
 				if (duration) then
@@ -993,7 +1018,13 @@ end
 
 local function onFrame(dt)
 
-	local HUDMBlacklist = types.Actor.activeEffects(self):getEffect("detectanimal").magnitude > 0 and I.HUDMarkers and I.HUDMarkers.version >= 3 and math.random() < 0.25 and {}
+	local cell = self.cell
+	if cell ~= currentCell then
+		currentCell = cell
+		actorCache = {}
+	end
+
+	local HUDMBlacklist = activeEffects:getEffect("detectanimal").magnitude > 0 and I.HUDMarkers and I.HUDMarkers.version >= 3 and math.random() < 0.25 and {}
 	
 	frame = frame+1
 	if computeBoundingBoxes then
@@ -1125,7 +1156,9 @@ local function onFrame(dt)
 					--print(animation.getTextKeyTime(actor, "knockdown: loop start"))
 					
 					--print(animation.getCurrentTime(actor, "knockout"))
-				local currentHealth = types.Actor.stats.dynamic.health(actor).current
+				local c = barCache[actor.id]
+				local healthStat = cachedStat(actor, "healthStat")
+				local currentHealth = healthStat.current
 				local isDead = types.Actor.isDead(actor)
 				--local deathAnim = nil
 				if animation.hasAnimation(actor) then
@@ -1197,20 +1230,13 @@ local function onFrame(dt)
 				--print(barOffset)
 				barPos =  barPos + barOffset
 				local viewPos_XYZ = camera.worldToViewportVector(barPos)
-				local rootViewPos_XYZ = camera.worldToViewportVector(actorPos)
 				local viewpPos = v2(viewPos_XYZ.x/uiScale, viewPos_XYZ.y/uiScale)
-				local rootViewpPos = v2(rootViewPos_XYZ.x/uiScale, rootViewPos_XYZ.y/uiScale)
-				local v = viewportToWorldVector
-				local u = (barPos - cameraPos):normalize()
-				--print(v,u)
-				--print(v*u)
-				local angleInRadians = math.acos(v:dot(u) / math.max(0.0001,v * u))
 				local stanceFilter = true
 				if ONLY_IN_COMBAT and types.Actor.getStance(actor) == types.Actor.STANCE.Nothing and (not AI_DB[actor.id] or math.max(AI_DB[actor.id].Combat, AI_DB[actor.id].Pursue) < nowSim-1) then
 					stanceFilter = false
 				end
 				
-				local maxHealth = types.Actor.stats.dynamic.health(actor).base
+				local maxHealth = healthStat.base
 				local yPosFactor = -(0.02)
 				if toObjectLength < 200 then
 					yPosFactor = yPosFactor - (200-toObjectLength)/400
@@ -1218,7 +1244,7 @@ local function onFrame(dt)
 				if (not model or not modelBlacklist[model]) 
 				and (barCache[actor.id] or not isDead)  
 				--and viewPos_XYZ.z < MAX_DISTANCE +100
-				and angleInRadians < math.pi/2 and viewpPos.x >= screenres.x*-0.1 
+				and viewpPos.x >= screenres.x*-0.1 
 				and viewpPos.x <= screenres.x*1.1
 				-- above screen
 				and (viewpPos.y >= screenres.y*yPosFactor or toObjectLength < 400 and dotProduct / (viewportLength * toObjectLength) > 0.7)
@@ -1298,7 +1324,6 @@ local function onFrame(dt)
 							offsetScale = 1 + 10.7*(1-0.75^((offsetScale-1)/3))
 						end
 						local sizeMult = offsetScale*hugeness*0.85
-						local c = barCache[actor.id]
 						if not c or c.lastRender < now-1 then
 							if c and c.bar then
 								c.bar:destroy()
@@ -1319,8 +1344,8 @@ local function onFrame(dt)
 								deathTimer = 0,
 								lastBuffUpdate = now,
 								hasBuffs = true,
-								cachedFatigue = types.Actor.stats.dynamic.fatigue(actor).current,
-								cachedMagicka = types.Actor.stats.dynamic.magicka(actor).current,
+								cachedFatigue = cachedStat(actor, "fatigueStat").current,
+								cachedMagicka = cachedStat(actor, "magickaStat").current,
 								lastBarOffset = barOffset,
 								nameOnly = nameOnly,
 								cachedNameOnly = nameOnly,
@@ -1495,7 +1520,7 @@ end
 return {    
 	engineHandlers = {
 		onFrame = onFrame,
-		onKeyPress = onKey
+		onKeyPress = onKey,
     },
 	eventHandlers = {
         FHB_AI_update = AI_update,

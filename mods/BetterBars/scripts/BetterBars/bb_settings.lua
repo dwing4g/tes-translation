@@ -1,4 +1,3 @@
-
 local tempKey
 local orderCounter = 0
 local function getOrder()
@@ -346,7 +345,11 @@ local function readAllSettings()
 	for _, template in pairs(settingsTemplate) do
 		local settingsSection = storage.playerSection(template.key)
 		for i, entry in pairs(template.settings) do
-			_G[entry.key] = settingsSection:get(entry.key)
+			local value = settingsSection:get(entry.key)
+			if value == nil then
+				value = entry.default
+			end
+			_G[entry.key] = value
 		end
 	end
 end
@@ -371,35 +374,16 @@ for _, template in pairs(settingsTemplate) do
 			container.layout.props.size = v2(-startOffset,3*verticalOffset)
 			container:update()
 			
-			container.layout.content[1].layout.props.size = v2(0,barThickness)
-			container.layout.content[1].layout.props.position = v2(0,-pos)
-			container.layout.content[1]:update()
-			if container.layout.content[1].layout.content[2].layout.content.text then
-			--	container.layout.content[1].layout.content[2].layout.content.text.props.position = v2(2, -math.floor(barThickness/12))
-				container.layout.content[1].layout.content[2].layout.content.text.props.textSize = barThickness+math.floor(barThickness/6)
-			--	container.layout.content[1].layout.content[2]:update()
+			for _,resource in pairs(widgets) do
+				local bar = _G[resource]
+				bar.barContainer.layout.props.size = v2(0,barThickness)
+				bar.barContainer.layout.props.position = v2(0,-pos)
+				bar.barContainer:update()
+				if bar.textProps then
+					bar.textProps.textSize = barThickness+math.floor(barThickness/6)
+				end
+				pos = pos+verticalOffset
 			end
-			pos = pos+verticalOffset
-			
-			container.layout.content[2].layout.props.size = v2(0,barThickness)
-			container.layout.content[2].layout.props.position = v2(0,-pos)
-			container.layout.content[2]:update()
-			if container.layout.content[2].layout.content[2].layout.content.text then
-			--	container.layout.content[2].layout.content[2].layout.content.text.props.position = v2(2, -math.floor(barThickness/12))
-				container.layout.content[2].layout.content[2].layout.content.text.props.textSize = barThickness+math.floor(barThickness/6)
-			--	container.layout.content[2].layout.content[2]:update()
-			end
-			pos = pos+verticalOffset
-			
-			container.layout.content[3].layout.props.size = v2(0,barThickness)
-			container.layout.content[3].layout.props.position = v2(0,-pos)
-			container.layout.content[3]:update()
-			if container.layout.content[3].layout.content[2].layout.content.text then
-			--	container.layout.content[3].layout.content[2].layout.content.text.props.position = v2(2, -math.floor(barThickness/12))
-				container.layout.content[3].layout.content[2].layout.content.text.props.textSize = barThickness+math.floor(barThickness/6)
-			--	container.layout.content[3].layout.content[2]:update()
-			end
-			pos = pos+verticalOffset
 			updateAll = true
 			for _,resource in pairs(widgets) do
 				update(_G[resource], resource, 0, resource == "fatigue" and 1 or 0)

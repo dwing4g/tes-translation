@@ -34,9 +34,14 @@ local function onUpdate(dt)
     end    
 end
 
+local function onLoad()    
+    world.setSimulationTimeScale(1)
+end
+
 return {
     engineHandlers = {
-        onUpdate = onUpdate        
+        onUpdate = onUpdate,
+        onLoad = onLoad    
     },
     eventHandlers = {
         SlowdownEffect = handleSlowdownEffect        

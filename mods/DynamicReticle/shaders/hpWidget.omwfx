@@ -154,7 +154,7 @@ fragment arcShader() {
     void main() {
         
         // Calculate the angle of the current fragment relative to the center
-        vec4 prevFragment = texture(omw_SamplerLastShader, omw_TexCoord);
+        vec4 prevFragment = omw_Texture2D(omw_SamplerLastShader, omw_TexCoord);
         if (uOpacity <= 0) {
             omw_FragColor = prevFragment;
         }

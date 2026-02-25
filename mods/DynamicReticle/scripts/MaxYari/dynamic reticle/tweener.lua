@@ -26,7 +26,7 @@ local Tweener = {
         if t >= 1 then
             table.remove(self.animations, 1)
         end
-        if #table == 0 then 
+        if #self.animations == 0 then
             self.playing = false
         end
     end,

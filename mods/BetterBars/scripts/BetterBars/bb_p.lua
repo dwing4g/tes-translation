@@ -18,6 +18,17 @@ input = require('openmw.input')
 v2 = util.vector2
 v3 = util.vector3
 resources = types.Actor.stats.dynamic
+local activeSpells = types.Actor.activeSpells(self)
+local activeEffects = types.Actor.activeEffects(self)
+local statCache = {
+	health = resources.health(self),
+	magicka = resources.magicka(self),
+	fatigue = resources.fatigue(self),
+}
+
+local colorKeys = { health = "HEALTH_COL", magicka = "MAGICKA_COL", fatigue = "FATIGUE_COL" }
+local lagColorKeys = { health = "HEALTHLAG_COL", magicka = "MAGICKALAG_COL", fatigue = "FATIGUELAG_COL" }
+local flashKeys = { health = "HEALTH_FLASHING_THRESHOLD", magicka = "MAGICKA_FLASHING_THRESHOLD", fatigue = "FATIGUE_FLASHING_THRESHOLD" }
 
 --resources = {
 --	health = function(actor) return  {base = 100, current = 50,modified = 50} end ,
@@ -38,6 +49,7 @@ local uiSize = ui.layers[layerId].size
 local uiScale = screenres.x / uiSize.x
 
 local averageLength = 0
+local containerAlpha = 1
 widgets = {"magicka","fatigue", "health"}
 local hudVisible = I.UI.isHudVisible()
 local iterateWidgets = nil
@@ -68,7 +80,8 @@ function makeUI()
 			size = v2(-startOffset,3*verticalOffset),
 			anchor = POSITION == "Bottom Left" and v2(0,1) or v2(0,0),
 			relativePosition = POSITION == "Bottom Left" and v2(0,1) or v2(0,0),
-			relativeSize = v2(1,0)
+			relativeSize = v2(1,0),
+			alpha = containerAlpha,
 		},
 		content = ui.content {
 			
@@ -126,14 +139,14 @@ function makeUI()
 	
 	local totalLength = 0
 	for _,resource in pairs(widgets) do
-		totalLength = totalLength + resources[resource](self).base
+		totalLength = totalLength + statCache[resource].base
 	end
 	averageLength = totalLength /3
 	
 
 	for _,resource in pairs(widgets) do
-		local current = resources[resource](self).current
-		local max = resources[resource](self).base
+		local current = statCache[resource].current
+		local max = statCache[resource].base
 		local newMax = max * (1-LENGTH_EQUALIZER) + averageLength * LENGTH_EQUALIZER
 		local LENGTH_MULT = _G[resource] and _G[resource].LENGTH_MULT or newMax / math.max(1,max) * LENGTH_MULT
 		if max <= 0 then
@@ -191,7 +204,7 @@ function makeUI()
 									--relativePosition= v2(0,0.5),
 									tileH = true,
 									tileV = false,
-									color =  _G[resource:upper().."LAG_COL"],
+									color =  _G[lagColorKeys[resource]],
 									position = v2(borderOffset,borderOffset),
 									--size = v2(-2,-3),
 									size = v2(current*LENGTH_MULT-borderOffset*2,-borderOffset*2),
@@ -206,7 +219,7 @@ function makeUI()
 									resource = foreground,
 									tileH = false,
 									tileV = false,
-									color =  _G[resource:upper().."_COL"],
+									color =  _G[colorKeys[resource]],
 									--position = v2(1, 1),
 									position = v2(borderOffset,borderOffset),
 									size = v2(math.min(max,current)*LENGTH_MULT-borderOffset*2,-borderOffset*2),
@@ -243,13 +256,13 @@ function makeUI()
 							} or {},
 						})
 					}),
-					_G[resource:upper().."_FLASHING_THRESHOLD"] >0 and ui.create{ -- r.3
+					_G[flashKeys[resource]] >0 and ui.create{ -- r.3
 						type = ui.TYPE.Image,
 						props = {
 							resource = flashing,
 							tileH = false,
 							tileV = false,
-							color =  _G[resource:upper().."LAG_COL"],
+							color =  _G[lagColorKeys[resource]],
 							--position = v2(1, 1),
 							--position = v2(borderOffset,borderOffset),
 							--size = v2(math.min(max,current)*LENGTH_MULT-borderOffset*2,-borderOffset*2),
@@ -263,9 +276,30 @@ function makeUI()
 		)
 		
 		pos = pos+verticalOffset
+		local barContainer = container.layout.content[#container.layout.content]
+		local barContent = barContainer.layout.content
+		local bgElement = barContent[1]
+		local contentElement = barContent[2]
+		local flashElement = barContent[3]
+		
+		local bgProps = bgElement.layout.props
+		local mainProps = contentElement.layout.content["main"].props
+		local lagProps = LAGBAR and contentElement.layout.content["lag"].props or nil
+		local healingProps = (resource == "health" and HEALBAR) and contentElement.layout.content["healing"].props or nil
+		local textProps = (TEXT ~= "hidden") and contentElement.layout.content["text"].props or nil
+		local flashProps = (_G[flashKeys[resource]] > 0) and flashElement.layout.props or nil
+		
 		_G[resource] = { -- magicka, fatigue, health =
-			barContainer = container.layout.content[#container.layout.content],
-			bar = container.layout.content[#container.layout.content].layout.content,
+			barContainer = barContainer,
+			bgElement = bgElement,
+			contentElement = contentElement,
+			flashElement = flashElement,
+			bgProps = bgProps,
+			mainProps = mainProps,
+			lagProps = lagProps,
+			healingProps = healingProps,
+			textProps = textProps,
+			flashProps = flashProps,
 			max = max*LENGTH_MULT,
 			current = current,
 			cached = current,
@@ -279,16 +313,16 @@ function makeUI()
 			lastMax = -1,
 			lastLag = -1,
 			lastLerp = -1,
+			lastHealPos = -1,
+			lastHealSize = -1,
 			lastUpdate = core.getRealTime(),
-			
 		}
-		if TEXT ~="hidden" then
+		if textProps then
 			if TEXT_POS == "right" then
-				_G[resource].bar[2].layout.content["text"].props.position = v2(math.floor(max*LENGTH_MULT)-2,-1)
-				_G[resource].bar[2].layout.content["text"].props.anchor = v2(1,0.5)
+				textProps.position = v2(math.floor(max*LENGTH_MULT)-2,-1)
+				textProps.anchor = v2(1,0.5)
 			elseif TEXT_POS == "right outside" then
-				_G[resource].bar[2].layout.content["text"].props.position = v2(math.floor(max*LENGTH_MULT)+2,-1)
-				
+				textProps.position = v2(math.floor(max*LENGTH_MULT)+2,-1)
 			end
 		end
 	end
@@ -343,14 +377,33 @@ local function ownlysLag(current, lerped, cached, paused, lag, timer, dt, drainS
 	return paused, lag, timer, lerped
 end
 
+local spellsWithRestoreHealth = {}
+local function hasRestoreHealth(spellId)
+	if spellsWithRestoreHealth[spellId] == nil then
+		spellsWithRestoreHealth[spellId] = false
+		local rec = core.magic.spells.records[spellId]
+		for c, d in pairs(rec and rec.effects or {}) do
+			if d.id == "restorehealth" then
+				spellsWithRestoreHealth[spellId] = true
+				break
+			end
+		end
+	end
+	return spellsWithRestoreHealth[spellId]
+end
+
 function calculateHealing(actor)
+	local magnitude = activeEffects:getEffect("restorehealth").magnitude
+	if not magnitude or magnitude <= 0.3 then return 0 end
 	local timeBand = 3
 	local incomingHealing = 0
-	for a,b in pairs(types.Actor.activeSpells(actor)) do
-		for c,d in pairs(b.effects) do
-			if d.id == "restorehealth" then --and d.durationlLeft then -- should permanent effects count? let's say yes
-				local duration = math.max(0,math.min(timeBand,d.durationLeft or timeBand))
-				incomingHealing= incomingHealing +(d.maxMagnitude+d.minMagnitude)/2*duration
+	for a, b in pairs(activeSpells) do
+		if hasRestoreHealth(b.id) then
+			for c, d in pairs(b.effects) do
+				if d.id == "restorehealth" then
+					local duration = math.max(0, math.min(timeBand, d.durationLeft or timeBand))
+					incomingHealing = incomingHealing + (d.maxMagnitude + d.minMagnitude) / 2 * duration
+				end
 			end
 		end
 	end
@@ -359,8 +412,8 @@ end
 
 function update(bar, resource, dt, treshold)
 	local shouldUpdate = false
-	local current = resources[resource](self).current
-	local max = resources[resource](self).base
+	local current = statCache[resource].current
+	local max = statCache[resource].base
 	local healing = 0
 	local drainSpeed =  LERPSPEED
 	local timerLength = LAGDURATION
@@ -372,26 +425,21 @@ function update(bar, resource, dt, treshold)
 	
 	bar.max = lerpValues(bar.max, max*bar.LENGTH_MULT, dt)
 	if math.abs(math.floor(bar.lastMax) - math.floor(bar.max)) >= 1 or updateAll then
-		--print(bar.max,max*bar.LENGTH_MULT)
-		bar.bar[1].layout.props.size = v2( math.floor(bar.max),0)
-		--bar.max = max
-		bar.bar[1]:update()
-		--print("upd")
+		bar.bgProps.size = v2( math.floor(bar.max),0)
+		bar.bgElement:update()
+		--print("up")
 		refreshLayering = 2
-		--shouldUpdate = true
-		if TEXT ~= "hidden" then
-			if TEXT_POS ~= "left" then
-				if TEXT_POS == "right" then
-					bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)-2,0)
-					bar.bar[2].layout.content["text"].props.anchor = v2(1,0.5)
-				elseif TEXT_POS == "right outside" then
-					bar.bar[2].layout.content["text"].props.position = v2(math.floor(bar.max)+2,0)
-				end
-				shouldUpdate = true
+		if bar.textProps and TEXT_POS ~= "left" then
+			if TEXT_POS == "right" then
+				bar.textProps.position = v2(math.floor(bar.max)-2,0)
+				bar.textProps.anchor = v2(1,0.5)
+			elseif TEXT_POS == "right outside" then
+				bar.textProps.position = v2(math.floor(bar.max)+2,0)
 			end
+			shouldUpdate = true
 		end
 	end
-	if TEXT ~="hidden" and math.floor(current) ~= math.floor(bar.cached) then
+	if bar.textProps and math.floor(current) ~= math.floor(bar.cached) then
 		shouldUpdate = true
 	end
 	
@@ -404,9 +452,9 @@ function update(bar, resource, dt, treshold)
 	if math.abs(math.floor(newLerp) - math.floor(bar.lastLerp)) >= 1 then
 		shouldUpdate = true
 	end
-	--if math.abs(bar.lerp - max) < 1 and bar.lerp ~= max then
-	--	shouldUpdate = true
-	--end
+	if math.abs(bar.lerp - max) < 1 and bar.lerp ~= max then
+		shouldUpdate = true
+	end
 	
 	local newHealPos 
 	local newHealSize
@@ -415,33 +463,32 @@ function update(bar, resource, dt, treshold)
 		local healingTarget = current + healing
 		newHealPos = newLerp + borderOffset
 		newHealSize = math.floor(healingTarget * bar.LENGTH_MULT-borderOffset) - math.floor(newHealPos)--healing*bar.LENGTH_MULT
-		if math.abs(math.floor(newHealPos) - bar.bar[2].layout.content["healing"].props.position.x) >= 1 
-		or math.abs(math.floor(newHealSize) - bar.bar[2].layout.content["healing"].props.size.x) >= 1 then
+		if math.abs(math.floor(newHealPos) - bar.lastHealPos) >= 1 
+		or math.abs(math.floor(newHealSize) - bar.lastHealSize) >= 1 then
 			shouldUpdate = true
-			
 		end
 	end
-	
-	local newFlashing = math.max(0,current/max) < _G[resource:upper().."_FLASHING_THRESHOLD"] and (bar.flashing or 0)+dt
+	--
+	local newFlashing = math.max(0,current/max) < _G[flashKeys[resource]] and (bar.flashing or 0)+dt
 	local updateFlashing = false
 	if bar.flashing or newFlashing then
 		if not newFlashing then --turn off flashing
-			bar.bar[3].layout.props.alpha = 0
+			bar.flashProps.alpha = 0
 			updateFlashing = true
-			if TEXT ~= "hidden" and TEXT_POS ~= "left" then
-				bar.bar[2].layout.content["text"].props.textColor = util.color.rgba(1, 1, 1, 0.85)
+			if bar.textProps and TEXT_POS ~= "left" then
+				bar.textProps.textColor = util.color.rgba(1, 1, 1, 0.85)
 				shouldUpdate = true
 			end
 		elseif not bar.flashing or newFlashing+dt/5 > 1/60 then
-			local col = _G[resource:upper().."LAG_COL"]
+			local col = _G[lagColorKeys[resource]]
 			local flashBrightness = (col.r+col.g+col.b)/3
-			bar.bar[3].layout.props.alpha = math.min(1,math.abs(math.sin(core.getRealTime()*5))*(1.33-flashBrightness))
-			bar.bar[3].layout.props.size = v2(math.floor(bar.max),0)
+			bar.flashProps.alpha = math.min(1,math.abs(math.sin(core.getRealTime()*5))*(1.33-flashBrightness))
+			bar.flashProps.size = v2(math.floor(bar.max),0)
 			updateFlashing = true
-			if not bar.flashing and TEXT ~= "hidden" and TEXT_POS ~= "left" then -- turn on colored text if right
+			if not bar.flashing and bar.textProps and TEXT_POS ~= "left" then -- turn on colored text if right
 				local h,s,v = rgbToHsv(col.r,col.g,col.b)
 				local r,g,b = hsvToRgb(h,0.95,1)
-				bar.bar[2].layout.content["text"].props.textColor = util.color.rgba(r,g,b, 0.85)
+				bar.textProps.textColor = util.color.rgba(r,g,b, 0.85)
 				shouldUpdate = true
 			end
 			newFlashing = 0
@@ -451,28 +498,28 @@ function update(bar, resource, dt, treshold)
 	
 	if shouldUpdate or updateAll then
 		if LAGBAR then
-			bar.bar[2].layout.content["lag"].props.size =v2(math.floor(newLag),-borderOffset*2)
+			bar.lagProps.size = v2(math.floor(newLag),-borderOffset*2)
 			bar.lagCached = bar.lag
 		end
-		bar.bar[2].layout.content["main"].props.size =v2(math.floor(newLerp),-borderOffset*2)
+		bar.mainProps.size = v2(math.floor(newLerp),-borderOffset*2)
 		if resource == "health" and HEALBAR then
-			bar.bar[2].layout.content["healing"].props.position = v2(math.floor(newHealPos)+0.99,borderOffset)
-			bar.bar[2].layout.content["healing"].props.size = v2(math.floor(newHealSize),-borderOffset*2)
+			bar.healingProps.position = v2(math.floor(newHealPos)+0.99,borderOffset)
+			bar.healingProps.size = v2(math.floor(newHealSize),-borderOffset*2)
+			bar.lastHealPos = math.floor(newHealPos)
+			bar.lastHealSize = math.floor(newHealSize)
 		end
-		if TEXT ~= "hidden" then
-			bar.bar[2].layout.content["text"].props.text = TEXT == "current" and ""..math.floor(current) or math.floor(current).."/".. math.floor(max)
+		if bar.textProps then
+			bar.textProps.text = TEXT == "current" and ""..math.floor(current) or math.floor(current).."/".. math.floor(max)
 		end
-		bar.bar[2]:update()
-		--print("upd")
+		bar.contentElement:update()
 		refreshLayering = refreshLayering-1
-		--print(resource)
+		--print("upd")
 	end
-	if (updateFlashing or bar.shouldUpdateFlashing) and _G[resource:upper().."_FLASHING_THRESHOLD"] > 0 then
-		bar.bar[3]:update()
-		--print("upd")
+	if (updateFlashing or bar.shouldUpdateFlashing) and _G[flashKeys[resource]] > 0 then
+		bar.flashElement:update()
 		refreshLayering = refreshLayering-1
-		--print(resource.." flash")
 		bar.shouldUpdateFlashing = false
+		--print("upd")
 	end
 	if refreshLayering > 0 then
 		bar.barContainer:update()
@@ -501,13 +548,10 @@ local function chargenFinished()
 		saveData.chargenFinished = true
         return true
     end
-    playerItems = types.Container.inventory(self):getAll()
-    for a,b in pairs(playerItems) do
-        if b.recordId == "chargen statssheet" then
-			saveData.chargenFinished = true
-            return true
-        end
-    end
+	if types.Actor.inventory(self):find("chargen statssheet") then
+		saveData.chargenFinished = true
+		return true
+	end
 	return false
 end
 
@@ -520,14 +564,14 @@ function onFrame(dt)
 	if _G["LENGTH_EQUALIZER"] > 0 then
 		local totalLength = 0
 		for _,resource in pairs(widgets) do
-			totalLength = totalLength + resources[resource](self).base
+			totalLength = totalLength + statCache[resource].base
 		end
 		--if math.abs(averageLength -totalLength /3) > 2 then
 		--	updateAll = true
 		--end
 		averageLength = totalLength /3
 		for a,resource in pairs(widgets) do
-			local max = resources[resource](self).base
+			local max = statCache[resource].base
 			if max <= 0 then
 				_G[resource].LENGTH_MULT = 0
 			else
@@ -537,14 +581,14 @@ function onFrame(dt)
 		end
 	else
 		for a,resource in pairs(widgets) do
-			_G[resource].LENGTH_MULT =  LENGTH_MULT
+			_G[resource].LENGTH_MULT = LENGTH_MULT
 		end
 	end
 	
 	-- Step 2: Apply MAX_LENGTH cap independently (find what the longest bar would be)
 	local maxLength = 0
 	for a,resource in pairs(widgets) do
-		local wouldBeLength = resources[resource](self).base * _G[resource].LENGTH_MULT
+		local wouldBeLength = statCache[resource].base * _G[resource].LENGTH_MULT
 		maxLength = math.max(maxLength, wouldBeLength)
 	end
 	
@@ -623,6 +667,14 @@ local function onSave()
 	return saveData
 end
 
+local function setAlpha(alpha)
+	containerAlpha = alpha
+	if container then
+		container.layout.props.alpha = containerAlpha
+		container:update()
+	end
+end
+
 return {    
 	engineHandlers = {
 		onFrame = onFrame,		
@@ -631,4 +683,7 @@ return {
 		onSave = onSave,
 		--onKeyPress = onKey
     },
+	eventHandlers = {
+		BetterBars_setAlpha = setAlpha,
+	}
 }

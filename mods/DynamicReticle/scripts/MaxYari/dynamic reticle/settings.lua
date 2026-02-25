@@ -66,14 +66,12 @@ function FileSelect:getFilePath(suffix)
     return nil
 end
 
--- Example usage for reticles
-local reticleSelector = 
 
 I.Settings.registerPage {
     key = 'DynamicReticlePage',
     l10n = 'DynamicReticle',
-    name = 'Réticule',
-    description = '~~ Animated reticle and enemy hp widget.',
+    name = 'Dynamic Reticle and Hit Markers',
+    description = '~~ Animated reticle, hit markers and enemy hp widget.',
 }
 
 I.Settings.registerGroup {
@@ -119,13 +117,24 @@ I.Settings.registerGroup {
         {
             key = 'StowedReticleAlpha',
             renderer = "number",
-            default = 0.2,
+            default = 0.3,
             argument = {
                 min = 0,
                 max = 1
             },
             name = "Stowed Reticle Opacity",
-            description = "Change reticle transparency to this value (0-1 range) when ne weapon or spell is readied."
+            description = "Change reticle transparency to this value (0-1 range) when a weapon or spell is readied."
+        },
+        {
+            key = 'MissedReticleAlpha',
+            renderer = "number",
+            default = 0.3,
+            argument = {
+                min = 0,
+                max = 1
+            },
+            name = "Missed Reticle Opacity",
+            description = "Temporarily fades-out to this opacity level (0-1 range) when your attack misses."
         },
         {
             key = 'ReticleScale',
@@ -180,7 +189,7 @@ I.Settings.registerGroup {
                 max = 1
             },
             name = "Weak Hit Marker Opacity",
-            description = "Weak hitmarkers are only used by the CHIM2090 combat mod"
+            description = "Weak hitmarkers are only used by CHIM2090 combat mod"
         },
         {
             key = "HitMarkerScale",
@@ -201,7 +210,7 @@ I.Settings.registerGroup {
         {
             key = 'SlowdownOnKillChance',
             renderer = 'number',
-            default = 0.2,
+            default = 0.25,
             argument = {
                 min = 0,
                 max = 1
@@ -277,7 +286,7 @@ I.Settings.registerGroup {
             folderPath = "sounds/dynamic reticle/hitmarkers/",
             withGroupingSuffix = false,
             settingsGroup = 'DynamicReticleSoundSettings',
-            default = "tamborine",
+            default = "fps_meaty_hit",
         },
         FileSelect:new {
             key = 'DeathMarkerSound',
@@ -285,12 +294,12 @@ I.Settings.registerGroup {
             folderPath = "sounds/dynamic reticle/hitmarkers/",
             withGroupingSuffix = false,
             settingsGroup = 'DynamicReticleSoundSettings',
-            default = "crash",
+            default = "bass_stab",
         },
         {
             key = "HitMarkerVolume",
             renderer = "number",
-            default = 1,
+            default = 2,
             argument = {
                 min = 0,
                 max = 10
@@ -300,12 +309,34 @@ I.Settings.registerGroup {
         {
             key = "DeathMarkerVolume",
             renderer = "number",
-            default = 1.2,
+            default = 2,
             argument = {
                 min = 0,
                 max = 10
             },
             name = "Death Marker Sound Volume"
+        },
+        {
+            key = "MarkerSoundPitchMin",
+            renderer = "number",
+            default = 0.8,
+            argument = {
+                min = 0.1,
+                max = 10
+            },
+            name = "Min Sound Pitch",
+            description = "Minimum value of a randomised pitch. 1.0 = no pitch change. Affects both hit and kill marker sounds."
+        },
+        {
+            key = "MarkerSoundPitchMax",
+            renderer = "number",
+            default = 1.2,
+            argument = {
+                min = 0,
+                max = 10
+            },
+            name = "Max Sound Pitch",
+            description = "Maximum value of a randomised pitch. 1.0 = no pitch change. Affects both hit and kill marker sounds."
         },
         {
             key = 'MeleeSound',

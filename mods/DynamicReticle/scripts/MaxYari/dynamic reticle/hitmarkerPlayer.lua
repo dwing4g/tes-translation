@@ -12,7 +12,6 @@ local animManager = require(mp .. "anim_manager")
 
 local core = require("openmw.core")
 local util = require("openmw.util")
-local storage = require("openmw.storage")
 local I = require("openmw.interfaces")
 local omwself = require("openmw.self")
 local camera = require("openmw.camera")
@@ -29,52 +28,61 @@ local stealthArrowLEl = ui_elements.getElementByName("stealthArrowL")
 local stealthArrowREl = ui_elements.getElementByName("stealthArrowR")
 
 -- Settings
-local visualSettings = storage.playerSection('DynamicReticleVisualSettings')
-local soundSettings = storage.playerSection('DynamicReticleSoundSettings')
-local hitMarkerColor = visualSettings:get("HitMarkerColor")
-local KillMarkerColor = visualSettings:get("KillMarkerColor")
-local HpWidgetOpacity = visualSettings:get("HpWidgetOpacity")
-local HpWidgetColor = visualSettings:get("HpWidgetColor")
-local HpWidgetDamageColor = visualSettings:get("HpWidgetDamageColor")
-local HpWidgetScale = visualSettings:get("HpWidgetScale")
-local StowedReticleAlpha = visualSettings:get("StowedReticleAlpha")
-local ShowHpWidget = visualSettings:get("ShowHpWidget")
-local SlowdownOnKillChance = visualSettings:get("SlowdownOnKillChance")
-local SlowdownOnKillDuration = visualSettings:get("SlowdownOnKillDuration")
+local visualSettings = gutils.SettingsHelper:new('DynamicReticleVisualSettings')
+local soundSettings = gutils.SettingsHelper:new("DynamicReticleSoundSettings")
 
 local currentTargetActor = nil
 local wasSneaking = false
 
 local tweeners = {}
 
+-- Reticle multiplier state: each slot has its own scale/alpha multipliers and tweener
+-- Final values are computed by multiplying all slots together with animConf.reticleAlpha
+local reticleState = {
+    sneak = { scale = 1.0, alpha = 1.0, tweener = nil },
+    shoot = { scale = 1.0, alpha = 1.0, tweener = nil },
+    miss = { scale = 1.0, alpha = 1.0, tweener = nil },
+    stowed = { scale = 1.0, alpha = 1.0, tweener = nil },
+}
+
+-- Compute final reticle size and alpha from all multiplier slots
+local function computeReticleValues()
+    local s = reticleState
+    local ru = reticleEl.userData
+    local finalScale = s.sneak.scale * s.shoot.scale * s.miss.scale * s.stowed.scale
+    local finalAlpha = animConf.reticleAlpha * s.sneak.alpha * s.shoot.alpha * s.miss.alpha * s.stowed.alpha
+    reticleEl.props.size = ru.size * finalScale
+    reticleEl.props.alpha = util.clamp(finalAlpha, 0, 1)
+end
+
 local targetDistanceTimer = 0
 local stanceNoneTimer = 0
 
 local hpWidgetShader = shaderUtils.ShaderWrapper:new('hpWidget', {
     uOpacity = 0,
-    uColor = HpWidgetColor:asRgb(),
-    uDamageColor = HpWidgetDamageColor:asRgb(),
-    uScale = HpWidgetScale,
+    uColor = visualSettings["HpWidgetColor"]:asRgb(),
+    uDamageColor = visualSettings["HpWidgetDamageColor"]:asRgb(),
+    uScale = visualSettings["HpWidgetScale"],
 })
 hpWidgetShader.animSectors = {}
 hpWidgetShader.animSectorsLen = 3
 
 local function canUseSound()
     local stance = selfActor:getDetailedStance()
-    return (soundSettings:get('MeleeSound') and stance == gutils.Actor.DET_STANCE.Melee) or
-        (soundSettings:get('MarksmanSound') and stance == gutils.Actor.DET_STANCE.Marksman) or
-        (soundSettings:get('SpellcasterSound') and stance == gutils.Actor.DET_STANCE.Spell)
+    return (soundSettings['MeleeSound'] and stance == gutils.Actor.DET_STANCE.Melee) or
+        (soundSettings['MarksmanSound'] and stance == gutils.Actor.DET_STANCE.Marksman) or
+        (soundSettings['SpellcasterSound'] and stance == gutils.Actor.DET_STANCE.Spell)
 end
 
-local function animateSlideMarker(el, isDead)
+local function animateSlideMarker(el, isDead, isWeakHit)
     local u = el.userData
     local alpha = animConf.hmAlpha
 
     if isDead then 
-        el.props.color = KillMarkerColor
+        el.props.color = visualSettings["KillMarkerColor"]
     else 
-        el.props.color = hitMarkerColor
-        if I.s3ChimDamage and I.s3ChimDamage.state and I.s3ChimDamage.state.currentHitQuality == I.s3ChimDamage.HIT_QUALITY.Weak then            
+        el.props.color = visualSettings["hitMarkerColor"]
+        if isWeakHit then            
             alpha = animConf.hmWeakAlpha
         else            
             alpha = animConf.hmAlpha
@@ -95,29 +103,36 @@ local function animateSlideMarker(el, isDead)
 end
 
 local function animateStealthStuff(show)
-    local arrows = {stealthArrowLEl,stealthArrowREl}    
-    local ru = reticleEl.userData
-    
-    ru.tweener = Tweener:new()
-    tweeners[reticleEl.name] = ru.tweener
+    local arrows = {stealthArrowLEl,stealthArrowREl}
+    local slot = reticleState.sneak
 
-    local function animateProps(t)
+    -- Cancel existing sneak animation and reset multiplier
+    if slot.tweener then
+        slot.tweener:finish()
+        slot.scale = 1.0
+    end
+
+    slot.tweener = Tweener:new()
+    tweeners["reticle_sneak"] = slot.tweener
+
+    local function animateArrows(t)
         for _, el in ipairs(arrows) do
             local eu = el.userData
             local offset = eu.direction * gutils.lerp(animConf.sneakArrowPartFromDist, animConf.sneakArrowPartToDist, t)
             el.props.relativePosition = util.vector2(0.5, 0.5) + offset
-            el.props.alpha = util.clamp(animConf.reticleAlpha * t,0,1)
+            el.props.alpha = util.clamp(animConf.reticleAlpha * t, 0, 1)
         end
-        reticleEl.props.size = gutils.lerp(ru.size, ru.size*animConf.reticleSneakSizeMult, t)
     end
 
     if show then
-        ru.tweener:add(0.5, Tweener.easings.springOutStrong, function(t)
-            animateProps(t)
+        slot.tweener:add(0.5, Tweener.easings.springOutStrong, function(t)
+            slot.scale = gutils.lerp(1, animConf.reticleSneakSizeMult, t)
+            animateArrows(t)
         end)
     else
-        ru.tweener:add(0.5, Tweener.easings.springOutStrong, function(t)
-            animateProps(1-t)
+        slot.tweener:add(0.5, Tweener.easings.springOutStrong, function(t)
+            slot.scale = gutils.lerp(animConf.reticleSneakSizeMult, 1, t)
+            animateArrows(1 - t)
         end)
     end
 end
@@ -160,6 +175,7 @@ local throttleInterval = 0.333
 local function onHostileDamaged(data)
     targetDistanceTimer = 0
     stanceNoneTimer = 0
+    local isWeakHit = data.glancedHit
 
     -- Throttle marker and sounds
     local currentTime = core.getRealTime()
@@ -171,7 +187,7 @@ local function onHostileDamaged(data)
     for name, el in pairs(hitmarkerWrapperEl.content) do
         if not el.name then goto continue end
 
-        animateSlideMarker(el, data.currentHealth <= 0)
+        animateSlideMarker(el, data.currentHealth <= 0, isWeakHit)
 
         ::continue::
     end
@@ -180,51 +196,86 @@ local function onHostileDamaged(data)
 
     if canUseSound() then
         local params
-        local pitches = {0.8,1, 1.2}
+        --local pitches = {0.5,1, 1.5}
+        --local pitch = pitches[math.random(1,#pitches)]
+        local minPitch = soundSettings["MarkerSoundPitchMin"]
+        local maxPitch = soundSettings["MarkerSoundPitchMax"]
+        local pitch = math.random() * (maxPitch - minPitch) + minPitch     
+
         local soundPath = nil
+
         if data.currentHealth <= 0 then
-            params = { volume = soundSettings:get("DeathMarkerVolume"), pitch = pitches[math.random(1,#pitches)], loop = false }
+            params = { volume = soundSettings["DeathMarkerVolume"], pitch = pitch, loop = false }
             soundPath = settings.fileSelectors["DeathMarkerSound"]:getFilePath()
         else
-            if I.s3ChimDamage and I.s3ChimDamage.state and I.s3ChimDamage.state.currentHitQuality == I.s3ChimDamage.HIT_QUALITY.Weak then
+            if isWeakHit then
                 -- Weak hit, play no sound
             else
-                params = { volume = soundSettings:get("HitMarkerVolume"), pitch = pitches[math.random(1,#pitches)], loop = false }
+                params = { volume = soundSettings["HitMarkerVolume"], pitch = pitch, loop = false }
                 soundPath = settings.fileSelectors["HitMarkerSound"]:getFilePath()
             end
-        end        
-        core.sound.playSoundFile3d(soundPath, omwself, params)
+        end
+        
+        if soundPath then
+            core.sound.playSoundFile3d(soundPath, omwself, params)
+        end
     end
 
     -- Send slowdown event to global script when enemy is killed
     
-    if data.currentHealth <= 0 and math.random() <= SlowdownOnKillChance then
+    if data.currentHealth <= 0 and math.random() <= visualSettings["SlowdownOnKillChance"] then
+        local SlowdownOnKillDuration = visualSettings["SlowdownOnKillDuration"]
         core.sendGlobalEvent("SlowdownEffect", { minScale = 0.2*SlowdownOnKillDuration, hold = 0.1*SlowdownOnKillDuration, inTime = 0.05*SlowdownOnKillDuration, outTime = 0.3*SlowdownOnKillDuration })
     end
+end
+
+-- Missed attack reticle fadeout --------------------
+-------------------------------------------------------
+local function onMissedAttack()
+    local slot = reticleState.miss
+
+    -- Cancel existing miss animation and reset multiplier
+    if slot.tweener then
+        slot.tweener:finish()
+        slot.scale = 1.0
+        slot.alpha = 1.0
+    end
+
+    slot.tweener = Tweener:new()
+    tweeners["reticle_miss"] = slot.tweener
+
+    slot.tweener:add(0.1, Tweener.easings.easeOutCubic, function(t)
+        slot.alpha = gutils.lerp(1, visualSettings["MissedReticleAlpha"], t)
+    end):add(0.3, Tweener.easings.easeOutCubic, function(t)
+        slot.alpha = gutils.lerp(visualSettings["MissedReticleAlpha"], 1, t)
+    end)
 end
 
 -- Reticle bounce on shoot -----------------
 --------------------------------------------
 animManager.addOnKeyHandler(function(groupname, key)
     if key == "shoot release" then
-        local ru = reticleEl.userData
-        ru.tweener = Tweener:new()
-        tweeners[reticleEl.name] = ru.tweener
+        local slot = reticleState.shoot
 
-        local originalSize = reticleEl.props.size
-        local enlargedSize = originalSize * 1.75
-        local originalAlpha = reticleEl.props.alpha
-        local reducedAlpha = originalAlpha * 0.33
+        -- Cancel existing shoot animation and reset multiplier
+        if slot.tweener then
+            slot.tweener:finish()
+            slot.scale = 1.0
+            slot.alpha = 1.0
+        end
+
+        slot.tweener = Tweener:new()
+        tweeners["reticle_shoot"] = slot.tweener
 
         -- Animate size and alpha when extending
-        ru.tweener:add(0.1, Tweener.easings.springOutStrong, function(t)
-            reticleEl.props.size = gutils.lerp(originalSize, enlargedSize, t)
-            reticleEl.props.alpha = gutils.lerp(originalAlpha, reducedAlpha, t)
+        slot.tweener:add(0.1, Tweener.easings.springOutStrong, function(t)
+            slot.scale = gutils.lerp(1, 1.75, t)
+            slot.alpha = gutils.lerp(1, 0.33, t)
         end)
         -- Animate size and alpha when shrinking back
         :add(0.3, Tweener.easings.easeOutCubic, function(t)
-            reticleEl.props.size = gutils.lerp(enlargedSize, originalSize, t)
-            reticleEl.props.alpha = gutils.lerp(reducedAlpha, originalAlpha, t)
+            slot.scale = gutils.lerp(1.75, 1, t)
+            slot.alpha = gutils.lerp(0.33, 1, t)
         end)
     end
 end)
@@ -232,6 +283,7 @@ end)
 -- onUpdate -------------------------------------------
 -------------------------------------------------------
 local function onUpdate(dt)
+    if dt <= 0 then return end
     local isHudVisible = I.UI.isHudVisible()
     local now = core.getSimulationTime()
 
@@ -246,7 +298,7 @@ local function onUpdate(dt)
         widgetShouldStart = true
     end
 
-    if widgetShouldStart and ShowHpWidget then
+    if widgetShouldStart and visualSettings["ShowHpWidget"] then
         hpWidgetShader:enable()
     else
         hpWidgetShader:disable()
@@ -260,20 +312,24 @@ local function onUpdate(dt)
         wasSneaking = isSneaking
     end
 
-    
+
     -- Update all tweeners
     for _, tweener in pairs(tweeners) do
         tweener:tick(dt)
-    end   
-    
-
-    
-    -- Removing current target actor if necessary. Curent target actor is the actor whos health is shown on the health widget
-    if currentTargetActor and currentTargetActor:isDead() then 
-        currentTargetActor = nil        
     end
 
+    -- Handle stowed stance multiplier (lerp towards stowed alpha when stance is "nothing")
     local stance = types.Actor.getStance(omwself)
+    local stowedSlot = reticleState.stowed
+    if stance == types.Actor.STANCE.Nothing then
+        stowedSlot.alpha = gutils.lerp(stowedSlot.alpha, visualSettings["StowedReticleAlpha"], gutils.dtForLerp(dt, 5))
+    else
+        stowedSlot.alpha = gutils.lerp(stowedSlot.alpha, 1, gutils.dtForLerp(dt, 5))
+    end
+
+    -- Update reticle from multiplier slots
+    computeReticleValues()
+
     if currentTargetActor then
         -- Distance can't be more than 10 meters for more than 3 seconds
         local distance = (currentTargetActor.gameObject.position - omwself.position):length()
@@ -299,16 +355,9 @@ local function onUpdate(dt)
         end
     end
 
-    -- Fade reticle alpha when stance is "nothing"    
-    if stance == types.Actor.STANCE.Nothing then
-        reticleEl.props.alpha = gutils.lerp(reticleEl.props.alpha, StowedReticleAlpha, gutils.dtForLerp(dt, 5))
-    else
-        reticleEl.props.alpha = gutils.lerp(reticleEl.props.alpha, animConf.reticleAlpha, gutils.dtForLerp(dt, 5))
-    end
-
     -- Update health widget
     if currentTargetActor then
-        hpWidgetShader.u.uOpacity = gutils.lerp(hpWidgetShader.u.uOpacity, HpWidgetOpacity, gutils.dtForLerp(dt, 5))
+        hpWidgetShader.u.uOpacity = gutils.lerp(hpWidgetShader.u.uOpacity, visualSettings["HpWidgetOpacity"], gutils.dtForLerp(dt, 5))
 
         -- Calculating size of the hp widget bar
         local healthStat = currentTargetActor:healthStat()
@@ -399,6 +448,7 @@ return {
     },
     eventHandlers = {
         [DEFS.e.HostileDamaged] = onHostileDamaged,
+        [DEFS.e.MissedAttack] = onMissedAttack
     },
     interfaceName = "DynamicReticle",
     interface = {
