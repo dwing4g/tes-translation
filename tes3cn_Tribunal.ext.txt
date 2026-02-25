@@ -8165,7 +8165,7 @@ I've met a wandering pilgrim named Nevrasa Dralor.
 
 > INFO.NAME mv_wanderingpilgrim 317603111452888407
 Nevrasa was grateful for my help in escorting her to this holy place. She has rewarded me with 150 septims.
-内芙拉莎很感激我护送她来到这个圣地。她给了我150塞普汀作为报酬。 {保镖}
+内芙拉莎很感激我护送她来到这个圣地。她给了我150塞普汀作为报酬。
 
 > INFO.NAME mv_wanderingpilgrim 8066194362490119050
 Nevrasa Dralor has died while on her pilgrimage. Now she can be closer to her god.
@@ -8573,15 +8573,15 @@ Pemenie and the Boots of Blinding Speed
 
 > INFO.NAME mv_traderabandoned 1810328139569724665
 I met Pemenie, a Redguard trader, while traveling west of Balmora. She would like help getting a shipment of goods to Gnaar Mok. Seems her escort abandoned her on the trip.
-我在巴尔莫拉西部旅行时遇到了红卫人贸易商佩梅涅。她希望我帮她把一批货物运到纳尔-莫克。似乎她的护卫在旅途中抛弃了她。 {保镖}
+我在巴尔莫拉西部旅行时遇到了红卫人贸易商佩梅涅。她希望我帮她把一批货物运到纳尔-莫克。似乎她的护送者在旅途中抛弃了她。
 
 > INFO.NAME mv_traderabandoned 876892312098223310
 I was able to escort Pemenie safely to Gnaar Mok, and in exchange, she gave me the Boots of Blinding Speed. I have not yet worn them, but they may be powerful indeed.
-我护送佩梅涅安全抵达了纳尔-莫克，作为回报，她把致盲神速靴送给了我。我还没有穿上它，但它可能真的很强大。 {保镖,速度}
+我护送佩梅涅安全抵达了纳尔-莫克，作为回报，她把致盲神速靴送给了我。我还没有穿上它，但它可能真的很强大。 {速度}
 
 > INFO.NAME mv_traderabandoned 20526384729016235
 While escorting her to Gnaar Mok, Pemenie met an unfortunate end. Well, unfortunate for her, anyway.
-在护送佩梅涅前往纳尔-莫克的途中，她遭遇了不幸。不管怎么说，对她来说是不幸的。 {保镖}
+在护送佩梅涅前往纳尔-莫克的途中，她遭遇了不幸。不管怎么说，对她来说是不幸的。
 
 > INFO.NAME fg_telvanni_agents 218623046490215864
 Fighters Guild: The Telvanni Agents
@@ -8757,11 +8757,11 @@ Mages Guild: Escort Tenyeminwe
 
 > INFO.NAME mg_escortscholar1 27493305952297617750
 Skink asked me to escort the scholar Tenyeminwe to Gals Arethi's ship, the Elf-Skerring, over at the Telvanni docks.
-树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷提的船——精灵游荡号。 {保镖}
+树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷提的船——精灵游荡号。
 
 > INFO.NAME mg_escortscholar1 27601113291517218622
 Skink thanked me for escorting Tenyeminwe to the Elf-Skerring.
-树荫感谢我护送坦耶明威前往精灵游荡号。 {保镖}
+树荫感谢我护送坦耶明威到精灵游荡号。
 
 > INFO.NAME mg_escortscholar2 17606254521846523128
 Mages Guild: Escort Itermerel
@@ -8769,7 +8769,7 @@ Mages Guild: Escort Itermerel
 
 > INFO.NAME mg_escortscholar2 15540235652551428921
 Ranis Athrys asked me to escort the scholar Itermerel, who is staying at the Eight Plates, to Pelagiad. What Ranis really wants, however, is a copy of Itermerel's notes.
-拉妮斯·阿特里斯让我护送住在八盘旅店的学者伊特梅瑞尔去佩拉吉亚德。然而，拉妮斯真正想要的是伊特梅瑞尔的笔记副本。 {保镖}
+拉妮斯·阿特里斯让我护送住在八盘旅店的学者伊特梅瑞尔去佩拉吉亚德。然而，拉妮斯真正想要的是伊特梅瑞尔的笔记副本。
 
 > INFO.NAME mg_escortscholar2 2647417905377312093
 I delivered Itermerel's notes to Ranis.
@@ -8961,11 +8961,11 @@ House Hlaalu: Escort Tarvyn Faren
 
 > INFO.NAME hh_escortmerchant 615616476473814178
 Edryno Arethi asked me to escort the trader Tarvyn Faren from the North Landing here in Vivec to Pelagiad.
-埃德里诺·阿雷提让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷提让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。
 
 > INFO.NAME hh_escortmerchant 1996331301205355064
 Edryno Arethi thanked me for escorting Tarvyn Faren to Pelagiad.
-埃德里诺·阿雷提感谢我护送塔文·法伦前往佩拉吉亚德。 {保镖}
+埃德里诺·阿雷提感谢我护送塔文·法伦前往佩拉吉亚德。
 
 > INFO.NAME hh_ashlanderebony 2488627585889230507
 House Hlaalu: Ashlander Ebony
@@ -10393,7 +10393,7 @@ Gentleman Jim Stacey thanked me for returning Nads Tharen's key and avenging his
 
 > INFO.NAME mv_tradermissed 82543613260693125
 An Escort to Molag Mar
-一次前往莫拉格-玛尔的护卫之旅
+一次前往莫拉格-玛尔的护送之旅
 
 > INFO.NAME mv_tradermissed 19755240822353128148
 I met a trader named Paur Maston while traveling north of Bal Fell. It seems he was supposed to meet up with his partner, a Khajiit named Vanjirra, but Paur arrived late, and she had already gone on to Molag Mar.
@@ -10401,7 +10401,7 @@ I met a trader named Paur Maston while traveling north of Bal Fell. It seems he 
 
 > INFO.NAME mv_tradermissed 3234382852344026970
 I've decided not to escort Paur Maston to Molag Mar. I have other things that are more important to take care of.
-我决定不护送保罗·马斯顿去莫拉格-玛尔了。我还有其他更重要的事要处理。 {保镖}
+我决定不护送保罗·马斯顿去莫拉格-玛尔了。我还有其他更重要的事要处理。
 
 > INFO.NAME mv_tradermissed 304819751277349016
 Paur Maston met his end while on the trip to Molag Mar. Sadly, he will never be able to meet up with his partner, Vanjirra.
@@ -10413,7 +10413,7 @@ We have found Paur Maston's partner, Vanjirra. They were honest folks, and did r
 
 > INFO.NAME mv_tradermissed 29267265082254930396
 I arrived in Molag Mar with Paur Maston. Of course, I knew that Vanjirra was already dead, but didn't figure that Paur needed to know that as well. The fool still paid me what he could for escorting him here.
-我和保罗·马斯顿一起来到了莫拉格-玛尔。当然，我知道万吉拉已经死了，但没想到保尔也需要知道这一点。这个傻瓜还是尽其所能付给了我护送他来这里的报酬。 {保镖}
+我和保罗·马斯顿一起来到了莫拉格-玛尔。当然，我知道万吉拉已经死了，但没想到保尔也需要知道这一点。这个傻瓜还是尽其所能付给了我护送他来这里的报酬。
 
 > INFO.NAME mv_tradermissed 150730112949927496
 I arrived in Molag Mar and spoke to Vanjirra. She was saddened to hear of Paur's demise on our journey here, but was grateful that I was kind enough to tell her what had happened. An honest person, she rewarded me in a small way for my efforts.
@@ -11577,11 +11577,11 @@ While traveling in the area west of Maar Gan, I met a pilgrim named Fonus Rathry
 
 > INFO.NAME mv_poorpilgrim 1993524061069228181
 I've declined to escort Fonus Rathryon on his pilgrimage. I've better things to do than babysit some religious fanatic.
-我拒绝护送佛努斯·拉特里恩朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。 {保镖}
+我拒绝护送佛努斯·拉特里恩朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。
 
 > INFO.NAME mv_poorpilgrim 31325186232731615438
 I escorted Fonus Rathryon to Koal Cave, and he paid me the 150 septims that he promised.
-我护送佛努斯·拉特里恩来到考尔洞穴，他也按照约定付给了我150塞普汀。 {保镖}
+我护送佛努斯·拉特里恩来到考尔洞穴，他也按照约定付给了我150塞普汀。
 
 > INFO.NAME mv_poorpilgrim 142657888173011253
 I was unable to get Fonus Rathryon to Koal Cave within the time specified, and he has decided to find another guide. Oh, well. Best of luck to him. He was wearing on my nerves anyway.
@@ -11589,7 +11589,7 @@ I was unable to get Fonus Rathryon to Koal Cave within the time specified, and h
 
 > INFO.NAME mv_poorpilgrim 278894661430531345
 While escorting Fonus Rathryon to Koal Cave, he came to an untimely end. There's no more I can do for him now.
-在护送佛努斯·拉特里恩前往考尔洞穴时，他英年早逝了。现在我已经无能为力了。 {保镖}
+在护送佛努斯·拉特里恩前往考尔洞穴时，他英年早逝了。现在我已经无能为力了。
 
 > INFO.NAME mv_richpilgrim 20893109723221243
 Viatrix, The Annoying Pilgrim
@@ -11597,7 +11597,7 @@ Viatrix, The Annoying Pilgrim
 
 > INFO.NAME mv_richpilgrim 692278062967624870
 Viatrix Petilia stopped me on the side of the road near Ald'ruhn. She claims to be a pilgrim on her way to Ghostgate Shrine. Her haughty attitude suggests a person who is used to being waited on. She'd like me to escort her to the Ghostgate Shrine, and she promises a "tip" if I deliver her there safely, and within two days' time.
-薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。 {保镖,提示}
+薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。 {提示}
 
 > INFO.NAME mv_richpilgrim 1524327818231821325
 I've led Viatrix Petilia safely to Ghostgate. She did, indeed, give me a "tip" for my services, but it seems rather meager compensation from someone of such obvious means.
@@ -12657,11 +12657,11 @@ A Man and His Guar
 
 > INFO.NAME mv_richtrader 1354429058674025913
 I ran into a trader, Teris Raledran, while traveling near Seyda Neen. He is trying to get a shipment of clothing to Agrippina Herennia in Vivec. He would like me to escort him and his pack guar, Rollie, and ensure their safety on the way.
-我在赛达-尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔——瓜尔罗利，并确保他们在途中的安全。 {保镖}
+我在赛达-尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔——瓜尔罗利，并确保他们在途中的安全。
 
 > INFO.NAME mv_richtrader 1829461442819417989
 I've decided to escort neither Teris Raledran nor his guar to Vivec. This man is unstable at best. And the guar is no better.
-我决定既不护送特里斯·拉莱德兰，也不护送他的瓜尔去维威克城。这个太过反复无常，瓜尔也好不到哪里去。 {保镖}
+我决定既不护送特里斯·拉莱德兰，也不护送他的瓜尔去维威克城。这个太过反复无常，瓜尔也好不到哪里去。
 
 > INFO.NAME mv_richtrader 14020289441792720814
 As promised, Teris has paid me 200 septims. Rollie had little to say to me on the matter.
@@ -12669,7 +12669,7 @@ As promised, Teris has paid me 200 septims. Rollie had little to say to me on th
 
 > INFO.NAME mv_richtrader 28492241462691417745
 Teris has paid me 100 septims for escorting him to Vivec. Although he promised me 200, I really only got half my job done, as Rollie did not make it. Perhaps he can use the rest of the money to create a memorial to his friend, Rollie the Guar.
-泰瑞斯已经付给我100塞普汀，作为护送他去维威克城的报酬。虽然他答应给我200塞普汀，但我实际上只完成了一半的工作，因为罗利没有成功抵达。也许他可以用剩下的钱为他的朋友瓜尔罗利建一座纪念碑。 {保镖}
+泰瑞斯已经付给我100塞普汀，作为护送他去维威克城的报酬。虽然他答应给我200塞普汀，但我实际上只完成了一半的工作，因为罗利没有成功抵达。也许他可以用剩下的钱为他的朋友瓜尔罗利建一座纪念碑。
 
 > INFO.NAME mv_richtrader 3864279993112710732
 While on our way to Vivec, Teris Raledran met his end. It was sad to see the end of the eccentric trader, and I'm sure Rollie feels the pain of his death.
@@ -13209,7 +13209,7 @@ It is Almelexia's belief that the Shrine of the Dead can be reclaimed, and its p
 
 > INFO.NAME tr_shrinedead 19788202563149212965
 Drin asks that I escort one of Almalexia's young curates, Urvel Dulni, to this shrine to cleanse it and restore its power. I will first have to rid the area of all of the Profane, powerful liches who draw strength from the power of the Shrine of the Dead. When they are destroyed, Dulni will cleanse the shrine. I should enter the sewers from the Temple basement. Once there, I will need to head east through the old Temple Gardens, then south to find the Shrine of the Dead.
-德林要求我护送阿玛莱西娅的一位年轻祭主，乌维尔·杜尔尼，到这个神殿去净化它，恢复它的力量。我首先要清除这个地区所有的亵渎者，它们是从亡者圣祠的力量中汲取能量的强大巫妖。当它们被消灭后，杜尔尼将净化神殿。我应该从神殿的地下室进入下水道。一旦到了那里，我就需要向东走，穿过神殿花园的旧址，然后向南走，找到亡者圣祠。 {保镖}
+德林要求我护送阿玛莱西娅的一位年轻祭主，乌维尔·杜尔尼，到这个神殿去净化它，恢复它的力量。我首先要清除这个地区所有的亵渎者，它们是从亡者圣祠的力量中汲取能量的强大巫妖。当它们被消灭后，杜尔尼将净化神殿。我应该从神殿的地下室进入下水道。一旦到了那里，我就需要向东走，穿过神殿花园的旧址，然后向南走，找到亡者圣祠。
 
 > INFO.NAME tr_shrinedead 2102228915256767355
 I have killed the last of the Profane, the liches guarding the Shrine of the Dead.
@@ -14517,7 +14517,7 @@ Fighters Guild: Sondaale
 
 > INFO.NAME fg_telasero 102281911584112318
 Hrundi asked me to escort another scholar, Sondaale of Shimmerene, through the stronghold of Telasero. She will meet me there. Telasero is between Suran and the Silt Strider port near Molag Mar.
-赫仑迪让我护送另一位学者，微光城的松达蕾通过泰拉塞洛的堡垒。她会在那里等我。泰拉塞洛位于苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。 {保镖}
+赫仑迪让我护送另一位学者，微光城的松达蕾通过泰拉塞洛的堡垒。她会在那里等我。泰拉塞洛位于苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。
 
 > INFO.NAME fg_telasero 1949467892635632310
 Hrundi thanked me for helping Sondaale of Shimmerene.
@@ -14545,11 +14545,11 @@ House Redoran: Escort to Koal Cave
 
 > INFO.NAME hr_koalcave 217541065230395200
 Tuveso Beleth asked me to escort her son, Deval Beleth, to the Koal Cave which is on the coast southwest of Gnisis.
-图维索·贝莱斯让我护送她的儿子德瓦尔·贝莱斯前往位于尼希斯西南海岸的考尔洞穴。 {保镖}
+图维索·贝莱斯让我护送她的儿子德瓦尔·贝莱斯前往位于尼希斯西南海岸的考尔洞穴。
 
 > INFO.NAME hr_koalcave 1530512626674928282
 Tuveso Beleth thanked me for escorting her son to the Koal Cave.
-图维索·贝莱斯感谢我护送她的儿子前往考尔洞穴。 {保镖}
+图维索·贝莱斯感谢我护送她的儿子前往考尔洞穴。
 
 > INFO.NAME hr_oldflame 318291888621959664
 House Redoran: Nalvilie Saren
@@ -16321,7 +16321,7 @@ Hannat Zainsubani
 
 > INFO.NAME ms_hannat 788030584196507850
 Hannat Zainsubani died while I tried to escort him from Mamaea Caverns.
-汉纳特·扎因苏巴尼在我试图护送他离开玛梅亚洞穴时死去。 {保镖}
+汉纳特·扎因苏巴尼在我试图护送他离开玛梅亚洞穴时死去。
 
 > INFO.NAME ms_hannat 291291764920663
 Hassour Zainsubani was grateful for the news of his son's rescue. He rewarded me with raw ebony, and he also gave his own enchanted blade and a ring from his own finger to thank me.
@@ -16333,7 +16333,7 @@ Hannat Zainsubani thanked me, and reminded me to speak to his father, Hassour Za
 
 > INFO.NAME ms_hannat 7277251582109415518
 I have successfully escorted Hannat Zainsubani from Mamaea Caverns.
-我已成功护送汉纳特·扎因苏巴尼离开玛梅亚岩洞。 {保镖}
+我已成功护送汉纳特·扎因苏巴尼离开玛梅亚岩洞。
 
 > INFO.NAME ic10_hoki 251208298175629499
 Imperial Cult: Buckmoth Alms
@@ -19673,7 +19673,7 @@ My champion is dead, %PCName. Your treachery will not go unpunished! Guards!
 
 > INFO.NAME fight my champion 20388175531037128290
 I see you are prepared to fight my champion, but you have your mercenary with you. Though I understand the value of a good sword at your side, this is to be a personal battle. Please escort your companion out of the Throne Room. He will be safe outside. When you return, we may begin.
-虽然你已准备好跟我的勇士战斗了，可你还带着你的同伴。我知道身边有个强者的好处，但这是一场单独的对决。请把你的同伴带出王座厅，他在外面会很安全。等你回来，我们就可以开始了。 {保镖}
+虽然你已准备好跟我的勇士战斗了，可你还带着你的同伴。我知道身边有个强者的好处，但这是一场单独的对决。请护送你的同伴出王座厅，他在外面会很安全。等你回来，我们就可以开始了。
 
 > INFO.NAME fight my champion 29068919923063464
 Ahhh...you have come to meet Karrod in battle. Good for you. Karrod is looking a bit under the weather today, but no matter. Perhaps you've heard that Karrod has never been defeated in battle? It's true. Amazing, don't you think? Regardless, this will be a fair fight. You may both use whatever weapons are at your disposal. I wish you both luck. None are to interfere, and you will begin on my command.
@@ -20113,7 +20113,7 @@ Sir, you're going to have to leave. Please come with me.
 
 > INFO.NAME must be cleansed 16030276502417825843
 No...certainly not by you. This task falls to one of Almalexia's chosen. You will escort this young priest, Urvel Dulni, to the shrine. Protect him well, %PCName. His experience is limited, but he is necessary to complete the ritual. The Shrine is protected by the Profane, powerful liches who feed from the power of the shrine. You must destroy them for Dulni to perform his duties. I stress again...protect Dulni at all costs. It is he who must perform the ceremony. If he is not able, there are no others.
-不…当然不是让你来。这个任务由阿玛莱西娅选中的人承担。你要护送这位年轻祭司，乌维尔·杜尔尼，到神殿去。好好保护他，%PCName。他的经验有限，但他是完成仪式的必要条件。亵渎者们保护着神殿，它们是以神殿的力量为食的强大巫妖。你必须摧毁他们，让杜尔尼完成他的职务。我再强调一遍…不惜一切代价保护杜尔尼。他必须完成这个仪式。如果他做不到，就没有其他人了。 {保镖}
+不…当然不是让你来。这个任务由阿玛莱西娅选中的人承担。你要护送这位年轻祭司，乌维尔·杜尔尼，到神殿去。好好保护他，%PCName。他的经验有限，但他是完成仪式的必要条件。亵渎者们保护着神殿，它们是以神殿的力量为食的强大巫妖。你必须摧毁他们，让杜尔尼完成他的职务。我再强调一遍…不惜一切代价保护杜尔尼。他必须完成这个仪式。如果他做不到，就没有其他人了。
 
 > INFO.NAME anonymous writer 1189814713726410206
 Oh yeah, sure. Heard ya the f-f-first time.
@@ -28055,7 +28055,7 @@ Look, I don't know what's going on in this place. Monsters bursting up from the 
 
 > INFO.NAME greeting 1 2718223277727823763
 What're you looking at? No, I'm not paralyzed. And I've never even met a witch, much less been asked to escort one anywhere. Why am I naked? Because it's too damned hot here! You people think that every time you see a naked Nord barbarian, he's been tricked by some witch. So narrow minded. Now leave me alone.
-你在看什么？不，我没有瘫痪。我从来没有见过女巫，更没有被要求护送什么人去哪里。我为什么赤身裸体？因为这里太他妈热了！你们这些人以为你们看到的裸体的诺德人野蛮人都是被女巫骗了。真是刻板印象。现在别管我了。 {保镖}
+你在看什么？不，我没有瘫痪。我从来没有见过女巫，更没有被要求护送什么人去哪里。我为什么赤身裸体？因为这里太他妈热了！你们这些人以为你们看到的裸体的诺德人野蛮人都是被女巫骗了。真是刻板印象。现在别管我了。
 
 > INFO.NAME greeting 1 2901239213273929326
 I told you I don't need any help. I'm just trying to cool off a bit. I've never even seen a witch! You people and your stereotypes....
