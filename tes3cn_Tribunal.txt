@@ -42700,20 +42700,20 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "13841291042241322349$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "兽人的恩惠"
+ INFO.NAME "帮兽人的忙"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "13841291042241322349$00"
  INFO.PNAM "21612230731379429050$00"
  INFO.NNAM "29189265603191117985$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我在卡尔德拉北部的森林里遇到了一个叫巴戈罗的兽人。他似乎在躲避城镇卫兵，也就是他口中的城镇老大。 {瓜尔}"
+ INFO.NAME "我在卡尔德拉北部的森林里遇到了一个叫布格罗尔的兽人。他似乎在躲避城镇卫兵，也就是他口中的城镇老大。 {瓜尔}"
 -INFO
  INFO.INAM "768822733593229045$00"
  INFO.PNAM "29189265603191117985$00"
  INFO.NNAM "990018003060119768$00"
  INFO.DATA [04 00 00 00 19 00 00 00 FF FF FF 00]
- INFO.NAME "巴戈罗要我把他给我的一张纸条交给他在卡尔德拉的朋友巴舒克·格拉-巴特。我想不出还有比这更浪费时间的事了。"
+ INFO.NAME "布格罗尔要我把他给我的一张纸条交给他在卡尔德拉的朋友巴舒克·格拉-巴特。我想不出还有比这更浪费时间的事了。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "9155322791675011351$00"
@@ -46974,7 +46974,7 @@ Choice ""我会尽力不伤到他。"" 1 ""我什么也不能保证。"" 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.CNAM "Savant Service$00"
- INFO.NAME "先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是你寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉领主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}"
+ INFO.NAME "神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫堡垒。我也毫不惊讶地发现，“曙暮之翼”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是迪德拉领主阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {迪德拉式}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Journal IC26_AmaNin 10
@@ -47006,7 +47006,7 @@ ShowMap Berandas"
  INFO.NNAM "14011281241423210826$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llaalam Dredil$00"
- INFO.NAME "神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫要塞。我也毫不惊讶地发现，“曙暮翼魔”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是迪德拉领主阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {堡垒,迪德拉式}"
+ INFO.NAME "神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫堡垒。我也毫不惊讶地发现，“曙暮之翼”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是迪德拉领主阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {迪德拉式}"
  INFO.BNAM "Journal IC26_AmaNin 10
 ShowMap Berandas"
 -INFO
@@ -47016,7 +47016,7 @@ ShowMap Berandas"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.CNAM "Savant$00"
- INFO.NAME "先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是你寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉领主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}"
+ INFO.NAME "神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫堡垒。我也毫不惊讶地发现，“曙暮之翼”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是迪德拉领主阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {迪德拉式}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Journal IC26_AmaNin 10
@@ -91271,7 +91271,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM079.mp3$00"
- INFO.NAME "不太像落锤，嗯，红卫人？"
+ INFO.NAME "和落锤不太一样，对吧，红卫人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91299,7 +91299,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM081.mp3$00"
- INFO.NAME "不太像夏暮岛，嗯，高精灵？"
+ INFO.NAME "和夏暮岛不太一样，对吧，高精灵？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91313,7 +91313,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM082.mp3$00"
- INFO.NAME "不太像瓦伦森林，嗯，木精灵？"
+ INFO.NAME "和瓦伦森林不太一样，对吧，木精灵？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91327,7 +91327,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM083.mp3$00"
- INFO.NAME "不太像高岩，嗯，布莱顿人？"
+ INFO.NAME "和高岩不太一样，对吧，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91341,7 +91341,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM084.mp3$00"
- INFO.NAME "不太像天际，嗯，诺德人？"
+ INFO.NAME "和天际不太一样，对吧，诺德人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91355,7 +91355,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM085.mp3$00"
- INFO.NAME "不太像奥辛纽姆，嗯，兽人？"
+ INFO.NAME "和奥辛纽姆不太一样，对吧，兽人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91369,7 +91369,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM086.mp3$00"
- INFO.NAME "不太像黑沼泽，嗯，阿尔贡？"
+ INFO.NAME "和黑沼泽不太一样，对吧，阿尔贡？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91383,7 +91383,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM087.mp3$00"
- INFO.NAME "不太像艾斯维尔，嗯，卡吉特？"
+ INFO.NAME "和艾斯维尔不太一样，对吧，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.SCVR "12sX5Random100"
@@ -91397,7 +91397,7 @@ Goodbye"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Mournhold$00"
  INFO.SNAM "Vo\i\m\tHlo_IM088.mp3$00"
- INFO.NAME "不太像西罗帝尔，嗯，帝国人？"
+ INFO.NAME "和西罗帝尔不太一样，对吧，帝国人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "12sX5Random100"
