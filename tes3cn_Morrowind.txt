@@ -189998,7 +189998,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "29716227331842317559$00"
  INFO.NNAM "280046750578919808$00"
  INFO.DATA [04 00 00 00 D2 00 00 00 FF FF FF 00]
- INFO.NAME "唐多斯·钻勒告诉我，我需要从巴尔莫拉这里的战士公会或附近的月蛾要塞为我的据点招募一名卫兵。我还需要找到并杀死破坏我的堡垒附近贸易的强盗。 {瓜尔}"
+ INFO.NAME "唐多斯·钻勒告诉我，我需要从巴尔莫拉这里的战士公会或附近的月蛾要塞为我的堡垒招募一名卫兵。我还需要找到并杀死破坏我的堡垒附近贸易的强盗。 {瓜尔}"
 -INFO
  INFO.INAM "280046750578919808$00"
  INFO.PNAM "264824273181657384$00"
@@ -209476,7 +209476,7 @@ Player->AddItem ""Teeth"" 1"
  INFO.SCVR "04JX3B8_MeetVivec"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Vivec; Journal ""B8_MeetVivec"" = 50;
-addtopic ""红山都堡"""
+addtopic ""红山城堡"""
 -DIAL
  DIAL.NAME "挑战我的地位$00"
  DIAL.DATA [00]
@@ -211338,7 +211338,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Pauper$00"
  INFO.ANAM "Ald-ruhn$00"
- INFO.NAME "雄蛾要塞爆发了枯萎病！有士兵疯了，变成了一个长满疮的肥胖生物！身上的肉都松弛下来了，然后他就那样死了！你不能让我靠近那个堡垒。"
+ INFO.NAME "雄蛾要塞爆发了枯萎病！有士兵疯了，变成了一个长满疮的肥胖生物！身上的肉都松弛下来了，然后他就那样死了！你不能让我靠近那个要塞。"
  INFO.SCVR "04JX3A1_SleepersAwake"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -211350,7 +211350,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Commoner$00"
  INFO.ANAM "Ald-ruhn$00"
- INFO.NAME "你听说了吗？雄蛾要塞里爆发了尸化病，一个士兵得了尸化病，死了，疯了，变成了怪物！整个堡垒都骚动起来了。"
+ INFO.NAME "你听说了吗？雄蛾要塞里爆发了尸化病，一个士兵得了尸化病，死了，疯了，变成了怪物！整个要塞都骚动起来了。"
  INFO.SCVR "04JX3A1_SleepersAwake"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -244176,7 +244176,7 @@ StartScript FastEddieAmulet"
  INFO.NNAM "2683014263165235399$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aryon$00"
- INFO.NAME "统谏使是以灵感为领导的勇士。他在单挑中挑战敌对英雄。他长途跋涉，孤注一掷。他独自闯入敌人的堡垒。他直面家族中无人有足够力量…或勇气…去面对的危险。"
+ INFO.NAME "统谏使是以灵感为领导的勇士。他在单挑中挑战敌对英雄。他长途跋涉，孤注一掷。他独自闯入敌人的城堡。他直面家族中无人有足够力量…或勇气…去面对的危险。"
  INFO.SCVR "34JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -244185,7 +244185,7 @@ StartScript FastEddieAmulet"
  INFO.NNAM "6237183551481729562$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Telvanni$00"
- INFO.NAME "统谏使是以灵感为领导的勇士。他在单挑中挑战敌对英雄。他长途跋涉，孤注一掷。他独自闯入敌人的堡垒。他直面家族中无人有足够力量…或勇气…去面对的危险。"
+ INFO.NAME "统谏使是以灵感为领导的勇士。他在单挑中挑战敌对英雄。他长途跋涉，孤注一掷。他独自闯入敌人的城堡。他直面家族中无人有足够力量…或勇气…去面对的危险。"
  INFO.SCVR "07XX0therana"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX3A2_6_Incarnate"
@@ -244205,7 +244205,7 @@ StartScript FastEddieAmulet"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 08 FF FF 00]
  INFO.FNAM "Hlaalu$00"
- INFO.NAME "统谏使是以灵感为领导的勇士。他在单挑中挑战敌对英雄。他长途跋涉，孤注一掷。他独自闯入敌人的堡垒。他直面家族中无人有足够力量…或勇气…去面对的危险。"
+ INFO.NAME "统谏使是以灵感为领导的勇士。他在单挑中挑战敌对英雄。他长途跋涉，孤注一掷。他独自闯入敌人的城堡。他直面家族中无人有足够力量…或勇气…去面对的危险。"
  INFO.SCVR "34JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
 -DIAL
@@ -247272,7 +247272,7 @@ moddisposition 15"
  INFO.SCVR "0CsX0nolore"
  INFO.INTV [00 00 00 00]
 -DIAL
- DIAL.NAME "红山都堡$00"
+ DIAL.NAME "红山城堡$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "30257107281490218387$00"
@@ -247281,7 +247281,7 @@ moddisposition 15"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Priest$00"
  INFO.FNAM "Temple$00"
- INFO.NAME "通往红山都堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山都堡中。"
+ INFO.NAME "通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。"
  INFO.BNAM "ShowMap Odrosal
 ShowMap ""Dagoth Ur""
 ShowMap Vemynal
@@ -247316,7 +247316,7 @@ ShowMap Tureynulal"
  INFO.NNAM "19394179902552622736$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Buoyant Armiger$00"
- INFO.NAME "通往红山都堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山都堡中。"
+ INFO.NAME "通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [21 00 00 00]
  INFO.BNAM "ShowMap Odrosal
@@ -247329,7 +247329,7 @@ ShowMap Tureynulal"
  INFO.NNAM "199571424632005493$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Ordinator$00"
- INFO.NAME "通往红山都堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山都堡中。"
+ INFO.NAME "通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [21 00 00 00]
  INFO.BNAM "ShowMap Odrosal
@@ -247342,7 +247342,7 @@ ShowMap Tureynulal"
  INFO.NNAM "789515498991116548$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Ghostgate$00"
- INFO.NAME "通往红山都堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山都堡中。"
+ INFO.NAME "通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [21 00 00 00]
  INFO.BNAM "ShowMap Odrosal
@@ -255604,7 +255604,7 @@ Choice ""继续"" 1"
  INFO.NNAM "276761092870272018$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Molag Mar$00"
- INFO.NAME "灵动扈从和瑞多然的堡垒、旅店以及其他服务设施都在莫拉格-玛尔堡垒内，有的在层顶，有的在下层的内部。道路向北通往莫拉格-阿穆尔荒原上的两个朝圣地：阿萨恩尼比比山和坎德山。阔步沙蚤服务通往苏兰和维威克城。从码头可以乘船前往维威克城、泰尔-布勒诺拉和哈拉-奥德。"
+ INFO.NAME "灵动扈从和瑞多然的驻军地、旅店以及其他服务设施都在莫拉格-玛尔堡垒内，有的在层顶，有的在下层的内部。道路向北通往莫拉格-阿穆尔荒原上的两个朝圣地：阿萨恩尼比比山和坎德山。阔步沙蚤服务通往苏兰和维威克城。从码头可以乘船前往维威克城、泰尔-布勒诺拉和哈拉-奥德。"
  INFO.SCVR "07XX0dilami androm"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "17XX0rindral dralor"
@@ -255719,7 +255719,7 @@ Choice ""继续"" 1"
  INFO.NNAM "785317362024314446$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Ghostgate$00"
- INFO.NAME "出幽魂之门没有任何旅行服务。返回巴尔莫拉，沿玛梅亚熔渠向南直到经过一座古老的锻莫桥，然后留意峡谷西北方通往月蛾要塞和巴尔莫拉的道路，或者峡谷东南方通往佩拉吉亚德要塞、赛达-尼恩和南方各点的道路。"
+ INFO.NAME "出幽魂之门没有任何旅行服务。返回巴尔莫拉，沿玛梅亚熔渠向南直到经过一座古老的锻莫桥，然后留意峡谷西北方通往月蛾要塞和巴尔莫拉的道路，或者峡谷东南方通往佩拉吉亚德、赛达-尼恩和南方各点的道路。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -267253,7 +267253,7 @@ ShowMap ""Dagon Fel"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Moonmoth Legion Fort$00"
- INFO.NAME "你就是拉里乌斯·瓦罗要找的人。你会在堡垒里找到他。 {谈}"
+ INFO.NAME "你就是拉里乌斯·瓦罗要找的人。你会在要塞里找到他。 {谈}"
  INFO.SCVR "04JX3town_balmora"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4town_balmora"
@@ -268867,7 +268867,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.NNAM "6126261832187221723$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Ghostgate$00"
- INFO.NAME "你看起来像是要去红山的人。我们不会阻止你，但我们警告你：没有应对枯萎病瘟疫的防护措施，你走不远的。即使有保护措施，当它失效时你还得有足够的枯萎病治疗方法，你也必须规划好，只在短时间内进入红山，然后迅速返回以获得治疗和治愈。里面的生物既可怕又数量庞大。废墟和堡垒里的情况更糟。 {疾病,计划}"
+ INFO.NAME "你看起来像是要去红山的人。我们不会阻止你，但我们警告你：没有应对枯萎病瘟疫的防护措施，你走不远的。即使有保护措施，当它失效时你还得有足够的枯萎病治疗方法，你也必须规划好，只在短时间内进入红山，然后迅速返回以获得治疗和治愈。里面的生物既可怕又数量庞大。废墟和城堡里的情况更糟。 {疾病,计划}"
  INFO.SCVR "09CX0Guard"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -278126,7 +278126,7 @@ startscript CorprusBeastSafe"
  INFO.NNAM "149183867422716140$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Balmora$00"
- INFO.NAME "玛梅亚熔渠是一条火山峡谷，从红山山顶向西南延伸至巴尔莫拉山下的尽头。一座古老的锻莫桥横跨月蛾要塞附近的熔渠。前往幽魂之门的最佳路线是从佩拉吉亚德要塞通往巴尔莫拉的路上，在月蛾要塞东南方穿过熔渠的地方沿着熔渠往北走。"
+ INFO.NAME "玛梅亚熔渠是一条火山峡谷，从红山山顶向西南延伸至巴尔莫拉山下的尽头。一座古老的锻莫桥横跨月蛾要塞附近的熔渠。前往幽魂之门的最佳路线是从佩拉吉亚德通往巴尔莫拉的路上，在月蛾要塞东南方穿过熔渠的地方沿着熔渠往北走。"
  INFO.SCVR "0BLX0Balmora, Council Club"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -278137,7 +278137,7 @@ startscript CorprusBeastSafe"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
- INFO.NAME "玛梅亚熔渠是一条火山峡谷，从红山山顶向西南延伸至巴尔莫拉山下的尽头。一座古老的锻莫桥横跨月蛾要塞附近的熔渠。前往幽魂之门的最佳路线是从佩拉吉亚德要塞通往巴尔莫拉的路上，在月蛾要塞东南方穿过熔渠的地方沿着熔渠往北走。"
+ INFO.NAME "玛梅亚熔渠是一条火山峡谷，从红山山顶向西南延伸至巴尔莫拉山下的尽头。一座古老的锻莫桥横跨月蛾要塞附近的熔渠。前往幽魂之门的最佳路线是从佩拉吉亚德通往巴尔莫拉的路上，在月蛾要塞东南方穿过熔渠的地方沿着熔渠往北走。"
  INFO.SCVR "0CsX0nolore"
  INFO.INTV [00 00 00 00]
 -DIAL
@@ -283444,7 +283444,7 @@ Journal ""B2_AhemmusaSafe"" 5"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Vivec; Journal ""B8_MeetVivec"" = 50;
 addtopic ""幽魂之墙内""
-addtopic ""红山都堡"""
+addtopic ""红山城堡"""
 -DIAL
  DIAL.NAME "锻莫的罪行$00"
  DIAL.DATA [00]
@@ -349096,7 +349096,7 @@ player->addspell luck_of_the_emperor"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "wulf$00"
  INFO.NAME "真是个好地方，你为什么来这里？"
- INFO.BNAM "Choice ""也许我应该把我的事保密。"" 1 ""我是尼瑞瓦因，我去达格斯·乌尔的要塞和他对峙。"" 2"
+ INFO.BNAM "Choice ""也许我应该把我的事保密。"" 1 ""我是尼瑞瓦因，我去达格斯·乌尔的城堡和他对峙。"" 2"
 -INFO
  INFO.INAM "2626117175692425578$00"
  INFO.PNAM "8366295712082413670$00"
@@ -349129,7 +349129,7 @@ player->addspell luck_of_the_emperor"
  INFO.NNAM "177404662621411356$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "幽魂之门是定居者的伟大战士堡垒。但是你杀了恶魔，尼瑞瓦因。也许他们会放弃这座堡垒，就像所有古代堡垒一样。"
+ INFO.NAME "幽魂之门是定居者的伟大战士要塞。但是你杀了恶魔，尼瑞瓦因。也许他们会放弃这座要塞，就像所有古代堡垒一样。"
  INFO.SCVR "04JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
  INFO.BNAM "ShowMap Ghostgate
@@ -349140,7 +349140,7 @@ player->addspell luck_of_the_emperor"
  INFO.NNAM "30621223841090319701$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "幽魂之门是定居者的伟大堡垒，它挡住了魔墙上唯一的洞口，将达格斯·乌尔和他的恶魔困在里面。这些战士侍奉伪神，但他们是勇敢的战士。 {格挡}"
+ INFO.NAME "幽魂之门是定居者的伟大战士要塞，它挡住了魔墙上唯一的洞口，将达格斯·乌尔和他的恶魔困在里面。这些战士侍奉伪神，但他们是勇敢的战士。 {格挡}"
  INFO.BNAM "ShowMap Ghostgate
 ;Ashlanders"
 -INFO
@@ -354314,7 +354314,7 @@ Journal TT_MaarGan 10"
  INFO.NNAM "3242758001733126016$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Pelagiad$00"
- INFO.NAME "帝国在这里建造了一座小堡垒，用来守卫维威克、赛达-尼恩、巴尔莫拉和北舍之间的道路。然后一些退伍军人拿着他们的退伍金，在这里建了一些小农场。很快这里就有了一些商店和贸易行，这是一个令人愉快的小村庄，如果你不了解这里，你会以为自己在匕首瀑布，或者其他高岩城镇。 {泰姆瑞尔帝国,瓜尔,卫兵}"
+ INFO.NAME "帝国在这里建造了一座小要塞，用来守卫维威克、赛达-尼恩、巴尔莫拉和北舍之间的道路。然后一些退伍军人拿着他们的退伍金，在这里建了一些小农场。很快这里就有了一些商店和贸易行，这是一个令人愉快的小村庄，如果你不了解这里，你会以为自己在匕首瀑布，或者其他高岩城镇。 {泰姆瑞尔帝国,瓜尔,卫兵}"
  INFO.SCVR "07XX0yakum hairshashishi"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Pelagiad"
@@ -422121,7 +422121,7 @@ Set corkyFollow to 1"
  INFO.NNAM "31873317122217515589$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "habasi$00"
- INFO.NAME "佩拉吉亚德的监狱里关押着一名公会成员，新鞋·巴戈。"
+ INFO.NAME "佩拉吉亚德要塞的监狱里关押着一名公会成员，新鞋·巴戈。"
  INFO.SCVR "34JX3TG_VintageBrandy"
  INFO.INTV [64 00 00 00]
 -INFO
