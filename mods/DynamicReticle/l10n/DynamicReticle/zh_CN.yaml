@@ -1,8 +1,7 @@
 "Dynamic Reticle and Hit Markers": "动态准星和命中标记"
-"~~ Animated reticle, hit markers and enemy hp widget.": "~~ 动画准星、命中标记和敌人血条挂件。"
+"~~ Animated reticle, hit markers and enemy hp widget. IMPORTANT: Some of the settings below are not reflected in-game unless you run a 'reloadlua' command in console (~ console) or restart the game": "~~ 动画准星、命中标记和敌人血条挂件。重要提示：以下部分设置更改后在游戏内不会自动生效，需在控制台(~)输入'reloadlua'命令或重启游戏才能生效。"
 
 "Visuals": "视觉"
-"Most of the settings below are not reflected in-game unless you run a 'reloadlua' command in console (~ console) or restart the game": "下方大部分设置更改后，需在控制台(~)输入'reloadlua'命令或重启游戏才能生效。"
 "Reticle": "准星"
 "Any image found in 'textures/dynamic reticle/reticles/' will be selectable here.": "位于'textures/dynamic reticle/reticles/'文件夹下的所有图像文件均可在此选择。"
 "StealthArrows": "潜行箭头"

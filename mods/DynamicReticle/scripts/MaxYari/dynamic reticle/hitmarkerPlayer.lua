@@ -344,7 +344,7 @@ local function onUpdate(dt)
         end
 
         -- No-weapon stance hides enemy hp bar after 1 second        
-        if stance == types.Actor.STANCE.Nothing then
+        if not currentTargetActor.gameObject:isValid() or currentTargetActor:isDead() or stance == types.Actor.STANCE.Nothing then
             stanceNoneTimer = stanceNoneTimer + dt
             if stanceNoneTimer > 1 then
                 currentTargetActor = nil

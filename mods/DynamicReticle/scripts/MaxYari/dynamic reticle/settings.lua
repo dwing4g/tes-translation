@@ -71,7 +71,7 @@ I.Settings.registerPage {
     key = 'DynamicReticlePage',
     l10n = 'DynamicReticle',
     name = 'Dynamic Reticle and Hit Markers',
-    description = '~~ Animated reticle, hit markers and enemy hp widget.',
+    description = "~~ Animated reticle, hit markers and enemy hp widget. IMPORTANT: Some of the settings below are not reflected in-game unless you run a 'reloadlua' command in console (~ console) or restart the game",
 }
 
 I.Settings.registerGroup {
@@ -80,15 +80,14 @@ I.Settings.registerGroup {
     l10n = 'DynamicReticle',
     name = 'Visuals',
     order = 1,
-    permanentStorage = true,
-    description = "Most of the settings below are not reflected in-game unless you run a 'reloadlua' command in console (~ console) or restart the game",
+    permanentStorage = true,    
     settings = {
         FileSelect:new {
             key = 'Reticle',
             description = "Any image found in 'textures/dynamic reticle/reticles/' will be selectable here.",
             folderPath = "textures/dynamic reticle/reticles/",
             withGroupingSuffix = false,
-            default = "circle",
+            default = "angle_brackets",
             settingsGroup = 'DynamicReticleVisualSettings',
         },
         FileSelect:new {

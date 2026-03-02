@@ -378,27 +378,49 @@ local function ownlysLag(current, lerped, cached, paused, lag, timer, dt, drainS
 end
 
 local spellsWithRestoreHealth = {}
-local function hasRestoreHealth(spellId)
-	if spellsWithRestoreHealth[spellId] == nil then
-		spellsWithRestoreHealth[spellId] = false
-		local rec = core.magic.spells.records[spellId]
-		for c, d in pairs(rec and rec.effects or {}) do
-			if d.id == "restorehealth" then
-				spellsWithRestoreHealth[spellId] = true
+local potionConsumed = false
+local function hasRestoreHealth(spell)
+	local id = spell.id
+	if spellsWithRestoreHealth[id] ~= nil then
+		return spellsWithRestoreHealth[id]
+	end
+	local source = core.magic.spells.records[id] or types.Potion.records[id]
+	-- Enchanted item (equipped)
+	if not source and spell.item then
+		local enchantId = spell.item.type.record(spell.item).enchant or ""
+		source = core.magic.enchantments.records[enchantId]
+	end
+	-- Scroll (item may already be consumed)
+	if not source then
+		local bookRecord = types.Book.records[id]
+		if bookRecord then
+			local enchantId = bookRecord.enchant or ""
+			source = core.magic.enchantments.records[enchantId]
+		end
+	end
+	local result = false
+	if source then
+		for _, eff in pairs(source.effects) do
+			if eff.id == "restorehealth" then
+				result = true
 				break
 			end
 		end
+	else
+		result = true
 	end
-	return spellsWithRestoreHealth[spellId]
+	spellsWithRestoreHealth[id] = result
+	return result
 end
 
 function calculateHealing(actor)
 	local magnitude = activeEffects:getEffect("restorehealth").magnitude
-	if not magnitude or magnitude <= 0.3 then return 0 end
+	--print(magnitude) -- is 0 when having just consumed a potion in the inventory
+	if (not magnitude or magnitude <= 0.3) and not potionConsumed then return 0 end
 	local timeBand = 3
 	local incomingHealing = 0
 	for a, b in pairs(activeSpells) do
-		if hasRestoreHealth(b.id) then
+		if hasRestoreHealth(b) then
 			for c, d in pairs(b.effects) do
 				if d.id == "restorehealth" then
 					local duration = math.max(0, math.min(timeBand, d.durationLeft or timeBand))
@@ -408,6 +430,20 @@ function calculateHealing(actor)
 		end
 	end
 	return incomingHealing
+end
+
+local function onConsume(item)
+	if not HEALBAR then return end
+	if not core.isWorldPaused() then return end
+	local record = types.Potion.records[item.recordId]
+	if not record then return end
+	for _, eff in pairs(record.effects) do
+		if eff.id == "restorehealth" then
+			potionConsumed = true
+			async:newUnsavableSimulationTimer(0.05, function() potionConsumed = false end)
+			return
+		end
+	end
 end
 
 function update(bar, resource, dt, treshold)
@@ -681,6 +717,7 @@ return {
 		onLoad = onLoad,
 		onInit = onLoad,
 		onSave = onSave,
+		onConsume = onConsume,
 		--onKeyPress = onKey
     },
 	eventHandlers = {
