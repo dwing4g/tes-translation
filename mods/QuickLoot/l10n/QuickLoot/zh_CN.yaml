@@ -8,7 +8,7 @@
 "Allows disabling the mod entirely": "允许禁用整个模组"
 
 "Container Animation": "容器动画"
-"For 'Animated Containers' \nCan make looting stuff on top of containers more difficult\nIf it doesn't work, your OpenMW version might not be recent enough": "用于“有动画的容器”\n会导致更难搜刮容器上方的东西\n如果不起作用，你的OpenMW版本可能不够新"
+"For 'Animated Containers' \nCan make looting stuff on top of containers more difficult\nIf it doesn't work, your OpenMW version might not be recent enough": "用于“有动画的容器”\n会导致更难搜刮容器上方的东西\n如果不起作用，那么你的OpenMW版本可能不够新"
 "off": "关"
 "immediately": "立即"
 "on take": "拿取时"
@@ -20,10 +20,10 @@
 "UI": "界面"
 
 "Width (%)": "宽度(%)"
-"of the ui element (1-100)": "占界面元素尺寸的百分比(1-100)"
+# "of the ui element (1-100)": "占界面元素尺寸的百分比(1-100)"
 "Height (%)": "高度(%)"
 "X Position (%)": "X位置(%)"
-"Location of the center (1-100)": "相对中心位置的百分比(1-100)"
+# "Location of the center (1-100)": "相对中心位置的百分比(1-100)"
 "Y Position (%)": "Y位置(%)"
 "Text Size Multiplier (%)": "文字尺寸系数(%)"
 
@@ -121,6 +121,8 @@
 "Shorter tooltip texts": "更短的提示框文字"
 "Shortens effect texts": "让效果文字更短"
 
+"Use Inventory Extender Tooltips": "使用库存扩展提示框"
+"if you have ralt's inventory extender installed": "如果你已安装了拉尔特(ralt)的库存扩展"
 
 "Misc": "杂项"
 
