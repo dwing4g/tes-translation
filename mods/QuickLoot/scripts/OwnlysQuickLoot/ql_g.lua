@@ -24,6 +24,26 @@ if not core.mwscripts then
 	scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
 end
 
+local scriptWhitelist = {
+	ao_containers_scr_barrel = true,
+	ao_containers_scr_barrelf = true,
+	ao_containers_scr_basket = true,
+	ao_containers_scr_chest = true,
+	ao_containers_scr_chest_dwemer = true,
+	ao_containers_scr_closet = true,
+	ao_containers_scr_closet_dwemer = true,
+	ao_containers_scr_crate = true,
+	ao_containers_scr_cratef = true,
+	ao_containers_scr_cupboard = true,
+	ao_containers_scr_drawer_dwemer = true,
+	ao_containers_scr_drawers = true,
+	ao_containers_scr_sack = true,
+	ao_containers_scr_small_chest = true,
+	ao_containers_scr_steel_keg = true,
+	ao_containers_scr_stone_chest = true,
+	ao_containers_scr_urn = true,
+}
+
 onActivateStuffOnce = {}
 local getSound = require("scripts.OwnlysQuickLoot.ql_getSound")
 
@@ -51,6 +71,10 @@ local function sa(cont)
 		return false
 	end
 	local script = cont.type.record(cont).mwscript
+	if scriptWhitelist[script] then
+		print("onActivate: "..script.." ok (whitelisted)")
+		return true
+	end
 	if script then
 		if core.mwscripts then
 			local scriptRecord = core.mwscripts.records[script]
@@ -492,9 +516,10 @@ local function onObjectActive(object)
 end
 
 local function unhookObject(object)
-	--if object:hasScript("scripts/OwnlysQuickLoot/ql_cont2.lua") then --unnecessary?
-	--print("-", object)
-	object:removeScript("scripts/OwnlysQuickLoot/ql_cont2.lua")
+	if object:hasScript("scripts/OwnlysQuickLoot/ql_cont2.lua") then
+		--print("-", object)
+		object:removeScript("scripts/OwnlysQuickLoot/ql_cont2.lua")
+	end
 end
 
 return {
