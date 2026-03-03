@@ -18,6 +18,14 @@ KEY = require('openmw.input').KEY
 input = require('openmw.input')
 v2 = util.vector2
 v3 = util.vector3
+--printLocalized = core.l10n("QuickLoot", "en")
+--
+--
+--function L(text)
+--	print( printLocalized(text))
+--	return printLocalized(text) or "??"
+--end
+
 local animation = require('openmw.animation')
 local Controls = require('openmw.interfaces').Controls
 local settings = require("scripts.OwnlysQuickLoot.ql_settings")
@@ -90,6 +98,25 @@ local questItems = require("scripts.OwnlysQuickLoot.ql_questItems")
 local redStealingWindow = true
 local showVanillaInventory = 0
 
+local scriptWhitelist = {
+	ao_containers_scr_barrel = true,
+	ao_containers_scr_barrelf = true,
+	ao_containers_scr_basket = true,
+	ao_containers_scr_chest = true,
+	ao_containers_scr_chest_dwemer = true,
+	ao_containers_scr_closet = true,
+	ao_containers_scr_closet_dwemer = true,
+	ao_containers_scr_crate = true,
+	ao_containers_scr_cratef = true,
+	ao_containers_scr_cupboard = true,
+	ao_containers_scr_drawer_dwemer = true,
+	ao_containers_scr_drawers = true,
+	ao_containers_scr_sack = true,
+	ao_containers_scr_small_chest = true,
+	ao_containers_scr_steel_keg = true,
+	ao_containers_scr_stone_chest = true,
+	ao_containers_scr_urn = true,
+}
 
 local function log(...)
 	local newPrint = {...}
@@ -1377,6 +1404,10 @@ function scriptAllows(cont)
 		return false
 	end
 	local script = cont.type.record(cont).mwscript
+	if scriptWhitelist[script] then
+		log(script.." ok (whitelisted)")
+		return true
+	end
 	if script then
 		if core.mwscripts then
 			local scriptRecord = core.mwscripts.records[script]
@@ -1464,17 +1495,6 @@ function scriptAllows(cont)
 	--end
 end
 
-local function chargenFinished()
-	if types.Player.isCharGenFinished(self) then
-		return true
-	end
-	playerItems = types.Container.inventory(self):getAll()
-	for a,b in pairs(playerItems) do
-		if b.recordId == "chargen statssheet" then
-			return true
-		end
-	end
-end
 
 
 function chargenFinished()
@@ -1489,12 +1509,9 @@ function chargenFinished()
 		savegameData.chargenFinished = true
 		return true
 	end
-	playerItems = types.Container.inventory(self):getAll()
-	for a,b in pairs(playerItems) do
-		if b.recordId == "chargen statssheet" then
-			savegameData.chargenFinished = true
-			return true
-		end
+	if types.Actor.inventory(self):find("chargen statssheet") then
+		savegameData.chargenFinished = true
+		return true
 	end
 	return false
 end
@@ -1581,6 +1598,10 @@ function onFrame(dt)
 	if not modEnabled then
 		return
 	end
+	if not I.UI.isHudVisible() then
+		closeHud()
+		return
+	end
 	if not chargenFinished() then
 		return
 	end
@@ -1598,7 +1619,7 @@ function onFrame(dt)
 					inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
 				end
 			end
-		end		
+		end
 		shiftPressed = newShiftPressed
 	end
 	local camera = require('openmw.camera')
@@ -1616,19 +1637,13 @@ function onFrame(dt)
 	activationDistance = activationDistance+0.1
 	
 	local options
-	if camera.getMode() == camera.MODE.ThirdPerson then
+	if camera.getMode() ~= camera.MODE.FirstPerson then
 		options = { ignore = self }
-		
 	end
 	
 	local res  = {}
-	if PERFORMANCE_MODE ~= "Desperate" then
-		res = nearby.castRenderingRay(
-			cameraPos,
-			cameraPos + camera.viewportToWorldVector(v2(0.5,0.5)) * (activationDistance + bonusDistance),
-			options
-		)
-	end
+	
+	res = I.SharedRay.get()
 	
 	local res2 = {}
 	-- Fall back to physics raycast if rendering ray missed OR hit an invalid target
@@ -1639,12 +1654,14 @@ function onFrame(dt)
 			options
 		)
 	end
-	
 	-- Now decide which result to use
 	if res.hitPos and isValidTarget(res.hitObject) and (cameraPos - res.hitPos):length() <= activationDistance then
 		-- nice, the render raycast found a valid target within trigger range
 	elseif res.hitPos and res2.hitPos then
-		if res2.hitObject == res.hitObject then
+		-- if the render ray found an activateable object, fail
+		if res.hitObject and not types.Static.objectIsInstance(res.hitObject) then
+			res = {}
+		elseif res2.hitObject == res.hitObject then
 			res = res2 -- same object, normal raycast added extra range
 		elseif not isValidTarget(res.hitObject) then
 			res = res2 -- render ray hit something unlootable, use physics ray

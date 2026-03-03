@@ -18,7 +18,7 @@ local legacySection = storage.playerSection('SettingsPlayer'..MODNAME)
 if legacySection:get("FOOTER_HINTS") ==  "F / R" then
 	legacySection:set("FOOTER_HINTS", "Symbolic")
 end
-
+local hasInventoryExtender = core.contentFiles.has("InventoryExtender.omwscripts") or I.InventoryExtender
 
 local tempKey
 local orderCounter = 0
@@ -86,56 +86,79 @@ settingsTemplate[tempKey] = {
 		{
 			key = "WIDTH",
 			name = "Width (%)",
-			description = "of the ui element (1-100)",
-			renderer = "number",
+			--description = "of the ui element (1-100)",
+			renderer = "SuperSlider2",
 			default = legacySection:get("WIDTH") or 23,
 			argument = {
 				min = 1,
 				max = 100,
+				step = 1,
+				default = legacySection:get("WIDTH") or 23,
+				showDefaultMark = true,
+				width = 160,
 			},
 		},
 		{
-			key = "HEIGHT",
-			name = "Height (%)",
-			description = "of the ui element (1-100)",
-			renderer = "number",
-			default = legacySection:get("HEIGHT") or 35,
-			argument = {
-				min = 1,
-				max = 100,
-			},
-		},
+            key = "HEIGHT",
+            name = "Height (%)",
+           -- description = "of the ui element (1-100)",
+            renderer = "SuperSlider2",
+            default = legacySection:get("HEIGHT") or 35,
+            argument = {
+                min = 1,
+                max = 100,
+                step = 1,
+				default = legacySection:get("HEIGHT") or 35,
+                showDefaultMark = true,
+                --showResetButton = true,
+                --minLabel = "Small",
+                --maxLabel = "Large",
+				width = 160,
+            },
+        },
 		{
 			key = "X",
 			name = "X Position (%)",
-			description = "Location of the center (1-100)",
-			renderer = "number",
+			--description = "Location of the center (1-100)",
+			renderer = "SuperSlider2",
 			default = legacySection:get("X") or 71,
 			argument = {
 				min = 1,
 				max = 100,
+				step = 1,
+				default = legacySection:get("X") or 71,
+				showDefaultMark = true,
+				width = 160,
 			},
 		},
 		{
 			key = "Y",
 			name = "Y Position (%)",
-			description = "Location of the center (1-100)",
-			renderer = "number",
+			--description = "Location of the center (1-100)",
+			renderer = "SuperSlider2",
 			default = legacySection:get("Y") or 50,
 			argument = {
 				min = 1,
 				max = 100,
+				step = 1,
+				default = legacySection:get("Y") or 50,
+				showDefaultMark = true,
+				width = 160,
 			},
 		},
 		{
 			key = "TEXTSIZEMULT",
 			name = "Text Size Multiplier (%)",
-			description = "1-200",
-			renderer = "number",
+			--description = "1-200",
+			renderer = "SuperSlider2",
 			default = legacySection:get("textSizeMult") or 93,
 			argument = {
 				min = 1,
 				max = 200,
+				step = 1,
+				default = legacySection:get("textSizeMult") or 93,
+				showDefaultMark = true,
+				width = 160,
 			},
 		},
 		{
@@ -208,11 +231,15 @@ settingsTemplate[tempKey] = {
 			key = "TRANSPARENCY",
 			name = "Transparency",
 			description = "",
-			renderer = "number",
+			renderer = "SuperSlider2",
 			default = legacySection:get("TRANSPARENCY") or 0.4,
 			argument = {
 				min = 0,
 				max = 1,
+				step = 0.05,
+				default = legacySection:get("TRANSPARENCY") or 0.4,
+				showDefaultMark = true,
+				width = 160,
 			},
 		},
 		{
@@ -410,6 +437,16 @@ settingsTemplate[tempKey] = {
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("TOOLTIP_SHORT_TEXT"), false)
 		},
+		{
+			key = "USE_IE_TOOLTIP",
+			name = "Use Inventory Extender Tooltips",
+			description = "if you have ralt's inventory extender installed",
+			renderer = "checkbox",
+			default = true,
+			argument = {
+				disabled = not hasInventoryExtender,
+			},
+		},
 	},
 }
 
@@ -546,6 +583,12 @@ end
 
 readAllSettings()
 
+if PERFORMANCE_MODE == "Desperate" then
+	I.SharedRay.setRayType(nearby.castRay)
+else
+	I.SharedRay.setRayType(nearby.castRenderingRay)
+end
+
 -- ────────────────────────────────────────────────────────────────────────── Settings Event ──────────────────────────────────────────────────────────────────────────
 
 for _, template in pairs(settingsTemplate) do
@@ -553,6 +596,13 @@ for _, template in pairs(settingsTemplate) do
 	local settingsSection = storage.playerSection(template.key)
 	settingsSection:subscribe(async:callback(function (_,setting)
 		local oldValue = _G[setting]
+		if setting == "PERFORMANCE_MODE" then
+			if PERFORMANCE_MODE == "Desperate" then
+				I.SharedRay.setRayType(nearby.castRay)
+			else
+				I.SharedRay.setRayType(nearby.castRenderingRay)
+			end
+		end
 		readAllSettings()
 		showInMainMenuOverride = true
 		uiLoc = v2(X/100,Y/100)

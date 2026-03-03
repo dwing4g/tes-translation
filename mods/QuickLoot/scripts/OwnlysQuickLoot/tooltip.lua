@@ -623,6 +623,10 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 	local itemRecord = item.type.records[item.recordId]
 	local info = getItemInfo(item)
 	if not info then return end
+	local tooltipLayer = "Notification"
+	if core.isWorldPaused() then
+		tooltipLayer = "HUD"
+	end
 	local hudLayerSize = ui.layers[ui.layers.indexOf("HUD")].size
 	local rootWidth = hudLayerSize.x * uiSize.x
 	local rootHeight = hudLayerSize.y * uiSize.y
@@ -646,9 +650,53 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 			}
 		}).borders
 
+	-- Try Inventory Extender tooltips if available
+	if USE_IE_TOOLTIP then
+		local ieOk, IE = pcall(function() return require('openmw.interfaces').InventoryExtender end)
+		if ieOk and IE and IE.Templates and IE.Templates.MAGIC then
+			local window = IE.getWindow('Inventory')
+			local ctx = window and window.ctx
+			local ok2, ieLayout = pcall(IE.Templates.MAGIC.itemTooltip, item, true, ctx)
+			if ok2 and ieLayout then
+				ieLayout.type = ui.TYPE.Container
+				ieLayout.template = borderTemplate
+				ieLayout.layer = tooltipLayer
+				ieLayout.name = 'itemTooltip'
+				local anchor, pos
+				if TOOLTIP_MODE == "top" then
+					anchor, pos = v2(0.5,1), v2(absPos.x, absPos.y-rootHeight/2)
+				elseif TOOLTIP_MODE == "bottom" then
+					local temp = FOOTER_HINTS == "Disabled" and outerHeaderFooterHeight or 0
+					anchor, pos = v2(0.5,0), v2(absPos.x, absPos.y+rootHeight/2+1-temp)
+				elseif TOOLTIP_MODE == "left" then
+					anchor, pos = v2(1,0), v2(absPos.x-rootWidth/2, absPos.y-rootHeight/2+highlightPosition)
+				elseif TOOLTIP_MODE == "right" then
+					anchor, pos = v2(0,0), v2(absPos.x+rootWidth/2, absPos.y-rootHeight/2+highlightPosition)
+				elseif TOOLTIP_MODE == "left (fixed)" then
+					anchor, pos = v2(1,0.5), v2(absPos.x-rootWidth/2, absPos.y)
+				elseif TOOLTIP_MODE == "left (fixed 2)" then
+					anchor, pos = v2(1,0), v2(absPos.x-rootWidth/2, absPos.y-boxHeight/4)
+				elseif TOOLTIP_MODE == "left (fixed 3)" then
+					anchor, pos = v2(0.5,0), v2(math.max(absPos.x-rootWidth*0.9,(absPos.x-rootWidth/2)/2), absPos.y-boxHeight/4)
+				elseif TOOLTIP_MODE == "right (fixed 2)" then
+					anchor, pos = v2(0,0), v2(absPos.x+rootWidth/2, absPos.y-boxHeight/4)
+				elseif TOOLTIP_MODE == "right (fixed 3)" then
+					anchor, pos = v2(0.5,0), v2(math.min(99999999,(uiWidth+absPos.x+rootWidth/2)/2), absPos.y-boxHeight/4)
+				elseif TOOLTIP_MODE == "crosshair" then
+					anchor, pos = v2(0.5,0), v2(uiWidth/2, uiHeight/2+20)
+				else
+					anchor, pos = v2(0,0.5), v2(absPos.x+rootWidth/2, absPos.y)
+				end
+				ieLayout.props = { autoSize = true, anchor = anchor, position = pos }
+				return ui.create(ieLayout)
+			end
+		end
+	end
+
+	-- Fallback: build tooltip natively
 	local root = ui.create({
 		type = ui.TYPE.Container,
-		layer = 'HUD',
+		layer = tooltipLayer,
 		name = 'itemTooltip',
 		template = borderTemplate,
 		props = {
@@ -659,7 +707,6 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 	
 	local flex = {
 		type = ui.TYPE.Flex,
-		layer = 'HUD',
 		name = 'tooltipFlex',
 		props = {
 			autoSize = true,
