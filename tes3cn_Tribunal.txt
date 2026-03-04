@@ -31523,7 +31523,7 @@ End yarnarScript"
  INFO.PNAM "12263212581999016524$00"
  INFO.NNAM "515227887840326164$00"
  INFO.DATA [04 00 00 00 55 00 00 00 FF FF FF 00]
- INFO.NAME "阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
+ INFO.NAME "阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
 -INFO
  INFO.INAM "515227887840326164$00"
  INFO.PNAM "2963431702149001105$00"
@@ -37944,7 +37944,7 @@ End yarnarScript"
  INFO.PNAM "347286791534521439$00"
  INFO.NNAM "3162930890261978816$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。"
+ INFO.NAME "我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔里。"
 -INFO
  INFO.INAM "25968105362150119292$00"
  INFO.PNAM "55472125040122412$00"
@@ -56912,7 +56912,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "33523429197013181$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Fighters Guild$00"
- INFO.NAME "如何判断一个任务是否对你来说太难？问得好，我主要看三点：地点、对手和回报。首先，如果是长途跋涉，我就会担心。如果是迪德拉废墟、丹莫堡垒或泰瓦尼塔楼，我就会担心。如果是在北方或红山附近，我就会担心。其次，如果对手很强，我也会担心。迪德拉让我担心。吸血鬼让我担心，泰瓦尼巫师让我担心；第三，如果奖励丰厚，我也会担心。没人会给你一箱金币让你在公园里散步。 {迪德拉式,报酬}"
+ INFO.NAME "如何判断一个任务是否对你来说太难？问得好，我主要看三点：地点、对手和回报。首先，如果是长途跋涉，我就会担心。如果是迪德拉废墟、丹莫堡垒或泰瓦尼塔，我就会担心。如果是在北方或红山附近，我就会担心。其次，如果对手很强，我也会担心。迪德拉让我担心。吸血鬼让我担心，泰瓦尼巫师让我担心；第三，如果奖励丰厚，我也会担心。没人会给你一箱金币让你在公园里散步。 {迪德拉式,报酬}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -59985,7 +59985,7 @@ ModDisposition 10"
  INFO.NNAM "73905396517031350$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -60009,7 +60009,7 @@ ModDisposition 10"
  INFO.NNAM "2170362482698328141$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Imperial Legion$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -60033,7 +60033,7 @@ ModDisposition 10"
  INFO.NNAM "7534284182983423279$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Imperial Cult$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -60044,7 +60044,7 @@ ModDisposition 10"
  INFO.NNAM "61927594186111733$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Thieves Guild$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -60068,7 +60068,7 @@ ModDisposition 10"
  INFO.NNAM "209698789290548259$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Mages Guild$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -60092,7 +60092,7 @@ ModDisposition 10"
  INFO.NNAM "2702611209137626743$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Fighters Guild$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -61895,7 +61895,7 @@ Journal town_Vivec 5"
  INFO.NNAM "3175328762106929345$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "mevil molor$00"
- INFO.NAME "马文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。"
+ INFO.NAME "马文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔准备了埋伏。"
  INFO.SCVR "04JX4MT_WritMavon"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -62893,7 +62893,7 @@ Journal town_balmora 5"
  INFO.NNAM "423623936915927973$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec, Foreign Quarter$00"
- INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔楼的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
+ INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";default"
@@ -62917,7 +62917,7 @@ Journal town_balmora 5"
  INFO.NNAM "390813500242161843$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec, Redoran$00"
- INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔楼的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
+ INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";default"

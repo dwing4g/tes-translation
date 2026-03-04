@@ -185660,7 +185660,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "12263212581999016524$00"
  INFO.NNAM "515227887840326164$00"
  INFO.DATA [04 00 00 00 55 00 00 00 FF FF FF 00]
- INFO.NAME "阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔楼里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
+ INFO.NAME "阿娜西说，一个朋友告诉她，巫师马文·德雷尼姆有一件焰镜长袍，他不穿，而是放在了他的衣柜里，就在维威克的泰瓦尼驻地的泰瓦尼塔里。阿娜西要我把这件焰镜长袍拿给她看，让她知道我有多聪明。 {服装}"
 -INFO
  INFO.INAM "515227887840326164$00"
  INFO.PNAM "2963431702149001105$00"
@@ -192614,7 +192614,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "3162930890261978816$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔楼里。"
+ INFO.NAME "我收到了光荣处决马文·德雷尼姆的令状。他在维威克泰瓦尼广场的泰瓦尼塔里。"
 -INFO
  INFO.INAM "3162930890261978816$00"
  INFO.PNAM "1025124379160483116$00"
@@ -198605,7 +198605,7 @@ Goodbye"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";scout ; savant; bard; bookseller;"
 -DIAL
- DIAL.NAME "泰瓦尼的高塔城镇风格$00"
+ DIAL.NAME "泰瓦尼塔城镇风格$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "271739161154546336$00"
@@ -199621,7 +199621,7 @@ ModDisposition 10"
  INFO.NNAM "248291044815813780$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
- INFO.NAME "在人烟稀少的泰瓦尼区，为数不多的泰瓦尼塔楼城镇基本上都是以不朽的巫师塔建筑群为主的大型村落。"
+ INFO.NAME "在人烟稀少的泰瓦尼区，为数不多的泰瓦尼塔城镇基本上都是以不朽的巫师塔建筑群为主的大型村落。"
  INFO.SCVR "08FX0Ashlanders"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -199663,7 +199663,7 @@ ModDisposition 10"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "最小的定居点是灰烬之民的游牧营地，由可移动的小木屋和帐篷组成。农村居民以神殿驻地为中心，居住在丹莫村庄风格的建筑群中。城镇居民则居住在维威克城的都会风格、奥德'汝因等城镇的城市风格或卡尔德拉等新近定居点的帝国风格中。在人烟稀少的泰瓦尼区，为数不多的泰瓦尼塔楼城镇基本上都是以不朽的巫师塔建筑群为主的大型村落。 {帝国人}"
+ INFO.NAME "最小的定居点是灰烬之民的游牧营地，由可移动的小木屋和帐篷组成。农村居民以神殿驻地为中心，居住在丹莫村庄风格的建筑群中。城镇居民则居住在维威克城的都会风格、奥德'汝因等城镇的城市风格或卡尔德拉等新近定居点的帝国风格中。在人烟稀少的泰瓦尼区，为数不多的泰瓦尼塔城镇基本上都是以不朽的巫师塔建筑群为主的大型村落。 {帝国人}"
  INFO.SCVR "08FX0Ashlanders"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; trader; publican; merchant;"
@@ -210784,7 +210784,7 @@ PayFineThief"
  INFO.NNAM "18307162392313923926$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "big helende$00"
- INFO.NAME "出事你自己兜着，费伦·马里昂在泰尔-布勒诺拉，他是西拉那夫人的私人家臣之一。你可以在那座泰瓦尼塔的某个塔楼里找到他。拿着这个，在里面行动很不方便。祝你好运，%PCRank。 {幸运}"
+ INFO.NAME "出事你自己兜着，费伦·马里昂在泰尔-布勒诺拉，他是西拉那夫人的私人家臣之一。你可以在那座泰瓦尼塔中的一座里找到他。拿着这个，在里面行动很不方便。祝你好运，%PCRank。 {幸运}"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Journal ""TG_EbonyStaff"" 20
@@ -248558,7 +248558,7 @@ StartScript maurrieScript"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.FNAM "Morag Tong$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "%Faction在制度内工作，而不是超越制度。我们不能凌驾于法律之上。如果你有尚未解决的法律问题，你应该去找警官并自首。最终，处罚会减轻。如果你向当局出示你的令状，你将被免除任何不法行为。 {礼物}"
+ INFO.NAME "%Faction在制度内工作，而不是超越制度。我们不能凌驾于法律之上。如果你有尚未解决的法律问题，你应该去找官员并自首。最终，处罚会减轻。如果你向当局出示你的令状，你将被免除任何不法行为。 {礼物}"
 -INFO
  INFO.INAM "104233612047511498$00"
  INFO.PNAM "1088616262663228613$00"
@@ -248566,7 +248566,7 @@ StartScript maurrieScript"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.FNAM "Morag Tong$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "%Faction在系统内工作，而不是超越系统。我们不能凌驾于法律之上。如果你有尚未解决的法律问题，你应该去找官员并自首。最终，处罚会减轻。除了最光荣的声誉，%Faction承担不起其他任何责任。"
+ INFO.NAME "%Faction在制度内工作，而不是超越制度。我们不能凌驾于法律之上。如果你有尚未解决的法律问题，你应该去找官员并自首。最终，处罚会减轻。除了最光荣的声誉，%Faction承担不起其他任何责任。"
 -DIAL
  DIAL.NAME "莱维尔·安卓拉诺$00"
  DIAL.DATA [00]
@@ -256608,7 +256608,7 @@ Choice ""继续"" 1"
  INFO.NNAM "4468187796820687$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "我来介绍一下晨风的居所。灰烬之民的游牧营地是一组组可移动的小木屋。农村丹莫居住在村庄里，这些村庄是以神殿驻地为中心的小木屋群。城镇居民或居住在维威克城的大都会风格中，或居住在奥德'汝因等城镇的城市风格中，或居住在卡尔德拉等近代定居点的帝国风格中。在人烟稀少的泰瓦尼区，为数不多的泰瓦尼塔楼城镇基本上都是以巫师塔为主的大型村落。 {帝国人}"
+ INFO.NAME "我来介绍一下晨风的居所。灰烬之民的游牧营地是一组组可移动的小木屋。农村丹莫居住在村庄里，这些村庄是以神殿驻地为中心的小木屋群。城镇居民或居住在维威克城的大都会风格中，或居住在奥德'汝因等城镇的城市风格中，或居住在卡尔德拉等近代定居点的帝国风格中。在人烟稀少的泰瓦尼区，为数不多的泰瓦尼塔城镇基本上都是以巫师塔为主的大型村落。 {帝国人}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [54 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -257847,7 +257847,7 @@ addtopic ""晨风的居所"""
  INFO.PNAM "879279732388113851$00"
  INFO.NNAM "26854191792565816469$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "在泰瓦尼区，为数不多的泰瓦尼塔楼城镇只是拥有巫师塔的大村庄。"
+ INFO.NAME "在泰瓦尼区，为数不多的泰瓦尼塔城镇只是拥有巫师塔的大村庄。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1F 00 00 00]
  INFO.SCVR "18FX0Ashlanders"
@@ -263019,7 +263019,7 @@ Choice ""我会尽力帮你的。"" 1 ""我什么都帮不了你。"" 2"
  INFO.NNAM "160397499166042510$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant Service$00"
- INFO.NAME "在泰瓦尼村庄中，被称为“泰瓦尼塔楼”的巫师居所是定居点的主宰，塔楼是由巨型原生蘑菇的茎、帽和根状支架生长和雕刻而成的奇妙有机体。塔楼周围往往是一个个为工匠和平民掏空的小蘑菇荚组成的村落。"
+ INFO.NAME "在泰瓦尼村庄中，被称为“泰瓦尼塔”的巫师居所是定居点的主宰，塔楼是由巨型原生蘑菇的茎、帽和根状支架生长和雕刻而成的奇妙有机体。塔楼周围往往是一个个为工匠和平民掏空的小蘑菇荚组成的村落。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -263028,7 +263028,7 @@ Choice ""我会尽力帮你的。"" 1 ""我什么都帮不了你。"" 2"
  INFO.NNAM "242018692596430656$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "在泰瓦尼村庄中，被称为“泰瓦尼塔楼”的巫师居所是定居点的主宰，塔楼是由巨型原生蘑菇的茎、帽和根状支架生长和雕刻而成的奇妙有机体。塔楼周围往往是一个个为工匠和平民掏空的小蘑菇荚组成的村落。"
+ INFO.NAME "在泰瓦尼村庄中，被称为“泰瓦尼塔”的巫师居所是定居点的主宰，塔楼是由巨型原生蘑菇的茎、帽和根状支架生长和雕刻而成的奇妙有机体。塔楼周围往往是一个个为工匠和平民掏空的小蘑菇荚组成的村落。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -263037,7 +263037,7 @@ Choice ""我会尽力帮你的。"" 1 ""我什么都帮不了你。"" 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
- INFO.NAME "在泰瓦尼村庄中，被称为“泰瓦尼塔楼”的巫师居所是定居点的主宰，塔楼是由巨型原生蘑菇的茎、帽和根状支架生长和雕刻而成的奇妙有机体。塔楼周围往往是一个个为工匠和平民掏空的小蘑菇荚组成的村落。"
+ INFO.NAME "在泰瓦尼村庄中，被称为“泰瓦尼塔”的巫师居所是定居点的主宰，塔楼是由巨型原生蘑菇的茎、帽和根状支架生长和雕刻而成的奇妙有机体。塔楼周围往往是一个个为工匠和平民掏空的小蘑菇荚组成的村落。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -DIAL
@@ -268090,7 +268090,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "33523429197013181$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Fighters Guild$00"
- INFO.NAME "如何判断一个任务是否对你来说太难？问得好，我主要看三点：地点、对手和回报。首先，如果是长途跋涉，我就会担心。如果是迪德拉废墟、丹莫堡垒或泰瓦尼塔楼，我就会担心。如果是在北方或红山附近，我就会担心。其次，如果对手很强，我也会担心。迪德拉让我担心。吸血鬼让我担心，泰瓦尼巫师让我担心；第三，如果奖励丰厚，我也会担心。没人会给你一箱金币让你在公园里散步。 {迪德拉式,报酬}"
+ INFO.NAME "如何判断一个任务是否对你来说太难？问得好，我主要看三点：地点、对手和回报。首先，如果是长途跋涉，我就会担心。如果是迪德拉废墟、丹莫堡垒或泰瓦尼塔，我就会担心。如果是在北方或红山附近，我就会担心。其次，如果对手很强，我也会担心。迪德拉让我担心。吸血鬼让我担心，泰瓦尼巫师让我担心；第三，如果奖励丰厚，我也会担心。没人会给你一箱金币让你在公园里散步。 {迪德拉式,报酬}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -271918,7 +271918,7 @@ ModDisposition 10"
  INFO.NNAM "73905396517031350$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -271942,7 +271942,7 @@ ModDisposition 10"
  INFO.NNAM "2170362482698328141$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Imperial Legion$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -271966,7 +271966,7 @@ ModDisposition 10"
  INFO.NNAM "7534284182983423279$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Imperial Cult$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -271977,7 +271977,7 @@ ModDisposition 10"
  INFO.NNAM "61927594186111733$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Thieves Guild$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -272001,7 +272001,7 @@ ModDisposition 10"
  INFO.NNAM "209698789290548259$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Mages Guild$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -272025,7 +272025,7 @@ ModDisposition 10"
  INFO.NNAM "2702611209137626743$00"
  INFO.DATA [00 00 00 00 00 00 00 00 04 FF FF 00]
  INFO.FNAM "Fighters Guild$00"
- INFO.NAME "我是%Rank级的%Faction。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
+ INFO.NAME "我在%Faction里是%Rank级。没有一大堆药水和卷轴，我是不会去迪德拉遗迹的。 {迪德拉式,这些药水}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -274809,7 +274809,7 @@ Journal town_Vivec 5"
  INFO.NNAM "3175328762106929345$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "mevil molor$00"
- INFO.NAME "马文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔楼准备了埋伏。"
+ INFO.NAME "马文·德雷尼姆听说莫拉格堂在追杀她。她在维威克的泰瓦尼塔准备了埋伏。"
  INFO.SCVR "04JX4MT_WritMavon"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -275807,7 +275807,7 @@ Journal town_balmora 5"
  INFO.NNAM "423623936915927973$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec, Foreign Quarter$00"
- INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔楼的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
+ INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";default"
@@ -275831,7 +275831,7 @@ Journal town_balmora 5"
  INFO.NNAM "390813500242161843$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec, Redoran$00"
- INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔楼的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
+ INFO.NAME "瑞多然家族一直在派遣雇佣兵，打击在莫拉格-阿穆尔和灰烬之地出现的泰瓦尼无赖基地，尽管与泰瓦尼塔的法师相比，这些泰瓦尼无赖只是小虾米，但他们似乎并不太走运。也许是那些顽固的瑞多然家族的人太拘泥于铠甲骑士冲锋陷阵的战术了。也许有些细腻的人可能会做得更好。 {幸运}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";default"
@@ -284098,7 +284098,7 @@ ModDisposition 5"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "此光荣处决令状用于处决马文·德雷尼姆。他在维威克泰瓦尼驻地广场的泰瓦尼塔楼中，愿梅法拉指引你。"
+ INFO.NAME "此光荣处决令状用于处决马文·德雷尼姆。他在维威克泰瓦尼驻地广场的泰瓦尼塔中，愿梅法拉指引你。"
  INFO.SCVR "44JX3MT_WritGuril"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "54JX3MT_WritGalasa"
@@ -286775,7 +286775,7 @@ Choice ""谢谢阿娜西的提示。"" 3 ""把这件长袍作为礼物送给阿娜西。"" 4"
  INFO.NNAM "1345620136626220872$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ahnassi$00"
- INFO.NAME "阿娜西有一个秘密！你知道火镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔楼里。这个魔法师马文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件火焰镜袍。带上它，让阿娜西看看你有多聪明。 {服装}"
+ INFO.NAME "阿娜西有一个秘密！你知道火镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔里。这个魔法师马文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件火焰镜袍。带上它，让阿娜西看看你有多聪明。 {服装}"
  INFO.SCVR "04JX3Romance_Ahnassi"
  INFO.INTV [53 00 00 00]
  INFO.BNAM ";Ahnassi; Journal Romance_Ahnassi >= 82; Agility >= 85; 
@@ -298539,7 +298539,7 @@ Set ExpThievesGuild to ExpThievesGuild + 1"
  INFO.NNAM "2041273931338914783$00"
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "我会亲自撤销警告，你将恢复%Faction %PCRank的身份，%PCName。我想我不需要提醒你第二次失败的后果。 {令状}"
+ INFO.NAME "我会亲自撤销警告，你将恢复%Faction里的%PCRank身份，%PCName。我想我不需要提醒你第二次失败的后果。 {令状}"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "PCClearExpelled
@@ -328260,7 +328260,7 @@ moddisposition 10"
  INFO.NNAM "213551242822833462$00"
  INFO.DATA [02 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "泰尔-莫拉是泰瓦尼塔楼城镇，%PCName。我们对了解情况的外地人很友好，我能为你做点什么？"
+ INFO.NAME "泰尔-莫拉是泰瓦尼塔城镇，%PCName。我们对了解情况的外地人很友好，我能为你做点什么？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -349357,7 +349357,7 @@ player->addspell luck_of_the_emperor"
  INFO.NNAM "31755116621499513073$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
+ INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
  INFO.BNAM "ShowMap ""Tel Aruhn""
 ;scout; savant;"
 -INFO
@@ -349366,7 +349366,7 @@ player->addspell luck_of_the_emperor"
  INFO.NNAM "725619746377716436$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
+ INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "ShowMap ""Tel Aruhn""
@@ -349378,7 +349378,7 @@ player->addspell luck_of_the_emperor"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Ahemmusa Camp$00"
- INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
+ INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "ShowMap ""Tel Aruhn""
@@ -349390,7 +349390,7 @@ player->addspell luck_of_the_emperor"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
+ INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "ShowMap ""Tel Aruhn""
@@ -349402,7 +349402,7 @@ player->addspell luck_of_the_emperor"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔楼，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
+ INFO.NAME "泰尔-阿汝因是大导师戈瑟伦的泰瓦尼塔，戈瑟伦是泰瓦尼术士领主，也是泰瓦尼议会的首领。与之相关的定居点是一个颇具规模的村庄，也是瓦登费尔最大的奴隶市场——节日奴隶市场的所在地。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "ShowMap ""Tel Aruhn""
@@ -354861,7 +354861,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.NNAM "12071943948709601$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "savile imayn$00"
- INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔楼。这个小定居点包括一些手工业者和一个贸易行。泰尔-莫拉沿着海岸线向北走了好一段距离。你可以穿越国境，但从这里南面的泰尔-阿汝因码头乘船前往泰尔-莫拉既便宜又可靠。"
+ INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔。这个小定居点包括一些手工业者和一个贸易行。泰尔-莫拉沿着海岸线向北走了好一段距离。你可以穿越国境，但从这里南面的泰尔-阿汝因码头乘船前往泰尔-莫拉既便宜又可靠。"
  INFO.SCVR "04JX3B3_ZainabBride"
  INFO.INTV [16 00 00 00]
  INFO.BNAM "ShowMap ""Tel Mora""
@@ -354894,7 +354894,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.NNAM "2495522299425721730$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔楼。这个小定居点包括一些手工业者和一个贸易行。"
+ INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔。这个小定居点包括一些手工业者和一个贸易行。"
  INFO.BNAM "ShowMap ""Tel Mora""
 ;scout; savant;"
 -INFO
@@ -354903,7 +354903,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.NNAM "1042367412072117060$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔楼。这个小定居点包括一些手工业者和一个贸易行。"
+ INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔。这个小定居点包括一些手工业者和一个贸易行。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "ShowMap ""Tel Mora""
@@ -354915,7 +354915,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Ahemmusa Camp$00"
- INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔楼。这个小定居点包括一些手工业者和一个贸易行。"
+ INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔。这个小定居点包括一些手工业者和一个贸易行。"
  INFO.BNAM "ShowMap ""Tel Mora""
 ;scout; savant;"
 -INFO
@@ -354925,7 +354925,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔楼。这个小定居点包括一些手工业者和一个贸易行。"
+ INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔。这个小定居点包括一些手工业者和一个贸易行。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "ShowMap ""Tel Mora""
@@ -354937,7 +354937,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔楼。这个小定居点包括一些手工业者和一个贸易行。"
+ INFO.NAME "泰尔-莫拉是泰瓦尼议会古代巫师德拉萨夫人的泰瓦尼塔。这个小定居点包括一些手工业者和一个贸易行。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "ShowMap ""Tel Mora""
@@ -370499,7 +370499,7 @@ Goodbye"
  INFO.NNAM "1302330988311795704$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "caius cosades$00"
- INFO.NAME "给你，带上这件锻莫文物和1000龙币，去泰尔-菲尔。迪维斯·菲尔会喜欢锻莫文物的，礼物可能会让他更高兴。金币是路上的开销。此外这是一些浮空药水。我听说在泰瓦尼塔楼里用得上，因为巫师不用楼梯。快走吧，把尸化病治好，然后赶紧回来。我想我知道怎么拿到尼巴妮·玛伊沙要的失落的预言了。 {锻莫族,这些药水,需要,疾病}"
+ INFO.NAME "给你，带上这件锻莫文物和1000龙币，去泰尔-菲尔。迪维斯·菲尔会喜欢锻莫文物的，礼物可能会让他更高兴。金币是路上的开销。此外这是一些浮空药水。我听说在泰瓦尼塔里用得上，因为巫师不用楼梯。快走吧，把尸化病治好，然后赶紧回来。我想我知道怎么拿到尼巴妮·玛伊沙要的失落的预言了。 {锻莫族,这些药水,需要,疾病}"
  INFO.SCVR "04JX3A2_2_6thHouse"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "11500"
