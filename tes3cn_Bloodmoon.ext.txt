@@ -7102,7 +7102,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_eralane 1011305542567023939
 I spoke with Eralane Hledas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与埃拉兰·赫莱达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与埃拉兰·赫勒达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_neldris 16732177242643421408
 Sleepers Awake
@@ -7750,15 +7750,15 @@ Edryno Arethi thanked me for returning the Daedric Wakizashi.
 
 > INFO.NAME ht_theranaclothes 1206327953222646565
 House Telvanni: New Clothes
-泰瓦尼家族：新衣服
+泰瓦尼家族：新服装
 
 > INFO.NAME ht_theranaclothes 2109620131366221657
 Mouth Felisa Ulessen gave me some new clothes and asked me to deliver them to Mistress Therana in Tel Branora. Mistress Therana is eccentric, and I should be careful not to offend her.
-发言人菲丽莎·乌雷森给了我几件新的服装，让我把它们送到泰尔-布勒诺拉的西拉那夫人手里。西拉那夫人脾气古怪，我应该小心谨慎，不要得罪她。 {新衣服}
+发言人菲丽莎·乌雷森给了我几件新服装，让我把它们送到泰尔-布勒诺拉的西拉那夫人手里。西拉那夫人脾气古怪，我应该小心谨慎，不要得罪她。
 
 > INFO.NAME ht_theranaclothes 591365743083316878
 Mouth Felisa Ulessen thanked me for delivering the clothes to her patron.
-发言人菲丽莎·乌雷森感谢我把服装送到了她的资助者手中。
+发言人菲丽莎·乌雷森感谢我把服装送到了她的顾客手中。 {资助者}
 
 > INFO.NAME ht_slaverebellion 248493095769026523
 House Telvanni: Slave Rebellion
@@ -13474,7 +13474,7 @@ Mages Guild: Fake Soul Gem
 
 > INFO.NAME mg_sabotage 2032217651464016623
 Ajira gave me a fake soul gem. She wants me to sabotage Galbedir's Journeyman project. I should put the fake soul gem in Galbedir's desk.
-阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子上。
+阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的老手晋级计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。
 
 > INFO.NAME mg_sabotage 1126144581591424416
 Ajira thanked me for helping her sabotage Galbedir's experiment.
@@ -23976,7 +23976,7 @@ You're wearing me skirt! How dare you wear my skirt!
 
 > INFO.NAME greeting 1 29994982733319172
 Oh, are those my new clothes? I've waited ever so patiently for them.
-哦，那是我的新服装吗？我一直耐心地等着呢。 {新衣服}
+哦，那是我的新服装吗？我一直耐心地等着呢。
 
 > INFO.NAME greeting 1 712919592826332637
 I heard you killed my patron, Ondres Nerano. I have nothing to say to the likes of you.
@@ -27852,7 +27852,7 @@ It was decided already, %PCName.
 
 > INFO.NAME decision 2271225090289238960
 You're asking me? Well, gee. It's nice to know that you think I'm important! I think it would be great if there were a place where I could go shopping and buy some nice new clothes. Maybe something that isn't wool, you know? I'm a very big fan of wool, of course, but after a while it gets a little itchy, and starts to smell.
-你在问我？哎呀，很高兴知道你认为我很重要！我想如果有地方能让我去购物，买些漂亮的新衣服就好了。也许不是羊毛的，你知道吗？当然，我是羊毛的忠实粉丝，但是穿久了会有点痒，还会有味道。 {服装}
+你在问我？哎呀，很高兴知道你认为我很重要！我想如果有地方能让我去购物，买些漂亮的新服装就好了。也许不是羊毛的，你知道吗？当然，我是羊毛的忠实粉丝，但是穿久了会有点痒，还会有味道。
 
 > INFO.NAME decision 13192231823251321529
 It was decided already, %PCName. Aren't there better things to talk about?

@@ -3321,15 +3321,15 @@ But then, in the fall, Lord Ihlendam received a message from Councilor Bluthanch
 <DIV ALIGN="LEFT"><BR><BR>
 [这是一部对恩楚莱夫特锻莫保有殖民地具有历史意义的事件编年史。这段文字很可能是傲特莫记录的，因为它是用奥德莫瑞语写的。]<BR>
 <BR>
-23. 伊伦丹勋爵之死<BR>
+23. 伊伦丹领主之死<BR>
 <BR>
-在第一纪元1220年次种节中，伊伦丹勋爵在西部高地的旅途中来到了恩楚莱夫特。安查德护法和鲁贡通将军在那里会见了他，达连赞楚也来了。他们单独聊了很久；但这是他们之间的事，后人只了解到——他们成了彼此的朋友。随后他们各自分别，回到了各自的殖民地。<BR>
+第一纪元1220年次种节，伊伦丹领主西行前往西高地时途经恩楚莱夫特。安查德护法和鲁贡通将军在此与他会面，达连赞楚也一同参会。各位议员相谈甚欢，事后人们只了解到——三人结盟。随后三人分别，回到了各自的殖民地。<BR>
 <BR>
-布鲁桑琪和她的儿子们听说了这次会议，并在这次秘密会议上看到了一场针对议会的叛国阴谋。他们经常互相谈论这件事。春天来临时，议会像往常一样在巴姆兹-阿姆申德的大厅里宣布召开议会会议。人们因此聚集在一起，把酒言欢，在酒桌上讨论了诸多事务，其中包括不同锻莫之间的比较，最后是议员们自己之间的比较。<BR>
+布鲁桑琪和她的儿子们听说了这次会议，认为这场秘密会议是针对议会的叛国阴谋。他们经常私下谈论这件事。春天来临时，议会像往常一样在巴姆兹-阿姆申德的大厅宣告召开议会会议。民众赴约，齐聚于此，把酒言欢，酒宴间议论纷纷，其中不乏锻莫之间的比较，最后延伸成了议员自身之间的比较。<BR>
 <BR>
-有人说伊伦丹勋爵在各方面都远胜于其他同僚。对此，布鲁桑琪议员非常生气，说她丝毫不逊色于伊伦丹勋爵，而且她急于证明这一点。双方顷刻间都被激怒了，他们互相战斗，打得不可开交。但是几位不怎么醉、通情达理的市民，却走到他们中间，让他们安静下来。他们各自都回到了殖民地，但没有人期望他们会再次和平相处。<BR>
+有人称伊伦丹领主在各方面都远胜于其他同僚议员。这番言论，引得布鲁桑琪议员勃然大怒，声称自己丝毫不逊色于伊伦丹领主，并迫切想要证明这一点。双方当即怒火中烧，互相挑战决斗，奔向武器库。但几位清醒且明事理的市民及时介入劝阻，众人各自返回殖民地。当时无人料到，他们再相见时已难保和平。 <BR>
 <BR>
-但随后，在秋天，伊伦丹勋爵收到了来自议员布鲁桑琪的消息，邀请他参加亨多尔-斯达杜姆兹的联谊会。伊伦丹的亲族和子民都极力劝阻他不要参加，生怕对方背信弃义，但伊伦丹勋爵不听劝告，甚至没带他的卫队。可悲的是，在前往钦津奇山口的时，一群邪恶的生物袭击了伊伦丹勋爵并杀死了他和他所有的同伴。许多市民随后表示，布鲁桑琪和她的儿子们召唤了这些野兽，放出它们并让其袭击了伊伦丹勋爵，但未被证实。伊伦丹勋爵被葬在一个叫做莱夫特昂楚的地方。<BR>
+秋季后，伊伦丹领主收到了布鲁桑琪议员的信函，邀请他前往亨多尔-斯达杜姆兹参会。伊伦丹的亲族及其子民极力劝阻，生怕对方背信弃义，但伊伦丹领主不听劝告，甚至拒绝带走卫队。不幸的是，在前往钦津奇隘口时，一群邪恶的生物突然袭击了伊尔丹姆领主及其随行人员，将他们全部杀害。事后许多市民声称，是布鲁桑琪和她的儿子们召唤了这些野兽，袭击了伊伦丹领主，但此事未被证实。伊伦丹领主最终葬于莱夫特昂楚。<BR>
 <BR>
 """
 
@@ -6172,15 +6172,15 @@ Ra'Tesh
 
 > CREA.FNAM durzog_war
 War Durzog
-战狂杜佐格
+战狂地精犬
 
 > CREA.FNAM durzog_wild
 Wild Durzog
-狂野杜佐格
+狂野地精犬
 
 > CREA.FNAM durzog_diseased
 Diseased Durzog
-染病杜佐格
+染病地精犬
 
 > DOOR.FNAM In_MH_door_02_play
 Door
@@ -6775,7 +6775,7 @@ Ivulen Irano's Chest
 
 > INGR.FNAM ingred_durzog_meat_01
 Durzog Meat
-杜佐格肉
+地精犬肉
 
 > DOOR.FNAM Ex_MH_sewer_trapdoor_sadri
 Trap Door
@@ -7138,7 +7138,7 @@ Goblin Handler
 
 > CREA.FNAM durzog_war_trained
 War Durzog
-战狂杜佐格
+战狂地精犬
 
 > NPC_.FNAM drals indobar
 Hand Drals Indobar
@@ -7268,7 +7268,7 @@ This is my box. What I keep all my stuff in. Stay out or I will make you dead li
 
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-这是我的盒子，我把我所有的东西都放在里面。吉路尔的宠物杜佐格犬曾坐在了我的盒子上，现在它已经断气了。不准乱动，否则我会让你落得和那只畜牲一样的下场！
+这是我的盒子，我把我所有的东西都放在里面。吉路尔的宠物地精犬曾坐在了我的盒子上，现在它已经断气了。不准乱动，否则我会让你落得和那只畜牲一样的下场！
 <BR>
 <IMG SRC="Adren_note.tga" WIDTH="240" HEIGHT="240"><BR>
 <BR>
@@ -7661,7 +7661,7 @@ Adamantium Helm
 
 > CREA.FNAM durzog_wild_weaker
 Wild Durzog
-狂野杜佐格
+狂野地精犬
 
 > ACTI.FNAM Sound_pipebreak
 Sound_Waterfall00
@@ -8269,7 +8269,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_eralane 1011305542567023939
 I spoke with Eralane Hledas who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与埃拉兰·赫莱达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
+我与埃拉兰·赫勒达斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_neldris 16732177242643421408
 Sleepers Awake
@@ -8997,15 +8997,15 @@ Edryno Arethi thanked me for returning the Daedric Wakizashi.
 
 > INFO.NAME ht_theranaclothes 1206327953222646565
 House Telvanni: New Clothes
-泰瓦尼家族：新衣服
+泰瓦尼家族：新服装
 
 > INFO.NAME ht_theranaclothes 2109620131366221657
 Mouth Felisa Ulessen gave me some new clothes and asked me to deliver them to Mistress Therana in Tel Branora. Mistress Therana is eccentric, and I should be careful not to offend her.
-发言人菲丽莎·乌雷森给了我几件新的服装，让我把它们送到泰尔-布勒诺拉的西拉那夫人手里。西拉那夫人脾气古怪，我应该小心谨慎，不要得罪她。 {新衣服}
+发言人菲丽莎·乌雷森给了我几件新服装，让我把它们送到泰尔-布勒诺拉的西拉那夫人手里。西拉那夫人脾气古怪，我应该小心谨慎，不要得罪她。
 
 > INFO.NAME ht_theranaclothes 591365743083316878
 Mouth Felisa Ulessen thanked me for delivering the clothes to her patron.
-发言人菲丽莎·乌雷森感谢我把服装送到了她的资助者手中。
+发言人菲丽莎·乌雷森感谢我把服装送到了她的顾客手中。 {资助者}
 
 > INFO.NAME ht_slaverebellion 248493095769026523
 House Telvanni: Slave Rebellion
@@ -14877,7 +14877,7 @@ Mages Guild: Fake Soul Gem
 
 > INFO.NAME mg_sabotage 2032217651464016623
 Ajira gave me a fake soul gem. She wants me to sabotage Galbedir's Journeyman project. I should put the fake soul gem in Galbedir's desk.
-阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子上。
+阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的老手晋级计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。
 
 > INFO.NAME mg_sabotage 1126144581591424416
 Ajira thanked me for helping her sabotage Galbedir's experiment.
@@ -21899,7 +21899,7 @@ I guess it didn't go too well. She was real nice about it, but she said she didn
 
 > INFO.NAME marena gilnith 5734106232436331714
 I can't thank you enough, %PCName! She's everything I ever dreamed of, and more. You really helped me out - I think the new clothes did the trick. Here, I want you to have this. It's not much, but it's the least I can do for someone who's done so much for me. It's a family heirloom, you know.
-我对你感激不尽，%PCName！她是我梦寐以求的一切，甚至更多。你真的帮了我……我想新衣服起了作用。给，我想让你收下这个。这不算多，但这是我能给为一个为我做了这么多的人最起码的报偿。你知道，这是一件传家宝。 {服装}
+我对你感激不尽，%PCName！她是我梦寐以求的一切，甚至更多。你真的帮了我……我想新服装起了作用。给，我想让你收下这个。这不算多，但这是我能给为一个为我做了这么多的人最起码的报偿。你知道，这是一件传家宝。
 
 > INFO.NAME marena gilnith 317652784832912989
 I can't thank you enough, %PCName! She's everything I ever dreamed of, and more. You really helped me out, so I want you to have this. It's not much, but it's the least I can do for someone who's done so much for me. It's a family heirloom, you know.
@@ -21919,7 +21919,7 @@ Well, okay then. Thanks, %PCName. I'll try to relax some.
 
 > INFO.NAME marena gilnith 30712269631348219233
 You...you think so? Hmm. Okay, then. Thanks for the money. I'll stop on my way to see her and buy some new clothes. Gosh, isn't this exciting?
-你…你这么认为？嗯。好吧，那么。谢谢你的钱。我会在去看她的路上买些新衣服。天哪，这不是很刺激吗？ {服装}
+你…你这么认为？嗯。好吧，那么。谢谢你的钱。我会在去看她的路上买些新服装。天哪，这不是很刺激吗？
 
 > INFO.NAME marena gilnith 8944326275776506
 That's funny. That's just what I was thinking! Okay, %PCName. I'll do it.
@@ -21935,7 +21935,7 @@ Relax. Just go meet her.
 
 > INFO.BNAM marena gilnith 3182212250221444512 c2
 Take this money, get yourself some new clothes, and stop acting so starry-eyed.
-拿着这些钱，给自己买些新衣服，不要再表现得眼冒金星了。
+拿着这些钱，给自己买些新服装，不要再表现得眼冒金星了。
 
 > INFO.BNAM marena gilnith 3182212250221444512 c3
 Be sure you tell her frequently how pretty she is, and how awed you are.
@@ -23143,7 +23143,7 @@ You look like you're looking for something. It might be you'll find it at the Ra
 
 > INFO.NAME little advice 572829185274464241
 If you want weapons or arms in Ald'ruhn, or need weapons and armor repaired, look for Dandera Selaro the Smith in Ald'ruhn-under-Skar. Dandera Selaro serves all comers, and has a quality selection. The other three smiths in Ald'ruhn have faction associations. Ergnir the Nord is the Fighters Guild smith, and Tuveso Beleth is the House Redoran smith at Redoran Council Hall. Yambagorn gro-Shulor is the Legion's smith at Fort Buckmoth. And Daynes Redothril the pawnbroker may also be worth a look.
-如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。扬巴贡·格罗-舒洛是雄蛾要塞的军团铁匠。典当商戴尼斯·瑞多瑟尔也值得一看。 {盔甲维修}
+如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。亚姆巴贡恩·格罗-舒罗尔是雄蛾要塞的军团铁匠。典当商戴尼斯·瑞多瑟尔也值得一看。 {盔甲维修}
 
 > INFO.NAME little advice 2820953291952514426
 While you're here, you have to take a look at the Daedric ruins. Ashalmawia. Very old. Remarkable. Safe to go up there, in the daytime at least. I wouldn't go inside, though. Place is cursed.
@@ -23331,7 +23331,7 @@ The easy way to get started is to join a Guild. Do their jobs, earn your way up 
 
 > INFO.NAME little advice 32730501277161293
 Outlanders new in Vvardenfell do best in Balmora. House Hlaalu is Imperial through and through, and you get a good mix of native and Imperial people and services. Not as friendly to outlanders up north in House Redoran country, or down in big Vivec City, and DEFINITELY not friendly out east with the Telvanni wizards. Shop the outfitters, then check out the guilds for work. If you want to be adopted by a Great House, you'll need a patron, and that's easier when you've got a reputation.
-初到瓦登费尔的外地人最好去巴尔莫拉。哈拉鲁家族是彻头彻尾的帝国人，这里有本地人和帝国人，也有各种服务。北边的瑞多然家族领地或大维威克城对外地人并不友好，而东边的泰瓦尼巫师也绝对不友好。逛逛装备店，然后去公会找工作。如果你想加入一个大家族，你需要一个资助者，如果你有名声，那就容易多了。
+对于初到瓦登费尔的外地人来说，巴尔莫拉是最佳的落脚点。哈拉鲁家族彻头彻尾效忠帝国，巴尔莫拉这里汇聚着本土居民与帝国移民，各类服务设施一应俱全。相比之下，北部的瑞多然家族领地和南部的维威克城对外地人并不友好，而东部泰瓦尼巫师的领地更是绝对的敌对之地。先逛逛装备商铺，然后再去各个公会找点工作干。要是想被大家族收为义子，你需要一位庇护者——而声望越高，获得庇护就越容易。 {帝国人,资助者}
 
 > INFO.NAME little advice 26283129063009126892
 You should speak with the monk An-Deesei at the Argonian Mission. If the monk's life interests you, that is.
@@ -24423,7 +24423,7 @@ Part of the time I keep an eye on who comes and goes here in Seyda Neen. But mos
 
 > INFO.NAME latest rumors 2190811908785615033
 ...so Throknolf the Craven, who is strong and tough, but not the brightest star in the sky, wanders into Shenk's Shovel and drinks enough to choke a guar. Then he tells everyone about the loads of loot stashed in their cave, and how the guards will never find it. And then he stumbles out of Shenk's Shovel and wanders west of town, not paying any attention to me following along behind, and after a while he ducks into this cave. Poor fellow. He will never learn.
-…于是，懦夫斯洛克诺夫——虽然强壮彪悍，却不是天上最耀眼的星——闯进申克的铁锹店，喝下了足以噎死瓜尔的酒。然后，他告诉大家，他们的洞穴里藏着大量战利品，卫兵永远也找不到。然后他跌跌撞撞地走出申克的铁锹，在镇子西边游荡，根本没注意我在后面跟着，过了一会儿，他躲进了这个山洞。可怜的家伙，他永远也学不会了。
+……懦夫洛克诺夫，他虽然强壮而坚韧，却并不是天上最耀眼的星星--在申克的铁锹里鬼混，喝掉的酒足以呛死一头瓜尔。然后他告诉大家，他们的山洞里藏有大量的战利品，而卫兵永远也找不到。然后他跌跌撞撞地走出申克的铁锹，去了镇子西边闲逛，丝毫不理会跟在后面的我，过了一会儿他躲进了这个山洞。可怜的家伙。他永远也学不会教训。
 
 > INFO.NAME latest rumors 14215555416546647
 A shipmaster on the Tel Mora-Dagon Fel run said he dropped a group of wizards and mercenaries off on a little island somewhere between the point near Ahemmusa camp and Dagon Fel. Unfortunately, he couldn't -- or wouldn't -- give me a more specific description. My guess is that they were rogue Telvanni planning to set up a base out there.
@@ -24491,7 +24491,7 @@ Have you heard about the noble girl and her special friend, the bandit? The poet
 
 > INFO.NAME latest rumors 12688252452795913279
 Tsiya has a little bit of a "sweet tooth," if you know what I mean. I heard her connection hasn't arrived yet, though, and she's been acting a bit jumpy.
-提赛亚有点“爱吃甜食”，你懂我的意思吧？不过我听说她的联系还没到，她有点神经兮兮的。
+提赛亚有点“爱吃甜食”，你懂我的意思吧？不过我听说她的联系人还没到，弄得她有点神经兮兮的。
 
 > INFO.NAME latest rumors 1176121248666920157
 I heard Orvas Dren is really cracking down on escaped slaves. He's hired bounty hunters to track down any who would help them.
@@ -24823,7 +24823,7 @@ I've heard that Balen Andrano over in the Redoran section has had a real tough t
 
 > INFO.NAME latest rumors 197862879897432133
 Crassius Curio is quite a patron of the arts. He commissioned some artists to do a mural for him, and I heard that he has written a new play, and would like to have it performed.
-克拉西乌斯·库里奥是个艺术赞助人。他委托一些艺术家为他画了一幅壁画。我还听说他写了一出新的戏剧，希望能在舞台上演出。 {资助者,令状}
+克拉西乌斯·库里奥是个艺术资助者。他委托一些艺术家为他画了一幅壁画。我还听说他写了一出新的戏剧，希望能在舞台上演出。 {令状}
 
 > INFO.NAME latest rumors 77722781646324928
 I've heard that Miun-Gei the enchanter is getting really fed up with some obnoxious Breton selling wares outside his shop. Ridiculous what some people will do to earn a drake.
@@ -29847,7 +29847,7 @@ You're wearing me skirt! How dare you wear my skirt!
 
 > INFO.NAME greeting 1 29994982733319172
 Oh, are those my new clothes? I've waited ever so patiently for them.
-哦，那是我的新服装吗？我一直耐心地等着呢。 {新衣服}
+哦，那是我的新服装吗？我一直耐心地等着呢。
 
 > INFO.NAME greeting 1 712919592826332637
 I heard you killed my patron, Ondres Nerano. I have nothing to say to the likes of you.
@@ -33695,7 +33695,7 @@ Wha?
 
 > INFO.NAME goblins 31175272302842530884
 Miserable, horrid creatures. They're vile and viscious. They vary in size from smaller than a Bosmer to larger than a Nord. Some are mindless animals; others have learned the ways of magic. You'll often see them with trained Durzogs, another filthy creature.
-可悲的、可怕的生物。它们卑鄙无耻，目中无人。它们的大小不一，小的比波斯莫还小，大的比诺德人还大。有些只是没有智慧的动物；有些则学会了掌控魔法。你会经常看到它们和训练有素的杜佐格们，另一种肮脏的生物在一起。
+可悲的、可怕的生物。它们卑鄙无耻，目中无人。它们的大小不一，小的比波斯莫还小，大的比诺德人还大。有些只是没有智慧的动物；有些则学会了掌控魔法。你会经常看到它们和训练有素的地精犬群，另一种肮脏的生物在一起。
 
 > INFO.NAME goblins 138498982703915596
 Little vermin. I'd love to get my hands on some of their scrawny little necks. The people have been making a stink about seeing some around the city recenty, especially in the Godsreach area. I'll keep my eyes out for them.
