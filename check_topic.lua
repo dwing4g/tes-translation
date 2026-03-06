@@ -211,7 +211,8 @@ if not f then
 			end
 		end
 		if (not checkTopics or #checkTopics ~= 1) and (not arg[2] or arg[2] ~= arg[3]) then
-			f:write " !!!"
+			warn("not found topic: ", topic)
+			f:write(" [", topic, "]")
 		elseif not written then
 			f:write(" [", topic, "]")
 		end
