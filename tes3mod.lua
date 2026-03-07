@@ -53,9 +53,8 @@ local function readStr(line, isFirst)
 		s = line:match '"(.*)$'
 		if not s then
 			s = line:match '(%[.*%])'
-			if s then return s end
+			return s or ""
 		end
-		if not s then return "" end
 		line = s
 	end
 	local p = line:gsub('""', '@@'):find '"'
@@ -335,6 +334,9 @@ for line in io.lines(arg[1]) do
 		elseif vt[tag] then
 			if not v then
 				v, r = readStr(line, true)
+				if (v == "" or v == "$00") and tag == "CLAS.FNAM" then
+					v = k .. v
+				end
 			end
 			if not r then
 				local e = (v:gsub("%$%$", "@TeS3ModmArK@"):match "(%$00.*)$" or ""):gsub("@TeS3ModmArK@", "$$")

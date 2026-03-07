@@ -304,7 +304,7 @@ end
 
 local stringTags = {
 	"BNAM", "FNAM", "NAME", "RNAM", "SCHD", "SCTX", "TEXT",
-	"GMST.DATA",
+	"DIAS.TOPI", "GMST.DATA",
 }
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
