@@ -2008,8 +2008,17 @@ return {
     },
 	interfaceName = "QuickLoot",
 	interface = {
-		version = 1,
+		version = 2,
 		lootItem = lootItem,
+		isBookRead = function(recordId)
+			return savegameData.bookSection[recordId] == true
+		end,
+		getReadBooks = function()
+			return savegameData.bookSection
+		end,
+		getReadingTime = function(recordId)
+			return bookSection:get(recordId) or 0
+		end,
 	}
 	--eventHandlers = {
     --    FHB_AI_update = AI_update,

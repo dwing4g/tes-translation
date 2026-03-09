@@ -650,50 +650,41 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 			}
 		}).borders
 
-	-- Try Inventory Extender tooltips if available
+	-- Collect extra tooltip content from IE tooltip modifiers (e.g. Sun's Dusk survival values)
+	local ieExtraContent, ieExtraContentStart
 	if USE_IE_TOOLTIP then
 		local ieOk, IE = pcall(function() return require('openmw.interfaces').InventoryExtender end)
-		if ieOk and IE and IE.Templates and IE.Templates.MAGIC then
+		if ieOk and IE and IE.getWindow then
 			local window = IE.getWindow('Inventory')
 			local ctx = window and window.ctx
-			local ok2, ieLayout = pcall(IE.Templates.MAGIC.itemTooltip, item, true, ctx)
-			if ok2 and ieLayout then
-				ieLayout.type = ui.TYPE.Container
-				ieLayout.template = borderTemplate
-				ieLayout.layer = tooltipLayer
-				ieLayout.name = 'itemTooltip'
-				local anchor, pos
-				if TOOLTIP_MODE == "top" then
-					anchor, pos = v2(0.5,1), v2(absPos.x, absPos.y-rootHeight/2)
-				elseif TOOLTIP_MODE == "bottom" then
-					local temp = FOOTER_HINTS == "Disabled" and outerHeaderFooterHeight or 0
-					anchor, pos = v2(0.5,0), v2(absPos.x, absPos.y+rootHeight/2+1-temp)
-				elseif TOOLTIP_MODE == "left" then
-					anchor, pos = v2(1,0), v2(absPos.x-rootWidth/2, absPos.y-rootHeight/2+highlightPosition)
-				elseif TOOLTIP_MODE == "right" then
-					anchor, pos = v2(0,0), v2(absPos.x+rootWidth/2, absPos.y-rootHeight/2+highlightPosition)
-				elseif TOOLTIP_MODE == "left (fixed)" then
-					anchor, pos = v2(1,0.5), v2(absPos.x-rootWidth/2, absPos.y)
-				elseif TOOLTIP_MODE == "left (fixed 2)" then
-					anchor, pos = v2(1,0), v2(absPos.x-rootWidth/2, absPos.y-boxHeight/4)
-				elseif TOOLTIP_MODE == "left (fixed 3)" then
-					anchor, pos = v2(0.5,0), v2(math.max(absPos.x-rootWidth*0.9,(absPos.x-rootWidth/2)/2), absPos.y-boxHeight/4)
-				elseif TOOLTIP_MODE == "right (fixed 2)" then
-					anchor, pos = v2(0,0), v2(absPos.x+rootWidth/2, absPos.y-boxHeight/4)
-				elseif TOOLTIP_MODE == "right (fixed 3)" then
-					anchor, pos = v2(0.5,0), v2(math.min(99999999,(uiWidth+absPos.x+rootWidth/2)/2), absPos.y-boxHeight/4)
-				elseif TOOLTIP_MODE == "crosshair" then
-					anchor, pos = v2(0.5,0), v2(uiWidth/2, uiHeight/2+20)
-				else
-					anchor, pos = v2(0,0.5), v2(absPos.x+rootWidth/2, absPos.y)
+			if ctx and ctx.tooltipModifiers and #ctx.tooltipModifiers > 0 then
+				-- Build a dummy layout matching the structure modifiers expect:
+				-- layout.content[1].content[1].content = innerContent
+				local dummyInner = ui.content {}
+				local dummyLayout = {
+					content = ui.content {
+						{
+							content = ui.content {
+								{
+									content = dummyInner,
+								}
+							}
+						}
+					}
+				}
+				local baseCount = #dummyInner
+				for _, modifier in ipairs(ctx.tooltipModifiers) do
+					pcall(modifier.modifier, item, dummyLayout)
 				end
-				ieLayout.props = { autoSize = true, anchor = anchor, position = pos }
-				return ui.create(ieLayout)
+				if #dummyInner > baseCount then
+					ieExtraContent = dummyInner
+					ieExtraContentStart = baseCount + 1
+				end
 			end
 		end
 	end
 
-	-- Fallback: build tooltip natively
+	-- Build tooltip natively
 	local root = ui.create({
 		type = ui.TYPE.Container,
 		layer = tooltipLayer,
@@ -1070,6 +1061,13 @@ return function (item, highlightPosition, isPickpocketing, colorTheme, deposit) 
 			end
 		end
 		
+	end
+	
+	-- Append any extra content from IE tooltip modifiers
+	if ieExtraContent then
+		for i = ieExtraContentStart, #ieExtraContent do
+			flex.content:add(ieExtraContent[i])
+		end
 	end
 	
 	flex.content:add{ props = { size = v2(1+borderOffset, 1+borderOffset) * 2 } }
