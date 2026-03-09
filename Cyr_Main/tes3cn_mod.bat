@@ -2,6 +2,6 @@
 setlocal
 pushd %~dp0
 
-..\luajit ..\tes3mod.lua Cyr_Main.txt tes3cn_Cyr_Main.ext.txt topics_Cyr_Main.txt tes3cn_Cyr_Main.txt
+..\luajit ..\tes3mod.lua Cyr_Main.txt tes3cn_Cyr_Main.ext.txt topics_TD_Cyr_Main.txt tes3cn_Cyr_Main.txt
 
 pause
