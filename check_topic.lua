@@ -10,6 +10,7 @@ local concat = table.concat
 local io = io
 local write = io.write
 local tonumber = tonumber
+local tostring = tostring
 local ipairs = ipairs
 local pairs = pairs
 local error = error
@@ -345,8 +346,11 @@ local function loadTexts(filename, texts, topicMap, ignoreKeys) -- "INFO.INAM @ 
 	for line in io.lines(filename) do
 		line = line:gsub("\r+$", "")
 		local topic = line:match "[Aa]dd[Tt]opic%s*\"\"(.-)\"\""
-		if topic and not topicMap[lowerGBK(topic)] and not line:find ";%s*[Aa]dd[Tt]opic%s*\"\"" then
-			warn("not found topic at line ", i, ": ", line)
+		if topic then
+			local topicLower = lowerGBK(topic)
+			if not topicMap[topicLower] and not check0[topicLower] and not check1[topicLower] and not line:find ";%s*[Aa]dd[Tt]opic%s*\"\"" then
+				warn("not found topic at line ", i, ": ", line)
+			end
 		end
 		if ss then
 			local isEnd, s = readString(line, 1)
