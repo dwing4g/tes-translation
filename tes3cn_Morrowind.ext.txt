@@ -2490,7 +2490,7 @@ Current effects on the spell
 
 > GMST.STRV sKilledEssential
 With this character's death, the thread of prophecy is severed. Restore a saved game to restore the weave of fate, or persist in the doomed world you have created.
-随着这名角色的死亡，预言的线索消失了。加载以前的进度来改变命运，否则只能留在这个由你创建的毁灭世界中。
+随着这名角色的死亡，预言的线索消失了。回到以前的存档来重塑命运，否则只能留在这个由你创建的已毁灭的世界中。
 
 > GMST.STRV sCrimeMessage
 Your crime has been reported!
@@ -3226,7 +3226,7 @@ Fire Shield
 
 > GMST.STRV sEffectLightningShield
 Lightning Shield
-雷电护盾
+电击护盾
 
 > GMST.STRV sEffectFrostShield
 Frost Shield
@@ -3430,7 +3430,7 @@ Rally Humanoid
 
 > GMST.STRV sEffectRallyCreature
 Rally Creature
-生物振奋
+振奋生物
 
 > GMST.STRV sEffectDispel
 Dispel
@@ -3594,7 +3594,7 @@ Resist Corprus Disease
 
 > GMST.STRV sEffectResistPoison
 Resist Poison
-抗毒
+抵抗毒素
 
 > GMST.STRV sEffectResistNormalWeapons
 Resist Normal Weapons
@@ -3630,7 +3630,7 @@ Summon Dremora
 
 > GMST.STRV sEffectSummonAncestralGhost
 Summon Ancestral Ghost
-召唤先祖幽灵
+召唤先祖幽魂
 
 > GMST.STRV sEffectSummonSkeletalMinion
 Summon Skeletal Minion
@@ -6399,7 +6399,7 @@ Go to Hell, Carolina!
 
 > SCPT.SCTX bolvynScript m1
 With this character's death, the thread of prophecy is severed. Restore a saved game to restore the weave of fate, or persist in the doomed world you have created.
-随着这个角色的死亡，预言的线索也被切断。回到过去的时间来重塑命运，否则你只能继续留在你所创造的注定要灭亡的世界当中。
+随着这名角色的死亡，预言的线索消失了。回到以前的存档来重塑命运，否则只能留在这个由你创建的已毁灭的世界中。
 
 > SCPT.SCTX CavernIncarnateDoor s1
 In the dawn hour under Azura's Star, the door is opened.
@@ -7115,11 +7115,11 @@ Your had begins to blister and burn with the pain of a thousand suns. A voice ec
 
 > SCPT.SCTX LorkhanHeart s1
 What are you doing?
-你在做什么？
+你在干什么？
 
 > SCPT.SCTX LorkhanHeart s2
 WHAT ARE YOU DOING?!
-你！在！做！什！么？！
+你！在！干！什！么？！
 
 > SCPT.SCTX LorkhanHeart s3
 FOOL!
@@ -11035,7 +11035,7 @@ Vivec's Tears
 
 > SPEL.FNAM cure common disease
 Cure Common Disease
-常见疾病治愈
+治愈常见疾病
 
 > SPEL.FNAM rilm's cure
 Rilm's Cure
@@ -12951,7 +12951,7 @@ Summon Hrelvesuu
 
 > SPEL.FNAM sp_ccd
 Cure Common Disease
-常见疾病治愈
+治愈常见疾病
 
 > SPEL.FNAM vivec's_wrath
 Vivec's Wrath
@@ -62853,15 +62853,15 @@ Representing the Super Extra Very Sovereign Council of Mages Without Digits With
 
 > CLOT.FNAM fighter_ring
 Fighter Ring
-战士之戒
+战士戒指
 
 > CLOT.FNAM mage_ring
 Mage Ring
-法师之戒
+法师戒指
 
 > CLOT.FNAM thief_ring
 Thief Ring
-盗贼之戒
+盗贼戒指
 
 > CREA.FNAM centurion_fire_dead
 Sphere Centurion
@@ -78972,7 +78972,7 @@ Because I have been able to kill a large number of Quarra and Aundae vampires, R
 
 > INFO.NAME va_vampcountess 23042234591408719473
 Because I have killed some of the cattle, I have lost the privilege of using them for food.
-因为我杀了一些牲口，所以我失去了用它们做食物的特权。
+因为我杀了一些血畜，所以我失去了用它们做食物的特权。
 
 > INFO.NAME b2_ahemmusawalk 249082528358196432
 Sinnammu Mirpal accompanies me to Ald Daedroth. If she can pass safely into the old sanctuary and see the great statue there, she will name me Ahemmusa Nerevarine.
@@ -85868,7 +85868,7 @@ I did not steal the mining contracts. Look around if you want, but don't take an
 
 > INFO.NAME caldera mining contracts 1275730384197348258
 Thanks, %PCName.
-谢谢你，%PCName。
+谢谢，%PCName。
 
 > INFO.NAME caldera mining contracts 931020016145017973
 I've given you the key. Take the documents back to Odral, but don't tell him that it was me, all right? Just make up some story.
@@ -86552,7 +86552,7 @@ You have returned the Belt of Sanguine Balanced Armor.
 
 > INFO.NAME sanguine balanced armor 3020531837167412839
 With this, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.
-你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉技能的祝福。
+你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉能力的祝福。
 
 > INFO.NAME sanguine balanced armor 1436670373263130998
 The threads of the Webspinner return to us one by one.
@@ -86600,7 +86600,7 @@ You have returned the Ring of Sanguine Sublime Wisdom.
 
 > INFO.NAME sanguine sublime wisdom 127472892159423017
 With this, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.
-你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉技能的祝福。
+你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉能力的祝福。
 
 > INFO.NAME sanguine sublime wisdom 25647174842010328702
 So the Threads return to us one by one.
@@ -87096,7 +87096,7 @@ I'm afraid only Cyrodilic brandy will do for the Fort Moonmoth fund-raising dinn
 
 > INFO.NAME nalcarya of white haven 30258262292656821579
 I am Nalcarya. How may I help you?
-我是娜尔卡娅。有什么可以帮你的吗？
+我是娜尔卡娅，我能帮你点什么？
 
 > INFO.NAME nalcarya of white haven 3016926259196717838
 Her shop is on the northwest side of town. Go across the river, turn right, and keep going. If you reach the temple, turn left.
@@ -87848,7 +87848,7 @@ The Threads of the Webspinner return to us one by one.
 
 > INFO.NAME sanguine transfiguring 204485574230249312
 Are you loyal to the Morag Tong? Sometimes I wonder.
-有时候我在想，你真的忠于莫拉格堂吗。
+你真的忠于莫拉格堂吗？有时候我在想。
 
 > INFO.NAME sanguine transfiguring 10939171632338118795
 You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?
@@ -87888,7 +87888,7 @@ The Threads of the Webspinner return to us one by one.
 
 > INFO.NAME sanguine golden wisdom 204485574230249312
 Are you loyal to the Morag Tong? Sometimes I wonder.
-有时候我在想，你真的忠于莫拉格堂吗。
+你真的忠于莫拉格堂吗？有时候我在想。
 
 > INFO.NAME sanguine golden wisdom 10939171632338118795
 You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?
@@ -89592,7 +89592,7 @@ You have returned the Ring of Sanguine Green Wisdom.
 
 > INFO.NAME sanguine green wisdom 3020531837167412839
 With this ring, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.
-你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉能力的祝福。 {戒指}
+有了这枚戒指，你就将织网者之丝全部归还给了莫拉格堂。你将受到梅法拉能力的祝福。
 
 > INFO.NAME sanguine green wisdom 1436670373263130998
 The threads of the Webspinner return to us one by one.
@@ -89780,7 +89780,7 @@ Ah, yes, my son told me how you helped him out with that business. Nice of you t
 
 > INFO.NAME marsus tullius' hides 58122499337016927
 Yes, my son told me all about that business. Shame it all happened, really. I've warned him to stay away from the Ashlanders' herds, but he's still young. I wish I could repay you for saving his skin, but all of my money was tied up in that shipment. Thank you for your help, though.
-是的，我儿子把那笔生意都告诉我了，真遗憾，我警告过他，离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}
+是的，我儿子把那笔生意都告诉我了。真遗憾，我警告过他，离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}
 
 > INFO.NAME marsus tullius' hides 1706322781135798293
 Thank you again for your help.
@@ -91508,7 +91508,7 @@ You have returned the Ring of Sanguine Red Wisdom.
 
 > INFO.NAME sanguine red wisdom 327162818482521907
 With this ring, you have returned all the Threads of the Webspinner to the Morag Tong. You will be blessed by Mephala's skill.
-有了这枚戒指，你就将织网者之丝全部归还给了莫拉格堂。你将受到梅法拉技能的祝福。
+有了这枚戒指，你就将织网者之丝全部归还给了莫拉格堂。你将受到梅法拉能力的祝福。
 
 > INFO.NAME sanguine red wisdom 25977201352954931710
 The Threads of the Webspinner return to us one by one.
@@ -92056,7 +92056,7 @@ What is the use of knowing my name? If it will make you more comfortable, you ma
 
 > INFO.NAME taking cloudcleaver 26332259411248911020
 Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight.
-谢谢你，朋友，我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利的武器的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。
+谢谢你，朋友。我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利刀刃的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。
 
 > INFO.NAME taking cloudcleaver 2244928392473729022
 Methinks that a poor, poor decision on your part friend.
@@ -93056,7 +93056,7 @@ It's not just the blight storms that're bad this year. They got all sorts of bli
 
 > INFO.NAME more blight storms 2090614391146967403
 The blight storms have been really bad this year. My friend who makes the Maar Gan pilgrimage every year got caught in a real doozy. He was in a pretty bad way until they got him back to a Temple.
-今年的枯萎病风暴真的很严重，我的朋友每年都去玛尔-甘朝圣，而这次就遇到了一场大灾难。直到他们把他送回神殿前，他的情况都非常糟糕。 {枯萎之症}
+今年的枯萎病风暴真的很严重。我的朋友每年都去玛尔-甘朝圣，而这次就遇到了一场大灾难。直到他们把他送回神殿前，他的情况都非常糟糕。 {枯萎之症}
 
 > INFO.NAME more blight storms 509116663106572775
 The blight storms have been so bad around Red Mountain this year that the crops and herds of the outlying villages are really suffering. The price of everything is got to go up.
@@ -98880,7 +98880,7 @@ I'll deliver it for you.
 
 > INFO.BNAM running an errand 29246122175967962 c2
 I can't help you.
-你去找别人吧。
+我帮不了你。
 
 > INFO.NAME spoken to eraldil 3089413145126242238
 Oh. Well, come back when you've spoken to her, friend!
@@ -100418,7 +100418,7 @@ The Threads of the Webspinner return to us one by one.
 
 > INFO.NAME sanguine smiting 204485574230249312
 Are you loyal to the Morag Tong? Sometimes I wonder.
-有时候我在想，你真的忠于莫拉格堂吗。
+你真的忠于莫拉格堂吗？有时候我在想。
 
 > INFO.NAME sanguine smiting 10939171632338118795
 You have been expelled from the Morag Tong... But I see you have one of the Threads of the Webspinner. Will you return this Thread?
@@ -100702,7 +100702,7 @@ Have you no heart? No soul? Can you not see that this must be true love? No matt
 
 > INFO.NAME maurrie's jewels 31393271201148415693
 What's that? Oh, never mind the jewels! I just want to find the bandit again. He was charming, and funny, and I simply must see him again. His name? Nelos...Nelos Onmar...a name that will stay on my lips for eternity. Perhaps you can find him for me? Please, I cannot live without knowing if he could ever love me. I have nothing to offer you in return, but could you not help me for the sake of love?
-那是什么？别管珠宝了！我只想再找到那个强盗，他迷人又风趣，我一定要再见到他，他叫什么名字？内罗斯…内罗斯·奥马…这个名字将永远留在我的嘴边。也许你能帮我找到他？求求你，我不能在不知道他是否爱我的情况下生活。我没有什么可以回报你的，但为了爱，你能不能帮帮我？
+那是什么？别管珠宝了！我只想再找到那个强盗，他迷人又风趣，我一定要再见到他。他叫什么名字？内罗斯…内罗斯·奥马…这个名字将永远留在我的嘴边。也许你能帮我找到他？求求你，我不能在不知道他是否爱我的情况下生活。我没有什么可以回报你的，但为了爱，你能不能帮帮我？
 
 > INFO.BNAM maurrie's jewels 31393271201148415693 c1
 I will try and find this man, if only for love's sake.
@@ -101638,7 +101638,7 @@ I don't have 100 drakes.
 
 > INFO.BNAM vodunius nuccius 5211249121351425077 c2
 Not interested.
-我没兴趣。
+没兴趣。
 
 > INFO.NAME vodunius nuccius 5054101151312129195
 Not happy here? In fact, no, I'm not. If I had 100 drakes, I'd be on the next boat to Narsis. I came here to make my fortune, and all I've got is this cursed ring. Say. Would you give me 100 drakes for it? The ring itself is worth more than that, but the enchantment is cursed, and no one will buy it from me. It has a nifty little enchantment that helps you run faster. Problem is, it sucks the blood right out of you every time you use it. Please? You'll be doing me a real favor.
@@ -101650,7 +101650,7 @@ Here's 100 drakes. Give me the ring.
 
 > INFO.BNAM vodunius nuccius 5054101151312129195 c2
 Not interested.
-我没兴趣。
+没兴趣。
 
 > INFO.NAME vodunius nuccius 98057901253811951
 Oh. Yes. He steers business my way, and I do him a little favor now and then. Poor fellow. I don't think he's happy here in Morrowind.
@@ -101922,7 +101922,7 @@ Imperials are hard workers, but you have to watch them. Especially this one. He 
 
 > INFO.BNAM manilian scerius 536523139115938165 c1
 Buy the slave.
-我要购买奴隶。
+购买奴隶。
 
 > INFO.BNAM manilian scerius 536523139115938165 c2
 Nevermind.
@@ -101998,11 +101998,11 @@ Your threats are weak like your flesh, mortal.
 
 > INFO.NAME taunt the daedra 854321839181039859
 Continue with your insults, mortal. I long to feast on your marrow.
-继续你的侮辱吧，凡人。我渴望啃食你的骨髓。
+继续你的冒犯吧，凡人。我渴望啃食你的骨髓。
 
 > INFO.NAME taunt the daedra 85403155738245122
 Ha! Fine words from one born from the wrong end of a guar.
-哈！瓜尔生的东西能说什么好话。
+哈！一头从瓜尔屁股眼里生出来的东西，说话倒还挺动听。
 
 > INFO.NAME taunt the daedra 1646375372901932545
 After I kill you, I will rape your corpse. Don't worry. I'll be gentle.
@@ -104482,7 +104482,7 @@ Give him the statue.
 
 > INFO.BNAM bralen carvaren 51452194473007404 c2
 Keep the statue.
-留着雕像吧。
+留着雕像。
 
 > INFO.NAME bralen carvaren 13379121593019526301
 Yes, Varvur has been charged with the murder. There is a great deal of evidence. If you must investigate this, start by speaking with Varvur Sarethi.
@@ -104854,7 +104854,7 @@ I'm Murudius Flaeus. You here to collect the debt money?
 
 > INFO.NAME murudius flaeus 2308117807299678510
 You've been expelled. I cannot discuss business with you unless you make amends.
-你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。
+你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。
 
 > INFO.NAME murudius flaeus 21826260844581931
 You have already dealt with Murudius Flaeus, %PCName.
@@ -106806,11 +106806,11 @@ The most disciplined and effective military force in history, the Imperial Legio
 
 > INFO.NAME ashlander gifts 3087920817730726237
 Among Ashlanders, a gift is a token of courtesy among strangers, and affection among friends. When coming first among strangers, a thoughtful gift is a sign that you are cautious, and considerate, and aware of the other's wants and needs. Such is particularly useful for traders and travelers. Among friends, it is a private thing, and subtle, with great risks, for the test of the gift is how well it is tailored to the receiver.
-在灰烬之民中，礼物是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示自己谨慎、体贴，并了解对方的愿望和需求。这对贸易商和旅行者尤其有用。在朋友之间，这是一件私事，很微妙，有很大的风险，因为礼物的检验标准是如何为收礼人量身定做。 {需要}
+在灰烬之民当中，送礼是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示自己谨慎、体贴，并了解对方的愿望和需求。这对贸易商和旅行者尤其有用。在朋友之间，这是一件私事，很微妙，风险很大，因为礼物的好坏取决于它是否适合收礼人。 {需要}
 
 > INFO.NAME ashlander gifts 220626442720519458
 Among Ashlanders, a gift is a token of courtesy among strangers, and affection among friends. When coming first among strangers, a thoughtful gift is a sign that you are cautious, and considerate, and aware of the other's wants and needs. Such is particularly useful for traders and travelers. Among friends, it is a private thing, and subtle, with great risks, for the test of the gift is how well it is tailored to the receiver.
-在灰烬之民当中，送礼是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示你谨慎、体贴，知道对方的愿望和需要。这对贸易商和旅行者尤其有用。在朋友之间，送礼是一件私事，很微妙，风险很大，因为礼物的好坏取决于它是否适合收礼人。
+在灰烬之民当中，送礼是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示自己谨慎、体贴，并了解对方的愿望和需求。这对贸易商和旅行者尤其有用。在朋友之间，这是一件私事，很微妙，风险很大，因为礼物的好坏取决于它是否适合收礼人。 {需要}
 
 > INFO.NAME ashlander gifts 720128914206869823
 Thoughtful gifts are often exchanged between Ashlanders traders and travelers. Among friends, it is a private thing, and subtle, with great risks, for the test of the gift is how well it is tailored to the receiver.
@@ -107646,11 +107646,11 @@ Thank you for your help.
 
 > INFO.NAME embezzled funds 152879707278479371
 Very well. Carry on. And good luck.
-很好，继续吧。祝你好运。 {幸运}
+很好，继续吧，祝你好运。 {幸运}
 
 > INFO.NAME embezzled funds 1982276013243613874
 That's unfortunate. Then I'm sorry, but I cannot redeem my generous pledge to the Imperial cult.
-真不幸，那么很抱歉，我不能兑现对帝国教团慷慨的承诺了。 {帝国人}
+真不幸。那么很抱歉，我不能兑现对帝国教团慷慨的承诺了。 {帝国人}
 
 > INFO.NAME embezzled funds 826422288201903385
 A pity. But something is better than nothing. And what you have recovered will at least permit me to redeem my generous pledge to the Imperial cult.
@@ -107990,7 +107990,7 @@ I'll cast the spell.
 
 > INFO.NAME lirielle stoine 958632226159030153
 I am Lirielle. How may I help you?
-我是莉莉尔，我能帮你什么？
+我是莉莉尔，我能帮你点什么？
 
 > INFO.NAME lirielle stoine 1527113110315733904
 She's around somewhere. Usually behind the bar.
@@ -109374,7 +109374,7 @@ Bivale Teneran is a wealthy clothing merchant in Ald'ruhn. She keeps an eye out 
 
 > INFO.NAME bivale teneran 1458784812071418152
 I am Bivale Teneran. How may I help you?
-我是比薇尔·特纳兰。有什么可以效劳的？
+我是比薇尔·特纳兰，我能帮你点什么？
 
 > INFO.NAME bivale teneran 235371551978806463
 Bivale Teneran is the fine clothier here in Ald'ruhn. Her shop is in the Manor District, which can be found in the north part of town, under-Skar.
@@ -109386,7 +109386,7 @@ Yes, to Teneran my fine shirts must go. She is in Ald'ruhn, under the big shell.
 
 > INFO.NAME elmussa damori 4966280642784230339
 That's me. What do you want?
-那就是我，你想要什么？
+那就是我，你有什么事？
 
 > INFO.NAME elmussa damori 25724135261899830517
 %Name heard she is dead. %Name is very sad for her.
@@ -111538,7 +111538,7 @@ Ah, yes, my son told me how you helped him out with that business. Nice of you t
 
 > INFO.NAME marsus tullius 1706322781135798293
 Yes, my son told me all about that business. Shame it all happened, really. I've warned him to stay away from the Ashlanders' herds, but he's still young. I wish I could repay you for saving his skin, but all of my money was tied up in that shipment. Thank you for your help, though.
-是的，我儿子把那笔生意都告诉我了。真遗憾，我警告过他离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}
+是的，我儿子把那笔生意都告诉我了。真遗憾，我警告过他，离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}
 
 > INFO.NAME hope of escape 17087258343206213671
 Rabinna will be safe here. She will stay here. Even with Im-Kilaya dead, there are those that will help.
@@ -113098,7 +113098,7 @@ She's over at the Arena. She has Corprus. Don't go near her.
 
 > INFO.NAME braynas hlervu 2473523131554014691
 That's me. What do you want?
-那就是我，你想要什么？
+那就是我，你有什么事？
 
 > INFO.NAME braynas hlervu 31986260131593720689
 He used to be a farmer many years ago. Now all he grows is older. His small house is at the western edge of town.
@@ -113158,7 +113158,7 @@ I'm sorry but you don't have enough gold to afford my fine slaves.
 
 > INFO.NAME jadier mannick 1138218748223143540
 Come back when you change your mind.
-等你改变主意了再回来看看吧。
+等你改变主意了再回来吧。
 
 > INFO.NAME jadier mannick 536523139115938165
 You are looking for a Breton? I am pleased. I thought I might never get rid of this one. He'll make a fine slave, I'm sure. It's just that Bretons are not as hard working as Orcs or Argonians. He is the same price as the others. 1000 drakes.
@@ -113166,7 +113166,7 @@ You are looking for a Breton? I am pleased. I thought I might never get rid of t
 
 > INFO.BNAM jadier mannick 536523139115938165 c1
 Buy the slave.
-我要购买奴隶。
+购买奴隶。
 
 > INFO.BNAM jadier mannick 536523139115938165 c2
 Nevermind.
@@ -113498,7 +113498,7 @@ I heard that Dagoth Ur caused the bad dreams. But you have killed Dagoth Ur, so 
 
 > INFO.NAME soul sickness 2041312069520521327
 I'm telling you, it's making me worried. My neighbor was outside in the middle of the night last night, running around, talking nonsense, and in the morning, he doesn't remember a thing about it. Those scholars talk stuff about delusion diseases and such. What the hell does that mean? And why can't the priests cure it?
-我告诉你，这让我很担心。我的邻居昨晚半夜在外面跑来跑去，胡言乱语，到了早上，他什么都不记得了。那些学者说什么妄想症之类的东西，这到底是什么意思？为什么祭司治不好？ {谈,疾病}
+我告诉你，这让我很担心。我的邻居昨晚半夜在外面跑来跑去，胡言乱语。到了早上，他什么都不记得了。那些学者说什么妄想症之类的东西，这到底是什么意思？为什么祭司治不好？ {谈,疾病}
 
 > INFO.NAME soul sickness 23724319211745616292
 Dagoth Ur is dead, and the Blight is gone. And, if Dagoth Ur and the Blight were the sources of the bad dreams, then the bad dreams should be gone. Don't you agree?
@@ -114078,7 +114078,7 @@ Another treasury report? Do you have it with you?
 
 > INFO.NAME sealed report 60848537344015698
 You've been expelled. I cannot discuss business with you unless you make amends.
-你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。
+你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。
 
 > INFO.NAME sealed report 104117681333725076
 You already delivered the sealed report, %PCName.
@@ -117898,7 +117898,7 @@ I tell you. This Peakstar? The Temple says she's dead. So how could she be the N
 
 > INFO.NAME latest rumors 1840510199186276782
 The Temple forbids the worship of the four bad Daedra -- Mehrunes Dagon, Malacath, Molag Bal, and Sheogorath. But it's a big island, and there's a lot of wilderness, with lots of old Daedric ruins just waiting for a new group of worshippers. The Ordinators have their hands full with heretics and dissidents at home. They can't go out chasing Daedra lovers.
-神殿禁止崇拜四个邪恶的迪德拉：梅鲁涅斯·大衮、马拉卡斯、莫拉格·巴尔和谢尔格拉斯。但这个岛很大，有很多荒野，有很多古老的迪德拉遗迹，正等待着一群新的崇拜者。神殿卫兵们在晨风内忙于对付异端和异见祭司。他们不可能出去追逐迪德拉爱好者。 {迪德拉式,手}
+神殿禁止崇拜四个邪恶的迪德拉——梅鲁涅斯·大衮、马拉卡斯、莫拉格·巴尔和谢尔格拉斯。但这个岛很大，有很多荒野，有很多古老的迪德拉遗迹，正等待着一群新的崇拜者。神殿卫兵们在晨风内忙于对付异端和异见祭司。他们不可能出去追逐迪德拉爱好者。 {迪德拉式,手}
 
 > INFO.NAME latest rumors 204221102699029955
 Of course, most Mages Guild wizards are pathetic clowns. But I must admit, that lizard that goes by the barbarous title of 'Skink-in-Tree's-Shade' is a very astute practitioner, almost as sage and learned as Telvanni aspirants five times his age. But I have heard he carries his anti-slavery politics a little too far, and much farther than Imperial law allows.
@@ -118766,7 +118766,7 @@ This is the place. What is it?
 
 > INFO.NAME yngling manor 10812220113050225839
 You're there. What do you want?
-你就在那儿。你想干嘛？
+你就在那儿。你有什么事？
 
 > INFO.NAME yngling manor 27864119096123768
 The entrance is on the west side of the plaza, near the door outside.
@@ -119194,7 +119194,7 @@ He's a trader in the Redoran District of the city.
 
 > INFO.NAME moroni uvelas 12940260761583811762
 I am she. How may I help you?
-我就是她，我怎么能帮到你？
+我就是她，我能帮你点什么？
 
 > INFO.NAME moroni uvelas 2982712952537023215
 I've heard of her. She works in the St. Olms Brewers and Fishmongers Hall. Nice woman. Shame about her no-account husband, Danar Uvelas, though.
@@ -120508,7 +120508,7 @@ Yes, I'm Tarvyn Faren. Are you here to escort me? Tell me when you're ready to t
 
 > INFO.NAME tarvyn faren 1106615169245343131
 You've been expelled. I cannot discuss business with you unless you make amends.
-你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。
+你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。
 
 > INFO.NAME tarvyn faren 14990275261124026118
 I heard that Tarvyn Faren did not arrive safely. I hold you responsible. I will not discuss any more business with you.
@@ -120528,7 +120528,7 @@ Meet Tarvyn Faren on the road to Pelagiad, near the Silt Strider just north of t
 
 > INFO.NAME ralen tilvur 22114153821637422948
 You've been expelled. I cannot discuss business with you unless you make amends.
-你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。
+你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。
 
 > INFO.NAME ralen tilvur 215926180705322733
 There's been alot of merchants around here killed recently. I hope the guards catch whoever is responsible.
@@ -122328,7 +122328,7 @@ That is a poor, poor decision on your part, friend.
 
 > INFO.NAME cloudcleaver 9126137691851022437
 Ah, thank you friend. I noticed you admiring the way I fought that old witch, even without the aid of a sharp blade. I don't have any money or treasure to thank you for your help with, but I can give you a few pointers that will help you be stronger in a fight.
-谢谢你，朋友。我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利的刀刃的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。
+谢谢你，朋友。我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利刀刃的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。
 
 > INFO.BNAM cloudcleaver 9126137691851022437 m1
 Your Strength has increased by 2.
@@ -123248,7 +123248,7 @@ You think you're being clever, %PCName. But I know what you're up to.
 
 > INFO.NAME admire fail 13160131402806314158
 Stop it. What do you want?
-别说了，你想怎样？
+别说了，你有什么事？
 
 > INFO.NAME admire fail 11602313041701624062
 Not interested.
@@ -125016,7 +125016,7 @@ I was told to come here.
 
 > INFO.NAME ebony trade 166732153140648023
 You've been expelled. I cannot discuss business with you unless you make amends.
-你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。
+你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。
 
 > INFO.NAME ebony trade 201291806208804
 The ebony trade is going well thanks to you, %PCName.
@@ -127452,7 +127452,7 @@ No.
 
 > INFO.NAME nelos onmar 220622121482907850
 I am Nelos. What do you want?
-我是内罗斯。你想要什么？
+我是内罗斯。你有什么事？
 
 > INFO.NAME nelos onmar 231426073290553188
 He's here in the tavern somewhere. Check over by the bar.
@@ -128324,7 +128324,7 @@ Are you okay? You don't look well...
 
 > INFO.NAME greeting 1 2348427924134421016
 Well, hello there. It's always nice to see another %PCRace.
-你好，很高兴见到另一个%PCRace。
+嗯，你好，很高兴见到另一个%PCRace。
 
 > INFO.NAME greeting 1 15651222572413527697
 An Argonian! How exciting. I've never had an Argonian... customer.
@@ -129304,15 +129304,15 @@ Who are you, outlander? And what are you doing here?
 
 > INFO.NAME greeting 1 1672221471134131626
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 18957246652271928795
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 207161686461973555
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 200672762419814487
 Meow.
@@ -130288,7 +130288,7 @@ Greetings, Child Killer. I assume you have come here because of my son.
 
 > INFO.NAME greeting 2 6827178201292127974
 Very well. What do you want?
-很好，你想要什么？
+很好，你有什么事？
 
 > INFO.NAME greeting 2 305311403560112764
 I will not speak with your kind, vampire.
@@ -130320,7 +130320,7 @@ What is it, little monster? How does an abomination such as you plan to serve me
 
 > INFO.NAME greeting 2 629057771099724223
 Yes, little monster. What do you want?
-是的，小怪物。你想要什么？
+是的，小怪物。你有什么事？
 
 > INFO.NAME greeting 2 866915373304815535
 What is it, abomination? It is only because you have Berne blood in your veins that I do not kill you where you stand. The ways you may serve me are limited.
@@ -131440,7 +131440,7 @@ Hello %PCName! I'm still waiting for that gold kanet flower. Not to be pushy, bu
 
 > INFO.NAME greeting 5 7506534491599169
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 12791257953195520624
 Are you here for scrolls, %PCName? Or are you here from some other enchantments? Or even soulgems? Whatever your enchanting needs, you've come to the right place.
@@ -131456,7 +131456,7 @@ Thank you, %PCName, for rescuing me. Now I'll stay here at Holamayan with Master
 
 > INFO.NAME greeting 5 2556572041099719392
 Oh. It's you. Well, I hope you're happy. That stupid love potion idea of yours worked, and now look what it's gotten me. She's a monster! Nagging, complaining, spending all my money. How could you let me get into this? Well, what do you want?
-是你啊，希望你开心。你那个愚蠢的爱情药水的主意奏效了，现在看看它给我带来了什么？她是个怪物。唠叨，抱怨，花光我的钱。你怎么能让我陷入这种境地？你想要什么？ {工作}
+是你啊，希望你开心。你那个愚蠢的爱情药水的主意奏效了，现在看看它给我带来了什么？她是个怪物。唠叨，抱怨，花光我的钱。你怎么能让我陷入这种境地？那么，你有什么事？ {工作}
 
 > INFO.NAME greeting 5 13447304103028828010
 Greetings, friend! What a wonderful day! As you can see, all is well with me...or should I say us? Glathel and I are now married, and nothing could be better.
@@ -131492,7 +131492,7 @@ Yes. Thank you, %PCName. Thank you for healing me.
 
 > INFO.NAME greeting 5 474716513152011934
 Yes? What do you want?
-什么事？你想要什么？
+嗯？你有什么事？
 
 > INFO.NAME greeting 5 14596701278324823
 You have killed my love. I have nothing to live for. If I die at your hands, it is no great loss.
@@ -131676,7 +131676,7 @@ Hello. My name is Piernette Beluelle. Can I help you?
 
 > INFO.NAME greeting 5 1853328319280747674
 Yes? What do you want? If you're looking to get out of Seyda Neen, I'll be happy to give you a little advice.
-什么事？你想要什么？如果你想离开赛达-尼恩，我很乐意给你一点小建议。
+嗯？你有什么事？如果你想离开赛达-尼恩，我很乐意给你一点小建议。
 
 > INFO.NAME greeting 5 115801467158294855
 I haven't seen your %PCRace face before. Would you like a little advice? Or are you looking for someone in particular?
@@ -131692,7 +131692,7 @@ You look like you could use a friend, outlander. Perhaps I can be your friend. I
 
 > INFO.NAME greeting 5 17393214661126032276
 What do you want? Don't bother trying to rob me. The Imperials have taken everything anyway.
-你想要什么？别费心打劫我，反正帝国人已经拿走了一切。
+你有什么事？别费心打劫我，反正帝国人已经拿走了一切。
 
 > INFO.NAME greeting 5 2118616547893417897
 What? What is it? Are you following me? Leave me alone!
@@ -133180,35 +133180,35 @@ So, %PCName. You are called Nerevarine, and Han-Ammu is now our ashkhan. Many ch
 
 > INFO.NAME greeting 5 32300177042318030767
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 5511116511789711147
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 17408283361375012932
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 5464240612679513891
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 1002419911754313725
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 167615447137002431
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 313935275227635020
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 87998466306489044
 You have slain one of the peace-loving Erabenimsun. You deserve to die. Though we have no champion to bring us justice, we still have our pride. We will not treat with you, even though you threaten to murder us, too.
-你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
+你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。
 
 > INFO.NAME greeting 5 277482426553458961
 You are the outlander who claims to be the Nerevarine? You'll find no welcome here, I'm afraid.
@@ -133608,7 +133608,7 @@ What are you doing here?
 
 > INFO.NAME greeting 5 1632756642744423220
 You again? What do you want?
-又是你？你想要什么？
+又是你？你有什么事？
 
 > INFO.NAME greeting 5 24837312971443714017
 Yes, I have named you the Hlaalu Hortator. Is there anything else you need?
@@ -133772,7 +133772,7 @@ What can I do for you %PCRank?
 
 > INFO.NAME greeting 5 2571380803163126375
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 153323589161013373
 Have you found the Telvanni spy?
@@ -134192,7 +134192,7 @@ Are you still here?
 
 > INFO.NAME greeting 5 21072873318899916
 So you've returned! Our Hortator! What do you want?
-你回来了！我们的统谏使！你想干什么？
+你回来了！我们的统谏使！你有什么事？
 
 > INFO.NAME greeting 5 21531321153204616283
 Yes, I've given you my vote as Hortator, %PCName. I just wish I could see Berel Sala's face right now.
@@ -134212,7 +134212,7 @@ Are you the new serving girl? No? Who are you, then?
 
 > INFO.NAME greeting 5 5804252681102315898
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 2428351002098611974
 Were you able to find the Dahrk Mezalf?
@@ -134260,7 +134260,7 @@ Glad to see you again, %PCName.
 
 > INFO.NAME greeting 5 302351016699625199
 You again? What do you want?
-又是你？你想要什么？
+又是你？你有什么事？
 
 > INFO.NAME greeting 5 322725661549327586
 I have not changed my mind. I do not intend for you to even be the Telvanni Hortator. Fulfill the prophecies in your next incarnation, Nerevar.
@@ -135628,11 +135628,11 @@ J'Dhannar will read this book you gave him. Thank you again. And thank Ahnassi, 
 
 > INFO.NAME greeting 5 589168852816028448
 You again? What do you want?
-又是你？你想要什么？
+又是你？你有什么事？
 
 > INFO.NAME greeting 5 16044133311674231376
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 28491118892498420120
 Hail and well met stranger!  As ye can plainly see, I require some assistance if ye be kind enough to grant it. I need help finding the festering witch who has robbed me blind and left me for dead.
@@ -135792,7 +135792,7 @@ You are %PCName. We have heard some say you are the Nerevarine. For a long time 
 
 > INFO.NAME greeting 5 374027839291778493
 Yes, outlander. I am Dutadalk, gulakhan of the Ahemmusa Ashlanders. Why are you here? What do you want?
-是的，外地人。我是杜塔达克，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？我能为你做点什么？
+是的，外地人。我是杜塔达克，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？你有什么事？
 
 > INFO.NAME greeting 5 5560163461787810206
 You have found a safe place for the Ahemmusa. I don't know what signs others may need, but I have my proof. Thank you, Nerevarine. You shall have the support of the Ahemmusa.
@@ -135808,11 +135808,11 @@ You claim to be the Nerevarine? Then find a safe place for the Ahemmusa. That wo
 
 > INFO.NAME greeting 5 5648275402320519348
 Who are you? What do you want?
-你是谁？你想要什么？
+你是谁？你有什么事？
 
 > INFO.NAME greeting 5 1743232448879574
 Yes, outlander. I am Kausi, gulakhan of the Ahemmusa Ashlanders. Why are you here? What do you want?
-是的，外地人。我是考斯，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？你想干什么？
+是的，外地人。我是考斯，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？你有什么事？
 
 > INFO.NAME greeting 5 32258218472613196
 It's you again. So. You want to know the trade goods wanted among the Zainab? I can tell you what I think.
@@ -135928,7 +135928,7 @@ You have slain one of my people. You must pay with your life.
 
 > INFO.NAME greeting 5 5694209881436330373
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 32294125062989011833
 You are stupid, outlander.
@@ -136012,7 +136012,7 @@ Food and beds. Or both, at the same time. Heh-heh. Your choice.
 
 > INFO.NAME greeting 5 3210814058200532348
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 2175725672140518560
 I hear you took care of that Sixth House base in Gnaar Mok. That was quite courageous, considering the risks. I'm sorry I've no time to talk, but things are getting out of hand here, with the rumors of corprus disease and the Sleeper attacks. But any help you can give us in finding and cleaning out Sixth House bases will be greatly appreciated.
@@ -136180,7 +136180,7 @@ I'm not interested, fetcher.
 
 > INFO.NAME greeting 5 257234559237286931
 I said, I'm not interested, fetcher.
-我说了，我不感兴趣，Fetcher（混账东西）。
+我说了，我没兴趣，Fetcher（混蛋）。
 
 > INFO.NAME greeting 5 28438160681278921215
 Go away.
@@ -136292,7 +136292,7 @@ Hello, %PCName. Was there something further you wanted to ask about?
 
 > INFO.NAME greeting 5 2048823514178214257
 Hello again, %PCName. What do you want? You already gave me the Dwemer puzzle box. Don't you remember?
-你好，%PCName。你想要什么？你已经把锻莫谜题盒子给我了，你不记得了？ {锻莫族}
+你好，%PCName。你有什么事？你已经把锻莫谜题盒子给我了，你不记得了？ {锻莫族}
 
 > INFO.NAME greeting 5 827132001043014630
 So. Have you done that little favor I asked?
@@ -136320,7 +136320,7 @@ I am %Name, Drillmaster for the Balmora Fighters Guild. I offer training to the 
 
 > INFO.NAME greeting 5 1055819110651827134
 What do you want? I'm a Drillmaster, if it's training you're looking for.
-你想要什么？我是一名教官，如果你想要训练的话。
+你有什么事？我是一名教官，如果你想要训练的话。
 
 > INFO.NAME greeting 5 251019172512510915
 Go ahead.
@@ -136728,59 +136728,59 @@ You have slain one of my people. You must pay with your life.
 
 > INFO.NAME greeting 5 1207979091483517033
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 2441282410748113
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 232637612805216219
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 909216515570411270
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 25416189171988832089
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 1555720098423230726
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 111731338051807907
 You are the outlander who claims to fulfill the Nerevarine prophecies. What do you want?
-你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？
+你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？
 
 > INFO.NAME greeting 5 2061325151857824508
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 2405228462313912603
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 204647002549110592
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 831414409585030059
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 908431409122224137
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 219872186410325746
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 143325462886620961
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 5 3068210106464625194
 Go away, stupid. I'd kill you, but it's not worth the trouble.
@@ -137212,7 +137212,7 @@ You here for orders or advancement, %PCRank? Or was there something else you wan
 
 > INFO.NAME greeting 6 38812432087227664
 Well, speak up, %PCRace. What do you want? Are you here to join the Fighters Guild?
-好吧，说吧，%PCRace。你想要什么？是来加入战士公会的？
+好吧，说吧，%PCRace。你有什么事？是来加入战士公会的？
 
 > INFO.NAME greeting 6 151792128178328940
 Ho there, Outlander. Are you here to buy slaves? Slavery is quite legal in these parts, you know. Can I help you find someone in particular? Were you hoping for direction to services?
@@ -137316,7 +137316,7 @@ Thank you, %PCName. You have made a safe place for the Ahemmusa. Are you truly t
 
 > INFO.NAME greeting 6 320002082121730642
 Who are you? What do you want?
-你是谁？你想要什么？
+你是谁？你有什么事？
 
 > INFO.NAME greeting 6 2894131586171246228
 You are %PCName. They say you have found the Amulet of Ashamanu, and that now the wise woman can cure the sickness. And we have heard some say you are the Nerevarine. We are very grateful. Is there something you need?
@@ -137448,11 +137448,11 @@ Good day. I'm Agning, publican of the Six Fishes here in Ebonheart. We rent beds
 
 > INFO.NAME greeting 7 2184129280216541515
 We rent beds. I have some goods for barter. What do you want?
-我们出租床位。也有东西可供交换。你想要什么？
+我们出租床位。也有东西可供交换。你有什么事？
 
 > INFO.NAME greeting 7 14682489440924976
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 7 14378316512003515970
 New around here, huh. I'm Ladia Flarugrius. You looking for someone in particular? Or some specific place? Or you looking for some services?
@@ -138056,7 +138056,7 @@ I'm fine, thank you. What can I do for you?
 
 > INFO.NAME greeting 9 1882225093108915699
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 9 17322138931586317457
 You're in an diamond mine. Don't touch the diamonds, or the guards will kill you.
@@ -138396,7 +138396,7 @@ Got a question about Vos, stranger?
 
 > INFO.NAME greeting 9 800310961274503551
 Don't see strangers around Vos very often. What do you want?
-沃斯附近很少有陌生人。你想要什么？
+沃斯附近很少有陌生人。你有什么事？
 
 > INFO.NAME greeting 9 3216018795591117943
 Vos is just a little village. If you're here looking for a specific place, you can probably find it fastest just by walking around.
@@ -138560,7 +138560,7 @@ Okay, pilgrim. What's the problem? Are you lost? Are you looking for someone in 
 
 > INFO.NAME greeting 9 853723616322517471
 These are the docks of Tel Mora, outlander. And I'm %Name, shipmaster of Tel Mora, at your service. What's your destination? And, if you're new to Tel Mora, I can tell you about the local services, or point you to a specific place nearby. If you're looking for someone in particular, I might be able to help.
-这里是泰尔-莫拉的码头，外地人。我是泰尔-莫拉的船长%Name为您服务，您的目的地是哪里？如果您是第一次来泰尔-莫拉，我可以告诉您当地的服务，或者为您指点附近的特别的地点。如果您想找某个特定的人，我也许能帮上忙。
+这里是泰尔-莫拉的码头，外地人。我是%Name，泰尔-莫拉的船长，正在为您服务。您的目的地是哪里？如果您是第一次来泰尔-莫拉，我可以告诉您当地的服务，或者为您指点附近的特别的地点。如果您想找某个特定的人，我也许能帮上忙。
 
 > INFO.NAME greeting 9 172947430284668223
 I'm %Name, shipmaster of Tel Mora. What's your destination?
@@ -138632,7 +138632,7 @@ Hello again, %PCName. Can I help you find someone in particular? Were you lookin
 
 > INFO.NAME greeting 9 263430792246751128
 What do you want? I'm not going to draw you a map.
-你想要什么？我不会帮你绘制地图的。
+你有什么事？我不会帮你绘制地图的。
 
 > INFO.NAME greeting 9 238511315177562524
 Ask your questions. That's why you're talking to me, right?
@@ -138692,7 +138692,7 @@ We don't get many visitors in Tel Branora. What do you want with me?
 
 > INFO.NAME greeting 9 2840261322620925413
 I'm listening. What do you want? Is there some specific place you'd like to visit?
-我在听。你想要什么？有什么想去的特别的地点吗？
+我在听。你有什么事？有什么想去的特别的地点吗？
 
 > INFO.NAME greeting 9 13791202141587431247
 Go ahead, stranger. What's your question? Looking for services in Tel Branora?
@@ -138824,7 +138824,7 @@ Still in Suran, eh? What now?
 
 > INFO.NAME greeting 9 179909662731022541
 So. Are you looking for someone in particular? What do you want?
-那么，你在找某个特定的人吗？你想要什么？
+那么，你在找某个特定的人吗？你有什么事？
 
 > INFO.NAME greeting 9 27214120903176732128
 You again? You looking for services here in Suran? Or what?
@@ -138880,11 +138880,11 @@ You're new here, right? Are you looking for services? Or what?
 
 > INFO.NAME greeting 9 17963168322988026102
 What do you want? Are you looking for someone in particular?
-你想要什么？你想找某个特定的人？
+你有什么事？你想找某个特定的人？
 
 > INFO.NAME greeting 9 24307151843247324430
 All right. I've never seen you before. What do you want?
-好吧，我从没见过你，你想要什么？
+好吧，我从没见过你，你有什么事？
 
 > INFO.NAME greeting 9 554880671678714663
 I don't know if it's just the way you act here in Seyda Neen, but if you don't stop, no one will talk with you.
@@ -139020,7 +139020,7 @@ You're back. You forget something?
 
 > INFO.NAME greeting 9 209088433144188453
 You again. What do you want? Is there some specific place in Sadrith Mora you're trying to find?
-又是你？你想干嘛？你想在萨德里斯-莫拉找到什么特别的地点吗？
+又是你？你有什么事？你想在萨德里斯-莫拉找到什么特别的地点吗？
 
 > INFO.NAME greeting 9 863816894142589888
 Well, outlander, why didn't you ask me before? What do you want this time? Services in Sadrith Mora? Why don't you just go look for yourself?
@@ -139112,7 +139112,7 @@ Happy to answer your questions, %PCName. But while you're here, do you want a li
 
 > INFO.NAME greeting 9 1498228453992425304
 Hello, %PCName. What do you want? Is there someone in particular you're looking for?
-你好，%PCName。有什么事吗？你想找某个特定的人吗？
+你好，%PCName。你有什么事？你想找某个特定的人吗？
 
 > INFO.NAME greeting 9 2713126325714127133
 So you're still here in Molag Mar, %PCName? Planning to be here long? You want to know about the local services?
@@ -139244,7 +139244,7 @@ Back again? What this time? You looking for services in Maar Gan?
 
 > INFO.NAME greeting 9 543326672217317040
  What do you want? Looking for someone in particular in Maar Gan?
- 你想要什么？在玛尔-甘找某个特定的人？
+ 你有什么事？在玛尔-甘找某个特定的人？
 
 > INFO.NAME greeting 9 26302233873129322195
 Leave me alone. We don't want people like you in Maar Gan.
@@ -139356,7 +139356,7 @@ What's your question? You looking for services? In Khuul? Not much here.
 
 > INFO.NAME greeting 9 30386304612117418882
 You again? You still in Khuul? What do you want? You want someone in particular?
-又是你？你还在库尔？你想要什么？你想找某个特定的人？
+又是你？你还在库尔？你有什么事？你想找某个特定的人？
 
 > INFO.NAME greeting 9 60123931224127352
 I thought in Khuul I'd at least be free of people like you. Just leave me alone.
@@ -139404,7 +139404,7 @@ Look around. This is Hla Oad. Now go ahead and ask your questions.
 
 > INFO.NAME greeting 9 23753109921641426130
 We don't see new faces in Hla Oad much. And that suits us fine. What do you want?
-我们在哈拉-奥德很少见到新面孔，这很不错。你想问什么？
+我们在哈拉-奥德很少见到新面孔，这很不错。你有什么事？
 
 > INFO.NAME greeting 9 2175420870186052516
 Who are you? And what are you doing in Hla Oad? Is there some specific place you want? Or are you lost?
@@ -139440,7 +139440,7 @@ If you're looking for services in Hla Oad, %PCName, you might be disappointed. L
 
 > INFO.NAME greeting 9 84428968314256582
 I'm okay, %PCName. What do you want? Are you looking for a specific place here in Hla Oad? Or do you want to know a little more about the Bitter Coast region?
-我没事，%PCName。你想要什么？你想在哈拉-奥德找一个特别的地点吗？还是想多了解苦涩海岸地区？
+我没事，%PCName。你有什么事？你想在哈拉-奥德找一个特别的地点吗？还是想多了解苦涩海岸地区？
 
 > INFO.NAME greeting 9 141362711572537214
 All right. I can probably help, if this is about something here in Hla Oad.
@@ -139456,7 +139456,7 @@ If you're looking for someone in particular in Hla Oad, you might as well just w
 
 > INFO.NAME greeting 9 17748105543217914375
 What do you want? Services? In Hla Oad? Good luck.
-你想要什么？服务？在哈拉-奥德？祝你好运。 {幸运}
+你有什么事？服务？在哈拉-奥德？祝你好运。 {幸运}
 
 > INFO.NAME greeting 9 2774432370270727592
 You looking for any specific place here in Hla Oad?
@@ -139564,7 +139564,7 @@ You again? You still in Gnisis?
 
 > INFO.NAME greeting 9 2630729738366313727
 What do you want? Something here in Gnisis?
-你想要什么？尼希斯的什么东西？
+你有什么事？尼希斯的什么东西？
 
 > INFO.NAME greeting 9 1404858763116621332
 You can't expect to act the way you do without making yourself unpopular. Why don't you just get out of Gnisis?
@@ -139832,11 +139832,11 @@ You're in Dagon Fel, stranger. Are you lost? Or is there some specific place you
 
 > INFO.NAME greeting 9 2935671502274129372
 This is Dagon Fel. We're not much for fancy talk here. So what do you want? You looking for services?
-这里是大衮-费尔，我们不喜欢花言巧语。你想要什么？你在找服务吗？ {谈}
+这里是大衮-费尔，我们不喜欢花言巧语。你有什么事？你在找服务吗？ {谈}
 
 > INFO.NAME greeting 9 1775930832280609307
 I'm just fine, stranger. So what do you want? You hunting someone in particular?
-我很好，陌生人。那你想要什么？你在找某个特定的人？
+我很好，陌生人。那你有什么事？你在找某个特定的人？
 
 > INFO.NAME greeting 9 3153415054242129408
 Welcome to Dagon Fel, stranger. It's a nice little town, if you like fish. So. What can I do for you?
@@ -139980,7 +139980,7 @@ Okay, %PCName. You want something in Caldera, I guess. Are you looking for someo
 
 > INFO.NAME greeting 9 9144181962323502
 What do you want? There are plenty of services in Caldera.
-你想要什么？卡尔德拉有很多服务项目。
+你有什么事？卡尔德拉有很多服务项目。
 
 > INFO.NAME greeting 9 1049429128280313555
 Go ahead.
@@ -140132,7 +140132,7 @@ If you're looking for services in Balmora, I guess I can help you.
 
 > INFO.NAME greeting 9 1898827978223853144
 What do you want? You trying to find a specific place here in Balmora?
-你想要什么？你想在巴尔莫拉找一个特别的地点？
+你有什么事？你想在巴尔莫拉找一个特别的地点？
 
 > INFO.NAME greeting 9 1820726711217397883
 Yes, I know my way around Balmora. What about it?
@@ -140276,7 +140276,7 @@ So? You want to know about services in Ald'ruhn? Or what?
 
 > INFO.NAME greeting 9 11189100532423714838
 What do you want? Are you looking for a specific place here in Ald'ruhn?
-你想要什么？你想找奥德'汝因的某个特别的地点吗？
+你有什么事？你想找奥德'汝因的某个特别的地点吗？
 
 > INFO.NAME greeting 9 1044913198286442128
 I'd like Ald'ruhn a lot better if you weren't here.
@@ -140336,7 +140336,7 @@ Well, I'm here in Ald Velothi, and so are you. So I guess we're both here in Ald
 
 > INFO.NAME greeting 9 16588239342255429899
 Go ahead. Ald Velothi. That's where you are. What do you want?
-问吧。奥德-维洛提。你就在那儿。你想问什么？
+问吧。奥德-维洛提。你就在那儿。你有什么事？
 
 > INFO.NAME greeting 9 75711839980676515
 The village is called Ald Velothi. Do you want something?
@@ -140344,7 +140344,7 @@ The village is called Ald Velothi. Do you want something?
 
 > INFO.NAME greeting 9 12930213712966012859
 You're in Ald Velothi. What do you want?
-你在奥德-维洛提。你想要什么？
+你在奥德-维洛提。你有什么事？
 
 > INFO.NAME greeting 9 1571273972288228365
 %Name welcomes you. How may %Name favor his new friend?
@@ -140360,7 +140360,7 @@ I don't think we've been introduced, outlander. I'm %Name. How can I help you?
 
 > INFO.NAME greeting 9 24749969537626515
 I don't know you. What do you want?
-我不认识你，你想要什么？
+我不认识你，你有什么事？
 
 > INFO.NAME greeting 9 2714627139236543673
 Always happy to chat with people I like. And I like you.
@@ -140592,7 +140592,7 @@ You again?
 
 > INFO.NAME greeting 9 5381221512135823609
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 9 185430971194412906
 %Name does not want to talk to you. Go away.
@@ -143108,7 +143108,7 @@ He is my brother and the head of the Camonna Tong. You may find him on the Dren 
 
 > INFO.NAME orvas dren 28608300051626117946
 Yes, he is my brother.
-是的，他是我哥哥。
+是的，他是我兄弟。
 
 > INFO.NAME orvas dren 645431634233125478
 Since Orvas Dren died, I've been thinking I might want to look somewhere else for allies.
@@ -146320,7 +146320,7 @@ Listen to what he has to say.
 
 > INFO.BNAM odirniran 11507187952797017888 c2
 Not interested.
-我没兴趣。
+没兴趣。
 
 > INFO.NAME odirniran 11002209233194124149
 Yes, Odirniran is my home. If you wish to help me, please kill Remasa Othril, the leader of these Hlaalu who pester me. Feel free to kill my servants. I can usually raise them again. Also, please leave Vedelea Othril to me. I do not want her damaged or altered in any way... At least not by you.
@@ -147488,7 +147488,7 @@ Ah...you've met Thoronor! Yes, he and I became separated when I went off to inve
 
 > INFO.NAME my friend 535518496471122057
 You'll get rid of them? Excellent! Although, they're such marvelous beasts. Quite interesting, you know.
-你会除掉它们？好极了，虽然它们是如此神奇的野兽，相当有趣。
+你会除掉它们？好极了！虽然它们是如此神奇的野兽，相当有趣。
 
 > INFO.NAME my friend 295288997707431674
 Fantastic! Let's go. Did you happen to notice anything interesting about the kagouti while you were slaying them? Any distinctive colorations...mating calls? No? Ah, well....
@@ -148084,7 +148084,7 @@ The wise-woman who left us, and our rules. She steals a man's vital essence to m
 
 > INFO.NAME mabrigash 21431945678929255
 A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war. By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior. The manifestation of her dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.
-玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为规定，成为了黑暗魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的术士和战士。她的黑暗力量的表现形式被称为“幽灵之蛇”，它可以麻痹和消耗受害者的生命力。
+玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为规定，成为了黑暗魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的术士和战士。她的黑暗力量的表现形式被称为“幽灵之蛇”，可以麻痹和消耗受害者的生命力。
 
 > INFO.NAME mabrigash 1750676562642721708
 A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war. By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior. The manifestation of her dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.
@@ -148720,7 +148720,7 @@ I tell you. The Temple says she's dead. So how could she be the Nerevarine if sh
 
 > INFO.NAME gang war 158781152254244915
 It was inevitable. The local criminal organization, the Camonna Tong, wasn't going to stand by and let the Thieves Guild set up shop in their territory. It'll be bloody. And the Thieves Guild doesn't stand a chance.
-这是不可避免的，当地的犯罪组织卡莫纳堂，不会坐视盗贼公会在他们的地盘开店的，这会很血腥，盗贼公会根本没有机会。
+这是不可避免的，当地的犯罪组织卡莫纳堂，不会坐视盗贼公会在他们的地盘开店的。这会很血腥，盗贼公会根本没有机会。
 
 > INFO.NAME bethamez 2219610615148336049
 Are you still a member of the guild? Once Trebonius gives the authorization, we can discuss guild matters again.
@@ -151604,7 +151604,7 @@ I'm sorry but you don't have enough gold to afford my fine slaves.
 
 > INFO.NAME menelras 1138218748223143540
 Come back when you change your mind.
-等你改变主意了再回来看看吧。
+等你改变主意了再回来吧。
 
 > INFO.NAME menelras 536523139115938165
 The Bosmer are the truly the least of the elven races. He is the same price as the others, 1000 drakes.
@@ -153936,7 +153936,7 @@ Don't worry about me, soft-skin. Report back to the Fighters Guild. If I have to
 
 > INFO.NAME kill me 149441267059456025
 What are you doing?!
-你 在 做 什 么 ？！
+你在干什么？！
 
 > INFO.NAME kill me 23967208972677224599
 Thank you, %PCName. I will leave soon. May Stendarr watch over you.
@@ -154024,7 +154024,7 @@ Yes, Ajira must study flowers now. Ajira needs samples of Gold Kanet, Stoneflowe
 
 > INFO.NAME prelude 241819190228828098
 You've been expelled. I cannot discuss business with you unless you make amends.
-你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。
+你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。
 
 > INFO.NAME prelude 68021249100582380
 You already brought me the Wakizashi.
@@ -158260,7 +158260,7 @@ You will slay me with a spell.
 
 > INFO.BNAM riddle 228982003130633988 c3
 Don't kill me!
-别杀了我！
+别杀我！
 
 > INFO.NAME riddle 1527592161796923660
 You ansswered my tessst.
@@ -159968,15 +159968,15 @@ The Sleeper Awakes.
 
 > INFO.NAME hello 1294819159215818932
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 209141934282905242
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 48066753191184303
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 2358620981102275328
 Sleepers! Awake! House Dagoth is risen!
@@ -159988,31 +159988,31 @@ The Sixth House is Risen and Lord Dagoth is its Glory!
 
 > INFO.NAME hello 22541247423041129440
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 247923152300814562
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 2955684042906494
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 17355322262853721730
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 12039272061844722767
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 14483831511616609
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 11703234721098310856
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 1246294513112414596
 I'm listening.
@@ -160128,7 +160128,7 @@ Such fine company. One would be wise to listen.
 
 > INFO.NAME hello 2181328047687617312
 Please, go ahead. Speak.
-请说吧，说吧。
+请继续，说吧。
 
 > INFO.NAME hello 14309261473252130201
 Greetings, Muthersera.
@@ -160228,7 +160228,7 @@ Greetings, widewalker.
 
 > INFO.NAME hello 2650544232772812656
 What is it? What do you want?
-什么事？你想要什么？
+什么事？你想干什么？
 
 > INFO.NAME hello 262392860119549543
 Go ahead, speak.
@@ -160760,31 +160760,31 @@ Greetings, Breton. What can I do for you?
 
 > INFO.NAME hello 634884351896629322
 Greetings, Dunmer. What can I do for you?
-您好，丹莫。我能为你做什么？
+你好，丹莫。我能为你做什么？
 
 > INFO.NAME hello 7490601528221304
 Greetings, Altmer. What can I do for you?
-您好，傲特莫。我能为你做什么？
+你好，傲特莫。我能为你做什么？
 
 > INFO.NAME hello 14292619263528471
 Greetings, Cyrodil. What can I do for you?
-您好，西罗帝尔人。我能为你做什么？
+你好，西罗帝尔人。我能为你做什么？
 
 > INFO.NAME hello 3102455892720325975
 Greetings, Khajiit. What can I do for you?
-您好，卡吉特。我能为你做什么？
+你好，卡吉特。我能为你做什么？
 
 > INFO.NAME hello 5770225501073025593
 Greetings, Nord. What can I do for you?
-您好，诺德人。我能为你做什么？
+你好，诺德人。我能为你做什么？
 
 > INFO.NAME hello 158691076196212217
 Greetings, Orc. What can I do for you?
-您好，兽人。我能为你做什么？
+你好，兽人。我能为你做什么？
 
 > INFO.NAME hello 259728853356728346
 Hail.
-你好。
+您好。
 
 > INFO.NAME hello 4348828035416037
 Good to meet you.
@@ -160824,7 +160824,7 @@ You've got my ear. Let's hear it.
 
 > INFO.NAME hello 868155221416424087
 Talk is free. What do you want?
-谈话是免费的，你想要什么？
+谈话是免费的，你有什么事？
 
 > INFO.NAME hello 593919852316461930
 You shouldn't waste time talking to me. You should find healing.
@@ -160920,7 +160920,7 @@ Anytime you're ready. Just don't keep me waiting.
 
 > INFO.NAME hello 137712712921632442
 So what do you want?
-你想要什么？
+那你有什么事？
 
 > INFO.NAME hello 1582042011942132356
 I'm a busy gal, so if you could hurry this up.
@@ -161052,7 +161052,7 @@ Watch it.
 
 > INFO.NAME hello 17573146283262726532
 Ask somebody else, I'm busy.
-问别人吧。我很忙。
+问别人吧，我很忙。
 
 > INFO.NAME hello 490711585145661172
 If you're looking for trouble, you're getting very warm.
@@ -161392,7 +161392,7 @@ Greetings.
 
 > INFO.NAME hello 4508259627568965
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 8657323682757619931
 You wish to speak?
@@ -161968,7 +161968,7 @@ Greetings.
 
 > INFO.NAME hello 4294281106821356
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 1063728922836831113
 You wish to speak?
@@ -162372,39 +162372,39 @@ Greetings, greetings! Oh, I see you're wounded. How sad.
 
 > INFO.NAME hello 31310221402840731380
 Welcome, Argonian, let's set aside our differences and talk, shall we?
-欢迎你，阿尔贡，让我们搁置分歧，谈谈好吗？
+欢迎，阿尔贡，让我们搁置分歧，谈谈好吗？
 
 > INFO.NAME hello 2605113773234697747
 Welcome, Bosmer, it would be a pleasure to speak with you.
-欢迎你，波斯莫。很高兴和你交谈。
+欢迎，波斯莫，很高兴和你交谈。
 
 > INFO.NAME hello 1765818090228253622
 Welcome, Breton, let's set aside our differences and talk, shall we?
-欢迎你，布莱顿人，让我们冰释前嫌，谈谈好吗？
+欢迎，布莱顿人，让我们搁置分歧，谈谈好吗？
 
 > INFO.NAME hello 1455610455182973528
 Welcome, Dunmer, let's set aside our differences and talk, shall we?
-欢迎你，丹莫，让我们冰释前嫌，谈谈好吗？
+欢迎，丹莫，让我们搁置分歧，谈谈好吗？
 
 > INFO.NAME hello 1886939131005518646
 Welcome, Altmer! Let's set aside our differences and talk, shall we?
-欢迎你，傲特莫！让我们搁置分歧，谈谈好吗？
+欢迎，傲特莫！让我们搁置分歧，谈谈好吗？
 
 > INFO.NAME hello 24945210161463922699
 Welcome, Khajiit, it would be a pleasure to speak with you.
-欢迎您，卡吉特，很高兴和你交谈。
+欢迎，卡吉特，很高兴和你交谈。
 
 > INFO.NAME hello 28440293511955314878
 Welcome, Nord, it would be a pleasure to speak with you.
-欢迎您，诺德人，很高兴和你交谈。
+欢迎，诺德人，很高兴和你交谈。
 
 > INFO.NAME hello 397476971445724457
 Welcome, Orc, it would be a pleasure to speak with you.
-欢迎你，兽人，很高兴和你交谈。
+欢迎，兽人，很高兴和你交谈。
 
 > INFO.NAME hello 22381311891602819228
 Welcome, Redguard, it would be a pleasure to speak with you.
-欢迎你，红卫人，很高兴和你交谈。
+欢迎，红卫人，很高兴和你交谈。
 
 > INFO.NAME hello 121867631584820218
 Well met.
@@ -162432,7 +162432,7 @@ If you care to talk, I would consider it a privilege.
 
 > INFO.NAME hello 3126826091133031655
 Hello there! How are you?
-你好，你好吗？
+喂！你好吗？
 
 > INFO.NAME hello 2595770621445714145
 Ah, greetings. What shall we talk about?
@@ -162440,7 +162440,7 @@ Ah, greetings. What shall we talk about?
 
 > INFO.NAME hello 122294992099230773
 Well, hello there, a pleasure to meet you.
-你好，很高兴见到你。
+嗯，你好，很高兴见到你。
 
 > INFO.NAME hello 17687313211332611137
 Well met. What is it?
@@ -162492,39 +162492,39 @@ I see there's quite a lot of trouble around. A healer can mend your wounds.
 
 > INFO.NAME hello 5060102272431114932
 Greetings, Argonian. How may I help you?
-你好，阿尔贡，我该如何帮助你？
+你好，阿尔贡，我能帮你点什么？
 
 > INFO.NAME hello 297412367306141841
 Greetings, Bosmer. How may I help you?
-你好，波斯莫，我该如何帮助你？
+你好，波斯莫，我能帮你点什么？
 
 > INFO.NAME hello 25246219153246714270
 Greetings, Breton. How may I help you?
-你好，布莱顿人，我该如何帮助你？
+你好，布莱顿人，我能帮你点什么？
 
 > INFO.NAME hello 21184193383229632440
 Greetings, Dunmer. How may I help you?
-你好，丹莫，我该如何帮助你？
+你好，丹莫，我能帮你点什么？
 
 > INFO.NAME hello 32293252371716623347
 Greetings, Altmer. How may I help you?
-你好，傲特莫，我该如何帮助你？
+你好，傲特莫，我能帮你点什么？
 
 > INFO.NAME hello 14657161241307725059
 Greetings, Khajiit. How may I help you?
-你好，卡吉特，我该如何帮助你？
+你好，卡吉特，我能帮你点什么？
 
 > INFO.NAME hello 219271935849302732
 Greetings, Nord. How may I help you?
-你好，诺德人，我该如何帮助你？
+你好，诺德人，我能帮你点什么？
 
 > INFO.NAME hello 11655179563242828268
 Greetings, Orc. How may I help you?
-你好，兽人，我该如何帮助你？
+你好，兽人，我能帮你点什么？
 
 > INFO.NAME hello 134141880321358454
 Greetings, Redguard. How may I help you?
-你好，红卫人，我该如何帮助你？
+你好，红卫人，我能帮你点什么？
 
 > INFO.NAME hello 132982914681313870
 What say you?
@@ -162692,7 +162692,7 @@ Yes, Bosmer?
 
 > INFO.NAME hello 1946021443250118612
 Yes, Breton?
-什么事，布莱顿？
+什么事，布莱顿人？
 
 > INFO.NAME hello 42121908440655558
 Yes, Dunmer?
@@ -162804,7 +162804,7 @@ I see you favor a little crime. Hmm. Perhaps I should let the authorities know.
 
 > INFO.NAME hello 25792325082521632533
 You've got to be kidding. Everyone knows you're nothing but trouble.
-你在开玩笑吧。大家都知道你只会惹麻烦。
+你在开玩笑吧，大家都知道你只会惹麻烦。
 
 > INFO.NAME hello 1085814486111575821
 Smelly, unkempt, unwashed. I see standards are being lowered everywhere.
@@ -162828,11 +162828,11 @@ Hmm, you look half dead. Why don't you find someone who can finish the job?
 
 > INFO.NAME hello 26081281532487325822
 Oh, I'm just dying to hear what you have to say, Argonian.
-哦，我真想听听你怎么说，阿尔贡。
+哦，我真想听听你要说什么，阿尔贡。
 
 > INFO.NAME hello 2042816525179432855
 Oh, I'm just dying to hear what you have to say, Bosmer.
-哦，我真想听听你怎么说，波斯莫。
+哦，我真想听听你要说什么，波斯莫。
 
 > INFO.NAME hello 1943519361223563602
 Oh, I'm just dying to hear what you have to say, Breton.
@@ -162840,7 +162840,7 @@ Oh, I'm just dying to hear what you have to say, Breton.
 
 > INFO.NAME hello 18326640258317520
 Oh, I'm just dying to hear what you have to say, Dunmer.
-哦，我真想听听你怎么说，丹莫。
+哦，我真想听听你要说什么，丹莫。
 
 > INFO.NAME hello 11693106481490228810
 Oh, I'm just dying to hear what you have to say, Altmer.
@@ -162860,7 +162860,7 @@ Oh, I'm just dying to hear what you have to say, Orc.
 
 > INFO.NAME hello 110741572178082253
 Oh, I'm just dying to hear what you have to say, Redguard.
-哦，我真想听听你怎么说，红卫人。
+哦，我真想听听你要说什么，红卫人。
 
 > INFO.NAME hello 177943976859809
 Get back to work and stop bothering me.
@@ -163180,27 +163180,27 @@ Greetings, Breton. What can I do for you?
 
 > INFO.NAME hello 2418128081782130470
 Greetings, Dunmer. What can I do for you?
-您好，丹莫。我能为你做什么？
+你好，丹莫。我能为你做什么？
 
 > INFO.NAME hello 19069263041329928562
 Greetings, Altmer. What can I do for you?
-您好，傲特莫。我能为你做什么？
+你好，傲特莫。我能为你做什么？
 
 > INFO.NAME hello 2282730631284215790
 Greetings, Cyrodil. What can I do for you?
-您好，西罗帝尔人。我能为你做什么？
+你好，西罗帝尔人。我能为你做什么？
 
 > INFO.NAME hello 520311595238355239
 Greetings, Khajiit. What can I do for you?
-您好，卡吉特。我能为你做什么？
+你好，卡吉特。我能为你做什么？
 
 > INFO.NAME hello 12843430955369906
 Greetings, Nord. What can I do for you?
-您好，诺德人。我能为你做什么？
+你好，诺德人。我能为你做什么？
 
 > INFO.NAME hello 36225152922132731
 Greetings, Orc. What can I do for you?
-您好，兽人。我能为你做什么？
+你好，兽人。我能为你做什么？
 
 > INFO.NAME hello 228023191278023421
 Hail.
@@ -163244,7 +163244,7 @@ You've got my ear. Let's hear it.
 
 > INFO.NAME hello 5373230382178427742
 Talk is free. What do you want?
-谈话是免费的，你想要什么？
+谈话是免费的，你有什么事？
 
 > INFO.NAME hello 11232239821469428232
 You shouldn't waste time talking to me. You should find healing.
@@ -163340,7 +163340,7 @@ Anytime you're ready. Just don't keep me waiting.
 
 > INFO.NAME hello 8687155571485416410
 So what do you want?
-你想要什么？
+那你有什么事？
 
 > INFO.NAME hello 23936213792804531055
 I'm a busy guy, so if you could, hurry this up.
@@ -163600,7 +163600,7 @@ A sincere welcome to you. May you be forever blessed.
 
 > INFO.NAME hello 1345239021023518520
 I am honored. Truly. How may I help you?
-我很荣幸，真的。我该如何帮助你？
+我很荣幸，真的。我能帮你点什么？
 
 > INFO.NAME hello 131572758616806574
 A hail and hardy welcome, friend.
@@ -163724,39 +163724,39 @@ You've been wounded, friend. You should find a healer.
 
 > INFO.NAME hello 262347685174777266
 How may I help you, Argonian?
-我该如何帮助你，阿尔贡？
+我能帮你点什么，阿尔贡？
 
 > INFO.NAME hello 27643109141698124838
 How may I help you, Bosmer?
-我该如何帮助你，波斯莫？
+我能帮你点什么，波斯莫？
 
 > INFO.NAME hello 21040756104853410
 How may I help you, Breton?
-我该如何帮助你，布莱顿人？
+我能帮你点什么，布莱顿人？
 
 > INFO.NAME hello 2073772292189831114
 How may I help you, Dunmer?
-我该如何帮助你，丹莫？
+我能帮你点什么，丹莫？
 
 > INFO.NAME hello 21756183971785924111
 How may I help you, Altmer?
-我该如何帮助你，傲特莫？
+我能帮你点什么，傲特莫？
 
 > INFO.NAME hello 17795663290167016
 How may I help you, Cyrodil?
-我该如何帮助你，西罗帝尔人？
+我能帮你点什么，西罗帝尔人？
 
 > INFO.NAME hello 11986177322995515026
 How may I help you, Khajiit?
-我该如何帮助你，卡吉特？
+我能帮你点什么，卡吉特？
 
 > INFO.NAME hello 11711104472732614025
 How may I help you, Nord?
-我该如何帮助你，诺德人？
+我能帮你点什么，诺德人？
 
 > INFO.NAME hello 293513586287721976
 How may I help you, Redguard?
-我该如何帮助你，红卫人？
+我能帮你点什么，红卫人？
 
 > INFO.NAME hello 212226904298698671
 Have you any news?
@@ -163780,7 +163780,7 @@ There is much to discuss. Much to learn.
 
 > INFO.NAME hello 3045657162447931105
 Your actions show promise. What do you want?
-你是个说到做到的人，你想要什么？
+你是个说到做到的人，你有什么事？
 
 > INFO.NAME hello 12466288081175912522
 I greet you as a friend.
@@ -163848,7 +163848,7 @@ Bosmer?
 
 > INFO.NAME hello 24369105881973822311
 Breton?
-布莱顿？
+布莱顿人？
 
 > INFO.NAME hello 2630118080303371861
 Dunmer?
@@ -163908,7 +163908,7 @@ Do not waste my time.
 
 > INFO.NAME hello 316209410307625343
 What are you doing?
-你 在 做 什 么？
+你在干什么？
 
 > INFO.NAME hello 141512576962717322
 Can you even be trusted?
@@ -163924,7 +163924,7 @@ Do you want to infect us all? Go away!
 
 > INFO.NAME hello 250412146933938304
 Ugh, find somewhere else to die.
-想死找别人去。
+啊，想死找别人去。
 
 > INFO.NAME hello 2593527362119872567
 I will add to your wounds if you don't go away.
@@ -164060,7 +164060,7 @@ You must be blind to dress like that.
 
 > INFO.NAME hello 18056163291973426703
 Ugh, find somewhere else to die.
-想死找别人去。
+啊，想死找别人去。
 
 > INFO.NAME hello 265521272538923383
 I will add to your wounds if you don't go away.
@@ -164152,7 +164152,7 @@ A sincere welcome to you. May you be forever blessed.
 
 > INFO.NAME hello 27235242371964131709
 I am honored. Truly. How may I help you?
-我很荣幸，真的。我该如何帮助你？
+我很荣幸，真的。我能帮你点什么？
 
 > INFO.NAME hello 31408181721359326274
 Welcome, friend.
@@ -164276,39 +164276,39 @@ You've been wounded, friend. You should find a healer.
 
 > INFO.NAME hello 4671315651580513306
 How may I help you, Argonian?
-我该如何帮助你，阿尔贡？
+我能帮你点什么，阿尔贡？
 
 > INFO.NAME hello 2309731107475528681
 How may I help you, Bosmer?
-我该如何帮助你，波斯莫？
+我能帮你点什么，波斯莫？
 
 > INFO.NAME hello 414040843024617755
 How may I help you, Breton?
-我该如何帮助你，布莱顿人？
+我能帮你点什么，布莱顿人？
 
 > INFO.NAME hello 2698915488556222014
 How may I help you, Dunmer?
-我该如何帮助你，丹莫？
+我能帮你点什么，丹莫？
 
 > INFO.NAME hello 3174977952486019667
 How may I help you, Altmer?
-我该如何帮助你，傲特莫？
+我能帮你点什么，傲特莫？
 
 > INFO.NAME hello 315891955535521707
 How may I help you, Cyrodil?
-我该如何帮助你，西罗帝尔人？
+我能帮你点什么，西罗帝尔人？
 
 > INFO.NAME hello 19276288733101010594
 How may I help you, Khajiit?
-我该如何帮助你，卡吉特？
+我能帮你点什么，卡吉特？
 
 > INFO.NAME hello 135583363163607259
 How may I help you, Nord?
-我该如何帮助你，诺德人？
+我能帮你点什么，诺德人？
 
 > INFO.NAME hello 19081310501244311452
 How may I help you, Redguard?
-我该如何帮助你，红卫人？
+我能帮你点什么，红卫人？
 
 > INFO.NAME hello 175951671928412827
 Have you any news?
@@ -164332,7 +164332,7 @@ There is much to discuss. Much to learn.
 
 > INFO.NAME hello 30216228961165010910
 Your actions show promise. What do you want?
-你是个说到做到的人，你想要什么？
+你是个说到做到的人，你有什么事？
 
 > INFO.NAME hello 32054218891714421460
 I greet you as a friend.
@@ -164396,7 +164396,7 @@ Bosmer?
 
 > INFO.NAME hello 2404124879250084401
 Breton?
-布莱顿？
+布莱顿人？
 
 > INFO.NAME hello 17046142991420125062
 Dunmer?
@@ -164460,7 +164460,7 @@ Do not waste my time.
 
 > INFO.NAME hello 29857144181256316477
 What are you doing?
-你 在 做 什 么？
+你在干什么？
 
 > INFO.NAME hello 14360255572280922510
 How do I know you can even be trusted?
@@ -164480,7 +164480,7 @@ You reveal too much of yourself.
 
 > INFO.NAME hello 162564649681328414
 Ugh, find somewhere else to die.
-想死找别人去。
+啊，想死找别人去。
 
 > INFO.NAME hello 2654626595148392982
 I will add to your wounds if you don't go away.
@@ -164724,7 +164724,7 @@ Welcome, friend. Hail!
 
 > INFO.NAME hello 3096329620127621460
 Well, here's a fine one! Speak freely.
-这是个好人，说吧。
+嗯，这是个好人！说吧。
 
 > INFO.NAME hello 13100119621076276
 I see we share the same company. What can I do for you?
@@ -165092,15 +165092,15 @@ You risk your neck coming here.
 
 > INFO.NAME hello 305623114898907479
 What is this about, Argonian?
-这位阿尔贡有什么事吗？
+有事吗，阿尔贡？
 
 > INFO.NAME hello 18774157452541523011
 What is this about, Bosmer?
-这是怎么回事，波斯莫？
+有事吗，波斯莫？
 
 > INFO.NAME hello 2048334291474031660
 What is this about, Breton?
-这位布莱顿人有什么事吗？
+有事吗，布莱顿人？
 
 > INFO.NAME hello 614014071243362057
 What is this about, Dunmer?
@@ -165116,7 +165116,7 @@ What is this about, Imperial?
 
 > INFO.NAME hello 127761027483883248
 What is this about, Khajiit?
-卡吉特，这是怎么回事？
+有事吗，卡吉特？
 
 > INFO.NAME hello 133578065289896421
 What is this about, Orc?
@@ -165288,7 +165288,7 @@ Ah, you bring good fortune with you. Welcome.
 
 > INFO.NAME hello 265734378143915981
 Hail and welcome, friend. Hail!
-欢迎你，朋友。欢迎！
+欢迎您，朋友。欢迎！
 
 > INFO.NAME hello 1612329522943812428
 Well, here's a fine one! Speak freely.
@@ -165944,7 +165944,7 @@ Welcome, Argonian, let's set aside our differences and talk, shall we?
 
 > INFO.NAME hello 9877511385953654
 Welcome, Bosmer, it would be a pleasure to speak with you.
-欢迎，波斯莫，很高兴与你交谈。
+欢迎，波斯莫，很高兴和你交谈。
 
 > INFO.NAME hello 2896428211270659546
 Welcome, Breton, let's set aside our differences and talk, shall we?
@@ -165960,19 +165960,19 @@ Welcome, Altmer, let's set aside our differences and talk, shall we?
 
 > INFO.NAME hello 1109222678121618484
 Welcome, Nord, it would be a pleasure to speak with you.
-欢迎，诺德人，很高兴与你交谈。
+欢迎，诺德人，很高兴和你交谈。
 
 > INFO.NAME hello 14754293252918218508
 Welcome, Orc, It would be a pleasure to speak with you.
-欢迎，兽人，很高兴与你交谈。
+欢迎，兽人，很高兴和你交谈。
 
 > INFO.NAME hello 150316932526023184
 Welcome, Redguard, It would be a pleasure to speak with you.
-欢迎，红卫人，很高兴与你交谈。
+欢迎，红卫人，很高兴和你交谈。
 
 > INFO.NAME hello 2076729216307029263
 The pleasure is mine. What may I do for you?
-这是我的荣幸。我能为你做点什么？
+这是我的荣幸，我能为你做点什么？
 
 > INFO.NAME hello 448323615754616334
 I'm all yours. Please, go ahead.
@@ -165980,7 +165980,7 @@ I'm all yours. Please, go ahead.
 
 > INFO.NAME hello 23272138042122928284
 I see I stand in good company. What can I do for you?
-看来我有贵人相助。我能为你做点什么？
+看来我有贵人相助，我能为你做点什么？
 
 > INFO.NAME hello 387128442887817725
 If I can be of any assistance, I'll be happy to help.
@@ -165992,7 +165992,7 @@ If you care to talk, I would consider it a privilege.
 
 > INFO.NAME hello 1485731119390129230
 Hello there! How are you?
-你好！你好吗？
+喂！你好吗？
 
 > INFO.NAME hello 23631842969156635
 Ah, greetings. What shall we talk about?
@@ -166036,27 +166036,27 @@ Greetings, Bosmer. How may I help you?
 
 > INFO.NAME hello 163823633217913575
 Greetings, Breton. How may I help you?
-你好，布莱顿人。我能帮你点什么？
+你好，布莱顿人，我能帮你点什么？
 
 > INFO.NAME hello 122911552408615936
 Greetings, Dunmer. How may I help you?
-您好，丹莫。我能帮你点什么？
+你好，丹莫，我能帮你点什么？
 
 > INFO.NAME hello 13125213122917025498
 Greetings, Altmer. How may I help you?
-您好，傲特莫。我能帮你点什么？
+你好，傲特莫，我能帮你点什么？
 
 > INFO.NAME hello 25041321901764319608
 Greetings, Nord. How may I help you?
-您好，诺德人。我能帮你点什么？
+你好，诺德人，我能帮你点什么？
 
 > INFO.NAME hello 5300115081303828197
 Greetings, Orc. How may I help you?
-您好，兽人。我能帮你点什么？
+你好，兽人，我能帮你点什么？
 
 > INFO.NAME hello 8959727255505793
 Greetings, Redguard. How may I help you?
-您好，红卫人。我能帮你点什么？
+你好，红卫人，我能帮你点什么？
 
 > INFO.NAME hello 17751187151886721932
 Tidings, citizen.
@@ -166064,7 +166064,7 @@ Tidings, citizen.
 
 > INFO.NAME hello 318013930682117301
 Greetings, Dunmer. How may I help you?
-您好，丹莫。我能帮你点什么？
+你好，丹莫，我能帮你点什么？
 
 > INFO.NAME hello 36101180223561648
 How can I help you?
@@ -166172,7 +166172,7 @@ Yes, Dunmer?
 
 > INFO.NAME hello 2156667072767516985
 Yes, Breton?
-什么事，布莱顿？
+什么事，布莱顿人？
 
 > INFO.NAME hello 2887715230304117876
 Yes, Bosmer?
@@ -166768,39 +166768,39 @@ The blight is unforgiving. Take shelter.
 
 > INFO.NAME hello 84222722918075814
 Yes, Argonian? What do you want?
-什么事，阿尔贡？你想要什么？
+怎么了，阿尔贡？你有什么事？
 
 > INFO.NAME hello 29532111542484613182
 Yes, Bosmer? What do you want?
-什么事，波斯莫？你想要什么？
+怎么了，波斯莫？你有什么事？
 
 > INFO.NAME hello 23997111021900416820
 Yes, Breton? What do you want?
-什么事，布莱顿人？你想要什么？
+怎么了，布莱顿人？你有什么事？
 
 > INFO.NAME hello 2716326357280442577
 Yes, Dunmer? What do you want?
-什么事，丹莫？你想要什么？
+怎么了，丹莫？你有什么事？
 
 > INFO.NAME hello 38466756219645132
 Yes, Cyrodil? What do you want?
-什么事，西罗帝尔人？你想要什么？
+怎么了，西罗帝尔人？你有什么事？
 
 > INFO.NAME hello 2346216854100879276
 Yes, Khajiit? What do you want?
-什么事，卡吉特？你想要什么？
+怎么了，卡吉特？你有什么事？
 
 > INFO.NAME hello 591279761737916515
 Yes, Nord? What do you want?
-什么事，诺德人？你想要什么？
+怎么了，诺德人？你有什么事？
 
 > INFO.NAME hello 3853122072934412925
 Yes, Orc? What do you want?
-什么事，兽人？你想要什么？
+怎么了，兽人？你有什么事？
 
 > INFO.NAME hello 4511159431095821546
 Yes, Redguard? What do you want?
-什么事，红卫人？你想要什么？
+怎么了，红卫人？你有什么事？
 
 > INFO.NAME hello 20085321582321413018
 Yes, madame?
@@ -167360,39 +167360,39 @@ The blight is unforgiving. Take shelter.
 
 > INFO.NAME hello 28269112581238920190
 Yes, Argonian? What do you want?
-什么事，阿尔贡？你有什么事？
+怎么了，阿尔贡？你有什么事？
 
 > INFO.NAME hello 3024048052963526868
 Yes, Bosmer? What do you want?
-波斯莫？你想要什么？
+怎么了，波斯莫？你有什么事？
 
 > INFO.NAME hello 27762104862574616819
 Yes, Breton? What do you want?
-什么事，布莱顿人？你想要什么？
+怎么了，布莱顿人？你有什么事？
 
 > INFO.NAME hello 1705122263251935347
 Yes, Dunmer? What do you want?
-丹莫？你想要什么？
+怎么了，丹莫？你有什么事？
 
 > INFO.NAME hello 19776760653852026
 Yes, Cyrodil? What do you want?
-是的，西罗帝尔人？你想要什么？
+怎么了，西罗帝尔人？你有什么事？
 
 > INFO.NAME hello 19319147571792723526
 Yes, Khajiit? What do you want?
-什么事，卡吉特？你想要什么？
+怎么了，卡吉特？你有什么事？
 
 > INFO.NAME hello 261422943118313067
 Yes, Nord? What do you want?
-诺德人？你想要什么？
+怎么了，诺德人？你有什么事？
 
 > INFO.NAME hello 2134014104174989534
 Yes, Orc? What do you want?
-什么事，兽人？你想要什么？
+怎么了，兽人？你有什么事？
 
 > INFO.NAME hello 267822379216428177
 Yes, Redguard? What do you want?
-是的，红卫人？你想要什么？
+怎么了，红卫人？你有什么事？
 
 > INFO.NAME hello 1327023772966919776
 Yes, madame?
@@ -167496,11 +167496,11 @@ Why do you disturb me, Bosmer?
 
 > INFO.NAME hello 13173172421626425803
 Why do you disturb me, Argonian?
-为什么打扰我，阿尔贡？
+你为何打扰我，阿尔贡？
 
 > INFO.NAME hello 3696263440376841
 Why do you disturb me, Breton?
-你为什么打扰我，布莱顿人？
+你为何打扰我，布莱顿人？
 
 > INFO.NAME hello 16352295202824816890
 Why do you disturb me, Dunmer?
@@ -167896,7 +167896,7 @@ Tell me what you want.
 
 > INFO.NAME hello 3080720414260628833
 I suppose we can talk. What do you want?
-我想我们可以谈谈，你想要什么？
+我想我们可以谈谈，你有什么事？
 
 > INFO.NAME hello 35130480110949437
 May you find all that you seek, traveller.
@@ -168024,7 +168024,7 @@ Is there something you need?
 
 > INFO.NAME hello 13176137541584913423
 Yes, outlander, what do you want?
-是的，外地人，你想要什么？
+是的，外地人，你有什么事？
 
 > INFO.NAME hello 16950135472011216371
 May I help you?
@@ -168092,7 +168092,7 @@ Why are you here?
 
 > INFO.NAME hello 64151634256522376
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 16736263163209623198
 What is it, outlander?
@@ -168124,7 +168124,7 @@ What is this about?
 
 > INFO.NAME hello 24980120793029623370
 Outlander? What do you want?
-外地人？你想要什么？
+外地人？你有什么事？
 
 > INFO.NAME hello 5890219701136616651
 Yes, outlander?
@@ -168252,7 +168252,7 @@ Quickly, outlander. I haven't much time.
 
 > INFO.NAME hello 2310948532456931575
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 71442790247123076
 Go ahead.
@@ -168456,11 +168456,11 @@ I'm sure there's someone else you can bother.
 
 > INFO.NAME hello 186443152637121561
 Oh, come on. Leave me alone.
-得了吧，别烦我。
+哦，得了吧，别烦我。
 
 > INFO.NAME hello 12100259671628910166
 I can already tell I'm not going to like this.
-我已经知道我不会喜欢这样了。
+说实话我不喜欢这样。
 
 > INFO.NAME hello 244634677265991640
 Why do you outlanders think you can bother anyone you please?
@@ -168668,7 +168668,7 @@ Yes, citizen?
 
 > INFO.NAME hello 2338815619778817450
 How may I help you citizen?
-有什么能为您效劳的？
+我能帮你点什么？
 
 > INFO.NAME hello 3108718284176786386
 Praise Vivec!
@@ -169012,7 +169012,7 @@ Tell me what you want.
 
 > INFO.NAME hello 177513009137106232
 I suppose we can talk. What do you want?
-我想我们可以谈谈，你想要什么？
+我想我们可以谈谈，你有什么事？
 
 > INFO.NAME hello 154486655275132220
 May you find all that you seek, traveller.
@@ -169128,7 +169128,7 @@ Is there something you need?
 
 > INFO.NAME hello 1800827408173925837
 Yes, outlander, what do you want?
-是的，外地人，你想要什么？
+是的，外地人，你有什么事？
 
 > INFO.NAME hello 32092457114254114
 What do you think of our city, outlander?
@@ -169252,7 +169252,7 @@ Why are you here?
 
 > INFO.NAME hello 2310910212975627004
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 18274246052011089
 What is it, outlander?
@@ -169268,7 +169268,7 @@ What is this about?
 
 > INFO.NAME hello 2297249551415826954
 Outlander? What do you want?
-外地人？你想要什么？
+外地人？你有什么事？
 
 > INFO.NAME hello 90294277127109559
 Yes, outlander?
@@ -169440,7 +169440,7 @@ Quickly, outlander. I haven't much time.
 
 > INFO.NAME hello 8035096154412261
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 19601271192355718620
 Go ahead.
@@ -169620,7 +169620,7 @@ I can already tell I'm not going to like this.
 
 > INFO.NAME hello 1782928092421129212
 Why do you outlanders think you can bother anyone you please?
-为什么你们这些外地人，以为可以随便找人麻烦？
+为什么你们这些外地人以为可以随便找人麻烦？
 
 > INFO.NAME hello 511629511040212454
 Find someone else to bother.
@@ -170008,39 +170008,39 @@ Are you wounded? You should find a healer.
 
 > INFO.NAME hello 3134879462758931467
 How may I help you, Bosmer?
-我该如何帮助你，波斯莫？
+我能帮你点什么，波斯莫？
 
 > INFO.NAME hello 1644610635613923445
 How may I help you, Breton?
-我该如何帮助你，布莱顿人？
+我能帮你点什么，布莱顿人？
 
 > INFO.NAME hello 32733233042474810932
 How may I help you, Dunmer?
-我该如何帮助你，丹莫？
+我能帮你点什么，丹莫？
 
 > INFO.NAME hello 21641730513710762
 How may I help you, Altmer?
-我该如何帮助你，傲特莫？
+我能帮你点什么，傲特莫？
 
 > INFO.NAME hello 15615193861906525837
 How may I help you, Cyrodil?
-我该如何帮助你，西罗帝尔人？
+我能帮你点什么，西罗帝尔人？
 
 > INFO.NAME hello 1434241991113832685
 How may I help you, Khajiit?
-我该如何帮助你，卡吉特？
+我能帮你点什么，卡吉特？
 
 > INFO.NAME hello 1768315670792913863
 How may I help you, Nord?
-我该如何帮助你，诺德人？
+我能帮你点什么，诺德人？
 
 > INFO.NAME hello 160452248784231448
 How may I help you, Orc?
-我该如何帮助你，兽人？
+我能帮你点什么，兽人？
 
 > INFO.NAME hello 6197182512732515877
 How may I help you, Redguard?
-我该如何帮助你，红卫人？
+我能帮你点什么，红卫人？
 
 > INFO.NAME hello 2567417537159430202
 Have you any news?
@@ -170180,7 +170180,7 @@ Care to tell me what this is about?
 
 > INFO.NAME hello 362016012131029965
 So what do you want?
-你想要什么？
+那你有什么事？
 
 > INFO.NAME hello 2998514702298332213
 I'm listening.
@@ -170520,7 +170520,7 @@ My pleasure, madame. Truly.
 
 > INFO.NAME hello 182912255130828278
 Well, hello there.
-你好。
+嗯，你好。
 
 > INFO.NAME hello 14886937792495035
 To what do I owe this pleasure?
@@ -170584,39 +170584,39 @@ Are you wounded? You should find a healer.
 
 > INFO.NAME hello 24698128531509320727
 How may I help you, Bosmer?
-有什么可以帮你的，波斯莫？
+我能帮你点什么，波斯莫？
 
 > INFO.NAME hello 32383230142040025099
 How may I help you, Breton?
-有什么可以帮你的，布莱顿人？
+我能帮你点什么，布莱顿人？
 
 > INFO.NAME hello 8876218092321132055
 How may I help you, Dunmer?
-有什么可以帮你的，丹莫？
+我能帮你点什么，丹莫？
 
 > INFO.NAME hello 224015099124586455
 How may I help you, Altmer?
-有什么可以帮你的，傲特莫？
+我能帮你点什么，傲特莫？
 
 > INFO.NAME hello 207501765683194201
 How may I help you, Cyrodil?
-有什么可以帮你的，西罗帝尔人？
+我能帮你点什么，西罗帝尔人？
 
 > INFO.NAME hello 4871174492361230829
 How may I help you, Khajiit?
-有什么可以帮你的，卡吉特？
+我能帮你点什么，卡吉特？
 
 > INFO.NAME hello 20485190932063221761
 How may I help you, Nord?
-有什么可以帮你的，诺德人？
+我能帮你点什么，诺德人？
 
 > INFO.NAME hello 2927397981398425113
 How may I help you, Orc?
-要我怎么帮你，兽人？
+我能帮你点什么，兽人？
 
 > INFO.NAME hello 1755724372755228996
 How may I help you, Redguard?
-有什么可以帮你的，红卫人？
+我能帮你点什么，红卫人？
 
 > INFO.NAME hello 335731832233795692
 Have you any news?
@@ -170780,7 +170780,7 @@ What's this then?
 
 > INFO.NAME hello 29732144792940731171
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 133012433263829230
 I am busy, so, if you will excuse me.
@@ -171244,7 +171244,7 @@ I'm listening.
 
 > INFO.NAME hello 77936615130725430
 How may I help you?
-有什么可以效劳的？
+我能帮你点什么？
 
 > INFO.NAME hello 3074107721445827105
 Do you want something from me?
@@ -171304,39 +171304,39 @@ You shouldn't be out in this mess.
 
 > INFO.NAME hello 28816237411161324673
 What is this about, Argonian?
-有什么事吗，阿尔贡？
+有事吗，阿尔贡？
 
 > INFO.NAME hello 1402374470625590
 What is this about, Breton?
-有什么事吗，布莱顿人？
+有事吗，布莱顿人？
 
 > INFO.NAME hello 2730322758154951757
 What is this about, Dunmer?
-有什么事吗，丹莫？
+有事吗，丹莫？
 
 > INFO.NAME hello 28400266301699417131
 What is this about, Altmer?
-有什么事吗，傲特莫？
+有事吗，傲特莫？
 
 > INFO.NAME hello 631528972117361795
 What is this about, Cyrodil?
-有什么事吗，西罗帝尔人？
+有事吗，西罗帝尔人？
 
 > INFO.NAME hello 305993927376812357
 What is this about, Khajiit?
-有什么事吗，卡吉特？
+有事吗，卡吉特？
 
 > INFO.NAME hello 32115149612581829050
 What is this about, Nord?
-有什么事吗，诺德人？
+有事吗，诺德人？
 
 > INFO.NAME hello 382221092741629885
 What is this about, Orc?
-有什么事吗，兽人？
+有事吗，兽人？
 
 > INFO.NAME hello 2302214909398017261
 What is this about, Redguard?
-有什么事吗，红卫人？
+有事吗，红卫人？
 
 > INFO.NAME hello 2462235541357816465
 Out with it, woman!
@@ -171804,7 +171804,7 @@ I'm listening.
 
 > INFO.NAME hello 292581264043526491
 How may I help you?
-有什么可以效劳的？
+我能帮你点什么？
 
 > INFO.NAME hello 1319162429908813
 Do you want something from me?
@@ -171856,39 +171856,39 @@ How do you travel in this?
 
 > INFO.NAME hello 440429814227509989
 What is this about, Argonian?
-有什么事吗，阿尔贡？
+有事吗，阿尔贡？
 
 > INFO.NAME hello 27198260342011423964
 What is this about, Breton?
-有什么事吗，布莱顿人？
+有事吗，布莱顿人？
 
 > INFO.NAME hello 2516421079106657226
 What is this about, Dunmer?
-有什么事吗，丹莫？
+有事吗，丹莫？
 
 > INFO.NAME hello 1853526356191415732
 What is this about, Altmer?
-有什么事吗，傲特莫？
+有事吗，傲特莫？
 
 > INFO.NAME hello 48722199926214792
 What is this about, Cyrodil?
-有什么事吗，西罗帝尔人？
+有事吗，西罗帝尔人？
 
 > INFO.NAME hello 2968529661948618839
 What is this about, Khajiit?
-有什么事吗，卡吉特？
+有事吗，卡吉特？
 
 > INFO.NAME hello 13149190492902631250
 What is this about, Nord?
-有什么事吗，诺德人？
+有事吗，诺德人？
 
 > INFO.NAME hello 200212346417006280
 What is this about, Orc?
-有什么事吗，兽人？
+有事吗，兽人？
 
 > INFO.NAME hello 5075164111198532479
 What is this about, Redguard?
-有什么事吗，红卫人？
+有事吗，红卫人？
 
 > INFO.NAME hello 1607433593231322162
 What is it, sister?
@@ -173036,7 +173036,7 @@ I'll deal with you thief!
 
 > INFO.NAME thief 23380148681021327412
 Help, guards!
-救命啊，卫兵！
+救命，卫兵！
 
 > INFO.NAME thief 9452159451755120838
 Put it back!
@@ -173108,7 +173108,7 @@ Over here! A thief!
 
 > INFO.NAME thief 166471770226635747
 What are you doing?!
-你 在 做 什 么 ？！
+你在干什么？！
 
 > INFO.NAME thief 2280770961518626872
 Hey!
@@ -175984,15 +175984,15 @@ Then here's your Fighter Ring. Good day to you.
 
 > INFO.BNAM work 9713105022672519536 c1
 Fighter Ring
-战士之戒
+战士戒指
 
 > INFO.BNAM work 9713105022672519536 c2
 Mage Ring
-法师之戒
+法师戒指
 
 > INFO.BNAM work 9713105022672519536 c3
 Thief Ring
-盗贼之戒
+盗贼戒指
 
 > INFO.NAME work 218956161499127703
 Well. I should have known. She was quite abusive when she was released. Blamed ME for the whole thing, when it was she who failed to obtain her Hospitality Papers. I will deal with her in my own time. And you have my thanks. You have gotten rid of the ghost, so you shall have your reward. I have a Fighter Ring, a Mage Ring, and a Thief Ring. Each ring fortifies the attributes most prized in each of these specialized disciplines. Which ring would you prefer?
@@ -176000,15 +176000,15 @@ Well. I should have known. She was quite abusive when she was released. Blamed M
 
 > INFO.BNAM work 218956161499127703 c1
 Fighter Ring
-战士之戒
+战士戒指
 
 > INFO.BNAM work 218956161499127703 c2
 Mage Ring
-法师之戒
+法师戒指
 
 > INFO.BNAM work 218956161499127703 c3
 Thief Ring
-盗贼之戒
+盗贼戒指
 
 > INFO.NAME work 657117141488523503
 Well. I'm extremely displeased that you will not tell me the name of the sorcerer responsible. But you have gotten rid of the ghost, so you shall have your reward. I have a Fighter Ring, a Mage Ring, and a Thief Ring. Each ring fortifies the attributes most prized in each of these specialized disciplines. Which ring would you prefer?
@@ -176016,15 +176016,15 @@ Well. I'm extremely displeased that you will not tell me the name of the sorcere
 
 > INFO.BNAM work 657117141488523503 c1
 Fighter Ring
-战士之戒
+战士戒指
 
 > INFO.BNAM work 657117141488523503 c2
 Mage Ring
-法师之戒
+法师戒指
 
 > INFO.BNAM work 657117141488523503 c3
 Thief Ring
-盗贼之戒
+盗贼戒指
 
 > INFO.NAME work 2132219571122579920
 You say the hauntings will stop. How do you know? Can you prove it? What was causing the hauntings? If you want your reward, you must give me a satisfactory explanation.

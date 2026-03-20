@@ -2168,7 +2168,7 @@
  GMST.STRV "该法术的当前效果"
 -GMST
  GMST.NAME "sKilledEssential"
- GMST.STRV "随着这名角色的死亡，预言的线索消失了。加载以前的进度来改变命运，否则只能留在这个由你创建的毁灭世界中。"
+ GMST.STRV "随着这名角色的死亡，预言的线索消失了。回到以前的存档来重塑命运，否则只能留在这个由你创建的已毁灭的世界中。"
 -GMST
  GMST.NAME "sCrimeMessage"
  GMST.STRV "你的恶行被举报了！"
@@ -3575,7 +3575,7 @@
  GMST.STRV "火焰护盾"
 -GMST
  GMST.NAME "sEffectLightningShield"
- GMST.STRV "雷电护盾"
+ GMST.STRV "电击护盾"
 -GMST
  GMST.NAME "sEffectFrostShield"
  GMST.STRV "冰霜护盾"
@@ -3728,7 +3728,7 @@
  GMST.STRV "振奋人形生物"
 -GMST
  GMST.NAME "sEffectRallyCreature"
- GMST.STRV "生物振奋"
+ GMST.STRV "振奋生物"
 -GMST
  GMST.NAME "sEffectDispel"
  GMST.STRV "驱散"
@@ -3851,7 +3851,7 @@
  GMST.STRV "尸化病抗性"
 -GMST
  GMST.NAME "sEffectResistPoison"
- GMST.STRV "抗毒"
+ GMST.STRV "抵抗毒素"
 -GMST
  GMST.NAME "sEffectResistNormalWeapons"
  GMST.STRV "抵抗常规武器"
@@ -3878,7 +3878,7 @@
  GMST.STRV "召唤魔人"
 -GMST
  GMST.NAME "sEffectSummonAncestralGhost"
- GMST.STRV "召唤先祖幽灵"
+ GMST.STRV "召唤先祖幽魂"
 -GMST
  GMST.NAME "sEffectSummonSkeletalMinion"
  GMST.STRV "召唤枯骨仆从"
@@ -13625,7 +13625,7 @@ if ( GetPCCell ""Vivec, Arena Pit"" == 0 )
 
 	;To simulate Essential NPC Killed message
 	if ( OnDeath == 1 )
-		Messagebox ""随着这个角色的死亡，预言的线索也被切断。回到过去的时间来重塑命运，否则你只能继续留在你所创造的注定要灭亡的世界当中。""
+		Messagebox ""随着这名角色的死亡，预言的线索消失了。回到以前的存档来重塑命运，否则只能留在这个由你创建的已毁灭的世界中。""
 	endif
 
 endif
@@ -22896,7 +22896,7 @@ endif
 
 if ( countHits == 1 )
 	if ( countSays == 0 )
-		Say ""vo\misc\Hit Heart 1.wav"" ""你在做什么？""
+		Say ""vo\misc\Hit Heart 1.wav"" ""你在干什么？""
 		""dagoth_ur_2""->SetFight 100
 		""dagoth_ur_2""->StartCombat Player
 		Set countSays to 1
@@ -22906,7 +22906,7 @@ endif
 
 if ( countHits == 2 )
 	if ( countSays == 1 )
-		Say ""vo\misc\Hit Heart 2.wav"" ""你！在！做！什！么？！""
+		Say ""vo\misc\Hit Heart 2.wav"" ""你！在！干！什！么？！""
 		Set countSays to 2
 	endif
 	PlayGroup Idle3
@@ -39043,7 +39043,7 @@ end"
  SPEL.ENAM [46 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00]
 -SPEL
  SPEL.NAME "cure common disease$00"
- SPEL.FNAM "常见疾病治愈$00"
+ SPEL.FNAM "治愈常见疾病$00"
  SPEL.SPDT [00 00 00 00 0F 00 00 00 01 00 00 00]
  SPEL.ENAM [45 00 FF FF 00 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00]
 -SPEL
@@ -41589,7 +41589,7 @@ end"
  SPEL.ENAM [68 00 FF FF 00 00 00 00 00 00 00 00 58 02 00 00 01 00 00 00 01 00 00 00]
 -SPEL
  SPEL.NAME "sp_ccd$00"
- SPEL.FNAM "常见疾病治愈$00"
+ SPEL.FNAM "治愈常见疾病$00"
  SPEL.SPDT [00 00 00 00 1E 00 00 00 00 00 00 00]
  SPEL.ENAM [45 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00]
 -SPEL
@@ -149587,7 +149587,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -CLOT
  CLOT.NAME "fighter_ring$00"
  CLOT.MODL "c\C_Ring_common02.NIF$00"
- CLOT.FNAM "战士之戒$00"
+ CLOT.FNAM "战士戒指$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 0A 00 0A 00]
  CLOT.ITEX "c\tx_ring_common02.tga$00"
  CLOT.ENAM "fighter_en$00"
@@ -149605,14 +149605,14 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 -CLOT
  CLOT.NAME "mage_ring$00"
  CLOT.MODL "c\C_Ring_common03.NIF$00"
- CLOT.FNAM "法师之戒$00"
+ CLOT.FNAM "法师戒指$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 0A 00 0A 00]
  CLOT.ITEX "c\tx_ring_common03.tga$00"
  CLOT.ENAM "mage_en$00"
 -CLOT
  CLOT.NAME "thief_ring$00"
  CLOT.MODL "c\C_Ring_common04.NIF$00"
- CLOT.FNAM "盗贼之戒$00"
+ CLOT.FNAM "盗贼戒指$00"
  CLOT.CTDT [08 00 00 00 CD CC CC 3D 0E 00 0A 00]
  CLOT.ITEX "c\tx_ring_common04.tga$00"
  CLOT.ENAM "thief_en$00"
@@ -186899,7 +186899,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "315525839725312447$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "因为我杀了一些牲口，所以我失去了用它们做食物的特权。"
+ INFO.NAME "因为我杀了一些血畜，所以我失去了用它们做食物的特权。"
 -DIAL
  DIAL.NAME "B2_AhemmusaWalk$00"
  DIAL.DATA [04]
@@ -199055,7 +199055,7 @@ Player->AddItem Gold_001 500"
  INFO.NNAM "931020016145017973$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "elmussa damori$00"
- INFO.NAME "谢谢你，%PCName。"
+ INFO.NAME "谢谢，%PCName。"
  INFO.SCVR "34JX3HH_CaptureSpy"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -200517,7 +200517,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉技能的祝福。"
+ INFO.NAME "你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉能力的祝福。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX3ThreadsWebspinner"
@@ -200617,7 +200617,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉技能的祝福。"
+ INFO.NAME "你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉能力的祝福。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX3ThreadsWebspinner"
@@ -201850,7 +201850,7 @@ journal IC12_Bacola 1"
  INFO.NNAM "3016926259196717838$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nalcarya of white haven$00"
- INFO.NAME "我是娜尔卡娅。有什么可以帮你的吗？"
+ INFO.NAME "我是娜尔卡娅，我能帮你点什么？"
 -INFO
  INFO.INAM "3016926259196717838$00"
  INFO.PNAM "30258262292656821579$00"
@@ -203561,7 +203561,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "有时候我在想，你真的忠于莫拉格堂吗。"
+ INFO.NAME "你真的忠于莫拉格堂吗？有时候我在想。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "ModDisposition -10"
@@ -203642,7 +203642,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "有时候我在想，你真的忠于莫拉格堂吗。"
+ INFO.NAME "你真的忠于莫拉格堂吗？有时候我在想。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "ModDisposition -10"
@@ -207765,7 +207765,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "你已将所有织网者之丝归还莫拉格堂，你将得到梅法拉能力的祝福。 {戒指}"
+ INFO.NAME "有了这枚戒指，你就将织网者之丝全部归还给了莫拉格堂。你将受到梅法拉能力的祝福。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX3ThreadsWebspinner"
@@ -208160,7 +208160,7 @@ Journal MV_InnocentAshlanders 115"
  INFO.NNAM "1706322781135798293$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stentus tullius$00"
- INFO.NAME "是的，我儿子把那笔生意都告诉我了，真遗憾，我警告过他，离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}"
+ INFO.NAME "是的，我儿子把那笔生意都告诉我了。真遗憾，我警告过他，离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}"
  INFO.SCVR "04JX0MV_InnocentAshlanders"
  INFO.INTV [6E 00 00 00]
 -INFO
@@ -212221,7 +212221,7 @@ Player->AddItem Gold_001 2000"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "有了这枚戒指，你就将织网者之丝全部归还给了莫拉格堂。你将受到梅法拉技能的祝福。"
+ INFO.NAME "有了这枚戒指，你就将织网者之丝全部归还给了莫拉格堂。你将受到梅法拉能力的祝福。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX3ThreadsWebspinner"
@@ -213417,7 +213417,7 @@ Choice ""如果可以，我会帮你的，虽然我不知道这个地方在哪里。"" 2 ""对不起，我不想
  INFO.NNAM "2244928392473729022$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hlormar wine-sot$00"
- INFO.NAME "谢谢你，朋友，我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利的武器的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。"
+ INFO.NAME "谢谢你，朋友。我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利刀刃的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Hlormar Wine-Sot
@@ -215486,7 +215486,7 @@ RemoveItem key_murudius_01 1"
  INFO.NNAM "509116663106572775$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
- INFO.NAME "今年的枯萎病风暴真的很严重，我的朋友每年都去玛尔-甘朝圣，而这次就遇到了一场大灾难。直到他们把他送回神殿前，他的情况都非常糟糕。 {枯萎之症}"
+ INFO.NAME "今年的枯萎病风暴真的很严重。我的朋友每年都去玛尔-甘朝圣，而这次就遇到了一场大灾难。直到他们把他送回神殿前，他的情况都非常糟糕。 {枯萎之症}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -229435,7 +229435,7 @@ AddTopic ""为拉拉姆·德雷迪尔供货"""
  INFO.SCVR "04JX0EB_Express"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Journal ""EB_Express"" 10
-Choice ""我帮你送过去。"" 1 ""你去找别人吧。"" 2"
+Choice ""我帮你送过去。"" 1 ""我帮不了你。"" 2"
 -DIAL
  DIAL.NAME "与艾拉蒂尔交谈$00"
  DIAL.DATA [00]
@@ -233101,7 +233101,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "有时候我在想，你真的忠于莫拉格堂吗。"
+ INFO.NAME "你真的忠于莫拉格堂吗？有时候我在想。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "ModDisposition -10"
@@ -233902,7 +233902,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "maurrie aurmine$00"
- INFO.NAME "那是什么？别管珠宝了！我只想再找到那个强盗，他迷人又风趣，我一定要再见到他，他叫什么名字？内罗斯…内罗斯·奥马…这个名字将永远留在我的嘴边。也许你能帮我找到他？求求你，我不能在不知道他是否爱我的情况下生活。我没有什么可以回报你的，但为了爱，你能不能帮帮我？"
+ INFO.NAME "那是什么？别管珠宝了！我只想再找到那个强盗，他迷人又风趣，我一定要再见到他。他叫什么名字？内罗斯…内罗斯·奥马…这个名字将永远留在我的嘴边。也许你能帮我找到他？求求你，我不能在不知道他是否爱我的情况下生活。我没有什么可以回报你的，但为了爱，你能不能帮帮我？"
  INFO.BNAM "Journal ""MV_VictimRomance"" 30
 Choice ""我会努力找到这个人，哪怕只是为了爱。"" 1 ""我没时间陪你玩愚蠢的游戏，姑娘。"" 2"
 -DIAL
@@ -236155,7 +236155,7 @@ removeitem Nuccius_Ring 1"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX4Gold_001"
  INFO.INTV [64 00 00 00]
- INFO.BNAM "Choice ""我没有100龙币。"" 2 ""我没兴趣。"" 3"
+ INFO.BNAM "Choice ""我没有100龙币。"" 2 ""没兴趣。"" 3"
 -INFO
  INFO.INAM "5054101151312129195$00"
  INFO.PNAM "5211249121351425077$00"
@@ -236167,7 +236167,7 @@ removeitem Nuccius_Ring 1"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX3Gold_001"
  INFO.INTV [64 00 00 00]
- INFO.BNAM "Choice ""我会给你100龙币，把戒指给我吧。"" 1 ""我没兴趣。"" 3"
+ INFO.BNAM "Choice ""我会给你100龙币，把戒指给我吧。"" 1 ""没兴趣。"" 3"
 -INFO
  INFO.INAM "98057901253811951$00"
  INFO.PNAM "5054101151312129195$00"
@@ -236881,7 +236881,7 @@ Set ""Manilian Scerius"".slaveStatus to 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "savile imayn$00"
  INFO.NAME "帝国人都很勤劳，但你得看好他们，尤其是这个。他的价格和其他人一样，1000龙币。 {工作}"
- INFO.BNAM "Choice ""我要购买奴隶。"" 1 ""没事了。"" 2"
+ INFO.BNAM "Choice ""购买奴隶。"" 1 ""没事了。"" 2"
 -DIAL
  DIAL.NAME "银制长剑$00"
  DIAL.DATA [00]
@@ -237048,7 +237048,7 @@ Player->RemoveItem ""silver longsword"" 1
  INFO.NNAM "85403155738245122$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dremora_ttmg$00"
- INFO.NAME "继续你的侮辱吧，凡人。我渴望啃食你的骨髓。"
+ INFO.NAME "继续你的冒犯吧，凡人。我渴望啃食你的骨髓。"
  INFO.SCVR "03sX0tauntCount"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Set tauntcount to 2"
@@ -237058,7 +237058,7 @@ Player->RemoveItem ""silver longsword"" 1
  INFO.NNAM "1646375372901932545$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dremora_ttmg$00"
- INFO.NAME "哈！瓜尔生的东西能说什么好话。"
+ INFO.NAME "哈！一头从瓜尔屁股眼里生出来的东西，说话倒还挺动听。"
  INFO.SCVR "03sX0tauntCount"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Set tauntcount to 3"
@@ -242732,7 +242732,7 @@ AddItem Misc_6th_Ash_HRCS 1"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "34JX3HR_ClearSarethi"
  INFO.INTV [1E 00 00 00]
- INFO.BNAM "Choice ""把雕像给他。"" 1 ""留着雕像吧。"" 2"
+ INFO.BNAM "Choice ""把雕像给他。"" 1 ""留着雕像。"" 2"
 -INFO
  INFO.INAM "13379121593019526301$00"
  INFO.PNAM "51452194473007404$00"
@@ -243642,7 +243642,7 @@ Goodbye"
  INFO.NNAM "21826260844581931$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edryno arethi$00"
- INFO.NAME "你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。"
+ INFO.NAME "你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -247760,7 +247760,7 @@ ShowMap Tureynulal"
  INFO.NNAM "220626442720519458$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "在灰烬之民中，礼物是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示自己谨慎、体贴，并了解对方的愿望和需求。这对贸易商和旅行者尤其有用。在朋友之间，这是一件私事，很微妙，有很大的风险，因为礼物的检验标准是如何为收礼人量身定做。 {需要}"
+ INFO.NAME "在灰烬之民当中，送礼是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示自己谨慎、体贴，并了解对方的愿望和需求。这对贸易商和旅行者尤其有用。在朋友之间，这是一件私事，很微妙，风险很大，因为礼物的好坏取决于它是否适合收礼人。 {需要}"
  INFO.BNAM ";scout ; savant; bard; bookseller;"
 -INFO
  INFO.INAM "220626442720519458$00"
@@ -247768,7 +247768,7 @@ ShowMap Tureynulal"
  INFO.NNAM "720128914206869823$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "在灰烬之民当中，送礼是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示你谨慎、体贴，知道对方的愿望和需要。这对贸易商和旅行者尤其有用。在朋友之间，送礼是一件私事，很微妙，风险很大，因为礼物的好坏取决于它是否适合收礼人。"
+ INFO.NAME "在灰烬之民当中，送礼是陌生人之间的礼节，也是朋友之间的情谊。在陌生人之间，首先送上一份考虑周到的礼物，表示自己谨慎、体贴，并了解对方的愿望和需求。这对贸易商和旅行者尤其有用。在朋友之间，这是一件私事，很微妙，风险很大，因为礼物的好坏取决于它是否适合收礼人。 {需要}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";scout ; savant; bard; bookseller;"
@@ -249645,7 +249645,7 @@ player->additem gold_001 2500"
  INFO.NNAM "1982276013243613874$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "很好，继续吧。祝你好运。 {幸运}"
+ INFO.NAME "很好，继续吧，祝你好运。 {幸运}"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3IC14_Ponius"
@@ -249658,7 +249658,7 @@ player->additem gold_001 2500"
  INFO.NNAM "826422288201903385$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Canctunian Ponius$00"
- INFO.NAME "真不幸，那么很抱歉，我不能兑现对帝国教团慷慨的承诺了。 {帝国人}"
+ INFO.NAME "真不幸。那么很抱歉，我不能兑现对帝国教团慷慨的承诺了。 {帝国人}"
  INFO.SCVR "04JX4IC14_Ponius"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "14JX3IC14_Ponius"
@@ -250273,7 +250273,7 @@ Goodbye"
  INFO.NNAM "1527113110315733904$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lirielle stoine$00"
- INFO.NAME "我是莉莉尔，我能帮你什么？"
+ INFO.NAME "我是莉莉尔，我能帮你点什么？"
 -INFO
  INFO.INAM "1527113110315733904$00"
  INFO.PNAM "958632226159030153$00"
@@ -253398,7 +253398,7 @@ Player->AddItem ""bk_OrdersForBivaleTeneran"" 1"
  INFO.NNAM "235371551978806463$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "bivale teneran$00"
- INFO.NAME "我是比薇尔·特纳兰。有什么可以效劳的？"
+ INFO.NAME "我是比薇尔·特纳兰，我能帮你点什么？"
 -INFO
  INFO.INAM "235371551978806463$00"
  INFO.PNAM "1458784812071418152$00"
@@ -253428,7 +253428,7 @@ Player->AddItem ""bk_OrdersForBivaleTeneran"" 1"
  INFO.NNAM "25724135261899830517$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "elmussa damori$00"
- INFO.NAME "那就是我，你想要什么？"
+ INFO.NAME "那就是我，你有什么事？"
 -INFO
  INFO.INAM "25724135261899830517$00"
  INFO.PNAM "4966280642784230339$00"
@@ -259240,7 +259240,7 @@ Journal ""MV_TraderLate"" 100"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stentus tullius$00"
- INFO.NAME "是的，我儿子把那笔生意都告诉我了。真遗憾，我警告过他离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}"
+ INFO.NAME "是的，我儿子把那笔生意都告诉我了。真遗憾，我警告过他，离灰烬之民的牧场远点，但他还小。我希望能报答你救了他的命，但我所有的钱都在那批货上了，不过还是谢谢你的帮助。 {事}"
  INFO.SCVR "04JX0MV_InnocentAshlanders"
  INFO.INTV [6E 00 00 00]
 -DIAL
@@ -263396,7 +263396,7 @@ ShowMap ""Odai Plateau"""
  INFO.NNAM "31986260131593720689$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "braynas hlervu$00"
- INFO.NAME "那就是我，你想要什么？"
+ INFO.NAME "那就是我，你有什么事？"
 -INFO
  INFO.INAM "31986260131593720689$00"
  INFO.PNAM "2473523131554014691$00"
@@ -263582,7 +263582,7 @@ Set ""jadier mannick"".slaveStatus to 2"
  INFO.NNAM "536523139115938165$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "savile imayn$00"
- INFO.NAME "等你改变主意了再回来看看吧。"
+ INFO.NAME "等你改变主意了再回来吧。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
 -INFO
@@ -263592,7 +263592,7 @@ Set ""jadier mannick"".slaveStatus to 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "savile imayn$00"
  INFO.NAME "你在找布莱顿人？我很高兴，我还以为永远摆脱不了他了呢。我相信他会是个好奴隶的，只是布莱顿人不像兽人和阿尔贡族那么勤劳，他的价格和其他奴隶一样，1000龙币。 {工作}"
- INFO.BNAM "Choice ""我要购买奴隶。"" 1 ""没事了。"" 2"
+ INFO.BNAM "Choice ""购买奴隶。"" 1 ""没事了。"" 2"
 -DIAL
  DIAL.NAME "Taunt Success$00"
  DIAL.DATA [03]
@@ -264255,7 +264255,7 @@ Player->AddItem key_neranomanor 1"
  INFO.NNAM "23724319211745616292$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Commoner$00"
- INFO.NAME "我告诉你，这让我很担心。我的邻居昨晚半夜在外面跑来跑去，胡言乱语，到了早上，他什么都不记得了。那些学者说什么妄想症之类的东西，这到底是什么意思？为什么祭司治不好？ {谈,疾病}"
+ INFO.NAME "我告诉你，这让我很担心。我的邻居昨晚半夜在外面跑来跑去，胡言乱语。到了早上，他什么都不记得了。那些学者说什么妄想症之类的东西，这到底是什么意思？为什么祭司治不好？ {谈,疾病}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -265723,7 +265723,7 @@ ModDisposition 10"
  INFO.NNAM "104117681333725076$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edryno arethi$00"
- INFO.NAME "你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。"
+ INFO.NAME "你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -276007,7 +276007,7 @@ Journal town_Vivec 5"
  INFO.NNAM "204221102699029955$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "神殿禁止崇拜四个邪恶的迪德拉：梅鲁涅斯·大衮、马拉卡斯、莫拉格·巴尔和谢尔格拉斯。但这个岛很大，有很多荒野，有很多古老的迪德拉遗迹，正等待着一群新的崇拜者。神殿卫兵们在晨风内忙于对付异端和异见祭司。他们不可能出去追逐迪德拉爱好者。 {迪德拉式,手}"
+ INFO.NAME "神殿禁止崇拜四个邪恶的迪德拉——梅鲁涅斯·大衮、马拉卡斯、莫拉格·巴尔和谢尔格拉斯。但这个岛很大，有很多荒野，有很多古老的迪德拉遗迹，正等待着一群新的崇拜者。神殿卫兵们在晨风内忙于对付异端和异见祭司。他们不可能出去追逐迪德拉爱好者。 {迪德拉式,手}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";default"
@@ -278433,7 +278433,7 @@ Player->AddItem ""misc_fakesoulgem"" 1"
  INFO.NNAM "27864119096123768$00"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec, St. Olms Yngling Manor Basement$00"
- INFO.NAME "你就在那儿。你想干嘛？"
+ INFO.NAME "你就在那儿。你有什么事？"
  INFO.SCVR "04JX2TG_SS_Yngling"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -279312,7 +279312,7 @@ Choice ""我会想办法让他离开。"" 1 ""我帮不了你。"" 2"
  INFO.NNAM "2982712952537023215$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "moroni uvelas$00"
- INFO.NAME "我就是她，我怎么能帮到你？"
+ INFO.NAME "我就是她，我能帮你点什么？"
 -INFO
  INFO.INAM "2982712952537023215$00"
  INFO.PNAM "12940260761583811762$00"
@@ -282478,7 +282478,7 @@ Player->ModReputation 1"
  INFO.NNAM "14990275261124026118$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edryno arethi$00"
- INFO.NAME "你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。"
+ INFO.NAME "你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -282535,7 +282535,7 @@ Player->AddItem Gold_001 500
  INFO.NNAM "215926180705322733$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edryno arethi$00"
- INFO.NAME "你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。"
+ INFO.NAME "你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -287205,7 +287205,7 @@ Goodbye"
  INFO.NNAM "17661150863116919945$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hlormar wine-sot$00"
- INFO.NAME "谢谢你，朋友。我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利的刀刃的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。"
+ INFO.NAME "谢谢你，朋友。我注意到你很欣赏我与那个老巫婆搏斗的方式，即使没有锋利刀刃的帮助。我没有金钱或财宝来感谢你的帮助，但我可以给你一些指点，帮助你在战斗中变得更强。"
  INFO.SCVR "01500"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";Hlormar Wine-Sot
@@ -289291,7 +289291,7 @@ Player->AddItem ""writ_vendu"" 1"
  INFO.PNAM "7919237012811128987$00"
  INFO.NNAM "11602313041701624062$00"
  INFO.DATA [03 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "别说了，你想怎样？"
+ INFO.NAME "别说了，你有什么事？"
 -INFO
  INFO.INAM "11602313041701624062$00"
  INFO.PNAM "13160131402806314158$00"
@@ -293792,7 +293792,7 @@ Choice ""如果我们都出售黑檀，价格就会下降。"" 1 ""我们没有足够的黑檀。"" 2"
  INFO.NNAM "201291806208804$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edryno arethi$00"
- INFO.NAME "你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。"
+ INFO.NAME "你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -299310,7 +299310,7 @@ ModDisposition 5"
  INFO.DATA [00 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.ONAM "nelos onmar$00"
  INFO.ANAM "Pelagiad$00"
- INFO.NAME "我是内罗斯。你想要什么？"
+ INFO.NAME "我是内罗斯。你有什么事？"
  INFO.SCVR "04JX4MV_VictimRomance"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -301194,7 +301194,7 @@ ModFight 10"
  INFO.PNAM "142495423193649005$00"
  INFO.NNAM "15651222572413527697$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "你好，很高兴见到另一个%PCRace。"
+ INFO.NAME "嗯，你好，很高兴见到另一个%PCRace。"
  INFO.SCVR "03sX0dancingGirl"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "11450"
@@ -304096,7 +304096,7 @@ Goodbye"
  INFO.NNAM "18957246652271928795$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "bethes sarothril$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";10 Elite Ordinators"
 -INFO
  INFO.INAM "18957246652271928795$00"
@@ -304104,7 +304104,7 @@ Goodbye"
  INFO.NNAM "207161686461973555$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "drores arvel$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";10 Elite Ordinators"
 -INFO
  INFO.INAM "207161686461973555$00"
@@ -304113,7 +304113,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";10 Elite Ordinators"
 -INFO
  INFO.INAM "200672762419814487$00"
@@ -306927,7 +306927,7 @@ Goodbye"
  INFO.NNAM "305311403560112764$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sinyaramen$00"
- INFO.NAME "很好，你想要什么？"
+ INFO.NAME "很好，你有什么事？"
  INFO.SCVR "04JX2VA_VampChild"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "11500"
@@ -307020,7 +307020,7 @@ Journal ""VA_VampChild"" 70"
  INFO.NNAM "866915373304815535$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "raxle berne$00"
- INFO.NAME "是的，小怪物。你想要什么？"
+ INFO.NAME "是的，小怪物。你有什么事？"
  INFO.SCVR "01600"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX0VampClan"
@@ -310021,7 +310021,7 @@ setalarm 0"
  INFO.NNAM "12791257953195520624$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gadayn andarys$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "04JX0EB_Unrequited"
  INFO.INTV [64 00 00 00]
  INFO.SCVR "16DX0eraldil"
@@ -310063,7 +310063,7 @@ setalarm 0"
  INFO.NNAM "13447304103028828010$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gadayn andarys$00"
- INFO.NAME "是你啊，希望你开心。你那个愚蠢的爱情药水的主意奏效了，现在看看它给我带来了什么？她是个怪物。唠叨，抱怨，花光我的钱。你怎么能让我陷入这种境地？你想要什么？ {工作}"
+ INFO.NAME "是你啊，希望你开心。你那个愚蠢的爱情药水的主意奏效了，现在看看它给我带来了什么？她是个怪物。唠叨，抱怨，花光我的钱。你怎么能让我陷入这种境地？那么，你有什么事？ {工作}"
  INFO.SCVR "04JX0EB_Unrequited"
  INFO.INTV [5F 00 00 00]
  INFO.SCVR "16DX0eraldil"
@@ -310177,7 +310177,7 @@ ModDisposition 20"
  INFO.NNAM "14596701278324823$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Mossanon$00"
- INFO.NAME "什么事？你想要什么？"
+ INFO.NAME "嗯？你有什么事？"
 -INFO
  INFO.INAM "14596701278324823$00"
  INFO.PNAM "474716513152011934$00"
@@ -310611,7 +310611,7 @@ Goodbye"
  INFO.NNAM "115801467158294855$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vodunius nuccius$00"
- INFO.NAME "什么事？你想要什么？如果你想离开赛达-尼恩，我很乐意给你一点小建议。"
+ INFO.NAME "嗯？你有什么事？如果你想离开赛达-尼恩，我很乐意给你一点小建议。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -310653,7 +310653,7 @@ Goodbye"
  INFO.NNAM "2118616547893417897$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "fargoth$00"
- INFO.NAME "你想要什么？别费心打劫我，反正帝国人已经拿走了一切。"
+ INFO.NAME "你有什么事？别费心打劫我，反正帝国人已经拿走了一切。"
  INFO.SCVR "04JX0MS_Lookout"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -314563,7 +314563,7 @@ Journal IC7_netch 1"
  INFO.NNAM "5511116511789711147$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "zebba$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -314575,7 +314575,7 @@ Goodbye"
  INFO.NNAM "17408283361375012932$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "assaba-bentus$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -314587,7 +314587,7 @@ Goodbye"
  INFO.NNAM "5464240612679513891$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kummu$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -314599,7 +314599,7 @@ Goodbye"
  INFO.NNAM "1002419911754313725$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "massarapal$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -314611,7 +314611,7 @@ Goodbye"
  INFO.NNAM "167615447137002431$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ulibabi$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -314623,7 +314623,7 @@ Goodbye"
  INFO.NNAM "313935275227635020$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yantus$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -314635,7 +314635,7 @@ Goodbye"
  INFO.NNAM "87998466306489044$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "addut-lamanu$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -314647,7 +314647,7 @@ Goodbye"
  INFO.NNAM "277482426553458961$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "assemmus$00"
- INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死！虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
+ INFO.NAME "你杀了一个爱好和平的埃勒比尼姆孙，你该死。虽然我们没有勇士为我们伸张正义，我们仍有我们的骄傲。即使你威胁要杀了我们，我们也不会跟你计较。"
  INFO.SCVR "04JX3B4_ErabenimsunKill"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; Massarapal, Ulibabi, Yantus, Addut-Lamanu, Assemmus, Zebba; Kummu; Assaba-Bentus; 
@@ -315674,7 +315674,7 @@ Goodbye"
  INFO.NNAM "24837312971443714017$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "velanda omani$00"
- INFO.NAME "又是你？你想要什么？"
+ INFO.NAME "又是你？你有什么事？"
 -INFO
  INFO.INAM "24837312971443714017$00"
  INFO.PNAM "1632756642744423220$00"
@@ -316117,7 +316117,7 @@ Goodbye"
  INFO.NNAM "153323589161013373$00"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ranis athrys$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01390"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX3MG_SpyCatch"
@@ -317191,7 +317191,7 @@ Goodbye"
  INFO.NNAM "21531321153204616283$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dratha$00"
- INFO.NAME "你回来了！我们的统谏使！你想干什么？"
+ INFO.NAME "你回来了！我们的统谏使！你有什么事？"
  INFO.SCVR "34JX3B7_TelvanniHort"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -317240,7 +317240,7 @@ Goodbye"
  INFO.NNAM "2428351002098611974$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dratha$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
 -INFO
  INFO.INAM "2428351002098611974$00"
  INFO.PNAM "5804252681102315898$00"
@@ -317360,7 +317360,7 @@ Goodbye"
  INFO.NNAM "322725661549327586$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edd theman$00"
- INFO.NAME "又是你？你想要什么？"
+ INFO.NAME "又是你？你有什么事？"
 -INFO
  INFO.INAM "322725661549327586$00"
  INFO.PNAM "302351016699625199$00"
@@ -320934,7 +320934,7 @@ AddTopic ""帮我"""
  INFO.NNAM "16044133311674231376$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "j'dhannar$00"
- INFO.NAME "又是你？你想要什么？"
+ INFO.NAME "又是你？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -320943,7 +320943,7 @@ AddTopic ""帮我"""
  INFO.NNAM "28491118892498420120$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "j'dhannar$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";J'Dhannar"
@@ -321303,7 +321303,7 @@ modDisposition 20"
  INFO.NNAM "5560163461787810206$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dutadalk$00"
- INFO.NAME "是的，外地人。我是杜塔达克，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？我能为你做点什么？"
+ INFO.NAME "是的，外地人。我是杜塔达克，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？你有什么事？"
  INFO.BNAM "; Dutadalk"
 -INFO
  INFO.INAM "5560163461787810206$00"
@@ -321342,7 +321342,7 @@ modDisposition 20"
  INFO.NNAM "1743232448879574$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kausi$00"
- INFO.NAME "你是谁？你想要什么？"
+ INFO.NAME "你是谁？你有什么事？"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Kausi; Journal ""A2-6_Incarnate"" >= 50"
@@ -321352,7 +321352,7 @@ modDisposition 20"
  INFO.NNAM "32258218472613196$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kausi$00"
- INFO.NAME "是的，外地人。我是考斯，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？你想干什么？"
+ INFO.NAME "是的，外地人。我是考斯，阿希穆萨灰烬之民的古拉可汗。你为什么来这里？你有什么事？"
  INFO.BNAM "; Kausi"
 -INFO
  INFO.INAM "32258218472613196$00"
@@ -321654,7 +321654,7 @@ Goodbye"
  INFO.NNAM "32294125062989011833$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ulath-pal$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "11630"
@@ -321867,7 +321867,7 @@ Goodbye"
  INFO.NNAM "2175725672140518560$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "drelasa ramothran$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";Drelasa Ramothran"
 -INFO
  INFO.INAM "2175725672140518560$00"
@@ -322243,7 +322243,7 @@ modDisposition 20
  INFO.NNAM "28438160681278921215$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ethys savil$00"
- INFO.NAME "我说了，我不感兴趣，Fetcher（混账东西）。"
+ INFO.NAME "我说了，我没兴趣，Fetcher（混蛋）。"
 -INFO
  INFO.INAM "28438160681278921215$00"
  INFO.PNAM "257234559237286931$00"
@@ -322527,7 +322527,7 @@ Goodbye"
  INFO.NNAM "827132001043014630$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hasphat antabolis$00"
- INFO.NAME "你好，%PCName。你想要什么？你已经把锻莫谜题盒子给我了，你不记得了？ {锻莫族}"
+ INFO.NAME "你好，%PCName。你有什么事？你已经把锻莫谜题盒子给我了，你不记得了？ {锻莫族}"
  INFO.SCVR "34JX3A1_2_AntabolisInformant"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -322590,7 +322590,7 @@ Goodbye"
  INFO.NNAM "251019172512510915$00"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "hasphat antabolis$00"
- INFO.NAME "你想要什么？我是一名教官，如果你想要训练的话。"
+ INFO.NAME "你有什么事？我是一名教官，如果你想要训练的话。"
 -INFO
  INFO.INAM "251019172512510915$00"
  INFO.PNAM "1055819110651827134$00"
@@ -323547,7 +323547,7 @@ Goodbye"
  INFO.NNAM "2441282410748113$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ahaz$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX3A2_6_Incarnate"
@@ -323559,7 +323559,7 @@ Goodbye"
  INFO.NNAM "232637612805216219$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ashu-ahhe$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX3A2_6_Incarnate"
@@ -323571,7 +323571,7 @@ Goodbye"
  INFO.NNAM "909216515570411270$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ranabi$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX3A2_6_Incarnate"
@@ -323583,7 +323583,7 @@ Goodbye"
  INFO.NNAM "25416189171988832089$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kushishi$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX3A2_6_Incarnate"
@@ -323595,7 +323595,7 @@ Goodbye"
  INFO.NNAM "1555720098423230726$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hirarend$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX3A2_6_Incarnate"
@@ -323607,7 +323607,7 @@ Goodbye"
  INFO.NNAM "111731338051807907$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ainab$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX2A2_6_Incarnate"
@@ -323619,7 +323619,7 @@ Goodbye"
  INFO.NNAM "2061325151857824508$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "salattanat$00"
- INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你想干什么？"
+ INFO.NAME "你一个外地人，声称能实现尼瑞瓦因预言？你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "14JX3A2_6_Incarnate"
@@ -323631,7 +323631,7 @@ Goodbye"
  INFO.NNAM "2405228462313912603$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ahaz$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;"
@@ -323641,7 +323641,7 @@ Goodbye"
  INFO.NNAM "204647002549110592$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ashu-ahhe$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;"
@@ -323651,7 +323651,7 @@ Goodbye"
  INFO.NNAM "831414409585030059$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ranabi$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;"
@@ -323661,7 +323661,7 @@ Goodbye"
  INFO.NNAM "908431409122224137$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kushishi$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;"
@@ -323671,7 +323671,7 @@ Goodbye"
  INFO.NNAM "219872186410325746$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hirarend$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;"
@@ -323681,7 +323681,7 @@ Goodbye"
  INFO.NNAM "143325462886620961$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ainab$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;"
@@ -323691,7 +323691,7 @@ Goodbye"
  INFO.NNAM "3068210106464625194$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "salattanat$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Karpal, Ahaz, Ashu-Ahhe, Ranabi, Kushishi, Hirarend, Ainab, Salattanat;"
@@ -324756,7 +324756,7 @@ Goodbye"
  INFO.NNAM "151792128178328940$00"
  INFO.DATA [02 00 00 00 00 00 00 00 06 FF FF 00]
  INFO.FNAM "Fighters Guild$00"
- INFO.NAME "好吧，说吧，%PCRace。你想要什么？是来加入战士公会的？"
+ INFO.NAME "好吧，说吧，%PCRace。你有什么事？是来加入战士公会的？"
  INFO.SCVR "01460"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -325025,7 +325025,7 @@ modDisposition 10"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Ahemmusa Camp$00"
- INFO.NAME "你是谁？你想要什么？"
+ INFO.NAME "你是谁？你有什么事？"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "11630"
@@ -325351,7 +325351,7 @@ Goodbye"
  INFO.NNAM "14682489440924976$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.CNAM "Publican$00"
- INFO.NAME "我们出租床位。也有东西可供交换。你想要什么？"
+ INFO.NAME "我们出租床位。也有东西可供交换。你有什么事？"
  INFO.BNAM ";Drelasa Ramothran"
 -INFO
  INFO.INAM "14682489440924976$00"
@@ -325359,7 +325359,7 @@ Goodbye"
  INFO.NNAM "14378316512003515970$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Publican$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";publican default"
 -INFO
  INFO.INAM "14378316512003515970$00"
@@ -327012,7 +327012,7 @@ moddisposition 10"
  INFO.PNAM "1674510864197441864$00"
  INFO.NNAM "17322138931586317457$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "03sX3NoLore"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";added to prevent some bad no lore greetings."
@@ -327829,7 +327829,7 @@ moddisposition 10"
  INFO.NNAM "3216018795591117943$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Vos$00"
- INFO.NAME "沃斯附近很少有陌生人。你想要什么？"
+ INFO.NAME "沃斯附近很少有陌生人。你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -328224,7 +328224,7 @@ moddisposition 10"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ONAM "tonas telvani$00"
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "这里是泰尔-莫拉的码头，外地人。我是泰尔-莫拉的船长%Name为您服务，您的目的地是哪里？如果您是第一次来泰尔-莫拉，我可以告诉您当地的服务，或者为您指点附近的特别的地点。如果您想找某个特定的人，我也许能帮上忙。"
+ INFO.NAME "这里是泰尔-莫拉的码头，外地人。我是%Name，泰尔-莫拉的船长，正在为您服务。您的目的地是哪里？如果您是第一次来泰尔-莫拉，我可以告诉您当地的服务，或者为您指点附近的特别的地点。如果您想找某个特定的人，我也许能帮上忙。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -328400,7 +328400,7 @@ moddisposition 10"
  INFO.NNAM "238511315177562524$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "你想要什么？我不会帮你绘制地图的。"
+ INFO.NAME "你有什么事？我不会帮你绘制地图的。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -328545,7 +328545,7 @@ moddisposition 10"
  INFO.NNAM "13791202141587431247$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Tel Branora$00"
- INFO.NAME "我在听。你想要什么？有什么想去的特别的地点吗？"
+ INFO.NAME "我在听。你有什么事？有什么想去的特别的地点吗？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -328861,7 +328861,7 @@ moddisposition 10"
  INFO.NNAM "27214120903176732128$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Suran$00"
- INFO.NAME "那么，你在找某个特定的人吗？你想要什么？"
+ INFO.NAME "那么，你在找某个特定的人吗？你有什么事？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1E 00 00 00]
 -INFO
@@ -329000,7 +329000,7 @@ moddisposition 10"
  INFO.NNAM "24307151843247324430$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "你想要什么？你想找某个特定的人？"
+ INFO.NAME "你有什么事？你想找某个特定的人？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -329011,7 +329011,7 @@ moddisposition 10"
  INFO.NNAM "554880671678714663$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "好吧，我从没见过你，你想要什么？"
+ INFO.NAME "好吧，我从没见过你，你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -329336,7 +329336,7 @@ moddisposition 10"
  INFO.NNAM "863816894142589888$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "又是你？你想干嘛？你想在萨德里斯-莫拉找到什么特别的地点吗？"
+ INFO.NAME "又是你？你有什么事？你想在萨德里斯-莫拉找到什么特别的地点吗？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1E 00 00 00]
 -INFO
@@ -329559,7 +329559,7 @@ moddisposition 10"
  INFO.NNAM "2713126325714127133$00"
  INFO.DATA [02 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Molag Mar$00"
- INFO.NAME "你好，%PCName。有什么事吗？你想找某个特定的人吗？"
+ INFO.NAME "你好，%PCName。你有什么事？你想找某个特定的人吗？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1E 00 00 00]
 -INFO
@@ -329874,7 +329874,7 @@ moddisposition 10"
  INFO.NNAM "26302233873129322195$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Maar Gan$00"
- INFO.NAME " 你想要什么？在玛尔-甘找某个特定的人？"
+ INFO.NAME " 你有什么事？在玛尔-甘找某个特定的人？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -330136,7 +330136,7 @@ moddisposition 10"
  INFO.NNAM "60123931224127352$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Khuul$00"
- INFO.NAME "又是你？你还在库尔？你想要什么？你想找某个特定的人？"
+ INFO.NAME "又是你？你还在库尔？你有什么事？你想找某个特定的人？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -330254,7 +330254,7 @@ moddisposition 10"
  INFO.NNAM "2175420870186052516$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Hla Oad$00"
- INFO.NAME "我们在哈拉-奥德很少见到新面孔，这很不错。你想问什么？"
+ INFO.NAME "我们在哈拉-奥德很少见到新面孔，这很不错。你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -330343,7 +330343,7 @@ moddisposition 10"
  INFO.NNAM "141362711572537214$00"
  INFO.DATA [02 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Hla Oad$00"
- INFO.NAME "我没事，%PCName。你想要什么？你想在哈拉-奥德找一个特别的地点吗？还是想多了解苦涩海岸地区？"
+ INFO.NAME "我没事，%PCName。你有什么事？你想在哈拉-奥德找一个特别的地点吗？还是想多了解苦涩海岸地区？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -330379,7 +330379,7 @@ moddisposition 10"
  INFO.NNAM "2774432370270727592$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Hla Oad$00"
- INFO.NAME "你想要什么？服务？在哈拉-奥德？祝你好运。 {幸运}"
+ INFO.NAME "你有什么事？服务？在哈拉-奥德？祝你好运。 {幸运}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [28 00 00 00]
 -INFO
@@ -330640,7 +330640,7 @@ moddisposition 10"
  INFO.NNAM "1404858763116621332$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Gnisis$00"
- INFO.NAME "你想要什么？尼希斯的什么东西？"
+ INFO.NAME "你有什么事？尼希斯的什么东西？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -331295,7 +331295,7 @@ moddisposition 10"
  INFO.NNAM "1775930832280609307$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Dagon Fel$00"
- INFO.NAME "这里是大衮-费尔，我们不喜欢花言巧语。你想要什么？你在找服务吗？ {谈}"
+ INFO.NAME "这里是大衮-费尔，我们不喜欢花言巧语。你有什么事？你在找服务吗？ {谈}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -331306,7 +331306,7 @@ moddisposition 10"
  INFO.NNAM "3153415054242129408$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Dagon Fel$00"
- INFO.NAME "我很好，陌生人。那你想要什么？你在找某个特定的人？"
+ INFO.NAME "我很好，陌生人。那你有什么事？你在找某个特定的人？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -331656,7 +331656,7 @@ moddisposition 10"
  INFO.NNAM "1049429128280313555$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Caldera$00"
- INFO.NAME "你想要什么？卡尔德拉有很多服务项目。"
+ INFO.NAME "你有什么事？卡尔德拉有很多服务项目。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1E 00 00 00]
 -INFO
@@ -332033,7 +332033,7 @@ moddisposition 10"
  INFO.NNAM "1820726711217397883$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Balmora$00"
- INFO.NAME "你想要什么？你想在巴尔莫拉找一个特别的地点？"
+ INFO.NAME "你有什么事？你想在巴尔莫拉找一个特别的地点？"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1E 00 00 00]
 -INFO
@@ -332382,7 +332382,7 @@ moddisposition 10"
  INFO.NNAM "1044913198286442128$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Ald-ruhn$00"
- INFO.NAME "你想要什么？你想找奥德'汝因的某个特别的地点吗？"
+ INFO.NAME "你有什么事？你想找奥德'汝因的某个特别的地点吗？"
 -INFO
  INFO.INAM "1044913198286442128$00"
  INFO.PNAM "11189100532423714838$00"
@@ -332529,7 +332529,7 @@ moddisposition 10"
  INFO.NNAM "75711839980676515$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Ald Velothi$00"
- INFO.NAME "问吧。奥德-维洛提。你就在那儿。你想问什么？"
+ INFO.NAME "问吧。奥德-维洛提。你就在那儿。你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -332551,7 +332551,7 @@ moddisposition 10"
  INFO.NNAM "1571273972288228365$00"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ANAM "Ald Velothi$00"
- INFO.NAME "你在奥德-维洛提。你想要什么？"
+ INFO.NAME "你在奥德-维洛提。你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -332585,7 +332585,7 @@ moddisposition 10"
  INFO.PNAM "97954661051120155$00"
  INFO.NNAM "2714627139236543673$00"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我不认识你，你想要什么？"
+ INFO.NAME "我不认识你，你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -333051,7 +333051,7 @@ moddisposition 10"
  INFO.PNAM "866826956223529361$00"
  INFO.NNAM "185430971194412906$00"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
 -INFO
  INFO.INAM "185430971194412906$00"
  INFO.PNAM "5381221512135823609$00"
@@ -338999,7 +338999,7 @@ ModDisposition 25"
  INFO.NNAM "645431634233125478$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "Vedam Dren$00"
- INFO.NAME "是的，他是我哥哥。"
+ INFO.NAME "是的，他是我兄弟。"
 -INFO
  INFO.INAM "645431634233125478$00"
  INFO.PNAM "28608300051626117946$00"
@@ -346749,7 +346749,7 @@ Goodbye"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "Journal HT_Odirniran 50
 ModDisposition -10
-Choice ""听听他怎么说。"" 2 ""我没兴趣。"" 4"
+Choice ""听听他怎么说。"" 2 ""没兴趣。"" 4"
 -INFO
  INFO.INAM "11002209233194124149$00"
  INFO.PNAM "11507187952797017888$00"
@@ -349792,7 +349792,7 @@ Goodbye"
  INFO.NNAM "295288997707431674$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edras oril$00"
- INFO.NAME "你会除掉它们？好极了，虽然它们是如此神奇的野兽，相当有趣。"
+ INFO.NAME "你会除掉它们？好极了！虽然它们是如此神奇的野兽，相当有趣。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.BNAM "Journal ""MV_StrayedPilgrim"" 25
@@ -351106,7 +351106,7 @@ Goodbye"
  INFO.NNAM "1750676562642721708$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为规定，成为了黑暗魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的术士和战士。她的黑暗力量的表现形式被称为“幽灵之蛇”，它可以麻痹和消耗受害者的生命力。"
+ INFO.NAME "玛布瑞伽什是灰烬之民的巫师战士，是一个叛逆的女智者，她抛弃了灰烬之民女民的既定行为规定，成为了黑暗魔法和战争武器的大师。通过秘密仪式，玛布瑞伽什窃取了男人的生命精华，使自己成为一名强大的术士和战士。她的黑暗力量的表现形式被称为“幽灵之蛇”，可以麻痹和消耗受害者的生命力。"
  INFO.BNAM ";scout ; savant; bard; bookseller;"
 -INFO
  INFO.INAM "1750676562642721708$00"
@@ -352705,7 +352705,7 @@ Set ""Ciralinde"".slaveStatus to 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Merchant$00"
- INFO.NAME "这是不可避免的，当地的犯罪组织卡莫纳堂，不会坐视盗贼公会在他们的地盘开店的，这会很血腥，盗贼公会根本没有机会。"
+ INFO.NAME "这是不可避免的，当地的犯罪组织卡莫纳堂，不会坐视盗贼公会在他们的地盘开店的。这会很血腥，盗贼公会根本没有机会。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -DIAL
@@ -359692,7 +359692,7 @@ Set ""Menelras"".slaveStatus to 2"
  INFO.NNAM "536523139115938165$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "savile imayn$00"
- INFO.NAME "等你改变主意了再回来看看吧。"
+ INFO.NAME "等你改变主意了再回来吧。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
 -INFO
@@ -364913,7 +364913,7 @@ Journal MV_abusedhealer 40"
  INFO.NNAM "23967208972677224599$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tongue_toad$00"
- INFO.NAME "你 在 做 什 么 ？！"
+ INFO.NAME "你在干什么？！"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Goodbye"
@@ -365073,7 +365073,7 @@ ModDisposition 10"
  INFO.NNAM "68021249100582380$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edryno arethi$00"
- INFO.NAME "你被驱逐了，除非你做出补偿，否则我不能和你讨论生意有关的事。"
+ INFO.NAME "你被驱逐了。除非你做出补偿，否则我不能和你讨论生意有关的事。"
  INFO.SCVR "01390"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -375522,7 +375522,7 @@ Goodbye"
  INFO.NAME "如果你骗我，我会用剑杀了你；如果你告诉我真相，我会用咒语杀死你。"
  INFO.SCVR "34JX3TT_MountKand"
  INFO.INTV [19 00 00 00]
- INFO.BNAM "Choice ""你会用剑杀了我。"" 1 ""你会用咒语杀了我。"" 2 ""别杀了我！"" 2"
+ INFO.BNAM "Choice ""你会用剑杀了我。"" 1 ""你会用咒语杀了我。"" 2 ""别杀我！"" 2"
 -INFO
  INFO.INAM "1527592161796923660$00"
  INFO.PNAM "228982003130633988$00"
@@ -379471,7 +379471,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.ONAM "duldrar saren$00"
  INFO.SNAM "vo\d\m\Hlo_DM085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing
@@ -379483,7 +379483,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.ONAM "duldrar saren$00"
  INFO.SNAM "vo\d\m\Hlo_DM085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing"
 -INFO
  INFO.INAM "48066753191184303$00"
@@ -379493,7 +379493,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Ministry of Truth, Hall of Processing$00"
  INFO.SNAM "vo\d\f\Hlo_DF085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing; DE female
@@ -379534,7 +379534,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Ministry of Truth, Hall of Processing$00"
  INFO.SNAM "vo\d\f\Hlo_DF085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing; DE female"
 -INFO
  INFO.INAM "247923152300814562$00"
@@ -379544,7 +379544,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Ministry of Truth, Hall of Processing$00"
  INFO.SNAM "vo\d\m\Hlo_DM085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing; DE male
@@ -379557,7 +379557,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Ministry of Truth, Hall of Processing$00"
  INFO.SNAM "vo\d\m\Hlo_DM085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing; DE male"
 -INFO
  INFO.INAM "17355322262853721730$00"
@@ -379566,7 +379566,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.ANAM "Ald Daedroth$00"
  INFO.SNAM "vo\d\f\Hlo_DF085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "17XX0brelda quintella"
@@ -379581,7 +379581,7 @@ ForceGreeting"
  INFO.CNAM "Ordinator$00"
  INFO.ANAM "Ald Daedroth$00"
  INFO.SNAM "vo\d\f\Hlo_DF085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "17XX0brelda quintella"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing; DE female"
@@ -379593,7 +379593,7 @@ ForceGreeting"
  INFO.CNAM "Ordinator$00"
  INFO.ANAM "Ald Daedroth$00"
  INFO.SNAM "vo\d\m\Hlo_DM085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing; DE male
@@ -379606,7 +379606,7 @@ ForceGreeting"
  INFO.CNAM "Ordinator$00"
  INFO.ANAM "Ald Daedroth$00"
  INFO.SNAM "vo\d\m\Hlo_DM085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";LEAVE THIS AT TOP; all individual NPC voices at top for easy editing; DE male"
 -INFO
  INFO.INAM "1246294513112414596$00"
@@ -379925,7 +379925,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 50 00 00 00 FF 00 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "vo\a\m\Hlo_AM114.mp3$00"
- INFO.NAME "请说吧，说吧。"
+ INFO.NAME "请继续，说吧。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -380196,7 +380196,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 3C 00 00 00 FF 00 FF 00]
  INFO.RNAM "Argonian$00"
  INFO.SNAM "vo\a\m\Hlo_AM089.mp3$00"
- INFO.NAME "什么事？你想要什么？"
+ INFO.NAME "什么事？你想干什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Random100>=80"
@@ -381632,7 +381632,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF098.mp3$00"
- INFO.NAME "您好，丹莫。我能为你做什么？"
+ INFO.NAME "你好，丹莫。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -381643,7 +381643,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF097.mp3$00"
- INFO.NAME "您好，傲特莫。我能为你做什么？"
+ INFO.NAME "你好，傲特莫。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -381654,7 +381654,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF096.mp3$00"
- INFO.NAME "您好，西罗帝尔人。我能为你做什么？"
+ INFO.NAME "你好，西罗帝尔人。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -381665,7 +381665,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF095.mp3$00"
- INFO.NAME "您好，卡吉特。我能为你做什么？"
+ INFO.NAME "你好，卡吉特。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -381676,7 +381676,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF094.mp3$00"
- INFO.NAME "您好，诺德人。我能为你做什么？"
+ INFO.NAME "你好，诺德人。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -381687,7 +381687,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF093.mp3$00"
- INFO.NAME "您好，兽人。我能为你做什么？"
+ INFO.NAME "你好，兽人。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -381698,7 +381698,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF092.mp3$00"
- INFO.NAME "你好。"
+ INFO.NAME "您好。"
  INFO.SCVR "01460"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";SameFaction=0"
@@ -381802,7 +381802,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF082.mp3$00"
- INFO.NAME "谈话是免费的，你想要什么？"
+ INFO.NAME "谈话是免费的，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -382057,7 +382057,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 28 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF058.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "那你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -382413,7 +382413,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 0A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF023.mp3$00"
- INFO.NAME "问别人吧。我很忙。"
+ INFO.NAME "问别人吧，我很忙。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Random100>=80"
@@ -383327,7 +383327,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\f\Hlo_KF084.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Random100>=80"
@@ -384884,7 +384884,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\m\Hlo_KM084.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Random100>=80"
@@ -385991,7 +385991,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\f\Hlo_IF172a.mp3$00"
- INFO.NAME "欢迎你，阿尔贡，让我们搁置分歧，谈谈好吗？"
+ INFO.NAME "欢迎，阿尔贡，让我们搁置分歧，谈谈好吗？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[argonian];"
@@ -386002,7 +386002,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF171.mp3$00"
- INFO.NAME "欢迎你，波斯莫。很高兴和你交谈。"
+ INFO.NAME "欢迎，波斯莫，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -386013,7 +386013,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF170.mp3$00"
- INFO.NAME "欢迎你，布莱顿人，让我们冰释前嫌，谈谈好吗？"
+ INFO.NAME "欢迎，布莱顿人，让我们搁置分歧，谈谈好吗？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -386024,7 +386024,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF169.mp3$00"
- INFO.NAME "欢迎你，丹莫，让我们冰释前嫌，谈谈好吗？"
+ INFO.NAME "欢迎，丹莫，让我们搁置分歧，谈谈好吗？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -386035,7 +386035,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF168.mp3$00"
- INFO.NAME "欢迎你，傲特莫！让我们搁置分歧，谈谈好吗？"
+ INFO.NAME "欢迎，傲特莫！让我们搁置分歧，谈谈好吗？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -386046,7 +386046,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF167.mp3$00"
- INFO.NAME "欢迎您，卡吉特，很高兴和你交谈。"
+ INFO.NAME "欢迎，卡吉特，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -386057,7 +386057,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF166.mp3$00"
- INFO.NAME "欢迎您，诺德人，很高兴和你交谈。"
+ INFO.NAME "欢迎，诺德人，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -386068,7 +386068,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF165.mp3$00"
- INFO.NAME "欢迎你，兽人，很高兴和你交谈。"
+ INFO.NAME "欢迎，兽人，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -386079,7 +386079,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF164.mp3$00"
- INFO.NAME "欢迎你，红卫人，很高兴和你交谈。"
+ INFO.NAME "欢迎，红卫人，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -386153,7 +386153,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 50 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\f\Hlo_IF151.mp3$00"
- INFO.NAME "你好，你好吗？"
+ INFO.NAME "喂！你好吗？"
 -INFO
  INFO.INAM "2595770621445714145$00"
  INFO.PNAM "3126826091133031655$00"
@@ -386172,7 +386172,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF131.mp3$00"
- INFO.NAME "你好，很高兴见到你。"
+ INFO.NAME "嗯，你好，很高兴见到你。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -386315,7 +386315,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF142.mp3$00"
- INFO.NAME "你好，阿尔贡，我该如何帮助你？"
+ INFO.NAME "你好，阿尔贡，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[argonian]"
@@ -386326,7 +386326,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF141.mp3$00"
- INFO.NAME "你好，波斯莫，我该如何帮助你？"
+ INFO.NAME "你好，波斯莫，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -386337,7 +386337,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF140.mp3$00"
- INFO.NAME "你好，布莱顿人，我该如何帮助你？"
+ INFO.NAME "你好，布莱顿人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -386348,7 +386348,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF139.mp3$00"
- INFO.NAME "你好，丹莫，我该如何帮助你？"
+ INFO.NAME "你好，丹莫，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -386359,7 +386359,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF138.mp3$00"
- INFO.NAME "你好，傲特莫，我该如何帮助你？"
+ INFO.NAME "你好，傲特莫，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -386370,7 +386370,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF137.mp3$00"
- INFO.NAME "你好，卡吉特，我该如何帮助你？"
+ INFO.NAME "你好，卡吉特，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -386381,7 +386381,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF136.mp3$00"
- INFO.NAME "你好，诺德人，我该如何帮助你？"
+ INFO.NAME "你好，诺德人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -386392,7 +386392,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF135.mp3$00"
- INFO.NAME "你好，兽人，我该如何帮助你？"
+ INFO.NAME "你好，兽人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -386403,7 +386403,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF134.mp3$00"
- INFO.NAME "你好，红卫人，我该如何帮助你？"
+ INFO.NAME "你好，红卫人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -386894,7 +386894,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF097.mp3$00"
- INFO.NAME "什么事，布莱顿？"
+ INFO.NAME "什么事，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -387201,7 +387201,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF052.mp3$00"
- INFO.NAME "你在开玩笑吧。大家都知道你只会惹麻烦。"
+ INFO.NAME "你在开玩笑吧，大家都知道你只会惹麻烦。"
  INFO.SCVR "01433"
  INFO.INTV [E8 03 00 00]
  INFO.BNAM ";PCCrimeLevel>=1000"
@@ -387267,7 +387267,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF048.mp3$00"
- INFO.NAME "哦，我真想听听你怎么说，阿尔贡。"
+ INFO.NAME "哦，我真想听听你要说什么，阿尔贡。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[argonian]"
@@ -387278,7 +387278,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF047.mp3$00"
- INFO.NAME "哦，我真想听听你怎么说，波斯莫。"
+ INFO.NAME "哦，我真想听听你要说什么，波斯莫。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -387300,7 +387300,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF045.mp3$00"
- INFO.NAME "哦，我真想听听你怎么说，丹莫。"
+ INFO.NAME "哦，我真想听听你要说什么，丹莫。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -387355,7 +387355,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\f\Hlo_IF040.mp3$00"
- INFO.NAME "哦，我真想听听你怎么说，红卫人。"
+ INFO.NAME "哦，我真想听听你要说什么，红卫人。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -388215,7 +388215,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM098.mp3$00"
- INFO.NAME "您好，丹莫。我能为你做什么？"
+ INFO.NAME "你好，丹莫。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -388226,7 +388226,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM097.mp3$00"
- INFO.NAME "您好，傲特莫。我能为你做什么？"
+ INFO.NAME "你好，傲特莫。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -388237,7 +388237,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM096.mp3$00"
- INFO.NAME "您好，西罗帝尔人。我能为你做什么？"
+ INFO.NAME "你好，西罗帝尔人。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -388248,7 +388248,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM095.mp3$00"
- INFO.NAME "您好，卡吉特。我能为你做什么？"
+ INFO.NAME "你好，卡吉特。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -388259,7 +388259,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM094.mp3$00"
- INFO.NAME "您好，诺德人。我能为你做什么？"
+ INFO.NAME "你好，诺德人。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -388270,7 +388270,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM093.mp3$00"
- INFO.NAME "您好，兽人。我能为你做什么？"
+ INFO.NAME "你好，兽人。我能为你做什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -388385,7 +388385,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM082.mp3$00"
- INFO.NAME "谈话是免费的，你想要什么？"
+ INFO.NAME "谈话是免费的，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -388642,7 +388642,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 28 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM058.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "那你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -389346,7 +389346,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM134.mp3$00"
- INFO.NAME "我很荣幸，真的。我该如何帮助你？"
+ INFO.NAME "我很荣幸，真的。我能帮你点什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -389681,7 +389681,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM101.mp3$00"
- INFO.NAME "我该如何帮助你，阿尔贡？"
+ INFO.NAME "我能帮你点什么，阿尔贡？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -389692,7 +389692,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM100.mp3$00"
- INFO.NAME "我该如何帮助你，波斯莫？"
+ INFO.NAME "我能帮你点什么，波斯莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -389703,7 +389703,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM099.mp3$00"
- INFO.NAME "我该如何帮助你，布莱顿人？"
+ INFO.NAME "我能帮你点什么，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -389714,7 +389714,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM098.mp3$00"
- INFO.NAME "我该如何帮助你，丹莫？"
+ INFO.NAME "我能帮你点什么，丹莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -389725,7 +389725,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM097.mp3$00"
- INFO.NAME "我该如何帮助你，傲特莫？"
+ INFO.NAME "我能帮你点什么，傲特莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -389736,7 +389736,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM096.mp3$00"
- INFO.NAME "我该如何帮助你，西罗帝尔人？"
+ INFO.NAME "我能帮你点什么，西罗帝尔人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -389747,7 +389747,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM095.mp3$00"
- INFO.NAME "我该如何帮助你，卡吉特？"
+ INFO.NAME "我能帮你点什么，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -389758,7 +389758,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM094.mp3$00"
- INFO.NAME "我该如何帮助你，诺德人？"
+ INFO.NAME "我能帮你点什么，诺德人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -389769,7 +389769,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM093.mp3$00"
- INFO.NAME "我该如何帮助你，红卫人？"
+ INFO.NAME "我能帮你点什么，红卫人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -389832,7 +389832,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 3C 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM087.mp3$00"
- INFO.NAME "你是个说到做到的人，你想要什么？"
+ INFO.NAME "你是个说到做到的人，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -390015,7 +390015,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM070.mp3$00"
- INFO.NAME "布莱顿？"
+ INFO.NAME "布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -390174,7 +390174,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM055.mp3$00"
- INFO.NAME "你 在 做 什 么？"
+ INFO.NAME "你在干什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -390218,7 +390218,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM050.mp3$00"
- INFO.NAME "想死找别人去。"
+ INFO.NAME "啊，想死找别人去。"
  INFO.SCVR "01075"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCHealthPercent<=10"
@@ -390586,7 +390586,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 0A 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM013.mp3$00"
- INFO.NAME "想死找别人去。"
+ INFO.NAME "啊，想死找别人去。"
  INFO.SCVR "01075"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCHealthPercent<=10"
@@ -390829,7 +390829,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF134.mp3$00"
- INFO.NAME "我很荣幸，真的。我该如何帮助你？"
+ INFO.NAME "我很荣幸，真的。我能帮你点什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -391164,7 +391164,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF101.mp3$00"
- INFO.NAME "我该如何帮助你，阿尔贡？"
+ INFO.NAME "我能帮你点什么，阿尔贡？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -391175,7 +391175,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF100.mp3$00"
- INFO.NAME "我该如何帮助你，波斯莫？"
+ INFO.NAME "我能帮你点什么，波斯莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -391186,7 +391186,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF099.mp3$00"
- INFO.NAME "我该如何帮助你，布莱顿人？"
+ INFO.NAME "我能帮你点什么，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -391197,7 +391197,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF098.mp3$00"
- INFO.NAME "我该如何帮助你，丹莫？"
+ INFO.NAME "我能帮你点什么，丹莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -391208,7 +391208,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF097.mp3$00"
- INFO.NAME "我该如何帮助你，傲特莫？"
+ INFO.NAME "我能帮你点什么，傲特莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -391219,7 +391219,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF096.mp3$00"
- INFO.NAME "我该如何帮助你，西罗帝尔人？"
+ INFO.NAME "我能帮你点什么，西罗帝尔人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -391230,7 +391230,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF095.mp3$00"
- INFO.NAME "我该如何帮助你，卡吉特？"
+ INFO.NAME "我能帮你点什么，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -391241,7 +391241,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF094.mp3$00"
- INFO.NAME "我该如何帮助你，诺德人？"
+ INFO.NAME "我能帮你点什么，诺德人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -391252,7 +391252,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF093.mp3$00"
- INFO.NAME "我该如何帮助你，红卫人？"
+ INFO.NAME "我能帮你点什么，红卫人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -391315,7 +391315,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 3C 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF087.mp3$00"
- INFO.NAME "你是个说到做到的人，你想要什么？"
+ INFO.NAME "你是个说到做到的人，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -391487,7 +391487,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF071.mp3$00"
- INFO.NAME "布莱顿？"
+ INFO.NAME "布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -391657,7 +391657,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF055.mp3$00"
- INFO.NAME "你 在 做 什 么？"
+ INFO.NAME "你在干什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -391712,7 +391712,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\f\Hlo_OF050.mp3$00"
- INFO.NAME "想死找别人去。"
+ INFO.NAME "啊，想死找别人去。"
  INFO.SCVR "01075"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCHealthPercent<=10"
@@ -392368,7 +392368,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 01 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\Hlo_NF134.mp3$00"
- INFO.NAME "这是个好人，说吧。"
+ INFO.NAME "嗯，这是个好人！说吧。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -393365,7 +393365,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\Hlo_NF039.mp3$00"
- INFO.NAME "这位阿尔贡有什么事吗？"
+ INFO.NAME "有事吗，阿尔贡？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -393376,7 +393376,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\Hlo_NF038.mp3$00"
- INFO.NAME "这是怎么回事，波斯莫？"
+ INFO.NAME "有事吗，波斯莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -393387,7 +393387,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\Hlo_NF037.mp3$00"
- INFO.NAME "这位布莱顿人有什么事吗？"
+ INFO.NAME "有事吗，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -393431,7 +393431,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\f\Hlo_NF033.mp3$00"
- INFO.NAME "卡吉特，这是怎么回事？"
+ INFO.NAME "有事吗，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -393890,7 +393890,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 00 FF 00]
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\Hlo_NM135.mp3$00"
- INFO.NAME "欢迎你，朋友。欢迎！"
+ INFO.NAME "欢迎您，朋友。欢迎！"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Random100>=40"
@@ -395672,7 +395672,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM169.mp3$00"
- INFO.NAME "欢迎，波斯莫，很高兴与你交谈。"
+ INFO.NAME "欢迎，波斯莫，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
 -INFO
@@ -395716,7 +395716,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM165.mp3$00"
- INFO.NAME "欢迎，诺德人，很高兴与你交谈。"
+ INFO.NAME "欢迎，诺德人，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
 -INFO
@@ -395727,7 +395727,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM164.mp3$00"
- INFO.NAME "欢迎，兽人，很高兴与你交谈。"
+ INFO.NAME "欢迎，兽人，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
 -INFO
@@ -395738,7 +395738,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM163.mp3$00"
- INFO.NAME "欢迎，红卫人，很高兴与你交谈。"
+ INFO.NAME "欢迎，红卫人，很高兴和你交谈。"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
 -INFO
@@ -395748,7 +395748,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\m\Hlo_IM172.mp3$00"
- INFO.NAME "这是我的荣幸。我能为你做点什么？"
+ INFO.NAME "这是我的荣幸，我能为你做点什么？"
  INFO.SCVR "01450"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -395768,7 +395768,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 50 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\m\Hlo_IM148.mp3$00"
- INFO.NAME "看来我有贵人相助。我能为你做点什么？"
+ INFO.NAME "看来我有贵人相助，我能为你做点什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -395798,7 +395798,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 50 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\m\Hlo_IM151.mp3$00"
- INFO.NAME "你好！你好吗？"
+ INFO.NAME "喂！你好吗？"
 -INFO
  INFO.INAM "23631842969156635$00"
  INFO.PNAM "1485731119390129230$00"
@@ -395913,7 +395913,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM139.mp3$00"
- INFO.NAME "你好，布莱顿人。我能帮你点什么？"
+ INFO.NAME "你好，布莱顿人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
 -INFO
@@ -395924,7 +395924,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM138.mp3$00"
- INFO.NAME "您好，丹莫。我能帮你点什么？"
+ INFO.NAME "你好，丹莫，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
 -INFO
@@ -395935,7 +395935,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM137.mp3$00"
- INFO.NAME "您好，傲特莫。我能帮你点什么？"
+ INFO.NAME "你好，傲特莫，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
 -INFO
@@ -395946,7 +395946,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM136.mp3$00"
- INFO.NAME "您好，诺德人。我能帮你点什么？"
+ INFO.NAME "你好，诺德人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
 -INFO
@@ -395957,7 +395957,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM135.mp3$00"
- INFO.NAME "您好，兽人。我能帮你点什么？"
+ INFO.NAME "你好，兽人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
 -INFO
@@ -395968,7 +395968,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM134.mp3$00"
- INFO.NAME "您好，红卫人。我能帮你点什么？"
+ INFO.NAME "你好，红卫人，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
 -INFO
@@ -395986,7 +395986,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "Vo\i\m\Hlo_IM138.mp3$00"
- INFO.NAME "您好，丹莫。我能帮你点什么？"
+ INFO.NAME "你好，丹莫，我能帮你点什么？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
 -INFO
@@ -396275,7 +396275,7 @@ ForceGreeting"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "FFFF$00"
  INFO.SNAM "Vo\i\m\Hlo_IM097.mp3$00"
- INFO.NAME "什么事，布莱顿？"
+ INFO.NAME "什么事，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
 -INFO
@@ -397842,7 +397842,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM072.mp3$00"
- INFO.NAME "什么事，阿尔贡？你想要什么？"
+ INFO.NAME "怎么了，阿尔贡？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -397853,7 +397853,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM071.mp3$00"
- INFO.NAME "什么事，波斯莫？你想要什么？"
+ INFO.NAME "怎么了，波斯莫？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -397864,7 +397864,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM070.mp3$00"
- INFO.NAME "什么事，布莱顿人？你想要什么？"
+ INFO.NAME "怎么了，布莱顿人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -397875,7 +397875,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM069.mp3$00"
- INFO.NAME "什么事，丹莫？你想要什么？"
+ INFO.NAME "怎么了，丹莫？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -397886,7 +397886,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM068.mp3$00"
- INFO.NAME "什么事，西罗帝尔人？你想要什么？"
+ INFO.NAME "怎么了，西罗帝尔人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -397897,7 +397897,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM067.mp3$00"
- INFO.NAME "什么事，卡吉特？你想要什么？"
+ INFO.NAME "怎么了，卡吉特？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -397908,7 +397908,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM066.mp3$00"
- INFO.NAME "什么事，诺德人？你想要什么？"
+ INFO.NAME "怎么了，诺德人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -397919,7 +397919,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM065.mp3$00"
- INFO.NAME "什么事，兽人？你想要什么？"
+ INFO.NAME "怎么了，兽人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -397930,7 +397930,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\m\Hlo_HM064.mp3$00"
- INFO.NAME "什么事，红卫人？你想要什么？"
+ INFO.NAME "怎么了，红卫人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -399429,7 +399429,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF072.mp3$00"
- INFO.NAME "什么事，阿尔贡？你有什么事？"
+ INFO.NAME "怎么了，阿尔贡？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -399440,7 +399440,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF071.mp3$00"
- INFO.NAME "波斯莫？你想要什么？"
+ INFO.NAME "怎么了，波斯莫？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -399451,7 +399451,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF070.mp3$00"
- INFO.NAME "什么事，布莱顿人？你想要什么？"
+ INFO.NAME "怎么了，布莱顿人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -399462,7 +399462,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF069.mp3$00"
- INFO.NAME "丹莫？你想要什么？"
+ INFO.NAME "怎么了，丹莫？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -399473,7 +399473,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF068.mp3$00"
- INFO.NAME "是的，西罗帝尔人？你想要什么？"
+ INFO.NAME "怎么了，西罗帝尔人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -399484,7 +399484,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF067.mp3$00"
- INFO.NAME "什么事，卡吉特？你想要什么？"
+ INFO.NAME "怎么了，卡吉特？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -399495,7 +399495,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF066.mp3$00"
- INFO.NAME "诺德人？你想要什么？"
+ INFO.NAME "怎么了，诺德人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -399506,7 +399506,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF065.mp3$00"
- INFO.NAME "什么事，兽人？你想要什么？"
+ INFO.NAME "怎么了，兽人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -399517,7 +399517,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF064.mp3$00"
- INFO.NAME "是的，红卫人？你想要什么？"
+ INFO.NAME "怎么了，红卫人？你有什么事？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -399805,7 +399805,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF038.mp3$00"
- INFO.NAME "为什么打扰我，阿尔贡？"
+ INFO.NAME "你为何打扰我，阿尔贡？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -399816,7 +399816,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "High Elf$00"
  INFO.SNAM "vo\h\f\Hlo_HF037.mp3$00"
- INFO.NAME "你为什么打扰我，布莱顿人？"
+ INFO.NAME "你为何打扰我，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -400914,7 +400914,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Redoran$00"
  INFO.SNAM "vo\d\f\Hlo_DF178.mp3$00"
- INFO.NAME "我想我们可以谈谈，你想要什么？"
+ INFO.NAME "我想我们可以谈谈，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -401267,7 +401267,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 3C 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Hlo_DF146.mp3$00"
- INFO.NAME "是的，外地人，你想要什么？"
+ INFO.NAME "是的，外地人，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -401444,7 +401444,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Redoran$00"
  INFO.SNAM "vo\d\f\Hlo_DF129.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -401538,7 +401538,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Hlo_DF125.mp3$00"
- INFO.NAME "外地人？你想要什么？"
+ INFO.NAME "外地人？你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -401892,7 +401892,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Ashlanders$00"
  INFO.SNAM "vo\d\f\Hlo_DF085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Random100>=40"
@@ -402466,7 +402466,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 14 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Hlo_DF041.mp3$00"
- INFO.NAME "得了吧，别烦我。"
+ INFO.NAME "哦，得了吧，别烦我。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -402477,7 +402477,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 14 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Hlo_DF040.mp3$00"
- INFO.NAME "我已经知道我不会喜欢这样了。"
+ INFO.NAME "说实话我不喜欢这样。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Random100>=40"
@@ -403055,7 +403055,7 @@ ForceGreeting"
  INFO.CNAM "Guard$00"
  INFO.FNAM "Temple$00"
  INFO.SNAM "Vo\ord\Hlo_ORM017.mp3$00"
- INFO.NAME "有什么能为您效劳的？"
+ INFO.NAME "我能帮你点什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
 -INFO
@@ -404006,7 +404006,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Redoran$00"
  INFO.SNAM "vo\d\m\Hlo_DM178.mp3$00"
- INFO.NAME "我想我们可以谈谈，你想要什么？"
+ INFO.NAME "我想我们可以谈谈，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -404320,7 +404320,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 3C 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Hlo_DM146.mp3$00"
- INFO.NAME "是的，外地人，你想要什么？"
+ INFO.NAME "是的，外地人，你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -404635,7 +404635,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Redoran$00"
  INFO.SNAM "vo\d\m\Hlo_DM129.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -404683,7 +404683,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Ashlanders$00"
  INFO.SNAM "vo\d\m\Hlo_DM125.mp3$00"
- INFO.NAME "外地人？你想要什么？"
+ INFO.NAME "外地人？你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -405159,7 +405159,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 28 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Hlo_DM085.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Random100>=40"
@@ -405665,7 +405665,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Ashlanders$00"
  INFO.SNAM "vo\d\m\Hlo_DM039.mp3$00"
- INFO.NAME "为什么你们这些外地人，以为可以随便找人麻烦？"
+ INFO.NAME "为什么你们这些外地人以为可以随便找人麻烦？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -406709,7 +406709,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF101.mp3$00"
- INFO.NAME "我该如何帮助你，波斯莫？"
+ INFO.NAME "我能帮你点什么，波斯莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -406720,7 +406720,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF100.mp3$00"
- INFO.NAME "我该如何帮助你，布莱顿人？"
+ INFO.NAME "我能帮你点什么，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -406731,7 +406731,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "Vo\b\f\Hlo_BF099.mp3$00"
- INFO.NAME "我该如何帮助你，丹莫？"
+ INFO.NAME "我能帮你点什么，丹莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -406742,7 +406742,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF098.mp3$00"
- INFO.NAME "我该如何帮助你，傲特莫？"
+ INFO.NAME "我能帮你点什么，傲特莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -406753,7 +406753,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "Vo\b\f\Hlo_BF097.mp3$00"
- INFO.NAME "我该如何帮助你，西罗帝尔人？"
+ INFO.NAME "我能帮你点什么，西罗帝尔人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -406764,7 +406764,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF096.mp3$00"
- INFO.NAME "我该如何帮助你，卡吉特？"
+ INFO.NAME "我能帮你点什么，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -406775,7 +406775,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF095.mp3$00"
- INFO.NAME "我该如何帮助你，诺德人？"
+ INFO.NAME "我能帮你点什么，诺德人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -406786,7 +406786,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF094.mp3$00"
- INFO.NAME "我该如何帮助你，兽人？"
+ INFO.NAME "我能帮你点什么，兽人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -406797,7 +406797,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF093.mp3$00"
- INFO.NAME "我该如何帮助你，红卫人？"
+ INFO.NAME "我能帮你点什么，红卫人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -407172,7 +407172,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 28 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Hlo_BF058.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "那你有什么事？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -408083,7 +408083,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 5A 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM117.mp3$00"
- INFO.NAME "你好。"
+ INFO.NAME "嗯，你好。"
 -INFO
  INFO.INAM "14886937792495035$00"
  INFO.PNAM "182912255130828278$00"
@@ -408253,7 +408253,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM101.mp3$00"
- INFO.NAME "有什么可以帮你的，波斯莫？"
+ INFO.NAME "我能帮你点什么，波斯莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM ";PCRace=10[WoodElf]"
@@ -408264,7 +408264,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM100.mp3$00"
- INFO.NAME "有什么可以帮你的，布莱顿人？"
+ INFO.NAME "我能帮你点什么，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -408275,7 +408275,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM099.mp3$00"
- INFO.NAME "有什么可以帮你的，丹莫？"
+ INFO.NAME "我能帮你点什么，丹莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -408286,7 +408286,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM098.mp3$00"
- INFO.NAME "有什么可以帮你的，傲特莫？"
+ INFO.NAME "我能帮你点什么，傲特莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -408297,7 +408297,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM097.mp3$00"
- INFO.NAME "有什么可以帮你的，西罗帝尔人？"
+ INFO.NAME "我能帮你点什么，西罗帝尔人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -408308,7 +408308,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM096.mp3$00"
- INFO.NAME "有什么可以帮你的，卡吉特？"
+ INFO.NAME "我能帮你点什么，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -408319,7 +408319,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM095.mp3$00"
- INFO.NAME "有什么可以帮你的，诺德人？"
+ INFO.NAME "我能帮你点什么，诺德人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -408330,7 +408330,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM094.mp3$00"
- INFO.NAME "要我怎么帮你，兽人？"
+ INFO.NAME "我能帮你点什么，兽人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -408341,7 +408341,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM093.mp3$00"
- INFO.NAME "有什么可以帮你的，红卫人？"
+ INFO.NAME "我能帮你点什么，红卫人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -408777,7 +408777,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 28 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hlo_BM057.mp3$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
 -INFO
  INFO.INAM "133012433263829230$00"
  INFO.PNAM "29732144792940731171$00"
@@ -410024,7 +410024,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 3C 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM087.mp3$00"
- INFO.NAME "有什么可以效劳的？"
+ INFO.NAME "我能帮你点什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -410180,7 +410180,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM072.mp3$00"
- INFO.NAME "有什么事吗，阿尔贡？"
+ INFO.NAME "有事吗，阿尔贡？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -410191,7 +410191,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM071.mp3$00"
- INFO.NAME "有什么事吗，布莱顿人？"
+ INFO.NAME "有事吗，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -410202,7 +410202,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM070.mp3$00"
- INFO.NAME "有什么事吗，丹莫？"
+ INFO.NAME "有事吗，丹莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -410213,7 +410213,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM069.mp3$00"
- INFO.NAME "有什么事吗，傲特莫？"
+ INFO.NAME "有事吗，傲特莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -410224,7 +410224,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM068.mp3$00"
- INFO.NAME "有什么事吗，西罗帝尔人？"
+ INFO.NAME "有事吗，西罗帝尔人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -410235,7 +410235,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM067.mp3$00"
- INFO.NAME "有什么事吗，卡吉特？"
+ INFO.NAME "有事吗，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -410246,7 +410246,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM066.mp3$00"
- INFO.NAME "有什么事吗，诺德人？"
+ INFO.NAME "有事吗，诺德人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -410257,7 +410257,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM065.mp3$00"
- INFO.NAME "有什么事吗，兽人？"
+ INFO.NAME "有事吗，兽人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -410268,7 +410268,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM064.mp3$00"
- INFO.NAME "有什么事吗，红卫人？"
+ INFO.NAME "有事吗，红卫人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -411536,7 +411536,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 3C 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF087.mp3$00"
- INFO.NAME "有什么可以效劳的？"
+ INFO.NAME "我能帮你点什么？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -411676,7 +411676,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF072.mp3$00"
- INFO.NAME "有什么事吗，阿尔贡？"
+ INFO.NAME "有事吗，阿尔贡？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";PCRace=1[Argonian]"
@@ -411687,7 +411687,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF071.mp3$00"
- INFO.NAME "有什么事吗，布莱顿人？"
+ INFO.NAME "有事吗，布莱顿人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";PCRace=2;[breton]"
@@ -411698,7 +411698,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF070.mp3$00"
- INFO.NAME "有什么事吗，丹莫？"
+ INFO.NAME "有事吗，丹莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";PCRace=3[darkelf]"
@@ -411709,7 +411709,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF069.mp3$00"
- INFO.NAME "有什么事吗，傲特莫？"
+ INFO.NAME "有事吗，傲特莫？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [04 00 00 00]
  INFO.BNAM ";PCRace=4[highelf]"
@@ -411720,7 +411720,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF068.mp3$00"
- INFO.NAME "有什么事吗，西罗帝尔人？"
+ INFO.NAME "有事吗，西罗帝尔人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [05 00 00 00]
  INFO.BNAM ";PCRace=5[Imperial]"
@@ -411731,7 +411731,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF067.mp3$00"
- INFO.NAME "有什么事吗，卡吉特？"
+ INFO.NAME "有事吗，卡吉特？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [06 00 00 00]
  INFO.BNAM ";PCRace=6[Khajiit]"
@@ -411742,7 +411742,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF066.mp3$00"
- INFO.NAME "有什么事吗，诺德人？"
+ INFO.NAME "有事吗，诺德人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [07 00 00 00]
  INFO.BNAM ";PCRace=7[Nord]"
@@ -411753,7 +411753,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF065.mp3$00"
- INFO.NAME "有什么事吗，兽人？"
+ INFO.NAME "有事吗，兽人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [08 00 00 00]
  INFO.BNAM ";PCRace=8[Orc]"
@@ -411764,7 +411764,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF064.mp3$00"
- INFO.NAME "有什么事吗，红卫人？"
+ INFO.NAME "有事吗，红卫人？"
  INFO.SCVR "02sX0PCRace"
  INFO.INTV [09 00 00 00]
  INFO.BNAM ";PCRace=9[Redguard]"
@@ -414942,7 +414942,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Thf_DM005.mp3$00"
- INFO.NAME "救命啊，卫兵！"
+ INFO.NAME "救命，卫兵！"
  INFO.BNAM ";Random100>=80"
 -INFO
  INFO.INAM "9452159451755120838$00"
@@ -415116,7 +415116,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Thf_WF002.mp3$00"
- INFO.NAME "你 在 做 什 么 ？！"
+ INFO.NAME "你在干什么？！"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
 -INFO
@@ -422678,7 +422678,7 @@ player->modReputation 1"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.BNAM ";Angaredhel; CHOICE 3; 
-Choice ""战士之戒"" 10 ""法师之戒"" 11 ""盗贼之戒"" 12"
+Choice ""战士戒指"" 10 ""法师戒指"" 11 ""盗贼戒指"" 12"
 -INFO
  INFO.INAM "218956161499127703$00"
  INFO.PNAM "9713105022672519536$00"
@@ -422689,7 +422689,7 @@ Choice ""战士之戒"" 10 ""法师之戒"" 11 ""盗贼之戒"" 12"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";Angaredhel; CHOICE 2; 
-Choice ""战士之戒"" 7 ""法师之戒"" 8 ""盗贼之戒"" 9"
+Choice ""战士戒指"" 7 ""法师戒指"" 8 ""盗贼戒指"" 9"
 -INFO
  INFO.INAM "657117141488523503$00"
  INFO.PNAM "218956161499127703$00"
@@ -422700,7 +422700,7 @@ Choice ""战士之戒"" 7 ""法师之戒"" 8 ""盗贼之戒"" 9"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM ";Angaredhel; CHOICE 1; 
-Choice ""战士之戒"" 4 ""法师之戒"" 5 ""盗贼之戒"" 6"
+Choice ""战士戒指"" 4 ""法师戒指"" 5 ""盗贼戒指"" 6"
 -INFO
  INFO.INAM "2132219571122579920$00"
  INFO.PNAM "657117141488523503$00"

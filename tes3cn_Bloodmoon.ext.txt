@@ -418,11 +418,11 @@ The castle above may not be entered until permission is granted by the master of
 
 > SCPT.SCTX LorkhanHeart s1
 What are you doing?
-你在做什么？
+你在干什么？
 
 > SCPT.SCTX LorkhanHeart s2
 WHAT ARE YOU DOING?!
-你！在！做！什！么？！
+你！在！干！什！么？！
 
 > SCPT.SCTX LorkhanHeart s3
 FOOL!
@@ -9330,7 +9330,7 @@ Because I have been able to kill a large number of Quarra and Aundae vampires, R
 
 > INFO.NAME va_vampcountess 23042234591408719473
 Because I have killed some of the cattle, I have lost the privilege of using them for food.
-因为我杀了一些牲口，所以我失去了用它们做食物的特权。
+因为我杀了一些血畜，所以我失去了用它们做食物的特权。
 
 > INFO.NAME b2_ahemmusawalk 4348101392033717142
 Ahemmusa Nerevarine
@@ -16822,11 +16822,11 @@ The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer 
 
 > INFO.NAME boots of the apostle 2315079573118114217
 You found the boots? You must tell me all about it....
-你找到了那双靴子？你必须告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 29065245643252516221
 You found the boots? You must tell me all about it....
-你找到靴子了？你一定要告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 30678111231429010357
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
@@ -17150,11 +17150,11 @@ You honor me with this decision!  Songs will be written of our glorious battle! 
 
 > INFO.NAME failed in our quest 43142177162243714
 Oh.  I see.  I thought I sensed honor in you, %PCName.  It is why I offered you this chance at glory.  Perhaps I was wrong about you....  If you have a change of heart, return to me and we will fight valiantly to the death.  And don't worry. I'm not going to ambush you.  In order to enter Sovngarde I must die in valiant combat.  I will not lower myself to cowardice and deceit as Grimkell did.  Now leave me, %PCName.  I have much to consider.
-噢，我明白了。我想我感受到了你的荣誉感，%PCName。所以我才给你这个荣耀的机会！也许我看错你了……如果你改变了主意，回到我身边，我们将英勇地战斗到死。别担心，我不会伏击你的。为了进入松加德，我必须英勇战死。我不会像格里姆凯尔那样懦弱和欺骗！现在离开我吧，%PCName。我还有很多事要考虑。
+噢，我明白了。我想我感受到了你的荣誉感，%PCName。所以我才给你这个荣耀的机会。也许我看错你了……如果你改变了主意，回到我身边，我们将英勇地战斗到死。别担心，我不会伏击你的。为了进入松加德，我必须英勇战死。我不会像格里姆凯尔那样懦弱和欺骗！现在离开我吧，%PCName。我还有很多事要考虑。
 
 > INFO.NAME failed in our quest 28357324331720217418
 New theories, you say?  Let me see the book you speak of.  Hmmm.... Could this be?  Is it possible the entrance to Sovngarde lie right before me all along?  It makes so much sense!  %PCName, you've done it!  You've found the way to Sovngarde!  All I need to do is die valiantly in combat!  But how....  I know!  You, %PCName!  You must help me!  You must defeat me in armed combat and send my soul to Sovngarde!  Tell me, will you honor me with a fight to the death?
-你是说新理论？让我看看你说的那本书？嗯……会是这样吗？难道松加德的入口一直就在我面前？这太有道理了！%PCName，你成功了！你找到了通往松加德的路！我只需要在战斗中英勇牺牲！但是……我知道，你，%PCName！你必须帮助我！你必须在武斗中击败我，将我的灵魂送往松加德！告诉我，你愿意用一场生死之战来纪念我吗？ {帮我}
+你是说新理论？让我看看你说的那本书。嗯……会是这样吗？难道松加德的入口一直就在我面前？这太有道理了！%PCName，你成功了！你找到了通往松加德的路！我只需要在战斗中英勇牺牲！但是……我知道，你，%PCName！你必须帮助我！你必须在武斗中击败我，将我的灵魂送往松加德！告诉我，你愿意用一场生死之战来纪念我吗？ {帮我}
 
 > INFO.BNAM failed in our quest 28357324331720217418 c1
 Sorry, Ulfgar, I can't help you.
@@ -19912,7 +19912,7 @@ Sorry, never heard of him.
 
 > INFO.NAME korst wind-eye 282216639281083014
 I am Korst Wind-Eye. How may I help you?
-我是科斯特·风眼。有什么能帮你的吗？
+我是科斯特·风眼，我能帮你点什么？
 
 > INFO.NAME korst wind-eye 2073932192544419829
 The shaman. He should spend more time with steel and less in studies. Still, he can provide good advice.
@@ -19956,7 +19956,7 @@ Just because Hrothmund's Bane is magically sealed, that doesn't mean there isn't
 
 > INFO.NAME little advice 84763094217021120
 It's always a good idea to carry some cure disease potions while you're on Solstheim. A lot of the animals carry Ataxia or Yellow Tick.
-在索瑟泰姆的时候，最好随身携带一些治愈疾病的药剂。很多动物都带有失调症或黄蜱病。 {治愈疾病的药水,药水,这些药水}
+在索瑟泰姆的时候，最好随身携带一些治愈疾病的药水。很多动物都带有失调症或黄蜱病。 {这些药水}
 
 > INFO.NAME little advice 2355218310679513292
 They say spriggans die three deaths. Best to avoid them if I were you.
@@ -21728,7 +21728,7 @@ Please leave me be, %PCRace.  I don't mean to be rude, but I've suffered the los
 
 > INFO.NAME greeting 1 15915300003183010736
 You again.  What do you want?
-又是你？你想要什么？
+又是你？你有什么事？
 
 > INFO.NAME greeting 1 206101264854313088
 Ask your questions but be quick, %PCClass.  I'm quite busy with the moon sugar investigation.
@@ -22340,7 +22340,7 @@ Ask your questions, but be quick, %PCClass. I'm a busy man.
 
 > INFO.NAME greeting 1 2245303675905637
 Well well, aren't you a pretty little pup.  What do you want?  Speak up, wench -- I'm a busy man!
-嗯嗯，你真是个漂亮的小姑娘，你想要什么？说吧，小姑娘——我很忙的！ {忙着}
+嗯嗯，你真是个漂亮的小姑娘，你有什么事？说吧，小姑娘——我很忙的！ {忙着}
 
 > INFO.NAME greeting 1 4960173231317410358
 What do you want, twig?
@@ -22472,7 +22472,7 @@ So, Kolfinna is seeking wergild for the death of her husband, eh? Never! Pinetea
 
 > INFO.NAME greeting 1 34222029238526611
 You look pretty far from home, stranger. What do you want?
-你看起来离家很远，陌生人。你想干嘛？
+你看起来离家很远，陌生人。你有什么事？
 
 > INFO.NAME greeting 1 2266432668272463
 Hello stranger. I am afraid we meet under tragic circumstances, for I grieve for the death of my husband, Gustav Two-Teeth. He was struck down in cold blood by a barbarian named Sigvatr the Strong, over a foolish argument.
@@ -22676,7 +22676,7 @@ You have cleared my husband's name. What can I do for you?
 
 > INFO.NAME greeting 1 32057195401792128748
 You are the one who is to investigate a crime that has been blamed on my husband. How may I help you?
-你是负责调查我的丈夫罪行案件的人。我能帮你什么？ {你就是天选之人,调查案件}
+你是负责对我的丈夫调查案件的人。我能帮你点什么？ {你就是天选之人}
 
 > INFO.NAME greeting 1 26666326902586726328
 I have nothing to say. My time is done.
@@ -22884,7 +22884,7 @@ The Skaal wish you no harm for now. But we do not know you, and we have no reaso
 
 > INFO.NAME greeting 1 391814678251102377
 Welcome, friend. How may I help you? The time of prophecy has passed, and the Skaal live on for another era.
-欢迎，朋友。我能帮你什么？预言的时代已经过去，斯卡尔人将继续生活在另一个时代。
+欢迎，朋友，我能帮你点什么？预言的时代已经过去，斯卡尔人将继续生活在另一个时代。
 
 > INFO.NAME greeting 1 2790977481963314129
 The time of the Bloodmoon is gone, and the Skaal live on.
@@ -23020,11 +23020,11 @@ I understand you have chosen to work with my compatriot, Gaea Artoria. There is 
 
 > INFO.NAME greeting 1 1323130865661912093
 Captain Carius mentioned that you might come to speak with me. How may I assist you?
-卡里乌斯队长说你可能会来找我。我能协助你吗？
+卡里乌斯队长说你可能会来找我。我能怎样协助你？
 
 > INFO.NAME greeting 1 1324825270933028237
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 2012220162224482
 What can I do for you?
@@ -23080,7 +23080,7 @@ Hello, %PCName. What can I do for you?
 
 > INFO.NAME greeting 1 192582019737516815
 It is good to see you again. I believed I was dead for sure, but as the glacier toppled around me, I was transported outside. I am glad that you, too, survived the ordeal. Now, how may I help you?
-很高兴再次见到你，我以为自己死定了，但当冰川在我周围倾倒时，我被传送到了外面。我很高兴你也在这场磨难中幸存了下来。现在，我能帮你什么忙？
+很高兴再次见到你，我以为自己死定了，但当冰川在我周围倾倒时，我被传送到了外面。我很高兴你也在这场磨难中幸存了下来。现在，我能帮你点什么？
 
 > INFO.NAME greeting 1 18620518993105625
 I will wait here and guard the gate. Good luck, my friend.
@@ -23156,19 +23156,19 @@ The fort...the creatures. It's horrible. And, the Captain, I haven't seen him...
 
 > INFO.NAME greeting 1 5785324155371234
 What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想干什么？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
+你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
 
 > INFO.NAME greeting 1 14424134471853613220
 What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想干什么？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
+你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
 
 > INFO.NAME greeting 1 1742919251110211032
 What do you want? Go see Captain Carius. Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想干什么？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
+你有什么事？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
 
 > INFO.NAME greeting 1 7709380342601831
 What do you want? Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你想要什么？如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
+你有什么事？如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
 
 > INFO.NAME greeting 1 149479153259528429
 Welcome to Solstheim, jewel of absolutely nowhere. It's a miserable place, even for the warmbloods. If you want to leave, I'd be happy to take you back to Vvardenfell. If you feel you must stay, speak with Captain Falx Carius in his chambers at Fort Frostmoth. Captain Carius is the commander here. Not a bad man, but he is a fool for remaining in this place. So cold. So cold. If you are here about the colony, Carnius Magius is the man you will speak to. Find him at the Imperial Cult Shrine.
@@ -23716,7 +23716,7 @@ What is it, %PCRank? Is this about your current assignment?
 
 > INFO.NAME greeting 1 27045154312185730008
 What do you want? Is this about the East Empire Company? I'm a very important man, I'll have you know, and I have no time for anything other than business.
-你想要什么？是为了东帝国公司吗？我是个很重要的人，我得让你知道，我没时间谈生意。 {事}
+你有什么事？是为了东帝国公司吗？我是个很重要的人，我得让你知道，我没时间谈生意。
 
 > INFO.NAME greeting 1 3188930835136513167
 So, Carnius is dead? That makes you the new Factor, I assume. I can't say you've exactly earned the position, but I imagine you can't be any worse at it than he was.
@@ -25028,15 +25028,15 @@ Who are you, outlander? And what are you doing here?
 
 > INFO.NAME greeting 1 1672221471134131626
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 18957246652271928795
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 207161686461973555
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 200672762419814487
 Meow.
@@ -25624,7 +25624,7 @@ Come on! You're the prophesied Incarnate! Azura has promised you fame and glory!
 
 > INFO.NAME greeting 1 1751832505196081433
 What are you doing? You have no idea. Poor animal. You struggle and fight, and understand nothing.
-你在干什么？你根本不知道！可怜的动物，你挣扎着，战斗着，却一窍不通。
+你在干什么？你根本不知道，可怜的动物，你挣扎着，战斗着，却一窍不通。
 
 > INFO.NAME greeting 1 9333138913204321599
 A bug. A weed. A piece of dust. Busy, busy, busy.
@@ -29304,7 +29304,7 @@ Hello again, friend. What may I do for you?
 
 > INFO.NAME hello 24245298792039923720
 You were to perform the Ritual of the Gifts. I hope your way has been easy.
-你是来进行礼物仪式的，希望你一路顺风。
+你是来进行馈赠仪式的，希望你一路顺风。
 
 > INFO.NAME hello 178891993033261868
 Greetings to you, wanderer. Why have you returned to our village?
@@ -29348,7 +29348,7 @@ You have cleared my husband's name. What can I do for you?
 
 > INFO.NAME hello 1447232171280629639
 You are the one who is to investigate a crime that has been blamed on my husband. How may I help you?
-你是负责调查我丈夫罪行的人。我能帮你什么？
+你是负责调查我丈夫罪行的人。我能帮你点什么？
 
 > INFO.NAME hello 30061204231823631853
 No time for talk. The Hunt has begun!
@@ -29376,7 +29376,7 @@ You have done well, showing your loyalty and wisdom
 
 > INFO.NAME hello 5189437221986955
 You were to investigate a crime. Have you done this?
-你们要调查犯罪，你做到了吗？
+你要调查案件，你做到了吗？
 
 > INFO.NAME hello 205815768135704740
 You have shown your loyalty to the Skaal.
@@ -30132,7 +30132,7 @@ If that is the punishment I am given, such is my fate.
 
 > INFO.NAME exile 2931260722088427114
 A horrible fate, but I would rather see my husband exiled than dead. He does not see it that way, though.
-这是可怕的命运，但我宁愿看到我的丈夫被流放为流亡者，也不愿看到他死去。但他不这么认为。 {老鼠,见到我的丈夫}
+这是可怕的命运，但我宁愿见到我的丈夫被流放为流亡者，也不愿看到他死去。但他不这么认为。 {老鼠}
 
 > INFO.NAME exile 26591261933197729667
 It is a fate worse than death. To no longer live among the Skaal is the worst punishment that can be devised.
@@ -33136,7 +33136,7 @@ Cough.
 
 > INFO.NAME idle 2736311925233346629
 I could kill that guar. Those boots are ruined.
-我该宰了那头瓜尔的，我的靴子鞋都被毁了。
+我该宰了那头瓜尔的，我的靴子都被毁了。
 
 > INFO.NAME idle 309987732731822005
 Probably nothing.

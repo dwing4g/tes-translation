@@ -9040,7 +9040,7 @@ endif
 
 if ( countHits == 1 )
 	if ( countSays == 0 )
-		Say ""vo\misc\Hit Heart 1.wav"" ""你在做什么？""
+		Say ""vo\misc\Hit Heart 1.wav"" ""你在干什么？""
 		""dagoth_ur_2""->SetFight 100
 		""dagoth_ur_2""->StartCombat Player
 		Set countSays to 1
@@ -9050,7 +9050,7 @@ endif
 
 if ( countHits == 2 )
 	if ( countSays == 1 )
-		Say ""vo\misc\Hit Heart 2.wav"" ""你！在！做！什！么？！""
+		Say ""vo\misc\Hit Heart 2.wav"" ""你！在！干！什！么？！""
 		Set countSays to 2
 	endif
 	PlayGroup Idle3
@@ -38598,7 +38598,7 @@ C<BR>"
  INFO.PNAM "315525839725312447$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "因为我杀了一些牲口，所以我失去了用它们做食物的特权。"
+ INFO.NAME "因为我杀了一些血畜，所以我失去了用它们做食物的特权。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "B2_AhemmusaWalk$00"
@@ -52816,7 +52816,7 @@ ShowMap Berandas"
  INFO.NNAM "29065245643252516221$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Llaalam Dredil$00"
- INFO.NAME "你找到了那双靴子？你必须告诉我关于它的一切……"
+ INFO.NAME "你找到了那双靴子？你一定要告诉我关于它的一切……"
  INFO.SCVR "04JX3IC26_AmaNin"
  INFO.INTV [32 00 00 00]
 -INFO
@@ -52826,7 +52826,7 @@ ShowMap Berandas"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.CNAM "Savant$00"
- INFO.NAME "你找到靴子了？你一定要告诉我关于它的一切……"
+ INFO.NAME "你找到了那双靴子？你一定要告诉我关于它的一切……"
  INFO.SCVR "04JX3IC26_AmaNin"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -53683,7 +53683,7 @@ Goodbye"
  INFO.NNAM "28357324331720217418$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ulfgar the unending$00"
- INFO.NAME "噢，我明白了。我想我感受到了你的荣誉感，%PCName。所以我才给你这个荣耀的机会！也许我看错你了……如果你改变了主意，回到我身边，我们将英勇地战斗到死。别担心，我不会伏击你的。为了进入松加德，我必须英勇战死。我不会像格里姆凯尔那样懦弱和欺骗！现在离开我吧，%PCName。我还有很多事要考虑。"
+ INFO.NAME "噢，我明白了。我想我感受到了你的荣誉感，%PCName。所以我才给你这个荣耀的机会。也许我看错你了……如果你改变了主意，回到我身边，我们将英勇地战斗到死。别担心，我不会伏击你的。为了进入松加德，我必须英勇战死。我不会像格里姆凯尔那样懦弱和欺骗！现在离开我吧，%PCName。我还有很多事要考虑。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Journal BM_BrodirGrove 50
@@ -53694,7 +53694,7 @@ Goodbye"
  INFO.NNAM "14503199851187811627$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ulfgar the unending$00"
- INFO.NAME "你是说新理论？让我看看你说的那本书？嗯……会是这样吗？难道松加德的入口一直就在我面前？这太有道理了！%PCName，你成功了！你找到了通往松加德的路！我只需要在战斗中英勇牺牲！但是……我知道，你，%PCName！你必须帮助我！你必须在武斗中击败我，将我的灵魂送往松加德！告诉我，你愿意用一场生死之战来纪念我吗？ {帮我}"
+ INFO.NAME "你是说新理论？让我看看你说的那本书。嗯……会是这样吗？难道松加德的入口一直就在我面前？这太有道理了！%PCName，你成功了！你找到了通往松加德的路！我只需要在战斗中英勇牺牲！但是……我知道，你，%PCName！你必须帮助我！你必须在武斗中击败我，将我的灵魂送往松加德！告诉我，你愿意用一场生死之战来纪念我吗？ {帮我}"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Journal BM_BrodirGrove 40
@@ -60624,7 +60624,7 @@ Goodbye"
  INFO.NNAM "2073932192544419829$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "korst wind-eye$00"
- INFO.NAME "我是科斯特·风眼。有什么能帮你的吗？"
+ INFO.NAME "我是科斯特·风眼，我能帮你点什么？"
 -INFO
  INFO.INAM "2073932192544419829$00"
  INFO.PNAM "282216639281083014$00"
@@ -60724,7 +60724,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "2355218310679513292$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "在索瑟泰姆的时候，最好随身携带一些治愈疾病的药剂。很多动物都带有失调症或黄蜱病。 {治愈疾病的药水,药水,这些药水}"
+ INFO.NAME "在索瑟泰姆的时候，最好随身携带一些治愈疾病的药水。很多动物都带有失调症或黄蜱病。 {这些药水}"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [50 00 00 00]
 -INFO
@@ -64788,7 +64788,7 @@ SetFight 100"
  INFO.NNAM "206101264854313088$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "erich the unworthy$00"
- INFO.NAME "又是你？你想要什么？"
+ INFO.NAME "又是你？你有什么事？"
  INFO.SCVR "04JX3BM_Missionary"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "11633"
@@ -66510,7 +66510,7 @@ player->additem ""gold_001"" 500"
  INFO.NNAM "4960173231317410358$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "erich the unworthy$00"
- INFO.NAME "嗯嗯，你真是个漂亮的小姑娘，你想要什么？说吧，小姑娘——我很忙的！ {忙着}"
+ INFO.NAME "嗯嗯，你真是个漂亮的小姑娘，你有什么事？说吧，小姑娘——我很忙的！ {忙着}"
  INFO.SCVR "04JX3BM_Missionary"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "11634"
@@ -66846,7 +66846,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "2266432668272463$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sigvatr the strong$00"
- INFO.NAME "你看起来离家很远，陌生人。你想干嘛？"
+ INFO.NAME "你看起来离家很远，陌生人。你有什么事？"
  INFO.SCVR "04JX0BM_Retribution"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -67418,7 +67418,7 @@ Goodbye"
  INFO.NNAM "26666326902586726328$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "risi ice-mane$00"
- INFO.NAME "你是负责调查我的丈夫罪行案件的人。我能帮你什么？ {你就是天选之人,调查案件}"
+ INFO.NAME "你是负责对我的丈夫调查案件的人。我能帮你点什么？ {你就是天选之人}"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX4BM_Trial"
@@ -67982,7 +67982,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.FNAM "Skaal$00"
  INFO.ANAM "Skaal Village$00"
- INFO.NAME "欢迎，朋友。我能帮你什么？预言的时代已经过去，斯卡尔人将继续生活在另一个时代。"
+ INFO.NAME "欢迎，朋友，我能帮你点什么？预言的时代已经过去，斯卡尔人将继续生活在另一个时代。"
  INFO.SCVR "04JX3BM_WildHunt"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -68384,7 +68384,7 @@ Goodbye"
  INFO.NNAM "1324825270933028237$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "saenus lusius$00"
- INFO.NAME "卡里乌斯队长说你可能会来找我。我能协助你吗？"
+ INFO.NAME "卡里乌斯队长说你可能会来找我。我能怎样协助你？"
  INFO.SCVR "04JX3BM_Smugglers"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX4BM_Smugglers"
@@ -68395,7 +68395,7 @@ Goodbye"
  INFO.NNAM "2012220162224482$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "antonius nuncius$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.SCVR "04JX3BM_Morale"
  INFO.INTV [46 00 00 00]
 -INFO
@@ -68593,7 +68593,7 @@ Goodbye"
  INFO.NNAM "18620518993105625$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "很高兴再次见到你，我以为自己死定了，但当冰川在我周围倾倒时，我被传送到了外面。我很高兴你也在这场磨难中幸存了下来。现在，我能帮你什么忙？"
+ INFO.NAME "很高兴再次见到你，我以为自己死定了，但当冰川在我周围倾倒时，我被传送到了外面。我很高兴你也在这场磨难中幸存了下来。现在，我能帮你点什么？"
  INFO.SCVR "04JX3BM_WildHunt"
  INFO.INTV [64 00 00 00]
  INFO.BNAM "set cariustalk to 3"
@@ -68803,7 +68803,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你想干什么？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}"
+ INFO.NAME "你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}"
  INFO.SCVR "04JX2BM_Rumors"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4BM_Rumors"
@@ -68819,7 +68819,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你想干什么？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}"
+ INFO.NAME "你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}"
  INFO.SCVR "04JX4BM_Morale"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4BM_Rumors"
@@ -68833,7 +68833,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你想干什么？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}"
+ INFO.NAME "你有什么事？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}"
  INFO.SCVR "04JX4BM_Morale"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX0BM_Rumors"
@@ -68846,7 +68846,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你想要什么？如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}"
+ INFO.NAME "你有什么事？如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}"
  INFO.SCVR "04JX4BM_Morale"
  INFO.INTV [0A 00 00 00]
  INFO.BNAM "Goodbye"
@@ -70284,7 +70284,7 @@ Goodbye"
  INFO.NNAM "3188930835136513167$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "你想要什么？是为了东帝国公司吗？我是个很重要的人，我得让你知道，我没时间谈生意。 {事}"
+ INFO.NAME "你有什么事？是为了东帝国公司吗？我是个很重要的人，我得让你知道，我没时间谈生意。"
 -INFO
  INFO.INAM "3188930835136513167$00"
  INFO.PNAM "27045154312185730008$00"
@@ -74061,7 +74061,7 @@ Goodbye"
  INFO.NNAM "18957246652271928795$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "bethes sarothril$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";10 Elite Ordinators"
 -INFO
  INFO.INAM "18957246652271928795$00"
@@ -74069,7 +74069,7 @@ Goodbye"
  INFO.NNAM "207161686461973555$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "drores arvel$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";10 Elite Ordinators"
 -INFO
  INFO.INAM "207161686461973555$00"
@@ -74078,7 +74078,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Temple$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "你想要什么？"
+ INFO.NAME "你有什么事？"
  INFO.BNAM ";10 Elite Ordinators"
 -INFO
  INFO.INAM "200672762419814487$00"
@@ -75908,7 +75908,7 @@ SetFight 100"
  INFO.NNAM "9333138913204321599$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dagoth reler$00"
- INFO.NAME "你在干什么？你根本不知道！可怜的动物，你挣扎着，战斗着，却一窍不通。"
+ INFO.NAME "你在干什么？你根本不知道，可怜的动物，你挣扎着，战斗着，却一窍不通。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.BNAM "; Dagoth Reler; Kogoruhn"
@@ -85297,7 +85297,7 @@ ModDisposition -10"
  INFO.RNAM "Nord$00"
  INFO.FNAM "Skaal$00"
  INFO.SNAM "vo\n\m\bHlo_NM032.mp3$00"
- INFO.NAME "你是来进行礼物仪式的，希望你一路顺风。"
+ INFO.NAME "你是来进行馈赠仪式的，希望你一路顺风。"
  INFO.SCVR "04JX3BM_Stones"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "14JX4BM_Stones"
@@ -85436,7 +85436,7 @@ ModDisposition -10"
  INFO.RNAM "Nord$00"
  INFO.FNAM "Skaal$00"
  INFO.SNAM "vo\n\f\bHlo_NF013.mp3$00"
- INFO.NAME "你是负责调查我丈夫罪行的人。我能帮你什么？"
+ INFO.NAME "你是负责调查我丈夫罪行的人。我能帮你点什么？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "14JX4BM_Trial"
@@ -85523,7 +85523,7 @@ ModDisposition -10"
  INFO.ONAM "tharsten heart-fang$00"
  INFO.RNAM "Nord$00"
  INFO.SNAM "vo\n\m\bHlo_NM043.mp3$00"
- INFO.NAME "你们要调查犯罪，你做到了吗？"
+ INFO.NAME "你要调查案件，你做到了吗？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [14 00 00 00]
 -INFO
@@ -87698,7 +87698,7 @@ Goodbye"
  INFO.NNAM "26591261933197729667$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "risi ice-mane$00"
- INFO.NAME "这是可怕的命运，但我宁愿看到我的丈夫被流放为流亡者，也不愿看到他死去。但他不这么认为。 {老鼠,见到我的丈夫}"
+ INFO.NAME "这是可怕的命运，但我宁愿见到我的丈夫被流放为流亡者，也不愿看到他死去。但他不这么认为。 {老鼠}"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [14 00 00 00]
  INFO.SCVR "14JX4BM_Trial"
@@ -95977,7 +95977,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Idl_DF009.mp3$00"
- INFO.NAME "我该宰了那头瓜尔的，我的靴子鞋都被毁了。"
+ INFO.NAME "我该宰了那头瓜尔的，我的靴子都被毁了。"
  INFO.SCVR "02sX0Random100"
  INFO.INTV [01 00 00 00]
 -INFO

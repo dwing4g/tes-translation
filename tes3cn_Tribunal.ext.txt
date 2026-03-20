@@ -508,11 +508,11 @@ Let the duel begin!
 
 > SCPT.SCTX LorkhanHeart s1
 What are you doing?
-你在做什么？
+你在干什么？
 
 > SCPT.SCTX LorkhanHeart s2
 WHAT ARE YOU DOING?!
-你！在！做！什！么？！
+你！在！干！什！么？！
 
 > SCPT.SCTX LorkhanHeart s3
 FOOL!
@@ -15233,7 +15233,7 @@ I found a letter in Llethan Manor that appears to refer to a conspiracy to assas
 
 > INFO.NAME tr08_hlaalu 21297239371539228996
 I gave Tienius Delitian the letter I found in Llethan Manor. He concluded that Forven Berano, Hloggar the Bloody, and Bedal Alen are conspiring to assassinate King Helseth. He will immediately draw up writs for their execution, and asked me to execute these traitors. I told him I wasn't interested.
-我把在莱森府邸找到的信给了蒂纽斯·德利天。他认为福文·贝拉诺、血腥者赫洛格和贝达尔·阿伦正在密谋刺杀赫尔塞斯国王。他立马起草处决他们的令状，并要求我处决这些叛徒。但我告诉他我不感兴趣。 {勒特}
+我把在莱森府邸找到的信给了蒂纽斯·德利天。他认为福文·贝拉诺、血腥者赫洛格和贝达尔·阿伦正在密谋刺杀赫尔塞斯国王。他立马起草处决他们的令状，并要求我处决这些叛徒。但我告诉他我没兴趣。 {勒特}
 
 > INFO.NAME tr08_hlaalu 239811185944081430
 I gave Tienius Delitian the letter I found in Llethan Manor. He concluded that Forven Berano, Hloggar the Bloody, and Bedal Alen are conspiring to assassinate King Helseth. He gave me Royal Writs for their execution, and asked me to execute these traitors. I agreed, and will report back to him when the three traitors are dead.
@@ -16909,7 +16909,7 @@ I'll take care of it.
 
 > INFO.BNAM disloyalty among the guards 5071186783275213383 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME disloyalty among the guards 2209625993314389201
 It's YOUR judgement I'm testing, not mine. Talk to them yourself. Form your own conclusions.
@@ -16921,7 +16921,7 @@ I'll take care of it.
 
 > INFO.BNAM disloyalty among the guards 2209625993314389201 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME disloyalty among the guards 4599145912334132670
 I see. I hope you'll reconsider. It is much safer if the king considers you a loyal friend.
@@ -16941,7 +16941,7 @@ I'll take care of it.
 
 > INFO.BNAM disloyalty among the guards 189208220516211179 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.BNAM disloyalty among the guards 189208220516211179 c3
 Ask about specific guards.
@@ -17485,7 +17485,7 @@ I'll take care of it.
 
 > INFO.BNAM evidence of conspiracy 1634286842608823514 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME evidence of conspiracy 6878140171131223567
 Have you found evidence of conspiracy against King Helseth by Hlaalu nobles?
@@ -17501,7 +17501,7 @@ I'll take care of it.
 
 > INFO.BNAM evidence of conspiracy 4713226482746032536 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME evidence of conspiracy 1526203503169927967
 If you have to depend on me for such information, you may not be that useful to me.
@@ -17513,7 +17513,7 @@ I'll take care of it.
 
 > INFO.BNAM evidence of conspiracy 1526203503169927967 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME evidence of conspiracy 1811751251971822563
 Good. I see. You are not interested now, perhaps. But I feel confident that you will change your mind. I'll be here waiting.
@@ -17533,7 +17533,7 @@ I'll take care of it.
 
 > INFO.BNAM evidence of conspiracy 1277319948387327597 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.BNAM evidence of conspiracy 1277319948387327597 c3
 Ask about Llethan Manor defenses.
@@ -18333,11 +18333,11 @@ The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer 
 
 > INFO.NAME boots of the apostle 2315079573118114217
 You found the boots? You must tell me all about it....
-你找到了那双靴子？你必须告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 29065245643252516221
 You found the boots? You must tell me all about it....
-你找到靴子了？你一定要告诉我关于它的一切……
+你找到了那双靴子？你一定要告诉我关于它的一切……
 
 > INFO.NAME boots of the apostle 30678111231429010357
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
@@ -18729,7 +18729,7 @@ Oh, I'm sorry. It's just that Nerile at the Temple said she'd send someone over 
 
 > INFO.NAME cure disease potion 2500013613722825900
 Are you here to deliver the potion?
-你是来交付药水的吗？
+你是来交付药水的？
 
 > INFO.BNAM cure disease potion 2500013613722825900 c1
 Give him the potion
@@ -19825,7 +19825,7 @@ I'll take care of it.
 
 > INFO.BNAM temple informant 2783938882759022025 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME temple informant 21183199682349125866
 King Helseth is a faithful member of both the Temple and the Imperial cult. Now -- will you help us find a Temple informant who can tell us whether the Temple is willing to accept King Helseth -- or whether the Temple plans to act against him?
@@ -19837,7 +19837,7 @@ I'll take care of it.
 
 > INFO.BNAM temple informant 21183199682349125866 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME temple informant 12046122002202622977
 A pity. King Helseth would be grateful for your help. And a grateful king can be a comfort and protection against those who would do you harm. If you change your mind, I'll be here.
@@ -19857,7 +19857,7 @@ I'll take care of it.
 
 > INFO.BNAM temple informant 69913192522855382 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.BNAM temple informant 69913192522855382 c3
 Ask whether King Helseth is a loyal supporter of the Temple.
@@ -20209,7 +20209,7 @@ Fine. Then tell me more about this mission.
 
 > INFO.BNAM anonymous writer 69379079210032777 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME anonymous writer 1270132076946118575
 What do YOU know about it? Do not let our close association confuse you into thinking I will tolerate disrespectful speech concerning our sovereign.
@@ -20229,7 +20229,7 @@ I'll take care of it.
 
 > INFO.BNAM anonymous writer 300349432975627435 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME anonymous writer 27563308082580831229
 We'd like you to find the anonymous writer of 'The Common Tongue' and persuade him to stop printing such lies about King Helseth. When we make official inquiries, people just look stupid and assure us they have no idea what we are talking about. We think you may have better luck -- particularly if you approach less-reputable citizens -- persons who place profit above honor.
@@ -20241,7 +20241,7 @@ Tell me more about this mission.
 
 > INFO.BNAM anonymous writer 27563308082580831229 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.BNAM anonymous writer 27563308082580831229 c3
 'Lies'? Helseth IS a poisoner, isn't he?
@@ -20873,7 +20873,7 @@ I'll take care of it.
 
 > INFO.BNAM official matter 29753310958743784 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME official matter 3010112154236583094
 That's a silly question. I don't like silly questions.
@@ -20885,7 +20885,7 @@ I'll take care of it.
 
 > INFO.BNAM official matter 3010112154236583094 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME official matter 32017246936863611
 Good. Report to me when you've learned the source of the rumors about King Llethan's death.
@@ -20901,7 +20901,7 @@ Tell me more.
 
 > INFO.BNAM official matter 1442111413113166554 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME official matter 72319662220126025
 I see. Then we haven't much to talk about. If you change your mind, I'll be here.
@@ -20929,7 +20929,7 @@ Tell me more.
 
 > INFO.BNAM official matter 1322327984829027767 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.BNAM official matter 1322327984829027767 c3
 Show him evidence Helseth tried to have you killed.
@@ -20945,7 +20945,7 @@ Tell me more.
 
 > INFO.BNAM official matter 24131101771206420422 c2
 I'm not interested.
-我不感兴趣。
+我没兴趣。
 
 > INFO.NAME know my husband 77104645294093102
 It doesn't matter now. He's gone, and I have to try to move on.
@@ -26119,7 +26119,7 @@ She's a mage who arrived in Vvardenfell the same time I did. Special appointment
 
 > INFO.NAME asciene rane 23404284612240822214
 I am Asciene Rane. How may I help you, friend?
-我是阿赛妮·拉尼。有什么可以帮助你的吗，朋友？
+我是阿赛妮·拉尼。我能帮你点什么，朋友？
 
 > INFO.NAME new recruits 516321964126616464
 That matter is taken care of.
@@ -26847,7 +26847,7 @@ Foul, vicious creatures. No wonder Helseth has chosen them to be his footsoldier
 
 > INFO.NAME fedris hler 1551315852488622919
 I am Fedris Hler. What do you want?
-我是费德里斯·赫勒。你想要什么？
+我是费德里斯·赫勒。你有什么事？
 
 > INFO.NAME fedris hler 1727516451693121080
 Fedris Hler has been found dead! This is a very sad time for us here at the Temple. But, by the Grace of Our Lady, we will find the culprit.
@@ -27671,7 +27671,7 @@ You've committed a crime, vampire. Were you not an abomination, I might let you 
 
 > INFO.NAME greeting 0 10464318192407517480
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向官厅支付%PCCrimeLevel枚金币并交出你身上的赃物，或者立即投降入狱服刑。选吧，马上支付罚金，或者跟我走。
+你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 10464318192407517480 c1
 Pay Gold.
@@ -27691,7 +27691,7 @@ Present Writs
 
 > INFO.NAME greeting 0 1556426861203214287
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
+你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 1556426861203214287 c1
 Pay Gold.
@@ -27711,7 +27711,7 @@ Present Writs
 
 > INFO.NAME greeting 0 196804487824232374
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
+你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
 
 > INFO.BNAM greeting 0 196804487824232374 c1
 Pay Gold.
@@ -27727,7 +27727,7 @@ Resist Arrest.
 
 > INFO.NAME greeting 0 19191290671947220251
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel的罚金，你必须投降然后交出你的赃物，并被判处苦役。跟我走。
+你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须交出你的赃物并服苦役。跟我来。 {投降}
 
 > INFO.BNAM greeting 0 19191290671947220251 c1
 Go to Jail.
@@ -27743,7 +27743,7 @@ Present Writs
 
 > INFO.NAME greeting 0 5642177972930817100
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你违反了法律，%PCName。由于你没有%PCCrimeLevel金币支付法庭费用，你必须投降然后交出赃物并服刑。跟我来。
+你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须交出你的赃物并服苦役。跟我来。 {投降}
 
 > INFO.BNAM greeting 0 5642177972930817100 c1
 Go to Jail.
@@ -27759,7 +27759,7 @@ Present Writs
 
 > INFO.NAME greeting 0 196287825728868
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你违反了法律，%PCName。由于你没有%PCCrimeLevel金币支付法庭费用，你必须投降然后交出赃物并服刑。跟我来。
+你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须交出你的赃物并服苦役。跟我来。 {投降}
 
 > INFO.BNAM greeting 0 196287825728868 c1
 Go to Jail.
@@ -27771,7 +27771,7 @@ Resist Arrest.
 
 > INFO.NAME greeting 0 192701535310983235
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。向官厅支付%CrimeGoldTurnIn金币，并交出你的赃物，或投降然后交出你的赃物并服苦役。立即交钱，否则就跟我走。
+你触犯了法律，%PCName。鉴于你是自愿投降自首，我会酌情考虑。向法庭缴纳%CrimeGoldTurnIn金币并交出你的赃物，或者交出你的赃物并服苦役。立即交钱，否则就跟我来。
 
 > INFO.BNAM greeting 0 192701535310983235 c1
 Pay Gold.
@@ -27791,7 +27791,7 @@ Present Writs
 
 > INFO.NAME greeting 0 26842177092586711290
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。鉴于你是自愿投降自首，我会考虑到这一点。向法庭缴纳%CrimeGoldTurnIn金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。
+你触犯了法律，%PCName。鉴于你是自愿投降自首，我会酌情考虑。向法庭缴纳%CrimeGoldTurnIn金币并交出你的赃物，或者交出你的赃物并服苦役。立即交钱，否则就跟我来。
 
 > INFO.BNAM greeting 0 26842177092586711290 c1
 Pay Gold.
@@ -27811,7 +27811,7 @@ Present Writs
 
 > INFO.NAME greeting 0 28453202671042816107
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. Pay %CrimeGoldTurnIn gold to the court and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。鉴于你是自愿投降自首，我会考虑到这一点。向法庭缴纳%CrimeGoldTurnIn金币并交出你的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。
+你触犯了法律，%PCName。鉴于你是自愿投降自首，我会酌情考虑。向法庭缴纳%CrimeGoldTurnIn金币并交出你的赃物，或者交出你的赃物并服苦役。立即交钱，否则就跟我来。
 
 > INFO.BNAM greeting 0 28453202671042816107 c1
 Pay Gold.
@@ -27827,7 +27827,7 @@ Resist Arrest.
 
 > INFO.NAME greeting 0 3221696071812632454
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
-你触犯了法律，%PCName。由于你是自愿自首的，我会酌情考虑。但你无法支付%CrimeGoldTurnIn金币的罚金，所以你必须投降然后交出你的赃物并服苦役。跟我走吧。
+你触犯了法律，%PCName。既然你是自愿投降自首的，我会酌情考虑。但你无法支付%CrimeGoldTurnIn金币法庭费用，所以你必须交出你的赃物并服苦役。跟我来。
 
 > INFO.BNAM greeting 0 3221696071812632454 c1
 Go to Jail.
@@ -27843,7 +27843,7 @@ Present Writs
 
 > INFO.NAME greeting 0 24093917276228210
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
-你违反了法律，%PCName。既然你是自愿自首的，我会考虑到这一点。但你没有%CrimeGoldTurnIn金币支付法庭费用，所以你必须投降然后交出赃物，服苦役。跟我来。
+你触犯了法律，%PCName。既然你是自愿投降自首的，我会酌情考虑。但你无法支付%CrimeGoldTurnIn金币法庭费用，所以你必须交出你的赃物并服苦役。跟我来。
 
 > INFO.BNAM greeting 0 24093917276228210 c1
 Go to Jail.
@@ -27859,7 +27859,7 @@ Present Writs
 
 > INFO.NAME greeting 0 3832139402051823602
 You violated the law, %PCName. Since you turned yourself in voluntarily, I'll take that into consideration. But you don't have the %CrimeGoldTurnIn gold to pay the court, so you must surrender your stolen goods and serve your sentence at hard labor. Come with me.
-你违反了法律，%PCName。既然你是自愿自首的，我会考虑到这一点。但你没有%CrimeGoldTurnIn金币支付法庭费用，所以你必须投降然后交出赃物，服苦役。跟我来。
+你触犯了法律，%PCName。既然你是自愿投降自首的，我会酌情考虑。但你无法支付%CrimeGoldTurnIn金币法庭费用，所以你必须交出你的赃物并服苦役。跟我来。
 
 > INFO.BNAM greeting 0 3832139402051823602 c1
 Go to Jail.
@@ -28011,7 +28011,7 @@ What's this about the Dark Brotherhood? You say you've been attacked by them? Th
 
 > INFO.NAME greeting 1 1205925765578328022
 My greetings and blessings upon you. I am Eno Romari. How may I help you in your journey through this life?
-我向你问好，祝福你。我是恩诺·罗马利。在你的人生旅途中，我能为你做些什么呢？
+我向你问好，祝福你。我是恩诺·罗马利。在你的人生旅途中，我能帮你点什么呢？
 
 > INFO.NAME greeting 1 9181221672803716176
 You again? Already made you a good blade. Stop bugging me.
@@ -28027,7 +28027,7 @@ Yeah, you're the one who wants me to forge the blade for you. And you apparently
 
 > INFO.NAME greeting 1 17439772915131578
 What do you want? I'm here to make weapons, not to chat.
-你想要什么？我是制造武器的，不是来聊天的。
+你有什么事？我是制造武器的，不是来聊天的。
 
 > INFO.NAME greeting 1 1842725074327928094
 You have no place here, child of living flesh. The Mazed Band must not be allowed to leave this tomb. The Band should never have existed at all. That was my folly, and this is my curse. For all eternity, I am damned to walk in this half life, to keep my creation from destroying the hearts and minds of mortals. Those who would challenge my fate will pay with their lives.
@@ -28107,7 +28107,7 @@ These are frightening times, friend %PCName. What is it you require?
 
 > INFO.NAME greeting 1 8086903206583467
 Good day to you. How may I help you, %PCName?
-祝你愉快。有什么可以帮助你的吗，%PCName？
+祝你愉快。我能帮你点什么，%PCName？
 
 > INFO.NAME greeting 1 7549132101964414265
 Greetings %PCName. I've been wanting to speak with you. I understand you've been performing some duties for Tienius, and you've done well. I believe there are other matters you should investigate as well.
@@ -28135,11 +28135,11 @@ Speak with my King Helseth, my friend. We can speak more when your business with
 
 > INFO.NAME greeting 1 46682916266061132
 Greetings. How may I help you?
-贵安。我能为你做些什么？
+贵安，我能帮你点什么？
 
 > INFO.NAME greeting 1 1664768421354719114
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 28444148402683010010
 Hello! What can I do for you?
@@ -28151,7 +28151,7 @@ My mother, Queen Barenziah, has been found dead. I understand you were seen near
 
 > INFO.NAME greeting 1 1228819430358418974
 Greetings, %PCName. There is much still to be done for the people of Morrowind, and I believe we will both be needed. How may I help you?
-贵安，%PCName。晨风的人民还有许多需求，我相信我们缺一不可。我能为你做些什么呢？ {需要}
+贵安，%PCName。晨风的人民还有许多需求，我相信我们缺一不可。我能帮你点什么？ {需要}
 
 > INFO.NAME greeting 1 29638582139344313
 I have been hearing many stories about you, %PCName. And about the goddess. In fact,  I've been hearing stories about a great deal of strange happenings in my city. I sent you to learn more about the attacks. I will assume that the rumors I have heard relate to that.
@@ -28287,7 +28287,7 @@ Hmmm...yes. You are the one that Hler mentioned. Interesting. You are to be of s
 
 > INFO.NAME greeting 1 3064322097112191275
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 363223804244536677
 What is it you need? I have no more jobs for you, but the Lady Almalexia has informed me that you may report to her directly.
@@ -29447,7 +29447,7 @@ Leave me alone with my grief.
 
 > INFO.NAME greeting 1 307761442028033143
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 1638352812712823661
 But... I don't understand. Is something the matter?
@@ -30899,15 +30899,15 @@ Who are you, outlander? And what are you doing here?
 
 > INFO.NAME greeting 1 1672221471134131626
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 18957246652271928795
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 207161686461973555
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 1 200672762419814487
 Meow.
@@ -31963,7 +31963,7 @@ It is truly a pleasure to see you.
 
 > INFO.NAME greeting 9 1882225093108915699
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME greeting 9 940215053234113895
 You're in an eggmine, outlander. So be careful. Kwama foragers and warriors won't attack miners, since they're used to our smell. But they attack intruders. And you smell like an intruder.
@@ -32915,7 +32915,7 @@ Nonsense. You don't know what you're talking about.
 
 > INFO.NAME almalexia 27854294722000614405
 Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.
-阿玛莱西娅是治愈之母，是怜悯之心和同情之源，是穷人和弱者的保护者。
+阿玛莱西娅是治愈之母，是怜悯之心和同情的源泉，是穷人和弱者的保护神。
 
 > INFO.BNAM almalexia 27854294722000614405 c1
 I found Sotha Sil dead, and killed Almalexia.
@@ -32935,7 +32935,7 @@ Thank you, but I must be going.
 
 > INFO.NAME almalexia 30990172302627631518
 Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.
-阿玛莱西娅是治愈之母，是怜悯之心和同情之源，是穷人和弱者的保护者。
+阿玛莱西娅是治愈之母，是怜悯之心和同情的源泉，是穷人和弱者的保护神。
 
 > INFO.BNAM almalexia 30990172302627631518 c1
 I found Sotha Sil dead, and killed Almalexia.
@@ -32951,7 +32951,7 @@ Thank you, but I must be going.
 
 > INFO.NAME almalexia 2195033431462926284
 Almalexia is Healing Mother, the source of compassion and sympathy, and protector of the poor and weak.
-阿玛莱西娅是治愈之母，是怜悯之心和同情之源，是穷人和弱者的保护者。
+阿玛莱西娅是治愈之母，是怜悯之心和同情的源泉，是穷人和弱者的保护神。
 
 > INFO.BNAM almalexia 2195033431462926284 c1
 I killed Vivec.
@@ -34195,7 +34195,7 @@ Walk in the light, in the spirits' names.
 
 > INFO.NAME hello 8072306662212126582
 What do you want?
-你想要什么？
+你有什么事？
 
 > INFO.NAME hello 29594223771810910715
 His Majesty commands....
@@ -35071,7 +35071,7 @@ Welcome, Novice. May your blessings increase.
 
 > INFO.NAME hello 26879245242447517084
 Greetings, Layman. How may I help you?
-幸会，教友。我能为你做些什么？
+幸会，教友，我能帮你点什么？
 
 > INFO.NAME hello 91328652597015756
 Knight of the Imperial Dragon, how may I serve you?
@@ -35443,19 +35443,19 @@ Mouth of House Telvanni, what can I do for you?
 
 > INFO.NAME hello 19444163971108512826
 Kinsman of House Redoran, how may I help you?
-瑞多然家族的族亲，我能帮你什么？
+瑞多然家族的族亲，我能帮你点什么？
 
 > INFO.NAME hello 22071130492317224816
 Kinsman of House Redoran, how may I help you?
-瑞多然家族的族亲，我能帮你什么？
+瑞多然家族的族亲，我能帮你点什么？
 
 > INFO.NAME hello 1321293553033016633
 Kinsman of House Redoran, how may I help you?
-瑞多然家族的族亲，我能帮你什么？
+瑞多然家族的族亲，我能帮你点什么？
 
 > INFO.NAME hello 283601138110027957
 Kinsman of House Redoran, how may I help you?
-瑞多然家族的族亲，我能帮你什么？
+瑞多然家族的族亲，我能帮你点什么？
 
 > INFO.NAME hello 105428000152559358
 Agent and Legionary. How can I do for you?
@@ -35507,19 +35507,19 @@ Lawman of House Telvanni, what can I do for you?
 
 > INFO.NAME hello 1101421953132104307
 Lawman of House Redoran, how may I help you?
-瑞多然家族的执法者，我能帮你什么？
+瑞多然家族的执法者，我能帮你点什么？
 
 > INFO.NAME hello 114729231366116917
 Lawman of House Redoran, how may I help you?
-瑞多然家族的执法者，我能帮你什么？
+瑞多然家族的执法者，我能帮你点什么？
 
 > INFO.NAME hello 1526717180308677502
 Lawman of House Redoran, how may I help you?
-瑞多然家族的执法者，我能帮你什么？
+瑞多然家族的执法者，我能帮你点什么？
 
 > INFO.NAME hello 21986263131620322513
 Lawman of House Redoran, how may I help you?
-瑞多然家族的执法者，我能帮你什么？
+瑞多然家族的执法者，我能帮你点什么？
 
 > INFO.NAME hello 788326246463818846
 Trooper and Legionary. How can I do for you?
@@ -35571,19 +35571,19 @@ Oathman of House Telvanni, what can I do for you?
 
 > INFO.NAME hello 1965928388274155841
 Oathman of House Redoran, how may I help you?
-瑞多然家族的宣誓者，我能为你做什么？
+瑞多然家族的宣誓者，我能帮你点什么？
 
 > INFO.NAME hello 375114889119218219
 Oathman of House Redoran, how may I help you?
-瑞多然家族的宣誓者，我能为你做什么？
+瑞多然家族的宣誓者，我能帮你点什么？
 
 > INFO.NAME hello 1795912597574818272
 Oathman of House Redoran, how may I help you?
-瑞多然家族的宣誓者，我能为你做什么？
+瑞多然家族的宣誓者，我能帮你点什么？
 
 > INFO.NAME hello 155440351819226279
 Oathman of House Redoran, how may I help you?
-瑞多然家族的宣誓者，我能为你做什么？
+瑞多然家族的宣誓者，我能帮你点什么？
 
 > INFO.NAME hello 2733827307666132740
 Spearman and Legionary. How can I do for you?
@@ -35635,19 +35635,19 @@ Retainer of House Telvanni, what can I do for you?
 
 > INFO.NAME hello 614526935129339172
 Retainer of House Redoran, how may I help you?
-瑞多然家族的家臣，我该怎么帮你？
+瑞多然家族的家臣，我能帮你点什么？
 
 > INFO.NAME hello 1660103371097811971
 Retainer of House Redoran, how may I help you?
-瑞多然家族的家臣，我该怎么帮你？
+瑞多然家族的家臣，我能帮你点什么？
 
 > INFO.NAME hello 498217078309401775
 Retainer of House Redoran, how may I help you?
-瑞多然家族的家臣，我该怎么帮你？
+瑞多然家族的家臣，我能帮你点什么？
 
 > INFO.NAME hello 4633310082842626358
 Retainer of House Redoran, how may I help you?
-瑞多然家族的家臣，我该怎么帮你？
+瑞多然家族的家臣，我能帮你点什么？
 
 > INFO.NAME hello 1003228961742030494
 Recruit and Legionary. How can I do for you?
@@ -35699,19 +35699,19 @@ Hireling of House Telvanni, what can I do for you?
 
 > INFO.NAME hello 13162252091091522428
 Hireling of House Redoran, how may I help you?
-瑞多然家族的雇员，我能为你做什么？
+瑞多然家族的雇员，我能帮你点什么？
 
 > INFO.NAME hello 24335245812023925035
 Hireling of House Redoran, how may I help you?
-瑞多然家族的雇员，我能为你做什么？
+瑞多然家族的雇员，我能帮你点什么？
 
 > INFO.NAME hello 2107115709219025532
 Hireling of House Redoran, how may I help you?
-瑞多然家族的雇员，我能为你做什么？
+瑞多然家族的雇员，我能帮你点什么？
 
 > INFO.NAME hello 1963823713920813471
 Hireling of House Redoran, how may I help you?
-瑞多然家族的雇员，我能为你做什么？
+瑞多然家族的雇员，我能帮你点什么？
 
 > INFO.NAME hello 84318339166287950
 Grandmaster of the Morag Tong, how may we serve?
