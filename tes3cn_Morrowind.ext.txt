@@ -260,7 +260,7 @@ Service
 
 > GMST.STRV sPersuasion
 Persuasion
-说服
+[说服]
 
 > GMST.STRV sBye
 Bye
@@ -1344,15 +1344,15 @@ Unlocked
 
 > GMST.STRV sBarter
 Barter
-交易
+[交易]
 
 > GMST.STRV sRepair
 Repair
-修理
+[修理]
 
 > GMST.STRV sSpells
 Spells
-法术
+[法术]
 
 > GMST.STRV sTraining
 Training
@@ -1360,7 +1360,7 @@ Training
 
 > GMST.STRV sTravel
 Travel
-旅行
+[旅行]
 
 > GMST.STRV sSpellmaking
 Spellmaking
@@ -1368,7 +1368,7 @@ Spellmaking
 
 > GMST.STRV sEnchanting
 Enchanting
-附魔
+[附魔]
 
 > GMST.STRV sJoystickNotFound
 Joystick not found.
@@ -2434,7 +2434,7 @@ Travel
 
 > GMST.STRV sServiceTrainingTitle
 Training
-训练
+[训练]
 
 > GMST.STRV sServiceTrainingWords
 I can teach nothing more about that skill
@@ -2458,7 +2458,7 @@ Choose a Specialization
 
 > GMST.STRV sSpellmakingMenuTitle
 Spellmaking
-法术制作
+[法术制作]
 
 > GMST.STRV sSpellmakingMenu1
 Spell Chance
@@ -8823,7 +8823,7 @@ Ok
 
 > SCPT.SCTX Sleepers m7
 In your dreams, a tall figure in a golden mask spoke to you: Lord Nerevar Indoril, Hai Resdaynia! Long forgotten, forged anew! Three belied you, three betrayed you! One you betrayed was three times true! Lord Voryn Dagoth, Dagoth Ur! Steadfast liegeman, faithful friend, bids you come and climb Red Mountain! Beneath Red Mountain, once again, break your bonds, shed cursed skin, and purge the n'wah from Morrowind!
-在梦中，一个戴着金色面具的高大身影对你说话：“因多瑞尔·尼瑞瓦大人，瑞斯代尼亚之主！遗忘久矣，再度锻造！三人辜负了您，三人背叛了您！您确切地三度背叛了我！沃伦·达格斯大人，达格斯·乌尔，坚定的盟友，忠实的朋友，请你前来红山！在红山之下，再度打破您的束缚，褪去被诅咒的皮肤，将外地人逐出晨风！”！
+在梦中，一个戴着金色面具的高大身影对你说话：因多瑞尔·尼瑞瓦大人，瑞斯代尼亚之主！遗忘久矣，再度锻造！三人辜负了您，三人背叛了您！而您所背叛之人，却三度忠诚于您！沃伦·达格斯大人，达格斯·乌尔！您坚定的属臣，忠实的友人，召您登上红山！在红山之下，再度打破枷锁，褪去受诅的皮肤，将异乡之徒逐出晨风！
 
 > SCPT.SCTX Sleepers m8
 Ok
@@ -36452,7 +36452,7 @@ Arvs-Drelen Cell Key
 
 > MISC.FNAM key_summoning_room
 Summoning Room Key
-传唤室钥匙
+召唤室钥匙
 
 > MISC.FNAM misc_vivec_ashmask_01_fake
 Vivec Ashmask
@@ -40436,7 +40436,7 @@ Sirollus Saccus
 
 > NPC_.FNAM Fanildil
 Fanildil
-法妮蒂尔
+法尼迪尔
 
 > NPC_.FNAM Aumsi
 Aumsi
@@ -40704,7 +40704,7 @@ Ashu-Ahhe
 
 > NPC_.FNAM ulath-pal
 Ulath-Pal
-乌拉斯-帕
+乌拉斯-帕尔
 
 > NPC_.FNAM ahaz
 Ahaz
@@ -64185,7 +64185,7 @@ He speaks for their land, and names them great.<BR>
 <BR>
 第七个试炼<BR>
 他的仁慈释放了被诅咒的虚假神明，<BR>
-束缚破碎者，救赎吧疯狂者。<BR>
+束缚破碎，救赎疯狂。<BR>
 <BR>
 一个命运<BR>
 他为维洛斯的人民讲法律。<BR>
@@ -73096,7 +73096,7 @@ Airan-Ahhe's Spirit Spear
 
 > CLOT.FNAM Maran Amulet
 Maran Amulet
-玛冉护符
+玛拉护符
 
 > CLOT.FNAM Stendarran Belt
 Stendarran Belt
@@ -73454,7 +73454,7 @@ Linus Iulus' Stendarran Belt
 
 > CLOT.FNAM Linus_Iulus_Maran Amulet
 Linus Iulus' Maran Amulet
-莱纳斯·尤卢斯的玛冉护符
+莱纳斯·尤卢斯的玛拉护符
 
 > CLOT.FNAM Restoration_Shirt
 Restoration Shirt
@@ -77548,15 +77548,15 @@ I spoke to Han-Ammu and made a little speech about having the courage to accept 
 
 > INFO.NAME b4_killwarlovers 626425148171130087
 Manirai says that now, with Ulath-Pal and his supporters out of the way, it is a simple matter to be named Nerevarine of the Erabenimsun. All I need to do is persuade Gulakhan Han-Ammu to become the ashkhan of the Erabenimsun. I'll find him in his gulakyurt. She warned me, however, that he may be difficult to persuade.
-玛尼莱说，现在乌拉斯-帕和他的支持者们都不在了，要任命我为埃勒比尼姆孙的尼瑞瓦因是件很简单的事。我需要做的就是说服古拉可汗罕-阿姆成为埃勒比尼姆孙的灰烬可汗。我会在他的古拉可汗帐篷里找到他。不过她警告我，他可能很难被说服。
+玛尼莱说，现在乌拉斯-帕尔和他的支持者们都不在了，要任命我为埃勒比尼姆孙的尼瑞瓦因是件很简单的事。我需要做的就是说服古拉可汗罕-阿姆成为埃勒比尼姆孙的灰烬可汗。我会在他的古拉可汗帐篷里找到他。不过她警告我，他可能很难被说服。
 
 > INFO.NAME b4_killwarlovers 2149293851708614666
 I told the Erabenimsun wise woman Manirai that I wish to be named Nerevarine by her tribe. She said this will never happen, not while Ashkhan Ulath-Pal and his supporters live. She says that if I want to be Nerevarine of the Erabenimsun, I must kill Ulath-Pal and his supporters, the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. Then I must raise Gulakhan Han-Ammu to Ashkhan. Ashkhan Han-Ammu would then name me Nerevarine Erabenimsun.
-我告诉埃勒比尼姆孙的女智者玛尼莱，我希望被她的部落称为尼瑞瓦因。她说这永远不会发生，只要灰烬可汗乌拉斯-帕和他的支持者还活着。她说，如果我想成为埃勒比尼姆孙的尼瑞瓦因，就必须杀死乌拉斯-帕和他的支持者，即古拉可汗阿哈兹、拉纳比和阿舒-艾赫。然后，我必须将古拉可汗罕-阿姆提升为灰烬可汗。然后，灰烬可汗罕-阿姆会承认我为尼瑞瓦因埃勒比尼姆孙。
+我告诉埃勒比尼姆孙的女智者玛尼莱，我希望被她的部落称为尼瑞瓦因。她说这永远不会发生，只要灰烬可汗乌拉斯-帕尔和他的支持者还活着。她说，如果我想成为埃勒比尼姆孙的尼瑞瓦因，就必须杀死乌拉斯-帕尔和他的支持者，即古拉可汗阿哈兹、拉纳比和阿舒-艾赫。然后，我必须将古拉可汗罕-阿姆提升为灰烬可汗。然后，灰烬可汗罕-阿姆会承认我为尼瑞瓦因埃勒比尼姆孙。
 
 > INFO.NAME b4_killwarlovers 2442417749973229928
 I asked Ashkhan Ulath-Pal of the Erabenimsun to name me Nerevarine. He mocked me as a hound and a foreign fool, and he said he would kill me with his own hand if I ever troubled him again.
-我请求埃勒比尼姆孙的灰烬可汗乌拉斯-帕称我为尼瑞瓦因。他嘲笑我是猎犬和外邦来的蠢货，他说如果我再找他麻烦，他就亲手杀了我。
+我请求埃勒比尼姆孙的灰烬可汗乌拉斯-帕尔称我为尼瑞瓦因。他嘲笑我是猎犬和外邦来的蠢货，他说如果我再找他麻烦，他就亲手杀了我。
 
 > INFO.NAME mt_s_stolidarmor 3108291642659822959
 I have returned the Belt of Sanguine Stolid Armor, one of the 27 Threads of the Webspinner.
@@ -77620,7 +77620,7 @@ I brought a bottle of vintage brandy to Sugar-Lips Habasi.
 
 > INFO.NAME tg_brotherbragor 273315646829231659
 Sugar-Lips Habasi told me that New-Shoes Bragor was caught by the guards in Pelagiad and is being held in Fort Pelagiad. Habasi heard that Mebestien Ence is secretly smuggling Dwemer materials and that Shadbak gra-Burbug, a guard in Fort Pelagiad, has been taking bribes to overlook the smuggling. I should steal a Dwemer artifact from Mebestien Ence, show it to Shadbak gra-Burbug, and demand that New-Shoes Bragor be released.
-蜜唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯提安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯提安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
+蜜唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯蒂安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯蒂安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
 
 > INFO.NAME tg_brotherbragor 883721219783110618
 Shadbak gar-Burbug agreed to release New-Shoes Bragor when I showed her the Dwemer artifact.
@@ -78200,7 +78200,7 @@ Baladas Demnevanni thanked me for bringing him a copy of "Nchunak's Fire and Fai
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了火焰镜袍。
+我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
@@ -86292,7 +86292,7 @@ You have defeated the war-loving Erabenimsun, and the peace-loving Erabenimsun r
 
 > INFO.NAME peace-loving erabenimsun 308731847238429726
 I am of the peace-loving Erabenimsun. We only wish to live and hunt as we have in the past, and do not wish to anger our neighbors by raiding and warfare. But Ashkhan Ulath-Pal and his supporters are strong and sure of themselves. They have grown rich by raiding and fighting, and they will not be ruled by the counsel of their wise woman.
-我是爱好和平的埃勒比尼姆孙部族成员。我们只希望像过去一样生活和狩猎，不希望通过袭击和战争激怒我们的邻居。但灰烬可汗乌拉斯-帕和他的支持者都很强大，对自己很有把握。他们靠掠夺和战争发家致富，他们不会听从他们的女智者的咨询和建议。
+我是爱好和平的埃勒比尼姆孙部族成员。我们只希望像过去一样生活和狩猎，不希望通过袭击和战争激怒我们的邻居。但灰烬可汗乌拉斯-帕尔和他的支持者都很强大，对自己很有把握。他们靠掠夺和战争发家致富，他们不会听从他们的女智者的咨询和建议。
 
 > INFO.NAME belan makes the leaflets 6764105131991725236
 Right. Galuro Belan. She's an apothecary over in the Telvanni section. I don't think her business is doing to well right now.
@@ -87612,7 +87612,7 @@ You have been named Erabenimsun Nerevarine. You have fulfilled one part of that 
 
 > INFO.NAME erabenimsun nerevarine 2885388722368627872
 You must go to Erabenimsun camp. The ashkhan of the Erabenimsun, Ulath-Pal, is a strong chief, but violent and cruel. He and his gulakhans are known as killers, and attack unarmed victims and betray the rules of hospitality. It is a difficult problem. Only the ashkhan can name you Nerevarine. But this ashkhan may not be willing, and even if he were, he is a bad chief, dishonorable, and not to be trusted. I do not know what you should do. Speak to the tribe's wise woman. Perhaps she will give you counsel.
-你必须前往埃勒比尼姆孙营地。埃勒比尼姆孙的灰烬可汗乌拉斯-帕是一位强大的领袖，但却暴虐残忍。他和他的古拉可汗是出了名的杀手，他们袭击手无寸铁的受害者，违背了招待之道的规定。这是一个棘手的问题。只有灰烬可汗能给任命你为尼瑞瓦因。但这个灰烬可汗可能不愿意，即使他愿意，他也是个坏酋长，不名誉，不值得信任。我不知道你该怎么办。去咨询部落里的女智者吧。也许她会给你建议。 {规则}
+你必须前往埃勒比尼姆孙营地。埃勒比尼姆孙的灰烬可汗乌拉斯-帕尔是一位强大的领袖，但却暴虐残忍。他和他的古拉可汗是出了名的杀手，他们袭击手无寸铁的受害者，违背了招待之道的规定。这是一个棘手的问题。只有灰烬可汗能给任命你为尼瑞瓦因。但这个灰烬可汗可能不愿意，即使他愿意，他也是个坏酋长，不名誉，不值得信任。我不知道你该怎么办。去咨询部落里的女智者吧。也许她会给你建议。 {规则}
 
 > INFO.NAME suppress the apographa 253012551614532646
 Why did I suppress the Apographa? Because it was such an unfortunate mixture of truth, falsehood, and speculation that I couldn't afford to manage the confused reaction of our faithful. Any doubt whatsoever weakened their faith, and we needed their faith to give us the power to maintain the Ghostfence. In retrospect, perhaps we lost the faith of those we most needed while preserving the faith of the meek and indifferent. Perhaps a mistake was made. Who can say?
@@ -88648,7 +88648,7 @@ You have defeated the war-loving Erabenimsun. But now we have no ashkhan, and I 
 
 > INFO.NAME war-loving erabenimsun 3044613141139622738
 Under the previous ashkhan, Han-Ammu's father, Airan-Ammu, the Erabenimsun grew bold and arrogant, confident in their strength of arms. Now Ashkhan Ulath-Pal and his champions have become cruel and violent, and our people live in fear. I am of the peace-loving Erabenimsun, and I wish that Airan-Ammu's son, Han Ammu, might become our new ashkhan. But we are weak, and Han-Ammu could never challenge Ulath-Pal, let alone all his supporters.
-在前任灰烬可汗——罕-阿姆的父亲艾兰-阿姆——的领导下，埃勒比尼姆孙变得大胆而傲慢，他们对自己的力量充满信心。现在，灰烬可汗乌拉斯-帕和他的拥护者们变得残忍而暴力，我们的人民生活在恐惧之中。我属于爱好和平的埃勒比尼姆孙，我希望艾兰-阿姆的儿子罕-阿姆能成为我们的新灰烬可汗。但是我们很弱小，罕-阿姆永远不可能挑战乌拉斯-帕，更不用说他的所有支持者了。
+在前任灰烬可汗——罕-阿姆的父亲艾兰-阿姆——的领导下，埃勒比尼姆孙变得大胆而傲慢，他们对自己的力量充满信心。现在，灰烬可汗乌拉斯-帕尔和他的拥护者们变得残忍而暴力，我们的人民生活在恐惧之中。我属于爱好和平的埃勒比尼姆孙，我希望艾兰-阿姆的儿子罕-阿姆能成为我们的新灰烬可汗。但是我们很弱小，罕-阿姆永远不可能挑战乌拉斯-帕尔，更不用说他的所有支持者了。
 
 > INFO.NAME galur rithari's papers 2221561711487114774
 Thank you for bringing me Galur Rithari's papers, %PCName.
@@ -88928,11 +88928,11 @@ This is your affair. I know nothing about it. I do not really understand this. B
 
 > INFO.NAME nerevarine prophecies 305152001295328041
 You have killed Ulath-Pal and his supporters? So you killed them, just because of these prophecies? You are mad. I tell you -- I am not the ashkhan, and I do not want to be ashkhan.
-你杀了乌拉斯-帕和他的支持者？就因为这些预言，你就杀了他们？你疯了。我告诉你——我不是灰烬可汗，我也不想成为灰烬可汗。
+你杀了乌拉斯-帕尔和他的支持者？就因为这些预言，你就杀了他们？你疯了。我告诉你——我不是灰烬可汗，我也不想成为灰烬可汗。
 
 > INFO.NAME nerevarine prophecies 7018211973305450
 But why tell me? I am not ashkhan. I can do nothing. And Ulath-Pal and his supporters would slash my face and kick me to death if I did not do as they say.
-但为什么要告诉我？我不是灰烬可汗，我什么也做不了。乌拉斯-帕和他的支持者们会割破我的脸，踢死我，如果我不按他们说的做的话。
+但为什么要告诉我？我不是灰烬可汗，我什么也做不了。乌拉斯-帕尔和他的支持者们会割破我的脸，踢死我，如果我不按他们说的做的话。
 
 > INFO.NAME nerevarine prophecies 21398285731128014568
 Very well. This problem has an easy solution.
@@ -88956,11 +88956,11 @@ Now, with Ulath-Pal and his supporters out of the way, it is a simple matter to 
 
 > INFO.NAME nerevarine prophecies 7363218522289716027
 But before anything else can be done, you must first eliminate Ulath-Pal and his supporters. Then you should come speak with me, and we will discuss further how you might be named Erabenimsun Nerevarine.
-但在做任何事情之前，你必须先除掉乌拉斯-帕和他的支持者。然后你应该来找我谈谈，我们会进一步讨论如何将你任命为埃勒比尼姆孙的尼瑞瓦因。
+但在做任何事情之前，你必须先除掉乌拉斯-帕尔和他的支持者。然后你应该来找我谈谈，我们会进一步讨论如何将你任命为埃勒比尼姆孙的尼瑞瓦因。
 
 > INFO.NAME nerevarine prophecies 1995418581643631720
 You wish to be named Erabenimsun Nerevarine? Never. Not while Ashkhan Ulath-Pal and his war-loving Erabenimsun live. They all hate Outlanders, and are proud and haughty, and will never suffer an Outlander to rule them. If you would be Nerevarine of the Erabenimsun, you must kill Ulath-Pal and his supporters, the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. Then you must help me make peace-loving Erabenimsun Gulakhan Han-Ammu our ashkhan. Ashkhan Han-Ammu could then name you Nerevarine Erabenimsun.
-你想被任命为埃勒比尼姆孙的尼瑞瓦因？绝不可能。只要灰烬可汗乌拉斯-帕和他好战的埃勒比尼姆孙族人还活着就不行。他们都憎恨外地人，骄傲自大，绝不允许外地人统治他们。如果你想成为埃勒比尼姆孙的尼瑞瓦因，你必须杀死乌拉斯-帕尔和他的支持者，古拉可汗阿哈兹、拉纳比和阿舒-艾赫。然后，你们必须帮我让爱好和平的埃勒比尼姆孙的古拉可汗罕-阿姆成为我们的灰烬可汗。然后，灰烬可汗罕-阿姆可以任命你为尼瑞瓦因。
+你想被任命为埃勒比尼姆孙的尼瑞瓦因？绝不可能。只要灰烬可汗乌拉斯-帕尔和他好战的埃勒比尼姆孙族人还活着就不行。他们都憎恨外地人，骄傲自大，绝不允许外地人统治他们。如果你想成为埃勒比尼姆孙的尼瑞瓦因，你必须杀死乌拉斯-帕尔和他的支持者，古拉可汗阿哈兹、拉纳比和阿舒-艾赫。然后，你们必须帮我让爱好和平的埃勒比尼姆孙的古拉可汗罕-阿姆成为我们的灰烬可汗。然后，灰烬可汗罕-阿姆可以任命你为尼瑞瓦因。
 
 > INFO.BNAM nerevarine prophecies 1995418581643631720 c1
 Continue
@@ -93628,7 +93628,7 @@ I thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall 
 
 > INFO.NAME want to be ashkhan 26588194362381330374
 Your lesson is clear. It is the robe that gives wisdom in counsel, and it is the idea of the robe that gives confidence to the tribe, but it is the ashkhan who wears the robe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
-你的教训很清楚，是袍子给了我们智慧，是袍子的理念给了部落信心。但穿上袍子的灰烬可汗，才是对部落安全负责的人。现在，乌拉斯-帕死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {咨询,沙尔}
+你的教训很清楚，是袍子给了我们智慧，是袍子的理念给了部落信心。但穿上袍子的灰烬可汗，才是对部落安全负责的人。现在，乌拉斯-帕尔死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {咨询,沙尔}
 
 > INFO.NAME want to be ashkhan 26867237781869126758
 Yes. It is a great token of power. Ranabi had a great many tokens of power from his ancestors. And perhaps if I had many tokens of power like Ranabi, I would feel more confidence. But I am not Ranabi, I do not have his tokens of power, and I do not have any confidence in myself. And I still do NOT want to be ashkhan.
@@ -93640,11 +93640,11 @@ Yes. It is a great token of power. Ranabi had a great many tokens of power from 
 
 > INFO.NAME want to be ashkhan 23655935878867293
 Thank you. Your lesson is clear. It is the ashkhan who wears the robe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I do not need the robe... you should keep it for yourself. And if you wish, I shall also name you Nerevarine.
-谢谢你的教诲。你的教诲很明确，穿上长袍的灰烬可汗才是对部落安全负责的灰烬可汗，部落的命运掌握在他的手中。现在，乌拉斯-帕死了，我掌握着部落的命运，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我不需要那件长袍…你自己留着吧。如果你愿意，我也会任命你为尼瑞瓦因。 {沙尔}
+谢谢你的教诲。你的教诲很明确，穿上长袍的灰烬可汗才是对部落安全负责的灰烬可汗，部落的命运掌握在他的手中。现在，乌拉斯-帕尔死了，我掌握着部落的命运，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我不需要那件长袍…你自己留着吧。如果你愿意，我也会任命你为尼瑞瓦因。 {沙尔}
 
 > INFO.NAME want to be ashkhan 31615131651299332176
 Thank you. Your lesson is clear. It is the robe that gives wisdom in counsel, and it is the idea of the robe that gives confidence to the tribe, but it is the ashkhan who wears the robe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
-谢谢，你的教训很清楚。是袍子给了我们智慧，是袍子的理念给了部落信心，但穿上袍子的灰烬可汗，才是承担部落安全责任的灰烬可汗，才是掌握部落命运的灰烬可汗。现在，乌拉斯-帕死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {咨询,沙尔}
+谢谢，你的教训很清楚。是袍子给了我们智慧，是袍子的理念给了部落信心，但穿上袍子的灰烬可汗，才是承担部落安全责任的灰烬可汗，才是掌握部落命运的灰烬可汗。现在，乌拉斯-帕尔死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {咨询,沙尔}
 
 > INFO.NAME want to be ashkhan 4632179002099111463
 Thank you. Your lesson is clear. It is the robe that gives wisdom in counsel, and it is the idea of the robe that gives confidence to the tribe, but it is the ashkhan who wears the robe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. This is a sobering lesson, and I must give it thought.
@@ -93664,7 +93664,7 @@ Show the robe and make a little speech.
 
 > INFO.NAME want to be ashkhan 26615702321628523
 Your lesson is clear. It is the amulet that gives courage in battle, and it is the idea of the amulet that gives confidence to the tribe, but it is the ashkhan who wears the amulet, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
-你的教训很清楚。是护身符给了人们战斗的勇气，是护身符的理念给了部落信心，但佩戴护身符的灰烬可汗，是承担部落安全责任的灰烬可汗，是掌握部落命运的灰烬可汗。现在，乌拉斯-帕死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {沙尔}
+你的教训很清楚。是护身符给了人们战斗的勇气，是护身符的理念给了部落信心，但佩戴护身符的灰烬可汗，是承担部落安全责任的灰烬可汗，是掌握部落命运的灰烬可汗。现在，乌拉斯-帕尔死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {沙尔}
 
 > INFO.NAME want to be ashkhan 10607171452595727159
 Yes. It is a great token of power. Ahaz was a great witch-warrior. And perhaps if I had that amulet, I would feel more like a great witch-warrior. But I am not Ahaz, I am CERTAINLY not a great witch-warrior, and I still do NOT want to be ashkhan.
@@ -93676,11 +93676,11 @@ Yes. It is a great token of power. Ahaz was a great witch-warrior. But I am not 
 
 > INFO.NAME want to be ashkhan 1567916150831919455
 Thank you. Your lesson is clear. It is the amulet that gives courage in battle, and it is the idea of the amulet that gives confidence to the tribe, but it is the ashkhan who wears the amulet, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
-谢谢，你的教训很清楚。是护身符给了战斗的勇气，是护身符的理念给了部落信心，但戴上护身符的是灰烬可汗，是接受部落安全责任的灰烬可汗，是将部落命运掌握在自己手中的灰烬可汗。现在，乌拉斯-帕死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {沙尔}
+谢谢，你的教训很清楚。是护身符给了战斗的勇气，是护身符的理念给了部落信心，但戴上护身符的是灰烬可汗，是接受部落安全责任的灰烬可汗，是将部落命运掌握在自己手中的灰烬可汗。现在，乌拉斯-帕尔死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {沙尔}
 
 > INFO.NAME want to be ashkhan 12813265351343023125
 Thank you. Your lesson is clear. It is the amulet that gives courage in battle, and it is the idea of the amulet that gives confidence to the tribe, but it is the ashkhan who wears the amulet, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
-谢谢，你的教训很清楚。是护身符给了战斗的勇气，是护身符的理念给了部落信心，但戴上护身符的是灰烬可汗，是接受部落安全责任的灰烬可汗，是将部落命运掌握在自己手中的灰烬可汗。现在，乌拉斯-帕死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {沙尔}
+谢谢，你的教训很清楚。是护身符给了战斗的勇气，是护身符的理念给了部落信心，但戴上护身符的是灰烬可汗，是接受部落安全责任的灰烬可汗，是将部落命运掌握在自己手中的灰烬可汗。现在，乌拉斯-帕尔死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗，我任命你为尼瑞瓦因。 {沙尔}
 
 > INFO.NAME want to be ashkhan 1212214332573233
 Thank you. Your lesson is clear. It is the amulet that gives courage in battle, and it is the idea of the amulet that gives confidence to the tribe, but it is the ashkhan who wears the amulet, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. This is a sobering lesson, and I must give it thought.
@@ -93700,7 +93700,7 @@ Show the amulet and make a little speech.
 
 > INFO.NAME want to be ashkhan 10187246142699128506
 Thank you. Your lesson is clear. It is the axe that gives strength in war, and it is the idea of the axe that gives confidence to the tribe, but it is the ashkhan who bears the axe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
-谢谢，你的教训很清楚。是斧头给了战争力量，是斧头的理念给了部落信心，但拿起斧头的是灰烬可汗，是灰烬可汗为部落的安全承担责任，是灰烬可汗将部落的命运掌握在自己手中。现在，乌拉斯-帕死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我任命你为尼瑞瓦因。 {熊,沙尔}
+谢谢，你的教训很清楚。是斧头给了战争力量，是斧头的理念给了部落信心，但拿起斧头的是灰烬可汗，是灰烬可汗为部落的安全承担责任，是灰烬可汗将部落的命运掌握在自己手中。现在，乌拉斯-帕尔死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我任命你为尼瑞瓦因。 {熊,沙尔}
 
 > INFO.NAME want to be ashkhan 2141791021340814076
 Yes. It is a great axe. My father was great man. And perhaps if I had that axe, I would feel more like my father. But I am not my father, I do not feel like my father, and I do not want to be ashkhan.
@@ -93712,11 +93712,11 @@ Yes. It is a great axe. My father was great man. But I am not my father, and I d
 
 > INFO.NAME want to be ashkhan 285243702299527239
 Thank you. Your lesson is clear. It is the ashkhan who bears the axe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I do not need the axe... you should keep it for yourself. And if you wish, I shall also name you Nerevarine.
-谢谢，你的教训很清楚。是灰烬可汗拿着斧头，是灰烬可汗为部落的安全承担责任，是灰烬可汗掌握着部落的命运。现在，乌拉斯-帕死了，部落的命运掌握在我手里，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我不需要斧头…你自己留着吧。如果你愿意，我还会任命你为尼瑞瓦因。 {熊,沙尔}
+谢谢，你的教训很清楚。是灰烬可汗拿着斧头，是灰烬可汗为部落的安全承担责任，是灰烬可汗掌握着部落的命运。现在，乌拉斯-帕尔死了，部落的命运掌握在我手里，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我不需要斧头…你自己留着吧。如果你愿意，我还会任命你为尼瑞瓦因。 {熊,沙尔}
 
 > INFO.NAME want to be ashkhan 735415167141210007
 Thank you. Your lesson is clear. It is the axe that gives strength in war, and it is the idea of the axe that gives confidence to the tribe, but it is the ashkhan who bears the axe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. Now, with Ulath-Pal dead, I hold the fate of the tribe in my hands, and I must accept that responsibility. Thank you for your lesson. I shall be Ashkhan of the Erabinimsun. And I shall name you Nerevarine.
-谢谢，你的教训很清楚。是斧头给了战争力量，是斧头的理念给了部落信心，但拿起斧头的是灰烬可汗，是灰烬可汗为部落的安全承担责任，是灰烬可汗将部落的命运掌握在自己手中。现在，乌拉斯-帕死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我任命你为尼瑞瓦因。 {熊,沙尔}
+谢谢，你的教训很清楚。是斧头给了战争力量，是斧头的理念给了部落信心，但拿起斧头的是灰烬可汗，是灰烬可汗为部落的安全承担责任，是灰烬可汗将部落的命运掌握在自己手中。现在，乌拉斯-帕尔死了，部落的命运掌握在我的手中，我必须接受这个责任。谢谢你的教诲，我将成为埃勒比尼姆孙的灰烬可汗。我任命你为尼瑞瓦因。 {熊,沙尔}
 
 > INFO.NAME want to be ashkhan 75289472292755882
 Thank you. Your lesson is clear. It is the axe that gives strength in war, and it is the idea of the axe that gives confidence to the tribe, but it is the ashkhan who bears the axe, the ashkhan who accepts responsibility for the safety of the tribe, who holds the fate of the tribe in his hands. This is a sobering lesson, and I must give it thought.
@@ -93724,7 +93724,7 @@ Thank you. Your lesson is clear. It is the axe that gives strength in war, and i
 
 > INFO.NAME want to be ashkhan 150123392780630940
 Yes. I recognize it. It is the war axe of my father, the War Axe of Airan-Ammu. Ulath-Pal had it from my father, and carried it as ashkhan. But what has that to do with my wanting to be ashkhan?
-是的，我认得它。这是我父亲的战斧，艾兰-阿穆的战斧。乌拉斯-帕从我父亲那里得到了它，并把它作为灰烬可汗随身携带。但这和我想成为灰烬可汗有什么关系？
+是的，我认得它。这是我父亲的战斧，艾兰-阿穆的战斧。乌拉斯-帕尔从我父亲那里得到了它，并把它作为灰烬可汗随身携带。但这和我想成为灰烬可汗有什么关系？
 
 > INFO.BNAM want to be ashkhan 150123392780630940 c1
 Give the Axe of Airan-Ammu and make a little speech.
@@ -94020,11 +94020,11 @@ The following creatures are susceptible to common diseases: scrib; kwama worker,
 
 > INFO.NAME blighted creatures 2720216070533025078
 The following creatures are susceptible to blight diseases: kwama queen, kwama forager, kwama warrior, kwama worker, scrib, cliff racer, alit, shalk, kagouti, nix hound, and rat. Since blight disease is contracted by contact, after an encounter with these creatures, make sure you haven't gotten a blight disease.
-以下生物容易在枯萎病瘟疫中感染枯萎病：夸蚂女王、夸蚂觅食者、夸蚂兵虫、夸蚂工虫、幼虫、峭壁迅鸟、盾角蜥、鳄蜥、砂壳虫、尼克斯猎犬和老鼠。由于枯萎病是通过接触感染的，因此在遇到这些生物后，要确保自己没有得过枯萎病。 {疾病,工作,沙尔,合同}
+以下生物容易在枯萎病瘟疫中感染枯萎病：夸蚂女王、夸蚂觅食者、夸蚂兵虫、夸蚂工虫、幼虫、峭壁迅鸟、盾角蜥、鳄蜥、砂壳虫、尼克斯猎犬和老鼠。由于枯萎病是通过接触感染的，因此在遇到这些生物后，要确保自己没有染上枯萎病。 {疾病,工作,沙尔,合同}
 
 > INFO.NAME blighted creatures 100420012589013251
 The following creatures are susceptible to blight diseases: kwama queen, kwama forager, kwama warrior, kwama worker, scrib, cliff racer, alit, shalk, kagouti, nix hound, and rat. Since blight disease is contracted by contact, after an encounter with these creatures, make sure you haven't gotten a blight disease.
-以下生物容易在枯萎病瘟疫中感染枯萎病：夸蚂女王、夸蚂觅食者、夸蚂兵虫、夸蚂工虫、幼虫、峭壁迅鸟、盾角蜥、鳄蜥、砂壳虫、尼克斯猎犬和老鼠。由于枯萎病是通过接触感染的，因此在遇到这些生物后，要确保自己没有得过枯萎病。 {疾病,工作,沙尔,合同}
+以下生物容易在枯萎病瘟疫中感染枯萎病：夸蚂女王、夸蚂觅食者、夸蚂兵虫、夸蚂工虫、幼虫、峭壁迅鸟、盾角蜥、鳄蜥、砂壳虫、尼克斯猎犬和老鼠。由于枯萎病是通过接触感染的，因此在遇到这些生物后，要确保自己没有染上枯萎病。 {疾病,工作,沙尔,合同}
 
 > INFO.NAME daedric summonings 3204822843910829785
 Certain Daedric summonings are more often encountered on Vvardenfell. Good Daedra are the Daedra associated with Boethiah, Azura, and Mephala -- the winged twilight and the hunger. Bad Daedra are associated with Mehrunes Dagon, Malacath, Sheogorath, and Molag Bal. Atronachs are unaligned Daedra of the elemental planes. But don't judge a summoning by its patron. The summoner commands a summoning, and, good or bad, nice or nasty, they must do the summoner's bidding.
@@ -95268,7 +95268,7 @@ Leave. Now.
 
 > INFO.NAME ragash gra-shuzgub 2699922789121932027
 She came demanding tribute for the Empire of men. I was here before Gnisis, before the Empire of men. I will be here after Gnisis is gone and after this short-lived Empire has crumbled. The people of Gnisis live only because I tolerate them. Why should I pay tribute?
-她是来向叫我人类帝国进贡的。在尼希斯之前，在人类帝国之前，我就在这里了。在尼希斯消失之后，在这个短命的泰姆瑞尔帝国崩溃之后，我还会在这里。尼希斯的人民之所以活着，只是因为我容忍了他们。我为什么要进贡？
+她是来向人类帝国进贡的。在尼希斯之前，在人类帝国之前，我就在这里了。在尼希斯消失之后，在这个短命的泰姆瑞尔帝国崩溃之后，我还会在这里。尼希斯的人民之所以活着，只是因为我容忍了他们。我为什么要进贡？
 
 > INFO.BNAM ragash gra-shuzgub 2699922789121932027 c1
 Ragash learned her lesson.
@@ -95964,7 +95964,7 @@ He speaks the law for Veloth's people.
 He speaks for their land, and names them great."""
 """第七个试炼
 他的怜悯释放了被诅咒的伪神，
-重组破碎，救赎疯狂。
+束缚破碎，救赎疯狂。
 
 一个命运
 他诉说着维洛斯人民的法理。
@@ -97092,7 +97092,7 @@ I don't care what Manirai says. I don't want to be ashkhan. Everyone despises me
 
 > INFO.NAME what manirai says 28025251212784320756
 No matter what Manirai says, I don't want to be ashkhan. Ulath-Pal and his supporters would kill me in a moment. They only let me live because they despise me. If they thought someone could use me to steal control of the tribe, they'd kill me in an instant.
-我不在乎玛尼莱说了什么，我不想成为灰烬可汗。乌拉斯-帕和他的支持者会立刻杀了我。他们让我活着只是因为他们鄙视我，如果他们认为有人能利用我夺取部落的控制权，他们会立刻杀了我。
+我不在乎玛尼莱说了什么，我不想成为灰烬可汗。乌拉斯-帕尔和他的支持者会立刻杀了我。他们让我活着只是因为他们鄙视我，如果他们认为有人能利用我夺取部落的控制权，他们会立刻杀了我。
 
 > INFO.NAME temple's doctrine 1924519053318415149
 The Devil is dead, and the Blight is gone. Praise Almsivi, and bless you, Nerevarine. Now we must set ourselves to work on reconciling the Dissident Priests with the Temple hierarchy. It should be difficult. We have been greatly at fault. But, with energy and goodwill, we must make a start. It is strange, however. that I have not heard from Lord Vivec. From time to time he does disappear, for reasons of his own, but it seems odd that he should be absent now in the moment of his triumph.
@@ -100806,7 +100806,7 @@ Let New-Shoes go, and I'll forget about it.
 
 > INFO.NAME new-shoes bragor 585915009134598991
 Where did you get that Dwemer artifact? I bet you stole it from Mebestien, thief!
-你从哪弄来的锻莫文物？我打赌是你从梅贝斯汀那里偷来的，小偷！
+你从哪弄来的锻莫文物？我打赌是你从梅贝斯蒂安那里偷来的，小偷！
 
 > INFO.BNAM new-shoes bragor 585915009134598991 c1
 Yeah, I stole it.
@@ -101538,7 +101538,7 @@ Lugrub is one of my best soldiers, though he's sometimes rash and quick to anger
 
 > INFO.NAME lugrub gro-ogdum 26978167152757719615
 Lugrub is dead and my death is avenged. Speak with Darius and do not let him take my wife's land. Then I can rest.
-拉格路布了，我的仇也报了。和达里乌斯谈谈，不要让他夺走我妻子的土地。这样我就可以休息了。
+拉格路布死了，我的仇也报了。和达里乌斯谈谈，不要让他夺走我妻子的土地。这样我就可以休息了。
 
 > INFO.NAME lugrub gro-ogdum 2499839573515549
 I came to the mines to get fresh kwama eggs for my family. Lugrub gro-Ogdum was sleeping, and I snuck past him. When I found enough eggs, I went back the way I came, only this time Lugrub was awake. Lugrub murdered me so that no one would know he failed his duty. He dropped the broken axe he used next to my body in the water behind me.
@@ -114042,7 +114042,7 @@ I was blind, but Azura's star has guided me through my dreams. Vivec's high prie
 
 > INFO.NAME seventh trial 1858721136248129081
 'The cursed false gods' must be the Tribunal. They are surely false gods, evil sorcerers and necromancers, and they murdered Nerevar so they might set themselves up as gods. "Binds the broken" must refer to Nerevar's broken promise to the Ashlanders to honor the ways of the Spirits and rights of the Land.
-“被诅咒的伪神”一定是审判席。他们肯定是伪神，是邪恶的术士和死灵法师，他们谋杀了尼瑞瓦，好让自己成为神。“束缚破碎者”一定是指尼瑞瓦违背了对灰烬之民的承诺，不遵守神灵之道和土地权利。
+“被诅咒的伪神”一定是审判席。他们肯定是伪神，是邪恶的术士和死灵法师，他们谋杀了尼瑞瓦，好让自己成为神。“束缚破碎”一定是指尼瑞瓦违背了对灰烬之民的承诺，不遵守神灵之道和土地权利。
 
 > INFO.NAME sealed report 2938014119877632517
 You already gave me the sealed report, %PCName.
@@ -114562,7 +114562,7 @@ All right. I understand. They're dead, and they can't hurt me. I'm not stupid. B
 
 > INFO.NAME get me killed 2837311551173231493
 They only made me a gulakhan because my father was a gulakhan. And I hated my father. He was a stupid brute, and a bully. But Ulath-Pal and the other gulakhans would kill me in a minute if they thought I wanted to be ashkhan.
-他们让我当古拉可汗，是因为我父亲是古拉可汗。我恨我父亲，他是个愚蠢的畜生，是个恶霸，但如果乌拉斯-帕和其他古拉可汗认为我想当灰烬可汗，他们会马上杀了我的。
+他们让我当古拉可汗，是因为我父亲是古拉可汗。我恨我父亲，他是个愚蠢的畜生，是个恶霸，但如果乌拉斯-帕尔和其他古拉可汗认为我想当灰烬可汗，他们会马上杀了我的。
 
 > INFO.NAME echo of souls 26442662180976552
 Thou wilt come to me there, my love, our senses tingling, through the inky ocean delight, our voices mingling.
@@ -117106,7 +117106,7 @@ Vivec's Ash Mask is a holy relic displayed within the shrine of the Gnisis Templ
 
 > INFO.NAME optio bologra 3115796219996656
 I keep a watchful eye. So don't cause any trouble.
-我一直在监视着，所以别惹麻烦。
+我保持着一双警惕的眼睛，所以别惹麻烦。
 
 > INFO.NAME optio bologra 212672410327117325
 Here's here somewhere, check around.
@@ -117290,7 +117290,7 @@ I'm trying to update our maps of the Bitter Coast. There are no goods maps of th
 
 > INFO.NAME latest rumors 160816075161534041
 I'm just support here. I don't pay much attention to what's going on.
-我只是来帮忙发，我不太关注这里发生的事。
+我只是来这帮忙，我不太关注这里发生的事。
 
 > INFO.NAME latest rumors 5640208922725417516
 I'm just a courier. Delivery boy. Follow orders and get paid. I don't know nothing. And I'm perfectly happy that way.
@@ -121980,11 +121980,11 @@ The Camonna Tong is Morrowind's native criminal syndicate.
 
 > INFO.NAME camonna tong 678349172275314556
 The Camonna Tong is Morrowind's native criminal syndicate. They're grown powerful and ruthless since the Imperial occupation, and have great influence in the higher ranks of House Hlaalu. The Camonna Tong are in direct competition with the Thieves Guild for control of illegal trade, and they have sworn to exterminate the upstart outlander newcomers. The Camonna Tong are known for their brutal disregard for human life.
-卡莫纳堂是晨风的本土犯罪集团。自帝国人占领森罗万象以来，他们变得越来越强大和冷酷无情，在哈拉鲁家族的高层中有很大的影响力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，他们发誓要消灭外地人的新贵。卡莫纳堂以残酷漠视人类生命而闻名。
+卡莫纳堂是晨风的本土犯罪集团。自帝国人占领晨风以来，他们变得越来越强大和冷酷无情，在哈拉鲁家族的高层中有很大的影响力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，他们发誓要消灭外地人的新贵。卡莫纳堂以残酷漠视人类生命而闻名。
 
 > INFO.NAME camonna tong 23552160212753218805
 The Camonna Tong is Morrowind's native criminal syndicate. They're grown powerful and ruthless since the Imperial occupation, and have great influence in the higher ranks of House Hlaalu. The Camonna Tong are in direct competition with the Thieves Guild for control of illegal trade, and they have sworn to exterminate the upstart outlander newcomers. The Camonna Tong are known for their brutal disregard for human life.
-卡莫纳堂是晨风的本土犯罪集团。自帝国人占领森罗万象以来，他们变得越来越强大和冷酷无情，在哈拉鲁家族的高层中有很大的影响力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，他们发誓要消灭外地人的新贵。卡莫纳堂以残酷漠视人类生命而闻名。
+卡莫纳堂是晨风的本土犯罪集团。自帝国人占领晨风以来，他们变得越来越强大和冷酷无情，在哈拉鲁家族的高层中有很大的影响力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，他们发誓要消灭外地人的新贵。卡莫纳堂以残酷漠视人类生命而闻名。
 
 > INFO.NAME dwemer ruins 32243223831991640
 You seem to truly have an interest in the Dwarves, so I will tell you this. Sneak into the Gnisis Eggmine. I heard they made a most unusual discovery recently.
@@ -122124,7 +122124,7 @@ You are very, very welcome. Ahnassi hopes you treasure the robe always.
 
 > INFO.NAME share a gift 7857295551774327091
 Oh, look! A Flamemirror Robe! How clever you are! But we both knew that, did we not? And my goodness. Such enchantments. And very, very pretty....
-哦，看啊，火焰镜袍。你真聪明，但我们都知道，不是吗？我的天啊，真是附魔之术的杰作。非常非常漂亮…… {魔法疾病}
+哦，看啊，焰镜长袍。你真聪明，但我们都知道，不是吗？我的天啊，真是附魔之术的杰作。非常非常漂亮…… {魔法疾病}
 
 > INFO.BNAM share a gift 7857295551774327091 c1
 Thank Ahnassi for the tip.
@@ -122136,11 +122136,11 @@ Give Ahnassi the robe as a gift.
 
 > INFO.NAME share a gift 13269293143072630372
 Ahnassi can't wait to see this Flamemirror Robe. Very valuable. Very mysterious. Ahnassi can't wait to see what it is.
-阿娜西迫不及待地想看看这件火焰镜袍。非常珍贵。非常神秘。阿娜西迫不及待想知道它是什么。
+阿娜西迫不及待地想看看这件焰镜长袍。非常珍贵。非常神秘。阿娜西迫不及待想知道它是什么。
 
 > INFO.NAME share a gift 12064128402121312652
 Ahnassi has a secret! Do you know what a Flamemirror Robe is? Well, Ahnassi does not, but she knows it is VERY valuable. And... A friend has told Ahnassi where it is! In the Telvanni Tower in Vivec! At the Telvanni Compound! This wizard Mavon Drenim, he does not wear it, so he keeps in it his clothes closet! Because you are so smart, Ahnassi knows you will get this Flamemirror Robe. And bring it to show Ahnassi how smart you are.
-阿娜西有一个秘密！你知道火镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔里。这个魔法师马文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件火焰镜袍。带上它，让阿娜西看看你有多聪明。 {服装}
+阿娜西有一个秘密！你知道焰镜长袍是什么吗？阿娜西不知道，但她知道它非常贵重，而且…一个朋友告诉了阿娜西它的下落：在维威克城泰瓦尼驻地的泰瓦尼塔里。这个魔法师马文·德雷尼姆不戴它，所以他把它放在衣服柜里！因为你很聪明，阿娜西知道你会得到这件焰镜长袍。带上它，让阿娜西看看你有多聪明。 {服装}
 
 > INFO.NAME share a gift 1345620136626220872
 I LOVE my pretty coda flower. And I LOVE your pretty gold kanet, too. So you keep the gold kanet, yes, and treasure it always. Thank you so much. Thank you, thank you, thank you. And now... you can ask Ahnassi to share a gift again, for it is Ahnassi's turn! Isn't this fun?
@@ -122232,7 +122232,7 @@ Ahnassi thanks you again and again.
 
 > INFO.NAME share a care 27780212171067528311
 Ahnassi is safe? This bad person is no more? If you get a price on your head for helping Ahnassi, Ahnassi calls in all her favors, gets this fixed. Promise. Ahnassi thanks you with her hands, her lips, her heart. You are not just a new friend, %PCName. You are a good friend, and true friend. Now Ahnassi can share a gift, a special gift she has found for her true and good friend.
-阿娜西安全了？这个坏人不再是坏人了？如果你帮了阿娜西的忙，阿娜西就会帮你的忙，把这个修好。我保证，阿娜西会用她的手、她的唇、她的心来感谢你。你不仅仅是个新朋友，%PCName。你是个好朋友，挚诚好友。现在，阿娜西可以分享礼物，一份她为真正的挚诚好友找到的特殊礼物。 {悬赏,女神之手}
+阿娜西安全了？这个坏人不再是坏人了？如果你帮了阿娜西的忙，阿娜西就会帮你的忙，解决这个问题。我保证，阿娜西会用她的手、她的唇、她的心来感谢你。你不仅仅是个新朋友，%PCName。你是个好朋友，挚诚好友。现在，阿娜西可以分享礼物，一份她为真正的挚诚好友找到的特殊礼物。 {悬赏,女神之手}
 
 > INFO.NAME share a care 15039161481941710809
 Ahnassi is worried and afraid, new friend, but Ahnassi understands, must be patient. New friend %PCName says he will take care of the bad person for Ahnassi, and Ahnassi knows he will keep his word.
@@ -125324,11 +125324,11 @@ I am a failed Incarnate. So are all these who remain here with me in the Cavern 
 
 > INFO.NAME erabenimsun 17176322441535228241
 The war-loving Erabenimsun of Molag Mar are bad people, badly led. The Ashlanders of Erabenimsun camp are greedy and cruel, and have no respect for Ashlander custom. Ashkhan Ulath-Pal is ruthless and arrogant, and he surrounds himself with gulakhans like himself. Blood will be spilled; let it not be yours. There is one gulakhan of their tribe, Han-Ammu, who might be shaped as a new ashkhan. He is a weak reed, but his Wise Woman, Manirai, is strong and resourceful. Seek her counsel.
-莫拉格-玛尔的好战的埃勒比尼姆孙，他们是恶人，被领导得很糟糕。埃勒比尼姆孙营地的灰烬之民贪婪残忍，不尊重灰烬之地的习俗。灰烬可汗乌拉斯-帕冷酷无情、傲慢无礼，他身边围绕着和他一样的古拉可汗。血是会流的，但不会是你的。他们部落里有一个古拉可汗，他叫罕-阿姆，有可能被塑造成新的灰烬可汗。他是一根软弱的芦苇，但他的女智者玛尼莱却坚强而足智多谋。去咨询她的意见。
+莫拉格-玛尔的好战的埃勒比尼姆孙，他们是恶人，被领导得很糟糕。埃勒比尼姆孙营地的灰烬之民贪婪残忍，不尊重灰烬之地的习俗。灰烬可汗乌拉斯-帕尔冷酷无情、傲慢无礼，他身边围绕着和他一样的古拉可汗。血是会流的，但不会是你的。他们部落里有一个古拉可汗，他叫罕-阿姆，有可能被塑造成新的灰烬可汗。他是一根软弱的芦苇，但他的女智者玛尼莱却坚强而足智多谋。去咨询她的意见。
 
 > INFO.NAME erabenimsun 10517133522490326447
 The Erabenimsun of Molag Mar love themselves and their weapons above all else. Their Ashkhan Ulath-Pal is cruel and ambitious, and his gulakhans are just like him. Their Wise Woman, Manirai, is cautious and reasonable. Seek her counsel. Don't waste your speech on the war khans.
-莫拉格-玛尔的埃勒比尼姆孙最爱只有武器和自己。他们的灰烬可汗乌拉斯-帕相当残忍且野心勃勃，他的古拉可汗们也和他一样。不过他们的女智者玛尼莱谨慎而通情达理。去咨询一下她的意见。不要把你的口舌浪费在战争可汗身上。
+莫拉格-玛尔的埃勒比尼姆孙最爱只有武器和自己。他们的灰烬可汗乌拉斯-帕尔相当残忍且野心勃勃，他的古拉可汗们也和他一样。不过他们的女智者玛尼莱谨慎而通情达理。去咨询一下她的意见。不要把你的口舌浪费在战争可汗身上。
 
 > INFO.NAME zainab camp 692718076337411945
 Zainab camp is southwest of the village of Vos, near the foothills of Red Mountain. Here. Let me mark it on your map. Head southwest across the Grazelands until you strike the foothills, then head south, keeping the foothills on your right. When you pass the Dwemer ruins of Nchuleft on the western edge of the Grazelands, you'll cross an east-west road; Zainab Camp is eight or ten yurts east of the hills and south of that road.
@@ -127756,7 +127756,7 @@ I am sorry for his loss, but happy you recovered his lost staff.
 
 > INFO.NAME linus iulus 23009173382100427341
 Lalatia Varian gave him the Silver Staff of Shaming and sent him in search of a traitor who had betrayed the cult. I believe she knew he was not equal to the task, though he begged for the quest, and I think his death is a burden on her conscience. I doubt that any of his physical remains will survive years of exposure to the elements. But you might find his Maran Amulet and Stendarran Belt. It would be a comfort to pass them on to other lay servants, to honor the memory of Linus Iulus.
-拉拉蒂亚·瓦里安给了他银制羞辱法杖，并派他去寻找一个背叛了教派的叛徒。我相信她知道他无法胜任这项任务，尽管他恳求完成任务，我认为他的死是她良心上的负担。我怀疑他的任何遗骸都经不起多年的风吹日晒。但你也许能找到他的玛拉护身符和斯丹达尔腰带，如果能把它们传给其他信众，将是对他们的安慰，也是对莱纳斯·尤卢斯的缅怀。
+拉拉蒂亚·瓦里安给了他银制羞辱法杖，并派他去寻找一个背叛了教派的叛徒。我相信她知道他无法胜任这项任务，尽管他恳求完成任务，我认为他的死是她良心上的负担。我怀疑他的任何遗骸都经不起多年的风吹日晒。但你也许能找到他的玛拉护符和斯丹达尔腰带，如果能把它们传给其他信众，将是对他们的安慰，也是对莱纳斯·尤卢斯的缅怀。
 
 > INFO.NAME nevena ules 2966303031317239
 I believe the councilor is upstairs in her room. She will receive you there.
@@ -132024,7 +132024,7 @@ I'm sorry, but this mission is too difficullt for me.
 
 > INFO.NAME greeting 5 28857183391689929682
 You've found Linus Iulus' Silver Staff of Shaming, and his Maran Amulet and Stendarran Belt. I think you should keep the staff, in honor of Linus Iulus' sacrifice. And we'll pass on the amulet and belt to some new lay servant. And as an additional reward for your service, here is a Restoration shirt. It will keep you fresh during heavy exercise, like long-distance running or tough fights. Thank you for your exertions on the cult's behalf, and when you're ready for another mission, speak to me again.
-你已经找到了莱纳斯·尤卢斯的银制羞辱法杖，还有他的玛拉护身符和斯丹达尔腰带。我觉得你应该留着这根法杖，以纪念莱纳斯·尤卢斯的牺牲。我们会把护身符和腰带传给信众。作为对你服务的额外奖励，这是一件恢复衬衫，它能让你在剧烈运动中保持清爽，比如长跑或艰苦的战斗。感谢你为教派所做的努力，当你准备好执行另一项任务时，再和我联系吧。 {报酬}
+你已经找到了莱纳斯·尤卢斯的银制羞辱法杖，还有他的玛拉护符和斯丹达尔腰带。我觉得你应该留着这根法杖，以纪念莱纳斯·尤卢斯的牺牲。我们会把护身符和腰带传给信众。作为对你服务的额外奖励，这是一件恢复衬衫，它能让你在剧烈运动中保持清爽，比如长跑或艰苦的战斗。感谢你为教派所做的努力，当你准备好执行另一项任务时，再和我联系吧。 {报酬}
 
 > INFO.NAME greeting 5 240190322844227464
 Thank you for retrieving the Silver Staff of Shaming. To honor Linus Iulus' memory, we will pass it on to some faithful servant of the Imperial cult. And as a reward for your service, here is a Restoration shirt. It will keep you fresh during heavy exercise, like long-distance running or tough fights. Thank you for your exertions on the cult's behalf, and when you're ready for another mission, speak to me again.
@@ -132232,7 +132232,7 @@ Hello, %PCRank %PCName. My name is Kaye, and I'm in charge of the volunteer shri
 
 > INFO.BNAM greeting 5 72299549489932063 c1
 I'm ready for a shrine sergeant assignment.
-我准备好去圣祠了。
+我准备好接受圣祠军士任务了。
 
 > INFO.BNAM greeting 5 72299549489932063 c2
 I have something else to ask about.
@@ -146632,7 +146632,7 @@ An outlander is anyone born and raised outside of Morrrowind. Most Dunmer think 
 
 > INFO.NAME ulath-pal 2317232378731975
 Ulath-Pal is always in his yurt, protected by his bodyguard, Gulakhan Ahaz. I am just a weak woman, and I am sure you would know best, but I would kill Ahaz first, the weaker of the two, and if I had secret magics and powers, I would use them to preserve me while I defend against two enemies at once.
-乌拉斯-帕总是待在他的帐篷里，由他的保镖古拉可汗阿哈兹保护着。我只是一个弱女子，我相信你会最清楚，但我会先杀了阿哈兹，因为他是两个人中最弱的一个，如果我有秘术和力量，我会用它们来保护我，同时抵御两个敌人。
+乌拉斯-帕尔总是待在他的帐篷里，由他的保镖古拉可汗阿哈兹保护着。我只是一个弱女子，我相信你会最清楚，但我会先杀了阿哈兹，因为他是两个人中最弱的一个，如果我有秘术和力量，我会用它们来保护我，同时抵御两个敌人。
 
 > INFO.NAME ashu-ahhe 74873930226414655
 Ashu-Ahhe is a great fighter -- the most strong and experienced of the Erabenimsun. He wears enchanted armor, and boasts that none of the Erabenimsun can defeat him -- not even Ulath-Pal.
@@ -148320,7 +148320,7 @@ Yes, I have the land deed for the abandoned Rethan Manor. We just need to barter
 
 > INFO.NAME land deed 22797217082606422045
 Do not let them take my lands. Avenge my death and let my wife live in peace.
-别让他们夺走我的土地，为我报仇，让我妻子安息吧。
+别让他们夺走我的土地，为我报仇，让我妻子过上安宁的生活。
 
 > INFO.NAME nine-toes 2894723582136028300
 You may have heard that he is a murderer. I have known Nine-Toes for many years. I do not believe he could be the real murderer. Why not see for yourself? From my house go down the steps to your right. His house is the first on your left.
@@ -152376,27 +152376,27 @@ If you hope to persuade Han-Ammu to become ashkhan, you must find some way to gi
 
 > INFO.NAME counsel 3121826102868720049
 Now, with Ashkhan Ulath-Pal and his supporters dead, we may consider the Nerevarine prophecies and how you might be named Erabenimsun Nerevarine.
-现在，灰烬可汗乌拉斯-帕和他的支持者都死了，我们可以考虑一下尼瑞瓦因预言，以及你如何才能被任命为埃勒比尼姆孙的尼瑞瓦因。
+现在，灰烬可汗乌拉斯-帕尔和他的支持者都死了，我们可以考虑一下尼瑞瓦因预言，以及你如何才能被任命为埃勒比尼姆孙的尼瑞瓦因。
 
 > INFO.NAME counsel 14019196903151723658
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun. I think you will defeat Ranabi and Ashu-Ahhe in single combat. But if you stand alone against Ulath-Pal and his bodyguard, Ahaz, you may not prevail. If you have hidden skills and resources, or you are a mighty sorcerer or enchanter, perhaps you may defeat them.
-如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请了解你的敌人，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。我认为你会在单挑中打败拉纳比和阿舒-艾赫。但如果你独自对抗乌拉斯-帕和他的保镖阿哈兹，你可能不会取得胜利。如果你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，也许你可以打败他们。 {认识你}
+如果你想与灰烬可汗乌拉斯-帕尔和他的支持者战斗，请了解你的敌人，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。我认为你会在单挑中打败拉纳比和阿舒-艾赫。但如果你独自对抗乌拉斯-帕尔和他的保镖阿哈兹，你可能不会取得胜利。如果你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，也许你可以打败他们。 {认识你}
 
 > INFO.NAME counsel 7340228062460010366
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun. Perhaps you could defeat Ranabi and Ashu-Ahhe in single combat. But, unless you have hidden skills and resources, or you are a mighty sorcerer or enchanter, I don't know how you could defeat Ulath-Pal and his bodyguard, Ahaz.
-如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。也许你能在单挑中击败拉纳比和阿舒-艾赫。但是，除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败乌拉斯-帕和他的保镖阿哈兹。 {认识你}
+如果你想与灰烬可汗乌拉斯-帕尔和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙。也许你能在单挑中击败拉纳比和阿舒-艾赫。但是，除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败乌拉斯-帕尔和他的保镖阿哈兹。 {认识你}
 
 > INFO.NAME counsel 19181314282708623986
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun, and much stronger than you. Unless you have hidden skills and resources, or you are a mighty sorcerer or enchanter, I don't know how you could defeat them.
-如果你想与灰烬可汗乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你强大得多。除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败他们。 {认识你}
+如果你想与灰烬可汗乌拉斯-帕尔和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你强大得多。除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败他们。 {认识你}
 
 > INFO.NAME counsel 1938199411544321286
 If you would fight Ashkhan Ulath-Pal and his supporters, know your enemy, and come prepared. His supporters are the gulakhans Ahaz, Ranabi, and Ashu-Ahhe. They are the strongest of the fighting Erabenimsun, and more experienced than you. Unless you have hidden skills and resources, or you are a mighty sorcerer or enchanter, I don't know how you could defeat them.
-如果你要与灰烬可汗·乌拉斯-帕和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你更有经验。除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败他们。 {认识你}
+如果你要与灰烬可汗·乌拉斯-帕尔和他的支持者战斗，请知己知彼，有备而来。他的支持者是古拉可汗阿哈兹、拉纳比和阿舒-艾赫。他们是战斗力最强的埃勒比尼姆孙，比你更有经验。除非你有隐藏的技能和资源，或者你是一个强大的术士或附魔师，否则我不知道你怎么能打败他们。 {认识你}
 
 > INFO.NAME counsel 2416420111417724390
 I warn you. Be wary of Ashkhan Ulath-Pal and his supporters. They all hate Outlanders, and love nothing more than to kill them and loot them. They do not respect custom or hospitality, and they think nothing of killing unarmed men, women, or children. They are bad men, and bad leaders, and you should fear them.
-我警告你。要提防灰烬可汗乌拉斯-帕和他的支持者。他们都憎恨外地人，最喜欢的就是杀戮和掠夺。他们不尊重习俗和招待之道，杀害手无寸铁的男人、女人和孩子也在所不惜。他们是坏人，是坏领袖，你应该害怕他们。
+我警告你。要提防灰烬可汗乌拉斯-帕尔和他的支持者。他们都憎恨外地人，最喜欢的就是杀戮和掠夺。他们不尊重习俗和招待之道，杀害手无寸铁的男人、女人和孩子也在所不惜。他们是坏人，是坏领袖，你应该害怕他们。
 
 > INFO.NAME counsel 29574284372487118317
 Hah. You do not need my counsel, Nerevarine. But I will give you the words of my dream. 'When the Nerevarine goes to Red Mountain to face Dagoth Ur, he carries the hearts of his kin with him.' Whose hearts? Whose kin? Who knows? Who knows who speaks in my dreams?
@@ -158172,7 +158172,7 @@ Our trader, Lanabi, has her yurt with the ashkhan's and the gulakhan's yurts.
 
 > INFO.NAME karpal 5424246801860226127
 Karpal is very stupid, but very strong. I have seen him slay a beast with a single blow. Keep him at a distance, or he will crush you. He is always at Ulath-Pal's side.
-卡尔帕很笨，但很强壮，我见过他一拳打死一头野兽。和他保持距离，否则他会把你压扁的。他总是在乌拉斯-帕的身边。
+卡尔帕很笨，但很强壮，我见过他一拳打死一头野兽。和他保持距离，否则他会把你压扁的。他总是在乌拉斯-帕尔的身边。
 
 > INFO.NAME ranabi 28065154192881713306
 Ranabi is mean and solitary. He is cunning, but he relies too much on the power of his ancestor's enchantments. He is not so strong, but beware -- he bears a poisoned blade.
@@ -158188,7 +158188,7 @@ You carry Sanit-Kil's Heart of Fire. That is an example of a token recognized by
 
 > INFO.NAME tokens 1370317342619618758
 The War Axe of Airan-Ammu that you have, that is an example of a token recognized by all the tribes. It was the axe that Han-Ammu's father carried when he was ashkhan, and Ulath-Pal wore it, too. Perhaps if you gave that axe to Han-Ammu, it would give him the confidence of a fighter.
-你手上的艾兰-阿穆战斧，是所有部落都认可的信物。那是罕-阿姆的父亲在当灰烬可汗时随身携带的斧头，乌拉斯-帕也曾佩戴过它。也许，如果把那把斧头送给罕-阿姆，就能给他带来战士的自信。
+你手上的艾兰-阿穆战斧，是所有部落都认可的信物。那是罕-阿姆的父亲在当灰烬可汗时随身携带的斧头，乌拉斯-帕尔也曾佩戴过它。也许，如果把那把斧头送给罕-阿姆，就能给他带来战士的自信。
 
 > INFO.NAME tokens 446623263404429056
 By tokens, I mean well-known tribal heirlooms, objects of power handed down through the generations by gulakhans and ashkhans. Such tokens are marks of power and distinction, and might give Han-Ammu the abilities and confidence he needs.
@@ -159240,7 +159240,7 @@ There aren't many of us here in Balmora. Just me, Estirdalin, Imare, Nalcarya th
 
 > INFO.NAME altmer 181661682979903082
 I am one of the few here in Balmora. What can I do for you?
-我是在巴尔莫拉为数不多的几个人之一。我能为你们做些什么？
+我是在巴尔莫拉为数不多的几个人之一。我能为你做些什么？
 
 > INFO.NAME altmer 273702021591405317
 There aren't many of us here in Balmora. Just me, Estirdalin, Imare, Culumaire, Hecerinde, and Tyermaillin. Why do you ask?
@@ -163696,7 +163696,7 @@ You need not be afraid. My anger is reserved for the foolish.
 
 > INFO.NAME hello 23012244323175214229
 You have my ear.
-我听你的。
+我在听。
 
 > INFO.NAME hello 128751312418223348
 You bring infection with you. Go away.
@@ -175544,7 +175544,7 @@ Thank you for sharing these tales and rumors. For our part, we have little news.
 
 > INFO.NAME ahaz 1571725868221634798
 Ahaz is Ulath-Pal's faithful bodyguard. He is not so strong or skilled as Ashu-Ahhe. But wherever you see Ulath-Pal, you will also see Ahaz. If you fight Ulath-Pal, you must also fight Ahaz.
-阿哈兹是乌拉斯-帕忠实的保镖。他没有阿舒-艾赫那么强壮，也没有阿舒-艾赫那么熟练。但无论你在哪里看到乌拉斯-帕，你都会看到阿哈兹。如果你与乌拉斯-帕尔战斗，你也必须与阿哈兹战斗。 {信仰}
+阿哈兹是乌拉斯-帕尔忠实的保镖。他没有阿舒-艾赫那么强壮，也没有阿舒-艾赫那么熟练。但无论你在哪里看到乌拉斯-帕尔，你都会看到阿哈兹。如果你与乌拉斯-帕尔战斗，你也必须与阿哈兹战斗。 {信仰}
 
 > INFO.NAME writ 11187305203207113531
 You are a traitor to the Morag Tong. We have issued a Writ in your name.

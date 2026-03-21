@@ -144,7 +144,7 @@ Profit:
 
 > GMST.STRV sCompanionShare
 Share
-分享
+[分享]
 
 > GMST.STRV sCompanionWarningMessage
 Your mercenary is poorer now than when he contracted with you.  Your mercenary will quit if you do not give him gold or goods to bring his Profit to a positive value.
@@ -9597,7 +9597,7 @@ Thieves Guild: Free New-Shoes Bragor
 
 > INFO.NAME tg_brotherbragor 273315646829231659
 Sugar-Lips Habasi told me that New-Shoes Bragor was caught by the guards in Pelagiad and is being held in Fort Pelagiad. Habasi heard that Mebestien Ence is secretly smuggling Dwemer materials and that Shadbak gra-Burbug, a guard in Fort Pelagiad, has been taking bribes to overlook the smuggling. I should steal a Dwemer artifact from Mebestien Ence, show it to Shadbak gra-Burbug, and demand that New-Shoes Bragor be released.
-蜜唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯提安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯提安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
+蜜唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯蒂安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯蒂安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
 
 > INFO.NAME tg_brotherbragor 2923874592014914267
 Sugar-Lips Habasi thanked me for getting New-Shoes Bragor released.
@@ -10205,7 +10205,7 @@ Ahnassi, a Special Friend
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了火焰镜袍。
+我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
