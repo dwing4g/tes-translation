@@ -156,7 +156,7 @@ Let the mercenary quit.
 
 > GMST.STRV sCompanionWarningButtonTwo
 Return to Companion Share display.
-返回同伴共享界面。
+返回同伴分享界面。
 
 > GMST.STRV sEffectSummonFabricant
 Summon Fabricant
@@ -13966,7 +13966,7 @@ Mages Guild: Manwe's Dues
 
 > INFO.NAME mg_paydues 15205307771592117917
 Manwe, a Guild member in Punabi, has not paid any Guild dues in three months. Ranis asked me to find Manwe and collect the dues from her. To get to Punabi, I should go south from Balmora and take the road east past Fort Moonmoth. I should cross the bridge northeast of the Fort and continue east until I reach the lake. The old Dunmer stronghold of Marandas is just south of the lake. Punabi is on the trail that leads northeast from the lake.
-普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾要塞，穿过月蛾要塞北方的桥，然后继续向东走，直到到达湖边。丹莫的古老堡垒玛兰达斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。
+普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾要塞，穿过月蛾要塞北方的桥，然后继续向东走，直到到达湖边。丹莫的古老堡垒玛冉杜斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。
 
 > INFO.NAME mg_paydues 3191612742353921129
 I gave Manwe's Guild Dues to Ranis Athrys.
@@ -24576,7 +24576,7 @@ Do not harm me, or you will be very sorry. I warn you. Leave me alone, and I wil
 
 > INFO.NAME greeting 1 964513448260061071
 I have nothing. Go away. Leave me in peace.
-我什么都没有，你走吧，让我安息吧。
+我什么都没有，你走吧，让我静一静吧。
 
 > INFO.NAME greeting 1 70001347523907832
 You have killed someone dear to me. It is a mistake you will not live to regret.
@@ -26680,7 +26680,7 @@ I...built an airship, you see.  Quite a...quite a...um...beautiful craft, if I m
 
 > INFO.NAME my airship 10389276342426430826
 Oh, %PCName, the ship...well, airship...is so very beautiful.  The best...most ambitious thing...that is to say...it was my, well...pet project.  And it flew...so very well! Well...um...it flew, and I...um..I guess that was good enough...hmmm....
-哦，%PCName，这艘船…嗯，飞艇…太漂亮了。最好的…最有野心的东西…也就是说…它是我的…宠物项目。它飞得…非常好……
+哦，%PCName，这艘船…嗯，飞艇…太漂亮了。最好的…最有野心的东西…也就是说…它是我的…宝贝项目。它飞得…非常好……
 
 > INFO.NAME silly song 1972258172233232461
 It's rather embarrassing, really.  I mean, I was deeply affected by the moon sugar, and I'm not even sure I can trust my own recollections.  But, well, I heard singing.  It was a very strange tune, more like a nursery rhyme.  Something you'd sing to a child, maybe.  I only caught a little of it.  Something about a workshop in the snow, and lanterns all aglow.  And I remember something about candy.  Oh yes, and there were lots of he he he's and ha ha ho's.  It's all so absurd, I know.

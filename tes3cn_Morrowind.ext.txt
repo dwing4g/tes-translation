@@ -13875,7 +13875,7 @@ Bucket
 
 > MISC.FNAM misc_com_iron_ladle
 Iron Ladle
-铁制水壶
+铁制长柄勺
 
 > MISC.FNAM Misc_Com_Pitcher_Metal_01
 Pitcher
@@ -18870,7 +18870,7 @@ Feeling the first real relief he had felt in days, Zaki walked backwards out of 
 <BR>
 “请帮帮我吧”，扎奇说“每一段我听到或者想到的对话似乎都会排列成字母浮于眼前。我不知道是我疯了还是还是真有某种神秘的力量在作祟。老实跟您说吧，我在正常情况下都是不信任您这类型的治疗师的，但我现在只能死马当活马医了。您能帮我把这个疯狂的症状治愈好吗？”<BR>
 <BR>
-“实际上，这是普通的疾病，”男人一边安慰地轻拍扎奇的手臂一边说道，“当你收到那些最后一个字时，对话是按最后一个字反着进行的还是按第一个字顺着进行的？”<BR>
+“实际上，这是普通的疾病，”男人一边安慰地轻拍扎奇的手臂一边说道，“当你收到最后一个字时，对话是按最后一个字反着进行的还是按第一个字顺着进行的？”<BR>
 <BR>
 “按最后一个字反着进行”扎奇说，随后他又纠正自己，“他妈的不对！我是说，按第一个字顺着进行的，轮番滚动。我真的痛苦不堪啊。您能告诉我这到底是什么症状吗？我是不是疯了？”<BR>
 <BR>
@@ -34852,11 +34852,11 @@ Redware Bowl
 
 > MISC.FNAM Misc_DE_glass_green_01
 Green Glass
-绿色玻璃
+绿色玻璃杯
 
 > MISC.FNAM misc_de_glass_yellow_01
 Yellow Glass 
-黄色玻璃
+黄色玻璃杯
 
 > MISC.FNAM misc_de_muck_shovel_01
 Muck Shovel
@@ -76108,7 +76108,7 @@ Sul-Matuul has sent me to the Urshilaku Burial Caverns to fetch Sul-Senipul's Bo
 
 > INFO.NAME a2_1_meetsulmatuul 304422549727125661
 I must go to Urshilaku Burial Caverns to retrieve Bonebiter, the bonemold long bow of Sul-Matuul's ancestor, Sul-Senipul. Sul-Matuul says that the Urshilaku Burial Caverns lie to the south-southeast of Urshilaku camp, halfway between the camp and the slopes of Red Mountain. He warns me that Ashlander ancestral spirits guard these burial chambers.
-我必须去乌尔希拉库墓穴取回苏尔-玛图尔祖先苏尔-塞尼普尔的骨模长弓——破骨弓。苏尔-玛图尔说乌尔希拉库墓穴位于乌尔希拉库营地东南偏南，在营地和红山山坡的中间。从乌尔希拉库营地向正南方向一直走，留意左手边，会看到一个朝北的小门。他警告我说，灰烬之地的祖灵会守护这些墓室。 {瓜尔,卫兵}
+我必须去乌尔希拉库墓穴取回苏尔-玛图尔祖先苏尔-塞尼普尔的骨模长弓——破骨弓。苏尔-玛图尔说乌尔希拉库墓穴位于乌尔希拉库营地东南偏南，在营地和红山山坡的中间。从营地向正南方向一直走，留意左手边，会看到一个朝北的小门。他警告我说，灰烬之地的祖灵会守护这些墓室。 {瓜尔,卫兵}
 
 > INFO.NAME a2_1_meetsulmatuul 1425631883115876748
 I completed the initiation rite by bringing Sul-Senipul's Bonebiter Bow to Sul-Matuul. He has named me a Clanfriend of the Ashlanders He has also given me permission to go to the wise woman's yurt and speak with Nibani Maesa, who will examine me and test me against the Nerevarine prophecies.
@@ -77744,7 +77744,7 @@ Darius asked me to rescue a pilgrim from an outcast Ashlander camp outside of Al
 
 > INFO.NAME il_rescuepilgrim 16834195661152712638
 Asha-Ammu told me that Madura Seran is being held hostage at a camp north of Gnisis, just south of Ald Velothi. Asha-Ammu said that I might avoid a fight if I pay a ransom for Medura Seran.
-阿莎-阿穆告诉我，玛杜拉·瑟然被挟持在奥德-维洛提以南尼希斯以北的一个营地里。阿莎-阿穆说，如果我为马杜拉·塞兰支付赎金，就可以避免一场战斗。
+阿莎-阿穆告诉我，玛杜拉·瑟然被挟持在奥德-维洛提以南尼希斯以北的一个营地里。阿莎-阿穆说，如果我为玛杜拉·瑟然支付赎金，就可以避免一场战斗。
 
 > INFO.NAME il_rescuepilgrim 6468178931998130612
 The ashlanders agreed to let Madura Seran go after I paid them a ransom.
@@ -84196,7 +84196,7 @@ I gave the Dwemer scarab plans I found in Mzuleft to Edwinna.
 
 > INFO.NAME mg_paydues 15205307771592117917
 Manwe, a Guild member in Punabi, has not paid any Guild dues in three months. Ranis asked me to find Manwe and collect the dues from her. To get to Punabi, I should go south from Balmora and take the road east past Fort Moonmoth. I should cross the bridge northeast of the Fort and continue east until I reach the lake. The old Dunmer stronghold of Marandas is just south of the lake. Punabi is on the trail that leads northeast from the lake.
-普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾要塞，穿过月蛾要塞北方的桥，然后继续向东走，直到到达湖边。丹莫的古老堡垒玛兰达斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。
+普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾要塞，穿过月蛾要塞北方的桥，然后继续向东走，直到到达湖边。丹莫的古老堡垒玛冉杜斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。
 
 > INFO.NAME mg_paydues 2999512457306583885
 Manwe says that she is no longer a member of the Mages Guild and refuses to pay the dues.
@@ -88632,7 +88632,7 @@ Really? A Breton woman, Piernette Beluelle, lives on a farm to the east of Pelag
 
 > INFO.NAME andrano ancestral tomb 31045242555523926
 Yes. Andrano Ancestral Tomb. South of Pelagiad. Just off the road. Just before the fork where the road goes southwest towards Seyda Neen and southeast to Vivec.
-好的。安德拉诺先祖墓穴。在佩拉吉亚德的南边。就在路边，在往赛达-尼恩西南方向，和往维威克东南方向的岔路口前。
+是的。安德拉诺先祖墓穴。在佩拉吉亚德的南边。就在路边，在往赛达-尼恩西南方向，和往维威克东南方向的岔路口前。
 
 > INFO.NAME andrano ancestral tomb 1091431135261045346
 The tomb is south of Pelagiad, just off the road, just before you reach the fork where the road goes southwest towards Seyda Neen and southeast to Vivec. You may need an enchanted blade. Some spirits are immune to normal weapons. Here. Take this old shortsword. And maybe these old scrolls will come in handy.
@@ -92824,7 +92824,7 @@ He's gone, %PCRank.
 
 > INFO.NAME aengoth the jeweler 3011516357132133641
 Check on the second floor. That's where I saw him last.
-看看二楼，那是我最后一次见到他的地方。
+看看二楼，那是我上一次见到他的地方。
 
 > INFO.NAME aengoth the jeweler 56215119222395336
 Now, why would you want to know that?
@@ -95020,7 +95020,7 @@ Hmm. Conjuration expert? Well, Uleni Heleran of the Mages Guild here at Wolverin
 
 > INFO.NAME fund for the widow 2201221662487716577
 It's the least they can do after Lugrub killed my husband.
-在卢格鲁布杀了我的丈夫之后，他们只能这么做了。
+在拉格路布杀了我的丈夫之后，他们只能这么做了。
 
 > INFO.NAME fund for the widow 29296163332644424431
 You already made your contribution.
@@ -98300,7 +98300,7 @@ Yes, I have won the bet. I know where Ajira's stolen reports are. This should pr
 
 > INFO.NAME bet with galbedir 789385102520224219
 Have you been helping Ajira with the bet? Go ahead. I have many tricks of my own. Even you and Ajira together can't stop me from winning.
-你一直在帮阿吉拉打这个赌？说吧，我自己也有很多把戏，即使你和阿吉拉联手，也无法阻止我获胜。
+你一直在帮阿吉拉打这个赌？继续啊。我自己也有很多把戏，即使你和阿吉拉联手，也无法阻止我获胜。
 
 > INFO.NAME bet with galbedir 758617185296643526
 Yes, I know all about their bet. I did the same things when I was an apprentice. You might as well do what Ajira asks.
@@ -100978,19 +100978,19 @@ You'll find her shack on the west side of town.
 
 > INFO.NAME buoyant armigers 2058828352372932539
 The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in service to the Temple.
-灵动扈从是比神殿卫兵们更为庄重的对手，他们为神殿服务。
+灵动扈从是比神殿卫兵们更为庄重的竞争者，他们为神殿服务。
 
 > INFO.NAME buoyant armigers 376198912745720443
 The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in service to the Temple.
-灵动扈从是比神殿卫兵们更为庄重的对手，他们为神殿服务。
+灵动扈从是比神殿卫兵们更为庄重的竞争者，他们为神殿服务。
 
 > INFO.NAME buoyant armigers 266517651402330557
 The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in service to the Temple.
-灵动扈从是比神殿卫兵们更为庄重的对手，他们为神殿服务。
+灵动扈从是比神殿卫兵们更为庄重的竞争者，他们为神殿服务。
 
 > INFO.NAME buoyant armigers 1046326246392616428
 The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in service to the Temple.
-灵动扈从是比神殿卫兵们更为庄重的对手，他们为神殿服务。
+灵动扈从是比神殿卫兵们更为庄重的竞争者，他们为神殿服务。
 
 > INFO.NAME buoyant armigers 219811060177711594
 The Buoyant Armigers serve the Temple as champions and knights-errant.
@@ -101042,7 +101042,7 @@ The Buoyant Armigers is an small military order of the Temple, exclusively dedic
 
 > INFO.NAME buoyant armigers 31212125871957327625
 The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in service to the Temple.
-灵动扈从是比神殿卫兵们更为庄重的对手，他们为神殿服务。
+灵动扈从是比神殿卫兵们更为庄重的竞争者，他们为神殿服务。
 
 > INFO.NAME buoyant armigers 30677216481540525151
 The Buoyant Armigers serve the Temple as champions and knights-errant.
@@ -104270,11 +104270,11 @@ You have destroyed the Devil Dagoth Ur, and ended the Blight in Morrowind. Now, 
 
 > INFO.NAME nerevarine cult 8610183342453224014
 I gave you a summary for Caius. Feel free to read it, of course.
-我给了你凯乌斯的摘要。当然，你可以随意阅读。
+我给你整理了一份凯乌斯的资料。当然，你可以随意阅读。
 
 > INFO.NAME nerevarine cult 678171652181916488
 To understand the Nerevarine cult, you must understand the history of the Ashlanders. Nerevar means something very different to the Ashlanders from what he means to Dunmer of the Great Houses. You should also know about the persecution of the Nerevarine, and the legacy of the False Incarnate, for the Nerevarine cult is at the heart of the ancient conflict between the nomadic Ashlanders and the settled Great House Dunmer. Here is a summary for Caius, but ask your questions, and I'll answer in detail.
-要了解尼瑞瓦因教派，就必须了解灰烬之民的历史。尼瑞瓦对灰烬之民的意义，与他对各大家族丹莫的意义截然不同。你还应该了解对尼瑞瓦因的迫害，以及虚假的化身的遗留问题，因为尼瑞瓦因教派是游牧的灰烬之民与定居的大圣堂丹莫之间古老冲突的核心。下面是凯乌斯的摘要，但请提出你的问题，我会详细回答。
+要了解尼瑞瓦因教派，就必须了解灰烬之民的历史。尼瑞瓦对灰烬之民的意义，与他对各大家族丹莫的意义截然不同。你还应该了解对尼瑞瓦因的迫害，以及虚假的化身的遗留问题，因为尼瑞瓦因教派是游牧的灰烬之民与定居的大圣堂丹莫之间古老冲突的核心。这是一份凯乌斯的资料，但请提出你的问题，我会详细回答。
 
 > INFO.NAME nerevarine cult 4521285731865015712
 So how does it feel to have a cult worshipping you, %PCName?
@@ -104526,7 +104526,7 @@ Yes. Thank you very much.
 
 > INFO.NAME corprus stalker 301395833361712497
 Aren't you finished yet? Didn't you say you'd kill it for me?
-你还没说完吗？你不是说要帮我杀了它吗？
+你还没完成吗？你不是说要帮我杀了它吗？
 
 > INFO.NAME corprus stalker 10697437137811817
 Excellent! Have at it! But be careful!
@@ -113610,7 +113610,7 @@ No? You aren't in the Guild? That is not right. Ahnassi gives you a present, a c
 
 > INFO.NAME thieves guild 214259704320221935
 What's the word, %PCRank %PCName? I have nothing going right now. If you fancy some training, I could use some extra clink. And talk to Ahnassi. She's new, but she's Guild, and she's got the goods.
-怎么说，%PCRank%PCName？我现在没什么事，如果你想参加训练，我可以多给你点钱。跟阿娜西谈谈吧，她是新来的，但她是公会的，而且她有货。
+怎么说，%PCRank%PCName？我现在没什么事，如果你想找人训练，我可以赚点外快。跟阿娜西谈谈吧，她是新来的，但她是公会的，而且她有货。
 
 > INFO.NAME thieves guild 13731163488516640
 So. You've got a copy of 'Honor Among Thieves.' And maybe you can read. And maybe you're interested in the Thieves Guild. Let me make a suggestion. Go talk to Sugar Lips Habasi in the South Wall in Balmora. Be polite. And maybe you'll learn something you can't learn from books.
@@ -114954,7 +114954,7 @@ If possible, always take a single item at a time. It increases the risk, but it'
 
 > INFO.NAME little advice 3078911023292535132
 Always study your target, and take a good inventory of what he has before attempting to steal anything. If he has his eye on that shiny silver claymore, he won't notice you pocketing a few tarnished throwing stars.
-在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质大剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
+在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他的目光被那把闪闪发光的银质大剑吸引，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。
 
 > INFO.NAME little advice 268212608920701313
 Practice stealing and pickpocketing by taking cheap things from small merchants. Don't go after the big stuff until you're experienced.
@@ -116054,7 +116054,7 @@ I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer strongho
 
 > INFO.NAME little secret 826321646924279
 Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.
-你对深精灵的老地方感兴趣吗？那你应该去看看恩楚莱夫庭斯。那里的墙壁依然闪烁着奇异的光芒，可怕的东西在通道中走动并发出吱吱声。这是一个糟糕的地方，非常危险，但却充满了奇迹。
+你对深精灵的故地感兴趣吗？那你应该去看看恩楚莱夫庭斯。那里的墙壁依然闪烁着奇异的光芒，可怕的东西在通道中走动并发出吱吱声。这是一个糟糕的地方，非常危险，但却充满了奇迹。
 
 > INFO.NAME little secret 20738188521691715837
 All outlanders are looking for the old Deep Elf places. Have you heard of Nchardumz? Maybe not. Maybe you will be surprised when you see it.
@@ -116070,7 +116070,7 @@ Southeast of Zainab camp is an old cave they call Pulk. Everyone says there are 
 
 > INFO.NAME little secret 118536899228082123
 Do the old places of the Deep Elves interest you? then you must look upon Nchuleft. That place is very old, and you can still go down inside. The walls still glow with strange lights, and terrible things walk and squeal in the passages.
-你对深精灵的古老地方感兴趣吗？那你一定要看看恩楚莱夫特。那个地方非常古老，你还可以进去看看。墙壁上还闪烁着奇异的光芒，可怕的东西在通道里走来走去，吱吱作响。
+你对深精灵的故地感兴趣吗？那你一定要看看恩楚莱夫特。那个地方非常古老，你还可以进去看看。墙壁上还闪烁着奇异的光芒，可怕的东西在通道里走来走去，吱吱作响。
 
 > INFO.NAME little secret 15868320951144631638
 Everyone knows the people who worship Mehrunes Dagon have returned to Indoranyon. It is none of our business, and they are very unpleasant if disturbed. They stay in the dark, and do not bother us or our herds.
@@ -116078,11 +116078,11 @@ Everyone knows the people who worship Mehrunes Dagon have returned to Indoranyon
 
 > INFO.NAME little secret 3047192883193230349
 South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is the entrance to an old cavern called Sanit. That is where they found two hunter dead, their flesh white and bloated by the corprus. That is not a place where a wise man would go.
-库什塔什皮的南边和西边，也就是阿希穆萨营地西边的迪德拉老地方，是一个叫做桑尼特的古老洞穴的入口。他们就是在那里发现了两个猎人的尸体，他们的肉被尸化得又白又膨胀。智者是不会去那里的。 {迪德拉式,膨胀块茎}
+库什塔什皮的南边和西边，也就是阿希穆萨营地西边的迪德拉故地，是一个叫做桑尼特的古老洞穴的入口。他们就是在那里发现了两个猎人的尸体，他们的肉被尸化得又白又膨胀。智者是不会去那里的。 {迪德拉式,膨胀块茎}
 
 > INFO.NAME little secret 18494172951218821168
 Are you interested in seeing the old places of the Daedra worshippers? Look upon Esutanamus. It sits upon an island east of the mainland beaches, southeast of the Telvanni town of Tel Mora. Sometimes a champion will enter there in search of ancient weapons and treasures.
-你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳姆斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}
+你有兴趣看看迪德拉信徒的故地吗？看看埃苏塔纳姆斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}
 
 > INFO.NAME little secret 72601897126734412
 The old stones at Zergonipal... beneath those stones are dark chambers and a great statue. None of our people have been there in many years.
@@ -117786,7 +117786,7 @@ Our new mage-lord, Master Aryon, has done a lot for Tel Vos, and most of us are 
 
 > INFO.NAME latest rumors 13307218391695915682
 You know what I heard about Baram? The other day he woke up in the Temple, but couldn't remember how he got there or why he went there. He made a big joke of it, saying he must have tied one on last night, and forgot all about it.
-你知道我听说巴拉姆什么事了吗？有一天他在神殿里醒来，却不记得自己是怎么到那里的，也不知道为什么要去那里。他开了一个大玩笑，说他一定是昨晚绑了一个，然后就忘得一干二净了。
+你知道我听说巴拉姆什么事了吗？有一天他在神殿里醒来，却不记得自己是怎么到那里的，也不知道为什么要去那里。他开了一个大玩笑，说他一定是昨晚喝多了，然后就忘得一干二净了。
 
 > INFO.NAME latest rumors 1942232671391721246
 A sailor from Soulrest says he heard the Expeditionary Force has put down the tribal uprisings in Black Marsh. He says local traders expect exports of gold and timber to resume after the plantations and mines are rebuilt.
@@ -121688,7 +121688,7 @@ Just don't tell Ondres Nerano where you got the key.
 
 > INFO.NAME nerano manor 2113329412389429573
 That's where I work. For a small consideration, I might tell you a bit more.
-那是我工作的地方。给你一点报酬，我可以多告诉你一点。
+那是我工作的地方。给我一点报酬，我可以多告诉你一点。
 
 > INFO.NAME nerano manor 1282555263116622708
 That's where I work.
@@ -122420,19 +122420,19 @@ You say Madura Seran is dead? This will hurt our standing with the Temple, %PCNa
 
 > INFO.NAME madura seran 2807487592699019779
 Medura Seran was safe, last I heard.
-我听说梅杜拉·塞兰很安全。
+我听说玛杜拉·瑟然很安全。
 
 > INFO.NAME madura seran 3330154592904210342
 Medura Seran was safe, last I heard.
-我听说梅杜拉·塞兰很安全。
+我听说玛杜拉·瑟然很安全。
 
 > INFO.NAME madura seran 854610607761931976
 So you got Medura Seran out of the camp and in one piece. Good work, %PCName.
-你把梅杜拉·塞兰救出了营地，而且毫发无损。干得好，%PCName。 {一块碎片,工作}
+你把玛杜拉·瑟然救出了营地，而且毫发无损。干得好，%PCName。 {一块碎片,工作}
 
 > INFO.NAME madura seran 28202294273180732340
 I have a report from Ald Velothi that one of their own, Medura Seran, is being held hostage in an outcast ashlander camp just south of their village. Go there and escort her to safety.
-我从奥德-维洛提那里得到消息，他们的人梅杜拉·塞兰被劫持了，就在他们村子南边的灰烬之民营地里。去那里护送她到安全的地方。 {报告}
+我从奥德-维洛提那里得到消息，他们的人玛杜拉·瑟然被劫持了，就在他们村子南边的灰烬之民营地里。去那里护送她到安全的地方。 {报告}
 
 > INFO.NAME madura seran 803832709110557235
 She is dead.
@@ -123208,7 +123208,7 @@ I'm not buying that one.
 
 > INFO.NAME admire fail 155652319621322534
 I'd prefer not to.
-我宁愿不买。
+我宁可不听。
 
 > INFO.NAME admire fail 171915478579214228
 I'm busy that day. Sorry.
@@ -127144,7 +127144,7 @@ I'll be here when you change your mind.
 
 > INFO.NAME make amends 407127062734219045
 Yes, you've been expelled. I might could have you reinstated for a small consideration... Say 500 gold?
-是的，你被驱逐了。我可以让你复职，只要给你一点报酬…500金币？
+是的，你被驱逐了。我可以让你复职，只要给我一点报酬…500金币？
 
 > INFO.BNAM make amends 407127062734219045 c1
 Pay 500 gold.
@@ -128852,7 +128852,7 @@ Do not harm me, or you will be very sorry. I warn you. Leave me alone, and I wil
 
 > INFO.NAME greeting 1 964513448260061071
 I have nothing. Go away. Leave me in peace.
-我什么都没有，你走吧，让我安息吧。
+我什么都没有，你走吧，让我静一静吧。
 
 > INFO.NAME greeting 1 70001347523907832
 You have killed someone dear to me. It is a mistake you will not live to regret.
@@ -133816,7 +133816,7 @@ Ajira is a good friend of %PCName and tells %PCName about the Staff of Magnus.
 
 > INFO.NAME greeting 5 1513815224480416017
 Ajira has some duties for Ajira's good friend, %PCName.
-阿吉拉要为阿吉拉的好友，%PCName，履行一些职务。
+阿吉拉有一些职务给阿吉拉的好朋友，%PCName。
 
 > INFO.NAME greeting 5 1308215922698917317
 Ajira knows that %PCName is a good friend of Ajira.
@@ -136472,7 +136472,7 @@ You're on your own now. Just do what I've told you. Get Mehra Milo to help you f
 
 > INFO.NAME greeting 5 26300264280671364
 Are you back already? I'm not finished yet.
-你已经回来了？我还没说完呢。
+你已经回来了？我还没完成呢。
 
 > INFO.NAME greeting 5 22306643140317622
 Are you ready for your orders, %PCName? Or is there something else you want?
@@ -139572,7 +139572,7 @@ You can't expect to act the way you do without making yourself unpopular. Why do
 
 > INFO.NAME greeting 9 4188721575955379
 Welcome to Gnaar Mok, outlander. It's small, but dumpy. And I'm Gnaar Mok's shipmaster, at your service. What's your destination? Or, if by misfortune you are newly arrived in Gnaar Mok, I grieve for you. But I can steer you to the local services, or to a specific place nearby. If you're looking for someone in particular, I might be able to help.
-欢迎来到纳尔-莫克，外地人，这里很小，但很脏。我是纳尔-莫克的船长，为您服务。您的目的地是哪里？如果你不幸刚到纳尔-莫克，我为你感到悲哀，但我可以指引你去当地的服务机构，或者附近的特别的地点。如果您要找某个特定的人，我也许能帮上忙。
+欢迎来到纳尔-莫克，外地人，这里很小，却很脏。我是纳尔-莫克的船长，为您服务。您的目的地是哪里？如果你不幸刚到纳尔-莫克，我为你感到悲哀，但我可以指引你去当地的服务机构，或者附近的特别的地点。如果您要找某个特定的人，我也许能帮上忙。
 
 > INFO.NAME greeting 9 20099115652559013257
 You gaze upon the handsome docks of Gnaar Mok, outlander. And I'm Gnaar Mok's shipmaster, at your service. You're outward bound, if you're lucky. What's your destination? Are you by chance new to Gnaar Mok? I grieve for you. But I can steer you to the local services, or to a specific place nearby. If you're looking for someone in particular, I might be able to help.
@@ -141468,7 +141468,7 @@ You have my notes.
 
 > INFO.NAME ashlanders 169562763275484215
 There is too much to tell. Here. Take these notes. I've written here what you should know about the Ashlanders and the Nerevarine cult. But most of all, if you are visiting a camp, there are things you should know about courtesy and challenges among the Ashlanders. And, since you ask about the Nerevarine cult, perhaps you'll be interested in my views on the Ashlanders and foreigners, because a guiding passion of the Nerevarine cult is their hatred of foreigners.
-我有很多话要说。拿着，拿着这些笔记，我在这里写下了你应该知道的关于灰烬之民和尼瑞瓦因教派的事。但最重要的是，如果你要参观一个营地，有些关于灰烬之民之间的礼节和挑战，你必须知道。而且，既然你问到了尼瑞瓦因教派，也许你会对我对灰烬之民与外邦人的看法感兴趣，因为尼瑞瓦因教派的一个指导热情就是他们对外邦人的仇恨。 {令状}
+我有很多话要说。拿着，拿着这些笔记，我在这里写下了你应该知道的关于灰烬之民和尼瑞瓦因教派的事。但最重要的是，如果你要参观一个营地，有些关于灰烬之民之间的礼节和挑战，你必须知道。而且，既然你问到了尼瑞瓦因教派，也许你会对我对灰烬之民与外邦人的看法感兴趣，因为尼瑞瓦因教派的一个指导信条就是他们对外邦人的仇恨。 {令状}
 
 > INFO.NAME ashlanders 2874528330289084030
 I hope you won't think me rude, but I rather not spend my leisure time lecturing strangers.
@@ -145292,7 +145292,7 @@ Show the axe to Darius.
 
 > INFO.NAME broken axe 297982611418195727
 Take the axe from the water behind me as proof of Lugrub's crimes.
-把我身后水里的斧头拿去，作为卢格鲁布犯罪的证据。
+把我身后水里的斧头拿去，作为拉格路布犯罪的证据。
 
 > INFO.NAME ashalmawia 26923300772730626963
 I heard you were expelled, %PCName.
@@ -148080,7 +148080,7 @@ Nevermind.
 
 > INFO.NAME mabrigash 576925922481230387
 The wise-woman who left us, and our rules. She steals a man's vital essence to make herself a powerful sorcerer. Her camp is to the west, along the lava. She has others with her and I would stay away. It'll be hard to find the camp in this landscape anyway.
-离开我们的女智者，还有我们的规定。她偷了男人的精气神，让自己成为一个强大的术士。她的营地在西边，沿着熔岩，她还带着其他人。我建议你离她远点，反正在这种地形下也很难找到营地。
+离开我们还有我们的规定的那个女智者。她偷了男人的精气神，让自己成为一个强大的术士。她的营地在西边，沿着熔岩，她还带着其他人。我建议你离她远点，反正在这种地形下也很难找到营地。
 
 > INFO.NAME mabrigash 21431945678929255
 A mabrigash is an Ashlander witch-warrior, a renegade wise woman who has forsaken the established rules of behavior for an Ashlander woman to become a master of dark magic and the weapons of war. By secret rituals the mabrigash steals a man's vital essence and makes herself a powerful sorcerer and warrior. The manifestation of her dark power is called a 'ghost snake' that paralyzes and drains a victim's vitality.
@@ -148232,7 +148232,7 @@ You already brought me the land deed.
 
 > INFO.NAME land deed 32399235801138929067
 If Lugrub is dead, justice has been served. Good work, %PCName. I have more orders for you. Also, take this broadsword for a job well done.
-如果鲁格鲁伯死了，正义就得到了伸张。干得好，%PCName。我有更多的指示给你，还有，拿着这把阔剑以示奖励。 {工作}
+如果拉格路布死了，正义就得到了伸张。干得好，%PCName。我有更多的指示给你，还有，拿着这把阔剑以示奖励。 {工作}
 
 > INFO.NAME land deed 13897267331640916399
 Forget about the land. Bring Lugrub gro-Ogdum to justice.
@@ -149444,11 +149444,11 @@ It's not a large town, but I do alot of business in Pelagiad, especially in impo
 
 > INFO.NAME pelagiad 1996750781399914273
 Pelagiad is a newly charted Imperial village between Balmora and Vivec City on the western edge of the Ascadian Isles region. The village is right outside the Imperial Legion garrison at Fort Pelagiad. The houses and shops are built in the Western Imperial style, and Pelagiad looks more like a village in the western Empire than a Morrowind settlement.
-佩拉吉亚德是巴尔莫拉和维威克帝都之间的一个新绘制的帝国人村庄，位于阿斯卡迪安群岛西部边缘。村庄就在佩拉吉亚德要塞帝国军团驻扎地的外面。这里的房屋和商店都是按照西方帝国的风格建造的，佩拉吉亚德看起来更像是西方帝国的一个村庄，而不是晨风定居点。
+佩拉吉亚德是巴尔莫拉和维威克帝都之间的一个新规划的帝国人村庄，位于阿斯卡迪安群岛西部边缘。村庄就在佩拉吉亚德要塞帝国军团驻扎地的外面。这里的房屋和商店都是按照西方帝国的风格建造的，佩拉吉亚德看起来更像是西方帝国的一个村庄，而不是晨风定居点。
 
 > INFO.NAME pelagiad 1915425977109825092
 Pelagiad is a newly charted Imperial village between Balmora and Vivec City on the western edge of the Ascadian Isles region. The village is right outside the Imperial Legion garrison at Fort Pelagiad. The houses and shops are built in the Western Imperial style, and Pelagiad looks more like a village in the western Empire than a Morrowind settlement.
-佩拉吉亚德是巴尔莫拉和维威克帝都之间的一个新绘制的帝国人村庄，位于阿斯卡迪安群岛西部边缘。村庄就在佩拉吉亚德要塞帝国军团驻扎地的外面。这里的房屋和商店都是按照西方帝国的风格建造的，佩拉吉亚德看起来更像是西方帝国的一个村庄，而不是晨风定居点。
+佩拉吉亚德是巴尔莫拉和维威克帝都之间的一个新规划的帝国人村庄，位于阿斯卡迪安群岛西部边缘。村庄就在佩拉吉亚德要塞帝国军团驻扎地的外面。这里的房屋和商店都是按照西方帝国的风格建造的，佩拉吉亚德看起来更像是西方帝国的一个村庄，而不是晨风定居点。
 
 > INFO.NAME pelagiad 157944771029131806
 The houses and shops of Pelagiad are built in the Western Imperial style, and Pelagiad looks more like a village in the western Empire than a Morrowind settlement.
@@ -151536,11 +151536,11 @@ Nedhelas? He's dead. You should know that, since you were responsible for his de
 
 > INFO.NAME nedhelas 2214428947845120280
 You're the one who took care of Nedhelas's haunted house problem. It's good to know you can rely on the Imperial cult for help. Thank you for your trouble.
-是你解决了内德拉斯的鬼屋问题。很高兴你能依靠帝国教团的帮助，麻烦你了。 {认识你,帝国人}
+是你解决了内德拉斯的鬼屋问题。人们可以依靠帝国教团的帮助是一件好事，谢谢你所付出的努力。 {认识你,帝国人}
 
 > INFO.NAME nedhelas 14424201302746712983
 You're the one who took care of Nedhelas's haunted house problem. It's good to know you can rely on the Imperial cult for help. Thank you for your trouble.
-是你解决了内德拉斯的鬼屋问题。很高兴你能依靠帝国教团的帮助，麻烦你了。 {认识你,帝国人}
+是你解决了内德拉斯的鬼屋问题。人们可以依靠帝国教团的帮助是一件好事，谢谢你所付出的努力。 {认识你,帝国人}
 
 > INFO.NAME nedhelas 181352542890662781
 Nedhelas? The fellow who says his house is haunted? He lives just to the right of the south gate. I'd look for him there.
@@ -157384,7 +157384,7 @@ Ajira will tell friend %PCName another secret. Ajira also knows about the Warloc
 
 > INFO.NAME duties 25152716866532525
 Ajira has no duties for friend %PCName, but she is ready to tell you a secret. Ajira knows all about the Staff of Magnus.
-阿吉拉对好友%PCName没有职务，但她准备告诉你一个秘密。阿吉拉对玛格努斯之杖的事情了如指掌。
+阿吉拉没有职务给好友%PCName了，但她准备告诉你一个秘密。阿吉拉对玛格努斯之杖的事情了如指掌。
 
 > INFO.NAME duties 12952263732722719692
 Ajira knows many secrets, but they are not yet for friend %PCName. Speak with Ajira again when you are a Warlock. Ranis Athrys here may have duties for you, but Ajira does not like Ranis much. Maybe you should speak with Ajira's good friend Edwinna Elbert at the Guild of Mages in Ald'ruhn?
@@ -173849,26 +173849,22 @@ Arkay, God of the Cycle of Life and Death, is the deity associated with burials 
 > INFO.NAME talos 233406283899512682
 """Tiber Septim was born on the continent of Atmora with the name 'Talos'. When he became Emperor of Tamriel, he took
 a Cyrodilic name -- Tiber Septim, the Dragon of the North."""
-"""泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字
-“泰伯·塞普汀”意为“北方之龙”。"""
+泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字“泰伯·塞普汀”，意为“北方之龙”。
 
 > INFO.NAME talos 1609278022941839
 """Tiber Septim was born on the continent of Atmora with the name 'Talos'. When he became Emperor of Tamriel, he took
 a Cyrodilic name -- Tiber Septim, the Dragon of the North."""
-"""泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字
-“泰伯·塞普汀”意为“北方之龙”。"""
+泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字“泰伯·塞普汀”，意为“北方之龙”。
 
 > INFO.NAME talos 4372278618013225
 """Tiber Septim was born on the continent of Atmora with the name 'Talos'. When he became Emperor of Tamriel, he took
 a Cyrodilic name -- Tiber Septim, the Dragon of the North."""
-"""泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字
-“泰伯·塞普汀”意为“北方之龙”。"""
+泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字“泰伯·塞普汀”，意为“北方之龙”。
 
 > INFO.NAME talos 234572650753411095
 """Tiber Septim was born on the continent of Atmora with the name 'Talos'. When he became Emperor of Tamriel, he took
 a Cyrodilic name -- Tiber Septim, the Dragon of the North."""
-"""泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字
-“泰伯·塞普汀”意为“北方之龙”。"""
+泰伯·塞普汀出生在阿特莫拉大陆，名字叫“塔洛斯”。当他成为泰姆瑞尔的皇帝时，他取了一个西罗帝尔的名字“泰伯·塞普汀”，意为“北方之龙”。
 
 > INFO.NAME dumac 300107775346128394
 Dumac was a king among the Dwemer and a friend of the hero Nerevar before the war began. He served with Nerevar on the First Council and died with Nerevar at Red Mountain.
@@ -173892,7 +173888,7 @@ Proof of a conspiracy against the Emperor.
 
 > INFO.NAME proof 1572130721416510255
 I am glad you brought me the axe. Now I know I was mistaken about Lugrub.
-我很高兴你给我带来了斧头，现在我知道我误会鲁格鲁布了。
+我很高兴你给我带来了斧头，现在我知道我误会拉格路布了。
 
 > INFO.NAME proof 28845122431089326191
 I have seen your proof, and I am convinced. Find Lugrub gro-Ogdum in the Gnisis Eggmine and kill him to avenge Mansilamat Vabdas.
@@ -173904,11 +173900,11 @@ I don't care if you saw the ghost of Tiber Septim. I can't tell the Legion offic
 
 > INFO.NAME proof 28029214682771030601
 Hm. Yes, this is Lugrub's Axe. I can see how it's been damaged from hitting bone here and here. With this, I have no choice but to believe your story. Lugrub gro-Odgum is an outlaw. Find him and kill him. Then justice will be served.
-嗯，没错，这就是鲁格鲁伯之斧。我可以看到它是如何被损坏的，因为撞到了这里和这里的骨头。有了这个，我只能相信你的故事了。鲁格鲁博·格罗-奥德甘是个逃犯，找到他，杀了他，正义就会得到伸张。
+嗯，没错，这就是拉格路布之斧。我可以看到它是如何被损坏的，因为撞到了这里和这里的骨头。有了这个，我只能相信你的故事了。拉格路布·格罗-奥格杜姆是个逃犯，找到他，杀了他，正义就会得到伸张。
 
 > INFO.NAME proof 1798469541298118987
 These are serious accusations, %PCName, and Lugrub is your superior officer. If you don't have any proof, I might have to press charges of insubordination.
-这些指控很严重，%PCName。而卢格鲁布是你的上司，如果你没有任何证据，我可能会以不服从命令起诉你。
+这些指控很严重，%PCName。而拉格路布是你的上司，如果你没有任何证据，我可能会以不服从命令起诉你。
 
 > INFO.NAME proof 713312514151098125
 What kind of proof do you have?
@@ -173920,7 +173916,7 @@ I spoke with the ghost of Mansilamat Vabdas.
 
 > INFO.BNAM proof 713312514151098125 c2
 Here is Lugrub's Axe.
-这是卢格鲁布之斧。
+这是拉格路布之斧。
 
 > INFO.BNAM proof 713312514151098125 c3
 Nevermind.

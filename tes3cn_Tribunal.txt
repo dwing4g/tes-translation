@@ -121,7 +121,7 @@
  GMST.STRV "让佣兵退出。"
 -GMST
  GMST.NAME "sCompanionWarningButtonTwo"
- GMST.STRV "返回同伴共享界面。"
+ GMST.STRV "返回同伴分享界面。"
 -GMST
  GMST.NAME "fNPCHealthBarTime"
  GMST.FLTV [00 00 40 40]
@@ -41388,7 +41388,7 @@ End yarnarScript"
  INFO.PNAM "17887265562268974$00"
  INFO.NNAM "2999512457306583885$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾要塞，穿过月蛾要塞北方的桥，然后继续向东走，直到到达湖边。丹莫的古老堡垒玛兰达斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。"
+ INFO.NAME "普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾要塞，穿过月蛾要塞北方的桥，然后继续向东走，直到到达湖边。丹莫的古老堡垒玛冉杜斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。"
 -INFO
  INFO.INAM "3191612742353921129$00"
  INFO.PNAM "631129252313615136$00"
@@ -42737,7 +42737,7 @@ End yarnarScript"
  INFO.PNAM "3229511837222556342$00"
  INFO.NNAM "25625284531759513598$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "拉德·心·哈特让我去营救被突袭者抓走的帝国人丹莎。他们把她关在纳尔-莫克附近海岸的阿伯纳尼特。"
+ INFO.NAME "拉德·铁心让我去营救被突袭者抓走的帝国人丹莎。他们把她关在纳尔-莫克附近海岸的阿伯纳尼特。"
 -INFO
  INFO.INAM "735628859178898991$00"
  INFO.PNAM "3227981161210326837$00"
@@ -56754,7 +56754,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "268212608920701313$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Thieves Guild$00"
- INFO.NAME "在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他盯上的是那把闪闪发光的银质大剑，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。"
+ INFO.NAME "在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他的目光被那把闪闪发光的银质大剑吸引，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。"
  INFO.SCVR "12sX4Random100"
  INFO.INTV [3C 00 00 00]
  INFO.SCVR "2CsX0NoLore"
@@ -59559,7 +59559,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Erabenimsun Camp$00"
- INFO.NAME "你对深精灵的老地方感兴趣吗？那你应该去看看恩楚莱夫庭斯。那里的墙壁依然闪烁着奇异的光芒，可怕的东西在通道中走动并发出吱吱声。这是一个糟糕的地方，非常危险，但却充满了奇迹。"
+ INFO.NAME "你对深精灵的故地感兴趣吗？那你应该去看看恩楚莱夫庭斯。那里的墙壁依然闪烁着奇异的光芒，可怕的东西在通道中走动并发出吱吱声。这是一个糟糕的地方，非常危险，但却充满了奇迹。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -59605,7 +59605,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Zainab Camp$00"
- INFO.NAME "你对深精灵的古老地方感兴趣吗？那你一定要看看恩楚莱夫特。那个地方非常古老，你还可以进去看看。墙壁上还闪烁着奇异的光芒，可怕的东西在通道里走来走去，吱吱作响。"
+ INFO.NAME "你对深精灵的故地感兴趣吗？那你一定要看看恩楚莱夫特。那个地方非常古老，你还可以进去看看。墙壁上还闪烁着奇异的光芒，可怕的东西在通道里走来走去，吱吱作响。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -59629,7 +59629,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Ahemmusa Camp$00"
- INFO.NAME "库什塔什皮的南边和西边，也就是阿希穆萨营地西边的迪德拉老地方，是一个叫做桑尼特的古老洞穴的入口。他们就是在那里发现了两个猎人的尸体，他们的肉被尸化得又白又膨胀。智者是不会去那里的。 {迪德拉式,膨胀块茎}"
+ INFO.NAME "库什塔什皮的南边和西边，也就是阿希穆萨营地西边的迪德拉故地，是一个叫做桑尼特的古老洞穴的入口。他们就是在那里发现了两个猎人的尸体，他们的肉被尸化得又白又膨胀。智者是不会去那里的。 {迪德拉式,膨胀块茎}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [05 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -59641,7 +59641,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Ashlanders$00"
  INFO.ANAM "Ahemmusa Camp$00"
- INFO.NAME "你有兴趣看看迪德拉信徒的老地方吗？看看埃苏塔纳姆斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}"
+ INFO.NAME "你有兴趣看看迪德拉信徒的故地吗？看看埃苏塔纳姆斯吧。它坐落在大陆海滩以东的一座小岛上，位于泰瓦尼城镇泰尔-莫拉的东南方。有时会有勇士进入那里寻找古代武器和宝藏。 {迪德拉崇拜,主大陆}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -62743,7 +62743,7 @@ Journal town_balmora 5"
  INFO.NNAM "1942232671391721246$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec$00"
- INFO.NAME "你知道我听说巴拉姆什么事了吗？有一天他在神殿里醒来，却不记得自己是怎么到那里的，也不知道为什么要去那里。他开了一个大玩笑，说他一定是昨晚绑了一个，然后就忘得一干二净了。"
+ INFO.NAME "你知道我听说巴拉姆什么事了吗？有一天他在神殿里醒来，却不记得自己是怎么到那里的，也不知道为什么要去那里。他开了一个大玩笑，说他一定是昨晚喝多了，然后就忘得一干二净了。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.SCVR "14JX3A1_2_AntabolisInformant"
@@ -76406,7 +76406,7 @@ addtopic ""我的种族"""
  INFO.NNAM "70001347523907832$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagrum bagarn$00"
- INFO.NAME "我什么都没有，你走吧，让我安息吧。"
+ INFO.NAME "我什么都没有，你走吧，让我静一静吧。"
 -INFO
  INFO.INAM "70001347523907832$00"
  INFO.PNAM "964513448260061071$00"
