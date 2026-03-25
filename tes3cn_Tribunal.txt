@@ -7416,7 +7416,7 @@ endif
 
 if ( aurielshield == 0 )
 	if player->(GetItemCount ""ebony_shield_auriel"") == 1
-		addtopic ""奥瑞尔之盾""
+		addtopic ""奥瑞埃尔之盾""
 		set aurielshield to 1
 		set itemcount to ( itemcount + 1 )
 	endif
@@ -7456,7 +7456,7 @@ endif
 
 if ( aurielbow == 0 )
 	if player->(GetItemCount ""ebony_bow_auriel"") == 1
-		addtopic ""奥瑞尔之弓""
+		addtopic ""奥瑞埃尔之弓""
 		set aurielbow to 1
 		set itemcount to ( itemcount + 1 )
 	endif
@@ -15188,7 +15188,7 @@ End yarnarScript"
 <BR>
 人类王国被征服了，甚至连落锤也是如此，夺取它被认为是一项艰巨的任务。幽域之主想要一次彻底的入侵，希望有机会亲自与他们的外来风灵战斗，但泰伯·塞普汀驳斥了他。他已经制定了一个更好的计划，一个似乎能够使他的统治合法化的计划。西罗帝尔支持落锤内战的失败方，并被邀请加入了内战。终于，帝国可以将目光转向精灵。<BR>
 <BR>
-幽域之主继续向泰伯·塞普汀施压，要求他征服晨风。皇帝不确定这是否是一个明智的想法。他听说过审判席的力量。幽域之主想要复仇，并提醒泰伯·塞普汀，他注定要征服精灵乃至审判席。阿克图斯反对这一举动，但塞普汀觊觎晨风的黑檀，因为他迫切需要资金来源以重建经历了四百年战乱的西罗帝尔。幽域之主告诉他，随着审判席的死亡，塞普汀有机会窃取审判席的力量并用它来对抗高精灵（当然是洛克汗最古老的敌人，甚至早于审判席）。夏暮岛是泰伯·塞普汀心中最遥远的东西。即便如此，他依然计划将祖林·阿克图斯送去阿里诺尔之王那里以求和平。对黑檀的需求最终胜出。帝国入侵晨风，审判席投降。当停战协议的某些条件不仅包括不干涉审判席的政策，而且在幽域之主眼中还包括对其宗教信仰的认可时，伊斯米尔大怒。他彻底放弃了帝国。这就是灰胡子所说的背叛。或者说他是这么认为的。<BR>
+幽域之主继续向泰伯·塞普汀施压，要求他征服晨风。皇帝不确定这是否是一个明智的想法。他听说过审判席的力量。幽域之主想要复仇，并提醒泰伯·塞普汀，他注定要征服精灵乃至审判席。阿克图斯反对这一举动，但塞普汀觊觎晨风的黑檀，因为他迫切需要资金来源以重建经历了四百年战乱的西罗帝尔。幽域之主告诉他，随着审判席的死亡，塞普汀有机会窃取审判席的力量并用它来对抗高精灵（当然是洛克汗最古老的敌人，甚至早于审判席）。夏暮岛是泰伯·塞普汀心中最遥远的东西。即便如此，他依然计划将祖林·阿克图斯送去艾林诺之王那里以求和平。对黑檀的需求最终胜出。帝国入侵晨风，审判席投降。当停战协议的某些条件不仅包括不干涉审判席的政策，而且在幽域之主眼中还包括对其宗教信仰的认可时，伊斯米尔大怒。他彻底放弃了帝国。这就是灰胡子所说的背叛。或者说他是这么认为的。<BR>
 <BR>
 没有了幽域之主的力量，所有征服泰姆瑞尔的想法都不复存在了。这样就挺好，塞普汀想，但我们还是担心西罗帝尔和人类国家吧。落锤省已经发生了叛乱。<BR>
 <BR>
@@ -17292,7 +17292,7 @@ End yarnarScript"
 -ARMO [00 00 00 00 00 04 00 00]
  ARMO.NAME "ebony_shield_auriel_x$00"
  ARMO.MODL "a\Shield_Art_Auriel.NIF$00"
- ARMO.FNAM "奥瑞尔之盾$00"
+ ARMO.FNAM "奥瑞埃尔之盾$00"
  ARMO.SCRI "MuseumAurielShield$00"
  ARMO.AODT [08 00 00 00 00 00 F0 41 68 42 00 00 B0 04 00 00 E8 03 00 00 3C 00 00 00]
  ARMO.ITEX "a\tx_shield_auriel.tga$00"
@@ -17341,7 +17341,7 @@ End yarnarScript"
 -WEAP [00 00 00 00 00 04 00 00]
  WEAP.NAME "ebony_bow_auriel_X$00"
  WEAP.MODL "w\W_longbow_Ariel.NIF$00"
- WEAP.FNAM "奥瑞尔之弓$00"
+ WEAP.FNAM "奥瑞埃尔之弓$00"
  WEAP.WPDT [00 00 80 41 30 75 00 00 09 00 E8 03 00 00 80 3F 00 00 80 3F 46 00 02 32 00 01 00 01 01 00 00 00]
  WEAP.SCRI "MuseumAurielBow$00"
  WEAP.ITEX "w\tx_longbow_Ariel.tga$00"
@@ -37573,20 +37573,20 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "25184293102082416168$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "泰瓦尼家族：奥瑞尔之弓"
+ INFO.NAME "泰瓦尼家族：奥瑞埃尔之弓"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "25184293102082416168$00"
  INFO.PNAM "1317231097764923730$00"
  INFO.NNAM "1548114510771218796$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "西拉那夫人让我把奥瑞尔之弓带给她。至少我认为她是这么要求的。也许我应该去幽魂之门找找那把弓。西拉那提到了拉林·奥斯拉维尔。"
+ INFO.NAME "西拉那夫人让我把奥瑞埃尔之弓带给她。至少我认为她是这么要求的。也许我应该去幽魂之门找找那把弓。西拉那提到了拉林·奥斯拉维尔。"
 -INFO
  INFO.INAM "1548114510771218796$00"
  INFO.PNAM "25184293102082416168$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "西拉那夫人因为我把奥瑞尔之弓带给她而辱骂了我，然后给了我5000金币，只要我答应离开。"
+ INFO.NAME "西拉那夫人因为我把奥瑞埃尔之弓带给她而辱骂了我，然后给了我5000金币，只要我答应离开。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_MaskVivec$00"
@@ -52789,7 +52789,7 @@ Choice: ""我接受你的提议。"" 1 ""不，谢谢。"" 2"
  INFO.SCVR "04JX3MS_EstateSale"
  INFO.INTV [14 00 00 00]
 -DIAL
- DIAL.NAME "奥瑞尔之盾$00"
+ DIAL.NAME "奥瑞埃尔之盾$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "1095245722850228559$00"
@@ -52862,7 +52862,7 @@ player->additem ""gold_001"" 13500
  INFO.NNAM "7340209432037219463$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着奥瑞尔之盾？那就带着它回来，我们再达成交易。"
+ INFO.NAME "你没有带着奥瑞埃尔之盾？那就带着它回来，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "15IX0ebony_shield_auriel"
@@ -52873,7 +52873,7 @@ player->additem ""gold_001"" 13500
  INFO.NNAM "170060793014256$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着奥瑞尔之盾？那就带着它回来，我们再达成交易。"
+ INFO.NAME "你没有带着奥瑞埃尔之盾？那就带着它回来，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX0ebony_shield_auriel"
@@ -65084,7 +65084,7 @@ moddisposition 5"
  INFO.ONAM "effe_tei$00"
  INFO.NAME "前任国王是个老人，已经病了一段时间了。他没有儿女。赫尔塞斯是莱森的曾侄子——巴兰兹娅是莱森的侄女。巴兰兹娅女王放弃了王位，因此，根据帝国习俗，王位归属赫尔塞斯王子。他没有做什么，但我们认为他不应该做什么。我们认为他只是方便帝国统治的一个虚位而已。 {女儿们,帝国人}"
 -DIAL
- DIAL.NAME "奥瑞尔之弓$00"
+ DIAL.NAME "奥瑞埃尔之弓$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "290494335957932561$00"
@@ -65101,7 +65101,7 @@ Goodbye"
  INFO.NNAM "215488730203012829$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着奥瑞尔之弓？那就带着它回来，我们再达成交易。"
+ INFO.NAME "你没有带着奥瑞埃尔之弓？那就带着它回来，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  INFO.SCVR "15IX0ebony_bow_auriel"
@@ -65168,7 +65168,7 @@ player->additem ""gold_001"" 15000
  INFO.NNAM "20159237931436414943$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "你没有带着奥瑞尔之弓？那就带着它回来，我们再达成交易。"
+ INFO.NAME "你没有带着奥瑞埃尔之弓？那就带着它回来，我们再达成交易。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "15IX0ebony_bow_auriel"
@@ -65188,7 +65188,7 @@ player->additem ""gold_001"" 15000
  INFO.NNAM "28074214892790519476$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "奥瑞尔之弓…有意思。我闻到的那是一些灰烬薯的味道吗？如果你愿意的话，我可以给你15000金币。"
+ INFO.NAME "奥瑞埃尔之弓…有意思。我闻到的那是一些灰烬薯的味道吗？如果你愿意的话，我可以给你15000金币。"
  INFO.SCVR "03sX0aurielbow"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX0TR_Blade"
@@ -65200,7 +65200,7 @@ player->additem ""gold_001"" 15000
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Torasa Aram$00"
- INFO.NAME "奥瑞尔之弓…有意思。我闻到的那是一些灰烬薯的味道吗？如果你愿意的话，我可以给你15000金币。"
+ INFO.NAME "奥瑞埃尔之弓…有意思。我闻到的那是一些灰烬薯的味道吗？如果你愿意的话，我可以给你15000金币。"
  INFO.SCVR "03sX0aurielbow"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "Choice: ""出售物品。"" 1 ""保留物品。"" 2"
