@@ -221316,7 +221316,7 @@ player->additem food_kwama_egg_02 4"
  INFO.NNAM "1653226130202002395$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Khuul$00"
- INFO.NAME "你听到传言了，矿工说矿场被诅咒了，神秘的声音。鬼魂也许是真的，也许不是。矿场入口在库尔的南边，靠近一个被遗弃的灰烬之地的帐篷，小心点，外地人是野蛮的袭击者和亡命之徒，很可能会袭击旅行者。"
+ INFO.NAME "你听到传言了，矿工说矿场被诅咒了，神秘的声音。鬼魂也许是真的，也许不是。矿场入口在库尔的南边，靠近一个被遗弃的灰烬之民的帐篷。小心点，流浪的外地人是野蛮的掠夺者和不法之徒，很可能会袭击旅行者。"
  INFO.SCVR "04JX3IC17_Witch"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "16DX0Thelsa Dral"
@@ -261672,7 +261672,7 @@ ModDisposition -10"
  INFO.NNAM "374758521394322560$00"
  INFO.DATA [00 00 00 00 4B 00 00 00 FF FF FF 00]
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "那个女巫？我们甚至不喜欢大声说出她的名字，她住在城镇西南不远的阿巴纳比洞穴里。如果你想和她说话，可要小心了。传说有可怕的生物守卫着她的莱尔洞穴，她还有势力强大的朋友。 {卫兵}"
+ INFO.NAME "那个女巫？我们甚至不喜欢大声说出她的名字，她住在城镇西南不远的阿巴纳比洞穴里。如果你想和她说话，可要小心了。传说有可怕的生物守卫着她的巢穴，她还有势力强大的朋友。 {卫兵}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -267541,7 +267541,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "677944423046923989$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Tel Vos$00"
- INFO.NAME "你是自由冒险者，对吧？在莱尔南部和西部的放牧平原上有许多坟墓、废墟和巢穴。只要睁大眼睛，入口处通常会有一堆石头或树木作为标记。"
+ INFO.NAME "你是自由冒险者，对吧？在南部和西部的放牧平原上有许多坟墓、废墟和巢穴。只要睁大眼睛，入口处通常会有一堆石头或树木作为标记。"
  INFO.SCVR "09CX0Guard"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -328501,7 +328501,7 @@ moddisposition 10"
  INFO.NNAM "1709319512901926684$00"
  INFO.DATA [02 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Tel Branora$00"
- INFO.NAME "不要有新事物出现，%PCName。我是%Name。这里是泰尔-布勒诺拉，西拉那夫人的泰瓦尼堡垒。你在找服务吗？"
+ INFO.NAME "勿起事端，%PCName。我是%Name。这里是泰尔-布勒诺拉，西拉那夫人的泰瓦尼堡垒。你在找服务吗？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
