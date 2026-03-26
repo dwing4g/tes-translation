@@ -29026,7 +29026,7 @@ End yarnarScript"
  INFO.PNAM [00]
  INFO.NNAM "2792175353208021195$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "瑞多然家族：来自梅里尔·赫拉诺的诽谤"
+ INFO.NAME "瑞多然家族：来自梅里尔·哈拉诺的诽谤"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "2792175353208021195$00"
@@ -29039,7 +29039,7 @@ End yarnarScript"
  INFO.PNAM "2443620729392312291$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "法拉·雷瑟兰感谢我让梅里尔-哈拉诺收回诽谤言论。"
+ INFO.NAME "法拉·雷瑟兰感谢我让梅里尔·哈拉诺收回诽谤言论。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_CowardDisgrace$00"
@@ -33054,7 +33054,7 @@ End yarnarScript"
  INFO.PNAM "1130641401706223979$00"
  INFO.NNAM "1625028503916121756$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺墓穴里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。"
+ INFO.NAME "艾迪斯·火眼告诉我，萨拉诺墓穴里有一个饥饿魔，它在月蛾要塞东南的山头上，位于灰烬之地和阿玛雅湖之间。我奉命前往该墓，并杀死饥饿魔。"
 -INFO
  INFO.INAM "1625028503916121756$00"
  INFO.PNAM "31539249493084511613$00"
@@ -47597,7 +47597,7 @@ StartScript IlnoriCellCheck"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "almalexia$00"
- INFO.NAME "多年来，歧莫和锻莫一直在交战。锻莫藐视歧莫所崇拜的迪德拉，而信仰他们自己的金属造物。直到诺德人入侵瑞斯戴恩，两个国家才得以在我们的尼瑞瓦和矮人国王杜玛克的领导下联合起来。随着时间的推移，两位将军成了生死之交，在我和尼瑞瓦结婚的那一天，杜玛克赠与我们雌雄双剑，希望之火和真理之焰。 {锻莫族,礼物,刀锋}"
+ INFO.NAME "多年来，歧莫和锻莫一直在交战。锻莫藐视歧莫所崇拜的迪德拉，而信仰他们自己的金属造物。直到诺德人入侵瑞斯戴恩，两个国家才得以在我们的尼瑞瓦和矮人国王杜马克的领导下联合起来。随着时间的推移，两位将军成了生死之交，在我和尼瑞瓦结婚的那一天，杜马克赠与我们雌雄双剑，希望之火和真理之焰。 {锻莫族,礼物,刀锋}"
  INFO.SCVR "04JX5TR_Blade"
  INFO.INTV [0A 00 00 00]
 -DIAL
@@ -56754,7 +56754,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "268212608920701313$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.FNAM "Thieves Guild$00"
- INFO.NAME "在试图偷东西之前，一定要研究你的目标，好好盘点一下他有什么。如果他的目光被那把闪闪发光的银质大剑吸引，他就不会注意到你手里拿的是几颗褪了色的投掷手里剑。"
+ INFO.NAME "在动手之前，先把目标摸透，把人家身上有什么东西都盘算清楚。要是他眼睛直勾勾盯着那柄银闪闪的大剑，哪还顾得上你悄悄摸走几枚生锈的投掷手里剑。"
  INFO.SCVR "12sX4Random100"
  INFO.INTV [3C 00 00 00]
  INFO.SCVR "2CsX0NoLore"
@@ -57605,7 +57605,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.NNAM "997225757237565275$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Gnisis$00"
- INFO.NAME "别去那座老维洛提塔楼打探了。叛变的泰瓦尼巫师巴拉达斯·德姆内瓦尼住在那里，他不欢迎访客。"
+ INFO.NAME "别去那座老维洛提塔楼打探了。离经叛道的泰瓦尼巫师巴拉达斯·德姆内瓦尼住在那里，他不欢迎访客。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1E 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -62743,7 +62743,7 @@ Journal town_balmora 5"
  INFO.NNAM "1942232671391721246$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec$00"
- INFO.NAME "你知道我听说巴拉姆什么事了吗？有一天他在神殿里醒来，却不记得自己是怎么到那里的，也不知道为什么要去那里。他开了一个大玩笑，说他一定是昨晚喝多了，然后就忘得一干二净了。"
+ INFO.NAME "你知道我听说了巴拉姆什么吗？前几天他在神殿里醒过来，却怎么也想不起自己是怎么去的，又是为了什么去的。他自己还拿这事打趣，说一定是昨晚喝多了，然后就忘得一干二净了。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [19 00 00 00]
  INFO.SCVR "14JX3A1_2_AntabolisInformant"

@@ -35427,7 +35427,7 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "2792175353208021195$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "瑞多然家族：来自梅里尔·赫拉诺的诽谤"
+ INFO.NAME "瑞多然家族：来自梅里尔·哈拉诺的诽谤"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "2792175353208021195$00"
@@ -35440,7 +35440,7 @@ C<BR>"
  INFO.PNAM "2443620729392312291$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "法拉·雷瑟兰感谢我让梅里尔-哈拉诺收回诽谤言论。"
+ INFO.NAME "法拉·雷瑟兰感谢我让梅里尔·哈拉诺收回诽谤言论。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_CowardDisgrace$00"
@@ -39119,13 +39119,13 @@ C<BR>"
  INFO.PNAM "1130641401706223979$00"
  INFO.NNAM "1625028503916121756$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾要塞东南方的山丘上，萨拉诺墓穴里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。"
+ INFO.NAME "艾迪斯·火眼告诉我，萨拉诺墓穴里有一个饥饿魔，它在月蛾要塞东南的山头上，位于灰烬之地和阿玛雅湖之间。我奉命前往该墓，并杀死饥饿魔。"
 -INFO
  INFO.INAM "1625028503916121756$00"
  INFO.PNAM "31539249493084511613$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾迪斯·火眼感谢我杀死饥饿魔，并付给我1000金币。"
+ INFO.NAME "艾迪斯·火眼感谢我杀死了饥饿魔，并付给我1000金币。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HR_FindDalobar$00"
