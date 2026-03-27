@@ -116873,7 +116873,7 @@ BJTXCDBDSIBBVZFDQSBBBJBJUFBBIDBJEBXMABRBBBEBEBIJDHCJEBEBHJ
  NPC_.AI_F [FF FF 7F 7F FF FF 7F 7F FF FF 7F 7F 00 00 74 72 65 72 61 79 6E 61 20 64 61 6C 65 6E 00 00 00 00 9C 22 B4 00 C1 3A 4F 00 5C F1 A6 00 0C 00 01 00]
 -NPC_
  NPC_.NAME "tonas telvani$00"
- NPC_.FNAM "托纳斯·泰瓦尼$00"
+ NPC_.FNAM "托纳斯·泰瓦伲$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Shipmaster$00"
  NPC_.ANAM [00]
@@ -152409,33 +152409,33 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
 在某一天，由某对不确定的父母诞下一婴，<BR>
 星与月的化身将重生。<BR>
 <BR>
-第二个试炼<BR>
+第二个试炼
 枯萎与衰老都无法伤害他。<BR>
-血肉的诅咒在他面前消散。<BR>
+血肉的诅咒在他面前消散。 <BR>
 <BR>
 第三个试炼<BR>
-在黑暗的洞穴中，阿祖拉的眼睛看见，<BR>
-并令明月星辰熠熠生辉。<BR>
+在黑暗的洞穴中，在阿祖拉的注视下，<BR>
+星与月散发着光辉。<BR>
 <BR>
 第四个试炼<BR>
-一个陌生人的声音团结了各大家族。<BR>
-三个家族称他为统谏使。<BR>
+异客之声使各大议院团结一心，<BR>
+三大家族称之为统谏使。<BR>
 <BR>
 第五个试炼<BR>
-一个陌生人的手团结了维洛斯。<BR>
-四个部落称他为尼瑞瓦因。<BR>
+异客之手使维洛斯的人民联合一体，<BR>
+四大部落称之为尼瑞瓦因。<BR>
 <BR>
 第六个试炼<BR>
-他尊重未被悼念的部落之血。<BR>
-他吞噬他们的罪孽，然后重生。<BR>
+他尊重着无人哀悼的家族流淌的鲜血，<BR>
+他承受着他们的罪孽，重生了。<BR>
 <BR>
 第七个试炼<BR>
-他的仁慈释放了被诅咒的虚假神明，<BR>
-束缚破碎，救赎疯狂。<BR>
+他的怜悯释放了被诅咒的伪神，<BR>
+重组破碎，救赎疯狂。<BR>
 <BR>
 一个命运<BR>
-他为维洛斯的人民讲法律。<BR>
-他为他们的土地说话，并赞颂他们的伟大。<BR>"
+他诉说着维洛斯的人民的法理，<BR>
+他成为他们土地的代言者，使他们再次伟大。<BR>"
 -BOOK
  BOOK.NAME "bk_a2_1_thestranger$00"
  BOOK.MODL "m\Text_Parchment_01.NIF$00"
@@ -173949,7 +173949,7 @@ D.文物 - +35%<p>"
 <BR>
 克里萨米尔<BR>
 <BR>
-圣骑士之剑是一柄古老的大剑，攻防俱佳，甚至防御方面更胜一筹。其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
+圣骑士之刃是一柄古老的大剑，攻防俱佳，甚至防御方面更胜一筹。其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
 <BR>
 玛格努斯之杖<BR>
 <BR>
@@ -182399,7 +182399,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "26082804528820663$00"
  INFO.NNAM "49966646244930708$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "有人告诉我，城里的傲特莫只有幸运之锁的库卢梅尔、法师公会的艾斯蒂达琳、哈拉鲁议会厅的伊玛蕾、炼金术士纳尔卡里亚，以及在巴尔莫拉都有住所的海瑟林德和泰尔梅林。"
+ INFO.NAME "有人告诉我，城里的傲特莫只有幸运之锁的库卢梅尔、法师公会的艾斯蒂达琳、哈拉鲁议会厅的伊玛蕾、炼金术士娜尔卡娅，以及在巴尔莫拉都有住所的海瑟林德和泰尔梅林。"
 -INFO
  INFO.INAM "49966646244930708$00"
  INFO.PNAM "439415983180316129$00"
@@ -183899,7 +183899,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "29088146022719413342$00"
  INFO.NNAM "8885276992550027196$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉凯，我已经放弃寻找属于莱纳斯·尤卢斯的银制羞辱法杖了。他很失望，让我至少一天内不要回来。他让我先决定自己是否真心为帝国教团服务，然后再向他请求圣祠军士任务。 {帝国人}"
+ INFO.NAME "我告诉凯我已经放弃了寻找属于莱纳斯·尤卢斯的银制羞辱法杖的努力。他很失望，并告诉我至少一天之内不要再来了。他告诉我，在我再次向他提出圣祠军士的任务之前，要决定我是否真的要为帝国教团服务。 {帝国人}"
 -INFO
  INFO.INAM "8885276992550027196$00"
  INFO.PNAM "2735754743148812155$00"
@@ -183983,7 +183983,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉凯，我无法驱逐内德拉斯房子里出没的鬼魂。凯很失望，让我至少一天内不要再来。他让我先分清主次，然后再向他请求圣祠军士的任务。"
+ INFO.NAME "我告诉凯，我不可能除掉萦绕在内德拉斯的房子里的鬼魂。凯很失望，并告诉我至少一天之内不要再来了。他告诉我，要搞清楚我的优先事项，然后再向他提出圣祠军士的任务。"
 -DIAL
  DIAL.NAME "IC19_Restless_not$00"
  DIAL.DATA [04]
@@ -187115,7 +187115,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉凯，我已经放弃寻找属于莱纳斯·尤卢斯的银制羞辱法杖了。他很失望，让我至少一天内不要回来。他让我先决定自己是否真心为帝国教团服务，然后再向他请求圣祠军士任务。 {帝国人}"
+ INFO.NAME "我告诉凯我已经放弃了寻找属于莱纳斯·尤卢斯的银制羞辱法杖的努力。他很失望，并告诉我至少一天之内不要再来了。他告诉我，在我再次向他提出圣祠军士的任务之前，要决定我是否真的要为帝国教团服务。 {帝国人}"
 -DIAL
  DIAL.NAME "HR_MudcrabNest$00"
  DIAL.DATA [04]
@@ -188057,7 +188057,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "2932531307217292914$00"
  INFO.NNAM "2219619981111149074$00"
  INFO.DATA [04 00 00 00 40 00 00 00 FF FF FF 00]
- INFO.NAME "尼巴妮·玛伊沙提醒我《七大异象》的第五个考验：“一个异客之手联合了维洛提人/四个部落称他为尼瑞瓦因。”四个部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当我被瓦登费尔的四个灰烬之民部落分别命名为“尼瑞瓦因”时，我就通过了第五个试炼，应该回到尼巴妮·玛伊沙那里接受进一步的指导。"
+ INFO.NAME "尼巴妮·玛伊沙提醒我《七大异象》的第五个考验：“一个异客之手联合了维洛提/四个部落称他为尼瑞瓦因。”四个部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当我被瓦登费尔的四个灰烬之民部落分别命名为“尼瑞瓦因”时，我就通过了第五个试炼，应该回到尼巴妮·玛伊沙那里接受进一步的指导。"
 -INFO
  INFO.INAM "2219619981111149074$00"
  INFO.PNAM "36104382652719067$00"
@@ -191519,7 +191519,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "23064189583248723812$00"
  INFO.NNAM "712562861484524423$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "我告诉凯，我无法驱逐内德拉斯房子里出没的鬼魂。凯很失望，让我至少一天内不要再来。他让我先分清主次，然后再向他请求圣祠军士的任务。"
+ INFO.NAME "我告诉凯，我不可能除掉萦绕在内德拉斯的房子里的鬼魂。凯很失望，并告诉我至少一天之内不要再来了。他告诉我，要搞清楚我的优先事项，然后再向他提出圣祠军士的任务。"
 -INFO
  INFO.INAM "712562861484524423$00"
  INFO.PNAM "534826374325902474$00"
@@ -195587,7 +195587,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "2320324972774627235$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我杀死了里明蒂尔，瑞雯·奥曼告诉我德拉萨夫人很高兴。她奖励了我一件焰镜长袍。 {报酬}"
+ INFO.NAME "我杀了里明蒂尔，瑞雯·奥曼告诉我德拉萨夫人很高兴。她给了我一件焰镜长袍作为奖励。 {报酬}"
 -DIAL
  DIAL.NAME "IC4_scrib_A$00"
  DIAL.DATA [04]
@@ -196790,7 +196790,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "93357471205120343$00"
  INFO.NNAM "3138830649292862176$00"
  INFO.DATA [04 00 00 00 05 00 00 00 FF FF FF 00]
- INFO.NAME "在我的梦中，一位头戴金色面具的高大身影迎接我，并说道：“主的府邸有许多房间。放心吧，我已经把你从敌人的手中救了出来。”你似乎已经死去，看到自己躺在一张烛火摇曳的桌子上。你伸手触碰那道身影，它便吸了口气，睁开了眼睛，从桌上缓缓起身。然后房间消失，整个世界充满了光明，你从梦中醒来。"
+ INFO.NAME "在我的梦中，一位头戴金色面具的高大身影迎接我，并说道：“大人的府邸有许多房间。放心吧，我已经把你从敌人的手中救了出来。”你似乎已经死去，看到自己躺在一张烛火摇曳的桌子上。你伸手触碰那道身影，它便吸了口气，睁开了眼睛，从桌上缓缓起身。然后房间消失，整个世界充满了光明，你从梦中醒来。"
 -INFO
  INFO.INAM "3138830649292862176$00"
  INFO.PNAM "246182292946328748$00"
@@ -219854,7 +219854,7 @@ Journal Romance_Ahnassi 70"
  INFO.NNAM "898122883298037504$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Healer Service$00"
- INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特自己也说没有解药，他们应该知道。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是一个女丹莫克服斯库玛毒瘾的回忆录。这本书赞美斯库玛，说斯库玛成瘾者不一定愚蠢或邪恶。丹莫不会携带这样一本书。试试维威克城外邦区乔巴沙的珍藏本吧。"
+ INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特们自己都说没法治，他们应该清楚。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是某个丹莫女人戒掉斯库玛毒瘾的回忆录。这本书猛夸斯库玛，还说吸食斯库玛的人不一定都是傻子、恶人。丹莫不卖这种书。去维威克城的外邦区，乔巴沙的珍藏本书店试试吧。"
  INFO.SCVR "0ARX0Khajiit"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4Romance_Ahnassi"
@@ -219866,7 +219866,7 @@ Journal Romance_Ahnassi 70"
  INFO.NNAM "9056153363128827950$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Healer$00"
- INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特自己也说没有解药，他们应该知道。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是一个女丹莫克服斯库玛毒瘾的回忆录。这本书赞美斯库玛，说斯库玛成瘾者不一定愚蠢或邪恶。丹莫不会携带这样一本书。试试维威克城外邦区乔巴沙的珍藏本吧。"
+ INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特们自己都说没法治，他们应该清楚。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是某个丹莫女人戒掉斯库玛毒瘾的回忆录。这本书猛夸斯库玛，还说吸食斯库玛的人不一定都是傻子、恶人。丹莫不卖这种书。去维威克城的外邦区，乔巴沙的珍藏本书店试试吧。"
  INFO.SCVR "0ARX0Khajiit"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4Romance_Ahnassi"
@@ -219900,7 +219900,7 @@ Journal Romance_Ahnassi 70"
  INFO.NNAM "2726528952606222692$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特自己也说没有解药，他们应该知道。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是一个女丹莫克服斯库玛毒瘾的回忆录。这本书赞美斯库玛，说斯库玛成瘾者不一定愚蠢或邪恶。丹莫不会携带这样一本书。试试维威克城外邦区乔巴沙的珍藏本吧。"
+ INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特们自己都说没法治，他们应该清楚。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是某个丹莫女人戒掉斯库玛毒瘾的回忆录。这本书猛夸斯库玛，还说吸食斯库玛的人不一定都是傻子、恶人。丹莫不卖这种书。去维威克城的外邦区，乔巴沙的珍藏本书店试试吧。"
  INFO.SCVR "0ARX0Khajiit"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4Romance_Ahnassi"
@@ -219912,7 +219912,7 @@ Journal Romance_Ahnassi 70"
  INFO.NNAM "25972850394551336$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant Service$00"
- INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特自己也说没有解药，他们应该知道。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是一个女丹莫克服斯库玛毒瘾的回忆录。这本书赞美斯库玛，说斯库玛成瘾者不一定愚蠢或邪恶。丹莫不会携带这样一本书。试试维威克城外邦区乔巴沙的珍藏本吧。"
+ INFO.NAME "我没听说过斯库玛上瘾有特效药。卡吉特们自己都说没法治，他们应该清楚。但我听说过一本书，《一个丹莫斯库玛食用者的自白》，这本书自称是某个丹莫女人戒掉斯库玛毒瘾的回忆录。这本书猛夸斯库玛，还说吸食斯库玛的人不一定都是傻子、恶人。丹莫不卖这种书。去维威克城的外邦区，乔巴沙的珍藏本书店试试吧。"
  INFO.SCVR "0ARX0Khajiit"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4Romance_Ahnassi"
@@ -220127,7 +220127,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.SCVR "14JX3Hospitality_Papers"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Angaredhel; item gold_001 < 25; 
-Choice ""我没有25金币。"" 2 ""现在没有，谢谢。"" 3"
+Choice ""我没有25金币。"" 2 ""现在不需要，谢谢。"" 3"
 -INFO
  INFO.INAM "693920689290419680$00"
  INFO.PNAM "2383926591909813679$00"
@@ -220138,7 +220138,7 @@ Choice ""我没有25金币。"" 2 ""现在没有，谢谢。"" 3"
  INFO.SCVR "14JX3Hospitality_Papers"
  INFO.INTV [01 00 00 00]
  INFO.BNAM ";Angaredhel; item gold_001 < 25; 
- Choice ""好的，我会买的。"" 1 ""现在没有，谢谢。"" 3"
+ Choice ""好的，我会买的。"" 1 ""现在不需要，谢谢。"" 3"
 -INFO
  INFO.INAM "297834839313865098$00"
  INFO.PNAM "693920689290419680$00"
@@ -220149,7 +220149,7 @@ Choice ""我没有25金币。"" 2 ""现在没有，谢谢。"" 3"
  INFO.SCVR "05IX4Gold_001"
  INFO.INTV [19 00 00 00]
  INFO.BNAM ";Angaredhel; item gold_001 < 25; 
-Choice ""我没有25金币。"" 2 ""现在没有，谢谢。"" 3"
+Choice ""我没有25金币。"" 2 ""现在不需要，谢谢。"" 3"
 -INFO
  INFO.INAM "3013649882822521546$00"
  INFO.PNAM "297834839313865098$00"
@@ -220158,7 +220158,7 @@ Choice ""我没有25金币。"" 2 ""现在没有，谢谢。"" 3"
  INFO.ONAM "angaredhel$00"
  INFO.NAME "根据泰瓦尼家族议会制定的集体条款，除非持有招待文件，否则萨德里斯-莫拉的外地人和外地人不得在城里旅行，也不得与市民、商人或公职人员交谈或做生意。这是为了保证客人的舒适和安全。作为萨德里斯-莫拉的招待处长，我可以以25金币的价格为你提供这些文件。你愿意购买这些招待文件吗？ {事}"
  INFO.BNAM ";Angaredhel; item gold_001 >= 25;
- Choice ""好的，我会买的。"" 1 ""现在没有，谢谢。"" 3"
+ Choice ""好的，我会买的。"" 1 ""现在不需要，谢谢。"" 3"
 -DIAL
  DIAL.NAME "召唤系专家$00"
  DIAL.DATA [00]
@@ -221011,7 +221011,7 @@ Set timer to -1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "她是来向人类帝国进贡的。在尼希斯之前，在人类帝国之前，我就在这里了。在尼希斯消失之后，在这个短命的泰姆瑞尔帝国崩溃之后，我还会在这里。尼希斯的人民之所以活着，只是因为我容忍了他们。我为什么要进贡？"
+ INFO.NAME "她来这里，是叫我向人类帝国进贡的。在尼希斯未建之前，我就在这里。在人类帝国未建之前，我还在这里。在尼希斯消失之后，在这个短命的泰姆瑞尔帝国崩溃之后，我还是会在这里。尼希斯的人之所以活着，不过是因为我容忍他们罢了。我凭什么要进贡？"
  INFO.BNAM "Choice ""拉格什得到了教训。"" 1 ""放了她，就没人再来找你麻烦了。"" 2 ""每个人都要交税。"" 3"
 -DIAL
  DIAL.NAME "基础物资$00"
@@ -221289,7 +221289,7 @@ player->additem food_kwama_egg_02 4"
  INFO.NNAM "6099139692768926046$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ANAM "Khuul$00"
- INFO.NAME "那么，下面真的有女巫。所以传言是真的，你杀了她？你杀了她对你有好处。"
+ INFO.NAME "那么，下面真的有女巫。所以传言是真的，你杀了她？杀得好，干得漂亮。"
  INFO.SCVR "04JX3IC17_Witch"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "16DX0Thelsa Dral"
@@ -221302,7 +221302,7 @@ player->additem food_kwama_egg_02 4"
  INFO.NNAM "13759124492738115654$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Khuul$00"
- INFO.NAME "那么，下面真的有女巫。所以传言是真的，你杀了她？你杀了她对你有好处。"
+ INFO.NAME "那么，下面真的有女巫。所以传言是真的，你杀了她？杀得好，干得漂亮。"
  INFO.SCVR "04JX3IC17_Witch"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "16DX0Thelsa Dral"
@@ -221316,7 +221316,7 @@ player->additem food_kwama_egg_02 4"
  INFO.NNAM "1653226130202002395$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Khuul$00"
- INFO.NAME "你听到传言了，矿工说矿场被诅咒了，神秘的声音。鬼魂也许是真的，也许不是。矿场入口在库尔的南边，靠近一个被遗弃的灰烬之民的帐篷。小心点，流浪的外地人是野蛮的掠夺者和不法之徒，很可能会袭击旅行者。"
+ INFO.NAME "你听到传言了，矿工说矿场被诅咒了，神秘的声音。还有鬼魂。也许是真的，也许不是。矿场入口在库尔的南边，靠近一个被遗弃的灰烬之地的帐篷，小心点，被流放的外地人是野蛮的袭击者和亡命之徒，通常会袭击旅行者。"
  INFO.SCVR "04JX3IC17_Witch"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "16DX0Thelsa Dral"
@@ -222668,7 +222668,7 @@ Player->AddItem Gold_001 60"
  INFO.ONAM "nibani maesa$00"
  INFO.NAME "第七个试炼
 他的怜悯释放了被诅咒的伪神，
-束缚破碎，救赎疯狂。
+重组破碎，救赎疯狂。
 
 一个命运
 他诉说着维洛斯人民的法理。
@@ -226459,7 +226459,7 @@ Choice ""继续"" 1"
  INFO.NNAM "6348107772987417634$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "维洛提人是灰烬之民的后裔，他们放弃了游牧生活，定居在本地丹莫中间；维洛提人被他们的灰烬之民表亲鄙视为软弱无能，而丹莫则看不起维洛提人，认为他们是无足轻重的下层阶级。"
+ INFO.NAME "维洛提是灰烬之民的后裔，他们放弃了游牧生活，定居在本地丹莫中间；维洛提被他们的灰烬之民表亲鄙视为软弱无能，而丹莫则看不起维洛提，认为他们是无足轻重的下层阶级。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -226482,7 +226482,7 @@ Choice ""继续"" 1"
  INFO.NNAM "23983626138753395$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "维洛提人是灰烬之民的后裔，他们放弃了游牧生活，定居在本地丹莫中间；维洛提人被他们的灰烬之民表亲鄙视为软弱无能，而丹莫则看不起维洛提人，认为他们是无足轻重的下层阶级。"
+ INFO.NAME "维洛提是灰烬之民的后裔，他们放弃了游牧生活，定居在本地丹莫中间；维洛提被他们的灰烬之民表亲鄙视为软弱无能，而丹莫则看不起维洛提，认为他们是无足轻重的下层阶级。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.BNAM "; bard, bookseller, savant; CHOICE 1"
@@ -235943,7 +235943,7 @@ ModDisposition 20"
  INFO.NNAM "2499839573515549$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ancestor_ghost_vabdas$00"
- INFO.NAME "拉格路布死了，我的仇也报了。和达里乌斯谈谈，不要让他夺走我妻子的土地。这样我就可以休息了。"
+ INFO.NAME "拉格路布死了，我的仇也报了。和达里乌斯谈谈，别让他夺走我妻子的土地。这样我就可以安息了。"
  INFO.SCVR "04JX3IL_WidowLand"
  INFO.INTV [32 00 00 00]
  INFO.SCVR "16DX2lugrub gro-ogdum"
@@ -236796,7 +236796,7 @@ ShowMap Yansirramus"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Lalatia Varian$00"
- INFO.NAME "风之戒是艾斯维尔的传奇宝物，吉娜瑞斯的圣物。它的主人是灵巧的杂技师基辛巴-春雪，据说她总是用脚着地，除非她选择用别人的脚着地。 {戒指,神圣}"
+ INFO.NAME "风之戒是艾斯维尔的一件传奇宝物，吉娜瑞斯的圣物。它的主人是手矫健的杂技演员基辛巴·春雪，据说她无论从何处落下，总能双足着地——除非她偏要落在别人脚上。 {戒指,神圣}"
  INFO.SCVR "04JX3IC24_OracleQuest"
  INFO.INTV [01 00 00 00]
 -DIAL
@@ -243224,7 +243224,7 @@ Player->AddItem Gold_001 1000"
  INFO.NNAM "9722245681613512088$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sul-matuul$00"
- INFO.NAME "这是我父亲的破骨弓。你已经完成了入会仪式，我任命你为灰烬之民的氏族之友，%PCName。保管好我父亲的弓，带着它的荣耀。你是我们部落的朋友，可以在任何乌尔希拉库的床上休息，但不要伤害其他部落成员，也不要拿走他们的东西。现在我要履行我的另一个承诺。去女智者的帐篷，尼巴妮·玛伊沙会检查你，用尼瑞瓦因预言来考验你。 {沙尔}"
+ INFO.NAME "这是我父亲的破骨弓。你已经完成了入会仪式，我命你为灰烬之民的氏族之友，%PCName。请带着这份荣耀，保管好我父亲的弓。你是我们部落的朋友，可以在任何乌尔希拉库的床上休息，但切记，不要伤害其他部落族人，也不要拿走他们的东西。现在我将履行另一个承诺。去女智者的帐篷，找尼巴妮·玛伊沙，她会对你进行审视，并检验你是否与尼瑞瓦因预言相吻合。 {沙尔}"
  INFO.SCVR "04JX3A2_1_MeetSulMatuul"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "15IX3bonebiter_bow_unique"
@@ -243364,7 +243364,7 @@ Choice ""继续"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nibani maesa$00"
- INFO.NAME "有一些尼瑞瓦因预言已经失落了。七大诅咒，还有其他的。有些被遗忘了，有些被隐藏了，有些被故意遗失。女智者是维洛提人的记忆，但那是错误的记忆。我们是凡人，我们的知识也会随之消逝，但我们听说神殿的异见祭司们研究我们尼瑞瓦因的预言，并将其记录在书中。这些文字永远不会消亡。你必须去找他们要这些书，把你找到的带给我。 {七个诅咒,女人,令状}"
+ INFO.NAME "有一些尼瑞瓦因预言已经失落了。七大诅咒，还有其他的。有些被遗忘了，有些被隐藏了，有些被故意遗失。女智者是维洛提的记忆，但那是错误的记忆。我们是凡人，我们的知识也会随之消逝，但我们听说神殿的异见祭司们研究我们尼瑞瓦因的预言，并将其记录在书中。这些文字永远不会消亡。你必须去找他们要这些书，把你找到的带给我。 {七个诅咒,女人,令状}"
  INFO.SCVR "04JX3A2_1_MeetSulMatuul"
  INFO.INTV [2D 00 00 00]
  INFO.BNAM "Journal ""A2_1_MeetSulMatuul"" 56"
@@ -255719,7 +255719,7 @@ Choice ""继续"" 1"
  INFO.NNAM "785317362024314446$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Ghostgate$00"
- INFO.NAME "出幽魂之门没有任何旅行服务。返回巴尔莫拉，沿玛梅亚熔渠向南直到经过一座古老的锻莫桥，然后留意峡谷西北方通往月蛾要塞和巴尔莫拉的道路，或者峡谷东南方通往佩拉吉亚德、赛达-尼恩和南方各点的道路。"
+ INFO.NAME "幽魂之门这儿可没什么旅行服务。要回巴尔莫拉，就顺着玛梅亚熔渠向南走，等过了那座锻莫古桥，留意着点儿——有条路从峡谷往西北出去，能到月蛾要塞和巴尔莫拉；再往下走，还有条路往东南出去，通向佩拉吉亚德、赛达-尼恩，还有南边那些地方。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "19CX0Guard"
@@ -256265,7 +256265,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
  INFO.FNAM "Temple$00"
- INFO.NAME "让我告诉你卡莫纳堂的事吧！卡莫纳堂是晨风本地的犯罪集团。自从被帝国人占领后，他们变得越来越强大和冷酷无情，在哈拉鲁家族的高层中有很大的影响力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，他们发誓要消灭外地人的新贵。卡莫纳堂以残酷漠视人类生命而闻名。"
+ INFO.NAME "让我告诉你卡莫纳堂的事吧！卡莫纳堂是晨风本土的犯罪组织。自自帝国占领以来，他们日益强大，手段也愈发狠辣，在哈拉鲁家族高层中颇有势力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，誓要将那些外地人暴发户赶尽杀绝。该组织以草菅人命、心狠手辣著称。 {帝国人}"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [1A 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -261114,7 +261114,7 @@ ModDisposition 10"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Gnaar Mok$00"
- INFO.NAME "是的。它们有一对在北边游荡，它们来过镇子附近几次，我们把它们赶走了，但我肯定它们还会回来，除非有人采取行动。"
+ INFO.NAME "没错，有两只那东西，就在北边那片转悠。都靠近镇子好几回了。我们赶是赶跑了，可要是没人去收拾，保准还得回来。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -DIAL
@@ -261672,7 +261672,7 @@ ModDisposition -10"
  INFO.NNAM "374758521394322560$00"
  INFO.DATA [00 00 00 00 4B 00 00 00 FF FF FF 00]
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "那个女巫？我们甚至不喜欢大声说出她的名字，她住在城镇西南不远的阿巴纳比洞穴里。如果你想和她说话，可要小心了。传说有可怕的生物守卫着她的巢穴，她还有势力强大的朋友。 {卫兵}"
+ INFO.NAME "那个女术士？我们连她的名字都不愿提。她就住在镇子西南边不远处的阿巴纳比洞穴里。不过，你要是想去跟她说话，可得小心。据说她巢穴外面守着些吓人的怪物，她自己也有些厉害的朋友。 {卫兵}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -263849,7 +263849,7 @@ Player->AddItem key_neranomanor 1"
  INFO.PNAM "22990147762465313017$00"
  INFO.NNAM "193433556247591009$00"
  INFO.DATA [03 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我听你的，%PCName。"
+ INFO.NAME "我听着呢，%PCName。"
 -INFO
  INFO.INAM "193433556247591009$00"
  INFO.PNAM "15242252713016251$00"
@@ -265648,7 +265648,7 @@ Player->AddItem P_Cure_Common_S 1
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nibani maesa$00"
- INFO.NAME "“被诅咒的伪神”一定是审判席。他们肯定是伪神，是邪恶的术士和死灵法师，他们谋杀了尼瑞瓦，好让自己成为神。“束缚破碎”一定是指尼瑞瓦违背了对灰烬之民的承诺，不遵守神灵之道和土地权利。"
+ INFO.NAME "“被诅咒的伪神”一定是审判席。他们肯定是伪神，是邪恶的术士和死灵法师，他们谋杀了尼瑞瓦，好让自己成为神。“重组破碎”一定是指尼瑞瓦违背了对灰烬之民的承诺，不遵守神灵之道和土地权利。"
  INFO.SCVR "04JX2A2_1_MeetSulMatuul"
  INFO.INTV [2D 00 00 00]
 -DIAL
@@ -266596,7 +266596,7 @@ ShowMap ""Ahemmusa Camp"""
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sinnammu mirpal$00"
- INFO.NAME "当维洛提人第一次来到晨风时，他们崇拜我们最可怕的先祖——迪德拉领主。传说中，迪德拉领主亲自建造了这些伟大的圣祠，因为凡人无法建造足够宏伟的建筑来满足他们的需要。当审判席宣称驯服了迪德拉领主之后，他们禁止了对邪恶的迪德拉，马拉卡斯，梅鲁涅斯·大衮，莫拉格·巴尔和谢尔格拉斯的崇拜。"
+ INFO.NAME "当维洛提第一次来到晨风时，他们崇拜我们最可怕的先祖——迪德拉领主。传说中，迪德拉领主亲自建造了这些伟大的圣祠，因为凡人无法建造足够宏伟的建筑来满足他们的需要。当审判席宣称驯服了迪德拉领主之后，他们禁止了对邪恶的迪德拉，马拉卡斯，梅鲁涅斯·大衮，莫拉格·巴尔和谢尔格拉斯的崇拜。"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  INFO.BNAM "; Sinnammu Mirpal; Journal ""A2-6_Incarnate"" >= 50; 
@@ -275552,7 +275552,7 @@ Journal town_Vivec 5"
  INFO.NNAM "362626263324774509$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "听说闸门闹鬼的事了吗？有个鬼魂在南炮塔会议厅闹鬼，有人把它赶出去了？然后它又回来了。闸门是新建的，没听说过这地方以前有鬼魂。我猜是某个术士在捣鬼，但它毁了闸门的生意，安加雷德尔长官很不高兴。如果有人能在有人受伤之前处理一下就好了。"
+ INFO.NAME "听说闸门闹鬼的事了吗？有个鬼魂在南塔会议厅闹鬼，有人把它赶出去了？然后它又回来了。闸门是新建的，没听说过这地方以前有鬼魂。我猜是某个术士在捣鬼，但它毁了闸门的生意，安加雷德尔长官很不高兴。如果有人能在有人受伤之前处理一下就好了。"
  INFO.SCVR "06DX0uleni heleran"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "17XX0angaredhel"
@@ -284565,7 +284565,7 @@ Player->AddItem ""writ_bemis"" 1"
  INFO.NNAM "27727224521769219064$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Miner$00"
- INFO.NAME "夸蚂工虫负责挖掘蚁群的隧道和房间，照料女王和蚁卵。工虫没有攻击性，但也不是完全无助。 {工作}"
+ INFO.NAME "夸蚂工虫负责挖掘蚁群的隧道和房间，照料女王和蚁卵。工虫没有攻击性，但也并非毫无自保之力。 {工作}"
  INFO.SCVR "0BLX0Sudanit Mine"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1BLX0Dissapla Mine"
@@ -284585,7 +284585,7 @@ Player->AddItem ""writ_bemis"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "Briring$00"
- INFO.NAME "夸蚂工虫负责挖掘蚁群的隧道和房间，照料女王和蚁卵。工虫没有攻击性，但也不是完全无助。 {工作}"
+ INFO.NAME "夸蚂工虫负责挖掘蚁群的隧道和房间，照料女王和蚁卵。工虫没有攻击性，但也并非毫无自保之力。 {工作}"
  INFO.BNAM ";barbarian"
 -DIAL
  DIAL.NAME "跛足尸化感染者$00"
@@ -286414,7 +286414,7 @@ Journal town_balmora 27"
  INFO.NNAM "23552160212753218805$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "卡莫纳堂是晨风的本土犯罪集团。自帝国人占领晨风以来，他们变得越来越强大和冷酷无情，在哈拉鲁家族的高层中有很大的影响力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，他们发誓要消灭外地人的新贵。卡莫纳堂以残酷漠视人类生命而闻名。"
+ INFO.NAME "卡莫纳堂是晨风本土的犯罪组织。自自帝国占领以来，他们日益强大，手段也愈发狠辣，在哈拉鲁家族高层中颇有势力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，誓要将那些外地人暴发户赶尽杀绝。该组织以草菅人命、心狠手辣著称。 {帝国人}"
  INFO.BNAM "; savant; bard; thieves; rogues; acrobats;"
 -INFO
  INFO.INAM "23552160212753218805$00"
@@ -286422,7 +286422,7 @@ Journal town_balmora 27"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "卡莫纳堂是晨风的本土犯罪集团。自帝国人占领晨风以来，他们变得越来越强大和冷酷无情，在哈拉鲁家族的高层中有很大的影响力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，他们发誓要消灭外地人的新贵。卡莫纳堂以残酷漠视人类生命而闻名。"
+ INFO.NAME "卡莫纳堂是晨风本土的犯罪组织。自自帝国占领以来，他们日益强大，手段也愈发狠辣，在哈拉鲁家族高层中颇有势力。卡莫纳堂与盗贼公会直接竞争非法贸易的控制权，誓要将那些外地人暴发户赶尽杀绝。该组织以草菅人命、心狠手辣著称。 {帝国人}"
  INFO.SCVR "0ARX4Dark Elf"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1CsX0nolore"
@@ -286451,7 +286451,7 @@ Journal town_balmora 27"
  INFO.NNAM "18311111822181515406$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Dagon Fel$00"
- INFO.NAME "岛上到处都是锻莫遗迹，人们都来搜寻锻莫文物。别管皇帝的法律了，与我无关。 {事}"
+ INFO.NAME "岛上到处都是锻莫遗迹，人们都是来淘锻莫文物的。别管皇帝的法律了，反正不关我的事。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -286989,7 +286989,7 @@ Choice ""我不知道，但我会尽力的。"" 1 ""对不起，我想你失败的地方我是不会成功的。
  INFO.NNAM "15039161481941710809$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ahnassi$00"
- INFO.NAME "阿娜西安全了？这个坏人不再是坏人了？如果你帮了阿娜西的忙，阿娜西就会帮你的忙，解决这个问题。我保证，阿娜西会用她的手、她的唇、她的心来感谢你。你不仅仅是个新朋友，%PCName。你是个好朋友，挚诚好友。现在，阿娜西可以分享礼物，一份她为真正的挚诚好友找到的特殊礼物。 {悬赏,女神之手}"
+ INFO.NAME "阿娜西安全了？那个坏人没了？要是你因为帮阿娜西被人悬赏，阿娜西就算把所有的人情都使上，也得给你摆平。阿娜西说到做到。阿娜西用她的手、她的唇、她的心谢你。你不只是新朋友，%PCName。你是好朋友，挚诚好友。现在，阿娜西可以分享礼物了，一份她为真正的挚诚好友找来的特殊礼物。 {忙,女神之手}"
  INFO.SCVR "04JX3Romance_Ahnassi"
  INFO.INTV [28 00 00 00]
  INFO.SCVR "16DX0daren adryn"
@@ -293660,7 +293660,7 @@ Choice ""继续"" 1"
  INFO.NNAM "243942581231727101$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nibani maesa$00"
- INFO.NAME "第五个试炼是：“异客之手团结了维洛提人/四大部落称他为尼瑞瓦因。”四大部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当你被瓦登费尔的四个灰烬之民部落分别任命为“尼瑞瓦因”时，来找我寻求进一步的指导，因为你已经通过了第五次试炼。"
+ INFO.NAME "第五个试炼是：“异客之手团结了维洛提/四大部落称他为尼瑞瓦因。”四大部落是指瓦登费尔的四个部落：乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙。当你被瓦登费尔的四个灰烬之民部落分别任命为“尼瑞瓦因”时，来找我寻求进一步的指导，因为你已经通过了第五次试炼。"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  INFO.BNAM ";Nibani Maesa ;Journal ""A2_6_Incarnate"" >= 50; 
@@ -293707,7 +293707,7 @@ Journal ""A2_6_Incarnate"" 64"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "nibani maesa$00"
- INFO.NAME "维洛斯之民就是丹莫，所有的丹莫、灰烬之民和大家族。维洛提人上一次联合是在红山之战中与尼瑞瓦一起。现在，尼瑞瓦将再次降临，团结丹莫。他将把晨风归还给丹莫，恢复维洛提人昔日的辉煌。"
+ INFO.NAME "维洛斯之民就是丹莫，所有的丹莫、灰烬之民和大家族。维洛提上一次联合是在红山之战中与尼瑞瓦一起。现在，尼瑞瓦将再次降临，团结丹莫。他将把晨风归还给丹莫，恢复维洛提昔日的辉煌。"
  INFO.SCVR "04JX3A2_1_MeetSulMatuul"
  INFO.INTV [2D 00 00 00]
  INFO.SCVR "14JX4A2_6_Incarnate"
@@ -299084,7 +299084,7 @@ Goodbye"
  INFO.NNAM "2361519532602122759$00"
  INFO.DATA [00 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ANAM "Ebonheart$00"
- INFO.NAME "从帝国委员会这里带走的，对吧？你是我的朋友，如果我是你，我会去找鲁菲努斯谈谈。他会留心的。 {帝国人}"
+ INFO.NAME "从帝国委员会拿的，对吧？你是我的朋友，听我一句，去找那边那个鲁菲努斯谈谈。他耳朵灵着呢。 {帝国人}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -311740,7 +311740,7 @@ player->additem gold_001 100"
  INFO.NNAM "3226167262682319862$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Kaye$00"
- INFO.NAME "很高兴看到你平安归来，因为我不知道她有多顽强……不管怎么说，你回来了，塞尔萨·德拉尔也不碍事了。我一直在想，这些圣祠任务越来越难了，我想你可能会喜欢这枚旧戒指。我已经不用它了，但它在我年轻的时候派上过几次用场。收下吧，我很感谢你，当你准备好执行另一个任务时，再和我联系。 {一块碎片}"
+ INFO.NAME "看到你平安归来，我就放心了。我原先也不知道她有那么厉害……不管怎么说，你回来了，塞尔萨·德拉尔也不碍事了。我一直在想，这些圣祠任务越来越难了，我想你可能会喜欢这枚旧戒指。我已经不用它了，但它在我年轻的时候派上过几次用场。收下吧，我很感谢你，当你准备好执行另一个任务时，再和我联系。 {一块碎片}"
  INFO.SCVR "04JX3IC17_Witch"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "14JX4IC17_Witch"
@@ -312115,7 +312115,7 @@ Journal IC15_Missing_Limeware 1"
  INFO.NAME "你好，%PCRank%PCName。我叫凯伊，是教派志愿圣祠军士的负责人。你准备好接受圣祠军士任务了吗？ {业务}"
  INFO.SCVR "04JX4IC15_Missing_Limeware"
  INFO.INTV [01 00 00 00]
- INFO.BNAM "Choice ""我准备好接受圣祠军士任务了。"" 1 ""我还有些事要问。"" 2"
+ INFO.BNAM "Choice ""我准备好接受圣祠军士的任务了。"" 1 ""我还有些事要问。"" 2"
 -INFO
  INFO.INAM "28077246622722420919$00"
  INFO.PNAM "72299549489932063$00"
@@ -316257,7 +316257,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF 06 00]
  INFO.ONAM "ajira$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "阿吉拉有一些职务给阿吉拉的好朋友，%PCName。"
+ INFO.NAME "阿吉拉有些职务，要交给阿吉拉的好朋友，%PCName去办。"
  INFO.SCVR "01390"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "34JX3MG_StolenReport"
@@ -328224,7 +328224,7 @@ moddisposition 10"
  INFO.DATA [02 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ONAM "tonas telvani$00"
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "这里是泰尔-莫拉的码头，外地人。我是%Name，泰尔-莫拉的船长，正在为您服务。您的目的地是哪里？如果您是第一次来泰尔-莫拉，我可以告诉您当地的服务，或者为您指点附近的特别的地点。如果您想找某个特定的人，我也许能帮上忙。"
+ INFO.NAME "这儿是泰尔-莫拉的码头，外地人。我是%Name，泰尔-莫拉的船长，有什么需要尽管说。您的目的地是哪里？如果您是第一次来泰尔-莫拉，我可以告诉您当地的服务，或者为您指点附近的特别的地点。如果您想找某个特定的人，我也许能帮上忙。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -330659,7 +330659,7 @@ moddisposition 10"
  INFO.DATA [02 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ONAM "valveli arelas$00"
  INFO.ANAM "Gnaar Mok$00"
- INFO.NAME "欢迎来到纳尔-莫克，外地人，这里很小，却很脏。我是纳尔-莫克的船长，为您服务。您的目的地是哪里？如果你不幸刚到纳尔-莫克，我为你感到悲哀，但我可以指引你去当地的服务机构，或者附近的特别的地点。如果您要找某个特定的人，我也许能帮上忙。"
+ INFO.NAME "欢迎来到纳尔-莫克，外地人。地方不大，又破又小。我是纳尔-莫克的船长，为您服务。您的目的地是哪里？如果你不幸刚到纳尔-莫克，我为你感到悲哀，但我可以指引你去当地的服务机构，或者附近的特别的地点。如果您要找某个特定的人，我也许能帮上忙。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
 -INFO
@@ -330694,7 +330694,7 @@ moddisposition 10"
  INFO.NNAM "2892021766295009261$00"
  INFO.DATA [02 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Gnaar Mok$00"
- INFO.NAME "我是%Name。我是纳尔-莫克，你是…%PCName？很好，都搞定了，现在，为什么不告诉我你想要什么？"
+ INFO.NAME "我是%name。这儿是纳尔-莫克，你是…%PCName？行了，客套完了。说吧，想要什么？"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "12sX4Random100"
@@ -343814,7 +343814,7 @@ Goodbye"
  INFO.NNAM "31963175611400924827$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Varus Vatinius$00"
- INFO.NAME "你还没找到吗？必须还给他！"
+ INFO.NAME "你还没找到吗？必须还回来！"
  INFO.SCVR "34JX3IL_KnightShield"
  INFO.INTV [3C 00 00 00]
 -INFO
@@ -343824,7 +343824,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 07 00]
  INFO.ONAM "Varus Vatinius$00"
  INFO.DNAM "Imperial Legion$00"
- INFO.NAME "克里萨米尔，有时也被称为圣武士刀，是一把传奇之剑。它曾为军团所有多年，但被一个奸诈的骑士偷走了。我们的探子听到传言说它现在在德拉拉姆·赫罗兰手中，她是萨德里斯-莫拉附近一个强大的女巫，也不是军团的朋友。杀了她，把克里萨米尔还给我。"
+ INFO.NAME "克里萨米尔，有时也被称为圣骑士之刃，是一把传奇之剑。它曾为军团所有多年，但被一个奸诈的骑士偷走了。我们的探子听到传言说它现在在德拉拉姆·赫罗兰手中，她是萨德里斯-莫拉附近一个强大的女巫，也不是军团的朋友。杀了她，把克里萨米尔还给我。"
  INFO.BNAM "Journal ""IL_KnightShield"" 60"
 -INFO
  INFO.INAM "31919795587782922$00"
@@ -343952,7 +343952,7 @@ moddisposition 25"
  INFO.NNAM "9179891518605507$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "optio bologra$00"
- INFO.NAME "我有顾虑，我知道一些成员，奥里蒂乌斯·马洛就是其中之一。我看到他在储藏室来来去去，肯定有事。"
+ INFO.NAME "我有点不放心。我知道有几个人——奥里蒂乌斯·马洛就是其中一个。我瞧见他老在储藏室进进出出的。保准有事儿。"
  INFO.SCVR "04JX4IL_TalosTreason"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -348246,7 +348246,7 @@ Player->AddItem Misc_soulgem_grand 2"
  INFO.NNAM "2898924591002413932$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "maela kaushad$00"
- INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。腰尾峭壁迅鸟可能会感染这种疾病。 {合同}"
+ INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。环尾峭壁迅鸟可能会携带这种疾病。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -INFO
  INFO.INAM "2898924591002413932$00"
@@ -348254,7 +348254,7 @@ Player->AddItem Misc_soulgem_grand 2"
  INFO.NNAM "7962161962592316079$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。腰尾峭壁迅鸟可能会感染这种疾病。 {合同}"
+ INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。环尾峭壁迅鸟可能会携带这种疾病。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -INFO
  INFO.INAM "7962161962592316079$00"
@@ -348262,7 +348262,7 @@ Player->AddItem Misc_soulgem_grand 2"
  INFO.NNAM "8080253673125214970$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "tendris vedran$00"
- INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。腰尾峭壁迅鸟可能会感染这种疾病。 {合同}"
+ INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。环尾峭壁迅鸟可能会携带这种疾病。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -INFO
  INFO.INAM "8080253673125214970$00"
@@ -348270,7 +348270,7 @@ Player->AddItem Misc_soulgem_grand 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "ygfa$00"
- INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。腰尾峭壁迅鸟可能会感染这种疾病。 {合同}"
+ INFO.NAME "关节疼痛是一种轻微的常见疾病，会影响受害者的活动能力和灵活性。症状包括关节的持续刺激和发炎。环尾峭壁迅鸟可能会携带这种疾病。 {合同}"
  INFO.BNAM ";healers; apothecaries; pilgrims; wise woman;"
 -DIAL
  DIAL.NAME "褐腐病$00"
@@ -351099,7 +351099,7 @@ Goodbye"
  INFO.NNAM "21431945678929255$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Erabenimsun Camp$00"
- INFO.NAME "离开我们还有我们的规定的那个女智者。她偷了男人的精气神，让自己成为一个强大的术士。她的营地在西边，沿着熔岩，她还带着其他人。我建议你离她远点，反正在这种地形下也很难找到营地。"
+ INFO.NAME "就是那个离我们而去的女智者，还带走了我们部族的规定。她窃取男人的精气，好把自己炼成强大的巫师。她的营地在西边，沿着岩浆走就能到。她身边还带着人，我劝你离远点。再说了，这鬼地方，想找到那营地本来也不容易。"
 -INFO
  INFO.INAM "21431945678929255$00"
  INFO.PNAM "576925922481230387$00"
@@ -359510,7 +359510,7 @@ ShowMap ""Gnaar Mok"""
  INFO.NNAM "14424201302746712983$00"
  INFO.DATA [00 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ANAM "Caldera$00"
- INFO.NAME "是你解决了内德拉斯的鬼屋问题。人们可以依靠帝国教团的帮助是一件好事，谢谢你所付出的努力。 {认识你,帝国人}"
+ INFO.NAME "你就是那个帮内德拉斯搞定鬼屋的人啊。看来，求帝国教团帮忙，果然是信得过的。辛苦你了，多谢。 {认识你,帝国人}"
  INFO.SCVR "04JX3IC16_Haunting"
  INFO.INTV [0F 00 00 00]
  INFO.SCVR "17XX0nedhelas"
@@ -359523,7 +359523,7 @@ ShowMap ""Gnaar Mok"""
  INFO.NNAM "181352542890662781$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Caldera$00"
- INFO.NAME "是你解决了内德拉斯的鬼屋问题。人们可以依靠帝国教团的帮助是一件好事，谢谢你所付出的努力。 {认识你,帝国人}"
+ INFO.NAME "你就是那个帮内德拉斯搞定鬼屋的人啊。看来，求帝国教团帮忙，果然是信得过的。辛苦你了，多谢。 {认识你,帝国人}"
  INFO.SCVR "04JX3IC16_Haunting"
  INFO.INTV [0F 00 00 00]
  INFO.SCVR "17XX0nedhelas"
@@ -360551,7 +360551,7 @@ Choice ""继续"" 1"
  INFO.NNAM "322652278294922767$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "huleeya$00"
- INFO.NAME "我效命于莫拉格堂，阶级不过是一名卑微的缚奴；就职责与训练而言，我是一名特工与处刑者。而在私下里，我是一名历史学学徒。除此之外，也就没什么好说的。"
+ INFO.NAME "我效命于莫拉格堂，阶级不过是一名卑微的缚奴；就职责与训练而言，我是一名特工与处刑者。而业余时间，我学习历史。除此之外，也就没什么好说的。"
  INFO.SCVR "34JX3A1_V_VivecInformants"
  INFO.INTV [01 00 00 00]
 -INFO
@@ -363330,7 +363330,7 @@ ModPCFacRep 10 ""Twin Lamps"""
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "炼金是通过奥秘的过程对成分和材料进行加工和提炼，以激发和保存其微妙的、隐藏在炼金药水中的魔法效果。炼金药水可以提供广泛而持久的魔法效果，从治疗和治愈疾病到水上行走、魔法护盾和强化身体属性。 {这些药水,盾牌}"
+ INFO.NAME "炼金术是一门通过玄奥工序对原料与材料进行加工提纯，以激发并留存其中精微的、隐蔽的魔法效力，将其凝聚于药剂之中的学问。炼金药水可以提供广泛而持久的魔法效果，从治疗和治愈疾病到水上行走、魔法护盾和强化身体属性。 {这些药水,盾牌}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  INFO.SCVR "1ARX0Dark Elf"
@@ -364269,7 +364269,7 @@ Goodbye"
  INFO.NNAM "287092065736496363$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "daren adryn$00"
- INFO.NAME "没听说过她。就算听过也不关你的事。所以赶紧走人，就像飘散的烟一样。否则我就把你打翻，就像婴儿的杯子一样。"
+ INFO.NAME "没听说过她。就算有，也不关你的事。所以你要么像烟一样飘走，要么我就像打翻婴儿的杯子一样打翻你。"
  INFO.BNAM ";Daren Adryn; 
 Journal Romance_Ahnassi 42"
 -INFO
@@ -373411,7 +373411,7 @@ Set givenLetter to 1"
  INFO.DATA [00 00 00 00 46 00 00 00 FF FF 06 00]
  INFO.ONAM "ajira$00"
  INFO.DNAM "Mages Guild$00"
- INFO.NAME "阿吉拉没有职务给好友%PCName了，但她准备告诉你一个秘密。阿吉拉对玛格努斯之杖的事情了如指掌。"
+ INFO.NAME "阿吉拉这儿没什么职务交给朋友%PCName，但她准备告诉你一个秘密。阿吉拉对玛格努斯之杖的事情了如指掌。"
  INFO.SCVR "34JX3MG_StolenReport"
  INFO.INTV [64 00 00 00]
 -INFO
@@ -377512,7 +377512,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tyermaillin$00"
  INFO.ANAM "Balmora$00"
- INFO.NAME "我们在巴尔莫拉人不多。只有我、艾斯蒂达琳、伊玛蕾、炼金术士纳尔卡莉亚、海瑟林德和库卢梅尔。为什么这么问？"
+ INFO.NAME "我们在巴尔莫拉人不多。只有我、艾斯蒂达琳、伊玛蕾、炼金术士娜尔卡娅、海瑟林德和库卢梅尔。为什么这么问？"
  INFO.SCVR "34JX3TG_BalmoraDefenses"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "44JX4TG_BalmoraDefenses"
@@ -377548,7 +377548,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "imare$00"
  INFO.ANAM "Balmora$00"
- INFO.NAME "我们巴尔莫拉人不多，只有我、艾斯蒂达琳、库卢梅尔、炼金术士纳尔卡莉亚、海瑟林德和泰尔梅林。为什么这么问？"
+ INFO.NAME "我们巴尔莫拉人不多，只有我、艾斯蒂达琳、库卢梅尔、炼金术士娜尔卡娅、海瑟林德和泰尔梅林。为什么这么问？"
  INFO.SCVR "34JX3TG_BalmoraDefenses"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "44JX4TG_BalmoraDefenses"
@@ -377560,7 +377560,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "estirdalin$00"
  INFO.ANAM "Balmora$00"
- INFO.NAME "我们在巴尔莫拉的人不多。只有我、库卢梅尔、伊玛蕾、炼金术士纳尔卡莉亚、海瑟林德和泰尔梅林。为什么这么问？"
+ INFO.NAME "我们在巴尔莫拉的人不多。只有我、库卢梅尔、伊玛蕾、炼金术士娜尔卡娅、海瑟林德和泰尔梅林。为什么这么问？"
  INFO.SCVR "34JX3TG_BalmoraDefenses"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "44JX4TG_BalmoraDefenses"
@@ -377572,7 +377572,7 @@ Choice ""继续"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "culumaire$00"
  INFO.ANAM "Balmora$00"
- INFO.NAME "我们在巴尔莫拉人不多。只有我、艾斯蒂达琳、伊玛蕾、炼金术士纳尔卡莉亚、海瑟林德和泰尔梅林。为什么这么问？"
+ INFO.NAME "我们在巴尔莫拉人不多。只有我、艾斯蒂达琳、伊玛蕾、炼金术士娜尔卡娅、海瑟林德和泰尔梅林。为什么这么问？"
  INFO.SCVR "34JX3TG_BalmoraDefenses"
  INFO.INTV [0A 00 00 00]
  INFO.SCVR "44JX4TG_BalmoraDefenses"
@@ -377595,7 +377595,7 @@ Choice ""继续"" 1"
  INFO.NNAM "32664312931582919011$00"
  INFO.DATA [00 00 00 00 28 00 00 00 FF FF FF 00]
  INFO.ANAM "Balmora$00"
- INFO.NAME "巴尔莫拉的傲特莫只有幸运之锁的库卢梅尔、法师公会的艾斯蒂达琳、哈拉鲁议会厅的伊玛蕾、炼金术士纳尔卡莉亚，以及在此都有住所的海瑟林德和泰尔梅林。"
+ INFO.NAME "巴尔莫拉的傲特莫只有幸运之锁的库卢梅尔、法师公会的艾斯蒂达琳、哈拉鲁议会厅的伊玛蕾、炼金术士娜尔卡娅，以及海瑟林德和泰尔梅林，这两个人位在城里都有住处。"
  INFO.SCVR "07XX0caius cosades"
  INFO.INTV [01 00 00 00]
  INFO.SCVR "1CsX0NoLore"
@@ -381791,7 +381791,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 01 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\f\Hlo_RF083.mp3$00"
- INFO.NAME "我听你的，说来听听。"
+ INFO.NAME "我听着呢，说来听听。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Random100>=40"
@@ -388374,7 +388374,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 32 00 00 00 FF 00 FF 00]
  INFO.RNAM "Redguard$00"
  INFO.SNAM "vo\r\m\Hlo_RM083.mp3$00"
- INFO.NAME "我听你的，说来听听。"
+ INFO.NAME "我听着呢，说来听听。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  INFO.BNAM ";Random100>=40"
@@ -389604,7 +389604,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 46 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "vo\o\m\Hlo_OM108.mp3$00"
- INFO.NAME "我在听。"
+ INFO.NAME "我听着呢。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -400790,7 +400790,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Ashlanders$00"
  INFO.SNAM "vo\d\f\Hlo_DF185.mp3$00"
- INFO.NAME "我从不忙着找人聊天。"
+ INFO.NAME "聊天的时间总会有的。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -402488,7 +402488,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 14 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Hlo_DF039.mp3$00"
- INFO.NAME "为什么你们这些外地人以为可以随便找人麻烦？"
+ INFO.NAME "你们这些外地人，凭什么觉得能随便来烦别人？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -403871,7 +403871,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 50 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Hlo_DM185.mp3$00"
- INFO.NAME "我从不忙着找人聊天。"
+ INFO.NAME "聊天的时间总会有的。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  INFO.BNAM ";Random100>=60"
@@ -405665,7 +405665,7 @@ ForceGreeting"
  INFO.RNAM "Dark Elf$00"
  INFO.FNAM "Ashlanders$00"
  INFO.SNAM "vo\d\m\Hlo_DM039.mp3$00"
- INFO.NAME "为什么你们这些外地人以为可以随便找人麻烦？"
+ INFO.NAME "你们这些外地人，凭什么觉得能随便来烦别人？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [14 00 00 00]
  INFO.BNAM ";Random100>=20"
@@ -410633,7 +410633,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 14 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\m\Hlo_WM029.mp3$00"
- INFO.NAME "没有别人可以跟你谈吗？"
+ INFO.NAME "你就不能找别人谈去吗？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Random100>=80"
@@ -412149,7 +412149,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 14 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "vo\w\f\Hlo_WF029.mp3$00"
- INFO.NAME "没有别人可以跟你谈吗？"
+ INFO.NAME "你就不能找别人谈去吗？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  INFO.BNAM ";Random100>=80"
@@ -417120,7 +417120,7 @@ StartScript HentusTravel"
  INFO.NNAM "28845122431089326191$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "general darius$00"
- INFO.NAME "我很高兴你给我带来了斧头，现在我知道我误会拉格路布了。"
+ INFO.NAME "我很高兴你给我带来了斧头，现在我知道是我错看拉格路布了。"
  INFO.SCVR "34JX3IL_WidowLand"
  INFO.INTV [78 00 00 00]
 -INFO
@@ -417148,7 +417148,7 @@ StartScript HentusTravel"
  INFO.NNAM "1798469541298118987$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "general darius$00"
- INFO.NAME "嗯，没错，这就是拉格路布之斧。我可以看到它是如何被损坏的，因为撞到了这里和这里的骨头。有了这个，我只能相信你的故事了。拉格路布·格罗-奥格杜姆是个逃犯，找到他，杀了他，正义就会得到伸张。"
+ INFO.NAME "嗯，没错，这是拉格路布之斧。我能看出来，这儿、这儿，都是砸在骨头上留下的痕迹。有这个作证，你说的那些，我没法不信有了。拉格路布·格罗-奥格杜姆是个逃犯，找到他，杀了他，正义就会得到伸张了。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  INFO.BNAM "Journal IL_WidowLand 70
@@ -428673,7 +428673,7 @@ ShowMap Vas"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "沃斯村是维洛提人的一个小聚居地，位于放牧平原中部，海岸内陆，红山以西。您可以通过水路到达陆地，然后向西南方向走就可以到达该村庄。 {主大陆}"
+ INFO.NAME "沃斯村是维洛提的一个小聚居地，位于放牧平原中部，海岸内陆，红山以西。您可以通过水路到达陆地，然后向西南方向走就可以到达该村庄。 {主大陆}"
  INFO.BNAM "ShowMap Vos"
 -INFO
  INFO.INAM "1358013592136979546$00"
@@ -428682,7 +428682,7 @@ ShowMap Vas"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "沃斯村是维洛提人的一个小定居点，位于放牧平原中部，在海岸的内陆和红山的西面。您可以乘船前往附近的泰尔-莫拉，然后水路前往陆地，再向西南方向前进即可到达该村庄。 {主大陆}"
+ INFO.NAME "沃斯村是维洛提的一个小定居点，位于放牧平原中部，在海岸的内陆和红山的西面。您可以乘船前往附近的泰尔-莫拉，然后水路前往陆地，再向西南方向前进即可到达该村庄。 {主大陆}"
  INFO.BNAM "ShowMap Vos"
 -DIAL
  DIAL.NAME "法律$00"
