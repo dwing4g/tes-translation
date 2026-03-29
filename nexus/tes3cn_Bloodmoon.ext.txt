@@ -22,7 +22,7 @@ Teleportation magic does not work here.
 
 > GMST.STRV sLevitateDisabled
 Levitation magic does not work here.
-漂浮魔法在这里不起作用。
+浮空魔法在这里不起作用。
 
 > GMST.STRV sInfoRefusal
 Info Refusal
@@ -144,23 +144,23 @@ Hard
 
 > GMST.STRV sProfitValue
 Profit Value
-利润价值
+利润值
 
 > GMST.STRV sCompanionShare
 Companion Share
-同伴份额
+同伴财产分配
 
 > GMST.STRV sCompanionWarningMessage
 Your mercenary is poorer now than when he contracted with you.  Your mercenary will quit if you do not give him gold or goods to bring his Profit Value to a positive value.
-您的佣兵现在比与您签约时更穷。如果您不给他金币或物品使他的利润值达到正值，佣兵就会退出。
+你的佣兵现在的财产比与你签约时更少了。如果你不给予他金币或物品他的利润值达到正值，他将解约离开。
 
 > GMST.STRV sCompanionWarningButtonOne
 Let the mercenary quit.
-让佣兵退出。
+让佣兵解约。
 
 > GMST.STRV sCompanionWarningButtonTwo
 Return to Companion Share display.
-返回同伴共享界面。
+返回同伴财产分配界面。
 
 > GMST.STRV sEffectSummonFabricant
 Summon Fabricant
@@ -6675,7 +6675,7 @@ House Hlaalu: Kill Banden Indarys
 
 > INFO.NAME hh_destroyindarysmanor 2431226721783620786
 Crassius Curio asked me to kill the Redoran Lord Banden Indarys at the Redoran Stronghold of Indarys Manor which is on the road between Ald'ruhn and Maar Gan.
-克拉西乌斯·库里奥要求我在奥德'汝因和玛尔-甘之间的道路上，在属于因达瑞斯府邸的勒多兰堡垒班登·因达瑞斯庄园中杀死勒多兰领主。 {玛尔·甘}
+克拉西乌斯·库里奥要求我在奥德'汝因和玛尔·甘之间的道路上，在属于因达瑞斯府邸的勒多兰要塞班登·因达瑞斯庄园中杀死勒多兰领主。 {堡垒}
 
 > INFO.NAME hh_destroyindarysmanor 20382780918287314
 Crassius Curio thanked me for killing Banden Indarys.
@@ -6687,7 +6687,7 @@ Thieves Guild: Wizard For Hire
 
 > INFO.NAME tg_sadrithmoradefenses 19339312552149513851
 Big Helende asked me to hire a wizard from the local Mages Guild to guard the Thieves Guild here in Sadrith Mora. The Mages Guild in Sadrith Mora is in Wolverine Hall.
-大海伦德让我从当地的法师公会雇佣一个法师来守卫萨德瑞斯-莫拉的盗贼公会。萨德瑞斯-莫拉的法师公会位于狼獾大厅。 {大个子海伦德,雇佣一个巫师,瓜尔,卫兵,萨德瑞斯·莫拉}
+大海伦德让我从当地的法师公会雇佣一个法师来守卫萨德里斯·莫拉的盗贼公会。萨德里斯·莫拉的法师公会位于狼獾大厅。 {大个子海伦德,雇佣一个巫师,瓜尔,卫兵}
 
 > INFO.NAME tg_sadrithmoradefenses 8712257241944426635
 Big Helende thanked me for getting a guard for the Thieves Guild.
@@ -6783,7 +6783,7 @@ House Hlaalu: Kill Reynel Uvirith
 
 > INFO.NAME hh_destroyteluvirith 960532680109922394
 Crassius Curio asked me to kill Reynel Uvirith, the Telvanni Sorcerer who lives in the Telvanni Stronghold of Tel Uvirith which is in the ashlands due west of Tel Fyr.
-克拉西乌斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼巫师，住在泰尔-菲尔正西灰烬之地的泰瓦尼堡垒泰尔-乌维瑞斯里。 {泰尔·菲尔}
+克拉西乌斯·库里奥让我杀死雷内尔·乌维瑞斯，他是一个泰瓦尼巫师，住在泰尔·菲尔正西灰烬之地的泰瓦尼要塞泰尔·乌维瑞斯里。 {堡垒}
 
 > INFO.NAME hh_destroyteluvirith 141809463285295777
 Crassius Curio thanked me for killing Reynel Uvirith.
@@ -6987,7 +6987,7 @@ I've met a wandering pilgrim named Nevrasa Dralor.
 
 > INFO.NAME mv_wanderingpilgrim 317603111452888407
 Nevrasa was grateful for my help in escorting her to this holy place. She has rewarded me with 150 septims.
-内芙拉莎很感激我护送她来到这个圣地。她给了我150塞普汀作为报酬。 {保镖}
+内芙拉莎很感激我护送她来到这个圣地。她给了我150塞普汀作为报酬。
 
 > INFO.NAME mv_wanderingpilgrim 8066194362490119050
 Nevrasa Dralor has died while on her pilgrimage. Now she can be closer to her god.
@@ -7135,7 +7135,7 @@ Mages Guild: Unsanctioned Training
 
 > INFO.NAME mg_stopcompetition 3145751682893411625
 Ranis wants me to convince an Argonian at the South Wall Cornerclub to stop offering unsanctioned training in Restoration.
-拉妮斯要我说服南墙街角酒吧的一位教人治愈系魔法的阿尔贡停止提供未经批准的训练。 {阿尔贡}
+拉妮斯要我说服南墙街角酒吧的一位教人治愈系魔法的阿尔贡停止提供未经批准的训练。 {阿尔贡,恢复}
 
 > INFO.NAME mg_stopcompetition 9152209433093011266
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore.
@@ -7143,7 +7143,7 @@ I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anym
 
 > INFO.NAME mg_stopcompetition 123126726226148238
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore. In exchange, he will train me in Restoration.
-我告诉拉妮斯·阿特里斯，独-他-立-此不会继续提供训练了。作为交换，他将对我进行治愈系训练。
+我告诉拉妮斯·阿特里斯，独-他-立-此不会继续提供训练了。作为交换，他将对我进行治愈系训练。 {恢复}
 
 > INFO.NAME hr_cultelimination 2338313372265959102
 House Redoran: Kill Gordol
@@ -7151,7 +7151,7 @@ House Redoran: Kill Gordol
 
 > INFO.NAME hr_cultelimination 1409018371307518477
 Theldyn Virith asked me to kill Gordol in Ashalmawia, the Daedric ruin just east of Ald Velothi.
-塞尔丁·维瑞斯让我去阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是位于奥德-维洛提以东的迪德拉废墟。 {迪德拉式,奥德·维洛提}
+塞尔丁·维瑞斯让我去阿沙尔马维亚杀死戈多尔，阿沙尔马维亚是位于奥德·维洛提以东的迪德拉废墟。 {迪德拉式}
 
 > INFO.NAME hr_cultelimination 31277232741542631241
 Theldyn Virith thanked me for killing Gordol.
@@ -7319,7 +7319,7 @@ Thieves Guild: Potion Recipe
 
 > INFO.NAME tg_cookbookalchemy 628337192508124175
 Big Helende told me that a client, Tusamircil, wanted a good recipe for a Dispel potion. The best alchemist in Sadrith Mora is Anis Seloth, and Big Helende thinks I can find this recipe in Anis Seloth's shop.
-大海伦德告诉我，有个客户图萨米西尔想要一份驱散药水的好配方。萨德瑞斯-莫拉最好的炼金师是阿妮丝·瑟罗斯，大海伦德认为我能在阿妮丝·瑟罗斯的店里找到这个配方。 {大个子海伦德,萨德瑞斯·莫拉}
+大海伦德告诉我，有个客户图萨米西尔想要一份驱散药水的好配方。萨德里斯·莫拉最好的炼金师是阿妮丝·瑟罗斯，大海伦德认为我能在阿妮丝·瑟罗斯的店里找到这个配方。 {大个子海伦德}
 
 > INFO.NAME tg_cookbookalchemy 7188203993181627624
 Big Helende thanked me for bringing her a recipe for a Dispel potion.
@@ -7335,7 +7335,7 @@ Thieves Guild: Redoran Cookbook
 
 > INFO.NAME tg_redorancookbook 875184162999524879
 Big Helende told me that Dinara Othrelas of Llethri Manor in Ald'ruhn and Fara of Fara's Hole in the Wall here in Sadrith Mora have an annual cooking contest. Fara wants an edge in this year's contest and has hired us to steal the book "Redoran Cooking Secrets" from Llethri Manor.
-大海伦德告诉我，奥德'汝因的莱特里府邸的迪娜拉·奥瑟拉斯和萨德瑞斯-莫拉法拉的墙洞的法拉每年都会举行一次烹饪比赛。法拉想在今年的比赛中占得先机，于是雇我们从莱特里府邸偷来了《勒多兰烹饪秘方》一书。 {大个子海伦德,莱特里庄园,萨德瑞斯·莫拉}
+大海伦德告诉我，奥德'汝因的莱特里府邸的迪娜拉·奥瑟拉斯和萨德里斯·莫拉法拉的墙洞的法拉每年都会举行一次烹饪比赛。法拉想在今年的比赛中占得先机，于是雇我们从莱特里府邸偷来了《勒多兰烹饪秘方》一书。 {大个子海伦德,莱特里庄园}
 
 > INFO.NAME tg_redorancookbook 1082814960229814156
 Big Helende thanked me for delivering "Redoran Cooking Secrets."
@@ -7347,15 +7347,15 @@ Pemenie and the Boots of Blinding Speed
 
 > INFO.NAME mv_traderabandoned 1810328139569724665
 I met Pemenie, a Redguard trader, while traveling west of Balmora. She would like help getting a shipment of goods to Gnaar Mok. Seems her escort abandoned her on the trip.
-我在巴尔莫拉西部旅行时遇到了红卫人贸易商佩梅涅。她希望我帮她把一批货物运到纳尔-莫克。似乎她的护卫在旅途中抛弃了她。 {纳尔·莫克,保镖}
+我在巴尔莫拉西部旅行时遇到了红卫人贸易商佩梅涅。她希望我帮她把一批货物运到纳尔-莫克。似乎她的护卫在旅途中抛弃了她。 {纳尔·莫克,护送}
 
 > INFO.NAME mv_traderabandoned 876892312098223310
 I was able to escort Pemenie safely to Gnaar Mok, and in exchange, she gave me the Boots of Blinding Speed. I have not yet worn them, but they may be powerful indeed.
-我护送佩梅涅安全抵达了纳尔-莫克，作为回报，她把致盲神速靴送给了我。我还没有穿上它，但它可能真的很强大。 {保镖,纳尔·莫克,速度}
+我护送佩梅涅安全抵达了纳尔-莫克，作为回报，她把致盲神速靴送给了我。我还没有穿上它，但它可能真的很强大。 {纳尔·莫克,速度}
 
 > INFO.NAME mv_traderabandoned 20526384729016235
 While escorting her to Gnaar Mok, Pemenie met an unfortunate end. Well, unfortunate for her, anyway.
-在护送佩梅涅前往纳尔-莫克的途中，她遭遇了不幸。不管怎么说，对她来说是不幸的。 {保镖,纳尔·莫克}
+在护送佩梅涅前往纳尔-莫克的途中，她遭遇了不幸。不管怎么说，对她来说是不幸的。 {纳尔·莫克}
 
 > INFO.NAME fg_telvanni_agents 218623046490215864
 Fighters Guild: The Telvanni Agents
@@ -7499,11 +7499,11 @@ Mages Guild: Escort Tenyeminwe
 
 > INFO.NAME mg_escortscholar1 27493305952297617750
 Skink asked me to escort the scholar Tenyeminwe to Gals Arethi's ship, the Elf-Skerring, over at the Telvanni docks.
-树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷西的船--精灵游荡号。 {保镖}
+树荫让我护送学者坦耶明威前往泰瓦尼码头那边加尔斯·阿雷西的船--精灵游荡号。
 
 > INFO.NAME mg_escortscholar1 27601113291517218622
 Skink thanked me for escorting Tenyeminwe to the Elf-Skerring.
-树荫感谢我护送坦耶明威前往精灵游荡号。 {保镖}
+树荫感谢我护送坦耶明威前往精灵游荡号。
 
 > INFO.NAME mg_escortscholar2 17606254521846523128
 Mages Guild: Escort Itermerel
@@ -7511,7 +7511,7 @@ Mages Guild: Escort Itermerel
 
 > INFO.NAME mg_escortscholar2 15540235652551428921
 Ranis Athrys asked me to escort the scholar Itermerel, who is staying at the Eight Plates, to Pelagiad. What Ranis really wants, however, is a copy of Itermerel's notes.
-拉妮斯·阿特里斯让我护送住在八盘旅店的学者伊特梅瑞尔去佩拉吉亚德。然而，拉妮斯真正想要的是伊特梅瑞尔的笔记副本。 {保镖}
+拉妮斯·阿特里斯让我护送住在八盘旅店的学者伊特梅瑞尔去佩拉吉亚德。然而，拉妮斯真正想要的是伊特梅瑞尔的笔记副本。
 
 > INFO.NAME mg_escortscholar2 2647417905377312093
 I delivered Itermerel's notes to Ranis.
@@ -7523,15 +7523,15 @@ Fighters Guild: Flin for Elith-Pal
 
 > INFO.NAME fg_elithpalsupply 168631838017692159
 Percius Mercius asked me to deliver a load of flin to Dangor in the Elith-Pal Mine which is on the base of Red Mountain just west of the Zainab camp.
-珀西乌斯·默西乌斯让我把一车弗林交给当戈尔，他在埃利斯·帕尔矿场，位于哉纳布营地矿场西边的红山脚下。
+佩基乌斯·梅基乌斯让我把一车弗林交给当戈尔，他在埃利斯·帕尔矿场，位于哉纳布营地矿场西边的红山脚下。
 
 > INFO.NAME fg_elithpalsupply 2238632669129779042
 Percius Mercius thanked me for delivering the flin.
-珀西乌斯·默西乌斯感谢我运送了弗林。
+佩基乌斯·梅基乌斯感谢我运送了弗林。
 
 > INFO.NAME fg_elithpalsupply 3061417315189729790
 I told Percius Mercius that Dangor was dead.
-我告诉珀西乌斯·默西乌斯当戈尔已经死了。
+我告诉佩基乌斯·梅基乌斯当戈尔已经死了。
 
 > INFO.NAME fg_corprusstalker 2316957401654018674
 Fighters Guild: Berwen's Stalker
@@ -7587,15 +7587,15 @@ House Redoran: Ondres Nerano's Slanders
 
 > INFO.NAME hr_honorchallenge 1766118066273288836
 Athyn Sarethi told me that a Hlaalu Noble, Ondres Nerano, has been slandering House Redoran. I must find Ondres Nerano in Balmora and challenge him to withdraw his statements.
-艾辛·萨雷蒂告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤勒多兰家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。 {艾辛·萨雷提}
+艾辛·萨雷提告诉我，哈拉鲁贵族欧德雷斯·内拉诺一直在诽谤勒多兰家族。我必须在巴尔莫拉找到欧德雷斯·内拉诺，并向他提出质疑，要求他撤回言论。
 
 > INFO.NAME hr_honorchallenge 44478237168813631
 Athyn Sarethi thanked me for restoring the honor of House Redoran.
-艾辛·萨雷蒂感谢我恢复了勒多兰家族的荣誉。 {艾辛·萨雷提}
+艾辛·萨雷提感谢我恢复了勒多兰家族的荣誉。
 
 > INFO.NAME hr_honorchallenge 18236225772463028214
 Athyn Sarethi accused me of murdering Ondres Nerano.
-艾辛·萨雷蒂指控我谋杀了欧德雷斯·内拉诺。 {艾辛·萨雷提}
+艾辛·萨雷提指控我谋杀了欧德雷斯·内拉诺。
 
 > INFO.NAME hr_calderacorrupt 31730381675699159
 House Redoran: Evidence of Corruption
@@ -7627,7 +7627,7 @@ House Redoran: Ash Statue
 
 > INFO.NAME hr_sixthhousebase 298966103149132701
 Lloros Sarano asked me to find out where Varvur Sarethi got the ash statue.
-洛罗斯·萨拉诺让我查查瓦乌尔·萨雷蒂是从哪里得到灰烬雕像的。 {瓦乌尔·萨雷提}
+洛罗斯·萨拉诺让我查查瓦乌尔·萨雷提是从哪里得到灰烬雕像的。
 
 > INFO.NAME hr_sixthhousebase 96572710715321683
 Lloros Sarano thanked me for stopping the spread of the ash statues.
@@ -7635,7 +7635,7 @@ Lloros Sarano thanked me for stopping the spread of the ash statues.
 
 > INFO.NAME hr_hlaanoslanders 3210123288174807307
 House Redoran: Meril Hlaano's Slanders
-勒多兰家族：来自梅里尔·赫拉诺的诽谤
+勒多兰家族：来自梅里尔·哈拉诺的诽谤
 
 > INFO.NAME hr_hlaanoslanders 2792175353208021195
 Faral Retheran asked me to demand satisfaction from the Hlaalu noble Meril Hlaano at the Eight Plates in Balmora who has slandered the honor of House Redoran.
@@ -7683,19 +7683,19 @@ Nileno Dorvayn told me she didn't want Neminda killed.
 
 > INFO.NAME hh_buriedtreasure 1228027271813227592
 House Hlaalu: Murudius Flaeus's Debt
-哈拉鲁家族：穆鲁迪斯·弗莱厄斯的债务
+哈拉鲁家族：穆鲁迪乌斯·福莱乌斯的债务
 
 > INFO.NAME hh_buriedtreasure 2045064223213027837
 Edryno Arethi told me that Murudius Flaeus owes a Hlaalu noble over 800 gold. I must get the 800 gold from Murudius Flaeus in Hla Oad and return it to Edryno Arethi.
-埃德里诺·阿雷西告诉我穆鲁迪斯·弗莱厄斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪斯·弗莱厄斯那里拿到800金币，然后还给埃德里诺·阿雷西。 {埃德里诺·阿雷提,哈拉·奥德}
+埃德里诺·阿雷西告诉我穆鲁迪乌斯·福莱乌斯欠一个哈拉鲁贵族800多金币。我必须从哈拉-奥德的穆鲁迪乌斯·福莱乌斯那里拿到800金币，然后还给埃德里诺·阿雷西。 {埃德里诺·阿雷提,哈拉·奥德}
 
 > INFO.NAME hh_buriedtreasure 2423413073985532585
 Edryno Arethi thanked me for getting the 800 gold from Murudius Flaeus.
-埃德里诺·阿雷西感谢我从穆鲁迪斯·弗莱厄斯那里拿到了 800 金币。 {埃德里诺·阿雷提}
+埃德里诺·阿雷西感谢我从穆鲁迪乌斯·福莱乌斯那里拿到了 800 金币。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_buriedtreasure 80161154198418224
 Edryno Arethi thanked me for killing Murudius Flaeus as an example for others.
-埃德里诺·阿雷西感谢我杀了穆鲁迪斯·弗莱厄斯，为其他人树立了榜样。 {埃德里诺·阿雷提}
+埃德里诺·阿雷西感谢我杀了穆鲁迪乌斯·福莱乌斯，为其他人树立了榜样。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_escortmerchant 1471615591391915114
 House Hlaalu: Escort Tarvyn Faren
@@ -7703,11 +7703,11 @@ House Hlaalu: Escort Tarvyn Faren
 
 > INFO.NAME hh_escortmerchant 615616476473814178
 Edryno Arethi asked me to escort the trader Tarvyn Faren from the North Landing here in Vivec to Pelagiad.
-埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {埃德里诺·阿雷提,保镖}
+埃德里诺·阿雷西让我护送贸易商塔文·法伦从维威克城的北岸前往佩拉吉亚德。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_escortmerchant 1996331301205355064
 Edryno Arethi thanked me for escorting Tarvyn Faren to Pelagiad.
-埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {埃德里诺·阿雷提,保镖}
+埃德里诺·阿雷西感谢我护送塔文·法伦前往佩拉吉亚德。 {埃德里诺·阿雷提}
 
 > INFO.NAME hh_ashlanderebony 2488627585889230507
 House Hlaalu: Ashlander Ebony
@@ -7975,11 +7975,11 @@ An acolyte named Linus Iulus disappeared some years ago. Our oracle, Lalatia Var
 
 > INFO.NAME ic18_silver_staff 8885276992550027196
 I gave Kaye the Silver Staff of Shaming. As a reward, Kaye gave me a Restoration shirt. He thanked me for my exertions on the cult's behalf, and told me to speak to him again when I'm ready for another mission.
-我把银制羞辱法杖交给了凯。作为报酬，凯给了我一件治愈衬衫。他感谢我为教派做出的努力，并让我准备好执行另一个任务时再找他。
+我把银制羞辱法杖交给了凯。作为报酬，凯给了我一件治愈衬衫。他感谢我为教派做出的努力，并让我准备好执行另一个任务时再找他。 {恢复}
 
 > INFO.NAME ic18_silver_staff 29964122371441617168
 I gave Kaye the Silver Staff of Shaming and the Maran Amulet and Stendarran Belt that belonged to Linus Iulus. As a reward, Kaye gave me the Silver Staff of Shaming and a Restoration shirt. He thanked me for my exertions on the cult's behalf, and told me to speak to him again when I'm ready for another mission.
-我把属于莱纳斯·尤卢斯的银制羞辱法杖和玛拉护符、斯丹达尔腰带交给了凯。作为报酬，凯给了我羞辱银杖和一件治愈衬衫。他感谢我为教派付出的努力，并让我准备好执行另一项任务时再找他。 {斯腾达尔}
+我把属于莱纳斯·尤卢斯的银制羞辱法杖和玛拉护符、斯丹达尔腰带交给了凯。作为报酬，凯给了我羞辱银杖和一件治愈衬衫。他感谢我为教派付出的努力，并让我准备好执行另一项任务时再找他。 {斯腾达尔,恢复}
 
 > INFO.NAME romance_ahnassi_a 54511643024911728
 Ahnassi, a Special Friend
@@ -8051,11 +8051,11 @@ Fighters Guild: Beneran's Bounty
 
 > INFO.NAME fg_beneranbounty 2974724689365814680
 Percius Mercius told me there is a bounty for the outlaw Nerer Beneran. He is hiding in the cavern of Sargon.
-珀西乌斯·默西乌斯告诉我，有人悬赏金捉拿逃犯内尔·贝内兰。他躲在萨尔贡的洞穴里。
+佩基乌斯·梅基乌斯告诉我，有人悬赏金捉拿逃犯内尔·贝内兰。他躲在萨尔贡的洞穴里。
 
 > INFO.NAME fg_beneranbounty 4389297022823619711
 Percius Mercius thanked me for bringing Nerer Beneran's crimes to an end.
-珀西乌斯·默西乌斯感谢我终结了内尔·贝内兰的罪行。
+佩基乌斯·梅基乌斯感谢我终结了内尔·贝内兰的罪行。
 
 > INFO.NAME fg_killhardheart 13019245842716420349
 Fighters Guild: Kill Hard-Heart
@@ -8063,11 +8063,11 @@ Fighters Guild: Kill Hard-Heart
 
 > INFO.NAME fg_killhardheart 1026718551382829414
 Percius Mercius said that in order to free the Fighters Guild from corruption, I must kill the guildmaster, Sjoring Hard-Heart.
-珀西乌斯·默西乌斯说，为了让战士公会摆脱腐败，我必须杀死公会会长舒灵·铁心。
+佩基乌斯·梅基乌斯说，为了让战士公会摆脱腐败，我必须杀死公会会长舒灵·铁心。
 
 > INFO.NAME fg_killhardheart 1389816403228121303
 Percius Mercius thanked me for killing Sjoring Hard-Heart. He promoted me to Master of the Fighters Guild.
-珀西乌斯·默西乌斯感谢我杀死了舒灵·铁心。他举荐我为战士公会领袖。
+佩基乌斯·梅基乌斯感谢我杀死了舒灵·铁心。他举荐我为战士公会领袖。
 
 > INFO.NAME fg_khajiitbounty 1069414357181767346
 Fighters Guild: Dro'Sakhar's Bounty
@@ -8083,15 +8083,15 @@ Lorbumol gro-Aglakh gave me the bounty on Dro'Sakhar.
 
 > INFO.NAME hr_rescuesarethi 27128175562942722941
 House Redoran: Rescue Varvur Sarethi
-勒多兰家族：营救瓦乌尔·萨雷蒂
+勒多兰家族：营救瓦乌尔·萨雷提
 
 > INFO.NAME hr_rescuesarethi 1025354912338120284
 Serjo Athyn Sarethi asked me to rescue his son, Varvur Sarethi, from Venim Manor, the first Manor on the right as you enter Skar. He warned me that I should not kill Bolvyn Venim, or the other councilors of House Redoran would turn against me.
-艾辛·萨雷蒂让我去维尼姆府邸救他的儿子瓦乌尔·萨雷蒂，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则勒多兰家族的其他议员会反对我。 {艾辛·萨雷提,瓦乌尔·萨雷提,维尼姆庄园}
+艾辛·萨雷提让我去维尼姆府邸救他的儿子瓦乌尔·萨雷提，维尼姆府邸是进入蟹骨右边的第一个府邸。他警告我不要杀死波尔文·维尼姆，否则勒多兰家族的其他议员会反对我。 {维尼姆庄园}
 
 > INFO.NAME hr_rescuesarethi 5844115132424315150
 Serjo Athyn Sarethi thanked me for rescuing his son from Venim Manor.
-艾辛·萨雷蒂感谢我从维尼姆府邸救出了他的儿子。 {艾辛·萨雷提,维尼姆庄园}
+艾辛·萨雷提感谢我从维尼姆府邸救出了他的儿子。 {维尼姆庄园}
 
 > INFO.NAME hr_orethisisters 7346221962927829557
 House Redoran: Velsa Orethi
@@ -8191,7 +8191,7 @@ House Telvanni: Kill Banden Indarys
 
 > INFO.NAME ht_attackindarys 15344235772005125891
 Master Aryon asked me to kill Banden Indarys, the lord of the recently built Redoran Stronghold of Indarys Manor.
-阿里昂大师让我杀死班登·因达瑞斯，他是因达瑞斯府邸的领主。这座勒多兰堡垒刚建成不久。
+阿里昂大师让我杀死班登·因达瑞斯，他是因达瑞斯府邸的领主。这座勒多兰要塞刚建成不久。 {堡垒}
 
 > INFO.NAME ht_attackindarys 1945614021166154447
 Master Aryon thanked me for killing Banden Indarys.
@@ -8331,7 +8331,7 @@ Kidnapped by Cultists
 
 > INFO.NAME mv_cultistvictim 23353264531065918250
 I encountered a distraught traveler east of Ald Velothi. He was a Redguard named Sason, and he believes his wife was kidnapped by cultists.
-我在奥德-维洛提以东遇到了一个心神不宁的旅行者。他是一个名叫萨桑的红卫人，他认为自己的妻子被邪教徒绑架了。 {奥德·维洛提}
+我在奥德·维洛提以东遇到了一个心神不宁的旅行者。他是一个名叫萨桑的红卫人，他认为自己的妻子被邪教徒绑架了。
 
 > INFO.NAME mv_cultistvictim 4241877732712347
 I have decided not to try and rescue Malexa from the cultists. I have no need to get involved in this issue.
@@ -8371,15 +8371,15 @@ Imperial Legion: Rescue Madura Seran
 
 > INFO.NAME il_rescuepilgrim 21994228813157730128
 Darius asked me to rescue a pilgrim from an outcast Ashlander camp outside of Ald Velothi. The pilgrim's name is Madura Seran.
-达瑞斯让我从奥德-维洛提城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。 {达里乌斯,奥德·维洛提}
+达里乌斯让我从奥德·维洛提城外一个被遗弃的灰烬之民营地里救出一名朝圣者。朝圣者名叫玛杜拉·瑟然。
 
 > INFO.NAME il_rescuepilgrim 1662012700838418077
 Darius thanked me for rescuing Madura Seran.
-达瑞斯感谢我救出了玛杜拉·瑟然。 {达里乌斯}
+达里乌斯感谢我救出了玛杜拉·瑟然。
 
 > INFO.NAME il_rescuepilgrim 23011163791225331557
 I told Darius that the pilgrim Madura Seran was dead.
-我告诉达瑞斯，朝圣者玛杜拉·瑟然已经死了。 {达里乌斯}
+我告诉达里乌斯，朝圣者玛杜拉·瑟然已经死了。
 
 > INFO.NAME il_protectentius 17017795143126386
 Imperial Legion: Saprius Entius
@@ -8571,7 +8571,7 @@ Fighters Guild: Engaer's Bounty
 
 > INFO.NAME fg_engaerbounty 48526796105133789
 Hrundi told me he has a bounty contract on Engaer, a mercenary for Master Neloth at Tel Naga, the tower in Sadrith Mora.
-赫仑迪告诉我他有一份恩格尔的赏金合同，恩格尔是萨德瑞斯-莫拉的泰尔-娜迦塔楼内洛斯大师的雇佣兵。 {萨德瑞斯·莫拉}
+赫仑迪告诉我他有一份恩格尔的赏金合同，恩格尔是萨德里斯·莫拉的泰尔-娜迦塔楼内洛斯大师的雇佣兵。
 
 > INFO.NAME fg_engaerbounty 27642167982831423073
 Hrundi paid me the bounty on Engaer.
@@ -8583,7 +8583,7 @@ Fighters Guild: Bandits in Suran
 
 > INFO.NAME fg_suranbandits 146641019065014585
 Percius Mercius asked me to speak with Serjo Avon Oran in the town of Suran. The town has been raided by bandits.
-珀西乌斯·默西乌斯让我和苏兰镇的埃冯·奥兰Serjo（大人）谈谈。该镇遭到了强盗的袭击。
+佩基乌斯·梅基乌斯让我和苏兰镇的埃冯·奥兰Serjo（大人）谈谈。该镇遭到了强盗的袭击。
 
 > INFO.NAME fg_suranbandits 15891251703145113940
 Serjo Avon Oran thanked me for bringing the bandits to justice and he gave me the 1,000 gold he was offering for a bounty.
@@ -8591,19 +8591,19 @@ Serjo Avon Oran thanked me for bringing the bandits to justice and he gave me th
 
 > INFO.NAME fg_suranbandits 10383173301246419361
 I reported to Percius Mercius that Avon Oran was dead. Therefore, there is no contract to be had.
-我向珀西乌斯·默西乌斯报告说，埃冯·奥兰已经死了。因此，没有合同可签。
+我向佩基乌斯·梅基乌斯报告说，埃冯·奥兰已经死了。因此，没有合同可签。
 
 > INFO.NAME hr_guardsarethi 335818112386222498
 House Redoran: Guard Sarethi Manor
-勒多兰家族：守卫萨雷蒂府邸
+勒多兰家族：守卫萨雷提府邸
 
 > INFO.NAME hr_guardsarethi 9036156472772618059
 Neminda asked me to guard Sarethi Manor.
-内明达让我守卫萨雷蒂府邸。 {瓜尔,卫兵}
+内明达让我守卫萨雷提府邸。 {瓜尔,卫兵}
 
 > INFO.NAME hr_guardsarethi 664792032309314006
 Neminda thanked me for guarding Serjo Athyn Sarethi.
-内明达感谢我卫兵保护艾辛·萨雷蒂Serjo（大人）。 {艾辛·萨雷提}
+内明达感谢我卫兵保护艾辛·萨雷提Serjo（大人）。
 
 > INFO.NAME hr_ashimanumine 24286192451480712831
 House Redoran: Ashimanu Mine
@@ -8623,7 +8623,7 @@ House Redoran: Shishi Report
 
 > INFO.NAME hr_shishireport 25762246108563240
 Theldyn Virith was expecting a report from a House Redoran assault on the Telvanni base Shishi. He wants me to go to Shishi and find out what is going on. Shishi is in the Foyada Bani-Dad northwest of Maar Gan.
-塞尔丁·维瑞斯在等诗诗的一份报告，事关勒多兰家族对泰瓦尼基地的袭击。他想让我去诗诗那里了解情况。诗诗在玛尔-甘西北的巴尼-达德熔渠。 {玛尔·甘}
+塞尔丁·维瑞斯在等诗诗的一份报告，事关勒多兰家族对泰瓦尼基地的袭击。他想让我去诗诗那里了解情况。诗诗在玛尔·甘西北的巴尼-达德熔渠。
 
 > INFO.NAME hr_shishireport 229053077539107799
 Theldyn Virith thanked me for bringing him Brerama Selas' report from Shishi.
@@ -8635,19 +8635,19 @@ Theldyn Virith thanked me for taking care of the last Telvanni at Shishi.
 
 > INFO.NAME hr_clearsarethi 178553275847284
 House Redoran: Clear Varvur Sarethi's Name
-勒多兰家族：清脱瓦尔维尔·萨雷蒂的罪名
+勒多兰家族：清脱瓦尔维尔·萨雷提的罪名
 
 > INFO.NAME hr_clearsarethi 2340317191134797593
 Serjo Athyn Sarethi asked me to clear his son's name. Varvur Sarethi has been charged with the murder of Bralen Carvaren. Perhaps I should start by questioning Varvur Sarethi in Sarethi Manor.
-艾辛·萨雷蒂Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷蒂被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷蒂府邸审问瓦乌尔·萨雷蒂。 {艾辛·萨雷提,瓦乌尔·萨雷提}
+艾辛·萨雷提Serjo（大人）请我为他儿子洗清冤屈。瓦乌尔·萨雷提被控谋杀布拉伦·卡瓦伦。也许我应该先在萨雷提府邸审问瓦乌尔·萨雷提。
 
 > INFO.NAME hr_clearsarethi 2217967581718628042
 Athyn Sarethi thanked me for clearing his son's name. He suggested that I speak with Lloros Sarano again about the ash statue.
-艾辛·萨雷蒂感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。 {艾辛·萨雷提}
+艾辛·萨雷提感谢我还他儿子清白。他建议我再和洛罗斯·萨拉诺谈谈灰烬雕像的事。
 
 > INFO.NAME hr_clearsarethi 25311205027667809
 Lloros Sarano said that Varvur Sarethi would be cleared of the murder of Bralen Carvaren.
-洛罗斯·萨拉诺说，瓦乌尔·萨雷蒂将洗脱谋杀布拉伦·卡瓦伦的罪名。 {瓦乌尔·萨雷提}
+洛罗斯·萨拉诺说，瓦乌尔·萨雷提将洗脱谋杀布拉伦·卡瓦伦的罪名。
 
 > INFO.NAME hr_morvaynmanor 1466622823306351020
 House Redoran: Mission to Morvayn Manor
@@ -8679,7 +8679,7 @@ House Redoran: Taxes from Gnisis
 
 > INFO.NAME hr_taxcollector 248883229237873701
 Hlaren Ramoran asked me to collect the taxes from Hetman Abelmawia in Gnisis.
-哈拉伦·拉莫兰让我前往尼希斯向赫特曼·阿贝尔马维亚收税。
+哈拉伦·拉莫兰让我前往尼希斯向阿贝尔马维亚护民官收税。
 
 > INFO.NAME hr_taxcollector 5900277372229618969
 I delivered the taxes to Hlaren Ramoran.
@@ -8691,7 +8691,7 @@ House Redoran: Find Beden Giladren
 
 > INFO.NAME hr_findgiladren 2348912065583616942
 Lloros Sarano asked me to find the pilgrim Beden Giladren who was on his way from Ald'ruhn to Maar Gan.
-洛罗斯·萨拉诺让我去找朝圣者贝登·吉拉德伦，他正在从奥德'汝因前往玛尔-甘的路上。 {玛尔·甘}
+洛罗斯·萨拉诺让我去找朝圣者贝登·吉拉德伦，他正在从奥德'汝因前往玛尔·甘的路上。
 
 > INFO.NAME hr_findgiladren 2365226105927919735
 Lloros Sarano thanked me for finding Beden Giladren.
@@ -8783,7 +8783,7 @@ Ahnassi, a Special Friend
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了火焰镜袍。
+我感谢了阿娜西。她给我的提示线索，让我找到了焰镜长袍。
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
@@ -8835,7 +8835,7 @@ Ahnassi gave me as a special gift an extravagant shirt and pants, and with them 
 
 > INFO.NAME romance_ahnassi 18436236551648814750
 I took care of the bad person, Daren Adryn, the Camonna Tong thug who threatened Ahnassi. Ahnassi thanked me, and says she wishes to share a gift, a special gift, with her true and good friend.
-我解决了威胁阿娜西的坏人达伦-阿德林，也就是卡莫纳堂的暴徒。阿娜西向我表示感谢，她希望和她的挚诚好友分享礼物，一份特别的礼物。
+我解决了威胁阿娜西的坏人达伦-阿德林，也就是卡莫纳·堂的暴徒。阿娜西向我表示感谢，她希望和她的挚诚好友分享礼物，一份特别的礼物。
 
 > INFO.NAME romance_ahnassi 205041638348016816
 I spoke to Daren Adryn about Ahnassi, but he said he never heard of her, and that is wasn't any of my business, anyway. Then he threatened me, and told me to go away.
@@ -8843,7 +8843,7 @@ I spoke to Daren Adryn about Ahnassi, but he said he never heard of her, and tha
 
 > INFO.NAME romance_ahnassi 65994414113317341
 I have offered to take care of the bad person who has threatened Ahnassi. The bad person is Daren Adryn, a Dark Elf, and a Camonna Tong bigwig. Ahnassi says he is found at Nadene Rotheran's Shack in Gnaar Mok.
-我主动提出要对付那个威胁阿娜西的坏人。这个坏人就是达伦-阿德林，一个暗精灵，卡莫纳堂的大人物。阿娜西说在纳尔-莫克的娜德妮-罗瑟兰的小屋可以找到他。 {纳尔·莫克}
+我主动提出要对付那个威胁阿娜西的坏人。这个坏人就是达伦-阿德林，一个暗精灵，卡莫纳·堂的大人物。阿娜西说在纳尔-莫克的娜德妮-罗瑟兰的小屋可以找到他。 {纳尔·莫克}
 
 > INFO.NAME romance_ahnassi 145681740250505141
 Ahnassi gave me a Quality Potion of Feather as a gift.
@@ -8851,7 +8851,7 @@ Ahnassi gave me a Quality Potion of Feather as a gift.
 
 > INFO.NAME romance_ahnassi 3171223657314812906
 Ahnassi told me that some Camonna Tong thug has been threatening her. She asked me to protect her, but I told her I couldn't make any commitments.
-阿娜西告诉我，有个卡莫纳堂的暴徒一直在威胁她。她让我保护她，但我告诉她我不能做任何承诺。
+阿娜西告诉我，有个卡莫纳·堂的暴徒一直在威胁她。她让我保护她，但我告诉她我不能做任何承诺。
 
 > INFO.NAME romance_ahnassi 7945144101797317342
 Hrordis upstairs has a magic belt and worships Mehrunes Dagon.
@@ -8899,7 +8899,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_all_hortator 17767246002949023303
 I have been named Hortator of all three Great Houses, Redoran, Hlaalu, and Telvanni. Of the Seven Visions of Seven Trials of the Incarnate, I have now fulfilled the Fourth Trial.
-我被任命为大家族泰瓦尼，勒多兰，哈拉鲁和泰瓦尼三大家族的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。
+我被任命为大家族泰瓦尼，勒多兰，哈拉鲁和泰瓦尼三大家族推举的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。
 
 > INFO.NAME b7_telvannihort 322562370259142198
 Telvanni Hortator
@@ -8907,11 +8907,11 @@ Telvanni Hortator
 
 > INFO.NAME b7_telvannihort 221423983229822679
 I have been named Hortator of House Telvanni by the surviving councilors of that house. When I have been declared Hortator of all three Houses, Redoran, Hlaalu, and Telvanni, I will have fulfilled the Fourth Trial of the Seven Visions of Seven Trials of the Incarnate.
-泰瓦尼家族幸存的议员们任命我为该家族的统谏使。当我被宣布为勒多兰、哈拉鲁和泰瓦尼三个家族的统谏使后，我就完成了“化身的七大异象之七大试炼”中的第四个试炼。
+泰瓦尼家族幸存的议员们任命我为该家族推举的统谏使。当我被宣布为勒多兰、哈拉鲁和泰瓦尼三个家族推举的统谏使后，我就完成了“化身的七大异象之七大试炼”中的第四个试炼。
 
 > INFO.NAME b7_telvannihort 302215913902632544
 As the sole surviving councilor of House Telvanni, I have declared myself Hortator of House Telvanni. When I have been declared Hortator of all three Houses, Redoran, Hlaalu, and Telvanni, I will have fulfilled the Fourth Trial of the Seven Visions of Seven Trials of the Incarnate.
-作为泰瓦尼家族唯一幸存的议员，我宣布自己为泰瓦尼家族统谏使。当我被宣布为勒多兰、哈拉鲁和泰瓦尼三个家族的统谏使时，我将完成“化身的七大异象之七大试炼”中的第四个试炼。
+作为泰瓦尼家族唯一幸存的议员，我宣布自己为泰瓦尼家族统谏使。当我被宣布为勒多兰、哈拉鲁和泰瓦尼三个家族推举的统谏使时，我将完成“化身的七大异象之七大试炼”中的第四个试炼。
 
 > INFO.NAME b7_telvannihort 1377144362576515853
 Master Aryon gave me the Robe of the Hortator, an heirloom token of my status as Telvanni Hortator.
@@ -8931,7 +8931,7 @@ Morag Tong: Writ for Brilnosu Llarys
 
 > INFO.NAME mt_writbrilnosu 2100416252997656
 I have been given a Writ for the honorable execution of Brilnosu Llarys. She may be found at the Dunmer stronghold of Hlormaren which is on the coast west of Balmora north of Hla Oad.
-我已收到光荣处决布立诺苏·拉里斯的令状。她可以在赫洛马伦的丹莫堡垒找到，该堡垒位于巴尔莫拉以西，哈拉-奥德以北的海岸边。 {哈拉·奥德}
+我已收到光荣处决布立诺苏·拉里斯的令状。她可以在赫洛马伦的丹莫要塞找到，该堡垒位于巴尔莫拉以西，哈拉·奥德以北的海岸边。
 
 > INFO.NAME mt_writbrilnosu 2473531784159574450
 I reported the honorable execution of Brilnosu Llarys.
@@ -8979,7 +8979,7 @@ I met a trader named Paur Maston while traveling north of Bal Fell. It seems he 
 
 > INFO.NAME mv_tradermissed 3234382852344026970
 I've decided not to escort Paur Maston to Molag Mar. I have other things that are more important to take care of.
-我决定不护送保罗·马斯顿去莫拉格-玛尔了。我还有其他更重要的事要处理。 {保镖,莫拉格·玛尔}
+我决定不护送保罗·马斯顿去莫拉格-玛尔了。我还有其他更重要的事要处理。 {莫拉格·玛尔}
 
 > INFO.NAME mv_tradermissed 304819751277349016
 Paur Maston met his end while on the trip to Molag Mar. Sadly, he will never be able to meet up with his partner, Vanjirra.
@@ -8991,7 +8991,7 @@ We have found Paur Maston's partner, Vanjirra. They were honest folks, and did r
 
 > INFO.NAME mv_tradermissed 29267265082254930396
 I arrived in Molag Mar with Paur Maston. Of course, I knew that Vanjirra was already dead, but didn't figure that Paur needed to know that as well. The fool still paid me what he could for escorting him here.
-我和保罗·马斯顿一起来到了莫拉格-玛尔。当然，我知道万吉拉已经死了，但没想到保尔也需要知道这一点。这个傻瓜还是尽其所能付给了我护送他来这里的报酬。 {莫拉格·玛尔,保镖}
+我和保罗·马斯顿一起来到了莫拉格·玛尔。当然，我知道万吉拉已经死了，但没想到保尔也需要知道这一点。这个傻瓜还是尽其所能付给了我护送他来这里的报酬。
 
 > INFO.NAME mv_tradermissed 150730112949927496
 I arrived in Molag Mar and spoke to Vanjirra. She was saddened to hear of Paur's demise on our journey here, but was grateful that I was kind enough to tell her what had happened. An honest person, she rewarded me in a small way for my efforts.
@@ -9075,15 +9075,15 @@ Imperial Legion: Gnisis Eggmine
 
 > INFO.NAME il_gnisisblight 4283228892444510000
 Darius asked me to cure the Kwama Queen in the Gnisis Eggmine. The Kwama Queen is blighted and the villagers suffer.
-达瑞斯让我去给尼希斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。 {达里乌斯}
+达里乌斯让我去给尼希斯卵矿场的夸蚂女王治病。夸蚂女王得了枯萎病，村民们苦不堪言。
 
 > INFO.NAME il_gnisisblight 1340619687105833960
 Darius thanked me for curing the Kwama Queen in the Gnisis Eggmine.
-达瑞斯感谢我治好了尼希斯卵矿场的夸蚂女王。 {达里乌斯}
+达里乌斯感谢我治好了尼希斯卵矿场的夸蚂女王。
 
 > INFO.NAME il_gnisisblight 16311232791527013138
 I told Darius that the kwama queen in the Gnisis Eggmine was dead.
-我告诉达瑞斯，尼希斯卵矿场的夸蚂女王已经死了。 {达里乌斯}
+我告诉达里乌斯，尼希斯卵矿场的夸蚂女王已经死了。
 
 > INFO.NAME il_rescueragash 133251571921746191
 Imperial Legion: Rescue Ragash gra-Shuzgub
@@ -9091,15 +9091,15 @@ Imperial Legion: Rescue Ragash gra-Shuzgub
 
 > INFO.NAME il_rescueragash 11510117321270511841
 Darius asked me to find out what happened to Ragash gra-Shuzgub, who tried to collect taxes from Baladas Demnevanni. Baladas lives in Arvs Drelen, the tower here in Gnisis.
-达瑞斯让我查查拉加什·格拉-舒兹古布的下落，他曾试图向巴拉达斯·德姆内瓦尼收税。巴拉达斯住在阿维斯-德雷伦，也就是尼希斯这里的塔楼。 {达里乌斯}
+达里乌斯让我查查拉加什·格拉-舒兹古布的下落，他曾试图向巴拉达斯·德姆内瓦尼收税。巴拉达斯住在阿维斯-德雷伦，也就是尼希斯这里的塔楼。
 
 > INFO.NAME il_rescueragash 319938633070121050
 Darius thanked me for rescuing Ragash gra-Shuzgub.
-达瑞斯感谢我救出拉加什·格拉-舒兹古布。 {达里乌斯}
+达里乌斯感谢我救出拉加什·格拉-舒兹古布。
 
 > INFO.NAME il_rescueragash 2309553982810429072
 I told Darius that Ragash was dead.
-我告诉达瑞斯，拉加什已经死了。 {达里乌斯}
+我告诉达里乌斯，拉加什已经死了。
 
 > INFO.NAME il_talostreason 17080157391021516430
 Imperial Legion: Talos Cult Conspiracy
@@ -9107,11 +9107,11 @@ Imperial Legion: Talos Cult Conspiracy
 
 > INFO.NAME il_talostreason 19235221881662330851
 Darius suspects that some of his troops involved with the Talos Cult are involved in some sort of conspiracy. Darius asked me to find proof of this conspiracy.
-达瑞斯怀疑他的一些与塔洛斯神教有关的部队参与了某种阴谋。达瑞斯让我找到这个阴谋的证据。 {达里乌斯}
+达里乌斯怀疑他的一些与塔洛斯神教有关的部队参与了某种阴谋。达里乌斯让我找到这个阴谋的证据。
 
 > INFO.NAME il_talostreason 1216319208314521919
 Darius thanked me for bringing him proof of his troops' treasonous plans and for enacting justice upon them.
-达瑞斯感谢我给他带来了他的部队计划谋反的证据，并感谢我为他们伸张正义。 {达里乌斯}
+达里乌斯感谢我给他带来了他的部队计划谋反的证据，并感谢我为他们伸张正义。
 
 > INFO.NAME il_taxesbaladas 1617614549246277303
 Imperial Legion: Baladas Demnevanni's Taxes
@@ -9119,11 +9119,11 @@ Imperial Legion: Baladas Demnevanni's Taxes
 
 > INFO.NAME il_taxesbaladas 13144274632735111309
 Darius asked me to collect taxes from Baladas Demnevanni. Since I am the Nerevarine, Darius believes that Baladas will listen to me.
-达瑞斯让我向巴拉达斯·德姆内瓦尼收税。因为我是尼瑞瓦因，达瑞斯相信巴拉达斯会听我的话。 {达里乌斯}
+达里乌斯让我向巴拉达斯·德姆内瓦尼收税。因为我是尼瑞瓦因，达里乌斯相信巴拉达斯会听我的话。
 
 > INFO.NAME il_taxesbaladas 146862825131748467
 Darius thanked me for convincing Baladas to pay his taxes.
-达瑞斯感谢我说服巴拉达斯交税。 {达里乌斯}
+达里乌斯感谢我说服巴拉达斯交税。
 
 > INFO.NAME il_knightshield 3243828009133986161
 Imperial Legion: Lord's Mail
@@ -9279,7 +9279,7 @@ Mages Guild: Stolen Reports
 
 > INFO.NAME mg_stolenreport 30634202122356212014
 Ajira told me that her reports on the mushrooms and flowers of Vvardenfell have been stolen. Ajira thinks that Galbedir stole them. I should look around the Mages Guild here in Balmora for the reports and return them to Ajira.
-阿吉拉告诉我，她关于瓦登费尔的蘑菇和花卉的报告被偷了。阿吉拉认为是加尔贝迪尔偷走了它们。我应该在巴尔莫拉的法师公会里找找这些报告，然后还给阿吉拉。
+阿吉拉告诉我，她关于瓦登费尔的蘑菇和花卉的报告被偷了。阿吉拉认为是伽尔贝蒂尔偷走了它们。我应该在巴尔莫拉的法师公会里找找这些报告，然后还给阿吉拉。
 
 > INFO.NAME mg_stolenreport 1444417001799726776
 Ajira thanked me for finding her stolen reports.
@@ -9303,7 +9303,7 @@ The Vampire Merta
 
 > INFO.NAME va_vampcountess 2338758632810511308
 I have spoken again with Raxle Berne about serving the Berne clan. He has told me of a powerful vampire named Merta living near Maar Gan. She was once a member of the Berne Clan, but broke all ties with them. Now, she lives as a rogue, but wealthy and powerful. Berne wants this rogue dead, and will allow me to try and kill this "Bloody Countess."
-我又和拉克斯·伯尔尼谈起了为伯尔尼氏族效力的事。他告诉我，玛尔-甘附近住着一个名叫梅塔的强大吸血鬼。她曾经是伯尔尼氏族的一员，但后来与他们断绝了一切关系。现在，她以流氓的身份生活，但富有而强大。伯尔尼希望这个无赖死掉，并允许我尝试杀死这个“血腥伯爵夫人”。 {玛尔·甘}
+我又和拉克斯·伯尔尼谈起了为伯尔尼氏族效力的事。他告诉我，玛尔·甘附近住着一个名叫梅塔的强大吸血鬼。她曾经是伯尔尼氏族的一员，但后来与他们断绝了一切关系。现在，她以流氓的身份生活，但富有而强大。伯尔尼希望这个无赖死掉，并允许我尝试杀死这个“血腥伯爵夫人”。
 
 > INFO.NAME va_vampcountess 2444015931395328058
 I have decided not to try and kill the vampire Merta.
@@ -9459,7 +9459,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_dinner_not 22314307443216719624
 I told Iulus Truptor I couldn't get five bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. He was disappointed, and told me to decide whether my talents and temperaments are suited for soliciting donations. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉伊卢斯·特拉普托，我无法为月蛾堡垒的筹款晚宴弄到五瓶赛罗迪利克白兰地。他很失望，让我决定自己的才能和脾气是否适合募捐。在我再次向他申请施赈者任务之前，我必须确定我是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
+我告诉伊卢斯·特拉普托，我无法为月蛾堡的筹款晚宴弄到五瓶赛罗迪利克白兰地。他很失望，让我决定自己的才能和脾气是否适合募捐。在我再次向他申请施赈者任务之前，我必须确定我是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
 
 > INFO.NAME ic14_ponius_not 198792540120945450
 Imperial Cult: Pledge from Canctunian Ponius
@@ -9555,11 +9555,11 @@ Fighters Guild: Remove Sjoring's Supporters
 
 > INFO.NAME fg_killcronies 1447023869487219160
 Percius Mercius asked me to kill one of Sjoring Hard-Heart's supporters, Eydis Fire-Eye, the guild steward in Balmora.
-珀西乌斯·默西乌斯要我杀死舒灵·铁心的支持者之一，巴尔莫拉的公会管家艾迪斯·火眼。
+佩基乌斯·梅基乌斯要我杀死舒灵·铁心的支持者之一，巴尔莫拉的公会管家艾迪斯·火眼。
 
 > INFO.NAME fg_killcronies 9500199841045310204
 Percius thanked me for killing Sjoring Hard-Heart's supporters.
-珀西乌斯感谢我杀死了舒灵·铁心的支持者。
+佩基乌斯感谢我杀死了舒灵·铁心的支持者。
 
 > INFO.NAME fg_tenimbounty 281406267275348534
 Fighters Guild: Tenim's Bounty
@@ -9591,7 +9591,7 @@ Fighters Guild: Hunger in the Sarano Tomb
 
 > INFO.NAME fg_hungerloose 31539249493084511613
 Eydis Fire-Eye told me a Hunger is loose in the Sarano Tomb which is over the hills southeast of the Fort Moonmoth between the Ashlands and Lake Amaya. I am ordered to travel to the tomb and kill the Hunger.
-艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾堡垒东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。 {萨拉诺墓穴}
+艾迪斯·火眼告诉我，在灰烬之地和阿玛雅湖之间的月蛾堡东南方的山丘上，萨拉诺之墓里有一个饥饿魔出没。我奉命前往古墓，杀死饥饿魔。 {萨拉诺墓穴}
 
 > INFO.NAME fg_hungerloose 1625028503916121756
 Eydis Fire-Eye thanked me for slaying the Hunger and paid me 1000 gold.
@@ -9603,7 +9603,7 @@ House Redoran: Find Mathis Dalobar
 
 > INFO.NAME hr_finddalobar 10114207771131519370
 Neminda asked me to find the trader Mathis Dalobar. He was last seen heading towards Maar Gan.
-内明达让我去找贸易商马蒂斯·达洛巴。他最后一次被目击到是往玛尔-甘方向去的。 {玛尔·甘}
+内明达让我去找贸易商马蒂斯·达洛巴。他最后一次被目击到是往玛尔·甘方向去的。
 
 > INFO.NAME hr_finddalobar 13102493424121650
 Neminda thanked me for finding Mathis Dalobar.
@@ -9631,7 +9631,7 @@ House Redoran: Slay Dagoth Tanis
 
 > INFO.NAME hr_dagothtanis 230959613553813218
 Faral Retheran asked me to slay the creature known as Dagoth Tanis in the stronghold of Falasmaryon. To get there I should travel up the Foyada Bani-Dad from Maar Gan and take the first trail from the Foyada that leads north.
-法拉·雷瑟兰要我在法拉斯马里昂的堡垒中杀死被称为达格斯·塔尼斯的怪物。要去那里，我应该从玛尔-甘沿着巴尼-达德熔渠而上，然后从熔渠通往北方的第一条小路走。 {玛尔·甘}
+法拉·雷瑟兰要我在法拉斯马里昂的堡垒中杀死被称为达格斯·塔尼斯的怪物。要去那里，我应该从玛尔·甘沿着巴尼-达德熔渠而上，然后从熔渠通往北方的第一条小路走。
 
 > INFO.NAME hr_dagothtanis 2597636891972715460
 Faral Retheran thanked me for slaying Dagoth Tanis.
@@ -9723,7 +9723,7 @@ House Telvanni: Dahrk Mezalf
 
 > INFO.NAME ht_dahrkmezalf 16684280381617310635
 Baladas Demnevanni asked me to bring him one of Dahrk Mezalf's summoning rings. Dahrk Mezalf was one of Kagrenac's smiths, sometimes called Mezalf Bthungthumz, and he may have lived in the colony of Bthungthumz which is somewhere between Maar Gan and the coast to the north.
-巴拉达斯·德姆内瓦尼让我给他带一枚达尔克·梅扎尔夫的召唤戒指。达尔克·梅扎尔夫是卡格瑞纳克的一名铁匠铺夫，有时也叫梅扎尔夫·布斯格斯姆兹，他可能住在布斯格斯姆兹的殖民地，那里位于玛尔-甘和北边海岸之间的某个地方。 {玛尔·甘}
+巴拉达斯·德姆内瓦尼让我给他带一枚达尔克·梅扎尔夫的召唤戒指。达尔克·梅扎尔夫是卡格瑞纳克的一名铁匠铺夫，有时也叫梅扎尔夫·布斯格斯姆兹，他可能住在布斯格斯姆兹的殖民地，那里位于玛尔·甘和北边海岸之间的某个地方。
 
 > INFO.NAME ht_dahrkmezalf 11898181871173125820
 Baladas Demnevanni thanked me for bringing him Dahrk Mezalf's ring.
@@ -9791,7 +9791,7 @@ Tholer Saryoni told me that the Fourth Corner of the House of Troubles is Sheogo
 
 > INFO.NAME tt_alddaedroth 259563428213195461
 I made the Pilgrimage to Ald Daedroth and read a passage from the Four Corners of the House of Troubles. The pact with Sheogorath has been renewed.
-我到奥德-迪德拉斯朝圣，读了《祸乱家族》的四角中的一段话。与谢尔格拉斯的契约已经续签。 {奥德·代德洛斯,魔鳄兽}
+我到奥德·迪德拉斯朝圣，读了《祸乱家族》的四角中的一段话。与谢尔格拉斯的契约已经续签。 {奥德·代德洛斯,魔鳄兽}
 
 > INFO.NAME tt_assarnibibi 247256383135768623
 Temple: Ebony Mail
@@ -9831,7 +9831,7 @@ Hlaalu Hortator
 
 > INFO.NAME b6_ynglinghort 582296111211724270
 Yngling Half-Troll laughed when I asked him if he would support me for Hortator of House Redoran. He seemed to feel that killing a Hlaalu councilor ruined my chances.
-当我问英灵·半巨魔是否会支持我竞选勒多兰家族的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。
+当我问英灵·半巨魔是否会支持我竞选勒多兰家族推举的统谏使时，他笑了。他似乎觉得杀死一名哈拉鲁议员会毁了我的机会。
 
 > INFO.NAME b5_redoranhort 5624194132324312311
 Redoran Hortator
@@ -9839,15 +9839,15 @@ Redoran Hortator
 
 > INFO.NAME b5_redoranhort 36402284113064052
 I have been named Hortator of House Redoran by Redoran's councilors. When I have been declared Hortator of all three Houses, Redoran, Hlaalu, and Telvanni, I will have fulfilled the Fourth Trial of the Seven Visions of Seven Trials of the Incarnate.
-勒多兰的议员们任命我为勒多兰家族的统谏使。当我被宣布为勒多兰、哈拉鲁和泰瓦尼三大家族的统谏使时，我就完成了“化身的七大异象之七大试炼”中的第四个试炼。
+勒多兰的议员们任命我为勒多兰家族推举的统谏使。当我被宣布为勒多兰、哈拉鲁和泰瓦尼三大家族推举的统谏使时，我就完成了“化身的七大异象之七大试炼”中的第四个试炼。
 
 > INFO.NAME b5_redoranhort 20621853163211746
 When Athyn Sarethi named me Redoran Hortator, he gave me an enchanted ring, a token of my office called the "Ring of the Hortator." By this ring others shall know me as House Redoran's chosen champion.
-当艾辛·萨雷蒂任命我为勒多兰统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是勒多兰家族选中的勇士。 {艾辛·萨雷提,沙尔}
+当艾辛·萨雷提任命我为勒多兰统谏使时，他给了我一枚附魔的戒指，这是我的职务象征，名为“统谏使之戒”。戴上这枚戒指，别人就会知道，我是勒多兰家族选中的勇士。 {沙尔}
 
 > INFO.NAME b5_redoranhort 2349910328103832028
 Athyn Sarethi showed me a public notice revealing that I am an Imperial agent. He did not ask for an explanation. He said he was satisfied that I was sincere. But he said others might not be so understanding.
-艾辛·萨雷蒂给我看了一份公告，上面写着我是一名帝国间谍。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {艾辛·萨雷提,帝国人}
+艾辛·萨雷提给我看了一份公告，上面写着我是一名帝国间谍。他没有要求我进行解释。他说他已经能够感受到我的诚意，但他说其他人可能不会这么想。 {帝国人}
 
 > INFO.NAME b5_sarethihort 718226521261324568
 Redoran Hortator
@@ -9855,7 +9855,7 @@ Redoran Hortator
 
 > INFO.NAME b5_sarethihort 25385940354022416
 Since I have killed a Redoran counselor, Sarethi says the other councilors will never consent to making me Hortator.
-由于我杀害了一名勒多兰顾问，萨雷蒂说其他议员绝不会同意让我担任统谏使。 {咨询}
+由于我杀害了一名勒多兰顾问，萨雷提说其他议员绝不会同意让我担任统谏使。 {咨询}
 
 > INFO.NAME b5_ramoranhort 43485592206012450
 Redoran Hortator
@@ -9887,7 +9887,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_theranahort 2100830031486522939
 I asked Mouth Felisa Ulessen if Mistress Therana would vote for me as Hortator of House Telvanni. Ulessen said I would have to speak directly to Therana on a matter of such importance. Ulessen warned me that Therana was very eccentric, and it may be hard to get and keep her attention long enough to ask the question. She also suggested I rely on keeping her happy rather than annoy her with details and arguments.
-我问发言人菲丽莎·乌雷森，西拉那夫人是否会投票让我担任泰瓦尼家族的统谏使。乌雷森说，这么重要的事情我必须直接和西拉那谈。乌雷森警告我说，西拉那非常古怪，可能很难吸引她的注意力，让她有足够的时间来问这个问题。她还建议我尽量让她开心，而不是用细节和争论来烦她。 {老鼠}
+我问发言人菲丽莎·乌雷森，西拉那夫人是否会投票让我担任泰瓦尼家族推举的统谏使。乌雷森说，这么重要的事情我必须直接和西拉那谈。乌雷森警告我说，西拉那非常古怪，可能很难吸引她的注意力，让她有足够的时间来问这个问题。她还建议我尽量让她开心，而不是用细节和争论来烦她。 {老鼠}
 
 > INFO.NAME b7_gothrenhort 440623289297059457
 Telvanni Hortator
@@ -9895,7 +9895,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_gothrenhort 292974673115702534
 I asked Mouth Mallam Ryon if Archmagister Gothren would vote for me as Hortator of House Telvanni. Ryon said I would have to speak directly to Gothren on a matter of such importance.
-我问发言人马拉姆·里昂，大导师戈瑟伦是否会投票让我担任泰瓦尼家族的统谏使。雷恩说，这么重要的事情我得直接和戈瑟伦谈。
+我问发言人马拉姆·里昂，大导师戈瑟伦是否会投票让我担任泰瓦尼家族推举的统谏使。雷恩说，这么重要的事情我得直接和戈瑟伦谈。
 
 > INFO.NAME b7_baladashort 27236232881492327034
 Telvanni Hortator
@@ -9903,7 +9903,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_baladashort 1577131572878921517
 I asked Mouth Edras if Master Baladas would vote for me as Hortator of House Telvanni. Edras said I would have to speak directly to Baladas on a matter of such importance.
-我问发言人艾德拉斯，巴拉达斯大师是否会投票让我担任泰瓦尼家族的统谏使。艾德拉斯说这么重要的事情我必须直接和巴拉达斯谈。
+我问发言人艾德拉斯，巴拉达斯大师是否会投票让我担任泰瓦尼家族推举的统谏使。艾德拉斯说这么重要的事情我必须直接和巴拉达斯谈。
 
 > INFO.NAME a2_6_incarnate 282452350274726463
 The Path of the Incarnate
@@ -10031,7 +10031,7 @@ Morag Tong: Execute Severa Magia
 
 > INFO.NAME mt_db_aldsotha 25481185491349019796
 The Dark Brotherhood in Vvardenfell keep their headquarters in the ruins of Ald Sotha, which is northeast of Vivec City. I must go there and honorably execute the local Night Mother of the Dark Brotherhood, Severa Magia.
-瓦登费尔的黑暗兄弟会将他们的总部设在维威克城东北方的奥德-索萨废墟。我必须前往那里，光荣地处决黑暗兄弟会当地的夜母塞维拉·玛吉亚。 {奥德·索萨}
+瓦登费尔的黑暗兄弟会将他们的总部设在维威克城东北方的奥德·索萨废墟。我必须前往那里，光荣地处决黑暗兄弟会当地的夜母塞维拉·玛吉亚。
 
 > INFO.NAME mt_db_aldsotha 23105102331327513162
 Grandmaster Eno Hlaalu thanked me for honorably executing Severa Magia. Eno Hlaalu gave me a ritual dagger with his gratitude.
@@ -10067,19 +10067,19 @@ I gave Hentus his pants.
 
 > INFO.NAME tg_enemyparley 250581392157499677
 Thieves Guild: Speak With Percius
-盗贼公会：与珀西乌斯交谈
+盗贼公会：与佩基乌斯交谈
 
 > INFO.NAME tg_enemyparley 347629629185507004
 Gentleman Jim Stacey believes that Percius Mercius of the Ald'ruhn Guild of Fighters may help us. I should speak with him about the other members of the Fighters Guild.
-绅士吉姆·史戴西认为，奥德'汝因战士工会的珀西乌斯·默西乌斯可能会帮助我们。我应该和他谈谈战士公会的其他成员。
+绅士吉姆·史戴西认为，奥德'汝因战士工会的佩基乌斯·梅基乌斯可能会帮助我们。我应该和他谈谈战士公会的其他成员。
 
 > INFO.NAME tg_enemyparley 2959328659158685401
 Gentleman Jim Stacey thanked me for the information I got from Percius Mercius.
-绅士吉姆·史戴西感谢我从珀西乌斯·默西乌斯那里带回的消息。
+绅士吉姆·史戴西感谢我从佩基乌斯·梅基乌斯那里带回的消息。
 
 > INFO.NAME tg_enemyparley 2610491901900010707
 Gentleman Jim Stacey wanted to speak to Percius Mercius about helping the Thieves Guild, but Mercius is dead. We'll have to find other ways.
-绅士吉姆·史戴西想和珀西乌斯·默西乌斯谈谈帮助盗贼公会的事，但默西乌斯已经死了。我们得另想办法。
+绅士吉姆·史戴西想和佩基乌斯·梅基乌斯谈谈帮助盗贼公会的事，但梅基乌斯已经死了。我们得另想办法。
 
 > INFO.NAME tg_bitterbribe 791321056398613338
 Thieves Guild: The Bitter Cup
@@ -10087,7 +10087,7 @@ Thieves Guild: The Bitter Cup
 
 > INFO.NAME tg_bitterbribe 21537241631515932179
 Gentleman Jim Stacey asked me to get the Bitter Cup, an artifact sacred to Clavicus Vile, and deliver it to Eydis Fire-Eye. The Bitter Cup was lost in the ruins of Ald Redaynia.
-绅士吉姆·史戴西让我去拿苦痛之杯，那是克拉威库斯·维尔的圣物，并把它交给艾迪斯·火眼。苦痛之杯遗失在奥德-瑞达尼亚的废墟中。 {苦涩之杯,神圣,奥德·勒丹亚}
+绅士吉姆·史戴西让我去拿苦痛之杯，那是克拉威库斯·维尔的圣物，并把它交给艾迪斯·火眼。苦痛之杯遗失在奥德·瑞达尼亚的废墟中。 {苦涩之杯,神圣,奥德·勒丹亚}
 
 > INFO.NAME tg_bitterbribe 1126523109165686622
 Gentleman Jim Stacey thanked me for delivering the Bitter Cup to Eydis Fire-Eye.
@@ -10107,7 +10107,7 @@ Thieves Guild: Withershins
 
 > INFO.NAME tg_withershins 604447982280926096
 Aengoth the Jeweler asked me to bring him a copy of the book "Withershins." He thinks Miles Gloriosus in the Maar Gan Tradehouse has a copy.
-珠宝商阿恩戈斯让我给他带一本《逆时针》。他认为玛尔-甘贸易行的迈尔斯·格洛里索斯有一本。 {玛尔·甘}
+珠宝商阿恩戈斯让我给他带一本《逆时针》。他认为玛尔·甘贸易行的迈尔斯·格洛里索斯有一本。
 
 > INFO.NAME tg_withershins 2585211742772929196
 Aengoth the Jeweler thanked me for bringing him a copy of "Withershins."
@@ -10119,15 +10119,15 @@ Lead the Pilgrim to Koal Cave
 
 > INFO.NAME mv_poorpilgrim 69115369207368460
 While traveling in the area west of Maar Gan, I met a pilgrim named Fonus Rathryon. He wishes to travel to Koal Cave, on a pilgrimage, and must be there within two days.
-在玛尔-甘以西地区旅行时，我遇到了一位名叫佛努斯·拉斯昂的朝圣者。他希望前往考尔洞穴朝圣，必须在两天内到达。 {玛尔·甘}
+在玛尔·甘以西地区旅行时，我遇到了一位名叫佛努斯·拉斯昂的朝圣者。他希望前往考尔洞穴朝圣，必须在两天内到达。
 
 > INFO.NAME mv_poorpilgrim 1993524061069228181
 I've declined to escort Fonus Rathryon on his pilgrimage. I've better things to do than babysit some religious fanatic.
-我拒绝护送佛努斯·拉斯昂朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。 {保镖}
+我拒绝护送佛努斯·拉斯昂朝圣。比起照看某个宗教狂热分子，我有更重要的事情要做。
 
 > INFO.NAME mv_poorpilgrim 31325186232731615438
 I escorted Fonus Rathryon to Koal Cave, and he paid me the 150 septims that he promised.
-我护送佛努斯·拉斯昂来到考尔洞穴，他也按照约定付给了我150塞普汀。 {保镖}
+我护送佛努斯·拉斯昂来到考尔洞穴，他也按照约定付给了我150塞普汀。
 
 > INFO.NAME mv_poorpilgrim 142657888173011253
 I was unable to get Fonus Rathryon to Koal Cave within the time specified, and he has decided to find another guide. Oh, well. Best of luck to him. He was wearing on my nerves anyway.
@@ -10135,7 +10135,7 @@ I was unable to get Fonus Rathryon to Koal Cave within the time specified, and h
 
 > INFO.NAME mv_poorpilgrim 278894661430531345
 While escorting Fonus Rathryon to Koal Cave, he came to an untimely end. There's no more I can do for him now.
-在护送佛努斯·拉斯昂前往考尔洞穴时，他不幸逝世了。现在我已经无能为力了。 {保镖}
+在护送佛努斯·拉斯昂前往考尔洞穴时，他不幸逝世了。现在我已经无能为力了。
 
 > INFO.NAME mv_richpilgrim 20893109723221243
 Viatrix, The Annoying Pilgrim
@@ -10143,7 +10143,7 @@ Viatrix, The Annoying Pilgrim
 
 > INFO.NAME mv_richpilgrim 692278062967624870
 Viatrix Petilia stopped me on the side of the road near Ald'ruhn. She claims to be a pilgrim on her way to Ghostgate Shrine. Her haughty attitude suggests a person who is used to being waited on. She'd like me to escort her to the Ghostgate Shrine, and she promises a "tip" if I deliver her there safely, and within two days' time.
-薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。 {保镖,提示}
+薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。 {提示}
 
 > INFO.NAME mv_richpilgrim 1524327818231821325
 I've led Viatrix Petilia safely to Ghostgate. She did, indeed, give me a "tip" for my services, but it seems rather meager compensation from someone of such obvious means.
@@ -10239,7 +10239,7 @@ Imperial Legion: Maiden's Token
 
 > INFO.NAME il_maidentoken 2201284182471827851
 Varona Nelas is blackmailing a Buoyant Armiger. She has an embroidered glove which was given to this Buoyant Armiger as a token of affection. It would cause a scandal if it were known that they are lovers. Imsin the Dreamer asked me to recover this glove from Varona Nelas and bring it to her. Varona Nelas can be found in Assumanu, which is southeast of Ald Redaynia.
-瓦罗娜·内拉斯正在用过去的恋情勒索一名灵动扈从。她有一只绣花手套，是曾经送给这位灵动扈从的定情信物。如果让人知道他们是恋人，会引起丑闻的。空想者伊姆辛让我从瓦罗娜·内拉斯那里找回这只手套，并带给她。瓦罗娜·内拉斯在阿苏马努，也就是奥德-瑞达尼亚的东南方。 {奥德·勒丹亚}
+瓦罗娜·内拉斯正在用过去的恋情勒索一名灵动扈从。她有一只绣花手套，是曾经送给这位灵动扈从的定情信物。如果让人知道他们是恋人，会引起丑闻的。空想者伊姆辛让我从瓦罗娜·内拉斯那里找回这只手套，并带给她。瓦罗娜·内拉斯在阿苏马努，也就是奥德·瑞达尼亚的东南方。 {奥德·勒丹亚}
 
 > INFO.NAME il_maidentoken 43830577575114745
 I brought the embroidered glove to Imsin the Dreamer. She will make sure it is returned to the Buoyant Armiger it belongs to.
@@ -10359,7 +10359,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_flacassia 25469297872460710395
 The Guildguide for the Vivec Mages Guild, Flacassia Fauseius, remembered a High Elf named Mossanon who went back and forth from Sadrith Mora with a Telvanni woman.
-维维克法师公会的公会向导弗拉卡西娅·福塞尤斯记得有一位名叫莫萨农的高精灵和一位泰瓦尼女性在萨德瑞斯-莫拉之间往来。 {维威克,萨德瑞斯·莫拉}
+维维克法师公会的公会向导弗拉卡西娅·福塞尤斯记得有一位名叫莫萨农的高精灵和一位泰瓦尼女性在萨德里斯·莫拉之间往来。 {维威克}
 
 > INFO.NAME town_ald_tiras 195341539540673185
 Tiras Sadus and Ienas Sarandus
@@ -10411,7 +10411,7 @@ The Sad Sorcerer
 
 > INFO.NAME ms_hatandskirt 19484231022911617439
 I found this poor sorcerer imprisoned by a swarm of scamps. They fed him his companions in a broth. And stripped him and forced him to wear a skirt and hat. He looks very melancholy. He asked me to get him a potion of levitation so he could escape from his high perch. He offered to reward me with the attractive skirt and remarkable hat they made him wear.
-我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点漂浮药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
+我发现这个可怜的巫师被一群劣魔囚禁着。他们用他的同伴的肉汤喂他，剥光了他的衣服，强迫他穿裙子戴帽子，他看起来很崩溃。他让我给他弄点浮空药水，这样他就能从高处逃走了。他提出用他们逼他穿上的迷人的裙子和戴上的引人注目的帽子来酬谢我。 {报酬}
 
 > INFO.NAME ms_hatandskirt 32130211451349113829
 I gave the poor sorcerer a potion of levitation so he could escape from his high perch, and accepted his skirt and hat as reward.
@@ -10689,7 +10689,7 @@ Mages Guild: Huleen's Hut
 
 > INFO.NAME mg_apprentice 12554171071774721353
 Edwinna told me that there has been some sort of disturbance at Huleen's hut in Maar Gan. I am supposed to investigate and put a stop to the disturbance.
-埃德温娜告诉我，在玛尔-甘的胡琳的小屋发生了一些骚乱。我应该去调查并制止骚乱。 {玛尔·甘}
+埃德温娜告诉我，在玛尔·甘的胡琳的小屋发生了一些骚乱。我应该去调查并制止骚乱。
 
 > INFO.NAME mg_apprentice 2002036532521830226
 I put a stop to the disturbance at Huleen's Hut. Now Edwinna can get back to her studies.
@@ -10745,7 +10745,7 @@ Mages Guild: Kill Necromancer Tashpi Ashibael
 
 > INFO.NAME mg_killnecro2 27157296881251112753
 Ranis told me that Tashpi Ashibael is a necromancer. Ranis wants me to kill Tashpi Ashibael. She lives in Maar Gan.
-拉尼斯告诉我，塔什皮·阿什贝尔是个死灵法师。拉尼斯要我杀死塔什皮·阿什贝尔。她住在玛尔-甘。 {玛尔·甘}
+拉尼斯告诉我，塔什皮·阿什贝尔是个死灵法师。拉尼斯要我杀死塔什皮·阿什贝尔。她住在玛尔·甘。
 
 > INFO.NAME mg_killnecro2 31441183692518423112
 I told Ranis Athrys that the necromancer is dead.
@@ -10757,7 +10757,7 @@ Fighters Guild: Remove the Heads of the Thieves Guild
 
 > INFO.NAME fg_killbosses 220066726164827524
 Sjoring Hard-Heart told me to kill the Thieves Guild bosses. I must kill Habasi at the South Wall in Balmora, Aengoth at the Rat in the Pot n Ald'ruhn, and Helende at Dirty Muriel's in Sadrith Mora.
-舒灵·铁心让我去杀掉盗贼公会的头目。分别是巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德瑞斯-莫拉肮脏穆里尔的海伦德。 {老鼠,萨德瑞斯·莫拉}
+舒灵·铁心让我去杀掉盗贼公会的头目。分别是巴尔莫拉南墙的哈巴西、奥德'汝因锅中之鼠的安戈斯和萨德里斯·莫拉肮脏穆里尔的海伦德。 {老鼠}
 
 > INFO.NAME fg_killbosses 1609298892679027328
 I killed the three local Thieves Guild bosses.
@@ -10805,11 +10805,11 @@ House Redoran: Shurinbaal
 
 > INFO.NAME hr_shurinbaal 3194027223008328872
 Serjo Athyn Sarethi believes there are smugglers in the cave of Shurinbaal, just southwest down the coast from Gnaar Mok. I must find and kill the leaders of the smugglers, Daroder and Enjine.
-艾辛·萨雷蒂相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。 {艾辛·萨雷提,纳尔·莫克}
+艾辛·萨雷提相信舒林巴尔洞穴里有走私者就在纳尔-莫克西南方向的海岸边。我必须找到并杀死走私者的首领达罗德和恩基妮。 {纳尔·莫克}
 
 > INFO.NAME hr_shurinbaal 25974211622522932654
 Serjo Athyn Sarethi thanked me for shutting down the smuggling operations in Shurinbaal.
-艾辛·萨雷蒂感谢我结束了舒林巴尔的走私活动。 {艾辛·萨雷提}
+艾辛·萨雷提感谢我结束了舒林巴尔的走私活动。
 
 > INFO.NAME hr_findtharen 2404510183512315834
 House Redoran: Find Fedris Tharen
@@ -10869,7 +10869,7 @@ I was told that the Twin Lamps are an anti-slavery organization. If I am asked "
 
 > INFO.NAME hh_twinlamps1 1700626821162312476
 Ilmeni Dren thanked me for helping the Arvel family in Ald Velothi.
-伊尔梅妮·德伦感谢我帮助了奥德-维洛提的阿维尔家族。 {奥德·维洛提}
+伊尔梅妮·德伦感谢我帮助了奥德·维洛提的阿维尔家族。
 
 > INFO.NAME hh_twinlamps3 2226895722378013225
 House Hlaalu: Free Hides-His-Foot
@@ -10977,7 +10977,7 @@ House Telvanni: Staff of the Silver Dawn
 
 > INFO.NAME ht_silverdawn 32496110923194310851
 Mouth Arara Uvulas wants me to acquire a Staff of the Silver Dawn. This staff allegedly belongs to someone in the Mages Guild in Sadrith Mora.
-发言人艾拉拉·乌弗拉斯要我收购一根银色黎明法杖。据称这根法杖属于萨德瑞斯-莫拉的法师公会中的某个人。 {萨德瑞斯·莫拉}
+发言人艾拉拉·乌弗拉斯要我收购一根银色黎明法杖。据称这根法杖属于萨德里斯·莫拉的法师公会中的某个人。
 
 > INFO.NAME ht_silverdawn 32761305282152413568
 Mouth Arara Uvulas thanked me for bringing her the Staff of the Silver Dawn.
@@ -10997,43 +10997,43 @@ Master Neloth thanked me for delivering the Robe of Drake's Pride.
 
 > INFO.NAME hh_stronghold 15453285726824535
 House Hlaalu: Stronghold
-哈拉鲁家族：堡垒
+哈拉鲁家族：要塞
 
 > INFO.NAME hh_stronghold 3229278222950814254
 In order to advance further, I must strengthen House Hlaalu by building a stronghold. I should go to the House Hlaalu Council Hall in Balmora and speak with the stronghold builder, Dondos Driler.
-为了更进一步，我必须建立一个堡垒来巩固哈拉鲁家族。我应该前往巴尔莫拉的哈拉鲁议会大厅，与堡垒建造者唐多斯·钻勒交谈。 {力量}
+为了更进一步，我必须建立一个要塞来巩固哈拉鲁家族。我应该前往巴尔莫拉的哈拉鲁议会大厅，与要塞建造者唐多斯·钻勒交谈。 {力量,堡垒}
 
 > INFO.NAME hh_stronghold 21482303261099531257
 The first stage of my stronghold should be complete by today.
-我的堡垒第一阶段应该会在今天完工。
+我的要塞第一阶段应该会在今天完工。 {堡垒}
 
 > INFO.NAME hh_stronghold 3050222528221079060
 The final stage of my stronghold should be complete.
-我的堡垒的最后阶段应该完成了。
+我的要塞的最后阶段应该完成了。 {堡垒}
 
 > INFO.NAME hr_stronghold 18921893025764656
 House Redoran: Stronghold
-勒多兰家族：堡垒
+勒多兰家族：要塞
 
 > INFO.NAME hr_stronghold 253122858113925248
 Galsa Gindu told me that in order to build my stronghold, I must pay 5000 gold and get a construction contract from Duke Dren in Ebonheart.
-加尔萨·金杜告诉我，为了建造我的堡垒，我必须支付 5000 金币，并从黑檀心的德伦公爵那里拿到施工合同。
+加尔萨·金杜告诉我，为了建造我的要塞，我必须支付 5000 金币，并从黑檀心的德伦公爵那里拿到施工合同。 {堡垒}
 
 > INFO.NAME hr_stronghold 164214188305956600
 My stronghold is complete.
-我的堡垒已经完工。
+我的要塞已经完工。 {堡垒}
 
 > INFO.NAME ht_stronghold 24178223242435016828
 House Telvanni: Stronghold
-泰瓦尼家族：堡垒
+泰瓦尼家族：要塞
 
 > INFO.NAME ht_stronghold 1269821649210103220
 In order to advance in House Telvanni, I must build my own tower. I should speak with Llunela Hleran, the Telvanni stronghold builder.
-为了在泰瓦尼家族中晋升，我必须建造自己的塔楼。我应该和泰瓦尼堡垒建造者卢妮拉·勒兰谈谈。
+为了在泰瓦尼家族中晋升，我必须建造自己的塔楼。我应该和泰瓦尼要塞建造者卢妮拉·勒兰谈谈。 {堡垒}
 
 > INFO.NAME ht_stronghold 1697275891925026501
 The last stage of my stronghold is complete.
-我的堡垒最后阶段已经完成。
+我的要塞最后阶段已经完成。 {堡垒}
 
 > INFO.NAME a2_2_6thhouse 3008211267315882135
 Sixth House Base
@@ -11061,7 +11061,7 @@ Temple: Compassion
 
 > INFO.NAME tt_compassion 31919179021757618115
 Tuls Valen wants me to reenact Vivec's compassionate healing of a foe. I must either learn the Rilm's Gift spell or use the potion he gave me to cure the Orc Bulfim gra-Shugharz of Ash-Chancre. Bulfim gra-Shugarz is in Maelkashishi. I can get there by heading east from Ald Velothi until I reach the mountains, then following the mountains south.
-图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“里尔姆之礼”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人巴菲姆·格拉-舒噶兹。巴菲姆·格拉-舒噶兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。 {奥德·维洛提}
+图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“里尔姆之礼”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人巴菲姆·格拉-舒噶兹。巴菲姆·格拉-舒噶兹在梅尔卡诗诗。我可以从奥德·维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
 
 > INFO.NAME tt_compassion 836014959162526210
 Tuls Valen thanked me for curing Bulfim gra-Shugharz.
@@ -11077,7 +11077,7 @@ Temple: Shoes of St. Rilms
 
 > INFO.NAME tt_rilmsshoes 116461663793163881
 Endryn Llethan asked me to find the Shoes of St. Rilms and return them to the Temple. A priest recently dreamt that the shoes were in the depths of Ald Sotha northeast of Vivec.
-恩德林·莱森让我找到圣·里尔姆的鞋子并将其送回神殿。一位牧师最近梦见鞋子在维威克城东北方的奥德-索萨深处。 {奥德·索萨}
+恩德林·莱森让我找到圣·里尔姆的鞋子并将其送回神殿。一位牧师最近梦见鞋子在维威克城东北方的奥德·索萨深处。
 
 > INFO.NAME tt_rilmsshoes 259128544190923432
 Endryn Llethan thanked me for returning the sacred Shoes of St. Rilms.
@@ -11125,7 +11125,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_nelothhort 18220156082633919726
 I asked Mouth Arara Uvulas if Master Neloth would vote for me as Hortator of House Telvanni. Uvulas said I would have to speak directly to Neloth on a matter of such importance.
-我问发言人艾拉拉·乌弗拉斯，内洛斯大师是否会投票让我担任泰瓦尼家族的统谏使。乌弗拉斯说，这么重要的事情我必须直接和内洛斯谈。
+我问发言人艾拉拉·乌弗拉斯，内洛斯大师是否会投票让我担任泰瓦尼家族推举的统谏使。乌弗拉斯说，这么重要的事情我必须直接和内洛斯谈。
 
 > INFO.NAME b7_drathahort 320111721542910933
 Telvanni Hortator
@@ -11133,7 +11133,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_drathahort 306721826225329903
 I asked Mouth Raven Omayn if Mistress Dratha would vote for me as Hortator of House Telvanni. Omayn said I would have to speak directly to Dratha on a matter of such importance.
-我问发言人瑞雯·奥曼，德拉萨夫人是否会投票让我担任泰瓦尼家族的统谏使。奥曼说，这么重要的事情我得直接和德拉萨谈。
+我问发言人瑞雯·奥曼，德拉萨夫人是否会投票让我担任泰瓦尼家族推举的统谏使。奥曼说，这么重要的事情我得直接和德拉萨谈。
 
 > INFO.NAME mt_writgalasa 114418232310097531
 Morag Tong: Writ for Galasa Uvayn
@@ -11157,7 +11157,7 @@ Morag Tong: Writ for Master Neloth
 
 > INFO.NAME mt_writneloth 12348153153023411292
 I have been given a Writ for the honorable execution of Master Neloth. He may be found in the Tower of Tel Naga in Sadrith Mora.
-我已收到光荣处决令状，要求光荣处决内洛斯大师。他可能在萨德瑞斯-莫拉的泰尔-纳加塔楼里。 {萨德瑞斯·莫拉}
+我已收到光荣处决令状，要求光荣处决内洛斯大师。他可能在萨德里斯·莫拉的泰尔-纳加塔楼里。
 
 > INFO.NAME mt_writneloth 842118503261137214
 I executed the Writ on Master Neloth.
@@ -11221,11 +11221,11 @@ Thieves Guild: The Brothers Ienith
 
 > INFO.NAME tg_killienith 1212811031122027163
 Gentleman Jim Stacey asked me to kill the Camonna Tong's best enforcers, Navil and Ranes Ienith. The Ienith brothers can usually be found on the Dren Plantation just north of Pelagiad.
-绅士吉姆·史戴西让我杀了卡莫纳堂最好的执行者纳维尔·伊尼思和拉内斯·伊尼思。伊尼斯兄弟通常可以在佩拉吉亚德北面的德伦种植园找到。
+绅士吉姆·史戴西让我杀了卡莫纳·堂最好的执行者纳维尔·伊尼思和拉内斯·伊尼思。伊尼斯兄弟通常可以在佩拉吉亚德北面的德伦种植园找到。
 
 > INFO.NAME tg_killienith 1448579441840710326
 Gentleman Jim Stacey thanked me for killing the Camonna Tong's best enforcers.
-绅士吉姆·史戴西感谢我杀死了卡莫纳堂最好的执行者。
+绅士吉姆·史戴西感谢我杀死了卡莫纳·堂最好的执行者。
 
 > INFO.NAME tg_masterhelm 9102175544581516
 Thieves Guild: Redoran Master Helm
@@ -11277,11 +11277,11 @@ A Man and His Guar
 
 > INFO.NAME mv_richtrader 1354429058674025913
 I ran into a trader, Teris Raledran, while traveling near Seyda Neen. He is trying to get a shipment of clothing to Agrippina Herennia in Vivec. He would like me to escort him and his pack guar, Rollie, and ensure their safety on the way.
-我在赛达尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔--瓜尔罗利，并确保他们在途中的安全。 {赛达·尼恩,保镖}
+我在赛达尼恩附近旅行时碰见了一位贸易商特里斯·拉莱德兰。他正试图将一批衣物运往维威克城的阿格里皮娜·赫伦尼亚。他希望我能护送他和他的驮货瓜尔--瓜尔罗利，并确保他们在途中的安全。 {赛达·尼恩}
 
 > INFO.NAME mv_richtrader 1829461442819417989
 I've decided to escort neither Teris Raledran nor his guar to Vivec. This man is unstable at best. And the guar is no better.
-我决定既不护送特里斯·拉莱德兰，也不护送他的瓜尔去维威克城。这个太过反复无常，瓜尔也好不到哪里去。 {保镖}
+我决定既不护送特里斯·拉莱德兰，也不护送他的瓜尔去维威克城。这个太过反复无常，瓜尔也好不到哪里去。
 
 > INFO.NAME mv_richtrader 14020289441792720814
 As promised, Teris has paid me 200 septims. Rollie had little to say to me on the matter.
@@ -11289,7 +11289,7 @@ As promised, Teris has paid me 200 septims. Rollie had little to say to me on th
 
 > INFO.NAME mv_richtrader 28492241462691417745
 Teris has paid me 100 septims for escorting him to Vivec. Although he promised me 200, I really only got half my job done, as Rollie did not make it. Perhaps he can use the rest of the money to create a memorial to his friend, Rollie the Guar.
-泰瑞斯已经付给我 100 塞普汀，作为护送他去维威克城的报酬。虽然他答应给我 200 塞普汀，但我实际上只完成了一半的工作，因为罗利没有成功抵达。也许他可以用剩下的钱为他的朋友瓜尔罗利建一座纪念碑。 {保镖}
+泰瑞斯已经付给我 100 塞普汀，作为护送他去维威克城的报酬。虽然他答应给我 200 塞普汀，但我实际上只完成了一半的工作，因为罗利没有成功抵达。也许他可以用剩下的钱为他的朋友瓜尔罗利建一座纪念碑。
 
 > INFO.NAME mv_richtrader 3864279993112710732
 While on our way to Vivec, Teris Raledran met his end. It was sad to see the end of the eccentric trader, and I'm sure Rollie feels the pain of his death.
@@ -11317,11 +11317,11 @@ Imperial Legion: Blueprints
 
 > INFO.NAME il_blueprints 807316655234512192
 Darius told me that the Emperor himself wants the plans to the Anumidium. These plans may be somewhere under Red Mountain.
-达瑞斯告诉我，皇帝本人想要努米迪安的蓝图。这些图纸可能就在红山下的某个地方。 {达里乌斯,计划,努米迪文}
+达里乌斯告诉我，皇帝本人想要努米迪安的蓝图。这些图纸可能就在红山下的某个地方。 {计划,努米迪文}
 
 > INFO.NAME il_blueprints 27360274471932613959
 Darius thanked me for finding the blueprints to Anumidium. They will be sent immediately to the Emperor himself.
-达瑞斯感谢我找到了努米迪安的蓝图。这些图纸会马上送给皇帝陛下。 {达里乌斯,努米迪文}
+达里乌斯感谢我找到了努米迪安的蓝图。这些图纸会马上送给皇帝陛下。 {努米迪文}
 
 > INFO.NAME il_scrapmetal 177517983092325209
 Imperial Legion: Scrap Metal
@@ -11365,15 +11365,15 @@ Sheogorath's Quest
 
 > INFO.NAME da_sheogorath 21163218724510171
 I have entered the Shrine of Sheogorath and spoken with the Daedra Prince of Madness. He has offered me the opportunity to perform a service for him. First, I am to recover a powerful artifact, the Fork of Horripilation, from a mad hermit who lives on an island off the northernmost points of Tamriel. Then, I must slay a giant bull netch that has taken residence near this island. If I can do this, Sheogorath promises I will be rewarded well.
-我进入了谢尔格拉斯圣祠，与迪德拉君主进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器--惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯特保证会给我丰厚的报酬。 {巨型气母}
+我进入了谢尔格拉斯圣祠，与迪德拉君主进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器--惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型牡气母。如果我能做到，谢尔格拉斯特保证会给我丰厚的报酬。 {巨型气母}
 
 > INFO.NAME da_sheogorath 32230109952487810069
 The giant bull netch is dead, as Sheogorath asked. However, I was not wielding the Fork of Horripilation when the netch met its end. My quest for the Prince of Madness is a failure.
-按照谢尔格拉斯的要求，巨型的雄性气母已经死了。不过，在气母遭遇灭顶之灾时，我并没有挥舞惊骇之叉。疯狂君主交给我的任务失败了。 {巨型气母}
+按照谢尔格拉斯的要求，巨型的牡气母已经死了。不过，在气母遭遇灭顶之灾时，我并没有挥舞惊骇之叉。疯狂君主交给我的任务失败了。 {巨型气母}
 
 > INFO.NAME da_sheogorath 308434402258354687
 I've returned to the Shrine of Sheogorath, and the Daedra Prince spoke with me again. He seemed pleased that I had completed my quest...not because he wanted the bull netch dead, but he enjoyed seeing me struggle to do it. He has rewarded me well, though, and given me the Spear of Bitter Mercy.
-我回到了谢尔格拉斯圣祠，迪德拉君主又和我谈了一次话。他似乎很高兴我完成了任务……并不是因为他想要那只雄性气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把苦痛仁慈之枪给了我。 {悲悯之枪}
+我回到了谢尔格拉斯圣祠，迪德拉君主又和我谈了一次话。他似乎很高兴我完成了任务……并不是因为他想要那只牡气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把苦痛仁慈之枪给了我。 {悲悯之枪}
 
 > INFO.NAME c0_act_c_expo 12185198392765628145
 The Citadels of the Sixth House
@@ -11505,7 +11505,7 @@ House Redoran: Duel with Bolvyn Venim
 
 > INFO.NAME hr_archmaster 17741203752809611543
 Athyn Sarethi told me to meet Bolvyn Venim in a duel. The winner will become the Archmaster of House Redoran.
-艾辛·萨雷蒂让我与波尔文·维尼姆决斗。胜者将成为勒多兰家族的新家主。 {艾辛·萨雷提}
+艾辛·萨雷提让我与波尔文·维尼姆决斗。胜者将成为勒多兰家族的新家主。
 
 > INFO.NAME hr_archmaster 2082553503074113793
 I defeated Bolvyn Venim and am now the Archmaster of House Redoran.
@@ -11733,11 +11733,11 @@ I have located Mirisa the missionary, locked in the quarters of Erich the Unwort
 
 > INFO.NAME bm_missionary 15318142402528229235
 I have agreed to escort Mirisa back to the Imperial Cult Shrine at Fort Frostmoth.
-我已同意护送米丽莎回到位于霜蛾堡的帝国教团圣祠。 {保镖,帝国人}
+我已同意护送米丽莎回到位于霜蛾堡的帝国教团圣祠。 {帝国人}
 
 > INFO.NAME bm_missionary 13211448822979885
 I have escorted the missionary Mirisa safely to the Imperial Cult shrine in Fort Frostmoth.
-我已把传教士米丽莎安全送抵霜蛾堡的帝国教团圣祠。 {保镖,帝国人}
+我已把传教士米丽莎安全送抵霜蛾堡的帝国教团圣祠。 {护送,帝国人}
 
 > INFO.NAME bm_missionary 1545254351635713177
 Jeleen was overjoyed at my rescue of Mirisa, and rewarded me with 300 gold pieces.
@@ -11833,7 +11833,7 @@ Fighters Guild: Battle at Nchurdamz
 
 > INFO.NAME fg_nchurdamz 30833222721985530803
 Hrundi asked me to meet a Larienna Macrina at the ruins of Nchurdamz, a Dwemer ruin far south of Sadrith Mora.
-赫伦迪让我去纳曲尔达姆兹废墟见拉里耶娜·马克里那，那里是萨德瑞斯-莫拉南边的一个锻莫废墟。 {恩楚尔达姆兹,萨德瑞斯·莫拉}
+赫伦迪让我去纳曲尔达姆兹废墟见拉里耶娜·马克里那，那里是萨德里斯·莫拉南边的一个锻莫废墟。 {恩楚尔达姆兹}
 
 > INFO.NAME fg_nchurdamz 1993128343796731363
 Hrundi rewarded me for assisting Larienna Macrina explore the ruins of Nchurdamz.
@@ -11925,15 +11925,15 @@ Master Aryon thanked me for ending the siege of Odirniran.
 
 > INFO.NAME ht_sloadsoap 18142191211593519253
 House Telvanni: Sload Soap
-泰瓦尼家族：蛞蟾人皂
+泰瓦尼家族：斯洛德皂
 
 > INFO.NAME ht_sloadsoap 729320721714817402
 Mouth Arara Uvulas asked me to acquire five portions of Sload soap.
-发言人艾拉拉·乌弗拉斯要我购买五份蛞蟾人皂。
+发言人艾拉拉·乌弗拉斯要我购买五份斯洛德皂。
 
 > INFO.NAME ht_sloadsoap 215381939290721401
 Mouth Arara Uvulas thanked me for bringing her Sload soap.
-发言人艾拉拉·乌弗拉斯感谢我为她带来了蛞蟾人皂。
+发言人艾拉拉·乌弗拉斯感谢我为她带来了斯洛德皂。
 
 > INFO.NAME ht_blackjinx 183884031872925116
 House Telvanni: Black Jinx
@@ -11985,15 +11985,15 @@ Fast Eddie gave me the Ring of Equity.
 
 > INFO.NAME ht_aurielbow 1317231097764923730
 House Telvanni: Auriel's Bow
-泰瓦尼家族：奥瑞尔之弓
+泰瓦尼家族：奥瑞埃尔之弓
 
 > INFO.NAME ht_aurielbow 25184293102082416168
 Mistress Therana asked me to bring her Auriel's Bow. At least, I think that's what she was asking. Perhaps I should look for the bow in Ghostgate. Therana said something about Ralyn Othravel.
-西拉那夫人让我把奥瑞尔之弓带给她。至少我认为她是这么要求的。也许我应该去幽魂之门找找那把弓。西拉那提到了拉林·奥斯拉维尔。
+西拉那夫人让我把奥瑞埃尔之弓带给她。至少我认为她是这么要求的。也许我应该去幽魂之门找找那把弓。西拉那提到了拉林·奥斯拉维尔。
 
 > INFO.NAME ht_aurielbow 1548114510771218796
 Mistress Therana scolded me for bringing her Auriel's Bow and then gave me 5000 gold if I promised to leave.
-西拉那夫人因为我把奥瑞尔之弓带给她而辱骂了我，然后给了我 5000 金币，只要我答应离开。
+西拉那夫人因为我把奥瑞埃尔之弓带给她而辱骂了我，然后给了我 5000 金币，只要我答应离开。
 
 > INFO.NAME tt_maskvivec 3975664584461084
 Temple: Grace of Justice
@@ -12073,7 +12073,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_aryonhort 17120125592696522584
 I asked Galos Mathendis if Master Aryon would vote for me as Hortator of House Telvanni. Mathendis said I would have to speak directly to Aryon on a matter of such importance.
-我问加洛斯·马腾迪斯，阿里昂大师是否会投票让我担任泰瓦尼家族的统谏使。马亨迪斯说，这么重要的事情我必须直接和阿里昂谈。
+我问加洛斯·马腾迪斯，阿里昂大师是否会投票让我担任泰瓦尼家族推举的统谏使。马亨迪斯说，这么重要的事情我必须直接和阿里昂谈。
 
 > INFO.NAME b4_heartfire 533821593449923058
 Erabenimsun Nerevarine
@@ -12241,11 +12241,11 @@ Thieves Guild: Bal Molagmer, Enamor
 
 > INFO.NAME tg_ss_enamor 2219630828870221827
 Gentleman Jim Stacey asked me to return the stolen sword "Enamor" to Salyn Sarethi's personal chest in the Buoyant Armiger barracks in Ghostgate along with a note.
-绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷蒂在幽魂之门的灵动扈从兵营里的私人箱子里。 {萨利恩·萨雷提}
+绅士吉姆·史戴西让我把偷来的宝剑“倾赖之刃”和一张字条一起放回萨利恩·萨雷提在幽魂之门的灵动扈从兵营里的私人箱子里。
 
 > INFO.NAME tg_ss_enamor 29494241139524307
 Gentleman Jim Stacey thanked me for delivering the sword "Enamor" and the note to Salyn Sarethi's chest in Ghostgate.
-绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷蒂在幽魂之门的箱子里。 {萨利恩·萨雷提}
+绅士吉姆·史戴西感谢我将“倾赖之刃”和字条送到萨利恩·萨雷提在幽魂之门的箱子里。
 
 > INFO.NAME mv_slavemule 6203271422929218835
 Rabinna's Inner Beauty
@@ -12289,15 +12289,15 @@ Imperial Legion: Widow Vabdas' Deed
 
 > INFO.NAME il_widowland 4424264053177911804
 General Darius of the Imperial Legion has asked me to get the deed to the Widow Vabdas' land.
-帝国军团的达瑞斯将军让我去拿寡妇瓦布达斯的地契。 {达里乌斯,帝国人}
+帝国军团的达里乌斯将军让我去拿寡妇瓦布达斯的地契。 {帝国人}
 
 > INFO.NAME il_widowland 239673125995622689
 I brought the deed to Widow Vabdas' land to Darius.
-我把寡妇瓦布达斯的地契带给了达瑞斯。 {达里乌斯}
+我把寡妇瓦布达斯的地契带给了达里乌斯。
 
 > INFO.NAME il_widowland 11708311412320325207
 Darius thanked me for slaying Lugrub gro-Ogdum, the murderer of Mansilamat Vabdas.
-达瑞斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格罗-奥格杜姆。 {达里乌斯}
+达里乌斯感谢我杀死了杀害曼斯拉玛特·瓦布达斯的凶手拉格路布·格罗-奥格杜姆。
 
 > INFO.NAME town_tel_vos 30227109372672518025
 Trade Mission to the Zainab
@@ -12313,11 +12313,11 @@ Larrius Varro Tells a Little Story
 
 > INFO.NAME town_balmora 106947767301187310
 Larrius Varro says that everything has been taken care of. I assume he is referring to the deaths of Vadusa Sathryon, Marasa Aren, Medrale Thirith, Sovor Trandrel, and Thanelen Velas of the Camonna Tong. He then gave me a ring he called the 'nice present from the Emperor.' He also gave me a book in recognition of my exceptional discretion.
-拉里乌斯·瓦罗说一切都已经处理好了。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·阿伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后，他给了我一枚戒指，他称之为‘皇帝送的漂亮的礼物’。他还送了我一本书，以表彰我非凡的谨慎。 {玛拉}
+拉里乌斯·瓦罗说一切都已经处理好了。我猜他指的是卡莫纳·堂的瓦杜莎·萨斯里昂、马拉萨·阿伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后，他给了我一枚戒指，他称之为‘皇帝送的漂亮的礼物’。他还送了我一本书，以表彰我非凡的谨慎。 {玛拉}
 
 > INFO.NAME town_balmora 8969326612968028034
 Larrius Varro says that everything has been taken care of. I assume he is referring to the deaths of Vadusa Sathryon, Marasa Aren, Medrale Thirith, Sovor Trandrel, and Thanelen Velas of the Camonna Tong. He then gave me a ring he called the 'nice present from the Emperor.'
-拉里乌斯·瓦罗说一切都已处理妥当。我猜他指的是卡莫纳堂的瓦杜莎·萨斯里昂、马拉萨·阿伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后他给了我一枚戒指，说是‘皇帝送的漂亮的礼物’。 {玛拉}
+拉里乌斯·瓦罗说一切都已处理妥当。我猜他指的是卡莫纳·堂的瓦杜莎·萨斯里昂、马拉萨·阿伦、梅德莱尔·瑟里斯、索沃·特兰德雷尔和塔内伦·维拉斯的死讯。然后他给了我一枚戒指，说是‘皇帝送的漂亮的礼物’。 {玛拉}
 
 > INFO.NAME town_sadrith 2591412934116939492
 Gateway Ghost
@@ -12453,7 +12453,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_backdoor1 10901625642699447
 Athyn Sarethi was concerned that I had not fulfilled the Nerevarine prophecies. He says that Archcanon Saryoni hopes I will come speak with him at the High Fane in Vivec City.
-艾辛·萨雷蒂担心我是否实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。 {艾辛·萨雷提}
+艾辛·萨雷提担心我是否实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。
 
 > INFO.NAME b8_backdoor2 3525313401580925556
 Hortator and Nerevarine
@@ -12621,7 +12621,7 @@ Imperial Cult: Buckmoth Alms
 
 > INFO.NAME ic10_persius 21936136382746530648
 Percius Mercius gave me a donation for the Buckmoth Fund.
-珀西乌斯·默西乌斯给了我一笔雄蛾基金捐款。
+佩基乌斯·梅基乌斯给了我一笔雄蛾基金捐款。
 
 > INFO.NAME ic10_estoril 6542246101801925478
 Imperial Cult: Buckmoth Alms
@@ -12669,7 +12669,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_promise 1346112838896030923
 I found Mossanon in Sadrith Mora and confronted him about the embezzled funds. He admitted his crime, and offered to return 2500 gold -- he had spent the rest -- and pay back the rest as soon as he could, if I'd promise to keep his whereabouts secret from Canctunian Ponius. I promised to keep his secret, but I think he suspected I would not honor my promise, and he refused to return the gold.
-我在萨德瑞斯-莫拉找到了莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应向坎克图尼安·博尼乌斯保密他的行踪，他就会归还 2500 金币 -- 其余的他已经花掉了 -- 并且他会尽快归还其余的钱。我答应为他保密，但我想他可能是怀疑我不会履行诺言，于是他拒绝归还金币。 {萨德瑞斯·莫拉}
+我在萨德里斯·莫拉找到了莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应向坎克图尼安·博尼乌斯保密他的行踪，他就会归还 2500 金币 -- 其余的他已经花掉了 -- 并且他会尽快归还其余的钱。我答应为他保密，但我想他可能是怀疑我不会履行诺言，于是他拒绝归还金币。
 
 > INFO.NAME eb_invisible 251942847122375055
 An Invisible Son
@@ -12861,7 +12861,7 @@ Korst Wind-Eye has told me that he would like me to take part in a Skaal ceremon
 
 > INFO.NAME bm_ceremony1 10707733998420530
 The Totem of Claw and Fang is located in the Tombs of Skaalara, located east and a bit south of the Skaal Village.
-尖牙利爪图腾位于斯卡尔拉之墓，在斯卡尔村的东面和南面。
+尖牙利爪图腾位于斯卡拉拉之墓，在斯卡尔村的东面和南面。
 
 > INFO.NAME bm_ceremony1 16699165892880329734
 I have retrieved the Totem of Claw and Fang.
@@ -12869,7 +12869,7 @@ I have retrieved the Totem of Claw and Fang.
 
 > INFO.NAME bm_ceremony1 3799318541887326559
 Wind-Eye was pleased that I was able to return the Totem of Claw and Fang from the Tombs of Skaalara, and rewarded me with knowledge of the Skaal nature magic. He has taught me the Skaal ritual to summon a wolf to fight by my side.
-风眼很高兴我能从斯卡尔拉之墓中取回尖牙利爪图腾，并奖励了我斯卡尔自然魔法的知识。他教了我召唤一匹狼在我身边战斗的斯卡尔仪式。 {报酬}
+风眼很高兴我能从斯卡拉拉之墓中取回尖牙利爪图腾，并奖励了我斯卡尔自然魔法的知识。他教了我召唤一匹狼在我身边战斗的斯卡尔仪式。 {报酬}
 
 > INFO.NAME bm_ceremony2 1266521091202437209
 Dream of Hircine
@@ -12877,7 +12877,7 @@ Dream of Hircine
 
 > INFO.NAME bm_ceremony2 128025353407524978
 While sleeping, I had a strange dream. In it, the Daedra Prince Hircine spoke to me, telling me to journey to the Tombs of Skaalara. There, I am to keep the Skaal warriors from retrieving the Totem of Claw and Fang. I should kill any of the Skaal I meet in the Tombs. From what I saw in the dream, it appears the Tomb is located on the Felstaad Coast, southeast of the Skaal Village.
-睡觉时，我做了一个奇怪的梦。在梦中，迪德拉君主希尔辛对我说话，让我前往斯卡尔拉之墓。在那里，我要阻止斯卡尔勇士夺回尖牙利爪图腾。我应该杀死在墓穴里遇到的任何斯卡尔人。根据我在梦中看到的情况，古墓似乎位于斯卡尔村东南方的费尔斯塔德海岸。
+睡觉时，我做了一个奇怪的梦。在梦中，迪德拉君主希尔辛对我说话，让我前往斯卡拉拉之墓。在那里，我要阻止斯卡尔勇士夺回尖牙利爪图腾。我应该杀死在墓穴里遇到的任何斯卡尔人。根据我在梦中看到的情况，古墓似乎位于斯卡尔村东南方的费尔斯塔德海岸。
 
 > INFO.NAME bm_ceremony2 118103274223110491
 I have killed all of the Skaal warriors who came to retrieve the Totem of Claw and Fang.
@@ -13061,11 +13061,11 @@ Mages Guild: Vampires of Vvardenfell, Vol II
 
 > INFO.NAME mg_vampvol2 4228194381760512531
 Skink wants a copy of "Vampires of Vvardenfell volume two." He suggested I try rare bookstores.
-斯金克想要一本《瓦登费尔的吸血鬼》 第二卷，他建议我去珍藏本书店看看。
+树荫想要一本《瓦登费尔的吸血鬼》 第二卷，他建议我去珍藏本书店看看。
 
 > INFO.NAME mg_vampvol2 6397174011545818917
 I delivered Vampires of Vvardenfell volume two to Skink in Sadrith Mora.
-我把《瓦登费尔的吸血鬼 卷二》交给了萨德瑞斯-莫拉的树荫。 {萨德瑞斯·莫拉}
+我把《瓦登费尔的吸血鬼 卷二》交给了萨德里斯·莫拉的树荫。
 
 > INFO.NAME mg_soulgem2 387568142024226858
 Mages Guild: Soul of an Ash Ghoul
@@ -13085,7 +13085,7 @@ Mages Guild: Catch a Spy
 
 > INFO.NAME mg_spycatch 11426504518305530
 Ranis Athrys believes there is a spy in the Mages Guild. I have been ordered to question Guild members in Ald'ruhn, Vivec, and Sadrith Mora. I am not to take any action against the spy, but to report back to Ranis Athrys.
-拉妮斯·阿特里斯认为法师公会里有间谍。我奉命去询问奥德'汝因、维威克和萨德瑞斯-莫拉的公会成员。我不需要对间谍采取任何行动，但要向拉妮斯·阿特里斯报告。 {萨德瑞斯·莫拉}
+拉妮斯·阿特里斯认为法师公会里有间谍。我奉命去询问奥德'汝因、维威克和萨德里斯·莫拉的公会成员。我不需要对间谍采取任何行动，但要向拉妮斯·阿特里斯报告。
 
 > INFO.NAME mg_spycatch 490126157464429902
 I told Ranis Athrys about the spy Tiram Gadar. Ranis will deal with this issue herself.
@@ -13101,7 +13101,7 @@ Fighters Guild: Sondaale
 
 > INFO.NAME fg_telasero 102281911584112318
 Hrundi asked me to escort another scholar, Sondaale of Shimmerene, through the stronghold of Telasero. She will meet me there. Telasero is between Suran and the Silt Strider port near Molag Mar.
-赫伦迪让我护送另一位学者，微光城的松达蕾通过泰拉塞洛的堡垒。她会在那里等我。泰拉塞洛位于苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。 {保镖,莫拉格·玛尔}
+赫伦迪让我护送另一位学者，微光城的松达蕾通过泰拉塞洛的堡垒。她会在那里等我。泰拉塞洛位于苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。 {莫拉格·玛尔}
 
 > INFO.NAME fg_telasero 1949467892635632310
 Hrundi thanked me for helping Sondaale of Shimmerene.
@@ -13129,11 +13129,11 @@ House Redoran: Escort to Koal Cave
 
 > INFO.NAME hr_koalcave 217541065230395200
 Tuveso Beleth asked me to escort her son, Deval Beleth, to the Koal Cave which is on the coast southwest of Gnisis.
-图维索·贝莱斯让我护送她的儿子德瓦尔·贝莱斯前往位于尼希斯西南海岸的考尔洞穴。 {保镖}
+图维索·贝莱斯让我护送她的儿子德瓦尔·贝莱斯前往位于尼希斯西南海岸的考尔洞穴。
 
 > INFO.NAME hr_koalcave 1530512626674928282
 Tuveso Beleth thanked me for escorting her son to the Koal Cave.
-图维索·贝莱斯感谢我护送她的儿子前往考尔洞穴。 {保镖}
+图维索·贝莱斯感谢我护送她的儿子前往考尔洞穴。
 
 > INFO.NAME hr_oldflame 318291888621959664
 House Redoran: Nalvilie Saren
@@ -13217,11 +13217,11 @@ Temple: Mehrunes Dagon of the House of Troubles
 
 > INFO.NAME tt_aldsotha 1845621926172309730
 Tholer Saryoni told me that the Second Corner of the House of Troubles is Mehrunes Dagon. I must find the statue of Mehrunes Dagon in Ald Sotha and read from Vivec's "Four Corners."
-索勒·萨里奥尼告诉我，《祸乱家族》的第二角是梅鲁涅斯·大衮。我必须在奥德-索萨找到梅鲁涅斯·大衮的雕像，然后读一段维威克的“四角”。 {奥德·索萨}
+索勒·萨里奥尼告诉我，《祸乱家族》的第二角是梅鲁涅斯·大衮。我必须在奥德·索萨找到梅鲁涅斯·大衮的雕像，然后读一段维威克的“四角”。
 
 > INFO.NAME tt_aldsotha 2052466013088626591
 I made the Pilgrimage to Ald Sotha and read a passage from the Four Corners of the House of Troubles.
-我前往奥德-索萨朝圣，并诵读了一段《祸乱家族》中的“四角”。 {奥德·索萨}
+我前往奥德·索萨朝圣，并诵读了一段《祸乱家族》中的“四角”。
 
 > INFO.NAME tt_staralor 2978812966831930916
 Temple: Foul Cult Beneath St. Delyn Canton
@@ -13325,7 +13325,7 @@ Imperial Legion: Courtesy
 
 > INFO.NAME il_courtesy 2546513586540130753
 The Buoyant Armiger Salyn Sarethi in Ghostgate claims that we have no courtesy. Frald the White asked me to challenge Salyn Sarethi to a contest of wit, poetry, and honor.
-幽魂之门的灵动扈从萨利恩·萨雷蒂声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷蒂挑战，比试智慧、诗歌和荣誉礼节。 {萨利恩·萨雷提}
+幽魂之门的灵动扈从萨利恩·萨雷提声称我们不懂礼数。苍白者弗拉德让我向萨利恩·萨雷提挑战，比试智慧、诗歌和荣誉礼节。
 
 > INFO.NAME il_courtesy 28011321812039127676
 Frald the White was pleased to hear that I won the duel of wit and poetry.
@@ -13333,7 +13333,7 @@ Frald the White was pleased to hear that I won the duel of wit and poetry.
 
 > INFO.NAME il_courtesy 1364308412004225817
 Frald the White was disappointed to hear that I lost the challenge against Salyn Sarethi, but he thanked me for having the courage to meet the challenge.
-苍白者弗拉德听到我输掉了对萨利恩·萨雷蒂的挑战后很失望，但他感谢我有勇气迎接挑战。 {萨利恩·萨雷提}
+苍白者弗拉德听到我输掉了对萨利恩·萨雷提的挑战后很失望，但他感谢我有勇气迎接挑战。
 
 > INFO.NAME il_smuggler 284901820664227861
 Imperial Legion: Dwemer Artifacts at Drinar Varyon's Place
@@ -13461,11 +13461,11 @@ Mages Guild: Fake Soul Gem
 
 > INFO.NAME mg_sabotage 2032217651464016623
 Ajira gave me a fake soul gem. She wants me to sabotage Galbedir's Journeyman project. I should put the fake soul gem in Galbedir's desk.
-阿吉拉给了我一颗伪造的灵魂石。她想让我破坏加尔贝迪尔的计划。我应该把伪造的灵魂石放在加尔贝迪尔的桌子上。
+阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的老手晋级计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。
 
 > INFO.NAME mg_sabotage 1126144581591424416
 Ajira thanked me for helping her sabotage Galbedir's experiment.
-阿吉拉感谢我帮她破坏加尔贝迪尔的实验。
+阿吉拉感谢我帮她破坏伽尔贝蒂尔的实验。
 
 > INFO.NAME a2_6_conoon 122185547218202335
 The Path of the Incarnate
@@ -13565,7 +13565,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_bacola 8381325792294223899
 Bacola Closcius gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. He also hinted that Banor Seran at the Council Club just took delivery of some Cyrodilic brandy, and that he's probably got it stored in a closet in the hall  just right of the bar. He says the Council Club is just a front for Camonna Tong gangsters, suggesting it wouldn't REALLY be a crime to steal the brandy from them.
-巴科拉·克娄斯修斯给了我一瓶西罗帝尔白兰地，让我参加月蛾堡垒的筹款晚宴。他还暗示说，议会大厅所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {巴科拉·克娄斯基乌斯,棍棒}
+巴科拉·克娄斯修斯给了我一瓶西罗帝尔白兰地，让我参加月蛾堡垒的筹款晚宴。他还暗示说，议会大厅所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会所只是卡莫纳·堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {巴科拉·克娄斯基乌斯,棍棒}
 
 > INFO.NAME ic12_dulnea 1584042372517830834
 Imperial Cult: Brandy for the Fundraising Dinner
@@ -13613,7 +13613,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_demand 2285318242975215882
 I found Mossanon in Sadrith Mora and confronted him about the embezzled funds. He admitted his crime, and offered to return 2500 gold -- he had spent the rest -- and pay back the rest as soon as he could, if I'd promise to keep his whereabouts secret from Canctunian Ponius. I refused to keep his secret, and he refused to return the gold.
-我在萨德瑞斯-莫拉找到莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还 2500 金币 -- 剩下的他已经花光了 -- 并且他会尽快还清剩下的钱。我拒绝为他保密，他也拒绝归还金币。 {萨德瑞斯·莫拉}
+我在萨德里斯·莫拉找到莫萨农，向他质问被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还 2500 金币 -- 剩下的他已经花光了 -- 并且他会尽快还清剩下的钱。我拒绝为他保密，他也拒绝归还金币。
 
 > INFO.NAME eb_shipment 7403135282837125463
 Liberate the Limeware
@@ -13917,7 +13917,7 @@ House Redoran: Deliver Cure Disease Potion
 
 > INFO.NAME hr_courier 11820293791638324115
 Neminda told me to deliver a Potion of Cure Disease to Theldyn Virith in Ald Velothi.
-内明达让我给奥德-维洛提的塞尔丁·维瑞斯送去治愈疾病的药水。 {奥德·维洛提}
+内明达让我给奥德·维洛提的塞尔丁·维瑞斯送去治愈疾病的药水。
 
 > INFO.NAME hr_courier 241584426160519855
 I delivered the potion and gave my report to Neminda.
@@ -13929,7 +13929,7 @@ Mages Guild: Dwemer Tube from Arkngthunch-Sturdumz
 
 > INFO.NAME mg_science 9399220262148028841
 Edwinna asked me to retrieve a Dwemer Tube from Arkngthunch-Sturdumz. Edwinna thinks Arkngthunch-Sturdumz is west of Ald Velothi on the coast. If I follow the coast from Ald Velothi I should be able to see it.
-埃德温娜让我从阿肯图奇·斯特达姆兹那里取回一个锻莫钢管。埃德温娜认为阿肯图奇-斯特达姆兹在奥德-维洛提以西的海岸边。如果我从奥德-维洛提沿着海岸线走，应该能看到它。 {奥德·维洛提}
+埃德温娜让我从阿肯图奇·斯特达姆兹那里取回一个锻莫钢管。埃德温娜认为阿肯图奇-斯特达姆兹在奥德·维洛提以西的海岸边。如果我从奥德·维洛提沿着海岸线走，应该能看到它。
 
 > INFO.NAME mg_science 2516112867243228513
 I delivered the Dwemer Tube to Edwinna.
@@ -13953,7 +13953,7 @@ Mages Guild: Manwe's Dues
 
 > INFO.NAME mg_paydues 15205307771592117917
 Manwe, a Guild member in Punabi, has not paid any Guild dues in three months. Ranis asked me to find Manwe and collect the dues from her. To get to Punabi, I should go south from Balmora and take the road east past Fort Moonmoth. I should cross the bridge northeast of the Fort and continue east until I reach the lake. The old Dunmer stronghold of Marandas is just south of the lake. Punabi is on the trail that leads northeast from the lake.
-普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾堡垒，穿过月蛾堡垒北方的桥，然后继续向东走，直到到达湖边。丹莫的古老堡垒玛兰达斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。
+普纳比的公会成员曼威已经三个月没有缴纳公会会费了。拉尼斯让我找到曼威，向她收取会费。要去普纳比，我应该从巴尔莫拉往南走，沿路向东经过月蛾堡，穿过月蛾堡北方的桥，然后继续向东走，直到到达湖边。丹莫的古老要塞玛冉杜斯就在湖的南边。普纳比就在湖边通往东北方向的小路上。 {堡垒}
 
 > INFO.NAME mg_paydues 3191612742353921129
 I gave Manwe's Guild Dues to Ranis Athrys.
@@ -14009,15 +14009,15 @@ House Redoran: The Mad Lord of Milk
 
 > INFO.NAME hr_madmilk 243156941636814418
 Athyn Sarethi told me that the Redoran Noble, Arethan Mandas, has gone insane and has been demanding tribute from travellers from the cavern Milk which is on the road to Maar Gan just north of the crossroads. I should find a way to cure him if possible, or kill him if necessary. He suggested that I speak with Arethan's father, Llerar Mandas in Ebonheart.
-艾辛·萨雷蒂说，勒多兰贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔-甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。 {艾辛·萨雷提,阿雷桑·曼达斯,玛尔·甘}
+艾辛·萨雷提说，勒多兰贵族阿雷森·曼达斯已经变得精神错乱，在通向玛尔·甘的十字路路口北边的米克洞穴中，向旅行者索取贡品。如果可能的话我应该想办法治好他，或者有必要的话杀了他。他建议我和阿雷森的父亲，黑檀心的雷拉·曼达斯谈谈。 {阿雷桑·曼达斯}
 
 > INFO.NAME hr_madmilk 3038997131625721006
 Athyn Sarethi thanked me for killing the Mad Lord, Arethan Mandas.
-艾辛·萨雷蒂感谢我杀死了疯狂领主阿雷森·曼达斯。 {艾辛·萨雷提,阿雷桑·曼达斯}
+艾辛·萨雷提感谢我杀死了疯狂领主阿雷森·曼达斯。 {阿雷桑·曼达斯}
 
 > INFO.NAME hr_madmilk 2625011566253311759
 Athyn Sarethi thanked me for restoring Arethan Mandas to his senses.
-艾辛·萨雷蒂感谢我让阿雷森·曼达斯恢复理智。 {艾辛·萨雷提,阿雷桑·曼达斯}
+艾辛·萨雷提感谢我让阿雷森·曼达斯恢复理智。 {阿雷桑·曼达斯}
 
 > INFO.NAME hh_eggmine 48252821488173201
 House Hlaalu: Inanius Egg Mine
@@ -14109,7 +14109,7 @@ Temple: Pilgrimage to Maar Gan
 
 > INFO.NAME tt_maargan 7213100192290221186
 Tuls Valen wants me to make the Pilgrimage to Maar Gan. I should go to the temple shrine in Maar Gan and read the plaque describing Vivec's taunting of Mehrunes Dagon.
-图尔斯·瓦伦要我去玛尔-甘朝圣。我应该去玛尔-甘的神殿圣祠，读一读描述维威克嘲弄梅鲁涅斯·大衮的牌匾。 {玛尔·甘}
+图尔斯·瓦伦要我去玛尔·甘朝圣。我应该去玛尔·甘的神殿圣祠，读一读描述维威克嘲弄梅鲁涅斯·大衮的牌匾。
 
 > INFO.NAME tt_maargan 28506276872095031024
 Tuls Valen praised my handling of the Dremora Anhaedra.
@@ -14153,7 +14153,7 @@ Thieves Guild: Hrundi's Lover
 
 > INFO.NAME tg_hostage 1589323260782020610
 Gentleman Jim Stacey asked me to speak with Hrundi in Sadrith Mora. I must convince him to stop persecuting the Thieves Guild. If I cannot convince him directly, I must find Hrundi's Dunmer lover and threaten to kill her if he does not back down.
-绅士吉姆·史戴西让我和萨德瑞斯-莫拉的赫仑迪谈谈。我必须说服他停止迫害盗贼公会。如果不能直接说服他，我必须找到赫仑迪的丹莫情人，威胁他如果不退让就杀了她。 {萨德瑞斯·莫拉}
+绅士吉姆·史戴西让我和萨德里斯·莫拉的赫仑迪谈谈。我必须说服他停止迫害盗贼公会。如果不能直接说服他，我必须找到赫仑迪的丹莫情人，威胁他如果不退让就杀了她。
 
 > INFO.NAME tg_hostage 23426196531983332579
 Gentleman Jim Stacey thanked me for convincing Hrundi to stop persecuting the Thieves Guild.
@@ -14341,7 +14341,7 @@ I returned to Moroni Uvelas with her husband's ring. She was saddened by the new
 
 > INFO.NAME eb_express 108625031746316614
 Dredil's Delivery
-为德雷迪尔递送
+为德雷迪尔送信
 
 > INFO.NAME eb_express 2102423186548232492
 While in Ebonheart, I spoke with Llaalam Dredil, an advisor to Duke Dren. He has asked me to deliver a letter for him to J'Zhirr at the East Empire Company here in Ebonheart.
@@ -14357,7 +14357,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_delay 12245152474327786
 I found Mossanon in Sadrith Mora and confronted him about the embezzled funds. He admitted his crime, and offered to return 2500 gold -- he had spent the rest -- and pay back the rest as soon as he could, if I'd promise to keep his whereabouts secret from Canctunian Ponius. I took no immediate action, giving myself time to consider his offer.
-我在萨德瑞斯-莫拉找到了莫萨农，当面质问他被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还 2500 金币 -- 其余的他已经花掉了 -- 并且他会尽快归还其余的钱。我没有立即采取行动，给自己留出时间考虑他的提议。 {萨德瑞斯·莫拉}
+我在萨德里斯·莫拉找到了莫萨农，当面质问他被挪用的资金的事。他承认了自己的罪行，并提出只要我答应对坎克图尼安·博尼乌斯保守他的行踪秘密，他就会归还 2500 金币 -- 其余的他已经花掉了 -- 并且他会尽快归还其余的钱。我没有立即采取行动，给自己留出时间考虑他的提议。
 
 > INFO.NAME ic17_witch 3831305671804725992
 Imperial Cult: Thelsa Dral the Witch
@@ -14541,7 +14541,7 @@ Mages Guild: A Potion from Skink-in-Tree's-Shade
 
 > INFO.NAME mg_potion 790323952752226336
 Edwinna asked me to talk to Skink-in-Tree's-Shade in Sadrith Mora and get a Detect Creatures Potion from him.
-埃德温娜让我去找萨德瑞斯-莫拉的树荫-中-蜥谈谈，从他那里得到一瓶生物探测药水。 {萨德瑞斯·莫拉}
+埃德温娜让我去找萨德里斯·莫拉的树荫-中-蜥谈谈，从他那里得到一瓶生物探测药水。
 
 > INFO.NAME mg_potion 3139587441170010072
 I delivered the Detect Creatures Potion to Neminda.
@@ -14565,7 +14565,7 @@ House Telvanni: Shishi
 
 > INFO.NAME ht_shishi 2884254161479323960
 Master Aryon asked me to assist Faves Andas whose stronghold of Shishi is being attacked by House Redoran. If I cannot find Faves Anders, Master Aryon suggested moving any bones or skulls I might find. Shishi is in the Foyada Bani-Dad northwest of Maar Gan.
-阿里昂大师让我协助法乌斯·安达斯，他的诗诗堡垒正遭到勒多兰家族的攻击。如果我找不到法夫斯·安达斯，阿里昂大师建议我把可能找到的骨骸或头骨转移走。诗诗在玛尔-甘西北的熔渠巴尼-达德。 {玛尔·甘}
+阿里昂大师让我协助法乌斯·安达斯，他的诗诗堡垒正遭到勒多兰家族的攻击。如果我找不到法夫斯·安达斯，阿里昂大师建议我把可能找到的骨骸或头骨转移走。诗诗在玛尔·甘西北的熔渠巴尼-达德。
 
 > INFO.NAME ht_shishi 22233155221790616509
 Master Aryon thanked me for ending the siege of Shishi.
@@ -14589,19 +14589,19 @@ Dagoth Endus gave me a bottle of ancient Dagoth brandy.
 
 > INFO.NAME mv_bugrol 21612230731379429050
 Favors for Orcs
-兽人的恩惠
+帮兽人的忙
 
 > INFO.NAME mv_bugrol 13841291042241322349
 I met an orc in the woods north of Caldera named Bugrol. Seems he's on the run from the town guards, or townbosses, as he calls them.
-我在卡尔德拉北部的森林里遇到了一个叫巴戈罗的兽人。他似乎在躲避城镇卫兵，也就是他口中的城镇老大。 {瓜尔}
+我在卡尔德拉北部的森林里遇到了一个叫布格罗尔的兽人。他似乎在躲避城镇卫兵，也就是他口中的城镇老大。 {瓜尔}
 
 > INFO.NAME mv_bugrol 768822733593229045
 Bugrol wanted me to deliver a note he gave me to his friend Bashuk gra-Bat in Caldera. I couldn't imagine a bigger waste of time.
-巴戈罗要我把他给我的一张纸条交给他在卡尔德拉的朋友巴舒克·格拉-巴特。我想不出还有比这更浪费时间的事了。
+布格罗尔要我把他给我的一张纸条交给他在卡尔德拉的朋友巴舒克·格拉-巴特。我想不出还有比这更浪费时间的事了。
 
 > INFO.NAME mv_bugrol 9155322791675011351
 There don't seem to be any more notes to pass between Bugrol and Bashuk, thank the gods. I feel I'm actually a bit stupider for ever having talked to either one of them. But, the fool did give me a diamond as his "present." Apparently he thought it was just a shiny rock. Probably found it while he was "hiding."
-感谢诸神，巴戈罗和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为“礼物”。显然，他以为那只是一块闪闪发光的石头。可能是他在“躲藏”的时候发现的。
+感谢诸神，布格罗尔和巴舒克之间似乎再也没有纸条要传递了。我觉得我有点傻了，因为我从来没有和他们中的任何一个谈论过。不过，那个傻瓜还是送了我一颗钻石作为“礼物”。显然，他以为那只是一块闪闪发光的石头。可能是他在“躲藏”的时候发现的。
 
 > INFO.NAME il_damsel 3229511837222556342
 Imperial Legion: Rescue Dandsa
@@ -14657,7 +14657,7 @@ Imperial Cult: Gathering Netch Leather
 
 > INFO.NAME ic7_netch 14793102952203313187
 Synnolian Tunifus needs one unit of netch leather for cure paralyzation potions. He suggested hunting in the Ascadian Isles near Balur Salvu's house. He advised me to start with bull netch, because the betty netch are more dangerous.
-索诺里安·图尼夫斯需要一个单位的气母皮来制作治疗麻痹药水。他建议在巴卢·萨尔福家附近的阿斯卡迪亚群岛狩猎。他建议我从雄性气母开始，因为雌性气母更危险。 {这些药水,阿斯卡迪安群岛}
+索诺里安·图尼夫斯需要一个单位的气母皮来制作治疗麻痹药水。他建议在巴卢·萨尔福家附近的阿斯卡迪亚群岛狩猎。他建议我从牡气母开始，因为牝气母更危险。 {这些药水,阿斯卡迪安群岛}
 
 > INFO.NAME ic7_netch 2925110583240533254
 I told Synnolian Tunifus I would not be able to bring him the one unit of netch leather he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -14673,7 +14673,7 @@ Hannat Zainsubani
 
 > INFO.NAME ms_hannat 788030584196507850
 Hannat Zainsubani died while I tried to escort him from Mamaea Caverns.
-汉纳特·扎因苏巴尼在我试图护送他离开玛梅亚洞穴时死去。 {保镖}
+汉纳特·扎因苏巴尼在我试图护送他离开玛梅亚洞穴时死去。
 
 > INFO.NAME ms_hannat 291291764920663
 Hassour Zainsubani was grateful for the news of his son's rescue. He rewarded me with raw ebony, and he also gave his own enchanted blade and a ring from his own finger to thank me.
@@ -14685,7 +14685,7 @@ Hannat Zainsubani thanked me, and reminded me to speak to his father, Hassour Za
 
 > INFO.NAME ms_hannat 7277251582109415518
 I have successfully escorted Hannat Zainsubani from Mamaea Caverns.
-我已成功护送汉纳特·扎因苏巴尼离开玛梅亚岩洞。 {保镖}
+我已成功护送汉纳特·扎因苏巴尼离开玛梅亚岩洞。
 
 > INFO.NAME ic10_hoki 251208298175629499
 Imperial Cult: Buckmoth Alms
@@ -14725,7 +14725,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_tell 23108292796127046
 I told Canctunian Ponius that I found Mossanon in Sadrith Mora with a Telvanni woman.
-我告诉坎克图尼安·博尼乌斯，我在萨德瑞斯-莫拉发现莫萨农和一个泰瓦尼女人在一起。 {萨德瑞斯·莫拉}
+我告诉坎克图尼安·博尼乌斯，我在萨德里斯·莫拉发现莫萨农和一个泰瓦尼女人在一起。
 
 > INFO.NAME bm_rumors 103081531722825179
 An Island to the North
@@ -15125,7 +15125,7 @@ I returned to the Shrine of Azura. She was not pleased that I had disturbed the 
 
 > INFO.NAME ms_umbra 10902106032522513677
 Umbra
-噬影
+本影
 
 > INFO.NAME ms_umbra 205324493163868504
 While in Suran, I spoke to Ashumanu Eraishah. She told me of a madman on a hill nearby. She thinks the man is dangerous, although he hasn't harmed anyone around.
@@ -15137,7 +15137,7 @@ I cannot bring myself to fight this man. He seems mad to me, and his slaughter w
 
 > INFO.NAME ms_umbra 2119228073593521908
 I have killed the orc called Umbra. He was a valiant warrior, and he has died in the manner of his choosing.
-我已经杀了那个叫噬影的兽人。他是个英勇的战士，他死得其所。
+我已经杀了那个叫本影的兽人。他是个英勇的战士，他死得其所。
 
 > INFO.NAME fg_sanit 24153154391771620297
 Fighters Guild: Dagoth Velos
@@ -15157,7 +15157,7 @@ Imperial Cult: Gathering Muck
 
 > INFO.NAME ic2_muck 79719018100675200
 Bring Synnolian Tunifus five units of muck for cure common disease potions. A farmer in Gnisis, Abishpulu Shand, has a muckspunge patch right near his hut, and Chaplain Ogrul at Fort Darius has cut a deal with Shand to gather muck there for free. While I'm in the West Gash, look in on Chaplain Ogrul, give him four Restore Health potions, and ask him if he'll teach me a few tricks.
-索诺里安·图尼夫斯要我给他带五份淤泥，用于治疗常见疾病药水。尼希斯的一位农夫阿比什普鲁·尚德就在他的小屋附近有一片淤泥海绵地，达瑞斯堡垒的牧师奥格鲁尔与尚德达成协议，可以免费在那里采集淤泥。当我在西境之痕时，去找牧师奥格鲁尔，给他四瓶生命恢复药水，并问他是否愿意教我几招。 {这些药水,达里乌斯堡,达里乌斯}
+索诺里安·图尼夫斯要我给他带五份淤泥，用于治疗常见疾病药水。尼希斯的一位农夫阿比什普鲁·尚德就在他的小屋附近有一片淤泥海绵地，达里乌斯堡垒的牧师奥格鲁尔与尚德达成协议，可以免费在那里采集淤泥。当我在西境之痕时，去找牧师奥格鲁尔，给他四瓶生命恢复药水，并问他是否愿意教我几招。 {这些药水}
 
 > INFO.NAME ic2_muck 1960297291109528990
 I told Synnolian Tunifus I would not be able to bring him the five units of muck he asked for. He was disappointed, and told me to take a day to reflect on my shortcomings, and attempt to amend them before I approach him again for a lay healer mission.
@@ -15461,15 +15461,15 @@ Fighters Guild: The Necromancer of Vas
 
 > INFO.NAME fg_vas 1012927995305854369
 Percius Mercius asked me to aid the Buoyant Armiger Ulyne Henim in her expedition to Vas which is on a remote island west of Dagon Fel.
-珀西乌斯·默西乌斯让我协助灵动扈从尤列妮·赫尼姆远征瓦斯，瓦斯位于大衮-费尔以西的一个偏远小岛上。 {大衮·费尔}
+佩基乌斯·梅基乌斯让我协助灵动扈从尤列妮·赫尼姆远征瓦斯，瓦斯位于大衮-费尔以西的一个偏远小岛上。 {大衮·费尔}
 
 > INFO.NAME fg_vas 77534115563216738
 Percius Mercius thanked me for helping Ulyne Henim rid Vas of the Necromancers.
-珀西乌斯·默西乌斯感谢我帮助尤列妮·赫尼姆除掉了瓦斯的死灵法师。
+佩基乌斯·梅基乌斯感谢我帮助尤列妮·赫尼姆除掉了瓦斯的死灵法师。
 
 > INFO.NAME fg_vas 3778111281357612672
 Percius Mercius was not happy to hear of Ulyne Henim's death. I fear he thinks less of me now.
-珀西乌斯·默西乌斯听到尤列妮·赫尼姆的死讯后很不高兴。我担心他现在对我的评价会降低。
+佩基乌斯·梅基乌斯听到尤列妮·赫尼姆的死讯后很不高兴。我担心他现在对我的评价会降低。
 
 > INFO.NAME bm_sun 18923893929984681
 The Ritual of the Sun
@@ -15665,7 +15665,7 @@ The messenger has met with an "unfortunate accident". I should report to Carnius
 
 > INFO.NAME co_9a 3191012907199822008
 I've agreed to escort the messenger to Fort Frostmoth; instead, I need to get him close to Hroldar so that Hroldar's wolves can take him down.
-我已经答应护送信使去霜蛾堡；相反，我需要让他接近赫罗达，好让赫罗达的狼群把他拿下。 {保镖}
+我已经答应护送信使去霜蛾堡；相反，我需要让他接近赫罗达，好让赫罗达的狼群把他拿下。
 
 > INFO.NAME co_9a 2150990672396832044
 We've arrived at the location; I need to go find the messenger and make sure he gets to this point.
@@ -15849,11 +15849,11 @@ Gidar, Gamin, and Sabinus have arrived safely at the site. I should speak with F
 
 > INFO.NAME co_1 3273619466256768250
 I have agreed to escort Gidar, Gamin, and Sabinus to the Raven Rock site.
-我已同意护送吉达尔、加明和萨比努斯前往鸦石遗址。 {保镖}
+我已同意护送吉达尔、加明和萨比努斯前往鸦石遗址。
 
 > INFO.NAME co_1 11266280081342818445
 Carnius has instructed me to escort several men to the mining site. I should find Gidar Verothan by the dock south of the fort.
-卡尼乌斯指示我护送几个人前往矿场。我应该能在堡垒南面的码头旁找到吉达尔·维罗坦。 {保镖}
+卡尼乌斯指示我护送几个人前往矿场。我应该能在堡垒南面的码头旁找到吉达尔·维罗坦。
 
 > INFO.NAME co_2 17106107891729331026
 East Empire Company: A Blocked Door
@@ -16549,7 +16549,7 @@ You have not yet found it? Please, the Ristaag must be performed as soon as we c
 
 > INFO.NAME totem of claw and fang 3617189622590827468
 It is a powerful artifact, very sacred to the Skaal people. It is used to call to us powerful beasts that are used in the Ristaag. It was stolen many years ago, and we of the Skaal were foolish enough to believe it would not again be needed. I have learned that it may be found in the Tombs of Skaalara, to the east and a bit south of here. Please, return the Totem.
-这是一件强大的神器，对斯卡尔人来说非常神圣。它用来召唤净祝狩仪中使用的强大野兽。很多年前它被盗了，我们斯卡尔人愚蠢地认为它不会再被需要。我听说它可能在斯卡尔拉之墓里找到，就在这里的东边和南边一点。请把图腾还给我。
+这是一件强大的神器，对斯卡尔人来说非常神圣。它用来召唤净祝狩仪中使用的强大野兽。很多年前它被盗了，我们斯卡尔人愚蠢地认为它不会再被需要。我听说它可能在斯卡拉拉之墓里找到，就在这里的东边和南边一点。请把图腾还给我。
 
 > INFO.NAME the power of the skaal 2681832241930516940
 You have completed the Ritual of the Gifts!
@@ -16817,11 +16817,11 @@ You found the boots? You must tell me all about it....
 
 > INFO.NAME boots of the apostle 30678111231429010357
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫堡垒。我也毫不惊讶地发现，“曙暮翼魔”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是魔神阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {迪德拉式}
+神谕者预言中的地名参考很明显。西境之痕地区的尼希斯村以南有一个叫贝兰达斯的古代丹莫要塞。我也毫不惊讶地发现，“曙暮之翼”的说法是指你所寻找的宝藏的守护者。曙暮翼魔是迪德拉大君阿祖拉的迪德拉仆人，是审判席神殿崇拜的预知者之一。 {堡垒,迪德拉式}
 
 > INFO.NAME boots of the apostle 14011281241423210826
 The place-name reference in the Oracle's prophecy is obvious. An ancient Dunmer stronghold called Berandas lies south of the village of Gnisis in the West Gash region. I would also not be surprised to find that the reference to "wings of twilight" designates the guardians of the treasure you seek. Winged twilights are Daedric servants of the Daedra Lord Azura, one of the Anticipations worshiped in the Tribunal Temple.
-先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫堡垒，名叫贝兰达斯。如果“曙暮翼魔”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。 {迪德拉式}
+先知预言中提到的地名显而易见。西境之痕的尼希斯村南边有一个古老的丹莫要塞，名叫贝兰达斯。如果“曙暮之翼”指的是您寻找的宝藏的守护者，我也不会感到惊讶。曙暮翼魔是迪德拉君主阿祖拉的神仆，阿祖拉是审判席神殿中供奉的预知者之一。{。 {堡垒,迪德拉式}
 
 > INFO.NAME keep me from my task 3174726569204032588
 Nothing must keep me from it.
@@ -18402,7 +18402,7 @@ Wait here.
 
 > INFO.NAME travel together 6045309411483418683
 Will you escort me back to the Imperial Cult Shrine at Fort Frostmoth?
-你能护送我回霜蛾堡的帝国教团圣祠吗？ {保镖,帝国人}
+你能护送我回霜蛾堡的帝国教团圣祠吗？ {帝国人}
 
 > INFO.BNAM travel together 6045309411483418683 c1
 Follow me.
@@ -20702,7 +20702,7 @@ Yeah? What's it to you?
 
 > INFO.NAME camonna tong 7188160771830629224
 Yes, I heard that you were the Hortator of House Hlaalu. You could not hold that rank if Orvas Dren did not wish it. Since you already have some agreement with Orvas Dren, I will name you the new Grandmaster of House Hlaalu.
-是的，我听说你是哈拉鲁家族的统谏使。如果奥瓦斯·德伦不愿意，你是不可能担任这个职位的。既然你已经和奥瓦斯·德伦达成了一些协议，我就任命你为哈拉鲁家族的新任家主。 {宗师}
+是的，我听说你是哈拉鲁家族推举的统谏使。如果奥瓦斯·德伦不愿意，你是不可能担任这个职位的。既然你已经和奥瓦斯·德伦达成了一些协议，我就任命你为哈拉鲁家族的新任家主。 {宗师}
 
 > INFO.NAME imperial law 20118248861986418183
 They have laws? It is difficult to tell. The Skaal, however, have strict laws. Do not steal from another, for you will be provided with what you need. Do not attack your brother, though you may defend yourself if needed. For a Skaal, there are strict punishments for these laws. For one that is not Skaal-born, the punishment is always death.
@@ -21902,7 +21902,7 @@ Use whatever magicka you used to get in here and get out!  The mead hall is clos
 
 > INFO.NAME greeting 1 14681182612655820574
 My thanks for escorting me back to the Imperial Cult Shrine! If you haven't already, make sure you talk to Jeleen. He'll want to reward you for your duty.
-谢谢你护送我回帝国教团圣祠。如果你还没有，一定要和杰利恩谈谈，他会奖励你的职责的。 {保镖,帝国人,报酬}
+谢谢你护送我回帝国教团圣祠。如果你还没有，一定要和杰利恩谈谈，他会奖励你的职责的。 {帝国人,报酬}
 
 > INFO.NAME greeting 1 12929163652040127428
 Do you want me to wait here, or should we travel together back to the Imperial Cult Shrine at Fort Frostmoth?
@@ -22134,7 +22134,7 @@ Maybe where you're from it's all right to enter someone's chambers and play with
 
 > INFO.NAME greeting 1 809230293913530589
 Stranger, please help me!  I was headed to the Imperial Cult Shrine at Fort Frostmoth when I lost my way. I entered this dungeon seeking shelter from the snow, but must return home. Can we travel together, with you acting as my escort?
-陌生人，请帮帮我。我在前往帝国教团圣祠霜蛾堡的路上迷了路，我进入地牢是为了躲避风雪。但我必须回家了。我们能一起去吗？由你护送我？ {帝国人,保镖}
+陌生人，请帮帮我。我在前往帝国教团圣祠霜蛾堡的路上迷了路，我进入地牢是为了躲避风雪。但我必须回家了。我们能一起去吗？由你护送我？ {帝国人}
 
 > INFO.NAME greeting 1 378313757304572196
 Please, stranger, you must help me return home! May we travel together back to the Imperial Cult Shrine at Fort Frostmoth?
@@ -22294,7 +22294,7 @@ Oh, %PCName.  Won...wonderful to see...I mean...that is to say...isn't the weath
 
 > INFO.NAME greeting 1 312572244277831482
 Stranger, I implore you. Can we travel together, with you acting as my escort? I must get back to the Cult shrine at Fort Frostmoth!
-陌生人，我恳求你。我们能一起去吗？你做我的护卫？我必须回到霜蛾堡的圣祠！ {保镖}
+陌生人，我恳求你。我们能一起去吗？你做我的护卫？我必须回到霜蛾堡的圣祠！ {护送}
 
 > INFO.NAME greeting 1 7922285691167828021
 Please...please just let me go.  I... You...you're not Erich....  Please, stranger, help me!  I'm being held prisoner!  Release me! Get me out of here!
@@ -23790,7 +23790,7 @@ Can we maybe just concentrate on getting there safely? I don't like it out here.
 
 > INFO.NAME greeting 1 292411499475591286
 If you're going to act as our escort, I suggest you speak with Gidar. He knows the way.
-如果你要护送我们，我建议你和吉达谈谈。他认识路。 {保镖}
+如果你要护送我们，我建议你和吉达谈谈。他认识路。
 
 > INFO.NAME greeting 1 2508455616786503
 Pardon me, but I'm waiting for someone. If it's important, ask Gidar.
@@ -23814,11 +23814,11 @@ Don't look at me; I'm just following Gidar.
 
 > INFO.NAME greeting 1 2677139691397524110
 Oh, you're the escort? Better talk to Gidar, then. We're supposed to follow him.
-你是护卫？那最好跟吉达谈谈。我们应该跟着他。 {保镖}
+你是护卫？那最好跟吉达谈谈。我们应该跟着他。 {护送}
 
 > INFO.NAME greeting 1 2227120150129120658
 I can't talk now. I'm waiting for our escort to show up. 'Sides, Gidar is in charge.
-我现在不能说话。我在等护卫出现。吉达是负责人。 {谈,保镖}
+我现在不能说话。我在等护卫出现。吉达是负责人。 {谈,护送}
 
 > INFO.NAME greeting 1 7171298272729422329
 Hello, %PCName. What is it?
@@ -23826,11 +23826,11 @@ Hello, %PCName. What is it?
 
 > INFO.NAME greeting 1 7049264301875713799
 Thanks again for the escort. If you'll excuse me, I have a lot of work to do.
-再次感谢你的护送。恕我失陪，我还有很多事要做。 {保镖,工作}
+再次感谢你的护送。恕我失陪，我还有很多事要做。 {工作}
 
 > INFO.NAME greeting 1 27533150712461921887
 Well, we've made it here in one piece. Thanks for the escort, %PCName. Perhaps we'll run into each other again.
-我们完好无损地到达了这里，谢谢你的护送，%PCName。也许我们还能再见面。 {一块碎片,保镖}
+我们完好无损地到达了这里，谢谢你的护送，%PCName。也许我们还能再见面。 {一块碎片}
 
 > INFO.NAME greeting 1 32149213684488912
 Is there a problem? I thought you were ready to go.
@@ -23842,11 +23842,11 @@ What's the hold up? We're ready to go, so let's keep moving.
 
 > INFO.NAME greeting 1 10305268598373813
 So you're the escort? Well, fine. Let me know when you're ready to go.
-你是护卫？好吧，准备出发了告诉我一声。 {保镖}
+你是护卫？好吧，准备出发了告诉我一声。 {护送}
 
 > INFO.NAME greeting 1 14410146582869918431
 Sorry, %PCRace. Can't talk right now; we're waiting for our escort to Raven Rock. Go see Carnius Magius in the shrine if you need something.
-抱歉，%PCRace。现在不能说话，我们在等护送我们去鸦石的人。有事就去圣祠找卡尼乌斯·马基乌斯吧。 {谈,保镖,需要}
+抱歉，%PCRace。现在不能说话，我们在等护送我们去鸦石的人。有事就去圣祠找卡尼乌斯·马基乌斯吧。 {谈,需要}
 
 > INFO.NAME greeting 1 224541147282137952
 CHAPPY -- BLOODMOON GREETINGS ABOVE
@@ -24138,7 +24138,7 @@ Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's no
 
 > INFO.NAME greeting 1 290445316827329292
 Darius says you can be here, so it's okay with me.
-达瑞斯说你可以在这里，我没意见。 {达里乌斯}
+达里乌斯说你可以在这里，我没意见。
 
 > INFO.NAME greeting 1 1217817362189026777
 You fight pretty well for a Redoran. I take back what I said about Bolvyn Venim.
@@ -24286,7 +24286,7 @@ I have nothing. Go away. Leave me in peace... but... wait. What is that you have
 
 > INFO.NAME greeting 1 298158591472427873
 I see you've risen to %PCRank, %PCName. Word on the street is that you've become Mercius' lapdog, and he's sent you to kill me. I'm afraid I can't let that happen. You were always a disappointment.
-我看你已经升到%PCRank，%PCName。听说你成了默西乌斯的走狗，他派你来杀了我。恐怕我不能让这种事发生，你总是让人失望。
+我看你已经升到%PCRank，%PCName。听说你成了梅基乌斯的走狗，他派你来杀了我。恐怕我不能让这种事发生，你总是让人失望。
 
 > INFO.NAME greeting 1 20905124411528620205
 I see you've risen to %PCRank, %PCName. I also heard you've been sent to kill me. I'm the only one who'll be taking over as Guildmaster. I won't let you take my rank in the Guild!
@@ -24322,7 +24322,7 @@ What are you doing here? You must be a thief!
 
 > INFO.NAME greeting 1 1978721969183764879
 Thank you for getting me to the Ald Velothi Outpost.
-谢谢你带我到奥德-维洛提前哨。 {奥德·维洛提}
+谢谢你带我到奥德·维洛提前哨。
 
 > INFO.NAME greeting 1 1413190883195815218
 Who are you? Where are your papers?
@@ -24394,11 +24394,11 @@ Thank you for your help, %PCName. Here is the payment I promised you. May all of
 
 > INFO.NAME greeting 1 390021445518619439
 Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. It seems the Redguard is dead already. That is acceptable. I have no further business with you.
-我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳堂的眼中钉，太久太久了。看来那个红卫人已经死了，干得不错，我没别的事了。
+我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳·堂的眼中钉，太久太久了。看来那个红卫人已经死了，干得不错，我没别的事了。
 
 > INFO.NAME greeting 1 174264622797529038
 Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. Be on your way, outlander, or with this Redguard, you will die. That is the choice I give you.
-我们的旅程到此结束，%PCRace。谢谢你带我来这里，它已经成为卡莫纳堂的眼中钉，太久太久了。上路吧，外地人，否则和这个红卫人待一块儿，那你就要死了。我给你选择的机会。 {我给你的选择}
+我们的旅程到此结束，%PCRace。谢谢你带我来这里，它已经成为卡莫纳·堂的眼中钉，太久太久了。上路吧，外地人，否则和这个红卫人待一块儿，那你就要死了。我给你选择的机会。 {我给你的选择}
 
 > INFO.NAME greeting 1 29683304392817919193
 [Rollie thinks twice and says nothing.]
@@ -24878,7 +24878,7 @@ Make yourself at home. I have some things to do.
 
 > INFO.NAME greeting 1 217327444224457526
 Thanks for getting me back to Maar Gan, %PCName.
-谢谢你送我回玛尔-甘，%PCName。 {玛尔·甘}
+谢谢你送我回玛尔·甘，%PCName。
 
 > INFO.NAME greeting 1 2483913161722097
 Do you want me to wait here?
@@ -24886,7 +24886,7 @@ Do you want me to wait here?
 
 > INFO.NAME greeting 1 921824214617320973
 Shall we travel together back to Maar Gan?
-我们一起去玛尔-甘吧？ {沙尔,玛尔·甘}
+我们一起去玛尔·甘吧？ {沙尔}
 
 > INFO.NAME greeting 1 2159581483253221356
 We're on the way to Pelagiad, %PCName. Tell me if you no longer want to travel together.
@@ -26610,7 +26610,7 @@ So, the workers arrived safely? That's something, at least. But you haven't talk
 
 > INFO.NAME assignment 96742902320123504
 You're supposed to be escorting the workers. What are you doing back here? Hurry up and get to it!
-你应该护送工人的！你回来干什么？快点去吧！ {保镖,工作}
+你应该护送工人的！你回来干什么？快点去吧！ {工作}
 
 > INFO.NAME assignment 266908915474010474
 Go talk to Gidar Verothan. He's waiting outside the fort. Hurry up, now.
@@ -26618,7 +26618,7 @@ Go talk to Gidar Verothan. He's waiting outside the fort. Hurry up, now.
 
 > INFO.NAME assignment 2677025201256302964
 You think you're ready for work, eh? Very well. The first of our workers have arrived, and need to get to the mining site. None of them are particularly skilled with a blade, so I'd like you to escort them. They know the way; you simply have to make sure they arrive safely. Once you're there, check in with Falco Galenus. He'll give you further instructions. For now, go speak to Gidar Verothan. He's down by the dock.
-你觉得你准备好工作了？很好。我们的第一批工人已经到了，他们需要去矿场。他们都不会用武器，所以我希望你能护送他们。他们认识路，你只需确保他们安全到达。到了那里，向法尔科·盖勒纳斯报到。他会给你进一步的指示。现在，去找吉达尔·维罗坦。他就在码头旁边。 {保镖}
+你觉得你准备好工作了？很好。我们的第一批工人已经到了，他们需要去矿场。他们都不会用武器，所以我希望你能护送他们。他们认识路，你只需确保他们安全到达。到了那里，向法尔科·盖勒纳斯报到。他会给你进一步的指示。现在，去找吉达尔·维罗坦。他就在码头旁边。
 
 > INFO.NAME assist you 3178932552617118048
 Up to you. I'll be here if you need me.
@@ -26662,11 +26662,11 @@ I am not sure with whom I will work.
 
 > INFO.NAME my airship 43758722053027926
 I...built an airship, you see.  Quite a...quite a...um...beautiful craft, if I may be so...bold. Some scavenged Dwemer equip...um...parts, a few, you know...ahh...long-lasting levitation spells.  Very clever...a capital idea, I know!  Even hired a gang of...well, a crew I guess you'd call them.  They were to fly far...to the north!  Away from all this dust...to Solstheim! I paid them...paid them rather well.  They were to locate Hrothmund's Barrow, and find a certain...um...item.
-你看，我……造了一艘飞艇。相当……相当……嗯……漂亮的飞艇，如果我可以这么……大胆的话。一些从锻莫人那里搜刮来的装备……嗯……零件，一些，你知道的……啊……长效漂浮咒语。非常聪明……我知道这是个好主意！甚至还雇了一帮……嗯，我想你可以叫他们船员。他们要飞很远……到北方去！远离这些尘土……去索瑟泰姆！我给了他们……相当丰厚的报酬。他们要找到霍斯蒙德之冢，找到某样……嗯……东西。 {老鼠}
+你看，我……造了一艘飞艇。相当……相当……嗯……漂亮的飞艇，如果我可以这么……大胆的话。一些从锻莫人那里搜刮来的装备……嗯……零件，一些，你知道的……啊……长效浮空咒语。非常聪明……我知道这是个好主意！甚至还雇了一帮……嗯，我想你可以叫他们船员。他们要飞很远……到北方去！远离这些尘土……去索瑟泰姆！我给了他们……相当丰厚的报酬。他们要找到霍斯蒙德之冢，找到某样……嗯……东西。 {老鼠}
 
 > INFO.NAME my airship 10389276342426430826
 Oh, %PCName, the ship...well, airship...is so very beautiful.  The best...most ambitious thing...that is to say...it was my, well...pet project.  And it flew...so very well! Well...um...it flew, and I...um..I guess that was good enough...hmmm....
-哦，%PCName，这艘船……嗯，飞艇……太漂亮了。最好的……最有野心的东西……也就是说……它是我的……宠物项目。它飞得……非常好……
+哦，%PCName，这艘船……嗯，飞艇……太漂亮了。最好的……最有野心的东西……也就是说……它是我的……宝贝项目。它飞得……非常好……
 
 > INFO.NAME silly song 1972258172233232461
 It's rather embarrassing, really.  I mean, I was deeply affected by the moon sugar, and I'm not even sure I can trust my own recollections.  But, well, I heard singing.  It was a very strange tune, more like a nursery rhyme.  Something you'd sing to a child, maybe.  I only caught a little of it.  Something about a workshop in the snow, and lanterns all aglow.  And I remember something about candy.  Oh yes, and there were lots of he he he's and ha ha ho's.  It's all so absurd, I know.
@@ -27074,11 +27074,11 @@ You want to go to Solstheim? Look around the docks for S'virr. His boat can get 
 
 > INFO.NAME solstheim 2278720479126556737
 A terrible place, I've heard. There's a boat from Khuul, if you have any reason to go.
-我听说那是个可怕的地方 如果你想去的话 库尔那边也有船。
+我听说那是个可怕的地方。如果你想去的话，库尔那边也有船。
 
 > INFO.NAME solstheim 2798917491184915920
 I've heard of the place. I believe there's an Imperial fort up there. Fort Frostmoth, or something. If you want to go there, check around in Khuul. There may be a ship that'll take you.
-我听说过那个地方 我相信那里有个帝国人的堡垒 霜蛾堡什么的 如果你想去那里，就去库尔找找看 也许有船能带你过去。
+我听说过那个地方。我相信那里有个帝国人的堡垒，霜蛾堡什么的。如果你想去那里，就去库尔找找看。也许有船能带你过去 。
 
 > INFO.NAME solstheim 1169922125955110917
 That's the frozen island up to the north, right? Sounds awful to me. If you're looking to get there, you might check for transportation in Khuul.
@@ -28738,7 +28738,7 @@ Really? Oh, that's great. Okay, let's get going. This has to get to Carnius as s
 
 > INFO.NAME report 315428485948317831
 Yeah, how did you know? I'm supposed to take this to the Fort, but..... but I don't really want to go. There's wolves and bears and things out there, you know? I'd feel much safer if I had an escort. Do you think maybe you'd go with me? I do need to get there soon.
-你怎么知道？我本该把这个带到堡垒去的。但……但我真的不想去。外面有狼啊熊啊什么的，你知道吗？如果有人护送，我会觉得安全得多。你愿意和我一起去吗？我确实需要尽快赶过去。 {保镖}
+你怎么知道？我本该把这个带到堡垒去的。但……但我真的不想去。外面有狼啊熊啊什么的，你知道吗？如果有人护送，我会觉得安全得多。你愿意和我一起去吗？我确实需要尽快赶过去。
 
 > INFO.BNAM report 315428485948317831 c1
 Yes
@@ -29818,7 +29818,7 @@ There are garrisons all over Vvardenfell, but Fort Frostmoth is the only one aro
 
 > INFO.NAME forts 11705217681361130035
 We have garrisons at Fort Pelagiad in Pelagiad, Fort Hawkmoth in Ebonheart, Fort Moonmoth outside Balmora, Fort Buckmoth outside Ald'ruhn, and Fort Darius in Gnisis.
-我们在佩拉吉亚德堡垒、黑檀心的鹰蛾堡垒、巴尔莫拉郊外的月蛾堡垒、奥德'汝因郊外的雄蛾堡垒和尼希斯的达瑞斯堡垒都有驻军。 {达里乌斯堡,达里乌斯}
+我们在佩拉吉亚德堡垒、黑檀心的鹰蛾堡垒、巴尔莫拉郊外的月蛾堡垒、奥德'汝因郊外的雄蛾堡垒和尼希斯的达里乌斯堡垒都有驻军。
 
 > INFO.NAME booze 19082137452685917367
 I'm not a drinker myself.
