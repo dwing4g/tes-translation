@@ -213,7 +213,7 @@ for line in io.lines(arg[1]) do
 				f:seek("set", b)
 				writeInt4(p - b + 4)
 				f:seek("set", p)
-			elseif not line:find "^[<>]$" then -- ignore compression mark
+			elseif not line:find "^[<>]$" and not line:find "^%s*#" then -- ignore compression and comment mark
 				error("ERROR: invalid header at line " .. i)
 			end
 		end

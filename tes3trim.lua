@@ -5,7 +5,7 @@ local reserved = {
 	ACTI = true, ALCH = true, APPA = true, ARMO = true,
 	BODY = true, BOOK = true, BSGN = true,
 	CLAS = true, CLOT = true, CONT = true, CREA = true,
-	DIAL = true, DOOR = true, 
+	DIAL = true, DOOR = true,
 	ENCH = true,
 	FACT = true,
 	GLOB = true, GMST = true,
@@ -41,6 +41,8 @@ for line in io.lines(arg[1]) do
 					print(line)
 				end
 			end
+		elseif line:find "^%s*#" then
+			print(line)
 		else
 			error("ERROR: unknown tag at line " .. ln)
 		end

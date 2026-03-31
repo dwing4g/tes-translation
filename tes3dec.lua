@@ -244,10 +244,10 @@ if not f then
 	error("ERROR: can not open: " .. arg[1])
 end
 
+local ffi = require "ffi"
 local zlib, ffistr, ffichars, ffilong1
 local function ensureInit()
 	if not zlib then
-		local ffi = require "ffi"
 		ffistr = ffi.string
 		ffichars = ffi.typeof "char[?]"
 		ffilong1 = ffi.typeof "long[1]"
@@ -309,7 +309,8 @@ local stringTags = {
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
 	"HCLR", "ICNT", "INDX", "INTV", "LNAM", "MODB", "MCDT", "MGEF", "NAM0", "NAM9", "NPDT",
-	"PKID", "RGNC", "SCRI", "SPAW", "STAR", "STBA", "WNAM", "XSCL",
+	"PKID", "RGNC", "SPAW", "STAR", "STBA", "WNAM", "XSCL",
+--	"SCRI",
 }
 for _, v in ipairs(stringTags) do stringTags[v] = true end
 for _, v in ipairs(binaryTags) do binaryTags[v] = true end
@@ -349,6 +350,86 @@ SPEL: 990+33+45       -> 990   -> 990   NAME -> FNAM       法术名
 WEAP: 485+110+74               -> 485   NAME -> FNAM       武器名
 TOTAL:                            40744
 --]]
+
+ffi.cdef[[
+	typedef union { float f; char c[4]; } FLOAT_PACK;
+]]
+local fp = ffi.new "FLOAT_PACK[1]"
+local str, pos
+local function toFloat(s)
+	ffi.copy(fp, s, 4)
+	return fp[0].f
+end
+
+local T1 = {
+	["1"] = "Function",
+	["2"] = "Global",
+	["3"] = "Local",
+	["4"] = "Journal",
+	["5"] = "Item",
+	["6"] = "Dead",
+	["7"] = "NotID",
+	["8"] = "NotFaction",
+	["9"] = "NotClass",
+	["A"] = "NotRace",
+	["B"] = "NotCell",
+	["C"] = "NotLocal",
+}
+local T2 = {
+	["fX"] = "float",
+	["lX"] = "long",
+	["sX"] = "short",
+	["JX"] = "Journal",
+	["IX"] = "Item",
+	["DX"] = "Dead",
+	["XX"] = "NotID",
+	["FX"] = "NotFaction",
+	["CX"] = "NotClass",
+	["RX"] = "NotRace",
+	["LX"] = "NotCell",
+	["00"]="None", ["01"]="Reaction_Low", ["02"]="Reaction_High", ["03"]="Rank_Requirement", ["04"]="Reputation",
+	["05"]="Health_%", ["06"]="PC_Reputation", ["07"]="PC_Level", ["08"]="PC_Health_%", ["09"]="PC_Magicka_%",
+	["10"]="PC_Fatigue_%", ["11"]="PC_Strength", ["12"]="PC_Block", ["13"]="PC_Armorer", ["14"]="PC_Medium_Armor",
+	["15"]="PC_Heavy_Armor", ["16"]="PC_Blunt_Weapon", ["17"]="PC_Long_Blade", ["18"]="PC_Axe", ["19"]="PC_Spear",
+	["20"]="PC_Athletics", ["21"]="PC_Enchant", ["22"]="PC_Destruction", ["23"]="PC_Alteration", ["24"]="PC_Illusion",
+	["25"]="PC_Conjuration", ["26"]="PC_Mysticism", ["27"]="PC_Restoration", ["28"]="PC_Alchemy", ["29"]="PC_Unarmored",
+	["30"]="PC_Security", ["31"]="PC_Sneak", ["32"]="PC_Acrobatics", ["33"]="PC_Light_Armor", ["34"]="PC_Short_Blade",
+	["35"]="PC_Marksman", ["36"]="PC_Mercantile", ["37"]="PC_Speechcraft", ["38"]="PC_Hand-to-hand",
+	["39"]="PC_Gender", ["40"]="PC_Expelled_from_Faction", ["41"]="PC_Common_Disease", ["42"]="PC_Blight_Disease",
+	["43"]="PC_Clothing_Modifier", ["44"]="PC_Crime_Level", ["45"]="Same_Sex", ["46"]="Same_Race", ["47"]="Same_Faction",
+	["48"]="Faction_Rank_Diff", ["49"]="Detected", ["50"]="Alarmed", ["51"]="Choice", ["52"]="PC_Intelligence",
+	["53"]="PC_Agility", ["54"]="PC_Willpower", ["55"]="PC_Personality", ["56"]="PC_Endurance", ["57"]="PC_Luck",
+	["58"]="PC_Speed", ["59"]="PC_Cast_Penalty", ["60"]="Creature_Target", ["61"]="Friend_Hit", ["62"]="Fight",
+	["63"]="Hello", ["64"]="Alarm", ["65"]="Flee", ["66"]="Should_Attack", ["67"]="Werewolf",
+}
+local T3 = {
+	["0"] = "=",
+	["1"] = "!=",
+	["2"] = ">",
+	["3"] = ">=",
+	["4"] = "<",
+	["5"] = "<=",
+}
+local lastSCVR
+local function addComment(classTag, s)
+	if lastSCVR then
+		local v
+		if classTag == "INFO.INTV" then
+			v = readInt4(nil, s, 0)
+		elseif classTag == "INFO.FLTV" then
+			v = toFloat(s)
+		end
+		local p1 = lastSCVR:sub(2, 2)
+		local p2 = lastSCVR:sub(3, 4)
+		local p3 = lastSCVR:sub(5, 5)
+		local p4 = lastSCVR:sub(6)
+		if p4 ~= "" then p4 = p4 .. " " end
+		write(" #", lastSCVR:sub(1, 1), ": ", T1[p1] or p1, "-", T2[p2] or p2, " ", p4, T3[p3] or p3, " ", v, "\n")
+		lastSCVR = nil
+	elseif classTag == "INFO.SCVR" then
+		lastSCVR = s
+	end
+end
 
 local classSize
 local classZeroData
@@ -391,6 +472,7 @@ local function readFields(class, pos, len, src)
 				end
 				write(n > 0 and "]\n" or "[]\n")
 			end
+			addComment(classTag, s)
 		end
 	end
 end

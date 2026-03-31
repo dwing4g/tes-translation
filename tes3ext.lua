@@ -108,9 +108,12 @@ local function loadTxt(fns)
 						t = { [""] = m }
 					else
 						if not v then
-							error("ERROR: bad line at line " .. i .. " in '" .. fn .. "'")
+							if not line:find "^%s*#" then
+								error("ERROR: bad line at line " .. i .. " in '" .. fn .. "'")
+							end
+						else
+							v = v .. "\r\n" .. line:gsub('""', '"')
 						end
-						v = v .. "\r\n" .. line:gsub('""', '"')
 					end
 				end
 			end
