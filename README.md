@@ -12,6 +12,20 @@ luajit tes3dec.lua Bloodmoon.esm        1252 raw > Bloodmoon.txt
 luajit tes3dec.lua tes3cn_Morrowind.esp gbk  raw > tes3cn_Morrowind.txt
 luajit tes3dec.lua tes3cn_Tribunal.esp  gbk  raw > tes3cn_Tribunal.txt
 luajit tes3dec.lua tes3cn_Bloodmoon.esp gbk  raw > tes3cn_Bloodmoon.txt
+luajit tes3trim.lua Morrowind.txt > Morrowind.trim.txt
+luajit tes3trim.lua  Tribunal.txt >  Tribunal.trim.txt
+luajit tes3trim.lua Bloodmoon.txt > Bloodmoon.trim.txt
+move /y Morrowind.trim.txt Morrowind.txt
+move /y  Tribunal.trim.txt  Tribunal.txt
+move /y Bloodmoon.trim.txt Bloodmoon.txt
+```
+注意原版`Morrowind.txt`有一处脚本写法问题需要修正:
+```
+INFO.BNAM "Choice ""Give her the land deed' 1 ""Keep the land deed"" 2"
+```
+改成:
+```
+INFO.BNAM "Choice ""Give her the land deed"" 1 ""Keep the land deed"" 2"
 ```
 
 ### 检查并补充关键词
