@@ -10736,7 +10736,7 @@ if ( OnDeath == 1 )
 endif
 
 if ( questOver == 1 )
-	Say ""Vo\Misc\bill_lariennaend.wav"", ""拉里耶娜：“勒维苏被消灭了，但不知为何我感到不安。我必须进一步调查这些废墟，你是个值得信赖的伙伴。永别了，我的朋友。”""
+	Say ""Vo\Misc\bill_lariennaend.wav"", ""拉里恩娜：“勒维苏被消灭了，但不知为何我感到不安。我必须进一步调查这些废墟，你是个值得信赖的伙伴。永别了，我的朋友。”""
  	AIWander 0 0 0 20 20 10 10 0 0 0 40 0
 	set questOver to 0
 endif
@@ -10978,7 +10978,7 @@ endif
 if ( doit == 1 )
 	set deadTest2 to ( GetDeadCount ""Larienna Macrina"" )
 	if ( deadTest2 == 0 )
-		""Larienna Macrina""->Say ""Vo\Misc\bill_fg_nchurdamz04.wav"",  ""拉里耶娜：“终于，征服勒维苏的方法。最后一战在即！”""
+		""Larienna Macrina""->Say ""Vo\Misc\bill_fg_nchurdamz04.wav"",  ""拉里恩娜：“终于，征服勒维苏的方法。最后一战在即！”""
 		set doit to 0
 ;removed this ""stop script self"" line to help text search and fix all these. Doug.
 	endif
@@ -159218,7 +159218,7 @@ By my will I cleanse thee of the red sands.<P>
  INGR.ITEX "n\Tx_goldkanet_01.tga$00"
 -NPC_
  NPC_.NAME "Larienna Macrina$00"
- NPC_.FNAM "拉里耶娜·马克里那$00"
+ NPC_.FNAM "拉里恩娜·马克里那$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Crusader$00"
  NPC_.ANAM [00]
@@ -191813,37 +191813,37 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "1465018717165559795$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "赫仑迪让我去恩楚尔达姆兹废墟见拉里耶娜·马克里那，那里是萨德里斯-莫拉南边的一个锻莫遗迹。"
+ INFO.NAME "赫仑迪让我去恩楚尔达姆兹废墟见拉里恩娜·马克里那，那里是萨德里斯-莫拉南边的一个锻莫遗迹。"
 -INFO
  INFO.INAM "1465018717165559795$00"
  INFO.PNAM "30833222721985530803$00"
  INFO.NNAM "2734131280317383911$00"
  INFO.DATA [04 00 00 00 0B 00 00 00 FF FF FF 00]
- INFO.NAME "我拒绝了帮助拉里耶娜讨伐的请求，也许稍后我会重新考虑。"
+ INFO.NAME "我拒绝了帮助拉里恩娜讨伐的请求，也许稍后我会重新考虑。"
 -INFO
  INFO.INAM "2734131280317383911$00"
  INFO.PNAM "1465018717165559795$00"
  INFO.NNAM "31877231661322777$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "我同意帮助拉里耶娜探索恩楚尔达姆兹废墟。她在废墟深处寻找一只“巨兽”。"
+ INFO.NAME "我同意帮助拉里恩娜探索恩楚尔达姆兹废墟。她在废墟深处寻找一只“巨兽”。"
 -INFO
  INFO.INAM "31877231661322777$00"
  INFO.PNAM "2734131280317383911$00"
  INFO.NNAM "24172242801990923652$00"
  INFO.DATA [04 00 00 00 17 00 00 00 FF FF FF 00]
- INFO.NAME "我和拉里耶娜·马克里那并肩作战，那是一场不错的战斗。"
+ INFO.NAME "我和拉里恩娜·马克里那并肩作战，那是一场不错的战斗。"
 -INFO
  INFO.INAM "24172242801990923652$00"
  INFO.PNAM "31877231661322777$00"
  INFO.NNAM "6191207462704317148$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "伟大的拉里耶娜被我的亲手杀死。赫仑迪只需要知道她是在战斗中牺牲的就够了。"
+ INFO.NAME "伟大的拉里恩娜被我的亲手杀死。赫仑迪只需要知道她是在战斗中牺牲的就够了。"
 -INFO
  INFO.INAM "6191207462704317148$00"
  INFO.PNAM "24172242801990923652$00"
  INFO.NNAM "8986322072346728330$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "拉里耶娜英勇作战，但她还是战死了。我应该通知赫仑迪。"
+ INFO.NAME "拉里恩娜英勇作战，但她还是战死了。我应该通知赫仑迪。"
 -INFO
  INFO.INAM "8986322072346728330$00"
  INFO.PNAM "6191207462704317148$00"
@@ -191855,13 +191855,13 @@ D.文物 - +35%<p>"
  INFO.PNAM "8986322072346728330$00"
  INFO.NNAM "199099318806422438$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "赫仑迪奖励我协助拉里耶娜·马克里那探索恩楚尔达姆兹的废墟。 {报酬}"
+ INFO.NAME "赫仑迪奖励我协助拉里恩娜·马克里那探索恩楚尔达姆兹的废墟。 {报酬}"
 -INFO
  INFO.INAM "199099318806422438$00"
  INFO.PNAM "1993128343796731363$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "赫仑迪对拉里耶娜的死感到非常愤怒，我必须更加小心才能赢得他的信任。"
+ INFO.NAME "赫仑迪对拉里恩娜的死感到非常愤怒，我必须更加小心才能赢得他的信任。"
 -DIAL
  DIAL.NAME "FG_OrcBounty$00"
  DIAL.DATA [04]
@@ -205836,7 +205836,7 @@ Player->AddItem Gold_001 500"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
- INFO.NAME "去泰拉塞洛，在苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。与微光城的松达蕾对话，护送她通过泰拉塞洛。她缺乏像拉里耶娜·马克里那样的实战经验，所以可能需要更多的保护。"
+ INFO.NAME "去泰拉塞洛，在苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。与微光城的松达蕾对话，护送她通过泰拉塞洛。她缺乏像拉里恩娜·马克里那样的实战经验，所以可能需要更多的保护。"
  INFO.BNAM "Journal FG_Telasero 10
 ""sondaale of shimmerene""->Enable
 ShowMap Telasero"
@@ -212259,7 +212259,7 @@ PayFineThief"
  INFO.NNAM "4759314541147915239$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "big helende$00"
- INFO.NAME "我没意见，%PCRank。你拿到的时候告诉我一声。"
+ INFO.NAME "我没意见，%PCRank。等你拿到了告诉我一声。 "
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  #0: Function-Alarmed = 3
@@ -212317,7 +212317,7 @@ Player->AddItem ""p_levitation_q"" 3"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "big helende$00"
- INFO.NAME "费伦·马里昂有一根黑檀法杖，我想让我们得到它。不过他是个强大的巫师，所以想要得到它并不容易，他很可能会杀了你，这是我唯一留给你的工作了，所以如果你不想要的话，就去别的地方找一些活吧。我本不会给你这份工作，但我只有这份了，你看着办吧。"
+ INFO.NAME "费伦·马里昂有一根黑檀法杖，我想让我们得到它。不过他是个强大的巫师，所以想要得到它并不容易，他很可能会杀了你，这是我唯一留给你的工作了，所以如果你不想要的话，就去别的地方找一些活吧。我本来都不想给你这份工作，但我只有这份了，你看着办吧。"
  INFO.SCVR "04JX0TG_EbonyStaff"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal TG_EbonyStaff = 0
@@ -363457,7 +363457,7 @@ Player->AddItem ""Steel Firesword"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "我听说拉里耶娜离开瓦登费尔了，据说她在黑光附近寻找一个未被雷劈过的锻莫遗迹，我想有一些工作还没完成。"
+ INFO.NAME "我听说拉里恩娜离开瓦登费尔了，据说她在黑光附近寻找一个未被雷劈过的锻莫遗迹，我想有一些工作还没完成。"
  INFO.SCVR "34JX3FG_Nchurdamz"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal FG_Nchurdamz >= 100
@@ -363468,7 +363468,7 @@ Player->AddItem ""Steel Firesword"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "拉里耶娜死了，你应该保护她的，%PCName。显然我不能相信你，这太让人失望了。"
+ INFO.NAME "拉里恩娜死了，你应该保护她的，%PCName。显然我不能相信你，这太让人失望了。"
  INFO.SCVR "06DX3Larienna Macrina"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead Larienna Macrina >= 1
@@ -363480,7 +363480,7 @@ Player->AddItem ""Steel Firesword"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "我听说拉里耶娜对你的工作很满意。这是我欠你的500塞普汀契约金。 {合同}"
+ INFO.NAME "我听说拉里恩娜对你的工作很满意。这是我欠你的500塞普汀契约金。 {合同}"
  INFO.SCVR "34JX3FG_Nchurdamz"
  INFO.INTV [5A 00 00 00]
  #3: Journal-Journal FG_Nchurdamz >= 90
@@ -363495,7 +363495,7 @@ Player->AddItem Gold_001 500"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "去萨德里斯-莫拉南边的锻莫遗迹恩楚尔达姆兹，和拉里耶娜·马克里那谈谈。帮她清除那里的死灵法师，然后向我报告。我会在你的地图上标明位置。"
+ INFO.NAME "去萨德里斯-莫拉南边的锻莫遗迹恩楚尔达姆兹，和拉里恩娜·马克里那谈谈。帮她清除那里的死灵法师，然后向我报告。我会在你的地图上标明位置。"
  INFO.BNAM "Journal FG_Nchurdamz 10
 ShowMap Nchurdamz
 ""Larienna Macrina""->Enable
@@ -391261,7 +391261,7 @@ player->additem gold_001 200"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "我没有给保护者以下的工作。你可以向奥德'汝因、巴尔莫拉和维威克城的公会管家打听一下。"
+ INFO.NAME "我没有工作给保护者级别以下的人。你可以向奥德'汝因、巴尔莫拉和维威克城的公会管家打听一下。"
  INFO.SCVR "34JX3FG_DuniraiSupply"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal FG_DuniraiSupply >= 100
@@ -391308,7 +391308,7 @@ player->additem gold_001 200"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "通常情况下，我不会给你这样没经验的人下达指示的。但如果你想做，拉里耶娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}"
+ INFO.NAME "通常情况下，我不会给你这样没经验的人下达指示的。但如果你想做，拉里恩娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}"
  INFO.SCVR "01064"
  INFO.INTV [05 00 00 00]
  #0: Function-PC_Reputation < 5
@@ -391319,7 +391319,7 @@ player->additem gold_001 200"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "hrundi$00"
  INFO.DNAM "Fighters Guild$00"
- INFO.NAME "拉里耶娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}"
+ INFO.NAME "拉里恩娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}"
 -INFO
  INFO.INAM "12086118183258213153$00"
  INFO.PNAM "1592316598446865$00"

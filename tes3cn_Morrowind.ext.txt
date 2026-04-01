@@ -6319,7 +6319,7 @@ Berwen: 'Excellent. You are quite the warrior.'
 
 > SCPT.SCTX BILL_FG_Larienna_Macrina s1
 Larienna: 'Hrelvesuu is vanquished, yet somehow I feel uneasy. I must investigate these ruins further. You have been a worthy companion. Farewell my friend.'
-拉里耶娜：“勒维苏被消灭了，但不知为何我感到不安。我必须进一步调查这些废墟，你是个值得信赖的伙伴。永别了，我的朋友。”
+拉里恩娜：“勒维苏被消灭了，但不知为何我感到不安。我必须进一步调查这些废墟，你是个值得信赖的伙伴。永别了，我的朋友。”
 
 > SCPT.SCTX BILL_FG_Nchurdamz01 s1
 Hrelvsuu! I have come for you! Show yourself!
@@ -6335,7 +6335,7 @@ The beast is near now ... very near. Be on your guard.'
 
 > SCPT.SCTX BILL_FG_Nchurdamz04 s1
 Larienna: 'At last! A means to vanquish Hrelvesuu. The final battle awaits!'
-拉里耶娜：“终于，征服勒维苏的方法。最后一战在即！”
+拉里恩娜：“终于，征服勒维苏的方法。最后一战在即！”
 
 > SCPT.SCTX BILL_GTs_Cursed_Chest m1
 You suddenly feel quite cold...
@@ -67713,7 +67713,7 @@ Roland's Tear
 
 > NPC_.FNAM Larienna Macrina
 Larienna Macrina
-拉里耶娜·马克里那
+拉里恩娜·马克里那
 
 > CREA.FNAM dagoth velos
 Dagoth Velos
@@ -81872,27 +81872,27 @@ I told Sjoring the truth: That I am the new Master Thief of Vvardenfell. Upon he
 
 > INFO.NAME fg_nchurdamz 30833222721985530803
 Hrundi asked me to meet a Larienna Macrina at the ruins of Nchurdamz, a Dwemer ruin far south of Sadrith Mora.
-赫仑迪让我去恩楚尔达姆兹废墟见拉里耶娜·马克里那，那里是萨德里斯-莫拉南边的一个锻莫遗迹。
+赫仑迪让我去恩楚尔达姆兹废墟见拉里恩娜·马克里那，那里是萨德里斯-莫拉南边的一个锻莫遗迹。
 
 > INFO.NAME fg_nchurdamz 1465018717165559795
 I declined to help Larienna on her crusade. Perhaps I'll reconsider.
-我拒绝了帮助拉里耶娜讨伐的请求，也许稍后我会重新考虑。
+我拒绝了帮助拉里恩娜讨伐的请求，也许稍后我会重新考虑。
 
 > INFO.NAME fg_nchurdamz 2734131280317383911
 I agreed to help Larienna explore the ruins of Nchurdamz. She seeks a "great beast" deep within the ruins.
-我同意帮助拉里耶娜探索恩楚尔达姆兹废墟。她在废墟深处寻找一只“巨兽”。
+我同意帮助拉里恩娜探索恩楚尔达姆兹废墟。她在废墟深处寻找一只“巨兽”。
 
 > INFO.NAME fg_nchurdamz 31877231661322777
 I fought by Larienna Macrina's side. It was a mighty battle.
-我和拉里耶娜·马克里那并肩作战，那是一场不错的战斗。
+我和拉里恩娜·马克里那并肩作战，那是一场不错的战斗。
 
 > INFO.NAME fg_nchurdamz 24172242801990923652
 The great Larienna met her demise by my own hand. Hrundi need only know she fell in battle.
-伟大的拉里耶娜被我的亲手杀死。赫仑迪只需要知道她是在战斗中牺牲的就够了。
+伟大的拉里恩娜被我的亲手杀死。赫仑迪只需要知道她是在战斗中牺牲的就够了。
 
 > INFO.NAME fg_nchurdamz 6191207462704317148
 Larienna fought boldly, but alas, she fell in battle. I should inform Hrundi.
-拉里耶娜英勇作战，但她还是战死了。我应该通知赫仑迪。
+拉里恩娜英勇作战，但她还是战死了。我应该通知赫仑迪。
 
 > INFO.NAME fg_nchurdamz 8986322072346728330
 The Daedroth Hrelvesuu is slain. I should report back to Hrundi.
@@ -81900,11 +81900,11 @@ The Daedroth Hrelvesuu is slain. I should report back to Hrundi.
 
 > INFO.NAME fg_nchurdamz 1993128343796731363
 Hrundi rewarded me for assisting Larienna Macrina explore the ruins of Nchurdamz.
-赫仑迪奖励我协助拉里耶娜·马克里那探索恩楚尔达姆兹的废墟。 {报酬}
+赫仑迪奖励我协助拉里恩娜·马克里那探索恩楚尔达姆兹的废墟。 {报酬}
 
 > INFO.NAME fg_nchurdamz 199099318806422438
 Hrundi was furious that Larienna was dead. I will have to be more careful to earn his trust.
-赫仑迪对拉里耶娜的死感到非常愤怒，我必须更加小心才能赢得他的信任。
+赫仑迪对拉里恩娜的死感到非常愤怒，我必须更加小心才能赢得他的信任。
 
 > INFO.NAME fg_orcbounty 65271633229816656
 Eydis Fire-Eye told me she has a 250 gold bounty on the Orc Dura gra-Bol who lives in Balmora.
@@ -88584,7 +88584,7 @@ Get moving, %PCRank. I need you to escort Sondaale through Telasero.
 
 > INFO.NAME sondaale of shimmerene 130541660653534768
 Go to Telasero, which is between Suran and the Silt Strider port near Molag Mar. Speak with Sondaale of Shimmerene and escort her through Telasero. She lacks the field experience of Larienna Macrina, so she will likely need more protection.
-去泰拉塞洛，在苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。与微光城的松达蕾对话，护送她通过泰拉塞洛。她缺乏像拉里耶娜·马克里那样的实战经验，所以可能需要更多的保护。
+去泰拉塞洛，在苏兰和莫拉格-玛尔附近的阔步沙蚤港口之间。与微光城的松达蕾对话，护送她通过泰拉塞洛。她缺乏像拉里恩娜·马克里那样的实战经验，所以可能需要更多的保护。
 
 > INFO.NAME beluelle's silver bowl 2899616276292195302
 Is this about my missing silver bowl?
@@ -90864,7 +90864,7 @@ Can't say I blame you. Someone else will be able to take care of that eventually
 
 > INFO.NAME felen maryon's staff 1357302551321827376
 Fine with me, %PCRank. Let me know when you've got it.
-我没意见，%PCRank。你拿到的时候告诉我一声。
+我没意见，%PCRank。等你拿到了告诉我一声。 
 
 > INFO.NAME felen maryon's staff 4759314541147915239
 Can't say I blame you. Someone else will be able to take care of that eventually.
@@ -90900,7 +90900,7 @@ I'll let someone else handle it.
 
 > INFO.NAME felen maryon's staff 13992215541127214764
 Felen Maryon has an ebony staff that I'd like to get into our possession. He's a powerful wizard, though, so getting hold of it won't be easy. He's likely to kill you. This is the only job I've got left for you, so if you don't want it, you'll have to go elsewhere for your jobs. I wouldn't even offer it, but it's all I've got. It's up to you.
-费伦·马里昂有一根黑檀法杖，我想让我们得到它。不过他是个强大的巫师，所以想要得到它并不容易，他很可能会杀了你，这是我唯一留给你的工作了，所以如果你不想要的话，就去别的地方找一些活吧。我本不会给你这份工作，但我只有这份了，你看着办吧。
+费伦·马里昂有一根黑檀法杖，我想让我们得到它。不过他是个强大的巫师，所以想要得到它并不容易，他很可能会杀了你，这是我唯一留给你的工作了，所以如果你不想要的话，就去别的地方找一些活吧。我本来都不想给你这份工作，但我只有这份了，你看着办吧。
 
 > INFO.BNAM felen maryon's staff 13992215541127214764 c1
 I'm interested.
@@ -146004,19 +146004,19 @@ There's no more to say about this.
 
 > INFO.NAME nchurdamz 288663578786817540
 I heard Larienna has left Vvardenfell. She's allegedly looking for an unplundered Dwemer ruin near Blacklight. Some work unfinished I think.
-我听说拉里耶娜离开瓦登费尔了，据说她在黑光附近寻找一个未被雷劈过的锻莫遗迹，我想有一些工作还没完成。
+我听说拉里恩娜离开瓦登费尔了，据说她在黑光附近寻找一个未被雷劈过的锻莫遗迹，我想有一些工作还没完成。
 
 > INFO.NAME nchurdamz 13255560723683523
 Larienna is dead? You were supposed to protect her, %PCName. Obviously I can't trust you. This is very disappointing.
-拉里耶娜死了，你应该保护她的，%PCName。显然我不能相信你，这太让人失望了。
+拉里恩娜死了，你应该保护她的，%PCName。显然我不能相信你，这太让人失望了。
 
 > INFO.NAME nchurdamz 9195317552314821510
 I heard Larienna was pleased with your work. Here's the 500 septims I owe you for this contract.
-我听说拉里耶娜对你的工作很满意。这是我欠你的500塞普汀契约金。 {合同}
+我听说拉里恩娜对你的工作很满意。这是我欠你的500塞普汀契约金。 {合同}
 
 > INFO.NAME nchurdamz 30319907730021203
 Go to Nchurdamz, a Dwemer ruin far south of Sadrith Mora, and talk to Larienna Macrina. Help her clear out the necromancers there and report back to me. I'll mark the position on your map.
-去萨德里斯-莫拉南边的锻莫遗迹恩楚尔达姆兹，和拉里耶娜·马克里那谈谈。帮她清除那里的死灵法师，然后向我报告。我会在你的地图上标明位置。
+去萨德里斯-莫拉南边的锻莫遗迹恩楚尔达姆兹，和拉里恩娜·马克里那谈谈。帮她清除那里的死灵法师，然后向我报告。我会在你的地图上标明位置。
 
 > INFO.NAME code book 3201295211554421724
 You didn't have to kill Sottilde.
@@ -156612,7 +156612,7 @@ I have a contract to assist another Imperial researcher. I need someone to escor
 
 > INFO.NAME orders 306351896729163759
 I don't have any work for anyone below the rank of Protector. You might want to check with the Guild Stewards in Ald'ruhn, Balmora, and Vivec City.
-我没有给保护者以下的工作。你可以向奥德'汝因、巴尔莫拉和维威克城的公会管家打听一下。
+我没有工作给保护者级别以下的人。你可以向奥德'汝因、巴尔莫拉和维威克城的公会管家打听一下。
 
 > INFO.NAME orders 2054123091537628361
 I need someone to get a load of sujamma to the Dunirai Caverns.
@@ -156628,11 +156628,11 @@ Novor Drethan has hired us to help him take care of some problems at the Dissapl
 
 > INFO.NAME orders 2626719821055415482
 Normally I wouldn't give any orders to someone as inexperienced as you. But if you feel up to it, Larienna Macrina wants us to provide some assistance with her expedition in the Dwemer ruins of Nchurdamz.
-通常情况下，我不会给你这样没经验的人下达指示的。但如果你想做，拉里耶娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}
+通常情况下，我不会给你这样没经验的人下达指示的。但如果你想做，拉里恩娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}
 
 > INFO.NAME orders 1592316598446865
 Larienna Macrina wants us to provide some assistance with her expedition in the Dwemer ruins of Nchurdamz.
-拉里耶娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}
+拉里恩娜·马克里那希望我们能为她在恩楚尔达姆兹的锻莫遗迹的探险提供一些帮助。 {锻莫族}
 
 > INFO.NAME orders 12086118183258213153
 You've already done more than I could have hoped for.

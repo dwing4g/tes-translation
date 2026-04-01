@@ -424,7 +424,7 @@ local function addComment(classTag, s)
 		local p3 = lastSCVR:sub(5, 5)
 		local p4 = lastSCVR:sub(6)
 		if p4 ~= "" then p4 = p4 .. " " end
-		write(" #", lastSCVR:sub(1, 1), ": ", T1[p1] or p1, "-", T2[p2] or p2, " ", p4, T3[p3] or p3, " ", v, "\n")
+		write(RAW and " #" or "          #", lastSCVR:sub(1, 1), ": ", T1[p1] or p1, "-", T2[p2] or p2, " ", p4, T3[p3] or p3, " ", v, "\n")
 		lastSCVR = nil
 	elseif classTag == "INFO.SCVR" then
 		lastSCVR = s
