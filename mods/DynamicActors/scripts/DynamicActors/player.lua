@@ -622,21 +622,30 @@ return {
 		end,
 		dynUiMessage = function(e) ui.showMessage(l10n(e)) end,
 		OMWMusicCombatTargetsChanged = function(e)
-			if next(e.targets) == nil or not e.actor then 		return		end
+			if not e.actor then 		return			end
 			local inCombat
-			for _, target in ipairs(e.targets) do
-				if target == self.object then
-					inCombat = true
-					break
+			if e.targets and next(e.targets) ~= nil then
+				for _, target in ipairs(e.targets) do
+					if target == self.object then
+						inCombat = true
+						break
+					end
 				end
 			end
+			if combatActors[e.actor.id] == inCombat then
+				return
+			end
+
 			combatActors[e.actor.id] = inCombat
 			if not inCombat then		return			end
-			if dialogTarget then core.sendGlobalEvent("dynForcePause")		end
+
+			if dialogTarget then
+				core.sendGlobalEvent("dynForcePause")
+			end
 			local pos1, pos2 = e.actor.position, self.object.position
-			if (pos1 - pos2):length() > 2000 then			return		end
-			if math.abs(pos1.z - pos2.z) > 1000 then		return		end
-			procStanceChange(true)
+			if (pos1 - pos2):length() < 2000 and math.abs(pos1.z - pos2.z) < 1000 then
+				procStanceChange(true)
+			end
 		end
 	},
 
