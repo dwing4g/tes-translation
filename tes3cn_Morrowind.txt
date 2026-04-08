@@ -197264,7 +197264,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "3699284432838613332$00"
  INFO.NNAM "148783116026451344$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "缪恩-格听说马塞尔·莫拉德不会再在他的店门口卖艺了，非常高兴，还赏给我一个铁制的破碎锤。 {报酬}"
+ INFO.NAME "缪恩-格听说马塞尔·莫拉德不会再在他的店门口卖艺了，非常高兴，还赏给我一把铁制凛冽穿刺者。 {报酬}"
 -INFO
  INFO.INAM "148783116026451344$00"
  INFO.PNAM "4594009647231374$00"
@@ -197498,19 +197498,19 @@ D.文物 - +35%<p>"
  INFO.PNAM "3378110026759332$00"
  INFO.NNAM "28052311151259223692$00"
  INFO.DATA [04 00 00 00 14 00 00 00 FF FF FF 00]
- INFO.NAME "阿鲁萨隆听说提尔弗最近收到了一份大宗武器运输合同。他想让我偷走这份合同，希望提尔弗无法完成他的订单。与此同时，阿鲁萨隆将准备按时完成订单。"
+ INFO.NAME "阿鲁萨隆听说提尔乌最近收到了一份大宗武器运输合同。他想让我偷走这份合同，希望提尔乌无法完成他的订单。与此同时，阿鲁萨隆将准备按时完成订单。"
 -INFO
  INFO.INAM "28052311151259223692$00"
  INFO.PNAM "21687200712497824932$00"
  INFO.NNAM "271964268268382650$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我同意从提尔弗的店里偷走这份合同，阿鲁萨隆估计他把它锁在自己的私人住所里，但也认为那里会有很好的守卫。 {瓜尔,卫兵}"
+ INFO.NAME "我已答应从提尔乌的店里偷走这份合同，阿鲁萨隆推测合同被锁在他的私人住所里，但他认为那里的守卫并不森严。 {瓜尔,卫兵}"
 -INFO
  INFO.INAM "271964268268382650$00"
  INFO.PNAM "28052311151259223692$00"
  INFO.NNAM "462825965260022919$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "我已经告诉阿鲁萨隆，我不会从拉伦·提尔乌尔那里偷走合同。"
+ INFO.NAME "我已经告诉阿鲁萨隆，我不会从拉伦·提尔乌那里偷走合同。"
 -INFO
  INFO.INAM "462825965260022919$00"
  INFO.PNAM "271964268268382650$00"
@@ -209395,7 +209395,7 @@ Journal ""MV_ParalyzedBarbarian"" 110"
  #0: Journal-Journal DA_Sheogorath >= 30
  INFO.BNAM "Journal ""DA_Sheogorath"" 50"
 -DIAL
- DIAL.NAME "马尔苏斯·图里乌斯的藏身处$00"
+ DIAL.NAME "马尔苏斯·图里乌斯的兽皮$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "1582818284250414443$00"
@@ -212259,7 +212259,7 @@ PayFineThief"
  INFO.NNAM "4759314541147915239$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "big helende$00"
- INFO.NAME "我没意见，%PCRank。等你拿到了告诉我一声。 "
+ INFO.NAME "我没意见，%PCRank。等你拿到了告诉我一声。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  #0: Function-Alarmed = 3
@@ -220673,7 +220673,7 @@ Choice ""我可以帮你找回你的东西。"" 1 ""抱歉，我现在没空理你。"" 2"
  INFO.SCVR "04JX0MV_InnocentAshlanders"
  INFO.INTV [50 00 00 00]
  #0: Journal-Journal MV_InnocentAshlanders = 80
- INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的藏身处""
+ INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的兽皮""
 Journal ""MV_InnocentAshlanders"" 110"
 -INFO
  INFO.INAM "11082198441326114665$00"
@@ -220688,7 +220688,7 @@ Journal ""MV_InnocentAshlanders"" 110"
  INFO.SCVR "15IX3ingred_guar_hide_marsus"
  INFO.INTV [0A 00 00 00]
  #1: Item-Item ingred_guar_hide_marsus >= 10
- INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的藏身处""
+ INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的兽皮""
 Journal ""MV_InnocentAshlanders"" 105
 Player->RemoveItem ""Ingred_Guar_Hide_Marsus"" 10
 AddItem ""Ingred_Guar_Hide_Marsus"" 10"
@@ -220705,7 +220705,7 @@ AddItem ""Ingred_Guar_Hide_Marsus"" 10"
  INFO.SCVR "15IX3ingred_guar_hide_marsus"
  INFO.INTV [0A 00 00 00]
  #1: Item-Item ingred_guar_hide_marsus >= 10
- INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的藏身处""
+ INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的兽皮""
 Journal ""MV_InnocentAshlanders"" 105
 Player->RemoveItem ""Ingred_Guar_Hide_Marsus"" 10
 AddItem ""Ingred_Guar_Hide_Marsus"" 10"
@@ -220719,7 +220719,7 @@ AddItem ""Ingred_Guar_Hide_Marsus"" 10"
  INFO.SCVR "04JX0MV_InnocentAshlanders"
  INFO.INTV [55 00 00 00]
  #0: Journal-Journal MV_InnocentAshlanders = 85
- INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的藏身处""
+ INFO.BNAM "AddTopic ""马尔苏斯·图里乌斯的兽皮""
 Journal ""MV_InnocentAshlanders"" 100
 Player->RemoveItem ""Ingred_Guar_Hide_Marsus"" 10
 AddItem ""Ingred_Guar_Hide_Marsus"" 10"
@@ -220739,7 +220739,7 @@ AddItem ""Ingred_Guar_Hide_Marsus"" 10"
  INFO.NNAM "568031035161126426$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "marsus tullius$00"
- INFO.NAME "它们很容易被认出来是我的矿场，我保证马上盖上印章。"
+ INFO.NAME "它们一眼就能认出是我的东西。我当场就印上了自己的标记，确保万无一失。"
  INFO.SCVR "04JX3MV_InnocentAshlanders"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal MV_InnocentAshlanders >= 10
@@ -261461,7 +261461,7 @@ ShowMap ""Rotheran"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 02 00]
  INFO.ONAM "eno hlaalu$00"
  INFO.DNAM "Morag Tong$00"
- INFO.NAME "黑暗兄弟会正在晨风这里执行者。我要你联系黑暗兄弟会。"
+ INFO.NAME "黑暗兄弟会正在晨风行动。我想要你和他们接触。"
 -INFO
  INFO.INAM "20670202871169830290$00"
  INFO.PNAM "71992375240513774$00"
@@ -280556,7 +280556,7 @@ journal MS_nord_burial 1"
  INFO.NNAM "1851625773620019475$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ennbjof$00"
- INFO.NAME "是你干的。"
+ INFO.NAME "去做吧。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  #0: Function-Alarmed = 2
@@ -294004,7 +294004,7 @@ ModDisposition 5"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 07 FF FF 00]
  INFO.FNAM "Morag Tong$00"
- INFO.NAME "萨雷恩·萨杜斯的令状已被执行。我把它交给你，%PCName。他与其他亡命之徒藏匿在扎因蒂拉里。就在你光荣谋杀奥代沙·亚沙米巴的小屋附近。我会在你的地图上标出埃勒比尼姆孙营地。从那里向西北走，直到到达一个被枯树包围的沼泽地。扎因蒂拉里就在这个坑的北面，但被岩石遮住了。好好搜索，%PCName。"
+ INFO.NAME "萨雷恩·萨杜斯的令状已生效。我把它交给你，%PCName。他与其他亡命之徒藏匿在扎因蒂拉里。就在你光荣谋杀奥代沙·亚沙米巴的小屋附近。我会在你的地图上标出埃勒比尼姆孙营地。从那里向西北走，直到到达一个被枯树包围的沼泽地。扎因蒂拉里就在这个坑的北面，但被岩石遮住了。好好搜索，%PCName。"
  INFO.SCVR "44JX3MT_WritYasalmibaal"
  INFO.INTV [64 00 00 00]
  #4: Journal-Journal MT_WritYasalmibaal >= 100
