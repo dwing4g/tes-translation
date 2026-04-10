@@ -190079,7 +190079,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "24868114172407616465$00"
  INFO.NNAM "282529227692917568$00"
  INFO.DATA [04 00 00 00 82 00 00 00 FF FF FF 00]
- INFO.NAME "珀西乌斯·默西乌斯答应帮我驻守堡垒，只要我把弗莱纳·阿克从维威克城的哈拉鲁监狱里救出来。"
+ INFO.NAME "珀西乌斯·默西乌斯答应帮我驻守堡垒，只要我把弗莱纳·阿克从维威克城哈拉鲁行政区的监狱里救出来。"
 -INFO
  INFO.INAM "282529227692917568$00"
  INFO.PNAM "27341251642915123707$00"
@@ -192647,7 +192647,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "158879546910929961$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我收到了光荣处决令状，要求处决马蒂恩·比米斯，他可能在哈拉鲁先祖墓穴里，从哈拉鲁金库的河道区可以进入。"
+ INFO.NAME "我收到了光荣处决令状，要求处决马蒂恩·比米斯，他可能在哈拉鲁先祖墓穴里，从哈拉鲁行政区的运河区可以进入。"
 -INFO
  INFO.INAM "158879546910929961$00"
  INFO.PNAM "2097750793329282$00"
@@ -206663,7 +206663,7 @@ ModDisposition 10"
  INFO.NNAM "90852076372625148$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lorbumol gro-aglakh$00"
- INFO.NAME "去哈拉鲁广场。把纳尔·格罗-夏戈拉菲的戒指给我就行了。"
+ INFO.NAME "去哈拉鲁行政区。把纳尔·格罗-夏戈拉菲的戒指给我就行了。"
  INFO.SCVR "04JX0FG_DebtOrc"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal FG_DebtOrc = 10
@@ -206673,7 +206673,7 @@ ModDisposition 10"
  INFO.NNAM "23660216722554221941$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lorbumol gro-aglakh$00"
- INFO.NAME "纳尔·格罗-夏戈拉菲曾说过他会为我们的客户弄到一枚朱斯卓轻羽之戒。纳尔说他没有弄到戒指，但他是个骗子。去哈拉鲁广场找他，把戒指给我拿来。"
+ INFO.NAME "纳尔·格罗-夏戈拉菲曾说过他会为我们的客户弄到一枚朱斯卓轻羽之戒。纳尔说他没有弄到戒指，但他是个骗子。去哈拉鲁行政区找他，把戒指给我拿来。"
  INFO.BNAM "Journal FG_DebtOrc 10"
 -INFO
  INFO.INAM "23660216722554221941$00"
@@ -269704,7 +269704,7 @@ Player->ModReputation 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Vivec$00"
- INFO.NAME "克拉西乌斯·库里奥议员在维威克的哈拉鲁广场上，有一座华丽的宅邸。"
+ INFO.NAME "克拉西乌斯·库里奥议员在维威克的哈拉鲁行政区上，有一座华丽的宅邸。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
