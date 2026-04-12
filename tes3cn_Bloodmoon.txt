@@ -50606,7 +50606,7 @@ C<BR>"
  INFO.PNAM "244120674126719838$00"
  INFO.NNAM "3273619466256768250$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "吉达、加明和萨比努斯已经安全抵达。我应该和法尔科·盖勒纳斯谈一下。"
+ INFO.NAME "吉达尔、加明和萨比努斯已经安全抵达。我应该和法尔科·盖勒纳斯谈一下。"
 -INFO
  INFO.INAM "3273619466256768250$00"
  INFO.PNAM "1527032317287358836$00"
@@ -51867,7 +51867,7 @@ Goodbye"
  INFO.NNAM "10862701289097526$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "我告示军械库里的武器越来越少了，我知道这不是官方的原因。我唯一的猜测是有人把它们从索瑟泰姆走私到瓦登费尔出售。我希望你能揭露这个走私团伙，我会给你提供一点帮助。 {戒指}"
+ INFO.NAME "我注意到军械库里的武器越来越少了，我知道这不是官方的原因。我唯一的猜测是有人把它们从索瑟泰姆走私到瓦登费尔出售。我希望你能揭露这个走私团伙，我会给你提供一点帮助。 {戒指}"
  INFO.SCVR "04JX4BM_Smugglers"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal BM_Smugglers < 20
@@ -52846,7 +52846,7 @@ Goodbye"
  INFO.NNAM "1475491265822332$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "jeleen$00"
- INFO.NAME "她要去北方宣扬九圣灵。她现在肯定已经回来了。"
+ INFO.NAME "她要去北方宣扬九圣灵。她肯定早就该回来了。"
  INFO.SCVR "04JX3BM_Missionary"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_Missionary >= 10
@@ -62579,7 +62579,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "1659232763013035$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kjolver$00"
- INFO.NAME "死了？是真的吗？最后，布兰德是我的，也是我一个人的矿场！%PCName，杀了那个荡妇，你就把我的丈夫还给了我，他会记得他对我的爱，我们会再次幸福快乐，我会永远感激你的。给，拿着这些金币，这是我的一切。"
+ INFO.NAME "死了？是真的吗？最后，布兰德是我的，也是我一个人的！%PCName，杀了那个荡妇，你就把我的丈夫还给了我，他会记得他对我的爱，我们会再次幸福快乐，我会永远感激你的。给，拿着这些金币，这是我的一切。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  #0: Function-Alarmed = 3
@@ -73263,7 +73263,7 @@ Journal CO_13 30"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Sabinus Oranius$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "如果你要护送我们，我建议你和吉达谈谈。他认识路。"
+ INFO.NAME "如果你要护送我们，我建议你和吉达尔谈谈。他认识路。"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_1 = 10
@@ -73277,7 +73277,7 @@ Journal CO_13 30"
  INFO.NNAM "122492909186177023$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Sabinus Oranius$00"
- INFO.NAME "抱歉，我在等人。如果有重要的事，去问吉达吧。"
+ INFO.NAME "抱歉，我在等人。如果有重要的事，去问吉达尔吧。"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal CO_1 = 0
@@ -73335,7 +73335,7 @@ Journal CO_13 30"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gamin Girith$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "别在意我，我只是跟着吉达而已。"
+ INFO.NAME "别在意我，我只是跟着吉达尔而已。"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal CO_1 = 20
@@ -73347,7 +73347,7 @@ Journal CO_13 30"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gamin Girith$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "哦，你是护送者？那最好跟吉达谈谈，我们应该跟着他。"
+ INFO.NAME "哦，你是护送者？那最好跟吉达尔谈谈，我们应该跟着他。"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_1 = 10
@@ -73361,7 +73361,7 @@ Journal CO_13 30"
  INFO.NNAM "7171298272729422329$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gamin Girith$00"
- INFO.NAME "我现在不能说话，我在等护送者出现。吉达是负责人。 {谈}"
+ INFO.NAME "我现在不能说话，我在等护送者出现。吉达尔是负责人。 {谈}"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal CO_1 = 0

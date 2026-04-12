@@ -420,19 +420,19 @@ Master
 
 > GMST.STRV sVoice
 Voice
-语音音量
+语音
 
 > GMST.STRV sEffects
 Effects
-效果音量
+效果
 
 > GMST.STRV sFootsteps
 Footsteps
-脚步音量
+脚步声
 
 > GMST.STRV sMusic
 Music
-音乐音量
+音乐
 
 > GMST.STRV sTransparency_Menu
 Menu Transparency
@@ -78512,7 +78512,7 @@ I've decided not to help Aeta Wave-Breaker. Of course, I could always try and re
 
 > INFO.NAME mv_banditvictim 109154360462628468
 I've spoken to Dro'zhirr, and offered him one half of the reward money for the jewelry, which is much more than the pieces would be able to bring on the black market. He has agreed to this proposition.
-我已经和卓'兹尔谈过了，并向他提供了珠宝报酬的一半，这比珠宝在黑市上的价格要高得多。他同意了这个提议。 {命题}
+我已经和卓'兹尔谈过了，我提出把珠宝赏金的一半给他，这比珠宝在黑市上的价格要高得多。他同意了这个提议。 {报酬,命题}
 
 > INFO.NAME mv_banditvictim 23755110482197817513
 I've told Dro'zhirr I just want the jewels back, which seemed to anger him.
@@ -82440,7 +82440,7 @@ I reported the honorable execution of Larrius Varro.
 
 > INFO.NAME mt_s_sublime 12456269712089918557
 Grandmaster Eno Hlaalu asked me to return the Ring of Sublime Wisdom, one of the 27 Threads of the Webspinner. It is being held by Anel Rethelas in Yasammidan, which is west of Ald Velothi, past the Dwemer ruins.
-伊诺·哈拉鲁宗师让我归还27个织网者之丝秘宝之一的崇高智慧之环。它被阿内尔·瑞泽拉斯扣押在奥德-维洛提的西边，经过锻莫遗迹的亚萨米丹里面。 {戒指,锻莫族}
+伊诺·哈拉鲁宗师让我归还27个织网者之丝秘宝之一的卓越智慧之戒。它被阿内尔·瑞泽拉斯扣押在奥德-维洛提的西边，经过锻莫遗迹的亚萨米丹里面。 {戒指,锻莫族}
 
 > INFO.NAME mt_s_sublime 3156031323715728928
 I have returned the Ring of Sanguine Sublime Wisdom, one of the 27 Threads of the Webspinner.
@@ -84516,7 +84516,7 @@ Arch-Mage Trebonius asked me to find out what happened to the Dwarves. Unfortuna
 
 > INFO.NAME mg_dwarves 4897226911665319656
 I was able to get the Dwemer books "The Egg of Time" and "Divine Metaphysics Adapted to the Meanest of Intellects" translated. "Divine Metaphysics" seems to be a treatise explaining how to create a new god through sorcery. "The Egg of Time" seems to be a refutation of the idea that linking to a divine source of power can be dangerous if interrupted. Though "The Egg of Time" refutes this idea, perhaps the author was wrong, and this is what happened to the Dwarves.
-我翻译了锻莫族的《时之卵》和《圣之玄理》。《圣之玄理》似乎是一篇解释如何通过巫术创造新神的论文。《时之卵》似乎是对“如果中断与神力源泉的联系就会有危险”这一观点的驳斥。虽然《时之卵》驳斥了这一观点，但也许作者错了，这就是矮人的遭遇。
+我翻译了锻莫族的《时之卵》和《圣之玄理：为最平庸智力而作》。《圣之玄理》似乎是一篇解释如何通过巫术创造新神的论文。《时之卵》似乎是对“如果中断与神力源泉的联系就会有危险”这一观点的驳斥。虽然《时之卵》驳斥了这一观点，但也许作者错了，这就是矮人的遭遇。
 
 > INFO.NAME mg_dwarves 18838102512502227053
 Arch-Mage Trebonius was pleased when I showed him the three Dwemer books. He said this was sufficient and thanked me for solving the mystery of the disappearance of the Dwarves.
@@ -86576,7 +86576,7 @@ No
 
 > INFO.NAME sanguine balanced armor 760532696120096908
 I see you have the Belt of Sanguine Balanced Armor, one of the Threads of the Webspinner that Mephala dedicated to our cause long ago. Will you return this Thread to the custody of the Morag Tong?
-我看到你有桑吉恩平衡甲腰带，那是梅法拉很久以前献给我们的织网者之丝之一。你愿意将这条线交还给莫拉格堂保管吗？
+我看到你有桑吉恩平衡甲腰带，那是梅法拉很久以前献给我们的织网者之丝之一。你愿意将这条丝线交还给莫拉格堂保管吗？
 
 > INFO.BNAM sanguine balanced armor 760532696120096908 c1
 Yes, here it is
@@ -91316,7 +91316,7 @@ You have returned all the Threads of the Webspinner.
 
 > INFO.NAME sanguine enterprise 261262802229034686
 The amulet of Sanguine Enterprise is one of the threads of the Webspinner. I already have this thread. Perhaps you will find other threads. When you do, bring them to me.
-桑吉恩经商护符是织网者之丝之一。我已经有这条线了，也许你还能找到其他的线。找到了就拿给我。
+桑吉恩经商护符是织网者之丝之一。我已经有这条丝线了，也许你还能找到其他的丝线。找到了就拿给我。
 
 > INFO.NAME medium armor styles 19857281502671315111
 The chain and scale medium armors of the Western 'Imperial guard' style offer less protection than the heavy iron and steel plate armors of the Legions, but with a considerable advantage in mobility. The Dunmer bonemold medium armor is generally lighter and more durable than its Western equivalent. The most prized of medium armors, Orcish, is limited in availability and very expensive, but markedly superior, and is the medium armor of choice for nobles and mercenaries in both the West and East.
@@ -93288,7 +93288,7 @@ You must kill the Guildmaster Sjoring Hard-Heart. He'll likely be in the Fighter
 
 > INFO.NAME sjoring hard-heart 830160843218527715
 There is one more step to freeing the Fighters Guild from corruption. You must kill the Guildmaster Sjoring Hard-Heart. Take this key, %PCName. It will let you into my private rooms. In the chests you will find two suits of armor. They were mine from years ago. They may help you fight Sjoring Hard-Heart. In spite of his faults, he's one of the best warriors in Vvardenfell, so be careful. He'll likely be in the Fighters Guild in Vivec, and he'll be expecting you.
-要将战士公会从腐败中解救出来，还有一个步骤。你必须杀死公会会长舒灵·铁心。拿着这把钥匙，%PCName它能让你进入我的私人房间。在箱子里你会找到两套盔甲，它们是我多年前的矿场。它们可以帮你对付舒灵·铁心。尽管他有很多缺点，但他是瓦登费尔最好的战士之一，所以一定要小心。他很可能就在维威克的战士公会里，他在等你。 {装备盔甲}
+要将战士公会从腐败中解救出来，还有一个步骤。你必须杀死公会会长舒灵·铁心。拿着这把钥匙，%PCName它能让你进入我的私人房间。在箱子里你会找到两套盔甲，多年前是属于我的。它们可以帮你对付舒灵·铁心。尽管他有很多缺点，但他是瓦登费尔最好的战士之一，所以一定要小心。他很可能就在维威克的战士公会里，他在等你。 {装备盔甲}
 
 > INFO.NAME sjoring hard-heart 13713468844885334
 You've been expelled, %PCName. Make amends and speak with me again.
@@ -95332,7 +95332,7 @@ Yes. I have some work that would be suited to someone not officially linked to t
 
 > INFO.NAME setting the prices 21438159911183310319
 You've found a price list? Excellent! I...I can't believe this! This is from the Duke's office. He must be setting the margins for the Company and taking a cut of the profits! This is an outrage. I'll find another way to restock my goods. Thank you, %PCName. I'm sure you've learned a bit about business from all of this. I'm sure this knowledge will help you in business dealings in the future.
-你找到价目表了？好极了！我…我简直不敢相信！这是从公爵办公室拿来的，他一定是在为集团制定利润率，并从中抽成利益。这简直是暴行！我会想办法从彼的地方补货的，谢谢你，%PCName。我相信你一定从中学到了一些做生意的知识，我相信这些知识会对你今后的生意有所帮助。 {事}
+你找到价目表了？好极了！我…我简直不敢相信！这是从公爵办公室拿来的，他一定是在为集团制定利润率，并从中抽成利益。这简直是暴行！我会想办法从另一个地方补货的，谢谢你，%PCName。我相信你一定从中学到了一些做生意的知识，我相信这些知识会对你今后的生意有所帮助。 {事}
 
 > INFO.BNAM setting the prices 21438159911183310319 m1
 Your Mercantile skill has increased by 2.
@@ -95348,7 +95348,7 @@ Set the prices? J'Zhirr does not understand. Prices are determined by simple sup
 
 > INFO.NAME deliver the potion 957510438114732399
 Wonderful! I'm sure this will work. Thank you for your help, my very good friend. I'll make sure to name our first child after you. How does %PCName Andarys sound? Oh, and take this as a token of our friendship. Soon she'll be mine!
-太好了！我相信这会有用的。谢谢你的帮助，我的好朋友。我一定会给我们的第一个孩子取你的名字。%PCName，安达里斯听起来怎么样？哦，把这个作为我们友谊的象征吧，很快它就是我的矿场了！ {工作}
+太好了！我相信这会有用的。谢谢你的帮助，我的好朋友。我一定会给我们的第一个孩子取你的名字。%PCName，安达里斯听起来怎么样？哦，把这个作为我们友谊的象征吧，很快它就是我的了！ {工作}
 
 > INFO.NAME deliver the potion 169582542982826256
 Not yet? Well, let me know when you do!
@@ -96204,7 +96204,7 @@ Like I said, take the ebony to Drinar Varyon in Ald'ruhn.
 
 > INFO.NAME shipment of ebony 259786305303106432
 Take these five pieces of raw ebony to Drinar Varyon in Ald'ruhn. He will deliver them to... friends of mine on the mainland. Do not speak of this to anyone.
-把这五块黑檀矿原矿交给奥德'汝因的德里纳尔·瓦里昂。他会把它们交给…我在主大陆上的矿场里的朋友。不要对任何人说起这件事。
+把这五块黑檀矿原矿交给奥德'汝因的德里纳尔·瓦里昂。他会把它们交给…我在主大陆上的朋友。不要对任何人说起这件事。
 
 > INFO.NAME last living dwarf 262260712493312752
 This is how I style myself. I do not know for a fact that I am the last. But in my travels thousands of years ago, I never encountered another. And since I have been here, I often ask Lord Fyr, but he says he has never heard a credible rumor of another Dwemer, on Tamriel, or in any Outer Realm.
@@ -99500,7 +99500,7 @@ Nothing, nevermind.
 
 > INFO.NAME inanius egg mine 311149155631310478
 Ser Avon Oran's egg mine? Just go south around those hills to the east. Then follow the hills back north from the river and you can't miss it.
-埃冯·奥兰爵士的矿场？绕过那些山丘往南走到东边，然后沿着山丘从河边往北走，就不会错过了。
+埃冯·奥兰爵士的卵矿？绕过那些山丘往南走到东边，然后沿着山丘从河边往北走，就不会错过了。
 
 > INFO.NAME join the council 21734131482292712905
 I have joined the Council as your patron, young Aryon, desired.
@@ -110530,7 +110530,7 @@ Let me tell you about the Morag Tong in Morrowind. The Morag Tong is an assassin
 
 > INFO.NAME morrowind lore 316332177611364594
 In Morrowind, whether you're a professional mercenary, or a pilgrim or traveler, you'll want some armor. Shields and tower shields are basic armor protection, but limit you to one-handed weapons. For body armor, get a cuirass first for the chest, then greaves for the legs, helm for the head, and boots for the feet. Add left and right pauldrons for upper arms and gauntlets or bracers for lower arms. Balance protection against weight; you can't fight if you're exhausted by the weight of your armor.
-在晨风，无论你是职业佣兵，还是朝圣者或旅行者，你都需要一些护身盔甲。盾牌和塔楼盾牌是基本的护甲，但限制你只能使用单手武器。对于护身铠甲，首先要在胸部穿上铠甲，然后在腿部穿上胫甲，头部戴上头盔，脚上穿上靴子。上臂加左右肩甲，下臂加腕甲或护腕。在防护和重量之间取得平衡；如果盔甲的重量让你筋疲力尽，你就无法战斗。
+在晨风，无论你是职业佣兵，还是朝圣者或旅行者，你都需要一些护身盔甲。盾牌和塔盾是基本的护甲，但限制你只能使用单手武器。对于护身铠甲，首先要在胸部穿上铠甲，然后在腿部穿上胫甲，头部戴上头盔，脚上穿上靴子。上臂加左右肩甲，下臂加腕甲或护腕。在防护和重量之间取得平衡；如果盔甲的重量让你筋疲力尽，你就无法战斗。
 
 > INFO.NAME morrowind lore 18234306622913716764
 You should know the Empire's attitudes about killing. According to Imperial law and custom, killing is justifiable in war, self-defense, defense of property, affairs of honor, and sanctioned affairs of state. Other killings are murder, and punishable by death or imprisonment. Outlaws have no rights, and may be killed without scandal or sanction. Guards may use deadly force in the line of duty.
@@ -110630,7 +110630,7 @@ Let me tell you about the ten races most commonly encountered in Morrowind: Redg
 
 > INFO.NAME morrowind lore 103458813007929075
 In Morrowind, whether you're a professional mercenary, or a pilgrim or traveler, you'll want some armor. Shields and tower shields are basic armor protection, but limit you to one-handed weapons. For body armor, get a cuirass first for the chest, then greaves for the legs, helm for the head, and boots for the feet. Add left and right pauldrons for upper arms and gauntlets or bracers for lower arms. Balance protection against weight; you can't fight if you're exhausted by the weight of your armor.
-在晨风，无论你是职业佣兵，还是朝圣者或旅行者，你都需要一些护身盔甲。盾牌和塔楼盾牌是基本的护甲，但限制你只能使用单手武器。对于护身铠甲，首先要在胸部穿上铠甲，然后在腿部穿上胫甲，头部戴上头盔，脚上穿上靴子。上臂加左右肩甲，下臂加腕甲或护腕。在防护和重量之间取得平衡；如果盔甲的重量让你筋疲力尽，你就无法战斗。
+在晨风，无论你是职业佣兵，还是朝圣者或旅行者，你都需要一些护身盔甲。盾牌和塔盾是基本的护甲，但限制你只能使用单手武器。对于护身铠甲，首先要在胸部穿上铠甲，然后在腿部穿上胫甲，头部戴上头盔，脚上穿上靴子。上臂加左右肩甲，下臂加腕甲或护腕。在防护和重量之间取得平衡；如果盔甲的重量让你筋疲力尽，你就无法战斗。
 
 > INFO.NAME morrowind lore 31535186231337132410
 Verbal assault and pickpocketing are minor crimes, punishable by fines or hard labor. Theft and foul murder are serious crimes. Theft is punishable by fines or hard labor. Foul murder is punishable by fines of at least 1000 drakes, or by hard labor.
@@ -110682,7 +110682,7 @@ When choosing body armor, get a cuirass first for the chest, then greaves for th
 
 > INFO.NAME morrowind lore 103812235184709891
 Shields and tower shields give good protection, but you can only use one-handed weapons with them.
-盾牌和塔楼盾牌能起到很好的保护作用，但只能使用单手武器。
+盾牌和塔盾能起到很好的保护作用，但只能使用单手武器。
 
 > INFO.NAME morrowind lore 2858113971626128135
 The Tribunal are named Almalexia, Sotha Sil, and Vivec. When you refer to all three of the Tribunals at once, you call them 'Almsivi'.
@@ -120664,7 +120664,7 @@ Rovone Arvel owns this land. Odral's just the caretaker. Not even Rovone Arvel w
 
 > INFO.NAME corprusarium 27540189862626032290
 I collect victims of the divine disease in my Corprusarium in the caverns beneath my tower. Poor devils. Wretched existence. Constant pain. Ferocious appetites and passions. No reason at all. Mad as marsh rats. But marvelous, too, in their way. Completely immune to disease. Live forever, barring accidents. Ancient wizards need projects to keep them occupied, and the Corprusarium is mine.
-我在我塔楼下的洞穴里的尸化病洞穴里收集神圣疾病的受害者。可怜的恶魔，悲惨的生活，持续的痛苦，凶残的欲望和激情，毫无理性可言，像沼泽里的老鼠一样疯狂。但他们的方式也很奇妙。对疾病完全免疫，长生不老，除非发生意外，古老的巫师需要项目来维持生计，尸化病洞穴就是我的矿场。
+我在我塔楼下的洞穴里的尸化病洞穴里收集神圣疾病的受害者。可怜的恶魔，悲惨的生活，持续的痛苦，凶残的欲望和激情，毫无理性可言，像沼泽里的老鼠一样疯狂。但他们的方式也很奇妙。对疾病完全免疫，长生不老，除非发生意外，古老的巫师需要项目来维持生计，尸化病洞穴就是我的。
 
 > INFO.NAME corprusarium 7830159254991932
 Lord Fyr shelters and maintains the victims of corprus disease here in the Corprusarium. He does them a great service, because no other could or would help them. He also does the world a great service by keeping them here where they can do no harm to others. The inmates are sad, distorted monsters, angry and cruel, and their sufferings are great, but they still live and feel, and I honor Lord Fyr's care and compassion for them.
@@ -122756,7 +122756,7 @@ Leave here? I could not! It is the finest spot in all Vivec from which to sell m
 
 > INFO.NAME line of work 25654172201233017752
 Slay me? No, kind friend. For who would slay a talent such as mine? All I need is an outlet for my art so the people will adore me! Although, there lies more peril in your sword than in twenty of their eyes.... No! I must stay here, friend. Slay me if you must, but it would be a loss to the world.
-杀了我？不，亲爱的朋友，谁会杀了我这样的矿场人才呢？我所需要的只是为我的艺术找到一个出口，让人们崇拜我！虽然你的剑比他们的二十只眼睛更危险……不，我必须留在这里，朋友。如果你一定要杀我，那也是世界的损失。
+杀了我？不，亲爱的朋友，谁会杀了我这样的人才呢？我所需要的只是为我的艺术找到一个出口，让人们崇拜我！虽然你的剑比他们的二十只眼睛更危险……不，我必须留在这里，朋友。如果你一定要杀我，那也是世界的损失。
 
 > INFO.NAME line of work 21541118321089624775
 I am an actor! Or at least I hope to be. I am the poor player who struts and frets for a while on a stage and then has lunch. I am full of sound and furiousness! Oh, if there were but a good theater troupe in this town, I could give up selling these baubles. Oh! Woe is me!
@@ -127612,7 +127612,7 @@ A debt to that wizard? Foolish boy. The number of times I've heard about stupid 
 
 > INFO.NAME debt to pay 6607131942262019218
 Cassius did what??? What??? Oh, that foolish boy. Still, he's mine, and I do love him. Here, take this money and repay his debt for me. It amazes me what young people will do sometimes.
-卡西乌斯做了什么？？？什么？？？哦，那个傻小子。不过他是我的矿场，我爱他，拿着这些钱，替我还了他的债。有时候年轻人的所作所为真让我吃惊。
+卡西乌斯做了什么？？？什么？？？哦，那个傻小子。不过他是我的，我爱他，拿着这些钱，替我还了他的债。有时候年轻人的所作所为真让我吃惊。
 
 > INFO.NAME bureaucracy 22373205602026027035
 I really want to learn more about how they're setting the prices.
@@ -127848,7 +127848,7 @@ You'll find it Under-Skar. That's the giant shell on the north side of town, out
 
 > INFO.NAME venim manor 29345221951622417524
 Look in Ald'ruhn, in the Manor District. Locals can tell you more.
-到庄园区的奥德'汝因找找。当地人会告诉你更多。
+到奥德'汝因找找，在庄园区里。当地人会告诉你更多。
 
 > INFO.NAME black marsh 28752302141094929250
 Most of the native Argonian population of Black Marsh is confined to the great inland waterways and impenetrable swamps of the southern interior. There are few roads here, and most travel is by boat. The coasts and the northwestern upland forests are largely uninhabited. For ages the Dunmer have raided Black Marsh for slaves; though the Empire has made this illegal, the practice persists, and Dunmer and Argonians have a long-standing and bitter hatred for one another.
@@ -146328,7 +146328,7 @@ Yes, Odirniran is my home. If you wish to help me, please kill Remasa Othril, th
 
 > INFO.NAME odirniran 8472139863010721714
 Odirniran is mine. You shall not take it from me.
-奥迪尔尼兰是我的矿场，你不能夺走它。 {沙尔}
+奥迪尔尼兰是我的，你不能夺走它。 {沙尔}
 
 > INFO.NAME odirniran 12417209471112418206
 You dealt with the problems in Odirniran.
@@ -147404,7 +147404,7 @@ Carecalmo is dead. There is nothing more to discuss.
 
 > INFO.NAME ultimatum 285768169240878903
 You have already cleansed Ashalmimilka of the Mehrunes Dagon cultists? Then a private war against the Dark Brotherhood and their allies in the cult of Mehrunes Dagon is our fate.
-你已经清除了阿沙尔米尔卡的梅鲁涅斯·大衮邪教徒？那么与黑暗兄弟会和他们在梅鲁涅斯·大衮教派中的盟友私下开战就是我们的命运。
+你已经清除了阿沙米米卡拉的梅鲁涅斯·大衮邪教徒？那么与黑暗兄弟会和他们在梅鲁涅斯·大衮教派中的盟友私下开战就是我们的命运。
 
 > INFO.NAME ultimatum 33926928773419321
 So Carecalmo refused to speak with you. Very well. We shall crush the Dark Brotherhood and their allies in the cult of Mehrunes Dagon. Take these 1000 drakes for the execution of Carecalmo.
@@ -154144,7 +154144,7 @@ The kwama queen is dead? Usually they don't die from the Blight so quickly. What
 
 > INFO.NAME eggmine 30851325871572318753
 You killed the kwama queen? Why did you do that? This is an egg-mining town. It was the only industry here. What a typical Gnisis mess this is.
-你杀了夸蚂女王？你为什么要那么做？这是个开采鸡蛋的矿场，这是这里唯一的产业。这真是尼希斯典型的烂摊子。
+你杀了夸蚂女王？你为什么要那么做？这是个卵矿镇，这是这里唯一的产业。这真是尼希斯典型的烂摊子。
 
 > INFO.NAME eggmine 7303132632473122520
 Good. Now the miners can go back to work. We'll still have to put guards in the lower parts of the eggmine, but at least the villagers can get their eggs. Take these 100 drakes as a reward.
@@ -154236,7 +154236,7 @@ Look, I don't have to tell you a thing. Get out of my way.
 
 > INFO.NAME leaflet 1118229790656822287
 Listen, friend, times have been tough for me and mine. So, when Belan offered me some gold to hand these out for her, I jumped at the chance. Gotta make ends meet, you know? Belan makes the leaflets. I just distribute them.
-听着，朋友，我和我的矿场都不好过。所以当贝兰给我一些金币，让我帮她发这些东西的时候，我抓住了这个机会。总得维持生计，你懂的。贝兰制作的传单，我只负责分发下去。
+听着，朋友，我们一家的日子一直都不好过。所以当贝兰给我一些金币，让我帮她发这些东西的时候，我抓住了这个机会。总得维持生计，你懂的。贝兰制作的传单，我只负责分发下去。
 
 > INFO.NAME leaflet 24238160622494210432
 What about it?
@@ -156512,7 +156512,7 @@ One of the magistrates has been giving the Fighters Guild trouble. I don't want 
 
 > INFO.NAME orders 213878862155329909
 I have a bounty contracted worth 500 gold for Adraria Vandacia.
-我和阿德拉里娅·范达西亚签了一份价值五百金的赏金合约。 {合同}
+我为阿德拉里娅·范达西亚签了一份价值五百金的赏金合约。 {合同}
 
 > INFO.NAME orders 2952330407119326936
 I don't have orders for anyone under the rank of Protector. Check what you need for advancement and come back.
@@ -159364,11 +159364,11 @@ Yes, that's one of the names I mentioned. Could just be a coincidence, I suppose
 
 > INFO.NAME haj-ei 13235171202983725011
 Haven't heard of him. An escaped slave you say? Not from my shipment. And I don't have a lot of time to worry about the ones that aren't mine. Gets tough to track down the Argonian slaves--they're clever and fast, and other Argonians aren't likely to help. That makes it tough, because few others understand their language or habits.
-没听说过他。你说他是逃跑的奴隶？他不是我那批货里的。我可没时间去管那些不属于我的矿场。追捕阿尔贡奴隶们很困难，他们很聪明，跑得也快，其他阿尔贡族也不可能帮忙追捕。这就难办了，因为很少有人懂他们的语言和习惯。
+没听说过他。你说他是逃跑的奴隶？他不是我那批货里的。我可没时间去管那些不属于我的事情。追捕阿尔贡奴隶们很困难，他们很聪明，跑得也快，其他阿尔贡族也不可能帮忙追捕。这就难办了，因为很少有人懂他们的语言和习惯。
 
 > INFO.NAME haj-ei 2594644062683919640
 Haven't heard of him. An escaped slave you say? Not from my shipment. And I don't have a lot of time to worry about the ones that aren't mine. Gets tough to track down the Argonian slaves--they're clever and fast, and other Argonians aren't likely to help. That makes it tough, because few others understand their language or habits.
-没听说过他。你说他是逃跑的奴隶？他不是我那批货里的。我可没时间去管那些不属于我的矿场。追捕阿尔贡奴隶们很困难，他们很聪明，跑得也快，其他阿尔贡族也不可能帮忙追捕。这就难办了，因为很少有人懂他们的语言和习惯。
+没听说过他。你说他是逃跑的奴隶？他不是我那批货里的。我可没时间去管那些不属于我的事情。追捕阿尔贡奴隶们很困难，他们很聪明，跑得也快，其他阿尔贡族也不可能帮忙追捕。这就难办了，因为很少有人懂他们的语言和习惯。
 
 > INFO.NAME haj-ei 2865910574287401019
 Yes, the escaped slave. Hunted for many weeks, we did. Took the bounty hunter all around this area looking for him. Never caught him, though. No, never caught him.
