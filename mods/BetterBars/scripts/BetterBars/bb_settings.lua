@@ -102,6 +102,17 @@ settingsTemplate[tempKey] = {
 			},
 		},
 		{
+			key = "SPACING",
+			name = "Spacing",
+			description = "Gap between the bars, in pixels",
+			renderer = "number",
+			default = 3,
+			argument = {
+				min = 0,
+				max = 1000,
+			},
+		},
+		{
 			key = "LENGTH_MULT",
 			name = "Bar length Multiplier",
 			description = "",
@@ -148,6 +159,13 @@ settingsTemplate[tempKey] = {
 	permanentStorage = true,
 	order = getOrder(),
 	settings = {
+		{
+			key = "SHOW_ICONS",
+			renderer = "checkbox",
+			name = "Show Icons",
+			description = "Show colored stat icons to the left of each bar",
+			default = false,
+		},
 		{
 			key = "TEXT",
 			name = "Text",
@@ -367,7 +385,7 @@ for _, template in pairs(settingsTemplate) do
 			saveData.windowPos = nil
 		end
 		calculateBarPositions()
-		if container and setting == "THICKNESS" then
+		if container and (setting == "THICKNESS" or setting == "SPACING") then
 			calculateBarPositions() -- barThickness, verticalOffset
 			local pos =  POSITION == "Bottom Left" and 0 or (4-#widgets) * verticalOffset - barThickness
 	

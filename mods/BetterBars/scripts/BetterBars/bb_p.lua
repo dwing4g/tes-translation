@@ -43,6 +43,13 @@ rgbToHsv,hsvToRgb = unpack(helpers)
 local foreground = ui.texture { path = "textures/BetterBars_Bar.dds" }
 local flashing = ui.texture { path = "textures/BetterBars_lowWarning.dds" }
 local background = ui.texture { path = 'black' }
+-- icon textures, one per resource
+local iconTextures = {
+	health  = ui.texture { path = "textures/BetterBars/health.png" },
+	magicka = ui.texture { path = "textures/BetterBars/magicka.png" },
+	fatigue = ui.texture { path = "textures/BetterBars/fatigue.png" },
+}
+local iconContainer = nil
 local screenres = ui.screenSize()
 local layerId = ui.layers.indexOf("Modal")
 local uiSize = ui.layers[layerId].size
@@ -55,7 +62,7 @@ local hudVisible = I.UI.isHudVisible()
 local iterateWidgets = nil
 
 function calculateBarPositions()
-	verticalOffset = THICKNESS+3
+	verticalOffset = THICKNESS + (SPACING or 3)
 	barThickness = THICKNESS
 	startOffset = math.max(3, 57-verticalOffset*#widgets)
 	if POSITION == "Top Left" then
@@ -63,6 +70,57 @@ function calculateBarPositions()
 	end
 end
 calculateBarPositions()
+
+-- builds a standalone UI root on the HUD layer, one icon per bar, mirroring the main container's layout
+-- called fresh on makeUI and on every drag delta (simple + robust)
+function makeIcons()
+	if iconContainer then
+		iconContainer:destroy()
+		iconContainer = nil
+	end
+	if not SHOW_ICONS then return end
+	if not container then return end
+
+	local baseProps = container.layout.props
+	local iconSize = barThickness
+	local gap = 2 -- px between icon and bar left edge
+	local offsetX = iconSize + gap -- how far left of the bar container the icons live
+
+	-- one icon per bar, stacked the same way bars are stacked
+	local content = {}
+	local pos = POSITION == "Bottom Left" and 0 or (4-#widgets) * verticalOffset - barThickness
+	for _, resource in pairs(widgets) do
+		-- icon sits inside iconContainer bounds at x=0, bottom-aligned like bars
+		table.insert(content, {
+			type = ui.TYPE.Image,
+			props = {
+				resource = iconTextures[resource],
+				color = _G[colorKeys[resource]],
+				size = v2(iconSize, iconSize),
+				anchor = v2(0, 1),
+				relativePosition = v2(0, 1),
+				position = v2(0, -pos),
+				alpha = 1,
+			},
+		})
+		pos = pos + verticalOffset
+	end
+
+	-- iconContainer has its own bounds: shifted left of bars, iconSize wide, same height as bars
+	iconContainer = ui.create({
+		type = ui.TYPE.Widget,
+		layer = 'HUD',
+		props = {
+			position = baseProps.position - v2(offsetX, 0),
+			size = v2(iconSize, baseProps.size.y),
+			anchor = baseProps.anchor,
+			relativePosition = baseProps.relativePosition,
+			alpha = containerAlpha,
+			visible = hudVisible,
+		},
+		content = ui.content(content),
+	})
+end
 
 function makeUI()
 	--print("make")
@@ -96,35 +154,27 @@ function makeUI()
 						container.layout.userData = {}
 					end
 					container.layout.userData.isDragging = true
-					container.layout.userData.dragStartPosition = data.position
-					container.layout.userData.windowStartPosition = container.layout.props.position or v2(0, 0)
+					container.layout.userData.lastMousePos = data.position
 				end
-			--	topBarBackground.props.alpha = 0.2
 				container:update()
-				--print("upd")
 			end),
 			
 			mouseRelease = async:callback(function(data, elem)
 				if container.layout.userData then
 					container.layout.userData.isDragging = false
 				end
-			--	topBarBackground.props.alpha = 0.1
 				container:update()
-				--print("upd")
 			end),
 			
 			mouseMove = async:callback(function(data, elem)
 				if container.layout.userData and container.layout.userData.isDragging then
-					local deltaX = data.position.x - container.layout.userData.dragStartPosition.x
-					local deltaY = data.position.y - container.layout.userData.dragStartPosition.y
-					local newPosition = v2(
-						container.layout.userData.windowStartPosition.x + deltaX,
-						container.layout.userData.windowStartPosition.y + deltaY
-					)
+					local delta = data.position - container.layout.userData.lastMousePos
+					container.layout.userData.lastMousePos = data.position
+					local newPosition = (container.layout.props.position or v2(0, 0)) + delta
 					saveData.windowPos = newPosition
 					container.layout.props.position = newPosition
 					container:update()
-					--print("upd")
+					makeIcons()
 				end
 			end),
 		}
@@ -326,7 +376,8 @@ function makeUI()
 			end
 		end
 	end
-	
+	-- build icon column after bars so geometry (verticalOffset, barThickness, pos) is settled
+	makeIcons()
 end
 
 
@@ -642,6 +693,7 @@ function onFrame(dt)
 		screenres=newscreenres
 	elseif newscreenres.x ~=screenres.x or newscreenres.y ~=screenres.y then
 		container:destroy()
+		if iconContainer then iconContainer:destroy() iconContainer = nil end
 		makeUI()
 		screenres=newscreenres
 	end
@@ -662,6 +714,10 @@ function onFrame(dt)
 		hudVisible = I.UI.isHudVisible() and chargenFinished()
 		container.layout.props.visible = hudVisible
 		container:update()
+		if iconContainer then
+			iconContainer.layout.props.visible = hudVisible
+			iconContainer:update()
+		end
 		--print("upd")
 	end
 end
@@ -708,6 +764,10 @@ local function setAlpha(alpha)
 	if container then
 		container.layout.props.alpha = containerAlpha
 		container:update()
+	end
+	if iconContainer then
+		iconContainer.layout.props.alpha = containerAlpha
+		iconContainer:update()
 	end
 end
 
