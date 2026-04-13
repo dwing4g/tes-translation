@@ -10205,7 +10205,7 @@ Ahnassi, a Special Friend
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。
+我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。 {小费}
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
@@ -11597,11 +11597,11 @@ Viatrix, The Annoying Pilgrim
 
 > INFO.NAME mv_richpilgrim 692278062967624870
 Viatrix Petilia stopped me on the side of the road near Ald'ruhn. She claims to be a pilgrim on her way to Ghostgate Shrine. Her haughty attitude suggests a person who is used to being waited on. She'd like me to escort her to the Ghostgate Shrine, and she promises a "tip" if I deliver her there safely, and within two days' time.
-薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。 {提示}
+薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。
 
 > INFO.NAME mv_richpilgrim 1524327818231821325
 I've led Viatrix Petilia safely to Ghostgate. She did, indeed, give me a "tip" for my services, but it seems rather meager compensation from someone of such obvious means.
-我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {提示,服务,老鼠,赔偿}
+我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {服务,老鼠,赔偿}
 
 > INFO.NAME mv_richpilgrim 3539235591674819322
 Viatrix Petilia has left my company because I did not deliver her to Ghostgate within the two days she desired. I can't say I'm sorry to see her go, although I am curious what she would have offered as a reward.
@@ -18705,7 +18705,7 @@ No
 
 > INFO.NAME cure disease potion 645811855296408403
 Yes, thank you for helping me. It's a silly story, really. I'd been down in the sewers...  why? Well, I'd gotten a tip that a rare and valuable item might be down there. All I found, however, was rats. No matter now; everything is fine.
-是的，谢谢你帮助我。这是个愚蠢的故事，真的。我一直在下水道里…为什么？嗯，我得到一个小道消息，说那里可能有一个罕见的、贵重的物品。然而，我只找到了老鼠。没关系；一切都很好。 {提示}
+是的，谢谢你帮助我。这是个愚蠢的故事，真的。我一直在下水道里…为什么？嗯，我得到一个小道消息，说那里可能有一个罕见的、贵重的物品。然而，我只找到了老鼠。没关系；一切都很好。 {小费}
 
 > INFO.NAME cure disease potion 281416807327643731
 Ah, thank you, %PCName. I was unaware you did charity work in addition to your other talents.
@@ -21417,7 +21417,7 @@ Oh yeah, sure. Heard ya the f-f-first time.
 
 > INFO.NAME morrowind lore 17394162503023116865
 Do I look like a poor scholar, grubbing for tips? Go away.
-我看起来像一个在为小费而奋斗的可怜学者吗？走开。 {提示}
+我看起来像一个在为小费而奋斗的可怜学者吗？走开。
 
 > INFO.NAME morrowind lore 440036312672719594
 We have grown too complacent about the threat of Dagoth Ur and Red Mountain. For ages we've relied on the Tribunal to contain the menace. But Dagoth Ur's power is waxing as the Tribunal's power is waning. The Legion garrisons here are insufficient to protect our settlements, and there's no hope for reinforcements. Our people have always relied on a charismatic leader to rally squabbling factions against a common foe. You are that leader. Now we must rely on you.
@@ -22999,7 +22999,7 @@ Your first visit to Morrowind, outlander? Then learn the law and local customs. 
 
 > INFO.NAME little advice 8301187191161611327
 We see a lot of new faces like yours here in Seyda Neen. If you're hoping to stand out from the crowd, you need to practice a lot to improve your skills. And if you want to increase your general level of competence, focus on your major skills -- the ones most important to your trade. That way you'll advance more quickly. And another little tip newcomers forget. Always carry a little food so you can freshen up when fatigue gets you down. Eat a little, and you can feel your energy coming back.
-我们在赛达-尼恩见过很多像你这样的新面孔。如果你想在人群中脱颖而出，就得多加练习，提高自己的技能。如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,提示}
+我们在赛达-尼恩见过很多像你这样的新面孔。如果你想在人群中脱颖而出，就得多加练习，提高自己的技能。如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,小费}
 
 > INFO.NAME little advice 3134129964876314433
 You wouldn't think so, but there are number of old abandoned tombs in the area. I thought this area had never been settled, but apparently, long before the Empire opened Vvardenfell up for settlement, someone has put a lot of ancestors to rest here. Most of us can't get past a superstitious distaste for rooting around in ancestral tombs. But you're an outlander. It shouldn't bother you, should it?
@@ -23659,11 +23659,11 @@ This is a dangerous place, so none of the House people will come here. So we hav
 
 > INFO.NAME little secret 673821472106711099
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}
+我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {小费,财富,迪德拉式}
 
 > INFO.NAME little secret 785732822678819521
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
-我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}
+我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {小费,财富,迪德拉式}
 
 > INFO.NAME little secret 826321646924279
 Do the old places of the Deep Elves interest you? Then you should go see Nchuleftingth. The walls still glow with strange lights, and terrible things walk and squeal in the passages. it is a bad place, and very dangerous, but it is filled with wonders.
@@ -24083,7 +24083,7 @@ I've heard there's a new, strange disease going around. Nerile Andaren -- one of
 
 > INFO.NAME latest rumors 678293022004218840
 Whatever you do, don't play cards with Galms Seles. He's a hustler just moved here from Vvardenfell. He thinks he can out-distance his reputation, but a friend in Sadrith Mora tipped me off. I wish he would leave. He's put a damper on the action.
-无论你做什么，都不要和加尔姆斯·塞莱斯玩牌。他是一个刚从瓦登费尔搬来的骗子。他认为自己赫赫有名，但萨德里斯-莫拉的一个朋友向我透露了消息。我希望他能离开。他阻碍了这次行动。 {提示}
+无论你做什么，都不要和加尔姆斯·塞莱斯玩牌。他是一个刚从瓦登费尔搬来的骗子。他认为自己赫赫有名，但萨德里斯-莫拉的一个朋友向我透露了消息。我希望他能离开。他阻碍了这次行动。 {小费}
 
 > INFO.NAME latest rumors 303681349459913313
 Have you heard? A terribly powerful and evil wizard -- 'something-or-other Velas'. I think they said --  has taken up residence nearby?  At the bar the other night, they were talking of the strange lights and sinister laughter late at night. I'd be on my toes if I were you. I'd bet this wizard will try to make a display of his power soon.
@@ -24127,7 +24127,7 @@ If you're thinking of going down the sewers to explore Old Mournhold, watch out 
 
 > INFO.NAME latest rumors 57052426372648466
 Whatever you do, don't play cards with Galms Seles. He's a hustler just moved here from Vvardenfell. He thinks he can out-distance his reputation, but a friend in Sadrith Mora tipped me off. I wish he would leave. He's put a damper on the action.
-无论你做什么，都不要和加尔姆斯·塞莱斯玩牌。他是一个刚从瓦登费尔搬来的骗子。他认为自己赫赫有名，但萨德里斯-莫拉的一个朋友向我透露了消息。我希望他能离开。他阻碍了这次行动。 {提示}
+无论你做什么，都不要和加尔姆斯·塞莱斯玩牌。他是一个刚从瓦登费尔搬来的骗子。他认为自己赫赫有名，但萨德里斯-莫拉的一个朋友向我透露了消息。我希望他能离开。他阻碍了这次行动。 {小费}
 
 > INFO.NAME latest rumors 1103836125418115
 I heard about your encounters with the Velas wizards. What is it about wizards, anyway? So many of them turn to evil. Do you suppose that the study of power ultimately corrupts the student?
@@ -30247,7 +30247,7 @@ Yes. This is the place I need to be. They can help me here. Take this as payment
 
 > INFO.NAME greeting 1 31423124081892923466
 Well, we've arrived...surprisingly enough. Here's your tip. Now leave me.
-好了，我们到了…真是出人意料。这是你的小费，现在离我远点。 {提示}
+好了，我们到了…真是出人意料。这是你的小费，现在离我远点。
 
 > INFO.NAME greeting 1 45701188175111396
 I should have expected as much from the likes of you. I'll be on my way now.
@@ -36851,7 +36851,7 @@ This is about that Marena Gilnith, right? I'll bet she's a hot little number, is
 
 > INFO.NAME women 1879203381625313670
 Marena Gilnith, you say?  I don't recognize the name.  Intriguing.  Well, I'll simply have to meet her!  There's no way she can resist!  Thanks for the tip, %PCName.  You're a real friend.
-玛丽娜·吉尔尼斯，你说？我不认识这个名字。很有意思。好吧，那我只好去见她了！她是不可能拒绝的！谢谢你的提示，%PCName。你是个真正的朋友。
+玛丽娜·吉尔尼斯，你说？我不认识这个名字。很有意思。好吧，那我只好去见她了！她是不可能拒绝的！谢谢你的提示，%PCName。你是个真正的朋友。 {小费}
 
 > INFO.NAME women 199651893088607512
 Fair enough.  Not surprising, really - I'd hardly expect someone like you to pick out a female that I'd missed.  Quite the eye for beauty, if I do say so myself.  Well, keep an eye out anyway, will you?
@@ -36899,7 +36899,7 @@ No.
 
 > INFO.NAME women 10305272892782031028
 Marena Gilnith, you say?  What a pretty name... and I'll bet she's got the body to match!  So, you're going to tell her all about me, right?  No, wait. Why tell her a story that seems too good to be true, when she can see it for her very own eyes!  I'll go find her myself, but thanks for the tip, cutie. And if you ever change your mind about... you know... come and find me. I'll be waiting.
-玛丽娜·吉尔尼斯，你说？多么好听的名字啊…我打赌她的身材肯定也很棒！那么，你会告诉她关于我的一切，对吗？不，等等。何必给她讲一个听起来不像真的的故事呢，让她亲眼见识一下不就好了！我自己去找她，但谢谢你的提示，小可爱。如果你改变主意…你知道…来找我。我等着你。
+玛丽娜·吉尔尼斯，你说？多么好听的名字啊…我打赌她的身材肯定也很棒！那么，你会告诉她关于我的一切，对吗？不，等等。何必给她讲一个听起来不像真的的故事呢，让她亲眼见识一下不就好了！我自己去找她，但谢谢你的提示，小可爱。如果你改变主意…你知道…来找我。我等着你。 {小费}
 
 > INFO.NAME women 1081304481497726169
 Marena Gilnith, eh? I'll bet she's a real treat. Well, you tell her all about me. Assuming she hasn't heard of me already, which she most likely has. Ah, well. Either way, she'll be thrilled to meet me, wouldn't you say?
@@ -37287,7 +37287,7 @@ It must be stopped.
 
 > INFO.NAME plot 110606528209412323
 Yes...I expected you would find out as much. Other sources of mine indicate the same thing, and that the attempt will be made tomorrow night. Our mother must be protected at all costs, but I do not wish to tip my hand to these assassins. Here is how we will protect Barenziah.
-是的…我料到了你会发现这么多。我的其他消息来源也表明了同样的事情，明晚他们就会付诸行动。我们的母亲必须不惜一切代价加以保护，但我不希望亲自处理这些刺客。以下是我们保护巴兰兹娅的方法。 {提示}
+是的…我料到了你会发现这么多。我的其他消息来源也表明了同样的事情，明晚他们就会付诸行动。我们的母亲必须不惜一切代价加以保护，但我不希望亲自处理这些刺客。以下是我们保护巴兰兹娅的方法。 {小费}
 
 > INFO.NAME plot 574410776214944192
 Find out what you can.

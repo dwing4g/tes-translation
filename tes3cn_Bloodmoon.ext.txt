@@ -8794,7 +8794,7 @@ Ahnassi, a Special Friend
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。
+我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。 {小费}
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
@@ -10154,11 +10154,11 @@ Viatrix, The Annoying Pilgrim
 
 > INFO.NAME mv_richpilgrim 692278062967624870
 Viatrix Petilia stopped me on the side of the road near Ald'ruhn. She claims to be a pilgrim on her way to Ghostgate Shrine. Her haughty attitude suggests a person who is used to being waited on. She'd like me to escort her to the Ghostgate Shrine, and she promises a "tip" if I deliver her there safely, and within two days' time.
-薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。 {提示}
+薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。
 
 > INFO.NAME mv_richpilgrim 1524327818231821325
 I've led Viatrix Petilia safely to Ghostgate. She did, indeed, give me a "tip" for my services, but it seems rather meager compensation from someone of such obvious means.
-我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {提示,服务,老鼠,赔偿}
+我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {服务,老鼠,赔偿}
 
 > INFO.NAME mv_richpilgrim 3539235591674819322
 Viatrix Petilia has left my company because I did not deliver her to Ghostgate within the two days she desired. I can't say I'm sorry to see her go, although I am curious what she would have offered as a reward.
@@ -20780,11 +20780,11 @@ Tough fighter. Short temper. She can be a bit thick, but there's no one I'd want
 
 > INFO.NAME nord village 568655991130923386
 Go there and find out what you can about the Captain's disappearance. It is on the northeastern tip of the island.
-去那里打听一下队长失踪的消息。在岛的东北角。 {提示}
+去那里打听一下队长失踪的消息。在岛的东北角。 {小费}
 
 > INFO.NAME nord village 31861149012312711138
 It is on the northeastern tip of Solstheim. These Skaal are nature-worshippers, and they seem to have a special commune with the creatures of this island. If anyone knows what attacked the fort, it will be these Nords. I will mark their location on your map. I would like you to earn their trust and find out what you can. You may have to remain with them for many days, but I believe you are up to the task. Here, take this--it was found in one of their tombs. Perhaps they will take it as a sign of good faith.
-它在索瑟泰姆的东北端。这些斯卡尔是自然崇拜者，他们似乎与岛上的生物有一种特殊的交流。如果有人知道是什么袭击了要塞，那一定是这些诺德人。我会在你的地图上标出他们的位置，我希望你能赢得他们的信任，并找出你能找到的东西。你可能要和他们待上很多天，但我相信你能胜任这项任务，拿着这个，这是在他们的一个墓穴里发现的。也许他们会把它当作诚意的象征。 {提示,信仰}
+它在索瑟泰姆的东北端。这些斯卡尔是自然崇拜者，他们似乎与岛上的生物有一种特殊的交流。如果有人知道是什么袭击了要塞，那一定是这些诺德人。我会在你的地图上标出他们的位置，我希望你能赢得他们的信任，并找出你能找到的东西。你可能要和他们待上很多天，但我相信你能胜任这项任务，拿着这个，这是在他们的一个墓穴里发现的。也许他们会把它当作诚意的象征。 {小费,信仰}
 
 > INFO.NAME nord village 1891112258348110301
 Go find those savages and see what they've done with the Cap'n.
@@ -20792,7 +20792,7 @@ Go find those savages and see what they've done with the Cap'n.
 
 > INFO.NAME nord village 2667819882822310011
 They're a bunch of savages that live on the northeast tip of the island. The Skaal, they call themselves. I'll mark their village on your map. A bunch of animal spirit-worshipping freaks...wolves especially. What does that tell you? I'm sure they know what happened to the Captain. Now you go find out. They're not likely to trust you, so take this. They'll like it. You should stay with them until you find out what's happened. Get in good with them, earn their trust.
-他们是一群住在岛东北端的野蛮人，他们自称斯卡尔人。我会在你的地图上标出他们的村子，一群崇拜动物灵魂的怪人…尤其是狼。这说明了什么？我肯定他们知道队长出了什么事，现在你去查清楚。他们不可能相信你，所以拿着这个，他们会喜欢的。你应该和他们待在一起，直到你查明真相。和他们搞好关系，赢得他们的信任。 {提示}
+他们是一群住在岛东北端的野蛮人，他们自称斯卡尔人。我会在你的地图上标出他们的村子，一群崇拜动物灵魂的怪人…尤其是狼。这说明了什么？我肯定他们知道队长出了什么事，现在你去查清楚。他们不可能相信你，所以拿着这个，他们会喜欢的。你应该和他们待在一起，直到你查明真相。和他们搞好关系，赢得他们的信任。 {小费}
 
 > INFO.NAME was cast out 766932545279449832
 As I said, I was cast out of the Skaal village, and I learned of the plans the Daedra had to destroy my people.
@@ -24376,7 +24376,7 @@ Yes. This is the place I need to be. They can help me here. Take this as payment
 
 > INFO.NAME greeting 1 31423124081892923466
 Well, we've arrived...surprisingly enough. Here's your tip. Now leave me.
-好了，我们到了…真是出人意料。这是你的小费，现在离我远点。 {提示}
+好了，我们到了…真是出人意料。这是你的小费，现在离我远点。
 
 > INFO.NAME greeting 1 45701188175111396
 I should have expected as much from the likes of you. I'll be on my way now.
@@ -26788,7 +26788,7 @@ Follow him, %PCName. My guess is that now that he thinks he's safe, he'll probab
 
 > INFO.NAME uryn maren 10515140221890110987
 What? My information was very reliable... it may be that he was tipped off by someone. I don't claim to have a monopoly on spying here at Raven Rock. Well, if we don't have any evidence, then we'll just have to catch him red-handed. He should be in the mine; follow him and see if he does anything suspicious. Take care not to be seen by anyone, as they could alert him to your presence.
-什么？我的情报非常可靠…也许他是被谁告密了。在鸦石，我可没说我垄断了间谍活动。好吧，如果我们没有任何证据，那就只能人赃并获了。他应该在矿场，跟踪他，看他是否有可疑举动。注意不要被任何人看到，因为他们可能会提醒他你的存在。 {提示}
+什么？我的情报非常可靠…也许他是被谁告密了。在鸦石，我可没说我垄断了间谍活动。好吧，如果我们没有任何证据，那就只能人赃并获了。他应该在矿场，跟踪他，看他是否有可疑举动。注意不要被任何人看到，因为他们可能会提醒他你的存在。 {小费}
 
 > INFO.NAME uryn maren 189653128749722069
 You have the key, %PCName. Go find that chest, and the proof we need.
@@ -27060,7 +27060,7 @@ What can I say? Snow, animals and Nords. That about sums this place up.
 
 > INFO.NAME solstheim 1185518201329410588
 This island is not for the faint of heart. The weather is rough, and the wildlife aggressive. You'll find Fort Frostmoth on the southern tip of the island, and the Skaal on the northeastern tip.
-这个岛不适合胆小的人。天气恶劣，野生动物凶猛。霜蛾要塞在岛的南端，斯卡尔在岛的东北端。 {提示}
+这个岛不适合胆小的人。天气恶劣，野生动物凶猛。霜蛾要塞在岛的南端，斯卡尔在岛的东北端。 {小费}
 
 > INFO.NAME solstheim 21679302331539615350
 Aye, Solstheim IS quite a beautiful place, isn't it? I came here from Skyrim...to escape the bad weather.
@@ -27068,7 +27068,7 @@ Aye, Solstheim IS quite a beautiful place, isn't it? I came here from Skyrim...t
 
 > INFO.NAME solstheim 36414385936628237
 This island is not for the faint of heart. The weather is rough, and the wildlife aggressive. You'll find Fort Frostmoth on the southern tip of the island, and the Skaal on the northeastern tip.
-这个岛不适合胆小的人。天气恶劣，野生动物凶猛。霜蛾要塞在岛的南端，斯卡尔在岛的东北端。 {提示}
+这个岛不适合胆小的人。天气恶劣，野生动物凶猛。霜蛾要塞在岛的南端，斯卡尔在岛的东北端。 {小费}
 
 > INFO.NAME solstheim 61385449102526
 Yes, this is the place. Miserable, miserable place. So very cold. I will be glad to leave.

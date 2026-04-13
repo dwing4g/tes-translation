@@ -185642,7 +185642,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "10457215951333724952$00"
  INFO.DATA [04 00 00 00 5F 00 00 00 FF FF FF 00]
- INFO.NAME "我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。"
+ INFO.NAME "我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。 {小费}"
 -INFO
  INFO.INAM "10457215951333724952$00"
  INFO.PNAM "27170183552238114548$00"
@@ -188609,7 +188609,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "15589125521207463$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。 {提示}"
+ INFO.NAME "薇娅崔克斯·佩提利亚在奥德'汝因附近的路边拦住了我。她自称是前往幽魂之门圣祠的朝圣者。她傲慢的态度表明她习惯了被人伺候。她希望我护送她去幽魂之门圣祠，并许诺如果我在两天内把她安全送到那里，她会给我一笔“小费”。"
 -INFO
  INFO.INAM "15589125521207463$00"
  INFO.PNAM "692278062967624870$00"
@@ -188651,7 +188651,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "2618724119739914902$00"
  INFO.NNAM "3539235591674819322$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {提示,服务,老鼠,赔偿}"
+ INFO.NAME "我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {服务,老鼠,赔偿}"
 -INFO
  INFO.INAM "3539235591674819322$00"
  INFO.PNAM "1524327818231821325$00"
@@ -238370,7 +238370,7 @@ ModDisposition 10"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "哈拉鲁议员维兰达·奥曼尼想要因德尔·拉特里恩的土地。维兰达·奥曼尼伪造了一份地契，放在维威克图书馆里。如果没有我们的帮助，维兰达·奥曼尼的贿赂就会妨碍正义，让伪造的契约成立。去维威克的图书馆，找到地契，以巴尔·莫拉格莫的名义交给因卓尔·拉特里恩。"
+ INFO.NAME "哈拉鲁议员维兰达·奥曼尼想要因卓尔·拉特里恩的土地。维兰达·奥曼尼伪造了一份地契，放在维威克图书馆里。如果没有我们的帮助，维兰达·奥曼尼的贿赂就会妨碍正义，让伪造的契约成立。去维威克的图书馆，找到地契，以巴尔·莫拉格莫的名义交给因卓尔·拉特里恩。"
  INFO.SCVR "34JX3TG_SS_Yngling"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal TG_SS_Yngling >= 100
@@ -240293,7 +240293,7 @@ ModDisposition 20"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "big head$00"
- INFO.NAME "气母爷爷…可爱的鱼！漂着，漂着。他没有眼睛，但他能看见你，他来看我，给我带蛋糕！分享蛋糕，人人有份！脱帽致敬，他知道你在这里，走出我的门，你就能找到他，直接穿过我的门，进入其他地方。 {提示}"
+ INFO.NAME "气母爷爷…可爱的鱼！漂着，漂着。他没有眼睛，但他能看见你，他来看我，给我带蛋糕！分享蛋糕，人人有份！脱帽致敬，他知道你在这里，走出我的门，你就能找到他，直接穿过我的门，进入其他地方。 {小费}"
  INFO.BNAM "Journal ""DA_Sheogorath"" 40"
 -DIAL
  DIAL.NAME "窘迫的女士$00"
@@ -252553,7 +252553,7 @@ Choice ""是的，尸体上有你的东西。"" 1 ""不，我什么也没找到。"" 2"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "所以是你送的戒指，那就好，希望伊尔梅妮·德伦能好好利用它。"
+ INFO.NAME "所以你送了戒指，那就好，希望伊尔梅妮·德伦能好好利用它。"
  INFO.SCVR "34JX3TG_SS_GreedySlaver"
  INFO.INTV [32 00 00 00]
  #3: Journal-Journal TG_SS_GreedySlaver >= 50
@@ -274366,7 +274366,7 @@ Journal ""A2_6_Incarnate"" 52"
  INFO.NNAM "3130179621225323877$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sul-matuul$00"
- INFO.NAME "阿希穆萨营地位于东北方，瓦登费尔岛的最远端，泰尔-莫拉以北，靠近古老的迪德拉遗址奥德-迪德洛斯。 {提示,迪德拉式}"
+ INFO.NAME "阿希穆萨营地位于东北方，瓦登费尔岛的最远端，泰尔-莫拉以北，靠近古老的迪德拉遗址奥德-迪德洛斯。 {小费,迪德拉式}"
  INFO.BNAM ";Sul-Matuul;
 ShowMap ""Ahemmusa Camp"""
 -INFO
@@ -274435,7 +274435,7 @@ ShowMap ""Ahemmusa Camp"""
  INFO.NNAM "26267311622785223046$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "灰烬之民阿希穆萨部落在阿祖拉海岸地区瓦登费尔大陆东北端的岩石岬角上的阿希穆萨营地有一个永久定居点。这里，让我在你的地图上标记一下。 {提示}"
+ INFO.NAME "灰烬之民阿希穆萨部落在阿祖拉海岸地区瓦登费尔大陆东北端的岩石岬角上的阿希穆萨营地有一个永久定居点。这里，让我在你的地图上标记一下。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -274448,7 +274448,7 @@ ShowMap ""Ahemmusa Camp"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "阿希穆萨部落的灰烬之民在阿祖拉海岸地区瓦登费尔大陆东北端的一个岩石海角上的阿希穆萨营地有一个永久定居点。 {提示}"
+ INFO.NAME "阿希穆萨部落的灰烬之民在阿祖拉海岸地区瓦登费尔大陆东北端的一个岩石海角上的阿希穆萨营地有一个永久定居点。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -274461,7 +274461,7 @@ ShowMap ""Ahemmusa Camp"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "阿希穆萨部落的灰烬之民在阿祖拉海岸地区瓦登费尔大陆东北端的一个岩石海角上的阿希穆萨营地有一个永久定居点。 {提示}"
+ INFO.NAME "阿希穆萨部落的灰烬之民在阿祖拉海岸地区瓦登费尔大陆东北端的一个岩石海角上的阿希穆萨营地有一个永久定居点。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -274474,7 +274474,7 @@ ShowMap ""Ahemmusa Camp"""
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Hunter$00"
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "阿希穆萨营地位于东北方，瓦登费尔岛的最远端，泰尔-莫拉以北，靠近古老的迪德拉遗址奥德-迪德洛斯。 {提示,迪德拉式}"
+ INFO.NAME "阿希穆萨营地位于东北方，瓦登费尔岛的最远端，泰尔-莫拉以北，靠近古老的迪德拉遗址奥德-迪德洛斯。 {小费,迪德拉式}"
  INFO.BNAM "ShowMap ""Ahemmusa Camp"""
 -INFO
  INFO.INAM "1536227646233694832$00"
@@ -274483,7 +274483,7 @@ ShowMap ""Ahemmusa Camp"""
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "阿希穆萨营地位于东北方，瓦登费尔岛的最远端，泰尔-莫拉以北，靠近古老的迪德拉遗址奥德-迪德洛斯。 {提示,迪德拉式}"
+ INFO.NAME "阿希穆萨营地位于东北方，瓦登费尔岛的最远端，泰尔-莫拉以北，靠近古老的迪德拉遗址奥德-迪德洛斯。 {小费,迪德拉式}"
  INFO.BNAM "ShowMap ""Ahemmusa Camp"""
 -DIAL
  DIAL.NAME "迪德拉遗址$00"
@@ -276718,7 +276718,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "3134129964876314433$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Seyda Neen$00"
- INFO.NAME "我们在赛达-尼恩见过很多像你这样的新面孔。如果你想在人群中脱颖而出，就得多加练习，提高自己的技能。如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,提示}"
+ INFO.NAME "我们在赛达-尼恩见过很多像你这样的新面孔。如果你想在人群中脱颖而出，就得多加练习，提高自己的技能。如果你想提高自己的综合能力，那就把重点放在主修技能上，也就是对你的职业最重要的技能。这样你的进步会更快。还有一个新手容易忘记的小窍门。一定要随身携带一点食物，以便在疲劳时可以补充体力。吃一点，你就能感觉到精力充沛。 {需要,小费}"
  INFO.SCVR "09CX0Guard"
  INFO.INTV [01 00 00 00]
  #0: NotClass-NotClass Guard = 1
@@ -280227,7 +280227,7 @@ ShowMap Falensarano"
  INFO.NNAM "785732822678819521$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ONAM "arantamo$00"
- INFO.NAME "我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}"
+ INFO.NAME "我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {小费,财富,迪德拉式}"
  INFO.SCVR "04JX4MS_propylon"
  INFO.INTV [01 00 00 00]
  #0: Journal-Journal MS_propylon < 1
@@ -280239,7 +280239,7 @@ ShowMap Falensarano"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF 00 00]
  INFO.ONAM "arantamo$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {财富,迪德拉式}"
+ INFO.NAME "我喜欢你的风格，外地人。给你个提示，引路器。你进过丹莫堡垒吗？你见过里面有两个大石柱子的引路室吗？它们是传送装置。只是你需要一把钥匙来使用它们——一种叫做“引路石”的小东西。有个家伙想卖给我一个——想赚一笔钱，但我没这打算。后来我听说那家伙去了一个叫梅尔卡诗诗的迪德拉祭坛，再也没有回来。所以，也许他和引路石一起都还留在那里。 {小费,财富,迪德拉式}"
  INFO.SCVR "04JX4MS_propylon"
  INFO.INTV [01 00 00 00]
  #0: Journal-Journal MS_propylon < 1
@@ -295457,7 +295457,7 @@ Player->AddItem ""amulet_gem_feeding"" 1"
  INFO.NNAM "11098239472185015024$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "奥德-瑞达尼亚是一座古代废墟巫师塔楼的所在地，位于谢尔格拉德以西一座大岛的西端。 {提示}"
+ INFO.NAME "奥德-瑞达尼亚是一座古代废墟巫师塔楼的所在地，位于谢尔格拉德以西一座大岛的西端。 {小费}"
  INFO.BNAM "ShowMap ""Ald Redaynia""
 ;scout; savant;"
 -INFO
@@ -295466,7 +295466,7 @@ Player->AddItem ""amulet_gem_feeding"" 1"
  INFO.NNAM "92079732174779035$00"
  INFO.DATA [00 00 00 00 14 00 00 00 FF FF FF 00]
  INFO.ONAM "imsin the dreamer$00"
- INFO.NAME "奥德-瑞达尼亚是一座古代废墟巫师塔楼的所在地，位于谢尔格拉德以西一座大岛的西端。 {提示}"
+ INFO.NAME "奥德-瑞达尼亚是一座古代废墟巫师塔楼的所在地，位于谢尔格拉德以西一座大岛的西端。 {小费}"
  INFO.BNAM "ShowMap ""Ald Redaynia"""
 -INFO
  INFO.INAM "92079732174779035$00"
@@ -295475,7 +295475,7 @@ Player->AddItem ""amulet_gem_feeding"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Dagon Fel$00"
- INFO.NAME "奥德-瑞达尼亚是一座古代废墟巫师塔楼的所在地，位于谢尔格拉德以西一座大岛的西端。 {提示}"
+ INFO.NAME "奥德-瑞达尼亚是一座古代废墟巫师塔楼的所在地，位于谢尔格拉德以西一座大岛的西端。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -295487,7 +295487,7 @@ Player->AddItem ""amulet_gem_feeding"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "奥德-瑞达尼亚是瓦登费尔北海岸一座古代废墟巫师塔楼的遗址，位于谢尔格拉德以西一座大岛的西端。 {提示}"
+ INFO.NAME "奥德-瑞达尼亚是瓦登费尔北海岸一座古代废墟巫师塔楼的遗址，位于谢尔格拉德以西一座大岛的西端。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -307895,7 +307895,7 @@ Goodbye"
  INFO.NNAM "1029240032337126249$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "felisa ulessen$00"
- INFO.NAME "泰尔-布勒诺拉是西拉那的塔楼。它靠近阿祖拉海岸东南端的一座岛屿。我会在你的地图上标记出来。我相信你可以坐船过去。这可能是最好的方法。 {提示}"
+ INFO.NAME "泰尔-布勒诺拉是西拉那的塔楼。它靠近阿祖拉海岸东南端的一座岛屿。我会在你的地图上标记出来。我相信你可以坐船过去。这可能是最好的方法。 {小费}"
  INFO.BNAM "ShowMap ""Tel Branora"""
 -INFO
  INFO.INAM "1029240032337126249$00"
@@ -307903,7 +307903,7 @@ Goodbye"
  INFO.NNAM "2560614856282545045$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "artisa arelas$00"
- INFO.NAME "泰尔-布勒诺拉是古怪的泰瓦尼巫师西拉那夫人的塔楼和居所。塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {提示}"
+ INFO.NAME "泰尔-布勒诺拉是古怪的泰瓦尼巫师西拉那夫人的塔楼和居所。塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {小费}"
  INFO.BNAM "ShowMap ""Tel Branora""
 ;scout; savant;"
 -INFO
@@ -307912,7 +307912,7 @@ Goodbye"
  INFO.NNAM "2709870112722113492$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Savant$00"
- INFO.NAME "泰尔-布勒诺拉是古怪的泰瓦尼巫师西拉那夫人的塔楼和居所。塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {提示}"
+ INFO.NAME "泰尔-布勒诺拉是古怪的泰瓦尼巫师西拉那夫人的塔楼和居所。塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -307970,7 +307970,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Ahemmusa Camp$00"
- INFO.NAME "泰尔-布勒诺拉塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {提示}"
+ INFO.NAME "泰尔-布勒诺拉塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {小费}"
  INFO.BNAM "ShowMap ""Tel Branora""
 ;scout; savant;"
 -INFO
@@ -307980,7 +307980,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Tel Mora$00"
- INFO.NAME "泰尔-布勒诺拉塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {提示}"
+ INFO.NAME "泰尔-布勒诺拉塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -307993,7 +307993,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.ANAM "Sadrith Mora$00"
- INFO.NAME "泰尔-布勒诺拉塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {提示}"
+ INFO.NAME "泰尔-布勒诺拉塔楼及其小村庄位于阿祖拉海岸最东南端的岩石岬角上。 {小费}"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -308405,7 +308405,7 @@ ModDisposition 10"
  INFO.NNAM "253796133187821347$00"
  INFO.DATA [00 00 00 00 5A 00 00 00 FF FF FF 00]
  INFO.ONAM "gadela andus$00"
- INFO.NAME "好吧，我只告诉你一件事，纳德斯·莎伦在这里的最后一天，我看见他和阿瓦玛·拉瑟利在谈话，不过有段时间没见过他了。去圣·德林区南城河道区看看吧，那是他住的地方。 {老鼠,圣·德林行政区}"
+ INFO.NAME "好吧，我只告诉你一件事，纳德斯·莎伦在这里的最后一天，我看见他和阿瓦玛·拉瑟利在谈话，不过有段时间没见过他了。去圣·德林行政区，运河区南侧看看吧，那是他住的地方。 {老鼠}"
  INFO.BNAM "Journal TG_BrotherThief 25"
 -INFO
  INFO.INAM "253796133187821347$00"
@@ -308632,7 +308632,7 @@ ModDisposition 10"
  INFO.NNAM "10590278472818118334$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
- INFO.NAME "也许她可以用你给她的戒指里的钱，把她从奴隶身份中解放出来。 {奴隶制度}"
+ INFO.NAME "也许她可以用你给她的戒指换的钱，把她从奴隶身份中解放出来。 {奴隶制度}"
  INFO.SCVR "34JX3TG_SS_GreedySlaver"
  INFO.INTV [32 00 00 00]
  #3: Journal-Journal TG_SS_GreedySlaver >= 50
@@ -314151,7 +314151,7 @@ Journal ""MV_MonsterDisease"" 60"
  INFO.NNAM "45701188175111396$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "viatrix petilia$00"
- INFO.NAME "好了，我们到了…真是出人意料。这是你的小费，现在离我远点。 {提示}"
+ INFO.NAME "好了，我们到了…真是出人意料。这是你的小费，现在离我远点。"
  INFO.SCVR "04JX0MV_RichPilgrim"
  INFO.INTV [5F 00 00 00]
  #0: Journal-Journal MV_RichPilgrim = 95
@@ -359280,7 +359280,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "他不是坏人，他让那些坏的犯罪分子乖乖听话，但也没给我们惹多少麻烦。我想他知道我们才是卡莫纳堂的保护伞。"
+ INFO.NAME "他不是坏人，他让那些坏的犯罪分子乖乖听话，但也没给我们惹多少麻烦。我想他知道我们才是遏制卡莫纳堂的关键力量。"
 -INFO
  INFO.INAM "12410075253704398$00"
  INFO.PNAM "21724284202825527367$00"
@@ -380181,7 +380181,7 @@ ModDisposition 10"
  INFO.NNAM "684126774112120405$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sondryn irathi$00"
- INFO.NAME "泰尔-菲尔是一座泰瓦尼塔，位于西南方靠近大陆的一座岛上。让我在你的地图上标记一下。寻找一座高塔、一个码头和一艘船。塔的入口在岛的北端，靠近码头的水面上。天气好的时候，白天很容易看到塔。如果你错过了塔，来到了大陆的海滩，可以沿着海滩来回走动，寻找塔的踪迹；从海滩上可以清楚地看到塔。带上浮空药水，塔里没有楼梯。 {主大陆,提示,这些药水}"
+ INFO.NAME "泰尔-菲尔是一座泰瓦尼塔，位于西南方靠近大陆的一座岛上。让我在你的地图上标记一下。寻找一座高塔、一个码头和一艘船。塔的入口在岛的北端，靠近码头的水面上。天气好的时候，白天很容易看到塔。如果你错过了塔，来到了大陆的海滩，可以沿着海滩来回走动，寻找塔的踪迹；从海滩上可以清楚地看到塔。带上浮空药水，塔里没有楼梯。 {主大陆,小费,这些药水}"
  INFO.BNAM "ShowMap ""Tel Fyr"""
 -INFO
  INFO.INAM "684126774112120405$00"
@@ -396622,7 +396622,7 @@ Goodbye"
  INFO.NNAM "1206330399117963474$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "Synnolian Tunifus$00"
- INFO.NAME "尼希斯是一个拥有小型矿场可以挖掘卵矿和贸易的村庄，位于奥德'汝因和瓦登费尔西北端的阔步沙蚤商队路线上。它是西境之痕最大的定居点，拥有军团驻军、达里乌斯要塞、审判席神殿和贸易行。尼希斯位于瓦达-萨姆西峡谷的北侧；萨姆西河从尼希斯向西一直延伸到内海。要到达尼希斯，可从维威克或赛达-尼恩搭乘阔步沙蚤，然后经巴尔莫拉和奥德'汝因转到尼希斯阔步沙蚤站。 {提示}"
+ INFO.NAME "尼希斯是一个拥有小型矿场可以挖掘卵矿和贸易的村庄，位于奥德'汝因和瓦登费尔西北端的阔步沙蚤商队路线上。它是西境之痕最大的定居点，拥有军团驻军、达里乌斯要塞、审判席神殿和贸易行。尼希斯位于瓦达-萨姆西峡谷的北侧；萨姆西河从尼希斯向西一直延伸到内海。要到达尼希斯，可从维威克或赛达-尼恩搭乘阔步沙蚤，然后经巴尔莫拉和奥德'汝因转到尼希斯阔步沙蚤站。 {小费}"
  INFO.BNAM "ShowMap Gnisis
 ; Synnolian Tunifus; journal IC2_muck >= 1;"
 -INFO
@@ -396742,7 +396742,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 23 00 00 00 FF FF FF 00]
  INFO.ONAM "viatrix petilia$00"
- INFO.NAME "我需要人护送我去幽魂之门圣祠，我需要在两天内赶到那里。你把我安全送到，我会给你小费的。我可没那么多时间，我们出发吧？ {提示,沙尔}"
+ INFO.NAME "我需要人护送我去幽魂之门圣祠，我需要在两天内赶到那里。你把我安全送到，我会给你小费的。我可没那么多时间，我们出发吧？ {沙尔}"
  INFO.SCVR "04JX4MV_RichPilgrim"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal MV_RichPilgrim < 10
@@ -446080,7 +446080,7 @@ Set corkyFollow to 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "stacey$00"
  INFO.DNAM "Thieves Guild$00"
- INFO.NAME "等你成为公会主脑的时候，再来找我谈吧。"
+ INFO.NAME "等你成为公会首脑的时候，再来找我谈吧。"
  INFO.SCVR "34JX3TG_Hostage"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal TG_Hostage >= 100
@@ -453518,7 +453518,7 @@ ShowMap Vas"
  INFO.ONAM "ordinator_high fane$00"
  INFO.NAME "盗窃、非法入侵、殴打、谋杀和藐视审判席都是严重罪行，罪犯必须赔偿或服刑。"
 -DIAL
- DIAL.NAME "提示$00"
+ DIAL.NAME "小费$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "30395244141699816578$00"
@@ -453526,7 +453526,7 @@ ShowMap Vas"
  INFO.NNAM "3000818813188110518$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "viatrix petilia$00"
- INFO.NAME "在我们到达之前没有小费。就像你这种人一样，什么都不做就想得到回报。 {提示,报酬}"
+ INFO.NAME "在我们到达之前没有小费。就像你这种人一样，什么都不做就想得到回报。 {报酬}"
  INFO.SCVR "04JX2MV_RichPilgrim"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal MV_RichPilgrim > 10
@@ -453539,7 +453539,7 @@ ShowMap Vas"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "viatrix petilia$00"
- INFO.NAME "是的，到了那里我会给你小费的。但我们必须在两天内到达，否则你什么也得不到。 {提示}"
+ INFO.NAME "是的，到了那里我会给你小费的。但我们必须在两天内到达，否则你什么也得不到。"
  INFO.SCVR "04JX0MV_RichPilgrim"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal MV_RichPilgrim = 10
