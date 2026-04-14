@@ -29936,7 +29936,7 @@ End yarnarScript"
  INFO.PNAM "1026718551382829414$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "珀西乌斯·默西乌斯感谢我杀死了舒灵·铁心。他举荐我为战士公会领袖。"
+ INFO.NAME "珀西乌斯·默西乌斯感谢我杀死了舒灵·铁心。他举荐我为战士公会的会长。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "FG_KhajiitBounty$00"
@@ -30321,7 +30321,7 @@ End yarnarScript"
  INFO.PNAM "2247512039119775386$00"
  INFO.NNAM "16943170021506831186$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "绅士吉姆·史戴西让我杀死维威克的战士公会会长舒灵·铁心。"
+ INFO.NAME "绅士吉姆·史戴西让我杀死维威克战士公会的会长舒灵·铁心。"
 -INFO
  INFO.INAM "16943170021506831186$00"
  INFO.PNAM "1874510715277563536$00"
@@ -96708,7 +96708,7 @@ Goodbye"
  INFO.ANAM "Mournhold$00"
  INFO.DNAM "Fighters Guild$00"
  INFO.SNAM "Vo\i\m\tHlo_IM069.mp3$00"
- INFO.NAME "战士公会的公会领袖，我们该如何为你服务？"
+ INFO.NAME "战士公会的会长，我们该如何为你服务？"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [05 00 00 00]
  #0: Global-short Random100 <= 5
