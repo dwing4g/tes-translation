@@ -6891,7 +6891,7 @@ You've found my Razor. Good. Can you feel its hunger? Can you feel its frustrati
 
 > SCPT.SCTX DaedraMehrunes s3
 You are brave or foolish. Perhaps both. This, then, is your chance to prove your courage. My Razor, slayer of man and mer, scourge of all who stand before it, lies dormant. Stolen by an unworthy bearer, an elf of little courage or consequence, it lies unused, gathering dust in the Alas Tomb near Molag Mar. Return it to me, mortal. Prove yourself to be a worthy bearer of Mehrunes' Razor.
-你是勇士还是蠢货？也许两者皆是。那么，这是你证明自己勇气的机会。我的剃刀，人类与精灵的杀手，是所有站在它面前的人的灾厄。它正处于休眠状态，它被一个不称职的携带者偷走了，一个没有勇气也没有能力的精灵。它被闲置在莫拉格-玛尔附近的阿拉斯之墓中，积满了灰尘。把它还给我，凡人。证明你是梅鲁涅斯剃刀的合格持有者。
+你是勇士还是蠢货？也许两者皆是。那么，这是你证明自己勇气的机会。我的剃刀，人类与精灵的杀手，是所有站在它面前的人的灾厄。它正处于休眠状态，它被一个不称职的携带者偷走了，一个没有勇气也没有能力的精灵。它被闲置在莫拉格-玛尔附近的阿拉斯墓穴中，积满了灰尘。把它还给我，凡人。证明你是梅鲁涅斯剃刀的合格持有者。
 
 > SCPT.SCTX DaedraMehrunes s4
 I expected little else. Take your leave of this place or die where you stand.
@@ -22816,7 +22816,7 @@ Another aspect of this legend that scholars like myself find interesting is the 
 <BR>
 在一些罕见的学术文献中，马罗巴·苏尔留下了一些故事，这是一些奥德莫瑞语原文中的一些段落，包括“八岁的锻莫就能制造出魔像，而八个锻莫可以像一个那样的默契”<BR>
 <BR>
-这个传说的另一个值得包括笔者在内的学者们注意之处是有关“召唤”的。包括这篇传说在内，都提及锻莫一族有着一种无声的魔法交流手段。甚至连塞伊克教会都有这样的记录。不过，并没有关于“召唤”这一种法术的档案。西罗帝尔的史学家波古希鲁斯·马里耶第一个提出，或许锻莫一族的消失就跟这有关。在第一纪元668年他将其理论化，称，他们的族人被族里的一个能力强大的术士（在一些文献中他被称作卡格瑞纳克“Kagrnak， Kagrenac”）所召集起来，要进行一次“伟大的旅程”，这导致了他们放弃了所有的领土与城市，去一个未知环境的地方继续发展他们高深莫测的文化。<BR>
+这个传说的另一个值得包括笔者在内的学者们注意之处是有关“召唤”的。包括这篇传说在内，都提及锻莫一族有着一种无声的魔法交流手段。甚至连塞伊克教会都有这样的记录。不过，并没有关于“召唤”这一种法术的档案。西罗帝尔的史学家波古希鲁斯·马里耶第一个提出，或许锻莫一族的消失就跟这有关。在第一纪元668年他将其理论化，称，他们的族人被族里的一个能力强大的术士（在一些文献中他被称作卡格瑞纳克“Kagrnak”）所召集起来，要进行一次“伟大的旅程”，这导致了他们放弃了所有的领土与城市，去一个未知环境的地方继续发展他们高深莫测的文化。<BR>
 """
 
 > BOOK.FNAM bookskill_heavy armor4
@@ -50946,7 +50946,7 @@ Ashlander elders complain of prophecies which have been lost to tribal memory du
 <BR>
 尼瑞瓦因<BR>
 <BR>
-灰烬之民坚信尼瑞瓦会回归，重振远古瑞斯戴恩的辉煌。[晨风在帝国人占领之前被古称“瑞斯戴恩”。]灰烬之民说大家族和神殿已经背弃了先知维洛斯的纯洁教义，放弃了祖先崇拜，追随了审判席神殿的伪神，并且拥抱了使高等精灵文明堕落的舒适享乐。另一方面，神殿崇敬圣尼瑞瓦，但拒绝了虚假化身将像食尸鬼一样在人间行走的恶心观念。<BR>
+灰烬之民坚信尼瑞瓦会回归，重振远古瑞斯戴恩的辉煌。[晨风在帝国人占领之前被古称“瑞斯戴恩”。]灰烬之民说大家族和神殿已经背弃了先知维洛斯的纯洁教义，放弃了祖先崇拜，追随了审判席神殿的伪神，并且拥抱了使高等精灵文明堕落的舒适享乐。另一方面，神殿崇敬圣尼瑞瓦，但拒绝了虚假的化身将像食尸鬼一样在人间行走的恶心观念。<BR>
 <BR>
 尼瑞瓦<BR>
 <BR>
@@ -54323,7 +54323,7 @@ Assantus Hansar
 
 > NPC_.FNAM sendus sathis
 Sendus Sathis
-森杜斯·萨提斯
+森达斯·萨提斯
 
 > ACTI.FNAM in_dwrv_crank_00
 Dwarven Crank
@@ -81112,7 +81112,7 @@ The Shoes of St. Rilms have been entrusted to my care.
 
 > INFO.NAME tt_supplymonk 1924371151066818772
 Uvoo Llaren asked me to deliver food and drink to the hermit Sendas Sathis. He lives in the wilderness of Shuran Island between Sheogorad and Vvardenfell. The island is west of the stronghold of Rotheran.
-尤沃·拉伦让我给隐士森达斯·萨西斯送去食物和饮料。他住在谢尔格拉德和瓦登费尔之间的舒兰岛荒野中。该岛在罗瑟兰堡垒的西面。
+尤沃·拉伦让我给隐士森达斯·萨提斯送去食物和饮料。他住在谢尔格拉德和瓦登费尔之间的舒兰岛荒野中。该岛在罗瑟兰堡垒的西面。
 
 > INFO.NAME tt_supplymonk 1972375422714811841
 I delivered food and drink to Sendas Sathis.
@@ -83696,7 +83696,7 @@ At a Shrine to Mehrunes Dagon, I received a vision from the Daedra Prince himsel
 
 > INFO.NAME da_mehrunes 24847217841443619009
 I have agreed to accept Mehrunes Dagon's challenge, though it could mean my death. It seems that the fabled dagger, Mehrunes' Razor, has fallen into the hands of an unworthy bearer. The former owner is now dead, and the Razor lies, hidden and unused in the Alas tomb near Molag Mar. He has tasked me to find the Razor and return it to him. If I can do this, I will have proven myself worthy enough to wield the weapon myself.
-我同意接受梅鲁涅斯·大衮的挑战，尽管这可能意味着我的死亡。传说中的匕首——梅鲁涅斯的剃刀——似乎落入了一个不称职的持有者手中。昔日的主人已经去世，而剃刀则被藏在莫拉格-玛尔附近的阿拉斯坟墓中，无人问津。他委托我找到剃刀并归还给他。如果我能做到这一点，我就证明了自己有足够的价值亲自使用这把武器。 {任务}
+我同意接受梅鲁涅斯·大衮的挑战，尽管这可能意味着我的死亡。传说中的匕首——梅鲁涅斯的剃刀——似乎落入了一个不称职的持有者手中。昔日的主人已经去世，而剃刀则被藏在莫拉格-玛尔附近的阿拉斯墓穴中，无人问津。他委托我找到剃刀并归还给他。如果我能做到这一点，我就证明了自己有足够的价值亲自使用这把武器。 {任务}
 
 > INFO.NAME da_mehrunes 1934515021231484260
 I have returned to the Shrine of Mehrunes Dagon with what I believe was once Mehrunes' Razor. It does not seem to be the weapon of legend anymore. It is rusted and dull, and unfit for use.
@@ -90020,7 +90020,7 @@ You are now a member of the Mages Guild. Welcome, %NextPCRank. When you are read
 
 > INFO.NAME join the mages guild 19816109801401511688
 Perform any duties assigned to you by the masters of the Guild. Learn from them and grow strong. Always share your knowledge freely with other Guild members. Never strike or steal from another guild member. Does this appeal to you?
-执行公会大师分配给你的任何职务。向他们学习，不断强大。经常与其他公会成员自由分享你的知识。绝不攻击或偷窃其他公会成员。这对你有吸引力吗？
+执行公会会长指派给你的各种职务。向他们学习，不断强大。始终与其他公会成员自由分享你的知识。绝不攻击或偷窃其他公会成员。这对你有吸引力吗？
 
 > INFO.BNAM join the mages guild 19816109801401511688 c1
 Yes, I would like to join.
@@ -99408,7 +99408,7 @@ This Dagoth Gares slew the rest of the patrol, but spared the one trooper. He to
 
 > INFO.NAME sixth house base 14693212602900226839
 Only one trooper returned. He died soon after, horribly disfigured with corprus disease, and out of his wits. In his ravings, he spoke of a cavern on the coast -- he called it "Ilunibi." It's not on our maps; try asking locals in Gnaar Mok. They fought with cultists and disfigured man-beasts -- corprus monsters, I think. They fled the attackers and got lost in the caves. Then they ran into a half-man creature named Dagoth Gares.
-派去的部队只有一个士兵或者回来了，而且他很快就死了。尸化病让他面目全非，神志不清。在他的呓语中，他提到了海岸边的一个洞穴，他称之为“伊鲁尼比”。我们的地图上没有这个地方，你可以去问问纳尔-莫克的当地人。士兵们与邪教徒和畸形扭曲的人形怪物战斗——我想应该是尸化病怪物。最终他们拼死逃离了那些袭击者，在山洞里迷了路。然后他们遇到了一个名叫达格斯·加雷斯的半人怪物。 {疾病}
+派去的部队只有一个士兵活着回来了，而且他很快就死了。尸化病让他面目全非，神志不清。在他的呓语中，他提到了海岸边的一个洞穴，他称之为“伊鲁尼比”。我们的地图上没有这个地方，你可以去问问纳尔-莫克的当地人。士兵们与邪教徒和畸形扭曲的人形怪物战斗——我想应该是尸化病怪物。最终他们拼死逃离了那些袭击者，在山洞里迷了路。然后他们遇到了一个名叫达格斯·加雷斯的半人怪物。 {疾病}
 
 > INFO.BNAM sixth house base 14693212602900226839 c1
 Continue
@@ -104262,7 +104262,7 @@ Yes. But you are not the one I envisioned.
 
 > INFO.NAME false incarnate 54798713897229548
 In the past, some have claimed to be the reincarnated Nerevar. The most recent is known as Peakstar, a figure of legend among the Wastes tribes for the last 30 years. The Temple says these false Incarnates disprove the prophecies, since the false Incarnates fail and come to nothing, but the mystical Nerevarine cult glorifies rather than shrinks from contradictions, citing the appearance of "failed Incarnates" as certain proof of Nerevar's coming rebirth.
-过去，有人声称自己是尼瑞瓦的转世。最近的一个如此自称的人被称为峰之星。过去三十年来，她一直是灰烬之地部落的传奇人物。神殿说这些虚假的化身推翻了预言，因为虚假的化身都会失败并归于虚无，但神秘的尼瑞瓦因教派却将之美化而非逃避矛盾，他们将“虚假的化身”的出现作为尼瑞瓦因即将重生的确凿证据。 {老鼠}
+过去，有人声称自己是尼瑞瓦的转世。最近的一个如此自称的人被称为峰之星。过去三十年来，她一直是灰烬之地部落的传奇人物。神殿说这些虚假的化身推翻了预言，因为虚假的化身都会失败并归于虚无，但神秘的尼瑞瓦因教派却将之美化而非逃避矛盾，他们将“失败的化身”的出现作为尼瑞瓦因即将重生的确凿证据。 {老鼠}
 
 > INFO.NAME nerevarine cult 2555422906701421176
 You have destroyed the Devil Dagoth Ur, and ended the Blight in Morrowind. Now, I wonder, will you fulfill the other ancient prophecies of the Nerevarine? Will you drive the foreigners from the land, and restore the ancient lands and rights of the Ashlander peoples?
@@ -109958,7 +109958,7 @@ Sendas Sathis is dead? This is terrible news. Perhaps you can find some other du
 
 > INFO.NAME food and drink 63342103598924386
 You delivered the food and drink? Good.
-你把食物和饮料送来了？是的。
+你把食物和饮料送到了？很好。
 
 > INFO.NAME food and drink 10312138623191928370
 I gave you the food and drink you need. Four kwama eggs and four bottles of Mazte. Take them to Sendas Sathis.
@@ -157184,7 +157184,7 @@ Thank you for asking, %PCName. Normally things are pretty quiet in Ald Velothi, 
 
 > INFO.NAME duties 18246313902218522866
 Not right now, %PCName. Maybe in a few days. Make sure you tell Neminda that you delivered the potion.
-现在不行，%PCName。过几天再来吧。一定要告诉内明达你把药水送来了。
+现在不行，%PCName。过几天再来吧。一定要告诉内明达你把药水送到了。
 
 > INFO.NAME duties 2949213658255959173
 Yes, of course. You've been expelled. These things take time. I believe that eventually everyone will forget about how you broke our rules.
@@ -157764,7 +157764,7 @@ You delivered new orders to Bivale Teneran already. I don't want to use the same
 
 > INFO.NAME scroll 80442377842543662
 Have you delivered the orders to Bivale Teneran?
-你给比薇尔·特纳兰的指示送了吗？
+你把指示送给比薇尔·特纳兰了吗？
 
 > INFO.NAME scroll 2170917326114682948
 Yes, you need to deliver the scroll to Bivale Teneran.
