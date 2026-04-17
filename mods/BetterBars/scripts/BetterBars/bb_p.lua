@@ -4,6 +4,7 @@ core = require('openmw.core')
 storage = require('openmw.storage')
 MODNAME = "BetterBars"
 thicknessSection = storage.playerSection('Settings'..MODNAME.."Size")
+local sharedSection = storage.playerSection('BetterBars_Shared')
 I = require("openmw.interfaces")
 self = require("openmw.self")
 nearby = require('openmw.nearby')
@@ -25,6 +26,8 @@ local statCache = {
 	magicka = resources.magicka(self),
 	fatigue = resources.fatigue(self),
 }
+
+ALTERNATIVE_ICON_COLORS = false
 
 local colorKeys = { health = "HEALTH_COL", magicka = "MAGICKA_COL", fatigue = "FATIGUE_COL" }
 local lagColorKeys = { health = "HEALTHLAG_COL", magicka = "MAGICKALAG_COL", fatigue = "FATIGUELAG_COL" }
@@ -71,6 +74,12 @@ function calculateBarPositions()
 end
 calculateBarPositions()
 
+local function broadcastPosition()
+	if not container then return end
+	local pos = container.layout.props.position
+	sharedSection:set("layout", {posX = pos.x, posY = pos.y})
+end
+
 -- builds a standalone UI root on the HUD layer, one icon per bar, mirroring the main container's layout
 -- called fresh on makeUI and on every drag delta (simple + robust)
 function makeIcons()
@@ -95,7 +104,7 @@ function makeIcons()
 			type = ui.TYPE.Image,
 			props = {
 				resource = iconTextures[resource],
-				color = _G[colorKeys[resource]],
+				color = ALTERNATIVE_ICON_COLORS and  _G[colorKeys[resource]] or _G[colorKeys[resource]],
 				size = v2(iconSize, iconSize),
 				anchor = v2(0, 1),
 				relativePosition = v2(0, 1),
@@ -130,11 +139,12 @@ function makeUI()
 	end
 	borderOffset = BORDER_STYLE == "verythick" and 4 or BORDER_STYLE == "thick" and 3 or BORDER_STYLE == "normal" and 2 or (BORDER_STYLE == "thin" or BORDER_STYLE == "max performance") and 1 or 0
 	borderTemplate =  makeBorder(borderFile, borderColor or nil, borderOffset).borders
+	local iconShift = SHOW_ICONS and (barThickness + 2) or 0
 	container = ui.create({	--root
 		type = ui.TYPE.Widget,
 		layer = LOCKED and 'HUD' or 'Modal',
 		props = {
-			position = POSITION == "Bottom Left" and v2(94,-startOffset) or v2(startOffset,startOffset),
+			position = POSITION == "Bottom Left" and v2(94 + iconShift,-startOffset) or v2(startOffset + iconShift,startOffset),
 			size = v2(-startOffset,3*verticalOffset),
 			anchor = POSITION == "Bottom Left" and v2(0,1) or v2(0,0),
 			relativePosition = POSITION == "Bottom Left" and v2(0,1) or v2(0,0),
@@ -175,6 +185,7 @@ function makeUI()
 					container.layout.props.position = newPosition
 					container:update()
 					makeIcons()
+					broadcastPosition()
 				end
 			end),
 		}
@@ -378,6 +389,7 @@ function makeUI()
 	end
 	-- build icon column after bars so geometry (verticalOffset, barThickness, pos) is settled
 	makeIcons()
+	broadcastPosition()
 end
 
 

@@ -384,6 +384,11 @@ for _, template in pairs(settingsTemplate) do
 		if setting == "POSITION" then
 			saveData.windowPos = nil
 		end
+		if setting == "SHOW_ICONS" and saveData.windowPos then
+			local shift = barThickness + 2
+			if not SHOW_ICONS then shift = -shift end
+			saveData.windowPos = saveData.windowPos + v2(shift, 0)
+		end
 		calculateBarPositions()
 		if container and (setting == "THICKNESS" or setting == "SPACING") then
 			calculateBarPositions() -- barThickness, verticalOffset
