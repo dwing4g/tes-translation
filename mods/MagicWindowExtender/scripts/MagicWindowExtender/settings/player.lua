@@ -3,7 +3,7 @@ local input = require('openmw.input')
 local I = require('openmw.interfaces')
 
 local l10n = core.l10n('MagicWindowExtender')
-local versionString = "1.3.1"
+local versionString = "1.3.2"
 
 local renderers = require('scripts.MagicWindowExtender.ui.renderers')
 

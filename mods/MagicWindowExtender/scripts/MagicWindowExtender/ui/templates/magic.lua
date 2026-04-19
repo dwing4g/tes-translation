@@ -516,6 +516,7 @@ Templates.spellTooltip = function(spellId)
             },
             content = ui.content {
                 {
+                    name = 'spellName',
                     template = BASE.textHeader,
                     props = {
                         text = override and override.name or spellRecord.name,
@@ -523,12 +524,14 @@ Templates.spellTooltip = function(spellId)
                 },
                 BASE.intervalV(4),
                 schoolName and {
+                    name = 'school',
                     template = BASE.textNormal,
                     props = {
                         text = constants.Strings.SCHOOL .. ': ' .. schoolName,
                     }
                 } or {},
                 cost and {
+                    name = 'cost',
                     template = BASE.textNormal,
                     props = {
                         text = costLabel .. ': ' .. cost,
@@ -536,6 +539,7 @@ Templates.spellTooltip = function(spellId)
                 } or {},
                 (schoolName or cost) and BASE.intervalV(4) or {},
                 {
+                    name = 'effects',
                     type = ui.TYPE.Flex,
                     props = {
                         arrange = ui.ALIGNMENT.Start,
@@ -1600,9 +1604,9 @@ local function createSection(data, level)
     -- Sort each group independently
     local sortFn
     if data.sort == constants.Sort.LABEL_ASC then
-        sortFn = function(a, b) return a.label < b.label end
+        sortFn = function(a, b) return a.label:lower() < b.label:lower() end
     elseif data.sort == constants.Sort.LABEL_DESC then
-        sortFn = function(a, b) return a.label > b.label end
+        sortFn = function(a, b) return a.label:lower() > b.label:lower() end
     end
     
     if sortFn then

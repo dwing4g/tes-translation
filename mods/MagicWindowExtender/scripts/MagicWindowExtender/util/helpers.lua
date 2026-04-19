@@ -303,6 +303,16 @@ Helpers.getWeaponInfo = function(item)
     end
 end
 
+Helpers.getWeaponRangeInFeet = function(item)
+    if not types.Weapon.objectIsInstance(item) then
+        return 0
+    end
+    local record = types.Weapon.records[item.recordId]
+    local reach = record.reach or 0
+    local unitsPerFoot = 21.33333333
+    return core.getGMST('fCombatDistance') * reach / unitsPerFoot
+end
+
 Helpers.getEnchantMaxCharge = function(enchantment)
     local cost = math.floor(Helpers.getBaseSpellCost(enchantment.id, true) + 0.5)
     return cost * chargeMult[enchantment.type]
@@ -764,9 +774,9 @@ Helpers.getSpellListOrder = function()
 
         local sortFn
         if section.sort == C.Sort.LABEL_ASC then
-            sortFn = function(a, b) return a.label < b.label end
+            sortFn = function(a, b) return a.label:lower() < b.label:lower() end
         elseif section.sort == C.Sort.LABEL_DESC then
-            sortFn = function(a, b) return a.label > b.label end
+            sortFn = function(a, b) return a.label:lower() > b.label:lower() end
         end
 
         if sortFn then
