@@ -141,6 +141,9 @@ API.addSectionToBox(C.DefaultSections.SPELLS, C.DefaultBoxes.MAGIC, {
     header = {
         label = C.Strings.SPELLS,
         value = function()
+            if configPlayer.tweaks.b_HideSpellCostChance then
+                return { string = '' }
+            end
             return { string = C.Strings.COST_CHANCE, color = C.Colors.DEFAULT_LIGHT }
         end,
     },
@@ -152,6 +155,9 @@ API.addSectionToBox(C.DefaultSections.MAGIC_ITEMS, C.DefaultBoxes.MAGIC, {
     header = {
         label = C.Strings.MAGIC_ITEMS,
         value = function()
+            if configPlayer.tweaks.b_HideItemCostCharge then
+                return { string = '' }
+            end
             return { string = C.Strings.COST_CHARGE, color = C.Colors.DEFAULT_LIGHT }
         end,
     },
@@ -172,7 +178,6 @@ API.addLineToSection(C.DefaultLines.ACTIVE_SPELLS, C.DefaultSections.TOP_BAR, {
         return {
             template = I.MWUI.templates.borders,
             props = {
-                autoSize = false,
                 size = v2(0, API.Templates.MAGIC.LINE_HEIGHT + 2 * API.Templates.MAGIC.BORDER_THICKNESS),
             },
             external = { grow = 1 },
@@ -295,7 +300,6 @@ local bottomBarBuilder = function()
             return {
                 template = I.MWUI.templates.borders,
                 props = {
-                    autoSize = false,
                     size = v2(0, API.Templates.MAGIC.LINE_HEIGHT + 2 * API.Templates.MAGIC.BORDER_THICKNESS),
                 },
                 external = { grow = 1 },
@@ -330,7 +334,6 @@ local bottomBarBuilder = function()
             return {
                 template = I.MWUI.templates.borders,
                 props = {
-                    autoSize = true,
                     size = v2(layout.props.size.x + 2 * API.Templates.MAGIC.BORDER_THICKNESS, API.Templates.MAGIC.LINE_HEIGHT + 2 * API.Templates.MAGIC.BORDER_THICKNESS),
                 },
                 content = ui.content {
@@ -346,10 +349,16 @@ local bottomBarBuilder = function()
 
     API.addLineToSection(C.DefaultLines.DELETE_BUTTON, C.DefaultSections.BOTTOM_BAR, {
         type = C.LineType.CUSTOM,
-        layoutFn = function() 
+        layoutFn = function()
+            if configPlayer.tweaks.s_DeleteButtonStyle == 'TweakDeleteButtonStyle_Disabled' then
+                return {}
+            end
             return API.Templates.MAGIC.deleteButton()
         end,
-        noUpdate = true,
+        visibleFn = function()
+            return configPlayer.tweaks.s_DeleteButtonStyle ~= 'TweakDeleteButtonStyle_Disabled'
+        end,
+        staticLayout = true,
     })
 end
 API.modifySection(C.DefaultSections.BOTTOM_BAR, {

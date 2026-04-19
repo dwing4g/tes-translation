@@ -25,7 +25,7 @@ local Templates = {}
 
 Templates.HEADER_HEIGHT = 20
 Templates.BORDER_WIDTH_TOTAL = 4 * (intRe and 2 or 4)
-Templates.TEXT_SIZE = configPlayer.window.i_FontSize
+Templates.TEXT_SIZE = BASE.TEXT_SIZE
 Templates.LINE_HEIGHT = Templates.TEXT_SIZE + 2
 Templates.SECTION_DIVIDER_HEIGHT = Templates.LINE_HEIGHT
 Templates.SECTION_INDENT_L = 12
@@ -40,6 +40,10 @@ Templates.MIN_HEIGHT = 4 +
     Templates.BOX_INNER_PADDING * 2 + 
     Templates.LINE_HEIGHT * 3
 Templates.MIN_INNER_WIDTH = 60
+Templates.MIN_WIDTH = 
+    Templates.MIN_INNER_WIDTH + 
+    Templates.BORDER_WIDTH_TOTAL + 
+    Templates.BOX_OUTER_PADDING * 2
 
 Templates.active = false
 Templates.focusedScrollable = nil
@@ -103,7 +107,7 @@ Templates.interactive = function(props, layout)
         return Templates.activeTooltip
     end
 
-    local element = layout.layout and layout or ui.create(layout)
+    local element = layout.layout and layout or ui.create(layout, { noWarnUnused = true })
 
     element.layout.userData = element.layout.userData or {}
     element.layout.userData.interactive = true
@@ -493,6 +497,15 @@ Templates.spellTooltip = function(spellId)
         schoolName = core.stats.Skill.records[effectiveSchool].name
     end
 
+    local costLabel = helpers.split(constants.Strings.COST_CHANCE, '/')[1] or 'Cost'
+    local cost, chance
+    if spellRecord.type == core.magic.SPELL_TYPE.Spell and configPlayer.tweaks.b_HideSpellCostChance then
+        cost, chance = helpers.getModifiedSpellCost(spellId, false), helpers.getSpellCastChance(spellId)
+        if chance then
+            cost = util.round(cost) .. ' (' .. util.round(chance) .. '%)'
+        end
+    end
+
     return Templates.tooltip(8, ui.content {
         {
             name = 'tooltip',
@@ -515,7 +528,13 @@ Templates.spellTooltip = function(spellId)
                         text = constants.Strings.SCHOOL .. ': ' .. schoolName,
                     }
                 } or {},
-                schoolName and BASE.intervalV(4) or {},
+                cost and {
+                    template = BASE.textNormal,
+                    props = {
+                        text = costLabel .. ': ' .. cost,
+                    }
+                } or {},
+                (schoolName or cost) and BASE.intervalV(4) or {},
                 {
                     type = ui.TYPE.Flex,
                     props = {
@@ -531,136 +550,234 @@ Templates.spellTooltip = function(spellId)
 end
 
 Templates.itemTooltip = function(item)
+    local base
     local itemRecord = item.type.record(item)
-    local itemData = types.Item.itemData(item)
-    local effectLayouts = {}
 
-    local enchantment
-    local castTypeString
-    local doCharge
-    local maxCharge
-    if itemRecord.enchant then
-        enchantment = core.magic.enchantments.records[itemRecord.enchant]
-        local override = I.MagicWindow.Spells.getCustomSpell(itemRecord.enchant)
-        for i, effect in ipairs(override and override.effects or enchantment.effects) do
-            local effectLayout = {
-                type = ui.TYPE.Flex,
-                props = {
-                    horizontal = true,
-                    arrange = ui.ALIGNMENT.Center,
-                },
-                content = ui.content {
-                    Templates.effectIcon(effect.id),
-                    BASE.intervalH(4),
-                    {
-                        template = BASE.textNormal,
-                        props = {
-                            text = helpers.createSpellEffectString(effect, enchantment.type == core.magic.ENCHANTMENT_TYPE.ConstantEffect),
-                        }
-                    }
-                }
-            }
-            if i ~= 1 then
-                table.insert(effectLayouts, BASE.intervalV(8))
+    if I.InventoryExtender then
+        local window = I.InventoryExtender.getWindow('Inventory')
+        local ctx = window and window.ctx
+        base = I.InventoryExtender.Templates.MAGIC.itemTooltip(item, false, ctx)
+    else
+        local function textNormal(name, text)
+            return { name = name, template = BASE.textNormal, props = { text = text } }
+        end
+        local function textHeader(name, text)
+            return { name = name, template = BASE.textHeader, props = { text = text } }
+        end
+
+        local itemData = types.Item.itemData(item)
+
+        local nameString = itemRecord.name
+        if item.count > 1 then
+            nameString = nameString .. ' (' .. tostring(item.count) .. ')'
+        end
+
+        local innerContent = ui.content {}
+
+        innerContent:add(textHeader('name', nameString))
+        innerContent:add(BASE.intervalV(4))
+
+        local conditionString
+        local condition = types.Item.itemData(item).condition
+        local maxCondition = itemRecord.health
+        if condition and maxCondition then
+            conditionString = constants.Strings.CONDITION .. ': ' .. util.round(condition) .. '/' .. util.round(maxCondition)
+        end
+
+        if types.Armor.objectIsInstance(item) then
+            innerContent:add(textNormal('armorRating', constants.Strings.ARMOR_RATING .. ': ' .. math.modf(I.Combat.getEffectiveArmorRating(item, omwself))))
+            innerContent:add(textNormal('condition', conditionString))
+        end
+
+        if types.Weapon.objectIsInstance(item) then
+            local weaponInfo = helpers.getWeaponInfo(item)
+            if weaponInfo then
+                innerContent:add(textNormal('type', constants.Strings.TYPE .. ' ' .. core.getGMST('sSkill' .. weaponInfo.skill)))
+                
+                if weaponInfo.class == constants.WeaponClass.Melee then
+                    local handedString = weaponInfo.isTwoHanded and constants.Strings.TWO_HANDED or constants.Strings.ONE_HANDED
+                    innerContent.type.props.text = innerContent.type.props.text .. ', ' .. handedString
+                    innerContent:add(textNormal('chop', constants.Strings.CHOP .. ': ' .. itemRecord.chopMinDamage .. ' - ' .. itemRecord.chopMaxDamage))
+                    innerContent:add(textNormal('slash', constants.Strings.SLASH .. ': ' .. itemRecord.slashMinDamage .. ' - ' .. itemRecord.slashMaxDamage))
+                    innerContent:add(textNormal('thrust', constants.Strings.THRUST .. ': ' .. itemRecord.thrustMinDamage .. ' - ' .. itemRecord.thrustMaxDamage))
+                else
+                    local attackMin, attackMax = itemRecord.chopMinDamage, itemRecord.chopMaxDamage
+                    if weaponInfo.class == constants.WeaponClass.Thrown then
+                        attackMin = attackMin * 2
+                        attackMax = attackMax * 2
+                    end
+                    innerContent:add(textNormal('attack', constants.Strings.ATTACK .. ': ' .. attackMin .. ' - ' .. attackMax)) 
+                end
+
+                if weaponInfo.class == constants.WeaponClass.Melee or weaponInfo.class == constants.WeaponClass.Ranged then
+                    innerContent:add(textNormal('condition', conditionString))
+                end
+
+                if weaponInfo.class == constants.WeaponClass.Melee then
+                    innerContent:add(textNormal('range', constants.Strings.RANGE .. ': ' .. helpers.roundToPlaces(helpers.getWeaponRangeInFeet(item), 1) .. ' ' .. constants.Strings.FEET)) 
+                end
+
+                if weaponInfo.class ~= constants.WeaponClass.Ammo then
+                    innerContent:add(textNormal('speed', constants.Strings.SPEED .. ': ' .. util.round(itemRecord.speed * 100) .. '%')) 
+                end
             end
-            table.insert(effectLayouts, effectLayout)
         end
 
-        if enchantment.type == core.magic.ENCHANTMENT_TYPE.CastOnStrike then
-            castTypeString = constants.Strings.ITEM_CAST_WHEN_STRIKES
-            doCharge = true
-        elseif enchantment.type == core.magic.ENCHANTMENT_TYPE.CastOnUse then
-            castTypeString = constants.Strings.ITEM_CAST_WHEN_USED
-            doCharge = true
-        elseif enchantment.type == core.magic.ENCHANTMENT_TYPE.CastOnce then
-            castTypeString = constants.Strings.ITEM_CAST_ONCE
-        elseif enchantment.type == core.magic.ENCHANTMENT_TYPE.ConstantEffect then
-            castTypeString = constants.Strings.ITEM_CAST_CONSTANT
+        if itemRecord.maxCondition then
+            innerContent:add(textNormal('condition', constants.Strings.USES .. ': ' .. itemData.condition))
         end
 
-        if enchantment.autocalcFlag then
-            maxCharge = helpers.getEnchantMaxCharge(enchantment)
-        else
-            maxCharge = enchantment.charge
+        if itemRecord.quality then
+            innerContent:add(textNormal('quality', constants.Strings.QUALITY .. ': ' .. helpers.roundToPlaces(itemRecord.quality, 3)))
         end
-    end
 
-    local nameString = itemRecord.name
-    if item.count > 1 then
-        nameString = nameString .. ' (' .. tostring(item.count) .. ')'
-    end
+        if itemRecord.weight > 0 then
+            innerContent:add(textNormal('weight', constants.Strings.WEIGHT .. ': ' .. helpers.roundToPlaces(itemRecord.weight, 3)))
+            if types.Armor.objectIsInstance(item) then
+                local skill = I.Combat.getArmorSkill(item)
+                local skillString
+                if skill == 'lightarmor' then
+                    skillString = constants.Strings.LIGHT
+                elseif skill == 'mediumarmor' then
+                    skillString = constants.Strings.MEDIUM
+                elseif skill == 'heavyarmor' then
+                    skillString = constants.Strings.HEAVY
+                else
+                    skillString = core.getGMST('sSkill' .. skill)
+                end
+                innerContent.weight.props.text = innerContent.weight.props.text .. ' (' .. skillString .. ')'
+            end
+        end
 
-    return Templates.tooltip(8, ui.content {
-        {
-            name = 'tooltip',
-            type = ui.TYPE.Flex,
-            props = {
-                align = ui.ALIGNMENT.Center,
-                arrange = ui.ALIGNMENT.Center,
-            },
-            content = ui.content {
-                {
-                    template = BASE.textHeader,
-                    props = {
-                        text = nameString,
-                    }
-                },
-                BASE.intervalV(4),
-                {
-                    template = BASE.textNormal,
-                    props = {
-                        text = constants.Strings.ITEM_WEIGHT .. ': ' .. helpers.roundToPlaces(itemRecord.weight, 3),
-                    }
-                },
-                {
-                    template = BASE.textNormal,
-                    props = {
-                        text = constants.Strings.ITEM_VALUE .. ': ' .. (itemRecord.value)
-                    }
-                },
-                castTypeString and {
-                    template = BASE.textNormal,
-                    props = {
-                        text = castTypeString,
-                    }
-                },
-                itemRecord.enchant and BASE.intervalV(4) or {},
-                itemRecord.enchant and {
-                    type = ui.TYPE.Flex,
-                    props = {
-                        arrange = ui.ALIGNMENT.Start,
-                    },
-                    content = ui.content {
-                        table.unpack(effectLayouts)
-                    }
-                } or {},
-                doCharge and BASE.intervalV(8) or {},
-                doCharge and {
+        local value = util.round(itemRecord.value)
+        if value > 0 and itemRecord.id ~= 'gold_001' then
+            innerContent:add(textNormal('value', constants.Strings.VALUE .. ': ' .. value))
+        end
+
+        local effectLayouts = {}
+
+        local enchantment
+        local castTypeString
+        local doCharge
+        local maxCharge
+        if itemRecord.enchant then
+            enchantment = core.magic.enchantments.records[itemRecord.enchant]
+            local override = I.MagicWindow and I.MagicWindow.Spells.getCustomSpell(itemRecord.enchant)
+            for i, effect in ipairs(override and override.effects or enchantment.effects) do
+                local effectLayout = {
                     type = ui.TYPE.Flex,
                     props = {
                         horizontal = true,
                         arrange = ui.ALIGNMENT.Center,
                     },
                     content = ui.content {
-                        {
-                            template = BASE.textNormal,
-                            props = {
-                                text = constants.Strings.CHARGE,
-                            }
-                        },
-                        BASE.intervalH(5),
-                        Templates.progressBar {
-                            value = itemData.enchantmentCharge or 0,
-                            maxValue = maxCharge,
-                            size = v2(204, Templates.LINE_HEIGHT),
-                            color = constants.Colors.BAR_HEALTH,
-                            textColor = constants.Colors.DEFAULT,
-                        }
+                        Templates.effectIcon(effect.id),
+                        BASE.intervalH(4),
+                        textNormal('effect_' .. i, helpers.createSpellEffectString(effect, enchantment.type == core.magic.ENCHANTMENT_TYPE.ConstantEffect)),
                     }
-                } or {},
+                }
+                if i ~= 1 then
+                    table.insert(effectLayouts, BASE.intervalV(8))
+                end
+                table.insert(effectLayouts, effectLayout)
+            end
+
+            if enchantment.type == core.magic.ENCHANTMENT_TYPE.CastOnStrike then
+                castTypeString = constants.Strings.ITEM_CAST_WHEN_STRIKES
+                doCharge = true
+            elseif enchantment.type == core.magic.ENCHANTMENT_TYPE.CastOnUse then
+                castTypeString = constants.Strings.ITEM_CAST_WHEN_USED
+                doCharge = true
+            elseif enchantment.type == core.magic.ENCHANTMENT_TYPE.CastOnce then
+                castTypeString = constants.Strings.ITEM_CAST_ONCE
+            elseif enchantment.type == core.magic.ENCHANTMENT_TYPE.ConstantEffect then
+                castTypeString = constants.Strings.ITEM_CAST_CONSTANT
+            end
+
+            if enchantment.autocalcFlag then
+                maxCharge = helpers.getEnchantMaxCharge(enchantment)
+            else
+                maxCharge = enchantment.charge
+            end
+        end
+
+        if castTypeString then
+            innerContent:add(textNormal('castType', castTypeString))
+        end
+
+        if itemRecord.enchant then
+            innerContent:add(BASE.intervalV(4))
+            innerContent:add({
+                name = 'effects',
+                type = ui.TYPE.Flex,
+                props = {
+                    arrange = ui.ALIGNMENT.Start,
+                },
+                content = ui.content {
+                    table.unpack(effectLayouts)
+                }
+            })
+        end
+
+        if doCharge then
+            innerContent:add(BASE.intervalV(8))
+            innerContent:add({
+                name = 'charge',
+                type = ui.TYPE.Flex,
+                props = {
+                    horizontal = true,
+                    arrange = ui.ALIGNMENT.Center,
+                },
+                content = ui.content {
+                    textNormal(nil, constants.Strings.CHARGE),
+                    BASE.intervalH(5),
+                    Templates.progressBar {
+                        value = itemData.enchantmentCharge or 0,
+                        maxValue = maxCharge,
+                        size = v2(204, Templates.LINE_HEIGHT),
+                        color = constants.Colors.BAR_HEALTH,
+                        textColor = constants.Colors.DEFAULT,
+                    }
+                }
+            })
+        end
+
+        if #innerContent == 2 then
+            innerContent[2] = nil -- remove extra interval if no details
+        end
+
+        base = Templates.tooltip(8, ui.content {
+            {
+                name = 'tooltip',
+                type = ui.TYPE.Flex,
+                props = {
+                    align = ui.ALIGNMENT.Center,
+                    arrange = ui.ALIGNMENT.Center,
+                },
+                content = innerContent,
             }
-        }
-    }, item.id)
+        }, item.id)
+    end
+
+    local innerContent = base.content.padding.content.tooltip.content
+
+    local costLabel = helpers.split(constants.Strings.COST_CHARGE, '/')[1] or 'Cost'
+    local cost
+    if configPlayer.tweaks.b_HideItemCostCharge and core.magic.enchantments.records[itemRecord.enchant].type ~= core.magic.ENCHANTMENT_TYPE.CastOnce then
+        cost = helpers.getModifiedSpellCost(itemRecord.enchant, true)
+        local idx = innerContent:indexOf('castType')
+        if idx then
+            innerContent:insert(idx + 1, {
+                name = 'cost',
+                template = BASE.textNormal,
+                props = {
+                    text = costLabel .. ': ' .. (cost and util.round(cost) or '0'),
+                }
+            })
+        end
+    end
+
+    return base
 end
 
 Templates.headerTooltip = function(title, description, subDescription, name)
@@ -806,6 +923,7 @@ Templates.schoolFilter = function()
             horizontal = true,
             autoSize = false,
             size = v2((Templates.LINE_HEIGHT) * #schools + 2, Templates.LINE_HEIGHT - 2),
+            position = v2(0, 1),
         },
         content = ui.content {},
     }
@@ -958,7 +1076,7 @@ end
 
 Templates.deleteButton = function()
     local base
-    if configPlayer.tweaks.b_DeleteButtonIcon then
+    if configPlayer.tweaks.s_DeleteButtonStyle == 'TweakDeleteButtonStyle_Icon' then
         base = BASE.imageButton('textures/MagicWindowExtender/delete.dds', v2(Templates.LINE_HEIGHT - 2 * Templates.BORDER_THICKNESS, Templates.LINE_HEIGHT - 2 * Templates.BORDER_THICKNESS))
     else
         base = BASE.button(constants.Strings.DELETE, function() end)
@@ -1020,7 +1138,7 @@ Templates.effectIcon = function(effectId)
     local layout = {
         type = ui.TYPE.Image,
         props = {
-            size = v2(16, 16),
+            size = v2(Templates.LINE_HEIGHT - 2, Templates.LINE_HEIGHT - 2),
             resource = BASE.createTexture(effectRecord.icon),
         },
         userData = {
@@ -1037,6 +1155,7 @@ Templates.activeSpells = function()
         name = 'activeSpellList',
         type = ui.TYPE.Flex,
         props = {
+            position = v2(1, 1),
             horizontal = true,
         },
         content = ui.content {},
@@ -1078,11 +1197,9 @@ end
 Templates.updateValues = function(layout)
     local anyValChanged, anyVisChanged = false, false
 
-    local title = layout.content.foreground.content.header.content.title
-    local currentName = getMagicName()
-    if title.props.text ~= currentName then
-        title.props.text = currentName
-        anyValChanged = true
+    local selectedMagicName = getMagicName()
+    if layout.userData.getTitle() ~= selectedMagicName then
+        layout.userData.setTitle(selectedMagicName)
     end
 
     for _, line in ipairs(Templates.linesToProcess) do
@@ -1193,19 +1310,9 @@ Templates.updateMagicWindow = function(layout, updateValues)
         anyValChanged, anyVisChanged = Templates.updateValues(layout)
     end
 
-    local minWidth = Templates.MIN_INNER_WIDTH + Templates.BORDER_WIDTH_TOTAL + Templates.BOX_OUTER_PADDING * 2
-
-    layout.props.size = util.vector2(
-        math.max(layout.props.size.x, minWidth),
-        math.max(layout.props.size.y, Templates.MIN_HEIGHT)
-    )
-
-    local windowWidth = layout.props.size.x
-    local windowHeight = layout.props.size.y
-    local innerWidth = windowWidth - Templates.BORDER_WIDTH_TOTAL
-    local innerHeight = windowHeight - Templates.BORDER_WIDTH_TOTAL - Templates.HEADER_HEIGHT
-    local availableWidth = innerWidth - 2 * Templates.BOX_OUTER_PADDING
-    local availableHeight = innerHeight - 2 * Templates.BOX_OUTER_PADDING
+    local innerSize = layout.userData.getInnerSize()
+    local availableWidth = innerSize.x - 2 * Templates.BOX_OUTER_PADDING
+    local availableHeight = innerSize.y - 2 * Templates.BOX_OUTER_PADDING
     
     local body = layout.content.foreground.content.body
     local mainPane = body.content[constants.Panes.MAIN]
@@ -1409,7 +1516,6 @@ local function createSection(data, level)
     local section = {
         name = data.id,
         props = {
-            autoSize = false,
             relativeSize = v2(1, 0),
             visible = true,
         },
@@ -1708,7 +1814,7 @@ local function createPane(paneId, boxes)
     return Templates.pane(paneId, content)
 end
 
-Templates.magicWindow = function(sections, allowPin, scrollPosList)
+Templates.magicWindow = function(sections, isStatic, scrollPosList)
     Templates.linesToProcess = {}
 
     storedScrollPos = scrollPosList or {}
@@ -1719,33 +1825,51 @@ Templates.magicWindow = function(sections, allowPin, scrollPosList)
 
     local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
 
-    local selfRecord = omwself.type.records[omwself.recordId]
+    local ieCtx = I.InventoryExtender and I.InventoryExtender.getWindow('Inventory') and I.InventoryExtender.getWindow('Inventory').ctx
 
-    local base = BASE.containerWithHeader(getMagicName(), {
-        createPane(constants.Panes.MAIN, sections[constants.Panes.MAIN] or {}),
-    })
+    local pinned = storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):get('b_MagicWindowPinned') or nil
 
-    base.layer = 'Windows'
+    local base = BASE.window(
+        getMagicName(), 
+        {
+            createPane(constants.Panes.MAIN, sections[constants.Panes.MAIN] or {}),
+        },
+        not isStatic,
+        function(layout, dragType)
+            if dragType ~= constants.DragType.Move then
+                Templates.updateMagicWindow(layout, false)
+            end
+        end,
+        function(layout)
+            local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
+            storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('d_MagicWindowDimensions', {
+                x = helpers.roundToPlaces(layout.props.position.x / layerSize.x, 6),
+                y = helpers.roundToPlaces(layout.props.position.y / layerSize.y, 6),
+                w = helpers.roundToPlaces(layout.props.size.x / layerSize.x, 6),
+                h = helpers.roundToPlaces(layout.props.size.y / layerSize.y, 6),
+            })
+        end,
+        not isStatic,
+        pinned,
+        function(newPinned)
+            storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('b_MagicWindowPinned', newPinned)
+        end,
+        ieCtx
+    )
+
     local minWidth = Templates.MIN_INNER_WIDTH + Templates.BORDER_WIDTH_TOTAL + Templates.BOX_OUTER_PADDING * 2
-    base.props = {
+    base.layout.props = {
         position = util.vector2(
-            windowOptions.f_MagicWindowX * layerSize.x,
-            windowOptions.f_MagicWindowY * layerSize.y
+            windowOptions.d_MagicWindowDimensions.x * layerSize.x,
+            windowOptions.d_MagicWindowDimensions.y * layerSize.y
         ),
         size = util.vector2(
-            math.max(windowOptions.f_MagicWindowW * layerSize.x, minWidth),
-            math.max(windowOptions.f_MagicWindowH * layerSize.y, Templates.MIN_HEIGHT)
+            math.max(windowOptions.d_MagicWindowDimensions.w * layerSize.x, minWidth),
+            math.max(windowOptions.d_MagicWindowDimensions.h * layerSize.y, Templates.MIN_HEIGHT)
         ),
     }
-
-    if allowPin then
-        local pinButton = BASE.pinButton(windowOptions.b_MagicWindowPinned, function(isPinned)
-            storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('b_MagicWindowPinned', isPinned)
-        end)
-        pinButton.layout.props.anchor = v2(1, 0)
-        pinButton.layout.props.relativePosition = v2(1, 0)
-        base.content:add(pinButton)
-    end
+    base.layout.userData.minWidth = minWidth
+    base.layout.userData.minHeight = Templates.MIN_HEIGHT
 
     return base
 end

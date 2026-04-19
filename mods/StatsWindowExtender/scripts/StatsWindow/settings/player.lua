@@ -6,7 +6,11 @@ local ui = require('openmw.ui')
 local util = require('openmw.util')
 
 local l10n = core.l10n('StatsWindow')
-local versionString = "1.2.4"
+local versionString = "1.3.0"
+
+local renderers = require('scripts.StatsWindow.ui.renderers')
+
+I.Settings.registerRenderer('SWE_windowDimensions', renderers.windowDimensions)
 
 -- Settings page
 I.Settings.registerPage {
@@ -75,15 +79,14 @@ I.Settings.registerGroup {
             default = true,
         },
         {
-            key = 'i_FontSize',
+            key = 'i_TextSizeOverride',
             renderer = 'number',
-            name = 'FontSize',
-            description = 'FontSizeDesc',
-            default = 16,
+            name = 'TextSizeOverride',
+            description = 'TextSizeOverrideDesc',
+            default = 0,
             argument = {
                 integer = true,
-                min = 12,
-                max = 18,
+                min = 0,
             }
         },
         {
@@ -139,45 +142,16 @@ I.Settings.registerGroup {
             default = false,
         },
         {
-            key = 'f_StatsX',
-            renderer = 'number',
-            name = 'StatWindowX',
-            default = 0.015,
-            argument = {
-                min = 0,
-                max = 1,
+            key = 'd_StatsDimensions',
+            renderer = 'SWE_windowDimensions',
+            name = 'StatWindowDimensions',
+            default = {
+                x = 0.015,
+                y = 0.015,
+                w = 0.4275,
+                h = 0.45,
             }
-        },
-        {
-            key = 'f_StatsY',
-            renderer = 'number',
-            name = 'StatWindowY',
-            default = 0.015,
-            argument = {
-                min = 0,
-                max = 1,
-            }
-        },
-        {
-            key = 'f_StatsW',
-            renderer = 'number',
-            name = 'StatWindowW',
-            default = 0.4275,
-            argument = {
-                min = 0,
-                max = 1,
-            }
-        },
-        {
-            key = 'f_StatsH',
-            renderer = 'number',
-            name = 'StatWindowH',
-            default = 0.45,
-            argument = {
-                min = 0,
-                max = 1,
-            }
-        },
+        }
     },
 }
 
@@ -194,21 +168,21 @@ I.Settings.registerGroup {
             renderer = 'checkbox',
             name = 'RestyleBountyAndRep',
             description = 'RestyleBountyAndRepDesc',
-            default = false,
+            default = true,
         },
         {
             key = 'b_HideZeroBounty',
             renderer = 'checkbox',
             name = 'HideZeroBounty',
             description = 'HideZeroBountyDesc',
-            default = false,
+            default = true,
         },
         {
             key = 'b_FactionAndRepOnLeft',
             renderer = 'checkbox',
             name = 'FactionAndRepOnLeft',
             description = 'FactionAndRepOnLeftDesc',
-            default = false,
+            default = true,
         },
         {
             key = 'i_MaxFactionRepLines',
@@ -226,14 +200,14 @@ I.Settings.registerGroup {
             renderer = 'checkbox',
             name = 'BirthsignOnLeft',
             description = 'BirthsignOnLeftDesc',
-            default = false,
+            default = true,
         },
         {
             key = 'b_ShowFactionRankInList',
             renderer = 'select',
             name = 'ShowFactionRankInList',
             description = 'ShowFactionRankInListDesc',
-            default = 'ShowFactionRankInList_Off',
+            default = 'ShowFactionRankInList_Number',
             argument = {
                 l10n = 'StatsWindow',
                 items = {
@@ -248,14 +222,14 @@ I.Settings.registerGroup {
             renderer = 'checkbox',
             name = 'ShowFactionRepInTooltip',
             description = 'ShowFactionRepInTooltipDesc',
-            default = false,
+            default = true,
         },
         {
             key = 's_HouseNameDisplay',
             renderer = 'select',
             name = 'HouseNameDisplay',
             description = 'HouseNameDisplayDesc',
-            default = 'HouseNameDisplay_Full',
+            default = 'HouseNameDisplay_Partial',
             argument = {
                 l10n = 'StatsWindow',
                 items = {

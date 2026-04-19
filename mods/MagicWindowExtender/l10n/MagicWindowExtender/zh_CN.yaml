@@ -15,14 +15,12 @@ ReplaceVanillaWindowDesc: |-
   替换游戏内置的魔法窗口。
   如果禁用，仍可通过按键绑定访问扩展窗口。
   启用手柄菜单时无效。
-FontSize: 字体大小
-FontSizeDesc: |-
-  最小值：12，最大值：18，默认值：16
+TextSizeOverride: 替换文字大小
+TextSizeOverrideDesc: |-
+  替换魔法窗口中使用的默认文字大小。
+  将数值设为0即可使用游戏的默认大小。
 MagicWindowPinned: 魔法窗口置顶
-MagicWindowX: 魔法窗口 X 坐标 (0.0 - 1.0)
-MagicWindowY: 魔法窗口 Y 坐标 (0.0 - 1.0)
-MagicWindowW: 魔法窗口宽度 (0.0 - 1.0)
-MagicWindowH: 魔法窗口高度 (0.0 - 1.0)
+MagicWindowDimensions: 魔法窗口尺寸
 
 ConfigCategoryTweaks: 调整选项
 TweakSpellIcons: 法术图标
@@ -53,9 +51,21 @@ TweakMarkUsedPowersDesc: |-
 TweakSearchBarOnTop: 搜索栏置顶
 TweakSearchBarOnTopDesc: |-
   将底部栏（搜索、筛选等）移至窗口顶部。
-TweakDeleteButtonIcon: 删除按钮图标
-TweakDeleteButtonIconDesc: |-
-  为删除按钮使用垃圾桶图标而非文字。
+TweakDeleteButtonStyle: 删除按钮样式
+TweakDeleteButtonStyleDesc: |-
+  选择删除按钮的样式，或者完全禁用。
+  如果禁用，你仍可以通过在列表中按住shift键并点击来删除法术。
+TweakDeleteButtonStyle_Icon: 图标
+TweakDeleteButtonStyle_Text: 文字
+TweakDeleteButtonStyle_Disabled: 禁用
+TweakHideSpellCostChance: 隐藏法术的耗能/成功率
+TweakHideSpellCostChanceDesc: |-
+  在法术列表中隐藏法术的耗能和成功率信息。
+  这些信息将被移到工具提示中。
+TweakHideItemCostCharge: 隐藏物品的耗能/成功率
+TweakHideItemCostChargeDesc: |-
+  在法术列表中隐藏魔法物品的耗能和成功率信息。
+  这些信息将被移到工具提示中。
 
 ConfigCategoryModIntegration: 模组集成
 InterfaceReimagined: 界面重构支持

@@ -25,9 +25,9 @@ API.TooltipBuilders = {
     TEXT = function(params)
         return API.Templates.STATS.tooltip(4, ui.content {
             {
-                template = API.Templates.BASE.textParagraph,
+                template = params.line and API.Templates.BASE.textNormal or API.Templates.BASE.textParagraph,
                 props = {
-                    size = util.vector2(params.width or 300, 0),
+                    size = util.vector2(params.line and 0 or (params.width or 300), 0),
                     text = params.text or '',
                     autoSize = true,
                 }

@@ -23,4 +23,18 @@ tweaks:subscribe(async:callback(updateConfig))
 modIntegration:subscribe(async:callback(updateConfig))
 misc:subscribe(async:callback(updateConfig))
 
+-- Migrate old settings to new format
+if configPlayer.window.f_StatsX then
+	window:set('d_StatsDimensions', {
+		x = configPlayer.window.f_StatsX,
+		y = configPlayer.window.f_StatsY,
+		w = configPlayer.window.f_StatsW,
+		h = configPlayer.window.f_StatsH,
+	})
+	window:set('f_StatsX', nil)
+	window:set('f_StatsY', nil)
+	window:set('f_StatsW', nil)
+	window:set('f_StatsH', nil)
+end
+
 return configPlayer

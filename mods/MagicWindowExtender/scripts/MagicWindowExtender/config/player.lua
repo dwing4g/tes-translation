@@ -23,4 +23,18 @@ tweaks:subscribe(async:callback(updateConfig))
 modIntegration:subscribe(async:callback(updateConfig))
 misc:subscribe(async:callback(updateConfig))
 
+-- Migrate old settings to new format
+if configPlayer.window.f_MagicWindowX then
+	window:set('d_MagicWindowDimensions', {
+		x = configPlayer.window.f_MagicWindowX,
+		y = configPlayer.window.f_MagicWindowY,
+		w = configPlayer.window.f_MagicWindowW,
+		h = configPlayer.window.f_MagicWindowH,
+	})
+	window:set('f_MagicWindowX', nil)
+	window:set('f_MagicWindowY', nil)
+	window:set('f_MagicWindowW', nil)
+	window:set('f_MagicWindowH', nil)
+end
+
 return configPlayer

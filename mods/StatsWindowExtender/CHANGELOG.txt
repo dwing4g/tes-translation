@@ -1,3 +1,8 @@
+1.3.0 (4/17/26)
+- Made window clamp to screen edges when dragging
+- Made drag icons properly replace the cursor
+- Fixed logspam on OpenMW 0.51+ (dependent mods with invalid properties will still need to be patched)
+
 1.2.4 (1/10/26)
 - Fixed dynamic stat displays not accounting for modifier
 

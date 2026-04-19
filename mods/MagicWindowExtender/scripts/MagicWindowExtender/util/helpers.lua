@@ -3,10 +3,21 @@ local util = require('openmw.util')
 local self = require('openmw.self')
 local debug = require('openmw.debug')
 local I = require('openmw.interfaces')
+local types = require('openmw.types')
 
 local C = require('scripts.MagicWindowExtender.util.constants')
 
 local Helpers = {}
+
+Helpers.split = function(inputstr, sep)
+    sep = sep or "%s"
+    local t = {}
+    for str in string.gmatch(inputstr, "([^"..sep.."]+)") do
+        table.insert(t, str)
+    end
+    return t
+end
+
 
 Helpers.shallowCopy = function(tbl)
     if type(tbl) ~= 'table' then return tbl end
@@ -191,6 +202,107 @@ local chargeMult = {
     [core.magic.ENCHANTMENT_TYPE.ConstantEffect] = core.getGMST('iMagicItemChargeConst'),
 }
 
+Helpers.getWeaponInfo = function(item)
+    if not types.Weapon.objectIsInstance(item) then
+        return nil
+    end
+    local record = types.Weapon.records[item.recordId]
+    local TYPE = types.Weapon.TYPE
+    if record.type == TYPE.Arrow or record.type == TYPE.Bolt then
+        return {
+            skill = 'marksman',
+            soundId = 'ammo',
+            class = C.WeaponClass.Ammo,
+        }
+        
+    elseif record.type == TYPE.MarksmanBow then
+        return {
+            skill = 'marksman',
+            soundId = 'weapon bow',
+            class = C.WeaponClass.Ranged,
+        }
+
+    elseif record.type == TYPE.MarksmanCrossbow then
+        return {
+            skill = 'marksman',
+            soundId = 'weapon crossbow',
+            class = C.WeaponClass.Ranged,
+        }
+
+    elseif record.type == TYPE.MarksmanThrown then
+        return {
+            skill = 'marksman',
+            soundId = 'weapon blunt',
+            class = C.WeaponClass.Thrown,
+        }
+
+    elseif record.type == TYPE.AxeOneHand then
+        return {
+            skill = 'axe',
+            soundId = 'weapon blunt',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = false,
+        }
+
+    elseif record.type == TYPE.AxeTwoHand then
+        return {
+            skill = 'axe',
+            soundId = 'weapon blunt',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = true,
+        }
+
+    elseif record.type == TYPE.BluntOneHand then
+        return {
+            skill = 'bluntweapon',
+            soundId = 'weapon blunt',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = false,
+        }
+
+    elseif record.type == TYPE.BluntTwoClose or record.type == TYPE.BluntTwoWide then
+        return {
+            skill = 'bluntweapon',
+            soundId = 'weapon blunt',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = true,
+        }
+
+    elseif record.type == TYPE.LongBladeOneHand then
+        return {
+            skill = 'longblade',
+            soundId = 'weapon longblade',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = false,
+        }
+
+    elseif record.type == TYPE.LongBladeTwoHand then
+        return {
+            skill = 'longblade',
+            soundId = 'weapon longblade',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = true,
+        }
+
+    elseif record.type == TYPE.ShortBladeOneHand then
+        return {
+            skill = 'shortblade',
+            soundId = 'weapon shortblade',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = false,
+        }
+
+    elseif record.type == TYPE.SpearTwoWide then
+        return {
+            skill = 'spear',
+            soundId = 'weapon spear',
+            class = C.WeaponClass.Melee,
+            isTwoHanded = true,
+        }
+        
+    end
+end
+
 Helpers.getEnchantMaxCharge = function(enchantment)
     local cost = math.floor(Helpers.getBaseSpellCost(enchantment.id, true) + 0.5)
     return cost * chargeMult[enchantment.type]
@@ -261,21 +373,16 @@ Helpers.getSpellCastChance = function(spellId)
     local spellRecord = core.magic.spells.records[spellId]
     if not spellRecord then return 0 end
 
-    if debug.isGodMode() then
-        return 100
-    end
-
+    local isGodMode = debug.isGodMode()
     local activeEffects = self.type.activeEffects(self)
-    if activeEffects:getEffect(core.magic.EFFECT_TYPE.Silence).magnitude > 0 then 
-        return 0
-    end
+    local isSilenced = activeEffects:getEffect(core.magic.EFFECT_TYPE.Silence).magnitude > 0
 
     if not (spellRecord.type == core.magic.SPELL_TYPE.Spell or spellRecord.type == core.magic.SPELL_TYPE.Power) then
-        return 100
+        return (isSilenced and not isGodMode) and 0 or 100
     end
 
     if spellRecord.type == core.magic.SPELL_TYPE.Power then
-        return self.type.spells(self):canUsePower(spellId) and 100 or 0 -- Powers can always be used if not on cooldown
+        return (isSilenced and not isGodMode or not self.type.spells(self):canUsePower(spellId)) and 0 or 100 -- Powers can always be used if not on cooldown
     end
 
     if spellRecord.type == core.magic.SPELL_TYPE.Spell then
@@ -310,6 +417,14 @@ Helpers.getSpellCastChance = function(spellId)
 
         if not spellRecord.autocalcFlag then
             cost = spellRecord.cost
+        end
+
+        if isGodMode then
+            return 100, effectiveSchool
+        end
+
+        if isSilenced then
+            return 0, effectiveSchool
         end
 
         if spellRecord.alwaysSucceedFlag then

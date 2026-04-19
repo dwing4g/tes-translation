@@ -26,7 +26,7 @@ local Templates = {}
 Templates.LEFT_PANE_RATIO = configPlayer.window.f_LeftPaneRatio
 Templates.HEADER_HEIGHT = 20
 Templates.BORDER_WIDTH_TOTAL = 4 * (intRe and 2 or 4)
-Templates.TEXT_SIZE = configPlayer.window.i_FontSize
+Templates.TEXT_SIZE = BASE.TEXT_SIZE
 Templates.LINE_HEIGHT = Templates.TEXT_SIZE + 2
 Templates.SECTION_DIVIDER_HEIGHT = Templates.LINE_HEIGHT
 Templates.SECTION_INDENT_L = 12
@@ -324,9 +324,7 @@ Templates.iconTooltip = function(props)
                         {
                             name = 'titleFlex',
                             type = ui.TYPE.Flex,
-                            props = {
-                                grow = 1,
-                            },
+                            props = {},
                             content = ui.content {
                                 props.title and {
                                     name = 'title',
@@ -594,11 +592,9 @@ end
 Templates.updateStats = function(layout)
     local anyValChanged, anyVisChanged = false, false
 
-    local title = layout.content.foreground.content.header.content.title
     local playerName = omwself.type.records[omwself.recordId].name
-    if title.props.text ~= playerName then
-        title.props.text = playerName
-        anyValChanged = true
+    if layout.userData.getTitle() ~= playerName then
+        layout.userData.setTitle(playerName)
     end
 
     local function processContent(content)
@@ -652,8 +648,12 @@ Templates.updateStats = function(layout)
     return anyValChanged, anyVisChanged
 end
 
-Templates.updateStatsWindow = function(layout)
-    local anyValChanged, anyVisChanged = Templates.updateStats(layout)
+Templates.updateStatsWindow = function(layout, updateValues)
+    updateValues = updateValues ~= false
+    local anyValChanged, anyVisChanged
+    if updateValues then
+        anyValChanged, anyVisChanged = Templates.updateStats(layout)
+    end
 
     local minWidth = Templates.MIN_LEFT_WIDTH + Templates.BORDER_WIDTH_TOTAL + Templates.BOX_OUTER_PADDING * 2
 
@@ -664,12 +664,9 @@ Templates.updateStatsWindow = function(layout)
 
     local rightPaneRatio = 1 - Templates.LEFT_PANE_RATIO
 
-    local windowWidth = layout.props.size.x
-    local windowHeight = layout.props.size.y
-    local innerWidth = windowWidth - Templates.BORDER_WIDTH_TOTAL
-    local innerHeight = windowHeight - Templates.BORDER_WIDTH_TOTAL - Templates.HEADER_HEIGHT
-    local availableWidth = innerWidth - 2 * Templates.BOX_OUTER_PADDING
-    local availableHeight = innerHeight - 2 * Templates.BOX_OUTER_PADDING
+    local innerSize = layout.userData.getInnerSize()
+    local availableWidth = innerSize.x - 2 * Templates.BOX_OUTER_PADDING
+    local availableHeight = innerSize.y - 2 * Templates.BOX_OUTER_PADDING
     local horizontalRightWidth = math.min((availableWidth - Templates.BOX_OUTER_PADDING) * rightPaneRatio, availableWidth - Templates.BOX_OUTER_PADDING - Templates.MIN_LEFT_WIDTH)
 
     local paneArrangement = configPlayer.window.s_PaneArrangement
@@ -709,7 +706,7 @@ Templates.updateStatsWindow = function(layout)
         end
     else
         leftPane.props.position = util.vector2(Templates.BOX_OUTER_PADDING, Templates.BOX_OUTER_PADDING)
-        rightPane.props.visible = (windowWidth >= minWidth + Templates.BOX_OUTER_PADDING)
+        rightPane.props.visible = (layout.props.size.x >= minWidth + Templates.BOX_OUTER_PADDING)
         if not rightPane.props.visible then
             leftPane.props.size = util.vector2(Templates.MIN_LEFT_WIDTH, availableHeight)
             rightPane.props.size = util.vector2(0, availableHeight)
@@ -912,7 +909,6 @@ local function createSection(data, level)
     local layout = {
         name = data.id,
         props = {
-            autoSize = false,
             relativeSize = v2(1, 0),
             visible = true,
         },
@@ -1061,7 +1057,7 @@ local function createPane(paneId, boxes)
     return Templates.pane(paneId, content)
 end
 
-Templates.statsWindow = function(sections, allowPin, scrollPosList)
+Templates.statsWindow = function(sections, isStatic, scrollPosList)
     storedScrollPos = scrollPosList or {}
 
     sections = helpers.deepCopy(sections or {})
@@ -1070,42 +1066,62 @@ Templates.statsWindow = function(sections, allowPin, scrollPosList)
 
     local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
 
+    local ieCtx = I.InventoryExtender and I.InventoryExtender.getWindow('Inventory') and I.InventoryExtender.getWindow('Inventory').ctx
+
+    local pinned = storage.playerSection('Settings/StatsWindow/2_WindowOptions'):get('b_StatsPinned') or nil
+
     local selfRecord = omwself.type.records[omwself.recordId]
     local playerName = selfRecord.name
 
-    local base = BASE.containerWithHeader(playerName, {
-        createPane(constants.Panes.LEFT, sections[constants.Panes.LEFT] or {}),
-        createPane(constants.Panes.RIGHT, sections[constants.Panes.RIGHT] or {}),
+    local base = BASE.window(
+        playerName,
         {
-            name = 'paneDivider',
-            template = I.MWUI.templates.verticalLine,
-            props = {
-                visible = intRe,
-            },
-        }
-    })
+            createPane(constants.Panes.LEFT, sections[constants.Panes.LEFT] or {}),
+            createPane(constants.Panes.RIGHT, sections[constants.Panes.RIGHT] or {}),
+            {
+                name = 'paneDivider',
+                template = I.MWUI.templates.verticalLine,
+                props = {
+                    visible = intRe,
+                },
+            }
+        },
+        not isStatic,
+        function(layout, dragType)
+            if dragType ~= constants.DragType.Move then
+                Templates.updateStatsWindow(layout, false) 
+            end
+        end,
+        function(layout)
+            local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
+            storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('d_StatsDimensions', {
+                x = helpers.roundToPlaces(layout.props.position.x / layerSize.x, 6),
+                y = helpers.roundToPlaces(layout.props.position.y / layerSize.y, 6),
+                w = helpers.roundToPlaces(layout.props.size.x / layerSize.x, 6),
+                h = helpers.roundToPlaces(layout.props.size.y / layerSize.y, 6),
+            })
+        end,
+        not isStatic,
+        pinned,
+        function(newPinned)
+            storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('b_StatsPinned', newPinned)
+        end,
+    ieCtx
+    )
 
-    base.layer = 'Windows'
     local minWidth = Templates.MIN_LEFT_WIDTH + Templates.BORDER_WIDTH_TOTAL + Templates.BOX_OUTER_PADDING * 2
-    base.props = {
+    base.layout.props = {
         position = util.vector2(
-            windowOptions.f_StatsX * layerSize.x,
-            windowOptions.f_StatsY * layerSize.y
+            windowOptions.d_StatsDimensions.x * layerSize.x,
+            windowOptions.d_StatsDimensions.y * layerSize.y
         ),
         size = util.vector2(
-            math.max(windowOptions.f_StatsW * layerSize.x, minWidth),
-            math.max(windowOptions.f_StatsH * layerSize.y, Templates.MIN_HEIGHT)
+            math.max(windowOptions.d_StatsDimensions.w * layerSize.x, minWidth),
+            math.max(windowOptions.d_StatsDimensions.h * layerSize.y, Templates.MIN_HEIGHT)
         ),
     }
-
-    if allowPin then
-        local pinButton = BASE.pinButton(windowOptions.b_StatsPinned, function(isPinned)
-            storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('b_StatsPinned', isPinned)
-        end)
-        pinButton.layout.props.anchor = v2(1, 0)
-        pinButton.layout.props.relativePosition = v2(1, 0)
-        base.content:add(pinButton)
-    end
+    base.layout.userData.minWidth = minWidth
+    base.layout.userData.minHeight = Templates.MIN_HEIGHT
 
     return base
 end

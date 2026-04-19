@@ -73,7 +73,7 @@ if configPlayer.modIntegration.b_EnableTDReputation then
                                 return { string = tostring(repValue) }
                             end,
                             tooltip = function()
-                                return I.StatsWindow.TooltipBuilders.TEXT({ text = string.format(l10n("TDRep_Tooltip"), project.name) })
+                                return I.StatsWindow.TooltipBuilders.TEXT({ text = string.format(l10n("TDRep_Tooltip"), project.name), line = true })
                             end,
                         })
                     end

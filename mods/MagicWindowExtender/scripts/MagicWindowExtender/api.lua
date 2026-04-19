@@ -28,26 +28,26 @@ API.Templates = {
 }
 
 API.TooltipBuilders = {
-    TEXT = function(params)
-        return API.Templates.MAGIC.tooltip(4, ui.content {
-            {
-                template = API.Templates.BASE.textParagraph,
-                props = {
-                    size = util.vector2(params.width or 300, 0),
-                    text = params.text or '',
-                    autoSize = true,
-                }
-            }
-        })
+    [constants.TooltipType.ACTIVE_EFFECT] = function(effectId)
+        local base = API.Templates.MAGIC.activeEffectTooltip(effectId)
+        for _, modifier in ipairs(API.Tooltips.getModifiersForType(constants.TooltipType.ACTIVE_EFFECT)) do
+            base = modifier.modifier(effectId, base) or base
+        end
+        return base
     end,
-    ACTIVE_EFFECT = function(effectId)
-        return API.Templates.MAGIC.activeEffectTooltip(effectId)
+    [constants.TooltipType.SPELL] = function(spellId)
+        local base = API.Templates.MAGIC.spellTooltip(spellId)
+        for _, modifier in ipairs(API.Tooltips.getModifiersForType(constants.TooltipType.SPELL)) do
+            base = modifier.modifier(spellId, base) or base
+        end
+        return base
     end,
-    SPELL = function(spellId)
-        return API.Templates.MAGIC.spellTooltip(spellId)
-    end,
-    ITEM = function(item)
-        return API.Templates.MAGIC.itemTooltip(item)
+    [constants.TooltipType.MAGIC_ITEM] = function(item)
+        local base = API.Templates.MAGIC.itemTooltip(item)
+        for _, modifier in ipairs(API.Tooltips.getModifiersForType(constants.TooltipType.MAGIC_ITEM)) do
+            base = modifier.modifier(item, base) or base
+        end
+        return base
     end,
 }
 
@@ -91,7 +91,7 @@ API.LineBuilders = {
                 API.setDirtyDelayed()
             end,
             tooltip = function()
-                return API.TooltipBuilders.SPELL(powerId)
+                return API.TooltipBuilders[constants.TooltipType.SPELL](powerId)
             end,
             editInfo = {
                 id = powerId,
@@ -117,6 +117,9 @@ API.LineBuilders = {
             end,
             label = override and override.name or spellRecord.name,
             value = function()
+                if configPlayer.tweaks.b_HideSpellCostChance then
+                    return { string = '' }
+                end
                 local cost, chance = helpers.getModifiedSpellCost(spellId, false), helpers.getSpellCastChance(spellId)
                 return { string = tostring(' ' ..util.round(cost)) .. '/' .. tostring(chance) }
             end,
@@ -133,7 +136,7 @@ API.LineBuilders = {
                 API.setDirtyDelayed()
             end,
             tooltip = function()
-                return API.TooltipBuilders.SPELL(spellId)
+                return API.TooltipBuilders[constants.TooltipType.SPELL](spellId)
             end,
             editInfo = {
                 id = spellId,
@@ -163,6 +166,9 @@ API.LineBuilders = {
             end,
             label = label,
             value = function()
+                if configPlayer.tweaks.b_HideItemCostCharge then
+                    return { string = '' }
+                end
                 local cost, charge
                 if core.magic.enchantments.records[itemRecord.enchant].type == core.magic.ENCHANTMENT_TYPE.CastOnce then
                     cost, charge = 100, 100
@@ -183,7 +189,7 @@ API.LineBuilders = {
                 API.setDirtyDelayed()
             end,
             tooltip = function()
-                return API.TooltipBuilders.ITEM(item)
+                return API.TooltipBuilders[constants.TooltipType.MAGIC_ITEM](item)
             end,
             editInfo = {
                 id = item.id,
@@ -357,6 +363,53 @@ end
 
 function API.Spells.getCustomSpell(spellId)
     return customSpellRegistry[spellId:lower()]
+end
+
+-- ============= TOOLTIPS ============= --
+local tooltipModifiers = {
+    [constants.TooltipType.SPELL] = {},
+    [constants.TooltipType.MAGIC_ITEM] = {},
+    [constants.TooltipType.ACTIVE_EFFECT] = {},
+}
+API.Tooltips = {}
+
+--- Register a tooltip modifier function for a specific tooltip type.
+--- Modifiers are called in order of registration, and each modifier receives the current modified layout.
+--- The passed layout is a direct reference and can be modified in-place.
+--- Optionally, a modifier can return a new layout to replace the current one entirely.
+--- @param type Constants.TooltipType The type of tooltip to modify
+--- @param id string A unique identifier for the modifier
+--- @param modifier fun(..., layout: Layout): Layout|nil The modifier function, which receives the same arguments as the tooltip builder for the specified type, plus the current layout
+function API.Tooltips.registerModifier(type, id, modifier)
+    if not tooltipModifiers[type] then
+        error("Invalid tooltip type: " .. tostring(type))
+    end
+    for _, existingModifier in ipairs(tooltipModifiers[type]) do
+        if existingModifier.id:lower() == id:lower() then
+            existingModifier.modifier = modifier
+            return
+        end
+    end
+    table.insert(tooltipModifiers[type], { id = id, modifier = modifier })
+end
+
+--- Unregister a previously registered tooltip modifier
+--- @param type Constants.TooltipType The type of tooltip the modifier was registered for
+--- @param id string The unique identifier of the modifier to remove
+function API.Tooltips.unregisterModifier(type, id)
+    if not tooltipModifiers[type] then
+        error("Invalid tooltip type: " .. tostring(type))
+    end
+    for i, existingModifier in ipairs(tooltipModifiers[type]) do
+        if existingModifier.id:lower() == id:lower() then
+            table.remove(tooltipModifiers[type], i)
+            return
+        end
+    end
+end
+
+function API.Tooltips.getModifiersForType(type)
+    return tooltipModifiers[type] or {}
 end
 
 return {

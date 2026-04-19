@@ -3,7 +3,11 @@ local input = require('openmw.input')
 local I = require('openmw.interfaces')
 
 local l10n = core.l10n('MagicWindowExtender')
-local versionString = "1.2.3"
+local versionString = "1.3.1"
+
+local renderers = require('scripts.MagicWindowExtender.ui.renderers')
+
+I.Settings.registerRenderer('MWE_windowDimensions', renderers.windowDimensions)
 
 -- Settings page
 I.Settings.registerPage {
@@ -72,15 +76,14 @@ I.Settings.registerGroup {
             default = true,
         },
         {
-            key = 'i_FontSize',
+            key = 'i_TextSizeOverride',
             renderer = 'number',
-            name = 'FontSize',
-            description = 'FontSizeDesc',
-            default = 16,
+            name = 'TextSizeOverride',
+            description = 'TextSizeOverrideDesc',
+            default = 0,
             argument = {
                 integer = true,
-                min = 12,
-                max = 18,
+                min = 0,
             }
         },
         {
@@ -90,45 +93,16 @@ I.Settings.registerGroup {
             default = false,
         },
         {
-            key = 'f_MagicWindowX',
-            renderer = 'number',
-            name = 'MagicWindowX',
-            default = 0.63,
-            argument = {
-                min = 0,
-                max = 1,
-            }
-        },
-        {
-            key = 'f_MagicWindowY',
-            renderer = 'number',
-            name = 'MagicWindowY',
-            default = 0.39,
-            argument = {
-                min = 0,
-                max = 1,
-            }
-        },
-        {
-            key = 'f_MagicWindowW',
-            renderer = 'number',
-            name = 'MagicWindowW',
-            default = 0.36,
-            argument = {
-                min = 0,
-                max = 1,
-            }
-        },
-        {
-            key = 'f_MagicWindowH',
-            renderer = 'number',
-            name = 'MagicWindowH',
-            default = 0.51,
-            argument = {
-                min = 0,
-                max = 1,
-            }
-        },
+            key = 'd_MagicWindowDimensions',
+            renderer = 'MWE_windowDimensions',
+            name = 'MagicWindowDimensions',
+            default = {
+                x = 0.63,
+                y = 0.39,
+                w = 0.36,
+                h = 0.51,
+            },
+        }
     },
 }
 
@@ -204,12 +178,34 @@ I.Settings.registerGroup {
             default = false,
         },
         {
-            key = 'b_DeleteButtonIcon',
-            renderer = 'checkbox',
-            name = 'TweakDeleteButtonIcon',
-            description = 'TweakDeleteButtonIconDesc',
-            default = true,
+            key = 's_DeleteButtonStyle',
+            renderer = 'select',
+            name = 'TweakDeleteButtonStyle',
+            description = 'TweakDeleteButtonStyleDesc',
+            default = 'TweakDeleteButtonStyle_Icon',
+            argument = {
+                l10n = 'MagicWindowExtender',
+                items = {
+                    'TweakDeleteButtonStyle_Icon',
+                    'TweakDeleteButtonStyle_Text',
+                    'TweakDeleteButtonStyle_Disabled',
+                }
+            }
         },
+        {
+            key = 'b_HideSpellCostChance',
+            renderer = 'checkbox',
+            name = 'TweakHideSpellCostChance',
+            description = 'TweakHideSpellCostChanceDesc',
+            default = false,
+        },
+        {
+            key = 'b_HideItemCostCharge',
+            renderer = 'checkbox',
+            name = 'TweakHideItemCostCharge',
+            description = 'TweakHideItemCostChargeDesc',
+            default = false,
+        }
     },
 }
 

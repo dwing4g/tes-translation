@@ -15,14 +15,8 @@ local helpers = require('scripts.MagicWindowExtender.util.helpers')
 
 local configPlayer = require('scripts.MagicWindowExtender.config.player')
 
-local dragType = nil
-local dragging = false
-local dragStartAbs = nil
-local dragStartSize = nil
-local dragStartPos = nil
-
 local staticUiMode = 'Jail'
-local lastStaticMode = nil
+local lastStaticMode = false
 
 local storedScrollPos = {}
 
@@ -33,8 +27,6 @@ end
 local function isControllerMenus()
     return I.GamepadControls.isControllerMenusEnabled and I.GamepadControls.isControllerMenusEnabled()
 end
-
-local updateLayout
 
 local magicWindow = {}
 
@@ -54,7 +46,7 @@ magicWindow.isVisible = function()
 end
 
 magicWindow.isPinned = function()
-    return not isControllerMenus() and configPlayer.window.b_MagicWindowPinned and not magicWindow.staticMode
+    return not isControllerMenus() and not magicWindow.staticMode and magicWindow.element and magicWindow.element.layout.userData.pinnable and magicWindow.element.layout.userData.pinned
 end
 
 magicWindow.destroy = function()
@@ -89,52 +81,33 @@ magicWindow.update = function(updateValues)
     --auxUi.deepUpdate(magicWindow.element)
 end
 
-local cursorIcon = nil
-
-local DRAG_TYPE = {
-    ResizeL = 1,
-    ResizeR = 2,
-    ResizeT = 3,
-    ResizeB = 4,
-    ResizeTL = 5,
-    ResizeBR = 6,
-    ResizeTR = 7,
-    ResizeBL = 8,
-    Move = 9,
-}
-
-local DRAG_TYPE_ICONS = {
-    [DRAG_TYPE.ResizeL] = 'resize_h',
-    [DRAG_TYPE.ResizeR] = 'resize_h',
-    [DRAG_TYPE.ResizeT] = 'resize_v',
-    [DRAG_TYPE.ResizeB] = 'resize_v',
-    [DRAG_TYPE.ResizeTL] = 'resize_d1',
-    [DRAG_TYPE.ResizeBR] = 'resize_d1',
-    [DRAG_TYPE.ResizeTR] = 'resize_d2',
-    [DRAG_TYPE.ResizeBL] = 'resize_d2',
-    [DRAG_TYPE.Move] = 'move',
-}
-
-local function saveWindowPos()
+local function saveWindowState()
     if magicWindow.staticMode or not magicWindow.element or not magicWindow.element.layout then
         return
     end
     local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
-    storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('f_MagicWindowX', helpers.roundToPlaces(magicWindow.element.layout.props.position.x / layerSize.x, 6))
-    storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('f_MagicWindowY', helpers.roundToPlaces(magicWindow.element.layout.props.position.y / layerSize.y, 6))
-    storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('f_MagicWindowW', helpers.roundToPlaces(magicWindow.element.layout.props.size.x / layerSize.x, 6))
-    storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('f_MagicWindowH', helpers.roundToPlaces(magicWindow.element.layout.props.size.y / layerSize.y, 6))
+    storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('d_MagicWindowDimensions', {
+        x = helpers.roundToPlaces(magicWindow.element.layout.props.position.x / layerSize.x, 6),
+        y = helpers.roundToPlaces(magicWindow.element.layout.props.position.y / layerSize.y, 6),
+        w = helpers.roundToPlaces(magicWindow.element.layout.props.size.x / layerSize.x, 6),
+        h = helpers.roundToPlaces(magicWindow.element.layout.props.size.y / layerSize.y, 6),
+    })
+    if magicWindow.element.layout.userData.pinnable then
+        storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):set('b_MagicWindowPinned', magicWindow.element.layout.userData.pinned or false)
+    end
 end
 
 local setSize = function()
     local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
 
     if not magicWindow.staticMode then
-        local playerOptions = storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions')
-        local windowPos = util.vector2(playerOptions:get('f_MagicWindowX') * layerSize.x, playerOptions:get('f_MagicWindowY') * layerSize.y)
-        local windowSize = util.vector2(playerOptions:get('f_MagicWindowW') * layerSize.x, playerOptions:get('f_MagicWindowH') * layerSize.y)
-        magicWindow.element.layout.props.position = windowPos
-        magicWindow.element.layout.props.size = windowSize
+        local dims = storage.playerSection('Settings/MagicWindowExtender/2_WindowOptions'):get('d_MagicWindowDimensions')
+        if dims then
+            local windowPos = util.vector2(dims.x * layerSize.x, dims.y * layerSize.y)
+            local windowSize = util.vector2(dims.w * layerSize.x, dims.h * layerSize.y)
+            magicWindow.element.layout.props.position = windowPos
+            magicWindow.element.layout.props.size = windowSize
+        end
     else
         magicWindow.element.layout.props.anchor = util.vector2(0.5, 0.5)
         magicWindow.element.layout.props.relativePosition = util.vector2(0.5, 0.5)
@@ -148,111 +121,7 @@ magicWindow.init = function()
         return
     end
 
-    magicWindow.element.layout = templates.magicWindow(magicWindow.panes, not magicWindow.staticMode, storedScrollPos)
-    magicWindow.element.layout.events = {
-        focusLoss = async:callback(function()
-            if magicWindow.staticMode then return end
-            if cursorIcon and cursorIcon.layout then
-                cursorIcon.layout.props.visible = false
-                table.insert(templates.updateQueue, cursorIcon)
-            end
-        end),
-        mousePress = async:callback(function(e)
-            if magicWindow.staticMode or e.button ~= 1 then return end
-            if dragType == nil then return end
-            dragging = true
-            dragStartAbs = e.position
-            dragStartSize = magicWindow.element.layout.props.size
-            dragStartPos = magicWindow.element.layout.props.position
-        end),
-        mouseMove = async:callback(function(e)
-            if magicWindow.staticMode then return end
-            if dragging then
-                local delta = e.position - dragStartAbs
-
-                if dragType == DRAG_TYPE.ResizeL then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x - delta.x, dragStartSize.y)
-                    magicWindow.element.layout.props.position = util.vector2(dragStartPos.x + delta.x, dragStartPos.y)
-                elseif dragType == DRAG_TYPE.ResizeR then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x + delta.x, dragStartSize.y)
-                elseif dragType == DRAG_TYPE.ResizeT then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x, dragStartSize.y - delta.y)
-                    magicWindow.element.layout.props.position = util.vector2(dragStartPos.x, dragStartPos.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeB then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x, dragStartSize.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeTL then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x - delta.x, dragStartSize.y - delta.y)
-                    magicWindow.element.layout.props.position = util.vector2(dragStartPos.x + delta.x, dragStartPos.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeBR then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x + delta.x, dragStartSize.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeTR then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x + delta.x, dragStartSize.y - delta.y)
-                    magicWindow.element.layout.props.position = util.vector2(dragStartPos.x, dragStartPos.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeBL then
-                    magicWindow.element.layout.props.size = util.vector2(dragStartSize.x - delta.x, dragStartSize.y + delta.y)
-                    magicWindow.element.layout.props.position = util.vector2(dragStartPos.x + delta.x, dragStartPos.y)
-                elseif dragType == DRAG_TYPE.Move then
-                    magicWindow.element.layout.props.position = dragStartPos + delta
-                end
-
-                magicWindow.update(false)
-            else
-                local dType = nil
-
-                -- Determine drag type based on cursor position
-                local topEdge = e.offset.y < 8
-                local bottomEdge = e.offset.y > magicWindow.element.layout.props.size.y - 12
-                local leftEdge = e.offset.x < 12
-                local rightEdge = e.offset.x > magicWindow.element.layout.props.size.x - 12
-                local header = e.offset.y < 28
-
-                if topEdge and leftEdge then
-                    dType = DRAG_TYPE.ResizeTL
-                elseif bottomEdge and rightEdge then
-                    dType = DRAG_TYPE.ResizeBR
-                elseif topEdge and rightEdge then
-                    dType = DRAG_TYPE.ResizeTR
-                elseif bottomEdge and leftEdge then
-                    dType = DRAG_TYPE.ResizeBL
-                elseif leftEdge then
-                    dType = DRAG_TYPE.ResizeL
-                elseif rightEdge then
-                    dType = DRAG_TYPE.ResizeR
-                elseif topEdge then
-                    dType = DRAG_TYPE.ResizeT
-                elseif bottomEdge then
-                    dType = DRAG_TYPE.ResizeB
-                elseif header then
-                    dType = DRAG_TYPE.Move
-                end
-
-                dragType = dType
-            end
-
-            cursorIcon = cursorIcon or ui.create {
-                layer = 'Notification',
-                type = ui.TYPE.Image,
-                props = {
-                    size = util.vector2(24, 24),
-                    visible = false,
-                }
-            }
-            if dragType then
-                cursorIcon.layout.props.resource = templates.createTexture('icons/MagicWindowExtender/cursor/' .. DRAG_TYPE_ICONS[dragType] .. '.dds')
-                cursorIcon.layout.props.position = e.position + util.vector2(12, -4)
-                cursorIcon.layout.props.visible = true
-            else
-                cursorIcon.layout.props.visible = false
-            end
-            cursorIcon:update()
-        end),
-        mouseRelease = async:callback(function(e)
-            if not templates.active then return end
-            if magicWindow.staticMode or e.button ~= 1 then return end
-            dragging = false
-            saveWindowPos()
-        end),
-    }
+    magicWindow.element = templates.magicWindow(magicWindow.panes, magicWindow.staticMode, storedScrollPos)
 
     setSize()
 
@@ -280,6 +149,8 @@ magicWindow.show = function(staticMode)
     magicWindow.element.layout.props.visible = true
     magicWindow.element:update()
 
+    magicWindow.element.layout.userData.setPinnable(not staticMode)
+
     if not wasVisible then
         omwself:sendEvent(constants.Events.WINDOW_SHOWN)
     end
@@ -302,12 +173,7 @@ magicWindow.hide = function(force)
         auxUi.deepDestroy(templates.activeTooltip)
         templates.activeTooltip = nil
     end
-    if cursorIcon and cursorIcon.layout then
-        cursorIcon.layout.props.visible = false
-        cursorIcon:update()
-    end
-    dragging = false
-    saveWindowPos()
+    saveWindowState()
     if magicWindow.staticMode then
         I.UI.removeMode(staticUiMode)
     end
@@ -323,6 +189,9 @@ magicWindow.toggle = function(staticMode)
 end
 
 magicWindow.onUiModeChanged = function(oldMode, newMode)
+    if magicWindow.element then
+        magicWindow.element.layout.userData.setPinned(configPlayer.window.b_MagicWindowPinned)
+    end
     local magicWindowMode = magicWindow.staticMode and staticUiMode or 'Interface'
     if magicWindow.isPinned() and not magicWindow.staticMode then
         if newMode == nil or newMode == 'Interface' then

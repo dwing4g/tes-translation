@@ -15,14 +15,12 @@ ReplaceVanillaWindowDesc: |-
   Replace the game's built-in magic window.
   If disabled, you can still access the extended window via the keybind.
   Does not work with controller menus enabled.
-FontSize: Font size
-FontSizeDesc: |-
-  Min: 12, Max: 18, Default: 16
+TextSizeOverride: Text size override
+TextSizeOverrideDesc: |-
+  Override the default text size used in the magic window. 
+  Set to 0 to use the game's default size.
 MagicWindowPinned: Magic window pinned
-MagicWindowX: Magic window X pos (0.0 - 1.0)
-MagicWindowY: Magic window Y pos (0.0 - 1.0)
-MagicWindowW: Magic window width (0.0 - 1.0)
-MagicWindowH: Magic window height (0.0 - 1.0)
+MagicWindowDimensions: Magic window dimensions
 
 ConfigCategoryTweaks: Tweaks
 TweakSpellIcons: Spell icons
@@ -53,9 +51,21 @@ TweakMarkUsedPowersDesc: |-
 TweakSearchBarOnTop: Search bar on top
 TweakSearchBarOnTopDesc: |-
   Move the bottom bar (search, filter, etc.) to the top of the window.
-TweakDeleteButtonIcon: Delete button icon
-TweakDeleteButtonIconDesc: |-
-  Use a trash can icon for the delete button instead of text.
+TweakDeleteButtonStyle: Delete button style
+TweakDeleteButtonStyleDesc: |-
+  Choose the style of the delete button, or disable it entirely.
+  If disabled, you can still delete spells by shift-clicking them in the list.
+TweakDeleteButtonStyle_Icon: Icon
+TweakDeleteButtonStyle_Text: Text
+TweakDeleteButtonStyle_Disabled: Disabled
+TweakHideSpellCostChance: Hide spell cost/chance
+TweakHideSpellCostChanceDesc: |-
+  Hide the cost and chance information for spells in the spell list.
+  This info will be moved to the tooltip instead.
+TweakHideItemCostCharge: Hide item cost/charge
+TweakHideItemCostChargeDesc: |-
+  Hide the cost and charge information for magic items in the spell list.
+  This info will be moved to the tooltip instead.
 
 ConfigCategoryModIntegration: Mod Integrations
 InterfaceReimagined: Interface Reimagined support

@@ -55,8 +55,6 @@ C.Strings = {
     POWERS = 'sPowers',
     SPELLS = 'sSpells',
     MAGIC_ITEMS = 'sMagicItem',
-    ITEM_WEIGHT = 'sWeight',
-    ITEM_VALUE = 'sValue',
     ITEM_CAST_ONCE = 'sItemCastOnce',
     ITEM_CAST_WHEN_STRIKES = 'sItemCastWhenStrikes',
     ITEM_CAST_WHEN_USED = 'sItemCastWhenUsed',
@@ -105,6 +103,23 @@ C.Strings = {
     YES = 'sYes',
     NO = 'sNo',
     OK = 'sOK',
+    LIGHT = 'sLight',
+    MEDIUM = 'sMedium',
+    HEAVY = 'sHeavy',
+    CONDITION = 'sCondition',
+    WEIGHT = 'sWeight',
+    VALUE = 'sValue',
+    SLASH = 'sSlash',
+    THRUST = 'sThrust',
+    CHOP = 'sChop',
+    ATTACK = 'sAttack',
+    USES = 'sUses',
+    QUALITY = 'sQuality',
+    ARMOR_RATING = 'sArmorRating',
+    TYPE = 'sType',
+    SPEED = 'sAttributeSpeed',
+    ONE_HANDED = 'sOneHanded',
+    TWO_HANDED = 'sTwoHanded',
 }
 for key, gmst in pairs(C.Strings) do
     C.Strings[key] = core.getGMST(gmst)
@@ -131,6 +146,13 @@ C.DefaultBoxes = {
     TOP_BAR = 'topBar',
     MAGIC = 'magic',
     BOTTOM_BAR = 'bottomBar',
+}
+
+C.TooltipType = {
+    TEXT = 'text',
+    SPELL = 'spell',
+    MAGIC_ITEM = 'magicItem',
+    ACTIVE_EFFECT = 'activeEffect',
 }
 
 C.DefaultSections = {
@@ -178,6 +200,25 @@ C.TrackedStats = {
 C.Events = {
     WINDOW_SHOWN = 'MagicWindow_Shown',
     WINDOW_HIDDEN = 'MagicWindow_Hidden',
+}
+
+C.WeaponClass = {
+    Melee = 1,
+    Ranged = 2,
+    Thrown = 3,
+    Ammo = 4,
+}
+
+C.DragType = {
+    ResizeTL = 'top_left',
+    ResizeBR = 'bottom_right',
+    ResizeTR = 'top_right',
+    ResizeBL = 'bottom_left',
+    ResizeL = 'left',
+    ResizeR = 'right',
+    ResizeT = 'top',
+    ResizeB = 'bottom',
+    Move = 'move',
 }
 
 C.Magic = {

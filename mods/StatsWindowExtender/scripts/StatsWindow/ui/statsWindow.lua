@@ -15,14 +15,8 @@ local helpers = require('scripts.StatsWindow.util.helpers')
 
 local configPlayer = require('scripts.StatsWindow.config.player')
 
-local dragType = nil
-local dragging = false
-local dragStartAbs = nil
-local dragStartSize = nil
-local dragStartPos = nil
-
 local staticUiMode = 'Jail'
-local lastStaticMode = nil
+local lastStaticMode = false
 
 local storedScrollPos = {}
 
@@ -55,7 +49,7 @@ statsWindow.isVisible = function()
 end
 
 statsWindow.isPinned = function()
-    return not isControllerMenus() and configPlayer.window.b_StatsPinned and not statsWindow.staticMode
+    return not isControllerMenus() and not statsWindow.staticMode and statsWindow.element and statsWindow.element.layout.userData.pinnable and statsWindow.element.layout.userData.pinned
 end
 
 statsWindow.destroy = function()
@@ -88,50 +82,29 @@ statsWindow.update = function()
     auxUi.deepUpdate(statsWindow.element)
 end
 
-local cursorIcon = nil
-
-local DRAG_TYPE = {
-    ResizeL = 1,
-    ResizeR = 2,
-    ResizeT = 3,
-    ResizeB = 4,
-    ResizeTL = 5,
-    ResizeBR = 6,
-    ResizeTR = 7,
-    ResizeBL = 8,
-    Move = 9,
-}
-
-local DRAG_TYPE_ICONS = {
-    [DRAG_TYPE.ResizeL] = 'resize_h',
-    [DRAG_TYPE.ResizeR] = 'resize_h',
-    [DRAG_TYPE.ResizeT] = 'resize_v',
-    [DRAG_TYPE.ResizeB] = 'resize_v',
-    [DRAG_TYPE.ResizeTL] = 'resize_d1',
-    [DRAG_TYPE.ResizeBR] = 'resize_d1',
-    [DRAG_TYPE.ResizeTR] = 'resize_d2',
-    [DRAG_TYPE.ResizeBL] = 'resize_d2',
-    [DRAG_TYPE.Move] = 'move',
-}
-
-local function saveWindowPos()
+local function saveWindowState()
     if statsWindow.staticMode or not statsWindow.element or not statsWindow.element.layout then
         return
     end
     local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
-    storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('f_StatsX', helpers.roundToPlaces(statsWindow.element.layout.props.position.x / layerSize.x, 6))
-    storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('f_StatsY', helpers.roundToPlaces(statsWindow.element.layout.props.position.y / layerSize.y, 6))
-    storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('f_StatsW', helpers.roundToPlaces(statsWindow.element.layout.props.size.x / layerSize.x, 6))
-    storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('f_StatsH', helpers.roundToPlaces(statsWindow.element.layout.props.size.y / layerSize.y, 6))
+    storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('d_StatsDimensions', {
+        x = helpers.roundToPlaces(statsWindow.element.layout.props.position.x / layerSize.x, 6),
+        y = helpers.roundToPlaces(statsWindow.element.layout.props.position.y / layerSize.y, 6),
+        w = helpers.roundToPlaces(statsWindow.element.layout.props.size.x / layerSize.x, 6),
+        h = helpers.roundToPlaces(statsWindow.element.layout.props.size.y / layerSize.y, 6),
+    })
+    if statsWindow.element.layout.userData.pinnable then
+        storage.playerSection('Settings/StatsWindow/2_WindowOptions'):set('b_StatsPinned', statsWindow.element.layout.userData.pinned or false)
+    end
 end
 
 local setSize = function()
     local layerSize = ui.layers[ui.layers.indexOf('Windows')].size
-
+    
     if not statsWindow.staticMode then
-        local playerOptions = storage.playerSection('Settings/StatsWindow/2_WindowOptions')
-        local windowPos = util.vector2(playerOptions:get('f_StatsX') * layerSize.x, playerOptions:get('f_StatsY') * layerSize.y)
-        local windowSize = util.vector2(playerOptions:get('f_StatsW') * layerSize.x, playerOptions:get('f_StatsH') * layerSize.y)
+        local dims = storage.playerSection('Settings/StatsWindow/2_WindowOptions'):get('d_StatsDimensions')
+        local windowPos = util.vector2(dims.x * layerSize.x, dims.y * layerSize.y)
+        local windowSize = util.vector2(dims.w * layerSize.x, dims.h * layerSize.y)
         statsWindow.element.layout.props.position = windowPos
         statsWindow.element.layout.props.size = windowSize
     else
@@ -147,111 +120,7 @@ statsWindow.init = function()
         return
     end
 
-    statsWindow.element.layout = templates.statsWindow(statsWindow.panes, not statsWindow.staticMode, storedScrollPos)
-    statsWindow.element.layout.events = {
-        focusLoss = async:callback(function()
-            if statsWindow.staticMode then return end
-            if cursorIcon and cursorIcon.layout then
-                cursorIcon.layout.props.visible = false
-                table.insert(templates.updateQueue, cursorIcon)
-            end
-        end),
-        mousePress = async:callback(function(e)
-            if statsWindow.staticMode or e.button ~= 1 then return end
-            if dragType == nil then return end
-            dragging = true
-            dragStartAbs = e.position
-            dragStartSize = statsWindow.element.layout.props.size
-            dragStartPos = statsWindow.element.layout.props.position
-        end),
-        mouseMove = async:callback(function(e)
-            if statsWindow.staticMode then return end
-            if dragging then
-                local delta = e.position - dragStartAbs
-
-                if dragType == DRAG_TYPE.ResizeL then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x - delta.x, dragStartSize.y)
-                    statsWindow.element.layout.props.position = util.vector2(dragStartPos.x + delta.x, dragStartPos.y)
-                elseif dragType == DRAG_TYPE.ResizeR then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x + delta.x, dragStartSize.y)
-                elseif dragType == DRAG_TYPE.ResizeT then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x, dragStartSize.y - delta.y)
-                    statsWindow.element.layout.props.position = util.vector2(dragStartPos.x, dragStartPos.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeB then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x, dragStartSize.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeTL then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x - delta.x, dragStartSize.y - delta.y)
-                    statsWindow.element.layout.props.position = util.vector2(dragStartPos.x + delta.x, dragStartPos.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeBR then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x + delta.x, dragStartSize.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeTR then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x + delta.x, dragStartSize.y - delta.y)
-                    statsWindow.element.layout.props.position = util.vector2(dragStartPos.x, dragStartPos.y + delta.y)
-                elseif dragType == DRAG_TYPE.ResizeBL then
-                    statsWindow.element.layout.props.size = util.vector2(dragStartSize.x - delta.x, dragStartSize.y + delta.y)
-                    statsWindow.element.layout.props.position = util.vector2(dragStartPos.x + delta.x, dragStartPos.y)
-                elseif dragType == DRAG_TYPE.Move then
-                    statsWindow.element.layout.props.position = dragStartPos + delta
-                end
-
-                statsWindow.update()
-            else
-                local dType = nil
-
-                -- Determine drag type based on cursor position
-                local topEdge = e.offset.y < 8
-                local bottomEdge = e.offset.y > statsWindow.element.layout.props.size.y - 12
-                local leftEdge = e.offset.x < 12
-                local rightEdge = e.offset.x > statsWindow.element.layout.props.size.x - 12
-                local header = e.offset.y < 28
-
-                if topEdge and leftEdge then
-                    dType = DRAG_TYPE.ResizeTL
-                elseif bottomEdge and rightEdge then
-                    dType = DRAG_TYPE.ResizeBR
-                elseif topEdge and rightEdge then
-                    dType = DRAG_TYPE.ResizeTR
-                elseif bottomEdge and leftEdge then
-                    dType = DRAG_TYPE.ResizeBL
-                elseif leftEdge then
-                    dType = DRAG_TYPE.ResizeL
-                elseif rightEdge then
-                    dType = DRAG_TYPE.ResizeR
-                elseif topEdge then
-                    dType = DRAG_TYPE.ResizeT
-                elseif bottomEdge then
-                    dType = DRAG_TYPE.ResizeB
-                elseif header then
-                    dType = DRAG_TYPE.Move
-                end
-
-                dragType = dType
-            end
-
-            cursorIcon = cursorIcon or ui.create {
-                layer = 'Notification',
-                type = ui.TYPE.Image,
-                props = {
-                    size = util.vector2(24, 24),
-                    visible = false,
-                }
-            }
-            if dragType then
-                cursorIcon.layout.props.resource = ui.texture { path = 'icons/StatsWindow/cursor/' .. DRAG_TYPE_ICONS[dragType] .. '.dds' }
-                cursorIcon.layout.props.position = e.position + util.vector2(12, -4)
-                cursorIcon.layout.props.visible = true
-            else
-                cursorIcon.layout.props.visible = false
-            end
-            cursorIcon:update()
-        end),
-        mouseRelease = async:callback(function(e)
-            if not templates.active then return end
-            if statsWindow.staticMode or e.button ~= 1 then return end
-            dragging = false
-            saveWindowPos()
-        end),
-    }
+    statsWindow.element = templates.statsWindow(statsWindow.panes, statsWindow.staticMode, storedScrollPos)
 
     setSize()
 
@@ -279,6 +148,8 @@ statsWindow.show = function(staticMode)
     statsWindow.element.layout.props.visible = true
     statsWindow.update()
 
+    statsWindow.element.layout.userData.setPinnable(not staticMode)
+
     if not wasVisible then
         omwself:sendEvent(constants.Events.WINDOW_SHOWN)
     end
@@ -301,12 +172,7 @@ statsWindow.hide = function(force)
         templates.activeTooltip:destroy()
         templates.activeTooltip = nil
     end
-    if cursorIcon and cursorIcon.layout then
-        cursorIcon.layout.props.visible = false
-        cursorIcon:update()
-    end
-    dragging = false
-    saveWindowPos()
+    saveWindowState()
     if statsWindow.staticMode then
         I.UI.removeMode(staticUiMode)
     end
@@ -322,6 +188,9 @@ statsWindow.toggle = function(staticMode)
 end
 
 statsWindow.onUiModeChanged = function(oldMode, newMode)
+    if statsWindow.element then
+        statsWindow.element.layout.userData.setPinned(configPlayer.window.b_StatsPinned)
+    end
     local statsWindowMode = statsWindow.staticMode and staticUiMode or 'Interface'
     if statsWindow.isPinned() and not statsWindow.staticMode then
         if newMode == nil or newMode == 'Interface' then

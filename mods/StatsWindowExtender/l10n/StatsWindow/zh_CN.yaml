@@ -15,9 +15,10 @@ ReplaceVanillaWindowDesc: |-
   替换游戏内置的状态窗口。
   如果禁用，仍可通过按键绑定访问扩展窗口。
   启用控制器菜单时无效。
-FontSize: 字体大小
-FontSizeDesc: |-
-  最小值：12，最大值：18，默认值：16
+TextSizeOverride: 替换文字大小
+TextSizeOverrideDesc: |-
+  替换魔法窗口中使用的默认文字大小。
+  将数值设为0即可使用游戏的默认大小。
 PaneArrangement: 窗格排列
 PaneArrangementDesc: |-
   选择窗格的排列方式。
@@ -42,10 +43,7 @@ LeftPaneRatioDesc: |-
   在并排模式下，左窗格将占据整个窗口宽度的此比例。
   默认值：0.44
 StatWindowPinned: 状态窗口置顶
-StatWindowX: 状态窗口 X 坐标 (0.0 - 1.0)
-StatWindowY: 状态窗口 Y 坐标 (0.0 - 1.0)
-StatWindowW: 状态窗口宽度 (0.0 - 1.0)
-StatWindowH: 状态窗口高度 (0.0 - 1.0)
+StatWindowDimensions: 状态窗口尺寸
 
 ConfigCategoryTweaks: 调整选项
 RestyleBountyAndRep: 重设赏金与声望样式

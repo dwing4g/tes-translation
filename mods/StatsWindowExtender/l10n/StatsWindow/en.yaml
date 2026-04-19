@@ -15,9 +15,10 @@ ReplaceVanillaWindowDesc: |-
   Replace the game's built-in stats window.
   If disabled, you can still access the extended window via the keybind.
   Does not work with controller menus enabled.
-FontSize: Font size
-FontSizeDesc: |-
-  Min: 12, Max: 18, Default: 16
+TextSizeOverride: Text size override
+TextSizeOverrideDesc: |-
+  Override the default text size used in the magic window. 
+  Set to 0 to use the game's default size.
 PaneArrangement: Pane arrangement
 PaneArrangementDesc: |-
   Choose how the panes are arranged.
@@ -42,10 +43,7 @@ LeftPaneRatioDesc: |-
   When in Side-by-Side mode, the left pane will take up this proportion of the total window width.
   Default: 0.44
 StatWindowPinned: Stat window pinned
-StatWindowX: Stat window X pos (0.0 - 1.0)
-StatWindowY: Stat window Y pos (0.0 - 1.0)
-StatWindowW: Stat window width (0.0 - 1.0)
-StatWindowH: Stat window height (0.0 - 1.0)
+StatWindowDimensions: Stat window dimensions
 
 ConfigCategoryTweaks: Tweaks
 RestyleBountyAndRep: Restyle bounty and rep
