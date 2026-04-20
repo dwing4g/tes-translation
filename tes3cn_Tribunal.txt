@@ -58613,7 +58613,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.NNAM "980080082674620343$00"
  INFO.DATA [00 00 00 00 32 00 00 00 FF FF FF 00]
  INFO.ANAM "Tel Branora$00"
- INFO.NAME "我敢打赌，老摩利莫和他的手下一定能轻松搞定特雷娜·达伦。但我听说，西拉那夫人把摩利莫拴得紧紧的，不让他出塔楼，想让他和卫兵塔离得很近，这样一切就安全了。当然，这可能是最安全、最省钱的办法，但这很无趣，也很烦人，我觉得这让摩利莫很不爽。 {工作,瓜尔}"
+ INFO.NAME "我敢打赌，老摩利莫和他的雇工们可以迅速完成特雷娜·达伦的工作。但据我所知，西拉那夫人把摩利莫紧紧绑在身边。不让他离开塔楼，想把他和卫兵关在一起，以保证一切安全。诚然，这可能是最安全、最经济的策略，但这很乏味，令人厌烦，而且我认为这让摩利莫很不爽。 {瓜尔}"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [19 00 00 00]
  #0: Global-short Random100 <= 25
@@ -80806,7 +80806,7 @@ Goodbye"
  INFO.NNAM "768621470167948895$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagrum bagarn$00"
- INFO.NAME "又是你？什么风把你吹来拜访亚格鲁·巴加恩，工匠大师，最后一个活着的矮人？"
+ INFO.NAME "哦。又是你啊。什么风把你吹来拜访亚格鲁·巴加恩了，这位大工匠，最后一个活着的矮人？"
  INFO.SCVR "04JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
  #0: Journal-Journal C3_DestroyDagoth >= 50
@@ -80820,7 +80820,7 @@ Goodbye"
  INFO.NNAM "1173513103130394974$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagrum bagarn$00"
- INFO.NAME "又是你？什么风把你吹来拜访亚格鲁·巴加恩，工匠大师，最后一个活着的矮人？"
+ INFO.NAME "哦。又是你啊。什么风把你吹来拜访亚格鲁·巴加恩了，这位大工匠，最后一个活着的矮人？"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [28 00 00 00]
  #0: Journal-Journal A2_3_CorprusCure >= 40
@@ -80834,7 +80834,7 @@ Goodbye"
  INFO.NNAM "99541721656920991$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagrum bagarn$00"
- INFO.NAME "你是为锻莫靴子而来。告诉我仁慈的守护者，我已经尽力了。只有锻莫族的法师才能做这么多事，但只有白痴才能造出这双靴子，让我的种族蒙羞。我们必须用这种缺乏智慧的笨蛋的作品来评判。 {工作}"
+ INFO.NAME "你是为锻莫靴子而来。告诉我仁慈的守护者，我已经尽力了。这种事，也只有锻莫的魔法工匠才能做得出来，但只有蠢货才会造出这种靴子。我的种族竟要因这些蠢货的拙劣之作而蒙羞，真让我感到耻辱。 {锻莫族,工作}"
  INFO.SCVR "04JX3A2_3_CorprusCure"
  INFO.INTV [19 00 00 00]
  #0: Journal-Journal A2_3_CorprusCure >= 25
@@ -82754,7 +82754,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF 04 00]
  INFO.ONAM "duldrar saren$00"
  INFO.DNAM "Temple$00"
- INFO.NAME "%PCRank%PCName。这违反程序，你知道的。离开这里，马上。"
+ INFO.NAME "%PCName，这不符合规矩。你心里也清楚。离开这里，马上。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  #0: Function-Hello = 0
@@ -82777,7 +82777,7 @@ modDisposition -10"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF 09 00]
  INFO.ONAM "duldrar saren$00"
  INFO.DNAM "Temple$00"
- INFO.NAME "%PCRank%PCName。这违反程序，你知道的，去吧，钥匙在桌子里，但我必须报告这件事，马上。"
+ INFO.NAME "%PCName，这不符合规矩。你心里也清楚。去吧，钥匙在桌子里。但我必须马上报告这件事。快去吧。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  #0: Function-Hello = 0
@@ -82822,7 +82822,7 @@ Goodbye"
  INFO.FNAM "Temple$00"
  INFO.ANAM "Ministry of Truth, Prison Keep$00"
  INFO.DNAM "Temple$00"
- INFO.NAME "%PCRank%PCName。你知道这是违反程序的，我不能让你就这么进来。请你离开，你必须离开。"
+ INFO.NAME "%PCRank%PCName。你知道这不符合规矩，我不能让你就这么进来。请你离开，你必须离开。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  #0: Function-Hello = 0
@@ -82847,7 +82847,7 @@ modDisposition -10"
  INFO.FNAM "Temple$00"
  INFO.ANAM "Ministry of Truth, Prison Keep$00"
  INFO.DNAM "Temple$00"
- INFO.NAME "%PCRank%PCName。你知道这是违反程序的。我是抗议才这么做的。钥匙在桌子里。我不知道其他人会怎么想，但我不介意告诉你，我一点也不喜欢这样。"
+ INFO.NAME "%PCRank%PCName。你知道这不符合规矩。我是抗议才这么做的。钥匙在桌子里。我不知道其他人会怎么想，但我不介意告诉你，我一点也不喜欢这样。"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  #0: Function-Hello = 0

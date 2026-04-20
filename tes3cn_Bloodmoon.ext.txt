@@ -19964,7 +19964,7 @@ They say spriggans die three deaths. Best to avoid them if I were you.
 
 > INFO.NAME little advice 1750236642132030573
 Sometimes it's worth killing a berserker just to get his weapon. Some of them favor special silver blades that are enchanted to do extra damage to their opponents.
-有时为了得到狂战士的武器，杀他也是值得的。有些狂战士喜欢用附魔师的特殊银色刀刃来给对手造成额外伤害。 {忙,刀锋}
+有时候，仅仅是为了得到狂战士的武器，也值得把他杀掉。他们中有些人偏爱特殊的银制刀刃，这些武器被施了魔法，能对敌人造成额外的伤害。 {忙,刀锋,附魔}
 
 > INFO.NAME little advice 18981213741218711903
 If you run into any snow wolves or snow bears, attack them with fire. They have a natural weakness to it
@@ -19980,7 +19980,7 @@ At night, when the snow starts falling, it's hard to see more than a few feet in
 
 > INFO.NAME little advice 12662772236445636
 Sometimes it's worth killing a berserker just to get his weapon. Some of them favor special silver blades that are enchanted to do extra damage to their opponents.
-有时为了得到狂战士的武器，杀他也是值得的。有些狂战士喜欢用附魔师的特殊银色刀刃来给对手造成额外伤害。 {忙,刀锋}
+有时候，仅仅是为了得到狂战士的武器，也值得把他杀掉。他们中有些人偏爱特殊的银制刀刃，这些武器被施了魔法，能对敌人造成额外的伤害。 {忙,刀锋,附魔}
 
 > INFO.NAME little advice 30715198212531627985
 If you're looking for a good short-bladed weapon, try to get your hands on a frysehag's winterwound dagger. Its magical frost can damage flesh and disintegrate armor.
@@ -24556,15 +24556,15 @@ Faith, law, and justice. Walk on.
 
 > INFO.NAME greeting 1 365312161262776913
 So. It's you again. What brings you to visit Yagrum Bagarn, Master Crafter, and Last Living Dwarf?
-又是你。什么风把你吹来拜访亚格鲁·巴加恩，工匠大师，最后一个活着的矮人？
+哦。又是你啊。什么风把你吹来拜访亚格鲁·巴加恩了，这位大工匠，最后一个活着的矮人？
 
 > INFO.NAME greeting 1 768621470167948895
 So. It's you again. What brings you to visit Yagrum Bagarn, Master Crafter, and Last Living Dwarf?
-又是你。什么风把你吹来拜访亚格鲁·巴加恩，工匠大师，最后一个活着的矮人？
+哦。又是你啊。什么风把你吹来拜访亚格鲁·巴加恩了，这位大工匠，最后一个活着的矮人？
 
 > INFO.NAME greeting 1 1173513103130394974
 You're here for the Dwemer boots. Tell my gracious Keeper that I have done what I could. Only a Dwemer magecrafter could have done so much. But only idiots could have created these boots. It shames my race that we must be judged by the works of such lack-wit blunderers.
-你是为锻莫靴子而来。告诉我仁慈的守护者，我已经尽力了。只有锻莫族的法师才能做这么多事，但只有白痴才能造出这双靴子，让我的种族蒙羞。我们必须用这种缺乏智慧的笨蛋的作品来评判。 {工作}
+你是为锻莫靴子而来。告诉我仁慈的守护者，我已经尽力了。这种事，也只有锻莫的魔法工匠才能做得出来，但只有蠢货才会造出这种靴子。我的种族竟要因这些蠢货的拙劣之作而蒙羞，真让我感到耻辱。 {锻莫族,工作}
 
 > INFO.NAME greeting 1 99541721656920991
 I have Lord Fyr's Dwemer boots. That's what you're here for, aren't you?
@@ -25136,7 +25136,7 @@ Guards! Intruder!
 
 > INFO.NAME greeting 1 2053119133245948680
 %PCRank %PCName. This is against procedures. And you know it. Get out of here. Immediately.
-%PCRank%PCName。这违反程序，你知道的。离开这里，马上。
+%PCName，这不符合规矩。你心里也清楚。离开这里，马上。
 
 > INFO.NAME greeting 1 1857834672739819667
 I told you. Get out of here. Now!
@@ -25144,7 +25144,7 @@ I told you. Get out of here. Now!
 
 > INFO.NAME greeting 1 13857194313057721050
 %PCRank %PCName. This is against procedures. And you know it. Go ahead. The key is in the desk. But I have to report this. Immediately.
-%PCRank%PCName。这违反程序，你知道的，去吧，钥匙在桌子里，但我必须报告这件事，马上。
+%PCName，这不符合规矩。你心里也清楚。去吧，钥匙在桌子里。但我必须马上报告这件事。快去吧。
 
 > INFO.NAME greeting 1 19102114942159319135
 The key is in the desk. Go ahead. I'm not going to stop you.
@@ -25160,7 +25160,7 @@ Poor dumb bastard. Now I have to break another mother's heart.
 
 > INFO.NAME greeting 1 24835183512938719766
 %PCRank %PCName. You know this is against procedures. I can't let you just walk in here. Please. You have to leave.
-%PCRank%PCName。你知道这是违反程序的，我不能让你就这么进来。请你离开，你必须离开。
+%PCRank%PCName。你知道这不符合规矩，我不能让你就这么进来。请你离开，你必须离开。
 
 > INFO.NAME greeting 1 10701122404215080
 Didn't you hear me? I said, you have to leave. You're not supposed to be in here. Get out, immediately, or I'll have to use force.
@@ -25168,7 +25168,7 @@ Didn't you hear me? I said, you have to leave. You're not supposed to be in here
 
 > INFO.NAME greeting 1 3248520215213614558
 %PCRank %PCName. You know this is against procedures. I do this under protest. The key is in the desk. I don't know how the others are going to take it. But I don't mind telling you -- I don't like it one bit.
-%PCRank%PCName。你知道这是违反程序的。我是抗议才这么做的。钥匙在桌子里。我不知道其他人会怎么想，但我不介意告诉你，我一点也不喜欢这样。
+%PCRank%PCName。你知道这不符合规矩。我是抗议才这么做的。钥匙在桌子里。我不知道其他人会怎么想，但我不介意告诉你，我一点也不喜欢这样。
 
 > INFO.NAME greeting 1 4453224052109529889
 I SAID... the key is in the desk. Get on with it.
