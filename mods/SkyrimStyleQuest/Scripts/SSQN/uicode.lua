@@ -22,8 +22,13 @@ end
 local uiTheme = {
 	normal = gmstToRgb("FontColor_color_normal"),
 	header = gmstToRgb("FontColor_color_header"),
+	background = gmstToRgb("FontColor_color_background"),
 	baseSize = 16
 }
+
+if require("openmw.vfs").fileExists("textures/ssqn/banner.png") then
+	uiTheme.texture = "textures/ssqn/banner.png"
+end
 
 
 local self, element = { animate = {} }
@@ -40,8 +45,9 @@ function self.renderBanner(m)
 	template.content:insert(1, {
 		type = ui.TYPE.Image,
 		props = {
-			resource = ui.texture { path = "white" },
-			color = util.color.rgb(0, 0, 0),
+			resource = ui.texture { path = uiTheme.texture or "white" },
+		--	color = util.color.rgb(0, 0, 0),
+			color = not uiTheme.texture and uiTheme.background or nil,
 			alpha = m.transparency,
 			relativeSize = util.vector2(1, 1),
 			size = (util.vector2(1, 1) * 4) * 2,
@@ -166,7 +172,7 @@ function self.renderBanner(m)
 	table.insert(contentBanner, minHeight)
 
 
-	element = ui.create {
+	element = ui.create({
 		layer = 'Notification',
 		type = ui.TYPE.Widget,
 		props = {
@@ -216,7 +222,8 @@ function self.renderBanner(m)
 				},
 			},
 		},
-	}
+	},
+	{ noWarnUnused = true })
 
 	return element
 end

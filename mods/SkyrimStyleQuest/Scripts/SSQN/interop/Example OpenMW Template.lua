@@ -1,4 +1,4 @@
-local ssqn = include("SSQN.interop")
+local ssqn = require("openmw.interfaces").SSQN
 
 if (ssqn) then
 

@@ -122,35 +122,31 @@ local function iconpicker(qIDString)
     --checks for full name of index first as requested, then falls back on finding prefix
     if (iconlist[qIDString] ~= nil) then
         return iconlist[qIDString]
-    else
-		local j = 0 --Just to prevent a possible infinite loop
-		repeat
-			j = j + 1
-			local loc = nil
-			local i = 0
-			repeat
-				i = i - 1
-				loc = string.find(qIDString, "_", i)
-			until (loc ~= nil) or (i <= -string.len(qIDString))
-			if ( loc ~= nil ) then
-				qIDString = string.sub(qIDString,1,loc)
-				if (iconlist[qIDString] ~= nil) then
-					break
-				else
-					qIDString = string.sub(qIDString,1,loc - 1)
-				end
-			else
-				qIDString = ""
-				break
-			end
-		until (iconlist[qIDString] ~= nil) or (qIDString == "") or (j == 10)
-		
-        if (iconlist[qIDString] ~= nil) then
-	        return iconlist[qIDString]
-        else
-            return "Icons\\SSQN\\DEFAULT.dds" --Default in case no icon is found
-        end
     end
+	local j = 0 --Just to prevent a possible infinite loop
+	repeat
+		j = j + 1
+		local loc
+		local i = 0
+		repeat
+			i = i - 1
+			loc = string.find(qIDString, "_", i)
+		until loc or (i <= -string.len(qIDString))
+		if loc then
+			qIDString = string.sub(qIDString,1,loc)
+			if iconlist[qIDString] then
+				break
+			else
+				qIDString = string.sub(qIDString,1,loc - 1)
+			end
+		else
+			qIDString = ""
+			break
+		end
+	until iconlist[qIDString] or (qIDString == "") or (j == 10)
+
+	--return default path if no icon is found
+        return iconlist[qIDString] or "Icons\\SSQN\\DEFAULT.dds"
 end
 
 local function getQuestName(i)

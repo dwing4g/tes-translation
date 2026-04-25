@@ -36,10 +36,10 @@ local sounds = {
 }
 
 local default = {
-	snd_ui_quest_new = "SSQN\\quest_update.wav",
+	snd_ui_quest_new = sounds.snd_mw_quest_1,
 	snd_ui_obj_new_01 = sounds.snd_mw_objective,
-	snd_ui_skill_increase = "Fx\\inter\\levelUP.wav",
-	snd_ui_levelup = "Fx\\inter\\levelUP.wav",
+	snd_ui_skill_increase = sounds.snd_levelup,
+	snd_ui_levelup = sounds.snd_levelup,
 }
 
 for k, v in pairs(sounds) do

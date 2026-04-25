@@ -7685,7 +7685,7 @@ Wooden Door
 
 > NPC_.FNAM Crito Olcinius
 Crito Olcinius
-克里托·奥基尼乌斯
+克里托·奥西尼乌斯
 
 > NPC_.FNAM db_assassin1b
 Assassin
@@ -10397,23 +10397,23 @@ An Escort to Molag Mar
 
 > INFO.NAME mv_tradermissed 19755240822353128148
 I met a trader named Paur Maston while traveling north of Bal Fell. It seems he was supposed to meet up with his partner, a Khajiit named Vanjirra, but Paur arrived late, and she had already gone on to Molag Mar.
-我在巴尔-费尔北部旅行时遇到了一个名叫保罗·马斯顿的贸易商。他似乎本该和他的伙伴，一个名叫万吉拉的卡吉特碰头，但保罗来晚了，而她已经去了莫拉格-玛尔。
+我在巴尔-费尔北部旅行时遇到了一个名叫保尔·马斯顿的贸易商。他似乎本该和他的伙伴，一个名叫万吉拉的卡吉特碰头，但保尔来晚了，而她已经去了莫拉格-玛尔。
 
 > INFO.NAME mv_tradermissed 3234382852344026970
 I've decided not to escort Paur Maston to Molag Mar. I have other things that are more important to take care of.
-我决定不护送保罗·马斯顿去莫拉格-玛尔了。我还有其他更重要的事要处理。
+我决定不护送保尔·马斯顿去莫拉格-玛尔了。我还有其他更重要的事要处理。
 
 > INFO.NAME mv_tradermissed 304819751277349016
 Paur Maston met his end while on the trip to Molag Mar. Sadly, he will never be able to meet up with his partner, Vanjirra.
-保罗·马斯顿在前往莫拉格-玛尔的途中遭遇了不测。遗憾的是，他再也无法和他的伙伴万吉拉见面了。
+保尔·马斯顿在前往莫拉格-玛尔的途中遭遇了不测。遗憾的是，他再也无法和他的伙伴万吉拉见面了。
 
 > INFO.NAME mv_tradermissed 25791261073249711002
 We have found Paur Maston's partner, Vanjirra. They were honest folks, and did reward me for my efforts.
-我们找到了保罗·马斯顿的伙伴万吉拉。他们都是诚实的人，对我的努力也给予了报酬。
+我们找到了保尔·马斯顿的伙伴万吉拉。他们都是诚实的人，对我的努力也给予了报酬。
 
 > INFO.NAME mv_tradermissed 29267265082254930396
 I arrived in Molag Mar with Paur Maston. Of course, I knew that Vanjirra was already dead, but didn't figure that Paur needed to know that as well. The fool still paid me what he could for escorting him here.
-我和保罗·马斯顿一起来到了莫拉格-玛尔。当然，我知道万吉拉已经死了，但没想到保尔也需要知道这一点。这个傻瓜还是尽其所能付给了我护送他来这里的报酬。
+我和保尔·马斯顿一起来到了莫拉格-玛尔。当然，我知道万吉拉已经死了，但没想到保尔也需要知道这一点。这个傻瓜还是尽其所能付给了我护送他来这里的报酬。
 
 > INFO.NAME mv_tradermissed 150730112949927496
 I arrived in Molag Mar and spoke to Vanjirra. She was saddened to hear of Paur's demise on our journey here, but was grateful that I was kind enough to tell her what had happened. An honest person, she rewarded me in a small way for my efforts.
@@ -14149,15 +14149,15 @@ A man approached me outside a trader's in Vivec. The odd thing is, I couldn't se
 
 > INFO.NAME eb_invisible 221161770245087340
 I've spoken to Lucretinaus Olcinius about his son's cure. He was grateful for all my help, and he gave me 100 septims as a reward for my efforts.
-我跟卢克雷蒂诺斯·奥基尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
+我跟卢克雷蒂诺斯·奥西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
 
 > INFO.NAME eb_invisible 193869919292223526
 Upon returning to the area around the trader's shop, I was greeted by the now-visible Cassius Olcinius. He was very grateful for my help, but he had nothing to offer me in return for my help.
-回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥基尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
+回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
 
 > INFO.NAME eb_invisible 811612941746920999
 I told Cassius Olcinius that Fevyn Ralen is dead. He'll never be visible again.
-我告诉卡西乌斯·奥基尼乌斯，费文·拉伦已经死了。他再也不会出现了。
+我告诉卡西乌斯·奥西尼乌斯，费文·拉伦已经死了。他再也不会出现了。
 
 > INFO.NAME ic14_nottell 710255621166818377
 Imperial Cult: Pledge from Canctunian Ponius
@@ -29943,7 +29943,7 @@ Ahhhh...you've removed this enchantment with your spell to cure disease!
 
 > INFO.NAME greeting 1 8099179422048416076
 Excuse me, can you help me? No, I'm over here. My name is Cassius Olcinius. Sorry...you see, I've been made invisible by a wizard!
-对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥基尼乌斯。抱歉…你看，我被巫师变成了隐身人！
+对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥西尼乌斯。抱歉…你看，我被巫师变成了隐身人！
 
 > INFO.NAME greeting 1 182391977298029994
 Take this, friend. I think everyone should read this leaflet. It has important information on it.
