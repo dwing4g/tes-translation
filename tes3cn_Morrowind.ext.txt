@@ -19596,7 +19596,7 @@ Of course, the anonymous writer's signature has not been on any reprint of the l
 <BR>
 巴兰兹娅和赫尔塞斯刚刚于去年穿越了整个大陆回到晨风。他们受到巴兰兹娅的叔叔，我们现任的国王，艾辛·莱森的热情款待，他于四十多年前接手了巴兰兹娅放弃的王位。巴兰兹娅明确表示她无意重申王位，只是想在家族的土地上安度晚年。而赫尔塞斯，如您了解的那样，经常徘徊逗留于王族宫廷之间，许多人都在私下说：王子已经丢掉了途歇城的王位，这回他肯定不想在莱森死后再次失去晨风之王的宝座。<BR>
 <BR>
-暗君陛下，我一直以来都向你汇报王子的各种活动、会议、密谋，以及他另外那些幕僚的名字和性格。您或许还记得，我曾经告诉过您，我经常认为我并不是赫尔塞斯宫廷中唯一的间谍。在那之后，我就注意到赫尔塞斯有一个长相特别的丹莫幕僚，长得很像我在审判席神殿大祭司索勒·萨里奥尼那看到的某人。另一位幕僚，一个年轻的诺德女人，我确定她曾经拜访过巴尔莫拉城的帝国要塞。当然，在上述事例中，他们也有可能是在替赫尔塞斯办事，但我不能确定。而当我对从途歇城时期就开始跟随王子的大管家，布莱顿人伯吉斯的赤胆忠心也产生怀疑时，我觉得我快要变得和王子本人一样的多疑和偏执了。<BR>
+暗君陛下，我一直以来都向你汇报王子的各种活动、会议、密谋，以及他另外那些幕僚的名字和性格。您或许还记得，我曾经告诉过您，我经常认为我并不是赫尔塞斯宫廷中唯一的间谍。在那之后，我就注意到赫尔塞斯有一个长相特别的丹莫幕僚，长得很像我在审判席大主教索勒·萨里奥尼那看到的某人。另一位幕僚，一个年轻的诺德女人，我确定她曾经拜访过巴尔莫拉城的帝国要塞。当然，在上述事例中，他们也有可能是在替赫尔塞斯办事，但我不能确定。而当我对从途歇城时期就开始跟随王子的大管家，布莱顿人伯吉斯的赤胆忠心也产生怀疑时，我觉得我快要变得和王子本人一样的多疑和偏执了。<BR>
 <BR>
 这些情况是那个晚上，就是昨晚，所发生事情的背景。<BR>
 <BR>
@@ -40004,11 +40004,11 @@ Wooden Staff of Judgement
 
 > ARMO.FNAM right horny fist gauntlet
 Right Glove of the Horny Fist
-性感之拳右手套
+坚拳右手套
 
 > ARMO.FNAM left_horny_fist_gauntlet
 Left Glove of the Horny Fist
-性感之拳左手套
+坚拳左手套
 
 > WEAP.FNAM firebite sword
 Firebite Sword
@@ -41640,11 +41640,11 @@ Silver Staff of Peace
 
 > ARMO.FNAM right gauntlet of horny fist
 Right Gauntlet of Horny Fist
-性感之拳右腕甲
+坚拳右腕甲
 
 > ARMO.FNAM left gauntlet of the horny fist
 Left Gauntlet of the Horny Fist
-性感之拳左腕甲
+坚拳左腕甲
 
 > WEAP.FNAM steel warhammer of smiting
 Steel Warhammer of Smiting
@@ -41696,7 +41696,7 @@ Chest of Fire
 
 > WEAP.FNAM gavel of the ordinator
 Gavel of the Ordinator
-殿卫之锤
+神殿卫兵之锤
 
 > CLOT.FNAM robe of burdens
 Robe of Burdens
@@ -41856,11 +41856,11 @@ Ring of Wildfire
 
 > ARMO.FNAM lbonemold brace of horny fist
 Bonemold Brace of Horny Fist
-性感之拳骨模护腕
+坚拳骨模护腕
 
 > ARMO.FNAM rbonemold bracer of horny fist
 Bonemold Bracer of Horny Fist
-性感之拳骨模护腕
+坚拳骨模护腕
 
 > WEAP.FNAM light staff
 Light Staff
@@ -42060,11 +42060,11 @@ Ring of Transcendent Wisdom
 
 > ARMO.FNAM right cloth horny fist bracer
 Right Cloth Horny Fist Bracer
-性感之拳右护腕
+坚拳右护腕
 
 > ARMO.FNAM left cloth horny fist bracer
 Left Cloth Horny Fist Bracer
-性感之拳左护腕
+坚拳左护腕
 
 > LOCK.FNAM pick_master
 Master's Lockpick
@@ -42388,7 +42388,7 @@ Ilmeni Dren
 
 > ARMO.FNAM bonemold_tshield_hrlb
 Redoran Banner Shield
-瑞多然禁卫盾牌
+瑞多然纹章盾牌
 
 > ARMO.FNAM bonemold_gah-julan_hhda
 Native Gah-Julan Bonemold Helm
@@ -43476,7 +43476,7 @@ Dead Warlock
 
 > NPC_.FNAM dead elite ord
 Dead Elite Ordinator
-死去的精英殿卫
+死去的精英神殿卫兵
 
 > CREA.FNAM lustidrike
 Lustidrike
@@ -44830,7 +44830,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿卫兵和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_DoorsOfTheSpirit
@@ -48375,7 +48375,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿卫兵和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_truenoblescode
@@ -52907,7 +52907,7 @@ Tervur Braven
 
 > NPC_.FNAM lucretinaus olcinius
 Lucretinaus Olcinius
-卢克雷蒂诺斯·奥西尼乌斯
+卢克雷蒂诺斯·奥尔西尼乌斯
 
 > NPC_.FNAM ordinator wander
 Ordinator
@@ -53670,7 +53670,7 @@ Ordinator
 
 > NPC_.FNAM danso indules
 Danso Indules
-丹索·因杜尔思
+丹索·因杜勒斯
 
 > MISC.FNAM key_archcanon_private
 Archcanon's Private Key
@@ -53961,14 +53961,14 @@ written at the request of and in the name of his Reverend Honor Tholer Saryoni, 
 Dileno Lloran, priest of Vivec, assistant to the Archcanon<BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-[蜡封无署名的包裹，内含一页无署名的笔记]<BR>
+[蜡封无署名的包裹，内含一页无署名的便条]<BR>
 <BR>
 <BR>
 [包裹封面]<BR>
 至近日自称是尼瑞瓦因的外地人，务必尽快送达——<BR>
 <BR>
 <BR>
-[笔记内容]<BR>
+[便条内容]<BR>
 你的主张与审判庭的教义产生了矛盾，也就是说，你就是所谓的“尼瑞瓦因”——神圣的尼瑞瓦大人的转世化身，除违背神殿教义外，实属荒谬至极。<BR>
 <BR>
 从异端审判所揭露的事实来看，你的身份实际上是一名帝国情报局的间谍，听令于“刀锋”会，近期这些实质性的证据皆来自于至高殿卫统领，贝瑞尔·萨拉大人，而这些举措也令你的主张及其动机备受质疑。<BR>
@@ -53977,11 +53977,11 @@ Dileno Lloran, priest of Vivec, assistant to the Archcanon<BR>
 <BR>
 神殿通过对与其相关的记录对其进行考察，特别是《圣典》和《匿典》的记录，从中依照预言和其相关联的众多常见的标志性预兆及事迹将那作为尼瑞瓦因的象征勘查无误。<BR>
 <BR>
-因此，如果述求者真能完成那些最不可思议、几乎令人难以置信的预言条件——即同时获得丹莫多个古老权力头衔的认可，具体来说，既要被三大家族共同推举为“统谏使”，又要被四大灰烬部落一致承认为“尼瑞瓦因”——那么神殿要求，这位自称尼瑞瓦因的人必须亲自前来接受审查，面见尊贵的萨荣尼大主教阁下——维威克城的大法官兼大主教、瓦丹费尔岛教团的大牧首、至高神殿的大祭司，以核实其身份和主张。但在此之前，如果述求者未能同时获得三大议会和四大灰烬部落的双重认可，那么任何审查或讨论都是毫无意义的。<BR>
+因此，如果述求者真能完成那些最不可思议、几乎令人难以置信的预言条件——即同时获得丹莫多个古老权力头衔的认可，具体来说，既要被三大家族共同推举为“统谏使”，又要被四大灰烬部落一致承认为“尼瑞瓦因”——那么神殿要求，这位自称尼瑞瓦因的人必须亲自前来接受审查，面见尊贵的萨里奥尼大主教阁下——维威克城的大法官兼大主教、瓦丹费尔岛教团的大主教、至高神殿的大祭司，以核实其身份和主张。但在此之前，如果述求者未能同时获得三大议会和四大灰烬部落的双重认可，那么任何审查或讨论都是毫无意义的。<BR>
 <BR>
 因为神殿对尼瑞瓦因的预言有着官方立场，以及需要保护述求者不会被那些想要对其照成伤害的人威胁到，为了方便起见应该由拥有尼瑞瓦因头衔的述求者秘密前往维威克城至高神殿里的大主教私人住所亲自会面大主教萨里奥尼。<BR>
 <BR>
-与大主教会面就意味着需要同意这些条款与条件，为此述求者尼瑞瓦因可能要先亲自去见维威克城至高神殿的治疗师，丹索·因杜尔思，然后她会为此做一些必要的安排。再重复一次，直到述求者被任命为三大家族的统谏使以及四大灰烬民部落的尼瑞瓦因之前任何于此相关的会面都毫无意义。<BR>
+与大主教会面就意味着需要同意这些条款与条件，为此述求者尼瑞瓦因可能要先亲自去见维威克城至高神殿的治疗师，丹索·因杜勒斯，然后她会为此做一些必要的安排。再重复一次，直到述求者被任命为三大家族的统谏使以及四大灰烬民部落的尼瑞瓦因之前任何于此相关的会面都毫无意义。<BR>
 <BR>
 <BR>
 奉维威克城的大主教兼大法官、尊贵的索勒·萨里奥尼阁下之命代书，<BR>
@@ -54075,7 +54075,7 @@ And in these latter days of Morrowind, reduced to a subjugated province of the W
 <BR>
 但就在红山之下，达格斯·乌尔存活了下来。甚至在我们外界的新世界越发文明的时候，黑暗也在红山之下，聚集了起来，这道黑暗与索萨·希尔用卡格瑞纳克的工具从洛克汗之心中带出的光明是共生的。随着黑暗愈发强大，我们尝试与他抗衡，建造了屏障来将他禁锢在红山内，但我们从未能摧毁它，因为黑暗的力量与我们神圣的力量是同一个源头。<BR>
 <BR>
-而在后来的晨风，沦为了被西方帝国所征服的省份，随着神殿的荣耀日渐衰退，加上红山的黑潮涌动，我们才想起阿祖拉以及她许诺将会归来的勇士。我们等待着，盲目地，在黑暗中，虚度时光，看着阴影逐渐笼罩，我们强烈的期望渐渐冷淡下来，为我们所做的蠢事而倍感羞愧，也为必将到来的审判惶惶终日，然而我们依旧心存侥幸。我们无法料到预言中作为尼瑞瓦因的外乡人是否真的是我们昔日的同伴尼瑞瓦的转世，亦或是帝国的走狗，亦或是阿祖拉的棋子，亦或是那个被命运折磨的人。但是我们坚持要你的存在贴合神殿的教义，并且严格按照匿典中象形文字所述的要求，同时要注意你不能泄露这些不可公开的秘密。你要像一个充满责任感的牧师一样行动，要严格履行自己服从教众和主教的诺言，这样过去发生的事情才都会得到原谅。若敢蔑视我的话，你就会知道公然对抗神明的下场是什么样子。<BR>
+而在后来的晨风，沦为了被西方帝国所征服的省份，随着神殿的荣耀日渐衰退，加上红山的黑潮涌动，我们才想起阿祖拉以及她许诺将会归来的勇士。我们等待着，盲目地，在黑暗中，虚度时光，看着阴影逐渐笼罩，我们强烈的期望渐渐冷淡下来，为我们所做的蠢事而倍感羞愧，也为必将到来的审判惶惶终日，然而我们依旧心存侥幸。我们无法料到预言中作为尼瑞瓦因的外乡人是否真的是我们昔日的同伴尼瑞瓦的转世，亦或是帝国的走狗，亦或是阿祖拉的棋子，亦或是那个被命运折磨的人。但是我们坚持要你的存在贴合神殿的教义，并且严格按照匿典中象形文字所述的要求，同时要注意你不能泄露这些不可公开的秘密。你要像一个充满责任感的牧师一样行动，要严格履行自己服从教众和大主教的诺言，这样过去发生的事情才都会得到原谅。若敢蔑视我的话，你就会知道公然对抗神明的下场是什么样子。<BR>
 <BR>
 ——维威克<BR>"""
 
@@ -54157,72 +54157,72 @@ Noted with Concern<BR>
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 达格斯乌尔的计划<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-[以下文件由神殿学者和宗教代理人为维威克大人所准备。]<BR>
+[以下文件由神殿学者和审判席宗教特工为维威克大人所准备。]<BR>
 <BR>
-来自对被捕的沉睡者和其他第六家族邪教徒的审讯，来自对邪教徒和梦致躁狂症受害者的手稿的研究，来自对维威克大人关于反对红山的历史运动的采访，以及对这些材料的广泛猜想和推论，这是我们对达格斯·乌尔在与晨风战争的最新阶段的动机和目标的最佳估计。<BR>
+基于对被俘“沉睡者”及其他第六家族信徒的审讯、对信徒及梦境狂躁症患者所撰写手稿的研究、与维威克大人关于红山历次战役的访谈，并结合对这些材料的广泛推测与推论，我们得出以下关于达格斯·乌尔在其对晨风发动的最新阶段战争中的动机与目标的最佳评估。<BR>
 <BR>
 基本目标<BR>
 <BR>
-1. 以达格斯·乌尔从洛克汗的心脏所创造的新生神阿库拉可汗（第二努米迪文）的崇拜为基础，在晨风建立一个神权政体，并按照由锻莫卡格瑞纳克开创的原则和仪式为阿库拉可汗建造一个身体。将达格斯家族的古老继承人确立为阿库拉可汗的神职人员，将达格斯·乌尔的第六家族确立为晨风的主导政治力量。通过魅力转换，在达格斯·乌尔的带领下团结丹莫，与企图征服晨风的外来动物们作战。（注：达格斯乌尔显然采纳了锻莫高级工匠卡格瑞纳克的观点和动机。实际上，他重述了锻莫古老且愚蠢亵渎的文本。）<BR>
+1. 以达格斯·乌尔从洛克汗的心脏所创造的新生神阿库拉可汗（第二努米迪文）的崇拜为基础，在晨风建立一个神权政体，并按照由锻莫卡格瑞纳克开创的原则和仪式为阿库拉可汗建造一个身体。将达格斯家族的古老继承人确立为阿库拉可汗的神祭司，并使达格斯·乌尔的第六家族成为晨风的主导政治力量。通过富有魅力的皈依，团结在达格斯·乌尔的指引下，共同对抗那些奴役着晨风的外来异族。[注：达格斯·乌尔显然已采纳了锻莫大工匠卡格瑞纳克的观念与动机。实际上，他是在重蹈锻莫古老而亵渎神明的愚行。]<BR>
 <BR>
-2. 揭露对审判席的虚假崇拜，破坏神殿的教会权威和政权。（在这方面，第六家族可能对持不同政见者或尼瑞瓦因教派的人的控制或影响有多大，有待猜测。）<BR>
+2. 揭露审判席的虚伪崇拜，并摧毁神殿的宗教权威与政治权力。[在此方面，异见祭司或尼瑞瓦因教派在多大程度上受到第六家族的控制或影响，尚有待推测。]<BR>
 <BR>
-3. 从晨风中消灭所有剩余的低等种族和杂种种族。<BR>
+3. 从晨风彻底清除所有劣等及混血种族的残余个体。<BR>
 <BR>
-4. 从晨风驱赶帝国。<BR>
+4. 将帝国逐出晨风。<BR>
 <BR>
-5. 夺回古时被天际和阿尔贡尼亚偷窃的领土。<BR>
+5. 收复天际和阿尔贡尼亚侵占的古代领土。<BR>
 <BR>
-6. 通过颠覆和征服，将阿库拉可汗的崇拜扩展到泰姆瑞尔的所有国家。<BR>
+6. 通过颠覆和征服，将阿库拉可汗的崇拜扩展到泰姆瑞尔的所有国度。<BR>
 <BR>
-计划建立和扩大第六家族<BR>
+建立与扩张第六家族的计划<BR>
 <BR>
-第1阶段：保护红山免受审判席入侵者的侵害。阻止审判席使用心脏的神力，削弱神殿，同时保护红山以创建阿库拉可汗。对第二努米迪文的建造保密。<BR>
+第1阶段：确保红山地区免受审判席的侵入。阻止审判席接触洛克汗之心，从而削弱神殿，同时确保红山地区的安全，用以建造阿库拉可汗。将第二努米迪文的建造工程保密。<BR>
 <BR>
-第2阶段：在红山周围不断扩大的圈子中创建被动仆人，通过向睡梦中的易感对象传播梦境图像中的强迫行为。在科戈汝因建立一个重要的作业基地，以进一步开展灰烬造物的作业。在小型港口村附近和维威克的滨水区建立较小的基地。渗透和颠覆走私集团。从心怀不满的人群中招募愿意追随者，包括黑社会、穷人和狂热的反帝国活动家。<BR>
+第2阶段：通过对易感者在睡梦中施加以梦境意象包装的强制意念，在红山周边不断扩大的区域内制造出被动的仆从。在科戈汝因建立一处主要行动基地，以便在灰烬地区开展进一步行动。在小型港口村落附近以及维威克城内穷困的水岸区建立小型基地。渗透并颠覆走私集团。从心怀不满的人群中招募自愿的追随者，包括地下势力、穷人和狂热的反帝国活动分子。<BR>
 <BR>
-第3阶段：从较小的基地扩展到其他城镇和村庄，招募和灌输因梦境传送而易感的对象。占领废弃的塔楼和废墟，将腐化的邪教徒训练为袭击者和非正规部队。识别、诋毁和消灭可能的政治阻力来源。<BR>
+第3阶段：从小型基地向其他城镇和村庄扩张，并从受梦境传讯影响而变得易感的人群中招募并灌输思想。占领废弃的塔楼和遗迹，并将堕落了的信徒训练成突袭者和非正规部队。识别、诋毁并削弱可能构成政治抵抗的源头。<BR>
 <BR>
-第4阶段：使用暗杀和恐怖来削弱、分散和扰乱军团和帝国人的官僚机构，以及他们的哈拉鲁家族支持者。激发当地穷人反对外国富豪的民众起义。召唤沉睡者和梦游者到达格斯·乌尔堡从事第二努米迪文的建造工作。<BR>
+第4阶段：利用暗杀与恐怖手段来削弱、分散和扰乱帝国军团与帝国官僚体系，以及他们的哈拉鲁同情者。煽动本地穷苦民众对外来富豪与权贵的暴力起义。召集“沉睡者”与“梦游者”前往达格斯·乌尔处，为第二努米迪文工作。<BR>
 <BR>
 推断达格斯·乌尔的观点<BR>
 <BR>
-达格斯·乌尔在一个很大的时间尺度上进行思考——在大多数情况下，在神圣意识的时间尺度之外。他认为只有神话规模的障碍才值得考虑。他相信自己注定要统治晨风，解放帝国统治下的晨风，成为新的铁骨铮铮的晨风之父。从这个角度来看，达格斯·乌尔唯一担心的对立力量是审判席、迪德拉、皇帝和化身。<BR>
+达格斯·乌尔以宏大的时间尺度来思考——在很大程度上，那是神圣意识超脱时间的尺度。他认为，只有神话级别的障碍才值得考量。他相信自己命中注定要统治晨风，将晨风从帝国的枷锁中解放出来，并成为晨风那位严厉而又慈爱的新“父亲”。基于这一视角，达格斯·乌尔唯一担心的对立力量就是审判席、迪德拉大君、皇帝以及那位预言中的化身。<BR>
 <BR>
-随着审判席失去哀恸和决裂，维威克、阿玛莱西娅和索萨·希尔的资源越来越少，达格斯·乌尔相信他已经永久获得了决定性的战略优势。在凡人的时间尺度上，这场战斗可能会持续几个世纪，但结果是毋庸置疑的。而阿库拉可汗可能是一种大幅缩短决定性胜利时间尺度的手段。<BR>
+随着审判席失去了“哀恸”与“决裂”，以及维威克、阿玛莱希娅与索萨·希尔的资源日益枯竭，达格斯·乌尔坚信他已永久性地获得了决定性的战略优势。以凡人的时间尺度来看，这场战斗或许会持续数个世纪，但其结果已毋庸置疑。而阿库拉可汗，或许正是一种能戏剧性地缩短取得决定性胜利所需时间尺度的装置。<BR>
  <BR>
-皇帝和帝国的无敌神话长期以来一直是一个无法量化和令人生畏的威胁，但最近关于西罗帝尔动乱、皇帝健康状况不佳以及未解决的继承问题的传言已经缩小了这一威胁的规模。不过，尼瑞瓦因是帝国情报局的棋子，被皇帝亲自挑选送到晨风的消息，可能会引起达格斯·乌尔的相当焦虑。<BR>
+关于皇帝与帝国那不可战胜的神话，长久以来一直是一种无法量化且令人胆寒的威胁。但近来关于西罗帝尔动荡不安、皇帝龙体欠安以及皇位继承问题悬而未决的流言，已削弱了这种威胁的程度。尽管如此，有消息揭露尼瑞瓦因是帝国情报局的一枚棋子，由皇帝亲自挑选并派往晨风，这可能引起了达格斯·乌尔相当大的焦虑。<BR>
 <BR>
-迪德拉信徒们对达格斯·乌尔没有什么比较大的阻碍。尽管如此，他们的个人能力和他们对狂热追随者的影响是相当大的，他们的动机和行为不明，达格斯·乌尔仍然对他们很关注。<BR>
+迪德拉大君们对达格斯·乌尔而言，并不构成什么连贯的障碍。然而，他们各自的能力、对其狂热追随者的巨大影响力、其动机与行为的隐晦不明，依然让达格斯·乌尔心存顾忌。<BR>
 <BR>
-化身代表圣·尼瑞瓦，这是一支先前击败过达格斯·乌尔的神话力量，而达格斯·乌尔则痴迷于这种威胁。同时，达格斯·乌尔本身认识尼瑞瓦，知道他是一个有缺点和弱点的凡人。达格斯·乌尔或许对尼瑞瓦的转世有勾引或谈判的希望。此外，当尼瑞瓦和审判席击败达格斯·乌尔时，他们是强大的盟友；现在，尼瑞瓦因和审判席软弱、对立、分裂。因此，虽然尼瑞瓦因和审判席对达格斯·乌尔的计划构成了最严重的威胁，但他仍然有充分的理由相信这一次他还会获胜。<BR>
+那位预言中的化身代表着圣·尼瑞瓦——一股曾击败过达格斯·乌尔的神话力量。达格斯·乌尔对此威胁深感困扰。同时，达格斯·乌尔也曾与尼瑞瓦本人相识，深知他不过是个有着缺点与弱点的凡人。达格斯·乌尔或许仍抱有一丝希望，能引诱尼瑞瓦的转世者与之谈判。此外，当年尼瑞瓦与审判席击败达格斯·乌尔时，他们正值强盛且结为同盟；而今，尼瑞瓦因与审判席彼此衰弱、对立且分裂。因此，尽管尼瑞瓦因和审判席对达格斯·乌尔的计划构成了最严重的威胁，他仍有充分理由相信自己此次终将获胜。<BR>
 <BR>
 达格斯·乌尔近期活动时间表<BR>
-（以下大部分时间尺度是基于不完整信息的推断。）<BR>
+[以下时间表中的大部分内容均基于对不完整信息的推断。]<BR>
 <BR>
-第二纪元882年之前：达格斯·乌尔和他的同胞们沉睡在红山之下。<BR>
+第二纪元882年之前：达格斯·乌尔及其亲族在红山深处沉睡。<BR>
 <BR>
-第二纪元882年：达格斯·乌尔和他的灰烬吸血鬼们苏醒并从红山进入心脏之室。达格斯·乌尔在他自己设计的仪式中将自己和他的兄弟们作为心腹之徒进行了神化仪式。第二努米迪文（在他长眠期间的构想）的第一阶段是由在洛克汗之心附近的一个房间内的心魔和侍灵们进行建造的。向审判席保密第二努米迪文项目是一个高度优先事项。<BR>
+第二纪元882年：达格斯·乌尔与他那些恢复了精力的灰烬吸血鬼从红山深处苏醒，并现身于心之室。达格斯·乌尔以其自创的仪式，将自己及其兄弟以仪式性的方式与心脏捆绑，成为“心之守卫”。第二努米迪文的初期建造工程（构思于“长眠”期间）由心之守卫与元素构装体在洛克汗之心附近的一个密室内启动。对这第二努米迪文项目保守秘密，不让审判席得知，是重中之重。<BR>
 <BR>
-第二纪元882年：审判席到达红山，进行他们一年一度的沐浴在心脏的力量中的仪式。达格斯·乌尔和灰烬吸血鬼伏击审判席。三神被赶走，并被阻止在洛克汗之心使用卡格瑞纳克的工具恢复自己。<BR>
+第二纪元882年：审判席抵达红山，进行一年一度的借助心脏力量沐浴的仪式。达格斯·乌尔及其灰烬吸血鬼伏击了审判席。诸位审判席被击退，并被阻止利用卡格瑞纳克的工具在洛克汗之心处恢复力量。<BR>
 <BR>
-第二纪元882年-第三纪元417年：审判席间歇性的进攻红山。审判席和他们的支持力量试图强行进入心脏之室，但一再被击退。达格斯·乌尔通过梦境派遣招募沉睡者和梦游家。邪教徒是通过梦境强迫招募的。较弱的邪教徒肉体会变成野兽；更强大的邪教徒通过各个阶段向升魂沉睡者的力量前进。<BR>
+第二纪元882年-第三纪元417年：审判席间歇性地发动对红山的攻势。审判席及其支援力量试图强行进入心之室，但屡次被击退。达格斯·乌尔通过梦境传讯招募“沉睡者”与“梦游者”。通过梦境强制意念招募信徒。较弱的信徒变成尸化兽；较强的信徒则逐阶晋升，向“升魂沉睡者”的力量迈进。<BR>
 <BR>
-第三纪元400年：科戈汝因被达格斯·尤索尔重新占领，并作为第六家族行动的先遣基地。枯萎病风暴更加频繁和广泛。灵魂疾病在红山附近地区蔓延。<BR>
+第三纪元400年：科戈汝因被达格斯·尤索尔重新占领，并加固为第六家族行动的前沿基地。枯萎风暴愈发频繁且广泛。靠近红山地区的灵魂之疾开始蔓延。<BR>
 <BR>
-第三纪元410年：第六家族基地在纳尔-莫克附近的维威克城滨水区域建立。第六家族的特工利用走私者的组织和通讯，在达格斯·乌尔的梦境的受害者中传播他们的影响力。<BR>
+第三纪元410年：在纳尔-莫克附近及维威克城滨水区建立了第六家族基地。第六家族的特工利用走私组织及其联络网，在那些因达格斯·乌尔的梦境传讯而心神不宁的受害者中扩散其影响力。<BR>
 <BR>
-第三纪元415年：瓦登费尔几乎每个城镇都有第六家族邪教徒的小基地。更庞大的第六家族组织行动隐藏在偏远的地牢中，在那里培育生物，训练信徒为即将到来的战争做准备。<BR>
+第三纪元415年：在瓦登费尔的每一座城镇中，都潜伏着第六家族信徒的小型秘密据点。而更大规模的第六家族行动，则隐匿于偏远的洞穴与地牢深处——那里正培育着用于战争的凶兽，也训练着信徒，为即将到来的斗争做准备。<BR>
 <BR>
-第三纪元417年：阿玛莱西娅和索萨·希尔在与达格斯·欧德罗斯和达格斯·维明的战斗中分别将神器哀恸和决裂丢失了。维威克救出了阿玛莱西娅和索萨·希尔，但没能救回哀恸和决裂，审判席从红山大败而归。幸存的灵动扈从同伴知道审判席被迫撤退，却不知道审判席遭受了多么严重的损失。三神回到各自的首都，继续履行他们的仪式职能。由于无法获得心脏的力量，并且由于支持幽灵之墙所需的资源，审判席会继续变得更弱。圣殿祭司的核心圈子已经开始怀疑三神在红山的战斗之后遭受了严重的伤害，士气低落，但不知道问题的真正严重性。<BR>
+第三纪元417年：阿玛莱希娅与索萨·希尔手中的神器“哀恸”与“决裂”被达格斯·欧德罗斯与维明夺走。维威克救出了阿玛莱希娅与索萨·希尔，但因未能夺回“哀恸”与“决裂”，审判席被迫溃败地撤出红山。幸存的灵动扈从们知道审判席是被迫撤退，但不知审判席遭此重创的程度。三位审判席返回各自的首都，继续履行其仪式性的职责。由于无法接触心脏，又需将资源用于维持幽魂之墙，审判席们持续衰弱。神殿高阶祭司团内部的圈内人士开始怀疑审判席们在红山失利后身受重伤、士气低落，但尚未认清问题的严重性。<BR>
 <BR>
-第三纪元426-427年：第六家族暗杀杰出的帝国公民和哈拉鲁家族的帝国支持者。邪教徒和因灵魂疾病而精神错乱的受害者袭击的数量和严重程度突然增加。<BR>
+第三纪元426-427年：第六家族展开了一系列针对帝国知名公民及哈拉鲁家族中帝国同情者的暗杀行动。由信徒及因灵魂之疾而心智失常的受害者发动的袭击，其数量与严重程度急剧增加。<BR>
 <BR>
-令人担忧的记录<BR>
+值得关注的事项<BR>
 <BR>
-1. 达格斯·乌尔显然可以通过他的信徒直接感知与交流。据报道，沉睡者和梦游者说话时仿佛带着达格斯·乌尔的声音和意图。<BR>
+1. 达格斯·乌尔似乎能通过其信徒进行感知和直接沟通。常有报告称，“沉睡者”与“梦游者”说话时，仿佛带着达格斯·乌尔的意志与口吻。<BR>
 <BR>
-2. 关于阿库拉可汗（第二努米迪文）的特征、规模或完成阶段知之甚少。自第二纪元282年以来，没人能够进入心脏之室。在第三纪元417年中，哀恸和决裂被虏获，且极大可能进一步帮助了阿库拉可汗的建造。<BR>
+2. 关于阿库拉可汗（第二努米迪文）的特征、规模及建造进展现状，人们知之甚少。自第二纪元282年以来，再无人进入过心脏密室。在第三纪元417年，“哀恸”与“决裂”被俘获，这可能会大大加速阿库拉可汗的建造。<BR>
 """
 
 > WEAP.FNAM cruel frostarrow
@@ -54323,7 +54323,7 @@ Assantus Hansar
 
 > NPC_.FNAM sendus sathis
 Sendus Sathis
-森达斯·萨提斯
+森杜斯·萨提斯
 
 > ACTI.FNAM in_dwrv_crank_00
 Dwarven Crank
@@ -59133,7 +59133,7 @@ Daroder Helni
 
 > NPC_.FNAM Talamu Sethandas
 Talamu Sethandas
-塔拉穆·西森达斯
+塔拉穆·西桑达斯
 
 > NPC_.FNAM Dovrosi Varyon
 Dovrosi Varyon
@@ -59733,11 +59733,11 @@ Veloth's Shield
 
 > ARMO.FNAM gauntlet_horny_fist_r
 Right Gauntlet of Horny Fist
-性感之拳右腕甲
+坚拳右腕甲
 
 > ARMO.FNAM gauntlet _horny_fist_l
 Left Gauntlet of the Horny Fist
-性感之拳左腕甲
+坚拳左腕甲
 
 > NPC_.FNAM endar drenim
 Endar Drenim
@@ -63343,7 +63343,7 @@ The large island of Sheogorad lies north of Vvardenfell. This island and its ass
 <BR>
 瓦丹登费尔火山的主要代表就是红山，它是瓦登费尔中心的一座巨大火山。外部斜坡陡峭而崎岖，火山口很深，表面点缀着熔岩。鬼魂之墙是一道神奇的屏障，它不仅阻挡了旅行者，也将那被称为“枯萎病”的有害、致疾的天气封印于其内。它环绕着火山的外部斜坡，只有在鬼魂之门才能进入。在鬼魂之墙之内，雨永远不会落下，太阳永远不会照耀。唯一的天气就是红色和致命的枯萎病。<BR>
 <BR>
-鬼魂之门是鬼魂之墙殿卫和灵动扈从驻军的大本营。鬼魂之门坐落在该地唯一的隘口上，通过这个隘口，达格斯·乌尔的怪物大军可能会从红山冒出来，威胁到晨风的其余地区。鬼魂之墙本身是一个巨大的魔法制品，完全环绕着红山，防止枯萎病将它的腐败蔓延到瓦登费尔的其他地方。<BR>
+鬼魂之门是鬼魂之墙神殿卫兵和灵动扈从驻军的大本营。鬼魂之门坐落在该地唯一的隘口上，通过这个隘口，达格斯·乌尔的怪物大军可能会从红山冒出来，威胁到晨风的其余地区。鬼魂之墙本身是一个巨大的魔法制品，完全环绕着红山，防止枯萎病将它的腐败蔓延到瓦登费尔的其他地方。<BR>
 <BR>
 <DIV ALIGN="CENTER"><BR>
 西境之痕<BR>
@@ -63545,7 +63545,7 @@ Roads lead northwest to Maar Gan and Gnisis villages and by a circuitous western
 <BR>
 公共服务系统<BR>
 <BR>
-瑞多然家族的服务系统位于蟹骨之下的奥德-汝因的议院大厅和议员庄园。城镇东侧的奥德-汝因庙为神殿礼拜者提供服务。雄蛾要塞为帝国军团和帝国教会的信徒提供服务，包括一个帝国教会祭坛。战士公会和法师公会的公会大厅在南门附近。价格昂贵但质量高的服装、炼金术士和魔法师商店也在蟹骨之下。在蟹骨之下的奥德-汝因入口附近的铁匠、服饰商、交易商、典当行和书商都有价格合理但选择较少的商品。奥德·蟹骨旅店和议会所街角酒吧位于西面，靠近西门和阔步沙蚤站点。锅中之鼠街角酒吧位于南奥德-汝因，在公会大厅附近。<BR>
+瑞多然家族的服务系统位于蟹骨之下的奥德-汝因的议院大厅和议员庄园。城镇东侧的奥德-汝因庙为神殿礼拜者提供服务。雄蛾要塞为帝国军团和帝国教会的信徒提供服务，包括一个帝国教会祭坛。战士公会和法师公会的公会大厅在南门附近。价格昂贵但质量高的服装、炼金术士和魔法师商店也在蟹骨之下。在蟹骨之下的奥德-汝因入口附近的铁匠、服饰商、交易商、典当行和书商都有价格合理但选择较少的商品。奥德·蟹骨旅店和议会会所街角酒吧位于西面，靠近西门和阔步沙蚤站点。锅中之鼠街角酒吧位于南奥德-汝因，在公会大厅附近。<BR>
 <BR>
 著名的人物<BR>
 <BR>
@@ -68719,7 +68719,7 @@ Ald Skar Inn
 
 > ACTI.FNAM furn_banner_tavern_aldruhncounc
 Ald-ruhn Council Club
-奥德-汝因议会所
+奥德-汝因议会会所
 
 > MISC.FNAM key_eldafire
 Small Key
@@ -72777,7 +72777,7 @@ East Empire Company <BR>
 
 > NPC_.FNAM cassius olcinius
 Cassius Olcinius
-卡西乌斯·奥西尼乌斯
+卡西乌斯·奥尔西尼乌斯
 
 > BOOK.FNAM bk_letterfromllaalam2
 Letter From Llaalam Dredil
@@ -73892,7 +73892,7 @@ Learn what bounties and blessing might be gained by prayer at the shrines found 
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 神殿团契<BR>
-大牧首索勒·萨里奥尼　著<BR><BR>
+大主教索勒·萨里奥尼　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 我被要求写这本指南，为那些不熟悉审判席神殿，但有兴趣加入的局外人提供指引。<BR>
 <BR>
@@ -73914,7 +73914,7 @@ Learn what bounties and blessing might be gained by prayer at the shrines found 
 <DIV ALIGN="CENTER"><BR>
 《萨里奥尼的布道词》<BR>
 <DIV ALIGN="LEFT"><BR>
-学习维威克的教导，以及大牧首关于七大恩典的讲道。<BR>
+学习维威克的教导，以及大主教关于七大恩典的讲道。<BR>
 <DIV ALIGN="CENTER"><BR>
 《圣徒之道》<BR>
 <DIV ALIGN="LEFT"><BR>
@@ -74699,8 +74699,7 @@ But most serious are the plagues and diseased hosts produced by the blight storm
 <BR>
 瓦登费尔地区原先作为审判席神殿的保留地受到帝国保护，在第三纪元的414年，该地被重组为帝国省份地区。自停战条约签订以来，瓦登费尔就一直以保留地的身份接受神殿的管理，除少量经神殿批准的大家族居住点外，瓦登费尔在过去不可居住，也从未被开发。然而，当神殿对瓦登费尔地区长达数世纪的贸易与居住禁令被晨风国王废止后，帝国殖民者与大家族的丹莫洪水一般涌上了瓦登费尔，扩展旧有居住地的同时也修建了新的定居点。<BR>
 <BR>
-<BR>
-新区被划分为瑞多然、哈拉鲁、泰瓦尼和神殿四个区域，每个区域都由本地的家族议会或神殿牧师独立管理，而所有议会都要遵从德伦公爵以及位于檀心城的地区议会的建议，行事也要获得他们的批准。家族区中的当地法律混合了家族律法与帝国法，由家族守卫与帝国守卫共同执行，而神殿区的神殿律法和帝国法则由殿卫负责维护。审判席神殿依旧是主要宗教，但对九圣灵的崇拜则受到帝国军团的保护，且帝国教的传教士们鼓励宗教的传播。<BR>
+新区被划分为瑞多然、哈拉鲁、泰瓦尼和神殿四个区域，每个区域都由本地的家族议会或神殿牧师独立管理，而所有议会都要遵从德伦公爵以及位于檀心城的地区议会的建议，行事也要获得他们的批准。家族区中的当地法律混合了家族律法与帝国法，由家族守卫与帝国守卫共同执行，而神殿区的神殿律法和帝国法则由神殿卫兵负责维护。审判席神殿依旧是主要宗教，但对九圣灵的崇拜则受到帝国军团的保护，且帝国教的传教士们鼓励宗教的传播。<BR>
 <BR>
 神殿区包括维威克城、幽魂之门要塞，以及所有神圣或亵渎的地点（也包括幽魂之墙以内的枯萎病地区），还有瓦登费尔全部无人居住的荒郊野地。实际上，所有未标明为瑞多然、哈拉鲁或泰瓦尼区的区域都属于神殿区。神殿顽固地反对在他们区域内的一切开发，就此取得了很大成功。<BR>
 <BR>
@@ -75048,7 +75047,7 @@ Caius Cosades' Key
 
 > ACTI.FNAM furn_banner_councilclub
 Council Club
-议会所
+议会会所
 
 > MISC.FNAM key_Rufinus_Alleius
 Rufinus Alleius' Key
@@ -76264,23 +76263,23 @@ Stacey learned that Brallion was dead, and did not want to be associated with hi
 
 > INFO.NAME tg_ss_churchpolice 1245918801870616483
 Gentleman Jim Stacey asked me to steal Berel Sala's large Dwemer goblet and donate it to Danso Indules in the name of the Bal Molagmer. Berel Sala is the head of the Ordinators. He and his Dwemer goblet are in the Justice Offices in Vivec. Danso Indules wanders about the city of Vivec healing the sick. I'm likely to find her in the Temple area, near the High Fane.
-绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
+绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜勒斯。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜勒斯在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
 
 > INFO.NAME tg_ss_churchpolice 188483051445223323
 Danso Indules accepted the large Dwemer goblet, but seemed puzzled.
-丹索·因杜尔思接过锻莫的高脚杯，但似乎有些不解。
+丹索·因杜勒斯接过锻莫的高脚杯，但似乎有些不解。
 
 > INFO.NAME tg_ss_churchpolice 210952139391457579
 Danso Indules accepted the goblet, and seemed appreciative. She has heard stories of the return of the Bal Molagmer.
-丹索·因杜尔思接过高脚杯，似乎很感激。她听说过巴尔·莫拉格莫回归的故事。
+丹索·因杜勒斯接过高脚杯，似乎很感激。她听说过巴尔·莫拉格莫回归的故事。
 
 > INFO.NAME tg_ss_churchpolice 301862189120891597
 Danso Indules said that he would not accept anything stolen from Berel Sala.
-丹索·因杜尔思说，他不会接受从贝瑞尔·萨拉那偷来的任何东西。
+丹索·因杜勒斯说，他不会接受从贝瑞尔·萨拉那偷来的任何东西。
 
 > INFO.NAME tg_ss_churchpolice 2680724273962214425
 Gentleman Jim Stacey thanked me for stealing Berel Sala's Dwemer goblet and delivering it to Danso Indules.
-绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫的高脚杯，并把它交给了丹索·因杜尔思。
+绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫的高脚杯，并把它交给了丹索·因杜勒斯。
 
 > INFO.NAME tg_overduepayments 2789251134413470
 Sugar-Lips Habasi told me that Ra'Zhid at Fatleg's Drop Off in Hla Oad promised to deliver some Dwemer artifacts to the Thieves Guild. Habasi asked me to bring her a Dwemer tube, Dwemer goblet, and Dwemer bowl.
@@ -78200,7 +78199,7 @@ Baladas Demnevanni thanked me for bringing him a copy of "Nchunak's Fire and Fai
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。 {小费}
+我感谢阿娜西给我的提示，这让我得以找到焰镜长袍。 {小费}
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
@@ -79292,7 +79291,7 @@ Uryne Nirith, a servant of Ralen Hlaalo, told me that the murderer was a Dunmer 
 
 > INFO.NAME hh_retaliation 7333110453079030549
 I was told that Thanelen Velas at the Council Club here in Balmora meets the murderer's description.
-有人告诉我，巴尔莫拉议会所的塔内伦·维拉斯符合对凶手的描述。 {棍棒}
+有人告诉我，巴尔莫拉议会会所的塔内伦·维拉斯符合对凶手的描述。 {棍棒}
 
 > INFO.NAME hh_retaliation 3097179881143519833
 I killed Nine-Toes and reported back to Nileno Dorvayn.
@@ -80004,7 +80003,7 @@ We have arrived at the Ghostgate Shrine.
 
 > INFO.NAME mv_richpilgrim 1524327818231821325
 I've led Viatrix Petilia safely to Ghostgate. She did, indeed, give me a "tip" for my services, but it seems rather meager compensation from someone of such obvious means.
-我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {服务,老鼠,赔偿}
+我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的酬谢。 {服务,老鼠}
 
 > INFO.NAME mv_richpilgrim 3539235591674819322
 Viatrix Petilia has left my company because I did not deliver her to Ghostgate within the two days she desired. I can't say I'm sorry to see her go, although I am curious what she would have offered as a reward.
@@ -80588,7 +80587,7 @@ Ilmeni Dren thanked me for freeing Hides-His-Foot.
 
 > INFO.NAME hh_winsaryoni 37879234120217576
 Duke Dren asked me to speak with Archcanon Tholer Saryoni at the High Fane in Vivec and persuade him to control Berel Sala's Ordinators.
-德伦公爵让我与维威克城至高神殿的高级神殿卫兵索勒·萨里奥尼交谈，说服他控制贝瑞尔·萨拉的神殿卫兵们。
+德伦公爵让我与维威克城至高神殿的大主教索勒·萨里奥尼交谈，说服他控制贝瑞尔·萨拉的神殿卫兵们。
 
 > INFO.NAME hh_winsaryoni 25370258381190124420
 Archcanon Tholer Saryoni told me he would prevent the worst zeal of the Ordinators if I retrieved The Rove of Saint Roris from Assemanu. To get there I should head towards Seyda Neen from Ebonheart. After crossing the wooden bridge, I should head south in the middle of the swamps until I reach an island.
@@ -80600,7 +80599,7 @@ Archcanon Tholer Saryoni thanked me for delivering The Robe of Saint Roris and t
 
 > INFO.NAME hh_winsaryoni 1597520625261639817
 Duke Dren thanked me for persuading Archcanon Tholer Saryoni to curb the worst of the Ordinators' zeal.
-德伦公爵感谢我说服索勒·萨里奥尼大领主遏制了神殿卫兵们的狂热。
+德伦公爵感谢我说服大主教索勒·萨里奥尼遏制了神殿卫兵们的狂热。
 
 > INFO.NAME hh_wincamonna 37562226918418477
 Hides-His-Foot told me that Orvas Dren has a hidden room in his manor which has evidence that might persuade Orvas Dren. Nalvilie Saren has a key to this room.
@@ -82240,7 +82239,7 @@ Archcanon Saryoni has suggested that the Temple's policy concerning the Nerevari
 
 > INFO.NAME b8_meetvivec 122826422287141633
 Archcanon Saryoni accepted my apology for killing the Ordinator guard at the High Fane. He said it was time to risk trusting one another.
-大主教萨里奥尼接受了我对在至高神殿杀死高级神殿卫兵的道歉。他说现在是冒险尝试互相信任的时候了。 {瓜尔}
+大主教萨里奥尼接受了我对在至高神殿杀死至高神殿卫兵的道歉。他说现在是冒险尝试互相信任的时候了。 {瓜尔}
 
 > INFO.NAME b8_meetvivec 191285114155612171
 The Ordinators guarding the High Fane know that I have come to meet with Saryoni. They warned me not to break the law, or they will take swift action.
@@ -82252,7 +82251,7 @@ The archcanon is in his private quarters, and he wants to speak with me, but I m
 
 > INFO.NAME b8_meetvivec 117631496314525700
 Athyn Sarethi gave me a sealed package containing a message sent on behalf of Archcanon Saryoni, High Archcanon of Vivec. In the event that I become both Hortator of the three Great Houses and Nerevarine of the four Ashlander tribes, Saryoni invites me to a private meeting to consider my claims. Once I am Hortator and Nerevarine, I should speak with the healer of the High Fane of Vivec, Danso Indules, to arrange the meeting.
-艾辛·萨雷提给了我一个密封的包裹，里面装着代表维威克大主教萨里奥尼的信息。如果我同时成为三大家族的统谏使和四大灰烬之地的尼瑞瓦因，萨里奥尼就会邀请我参加一次私人会面，以考虑我的要求。一旦我成为统谏使和尼瑞瓦因，我应该与维威克至高神殿的治疗师丹索·因杜尔思交谈，以安排会面。
+艾辛·萨雷提给了我一个密封的包裹，里面装着代表维威克大主教萨里奥尼的信息。如果我同时成为三大家族的统谏使和四大灰烬之地的尼瑞瓦因，萨里奥尼就会邀请我参加一次私人会面，以考虑我的要求。一旦我成为统谏使和尼瑞瓦因，我应该与维威克至高神殿的治疗师丹索·因杜勒斯交谈，以安排会面。
 
 > INFO.NAME tt_galomdeus 27161557674897606
 Tharer Rotheloth gave me the equipment of a vampire hunter. I must find the vampire Raxle Berne and slay him in the name of the Tribunal. Galom Daeus is southwest of Uvirith's Grave, which is west of Tel Fyr. I should go south from Uvirith's grave until I reach a river of lava, then follow that river to the west until I reach Galom Daeus.
@@ -82620,11 +82619,11 @@ Larrius Varro says that everything has been taken care of. I assume he is referr
 
 > INFO.NAME town_balmora 855874551571818859
 A Thieves Guild informant tells me that if the bad people I am looking for are Camonna Tong, and they're in Balmora, I'll find them at the Council Club cornerclub, the local Camonna Tong hangout. Larrius Varro mentioned a scout, a pawnbroker, a savant, a thief, and a smith. The scout would be Vadusa Sathryon. Marasa Aren would be the pawnbroker. The thief would be Madrale Thirith. Sovor Trandrel is the savant. Thanelen Velas would be the smith.
-盗贼公会的线人告诉我，如果我要找的恶人是卡莫纳堂的，而且他们在巴尔莫拉，我会在议会所街角酒吧找到他们，那是卡莫纳堂在当地的聚集地。拉里乌斯·瓦罗提到了一个斥候、一个典当商、一个学者、一个小偷和一个铁匠。斥候是瓦杜莎·萨斯里昂。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃·特兰德尔是学者。塔内伦·维拉斯是那位铁匠。 {棍棒,玛拉}
+盗贼公会的线人告诉我，如果我要找的恶人是卡莫纳堂的，而且他们在巴尔莫拉，我会在议会会所街角酒吧找到他们，那是卡莫纳堂在当地的聚集地。拉里乌斯·瓦罗提到了一个斥候、一个典当商、一个学者、一个小偷和一个铁匠。斥候是瓦杜莎·萨斯里昂。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃·特兰德尔是学者。塔内伦·维拉斯是那位铁匠。 {棍棒,玛拉}
 
 > INFO.NAME town_balmora 29388302491301911975
 I was told that the Balmora hangout for the Camonna Tong is the cornerclub called the Council Club.
-有人告诉我，巴尔莫拉卡莫纳堂的人的聚集地是一个叫议会所的街角酒吧。 {棍棒}
+有人告诉我，巴尔莫拉卡莫纳堂的人的聚集地是一个叫议会会所的街角酒吧。 {棍棒}
 
 > INFO.NAME town_balmora 12056196362966516499
 Larrius Varro, says he has a 'nice present from the Emperor.' He says it is supposed to be 'a surprise.' He says he doesn't know where it is, but that I should check back later to see if he has found it. After I have done some things. It sounds like he has some sort of payment for me if I make 'bad people' 'go away.'
@@ -83180,7 +83179,7 @@ A man approached me outside a trader's in Vivec. The odd thing is, I couldn't se
 
 > INFO.NAME eb_invisible 54921335413322871
 This man, Cassius Olcinius, says he has been cursed with permanent invisibility. The wizard who cursed him, Fevyn Ralen, is a Telvanni living here in Vivec. He has been afraid to visit the wizard for fear of further retribution, and he has been afraid to tell his father of the problem due to embarrassment.
-这个叫卡西乌斯·奥西尼乌斯的人说，他被下了永久隐身的诅咒。诅咒他的巫师费文·拉伦是住在维威克的泰瓦尼家族的人。他一直不敢去拜访巫师，因为害怕遭到进一步的报复，而且由于很丢脸，他也不敢把这个问题告诉他的父亲。
+这个叫卡西乌斯·奥尔西尼乌斯的人说，他被下了永久隐身的诅咒。诅咒他的巫师费文·拉伦是住在维威克的泰瓦尼家族的人。他一直不敢去拜访巫师，因为害怕遭到进一步的报复，而且由于很丢脸，他也不敢把这个问题告诉他的父亲。
 
 > INFO.NAME eb_invisible 81001895720936215
 I have agreed to help Cassius find a cure for the wizard's curse.
@@ -83192,7 +83191,7 @@ I have decided not to help Cassius remove the wizard's curse.
 
 > INFO.NAME eb_invisible 292058592450024775
 I have spoken to Lucretinaus Olcinius, a trader and the father of the invisible Cassius. He was appreciative to hear information about his son's whereabouts, and gave me 75 drakes in order to help me find a cure.
-我已经和卢克雷蒂诺斯·奥西尼乌斯谈过了，他是一名贸易商，也是隐形的卡西乌斯的父亲。他很感激能听到关于他儿子下落的信息，并给了我75龙币，以帮我找到解药。
+我已经和卢克雷蒂诺斯·奥尔西尼乌斯谈过了，他是一名贸易商，也是隐形的卡西乌斯的父亲。他很感激能听到关于他儿子下落的信息，并给了我75龙币，以帮我找到解药。
 
 > INFO.NAME eb_invisible 3034828805718532211
 I talked to Fevyn Ralen about Cassius' curse. He tells me that it is not a curse at all, but that Cassius had commissioned a spell to make him permanently invisible. The young man soon realized this was not a pleasant lifestyle and begged the wizard to remove the spell. However, as Cassius still owed the wizard 400 drakes for the original spell, he refused.
@@ -83216,15 +83215,15 @@ I returned to Fevyn Ralen and paid him the debt owed by Cassius. Fevyn promised 
 
 > INFO.NAME eb_invisible 221161770245087340
 I've spoken to Lucretinaus Olcinius about his son's cure. He was grateful for all my help, and he gave me 100 septims as a reward for my efforts.
-我跟卢克雷蒂诺斯·奥西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
+我跟卢克雷蒂诺斯·奥尔西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
 
 > INFO.NAME eb_invisible 193869919292223526
 Upon returning to the area around the trader's shop, I was greeted by the now-visible Cassius Olcinius. He was very grateful for my help, but he had nothing to offer me in return for my help.
-回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
+回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥尔西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
 
 > INFO.NAME eb_invisible 811612941746920999
 I told Cassius Olcinius that Fevyn Ralen is dead. He'll never be visible again.
-我告诉卡西乌斯·奥西尼乌斯，费文·拉伦已经死了。他再也不会出现了。
+我告诉卡西乌斯·奥尔西尼乌斯，费文·拉伦已经死了。他再也不能露面了。
 
 > INFO.NAME ic14_nottell 18256233029114701
 I told Canctunian Ponius that I found Mossanon, but I did not say where.
@@ -83628,11 +83627,11 @@ I delivered a diamond to Sugar-Lips Habasi.
 
 > INFO.NAME tg_manorkey 17505238341143927662
 Sugar-Lips Habasi asked me to bring her the key to the top floor of the Nerano Manor here in Balmora. Ondres Nerano certainly has a key, but it may be easier to get the key from one of his servants, such as Sovor Trandel at the Balmora Council Club.
-蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会所的索沃·特兰德尔。 {棍棒}
+蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会会所的索沃·特兰德尔。 {棍棒}
 
 > INFO.NAME tg_manorkey 814890472908015904
 Sovor Trandel has suggested that, for a little "compensation," he'd be willing to help me out.
-索沃·特兰德尔提出，只要给他一点“赔偿”，他就愿意帮我。
+索沃·特兰德尔提出，只要给他一点“酬谢”，他就愿意帮我。
 
 > INFO.NAME tg_manorkey 203347872273177292
 I convinced Sovor Trandel to give me the key to Nerano Manor.
@@ -83964,7 +83963,7 @@ I delivered five bottles of Cyrodilic brandy to Iulus Truptor at Fort Moonmoth. 
 
 > INFO.NAME ic12_bacola 8381325792294223899
 Bacola Closcius gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. He also hinted that Banor Seran at the Council Club just took delivery of some Cyrodilic brandy, and that he's probably got it stored in a closet in the hall  just right of the bar. He says the Council Club is just a front for Camonna Tong gangsters, suggesting it wouldn't REALLY be a crime to steal the brandy from them.
-巴科拉·克娄斯基乌斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
+巴科拉·克娄斯基乌斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会会所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
 
 > INFO.NAME ic12_dulnea 141111290589037874
 After I pointed out the value of gaining the good will of the Imperial cult in a town where Imperial influence is so strong, Dulnea Ralaal gracefully donated a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth.
@@ -84452,19 +84451,19 @@ There are no witnesses to any of the killings. But in Hlaalu compound, at about 
 
 > INFO.NAME town_vivec 3179627010127551700
 Two outlander victims were found in Foreign Quarters corridors, one on Foreign Quarter Canalside, one in a Hlaalu Compound corridor, and one in the water near the Arena. All were armed. Only one, a mage, appears to have put up a fight. All had their throats slit with a dagger. The two Ordinators with their throats slit were found near the victim at Hlaalu Compound. It may be someone very stealthy or a very powerful sorcerer.
-在外邦区走廊发现两名外地人受害者，在外邦区运河边发现一名，在哈拉鲁驻地走廊发现一名，在竞技场附近的水里发现一名。所有人都携带武器。只有一名法师似乎进行了反抗。他们都被匕首割破了喉咙。被割喉的两名神殿卫兵是在哈拉鲁大院的受害者附近发现的。这可能是一个非常隐蔽的人，也可能是一个非常厉害的术士。 {神殿卫兵们}
+在外邦区走廊发现两名外地人受害者，在外邦区运河边发现一名，在哈拉鲁驻地走廊发现一名，在竞技场附近的水里发现一名。所有人都携带武器。只有一名法师似乎进行了反抗。他们都被匕首割破了喉咙。被割喉的两名神殿卫兵是在哈拉鲁大院的受害者附近发现的。这可能是一个非常隐蔽的人，也可能是一个非常厉害的术士。
 
 > INFO.NAME town_vivec 20718113743117218032
 Elam Andas, chief of Vivec's Order of the Watch, has asked me to find and execute a killer who has slit the throats of five outlanders and two Ordinators.
-埃拉姆·安达斯，维威克的守望修会会长，让我找到并处死一名凶手，他割开了五名外地人和两名神殿卫兵的喉咙。 {神殿卫兵们}
+埃拉姆·安达斯，维威克的守望修会会长，让我找到并处死一名凶手，他割开了五名外地人和两名神殿卫兵的喉咙。
 
 > INFO.NAME town_vivec 39440180534007
 Two Ordinators and five outlanders have been killed in Vivec, their throats slit. The rumor is that the Office of the Watch at the Hall of Justice is very concerned, and is looking for special help.
-两名神殿卫兵和五名外地人在维威克被杀，喉咙被割开。据传，正义厅堂的监察办事处非常担心，正在寻求特别帮助。 {神殿卫兵们}
+两名神殿卫兵和五名外地人在维威克被杀，喉咙被割开。据传，正义厅堂的监察办事处非常担心，正在寻求特别帮助。
 
 > INFO.NAME town_vivec 27338256343161121090
 Two Ordinators and five outlanders have been killed in Vivec, their throats slit. The rumor is that the Office of the Watch at the Hall of Justice is looking for outside help.
-两名神殿卫兵和五名外地人在维威克被杀，喉咙被割开。据传，正义厅堂的监察办事处正在寻求特别帮助。 {神殿卫兵们}
+两名神殿卫兵和五名外地人在维威克被杀，喉咙被割开。据传，正义厅堂的监察办事处正在寻求特别帮助。
 
 > INFO.NAME da_mephala 247672770592332649
 While in a Morag Tong Shrine to Mephala, I spoke to a priest of the Daedra. Taros Dral told me he had been given an important task by Mephala, and wanted to know if I wished to help.
@@ -84708,7 +84707,7 @@ Caius says Edd Theman, also 'Fast Eddie', also 'Eddie the Rat', is a former Telv
 
 > INFO.NAME ic12_banor 3188715338221239570
 Banor Seran at the Council Club gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. I think he gave it to me just to make me go away.
-议会所的巴诺尔·瑟然给了我一瓶西罗帝尔白兰地，用于月蛾要塞的筹款晚宴。我想他是为了让我离开才给我的。 {棍棒}
+议会会所的巴诺尔·瑟然给了我一瓶西罗帝尔白兰地，用于月蛾要塞的筹款晚宴。我想他是为了让我离开才给我的。 {棍棒}
 
 > INFO.NAME mg_potion 790323952752226336
 Edwinna asked me to talk to Skink-in-Tree's-Shade in Sadrith Mora and get a Detect Creatures Potion from him.
@@ -87068,7 +87067,7 @@ I gave you a bottle. And an idea where to get the others.
 
 > INFO.NAME donate cyrodilic brandy 24456497358673462
 Sorry. I've only two bottles, and you're welcome to one of them for the cult. But I happen to know that Banor Seran just took delivery of some Cyrodilic brandy. He's probably got it stored in the closet in the hall  just right of the bar. Now of course it would be WRONG to steal that brandy. Even though EVERYONE knows the Council Club is just a front for those Camonna Tong gangsters. But for such a good cause....
-抱歉，我只有两瓶，欢迎你拿一瓶回教团。但我碰巧知道，巴诺尔·瑟然刚收到一些西罗帝尔白兰地。他可能藏在大厅吧台右边的壁橱里，偷白兰地当然是不对的，虽然大家都知道议会所只是卡莫纳堂黑帮的幌子。但为了这样一个好理由…… {棍棒}
+抱歉，我只有两瓶，欢迎你拿一瓶回教团。但我碰巧知道，巴诺尔·瑟然刚收到一些西罗帝尔白兰地。他可能藏在大厅吧台右边的壁橱里，偷白兰地当然是不对的，虽然大家都知道议会会所只是卡莫纳堂黑帮的幌子。但为了这样一个好理由…… {棍棒}
 
 > INFO.NAME donate cyrodilic brandy 3157324231913918238
 No, I won't donate. Cyrodiilic brandy is expensive. And I don't like you.
@@ -87076,7 +87075,7 @@ No, I won't donate. Cyrodiilic brandy is expensive. And I don't like you.
 
 > INFO.NAME donate cyrodilic brandy 17750258732785324516
 Donation for the Imperial cult? Have you been eating magic mushrooms, pal? Don't talk to me Talk to Banor Seran. He runs the Council Club. And I'm sure he'll find your request amusing.
-为帝国教团捐赠？你吃了致幻蘑菇吗，伙计？别跟我说话，跟巴诺尔·瑟然谈谈吧，议会所就是他开的。我相信他会觉得你的要求很有趣的。 {帝国人,棍棒}
+为帝国教团捐赠？你吃了致幻蘑菇吗，伙计？别跟我说话，跟巴诺尔·瑟然谈谈吧，议会会所就是他开的。我相信他会觉得你的要求很有趣的。 {帝国人,棍棒}
 
 > INFO.NAME donate cyrodilic brandy 544810696151965066
 Talk to Dulnea Ralaal. She's the proprietor.
@@ -87432,19 +87431,19 @@ See? Now you know I am innocent.
 
 > INFO.NAME murderer's description 17838616529388421
 Why, no. I don't know anyone like that. Everyone here at the Council Club thinks that Nine-Toes murdered Ralen Hlaalo.
-为什么？我不认识那样的人，议会所的每个人都认为，九-趾谋杀了拉伦·赫拉罗。 {棍棒}
+为什么？我不认识那样的人，议会会所的每个人都认为，九-趾谋杀了拉伦·赫拉罗。 {棍棒}
 
 > INFO.NAME murderer's description 2830442713314981
 That could be Thanelen Velas at the Council Club over by the Silt Strider.
-那可能是议会所的塔内伦·维拉斯，就在阔步沙蚤那边。 {棍棒}
+那可能是议会会所的塔内伦·维拉斯，就在阔步沙蚤那边。 {棍棒}
 
 > INFO.NAME murderer's description 16847192888244229
 Hmm... I believe Thanelen Velas over at the Council Club might fit that description.
-嗯…我想议会所的塔内伦·维拉斯可能符合描述。 {棍棒}
+嗯…我想议会会所的塔内伦·维拉斯可能符合描述。 {棍棒}
 
 > INFO.NAME murderer's description 16672167983165910426
 %Name thinks %Name saw someone like that over at the Council Club, just across from the Silt Strider.
-%Name认为%Name在议会所见过这样的人，就在阔步沙蚤的对面。 {棍棒}
+%Name认为%Name在议会会所见过这样的人，就在阔步沙蚤的对面。 {棍棒}
 
 > INFO.NAME murderer's description 125841119448226631
 I don't know anyone like that.
@@ -87708,7 +87707,7 @@ No
 
 > INFO.NAME sanguine fluid evasion 2259726112620727700
 So you have the Ring of Sanguine Fluid Evasion. Will you deliver this ring to Mephala's service?
-那么你有桑吉恩顺避之戒。你愿意把这枚戒指交给梅法拉吗？
+那么你有桑吉恩顺避之戒。你愿意把这枚戒指交给梅法拉，为她效力吗？
 
 > INFO.BNAM sanguine fluid evasion 2259726112620727700 c1
 Yes, here it is
@@ -87864,7 +87863,7 @@ No
 
 > INFO.NAME sanguine transfiguring 2259726112620727700
 So you have the Ring of Sanguine Transfiguring. Will you deliver this ring to Mephala's service?
-那么你有桑吉恩化形之戒。你愿意把这枚戒指交给梅法拉吗？
+那么你有桑吉恩化形之戒。你愿意把这枚戒指交给梅法拉，为她效力吗？
 
 > INFO.BNAM sanguine transfiguring 2259726112620727700 c1
 Yes, here it is
@@ -87904,7 +87903,7 @@ No
 
 > INFO.NAME sanguine golden wisdom 2259726112620727700
 So you have the Ring of Sanguine Golden Wisdom. Will you deliver this ring to Mephala's service?
-那么你有桑吉恩黄金智慧之戒。你愿意把这枚戒指交给梅法拉吗？
+那么你有桑吉恩黄金智慧之戒。你愿意把这枚戒指交给梅法拉，为她效力吗？
 
 > INFO.BNAM sanguine golden wisdom 2259726112620727700 c1
 Yes, here it is
@@ -88264,11 +88263,11 @@ If you are thinking of joining a Great House, study all three Great Houses, and 
 
 > INFO.NAME fines and compensation 31782276272790210013
 That's how we punish crimes in Morrowind. We collect fines, and compensation is paid to the injured party or his kin. Don't pay the fine? Then do hard labor.
-在晨风，我们就是这样惩罚犯罪的。我们收取罚款，并向受害方或其亲属支付赔偿金。不交罚款？那就去做苦役。
+在晨风，我们就是这样惩罚犯罪的。我们收取罚款，并向受害方或其亲属支付赔偿金。不交罚款？那就去做苦役。 {酬谢}
 
 > INFO.NAME fines and compensation 967483371183231512
 The punishment for criminals in Morrowind is typically fines and compensation. The fines are collected by the state; the compensation goes to the injured party or his kin. That may sound like a sweet deal -- kill an enemy, then pay the fine -- but folks who have enough money to pay such fines are almost always House lords, and House Wars customs means the Great House of the victim usually buys a writ with the Morag Tong to assassinate the murderer. So murderers pay, and THEN they get killed, too.
-在晨风，对罪犯的惩罚通常是罚款与赔偿。罚款由国家收取，赔偿金则归受害方或其亲属所有。这听起来似乎很划算——杀死敌人，然后支付罚金——但有足够钱支付罚金的人几乎都是家族领主，而家族战争的习俗意味着受害者所在的大家族通常会向莫拉格堂购买刺客令状。所以就算杀人犯交了钱，后面也会被刺杀。
+在晨风，对罪犯的惩罚通常是罚款与赔偿。罚款由国家收取，赔偿金则归受害方或其亲属所有。这听起来似乎很划算——杀死敌人，然后支付罚金——但有足够钱支付罚金的人几乎都是家族领主，而家族战争的习俗意味着受害者所在的大家族通常会向莫拉格堂购买刺客令状。所以就算杀人犯交了钱，后面也会被刺杀。 {酬谢}
 
 > INFO.NAME mystery of the dwarves 28147285963195024589
 There is no mystery. M'Aiq knows all. The dwarves were here, and now they are not! They were very short folks...or perhaps they were not. It all depends on your perspective. I'm sure they thought they were about the right height.
@@ -89352,39 +89351,39 @@ Some fighters live and train here at the Arena. Imperial guildsmen are in the Fo
 
 > INFO.NAME someone in particular 1741012222282972543
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 12815281301216524465
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 174920349203954675
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 2272514161227529672
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 1474415534200826612
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 11949158781653223000
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 221221427143631835
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 569020229285356138
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 28262126892353710386
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大牧首萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 1426926249294284134
 Here in the Foreign Quarter, you'll find the Imperial Guilds -- Fighters Guild, Mages Guild -- and an Imperial cult shrine down in the Canalworks. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena.
@@ -91408,7 +91407,7 @@ It just so happens that I have a Daedric Spear. No finer spear may be found in a
 
 > INFO.NAME vassir didanat mine 269415533761331770
 So. That is technically not in my jurisdiction, but I can still make use of his knowledge. I feel you deserve some compensation... What type of weapon do you use?
-所以，严格来说这不在我的管辖范围内，但我还是可以利用他的知识。我觉得你应该得到一些赔偿…你喜欢用什么武器？
+所以，严格来说这不在我的管辖范围内，但我还是可以利用他的知识。我觉得你应该得到一些酬谢…你喜欢用什么武器？
 
 > INFO.BNAM vassir didanat mine 269415533761331770 c1
 Axe.
@@ -92360,7 +92359,7 @@ You have already given me the forged land deed. I will make sure the Ordinators 
 
 > INFO.NAME erroneous documents 7486224602720221831
 Good. I will bring this matter to the Ordinators. It is time they had reason to investigate Odral and his Caldera operations. Perhaps this will be enough to make them act. I am a bit short on drakes today, but I believe you will find this ring is a just compensation.
-好的。我会向神殿卫兵们报告这件事，是时候让他们有理由调查奥德拉尔和他的卡尔德拉行动了。也许这足以让他们采取行动。我今天有点缺龙币，但我相信你会发现这枚戒指是个合理的赔偿。
+好的。我会向神殿卫兵们报告这件事，是时候让他们有理由调查奥德拉尔和他的卡尔德拉行动了。也许这足以让他们采取行动。我今天有点缺龙币，但我相信你会发现这枚戒指是个合理的酬谢。
 
 > INFO.NAME erroneous documents 208194634158948246
 I might give you a small consideration for bringing this to my attention, but I will not submit to blackmail. Do what Odral asks if you think it is in your best interests. But I will remember what you did when the Ordinators investigate this.
@@ -93144,7 +93143,7 @@ He's a trader, and a wealthy one. He has his own room here. He was born an Ashla
 
 > INFO.NAME hassour zainsubani 31373291572926430002
 Hassour Zainsubani is an Ashlander who left the Wastes to become a wealthy trader in Ald'ruhn. I'm not sure where to find him, but I'd try the Ald Skar Inn in Ald'ruhn first. That's a more respectable place than The Rat in the Pot or the Council Club.
-哈苏尔·扎因苏巴尼是灰烬之民，离开荒原后在奥德'汝因成为了一名富有的贸易商。我不知道去哪里找他，但我想先去奥德'汝因的奥德·蟹骨旅店试试。那是个比“锅中之鼠”或议会所更体面的地方。 {老鼠,棍棒}
+哈苏尔·扎因苏巴尼是灰烬之民，离开荒原后在奥德'汝因成为了一名富有的贸易商。我不知道去哪里找他，但我想先去奥德'汝因的奥德·蟹骨旅店试试。那是个比“锅中之鼠”或议会会所更体面的地方。 {老鼠,棍棒}
 
 > INFO.NAME hassour zainsubani 255232951172214272
 Hassour Zainsubani? The trader? That's him, over there.
@@ -93744,7 +93743,7 @@ I don't want to be ashkhan. I'm not good at fighting. And no one likes me, anywa
 
 > INFO.NAME meet the archcanon 754015538380312340
 Since you have killed one of the leaders of the Ashlander tribes, there is no possibility that you could be considered the Nerevarine of prophecy. They will not accept you. And now there is no chance that the Archcanon would wish to speak with you.
-既然你已经杀了灰烬之地的一个部落首领，你就不可能被视为预言中的尼瑞瓦因了，他们不会接受你的。现在也不可能有机会让大魔导师和你谈话了。
+既然你已经杀了灰烬之地的一个部落首领，你就不可能被视为预言中的尼瑞瓦因了，他们不会接受你的。现在也不可能有机会让大主教和你谈话了。
 
 > INFO.NAME meet the archcanon 185642253342474301
 We've all heard the news! It's wonderful! Vivec has proclaimed you as his champion, and you go to confront Dagoth Ur beneath Red Mountain! And, joy of joys, the Temple is reconciled with the Dissident Priests, and once again we are united in our faith and mission.
@@ -93760,7 +93759,7 @@ The archcanon is in his private quarters, and he very much wishes to speak with 
 
 > INFO.NAME meet the archcanon 2763538231500206
 You have also been named Nerevarine by the Urshilaku, Ahemmusa, Zainab, and Erabenimsun Ashlander tribes. The archcanon wishes to speak with you in his private quarters, but I warn you... avoid confrontations with Ordinators at all costs. If the blood of faithful servants of the Temple is spilled, it will make a reconciliation all that much more difficult.
-你还被乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙灰烬之民命名为尼瑞瓦因。大主教希望在他的私人住所与你交谈，但我警告你…无论如何都要避免与神殿卫兵发生冲突。如果神殿忠实仆人的鲜血被洒落，会让和解变得更加困难。 {避免冲突,神殿卫兵们,信仰}
+你还被乌尔希拉库、阿希穆萨、哉纳布和埃勒比尼姆孙灰烬之民命名为尼瑞瓦因。大主教希望在他的私人住所与你交谈，但我警告你…无论如何都要避免与神殿卫兵发生冲突。如果神殿忠实仆人的鲜血被洒落，会让和解变得更加困难。 {避免冲突,信仰}
 
 > INFO.NAME meet the archcanon 1954025441860514168
 But you have not been named Nerevarine by each of the Ashlander tribes --  the Urshilaku, Ahemmusa, Zainab, and Erabenimsun. I thought the conditions of the archcanon's offer were clear. There is no reason for a meeting until you have fulfilled both the Hortator and Nerevarine conditions of the prophecies. I'm sure the archcanon would have nothing to say to you at this point.
@@ -94640,7 +94639,7 @@ According to the unwritten Code of the Thieves Guild, killing is always ineffici
 
 > INFO.NAME killing and murder 91152797148330269
 By House Hlaalu law and custom, killing is justifiable in war, self-defense, defense of property, affairs of honor, and House Wars affairs under the sanction of the state. Other killings are foul murder and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination. Justifiable but unnecessary or cruel killing is scandalous but legal. A cynical acceptable of abuse of power by the rich and powerful is a feature of Hlaalu philosophy.
-根据哈拉鲁家族的法律和习俗，在战争、自卫、保卫财产、荣誉事务以及国家认可的家族战争事务中，杀人是正当的。其他杀人行为则是犯规的谋杀，应受到赔偿、惩罚性劳动的惩罚，或者在受制裁的内战事务中受到刺客令状的惩罚。有正当理由但不必要或残忍的杀戮是可耻的，但却是合法的。哈拉鲁哲学的一个特点是对权贵滥用权力的冷嘲热讽。
+根据哈拉鲁家族的法律和习俗，在战争、自卫、保卫财产、荣誉事务以及国家认可的家族战争事务中，杀人是正当的。其他杀人行为则是犯规的谋杀，应受到赔偿、惩罚性劳动的惩罚，或者在受制裁的内战事务中受到刺客令状的惩罚。有正当理由但不必要或残忍的杀戮是可耻的，但却是合法的。哈拉鲁哲学的一个特点是对权贵滥用权力的冷嘲热讽。 {酬谢}
 
 > INFO.NAME killing and murder 2957750312026929508
 Killing is neither sinful nor dishonorable, but may be imprudent or wasteful.
@@ -94668,7 +94667,7 @@ Justifiable but unnecessary or cruel killing is sinful, punishable by Temple cou
 
 > INFO.NAME killing and murder 124881012189030832
 Killing is justifiable in war, self-defense, defense of property, affairs of honor, Great House affairs under the sanction of the state, and affairs of heresy. Other killings are foul murder, and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination.
-在战争、自卫、保卫财产、荣誉事务、国家认可的大家族事务和异端事务中，杀戮是正当的。其他杀人行为属于犯规谋杀，可处以赔偿、惩罚性劳动，或在受制裁的家族战争事务中处以刺客令状。
+在战争、自卫、保卫财产、荣誉事务、国家认可的大家族事务和异端事务中，杀戮是正当的。其他杀人行为属于犯规谋杀，可处以赔偿、惩罚性劳动，或在受制裁的家族战争事务中处以刺客令状。 {酬谢}
 
 > INFO.BNAM killing and murder 124881012189030832 c1
 Continue
@@ -94676,7 +94675,7 @@ Continue
 
 > INFO.NAME killing and murder 25193100393110328090
 Killing is justifiable in war, self-defense, defense of property, affairs of honor, Great House affairs under the sanction of the state, and affairs of heresy. Other killings are foul murder, and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination.
-在战争、自卫、保卫财产、荣誉事务、国家认可的大家族事务和异端事务中，杀戮是正当的。其他杀人行为属于犯规谋杀，可处以赔偿、惩罚性劳动，或在受制裁的家族战争事务中处以刺客令状。
+在战争、自卫、保卫财产、荣誉事务、国家认可的大家族事务和异端事务中，杀戮是正当的。其他杀人行为属于犯规谋杀，可处以赔偿、惩罚性劳动，或在受制裁的家族战争事务中处以刺客令状。 {酬谢}
 
 > INFO.BNAM killing and murder 25193100393110328090 c1
 Continue
@@ -94692,7 +94691,7 @@ Local custom permits killing in House Wars when sanctioned by the state.
 
 > INFO.NAME killing and murder 138855318115317555
 According to Imperial custom, killing is justifiable in war, self-defense, defense of property, and affairs of honor. Other killings are murder, and punishable by fines and compensation, or by punitive labor.
-根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，应处以罚款与赔偿或惩罚性劳动。
+根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，应处以罚款与赔偿或惩罚性劳动。 {酬谢}
 
 > INFO.NAME killing and murder 277201168173331032
 Outlaws have no rights, and may be killed without scandal or sanction. Guards may use deadly force in the line of duty.
@@ -94712,15 +94711,15 @@ Local custom permits killing in House Wars when sanctioned by the state.
 
 > INFO.NAME killing and murder 327332896062310719
 According to Imperial custom, killing is justifiable in war, self-defense, defense of property, and affairs of honor. Other killings are murder, and punishable by fines and compensation, or by punitive labor.
-根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，应处以罚款与赔偿或惩罚性劳动。
+根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，应处以罚款与赔偿或惩罚性劳动。 {酬谢}
 
 > INFO.NAME killing and murder 21670213443243418266
 According to Imperial custom, killing is justifiable in war, self-defense, defense of property, and affairs of honor. Other killings are murder, and punishable by fines and compensation, or by punitive labor.
-根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，应处以罚款与赔偿或惩罚性劳动。
+根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，应处以罚款与赔偿或惩罚性劳动。 {酬谢}
 
 > INFO.NAME killing and murder 95161586988556498
 According to Imperial custom, killing is justifiable in war, self-defense, defense of property, and affairs of honor. Other killings are murder, and punishable by fines and compensation, or by punitive labor. Local custom also permits killing in House Wars sanctioned by the state. Outlaws have no rights, and may be killed without scandal or sanction. Guards may use deadly force in the line of duty.
-根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，可处以罚款与赔偿或惩罚性劳动。地方习俗还允许在国家批准的家族战争中杀人。法外之徒没有人权，可以在不会得到恶名或制裁的情况下随意杀害。卫兵在执行任务时可以使用致命武力。 {瓜尔,职责}
+根据帝国人的习俗，在战争、自卫、保卫财产和荣誉事务中杀人是正当的。其他杀人行为属于谋杀，可处以罚款与赔偿或惩罚性劳动。地方习俗还允许在国家批准的家族战争中杀人。法外之徒没有人权，可以在不会得到恶名或制裁的情况下随意杀害。卫兵在执行任务时可以使用致命武力。 {酬谢,瓜尔,职责}
 
 > INFO.NAME preserve the peace 7422128383002019189
 Abolitionists fight slavery by helping slaves escape their masters in defiance of Imperial law.
@@ -99080,7 +99079,7 @@ I'm promoting you to Apprentice Rank, effective immediately. And here's a little
 
 > INFO.NAME progress of truth 674262862325718452
 This book lists the disputes of the Dissident priests with Tribunal Temple doctrines. The Temple has outlawed the sale or possession of the book, so it will be hard to find. We have a copy here, but I fear I'm being watched by the Ordinators here. A safer plan would be to search local booksellers. Some booksellers ignore Temple bans on outlawed books for profits or for principles.
-这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我被神殿卫兵监视了。还有个更安全的计划是搜索本地的书商。有些书商为了利润或原则，无视神殿对非法书籍的禁令。 {神殿卫兵们,利益}
+这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我被神殿卫兵监视了。还有个更安全的计划是搜索本地的书商。有些书商为了利润或原则，无视神殿对非法书籍的禁令。 {利益}
 
 > INFO.NAME little suggestion 220041172268756970
 I am sure you can persuade Dram Bero to support you as Hortator... if you can find him. Orvas Dren has Nevena Ules and Velanda Omani in his pocket. You might want to make a little trip to the Dren Plantation before talking to them. And then there's Yngling Half-Troll.
@@ -100434,7 +100433,7 @@ No
 
 > INFO.NAME sanguine smiting 2259726112620727700
 So you have the Belt of Sanguine Smiting. Will you deliver this belt to Mephala's service?
-那么你有桑吉恩重击腰带。你愿意把这条腰带交给梅法拉吗？
+那么你有桑吉恩重击腰带。你愿意把这条腰带交给梅法拉，为她效力吗？
 
 > INFO.BNAM sanguine smiting 2259726112620727700 c1
 Yes, here it is
@@ -101278,15 +101277,15 @@ Native Dunmer and Imperials alike recognize a noble's obligation to answer a cha
 
 > INFO.NAME law in morrowind 6783262172341916499
 Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals pay compensation or serve sentences of punitive labor. If you commit a crime, turn yourself in to any guard and pay your fine. Here in Seyda Neen the guards are all Imperial legion troopers. In other towns, they may be local Great House guards.
-盗窃、非法入侵、殴打、谋杀和蔑视法庭都是严重的罪行；罪犯需要支付赔偿金或服刑。如果你犯了罪，请向任何一名卫兵自首并缴纳罚款。在赛达-尼恩，卫兵都是帝国军团的士兵。在其他城镇，他们可能是当地的大家族卫兵。 {瓜尔,帝国人}
+盗窃、非法入侵、殴打、谋杀和蔑视法庭都是严重的罪行；罪犯必须支付赔偿金或服刑。如果你犯了罪，请向任何一名卫兵自首并缴纳罚款。在赛达-尼恩，卫兵都是帝国军团的士兵。在其他城镇，他们可能是当地的大家族卫兵。 {酬谢,瓜尔,帝国人}
 
 > INFO.NAME law in morrowind 3214717717858924727
 Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals pay compensation or serve sentences of punitive labor. If you commit a crime, turn yourself in to any guard and pay your fine. If you don't have the gold, you'll have to do punitive labor. Take my word for it. You don't want to do punitive labor.
-盗窃、非法入侵、殴打、谋杀和蔑视法庭都是严重的罪行；罪犯必须支付赔偿金或服刑。如果你犯了罪，请向任何一名卫兵自首并缴纳罚款。如果你没有金币，你就得服刑。相信我的话，你不会想做苦役的。 {瓜尔}
+盗窃、非法入侵、殴打、谋杀和蔑视法庭都是严重的罪行；罪犯必须支付赔偿金或服刑。如果你犯了罪，请向任何一名卫兵自首并缴纳罚款。如果你没有金币，你就得服刑。相信我的话，你不会想做苦役的。 {酬谢,瓜尔}
 
 > INFO.NAME law in morrowind 2361932395172234235
 By ancient House custom, offended House nobles appealing to House councils may refuse to accept compensation and may demand death for many crimes.
-根据古老的家族习俗，被冒犯的家族贵族向家族议会申诉时，可以拒绝接受赔偿，并可以要求对许多罪行处以死刑。
+根据古老的家族习俗，被冒犯的家族贵族向家族议会申诉时，可以拒绝接受赔偿，并可以要求对许多罪行处以死刑。 {酬谢}
 
 > INFO.NAME law in morrowind 9212230833048628591
 Treason is a most serious crime, punished by death.
@@ -101314,7 +101313,7 @@ Morrowind is governed under Imperial Law, and under the law and customs of the D
 
 > INFO.NAME law in morrowind 1623823293944831094
 Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals must pay fines or serve sentences of hard labor. Treason is a most serious crime, punished by death. Noble House Dunmer have right of appeal to the House Councils; Imperial citizens have right of appeal to the King of Morrowind and his Dukes. By ancient House custom, offended House nobles appealing to House councils may refuse to accept compensation and may demand death for many crimes.
-盗窃、非法入侵、殴打、谋杀和蔑视法庭都是严重的罪行，罪犯必须缴纳罚款或服苦役。叛国罪是最严重的罪行，可判处死刑。贵族丹莫家族有权向家族议会申诉；帝国人有权向晨风国王及其公爵申诉。根据古老的家族习俗，向家族议会申诉的被冒犯的家族贵族可以拒绝接受赔偿，并可对许多罪行要求处以死刑。
+盗窃、非法入侵、殴打、谋杀和蔑视法庭都是严重的罪行，罪犯必须缴纳罚款或服苦役。叛国罪是最严重的罪行，可判处死刑。贵族丹莫家族有权向家族议会申诉；帝国人有权向晨风国王及其公爵申诉。根据古老的家族习俗，向家族议会申诉的被冒犯的家族贵族可以拒绝接受赔偿，并可对许多罪行要求处以死刑。 {酬谢}
 
 > INFO.NAME law in morrowind 192634367966214018
 Morrowind is governed under Imperial Law, and under the law and customs of the Dunmer Great Houses. Conflicts of Imperial and Great House Law are governed under the Treaty of the Armistice, which reserves most local government functions to the Dunmer Great House councils. Local Magistrates judge cases and determine sentences; local guards execute the judgements of the Magistrates and enforce the laws.
@@ -105774,7 +105773,7 @@ Once she was the priestess of this shrine. Now she is dead, thanks to you.
 
 > INFO.NAME hlireni indavel 3103727901690722640
 All I know is that she is a Dunmer, and she and her followers have defied the Temple's ban against the worship of the Four Corners of the House of Troubles, the four Daedra Lords, Mehrunes Dagon, Molag Bal, Malacath, and Sheogorath. Since so many Ordinators are busy fighting the hosts of Dagoth Ur at Ghostgate, many of the abandoned Daedric sites are once again inhabited.
-我只知道她是丹莫族人，她和她的追随者违抗了神殿的禁令而去崇拜祸乱家族的四角，即四位迪德拉领主：梅鲁涅斯·大衮、莫拉格·巴尔、马拉卡斯和谢尔格拉斯。近期由于神殿卫兵们忙于在幽魂之门与达格斯·乌尔所制造的怪物作战，许多废弃的迪德拉遗址再次有信徒生根。 {忙着,迪德拉式}
+我只知道她是丹莫族人，她和她的追随者违抗了神殿的禁令，公然崇拜祸乱家族的四角，即四位迪德拉领主：梅鲁涅斯·大衮、莫拉格·巴尔、马拉卡斯和谢尔格拉斯。近期由于神殿卫兵们忙于在幽魂之门与达格斯·乌尔所制造的怪物作战，许多废弃的迪德拉遗址再次有信徒生根。 {忙着,迪德拉式}
 
 > INFO.NAME cross the water 204215887315158381
 You know that I can walk on water. You have seen for yourself.
@@ -110502,7 +110501,7 @@ Let me tell you about the Camonna Tong. The Camonna Tong is Morrowind's native c
 
 > INFO.NAME morrowind lore 22765610190975987
 You should know how the Temple feels about killing. Killing is justifiable in war, self-defense, defense of property, affairs of honor, Great House affairs under the sanction of the state, and affairs of heresy. Other killings are foul murder, and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination. The justice of killing heretics is a source of bitter controversy. Killing heretics is against Imperial law, but not dishonorable or scandalous.
-你应该知道神殿对杀戮的看法。在家族战争、自卫、财产防卫、荣誉事务、国家认可的大家族事务以及异端事务中，杀戮是正当的。其他杀戮属于犯规谋杀，可处以赔偿、惩罚性劳动，或在受制裁的众议院战争事务中，处以刺客令状。杀死异教徒的公正性引起了激烈的争议。杀死异教徒违反帝国法律，但并非不光彩或丑闻。 {正义,帝国人}
+你应该知道神殿对杀戮的看法。在家族战争、自卫、财产防卫、荣誉事务、国家认可的大家族事务以及异端事务中，杀戮是正当的。其他杀戮属于犯规谋杀，可处以赔偿、惩罚性劳动，或在受制裁的众议院战争事务中，处以刺客令状。杀死异教徒的公正性引起了激烈的争议。杀死异教徒违反帝国法律，但并非不光彩或丑闻。 {酬谢,正义,帝国人}
 
 > INFO.NAME morrowind lore 24169286522560818316
 Let me say a little about Daedra here in Morrowind. Here we believe the Daedra are powerful ancestor spirits, similar to gods, but weaker and more capricious. In the olden times, the Daedra were worshipped as gods by the Dunmer, but were undeserving of this veneration, since they harmed followers as often as they helped them. With their Apotheosis, the Tribunal became High Ancestor Spirits of the Dunmer. Good Daedra became loyal friends of the Tribunal, but Bad Daedra remained foul and treacherous.
@@ -110538,7 +110537,7 @@ You should know the Empire's attitudes about killing. According to Imperial law 
 
 > INFO.NAME morrowind lore 18411192701745523741
 An adventurer should know the basics of Imperial law concerning life and property. Verbal assault, pickpocketing, and trespassing are malfeasances, punishable by fines and compensation of less than 100 drakes, or by punitive labor. Theft and foul murder are felonies. Theft is punishable by fines and compensation proportional to the value of the property stolen, or by punitive labor. Foul murder is punishable by fines and compensation of at least 1000 drakes, or by punitive labor.
-冒险者应了解有关生命和财产的帝国法律基础知识。辱骂、扒窃和非法闯入属于渎职行为，可处以罚款和100龙币以下的赔偿金或惩罚性劳动。盗窃和谋杀是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或惩罚性劳动。谋杀罪可处以至少1000龙币的罚款与赔偿，或惩罚性劳动。 {帝国人}
+冒险者应了解有关生命和财产的帝国法律基础知识。辱骂、扒窃和非法闯入属于渎职行为，可处以罚款和100龙币以下的赔偿金或惩罚性劳动。盗窃和谋杀是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或惩罚性劳动。谋杀罪可处以至少1000龙币的罚款与赔偿，或惩罚性劳动。 {帝国人,酬谢}
 
 > INFO.NAME morrowind lore 52909462394013098
 Let me tell you about the Imperial Legions in Morrowind. The legions have garrisons in the major settlements, but they mostly serve as guards to keep the peace. The legions hire qualified recruits of proven skill and character, and provide training, goods, and services at discounts. The lower ranks are common troopers and officers, but the upper ranks include the orders of the Imperial knights.
@@ -110562,7 +110561,7 @@ Let me tell you about the weapon types most common in Morrowind. Short blades in
 
 > INFO.NAME morrowind lore 276973156525593854
 Let me tell you how House Hlaalu feels about killing. By House Hlaalu custom, killing is justifiable in war, self-defense, defense of property, affairs of honor, and House Wars affairs. Other killings are foul murder and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination. Justifiable but unnecessary or cruel killing is scandalous but legal. A cynical acceptable of abuse of power by the rich and powerful is a feature of Hlaalu philosophy.
-让我告诉你们哈拉鲁家族对杀戮的看法。按照哈拉鲁家族的习俗，在战争、自卫、保卫财产、荣誉事务和家族战争事务中，杀人是正当的。其他杀人行为则属于犯规谋杀，应受到赔偿、惩罚性劳动的惩罚，或者在受制裁的家族战争事务中，受到刺客令状的惩罚。有正当理由但不必要或残忍的杀戮是可耻的，但也是合法的。哈拉鲁哲学的一个特点是对权贵滥用权力的冷嘲热讽。
+让我告诉你们哈拉鲁家族对杀戮的看法。按照哈拉鲁家族的习俗，在战争、自卫、保卫财产、荣誉事务和家族战争事务中，杀人是正当的。其他杀人行为则属于犯规谋杀，应受到赔偿、惩罚性劳动的惩罚，或者在受制裁的家族战争事务中，受到刺客令状的惩罚。有正当理由但不必要或残忍的杀戮是可耻的，但也是合法的。哈拉鲁哲学的一个特点是对权贵滥用权力的冷嘲热讽。 {酬谢}
 
 > INFO.NAME morrowind lore 29682269491192314160
 Let me tell you about affairs of honor. Native Dunmer and Imperials alike recognize a noble's obligation to answer a challenge of honor. A challenge of honor is a public declaration of a scandal against a private party. Only nobles fight duels, and the higher the rank, the stronger the obligation. Law and custom despises dishonorable duelists. If the victim was bullied, intimidated, or goaded by a stronger party with suspect motives, magistrates often convict the stronger party of foul murder.
@@ -110586,7 +110585,7 @@ Let me tell you about smuggling here. Smuggling is the most profitable and dange
 
 > INFO.NAME morrowind lore 1267533281033813326
 Let me tell you the basics of Imperial law concerning life and property. Verbal assault and pickpocketing, are malfeasances, punishable by fines and compensation of less than 100 drakes, or by punitive labor. Theft and foul murder are felonies. Theft is punishable by fines and compensation proportional to the value of the property stolen, or by punitive labor. Foul murder is punishable by fines and compensation of at least 1000 drakes, or by punitive labor.
-让我来告诉你有关生命和财产的基本帝国法律。辱骂和扒窃，属于渎职罪，可处以罚款和100龙币以下的赔偿，或处以惩罚性劳动。盗窃和谋杀是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或惩罚性劳动。谋杀罪可处以至少1000龙币的罚款与赔偿，或惩罚性劳动。 {帝国人}
+让我来告诉你有关生命和财产的基本帝国法律。辱骂和扒窃，属于渎职罪，可处以罚款和100龙币以下的赔偿，或处以惩罚性劳动。盗窃和谋杀是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或惩罚性劳动。谋杀罪可处以至少1000龙币的罚款与赔偿，或惩罚性劳动。 {帝国人,酬谢}
 
 > INFO.NAME morrowind lore 22260176291013610833
 Want to join a Great House? Study all three Great Houses, and think carefully before you join, because once you've joined one house, no other house will ever consider you for membership. Loyalty is very important in the Great Houses. When you join, you become family, and, by Dunmer standards, it's a matter of blood and kin, and irreversible. Even if you get kicked out of one house, no other house will have you.
@@ -110606,7 +110605,7 @@ Let me tell you about the Ashlanders. Ashlanders are the nomadic Dunmer barbaria
 
 > INFO.NAME morrowind lore 19763303646731313
 Let me tell you how House Redoran feels about killing. According to House Redoran custom, killing is justifiable in war, self-defense, defense of property, affairs of honor, and House Wars affairs. Other killings are foul murder, and punishable by compensation, punitive labor, or, in sanctioned House Wars affairs, by writ of assassination. Justifiable but unnecessary or cruel killing is scandalous, and grounds for sanction or expulsion. An opponent who yields may not be slain honorably.
-让我告诉你瑞多然家族对杀戮的看法。根据瑞多然家族的习俗，在战争、自卫、保卫财产、荣誉事务和家族战争事务中，杀人是正当的。其他杀人行为则属于犯规谋杀，应受到赔偿、惩罚性劳动的惩罚，或者在受制裁的家族战争事务中，受到刺客令状的惩罚。有正当理由但不必要或残忍的杀戮属于丑闻，可作为制裁或驱逐的理由。屈服的对手可能不会被光荣地杀死。
+让我告诉你瑞多然家族对杀戮的看法。根据瑞多然家族的习俗，在战争、自卫、保卫财产、荣誉事务和家族战争事务中，杀人是正当的。其他杀人行为则属于犯规谋杀，应受到赔偿、惩罚性劳动的惩罚，或者在受制裁的家族战争事务中，受到刺客令状的惩罚。有正当理由但不必要或残忍的杀戮属于丑闻，可作为制裁或驱逐的理由。屈服的对手可能不会被光荣地杀死。 {酬谢}
 
 > INFO.NAME morrowind lore 136746802177818509
 Let me tell you about settlements in Morrowind. Ashlander nomadic camps are groups of small portable huts. Rural Dunmer live in villages, groups of small huts centered around Temple compounds. Town and city folk live either in the metropolitan style of Vivec City, the urban style of towns like Ald'ruhn, or the Imperial style of recent settlements like Caldera. In sparsely populated Telvanni District, the few Telvanni tower towns are essentially large villages dominated by wizard towers.
@@ -110638,7 +110637,7 @@ Verbal assault and pickpocketing are minor crimes, punishable by fines or hard l
 
 > INFO.NAME morrowind lore 11743269982325728353
 Let me tell you the basics of Imperial law concerning life and property. Verbal assault and pickpocketing are malfeasances, punishable by fines and compensation of less than 100 drakes, or by punitive labor. Theft and foul murder are felonies. Theft is punishable by fines and compensation proportional to the value of the property stolen, or by punitive labor. Foul murder is punishable by fines and compensation of at least 1000 drakes, or by punitive labor.
-让我来告诉你关于生命和财产的基本帝国法律。辱骂和扒窃属于渎职罪，可处以100龙币以下的罚款和赔偿，或处以惩罚性劳动。盗窃和谋杀是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或惩罚性劳动。谋杀罪可处以至少1000龙币的罚款与赔偿，或惩罚性劳动。 {帝国人}
+让我来告诉你关于生命和财产的基本帝国法律。辱骂和扒窃属于渎职罪，可处以100龙币以下的罚款和赔偿，或处以惩罚性劳动。盗窃和谋杀是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或惩罚性劳动。谋杀罪可处以至少1000龙币的罚款与赔偿，或惩罚性劳动。 {帝国人,酬谢}
 
 > INFO.NAME morrowind lore 2677632472322949047
 Let me tell you the basics about armor wear. As it wears out, armor becomes less effective. Broken armor is completely useless until you repair it, but worn armor stops only a fraction of the damage that new or well-maintained armor does. Learn the basics of armor repair, and go over your armor, piece by piece, before every big battle. Or visit a smith regularly to keep your armor in good shape.
@@ -110850,7 +110849,7 @@ Theft and foul murder are serious crimes. Theft is punishable by fines according
 
 > INFO.NAME morrowind lore 23332298272906524814
 Verbal assault, pickpocketing, and trespassing are minor crimes, punished by fines or labor. Theft and foul murder are felonies. Theft is punishable by fines and compensation proportional to the value of the property stolen, or by punitive labor. Foul murder is punishable by fines and compensation of at least 1000 drakes, or by punitive labor.
-言语攻击、扒窃和非法侵入属于轻微犯罪，处以罚款或劳役。盗窃和谋杀罪是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或处以惩罚性劳役。谋杀罪可处以罚款与赔偿至少1000龙币，或惩罚性劳动。
+言语攻击、扒窃和非法侵入属于轻微犯罪，处以罚款或劳役。盗窃和谋杀罪是重罪。盗窃罪可处以罚款和与被盗财产价值成比例的赔偿，或处以惩罚性劳役。谋杀罪可处以罚款与赔偿至少1000龙币，或惩罚性劳动。 {酬谢}
 
 > INFO.NAME morrowind lore 8557784417179278
 Loyalty is very important in the Great Houses. When you join, you become family, and, by Dunmer standards, it's a matter of blood and kin, and irreversible. Even if you get kicked out of one house, no other house will have you.
@@ -110994,7 +110993,7 @@ We are the nomadic Dunmer barbarians of the Morrowind wastelands. We live in our
 
 > INFO.NAME morrowind lore 24944299081073916960
 Foul murder is punished by compensation, hard labor, or sometimes by writ of assassination.
-粗暴的谋杀行为会受到赔偿、苦役或有时是刺客令状的惩罚。
+粗暴的谋杀行为会受到赔偿、苦役或有时是刺客令状的惩罚。 {酬谢}
 
 > INFO.NAME morrowind lore 17566240201973322338
 By Redoran customs, killing is justified in war, self-defense, defense of property, affairs of honor, and House Wars affairs. Other killings are foul murder, and must be punished.
@@ -111474,7 +111473,7 @@ I've got to get my shipment to Vivec.
 
 > INFO.NAME be of some use 61247831742318017
 There's a good fellow! See, Rollie, I told you there are still some good folks in these lands! Rollie's become such a pessimist in his old age, but I told him we'd find someone to help! When we get there, I'll reward you. I think 100 septims seems fair. How about the three of us get going?
-这是个好人。看吧，罗利，我告诉过你这片土地上还是有好人的。罗利老了以后变得很悲观，但我告诉他我们会找到人帮忙的。等我们到了那里，我会奖励你的。我觉得100塞普汀很公平。我们三个一起去怎么样？ {报酬}
+这是个好人。看吧，罗利，我告诉过你这片土地上还是有好人的。罗利老了以后变得很悲观，但我告诉他我们会找到人帮忙的。等我们到了那里，我会付给你报酬。我觉得100塞普汀很公平。我们三个一起去怎么样？
 
 > INFO.NAME be of some use 2211478082729315767
 No? I'm sorry to hear that. Well, Rollie, it looks like we're on our own. Maybe we'll find someone else to help us.
@@ -111482,7 +111481,7 @@ No? I'm sorry to hear that. Well, Rollie, it looks like we're on our own. Maybe 
 
 > INFO.NAME be of some use 9316114671971210465
 You see, Rollie and I are heading to Vivec to deliver this shipment of clothing to Agrippina Herrenia the clothier. Truly, it's some of the finest clothing you'll ever see...perhaps I could interest you in some? Well, regardless, I've heard rumor that the road to Vivec has become rather dangerous of late. Perhaps you'd be willing to escort the two of us? Rollie and I would be most appreciative, and would be willing to offer some compensation.
-罗利和我要去维威克，给裁缝铺的阿格里皮娜·赫伦妮亚送一批衣服。真的，这是你见过的最好的衣服…也许我可以让你感兴趣一些？不管怎样，我听说最近去维威克的路很危险，也许你愿意护送我们两个？罗利和我会非常感激的，我也愿意提供一些报酬。 {罚款,老鼠,赔偿}
+罗利和我要去维威克，给裁缝铺的阿格里皮娜·赫伦妮亚送一批衣服。真的，这是你见过的最好的衣服…也许我可以让你感兴趣一些？不管怎样，我听说最近去维威克的路很危险，也许你愿意护送我们两个？罗利和我会非常感激的，我也愿意提供一些酬谢。 {罚款,老鼠}
 
 > INFO.BNAM be of some use 9316114671971210465 c1
 Certainly. I can help you...the both of you...get to Vivec.
@@ -114662,7 +114661,7 @@ No.
 
 > INFO.NAME lost kogoruhn 27913170871940924591
 I do not know where Lost Kogoruhn is. One of our valiant Ordinators, Feril Salmyn, wore the Hair Shirt of St. Aralor. He was searching for Lost Kogoruhn, but is now lost himself. He is presumed dead, but if you can find him alive or recover the Hair Shirt of St. Aralor, the Temple would be grateful.
-我不知道失落的科戈汝因在哪，我们一位英勇的神殿卫兵费里尔·萨尔曼就穿着圣·阿拉洛的苦行衣。他一直在寻找失落的科戈汝因，但现在他自己也迷失了方向。据推测他已经死亡，但如果您能找到活着的他或找回圣·阿拉洛的苦行衣，神殿将不胜感激。 {神殿卫兵们}
+我不知道失落的科戈汝因在哪，我们一位英勇的神殿卫兵费里尔·萨尔曼就穿着圣·阿拉洛的苦行衣。他一直在寻找失落的科戈汝因，但现在他自己也迷失了方向。据推测他已经死亡，但如果您能找到活着的他或找回圣·阿拉洛的苦行衣，神殿将不胜感激。
 
 > INFO.NAME lost kogoruhn 1894241211018531827
 Kogoruhn used to lie north of the northern boundary of the Ghostfence. It was northeast of Maar Gan and west of the present-day Vos. It was near the stronghold of Falasmaryon, which I can mark on your map.
@@ -115270,35 +115269,35 @@ Strangers get lost up here. Be careful. My advice is keep an eye to the coast, t
 
 > INFO.NAME little advice 2434625998154753841
 We don't like outlanders. We don't like them in our Council Club. We don't like trouble. We do like a little peace and quiet. If you don't mind.
-我们不喜欢外地人；我们不喜欢他们进入议会所；我们不喜欢麻烦；我们喜欢宁静，如果你不介意的话。 {棍棒}
+我们不喜欢外地人；我们不喜欢他们进入议会会所；我们不喜欢麻烦；我们喜欢宁静，如果你不介意的话。 {棍棒}
 
 > INFO.NAME little advice 18709150742074210919
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 26032308699877464
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1056027601173315131
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1640011017124474875
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 3067152352518928844
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1595924223937988
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 338298952125091
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 84372506210727392
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
@@ -116406,11 +116405,11 @@ I heard the Ordinators burned out a camp of Nerevarine cult worshippers out by t
 
 > INFO.NAME little secret 28009126602517219086
 Do you know where Telasero is? The old Dunmer stronghold between Suran and Molag Mar? The Temple just sent three Ordinators from the Order of War up there. Some trader reported seeing corprus monsters there.
-你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
+你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。
 
 > INFO.NAME little secret 882713976215622955
 Do you know where Telasero is? The old Dunmer stronghold between Suran and Molag Mar? The Temple just sent three Ordinators from the Order of War up there. Some trader reported seeing corprus monsters there.
-你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
+你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。
 
 > INFO.NAME little secret 2350313426131210090
 Falasmaryon, the old Dunmer stronghold, up near Ald Velothi? You know the place I'm talking about? I heard Mangolodh, the Legion scout, stuck his head in there, just looking around, saw a corprus monster, and teleported right out. He reported to the Legion, but I don't know what they're going to do about it. Pass it on to the Temple, that's my guess.
@@ -116994,7 +116993,7 @@ I'm disappointed in you, %PCName. You've been caught too many times. Tone down y
 
 > INFO.NAME dwemer goblet 200536553412614549
 You already gave the goblet to Danso Indules.
-你已经把高脚杯给丹索·因杜尔思了。
+你已经把高脚杯给丹索·因杜勒斯了。
 
 > INFO.NAME dwemer goblet 1714528609101821248
 You shouldn't have told her where you stole it from, but it can't be helped now.
@@ -117002,15 +117001,15 @@ You shouldn't have told her where you stole it from, but it can't be helped now.
 
 > INFO.NAME dwemer goblet 12110311893013414604
 Good. Danso Indules can sell that goblet and do more good than Berel Sala and the Ordinators ever will.
-那就好。丹索·因杜尔思能卖掉那个高脚杯，比贝瑞尔·萨拉和神殿卫兵们做的善事更多。
+那就好。丹索·因杜勒斯能卖掉那个高脚杯，比贝瑞尔·萨拉和神殿卫兵们做的善事更多。
 
 > INFO.NAME dwemer goblet 3686119311093521117
 That's the right goblet. Take it to Danso Indules outside the High Fane south of here.
-就是这个高脚杯，把它拿给丹索·因杜尔思，就在南边至高神殿外。
+就是这个高脚杯，把它拿给丹索·因杜勒斯，就在南边至高神殿外。
 
 > INFO.NAME dwemer goblet 23560146351223629101
 There is a Dwemer goblet in Berel Sala's office in the Hall of Justice. Steal this goblet and donate it to Danso Indules, who is usually outside near the High Fane.
-在正义厅堂贝瑞尔·萨拉的办公室里有一个锻莫的高脚杯。把这个高脚杯偷出来捐给丹索·因杜尔思，他通常都在外面的至高神殿附近。
+在正义厅堂贝瑞尔·萨拉的办公室里有一个锻莫的高脚杯。把这个高脚杯偷出来捐给丹索·因杜勒斯，他通常都在外面的至高神殿附近。
 
 > INFO.NAME dwemer goblet 24725121792530720447
 I really can't accept another donation. I appreciate the offer, but I don't need any more trouble with the Ordinators.
@@ -117166,7 +117165,7 @@ You have slain Dagoth Ur, defeated the Sixth House, and ended the Blight, Nereva
 
 > INFO.NAME latest rumors 27870218481315532293
 The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. Now the fate of Morrowind and its people lies in your hands.
-大魔导师已经宣布，维威克大人选中了你，作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中，现在，晨风和它的人民的命运就掌握在你的手中了。
+大主教已经宣布，维威克大人选中了你，作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中，现在，晨风和它的人民的命运就掌握在你的手中了。
 
 > INFO.NAME latest rumors 59603784856727936
 So you have been named Hortator and Nerevarine, fulfilling the Nerevarine prophecies. I would not have believed it. But my informants assure me it is true. If now you can also achieve a reconciliation with the Temple, you may be able to unite all of Morrowind's force against Dagoth Ur and Red Mountain.
@@ -117238,39 +117237,39 @@ What could kill two Ordinators before they can draw their weapons? Slit their th
 
 > INFO.NAME latest rumors 168465105441831242
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 141843021585617905
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 848016399766718470
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 68578462826620429
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 27802166371885918620
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 6136108971491710714
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 1772272382367027024
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 913045491949911778
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 2838824372109330145
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 127902297244144444
 I monitor smuggling along the Bitter Coast. And the job's too big for me. They move moon sugar, skooma, raw ebony, Dwemer artifacts, you name it, through Hla Oad and Gnaar Mok. With the coast honeycombed with smuggler caves, and Camonna Tong locals carrying tiny packages overland by night, I'll never catch them. But maybe you'll have better luck.
@@ -117762,7 +117761,7 @@ That bigmouth Varro over at Moonmoth Legion Fort says he's going to stop corrupt
 
 > INFO.NAME latest rumors 2610126034286992676
 They say someone hit the Camonna Tong at the Council Club. Hard. And the guards SAY they're very concerned, and they're following all leads... But somehow they don't seem very sincere. And Larrius Varro? Champion at Fort Moonmoth? He's been quoted as saying, 'I swore an oath to stop corruption, but it seems the gods have seen fit to fulfill my oath for me.' And you know what's funny? Someone said they saw YOU talking to Larrius Varro several times recently. A coincidence? I don't think so.
-据说有人在议会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和拉里乌斯·瓦罗说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
+据说有人在议会会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和拉里乌斯·瓦罗说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
 
 > INFO.NAME latest rumors 2154830486472422301
 Everyone knows the Balmora magistrate, Nolus Atrius, is on the take. Thieves, thugs, and murderers are getting ridiculous sentences, or paying a drake and walking free. But they'll never get Atrius. He's got fatcats and family back in the City to cover him. The Legion Champion, Larrius Varro, over at Moonmoth Legion Fort, he has sworn an oath to stop corruption. But I don't see what he can do.
@@ -117858,7 +117857,7 @@ What could kill two Ordinators before they can draw their weapons? Slit their th
 
 > INFO.NAME latest rumors 7897104801480424251
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 12808112932677520322
 Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there. I'll bet they can.
@@ -119246,7 +119245,7 @@ Habasi did not mean for you to kill him. You must be more careful in the future.
 
 > INFO.NAME sovor trandel 9605152162764523118
 He spends all his time and gold at the Council Club over by the silt strider.
-他把所有的时间和金币，都花在阔步沙蚤那边的议会所了。 {棍棒}
+他把所有的时间和金币，都花在阔步沙蚤那边的议会会所了。 {棍棒}
 
 > INFO.NAME haunted house 67725129326912966
 Yes, you told me. It's not haunted any more, and I thank you.
@@ -121568,7 +121567,7 @@ Now you know as well as I do what the Bal Molagmer should do. I will trust your 
 
 > INFO.NAME bal molagmer 17714146852247623309
 The Ordinators have been harassing Danso Indules, an honest but poor priest. I want you to steal a Dwemer goblet and donate it to her cause.
-神殿卫兵们一直在骚扰丹索·因杜尔思，一个诚实但贫穷的祭司。我要你偷一个锻莫的高脚杯捐给她。
+神殿卫兵们一直在骚扰丹索·因杜勒斯，一个诚实但贫穷的祭司。我要你偷一个锻莫的高脚杯捐给她。
 
 > INFO.NAME bal molagmer 15522254661406325782
 There is a rumor that you murdered Vala Catraso. I do not know if it is true, but I cannot let you pretend to be a Bal Molagmer with these rumors.
@@ -121680,7 +121679,7 @@ No, nevermind.
 
 > INFO.NAME nerano manor 22041254742844331183
 Habasi wants the key to Nerano Manor. Downstairs Manors are rarely locked, but Habasi wants to go upstairs secretly. Who has the key? Ondres Nerano has a key. Habasi thinks Nerano's servant, Sovor Trandel at the Council Club, has a key.
-哈巴西想要内拉诺府邸的钥匙，楼下的庄园很少上锁，但哈巴西想偷偷上楼。谁有钥匙？欧德雷斯·内拉诺有钥匙。哈巴西认为内拉诺的仆人、议会所的索沃·特兰德尔有一把钥匙。 {棍棒}
+哈巴西想要内拉诺府邸的钥匙，楼下的庄园很少上锁，但哈巴西想偷偷上楼。谁有钥匙？欧德雷斯·内拉诺有钥匙。哈巴西认为内拉诺的仆人、议会会所的索沃·特兰德尔有一把钥匙。 {棍棒}
 
 > INFO.NAME nerano manor 31884107962239918089
 Just don't tell Ondres Nerano where you got the key.
@@ -121880,27 +121879,27 @@ The Camonna Tong is Morrowind's native criminal syndicate. They're tough and rut
 
 > INFO.NAME camonna tong 1257229501185421585
 They say someone hit the Camonna Tong at the Council Club. Hard. Nobody seems to know what happened. Probably the Thieves Guild.
-据说有人在议会所袭击了卡莫纳堂。这件事很严重，似乎没人知道发生了什么，可能是盗贼公会干的。 {棍棒}
+据说有人在议会会所袭击了卡莫纳堂。这件事很严重，似乎没人知道发生了什么，可能是盗贼公会干的。 {棍棒}
 
 > INFO.NAME camonna tong 1104969302050528718
 The Camonna Tong is the old criminal syndicate here in Morrowind. And, as everyone around here knows, there's a gang war between the Thieves Guild and the Camonna Tong. In Balmora, the Camonna Tong hangs out over at the cornerclub called the Council Club. Watch yourself if you go in there. They're not very nice people.
-卡莫纳堂是晨风的老牌犯罪集团了。而且，这里的每个人都知道，盗贼公会和卡莫纳堂之间有一场帮派战争。在巴尔莫拉，卡莫纳堂出没于一个叫议会所的街角酒吧。你进去的时候小心点。他们可不是什么好人。 {棍棒}
+卡莫纳堂是晨风的老牌犯罪集团了。而且，这里的每个人都知道，盗贼公会和卡莫纳堂之间有一场帮派战争。在巴尔莫拉，卡莫纳堂出没于一个叫议会会所的街角酒吧。你进去的时候小心点。他们可不是什么好人。 {棍棒}
 
 > INFO.NAME camonna tong 1385713072441928090
 They say someone hit the Camonna Tong at the Council Club. Hard. And the guards SAY they're very concerned, and they're following all leads... But somehow they don't seem very sincere. And Larrius Varro? Legion Champion at Fort Moonmoth? He's been quoted as saying, 'I swore an oath to stop corruption, but it seems the gods have seen fit to fulfill my oath for me.' And you know what's funny? Someone said they saw YOU talking to General Varro several times recently. A coincidence? I don't think so.
-据说有人在议会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和瓦罗将军说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
+据说有人在议会会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和瓦罗将军说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
 
 > INFO.NAME camonna tong 14312423936408737
 They say someone hit the Camonna Tong at the Council Club. Hard. And the guards SAY they're very concerned, and they're following all leads... But somehow they don't seem very sincere. And Larrius Varro? Legion Champion at Fort Moonmoth? He's been quoted as saying, 'I swore an oath to stop corruption, but it seems the gods have seen fit to fulfill my oath for me.' And you know what's funny? Someone said they saw YOU talking to General Varro several times recently. A coincidence? I don't think so.
-据说有人在议会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和瓦罗将军说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
+据说有人在议会会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和瓦罗将军说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
 
 > INFO.NAME camonna tong 239288811463417269
 As you probably know, the Camonna Tong is the old criminal syndicate here in Morrowind. And, as EVERYONE around here knows, the Thieves Guild is at war with the Camonna Tong. We're the new gang in town, and the Camonna Tong want us to be the dead-and-gone gang. If you are looking for the Camonna Tong, their Balmora hangout is the cornerclub called the Council Club.
-你可能知道，卡莫纳堂是晨风的老牌犯罪集团。而且，这里的每个人都知道，盗贼公会正在和卡莫纳堂开战。我们是镇上的新帮派，而卡莫纳堂则希望我们成为死气沉沉的帮派。如果你们要找卡莫纳堂，他们在巴尔莫拉的聚集地是一个叫议会所的街角酒吧。 {棍棒}
+你可能知道，卡莫纳堂是晨风的老牌犯罪集团。而且，这里的每个人都知道，盗贼公会正在和卡莫纳堂开战。我们是镇上的新帮派，而卡莫纳堂则希望我们成为死气沉沉的帮派。如果你们要找卡莫纳堂，他们在巴尔莫拉的聚集地是一个叫议会会所的街角酒吧。 {棍棒}
 
 > INFO.NAME camonna tong 216095021620120358
 The Camonna Tong is the old criminal syndicate here in Morrowind. And, as everyone around here knows, the Thieves Guild is at war with the Camonna Tong. We're the new gang in town, and the Camonna Tong want us to be the dead-and-gone gang. If you are looking for the Camonna Tong, their Balmora hangout is the cornerclub called the Council Club.
-卡莫纳堂是晨风的老牌犯罪集团。这里的每个人都知道，盗贼公会正在与卡莫纳堂交战。我们是镇上的新帮派，而卡莫纳堂则希望我们成为死气沉沉的帮派。如果你们要找卡莫纳堂，他们在巴尔莫拉的聚集地是一个叫议会所的街角酒吧。 {棍棒}
+卡莫纳堂是晨风的老牌犯罪集团。这里的每个人都知道，盗贼公会正在与卡莫纳堂交战。我们是镇上的新帮派，而卡莫纳堂则希望我们成为死气沉沉的帮派。如果你们要找卡莫纳堂，他们在巴尔莫拉的聚集地是一个叫议会会所的街角酒吧。 {棍棒}
 
 > INFO.NAME camonna tong 24012156903174214081
 The Camonna Tong is the old criminal syndicate here in Morrowind. They're not very nice people.
@@ -122052,15 +122051,15 @@ The current emperor is Uriel Septim, Uriel VII, 24th of the Septim dynasty. Urie
 
 > INFO.NAME imperial law 27746160923274624334
 Fines and compensation are determined by magistrates, and may be paid to guards. In place of fines, the criminal may serve extended sentences of hard labor. The workcamps are hard places for hard men, and for each day served, expect to lose some hard-earned skill as a result of physical, mental, or emotional punishment.
-罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {瓜尔}
+罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {酬谢,瓜尔}
 
 > INFO.NAME imperial law 153330769318979125
 Fines and compensation are determined by magistrates, and may be paid to guards. In place of fines, the criminal may serve extended sentences of hard labor. The workcamps are hard places for hard men, and for each day served, expect to lose some hard-earned skill as a result of physical, mental, or emotional punishment.
-罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {瓜尔}
+罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {酬谢,瓜尔}
 
 > INFO.NAME imperial law 179475993833520
 Fines and compensation are determined by magistrates, and may be paid to guards. In place of fines, the criminal may serve extended sentences of hard labor. The workcamps are hard places for hard men, and for each day served, expect to lose some hard-earned skill as a result of physical, mental, or emotional punishment.
-罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {瓜尔}
+罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {酬谢,瓜尔}
 
 > INFO.NAME imperial law 92007572166935078
 An adventurer should know the basics of Imperial law concerning life and property. Verbal assault, pickpocketing, and trespassing are minor crimes, punished by fines or hard labor. Theft and foul murder are felonies. Theft is punished by fines proportional to the value of the property stolen, or by hard labor. Foul murder is punishable by fines of at least 1000 drakes, or by hard labor.
@@ -122088,7 +122087,7 @@ Continue
 
 > INFO.NAME imperial law 26947107692485520072
 We uphold Imperial law as well as the laws of the Temple. We enforce the laws against theft, brawling, verbal assault, and murder. Guards like me determine your punishment, whether you may pay fines and compensation, or must serve hard labor.
-我们维护帝国法律和神殿的法律。我们执行禁止偷窃、斗殴、辱骂和谋杀的法律。像我这样的卫兵将决定对你的惩罚，是罚款与赔偿，还是服苦役。 {帝国人,瓜尔}
+我们维护帝国法律和神殿的法律。我们执行禁止偷窃、斗殴、辱骂和谋杀的法律。像我这样的卫兵将决定对你的惩罚，是罚款与赔偿，还是服苦役。 {帝国人,瓜尔,酬谢}
 
 > INFO.NAME imperial law 32310534887724420
 Don't steal. Don't brawl or start fights. Don't kill, except in self-defense. If you're caught, guards will let you choose your punishment: fines or hard labor.
@@ -122900,7 +122899,7 @@ Yes, Ra'Virr should have a ceramic bowl. What will you barter for it?
 
 > INFO.NAME council club 18125227833115931936
 The Balmora Council Club is across from the Silt Strider.
-巴尔莫拉议会所就在阔步沙蚤的对面。 {棍棒}
+巴尔莫拉议会会所就在阔步沙蚤的对面。 {棍棒}
 
 > INFO.NAME strong souls 8449103592593211322
 You have brought me the soulgems. The power in these souls will strengthen your stronghold's foundations and help the tower grow.
@@ -127588,7 +127587,7 @@ You want to pay the debt? Fine with me. I'll remove the spell. But I don't want 
 
 > INFO.NAME debt to pay 1922214682341318268
 He still owes me 400 septims. I haven't even charged interest on the debt, because I don't believe the little fool would understand what it meant. You can pay the debt yourself, if you wish.
-他还欠我400塞普汀呢。我连利息都没收，因为我不相信这小笨蛋会明白利息的意义。如果你愿意，可以自己还债。
+他还欠我四百塞普汀呢。我甚至还没算上债务的利息，因为我不信这个小傻子能理解利息的意思。如果你愿意，可以自己还债。
 
 > INFO.BNAM debt to pay 1922214682341318268 c1
 I'll pay the debt for him.
@@ -127600,7 +127599,7 @@ He should learn to pay his own debts.
 
 > INFO.NAME debt to pay 192622284101972085
 He still owes me 400 septims. I haven't even charged interest on the debt, because I don't believe the little fool would understand what it meant.
-他还欠我四百塞普汀呢。我连利息都没收，因为我不相信那个小傻瓜，会明白这意味着什么。
+他还欠我四百塞普汀呢。我甚至还没算上债务的利息，因为我不信这个小傻子能理解利息的意思。
 
 > INFO.BNAM debt to pay 192622284101972085 c1
 He should learn to pay his own debts.
@@ -127608,7 +127607,7 @@ He should learn to pay his own debts.
 
 > INFO.NAME debt to pay 185240441343718954
 A debt to that wizard? Foolish boy. The number of times I've heard about stupid things Cassius Olcinius has done would turn your head.
-欠那个巫师的债？傻孩子，卡西乌斯·奥西尼乌斯干过的蠢事，你听过多少了。
+欠那个巫师的债？傻孩子，卡西乌斯·奥尔西尼乌斯干过的蠢事，你听过多少了。
 
 > INFO.NAME debt to pay 6607131942262019218
 Cassius did what??? What??? Oh, that foolish boy. Still, he's mine, and I do love him. Here, take this money and repay his debt for me. It amazes me what young people will do sometimes.
@@ -127924,11 +127923,11 @@ You've earned a death warrant for your crimes, outlaw. May the gods have mercy u
 
 > INFO.NAME greeting 0 1553958902285827759
 I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.
-我接受这些金币，作为法庭判定的罚款与赔偿金。现在你可以走了。
+我接受这些金币，作为法庭判定的罚款与赔偿金。现在你可以走了。 {酬谢}
 
 > INFO.NAME greeting 0 2768210666929210763
 I accept this gold in payment of the fines and compensation ordered by the court. And now you are free to go.
-我接受这些金币，作为法庭判定的罚款与赔偿金。现在你可以走了。
+我接受这些金币，作为法庭判定的罚款与赔偿金。现在你可以走了。 {酬谢}
 
 > INFO.NAME greeting 0 20172142971264027114
 Then you must serve a sentence of hard labor. Serve your time peaceably, and pay your debt to society.
@@ -128348,7 +128347,7 @@ Ahhhh...you've removed this enchantment with your spell to cure disease!
 
 > INFO.NAME greeting 1 8099179422048416076
 Excuse me, can you help me? No, I'm over here. My name is Cassius Olcinius. Sorry...you see, I've been made invisible by a wizard!
-对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥西尼乌斯。抱歉…你看，我被巫师变成了隐身人！
+对不起，你能帮我吗？不，我在这里。我的名字是卡西乌斯·奥尔西尼乌斯。抱歉……你看，我被一个巫师变隐身了！
 
 > INFO.NAME greeting 1 182391977298029994
 Take this, friend. I think everyone should read this leaflet. It has important information on it.
@@ -128528,23 +128527,23 @@ I am concerned. Why have you not yet fulfilled the prophecies of the Nerevarine?
 
 > INFO.NAME greeting 1 12804286741127931845
 Why have you not yet fulfilled the prophecies of the Nerevarine? Is there something wrong? Archcanon Tholer Saryoni, the high priest of the Temple has asked that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
-为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？神殿的大祭司索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
+为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？大主教索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
 
 > INFO.NAME greeting 1 6174274542428523132
 We are concerned. Why have you not yet fulfilled the prophecies of the Nerevarine? Have you done something wrong? Have you forgotten your destiny? We hear that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
-我们很担心，为什么你还没有实现尼瑞瓦因的预言？你做错了什么吗？你忘记了你的命运吗？我们听说神殿的大祭司索勒·萨里奥尼已经绝望了，他请求您到维威克城的至高神殿和他谈谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
+我们很担心，为什么你还没有实现尼瑞瓦因的预言？你做错了什么吗？你忘记了你的命运吗？我们听说大主教索勒·萨里奥尼已经绝望了，他请求您到维威克城的至高神殿和他谈谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
 
 > INFO.NAME greeting 1 11810145313201124359
 I am surprised. And a bit disappointed. I thought you were the Nerevarine? Why haven't you fulfilled the prophecies? Is something wrong? Did you do something you shouldn't? I've heard rumors that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. If there is some problem, maybe you should go talk to Saryoni.
-我很惊讶，还有点失望，你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，神殿的大祭司索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
+我很惊讶，还有点失望，你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，大主教索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
 
 > INFO.NAME greeting 1 1698115947203317463
 Well. If you are the Nerevarine, why haven't you fulfilled the prophecies? Surely you haven't forgotten. You haven't done something foolish, have you? You mustn't be shy, dumpling. I've heard that Archcanon Tholer Saryoni, the high priest of the Temple, is VERY upset, and that he is hoping that you will come speak with him at the High Fane here in Vivec City. Maybe that would be a good idea. Don't you think?
-好吧。如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说神殿的大祭司索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
+好吧。如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说大主教索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
 
 > INFO.NAME greeting 1 8310196942002629898
 I don't mean to pry into your affairs. But, if you are the Nerevarine, as they say, why haven't you fulfilled the Nerevarine prophecies? The people are badly frightened by these Sixth House disturbances. You haven't gotten yourself into any sort of trouble, have you? A discreet contact tells me that Archcanon Tholer Saryoni, the high priest of the Temple, is becoming desperate, and that he is hoping that you will come speak with him at the High Fane in Vivec City. Maybe that would be best.
-我无意打探你的事情，但是，如果你就是传说中的尼瑞瓦因，为什么你没有实现尼瑞瓦因预言？人们被这些第六家族的骚乱吓坏了。你没有惹上什么麻烦吧？一个谨慎的线人告诉我，神殿的大祭司索勒·萨里奥尼已经开始绝望了，他希望你能到维威克城的至高神殿来和他谈谈。也许那样最好。
+我无意打探你的事情，但是，如果你就是传说中的尼瑞瓦因，为什么你没有实现尼瑞瓦因预言？人们被这些第六家族的骚乱吓坏了。你没有惹上什么麻烦吧？一个谨慎的线人告诉我，大主教索勒·萨里奥尼已经开始绝望了，他希望你能到维威克城的至高神殿来和他谈谈。也许那样最好。
 
 > INFO.NAME greeting 1 29234234002085728877
 I see you have equipped Wraithguard. I wish you luck with it.
@@ -128772,7 +128771,7 @@ Yes, we are going together to Ald Daedroth, where we will see if you have made i
 
 > INFO.NAME greeting 1 22810173202018316646
 You've spoken to the archcanon? Good. Then, is there anything else you want?
-你和大魔导师谈过了？很好，那你还有什么事吗？
+你和大主教谈过了？很好，那你还有什么事吗？
 
 > INFO.NAME greeting 1 212372527952679549
 I'm sorry, but the Temple's doctrine on the Nerevarine is clear. The Nerevarine prophecies are evil superstitions, based on lies and delusions. And even if the prophecies were genuine, since you have killed one of the leaders of the Ashlander tribes, now there is no possibility that you could be accepted by the Ashlander tribes as the Nerevarine of prophecy. I'm afraid we have nothing to discuss.
@@ -130164,7 +130163,7 @@ Can we get moving, %PCRace? We've a long way to go.
 
 > INFO.NAME greeting 1 206530333281032270
 Okay, %PCName, we've made it. I thank you for your help, and Rollie would if he were allowed in the city. I really must speak with someone about that. Think how much he'd enjoy visiting this place. He'd be talking about it for days. Oh, I suppose you're wondering about compensation for your trouble?
-好了，%PCName，我们成功了。我感谢你的帮助，如果罗利可以进城的话，他也会的。我真的得找人谈谈，想想他有多喜欢参观这个地方吧。他会说上好几天的。哦，我想你想知道关于赔偿你的麻烦？
+好的，%PCName，我们成功了。谢谢你的帮助，如果罗利能被允许进城的话，他也会的。我真的得找人谈谈。想想他会多么喜欢来这里。他会滔滔不绝好几天的。哦，我猜你一定在想，对于你的这些麻烦，应该得到怎样的酬谢吧？
 
 > INFO.NAME greeting 1 28689412196788612
 You have slain one of my tribe. You must pay with your life.
@@ -135072,7 +135071,7 @@ Yes, I remember you, but do you remember me? I am Arch-Mage Trebonius Artorius a
 
 > INFO.NAME greeting 5 26065253482426819473
 Oh, hello! I see you've found Paur! Please, allow me to give you some reward for your efforts.
-哦，你好。我看到你找到了保尔！请允许我为你的努力给你一些报酬。
+哦，你好！看来你找到保尔了！请务必让我为你的一番辛劳付些报酬。
 
 > INFO.NAME greeting 5 1322143283227731082
 What is it, %PCName? Have you completed the sensitive matters we discussed?
@@ -137436,7 +137435,7 @@ Good day. I'm Benunius Agrudilius, publican of the Lucky Lockup here in Balmora.
 
 > INFO.NAME greeting 7 6803319322889519433
 Good day. I'm Banor Seran, publican of the Council Club here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.
-日安。我是巴诺尔·瑟然，巴尔莫拉议会所的老板。我们出租床位，也有一些可供交换的物品。如果你是新来的，我还可以告诉你去哪里找其他服务，或者附近特别的地点。如果你想找某个特定的人，我也许能帮上忙。 {棍棒}
+日安。我是巴诺尔·瑟然，巴尔莫拉议会会所的老板。我们出租床位，也有一些可供交换的物品。如果你是新来的，我还可以告诉你去哪里找其他服务，或者附近特别的地点。如果你想找某个特定的人，我也许能帮上忙。 {棍棒}
 
 > INFO.NAME greeting 7 288417238154261537
 Good day. I'm Bacola Closcius, publican of the South Wall here in Balmora. We rent beds, and I have a limited selection of goods for barter. If you're new here, I can also tell you where to look for other services, or a specific place nearby. If you're looking  for someone in particular, I may be able to help.
@@ -137780,7 +137779,7 @@ The Devil is dead, and the Blight is ended. We believed that the Nerevarine prop
 
 > INFO.NAME greeting 7 212532970313742206
 Hello, %PCName. The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. I'm very happy, and I will pray for you and the success of your quest. Now. Can I help you? Are you looking for someone in particular? Do you need services? Is there some specific place you'd like to visit? Did you want to know about my trade? Do you need a little advice, or the latest rumors? Or a little secret?
-你好，%PCName。大魔导师已经宣布，维威克大人已经选中你，作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中，我很高兴，我会为你祈祷，祈祷你的任务成功！现在，需要我帮忙吗？你在找某个特定的人吗？您需要服务吗？您想去某个特别的地点吗？您想了解我的职业吗？您需要一点小建议或最新传言吗？或者一个小秘密？
+你好，%PCName。大主教已经宣布，维威克大人已经选中你，作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中，我很高兴，我会为你祈祷，祈祷你的任务成功！现在，需要我帮忙吗？你在找某个特定的人吗？您需要服务吗？您想去某个特别的地点吗？您想了解我的职业吗？您需要一点小建议或最新传言吗？或者一个小秘密？
 
 > INFO.NAME greeting 7 2785114411760818474
 Hello, %PCName. The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. It's very confusing. But we have faith in Lord Vivec, and we will pray for your quest. Can I help you? Are you looking for someone in particular? Do you need services? Is there some specific place you'd like to visit? Did you want to know about my trade?
@@ -137788,7 +137787,7 @@ Hello, %PCName. The Archcanon has announced that Lord Vivec has selected you as 
 
 > INFO.NAME greeting 7 127113284326964455
 The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. That doesn't mean I have to like you, or want to talk to you.
-大魔导师已经宣布，维威克大人已经选派你作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中出战。但这并不意味着我必须喜欢你，或者想和你交谈。
+大主教已经宣布，维威克大人已经选派你作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中出战。但这并不意味着我必须喜欢你，或者想和你交谈。
 
 > INFO.NAME greeting 7 167282189112654531
 Dagoth Ur is dead, and the skies are blue over Red Mountain. We were wrong about you, Nerevarine, and are sorry for it. You deserve our gratitude, and the honor due a hero.
@@ -138384,7 +138383,7 @@ Good day to you, too, %PCName. I'm %Name. Welcome to Vos. Is there some specific
 
 > INFO.NAME greeting 9 890994692682313138
 Pleased to meet you, %PCName. I'm %Name, and this is Vos village. Tel Vos tower, that's over to the west. Can I help you? Don't have many services here, I'm afraid.
-很高兴见到你，%PCName。我是%Name，这里是沃斯村，泰尔-沃斯塔楼，在西边。有什么事吗？恐怕这里服务不多。
+很高兴见到你，%PCName。我是%Name，这里是沃斯村，西边是泰尔-沃斯塔楼。有什么事吗？恐怕这里服务不多。
 
 > INFO.NAME greeting 9 581131531699724577
 Welcome to the village of Vos, %PCName. I'm %Name, and Master Aryon, the Telvanni councilor and mage-lord, is our patron. As you can see, we have a new tradehouse by the docks, and to the west, there's Tel Vos, the wizard tower Master Aryon is building. Isn't it something? Can I help you find someone in particular?
@@ -143436,23 +143435,23 @@ Grandmaster Berel Sala is the chief Ordinator on Vvardenfell.
 
 > INFO.NAME ordinators 584664143255829773
 The four orders of Ordinators answer to the Alma Rula in Almalexia.
-四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示,神殿卫兵们}
+四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示}
 
 > INFO.NAME ordinators 3049712135151894272
 The four orders of Ordinators answer to the Alma Rula in Almalexia.
-四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示,神殿卫兵们}
+四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示}
 
 > INFO.NAME ordinators 2497625171292925447
 The four orders of Ordinators answer to the Alma Rula in Almalexia.
-四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示,神殿卫兵们}
+四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示}
 
 > INFO.NAME ordinators 11817181141395430906
 The four orders of Ordinators answer to the Alma Rula in Almalexia.
-四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示,神殿卫兵们}
+四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示}
 
 > INFO.NAME ordinators 24885123542752828477
 The four orders of Ordinators answer to the Alma Rula in Almalexia.
-四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示,神殿卫兵们}
+四个神殿卫兵团隶属于阿玛莱西娅的审判长。 {指示}
 
 > INFO.NAME ordinators 17835291931395624560
 The Ordinators are the holy guards and soldiers of the Temple.
@@ -143544,7 +143543,7 @@ Were you summoned? Or do you come of your own free will? It hardly matters... th
 
 > INFO.NAME sneak past 25905301332080810422
 Ordinators are highly trained, and sneaking past them, even aided by magic, may be very difficult. But if you have any art in stealth or magic, you should use it to avoid trouble.
-高级神殿卫兵们训练有素，要想从他们身边溜走，即使有魔法帮助，也可能非常困难。但如果你有任何隐身术或魔法帮助你潜行，就应该使用它们来避免麻烦。
+神殿卫兵们训练有素，要想从他们身边溜走，即使有魔法帮助，也可能非常困难。但如果你有任何隐身术或魔法帮助你潜行，就应该使用它们来避免麻烦。
 
 > INFO.NAME the dwemer 1777594092061528746
 I have no idea what happened to the Dwemer. I have no sense of them in the timeless divine world outside of mortal time. And, in fact, if I did believe they existed, I would be in no hurry to make contact with them. They may, with some justice, hold the Dunmer race responsible for their fate. My intuition is that they are gone forever -- and that is perfectly fine with me.
@@ -144684,7 +144683,7 @@ I am %name, %class.
 
 > INFO.NAME pligrimage 389879302635925829
 The pilgrimage shrine nearby commemorates the labor and inspiration of the Tribunal in creating and maintaining the arcane barriers of the Ghostgate. It also memorializes the courage and sacrifice of the Ordinators, Buoyant Armigers, crusaders, and pilgrims who have lost their lives here defending Morrowind against the damnable hosts of Dagoth Ur.
-附近的朝圣圣祠是为了纪念审判席在创建和维护幽魂之门的奥术屏障时付出的劳动和灵感。它还纪念了神殿卫兵、灵动扈从、圣战者和朝圣者的勇气和牺牲，他们在这里为保卫晨风对抗达格斯·乌尔的可恶敌人而献出了生命。 {神殿卫兵们}
+附近的朝圣圣祠是为了纪念审判席在创建和维护幽魂之门的奥术屏障时付出的劳动和灵感。它还纪念了神殿卫兵、灵动扈从、圣战者和朝圣者的勇气和牺牲，他们在这里为保卫晨风对抗达格斯·乌尔的可恶敌人而献出了生命。
 
 > INFO.NAME fen madach 31981292517921914
 Fenas Madach is a local-born Breton and the owner and proprietor of the Madach Tradehouse in Gnisis.
@@ -144888,11 +144887,11 @@ Yes, among new friends, Ahnassi has good things to share. This is Ahnassi's spec
 
 > INFO.NAME bad people 42482119487863166
 If the bad people you are looking for are Camonna Tong, and they're in Balmora, you'll find them at the Council Club cornerclub. That's the local Camonna Tong hangout. The Scout would be Vadusa Sathryon. Marasa Aren would be the Pawnbroker. The Thief would be Madrale Thirith. Sovor Trandrel is the Savant. Thanelen Velas would be the Smith.
-如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
+如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
 
 > INFO.NAME bad people 710422438173878002
 If the bad people you are looking for are Camonna Tong, and they're in Balmora, you'll find them at the Council Club cornerclub. That's the local Camonna Tong hangout. The Scout would be Vadusa Sathryon. Marasa Aren would be the Pawnbroker. The Thief would be Madrale Thirith. Sovor Trandrel is the Savant. Thanelen Velas would be the Smith.
-如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
+如果你要找的恶人是卡莫纳堂，他们就在巴尔莫拉，你会在议会会所街角酒吧找到他们。那是卡莫纳堂在当地的聚集地。瓦杜莎·萨斯里昂是斥候。马拉萨·艾伦是典当商。马德拉莱·蒂里斯是小偷。索沃尔·特兰德尔是学者。塔内伦·维拉斯是铁匠。 {棍棒,玛拉}
 
 > INFO.NAME bad people 197924310197626013
 I don't know who you're talking about.
@@ -144904,7 +144903,7 @@ Bad people? If you're looking for specific names from the Camonna Tong, you shou
 
 > INFO.NAME bad people 16701308042862011828
 Bad people? What do you mean? The Camonna Tong? I don't know about that. Understand? I don't want to know about that. None of my business. I stay out of the Council Club.
-恶人？什么恶人？卡莫纳堂？我不知道，明白吗？我不想知道那件事，不关我的事，我和议会所无关。 {棍棒}
+恶人？什么恶人？卡莫纳堂？我不知道，明白吗？我不想知道那件事，不关我的事，我和议会会所无关。 {棍棒}
 
 > INFO.NAME bad people 2610420371271942427
 The bad people I was talking about? They're all good people now. I think you may have had something to do with that. Possibly.
@@ -145504,7 +145503,7 @@ Having been Guildmaster, I have a good feel for which way the wind is blowing. I
 
 > INFO.NAME pilgrimage 389879302635925829
 The pilgrimage shrine nearby commemorates the labor and inspiration of the Tribunal in creating and maintaining the arcane barriers of the Ghostgate. It also memorializes the courage and sacrifice of the Ordinators, Buoyant Armigers, crusaders, and pilgrims who have lost their lives here defending Morrowind against the damnable hosts of Dagoth Ur.
-附近的朝圣圣祠是为了纪念审判席在创建和维护幽魂之门的奥术屏障时付出的劳动和灵感。它还纪念了神殿卫兵、灵动扈从、圣战者和朝圣者的勇气和牺牲，他们在这里为保卫晨风对抗达格斯·乌尔的可恶敌人而献出了生命。 {神殿卫兵们}
+附近的朝圣圣祠是为了纪念审判席在创建和维护幽魂之门的奥术屏障时付出的劳动和灵感。它还纪念了神殿卫兵、灵动扈从、圣战者和朝圣者的勇气和牺牲，他们在这里为保卫晨风对抗达格斯·乌尔的可恶敌人而献出了生命。
 
 > INFO.NAME clanfriend 823416825709620729
 As a clanfriend of the Urshilaku, you may rest in any Urshilaku bed. But you may not harm another Urshilaku, and must not take their things. Do not offend against these rules of hospitality, or you will no longer be our friend.
@@ -145776,7 +145775,7 @@ He will not come to you, Lord Nerevar. It is you who must beg forgiveness. Go to
 
 > INFO.NAME dagoth ur 2055925951363514623
 So long as the Ordinators, Buoyant Armigers, and Tribunal could contain the blight and Dagoth Ur's creatures within the Ghostfence, faith in the Temple's protective power was strong. But now travelers and settlements suffer from blight storms and marauding monsters, and the people fear the Temple is losing its ages-old battle with the Devil Dagoth Ur.
-只要神殿卫兵、灵动扈从和审判席能够将枯萎病和达格斯·乌尔的生物控制在幽魂之墙内，人们就会对神殿的保护力量充满信仰。但现在，旅行者和居民饱受枯萎病风暴和掠夺性怪物之苦，人们担心神殿会在与恶魔达戈斯·乌尔的旷世之战中败下阵来。 {神殿卫兵们,枯萎之症}
+只要神殿卫兵、灵动扈从和审判席能够将枯萎病和达格斯·乌尔的生物控制在幽魂之墙内，人们就会对神殿的保护力量充满信仰。但现在，旅行者和居民饱受枯萎病风暴和掠夺性怪物之苦，人们担心神殿会在与恶魔达戈斯·乌尔的旷世之战中败下阵来。 {枯萎之症}
 
 > INFO.NAME dagoth ur 14148643117627102
 Dagoth Ur is the Awakened Lord of the Sixth House, come to cast down false gods, drive foreigners from the land, and restore the ancient glory of Morrowind. He bids you come to Red Mountain. For the friendship and honor that once you shared, he would grant you counsel and power, if only you would pledge that friendship anew. The path to Red Mountain is long, and filled with danger, but if you are worthy, you will find there wisdom, a firm friend, and all the power you need to set the world aright.
@@ -147620,7 +147619,7 @@ I'm sorry. You'll have to find them yourself.
 
 > INFO.NAME high fane 17249217382880512219
 The High Fane is the largest Tribunal temple on Vvardenfell. Go to the Temple area of Vivec in order to find it. Danso Indules is usually nearby.
-至高神殿是瓦登费尔最大的审判席神殿。去维威克的神殿区域才能找到它。丹索·因杜尔思通常就在附近。
+至高神殿是瓦登费尔最大的审判席神殿。去维威克的神殿区域才能找到它。丹索·因杜勒斯通常就在附近。
 
 > INFO.NAME high fane 981920252127013607
 The High Fane is the largest Tribunal temple on Vvardenfell. Archcanon Saryoni presides over the temple, along with a large staff of priests, healers, and monks. Pilgrims travel from all over Morrowind to view the High Fane and the Ministry of Truth, and to offer prayer and thanks before the Palace of Vivec.
@@ -158892,7 +158891,7 @@ Well, I suppose I could give you something for your troubles. Please take this a
 
 > INFO.NAME reward 19440298672556929048
 Certainly! Thank you for helping Paur to get here safely. I hope you'll find this adequate compensation.
-当然，谢谢你帮助保尔安全到达这里。我希望这些报酬对你来说足够了。 {赔偿}
+当然，谢谢你帮助保尔安全到达这里。我希望这些酬谢对你来说足够了。
 
 > INFO.NAME reward 2682140073167513072
 I believe Vanjirra has already given you your reward. I wish I had more to offer you for your help.
@@ -174004,7 +174003,7 @@ Guards? Where? Can't fool me.
 
 > INFO.NAME guard 47554637406118853
 Guards keep the peace and chase down criminals. Each district has its own guards. Legion troopers in Imperial districts, Ordinators in Temple districts, Redoran, Hlaalu, and Telvanni guards in their own Great House districts. Guards collect fines and compensation, or drag you off to prison if you can't pay.
-卫兵维持治安，追捕罪犯。每个区域都有自己的卫兵。帝国人的地区有帝国军团卫兵，神殿信徒的地区有神殿卫兵们，大家族的地区有大家族瑞多然、哈拉鲁和泰瓦尼卫兵。卫兵收取罚款与赔偿，如果你付不起，就会被拖进监狱。 {瓜尔}
+卫兵维持治安，追捕罪犯。每个区域都有自己的卫兵。帝国人的地区有帝国军团卫兵，神殿信徒的地区有神殿卫兵们，大家族的地区有大家族瑞多然、哈拉鲁和泰瓦尼卫兵。卫兵收取罚款与赔偿，如果你付不起，就会被拖进监狱。 {瓜尔,酬谢}
 
 > INFO.NAME guard 2248215152682921955
 Guards keep the peace and chase down criminals.
@@ -174024,7 +174023,7 @@ Fines may sound like a sweet deal -- kill an enemy, then pay the fine -- but fol
 
 > INFO.NAME fines 967483371183231512
 The punishment for criminals in Morrowind is typically fines. Fines are collected by the state, and compensation is paid to the injured party or his kin.
-在晨风，对罪犯的惩罚通常是罚款与赔偿。罚款由国家收取，赔偿金则归受害方或其亲属所有。这听起来似乎很划算——杀死敌人，然后支付罚金——但有足够钱支付罚金的人几乎都是家族领主，而家族战争的习俗意味着受害者所在的大家族通常会向莫拉格堂购买刺客令状。所以就算杀人犯交了钱，后面也会被刺杀。
+在晨风，对罪犯的惩罚通常是罚款与赔偿。罚款由国家收取，赔偿金则归受害方或其亲属所有。这听起来似乎很划算——杀死敌人，然后支付罚金——但有足够钱支付罚金的人几乎都是家族领主，而家族战争的习俗意味着受害者所在的大家族通常会向莫拉格堂购买刺客令状。所以就算杀人犯交了钱，后面也会被刺杀。 {酬谢}
 
 > INFO.NAME shalk 12492255901397210166
 The shalk is a large, moderately aggressive beetle. Shalk resins are the tough, soluble substances extracted from shalk hides. Shalk resins are used as glues and stiffeners in manufacturing bonemold and chitin armors.
@@ -175172,7 +175171,7 @@ If Ranis has held a grudge this many years, it would be best for me to leave for
 
 > INFO.NAME duel 327502899077143011
 The duel is an honorable tradition dating back at least to the founding of Resdayn. Each party to the duel makes an agreement as to the compensation that will be given to the winner. The loser is legally bound to this agreement. Most duels are fought until one party admits defeat or falls in battle. The duel to the death is less common and only ends when one party is dead. The winner of a duel may take what he wants of the loser's possessions, but some consider this dishonorable.
-决斗是一项光荣的传统，至少可以追溯到瑞斯戴恩建城之初。决斗双方就胜者将获得的赔偿达成协议。输方受该协议的法律束缚。大多数决斗都会打到一方认输或倒下为止。生死决斗不太常见，只有一方死亡时才会结束。决斗的胜利者可以从失败者那里拿走他想要的财产，但有些人认为这是不光彩的。
+决斗是一项光荣的传统，至少可以追溯到瑞斯戴恩建城之初。决斗双方就胜者将获得的赔偿达成协议。输方受该协议的法律束缚。大多数决斗都会打到一方认输或倒下为止。生死决斗不太常见，只有一方死亡时才会结束。决斗的胜利者可以从失败者那里拿走他想要的财产，但有些人认为这是不光彩的。 {酬谢}
 
 > INFO.NAME duel 27770303882968912309
 I'm waiting, %PCName. Let's end this.
@@ -176264,7 +176263,7 @@ When you have finished doing some things, stop back and see me, and we'll see if
 
 > INFO.NAME work 22736241442127721775
 Thank you for coming, but I no longer have any work for you. The work I needed done involved some persons who used to frequent the Council Club in Balmora. But they all died violently. And mysteriously. The guards are very concerned, and they're following all leads. But somehow I know this is a mystery that will never be solved.
-谢谢你能来，但我已经没有工作给你做了。我需要做的工作涉及到一些人，他们曾经经常出入巴尔莫拉的议会所。但他们都死得很惨，而且死得离奇。卫兵非常担心，他们正在追查所有线索，但我知道这是一个永远解不开的谜团。 {棍棒,瓜尔}
+谢谢你能来，但我已经没有工作给你做了。我需要做的工作涉及到一些人，他们曾经经常出入巴尔莫拉的议会会所。但他们都死得很惨，而且死得离奇。卫兵非常担心，他们正在追查所有线索，但我知道这是一个永远解不开的谜团。 {棍棒,瓜尔}
 
 > INFO.NAME work 1716729918917213958
 Through various channels, I've learned a bit about your situation. I'd like to tell you a little story. And when I'm done, you can ask me some questions. And then, maybe, you might decide to go out and do some things. You might, and you might not. That's your affair. And I also want to tell you about a nice present I think the Emperor wants you to have. I'm not sure where it is. But maybe you'll want to check back and see if I've found it. Later. After you have done some things.
@@ -178172,7 +178171,7 @@ The village of Vos is a small Velothi settlement in the middle of the grassy pla
 
 > INFO.NAME law 230333022306682423
 Theft, Trespass, Assault, Foul Murder, and Contempt are serious crimes; criminals must pay compensation or serve sentences of punitive labor.
-盗窃、非法入侵、殴打、谋杀和藐视审判席都是严重罪行，罪犯必须赔偿或服刑。
+盗窃、非法入侵、殴打、谋杀和藐视审判席都是严重罪行，罪犯必须赔偿或服刑。 {酬谢}
 
 > INFO.NAME tip 30395244141699816578
 No tip until we get there. Just like your kind to expect a reward for doing nothing.

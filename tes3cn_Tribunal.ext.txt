@@ -1273,7 +1273,7 @@ Of course, the anonymous writer's signature has not been on any reprint of the l
 <BR>
 巴兰兹娅和赫尔塞斯刚刚于去年穿越了整个大陆回到晨风。他们受到巴兰兹娅的叔叔，我们现任的国王，艾辛·莱森的热情款待，他于四十多年前接手了巴兰兹娅放弃的王位。巴兰兹娅明确表示她无意重申王位，只是想在家族的土地上安度晚年。而赫尔塞斯，如您了解的那样，经常徘徊逗留于王族宫廷之间，许多人都在私下说：王子已经丢掉了途歇城的王位，这回他肯定不想在莱森死后再次失去晨风之王的宝座。<BR>
 <BR>
-暗君陛下，我一直以来都向你汇报王子的各种活动、会议、密谋，以及他另外那些幕僚的名字和性格。您或许还记得，我曾经告诉过您，我经常认为我并不是赫尔塞斯宫廷中唯一的间谍。在那之后，我就注意到赫尔塞斯有一个长相特别的丹莫幕僚，长得很像我在审判席神殿大祭司索勒·萨里奥尼那看到的某人。另一位幕僚，一个年轻的诺德女人，我确定她曾经拜访过巴尔莫拉城的帝国要塞。当然，在上述事例中，他们也有可能是在替赫尔塞斯办事，但我不能确定。而当我对从途歇城时期就开始跟随王子的大管家，布莱顿人伯吉斯的赤胆忠心也产生怀疑时，我觉得我快要变得和王子本人一样的多疑和偏执了。<BR>
+暗君陛下，我一直以来都向你汇报王子的各种活动、会议、密谋，以及他另外那些幕僚的名字和性格。您或许还记得，我曾经告诉过您，我经常认为我并不是赫尔塞斯宫廷中唯一的间谍。在那之后，我就注意到赫尔塞斯有一个长相特别的丹莫幕僚，长得很像我在审判席大主教索勒·萨里奥尼那看到的某人。另一位幕僚，一个年轻的诺德女人，我确定她曾经拜访过巴尔莫拉城的帝国要塞。当然，在上述事例中，他们也有可能是在替赫尔塞斯办事，但我不能确定。而当我对从途歇城时期就开始跟随王子的大管家，布莱顿人伯吉斯的赤胆忠心也产生怀疑时，我觉得我快要变得和王子本人一样的多疑和偏执了。<BR>
 <BR>
 这些情况是那个晚上，就是昨晚，所发生事情的背景。<BR>
 <BR>
@@ -2561,7 +2561,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿卫兵和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_legionsofthedead
@@ -6681,7 +6681,7 @@ Elite Guard
 
 > NPC_.FNAM ordinator_mournhold
 High Ordinator
-高级神殿卫兵
+至高神殿卫兵
 
 > NPC_.FNAM Alvan Llarys
 Alvan Llarys
@@ -6931,7 +6931,7 @@ Hulking Fabricant
 
 > NPC_.FNAM Guard_HighOrd_Attack
 High Ordinator
-高级神殿卫兵
+至高神殿卫兵
 
 > CREA.FNAM fabricant_verm_attack
 Verminous Fabricant
@@ -7228,11 +7228,11 @@ Infected Rat
 
 > NPC_.FNAM ordinator_mh_TBasement
 High Ordinator
-高级神殿卫兵
+至高神殿卫兵
 
 > NPC_.FNAM ordinator_mh_TH_UNI
 High Ordinator
-高级神殿卫兵
+至高神殿卫兵
 
 > CREA.FNAM skeleton_relvel
 Skeleton Champion
@@ -7331,7 +7331,7 @@ Ervis Verano's Chest
 
 > NPC_.FNAM ordinator_MH_Sadri
 High Ordinator
-高级神殿卫兵
+至高神殿卫兵
 
 > CONT.FNAM com_chest_02_v_indalen
 Wooden Chest
@@ -7351,7 +7351,7 @@ Rathalas Dagger
 
 > NPC_.FNAM ordinator_mh_stationary
 High Ordinator
-高级神殿卫兵
+至高神殿卫兵
 
 > BOOK.FNAM bk_Artifacts_Tamriel
 Famed Artifacts of Tamriel
@@ -7685,7 +7685,7 @@ Wooden Door
 
 > NPC_.FNAM Crito Olcinius
 Crito Olcinius
-克里托·奥西尼乌斯
+克里托·奥尔西尼乌斯
 
 > NPC_.FNAM db_assassin1b
 Assassin
@@ -8493,11 +8493,11 @@ Thieves Guild: Bal Molagmer, The Dwemer Goblet
 
 > INFO.NAME tg_ss_churchpolice 1245918801870616483
 Gentleman Jim Stacey asked me to steal Berel Sala's large Dwemer goblet and donate it to Danso Indules in the name of the Bal Molagmer. Berel Sala is the head of the Ordinators. He and his Dwemer goblet are in the Justice Offices in Vivec. Danso Indules wanders about the city of Vivec healing the sick. I'm likely to find her in the Temple area, near the High Fane.
-绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
+绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜勒斯。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜勒斯在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
 
 > INFO.NAME tg_ss_churchpolice 2680724273962214425
 Gentleman Jim Stacey thanked me for stealing Berel Sala's Dwemer goblet and delivering it to Danso Indules.
-绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫的高脚杯，并把它交给了丹索·因杜尔思。
+绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫的高脚杯，并把它交给了丹索·因杜勒斯。
 
 > INFO.NAME tg_overduepayments 1623196932622410356
 Thieves Guild: Ra'Zhid's Dwemer Artifacts
@@ -10205,7 +10205,7 @@ Ahnassi, a Special Friend
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。 {小费}
+我感谢阿娜西给我的提示，这让我得以找到焰镜长袍。 {小费}
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
@@ -11601,7 +11601,7 @@ Viatrix Petilia stopped me on the side of the road near Ald'ruhn. She claims to 
 
 > INFO.NAME mv_richpilgrim 1524327818231821325
 I've led Viatrix Petilia safely to Ghostgate. She did, indeed, give me a "tip" for my services, but it seems rather meager compensation from someone of such obvious means.
-我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {服务,老鼠,赔偿}
+我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的酬谢。 {服务,老鼠}
 
 > INFO.NAME mv_richpilgrim 3539235591674819322
 Viatrix Petilia has left my company because I did not deliver her to Ghostgate within the two days she desired. I can't say I'm sorry to see her go, although I am curious what she would have offered as a reward.
@@ -12265,15 +12265,15 @@ Ilmeni Dren thanked me for freeing Hides-His-Foot.
 
 > INFO.NAME hh_winsaryoni 2968310132134383687
 House Hlaalu: Control the Ordinators
-哈拉鲁家族：控制殿卫
+哈拉鲁家族：控制神殿卫兵
 
 > INFO.NAME hh_winsaryoni 37879234120217576
 Duke Dren asked me to speak with Archcanon Tholer Saryoni at the High Fane in Vivec and persuade him to control Berel Sala's Ordinators.
-德伦公爵让我与维威克城至高神殿的高级神殿卫兵索勒·萨里奥尼交谈，说服他控制贝瑞尔·萨拉的神殿卫兵们。
+德伦公爵让我与维威克城至高神殿的大主教索勒·萨里奥尼交谈，说服他控制贝瑞尔·萨拉的神殿卫兵们。
 
 > INFO.NAME hh_winsaryoni 1597520625261639817
 Duke Dren thanked me for persuading Archcanon Tholer Saryoni to curb the worst of the Ordinators' zeal.
-德伦公爵感谢我说服索勒·萨里奥尼大领主遏制了神殿卫兵们的狂热。
+德伦公爵感谢我说服大主教索勒·萨里奥尼遏制了神殿卫兵们的狂热。
 
 > INFO.NAME hh_wincamonna 517125626807223001
 House Hlaalu: Dealing with Orvas Dren
@@ -14149,15 +14149,15 @@ A man approached me outside a trader's in Vivec. The odd thing is, I couldn't se
 
 > INFO.NAME eb_invisible 221161770245087340
 I've spoken to Lucretinaus Olcinius about his son's cure. He was grateful for all my help, and he gave me 100 septims as a reward for my efforts.
-我跟卢克雷蒂诺斯·奥西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
+我跟卢克雷蒂诺斯·奥尔西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
 
 > INFO.NAME eb_invisible 193869919292223526
 Upon returning to the area around the trader's shop, I was greeted by the now-visible Cassius Olcinius. He was very grateful for my help, but he had nothing to offer me in return for my help.
-回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
+回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥尔西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
 
 > INFO.NAME eb_invisible 811612941746920999
 I told Cassius Olcinius that Fevyn Ralen is dead. He'll never be visible again.
-我告诉卡西乌斯·奥西尼乌斯，费文·拉伦已经死了。他再也不会出现了。
+我告诉卡西乌斯·奥尔西尼乌斯，费文·拉伦已经死了。他再也不能露面了。
 
 > INFO.NAME ic14_nottell 710255621166818377
 Imperial Cult: Pledge from Canctunian Ponius
@@ -14245,7 +14245,7 @@ I reported to Deldrise Andoren how I followed her husband, and then confronted a
 
 > INFO.NAME ms_adulterer 15804955983431560
 I reported to Deldrise Andoren on my failure to follow her husband without being noticed. She was extremely upset and ordered me to leave without any compensation.
-我向德尔德莱斯·安多伦报告我未能在不被发现的情况下跟踪她的丈夫。她非常生气，命令我离开，没有任何报酬。 {赔偿}
+我向德尔德莱斯·安多伦报告我未能在不被发现的情况下跟踪她的丈夫。她非常生气，命令我离开，没有任何酬谢。
 
 > INFO.NAME ms_adulterer 3195330351594730159
 I reported to Deldrise Andoren on the death of her husband. She was far from pleased, refusing to compensate me for my efforts and demanding that I leave.
@@ -14729,7 +14729,7 @@ Thieves Guild: Nerano Manor Key
 
 > INFO.NAME tg_manorkey 17505238341143927662
 Sugar-Lips Habasi asked me to bring her the key to the top floor of the Nerano Manor here in Balmora. Ondres Nerano certainly has a key, but it may be easier to get the key from one of his servants, such as Sovor Trandel at the Balmora Council Club.
-蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会所的索沃·特兰德尔。 {棍棒}
+蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会会所的索沃·特兰德尔。 {棍棒}
 
 > INFO.NAME tg_manorkey 6777178031803221051
 Sugar-Lips Habasi thanked me for bringing her the key to Nerano Manor.
@@ -14981,7 +14981,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_bacola 8381325792294223899
 Bacola Closcius gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. He also hinted that Banor Seran at the Council Club just took delivery of some Cyrodilic brandy, and that he's probably got it stored in a closet in the hall  just right of the bar. He says the Council Club is just a front for Camonna Tong gangsters, suggesting it wouldn't REALLY be a crime to steal the brandy from them.
-巴科拉·克娄斯基乌斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
+巴科拉·克娄斯基乌斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会会所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
 
 > INFO.NAME ic12_dulnea 1584042372517830834
 Imperial Cult: Brandy for the Fundraising Dinner
@@ -15457,7 +15457,7 @@ An Attack on Mournhold
 
 > INFO.NAME tr_mhattack 2850722401293162574
 Strange creatures have burst through the ground at the Plaza Brindisi Dorom, and the High Ordinators and Royal Guard are trying to protect the city.
-奇怪的生物在布林迪西·多罗姆广场上破土而出，至高神殿卫兵和王宫卫兵正在努力保护这座城市。 {神殿卫兵们,瓜尔}
+奇怪的生物在布林迪西·多罗姆广场上破土而出，至高神殿卫兵和王宫卫兵正在努力保护这座城市。 {瓜尔}
 
 > INFO.NAME tr_mhattack 1505611594491311659
 The Royal Guard have asked me to help defend the city against the attacking creatures.
@@ -15465,7 +15465,7 @@ The Royal Guard have asked me to help defend the city against the attacking crea
 
 > INFO.NAME tr_mhattack 933322953255182044
 The High Ordinators have asked me to help defend the city against the attacking creatures.
-至高神殿卫兵要求我帮助保卫城市，抵御生物的攻击。 {神殿卫兵们}
+至高神殿卫兵要求我帮助保卫城市，抵御生物的攻击。
 
 > INFO.NAME tr_mhattack 22578291207149738
 The creatures attacking the city have been defeated. The plaza is in ruins.
@@ -15477,7 +15477,7 @@ The Royal Guard have ordered me to report the attack to Tienius Delitian at the 
 
 > INFO.NAME tr_mhattack 300511110064724031
 The High Ordinators have ordered me to report the attack to Fedris Hler at the Temple.
-至高神殿卫兵命令我向神殿的费德里斯·赫勒报告这次攻击。 {神殿卫兵们}
+至高神殿卫兵命令我向神殿的费德里斯·赫勒报告这次攻击。
 
 > INFO.NAME tr_mhattack 346819328212718323
 I have reported the attack on the city to Tienius Delitian.
@@ -15981,7 +15981,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_banor 3188715338221239570
 Banor Seran at the Council Club gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. I think he gave it to me just to make me go away.
-议会所的巴诺尔·瑟然给了我一瓶西罗帝尔白兰地，用于月蛾要塞的筹款晚宴。我想他是为了让我离开才给我的。 {棍棒}
+议会会所的巴诺尔·瑟然给了我一瓶西罗帝尔白兰地，用于月蛾要塞的筹款晚宴。我想他是为了让我离开才给我的。 {棍棒}
 
 > INFO.NAME tr07_guard 1057865212269031542
 Disloyalty Among the Guards
@@ -18385,7 +18385,7 @@ You don't have the Boots of the Apostle with you? Then come back with them, and 
 
 > INFO.NAME boots of the apostle 2087221386833312649
 Worn by Tiber Septim; supposedly a gift to Talos Stormcrown from the Greybeards. Wonderous, %PCName. Simply wonderous. And you're willing to sell them to the museum? Well, then I can offer you 27500 gold as compensation.
-泰伯·塞普汀穿过的；据说是灰胡子送给“风暴王冠”塔洛斯的礼物。太棒了，%PCName。简直不可思议。你愿意把它们卖给博物馆？好吧，那我可以给你27500金币作为赔偿。
+泰伯·塞普汀穿过的；据说是灰胡子送给“风暴王冠”塔洛斯的礼物。太棒了，%PCName。简直不可思议。你愿意把它们卖给博物馆？好吧，那我可以给你27500金币作为酬谢。
 
 > INFO.BNAM boots of the apostle 2087221386833312649 c1
 Sell the item.
@@ -18401,7 +18401,7 @@ Donate the item.
 
 > INFO.NAME boots of the apostle 119397049117965194
 Worn by Tiber Septim; supposedly a gift to Talos Stormcrown from the Greybeards. Wonderous, %PCName. Simply wonderous. And you're willing to sell them to the museum? Well, then I can offer you 27500 gold as compensation.
-泰伯·塞普汀穿过的；据说是灰胡子送给“风暴王冠”塔洛斯的礼物。太棒了，%PCName。简直不可思议。你愿意把它们卖给博物馆？好吧，那我可以给你27500金币作为赔偿。
+泰伯·塞普汀穿过的；据说是灰胡子送给“风暴王冠”塔洛斯的礼物。太棒了，%PCName。简直不可思议。你愿意把它们卖给博物馆？好吧，那我可以给你27500金币作为酬谢。
 
 > INFO.BNAM boots of the apostle 119397049117965194 c1
 Sell the item.
@@ -18837,7 +18837,7 @@ Hmmm...I have nothing for you at this time. Speak with Gavas Drin, the Lord Arch
 
 > INFO.NAME service to our lady 2307721958258385187
 I am always aware of those who might be able to serve our Lady Almalexia. Few are worthy to do so. The Temple and the city is guarded by the High Ordinators, and the Hands fulfill other duties for the Lady. I am her Chief Steward, Fedris Hler. Now, if you wish to be of use, we have some matters to discuss.
-我一直都知道有哪些人可以侍奉我们的阿玛莱西娅圣母。很少有人配得上这样做。神殿和城市由至高神殿卫兵守护，阿玛莱西娅之手为夫人完成其他任务。我是她的总管，费德里斯·赫勒。现在，如果你想派上点用场，完成点职务，我们可以来讨论要事。 {瓜尔,神殿卫兵们}
+我一直都知道有哪些人可以侍奉我们的阿玛莱西娅圣母。很少有人配得上这样做。神殿和城市由至高神殿卫兵守护，阿玛莱西娅之手为夫人完成其他任务。我是她的总管，费德里斯·赫勒。现在，如果你想派上点用场，完成点职务，我们可以来讨论要事。 {瓜尔}
 
 > INFO.NAME ten-tongues weerhat 1173023524297888417
 Lizard maggot has said too much, has he?  Ahnia will silence him, but first Ahina will silence you!
@@ -19337,7 +19337,7 @@ A difficult question, especially in the company of gods and kings. I am always h
 
 > INFO.NAME dissident priests 2496127873165737557
 The Dissident priests dispute Temple doctrine. They challenge the purity and divinity of the Tribunal, suggesting their powers are sorcerous, not divine. They also condemn the arbitrary power of the Ordinators, and accuse the Temple hierarchy of self-interest and corruption. The Dissident Priests are outlawed and persecuted by the Temple.
-异见祭司质疑神殿教义。他们质疑审判席的纯洁性和神性，认为他们的力量是巫术，而不是神力。他们还谴责殿卫的专断权力，并指责神殿高层的私利和腐败。异见祭司遭到神殿的取缔和迫害。 {神殿卫兵们,遭到神殿的迫害}
+异见祭司质疑神殿教义。他们质疑审判席的纯洁性和神性，认为他们的力量是巫术，而不是神力。他们还谴责神殿卫兵的专断权力，并指责神殿高层的私利和腐败。异见祭司遭到神殿的取缔和迫害。 {遭到神殿的迫害}
 
 > INFO.NAME dissident priests 196256652625222922
 The Dissident priests dispute Temple doctrine, and are outlawed and persecuted by the Temple. They falsely deny the divinity of the Tribunal.
@@ -19349,7 +19349,7 @@ I believe our differences with most of the Temple's hierarchy can be resolved, n
 
 > INFO.NAME progress of truth 674262862325718452
 This book lists the disputes of the Dissident priests with Tribunal Temple doctrines. The Temple has outlawed the sale or possession of the book, so it will be hard to find. We have a copy here, but I fear I'm being watched by Ordinators here. A safer plan would be to search local booksellers. Some booksellers ignore Temple bans on outlawed books for profits or for principles.
-这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我被神殿卫兵监视了。还有个更安全的计划是搜索本地的书商。有些书商为了利润或原则，无视神殿对非法书籍的禁令。 {被神殿卫兵看管,神殿卫兵们,利益}
+这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我被神殿卫兵看管了。还有个更安全的计划是搜索本地的书商。有些书商为了利润或原则，无视神殿对非法书籍的禁令。 {利益}
 
 > INFO.NAME mace of molag bal 27749258522366224097
 What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!
@@ -19605,7 +19605,7 @@ Ahem. Might I suggest that you re-think that decision? I do believe the items ar
 
 > INFO.NAME suldreni salandas 124808465796318850
 Ha! You are a wonder, %PCName. Well, you've been of immense help to me. Us. I'm more than happy to offer you this compensation. Now, if you'll excuse me, we have a great deal of planning to attend to. Thank you again for all you've done. I hope that someday all of Mournhold will know of your greatness.
-哈！你是一个奇迹，%PCName。好吧，你已经帮了我很多。帮了我们很多。我很高兴给你这个作为补偿。现在，如果你没有其他的事了的话，我们还有大量的计划需要处理。再次感谢你所做的一切。我希望有一天，整个哀伤之城都能知道你的伟大。 {赔偿}
+哈！你是一个奇迹，%PCName。好吧，你已经帮了我很多。帮了我们很多。我很高兴给你这个作为酬谢。现在，如果你没有其他的事了的话，我们还有大量的计划需要处理。再次感谢你所做的一切。我希望有一天，整个哀伤之城都能知道你的伟大。
 
 > INFO.NAME suldreni salandas 11506290961376611061
 I require both items, %PCName. One or none does me no good. Let me know when you have them.
@@ -20309,7 +20309,7 @@ It will remain active until I decide otherwise. The ashstorms will continue in M
 
 > INFO.NAME karstangz-bcharn 11288317631552513275
 Well done, %PCName. This is the effect I was looking for! Ashstorms in Mournhold! My magic will prevent anyone from further tampering with this machine. You will, of course, keep silent about this. My powers are a bit drained, mortal...they are not gone. My ordinators will take care of the remains of this End of Times cult and their leader. You have done well.
-做得好，%PCName。这正是我想要的效果！哀伤之城刮起灰烬风暴！我的魔法会阻止任何人对这台机器动手动脚。当然，你要对此事保持沉默。我的力量有点枯竭，凡人…但还没消耗殆尽。我的神殿卫兵会处理好这个时代终结邪教的残党和他们的领袖。你做得很好。 {神殿卫兵们}
+做得好，%PCName。这正是我想要的效果！哀伤之城刮起灰烬风暴！我的魔法会阻止任何人对这台机器动手动脚。当然，你要对此事保持沉默。我的力量有点枯竭，凡人…但还没消耗殆尽。我的神殿卫兵会处理好这个时代终结邪教的残党和他们的领袖。你做得很好。
 
 > INFO.NAME karstangz-bcharn 3795552476455906
 I see you have restarted the machine, but this is not what I asked for! This weather is not uncommon in the city. Only an ashstorm will show these people my true power!
@@ -21165,7 +21165,7 @@ Oh yeah, sure. Heard ya the f-f-first time.
 
 > INFO.NAME high ordinators 29622292342262117873
 Perhaps you've seen Ordinators on Vvardenfell. Fierce warriors, all. They were the men judged unfit to serve in our Lady's city. The High Ordinators are the strongest warriors in all of Morrowind. They protect the Temple and the city against all threats. Do not cross them.
-也许你在瓦登费尔见过殿卫。他们全部都是强悍的战士。他们被判定不适合在我们的圣母的城市里服务。至高神殿卫兵是全晨风最强大的战士。他们保护神殿和城市免受一切威胁。不要跟他们过不去。 {神殿卫兵们,侍奉}
+也许你在瓦登费尔见过神殿卫兵。他们全部都是强悍的战士。他们被判定不适合在我们的圣母的城市里服务。至高神殿卫兵是全晨风最强大的战士。他们保护神殿和城市免受一切威胁。不要跟他们过不去。 {侍奉}
 
 > INFO.NAME high ordinators 3232925992398015649
 They are power warriors, some of the most deadly in all of Morrowind. In most areas of Mournhold, they are the law. Take care not to cross them.
@@ -21177,11 +21177,11 @@ The goddess's henchmen. They consider themselves a sacred order, but they are no
 
 > INFO.NAME high ordinators 602222019193518645
 The High Ordinators keep the peace here in Mournhold. Only the finest and most devout are chosen to be of their ranks.
-至高神殿卫兵维持着哀伤之城的和平。只有最优秀和最虔诚的人能被选入他们的队伍。 {神殿卫兵们,罚款}
+至高神殿卫兵维持着哀伤之城的和平。只有最优秀和最虔诚的人能被选入他们的队伍。 {罚款}
 
 > INFO.NAME high ordinators 244776247221901884
 My High Ordinators protect the city of Mournhold from any who would do it harm. They are holy warriors, blessed with great speed and strength.
-我的至高神殿卫兵保护哀伤之城不受任何人的伤害。他们是神圣的展示，拥有强大的速度和力量。 {神殿卫兵们}
+我的至高神殿卫兵保护哀伤之城不受任何人的伤害。他们是神圣的展示，拥有强大的速度和力量。
 
 > INFO.NAME high ordinators 2018019737588821131
 Fine warriors and religious zealouts. A nasty combination. Take care around them.
@@ -21189,11 +21189,11 @@ Fine warriors and religious zealouts. A nasty combination. Take care around them
 
 > INFO.NAME high ordinators 10831631141084673
 They are much like the Ordinators you might see in Vivec, but they are even more dangerous. Only the best of this sacred order are chosen to serve in Mournhold. To wear their garb is considered a great honor. Any others caught in it are summarily executed.
-他们很像你在维威克城可能看到的殿卫，但他们甚至更危险。只有这个神圣组织中最优秀的人被选中在哀伤之城侍奉。穿上他们的装束被认为是一种巨大的荣誉。其他任何被抓到的人都会被立即处决。 {神殿卫兵们}
+他们很像你在维威克城可能看到的神殿卫兵，但他们甚至更危险。只有这个神圣组织中最优秀的人被选中在哀伤之城侍奉。穿上他们的装束被认为是一种巨大的荣誉。其他任何被抓到的人都会被立即处决。
 
 > INFO.NAME high ordinators 4245204431701518853
 We are the High Ordinators. Move along.
-我们是至高神殿卫兵。走开。 {神殿卫兵们}
+我们是至高神殿卫兵。走开。
 
 > INFO.NAME high ordinators 2959122671156862724
 They think they run this place. That just might change soon.
@@ -22603,11 +22603,11 @@ My advice... leave me alone.
 
 > INFO.NAME little advice 11392216712003319409
 Whatever you do, don't mess with the Hands of Almalexia. If you think Ordinators are tough, imagine Ordinators with bodies, souls, armor, and weapons personally blessed and fortified by Almalexia.
-无论你做什么，都不要去招惹阿玛莱西娅之手。如果你认为神殿卫兵很难对付，那就想象一下，当神殿卫兵的身体、灵魂、盔甲和武器都是由阿玛莱西娅亲自赐福和强化时是什么样子。 {神殿卫兵们}
+无论你做什么，都不要去招惹阿玛莱西娅之手。如果你认为神殿卫兵很难对付，那就想象一下，当神殿卫兵的身体、灵魂、盔甲和武器都是由阿玛莱西娅亲自赐福和强化时是什么样子。
 
 > INFO.NAME little advice 2404318679115925462
 Whatever you do, don't mess with the Hands of Almalexia. If you think Ordinators are tough, imagine Ordinators with bodies, souls, armor, and weapons personally blessed and fortified by Almalexia.
-无论你做什么，都不要去招惹阿玛莱西娅之手。如果你认为神殿卫兵很难对付，那就想象一下，当神殿卫兵的身体、灵魂、盔甲和武器都是由阿玛莱西娅亲自赐福和强化时是什么样子。 {神殿卫兵们}
+无论你做什么，都不要去招惹阿玛莱西娅之手。如果你认为神殿卫兵很难对付，那就想象一下，当神殿卫兵的身体、灵魂、盔甲和武器都是由阿玛莱西娅亲自赐福和强化时是什么样子。
 
 > INFO.NAME little advice 3224530358124075770
 Don't be a sap. Don't pay for a bed. Go sleep rough in the sewers. You look like you can take care of yourself.
@@ -23155,35 +23155,35 @@ Strangers get lost up here. Be careful. My advice is keep an eye to the coast, t
 
 > INFO.NAME little advice 2434625998154753841
 We don't like outlanders. We don't like them in our Council Club. We don't like trouble. We do like a little peace and quiet. If you don't mind.
-我们不喜欢外地人；我们不喜欢他们进入议会所；我们不喜欢麻烦；我们喜欢宁静，如果你不介意的话。 {棍棒}
+我们不喜欢外地人；我们不喜欢他们进入议会会所；我们不喜欢麻烦；我们喜欢宁静，如果你不介意的话。 {棍棒}
 
 > INFO.NAME little advice 18709150742074210919
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 26032308699877464
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1056027601173315131
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1640011017124474875
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 3067152352518928844
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 1595924223937988
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 338298952125091
 If you need to meet a guy, you want to look in at the South Wall, cornerclub, south of the river. Talk around; if they like your looks, they'll open up. But be careful. The Council Club, also on the south side, is Camonna Tong territory, the local mob. They don't like outlanders, except under building foundations.
-如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
+如果你想找什么人，就去南墙街角酒吧看看，就在河的南岸。如果他们喜欢你的长相，就会敞开心扉和你谈谈。但要小心。议会会所也在南边，那是当地黑帮卡莫纳堂的地盘。他们不喜欢外地人，除了被埋在地里砌进墙里的。 {需要,棍棒}
 
 > INFO.NAME little advice 84372506210727392
 Be smart. Join the Guild. Honor among thieves, right? You're new here, don't know your way around, get in a little trouble -- a lot of trouble, more likely. Oh, you'll learn, fast enough, I guess. But get gold on your head, and things get tougher. The Guild will steer you straight, towards the sweet and away from the sour. And they're a regular guild -- discounts on your training and services and everything. Do yourself a favor. Start easy, with friends. Then later, you want to freelance, fine.
@@ -24019,11 +24019,11 @@ I heard the Ordinators burned out a camp of Nerevarine cult worshippers out by t
 
 > INFO.NAME little secret 28009126602517219086
 Do you know where Telasero is? The old Dunmer stronghold between Suran and Molag Mar? The Temple just sent three Ordinators from the Order of War up there. Some trader reported seeing corprus monsters there.
-你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
+你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。
 
 > INFO.NAME little secret 882713976215622955
 Do you know where Telasero is? The old Dunmer stronghold between Suran and Molag Mar? The Temple just sent three Ordinators from the Order of War up there. Some trader reported seeing corprus monsters there.
-你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。 {神殿卫兵们}
+你知道泰拉塞洛在哪吗？丹莫在苏兰和莫拉格-玛尔之间的堡垒？神殿刚刚派了三个守望修会的神殿卫兵去那里，因为有贸易商报告说在那里看到了尸化怪物。
 
 > INFO.NAME little secret 2350313426131210090
 Falasmaryon, the old Dunmer stronghold, up near Ald Velothi? You know the place I'm talking about? I heard Mangolodh, the Legion scout, stuck his head in there, just looking around, saw a corprus monster, and teleported right out. He reported to the Legion, but I don't know what they're going to do about it. Pass it on to the Temple, that's my guess.
@@ -24223,7 +24223,7 @@ We used to feel the love and concern of the Tribunal -- here in Mournhold most e
 
 > INFO.NAME latest rumors 2004821748611221455
 Why have people strayed from the Tribunal Temple? Actually, the wonder is that they've stayed in the Temple at all. It is true that the Tribunal have protected us from Dagoth Ur, and that is a big job -- a critical job. But as gods, they've become almost like Western gods -- absent and silent. What made them special was that they were Living Gods, among the people, a personal presence. Now the Mournhold Temple and the Ordinators are more oppressive than protective.
-为什么人们离开了审判席神殿？其实，奇怪的是，他们根本就没有留在神殿里。的确，审判席保护我们不受达格斯·乌尔的伤害，这是一项重要的工作——一项关键的工作。但作为神，他们已经变得几乎像西方的神一样——缺席而沉默。他们的与众不同之处在于，他们是现世神，行走在人们之中，是实实在在的存在。现在，哀伤之城神殿和殿卫更多的是压制而不是保护。 {神殿卫兵们}
+为什么人们离开了审判席神殿？其实，奇怪的是，他们根本就没有留在神殿里。的确，审判席保护我们不受达格斯·乌尔的伤害，这是一项重要的工作——一项关键的工作。但作为神，他们已经变得几乎像西方的神一样——缺席而沉默。他们的与众不同之处在于，他们是现世神，行走在人们之中，是实实在在的存在。现在，哀伤之城神殿和神殿卫兵更多的是压制而不是保护。
 
 > INFO.NAME latest rumors 10654114582885618265
 Almalexia is the Lady of Mercy, Mother of us all, healer and protector. But Almalexia has been more concerned with Dagoth Ur and his threats for years. Mournhold doesn't feel much like the City of Love any more, but hard times demand hard gods.
@@ -24287,7 +24287,7 @@ You have slain Dagoth Ur, defeated the Sixth House, and ended the Blight, Nereva
 
 > INFO.NAME latest rumors 27870218481315532293
 The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. Now the fate of Morrowind and its people lies in your hands.
-大魔导师已经宣布，维威克大人选中了你，作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中。现在，晨风和它的人民的命运就掌握在你的手中了。
+大主教已经宣布，维威克大人选中了你，作为神殿的勇士，在对抗达格斯·乌尔和第六家族的战争中。现在，晨风和它的人民的命运就掌握在你的手中了。
 
 > INFO.NAME latest rumors 59603784856727936
 So you have been named Hortator and Nerevarine, fulfilling the Nerevarine prophecies. I would not have believed it. But my informants assure me it is true. If now you can also achieve a reconciliation with the Temple, you may be able to unite all of Morrowind's force against Dagoth Ur and Red Mountain.
@@ -24359,39 +24359,39 @@ What could kill two Ordinators before they can draw their weapons? Slit their th
 
 > INFO.NAME latest rumors 168465105441831242
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 141843021585617905
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 848016399766718470
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 68578462826620429
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 27802166371885918620
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 6136108971491710714
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 1772272382367027024
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 913045491949911778
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 2838824372109330145
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 127902297244144444
 I monitor smuggling along the Bitter Coast. And the job's too big for me. They move moon sugar, skooma, raw ebony, Dwemer artifacts, you name it, through Hla Oad and Gnaar Mok. With the coast honeycombed with smuggler caves, and Camonna Tong locals carrying tiny packages overland by night, I'll never catch them. But maybe you'll have better luck.
@@ -24883,7 +24883,7 @@ That bigmouth Varro over at Moonmoth Legion Fort says he's going to stop corrupt
 
 > INFO.NAME latest rumors 2610126034286992676
 They say someone hit the Camonna Tong at the Council Club. Hard. And the guards SAY they're very concerned, and they're following all leads... But somehow they don't seem very sincere. And Larrius Varro? Champion at Fort Moonmoth? He's been quoted as saying, 'I swore an oath to stop corruption, but it seems the gods have seen fit to fulfill my oath for me.' And you know what's funny? Someone said they saw YOU talking to Larrius Varro several times recently. A coincidence? I don't think so.
-据说有人在议会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和拉里乌斯·瓦罗说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
+据说有人在议会会所袭击了卡莫纳堂。这件事很严重，卫兵说他们很担心，正在追查所有线索…但不知何故，他们似乎不太真诚。拉里乌斯·瓦罗呢？月蛾要塞的勇士？他说过：“我发过誓要阻止腐败，但似乎诸神已经看准时机替我完成了誓言。”你知道最有趣的是什么吗？有人说最近看到你和拉里乌斯·瓦罗说了好几次话。巧合吗？我可不这么认为。 {棍棒,瓜尔,谈}
 
 > INFO.NAME latest rumors 2154830486472422301
 Everyone knows the Balmora magistrate, Nolus Atrius, is on the take. Thieves, thugs, and murderers are getting ridiculous sentences, or paying a drake and walking free. But they'll never get Atrius. He's got fatcats and family back in the City to cover him. The Legion Champion, Larrius Varro, over at Moonmoth Legion Fort, he has sworn an oath to stop corruption. But I don't see what he can do.
@@ -24979,7 +24979,7 @@ What could kill two Ordinators before they can draw their weapons? Slit their th
 
 > INFO.NAME latest rumors 7897104801480424251
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。 {神殿卫兵们}
+你听说了吗？七个受害者？在维威克城？全部被割喉？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在有两个自己人被割喉，正义厅堂的人似乎很担心。我听说监察办事处正在悄悄地四处寻找一些特殊的帮手。任何能在两名神殿卫兵拔出武器之前杀死他们的东西，听起来都需要特别的帮助。
 
 > INFO.NAME latest rumors 12808112932677520322
 Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there. I'll bet they can.
@@ -25767,7 +25767,7 @@ As I've said, they relate to the recent events in the city.
 
 > INFO.NAME plans for you 6835145942178815328
 As I'm certain you know, Mournhold is one of the seats of power for the Tribunal. The goddess Almalexia resides here in her Temple, surrounded by her High Ordinators. I have no great love for Almalexia, her Ordinators, or the Tribunal of which she is a part. In light of recent events, I believe it is time to gather more information about them.
-我想你一定知道，哀伤之城是审判席的权力中心之一。阿玛莱西娅女神就住在她的神殿里，被她的至高神殿卫兵拱卫着。我对阿玛莱西娅、她的殿卫、以及审判席没有什么好感。鉴于最近的事件，我相信现在是时候收集更多关于他们的信息了。 {神殿卫兵们}
+我想你一定知道，哀伤之城是审判席的权力中心之一。阿玛莱西娅女神就住在她的神殿里，被她的至高神殿卫兵拱卫着。我对阿玛莱西娅、她的神殿卫兵、以及审判席没有什么好感。鉴于最近的事件，我相信现在是时候收集更多关于他们的信息了。
 
 > INFO.NAME plans for you 2918312920832155
 All in good time. First you will prove yourself.
@@ -26199,7 +26199,7 @@ Uh... nothing for me, right now... but thanks.
 
 > INFO.NAME missing hand 24938175302180813658
 Now Salas Valor haunts the streets and sewers of Mournhold. His wild, distracted manner frightens the people, but even my Ordinators are afraid to confront so terrible a weaponmaster and war-wizard. I beg you -- seek out Salas Valor. Relieve us of this threat to my beloved people, and bring peace to my sacred city of Mournhold.
-现在萨拉斯·瓦勒在哀伤之城的街道和下水道里出没。他那狂野的、心不在焉的样子让人们感到害怕，但即使是我的殿卫也害怕面对如此可怕的武器大师和战争巫师。我请求你——找到萨拉斯·瓦勒。解除这个对我心爱的人民的威胁，为我神圣的哀伤之城带来和平。 {神殿卫兵们}
+现在萨拉斯·瓦勒在哀伤之城的街道和下水道里出没。他那狂野的、心不在焉的样子让人们感到害怕，但即使是我的神殿卫兵也害怕面对如此可怕的武器大师和战争巫师。我请求你——找到萨拉斯·瓦勒。解除这个对我心爱的人民的威胁，为我神圣的哀伤之城带来和平。
 
 > INFO.NAME missing hand 3059216781478229821
 One of my most faithful guards, one of my very own Hands of Almalexia, pledged to honor and protect and serve me in all ways, has lost his mind. Salas Valor has abandoned me, and now spews vile and slanderous untruths about me to any who would listen. I pity him, and know he is not responsible for his actions. To view the splendor of a god may drive even the strongest mortal mad. But now he presents a threat to us, and he is very dangerous. I fear you may not be able to spare his life.
@@ -27583,7 +27583,7 @@ They're Helseth's personal guard. Handpicked by the young king, and all loyal to
 
 > INFO.NAME royal guard 3181317131341011297
 Young King Helseth's handpicked thugs. Ridiculous that they are allowed to dispense justice in the Lady's city. The High Ordinators do a fine job of keeping the peace around here.
-年轻国王赫尔塞斯亲自挑选的打手。荒谬的是，他们被允许在圣母的城市里制裁他人。至高神殿卫兵在维持治安方面做得很好。 {正义,神殿卫兵们}
+年轻国王赫尔塞斯亲自挑选的打手。荒谬的是，他们被允许在圣母的城市里制裁他人。至高神殿卫兵在维持治安方面做得很好。 {正义}
 
 > INFO.NAME royal guard 31086261812684616432
 I am the leader of the Royal Guards. We live to protect King Helseth. Only the strongest and most loyal were picked by our king to serve. Any who would threaten the monarchy will be dealth with severely.
@@ -27927,7 +27927,7 @@ You are a wanted criminal, and will be punished. You stand here only by the Lady
 
 > INFO.NAME greeting 1 233813539948315535
 You wear the sacred garb of the Ordinator, but you are not of the Order. I stay my hand solely at the Lady's discretion. Speak with me no more.
-你穿着神圣殿卫的圣装，但你不是殿卫的人。我只因圣母的决定而留手。不要再跟我说话了。
+你穿着神殿卫兵的神圣服装，但你不是他们的人。我只因圣母的决定而留手。不要再跟我说话了。
 
 > INFO.NAME greeting 1 23407321083087418600
 We await the Goddess' command. Her word is our law. There is no time to speak with the likes of you.
@@ -28303,7 +28303,7 @@ I understand you've spoken to Delitian about the attacks on the city. He is corr
 
 > INFO.NAME greeting 1 254957892251164441
 I've heard about the attacks on the city. Good that you reported them to me, though. I've sent some High Ordinators to deal with the situation. You can help me in another way. I want you to investigate the disturbance.
-我已经听说了对城市的攻击。不过，你能向我报告是件好事。我已经派了一些至高神殿卫兵来处理情况。你可以帮我另一个忙。我希望你能调查骚乱。 {神殿卫兵们}
+我已经听说了对城市的攻击。不过，你能向我报告是件好事。我已经派了一些至高神殿卫兵来处理情况。你可以帮我另一个忙。我希望你能调查骚乱。
 
 > INFO.NAME greeting 1 2995329748113830070
 What is it you want?
@@ -29407,7 +29407,7 @@ All the trees and plants, tended lawns and paths, are hymns of praise to Almalex
 
 > INFO.NAME greeting 1 1087525036370929170
 This temple is clean as Almalexia's conscience, sera. And mind you keep it that way.
-这个神殿就像阿玛莱西娅的良心一样干净，塞拉。请注意保持这种状态。
+这个神殿就像阿玛莱西娅的良心一样干净，阁下。请注意保持这种状态。
 
 > INFO.NAME greeting 1 26112136631386124671
 Talk to the boss. I'm just hired help.
@@ -29943,7 +29943,7 @@ Ahhhh...you've removed this enchantment with your spell to cure disease!
 
 > INFO.NAME greeting 1 8099179422048416076
 Excuse me, can you help me? No, I'm over here. My name is Cassius Olcinius. Sorry...you see, I've been made invisible by a wizard!
-对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥西尼乌斯。抱歉…你看，我被巫师变成了隐身人！
+对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥尔西尼乌斯。抱歉…你看，我被巫师变成了隐身人！
 
 > INFO.NAME greeting 1 182391977298029994
 Take this, friend. I think everyone should read this leaflet. It has important information on it.
@@ -30123,23 +30123,23 @@ I am concerned. Why have you not yet fulfilled the prophecies of the Nerevarine?
 
 > INFO.NAME greeting 1 12804286741127931845
 Why have you not yet fulfilled the prophecies of the Nerevarine? Is there something wrong? Archcanon Tholer Saryoni, the high priest of the Temple has asked that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
-为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？神殿的大祭司索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
+为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？大主教索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
 
 > INFO.NAME greeting 1 6174274542428523132
 We are concerned. Why have you not yet fulfilled the prophecies of the Nerevarine? Have you done something wrong? Have you forgotten your destiny? We hear that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
-我们很担心，为什么你还没有实现尼瑞瓦因的预言？你做错了什么吗？你忘记了你的命运吗？我们听说神殿的大祭司索勒·萨里奥尼已经绝望了，他请求您到维威克城的至高神殿和他谈谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
+我们很担心，为什么你还没有实现尼瑞瓦因的预言？你做错了什么吗？你忘记了你的命运吗？我们听说大主教索勒·萨里奥尼已经绝望了，他请求您到维威克城的至高神殿和他谈谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
 
 > INFO.NAME greeting 1 11810145313201124359
 I am surprised. And a bit disappointed. I thought you were the Nerevarine? Why haven't you fulfilled the prophecies? Is something wrong? Did you do something you shouldn't? I've heard rumors that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. If there is some problem, maybe you should go talk to Saryoni.
-我很惊讶，还有点失望：你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，神殿的大祭司索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
+我很惊讶，还有点失望：你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，大主教索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
 
 > INFO.NAME greeting 1 1698115947203317463
 Well. If you are the Nerevarine, why haven't you fulfilled the prophecies? Surely you haven't forgotten. You haven't done something foolish, have you? You mustn't be shy, dumpling. I've heard that Archcanon Tholer Saryoni, the high priest of the Temple, is VERY upset, and that he is hoping that you will come speak with him at the High Fane here in Vivec City. Maybe that would be a good idea. Don't you think?
-好吧。如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说神殿的大祭司索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
+好吧。如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说大主教索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
 
 > INFO.NAME greeting 1 8310196942002629898
 I don't mean to pry into your affairs. But, if you are the Nerevarine, as they say, why haven't you fulfilled the Nerevarine prophecies? The people are badly frightened by these Sixth House disturbances. You haven't gotten yourself into any sort of trouble, have you? A discreet contact tells me that Archcanon Tholer Saryoni, the high priest of the Temple, is becoming desperate, and that he is hoping that you will come speak with him at the High Fane in Vivec City. Maybe that would be best.
-我无意打探你的事情，但是，如果你就是传说中的尼瑞瓦因，为什么你没有实现尼瑞瓦因预言？人们被这些第六家族的骚乱吓坏了。你没有惹上什么麻烦吧？一个谨慎的线人告诉我，神殿的大祭司索勒·萨里奥尼已经开始绝望了，他希望你能到维威克城的至高神殿来和他谈谈。也许那样最好。
+我无意打探你的事情，但是，如果你就是传说中的尼瑞瓦因，为什么你没有实现尼瑞瓦因预言？人们被这些第六家族的骚乱吓坏了。你没有惹上什么麻烦吧？一个谨慎的线人告诉我，大主教索勒·萨里奥尼已经开始绝望了，他希望你能到维威克城的至高神殿来和他谈谈。也许那样最好。
 
 > INFO.NAME greeting 1 29234234002085728877
 I see you have equipped Wraithguard. I wish you luck with it.
@@ -30367,7 +30367,7 @@ Yes, we are going together to Ald Daedroth, where we will see if you have made i
 
 > INFO.NAME greeting 1 22810173202018316646
 You've spoken to the archcanon? Good. Then, is there anything else you want?
-你和大魔导师谈过了？很好，那你还有什么事吗？
+你和大主教谈过了？很好，那你还有什么事吗？
 
 > INFO.NAME greeting 1 212372527952679549
 I'm sorry, but the Temple's doctrine on the Nerevarine is clear. The Nerevarine prophecies are evil superstitions, based on lies and delusions. And even if the prophecies were genuine, since you have killed one of the leaders of the Ashlander tribes, now there is no possibility that you could be accepted by the Ashlander tribes as the Nerevarine of prophecy. I'm afraid we have nothing to discuss.
@@ -31759,7 +31759,7 @@ Can we get moving, %PCRace? We've a long way to go.
 
 > INFO.NAME greeting 1 206530333281032270
 Okay, %PCName, we've made it. I thank you for your help, and Rollie would if he were allowed in the city. I really must speak with someone about that. Think how much he'd enjoy visiting this place. He'd be talking about it for days. Oh, I suppose you're wondering about compensation for your trouble?
-好了，%PCName，我们成功了。我感谢你的帮助，如果罗利可以进城的话，他也会的。我真的得找人谈谈，想想他有多喜欢参观这个地方吧。他会说上好几天的。哦，我想你想知道关于赔偿你的麻烦？
+好的，%PCName，我们成功了。谢谢你的帮助，如果罗利能被允许进城的话，他也会的。我真的得找人谈谈。想想他会多么喜欢来这里。他会滔滔不绝好几天的。哦，我猜你一定在想，对于你的这些麻烦，应该得到怎样的酬谢吧？
 
 > INFO.NAME greeting 1 28689412196788612
 You have slain one of my tribe. You must pay with your life.
@@ -32207,7 +32207,7 @@ I am %name, a %class in the Imperial Legion.
 
 > INFO.NAME background 17473228061263324385
 We are the High Ordinators.
-我们是至高神殿卫兵。 {神殿卫兵们}
+我们是至高神殿卫兵。
 
 > INFO.NAME background 672431160671510926
 I am a Royal Guard.
@@ -32511,7 +32511,7 @@ Someone has murdered the Lord Archcanon! That poor, poor man. How could this hap
 
 > INFO.NAME gavas drin 251587601278934200
 Someone killed the priest. Let the Ordinators handle it.
-有人杀了祭司。让殿卫来处理吧。 {杀某个人,神殿卫兵们}
+有人杀了祭司。让神殿卫兵来处理吧。 {杀某个人}
 
 > INFO.NAME gavas drin 26963112292711925543
 I heard the Lord Archcanon was killed. How could someone do that?
@@ -32747,27 +32747,27 @@ Your story is unbelievable. But... there are rumors here that Almalexia is no lo
 
 > INFO.NAME almalexia 223464930179589062
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让神殿卫兵来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。
 
 > INFO.NAME almalexia 2731487016700143
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让神殿卫兵来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。
 
 > INFO.NAME almalexia 14498203941578711222
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让神殿卫兵来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。
 
 > INFO.NAME almalexia 72117162207747823
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让神殿卫兵来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。
 
 > INFO.NAME almalexia 11073114003170826341
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让神殿卫兵来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。
 
 > INFO.NAME almalexia 854273532984418724
 [Smoothly.] You're not well, my child. You don't know what you're saying. You must be mistaken. If you have killed someone, I'm afraid it's a matter for the Ordinators. But of course, no one can kill a Living God. Perhaps if you pray at a shrine, your mind will be cleared.
-[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让殿卫来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。 {神殿卫兵们}
+[轻柔地说。] 你病了，我的孩子。你不知道你在说什么。你一定是搞错了。如果你杀了人，恐怕这该让神殿卫兵来处理。但当然，没有人能杀死现世神。也许在神殿祈祷能涤清你的心智。
 
 > INFO.NAME almalexia 7221100682663725929
 [Forcefully, threateningly.] You are wrong. You are foolish to say such things. Go away.
@@ -33243,7 +33243,7 @@ The Blade of Nerevar. In the battle beneath Red Mountain, Trueflame was shattere
 
 > INFO.NAME one piece 978328175179624615
 I don't even have it on display, because I haven't been able to positively identify it yet. It's a shield of Dwemer make, but not traditional in any sense of the word. The pieces of it just don't seem to match, and I've wondered if it isn't some sort of a fake. I suppose I might be able to part with it, but I'll need some compensation.
-我甚至没有把它展示出来，因为我还没能准确鉴定它。它是个锻莫制造的盾牌，但怎么看都不是传统样式。它的部件似乎并不匹配，我好奇它是不是什么假货。我想我可以把它出手，但我也要一点赔偿。 {需要}
+我甚至没有把它展示出来，因为我还没能准确鉴定它。它是个锻莫制造的盾牌，但怎么看都不是传统样式。它的部件似乎并不匹配，我好奇它是不是什么假货。我想我可以把它出手，但我也要一点酬谢。 {需要}
 
 > INFO.NAME myn dhrur 2849697491236419497
 Nasty place, that.
@@ -34123,7 +34123,7 @@ The ashstorms are a nuisance, but it is as our Lady wishes.
 
 > INFO.NAME hello 1540698016873240
 Our city is under attack! The Ordinators have been mobilized.
-我们的城市正受到攻击！殿卫已经出动。
+我们的城市正受到攻击！神殿卫兵已经出动。
 
 > INFO.NAME hello 29625134911231819467
 Almalexia be praised, sera.
@@ -34139,7 +34139,7 @@ Yes, this weather is odd, but trust in the Lady. All will be well.
 
 > INFO.NAME hello 3148511479814116964
 The city is under attack? Tell Hler! Alert the Ordinators! Protect the Temple!
-城市正遭到攻击？去告诉赫勒！去提醒殿卫！保卫神殿！
+城市正遭到攻击？去告诉赫勒！去提醒神殿卫兵！保卫神殿！
 
 > INFO.NAME hello 16539334499287
 Grace and mercy upon you, in Her Name, sera.
@@ -36683,7 +36683,7 @@ I know, I know. It's a menial task. I do apologize, but it needs to be done.
 
 > INFO.NAME favor 69713042325132634
 I hope it's not too much of an imposition, but there's another sick individual that needs healing. Athelyn Malas is out in the Temple Courtyard; the Ordinators won't let him come in. They've seen the increase in people requesting healing from the Temple, and fear that allowing him access will only spread whatever disease it is he carries. Can you take a Cure Disease Potion to him?
-我希望这没有太强人所难，但还有一个生病的人需要医治。阿瑟林·马拉斯在神殿庭院里，殿卫不让他进来。他们看到越来越多的人要求在神殿治病，他们担心允许他进来只会让他身上的疾病扩散。你能带着治愈疾病的药水去找他吗？ {神殿卫兵们}
+我希望这没有太强人所难，但还有一个生病的人需要医治。阿瑟林·马拉斯在神殿庭院里，神殿卫兵不让他进来。他们看到越来越多的人要求在神殿治病，他们担心允许他进来只会让他身上的疾病扩散。你能带着治愈疾病的药水去找他吗？
 
 > INFO.NAME favor 3270259621624513081
 Thank you for delivering the potion, %PCName.

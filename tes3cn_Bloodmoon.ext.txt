@@ -1790,7 +1790,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿卫兵和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_MixedUnitTactics
@@ -1887,7 +1887,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿的殿卫和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿卫兵和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_BlasphemousRevenants
@@ -7278,11 +7278,11 @@ Thieves Guild: Bal Molagmer, The Dwemer Goblet
 
 > INFO.NAME tg_ss_churchpolice 1245918801870616483
 Gentleman Jim Stacey asked me to steal Berel Sala's large Dwemer goblet and donate it to Danso Indules in the name of the Bal Molagmer. Berel Sala is the head of the Ordinators. He and his Dwemer goblet are in the Justice Offices in Vivec. Danso Indules wanders about the city of Vivec healing the sick. I'm likely to find her in the Temple area, near the High Fane.
-绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜尔思。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜尔思在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
+绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜勒斯。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜勒斯在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
 
 > INFO.NAME tg_ss_churchpolice 2680724273962214425
 Gentleman Jim Stacey thanked me for stealing Berel Sala's Dwemer goblet and delivering it to Danso Indules.
-绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫的高脚杯，并把它交给了丹索·因杜尔思。
+绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫的高脚杯，并把它交给了丹索·因杜勒斯。
 
 > INFO.NAME tg_overduepayments 1623196932622410356
 Thieves Guild: Ra'Zhid's Dwemer Artifacts
@@ -8794,7 +8794,7 @@ Ahnassi, a Special Friend
 
 > INFO.NAME romance_ahnassi 27170183552238114548
 I thanked Anhassi for the tip she gave me that led me to the Flamemirror Robe.
-我感谢了安哈茜。她给我的提示线索，让我找到了焰镜长袍。 {小费}
+我感谢阿娜西给我的提示，这让我得以找到焰镜长袍。 {小费}
 
 > INFO.NAME romance_ahnassi 10457215951333724952
 Ahnassi says there is a secret underwater passage into the Imperial Commission in Ebonheart. She also says that Elvul's Black Blindfold, a magic glove which blinds and befuddles archers, may be found in a wardrobe in the living quarters of the Imperial Commission. The Imperial Commission will be guarded by tough Imperial guards, but if I can find the hidden entrance, I may be able to avoid the guards.
@@ -10158,7 +10158,7 @@ Viatrix Petilia stopped me on the side of the road near Ald'ruhn. She claims to 
 
 > INFO.NAME mv_richpilgrim 1524327818231821325
 I've led Viatrix Petilia safely to Ghostgate. She did, indeed, give me a "tip" for my services, but it seems rather meager compensation from someone of such obvious means.
-我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的报酬。 {服务,老鼠,赔偿}
+我已经把薇娅崔克斯·佩提利亚安全地带到了幽魂之门。她确实给了我一笔“小费”，但对于一个如此有能力的人来说，这似乎是微不足道的酬谢。 {服务,老鼠}
 
 > INFO.NAME mv_richpilgrim 3539235591674819322
 Viatrix Petilia has left my company because I did not deliver her to Ghostgate within the two days she desired. I can't say I'm sorry to see her go, although I am curious what she would have offered as a reward.
@@ -10898,15 +10898,15 @@ Ilmeni Dren thanked me for freeing Hides-His-Foot.
 
 > INFO.NAME hh_winsaryoni 2968310132134383687
 House Hlaalu: Control the Ordinators
-哈拉鲁家族：控制殿卫
+哈拉鲁家族：控制神殿卫兵
 
 > INFO.NAME hh_winsaryoni 37879234120217576
 Duke Dren asked me to speak with Archcanon Tholer Saryoni at the High Fane in Vivec and persuade him to control Berel Sala's Ordinators.
-德伦公爵让我与维威克城至高神殿的高级神殿卫兵索勒·萨里奥尼交谈，说服他控制贝瑞尔·萨拉的神殿卫兵们。
+德伦公爵让我与维威克城至高神殿的大主教索勒·萨里奥尼交谈，说服他控制贝瑞尔·萨拉的神殿卫兵们。
 
 > INFO.NAME hh_winsaryoni 1597520625261639817
 Duke Dren thanked me for persuading Archcanon Tholer Saryoni to curb the worst of the Ordinators' zeal.
-德伦公爵感谢我说服索勒·萨里奥尼大领主遏制了神殿卫兵们的狂热。
+德伦公爵感谢我说服大主教索勒·萨里奥尼遏制了神殿卫兵们的狂热。
 
 > INFO.NAME hh_wincamonna 517125626807223001
 House Hlaalu: Dealing with Orvas Dren
@@ -12694,15 +12694,15 @@ A man approached me outside a trader's in Vivec. The odd thing is, I couldn't se
 
 > INFO.NAME eb_invisible 221161770245087340
 I've spoken to Lucretinaus Olcinius about his son's cure. He was grateful for all my help, and he gave me 100 septims as a reward for my efforts.
-我跟卢克雷蒂诺斯·奥西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
+我跟卢克雷蒂诺斯·奥尔西尼乌斯谈了他儿子的治愈问题。他对我的所有帮助表示感谢，并给了我100塞普汀作为报酬。
 
 > INFO.NAME eb_invisible 193869919292223526
 Upon returning to the area around the trader's shop, I was greeted by the now-visible Cassius Olcinius. He was very grateful for my help, but he had nothing to offer me in return for my help.
-回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
+回到贸易商商店周围后，迎接我的是现在的卡西乌斯·奥尔西尼乌斯。他对我的帮助非常感激，但他没有任何东西来回报我的帮助。
 
 > INFO.NAME eb_invisible 811612941746920999
 I told Cassius Olcinius that Fevyn Ralen is dead. He'll never be visible again.
-我告诉卡西乌斯·奥西尼乌斯，费文·拉伦已经死了。他再也不会出现了。
+我告诉卡西乌斯·奥尔西尼乌斯，费文·拉伦已经死了。他再也不能露面了。
 
 > INFO.NAME ic14_nottell 710255621166818377
 Imperial Cult: Pledge from Canctunian Ponius
@@ -13326,7 +13326,7 @@ Thieves Guild: Nerano Manor Key
 
 > INFO.NAME tg_manorkey 17505238341143927662
 Sugar-Lips Habasi asked me to bring her the key to the top floor of the Nerano Manor here in Balmora. Ondres Nerano certainly has a key, but it may be easier to get the key from one of his servants, such as Sovor Trandel at the Balmora Council Club.
-蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会所的索沃·特兰德尔。 {棍棒}
+蜜唇·哈巴西让我把巴尔莫拉内拉诺府邸顶楼的钥匙带给她。欧德雷斯·内拉诺当然有钥匙，但从他的仆人那里拿钥匙可能更容易，比如巴尔莫拉议会会所的索沃·特兰德尔。 {棍棒}
 
 > INFO.NAME tg_manorkey 6777178031803221051
 Sugar-Lips Habasi thanked me for bringing her the key to Nerano Manor.
@@ -13578,7 +13578,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_bacola 8381325792294223899
 Bacola Closcius gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. He also hinted that Banor Seran at the Council Club just took delivery of some Cyrodilic brandy, and that he's probably got it stored in a closet in the hall  just right of the bar. He says the Council Club is just a front for Camonna Tong gangsters, suggesting it wouldn't REALLY be a crime to steal the brandy from them.
-巴科拉·克娄斯基乌斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
+巴科拉·克娄斯基乌斯给了我一瓶西罗帝尔白兰地，让我参加月蛾要塞的筹款晚宴。他还暗示说，议会会所的巴诺尔·瑟然刚刚收到了一些西罗帝尔白兰地，他可能把这些白兰地存放在酒吧右边大厅的壁橱里。他说议会会所只是卡莫纳堂黑帮的幌子，暗示从他们那里偷白兰地并不真正是犯罪。 {棍棒}
 
 > INFO.NAME ic12_dulnea 1584042372517830834
 Imperial Cult: Brandy for the Fundraising Dinner
@@ -14418,7 +14418,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_banor 3188715338221239570
 Banor Seran at the Council Club gave me a bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. I think he gave it to me just to make me go away.
-议会所的巴诺尔·瑟然给了我一瓶西罗帝尔白兰地，用于月蛾要塞的筹款晚宴。我想他是为了让我离开才给我的。 {棍棒}
+议会会所的巴诺尔·瑟然给了我一瓶西罗帝尔白兰地，用于月蛾要塞的筹款晚宴。我想他是为了让我离开才给我的。 {棍棒}
 
 > INFO.NAME bm_tymvaul 1512142922742714841
 Tymvaul in the Well
@@ -17502,7 +17502,7 @@ The Tusked Bristleback is a type of boar native to Solstheim. There are lots of 
 
 > INFO.NAME progress of truth 674262862325718452
 This book lists the disputes of the Dissident priests with Tribunal Temple doctrines. The Temple has outlawed the sale or possession of the book, so it will be hard to find. We have a copy here, but I fear I'm being watched by Ordinators here. A safer plan would be to search local booksellers. Some booksellers ignore Temple bans on outlawed books for profits or for principles.
-这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我被神殿卫兵监视了。还有个更安全的计划是搜索本地的书商。有些书商为了利润或原则，无视神殿对非法书籍的禁令。 {被神殿卫兵看管,神殿卫兵们,利益}
+这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我被神殿卫兵监视了。还有个更安全的计划是搜索本地的书商。有些书商为了利润或原则，无视神殿对非法书籍的禁令。 {被神殿卫兵看管,利益}
 
 > INFO.NAME old man's anguish 2801811436864812351
 I thank you again for helping me, %PCRace. You came to my aid when no one else would, and for that I will be forever grateful.
@@ -20724,7 +20724,7 @@ They have laws? It is difficult to tell. The Skaal, however, have strict laws. D
 
 > INFO.NAME imperial law 27746160923274624334
 Fines and compensation are determined by magistrates, and may be paid to guards. In place of fines, the criminal may serve extended sentences of hard labor. The workcamps are hard places for hard men, and for each day served, expect to lose some hard-earned skill as a result of physical, mental, or emotional punishment.
-罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {瓜尔}
+罚款与赔偿由地方法官决定，并可支付给卫兵。罪犯可以服长期苦役来代替罚款。苦役营是苦役犯的苦役营，每服役一天，就会因身体、精神或情感上的惩罚而失去一些来之不易的技能。 {酬谢,瓜尔}
 
 > INFO.NAME gaea artoria 90132487415825186
 I've been told that Artoria has been killed. This is a great loss to Fort Frostmoth, and to the Empire. She will be missed.
@@ -20840,7 +20840,7 @@ You've protected me well, %PCName. I appreciate it.
 
 > INFO.NAME assassinated 226023593226057884
 You've protected me well, %PCName. I appreciate it. Here, take this. It's the only one like it, so far as I know. Oh, and your usual compensation.
-你保护得很好，%PCName。我很感激，拿着这个，据我所知，这是唯一的一个了。还有你的补偿金。 {赔偿}
+你保护得很好，%PCName。我很感激，拿着这个，据我所知，这是唯一的一个了。还有给你的酬谢。
 
 > INFO.NAME assassinated 156061980252223303
 Keep sharp! There may be others!
@@ -21720,7 +21720,7 @@ Hello, dear %PCName. It is so cold outside! Come in and warm yourself. Maybe a n
 
 > INFO.NAME greeting 1 1079617541206208085
 I'm sorry, %PCName, but I'm not in the best of spirits. As you know, my Gustav was murdered and I seek wergild as compensation for his death.
-抱歉，%PCName，我现在精神不太好。如你所知，我的古斯塔夫被谋杀了，我需要血债作为对他死亡的补偿。 {赔偿}
+抱歉，%PCName，我现在精神不太好。如你所知，我的古斯塔夫被谋杀了，我需要血债作为对他死亡的补偿。 {酬谢}
 
 > INFO.NAME greeting 1 668019621477231887
 Please leave me be, %PCRace.  I don't mean to be rude, but I've suffered the loss of my son, and don't want company right now.
@@ -24072,7 +24072,7 @@ Ahhhh...you've removed this enchantment with your spell to cure disease!
 
 > INFO.NAME greeting 1 8099179422048416076
 Excuse me, can you help me? No, I'm over here. My name is Cassius Olcinius. Sorry...you see, I've been made invisible by a wizard!
-对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥西尼乌斯。抱歉…你看，我被巫师变成了隐身人！
+对不起，你能帮我吗？不，我在这里。我叫卡西乌斯·奥尔西尼乌斯。抱歉…你看，我被巫师变成了隐身人！
 
 > INFO.NAME greeting 1 182391977298029994
 Take this, friend. I think everyone should read this leaflet. It has important information on it.
@@ -24252,23 +24252,23 @@ I am concerned. Why have you not yet fulfilled the prophecies of the Nerevarine?
 
 > INFO.NAME greeting 1 12804286741127931845
 Why have you not yet fulfilled the prophecies of the Nerevarine? Is there something wrong? Archcanon Tholer Saryoni, the high priest of the Temple has asked that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
-为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？神殿的大祭司索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧，如果有什么问题，去找萨里奥尼。也许还有希望。
+为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？大主教索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧，如果有什么问题，去找萨里奥尼。也许还有希望。
 
 > INFO.NAME greeting 1 6174274542428523132
 We are concerned. Why have you not yet fulfilled the prophecies of the Nerevarine? Have you done something wrong? Have you forgotten your destiny? We hear that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
-我们很担心，为什么你还没有实现尼瑞瓦因的预言？你做错了什么吗？你忘记了你的命运吗？我们听说神殿的大祭司索勒·萨里奥尼已经绝望了，他请求您到维威克城的至高神殿和他谈谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
+我们很担心，为什么你还没有实现尼瑞瓦因的预言？你做错了什么吗？你忘记了你的命运吗？我们听说大主教索勒·萨里奥尼已经绝望了，他请求您到维威克城的至高神殿和他谈谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
 
 > INFO.NAME greeting 1 11810145313201124359
 I am surprised. And a bit disappointed. I thought you were the Nerevarine? Why haven't you fulfilled the prophecies? Is something wrong? Did you do something you shouldn't? I've heard rumors that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. If there is some problem, maybe you should go talk to Saryoni.
-我很惊讶，还有点失望，你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，神殿的大祭司索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
+我很惊讶，还有点失望，你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，大主教索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
 
 > INFO.NAME greeting 1 1698115947203317463
 Well. If you are the Nerevarine, why haven't you fulfilled the prophecies? Surely you haven't forgotten. You haven't done something foolish, have you? You mustn't be shy, dumpling. I've heard that Archcanon Tholer Saryoni, the high priest of the Temple, is VERY upset, and that he is hoping that you will come speak with him at the High Fane here in Vivec City. Maybe that would be a good idea. Don't you think?
-好吧，如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说神殿的大祭司索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
+好吧，如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说大主教索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
 
 > INFO.NAME greeting 1 8310196942002629898
 I don't mean to pry into your affairs. But, if you are the Nerevarine, as they say, why haven't you fulfilled the Nerevarine prophecies? The people are badly frightened by these Sixth House disturbances. You haven't gotten yourself into any sort of trouble, have you? A discreet contact tells me that Archcanon Tholer Saryoni, the high priest of the Temple, is becoming desperate, and that he is hoping that you will come speak with him at the High Fane in Vivec City. Maybe that would be best.
-我无意打探你的事情，但是，如果你就是传说中的尼瑞瓦因，为什么你没有实现尼瑞瓦因预言？人们被这些第六家族的骚乱吓坏了。你没有惹上什么麻烦吧？一个谨慎的线人告诉我，神殿的大祭司索勒·萨里奥尼已经开始绝望了，他希望你能到维威克城的至高神殿来和他谈谈。也许那样最好。
+我无意打探你的事情，但是，如果你就是传说中的尼瑞瓦因，为什么你没有实现尼瑞瓦因预言？人们被这些第六家族的骚乱吓坏了。你没有惹上什么麻烦吧？一个谨慎的线人告诉我，大主教索勒·萨里奥尼已经开始绝望了，他希望你能到维威克城的至高神殿来和他谈谈。也许那样最好。
 
 > INFO.NAME greeting 1 29234234002085728877
 I see you have equipped Wraithguard. I wish you luck with it.
@@ -24496,7 +24496,7 @@ Yes, we are going together to Ald Daedroth, where we will see if you have made i
 
 > INFO.NAME greeting 1 22810173202018316646
 You've spoken to the archcanon? Good. Then, is there anything else you want?
-你和大魔导师谈过了？很好，那你还有什么事吗？
+你和大主教谈过了？很好，那你还有什么事吗？
 
 > INFO.NAME greeting 1 212372527952679549
 I'm sorry, but the Temple's doctrine on the Nerevarine is clear. The Nerevarine prophecies are evil superstitions, based on lies and delusions. And even if the prophecies were genuine, since you have killed one of the leaders of the Ashlander tribes, now there is no possibility that you could be accepted by the Ashlander tribes as the Nerevarine of prophecy. I'm afraid we have nothing to discuss.
@@ -25888,7 +25888,7 @@ Can we get moving, %PCRace? We've a long way to go.
 
 > INFO.NAME greeting 1 206530333281032270
 Okay, %PCName, we've made it. I thank you for your help, and Rollie would if he were allowed in the city. I really must speak with someone about that. Think how much he'd enjoy visiting this place. He'd be talking about it for days. Oh, I suppose you're wondering about compensation for your trouble?
-好了，%PCName，我们成功了。我感谢你的帮助，如果罗利可以进城的话，他也会的。我真的得找人谈谈，想想他有多喜欢参观这个地方吧。他会说上好几天的。哦，我想你想知道关于赔偿你的麻烦？
+好的，%PCName，我们成功了。谢谢你的帮助，如果罗利能被允许进城的话，他也会的。我真的得找人谈谈。想想他会多么喜欢来这里。他会滔滔不绝好几天的。哦，我猜你一定在想，对于你的这些麻烦，应该得到怎样的酬谢吧？
 
 > INFO.NAME greeting 1 28689412196788612
 You have slain one of my tribe. You must pay with your life.
@@ -28136,7 +28136,7 @@ May Mara smile on you, %PCName.  Sigvatr the Strong is known to hunt near a form
 
 > INFO.NAME wergild 81324022650926818
 Wergild is the traditional Nord rite of retribution.  When a life is taken, that life must be accounted for.  My Gustav is irreplaceable, but there must be compensation for his murder.   I do not wish Sigvatr dead.  I only want his family heirloom, the gem Pinetear.  Pinetear is rather small, and not very valuable, but it means much to Sigvatr.  If I were to gain possession of Pinetear,  it would serve as fitting payment for Gustav's death.  Will you help me extract wergild from Sigvatr the Strong?
-血债是诺德人传统的报应仪式。当一个人的生命被夺走，他必须得到补偿。我的古斯塔夫是无可取代的，但他的死必须得到补偿。我不希望西格瓦特死，我只想要他的传家宝，松绿之泪宝石。松绿之泪很小，价值也不高，但对西格瓦特来说意义重大。如果我得到了松绿之泪，就可以作为对古斯塔夫之死的补偿。你能帮我从强壮者西格瓦特那里得到血债的偿还吗？ {赔偿,老鼠}
+血债是诺德人传统的报应仪式。当一个人的生命被夺走，他必须得到补偿。我的古斯塔夫是无可取代的，但他的死必须得到补偿。我不希望西格瓦特死，我只想要他的传家宝，松绿之泪宝石。松绿之泪很小，价值也不高，但对西格瓦特来说意义重大。如果我得到了松绿之泪，就可以作为对古斯塔夫之死的补偿。你能帮我从强壮者西格瓦特那里得到血债的偿还吗？ {酬谢,老鼠}
 
 > INFO.BNAM wergild 81324022650926818 c1
 You will have your retribution, Kolfinna. I will bring you the gem Pinetear.
@@ -28152,7 +28152,7 @@ Kolfinna will get nothing from me, understand?  I did what I had to do. She wasn
 
 > INFO.NAME wergild 1752417610938032402
 Thanks to you, the right of wergild has been paid.  Pinetear is mine, and Gustav's spirit will rest well now, knowing that I have received compensation for his death.
-多亏了你，血债已经还清了。松绿之泪是我的了，古斯塔夫的灵魂也将安息，因为我知道他的死已经得到了补偿。 {赔偿}
+多亏了你，血债已经还清了。松绿之泪是我的了，古斯塔夫的灵魂也将安息，因为我知道他的死已经得到了补偿。 {酬谢}
 
 > INFO.NAME wergild 1453428141004211904
 Kolfinna will get nothing from me, understand?  I did what I had to do. She wasn't there, and neither were you.  I...I had no choice.  Now leave me be!
