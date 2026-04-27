@@ -1,35 +1,12 @@
 local common = common
 local ui = common.omw.ui
-local core = common.omw.core
 local I = common.omw.interfaces
 local util = common.omw.util
 local l10n = common.omw.l10n
 local auxUi = require("openmw_aux.ui")
 
 
-local function gmstToRgb(id, blend)
-	local gmst = core.getGMST(id)
-	if not gmst then return util.color.rgb(0.6, 0.6, 0.6) end
-	local col = {}
-	for v in string.gmatch(gmst, "(%d+)") do col[#col + 1] = tonumber(v) end
-	if #col ~= 3 then print("Invalid RGB from "..gmst.." "..id) return util.color.rgb(0.6, 0.6, 0.6) end
-	if blend then
-		for i = 1, 3 do col[i] = col[i] * blend[i] end
-	end
-	return util.color.rgb(col[1] / 255, col[2] / 255, col[3] / 255)
-end
-
-local uiTheme = {
-	normal = gmstToRgb("FontColor_color_normal"),
-	header = gmstToRgb("FontColor_color_header"),
-	background = gmstToRgb("FontColor_color_background"),
-	baseSize = 16
-}
-
-if require("openmw.vfs").fileExists("textures/ssqn/banner.png") then
-	uiTheme.texture = "textures/ssqn/banner.png"
-end
-
+local uiTheme = require("scripts.SSQN.uitheme")
 
 local self, element = { animate = {} }
 
@@ -45,9 +22,9 @@ function self.renderBanner(m)
 	template.content:insert(1, {
 		type = ui.TYPE.Image,
 		props = {
-			resource = ui.texture { path = uiTheme.texture or "white" },
+			resource = ui.texture { path = uiTheme.menuBG_thinWide or "white" },
 		--	color = util.color.rgb(0, 0, 0),
-			color = not uiTheme.texture and uiTheme.background or nil,
+			color = not uiTheme.menuBG_thinWide and uiTheme.background or nil,
 			alpha = m.transparency,
 			relativeSize = util.vector2(1, 1),
 			size = (util.vector2(1, 1) * 4) * 2,
