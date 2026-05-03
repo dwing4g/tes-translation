@@ -4205,7 +4205,7 @@ King Hlaalu Helseth
 
 > NPC_.FNAM Arnsa Thendas
 Arnsa Thendas
-阿恩莎·森达斯
+阿恩莎·申达斯
 
 > NPC_.FNAM Geon Auline
 Geon Auline
@@ -5920,7 +5920,7 @@ Suldreni's Amulet
 
 > MISC.FNAM key_thendas
 Thendas key
-森达斯钥匙
+申达斯钥匙
 
 > DOOR.FNAM EX_MH_temple_door_01
 Temple Door
@@ -13049,23 +13049,23 @@ Geon Auline was upset that I'd sold the Dorth Dagger, and will no longer speak t
 
 > INFO.NAME ms_estatesale 1965716171238066241
 I have purchased the Droth Dagger from Arnsa Thendas.  I should return it to Geon Auline, so he can complete his collection.
-我已经从阿恩莎·森达斯那里购买了卓洛斯匕首。我应该把它交给吉恩·奥林，让他完成他的收藏。
+我已经从阿恩莎·申达斯那里购买了卓洛斯匕首。我应该把它交给吉恩·奥林，让他完成他的收藏。
 
 > INFO.NAME ms_estatesale 2927931838216435252
 I lied to Arnsa Thendas, and claimed I knew her husband before he died.  She gave me the Droth Dagger, which I should take to Geon Auline.
-我对阿恩莎·森达斯撒了谎，声称我在她丈夫死前认识他。她给了我卓洛斯匕首，我应该把它交给吉恩·奥林。
+我对阿恩莎·申达斯撒了谎，声称我在她丈夫死前认识他。她给了我卓洛斯匕首，我应该把它交给吉恩·奥林。
 
 > INFO.NAME ms_estatesale 170588059228328801
 I have stolen the Droth Dagger from Thendas Manor.
-我从森达斯府邸偷走了卓洛斯匕首。
+我从申达斯府邸偷走了卓洛斯匕首。
 
 > INFO.NAME ms_estatesale 139011134126268689
 I was caught attempting to lie to Arnsa Thendas about her husband.  She will no longer speak to me.
-我试图向阿恩莎·森达斯谎称认识她丈夫时被识破了。她不会再和我说话了。
+我试图向阿恩莎·申达斯谎称认识她丈夫时被识破了。她不会再和我说话了。
 
 > INFO.NAME ms_estatesale 18848232472390715947
 I have agreed to help Geon Auline acquire a Droth Dagger.  I need to go to Thendas Manor in the residential district.
-我已经同意帮助吉恩·奥林搞到卓洛斯匕首。我需要去住宅区的森达斯府邸。
+我已经同意帮助吉恩·奥林搞到卓洛斯匕首。我需要去住宅区的申达斯府邸。
 
 > INFO.NAME ms_estatesale 6137185391914826994
 I have spoken the Geon Auline, who is looking for a Droth Dagger to complete a collection.
@@ -14269,7 +14269,7 @@ Hler knows very little about Barilzar's Mazed Band, but suggests I speak with Ga
 
 > INFO.NAME tr_mazedband 10932256582270514819
 Drin tells me that the Mazed Band is a powerful ring created long ago by the wizard Barilzar. Drin says he does not know the artifacts purpose, or the extent of it's powers, but only that the goddess wishes to retrieve it. He assumes that she will use it to better minister to her people here in Mournhold.
-德林告诉我，迷宫之戒是很久以前由巫师巴里尔扎尔制造的一枚强大的戒指。德林说他不知道这件神器的用途，也不知道它的力量有多强大，只知道女神希望能取回它。他推测她会用它来更好地管理她在哀伤之城的人民。
+德林告诉我，迷宫之戒是很久以前由巫师巴里扎尔制造的一枚强大的戒指。德林说他不知道这件神器的用途，也不知道它的力量有多强大，只知道女神希望能取回它。他推测她会用它来更好地管理她在哀伤之城的人民。
 
 > INFO.NAME tr_mazedband 19691188922056131030
 I've asked Barenziah about the Mazed Band. She had heard of it, but did not know it's true origin. She believed that it was a powerful artifact, but that it was dangerous.
@@ -18233,7 +18233,7 @@ I understand that you've found this thing of legend and brought it to the goddes
 
 > INFO.NAME barilzar's mazed band 1764329076152436329
 The Mazed Band may actually be no more than a legend, though there is no doubt of Barilzar's existence, or his power. It has been said that the Mazed Band was able to open rifts in time and space...that it could even open the gates of Oblivion. It's been said that it would take one of divine birth to wield the ring. Some speculate that that was how Barilzar himself met his end. Of course, this is all conjecture. No one really knows what happened to the man or the Band. All of that was lost centuries ago.
-迷宫之戒实际上可能只是传说而已，尽管巴里扎尔的存在和他的力量都是毫无疑问的。据说迷宫之戒能够打开时间和空间的裂缝…它甚至能够开启湮灭之门。据说只有拥有神力的人才能驾驭戒指。有些人猜测，巴里尔扎尔本人就是这样结束了自己的生命。当然，这都是猜测。没有人真正知道他或者戒指发生了什么。所有这些都在几个世纪前就已经消失了。
+迷宫之戒实际上可能只是传说而已，尽管巴里扎尔的存在和他的力量都是毫无疑问的。据说迷宫之戒能够打开时间和空间的裂缝…它甚至能够开启湮灭之门。据说只有拥有神力的人才能驾驭戒指。有些人猜测，巴里扎尔本人就是这样结束了自己的生命。当然，这都是猜测。没有人真正知道他或者戒指发生了什么。所有这些都在几个世纪前就已经消失了。
 
 > INFO.NAME barilzar's mazed band 302811991723642981
 You've found the ring and returned it to the goddess? Foolish, foolish, foolish. I hope your faith in her is well-placed, %PCName. In the wrong hands, I shudder to guess what evils could be unleashed on the city.
@@ -18265,7 +18265,7 @@ You'll need to retrieve the Band from the Temple ruins. Quickly. The goddess wis
 
 > INFO.NAME barilzar's mazed band 101043159716126970
 Yes...the Mazed Band. Barilzar himself was a powerful mage...quite powerful, in fact. He created the band sometime in the middle of the Second Era, and soon after disappeared. The purpose of the artifact is unknown to me, %PCName. All I know is that the Lady wants it. I can only assume it will allow her to better minister to her people, though I find that hard to imagine.
-是的…迷宫之戒。巴里尔扎尔本人是个强大的法师…事实上，相当强大。他在第二纪元中期创造了这枚戒指，之后不久就消失了。我不清楚神器的用途，%PCName。我只知道圣母想要它。我只能假设它能让她更好地关爱她的人民，尽管我觉得这很难想象。
+是的…迷宫之戒。巴里扎尔本人是个强大的法师…事实上，相当强大。他在第二纪元中期创造了这枚戒指，之后不久就消失了。我不清楚神器的用途，%PCName。我只知道圣母想要它。我只能假设它能让她更好地关爱她的人民，尽管我觉得这很难想象。
 
 > INFO.NAME barilzar's mazed band 2602152341601113805
 I have nothing more to say about the thing. You've been told what to do.
@@ -19689,7 +19689,7 @@ You will meet him tomorrow. Report back here tomorrow and be prepared to face Ka
 
 > INFO.NAME fight my champion 110562582019886957
 That is correct. I have come to know you a bit, %PCName. I believe you can be of some use to me. But the plans I have will require someone of great strength or wit. Perhaps both. The time has come for you to prove this to me. You will return here tomorrow, and you will duel Karrod. If you are able to defeat him, we will discuss my plans for you.
-这就对了。我已经开始认识你了，%PCName。我相信你可以对我有所作为。但我的计划需要一个有能力或有智慧的人。也许两者都需要。现在是你向我证明这一点的时候了。明天回来，你将和卡罗德决斗。如果你能打败他，我们将讨论为你准备的计划。 {有所用途,对我有用,力量}
+这就对了。我已经开始认识你了，%PCName。我相信你可以对我有些用处。但我的计划需要一个有能力或有智慧的人。也许两者都需要。现在是你向我证明这一点的时候了。明天回来，你将和卡罗德决斗。如果你能打败他，我们将讨论为你准备的计划。 {有所用途,对我有用,力量}
 
 > INFO.NAME stendarr's hammer 2018198392292026582
 What? How is it that you have this? It belongs to the museum! GUARDS!
@@ -24199,7 +24199,7 @@ I don't like the looks of that Dovor Oren character. He's always so nice and fri
 
 > INFO.NAME latest rumors 24034313853228214983
 I thought Widow Thendas was going to have an estate sale to sell off some of that loot her late husband collected. She said she was going sell off some things a while back, but I keep asking about it, and she says she's still got a lot to do.
-我以为寡妇森达斯会有一场资产出售，卖掉她已故丈夫收集的一些战利品。她前段时间说要卖掉一些东西，但我一直在问，她说她还有很多事情要做。 {私人住宅}
+我以为寡妇申达斯会有一场资产出售，卖掉她已故丈夫收集的一些战利品。她前段时间说要卖掉一些东西，但我一直在问，她说她还有很多事情要做。 {私人住宅}
 
 > INFO.NAME latest rumors 1977310323183330931
 Have you seen that mage Dilborn around lately? You know... the little guy who travels around with the big barbarian brute. They look so cute together. Dilborn is quite the charmer, and his big friend, Thrud, is pleasant enough if you keep to words of one syllable. But Dilborn has an unfortunate gambling problem. He loses... and keeps borrowing and losing some more. I hope he hasn't gotten himself in big trouble....
@@ -25447,7 +25447,7 @@ Oh, it doesn't matter anymore. You've gone and bungled the whole matter anyway.
 
 > INFO.NAME arnsa thendas 28976202792423422302
 Perhaps you'll have better luck dealing with her than I have up to this point.  You can find her in Thendas Manor in the residential district. I'd ask that you please try and get to her before this Estate Sale of hers.
-也许你跟她打交道的运气会比我好。你可以在住宅区的森达斯府邸找到她。我想请你在她的资产出售之前去找她试试。 {幸运,私人住宅}
+也许你跟她打交道的运气会比我好。你可以在住宅区的申达斯府邸找到她。我想请你在她的资产出售之前去找她试试。 {幸运,私人住宅}
 
 > INFO.NAME arnsa thendas 32340282612845922574
 An insufferable woman, frankly.  Brainless, too, if you want my honest opinion.  I've tried to deal with her rationally, but she simply won't hear it.  She doesn't understand what this collection means to me.  Keeps ranting about 'sentimental value', and how I'm trying to dishonor her husband's memory.  Now she won't even talk to me.  That's where you come in.
@@ -25927,7 +25927,7 @@ You have done me a great service, %PCName.  I finally have the full set.  Aren't
 
 > INFO.NAME droth dagger 218692149495794048
 Excellent!  Here's what I can tell you.  Arnsa Thendas has recently been widowed.  Her husband, Sandas, was a local nobleman, but amassed quite a bit of debt during his waning years.  His death has left the widow with quite a financial burden.  As such, she may be willing to part with the dagger for money.  If you can find another way to get it from her, by all means take advantage of it.  I will compensate you adequately, I promise you.
-好极了！这是我能告诉你的。阿恩莎·森达斯最近成了寡妇。她的丈夫桑达斯是一位本地贵族，但在他垂暮之年积累了不少债务。他的去世给这位寡妇留下了相当大的经济负担。因此，她可能愿意用匕首换钱。如果你能找到其他方法从她那里得到它，请务必利用这个机会。我向你保证，我会给你足够的补偿。
+好极了！这是我能告诉你的。阿恩莎·申达斯最近成了寡妇。她的丈夫桑达斯是一位本地贵族，但在他垂暮之年积累了不少债务。他的去世给这位寡妇留下了相当大的经济负担。因此，她可能愿意用匕首换钱。如果你能找到其他方法从她那里得到它，请务必利用这个机会。我向你保证，我会给你足够的补偿。
 
 > INFO.NAME droth dagger 17524192531849014250
 That's....disappointing.  Perhaps I can try some other method to acquire the dagger, then.  Ah, well.  I appreciate you listening to the story, at any rate.
@@ -25967,7 +25967,7 @@ PLEASE don't joke like that, %PCName. I couldn't bear the thought of that beauti
 
 > INFO.NAME droth dagger 58612572397432227
 Wonderful!  I know that she had been planning an Estate Sale to auction off some of her husbands' things.  He died a short while ago, and left her with some rather large debts.  The Thendas manor is here in the Residential District... perhaps the Droth Dagger is still there.  A shame about her death, really.  I will, however, pay you should you be able to get it for me.
-太棒了！我知道，她一直在筹划一次资产出售，拍卖她丈夫的一些东西。他不久前去世了，给她留下了一些巨额债务。森达斯庄园在这里的住宅区…也许卓洛斯匕首还在那里。她的死让人感到遗憾，真的。不过，如果你能为我找到它，我会付钱给你。 {私人住宅,老鼠}
+太棒了！我知道，她一直在筹划一次资产出售，拍卖她丈夫的一些东西。他不久前去世了，给她留下了一些巨额债务。申达斯庄园在这里的住宅区…也许卓洛斯匕首还在那里。她的死让人感到遗憾，真的。不过，如果你能为我找到它，我会付钱给你。 {私人住宅,老鼠}
 
 > INFO.NAME droth dagger 2580326396803122628
 Well, let me know when you have it.
@@ -25999,7 +25999,7 @@ Just come back here once you've gotten it.
 
 > INFO.NAME droth dagger 396017539366711941
 It's one of several made by artisans during the 2nd Age.  They were crafted for a group of Dunmer nobles, each bearing a mark of the owner.  Of course, it takes a trained eye to distinguish one from a normal dagger...  I've acquired all but the Droth Dagger, and have recently been made aware that the widow Arnsa Thendas is in possession of one.  Would you be wiling to help me retrieve it?
-这是在第二纪元由工匠们打造的几把匕首之一。它们是为一群丹莫贵族打造的，每把匕首都有主人的标志。当然，这需要训练有素的眼睛才能把它和普通的匕首区分开来…除了卓洛斯匕首之外的全部匕首我都搞到了，最近我听说寡妇阿恩莎·森达斯也拥有一把。你愿意帮我把它搞到手吗？
+这是在第二纪元由工匠们打造的几把匕首之一。它们是为一群丹莫贵族打造的，每把匕首都有主人的标志。当然，这需要训练有素的眼睛才能把它和普通的匕首区分开来…除了卓洛斯匕首之外的全部匕首我都搞到了，最近我听说寡妇阿恩莎·申达斯也拥有一把。你愿意帮我把它搞到手吗？
 
 > INFO.BNAM droth dagger 396017539366711941 c1
 Yes, I'll help.
@@ -26011,7 +26011,7 @@ I'm sorry, but I'd rather not get involved.
 
 > INFO.NAME droth dagger 28087323991298431366
 It's one of several made by artisans towards the end of the Second Age.  They were crafted for a group of Dunmer nobles, each bearing a mark of the owner.  Of course, it takes a trained eye to distinguish one from a normal dagger...  I've acquired all but the Droth Dagger, and have recently been made aware that the widow Arnsa Thendas was in possession of one, shortly before her untimely death.  Can you help me find out what happened to it?
-这是在第二纪元末期由工匠们制作的几把匕首之一。它们是为一群丹莫贵族制作的，每个都有主人的标志。当然，这需要训练有素的眼睛才能将其与普通的匕首区分开来…除了卓洛斯匕首之外的全部匕首我都搞到了，最近我听说寡妇阿恩莎·森达斯在香消玉殒前不久也拥有一把。你能帮我找出它的下落吗？
+这是在第二纪元末期由工匠们制作的几把匕首之一。它们是为一群丹莫贵族制作的，每个都有主人的标志。当然，这需要训练有素的眼睛才能将其与普通的匕首区分开来…除了卓洛斯匕首之外的全部匕首我都搞到了，最近我听说寡妇阿恩莎·申达斯在香消玉殒前不久也拥有一把。你能帮我找出它的下落吗？
 
 > INFO.BNAM droth dagger 28087323991298431366 c1
 Yes, I'll help.
@@ -33639,7 +33639,7 @@ Go to sewers, %PCName. Thrud see Dilborn go to sewers.
 
 > INFO.NAME dilborn 680331054211436846
 Thrud happy, happy, %PCRace. Find Dilborn now, yes? Thrud see Dilborn go down in sewers near here. Dilborn go to sewers lots to meet friends, Dilborn says. Most times, Dilborn back soon, and happy, happy. But Dilborn not back soon now. We go to sewers, find Dilborn!
-瑟拉德感到快乐，很快乐，%PCRace。现在找到迪尔伯恩了，是吗？瑟拉德看到迪尔伯恩到附近的下水道里去了。迪尔伯恩说，他经常到下水道去见朋友。很多时候，迪尔伯恩很快就回来了，而且高兴，很高兴。但是迪尔伯恩这次并没有很快回来。我们去下水道，去找到迪尔伯恩！
+瑟拉德很开心，很开心，%PCRace。快去找迪尔伯恩，好吗？瑟拉德看见迪尔伯恩进了附近的下水道里。迪尔伯恩说过，他经常到下水道去见朋友。大多数时候，迪尔伯恩很快就回来了，而且高高兴兴的。但是迪尔伯恩这次并没有快点回来。我们去下水道，去找到迪尔伯恩！
 
 > INFO.NAME dilborn 14173265921352611430
 Thrud sad. Thrud want Dilborn come back soon.

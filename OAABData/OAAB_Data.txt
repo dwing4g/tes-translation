@@ -1,5 +1,5 @@
 -TES3
- TES3.HEDR [66 66 A6 3F 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 3D 17 00 00]
+ TES3.HEDR [66 66 A6 3F 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CF 17 00 00]
  TES3.MAST "Morrowind.esm$00"
  TES3.DATA [75 39 C2 04 00 00 00 00]
  TES3.MAST "Tribunal.esm$00"
@@ -2544,6 +2544,34 @@ endif
 end
 
 $00"
+-SCPT
+ SCPT.SCHD "AB_MagicFxCast1point5second_s$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00b$00$00$00$0B$00$00$00"
+ SCPT.SCVR "timepassed$00"
+ SCPT.SCDT [06 01 01 07 20 58 20 10 3D 3D 31 24 01 09 01 06 01 01 06 20 66 01 00 3D 30 15 10 01 00 01 00 09 01 05 01 66 01 00 0A 20 66 01 00 20 58 12 10 20 2B 06 01 01 08 20 66 01 00 3C 31 2E 35 24 01 08 01 01 07 20 66 01 00 20 3E 33 AB 11 01 00 08 01 01 0A 20 66 01 00 20 3E 3D 31 2E 35 DB 10 09 01 01 01]
+ SCPT.SCTX "begin AB_MagicFxCast1point5second_s
+
+
+float timepassed
+
+If (MenuMode==1)
+	Return
+endif
+
+if (timepassed=0)
+	LoopGroup Idle2 1
+endif
+
+Set timepassed to (timepassed + GetSecondsPassed)
+
+If (timepassed<1.5)
+	return
+elseif (timepassed >3)
+	setdelete 1
+elseif (timepassed >=1.5)
+	disable
+endif
+
+end$00"
 -SCPT
  SCPT.SCHD "AB_MagicFxCast2second_s$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00d$00$00$00$06$00$00$00"
  SCPT.SCVR "timer$00"
@@ -5699,6 +5727,285 @@ End$00"
  STAT.NAME "AB_Ex_TelMenhirRooted02$00"
  STAT.MODL "OAAB\t\t_menhir_rooted2.nif$00"
 -STAT
+ STAT.NAME "AB_Ex_TelPath0128$00"
+ STAT.MODL "oaab\x\t_pth_128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0256$00"
+ STAT.MODL "oaab\x\t_pth_256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0256_slp128$00"
+ STAT.MODL "oaab\x\t_pth_256_slp128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512$00"
+ STAT.MODL "oaab\x\t_pth_512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_SL$00"
+ STAT.MODL "oaab\x\t_pth_512_SL.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_SLslp128$00"
+ STAT.MODL "oaab\x\t_pth_512_SLslp128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_SR$00"
+ STAT.MODL "oaab\x\t_pth_512_SR.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_SRslp128$00"
+ STAT.MODL "oaab\x\t_pth_512_SRslp128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_Y$00"
+ STAT.MODL "oaab\x\t_pth_512_Y.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_arch$00"
+ STAT.MODL "oaab\x\t_pth_512_arch.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_archbend$00"
+ STAT.MODL "oaab\x\t_pth_512_archbend.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_c$00"
+ STAT.MODL "oaab\x\t_pth_512_c.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_cslpL$00"
+ STAT.MODL "oaab\x\t_pth_512_cslpL.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_cslpR$00"
+ STAT.MODL "oaab\x\t_pth_512_cslpR.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath0512_slp128$00"
+ STAT.MODL "oaab\x\t_pth_512_slp128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SL384$00"
+ STAT.MODL "oaab\x\t_pth_1024_SL384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SL384slp$00"
+ STAT.MODL "oaab\x\t_pth_1024_SL384slp.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SL512$00"
+ STAT.MODL "oaab\x\t_pth_1024_SL512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SL512slp$00"
+ STAT.MODL "oaab\x\t_pth_1024_SL512slp.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SLslp128$00"
+ STAT.MODL "oaab\x\t_pth_1024_SLslp128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SLslp256$00"
+ STAT.MODL "oaab\x\t_pth_1024_SLslp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SLslp384$00"
+ STAT.MODL "oaab\x\t_pth_1024_SLslp384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SR384$00"
+ STAT.MODL "oaab\x\t_pth_1024_SR384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SR384slp$00"
+ STAT.MODL "oaab\x\t_pth_1024_SR384slp.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SR512$00"
+ STAT.MODL "oaab\x\t_pth_1024_SR512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SR512slp$00"
+ STAT.MODL "oaab\x\t_pth_1024_SR512slp.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SRslp128$00"
+ STAT.MODL "oaab\x\t_pth_1024_SRslp128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SRslp256$00"
+ STAT.MODL "oaab\x\t_pth_1024_SRslp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_SRslp384$00"
+ STAT.MODL "oaab\x\t_pth_1024_SRslp384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_T$00"
+ STAT.MODL "oaab\x\t_pth_1024_T.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_Tslp01$00"
+ STAT.MODL "oaab\x\t_pth_1024_Tslp01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_Tslp02$00"
+ STAT.MODL "oaab\x\t_pth_1024_Tslp02.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_TslpL01$00"
+ STAT.MODL "oaab\x\t_pth_1024_TslpL01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_TslpL02$00"
+ STAT.MODL "oaab\x\t_pth_1024_TslpL02.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_TslpL03$00"
+ STAT.MODL "oaab\x\t_pth_1024_TslpL03.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_TslpR01$00"
+ STAT.MODL "oaab\x\t_pth_1024_TslpR01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_TslpR02$00"
+ STAT.MODL "oaab\x\t_pth_1024_TslpR02.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_TslpR03$00"
+ STAT.MODL "oaab\x\t_pth_1024_TslpR03.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_U$00"
+ STAT.MODL "oaab\x\t_pth_1024_U.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_ULslp256$00"
+ STAT.MODL "oaab\x\t_pth_1024_ULslp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_URslp256$00"
+ STAT.MODL "oaab\x\t_pth_1024_URslp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_Y$00"
+ STAT.MODL "oaab\x\t_pth_1024_Y.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_Yslp01$00"
+ STAT.MODL "oaab\x\t_pth_1024_Yslp01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_Yslp02$00"
+ STAT.MODL "oaab\x\t_pth_1024_Yslp02.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_YslpL01$00"
+ STAT.MODL "oaab\x\t_pth_1024_YslpL01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_YslpL02$00"
+ STAT.MODL "oaab\x\t_pth_1024_YslpL02.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_YslpL03$00"
+ STAT.MODL "oaab\x\t_pth_1024_YslpL03.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_YslpR01$00"
+ STAT.MODL "oaab\x\t_pth_1024_YslpR01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_YslpR02$00"
+ STAT.MODL "oaab\x\t_pth_1024_YslpR02.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_YslpR03$00"
+ STAT.MODL "oaab\x\t_pth_1024_YslpR03.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_c$00"
+ STAT.MODL "oaab\x\t_pth_1024_c.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_cslpL128$00"
+ STAT.MODL "oaab\x\t_pth_1024_cslpL128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_cslpL256$00"
+ STAT.MODL "oaab\x\t_pth_1024_cslpL256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_cslpR128$00"
+ STAT.MODL "oaab\x\t_pth_1024_cslpR128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_cslpR256$00"
+ STAT.MODL "oaab\x\t_pth_1024_cslpR256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_slp128$00"
+ STAT.MODL "oaab\x\t_pth_1024_slp128.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_slp256$00"
+ STAT.MODL "oaab\x\t_pth_1024_slp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1024_slp384$00"
+ STAT.MODL "oaab\x\t_pth_1024_slp384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_U$00"
+ STAT.MODL "oaab\x\t_pth_1536_U.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_ULslp256$00"
+ STAT.MODL "oaab\x\t_pth_1536_ULslp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_ULslp384$00"
+ STAT.MODL "oaab\x\t_pth_1536_ULslp384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_ULslp512$00"
+ STAT.MODL "oaab\x\t_pth_1536_ULslp512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_URslp256$00"
+ STAT.MODL "oaab\x\t_pth_1536_URslp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_URslp384$00"
+ STAT.MODL "oaab\x\t_pth_1536_URslp384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_URslp512$00"
+ STAT.MODL "oaab\x\t_pth_1536_URslp512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_c$00"
+ STAT.MODL "oaab\x\t_pth_1536_c.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_cslpL256$00"
+ STAT.MODL "oaab\x\t_pth_1536_cslpL256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_cslpL384$00"
+ STAT.MODL "oaab\x\t_pth_1536_cslpL384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_cslpL512$00"
+ STAT.MODL "oaab\x\t_pth_1536_cslpL512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_cslpR256$00"
+ STAT.MODL "oaab\x\t_pth_1536_cslpR256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_cslpR384$00"
+ STAT.MODL "oaab\x\t_pth_1536_cslpR384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_cslpR512$00"
+ STAT.MODL "oaab\x\t_pth_1536_cslpR512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath1536_slp256$00"
+ STAT.MODL "oaab\x\t_pth_1536_slp256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048$00"
+ STAT.MODL "oaab\x\t_pth_2048.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_360Lslp$00"
+ STAT.MODL "oaab\x\t_pth_2048_360Lslp.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_360Rslp$00"
+ STAT.MODL "oaab\x\t_pth_2048_360Rslp.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_450L$00"
+ STAT.MODL "oaab\x\t_pth_2048_450L.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_450R$00"
+ STAT.MODL "oaab\x\t_pth_2048_450R.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_U540L$00"
+ STAT.MODL "oaab\x\t_pth_2048_U540L.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_U540R$00"
+ STAT.MODL "oaab\x\t_pth_2048_U540R.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_UlpL01$00"
+ STAT.MODL "oaab\x\t_pth_2048_UlpL01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_UlpR01$00"
+ STAT.MODL "oaab\x\t_pth_2048_UlpR01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_c$00"
+ STAT.MODL "oaab\x\t_pth_2048_c.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_cLslp512$00"
+ STAT.MODL "oaab\x\t_pth_2048_cLslp512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_cRslp512$00"
+ STAT.MODL "oaab\x\t_pth_2048_cRslp512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_cslpL256$00"
+ STAT.MODL "oaab\x\t_pth_2048_cslpL256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_cslpL384$00"
+ STAT.MODL "oaab\x\t_pth_2048_cslpL384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_cslpR256$00"
+ STAT.MODL "oaab\x\t_pth_2048_cslpR256.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_cslpR384$00"
+ STAT.MODL "oaab\x\t_pth_2048_cslpR384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_slp384$00"
+ STAT.MODL "oaab\x\t_pth_2048_slp384.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPath2048_slp512$00"
+ STAT.MODL "oaab\x\t_pth_2048_slp512.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPathEnd01$00"
+ STAT.MODL "oaab\x\t_pth_end01.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_TelPathEnd02$00"
+ STAT.MODL "oaab\x\t_pth_end02.nif$00"
+-STAT
  STAT.NAME "AB_Ex_TelPlanter$00"
  STAT.MODL "OAAB\x\t_planter_01.nif$00"
 -STAT
@@ -7067,6 +7374,15 @@ End$00"
  STAT.NAME "AB_Furn_ComDartboard$00"
  STAT.MODL "OAAB\u\com_dartboard.nif$00"
 -STAT
+ STAT.NAME "AB_Furn_ComDisplayPost01$00"
+ STAT.MODL "oaab\u\com_displaypost.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_ComDisplayPost02$00"
+ STAT.MODL "oaab\u\com_displaypost2.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_ComDisplayRope$00"
+ STAT.MODL "oaab\u\com_displayrope.nif$00"
+-STAT
  STAT.NAME "AB_Furn_ComEasel01$00"
  STAT.MODL "OAAB\u\com_easel_01.nif$00"
 -STAT
@@ -7303,6 +7619,9 @@ End$00"
 -STAT
  STAT.NAME "AB_Furn_ComRchShelfSmall$00"
  STAT.MODL "OAAB\u\com_shelf_small.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_ComRchStoolPrayer$00"
+ STAT.MODL "oaab\u\com_r_prayerstool.nif$00"
 -STAT
  STAT.NAME "AB_Furn_ComRchTablePool$00"
  STAT.MODL "OAAB\u\com_rch_table_pool.nif$00"
@@ -8051,8 +8370,14 @@ End$00"
  STAT.NAME "AB_Furn_DeRchScrollRack03$00"
  STAT.MODL "OAAB\u\derchscrollrack03.nif$00"
 -STAT
+ STAT.NAME "AB_Furn_DeRchStoolPrayer$00"
+ STAT.MODL "oaab\u\de_r_prayerstool.nif$00"
+-STAT
  STAT.NAME "AB_Furn_DeRchWallscreen$00"
  STAT.MODL "OAAB\u\de_r_wallscreen.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_DeRchWepRack$00"
+ STAT.MODL "oaab\u\de_r_weap_rack.nif$00"
 -STAT
  STAT.NAME "AB_Furn_DeRug01torn$00"
  STAT.MODL "OAAB\u\DeRug01torn.nif$00"
@@ -8101,6 +8426,21 @@ End$00"
 -STAT
  STAT.NAME "AB_Furn_DeRugBig09torn$00"
  STAT.MODL "OAAB\u\DeRugBig09torn.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_DeRugCircleBlue$00"
+ STAT.MODL "oaab\u\de_rugcircle_b.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_DeRugCircleGreen$00"
+ STAT.MODL "oaab\u\de_rugcircle_g.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_DeRugCirclePurple$00"
+ STAT.MODL "oaab\u\de_rugcircle_p.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_DeRugCircleRed$00"
+ STAT.MODL "oaab\u\de_rugcircle_r.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_DeRugCircleTeal$00"
+ STAT.MODL "oaab\u\de_rugcircle_t.nif$00"
 -STAT
  STAT.NAME "AB_Furn_DeRugRunnerBlue$00"
  STAT.MODL "OAAB\u\de_rugrunnerblue.nif$00"
@@ -10436,6 +10776,9 @@ End$00"
  STAT.NAME "AB_In_DaeHallSTrans$00"
  STAT.MODL "OAAB\i\dae_hallS_trans.nif$00"
 -STAT
+ STAT.NAME "AB_In_DaeHallStairTall$00"
+ STAT.MODL "OAAB\i\dae_hall_stairs_tall.nif$00"
+-STAT
  STAT.NAME "AB_In_DaeLedge03$00"
  STAT.MODL "OAAB\i\dae_ledge_03.nif$00"
 -STAT
@@ -10702,6 +11045,9 @@ End$00"
 -STAT
  STAT.NAME "AB_In_DwrvChainRoundWall$00"
  STAT.MODL "OAAB\i\dwrvChainRoundWall.nif$00"
+-STAT
+ STAT.NAME "AB_In_DwrvCorr4_06$00"
+ STAT.MODL "oaab\i\dwrvCorr4_06.nif$00"
 -STAT
  STAT.NAME "AB_In_DwrvFound3way$00"
  STAT.MODL "OAAB\i\dwrvFound3way.nif$00"
@@ -12164,6 +12510,33 @@ End$00"
  STAT.NAME "AB_In_RedHut03c$00"
  STAT.MODL "OAAB\i\red_Hut03_in_C.nif$00"
 -STAT
+ STAT.NAME "AB_In_RedHutBFloor03$00"
+ STAT.MODL "oaab\i\red_hut_bfloor_03.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedHutBFloor04$00"
+ STAT.MODL "oaab\i\red_hut_bfloor_04.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedHutBFloor05$00"
+ STAT.MODL "oaab\i\red_hut_bfloor_05.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedHutBFloor06$00"
+ STAT.MODL "oaab\i\red_hut_bfloor_06.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedPlatform$00"
+ STAT.MODL "oaab\i\r_plat.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedPlatformCorner$00"
+ STAT.MODL "oaab\i\r_platcorn.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedPlatformCornerStairs$00"
+ STAT.MODL "oaab\i\r_platcornstairs.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedPlatformStairs$00"
+ STAT.MODL "oaab\i\r_platstairs.nif$00"
+-STAT
+ STAT.NAME "AB_In_RedSmallRoom03Short$00"
+ STAT.MODL "oaab\i\red_s_room3small.nif$00"
+-STAT
  STAT.NAME "AB_In_RedTemple$00"
  STAT.MODL "OAAB\i\red_Temple_in.nif$00"
 -STAT
@@ -12196,6 +12569,69 @@ End$00"
 -STAT
  STAT.NAME "AB_In_TelLargeEntryDouble$00"
  STAT.MODL "OAAB\i\in_t_lr_doubleentry.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomBottomCorner01$00"
+ STAT.MODL "oaab\i\t_lbot_corner.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomBottomCorner02$00"
+ STAT.MODL "oaab\i\t_lbot_corner2.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomBottomCorner03$00"
+ STAT.MODL "oaab\i\t_lbot_corner3.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomBottomEntrance$00"
+ STAT.MODL "oaab\i\t_lbot_entrance.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomBottomSTransL$00"
+ STAT.MODL "oaab\i\t_lbot_endL.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomBottomSTransR$00"
+ STAT.MODL "oaab\i\t_lbot_endR.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomBottomWall$00"
+ STAT.MODL "oaab\i\t_lbot_side.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomColumn$00"
+ STAT.MODL "oaab\i\t_lcolumn.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomCorner02$00"
+ STAT.MODL "oaab\i\t_l_corner2.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomCorner03$00"
+ STAT.MODL "oaab\i\t_l_corner3.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomCorner03Bottom$00"
+ STAT.MODL "oaab\i\t_l_corner3_bot.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomCorner03Top$00"
+ STAT.MODL "oaab\i\t_l_corner3_top.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomTopCorner01$00"
+ STAT.MODL "oaab\i\t_ltop_corner.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomTopCorner02$00"
+ STAT.MODL "oaab\i\t_ltop_corner2.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomTopCorner03$00"
+ STAT.MODL "oaab\i\t_ltop_corner3.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomTopEntrance$00"
+ STAT.MODL "oaab\i\t_ltop_entrance.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomTopSTransL$00"
+ STAT.MODL "oaab\i\t_ltop_endL.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomTopSTransR$00"
+ STAT.MODL "oaab\i\t_ltop_endR.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomTopWall$00"
+ STAT.MODL "oaab\i\t_ltop_side.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomWallTransL$00"
+ STAT.MODL "oaab\i\t_l_heighttransL.nif$00"
+-STAT
+ STAT.NAME "AB_In_TelLrgRoomWallTransR$00"
+ STAT.MODL "oaab\i\t_l_heighttransR.nif$00"
 -STAT
  STAT.NAME "AB_In_TelPlainFloorRing$00"
  STAT.MODL "OAAB\i\t_pln_ring_med_01.nif$00"
@@ -12617,6 +13053,18 @@ End$00"
  STAT.NAME "AB_Terr_BcMuckPile01$00"
  STAT.MODL "OAAB\t\bcMuckPile01.nif$00"
 -STAT
+ STAT.NAME "AB_Terr_BcRocks01$00"
+ STAT.MODL "oaab\t\terrain_rocks_bc_01.nif$00"
+-STAT
+ STAT.NAME "AB_Terr_BcRocks02$00"
+ STAT.MODL "oaab\t\terrain_rocks_bc_02.nif$00"
+-STAT
+ STAT.NAME "AB_Terr_BcRocks03$00"
+ STAT.MODL "oaab\t\terrain_rocks_bc_03.nif$00"
+-STAT
+ STAT.NAME "AB_Terr_BcRocks04$00"
+ STAT.MODL "oaab\t\terrain_rocks_bc_04.nif$00"
+-STAT
  STAT.NAME "AB_Terr_DirtPile_L$00"
  STAT.MODL "OAAB\t\dk_dirt_pile_l.nif$00"
 -STAT
@@ -12968,42 +13416,42 @@ End$00"
  DOOR.NAME "AB_Door_ComMidBookshelf01$00"
  DOOR.MODL "OAAB\d\d_com_m_bshlf_01.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_ComMidBookshelf02$00"
  DOOR.MODL "OAAB\d\d_com_m_bshlf_02.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_ComMidBookshelf03$00"
  DOOR.MODL "OAAB\d\d_com_m_bshlf_03.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_ComMidBookshelf04$00"
  DOOR.MODL "OAAB\d\d_com_m_bshlf_04.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_ComRchBookshelf01$00"
  DOOR.MODL "OAAB\d\d_com_r_bookshelf_01.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_ComRchBookshelf02$00"
  DOOR.MODL "OAAB\d\d_com_r_bshlf_01.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_ComRchBookshelf03$00"
  DOOR.MODL "OAAB\d\d_com_r_bshlf_02.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_ComRchBookshelf04$00"
  DOOR.MODL "OAAB\d\d_com_r_bshlf_03.nif$00"
  DOOR.FNAM "Shelf Door$00"
- DOOR.SCRI [41 42 5F 43 6F 6D 53 68 65 6C 66 44 6F 6F 72 5F 73 00]
+ DOOR.SCRI "AB_ComShelfDoor_s$00"
 -DOOR
  DOOR.NAME "AB_Door_DaeDoorRound$00"
  DOOR.MODL "OAAB\d\dae_door_round.nif$00"
@@ -13191,6 +13639,12 @@ End$00"
  DOOR.SNAM "destruction bolt$00"
  DOOR.ANAM "destruction bolt$00"
 -DOOR
+ DOOR.NAME "AB_Door_RedJail_In$00"
+ DOOR.MODL "oaab\d\red_jaildoor.nif$00"
+ DOOR.FNAM "Cell Door$00"
+ DOOR.SNAM "Door Latched Two Open$00"
+ DOOR.ANAM "Door Latched Two Close$00"
+-DOOR
  DOOR.NAME "AB_Door_RedLarge$00"
  DOOR.MODL "OAAB\d\red_Door_large.nif$00"
  DOOR.FNAM "Wooden Door$00"
@@ -13233,6 +13687,24 @@ End$00"
  DOOR.SNAM "Door Stone Open$00"
  DOOR.ANAM "Door Stone Close$00"
 -MISC
+ MISC.NAME "AB_Key_IronRuin01$00"
+ MISC.MODL "oaab\m\key_ruin_01.nif$00"
+ MISC.FNAM "Iron Key$00"
+ MISC.MCDT [00 00 00 00 2C 01 00 00 00 00 00 00]
+ MISC.ITEX "oaab\m\key_ruin_01.tga$00"
+-MISC
+ MISC.NAME "AB_Key_IronRuin02$00"
+ MISC.MODL "oaab\m\key_ruin_02.nif$00"
+ MISC.FNAM "Iron Key$00"
+ MISC.MCDT [00 00 00 00 2C 01 00 00 00 00 00 00]
+ MISC.ITEX "oaab\m\key_ruin_02.tga$00"
+-MISC
+ MISC.NAME "AB_Key_IronRuin03$00"
+ MISC.MODL "oaab\m\key_ruin_03.nif$00"
+ MISC.FNAM "Iron Key$00"
+ MISC.MCDT [00 00 00 00 2C 01 00 00 00 00 00 00]
+ MISC.ITEX "oaab\m\key_ruin_03.tga$00"
+-MISC
  MISC.NAME "AB_Key_Junk$00"
  MISC.MODL "m\Key_Temple_01.NIF$00"
  MISC.FNAM "Worthless Old Key$00"
@@ -13249,28 +13721,28 @@ End$00"
  MISC.MODL "OAAB\m\yy_6thAshStatue02.nif$00"
  MISC.FNAM "Ash Statue$00"
  MISC.MCDT [00 00 80 40 0A 00 00 00 00 00 00 00]
- MISC.SCRI [61 73 68 53 74 61 74 75 65 54 6F 70 69 63 00]
+ MISC.SCRI "ashStatueTopic$00"
  MISC.ITEX "OAAB\m\yy_6thAshStatue02.dds$00"
 -MISC
  MISC.NAME "AB_Misc_6thAshStatue04$00"
  MISC.MODL "OAAB\m\yy_6thAshStatue04.nif$00"
  MISC.FNAM "Ash Statue$00"
  MISC.MCDT [00 00 80 40 0A 00 00 00 00 00 00 00]
- MISC.SCRI [61 73 68 53 74 61 74 75 65 54 6F 70 69 63 00]
+ MISC.SCRI "ashStatueTopic$00"
  MISC.ITEX "OAAB\m\yy_6thAshStatue04.dds$00"
 -MISC
  MISC.NAME "AB_Misc_6thAshStatue07$00"
  MISC.MODL "OAAB\m\yy_6thAshStatue07.nif$00"
  MISC.FNAM "Ash Statue$00"
  MISC.MCDT [00 00 80 40 0A 00 00 00 00 00 00 00]
- MISC.SCRI [61 73 68 53 74 61 74 75 65 54 6F 70 69 63 00]
+ MISC.SCRI "ashStatueTopic$00"
  MISC.ITEX "OAAB\m\yy_6thAshStatue07.dds$00"
 -MISC
  MISC.NAME "AB_Misc_6thAshStatue13$00"
  MISC.MODL "OAAB\m\yy_6thAshStatue13.nif$00"
  MISC.FNAM "Ash Statue$00"
  MISC.MCDT [00 00 80 40 0A 00 00 00 00 00 00 00]
- MISC.SCRI [61 73 68 53 74 61 74 75 65 54 6F 70 69 63 00]
+ MISC.SCRI "ashStatueTopic$00"
  MISC.ITEX "OAAB\m\yy_6thAshStatue13.dds$00"
 -MISC
  MISC.NAME "AB_Misc_6thBell$00"
@@ -13757,7 +14229,7 @@ End$00"
  MISC.MODL "OAAB\m\ceramicTeapot_02.nif$00"
  MISC.FNAM "Ceramic Teapot$00"
  MISC.MCDT [00 00 40 40 0C 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 4D 69 73 63 43 65 72 61 6D 69 63 54 65 61 70 6F 74 30 31 48 61 6E 67 5F 73 00]
+ MISC.SCRI "AB_MiscCeramicTeapot01Hang_s$00"
  MISC.ITEX "OAAB\m\ceramicTeapot_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ChiselCold$00"
@@ -13794,28 +14266,28 @@ End$00"
  MISC.MODL "OAAB\m\dram_005.nif$00"
  MISC.FNAM "Dram (5)$00"
  MISC.MCDT [00 00 00 00 05 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 44 72 61 6D 30 30 35 5F 73 00]
+ MISC.SCRI "AB_Dram005_s$00"
  MISC.ITEX "OAAB\m\misc_coin_dram.dds$00"
 -MISC
  MISC.NAME "AB_Misc_CoinDram010$00"
  MISC.MODL "OAAB\m\dram_010.nif$00"
  MISC.FNAM "Dram (10)$00"
  MISC.MCDT [00 00 00 00 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 44 72 61 6D 30 31 30 5F 73 00]
+ MISC.SCRI "AB_Dram010_s$00"
  MISC.ITEX "OAAB\m\misc_coin_dram.dds$00"
 -MISC
  MISC.NAME "AB_Misc_CoinDram025$00"
  MISC.MODL "OAAB\m\dram_025.nif$00"
  MISC.FNAM "Dram (25)$00"
  MISC.MCDT [00 00 00 00 19 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 44 72 61 6D 30 32 35 5F 73 00]
+ MISC.SCRI "AB_Dram025_s$00"
  MISC.ITEX "OAAB\m\misc_coin_dram.dds$00"
 -MISC
  MISC.NAME "AB_Misc_CoinDram100$00"
  MISC.MODL "OAAB\m\dram_100.nif$00"
  MISC.FNAM "Dram (100)$00"
  MISC.MCDT [00 00 00 00 64 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 44 72 61 6D 31 30 30 5F 73 00]
+ MISC.SCRI "AB_Dram100_s$00"
  MISC.ITEX "OAAB\m\misc_coin_dram.dds$00"
 -MISC
  MISC.NAME "AB_Misc_CoinTriune$00"
@@ -13828,14 +14300,14 @@ End$00"
  MISC.MODL "OAAB\m\coin_triune_02.nif$00"
  MISC.FNAM "Triune Coin (10)$00"
  MISC.MCDT [00 00 80 3F 64 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 54 72 69 75 6E 65 31 30 5F 73 00]
+ MISC.SCRI "AB_Triune10_s$00"
  MISC.ITEX "OAAB\m\coin_triune.tga$00"
 -MISC
  MISC.NAME "AB_Misc_CoinTriune100$00"
  MISC.MODL "oaab\m\coin_triune_03.nif$00"
  MISC.FNAM "Triune Coin (100)$00"
  MISC.MCDT [CD CC CC 3D E8 03 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 54 72 69 75 6E 65 31 30 30 5F 73 00]
+ MISC.SCRI "AB_Triune100_s$00"
  MISC.ITEX "OAAB\m\coin_triune.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintArgo01$00"
@@ -14040,7 +14512,7 @@ End$00"
  MISC.MODL "OAAB\u\com_bucket_01_hang.nif$00"
  MISC.FNAM "Bucket$00"
  MISC.MCDT [00 00 A0 40 02 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 4D 69 73 63 43 6F 6D 42 75 63 6B 65 74 30 31 48 61 6E 67 5F 73 00]
+ MISC.SCRI "AB_MiscComBucket01Hang_s$00"
  MISC.ITEX "m\Misc_Com_Bucket_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComCard01$00"
@@ -14191,7 +14663,7 @@ End$00"
  MISC.MODL "OAAB\m\copperPot02Hang.nif$00"
  MISC.FNAM "Copper Pot$00"
  MISC.MCDT [00 00 A0 40 14 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 4D 69 73 63 43 6F 6D 43 6F 70 50 6F 74 30 32 48 61 6E 67 5F 73 00]
+ MISC.SCRI "AB_MiscComCopPot02Hang_s$00"
  MISC.ITEX "OAAB\m\misc_copperpot_02.dds$00"
 -MISC
  MISC.NAME "AB_Misc_ComKagoutiHorn$00"
@@ -14234,7 +14706,7 @@ End$00"
  MISC.MODL "OAAB\m\com_paint_canv_01.nif$00"
  MISC.FNAM "Blank Canvas$00"
  MISC.MCDT [00 00 80 3F 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 4D 69 73 63 43 6F 6D 50 61 69 6E 74 43 61 6E 76 61 73 30 31 5F 73 00]
+ MISC.SCRI "AB_MiscComPaintCanvas01_s$00"
  MISC.ITEX "OAAB\m\com_paint_canv_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComPaintCanvas01g$00"
@@ -14247,7 +14719,7 @@ End$00"
  MISC.MODL "OAAB\m\com_paint_canv_02.nif$00"
  MISC.FNAM "Blank Canvas$00"
  MISC.MCDT [00 00 C0 3F 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 4D 69 73 63 43 6F 6D 50 61 69 6E 74 43 61 6E 76 61 73 30 32 5F 73 00]
+ MISC.SCRI "AB_MiscComPaintCanvas02_s$00"
  MISC.ITEX "OAAB\m\com_paint_canv_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComPaintCanvas02g$00"
@@ -14260,7 +14732,7 @@ End$00"
  MISC.MODL "OAAB\m\com_paint_canv_03.nif$00"
  MISC.FNAM "Blank Canvas$00"
  MISC.MCDT [00 00 C0 3F 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 4D 69 73 63 43 6F 6D 50 61 69 6E 74 43 61 6E 76 61 73 30 32 5F 73 00]
+ MISC.SCRI "AB_MiscComPaintCanvas02_s$00"
  MISC.ITEX "OAAB\m\com_paint_canv_03.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComPaintFrame01$00"
@@ -15203,14 +15675,14 @@ End$00"
  MISC.MODL "OAAB\m\memory_stone.nif$00"
  MISC.FNAM "Memory Stone (Empty)$00"
  MISC.MCDT [00 00 80 3F 28 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ MISC.SCRI "AB_Example_s$00"
  MISC.ITEX "OAAB\m\memory_stone.dds$00"
 -MISC
  MISC.NAME "AB_Misc_MemoryStoneFullEXAMPLE$00"
  MISC.MODL "OAAB\m\memory_stone2.nif$00"
  MISC.FNAM "Memory Stone (Full)$00"
  MISC.MCDT [00 00 80 3F 28 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ MISC.SCRI "AB_Example_s$00"
  MISC.ITEX "OAAB\m\memory_stone_2.dds$00"
 -MISC
  MISC.NAME "AB_Misc_PaperCrumpled$00"
@@ -15277,7 +15749,7 @@ End$00"
  MISC.MODL "OAAB\m\dr_misc_purse_01.nif$00"
  MISC.FNAM "Coin Purse$00"
  MISC.MCDT [00 00 80 3F 00 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 50 75 72 73 65 43 6F 69 6E 5F 73 00]
+ MISC.SCRI "AB_PurseCoin_s$00"
  MISC.ITEX "OAAB\m\misc_purse.tga$00"
 -MISC
  MISC.NAME "AB_Misc_QuillLizard$00"
@@ -15584,126 +16056,126 @@ End$00"
  MISC.MODL "OAAB\w\quiver_ashlebony.nif$00"
  MISC.FNAM "Ashlander Ebony Arrow (10)$00"
  MISC.MCDT [00 00 C0 3F 32 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 41 73 68 6C 45 62 6F 6E 79 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverAshlEbony10x_s$00"
  MISC.ITEX "OAAB\w\tx_rawebony_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_AshlGlassArrow10x$00"
  MISC.MODL "OAAB\w\quiver_ashlglass.nif$00"
  MISC.FNAM "Ashlander Glass Arrow (10)$00"
  MISC.MCDT [00 00 C0 3F 28 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 41 73 68 6C 47 6C 61 73 73 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverAshlGlass10x_s$00"
  MISC.ITEX "OAAB\w\tx_rawglass_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_BoneArrow10x$00"
  MISC.MODL "OAAB\w\quiver_bone.nif$00"
  MISC.FNAM "Bone Arrow (10)$00"
  MISC.MCDT [00 00 C0 3F 14 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 42 6F 6E 65 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverBone10x_s$00"
  MISC.ITEX "OAAB\w\tx_w_bone_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_BonemoldArrow10x$00"
  MISC.MODL "OAAB\w\quiver_bonemold.nif$00"
  MISC.FNAM "Bonemold Arrow (10)$00"
  MISC.MCDT [00 00 C0 3F 14 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 42 6F 6E 65 6D 6F 6C 64 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverBonemold10x_s$00"
  MISC.ITEX "w\tx_arrow_bonemold.dds$00"
 -MISC
  MISC.NAME "AB_w_ChitinArrow10x$00"
  MISC.MODL "OAAB\w\quiver_chitin.nif$00"
  MISC.FNAM "Chitin Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 43 68 69 74 69 6E 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverChitin10x_s$00"
  MISC.ITEX "w\tx_arrow_chitin.dds$00"
 -MISC
  MISC.NAME "AB_w_CorkbulbArrow10x$00"
  MISC.MODL "OAAB\w\quiver_corkbulb.nif$00"
  MISC.FNAM "Corkbulb Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 43 6F 72 6B 62 75 6C 62 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverCorkbulb10x_s$00"
  MISC.ITEX "w\tx_arrow_corkbulb.dds$00"
 -MISC
  MISC.NAME "AB_w_DaedricArrow10x$00"
  MISC.MODL "OAAB\w\quiver_daedric.nif$00"
  MISC.FNAM "Daedric Arrow (10)$00"
  MISC.MCDT [00 00 40 40 C8 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 44 61 65 64 72 69 63 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverDaedric10x_s$00"
  MISC.ITEX "w\tx_arrow_daedric.dds$00"
 -MISC
  MISC.NAME "AB_w_DreughArrow10x$00"
  MISC.MODL "OAAB\w\quiver_dreugh.nif$00"
  MISC.FNAM "Dreugh Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 1E 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 44 72 65 75 67 68 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverDreugh10x_s$00"
  MISC.ITEX "OAAB\w\Dreugh_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_EbonyArrow10x$00"
  MISC.MODL "OAAB\w\quiver_ebony.nif$00"
  MISC.FNAM "Ebony Arrow (10)$00"
  MISC.MCDT [00 00 00 40 64 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 45 62 6F 6E 79 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverEbony10x_s$00"
  MISC.ITEX "w\tx_arrow_ebony.dds$00"
 -MISC
  MISC.NAME "AB_w_FlintArrow10x$00"
  MISC.MODL "OAAB\w\quiver_flint.nif$00"
  MISC.FNAM "Flint Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 46 6C 69 6E 74 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverFlint10x_s$00"
  MISC.ITEX "OAAB\w\flint_arrow.tga$00"
 -MISC
  MISC.NAME "AB_w_GlassArrow10x$00"
  MISC.MODL "OAAB\w\quiver_glass.nif$00"
  MISC.FNAM "Glass Arrow (10)$00"
  MISC.MCDT [00 00 C0 3F 50 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 47 6C 61 73 73 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverGlass10x_s$00"
  MISC.ITEX "w\tx_arrow_glass.dds$00"
 -MISC
  MISC.NAME "AB_w_GoblinArrow10x$00"
  MISC.MODL "OAAB\w\quiver_goblin.nif$00"
  MISC.FNAM "Goblin Arrow (10)$00"
  MISC.MCDT [00 00 20 40 78 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 47 6F 62 6C 69 6E 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverGoblin10x_s$00"
  MISC.ITEX "OAAB\w\tx_goblin_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_HuntsArrow10x$00"
  MISC.MODL "OAAB\w\quiver_huntsman.nif$00"
  MISC.FNAM "Huntsman Arrow (10)$00"
  MISC.MCDT [00 00 C0 3F 14 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 48 75 6E 74 73 6D 61 6E 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverHuntsman10x_s$00"
  MISC.ITEX "OAAB\w\tx_huntsman_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_IronArrow10x$00"
  MISC.MODL "OAAB\w\quiver_iron.nif$00"
  MISC.FNAM "Iron Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 0A 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 49 72 6F 6E 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverIron10x_s$00"
  MISC.ITEX "w\tx_arrow_iron.dds$00"
 -MISC
  MISC.NAME "AB_w_OrcishArrow10x$00"
  MISC.MODL "OAAB\w\quiver_orcish.nif$00"
  MISC.FNAM "Orcish Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 28 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 4F 72 63 69 73 68 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverOrcish10x_s$00"
  MISC.ITEX "OAAB\w\tx_orcish_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_SilverArrow10x$00"
  MISC.MODL "OAAB\w\quiver_silver.nif$00"
  MISC.FNAM "Silver Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 1E 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 53 69 6C 76 65 72 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverSilver10x_s$00"
  MISC.ITEX "w\tx_arrow_silver.dds$00"
 -MISC
  MISC.NAME "AB_w_StalhrimArrow10x$00"
  MISC.MODL "OAAB\w\quiver_ice.nif$00"
  MISC.FNAM "Stalhrim Arrow (10)$00"
  MISC.MCDT [00 00 60 40 AA 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 53 74 61 6C 68 72 69 6D 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverStalhrim10x_s$00"
  MISC.ITEX "OAAB\w\tx_ice_arrow.dds$00"
 -MISC
  MISC.NAME "AB_w_SteelArrow10x$00"
  MISC.MODL "OAAB\w\quiver_steel.nif$00"
  MISC.FNAM "Steel Arrow (10)$00"
  MISC.MCDT [00 00 80 3F 14 00 00 00 00 00 00 00]
- MISC.SCRI [41 42 5F 51 75 69 76 65 72 53 74 65 65 6C 31 30 78 5F 73 00]
+ MISC.SCRI "AB_QuiverSteel10x_s$00"
  MISC.ITEX "w\tx_arrow_steel.dds$00"
 -WEAP
  WEAP.NAME "AB_w_AdamRapier$00"
@@ -18600,7 +19072,7 @@ End$00"
  CONT.FNAM "Display Case$00"
  CONT.CNDT [00 00 C8 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [41 42 5F 43 6F 6D 44 69 73 70 6C 61 79 5F 73 00]
+ CONT.SCRI "AB_ComDisplay_s$00"
 -CONT
  CONT.NAME "AB_o_ComRchDrawr01Cloth$00"
  CONT.MODL "o\Contain_Com_Drawers_01.NIF$00"
@@ -18740,7 +19212,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 62 6F 6E 65 6D 65 61 6C 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_o_Corpse10$00"
@@ -18755,7 +19227,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 62 6F 6E 65 6D 65 61 6C 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_o_Corpse20$00"
@@ -18770,7 +19242,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 62 6F 6E 65 6D 65 61 6C 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_o_CorpseArg01$00"
@@ -18904,7 +19376,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -18913,7 +19385,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 43 6F 72 70 73 65 4C 6F 6F 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -18924,7 +19396,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -18933,7 +19405,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 43 6F 72 70 73 65 4C 6F 6F 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -18944,7 +19416,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -18953,7 +19425,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 43 6F 72 70 73 65 4C 6F 6F 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -18964,7 +19436,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -18973,7 +19445,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 43 6F 72 70 73 65 4C 6F 6F 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -18984,7 +19456,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -18993,7 +19465,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 43 6F 72 70 73 65 4C 6F 6F 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -19022,7 +19494,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -19031,7 +19503,7 @@ End$00"
  CONT.FNAM "Hanging Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [41 42 5F 54 77 69 73 74 5F 73 00]
+ CONT.SCRI "AB_Twist_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -19040,7 +19512,7 @@ End$00"
  CONT.FNAM "Hanging Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [41 42 5F 54 77 69 73 74 5F 73 00]
+ CONT.SCRI "AB_Twist_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 43 6F 72 70 73 65 4C 6F 6F 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -19051,7 +19523,7 @@ End$00"
  CONT.FNAM "Corpse$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 42 6F 6E 65 73 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 43 6F 72 70 73 65 4C 6F 6F 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 68 75 6D 61 6E 5F 6D 65 61 74 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -19062,7 +19534,7 @@ End$00"
  CONT.FNAM "Dead Necromancer$00"
  CONT.CNDT [00 00 F0 42]
  CONT.FLAG [08 00 00 00]
- CONT.SCRI [53 6F 75 6E 64 5F 46 6C 69 65 73 00]
+ CONT.SCRI "Sound_Flies$00"
  CONT.NPCO [01 00 00 00 69 6E 67 72 65 64 5F 62 6F 6E 65 6D 65 61 6C 5F 30 31 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_o_CorpseVigil_01$00"
@@ -20216,7 +20688,7 @@ End$00"
  CONT.FNAM "Dwemer Proximity Mine$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [09 00 00 00]
- CONT.SCRI [41 42 5F 44 77 72 76 50 72 6F 78 4D 69 6E 65 5F 73 00]
+ CONT.SCRI "AB_DwrvProxMine_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 4D 69 73 63 5F 44 77 47 79 72 6F 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_o_PackFur$00"
@@ -20783,7 +21255,7 @@ End$00"
  CONT.FNAM "Blighted Kwama Egg Sack$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [09 00 00 00]
- CONT.SCRI [41 42 5F 4B 77 61 6D 61 45 67 67 42 6C 69 67 68 74 65 64 5F 73 00]
+ CONT.SCRI "AB_KwamaEggBlighted_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 49 6E 67 43 72 65 61 5F 4B 77 61 6D 61 45 67 67 42 6C 69 67 68 74 65 64 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_r_KwamaEggBoom$00"
@@ -20791,7 +21263,7 @@ End$00"
  CONT.FNAM "Kwama Egg Sack$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [09 00 00 00]
- CONT.SCRI [41 42 5F 4B 77 61 6D 61 45 67 67 42 6F 6D 62 5F 73 00]
+ CONT.SCRI "AB_KwamaEggBomb_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 4B 77 61 6D 61 45 67 67 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_r_KwamaMolt01$00"
@@ -20841,7 +21313,7 @@ End$00"
  CONT.FNAM "Engorged Kwama Forager$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [0B 00 00 00]
- CONT.SCRI [41 42 5F 4B 77 61 6D 61 46 6F 72 61 67 65 72 53 74 6F 72 61 67 65 5F 73 00]
+ CONT.SCRI "AB_KwamaForagerStorage_s$00"
  CONT.NPCO [04 00 00 00 41 42 5F 6C 76 6C 5F 4D 65 61 74 41 6C 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
  CONT.NPCO [04 00 00 00 41 42 5F 6C 76 6C 5F 50 6C 61 6E 74 57 69 6C 64 45 64 69 62 6C 65 00 00 00 00 00 00 00 00 00 00]
 -CONT
@@ -20929,7 +21401,7 @@ End$00"
  CONT.FNAM "Ventworm$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [0B 00 00 00]
- CONT.SCRI [41 42 5F 56 65 6E 74 77 6F 72 6D 5F 73 00]
+ CONT.SCRI "AB_Ventworm_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 53 75 6C 70 68 75 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_r_Ventworm01$00"
@@ -20937,7 +21409,7 @@ End$00"
  CONT.FNAM "Ventworm$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [0B 00 00 00]
- CONT.SCRI [41 42 5F 56 65 6E 74 77 6F 72 6D 5F 73 00]
+ CONT.SCRI "AB_Ventworm_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 53 75 6C 70 68 75 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_r_Ventworm02$00"
@@ -20945,7 +21417,7 @@ End$00"
  CONT.FNAM "Ventworm$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [0B 00 00 00]
- CONT.SCRI [41 42 5F 56 65 6E 74 77 6F 72 6D 5F 73 00]
+ CONT.SCRI "AB_Ventworm_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 6C 76 6C 5F 53 75 6C 70 68 75 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_r_Ventworm03$00"
@@ -20953,7 +21425,7 @@ End$00"
  CONT.FNAM "Ventworms$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [0B 00 00 00]
- CONT.SCRI [41 42 5F 56 65 6E 74 77 6F 72 6D 5F 73 00]
+ CONT.SCRI "AB_Ventworm_s$00"
  CONT.NPCO [02 00 00 00 41 42 5F 6C 76 6C 5F 53 75 6C 70 68 75 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_r_Ventworm04$00"
@@ -20961,7 +21433,7 @@ End$00"
  CONT.FNAM "Ventworms$00"
  CONT.CNDT [00 00 00 00]
  CONT.FLAG [0B 00 00 00]
- CONT.SCRI [41 42 5F 56 65 6E 74 77 6F 72 6D 5F 73 00]
+ CONT.SCRI "AB_Ventworm_s$00"
  CONT.NPCO [03 00 00 00 41 42 5F 6C 76 6C 5F 53 75 6C 70 68 75 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
  CONT.NAME "AB_r_WebCorpse$00"
@@ -21034,7 +21506,7 @@ End$00"
  CREA.MODL "OAAB\r\cent_sphere_chute.nif$00"
  CREA.CNAM "centurion_sphere$00"
  CREA.FNAM "Centurion Sphere$00"
- CREA.SCRI [41 42 5F 43 65 6E 74 53 70 68 65 72 65 43 68 75 74 65 5F 73 00]
+ CREA.SCRI "AB_CentSphereChute_s$00"
  CREA.NPDT [00 00 00 00 05 00 00 00 4B 00 00 00 19 00 00 00 46 00 00 00 4B 00 00 00 46 00 00 00 4B 00 00 00 0A 00 00 00 32 00 00 00 4B 00 00 00 46 00 00 00 20 03 00 00 00 00 00 00 32 00 00 00 5A 00 00 00 14 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 00 00 00 00]
  CREA.FLAG [48 08 00 00]
  CREA.NPCO [01 00 00 00 72 61 6E 64 6F 6D 5F 73 63 72 61 70 5F 6D 65 74 61 6C 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -21045,7 +21517,7 @@ End$00"
  CREA.NAME "AB_Fau_Bat$00"
  CREA.MODL "OAAB\r\bat.nif$00"
  CREA.FNAM "Bat$00"
- CREA.SCRI [41 42 5F 42 61 74 43 6F 6E 74 72 6F 6C 5F 73 00]
+ CREA.SCRI "AB_BatControl_s$00"
  CREA.NPDT [00 00 00 00 01 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 FF 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 19 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 01 00 00 00 05 00 00 00 01 00 00 00 05 00 00 00 01 00 00 00 05 00 00 00 00 00 00 00]
  CREA.FLAG [68 00 00 00]
  CREA.XSCL [00 00 00 3F]
@@ -21079,7 +21551,7 @@ End$00"
  CREA.MODL "r\Rust rat.NIF$00"
  CREA.CNAM "Rat$00"
  CREA.FNAM "Rat$00"
- CREA.SCRI [41 42 5F 44 69 73 65 61 73 65 46 6C 65 61 73 5F 73 00]
+ CREA.SCRI "AB_DiseaseFleas_s$00"
  CREA.NPDT [00 00 00 00 01 00 00 00 14 00 00 00 19 00 00 00 00 00 00 00 14 00 00 00 12 00 00 00 46 00 00 00 64 00 00 00 1E 00 00 00 10 00 00 00 00 00 00 00 32 00 00 00 05 00 00 00 1E 00 00 00 5A 00 00 00 14 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00 01 00 00 00 00 00 00 00]
  CREA.FLAG [48 00 00 00]
  CREA.XSCL [01 00 40 3F]
@@ -21092,7 +21564,7 @@ End$00"
  CREA.MODL "OAAB\r\r0_s-fish_blind.nif$00"
  CREA.CNAM "slaughterfish$00"
  CREA.FNAM "Blind Slaughterfish$00"
- CREA.SCRI [64 69 73 65 61 73 65 44 61 6D 70 77 6F 72 6D 00]
+ CREA.SCRI "diseaseDampworm$00"
  CREA.NPDT [00 00 00 00 02 00 00 00 32 00 00 00 32 00 00 00 1E 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 19 00 00 00 0A 00 00 00 90 01 00 00 0A 00 00 00 1E 00 00 00 5A 00 00 00 14 00 00 00 01 00 00 00 06 00 00 00 01 00 00 00 06 00 00 00 01 00 00 00 06 00 00 00 00 00 00 00]
  CREA.FLAG [18 00 00 00]
  CREA.XSCL [9A 99 59 3F]
@@ -21141,7 +21613,7 @@ End$00"
  CREA.MODL "OAAB\r\spider_black.nif$00"
  CREA.CNAM "AB_Fau_SpiderBlack$00"
  CREA.FNAM "Black Spider Matron$00"
- CREA.SCRI [41 42 5F 53 70 69 64 65 72 42 6C 61 63 6B 53 70 61 77 6E 5F 73 00]
+ CREA.SCRI "AB_SpiderBlackSpawn_s$00"
  CREA.NPDT [00 00 00 00 0A 00 00 00 64 00 00 00 1E 00 00 00 28 00 00 00 28 00 00 00 82 00 00 00 28 00 00 00 28 00 00 00 1E 00 00 00 6E 00 00 00 0A 00 00 00 90 01 00 00 32 00 00 00 50 00 00 00 28 00 00 00 00 00 00 00 0C 00 00 00 23 00 00 00 0C 00 00 00 23 00 00 00 00 00 00 00 28 00 00 00 00 00 00 00]
  CREA.FLAG [48 00 00 00]
  CREA.XSCL [67 66 E6 3F]
@@ -21184,7 +21656,7 @@ End$00"
  CREA.MODL "OAAB\r\lidicus_cspider.nif$00"
  CREA.CNAM "AB_Fau_SpiderBlack$00"
  CREA.FNAM "Parasol Spider Matron$00"
- CREA.SCRI [41 42 5F 53 70 69 64 65 72 50 61 72 61 73 6F 6C 53 70 61 77 6E 5F 73 00]
+ CREA.SCRI "AB_SpiderParasolSpawn_s$00"
  CREA.NPDT [00 00 00 00 0A 00 00 00 50 00 00 00 1E 00 00 00 28 00 00 00 1E 00 00 00 82 00 00 00 28 00 00 00 28 00 00 00 1E 00 00 00 5A 00 00 00 0A 00 00 00 90 01 00 00 14 00 00 00 3C 00 00 00 5A 00 00 00 14 00 00 00 0A 00 00 00 1E 00 00 00 0A 00 00 00 1E 00 00 00 0A 00 00 00 1E 00 00 00 00 00 00 00]
  CREA.FLAG [48 00 00 00]
  CREA.XSCL [01 00 40 3F]
@@ -21261,7 +21733,7 @@ End$00"
  CREA.MODL "OAAB\r\DwSpecterWep.nif$00"
  CREA.CNAM "dwarven ghost$00"
  CREA.FNAM "Dwarven Spectre$00"
- CREA.SCRI [41 42 5F 44 77 72 76 53 70 65 63 74 72 65 5F 73 00]
+ CREA.SCRI "AB_DwrvSpectre_s$00"
  CREA.NPDT [02 00 00 00 05 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 1E 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 3C 00 00 00 00 00 00 00 90 01 00 00 C8 00 00 00 5A 00 00 00 32 00 00 00 14 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 00 00 00 00]
  CREA.FLAG [4C 04 00 00]
  CREA.NPCO [01 00 00 00 41 42 5F 61 5F 49 6E 76 69 73 53 68 69 65 6C 64 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -21277,7 +21749,7 @@ End$00"
  CREA.MODL "OAAB\r\DwSpecterWep_F.nif$00"
  CREA.CNAM "dwarven ghost$00"
  CREA.FNAM "Dwarven Spectre$00"
- CREA.SCRI [41 42 5F 44 77 72 76 53 70 65 63 74 72 65 5F 73 00]
+ CREA.SCRI "AB_DwrvSpectre_s$00"
  CREA.NPDT [02 00 00 00 05 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 1E 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 3C 00 00 00 00 00 00 00 90 01 00 00 C8 00 00 00 5A 00 00 00 32 00 00 00 14 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 05 00 00 00 0F 00 00 00 00 00 00 00]
  CREA.FLAG [4C 04 00 00]
  CREA.NPCO [01 00 00 00 41 42 5F 61 5F 49 6E 76 69 73 53 68 69 65 6C 64 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -22540,19 +23012,19 @@ End$00"
 -LIGH
  LIGH.NAME "AB_light@_Day1000$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF E8 03 00 00 C8 DC FF 00 01 00 00 00]
- LIGH.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ LIGH.SCRI "AB_DayActivate_s$00"
 -LIGH
  LIGH.NAME "AB_light@_Day2000$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF D0 07 00 00 C8 DC FF 00 01 00 00 00]
- LIGH.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ LIGH.SCRI "AB_DayActivate_s$00"
 -LIGH
  LIGH.NAME "AB_light@_Day300$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 2C 01 00 00 C8 DC FF 00 01 00 00 00]
- LIGH.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ LIGH.SCRI "AB_DayActivate_s$00"
 -LIGH
  LIGH.NAME "AB_light@_Day500$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF F4 01 00 00 C8 DC FF 00 01 00 00 00]
- LIGH.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ LIGH.SCRI "AB_DayActivate_s$00"
 -LIGH
  LIGH.NAME "AB_light@_Dwrv064$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 40 00 00 00 EE BB 51 00 01 01 00 00]
@@ -22596,7 +23068,7 @@ End$00"
  LIGH.NAME "AB_light@_Lightning$00"
  LIGH.MODL "editormarker.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 40 1F 00 00 8B 8B 8B 00 00 00 00 00]
- LIGH.SCRI [41 42 5F 4C 69 67 68 74 6E 69 6E 67 4C 69 67 68 74 5F 73 00]
+ LIGH.SCRI "AB_LightningLight_s$00"
 -LIGH
  LIGH.NAME "AB_light@_Oilslick64$00"
  LIGH.LHDT [00 00 00 00 01 00 00 00 FF FF FF FF 40 00 00 00 03 B8 86 00 00 00 00 00]
@@ -23122,7 +23594,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaper01_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaper_01.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 F5 8C 28 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaper02_128$00"
  LIGH.MODL "OAAB\l\deLantPaper_02.nif$00"
@@ -23135,7 +23607,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaper02_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaper_02.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 F5 8C 28 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaper03_128$00"
  LIGH.MODL "OAAB\l\deLantPaper_03.nif$00"
@@ -23148,7 +23620,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaper03_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaper_03.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 F5 8C 28 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperBlu01_128$00"
  LIGH.MODL "OAAB\l\deLantPaperBlu_01.nif$00"
@@ -23161,7 +23633,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperBlu01_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperBlu_01.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 24 92 FF 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperBlu02_128$00"
  LIGH.MODL "OAAB\l\deLantPaperBlu_02.nif$00"
@@ -23174,7 +23646,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperBlu02_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperBlu_02.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 24 92 FF 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperBlu03_128$00"
  LIGH.MODL "OAAB\l\deLantPaperBlu_03.nif$00"
@@ -23187,7 +23659,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperBlu03_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperBlu_03.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 24 92 FF 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperGrn00_128$00"
  LIGH.MODL "OAAB\l\deLantPaperGrn_00.nif$00"
@@ -23208,7 +23680,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperGrn01_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperGrn_01.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 05 E1 4B 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperGrn02_128$00"
  LIGH.MODL "OAAB\l\deLantPaperGrn_02.nif$00"
@@ -23221,7 +23693,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperGrn02_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperGrn_02.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 05 E1 4B 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperGrn03_128$00"
  LIGH.MODL "OAAB\l\deLantPaperGrn_03.nif$00"
@@ -23234,7 +23706,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperGrn03_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperGrn_03.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 05 E1 4B 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperRed00_128$00"
  LIGH.MODL "OAAB\l\deLantPaperRed_00.nif$00"
@@ -23255,7 +23727,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperRed01_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperRed_01.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 FF 0F 05 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperRed02_128$00"
  LIGH.MODL "OAAB\l\deLantPaperRed_02.nif$00"
@@ -23268,7 +23740,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperRed02_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperRed_02.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 FF 0F 05 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DeLantPaperRed03_128$00"
  LIGH.MODL "OAAB\l\deLantPaperRed_03.nif$00"
@@ -23281,7 +23753,7 @@ End$00"
  LIGH.NAME "AB_light_DeLantPaperRed03_256_s$00"
  LIGH.MODL "OAAB\l\deLantPaperRed_03.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 FF 0F 05 00 41 00 00 00]
- LIGH.SCRI [53 69 67 6E 52 6F 74 61 74 65 00]
+ LIGH.SCRI "SignRotate$00"
 -LIGH
  LIGH.NAME "AB_light_DwrvLantern_192$00"
  LIGH.MODL "OAAB\l\dwrv_lantern.nif$00"
@@ -23338,7 +23810,7 @@ End$00"
  LIGH.FNAM "Grim Lamp$00"
  LIGH.ITEX "OAAB\l\ogrimOilLamp.tga$00"
  LIGH.LHDT [00 00 00 41 23 00 00 00 F4 01 00 00 C8 00 00 00 86 B1 34 00 53 00 00 00]
- LIGH.SCRI [41 42 5F 4F 67 72 69 6D 4F 69 6C 4C 61 6D 70 5F 73 00]
+ LIGH.SCRI "AB_OgrimOilLamp_s$00"
 -LIGH
  LIGH.NAME "AB_light_Glyph256$00"
  LIGH.MODL "OAAB\e\glyph_light.nif$00"
@@ -23358,22 +23830,22 @@ End$00"
  LIGH.NAME "AB_light_ScampCandle01_128$00"
  LIGH.MODL "OAAB\l\candleScamp01.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 80 00 00 00 F8 50 25 00 51 00 00 00]
- LIGH.SCRI [41 42 5F 53 63 61 6D 70 74 61 6C 6C 6F 77 5F 73 00]
+ LIGH.SCRI "AB_Scamptallow_s$00"
 -LIGH
  LIGH.NAME "AB_light_ScampCandle02_128$00"
  LIGH.MODL "OAAB\l\candleScamp02.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 80 00 00 00 F8 50 25 00 51 00 00 00]
- LIGH.SCRI [41 42 5F 53 63 61 6D 70 74 61 6C 6C 6F 77 5F 73 00]
+ LIGH.SCRI "AB_Scamptallow_s$00"
 -LIGH
  LIGH.NAME "AB_light_ScampCandle03_128$00"
  LIGH.MODL "OAAB\l\candleScamp03.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 80 00 00 00 F8 50 25 00 51 00 00 00]
- LIGH.SCRI [41 42 5F 53 63 61 6D 70 74 61 6C 6C 6F 77 5F 73 00]
+ LIGH.SCRI "AB_Scamptallow_s$00"
 -LIGH
  LIGH.NAME "AB_light_ScampCandle04_128$00"
  LIGH.MODL "OAAB\l\candleScamp04.nif$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 80 00 00 00 F8 50 25 00 51 00 00 00]
- LIGH.SCRI [41 42 5F 53 63 61 6D 70 74 61 6C 6C 6F 77 5F 73 00]
+ LIGH.SCRI "AB_Scamptallow_s$00"
 -LIGH
  LIGH.NAME "AB_light_SkullCandleBlackBF_128$00"
  LIGH.MODL "OAAB\l\skull_candle_blk_bf.nif$00"
@@ -24558,7 +25030,7 @@ End$00"
  ARMO.NAME "AB_a_ImpBmCuirass$00"
  ARMO.MODL "OAAB\a\mv_bm_cuirass_gnd_01.nif$00"
  ARMO.FNAM "Imperial Battlemage Cuirass$00"
- ARMO.SCRI [4C 65 67 69 6F 6E 55 6E 69 66 6F 72 6D 00]
+ ARMO.SCRI "LegionUniform$00"
  ARMO.AODT [01 00 00 00 00 00 E0 41 C4 09 00 00 78 05 00 00 04 01 00 00 28 00 00 00]
  ARMO.ITEX "OAAB\a\mv_bm_cuirass_01.dds$00"
  ARMO.INDX [03]
@@ -25275,14 +25747,14 @@ End$00"
  REPA.MODL "OAAB\h\inviso.nif$00"
  REPA.FNAM "Grinding Wheel$00"
  REPA.RIDT [00 00 00 00 00 00 00 00 64 00 00 00 00 00 C0 3F]
- REPA.SCRI [41 42 5F 43 6F 6D 50 6C 6E 47 72 69 6E 64 65 72 5F 73 00]
+ REPA.SCRI "AB_ComPlnGrinder_s$00"
  REPA.ITEX "OAAB\m\com_p_grindstand.dds$00"
 -REPA
  REPA.NAME "AB_Rep_GrinderWheel$00"
  REPA.MODL "OAAB\h\inviso.nif$00"
  REPA.FNAM "Grinding Wheel$00"
  REPA.RIDT [00 00 00 00 00 00 00 00 64 00 00 00 00 00 C0 3F]
- REPA.SCRI [41 42 5F 47 72 69 6E 64 65 72 4D 69 73 63 5F 73 00]
+ REPA.SCRI "AB_GrinderMisc_s$00"
  REPA.ITEX "OAAB\m\st_grindingwheel.dds$00"
 -REPA
  REPA.NAME "AB_Repair_DwrvHammer$00"
@@ -25324,17 +25796,17 @@ End$00"
  ACTI.NAME "AB_Door_ImpSmallHiddenFloor$00"
  ACTI.MODL "OAAB\d\impS_d_hidden_flr.nif$00"
  ACTI.FNAM "Hidden Trapdoor$00"
- ACTI.SCRI [41 42 5F 49 6D 70 48 69 64 64 65 6E 44 6F 6F 72 5F 73 00]
+ ACTI.SCRI "AB_ImpHiddenDoor_s$00"
 -ACTI
  ACTI.NAME "AB_Door_ImpSmallHiddenFloorTrap$00"
  ACTI.MODL "OAAB\d\impS_d_hidden_flr.nif$00"
  ACTI.FNAM "Hidden Trapdoor$00"
- ACTI.SCRI [41 42 5F 49 6D 70 48 69 64 64 65 6E 54 72 61 70 44 6F 6F 72 5F 73 00]
+ ACTI.SCRI "AB_ImpHiddenTrapDoor_s$00"
 -ACTI
  ACTI.NAME "AB_Ex_AshlTentBedroll$00"
  ACTI.MODL "OAAB\x\ashl_tent.nif$00"
  ACTI.FNAM "Tent$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Ex_ComGravestone1$00"
  ACTI.MODL "OAAB\x\comGravestone1.nif$00"
@@ -25365,21 +25837,21 @@ End$00"
  ACTI.NAME "AB_Ex_DePalisadeGateLeft$00"
  ACTI.MODL "OAAB\x\dePalisadeGateLeft.nif$00"
  ACTI.FNAM "Gate$00"
- ACTI.SCRI [41 42 5F 44 65 50 61 6C 69 73 61 64 65 47 61 74 65 5F 73 00]
+ ACTI.SCRI "AB_DePalisadeGate_s$00"
 -ACTI
  ACTI.NAME "AB_Ex_DePalisadeGateRight$00"
  ACTI.MODL "OAAB\x\dePalisadeGateRight.nif$00"
  ACTI.FNAM "Gate$00"
- ACTI.SCRI [41 42 5F 44 65 50 61 6C 69 73 61 64 65 47 61 74 65 5F 73 00]
+ ACTI.SCRI "AB_DePalisadeGate_s$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "AB_Ex_DeShipwrFloorTrapEXAMPLE$00"
  ACTI.MODL "OAAB\x\shipwrFloorLargeTrap.nif$00"
  ACTI.FNAM "Loose Deck$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_Ex_DwrvSteamstackRod_a$00"
  ACTI.MODL "OAAB\x\dwrvSteamstackRod.nif$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 4C 69 67 68 74 6E 69 6E 67 52 6F 64 5F 73 00]
+ ACTI.SCRI "AB_DwrvLightningRod_s$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "AB_Ex_ImpGatehouseGrateEXAMPLE$00"
  ACTI.MODL "OAAB\x\impGatehouseGrate.nif$00"
@@ -25387,7 +25859,7 @@ End$00"
  ACTI.NAME "AB_Ex_ImpGatehouseLeverEXAMPLE$00"
  ACTI.MODL "OAAB\x\impGatehouseLever.nif$00"
  ACTI.FNAM "Wooden Lever$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_Ex_RedAffPillar$00"
  ACTI.MODL "OAAB\x\red_house_affPillar.nif$00"
@@ -25425,46 +25897,46 @@ End$00"
 -ACTI
  ACTI.NAME "AB_Ex_TelRootRetracting$00"
  ACTI.MODL "OAAB\x\t_root_retracting.nif$00"
- ACTI.SCRI [41 42 5F 54 65 6C 52 6F 6F 74 52 65 74 72 61 63 74 69 6E 67 5F 73 00]
+ ACTI.SCRI "AB_TelRootRetracting_s$00"
 -ACTI
  ACTI.NAME "AB_Ex_VelWellFountain$00"
  ACTI.MODL "OAAB\x\velWellFountain.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_6thGong01$00"
  ACTI.MODL "OAAB\u\dk_6th_gong.nif$00"
  ACTI.FNAM "Gong$00"
- ACTI.SCRI [41 42 5F 36 74 68 47 6F 6E 67 30 31 5F 73 00]
+ ACTI.SCRI "AB_6thGong01_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_BellowsLeft$00"
  ACTI.MODL "OAAB\u\st_bellows_an_L.nif$00"
  ACTI.FNAM "Bellows$00"
- ACTI.SCRI [41 42 5F 42 65 6C 6C 6F 77 73 5F 73 00]
+ ACTI.SCRI "AB_Bellows_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_BellowsRight$00"
  ACTI.MODL "OAAB\u\st_bellows_an_R.nif$00"
  ACTI.FNAM "Bellows$00"
- ACTI.SCRI [41 42 5F 42 65 6C 6C 6F 77 73 5F 73 00]
+ ACTI.SCRI "AB_Bellows_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComMidBedDouble01$00"
  ACTI.MODL "OAAB\u\com_m_bed_d_brown.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComMidBedDouble02$00"
  ACTI.MODL "OAAB\u\com_m_bed_d_red.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComMidBedSingle01$00"
  ACTI.MODL "OAAB\u\com_m_bed_s_brown.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComMidCot$00"
  ACTI.MODL "OAAB\u\com_m_cot.nif$00"
  ACTI.FNAM "Cot$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComMidPottersWheel$00"
  ACTI.MODL "OAAB\u\commidpotterswheel.nif$00"
@@ -25472,27 +25944,27 @@ End$00"
  ACTI.NAME "AB_Furn_ComPlnBedDouble01$00"
  ACTI.MODL "OAAB\u\com_p_bed_d_01.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComPlnBedDouble02$00"
  ACTI.MODL "OAAB\u\com_p_bed_d_02.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComPlnBedLoft01$00"
  ACTI.MODL "OAAB\u\com_p_loftbed.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComPlnBedStraw$00"
  ACTI.MODL "OAAB\u\comPlnBedStraw.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [41 42 5F 42 65 64 46 6C 65 61 73 5F 73 00]
+ ACTI.SCRI "AB_BedFleas_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComPlnGrinder$00"
  ACTI.MODL "OAAB\u\com_p_grindstand.nif$00"
  ACTI.FNAM "Grinding Wheel$00"
- ACTI.SCRI [41 42 5F 43 6F 6D 50 6C 6E 47 72 69 6E 64 65 72 5F 73 00]
+ ACTI.SCRI "AB_ComPlnGrinder_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComPlnPottersWheel$00"
  ACTI.MODL "OAAB\u\complnpotterswheel.nif$00"
@@ -25500,87 +25972,87 @@ End$00"
  ACTI.NAME "AB_Furn_ComPrisonBed$00"
  ACTI.MODL "OAAB\u\prisonbed.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [41 42 5F 42 65 64 46 6C 65 61 73 5F 73 00]
+ ACTI.SCRI "AB_BedFleas_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedCanopyBluDown$00"
  ACTI.MODL "OAAB\u\comRchCnpyBed_bludwn.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedCanopyBluUp$00"
  ACTI.MODL "OAAB\u\comRchCnpyBed_bluup.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedCanopyRedDown$00"
  ACTI.MODL "OAAB\u\comRchCnpyBed_reddwn.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedCanopyRedUp$00"
  ACTI.MODL "OAAB\u\comRchCnpyBed_redup.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedDouble01$00"
  ACTI.MODL "OAAB\u\com_r_bed_d_red.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedDouble02$00"
  ACTI.MODL "OAAB\u\com_r_bed_d2_blue.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedDouble03$00"
  ACTI.MODL "OAAB\u\com_r_bed_d2_red.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedSingle01$00"
  ACTI.MODL "OAAB\u\com_r_bed_s_red.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedSingle02$00"
  ACTI.MODL "OAAB\u\com_r_bed_s2_blue.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ComRchBedSingle03$00"
  ACTI.MODL "OAAB\u\com_r_bed_s2_red.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerAlchemyIn$00"
  ACTI.MODL "f\furn_bannerd_alchemy_in.nif$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerBazaar01$00"
  ACTI.MODL "OAAB\u\de_banner_baz_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerBook$00"
  ACTI.MODL "f\furn_de_banner_book_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerBookIn$00"
  ACTI.MODL "f\furn_de_banner_book_in.nif$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerButcher01$00"
  ACTI.MODL "OAAB\u\de_banner_butch_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerCaravaner01$00"
  ACTI.MODL "OAAB\u\de_banner_carav_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerCatcatcher01$00"
  ACTI.MODL "OAAB\u\de_banner_catc_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerClerk01$00"
  ACTI.MODL "OAAB\u\de_banner_clerk_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerClothingIn$00"
  ACTI.MODL "f\furn_bannerd_clothing_in.nif$00"
@@ -25595,46 +26067,46 @@ End$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerEnchanter01$00"
  ACTI.MODL "OAAB\u\de_banner_ench_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerFarmer01$00"
  ACTI.MODL "OAAB\u\de_banner_farm_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerFishermen01$00"
  ACTI.MODL "OAAB\u\de_banner_fish_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerFletcher01$00"
  ACTI.MODL "OAAB\u\de_banner_flet_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerGambling01$00"
  ACTI.MODL "OAAB\u\de_banner_gambl_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerGoodsIn$00"
  ACTI.MODL "f\furn_bannerd_goods_in.nif$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerHealer01$00"
  ACTI.MODL "OAAB\u\de_banner_heal_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerJeweler01$00"
  ACTI.MODL "OAAB\u\de_banner_jewel_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerMiner01$00"
  ACTI.MODL "OAAB\u\de_banner_miner_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerPawn$00"
  ACTI.MODL "f\furn_de_banner_pawn_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerPotter01$00"
  ACTI.MODL "OAAB\u\de_banner_pott_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerRedoranIn$00"
  ACTI.MODL "f\furn_redoran_flag_in.nif$00"
@@ -25642,53 +26114,53 @@ End$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerSlaves01$00"
  ACTI.MODL "OAAB\u\de_banner_slave_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerSpells01$00"
  ACTI.MODL "OAAB\u\de_banner_spell_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTailor01$00"
  ACTI.MODL "OAAB\u\de_banner_tail_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTavern00$00"
  ACTI.MODL "f\furn_banner_tavern_in.nif$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTavern01$00"
  ACTI.MODL "OAAB\u\de_banner_inn_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTavern02$00"
  ACTI.MODL "OAAB\u\de_banner_inn_02.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTavern03$00"
  ACTI.MODL "OAAB\u\de_banner_inn_03.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTavern04$00"
  ACTI.MODL "OAAB\u\de_banner_inn_04.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTemple01In$00"
  ACTI.MODL "f\furn_banner_temple_01_in.nif$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTheatre01$00"
  ACTI.MODL "OAAB\u\de_banner_theat_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTrader01$00"
  ACTI.MODL "OAAB\u\de_banner_trade_01.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTrader02$00"
  ACTI.MODL "OAAB\u\de_banner_trade_02.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerTrader03$00"
  ACTI.MODL "OAAB\u\de_banner_trade_03.nif$00"
- ACTI.SCRI [4F 75 74 73 69 64 65 42 61 6E 6E 65 72 00]
+ ACTI.SCRI "OutsideBanner$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeBannerWA01$00"
  ACTI.MODL "f\furn_bannerd_wa_shop_in.nif$00"
@@ -25703,132 +26175,132 @@ End$00"
  ACTI.NAME "AB_Furn_DeMidBarDoor$00"
  ACTI.MODL "OAAB\u\de_rm_bar_d.nif$00"
  ACTI.FNAM "Bar Door$00"
- ACTI.SCRI [42 61 72 44 6F 6F 72 00]
+ ACTI.SCRI "BarDoor$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedBunk01$00"
  ACTI.MODL "OAAB\u\de_rm_bed_b01.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedBunk02$00"
  ACTI.MODL "OAAB\u\de_rm_bed_b02.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedBunk03$00"
  ACTI.MODL "OAAB\u\de_rm_bed_b03.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedDouble01$00"
  ACTI.MODL "OAAB\u\de_rm_bed_d01.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedDouble02$00"
  ACTI.MODL "OAAB\u\de_rm_bed_d02.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedDouble03$00"
  ACTI.MODL "OAAB\u\de_rm_bed_d03.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedDouble04$00"
  ACTI.MODL "OAAB\u\de_rm_bed_d04.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedDouble05$00"
  ACTI.MODL "OAAB\u\de_rm_bed_d05.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedSingle01$00"
  ACTI.MODL "OAAB\u\de_rm_bed_s01.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedSingle02$00"
  ACTI.MODL "OAAB\u\de_rm_bed_s02.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedSingle03$00"
  ACTI.MODL "OAAB\u\de_rm_bed_s03.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedSingle04$00"
  ACTI.MODL "OAAB\u\de_rm_bed_s04.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeMidBedSingle05$00"
  ACTI.MODL "OAAB\u\de_rm_bed_s05.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnBedBunk01$00"
  ACTI.MODL "OAAB\u\de_p_bed_b_red.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnBedDouble01$00"
  ACTI.MODL "OAAB\u\de_p_bed_d_blue.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnBedDouble02$00"
  ACTI.MODL "OAAB\u\de_p_bed_d_brown.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnBedLoft01$00"
  ACTI.MODL "OAAB\u\deplnbedloft01.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnBedLoft03$00"
  ACTI.MODL "OAAB\u\deplnbedloft03.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnBedLoft09$00"
  ACTI.MODL "OAAB\u\deplnbedloft09.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnBedSingle01$00"
  ACTI.MODL "OAAB\u\de_p_bedSingleGreen.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnHammockRug01$00"
  ACTI.MODL "OAAB\u\dePlnHammockRug01.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnHammockRug02$00"
  ACTI.MODL "OAAB\u\dePlnHammockRug02.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnHammockRug03$00"
  ACTI.MODL "OAAB\u\dePlnHammockRug03.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnHammockRug04$00"
  ACTI.MODL "OAAB\u\dePlnHammockRug04.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnHammockRug05$00"
  ACTI.MODL "OAAB\u\dePlnHammockRug05.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DePlnPottersWheel01$00"
  ACTI.MODL "OAAB\u\deplnpotterswheel01.nif$00"
@@ -25839,71 +26311,71 @@ End$00"
  ACTI.NAME "AB_Furn_DeRchBedDouble01$00"
  ACTI.MODL "OAAB\u\de_r_bed_d_blue.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeRchBedDouble02$00"
  ACTI.MODL "OAAB\u\de_r_bed_d2_blue.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeRchBedDouble03$00"
  ACTI.MODL "OAAB\u\de_r_bed_d2_green.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeRchHammockRug01$00"
  ACTI.MODL "OAAB\u\deRchHammockRug01.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeRchHammockRug02$00"
  ACTI.MODL "OAAB\u\deRchHammockRug02.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeRchHammockRug03$00"
  ACTI.MODL "OAAB\u\deRchHammockRug03.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeRchHammockRug04$00"
  ACTI.MODL "OAAB\u\deRchHammockRug04.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DeRchHammockRug05$00"
  ACTI.MODL "OAAB\u\deRchHammockRug05.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_DweFanSmall_a$00"
  ACTI.MODL "OAAB\u\dwe_fan_small.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 44 77 65 6D 65 72 5F 46 61 6E 00]
+ ACTI.SCRI "Sound_Dwemer_Fan$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvBeltDrive$00"
  ACTI.MODL "OAAB\u\dwrvBeltDrive.nif$00"
  ACTI.FNAM "Strange Steam Device$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 4D 61 63 68 69 6E 65 72 79 54 6F 67 67 6C 65 5F 73 00]
+ ACTI.SCRI "AB_DwrvMachineryToggle_s$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "AB_Furn_DwrvButtonEXAMPLE$00"
  ACTI.MODL "OAAB\u\dwrvButton.nif$00"
  ACTI.FNAM "Dwemer Button$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvCohererCharger_a$00"
  ACTI.MODL "OAAB\u\dwrvActCohererCharge.nif$00"
  ACTI.FNAM "Mysterious Power Mechanism$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 43 6F 68 65 72 65 72 43 68 61 72 67 65 72 5F 73 00]
+ ACTI.SCRI "AB_DwrvCohererCharger_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvCrankEXAMPLE$00"
  ACTI.MODL "OAAB\u\dwrv_crank.nif$00"
  ACTI.FNAM "Crank$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvDynamo$00"
  ACTI.MODL "OAAB\u\dwrvDynamo.nif$00"
  ACTI.FNAM "Strange Mechanical Device$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 4D 61 63 68 69 6E 65 72 79 54 6F 67 67 6C 65 5F 73 00]
+ ACTI.SCRI "AB_DwrvMachineryToggle_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvFuseBox$00"
  ACTI.MODL "OAAB\u\dwrvActFuseBox.nif$00"
@@ -25911,22 +26383,22 @@ End$00"
  ACTI.NAME "AB_Furn_DwrvFuseBoxPanel_a$00"
  ACTI.MODL "OAAB\u\dwrvActFuseBoxPanel.nif$00"
  ACTI.FNAM "Dwemer Tube Panel$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 46 75 73 65 42 6F 78 5F 73 00]
+ ACTI.SCRI "AB_DwrvFuseBox_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvGearBox_a$00"
  ACTI.MODL "OAAB\u\dwrvActGearBox.nif$00"
  ACTI.FNAM "Strange Dwemer Machine$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 47 65 61 72 42 6F 78 5F 73 00]
+ ACTI.SCRI "AB_DwrvGearBox_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvJunctionBox_a$00"
  ACTI.MODL "OAAB\u\dwrvActJunctionBox.nif$00"
  ACTI.FNAM "Unusual Dwemer Socket$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 4A 75 6E 63 74 69 6F 6E 42 6F 78 5F 73 00]
+ ACTI.SCRI "AB_DwrvJunctionBox_s$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "AB_Furn_DwrvLeverEXAMPLE$00"
  ACTI.MODL "i\act_dwe_lever00.NIF$00"
  ACTI.FNAM "Dwemer Lever$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvMachFlywheel01_a$00"
  ACTI.MODL "OAAB\u\dwrvMachFlywheel01.nif$00"
@@ -25955,12 +26427,12 @@ End$00"
  ACTI.NAME "AB_Furn_DwrvPipeBurst_a$00"
  ACTI.MODL "OAAB\u\dwrvActPipeBurst.nif$00"
  ACTI.FNAM "Burst Pipe Fitting$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 50 69 70 65 42 75 72 73 74 5F 73 00]
+ ACTI.SCRI "AB_DwrvPipeBurst_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvPowerBox_a$00"
  ACTI.MODL "OAAB\u\dwrvActPowerBox.nif$00"
  ACTI.FNAM "Sparking Dwemer Pipe$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 50 6F 77 65 72 42 6F 78 5F 73 00]
+ ACTI.SCRI "AB_DwrvPowerBox_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvSteamHammer$00"
  ACTI.MODL "OAAB\u\dwrvSteamHammer.nif$00"
@@ -25969,12 +26441,12 @@ End$00"
  ACTI.NAME "AB_Furn_DwrvSteamMachine$00"
  ACTI.MODL "OAAB\u\dwrvSteamMachine.nif$00"
  ACTI.FNAM "Strange Steam Machine$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 4D 61 63 68 69 6E 65 72 79 54 6F 67 67 6C 65 5F 73 00]
+ ACTI.SCRI "AB_DwrvMachineryToggle_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_DwrvTranny$00"
  ACTI.MODL "OAAB\u\dwrvTranny.nif$00"
  ACTI.FNAM "Mysterious Dwemer Device$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 4D 61 63 68 69 6E 65 72 79 54 6F 67 67 6C 65 5F 73 00]
+ ACTI.SCRI "AB_DwrvMachineryToggle_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_EnchInfuser$00"
  ACTI.MODL "OAAB\u\sg_fragment_infuser.nif$00"
@@ -25982,7 +26454,7 @@ End$00"
  ACTI.NAME "AB_Furn_EnchMat$00"
  ACTI.MODL "OAAB\u\enchantMat.nif$00"
  ACTI.FNAM "Enchanting Table$00"
- ACTI.SCRI [41 42 5F 45 6E 63 68 61 6E 74 69 6E 67 54 61 62 6C 65 5F 73 00]
+ ACTI.SCRI "AB_EnchantingTable_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_EnchantInfuser$00"
  ACTI.MODL "OAAB\u\sg_fragment_infuser.nif$00"
@@ -25991,106 +26463,106 @@ End$00"
  ACTI.NAME "AB_Furn_EnchantMat$00"
  ACTI.MODL "OAAB\u\enchantMat.nif$00"
  ACTI.FNAM "Enchanting Table$00"
- ACTI.SCRI [41 42 5F 45 6E 63 68 61 6E 74 69 6E 67 54 61 62 6C 65 5F 73 00]
+ ACTI.SCRI "AB_EnchantingTable_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_GrinderWheel$00"
  ACTI.MODL "OAAB\u\st_grinder_wheel_ani.nif$00"
  ACTI.FNAM "Grinding Wheel$00"
- ACTI.SCRI [41 42 5F 47 72 69 6E 64 65 72 57 68 65 65 6C 5F 73 00]
+ ACTI.SCRI "AB_GrinderWheel_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockLongRug01$00"
  ACTI.MODL "OAAB\u\hammockLongRug01.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockLongRug02$00"
  ACTI.MODL "OAAB\u\hammockLongRug02.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockLongRug03$00"
  ACTI.MODL "OAAB\u\hammockLongRug03.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockLongRug04$00"
  ACTI.MODL "OAAB\u\hammockLongRug04.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockLongRug05$00"
  ACTI.MODL "OAAB\u\hammockLongRug05.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockShortRug01$00"
  ACTI.MODL "OAAB\u\hammockShortRug01.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockShortRug02$00"
  ACTI.MODL "OAAB\u\hammockShortRug02.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockShortRug03$00"
  ACTI.MODL "OAAB\u\hammockShortRug03.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockShortRug04$00"
  ACTI.MODL "OAAB\u\hammockShortRug04.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_HammockShortRug05$00"
  ACTI.MODL "OAAB\u\hammockShortRug05.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ImpChainPullEXAMPLE$00"
  ACTI.MODL "OAAB\u\impChainPull.nif$00"
  ACTI.FNAM "Metal Ring$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ImpFan01_a$00"
  ACTI.MODL "OAAB\x\imp_grate_fan.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 44 77 65 6D 65 72 5F 46 61 6E 00]
+ ACTI.SCRI "Sound_Dwemer_Fan$00"
 -ACTI
  ACTI.NAME "AB_Furn_RoughBedStraw$00"
  ACTI.MODL "OAAB\u\roughBedStraw.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_RoughHammock$00"
  ACTI.MODL "OAAB\u\roughHammock.nif$00"
  ACTI.FNAM "Hammock$00"
- ACTI.SCRI [42 65 64 5F 53 74 61 6E 64 61 72 64 00]
+ ACTI.SCRI "Bed_Standard$00"
 -ACTI
  ACTI.NAME "AB_Furn_ShrineAlmalexia_a$00"
  ACTI.MODL "OAAB\u\shrine_almalexia_01.nif$00"
  ACTI.FNAM "Shrine of Almalexia$00"
- ACTI.SCRI [41 42 5F 53 68 72 69 6E 65 41 6C 6D 61 5F 73 00]
+ ACTI.SCRI "AB_ShrineAlma_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ShrineAzura_a$00"
  ACTI.MODL "OAAB\u\v_shrine_azura.nif$00"
  ACTI.FNAM "Shrine of Azura$00"
- ACTI.SCRI [41 42 5F 53 68 72 69 6E 65 41 7A 75 72 61 5F 73 00]
+ ACTI.SCRI "AB_ShrineAzura_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ShrineBoethiah_a$00"
  ACTI.MODL "OAAB\u\v_shrine_boeth.nif$00"
  ACTI.FNAM "Shrine of Boethiah$00"
- ACTI.SCRI [41 42 5F 53 68 72 69 6E 65 42 6F 65 74 68 69 61 68 5F 73 00]
+ ACTI.SCRI "AB_ShrineBoethiah_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ShrineMephala_a$00"
  ACTI.MODL "OAAB\u\v_shrine_meph.nif$00"
  ACTI.FNAM "Shrine of Mephala$00"
- ACTI.SCRI [41 42 5F 53 68 72 69 6E 65 4D 65 70 68 61 6C 61 5F 73 00]
+ ACTI.SCRI "AB_ShrineMephala_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_ShrineSothaSil_a$00"
  ACTI.MODL "OAAB\u\shrine_sothasil_01.nif$00"
  ACTI.FNAM "Shrine of Sotha Sil$00"
- ACTI.SCRI [41 42 5F 53 68 72 69 6E 65 53 6F 74 68 61 5F 73 00]
+ ACTI.SCRI "AB_ShrineSotha_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_StaffHeater_a$00"
  ACTI.MODL "m\apparatus_a_calcinator_01.nif$00"
@@ -26103,17 +26575,17 @@ End$00"
  ACTI.NAME "AB_Furn_StaffTable_a$00"
  ACTI.MODL "OAAB\u\dr_tbl_staff_01.nif$00"
  ACTI.FNAM "Staff Enchanter$00"
- ACTI.SCRI [41 42 5F 53 74 61 66 66 43 72 61 66 74 52 65 73 69 6E 5F 73 00]
+ ACTI.SCRI "AB_StaffCraftResin_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_StrawBed$00"
  ACTI.MODL "OAAB\u\strawBed.nif$00"
  ACTI.FNAM "Bed$00"
- ACTI.SCRI [41 42 5F 42 65 64 46 6C 65 61 73 5F 73 00]
+ ACTI.SCRI "AB_BedFleas_s$00"
 -ACTI
  ACTI.NAME "AB_Furn_VelSwitchEXAMPLE$00"
  ACTI.MODL "x\ex_gg_gateswitch_01.nif$00"
  ACTI.FNAM "Switch$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_AshMireBubble$00"
  ACTI.MODL "OAAB\e\ashmire_bubble.nif$00"
@@ -26129,31 +26601,31 @@ End$00"
 -ACTI
  ACTI.NAME "AB_Fx_DarkHole_a$00"
  ACTI.MODL "OAAB\e\cave_door_night.nif$00"
- ACTI.SCRI [41 42 5F 4E 69 67 68 74 41 63 74 69 76 61 74 65 5F 73 00]
+ ACTI.SCRI "AB_NightActivate_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_GeyserWater$00"
  ACTI.MODL "OAAB\e\GeyserWater.nif$00"
- ACTI.SCRI [41 42 5F 47 65 79 73 65 72 56 46 58 5F 73 00]
+ ACTI.SCRI "AB_GeyserVFX_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_GeyserWaterDMG$00"
  ACTI.MODL "OAAB\e\GeyserCollisionDmg.nif$00"
- ACTI.SCRI [41 42 5F 47 65 79 73 65 72 43 6F 6C 6C 69 73 69 6F 6E 44 4D 47 5F 73 00]
+ ACTI.SCRI "AB_GeyserCollisionDMG_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_KwamaPuke$00"
  ACTI.MODL "OAAB\e\kwama_puke.nif$00"
- ACTI.SCRI [41 42 5F 4B 77 61 6D 61 45 66 66 65 63 74 5F 73 00]
+ ACTI.SCRI "AB_KwamaEffect_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_Lava1024$00"
  ACTI.MODL "OAAB\e\lava_1024.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_Lava256rnd$00"
  ACTI.MODL "OAAB\e\lava_256rnd.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_Lava4096$00"
  ACTI.MODL "OAAB\e\lava_4096.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LavaBubble$00"
  ACTI.MODL "OAAB\e\lava_bubble.nif$00"
@@ -26163,53 +26635,57 @@ End$00"
 -ACTI
  ACTI.NAME "AB_Fx_LavaFall00$00"
  ACTI.MODL "OAAB\e\lava_fall_00.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LavaFall01$00"
  ACTI.MODL "OAAB\e\lava_fall_01.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LavaMagma1024$00"
  ACTI.MODL "OAAB\e\lava_magma1024.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LavaMagma4096$00"
  ACTI.MODL "OAAB\e\lava_magma4096.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LavaRipple$00"
  ACTI.MODL "OAAB\e\lava_ripple.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LavaTrans00$00"
  ACTI.MODL "OAAB\e\lava_trans00.nif$00"
 -ACTI
  ACTI.NAME "AB_Fx_LightHole_a$00"
  ACTI.MODL "OAAB\e\cave_door_day.nif$00"
- ACTI.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ ACTI.SCRI "AB_DayActivate_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LightRay2_a$00"
  ACTI.MODL "OAAB\e\cave_ray_02.nif$00"
- ACTI.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ ACTI.SCRI "AB_DayActivate_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LightRay3_a$00"
  ACTI.MODL "OAAB\e\cave_ray_03.nif$00"
- ACTI.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ ACTI.SCRI "AB_DayActivate_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_LightRay_a$00"
  ACTI.MODL "OAAB\e\cave_ray_01.nif$00"
- ACTI.SCRI [41 42 5F 44 61 79 41 63 74 69 76 61 74 65 5F 73 00]
+ ACTI.SCRI "AB_DayActivate_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_MagicLevitation$00"
  ACTI.MODL "OAAB\e\levitation.nif$00"
 -ACTI
  ACTI.NAME "AB_Fx_MagicMystCast$00"
  ACTI.MODL "OAAB\e\magic_cast_myst.nif$00"
- ACTI.SCRI [41 42 5F 4D 61 67 69 63 46 78 43 61 73 74 32 73 65 63 6F 6E 64 5F 73 00]
+ ACTI.SCRI "AB_MagicFxCast2second_s$00"
+-ACTI
+ ACTI.NAME "AB_Fx_MagicSummon$00"
+ ACTI.MODL "oaab\e\magic_summon.nif$00"
+ ACTI.SCRI "AB_MagicFxCast1point5second_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_SteamLeak$00"
  ACTI.MODL "OAAB\e\steamLeak.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 53 74 65 61 6D 00]
+ ACTI.SCRI "Sound_Steam$00"
 -ACTI
  ACTI.NAME "AB_Fx_StreamRipple$00"
  ACTI.MODL "OAAB\e\streamRipple.nif$00"
@@ -26222,203 +26698,203 @@ End$00"
 -ACTI
  ACTI.NAME "AB_Fx_TelPlanterWater$00"
  ACTI.MODL "OAAB\e\t_planter_water.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterCircle1024$00"
  ACTI.MODL "OAAB\e\water_circle1024.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterCircle128$00"
  ACTI.MODL "OAAB\e\water_circle128.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterCircle2048$00"
  ACTI.MODL "OAAB\e\water_circle2048.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterCircle256$00"
  ACTI.MODL "OAAB\e\water_circle256.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterCircle512$00"
  ACTI.MODL "OAAB\e\water_circle512.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterCircle64$00"
  ACTI.MODL "OAAB\e\water_circle64.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallMid$00"
  ACTI.MODL "OAAB\e\waterfall_test.NIF$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallSmall$00"
  ACTI.MODL "OAAB\e\waterfall_test_smal.NIF$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallStreamCanal$00"
  ACTI.MODL "OAAB\e\waterfallStreamCanal.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallStreamMid$00"
  ACTI.MODL "OAAB\e\waterfallStreamMid.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallTall$00"
  ACTI.MODL "OAAB\e\waterfall_03.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallWide01$00"
  ACTI.MODL "OAAB\e\waterfallWide01.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallWide02$00"
  ACTI.MODL "OAAB\e\waterfallWide02.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFallWideTall$00"
  ACTI.MODL "OAAB\e\waterfallWideTall.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowCv256a$00"
  ACTI.MODL "OAAB\e\water_cvflow256.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowCv256b$00"
  ACTI.MODL "OAAB\e\water_cvflow256s.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowCv512a$00"
  ACTI.MODL "OAAB\e\water_cvflow512.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowCv512b$00"
  ACTI.MODL "OAAB\e\water_cvflow512s.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowSq1024$00"
  ACTI.MODL "OAAB\e\water_sqflow1024.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowSq256$00"
  ACTI.MODL "OAAB\e\water_sqflow256.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowSq512$00"
  ACTI.MODL "OAAB\e\water_sqflow512.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowSt256a$00"
  ACTI.MODL "OAAB\e\water_rectf256_01.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowSt256b$00"
  ACTI.MODL "OAAB\e\water_rectf256_02.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterFlowSt256c$00"
  ACTI.MODL "OAAB\e\water_rectf256_03.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterMist01$00"
  ACTI.MODL "OAAB\e\waterfall_mist_s_01.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterMist02$00"
  ACTI.MODL "OAAB\e\waterfall_mist_01.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapid$00"
  ACTI.MODL "OAAB\e\water_rapid.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapidCv256a$00"
  ACTI.MODL "OAAB\e\water_cvrapd256.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapidCv256b$00"
  ACTI.MODL "OAAB\e\water_cvrapd256s.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapidCv512a$00"
  ACTI.MODL "OAAB\e\water_cvrapd512.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapidCv512b$00"
  ACTI.MODL "OAAB\e\water_cvrapd512s.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapidSt256a$00"
  ACTI.MODL "OAAB\e\water_rectr256_01.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapidSt256b$00"
  ACTI.MODL "OAAB\e\water_rectr256_02.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRapidSt256c$00"
  ACTI.MODL "OAAB\e\water_rectr256_03.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRect256a$00"
  ACTI.MODL "OAAB\e\water_rects256_01.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRect256b$00"
  ACTI.MODL "OAAB\e\water_rects256_02.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRect256c$00"
  ACTI.MODL "OAAB\e\water_rects256_03.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterRipples$00"
  ACTI.MODL "OAAB\e\ripples.nif$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterSquare1024$00"
  ACTI.MODL "OAAB\e\water_sqstat1024.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterSquare256$00"
  ACTI.MODL "OAAB\e\water_sqstat256.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterSquare512$00"
  ACTI.MODL "OAAB\e\water_sqstat512.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 57 61 74 65 72 4C 61 79 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundWaterLayer_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WaterfallMist$00"
  ACTI.MODL "OAAB\e\waterfallMist.nif$00"
 -ACTI
  ACTI.NAME "AB_Fx_WebExplosion$00"
  ACTI.MODL "OAAB\e\web_explode.nif$00"
- ACTI.SCRI [41 42 5F 57 65 62 45 78 70 6C 6F 73 69 6F 6E 5F 73 00]
+ ACTI.SCRI "AB_WebExplosion_s$00"
 -ACTI
  ACTI.NAME "AB_Fx_WebTrap$00"
  ACTI.MODL "OAAB\e\web_trap.nif$00"
  ACTI.FNAM "Web$00"
- ACTI.SCRI [41 42 5F 57 65 62 54 72 61 70 5F 73 00]
+ ACTI.SCRI "AB_WebTrap_s$00"
 -ACTI
  ACTI.NAME "AB_In_CaveLavaLavaPool$00"
  ACTI.MODL "OAAB\i\lavacave_lavapool00.nif$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_SoundLava_s$00"
 -ACTI
  ACTI.NAME "AB_In_CavePySpoutFire$00"
  ACTI.MODL "OAAB\e\cave_py_spout_fire.nif$00"
 -ACTI
  ACTI.NAME "AB_In_CavePySpoutLava00$00"
  ACTI.MODL "OAAB\e\cave_py_spout_lava00.nif$00"
- ACTI.SCRI [41 42 5F 4C 61 76 61 5F 73 00]
+ ACTI.SCRI "AB_Lava_s$00"
 -ACTI
  ACTI.NAME "AB_In_CavePyVentSteam01$00"
  ACTI.MODL "OAAB\i\cave_py_vent_act_01.nif$00"
  ACTI.FNAM "Sulphur Vent$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 53 74 65 61 6D 00]
+ ACTI.SCRI "Sound_Steam$00"
 -ACTI
  ACTI.NAME "AB_In_CavePyVentSteam02$00"
  ACTI.MODL "OAAB\i\cave_py_vent_act_02.nif$00"
  ACTI.FNAM "Sulphur Vent$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 53 74 65 61 6D 00]
+ ACTI.SCRI "Sound_Steam$00"
 -ACTI
  ACTI.NAME "AB_In_ComCryptPlaque$00"
  ACTI.MODL "OAAB\i\comCryptPlaque.nif$00"
@@ -26430,196 +26906,196 @@ End$00"
  ACTI.NAME "AB_In_DaeRunestone_01$00"
  ACTI.MODL "OAAB\m\rem_dae_runestone_01.nif$00"
  ACTI.FNAM "Daedric Runestone Sentry$00"
- ACTI.SCRI [41 42 5F 47 65 6D 54 72 61 70 53 63 72 69 70 74 30 31 00]
+ ACTI.SCRI "AB_GemTrapScript01$00"
 -ACTI
  ACTI.NAME "AB_In_DaeRunestone_02$00"
  ACTI.MODL "OAAB\m\rem_dae_runestone_02.nif$00"
  ACTI.FNAM "Daedric Runestone Sentry$00"
- ACTI.SCRI [41 42 5F 47 65 6D 54 72 61 70 53 63 72 69 70 74 30 32 00]
+ ACTI.SCRI "AB_GemTrapScript02$00"
 -ACTI
  ACTI.NAME "AB_In_DaeRunestone_03$00"
  ACTI.MODL "OAAB\m\rem_dae_runestone_03.nif$00"
  ACTI.FNAM "Daedric Runestone Sentry$00"
- ACTI.SCRI [41 42 5F 47 65 6D 54 72 61 70 53 63 72 69 70 74 30 33 00]
+ ACTI.SCRI "AB_GemTrapScript03$00"
 -ACTI
  ACTI.NAME "AB_In_DwrvCentChute_a$00"
  ACTI.MODL "OAAB\i\dwrvCentChute.nif$00"
- ACTI.SCRI [41 42 5F 44 77 72 76 43 65 6E 74 43 68 75 74 65 5F 73 00]
+ ACTI.SCRI "AB_DwrvCentChute_s$00"
 -ACTI
  ACTI.NAME "AB_In_DwrvRoomGrateStairsEXAMPL$00"
  ACTI.MODL "OAAB\i\dwrvRoomGrateStairsA.nif$00"
 -ACTI
  ACTI.NAME "AB_In_KwamaAcid1024$00"
  ACTI.MODL "OAAB\i\kwama_acid_large.nif$00"
- ACTI.SCRI [41 42 5F 4B 77 61 6D 61 41 63 69 64 50 6F 6F 6C 5F 73 00]
+ ACTI.SCRI "AB_KwamaAcidPool_s$00"
 -ACTI
  ACTI.NAME "AB_In_KwamaAcid4096$00"
  ACTI.MODL "OAAB\i\kwama_acid_huge.nif$00"
- ACTI.SCRI [41 42 5F 4B 77 61 6D 61 41 63 69 64 50 6F 6F 6C 5F 73 00]
+ ACTI.SCRI "AB_KwamaAcidPool_s$00"
 -ACTI
  ACTI.NAME "AB_In_KwamaAcid512$00"
  ACTI.MODL "OAAB\i\kwama_acid.nif$00"
- ACTI.SCRI [41 42 5F 4B 77 61 6D 61 41 63 69 64 50 6F 6F 6C 5F 73 00]
+ ACTI.SCRI "AB_KwamaAcidPool_s$00"
 -ACTI
  ACTI.NAME "AB_In_KwamaAcidPool$00"
  ACTI.MODL "OAAB\i\kwama_acid_pool.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 6D 75 64 5F 62 75 62 62 6C 65 73 00]
+ ACTI.SCRI "Sound_mud_bubbles$00"
 -ACTI
  ACTI.NAME "AB_In_KwamaTowerForager_a$00"
  ACTI.MODL "OAAB\i\kwama_forager_twr01.nif$00"
- ACTI.SCRI [41 42 5F 4B 77 61 6D 61 46 6F 72 61 67 65 72 50 65 65 6B 5F 73 00]
+ ACTI.SCRI "AB_KwamaForagerPeek_s$00"
 -ACTI
  ACTI.NAME "AB_In_LavaPool01$00"
  ACTI.MODL "OAAB\x\rm_lavapool.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 4C 61 76 61 5F 56 61 74 00]
+ ACTI.SCRI "Sound_Lava_Vat$00"
 -ACTI
  ACTI.NAME "AB_In_MVCaveVentSteam01$00"
  ACTI.MODL "OAAB\i\mv_cave_vent_act_01.nif$00"
  ACTI.FNAM "Sulphur Vent$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 53 74 65 61 6D 00]
+ ACTI.SCRI "Sound_Steam$00"
 -ACTI
  ACTI.NAME "AB_In_MVCaveVentSteam02$00"
  ACTI.MODL "OAAB\i\mv_cave_vent_act_02.nif$00"
  ACTI.FNAM "Sulphur Vent$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 53 74 65 61 6D 00]
+ ACTI.SCRI "Sound_Steam$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystal00$00"
  ACTI.MODL "OAAB\i\t_crystal_00.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystal01$00"
  ACTI.MODL "OAAB\i\t_crystal_01.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystal02$00"
  ACTI.MODL "OAAB\i\t_crystal_02.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystal03$00"
  ACTI.MODL "OAAB\i\t_crystal_03.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystal04$00"
  ACTI.MODL "OAAB\i\t_crystal_04.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystal05$00"
  ACTI.MODL "OAAB\i\t_crystal_05.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystal06$00"
  ACTI.MODL "OAAB\i\t_crystal_06.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystalSmall00$00"
  ACTI.MODL "OAAB\i\t_crystal_00sm.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystalSmall01$00"
  ACTI.MODL "OAAB\i\t_crystal_01sm.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystalSmall02$00"
  ACTI.MODL "OAAB\i\t_crystal_02sm.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystalSmall03$00"
  ACTI.MODL "OAAB\i\t_crystal_03sm.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystalSmall04$00"
  ACTI.MODL "OAAB\i\t_crystal_04sm.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystalSmall05$00"
  ACTI.MODL "OAAB\i\t_crystal_05sm.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI
  ACTI.NAME "AB_In_TelCrystalSmall06$00"
  ACTI.MODL "OAAB\i\t_crystal_06sm.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 43 72 79 73 74 61 6C 5F 52 69 6E 67 69 6E 67 00]
+ ACTI.SCRI "Sound_Crystal_Ringing$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "AB_In_VelPitHidDoorEXAMPLE$00"
  ACTI.MODL "OAAB\i\v_pitroom_hidDoor.nif$00"
 -ACTI
  ACTI.NAME "AB_In_VelPlatformSpear$00"
  ACTI.MODL "OAAB\i\v_platform_spear.nif$00"
- ACTI.SCRI [41 42 5F 53 70 65 61 72 54 72 61 70 5F 73 00]
+ ACTI.SCRI "AB_SpearTrap_s$00"
 -ACTI
  ACTI.NAME "AB_Mrk_LevitationDisabler$00"
  ACTI.MODL "OAAB\h\LevitationDisabler.nif$00"
  ACTI.FNAM "Disables levitation in the cell$00"
- ACTI.SCRI [41 42 5F 4C 65 76 69 74 61 74 69 6F 6E 44 69 73 61 62 6C 65 72 5F 73 00]
+ ACTI.SCRI "AB_LevitationDisabler_s$00"
 -ACTI
  ACTI.NAME "AB_Mrk_TeleportDisabler$00"
  ACTI.MODL "OAAB\h\TeleportDisabler.nif$00"
  ACTI.FNAM "Disables teleport in the cell$00"
- ACTI.SCRI [41 42 5F 54 65 6C 65 70 6F 72 74 44 69 73 61 62 6C 65 72 5F 73 00]
+ ACTI.SCRI "AB_TeleportDisabler_s$00"
 -ACTI
  ACTI.NAME "AB_Snd_Sparks$00"
  ACTI.MODL "EditorMarker.NIF$00"
  ACTI.FNAM "Sound_Sparks$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 53 70 61 72 6B 73 5F 73 00]
+ ACTI.SCRI "AB_SoundSparks_s$00"
 -ACTI
  ACTI.NAME "AB_Snd_StoneGrind$00"
  ACTI.MODL "editormarker.nif$00"
  ACTI.FNAM "Grinding Stone$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 53 74 6F 6E 65 47 72 69 6E 64 5F 73 00]
+ ACTI.SCRI "AB_SoundStoneGrind_s$00"
 -ACTI
  ACTI.NAME "AB_Snd_underwater$00"
  ACTI.MODL "EditorMarker.NIF$00"
  ACTI.FNAM "Sound_Underwater$00"
- ACTI.SCRI [41 42 5F 53 6F 75 6E 64 55 6E 64 65 72 77 61 74 65 72 5F 73 00]
+ ACTI.SCRI "AB_SoundUnderwater_s$00"
 -ACTI
  ACTI.NAME "AB_Terr_MaGeyserWater01$00"
  ACTI.MODL "OAAB\t\maGeyser01.nif$00"
- ACTI.SCRI [41 42 5F 47 65 79 73 65 72 57 61 74 65 72 45 6D 69 74 74 65 72 5F 73 00]
+ ACTI.SCRI "AB_GeyserWaterEmitter_s$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelBendL$00"
  ACTI.MODL "OAAB\t\streamGravelBendL.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelBendR$00"
  ACTI.MODL "OAAB\t\streamGravelBendR.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelLong$00"
  ACTI.MODL "OAAB\t\streamGravelLong.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelShort01$00"
  ACTI.MODL "OAAB\t\streamGravelShort01.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelShort02$00"
  ACTI.MODL "OAAB\t\streamGravelShort02.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelSplit$00"
  ACTI.MODL "OAAB\t\streamGravelSplit.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelTrans01$00"
  ACTI.MODL "OAAB\t\streamGravelTrans01.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI
  ACTI.NAME "AB_Terr_StreamGravelTrans02$00"
  ACTI.MODL "OAAB\t\streamGravelTrans02.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 57 61 74 65 72 5F 53 70 6F 75 74 00]
+ ACTI.SCRI "Sound_Water_Spout$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "AB_light_ComSconceLeverEXAMPLE$00"
  ACTI.MODL "OAAB\l\comSconceLever.nif$00"
  ACTI.FNAM "Loose Sconce$00"
- ACTI.SCRI [41 42 5F 45 78 61 6D 70 6C 65 5F 73 00]
+ ACTI.SCRI "AB_Example_s$00"
 -ACTI
  ACTI.NAME "AB_snd_DwrvMachinery$00"
  ACTI.MODL "editormarker.nif$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 4D 61 63 68 69 6E 65 72 79 00]
+ ACTI.SCRI "Sound_Machinery$00"
 -ACTI
  ACTI.NAME "AB_snd_MudBubbles$00"
  ACTI.MODL "EditorMarker.NIF$00"
  ACTI.FNAM "Sound_Mud_Bubbles$00"
- ACTI.SCRI [53 6F 75 6E 64 5F 6D 75 64 5F 62 75 62 62 6C 65 73 00]
+ ACTI.SCRI "Sound_mud_bubbles$00"
 -APPA
  APPA.NAME "AB_App_EbAlembic$00"
  APPA.MODL "OAAB\m\rem_ebony_alembic.nif$00"
@@ -46873,8 +47349,10 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.NAME "Ridding a colony of blight is expensive and dangerous, because of the fierce attacks of sick kwama foragers and warriors, and the risk of spreading disease."
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.SCVR "12sX4Random100"
  INFO.INTV [21 00 00 00]
+ #1: Global-short Random100 < 33
  INFO.BNAM ";eggminer$00"
 -INFO
  INFO.INAM "2861652852597225576$00"
@@ -46885,8 +47363,10 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.NAME "A diseased kwama mine is a great hardship for the whole mining community. Blighted eggs are inedible, and miners catch blight diseases."
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.SCVR "12sX4Random100"
  INFO.INTV [42 00 00 00]
+ #1: Global-short Random100 < 66
  INFO.BNAM ";eggminer$00"
 -INFO
  INFO.INAM "302562312286861661$00"
@@ -46897,6 +47377,7 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.NAME "Kwama foragers range far from their homes, deep into the ashlands as far as the Ghostfence. Foragers caught in blight storms become infected, and return and infect their queen and the whole colony."
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.BNAM ";eggminer$00"
 -DIAL
  DIAL.NAME "kwama$00"
@@ -46932,6 +47413,7 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.NAME "Kwama eggs are one of the most popular sources of protein in Morrowind. They stay fresh for a long time and their soft shells make them relatively easy to transport, which has made them popular throughout the Empire. Mind yourself around the eggs though, outlander. The mature ones will splash you with acid if you get too close. Look for the eggs that throb slightly. If you hear a scream: run."
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.BNAM ";eggminer
 ;dunmer$00"
 -INFO
@@ -46943,6 +47425,7 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.NAME "Kwama eggs are one of the most popular sources of protein in Morrowind. They stay fresh for a long time and their soft shells make them relatively easy to transport which has spread their popularity throughout the empire. Mind yourself around the eggs though, %PCRace. The mature ones will splash you with acid if you get too close. Look for the eggs that throb slightly. If you hear a scream: run."
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.BNAM ";eggminer$00"
 -DIAL
  DIAL.NAME "kwama forager$00"
@@ -47134,8 +47617,10 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.NAME "Thank you, kind %PCRace."
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
+ #0: Function-Alarmed = 1
  INFO.SCVR "15IX3Gold_001"
  INFO.INTV [01 00 00 00]
+ #1: Item-Item Gold_001 >= 1
  INFO.BNAM "Player->RemoveItem Gold_001 1
 ModDisposition 1$00"
 -INFO
@@ -47147,8 +47632,10 @@ ModDisposition 1$00"
  INFO.NAME "That's a cruel joke."
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
+ #0: Function-Alarmed = 1
  INFO.SCVR "15IX4Gold_001"
  INFO.INTV [01 00 00 00]
+ #1: Item-Item Gold_001 < 1
  INFO.BNAM "ModDisposition -2$00"
 -INFO
  INFO.INAM "1802654773183710938$00"
@@ -47159,6 +47646,7 @@ ModDisposition 1$00"
  INFO.NAME "Please..."
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
+ #0: Function-Alarmed = 2
 -INFO
  INFO.INAM "2533532098255582004$00"
  INFO.PNAM "1802654773183710938$00"
@@ -47181,6 +47669,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "1659298871120718014$00"
  INFO.PNAM "21363319462597427878$00"
@@ -47192,6 +47681,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "7272575328234706$00"
  INFO.PNAM "1659298871120718014$00"
@@ -47203,6 +47693,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "4090192691794812856$00"
  INFO.PNAM "7272575328234706$00"
@@ -47214,6 +47705,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "14695162372278614098$00"
  INFO.PNAM "4090192691794812856$00"
@@ -47225,6 +47717,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "202813988183042807$00"
  INFO.PNAM "14695162372278614098$00"
@@ -47236,6 +47729,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "121872647370832815$00"
  INFO.PNAM "202813988183042807$00"
@@ -47247,6 +47741,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "20230159553159816704$00"
  INFO.PNAM "121872647370832815$00"
@@ -47258,6 +47753,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "1566889261083319956$00"
  INFO.PNAM "20230159553159816704$00"
@@ -47269,6 +47765,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "15556146161297720775$00"
  INFO.PNAM "1566889261083319956$00"
@@ -47280,6 +47777,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "27595278873169907$00"
  INFO.PNAM "15556146161297720775$00"
@@ -47291,6 +47789,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "3143711353082518361$00"
  INFO.PNAM "27595278873169907$00"
@@ -47302,6 +47801,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "9182503534607021$00"
  INFO.PNAM "3143711353082518361$00"
@@ -47313,6 +47813,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "15648252041035225935$00"
  INFO.PNAM "9182503534607021$00"
@@ -47324,6 +47825,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon ye."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "1592532418698512929$00"
  INFO.PNAM "15648252041035225935$00"
@@ -47335,6 +47837,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "27488198223226710836$00"
  INFO.PNAM "1592532418698512929$00"
@@ -47346,6 +47849,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "295533095529259084$00"
  INFO.PNAM "27488198223226710836$00"
@@ -47357,6 +47861,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "156286182262286691$00"
  INFO.PNAM "295533095529259084$00"
@@ -47368,6 +47873,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "2534266002773814998$00"
  INFO.PNAM "156286182262286691$00"
@@ -47379,6 +47885,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "427927761154327179$00"
  INFO.PNAM "2534266002773814998$00"
@@ -47390,6 +47897,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "9999273941794625101$00"
  INFO.PNAM "427927761154327179$00"
@@ -47401,6 +47909,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "104428157376326262$00"
  INFO.PNAM "9999273941794625101$00"
@@ -47412,6 +47921,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "237071784323691484$00"
  INFO.PNAM "104428157376326262$00"
@@ -47423,6 +47933,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "784715339189610661$00"
  INFO.PNAM "237071784323691484$00"
@@ -47434,6 +47945,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "1064320503802622731$00"
  INFO.PNAM "784715339189610661$00"
@@ -47445,6 +47957,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "2322610303325503569$00"
  INFO.PNAM "1064320503802622731$00"
@@ -47456,6 +47969,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "826029825118344374$00"
  INFO.PNAM "2322610303325503569$00"
@@ -47467,6 +47981,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "1358215075704630873$00"
  INFO.PNAM "826029825118344374$00"
@@ -47478,6 +47993,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "2545973691036412086$00"
  INFO.PNAM "1358215075704630873$00"
@@ -47489,6 +48005,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "2675018907222203618$00"
  INFO.PNAM "2545973691036412086$00"
@@ -47500,6 +48017,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "2627824788264523071$00"
  INFO.PNAM "2675018907222203618$00"
@@ -47511,6 +48029,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "2260928537370311190$00"
  INFO.PNAM "2627824788264523071$00"
@@ -47522,6 +48041,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "245553357162186389$00"
  INFO.PNAM "2260928537370311190$00"
@@ -47533,6 +48053,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "1929052141944118519$00"
  INFO.PNAM "245553357162186389$00"
@@ -47544,6 +48065,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "29913314421376915662$00"
  INFO.PNAM "1929052141944118519$00"
@@ -47555,6 +48077,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "1997627303068017186$00"
  INFO.PNAM "29913314421376915662$00"
@@ -47566,6 +48089,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "19800270673189530317$00"
  INFO.PNAM "1997627303068017186$00"
@@ -47577,6 +48101,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "2659331753142566092$00"
  INFO.PNAM "19800270673189530317$00"
@@ -47588,6 +48113,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon ye."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "2907398412522727213$00"
  INFO.PNAM "2659331753142566092$00"
@@ -47599,6 +48125,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "1279112217174529313$00"
  INFO.PNAM "2907398412522727213$00"
@@ -47610,6 +48137,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "23778116112230825490$00"
  INFO.PNAM "1279112217174529313$00"
@@ -47621,6 +48149,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "14542152023141519169$00"
  INFO.PNAM "23778116112230825490$00"
@@ -47632,6 +48161,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "6808120173151913738$00"
  INFO.PNAM "14542152023141519169$00"
@@ -47643,6 +48173,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "2233711895446711129$00"
  INFO.PNAM "6808120173151913738$00"
@@ -47654,6 +48185,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "177577802845710493$00"
  INFO.PNAM "2233711895446711129$00"
@@ -47665,6 +48197,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "849632042801012912$00"
  INFO.PNAM "177577802845710493$00"
@@ -47676,6 +48209,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "282845034913518237$00"
  INFO.PNAM "849632042801012912$00"
@@ -47687,6 +48221,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "18904129941484722355$00"
  INFO.PNAM "282845034913518237$00"
@@ -47698,6 +48233,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "28017126251673817216$00"
  INFO.PNAM "18904129941484722355$00"
@@ -47709,6 +48245,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "10698252322369115197$00"
  INFO.PNAM "28017126251673817216$00"
@@ -47720,6 +48257,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "781346152082628075$00"
  INFO.PNAM "10698252322369115197$00"
@@ -47731,6 +48269,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "108034043875477$00"
  INFO.PNAM "781346152082628075$00"
@@ -47742,6 +48281,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "249179272039129814$00"
  INFO.PNAM "108034043875477$00"
@@ -47753,6 +48293,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "11705147562431218031$00"
  INFO.PNAM "249179272039129814$00"
@@ -47764,6 +48305,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "237854307275986251$00"
  INFO.PNAM "11705147562431218031$00"
@@ -47775,6 +48317,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "1160531134625328814$00"
  INFO.PNAM "237854307275986251$00"
@@ -47786,6 +48329,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "301225926297455150$00"
  INFO.PNAM "1160531134625328814$00"
@@ -47797,6 +48341,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "14935307343128512894$00"
  INFO.PNAM "301225926297455150$00"
@@ -47808,6 +48353,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "23363206591154515655$00"
  INFO.PNAM "14935307343128512894$00"
@@ -47819,6 +48365,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "2939313722699710049$00"
  INFO.PNAM "23363206591154515655$00"
@@ -47830,6 +48377,7 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "1714127724127944393$00"
  INFO.PNAM "2939313722699710049$00"
@@ -47841,6 +48389,7 @@ ModDisposition 1$00"
  INFO.NAME "A coin for an old beggar?"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [4B 00 00 00]
+ #0: Global-short Random100 >= 75
 -INFO
  INFO.INAM "9824199681025219501$00"
  INFO.PNAM "1714127724127944393$00"
@@ -47852,6 +48401,7 @@ ModDisposition 1$00"
  INFO.NAME "Blessings of Mystara upon you."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
+ #0: Global-short Random100 >= 50
 -INFO
  INFO.INAM "339415241324411365$00"
  INFO.PNAM "9824199681025219501$00"
@@ -47863,6 +48413,7 @@ ModDisposition 1$00"
  INFO.NAME "I'm so hungry..."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25
 -INFO
  INFO.INAM "11549287008930329$00"
  INFO.PNAM "339415241324411365$00"
@@ -47874,3 +48425,4 @@ ModDisposition 1$00"
  INFO.NAME "One more coin and I can get a pair of shoes."
  INFO.SCVR "02sX3Random100"
  INFO.INTV [19 00 00 00]
+ #0: Global-short Random100 >= 25

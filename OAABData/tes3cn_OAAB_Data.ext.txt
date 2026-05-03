@@ -710,6 +710,10 @@ Cave Opening
 Portal
 ###
 
+> DOOR.FNAM AB_Door_RedJail_In
+Cell Door
+###
+
 > DOOR.FNAM AB_Door_RedLarge
 Wooden Door
 ###
@@ -736,6 +740,18 @@ Trap Door
 
 > DOOR.FNAM AB_Door_TelTrapdoor_In
 Trap Door
+###
+
+> MISC.FNAM AB_Key_IronRuin01
+Iron Key
+###
+
+> MISC.FNAM AB_Key_IronRuin02
+Iron Key
+###
+
+> MISC.FNAM AB_Key_IronRuin03
+Iron Key
 ###
 
 > MISC.FNAM AB_Key_Junk
