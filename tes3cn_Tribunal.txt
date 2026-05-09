@@ -48380,7 +48380,7 @@ Journal MS_CrimsonPlague 30"
  INFO.NNAM "2950564922513021735$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Nerile Andaren$00"
- INFO.NAME "谢谢你的照顾，%PCName。"
+ INFO.NAME "谢谢你的处理，%PCName。"
  INFO.SCVR "04JX3MS_CrimsonPlague"
  INFO.INTV [46 00 00 00]
  #0: Journal-Journal MS_CrimsonPlague >= 70
@@ -50743,7 +50743,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "King Hlaalu Helseth$00"
- INFO.NAME "这就对了。我已经开始认识你了，%PCName。我相信你可以对我有所作为。但我的计划需要一个有能力或有智慧的人。也许两者都需要。现在是你向我证明这一点的时候了。明天回来，你将和卡罗德决斗。如果你能打败他，我们将讨论为你准备的计划。 {有所用途,对我有用,力量}"
+ INFO.NAME "这就对了。我已经开始认识你了，%PCName。我相信你可以对我有些用处。但我的计划需要一个有能力或有智慧的人。也许两者都需要。现在是你向我证明这一点的时候了。明天回来，你将和卡罗德决斗。如果你能打败他，我们将讨论为你准备的计划。 {有所用途,对我有用,力量}"
  INFO.SCVR "04JX4TR_Champion"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal TR_Champion < 20

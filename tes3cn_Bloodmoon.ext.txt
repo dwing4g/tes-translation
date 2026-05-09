@@ -3728,7 +3728,7 @@ The old man laughed and got up from his chair.<BR>
 <BR>
 “去隐匿乐声洞穴，仔细聆听大地乐章。”<BR>
 <BR>
-于是艾瓦先向北后向西走，到达了隐匿乐声洞穴。他发现自己身处一个巨大的洞穴中，岩石像有生命一样从洞穴顶端和地面生长出来。他自习聆听，听见了大地乐章，但是声音太小了。艾瓦抽出他的钉头锤，应着乐章的节拍敲打岩石，乐章的声音越来越响，直到声音充满整个洞穴，直达他心中。然后他返回了地之石碑。<BR>
+于是艾瓦先向北后向西走，到达了隐匿乐声洞穴。他发现自己身处一个巨大的洞穴中，岩石像有生命一样从洞穴顶端和地面生长出来。他仔细聆听，听见了大地乐章，但是声音太小了。艾瓦抽出他的钉头锤，应着乐章的节拍敲打岩石，乐章的声音越来越响，直到声音充满整个洞穴，直达他心中。然后他返回了地之石碑。<BR>
 <BR>
 “地之恩赐再一次属于斯卡尔，”造物主说道，“土地将变得肥沃，可以孕育生命。”<BR>
 <BR>
@@ -4121,7 +4121,7 @@ Snow Bear armor test guy
 
 > NPC_.FNAM BM_snowarmortest_2
 Snow Wolf armor test guy
-雪狼盔甲测试人
+雪狼铠甲测试人
 
 > ARMO.FNAM BM_wolf_boots_snow
 Snow Wolf Boots
@@ -4423,7 +4423,7 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 <BR>
 材料和价格表<BR>
 <BR>
-雪熊护甲<BR>
+雪熊盔甲<BR>
 雪熊胸甲：5张雪熊皮和6000金币<BR>
 雪熊左肩甲：2张雪熊皮和1000金币<BR>
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
@@ -4433,7 +4433,7 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 雪熊靴子：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
 <BR>
-雪狼护甲<BR>
+雪狼铠甲<BR>
 雪狼胸甲：5张雪狼皮和6000金币<BR>
 雪狼肩甲：2张雪狼皮和1000金币<BR>
 雪狼肩甲：2张雪狼皮和1000金币<BR>
@@ -5641,7 +5641,7 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 <BR>
 材料和价格表<BR>
 <BR>
-雪熊护甲<BR>
+雪熊盔甲<BR>
 雪熊胸甲：5张雪熊皮和6000金币<BR>
 雪熊左肩甲：2张雪熊皮和1000金币<BR>
 雪熊右肩甲：2张雪熊皮和1000金币<BR>
@@ -5651,7 +5651,7 @@ Snow Wolf Helm: 2 snow wolf pelts and 2000 gold<BR>
 雪熊靴子：3张雪熊皮和3000金币<BR>
 雪熊头盔：2张雪熊皮和2000金币<BR>
 <BR>
-雪狼护甲<BR>
+雪狼铠甲<BR>
 雪狼胸甲：5张雪狼皮和6000金币<BR>
 雪狼左肩甲：2张雪狼皮和1000金币<BR>
 雪狼右肩甲：2张雪狼皮和1000金币<BR>
@@ -16662,7 +16662,7 @@ The matter is now officially closed.
 
 > INFO.NAME mirisa never returned 11652263981039529283
 You...you say my Mirisa is dead? Noooooooo! Why? Why did this happen? She was so young, so innocent.... %PCName...I thank you for relaying this information, tragic as it may be. I'm sure you did everything in your power to help my love. Please, take this gold as payment for your services. Now if you don't mind, I wish to be alone.
-你…你说我的米丽莎死了？不！为什么？为什么会发生这种事？她那么年轻，那么天真……%PCName…我感谢你转告我这个消息，尽管这可能是个悲剧。我相信你已经竭尽全力帮助我的爱人了。请收下这些金子，作为你的报酬。如果你不介意，我想一个人静一静。 {服务}
+你…你说我的米丽莎死了？不！为什么？为什么会发生这种事？她那么年轻，那么天真……%PCName…我感谢你转告我这个消息，尽管这可能是个悲剧。我相信你已经竭尽全力帮助我的爱人了。请收下这些金币，作为你的报酬。如果你不介意，我想一个人静一静。 {服务}
 
 > INFO.NAME mirisa never returned 23072326822626319393
 But I have returned, thanks to you!
@@ -16670,7 +16670,7 @@ But I have returned, thanks to you!
 
 > INFO.NAME mirisa never returned 31081201001469630002
 Erich has had me locked in this room every day! I could have escaped a couple of times, but I was afraid he would kill me if I got caught! Please, you have to get me out of here!
-埃里希每天都把我关在这个房间里！我本来可以逃出去几次的，但我怕被抓住他会杀了我！求你了，你一定要把我弄出去！ {带我出去}
+埃里希每天都把我关在这个房间里！我本来有几次机会可以逃出去的，但我怕被抓住他会杀了我！求你了，你一定要把我弄出去！ {带我出去}
 
 > INFO.NAME mirisa never returned 6391326961312014944
 Ha! You want to know a secret? I have the little tramp locked upstairs in my room! That's right. She came here preaching about how mead is evil. Made me right furious, it did. So I took her. I smack her around every now and then, throw mead on her, that sort of thing! Ha ha ha ha ha!
@@ -16970,7 +16970,7 @@ I hope you're not proud of what you did...
 
 > INFO.NAME hroldar the strange 187438996139851497
 Thank you for taking care of him, %PCName.
-谢谢你照顾他，%PCName。
+谢谢你处理了他，%PCName。
 
 > INFO.NAME hroldar the strange 1139594622070622806
 I hope you're not proud of what you did...
@@ -16978,7 +16978,7 @@ I hope you're not proud of what you did...
 
 > INFO.NAME hroldar the strange 72229722638326274
 Thank you for taking care of him, %PCName.
-谢谢你照顾他，%PCName。
+谢谢你处理了他，%PCName。
 
 > INFO.NAME hroldar the strange 26132451667068
 Did you get rid of him?
@@ -18652,7 +18652,7 @@ So be it, %PCName.  Come talk to me again if you change your mind.
 
 > INFO.NAME snow wolf armor 2137324268882516639
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Helm ready.
-我就知道你会来的，%PCName！把皮毛和金子给我，明天同一时间再来，我会准备好你的定制雪狼盔。
+我就知道你会来的，%PCName！把皮毛和金币给我，明天同一时间再来，我会准备好你的定制雪狼盔。
 
 > INFO.NAME snow wolf armor 840455041025321946
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18736,7 +18736,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow wolf armor 2002218491222351564
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Wolf Cuirass ready.
-我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会为你准备好定制的雪狼铠甲。
+我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会为你准备好定制的雪狼胸甲。
 
 > INFO.NAME snow wolf armor 252912854419113702
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18752,7 +18752,7 @@ I'm already crafting you a piece of custom armor. Just be patient. You can't rus
 
 > INFO.NAME snow wolf armor 29386163853098932001
 You bring me the snow wolf pelts and gold, and I'll make a piece of custom snow wolf armor.  I'll have it ready in twenty-four hours.  You've got my list of prices and pelt requirements.  Which piece of armor were you interested in?
-你把雪狼皮和黄金拿给我，我就会为你定制一件雪狼铠甲。二十四小时内就能做好。你已经拿到了我的价格和毛皮要求清单，你对哪件盔甲感兴趣？
+你把雪狼皮和金币拿给我，我就会为你定制一件雪狼铠甲。二十四小时内就能做好。你已经拿到了我的价格和毛皮要求清单，你对哪件盔甲感兴趣？
 
 > INFO.BNAM snow wolf armor 29386163853098932001 c1
 Snow Wolf Cuirass
@@ -18792,7 +18792,7 @@ Nothing Right Now
 
 > INFO.NAME snow wolf armor 2721026021117127366
 It's simple.  You bring me the snow wolf pelts and gold, and I'll make a piece of custom light snow wolf armor.  I even have a special method of treating the fur that will enhance the natural protective properties against frost.  Whatever you order will be ready in twenty-four hours.  Take this scroll.  It lists my prices and requirements for each piece of armor.  If you're interested, and you have enough pelts and gold, talk to me again.  I'll fire up my forge, and you'll have your new armor in a day.
-很简单，你把雪狼皮和黄金带给我，我就能定制一件雪狼铠甲。我甚至有一种特殊的皮毛处理方法，可以增强天然的防冻性能。你要的东西二十四小时内就能做好。拿着这个卷轴，上面列出了每件盔甲的价格和要求。如果你有兴趣，又有足够的毛皮和金币，再和我谈谈吧。我会启动我的锻造炉，一天之内你就能拿到你的新盔甲了。
+很简单，你把雪狼皮和金币带给我，我就能定制一件雪狼铠甲。我甚至有一种特殊的皮毛处理方法，可以增强天然的防冻性能。你要的东西二十四小时内就能做好。拿着这个卷轴，上面列出了每件盔甲的价格和要求。如果你有兴趣，又有足够的毛皮和金币，再和我谈谈吧。我会启动我的锻造炉，一天之内你就能拿到你的新盔甲了。
 
 > INFO.NAME snow bear armor 2633819473694823572
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Bear Helm.  It came out even better than I expected.  If you need anything else, I'm your man!
@@ -18948,7 +18948,7 @@ You've got my list of armor requirements and prices, %PCName.  I can't make you 
 
 > INFO.NAME snow bear armor 1959926876901527781
 Aha!  I knew you'd come through, %PCName!  Give me the pelts and gold.  Come back tomorrow, same time, and I'll have your custom Snow Bear Cuirass ready.
-我就知道你会来的，%PCName！把毛皮和金子给我，明天同一时间再来，我会为你准备好定制的雪熊铠甲。
+我就知道你会来的，%PCName！把毛皮和金币给我，明天同一时间再来，我会为你准备好定制的雪熊铠甲。
 
 > INFO.NAME snow bear armor 286561794040049950
 You've got my list of armor requirements and prices, %PCName.  It takes a lot of work and a lot of skill to craft such fine armor, and quality like that is going to cost you.  Come back when you have enough gold.
@@ -18964,7 +18964,7 @@ I'm already crafting you a piece of custom armor. Just be patient. You can't rus
 
 > INFO.NAME snow bear armor 4354257353146619625
 You bring me the snow bear pelts and gold, and I'll make a piece of custom snow bear armor.  I'll have it ready in twenty-four hours.  You've got my list of prices and pelt requirements.  Which piece of armor were you interested in?
-你把雪熊皮和金子给我，我就给你定制一件雪熊盔甲，我会在24小时内做好。你已经拿到了我的价格和毛皮要求清单。你对哪件盔甲感兴趣？
+你把雪熊皮和金币给我，我就给你定制一件雪熊盔甲，我会在24小时内做好。你已经拿到了我的价格和毛皮要求清单。你对哪件盔甲感兴趣？
 
 > INFO.BNAM snow bear armor 4354257353146619625 c1
 Snow Bear Cuirass
@@ -21516,7 +21516,7 @@ I did not wish this upon you, Blodskaal, but you leave me little choice.
 
 > INFO.NAME greeting 0 2022623305278403449
 I accept the gold for the Skaal people. It will be added to the coffers of the village. Take care, Blodskaal. Do not let this become a habit.
-我接受斯卡尔人的黄金。这些金子将充实村子的国库。保重，布洛斯卡尔。别让这成为习惯。
+我接受斯卡尔人的金币。这些金币将充实村子的国库。保重，布洛斯卡尔。别让这成为习惯。
 
 > INFO.NAME greeting 0 14685265822458631302
 You have violated laws of the Skaal. Though you have been named Blodskaal, you are also known to be under the shadow of the beast. You must pay with your life.
@@ -21740,11 +21740,11 @@ Ask your questions but be quick, %PCClass.  I'm quite busy with the moon sugar i
 
 > INFO.NAME greeting 1 2003897792670714558
 %PCName!  Do my eyes deceive me, or is that a white Colovian fur helm?  Then the deed is done.  The moon sugar poisoner has been brought to justice.  Excellent work.  The Imperial Legion will not forget you, or your assistance.  Here, please take this gold as a symbol of our thanks.
-%PCName！是我眼花了，还是科洛维亚毛皮头盔白了？那就大功告成了。给月亮糖下毒的人已经被绳之以法了，干得好。帝国军团不会忘记你和你的帮助的，请收下这块金子，作为我们感谢的象征。 {正义,工作,帝国人}
+%PCName！是我眼花了，还是科洛维亚毛皮头盔白了？那就大功告成了。给月亮糖下毒的人已经被绳之以法了，干得好。帝国军团不会忘记你和你的帮助的，请收下这些金币，作为我们感谢的象征。 {正义,工作,帝国人}
 
 > INFO.NAME greeting 1 1501345822922628521
 %PCName!  Do my eyes deceive me, or is that a white Colovian fur helm?  Then the deed is done.  The moon sugar poisoner has been brought to justice.  Excellent work.  You have done a great service to me, the Legion, and the Empire itself.  Take this gold as payment for a job well done.  And I would also give you another reward, as a symbol of my personal thanks. This shortsword has served me well, and you'll find its enchantments will help rally others to your cause.
-%PCName！是我眼花了，还是科洛维亚毛皮头盔白了？那就大功告成了。给月亮糖下毒的人已经被绳之以法了，干得好。你为我，为军团，为帝国立下了汗马功劳，这些金子就当是你完成任务的报酬吧。我还要给你另一个奖励，作为我个人感谢的象征，这把短剑对我很有用，你会发现它的附魔师会帮助你号召其他人支持你的事业。 {正义,工作,泰姆瑞尔帝国,魔法疾病,附魔之术}
+%PCName！是我眼花了，还是科洛维亚毛皮头盔白了？那就大功告成了。给月亮糖下毒的人已经被绳之以法了，干得好。你为我，为军团，为帝国立下了汗马功劳，这些金币就当是你完成任务的报酬吧。我还要给你另一个奖励，作为我个人感谢的象征，这把短剑对我很有用，你会发现它的附魔师会帮助你号召其他人支持你的事业。 {正义,工作,泰姆瑞尔帝国,魔法疾病,附魔之术}
 
 > INFO.NAME greeting 1 2445479772580726818
 Hail, %PCName!  How can I help you, my brother-in-arms?
@@ -21932,7 +21932,7 @@ So, no luck in finding Mirisa, %PCName?  I'm telling you she's out there.  Try t
 
 > INFO.NAME greeting 1 31538600023142163
 By the Nine Divines, you rescued my Mirisa!  Please take this gold.  I know it's not much, but it's all we have in our coffers.  I wish I could give more.  Mirisa is invaluable, to me and the Imperial Cult.
-九圣灵保佑，你救了我的米丽莎，请收下这些金子。我知道钱不多，但我们只有这些了。我希望能给你更多。米丽莎对我和帝国教团人来说都是无价之宝。 {帝国人}
+九圣灵保佑，你救了我的米丽莎，请收下这些金币。我知道钱不多，但我们只有这些了。我希望能给你更多。米丽莎对我和帝国教团人来说都是无价之宝。 {帝国人}
 
 > INFO.NAME greeting 1 1367432453257539404
 Thanks once again for rescuing Mirisa, %PCName.
@@ -21940,7 +21940,7 @@ Thanks once again for rescuing Mirisa, %PCName.
 
 > INFO.NAME greeting 1 507621247194488840
 My...my Mirisa is dead?  No!  It...it cannot be!  Oh, why have the Divines forsaken me?  Mirisa was so young, so innocent!  %PCName...I thank you for relaying this information, tragic as it may be.  I'm sure you did everything in your power to help my love.  Please, take this gold as payment for your services.  Now if you don't mind, I wish to be alone.
-我…我的米丽莎死了？不会的！这…这不可能！哦，为什么诸神要抛弃我？米丽莎那么年轻，那么纯洁！%PCName…谢谢你给我带来这个消息，尽管这是个悲伤的消息。我相信你已经竭尽全力帮助我的爱人了。请收下这些金子，作为你的报酬。如果你不介意，我想单独待会儿。 {服务}
+我…我的米丽莎死了？不会的！这…这不可能！哦，为什么诸神要抛弃我？米丽莎那么年轻，那么纯洁！%PCName…谢谢你给我带来这个消息，尽管这是个悲伤的消息。我相信你已经竭尽全力帮助我的爱人了。请收下这些金币，作为你的报酬。如果你不介意，我想单独待会儿。 {服务}
 
 > INFO.NAME greeting 1 2917293572459128614
 You...you need services?  Oh, oh yes, of course....
@@ -22204,15 +22204,15 @@ The airship...crashed? Horrible, horrible...such a loss of time...and money!  Oh
 
 > INFO.NAME greeting 1 1982823872207639745
 The...the amulet has been...found?  You have actually recovered...and brought, to ME...the Amulet of Infectious Charm?  Oh, how wonderful!   %PCName, I am always...and I mean forever...in your debt!  Here...please...take this gold.  It's the very least...the smallest...thing I could do.  You know, I do...that is, I am curious...to know what has happened to the...well, to the airship.  After all, it did cost...I mean, a LOT of gold was invested....
-护身符…找到了？你真的找到了…并给我带来了…传染病护身符？太好了！%PCName，我永远…我是说永远…欠你的！给你…请收下这些金子。这是我能做的最起码…最小…的事了。你知道，我…也就是说，我很好奇…想知道…嗯，飞艇到底发生了什么。毕竟，它花费了…我是说，投入了很多黄金……
+护身符…找到了？你真的找到了…并给我带来了…传染病护身符？太好了！%PCName，我永远…我是说永远…欠你的！给你…请收下这些金币。这是我能做的最起码…最小…的事了。你知道，我…也就是说，我很好奇…想知道…嗯，飞艇到底发生了什么。毕竟，它花费了…我是说，投入了很多金钱……
 
 > INFO.NAME greeting 1 2928142442266112825
 The airship...crashed?  Smashed...was dashed into the mountains?  Horrible, horrible...such a loss of time...and money!  Oh, yes...yes...human life, too.  Mustn't forget the crew...people, after all.  Well...I am thankful...grateful really, that you've come to me with...um...with this information.  And...ah...incredible work with the finding...that is, the recovery...of, um...the Amulet of Infectious Charm.....  My thanks, %PCName!  Here, please...take...have this gold!
-飞艇…坠毁了？坠毁…冲进了山里？太可怕了，太可怕了…损失了这么多时间…金钱！对了…对了…还有人命。不能忘了船员…毕竟是人。嗯…我很感激…真的很感激，你带着…嗯…这些信息来找我。还有…啊…在寻找…也就是找回…感染符护身符方面做得很好……谢谢你，%PCName！请…拿着…这些金子！ {工作}
+飞艇…坠毁了？坠毁…冲进了山里？太可怕了，太可怕了…损失了这么多时间…金钱！对了…对了…还有人命。不能忘了船员…毕竟是人。嗯…我很感激…真的很感激，你带着…嗯…这些信息来找我。还有…啊…在寻找…也就是找回…感染符护身符方面做得很好……谢谢你，%PCName！请…拿着…这些金币！ {工作}
 
 > INFO.NAME greeting 1 1893132216245345653
 The...the amulet has been...found?  You have actually recovered...and brought, to ME...the Amulet of Infectious Charm?  Oh, how wonderful!   %PCName, I am always...and I mean forever...in your debt!  Here...please...take this gold.  It's the very least...the smallest...thing I could do.
-护身符…找到了？你真的找到了…并给我带来了…感染符？太好了！%PCName，我永远…我是说永远…欠你的！给你…请收下这些金子。这是我能做的最小…最小…的事了。
+护身符…找到了？你真的找到了…并给我带来了…感染符？太好了！%PCName，我永远…我是说永远…欠你的！给你…请收下这些金币。这是我能做的最小…最小…的事了。
 
 > INFO.NAME greeting 1 3085020120919420943
 The airship...crashed?  Smashed...was dashed into the mountains?  Horrible, horrible...such a loss of time...and money!  Oh, yes...yes...human life, too.  Mustn't forget the crew...people, after all.  Well...I am thankful...grateful really, that you've come to me with...um...with this information.
@@ -22384,7 +22384,7 @@ Ah, %PCName. Wonderful to see you again. I'm afraid I'll be leaving shortly, how
 
 > INFO.NAME greeting 1 25638323432841031220
 "Fall of the Snow Prince," you say?  Fascinating.  Let me see it.  Hmmm...yes...yes...amazing!  By my Falmer ancestors, you've done it, %PCName!  The account in this tome is remarkable!  Rieklings indeed!  I don't see how this Snow Prince could have been anything BUT a Falmer, do you?  Splendid, splendid.  You're a credit to explorers everywhere, %PCName.  Here's the gold, as promised, and thank you!
-你说“雪王子的陨落”？真有意思，让我看看。嗯…是的…是的…太神奇了！ 我的伐莫祖先，你做到了，%PCName！这本小册子里的记载真是了不起！确实是蓝客灵！我看不出这位雪王子除了是伐莫人还会是什么，你说呢？太棒了，太棒了！你是全世界探险家的骄傲，%PCName。这是说好的金子，谢谢你！ {先祖}
+你说“雪王子的陨落”？真有意思，让我看看。嗯…是的…是的…太神奇了！ 我的伐莫祖先，你做到了，%PCName！这本小册子里的记载真是了不起！确实是蓝客灵！我看不出这位雪王子除了是伐莫人还会是什么，你说呢？太棒了，太棒了！你是全世界探险家的骄傲，%PCName。这是说好的金币，谢谢你！ {先祖}
 
 > INFO.NAME greeting 1 26086230462119628166
 %PCName, you've returned.  Have you found any evidence of the Falmer here on Solstheim?

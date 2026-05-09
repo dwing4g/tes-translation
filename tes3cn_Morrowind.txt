@@ -194710,7 +194710,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "我已归还桑吉恩金币智慧之戒，它是织网者之线的27秘宝之一。 {戒指,桑吉恩黄金智慧}"
+ INFO.NAME "我已归还桑吉恩黄金智慧之戒，它是织网者之线的27秘宝之一。 {戒指}"
 -DIAL
  DIAL.NAME "MT_S_Silver$00"
  DIAL.DATA [04]
@@ -447791,7 +447791,7 @@ Choice ""我愿意。"" 1 ""不用了，谢谢。"" 2"
  INFO.NNAM "9033156661666121229$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Kaye$00"
- INFO.NAME "谢谢你帮忙。"
+ INFO.NAME "谢谢你处理了那件事。"
  INFO.SCVR "04JX3IC19_Restless_Spirit"
  INFO.INTV [32 00 00 00]
  #0: Journal-Journal IC19_Restless_Spirit >= 50
