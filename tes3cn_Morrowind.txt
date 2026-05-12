@@ -172845,7 +172845,7 @@ D.文物 - +35%<p>"
 众所周知，她在交易当中既不道德也不守信用！！！<BR>
 她所使用的材料既劣质又危险！！！<BR>
 使用她的产品，你会蒙受巨大的损失！！！<BR>
-不惜一切代价原理她的商店！！！<BR>
+不惜一切代价远离她的商店！！！<BR>
 参考以下建议：<BR>
 <BR>
 “我喝了她的药之后就生病了，难得的一次不错的午餐都错过了！”——格鲁格博·G.<BR>
@@ -353530,7 +353530,7 @@ Player->RemoveItem Misc_6th_Ash_HRMM 1"
  INFO.NNAM "878911200279977751$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "lloros sarano$00"
- INFO.NAME "哈娜来·阿苏兰尼帕不再是奥德'汝因的威胁。"
+ INFO.NAME "哈娜来·阿苏兰尼帕不再对奥德'汝因构成威胁了。"
  INFO.SCVR "34JX3HR_SixthHouseBase"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal HR_SixthHouseBase >= 100

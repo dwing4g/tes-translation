@@ -582,7 +582,7 @@ Travel south. Find the Good Beast and ease its suffering.
 
 > SCPT.SCTX stoneEarthScript m1
 Travel northeast to the Cave of the Hidden Music and learn the Song of the Earth.
-前往东北方向的隐秘音乐洞穴，学习大地之歌。
+前往东北方向的隐匿乐声洞穴，学习大地之歌。
 
 > SCPT.SCTX stoneErlendrScript m1
 You have been granted the gift of Erlendr's speed.
@@ -614,7 +614,7 @@ Travel west to a small island off the coast, and follow the Swimmer to seek the 
 
 > SCPT.SCTX stoneWindScript m1
 Travel south and east of the lake of ice to Glenschul's Tomb and free the Winds from the Greedy Man's bag.
-向南走，在冰湖的东面来到格伦舒尔之墓，将风从贪婪之人的袋子里释放出来。
+向冰湖的南边和东边行进，前往格伦舒尔之墓，从贪婪之人的袋子里释放出风。
 
 > SCPT.SCTX ThirskRepair m1
 Thirsk is closed.  You may not enter at this time.
@@ -3688,23 +3688,23 @@ The old man laughed and got up from his chair.<BR>
 
 很久，很久以前，当斯卡尔村还是刚刚建立起来的时候，岛上一片和平。阳光明媚，作物繁荣，人们在造物主的恩赐下快乐地生活着。但是安逸的生活让斯卡尔人变得自满和懒散，他们开始认为造物主赐予的一切都是理所应当的。他们忘记了，以折磨造物主和他的选民为乐的造物主之敌一直在暗中窥视。造物主之敌化作普通人潜入了斯卡尔。<BR>
 <BR>
-造物主之敌有很多种形态，有时是一只邪恶的野兽，有时是一股致命的瘟疫。当时的人们称它为萨塔格——世界吞噬者。后世则称其为贪婪者。<BR>
+造物主之敌有很多种形态，有时是一只邪恶的野兽，有时是一股致命的瘟疫。当时的人们称它为萨塔格——世界吞噬者。后世则称其为贪婪之人。<BR>
 <BR>
-贪婪者（我们还是这样叫他，因为说出他的真名就像是在人们心中传播恐惧）在斯卡尔生活了好几个月。也许他曾经只是个普通人，而当造物主之敌附身在他身上后，他就变成了被人熟知的贪婪者。<BR>
+贪婪之人（我们还是这样叫他，因为说出他的真名就像是在人们心中传播恐惧）在斯卡尔生活了好几个月。也许他曾经只是个普通人，而当造物主之敌附身在他身上后，他就变成了被人熟知的贪婪之人。<BR>
 <BR>
-直到某一天，斯卡尔人发现造物主赋予他们的力量突然都消失了。战士再也挥不动武器了，萨满也无法召唤野兽了。长者们认为一定是造物主生气了，有些甚至认为造物主永远遗弃了他们。这时贪婪者出现并说话了。<BR>
+直到某一天，斯卡尔人发现造物主赋予他们的力量突然都消失了。战士再也挥不动武器了，萨满也无法召唤野兽了。长者们认为一定是造物主生气了，有些甚至认为造物主永远遗弃了他们。这时贪婪之人出现并说话了。<BR>
 <BR>
 “你们这些斯卡尔人长得越来越肥，越来越懒。我已经把造物主给予你们的恩赐都偷走了。我偷走了海洋，让你们会感到口渴。我偷走了土地，树木和太阳，让你们的庄稼会枯萎死亡。我偷走了风，让你们无法感受到造物主的鼓舞。”<BR>
 <BR>
-“直到你们中的某个人可以寻回那些恩赐，不然斯卡尔人就会永远被悲惨和绝望笼罩，我就是贪婪者，这就是我的意志。”<BR>
+“直到你们中的某个人可以寻回那些恩赐，不然斯卡尔人就会永远被悲惨和绝望笼罩，我就是贪婪之人，这就是我的意志。”<BR>
 <BR>
-说完贪婪者就消失了。<BR>
+说完贪婪之人就消失了。<BR>
 <BR>
 斯卡尔人讨论了好几天，他们明白一定得有一个人去取回造物主的恩赐，但是他们无法决定派谁去。<BR>
 <BR>
 “我可不能去，”长者说，“我得留下领导斯卡尔人们，告诉他们什么是法律。”<BR>
 <BR>
-“我也不能去，”战士说，“我必须保护斯卡尔，贪婪者要是再次出现得由我来保护村庄。”<BR>
+“我也不能去，”战士说，“我必须保护斯卡尔，贪婪之人要是再次出现得由我来保护村庄。”<BR>
 <BR>
 “我更不能去，”萨满说，“人们需要我的智慧，我得解读预言，贡献我的知识。”<BR>
 <BR>
@@ -3712,7 +3712,7 @@ The old man laughed and got up from his chair.<BR>
 <BR>
 “我去。”艾瓦说完大家就笑了。<BR>
 <BR>
-“请大家听我说，”男孩继续说道，“我还不是个战士，所以还用不到我来保护村庄，我也不会解读预言，所以也不用我对人们提出忠告。我还年轻，对于法律一知半解。我发誓从贪婪者那里取回造物主的恩赐，不成功，则成仁。”<BR>
+“请大家听我说，”男孩继续说道，“我还不是个战士，所以还用不到我来保护村庄，我也不会解读预言，所以也不用我对人们提出忠告。我还年轻，对于法律一知半解。我发誓从贪婪之人那里取回造物主的恩赐，不成功，则成仁。”<BR>
 <BR>
 斯卡尔人们考虑了一下，同意让艾瓦去试试。第二天一早他就离开村子上路了。<BR>
 <BR>
@@ -3772,17 +3772,17 @@ The old man laughed and got up from his chair.<BR>
 <BR>
 艾瓦还有最后一个恩赐需要寻回，风之恩赐，于是他来到了岛屿遥远的西海岸边的风之石碑，造物主告诉了他最终的任务。<BR>
 <BR>
-“找到贪婪者，解放被囚禁的风。”<BR>
+“找到贪婪之人，解放被囚禁的风。”<BR>
 <BR>
-于是，艾瓦开始找到贪婪者。他找遍了树林，海洋，深洞，都没有找到贪婪者，野兽们也说在森林深处没有看见贪婪者。最后，艾瓦来到了一幢扭曲的房子前，他明白贪婪者就在这里。<BR>
+于是，艾瓦开始找到贪婪之人。他找遍了树林，海洋，深洞，都没有找到贪婪之人，野兽们也说在森林深处没有看见贪婪之人。最后，艾瓦来到了一幢扭曲的房子前，他明白贪婪之人就在这里。<BR>
 <BR>
-“你是什么人？”贪婪者咆哮着，“居然敢到我的房子来。”<BR>
+“你是什么人？”贪婪之人咆哮着，“居然敢到我的房子来。”<BR>
 <BR>
 “我是斯卡尔来的艾瓦”艾瓦说道，“我既不是战士，也不是萨满，更不是长者。如果我不寻回那些恩赐，我就会被遗忘。但我已经寻回了海洋，大地，树木，野兽和太阳。我也一定会把风带回给我的人民，让我们灵魂中再次感受到造物主的鼓舞。”<BR>
 <BR>
-说完，他一把抓住贪婪者的袋子并打开了它，风呼啸而出，以雷霆之势刮起贪婪者把他吹到了九霄云外。艾瓦呼吸着风心情愉悦，他走回风之石碑，造物主最后一次与他对话。<BR>
+说完，他一把抓住贪婪之人的袋子并打开了它，风呼啸而出，以雷霆之势刮起贪婪之人把他吹到了九霄云外。艾瓦呼吸着风心情愉悦，他走回风之石碑，造物主最后一次与他对话。<BR>
 <BR>
-“你做得很好，艾瓦。你，最不起眼的一个斯卡尔人，把我的恩赐还给了他们。贪婪者被赶走了，在你有生之年他不会再来打扰你的人民了。你的造物主为你感到高兴，去吧，自由地生活吧。”<BR>
+“你做得很好，艾瓦。你，最不起眼的一个斯卡尔人，把我的恩赐还给了他们。贪婪之人被赶走了，在你有生之年他不会再来打扰你的人民了。你的造物主为你感到高兴，去吧，自由地生活吧。”<BR>
 <BR>
 于是艾瓦准备启程回斯卡尔村。<BR>
 <BR>
@@ -13762,7 +13762,7 @@ Svenja Snow-Song implored me to slay the Udyrfrykte, but I refused. She's convin
 
 > INFO.NAME bm_meadhall 30434158302448722872
 Svenja Snow-Song asked me to slay the Udyrfrykte, and I agreed. I can probably find the beast in his lair. The entrance is on the eastern shore of Lake Fjalding, just to the west of Thirsk. If I can slay the Udyrfrykte, I should claim some kind of trophy from the body. If I bring this trophy back to Svenja Snow-Song, I may be named chieftain of Thirsk.
-斯文娅·雪歌让我去杀掉恐惧之兽，我同意了。他很有可能就待在野兽的巢穴里，而入口就在瑟斯克以西的菲亚丁湖东岸。如果我杀死了恐惧之兽，我可以从它的尸体上得到某种战利品。把它带回给斯文娅·雪歌，我就有可能被任命为瑟斯克的首领。
+斯文娅·雪歌让我去杀掉恐惧之兽，我同意了。这只野兽很有可能就待在他的巢穴里，而入口就在瑟斯克以西的菲亚丁湖东岸。如果我杀死了恐惧之兽，我可以从它的尸体上得到某种战利品。把它带回给斯文娅·雪歌，我就有可能被任命为瑟斯克的首领。
 
 > INFO.NAME bm_meadhall 30403227865607204
 I have slain the Udyrfrykte.  I should claim a part of the beast as a battle trophy and bring it to Svenja Snow-Song at Thirsk.
@@ -14950,7 +14950,7 @@ Heart-Fang was pleased with my efforts in performing the six rituals. He has rew
 
 > INFO.NAME bm_draugr 1599412478888311608
 The Skaal Test of Strength
-斯卡尔力量测试
+斯卡尔的力量考验
 
 > INFO.NAME bm_draugr 17384185671932510007
 Having completed a test of wisdom for Tharsten Heart-Fang of the Skaal, I am now to complete a third test--a test of strength.
@@ -15306,11 +15306,11 @@ The Ritual of Earth
 
 > INFO.NAME bm_earth 10176234811172432621
 I approached the Earth Stone, and words magically appeared on its surface. They said: "Travel northeast to the Cave of the Hidden Music and learn the Song of the Earth." Then the words disappeared.
-我走近土石，土石表面神奇地出现了文字。上面写着：“前往东北方向的隐秘音乐洞穴，学习大地之歌”然后文字消失了。
+我走近土石，土石表面神奇地出现了文字。上面写着：“前往东北方向的隐匿乐声洞穴，学习大地之歌”然后文字消失了。
 
 > INFO.NAME bm_earth 1033027831982432628
 In the Cave of the Hidden Music, I have found a large structure made of stalagmites and stalactites. An odd music seems to be coming from them.
-在隐秘音乐洞穴里，我发现了一个由石笋和钟乳石组成的大型建筑。它们似乎在演奏一种奇怪的音乐。
+在隐匿乐声洞穴里，我发现了一个由石笋和钟乳石组成的大型建筑。它们似乎在演奏一种奇怪的音乐。
 
 > INFO.NAME bm_earth 7184286691600810941
 I have found that when one of the hollowed stalagmites is struck, it produces a musical note like the ones I can hear in this cave.
@@ -15458,11 +15458,11 @@ The Ritual of the Winds
 
 > INFO.NAME bm_wind 3382207331344423574
 As I approached the Wind Stone, I saw magical writing appear on its surface. It read: "Travel south and east of the lake of ice to Glenschul's Tomb and free the Winds from the Greedy Man's bag."
-当我走近风石时，我看到它的表面出现了神奇的文字。上面写道“从冰湖的南面和东面前往格伦舒尔之墓，从贪婪者的袋子里取出风”。 {令状}
+当我走近风石时，我看到它的表面出现了神奇的文字。上面写道“向冰湖的南边和东边行进，前往格伦舒尔之墓，从贪婪之人的袋子里释放出风。” {令状}
 
 > INFO.NAME bm_wind 2657715077144623248
 I have opened the Greedy Man's bags and freed the Winds. I should return to the Wind Stone.
-我打开了贪婪者的袋子，释放了风之子。我该返回风石了。
+我打开了贪婪之人的袋子，释放了风。我该返回风石了。
 
 > INFO.NAME bm_wind 16042913643128997
 As I approached the Wind Stone, it began to glow with a mystical light.
@@ -17610,7 +17610,7 @@ I realized that is what these Daedra would do, so I realized I must act.
 
 > INFO.NAME destroy my people 1484314981653727885
 A group of Frost Daedra had taken up residence deep in the bowels of this island. I thought at first that it was my doing, that I had somehow summoned these fiends. But they were beyond my abilities. I learned that they would wipe this island clean of life, slaughter my people and all we held dear. I knew I must act.
-一群冰霜迪德拉在这座岛屿的深处居住了下来。起初我以为是我造成的，总之召唤了这些邪魔。但它们超出了我的能力范围，我知道它们会让这座岛屿生灵涂炭，屠杀我的人民和我们珍视的一切，我知道我必须行动。
+一群冰霜迪德拉在这座岛屿的深处居住了下来。起初我以为是我造成的，不知怎的召唤出这些邪魔。但它们超出了我的能力范围，我知道它们会让这座岛屿生灵涂炭，屠杀我的人民和我们珍视的一切，我知道我必须行动。
 
 > INFO.NAME that night at sea 2915219787326317995
 A few months ago I was ferrying some settlers from Skyrim to Solstheim.  I was tired...so tired.  I fell asleep at the rudder.  The ship drifted into a gale, and by the time I woke, it was too late.  I couldn't regain control, and the ship capsized.  There were only two survivors -- me, and an old man whose entire family was lost in the wreck.  I told the man of my terrible failure, and he used his power as a seer and wizard to punish me.  You see, %PCName, I have been cursed with eternal wakefulness.
@@ -18476,7 +18476,7 @@ There is no Rigmor Halfhand. Do not speak the name.
 
 > INFO.NAME rigmor halfhand 2005628888240095425
 A smart man, but there is something not right about him. He spends too much time at Ice-Mane's home while Engar is on a hunt. This is not appropriate.
-他是个聪明人，但有点不对劲。恩加·冰鬃打猎的时候，他经常呆在家里，这不合适。
+他是个聪明人，但有点不对劲。恩加打猎的时候，他经常呆在冰鬃家里，这不合适。
 
 > INFO.NAME rigmor halfhand 8090237372976111542
 He is a clever one. He is wise and crafty, and perhaps for this, he is not well-liked. Still, he is of the Skaal, and we must take his accusation seriously.
@@ -22784,7 +22784,7 @@ You were sent to prove your strength. This is to occur here, where there is a di
 
 > INFO.NAME greeting 1 12996248862841332351
 Ah...you've arrived. These are strange times, my friend. I am unsure what magic is being worked to cause such a disturbance on the lake, but you were sent here to prove your strength.
-啊…你来了。这是个奇怪的时代，我的朋友，我不知道是什么魔法引起了湖上的骚乱，但你被派来这里证明你的力。 {工作,证明你的力量,力量}
+啊…你来了。这是个奇怪的时代，我的朋友，我不知道是什么魔法引起了湖上的骚乱，但你被派来这里证明你的力量。 {工作}
 
 > INFO.NAME greeting 1 2538744491433731542
 Hello again, friend. What may I do for you?
@@ -22836,7 +22836,7 @@ Halfhand is not dead, yet the Caenlorn have been killed? What have you done, %PC
 
 > INFO.NAME greeting 1 14898127631662920798
 You have done well, %PCName. Make sure Halfhand gets fed to the wolves, and then we will speak of other things.
-你做得很好，%PCName。确保半手狼被喂狼，然后我们再谈其他事。
+你做得很好，%PCName。确保半手被喂了狼，然后我们再谈其他事。
 
 > INFO.NAME greeting 1 21669170401701418130
 You have done well, %PCName. You have shown your loyalty and wisdom, but there is one thing further I will require of you. Now you must prove your strength as a warrior.
@@ -29328,7 +29328,7 @@ My greetings to you, wanderer.
 
 > INFO.NAME hello 2084324280176055447
 What can this smith do for you? Armor, weapons? Some conversation?
-你想要这个铁匠铺做些什么？盔甲，武器？聊聊天？
+你想要这位铁匠做些什么？盔甲，武器？聊聊天？
 
 > INFO.NAME hello 19096176362409917010
 I have nothing to say. My time is done.
