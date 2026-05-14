@@ -53576,7 +53576,7 @@ PS: I left a couple of Levitate potions here for you, just in case. I couldn't r
 <BR>
 对不起，我错过了你。我不得不把一些旧文件交给真理部的审判官，我可能会被人要求留在那里一段时间。你为什么不尽快在那儿见我？然后我们一完成就可以一起离开了。还有，别忘了把你借来的两卷圣灵干预卷轴带给我。或者，如果你用过它们，给我买几个新的。我想我很快就会需要它们。外邦区法师公会的贾南德·莫利尼有卖。<BR>
 <BR>
-爱尔维拉·萨拉姆是入口处的卫兵；只要告诉她你在找我，她就会让你进来。<BR>
+阿尔维拉·萨拉姆是入口处的卫兵；只要告诉她你在找我，她就会让你进来。<BR>
 <BR>
 你忠实的朋友，<BR>
 梅拉<BR>
@@ -53590,7 +53590,7 @@ Ministry of Truth Entrance
 
 > NPC_.FNAM alvela saram
 Alvela Saram
-爱尔维拉·萨拉姆
+阿尔维拉·萨拉姆
 
 > NPC_.FNAM Blatta Hateria
 Blatta Hateria
@@ -57568,14 +57568,14 @@ And blossoms anew beneath tomorrow's sun.<BR>
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 风之语<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-[这是从灰烬之民的女智者那里收集的诗集。“愿我化为尘土”出自游牧部落阿希穆萨的灰烬之民。]<BR>
+[这是从灰烬之民的女智者那里收集的诗集。《愿我化为尘土》出自游牧部落阿希穆萨的灰烬之民。]<BR>
 <BR>
 愿我化为尘土<BR>
 散布在那寒冷的荒野之中，<BR>
 愿我尚能饶舌<BR>
 吟唱你那风中的最后一曲。<BR>
 <BR>
-我为牧民祈祷，<BR>
+我为牧人祈祷，<BR>
 愿他在瓜尔的背上乘风而行。<BR>
 我为猎人祈祷，<BR>
 愿他追踪猎物的脚步无声无息。<BR>
@@ -57584,9 +57584,9 @@ And blossoms anew beneath tomorrow's sun.<BR>
 而那祈祷着的妻子，<BR>
 最后一次触摸着她那死去孩子的双手。<BR>
 <BR>
-不再为失去之物而祈祷。<BR>
-当我的心愿散布世间，<BR>
-在你脚下的土壤当中，像一粒种子般萌芽，<BR>
+我不会为失去之物祈祷，<BR>
+当我的心开始涌动，<BR>
+从你的土地上，如同一粒种子，<BR>
 在明日的阳光下再次绽放。<BR>
 <BR>
 """
@@ -60223,7 +60223,7 @@ Tay and Baynarah started the walk back at a quick pace.  Tay knew that Vaster wo
 <BR>
 “不一样？世界上每个人都觉得自己‘与众不同’，于是大家都一样变得多愁善感”泰伊的堂哥凯寇里斯如是说，他正努力学习，准备成为神殿祭司，对似是而非的悖论非常有一套。<BR>
 <BR>
-“如果你跟其他人说你老是在没音乐的地方听到音乐，他们会说你疯了，然后把你埋在席欧钩拉思祭坛”他的叔叔崔斐斯会先这样大吼，然后大步走开做自己的事。<BR>
+“如果你跟其他人说你老是在没音乐的地方听到音乐，他们会说你疯了，然后把你埋在谢尔格拉斯祭坛”他的叔叔崔斐斯会先这样大吼，然后大步走开做自己的事。<BR>
 <BR>
 只有他的保母艾蒂芭会认真听他说话，不怎么自豪地点头，但她从不曾多言。<BR>
 <BR>
@@ -76139,7 +76139,7 @@ The wise women know that some Nerevarine prophecies have been lost. But the Diss
 
 > INFO.NAME a2_1_meetsulmatuul 16981214271045313693
 Nibani Maesa says I am not the Nerevarine, but I may become the Nerevarine. It seems she is willing to help me unravel the Nerevarine prophecies and my part in them. She tells me to seek the lost prophecies among the Dissident priests of the Temple. If I bring these lost prophecies to her, she will be my guide. And she gave me copies of the Nerevarine prophecies called 'The Stranger' and 'The Seven Visions'. Now it's time to report back to Caius.
-尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮助我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找失落的预言。如果我把失落的预言带给她，她将成为我的向导。而她给了我名为《异客》和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。 {帮我}
+尼巴妮·玛伊沙说我不是尼瑞瓦因，但我可能会成为尼瑞瓦因。看来她愿意帮我解开尼瑞瓦因预言和我在其中的角色。她让我在神殿的异见祭司那里寻找失落的预言。如果我把失落的预言带给她，她将成为我的向导。而她给了我名为《异客》和《七大异象》的尼瑞瓦因预言副本。现在是时候向凯乌斯报告了。
 
 > INFO.NAME a1_1_findspymaster 31540100981975929470
 My orders are to go to the town of Balmora in Vvardenfell District and report to a man named Caius Cosades. To find out where he lives, I should ask in Balmora at the cornerclub called South Wall. When I find Caius Cosades, I must give him a package of documents, and wait for further orders.
@@ -80079,11 +80079,11 @@ I've returned the raw glass shipment to Tinos Drothan, and although he was happy
 
 > INFO.NAME mv_angrytrader 1509522203253631457
 I returned the raw glass that had been stolen from Tinos Drothan, and he was fairly happy that I had also killed off one of his former guards. In return, he taught me some "tricks of the trade" that should help me in future dealings with merchants.
-我归还了从提诺思·卓珊那里偷来的玻璃矿，他相当高兴，因为我还干掉了他以前的一个护卫。作为回报，他教了我一些“交易技巧”，这对我今后与商人打交道会有帮助。 {瓜尔,卫兵,帮我}
+我归还了从提诺思·卓珊那里偷来的玻璃矿，他相当高兴，因为我还干掉了他以前的一个护卫。作为回报，他教了我一些“交易技巧”，这应该会帮我今后与商人打交道。 {瓜尔,卫兵}
 
 > INFO.NAME mv_angrytrader 2404931815165835660
 I returned the raw glass that had been stolen from Tinos Drothan, and he was very happy that I had also killed off his former guards. In return, he taught me some "tricks of the trade" that should help me in future dealings with merchants.
-我归还了从提诺思·卓珊那里偷来的玻璃矿，他非常高兴我还杀了他以前的一名护卫。作为回报，他教了我一些“交易技巧”，这对我今后与商人打交道应该会有帮助。 {瓜尔,卫兵,帮我}
+我归还了从提诺思·卓珊那里偷来的玻璃矿，他非常高兴我还杀了他以前的一名护卫。作为回报，他教了我一些“交易技巧”，这应该会帮我今后与商人打交道。 {瓜尔,卫兵}
 
 > INFO.NAME il_grandmaster 93131463876119373
 Varus Vatinius challenged me to a duel. I must meet him in combat with weapons of my choosing in the Vivec Arena.
@@ -80231,7 +80231,7 @@ I returned the racer suede belt to Tiras Sadus, and he paid me 25 drakes. He had
 
 > INFO.NAME ic25_jonhawker 62712071953449119
 Oracle Lalatia Varian had a vision of the Ring in Darkness. She saw the Ring of the Wind, a legendary treasure of Elsweyr. "I have seen the wind upon a dark elf's hand. I have seen fire gleam upon a Dwarf's face. I have seen darkness on a ring of water. I have heard no name whispered in the mouth of stone." The Oracle bid me retrieve the Ring in Darkness. I must ask Dark Elven savants and scouts about the meaning of the Oracle's vision.
-神谕者拉拉蒂亚·瓦里安在黑暗中看到了魔法戒指的幻象。她看到了艾斯维尔传说中的宝物——风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”神谕者要我取回黑暗之戒，我必须向黑暗精灵的学者和斥候打听神谕者幻象的含义。 {黑暗中的戒指,发言人}
+神谕者拉拉蒂亚·瓦里安看到了黑暗中的戒指幻象。她看到了艾斯维尔传说中的宝物——风之戒。“我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我听到了石头口中低语的名字。”神谕者要我取回黑暗中的戒指，我必须向黑暗精灵的学者和斥候打听神谕者幻象的含义。 {发言人}
 
 > INFO.NAME ic25_jonhawker 1248419214211093335
 A Dunmer scout told me that Nammu, or 'no-name,' is a cavern in the wildlands of Sunna Guradan, somewhat west of the tower of Tel Aruhn. In the cavern is a great high chamber, flooded, with a central spire rising from the water. The water around the bottom of the spire might be the ring of water in darkness from the Oracle's vision.
@@ -81071,11 +81071,11 @@ I gave Mehra Milo a Divine Intervention scroll. She'll meet me at Holamayan, a D
 
 > INFO.NAME a2_4_milogone 3192561482494731045
 Alvela Saram gave me a key to the entrance to the Ministry of Truth. I'll need keys for other doors inside; look for them in desks. She said there's sympathy for the Dissident priests among the Ordinators, but if anyone gets killed getting her out, we'll lose that sympathy.
-爱尔维拉·萨拉姆给了我一把真理部入口的钥匙。我还需要里面其他门的钥匙，我需要在桌子上找找。她说神殿卫兵们中有人同情异见祭司，但如果有人为了救她而被杀，我们就会失去这种同情。
+阿尔维拉·萨拉姆给了我一把真理部入口的钥匙。我还需要里面其他门的钥匙，我需要在桌子上找找。她说神殿卫兵们中有人同情异见祭司，但如果有人为了救她而被杀，我们就会失去这种同情。
 
 > INFO.NAME a2_4_milogone 29375287323101327255
 I found a note addressed to 'Amaya' in Mehra Milo's room. I think it means she's in trouble, probably imprisoned in the Ministry of Truth. I'm to tell the guard at the entrance, Alvela Saram, that I'm looking for Mehra Milo, and she'll let me in. Milo wants me to bring her two Divine Intervention scrolls. For an escape plan? She also left me two Levitation potions.
-我在梅拉·米洛的房间里发现了一张写着“阿玛雅”的纸条。我想这意味着她有麻烦了，她可能被关进了真理部。我要告诉门口的卫兵爱尔维拉·萨拉姆我在找梅拉·米洛，她会让我进去的。米洛要我给她带两个圣灵干预卷轴。这好像就是她的逃跑计划？她还给我留了两瓶浮空药水。 {瓜尔,这些药水}
+我在梅拉·米洛的房间里发现了一张写着“阿玛雅”的纸条。我想这意味着她有麻烦了，她可能被关进了真理部。我要告诉门口的卫兵阿尔维拉·萨拉姆我在找梅拉·米洛，她会让我进去的。米洛要我给她带两个圣灵干预卷轴。这好像就是她的逃跑计划？她还给我留了两瓶浮空药水。 {瓜尔,这些药水}
 
 > INFO.NAME a2_4_milogone 29701810788816995
 Caius Cosades was recalled to the Imperial City. He says he believes I am really the Nerevarine. He wants me to find the lost prophecies and deliver them to Nibani Maesa. His parting orders are to go to the Hall of Wisdom and Justice, where Mehra Milo will tell me how to get the lost prophecies. He says she's being watched, and if something has gone wrong, she will leave me a message under the code word 'amaya.'
@@ -81455,7 +81455,7 @@ After killing Gilnith, I reported my findings to the Census and Excise Office. S
 
 > INFO.NAME da_sheogorath 21163218724510171
 I have entered the Shrine of Sheogorath and spoken with the Daedra Prince of Madness. He has offered me the opportunity to perform a service for him. First, I am to recover a powerful artifact, the Fork of Horripilation, from a mad hermit who lives on an island off the northernmost points of Tamriel. Then, I must slay a giant bull netch that has taken residence near this island. If I can do this, Sheogorath promises I will be rewarded well.
-我进入了谢尔格拉斯圣祠，与迪德拉大君进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器——惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯保证会给我丰厚的报酬。
+我进入了谢尔格拉斯祭坛，与迪德拉大君进行了交谈。他给了我一个为他服务的机会。首先，我要从一个疯狂的隐士手中夺回一件强大的神器——惊骇之叉，他住在泰姆瑞尔最北端的小岛上。然后，我还必须杀死住在这座小岛附近的一只巨型雄性气母。如果我能做到，谢尔格拉斯保证会给我丰厚的报酬。
 
 > INFO.NAME da_sheogorath 1752844581751319551
 While in Dagon Fel, I asked about the madman about whom Sheogorath spoke. They tell me there is an Argonian named Big Head who lives on an island north of Ald Redaynia.
@@ -81483,7 +81483,7 @@ I've used the Fork of Horripilation to kill the giant bull netch. Sheogorath is 
 
 > INFO.NAME da_sheogorath 308434402258354687
 I've returned to the Shrine of Sheogorath, and the Daedra Prince spoke with me again. He seemed pleased that I had completed my quest...not because he wanted the bull netch dead, but he enjoyed seeing me struggle to do it. He has rewarded me well, though, and given me the Spear of Bitter Mercy.
-我回到了谢尔格拉斯圣祠，迪德拉大君又和我谈了一次话。他似乎很高兴我完成了任务…并不是因为他想要那只雄性气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把悲悯之枪给了我。
+我回到了谢尔格拉斯祭坛，迪德拉大君又和我谈了一次话。他似乎很高兴我完成了任务…并不是因为他想要那只雄性气母死，而是他很喜欢看到我努力完成任务的样子。不过他也给了我很不错的报酬，把悲悯之枪给了我。
 
 > INFO.NAME c0_act_c_expo 2673716600945818363
 Buoyant Armigers at Ghostgate told me that all their intelligence is old. No one has ventured far inside the fence for years. They gave me a map showing the locations of the citadels of the various ash vampires. Sixth House creatures have become more numerous and powerful, and the most powerful can conjure powerful daedra. There are no safe refuges or services inside the fence; I must return to Ghostgate to rest and heal.
@@ -83715,7 +83715,7 @@ I have found the sunken shrine to Boethiah and spoken to the Daedra. He is under
 
 > INFO.NAME da_boethiah 1704032453267627057
 Boethiah spoke in a riddle to me, to help me find the one who can recreate the shrine: Rough hands to smooth stone; Carving rock instead of bone; In Caldera an artist waits; His masterpiece to create
-波耶西亚用谜语对我说，让我找到能重建圣祠的人：用粗糙的手雕刻光滑的石头，用岩石代替骨头，一位艺术家在卡尔德拉等待着他的杰作 {帮我}
+波耶西亚用谜语对我说，帮我找到能重建圣祠的人：用粗糙的手雕刻光滑的石头，用岩石代替骨头，一位艺术家在卡尔德拉等待着他的杰作
 
 > INFO.NAME da_boethiah 1251255041870610732
 I have found a sculptor in Caldera. He is an orc named Duma gro-Lag.
@@ -84935,7 +84935,7 @@ In Citadel Vemynal I discovered an enchanted hammer called Sunder. It appears to
 
 > INFO.NAME c0_act_c 9547279361624317538
 In Citadel Vemynal I discovered the artifact hammer Sunder, one of the enchanted tools created by the Dwemer Craftlord Kagrenac.
-在维密纳城堡，我发现了卡格瑞纳克的工具当中的神器锤子，它是锻莫工匠卡格瑞纳克创造的附魔工具之一。 {锻莫族}
+在维密纳城堡，我发现了卡格瑞纳克的工具当中的神器锤子“决裂”，它是锻莫工匠卡格瑞纳克创造的附魔工具之一。 {锻莫族}
 
 > INFO.NAME c0_act_c 1642660101856927121
 In Citadel Odrosal I discovered the artifact blade Keening, one of the enchanted tools created by the Dwemer Craftlord Kagrenac.
@@ -91679,7 +91679,7 @@ Excellent! Let us be on our way then. It's on the western shore, so we must hurr
 
 > INFO.NAME help a poor pilgrim 2844820962548420459
 No? Well, maybe I'll find someone else who'll be able to help me out.
-不行吗？好吧，也许我还能找别人帮忙。 {帮我}
+不行吗？好吧，也许我还能找别人帮我出去。
 
 > INFO.NAME help a poor pilgrim 17999150131453115356
 I still need to get to Koal Cave. Are you sure you won't help me?
@@ -91995,7 +91995,7 @@ Master-at-Arms Sjorvar Horse-Mouth lives in a guar herder's hut in the middle of
 
 > INFO.NAME aid a poor argonian 84092785070793714
 All I wish is to find the people who will help me.
-我只希望能找到帮助我的人。 {帮我}
+我只希望能找到帮我的人。
 
 > INFO.NAME aid a poor argonian 654225224257706600
 Oh, thank you, thank you. You are too kind to Tul. Not like the guards at the Dren Plantation, and cruel, cruel Orvas Dren, the powerful master there. And the evil brothers Ienith, so cruel, so cruel. Thank you for helping deliver me from them.
@@ -98147,11 +98147,11 @@ I gave at the Temple.
 
 > INFO.NAME alms for the poor 168792232029707820
 I am a runaway slave. I have nothing. I must hide here until a boat comes, and then they will help me return to my country.
-我是个逃亡的奴隶。我一无所有。我必须躲在这里，直到有船来，然后他们会帮助我回到我的国家。 {帮我}
+我是个逃亡的奴隶。我一无所有。我必须躲在这里，直到有船来，然后他们会帮我回到我的国家。
 
 > INFO.NAME alms for the poor 573911971773620585
 I must hide here until a boat comes, and then they will help me return to my country.
-我必须躲在这里，直到有船来，然后他们会帮助我回到我的国家。 {帮我}
+我必须躲在这里，直到有船来，然后他们会帮我回到我的国家。
 
 > INFO.NAME alms for the poor 25353247152314820831
 If you will check your records, citizen, you will see that the province of Argonia has already given alms for the poor.
@@ -98831,7 +98831,7 @@ I'll get my hands on it, one way or another.
 
 > INFO.NAME get that contract 613825782528379
 No? Well, that's a shame. I'm sure there's someone around who can help me out with this.
-不行吗？那太可惜了。我相信这附近一定有能帮助我的人。 {能提供帮助者,帮我}
+不行吗？那太可惜了。我相信这附近一定有能帮我的人。 {能提供帮助者}
 
 > INFO.NAME get that contract 14986323301312031738
 Excellent! I knew you were a person who understood a good deal when you heard one. He's probably got the contract locked up in his private quarters beneath his shop, but I don't think he's got it well guarded. Good luck!
@@ -101497,11 +101497,11 @@ The ghost is in the South Turret bed chamber if you want look for yourself. Head
 
 > INFO.NAME gateway haunting 28528161891890919905
 Angaredhel mentioned your handling of the Gateway haunting affair. It was quite an embarrassment for our house, and we are grateful.
-安加雷德尔提到了你对闸门闹鬼事件的处理。这让我们家很难堪，我们非常感激。
+安加雷德尔提到了你处理闸门闹鬼事件的方式。这件事曾让我们家族颜面尽失，我们对此深表感激。
 
 > INFO.NAME gateway haunting 133661835320351425
 Angaredhel mentioned your handling of the Gateway haunting affair. It was quite an embarrassment for our house, and we are grateful.
-安加雷德尔提到了你对闸门闹鬼事件的处理。这让我们家很难堪，我们非常感激。
+安加雷德尔提到了你处理闸门闹鬼事件的方式。这件事曾让我们家族颜面尽失，我们对此深表感激。
 
 > INFO.NAME gateway haunting 1391630205109826304
 By the way, we heard how you handled that business with Uleni Heleran and the Gateway haunting. We all like Uleni very much, and we're glad you kept her name out if it when you spoke with Angaredhel.
@@ -101529,7 +101529,7 @@ So you killed Lugrub. Good. Now the Widow Vabdas is avenged and justice has been
 
 > INFO.NAME lugrub gro-ogdum 3162073681609615228
 Kill him to avenge the Widow Vabdas. If we don't act soon, his murder of Mansilamat Vabdas will ruin the reputation of the Legion.
-杀了他为寡妇瓦布达斯报仇，如果我们不尽快行动，他对曼斯拉玛特·瓦布达斯的谋杀将会毁了军团的声誉。
+杀了他为寡妇瓦布达斯报仇，如果我们不尽快行动，他杀害曼斯拉玛特·瓦布达斯的事将毁了军团的名声。
 
 > INFO.NAME lugrub gro-ogdum 144081098799642587
 Lugrub is one of my best soldiers, though he's sometimes rash and quick to anger.
@@ -101541,7 +101541,7 @@ Lugrub is dead and my death is avenged. Speak with Darius and do not let him tak
 
 > INFO.NAME lugrub gro-ogdum 2499839573515549
 I came to the mines to get fresh kwama eggs for my family. Lugrub gro-Ogdum was sleeping, and I snuck past him. When I found enough eggs, I went back the way I came, only this time Lugrub was awake. Lugrub murdered me so that no one would know he failed his duty. He dropped the broken axe he used next to my body in the water behind me.
-我来矿场是为了给家人买新鲜的夸蚂卵。拉格路布·格罗-奥格杜姆正在睡觉，我悄悄地从他身边走过。当我找到足够的夸蚂卵时，我又原路返回，只是这次拉格路布醒了。拉格路布杀了我，这样就没人知道他失职了。他把用过的破斧子扔在我尸体旁边，扔在我身后的水里。 {职责}
+我来矿场，是为了给家人找些新鲜的夸蚂卵。拉格路布·格罗-奥格杜姆当时正在睡觉，我悄悄从他身边溜了过去。找到足够的夸蚂卵后，我原路返回，可这次拉格路布却醒了。为了不让任何人知道他失职，拉格路布杀了我。他把用来行凶的破斧子扔在了我身后的水中，就在我的尸体旁边。 {职责}
 
 > INFO.NAME dranas sarathram 758138361772517488
 The slave trader. Bad man. Hunts my people down. Deserves to be dead, that one does.
@@ -101773,7 +101773,7 @@ Excellent. You can find the limeware aboard the Chun-Ook, docked in Ebonheart. I
 
 > INFO.NAME dwarven limeware 13414303251953815124
 It didn't used to be as much of a problem, but Bolryn at the East Empire Company has been manipulating the prices; I'm sure of it. And he won't give most of us a license to sell the stuff. Actually, I know for a fact that there's a shipment of limeware being held up on a ship in Ebonheart. If you'd be willing to...recover it for me...I would be willing to reward you very generously. Perhaps 1,500 drakes?
-以前没什么问题，但现在我很确定东帝国公司的博林一直在操纵价格。而且他不会给我们中的大多数人销售许可证。事实上，我知道有一批石灰器被扣留在黑檀心的一艘船上。如果你愿意…帮我把它找回来…我愿意给你丰厚的报酬。1500龙币？
+以前没什么问题，但现在我很确定东帝国公司的博林一直在操纵价格。而且他不愿意给大多数人发放销售这些东西的许可证。事实上，我知道有一批石灰器被扣留在黑檀心的一艘船上。如果你愿意…帮我找回来…我愿意给你丰厚的报酬。1500龙币怎么样？
 
 > INFO.BNAM dwarven limeware 13414303251953815124 c1
 I'll get the limeware for you.
@@ -101785,15 +101785,15 @@ I can't help you.
 
 > INFO.NAME dwarven limeware 141663227849129654
 A shipment of limeware? I know nothing about it. There are strict regulations on that kind of material entering Vvardenfell. You'd have to show me some proof for me to believe that.
-石灰器？那种材料进入瓦登费尔有严格的规定，除此之外我对相关的一无所知。你得给我看些证据，我才会相信。
+石灰器？那种材料进入瓦登费尔有严格的规定，除此之外我一无所知。你得拿出点证据来，我才会相信。
 
 > INFO.NAME dwarven limeware 547432752123113499
 A shipment of limeware? I know nothing about it. There are strict regulations on that kind of material entering Vvardenfell. You'd have to show me some proof for me to believe that.
-石灰器？那种材料进入瓦登费尔有严格的规定，除此之外我对相关的一无所知。你得给我看些证据，我才会相信。
+石灰器？那种材料进入瓦登费尔有严格的规定，除此之外我一无所知。你得拿出点证据来，我才会相信。
 
 > INFO.NAME dwarven limeware 25898318151220821495
 You say that the limeware you have was on one of my ships? And you managed to get on board to steal it? What are we to do about this?
-你说你手上的石灰器是在我船上的？而你设法上船偷了它？那我们现在该怎么办？
+你说你手上的石灰器是我船上的？而你居然上船偷了它？那我们现在该怎么办？
 
 > INFO.BNAM dwarven limeware 25898318151220821495 c1
 You should be more careful with your security. Take your limeware.
@@ -101849,7 +101849,7 @@ When you have found the Ring of the Wind, bring it to me.
 
 > INFO.NAME ring in darkness 1404550722132628406
 I have seen a Ring in Darkness. I have seen the Ring of the Wind, a legendary treasure of Elsweyr, sacred to Kynareth. I have seen the wind upon a dark elf's hand. I have seen fire gleam upon a Dwarf's face. I have seen darkness on a ring of water. I have heard no name whispered in the mouth of stone. Seek the Ring in Darkness, and bring it to me. Speak with a Dunmer savant and Dunmer scout to discover the meaning of this vision. Take these gifts. May they make your journey easier.
-我看到了黑暗中的戒指。我看到了风之戒，传说中艾斯维尔的宝物，吉娜瑞斯的圣物。我看到风之戒在暗精灵之手，我看到矮人脸上闪烁的火光，我看到了黑暗中的水环，我到了过石头口中低语的名字。在黑暗中寻找戒指，把它带给我。与丹莫学者和丹莫斥候交谈，探究这幻象的含义。带上这些礼物，愿它们能让你的旅程更轻松。 {神圣,发言人}
+我看到了黑暗中的戒指。我看到了风之戒，传说中艾斯维尔的宝物，吉娜瑞斯的圣物。我看见疾风在暗精灵的手上飘动。我看见火焰在矮人的脸上闪耀。我看见水环笼罩于黑暗中。我听到顽石口中无名的低语。寻找黑暗中的戒指，把它带给我。与丹莫学者和丹莫斥候交谈，探究这幻象的含义。带上这些礼物，愿它们能让你的旅程更轻松。 {神圣,发言人}
 
 > INFO.NAME ring of the wind 24434895465220701
 So. You found the Ring of the Wind? Fascinating. Sit down and tell me all about it....
@@ -101857,7 +101857,7 @@ So. You found the Ring of the Wind? Fascinating. Sit down and tell me all about 
 
 > INFO.NAME ring of the wind 19995174332597810918
 Perhaps I can help you with the Oracle's riddle. Nammu, or 'no-name,' is a cavern in the wildlands of Sunna Guradan. Its east-facing entrance is west-north-west from the Daedric ruin Yansirramus. At the heart of the cavern is a great high chamber, flooded, with a central spire rising from the water. The water around the bottom of the spire might be the ring of water in darkness from the Oracle's vision.
-也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它的东向入口位于迪德拉遗迹严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大的厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑水之戒。 {迪德拉式,戒指}
+也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它朝东的入口位于迪德拉遗迹，严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑暗水环。 {迪德拉式,戒指}
 
 > INFO.NAME ring of the wind 9454222145785780
 So. You found the Ring of the Wind, eh. Good for you.
@@ -101865,7 +101865,7 @@ So. You found the Ring of the Wind, eh. Good for you.
 
 > INFO.NAME ring of the wind 10182158002968612972
 Perhaps I can help you with the Oracle's riddle. Nammu, or 'no-name,' is a cavern in the wildlands of Sunna Guradan. Its east-facing entrance is west-north-west from the Daedric ruin Yansirramus. At the heart of the cavern is a great high chamber, flooded, with a central spire rising from the water. The water around the bottom of the spire might be the ring of water in darkness from the Oracle's vision.
-也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它的东向入口位于迪德拉遗迹严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大的厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑水之戒。 {迪德拉式,戒指}
+也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它朝东的入口位于迪德拉遗迹，严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑暗水环。 {迪德拉式,戒指}
 
 > INFO.NAME ring of the wind 16506187421467766
 So. You found the Ring of the Wind, eh. Good for you.
@@ -101873,7 +101873,7 @@ So. You found the Ring of the Wind, eh. Good for you.
 
 > INFO.NAME ring of the wind 1776920257330710884
 Perhaps I can help you with the Oracle's riddle. Nammu, or 'no-name,' is a cavern in the wildlands of Sunna Guradan. Its east-facing entrance is west-north-west from the Daedric ruin Yansirramus. At the heart of the cavern is a great high chamber, flooded, with a central spire rising from the water. The water around the bottom of the spire might be the ring of water in darkness from the Oracle's vision.
-也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它的东向入口位于迪德拉遗迹严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大的厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑水之戒。 {迪德拉式,戒指}
+也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它朝东的入口位于迪德拉遗迹，严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑暗水环。 {迪德拉式,戒指}
 
 > INFO.NAME ring of the wind 30310271312332918447
 So. You found the Ring of the Wind, eh. Good for you.
@@ -101881,7 +101881,7 @@ So. You found the Ring of the Wind, eh. Good for you.
 
 > INFO.NAME ring of the wind 319989461179123701
 Perhaps I can help you with the Oracle's riddle. Nammu, or 'no-name,' is a cavern in the wildlands of Sunna Guradan. Its east-facing entrance is west-north-west from the Daedric ruin Yansirramus. At the heart of the cavern is a great high chamber, flooded, with a central spire rising from the water. The water around the bottom of the spire might be the ring of water in darkness from the Oracle's vision.
-也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它的东向入口位于迪德拉遗迹严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大的厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑水之戒。 {迪德拉式,戒指}
+也许我能帮你解开神谕者的谜语。纳姆，或者说“无名”，是苏纳-古拉丹荒原上的一个洞穴。它朝东的入口位于迪德拉遗迹，严希拉马斯的西北偏西的方向。洞穴的中心是一个巨大的高大厅室，被水淹没，中央的尖塔从水中升起。尖塔底部周围的水可能就是神谕者幻象中的黑暗水环。 {迪德拉式,戒指}
 
 > INFO.NAME ring of the wind 29441129502283929764
 The Ring of the Wind is a legendary treasure of Elsweyr, sacred to Kynareth. It was owned by the nimble acrobat Kisimba Spring-Snow, who was said to always land on her feet, except when she chose to land on the feet of others.
@@ -127875,7 +127875,7 @@ Thank you again for your help.
 
 > INFO.NAME strange man 2230420380811519217
 Goodness. Is he... dead? How unpleasant. Was it very dangerous? I'm sorry. I really have nothing to give you but my thanks. But I'll tell everyone how kind and brave you were to help me.
-天哪。他…死了？多可怕啊。是不是很危险？我很遗憾，除了感谢我真的没什么可以给你的。但我会告诉大家，你是多么善良勇敢地帮助我。 {帮我}
+天哪。他…死了？多可怕啊。是不是很危险？我很遗憾，除了感谢我真的没什么可以给你的。但我会告诉大家，你是多么善良勇敢地帮我。
 
 > INFO.NAME strange man 1130022589237875643
 Please. Get him out of my house. He's scaring me.
