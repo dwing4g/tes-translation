@@ -7715,7 +7715,7 @@ No
 
 > SCPT.SCTX shrineGhostgate m16
 Here Vivec, Sotha Sil, and Almalexia used many soul gems to create the Ghostfence, an unwavering symbol of Dunmer pride.
-在这里，维威克、索萨·希尔和阿玛莱西娅用许多灵魂石建造了幽魂之墙，它是丹莫骄傲的坚定象征。
+在这里，维威克、索萨·希尔和阿玛莱西娅用许多灵魂石建造了幽魂屏障，它是丹莫骄傲的坚定象征。
 
 > SCPT.SCTX shrineGhostgate m17
 The Grace of Pride: Thank you for your pride, Lord Vivec. I shall not doubt myself, or my people, or my gods, and shall insist upon them, and my ancient rights.
@@ -33488,7 +33488,7 @@ Tiras Sadus
 
 > NPC_.FNAM daynes redothril
 Daynes Redothril
-戴尼斯·瑞多瑟尔
+戴尼斯·瑞多斯里尔
 
 > CLOT.FNAM common_shoes_01
 Common Shoes
@@ -40368,7 +40368,7 @@ Joshur
 
 > NPC_.FNAM Cavortius Albuttian
 Cavortius Albuttian
-卡沃提斯·阿尔布提安
+卡沃提乌斯·阿尔布提安
 
 > NPC_.FNAM Frald the White
 Frald the White
@@ -44784,11 +44784,11 @@ The Shrine of Pride is found within the Ghostfence, just northeast of the Ghostg
 <BR>
 瓦尔神殿位于考尔洞穴内，这是一座位于贝兰达斯古要塞以西、尼希斯以南的海岸上的洞穴。洞口朝南，面向大海，以巨大的天然石拱为标志。该地区是荒野，寻找洞穴口可能很困难。洞穴内的德鲁格本身就是可怕的敌人；只有经验丰富且有能力的冒险者才应该尝试在洞穴中与德鲁格重演史诗般的战斗。可以在尼希斯的圣殿购买干蜡。当你向神社讲话时，习惯上会留下一部分蜡，作为维威克与红人斗争胜利的象征。<BR>
 <BR>
-幽魂之墙：骄傲圣祠<BR>
+幽魂屏障：骄傲圣祠<BR>
 <BR>
-幽魂之墙是奥姆希维不屈不挠的意志和力量的持久象征，也是丹莫以战胜敌人为荣的纪念碑。<BR>
+幽魂屏障是奥姆希维不屈不挠的意志和力量的持久象征，也是丹莫以战胜敌人为荣的纪念碑。<BR>
 <BR>
-骄傲圣祠位于幽魂之门东北方的幽魂之墙内。前往幽魂之门最安全的路线是玛梅亚熔渠，这是一条从西南红山山顶一直延伸到巴尔莫拉下方尽头的火山峡谷。一座古老的锻莫桥横跨月蛾要塞附近的熔渠。朝圣者可追随玛梅亚熔渠一路到幽魂之门。幽魂之墙内的任何旅程都是相当危险的，但只要不离幽魂之门太远，远离达格斯·乌尔的爪牙，即使是最胆小的朝圣者也应该是安全的。当朝圣者向圣祠祈祷时，一般会供奉一颗灵魂石以纪念我们的祖先，他们必须为审判席服务。<BR>
+骄傲圣祠位于幽魂之门东北方的幽魂屏障内。前往幽魂之门最安全的路线是玛梅亚熔渠，这是一条从西南红山山顶一直延伸到巴尔莫拉下方尽头的火山峡谷。一座古老的锻莫桥横跨月蛾要塞附近的熔渠。朝圣者可追随玛梅亚熔渠一路到幽魂之门。幽魂屏障内的任何旅程都是相当危险的，但只要不离幽魂之门太远，远离达格斯·乌尔的爪牙，即使是最胆小的朝圣者也应该是安全的。当朝圣者向圣祠祈祷时，一般会供奉一颗灵魂石以纪念我们的祖先，他们必须为审判席服务。<BR>
 <BR>
 """
 
@@ -48258,7 +48258,7 @@ Held for theft, attempted robbery, conspiracy, consorting with thieves, and resi
 <BR>
 因在半路酒馆发生斗殴而被关押。损坏半路酒馆的三把椅子、一张桌子和两扇窗户被罚做苦役。<BR>
 <BR>
-新鞋·巴戈，波斯莫男性，状况一般<BR>
+新鞋·布拉戈，波斯莫男性，状况一般<BR>
 <BR>
 因盗窃、抢劫未遂、串谋、与盗偷勾结和拒捕而被关押。<BR>"""
 
@@ -53485,7 +53485,7 @@ Line 6-7: 'Star-blessed' suggests Azura, the Daedra Lord and patron of magic, fa
 <BR>
 从第十一代的第七个标志开始，<BR>
 既非猎犬亦非瓜尔，既非种子亦非钉耙，<BR>
-惟有龙之裔与远星之印，<BR>
+而是生于龙旗之下，身负远星之印，<BR>
 外地人化身于红山之下，<BR>
 受祝的来客能够抵御七个诅咒，<BR>
 星辰庇佑之手挥舞着受三度诅咒之刃，<BR>
@@ -54214,7 +54214,7 @@ Noted with Concern<BR>
 <BR>
 第三纪元415年：在瓦登费尔的每一座城镇中，都潜伏着第六家族信徒的小型秘密据点。而更大规模的第六家族行动，则隐匿于偏远的洞穴与地牢深处——那里正培育着用于战争的凶兽，也训练着信徒，为即将到来的斗争做准备。<BR>
 <BR>
-第三纪元417年：阿玛莱希娅与索萨·希尔手中的神器“哀恸”与“决裂”被达格斯·欧德罗斯与维明夺走。维威克救出了阿玛莱希娅与索萨·希尔，但因未能夺回“哀恸”与“决裂”，审判席被迫溃败地撤出红山。幸存的灵动扈从们知道审判席是被迫撤退，但不知审判席遭此重创的程度。三位审判席返回各自的首都，继续履行其仪式性的职责。由于无法接触心脏，又需将资源用于维持幽魂之墙，审判席们持续衰弱。神殿高阶祭司团内部的圈内人士开始怀疑审判席们在红山失利后身受重伤、士气低落，但尚未认清问题的严重性。<BR>
+第三纪元417年：阿玛莱希娅与索萨·希尔手中的神器“哀恸”与“决裂”被达格斯·欧德罗斯与维明夺走。维威克救出了阿玛莱希娅与索萨·希尔，但因未能夺回“哀恸”与“决裂”，审判席被迫溃败地撤出红山。幸存的灵动扈从们知道审判席是被迫撤退，但不知审判席遭此重创的程度。三位审判席返回各自的首都，继续履行其仪式性的职责。由于无法接触心脏，又需将资源用于维持幽魂屏障，审判席们持续衰弱。神殿高阶祭司团内部的圈内人士开始怀疑审判席们在红山失利后身受重伤、士气低落，但尚未认清问题的严重性。<BR>
 <BR>
 第三纪元426-427年：第六家族展开了一系列针对帝国知名公民及哈拉鲁家族中帝国同情者的暗杀行动。由信徒及因灵魂之疾而心智失常的受害者发动的袭击，其数量与严重程度急剧增加。<BR>
 <BR>
@@ -54925,7 +54925,7 @@ Salora Salobar
 
 > NPC_.FNAM tolmera relenim
 Tolmera Relenim
-托尔梅拉·雷尼姆
+托尔梅拉·瑞莱尼姆
 
 > NPC_.FNAM cirges adrard
 Cirges Adrard
@@ -60093,7 +60093,7 @@ Massour Asserrumusa
 
 > NPC_.FNAM new_shoes bragor
 New-Shoes Bragor
-新鞋·巴戈
+新鞋·布拉戈
 
 > NPC_.FNAM manis virmaulese
 Manis Virmaulese
@@ -66698,7 +66698,7 @@ Aras Girendas
 
 > NPC_.FNAM Bravora Relavel
 Bravora Relavel
-巴沃拉·瑞拉维
+巴沃拉·瑞拉维尔
 
 > NPC_.FNAM Alms Helothren
 Alms Helothren
@@ -66710,7 +66710,7 @@ Dravynea Fatheran
 
 > CLOT.FNAM peakstar_pants_unique
 Travel-stained Pants
-弄脏的旅行裤
+风尘仆仆的裤子
 
 > CLOT.FNAM peakstar_belt_unique
 Embroidered belt
@@ -68711,7 +68711,7 @@ Codus Callonus: Bookseller
 
 > ACTI.FNAM furn_bannerd_goods_aldruhnpawn
 Daynes Redothril: Pawnbroker
-戴尼斯·瑞多瑟尔：典当商
+戴尼斯·瑞多斯里尔：典当商
 
 > ACTI.FNAM furn_banner_tavern_aldruhnskar
 Ald Skar Inn
@@ -71798,11 +71798,11 @@ Key to Llervu tomb
 
 > MISC.FNAM key_Rethandus_tomb
 Key to Rethandus tomb
-开启雷坦杜斯墓穴的钥匙
+开启雷桑杜斯墓穴的钥匙
 
 > MISC.FNAM key_Rethandus_chest
 Key to Rethandus chest
-开启雷坦杜斯箱子的钥匙
+开启雷桑杜斯箱子的钥匙
 
 > MISC.FNAM key_Rothan_tomb
 Key to Rothan tomb
@@ -72664,7 +72664,7 @@ Tolmera Relenim - Greater Soul Gems (10, empty)<p>
 
 萨尔维·勒然 - 野火之戒（精美）<p>
 
-托尔梅拉·雷尼姆 - 高级灵魂宝石（10，空）<p>
+托尔梅拉·瑞莱尼姆 - 高级灵魂宝石（10，空）<p>
 """
 
 > CREA.FNAM corprus_stalker_danar
@@ -74701,7 +74701,7 @@ But most serious are the plagues and diseased hosts produced by the blight storm
 <BR>
 新区被划分为瑞多然、哈拉鲁、泰瓦尼和神殿四个区域，每个区域都由本地的家族议会或神殿牧师独立管理，而所有议会都要遵从德伦公爵以及位于檀心城的地区议会的建议，行事也要获得他们的批准。家族区中的当地法律混合了家族律法与帝国法，由家族守卫与帝国守卫共同执行，而神殿区的神殿律法和帝国法则由神殿卫兵负责维护。审判席神殿依旧是主要宗教，但对九圣灵的崇拜则受到帝国军团的保护，且帝国教的传教士们鼓励宗教的传播。<BR>
 <BR>
-神殿区包括维威克城、幽魂之门要塞，以及所有神圣或亵渎的地点（也包括幽魂之墙以内的枯萎病地区），还有瓦登费尔全部无人居住的荒郊野地。实际上，所有未标明为瑞多然、哈拉鲁或泰瓦尼区的区域都属于神殿区。神殿顽固地反对在他们区域内的一切开发，就此取得了很大成功。<BR>
+神殿区包括维威克城、幽魂之门要塞，以及所有神圣或亵渎的地点（也包括幽魂屏障以内的枯萎病地区），还有瓦登费尔全部无人居住的荒郊野地。实际上，所有未标明为瑞多然、哈拉鲁或泰瓦尼区的区域都属于神殿区。神殿顽固地反对在他们区域内的一切开发，就此取得了很大成功。<BR>
 <BR>
 哈拉鲁家族与帝国殖民者一道着手于朝气蓬勃的定居点修建和开发。在重组之后的数十年内，巴尔莫拉与阿斯卡迪安群岛区一直在稳定发展。卡尔德拉与佩拉吉亚德都是完全新建的定居点，而所有的军团要塞都为了适应规模更大的卫队而进行了扩建。<BR>
 <BR>
@@ -74711,7 +74711,7 @@ But most serious are the plagues and diseased hosts produced by the blight storm
 <BR>
 帝国的管理在瓦登费尔区面临着多重挑战，但其中最为严重的就是大家族间的彼此敌对，来自灰烬民游牧部落的敌视，审判席神殿的内部冲突以及红山的枯萎病。大家族、神殿与帝国为控制瓦登费尔的资源而在彼此间爆发的冲突随时都可能演变成全面战争。灰烬民抢掠定居点、抢劫商队，还会杀死出现在他们野地上的异邦人。而神殿试图平息批评之声与内部要求改革的呼吁，结果却并不成功。<BR>
 <BR>
-但最为严重的还是由自红山吹来的枯萎风暴带来的瘟疫和疾病宿主。瓦登费尔乃至整个晨风长久以来都一直受到居住在红山之下的达格斯·乌尔以及他手下灰烬吸血鬼的威胁。许多个世纪里神殿一直将这份威胁关押在幽魂之墙之内。但最近神殿的资源与决心都在动摇，而来自红山的威胁则在尺度与密度上都有所增长。一旦幽魂之墙失效，身带枯萎病的怪物就将遍布瓦登费尔的城镇村落，而帝国大概别无选择，只能撤离瓦登费尔区，将其留给疾病与腐败。<BR>
+但最为严重的还是由自红山吹来的枯萎风暴带来的瘟疫和疾病宿主。瓦登费尔乃至整个晨风长久以来都一直受到居住在红山之下的达格斯·乌尔以及他手下灰烬吸血鬼的威胁。许多个世纪里神殿一直将这份威胁关押在幽魂屏障之内。但最近神殿的资源与决心都在动摇，而来自红山的威胁则在尺度与密度上都有所增长。一旦幽魂屏障失效，身带枯萎病的怪物就将遍布瓦登费尔的城镇村落，而帝国大概别无选择，只能撤离瓦登费尔区，将其留给疾病与腐败。<BR>
 <BR>
 """
 
@@ -77619,23 +77619,23 @@ I brought a bottle of vintage brandy to Sugar-Lips Habasi.
 
 > INFO.NAME tg_brotherbragor 273315646829231659
 Sugar-Lips Habasi told me that New-Shoes Bragor was caught by the guards in Pelagiad and is being held in Fort Pelagiad. Habasi heard that Mebestien Ence is secretly smuggling Dwemer materials and that Shadbak gra-Burbug, a guard in Fort Pelagiad, has been taking bribes to overlook the smuggling. I should steal a Dwemer artifact from Mebestien Ence, show it to Shadbak gra-Burbug, and demand that New-Shoes Bragor be released.
-蜜唇·哈巴西告诉我，新鞋·巴戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯蒂安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯蒂安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·巴戈。 {瓜尔}
+蜜唇·哈巴西告诉我，新鞋·布拉戈被佩拉吉亚德的卫兵抓住了，被关在佩拉吉亚德要塞。哈巴西听说梅贝斯蒂安·恩斯在秘密走私锻莫材料，而佩拉吉亚德要塞的卫兵莎德巴克·格拉-巴巴格一直收受贿赂，忽略了走私行为。我应该从梅贝斯蒂安·恩斯那里偷一件锻莫文物，拿给莎德巴克·格拉-巴巴格看，然后要求释放新鞋·布拉戈。 {瓜尔}
 
 > INFO.NAME tg_brotherbragor 883721219783110618
 Shadbak gar-Burbug agreed to release New-Shoes Bragor when I showed her the Dwemer artifact.
-当我把锻莫文物给她看时，沙德巴克·格拉-布尔布格同意释放新鞋·巴戈。 {锻莫族}
+当我把锻莫文物给她看时，沙德巴克·格拉-布尔布格同意释放新鞋·布拉戈。 {锻莫族}
 
 > INFO.NAME tg_brotherbragor 5086840205159721
 New-Shoes Bragor gave me his shoes.
-新鞋·巴戈把他的鞋子给了我。
+新鞋·布拉戈把他的鞋子给了我。
 
 > INFO.NAME tg_brotherbragor 2923874592014914267
 Sugar-Lips Habasi thanked me for getting New-Shoes Bragor released.
-蜜唇·哈巴西感谢我释放了新鞋·巴戈。
+蜜唇·哈巴西感谢我释放了新鞋·布拉戈。
 
 > INFO.NAME tg_brotherbragor 1341478462845320377
 Sugar-Lips Habasi wasn't happy that the person who was to help us free our brother Bragor is dead. He will have to stay in his cell.
-蜜唇·哈巴西并不高兴，因为要帮我们释放巴戈兄弟的人死了。他也只能待在牢房里了。
+蜜唇·哈巴西并不高兴，因为要帮我们释放布拉戈兄弟的人死了。他也只能待在牢房里了。
 
 > INFO.NAME tg_lootaldruhnmg 274712685139341517
 Aengoth the Jeweler told me that he heard the Guild of Mages in Ald'ruhn is empty and that now would be a good time to fetch Anareren's Devil Tanto.
@@ -77811,11 +77811,11 @@ I have joined the Imperial cult.
 
 > INFO.NAME a2_3_corprussafe 20695159543201816874
 Uupse Fyr said that if I would find a guarskin drum and bring it to her, she could play the drum to calm the corprus victims. She says the victims wander away with the drum sometimes, so I'll have to search for it.
-乌普斯·菲尔说，如果我能找到一个瓜尔皮制鼓并带给她，她就可以敲鼓安抚尸化病的受害者。她说受害者有时会带着鼓乱走，所以我得去找找。
+乌普斯·菲尔说，如果我能找到一个瓜尔皮制鼓并带给她，她就可以敲鼓安抚尸化病患者。她说受害者有时会带着鼓乱走，所以我得去找找。
 
 > INFO.NAME a2_3_corprussafe 16385178302675919240
 I brought Uupse Fyr a guarskin drum so she could play some rhythms to soothe the corprus victims.
-我给乌普斯·菲尔带来了一面瓜尔皮制鼓，这样她就可以敲出一些节奏来安抚尸化病的受害者。
+我给乌普斯·菲尔带来了一面瓜尔皮制鼓，这样她就可以敲出一些节奏来安抚尸化病患者。
 
 > INFO.NAME b1_urshilakukill 14767102902382724745
 I have slain an Urshilaku Ashlander. Now it will be impossible to have friendly dealings with them or their leaders.
@@ -79031,19 +79031,19 @@ I returned the firejade amulet to Bevene Releth, and she paid me 25 gold. She ha
 
 > INFO.NAME town_ald_daynes 7164404019185936
 Daynes Redothril the pawnbroker sold two fine matched rings, one with an raw ebony stone, the other with a raw glass stone, to a customer named Ienas Sarandas. But Sarandas has failed to pay the remaining 150 gold owed. If I can find Sarandas, and either get the ebony ring and the glass ring and return them to Redothril, or get the 150 gold Sarandas owes Redothril, the pawnbroker will pay me 50 gold.
-典当商戴尼斯·瑞多斯尔将两枚精美的对戒卖给了一位名叫伊纳斯·萨兰达斯的顾客，一枚镶嵌着黑檀矿原石，另一枚镶嵌着玻璃矿原石。但是萨兰达斯没有支付剩余的150金币欠款。如果我能找到萨兰达斯，要么拿到黑檀戒指和玻璃戒指还给雷多特里尔，要么拿到萨兰达斯欠雷多特里尔的150金币，典当商就会付给我50金币。
+典当商戴尼斯·瑞多斯里尔将两枚精美的对戒卖给了一位名叫伊纳斯·萨兰达斯的顾客，一枚镶嵌着黑檀矿原石，另一枚镶嵌着玻璃矿原石。但是萨兰达斯没有支付剩余的150金币欠款。如果我能找到萨兰达斯，要么拿到黑檀戒指和玻璃戒指还给瑞多斯里尔，要么拿到萨兰达斯欠瑞多斯里尔的150金币，典当商就会付给我50金币。
 
 > INFO.NAME town_ald_daynes 2877931441511117727
 I returned the ebony ring and the glass ring to Daynes Redothril, and he paid me 50 gold. He seemed very pleased with the way I had handled the affair.
-我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯尔，他付给我50金币。他似乎对我处理这件事的方式很满意。
+我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯里尔，他付给我50金币。他似乎对我处理这件事的方式很满意。
 
 > INFO.NAME town_ald_daynes 2814069091031811580
 I returned the ebony ring and the glass ring to Daynes Redothril, and he paid me 50 gold.
-我把黑檀戒指和玻璃戒指还给戴尼斯·瑞多斯尔，他付了我50金币。
+我把黑檀戒指和玻璃戒指还给戴尼斯·瑞多斯里尔，他付了我50金币。
 
 > INFO.NAME town_ald_daynes 2740751764212309
 I returned the ebony ring and the glass ring to Daynes Redothril, and he paid me 50 gold. He had heard that Ienas Sarandas had been found dead, and he suspected me, though he had no proof. He did not seem at all pleased with the way I had handled the affair.
-我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯尔，他付了我50金币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式不太满意。 {发现死亡}
+我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯里尔，他付了我50金币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式不太满意。 {发现死亡}
 
 > INFO.NAME ic0_maran_token 94001707163521477
 As a token of appreciation, I have received a Maran Amulet from the Imperial cult.
@@ -81043,7 +81043,7 @@ The appearance of the Sixth House is clearly a sign of a coming crisis, accordin
 
 > INFO.NAME a2_4_milogone 3035414440150723867
 Gilvas Barelo says that faith in the Temple's protective power was strong as long as the Ordinators, Buoyant Armigers, and Tribunal could contain the blight and Dagoth Ur's creatures within the Ghostfence. But now travelers and settlements suffer from blight storms and marauding monsters, and the people fear the Temple is losing its ages-old battle with the Devil Dagoth Ur.
-吉尔瓦斯·巴雷洛说，只要神殿卫兵们、灵动扈从和审判席能够将枯萎之症和达格斯·乌尔的生物控制在幽魂之墙之内，人们就会对神殿的保护力量充满信仰。但现在，旅行者和定居点饱受枯萎病风暴和掠夺性怪物之苦，人们担心神殿在与恶魔达格斯·乌尔的旷世之战中败下阵来。
+吉尔瓦斯·巴雷洛说，只要神殿卫兵们、灵动扈从和审判席能够将枯萎之症和达格斯·乌尔的生物控制在幽魂屏障之内，人们就会对神殿的保护力量充满信仰。但现在，旅行者和定居点饱受枯萎病风暴和掠夺性怪物之苦，人们担心神殿在与恶魔达格斯·乌尔的旷世之战中败下阵来。
 
 > INFO.NAME a2_4_milogone 33735082211922247
 The Temple might not be so intolerant of differences in opinion, Gilvas Barelo says, but the Ordinators under Berel Sala claim that the threat from Red Mountain and Dagoth Ur can only be resisted with a unified, resolute faith. If the Dissident priests could show they can confront Dagoth Ur more effectively than the Ordinators, the Temple and people might support the Dissident priests.
@@ -82759,7 +82759,7 @@ Tarer Braryn has learned Trebonius is dead, and his rash will be staying around 
 
 > INFO.NAME town_aldruhn 2138025976965911594
 I returned the ebony ring and the glass ring to Daynes Redothril, and he paid me 50 gold. He had heard that Ienas Sarandas had been found dead, and he suspected me, though he had no proof. He did not seem at all pleased with the way I had handled the affair.
-我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯尔，他付了我50金币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式不太满意。 {发现死亡}
+我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯里尔，他付了我50金币。他听说伊纳斯·萨兰达斯被发现时已经死了，他怀疑是我干的，虽然他没有证据。他似乎对我处理这件事的方式不太满意。 {发现死亡}
 
 > INFO.NAME town_aldruhn 240303665204204531
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 gold. He had heard that Ienas Sarandas had been found dead, and he suspected me, though he had no proof. He did not seem at all pleased with the way I had handled the affair.
@@ -82779,11 +82779,11 @@ I returned the brocade shirt and silk pants to Bivale Teneran, and she paid me 5
 
 > INFO.NAME town_aldruhn 47073002013117831
 I returned the ebony ring and the glass ring to Daynes Redothril, and he paid me 50 gold.
-我把黑檀戒指和玻璃戒指还给戴尼斯·瑞多斯尔，他付了我50金币。
+我把黑檀戒指和玻璃戒指还给戴尼斯·瑞多斯里尔，他付了我50金币。
 
 > INFO.NAME town_aldruhn 10140247981460919590
 I returned the ebony ring and the glass ring to Daynes Redothril, and he paid me 50 gold. He seemed very pleased with the way I had handled the affair.
-我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯尔，他付给我50金币。他似乎对我处理这件事的方式很满意。
+我把黑檀戒指和玻璃戒指还给了戴尼斯·瑞多斯里尔，他付给我50金币。他似乎对我处理这件事的方式很满意。
 
 > INFO.NAME town_aldruhn 3141929836483929319
 I returned the racer suede belt to Tiras Sadus, and he paid me 25 gold.
@@ -82819,7 +82819,7 @@ I returned the brocade shirt and silk pants to Bivale Teneran, and she paid me 5
 
 > INFO.NAME town_aldruhn 7060251882788219651
 I persuaded Ienas Sarandas to give me the goods. Now I must return the brocade shirt and silk pants to Bivale Teneran, the racer suede belt to Tiras Sadus, the ebony ring and glass ring to Daynes Redothril, the designer shoes to Llether Vari, and the firejade amulet to Bevene Releth. Ienas Sarandas has resolved to live honestly and honorably from this day forward.
-我说服伊纳斯·萨兰达斯把货给了我。现在我必须把锦缎衬衫和丝绸裤子还给比薇尔·特纳兰，把迅鸟绒面腰带还给蒂拉斯·萨杜斯，把黑檀戒指和玻璃戒指还给戴尼斯·瑞多斯尔，把名牌鞋还给雷瑟尔·瓦里，把火玉护身符还给贝薇妮·瑞莱斯。伊纳斯·萨兰达斯决心从今天起诚实、光荣地生活。
+我说服伊纳斯·萨兰达斯把货给了我。现在我必须把锦缎衬衫和丝绸裤子还给比薇尔·特纳兰，把迅鸟绒面腰带还给蒂拉斯·萨杜斯，把黑檀戒指和玻璃戒指还给戴尼斯·瑞多斯里尔，把名牌鞋还给雷瑟尔·瓦里，把火玉护身符还给贝薇妮·瑞莱斯。伊纳斯·萨兰达斯决心从今天起诚实、光荣地生活。
 
 > INFO.NAME town_aldruhn 99298338801330467
 I spoke to Ienas Sarandas about his overdue payments. I tried to threaten him with violence, but he dismissed my threats, and repeated that he did not have the cash, but that he expected to have it soon.
@@ -82831,7 +82831,7 @@ I spoke to Ienas Sarandas about his overdue payments. He said he had no cash at 
 
 > INFO.NAME town_aldruhn 1904816929270224616
 Daynes Redothril the pawnbroker sold two fine matched rings, one with an raw ebony stone, the other with a raw glass stone, to a customer named Ienas Sarandas. But Sarandas has failed to pay the remaining 150 gold owed. If I can find Sarandas, and either get the ebony ring and the glass ring and return them to Redothril, or get the 150 gold Sarandas owes Redothril, the pawnbroker will pay me 50 gold.
-典当商戴尼斯·瑞多斯尔将两枚精美的对戒卖给了一位名叫伊纳斯·萨兰达斯的顾客，一枚镶嵌着黑檀矿原石，另一枚镶嵌着玻璃矿原石。但是萨兰达斯没有支付剩余的150金币欠款。如果我能找到萨兰达斯，要么拿到黑檀戒指和玻璃戒指还给雷多特里尔，要么拿到萨兰达斯欠雷多特里尔的150金币，典当商就会付给我50金币。
+典当商戴尼斯·瑞多斯里尔将两枚精美的对戒卖给了一位名叫伊纳斯·萨兰达斯的顾客，一枚镶嵌着黑檀矿原石，另一枚镶嵌着玻璃矿原石。但是萨兰达斯没有支付剩余的150金币欠款。如果我能找到萨兰达斯，要么拿到黑檀戒指和玻璃戒指还给瑞多斯里尔，要么拿到萨兰达斯欠瑞多斯里尔的150金币，典当商就会付给我50金币。
 
 > INFO.NAME town_aldruhn 2798428094119222313
 The trader Tiras Sadus sold an Ashlander hand-crafted racer suede belt to a customer, but the customer has failed to make his final payment on time. If I can find Ienas Sarandas and retrieve the belt for the trader, or if I can get the 50 septims owed to the trader, Tiras Sadus will pay me 25 gold.
@@ -83907,7 +83907,7 @@ There are rumors in Gnisis about the vampire "Lord Irarak." They say that he and
 
 > INFO.NAME va_vampcult 2779313351995326874
 Apparently, there are a few burial tombs nearby. They are Ginith to the northwest of town, and Rethandus to the northeast.
-显然，附近有几座墓葬。它们是镇子西北部的基尼斯和东北部的雷坦杜斯。
+显然，附近有几座墓葬。它们是镇子西北部的基尼斯和东北部的雷桑杜斯。
 
 > INFO.NAME va_vampcult 2287930755221984082
 It seems Lord Irarak was once a dark elf named Gulmon Droth. He has recently gained a number of followers among the younger residents of Gnisis.
@@ -84315,7 +84315,7 @@ The East Empire Company threatened to buy ebony from House Redoran unless House 
 
 > INFO.NAME hh_indesp4 1108125016267223729
 Nileno Dorvayn told me that if I want to get to the Sudanit mine, I should start in Ald'ruhn. Then go south around the town until I see the path between Ald'ruhn and the Buckmoth Legion Fort. I should follow this path east until I reach the Ghostfence. Then keep to the right until I see the mine.
-尼莱诺·多维恩告诉我，如果我想去苏丹尼特矿场，应该从奥德'汝因开始。然后绕着小镇向南走，直到我看到奥德'汝因和雄蛾军团要塞之间的小路。我应该沿着这条路向东走，直到到达幽魂之墙。然后一直向右走，直到我看到矿场。
+尼莱诺·多维恩告诉我，如果我想去苏丹尼特矿场，应该从奥德'汝因开始。然后绕着小镇向南走，直到我看到奥德'汝因和雄蛾军团要塞之间的小路。我应该沿着这条路向东走，直到到达幽魂屏障。然后一直向右走，直到我看到矿场。
 
 > INFO.NAME hh_indesp4 12795100792229657
 I convinced Canctunian Ponius to buy ebony only from House Hlaalu.
@@ -86039,7 +86039,7 @@ You're welcome to rest in our beds. Speak with the others here, and you may find
 
 > INFO.NAME tribunal fight dagoth ur 2149249831908526759
 In the past, the Tribunal made seasonal campaigns to Red Mountain. We slew Dagoth Ur and his kin, though the Heart always revived them in time. Later, when we realized we couldn't destroy them, we created the Ghostfence to contain the threat. These solutions were effective until Dagoth Ur ambushed us and captured Sunder and Keening. Since that time, our fortunes have waned as his increased.
-过去审判席每个季度都会去红山出征。我们杀死了达格斯·乌尔和他的亲族，尽管心脏总能很快复活他们。后来，当我们意识到无法消灭他们时，我们创建了幽魂之墙来遏制威胁。这些办法一直很有效，直到有一次达格斯·乌尔伏击了我们，并俘虏了决裂和哀恸。从那时起，随着他的势力不断壮大，我们的命运也随之衰落。 {财富}
+过去审判席每个季度都会去红山出征。我们杀死了达格斯·乌尔和他的亲族，尽管心脏总能很快复活他们。后来，当我们意识到无法消灭他们时，我们创建了幽魂屏障来遏制威胁。这些办法一直很有效，直到有一次达格斯·乌尔伏击了我们，并俘虏了决裂和哀恸。从那时起，随着他的势力不断壮大，我们的命运也随之衰落。 {财富}
 
 > INFO.NAME geography of vvardenfell 224925382936917396
 Only recently open to settlement and trade, most of the island's population is confined to the relatively hospitable west and southwest coast, centered around the ancient city of Vivec and the old Great House district centers at Balmora, Ald'ruhn, and Sadrith Mora. The rest of the island is covered by hostile desert wastes, arid grasslands, and volcanic badlands, and thinly populated by the nomadic Ashlander tribes.
@@ -87183,7 +87183,7 @@ I do not want to play games with you, %PCName. Bring me a copy of Chronicles of 
 
 > INFO.NAME chronicles of nchuleft 2338627563162067478
 I know it may be difficult to find this book. You could try the Dwemer ruin of Nchuleft itself, which is supposed to be somewhere between Vos and the Ghostfence.
-我知道这本书可能很难找到。你可以去恩楚莱夫特的锻莫遗迹试试，那里应该就在沃斯和幽魂之墙之间。 {锻莫族}
+我知道这本书可能很难找到。你可以去恩楚莱夫特的锻莫遗迹试试，那里应该就在沃斯和幽魂屏障之间。 {锻莫族}
 
 > INFO.NAME chronicles of nchuleft 21657126292392918147
 Have you found a copy of Chronicles of Nchuleft?
@@ -87615,7 +87615,7 @@ You must go to Erabenimsun camp. The ashkhan of the Erabenimsun, Ulath-Pal, is a
 
 > INFO.NAME suppress the apographa 253012551614532646
 Why did I suppress the Apographa? Because it was such an unfortunate mixture of truth, falsehood, and speculation that I couldn't afford to manage the confused reaction of our faithful. Any doubt whatsoever weakened their faith, and we needed their faith to give us the power to maintain the Ghostfence. In retrospect, perhaps we lost the faith of those we most needed while preserving the faith of the meek and indifferent. Perhaps a mistake was made. Who can say?
-我为什么要查禁《匿典》？因为它不幸混合了真相、谬误和猜测，我无法承受信徒们的混乱反应。任何怀疑都会削弱他们的信仰，而我们需要他们的信仰带给我们力量，以维持幽魂之墙。现在回想起来，也许我们失去了那些我们最需要的人的信仰，却保留了那些软弱和冷漠的人的信仰。也许我们犯了一个错误。谁说得准呢？
+我为什么要查禁《匿典》？因为它不幸混合了真相、谬误和猜测，我无法承受信徒们的混乱反应。任何怀疑都会削弱他们的信仰，而我们需要他们的信仰带给我们力量，以维持幽魂屏障。现在回想起来，也许我们失去了那些我们最需要的人的信仰，却保留了那些软弱和冷漠的人的信仰。也许我们犯了一个错误。谁说得准呢？
 
 > INFO.NAME cause others to suffer 2893442172298627693
 Why did I cause others to suffer? I respect that question, and you for it. The most I can say is: I did the best I could, as I saw things. Can you, mortal, presume to judge the actions and motives of a god? But, because I need you, and you need me, I will make an accounting for my sins, to you. But not now. Destroy Dagoth Ur, and then we will discuss my sins. Then, perhaps, you will have earned the right to judge me.
@@ -88639,7 +88639,7 @@ The tomb is south of Pelagiad, just off the road, just before you reach the fork
 
 > INFO.NAME ancestral burial tombs 22740284191090024659
 There are a couple of them near this town. There's Ginith to the northwest and Rethandus to the northeast. There may be others, but I don't know where.
-这个镇子附近有几个地方：西北方有基尼斯，东北方有雷坦杜斯，可能还有其他的，但我不知道在哪。
+这个镇子附近有几个地方：西北方有基尼斯，东北方有雷桑杜斯，可能还有其他的，但我不知道在哪。
 
 > INFO.NAME war-loving erabenimsun 1296029592145023431
 You have defeated the war-loving Erabenimsun. But now we have no ashkhan, and I fear we will suffer from the attacks of outcast Ashlanders. You must persuade Han-Ammu to become our ashkhan.
@@ -89495,11 +89495,11 @@ If you are looking for the Duke, or a member of the Grand Council, the Grand Cou
 
 > INFO.NAME someone in particular 7031195422601117337
 I'm Duke Vedam Dren. The other Grand Council members are with me here. Rufinus Alleius is the Imperial magistrate. Cavortius Albuttian is the head of the Imperial Guard, my palace guard. Frald the White, Knight Bachelor of the Imperial Legion, is the head of the Hawkmoth Legion Garrison. Lalatia Varian is the head priest of the castle's Imperial cult shrine. The wealthy Canctunian Ponius is the chief factor and banker of the East Empire Company.
-我是维达姆·德伦公爵。大议会的其他成员也在这里，鲁菲努斯·阿莱乌斯是帝国人。卡沃提斯·阿尔布提安是帝国卫兵首领，也就是我的宫廷卫兵。苍白者弗拉德，帝国军团学士骑士，是鹰蛾军团驻军的首领。拉拉蒂亚·瓦里安是城堡帝国教团圣祠的祭司长。富有的坎克图尼安·博尼乌斯是东帝国公司的首席董事和银行家。 {瓜尔}
+我是维达姆·德伦公爵。大议会的其他成员也在这里，鲁菲努斯·阿莱乌斯是帝国人。卡沃提乌斯·阿尔布提安是帝国卫兵首领，也就是我的宫廷卫兵。苍白者弗拉德，帝国军团学士骑士，是鹰蛾军团驻军的首领。拉拉蒂亚·瓦里安是城堡帝国教团圣祠的祭司长。富有的坎克图尼安·博尼乌斯是东帝国公司的首席董事和银行家。 {瓜尔}
 
 > INFO.NAME someone in particular 106481331445629057
 The Duke and the Grand Council members are here. Rufinus Alleius is the Imperial magistrate. Cavortius Albuttian is the head of the Imperial Guard, Duke Dren's palace guard. Frald the White, Knight Bachelor of the Imperial Legion, is the head of the Hawkmoth Legion Garrison. Lalatia Varian is the head priest of the castle's Imperial cult shrine. The wealthy Canctunian Ponius is the chief factor and banker of the East Empire Company.
-公爵和大议会成员都在这里。鲁菲努斯·阿莱乌斯是帝国人。卡沃提斯·阿尔布提安是帝国卫兵首领，德伦公爵的宫廷卫队。苍白者弗拉德，帝国军团骑士学士，是鹰蛾军团驻军首领。拉拉蒂亚·瓦里安是城堡帝国教团圣祠的祭司长。富有的坎克图尼安·博尼乌斯是东帝国公司的首席董事和银行家。 {瓜尔}
+公爵和大议会成员都在这里。鲁菲努斯·阿莱乌斯是帝国人。卡沃提乌斯·阿尔布提安是帝国卫兵首领，德伦公爵的宫廷卫队。苍白者弗拉德，帝国军团骑士学士，是鹰蛾军团驻军首领。拉拉蒂亚·瓦里安是城堡帝国教团圣祠的祭司长。富有的坎克图尼安·博尼乌斯是东帝国公司的首席董事和银行家。 {瓜尔}
 
 > INFO.NAME someone in particular 291912893974269517
 If you are looking for the Duke, or a member of the Grand Council, this is the place to look.
@@ -89507,7 +89507,7 @@ If you are looking for the Duke, or a member of the Grand Council, this is the p
 
 > INFO.NAME someone in particular 18022142912214214053
 Cavortius Albuttian is the head of the Imperial Guard, Duke Dren's palace guard. Frald the White, Knight Bachelor of the Imperial Legion, is the head of the Hawkmoth Legion Garrison. Lalatia Varian is the head priest of the castle's Imperial cult shrine. The wealthy Canctunian Ponius is the chief factor and banker of the East Empire Company.
-卡沃提斯·阿尔布提安是帝国卫兵首领，德伦公爵的宫廷卫队。苍白者弗拉德，帝国军团骑士学士，是鹰蛾军团驻军的首领。拉拉蒂亚·瓦里安是城堡帝国教团圣祠的祭司长。富有的坎克图尼安·博尼乌斯是东帝国公司的首席董事和银行家。 {帝国人,瓜尔}
+卡沃提乌斯·阿尔布提安是帝国卫兵首领，德伦公爵的宫廷卫队。苍白者弗拉德，帝国军团骑士学士，是鹰蛾军团驻军的首领。拉拉蒂亚·瓦里安是城堡帝国教团圣祠的祭司长。富有的坎克图尼安·博尼乌斯是东帝国公司的首席董事和银行家。 {帝国人,瓜尔}
 
 > INFO.NAME someone in particular 2512597841991329658
 Duke Vedam Dren, Duke of Ebonheart, is head of the Grand Council and Uriel VII's representative on Vvardenfell. The Grand Council representatives are: Llerar Mandas, House Redoran; Galas Drenim, House Telvanni; Relen Hlaalu, House Hlaalu; Llivas Othravel, Tribunal Temple; Ruccia Conician, Imperial Commission. Rufinus Alleius is the Imperial magistrate.
@@ -93787,7 +93787,7 @@ He is able to send his mind into the dreams of susceptible victims across vast d
 
 > INFO.NAME prepare for battle 21717130798486670
 Prepare for war. Beyond the Ghostfence, there are no safe places, no allies. Stockpile resources. Plan for retreat and replenishment. Quest for artifacts of power.
-准备战斗，在幽魂之墙之外，没有安全的地方，也没有盟友。储备资源。计划撤退和补充。寻找力量神器。
+准备战斗，在幽魂屏障之外，没有安全的地方，也没有盟友。储备资源。计划撤退和补充。寻找力量神器。
 
 > INFO.NAME shoes of st. rilms 41531243822222944
 I trust that you placed the shoes somewhere for safekeeping?
@@ -96779,7 +96779,7 @@ Star-blessed hand wields thrice-cursed blade,
 To reap the harvest of the unmourned house."""
 """从第十一代的第七个标志开始，
 既非猎犬亦非瓜尔，既非种子亦非钉耙，
-惟有龙之裔与远星之印，
+而是生于龙旗之下，身负远星之印，
 外地人化身于红山之下，
 受祝的来客能够抵御七个诅咒，
 星辰庇佑之手挥舞着受三度诅咒之刃，
@@ -98339,11 +98339,11 @@ You... you're not Relmerea!
 
 > INFO.NAME orphan of arnesia 3171813996498013815
 Oh, certainly Relmerea, here are your orders. They are in code, of course. Deliver them to Maar Gan as usual.
-哦，当然是瑞尔梅里亚，这是你的指示，当然是密码，照常带去玛尔-甘。
+哦，当然，瑞尔梅里亚，这是你的指示，当然是用密码写的，照常带去玛尔-甘。
 
 > INFO.NAME orphan of arnesia 128902102134226971
 Oh, certainly Felsen, here are you orders. They are in code, of course. Deliver them to Maar Gan as usual.
-费尔森，这是你的指示。当然是用密码写的，照常带去玛尔-甘。
+哦，当然，费尔森，这是你的指示，当然是用密码写的，照常带去玛尔-甘。
 
 > INFO.NAME orphan of arnesia 1677911471328724909
 Who are you? That's... that's Felsen's helm!
@@ -98355,7 +98355,7 @@ Who are you? That's... that's Relmerea's helm!
 
 > INFO.NAME orphan of arnesia 2083710013277539764
 Thank you, Hlaalu. I will be sure our codes are changed. And we will avenge the deaths of all honorable Redorans.
-谢谢你，哈拉鲁，我会确保我们的密码被修改，我们会为所有光荣的瑞多然报仇的。
+谢谢你，哈拉鲁，我会确保我们的密码得到更改，我们定要为所有光荣的瑞多然人报仇雪恨。
 
 > INFO.NAME orphan of arnesia 11603284148504407
 You've been expelled from House Hlaalu. You must make amends.
@@ -98483,7 +98483,7 @@ Go to the Balmora Council Manor. It is on the hill on the west side of town.
 
 > INFO.NAME one thing further 315389227486817344
 Get out of here! I have no further use for you!
-离开这里！我对你没有利用价值了！
+滚出去！我不再需要你了！
 
 > INFO.NAME one thing further 343621443375821492
 You would come this far and not allow me to complete the spell? Fool! Weakling! I should have known you were an imperfect servant! Be gone. Leave me to my misery. Another will come to free me from this place.
@@ -98563,7 +98563,7 @@ She's the Knight in charge of the Buckmoth Garrison here. You can usually find h
 
 > INFO.NAME donate 500 drakes 123131596230923589
 I don't know what you're talking about. I have reliable information indicating that you are no longer involved in this matter in any official capacity. Leave me immediately. Or I shall be forced to conclude that your intentions are criminal.
-我不知道你在说什么，我有可靠消息表明，你不再以任何官方身份参与这件事。马上离开我，否则我将不得不认定你的意图是犯罪。 {谈,沙尔}
+我不知道你在说什么，我有可靠消息表明，你不再以任何官方身份参与这件事。立刻离开。否则，我将不得不认为你意图犯罪的。 {谈,沙尔}
 
 > INFO.NAME donate 500 drakes 293482712263012746
 Our business is concluded. You will leave me in peace.
@@ -98811,7 +98811,7 @@ Thank him for his frankness and leave.
 
 > INFO.NAME 1000-drake pledge 1062520161701613229
 When I spoke with him some time ago, Canctunian Ponius promised us a donation of 1000 drakes for a mission to the Ashlanders. Canctunian Ponius is an important and prominent member of our community, and his word is widely respected. That is why it is strange that he has not been forthcoming with his pledge.
-前段时间我与坎克图尼安·博尼乌斯交谈时，他答应捐赠我们1000龙币，用于出使灰烬之民。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以很奇怪他没有兑现他的承诺。
+前段时间我去找坎克图尼安·博尼乌斯时，他答应捐赠我们1000龙币，用于一个灰烬之民任务。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以他没有兑现承诺是很奇怪的。
 
 > INFO.NAME terrible haunting 219201920169165653
 You've done it! I can't thank you enough. Here, take this as a token of my gratitude. It is a good weapon; one of my best. Perhaps now my customers will return to me.
@@ -98819,7 +98819,7 @@ You've done it! I can't thank you enough. Here, take this as a token of my grati
 
 > INFO.NAME terrible haunting 274962412726645629
 Just recently, a dwarven spirit appeared in my shop. I don't know why it's here, or what it wants, but it scares off all of my customers. This guard won't do a thing about it; he thinks it would be bad luck to disturb the spirit. If you can get rid of the thing, I'd be very grateful.
-就在最近，我的店里出现了一个矮人幽灵。我不知道它为什么在这里，也不知道它想要什么，但它吓跑了我所有的顾客。这个卫兵什么也不做，他认为惊扰了这个精灵会带来厄运。如果你能把它赶走，我会非常感激的。 {瓜尔,幸运}
+就在最近，我的店里出现了一个矮人幽灵。我不知道它为什么在这里，也不知道它想要什么，但它吓跑了我所有的顾客。这个卫兵什么也不做，他认为惊扰了这个魂灵会带来厄运。如果你能把它赶走，我将感激不尽。 {瓜尔,幸运}
 
 > INFO.NAME get that contract 5300197162815927331
 You've gotten it? Wonderful! I hope you didn't have to go through too much trouble. As I promised, I have a reward for you. Take this. It's one of the better pieces I've crafted recently.
@@ -99043,7 +99043,7 @@ Hrmph. It seemed a small price to pay for your life. No matter, though. I'll hav
 
 > INFO.NAME murderous outlaws 1915129571230053201
 Oh, yes, these are dangerous times. They'll rob you blind and cut your throat without giving it a second thought. It's a bad idea to carry anything of value on your person. In fact, it's probably best if you give me that gold of yours...100 septims, perhaps? I think you'll find the way less dangerous if you do.
-哦，是的，这是个危险的时代，他们会抢光你的钱，割断你的喉咙，丝毫不会考虑你的死活，因此随身携带贵重物品可不是个好主意。事实上，你最好还是把你的金币给我保管…也许是100塞普汀？我想你会发现路上没那么危险了。
+哦，是的，这是个危险的时代，他们会抢光你的钱，割断你的喉咙，丝毫不会考虑你的死活，所以随身携带贵重物品可不是个好主意。事实上，你最好还是把你的金币给我保管……也许是100塞普汀？如果照做的话，你会发现这样反而要安全得多。
 
 > INFO.BNAM murderous outlaws 1915129571230053201 c1
 Give Fjol 100 septims.
@@ -99323,7 +99323,7 @@ Good work. Here's the 500 septims. I got more orders for you.
 
 > INFO.NAME adraria vandacia 23381200092502722414
 I have a bounty contract for 500 septims for Adraria Vandacia. She's at one of the Census and Excise buildings in Seyda Neen. There might be some guards around, so watch out.
-我有一份500塞普汀的悬赏金合同，悬赏阿德拉里娅·范达西亚。她在赛达-尼恩的一栋普查及税务大楼里。周围可能有些卫兵，所以要小心。 {瓜尔}
+我有一份500塞普汀的悬赏金合同，悬赏阿德拉里娅·范达西亚。她在赛达-尼恩普查及税务局的大楼里。周围可能有些卫兵，所以要小心。 {瓜尔}
 
 > INFO.NAME bandits in suran 7420184962950923882
 You brought the bandits to justice, and for that I am grateful.
@@ -99331,7 +99331,7 @@ You brought the bandits to justice, and for that I am grateful.
 
 > INFO.NAME bandits in suran 1991218937946728143
 You have brought justice to Daldur Sarys and his bandits. House Hlaalu thanks you, %PCName. Here is the bounty money we agreed on.
-你为达尔杜尔·萨利斯和他的强盗们伸张了正义。哈拉鲁家族感谢你，%PCName。这是我们说好的赏金。
+你将达尔杜尔·萨利斯和他的强盗们绳之以法。哈拉鲁家族感谢你，%PCName。这是我们说好的赏金。 {正义}
 
 > INFO.NAME bandits in suran 3025810739246149279
 The bandits have been attacking from Saturan which is northeast of here, just over the mountains. Kill Daldur Sarys and the raids will end. When you have killed him, report directly to me, and I will give you 1,000 gold in bounty.
@@ -99387,7 +99387,7 @@ Yes, quite.
 
 > INFO.NAME nalvyna sarinith 2730271832391419769
 She is an excellent warrior with an unblemished record who has served me faithfully for several years.
-她是个优秀的战士，战绩彪炳。她忠心耿耿地为我服务了好几年。
+她是一位战绩斐然的优秀战士，多年来一直忠心耿耿地为我效力。
 
 > INFO.BNAM nalvyna sarinith 2730271832391419769 c1
 Tell him that Nalvyna cares for him.
@@ -100101,7 +100101,7 @@ The Ashlander Erabenimsun tribe has a permanent settlement at Erabenimsun camp, 
 
 > INFO.NAME household slaves 10009858175861683
 The following slaves are available for purchase: S'Bakha, a Khajiit male; Manilian Scerius, an Imperial male; Menelras, a Bosmer male; Ciralinde, an Altmer female; Jadier Mannick, a Breton male, and Davina, a Redguard female.
-以下奴隶们可供购买：卡吉特沙'巴克哈；帝国人马尼利安·斯塞里乌斯；波斯莫梅内拉斯；傲特莫西拉林德；布莱顿人贾迪尔·曼尼克；红卫人黛维娜。
+以下奴隶们可供购买：卡吉特沙'巴克哈；帝国人男性马尼利安·斯塞里乌斯；波斯莫男性梅内拉斯；傲特莫女性西拉林德；布莱顿男性贾迪尔·曼尼克；红卫人女性黛维娜。
 
 > INFO.NAME private quarters 162511750379291168
 The archcanon is waiting alone to speak with you in his private quarters. His private quarters are in the southern half of the East Chapel of the High Fane. But there are Ordinators at the entrances to both the East and West Chapels.
@@ -100237,7 +100237,7 @@ I have given this Writ to you already, %PCName. As you know, Writs are issued on
 
 > INFO.NAME mistress therana 2648132871790518611
 Mistress Therana is a dangerous and unstable Telvanni wizard. She lives in the Tower of Tel Branora. Take this Writ and end her insanity.
-西拉那夫人是一位危险而反复无常的泰瓦尼巫师。她住在泰尔-布勒诺拉塔楼。拿着这个令状，结束她的疯狂。
+西拉那夫人是一位危险且反复无常的泰瓦尼巫师。她住在泰尔-布勒诺拉塔楼。拿着这份令状，终结她的疯狂。
 
 > INFO.NAME mistress therana 2660710564261635495
 She has not aged well and becomes more eccentric every year. Her tower is in Tel Branora, which on Azura's Coast far to the southeast.
@@ -100257,7 +100257,7 @@ Yes, yes! I got note, you got present! Go away! You ruin my hiding!
 
 > INFO.NAME note from bugrol 403322501421313164
 Yeah, I know I got note! And you gave him mine! Good for you, Big Hero. I find him when I damn good and ready!
-是的，我知道我有纸条！你把我的给他了！好样的，大英雄，等我准备好了再去找他！
+是啊，我知道我收到了纸条！你把我的给他了！好样的，大英雄，等我准备好了再去找他！
 
 > INFO.NAME note from bugrol 604422173542215240
 Yeah, yeah, I got Bugrol's note, and you've got mine for him! What, you can't find him? You not a good finder like me?
@@ -100297,19 +100297,19 @@ Short bows and long bows use arrows. Crossbows use bolts. Bow and crossbows are 
 
 > INFO.NAME centurion spider 751025940116908875
 The centurion spider is an enchanted animated artifact of Dwemer creation. Constructed in the form of large metal spiders, they are aggressive and dangerous. Scrap metal collected from Dwemer artifacts is rare and precious, and prized both by collectors of antiquities and students of metals and enchantments.
-蜘蛛百夫长是锻莫的附魔文物。它们的外形是大型金属蜘蛛，具有攻击性和危险性。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
+蜘蛛百夫长是锻莫的附魔造物。它们的外形是大型金属蜘蛛，具有攻击性和危险性。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
 
 > INFO.NAME centurion spider 2486073072388425309
 The centurion spider is an enchanted animated artifact of Dwemer creation. Constructed in the form of large metal spiders, they are aggressive and dangerous. Scrap metal collected from Dwemer artifacts is rare and precious, and prized both by collectors of antiquities and students of metals and enchantments.
-蜘蛛百夫长是锻莫的附魔文物。它们的外形是大型金属蜘蛛，具有攻击性和危险性。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
+蜘蛛百夫长是锻莫的附魔造物。它们的外形是大型金属蜘蛛，具有攻击性和危险性。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
 
 > INFO.NAME centurion sphere 1521030226124001597
 The centurion sphere is an enchanted animated artifact of Dwemer creation. These aggressive and dangerous devices compress into a ball when inactive, and transform into a mobile warrior when aroused. Scrap metal collected from Dwemer artifacts is rare and precious, and prized both by collectors of antiquities and students of metals and enchantments.
-球状百夫长是锻莫的附魔文物。这些咄咄逼人的危险装置在静止时会压缩成一个球，而在唤醒时则会变成一个移动的战士。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
+球状百夫长是锻莫的附魔造物。这些咄咄逼人的危险装置在静止时会压缩成一个球，而在唤醒时则会变成一个移动的战士。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
 
 > INFO.NAME centurion sphere 19606222421461031012
 The centurion sphere is an enchanted animated artifact of Dwemer creation. These aggressive and dangerous devices compress into a ball when inactive, and transform into a mobile warrior when aroused. Scrap metal collected from Dwemer artifacts is rare and precious, and prized both by collectors of antiquities and students of metals and enchantments.
-球状百夫长是锻莫的附魔文物。这些咄咄逼人的危险装置在静止时会压缩成一个球，而在唤醒时则会变成一个移动的战士。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
+球状百夫长是锻莫的附魔造物。这些咄咄逼人的危险装置在静止时会压缩成一个球，而在唤醒时则会变成一个移动的战士。从锻莫文物中收集到的金属废料稀有而珍贵，是古董收藏家和金属与附魔师的珍品。 {魔法疾病,附魔之术}
 
 > INFO.NAME ascended sleeper 29180250812467429356
 The ascended sleepers are distorted, half-human, half-beast creatures transformed by a mysterious force into powerful magical beings. Ascended sleepers are highly intelligent, aggressive, and dangerous. Ascended sleepers are associated in some way with the Devil Dagoth Ur.
@@ -100385,11 +100385,11 @@ Mineral products of commercial value on Vvardenfell include the following: ash s
 
 > INFO.NAME corprus weepings 242030122479516345
 Corprus weepings are hardened secretions that fall from the fleshy sores of corprus victims.
-尸化分泌物是从尸化病的受害者的肉疮中流出的硬化分泌物。
+尸化分泌物是从尸化病患者的肉疮中流出的硬化分泌物。
 
 > INFO.NAME corprus weepings 2342453802360721427
 Corprus weepings are hardened secretions that fall from the fleshy sores of corprus victims.
-尸化分泌物是从尸化病的受害者的肉疮中流出的硬化分泌物。
+尸化分泌物是从尸化病患者的肉疮中流出的硬化分泌物。
 
 > INFO.NAME luminous russula 4047143441546624264
 Russula comes from a short, smelly toadstool which is brown on top.
@@ -100397,11 +100397,11 @@ Russula comes from a short, smelly toadstool which is brown on top.
 
 > INFO.NAME luminous russula 3250928694182612647
 Luminous russula is a squat, mottled-brown-and-green toadstool mushroom of the Bitter Coast region with modest magical properties.
-微光红菇是苦涩海岸地区的一种扁平、红褐色和绿色相间的毒菇，具有一定的魔法属性。
+微光红菇是一种生长在苦涩海岸地区的矮胖蘑菇，表面布满棕绿相间的斑点，具有适度的魔法属性。
 
 > INFO.NAME luminous russula 92552463233931293
 Luminous russula is a squat, mottled-brown-and-green toadstool mushroom of the Bitter Coast region with modest magical properties.
-微光红菇是苦涩海岸地区的一种扁平、红褐色和绿色相间的毒菇，具有一定的魔法属性。
+微光红菇是一种生长在苦涩海岸地区的矮胖蘑菇，表面布满棕绿相间的斑点，具有适度的魔法属性。
 
 > INFO.NAME sanguine smiting 5312097494883889
 You have returned the Belt of Sanguine Smiting.
@@ -100621,19 +100621,19 @@ Supposed to meet me with shipment. Didn't show. Don't like that. Good that you b
 
 > INFO.NAME lucan's shipment 115301334438127271
 First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.
-一开始他没出现，现在他派你来，你手上却没有所有的武器。我想你会找到的，而且很快，快去。
+他先是没露面，现在又派你来，可你手头并没有全部武器。我觉得你得赶紧把它们找出来。快去吧。
 
 > INFO.NAME lucan's shipment 5951276441287013861
 First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.
-一开始他没出现，现在他派你来，你手上却没有所有的武器。我想你会找到的，而且很快，快去。
+他先是没露面，现在又派你来，可你手头并没有全部武器。我觉得你得赶紧把它们找出来。快去吧。
 
 > INFO.NAME lucan's shipment 794319906187539269
 First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.
-一开始他没出现，现在他派你来，你手上却没有所有的武器。我想你会找到的，而且很快，快去。
+他先是没露面，现在又派你来，可你手头并没有全部武器。我觉得你得赶紧把它们找出来。快去吧。
 
 > INFO.NAME lucan's shipment 2230522408757827574
 First he don't show. Now he send you, and you don't have all the weapons. I think you find them, and quick. Get going.
-一开始他没出现，现在他派你来，你手上却没有所有的武器。我想你会找到的，而且很快，快去。
+他先是没露面，现在又派你来，可你手头并没有全部武器。我觉得你得赶紧把它们找出来。快去吧。
 
 > INFO.NAME lucan's shipment 185921096601618193
 Good thing that you were able to deliver it. Could have been a problem.
@@ -100641,7 +100641,7 @@ Good thing that you were able to deliver it. Could have been a problem.
 
 > INFO.NAME lucan's shipment 2152925381916717176
 You killed my contact. I'll have your head for that.
-你杀了我的线人，我会为此砍了你的头。
+你杀了我的线人，我一定要砍了你的头。
 
 > INFO.NAME lucan's shipment 29901477152808146
 That's right. Just tell Yak gro-Skandar that's what you have. And hurry up about it. Those weapons will get to Ald-ruhn quickly, or there will be trouble.
@@ -100649,7 +100649,7 @@ That's right. Just tell Yak gro-Skandar that's what you have. And hurry up about
 
 > INFO.NAME family heirlooms 13699262521609031449
 Dro'zhirr thinks you owe him some money, friend. You'd better get that to me soon. Dro'zhirr knows those jewels were worth at least 150 septims. Now, go get my money!
-卓'兹尔认为你欠他钱，朋友。你最好尽快把钱给我，卓'兹尔知道那些珠宝至少值150塞普汀。现在，去拿我的钱！
+卓'兹尔认为你欠他钱，朋友。你最好尽快把钱给我，卓'兹尔知道那些珠宝至少值150塞普汀。现在，去把我的钱拿来！
 
 > INFO.NAME family heirlooms 13029261261931418583
 Ahhh...she made good on her promise then! Nice dealing with you, %PCName. Perhaps we can do business again sometime.
@@ -100657,7 +100657,7 @@ Ahhh...she made good on her promise then! Nice dealing with you, %PCName. Perhap
 
 > INFO.NAME family heirlooms 12874167382123131938
 I thought you were going to return those things to the Nord woman? You'd better get going, or Dro'zhirr will have to take the jewels back from you.
-你不是要把那些东西还给诺德女人吗？你最好快去，不然卓'兹尔就得把珠宝还给你了。 {诺德人}
+你不是要把那些东西还给诺德女人吗？你最好快去，不然卓'兹尔就得从你手里要回那些珠宝了。 {诺德人}
 
 > INFO.NAME family heirlooms 117012109166621226
 Heirlooms? Hah! Dro'zhirr has found plenty of heirlooms. They just seem to fall into his pockets! In fact, Dro'zhirr just found a few new pieces earlier today. Took them from some Nord woman. Cried like a baby, she did. "Oh, my precious jewelry!"
@@ -100769,7 +100769,7 @@ New-Shoes is free.
 
 > INFO.NAME new-shoes bragor 2691820839186609562
 New-Shoes is free? Habasi knew you could do this thing. Take these 1000 drakes, less than what it would cost without your help.
-新鞋自由了？哈巴西知道你能做到这一点。拿着这1000龙币，比没有你的帮助要少得多。
+新鞋自由了？哈巴西知道你能办到。拿着这1000龙币，这比没有你帮忙的情况要便宜多了。
 
 > INFO.NAME new-shoes bragor 25073120681841930999
 Habasi knows a way to free New-Shoes. Mebestien Ence in Pelagiad smuggles Dwemer items. Shadbak gra-Burbug takes bribes from Mebestien. Fetch a mysterious Dwemer device from Mebestien's shop and take it to Shadbak. Tell Shadbak to let New-Shoes go or you'll let everyone know Shadbak takes bribes.
@@ -100777,11 +100777,11 @@ Habasi knows a way to free New-Shoes. Mebestien Ence in Pelagiad smuggles Dwemer
 
 > INFO.NAME new-shoes bragor 11837134692712521710
 I know nothing of him! Get out of here before I summon the authorities.
-我对他一无所知！在我传唤当局之前快走吧。
+我根本不认识他！在我把卫兵叫来前，赶紧滚出去。
 
 > INFO.NAME new-shoes bragor 302335977201936792
 I don't know what you're talking about. I know nothing about some thief rotting away in Fort Pelagiad.
-我不知道你在说什么，我对佩拉吉亚德要塞的小偷一无所知。 {谈}
+我不知道你在说什么。我对什么在佩拉吉亚德要塞里烂掉的小偷一无所知。 {谈}
 
 > INFO.NAME new-shoes bragor 2492720284228004467
 I said I'd let him go, didn't I?
@@ -100993,19 +100993,19 @@ The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in s
 
 > INFO.NAME buoyant armigers 219811060177711594
 The Buoyant Armigers serve the Temple as champions and knights-errant.
-灵动扈从作为勇士和骑士为神殿服务。
+灵动扈从作为勇士和游侠骑士为神殿服务。
 
 > INFO.NAME buoyant armigers 731610433293037361
 The Buoyant Armigers serve the Temple as champions and knights-errant.
-灵动扈从作为勇士和骑士为神殿服务。
+灵动扈从作为勇士和游侠骑士为神殿服务。
 
 > INFO.NAME buoyant armigers 572331267185919424
 The Buoyant Armigers serve the Temple as champions and knights-errant.
-灵动扈从作为勇士和骑士为神殿服务。
+灵动扈从作为勇士和游侠骑士为神殿服务。
 
 > INFO.NAME buoyant armigers 162433985309822035
 The Buoyant Armigers serve the Temple as champions and knights-errant.
-灵动扈从作为勇士和骑士为神殿服务。
+灵动扈从作为勇士和游侠骑士为神殿服务。
 
 > INFO.NAME buoyant armigers 25932218652358821926
 The Buoyant Armigers pattern themselves on Lord Vivec's heroic spirit of exploration and adventure, and they emulate his mastery of the varied arts of personal combat, chivalric courtesy, and subtle verse.
@@ -101045,7 +101045,7 @@ The light-hearted Buoyant Armigers are rivals of the more solemn Ordinators in s
 
 > INFO.NAME buoyant armigers 30677216481540525151
 The Buoyant Armigers serve the Temple as champions and knights-errant.
-灵动扈从作为勇士和骑士为神殿服务。
+灵动扈从作为勇士和游侠骑士为神殿服务。
 
 > INFO.NAME buoyant armigers 871827595144425527
 The Buoyant Armigers pattern themselves on Lord Vivec's heroic spirit of exploration and adventure, and they emulate his mastery of the varied arts of personal combat, chivalric courtesy, and subtle verse.
@@ -101057,7 +101057,7 @@ The Buoyant Armigers is an small military order of the Temple, exclusively dedic
 
 > INFO.NAME hetman abelmawia 1460527266306966155
 The Velothi Dunmer Hetman Abelmawia is the village hetman, and village steward for Hlaren Ramoran, Redoran Master, Councilor, Lord of Gnisis.
-维洛提丹莫首领阿贝尔马维亚是哈拉伦·拉莫兰的村长，瑞多然大师、议员、尼希斯领主。
+维洛提的丹莫首领阿贝尔马维亚是村子的村长，同时也是瑞多然大师、议员、尼希斯领主哈拉伦·拉莫兰的村管。
 
 > INFO.NAME telvanni mouths  17083295952647228929
 The Telvanni mage-lords are far too busy and important to attend council meetings. So they have representatives called 'Mouths' who attend to council business for them. Mouths are proteges of their wizards, and expected to step into their shoes when their masters die. Mouths have complete authority to speak for their lords, but they often defer the tough decisions to their masters.
@@ -101389,11 +101389,11 @@ To enchant an item, you must have the item to be enchanted and a soul gem contai
 
 > INFO.NAME enchanting items 187230087287803962
 You can enchant items yourself, using your own skill, or go to an enchanter, who uses his skill to make the item -- and charges handsomely for the service.
-你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品，并收取高额费用。
+你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品——当然，这项服务要收取不菲的费用。
 
 > INFO.NAME enchanting items 1883230673758614623
 You can enchant items yourself, using your own skill, or go to an enchanter, who uses his skill to make the item -- and charges handsomely for the service.
-你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品，并收取高额费用。
+你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品——当然，这项服务要收取不菲的费用。
 
 > INFO.NAME enchanting items 791026209136784356
 To have an enchanter enchant an item for you, bring it to the enchanter, along with a soul gem to power the item. To enchant an item yourself, you'll need a soul gem with sufficient power to support the enchantments you want to add. And have some skill in enchanting, or you will just fail and waste your soul gem. When enchanting an item yourself, you can only enchant items with spell effects you know, and success or failure in enchanting an item depends on your enchanting skill.
@@ -101421,7 +101421,7 @@ Continue
 
 > INFO.NAME enchanting items 11903260852215612762
 You can enchant items yourself, using your own skill, or go to an enchanter, who uses his skill to make the item -- and charges handsomely for the service. To enchant an item, you must have the item to be enchanted and a soul gem containing a soul. A soul gem must contain a soul, or it is useless for enchanting. Different items have different capacities for enchantments, and various soul gems are more or less powerful.
-你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品，并收取高额的服务费。要给物品施加附魔之术，你必须拥有要附魔的物品和含有灵魂的灵魂石。灵魂石必须含有灵魂，否则对附魔师毫无用处。不同的物品有不同的附魔能力，不同的灵魂石也有强弱之分。 {魔法疾病}
+你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品——当然，这项服务要收取不菲的费用。要给物品施加附魔之术，你必须拥有要附魔的物品和含有灵魂的灵魂石。灵魂石必须含有灵魂，否则对附魔师毫无用处。不同的物品有不同的附魔能力，不同的灵魂石也有强弱之分。 {魔法疾病}
 
 > INFO.BNAM enchanting items 11903260852215612762 c1
 Continue
@@ -101429,7 +101429,7 @@ Continue
 
 > INFO.NAME enchanting items 2066294423191916718
 You can enchant items yourself, using your own skill, or go to an enchanter, who uses his skill to make the item -- and charges handsomely for the service. To enchant an item, you must have the item to be enchanted and a soul gem containing a soul. A soul gem must contain a soul, or it is useless for enchanting. Different items have different capacities for enchantments, and various soul gems are more or less powerful.
-你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品，并收取高额的服务费。要给物品施加附魔之术，你必须拥有要附魔的物品和含有灵魂的灵魂石。灵魂石必须含有灵魂，否则对附魔师毫无用处。不同的物品有不同的附魔能力，不同的灵魂石也有强弱之分。 {魔法疾病}
+你可以利用自己的技能为物品附魔，也可以去找附魔师，让他利用自己的技能制作物品——当然，这项服务要收取不菲的费用。要给物品施加附魔之术，你必须拥有要附魔的物品和含有灵魂的灵魂石。灵魂石必须含有灵魂，否则对附魔师毫无用处。不同的物品有不同的附魔能力，不同的灵魂石也有强弱之分。 {魔法疾病}
 
 > INFO.BNAM enchanting items 2066294423191916718 c1
 Continue
@@ -101485,11 +101485,11 @@ So. Arara Uvulas thinks a Conjuration expert is behind the Gateway haunting, and
 
 > INFO.NAME gateway haunting 17710292952002912391
 Oh. That. Just ghosts. I suppose. No. I don't know anything about it. Nothing at all.
-哦，那个，只是鬼魂，我想也是。不，我什么都不知道。
+哦，那个啊，大概只是鬼魂，我猜。不，我什么都不知道。
 
 > INFO.NAME gateway haunting 220207212153138530
 I inspected the manifestations in the South Turret bed chamber of the Gateway Inn. I examined the site thoroughly, but I found no evidence of a restless spirit or ancestral influences. The ghost itself is trivial, and easily banished, but I don't know why it reappears, or how to stop the reappearances. I can't be sure, but my experience and intuition tells me that a Conjuration expert is involved. By that, I mean a mage skilled at summoning ghosts. That's all I can tell you.
-我检查了塔楼南边闸门旅馆床厅的表现。我彻底检查了现场，但没有发现任何不安分的灵魂或祖先影响的证据。鬼魂本身微不足道，很容易被驱逐，但我不知道它为什么会再次出现，也不知道如何阻止它再次出现。我不能确定，但我的经验和直觉告诉我，这与一位召唤系专家有关。我指的是擅长召唤鬼魂的法师。我只能告诉你这么多。
+我检查了塔楼南边闸门旅馆床厅的灵异现象。我彻底检查了现场，但没有发现任何不安分的灵魂或祖先影响的证据。鬼魂本身微不足道，很容易被驱逐，但我不知道它为什么会再次出现，也不知道如何阻止它再次出现。我不能确定，但我的经验和直觉告诉我，这与一位召唤系专家有关。我指的是擅长召唤鬼魂的法师。我只能告诉你这么多。
 
 > INFO.NAME gateway haunting 21050220211288029122
 The ghost is in the South Turret bed chamber if you want look for yourself. Head upstairs, then keep heading south and up stairs to the room. It isn't hard to drive it away, but it always comes back. Mage-Mistress Arara Uvulas, Master Neloth's Mouth, inspected the room, but couldn't say why it reappears or how to stop it. Go talk to her if you like; she's always at the Telvanni Council House. She thinks it may be some mischievous sorcerer. If that's true, find out who is responsible, and make it stop!
@@ -104737,7 +104737,7 @@ Yes, yes. I know. You've got corprus disease. But did you get the boots I sent y
 
 > INFO.NAME corprus disease 22065221482166914792
 That's a fascinating story you tell. So. You might be the Nerevarine. Means nothing, of course. Corprus victims have all sorts of delusions. But... let me think...
-你说的故事真有趣。那么，你可能就是尼瑞瓦因，当然这不代表什么，尸化病的受害者有各种错觉，但是…让我想想…
+你说的故事真有趣。那么，你可能就是尼瑞瓦因，当然这不代表什么，尸化病患者有各种错觉，但是…让我想想…
 
 > INFO.BNAM corprus disease 22065221482166914792 c1
 Continue
@@ -104817,23 +104817,23 @@ I'm sorry. But we can't help you. We can't cure corprus. Victims must go to the 
 
 > INFO.NAME corprus disease 21555197272276730297
 Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.
-尸化病是一种罕见的枯萎病。有时圣战者在幽魂之墙内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
+尸化病是一种罕见的枯萎病。有时圣战者在幽魂屏障内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
 
 > INFO.NAME corprus disease 63112098949915328
 Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.
-尸化病是一种罕见的枯萎病。有时圣战者在幽魂之墙内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
+尸化病是一种罕见的枯萎病。有时圣战者在幽魂屏障内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
 
 > INFO.NAME corprus disease 1888110103233583886
 Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.
-尸化病是一种罕见的枯萎病。有时圣战者在幽魂之墙内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
+尸化病是一种罕见的枯萎病。有时圣战者在幽魂屏障内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
 
 > INFO.NAME corprus disease 5489153242238223035
 Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.
-尸化病是一种罕见的枯萎病。有时圣战者在幽魂之墙内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
+尸化病是一种罕见的枯萎病。有时圣战者在幽魂屏障内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
 
 > INFO.NAME corprus disease 2197315804952815701
 Corprus is a rare form of blight disease. Sometimes crusaders get it from fighting corprus monsters inside the Ghostfence. We can't cure it. Victims are sent to the Corprusarium beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. Victims go mad, and the body becomes fat and distorted with unnatural growths. It is always fatal. Sometimes it progresses slowly, sometimes in a matter of days.
-尸化病是一种罕见的枯萎病。有时圣战者在幽魂之墙内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
+尸化病是一种罕见的枯萎病。有时圣战者在幽魂屏障内与尸化怪搏斗时会染上这种病。我们无法治愈，受害者会被送往泰尔-菲尔地下的尸化病洞穴，也就是泰瓦尼巫师迪维斯·菲尔的塔楼。受害者会发狂，身体变得肥胖扭曲，长出不自然的东西。这种病总是致命的。有时进展缓慢，有时只需几天。 {疾病}
 
 > INFO.NAME sleeper attacks 1503691121417012333
 "Serve your Lord, Dagoth Ur. The Sixth House is risen, and Dagoth is its glory." That's what they say. There've been several attacks recently, and these Sleepers all say the same thing.
@@ -106621,7 +106621,7 @@ In the Western Empire, mercenaries and adventurers have organized themselves int
 
 > INFO.NAME crater citadels 30257107281490218387
 The only approach to the crater citadels is up Foyada Esannudan from Fort Moonmoth, through the Ghostfence at the fortress of Ghostgate, and down into the crater.
-通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。
+通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂屏障，然后下到红山城堡中。
 
 > INFO.NAME crater citadels 75591767880056817
 The ancient Dwemer citadels on Red Mountain are no longer known by their Dwemer names, but now take the names of their Dagoth Lords: Endusal, Odrosal, Vemynal, Tureynulal, and Dagoth Ur.
@@ -106633,15 +106633,15 @@ Five ancient Dwemer citadels in the crater of Red Mountain are occupied by Dagot
 
 > INFO.NAME crater citadels 4648219183092420215
 The only approach to the crater citadels is up Foyada Esannudan from Fort Moonmoth, through the Ghostfence at the fortress of Ghostgate, and down into the crater.
-通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。
+通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂屏障，然后下到红山城堡中。
 
 > INFO.NAME crater citadels 19394179902552622736
 The only approach to the crater citadels is up Foyada Esannudan from Fort Moonmoth, through the Ghostfence at the fortress of Ghostgate, and down into the crater.
-通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。
+通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂屏障，然后下到红山城堡中。
 
 > INFO.NAME crater citadels 199571424632005493
 The only approach to the crater citadels is up Foyada Esannudan from Fort Moonmoth, through the Ghostfence at the fortress of Ghostgate, and down into the crater.
-通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂之墙，然后下到红山城堡中。
+通往红山城堡的唯一途径是从月蛾要塞沿着埃桑努丹熔渠而上，穿过幽魂之门要塞的幽魂屏障，然后下到红山城堡中。
 
 > INFO.NAME crater citadels 789515498991116548
 The ancient Dwemer citadels on Red Mountain are no longer known by their Dwemer names, but now take the names of their Dagoth Lords: Endusal, Odrosal, Vemynal, Tureynulal, and Dagoth Ur.
@@ -106853,7 +106853,7 @@ Now I know what I must do. I must give my parent's house to the Temple. And I sh
 
 > INFO.NAME overdue payment 23939876240323066
 Here. Take these items and return them. Give the brocade shirt and silk pants to Bivale Teneran. Give the racer suede belt to Tiras Sadus. Give the ebony ring and the glass ring to Daynes Redothril. Give the designer shoes to Llether Vari. Give the firejade amulet to Bevene Releth. They are all merchants in Ald'ruhn. Return the goods, with my apologies.
-拿着，把这些东西还回去。把锦缎衬衫和丝绸裤子给比薇尔·特纳兰，把迅鸟绒面腰带给蒂拉斯·萨杜斯，将黑檀戒指和玻璃戒指交给戴尼斯·瑞多斯尔，将鞋交给雷瑟尔·瓦里。将火玉护身符交给贝薇妮·瑞莱斯。他们都是奥德'汝因的商人。将货物归还，并致以歉意。
+拿着，把这些东西还回去。把锦缎衬衫和丝绸裤子给比薇尔·特纳兰，把迅鸟绒面腰带给蒂拉斯·萨杜斯，将黑檀戒指和玻璃戒指交给戴尼斯·瑞多斯里尔，将鞋交给雷瑟尔·瓦里。将火玉护身符交给贝薇妮·瑞莱斯。他们都是奥德'汝因的商人。将货物归还，并致以歉意。
 
 > INFO.BNAM overdue payment 23939876240323066 c1
 Continue
@@ -106873,7 +106873,7 @@ It's time I faced facts. And lived up to the hopes my poor departed parents had 
 
 > INFO.NAME overdue payment 245011191273177586
 Here. Take these items and return them. Give the brocade shirt and silk pants to Bivale Teneran. Give the racer suede belt to Tiras Sadus. Give the ebony ring and the glass ring to Daynes Redothril. Give the designer shoes to Llether Vari. Give the firejade amulet to Bevene Releth. They are all merchants in Ald'ruhn. Return the goods, with my apologies.
-拿着，把这些东西还回去。把锦缎衬衫和丝绸裤子给比薇尔·特纳兰，把迅鸟绒面腰带给蒂拉斯·萨杜斯，将黑檀戒指和玻璃戒指交给戴尼斯·瑞多斯尔，将鞋交给雷瑟尔·瓦里。将火玉护身符交给贝薇妮·瑞莱斯。他们都是奥德'汝因的商人。将货物归还，并致以歉意。
+拿着，把这些东西还回去。把锦缎衬衫和丝绸裤子给比薇尔·特纳兰，把迅鸟绒面腰带给蒂拉斯·萨杜斯，将黑檀戒指和玻璃戒指交给戴尼斯·瑞多斯里尔，将鞋交给雷瑟尔·瓦里。将火玉护身符交给贝薇妮·瑞莱斯。他们都是奥德'汝因的商人。将货物归还，并致以歉意。
 
 > INFO.BNAM overdue payment 245011191273177586 c1
 Continue
@@ -107201,7 +107201,7 @@ Speak with Endryn Llethan at the High Fane or the Archcanon, Tholer Saryoni.
 
 > INFO.NAME corprus victims 2164115857237805084
 I can calm the corprus victims with soothing drum rhythms if you'll bring me their guarskin drum. It must be somewhere here in the Corprusarium.
-我可以用舒缓的鼓声安抚尸化病的受害者，只要你把他们的瓜尔皮制鼓拿来。它一定就在尸化病洞穴的某个地方。
+我可以用舒缓的鼓声安抚尸化病患者，只要你把他们的瓜尔皮制鼓拿来。它一定就在尸化病洞穴的某个地方。
 
 > INFO.NAME corprus victims 1467992021035227056
 Be careful if you're going to prowl around down here. We will be VERY angry if you hurt any of our patients. And our patients can be quite a handful, I'll tell you. Strong as ogrim and twice as mean. But they seem to like it when I play the drum. Quiets them down. There's a drum around here someplace. They wander off with it sometimes. But find that drum and bring it to me, and I think I can calm them down for a while.
@@ -107873,7 +107873,7 @@ Thank him for his frankness and leave.
 
 > INFO.NAME generous pledge 1062520161701613229
 When I spoke with him some time ago, Canctunian Ponius promised us a donation of 1000 drakes for a mission to the Ashlanders. Canctunian Ponius is an important and prominent member of our community, and his word is widely respected. That is why it is strange that he has not been forthcoming with his generous pledge.
-前段时间我与坎克图尼安·博尼乌斯交谈时，他答应捐赠我们1000龙币，用于出使灰烬之民。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以很奇怪他没有兑现他慷慨的承诺。
+前段时间我去找坎克图尼安·博尼乌斯时，他答应捐赠我们1000龙币，用于一个灰烬之民任务。坎克图尼安·博尼乌斯是我们族群中重要的知名人士，他的话广受尊重。所以他没有兑现慷慨的承诺是很奇怪的。
 
 > INFO.NAME oracle's quests 13206175551619022130
 Your first quest shall be the vision of the Ring in Darkness.
@@ -109761,7 +109761,7 @@ The soul of Dagoth Gares is among us. You have broken his body, but his spirit i
 
 > INFO.NAME come to submit 1548813932679527144
 Keep going. These passages lead under the Ghostfence and into the crater of Red Mountain. Then enter the Mount of Dagoth Ur, and find Lord Dagoth. Make your submission, and perhaps you may join us. Ha. If you survive such a journey, we'd be glad to have you join us.
-继续前进，这些通道通向幽魂之墙下面，进入红山的火山口。然后进入达格斯·乌尔山，找到达格斯大人。请你向他屈服，也许你能加入我们。哈，如果你能在旅途中活下来，我们很高兴你能加入我们。
+继续前进，这些通道通向幽魂屏障下面，进入红山的火山口。然后进入达格斯·乌尔山，找到达格斯大人。请你向他屈服，也许你能加入我们。哈，如果你能在旅途中活下来，我们很高兴你能加入我们。
 
 > INFO.NAME telvanni bride 18294124081883425261
 Indeed, she is charming, outlander. Thank you again.
@@ -110233,7 +110233,7 @@ The Covenant is our tradehouse. Our clothier is on an island to the south. The t
 
 > INFO.NAME specific place 15667164162493410640
 Tel Fyr is the wizard's tower of the Telvanni Mage-Lord Divayth Fyr. It's also known as the Corprusarium, because this is where all victims of corprus disease are sent. Corprus victims can't be cured, but Lord Divayth cares for them, and keeps them from infecting the rest of the world. The nearest settlements are Tel Aruhn across the bay to the north, and Sadrith Mora across the bay to the northeast. From Sadrith Mora you can get ships to Ebonheart, Tel Aruhn, Tel Mora, and Vos.
-泰尔-菲尔是泰瓦尼法师大人迪维斯·菲尔的巫师塔楼。它也被称为尸化病洞穴，因为所有尸化病的受害者都会被送到这里。尸化病的受害者无法治愈，但是迪维斯大人会照顾他们，防止他们传染给世界上的其他人。最近的定居点是北面海湾对面的泰尔-阿汝因和东北面海湾对面的萨德里斯-莫拉。从萨德里斯-莫拉可以乘船前往黑檀心、泰尔-阿汝因、泰尔-莫拉和沃斯。 {疾病}
+泰尔-菲尔是泰瓦尼法师大人迪维斯·菲尔的巫师塔楼。它也被称为尸化病洞穴，因为所有尸化病患者都会被送到这里。尸化病患者无法治愈，但是迪维斯大人会照顾他们，防止他们传染给世界上的其他人。最近的定居点是北面海湾对面的泰尔-阿汝因和东北面海湾对面的萨德里斯-莫拉。从萨德里斯-莫拉可以乘船前往黑檀心、泰尔-阿汝因、泰尔-莫拉和沃斯。 {疾病}
 
 > INFO.NAME specific place 27768315682452927998
 The docks are to the south, the village and slave market to the north, and the tower of Tel Aruhn sits on the high ground in the center of the island. The Plot and Plaster tradehouse and most public services are northeast of the tower, while most House Telvanni services are in the lower tower. The upper tower is reserved for Lord Gothren and his retainers.
@@ -110509,7 +110509,7 @@ Let me say a little about Daedra here in Morrowind. Here we believe the Daedra a
 
 > INFO.NAME morrowind lore 2542920809299505619
 Let me tell you about Red Mountain. Red Mountain is the great volcano in the center of Vvardenfell island. The crater of Red Mountain is called the Dagoth Ur region, where Dagoth Ur and his evil servants dwell. The Tribunal built the Ghostfence around Red Mountain to imprison Dagoth Ur and his servants, and to protect Morrowind from the blight storms that issue from Dagoth Ur's crater.
-让我来给你们讲讲红山。红山是瓦登费尔岛中心的大火山。红山的火山口被称为达格斯·乌尔地区，达格斯·乌尔和他邪恶的仆从们就居住在这里。审判席在红山周围建造了幽魂之墙，用来囚禁达戈斯·乌尔和他的仆从，并保护晨风不受达戈斯·乌尔火山口发出的枯萎病风暴的侵袭。 {枯萎之症}
+让我来给你们讲讲红山。红山是瓦登费尔岛中心的大火山。红山的火山口被称为达格斯·乌尔地区，达格斯·乌尔和他邪恶的仆从们就居住在这里。审判席在红山周围建造了幽魂屏障，用来囚禁达戈斯·乌尔和他的仆从，并保护晨风不受达戈斯·乌尔火山口发出的枯萎病风暴的侵袭。 {枯萎之症}
 
 > INFO.NAME morrowind lore 10588308688977643
 Let me tell you about Dagoth Ur. Dagoth Ur is the evil immortal enemy of the Tribunal Temple cult. The Temple blames Dagoth Ur and his hosts for all the evils that beset the Dunmer and Morrowind. Dagoth Ur dwells in fiery caverns beneath Red Mountain, served by his kin, called ash vampires, and by legions of deformed monsters.
@@ -110597,7 +110597,7 @@ If you are thinking of joining a Great House, let me give you some advice. Study
 
 > INFO.NAME morrowind lore 27371247251811420932
 Let me tell you a little about the Blight. The Blight is a weather phenomenon associated with Vvardenfell's colossal volcano, Red Mountain. Persistent within the Ghostfence -- that is, within the crater and on the volcano's slopes -- and intermittent near the volcano, the Blight is a health-threatening, ash-heavy volcanic cloud. Plants and creatures exposed to the Blight may contract a variety of blight diseases. So stay away from Red Mountain and the Blight, unless you're some mighty hero or wizard.
-让我给你讲讲枯萎之症。枯萎之症是一种天气现象，与瓦登费尔的巨型火山红山有关。枯萎病瘟疫持续存在于幽魂之墙内，也就是火山口内和火山斜坡上，在火山附近时有时无，是一种威胁生命的火山灰云。接触枯萎病的植物和生物可能会感染各种枯萎病。所以，远离红山和枯萎病，除非你是什么强大的英雄或巫师。 {计划,合同,疾病}
+让我给你讲讲枯萎之症。枯萎之症是一种天气现象，与瓦登费尔的巨型火山红山有关。枯萎病瘟疫持续存在于幽魂屏障内，也就是火山口内和火山斜坡上，在火山附近时有时无，是一种威胁生命的火山灰云。接触枯萎病的植物和生物可能会感染各种枯萎病。所以，远离红山和枯萎病，除非你是什么强大的英雄或巫师。 {计划,合同,疾病}
 
 > INFO.NAME morrowind lore 13515282022102628297
 Let me tell you about the Ashlanders. Ashlanders are the nomadic Dunmer barbarians of the Morrowind wastelands. They live in camps of small, mobile huts, herding guar and hunting wildlife for meat and hides. By tradition, the Ashlanders claim the right to raid other Ashlander tribes -- and non-Ashlander settlement -- for booty and slaves. The Ashlanders worship their ancestors, and are led by their ashkhan war chiefs, counseled by the arcane wisdom and prophecies of their wise women.
@@ -110713,7 +110713,7 @@ Dagoth Ur is the evil immortal enemy of the Tribunal Temple cult. Dagoth Ur and 
 
 > INFO.NAME morrowind lore 3090418162924016086
 The Tribunal built the Ghostfence around Red Mountain to imprison Dagoth Ur and his servants, and to protect Morrowind from the blight storms that boil out of Dagoth Ur's crater.
-审判席在红山周围建造了幽魂之墙，以囚禁达格斯·乌尔和他的仆从，并保护晨风免受达格斯·乌尔火山口沸腾而出的枯萎病风暴的侵袭。 {枯萎之症}
+审判席在红山周围建造了幽魂屏障，以囚禁达格斯·乌尔和他的仆从，并保护晨风免受达格斯·乌尔火山口沸腾而出的枯萎病风暴的侵袭。 {枯萎之症}
 
 > INFO.NAME morrowind lore 249148402995415819
 Red Mountain is the great volcano in the center of Vvardenfell island. The crater of Red Mountain is called the Dagoth Ur region, where Dagoth Ur and his evil servants dwell.
@@ -110901,11 +110901,11 @@ The Blight is a health-threatening volcanic cloud full of ash. Plants and creatu
 
 > INFO.NAME morrowind lore 6833953016118840
 Let me tell you a little about the Blight. The Blight is a weather phenomenon associated with Vvardenfell's colossal volcano, Red Mountain. Persistent within the Ghostfence -- that is, within the crater and on the volcano's slopes -- and intermittent near the volcano, the Blight is a health-threatening, ash-heavy volcanic cloud. Plants and creatures exposed to the Blight may contract a variety of blight diseases. So stay away from Red Mountain and the Blight, unless you're some mighty hero or wizard.
-让我给你讲讲枯萎之症。枯萎之症是一种天气现象，与瓦登费尔的巨型火山红山有关。枯萎病瘟疫持续存在于幽魂之墙内，也就是火山口内和火山斜坡上，在火山附近时有时无，是一种威胁生命的火山灰云。接触枯萎病的植物和生物可能会感染各种枯萎病。所以，远离红山和枯萎病，除非你是什么强大的英雄或巫师。 {计划,合同,疾病}
+让我给你讲讲枯萎之症。枯萎之症是一种天气现象，与瓦登费尔的巨型火山红山有关。枯萎病瘟疫持续存在于幽魂屏障内，也就是火山口内和火山斜坡上，在火山附近时有时无，是一种威胁生命的火山灰云。接触枯萎病的植物和生物可能会感染各种枯萎病。所以，远离红山和枯萎病，除非你是什么强大的英雄或巫师。 {计划,合同,疾病}
 
 > INFO.NAME morrowind lore 12002245001309531450
 Within the Ghostfence, on Red Mountain's slopes, and in its crater, the weather is always blighted and gloomy.
-在幽魂之墙内，在红山的山坡上，在红山的火山口，天气总是枯萎而阴沉。
+在幽魂屏障内，在红山的山坡上，在红山的火山口，天气总是枯萎而阴沉。
 
 > INFO.NAME morrowind lore 24435130011461122383
 The Blight is weather caused by the big volcano, Red Mountain.
@@ -111089,7 +111089,7 @@ When you've joined one Great House, you can never join any other Great House. Th
 
 > INFO.NAME morrowind lore 656711346660523715
 Red Mountain is a terrible place. Dagoth Ur, the ash vampires and his foul host live there. Only the Ghostfence keeps Dagoth Ur from sweeping across Morrowind and killing everyone.
-红山是个可怕的地方，达格斯·乌尔、灰烬吸血鬼和他肮脏的主人住在那里。只有幽魂之墙才能阻止达格斯·乌尔席卷整个晨风并杀死所有人。
+红山是个可怕的地方，达格斯·乌尔、灰烬吸血鬼和他肮脏的主人住在那里。只有幽魂屏障才能阻止达格斯·乌尔席卷整个晨风并杀死所有人。
 
 > INFO.NAME morrowind lore 27450220592297721202
 Morrowind was a great nation before the Western men were even civilized. Sometimes it makes us impatient to hear the Imperials preach to us of civilization.
@@ -111441,11 +111441,11 @@ Only egg miners worry about that sort of stuff. Not us. Rock doesn't get blighte
 
 > INFO.NAME blight disease 23812067210210007
 Kwama foragers range far from their homes, deep into the ashlands as far as the Ghostfence. Foragers caught in blight storms become infected, and return and infect their queen and the whole colony.
-夸蚂觅食者远离家园，深入灰烬之地，一直到幽魂之墙。被枯萎病风暴卷入的觅食者会被感染，然后回来感染它们的女王和整个蚁群。
+夸蚂觅食者远离家园，深入灰烬之地，一直到幽魂屏障。被枯萎病风暴卷入的觅食者会被感染，然后回来感染它们的女王和整个蚁群。
 
 > INFO.NAME blight disease 30075315553227320780
 Kwama foragers range far from their home colonies, deep into the ashlands as far as the Ghostfence. Foragers exposed to blight storms may become infected, and may return and infect their queen and the whole colony. An infested kwama mine is a great hardship for the mining community; blighted eggs are inedible, and miners catch blight diseases. Ridding a colony of blight is expensive and dangerous, because of the aggressive behavior of sick kwama foragers and warriors, and the risk of spreading disease.
-夸蚂觅食者远离自己的家园，深入灰烬之地，一直到幽魂之墙。暴露在枯萎病风暴中的觅食者可能会被感染，并可能返回并感染它们的夸蚂后和整个夸蚂群。夸蚂矿场受到枯萎病瘟疫的侵袭会给矿工带来极大的困难；枯萎病卵不能食用，矿工会染上枯萎病。清除一个夸蚂群的枯萎病既昂贵又危险，因为生病的夸蚂觅食者和夸蚂兵虫具有攻击性行为，还有传播疾病的风险。
+夸蚂觅食者远离自己的家园，深入灰烬之地，一直到幽魂屏障。暴露在枯萎病风暴中的觅食者可能会被感染，并可能返回并感染它们的夸蚂后和整个夸蚂群。夸蚂矿场受到枯萎病瘟疫的侵袭会给矿工带来极大的困难；枯萎病卵不能食用，矿工会染上枯萎病。清除一个夸蚂群的枯萎病既昂贵又危险，因为生病的夸蚂觅食者和夸蚂兵虫具有攻击性行为，还有传播疾病的风险。
 
 > INFO.NAME blight disease 6521250561546629096
 The four blight diseases are ash-chancre, chanthrax, black-heart, ash woe. They come from touching blighted creatures or from going about in blight storms. Unless you walk upon Red Mountain, you need not fear the blight storms. You need magical resistance to blight disease if you go there.
@@ -111493,7 +111493,7 @@ Sorry. I don't have time for this right now.
 
 > INFO.NAME dangerous trip 2673411162303316624
 Thank you for helping me reach Molag Mar.
-谢谢你帮我找到莫拉格-玛尔。
+感谢你帮我到达莫拉格-玛尔。
 
 > INFO.NAME dangerous trip 187562405697071968
 Well, hopefully, I'll be able to make it there in one piece.
@@ -114001,7 +114001,7 @@ I have given you a key to my manor, which is just west of Skar. Go there and fin
 
 > INFO.NAME morvayn manor 2103910864334612641
 I am a widow. My husband died defending Morvayn Manor from misshapen beasts that came through the Ghostfence. He believed that the beasts were attracted by a statue we recieved a few weeks before the attacks began. Go to Morvyan Manor, just east of Skar, here's the key. Get the statue, and take it to Lloros Sarano at the Temple. Once the statue has been destroyed, I will support you on the Council.
-我是个寡妇。我的丈夫在保卫莫文府邸时死于穿过幽魂之墙的变形野兽。他认为这些野兽是被我们在袭击开始前几周收到的雕像吸引过来的。去莫文府邸，就在蟹骨内的东部，这是钥匙。拿到雕像后，把它交给神殿的洛罗斯·萨拉诺。一旦雕像被毁，我会在议会里支持你。
+我是个寡妇。我的丈夫在保卫莫文府邸时死于穿过幽魂屏障的变形野兽。他认为这些野兽是被我们在袭击开始前几周收到的雕像吸引过来的。去莫文府邸，就在蟹骨内的东部，这是钥匙。拿到雕像后，把它交给神殿的洛罗斯·萨拉诺。一旦雕像被毁，我会在议会里支持你。
 
 > INFO.NAME fedris tharen 2439830951181128046
 I heard that Fedris Tharen is dead. You have failed me, %PCName.
@@ -114665,7 +114665,7 @@ I do not know where Lost Kogoruhn is. One of our valiant Ordinators, Feril Salmy
 
 > INFO.NAME lost kogoruhn 1894241211018531827
 Kogoruhn used to lie north of the northern boundary of the Ghostfence. It was northeast of Maar Gan and west of the present-day Vos. It was near the stronghold of Falasmaryon, which I can mark on your map.
-科戈汝因曾位于幽魂之墙北部边界以北。它在玛尔-甘的东北方向，现在的沃斯以西。它靠近法拉斯马里昂堡垒，我可以在你的地图上标出。 {礼物}
+科戈汝因曾位于幽魂屏障北部边界以北。它在玛尔-甘的东北方向，现在的沃斯以西。它靠近法拉斯马里昂堡垒，我可以在你的地图上标出。 {礼物}
 
 > INFO.NAME lost kogoruhn 8202719791375796
 Kogoruhn used to be somewhere northeast of here.
@@ -114673,7 +114673,7 @@ Kogoruhn used to be somewhere northeast of here.
 
 > INFO.NAME lost kogoruhn 3257217953160174462
 Lost Kogoruhn was somewhere north of the northern boundary of the Ghostfence. It was closer to Maar Gan than Ghostgate.
-失落的科戈汝因在幽魂之墙北部边界以北的某个地方。它比幽魂之门更靠近玛尔-甘。
+失落的科戈汝因在幽魂屏障北部边界以北的某个地方。它比幽魂之门更靠近玛尔-甘。
 
 > INFO.NAME lost kogoruhn 1218614813294616776
 Kogoruhn? It used to be west of here. No one's been there in years.
@@ -114849,7 +114849,7 @@ Mistress Dratha doesn't like men. She won't roast you or anything. But if you wa
 
 > INFO.NAME little advice 1488635072214910475
 Go on inside if you like. Look around. But don't mess with anything. And if you're going to talk to anyone, talk real nice. Stay out of the dungeon, that's where all the corprus victims are. It's not pretty. And they aren't mean, really. Just crazy mad and hungry.
-你可以进去四处看看，但别乱动任何东西。如果你想和谁谈话，就好好说，别进地牢，尸化病的受害者都在那里，那里不漂亮。他们并不坏，真的，只是又疯又饿。
+你可以进去四处看看，但别乱动任何东西。如果你想和谁谈话，就好好说，别进地牢，尸化病患者都在那里，那里不漂亮。他们并不坏，真的，只是又疯又饿。
 
 > INFO.NAME little advice 31005160372891213503
 Stay out of things that don't concern you, outlander. This affair is between myself and Therana. I want no help. I'll tolerate no interference.
@@ -115149,7 +115149,7 @@ Most pilgrims will need guards and guides to reach the pilgrim sites, but someon
 
 > INFO.NAME little advice 2441142542640818872
 We've had a lot of trouble with blight monsters escaping through the Ghostfence and attacking the village and outlying settlements. The Temple and House Redoran has called for volunteers to come help protect Maar Gan from monster attacks. Talk to the priests at the shrine if you might be willing to help. And talk to the volunteers who are lodging at the Andus Tradehouse.
-我们遇到过很多麻烦，枯萎病怪物逃出幽魂之墙，袭击村庄和外围定居点。神殿和瑞多然家族号召志愿者前来帮助保护玛尔-甘免受怪物袭击。如果您愿意帮忙，请与圣祠的祭司们交谈。并与在安杜斯贸易行住宿的志愿者交谈。
+我们遇到过很多麻烦，枯萎病怪物逃出幽魂屏障，袭击村庄和外围定居点。神殿和瑞多然家族号召志愿者前来帮助保护玛尔-甘免受怪物袭击。如果您愿意帮忙，请与圣祠的祭司们交谈。并与在安杜斯贸易行住宿的志愿者交谈。
 
 > INFO.NAME little advice 29808239682462111553
 Visit the Tower shrine, and ask the priests there about it. Quite a story. 'To you, Lord Dagon, I bite my thumb.'  Hah hah hah. Quite a trick. Maybe, if you're a questing hero, you'd like to match your wits against a Daedra?
@@ -115257,7 +115257,7 @@ You look like you're looking for something. It might be you'll find it at the Ra
 
 > INFO.NAME little advice 572829185274464241
 If you want weapons or arms in Ald'ruhn, or need weapons and armor repaired, look for Dandera Selaro the Smith in Ald'ruhn-under-Skar. Dandera Selaro serves all comers, and has a quality selection. The other three smiths in Ald'ruhn have faction associations. Ergnir the Nord is the Fighters Guild smith, and Tuveso Beleth is the House Redoran smith at Redoran Council Hall. Yambagorn gro-Shulor is the Legion's smith at Fort Buckmoth. And Daynes Redothril the pawnbroker may also be worth a look.
-如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。亚姆巴贡恩·格罗-舒罗尔是雄蛾要塞的军团铁匠。典当商戴尼斯·瑞多瑟尔也值得一看。 {盔甲维修}
+如果你想在奥德'汝因搞到武器装备，或者需要修理武器和盔甲，请在奥德'汝因-蟹骨之下的的铁匠商铺找丹德拉·塞拉罗。丹德拉·塞拉罗向所有人提供服务，并且有良品待售。奥德'汝因的其他三个铁匠都有派系协会。诺德人埃尔格尼尔是战士公会的铁匠，图维索·贝莱斯是瑞多然议会大厅的瑞多然家族铁匠。亚姆巴贡恩·格罗-舒罗尔是雄蛾要塞的军团铁匠。典当商戴尼斯·瑞多斯里尔也值得一看。 {盔甲维修}
 
 > INFO.NAME little advice 2820953291952514426
 While you're here, you have to take a look at the Daedric ruins. Ashalmawia. Very old. Remarkable. Safe to go up there, in the daytime at least. I wouldn't go inside, though. Place is cursed.
@@ -115529,7 +115529,7 @@ There's a crusader in residence at Desele's House of Earthly Delights in Suran. 
 
 > INFO.NAME little advice 234875632110220344
 If you were to ask me for the model of a warrior, I'd have to say Miles Gloriosus. He's at the Andus Tradehouse in Maar Gan right now, on a crusade to kill off all the monsters sneaking through the Ghostfence, but he always has time to talk with an admirer.
-如果你要问我战士的典范，我不得不说迈尔斯·格洛里欧苏斯。他现在正在玛尔-甘的安杜斯贸易行，讨伐所有偷偷穿越幽魂之墙的怪物，但他总是有时间和崇拜者聊天。 {潜行,谈}
+如果你要问我战士的典范，我不得不说迈尔斯·格洛里欧苏斯。他现在正在玛尔-甘的安杜斯贸易行，讨伐所有偷偷穿越幽魂屏障的怪物，但他总是有时间和崇拜者聊天。 {潜行,谈}
 
 > INFO.NAME little advice 291392498268423164
 If you want to talk to a smith about his trade, talk to Garothmuk gro-Muzgub. He is not a master smith, but he's well-spoken, friendly, and knows a lot about smithing in Morrowind.
@@ -116297,7 +116297,7 @@ There's a lot of money to be made looting the Dwarven ruins. Against the law, ye
 
 > INFO.NAME little secret 276181128340255511
 You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.
-你喜欢在荒郊野外探头探脑吗？给你个小提示。那些看起来像金色金属做成的地方？有尖塔和塔楼？那些是矮人遗迹。它们有点危险——一方面是因为里面有矮人的古老机器，另一方面是因为有种东西喜欢藏在这种老遗迹里。比如说，幽魂之墙内所有的古老遗迹都是矮人的遗迹。而且我听说灰烬吸血鬼也喜欢它们。
+你喜欢在荒郊野外探头探脑吗？给你个小提示。那些看起来像金色金属做成的地方？有尖塔和塔楼？那些是矮人遗迹。它们有点危险——一方面是因为里面有矮人的古老机器，另一方面是因为有种东西喜欢藏在这种老遗迹里。比如说，幽魂屏障内所有的古老遗迹都是矮人的遗迹。而且我听说灰烬吸血鬼也喜欢它们。
 
 > INFO.NAME little secret 703916010385010941
 You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.
@@ -116305,7 +116305,7 @@ You're an outlander, maybe you don't know about the kinds of Daedric ruins we ha
 
 > INFO.NAME little secret 1588253092529329077
 What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghost Fence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally. And the Dwemer sites are pretty bad, too.
-晨风最危险的地方是哪里？嗯，可能是幽魂之墙内的灰烬吸血鬼城堡，在红山上。但是幽魂之墙外面呢？我猜迪德拉遗迹是最危险的地方，那里到处都是邪恶的迪德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗迹也很糟糕。 {迪德拉式,锻莫族,锻莫遗址}
+晨风最危险的地方是哪里？嗯，可能是幽魂屏障内的灰烬吸血鬼城堡，在红山上。但是幽魂屏障外面呢？我猜迪德拉遗迹是最危险的地方，那里到处都是邪恶的迪德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗迹也很糟糕。 {迪德拉式,锻莫族,锻莫遗址}
 
 > INFO.NAME little secret 16531102192603444
 Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cults worship Daedra. Bad people who summon bad Daedra. Stay away from them. Why? Because Daedra are nasty. And the folks that worship them are even nastier.
@@ -116401,7 +116401,7 @@ Somebody said Larrius Varro over at Fort Moonmoth is looking for you. Said he wa
 
 > INFO.NAME little secret 125578701271214203
 I heard the Ordinators burned out a camp of Nerevarine cult worshippers out by the Ghostfence, in Foyada Ashur-Dan. The Temple seems to be going to a lot of trouble to exterminate a bunch of simple Ashlanders. They can't help being ignorant. They're just primitive savages. And nobody takes that 'return of Lord Nerevar' stuff seriously. Crazy rag-robed prophets. Not much threat there.
-我听说神殿卫兵们在阿舒尔-丹熔渠幽魂之墙外烧毁了一个尼瑞瓦因教派信徒的营地。神殿为了消灭一群普通的灰烬之民似乎要大费周章。他们就是那么无知。他们只是原始的野蛮人，没人会把“尼瑞瓦领主归来”当回事。疯狂的布袍先知。没什么威胁。
+我听说神殿卫兵们在阿舒尔-丹熔渠幽魂屏障外烧毁了一个尼瑞瓦因教派信徒的营地。神殿为了消灭一群普通的灰烬之民似乎要大费周章。他们就是那么无知。他们只是原始的野蛮人，没人会把“尼瑞瓦领主归来”当回事。疯狂的布袍先知。没什么威胁。
 
 > INFO.NAME little secret 28009126602517219086
 Do you know where Telasero is? The old Dunmer stronghold between Suran and Molag Mar? The Temple just sent three Ordinators from the Order of War up there. Some trader reported seeing corprus monsters there.
@@ -116437,7 +116437,7 @@ Have you heard of this new secret cult, the Sixth House? They say they sit aroun
 
 > INFO.NAME little secret 3241323702538914393
 If you're thinking of traveling up country, near Sheogorad, or out Molag Amur way, or inside the Ghostfence, you need to know about corprus. It's a disease that turns normal creatures into beasts. Turns men into twisted, mad lumps of flesh, superhumanly strong, and full of hatred. You get corprus from fighting with diseased creatures. It's hard to get corprus, but harder to get rid of it. In fact, I hear there is no cure.
-如果你想去谢尔格拉德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂之墙内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {需要,疾病}
+如果你想去谢尔格拉德附近的乡下旅行，或者去莫拉格-阿穆尔的路上，或者幽魂屏障内，你得了解尸化病。这种病会把正常生物变成野兽，把人变成扭曲、疯狂的肉块，力量超人，充满仇恨。与患病的生物战斗会得尸化病，得尸化很难，但要摆脱它却更难。事实上，我听说没有解药。 {需要,疾病}
 
 > INFO.NAME little secret 140611308994321843
 Buy from merchants and traders who like you. You get better prices. Members of your own factions usually like you best.
@@ -118121,7 +118121,7 @@ House Redoran isn't going to let those Hlaalu take Caldera and the ebony mines w
 
 > INFO.NAME latest rumors 2780212352714513558
 Morvayn Manor was overrun by corprus monsters. I thought they couldn't get out of the Ghostfence.
-莫文府邸被尸化怪物占领了。我还以为他们逃不出幽魂之墙呢。
+莫文府邸被尸化怪物占领了。我还以为他们逃不出幽魂屏障呢。
 
 > INFO.NAME latest rumors 479020780242431784
 Athyn Sarethi may be the 'Hope of the Redoran,' but someone wants him dead. He's fended off three Morag Tong attacks already.
@@ -118505,11 +118505,11 @@ They do seem to find the drumming comforting, poor things. I think they'll be a 
 
 > INFO.NAME guarskin drum 194628832854511441
 Yes. That guarskin drum will do perfectly. I'll take it and play a little soothing rhythm, and I think that will pacify the poor corprus victims so they won't be so savage and aggressive.
-是啊，那个瓜尔皮制鼓就很好用了。我拿着它，敲出一点舒缓的节奏。我想那能安抚可怜的尸化病的受害者，这样他们就不会那么野蛮好斗了。
+是啊，那个瓜尔皮制鼓就很好用了。我拿着它，敲出一点舒缓的节奏。我想那能安抚可怜的尸化病患者，这样他们就不会那么野蛮好斗了。
 
 > INFO.NAME guarskin drum 20563289352119022773
 Yes. Look around. There's a guarskin drum somewhere. If you'll find it and bring it to me, I'll sooth the corprus victims with a little music.
-好的，看看周围，某个地方有个瓜尔皮制鼓。如果你能找到它，拿给我，我会用音乐安抚尸化病的受害者。
+好的，看看周围，某个地方有个瓜尔皮制鼓。如果你能找到它，拿给我，我会用音乐安抚尸化病患者。
 
 > INFO.NAME imperial cult 1248415032614120911
 This is a nice Dunmer establishment. For native Dunmer. We aren't interested in the Imperial cult, outlander. We aren't interested in anything Imperial here. Understand?
@@ -118689,7 +118689,7 @@ You've heard my offer, and it will not change.
 
 > INFO.NAME yagrum bagarn 767963722508120812
 Yagrum Bagarn is in the bowels of the Corprusarium. Pass through the gate and go straight across to the next door. He rides in a four-legged cart. He's not as dangerous as the other corprus victims. I doubt he'll give you any trouble.
-亚格鲁·巴加恩在尸化病洞穴之腑。穿过大门，直走到下一扇门。他坐着四脚马车，他不像其他尸化病的受害者那么危险。我不觉得他会给你惹麻烦。
+亚格鲁·巴加恩在尸化病洞穴之腑。穿过大门，直走到下一扇门。他坐着四脚马车，他不像其他尸化病患者那么危险。我不觉得他会给你惹麻烦。
 
 > INFO.NAME yagrum bagarn 979127311301624304
 Yagrum Bagarn is my oldest corprus victim. You'll find him in the bowels of the Corprusarium. Interesting case.
@@ -119905,7 +119905,7 @@ Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Moun
 
 > INFO.NAME red mountain 3056424846394124630
 Red Mountain is the great mountain of fire in the center of Vvardenfell. The outer slopes are steep and rugged, and the crater is deep and filled with burning rock. Beasts and servants of the Devil Dagoth Ur live on Red Mountain. The settled people built a magical barrier called Ghostfence to keep the evils inside. Within the Ghostfence, rain never falls and the sun never shines; the only weather is the red and deadly ash-blight.
-红山是瓦登费尔中心的一座巨大火山。外侧山坡陡峭崎岖，火山口深不见底，到处都是燃烧的岩石。恶魔达格斯·乌尔的怪物和仆从就生活在红山上。定居的人们建造了一个名为“幽魂之墙”的魔法屏障，将恶魔阻挡在里面。在幽魂之墙内，雨水从不落下，阳光从不照耀，唯一的天气就是红色而致命的灰烬风暴。
+红山是瓦登费尔中心的一座巨大火山。外侧山坡陡峭崎岖，火山口深不见底，到处都是燃烧的岩石。恶魔达格斯·乌尔的怪物和仆从就生活在红山上。定居的人们建造了一个名为“幽魂屏障”的魔法屏障，将恶魔阻挡在里面。在幽魂屏障内，雨水从不落下，阳光从不照耀，唯一的天气就是红色而致命的灰烬风暴。
 
 > INFO.NAME red mountain 1279917312955323159
 Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Mountain are clear and blue by day, and dark and filled with stars by night.
@@ -119913,7 +119913,7 @@ Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Moun
 
 > INFO.NAME red mountain 52452733438830719
 Red Mountain is the great volcano in the center of Vvardenfell island. The crater of Red Mountain is called the Dagoth Ur region, where Dagoth Ur and his evil servants dwell. The Tribunal built the Ghostfence around Red Mountain to imprison Dagoth Ur and his servants, and to protect Morrowind from the blight storms that issue from Dagoth Ur's crater.
-红山是瓦登费尔岛中心的大火山。红山的火山口被称为达格斯·乌尔堡地区，达格斯·乌尔和他邪恶的仆从们就居住在这里。审判席在红山周围建造了幽魂之墙，以囚禁达戈斯·乌尔和他的仆从，并保护晨风不受达戈斯·乌尔火山口发出的枯萎病风暴的侵袭。 {枯萎之症}
+红山是瓦登费尔岛中心的大火山。红山的火山口被称为达格斯·乌尔堡地区，达格斯·乌尔和他邪恶的仆从们就居住在这里。审判席在红山周围建造了幽魂屏障，以囚禁达戈斯·乌尔和他的仆从，并保护晨风不受达戈斯·乌尔火山口发出的枯萎病风暴的侵袭。 {枯萎之症}
 
 > INFO.NAME red mountain 17655248672882822060
 Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Mountain are clear and blue by day, and dark and filled with stars by night.
@@ -119921,7 +119921,7 @@ Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Moun
 
 > INFO.NAME red mountain 21121146749931000
 Red Mountain is the great volcano in the center of Vvardenfell island. The crater of Red Mountain is called the Dagoth Ur region, where Dagoth Ur and his evil servants dwell. The Tribunal built the Ghostfence around Red Mountain to imprison Dagoth Ur and his servants, and to protect Morrowind from the blight storms that issue from Dagoth Ur's crater.
-红山是瓦登费尔岛中心的大火山。红山的火山口被称为达格斯·乌尔堡地区，达格斯·乌尔和他邪恶的仆从们就居住在这里。审判席在红山周围建造了幽魂之墙，以囚禁达戈斯·乌尔和他的仆从，并保护晨风不受达戈斯·乌尔火山口发出的枯萎病风暴的侵袭。 {枯萎之症}
+红山是瓦登费尔岛中心的大火山。红山的火山口被称为达格斯·乌尔堡地区，达格斯·乌尔和他邪恶的仆从们就居住在这里。审判席在红山周围建造了幽魂屏障，以囚禁达戈斯·乌尔和他的仆从，并保护晨风不受达戈斯·乌尔火山口发出的枯萎病风暴的侵袭。 {枯萎之症}
 
 > INFO.NAME red mountain 16925272031290302
 Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Mountain are clear and blue by day, and dark and filled with stars by night.
@@ -119929,7 +119929,7 @@ Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Moun
 
 > INFO.NAME red mountain 17654149322513431494
 Ghostgate is the only way through the Ghostfence and into Red Mountain. But no one sane would go there. Certain death.
-幽魂之门是穿过幽魂之墙进入红山的唯一通道。但正常人都不会去那里。必死无疑啊。
+幽魂之门是穿过幽魂屏障进入红山的唯一通道。但正常人都不会去那里。必死无疑啊。
 
 > INFO.NAME red mountain 23654283891935721640
 Red Mountain is the great volcano in the center of Vvardenfell island.
@@ -119941,7 +119941,7 @@ The crater of Red Mountain is called the Dagoth Ur region, where Dagoth Ur and h
 
 > INFO.NAME red mountain 7070127581556411840
 The Tribunal built the Ghostfence around Red Mountain to imprison Dagoth Ur and his servants.
-审判席在红山周围建造了幽魂之墙，用来囚禁达格斯·乌尔和他的仆从。
+审判席在红山周围建造了幽魂屏障，用来囚禁达格斯·乌尔和他的仆从。
 
 > INFO.NAME red mountain 14114299002811316374
 Red Mountain is the great volcano in the center of Vvardenfell island. To reach Red Mountain, follow Foyada Mamaea from the old Dwemer bridge near Fort Moonmoth to Ghostgate.
@@ -119957,7 +119957,7 @@ Now that you have killed Dagoth Ur and ended the Blight, the skies over Red Moun
 
 > INFO.NAME red mountain 4371325022824424232
 The dominant feature of Vvardenfell, Red Mountain is a vast volcano in the center of Vvardenfell. The outer slopes are steep and rugged, and the crater is deep and dotted with surface lava. The Ghostfence, a magical barrier which blocks travel as well as seals in the harmful, disease-laden weather called 'blight,' rings the volcano's outer slopes, and is broken only at Ghostgate. Within the Ghostfence, rain never falls and the sun never shines; the only weather is the red and deadly ash-blight.
-红山是瓦登费尔岛的主要特征，它是位于瓦登费尔岛中心的一座巨大火山。外围的山坡陡峭崎岖，火山口深不见底，表面遍布熔岩。幽魂之墙是一道神奇的屏障，它既能阻挡旅行，又能阻挡被称为“枯萎病”的有害、充满疾病的天气，幽魂之墙环绕着火山的外环山坡，只有在幽魂之门处才能进入。在幽魂之墙内，雨水从不落下，阳光从不照耀；唯一的天气就是红色和致命的火山灰枯萎病。 {瓦斯,格挡,戒指}
+红山是瓦登费尔岛的主要特征，它是位于瓦登费尔岛中心的一座巨大火山。外围的山坡陡峭崎岖，火山口深不见底，表面遍布熔岩。幽魂屏障是一道神奇的屏障，它既能阻挡旅行，又能阻挡被称为“枯萎病”的有害、充满疾病的天气，幽魂屏障环绕着火山的外环山坡，只有在幽魂之门处才能进入。在幽魂屏障内，雨水从不落下，阳光从不照耀；唯一的天气就是红色和致命的火山灰枯萎病。 {瓦斯,格挡,戒指}
 
 > INFO.NAME dwemer sites 4043106792242311853
 There are many Dwemer sites on Vvardenfell, but the two largest are Mzuleft and Nchuleftingth. Mzuleft is in the Sheogorad region, is cursed and dangerous, and access is forbidden. Nchuleftingth is occupied by an expedition of the Imperial Archaeological Commission, and is not open to visitors.
@@ -120491,7 +120491,7 @@ The mine is still shut down.
 
 > INFO.NAME sudanit mine 1836922163495712218
 Sudanit is the only mine House Redoran currently controls. To get there, go to Ald'ruhn and find the path between Ald'ruhn and the Fort Buckmoth to the south. Follow this path east until you reach the Ghostfence. Then keep to the right until you reach the mine.
-苏丹尼特矿场是瑞多然家族目前唯一控制的矿场。要去那里，请前往奥德'汝因，找到奥德'汝因和雄蛾要塞之间向南延伸的小路。沿着这条路向东走，直到到达幽魂之墙。然后一直向右走，直到到达矿场。
+苏丹尼特矿场是瑞多然家族目前唯一控制的矿场。要去那里，请前往奥德'汝因，找到奥德'汝因和雄蛾要塞之间向南延伸的小路。沿着这条路向东走，直到到达幽魂屏障。然后一直向右走，直到到达矿场。
 
 > INFO.NAME tarvyn faren 1723911314733617745
 Thanks to you, everyone will know the name Tarvyn Feran as a trader who can reach his customers even with all the troubles for House Hlaalu.
@@ -120667,11 +120667,11 @@ I collect victims of the divine disease in my Corprusarium in the caverns beneat
 
 > INFO.NAME corprusarium 7830159254991932
 Lord Fyr shelters and maintains the victims of corprus disease here in the Corprusarium. He does them a great service, because no other could or would help them. He also does the world a great service by keeping them here where they can do no harm to others. The inmates are sad, distorted monsters, angry and cruel, and their sufferings are great, but they still live and feel, and I honor Lord Fyr's care and compassion for them.
-菲尔大人在尸化病洞穴里庇护和照料尸化病的受害者，他为他们做了一件大好事，因为没有其他人能够或愿意帮助他们。他也为这个世界做了一件大好事，把他们关在这里，让他们不会伤害别人！这些囚犯都是悲惨、扭曲的怪物，愤怒而残忍，他们遭受了巨大的痛苦，但他们仍然活着，仍然有感觉，我敬佩菲尔大人对他们的关怀和怜悯之心。 {疾病}
+菲尔大人在尸化病洞穴里庇护和照料尸化病患者，他为他们做了一件大好事，因为没有其他人能够或愿意帮助他们。他也为这个世界做了一件大好事，把他们关在这里，让他们不会伤害别人！这些囚犯都是悲惨、扭曲的怪物，愤怒而残忍，他们遭受了巨大的痛苦，但他们仍然活着，仍然有感觉，我敬佩菲尔大人对他们的关怀和怜悯之心。 {疾病}
 
 > INFO.NAME corprusarium 102681952453015771
 The Corprusarium is just one of Divayth Fyr's many projects. Our mission here is partly humanitarian, partly research. He has been searching for a cure to corprus disease for a long time. A very long time. But in the meantime, we care for the corprus victims as best we can. The world outside is very cruel to corprus sufferers. They are much better off here with us.
-尸化病洞穴只是迪维斯·菲尔众多项目中的一个。我们在这里的任务部分是人道主义，部分是研究。他寻找尸化病的治疗方法已经很久了。很长一段时间，但与此同时，我们也在尽最大努力照顾尸化病的受害者，外面的世界对尸化病的受害者非常残酷。他们和我们在一起要好得多。 {疾病}
+尸化病洞穴只是迪维斯·菲尔众多项目中的一个。我们在这里的任务部分是人道主义，部分是研究。他寻找尸化病的治疗方法已经很久了。很长一段时间，但与此同时，我们也在尽最大努力照顾尸化病患者，外面的世界对尸化病患者非常残酷。他们和我们在一起要好得多。 {疾病}
 
 > INFO.NAME corprusarium 578226051004523418
 The Temple sends victims of corprus disease to the Corprusarium. The Corprusarium is beneath Tel Fyr, the tower of the Telvanni wizard Divayth Fyr. I asked Fast Eddie what it was like. 'It's a swell place. Full of doomed crazy people with bloated bodies. You'll love it.'
@@ -120679,7 +120679,7 @@ The Temple sends victims of corprus disease to the Corprusarium. The Corprusariu
 
 > INFO.NAME corprusarium 15255233181191415913
 This is not the Corprusarium. The Corprusarium is in the caverns down below the tower. Just keep going down. You'll want to speak with Uupse Fyr or Vistha-Kai. They attend to the needs of the Corprusarium inmates -- victims of the corprus disease. If you go down there, be careful. Many corprus victims are completely mad. And quite violent.
-这里不是尸化病洞穴。尸化病洞穴在塔楼下面的洞穴里，一直往下走，你可以找乌普斯·菲尔或者维沙-凯谈谈。他们会照顾尸化病洞穴里的病人——尸化病的受害者。如果你去那里，一定要小心。很多尸化病的受害者都完全疯了，而且相当暴力。 {需要,疾病}
+这里不是尸化病洞穴。尸化病洞穴在塔楼下面的洞穴里，一直往下走，你可以找乌普斯·菲尔或者维沙-凯谈谈。他们会照顾尸化病洞穴里的病人——尸化病患者。如果你去那里，一定要小心。很多尸化病患者都完全疯了，而且相当暴力。 {需要,疾病}
 
 > INFO.NAME dwemer piece 3262299253108012587
 Thank you for your gift.
@@ -120871,7 +120871,7 @@ You want to know... why did I wage war on the Nerevarine? why did I try to suppr
 
 > INFO.NAME who can help 107283112793523904
 Ordinators and Buoyant Armigers stationed at Ghostgate have the most practical knowledge of the nightmare world inside the Ghostfence. Seek them in my name for counsel and aid.
-驻扎在幽魂之门的灵动扈从和神殿卫兵们对幽魂之墙内的梦魇世界有着最实际的了解。以我的名义向他们寻求建议和帮助。 {咨询}
+驻扎在幽魂之门的灵动扈从和神殿卫兵们对幽魂屏障内的梦魇世界有着最实际的了解。以我的名义向他们寻求建议和帮助。 {咨询}
 
 > INFO.NAME dwemer's sin 1715821388983222209
 The sin of the Dwemer was the creation of a new god from the substance of a dead god, Lorkhan. That is also the sin for which we would destroy Dagoth Ur. I hesitate to call it 'sin'. More properly, call it 'destructive evil'. The sin of the Tribunal, however, is in the breaking of an oath to Azura to forebear from tapping the Heart with Kagrenac's tools, and in the folly of seeking to become gods. Breaking the oath was evil. Becoming gods was folly. If we sinned, we have paid the price.
@@ -125083,7 +125083,7 @@ The East Empire Company threatened to buy ebony from House Redoran unless we low
 
 > INFO.NAME ebony trade 126121974303042916
 We had a good deal going with Caldera, but then House Redoran opened their traditional mines for trade with the Empire. Even the Ashlanders have been sneaking across the ghost fence to a mine there and trying to sell ebony.
-我们本来和卡尔德拉有一笔不错的交易，但后来瑞多然家族开放了他们的传统矿场，与泰姆瑞尔帝国进行贸易。就连灰烬之民也偷偷越过幽魂之墙，来到那里的一个矿场，试图出售黑檀。 {潜行}
+我们本来和卡尔德拉有一笔不错的交易，但后来瑞多然家族开放了他们的传统矿场，与泰姆瑞尔帝国进行贸易。就连灰烬之民也偷偷越过幽魂屏障，来到那里的一个矿场，试图出售黑檀。 {潜行}
 
 > INFO.NAME divayth fyr 812019992595412324
 As you know, he's probably the oldest and most powerful wizard alive. Not counting liches, or divine sorcerers like Vivec, of course. And there may be some older in the West, on Summerset Isles, perhaps. And I don't think there's a kinder, more generous wizard alive. Not that there's much competition in the kind-and-generous-wizard department, I'll grant you.
@@ -125103,7 +125103,7 @@ He's in his study. He's busy. He's always busy.
 
 > INFO.NAME divayth fyr 60412147127613925
 Divayth Fyr is one of the oldest mortals on Tamriel. He could be the Telvanni Archmagister, but he doesn't care about that stuff. He just wants to collect Dwemer artifacts and Daedric artifacts and corprus victims. He welcomes thieves and adventurers, says they can have anything they can get away with. He must have a right rich booty in there, considering the ones that go in and don't come out.
-迪维斯·菲尔是泰姆瑞尔最古老的凡人之一。他可能是泰瓦尼的大导师，但他不在乎那些东西，他只想收集锻莫文物、迪德拉文物和尸化病的受害者。他欢迎小偷和冒险者，说他们可以得到任何东西。想想那些进去了就再没出来的人，他那里的战利品一定很丰富。 {迪德拉式}
+迪维斯·菲尔是泰姆瑞尔最古老的凡人之一。他可能是泰瓦尼的大导师，但他不在乎那些东西，他只想收集锻莫文物、迪德拉文物和尸化病患者。他欢迎小偷和冒险者，说他们可以得到任何东西。想想那些进去了就再没出来的人，他那里的战利品一定很丰富。 {迪德拉式}
 
 > INFO.NAME divayth fyr 2164126887101464726
 He lives in Tel Fyr. He is one of the oldest and most respected wizards in House Telvanni, though he shows an unfortunate lack of interest in politics. To get to Tel Fyr, you'll have to swim or fly southwest from Sadrith Mora. It's a long trip. Perhaps I should mark Tel Fyr on your map.
@@ -129155,7 +129155,7 @@ If you have corprus disease, you need the Corprusarium. Or do you want Divayth F
 
 > INFO.NAME greeting 1 111099892177678622
 You're new here, aren't you? My name is Uupse. Uupse Fyr. I take care of the corprus victims in the Corprusarium.
-你是新来的吧？我的名字是乌普斯，乌普斯·菲尔。我在尸化病洞穴照顾尸化病的受害者。
+你是新来的吧？我的名字是乌普斯，乌普斯·菲尔。我在尸化病洞穴照顾尸化病患者。
 
 > INFO.NAME greeting 1 133012756320302114
 I see you found a guarskin drum.
@@ -131119,7 +131119,7 @@ It is important we defend the South Wall. Who is the master of security, %PCRank
 
 > INFO.NAME greeting 5 26185257202160223832
 Habasi asked you to free our brother. Where is New-Shoes Bragor?
-哈巴西让你去救我们的兄弟。新鞋·巴戈在哪儿？
+哈巴西让你去救我们的兄弟。新鞋·布拉戈在哪儿？
 
 > INFO.NAME greeting 5 15103928439736086
 Tell Habasi about the Vintage Brandy. Have you found what Ralen Hlaalo left behind?
@@ -137563,7 +137563,7 @@ Yes? I'm Ienas Sarandas. What do you want?
 
 > INFO.NAME greeting 7 31177231023265928026
 I'm Daynes Redothril, the Pawnbroker. And you are... %PCName? Shall I tell you about my trade? Or would you perhaps be interested in doing a little work for me?
-我是戴尼斯·瑞多瑟尔，典当商人。而你是…%PCName？我们来聊聊我的职业？或者说你有兴趣为我做点工作？ {沙尔}
+我是戴尼斯·瑞多斯里尔，典当商人。而你是…%PCName？我们来聊聊我的职业？或者说你有兴趣为我做点工作？ {沙尔}
 
 > INFO.NAME greeting 7 11198177183109011497
 Go ahead. Look around. You see something you want, let me know. I can also tell you about my trade. And, if you are interested, I might have a little work for you.
@@ -137955,11 +137955,11 @@ Dagoth Ur is dead, and the skies are blue over Red Mountain. We were wrong about
 
 > INFO.NAME greeting 7 10852283441693910590
 Greetings, %PCName. The Archcanon announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. We have orders to provide maps and intelligence on conditions inside the Ghostfence. Tell me if you want someone in particular, services, or a specific place. Shall I tell you about my trade? Would you like a little advice? Or are you interested in the latest rumors? Or would you like to hear a little secret?
-你好，%PCName。大主教已经宣布，维威克大人已经选中你，作为神殿对抗达格斯·乌尔和第六家族战争中的勇士。我们奉命提供幽魂之墙内的地图和情报，如果你需要找某个特定的人，特别的服务，或者特别的地点，请告诉我。要我说说我的职业吗？你想要一点小建议吗？还是对最新传言感兴趣？还是想听一个小秘密？ {指示,智力,沙尔}
+你好，%PCName。大主教已经宣布，维威克大人已经选中你，作为神殿对抗达格斯·乌尔和第六家族战争中的勇士。我们奉命提供幽魂屏障内的地图和情报，如果你需要找某个特定的人，特别的服务，或者特别的地点，请告诉我。要我说说我的职业吗？你想要一点小建议吗？还是对最新传言感兴趣？还是想听一个小秘密？ {指示,智力,沙尔}
 
 > INFO.NAME greeting 7 170598881205997120
 Greetings, %PCName. The Archcanon has announced that Lord Vivec has selected you as a champion of the Temple in the war against Dagoth Ur and the Sixth House. We have orders to provide maps and intelligence on conditions inside the Ghostfence. Tell me if you want someone in particular, services, or a specific place. I can help you if you are on pilgrimage here. Shall I tell you about my trade?
-你好，%PCName。大主教已经宣布，维威克大人已经选中你，作为神殿对抗达格斯·乌尔和第六家族战争中的勇士。我们奉命提供幽魂之墙内的地图和情报，如果你需要找某个特定的人，特别的服务，或者特别的地点，请告诉我。要我说说我的职业吗？ {指示,智力,朝圣,沙尔}
+你好，%PCName。大主教已经宣布，维威克大人已经选中你，作为神殿对抗达格斯·乌尔和第六家族战争中的勇士。我们奉命提供幽魂屏障内的地图和情报，如果你需要找某个特定的人，特别的服务，或者特别的地点，请告诉我。要我说说我的职业吗？ {指示,智力,朝圣,沙尔}
 
 > INFO.NAME greeting 8 15917326493337369
 With an outfit like that, you must be doing very well for yourself. Can I help you?
@@ -141975,19 +141975,19 @@ Our warriors caught an escaped slave. I showed him kindness. I brought him food 
 
 > INFO.NAME ghostfence 271871908958111830
 Dagoth Ur is dead, Nerevarine. We don't need the Ghostfence. But its bare pylons will remain as a tribute to Almsivi, to all the Ordinators and Buoyant Armigers who died, to the victims of the Sixth House, and to you, Nerevar-Born-Again.
-达格斯·乌尔已经死了，尼瑞瓦因。我们不需要幽魂之墙了。但它的空荡的支柱将作为对奥姆希维的致敬，作为对灵动扈从和神殿卫兵们的悼念，也是对第六家族的牺牲者，还有你，尼瑞瓦再世的纪念。
+达格斯·乌尔已经死了，尼瑞瓦因。我们不需要幽魂屏障了。但它的空荡的支柱将作为对奥姆希维的致敬，作为对灵动扈从和神殿卫兵们的悼念，也是对第六家族的牺牲者，还有你，尼瑞瓦再世的纪念。
 
 > INFO.NAME ghostfence 1860720015120967606
 Thanks to you, Nerevarine, Dagoth Ur is dead, and we don't need the Ghostfence.
-多亏了你，尼瑞瓦因，达格斯·乌尔死了，我们不需要幽魂之墙了。
+多亏了你，尼瑞瓦因，达格斯·乌尔死了，我们不需要幽魂屏障了。
 
 > INFO.NAME ghostfence 2049620228132307545
 Thanks to you, Nerevarine, Dagoth Ur is dead, and we don't need the Ghostfence.
-多亏了你，尼瑞瓦因，达格斯·乌尔死了，我们不需要幽魂之墙了。
+多亏了你，尼瑞瓦因，达格斯·乌尔死了，我们不需要幽魂屏障了。
 
 > INFO.NAME ghostfence 158920295397928396
 Thanks to you, Nerevarine, Dagoth Ur is dead, and we don't need the Ghostfence.
-多亏了你，尼瑞瓦因，达格斯·乌尔死了，我们不需要幽魂之墙了。
+多亏了你，尼瑞瓦因，达格斯·乌尔死了，我们不需要幽魂屏障了。
 
 > INFO.NAME ghostfence 93472933015174500
 Now we don't need this magic wall, since you have killed Dagoth Ur.
@@ -141995,79 +141995,79 @@ Now we don't need this magic wall, since you have killed Dagoth Ur.
 
 > INFO.NAME ghostfence 16497114051641319587
 The Ghostfence is a magic wall around Red Mountain. The settled people created this barrier to keep the Devil Dagoth Ur and his beasts and servants trapped in Red Mountain.
-幽魂之墙是红山周围的一道魔墙。定居的人们创造了这道屏障，把恶魔达格斯·乌尔和他的野兽、仆人困在红山。
+幽魂屏障是红山周围的一道魔墙。定居的人们创造了这道屏障，把恶魔达格斯·乌尔和他的野兽、仆人困在红山。
 
 > INFO.NAME ghostfence 2587223070235431838
 The chiefs of the settled people -- Vivec, Almalexia, and Sotha Sil -- are false gods, but they must be mighty sorcerers to create and feed the powerful magic of the Ghostfence.
-定居者的首领——维威克、阿玛莱西娅和索萨·希尔——都是伪神，但他们必须是强大的术士，才能创造和供养幽魂之墙强大的魔法。
+定居者的首领——维威克、阿玛莱西娅和索萨·希尔——都是伪神，但他们必须是强大的术士，才能创造和供养幽魂屏障强大的魔法。
 
 > INFO.NAME ghostfence 31815112487065507
 In the past, the Ghostfence was completely effective, but now we hear reports of encounters with blighted monsters outside the fence.
-在过去，幽魂之墙是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
+在过去，幽魂屏障是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
 
 > INFO.NAME ghostfence 11041107362415720764
 In the past, the Ghostfence was completely effective, but now we hear reports of encounters with blighted monsters outside the fence.
-在过去，幽魂之墙是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
+在过去，幽魂屏障是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
 
 > INFO.NAME ghostfence 3311268591835619049
 In the past, the Ghostfence was completely effective, but now we hear reports of encounters with blighted monsters outside the fence.
-在过去，幽魂之墙是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
+在过去，幽魂屏障是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
 
 > INFO.NAME ghostfence 5148173132735420448
 In the past, the Ghostfence was completely effective, but now we hear reports of encounters with blighted monsters outside the fence.
-在过去，幽魂之墙是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
+在过去，幽魂屏障是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
 
 > INFO.NAME ghostfence 26514159162059231738
 In the past, the Ghostfence was completely effective, but now we hear reports of encounters with blighted monsters outside the fence.
-在过去，幽魂之墙是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
+在过去，幽魂屏障是完全有效的，但现在我们听到了在栅栏外遭遇枯萎怪物的报告。
 
 > INFO.NAME ghostfence 110416916205513260
 The Ghostfence was created and is sustained by the divine powers of Vivec and the Tribunal.
-幽魂之墙由维威克和审判席的神力创建并维持。
+幽魂屏障由维威克和审判席的神力创建并维持。
 
 > INFO.NAME ghostfence 327109496593620391
 The Ghostfence was created and is sustained by the divine powers of Vivec and the Tribunal.
-幽魂之墙由维威克和审判席的神力创建并维持。
+幽魂屏障由维威克和审判席的神力创建并维持。
 
 > INFO.NAME ghostfence 2558053415426802
 The Ghostfence was created and is sustained by the divine powers of Vivec and the Tribunal.
-幽魂之墙由维威克和审判席的神力创建并维持。
+幽魂屏障由维威克和审判席的神力创建并维持。
 
 > INFO.NAME ghostfence 28988694686054147
 The Ghostfence was created and is sustained by the divine powers of Vivec and the Tribunal.
-幽魂之墙由维威克和审判席的神力创建并维持。
+幽魂屏障由维威克和审判席的神力创建并维持。
 
 > INFO.NAME ghostfence 18819248161846526329
 The Ghostfence was created and is sustained by the divine powers of Vivec and the Tribunal.
-幽魂之墙由维威克和审判席的神力创建并维持。
+幽魂屏障由维威克和审判席的神力创建并维持。
 
 > INFO.NAME ghostfence 31320243831332514159
 The Ghostfence is a magic wall running completely around Red Mountain. The barrier keeps blight storms and blight monsters from spreading across Vvardenfell.
-幽魂之墙是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
+幽魂屏障是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
 
 > INFO.NAME ghostfence 5739161111883011145
 The Ghostfence is a magic wall running completely around Red Mountain. The barrier keeps blight storms and blight monsters from spreading across Vvardenfell.
-幽魂之墙是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
+幽魂屏障是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
 
 > INFO.NAME ghostfence 479716640537731739
 The Ghostfence is a magic wall running completely around Red Mountain. The barrier keeps blight storms and blight monsters from spreading across Vvardenfell.
-幽魂之墙是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
+幽魂屏障是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
 
 > INFO.NAME ghostfence 12791140281371114270
 The Ghostfence is a magic wall running completely around Red Mountain. The barrier keeps blight storms and blight monsters from spreading across Vvardenfell.
-幽魂之墙是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
+幽魂屏障是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
 
 > INFO.NAME ghostfence 133921379460281378
 The Ghostfence is a magic wall running completely around Red Mountain. The barrier keeps blight storms and blight monsters from spreading across Vvardenfell.
-幽魂之墙是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
+幽魂屏障是一道完全环绕红山的魔法墙。这道屏障阻止枯萎病风暴和枯萎病怪物蔓延整个瓦登费尔。
 
 > INFO.NAME ghostfence 154813627295426271
 Nothing can pass through the Ghostfence except at Ghostgate. Ghostgate is guarded by Ordinators and Buoyant Armigers at the Tower of Dawn and the Tower of Dusk.
-除非经过幽魂之门，否则任何东西都无法跨越幽魂之墙。幽魂之门被驻扎在黎明之塔和黄昏之塔的神殿卫兵们和灵动扈从守卫着。 {瓜尔}
+除非经过幽魂之门，否则任何东西都无法跨越幽魂屏障。幽魂之门被驻扎在黎明之塔和黄昏之塔的神殿卫兵们和灵动扈从守卫着。 {瓜尔}
 
 > INFO.NAME ghostfence 16969136521728113098
 The Ghostfence is a magic wall created by the Tribunal to imprison the devil Dagoth Ur and his evil servants within the crater of Red Mountain.
-幽魂之墙是审判席为了将恶魔达格斯·乌尔和他的邪恶仆从囚禁在红山火山口内而建造的一道魔法墙。
+幽魂屏障是审判席为了将恶魔达格斯·乌尔和他的邪恶仆从囚禁在红山火山口内而建造的一道魔法墙。
 
 > INFO.NAME bonewalker 758448812184418482
 Bonewalkers are among the distinctive ancestral revenants that guard Dunmer burial sites, and which may be summoned as spirit guardians. Among the undead, they are less worrisome than their more powerful manifestation, the Greater Bonewalker.
@@ -144043,7 +144043,7 @@ Since you slew Dagoth Ur on Red Mountain, the Blight is gone. But many creatures
 
 > INFO.NAME the blight 20029754265541476
 The Blight is a weather phenomenon associated with Vvardenfell's colossal volcano, Red Mountain. Persistent within the Ghostfence -- that is, within the crater and on the volcano's slopes -- and intermittent near the volcano, the Blight is a health-threatening, ash-heavy volcanic cloud. Plants and creatures exposed to the Blight may contract a variety of blight diseases.
-枯萎之症是一种与瓦登费尔的巨型火山红山有关的天气现象。枯萎是一种威胁生命健康的火山灰云，在幽魂之墙（即火山口内和火山斜坡上）内持续存在，在火山附近时有时无。接触枯萎病瘟疫的植物和生物可能会感染各种枯萎病。 {计划,合同,疾病}
+枯萎之症是一种与瓦登费尔的巨型火山红山有关的天气现象。枯萎是一种威胁生命健康的火山灰云，在幽魂屏障（即火山口内和火山斜坡上）内持续存在，在火山附近时有时无。接触枯萎病瘟疫的植物和生物可能会感染各种枯萎病。 {计划,合同,疾病}
 
 > INFO.NAME the blight 16671105022311924099
 Since you slew Dagoth Ur on Red Mountain, the Blight is gone. But many creatures affected by the Blight have survived, and are still a problem. And it may be that creatures can get Blight from contact with the ash that has accumulated for centuries in the wastelands. So it may be a long time before we are completely free of the effects of the Blight.
@@ -144051,7 +144051,7 @@ Since you slew Dagoth Ur on Red Mountain, the Blight is gone. But many creatures
 
 > INFO.NAME the blight 72526652159666184
 The Blight is a weather phenomenon associated with Vvardenfell's colossal volcano, Red Mountain. Persistent within the Ghostfence -- that is, within the crater and on the volcano's slopes -- and intermittent near the volcano, the Blight is a health-threatening, ash-heavy volcanic cloud. Plants and creatures exposed to the Blight may contract a variety of blight diseases.
-枯萎之症是一种与瓦登费尔的巨型火山红山有关的天气现象。枯萎是一种威胁生命健康的火山灰云，在幽魂之墙（即火山口内和火山斜坡上）内持续存在，在火山附近时有时无。接触枯萎病瘟疫的植物和生物可能会感染各种枯萎病。 {计划,合同,疾病}
+枯萎之症是一种与瓦登费尔的巨型火山红山有关的天气现象。枯萎是一种威胁生命健康的火山灰云，在幽魂屏障（即火山口内和火山斜坡上）内持续存在，在火山附近时有时无。接触枯萎病瘟疫的植物和生物可能会感染各种枯萎病。 {计划,合同,疾病}
 
 > INFO.NAME the blight 1246731193841911425
 Since you slew Dagoth Ur on Red Mountain, the Blight is gone. But many creatures affected by the Blight have survived, and are still a problem. And it may be that creatures can get Blight from contact with the ash that has accumulated for centuries in the wastelands. So it may be a long time before we are completely free of the effects of the Blight.
@@ -145775,7 +145775,7 @@ He will not come to you, Lord Nerevar. It is you who must beg forgiveness. Go to
 
 > INFO.NAME dagoth ur 2055925951363514623
 So long as the Ordinators, Buoyant Armigers, and Tribunal could contain the blight and Dagoth Ur's creatures within the Ghostfence, faith in the Temple's protective power was strong. But now travelers and settlements suffer from blight storms and marauding monsters, and the people fear the Temple is losing its ages-old battle with the Devil Dagoth Ur.
-只要神殿卫兵、灵动扈从和审判席能够将枯萎病和达格斯·乌尔的生物控制在幽魂之墙内，人们就会对神殿的保护力量充满信仰。但现在，旅行者和居民饱受枯萎病风暴和掠夺性怪物之苦，人们担心神殿会在与恶魔达戈斯·乌尔的旷世之战中败下阵来。 {枯萎之症}
+只要神殿卫兵、灵动扈从和审判席能够将枯萎病和达格斯·乌尔的生物控制在幽魂屏障内，人们就会对神殿的保护力量充满信仰。但现在，旅行者和居民饱受枯萎病风暴和掠夺性怪物之苦，人们担心神殿会在与恶魔达戈斯·乌尔的旷世之战中败下阵来。 {枯萎之症}
 
 > INFO.NAME dagoth ur 14148643117627102
 Dagoth Ur is the Awakened Lord of the Sixth House, come to cast down false gods, drive foreigners from the land, and restore the ancient glory of Morrowind. He bids you come to Red Mountain. For the friendship and honor that once you shared, he would grant you counsel and power, if only you would pledge that friendship anew. The path to Red Mountain is long, and filled with danger, but if you are worthy, you will find there wisdom, a firm friend, and all the power you need to set the world aright.
@@ -147207,7 +147207,7 @@ I'll take your old lucky coin to Dagoth Ur with me.
 
 > INFO.NAME ghostgate 1411310541799015643
 Suit yourself. I don't know why you'd bother to keep anything a secret here. I was just wondering if you might be headed inside the Ghostfence to Dagoth Ur.
-随你便吧。我不知道你为什么要在这里保密，我只是想知道你是否会进入幽魂之墙内，去达格斯·乌尔堡。
+随你便吧。我不知道你为什么要在这里保密，我只是想知道你是否会进入幽魂屏障内，去达格斯·乌尔堡。
 
 > INFO.NAME ghostgate 8366295712082413670
 This is a helluva place. Why are you here?
@@ -147223,11 +147223,11 @@ I am the Nerevarine, and I go to confront Dagoth Ur in his citadel.
 
 > INFO.NAME ghostgate 2626117175692425578
 The Shrine at Ghostgate is a symbol of Almsivi's indomitable will and power. It is located within the Ghostfence. We'll pass through the Ghostgate and head northeast. Here, I'll mark Ghostgate on your map.
-幽魂之门的圣祠，象征着奥姆希维不屈不挠的意志和力量。它位于幽魂之墙内。我们穿过幽魂之门，向东北方向前进。在这里，我会在你的地图上标出幽魂之门。
+幽魂之门的圣祠，象征着奥姆希维不屈不挠的意志和力量。它位于幽魂屏障内。我们穿过幽魂之门，向东北方向前进。在这里，我会在你的地图上标出幽魂之门。
 
 > INFO.NAME ghostgate 98508021598210761
 The Shrine at Ghostgate is a symbol of Almsivi's indomitable will and power. Something you wouldn't understand. It is located within the Ghostfence. We'll pass through the Ghostgate and head northeast. Here, I'll mark Ghostgate on your map, so even an idiot can't get lost.
-幽魂之门的圣祠，象征着奥姆希维不屈不挠的意志和力量，你不会明白的，它位于幽魂之墙内。我们穿过幽魂之门，向东北方向前进，在这里，我会在你们的地图上标出幽魂之门，这样就算是白痴也不会迷路了。
+幽魂之门的圣祠，象征着奥姆希维不屈不挠的意志和力量，你不会明白的，它位于幽魂屏障内。我们穿过幽魂之门，向东北方向前进，在这里，我会在你们的地图上标出幽魂之门，这样就算是白痴也不会迷路了。
 
 > INFO.NAME ghostgate 27061203462405631632
 Ghostgate is a great warrior's fort of the settled people. But you killed the Devil, Nerevarine. Maybe they will abandon the fort, like all the ancient strongholds.
@@ -147267,19 +147267,19 @@ Ghostgate is garrisoned by the Ordinators and the Buoyant Armigers, and House Re
 
 > INFO.NAME ghostgate 164592607010787908
 Ghostgate is a stronghold that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.
-幽魂之门是一个堡垒，守卫着穿过幽魂之墙、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
+幽魂之门是一个堡垒，守卫着穿过幽魂屏障、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
 
 > INFO.NAME ghostgate 5720237012028631433
 Ghostgate is a stronghold that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.
-幽魂之门是一个堡垒，守卫着穿过幽魂之墙、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
+幽魂之门是一个堡垒，守卫着穿过幽魂屏障、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
 
 > INFO.NAME ghostgate 59522588670032230
 Ghostgate is a stronghold that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.
-幽魂之门是一个堡垒，守卫着穿过幽魂之墙、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
+幽魂之门是一个堡垒，守卫着穿过幽魂屏障、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
 
 > INFO.NAME ghostgate 1414362521980415573
 Ghostgate is a stronghold that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.
-幽魂之门是一个堡垒，守卫着穿过幽魂之墙、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
+幽魂之门是一个堡垒，守卫着穿过幽魂屏障、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
 
 > INFO.NAME ghostgate 213581728523616536
 I hope they maintain Ghostgate as a stronghold for the Ordinators and the Buoyant Armigers, and as a hostel for pilgrims. You know, Nerevarine, in years to come, they will make pilgrimages here, and to Red Mountain. We won't forget what you've done.
@@ -147295,15 +147295,15 @@ Ghostgate is garrisoned by the Ordinators and the Buoyant Armigers, and House Re
 
 > INFO.NAME ghostgate 4354159581991817441
 Ghostgate is a stronghold that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.
-幽魂之门是一个堡垒，守卫着穿过幽魂之墙、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
+幽魂之门是一个堡垒，守卫着穿过幽魂屏障、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
 
 > INFO.NAME ghostgate 891321951124373338
 Ghostgate was built as the gate citadel of the Ghostfence Ordinator and Buoyant Armiger garrisons. Now, since you've slain Dagoth Ur and banished the Blight, perhaps they should maintain the garrisons as a tribute to Almsivi and you, and all those who died to save Morrowind.
-幽魂之门是作为幽魂之墙的神殿卫兵和灵动扈从驻军的关卡要塞而建造的。现在，既然你已经杀死了达格斯·乌尔并驱逐了枯萎之症，或许他们应该保留这些驻军，作为对奥姆希维和你，以及所有为拯救晨风而牺牲的人们的致敬。
+幽魂之门是作为幽魂屏障的神殿卫兵和灵动扈从驻军的关卡要塞而建造的。现在，既然你已经杀死了达格斯·乌尔并驱逐了枯萎之症，或许他们应该保留这些驻军，作为对奥姆希维和你，以及所有为拯救晨风而牺牲的人们的致敬。
 
 > INFO.NAME ghostgate 2382110661175539928
 Ghostgate is the gate citadel of the Ghostfence Ordinator and Buoyant Armiger garrisons. Ghostgate sits astride the only gap through which the monstrous hosts of Dagoth Ur might emerge from Red Mountain to threaten the rest of Morrowind. The Ghostfence itself is a colossal magical artifact that completely encircles Red Mountain and prevents the Blight from spilling its corruption across the rest of Vvardenfell.
-幽魂之门是幽魂之墙的神殿卫兵和灵动扈从驻军的关卡要塞。幽魂之门位于达格斯·乌尔的怪物可能从红山出来威胁晨风其余部分的唯一缺口之上。幽魂之墙本身是一件巨大的魔法神器，它将红山完全环绕，防止枯萎之症的腐化蔓延至瓦登费尔的其他地方。 {腐败}
+幽魂之门是幽魂屏障的神殿卫兵和灵动扈从驻军的关卡要塞。幽魂之门位于达格斯·乌尔的怪物可能从红山出来威胁晨风其余部分的唯一缺口之上。幽魂屏障本身是一件巨大的魔法神器，它将红山完全环绕，防止枯萎之症的腐化蔓延至瓦登费尔的其他地方。 {腐败}
 
 > INFO.NAME ghostgate 84501946716224076
 Now that Dagoth Ur is dead, and the Blight ended, I wonder if they'll maintain a garrison at Ghostgate. Or will it become a deserted ruin, like the old Dunmer strongholds. Only time will tell, Moon-and-Star.
@@ -147311,11 +147311,11 @@ Now that Dagoth Ur is dead, and the Blight ended, I wonder if they'll maintain a
 
 > INFO.NAME ghostgate 21398155651429213465
 Ghostgate is the stronghold on the south slope of Red Mountain that guards the only passage through the Ghostfence and into the blighted region of Red Mountain.
-幽魂之门是红山南坡的堡垒，守卫着穿过幽魂之墙、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
+幽魂之门是红山南坡的堡垒，守卫着穿过幽魂屏障、进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
 
 > INFO.NAME ghostgate 2926220644226323748
 Ghostgate guards the only passage through the Ghostfence and into the blighted region of Red Mountain.
-幽魂之门守卫着穿过幽魂之墙和进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
+幽魂之门守卫着穿过幽魂屏障和进入红山枯萎地区的唯一通道。 {瓜尔,卫兵,枯萎之症}
 
 > INFO.NAME tel aruhn 2688322821775616653
 Tel Aruhn is the wizard's tower and village of the Telvanni Archmagister Gothren. Let me mark it on your map. Travel crosscountry to the southeast until you reach the water. Tel Aruhn is on an island in Zafirbel Bay, a long swim from shore. From the Dunmer Stronghold Indoranyon, go south. From Sadrith Mora, Tel Aruhn is due west. From Tel Fyr, Tel Aruhn is north. Here's another landmark. Thiralas Ancestral Tomb is on the mainland, near the bay. Tel Aruhn is the second island southeast from this tomb.
@@ -147939,19 +147939,19 @@ Almalexia is Healing Mother, the source of compassion and sympathy, and protecto
 
 > INFO.NAME almalexia 1452532304716517087
 Almalexia was the virtuous wife of Lord Nerevar, and later the Consort of Lord Vivec.
-阿玛莱西娅是尼瑞瓦大人的贤妻，后来又成为了维威克大人的妃子。
+阿玛莱西娅是尼瑞瓦大人的贤妻，后来成为了维威克大人的配偶。
 
 > INFO.NAME almalexia 3005780363082731280
 Almalexia was the virtuous wife of Lord Nerevar, and later the Consort of Lord Vivec.
-阿玛莱西娅是尼瑞瓦大人的贤妻，后来又成为了维威克大人的妃子。
+阿玛莱西娅是尼瑞瓦大人的贤妻，后来成为了维威克大人的配偶。
 
 > INFO.NAME almalexia 22225296782340614786
 Almalexia was the virtuous wife of Lord Nerevar, and later the Consort of Lord Vivec.
-阿玛莱西娅是尼瑞瓦大人的贤妻，后来又成为了维威克大人的妃子。
+阿玛莱西娅是尼瑞瓦大人的贤妻，后来成为了维威克大人的配偶。
 
 > INFO.NAME almalexia 2339222421725821174
 Almalexia was the virtuous wife of Lord Nerevar, and later the Consort of Lord Vivec.
-阿玛莱西娅是尼瑞瓦大人的贤妻，后来又成为了维威克大人的妃子。
+阿玛莱西娅是尼瑞瓦大人的贤妻，后来成为了维威克大人的配偶。
 
 > INFO.NAME almalexia 23400124302873729725
 Blessed Almalexia the Warden is one of the three Immortals God-Kings of Morrowind, a Pillar of the Tribunal, and the patron of Healers and Teachers.
@@ -149387,7 +149387,7 @@ Maar Gan is a small village north of Ald'ruhn. A road runs from Ald'ruhn towards
 
 > INFO.NAME maar gan 31295116372823213211
 Maar Gan is a Redoran eggmining village in the northern Ashlands, north of Ald'ruhn, close to Foyada Bani-Dad, the Ghostfence, on the plains beneath Red Mountain. Monsters have been breaking through the Ghostfence here and attacking the villagers. Fortunately, monster fighters have answered the call for volunteers to come help protect Maar Gan. Pilgrims of the Tribunal Temple come to visit the Maar Gan Tower shrine where Lord Vivec outwitted the Bad Daedra Lord Mehrunes Dagon.
-玛尔-甘是灰烬之地北部的一个瑞多然卵矿场村庄，位于奥德'汝因以北，靠近巴尼-达德熔渠，也就是红山下平原上的幽魂之墙。怪物们不断冲破幽魂之墙，袭击村民。幸运的是，战士们响应号召，自愿前来帮助保护玛尔-甘。审判席神殿的朝圣者们前来参拜玛尔-甘塔楼圣祠，维威克大人就是在这里智斗邪恶的迪德拉领主梅鲁涅斯·大衮的。
+玛尔-甘是灰烬之地北部的一个瑞多然卵矿场村庄，位于奥德'汝因以北，靠近巴尼-达德熔渠，也就是红山下平原上的幽魂屏障。怪物们不断冲破幽魂屏障，袭击村民。幸运的是，战士们响应号召，自愿前来帮助保护玛尔-甘。审判席神殿的朝圣者们前来参拜玛尔-甘塔楼圣祠，维威克大人就是在这里智斗邪恶的迪德拉领主梅鲁涅斯·大衮的。
 
 > INFO.NAME maar gan 1524914885736721452
 Maar Gan is a small isolated village in a remote region north of Ald'ruhn. The Maar Gan shrine is an important Temple pilgrimage site.
@@ -151043,7 +151043,7 @@ Agning is the publican of the Six Fishes; he rents beds and sells food and sundr
 
 > INFO.NAME services 25879152062699229239
 This is a private plantation. But some people may be willing to train you on the side. Drillmaster Arver Rethul, Scout Suvryn Doves, Master-at-Arms Ivrosa Verethi, and Savant Guldrise Dralor have shacks in the western part of the compound.
-这里是私人种植园。但有些人可能愿意兼职训练你。教官苏夫林·多夫斯、武器大师伊芙罗莎·维雷提和学者古德莱斯·德拉罗在大院西部有小屋。
+这里是私人种植园。但有些人可能愿意兼职训练你。教官阿弗尔·雷图尔、斥候苏夫林·多夫斯、武器大师伊芙罗莎·维雷提和学者古德莱斯·德拉罗在大院西部有小屋。
 
 > INFO.NAME services 18035100401834022913
 Fryfnhild is a trader. Hjotra the Peacock, also at the End of the World, is a pawnbroker; he buys and sells many things. We don't have a smith or a healer.
@@ -175751,7 +175751,7 @@ A master of security lives here in Balmora. Habasi knows only that he is an Altm
 
 > INFO.NAME jobs 22145416337694702
 Fort Pelagiad's jail holds a member of the Guild, New-Shoes Bragor.
-佩拉吉亚德要塞的监狱里关押着一名公会成员，新鞋·巴戈。
+佩拉吉亚德要塞的监狱里关押着一名公会成员，新鞋·布拉戈。
 
 > INFO.NAME jobs 31873317122217515589
 Ralen Hlaalo died recently, but left a bottle of Vintage Brandy.
