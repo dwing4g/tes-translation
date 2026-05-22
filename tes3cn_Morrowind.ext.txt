@@ -37208,7 +37208,7 @@ Estirdalin
 
 > NPC_.FNAM ranis athrys
 Ranis Athrys
-拉妮斯·阿特里斯
+拉妮斯·阿瑟里斯
 
 > NPC_.FNAM galbedir
 Galbedir
@@ -63490,7 +63490,7 @@ A good road leads south to Pelagiad, Seyda Neen, Ebonheart, and Vivec. A rugged 
 <BR>
 著名的人物<BR>
 <BR>
-没有一个哈拉鲁的议员住在巴尔莫拉。议院大厅的尼莱诺·多维恩是哈拉鲁在当地的高级官员。在战斗公会，艾迪斯·火眼是总管。拉尼斯·阿特里斯是法师公会的管事。埃塔西·里尔文是莫拉格堂的执事。德费雷洛·萨德利是巴尔莫拉审判席神殿的高级神职人员。风趣的“蜜唇”哈巴西是一个居无定所的自由职业者，但常有传言说他是盗贼公会在当地头目。<BR>
+没有一个哈拉鲁的议员住在巴尔莫拉。议院大厅的尼莱诺·多维恩是哈拉鲁在当地的高级官员。在战斗公会，艾迪斯·火眼是总管。拉尼斯·阿瑟里斯是法师公会的管事。埃塔西·里尔文是莫拉格堂的执事。德费雷洛·萨德利是巴尔莫拉审判席神殿的高级神职人员。风趣的“蜜唇”哈巴西是一个居无定所的自由职业者，但常有传言说他是盗贼公会在当地头目。<BR>
 <BR>
 交通运输<BR>
 <BR>
@@ -76039,15 +76039,15 @@ I convinced Only-He-Stands-There to stop offering unsanctioned training.
 
 > INFO.NAME mg_stopcompetition 2607416531520018235
 Only-He-Stands-There agreed to train me in Restoration. In exchange, I am to tell Ranis Athrys that he is no longer offering training without Guild permission.
-独-他-立-此同意对我进行恢复系训练。作为交换，我要告诉拉妮斯·阿特里斯，他不再提供未经公会许可的培训。
+独-他-立-此同意对我进行恢复系训练。作为交换，我要告诉拉妮斯·阿瑟里斯，他不再提供未经公会许可的培训。
 
 > INFO.NAME mg_stopcompetition 9152209433093011266
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore.
-我告诉拉妮斯·阿特里斯，独-他-立-此不再继续提供训练了。
+我告诉拉妮斯·阿瑟里斯，独-他-立-此不再继续提供训练了。
 
 > INFO.NAME mg_stopcompetition 123126726226148238
 I told Ranis Athrys that Only-He-Stands-There wouldn't be offering training anymore. In exchange, he will train me in Restoration.
-我告诉拉妮斯·阿特里斯，独-他-立-此不会继续提供训练了。作为交换，他将对我进行恢复系训练。
+我告诉拉妮斯·阿瑟里斯，独-他-立-此不会继续提供训练了。作为交换，他将对我进行恢复系训练。
 
 > INFO.NAME hr_cultelimination 1409018371307518477
 Theldyn Virith asked me to kill Gordol in Ashalmawia, the Daedric ruin just east of Ald Velothi.
@@ -76523,7 +76523,7 @@ Skink thanked me for escorting Tenyeminwe to the Elf-Skerring.
 
 > INFO.NAME mg_escortscholar2 15540235652551428921
 Ranis Athrys asked me to escort the scholar Itermerel, who is staying at the Eight Plates, to Pelagiad. What Ranis really wants, however, is a copy of Itermerel's notes.
-拉妮斯·阿特里斯让我护送住在八盘旅店的学者伊特梅瑞尔去佩拉吉亚德。然而，拉妮斯真正想要的是伊特梅瑞尔的笔记副本。
+拉妮斯·阿瑟里斯让我护送住在八盘旅店的学者伊特梅瑞尔去佩拉吉亚德。然而，拉妮斯真正想要的是伊特梅瑞尔的笔记副本。
 
 > INFO.NAME mg_escortscholar2 54691900078732483
 I asked Itermerel to follow me to Pelagiad.
@@ -80411,11 +80411,11 @@ Ranis told me that Tashpi Ashibael is a necromancer. Ranis wants me to kill Tash
 
 > INFO.NAME mg_killnecro2 306127486196321982
 Tashpi Ashibael agreed to go into hiding. I should tell Ranis Athrys that Tashpi is dead.
-塔什皮·阿什贝尔同意躲藏起来，我应该告诉拉妮斯·阿特里斯塔什皮已经死了。
+塔什皮·阿什贝尔同意躲藏起来，我应该告诉拉妮斯·阿瑟里斯塔什皮已经死了。
 
 > INFO.NAME mg_killnecro2 31441183692518423112
 I told Ranis Athrys that the necromancer is dead.
-我告诉拉妮斯·阿特里斯，死灵法师已经死了。
+我告诉拉妮斯·阿瑟里斯，死灵法师已经死了。
 
 > INFO.NAME fg_killbosses 220066726164827524
 Sjoring Hard-Heart told me to kill the Thieves Guild bosses. I must kill Habasi at the South Wall in Balmora, Aengoth at the Rat in the Pot n Ald'ruhn, and Helende at Dirty Muriel's in Sadrith Mora.
@@ -83319,11 +83319,11 @@ I delivered the soul of an Ash Ghoul to Skink-in-Tree's-Shade.
 
 > INFO.NAME mg_spycatch 11426504518305530
 Ranis Athrys believes there is a spy in the Mages Guild. I have been ordered to question Guild members in Ald'ruhn, Vivec, and Sadrith Mora. I am not to take any action against the spy, but to report back to Ranis Athrys.
-拉妮斯·阿特里斯认为法师公会里有间谍。我奉命去询问奥德'汝因、维威克和萨德里斯-莫拉的公会成员。我不需要对间谍采取任何行动，但要向拉妮斯·阿特里斯报告。
+拉妮斯·阿瑟里斯认为法师公会里有间谍。我奉命去询问奥德'汝因、维威克和萨德里斯-莫拉的公会成员。我不需要对间谍采取任何行动，但要向拉妮斯·阿瑟里斯报告。
 
 > INFO.NAME mg_spycatch 2137913481145216650
 I told Ranis Athrys about Movis Darys in Ald'ruhn, but she is convinced that there is another spy in either Vivec or Sadrith Mora.
-我把奥德'汝因的莫维斯·达里斯的情况告诉了拉妮斯·阿特里斯，但她确信在维威克或萨德里斯-莫拉还有另一个间谍。
+我把奥德'汝因的莫维斯·达里斯的情况告诉了拉妮斯·阿瑟里斯，但她确信在维威克或萨德里斯-莫拉还有另一个间谍。
 
 > INFO.NAME mg_spycatch 5889205362497916260
 Tiram Gadar told me he is a "special advisor to Guildmaster Trebonius on Dunmer issues."
@@ -83343,11 +83343,11 @@ Guildmaster Trebonius gave me Tiram Gadar's "credentials." They are obvious forg
 
 > INFO.NAME mg_spycatch 490126157464429902
 I told Ranis Athrys about the spy Tiram Gadar. Ranis will deal with this issue herself.
-我把间谍蒂拉姆·加达尔的事告诉了拉妮斯·阿特里斯。拉妮斯会亲自处理此事。
+我把间谍蒂拉姆·加达尔的事告诉了拉妮斯·阿瑟里斯。拉妮斯会亲自处理此事。
 
 > INFO.NAME mg_spycatch 140201306654202205
 I told Archmage Trebonius that Ranis Athrys was a Telvanni Spy.
-我告诉首席法师崔博尼乌斯，拉妮斯·阿特里斯是泰瓦尼间谍。
+我告诉首席法师崔博尼乌斯，拉妮斯·阿瑟里斯是泰瓦尼间谍。
 
 > INFO.NAME fg_telasero 102281911584112318
 Hrundi asked me to escort another scholar, Sondaale of Shimmerene, through the stronghold of Telasero. She will meet me there. Telasero is between Suran and the Silt Strider port near Molag Mar.
@@ -84207,11 +84207,11 @@ Manwe suggested that I pay the gold myself.
 
 > INFO.NAME mg_paydues 631129252313615136
 Manwe finally agreed to pay the 2000 gold she owes. I need to deliver this gold to Ranis Athrys in Balmora.
-曼威最终同意支付她所欠的2000金币。我需要将这些金币交给巴尔莫拉的拉妮斯·阿特里斯。
+曼威最终同意支付她所欠的2000金币。我需要将这些金币交给巴尔莫拉的拉妮斯·阿瑟里斯。
 
 > INFO.NAME mg_paydues 3191612742353921129
 I gave Manwe's Guild Dues to Ranis Athrys.
-我把曼威的公会会费交给了拉妮斯·阿特里斯。
+我把曼威的公会会费交给了拉妮斯·阿瑟里斯。
 
 > INFO.NAME fg_rathunt 68311573612315980
 Eydis Fire-Eye told me to talk to Drarayne Thelas about some rats that have infested her house. Her house is here in Balmora, on the east side of town, near the river.
@@ -84727,11 +84727,11 @@ Ranis asked me to convince Llarar Bereloth to join the guild. If he cannot be co
 
 > INFO.NAME mg_joinus 2213415512114329032
 I convinced Llarar Bereloth to join the Mages Guild. I should report my success to Ranis Athrys in Balmora.
-我说服了拉拉尔·贝瑞洛斯加入法师公会。我应该向巴尔莫拉的拉妮斯·阿特里斯报告我的成功。
+我说服了拉拉尔·贝瑞洛斯加入法师公会。我应该向巴尔莫拉的拉妮斯·阿瑟里斯报告我的成功。
 
 > INFO.NAME mg_joinus 33971608031362531
 I reported my success to Ranis Athrys in Balmora.
-我向巴尔莫拉的拉妮斯·阿特里斯报告了我的成功。
+我向巴尔莫拉的拉妮斯·阿瑟里斯报告了我的成功。
 
 > INFO.NAME ht_shishi 2884254161479323960
 Master Aryon asked me to assist Faves Andas whose stronghold of Shishi is being attacked by House Redoran. If I cannot find Faves Anders, Master Aryon suggested moving any bones or skulls I might find. Shishi is in the Foyada Bani-Dad northwest of Maar Gan.
@@ -88763,11 +88763,11 @@ You told me not to offer training. I have not.
 
 > INFO.NAME unsanctioned training 323697338204036049
 Report back to Ranis Athrys and remember our agreement.
-向拉妮斯·阿特里斯报告，记住我们的约定。
+向拉妮斯·阿瑟里斯报告，记住我们的约定。
 
 > INFO.NAME unsanctioned training 26643204422300016894
 Very well. I will offer you training after you've reported back to Ranis Athrys.
-好吧。等你向拉妮斯·阿特里斯报告后，我再给你提供训练。
+好吧。等你向拉妮斯·阿瑟里斯报告后，我再给你提供训练。
 
 > INFO.NAME unsanctioned training 28642161512793919379
 I will stop training others in Restoration.
@@ -88775,7 +88775,7 @@ I will stop training others in Restoration.
 
 > INFO.NAME unsanctioned training 13344217552710826191
 Very well. I shall stop offering training. Tell Ranis Athrys that I will not interfere with her... authority any more.
-很好，我不再提供训练了。告诉拉妮斯·阿特里斯，我不会再干涉她的…权力了。 {沙尔,作家}
+很好，我不再提供训练了。告诉拉妮斯·阿瑟里斯，我不会再干涉她的…权力了。 {沙尔,作家}
 
 > INFO.NAME unsanctioned training 2926087012766425756
 Please reconsider, %PCName. I believe I am offering a vital service to these people. But I perhaps you can still convince me.
@@ -88787,7 +88787,7 @@ Then you have your orders. You know what you must do. I am prepared to die.
 
 > INFO.NAME unsanctioned training 32145121708808265
 What if, hypothetically, you were to return to Ranis Athrys and tell her that I agreed to stop any unsanctioned training... And suppose that if you did that, I decided to offer training to my good friend %PCName?
-如果，假设你回到拉妮斯·阿特里斯那里，告诉她我同意停止任何未经批准的训练…假设你这么做了，我决定把训练提供给我的好朋友%PCName？
+如果，假设你回到拉妮斯·阿瑟里斯那里，告诉她我同意停止任何未经批准的训练…假设你这么做了，我决定把训练提供给我的好朋友%PCName？
 
 > INFO.BNAM unsanctioned training 32145121708808265 c1
 Yes, I agree.
@@ -89547,7 +89547,7 @@ Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. None of the Hlaa
 
 > INFO.NAME someone in particular 1947411886858921680
 None of the Hlaalu counselors live in Balmora. Nileno Dorvayn at the Council Hall is the ranking Hlaalu local. At the Fighters Guild, Eydis Fire-Eye is the steward. Ethasi Rilvayn is the Morag Tong steward. Feldrelo Sadri is the steward for the Balmora Tribunal Temple. Sugar Lips Habasi is the local Thieves Guild boss. Who am I missing? Oh. Mages Guild. Ranis Athrys is their steward.
-没有一个哈拉鲁顾问住在巴尔莫拉。议会大厅的尼莱诺·多维恩是哈拉鲁当地的头号人物。在战士公会，艾迪斯·火眼是管家。埃塔西·里尔文是莫拉格堂的管家。菲德雷络·萨德利是巴尔莫拉审判席神殿的管家。蜜·唇·哈巴西是当地盗贼公会的老大。我还漏了谁呢？哦。法师公会。拉妮斯·阿特里斯是他们的管家。 {咨询}
+没有一个哈拉鲁顾问住在巴尔莫拉。议会大厅的尼莱诺·多维恩是哈拉鲁当地的头号人物。在战士公会，艾迪斯·火眼是管家。埃塔西·里尔文是莫拉格堂的管家。菲德雷络·萨德利是巴尔莫拉审判席神殿的管家。蜜·唇·哈巴西是当地盗贼公会的老大。我还漏了谁呢？哦。法师公会。拉妮斯·阿瑟里斯是他们的管家。 {咨询}
 
 > INFO.NAME morrowind's neighbors 9694162402804710234
 Dunmer casually dislike their Nord neighbors to the west; in the past, Nords raided and made war against Morrowind, and today the Nords still have territorial ambitions for the coast and highlands of Morrowind's northwest borders.
@@ -92295,7 +92295,7 @@ No, I don't. Sorry to trouble you.
 
 > INFO.NAME balmora mages guild 27028129091479724559
 The Mages Guild is west of the river, one street up from the waterside, by the open plaza just north of the silt strider port. If you were planning to join the Mages Guild, you want to talk to Ranis Athrys, the Guild Steward.
-法师公会在河西，从水边往上走一条街，就在阔步沙蚤港口北边的露天广场旁。如果你打算加入法师公会，请找公会管家拉妮斯·阿特里斯谈谈。
+法师公会在河西，从水边往上走一条街，就在阔步沙蚤港口北边的露天广场旁。如果你打算加入法师公会，请找公会管家拉妮斯·阿瑟里斯谈谈。
 
 > INFO.NAME guilds and factions 24896141572776219752
 Groups favoring Imperial interests are the Blades, the Imperial cult, the Imperial Legion, the Fighters Guild, the Mages Guild, and the Thieves Guild. Groups favoring native Dunmer interests are House Redoran, House Hlaalu, and House Telvanni, the Temple, the Morag Tong, the Camonna Tong, and the Ashlanders.
@@ -98279,7 +98279,7 @@ I told you. This Caldera Mine trouble is not a Thieves Guild job. Yes. They are 
 
 > INFO.NAME bet with galbedir 1321911584322527982
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的法师们有很多事情要做，也有很多心事。很快，拉妮斯·阿特里斯就会忘记你被驱逐的事，阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的法师们有很多事情要做，也有很多心事。很快，拉妮斯·阿瑟里斯就会忘记你被驱逐的事，阿吉拉就可以再和你说话了。
 
 > INFO.NAME bet with galbedir 28406110011775631288
 Ajira won the bet. Ajira does not forget your help.
@@ -102169,7 +102169,7 @@ What? I don't offer any services. Who told you that?
 
 > INFO.NAME service refusal 310946761165815325
 Report back to Ranis Athrys and remember our agreement.
-向拉妮斯·阿特里斯报告，记住我们的约定。
+向拉妮斯·阿瑟里斯报告，记住我们的约定。
 
 > INFO.NAME service refusal 2951963421604312060
 I can't buy or sell anything with a Corprus Stalker on the loose!
@@ -107317,7 +107317,7 @@ Violet coprinus is a tall, slender-stemmed, light-green-capped mushroom of the B
 
 > INFO.NAME staff of magnus 8928285342519022
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿瑟里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME staff of magnus 22619316682420711487
 Ajira knows you have found the Staff of Magnus. Now Ajira might tell you her other secret.
@@ -112589,7 +112589,7 @@ Bungler's Bane is a mottled brown-and-orange shelf fungus collected from the tru
 
 > INFO.NAME stolen reports 26664254912191115086
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿瑟里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME stolen reports 228402215596730435
 Ajira remembers all the good things you have done for her.
@@ -112665,7 +112665,7 @@ I saw Galbedir carrying a scroll up to her desk, but I didn't think anything of 
 
 > INFO.NAME warlock's ring 2439032532318968299
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿瑟里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME warlock's ring 2817927533913016814
 Yes, Ajira knows that you are wise and brave and you have found the Warlock's Ring.
@@ -117329,7 +117329,7 @@ A caravaner told me he delivered a bunch of pilgrims in robes and a pile of equi
 
 > INFO.NAME latest rumors 1577179112393321981
 Narese Athrys said she ran into a rogue Telvanni base out in the middle of the ashlands. Unfortunately, when she used her Almsivi Intervention to escape, she failed to note her position. All she could say was that she was somewhere in the ashlands between Foyada Mamaea on the west and Foyada Ashur-Dan on the east, and north of Lake Nabia. That covers a lot of empty territory.
-娜瑞丝·阿特里斯说她在灰烬之地遇到了一个泰瓦尼无赖基地。不幸的是，当她使用奥姆希维干预逃生时，她没有记下自己的位置。她只能说她在西面的玛梅亚熔渠和东面的阿舒尔-丹熔渠之间的灰烬之地，以及纳比亚湖北面的某个地方。那里有很多空地。
+娜瑞丝·阿瑟里斯说她在灰烬之地遇到了一个泰瓦尼无赖基地。不幸的是，当她使用奥姆希维干预逃生时，她没有记下自己的位置。她只能说她在西面的玛梅亚熔渠和东面的阿舒尔-丹熔渠之间的灰烬之地，以及纳比亚湖北面的某个地方。那里有很多空地。
 
 > INFO.NAME latest rumors 48769172817317473
 A caravaner told me he delivered a bunch of pilgrims in robes and a pile of equipment to a drop site east of Lake Nabia, northwest of Mount Kand. There's nothing out there to interest a pilgrim. You want to bet that's a bunch of rogue Telvanni setting up housekeeping?
@@ -117521,7 +117521,7 @@ They say the Legion gives out good armor to their best recruits.
 
 > INFO.NAME latest rumors 394774572398823502
 Ranis Athrys in the Balmora Mages Guild has something against wizards who aren't in the guild. I think it has something to do with her parents, who were murdered by the old Telvanni Archmagister, the one before Gothren.
-巴尔莫拉法师公会的拉妮斯·阿特里斯对不在法师公会的巫师很不爽，我认为这与她的父母有关，她的父母是被老泰瓦尼大导师杀害的，也就是戈瑟伦之前的那位。
+巴尔莫拉法师公会的拉妮斯·阿瑟里斯对不在法师公会的巫师很不爽，我认为这与她的父母有关，她的父母是被老泰瓦尼大导师杀害的，也就是戈瑟伦之前的那位。
 
 > INFO.NAME latest rumors 23960298212587767
 One of the Mages over at Wolverine Hall wants to talk to an Ashlander Wise Woman. But there's not much chance of getting a wise woman to visit Sadrith Mora.
@@ -117873,7 +117873,7 @@ Wonder where those young Telvanni were headed with all that gear? Shipmaster sai
 
 > INFO.NAME latest rumors 158592544388702450
 Narese Athrys found a rogue Telvanni base out in the middle of the ashlands, but she used Almsivi Intervention to escape, and now she doesn't know exactly where the base was.
-纳雷斯·阿特里斯在灰烬之地发现了一个泰瓦尼无赖基地，但她利用奥姆希维干预逃了出来，现在她也不知道基地到底在哪里。
+纳雷斯·阿瑟里斯在灰烬之地发现了一个泰瓦尼无赖基地，但她利用奥姆希维干预逃了出来，现在她也不知道基地到底在哪里。
 
 > INFO.NAME latest rumors 1520215642613132523
 This caravaner friend of mine says that with so many more blight storms around Red Mountain this year than last year, he's thinking about getting out of the business.
@@ -119589,7 +119589,7 @@ Because I'm the Archmage of Vvardenfell, of course. I'd know if there was a spy 
 
 > INFO.NAME telvanni spy 5756250402517129741
 What?! Frankly, I don't believe you. Tiram Gadar is my most trusted advisor. And I've given you his impeccable credentials. Ranis Athrys might believe such baseless accusations, but I am far more sophisticated.
-什么？老实说，我不相信你。蒂拉姆·加达尔是我最信任的顾问，他的资历凭证无可挑剔。拉妮斯·阿特里斯可能会相信这种无端指责，但我比你老练多了，不是么。
+什么？老实说，我不相信你。蒂拉姆·加达尔是我最信任的顾问，他的资历凭证无可挑剔。拉妮斯·阿瑟里斯可能会相信这种无端指责，但我比你老练多了，不是么。
 
 > INFO.NAME telvanni spy 115163031731528582
 What? I thought she hated the Telvanni after what they did to her parents... But I have heard she was trying to intimidate rogue Telvanni to join the Guild. Tiram Gadar mentioned that the Dunmer are quite upset over some of her actions. I will have her expelled immediately.
@@ -119609,7 +119609,7 @@ Truth: Tiram Gadar is a Telvanni spy.
 
 > INFO.BNAM telvanni spy 224147073209767754 c2
 Lie: Ranis Athrys is a Telvanni spy.
-谎言：拉妮斯·阿特里斯是泰瓦尼间谍。
+谎言：拉妮斯·阿瑟里斯是泰瓦尼间谍。
 
 > INFO.NAME telvanni spy 2898730559460948
 Why, no, %PCName. There are no Telvanni spies here. And I would know if there were. I'm the Archmage after all. Tiram Gadar, my Dunmer advisor, keeps an eye out for spies and that sort of thing.
@@ -124419,7 +124419,7 @@ A rat's nest. Unsound practices. Slipshod scholarship. Politics. Lamebrains and 
 
 > INFO.NAME mages guild 1468412484186589768
 It's a guild for the arcane arts. And it's where you go to find wizards for hire. Training, goods, and services are cheaper for members, and the Guild Stewards know where to find work. If you want to be a wizard, join and work your way up the ranks. The Mages Guild here is a better bet than the Fighters Guild. Ranis Athrys is the guild steward, so talk to her if you want to join up. She's got a chip on her shoulder, but her apprentice, Ajira, seems okay for a Khajiit.
-这是一个研究奥术的公会，你可以去那里雇佣巫师来帮忙。训练、商品和服务对会员来说都更便宜，公会管理人知道哪里能找到工作。如果你想成为一名巫师，那就加入并努力晋级吧。这里的法师公会比战士公会更有优势。拉妮斯·阿特里斯是公会管家，如果你想加入，可以和她谈谈。她虽然很会摆架子，但从她的卡吉特学徒阿吉拉来看当她的下属还不错。
+这是一个研究奥术的公会，你可以去那里雇佣巫师来帮忙。训练、商品和服务对会员来说都更便宜，公会管理人知道哪里能找到工作。如果你想成为一名巫师，那就加入并努力晋级吧。这里的法师公会比战士公会更有优势。拉妮斯·阿瑟里斯是公会管家，如果你想加入，可以和她谈谈。她虽然很会摆架子，但从她的卡吉特学徒阿吉拉来看当她的下属还不错。
 
 > INFO.NAME mages guild 299029351187425023
 The Mages Guild is dedicated to the preservation and distribution of magical knowledge. Pursue your studies diligently, %PCName, and the benefits of belonging to the Mages Guild will become clear to you.
@@ -141611,7 +141611,7 @@ No.
 
 > INFO.NAME guild dues 1575816178192723028
 I left the Mages Guild and dedicated my life to studying the adaptive responses of quaternary variations in Oblivion streams. If Ranis Athrys wants the dues that much, why don't you just pay them yourself? I am unconcerned with such petty financial matters.
-我离开了法师公会，毕生致力于研究湮灭之流第四纪变异的适应性反应。如果拉妮斯·阿特里斯那么想要会费，你为什么不自己付呢？我不关心这些琐碎的财务问题。
+我离开了法师公会，毕生致力于研究湮灭之流第四纪变异的适应性反应。如果拉妮斯·阿瑟里斯那么想要会费，你为什么不自己付呢？我不关心这些琐碎的财务问题。
 
 > INFO.NAME guild dues 32562187111284224375
 I have not had word that you were in good standing again. If you persist in this behavior, I will be forced to make a formal complaint to Arch-Mage Trebonius.
@@ -141715,11 +141715,11 @@ Yes, I am a Necromancer. What of it? Are you foolish enough to think you can pun
 
 > INFO.NAME necromancy 2455129817137921511
 I'll leave for the mainland as soon as I get a few things together. There are many other towns in need of a healer. Tell Ranis Athrys that I am dead.
-等我收拾好东西就去主大陆，还有很多城镇需要治疗师。告诉拉妮斯·阿特里斯，我已经死了。
+等我收拾好东西就去主大陆，还有很多城镇需要治疗师。告诉拉妮斯·阿瑟里斯，我已经死了。
 
 > INFO.NAME necromancy 16663465355749005
 If Ranis has held a grudge this long, it would be best for me to leave for the mainland. There are plenty of towns that could use a healer. Tell Ranis Athrys that I am dead. I will leave Vvardenfell and Ranis need never know.
-如果拉尼斯记恨这么久，我最好还是回主大陆去。有很多城镇都需要治疗师。告诉拉妮斯·阿特里斯，我已经死了。我会离开瓦登费尔，拉尼斯永远不会知道。
+如果拉尼斯记恨这么久，我最好还是回主大陆去。有很多城镇都需要治疗师。告诉拉妮斯·阿瑟里斯，我已经死了。我会离开瓦登费尔，拉尼斯永远不会知道。
 
 > INFO.BNAM necromancy 16663465355749005 c1
 I agree. I will let you go.
@@ -141751,7 +141751,7 @@ Ask anyone in the village. I'm no necromancer and anyone around here can tell yo
 
 > INFO.NAME necromancy 29622237501229931844
 Very well. I'll leave for the mainland once I get a few things together. Report back to Ranis Athrys that I am dead.
-好吧，等我收拾好东西就去主大陆。向拉妮斯·阿特里斯报告我已经死了。
+好吧，等我收拾好东西就去主大陆。向拉妮斯·阿瑟里斯报告我已经死了。
 
 > INFO.NAME necromancy 3590166513109528514
 Necromancy? I am NOT a necromancer. Who said I was a... a necromancer?
@@ -141759,7 +141759,7 @@ Necromancy? I am NOT a necromancer. Who said I was a... a necromancer?
 
 > INFO.BNAM necromancy 3590166513109528514 c1
 Ranis Athrys.
-拉妮斯·阿特里斯。
+拉妮斯·阿瑟里斯。
 
 > INFO.BNAM necromancy 3590166513109528514 c2
 Not your concern.
@@ -148403,7 +148403,7 @@ Nevemind.
 
 > INFO.NAME mushrooms 1152123141125916332
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿瑟里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME mushrooms 14103132243013728405
 Ajira thanks you again for bringing her the samples.
@@ -153987,7 +153987,7 @@ He's Thieves Guild, a Wood Elf. The Telvanni prefer to hire Nords and Wood Elves
 
 > INFO.NAME flowers 1427239111867813711
 Ajira hears you are expelled. Ajira was told to say you should make amends with the Arch-Mage, but Ajira tells you that the wizards here have many things to do and many things on their minds. Soon Ranis Athrys will forget you are expelled and then Ajira can speak with you again.
-阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿特里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
+阿吉拉听说你被驱逐了。阿吉拉被告知说你应该向首席法师做出补偿，但阿吉拉告诉你，这里的魔法师有很多事情要做，也有很多心事。很快拉妮斯·阿瑟里斯就会忘记你被驱逐的事，然后阿吉拉就可以再和你说话了。
 
 > INFO.NAME flowers 684728182570312304
 You already brought them to Ajira.
@@ -157367,7 +157367,7 @@ I don't have any duties for a %PCRank. Speak with me again when you have proven 
 
 > INFO.NAME duties 61526702184014481
 Ajira has duties for you, yes, but first you must speak with Ranis Athrys and join the Mages Guild.
-阿吉拉有职务给你，没错，但首先你必须和拉妮斯·阿特里斯谈谈，然后加入法师公会。
+阿吉拉有职务给你，没错，但首先你必须和拉妮斯·阿瑟里斯谈谈，然后加入法师公会。
 
 > INFO.NAME duties 16904325532021818427
 Ajira hears broke the rules and were expelled. Ajira cannot talk to you of duties.
@@ -157387,7 +157387,7 @@ Ajira has no duties for friend %PCName, but she is ready to tell you a secret. A
 
 > INFO.NAME duties 12952263732722719692
 Ajira knows many secrets, but they are not yet for friend %PCName. Speak with Ajira again when you are a Warlock. Ranis Athrys here may have duties for you, but Ajira does not like Ranis much. Maybe you should speak with Ajira's good friend Edwinna Elbert at the Guild of Mages in Ald'ruhn?
-阿吉拉知道很多秘密，但还没告诉%PCName好友。当你成为巫者时再与阿吉拉交谈。拉妮斯·阿特里斯可能有职务给你，但阿吉拉不太喜欢拉妮斯。也许你应该去找阿吉拉在奥德'汝因的法师公会的好友埃德温娜·埃尔伯特谈谈？
+阿吉拉知道很多秘密，但还没告诉%PCName好友。当你成为巫者时再与阿吉拉交谈。拉妮斯·阿瑟里斯可能有职务给你，但阿吉拉不太喜欢拉妮斯。也许你应该去找阿吉拉在奥德'汝因的法师公会的好友埃德温娜·埃尔伯特谈谈？
 
 > INFO.NAME duties 2219728847161718649
 Ajira must find her stolen reports!
@@ -157419,7 +157419,7 @@ You could speak with Arch-Mage Trebonius, but between you and me, you might want
 
 > INFO.NAME duties 37584883038624175
 Speak with Ajira or Ranis Athrys. They can give you duties.
-和阿吉拉或拉妮斯·阿特里斯谈谈。他们可以给你职务。
+和阿吉拉或拉妮斯·阿瑟里斯谈谈。他们可以给你职务。
 
 > INFO.NAME duties 384430228345812174
 Speak with Ajira.
@@ -175167,7 +175167,7 @@ Skar is the shell of the Emperor crab, outlander. The homes and shops of the Man
 
 > INFO.NAME plan 12418299592592317393
 If Ranis has held a grudge this many years, it would be best for me to leave for the mainland. There are plenty of places there that could use my services. Tell Ranis Athrys that I am dead. I don't believe she will waste any more resources tracking me down.
-如果拉尼斯这么多年都耿耿于怀，我最好还是离开这里去主大陆吧。那里有很多地方需要我的服务。告诉拉妮斯·阿特里斯，我已经死了。我相信她不会再浪费资源来追查我了。
+如果拉尼斯这么多年都耿耿于怀，我最好还是离开这里去主大陆吧。那里有很多地方需要我的服务。告诉拉妮斯·阿瑟里斯，我已经死了。我相信她不会再浪费资源来追查我了。
 
 > INFO.NAME duel 327502899077143011
 The duel is an honorable tradition dating back at least to the founding of Resdayn. Each party to the duel makes an agreement as to the compensation that will be given to the winner. The loser is legally bound to this agreement. Most duels are fought until one party admits defeat or falls in battle. The duel to the death is less common and only ends when one party is dead. The winner of a duel may take what he wants of the loser's possessions, but some consider this dishonorable.
