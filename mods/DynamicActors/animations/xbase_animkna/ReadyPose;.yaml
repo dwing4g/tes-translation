@@ -3,11 +3,7 @@ blending_rules:
     to: "readypose"
     easing: "sineInOut"
     duration: 0.7
-  - from: "idle"
+  - from: "arms*"
     to: "readypose"
-    easing: "quartInOut"
-    duration: 1.7
-  - from: "idlespeak*"
-    to: "readypose"
-    easing: "sineOut"
+    easing: "sineInOut"
     duration: 0.7

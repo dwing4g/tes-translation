@@ -19,6 +19,7 @@ local M = {
 	["am_eater.nif"] = { keys={"idle2"}, focal=v3(0, 25, 40) },	--headnode 0 10 58	headpos 52
 	["am_fishman.nif"] = { 45, keys={"idle2", "idle3", "idle"} },
 	["am_luteplaying.nif"] = { 45, keys={"idle2", "idle"}, focal=v3(0, 0, 44) },	--headnode 0 7 58	headpos 62
+	["am_reader1.nif"] = {},
 	["am_reader2.nif"] = { 45, keys={"idle2", "idle3", "idle4"} },
 	["am_sitting.nif"] = { 52, keys={"idle2", "idle3", "idle4"}, focal=v3(0, 30, 40) },	-- headpos 52
 	["am_writer02.nif"] = { 45, keys={"idle2", "idle3", "idle4"} },
@@ -96,7 +97,20 @@ local M = {
 
 	},
 
-	byGroup = {}
+	byGroup = {
+		idle = { focal = v3(0, 0, 128 * 0.85) },
+
+		vasitting2 = { focal = v3(0, 5, 66) },
+		vasitting3 = { focal = v3(0, 0, 45) },
+		vasitting4 = { focal = v3(0, 0, 45) },
+		vasitting5 = { focal = v3(0, 0, 45) },
+		vasitting6 = { focal = v3(0, 55, 85) },
+		vasitting7 = { focal = v3(0, 30, 20) },
+		vasitting8 = { focal = v3(0, -30, 20) },
+		vasitting9 = { focal = v3(0, -35, 10) },
+
+		sitidle1 = { focal = v3(0, 10, 70) },
+	}
 
 }
 
@@ -106,7 +120,7 @@ for _, v in ipairs{
 	"armsfolded", "armsakimbo", "armsalmapray", "armssunshield", "armsatback", "readypose",
 	"handhippose", "posealma3"
 	} do
-	M.byGroup[v] = {}
+	M.byGroup[v] = M.byGroup.idle
 end
 
 

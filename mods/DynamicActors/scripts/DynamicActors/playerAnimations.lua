@@ -7,6 +7,7 @@ local Actor, MD = common.Actor, common.MD
 local Anim = {
 	cancel = anim.cancel,
 	isPlaying = anim.isPlaying,
+	hasAnimation = anim.hasAnimation,
 	getActiveGroup = anim.getActiveGroup
 }
 

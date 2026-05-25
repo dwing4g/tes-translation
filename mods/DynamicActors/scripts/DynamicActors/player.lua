@@ -548,13 +548,11 @@ local function onUpdate(dt)
 	if doUpdates then processCamera(dt)			end
 	if notIdle then notIdle = false		return		end
 
---	local st = L.getStance(self)
 	local g = L.getActiveGroup(self, 0)
---	notIdle = st ~= Actor.stanceNone or L.controls.sneak or not Anim.idleGroups[g]
-	notIdle = L.controls.sneak or not Anim.idleGroups[g]
+	notIdle = L.controls.sneak or L.getStance(self) ~= Actor.stanceNone or not Anim.idleGroups[g]
 	if not notIdle then	return		end
 
-	if not g:find("^turn") and V.idlenum > 0 then
+	if not(g == "turnleft" or g == "turnright") and V.idlenum > 0 then
 		for _, v in ipairs(Anim.clear) do Anim.cancel(self, v)		end
 		V.idlenum = 0
 	end
@@ -569,7 +567,7 @@ local function uiModeChanged(data)
 	end
 	if data.newMode == dialogModes.dialog and not dialogModes[data.oldMode]
 		and data.arg and dialogTarget ~= data.arg then
-		data.player = self		data.near = self.cell == data.arg.cell
+		data.player = self		data.near = self.cell == data.arg.cell and data.arg.enabled
 		for _, v in ipairs(nearby.actors) do
 			if combatActors[v.id] and not Actor.isDead(v) then
 				data.pause = true

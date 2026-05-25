@@ -6,6 +6,7 @@ local util = common.omw.util
 local camera = common.omw.camera
 local ui = common.omw.ui
 local I = common.omw.interfaces
+local types = require("openmw.types")
 
 local Anim = common.Anim
 local MD = common.MD
@@ -240,6 +241,8 @@ function M.autoCamUpdate(dt)
 	--	d.pos = npc.position
 		d.deltaPos = npc.position - self.position
 	end
+	if not Anim.hasAnimation(npc) then		return			end
+
 	local isPlaying = Anim.getActiveGroup(npc, 0)
 	local keys, focal = d.animKeys
 	if keys then
@@ -254,13 +257,34 @@ function M.autoCamUpdate(dt)
 		end
 		if common.logging then print(isPlaying, focal)		end
 	end
-	if not focal and not M.heights.byGroup[isPlaying] then
-		-- use bounding box to calculate focal point
-		if common.logging then print("UNKNOWN BASE GROUP", isPlaying)		end
+
+	if not focal and not types.NPC.objectIsInstance(npc) then
+		focal = d.vecFocalDefault
 	end
-	focal = focal or d.vecFocalDefault
-	d.vecEyeToHead = d.deltaPos + util.transform.rotateZ(npc.rotation:getYaw()):apply(focal)
-		- d.playerEyesVec
+	if not focal then
+		local group = M.heights.byGroup[isPlaying]
+		if not group and (isPlaying:find("^idle") or isPlaying:find("^turn")) then
+			group = M.heights.byGroup.idle
+		end
+		if group then
+			focal = d.npcSizeRatios:apply(group.focal) * npc.scale
+			if common.logging then
+				print("USE LOOKUP FOR", isPlaying)
+			end
+		end
+	end
+
+	if focal then
+		focal = util.transform.rotateZ(npc.rotation:getYaw()):apply(focal)
+	else
+		-- use bounding box to guess focal point
+		if common.logging then print("USE BOX FOR", isPlaying)		end
+		local box = npc:getBoundingBox()
+		focal = (box.center - npc.position)
+		focal = focal.xy0 + util.vector3(0, 0, (math.abs(focal.z) + box.halfSize.z) * 0.85)
+	end
+
+	d.vecEyeToHead = d.deltaPos + focal - d.playerEyesVec
 end
 
 function M.restoreCamera()

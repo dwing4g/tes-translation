@@ -21,9 +21,13 @@ blending_rules:
     duration: 0.7
   - from: "readypose"
     to: "idle"
-    easing: "sineInOut"
-    duration: 0.5
+    easing: "quartInOut"
+    duration: 1.5
   - from: "gv*"
     to: "idle"
     easing: "sineInOut"
     duration: 0.7
+  - from: "*"
+    to: "idle:loop start"
+    easing: "linear"
+    duration: 0.0
