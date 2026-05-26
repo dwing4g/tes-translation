@@ -2,11 +2,11 @@ local common = common
 local self = common.omw.self
 local input = common.omw.input
 local core = common.omw.core
+local types = common.omw.types
 local util = common.omw.util
 local camera = common.omw.camera
 local ui = common.omw.ui
 local I = common.omw.interfaces
-local types = require("openmw.types")
 
 local Anim = common.Anim
 local MD = common.MD
@@ -36,11 +36,6 @@ function M.processControls(dt, dialogTarget)
 	if p.choose then p.count = p.count - dt end
 	if p.choose and math.abs(movey) > 0.7 and p.count < 1 then
 		p.count = 1.25
---[[
-		local old = p.save
-		local new = old + movey		p.save = new
-		old = util.round(old)		new = util.round(new)
---]]
 		local new = p.save + (movey > 0 and 1 or -1)
 		if new > #Anim.poses then new = 1		end
 		if new < 1 then new = #Anim.poses		end
@@ -59,15 +54,6 @@ function M.processControls(dt, dialogTarget)
 	camera.setPitch(pitch)
 end
 
---[[
-
-local hexDofShader = I.DynamicCamera.shaders["hexDoFProgrammable"]
-local blackBarsShader = I.DynamicCamera.shaders["blackBarsProgrammable"]
-
-hexDofShader.u.uDepth = (actorPos - camPos):length()
-hexDofShader.u.uAperture = 0.2
-blackBarsShader.u.ratio = 2.2
---]]
 
 local FullBlackBG = {
 	type = ui.TYPE.Image,
@@ -128,7 +114,6 @@ M.bars = {
 function M.enableShaders(m)
 	Bars.screenRatio = ui.screenSize().x / ui.screenSize().y
 	local targetRatio = math.max(common.dialogCam.barsRatio, Bars.screenRatio)
---	Bars.size = util.vector2(1, (1 - Bars.screenRatio / targetRatio) / 2)
 	Bars.size = (1 - Bars.screenRatio / targetRatio) / 2
 	if Bars.size < 0.01 then
 		Bars.size = nil
@@ -155,36 +140,36 @@ function M.enableShaders(m)
 end
 
 function M.autoCam(dt)
-	local z, d = common.zoom1st, common.dialogCam
+	local z = common.zoom1st
+	local d = common.dialogCam
 	local ctrls = self.controls
 
 	-- Force-set 1st person zoom every frame, to counter camera.lua resetting it
 	local lerp
 	if z.force then
-		lerp = 1 - (z.level - 1) ^ 6
-		camera.setFirstPersonOffset(z.vector["0xy"] * lerp)
-	--	camera.setFirstPersonOffset(util.vector3(0, z.vector.x, z.vector.y) * lerp)
+		camera.setFirstPersonOffset(z.vector["0xy"] * (1 - (z.level - 1) ^ 6))
 	end
-	if z.offset ~= 0 then camera.setExtraYaw(z.offset) end
+	if z.extraYaw ~= 0 then
+		camera.setExtraYaw(z.extraYaw)
+	end
 	ctrls.movement = 0
 	ctrls.sideMovement = 0
 	local turningToTarget = false
 
---	local deltaPos = d.deltaPos
---	deltaPos = deltaPos + util.transform.rotateZ(d.target.rotation:getYaw()):apply(d.head)
---		- d.playerEyes
 	local deltaPos = d.vecEyeToHead
 	local destVec = deltaPos.xy:rotate(camera.getYaw())
---	local destVec = util.vector2(deltaPos.x, deltaPos.y):rotate(camera.getYaw())
 	local deltaYaw = math.atan2(destVec.x, destVec.y)
+--	local deltaYaw = math.atan2(destVec.x, destVec.y) + z.extraYaw
 	if math.abs(deltaYaw) > math.rad(10) then
 		turningToTarget = true
 	end
-	lerp = math.min((8 * math.abs(deltaYaw) / math.pi) ^ 2 + 0.005, 2)
---	local v = dt * 3.5 * util.clamp(lerp, math.rad(5), 1)
+	lerp = math.min((8 * math.abs(deltaYaw) / math.pi) ^ 2 + 0.03, 2)
 	local v = dt * 3.5 * lerp
-	if d.instant then v = 3.5		end
-	if math.abs(deltaYaw) > math.rad(1) then
+	if d.instant then
+		v = math.min(math.abs(deltaYaw), 0.75)
+		d.instant = false
+	end
+	if math.abs(deltaYaw) > math.rad(0.1) then
 		ctrls.yawChange = util.clamp(deltaYaw, -v, v)
 	end
 
@@ -195,32 +180,44 @@ function M.autoCam(dt)
 		turningToTarget = true
 	end
 	lerp = (8 * math.abs(deltaPitch) / math.pi) ^ 2 + 0.001
-	if d.instant then d.instant = false	else v = dt * 3.5 * lerp	end
+	v = dt * 3.5 * lerp
 	if math.abs(deltaPitch) > math.rad(1) then
 		ctrls.pitchChange = util.clamp(deltaPitch, -v, v)
 	end
-	if turningToTarget or (not z.zoomIn) then	return		end
 
-	local distance = (deltaPos:length() - d.radius) * z.scale
-	destVec = util.vector2(lengthXY, deltaPos.z):normalize()
-	destVec = destVec * util.clamp(distance - z.dist, -5, 300)
---	d.dDist = distance		d.destVec = destVec		d.lxy = lengthXY
+	if turningToTarget or z.delay > 0 then
+		z.delay = z.delay - dt
+		return
+	end
+	if z.offset ~= 0 and (z.level > 0.6 or not z.zoomIn) then
+		if z.extraYaw ~= z.offset then
+			local yaw = z.offset - z.extraYaw
+			v = dt * 3.5 * math.min((6 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 1)
+			z.extraYaw = z.extraYaw + util.clamp(yaw, -v, v)
+		end
+	end
+	if not z.zoomIn then		return		end
+
+	destVec = util.vector2(lengthXY, deltaPos.z)
+	local distance = (destVec:length() - d.radius) * z.scale
+	z.vector = destVec:normalize() * util.clamp(distance - z.dist, -5, 300)
 	if not z.force then
 		z.force = true
-		z.vector = destVec
 -- print(d.deltaPos:length(), distance, destVec:length(), math.max(distance - 300, z.dist))
 	end
-	if (destVec - z.vector):length() > 5 then	z.vector = destVec	end
-	if z.level >= 1 then	return		end
 
-	z.level = z.level + (dt * z.speed)		z.level = math.min(1, z.level)
+--	d.dDist = distance		d.destVec = destVec		d.lxy = lengthXY
+	if z.level >= 1 then		return		end
+
+        z.level = z.level + (dt * z.speed)
+	z.level = math.min(1, z.level)
+--	if z.level >= 1 then		print("ZOOM IN DONE")		z.level = 1	end
 	if d.aperture > 0 and z.level > 0.4 then
 		lerp = math.min(z.level - 0.4, 0.2) / 0.2
 		local dof = d.shaders.dof
 		dof.uDepth = d.radius / 3 + math.max(distance - 300, z.dist)
 		dof.uAperture = d.aperture * lerp
 	end
---	if d.barsRatio > 0 and z.level > 0.2 then
 	if Bars.size and z.level > 0.2 then
 		lerp = math.min(z.level - 0.2, 0.4) / 0.4
 	--	d.shaders.bars.ratio = 1.8 + math.max(d.barsRatio - 1.8, 0) * lerp
@@ -261,6 +258,7 @@ function M.autoCamUpdate(dt)
 	if not focal and not types.NPC.objectIsInstance(npc) then
 		focal = d.vecFocalDefault
 	end
+
 	if not focal then
 		local group = M.heights.byGroup[isPlaying]
 		if not group and (isPlaying:find("^idle") or isPlaying:find("^turn")) then
@@ -311,13 +309,19 @@ function M.zoomOut1st(dt)
 
 	if inFirst then
 		camera.setFirstPersonOffset(z.vector["0xy"] * z.level ^ 4)
+		if z.extraYaw ~= 0 then
+			local yaw = 0 - z.extraYaw
+			local v = dt * 3.5 * math.min((8 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 2)
+			z.extraYaw = z.extraYaw + util.clamp(yaw, -v, v)
+			camera.setExtraYaw(z.extraYaw)
+		end
+
 		if cam.aperture > 0 and z.level > 0.5 then
 			lerp = util.clamp(z.level - 0.6, 0, 0.4) / 0.4
 			local dof = cam.shaders.dof
 			dof.uDepth = z.dist	dof.uAperture = cam.aperture * lerp
 		end
 
-	--	if cam.barsRatio > 0 and z.level > 0.2 then
 		if Bars.size then
 			lerp = util.remap(z.level, 0.5, 1, 0, 1)
 		--	setBarsRatio(1.8 + math.max(cam.barsRatio - 1.8, 0) * lerp)

@@ -100,6 +100,7 @@ local M = {
 	byGroup = {
 		idle = { focal = v3(0, 0, 128 * 0.85) },
 
+		-- Sit Down please groups
 		vasitting2 = { focal = v3(0, 5, 66) },
 		vasitting3 = { focal = v3(0, 0, 45) },
 		vasitting4 = { focal = v3(0, 0, 45) },
@@ -108,6 +109,15 @@ local M = {
 		vasitting7 = { focal = v3(0, 30, 20) },
 		vasitting8 = { focal = v3(0, -30, 20) },
 		vasitting9 = { focal = v3(0, -35, 10) },
+
+		sdpvasitting2 = { focal = v3(0, 5, 66) },
+		sdpvasitting3 = { focal = v3(0, 0, 45) },
+		sdpvasitting4 = { focal = v3(0, 0, 45) },
+		sdpvasitting5 = { focal = v3(0, 0, 45) },
+		sdpvasitting6 = { focal = v3(0, 55, 85) },
+		sdpvasitting7 = { focal = v3(0, 30, 20) },
+		sdpvasitting8 = { focal = v3(0, -30, 20) },
+		sdpvasitting9 = { focal = v3(0, -35, 10) },
 
 		sitidle1 = { focal = v3(0, 10, 70) },
 	}

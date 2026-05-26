@@ -163,26 +163,29 @@ local function playHandler(g, o)
 		return
 	end
 
+	o.blendMask = o.blendMask or 15
 	local mask = visibleShield and 11
-	mask = mask or ((anim.isPlaying(self, "idlestorm") or anim.isPlaying(self, "torch")) and 15)
+	mask = mask or ((anim.isPlaying(self, "idlestorm") or anim.isPlaying(self, "torch")) and 11)
 	if mask then
-		o.blendMask = util.bitAnd(o.blendMask or 15, mask)
+		mask = util.bitAnd(o.blendMask, mask)
 		g = (not armAnims[g]) and g or "armsakimbo"
 	end
 	if isBeast then
 		if g:find("_copy$") then g = g:gsub("_copy$", "")	end
-		mask = beastBlendMasks[g]
-		if mask then
-			o.blendMask = util.bitAnd(o.blendMask or 12, mask)
---			print(g, mask, o.blendMask)
-		end
+		mask = util.bitAnd(mask or o.blendMask, beastBlendMasks[g] or 15)
+--		print(g, mask, o.blendMask)
 	end
+	if mask == 0 then		return			end
+
 	if anim.isPlaying(self, g) then
-		o.startPoint = anim.getCompletion(self, g)
+		if not g:find("^arms") then
+			o.startPoint = anim.getCompletion(self, g)
+		end
 		anim.cancel(self, g)
 	end
-	if o.blendMask ~= 0 then	anim.playBlended(self, g, o)		end
-	o.startPoint = nil
+	local savedMask = o.blendMask		o.blendMask = mask or o.blendMask
+	anim.playBlended(self, g, o)
+	o.startPoint = nil			o.blendMask = savedMask
 end
 
 local idleGroups = { idle=true, idle2_copy=true, idle7_copy=true, idle8_copy=true,
@@ -369,7 +372,7 @@ local function closeNPCdiag()
 	poseShiftType = 0
 end
 
-local bodyParts = { legs=1, chest=2, leftarm=4, rightarm=8, arms=12, armschest=14, legschest=3 }
+local bodyParts = { legs=1, chest=2, leftarm=4, rightarm=8, botharms=12, armschest=14, legschest=3 }
 
 local function getBodyPart(mask)
 	return type(mask) == "string" and bodyParts[mask:lower()] or 15

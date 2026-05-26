@@ -45346,13 +45346,13 @@ C<BR>"
  INFO.PNAM "5851227881731623173$00"
  INFO.NNAM "315032460512956491$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "当我跟在长牙后面时，我们听到了右边传来的尖叫声和非人的嚎叫声。龙牙让我去调查一下，再跟他汇合。"
+ INFO.NAME "当我跟在长牙后面时，我们听到了右边传来的尖叫声和非人的嚎叫声。长牙让我去调查一下，再跟他汇合。"
 -INFO
  INFO.INAM "315032460512956491$00"
  INFO.PNAM "212929312953322851$00"
  INFO.NNAM "2983781121869711233$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "我找到了勇者萨提尔的尸体，他是参与净祝狩仪的其他猎人之一。我应该回去找龙牙，告诉他发生了什么事。"
+ INFO.NAME "我找到了勇者萨提尔的尸体，他是参与净祝狩仪的其他猎人之一。我应该回去找长牙，告诉他发生了什么事。"
 -INFO
  INFO.INAM "2983781121869711233$00"
  INFO.PNAM "315032460512956491$00"
@@ -45370,7 +45370,7 @@ C<BR>"
  INFO.PNAM "21434102942741216664$00"
  INFO.NNAM "62702046283673755$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "格瑞里德·斧妻也死了。我必须向龙牙报告。"
+ INFO.NAME "格瑞里德·斧妻也死了。我必须向长牙报告。"
 -INFO
  INFO.INAM "62702046283673755$00"
  INFO.PNAM "4521202201200126966$00"
@@ -69331,7 +69331,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "24345120642290313801$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sattir the bold$00"
- INFO.NAME "嘘…我们必须谨慎而安静地狩猎。没时间说话了。回龙牙去！那是你们净祝狩仪的地方。 {谈}"
+ INFO.NAME "嘘…我们必须谨慎而安静地狩猎。没时间说话了。回去找长牙！那是你们净祝狩仪的地方。 {谈}"
  INFO.SCVR "04JX3BM_BearHunt1"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal BM_BearHunt1 >= 20
@@ -69353,7 +69353,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "11861218360632668$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "grerid axe-wife$00"
- INFO.NAME "嘘…我们必须谨慎而安静地狩猎。没时间说话了。回龙牙去！那是你们净祝狩仪的地方。 {谈}"
+ INFO.NAME "嘘…我们必须谨慎而安静地狩猎。没时间说话了。回去找长牙！那是你们净祝狩仪的地方。 {谈}"
  INFO.SCVR "04JX3BM_BearHunt1"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal BM_BearHunt1 >= 20

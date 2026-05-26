@@ -110,7 +110,7 @@ common = {
 	poseOpt=poseOpt, zoom1st=zoom1st, dialogCam=dialogCam, camSave = camsave,
 	MD=MD, Actor = Actor,
 	omw = { self=self, input=input, core=core, util=util, camera=camera,
-		ui=ui, interfaces=I }
+		ui=ui, interfaces=I, types=types }
 }
 
 
@@ -200,6 +200,7 @@ local function onDialogOpened(data)
 	camsave.dist3rd = camera.getThirdPersonDistance()
 	camsave.hud = I.UI.isHudVisible()
 	zoom1st.level, zoom1st.scale, zoom1st.force, zoom1st.zoomOut = 0, 1, false, false
+	zoom1st.extraYaw = 0
 	zoom1st.speed = settings.camera:get("dialog_1st_zoom_speed") / 100
 	zoom1st.offset = math.rad(settings.camera:get("dialog_1st_zoom_offset"))
 	zoom1st.dist = settings.camera:get("dialog_1st_zoomdist")
@@ -312,7 +313,9 @@ local function onDialogOpened(data)
 		if d.firstAuto and settings.global:get("unpause_dialog_opt") ~= "opt_alwayspause" then
 			if camera.getMode() ~= MD.FirstPerson then
 				camera.setMode(MD.FirstPerson)
-				d.instant = true
+				d.instant = true		zoom1st.delay = 0.2
+			else
+				zoom1st.delay = 0
 			end
 		end
 	end
