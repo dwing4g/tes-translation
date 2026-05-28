@@ -457,7 +457,7 @@ local function loadFile(src_filename, dst_filename)
 				if nextNode then
 					curNode = nextNode
 					if curNode[0] and (i >= n or curNode[0]:find "%W" or sub(text, i + 1, i + 4):find "%W") then
-						topics[#topics + 1] = curNode[0]
+						topics[#topics + 1] = { curNode[0], j, i }
 					end
 					i = i + 1
 				elseif sub(text, j, j):find "%w" then
@@ -480,7 +480,7 @@ local function loadFile(src_filename, dst_filename)
 	local function dumpMatchTexts(matches, texts)
 		for key, topics in pairs(matches) do
 			for _, topic in ipairs(topics) do
-				write("[", topic, "] ")
+				write("[", topic[1], "] ")
 			end
 			write("=> ", texts[key]:gsub("\r", "\\r"):gsub("\n", "\\n"), "\n")
 		end
@@ -503,18 +503,23 @@ local function loadFile(src_filename, dst_filename)
 		if not checkTopic then error("ERROR: not found topic in topicPairs: [" .. topic .. "]") end
 		local checkKey = inam .. " @ " .. checkTopic
 		local checkTopics = checkMatches[checkKey]
+		local text = texts[key]
+		local checkText = checkTexts[checkKey]
 		if not checkTopics then
 			write("========== NOT FOUND KEY '", checkKey, "':\n")
-			write(texts[key], "\n\n")
+			write(text, "\n\n")
 			n1 = n1 + 1
 		else
 			local notFounds = {}
 			for _, topic in ipairs(topics) do
+				topic = topic[1]
 				local found
 				local checkTopic = topicPairs[topic]
 				if checkTopic then
-					for _, t in ipairs(checkTopics) do
-						if checkTopic == t then
+					for i, t in ipairs(checkTopics) do
+						if checkTopic == t[1] then
+							-- if i > 1 and checkTopics[i - 1][3] >= t[2] then break end -- check overlaps
+							-- if i < #checkTopics and t[3] >= checkTopics[i + 1][2] then break end -- check overlaps
 							found = true
 							break
 						end
@@ -525,12 +530,12 @@ local function loadFile(src_filename, dst_filename)
 					notFounds[#notFounds + 1] = checkTopic
 				end
 			end
-			local checkText = checkTexts[checkKey]
 			if #notFounds > 0 then
 				write("========== TOPIC UNMATCHED '", checkKey, "':\n")
-				write(texts[key])
+				write(text)
 				write "\n---------- topics:"
 				for _, topic in ipairs(topics) do
+					topic = topic[1]
 					if notFounds[topic] then
 						write(" [", topic, "]=>[", notFounds[topic], "]")
 					else
@@ -539,7 +544,7 @@ local function loadFile(src_filename, dst_filename)
 				end
 				write "\n---------- topics:"
 				for _, topic in ipairs(checkTopics) do
-					write(" [", topic, "]")
+					write(" [", topic[1], "]")
 				end
 				write("\n", checkText, "\n\n")
 				local t = checkText:match "^(.-)%s*{[^{}]*}%s*$"

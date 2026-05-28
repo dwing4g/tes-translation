@@ -187,12 +187,12 @@ else -- "utf8"
 			if b > 0 then
 				if c < 0x80 or c >= 0xc0 then return end
 				b = b - 1
-			elseif c < 0x7f then
-				if c < 0x20 and c ~= 9 and c ~= 10 and c ~= 13 then	return
+			elseif c < 0x7f then -- 0xxxxxxx
+				if c < 0x20 and c ~= 9 and c ~= 10 and c ~= 13 and (c ~= 2 or i ~= 1) then return -- omwsave: "$02......"
 			elseif c >= 0xf8 then return end
-			elseif c >= 0xf0 then if i + 3 <= n and (c > 0xf0 or byte(s, i + 1) >= 0x90) then b = 3 else return end
-			elseif c >= 0xe0 then if i + 2 <= n and (c > 0xe0 or byte(s, i + 1) >= 0xa0) then b = 2 else return end
-			elseif c >= 0xc0 then if i + 1 <= n and c >= 0xc4 then b = 1 else return end
+			elseif c >= 0xf0 then if i + 3 <= n and (c > 0xf0 or byte(s, i + 1) >= 0x90) then b = 3 else return end -- 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+			elseif c >= 0xe0 then if i + 2 <= n and (c > 0xe0 or byte(s, i + 1) >= 0xa0) then b = 2 else return end -- 1110xxxx 10xxxxxx 10xxxxxx
+			elseif c >= 0xc0 then if i + 1 <= n and c >= 0xc2 then b = 1 else return end -- 110xxxxx 10xxxxxx
 			else return
 			end
 		end
@@ -204,20 +204,20 @@ else -- "utf8"
 		local c, d, e
 		while i <= n do
 			c, e = byte(s, i), 0
-			if c <= 0x7e then
+			if c <= 0x7e then -- 0xxxxxxx
 				if c >= 0x20 or c == 9 then e = 1 -- \t
 				elseif c == 13 and i < n and byte(s, i + 1) == 10 then e = 2 -- \r\n
 				end
 			elseif c >= 0xc0 and c < 0xf8 then
 				if c >= 0xf0 and i + 3 <= n then
 					local x, y, z = byte(s, i + 1, i + 3)
-					if x >= 0x80 and x < 0xc0 and y >= 0x80 and y < 0xc0 and z >= 0x80 and z < 0xc0 and (c > 0xf0 or x >= 0x90) then e = 4 end
+					if x >= 0x80 and x < 0xc0 and y >= 0x80 and y < 0xc0 and z >= 0x80 and z < 0xc0 and (c > 0xf0 or x >= 0x90) then e = 4 end -- 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
 				elseif c >= 0xe0 and i + 2 <= n then
 					local x, y = byte(s, i + 1, i + 2)
-					if x >= 0x80 and x < 0xc0 and y >= 0x80 and y < 0xc0 and (c > 0xe0 or x >= 0xa0) then e = 3 end
+					if x >= 0x80 and x < 0xc0 and y >= 0x80 and y < 0xc0 and (c > 0xe0 or x >= 0xa0) then e = 3 end -- 1110xxxx 10xxxxxx 10xxxxxx
 				elseif c >= 0xc0 and i + 1 <= n then
 					local x = byte(s, i + 1)
-					if x >= 0x80 and x < 0xc0 and c >= 0xc4 then e = 2 end
+					if x >= 0x80 and x < 0xc0 and c >= 0xc2 then e = 2 end -- 110xxxxx 10xxxxxx
 				end
 			end
 			if e == 0 then
@@ -305,6 +305,7 @@ end
 local stringTags = {
 	"BNAM", "FNAM", "NAME", "RNAM", "SCHD", "SCTX", "TEXT",
 	"DIAS.TOPI", "GMST.DATA",
+	"CSTA.EFID", "CSTA.MGEF", "PLAY.MGEF", "PLAY.EFID", -- omwsave
 }
 local binaryTags = {
 	"ACID", "BYDT", "CAST", "COUN", "DATA", "DISP", "DODT", "EFID", "FLAG", "FLTV", "FRMR",
