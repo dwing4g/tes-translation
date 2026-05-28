@@ -7,3 +7,7 @@ blending_rules:
     to: "idle"
     easing: "sineInOut"
     duration: 0.7
+  - from: "*"
+    to: "idle:loop start"
+    easing: "linear"
+    duration: 0.0

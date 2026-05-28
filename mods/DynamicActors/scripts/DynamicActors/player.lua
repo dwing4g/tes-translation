@@ -296,7 +296,7 @@ local function onDialogOpened(data)
 	d.radius = d.radius * npc.scale
 	if logging then print(focusVec, d.radius)		end
 
-	zoom1st.zoomIn = d.firstZoom
+	zoom1st.zoomIn = d.firstZoom		zoom1st.delay = 0
 	local res = nearby.castRay(d.playerEyesVec + self.position, focusVec + npc.position,
 		{ ignore={self, npc} })
 	if res.hitObject and Actor.isActor(res.hitObject)
@@ -314,8 +314,6 @@ local function onDialogOpened(data)
 			if camera.getMode() ~= MD.FirstPerson then
 				camera.setMode(MD.FirstPerson)
 				d.instant = true		zoom1st.delay = 0.2
-			else
-				zoom1st.delay = 0
 			end
 		end
 	end
