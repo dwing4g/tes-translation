@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E '^\\\\s*--\\\\s*\\(type =|props|resource|position|size|relativeSize|relativePosition|anchor|alpha|tileH|tileV|\\\\{|\\\\},?$|print\\\\\\(|local |c\\\\.bar|items =|--\\)' /d/.Morrowind/MorrowindMods/.mine/FloatingHealthbars/FloatingHealthbars_scripts/HPBars_p.lua)"
+    ]
+  }
+}

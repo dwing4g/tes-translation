@@ -584,6 +584,9 @@ local function readAllSettings()
 			end
 		end
 	end
+	-- cache squared distances (margin = +100 head-anchor padding)
+	MAX_DISTANCE_SQ = MAX_DISTANCE * MAX_DISTANCE
+	MAX_DISTANCE_MARGIN_SQ = (MAX_DISTANCE+100) * (MAX_DISTANCE+100)
 end
 
 local previousSettings = {
@@ -841,6 +844,9 @@ local updateSettings = function (section, setting)
 	elseif setting == "FONT" then
 		glyphs,lineHeight = readFont("textures\\FloatingHealthbars_fonts\\"..FONT..".fnt")
 		lineXOffset = 0.0
+	elseif setting == "MAX_DISTANCE" then
+		MAX_DISTANCE_SQ = MAX_DISTANCE * MAX_DISTANCE
+		MAX_DISTANCE_MARGIN_SQ = (MAX_DISTANCE+100) * (MAX_DISTANCE+100)
 	elseif setting:sub(1,-2) == "ROW" then
 		local options = {"nothing", "Actor Name", "HP", "HP/MaxHP", "Buffs"}
 		local newSettingIndex = tableFind(options, _G[setting])
