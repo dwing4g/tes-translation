@@ -163,7 +163,7 @@ function M.autoCam(dt)
 	if math.abs(deltaYaw) > math.rad(10) then
 		turningToTarget = true
 	end
-	lerp = math.min((8 * math.abs(deltaYaw) / math.pi) ^ 2 + 0.03, 2)
+	lerp = math.min((8 * math.abs(deltaYaw) / math.pi) ^ 2 + 0.03, 1.3)
 	local v = dt * 3.5 * lerp
 	if d.instant then
 		v = math.min(math.abs(deltaYaw), 0.75)
@@ -274,6 +274,8 @@ function M.autoCamUpdate(dt)
 
 	if focal then
 		focal = util.transform.rotateZ(npc.rotation:getYaw()):apply(focal)
+	elseif d.lastPlaying == isPlaying and dt > 0 and d.lastFocal then
+		focal = d.lastFocal
 	else
 		-- use bounding box to guess focal point
 		if common.logging then print("USE BOX FOR", isPlaying)		end
@@ -281,6 +283,9 @@ function M.autoCamUpdate(dt)
 		focal = (box.center - npc.position)
 		focal = focal.xy0 + util.vector3(0, 0, (math.abs(focal.z) + box.halfSize.z) * 0.85)
 	end
+
+--	focal = d.lastPlaying == isPlaying and dt > 0 and d.lastFocal or focal
+	d.lastPlaying = isPlaying		d.lastFocal = focal
 
 	d.vecEyeToHead = d.deltaPos + focal - d.playerEyesVec
 end
