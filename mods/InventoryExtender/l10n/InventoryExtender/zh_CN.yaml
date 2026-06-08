@@ -1,0 +1,253 @@
+ConfigTitle: 物品栏扩展
+ConfigSummary: |-
+  一个基于Lua的物品栏窗口替代方案，具有现代化的列表式界面。
+  --- v%{version} ---
+
+RequiresReload: 部分修改需要重新加载Lua脚本才能生效。
+
+ConfigCategoryKeybinds: 按键绑定
+KeybindUseItem: 使用物品
+KeybindUseItemDesc: |-
+  立即使用鼠标悬停处的物品栏物品。
+KeybindToggleFavorite: 切换收藏
+KeybindToggleFavoriteDesc: |-
+  切换鼠标悬停处物品栏物品的收藏状态。
+
+  收藏的物品无法被出售、丢弃或转移到其他物品栏，并会在物品栏列表中以星号图标标记。
+SwapUsePickup: 调换使用/拿起行为
+SwapUsePickupDesc: |-
+  默认情况下，上述按键用于使用物品，左键点击用于拿起物品。
+
+  启用此选项可调换这些行为，使左键点击用于使用物品，而该按键用于拿起物品。
+
+ConfigCategoryWindowOptions: 窗口选项
+EnableMod: 启用模组
+ItemViewMode: 物品查看模式
+ItemViewModeDesc: |-
+  在详细的表格视图或原版风格的网格视图之间进行选择。
+ItemViewMode_Table: 表格
+ItemViewMode_Grid: 网格
+ShowViewModeButton: 显示查看模式按钮
+ShowViewModeButtonDesc: |-
+  在顶部栏显示一个按钮，用于在表格和网格视图之间切换。
+TableRowHeightMult: 表格行高倍率
+TableRowHeightMultDesc: |-
+  调整表格视图中的行高，作为文本大小的倍数。
+TableScrollStep: 表格滚动步长
+TableScrollStepDesc: |-
+  调整表格视图的滚动步长（以行数为单位）。
+TextSizeOverride: 文本大小覆盖
+TextSizeOverrideDesc: |-
+  覆盖物品栏窗口中使用的默认文本大小。
+  设置为0将使用游戏的默认大小。
+IconPack: 图标包
+IconPackDesc: |-
+  选择要使用的物品栏扩展图标包。
+InventoryWindowPinned: 物品栏已钉选
+InventoryWindowDimensions: 物品栏窗口
+InventoryContainerWindowDimensions: 物品栏（容器）
+InventoryBarterWindowDimensions: 物品栏（交易）
+InventoryCompanionWindowDimensions: 物品栏（同伴）
+ContainerWindowDimensions: 容器窗口
+BarterWindowDimensions: 交易窗口
+CompanionWindowDimensions: 同伴窗口
+
+ConfigCategoryTweaks: 微调选项
+CondensedWeightValue: 精简负重/价值
+CondensedWeightValueDesc: |-
+  精简物品提示信息中的负重与价值信息。
+InvertCategorySwitching: 反转类别切换
+InvertCategorySwitchingDesc: |-
+  默认情况下，当你切换类别时，除非按住Shift键，否则任何其他窗口都将切换到相同的类别。
+  启用此选项可反转该行为，使其他窗口仅在按住Shift键时才会切换类别。
+CompactCategoryFilter: 紧凑型类别过滤器
+CompactCategoryFilterDesc: |-
+  将类别按钮移至顶部栏，并在窗口标题中显示当前活动类别，而不是使用单独的标题栏。
+VanillaCategoryIcons: 原版风格类别图标
+VanillaCategoryIconsDesc: |-
+  使用原版风格的底盘和基于不透明度的强光高亮来渲染类别按钮。
+CategoryBarBorders: 类别栏边框
+CategoryBarBordersDesc: |-
+  在类别栏周围显示边框。
+StolenIndicator: 显示偷窃标记
+StolenIndicatorDesc: |-
+  在物品栏中的偷窃物品旁显示一个图标。
+EnchantedIndicatorMode: 附魔标记模式
+EnchantedIndicatorModeDesc: |-
+  在表格视图中，使用图标旋涡、名称行图标或两者同时显示附魔物品。
+  网格视图将始终显示旋涡。
+EnchantedIndicatorMode_Swirl: 旋涡
+EnchantedIndicatorMode_Icon: 名称图标
+EnchantedIndicatorMode_Both: 两者
+FilledGemsAppearEnchanted: 已充满的灵魂石显示为附魔
+FilledGemsAppearEnchantedDesc: |-
+  将已充满的灵魂石显示为附魔物品，以便更容易区分。
+EnchantCapacityInTooltips: 提示信息中显示附魔容量
+EnchantCapacityInTooltipsDesc: |-
+  在物品的提示信息中显示其附魔容量。
+EnchantCapacityInTooltips_Never: 从不
+EnchantCapacityInTooltips_Always: 总是
+EnchantCapacityInTooltips_UnenchantedOnly: 仅未附魔物品
+SoulGemCapacityInTooltips: 提示信息中显示灵魂石容量
+SoulGemCapacityInTooltipsDesc: |-
+  在空灵魂石的提示信息中显示其容量。
+SoulGemCapacityInTooltips_Never: 从不
+SoulGemCapacityInTooltips_Always: 总是
+SoulGemCapacityInTooltips_EmptyOnly: 仅空灵魂石
+SoulGemValueInTooltips: 提示信息中显示灵魂值
+SoulGemValueInTooltipsDesc: |-
+  在已充满的灵魂石提示信息中显示其灵魂价值。
+HideConditionChargeLabels: 隐藏耐久/充能标签
+HideConditionChargeLabelsDesc: |-
+  隐藏物品提示信息中“耐久度”和“充能”条旁的文本标签，使外观看起来更居中。
+
+ConfigCategoryModIntegration: 模组集成
+InterfaceReimagined: 界面重塑(Interface Reimagined)支持
+InterfaceReimaginedDesc: |-
+  调整外观以更好地适配界面重塑(Interface Reimagined)的风格。
+TooltipsComplete: 完整提示信息(Tooltips Complete)支持
+TooltipsCompleteDesc: |-
+  如果安装了完整提示信息(Tooltips Complete)，则将其描述添加至物品提示信息中。
+
+ConfigCategoryMisc: 杂项
+ShowControllerWarning: 显示手柄警告
+ShowControllerWarningDesc: |-
+  如果启用了手柄菜单，则显示一条警告信息，因为此窗口替代方案与之不兼容。
+TooltipCompatibilityMode: HUD 提示兼容模式
+TooltipCompatibilityModeDesc: |-
+  由于API限制，鼠标悬停于世界物品的提示信息需要我们阻塞整个屏幕，这会导致阻塞HUD提示信息（激活的效果、选中的法术等）的副作用。
+  如果兼容模式开启，屏幕仅在拖拽物品时被阻塞。这将在不拖拽时保留HUD提示信息，但世界物品提示信息将恢复为原版风格。
+
+ConfigCategoryGameplay: 游戏玩法
+SoulGemValueRebalance: 灵魂石价值重新平衡
+SoulGemValueRebalanceDesc: |-
+  使已充满的灵魂石的价值仅取决于灵魂大小（强度）。
+
+# Column
+Column_Name: 名称
+Column_Type: 类型
+Column_Damage: 伤害
+Column_Quality: 品质
+Column_Condition: 耐久
+Column_Slot: 部位
+Column_Class: 等级
+Column_AR: 护甲
+Column_Value: 价值
+Column_Weight: 重量
+Column_Weight_Total: 总重
+Column_VW: 价重比
+
+# Category
+Category_Favorites: 收藏
+Category_All: 全部
+Category_Weapon: 武器
+Category_Armor: 护甲
+Category_Clothing: 衣物
+Category_Potion: 消耗品
+Category_Ingredient: 材料
+Category_Scroll: 卷轴
+Category_Book: 书籍
+Category_Key: 钥匙
+Category_Tool: 工具
+Category_Misc: 杂项
+
+# Armor
+Type_Boots: 靴子
+Type_Cuirass: 胸甲
+Type_Greaves: 护腿
+Type_Helmet: 头盔
+Type_LBracer: 左护腕
+Type_LGauntlet: 左护手
+Type_LPauldron: 左护肩
+Type_RBracer: 右护腕
+Type_RGauntlet: 右护手
+Type_RPauldron: 右护肩
+Type_Shield: 盾牌
+Class_Light: 轻型
+Class_Medium: 中型
+Class_Heavy: 重型
+
+# Clothing
+Type_Amulet: 护符
+Type_Belt: 腰带
+Type_LGlove: 左手套
+Type_Pants: 裤子
+Type_RGlove: 右手套
+Type_Ring: 戒指
+Type_Robe: 长袍
+Type_Shirt: 衬衫
+Type_Shoes: 鞋子
+Type_Skirt: 裙子
+
+# Weapon
+Type_Arrow: 箭矢
+Type_AxeOneHand: 单手斧
+Type_AxeTwoHand: 双手斧
+Type_BluntOneHand: 单手钝器
+Type_BluntTwoClose: 双手钝器
+Type_BluntTwoWide: 双手长钝器
+Type_Bolt: 弩箭
+Type_LongBladeOneHand: 单手长刃
+Type_LongBladeTwoHand: 双手长刃
+Type_MarksmanBow: 弓
+Type_MarksmanCrossbow: 弩
+Type_MarksmanThrown: 投掷武器
+Type_ShortBladeOneHand: 短刃
+Type_SpearTwoWide: 长柄
+
+# Tools
+Type_Alembic: 蒸馏器
+Type_Calcinator: 煅烧炉
+Type_MortarPestle: 研钵
+Type_Retort: 曲颈瓶
+Type_Lockpick: 开锁器
+Type_Probe: 陷阱探针
+Type_RepairTool: 修理工具
+Type_Light: 光源
+
+# Other
+Type_Consumable: 消耗品
+Type_Ingredient: 材料
+Type_Scroll: 卷轴
+Type_Book: 书籍
+Type_Key: 钥匙
+Type_Misc: 杂项
+
+UI_SearchBarPlaceholder: 搜索...
+UI_ColumnSettingsTitle: 可见列
+UI_Barter_Spend: "支出:"
+UI_Barter_Gain: "收入:"
+UI_Barter_Max: 最大
+UI_Tooltip_Equipped: <<<  已装备  >>>
+UI_Tooltip_Magic_Item_Use_Cost: "充能消耗: %{cost}"
+
+UI_Msg_ScriptedItem: 无法从物品栏中拿起此物品。
+UI_Msg_FavoriteItem: 收藏的物品无法出售或从你的物品栏中转移。
+
+UI_Tooltip_ColumnSettings: 列设置
+UI_Tooltip_TableView: 切换至表格视图
+UI_Tooltip_GridView: 切换至网格视图
+UI_Tooltip_UseButton: 或在物品上按{key}
+UI_Tooltip_UseButton_Swapped: 或点击物品
+UI_Tooltip_TakeAllButton_Shift: 按住Shift键仅拾取当前可见的物品。
+
+UI_EnchantCapacity: 附魔容量
+UI_SoulCapacity: 灵魂容量
+UI_SoulValue: 灵魂价值
+
+ConfigNumberSeparators: 显示千位分隔符
+ConfigNumberSeparators_None: 无
+ConfigNumberSeparators_Comma: 逗号
+ConfigNumberSeparators_Space: 空格
+
+ConfigCompareItemsMode: 比较已装备物品
+ConfigCompareItemsModeDesc: 将在当前物品提示信息旁显示已装备物品的提示信息。
+ConfigCompareItemsMode_Never: 从不
+ConfigCompareItemsMode_ALT: 按住Alt
+ConfigCompareItemsMode_Always: 总是
+
+ConfigSortingBarterReverseEquipped: 交易时，将已装备物品排在最后
+ConfigSortingBarterReverseFavorite: 交易时，将收藏物品排在最后
+
+ConfigTooltipShowItemUseCost: 显示物品使用消耗
+ConfigTooltipShowItemUseCostDesc: 显示魔法物品每次施法所消耗的充能。
