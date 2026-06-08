@@ -12926,7 +12926,7 @@ I am to stay with Long-Tooth during the hunt, and to follow his instructions exa
 
 > INFO.NAME bm_bearhunt1 212929312953322851
 As I followed Long-Tooth, we heard screams and unearthly howls off to our right. Long-Tooth has told me to investigate them and return to him.
-当我跟在长牙后面时，我们听到了右边传来的尖叫声和非人的嚎叫声。长牙让我去调查一下，再跟他汇合。
+当我跟随长牙的时候，我们听到右侧传来了尖叫和不详的嚎叫声。长牙让我去调查情况，然后回来告诉他。
 
 > INFO.NAME bm_bearhunt1 315032460512956491
 I have found the corpse of Sattir the Bold, one of the other hunters involved with the Ristaag. I should return to Long-Tooth and let him know what has happened.
@@ -13866,11 +13866,11 @@ I told Heart-Fang that, as there could only be one survivor in this deadly game,
 
 > INFO.NAME bm_wildhunt 23438103901833112896
 After finding the chest empty, Heart-Fang spoke to me. He told me that he has the key to continue on in the Hunt, and he will do so alone. He also claims to have the Ring of Hircine, and to have had it for many generations. Heart-Fang seems ready to kill me, and claims I must now fight him in his "true form."
-发现箱子空了之后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他将独自行动。他还声称自己拥有希尔辛之戒，而且已经拥有了很多代。心牙似乎准备杀了我，并声称我现在必须与他的“真身”战斗。 {戒指}
+发现箱子是空的后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他打算独自行动。他还声称自己拥有希尔辛之戒，并且已经传承了数代之久。心牙看起来已经准备好要杀了我，还说我必须现在与他的“真身”战斗。 {戒指}
 
 > INFO.NAME bm_wildhunt 28508225771506928899
 As I entered the next ring of the glacier, I found Tharsten Heart-Fang. He told me that he alone will continue on in the Hunt, and that this is what he was born to do. He also claims to have the Ring of Hircine, and to have had it for many generations. Heart-Fang seems ready to kill me, and claims I must now fight him in his "true form."
-当我进入下一个冰川环时，我发现了塔斯滕·心牙。他告诉我，只有他才能继续狩猎，这是他与生俱来的使命。他还声称自己拥有希尔辛之戒，而且世代相传。心牙似乎准备杀了我，并声称我现在必须与他的“真身”战斗。 {戒指}
+当我进入下一个冰川环时，我发现了塔斯滕·心牙。他告诉我，只有他才能继续狩猎，这是他与生俱来的使命。他还声称自己拥有希尔辛之戒，并且已经传承了数代之久。心牙看起来已经准备好要杀了我，还说我必须现在与他的“真身”战斗。 {戒指}
 
 > INFO.NAME bm_wildhunt 188302990614188995
 Heart-Fang is dead. As he died, the Ring of Hircine disappeared from his finger and appeared in my inventory.
@@ -15918,11 +15918,11 @@ East Empire Company: Missing Supply Ship
 
 > INFO.NAME co_3 96838665172581703
 Carnius was furious at the news that the ship had been lost, and that money would have to be spent to arrange for another ship.
-卡尼乌斯听到船丢失的消息后非常生气，还说要花钱安排另一艘船。
+卡尼乌斯听到补给船丢失的消息后非常生气，还说要花钱安排另一艘船。
 
 > INFO.NAME co_3 2280013401118558683
 I've reported the loss of the ship to Falco. He has asked me to deliver the news to Carnius.
-我已经向法尔科报告了船丢失的消息。他让我把消息传给卡尼乌斯。
+我已经向法尔科报告了补给船丢失的消息。他让我把消息传给卡尼乌斯。
 
 > INFO.NAME co_3 10152191892908115482
 I have found the supply ship, wrecked on the coast.
@@ -19896,7 +19896,7 @@ What a horrid man. He'd clearly step over his own mother if she got between him 
 
 > INFO.NAME carnius magius 197325418218347547
 Strange that someone who's such a coward could have acquired so much power. I don't think he's left the safety of Fort Frostmoth since he arrived on Solstheim.
-奇怪的是，一个如此懦弱的人怎么会有如此大的权力？我觉得他自从来到索瑟泰姆就没有离开过安全的霜蛾要塞。
+奇怪的是，像这样一个懦夫竟然能获得如此大的权力。我想自从他来到索瑟泰姆，就没有离开过霜蛾要塞的温床。
 
 > INFO.NAME carnius magius 2235350261855412074
 He's a fine example of what power does to a man. You didn't hear this from me, but I'd bet money that he's crooked.
@@ -20376,7 +20376,7 @@ What? No, no sign of a ship. Sorry, %PCName.
 
 > INFO.NAME seen anything 174134213284521416
 What? No, I don't know anything about a ship.
-什么？不，我对船一无所知。
+什么？不，我对补给船一无所知。
 
 > INFO.NAME seen anything 1329519111064318931
 It's a terrible shame. If only Carnius were willing to spend the money on making sure things run smoothly... instead we lose our shipment of pick axes, and only a single survivor is left after the wreck. Just horrible.
@@ -21624,7 +21624,7 @@ Oh.  I see.  I thought I sensed honor in you, %PCName.  It is why I offered you 
 
 > INFO.NAME greeting 1 1694527631140626804
 Need to get back to Fort Frostmoth? Wouldn't you rather take a boat than walk? My price is reasonable.
-要回霜蛾要塞吗？难道你不想坐船而不用走路吗？我的价钱很合理。 {需要,老鼠}
+要回霜蛾要塞吗？坐船不比你走路强？我的价钱很合理。 {需要,老鼠}
 
 > INFO.NAME greeting 1 161327371335131073
 You honor me with this decision!  Songs will be written of our glorious battle!  It is true that in my heart I wish to be defeated, so that I may enter Sovngarde.  But know, this %PCName.  I will fight, and fight valiantly, as I have all my life.  You will probably die by my hand.  I will grant no quarter, no mercy, and I expect no less from you.  Go now. Prepare for battle.  When you are ready, speak with me again, and then we shall engage in armed combat!
@@ -22816,7 +22816,7 @@ Ahhh...so it is you, %PCName. But I see you have taken on another form. No matte
 
 > INFO.NAME greeting 1 288091779322294097
 It's you, %PCName! How did you get to this place? We've little time, I fear. The frost giant Karstaag has gone ahead. Even now, I fear he may win this battle before me. Perhaps together we can fight through this place.
-是你啊，%PCName，你是怎么来到这里的？恐怕我们时间不多了，冰霜巨人卡斯塔格已经先行一步了，即使是现在，我也担心他会在我之前赢得这场战斗。也许我们可以一起战斗到底。
+原来是你，%PCName！你是怎么来到这里的？恐怕我们时间不多了。冰霜巨人卡斯塔格已经先走一步了。即便是此刻，我也担心他会比我先赢得这场战斗。也许我们可以并肩战斗，从这里杀出一条血路。
 
 > INFO.NAME greeting 1 2491712492592719822
 You heard the man...GO! Help our people!
@@ -23632,7 +23632,7 @@ This looks like a nice place. Maybe we should go find whomever's in charge, and 
 
 > INFO.NAME greeting 1 761616523031323831
 What is it? You're not going to turn out to be some crazy person, and take me out into the woods and kill me, right? You seem normal; you're still going to let me go with you to wherever you came from, right?
-怎么了？你不会变成疯子把我带到树林里杀了吧？你看起来很正常，你还是会让我跟你走一起回到你来的地方，对吗？ {杀了我}
+怎么了？你不会变成疯子把我带到树林里杀了我吧？你看起来很正常，你还是会让我跟你走一起回到你来的地方，对吗？
 
 > INFO.NAME greeting 1 230851141432500826
 You.... you killed them? They're all gone? Don't leave me here; you've got to let me go with you!
@@ -27928,7 +27928,7 @@ As I said, I became this draugr. But there is a greater purpose.
 
 > INFO.NAME grew old 3258053912282825504
 My life had to be extended, so I used my knowledge of the black arts, and I turned myself into the creature you see before you. A Draugr. Eater of Flesh. But my life was infinite. I could keep the barrier intact so that my people might survive. And now you appear. To kill me, perhaps? You may have the power, but perhaps you have a greater purpose here.
-我的生命必须延长，所以我用我的黑魔法知识，把自己变成了你们眼前的这个生物。尸鬼，肉食者。但我的生命是无限的。我可以保持屏障完好无损。这样我的人民就可以生存下去。现在你出现了，也许是来杀我的？你也许有能力，但也许你有更大的目标。 {杀了我}
+我的生命必须延长，所以我用我的黑魔法知识，把自己变成了你们眼前的这个生物。尸鬼，肉食者。但我的生命是无限的。我可以保持屏障完好无损。这样我的人民就可以生存下去。现在你出现了，也许是来杀了我？你也许有能力，但也许你有更大的目标。
 
 > INFO.NAME fight me 28993571037820837
 No, you talked me out of it. There's no more need for violence.
@@ -29356,7 +29356,7 @@ No time for talk. The Hunt has begun!
 
 > INFO.NAME hello 247847370102526762
 Let us fight through to the end.
-让我们战斗到底。
+就让我们并肩战斗，一往无前吧。
 
 > INFO.NAME hello 14274109301695225357
 This place! It is fit for a warrior like Heart-Fang!

@@ -45346,7 +45346,7 @@ C<BR>"
  INFO.PNAM "5851227881731623173$00"
  INFO.NNAM "315032460512956491$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "当我跟在长牙后面时，我们听到了右边传来的尖叫声和非人的嚎叫声。长牙让我去调查一下，再跟他汇合。"
+ INFO.NAME "当我跟随长牙的时候，我们听到右侧传来了尖叫和不详的嚎叫声。长牙让我去调查情况，然后回来告诉他。"
 -INFO
  INFO.INAM "315032460512956491$00"
  INFO.PNAM "212929312953322851$00"
@@ -47069,13 +47069,13 @@ C<BR>"
  INFO.PNAM "269069009844210981$00"
  INFO.NNAM "28508225771506928899$00"
  INFO.DATA [04 00 00 00 41 00 00 00 FF FF FF 00]
- INFO.NAME "发现箱子空了之后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他将独自行动。他还声称自己拥有希尔辛之戒，而且已经拥有了很多代。心牙似乎准备杀了我，并声称我现在必须与他的“真身”战斗。 {戒指}"
+ INFO.NAME "发现箱子是空的后，心牙对我说了话。他告诉我，他有继续狩猎的钥匙，而且他打算独自行动。他还声称自己拥有希尔辛之戒，并且已经传承了数代之久。心牙看起来已经准备好要杀了我，还说我必须现在与他的“真身”战斗。 {戒指}"
 -INFO
  INFO.INAM "28508225771506928899$00"
  INFO.PNAM "23438103901833112896$00"
  INFO.NNAM "188302990614188995$00"
  INFO.DATA [04 00 00 00 42 00 00 00 FF FF FF 00]
- INFO.NAME "当我进入下一个冰川环时，我发现了塔斯滕·心牙。他告诉我，只有他才能继续狩猎，这是他与生俱来的使命。他还声称自己拥有希尔辛之戒，而且世代相传。心牙似乎准备杀了我，并声称我现在必须与他的“真身”战斗。 {戒指}"
+ INFO.NAME "当我进入下一个冰川环时，我发现了塔斯滕·心牙。他告诉我，只有他才能继续狩猎，这是他与生俱来的使命。他还声称自己拥有希尔辛之戒，并且已经传承了数代之久。心牙看起来已经准备好要杀了我，还说我必须现在与他的“真身”战斗。 {戒指}"
 -INFO
  INFO.INAM "188302990614188995$00"
  INFO.PNAM "28508225771506928899$00"
@@ -50706,14 +50706,14 @@ C<BR>"
  INFO.PNAM "8302265732158031513$00"
  INFO.NNAM "2280013401118558683$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "卡尼乌斯听到船丢失的消息后非常生气，还说要花钱安排另一艘船。"
+ INFO.NAME "卡尼乌斯听到补给船丢失的消息后非常生气，还说要花钱安排另一艘船。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2280013401118558683$00"
  INFO.PNAM "96838665172581703$00"
  INFO.NNAM "10152191892908115482$00"
  INFO.DATA [04 00 00 00 3C 00 00 00 FF FF FF 00]
- INFO.NAME "我已经向法尔科报告了船丢失的消息。他让我把消息传给卡尼乌斯。"
+ INFO.NAME "我已经向法尔科报告了补给船丢失的消息。他让我把消息传给卡尼乌斯。"
 -INFO
  INFO.INAM "10152191892908115482$00"
  INFO.PNAM "2280013401118558683$00"
@@ -61892,7 +61892,7 @@ Goodbye"
  INFO.FNAM "East Empire Company$00"
  INFO.ANAM "Raven Rock$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "奇怪的是，一个如此懦弱的人怎么会有如此大的权力？我觉得他自从来到索瑟泰姆就没有离开过安全的霜蛾要塞。"
+ INFO.NAME "奇怪的是，像这样一个懦夫竟然能获得如此大的权力。我想自从他来到索瑟泰姆，就没有离开过霜蛾要塞的温床。"
  INFO.SCVR "02sX2Random100"
  INFO.INTV [21 00 00 00]
  #0: Global-short Random100 > 33
@@ -63062,7 +63062,7 @@ ModDisposition 10"
  INFO.NNAM "1329519111064318931$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Gidar Verothan$00"
- INFO.NAME "什么？不，我对船一无所知。"
+ INFO.NAME "什么？不，我对补给船一无所知。"
  INFO.SCVR "04JX3CO_3"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal CO_3 >= 20
@@ -63860,7 +63860,7 @@ Goodbye"
  INFO.BNAM "StartScript wildhuntStartScript
 Journal BM_WildHunt 15"
 -DIAL
- DIAL.NAME "战斗到底$00"
+ DIAL.NAME "并肩战斗$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "31349130311423327956$00"
@@ -66324,7 +66324,7 @@ Goodbye"
  INFO.NNAM "161327371335131073$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "veresa alver$00"
- INFO.NAME "要回霜蛾要塞吗？难道你不想坐船而不用走路吗？我的价钱很合理。 {需要,老鼠}"
+ INFO.NAME "要回霜蛾要塞吗？坐船不比你走路强？我的价钱很合理。 {需要,老鼠}"
 -INFO
  INFO.INAM "161327371335131073$00"
  INFO.PNAM "1694527631140626804$00"
@@ -70085,7 +70085,7 @@ Goodbye"
  INFO.NNAM "2491712492592719822$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang2$00"
- INFO.NAME "是你啊，%PCName，你是怎么来到这里的？恐怕我们时间不多了，冰霜巨人卡斯塔格已经先行一步了，即使是现在，我也担心他会在我之前赢得这场战斗。也许我们可以一起战斗到底。"
+ INFO.NAME "原来是你，%PCName！你是怎么来到这里的？恐怕我们时间不多了。冰霜巨人卡斯塔格已经先走一步了。即便是此刻，我也担心他会比我先赢得这场战斗。也许我们可以并肩战斗，从这里杀出一条血路。"
  INFO.SCVR "04JX3BM_WildHunt"
  INFO.INTV [1E 00 00 00]
  #0: Journal-Journal BM_WildHunt >= 30
@@ -72672,7 +72672,7 @@ Goodbye"
  INFO.NNAM "230851141432500826$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Apronia Alfena$00"
- INFO.NAME "怎么了？你不会变成疯子把我带到树林里杀了吧？你看起来很正常，你还是会让我跟你走一起回到你来的地方，对吗？ {杀了我}"
+ INFO.NAME "怎么了？你不会变成疯子把我带到树林里杀了我吧？你看起来很正常，你还是会让我跟你走一起回到你来的地方，对吗？"
  INFO.SCVR "04JX0CO_3b"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_3b = 10
@@ -85915,7 +85915,7 @@ Set ColonyService to 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "draugr_aesliip$00"
- INFO.NAME "我的生命必须延长，所以我用我的黑魔法知识，把自己变成了你们眼前的这个生物。尸鬼，肉食者。但我的生命是无限的。我可以保持屏障完好无损。这样我的人民就可以生存下去。现在你出现了，也许是来杀我的？你也许有能力，但也许你有更大的目标。 {杀了我}"
+ INFO.NAME "我的生命必须延长，所以我用我的黑魔法知识，把自己变成了你们眼前的这个生物。尸鬼，肉食者。但我的生命是无限的。我可以保持屏障完好无损。这样我的人民就可以生存下去。现在你出现了，也许是来杀了我？你也许有能力，但也许你有更大的目标。"
  INFO.SCVR "04JX3BM_Draugr"
  INFO.INTV [3C 00 00 00]
  #0: Journal-Journal BM_Draugr >= 60
@@ -89990,7 +89990,7 @@ ModDisposition -10"
  INFO.ONAM "tharsten heart-fang$00"
  INFO.RNAM "Nord$00"
  INFO.SNAM "Vo\n\m\bHlo_NM071.mp3$00"
- INFO.NAME "让我们战斗到底。"
+ INFO.NAME "就让我们并肩战斗，一往无前吧。"
  INFO.SCVR "04JX2BM_WildHunt"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_WildHunt > 10
