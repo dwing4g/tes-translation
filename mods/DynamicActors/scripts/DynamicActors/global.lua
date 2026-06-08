@@ -96,12 +96,13 @@ local function debug(m)
 	if logging then		print(m)		end
 end
 
-local events = { removeScript = function(e)
+local events = {}
+events.removeScript = function(e)
 	if e.object and e.script and e.object:hasScript(e.script) then
 		debug(("%s removing %s"):format(e.object, e.script))
 		e.object:removeScript(e.script)
 	end
-end }
+end
 
 local function debugger(npc)
 	if not npc:hasScript("scripts/DynamicActors/npcDialog.lua") then print("script gone") end
@@ -179,11 +180,12 @@ function events.onDialogOpened(data)
 		return
 	end
 	activateTarget = nil		local option = settings:get("unpause_dialog_opt")
+	if option == "opt_alwayspause" and world.isWorldPaused() then
+		return
+	end
 	if world.getPausedTags()["ui"] ~= nil and option ~= "opt_alwayspause" then
 		world.unpause("ui")
 		-- debug(("%s %s"):format(world.isWorldPaused(), settings:get("unpause_dialog")))
-	elseif world.isWorldPaused() then
-		return
 	end
 	openTime = core.getSimulationTime()
 	if option == "opt_delaypause" then
@@ -284,7 +286,7 @@ function events.onDialogOpened(data)
 --	o:sendEvent("odarEvent", {event="odarEnabled", eventData=false})
 	o:sendEvent("initNPCdiag", {
 		player, reset, idleLevel, plugin, isMobile=auto, groups=groups,
-		shields=settings:get("visible_shields"), logging=logging
+		shields=settings:get("visible_shields"), logging=logging, greeting=data.greeting
 	})
 end
 
@@ -335,7 +337,7 @@ return {
 			end
 		end,
 		actorMonitor = actorMonitor,
-		dynamicActors = function(e)
+		DynamicActors = function(e)
 			if events[e.event or ""] then		events[e.event](e)		end
 		end
 	},
