@@ -8,7 +8,7 @@ local I = require("openmw.interfaces")
 
 if not self:isActive() then
 	core.sendGlobalEvent("DynamicActors",
-		{ event="removeScript", object=self, script="scripts/dynamicactors/npcdialog.lua" })
+		{ event="removeScript", object=self, script="npcdialog.lua" })
 	return
 end
 
@@ -366,7 +366,7 @@ local function closeNPCdiag()
 		end
 	end
 	core.sendGlobalEvent("DynamicActors",
-		{ event="removeScript", object = self, script = "scripts/DynamicActors/npcDialog.lua" })
+		{ event="removeScript", object = self, script = "npcDialog.lua" })
 	plugin.closeDialog(dialogTarget)
 	dialogTarget = nil
 	poseShiftType = 0
@@ -381,6 +381,7 @@ end
 local events = {}
 
 function events.DialogueResponse(e)
+	plugin.onInfoGetText { info = { id = e.infoId } }
 	plugin.DialogueResponse(e)
 	if not infoList then 		return		end
 	local playlist = infoList[e.infoId]
@@ -403,8 +404,8 @@ function events.DialogueResponse(e)
 end
 
 function events.onInfoGetText(e)
-	plugin.onInfoGetText(e)
-	events.DialogueResponse{ infoId = e.info.id }
+--	plugin.onInfoGetText(e)
+	events.DialogueResponse { infoId = e.info.id }
 end
 
 function events.onQuestUpdate(e)
@@ -414,7 +415,7 @@ end
 
 
 local function onUpdate(dt)
-	if dt == 0 then					return		end
+	if dt <= 0 then					return		end
 	if (not dialogTarget) or forcePause() then	return		end
 	validAnim = hasValidAnim()
 	local turningToTarget = false

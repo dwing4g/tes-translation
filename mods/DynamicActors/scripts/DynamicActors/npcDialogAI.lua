@@ -14,8 +14,8 @@ local function removeCheck()
 			noWander = false
 		end
 	else
-		core.sendGlobalEvent("dynRemoveScript",
-			{ object = self, script = "scripts/DynamicActors/npcDialogAI.lua" })
+		core.sendGlobalEvent("DynamicActors",
+			{ event="removeScript", object = self, script = "npcDialogAI.lua", debug = false })
 		return true
 	end
 end

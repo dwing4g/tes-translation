@@ -1,13 +1,13 @@
 blending_rules:
   - from: "*"
-    to: "idle"
+    to: "*"
     easing: "sineOut"
     duration: 0.4
   - from: "arms*"
-    to: "idle"
+    to: "*"
     easing: "sineInOut"
     duration: 0.7
-  - from: "*"
-    to: "idle:loop start"
+  - from: ""
+    to: "*"
     easing: "linear"
     duration: 0.0

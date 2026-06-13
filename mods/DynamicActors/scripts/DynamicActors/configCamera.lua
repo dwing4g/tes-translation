@@ -126,6 +126,51 @@ local M = {
 
 		sitidle1 = { focal = v3(0, 10, 70) },
 
+		sdpaudiencesitidle3 = { focal = v3(0, 10, 70) },
+		sdpaudiencesitnod = { focal = v3(0, 10, 70) },
+		sdpaudiencesitsearch2 = { focal = v3(0, 10, 70) },
+		sdpaudiencesitsearch3 = { focal = v3(0, 10, 70) },
+		sdpaudiencesitspectator4 = { focal = v3(0, 10, 70) },
+
+	--	sdppreachaddressidle = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdppreachaddressturn = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdppreachaddressspeakleft = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdppreachaddressspeakright = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdppreachadmonish = { focal = v3(0, 10, 70) },			-- faulty
+	--	sdppreachattentiveleft = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdpspectator2 = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachAttentivePause.kf
+	--	sdpspectator3 = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachAttentivePause.kf
+	--	sdpspectator4 = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachAttentivePause.kf
+	--	sdppreachattentive = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachAttentivePause.kf
+	--	sdpspectator9 = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachAttentivePause.kf
+	--	sdppreachattentiveright = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdppreachbookidle = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachBookReader.kf
+	--	sdppreachbooktalk = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachBookReader.kf
+	--	sdppreachbookturn = { focal = v3(0, 10, 70) },			-- faulty, xsdpPreachBookReader.kf
+
+	--	sdppreachbooktalkleft = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdppreachbooktalkright = { focal = v3(0, 10, 70) },		-- faulty
+	--	sdpPreachAddressIdle = { focal = v3(0, 10, 70) },		-- faulty
+
+		sdppreachcommand01 = F.z1,					-- xsdpPreachCommandGestures.kf
+		sdppreachcommand02 = F.z1,					-- xsdpPreachCommandGestures.kf
+		sdppreachcommand03 = F.z1,					-- xsdpPreachCommandGestures.kf
+		sdppreachcommand04 = F.z1,					-- xsdpPreachCommandGestures.kf
+
+		sdppreachbeckon = F.z1,						-- xsdpPreachCrowdCues.kf
+		sdppreachhold = F.z1,						-- xsdpPreachCrowdCues.kf
+		sdppreachhold = F.z1,						-- xsdpPreachCrowdCues.kf
+
+		sdpguardpose = F.z1,						-- xsdpPreachFormalStance.kf
+		sdppreachformal02 = F.z1,					-- xsdpPreachFormalStance.kf
+		sdppreachformal01 = F.z1,					-- xsdpPreachFormalStance.kf
+		sdpguardpose3 = F.z1,						-- xsdpPreachFormalStance.kf
+		sdpguardpose2 = F.z1,						-- xsdpPreachFormalStance.kf
+
+		search1 = F.z1,							-- xsdpPreachScanAudience.kf
+		sdppreachscan = F.z1,						-- xsdpPreachScanAudience.kf
+		search3 = F.z1,							-- xsdpPreachScanAudience.kf
+
 		-- Dynamic Conversations
 
 		alco = F.z1, alco9 = F.z1,					-- xam_alchemist.kf

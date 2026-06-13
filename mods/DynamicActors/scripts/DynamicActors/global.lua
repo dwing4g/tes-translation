@@ -98,9 +98,14 @@ end
 
 local events = {}
 events.removeScript = function(e)
-	if e.object and e.script and e.object:hasScript(e.script) then
-		debug(("%s removing %s"):format(e.object, e.script))
-		e.object:removeScript(e.script)
+	if e.object and e.script then
+		local path = "scripts/dynamicactors/" .. e.script
+		if e.object:hasScript(path) then
+			if e.debug ~= false then
+				debug(("%s removing %s"):format(e.object, e.script))
+			end
+			e.object:removeScript(path)
+		end
 	end
 end
 
@@ -307,10 +312,13 @@ return {
 		dynDialogOpened = events.onDialogOpened,
 		dynDialogClosed = events.onDialogClosed,
 		onCellChangeOlh = resetActors,
-		dynRemoveScript = function(data)
-	--		debug(("%s removing %s"):format(data.object, data.script))
-			if data.object and data.script and data.object:hasScript(data.script) then
-				data.object:removeScript(data.script)
+		dynRemoveScript = function(e)
+			if e.object and e.script then
+				local path = "scripts/dynamicactors/" .. e.script
+				if e.object:hasScript(path) then
+				--	debug(("%s removing %s"):format(e.object, e.script))
+					e.object:removeScript(path)
+				end
 			end
 		end,
 		dynDialogChange = function()

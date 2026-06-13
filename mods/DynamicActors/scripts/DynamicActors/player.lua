@@ -16,6 +16,7 @@ local l10n = core.l10n("DynamicActors")
 
 -- local ST = types.Actor.STANCE
 local Actor = {
+	getCurrentSpeed = types.Actor.getCurrentSpeed,
 	getStance = types.Actor.getStance,
 	getEquipment = types.Actor.getEquipment,
 	inventory = types.Actor.inventory,
@@ -24,12 +25,19 @@ local Actor = {
 	isDead = types.Actor.isDead,
 	isWerewolf = types.NPC.isWerewolf,
 	setEquipment = types.Actor.setEquipment,
+	isOnGround = types.Actor.isOnGround,
+	canMove = types.Actor.canMove,
+	controls = self.controls,
 
 	Helmet = types.Actor.EQUIPMENT_SLOT.Helmet,
 	Shield = types.Actor.EQUIPMENT_SLOT.CarriedLeft,
-	stanceNone = types.Actor.STANCE.Nothing
+	Weapon = types.Actor.EQUIPMENT_SLOT.CarriedRight,
+	stanceNothing = types.Actor.STANCE.Nothing,
+	stanceWeapon = types.Actor.STANCE.Weapon,
+	stanceSpell = types.Actor.STANCE.Spell
 }
 local stance = Actor.getStance(self)		local v3 = util.vector3
+local helmetStance = stance
 
 local MD = {
 	FirstPerson = camera.MODE.FirstPerson,
@@ -89,8 +97,8 @@ local raceChangeModes = {
 	[I.UI.MODE.ChargenClassReview] = true
 }
 
-local notIdle, posing = true, false
-local V = { idle2sec = 2, idleCounter = 0, idlenum = 0 }
+local posing = false
+local V = { idle2sec = 2, idleCounter = 0 }
 
 local actionKey = nil
 local currentanim = 1
@@ -109,8 +117,8 @@ local combatActors = {}
 common = {
 	poseOpt=poseOpt, zoom1st=zoom1st, dialogCam=dialogCam, camSave = camsave,
 	MD=MD, Actor = Actor,
-	omw = { self=self, input=input, core=core, util=util, camera=camera,
-		ui=ui, interfaces=I, types=types }
+	omw = { self=self, input=input, core=core, types=types, util=util, camera=camera,
+		ui=ui, interfaces=I, async=async }
 }
 
 
@@ -143,7 +151,7 @@ function settings.update.player(_, key)
 	actionKey = settings.player:get("actionHotkey")
 	if key and key:find("^baseIdleAnim_") then
 --		print("Update idle animation")
-		for _, v in ipairs(Anim.clear) do Anim.cancel(self, v)	end
+		Anim:cancelAllIdles()
 		V.idleCounter = 6
 	end
 end
@@ -206,8 +214,7 @@ local function onDialogOpened(data)
 	zoom1st.dist = settings.camera:get("dialog_1st_zoomdist")
 	camsave.yaw, camsave.pitch, camsave.extrayaw = camera.getYaw(), camera.getPitch(), camera.getExtraYaw()
 	local npc = data.arg			dialogTarget = npc
-	local distance = (npc.position - self.position):length()
-	if data.pause or distance > 1000 or not data.near then
+	if data.pause or not data.near or (npc.position - self.position):length() > 1000 then
 		return
 	end
 
@@ -269,19 +276,21 @@ local function onDialogOpened(data)
 			break
 		end
 	end
-	if useBox then
-		local box = npc:getBoundingBox()
-		focusHeight = (box.center.z + box.halfSize.z - npc.position.z) * 0.85 / npc.scale
-		if types.Creature.objectIsInstance(npc) then
-			d.radius = math.max(box.halfSize.x, box.halfSize.y) / npc.scale
-		end
-	end
 
 	if focusHeight and not focusVec then
 		focusVec = v3(0, 0, focusHeight)
 	end
 	if focusVec then
 		d.vecFocalDefault = d.npcSizeRatios:apply(focusVec) * npc.scale
+	end
+	if useBox then
+		if logging then print("OPENED: USEBOX FOR")		end
+		local box = npc:getBoundingBox()
+		focusVec = (npc.position - box.center)
+		focusVec = focusVec.xy0 + util.vector3(0, 0, (math.abs(focusVec.z) + box.halfSize.z) * 0.85)
+		if types.Creature.objectIsInstance(npc) then
+			d.radius = math.max(box.halfSize.x, box.halfSize.y)
+		end
 	end
 	focusVec = focusVec or d.vecFocalDefault
 
@@ -324,10 +333,10 @@ local function onDialogClosed(data)
 	dialogTarget  = nil
 --	if camsave.hud ~= I.UI.isHudVisible() then I.UI.setHudVisibility(camsave.hud) end
 	I.UI.setHudVisibility(true)
+--	zoom1st.extraYaw = 0
 	if camera.getMode() == MD.FirstPerson and zoom1st.offset ~= 0 then
 		camera.setExtraYaw(camsave.extrayaw)
 	end
-
 	dialogCam.isActive = false		zoom1st.zoomIn = false
 	zoom1st.zoomOut = zoom1st.force
 	if not posing then
@@ -344,7 +353,6 @@ local function stopPosing()
 	camera.setFocalPreferredOffset(camsave.offset3rd)
 	I.Controls.overrideMovementControls(false)
 	posing = false
-	V.idlenum = 0
 	ui.showMessage(l10n("msg_moveon"))
 	if camera.getMode() ~= MD.Preview then		return		end
 
@@ -352,7 +360,7 @@ local function stopPosing()
 		async:newUnsavableSimulationTimer(0.1, function() camera.setMode(MD.FirstPerson) end)
 	else
 		-- camera.lua expects ThirdPerson when in combat stance
-		if Actor.getStance(self) ~= Actor.stanceNone then
+		if Actor.getStance(self) ~= Actor.stanceNothing then
 			async:newUnsavableSimulationTimer(1, function()
 				if camera.getMode() == MD.Preview then
 					camera.setMode(MD.ThirdPerson)
@@ -366,7 +374,7 @@ end
 local function procStanceChange(inCombat)
 	if Anim.isPlaying(self, "spellcast") then	return		end
 	if Actor.isWerewolf(self) or not settings.player:get("autoHelm") then
-		stance = Actor.getStance(self)
+		helmetStance = Actor.getStance(self)
 		return
 	end
 	local equip, head = Actor.getEquipment(self), Actor.Helmet
@@ -378,13 +386,13 @@ local function procStanceChange(inCombat)
 	end
 	local store1, store2 = settings.player:get("autoHelmItemID"), settings.player:get("autoHelmItemID2")
 	local id = h and h.recordId
-	if Actor.getStance(self) == Actor.stanceNone then
+	if Actor.getStance(self) == Actor.stanceNothing then
 		helm.combat = h
 		if id and store1 ~= id then
 			settings.player:set("autoHelmItemID", id)
 		end
 		equip[head] = helm.idle
-	elseif stance == Actor.stanceNone then
+	elseif helmetStance == Actor.stanceNothing then
 		if h ~= helm.combat then helm.idle = h			end
 		if id and id ~= store2 and id ~= store1 then
 			settings.player:set("autoHelmItemID2", id)
@@ -392,66 +400,135 @@ local function procStanceChange(inCombat)
 		if helm.combat then equip[head] = helm.combat		end
 	end
 	Actor.setEquipment(self, equip)
-	stance = Actor.getStance(self)
+	helmetStance = Actor.getStance(self)
 end
 
 
+--	local isSneaking = L.controls.sneak
+--	local statusChange = {}
+
+local function updateStatus(s)
+	local legs = Anim.getActiveGroup(self, 0)
+	s.stance = L.getStance(self)
+	s.stanceIsNothing = s.stance == Actor.stanceNothing
+	s.sneak = L.controls.sneak
+	s.legGroup = legs
+	s.isMoving = Actor.getCurrentSpeed(self) > 0
+	s.isTurning = legs:find("^turn") or legs:find("^spellturn")
+	s.running = s.isMoving and L.controls.run
+	s.attack = L.controls.use > 0
+	s.action = s.attack or legs:find("^jump")
+end
+
+local Status = { legGroup="", lastGroup="" }
+Status.controls = types.Player.getControlSwitch(self, types.Player.CONTROL_SWITCH.Controls)
+updateStatus(Status)
+
 time.runRepeatedly(function()
-	local dt = 1
-	if L.getStance(self) ~= stance then procStanceChange()			end
-	if dialogTarget and camera.getMode() == MD.FirstPerson then
-		dCam.autoCamUpdate(dt)
+	local dt = 1		local s = Status
+
+	s.inFirst = MD.getMode() == MD.FirstPerson
+	s.skipIdles = L.activeEffects:getEffect("levitate").magnitude > 0
+		or Actor.isSwimming(self) or Actor.isWerewolf(self)
+		or not(Actor.isOnGround(self) and Actor.canMove(self))
+	updateStatus(s)
+	if s.weapon ~= Actor.getEquipment(self, Actor.Weapon) then
+		s.weapon = Actor.getEquipment(self, Actor.Weapon)
+		Anim.updateWeaponAnim(s)
+	end
+	if s.stance ~= helmetStance then
+		procStanceChange()
 	end
 	if posing and not Anim.handler("isPlay", Anim.poses[currentanim].id) then
 		stopPosing()
 	end
---	if notIdle then notIdle = false		return		end
+	if dialogTarget and s.inFirst then
+		dCam.autoCamUpdate(dt)
+	end
+
+	local block = s.inFirst or s.skipIdles or posing or not s.controls
+	if block then
+		if Anim.playingIdle then
+			V.idleCounter = 0		Anim:cancelAllIdles()
+		end
+		Anim.notIdle = true
+		return
+	end
+
+	local wasIdle = not Anim.notIdle
+	Anim:updateStatus(s)
+	if wasIdle and Anim.notIdle then
+--	print("SET NOTIDLE FLAG TRUE")
+		Anim:cancelAllIdles()
+		if posing then		stopPosing()		end
+	end
+
+	if Anim.notIdle then			return			end
+	if not(Anim.playingIdle or Anim.idle.mw[s.legGroup]) then
+		return
+	end
+
+	Anim.idleController(s)
+	Anim.tracked:update(dt)
 	V.idle2sec = V.idle2sec - 1		if V.idle2sec > 0 then		return		end
 	V.idle2sec = 2			dt = 2
 
-	if camera.getMode() == MD.FirstPerson
-		or L.activeEffects:getEffect("levitate").magnitude > 0
-		or Actor.isSwimming(self) or Actor.isWerewolf(self) then
-		V.idleCounter = 0
-		return
-	end
-	if posing or not types.Player.getControlSwitch(self, types.Player.CONTROL_SWITCH.Controls) then
-		V.idleCounter = 0		return
+	s.controls = types.Player.getControlSwitch(self, types.Player.CONTROL_SWITCH.Controls)
+	if not s.stanceIsNothing then
+		return	
 	end
 
-	if V.idlenum == 0 then
-		V.idlenum = 1
-		V.idleCounter = 26
+	local idle = Anim.idle.nothing			local track = Anim.tracked
+	if not Anim.playingIdle then
+--	print("IDLE CONTROLLER STARTED")
+		Anim.playingIdle = true
+		V.idleCounter = 12
+		idle.num = 2
+	--	local body = Anim.idle.base[Anim.settings[settings.player:get("baseIdleAnim_main")]]
+	--	local arms = Anim.idle.base[Anim.settings[settings.player:get("baseIdleAnim_upper")]]
+		local body = Anim.idle.base[settings.player:get("baseIdleAnim_main")]
+	 	local arms = Anim.idle.base[settings.player:get("baseIdleAnim_upper")]
+		idle.enabled = not(body.g == "none" and arms.g == "none")
+		if idle.enabled then
+			idle.Body.g, idle.Body.o.speed = body.g, body.speed
+			idle.Arms.g, idle.Arms.o.speed = arms.g, arms.speed
+			idle.Body.startDelay, idle.Arms.startDelay = 4, 5
+			track:add(idle.Body)		track:add(idle.Arms)
+		end
 	end
 	V.idleCounter = V.idleCounter + dt
-	local legs = Anim.idle.base[Anim.settings[settings.player:get("baseIdleAnim_main")]]
-	local top = Anim.idle.base[Anim.settings[settings.player:get("baseIdleAnim_upper")]]
-	if V.idleCounter == 6 and top.id ~= legs.id and Anim.handler("isPlay", top.id) then
-		Anim.handler("cancel", top.id)
-	end
-	if V.idleCounter < 32 then
-		if V.idleCounter > 5 and V.idleCounter < 28 then
-			if not Anim.handler("isPlay", legs.id) then
-				Anim.handler("play", legs.id, {loops=50, priority=1, speed=legs.speed})
-			end
-			if not Anim.handler("isPlay", top.id) and top.id ~= legs.id then
-				Anim.handler("play", top.id, {loops=50, priority=2, blendMask=(top.mask or 12), speed=top.speed})
-			end
-		end
+
+ 	if V.idleCounter > 2 and V.idleCounter < 28 then
 		return
 	end
-	V.idleCounter = 0
-	if not settings.player:get("rndIdleAnim") then		return		end
 
-	for i=1, #Anim.clear do	Anim.cancel(self, Anim.clear[i])	end
-	local rnd = Anim.idle.rnd[math.random(2)]
-	for i=1, V.idlenum do
-		local a, options = rnd[i].id, {}
-		for k, v in pairs(rnd[i].opt) do	options[k] = v		end
-		options.priority = i + 2
-		Anim.handler("play", a, options)
+ 	if V.idleCounter >= 28 then
+		if settings.player:get("rndIdleAnim") then
+			track:add { g="removeAll", o=true, startDelay=1, event=true, noUpdate=true }
+			V.idleCounter = 0
+		else
+			V.idleCounter = 4
+		end
 	end
-	if V.idlenum == 1 then V.idlenum = 2		end
+	if V.idleCounter ~= 2  then
+		return
+	end
+
+	track:removeAll()
+
+	local rnd = Anim.idle.rnd
+--	if rnd.num > #rnd then rnd.num = 1		end
+	local new = rnd[rnd.num]		local d = new.duration or 8
+	if idle.enabled then
+	--	track:add { g="removeAll", o=true, startDelay=d, event=true, noUpdate=true }
+	--	idle.Body.startDelay, idle.Arms.startDelay = d + 1, d + 2
+		idle.Body.startDelay, idle.Arms.startDelay = d, d + 1
+		track:add(idle.Body)		track:add(idle.Arms)
+	end
+	local max = (new.start or idle.num > 1) and #new or 1
+	for i=1, max do		track:add(new[i], d)	end
+	rnd.num = 1 + (rnd.num < #rnd and rnd.num or 0)
+	if idle.num == 1 then idle.num = 2		end
 
 end, 1 * time.second)
 
@@ -459,7 +536,7 @@ end, 1 * time.second)
 local function startPosing()
 	ui.showMessage(l10n("msg_moveoff"))
 	posing = true			doUpdates = true
-	for _, v in ipairs(Anim.clear) do	Anim.cancel(self, v)		end
+	Anim:cancelAllIdles()
 	local offset = Anim.poses[currentanim].offset
 	local speed = Anim.poses[currentanim].speed or 1
 	if offset then
@@ -474,8 +551,8 @@ local function startPosing()
 end
 
 local function onKeyPress(key)
-	if (key.code ~= actionKey) then			return		end
-	if core.isWorldPaused() or notIdle then		return		end
+	if (key.code ~= actionKey) then		return		end
+	if core.isWorldPaused() then		return		end
 	local mode = I.UI.getMode()
 	if mode and mode ~= dialogModes.dialog then		return		end
 	if dialogTarget then
@@ -492,15 +569,16 @@ local function onKeyPress(key)
 		return
 	end
 	if posing then		stopPosing()		return			end
-	if L.activeEffects:getEffect("levitate").magnitude > 0
+	if Anim.notIdle or Actor.getStance(self) ~= Actor.stanceNothing
+		or L.activeEffects:getEffect("levitate").magnitude > 0
 		or Actor.isSwimming(self) or Actor.isWerewolf(self) then
-		return
+			return
 	end
-	if Actor.getStance(self) ~= Actor.stanceNone then	return		end
+
 	camsave.mode, camsave.offset3rd = camera.getMode(), camera.getFocalPreferredOffset()
 	I.Controls.overrideMovementControls(true)
 	currentanim, poseOpt.choose = poseOpt.save, false
-	for _, v in ipairs(Anim.clear) do Anim.cancel(self, v) end
+	Anim:cancelAllIdles()
 	local offset = Anim.poses[currentanim].offset
 	local speed = Anim.poses[currentanim].speed or 1
 	if Anim.poses[currentanim].turn then
@@ -544,22 +622,48 @@ local function processCamera(dt)
 	end
 end
 
-local function onUpdate(dt)
-	if dt <= 0 then				return		end
-	if doUpdates then processCamera(dt)			end
-	if notIdle then notIdle = false		return		end
+local skipActorUpdate
 
-	local g = L.getActiveGroup(self, 0)
-	notIdle = L.controls.sneak or L.getStance(self) ~= Actor.stanceNone or not Anim.idleGroups[g]
-	if not notIdle then	return		end
-
-	if not(g == "turnleft" or g == "turnright") and V.idlenum > 0 then
-		for _, v in ipairs(Anim.clear) do Anim.cancel(self, v)		end
-		V.idlenum = 0
+I.AnimationController.addPlayBlendedAnimationHandler(function(g, o)
+	if g:find("^idle") and Status.attack then
+		return
 	end
-	if posing then		stopPosing()	end
+	Status.lastGroup = g
+	Status.inFirst = MD.getMode() == MD.FirstPerson
+	skipActorUpdate = false
+end)
+
+local function onUpdate(dt)
+	if dt <= 0 then		return				end
+	if doUpdates then	processCamera(dt)		end
+
+	if skipActorUpdate then		return			end
+
+--	print("onUPDATE ACTOR UPDATE")
+	skipActorUpdate = true		local s, a = Status, Anim
+	updateStatus(s)
+	local block = s.inFirst or s.skipIdles or posing or not s.controls
+	if block then
+		if a.playingIdle then
+			a:cancelAllIdles()
+		end
+		return
+	end
+
+	local wasIdle = not a.notIdle
+	a:updateStatus(s)
+	if a.notIdle and wasIdle then
+--	print("SET NOTIDLE FLAG TRUE")
+		a:cancelAllIdles()
+		if posing then		stopPosing()		end
+	elseif not(wasIdle or a.notIdle) then
+--	print("SET NOTIDLE FLAG FALSE")
+	end
+
 end
 
+
+local dialog = { omw50 = core.API_REVISION < 129, lastGreeting = {} }
 
 local function uiModeChanged(data)
 	if raceChangeModes[data.oldMode] then
@@ -576,6 +680,10 @@ local function uiModeChanged(data)
 		end
 		if not data.pause then		combatActors = {}		end
 		if data.arg ~= self and Actor.isActor(data.arg) then
+			if data.arg == dialog.lastGreeting.actor then
+				data.greeting = dialog.lastGreeting
+			end
+			dialog.lastGreeting = {}
 			core.sendGlobalEvent("dynDialogOpened", data)
 			inDialog = true		onDialogOpened(data)
 		end
@@ -583,7 +691,8 @@ local function uiModeChanged(data)
 		core.sendGlobalEvent("dynDialogChange", data)
 	elseif data.newMode == nil and dialogTarget then
 		core.sendGlobalEvent("dynDialogClosed", data)
-		inDialog = false	onDialogClosed(data)
+		inDialog = false
+		onDialogClosed(data)
 	end
 	if not dialogTarget then	return		end
 	if forceHudModes[data.newMode] then
@@ -594,14 +703,12 @@ local function uiModeChanged(data)
 end
 
 
-local useHelper = true
-
 return {
 	engineHandlers = {
 		onUpdate = onUpdate, onKeyPress = onKeyPress,
 		onQuestUpdate = function(id, stage)
 			if dialogTarget then
-				dialogTarget:sendEvent("dynamicActors",
+				dialogTarget:sendEvent("DynamicActors",
 					{event="onQuestUpdate", questId=id, questStage=stage})
 			end
 		end
@@ -609,36 +716,41 @@ return {
 	eventHandlers = {
 		UiModeChanged = uiModeChanged,
 		DialogueResponse = function(e)
-			useHelper = false
-			if dialogTarget and e.type ~= "voice" then
-				dialogTarget:sendEvent("dynInfoEvent", { info = { id=e.infoId } })
+			if dialogTarget and e.type == "topic" then
+				dialogTarget:sendEvent("DynamicActors",
+					{ event="DialogueResponse", infoId = e.infoId })
+			elseif e.type == "greeting" then
+				dialog.lastGreeting = { actor=e.actor, infoId=e.infoId }
 			end
 		end,
 		tes3InfoGetText = function(e)
-			if useHelper and dialogTarget then
-				dialogTarget:sendEvent("dynInfoEvent", e)
+			if dialog.omw50 and dialogTarget then
+				dialogTarget:sendEvent("DynamicActors",
+					{ event="DialogueResponse", infoId = e.info.id })
 			end
 		end,
-		dynUiMessage = function(e) ui.showMessage(l10n(e)) end,
+		dynUiMessage = function(e)	ui.showMessage(l10n(e))		end,
 		OMWMusicCombatTargetsChanged = function(e)
-			if not e.actor then 		return			end
-			local inCombat
+			if not e.actor then		return		end
+			local targetPlayer
+		--	if not types.Actor.isDead(e.actor) then
 			if e.targets and next(e.targets) ~= nil then
 				for _, target in ipairs(e.targets) do
 					if target == self.object then
-						inCombat = true
+						targetPlayer = true
 						break
 					end
 				end
 			end
-			if combatActors[e.actor.id] == inCombat then
-				return
-			end
+			combatActors[e.actor.id] = targetPlayer
+			local inCombat = next(combatActors) ~= nil
+			if Status.inCombat == inCombat then	return		end
 
-			combatActors[e.actor.id] = inCombat
+			print("COMBAT STATUS CHANGE")
+			Status.inCombat = inCombat		Anim:updateStatus(Status)
 			if not inCombat then		return			end
 
-			if dialogTarget then
+			if dialogTarget and not core.isWorldPaused() then
 				core.sendGlobalEvent("dynForcePause")
 			end
 			local pos1, pos2 = e.actor.position, self.object.position
@@ -653,9 +765,12 @@ return {
 		version = 115,
 --[[
 		c = function()		return common			end,
-		help = function()	return useHelper		end,
+		help = function()	return dialog.omw50		end,
 		updates = function()	return doUpdates		end,
+
 		bars = dCam.bars,
+		posing =function()	return posing			end,
+		anim = function()	return Anim			end,
 		combat = function()	return combatActors		end
 --]]
 	}
