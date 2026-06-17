@@ -17190,7 +17190,7 @@ I suffer this malady no longer, thanks to you.  The curse has been lifted, and I
 
 > INFO.NAME eternal wakefulness 22813145269358705
 I didn't think I would ever feel the need to relieve Thormoor Gray-Wave's misery, but you did me a great service by returning Oddfrid White-Lip.  As a show of thanks, I will now remove Thormoor's curse.  [Geilir begins making several odd hand gestures, and mumbles under his breath.]  There!  Thormoor's curse has been lifted!  He will now find the sleep I have denied him for so many months.  I...I hope he finds peace.  He'll sleep, but even I can't stop a guilty man's nightmares.
-我本以为我永远不会觉得有必要解除托尔穆尔·灰浪的痛苦，但你归还了奥德弗里德·白唇，为我做了一件大好事。为了表示感谢，我现在要解除托尔穆尔的诅咒。[盖利尔做了几个奇怪的手势，嘴里喃喃者盖利尔] 好了！托尔穆尔的诅咒解除了！他现在可以睡个安稳觉了，这几个月来我一直不让他睡觉。我…我希望他能安息。他会睡着的，但即使是我，也无法阻止一个有罪之人的噩梦。 {需要}
+我本以为我永远不会觉得有必要解除托尔穆尔·灰浪的痛苦，但你归还了奥德弗里德·白唇，为我做了一件大好事。为了表示感谢，我现在要解除托尔穆尔的诅咒。[盖利尔做了几个奇怪的手势，嘴里还低声嘟囔着。] 好了！托尔穆尔的诅咒解除了！他现在可以睡个安稳觉了，这几个月来我一直不让他睡觉。我…我希望他能安息。他会睡着的，但即使是我，也无法阻止一个有罪之人的噩梦。 {需要}
 
 > INFO.NAME eternal wakefulness 623513199740527164
 Thormoor's curse has already been removed.  He will be able to sleep now, for as long as he likes.
@@ -18127,8 +18127,7 @@ Ah, not yet dear %PCClass.  First you must bring me the Skull of Oddfrid White-L
 > INFO.NAME tell your future 198422033013887203
 """%PCClass, the skull of Oddfrid White-Lip is speaking to me, telling me your future. She says...she says you have accomplished much here on Solstheim, and your future is unclear. But wait! She sees something else.  Something very cloudy, something that could affect us all.  When the dragon dies, the Empire dies. Where is the lost dragon's blood, the
 Empire's sire? And from the womb of the void, who shall stem the blood tide? I...I do not know what this means.  It is very unclear...."""
-"""%PCClass，奥德弗里德·白唇的头骨在跟我说话，告诉我你的未来。她说…她说你在索瑟泰姆已经取得了很多成就，但你的未来还不明朗。但是等等！她看到了别的东西。一些非常阴暗的东西，一些会影响我们所有人的东西。当龙死去，帝国灭亡之时。失去的龙之血在哪里？
-帝国的陛下？从虚空之中，谁能阻止血流成河的未来？我…我不知道这意味着什么，很不清楚…… {泰姆瑞尔帝国,沙尔}"""
+%PCClass，奥德弗里德·白唇的头骨在跟我说话，告诉我你的未来。她说…她说你在索瑟泰姆已经取得了很多成就，但你的未来还不明朗。但是等等！她看到了别的东西。一些非常阴暗的东西，一些会影响我们所有人的东西。当龙死去，帝国灭亡之时。失去的龙之血在哪里，帝国的陛下？从虚空之中，谁能阻止血流成河的未来？我…我不知道这意味着什么，很不清楚…… {泰姆瑞尔帝国,沙尔}
 
 > INFO.NAME tell your future 30317141171093612725
 I'm sorry %PCCLass, but that is all I see.  I've have told your future.  What you do with that information is entirely up to you.
@@ -21784,7 +21783,7 @@ I'm sorry, but I'm not in the mood for visitors right now.  Just look at this me
 
 > INFO.NAME greeting 1 20888149043190219153
 %PCClass, you've returned!  And you've found Oddfrid!  Yes, I know...Oddfrid is a skull.  She was a skull when I first found her, but she does talk to me.  I hear her voice inside my head.  I would have told you the truth, but I didn't want you to think I was crazy.  So tell me, %PCName -- do you want me to tell your future?  Or perhaps I should first remove Thormoor's curse of eternal wakefulness?
-%PCClass，你回来了！你找到了奥德弗里德！是的，我知道…奥德弗里德是个骷髅。我第一次发现她的时候她还是个骷髅头，但她能跟我说话，我听到她的声音在我脑海里，我本想告诉你真相，但我不想让你觉得我疯了，告诉我，%PCName——你想让给你算命吗？或者我应该先解除托尔穆尔的永不安寝诅咒？ {谈}
+%PCClass，你回来了！你找到了奥德弗里德！是的，我知道…奥德弗里德是个骷髅。我第一次发现她的时候她就是个骷髅头，但她能跟我说话，我听到她的声音在我脑海里，我本想告诉你真相，但我不想让你觉得我疯了，告诉我，%PCName——你想让给你算命吗？或者我应该先解除托尔穆尔的永不安寝诅咒？ {谈}
 
 > INFO.NAME greeting 1 122091097725907012
 So, Kolfinna is seeking wergild for the death of her husband, eh?  Never!  Pinetear has been in my family for generations and will be for generations to come.  Besides, Gustav got what he had coming.
