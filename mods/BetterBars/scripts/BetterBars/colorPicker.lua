@@ -19,7 +19,6 @@ COLOR_RENDERER_ID = "SuperColorPicker2"
 -- COLOR HISTORY CONFIGURATION
 local MAX_HISTORY_COLORS = 40
 local SWATCH_SIZE = 22
-local SWATCH_SPACING = 4
 
 local colorBoxElement = nil
 
@@ -1070,7 +1069,6 @@ local function makeColorPickerBox(value, set, argument)
             horizontal = true,
             align = ui.ALIGNMENT.Center,
             arrange = ui.ALIGNMENT.Start,
-            gap = SWATCH_SPACING,
         },
         content = ui.content(historySwatchContent),
     }
@@ -1081,7 +1079,6 @@ local function makeColorPickerBox(value, set, argument)
             horizontal = true,
             align = ui.ALIGNMENT.Center,
             arrange = ui.ALIGNMENT.Start,
-            gap = SWATCH_SPACING,
         },
         content = ui.content(historySwatchContent2),
     }
@@ -1097,7 +1094,6 @@ local function makeColorPickerBox(value, set, argument)
             position = util.vector2(0, 0),
             relativePosition = util.vector2(0.5, 0.71),
             anchor = util.vector2(0.5, 0),
-            gap = 4,
         },
         content = ui.content{
             historyLabel,

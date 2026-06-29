@@ -447,7 +447,7 @@ local function hasRestoreHealth(spell)
 	if spellsWithRestoreHealth[id] ~= nil then
 		return spellsWithRestoreHealth[id]
 	end
-	local source = core.magic.spells.records[id] or types.Potion.records[id]
+	local source = core.magic.spells.records[id] or types.Potion.records[id] or types.Ingredient.records[id]
 	-- Enchanted item (equipped)
 	if not source and spell.item then
 		local enchantId = spell.item.type.record(spell.item).enchant or ""

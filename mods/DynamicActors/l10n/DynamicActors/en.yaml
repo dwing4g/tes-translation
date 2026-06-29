@@ -41,9 +41,11 @@ settings_camera_08_name: "Auto zoom-in focal point offset"
 settings_camera_08_desc: "Horizontal offset +/- in degrees"
 
 settings_player_name: "Player Settings"
-settings_player_setting06_name: "Choose hotkey used to activate special Actions"
-settings_player_setting06_desc: "Use Actions hotkey to play a Custom animation on player.
- Use Actions key in 3rd Person mode during Dialogue, to enable/disable control of camera."
+settings_player_setting06_name: "Hotkey to activate Pose for Camera Mode"
+settings_player_setting06_desc: "Use \'Pose\' hotkey to play a Custom animation on player.
+ Use \'Pose\' key in 3rd Person mode during Dialogue, to enable/disable control of camera."
+settings_player_setting06a_name: "Hotkey to force pause the game during Dialogue"
+settings_player_setting06a_desc: "If not set, click and select a key/button for this action."
 settings_player_setting07_name: "Player base idle animation (main)"
 settings_player_setting07_desc: "Animation played on player when standing still"
 settings_player_setting08_name: "Player base idle animation (upper body)"

@@ -321,8 +321,13 @@ return {
 				end
 			end
 		end,
-		dynDialogChange = function()
-			if dialogActor and settings:get("unpause_dialog_opt") == "opt_nopause" then
+		dynDialogChange = function(pause)
+			if not dialogActor then		return		end
+			if pause then
+				if not world.getPausedTags()["ui"] then
+					world.pause("ui")
+				end
+			elseif settings:get("unpause_dialog_opt") == "opt_nopause" then
 				world.unpause("ui")
 			end
 		end,

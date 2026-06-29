@@ -38,8 +38,11 @@ settings_camera_08_name: "自动拉进的焦点偏移"
 settings_camera_08_desc: "水平偏移+/-度数"
 
 settings_player_name: "玩家设置"
-settings_player_setting06_name: "选择用于激活特殊动作的快捷键"
-settings_player_setting06_desc: "使用动作快捷键来播放玩家自身的自定义动画。在第三人称模式的对话期间使用动作键，以启用/禁用相机控制。"
+settings_player_setting06_name: "激活拍照姿势模式的快捷键"
+settings_player_setting06_desc: "使用“姿势”快捷键在玩家身上播放自定义动画。
+ 在对话期间的第三人称模式下使用“姿势”键，以启用/禁用相机控制。"
+settings_player_setting06a_name: "在对话期间强制暂停游戏的快捷键"
+settings_player_setting06a_desc: "如果未设置，请点击并为此操作选择一个按键/按钮。"
 settings_player_setting07_name: "玩家基础空闲动画(主要)"
 settings_player_setting07_desc: "玩家静止站立时播放的动画"
 settings_player_setting08_name: "玩家基础空闲动画(上身)"

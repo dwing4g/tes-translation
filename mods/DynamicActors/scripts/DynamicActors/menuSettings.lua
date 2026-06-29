@@ -24,6 +24,11 @@ end)
 
 I.Settings.registerRenderer("hiddenKey", function() return {content = ui.content {}} end)
 
+input.registerTrigger {
+	key = "dActors_pause",
+	l10n = "DynamicActors"
+}
+
 
 I.Settings.registerPage {
    key = "dynamicactors_camera",
@@ -117,6 +122,16 @@ I.Settings.registerGroup({
 	renderer = "inputKeyBox",
 	name = "settings_player_setting06_name",
 	description = "settings_player_setting06_desc",
+	},
+        {key = "pauseControl",
+	default = "pauseDialogKey",
+	name = "settings_player_setting06a_name",
+	description = "settings_player_setting06a_desc",
+	renderer = "inputBinding",
+	argument = {
+		key = "dActors_pause",
+		type = "trigger",
+		},
 	},
         {key = "baseIdleAnim_main",
 	name = "settings_player_setting07_name",

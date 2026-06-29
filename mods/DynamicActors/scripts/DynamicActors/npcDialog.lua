@@ -288,7 +288,12 @@ local function initNPCdiag(data)
 	local var = interop
 	if path then
 		plugin = require(path) or {}
-		infoList = plugin.infoList
+		if plugin.infoList then
+			infoList = {}
+			for k, v in pairs(plugin.infoList) do
+				infoList[k:lower()] = v
+			end
+		end
 		addHandlers(plugin)
 		if plugin.getVariableStore then plugin.getVariableStore(var) end
 	end
@@ -384,7 +389,7 @@ function events.DialogueResponse(e)
 	plugin.onInfoGetText { info = { id = e.infoId } }
 	plugin.DialogueResponse(e)
 	if not infoList then 		return		end
-	local playlist = infoList[e.infoId]
+	local playlist = infoList[e.infoId] or infoList[e.recordId or ""]
 	if not playlist then		return		end
 	local play, name, o
 	local mask = playlist.bodypart

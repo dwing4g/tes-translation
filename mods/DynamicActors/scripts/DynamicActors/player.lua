@@ -330,7 +330,7 @@ local function onDialogOpened(data)
 end
 
 local function onDialogClosed(data)
-	dialogTarget  = nil
+	dialogTarget = nil
 --	if camsave.hud ~= I.UI.isHudVisible() then I.UI.setHudVisibility(camsave.hud) end
 	I.UI.setHudVisibility(true)
 --	zoom1st.extraYaw = 0
@@ -663,7 +663,22 @@ local function onUpdate(dt)
 end
 
 
-local dialog = { omw50 = core.API_REVISION < 129, lastGreeting = {} }
+local dialog = { lastGreeting = {} }
+if core.API_REVISION < 129 then
+	dialog.tes3InfoGetText = function(e)
+		if dialogTarget then
+			dialogTarget:sendEvent("DynamicActors",
+				{ event="DialogueResponse", infoId = e.info.id })
+		end
+	end
+end
+
+input.registerTriggerHandler("dActors_pause", async:callback(function()
+	if dialogTarget then
+		dialog.forcePause = true
+		core.sendGlobalEvent("dynForcePause")
+	end
+end))
 
 local function uiModeChanged(data)
 	if raceChangeModes[data.oldMode] then
@@ -679,7 +694,9 @@ local function uiModeChanged(data)
 			end
 		end
 		if not data.pause then		combatActors = {}		end
+		dialog.forcePause = false
 		if data.arg ~= self and Actor.isActor(data.arg) then
+			I.UI.setPauseOnMode(dialogModes.dialog, true)
 			if data.arg == dialog.lastGreeting.actor then
 				data.greeting = dialog.lastGreeting
 			end
@@ -688,11 +705,16 @@ local function uiModeChanged(data)
 			inDialog = true		onDialogOpened(data)
 		end
 	elseif inDialog and dialogModes[data.newMode] then
-		core.sendGlobalEvent("dynDialogChange", data)
+	--	core.sendGlobalEvent("dynDialogChange", data)
+		if dialog.forcePause then
+			I.UI.setPauseOnMode(data.newMode, true)
+		end
+		core.sendGlobalEvent("dynDialogChange", dialog.forcePause)
 	elseif data.newMode == nil and dialogTarget then
 		core.sendGlobalEvent("dynDialogClosed", data)
 		inDialog = false
 		onDialogClosed(data)
+		settings.update.global()
 	end
 	if not dialogTarget then	return		end
 	if forceHudModes[data.newMode] then
@@ -718,17 +740,12 @@ return {
 		DialogueResponse = function(e)
 			if dialogTarget and e.type == "topic" then
 				dialogTarget:sendEvent("DynamicActors",
-					{ event="DialogueResponse", infoId = e.infoId })
+					{ event="DialogueResponse", infoId=e.infoId, recordId=e.recordId })
 			elseif e.type == "greeting" then
-				dialog.lastGreeting = { actor=e.actor, infoId=e.infoId }
+				dialog.lastGreeting = { actor=e.actor, infoId=e.infoId, recordId=e.recordId }
 			end
 		end,
-		tes3InfoGetText = function(e)
-			if dialog.omw50 and dialogTarget then
-				dialogTarget:sendEvent("DynamicActors",
-					{ event="DialogueResponse", infoId = e.info.id })
-			end
-		end,
+		tes3InfoGetText = dialog.tes3InfoGetText,
 		dynUiMessage = function(e)	ui.showMessage(l10n(e))		end,
 		OMWMusicCombatTargetsChanged = function(e)
 			if not e.actor then		return		end
@@ -762,12 +779,11 @@ return {
 
 	interfaceName = "DynamicActors",
 	interface = {
-		version = 115,
+		version = 133,
 --[[
 		c = function()		return common			end,
 		help = function()	return dialog.omw50		end,
 		updates = function()	return doUpdates		end,
-
 		bars = dCam.bars,
 		posing =function()	return posing			end,
 		anim = function()	return Anim			end,
