@@ -71407,7 +71407,7 @@ Goodbye"
  INFO.NNAM "2364123155138594610$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Bryngrim$00"
- INFO.NAME "递装备过来？那就交出来吧。"
+ INFO.NAME "要分发装备？那就交出来吧。"
  INFO.SCVR "04JX0CO_13a"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal CO_13a = 20
@@ -84576,7 +84576,7 @@ Journal CO_8 30"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "我从没想过要和这里的野蛮人接触。不，我只是想把他们的一些装备弄到手。现在你要负责把这些装备送给我派到岛上的人，当然是雇佣兵，但装备齐全后，他们看起来就像斯卡尔人一样。大厅的桌子下面有两个袋子，把盔甲和武器装进去，交给托拉尔夫。"
+ INFO.NAME "我可不敢妄想真的去接触住在这里的野蛮人。不，我只是确保弄到了他们的一些装备。现在你要负责把这些装备送到我派来岛上的那些人手中。当然，他们是雇佣兵，但只要装备齐全，看起来就会和斯卡尔人一模一样。大厅里桌子底下有两个袋子，把里面的盔甲和武器取出来，交给托拉尔夫。"
  INFO.SCVR "02sX0ColonySide"
  INFO.INTV [02 00 00 00]
  #0: Global-short ColonySide = 2
@@ -84864,7 +84864,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Toralf$00"
- INFO.NAME "是的，你们的武器和盔甲。把盔甲和武器给我的人每人一件，你们弄完了告诉我一声，快点。"
+ INFO.NAME "喂，你们得到的武器和盔甲。给我的人每人发一件盔甲和一把武器，干完后立刻告诉我。快点，现在就做。"
  INFO.SCVR "04JX0CO_13a"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_13a = 10
