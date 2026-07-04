@@ -102,36 +102,37 @@ local V = { idle2sec = 2, idleCounter = 0 }
 
 local actionKey = nil
 local currentanim = 1
-local poseOpt = {save=1, choose=false, count=0}
-local dialogTarget, inDialog
-local dialogCam = { controls=false, block=false, instant=false, firstAuto=false,
+local poseOpt = {save = 1, choose = false, count = 0, offset3rd = camera.getFocalPreferredOffset()}
+local dialogTarget
+dialogCam = { controls=false, block=false, instant=false, firstAuto=false,
 	height=100, interval=2, counter=0, adjust=true, pos=nil }
-poseOpt.offset3rd = camera.getFocalPreferredOffset()
 local zoom1st = {enabled=false, dist=70, speed=1, offset=0, force=false, level=0, vector=nil}
 local camsave = {mode=camera.getMode(), offset=nil, offset1st=nil, offset3rd=poseOpt.offset3rd, extrayaw=0}
-local doUpdates = false
-local logging = false
-local combatActors = {}
-
 
 common = {
 	poseOpt=poseOpt, zoom1st=zoom1st, dialogCam=dialogCam, camSave = camsave,
-	MD=MD, Actor = Actor,
+	MD=MD, Actor = Actor, settings = settings,
 	omw = { self=self, input=input, core=core, types=types, util=util, camera=camera,
-		ui=ui, interfaces=I, async=async }
+		ui=ui, interfaces=I, async=async, nearby=nearby }
 }
 
 
 local Anim = require("scripts.DynamicActors.playerAnimations")
-
-common.anims = Anim		common.Anim = Anim
 Anim.isBeast = types.NPC.races.records[types.NPC.records[self.recordId].race].isBeast
+common.anims = Anim		common.Anim = Anim
 
 local dCam = require("scripts.DynamicActors.playerCamera")
 local heights = require("scripts.DynamicActors.configCamera")
 heights.byRecord = require("scripts.DynamicActors.userConfig.Dialog NPC Camera positions")
 dCam.heights = heights
-common.dCam = dCam
+common.dCam = dCam		common.heights = heights
+
+local dialog = require("scripts.DynamicActors.playerDialog")
+
+local doUpdates = false
+local logging = false
+local combatActors = {}
+
 
 local L = {
 	getActiveGroup = Anim.getActiveGroup,
@@ -162,7 +163,7 @@ function settings.update.global()
 		I.UI.setPauseOnMode(m, pause)
 	end
 	I.UI.setPauseOnMode("Dialogue", true)
-	logging = settings.global:get("debuglog")	common.logging = logging
+	logging = dialog.set.logging(settings.global:get("debuglog"))	common.logging = logging
 	Anim.visibleShields = settings.global:get("visible_shields")
 end
 
@@ -182,177 +183,15 @@ do
 end
 
 
-local function getActorHeight(o)
-	if types.Creature.objectIsInstance(o) then
-		local box = o:getBoundingBox()
-		return (box.center.z + box.halfSize.z - o.position.z) / o.scale
-	end
-	local rec = types.NPC.records[o.recordId]
-	local gender = rec.isMale and "male" or "female"
-	return types.NPC.races.records[rec.race].height[gender] * 128
-end
-
-local function getActorRatios(o)
-	if types.Creature.objectIsInstance(o) then
-		return util.transform.scale(1, 1, 1)
-	end
-	local rec = types.NPC.records[o.recordId]
-	local gender = rec.isMale and "male" or "female"
-	local height = types.NPC.races.records[rec.race].height[gender]
-	local weight = types.NPC.races.records[rec.race].weight[gender]
-	return util.transform.scale(weight, weight, height)
-end
-
-local function onDialogOpened(data)
-	camsave.offset1st = camera.getFirstPersonOffset()
-	camsave.dist3rd = camera.getThirdPersonDistance()
-	camsave.hud = I.UI.isHudVisible()
-	zoom1st.level, zoom1st.scale, zoom1st.force, zoom1st.zoomOut = 0, 1, false, false
-	zoom1st.extraYaw = 0
-	zoom1st.speed = settings.camera:get("dialog_1st_zoom_speed") / 100
-	zoom1st.offset = math.rad(settings.camera:get("dialog_1st_zoom_offset"))
-	zoom1st.dist = settings.camera:get("dialog_1st_zoomdist")
-	camsave.yaw, camsave.pitch, camsave.extrayaw = camera.getYaw(), camera.getPitch(), camera.getExtraYaw()
-	local npc = data.arg			dialogTarget = npc
-	if data.pause or not data.near or (npc.position - self.position):length() > 1000 then
-		return
-	end
-
-	local d = dialogCam
-	d.interval, d.counter, d.adjust = 2, 0, true
---	d.playerHeight = getActorHeight(self) * self.scale
---	d.playerEyesVec = v3(0, 0, d.playerHeight * 0.974)
-	d.playerEyesVec = v3(0, 0, getActorHeight(self) * self.scale * 0.974)
-	d.target = npc
-	d.radius, d.head, d.animKeys = 0
-	d.npcSizeRatios = getActorRatios(npc)
---	d.height = types.Creature.objectIsInstance(npc) and getActorHeight(npc) * 0.85 or 128 * 0.85
---	d.vecFocalDefault = d.npcSizeRatios:apply(v3(0, 0, d.height * npc.scale))
-	d.vecFocalDefault = v3(0, 0, getActorHeight(npc) * npc.scale * 0.85)
-
-	d.barsRatio = settings.camera:get("dialog_1st_ratio") or 0
-	dCam.enableShaders(true)
-	d.aperture = d.shaders and settings.camera:get("dialog_1st_dof_str") / 100 or 0
---	d.ratio = d.shaders and settings.camera:get("dialog_1st_ratio") or 0
-
-	local file = npc.type.records[npc.recordId].model:lower() or ""
-	local height = heights.byAnim[file]
-	if not height then
-		local i, j = string.find(file, "/[^/]*$")
-		file = i and string.sub(file, i+1, j) or file
-		height = heights.byAnim[file]
-	end
-
-	local useBox, focusHeight, focusVec = true
-	if height then
-		useBox = false
-		d.animKeys = height.keys
-		local vec = height.focal or (height[1] and v3(0, 0, height[1]))
-		d.headPosAnim = vec and d.npcSizeRatios:apply(vec) * npc.scale or d.vecFocalDefault
-		if logging and next(height) then	print(file)		end
-		zoom1st.dist = height.distance and math.max(height.distance, zoom1st.dist) or zoom1st.dist
-	elseif types.Creature.objectIsInstance(npc) then
-		for _, v in ipairs(heights.byModel) do
-			if file:find(v.id) then
-		--		print(v.id, v.height, v.scale)
-				useBox = false
-				focusHeight = v.height
-				if v.scale then zoom1st.scale = v.scale		end
-				if v.radius then d.radius = v.radius		end
-				if v.focal then focusVec = v.focal		end
-			end
-		end
-	end
-	for _, v in ipairs(heights.byRecord) do
-		if string.find(npc.recordId, "^"..v.id) then
-			useBox = false
-			if v.height then focusHeight = v.height		end
-		--	if v.camAdjust then d.adjust = v.camAdjust		end
-			if v.camAdjust ~= nil then d.adjust = v.camAdjust	end
-		--	if v.scale then zoom1st.scale = v.scale			end
-			if v.radius then d.radius = v.radius			end
-			if v.focal then focusVec = v.focal			end
-			zoom1st.dist = v.distance and math.max(v.distance, zoom1st.dist) or zoom1st.dist
-			break
-		end
-	end
-
-	if focusHeight and not focusVec then
-		focusVec = v3(0, 0, focusHeight)
-	end
-	if focusVec then
-		d.vecFocalDefault = d.npcSizeRatios:apply(focusVec) * npc.scale
-	end
-	if useBox then
-		if logging then print("OPENED: USEBOX FOR")		end
-		local box = npc:getBoundingBox()
-		focusVec = (npc.position - box.center)
-		focusVec = focusVec.xy0 + util.vector3(0, 0, (math.abs(focusVec.z) + box.halfSize.z) * 0.85)
-		if types.Creature.objectIsInstance(npc) then
-			d.radius = math.max(box.halfSize.x, box.halfSize.y)
-		end
-	end
-	focusVec = focusVec or d.vecFocalDefault
-
---	d.pos = npc.position	
-	d.deltaPos = npc.position - self.position
-	dCam.autoCamUpdate(0)
---	if d.head then
---		d.head = d.npcSizeRatios:apply(d.head) * npc.scale
---	else
---		d.head = d.vecFocalDefault
---	end
-	d.radius = d.radius * npc.scale
-	if logging then print(focusVec, d.radius)		end
-
-	zoom1st.zoomIn = d.firstZoom		zoom1st.delay = 0
-	local res = nearby.castRay(d.playerEyesVec + self.position, focusVec + npc.position,
-		{ ignore={self, npc} })
-	if res.hitObject and Actor.isActor(res.hitObject)
-		and (self.position - npc.position):length() < 250 then
-	elseif res.hit then
-		zoom1st.zoomIn = false
-	end
-	d.controls, d.isActive, d.instant = false, true, false
-	if settings.camera:get("dialog_disableHud") and I.UI.isHudVisible() then
-		I.UI.setHudVisibility(false)
-	end
-	if not posing then
-		camsave.mode, camsave.offset3rd = camera.getMode(), camera.getFocalPreferredOffset()
-		if d.firstAuto and settings.global:get("unpause_dialog_opt") ~= "opt_alwayspause" then
-			if camera.getMode() ~= MD.FirstPerson then
-				camera.setMode(MD.FirstPerson)
-				d.instant = true		zoom1st.delay = 0.2
-			end
-		end
-	end
-	doUpdates = true
-end
-
-local function onDialogClosed(data)
-	dialogTarget = nil
---	if camsave.hud ~= I.UI.isHudVisible() then I.UI.setHudVisibility(camsave.hud) end
-	I.UI.setHudVisibility(true)
---	zoom1st.extraYaw = 0
-	if camera.getMode() == MD.FirstPerson and zoom1st.offset ~= 0 then
-		camera.setExtraYaw(camsave.extrayaw)
-	end
-	dialogCam.isActive = false		zoom1st.zoomIn = false
-	zoom1st.zoomOut = zoom1st.force
-	if not posing then
-		camera.setFocalPreferredOffset(camsave.offset3rd)
-		if not zoom1st.zoomOut then	dCam.restoreCamera()		end
-	end
-end
-
 --	Precaution if game was saved during dialogue
 I.UI.setHudVisibility(true)
+
 
 local function stopPosing()
 	Anim.handler("cancel", Anim.poses[currentanim].id)
 	camera.setFocalPreferredOffset(camsave.offset3rd)
 	I.Controls.overrideMovementControls(false)
-	posing = false
+	posing = dialog.set.posing(false)
 	ui.showMessage(l10n("msg_moveon"))
 	if camera.getMode() ~= MD.Preview then		return		end
 
@@ -535,7 +374,7 @@ end, 1 * time.second)
 
 local function startPosing()
 	ui.showMessage(l10n("msg_moveoff"))
-	posing = true			doUpdates = true
+	posing = dialog.set.posing(true)			doUpdates = true
 	Anim:cancelAllIdles()
 	local offset = Anim.poses[currentanim].offset
 	local speed = Anim.poses[currentanim].speed or 1
@@ -663,19 +502,9 @@ local function onUpdate(dt)
 end
 
 
-local dialog = { lastGreeting = {} }
-if core.API_REVISION < 129 then
-	dialog.tes3InfoGetText = function(e)
-		if dialogTarget then
-			dialogTarget:sendEvent("DynamicActors",
-				{ event="DialogueResponse", infoId = e.info.id })
-		end
-	end
-end
-
 input.registerTriggerHandler("dActors_pause", async:callback(function()
 	if dialogTarget then
-		dialog.forcePause = true
+		dialog.manualPause = true
 		core.sendGlobalEvent("dynForcePause")
 	end
 end))
@@ -694,7 +523,7 @@ local function uiModeChanged(data)
 			end
 		end
 		if not data.pause then		combatActors = {}		end
-		dialog.forcePause = false
+		dialog.manualPause = false
 		if data.arg ~= self and Actor.isActor(data.arg) then
 			I.UI.setPauseOnMode(dialogModes.dialog, true)
 			if data.arg == dialog.lastGreeting.actor then
@@ -702,19 +531,20 @@ local function uiModeChanged(data)
 			end
 			dialog.lastGreeting = {}
 			core.sendGlobalEvent("dynDialogOpened", data)
-			inDialog = true		onDialogOpened(data)
+			dialogTarget = data.arg			doUpdates = true
+			dialog.hasOpened(data)
 		end
-	elseif inDialog and dialogModes[data.newMode] then
+	elseif dialogTarget and dialogModes[data.newMode] then
 	--	core.sendGlobalEvent("dynDialogChange", data)
-		if dialog.forcePause then
+		if dialog.manualPause then
 			I.UI.setPauseOnMode(data.newMode, true)
 		end
-		core.sendGlobalEvent("dynDialogChange", dialog.forcePause)
+		core.sendGlobalEvent("dynDialogChange", dialog.manualPause)
 	elseif data.newMode == nil and dialogTarget then
 		core.sendGlobalEvent("dynDialogClosed", data)
-		inDialog = false
-		onDialogClosed(data)
-		settings.update.global()
+		dialogTarget = nil
+		dialog.hasClosed(data)
+		if dialog.manualPause then		settings.update.global()	end
 	end
 	if not dialogTarget then	return		end
 	if forceHudModes[data.newMode] then
@@ -737,14 +567,7 @@ return {
 	},
 	eventHandlers = {
 		UiModeChanged = uiModeChanged,
-		DialogueResponse = function(e)
-			if dialogTarget and e.type == "topic" then
-				dialogTarget:sendEvent("DynamicActors",
-					{ event="DialogueResponse", infoId=e.infoId, recordId=e.recordId })
-			elseif e.type == "greeting" then
-				dialog.lastGreeting = { actor=e.actor, infoId=e.infoId, recordId=e.recordId }
-			end
-		end,
+		DialogueResponse = dialog.DialogueResponse,
 		tes3InfoGetText = dialog.tes3InfoGetText,
 		dynUiMessage = function(e)	ui.showMessage(l10n(e))		end,
 		OMWMusicCombatTargetsChanged = function(e)
@@ -779,13 +602,15 @@ return {
 
 	interfaceName = "DynamicActors",
 	interface = {
-		version = 133,
+		version = 134,
 --[[
 		c = function()		return common			end,
 		help = function()	return dialog.omw50		end,
 		updates = function()	return doUpdates		end,
 		bars = dCam.bars,
-		posing =function()	return posing			end,
+
+		dialog = function()	return dialog			end,
+		posing = function()	return posing			end,
 		anim = function()	return Anim			end,
 		combat = function()	return combatActors		end
 --]]

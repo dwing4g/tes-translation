@@ -146,7 +146,7 @@ function M.autoCam(dt)
 
 	-- Force-set 1st person zoom every frame, to counter camera.lua resetting it
 	local lerp
-	if z.force then
+	if z.vector then
 		camera.setFirstPersonOffset(z.vector["0xy"] * (1 - (z.level - 1) ^ 6))
 	end
 	if z.extraYaw ~= 0 then
@@ -189,33 +189,36 @@ function M.autoCam(dt)
 		z.delay = z.delay - dt
 		return
 	end
-	if z.offset ~= 0 and (z.level > 0.6 or not z.zoomIn) then
+--	if z.offset ~= 0 and z.level > 0.2 then
+	if z.offset ~= 0 then
 		if z.extraYaw ~= z.offset then
 			local yaw = z.offset - z.extraYaw
-			v = dt * 3.5 * math.min((6 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 1)
+		--	v = dt * 3.5 * math.min((6 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 0.1)
+			v = dt * 3.5 * math.min((6 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 0.3 * z.offset)
 			z.extraYaw = z.extraYaw + util.clamp(yaw, -v, v)
 		end
 	end
-	if not z.zoomIn then		return		end
-
-	destVec = util.vector2(lengthXY, deltaPos.z)
-	local distance = (destVec:length() - d.radius) * z.scale
-	z.vector = destVec:normalize() * util.clamp(distance - z.dist, -5, 300)
-	if not z.force then
-		z.force = true
--- print(d.deltaPos:length(), distance, destVec:length(), math.max(distance - 300, z.dist))
+	if z.level >= 1 or not(z.zoomIn or z.offset ~= 0 or d.aperture > 0 or Bars.size) then
+		return
 	end
-
---	d.dDist = distance		d.destVec = destVec		d.lxy = lengthXY
-	if z.level >= 1 then		return		end
 
         z.level = z.level + (dt * z.speed)
 	z.level = math.min(1, z.level)
 --	if z.level >= 1 then		print("ZOOM IN DONE")		z.level = 1	end
+	destVec = util.vector2(lengthXY, deltaPos.z)
+	local distance = (destVec:length() - d.radius) * z.scale
+	if z.zoomIn then
+	--	if not z. vector then
+	-- print(d.deltaPos:length(), distance, destVec:length(), math.max(distance - 300, z.dist))
+	--	end
+	--	d.dDist = distance		d.destVec = destVec		d.lxy = lengthXY
+		z.vector = destVec:normalize() * util.clamp(distance - z.dist, -5, 300)
+	end
 	if d.aperture > 0 and z.level > 0.4 then
 		lerp = math.min(z.level - 0.4, 0.2) / 0.2
 		local dof = d.shaders.dof
-		dof.uDepth = d.radius / 3 + math.max(distance - 300, z.dist)
+		local depth = z.zoomIn and z.dist or distance
+		dof.uDepth = d.radius / 3 + math.max(distance - 300, depth)
 		dof.uAperture = d.aperture * lerp
 	end
 	if Bars.size and z.level > 0.2 then
@@ -313,7 +316,9 @@ function M.zoomOut1st(dt)
 	local lerp
 
 	if inFirst then
-		camera.setFirstPersonOffset(z.vector["0xy"] * z.level ^ 4)
+		if z.vector then
+			camera.setFirstPersonOffset(z.vector["0xy"] * z.level ^ 4)
+		end
 		if z.extraYaw ~= 0 then
 			local yaw = 0 - z.extraYaw
 			local v = dt * 3.5 * math.min((8 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 2)
@@ -321,7 +326,7 @@ function M.zoomOut1st(dt)
 			camera.setExtraYaw(z.extraYaw)
 		end
 
-		if cam.aperture > 0 and z.level > 0.5 then
+		if cam.aperture > 0 and z.zoomIn and z.level > 0.5 then
 			lerp = util.clamp(z.level - 0.6, 0, 0.4) / 0.4
 			local dof = cam.shaders.dof
 			dof.uDepth = z.dist	dof.uAperture = cam.aperture * lerp
@@ -337,14 +342,19 @@ function M.zoomOut1st(dt)
 		end
 
 	end
-	z.level = z.level - (dt * z.speed)
+	z.level = math.max(z.level - (dt * z.speed), 0)
 
 	local floor = common.camSave.mode == MD.FirstPerson and 0.2 or 0.5
-	if z.level > floor and inFirst then		return		end
+	if inFirst and (z.extraYaw ~= 0 or (z.vector and z.level > floor)) then
+		return
+	end
 
 --	print("Reset zoom and first person")
 	camera.setFirstPersonOffset(common.camSave.offset1st)
-	z.level, z.force = 0, false		z.zoomOut = false
+	if z.offset ~= 0 then
+		camera.setExtraYaw(0)
+	end
+	z.level, z.vector = 0		z.zoomOut = false
 	M.enableShaders(false)
 	if inFirst then		M.restoreCamera()		end
 end

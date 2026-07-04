@@ -108,6 +108,14 @@ events.removeScript = function(e)
 		end
 	end
 end
+events.Pause = function()
+	if world.getPausedTags()["ui"] == nil and dialogActor then
+		world.pause("ui")
+		if logging and player then
+			player:sendEvent("dynUiMessage", "msg_pause")
+		end
+	end
+end
 
 local function debugger(npc)
 	if not npc:hasScript("scripts/DynamicActors/npcDialog.lua") then print("script gone") end
@@ -202,9 +210,11 @@ function events.onDialogOpened(data)
 			end
 		end)
 	end
-	if types.Actor.isDead(o) or not data.near then		return		end
+	if types.Actor.isDead(o) or not types.Actor.canMove(o) or not data.near then
+		return
+	end
 
-	--  Check for poseable mannequins
+	--  Check for live poseable mannequins
 	if string.find(o.type.records[o.recordId].name:lower(), "mannequin") then
 		print("Is a mannequin. Disable animations.")
 		return
@@ -312,15 +322,7 @@ return {
 		dynDialogOpened = events.onDialogOpened,
 		dynDialogClosed = events.onDialogClosed,
 		onCellChangeOlh = resetActors,
-		dynRemoveScript = function(e)
-			if e.object and e.script then
-				local path = "scripts/dynamicactors/" .. e.script
-				if e.object:hasScript(path) then
-				--	debug(("%s removing %s"):format(e.object, e.script))
-					e.object:removeScript(path)
-				end
-			end
-		end,
+		dynRemoveScript = events.removeScript,
 		dynDialogChange = function(pause)
 			if not dialogActor then		return		end
 			if pause then
@@ -331,14 +333,7 @@ return {
 				world.unpause("ui")
 			end
 		end,
-		dynForcePause = function()
-			if world.getPausedTags()["ui"] == nil and dialogActor then
-				world.pause("ui")
-				if logging and player then
-					player:sendEvent("dynUiMessage", "msg_pause")
-				end
-			end
-		end,
+		dynForcePause = events.Pause,
 		dynTogglePause = function()
 			for k,v in pairs(world.getPausedTags()) do print(k,v) end
 			if world.getPausedTags()["ui"] == nil and dialogActor then

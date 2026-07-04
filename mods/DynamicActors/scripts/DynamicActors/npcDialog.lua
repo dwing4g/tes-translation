@@ -389,19 +389,27 @@ function events.DialogueResponse(e)
 	plugin.onInfoGetText { info = { id = e.infoId } }
 	plugin.DialogueResponse(e)
 	if not infoList then 		return		end
-	local playlist = infoList[e.infoId] or infoList[e.recordId or ""]
-	if not playlist then		return		end
-	local play, name, o
-	local mask = playlist.bodypart
-	if type(playlist.func) == "function" then
-		play, name, o = playlist.func()
-		if play == false then	return		end
+	local m = infoList[e.infoId] or infoList[e.recordId or ""]
+	m = type(m) == "function" and { FN=m } or m
+	if type(m) ~= "table" then	return		end
+	if m.pause then
+		core.sendGlobalEvent("DynamicActors", { event="Pause" })
+		return
 	end
-	name = name or playlist.name
-	if type(name) ~= "string" then	return		end
-	name = name:lower()
-	if not o then o = playlist.options end
-	o = o or {}
+
+	local name, o
+	if type(m.FN) == "function" then
+		local f = m.FN()
+		if f == false then		return		end
+		if type(f) == "table" then
+			name, o = f.groupName, f.options
+		end
+	end
+
+	name = name or m.name or m.groupName
+	if type(name) ~= "string" then		return		end
+	name = name:lower()		local mask = m.bodypart
+	o = type(o) == "table" and o or m.options or {}
 	o.blendMask = o.blendMask or getBodyPart(mask)
 	o.priority = o.priority or 4
 	debug(("Play plugin anim %s %s"):format(name, mask))
@@ -426,7 +434,7 @@ local function onUpdate(dt)
 	local turningToTarget = false
 	if turningEnabled and validAnim then
 		local deltaPos = dialogTarget.position - self.position
-		local destVec = util.vector2(deltaPos.x, deltaPos.y):rotate(self.rotation:getYaw())
+		local destVec = deltaPos.xy:rotate(self.rotation:getYaw())
 		local deltaYaw = math.atan2(destVec.x, destVec.y)
 		if math.abs(deltaYaw) > math.rad(20) then
 			turningToTarget = true
