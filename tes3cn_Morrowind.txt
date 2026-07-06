@@ -170594,13 +170594,13 @@ D<BR>
 -MISC
  MISC.NAME "key_Bthanchend_chest$00"
  MISC.MODL "m\Key_Standard_01.NIF$00"
- MISC.FNAM "开启贝桑什德箱子的钥匙$00"
+ MISC.FNAM "开启布桑什德箱子的钥匙$00"
  MISC.MCDT [00 00 00 00 2C 01 00 00 01 00 00 00]
  MISC.ITEX "m\Tx_key_standard_01.tga$00"
 -MISC
  MISC.NAME "key_Bthuand$00"
  MISC.MODL "m\Key_Standard_01.NIF$00"
- MISC.FNAM "开启贝桑德的钥匙$00"
+ MISC.FNAM "开启布桑德的钥匙$00"
  MISC.MCDT [00 00 00 00 2C 01 00 00 01 00 00 00]
  MISC.ITEX "m\Tx_key_standard_01.tga$00"
 -MISC
@@ -177336,7 +177336,7 @@ D.文物 - +35%<p>"
 -WEAP
  WEAP.NAME "dwarven halberd_soultrap$00"
  WEAP.MODL "w\W_Dwemer_halberd.nif$00"
- WEAP.FNAM "苏盎司的收割者$00"
+ WEAP.FNAM "布苏盎司的收割者$00"
  WEAP.WPDT [00 00 B0 41 84 03 00 00 06 00 E8 03 00 00 80 3F 66 66 E6 3F 46 00 01 12 01 0E 05 1D 01 00 00 00]
  WEAP.ITEX "w\Tx_Dwemer_halberd.tga$00"
  WEAP.ENAM "we_soultrap_en$00"
@@ -184288,7 +184288,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "1974230869338046$00"
  INFO.NNAM "3262214981174712277$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我找到了达格斯·乌尔，与他交战，打败了他，但我并没有消灭他。他似乎以灵魂的形式逃走了，也许是想回去借助心脏恢复力量。我必须追上他，找到并摧毁洛克汗之心上的魔法。 {魔法疾病,附魔之术}"
+ INFO.NAME "我找到了达格斯·乌尔，与他交战，打败了他，但我并没有消灭他。他似乎以灵魂的形式逃走了，也许是想回去借助心脏恢复力量。我必须追上他，找到并摧毁洛克汗之心上的附魔之术。 {魔法疾病}"
 -INFO
  INFO.INAM "3262214981174712277$00"
  INFO.PNAM "45011034145228996$00"
@@ -186343,7 +186343,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "3601262843096317546$00"
  INFO.NNAM "319938633070121050$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "我护送拉格什离开了阿维斯-德雷伦。"
+ INFO.NAME "我护送拉加什离开了阿维斯-德雷伦。"
 -INFO
  INFO.INAM "319938633070121050$00"
  INFO.PNAM "16408101053003620964$00"
@@ -192385,7 +192385,7 @@ D.文物 - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "3108320266200937559$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "为了打败达格斯·乌尔，维威克说我必须去红山从维密纳城堡之门那里取回神器锤子“决裂”，然后再从欧德罗萨城堡之门那里取回神器刀刃“哀恸”。然后，有了这些神器和幽魂影卫，如果我摧毁了达格斯·乌尔城堡中洛克汗之心的魔法，达格斯·乌尔就会被摧毁，枯萎之症也就结束了。维威克给了我'击败达格斯·乌尔的计划'来解释细节。 {魔法疾病,附魔之术}"
+ INFO.NAME "为了打败达格斯·乌尔，维威克说我必须去红山从维密纳城堡之门那里取回神器锤子“决裂”，然后再从欧德罗萨城堡之门那里取回神器刀刃“哀恸”。然后，有了这些神器和幽魂影卫，如果我摧毁了达格斯·乌尔城堡中洛克汗之心的附魔之术，达格斯·乌尔就会被摧毁，枯萎之症也就结束了。维威克给了我'击败达格斯·乌尔的计划'来解释细节。 {魔法疾病}"
 -INFO
  INFO.INAM "3108320266200937559$00"
  INFO.PNAM "307572302030133254$00"
@@ -193459,7 +193459,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "2906524836284511222$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "厄莎穆萨相信护身符能治愈困扰她族人的疾病。为了表示感谢，她把不屈之盾送给了我，这显然是当地的一个传说。"
+ INFO.NAME "厄莎穆萨相信这枚护符能让她治愈困扰她人民的疾病。为了表达感谢，她给了我不屈之盾，显然是当地的一件传奇器物。"
 -DIAL
  DIAL.NAME "MV_FakeSlave$00"
  DIAL.DATA [04]
@@ -193729,7 +193729,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "28463237491595118525$00"
  INFO.NNAM "13769130522793725213$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "马斯特里乌斯告诉我，破法者就在贝桑德，那是这座陵墓北面的一处锻莫遗迹。"
+ INFO.NAME "马斯特里乌斯告诉我，破法者就在布桑德，那是这座陵墓北面的一处锻莫遗迹。"
 -INFO
  INFO.INAM "13769130522793725213$00"
  INFO.PNAM "24450167033008728732$00"
@@ -200774,7 +200774,7 @@ Journal ""A2_6_Incarnate"" 54"
  INFO.BNAM ";Peakstar; Journal ""A2_6_Incarnate"" <= 50; 
 Choice ""继续"" 1"
 -DIAL
- DIAL.NAME "卡格瑞纳克的附魔$00"
+ DIAL.NAME "卡格瑞纳克的附魔之术$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "8704252122978780$00"
@@ -203665,7 +203665,7 @@ Player->AddItem ""key_archcanon_private"" 1"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagrum bagarn$00"
- INFO.NAME "一个了不起的故事。可惜不得不毁掉卡格瑞纳克在“心脏”上的附魔之术。要是能研究一下卡格瑞纳克的附魔就好了。 {魔法疾病}"
+ INFO.NAME "一个了不起的故事。可惜不得不毁掉卡格瑞纳克在“心脏”上的附魔之术。要是能研究一下卡格瑞纳克的附魔之术就好了。 {魔法疾病}"
  INFO.SCVR "04JX3C3_DestroyDagoth"
  INFO.INTV [32 00 00 00]
  #0: Journal-Journal C3_DestroyDagoth >= 50
@@ -217553,7 +217553,7 @@ RemoveItem key_murudius_01 1"
  INFO.NNAM "2272040503210818856$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "这是关于锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的神圣音调试图制造一个新神——阿努米迪文的解释。书中有一些关于如何弯曲埃赫诺菲，也就是“大地之骨”的有趣理论，但我自己并不完全理解。也许再经过一个世纪的研究，我能给你一个更好的答案。"
+ INFO.NAME "这是关于锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的圣音调试图制造一个新神——阿努米迪文的解释。书中有一些关于如何弯曲埃赫诺菲，也就是“大地之骨”的有趣理论，但我自己并不完全理解。也许再经过一个世纪的研究，我能给你一个更好的答案。 {神圣}"
  INFO.SCVR "34JX3MG_Dwarves"
  INFO.INTV [46 00 00 00]
  #3: Journal-Journal MG_Dwarves >= 70
@@ -217563,7 +217563,7 @@ RemoveItem key_murudius_01 1"
  INFO.NNAM "15558252691775522761$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "是的，我现在可以翻译这些书了。这第一本是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。少数音调的锻莫族认为，使用洛克汗之心的力量是一种不合理的冒险。《时之卵》收录了贝桑德反对这一观点的论据，其中许多论点颇具说服力。下一本书《圣之玄理》则解释了锻莫如何利用《卡格瑞纳克的工具》和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}"
+ INFO.NAME "是的，我现在可以翻译这些书了。这第一本是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。下一本书《圣之玄理》则解释了锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}"
  INFO.SCVR "05IX2bk_DivineMetaphysics"
  INFO.INTV [00 00 00 00]
  #0: Item-Item bk_DivineMetaphysics > 0
@@ -222923,14 +222923,14 @@ Journal ""town_Sadrith"" 15"
  INFO.NNAM "29296163332644424431$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "widow vabdas$00"
- INFO.NAME "在拉格路布杀了我的丈夫之后，他们只能这么做了。"
+ INFO.NAME "在拉格路布杀了我的丈夫之后，这是他们应该的。"
 -INFO
  INFO.INAM "29296163332644424431$00"
  INFO.PNAM "2201221662487716577$00"
  INFO.NNAM "95975916249321017$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "general darius$00"
- INFO.NAME "你已经做出了贡献。"
+ INFO.NAME "你已经捐过钱了。"
  INFO.SCVR "03sX3widowFund"
  INFO.INTV [01 00 00 00]
  #0: Local-short widowFund >= 1
@@ -223035,7 +223035,7 @@ Choice ""我会让你死得其所。"" 1 ""不，我很抱歉。"" 2"
  INFO.NNAM "239284322237354035$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "duma gro-lag$00"
- INFO.NAME "我要去工作了，别烦我，让我想想圣祠的事！我要把它建在海岸边，应该不错。"
+ INFO.NAME "我要去工作了，别烦我，让我专心构思祭坛！我要把它建在海岸边。应该不错。"
  INFO.SCVR "04JX0DA_Boethiah"
  INFO.INTV [3C 00 00 00]
  #0: Journal-Journal DA_Boethiah = 60
@@ -223227,7 +223227,7 @@ ModDisposition 10"
  INFO.NNAM "1899726248596525602$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "sarnir the clerk$00"
- INFO.NAME "当地人都知道他是个死灵法师。他的塔楼在城东。他不时试图与我交谈各种话题，包括克拉威库斯·维尔和他那传说中的第二纪元仆人，斯洛德恩'加斯塔。他很迷人，也很有个性，但我不信任他。"
+ INFO.NAME "当地人都知道他是个死灵法师。他的塔楼在城镇东边。他不时试图与我交谈各种话题，包括克拉威库斯·维尔和他那传说中的第二纪元仆人，斯洛德恩'加斯塔。他很迷人，也很有个性，但我不信任他。"
 -INFO
  INFO.INAM "1899726248596525602$00"
  INFO.PNAM "2883330115149526467$00"
@@ -223294,7 +223294,7 @@ ModDisposition 10"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 19 00 00 00 FF FF FF 00]
  INFO.ANAM "Dagon Fel$00"
- INFO.NAME "当地的暗精灵不赞成他的死灵法术。他也让我毛骨悚然。他的塔楼在镇子东边。"
+ INFO.NAME "当地的暗精灵厌恶他的死灵法术。他也让我毛骨悚然。他的塔楼在镇子东边。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -223379,7 +223379,7 @@ ModDisposition 10"
  INFO.NNAM "10481166662854224739$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "general darius$00"
- INFO.NAME "拉格什死了，我需要一个新的收税员。 {收藏家}"
+ INFO.NAME "拉加什死了，我需要一个新的收税员。 {收藏家}"
  INFO.SCVR "34JX3IL_RescueRagash"
  INFO.INTV [C8 00 00 00]
  #3: Journal-Journal IL_RescueRagash >= 200
@@ -223389,7 +223389,7 @@ ModDisposition 10"
  INFO.NNAM "67722293285591$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "general darius$00"
- INFO.NAME "你把拉格什从巴拉达斯的塔楼上弄走了。"
+ INFO.NAME "你把拉加什从巴拉达斯的塔里救出来了。"
  INFO.SCVR "34JX3IL_RescueRagash"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal IL_RescueRagash >= 100
@@ -223470,7 +223470,7 @@ ModDisposition 10
  INFO.NNAM "29963243473271410610$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "我把钥匙给你了，在我重新考虑之前，把她带出我的塔楼。"
+ INFO.NAME "我把钥匙给你了，在我改主意之前，把她带出我的塔楼。"
  INFO.SCVR "34JX0IL_RescueRagash"
  INFO.INTV [28 00 00 00]
  #3: Journal-Journal IL_RescueRagash = 40
@@ -223480,7 +223480,7 @@ ModDisposition 10
  INFO.NNAM "1317713382644329420$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "这件事就这么定了。"
+ INFO.NAME "就我而言，这件事已经解决了。"
  INFO.SCVR "34JX3IL_RescueRagash"
  INFO.INTV [28 00 00 00]
  #3: Journal-Journal IL_RescueRagash >= 40
@@ -223572,7 +223572,7 @@ Set timer to -1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
  INFO.NAME "她来这里，是叫我向人类帝国进贡的。在尼希斯未建之前，我就在这里。在人类帝国未建之前，我还在这里。在尼希斯消失之后，在这个短命的泰姆瑞尔帝国崩溃之后，我还是会在这里。尼希斯的人之所以活着，不过是因为我容忍他们罢了。我凭什么要进贡？"
- INFO.BNAM "Choice ""拉格什得到了教训。"" 1 ""放了她，就没人再来找你麻烦了。"" 2 ""每个人都要交税。"" 3"
+ INFO.BNAM "Choice ""拉加什得到了教训。"" 1 ""放了她，就没人再来找你麻烦了。"" 2 ""每个人都要交税。"" 3"
 -DIAL
  DIAL.NAME "基础物资$00"
  DIAL.DATA [00]
@@ -223614,7 +223614,7 @@ journal A2_1_Supplies2 5"
  INFO.NNAM "1714292802532715578$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "somutis vunnis$00"
- INFO.NAME "是的，凯乌斯说有个朋友要去后山，需要一些药水。我给了你治疗和强化药水，不收钱。但是，如果你听我的建议，而且你付得起钱，那就多买点解药吧。奥德'汝因以北没有帝国教团的治疗祭坛，尼希斯的祭坛在西边。而且我们最近听到了许多关于北部荒野中患病的生物和枯萎病生物的报告。 {这些药水,帝国人,疾病}"
+ INFO.NAME "是的，凯乌斯说有个朋友要去偏远地区，需要一些药水。我给了你治疗和强化药水，不收钱。但是，如果你听我的建议，而且你付得起钱，那就多买点治愈药水吧。奥德'汝因以北没有帝国教团的治疗祭坛，尼希斯的祭坛在西边。而且我们最近听到了许多关于北部荒野中患病的生物和枯萎病生物的报告。 {这些药水,帝国人,疾病}"
  INFO.BNAM "player->additem p_cure_common_s 2
 player->additem p_cure_blight_s 2
 player->additem p_fortify_health_c 1
@@ -223641,7 +223641,7 @@ journal A2_1_Supplies 5"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹贝桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}"
+ INFO.NAME "红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹布桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [0F 00 00 00]
  #0: Journal-Journal A2_6_Incarnate >= 15
@@ -223656,7 +223656,7 @@ journal A2_1_Supplies 5"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Hunter$00"
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹贝桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}"
+ INFO.NAME "红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹布桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [0F 00 00 00]
  #0: Journal-Journal A2_6_Incarnate >= 15
@@ -223673,7 +223673,7 @@ journal A2_1_Supplies 5"
  INFO.NNAM "190119039304329405$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "crassius curio$00"
- INFO.NAME "很遗憾你不得不杀了他，但我想没人会因此对你不利。"
+ INFO.NAME "很遗憾你不得不杀了他，但我想没人会因此责怪你。"
  INFO.SCVR "06DX2yngling half-troll"
  INFO.INTV [00 00 00 00]
  #0: Dead-Dead yngling half-troll > 0
@@ -223774,7 +223774,7 @@ Player->ModMercantile 2"
  INFO.NNAM "169582542982826256$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gadayn andarys$00"
- INFO.NAME "太好了！我相信这会有用的。谢谢你的帮助，我的好朋友。我一定会给我们的第一个孩子取你的名字。%PCName，安达里斯听起来怎么样？哦，把这个作为我们友谊的象征吧，很快它就是我的了！ {工作}"
+ INFO.NAME "太好了！我相信这肯定会管用的。谢谢你的帮助，我的好朋友。我一定会用你的名字给我们的第一个孩子命名。%PCName·安达里斯听起来怎么样？哦，也收下这份我们友谊的信物吧。她很快就会属于我了！ {工作}"
  INFO.SCVR "04JX0EB_Unrequited"
  INFO.INTV [5A 00 00 00]
  #0: Journal-Journal EB_Unrequited = 90
@@ -223813,7 +223813,7 @@ StartScript eraldilScript"
  INFO.NNAM "20821191192233716393$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kurapli$00"
- INFO.NAME "你杀了杀害我的丈夫的凶手艾兰-阿赫。氏族之友，我感谢你，并为你感到荣耀。我一直保存着艾兰-阿赫的长枪，他不再需要它了，我很荣幸地把它传给你，只希望你在使用它的时候能记住他的名字。"
+ INFO.NAME "你杀死了谋杀我的丈夫艾兰-阿赫的凶手。氏族之友，我感谢你，并对你感到尊敬。我一直留着艾兰-阿赫的长枪，他不再需要它了，我很荣幸地把它传给你，只希望你在使用它的时候能记住他的名字。"
  INFO.SCVR "06DX3zallay subaddamael"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead zallay subaddamael >= 1
@@ -280931,7 +280931,7 @@ ModDisposition 10"
  INFO.NNAM "16531102192603444$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "晨风最危险的地方是哪里？嗯，可能是幽魂屏障内的灰烬吸血鬼城堡，在红山上。但是幽魂屏障外面呢？我猜迪德拉遗迹是最危险的地方，那里到处都是邪恶的迪德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗迹也很糟糕。 {迪德拉式,锻莫族,锻莫遗址}"
+ INFO.NAME "晨风最危险的地方是哪里？嗯，可能是幽魂屏障内的灰烬吸血鬼城堡，在红山上。但是幽魂屏障外面呢？我猜迪德拉遗迹是最危险的地方，那里到处都是邪恶的迪德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗址也很糟糕。 {迪德拉式,锻莫族}"
  INFO.SCVR "0BLX0Balmora"
  INFO.INTV [01 00 00 00]
  #0: NotCell-NotCell Balmora = 1
@@ -288031,7 +288031,7 @@ Player->AddItem ""misc_fakesoulgem"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Scout$00"
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹贝桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}"
+ INFO.NAME "艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹布桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [0F 00 00 00]
  #0: Journal-Journal A2_6_Incarnate >= 15
@@ -288046,7 +288046,7 @@ Player->AddItem ""misc_fakesoulgem"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Hunter$00"
  INFO.FNAM "Ashlanders$00"
- INFO.NAME "艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹贝桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}"
+ INFO.NAME "艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹布桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [0F 00 00 00]
  #0: Journal-Journal A2_6_Incarnate >= 15
@@ -289468,7 +289468,7 @@ ModDisposition 25
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "mastrius$00"
- INFO.NAME "它是一面威力无穷的盾牌，以抵御最神秘的魔法而闻名。我听说它就在贝桑德，这里北边的锻莫遗迹里。它的前主人现在也躺在那里，无法控制它的附魔之术。 {魔法疾病}"
+ INFO.NAME "那是一面力量强大的盾牌，据说能抵抗最神秘的魔法。我听说它在布桑德，这里北边的一个锻莫遗迹里。它以前的主人现在也躺在那里，无法控制它的附魔之术。 {魔法疾病}"
  INFO.BNAM "Journal ""VA_VampCurse"" 55"
 -DIAL
  DIAL.NAME "内洛斯大师$00"
@@ -303870,7 +303870,7 @@ Journal, ""A1_2_AntabolisInformant"", 15"
  INFO.NNAM "2026430241122548226$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "这是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。锻莫少数的舆论认为，使用洛克汗之心的力量会带来不合理的风险。《时之卵》总结了贝桑德反对这一观点的许多论据，其中许多论据颇具说服力。"
+ INFO.NAME "这是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。"
  INFO.SCVR "34JX3MG_Dwarves"
  INFO.INTV [46 00 00 00]
  #3: Journal-Journal MG_Dwarves >= 70
@@ -303880,7 +303880,7 @@ Journal, ""A1_2_AntabolisInformant"", 15"
  INFO.NNAM "4730256182329823571$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "是的，我现在可以翻译这些书了。这第一本是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。少数音调的锻莫族认为，使用洛克汗之心的力量是一种不合理的冒险。《时之卵》收录了贝桑德反对这一观点的论据，其中许多论点颇具说服力。下一本书《圣之玄理》则解释了锻莫如何利用《卡格瑞纳克的工具》和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}"
+ INFO.NAME "是的，我现在可以翻译这些书了。这第一本是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。下一本书《圣之玄理》则解释了锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}"
  INFO.SCVR "05IX2bk_EggOfTime"
  INFO.INTV [00 00 00 00]
  #0: Item-Item bk_EggOfTime > 0
@@ -303897,7 +303897,7 @@ Journal, ""A1_2_AntabolisInformant"", 15"
  INFO.NNAM "529389231455210554$00"
  INFO.DATA [00 00 00 00 3C 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
- INFO.NAME "是的，在《空中花园》的帮助下，我可以翻译其中的一些内容。这是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。少数音调的锻莫认为，使用洛克汗之心的力量会带来不合理的风险。《时之卵》总结了贝桑德反对这一观点的许多论据，其中许多论据颇具说服力。"
+ INFO.NAME "是的，在《空中花园》的帮助下，我可以翻译其中的一些内容。这是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。"
  INFO.SCVR "05IX2bk_EggOfTime"
  INFO.INTV [00 00 00 00]
  #0: Item-Item bk_EggOfTime > 0
@@ -303920,7 +303920,7 @@ Journal, ""A1_2_AntabolisInformant"", 15"
  INFO.NNAM "9207100541843383$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagrum bagarn$00"
- INFO.NAME "通过《圣之玄理》刷新了我的记忆，我相信我能解释清楚。锻莫族的思想并不统一。卡格瑞纳克和他的音调建筑师们，其中包括贝桑德·姆扎恩奇，相信他们可以改良锻莫种族。其他人则认为这种尝试风险太大。与尼瑞瓦和丹莫的战争可能导致卡格瑞纳克过早地进行了实验。虽然这本书认为不会造成灾难性后果，但我的种族的消失却证明了这一点。"
+ INFO.NAME "通过回顾《圣之玄理》，我相信我能解释清楚。锻莫的思想并不统一。卡格瑞纳克和他的音调建筑师们，其中包括布桑德·姆扎恩奇，相信他们可以使锻莫族进化。其他人则认为这种尝试风险太大。与尼瑞瓦和丹莫的战争可能导致卡格瑞纳克过早地进行了实验。虽然这本书认为不会造成灾难性后果，但我的种族的消失却证明了这一点。"
  INFO.SCVR "05IX2bk_EggOfTime"
  INFO.INTV [00 00 00 00]
  #0: Item-Item bk_EggOfTime > 0
@@ -306438,7 +306438,7 @@ Player->ModReputation 1"
  INFO.NNAM "67671964516100523$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharer rotheloth$00"
- INFO.NAME "请带上神殿最伟大吸血鬼猎人的圣器。当你准备好了，吸血鬼长老拉克斯·伯尔尼就躲在锻莫族废墟加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你前面的另一个熔岩池对面。"
+ INFO.NAME "请带上神殿最伟大吸血鬼猎人的圣器。当你准备好了，吸血鬼长老拉克斯·伯尔尼就躲在锻莫遗迹加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你前面的另一个熔岩池对面。 {锻莫族}"
  INFO.SCVR "01063"
  INFO.INTV [0F 00 00 00]
  #0: Function-PC_Reputation >= 15
@@ -306453,7 +306453,7 @@ ShowMap ""Uvirith's Grave"""
  INFO.NNAM "1178218661898227202$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharer rotheloth$00"
- INFO.NAME "请带上神殿最伟大的吸血鬼猎人的圣器。在接受这项挑战之前，你也许想先同瓦登费尔的一些小恶魔们战斗一番，但到目前为止，你在神殿中的表现还是不错的。当你觉得自己准备好了，吸血鬼长老拉克斯·伯尔尼躲在锻莫族废墟加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你的前方。"
+ INFO.NAME "请带上神殿最伟大的吸血鬼猎人的圣器。在接受这项挑战之前，你也许想先同瓦登费尔的一些小恶魔们战斗一番，但到目前为止，你在神殿中的表现还是不错的。当你觉得自己准备好了，吸血鬼长老拉克斯·伯尔尼躲在锻莫遗迹加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你的前方。 {锻莫族}"
  INFO.BNAM "Journal TT_GalomDeus 10
 Player->AddItem ""Warden's Ring"" 1
 Player->AddItem ""daedric warhammer_ttgd"" 1
@@ -310928,7 +310928,7 @@ Goodbye"
  INFO.NNAM "3677283781193998$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "edwinna elbert$00"
- INFO.NAME "是的，这就是我想要的。现在我终于可以好好研究矮人们所写下的这些“bthurkz”了。你对学术的执着让我印象深刻。干得漂亮，%PCName。 {工作}"
+ INFO.NAME "是的，这就是我想要的。现在我终于可以好好研究矮人们所写下的这些“布瑟兹”了。你对学术的执着让我印象深刻。干得漂亮，%PCName。 {工作}"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  #0: Function-Alarmed = 1
@@ -384953,7 +384953,7 @@ Choice ""我会保守你的秘密。"" 3 ""我会揭穿你的谎言。"" 4"
  INFO.NAME "生物的魔力是衡量其超自然能量储备的标准。会施法的生物在制造魔法效果时会消耗储藏库中的超自然能量。通过休息和其他奥术方法可以补充储藏库的能量。"
  INFO.BNAM ";mage; sorcerer; healer; pilgrim; nightblade; witchhunter; spellsword;"
 -DIAL
- DIAL.NAME "贝桑德$00"
+ DIAL.NAME "布桑德$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "57526525157959080$00"

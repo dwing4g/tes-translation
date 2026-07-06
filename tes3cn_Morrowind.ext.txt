@@ -72006,11 +72006,11 @@ Key to Arkngthunch chest
 
 > MISC.FNAM key_Bthanchend_chest
 Key to Bthanchend chest
-开启贝桑什德箱子的钥匙
+开启布桑什德箱子的钥匙
 
 > MISC.FNAM key_Bthuand
 Key to Bthuand
-开启贝桑德的钥匙
+开启布桑德的钥匙
 
 > MISC.FNAM key_Mzuleft
 Key to Mzuleft
@@ -74753,7 +74753,7 @@ Soul Drinker
 
 > WEAP.FNAM dwarven halberd_soultrap
 Bthuangth's Harvester
-苏盎司的收割者
+布苏盎司的收割者
 
 > MISC.FNAM key_Palansour
 Worn Key
@@ -77411,7 +77411,7 @@ I found the Heart of Lorkhan within the giant artifact Akulakhan. I struck the H
 
 > INFO.NAME c3_destroydagoth 45011034145228996
 I found Dagoth Ur, and fought with him, and defeated him, but I did not destroy him. He seems to have escaped in a spirit form, perhaps to return and restore from the Heart's power. I must pursue him, and find and destroy the enchantments on the Heart of Lorkhan.
-我找到了达格斯·乌尔，与他交战，打败了他，但我并没有消灭他。他似乎以灵魂的形式逃走了，也许是想回去借助心脏恢复力量。我必须追上他，找到并摧毁洛克汗之心上的魔法。 {魔法疾病,附魔之术}
+我找到了达格斯·乌尔，与他交战，打败了他，但我并没有消灭他。他似乎以灵魂的形式逃走了，也许是想回去借助心脏恢复力量。我必须追上他，找到并摧毁洛克汗之心上的附魔之术。 {魔法疾病}
 
 > INFO.NAME c3_destroydagoth 3262214981174712277
 I found Dagoth Ur, and spoke with him. He asked me questions, and let me answer questions in return. And when all the questions had been asked and answered, there was nothing left to say. The time for words is past. Now only deeds can resolve this matter between Dagoth Ur and I.
@@ -78631,7 +78631,7 @@ Ragash agreed to follow me out of Arvs Drelen.
 
 > INFO.NAME il_rescueragash 16408101053003620964
 I escorted Ragash out of Arvs Drelen.
-我护送拉格什离开了阿维斯-德雷伦。
+我护送拉加什离开了阿维斯-德雷伦。
 
 > INFO.NAME il_rescueragash 319938633070121050
 Darius thanked me for rescuing Ragash gra-Shuzgub.
@@ -82211,7 +82211,7 @@ I have given Han-Ammu the Sanit-Kil's Heart of Fire and made a little speech abo
 
 > INFO.NAME b8_meetvivec 307572302030133254
 To defeat Dagoth Ur, Vivec says I must go to Red Mountain to recover the artifact hammer Sunder from Gate Citadel Vemynal, then the artifact blade Keening from Gate Citadel Odrosal. Then, with these artifacts and Wraithguard, if I destroy the enchantments on the Heart of Lorkhan in Dagoth Ur's citadel, Dagoth Ur will be destroyed, and the Blight ended. Vivec gave me 'The Plan to Defeat Dagoth Ur' to explain the details.
-为了打败达格斯·乌尔，维威克说我必须去红山从维密纳城堡之门那里取回神器锤子“决裂”，然后再从欧德罗萨城堡之门那里取回神器刀刃“哀恸”。然后，有了这些神器和幽魂影卫，如果我摧毁了达格斯·乌尔城堡中洛克汗之心的魔法，达格斯·乌尔就会被摧毁，枯萎之症也就结束了。维威克给了我'击败达格斯·乌尔的计划'来解释细节。 {魔法疾病,附魔之术}
+为了打败达格斯·乌尔，维威克说我必须去红山从维密纳城堡之门那里取回神器锤子“决裂”，然后再从欧德罗萨城堡之门那里取回神器刀刃“哀恸”。然后，有了这些神器和幽魂影卫，如果我摧毁了达格斯·乌尔城堡中洛克汗之心的附魔之术，达格斯·乌尔就会被摧毁，枯萎之症也就结束了。维威克给了我'击败达格斯·乌尔的计划'来解释细节。 {魔法疾病}
 
 > INFO.NAME b8_meetvivec 3108320266200937559
 I accepted Wraithguard from Lord Vivec, and I swore my oath, before all gods and men, before all spirits visible and invisible, before my honor and Vivec's honor, to dedicate myself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people. Vivec somehow taught me how to use Wraithguard. He then offered to give some explanations, or to let me go immediately, as I wished.
@@ -82883,7 +82883,7 @@ I have returned to the Ashlander camp and spoken with Urshamusa Rapli. She seeme
 
 > INFO.NAME ms_whiteguar 13652953726768252
 Urshamusa believes the amulet will allow her to cure her people of the disease that has plagued them. In gratitude, she gave me the Shield of the Undaunted, which is apparently a local legend.
-厄莎穆萨相信护身符能治愈困扰她族人的疾病。为了表示感谢，她把不屈之盾送给了我，这显然是当地的一个传说。
+厄莎穆萨相信这枚护符能让她治愈困扰她人民的疾病。为了表达感谢，她给了我不屈之盾，显然是当地的一件传奇器物。
 
 > INFO.NAME mv_fakeslave 2357629848218903453
 I met an Argonian on the road near Bal Ur named Tul. He has no armor and no weapons I can see, and he desires my help.
@@ -83035,7 +83035,7 @@ I have decided not to assist Mastrius in escaping his prison. I have no wish to 
 
 > INFO.NAME va_vampcurse 24450167033008728732
 Mastrius tells me that Spell Breaker is located in Bthuand, a dwemer ruin north of this tomb.
-马斯特里乌斯告诉我，破法者就在贝桑德，那是这座陵墓北面的一处锻莫遗迹。
+马斯特里乌斯告诉我，破法者就在布桑德，那是这座陵墓北面的一处锻莫遗迹。
 
 > INFO.NAME va_vampcurse 13769130522793725213
 I have returned to Mastrius with the Spell Breaker and the daedra's heart, and have given them to the ancient vampire. He has asked me to do one final thing for him: he needs to siphon off some of my power for the spell to work.
@@ -87627,7 +87627,7 @@ There is much to do. You still have Kagrenac's Tools, potent weapons, and the wi
 
 > INFO.NAME tales of your exploits 138932711124797144
 A remarkable story. A pity to have to destroy Kagrenac's enchantments on the Heart. It would have been interesting to study them.
-一个了不起的故事。可惜不得不毁掉卡格瑞纳克在“心脏”上的附魔之术。要是能研究一下卡格瑞纳克的附魔就好了。 {魔法疾病}
+一个了不起的故事。可惜不得不毁掉卡格瑞纳克在“心脏”上的附魔之术。要是能研究一下卡格瑞纳克的附魔之术就好了。 {魔法疾病}
 
 > INFO.NAME crosier of st. llothis 3922260952221617242
 Are you the one who claims to be the Nerevarine? You should speak with Archcanon Saryoni. Before these rumors are put to rest, I cannot give you duties.
@@ -93087,11 +93087,11 @@ I cannot read the Dwemer language, nor do I know anyone alive who can. Dwemer sc
 
 > INFO.NAME divine metaphysics 208841563915171444
 This is an explanation of how the Dwemer tried to make a new god, Anumidium, using Kagrenac's tools and the sacred tones on Lorkhan's Heart. It has several interesting theories about how to bend the Ehlnofey or "Earth Bones," but I am not entirely sure I understand it myself. Perhaps after another century of study I could have a better answer for you.
-这是关于锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的神圣音调试图制造一个新神——阿努米迪文的解释。书中有一些关于如何弯曲埃赫诺菲，也就是“大地之骨”的有趣理论，但我自己并不完全理解。也许再经过一个世纪的研究，我能给你一个更好的答案。
+这是关于锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的圣音调试图制造一个新神——阿努米迪文的解释。书中有一些关于如何弯曲埃赫诺菲，也就是“大地之骨”的有趣理论，但我自己并不完全理解。也许再经过一个世纪的研究，我能给你一个更好的答案。 {神圣}
 
 > INFO.NAME divine metaphysics 2272040503210818856
 Yes, I can now translate these books. This first one is Bthuand Mzahnch's refutation of a popular theory from Nerevar's time. A few tones of Dwemer believed that using the power Lorkhan's Heart was an unjustifiable risk. "The Egg of Time" contains Bthuand's arguments against this idea, many of which are quite compelling. The next book, "Divine Metaphysics," is an explanation of how the Dwemer tried to make a new god, Anumidium, using Kagrenac's tools and the sacred tones on Lorkhan's heart.
-是的，我现在可以翻译这些书了。这第一本是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。少数音调的锻莫族认为，使用洛克汗之心的力量是一种不合理的冒险。《时之卵》收录了贝桑德反对这一观点的论据，其中许多论点颇具说服力。下一本书《圣之玄理》则解释了锻莫如何利用《卡格瑞纳克的工具》和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}
+是的，我现在可以翻译这些书了。这第一本是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。下一本书《圣之玄理》则解释了锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}
 
 > INFO.NAME divine metaphysics 15558252691775522761
 Yes, with the help of "Hanging Gardens" I can read some of this book. It is the essence of Kagrenac's theories on how one might create a new god through the "obedience" of the Ehlnofey and using the sacred tones on the Heart of Lorkhan. Whatever its value to scholars, his theories did not appear to work quite as he intended.
@@ -95019,11 +95019,11 @@ Hmm. Conjuration expert? Well, Uleni Heleran of the Mages Guild here at Wolverin
 
 > INFO.NAME fund for the widow 2201221662487716577
 It's the least they can do after Lugrub killed my husband.
-在拉格路布杀了我的丈夫之后，他们只能这么做了。
+在拉格路布杀了我的丈夫之后，这是他们应该的。
 
 > INFO.NAME fund for the widow 29296163332644424431
 You already made your contribution.
-你已经做出了贡献。
+你已经捐过钱了。
 
 > INFO.NAME fund for the widow 95975916249321017
 Thank you, %PCName. I hope we can get everyone to contribute.
@@ -95075,7 +95075,7 @@ You seek the shrine that is no longer there? An interesting concept. Look to the
 
 > INFO.NAME shrine of boethiah 259448362299015550
 Gonna go work soon. Leave me alone so I can think about shrine! Gonna build it up the coast. Should be good.
-我要去工作了，别烦我，让我想想圣祠的事！我要把它建在海岸边，应该不错。
+我要去工作了，别烦我，让我专心构思祭坛！我要把它建在海岸边。应该不错。
 
 > INFO.NAME shrine of boethiah 239284322237354035
 Shrine got built. Big shrine. Not bad work, I think myself did one real good job. I a legend in my own shrine.
@@ -95147,7 +95147,7 @@ I doubt that many will mourn his loss.
 
 > INFO.NAME sorkvild the raven 2883330115149526467
 He is known to the local people as a necromancer. His tower is to the east of town. He has, from time to time, tried to engage me in conversation on various topics, including Clavicus Vile and his legendary Second Era servant, N'Gasta the Sload. He is charming and personable, but I do not trust him.
-当地人都知道他是个死灵法师。他的塔楼在城东。他不时试图与我交谈各种话题，包括克拉威库斯·维尔和他那传说中的第二纪元仆人，斯洛德恩'加斯塔。他很迷人，也很有个性，但我不信任他。
+当地人都知道他是个死灵法师。他的塔楼在城镇东边。他不时试图与我交谈各种话题，包括克拉威库斯·维尔和他那传说中的第二纪元仆人，斯洛德恩'加斯塔。他很迷人，也很有个性，但我不信任他。
 
 > INFO.NAME sorkvild the raven 1899726248596525602
 Sarnir the Clerk of Dagon Fel has spoken of him. Sorkvild the Raven has occupied an old wizard's tower in those parts, and he has a local reputation as a necromancer.
@@ -95171,7 +95171,7 @@ He is practicing necromancy. This should not be done in these parts. If he wishe
 
 > INFO.NAME sorkvild the raven 15687196642707231692
 The local dark elves don't approve of his necromancy. He gives me the creeps too. You'll find his tower on the east side of town.
-当地的暗精灵不赞成他的死灵法术。他也让我毛骨悚然。他的塔楼在镇子东边。
+当地的暗精灵厌恶他的死灵法术。他也让我毛骨悚然。他的塔楼在镇子东边。
 
 > INFO.NAME pemenie the trader 2008725182668013970
 That's me. Just an honest trader.
@@ -95199,11 +95199,11 @@ You've been expelled, but maybe you can join the Imperial Legion again.
 
 > INFO.NAME ragash gra-shuzgub 124810331540527877
 Ragash is dead, and I need a new tax collector.
-拉格什死了，我需要一个新的收税员。 {收藏家}
+拉加什死了，我需要一个新的收税员。 {收藏家}
 
 > INFO.NAME ragash gra-shuzgub 10481166662854224739
 You got Ragash away from Baladas' tower.
-你把拉格什从巴拉达斯的塔楼上弄走了。
+你把拉加什从巴拉达斯的塔里救出来了。
 
 > INFO.NAME ragash gra-shuzgub 67722293285591
 So she's dead already? That's too bad. Now I need a new tax collector. Well, you did what you could, %PCName.
@@ -95231,11 +95231,11 @@ She is dead.
 
 > INFO.NAME ragash gra-shuzgub 161768566846524853
 I have given you the key. Get her out of my tower before I reconsider.
-我把钥匙给你了，在我重新考虑之前，把她带出我的塔楼。
+我把钥匙给你了，在我改主意之前，把她带出我的塔楼。
 
 > INFO.NAME ragash gra-shuzgub 29963243473271410610
 The matter is settled as far as I am concerned.
-这件事就这么定了。
+就我而言，这件事已经解决了。
 
 > INFO.NAME ragash gra-shuzgub 1317713382644329420
 Very well. I shall let her go. Take this key and take the orc with you when you leave.
@@ -95271,7 +95271,7 @@ She came demanding tribute for the Empire of men. I was here before Gnisis, befo
 
 > INFO.BNAM ragash gra-shuzgub 2699922789121932027 c1
 Ragash learned her lesson.
-拉格什得到了教训。
+拉加什得到了教训。
 
 > INFO.BNAM ragash gra-shuzgub 2699922789121932027 c2
 Let her go and no one will trouble you again.
@@ -95295,7 +95295,7 @@ I gave you the potions. But I have many other potions for sale, and all the proc
 
 > INFO.NAME essential supplies 25281185372478627323
 Yes. Caius said a friend was heading into the backcountry, and would need some potions. I've given you cures and fortifies. There's no charge. But, if you'll take my advice, and you can afford it, stock up on the cures. There's are no Imperial cult cure altars north of Ald'ruhn; the one at Gnisis is far to the west. And we've heard many recent reports of diseased creatures and blighted creatures in the northern wilds.
-是的，凯乌斯说有个朋友要去后山，需要一些药水。我给了你治疗和强化药水，不收钱。但是，如果你听我的建议，而且你付得起钱，那就多买点解药吧。奥德'汝因以北没有帝国教团的治疗祭坛，尼希斯的祭坛在西边。而且我们最近听到了许多关于北部荒野中患病的生物和枯萎病生物的报告。 {这些药水,帝国人,疾病}
+是的，凯乌斯说有个朋友要去偏远地区，需要一些药水。我给了你治疗和强化药水，不收钱。但是，如果你听我的建议，而且你付得起钱，那就多买点治愈药水吧。奥德'汝因以北没有帝国教团的治疗祭坛，尼希斯的祭坛在西边。而且我们最近听到了许多关于北部荒野中患病的生物和枯萎病生物的报告。 {这些药水,帝国人,疾病}
 
 > INFO.NAME essential supplies 1714292802532715578
 Before you go to Urshilaku camp, see Somutis Vunnis and Crulius Pontanian at Fort Moonmoth. I've asked them to put aside some potions and scrolls for you. Courtesy of the Emperor. In particular, you'll want the cure potions; I hear the blight is very bad up north. And use the Divine Intervention scroll if you find you're over your head. It will get you safe to an Imperial cult shrine, where you can heal, refit, and try again.
@@ -95303,15 +95303,15 @@ Before you go to Urshilaku camp, see Somutis Vunnis and Crulius Pontanian at For
 
 > INFO.NAME valley of the wind 8875309581628931680
 There are two valleys, side by side, on the northeast slopes of Red Mountain. The westmost valley is called Dry Camp Valley; the camps have no water, but they are sheltered from the wind. Dun-Ahhe Caverns are also there. The Valley of the Wind is the eastmost valley; it runs long and straight south between Airan's Teeth, and climbs towards Red Mountain. The mouths of these valleys are to the east along the coast. Pass Bthuand, a Dwemer ruin, and just past Zergonipal, a Daedric ruin, turn south.
-红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹贝桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}
+红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹布桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}
 
 > INFO.NAME valley of the wind 13686240592336212166
 There are two valleys, side by side, on the northeast slopes of Red Mountain. The westmost valley is called Dry Camp Valley; the camps have no water, but they are sheltered from the wind. Dun-Ahhe Caverns are also there. The Valley of the Wind is the eastmost valley; it runs long and straight south between Airan's Teeth, and climbs towards Red Mountain. The mouths of these valleys are to the east along the coast. Pass Bthuand, a Dwemer ruin, and just past Zergonipal, a Daedric ruin, turn south.
-红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹贝桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}
+红山的东北坡上有两个并排的山谷。最西边的山谷叫干营地山谷；营地里没有水，但可以避风。邓-阿赫岩洞也在那里。风之谷是最东边的山谷；它在艾兰的牙齿之间向南笔直延伸，并向红山爬去。这些山谷的谷口沿着海岸线向东延伸。经过锻莫遗迹布桑德，刚过迪德拉遗迹泽尔贡尼帕，向南拐弯。 {发言人,迪德拉式}
 
 > INFO.NAME yngling half-troll 1665580787116039
 It's a shame you had to kill him, but I doubt anyone will hold it against you.
-很遗憾你不得不杀了他，但我想没人会因此对你不利。
+很遗憾你不得不杀了他，但我想没人会因此责怪你。
 
 > INFO.NAME yngling half-troll 190119039304329405
 2000 drakes was a high price to pay, but at least you have his support.
@@ -95347,7 +95347,7 @@ Set the prices? J'Zhirr does not understand. Prices are determined by simple sup
 
 > INFO.NAME deliver the potion 957510438114732399
 Wonderful! I'm sure this will work. Thank you for your help, my very good friend. I'll make sure to name our first child after you. How does %PCName Andarys sound? Oh, and take this as a token of our friendship. Soon she'll be mine!
-太好了！我相信这会有用的。谢谢你的帮助，我的好朋友。我一定会给我们的第一个孩子取你的名字。%PCName，安达里斯听起来怎么样？哦，把这个作为我们友谊的象征吧，很快它就是我的了！ {工作}
+太好了！我相信这肯定会管用的。谢谢你的帮助，我的好朋友。我一定会用你的名字给我们的第一个孩子命名。%PCName·安达里斯听起来怎么样？哦，也收下这份我们友谊的信物吧。她很快就会属于我了！ {工作}
 
 > INFO.NAME deliver the potion 169582542982826256
 Not yet? Well, let me know when you do!
@@ -95359,7 +95359,7 @@ I thank you, Clanfriend, for giving me vengeance for the murder of my husband.
 
 > INFO.NAME personal vengeance 2056330183302113826
 You have killed the murderer of my husband, Airan-Ahhe. I thank you, and do you honor, Clanfriend. I have long kept Airan-Ahhe's spear. He no longer has any use for it. It is with pride that I pass it on to you, and ask only that you remember his name when you use it.
-你杀了杀害我的丈夫的凶手艾兰-阿赫。氏族之友，我感谢你，并为你感到荣耀。我一直保存着艾兰-阿赫的长枪，他不再需要它了，我很荣幸地把它传给你，只希望你在使用它的时候能记住他的名字。
+你杀死了谋杀我的丈夫艾兰-阿赫的凶手。氏族之友，我感谢你，并对你感到尊敬。我一直留着艾兰-阿赫的长枪，他不再需要它了，我很荣幸地把它传给你，只希望你在使用它的时候能记住他的名字。
 
 > INFO.NAME personal vengeance 20821191192233716393
 Zallay Subaddamael, an outcast ashlander, betrayed Urshilaku hospitality and killed my husband. If you could find Zallay Subaddamael, kill him, and bring the justice of his death to me, I can promise you a fine reward -- my dead husband's enchanted Spirit Spear. It is a great treasure, but I would be glad if it might purchase the vengeance that would set my husband's spirit to rest. Bring me news of Zallay Subaddamael's death, and the Spirit Spear is yours.
@@ -116305,7 +116305,7 @@ You're an outlander, maybe you don't know about the kinds of Daedric ruins we ha
 
 > INFO.NAME little secret 1588253092529329077
 What are the most dangerous places in Morrowind? Well, probably the ash vampire citadels inside the Ghost Fence, on Red Mountain. But outside the Ghostfence? I guess the Daedric ruins would be the worst. They're all over the place, and full of bad Daedra, and the crazy folks who summon them. I hear vampires are pretty bad, too, but I've never seen any, personally. And the Dwemer sites are pretty bad, too.
-晨风最危险的地方是哪里？嗯，可能是幽魂屏障内的灰烬吸血鬼城堡，在红山上。但是幽魂屏障外面呢？我猜迪德拉遗迹是最危险的地方，那里到处都是邪恶的迪德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗迹也很糟糕。 {迪德拉式,锻莫族,锻莫遗址}
+晨风最危险的地方是哪里？嗯，可能是幽魂屏障内的灰烬吸血鬼城堡，在红山上。但是幽魂屏障外面呢？我猜迪德拉遗迹是最危险的地方，那里到处都是邪恶的迪德拉和召唤他们的疯子。我听说吸血鬼也很可怕，但我从没亲眼见过。锻莫遗址也很糟糕。 {迪德拉式,锻莫族}
 
 > INFO.NAME little secret 16531102192603444
 Daedra? You know what they are, right? Well, Daedric shrines are where Daedra cults worship Daedra. Bad people who summon bad Daedra. Stay away from them. Why? Because Daedra are nasty. And the folks that worship them are even nastier.
@@ -118745,11 +118745,11 @@ Ajira has made a fake soul gem. Take it and put it in Galbedir's desk upstairs. 
 
 > INFO.NAME airan's teeth 100711405879315001
 Airan's Teeth are two stone spikes at the mouth of Valley of the Wind. The Valley of the Wind runs south from the sea in the northeast of Vvardenfell, east of Dwemer Bthuand, east of Daedric Zergonipal. We stay away from the valley; the winds howl, and the spirits are always awake. Dareleth Ancestral Tomb is in this valley. It is foolish to disturb the spirits in their resting place.
-艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹贝桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}
+艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹布桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}
 
 > INFO.NAME airan's teeth 8472156921952114134
 Airan's Teeth are two stone spikes at the mouth of Valley of the Wind. The Valley of the Wind runs south from the sea in the northeast of Vvardenfell, east of Dwemer Bthuand, east of Daedric Zergonipal. We stay away from the valley; the winds howl, and the spirits are always awake. Dareleth Ancestral Tomb is in this valley. It is foolish to disturb the spirits in their resting place.
-艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹贝桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}
+艾兰的牙齿是风之谷谷口的两根石柱。风之谷从瓦登费尔东北部的海边向南延伸，在锻莫遗迹布桑德以东，迪德拉遗迹泽尔贡尼帕以东。我们要远离山谷，因为那里狂风呼啸，亡灵不眠不休。达雷莱斯先祖墓穴就在这个山谷中。打扰亡灵安息乃愚蠢之举。 {发言人,迪德拉式}
 
 > INFO.NAME yngling manor 272042533349278437
 It's in Vivec. Ask the locals for more specific information.
@@ -119377,7 +119377,7 @@ You'll find it Under-Skar. That's the giant shell on the north side of town, out
 
 > INFO.NAME spell breaker 156044058427417824
 It is a shield of immense power, known for its resistance to even the most arcane magic. I have heard it lies in Bthuand, a Dwemer ruin north of here. The former owner now lies there as well, unable to control it's enchantments.
-它是一面威力无穷的盾牌，以抵御最神秘的魔法而闻名。我听说它就在贝桑德，这里北边的锻莫遗迹里。它的前主人现在也躺在那里，无法控制它的附魔之术。 {魔法疾病}
+那是一面力量强大的盾牌，据说能抵抗最神秘的魔法。我听说它在布桑德，这里北边的一个锻莫遗迹里。它以前的主人现在也躺在那里，无法控制它的附魔之术。 {魔法疾病}
 
 > INFO.NAME master neloth 2235920545589115316
 He lives in Tel Naga, the tower in Sadrith Mora. He has a short temper, but he will listen to reason if you are persuasive enough. Do not expect him to be polite.
@@ -124531,15 +124531,15 @@ I cannot read and write Dwemer myself, but this is a truly interesting find.
 
 > INFO.NAME egg of time 216352713233929854
 This is Bthuand Mzahnch's refutation of a popular theory from Nerevar's time. A few tones of Dwemer believed that using the power Lorkhan's Heart involved unjustifiable risks. "The Egg of Time" summarized many of Bthuand's arguments against this idea, many of which are quite compelling.
-这是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。锻莫少数的舆论认为，使用洛克汗之心的力量会带来不合理的风险。《时之卵》总结了贝桑德反对这一观点的许多论据，其中许多论据颇具说服力。
+这是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。
 
 > INFO.NAME egg of time 2026430241122548226
 Yes, I can now translate these books. This first one is Bthuand Mzahnch's refutation of a popular theory from Nerevar's time. A few tones of Dwemer believed that using the power Lorkhan's Heart was an unjustifiable risk. "The Egg of Time" contains Bthuand's arguments against this idea, many of which are quite compelling. The next book, "Divine Metaphysics," is an explanation of how the Dwemer tried to make a new god, Anumidium, using Kagrenac's tools and the sacred tones on Lorkhan's heart.
-是的，我现在可以翻译这些书了。这第一本是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。少数音调的锻莫族认为，使用洛克汗之心的力量是一种不合理的冒险。《时之卵》收录了贝桑德反对这一观点的论据，其中许多论点颇具说服力。下一本书《圣之玄理》则解释了锻莫如何利用《卡格瑞纳克的工具》和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}
+是的，我现在可以翻译这些书了。这第一本是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。下一本书《圣之玄理》则解释了锻莫族如何利用卡格瑞纳克的工具和洛克汗之心上的圣音，试图制造出一个新神——阿努米迪文。 {神圣}
 
 > INFO.NAME egg of time 4730256182329823571
 Yes, with the help of "Hanging Gardens," I can translate some of this. This is Bthuand Mzahnch's refutation of a popular theory from Nerevar's time. A few tones of Dwemer believed that using the power Lorkhan's Heart involved unjustifiable risks. "The Egg of Time" summarized many of Bthuand's arguments against this idea, many of which are quite compelling.
-是的，在《空中花园》的帮助下，我可以翻译其中的一些内容。这是贝桑德·姆扎恩奇对尼瑞瓦时代一种流行理论的驳斥。少数音调的锻莫认为，使用洛克汗之心的力量会带来不合理的风险。《时之卵》总结了贝桑德反对这一观点的许多论据，其中许多论据颇具说服力。
+是的，在《空中花园》的帮助下，我可以翻译其中的一些内容。这是布桑德·姆扎恩奇对尼瑞瓦时代的一种流行理论的驳斥。有些锻莫相信使用洛克汗之心的力量会有超乎常理的风险。《时之卵》概括了布桑德对这种观点的辩驳，其中许多都令人信服。
 
 > INFO.NAME egg of time 529389231455210554
 I cannot read and write the Dwemer language.
@@ -124547,7 +124547,7 @@ I cannot read and write the Dwemer language.
 
 > INFO.NAME egg of time 9153137331391219764
 By refreshing my memory with "Divine Metaphysics," I believe I can explain. The Dwemer were not unified in their thinking. Kagrenac and his tonal architects, among them Bthuand Mzahnch, believed they could improve the Dwemer race. Others argued that the attempt would be too great a risk. The war with Nerevar and the Dunmer may have led Kagrenac to carry out his experiments prematurely. Although this book argues that nothing disastrous could result, the disappearance of my race argues otherwise.
-通过《圣之玄理》刷新了我的记忆，我相信我能解释清楚。锻莫族的思想并不统一。卡格瑞纳克和他的音调建筑师们，其中包括贝桑德·姆扎恩奇，相信他们可以改良锻莫种族。其他人则认为这种尝试风险太大。与尼瑞瓦和丹莫的战争可能导致卡格瑞纳克过早地进行了实验。虽然这本书认为不会造成灾难性后果，但我的种族的消失却证明了这一点。
+通过回顾《圣之玄理》，我相信我能解释清楚。锻莫的思想并不统一。卡格瑞纳克和他的音调建筑师们，其中包括布桑德·姆扎恩奇，相信他们可以使锻莫族进化。其他人则认为这种尝试风险太大。与尼瑞瓦和丹莫的战争可能导致卡格瑞纳克过早地进行了实验。虽然这本书认为不会造成灾难性后果，但我的种族的消失却证明了这一点。
 
 > INFO.NAME egg of time 9207100541843383
 I had not seen this book before, but it reinforces some my own theories. If you were to find more books like this, bring them to me and perhaps I could tell you more.
@@ -125587,11 +125587,11 @@ I have given you the garb of one of the Temple's vampire hunters. When you are r
 
 > INFO.NAME galom daeus 188544289117314102
 Please take the holy implements of the Temple's greatest vampire hunters. When you are ready, the elder vampire Raxle Berne hides from the light in the Dwemer ruin of Galom Daeus. I will mark Uvirith's Grave on your map. From there go south until you reach a river of lava. Follow that river to the west until it ends. Galom Daeus lies ahead of you across another pool of lava.
-请带上神殿最伟大吸血鬼猎人的圣器。当你准备好了，吸血鬼长老拉克斯·伯尔尼就躲在锻莫族废墟加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你前面的另一个熔岩池对面。
+请带上神殿最伟大吸血鬼猎人的圣器。当你准备好了，吸血鬼长老拉克斯·伯尔尼就躲在锻莫遗迹加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你前面的另一个熔岩池对面。 {锻莫族}
 
 > INFO.NAME galom daeus 67671964516100523
 Please take the holy implements of the Temple's greatest vampire hunters. You might want to fight against some of Vvardenfell's lesser evils before you take on this challenge, but you have done well in the Temple so far. When you feel you are ready, the elder vampire Raxle Berne hides from the light in the Dwemer ruin of Galom Daeus. I will mark Uvirith's Grave on your map. From there go south until you reach a river of lava. Follow that river to the west until it ends. Galom Daeus lies ahead of you.
-请带上神殿最伟大的吸血鬼猎人的圣器。在接受这项挑战之前，你也许想先同瓦登费尔的一些小恶魔们战斗一番，但到目前为止，你在神殿中的表现还是不错的。当你觉得自己准备好了，吸血鬼长老拉克斯·伯尔尼躲在锻莫族废墟加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你的前方。
+请带上神殿最伟大的吸血鬼猎人的圣器。在接受这项挑战之前，你也许想先同瓦登费尔的一些小恶魔们战斗一番，但到目前为止，你在神殿中的表现还是不错的。当你觉得自己准备好了，吸血鬼长老拉克斯·伯尔尼躲在锻莫遗迹加洛姆-代乌斯中避光。我会在你的地图上标出乌维瑞斯之墓。从那里向南一直走到一条熔岩河边。沿着这条河向西一直走到尽头。加洛姆-代乌斯就在你的前方。 {锻莫族}
 
 > INFO.NAME galom daeus 1178218661898227202
 To get to Galom Daeus, go south from your stronghold until you reach a river of lava. Follow that river to the west until it ends. You will see another pool of lava ahead of you. Galom Daeus lies beyond that pool.
@@ -127407,7 +127407,7 @@ Your delivery of the Dwemer Tube was commendable, %PCName.
 
 > INFO.NAME dwemer tube 23780154241691614441
 Yes, this is what I wanted. Now I can finally study these "bthurkz" the Dwarves wrote about. I am impressed by your dedication to scholarship. Good work, %PCName.
-是的，这就是我想要的。现在我终于可以好好研究矮人们所写下的这些“bthurkz”了。你对学术的执着让我印象深刻。干得漂亮，%PCName。 {工作}
+是的，这就是我想要的。现在我终于可以好好研究矮人们所写下的这些“布瑟兹”了。你对学术的执着让我印象深刻。干得漂亮，%PCName。 {工作}
 
 > INFO.NAME dwemer tube 3677283781193998
 It is not a toy, %PCName. It is a valuable Dwemer artifact that is simply essential to my research.
