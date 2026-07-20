@@ -220668,7 +220668,7 @@ Choice ""我可以帮你找回你的东西。"" 1 ""抱歉，我现在没空理你。"" 2"
  INFO.NNAM "11082198441326114665$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "marsus tullius$00"
- INFO.NAME "他们是埃勒比尼姆孙的人？我不知道！我希望你能转达我的歉意，朋友。我和那些人无怨无仇，也不希望他们来找麻烦。我想我得去找别的瓜尔了。我本想让你去找我父亲领赏，但这次旅行的费用是他出的，没有这些皮，想他付不起你的报酬，再次感谢你。"
+ INFO.NAME "那些瓜尔是埃勒比尼姆孙的畜群？我完全不知道！希望你能帮我转达我的歉意，朋友。我和那些人无冤无仇，我也不想惹事。看来我得去别处找瓜尔了。我本想让你去见我父亲领取报酬，但这趟旅行的费用是他出的。没了那些皮，我想他没钱给你当报酬了。再次感谢你。"
  INFO.SCVR "04JX0MV_InnocentAshlanders"
  INFO.INTV [50 00 00 00]
  #0: Journal-Journal MV_InnocentAshlanders = 80
@@ -220680,7 +220680,7 @@ Journal ""MV_InnocentAshlanders"" 110"
  INFO.NNAM "11577176101811226318$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "marsus tullius$00"
- INFO.NAME "你已经拿到我的兽皮了？太神奇了！谢谢你的帮助，如果没有这批货，我真不知道该怎么办。会损失惨重，记得去泰尔-阿汝因拜访我父亲斯腾图斯·图里乌斯，我会提前告诉他你帮了我大忙，我相信他会好好报答你的。 {报酬}"
+ INFO.NAME "你已经拿到我的兽皮了？太神奇了！谢谢你的帮忙。要是没了这批货，真不知道我该怎么办。损失会很惨重的。一定要去见见我父亲，斯腾图斯·图里乌斯，在泰尔-阿汝因。我保证会提前告诉他你帮了我大忙。他肯定会好好答谢你的。 {报酬}"
  INFO.SCVR "04JX4MV_InnocentAshlanders"
  INFO.INTV [4B 00 00 00]
  #0: Journal-Journal MV_InnocentAshlanders < 75
@@ -220697,7 +220697,7 @@ AddItem ""Ingred_Guar_Hide_Marsus"" 10"
  INFO.NNAM "3046519316269584068$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "marsus tullius$00"
- INFO.NAME "谢谢你的帮助，如果没有这批货，我真不知道该怎么办，会损失惨重的。一定要去泰尔-阿汝因拜访我父亲斯腾图斯·图里乌斯，我会提前告诉他你帮了我大忙，我相信他会好好报答你的。 {报酬}"
+ INFO.NAME "谢谢你的帮忙。要是没了这批货，真不知道我该怎么办。损失会很惨重的。一定要去见见我父亲，斯腾图斯·图里乌斯，在泰尔-阿汝因。我保证会提前告诉他你帮了我大忙。他肯定会好好答谢你的。 {报酬}"
  INFO.SCVR "04JX0MV_InnocentAshlanders"
  INFO.INTV [4B 00 00 00]
  #0: Journal-Journal MV_InnocentAshlanders = 75
@@ -221812,7 +221812,7 @@ Choice ""继续"" 1"
  INFO.NNAM "490151462636115053$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Camonna Tong$00"
- INFO.NAME "当你能逃脱时，杀戮是正当的，而且能达到你的目的。"
+ INFO.NAME "只要你能达成目标且全身而退，杀戮就是正当的。"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -222251,7 +222251,7 @@ Journal Romance_Ahnassi 70"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.CNAM "Healer Service$00"
- INFO.NAME "卡吉特知道，血液里孕育着斯库玛的卡吉特是无药可治的。这个人听说过一本丹莫自称治好了斯库玛毒瘾的书。我可没见过这样的书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
+ INFO.NAME "卡吉特知道，连血液里都浸透了斯库玛的家伙是无药可救的。在下听说过，有本书里有个丹莫声称治好了斯库玛成瘾。我从没见过这本书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
  INFO.SCVR "14JX4Romance_Ahnassi"
  INFO.INTV [4B 00 00 00]
  #1: Journal-Journal Romance_Ahnassi < 75
@@ -222263,7 +222263,7 @@ Journal Romance_Ahnassi 70"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.CNAM "Healer$00"
- INFO.NAME "卡吉特知道，血液里孕育着斯库玛的卡吉特是无药可治的。这个人听说过一本丹莫自称治好了斯库玛毒瘾的书。我可没见过这样的书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
+ INFO.NAME "卡吉特知道，连血液里都浸透了斯库玛的家伙是无药可救的。在下听说过，有本书里有个丹莫声称治好了斯库玛成瘾。我从没见过这本书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
  INFO.SCVR "14JX4Romance_Ahnassi"
  INFO.INTV [4B 00 00 00]
  #1: Journal-Journal Romance_Ahnassi < 75
@@ -222303,7 +222303,7 @@ Journal Romance_Ahnassi 70"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.CNAM "Savant$00"
- INFO.NAME "卡吉特知道，血液里孕育着斯库玛的卡吉特是无药可治的。这个人听说过一本丹莫自称治好了斯库玛毒瘾的书。我可没见过这样的书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
+ INFO.NAME "卡吉特知道，连血液里都浸透了斯库玛的家伙是无药可救的。在下听说过，有本书里有个丹莫声称治好了斯库玛成瘾。我从没见过这本书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
  INFO.SCVR "14JX4Romance_Ahnassi"
  INFO.INTV [4B 00 00 00]
  #1: Journal-Journal Romance_Ahnassi < 75
@@ -222315,7 +222315,7 @@ Journal Romance_Ahnassi 70"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.CNAM "Savant Service$00"
- INFO.NAME "卡吉特知道，血液里孕育着斯库玛的卡吉特是无药可治的。这个人听说过一本丹莫自称治好了斯库玛毒瘾的书。我可没见过这样的书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
+ INFO.NAME "卡吉特知道，连血液里都浸透了斯库玛的家伙是无药可救的。在下听说过，有本书里有个丹莫声称治好了斯库玛成瘾。我从没见过这本书。在斯库玛和卡吉特的问题上，丹莫怎么可能比卡吉特知道得更多？"
  INFO.SCVR "14JX4Romance_Ahnassi"
  INFO.INTV [4B 00 00 00]
  #1: Journal-Journal Romance_Ahnassi < 75
