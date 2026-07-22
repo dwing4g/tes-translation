@@ -2,6 +2,6 @@
 setlocal
 pushd %~dp0
 
-..\luajit ..\tes3ext.lua Sky_Main.txt tes3cn_Sky_Main.txt topics_Sky_Main.txt tes3cn_Sky_Main.ext.txt
+..\luajit ..\tes3ext.lua Sky_Main.txt tes3cn_Sky_Main.txt topics_TD_Sky_Main.txt tes3cn_Sky_Main.ext.txt
 
 pause
