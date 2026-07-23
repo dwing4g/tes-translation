@@ -244,10 +244,6 @@ qlpp.scroll = function(self, target, input)
 	return true --to refresh the ui
 end
 
-qlpp.getTooltipText1 = function(self,target,item) --next to the item name: "[itemname x2] (75%)"
-	return " ("..qlpp.calcChance(self, target, item).."%)"
-end
-
 qlpp.getColumnText = function(self,target,item) --in the pickpocket column (if enabled) for all displayed items
 	return qlpp.calcChance(self, target, item).."%"
 end
@@ -260,6 +256,24 @@ qlpp.onFrame = function(self,target,item, drawUI)
 			drawUI()
 		end
 	end
+end
+
+local pickpocketCompactTex = ui.texture{path = 'textures/QuickLoot/pick3compact.png'}
+
+qlpp.registerTooltipModifier = function()
+	I.SharedTooltip.registerModifier{
+		id = "pickpocketChance",
+		func = function(ctx)
+			if not (ctx.isPickpocketing and (not COLUMN_PICKPOCKET or ctx.compact)) then return end
+			local chance = qlpp.calcChance(self, inspectedContainer, ctx.item)
+			if ctx.compact then
+				ctx.addStat(pickpocketCompactTex, chance.."%", 'pickpocket', qlpp.footerColor or ctx.style.compactIconColor)
+			else
+				local nameElement = ctx.flex.content.name
+				nameElement.props.text = nameElement.props.text.." ("..chance.."%)"
+			end
+		end,
+	}
 end
 
 return qlpp

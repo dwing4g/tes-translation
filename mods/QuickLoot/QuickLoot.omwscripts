@@ -1,5 +1,9 @@
-PLAYER: scripts/OwnlysQuickLoot/SharedRay_v1.lua
+PLAYER: scripts/OwnlysQuickLoot/SharedRay_v2.lua
+PLAYER: scripts/OwnlysQuickLoot/SharedTooltip_v1.lua
 PLAYER: scripts/OwnlysQuickLoot/ql_p.lua
 GLOBAL: scripts/OwnlysQuickLoot/ql_g.lua
 CUSTOM: scripts/OwnlysQuickLoot/ql_cont2.lua
 MENU: scripts/OwnlysQuickLoot/sliderRenderer.lua
+MENU: scripts/OwnlysQuickLoot/colorPicker.lua
+MENU: scripts/OwnlysQuickLoot/keybindRenderer.lua
+MENU: scripts/OwnlysQuickLoot/optionalRenderer.lua

@@ -483,7 +483,7 @@ local function formatNumber(num, mode)
 		end
 		text = text.." "..suffixes[i]
 	elseif text >= 1000 then
-		text = math.floor(text/1000)..(not FONT_FIX and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%03d", math.floor((text%1000)/100)*100)
+		text = math.floor(text/1000)..(not FONT_FIX and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%03d", text%1000)
 	end
 	return ""..text
 end
