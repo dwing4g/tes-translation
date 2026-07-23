@@ -196,17 +196,18 @@ local function modScr(line, p, lineId)
 				if t then
 					s = t
 				else
-					warn("not found topic '", s, "' at line ", lineId, " in '", arg[1], "'")
+					warn("not found topic(1) '", s, "' at line ", lineId, " in '", arg[1], "'")
 				end
 				return '"' .. s .. '"'
 			end)
 			if first and not str:find '"' then
 				str = str:gsub('(%S+)', function(s)
+					s = s:gsub("%$00.*$", "")
 					local t = topics[lowerGBK(s)]
 					if t then
 						s = t
 					else
-						warn("not found topic '", s, "' at line ", lineId, " in '", arg[1], "'")
+						warn("not found topic(2) '", s, "' at line ", lineId, " in '", arg[1], "'")
 					end
 					return '"' .. s .. '"'
 				end)
@@ -378,7 +379,7 @@ for line in io.lines(arg[1]) do
 					if t then
 						s = t
 					else
-						warn("not found topic '", s, "' at line ", i, " in '", arg[1], "'")
+						warn("not found topic(3) '", s, "' at line ", i, " in '", arg[1], "'")
 					end
 					return '"' .. s .. e
 				end)
