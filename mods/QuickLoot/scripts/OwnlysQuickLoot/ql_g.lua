@@ -18,29 +18,62 @@ local organicContainers = {
 	flora_treestump_unique =true,
 }
 
+-- 0.50+ required
 if not core.mwscripts then
-	scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
+	return
 end
 
-local scriptWhitelist = {
-	ao_containers_scr_barrel = true,
-	ao_containers_scr_barrelf = true,
-	ao_containers_scr_basket = true,
-	ao_containers_scr_chest = true,
-	ao_containers_scr_chest_dwemer = true,
-	ao_containers_scr_closet = true,
-	ao_containers_scr_closet_dwemer = true,
-	ao_containers_scr_crate = true,
-	ao_containers_scr_cratef = true,
-	ao_containers_scr_cupboard = true,
-	ao_containers_scr_drawer_dwemer = true,
-	ao_containers_scr_drawers = true,
-	ao_containers_scr_sack = true,
-	ao_containers_scr_small_chest = true,
-	ao_containers_scr_steel_keg = true,
-	ao_containers_scr_stone_chest = true,
-	ao_containers_scr_urn = true,
+-- leaks qlScriptBlacklist and qlScriptWhitelist
+require("scripts.OwnlysQuickLoot._SCRIPT_BLACKLIST")
+
+-- the engine blacklists whatever the sMagicBound* gmsts name, gmsts cannot be enumerated from lua so the 12 vanilla names are fixed
+local BOUND_ITEM_GMSTS = {
+	"sMagicBoundBattleAxeID",
+	"sMagicBoundBootsID",
+	"sMagicBoundCuirassID",
+	"sMagicBoundDaggerID",
+	"sMagicBoundHelmID",
+	"sMagicBoundLeftGauntletID",
+	"sMagicBoundLongbowID",
+	"sMagicBoundLongswordID",
+	"sMagicBoundMaceID",
+	"sMagicBoundRightGauntletID",
+	"sMagicBoundShieldID",
+	"sMagicBoundSpearID",
 }
+
+local boundRecordIds = {}
+for _, gmst in ipairs(BOUND_ITEM_GMSTS) do
+	local id = core.getGMST(gmst)
+	if id and id ~= "" then
+		boundRecordIds[id:lower()] = true -- gmst values are not normalized, recordIds are
+	end
+end
+
+local lootInterceptors = {}
+
+-- false blocks the item, conjured gear is refused before
+local function lootAllowed(action, player, container, thing)
+	if boundRecordIds[thing.recordId] then
+		return false
+	end
+	if not next(lootInterceptors) then
+		return true
+	end
+	local ctx = {
+		player = player,
+		target = container,
+		item = thing,
+		action = action,
+		isPickpocket = types.Actor.objectIsInstance(container) and not types.Actor.isDead(container),
+	}
+	for _, func in pairs(lootInterceptors) do
+		if func(ctx) == false then
+			return false
+		end
+	end
+	return true
+end
 
 local function removeInvisibility(player)
 	for a,b in pairs(types.Actor.activeSpells(player)) do
@@ -58,17 +91,20 @@ local function scriptAllows(cont)
 		return false
 	end
 	local script = cont.type.record(cont).mwscript
-	if not script or scriptWhitelist[script] then
+	if not script or qlScriptWhitelist[script] then
 		return true
 	end
-	if core.mwscripts then
-		local scriptRecord = core.mwscripts.records[script]
-		return not (scriptRecord and scriptRecord.text:lower():find("onactivate"))
-	end
-	if scriptDB[script] then
+	if qlScriptBlacklist[script] then
 		return false
 	end
-	return true
+	-- unknown script, anything reacting to activation is left to the engine
+	local scriptRecord = core.mwscripts.records[script]
+	if not scriptRecord then
+		return true
+	end
+	-- x->onactivate suppresses x, only a bare read gates this object
+	local body = ("\n"..scriptRecord.text:lower().."\n"):gsub(";[^\n]*", "")
+	return not body:gsub("%->%s*onactivate", ""):find("[^%w_]onactivate[^%w_]")
 end
 
 local function activateContainer(cont, player)
@@ -186,6 +222,9 @@ local function deposit(data)
 	if thing.count == 0 then
 		return
 	end
+	if not lootAllowed("deposit", player, container, thing) then -- silent, the ui messages and only a stale hud or a foreign event gets here
+		return
+	end
 	if thing.parentContainer ~= player then -- id resolves outside the player, refnum dupe
 		return
 	end
@@ -221,7 +260,7 @@ local function depositAll(data)
 		--print(container,container.type,types.Container.inventory(container):isResolved())
 		local containerInventory = types.Container.inventory(container)
 		for _, thing in pairs(types.Player.inventory(player):getAll()) do
-			if thing.parentContainer == player and not types.Actor.hasEquipped(player,thing) then
+			if thing.parentContainer == player and not types.Actor.hasEquipped(player,thing) and lootAllowed("depositAll", player, container, thing) then
 				if not selectiveDesposit 
 				or selectiveDesposit == "restack" and containerInventory:countOf(thing.recordId) > 0 
 				or selectiveDesposit == "ingredients" and types.Ingredient.objectIsInstance(thing) then
@@ -241,6 +280,9 @@ local function take(data)
 	local isPickpocketing = data[4]
 	local experimentalLooting = data[5]
 	if thing.count == 0 then
+		return
+	end
+	if not lootAllowed("take", player, container, thing) then -- silent, the ui messages and only a stale hud or a foreign event gets here
 		return
 	end
 	if I.TransferItemsSpells then
@@ -307,8 +349,8 @@ local function takeAll(data)
 		--print(container,container.type,types.Container.inventory(container):isResolved())
 		for _, thing in pairs(types.Container.inventory(container):getAll()) do
 			local thingRecord = thing.type.records[thing.recordId]
-			if not thingRecord.name or thingRecord.name == "" or not types.Item.isCarriable(thing) then
-				--ignore
+			if not thingRecord.name or thingRecord.name == "" or not types.Item.isCarriable(thing) or not lootAllowed("takeAll", player, container, thing) then
+				--ignore, take all skips conjured gear silently like the engine does
 			elseif isDupedRef(player, container, thing) then
 				repairDupedTake(player, container, thing)
 			elseif thing.type == types.Book then
@@ -344,7 +386,9 @@ local function takeAll(data)
 			--thing:activateBy(player)
 		--moveInto(types.Player.inventory(player))
 		end
-		if disposeCorpse and types.Actor.objectIsInstance(container) and types.Actor.isDead(container) then
+		-- persistent corpses are quest scenery, deleting them can strand a quest
+		if disposeCorpse and types.Actor.objectIsInstance(container) and types.Actor.isDead(container)
+		and not container.type.record(container).isPersistent then
 			table.insert(deleteSecondNextUpdate,{container,2, player})
 			player:sendEvent("OwnlysQuickLoot_playSound", "item armor light up")
 		end
@@ -518,9 +562,18 @@ end
 return {
 	interfaceName = "QuickLoot",
 	interface = {
-		version = 5,
+		version = 6,
 		isHudOpen = function(player)
 			return openedGUIs[player.id]
+		end,
+		-- func(ctx) -> false blocks the item, ctx = {player, target, item, action, isPickpocket}
+		-- action is take / takeAll / deposit / depositAll, the bulk ones call it once per item
+		registerLootInterceptor = function(opts)
+			assert(type(opts.func) == "function", "registerLootInterceptor needs a func")
+			lootInterceptors[opts.id or opts.func] = opts.func
+		end,
+		unregisterLootInterceptor = function(key)
+			lootInterceptors[key] = nil
 		end,
 	},
 	eventHandlers = {

@@ -33,7 +33,7 @@ local I = require('openmw.interfaces')
 
 
 -- ------------------------------ Renderer ------------------------------
-KEYBIND_RENDERER_ID = "SuperKeybind2"
+local KEYBIND_RENDERER_ID = "SuperKeybind2"
 
 -- session only install flags for other mods, "SuperKeybind2" = true, "SuperKeybind" = 2
 local installedRenderers = storage.playerSection("InstalledSettingsRenderers")
@@ -89,7 +89,7 @@ I.Settings.registerRenderer(KEYBIND_RENDERER_ID, function(value, set, argument)
 		error(KEYBIND_RENDERER_ID .. ": argument table is required")
 	end
 	value = tonumber(value)
-
+	
 	local opts = {}
 	for k, v in pairs(defaultArgument) do
 		opts[k] = v
@@ -97,9 +97,9 @@ I.Settings.registerRenderer(KEYBIND_RENDERER_ID, function(value, set, argument)
 	for k, v in pairs(argument) do
 		opts[k] = v
 	end
-
+	
 	local isListening = listening ~= nil and listening.argument == argument
-
+	
 	local displayText
 	if isListening then
 		displayText = "press a key"
@@ -117,7 +117,7 @@ I.Settings.registerRenderer(KEYBIND_RENDERER_ID, function(value, set, argument)
 			displayText = keyName
 		end
 	end
-
+	
 	local content = {}
 	-- key display box
 	table.insert(content, {
@@ -176,7 +176,7 @@ I.Settings.registerRenderer(KEYBIND_RENDERER_ID, function(value, set, argument)
 			},
 		})
 	end
-
+	
 	local layout = {
 		type = ui.TYPE.Flex,
 		props = {

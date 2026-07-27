@@ -11,16 +11,18 @@ local I = require('openmw.interfaces')
 -- 	key = "VOLUME",
 -- 	name = "Volume (%)",
 -- 	description = "Makes stuff louder and quieter\nValues above 100 only have an effect if the game's effective effect volume is below 100% (total volume times effect volume)",
--- 	renderer = "SuperSlider5",
+-- 	renderer = "SuperSlider6",
 -- 	default = 90,
--- 	argument = { -- one table per setting, the renderer identifies the setting by it
+-- 	argument = { -- required, one table per setting, the renderer identifies the setting by it
 -- 		min = 0, -- default: 0
 -- 		max = 300, -- default: 100
 -- 		step = 5, -- default: 1
--- 		default = 90, -- default: some features disabled // NOTE: default needs to be defined here too for the default mark and reset button to show up
+-- 		stepAffectsTextInput = false, -- default: false // snaps typed values to the step
+-- 		default = 90, -- default: nil // NOTE: needs to be defined here too for the default mark
 -- 		showDefaultMark = true,  -- default: false
--- 		showResetButton = false, -- default: false
---		bottomRow = true, -- default: false // NOTE: Puts the textbox and the reset button below the slider (
+-- 		showResetButton = false, -- default: false // resets to default, or to min if that is unset
+-- 		tinyReset = false, -- default: false // narrow reset button labeled "R"
+-- 		bottomRow = true, -- default: false // NOTE: puts the textbox and the reset button below the slider, fixed height, thickness does not scale it
 -- 		minLabel = "Silent", -- default: hidden
 -- 		maxLabel = "Loud", -- default: hidden
 -- 		centerLabel = "Normal", -- default: hidden
@@ -28,15 +30,16 @@ local I = require('openmw.interfaces')
 -- 		width = 150, -- default: 200
 -- 		thickness = 14, -- default: 15
 -- 		unit = "%", -- default: none
+-- 		disabled = false, -- default: false
 -- 	},
 -- },
 
 
 -- =========================================================
 -- =========================================================
-SLIDER_RENDERER_ID = "SuperSlider5"
+local SLIDER_RENDERER_ID = "SuperSlider6"
 
--- session only install flags for other mods, "SuperSlider5" = true, "SuperSlider" = 5
+-- session only install flags for other mods, "SuperSlider6" = true, "SuperSlider" = 6
 local installedRenderers = storage.playerSection("InstalledSettingsRenderers")
 installedRenderers:setLifeTime(storage.LIFE_TIME.GameSession)
 installedRenderers:set(SLIDER_RENDERER_ID, true)
@@ -52,6 +55,29 @@ local trackTexture = ui.texture { path = 'textures/omw_menu_scroll_center_h.dds'
 local editingState = {}
 local activeSlider = nil
 
+-- arrow background flash on mousewheel
+local mwuiConstants = require('scripts.omw.mwui.constants')
+local whiteTexture = mwuiConstants.whiteTexture
+
+-- reads an "r,g,b" (0-255) gmst into a color
+local function getColorFromGameSettings(gmst)
+	local result = core.getGMST(gmst)
+	if not result then return util.color.rgb(1, 1, 1) end
+	local rgb = {}
+	for c in string.gmatch(result, '(%d+)') do
+		table.insert(rgb, tonumber(c))
+	end
+	if #rgb ~= 3 then return util.color.rgb(1, 1, 1) end
+	return util.color.rgb(rgb[1] / 255, rgb[2] / 255, rgb[3] / 255)
+end
+
+local flashColor = getColorFromGameSettings("fontColor_color_normal")
+local flashDuration = 0.28
+local flashStartAlpha = 0.7
+local liveArrowBg = {}   -- argument -> { left = elem, right = elem }
+local currentFlash = nil -- { argKey, side, startTime }
+local flashArrow         -- forward declared, defined after the renderer
+
 -- =========================================================
 -- Helper Functions
 -- =========================================================
@@ -61,10 +87,12 @@ local defaultArgument = {
 	min = 0,
 	max = 100,
 	step = 1,
+	stepAffectsTextInput = false,
 	width = 200,
 	thickness = 15,
 	showDefaultMark = false,
 	showResetButton = false,
+	tinyReset = false,
 	bottomRow = false,
 	unit = '',
 	minLabel = nil, 
@@ -74,18 +102,14 @@ local defaultArgument = {
 }
 
 local function applyDefaults(argument, defaults)
-	if not argument then return defaults end
-	if pairs(defaults) and pairs(argument) then
-		local result = {}
-		for k, v in pairs(defaults) do
-			result[k] = v
-		end
-		for k, v in pairs(argument) do
-			result[k] = v
-		end
-		return result
+	local result = {}
+	for k, v in pairs(defaults) do
+		result[k] = v
 	end
-	return argument
+	for k, v in pairs(argument) do
+		result[k] = v
+	end
+	return result
 end
 
 local function disable(disabled, layout)
@@ -106,6 +130,9 @@ end
 -- =========================================================
 
 I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
+	if not argument then
+		error(SLIDER_RENDERER_ID .. ": argument table is required")
+	end
 	local originalArgument = argument
 	argument = applyDefaults(argument, defaultArgument)
 	local min = argument.min
@@ -118,40 +145,81 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 	local handleHeight = math.max(trackHeight - 4, 4)
 	local arrowSize = util.vector2(trackHeight, trackHeight)
 	local thicknessScale = trackHeight / 14
-
+	-- bottom row is a fixed strip, thickness does not scale it
+	local bottomRowHeight = 18
+	
 	local function valueToPosition(val)
 		local range = max - min
 		if range == 0 then return 0 end
 		return math.floor((val - min) / range * (trackWidth - handleWidth) + 0.5)
 	end
-
+	
 	local function positionToValue(pos)
 		local normalized = pos / (trackWidth - handleWidth)
 		local rawValue = min + (normalized * (max - min))
 		local snapped = math.floor(rawValue / step + 0.5) * step
+		-- min wins the left end when it sits off the multiples
+		if rawValue - min < math.abs(rawValue - snapped) then return min end
 		return util.clamp(snapped, min, max)
 	end
-
+	
 	local handlePos = valueToPosition(value)
-
+	
 	local decrementValue = async:callback(function()
+		flashArrow(originalArgument, 'left')
 		local newValue = util.clamp(value - step, min, max)
 		if newValue ~= value then set(newValue) end
 	end)
 
 	local incrementValue = async:callback(function()
+		flashArrow(originalArgument, 'right')
 		local newValue = util.clamp(value + step, min, max)
 		if newValue ~= value then set(newValue) end
 	end)
-
+	
+	-- arrow button with a flashable background behind the glyph
+	local function makeArrow(resource, onClick)
+		local bg = ui.create {
+			type = ui.TYPE.Image,
+			props = {
+				resource = whiteTexture,
+				color = flashColor,
+				size = arrowSize,
+				alpha = 0,
+			},
+		}
+		local box = {
+			template = I.MWUI.templates.box,
+			content = ui.content {
+				{
+					type = ui.TYPE.Widget,
+					props = { size = arrowSize },
+					content = ui.content {
+						bg,
+						{
+							type = ui.TYPE.Image,
+							props = { resource = resource, size = arrowSize },
+							events = { mouseClick = onClick },
+						},
+					},
+				},
+			},
+		}
+		return box, bg
+	end
+	
+	local leftBox, leftBg = makeArrow(leftArrow, decrementValue)
+	local rightBox, rightBg = makeArrow(rightArrow, incrementValue)
+	liveArrowBg[originalArgument] = { left = leftBg, right = rightBg }
+	
 	local updateFromMouse = async:callback(function(e)
-		activeSlider = { set = set, value = value, step = step, min = min, max = max }
+		activeSlider = { set = set, value = value, step = step, min = min, max = max, argKey = originalArgument }
 		if e.button ~= 1 then return end
 		local pos = util.clamp(e.offset.x - handleWidth / 2, 0, trackWidth - handleWidth)
 		local newValue = positionToValue(pos)
 		if newValue ~= value then set(newValue) end
 	end)
-
+	
 	local lastInput = nil
 	local onTextChanged = async:callback(function(text) lastInput = text end)
 	local onFocusGain = async:callback(function()
@@ -177,7 +245,7 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 			set(value)
 		end
 	end)
-
+	
 	local displayValue
 	if step >= 1 and math.abs(value%1) < 0.01 then
 		displayValue = string.format("%d", math.floor(value + 0.5))
@@ -194,7 +262,8 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 	local unitLength = #argument.unit
 	
 	-- 1000 = +1, 10000 = +2, etc...
-	unitLength = unitLength + math.max(0, math.floor(math.log10(max)) - 2)
+	local widestValue = math.max(math.abs(min), math.abs(max), 1)
+	unitLength = unitLength + math.max(0, math.floor(math.log10(widestValue)) - 2)
 	if min < 0 then
 		unitLength = unitLength + 1
 	end
@@ -223,7 +292,7 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 			},
 		})
 	end
-
+	
 	local handleYOffset = (trackHeight - handleHeight) / 2
 	table.insert(trackContent, {
 		type = ui.TYPE.Widget,
@@ -241,22 +310,13 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 			},
 		},
 	})
-
+	
 	-- Top row: arrows + track
 	local sliderRow = {
 		type = ui.TYPE.Flex,
 		props = { horizontal = true, arrange = ui.ALIGNMENT.Center },
 		content = ui.content {
-			{
-				template = I.MWUI.templates.box,
-				content = ui.content {
-					{
-						type = ui.TYPE.Image,
-						props = { resource = leftArrow, size = arrowSize },
-						events = { mouseClick = decrementValue },
-					},
-				},
-			},
+			leftBox,
 			{
 				template = I.MWUI.templates.box,
 				content = ui.content {
@@ -268,45 +328,40 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 					},
 				},
 			},
-			{
-				template = I.MWUI.templates.box,
-				content = ui.content {
-					{
-						type = ui.TYPE.Image,
-						props = { resource = rightArrow, size = arrowSize },
-						events = { mouseClick = incrementValue },
-					},
-				},
-			},
+			rightBox,
 		},
 	}
 	-- Build reset button if needed
 	local resetButton
 	if argument.showResetButton and default then
 		local l10n = core.l10n('Interface')
-		local resetLabel = argument.resetLabel or l10n('Reset')
+		local resetLabel = argument.tinyReset and "R" or l10n('Reset')
 		local resetToDefault = async:callback(function() set(default) end)
+		-- narrow width when tinyReset
+		local resetWidth
+		if argument.bottomRow then
+			resetWidth = argument.tinyReset and 24 or 50
+		else
+			resetWidth = math.floor((argument.tinyReset and 18 or 40) * thicknessScale + 0.5)
+		end
 		resetButton = {
 			template = I.MWUI.templates.box,
-			props = {
-				size = not argument.bottomRow and util.vector2(math.floor(40 * thicknessScale + 0.5), trackHeight) or util.vector2(50, 14),
-			},
 			content = ui.content {
-						{
-							template = I.MWUI.templates.textNormal,
-							props = {
-								text = resetLabel,
-								size = not argument.bottomRow and util.vector2(math.floor(40 * thicknessScale + 0.5), trackHeight) or util.vector2(50, 18),
-								autoSize = false,
-								textSize = not argument.bottomRow and trackHeight+1 or 18,
-								textAlignH = ui.ALIGNMENT.Center,
-							},
-						},
+				{
+					template = I.MWUI.templates.textNormal,
+					props = {
+						text = resetLabel,
+						size = util.vector2(resetWidth, not argument.bottomRow and trackHeight or bottomRowHeight),
+						autoSize = false,
+						textSize = not argument.bottomRow and trackHeight+1 or bottomRowHeight,
+						textAlignH = ui.ALIGNMENT.Center,
+					},
+				},
 			},
 			events = { mouseClick = resetToDefault },
 		}
 	end
-
+	
 	-- Place text input + reset button either inline or in a second row
 	local bottomRow
 	if argument.bottomRow then
@@ -321,9 +376,9 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 				{
 					template = I.MWUI.templates.textEditLine,
 					props = {
-						size = util.vector2(50+unitLength*5, 18),
+						size = util.vector2(50+unitLength*5, bottomRowHeight),
 						text = displayText,
-						textSize = 18,
+						textSize = bottomRowHeight,
 						textAlignH = ui.ALIGNMENT.Center,
 						autoSize = false,
 					},
@@ -338,7 +393,7 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 				autoSize = false,
 				align = ui.ALIGNMENT.End,
 				arrange = ui.ALIGNMENT.End,
-				size = util.vector2(trackWidth, 23),
+				size = util.vector2(trackWidth, bottomRowHeight + 5),
 			},
 			external = { stretch = 1 },
 			content = ui.content(bottomContent),
@@ -364,10 +419,10 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 			table.insert(sliderRow.content, resetButton)
 		end
 	end
-
+	
 	-- Combine into vertical layout
 	local rows = {}
-
+	
 	if argument.minLabel or argument.maxLabel or argument.centerLabel then
 		local sliderWidth = arrowSize.x + 4 + trackWidth + 4 + arrowSize.x + 4
 		local labelSize = argument.labelSize or math.max(trackHeight - 2, 10)
@@ -399,12 +454,12 @@ I.Settings.registerRenderer(SLIDER_RENDERER_ID, function(value, set, argument)
 			content = ui.content(labelContent),
 		})
 	end
-
+	
 	table.insert(rows, sliderRow)
 	if bottomRow then
 		table.insert(rows, bottomRow)
 	end
-
+	
 	return disable(argument.disabled, {
 		type = ui.TYPE.Flex,
 		props = { horizontal = false },
@@ -440,6 +495,25 @@ local function scrollActiveSlider(direction)
 	if newValue ~= s.value then s.set(newValue) end
 end
 
+-- flash one arrow background; clears both first so a reversed direction never leaves a stuck highlight
+function flashArrow(argKey, side)
+	local bgs = liveArrowBg[argKey]
+	if not bgs then return end
+	if bgs.left then bgs.left.layout.props.alpha = 0; bgs.left:update() end
+	if bgs.right then bgs.right.layout.props.alpha = 0; bgs.right:update() end
+	currentFlash = {
+		argKey = argKey,
+		side = side,
+		startTime = core.getRealTime(),
+	}
+end
+
+-- flash the arrow that matches the scroll direction
+local function startFlash(direction)
+	if not activeSlider then return end
+	flashArrow(activeSlider.argKey, direction > 0 and 'right' or 'left')
+end
+
 local function onMouseWheel(direction)
 	if mouseWheelBonusFunction then
 		if direction > 0 then
@@ -448,7 +522,23 @@ local function onMouseWheel(direction)
 			input.activateTrigger("MenuMouseWheelDown")
 		end
 	end
+	if activeSlider then startFlash(direction) end
 	scrollActiveSlider(direction)
+end
+
+-- fade the active flash out over real time (dt is 0 while the menu pauses the game)
+local function onFrame()
+	if not currentFlash then return end
+	local bgs = liveArrowBg[currentFlash.argKey]
+	local elem = bgs and bgs[currentFlash.side]
+	if not elem then currentFlash = nil return end
+	local t = (core.getRealTime() - currentFlash.startTime) / flashDuration
+	local alpha = t >= 1 and 0 or flashStartAlpha * (1 - t)
+	local ok = pcall(function()
+		elem.layout.props.alpha = alpha
+		elem:update()
+	end)
+	if not ok or t >= 1 then currentFlash = nil end
 end
 
 -- =========================================================
@@ -458,5 +548,6 @@ end
 return {
 	engineHandlers = {
 		onMouseWheel = onMouseWheel,
+		onFrame = onFrame,
 	},
 }

@@ -11,7 +11,7 @@
 -- │ │ - "quality" (Text, when: lockpick, probe, repair)                                                                                                                                                                                                                      │ │
 -- │ │ - "armorClass" (Text, when: armor + compact)                                                                                                                                                                                                                           │ │
 -- │ │ - "armorRating" (Text, when: armor)                                                                                                                                                                                                                                    │ │
--- │ │ - "weaponType" (Text, when: weapon)                                                                                                                                                                                                                                    │ │
+-- │ │ - "weaponType" (Text, when: weapon, sType prefix when typeLabel)                                                                                                                                                                                                       │ │
 -- │ │ - "attack" (Text, when: weapon, marksman)                                                                                                                                                                                                                              │ │
 -- │ │ - "chop" "slash" "thrust" (Text, when: weapon, melee)                                                                                                                                                                                                                  │ │
 -- │ │ - "condition" (Text, when: weapon/armor + durabilityDisplay vanilla or colored, colored tints the current value)                                                                                                                                                       │ │
@@ -23,8 +23,8 @@
 -- │ │ └──────────────────────────────────────────────────────────────────────────────┘                                                                                                                                                                                       │ │
 -- │ │ - "conditionBarBottomSpacer" 0x1 (when: durabilityDisplay bar)                                                                                                                                                                                                         │ │
 -- │ │ - "enchantCapacity" (Text, when: setting on + unenchanted)                                                                                                                                                                                                             │ │
--- │ │ - "range" (Text, when: weapon + setting, off by default)                                                                                                                                                                                                               │ │
--- │ │ - "speed" (Text, when: weapon + setting, off by default)                                                                                                                                                                                                               │ │
+-- │ │ - "range" (Text, when: weapon + setting + not ammo, off by default)                                                                                                                                                                                                    │ │
+-- │ │ - "speed" (Text, when: weapon + setting + not ammo, off by default)                                                                                                                                                                                                    │ │
 -- │ │ - "soul" (Text, when: filled soulgem + full mode + soulValue setting, creature name (soul value))                                                                                                                                                                      │ │
 -- │ │ - "weight" (Text, when: full mode, armor class name appended)                                                                                                                                                                                                          │ │
 -- │ │ - "value" (Text, when: full mode)                                                                                                                                                                                                                                      │ │
@@ -54,11 +54,11 @@
 -- │ │ │ - "effectSpacer"N 0 x effectSpacing (after every row, the last one included)                                                                                                           │                                                                             │ │
 -- │ │ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                                             │ │
 -- │ │ - "chargeTopSpacer" 0x1 (when: enchant charge + chargeDisplay bar)                                                                                                                                                                                                     │ │
--- │ │ ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐                                             │ │
--- │ │ │ "charge"                                                                                                                                                                                                               │                                             │ │
--- │ │ │ (Flex, when: enchant charge + chargeDisplay bar, bar row via makeBarRow, "bar" overlays "background" "fill" "text" cur / max "border" (makeBar, barGradient swaps the fill), right align puts the cost before the bar) │                                             │ │
--- │ │ │ ["useCostCounterweight" (center align)] ["label" (barLabels)] ["spacer"] ["bar" barWidth x ts] ["useCostSpacer" 0.25ts] ["useCost" -N, fixed 2ts (useCost setting)] ["rightSpacer" 5x0]                                │                                             │ │
--- │ │ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                             │ │
+-- │ │ ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐                                  │ │
+-- │ │ │ "charge"                                                                                                                                                                                                                          │                                  │ │
+-- │ │ │ (Flex, when: enchant charge + chargeDisplay bar + not ammo, bar row via makeBarRow, "bar" overlays "background" "fill" "text" cur / max "border" (makeBar, barGradient swaps the fill), right align puts the cost before the bar) │                                  │ │
+-- │ │ │ ["useCostCounterweight" (center align)] ["label" (barLabels)] ["spacer"] ["bar" barWidth x ts] ["useCostSpacer" 0.25ts] ["useCost" -N, fixed ~0.8ts/char (useCost setting)] ["rightSpacer" 5x0]                                   │                                  │ │
+-- │ │ └───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                  │ │
 -- │ │ - "chargeBottomSpacer" 0x1, 0x0 when the bottom conditionBar follows (when: enchant charge + chargeDisplay bar)                                                                                                                                                        │ │
 -- │ │ - "conditionBarTopSpacer" 0x1 (when: durabilityDisplay bar (bottom))                                                                                                                                                                                                   │ │
 -- │ │ ┌───────────────────────────────────────────────────────────────────────────────────────────────────────────┐                                                                                                                                                          │ │
@@ -93,11 +93,11 @@
 -- │ │ - "divider" (Image, when: a custom line lands or a modifier calls enableDivider, alpha 0 and 0 high until then, thin border line under the stat row)                                                                                                                   │ │
 -- │ │ - "dividerBottomSpacer" 0x0, 0x2 when enabled                                                                                                                                                                                                                          │ │
 -- │ │ - "customLine" (Text, when: override, caller supplied, enables the divider)                                                                                                                                                                                            │ │
--- │ │ - "chainLine1..N" (Text, when: registerLine mods return a line, enables the divider, no spacers, the lines stack on font leading)                                                                                                                                      │ │
+-- │ │ - "chainLine_<id>" (Text, when: registerLine mods return a line, enables the divider, no spacers, the lines stack on font leading)                                                                                                                                     │ │
 -- │ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 --[[
-	Shared Tooltip v1
+	Shared Tooltip v4
 
 	Usage:
 		local tip = I.SharedTooltip.create(item, overrides, style, context)
@@ -134,7 +134,11 @@
 				return "extra line"
 			end,
 		}
+			func is required, a line returns a string or nil, its row is named "chainLine_<id>"
+			both chains are pcall'd, a throwing entry prints the error and the others still build
 		I.SharedTooltip.unregisterModifier("myMod") / unregisterLine("myModLine")
+		I.SharedTooltip.modifiers / .lines
+			live priority sorted lists of the registered entries {id, priority, seq, func}, read only, mutate via register/unregister
 
 	ctx - lines and modifiers:
 		item (nil for record tooltips), info (instance values land here under
@@ -150,7 +154,7 @@
 		addStat(texture, valueStr, statName, color), addEffectGroup(groupName),
 		makeBar(size, ratio, fillColor, overlayText, textColor) -> element,
 		makeBarRow(labelText, labelColor, bar, rowName) -> element, add the result to flex yourself
-		getConditionColor(current, max), formatNumber(num, mode, fontFix),
+		getConditionColor(current, max), formatNumber(num, mode, separator),
 		mirrored (true on right align, flip horizontal child order to match)
 		printEffects(target, effects, isAlchemy, color, alchemySkill)
 			effects table in the parsed info form (text, icon, (known)),
@@ -181,14 +185,14 @@
 		background (texture), backgroundColor, transparency, padding (px inside the frame),
 		nameColor, labelColor, valueColor, compactIconColor,
 		enchantBlockColor (tints the enchantment block, charge bar text included),
-		textSize (px), textAlignment ("left"/"center"/"right"), fontFix (plain number characters),
+		textSize (px), textAlignment ("left"/"center"/"right"), thousandsSeparator (string),
 		weightTex, valueTex (compact stat icons),
 		compact, shortText, renameEffects (cosmetic renames like Restore Health -> Heal),
 		alignedEffects (flush effect rows, off follows textAlignment per line), effectSpacing (px between rows),
 		barGradient (vanilla bar fill), barLabels, barWidth (px, both bars), useCost (cast cost by the charge bar),
 		chargeDisplay ("none" drops the charge bar, no setting behind it), chargeBarColor,
 		durabilityDisplay ("none"/"vanilla"/"colored"/"bar"/"bar (above enchantments)"/"bar (bottom)"), durabilityBarColor,
-		weaponSpeed, weaponRange, enchantCapacity,
+		typeLabel (sType prefix on the weapon type line), weaponSpeed, weaponRange, enchantCapacity,
 		soulValue (soul line / compact stat, only the name suffix otherwise),
 		soulgemRebalance (mcp soulgem pricing, mirror the launcher toggle)
 	context: call site metadata, every key passes through to ctx
@@ -196,10 +200,9 @@
 		alchemySkill (stands in for the player's skill in the knowledge gate,
 			math.huge shows every effect, 0 hides them all)
 	bundling:
-		ship this one file
-		renderer copies flag their newest version at the unnumbered key
-			in player storage "InstalledSettingsRenderers" (session flag),
-		the settings page appends it to build the newest renderer id, engine renderers otherwise
+		ship this file and register it in your .omwscripts as a PLAYER script
+		include the textures (the texture path needs to stay the same)
+		if the player has SuperColorPicker3+ or SuperSlider5+ installed, they get used in the settings
 ]]
 
 local I = require("openmw.interfaces")
@@ -213,7 +216,7 @@ local async = require('openmw.async')
 local auxUi = require('openmw_aux.ui')
 local v2 = util.vector2
 
-local MY_VERSION = 1
+local MY_VERSION = 4
 
 -- version check
 if I.SharedTooltip and I.SharedTooltip.version >= MY_VERSION then
@@ -256,12 +259,13 @@ local stylePresets = {
 		durabilityBarColor = util.color.hex('c83c1e'), -- FontColor_color_health
 		textSize = 19,
 		textAlignment = 'center',
-		fontFix = true,
+		thousandsSeparator = "",
 		compact = false,
 		shortText = false,
 		renameEffects = false,
 		alignedEffects = false, -- vanilla centers every effect line
 		effectSpacing = 5,
+		typeLabel = true, -- vanilla prefixes the weapon type with sType
 		weaponSpeed = false,
 		weaponRange = false,
 		enchantCapacity = false,
@@ -284,6 +288,7 @@ local stylePresets = {
 		useCost = true,
 		padding = 2,
 		effectSpacing = 0,
+		typeLabel = false,
 	},
 	extended = {
 		compact = true,
@@ -300,6 +305,7 @@ local stylePresets = {
 		enchantCapacity = true,
 		soulValue = true,
 		effectSpacing = 1,
+		typeLabel = false,
 	},
 }
 
@@ -316,12 +322,9 @@ local function presetDefault(key)
 end
 
 ------------------------------ player settings ------------------------------
--- renderer families store their newest version at the unnumbered key
-local installedRenderers = storage.playerSection("InstalledSettingsRenderers")
-local sliderVersion = installedRenderers:get("SuperSlider")
-local numberRenderer = sliderVersion and "SuperSlider" .. sliderVersion or "number"
-local pickerVersion = installedRenderers:get("SuperColorPicker")
-local colorRenderer = pickerVersion and "SuperColorPicker" .. pickerVersion or "color"
+-- resolved onActive:
+local numberRenderer = "number"
+local colorRenderer = "color"
 
 local presetColors = {
 	"dfc99f", -- name
@@ -334,7 +337,8 @@ local presetColors = {
 	"ffffff", -- border tint
 }
 
-I.Settings.registerPage {
+-- page + groups register in onActive, not here, see registerSettings below
+local settingsPage = {
 	key = 'SharedTooltip',
 	l10n = 'none',
 	name = 'Tooltip',
@@ -435,10 +439,15 @@ settingsTemplate[tempKey] = {
 			},
 		},
 		{
-			key = 'fontFix',
-			renderer = 'checkbox',
-			name = 'Plain number characters (font fix)',
-			default = presetDefault('fontFix'),
+			key = 'thousandsSeparator',
+			renderer = 'select',
+			name = 'Thousands separator',
+			description = 'Sits between the thousands and the hundreds of a large number\nThe narrow one is a hair space and needs a font that has it',
+			default = presetDefault('thousandsSeparator'),
+			argument = {
+				l10n = 'none',
+				items = {"", string.char(0xE2,0x80,0x8A,0xE2,0x80,0x8A), " ", "'", ",", "."},
+			},
 		},
 	},
 }
@@ -601,6 +610,12 @@ settingsTemplate[tempKey] = {
 			},
 		},
 		{
+			key = 'typeLabel',
+			renderer = 'checkbox',
+			name = 'Weapon type label',
+			default = presetDefault('typeLabel'),
+		},
+		{
 			key = 'weaponSpeed',
 			renderer = 'checkbox',
 			name = 'Weapon speed',
@@ -634,25 +649,28 @@ settingsTemplate[tempKey] = {
 	},
 }
 
-for _, template in pairs(settingsTemplate) do
-	I.Settings.registerGroup(template)
-end
-
--- section lookup
+-- section lookup and per-key defaults
 local sectionForKey = {}
+local defaultForKey = {}
 for _, template in pairs(settingsTemplate) do
 	local section = storage.playerSection(template.key)
 	for _, entry in pairs(template.settings) do
 		sectionForKey[entry.key] = section
+		defaultForKey[entry.key] = entry.default
 	end
 end
 
+-- settings this version added since v1 (needed when clashing with v1)
+local addedSettings = { typeLabel = true }
+local settingsClashed = false
+
 ------------------------------ style defaults ------------------------------
 local function getSetting(key)
-	return sectionForKey[key]:get(key)
+	local value = sectionForKey[key]:get(key)
+	if value == nil then value = defaultForKey[key] end
+	return value
 end
 
--- subscribers by the tracked tooltips keep this in sync with the player settings
 local styleDefaults = {
 	borderStyle = getSetting('borderStyle'),
 	borderColor = getSetting('borderColor'),
@@ -660,7 +678,7 @@ local styleDefaults = {
 	padding = getSetting('padding'),
 	textSize = getSetting('textSize'),
 	textAlignment = getSetting('textAlignment'),
-	fontFix = getSetting('fontFix'),
+	thousandsSeparator = getSetting('thousandsSeparator'),
 	nameColor = getSetting('nameColor'),
 	labelColor = getSetting('labelColor'),
 	valueColor = getSetting('valueColor'),
@@ -677,6 +695,7 @@ local styleDefaults = {
 	renameEffects = getSetting('renameEffects'),
 	alignedEffects = getSetting('alignedEffects'),
 	effectSpacing = getSetting('effectSpacing'),
+	typeLabel = getSetting('typeLabel'),
 	weaponSpeed = getSetting('weaponSpeed'),
 	weaponRange = getSetting('weaponRange'),
 	enchantCapacity = getSetting('enchantCapacity'),
@@ -697,7 +716,7 @@ local styleDefaults = {
 }
 
 -- preset picker (seperate)
-I.Settings.registerGroup {
+local presetPicker = {
 	key = 'SettingsSharedTooltipPresets',
 	page = 'SharedTooltip',
 	l10n = 'none',
@@ -724,13 +743,57 @@ presetSection:subscribe(async:callback(function()
 	if I.SharedTooltip and I.SharedTooltip.version ~= MY_VERSION then return end
 	local preset = stylePresets[presetSection:get('preset')]
 	if not preset then return end
-	for key, value in pairs(stylePresets.vanilla) do
-		sectionForKey[key]:set(key, value)
-	end
-	for key, value in pairs(preset) do
-		sectionForKey[key]:set(key, value)
+	-- vanilla base then preset override
+	local values = {}
+	for key, value in pairs(stylePresets.vanilla) do values[key] = value end
+	for key, value in pairs(preset) do values[key] = value end
+	for key, value in pairs(values) do
+		-- on a clash the added settings arent in the older copys menu group, setting them would error it
+		if not (settingsClashed and addedSettings[key]) then
+			sectionForKey[key]:set(key, value)
+		end
 	end
 end))
+
+------------------------------ deferred settings registration ------------------------------
+local function registerSettings()
+	if not (I.SharedTooltip and I.SharedTooltip.version == MY_VERSION) then return end
+	-- resolve (super-) renderers
+	local installedRenderers = storage.playerSection("InstalledSettingsRenderers")
+	local sliderVersion = installedRenderers:get("SuperSlider")
+	local pickerVersion = installedRenderers:get("SuperColorPicker")
+	local numberId = sliderVersion and "SuperSlider" .. sliderVersion or "number"
+	local colorId = pickerVersion and "SuperColorPicker" .. pickerVersion or "color"
+	for _, template in pairs(settingsTemplate) do
+		for _, setting in ipairs(template.settings) do
+			if setting.renderer == "number" then setting.renderer = numberId
+			elseif setting.renderer == "color" then setting.renderer = colorId end
+		end
+	end
+	-- register settings (pcall for v1 compat)
+	local clashed = false
+	local clashError
+	for _, template in pairs(settingsTemplate) do
+		local ok, err = pcall(I.Settings.registerGroup, template)
+		if not ok then
+			clashed = true
+			clashError = clashError or err
+		end
+	end
+	local pickerOk, pickerErr = pcall(I.Settings.registerGroup, presetPicker)
+	if not pickerOk then
+		clashed = true
+		clashError = clashError or pickerErr
+	end
+	settingsClashed = clashed -- the cascade leaves addedSettings alone from here
+	-- v1 didn't have the safe settings code. warn users to update it (was released on quickloot for a very short period)
+	if clashed then
+		print("SharedTooltip settings clash: "..tostring(clashError))
+		ui.showMessage("Deprecated sharedTooltip version detected, please update the mod that ships sharedTooltip_v1")
+		error("Deprecated sharedTooltip version detected, please update the mod that ships sharedTooltip_v1")
+	end
+	I.Settings.registerPage(settingsPage)
+end
 ------------------------------------------------------------
 
 -- utf8 codepoint to bytes
@@ -752,8 +815,8 @@ local function hextoutf8(decimal)
 	return table.concat(charbytes)
 end
 
--- number to short string, thin spaces group thousands
-local function formatNumber(num, mode, fontFix)
+-- number to short string, the separator groups thousands
+local function formatNumber(num, mode, separator)
 	local text = math.floor(num*10)/10
 	if mode == "v/w" then
 		text = (math.floor(num*10+0.5)/10)
@@ -764,12 +827,7 @@ local function formatNumber(num, mode, fontFix)
 		text = math.floor(text)
 	end
 	if text == 1/0 then
-		if not fontFix then
-			text = hextoutf8(0x221e)
-		else
-			-- callers derive the inf case from the number itself
-			text = "-"
-		end
+		text = "inf"
 	elseif text >= 10^6-100 then
 		text = text/1000
 		local e = math.floor(math.log10(text))
@@ -790,7 +848,7 @@ local function formatNumber(num, mode, fontFix)
 		end
 		text = text.." "..suffixes[i]
 	elseif text >= 1000 then
-		text = math.floor(text/1000)..(not fontFix and hextoutf8(0x200a)..hextoutf8(0x200a) or "")..string.format("%03d", text%1000)
+		text = math.floor(text/1000)..(separator or "")..string.format("%03d", text%1000)
 	end
 	return ""..text
 end
@@ -923,6 +981,8 @@ local function makeTooltipChain()
 		entries = list
 	}
 	function chain.register(opts)
+		-- foreign code, a missing func fails here where the log still names the culprit
+		assert(type(opts.func) == "function", "SharedTooltip: register needs opts.func to be a function")
 		-- replace any existing entry sharing the id
 		if opts.id then
 			for i, entry in ipairs(list) do
@@ -948,6 +1008,8 @@ local function makeTooltipChain()
 		end)
 	end
 	function chain.unregister(key)
+		-- a nil key would match the first entry that carries no id
+		if key == nil then return end
 		for i, entry in ipairs(list) do
 			if entry.id == key or entry.func == key then
 				table.remove(list, i)
@@ -1305,7 +1367,8 @@ local rangeAliases = {
 local function getEffects(eff, enchantType, shortTexts, renameEffects)
 	local effects = {}
 
-	for i, effect in ipairs(eff) do
+	-- pairs, engine effect lists are not always numbered contiguously
+	for _, effect in pairs(eff) do
 		local text = getMagicEffectName(effect.id, effect.affectedSkill or effect.affectedAttribute)
 		--for a,b in pairs(core.magic.EFFECT_TYPE) do
 		--	if b == effect.id then
@@ -1457,7 +1520,7 @@ end
 -- clone effect entries field by field, plain tables and engine effect objects both work
 local function normalizeEffects(effects)
 	local normalized = {}
-	for _, eff in ipairs(effects or {}) do
+	for _, eff in pairs(effects or {}) do
 		local clone = {
 			id = eff.id,
 			range = eff.range,
@@ -1497,7 +1560,7 @@ local function getEnchantmentData(record, shortTexts, currentCharge, renameEffec
 			effects = normalizeEffects(enchantment.effects),
 		}
 	else
-		enchantmentRecord = core.magic.enchantments.records[enchantment:lower()]
+		enchantmentRecord = core.magic.enchantments.records[enchantment]
 		if not enchantmentRecord then return nil end
 	end
 
@@ -1540,7 +1603,7 @@ end
 
 local function getIngredientEffects(effectList)
 	local effects = {}
-	for _,effect in ipairs(effectList) do
+	for _,effect in pairs(effectList) do
 		local text = getMagicEffectName(effect.id, effect.affectedSkill or effect.affectedAttribute)
 		if effect.affectedSkill then
 			text = text.." "..(core.getGMST("sSkill"..effect.affectedSkill) or "??")
@@ -1715,7 +1778,6 @@ local function buildTooltipLayout(item, overrides, style, context)
 		local recordId = inputType == "string" and item or (inputType == "userdata" or inputType == "table") and item.id
 		item = nil
 		if recordId and recordId ~= "" then
-			recordId = recordId:lower()
 			for _, store in ipairs(itemTypeStores) do
 				if store.records[recordId] then
 					itemType = store
@@ -2014,8 +2076,8 @@ local function buildTooltipLayout(item, overrides, style, context)
 	end
 	
 	if info.type == "weapon" then
-		-- engine leads with sType and spaces the damage ranges, shortText drops both
-		local typePrefix = style.shortText and "" or core.getGMST("sType").." "
+		-- engine leads with sType and spaces the damage ranges, typeLabel toggles the prefix, shortText tightens the ranges
+		local typePrefix = style.typeLabel and core.getGMST("sType").." " or ""
 		local dmgSep = style.shortText and "-" or " - "
 		textElement(labelTag..typePrefix..info.weaponData.typeName, nil, 'weaponType')
 		if info.weaponData.typeName == core.getGMST("sSkillMarksman") then
@@ -2080,11 +2142,11 @@ local function buildTooltipLayout(item, overrides, style, context)
 		end
 		if info.weight and info.weight > 0 then
 			local suffix = info.armorData and (" ("..info.armorData.class..")") or ""
-			textElement(labelTag..core.getGMST("sWeight")..": "..valueTag..formatNumber(info.weight, "weight", style.fontFix)..suffix, nil, 'weight')
+			textElement(labelTag..core.getGMST("sWeight")..": "..valueTag..formatNumber(info.weight, "weight", style.thousandsSeparator)..suffix, nil, 'weight')
 		end
 
 		if info.value and info.value > 0 then
-			textElement(labelTag..core.getGMST("sValue")..": "..valueTag..formatNumber(info.value, "value", style.fontFix), nil, 'value')
+			textElement(labelTag..core.getGMST("sValue")..": "..valueTag..formatNumber(info.value, "value", style.thousandsSeparator), nil, 'value')
 		end
 	end
 	
@@ -2395,11 +2457,18 @@ local function buildTooltipLayout(item, overrides, style, context)
 	lineCtx.overrides = overrides
 	lineCtx.labelTag = labelTag
 	lineCtx.valueTag = valueTag
+	-- foreign code, a throwing or sloppy line must not kill the build
 	for i, entry in ipairs(tooltipLineChain.entries) do
-		local text = entry.func(lineCtx)
-		if text then
+		local tag = tostring(entry.id or i)
+		local ok, text = pcall(entry.func, lineCtx)
+		if not ok then
+			print(text)
+		elseif type(text) == 'string' then
 			enableDivider()
-			textElement(text, nil, 'chainLine'..i)
+			textElement(text, nil, 'chainLine_'..tag)
+		elseif text ~= nil and text ~= false then
+			-- nothing threw, so nothing names the culprit
+			print("SharedTooltip line '"..tag.."' returned a "..type(text))
 		end
 	end
 
@@ -2459,10 +2528,10 @@ local function buildTooltipLayout(item, overrides, style, context)
 
 	if style.compact then
 		if info.value and info.value > 0 then
-			addStat(style.valueTex, formatNumber(info.value, "value", style.fontFix), 'value', style.compactIconColor)
+			addStat(style.valueTex, formatNumber(info.value, "value", style.thousandsSeparator), 'value', style.compactIconColor)
 		end
 		if info.weight and info.weight > 0 then
-			addStat(style.weightTex, formatNumber(info.weight, "weight", style.fontFix), 'weight', style.compactIconColor)
+			addStat(style.weightTex, formatNumber(info.weight, "weight", style.thousandsSeparator), 'weight', style.compactIconColor)
 		end
 		if info.soulValue and style.soulValue then
 			addStat(getTexture("textures/SharedTooltip/soul.dds"), info.soulValue, 'soul')
@@ -2612,7 +2681,7 @@ local function showSettingsPreview(item, overrides, style, context)
 		overrides = {
 			condition = math.floor(record.health * 0.65),
 		}
-		local enchantmentRecord = record.enchant and core.magic.enchantments.records[record.enchant:lower()]
+		local enchantmentRecord = record.enchant and core.magic.enchantments.records[record.enchant]
 		if enchantmentRecord then
 			overrides.enchantmentCharge = math.floor(getMaxEnchantmentCharge(enchantmentRecord) * 0.4)
 		end
@@ -2717,8 +2786,13 @@ return {
 		setAutoPreview = function(enabled) autoPreview = enabled end,
 		registerLine = tooltipLineChain.register,
 		unregisterLine = tooltipLineChain.unregister,
+		lines = tooltipLineChain.entries, -- live, priority sorted, entries are {id, priority, seq, func}
 		registerModifier = tooltipModifierChain.register,
 		unregisterModifier = tooltipModifierChain.unregister,
+		modifiers = tooltipModifierChain.entries, -- live, priority sorted, entries are {id, priority, seq, func}
+	},
+	engineHandlers = {
+		onActive = registerSettings,
 	},
 	eventHandlers = {
 		OwnlysSharedTooltipTick = onPreviewTick,

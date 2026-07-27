@@ -33,11 +33,9 @@ local function boolDefault(value, default)
 end
 
 local settingsTemplate = {}
--- change name maybe:
---cleanSettingsTemplate = settingsTemplate
 
-local numberRenderer = "SuperSlider5"
-local colorRenderer = "SuperColorPicker3"
+local numberRenderer = "SuperSlider6"
+local colorRenderer = "SuperColorPicker4"
 local inputRenderer = "SuperKeybind2"
 local optionalSelectRenderer = "OptionalSelectRenderer1"
 local optionalCheckboxRenderer = "OptionalCheckboxRenderer1"
@@ -278,12 +276,12 @@ settingsTemplate[tempKey] = {
 			name = "Transparency",
 			description = "",
 			renderer = numberRenderer,
-			default = legacySection:get("TRANSPARENCY") or 0.4,
+			default = legacySection:get("TRANSPARENCY") or 0.7,
 			argument = {
 				min = 0,
 				max = 1,
 				step = 0.05,
-				default = legacySection:get("TRANSPARENCY") or 0.4,
+				default = legacySection:get("TRANSPARENCY") or 0.7,
 				showDefaultMark = true,
 				width = 160,
 			},
@@ -294,6 +292,18 @@ settingsTemplate[tempKey] = {
 			description = "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("FONT_FIX"), true)
+		},
+		{
+			key = "THOUSANDS_SEPARATOR",
+			name = "Thousands separator",
+			description = "Sits between the thousands and the hundreds of a large number\nThe narrow one is a hair space and needs a font that has it",
+			renderer = "select",
+			default = "",
+			argument = {
+				disabled = false,
+				l10n = "none",
+				items = {"", string.char(0xE2,0x80,0x8A,0xE2,0x80,0x8A), " ", "'", ",", "."},
+			},
 		},
 	},
 }
@@ -320,9 +330,16 @@ settingsTemplate[tempKey] = {
 			},
 		},
 		{
+			key = "GROUP_JUMP",
+			name = "Shift + Scroll Jumps Groups",
+			description = "Shift and the wheel (or the up/down keys) land on the first entry of the next group\nLeave it off if your sneak key is Shift",
+			renderer = "checkbox",
+			default = false,
+		},
+		{
 			key = "CONTAINER_SORTING_POISONS",
 			name = "Sorting: Poisons On Top",
-			description = "Requires the Pickpocket Overhaul addon",
+			description = "Only while planting items on someone\nRequires the Pickpocket Overhaul addon",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("CONTAINER_SORTING_POISONS"), true),
 			argument = {
@@ -608,11 +625,16 @@ settingsTemplate[tempKey] = {
 			
 		},
 		{
-			key = "CAN_LOOT_DURING_DEATH_ANIMATION",
+			key = "LOOT_DURING_DEATH_ANIMATION",
 			name = "can loot during death animation",
-			description = "It's currently not possible to check the values in the settings.cfg",
-			renderer = "checkbox",
-			default = boolDefault(legacySection:get("CAN_LOOT_DURING_DEATH_ANIMATION"), false)
+			description = "The engine only runs on-death scripts once the animation stops, looting before that can hand you equipment a mod was about to strip from the corpse\noff: wait for the animation to end\nnear the end: open at 55% of the animation\nimmediately: open the moment it dies",
+			default = "off",
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "none",
+				items = {"off", "near the end", "immediately"},
+			},
 		},
 		{
 			key = "PROBE_SCRIPTS",

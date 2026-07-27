@@ -21,6 +21,11 @@ v3 = util.vector3
 local animation = require('openmw.animation')
 local Controls = require('openmw.interfaces').Controls
 
+if not core.mwscripts then
+	ui.showMessage("QuickLoot requires OpenMW 0.50 or newer")
+	return
+end
+
 qlppInstalled = vfs.fileExists("scripts/OwnlysQuickLoot/ql_pickpocket_overhaul.lua")
 
 require("scripts.OwnlysQuickLoot.ql_settings")
@@ -132,6 +137,7 @@ local depositSelectedIndex = 1
 local depositBackupSelectedIndex = 1
 local depositScrollPos = 1
 local containerItems = {}
+local containerGroups = {}
 uiLoc = v2(X/100,Y/100)
 uiSize = v2(WIDTH/100,HEIGHT/100)
 textSizeMult = (ui.screenSize().y/1200*(uiSize.y/0.4))^0.5*TEXTSIZEMULT/100
@@ -183,7 +189,7 @@ local function buildTooltipArgs(item, isPickpocketing, style, deposit)
 		textAlignment = TOOLTIPS_TEXT_ALIGNMENT,
 		compact = TOOLTIPS_COMPACT,
 		shortText = TOOLTIPS_SHORT_TEXT,
-		fontFix = FONT_FIX,
+		thousandsSeparator = THOUSANDS_SEPARATOR,
 	}
 	if TOOLTIPS_MATCH_HUD then
 		merged.transparency = TRANSPARENCY
@@ -326,25 +332,8 @@ local probe = nil
 local approvedContainer = nil
 local scriptVerdicts = {}
 
-local scriptWhitelist = {
-	ao_containers_scr_barrel = true,
-	ao_containers_scr_barrelf = true,
-	ao_containers_scr_basket = true,
-	ao_containers_scr_chest = true,
-	ao_containers_scr_chest_dwemer = true,
-	ao_containers_scr_closet = true,
-	ao_containers_scr_closet_dwemer = true,
-	ao_containers_scr_crate = true,
-	ao_containers_scr_cratef = true,
-	ao_containers_scr_cupboard = true,
-	ao_containers_scr_drawer_dwemer = true,
-	ao_containers_scr_drawers = true,
-	ao_containers_scr_sack = true,
-	ao_containers_scr_small_chest = true,
-	ao_containers_scr_steel_keg = true,
-	ao_containers_scr_stone_chest = true,
-	ao_containers_scr_urn = true,
-}
+-- leaks qlScriptBlacklist and qlScriptWhitelist
+require("scripts.OwnlysQuickLoot._SCRIPT_BLACKLIST")
 
 local function log(...)
 	local newPrint = {...}
@@ -362,17 +351,16 @@ local function log(...)
 	end
 end
 
-local groups = {
+-- every group the engine can play on death, deathStateToAnimGroup covers exactly these
+local deathGroups = {
 	["death1"] = true,
 	["death2"] = true,
 	["death3"] = true,
 	["death4"] = true,
 	["death5"] = true,
 	["deathknockdown"] = true,
-	["seathknockout"] = true,
+	["deathknockout"] = true,
 	["swimdeath"] = true,
-	["swimdeath2"] = true,
-	["swimdeath3"] = true,
 	["swimdeathknockdown"] = true,
 	["swimdeathknockout"] = true,
 }
@@ -468,8 +456,39 @@ local lootInterceptorChain = makeChain()
 local hudModifierChain = makeChain()
 local targetFilterChain = makeChain()
 
+------------------------------ bound items ------------------------------
+-- the engine blacklists whatever the sMagicBound* gmsts name, gmsts cannot be enumerated from lua so the 12 vanilla names are fixed
+local BOUND_ITEM_GMSTS = {
+	"sMagicBoundBattleAxeID",
+	"sMagicBoundBootsID",
+	"sMagicBoundCuirassID",
+	"sMagicBoundDaggerID",
+	"sMagicBoundHelmID",
+	"sMagicBoundLeftGauntletID",
+	"sMagicBoundLongbowID",
+	"sMagicBoundLongswordID",
+	"sMagicBoundMaceID",
+	"sMagicBoundRightGauntletID",
+	"sMagicBoundShieldID",
+	"sMagicBoundSpearID",
+}
+
+local boundRecordIds = {}
+for _, gmst in ipairs(BOUND_ITEM_GMSTS) do
+	local id = core.getGMST(gmst)
+	if id and id ~= "" then
+		boundRecordIds[id:lower()] = true -- gmst values are not normalized, recordIds are
+	end
+end
+------------------------------------------------------------
+
 -- false blocks action
 local function lootAllowed(action, item)
+	-- conjured gear never changes owner, same refusals the container window gives
+	if item and boundRecordIds[item.recordId] then
+		ui.showMessage(core.getGMST(action == "take" and "sContentsMessage1" or "sBarterDialog12"))
+		return false
+	end
 	local cont = inspectedContainer
 	local ctx = {
 		target = cont,
@@ -510,6 +529,19 @@ local function secondaryPressed()
 	end
 end
 
+-- persistent corpses never despawn, vanilla refuses to dispose them
+-- isPersistent needs openmw 0.52, on older builds it reads nil and disposal stays unrestricted
+local function disposeAllowed(corpse)
+	if not (types.Actor.objectIsInstance(corpse) and types.Actor.isDead(corpse)) then
+		return false
+	end
+	if corpse.type.record(corpse).isPersistent then
+		ui.showMessage(core.getGMST("sDisposeCorpseFail"))
+		return false
+	end
+	return true
+end
+
 -- take all / deposit all, shared by ToggleWeapon and TAKE_ALL_KEY
 local function takeAllPressed()
 	if types.Actor.objectIsInstance(inspectedContainer) and not types.Actor.isDead(inspectedContainer) then
@@ -521,7 +553,7 @@ local function takeAllPressed()
 	if deposit then
 		core.sendGlobalEvent("OwnlysQuickLoot_depositAll",{self, inspectedContainer, input.isShiftPressed() and SELECTIVE_DEPOSIT, EXPERIMENTAL_LOOTING})
 	else
-		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, DISPOSE_CORPSE == "Shift + F" and input.isShiftPressed(), EXPERIMENTAL_LOOTING})
+		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, DISPOSE_CORPSE == "Shift + F" and input.isShiftPressed() and disposeAllowed(inspectedContainer), EXPERIMENTAL_LOOTING})
 	end
 	if types.Container.objectIsInstance(inspectedContainer) and CONTAINER_ANIMATION == "on take" then
 		inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
@@ -531,11 +563,35 @@ end
 -- wheel, dpad and UP/DOWN keys, delta 0 still rolls the pickpocket chance
 local function moveSelection(delta)
 	local shouldRefresh = pickpocket.scroll(self, inspectedContainer, input)
-	local newIndex = selectedIndex + delta
-	if newIndex <= 0 then
-		newIndex = math.max(1,#containerItems)
-	elseif newIndex > #containerItems then
-		newIndex = 1
+	local newIndex = selectedIndex
+	local jumped = false
+	if delta ~= 0 and GROUP_JUMP and input.isShiftPressed() then
+		local prevStart, nextStart, firstStart, lastStart
+		local startCount = 0
+		for i = 1, #containerItems do
+			if i == 1 or containerGroups[i] ~= containerGroups[i-1] then
+				startCount = startCount + 1
+				firstStart = firstStart or i
+				lastStart = i
+				if i < selectedIndex then
+					prevStart = i
+				elseif i > selectedIndex and not nextStart then
+					nextStart = i
+				end
+			end
+		end
+		if startCount > 1 then
+			newIndex = delta > 0 and (nextStart or firstStart) or (prevStart or lastStart)
+			jumped = true
+		end
+	end
+	if not jumped then
+		newIndex = selectedIndex + delta
+		if newIndex <= 0 then
+			newIndex = math.max(1,#containerItems)
+		elseif newIndex > #containerItems then
+			newIndex = 1
+		end
 	end
 	if selectedIndex ~= newIndex or shouldRefresh then
 		selectedIndex = newIndex
@@ -579,11 +635,13 @@ input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sn
 end))
 
 input.registerTriggerHandler("Jump", async:callback(function(dt, use, sneak, run)
-	if inspectedContainer and DISPOSE_CORPSE == "Jump" and types.Actor.objectIsInstance(inspectedContainer) then
+	if inspectedContainer and DISPOSE_CORPSE == "Jump" and types.Actor.objectIsInstance(inspectedContainer)
+	and types.Actor.isDead(inspectedContainer) then
 		if not lootAllowed("takeAll") then
 			return
 		end
-		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, true, EXPERIMENTAL_LOOTING})
+		-- persistent corpses only get looted
+		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, disposeAllowed(inspectedContainer), EXPERIMENTAL_LOOTING})
 	end
 end))
 
@@ -628,7 +686,7 @@ function isQuestItem(item)
 			return false
 		end
 		
-		local script = core.mwscripts and core.mwscripts.records[scriptName]
+		local script = core.mwscripts.records[scriptName]
 		if script then
 			-- record is userdata, the source lives in .text
 			local scriptText = script.text:lower()
@@ -926,7 +984,7 @@ function drawUI()
 				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
 				position = v2(0,0),
 				relativePosition = v2(0, 0),
-				alpha = transparency*0.75,
+				alpha = transparency*0.4 + 0.1,
 			}
 		})
 		--list HEADER Line
@@ -1063,6 +1121,7 @@ function drawUI()
 		{}, --ingredients(heavy) --8
 		{}, --other --9
 	}
+	local plantingPoisons = CONTAINER_SORTING_POISONS and qlppInstalled and deposit and isPickpocketing
 	for _,item in pairs(containerItems) do
 		local itemType = item.type
 		local itemRecordId =item.recordId
@@ -1074,7 +1133,7 @@ function drawUI()
 		or not types.Item.isCarriable(item)
 		then
 			-- ignore
-		elseif CONTAINER_SORTING_POISONS and qlppInstalled and isPoison(item) then
+		elseif plantingPoisons and isPoison(item) then
 			table.insert(sortedItems[1], {item, itemRecord.value, itemRecord.weight})
 		elseif CONTAINER_SORTING_QUEST and isQuestItem(item) then
 			table.insert(sortedItems[2], {item, itemRecord.value, itemRecord.weight})
@@ -1099,7 +1158,8 @@ function drawUI()
 		end
 	end
 	containerItems = {}
-	for cat, tbl in pairs(sortedItems) do
+	containerGroups = {}
+	for cat, tbl in ipairs(sortedItems) do
 		if CONTAINER_SORTING_STATS ~= "Vanilla" then
 			table.sort(tbl, function(a, b)
 				if CONTAINER_SORTING_STATS == "Lowest Weight" then
@@ -1137,8 +1197,9 @@ function drawUI()
 			--print(tostring(tbl[1].type))
 			
 		end
-		for _, itemData in pairs(tbl) do
+		for _, itemData in ipairs(tbl) do
 			table.insert(containerItems,itemData[1])
+			containerGroups[#containerItems] = cat
 		end
 	end
 	-- /SORTING
@@ -1542,7 +1603,7 @@ function drawUI()
 				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
 				position = v2(0,0),
 				relativePosition = v2(0, 0),
-				alpha = 0.3,
+				alpha = transparency*0.3+0.1,
 			}
 		})
 		--list FOOTER Line
@@ -1797,7 +1858,10 @@ function drawUI()
 		formatNumber = formatNumber,
 	}
 	for _, entry in ipairs(hudModifierChain.entries) do
-		if entry.func(modCtx) == false then
+		local ok, result = pcall(entry.func, modCtx)
+		if not ok then
+			print("QuickLoot hud modifier "..tostring(entry.id or "?").." failed: "..tostring(result))
+		elseif result == false then
 			break
 		end
 	end
@@ -1832,10 +1896,6 @@ function closeHud()
 	end
 end
 
-if not core.mwscripts then
-	scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
-end
-
 function scriptAllows(cont)
 	if types.Actor.objectIsInstance(cont) and not types.Actor.isDead(cont) then
 		return true
@@ -1847,29 +1907,40 @@ function scriptAllows(cont)
 	if not script then
 		return true
 	end
-	if scriptWhitelist[script] then
+	if qlScriptWhitelist[script] then
 		log(script.." ok (whitelisted)")
 		return true
 	end
-	if not core.mwscripts then
-		if scriptDB[script] then
-			log(script.." not ok (blacklist)")
-			return false
-		end
-		return true
+	if qlScriptBlacklist[script] then
+		log(script.." not ok (blacklisted)")
+		return false
 	end
 	local verdict = scriptVerdicts[script]
 	if not verdict then
 		local scriptRecord = core.mwscripts.records[script]
-		if scriptRecord and scriptRecord.text:lower():find("onactivate") then
+		local body = ""
+		-- x->onactivate suppresses x, only the bare forms touch this object
+		if scriptRecord then
+			body = ("\n"..scriptRecord.text:lower().."\n"):gsub(";[^\n]*", "")
+			body = body:gsub("%->%s*onactivate", "")
+			body = body:gsub("%->%s*activate", "")
+		end
+		if not body:find("[^%w_]onactivate[^%w_]") then
+			verdict = "loot"
+		elseif (body:gsub("onactivate", "")):find("[^%w_]activate[^%w_]") then
 			verdict = "probe"
 		else
-			verdict = "loot"
+			-- reads its own flag and never activates itself, the window can never open
+			verdict = "inert"
 		end
 		scriptVerdicts[script] = verdict
 	end
 	if verdict == "loot" then
 		return true
+	end
+	if verdict == "inert" then
+		log(script.." not ok (never activates itself)")
+		return false
 	end
 	if not PROBE_SCRIPTS then
 		return false
@@ -1914,28 +1985,6 @@ function chargenFinished()
 end
 
 
-local function deathAnimCheck(actor)
-	if CAN_LOOT_DURING_DEATH_ANIMATION
-	or types.Actor.isDeathFinished(actor)
-	then
-		deathAnimationProgress = 0
-		return true
-	end
-
-	local progress = 0
-	for groupName in pairs(groups) do
-		local time = animation.getCompletion(actor, groupName)
-		if time then
-			progress=time
-		end
-	end
-	if progress > 0.55 then
-		return true
-	end
-	return false
-	
-end
-
 local function targetFiltered(obj)
 	for _, entry in ipairs(targetFilterChain.entries) do
 		if entry.func(obj) == false then
@@ -1948,14 +1997,25 @@ end
 local function isValidTarget(obj)
 	if not obj then return false end
 	if targetFiltered(obj) then return false end
+	-- the engine only fires Died once the animation stops, opening earlier beats on-death scripts to the corpse
+	local corpseReady = false
+	if (obj.type == types.NPC or obj.type == types.Creature) and types.Actor.isDead(obj) then
+		if LOOT_DURING_DEATH_ANIMATION == "immediately" or types.Actor.isDeathFinished(obj) then
+			corpseReady = true
+		elseif LOOT_DURING_DEATH_ANIMATION == "near the end" then
+			for groupName in pairs(deathGroups) do
+				local completion = animation.getCompletion(obj, groupName)
+				if completion and completion > 0.55 then
+					corpseReady = true
+					break
+				end
+			end
+		end
+	end
 	return (
 		obj.type == types.Container
 		and (not types.Container.record(obj).isOrganic or organicContainers[obj.recordId])
-	) or (
-		(obj.type == types.NPC or obj.type == types.Creature)
-		and types.Actor.isDead(obj)
-		and deathAnimCheck(obj)
-	) or (
+	) or corpseReady or (
 		crimesVersion >= 2
 		and PICKPOCKETING
 		and pickpocket.validateTarget(self, obj, input)
@@ -1970,6 +2030,22 @@ local function looseAimTarget(obj)
 		)
 		or (crimesVersion >= 2 and PICKPOCKETING and pickpocket.validateTarget(self, obj, input))
 	)
+end
+
+local function engineWillActivate(obj)
+	if not obj then return false end
+	local objType = obj.type
+	if objType == types.Static or objType == types.BodyPart then
+		return false
+	end
+	if objType == types.Activator then
+		local name = types.Activator.record(obj).name
+		return name ~= nil and name ~= ""
+	end
+	if objType == types.Light then
+		return types.Light.record(obj).isCarriable
+	end
+	return true
 end
 
 -- async ring probe delivery, slot index baked into each callback
@@ -2089,7 +2165,7 @@ function onFrame(dt)
 		)
 		looseAimCursor = slot % #looseAimOffsets + 1
 	end
-	if not (res.hitObject and isValidTarget(res.hitObject)) then
+	if not engineWillActivate(res.hitObject) then
 		if LOOSE_AIMING == "boundingbox" then
 			local hit = nearby.castRay(
 				cameraPos,
@@ -2292,9 +2368,14 @@ function lootItem()
 	--end
 end
 input.registerTriggerHandler('Activate', async:callback(function()
-	if not TAKE_KEY then
-		lootItem()
+	if TAKE_KEY then
+		return
 	end
+	local faced = I.SharedRay.get().hitObject
+	if faced and faced ~= inspectedContainer and engineWillActivate(faced) then
+		return
+	end
+	lootItem()
 end))
 --end
 

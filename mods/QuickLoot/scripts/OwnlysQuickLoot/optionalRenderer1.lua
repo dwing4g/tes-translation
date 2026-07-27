@@ -33,11 +33,11 @@ local I = require('openmw.interfaces')
 -- { enabled = boolean, value = <plain value> }
 -- readers should treat the setting as absent while enabled is false
 
-OPTIONAL_SELECT_RENDERER_ID = "OptionalSelectRenderer1"
-OPTIONAL_CHECKBOX_RENDERER_ID = "OptionalCheckboxRenderer1"
-OPTIONAL_TEXTLINE_RENDERER_ID = "OptionalTextLineRenderer1"
-OPTIONAL_NUMBER_RENDERER_ID = "OptionalNumberRenderer1"
-OPTIONAL_COLOR_RENDERER_ID = "OptionalColorRenderer1"
+local OPTIONAL_SELECT_RENDERER_ID = "OptionalSelectRenderer1"
+local OPTIONAL_CHECKBOX_RENDERER_ID = "OptionalCheckboxRenderer1"
+local OPTIONAL_TEXTLINE_RENDERER_ID = "OptionalTextLineRenderer1"
+local OPTIONAL_NUMBER_RENDERER_ID = "OptionalNumberRenderer1"
+local OPTIONAL_COLOR_RENDERER_ID = "OptionalColorRenderer1"
 
 -- session only installed flags for other mods, eg. "OptionalSelectRenderer1" = true, "OptionalSelectRenderer" = 1
 local installedRenderers = storage.playerSection("InstalledSettingsRenderers")
