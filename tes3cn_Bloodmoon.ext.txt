@@ -5807,7 +5807,7 @@ Heinlen the Heavy
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 冬拳，
 <BR>
-正如我们所担心的那样。安格利亚和她的手下打算从乔尔吉尔巴罗那里偷走雪王子的盔甲。我的人把他们赶走了，但他们抢走了头盔。我知道他们躲在岛上的某个地方。他们以前曾在菲亚丁湖和恐惧冰洞附近被目击过，所以试着去那里看看。我会尽快加入你的行列。
+正如我们所担心的那样。安格利亚和她的手下打算从约尔盖尔古冢那里偷走雪王子的盔甲。我的人把他们赶走了，但他们抢走了头盔。我知道他们躲在岛上的某个地方。他们以前曾在菲亚丁湖和恐惧冰洞附近被目击过，所以试着去那里看看。我会尽快加入你的行列。
 <BR>
 笨重的海因伦
 <BR>
@@ -6459,7 +6459,7 @@ Payment will be delivered at the designated meeting point once proof of the task
 <BR>
 C<BR>"""
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-降落在殖民地东北部的某地。等到%PCName离开站点（可以根据之前提供的描述识别%PCRace。）<BR>
+登录在殖民地东北部的某地。等到%PCName离开站点（可以根据之前提供的描述识别%PCRace。）<BR>
 杀死殖民地中的所有生物。一定要留下一些斯卡尔盔甲和武器；如果帝国选择调查，就需要有现成的证据。<BR>
 <BR>
 一旦提交任务完成的证明，余款将在指定的集合点交付。<BR>
@@ -7410,11 +7410,11 @@ Imperial Cult: Buckmoth Alms
 
 > INFO.NAME ic10_buckmoth_alms 167393087872412841
 I reached the fund raising goal for Ald'ruhn, and DOUBLED it! I delivered the 200 gold for the Buckmoth Fund to Iulus Truptor. He seemed very pleased. He gave me a copy of 'The Buying Game', and told me to study it, and to speak to him again when I'm ready for another almoner's mission.
-我达到了为奥德'汝因筹款的目标，而且还翻了一番！我把雄蛾基金的200金币交给了尤卢斯·特拉普托。他似乎非常高兴。他给了我一本《购物指南》，让我好好研读，等我准备好执行另一项施赈者任务时再找他。
+我达到了为奥德'汝因筹款的目标，而且还翻了一番！我把雄蛾基金的200金币交给了尤卢斯·特鲁普托。他似乎非常高兴。他给了我一本《购物指南》，让我好好研读，等我准备好执行另一项施赈者任务时再找他。
 
 > INFO.NAME ic10_buckmoth_alms 1853203541266128180
 I reached the fund raising goal for Ald'ruhn, and delivered the 100 gold for the Buckmoth Fund to Iulus Truptor. He seemed pleased. He gave me a little blessing, and told me to speak to him again when I'm ready for another almoner's mission.
-我达到了为奥德'汝因筹款的目标，并将雄蛾基金的100金币交给了尤卢斯·特拉普托。他似乎很高兴。他给了我一个小小的祝福，并告诉我，当我准备好执行另一个施赈者任务时，再和他联系。
+我达到了为奥德'汝因筹款的目标，并将雄蛾基金的100金币交给了尤卢斯·特鲁普托。他似乎很高兴。他给了我一个小小的祝福，并告诉我，当我准备好执行另一个施赈者任务时，再和他联系。
 
 > INFO.NAME ms_trerayna_bounty 30364353654795324
 A Bounty for Trerayna Dalen
@@ -7482,7 +7482,7 @@ Imperial Cult: Alms from the Skyrim Mission
 
 > INFO.NAME ic_8_nord_alms_not 24210407762357043
 I told Iulus Truptor I was not be able to raise enough gold from the Skyrim Mission to reach the fund raising goal of 100 gold. He was disappointed, and told me to decide whether my talents and temperaments are suited for fund raising. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我无法从天际使馆筹到足够的金币，无法达到100金币的筹款目标。他很失望，让我决定自己的才能和性格是否适合筹款。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我无法从天际使馆筹到足够的金币，无法达到100金币的筹款目标。他很失望，让我决定自己的才能和性格是否适合筹款。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
 
 > INFO.NAME bm_cursedcaptain_a 2351429871181968962
 Thormoor's Doom
@@ -7962,19 +7962,19 @@ Imperial Cult: Alms from the Argonian Mission
 
 > INFO.NAME ic9_argonian_alms 278501773929576858
 Iulus Truptor told me to ask the Argonian Mission in Ebonheart for alms for the poor. The fund raising goal for the Argonian mission is 100 gold. When I have reached the goal, I should return and deliver the gold to Iulus Truptor.
-尤卢斯·特拉普托让我向黑檀心的阿尔贡使馆请求对穷人的施舍。阿尔贡使馆的筹款目标是100金币。当我达到目标后，我应该回去将金币交给尤卢斯·特拉普托。
+尤卢斯·特鲁普托让我向黑檀心的阿尔贡使馆请求对穷人的施舍。阿尔贡使馆的筹款目标是100金币。当我达到目标后，我应该回去将金币交给尤卢斯·特鲁普托。
 
 > INFO.NAME ic9_argonian_alms 78191749870621732
 I told Iulus Truptor I was not able to raise enough gold from the Argonian Mission to reach the fund raising goal of 100 gold. He was disappointed, and told me to decide whether my talents and temperaments are suited for fund raising. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我没能从阿尔贡使馆筹集到足够的金币，没能达到100金币的筹款目标。他很失望，让我思考自己的才能和性格是否适合筹款。在我再次向他申请施赈者任务之前，必须先确定自己是否愿意全心全意为帝国教团效力。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我没能从阿尔贡使馆筹集到足够的金币，没能达到100金币的筹款目标。他很失望，让我思考自己的才能和性格是否适合筹款。在我再次向他申请施赈者任务之前，必须先确定自己是否愿意全心全意为帝国教团效力。 {我的传说,帝国人}
 
 > INFO.NAME ic9_argonian_alms 1405920870258317610
 I reached the Argonian mission fund raising goal, and delivered the 100 gold to Iulus Truptor. He seemed pleased. He gave me a little blessing, and told me to speak to him again when I'm ready for another almoner's mission.
-我达成了阿尔贡使馆的筹款目标，并把100金币交给了尤卢斯·特拉普托。他似乎很高兴。他给了我一个小小的祝福，并告诉我，等我准备好接受另一个施赈者任务时，再和他联系。
+我达成了阿尔贡使馆的筹款目标，并把100金币交给了尤卢斯·特鲁普托。他似乎很高兴。他给了我一个小小的祝福，并告诉我，等我准备好接受另一个施赈者任务时，再和他联系。
 
 > INFO.NAME ic9_argonian_alms 2099622746325683733
 I reached the Argonian mission fund raising goal, and DOUBLED it! I delivered the 200 gold to Iulus Truptor. He seemed very pleased. He gave me a handsome frock blessed by Zenithar, and told me to speak to him again when I'm ready for another almoner's mission.
-我达到了阿尔贡使馆的筹款目标，而且还翻了一番！我把200金币交给了尤卢斯·特拉普托。他看起来非常高兴。他给了我一件泽尼萨尔祝福过的漂亮连衣裙，并告诉我，等我准备好执行另一个施赈者任务时再找他。 {手}
+我达到了阿尔贡使馆的筹款目标，而且还翻了一番！我把200金币交给了尤卢斯·特鲁普托。他看起来非常高兴。他给了我一件泽尼萨尔祝福过的漂亮连衣裙，并告诉我，等我准备好执行另一个施赈者任务时再找他。 {手}
 
 > INFO.NAME ic18_silver_staff 19274129591209832383
 Imperial Cult: The Silver Staff of Shaming
@@ -7982,7 +7982,7 @@ Imperial Cult: The Silver Staff of Shaming
 
 > INFO.NAME ic18_silver_staff 2535447501761520275
 An acolyte named Linus Iulus disappeared some years ago. Our oracle, Lalatia Varian, has had a vision of a Silver Staff of Shaming, and Linus Iulus had one of these staves. Kaye gave me a Detect Enchantment ring, and told me to go to Mount Kand. I'm to find a Silver Staff of Shaming there that belonged to Linus Iulus. I should bring it to Kaye, along with any other personal effects I find that belonged to Linus Iulus.
-一位名叫莱纳斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而莱纳斯·尤卢斯就有一根这样的杖。凯给了我一枚探测附魔之戒，让我去坎德山。我要在那里找到属于莱纳斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于莱纳斯·尤卢斯的私人物品。 {魔法疾病,戒指}
+一位名叫利努斯·尤卢斯的圣徒几年前失踪了。我们的神谕者拉拉蒂亚·瓦里安曾看到过一根银制羞辱法杖的幻象，而利努斯·尤卢斯就有一根这样的杖。凯给了我一枚探测附魔之戒，让我去坎德山。我要在那里找到属于利努斯·尤卢斯的银制羞辱法杖。我应该把它带给凯，还有我找到的其他属于利努斯·尤卢斯的私人物品。 {魔法疾病,戒指}
 
 > INFO.NAME ic18_silver_staff 8885276992550027196
 I gave Kaye the Silver Staff of Shaming. As a reward, Kaye gave me a Restoration shirt. He thanked me for my exertions on the cult's behalf, and told me to speak to him again when I'm ready for another mission.
@@ -7990,7 +7990,7 @@ I gave Kaye the Silver Staff of Shaming. As a reward, Kaye gave me a Restoration
 
 > INFO.NAME ic18_silver_staff 29964122371441617168
 I gave Kaye the Silver Staff of Shaming and the Maran Amulet and Stendarran Belt that belonged to Linus Iulus. As a reward, Kaye gave me the Silver Staff of Shaming and a Restoration shirt. He thanked me for my exertions on the cult's behalf, and told me to speak to him again when I'm ready for another mission.
-我把属于莱纳斯·尤卢斯的银制羞辱法杖、玛拉护符和斯丹达尔腰带给了凯。作为报酬，凯给了我银制羞辱法杖和一件恢复衬衫。他感谢我为教团所做的努力，并告诉我，当我准备好接受下一项任务时，再和他谈谈。
+我把属于利努斯·尤卢斯的银制羞辱法杖、玛拉护符和斯丹达尔腰带给了凯。作为报酬，凯给了我银制羞辱法杖和一件恢复衬衫。他感谢我为教团所做的努力，并告诉我，当我准备好接受下一项任务时，再和他谈谈。
 
 > INFO.NAME romance_ahnassi_a 54511643024911728
 Ahnassi, a Special Friend
@@ -8038,7 +8038,7 @@ Imperial Cult: Buckmoth Alms
 
 > INFO.NAME ic10_buckmoth_not 1755870511963413531
 I told Iulus Truptor I was not be able to raise enough gold for the Buckmoth Fund to reach the fund raising goal of 100 gold. He was disappointed, and told me to decide whether my talents and temperaments are suited for fund raising. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我无法为雄蛾基金筹集到足够的金币，无法达到100金币的筹款目标。他很失望，让我决定自己的才能和性格是否适合筹款。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我无法为雄蛾基金筹集到足够的金币，无法达到100金币的筹款目标。他很失望，让我决定自己的才能和性格是否适合筹款。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
 
 > INFO.NAME ic16_haunting_not 1334298502029820585
 Imperial Cult: The Haunting
@@ -8522,7 +8522,7 @@ Imperial Cult: Alms from the Argonian Mission
 
 > INFO.NAME ic9_argonian_not 347527539144994
 I told Iulus Truptor I was not able to raise enough gold from the Argonian Mission to reach the fund raising goal of 100 gold. He was disappointed, and told me to decide whether my talents and temperaments are suited for fund raising. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我没能从阿尔贡使馆筹集到足够的金币，没能达到100金币的筹款目标。他很失望，让我思考自己的才能和性格是否适合筹款。在我再次向他申请施赈者任务之前，必须先确定自己是否愿意全心全意为帝国教团效力。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我没能从阿尔贡使馆筹集到足够的金币，没能达到100金币的筹款目标。他很失望，让我思考自己的才能和性格是否适合筹款。在我再次向他申请施赈者任务之前，必须先确定自己是否愿意全心全意为帝国教团效力。 {我的传说,帝国人}
 
 > INFO.NAME bm_cursedcaptain 21426146072079819414
 The Cursed Captain
@@ -9370,7 +9370,7 @@ Telvanni Hortator
 
 > INFO.NAME b7_telvannibook 787527082574031683
 I have been given a recent edition of the Brown Book of Great House Telvanni. It lists the current Telvanni councilors and their residences.
-我得到了《泰瓦尼家族棕皮书》的最新版，上面列出了现任泰瓦尼议员和他们的住所。
+我得到了《泰瓦尼家族棕皮书》的最新版，上面列出了现任泰瓦尼议员及其住所。
 
 > INFO.NAME ic10_merthierry 12430387346656690
 Imperial Cult: Buckmoth Alms
@@ -9470,7 +9470,7 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_dinner_not 22314307443216719624
 I told Iulus Truptor I couldn't get five bottle of Cyrodilic brandy for the fundraising dinner at Fort Moonmoth. He was disappointed, and told me to decide whether my talents and temperaments are suited for soliciting donations. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我无法为月蛾要塞的筹款晚宴弄到五瓶西罗帝尔白兰地。他很失望，让我决定自己的才能和脾气是否适合募捐。在我再次向他申请施赈者任务之前，我必须确定我是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我无法为月蛾要塞的筹款晚宴弄到五瓶西罗帝尔白兰地。他很失望，让我决定自己的才能和脾气是否适合募捐。在我再次向他申请施赈者任务之前，我必须确定我是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
 
 > INFO.NAME ic14_ponius_not 198792540120945450
 Imperial Cult: Pledge from Canctunian Ponius
@@ -9478,7 +9478,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_ponius_not 7000244622003629561
 I told Iulus Truptor I couldn't get Canctunian Ponius to donate the 1000 gold he pledged to sponsor a mission to the Ashlanders. Iulus Truptor was disappointed, and told me my talents and temperaments were apparently not suited for soliciting donations. He thanked me for my efforts, but said he would no longer require my services as an almoner for the Imperial cult.
-我告诉尤卢斯·特拉普托，我无法让坎克图尼安·博尼乌斯捐出他承诺赞助灰烬之民使命的1000金币。尤卢斯·特拉普托很失望，他告诉我我的才能和脾气显然不适合募捐。他感谢我的努力和服务，但说他不再需要我作为帝国教团公署的施赈者了。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我无法让坎克图尼安·博尼乌斯捐出他承诺赞助灰烬之民使命的1000金币。尤卢斯·特鲁普托很失望，他告诉我我的才能和脾气显然不适合募捐。他感谢我的努力和服务，但说他不再需要我作为帝国教团公署的施赈者了。 {我的传说,帝国人}
 
 > INFO.NAME ic18_silver_not 19062117927811766
 Imperial Cult: The Silver Staff of Shaming
@@ -9486,7 +9486,7 @@ Imperial Cult: The Silver Staff of Shaming
 
 > INFO.NAME ic18_silver_not 29095251292615412694
 I told Kaye I have given up trying to find the Silver Staff of Shaming that belonged to Linus Iulus. He was disappointed, and told me not to come back for at least a day. He told me to decide whether I was serious about serving the Imperial cult before I ask him again for a shrine sergeant mission.
-我告诉凯我已经放弃了寻找属于莱纳斯·尤卢斯的银制羞辱法杖的努力。他很失望，并告诉我至少一天之内不要再来了。他告诉我，在我再次向他提出圣祠军士的任务之前，要决定我是否真的要为帝国教团服务。 {帝国人}
+我告诉凯我已经放弃了寻找属于利努斯·尤卢斯的银制羞辱法杖的努力。他很失望，并告诉我至少一天之内不要再来了。他告诉我，在我再次向他提出圣祠军士的任务之前，要决定我是否真的要为帝国教团服务。 {帝国人}
 
 > INFO.NAME bm_womanscorned 254241195319178370
 A Woman Scorned
@@ -9734,7 +9734,7 @@ House Telvanni: Dahrk Mezalf
 
 > INFO.NAME ht_dahrkmezalf 16684280381617310635
 Baladas Demnevanni asked me to bring him one of Dahrk Mezalf's summoning rings. Dahrk Mezalf was one of Kagrenac's smiths, sometimes called Mezalf Bthungthumz, and he may have lived in the colony of Bthungthumz which is somewhere between Maar Gan and the coast to the north.
-巴拉达斯·德姆内瓦尼让我给他带一枚达尔克·梅扎尔夫的召唤戒指。达尔克·梅扎尔夫是卡格瑞纳克的一名铁匠铺夫，有时也叫梅扎尔夫·布斯格斯姆兹，他可能住在布斯格斯姆兹的殖民地，那里位于玛尔-甘和北边海岸之间的某个地方。
+巴拉达斯·德姆内瓦尼要我给他带来一枚达尔克·梅扎尔夫的召唤戒指。达尔克·梅扎尔夫是卡格瑞纳克手下的一位铁匠，有时也被称为梅扎尔夫·巴苏昂苏姆兹，他可能曾住在巴苏昂苏姆兹殖民地，它位于玛尔-甘和北部海岸之间的某处。
 
 > INFO.NAME ht_dahrkmezalf 11898181871173125820
 Baladas Demnevanni thanked me for bringing him Dahrk Mezalf's ring.
@@ -10282,19 +10282,19 @@ Imperial Cult: Alms from the Skyrim Mission
 
 > INFO.NAME ic_8_nord_alms 49807789109759060
 Iulus Truptor told me to ask the Skyrim Mission in Ebonheart for alms for the poor. The fund raising goal for the Skyrim mission is 100 gold. When I have reached the goal, I should return and deliver the gold to Iulus Truptor.
-尤卢斯·特拉普托让我向黑檀心的天际使馆请求施舍穷人。天际使馆的筹款目标是100金币。当我达到目标后，我应该返回并将金币交给尤卢斯·特拉普托。 {对穷人的施舍}
+尤卢斯·特鲁普托让我向黑檀心的天际使馆请求施舍穷人。天际使馆的筹款目标是100金币。当我达到目标后，我应该返回并将金币交给尤卢斯·特鲁普托。 {对穷人的施舍}
 
 > INFO.NAME ic_8_nord_alms 326523417140715419
 I told Iulus Truptor I was not be able to raise enough gold from the Skyrim Mission to reach the fund raising goal of 100 gold. He was disappointed, and told me to decide whether my talents and temperaments are suited for fund raising. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我无法从天际使馆筹到足够的金币，无法达到100金币的筹款目标。他很失望，让我决定自己的才能和性格是否适合筹款。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我无法从天际使馆筹到足够的金币，无法达到100金币的筹款目标。他很失望，让我决定自己的才能和性格是否适合筹款。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {我的传说,帝国人}
 
 > INFO.NAME ic_8_nord_alms 9403304782853811683
 I reached the Skyrim mission fund raising goal, and delivered the 100 gold to Iulus Truptor. He seemed pleased. He gave me a little blessing, and told me to speak to him again when I'm ready for another almoner's mission.
-我完成了天际使馆的筹款目标，并把100金币交给了尤卢斯·特拉普托。他似乎很高兴。他给了我一个小小的祝福，并告诉我，当我准备好接受另一个施赈者任务时，再和他联系。
+我完成了天际使馆的筹款目标，并把100金币交给了尤卢斯·特鲁普托。他似乎很高兴。他给了我一个小小的祝福，并告诉我，当我准备好接受另一个施赈者任务时，再和他联系。
 
 > INFO.NAME ic_8_nord_alms 149533002244812918
 I reached the Skyrim mission fund raising goal, and DOUBLED it! I delivered the 200 gold to Iulus Truptor. He seemed very pleased. He gave me a set of shoes blessed by Zenithar, and told me to speak to him again when I'm ready for another almoner's mission.
-我达到了天际使馆的筹款目标，而且还翻了一番！我把200金币交给了尤卢斯·特拉普托。他看起来非常高兴。他给了我一双泽尼萨尔祝福过的鞋子，并让我准备好执行另一个施赈者任务时再找他。
+我达到了天际使馆的筹款目标，而且还翻了一番！我把200金币交给了尤卢斯·特鲁普托。他看起来非常高兴。他给了我一双泽尼萨尔祝福过的鞋子，并让我准备好执行另一个施赈者任务时再找他。
 
 > INFO.NAME mg_sharn_necro 89824902379819153
 Mages Guild: I'm NOT a Necromancer!
@@ -10362,7 +10362,7 @@ Redoran Hortator
 
 > INFO.NAME b5_redoranbook 1941458561550430733
 I have been given a recent edition of the Red Book of Great House Redoran which lists the names and residences of the current Redoran councilors.
-我得到了《瑞多然家族红皮书》的最新版，上面列出了现任瑞多然议员的姓名和住所。
+我得到了一本最新版的《瑞多然大家族红皮书》，上面列出了现任瑞多然议员的姓名和住所。 {瑞多然家族}
 
 > INFO.NAME ic14_flacassia 2461846933093118535
 Imperial Cult: Pledge from Canctunian Ponius
@@ -10462,7 +10462,7 @@ Imperial Cult: Shirt and Vest for Harvest's End
 
 > INFO.NAME ic11_shirt_not 1256918291385616038
 I told Iulus Truptor I was not be able to obtain a red shirt with a black vest for the Harvest's End pageant. He was disappointed, and told me to decide whether my talents and temperaments are suited for soliciting donations. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我无法为丰收节选美弄到一件红底黑背心的衬衫。他很失望，让我考虑自己的才能和性格是否适合募捐。在我再次找他担任施赈者任务之前，我必须确定自己是否愿意全心全意地为帝国教团奉献。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我无法为丰收节选美弄到一件红底黑背心的衬衫。他很失望，让我考虑自己的才能和性格是否适合募捐。在我再次找他担任施赈者任务之前，我必须确定自己是否愿意全心全意地为帝国教团奉献。 {我的传说,帝国人}
 
 > INFO.NAME ic17_witch_not 2414910483243226241
 Imperial Cult: Thelsa Dral the Witch
@@ -11494,11 +11494,11 @@ I have decided not to try and find the materials needed by Volrina Quarra.
 
 > INFO.NAME va_vampamulet 316928859187854758
 I have returned to Volrina Quarra with the ingredients she asked for. She apparently was using them to create powerful amulets for her clan. This is not her first attempt at such an enchantment. She has given me as a reward an amulet (one of her failed attempts) that will allow me to return to Druscashti at will. She has also told me that I may earn further reward by killing vampires of other clans.
-我已经带着她要的材料回到了沃里娜·夸尔拉那里。她显然在用这些材料为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁卡什提。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}
+我已经带着她要的材料回到了沃里娜·夸尔拉那里。她显然在用这些材料为她的部族制造强大的护身符。这不是她第一次尝试这种附魔的工作。作为奖励，她给了我一个护身符（她失败的尝试之一），可以让我随意返回德鲁斯卡什蒂。她还告诉我，我可以通过杀死其他部族的吸血鬼获得更多报酬。 {魔法疾病}
 
 > INFO.NAME va_vampamulet 1435126856112626769
 Because I have killed a great number of vampires of the Aundae and the Berne Clans, Volrina Quarra has rewarded me with the right to feed from the clan cattle. The only provision is that I may not kill any of them. If I do, I will no longer be welcome in Druscashti, and will be attacked on sight.
-由于我杀死了大量昂戴氏族和伯尔尼氏族的吸血鬼，沃里娜·夸尔拉奖励我可以享用氏族的血畜作为食物。唯一的规定是，我不能杀死他们中的任何一个。如果我杀了它们，德罗斯卡什提将不再欢迎我，而且会当场遭到攻击。 {报酬}
+由于我杀死了大量昂戴氏族和伯尔尼氏族的吸血鬼，沃里娜·夸尔拉奖励我可以享用氏族的血畜作为食物。唯一的规定是，我不能杀死他们中的任何一个。如果我杀了它们，德鲁斯卡什蒂将不再欢迎我，而且会当场遭到攻击。 {报酬}
 
 > INFO.NAME va_vampamulet 1919943952604326150
 Because I have killed some of the cattle, I have lost the privilege of using them for food.
@@ -11530,7 +11530,7 @@ Hlaalu Hortator
 
 > INFO.NAME b6_hlaalubook 21579277651751121343
 I have been given a recent edition of the Yellow Book of Great House Hlaalu. It lists the current Hlaalu councilors and their residences.
-我得到了《哈拉鲁家族黄皮书》的最新版，上面列出了现任哈拉鲁议员和他们的住所。
+我得到了《哈拉鲁家族黄皮书》的最新版，上面列出了现任哈拉鲁议员及其住所。
 
 > INFO.NAME ic10_malpenix 14606301071473926627
 Imperial Cult: Buckmoth Alms
@@ -11606,7 +11606,7 @@ Blood for Mistress Dratha
 
 > INFO.NAME va_vampblood2 24962229242752332237
 Raven Omayn tells me that Mistress Dratha would like to obtain the Blood of the Quarra Ancients for her studies. She believes it will be found in Druscashti, the home of Volrina Quarra and her kin.
-瑞雯·奥曼告诉我，德拉萨夫人想得到夸尔拉古人之血用于研究。她认为可以在沃里娜·夸尔拉及其族人的故乡德鲁斯卡什提找到。
+瑞雯·奥曼告诉我，德拉萨夫人想得到夸尔拉古人之血用于研究。她认为可以在沃里娜·夸尔拉及其族人的故乡德鲁斯卡什蒂找到。
 
 > INFO.NAME va_vampblood2 18794109772348710143
 It seems Mistress Dratha was pleased to receive the Blood of the Quarra Ancients. I have been rewarded with a Jinksword, which Raven Omayn believes could only be useful to a vampire.
@@ -11642,7 +11642,7 @@ Imperial Cult: Donation from Cunius Pelelius
 
 > INFO.NAME ic13_rich_not 287546525257710930
 I told Iulus Truptor I couldn't get Cunius Pelelius to donate 500 gold to the Imperial cult's Widows and Orphans Fund. Iulus was disappointed, and told me to decide whether my talents and temperaments are suited for soliciting donations. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我没能让库尼乌斯·佩勒里乌斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
+我告诉尤卢斯·特鲁普托，我没能让库尼乌斯·佩勒里乌斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
 
 > INFO.NAME ic4_scrib_not 68125218163189360
 Imperial Cult: Gathering Scrib Jelly
@@ -13538,11 +13538,11 @@ Irarak is dead. His cult will have to find a new way to spend their time and gol
 
 > INFO.NAME va_vampcult 10565207852121112490
 I have returned to Druscashti and told Volrina Quarra of the death of "Lord Irarak." She was pleased, and will allow me to use clan services.
-我已经回到了德鲁卡什提，告诉了沃里娜·夸尔拉“因拉拉克领主”的死讯。她很高兴，并允许我使用氏族的服务。
+我已经回到了德鲁斯卡什蒂，告诉了沃里娜·夸尔拉“因拉拉克领主”的死讯。她很高兴，并允许我使用氏族的服务。
 
 > INFO.NAME va_vampcult 6412258132677526035
 I have returned to Druscashti and told Volrina Quarra of my decision to let "Lord Irarak" live. She was not pleased by my decision, and I have been told not to return to the Quarra lair.
-我已返回德罗斯卡什提，并告诉沃里娜·夸尔拉我决定让“因拉拉克领主”活下去。她对我的决定并不满意，并让我不要再回到夸尔拉巢穴。
+我已返回德鲁斯卡什蒂，并告诉沃里娜·夸尔拉我决定让“因拉拉克领主”活下去。她对我的决定并不满意，并让我不要再回到夸尔拉巢穴。
 
 > INFO.NAME ic10_cienne 15872224612438127982
 Imperial Cult: Buckmoth Alms
@@ -13566,11 +13566,11 @@ Imperial Cult: Brandy for the Fundraising Dinner
 
 > INFO.NAME ic12_dinner 1432819242135819097
 Iulus Truptor says we need 5 bottles of Cyrodilic brandy for a fundraising dinner. I'm to make the rounds of the tradehouses and cornerclubs in Balmora and ask if the publicans will donate the necessary brandy. When I have the brandy, I'm to deliver it to Iulus Truptor.
-尤卢斯·特拉普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角酒吧转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给尤卢斯·特拉普托。
+尤卢斯·特鲁普托说，我们需要五瓶西罗帝尔白兰地，用于筹款晚宴。我要去巴尔莫拉的贸易行和街角酒吧转转，问问店主们是否愿意捐赠所需的白兰地。拿到白兰地后，我要把它交给尤卢斯·特鲁普托。
 
 > INFO.NAME ic12_dinner 8526111421483114877
 I delivered five bottles of Cyrodilic brandy to Iulus Truptor at Fort Moonmoth. He was very pleased. He gave me tokens of Zenithar's special blessing, and told me to speak to him again when I'm ready for another almoner's mission.
-我在月蛾要塞给尤卢斯·特拉普托送去了五瓶西罗帝尔白兰地。他非常高兴。他给了我泽尼萨尔特别祝福的信物，并告诉我，等我准备好执行另一个施赈者任务时，再跟他联系。
+我在月蛾要塞给尤卢斯·特鲁普托送去了五瓶西罗帝尔白兰地。他非常高兴。他给了我泽尼萨尔特别祝福的信物，并告诉我，等我准备好执行另一个施赈者任务时，再跟他联系。
 
 > INFO.NAME ic12_bacola 1838530738104996244
 Imperial Cult: Brandy for the Fundraising Dinner
@@ -13594,7 +13594,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_ponius 125573741191396819
 Iulus Truptor asked me to persuade Canctunian Ponius of the East Empire Company to deliver the 1000 gold he has pledged to sponsor a mission to the Ashlanders. I'll find him at the East Empire Company Hall in Ebonheart. When I have the generous pledge from Canctunian Ponius, I'm to deliver it to Iulus Truptor.
-尤卢斯·特拉普托我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特拉普托。
+尤卢斯·特鲁普托我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特鲁普托。
 
 > INFO.NAME ic14_ponius 772410064107932659
 I told Canctunian Ponius that I had failed to find Mossanon and the missing gold. Now Canctunian Ponius says he cannot redeem his 1000-drake pledge to the Imperial cult.
@@ -13614,11 +13614,11 @@ I gave Canctunian Ponius 1000 gold and told him it was all I could recover from 
 
 > INFO.NAME ic14_ponius 121611333027965417
 I told Iulus Truptor I couldn't get Canctunian Ponius to donate the 1000 gold he pledged to sponsor a mission to the Ashlanders. Iulus Truptor was disappointed, and told me my talents and temperaments were apparently not suited for soliciting donations. He thanked me for my efforts, but said he would no longer require my services as an almoner for the Imperial cult.
-我告诉尤卢斯·特拉普托，我无法让坎克图尼安·博尼乌斯捐出他承诺赞助灰烬之民使命的1000金币。尤卢斯·特拉普托很失望，他告诉我我的才能和脾气显然不适合募捐。他感谢我的努力和服务，但说他不再需要我作为帝国教团公署的施赈者了。 {我的传说,帝国人}
+我告诉尤卢斯·特鲁普托，我无法让坎克图尼安·博尼乌斯捐出他承诺赞助灰烬之民使命的1000金币。尤卢斯·特鲁普托很失望，他告诉我我的才能和脾气显然不适合募捐。他感谢我的努力和服务，但说他不再需要我作为帝国教团公署的施赈者了。 {我的传说,帝国人}
 
 > INFO.NAME ic14_ponius 18321129741688411851
 I gave Iulus Truptor the 1000 gold Canctunian Ponius pledged to sponsor a mission to the Ashlanders. He was quite pleased, but he said he had no more tasks for me. He suggested I consider becoming a lay healer or lay sergeant. He also suggested that the Oracle, Lalatia Varian, might have tasks for me. Then he gave me a farewell gift, and wished me good luck.
-我把坎克图尼安·博尼乌斯承诺赞助的1000金币交给了尤卢斯·特拉普托，让他去灰烬之民那里执行任务。他非常高兴，但他说他没有任务给我了。他建议我考虑成为一名普通治疗师或普通军士。他还建议神谕者拉拉蒂亚·瓦里安可能会有任务给我。然后他给了我一份告别礼物，祝我好运。 {幸运}
+我把坎克图尼安·博尼乌斯承诺赞助的1000金币交给了尤卢斯·特鲁普托，让他去灰烬之民那里执行任务。他非常高兴，但他说他没有任务给我了。他建议我考虑成为一名普通治疗师或普通军士。他还建议神谕者拉拉蒂亚·瓦里安可能会有任务给我。然后他给了我一份告别礼物，祝我好运。 {幸运}
 
 > INFO.NAME ic14_demand 5326295842293121380
 Imperial Cult: Pledge from Canctunian Ponius
@@ -14146,7 +14146,7 @@ Tuls Valen thanked me for being the instrument of the Temple's justice in Hassou
 
 > INFO.NAME mv_bastard 1091319211662118489
 Fjol the Outlaw
-不法之徒菲欧
+不法之徒弗约
 
 > INFO.NAME mv_bastard 10783138501037332306
 General Larrius Varro in Fort Moonmoth has warned me of a Nord Bandit who is accosting travelers somewhere near Hla Oad. I get the feeling he wouldn't mind if I could "take care" of this problem for him.
@@ -14154,11 +14154,11 @@ General Larrius Varro in Fort Moonmoth has warned me of a Nord Bandit who is acc
 
 > INFO.NAME mv_bastard 16328275922379743
 I paid Fjol the 100 gold.
-我给了菲欧100金币。
+我给了弗约100金币。
 
 > INFO.NAME mv_bastard 2653513048662924811
 I was able to kill Fjol and report my deeds to the general. He rewarded me with 100 gold.
-我得以杀死菲欧，并向将军报告了我的事迹。他奖励了我100金币。 {报酬}
+我得以杀死弗约，并向将军报告了我的事迹。他奖励了我100金币。 {报酬}
 
 > INFO.NAME tg_hostage 21487215421939825175
 Thieves Guild: Hrundi's Lover
@@ -14294,11 +14294,11 @@ Imperial Cult: Shirt and Vest for Harvest's End
 
 > INFO.NAME ic11_shirt 4198763418013260
 For our coming Harvest's End pageant, Iulus Truptor says we need a red shirt with a black vest. He asked me to ask clothiers if they would donate such a shirt and vest to the cult. He says the shirt and vest are what they call a 'common shirt.' When I have the red shirt with a black vest, I should return and deliver them to Iulus Truptor.
-尤卢斯·特拉普托说，为了我们即将举行的丰收节庆典，我们需要一件红色衬衫和一件黑色背心。他让我问问裁缝铺是否愿意向教派捐赠这样的衬衫和背心。他说衬衫和背心就是他们所说的“普通衬衫”。等我拿到红衬衫配黑背心，就应该回去交给尤卢斯·特拉普托。
+尤卢斯·特鲁普托说，为了我们即将举行的丰收节庆典，我们需要一件红色衬衫和一件黑色背心。他让我问问裁缝铺是否愿意向教派捐赠这样的衬衫和背心。他说衬衫和背心就是他们所说的“普通衬衫”。等我拿到红衬衫配黑背心，就应该回去交给尤卢斯·特鲁普托。
 
 > INFO.NAME ic11_shirt 6237173102092324411
 I delivered a red shirt with a black vest to Iulus Truptor for the Harvest's End pageant. He was quite pleased. He gave me a little blessing, and told me to speak to him again when I'm ready for another almoner's mission.
-我向尤卢斯·特拉普托交付了一件红色衬衫和一件黑色背心，用于末收节庆典。他非常高兴。他给了我一个小小的祝福，并告诉我，当我准备好接受另一项施赈者任务时，再和他联系。
+我向尤卢斯·特鲁普托交付了一件红色衬衫和一件黑色背心，用于末收节庆典。他非常高兴。他给了我一个小小的祝福，并告诉我，当我准备好接受另一项施赈者任务时，再和他联系。
 
 > INFO.NAME ic13_rumor 16246221781536317663
 Imperial Cult: Donation from Cunius Pelelius
@@ -14714,15 +14714,15 @@ Imperial Cult: Donation from Cunius Pelelius
 
 > INFO.NAME ic13_rich 16720155441557895
 Iulus Truptor has sent me to the Governor's Hall in Caldera to persuade Cunius Pelelius of the Caldera Mining Company to donate 500 gold to the Imperial cult's Widows and Orphans Fund. When I've obtained the donation, I'm to deliver it to Iulus Truptor.
-尤卢斯·特拉普托派我前往卡尔德拉总督大厅，说服卡尔德拉矿业公司的库尼乌斯·佩勒里乌斯向帝国教团的孤儿寡母基金捐赠500金币。我拿到捐款后，要把它交给尤卢斯·特拉普托。 {帝国人}
+尤卢斯·特鲁普托派我前往卡尔德拉总督大厅，说服卡尔德拉矿业公司的库尼乌斯·佩勒里乌斯向帝国教团的孤儿寡母基金捐赠500金币。我拿到捐款后，要把它交给尤卢斯·特鲁普托。 {帝国人}
 
 > INFO.NAME ic13_rich 1786928265237026139
 I told Iulus Truptor I couldn't get Cunius Pelelius to donate 500 gold to the Imperial cult's Widows and Orphans Fund. Iulus was disappointed, and told me to decide whether my talents and temperaments are suited for soliciting donations. Before I approach him again for an almoner's mission, I must be sure I want to give the Imperial cult my full commitment.
-我告诉尤卢斯·特拉普托，我没能让库尼乌斯·佩勒里乌斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
+我告诉尤卢斯·特鲁普托，我没能让库尼乌斯·佩勒里乌斯捐出500金币给帝国教团的孤儿寡母基金。尤卢斯很失望，他让我思考自己的才能和性格是否适合募捐。在我再次向他提出施赈者任务之前，我必须确定自己是否愿意为帝国教团全力以赴。 {帝国人,我的传说}
 
 > INFO.NAME ic13_rich 6617174472804123909
 I delivered 500 gold to Iulus Truptor for the Widows and Orphans Fund. He was very pleased. He gave me an interesting assortment of scrolls he had received from an anonymous donor, and told me to speak to him again when I'm ready for another almoner's mission.
-我把500金币交给了尤卢斯·特拉普托，作为孤儿寡母基金。他非常高兴。他给了我从一位匿名捐赠者那里得到的各种有趣的卷轴，并告诉我，当我准备好执行另一项施赈者任务时，再和他联系。
+我把500金币交给了尤卢斯·特鲁普托，作为孤儿寡母基金。他非常高兴。他给了我从一位匿名捐赠者那里得到的各种有趣的卷轴，并告诉我，当我准备好执行另一项施赈者任务时，再和他联系。
 
 > INFO.NAME ic14_okan 419714297995214011
 Imperial Cult: Pledge from Canctunian Ponius
@@ -15978,7 +15978,7 @@ It was my decision that a smithy should be built in the colony. Construction sho
 
 > INFO.NAME co_4 2243461441022412139
 Carnius has been informed of the decision regarding the construction plans. I should check back in a few days when the work is done.
-卡尼乌斯已被告知有关建造计划的决定。过几天工程完工后，我再来看你。 {工作}
+卡尼乌斯已被告知相关施工计划的决定。我应该在几天后工作完成后再回来看看。
 
 > INFO.NAME co_4 2829524146253169034
 It was my decision that a trader's outpost should be built. Construction should begin shortly, but I need to inform Carnius of the decision.
@@ -18203,15 +18203,15 @@ Nevermind
 
 > INFO.NAME stalhrim weapons 1973430735196923071
 You haven't turned over enough Stalhrim to warrant my giving you a reward, %PCRank.
-你交出的魔冰还不够多，所以我不会给你奖赏，%PCRank。 {报酬}
+你交出的魔冰还不够多，所以我不会给你报酬，%PCRank。
 
 > INFO.NAME stalhrim weapons 19584140238819085
 Here's your mace, %PCName. Use it well.
-这是你的狼牙棒，%PCName。好好使用它。 {钉锤}
+这是你的钉锤，%PCName。好好使用它。
 
 > INFO.NAME stalhrim weapons 124894535130144186
 Your mace isn't ready yet. I need more time to finish it.
-你的武器还没准备好，我需要更多时间来完成它。 {钉锤}
+你的钉锤还没准备好，我需要更多时间来完成它。
 
 > INFO.NAME stalhrim weapons 2348199922283916408
 Here's your longsword, %PCName. Use it well.
@@ -18247,7 +18247,7 @@ I'll get started on a mace for you. Come back in two days, and it'll be ready.
 
 > INFO.NAME stalhrim weapons 4212243272010916286
 You don't have enough raw Stalhrim for me to forge you a Mace.
-你没有足够的魔冰原矿，让我给你锻造魔冰锤。 {钉锤}
+你没有足够的魔冰原矿，让我给你锻造魔冰钉锤。
 
 > INFO.NAME stalhrim weapons 2538828452173131963
 I'll get started on a longsword for you. Come back in two days, and it'll be ready.
@@ -18583,7 +18583,7 @@ To the far north is a great castle of ice. Is this the place you speak of?
 
 > INFO.NAME snow wolf armor 848823097148716349
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Helm.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪狼头盔。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 14824115881174823039
 Your custom Snow Wolf Helm isn't ready yet, %PCName.  Come back later.
@@ -18607,7 +18607,7 @@ Your custom Snow Wolf Greaves aren't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 1955124027608129240
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Left Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪狼左腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 1250413083117636835
 Your custom Snow Wolf Left Gauntlet isn't ready yet, %PCName.  Come back later.
@@ -18615,7 +18615,7 @@ Your custom Snow Wolf Left Gauntlet isn't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 1764328551172574490
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Right Gauntlet.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼右腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪狼右腕甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 12729231211106222386
 Your custom Snow Wolf Right Gauntlet isn't ready yet, %PCName.  Come back later.
@@ -18623,7 +18623,7 @@ Your custom Snow Wolf Right Gauntlet isn't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 2986731801154257214
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Left Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼左肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪狼左肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 20018737301356078
 Your custom Snow Wolf Left Pauldron isn't ready yet, %PCName.  Come back later.
@@ -18631,7 +18631,7 @@ Your custom Snow Wolf Left Pauldron isn't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 27001163382273820938
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Right Pauldron.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲准备好了？给你，%PCName，这是我精心制作的雪狼右肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪狼右肩甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 325292433550669039
 Your custom Snow Wolf Right Pauldron isn't ready yet, %PCName.  Come back later.
@@ -18639,7 +18639,7 @@ Your custom Snow Wolf Right Pauldron isn't ready yet, %PCName.  Come back later.
 
 > INFO.NAME snow wolf armor 390417542306632395
 Your custom piece of armor is ready!  Here you go, %PCName, one expertly crafted Snow Wolf Cuirass.  It came out even better than I expected.  If you need anything else, I'm your man!
-你的定制盔甲已经准备好了，给你，%PCName，这是我精心制作的雪狼胸甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
+你的定制盔甲已经准备好了！给你，%PCName，这是我精心制作的雪狼胸甲。比我预期的还要好。如果你还需要什么，尽管吩咐！
 
 > INFO.NAME snow wolf armor 2028918180152718725
 Your custom Snow Wolf Cuirass isn't ready yet, %PCName.  Come back later.
@@ -19139,7 +19139,7 @@ Our business is complete. There are no other ways for you to help me, New Blood.
 
 > INFO.NAME future rewards 16337111081828622674
 Many of the Berne and Aundae are dead by your hand. This is a good thing. I will allow you to feed here in Druscashti. Do not kill the cattle, though, or you will no longer be welcome.
-许多伯尔尼人和昂戴人都死于你手。这是好事，我允许你们在德罗斯卡什提觅食。但不要杀死血畜，否则你将不再受欢迎。
+许多伯尔尼人和昂戴人都死于你手。这是好事，我允许你们在德鲁斯卡什蒂觅食。但不要杀死血畜，否则你将不再受欢迎。
 
 > INFO.NAME get rid of him 108522390127803139
 Didn't I say I don't want him dead? That's not the kind of example I'm looking to set for how this colony is run. If you're implying you have a problem with my orders, then I suggest you take it up with Carnius.
@@ -20355,7 +20355,7 @@ The Rieklings?  The Snow Elves of legend?  Preposterous.  You see, I believe the
 
 > INFO.NAME absurd notion 2454977152471127391
 The mere suggestion that the Falmer are no more than the Rieklings is ridiculous.  The Falmer WERE a real race, until they intermingled with the other Elven races.  It's quite clear to me that the Falmer are an important piece in the puzzle that is Elven Ancestry.
-仅仅认为伐莫族不比蓝客灵多是荒谬的。伐莫曾经是一个真正的种族，直到他们与其他精灵种族混合。我很清楚，伐莫族是先祖精灵血统中的重要一环。
+仅仅暗示伐莫族不过是蓝客灵，这种说法简直荒谬可笑。伐莫族曾经是一个真正的种族，直到他们与其他精灵族裔融合。对我来说，伐莫族显然是精灵血统这块拼图中不可或缺的重要一环。
 
 > INFO.NAME seen anything 4698190732348228604
 So that was the ship, huh?
@@ -20439,7 +20439,7 @@ Like I told your boss, I'm not leaving until I get some serious cash from him. I
 
 > INFO.NAME extra payment 23470285671619018686
 That's right. You see this boat? It doesn't go anywhere until I've got that money in my hands. Your boss already knows what I'm after, and unless you're here to give it to me, I suggest you get lost. Otherwise you might get hurt.
-这就对了，看到这艘船了吗？在我拿到那笔钱之前，它哪儿也去不了。你老板已经知道我在找什么了，除非你是来给我钱的，否则我建议你滚蛋，否则你可能会受伤。 {手}
+这就对了。看到那艘船了吗？除非钱到我手里，否则它哪都不会去。你老板知道我想要的是什么，除非你是来送钱的，不然我建议你马上滚蛋。我怕你头上会多道疤。
 
 > INFO.NAME extra payment 113680421089517693
 It doesn't matter, now that you've killed him.
@@ -21155,7 +21155,7 @@ You want me to guard this place? No, I don't think so. Sorry.
 
 > INFO.NAME hire guards 12364174442011615845
 Good luck with that. I'm afraid you won't see me volunteering. I have enough to do, thank you very much.
-祝你好运。恐怕你不会看到我去做志愿者了。我有足够的事情要做，非常感谢。 {幸运}
+祝你好运。不过我恐怕是不掺和了。我有不少事情要做，非常感谢你。 {幸运}
 
 > INFO.NAME hire guards 14571130102955829645
 I've already accepted the opportunity, %PCName.
@@ -23403,7 +23403,7 @@ Are you here to see Carnius? I'm afraid he's not in right now; oh, and he'll be 
 
 > INFO.NAME greeting 1 541128583195415801
 Have you come for Stalhrim weapons, friend?
-你是来拿魔冰武器的吗，朋友？
+你是为魔冰武器而来的吗，朋友？
 
 > INFO.NAME greeting 1 27590292522726120584
 Speak to Graring.
@@ -23415,7 +23415,7 @@ You have no business being here, stranger. Leave now.
 
 > INFO.NAME greeting 1 1240378292978419696
 Have you come for Stalhrim armor, friend?
-你是来拿魔冰盔甲的吗，朋友？
+你是为魔冰盔甲而来的吗，朋友？
 
 > INFO.NAME greeting 1 2200799951842721480
 Speak to Graring.
@@ -26211,11 +26211,11 @@ Have you gotten any information from Graring and his companions?
 
 > INFO.NAME assignment 302731523082523074
 Something has happened in the mine. The men have unearthed a burial cavern, but it's unlike any we've seen before. There's some sort of ice in there that they can't break through. I want you to find out what it is. There are some Nords that live just south of where the Harstrad and Islid rivers meet. Go talk to the one named Graring, and see if he can tell you anything.
-矿场出事了，他们发现了一个墓穴，但和我们以前见过的都不一样，里面有某种冰层，他们无法突破。我想让你去看看那是什么。有些诺德人就住在哈斯特河和伊斯利德河交汇处的南边，去和那个叫加拉林的人谈谈，看他能不能告诉你一些事。
+矿井里发生了一些事情。这些人发现了一个墓穴，但它与我们以前见过的任何墓穴都不一样。里面有某种冰，他们没办法凿破。我希望你能弄清楚它是什么。在哈斯特河和伊斯利德河交汇处的南部住着一群诺德人。去和那个叫加拉林的人谈谈，看看他能不能告诉你什么。
 
 > INFO.NAME assignment 236585008114471541
 Something has happened in the mine. The men have unearthed a burial cavern, but it's unlike any we've seen before. There's some sort of ice in there that they can't break through. There were a group of Nords living here on the island that might have known what it was about, but I understand their leader, Graring, is dead. Without him, I doubt we'll ever figure it out.
-矿场出事了。他们发现了一个墓穴，但和我们以前见过的都不一样，里面有某种冰层，他们无法突破。岛上住着一群诺德人，他们可能知道这是怎么回事，但我知道他们的首领加拉林已经死了。没有他，我想我们永远也不可能弄明白了。
+矿井里发生了一些事情。这些人发现了一个墓穴，但它与我们以前见过的任何墓穴都不一样。里面有某种冰，他们没办法凿破。岛上住着一群诺德人，他们可能知道这是怎么回事，但我知道他们的首领加拉林已经死了。没有他，我想我们永远也不可能弄明白了。
 
 > INFO.NAME assignment 260566901120221382
 Have you calmed down Seler Favelnim, %PCName?
@@ -26227,7 +26227,7 @@ Yes, I have a matter that needs urgent attention. Something has gone horribly wr
 
 > INFO.NAME assignment 778367561471431654
 Something has happened in the mine. The men have unearthed a burial cavern, but it's unlike any we've seen before. There's some sort of ice in there that they can't break through. There were a group of Nords living here on the island that might have known what it was about, but I understand their leader, Graring, is dead. Without him, I doubt we'll ever figure it out.
-矿场出事了。他们发现了一个墓穴，但和我们以前见过的都不一样，里面有某种冰层，他们无法突破。岛上住着一群诺德人，他们可能知道这是怎么回事，但我知道他们的首领加拉林已经死了。没有他，我想我们永远也不可能弄明白了。
+矿井里发生了一些事情。这些人发现了一个墓穴，但它与我们以前见过的任何墓穴都不一样。里面有某种冰，他们没办法凿破。岛上住着一群诺德人，他们可能知道这是怎么回事，但我知道他们的首领加拉林已经死了。没有他，我想我们永远也不可能弄明白了。
 
 > INFO.NAME assignment 507616125128864973
 You failed your assignment to catch Uryn Maren. I have nothing more for you.
@@ -27911,7 +27911,7 @@ Keep bringing him up, do you? If only he were here. He'd wipe the floor with you
 
 > INFO.NAME elberoth 89229163311428920
 He's a friend of mine. Not much to look at, and certainly not much of a captain, but he was a hell of a fighter. Always brandishing that stupid sword of his... but what business is it of yours? Let's talk about that extra payment of mine, shall we?
-他是我矿场的朋友。他长得不怎么样，也不是什么队长，但他是个很厉害的战士，总是挥舞着他那把破剑…但这和你有什么关系？我们来谈谈我的额外报酬，好吗？ {事,沙尔}
+他是我的一个朋友。长得不怎么样，当然也不是什么船长，但他是个很厉害的战士。他总是挥舞着那把蠢剑……但你有什么重要的事？让我们来谈谈我的那份额外报酬，好吗？ {沙尔}
 
 > INFO.NAME must act 10186140673019110010
 As I said, I tried to warn the Skaal, but they would not listen. I erected a barrier to keep the monsters at bay.
@@ -28087,7 +28087,7 @@ Bring me some of it, so that I may know you can be trusted. Then, we shall speak
 
 > INFO.NAME stalhrim 19980283012905216357
 You are not the first to seek it. Outsiders like this woman have been here before; always demanding, always offering payment that is useless to us. But they get nothing. The Skaal give them nothing because they call it sacred; we give them nothing because we know they would misuse it.
-你不是第一个来找它的人。像这个女人这样的外来者以前也来过这里，他们总是索要，总是提供对我们毫无用处的报酬。但他们什么也得不到。斯卡尔人什么也不给他们，因为他们称它为圣物；我们什么也不给他们，因为我们知道他们会误用它。 {神圣}
+你不是第一个来找它的人。像这个女人这样的外来者以前也来过这里，他们总是索要，总是提供对我们毫无用处的报酬。但他们什么也得不到。斯卡尔人什么也不给他们，因为这是神圣的东西；我们什么也不给他们，因为我们知道他们会误用它。
 
 > INFO.NAME stalhrim 20491359422657064
 Is that the stuff we found in the mine? Weird, huh? It looks just like ice, but we couldn't put a dent in it.
@@ -28203,7 +28203,7 @@ He was one of the only people that knew exactly how valuable the Stalhrim is. So
 
 > INFO.NAME graring 1634174692432825127
 He could be a very useful ally, %PCName. Take him more Stalhrim whenever you can.
-他可能是个非常有用的盟友，%PCName。尽可能多带他去找魔冰。
+他可以成为一个非常有用的盟友，%PCName。尽你所能把魔冰带给他。
 
 > INFO.NAME graring 5052129481661924752
 He was our only link to the Stalhrim. Without him, there's not much we can do with it.
@@ -29555,7 +29555,7 @@ I'll be gone soon. I promise you that.
 
 > INFO.NAME hello 68079003628822376
 Have you come for Stalhrim weapons, friend?
-你是来拿魔冰武器的吗，朋友？
+你是为魔冰武器而来的吗，朋友？
 
 > INFO.NAME hello 1985516507279882546
 Speak to Graring.
@@ -29567,7 +29567,7 @@ You have no business being here, stranger. Leave now.
 
 > INFO.NAME hello 8881297679496870
 Have you come for Stalhrim armor, friend?
-你是来拿魔冰盔甲的吗，朋友？
+你是为魔冰盔甲而来的吗，朋友？
 
 > INFO.NAME hello 25321185751739114679
 Speak to Graring.
