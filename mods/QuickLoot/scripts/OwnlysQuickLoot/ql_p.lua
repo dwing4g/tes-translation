@@ -18,35 +18,116 @@ KEY = require('openmw.input').KEY
 input = require('openmw.input')
 v2 = util.vector2
 v3 = util.vector3
---printLocalized = core.l10n("QuickLoot", "en")
---
---
---function L(text)
---	print( printLocalized(text))
---	return printLocalized(text) or "??"
---end
-
 local animation = require('openmw.animation')
 local Controls = require('openmw.interfaces').Controls
 local l10n = core.l10n('QuickLoot')
-local settings = require("scripts.OwnlysQuickLoot.ql_settings")
+
+if not core.mwscripts then
+	ui.showMessage("QuickLoot requires OpenMW 0.50 or newer")
+	return
+end
+
+qlppInstalled = vfs.fileExists("scripts/OwnlysQuickLoot/ql_pickpocket_overhaul.lua")
+
+require("scripts.OwnlysQuickLoot.ql_settings")
 makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
 local helpers = require("scripts.OwnlysQuickLoot.ql_helpers")
 readFont, texText, rgbToHsv, hsvToRgb,fromutf8,toutf8,hextoutf8,formatNumber,tableContains = unpack(helpers)
 background = ui.texture { path = 'black' }
 white = ui.texture { path = 'white' }
-valueTex = ui.texture { path = 'textures\\QuickLoot_coins.dds' }
-valueByWeightTex = ui.texture { path = 'textures\\QuickLoot_scale.dds' }
-backpackTex = ui.texture { path = 'textures\\QuickLoot_backpack.dds' }
-weightTex = ui.texture { path = 'textures\\QuickLoot_weight.dds' }
-pickpocketTex =   ui.texture { path = 'textures\\QuickLoot_pickpocket.dds' }
-pickpocketTex2 =   ui.texture { path = 'textures\\QuickLoot_pickpocket_halo1.dds' }
-pickpocketTex3 =   ui.texture { path = 'textures\\QuickLoot_pickpocket_halo2.dds' }
-fSymbolicTex =   ui.texture { path = 'textures\\QuickLoot_F_symbolic.dds' }
-rSymbolicTex =   ui.texture { path = 'textures\\QuickLoot_R_symbolic.dds' }
-fKeyTex =   ui.texture { path = 'textures\\QuickLoot_F.dds' }
-rKeyTex =   ui.texture { path = 'textures\\QuickLoot_R.dds' }
-local handTex = ui.texture { path = 'textures\\QuickLoot_hand.dds' }
+valueTex = ui.texture { path = 'textures/QuickLoot/coins.dds' }
+valueByWeightTex = ui.texture { path = 'textures/QuickLoot/scale.dds' }
+backpackTex = ui.texture { path = 'textures/QuickLoot/backpack.dds' }
+weightTex = ui.texture { path = 'textures/QuickLoot/weight.dds' }
+pickpocketTex =   ui.texture { path = 'textures/QuickLoot/pick3.png' }
+pickpocketTex2 =   ui.texture { path = 'textures/QuickLoot/pickpocket_halo1.dds' }
+pickpocketTex3 =   ui.texture { path = 'textures/QuickLoot/pickpocket_halo2.dds' }
+fSymbolicTex =   ui.texture { path = 'textures/QuickLoot/F_symbolic.dds' }
+rSymbolicTex =   ui.texture { path = 'textures/QuickLoot/R_symbolic.dds' }
+fKeyTex =   ui.texture { path = 'textures/QuickLoot/F.dds' }
+rKeyTex =   ui.texture { path = 'textures/QuickLoot/R.dds' }
+handTex =   ui.texture { path = 'textures/QuickLoot/hand.dds' }
+
+------------------------------ keybinding hint icons ------------------------------
+local usingGamepad = false
+
+-- openmw key code -> glyph for keys that have a generated icon
+local keyGlyph = {}
+for byte = string.byte("A"), string.byte("Z") do
+	keyGlyph[KEY[string.char(byte)]] = string.char(byte)
+end
+for digit = 0, 9 do
+	keyGlyph[KEY["_"..digit]] = tostring(digit)
+end
+keyGlyph[KEY.Minus] = "-"
+keyGlyph[KEY.Equals] = "="
+keyGlyph[KEY.LeftBracket] = "["
+keyGlyph[KEY.RightBracket] = "]"
+keyGlyph[KEY.BackSlash] = "\\"
+keyGlyph[KEY.Semicolon] = ";"
+keyGlyph[KEY.Apostrophe] = "'"
+keyGlyph[KEY.Comma] = ","
+keyGlyph[KEY.Period] = "."
+keyGlyph[KEY.Slash] = "/"
+keyGlyph[KEY.Space] = " "
+
+-- sdl mouse button -> art file
+local mouseArt = {
+	[1] = "mouse_m1",
+	[2] = "mouse_m3",
+	[3] = "mouse_m2",
+	[4] = "mouse_m4",
+	[5] = "mouse_m5",
+}
+
+-- engine defaults
+local hintDefaults = {
+	ToggleWeapon = { keyboard = KEY.F, controller = input.CONTROLLER_BUTTON.X },
+	ToggleSpell = { keyboard = KEY.R, controller = input.CONTROLLER_BUTTON.Y },
+}
+
+local keyIconCache = {}
+
+-- keybind hint if you've configured a custom QL key or default
+local function resolveHint(action, override)
+	local device, button
+	if override then
+		-- quickloot encoding: >=1000 gamepad, <0 mouse, else keyboard
+		if override >= 1000 then
+			device, button = "controller", override - 1000
+		elseif override < 0 then
+			device, button = "mouse", -override
+		else
+			device, button = "keyboard", override
+		end
+	else
+		local default = hintDefaults[action]
+		device = usingGamepad and "controller" or "keyboard"
+		button = usingGamepad and default.controller or default.keyboard
+	end
+	
+	local path
+	if device == "keyboard" then
+		local glyph = keyGlyph[button]
+		if glyph then
+			path = ("textures/QuickLoot/keys/%04X.png"):format(string.byte(glyph))
+		end
+	elseif device == "mouse" then
+		local art = mouseArt[button]
+		if art then
+			path = "textures/QuickLoot/keys/"..art..".png"
+		end
+	else
+		path = ("textures/QuickLoot/keys/%d.png"):format(1000 + button)
+	end
+	if not path or not vfs.fileExists(path) then
+		return nil
+	end
+	keyIconCache[path] = keyIconCache[path] or ui.texture { path = path }
+	return keyIconCache[path]
+end
+------------------------------------------------------------
+
 inspectedContainer = nil
 crimesVersion = 0
 local selectedIndex = 1
@@ -57,9 +138,10 @@ local depositSelectedIndex = 1
 local depositBackupSelectedIndex = 1
 local depositScrollPos = 1
 local containerItems = {}
-TAKEALL_KEYBINDING = KEY.F
+local containerGroups = {}
 uiLoc = v2(X/100,Y/100)
 uiSize = v2(WIDTH/100,HEIGHT/100)
+textSizeMult = (ui.screenSize().y/1200*(uiSize.y/0.4))^0.5*TEXTSIZEMULT/100
 local textureCache = {}
 local bookSection = storage.playerSection('ReadBooks3'..MODNAME)
 local bookTimer = 0
@@ -80,44 +162,179 @@ uiWidth = ui.layers[layerId].size.x
 uiHeight = ui.layers[layerId].size.y
 local screenres = ui.screenSize()
 local uiScale = screenres.x / uiWidth
-local makeTooltip = require("scripts.OwnlysQuickLoot.tooltip")
+
+-- ------------------------------ loose aiming ------------------------------
+local looseAimOffsets = {}
+do
+	local aspect = screenres.x / screenres.y
+	local rings = {
+		{ radius = 0.006, points = 8 },
+		{ radius = 0.011, points = 8, stagger = math.pi / 8 },
+	}
+	for _, ring in ipairs(rings) do
+		for i = 1, ring.points do
+			local angle = (2 * math.pi / ring.points) * i + (ring.stagger or 0)
+			looseAimOffsets[#looseAimOffsets + 1] = v2(
+				0.5 + ring.radius * math.cos(angle),
+				0.5 + ring.radius * math.sin(angle) * aspect
+			)
+		end
+	end
+end
+local looseAimSlots = {}
+local looseAimCursor = 1
+-- ------------------------------------------------------------------------
+
+local function buildTooltipArgs(item, isPickpocketing, style, deposit)
+	local merged = {
+		textAlignment = TOOLTIPS_TEXT_ALIGNMENT,
+		compact = TOOLTIPS_COMPACT,
+		shortText = TOOLTIPS_SHORT_TEXT,
+		thousandsSeparator = THOUSANDS_SEPARATOR,
+	}
+	if TOOLTIPS_MATCH_HUD then
+		merged.transparency = TRANSPARENCY
+		merged.borderStyle = BORDER_STYLE
+		merged.textSize = itemFontSize*textSizeMult
+	end
+	if BORDER_FIX then
+		merged.borderPath = "textures/QuickLoot/ql_makeborder/"
+	end
+	for key, value in pairs(style or {}) do
+		merged[key] = value
+	end
+	
+	local context = {
+		source = "QuickLoot",
+		isPickpocketing = isPickpocketing,
+		deposit = deposit,
+	}
+	
+	--[[
+	------------------ ENCHANT OVERRIDE TEST ------------------
+	local overrides = {value = 9000}
+	if item.type == types.Weapon or item.type == types.Armor or item.type == types.Clothing then
+		local record = item.type.records[item.recordId]
+		if record.enchant and core.magic.enchantments.records[record.enchant] then
+			local enchantRecord = core.magic.enchantments.records[record.enchant]
+		
+			local enchant = {
+				type = enchantRecord.type,
+				cost = enchantRecord.cost,
+				charge = enchantRecord.charge,
+				autocalc = enchantRecord.isAutocalc,
+				effects = {},
+			}
+	
+			for i, eff in ipairs(enchantRecord.effects) do
+				enchant.effects[i] = {
+					id = eff.id,
+					range = eff.range,
+					area = eff.area,
+					duration = 300,
+					affectedSkill = eff.affectedSkill,
+					affectedAttribute = eff.affectedAttribute,
+					magnitudeMin = (eff.magnitudeMin or 0) * 2,
+					magnitudeMax = (eff.magnitudeMax or 0) * 2,
+				}
+			end
+			overrides = overrides or {}
+			overrides.enchant = enchant
+		end
+	end
+	
+	------------------------------ GOLD IS A HEALING POTION TEST ------------------------------
+	if item.recordId == "gold_001" then
+		local healEffect = {
+			id = "restorehealth",
+			duration = 5,
+			magnitudeMin = 10,
+			magnitudeMax = 20,
+		}
+ 
+		overrides = overrides or {}
+		overrides.potionEffects = { healEffect }
+		context.alchemySkill = math.huge
+	end
+	------------------------------------------------------------
+	--]]
+	
+	return overrides, merged, context
+end
+
+-- places the tooltip next to the hud, tracked element in a host owned placement shell
+local function makeTooltip(item, highlightPosition, isPickpocketing, deposit, style)
+	if TOOLTIPS_MODE == "off" then return end
+	local overrides, merged, context = buildTooltipArgs(item, isPickpocketing, style, deposit)
+	local handle = I.SharedTooltip.create(item, overrides, merged, context)
+	if not handle then return end
+	local tooltipLayer = "Notification"
+	if core.isWorldPaused() then
+		tooltipLayer = "HUD"
+	end
+	local hudLayerSize = ui.layers[ui.layers.indexOf("HUD")].size
+	local rootWidth = hudLayerSize.x * uiSize.x
+	local rootHeight = hudLayerSize.y * uiSize.y
+	local absPos = v2(hudLayerSize.x * uiLoc.x, hudLayerSize.y * uiLoc.y)
+	local anchor, pos
+	if TOOLTIPS_MODE == "top" then
+		anchor, pos = v2(0.5,1), v2(absPos.x, absPos.y-rootHeight/2)
+	elseif TOOLTIPS_MODE == "bottom" then
+		local temp = FOOTER_HINTS == "Disabled" and outerHeaderFooterHeight or 0
+		anchor, pos = v2(0.5,0), v2(absPos.x, absPos.y+rootHeight/2+1-temp)
+	elseif TOOLTIPS_MODE == "left" then
+		anchor, pos = v2(1,0), v2(absPos.x-rootWidth/2, absPos.y-rootHeight/2+highlightPosition)
+	elseif TOOLTIPS_MODE == "right" then
+		anchor, pos = v2(0,0), v2(absPos.x+rootWidth/2, absPos.y-rootHeight/2+highlightPosition)
+	elseif TOOLTIPS_MODE == "left (fixed)" then
+		anchor, pos = v2(1,0.5), v2(absPos.x-rootWidth/2, absPos.y)
+	elseif TOOLTIPS_MODE == "left (fixed 2)" then
+		anchor, pos = v2(1,0), v2(absPos.x-rootWidth/2, absPos.y-boxHeight/4)
+	elseif TOOLTIPS_MODE == "left (fixed 3)" then
+		anchor, pos = v2(0.5,0), v2(math.max(absPos.x-rootWidth*0.9,(absPos.x-rootWidth/2)/2), absPos.y-boxHeight/4)
+	elseif TOOLTIPS_MODE == "right (fixed 2)" then
+		anchor, pos = v2(0,0), v2(absPos.x+rootWidth/2, absPos.y-boxHeight/4)
+	elseif TOOLTIPS_MODE == "right (fixed 3)" then
+		anchor, pos = v2(0.5,0), v2(math.min(99999999,(uiWidth+absPos.x+rootWidth/2)/2), absPos.y-boxHeight/4)
+	elseif TOOLTIPS_MODE == "crosshair" then
+		anchor, pos = v2(0.5,0), v2(uiWidth/2, uiHeight/2+20)
+	else --right (fixed)
+		anchor, pos = v2(0,0.5), v2(absPos.x+rootWidth/2, absPos.y)
+	end
+	-- host owned shell carries layer and placement, the tracked element embeds
+	handle.shell = ui.create {
+		type = ui.TYPE.Container,
+		layer = tooltipLayer,
+		name = 'itemTooltip',
+		props = {
+			anchor = anchor,
+			position = pos,
+		},
+		content = ui.content { handle.element },
+	}
+	return handle
+end
 local containerHash = 0
 local ambient = require('openmw.ambient')
-local pickpocket 
-if vfs.fileExists("scripts/OwnlysQuickLoot/ql_pickpocket_overhaul.lua") then
+local pickpocket
+local qlppInstalled = vfs.fileExists("scripts/OwnlysQuickLoot/ql_pickpocket_overhaul.lua")
+if qlppInstalled then
 	pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket_overhaul")
 else
 	pickpocket = require("scripts.OwnlysQuickLoot.ql_pickpocket")
 end
 local printThrottle = 0
 local lastPrint = {}
-local currentScript = nil
-local mwScriptCalled = 0
-vanillaActivate = 0
 local deposit = false
 local questItems = require("scripts.OwnlysQuickLoot.ql_questItems")
 local redStealingWindow = true
-local showVanillaInventory = 0
+-- probe: run onactivate mwscripts
+local probe = nil
+local approvedContainer = nil
+local scriptVerdicts = {}
 
-local scriptWhitelist = {
-	ao_containers_scr_barrel = true,
-	ao_containers_scr_barrelf = true,
-	ao_containers_scr_basket = true,
-	ao_containers_scr_chest = true,
-	ao_containers_scr_chest_dwemer = true,
-	ao_containers_scr_closet = true,
-	ao_containers_scr_closet_dwemer = true,
-	ao_containers_scr_crate = true,
-	ao_containers_scr_cratef = true,
-	ao_containers_scr_cupboard = true,
-	ao_containers_scr_drawer_dwemer = true,
-	ao_containers_scr_drawers = true,
-	ao_containers_scr_sack = true,
-	ao_containers_scr_small_chest = true,
-	ao_containers_scr_steel_keg = true,
-	ao_containers_scr_stone_chest = true,
-	ao_containers_scr_urn = true,
-}
+-- leaks qlScriptBlacklist and qlScriptWhitelist
+require("scripts.OwnlysQuickLoot._SCRIPT_BLACKLIST")
 
 local function log(...)
 	local newPrint = {...}
@@ -135,17 +352,16 @@ local function log(...)
 	end
 end
 
-local groups = {
+-- every group the engine can play on death, deathStateToAnimGroup covers exactly these
+local deathGroups = {
 	["death1"] = true,
 	["death2"] = true,
 	["death3"] = true,
 	["death4"] = true,
 	["death5"] = true,
 	["deathknockdown"] = true,
-	["seathknockout"] = true,
+	["deathknockout"] = true,
 	["swimdeath"] = true,
-	["swimdeath2"] = true,
-	["swimdeath3"] = true,
 	["swimdeathknockdown"] = true,
 	["swimdeathknockout"] = true,
 }
@@ -180,18 +396,13 @@ end
 
 quickLootText = {
 	props = {
-			textColor = FONT_TINT,--util.color.rgba(1, 1, 1, 1),
-			textShadow = true,
-			textShadowColor = util.color.rgba(0,0,0,0.75),
-			--textAlignV = ui.ALIGNMENT.Center,
-			--textAlignH = ui.ALIGNMENT.Center,
+		textColor = FONT_TINT,
+		textShadow = true,
+		textShadowColor = util.color.rgba(0,0,0,0.75),
 	}
 }
 
-
 itemFontSize = 20
-
-
 
 function getTexture(path)
 	if not textureCache[path] then
@@ -200,51 +411,240 @@ function getTexture(path)
 	return textureCache[path]
 end
 
-input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sneak, run)
-	if inspectedContainer then
-		local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
-		local effectiveDeposit = R_DEPOSIT2 == "Yes" or (R_DEPOSIT2 == "Only when pickpocketing" and isPickpocketing)
-		--if effectiveDeposit and not input.isShiftPressed() or not effectiveDeposit and input.isShiftPressed() then -- effectively XOR
-		if effectiveDeposit ~= input.isShiftPressed() then
-			if not isPickpocketing or pickpocket.version then
-				deposit = not deposit
-				selectedIndex, depositSelectedIndex = depositSelectedIndex, selectedIndex
-				backupSelectedIndex, depositBackupSelectedIndex = depositBackupSelectedIndex, backupSelectedIndex
-				scrollPos, depositScrollPos = depositScrollPos, scrollPos
-				drawUI()
+------------------------------ chain api ------------------------------
+-- generic modifier chain
+local function makeChain()
+	local list = {}
+	local seq = 0
+	local chain = {
+		entries = list
+	}
+	function chain.register(opts)
+		if opts.id then
+			for i, entry in ipairs(list) do
+				if entry.id == opts.id then
+					table.remove(list, i)
+					break
+				end
 			end
-		else
-			--vanillaActivate = core.getRealTime()
-			--core.sendGlobalEvent("OwnlysQuickLoot_vanillaActivate",{self, inspectedContainer, true})
-			--no activation anymore
-			
-			----inspectedContainer:activateBy(self)
-			local now = core.getRealTime()
-			showVanillaInventory = now
-			I.UI.setMode("Container",{target = inspectedContainer})
-			----types.Actor.setStance(self, types.Actor.STANCE.Nothing)
 		end
+		seq = seq + 1
+		table.insert(list, {
+			id = opts.id,
+			priority = opts.priority or 0,
+			seq = seq,
+			func = opts.func,
+		})
+		table.sort(list, function(a, b)
+			if a.priority ~= b.priority then
+				return a.priority < b.priority
+			end
+			return a.seq < b.seq
+		end)
+	end
+	function chain.unregister(key)
+		for i, entry in ipairs(list) do
+			if entry.id == key or entry.func == key then
+				table.remove(list, i)
+				return
+			end
+		end
+	end
+	return chain
+end
+
+local lootInterceptorChain = makeChain()
+local hudModifierChain = makeChain()
+local targetFilterChain = makeChain()
+
+------------------------------ bound items ------------------------------
+-- the engine blacklists whatever the sMagicBound* gmsts name, gmsts cannot be enumerated from lua so the 12 vanilla names are fixed
+local BOUND_ITEM_GMSTS = {
+	"sMagicBoundBattleAxeID",
+	"sMagicBoundBootsID",
+	"sMagicBoundCuirassID",
+	"sMagicBoundDaggerID",
+	"sMagicBoundHelmID",
+	"sMagicBoundLeftGauntletID",
+	"sMagicBoundLongbowID",
+	"sMagicBoundLongswordID",
+	"sMagicBoundMaceID",
+	"sMagicBoundRightGauntletID",
+	"sMagicBoundShieldID",
+	"sMagicBoundSpearID",
+}
+
+local boundRecordIds = {}
+for _, gmst in ipairs(BOUND_ITEM_GMSTS) do
+	local id = core.getGMST(gmst)
+	if id and id ~= "" then
+		boundRecordIds[id:lower()] = true -- gmst values are not normalized, recordIds are
+	end
+end
+------------------------------------------------------------
+
+-- false blocks action
+local function lootAllowed(action, item)
+	-- conjured gear never changes owner, same refusals the container window gives
+	if item and boundRecordIds[item.recordId] then
+		ui.showMessage(core.getGMST(action == "take" and "sContentsMessage1" or "sBarterDialog12"))
+		return false
+	end
+	local cont = inspectedContainer
+	local ctx = {
+		target = cont,
+		item = item,
+		action = action,
+		isPickpocket = types.Actor.objectIsInstance(cont) and not types.Actor.isDead(cont),
+	}
+	for _, entry in ipairs(lootInterceptorChain.entries) do
+		if entry.func(ctx) == false then
+			return false
+		end
+	end
+	return true
+end
+------------------------------------------------------------
+
+------------------------------ custom keybindings ------------------------------
+-- renderer stores: 1-511 = key code, -1..-99 = mouse button, 1000 + id = gamepad, nil = unbound
+
+-- take/give switch or search window, shared by ToggleSpell and ALT_KEY
+local function secondaryPressed()
+	local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
+	local effectiveDeposit = R_DEPOSIT2 == "Yes" or (R_DEPOSIT2 == "Only when pickpocketing" and isPickpocketing)
+	if effectiveDeposit ~= input.isShiftPressed() then
+		if not isPickpocketing or pickpocket.version then
+			deposit = not deposit
+			selectedIndex, depositSelectedIndex = depositSelectedIndex, selectedIndex
+			backupSelectedIndex, depositBackupSelectedIndex = depositBackupSelectedIndex, backupSelectedIndex
+			scrollPos, depositScrollPos = depositScrollPos, scrollPos
+			drawUI()
+		end
+	else
+		-- vanilla window skips activation handlers, interceptors get their shot here
+		if not lootAllowed("open") then
+			return
+		end
+		I.UI.setMode("Container",{target = inspectedContainer})
+	end
+end
+
+-- persistent corpses never despawn, vanilla refuses to dispose them
+-- isPersistent needs openmw 0.52, on older builds it reads nil and disposal stays unrestricted
+local function disposeAllowed(corpse)
+	if not (types.Actor.objectIsInstance(corpse) and types.Actor.isDead(corpse)) then
+		return false
+	end
+	if corpse.type.record(corpse).isPersistent then
+		ui.showMessage(core.getGMST("sDisposeCorpseFail"))
+		return false
+	end
+	return true
+end
+
+-- take all / deposit all, shared by ToggleWeapon and TAKE_ALL_KEY
+local function takeAllPressed()
+	if types.Actor.objectIsInstance(inspectedContainer) and not types.Actor.isDead(inspectedContainer) then
+		return
+	end
+	if not lootAllowed(deposit and "depositAll" or "takeAll") then
+		return
+	end
+	if deposit then
+		core.sendGlobalEvent("OwnlysQuickLoot_depositAll",{self, inspectedContainer, input.isShiftPressed() and SELECTIVE_DEPOSIT, EXPERIMENTAL_LOOTING})
+	else
+		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, DISPOSE_CORPSE == "Shift + F" and input.isShiftPressed() and disposeAllowed(inspectedContainer), EXPERIMENTAL_LOOTING})
+	end
+	if types.Container.objectIsInstance(inspectedContainer) and CONTAINER_ANIMATION == "on take" then
+		inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
+	end
+end
+
+-- wheel, dpad and UP/DOWN keys, delta 0 still rolls the pickpocket chance
+local function moveSelection(delta)
+	local shouldRefresh = pickpocket.scroll(self, inspectedContainer, input)
+	local newIndex = selectedIndex
+	local jumped = false
+	if delta ~= 0 and GROUP_JUMP and input.isShiftPressed() then
+		local prevStart, nextStart, firstStart, lastStart
+		local startCount = 0
+		for i = 1, #containerItems do
+			if i == 1 or containerGroups[i] ~= containerGroups[i-1] then
+				startCount = startCount + 1
+				firstStart = firstStart or i
+				lastStart = i
+				if i < selectedIndex then
+					prevStart = i
+				elseif i > selectedIndex and not nextStart then
+					nextStart = i
+				end
+			end
+		end
+		if startCount > 1 then
+			newIndex = delta > 0 and (nextStart or firstStart) or (prevStart or lastStart)
+			jumped = true
+		end
+	end
+	if not jumped then
+		newIndex = selectedIndex + delta
+		if newIndex <= 0 then
+			newIndex = math.max(1,#containerItems)
+		elseif newIndex > #containerItems then
+			newIndex = 1
+		end
+	end
+	if selectedIndex ~= newIndex or shouldRefresh then
+		selectedIndex = newIndex
+		backupSelectedIndex = newIndex
+		drawUI()
+	end
+end
+
+-- configured keys replace the default triggers, true = consumed
+local function customKeybindPressed(code)
+	if not inspectedContainer or I.UI.getMode() then
+		return false
+	end
+	if code == TAKE_KEY then
+		lootItem()
+	elseif code == TAKE_ALL_KEY then
+		takeAllPressed()
+	elseif code == ALT_KEY then
+		secondaryPressed()
+	elseif code == UP_KEY then
+		moveSelection(-1)
+	elseif code == DOWN_KEY then
+		moveSelection(1)
+	else
+		return false
+	end
+	return true
+end
+
+-- a bound function mutes its own default trigger, unbound ones keep theirs
+input.registerTriggerHandler("ToggleSpell", async:callback(function(dt, use, sneak, run)
+	if inspectedContainer and not ALT_KEY then
+		secondaryPressed()
 	end
 end))
 
 input.registerTriggerHandler("ToggleWeapon", async:callback(function(dt, use, sneak, run)
-	if inspectedContainer and (not types.Actor.objectIsInstance(inspectedContainer) or types.Actor.isDead(inspectedContainer)) then
-		if deposit then
-			core.sendGlobalEvent("OwnlysQuickLoot_depositAll",{self, inspectedContainer, input.isShiftPressed() and SELECTIVE_DEPOSIT, EXPERIMENTAL_LOOTING})
-		else
-			core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, DISPOSE_CORPSE == "Shift + F" and input.isShiftPressed(), EXPERIMENTAL_LOOTING})
-		end
-		if types.Container.objectIsInstance(inspectedContainer) and CONTAINER_ANIMATION == "on take" then
-			inspectedContainer:sendEvent("OwnlysQuickLoot_openAnimation",self)
-		end
+	if inspectedContainer and not TAKE_ALL_KEY then
+		takeAllPressed()
 	end
 end))
 
 input.registerTriggerHandler("Jump", async:callback(function(dt, use, sneak, run)
-	if inspectedContainer and DISPOSE_CORPSE == "Jump" and types.Actor.objectIsInstance(inspectedContainer) then
-		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, true, EXPERIMENTAL_LOOTING})
+	if inspectedContainer and DISPOSE_CORPSE == "Jump" and types.Actor.objectIsInstance(inspectedContainer)
+	and types.Actor.isDead(inspectedContainer) then
+		if not lootAllowed("takeAll") then
+			return
+		end
+		-- persistent corpses only get looted
+		core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer, disposeAllowed(inspectedContainer), EXPERIMENTAL_LOOTING})
 	end
-end)) 
+end))
 
 input.bindAction('Use', async:callback(function(dt, use, sneak, run)
 	if types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing and use then
@@ -256,7 +656,7 @@ end), {  })
 
 function isQuestItem(item)
 	local record = item.type.record(item)
-	local script = record.mwscript
+	local scriptName = record.mwscript
 	-- works, but goes too deep maybe
 	if types.Player.quests(self)["TR_m3_AT_RatFriend"] and types.Player.quests(self)["TR_m3_AT_RatFriend"].stage>=10 and not types.Player.quests(self)["TR_m3_AT_RatFriend"].finished then
 		local requirements = {
@@ -271,7 +671,6 @@ function isQuestItem(item)
 		end
 	end
 	if scriptName then
-		local scriptName = record.mwscript
 		if scriptName:find("cursed") 
 		or scriptName:sub(-6,-1) == "dae_01"
 		or scriptName == "tr_m3_aar_clo_dubious"
@@ -288,9 +687,11 @@ function isQuestItem(item)
 			return false
 		end
 		
-		local script = core.mwscripts and core.mwscripts.records[record.mwscript]
+		local script = core.mwscripts.records[scriptName]
 		if script then
-			if script:lower():find("setjournal") or script:lower():find("startscript") or script:lower():find("addtopic") or script:lower():find("journal ") then
+			-- record is userdata, the source lives in .text
+			local scriptText = script.text:lower()
+			if scriptText:find("setjournal") or scriptText:find("startscript") or scriptText:find("addtopic") or scriptText:find("journal ") then
 				return true
 			end
 		end
@@ -308,8 +709,35 @@ function isQuestItem(item)
 	return true --?
 end
 
+local pickpocketTimeSlowed = false
+function setPickpocketTimeScale(active)
+	local shouldSlow = active and PICKPOCKET_TIME_SCALE and PICKPOCKET_TIME_SCALE < 1
+	if shouldSlow == pickpocketTimeSlowed then return end
+	pickpocketTimeSlowed = shouldSlow
+	core.sendGlobalEvent("SetSimulationTimeScale", shouldSlow and PICKPOCKET_TIME_SCALE or 1)
+end
+
+local poisonCache = {}
+local function isPoison(item)
+	if poisonCache[item.recordId] == nil then
+		poisonCache[item.recordId] = false
+		if types.Potion.objectIsInstance(item) then
+			local record = types.Potion.record(item)
+			for _, effect in pairs(record.effects) do
+				if effect.effect.harmful then
+					poisonCache[item.recordId] = true
+					break
+				end
+			end
+		end
+	end
+	return poisonCache[item.recordId]
+end
+
+
 function drawUI()
 	local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
+	setPickpocketTimeScale(isPickpocketing)
 	--if isPickpocketing and not startedPickpocketing then
 	--	pickpocket.messageShown = false
 	--end
@@ -333,11 +761,13 @@ function drawUI()
 	backupSelectedContainer = inspectedContainer 
 	local uiSize = uiSize
 	
-	if root then 
+	if root then
 		root:destroy()
 	end
 	if tooltip then
-		tooltip:destroy()
+		tooltip.shell:destroy()
+		tooltip.destroy()
+		tooltip = nil
 	end
 	local localizedName = inspectedContainer.type.records[inspectedContainer.recordId].name
 	local absPos = v2(hudLayerSize.x * uiLoc.x, hudLayerSize.y * uiLoc.y)
@@ -381,6 +811,7 @@ function drawUI()
 
 	--Caption: CONTAINER NAME
 	local headline ={
+		name = "headline",
 		type = ui.TYPE.Flex,
 		props = {
 			position = v2(0, 0),
@@ -391,12 +822,13 @@ function drawUI()
 		},
 		content = ui.content({})
 	}
-	table.insert(root.layout.content,headline)
+	root.layout.content:add(headline)
 	local titleText = ""..localizedName.." "
 	if deposit then
 		titleText = "->> "..localizedName.." "
 	end
-	table.insert(headline.content,{
+	headline.content:add({
+		name = "titleText",
 		type = ui.TYPE.Text,
 		template = quickLootText,
 		props = {
@@ -411,7 +843,8 @@ function drawUI()
 	})
 	
 	if stealCol and HAND_SYMBOL then
-		table.insert(headline.content,{
+		headline.content:add({
+			name = "stealHandIcon",
 			type = ui.TYPE.Image,
 			props = {
 				resource = handTex,
@@ -431,11 +864,14 @@ function drawUI()
 		borderFile = "thick"
 	end
 	borderOffset = BORDER_STYLE == "verythick" and 4 or BORDER_STYLE == "thick" and 3 or BORDER_STYLE == "normal" and 2 or 1
-	borderTemplate =  makeBorder(borderFile, stealCol or borderColor or nil, borderOffset).borders
+	-- caller owns the texture folder now, inset frame with no padding matches the old look
+	local borderPath = BORDER_FIX and "textures/QuickLoot/ql_makeborder/" or "textures/"
+	borderTemplate = makeBorder(borderPath, borderFile, stealCol or borderColor or nil, borderOffset)
 	
 	-- BOX
 	boxHeight = rootHeight - 2 * (outerHeaderFooterHeight + outerHeaderFooterMargin)
 	local box = { -- r.1.7
+		name = "box",
 		type = ui.TYPE.Widget,
 		props = {
 			size = v2(rootWidth, boxHeight),
@@ -443,10 +879,11 @@ function drawUI()
 		},
 		content = ui.content {}
 	}
-	table.insert(root.layout.content, box)
+	root.layout.content:add( box)
 	
 	--box BACKGROUND
-	table.insert(box.content, {
+	box.content:add( {
+		name = "boxBackground",
 		type = ui.TYPE.Image,
 		props = {
 			resource = background,
@@ -458,7 +895,8 @@ function drawUI()
 		}
 	})
 	--box BORDER
-	table.insert(box.content, {
+	box.content:add( {
+		name = "boxBorder",
 		template = BORDER_STYLE ~= "none" and borderTemplate or nil,
 		props = {
 			relativeSize  = v2(1,1),
@@ -524,6 +962,7 @@ function drawUI()
 	-- HEADER
 	if header_footer_setting == "show both" or header_footer_setting == "all top" or header_footer_setting ==  "only top" then
 		local header = { -- r.1.7
+			name = "header",
 			type = ui.TYPE.Widget,
 			props = {
 				size = v2(rootWidth-2*borderOffset, headerFooterHeight),
@@ -531,10 +970,11 @@ function drawUI()
 			},
 			content = ui.content {}
 		}
-		table.insert(box.content, header)
+		box.content:add( header)
 		--list HEADER Background
-		table.insert(header.content,
+		header.content:add(
 		{
+			name = "headerBackground",
 			type = ui.TYPE.Image,
 			props = {
 				resource = background,
@@ -545,16 +985,17 @@ function drawUI()
 				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
 				position = v2(0,0),
 				relativePosition = v2(0, 0),
-				alpha = transparency*0.75,
+				alpha = transparency*0.4 + 0.1,
 			}
 		})
 		--list HEADER Line
 		if BORDER_STYLE ~= "none" then
-			table.insert(header.content,
+			header.content:add(
 			{
+				name = "headerLine",
 				type = ui.TYPE.Image,
 				props = {
-					resource = BORDER_FIX and getTexture("textures/ql_makeborder/menu_thin_border_bottom.dds") or getTexture("textures/menu_thin_border_bottom.dds"),
+					resource = BORDER_FIX and getTexture("textures/QuickLoot/ql_makeborder/menu_thin_border_bottom.dds") or getTexture("textures/menu_thin_border_bottom.dds"),
 					tileH = false,
 					tileV = false,
 					relativeSize  = v2(1,0),
@@ -569,6 +1010,7 @@ function drawUI()
 		if (header_footer_setting == "all top" or header_footer_setting ==  "only top") and isPickpocketing and pickpocket.footerText then
 
 			header.content:add{
+				name = "headerPickpocketIcon",
 				type = ui.TYPE.Image,
 				props = {
 					resource = pickpocketTex,
@@ -582,6 +1024,7 @@ function drawUI()
 				}
 			}
 			header.content:add{
+				name = "headerPickpocketText",
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
@@ -601,7 +1044,8 @@ function drawUI()
 				encumbranceIconColor = util.color.rgb(1,0, 0)
 			end
 			--list HEADER ENCUMBRANCE ICON
-			table.insert(header.content,{
+			header.content:add({
+				name = "headerEncumbranceIcon",
 				type = ui.TYPE.Image,
 				props = {
 					resource = backpackTex,
@@ -616,7 +1060,8 @@ function drawUI()
 			})
 			
 			--list HEADER ENCUMBRANCE TEXT
-			table.insert(header.content,{
+			header.content:add({
+				name = "headerEncumbranceText",
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
@@ -633,7 +1078,8 @@ function drawUI()
 		local widgetOffset = 0.05 -- for scrollbar
 		--list HEADER ICONS
 		for _, widget in pairs(widgets) do
-			table.insert(header.content,{
+			header.content:add({
+				name = "headerColumnIcon_"..widget,
 				type = ui.TYPE.Image,
 				props = {
 					resource = _G[widget.."Tex"],
@@ -666,49 +1112,55 @@ function drawUI()
 
 	
 	local sortedItems = {
-		{}, --cash = {}, --1
-		{}, --keys = {}, --2
-		{}, --lockpicks = {}, --3
-		{}, --soulgems = {}, --4
-		{}, --ingredients= {}, --5
-		{}, --repair = {}, --6
-		{}, --questItems = {}, --7
-		{}, --other = {} --8
+		{}, --poisons --1
+		{}, --questItems --2
+		{}, --cash --3
+		{}, --keys --4
+		{}, --lockpicks --5
+		{}, --soulgems --6
+		{}, --ingredients(light) + repair --7
+		{}, --ingredients(heavy) --8
+		{}, --other --9
 	}
+	local plantingPoisons = CONTAINER_SORTING_POISONS and qlppInstalled and deposit and isPickpocketing
 	for _,item in pairs(containerItems) do
 		local itemType = item.type
 		local itemRecordId =item.recordId
 		local itemRecord = item.type.record(itemRecordId)
-		
-		if not itemRecord.name 
-		or itemRecord.name == "" 
-		or not types.Item.isCarriable(item) 
+
+
+		if not itemRecord.name
+		or itemRecord.name == ""
+		or not types.Item.isCarriable(item)
 		then
 			-- ignore
-		elseif CONTAINER_SORTING_QUEST and isQuestItem(item) then
+		elseif plantingPoisons and isPoison(item) then
 			table.insert(sortedItems[1], {item, itemRecord.value, itemRecord.weight})
-		elseif itemType == types.Miscellaneous and itemRecordId == "gold_001" and CONTAINER_SORTING_CASH then
+		elseif CONTAINER_SORTING_QUEST and isQuestItem(item) then
 			table.insert(sortedItems[2], {item, itemRecord.value, itemRecord.weight})
-		elseif itemType == types.Miscellaneous and itemRecord.isKey and CONTAINER_SORTING_KEYS then
+		elseif itemType == types.Miscellaneous and itemRecordId == "gold_001" and CONTAINER_SORTING_CASH then
 			table.insert(sortedItems[3], {item, itemRecord.value, itemRecord.weight})
-		elseif (itemType == types.Lockpick or itemType == types.Probe) and CONTAINER_SORTING_LOCKPICKS then
+		elseif itemType == types.Miscellaneous and itemRecord.isKey and CONTAINER_SORTING_KEYS then
 			table.insert(sortedItems[4], {item, itemRecord.value, itemRecord.weight})
-		elseif itemType == types.Miscellaneous and itemRecordId:sub(1,12) == "misc_soulgem" and CONTAINER_SORTING_SOULGEMS then
+		elseif (itemType == types.Lockpick or itemType == types.Probe) and CONTAINER_SORTING_LOCKPICKS then
 			table.insert(sortedItems[5], {item, itemRecord.value, itemRecord.weight})
+		elseif itemType == types.Miscellaneous and itemRecordId:sub(1,12) == "misc_soulgem" and CONTAINER_SORTING_SOULGEMS then
+			table.insert(sortedItems[6], {item, itemRecord.value, itemRecord.weight})
 		elseif itemType == types.Ingredient and CONTAINER_SORTING_INGREDIENTS > 0 then
 			if itemRecord.weight <= CONTAINER_SORTING_INGREDIENTS then
-				table.insert(sortedItems[6], {item, itemRecord.value, itemRecord.weight})
-			else
 				table.insert(sortedItems[7], {item, itemRecord.value, itemRecord.weight})
+			else
+				table.insert(sortedItems[8], {item, itemRecord.value, itemRecord.weight})
 			end
 		elseif itemType == types.Repair and CONTAINER_SORTING_REPAIR then
-			table.insert(sortedItems[6], {item, itemRecord.value, itemRecord.weight})
+			table.insert(sortedItems[7], {item, itemRecord.value, itemRecord.weight})
 		else
-			table.insert(sortedItems[8], {item, itemRecord.value, itemRecord.weight})
+			table.insert(sortedItems[9], {item, itemRecord.value, itemRecord.weight})
 		end
 	end
 	containerItems = {}
-	for cat, tbl in pairs(sortedItems) do
+	containerGroups = {}
+	for cat, tbl in ipairs(sortedItems) do
 		if CONTAINER_SORTING_STATS ~= "Vanilla" then
 			table.sort(tbl, function(a, b)
 				if CONTAINER_SORTING_STATS == "Lowest Weight" then
@@ -746,14 +1198,16 @@ function drawUI()
 			--print(tostring(tbl[1].type))
 			
 		end
-		for _, itemData in pairs(tbl) do
+		for _, itemData in ipairs(tbl) do
 			table.insert(containerItems,itemData[1])
+			containerGroups[#containerItems] = cat
 		end
 	end
 	-- /SORTING
 	
 	-- LIST
 	local list = {
+		name = "list",
 		type = ui.TYPE.Widget,
 		props = {
 			size = v2(rootWidth-borderOffset*2, listHeight),
@@ -761,7 +1215,7 @@ function drawUI()
 		},
 		content = ui.content {}
 	}
-	table.insert(box.content, list)
+	box.content:add( list)
 	
 	local containerItemCount = #containerItems
 	if pickpocket.message then
@@ -791,8 +1245,9 @@ function drawUI()
 		local selectedLength = math.min(listHeight, selectedEnd - selectedStart)
 
 		--SCROLLBAR BACKGROUND
-		table.insert(list.content,
+		list.content:add(
 		{
+			name = "scrollbarBackground",
 			type = ui.TYPE.Image,
 			props = {
 				resource = background,
@@ -806,8 +1261,9 @@ function drawUI()
 			}
 		})
 		--SCROLLBAR VISIBLE RANGE
-		table.insert(list.content,
+		list.content:add(
 		{
+			name = "scrollbarVisible",
 			type = ui.TYPE.Image,
 			props = {
 				resource = white,
@@ -822,8 +1278,9 @@ function drawUI()
 			}
 		})
 		--SCROLLBAR SELECTED
-		table.insert(list.content,
+		list.content:add(
 		{
+			name = "scrollbarSelected",
 			type = ui.TYPE.Image,
 			props = {
 				resource = white,
@@ -860,7 +1317,8 @@ function drawUI()
 					if stealCol then
 						stealCol = util.color.rgba(stealCol.r*1.4,stealCol.g*1.4,stealCol.b*1.4,stealCol.a)
 					end
-					table.insert(list.content, {
+					list.content:add( {
+						name = "selectionHighlight",
 						type = ui.TYPE.Image,
 						props = {
 							resource = white,
@@ -885,8 +1343,9 @@ function drawUI()
 						+relativePosition*listHeight
 						,
 						isPickpocketing,
-						stealCol,
-						deposit
+						deposit,
+						-- steal tint styles the border
+						stealCol and { borderColor = util.color.rgba(stealCol.r, stealCol.g, stealCol.b, 0.5) } or nil
 					)
 				end
 				local ench = thing and (thing.enchant or thingRecord.enchant ~= "" and thingRecord.enchant or types.Item.itemData(thing).soul)
@@ -895,6 +1354,7 @@ function drawUI()
 					tempTemplate = borderTemplate
 				end
 				local iconBox ={
+						name = "itemIconBox_"..i,
 						template = tempTemplate,
 						props = {
 							relativePosition = v2(0,relativePosition),
@@ -904,14 +1364,15 @@ function drawUI()
 						},
 						content = ui.content{}
 					}
-				table.insert(list.content, iconBox)
+				list.content:add( iconBox)
 				if icon then
 					if ench then 
 						--ENCHANT ICON
-						table.insert(iconBox.content, {
+						iconBox.content:add( {
+							name = "itemEnchantIcon_"..i,
 							type = ui.TYPE.Image,
 							props = {
-								resource = getTexture("textures\\menu_icon_magic_mini.dds"),
+								resource = getTexture("textures/menu_icon_magic_mini.dds"),
 								tileH = false,
 								tileV = false,
 								--relativePosition = v2(0,relativePosition),
@@ -924,7 +1385,8 @@ function drawUI()
 						})			
 					end
 					-- ITEM ICON
-					table.insert(iconBox.content, {
+					iconBox.content:add( {
+						name = "itemIcon_"..i,
 						type = ui.TYPE.Image,
 						props = {
 							resource = getTexture(icon),
@@ -941,9 +1403,10 @@ function drawUI()
 				end
 				local readItem = "" --(not FONT_FIX and hextoutf8(0xd83d) or "(R)")
 				local readElement = {
+						name = "itemReadIcon_"..i,
 						type = ui.TYPE.Image,
 						props = {
-							resource = getTexture("textures/read_indicator.dds"),
+							resource = getTexture("textures/QuickLoot/read_indicator.dds"),
 							tileH = false,
 							tileV = false,
 							--relativePosition = v2(0,relativePosition),
@@ -964,7 +1427,7 @@ function drawUI()
 					if READ_BOOKS == "bookworm unread" then
 						local DBentry = bookSection:get(thing.recordId)
 						if savegameData.bookSection[thing.recordId] then
-							readElement.props.resource = getTexture("textures/hearteye3.dds")
+							readElement.props.resource = getTexture("textures/QuickLoot/hearteye3.dds")
 						end
 						if DBentry and DBentry >= 20 then
 							readElement = nil
@@ -974,14 +1437,14 @@ function drawUI()
 						if not savegameData.bookSection[thing.recordId] then
 							readElement = nil
 						elseif DBentry and DBentry >= 20 then
-							readElement.props.resource = getTexture("textures/hearteye3.dds")
+							readElement.props.resource = getTexture("textures/QuickLoot/hearteye3.dds")
 						end
 					elseif READ_BOOKS == "read" then
 						local DBentry = bookSection:get(thing.recordId)
 						if not savegameData.bookSection[thing.recordId] then
 							readElement = nil
 						elseif DBentry and DBentry >= 20 then
-							readElement.props.resource = getTexture("textures/hearteye.dds")
+							readElement.props.resource = getTexture("textures/QuickLoot/hearteye.dds")
 						end
 					else
 						if savegameData.bookSection[thing.recordId] then
@@ -990,13 +1453,14 @@ function drawUI()
 					end
 				end
 				if readElement then
-					table.insert(iconBox.content, readElement)
+					iconBox.content:add( readElement)
 				end
 				if isQuestItem(thing) then
 					iconBox.content:add{
+						name = "itemQuestIcon_"..i,
 						type = ui.TYPE.Image,
 						props = {
-							resource = getTexture("textures/questItem2.dds"),
+							resource = getTexture("textures/QuickLoot/questItem2.dds"),
 							tileH = false,
 							tileV = false,
 							--relativePosition = v2(0,relativePosition),
@@ -1013,7 +1477,8 @@ function drawUI()
 					}
 				end
 				-- ITEM NAME + COUNT
-				table.insert(list.content, { 
+				list.content:add( {
+					name = "itemName_"..i,
 					type = ui.TYPE.Text,
 					template = quickLootText,
 					props = {
@@ -1036,46 +1501,49 @@ function drawUI()
 				for _, widget in pairs(widgets) do
 					local textColor = nil
 					local text = ""
+					local shownNumber
 					if widget == "valueByWeight" then
 						if thingValue == 0 and thingWeight == 0 then
 							text = "-"
 						else
-							text = formatNumber(thingValue/thingWeight, "v/w")
+							shownNumber = thingValue/thingWeight
+							text = formatNumber(shownNumber, "v/w")
 						end
 					elseif widget == "weight" then
-						text = formatNumber(thingWeight, "weight")
-						
+						shownNumber = thingWeight
+						text = formatNumber(shownNumber, "weight")
 						if thingWeight+encumbranceCurrent > encumbranceMax then
 							textColor = util.color.rgb(0.85,0, 0)
 						end
 					elseif widget == "pickpocket" then
 						text = pickpocket.getColumnText(self, inspectedContainer, thing, deposit)
 					else
-						text = formatNumber(thingValue, "value")
+						shownNumber = thingValue
+						text = formatNumber(shownNumber, "value")
 					end
-					
+
 					local tempSize = v2(1.1*headerFooterHeight,relLineHeight)
-					if infSymbol then
-						table.insert(list.content, {
+					-- inf icon derived from the column's own number, formatNumber leaves "-" in that case
+					if FONT_FIX and shownNumber == 1/0 then
+						list.content:add( {
+							name = "itemColumnInf_"..i.."_"..widget,
 							type = ui.TYPE.Image,
 							--template = quickLootText,
 							props = {
-								resource = getTexture("textures/inf.dds"),
+								resource = getTexture("textures/QuickLoot/inf.dds"),
 								tileH = false,
 								tileV = false,
-								--text = text,
-								textSize = itemFontSize*textSizeMult,
 								--relativeSize  = tempSize,
 								relativePosition = v2(1-widgetOffset, relativePosition+relLineHeight/2),
 								anchor = v2(1,0.5),
 								size = v2(itemFontSize*0.65,itemFontSize*0.65),
 								color = FONT_TINT,
-								--textColor = textColor,
 								--alpha = 0.4,
 							},
 						})
 					else
-						table.insert(list.content, {
+						list.content:add( {
+							name = "itemColumn_"..i.."_"..widget,
 							type = ui.TYPE.Text,
 							template = quickLootText,
 							props = {
@@ -1095,7 +1563,8 @@ function drawUI()
 		end
 	end
 	if pickpocket.message then
-		table.insert(list.content, { 
+		list.content:add( {
+			name = "pickpocketMessage",
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
@@ -1112,6 +1581,7 @@ function drawUI()
 	-- FOOTER
 	if header_footer_setting == "show both" or header_footer_setting == "all bottom" or header_footer_setting ==  "only bottom" then
 		local footer = { -- r.1.7
+			name = "footer",
 			type = ui.TYPE.Widget,
 			props = {
 				size = v2(rootWidth-2*borderOffset, headerFooterHeight),
@@ -1119,10 +1589,11 @@ function drawUI()
 			},
 			content = ui.content {}
 		}
-		table.insert(box.content, footer)
+		box.content:add( footer)
 		--list FOOTER Background
-		table.insert(footer.content,
+		footer.content:add(
 		{
+			name = "footerBackground",
 			type = ui.TYPE.Image,
 			props = {
 				resource = background,
@@ -1133,16 +1604,17 @@ function drawUI()
 				--size = v2(-borderOffset*2,itemBoxHeaderFooterHeight-borderOffset),
 				position = v2(0,0),
 				relativePosition = v2(0, 0),
-				alpha = 0.3,
+				alpha = transparency*0.3+0.1,
 			}
 		})
 		--list FOOTER Line
 		if BORDER_STYLE ~= "none" then
-			table.insert(footer.content,
+			footer.content:add(
 			{
+				name = "footerLine",
 				type = ui.TYPE.Image,
 				props = {
-					resource = BORDER_FIX and getTexture("textures/ql_makeborder/menu_thin_border_bottom.dds") or getTexture("textures/menu_thin_border_bottom.dds"),
+					resource = BORDER_FIX and getTexture("textures/QuickLoot/ql_makeborder/menu_thin_border_bottom.dds") or getTexture("textures/menu_thin_border_bottom.dds"),
 					tileH = false,
 					tileV = false,
 					relativeSize  = v2(1,0),
@@ -1163,6 +1635,7 @@ function drawUI()
 		if isPickpocketing and pickpocket.footerText and (header_footer_setting ==  "all bottom") then
 
 			footer.content:add{
+				name = "footerPickpocketIcon",
 				type = ui.TYPE.Image,
 				props = {
 					resource = pickpocketTex,
@@ -1175,6 +1648,7 @@ function drawUI()
 				}
 			}
 			footer.content:add{
+				name = "footerPickpocketText",
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
@@ -1188,7 +1662,8 @@ function drawUI()
 			}
 		else
 			--list FOOTER ENCUMBRANCE ICON
-			table.insert(footer.content,{
+			footer.content:add({
+				name = "footerEncumbranceIcon",
 				type = ui.TYPE.Image,
 				props = {
 					resource = backpackTex,
@@ -1203,7 +1678,8 @@ function drawUI()
 			})
 			
 			--list FOOTER ENCUMBRANCE TEXT
-			table.insert(footer.content,{
+			footer.content:add({
+				name = "footerEncumbranceText",
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
@@ -1218,6 +1694,7 @@ function drawUI()
 		end
 		if isPickpocketing and pickpocket.footerText and (header_footer_setting == "show both" or header_footer_setting == "only bottom") then
 			local flex = {
+				name = "footerPickpocketFlex",
 				type = ui.TYPE.Flex,
 				props = {
 					--size  = v2(0.85*headerFooterHeight,0.85*headerFooterHeight),
@@ -1225,13 +1702,13 @@ function drawUI()
 					relativePosition = v2(1,0),
 					horizontal = true,
 					position = v2(0,1)
-					--color = encumbranceIconColor,
 				},
 				content = ui.content{}
 			}
-			table.insert(footer.content,flex)
+			footer.content:add(flex)
 			
 			flex.content:add{
+				name = "footerFlexPickpocketIcon",
 				type = ui.TYPE.Image,
 				props = {
 					resource = pickpocketTex,
@@ -1245,8 +1722,9 @@ function drawUI()
 					alpha = 0.7,
 				}
 			}
-			flex.content:add{ props = { size = v2(1, 1) * 2 } }
+			flex.content:add{ name = "footerFlexSpacer", props = { size = v2(1, 1) * 2 } }
 			flex.content:add{
+				name = "footerFlexPickpocketText",
 				type = ui.TYPE.Text,
 				template = quickLootText,
 				props = {
@@ -1263,7 +1741,8 @@ function drawUI()
 			local widgetOffset = 0.05 -- for scrollbar
 			--list FOOTER ICONS
 			for _, widget in pairs(widgets) do
-				table.insert(footer.content,{
+				footer.content:add({
+					name = "footerColumnIcon_"..widget,
 					type = ui.TYPE.Image,
 					props = {
 						resource = _G[widget.."Tex"],
@@ -1286,15 +1765,19 @@ function drawUI()
 	
 	-- SUB-FOOTER
 	if FOOTER_HINTS ~= "Disabled" then
-		local fTex = fKeyTex
-		local rTex = rKeyTex
-		if FOOTER_HINTS == "Symbolic" then
+		-- right slot = take all = ToggleWeapon, left slot = search = ToggleSpell
+		local fTex, rTex
+		if FOOTER_HINTS == "Keys" then
+			fTex = resolveHint("ToggleWeapon", TAKE_ALL_KEY) or fKeyTex
+			rTex = resolveHint("ToggleSpell", ALT_KEY) or rKeyTex
+		else
 			fTex = fSymbolicTex
-		    rTex = rSymbolicTex
-		end	
+			rTex = rSymbolicTex
+		end
 			
 		--SUB-FOOTER ICON Right
-		table.insert(root.layout.content,{
+		root.layout.content:add({
+			name = "subFooterIconRight",
 			type = ui.TYPE.Image,
 			props = {
 				resource = fTex,
@@ -1309,7 +1792,8 @@ function drawUI()
 			}
 		})
 		--SUB-FOOTER TEXT Right
-		table.insert(root.layout.content,{
+		root.layout.content:add({
+			name = "subFooterTextRight",
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
@@ -1320,7 +1804,8 @@ function drawUI()
 				anchor = v2(0,0.5),
 			},	})
 		--SUB-FOOTER ICON Left
-		table.insert(root.layout.content,{
+		root.layout.content:add({
+			name = "subFooterIconLeft",
 			type = ui.TYPE.Image,
 			props = {
 				resource = rTex,
@@ -1344,7 +1829,8 @@ function drawUI()
 				searchText = "Deposit"
 			end
 		end
-		table.insert(root.layout.content,{
+		root.layout.content:add({
+			name = "subFooterTextLeft",
 			type = ui.TYPE.Text,
 			template = quickLootText,
 			props = {
@@ -1358,11 +1844,38 @@ function drawUI()
 		})
 	end
 	-- /SUB-FOOTER
+	
+	-- hud modifiers
+	local modCtx = {
+		element = root,
+		layout = root.layout,
+		target = inspectedContainer,
+		items = containerItems,
+		selectedIndex = selectedIndex,
+		scrollPos = scrollPos,
+		renderedCount = renderedEntries,
+		deposit = deposit,
+		isPickpocket = isPickpocketing,
+		formatNumber = formatNumber,
+	}
+	for _, entry in ipairs(hudModifierChain.entries) do
+		local ok, result = pcall(entry.func, modCtx)
+		if not ok then
+			print("QuickLoot hud modifier "..tostring(entry.id or "?").." failed: "..tostring(result))
+		elseif result == false then
+			break
+		end
+	end
 end
 
 function closeHud()
 	if inspectedContainer then
+		setPickpocketTimeScale(false)
 		inspectedContainer:sendEvent("OwnlysQuickLoot_closeAnimation",self)
+		local closingStamp = savegameData.probeStamps[inspectedContainer.id]
+		if closingStamp and closingStamp > 0 then
+			savegameData.probeStamps[inspectedContainer.id] = math.max(closingStamp, core.getSimulationTime() - PROBE_CACHE)
+		end
 		inspectedContainer = nil
 		Controls.overrideCombatControls(false)
 		types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Magic, true) 
@@ -1372,32 +1885,19 @@ function closeHud()
 		Camera.enableZoom("quickloot")
 		containerHash = 99999999
 		pickpocket.closeHud(self)
-		currentScript = nil
-		mwScriptCalled = 0
-		if root then 
-			root:destroy() 
+		approvedContainer = nil
+		if root then
+			root:destroy()
 		end
 		if tooltip then
-			tooltip:destroy()
+			tooltip.shell:destroy()
+			tooltip.destroy()
+			tooltip = nil
 		end
 	end
 end
 
-if not core.mwscripts then
-	scriptDB = require("scripts.OwnlysQuickLoot.ql_script_db")
-end
-
 function scriptAllows(cont)
-
-	--if (cont.recordId:find("contain_bm_stalhrim")) then
-	--	playerItems = types.Container.inventory(self):getAll()
-	--	for a,b in pairs(playerItems) do
-	--		if b.recordId == "bm nordic pick" then
-	--			return true
-	--		end
-	--	end
-	--	return false
-	--end
 	if types.Actor.objectIsInstance(cont) and not types.Actor.isDead(cont) then
 		return true
 	end
@@ -1405,95 +1905,63 @@ function scriptAllows(cont)
 		return false
 	end
 	local script = cont.type.record(cont).mwscript
-	if scriptWhitelist[script] then
+	if not script then
+		return true
+	end
+	if qlScriptWhitelist[script] then
 		log(script.." ok (whitelisted)")
 		return true
 	end
-	if script then
-		if core.mwscripts then
-			local scriptRecord = core.mwscripts.records[script]
-			if scriptRecord and not scriptRecord.text:lower():find("onactivate") then
-				log(script.." ok")
-				return true
-			else
-				log(script.." not ok")
-				return false
-			end
+	if qlScriptBlacklist[script] then
+		log(script.." not ok (blacklisted)")
+		return false
+	end
+	local verdict = scriptVerdicts[script]
+	if not verdict then
+		local scriptRecord = core.mwscripts.records[script]
+		local body = ""
+		-- x->onactivate suppresses x, only the bare forms touch this object
+		if scriptRecord then
+			body = ("\n"..scriptRecord.text:lower().."\n"):gsub(";[^\n]*", "")
+			body = body:gsub("%->%s*onactivate", "")
+			body = body:gsub("%->%s*activate", "")
+		end
+		if not body:find("[^%w_]onactivate[^%w_]") then
+			verdict = "loot"
+		elseif (body:gsub("onactivate", "")):find("[^%w_]activate[^%w_]") then
+			verdict = "probe"
 		else
-			if scriptDB[script] == false then
-				log(script.." ok")
-				return true
-			elseif scriptDB[script] then
-				log(script.." not ok (blacklist)")
-				return false
-			else
-				log(script.." ok (unknown)")
-				return true
-			end
+			-- reads its own flag and never activates itself, the window can never open
+			verdict = "inert"
 		end
-	else
+		scriptVerdicts[script] = verdict
+	end
+	if verdict == "loot" then
 		return true
 	end
-	---------------------------------------------------------------------------------------------
-	if script == currentScript then
-		return true
-	end
-	if not script then
-		return true 
-	elseif scriptDB[script] == false then
-		log("quickloot: target has script '"..script.."' (whitelist)")
-		return true 
-	end
-	if RUN_SCRIPT_ONCE and savegameData.openedScriptedContainers[cont.id] then
-		return true
-	end
-	if scriptDB[script] then
-		log("quickloot: target has script '"..script.."' (blacklist)")
-		local now = core.getRealTime()
-		if now - mwScriptCalled >=1 then
-			--core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
-			cont:activateBy(self)--new--new
-			mwScriptCalled = now
-			scriptContainer = cont
-		end
-		return false
-	else
-		log("quickloot: target has script '"..script.."' (unknown)")
-		local now = core.getRealTime()
-		if now - mwScriptCalled >=1 then
-			--core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
-			cont:activateBy(self)--new--new
-			mwScriptCalled = now
-			scriptContainer = cont
-		end
+	if verdict == "inert" then
+		log(script.." not ok (never activates itself)")
 		return false
 	end
-	
-	--if not types.Container.objectIsInstance(cont) then --is Creature or NPC
-	--	if DISABLE_SCRIPTED_ACTORS then
-	--		log("quickloot: actor has script '"..script.."'")
-	--		return false
-	--	else
-	--		local now = core.getRealTime()
-	--		if now - mwScriptCalled >=1 then
-	--			core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
-	--			mwScriptCalled = now
-	--		end
-	--		return false --new
-	--		--return true --new
-	--	end
-	--end
-	--if DISABLE_SCRIPTED_CONTAINERS then
-	--	log("quickloot: container has script '"..script.."'")
-	--	return false
-	--else --new
-	--	local now = core.getRealTime()
-	--	if now - mwScriptCalled >=1 then
-	--		core.sendGlobalEvent("OwnlysQuickLoot_tryScript",{self,cont}) --new
-	--		mwScriptCalled = now
-	--	end
-	--	return false --new
-	--end
+	if not PROBE_SCRIPTS then
+		return false
+	end
+	if approvedContainer == cont.id then
+		return true
+	end
+	local now = core.getSimulationTime()
+	local stamp = savegameData.probeStamps[cont.id]
+	local trustedFor = 3 + (stamp and stamp > 0 and PROBE_CACHE or 0)
+	if not probe and (not stamp or now - math.abs(stamp) > trustedFor) then
+		savegameData.probeStamps[cont.id] = -now
+		probe = {container = cont, framesLeft = 10}
+		if I.InventoryExtender and I.InventoryExtender.disableAllWindows then
+			I.InventoryExtender.disableAllWindows(true)
+			probe.ieMuted = true
+		end
+		core.sendGlobalEvent("OwnlysQuickLoot_probeActivation", {self, cont})
+	end
+	return not probe and (stamp or 0) > 0
 end
 
 
@@ -1518,42 +1986,75 @@ function chargenFinished()
 end
 
 
-local function deathAnimCheck(actor)
-	if CAN_LOOT_DURING_DEATH_ANIMATION
-	or types.Actor.isDeathFinished(actor)
-	then
-		deathAnimationProgress = 0
-		return true
-	end
-
-	local progress = 0
-	for groupName in pairs(groups) do
-		local time = animation.getCompletion(actor, groupName)
-		if time then
-			progress=time
+local function targetFiltered(obj)
+	for _, entry in ipairs(targetFilterChain.entries) do
+		if entry.func(obj) == false then
+			return true
 		end
 	end
-	if progress > 0.55 then
-		return true
-	end
 	return false
-	
 end
 
 local function isValidTarget(obj)
 	if not obj then return false end
+	if targetFiltered(obj) then return false end
+	-- the engine only fires Died once the animation stops, opening earlier beats on-death scripts to the corpse
+	local corpseReady = false
+	if (obj.type == types.NPC or obj.type == types.Creature) and types.Actor.isDead(obj) then
+		if LOOT_DURING_DEATH_ANIMATION == "immediately" or types.Actor.isDeathFinished(obj) then
+			corpseReady = true
+		elseif LOOT_DURING_DEATH_ANIMATION == "near the end" then
+			for groupName in pairs(deathGroups) do
+				local completion = animation.getCompletion(obj, groupName)
+				if completion and completion > 0.55 then
+					corpseReady = true
+					break
+				end
+			end
+		end
+	end
 	return (
 		obj.type == types.Container
 		and (not types.Container.record(obj).isOrganic or organicContainers[obj.recordId])
-	) or (
-		(obj.type == types.NPC or obj.type == types.Creature)
-		and types.Actor.isDead(obj)
-		and deathAnimCheck(obj)
-	) or (
+	) or corpseReady or (
 		crimesVersion >= 2
 		and PICKPOCKETING
 		and pickpocket.validateTarget(self, obj, input)
 	)
+end
+
+local function looseAimTarget(obj)
+	return obj and (
+		(
+			obj.type == types.Container
+			and (not types.Container.record(obj).isOrganic or organicContainers[obj.recordId])
+		)
+		or (crimesVersion >= 2 and PICKPOCKETING and pickpocket.validateTarget(self, obj, input))
+	)
+end
+
+local function engineWillActivate(obj)
+	if not obj then return false end
+	local objType = obj.type
+	if objType == types.Static or objType == types.BodyPart then
+		return false
+	end
+	if objType == types.Activator then
+		local name = types.Activator.record(obj).name
+		return name ~= nil and name ~= ""
+	end
+	if objType == types.Light then
+		return types.Light.record(obj).isCarriable
+	end
+	return true
+end
+
+-- async ring probe delivery, slot index baked into each callback
+local looseAimCallbacks = {}
+for i = 1, #looseAimOffsets do
+	looseAimCallbacks[i] = async:callback(function(ringRes)
+		looseAimSlots[i] = looseAimTarget(ringRes.hitObject) and ringRes or nil
+	end)
 end
 
 
@@ -1562,6 +2063,16 @@ function onFrame(dt)
 
 	--print("onframe", I.UI.getMode() or "I.UI.getMode() = nil")
 	printThrottle = printThrottle - dt
+	-- pending probe
+	if probe then
+		if dt > 0 then
+			probe.framesLeft = probe.framesLeft - 1
+			if probe.framesLeft <= 0 then
+				if probe.ieMuted then I.InventoryExtender.disableAllWindows(false) end
+				probe = nil
+			end
+		end
+	end
 	--if inspectedContainer then
 	--	-- Get the yaw angle of the container
 	--	local containerYaw = inspectedContainer.rotation:getYaw()
@@ -1642,48 +2153,51 @@ function onFrame(dt)
 		options = { ignore = self }
 	end
 	
-	local res  = {}
-	
-	res = I.SharedRay.get()
-	
-	local res2 = {}
-	-- Fall back to physics raycast if rendering ray missed OR hit an invalid target
-	if not res.hitObject or hoveredContainer ~= res.hitObject or not isValidTarget(res.hitObject) then
-		res2 = nearby.castRay(
+	local res = I.SharedRay.get()
+	-- ------------------------------ loose aiming ------------------------------
+	-- ring probe fires every frame so slots stay fresh while the center ray has a target
+	if LOOSE_AIMING == "shotgun" then
+		local slot = looseAimCursor
+		nearby.asyncCastRenderingRay(
+			looseAimCallbacks[slot],
 			cameraPos,
-			cameraPos + camera.viewportToWorldVector(v2(0.5,0.5)) * (activationDistance + bonusDistance),
-			options
+			cameraPos + camera.viewportToWorldVector(looseAimOffsets[slot]) * activationDistance,
+			{ ignore = self }
 		)
+		looseAimCursor = slot % #looseAimOffsets + 1
 	end
-	-- Now decide which result to use
-	if res.hitPos and isValidTarget(res.hitObject) and (cameraPos - res.hitPos):length() <= activationDistance then
-		-- nice, the render raycast found a valid target within trigger range
-	elseif res.hitPos and res2.hitPos then
-		-- if the render ray found an activateable object, fail
-		if res.hitObject and not types.Static.objectIsInstance(res.hitObject) then
-			res = {}
-		elseif res2.hitObject == res.hitObject then
-			res = res2 -- same object, normal raycast added extra range
-		elseif not isValidTarget(res.hitObject) then
-			res = res2 -- render ray hit something unlootable, use physics ray
-		elseif (cameraPos - res.hitPos):length() <= activationDistance + bonusDistance/2 then
-			-- keep render raycast (it's valid and reasonably close)
-		elseif (cameraPos - res2.hitPos):length() <= activationDistance then
-			res = res2
-		else
-			res = {}
+	if not engineWillActivate(res.hitObject) then
+		if LOOSE_AIMING == "boundingbox" then
+			local hit = nearby.castRay(
+				cameraPos,
+				cameraPos + camera.viewportToWorldVector(v2(0.5,0.5)) * (activationDistance + bonusDistance),
+				options
+			)
+			if hit.hitObject
+				and looseAimTarget(hit.hitObject)
+				and (cameraPos - hit.hitPos):length() <= activationDistance + bonusDistance then
+				res = hit
+			end
+		elseif LOOSE_AIMING == "shotgun" then
+			for i = 1, #looseAimOffsets do
+				if looseAimSlots[i] then
+					res = looseAimSlots[i]
+					break
+				end
+			end
 		end
-	elseif res2.hitPos then
-		res = res2 -- only physics raycast hit something
-	elseif res.hitPos and not isValidTarget(res.hitObject) then
-		res = {} -- render ray hit something unlootable, clear it
 	end
+	-- ------------------------------------------------------------------------
 	if (not res.hitObject or (res.hitObject.type ~= types.Container and not types.Actor.objectIsInstance(res.hitObject))) then
 		res = {hitObject = nil}
 	end
 	hoveredContainer = res.hitObject
-
-	if inspectedContainer and (res.hitObject == nil or res.hitObject ~= inspectedContainer) then
+	if inspectedContainer and (
+		res.hitObject == nil
+		or res.hitObject ~= inspectedContainer
+		or (inspectedContainer.type == types.Container and types.Lockable.getTrapSpell(inspectedContainer))
+		or targetFiltered(inspectedContainer)
+	) then
 		closeHud()
 	elseif inspectedContainer and types.Actor.getEncumbrance(self) ~= encumbranceCurrent then
 		drawUI()
@@ -1709,20 +2223,11 @@ function onFrame(dt)
 	then
 		closeHud()
 	end
-	if inspectedContainer and 
-			(
-				res.hitObject.type == types.NPC
-				or res.hitObject.type == types.Creature
-			)
-			and types.Actor.isDead(res.hitObject)
-		then
-		
-	end
 	if inspectedContainer then
 		pickpocket.onFrame(self, inspectedContainer, input, drawUI)
-	elseif not inspectedContainer 
-	and res.hitObject 
-	and isValidTarget (res.hitObject)	
+	elseif not inspectedContainer
+	and res.hitObject
+	and isValidTarget (res.hitObject)
 	and not types.Lockable.isLocked(res.hitObject)
 	and not types.Lockable.getTrapSpell(res.hitObject)
 	and scriptAllows(res.hitObject)
@@ -1730,14 +2235,17 @@ function onFrame(dt)
 		if not types.Container.inventory(res.hitObject):isResolved() then
 			core.sendGlobalEvent("OwnlysQuickLoot_resolve",res.hitObject)
 		else
+			core.sendGlobalEvent("OwnlysQuickLoot_resolve",res.hitObject)
 			inspectedContainer = res.hitObject
 			self.controls.use = 0
 			Controls.overrideCombatControls(true)
 			types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Magic, false) 
 			types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Fighting, false)
 			core.sendGlobalEvent("OwnlysQuickLoot_openGUI",self.object)
-			
-			if DISPOSE_CORPSE == "Jump" and types.Actor.objectIsInstance(inspectedContainer) then
+
+			-- custom keys can collide with any engine action, block everything but movement and camera
+			if TAKE_KEY or TAKE_ALL_KEY or ALT_KEY or UP_KEY or DOWN_KEY
+			or (DISPOSE_CORPSE == "Jump" and types.Actor.objectIsInstance(inspectedContainer)) then
 				types.Player.setControlSwitch(self, types.Player.CONTROL_SWITCH.Jumping, false)
 			end
 			Camera.disableZoom("quickloot")
@@ -1775,60 +2283,45 @@ function onFrame(dt)
 end
 
 local function onKey(key)
+	usingGamepad = false
 	if not modEnabled then
 		return
 	end
-	--print(key)
-	--print(core.getRealTime() - OPENED_TIMESTAMP)
-	--if inspectedContainer and key.code == TAKEALL_KEYBINDING then
-	--	core.sendGlobalEvent("OwnlysQuickLoot_takeAll",{self, inspectedContainer,  DISPOSE_CORPSE == "Shift + F" and input.isShiftPressed(), EXPERIMENTAL_LOOTING})
-	--end
-	--return false
+	customKeybindPressed(key.code)
+end
+local function onMouseButton(button)
+	usingGamepad = false
+	if not modEnabled then
+		return
+	end
+	customKeybindPressed(-button)
 end
 local function onMouseWheel(vertical)
+	usingGamepad = false
 	if not modEnabled then
 		return
 	end
-	--print(vertical)
 	if inspectedContainer then
-		local shouldRefresh = pickpocket.scroll(self, inspectedContainer, input)
-		--local newIndex = math.min(#containerItems,math.max(1,selectedIndex - vertical))
-		local newIndex = selectedIndex - vertical
-		if newIndex <= 0 then
-			newIndex = math.max(1,#containerItems)
-		elseif newIndex > #containerItems then
-			newIndex = 1
-		end
-		if selectedIndex ~= newIndex or shouldRefresh then
-			selectedIndex = newIndex
-			backupSelectedIndex = newIndex
-			drawUI()
-		end
+		moveSelection(-vertical)
 	end
 end
 
 function onControllerButtonPress(ctrl)
+	usingGamepad = true
 	if not modEnabled then
 		return
 	end
+	if customKeybindPressed(1000 + ctrl) then
+		return
+	end
 	if inspectedContainer then
-		local shouldRefresh = pickpocket.scroll(self, inspectedContainer, input)
-		local newIndex = selectedIndex
+		local delta = 0
 		if ctrl == input.CONTROLLER_BUTTON.DPadDown then
-			newIndex = selectedIndex + 1
+			delta = 1
 		elseif ctrl == input.CONTROLLER_BUTTON.DPadUp then
-			newIndex = selectedIndex - 1
+			delta = -1
 		end
-		if newIndex <= 0 then
-			newIndex = math.max(1,#containerItems)
-		elseif newIndex > #containerItems then
-			newIndex = 1
-		end
-		if selectedIndex ~= newIndex or shouldRefresh then
-			selectedIndex = newIndex
-			backupSelectedIndex = newIndex
-			drawUI()
-		end
+		moveSelection(delta)
 	end
 end
 
@@ -1838,6 +2331,9 @@ function lootItem()
 	local cont = inspectedContainer
 	--local isAlive = data[2] --isPickpocketing (nil for containers)
 	if not modEnabled or not cont then
+		return
+	end
+	if not lootAllowed(deposit and "deposit" or "take", containerItems[selectedIndex]) then
 		return
 	end
 	local isActor = types.Actor.objectIsInstance(cont)
@@ -1873,6 +2369,13 @@ function lootItem()
 	--end
 end
 input.registerTriggerHandler('Activate', async:callback(function()
+	if TAKE_KEY then
+		return
+	end
+	local faced = I.SharedRay.get().hitObject
+	if faced and faced ~= inspectedContainer and engineWillActivate(faced) then
+		return
+	end
 	lootItem()
 end))
 --end
@@ -1896,33 +2399,21 @@ local function UiModeChanged(data)
 		bookSection:set(currentBook, DBentry + now - bookTimer)
 		--print("read for "..(now-bookTimer).." seconds")
 	end
-	--for a,b in pairs(savegameData.openedScriptedContainers) do
-	--	print(a,b)
-	--end
 	if not modEnabled then
 		return
 	end
 	if data.newMode then
-		local now = core.getRealTime()
-		if now - showVanillaInventory < 0.2 then
-			closeHud()
-			showVanillaInventory = 0
-		elseif now - mwScriptCalled < 1 then
-			--print(scriptContainer.id,I.UI.getMode() == "Container" ,savegameData.openedScriptedContainers[scriptContainer.id])
-			if I.UI.getMode() == "Container"  then
-				I.UI.setMode()
-				currentScript = scriptContainer.type.record(scriptContainer).mwscript
-				savegameData.openedScriptedContainers[scriptContainer.id] = true
-				core.sendGlobalEvent("OwnlysQuickLoot_openedScriptedContainer", scriptContainer.id)
-				
-			else
-				closeHud()
-			end
+		if probe and data.newMode == "Container" and data.arg and data.arg.id == probe.container.id then
+			I.UI.removeMode("Container")
+			if probe.ieMuted then I.InventoryExtender.disableAllWindows(false) end
+			savegameData.probeStamps[probe.container.id] = math.abs(savegameData.probeStamps[probe.container.id])
+			approvedContainer = probe.container.id
+			probe = nil
 		else
+			if probe and probe.ieMuted then I.InventoryExtender.disableAllWindows(false) end
+			probe = nil
 			closeHud()
 		end
-	else
-	--print(data.arg)
 	end
 	showInMainMenuOverride = false
 end
@@ -1935,8 +2426,8 @@ local function onLoad(data)
 	else
 		savegameData = {}
 	end
-	if not savegameData.openedScriptedContainers then
-		savegameData.openedScriptedContainers = {}
+	if not savegameData.probeStamps then
+		savegameData.probeStamps = {}
 	end
 	if not savegameData.bookSection then
 		savegameData.bookSection = {}
@@ -1956,12 +2447,6 @@ local function receiveCrimesVersion(ver)
 	crimesVersion = ver
 end
 
-local function fellForTrap(arg)
-	if I.UI.getMode() then
-		I.UI.setMode()
-	end
-end
-
 local function toggle(onOff,uniqueFlag)
 	modDisableFlags[uniqueFlag] = onOff
 	updateModEnabled()
@@ -1978,38 +2463,52 @@ local function playSound(sound)
 	ambient.playSound(sound)
 end
 
-local function triedScript(cont)
-
+-- re-equips granted ammo, the engine never auto stacks into an equipped slot
+local function equipAmmo(data)
+	local equipment = types.Actor.getEquipment(self)
+	equipment[data[2]] = data[1]
+	types.Actor.setEquipment(self, equipment)
 end
 
+local function refreshUi()
+	if root then
+		drawUI()
+	end
+end
 
-
+-- shared tooltip registrations, onActive so the winning module version is settled
+local function onActive()
+	if pickpocket.registerTooltipModifier then
+		pickpocket.registerTooltipModifier()
+	end
+end
 
 
 return {    
 	eventHandlers = {
 		UiModeChanged = UiModeChanged,
-		--OwnlysQuickLoot_activatedContainer = activatedContainer,
-		OwnlysQuickLoot_fellForTrap = fellForTrap,
 		OwnlysQuickLoot_windowVisible = windowVisible,
 		OwnlysQuickLoot_toggle = toggle, -- toggle(<true/false>, "myModName")
 		OwnlysQuickLoot_receiveCrimesVersion = receiveCrimesVersion,
 		OwnlysQuickLoot_playSound = playSound,
-		--OwnlysQuickLoot_triedScript = triedScript,
+		OwnlysQuickLoot_equipAmmo = equipAmmo,
+		OwnlysQuickLoot_refreshUi = refreshUi,
 	},
 	engineHandlers = {
 		onFrame = onFrame,
 		onUpdate = onUpdate,
 		onKeyPress = onKey,
+		onMouseButtonPress = onMouseButton,
 		onMouseWheel = onMouseWheel,
 		onControllerButtonPress = onControllerButtonPress,
         onSave = onSave,
         onLoad = onLoad,
         onInit = onLoad,
+        onActive = onActive,
     },
 	interfaceName = "QuickLoot",
 	interface = {
-		version = 2,
+		version = 6,
 		lootItem = lootItem,
 		isBookRead = function(recordId)
 			return savegameData.bookSection[recordId] == true
@@ -2020,6 +2519,12 @@ return {
 		getReadingTime = function(recordId)
 			return bookSection:get(recordId) or 0
 		end,
+		registerLootInterceptor = lootInterceptorChain.register,
+		unregisterLootInterceptor = lootInterceptorChain.unregister,
+		registerTargetFilter = targetFilterChain.register,
+		unregisterTargetFilter = targetFilterChain.unregister,
+		registerHudModifier = hudModifierChain.register,
+		unregisterHudModifier = hudModifierChain.unregister,
 	}
 	--eventHandlers = {
     --    FHB_AI_update = AI_update,

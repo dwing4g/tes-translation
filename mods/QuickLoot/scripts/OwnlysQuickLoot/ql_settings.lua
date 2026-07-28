@@ -33,8 +33,23 @@ local function boolDefault(value, default)
 end
 
 local settingsTemplate = {}
--- change name maybe:
---cleanSettingsTemplate = settingsTemplate
+
+local numberRenderer = "SuperSlider6"
+local colorRenderer = "SuperColorPicker4"
+local inputRenderer = "SuperKeybind2"
+local optionalSelectRenderer = "OptionalSelectRenderer1"
+local optionalCheckboxRenderer = "OptionalCheckboxRenderer1"
+
+local presetColors = {
+	"caa560", -- fontColor_color_normal
+	"d4b77f", -- goldenMix
+	"dfc99f", -- FontColor_color_normal_over
+	"eee2c9", -- lightText
+	"253170", -- fontColor_color_journal_link
+	"3a4daf", -- fontColor_color_journal_link_over
+	"707ecf", -- fontColor_color_journal_link_pressed
+}
+
 
 tempKey = "General"
 settingsTemplate[tempKey] = {
@@ -71,6 +86,33 @@ settingsTemplate[tempKey] = {
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("PICKPOCKETING"), true)
 		},
+		{
+			key = "LOOSE_AIMING",
+			name = "Loose Aiming",
+			description = "Detects targets slightly off-center so you don't have to aim exactly\nboundingbox: one physics ray, hits collision boxes (cheap)\nshotgun: a spread of view rays, catches more but costs more",
+			default = "boundingbox",
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "none",
+				items = {"off", "boundingbox", "shotgun"},
+			},
+		},
+		{
+			key = "PICKPOCKET_TIME_SCALE",
+			name = "Time Speed While Pickpocketing",
+			description = "Slows the whole game while the pickpocketing\n1 = normal speed, 0.5 = half speed",
+			renderer = numberRenderer,
+			default = legacySection:get("PICKPOCKET_TIME_SCALE") or 0.5,
+			argument = {
+				min = 0.1,
+				max = 1,
+				step = 0.05,
+				default = legacySection:get("PICKPOCKET_TIME_SCALE") or 0.5,
+				showDefaultMark = true,
+				width = 160,
+			},
+		},
 	},
 }
 
@@ -87,7 +129,7 @@ settingsTemplate[tempKey] = {
 			key = "WIDTH",
 			name = "Width (%)",
 			--description = "of the ui element (1-100)",
-			renderer = "SuperSlider2",
+			renderer = numberRenderer,
 			default = legacySection:get("WIDTH") or 23,
 			argument = {
 				min = 1,
@@ -102,7 +144,7 @@ settingsTemplate[tempKey] = {
             key = "HEIGHT",
             name = "Height (%)",
            -- description = "of the ui element (1-100)",
-            renderer = "SuperSlider2",
+            renderer = numberRenderer,
             default = legacySection:get("HEIGHT") or 35,
             argument = {
                 min = 1,
@@ -120,7 +162,7 @@ settingsTemplate[tempKey] = {
 			key = "X",
 			name = "X Position (%)",
 			--description = "Location of the center (1-100)",
-			renderer = "SuperSlider2",
+			renderer = numberRenderer,
 			default = legacySection:get("X") or 71,
 			argument = {
 				min = 1,
@@ -135,7 +177,7 @@ settingsTemplate[tempKey] = {
 			key = "Y",
 			name = "Y Position (%)",
 			--description = "Location of the center (1-100)",
-			renderer = "SuperSlider2",
+			renderer = numberRenderer,
 			default = legacySection:get("Y") or 50,
 			argument = {
 				min = 1,
@@ -150,7 +192,7 @@ settingsTemplate[tempKey] = {
 			key = "TEXTSIZEMULT",
 			name = "Text Size Multiplier (%)",
 			--description = "1-200",
-			renderer = "SuperSlider2",
+			renderer = numberRenderer,
 			default = legacySection:get("textSizeMult") or 93,
 			argument = {
 				min = 1,
@@ -182,7 +224,7 @@ settingsTemplate[tempKey] = {
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
-				items = {"Disabled", "Symbolic"}--, "F / R"},
+				items = {"Disabled", "Symbolic", "Keys"},
 			},
 		},
 		{
@@ -210,7 +252,8 @@ settingsTemplate[tempKey] = {
 			description = "",
 			disabled = false,
 			default = legacySection:get("FONT_TINT") or getColorFromGameSettings("FontColor_color_normal"), --green
-			renderer = "color",
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "ICON_TINT",
@@ -218,7 +261,8 @@ settingsTemplate[tempKey] = {
 			description = "",
 			disabled = false,
 			default = legacySection:get("ICON_TINT") or getColorFromGameSettings("FontColor_color_normal_over"), --green
-			renderer = "color",
+			renderer = colorRenderer,
+			argument = {presetColors = presetColors},
 		},
 		{
 			key = "HAND_SYMBOL",
@@ -231,13 +275,13 @@ settingsTemplate[tempKey] = {
 			key = "TRANSPARENCY",
 			name = "Transparency",
 			description = "",
-			renderer = "SuperSlider2",
-			default = legacySection:get("TRANSPARENCY") or 0.4,
+			renderer = numberRenderer,
+			default = legacySection:get("TRANSPARENCY") or 0.7,
 			argument = {
 				min = 0,
 				max = 1,
 				step = 0.05,
-				default = legacySection:get("TRANSPARENCY") or 0.4,
+				default = legacySection:get("TRANSPARENCY") or 0.7,
 				showDefaultMark = true,
 				width = 160,
 			},
@@ -248,6 +292,18 @@ settingsTemplate[tempKey] = {
 			description = "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("FONT_FIX"), true)
+		},
+		{
+			key = "THOUSANDS_SEPARATOR",
+			name = "Thousands separator",
+			description = "Sits between the thousands and the hundreds of a large number\nThe narrow one is a hair space and needs a font that has it",
+			renderer = "select",
+			default = "",
+			argument = {
+				disabled = false,
+				l10n = "none",
+				items = {"", string.char(0xE2,0x80,0x8A,0xE2,0x80,0x8A), " ", "'", ",", "."},
+			},
 		},
 	},
 }
@@ -271,6 +327,23 @@ settingsTemplate[tempKey] = {
 				disabled = false,
 				l10n = "QuickLoot", 
 				items = {"Vanilla", "Lowest Weight", "Highest Value", "Best V/W"},
+			},
+		},
+		{
+			key = "GROUP_JUMP",
+			name = "Shift + Scroll Jumps Groups",
+			description = "Shift and the wheel (or the up/down keys) land on the first entry of the next group\nLeave it off if your sneak key is Shift",
+			renderer = "checkbox",
+			default = false,
+		},
+		{
+			key = "CONTAINER_SORTING_POISONS",
+			name = "Sorting: Poisons On Top",
+			description = "Only while planting items on someone\nRequires the Pickpocket Overhaul addon",
+			renderer = "checkbox",
+			default = boolDefault(legacySection:get("CONTAINER_SORTING_POISONS"), true),
+			argument = {
+				disabled = not qlppInstalled,
 			},
 		},
 		{
@@ -325,6 +398,59 @@ settingsTemplate[tempKey] = {
 			description = "",
 			renderer = "checkbox",
 			default = boolDefault(legacySection:get("CONTAINER_SORTING_REPAIR"), true)
+		},
+	},
+}
+
+tempKey = "Keybindings"
+settingsTemplate[tempKey] = {
+    key = 'SettingsPlayer'..MODNAME..tempKey,
+    page = MODNAME,
+    l10n = "none",
+    name = tempKey,
+	description = "custom keybindings are highly experimental, do not expect support if something's odd.\nA single bound key already alters the behaviour of the mod.",
+	permanentStorage = true,
+	order = getOrder(),
+	settings = {
+		{
+			key = "TAKE_KEY",
+			name = "Take Key",
+			description = "Take the currently selected entry",
+			renderer = inputRenderer,
+			default = nil,
+			argument = {},
+		},
+		{
+			key = "TAKE_ALL_KEY",
+			name = "Take All Key",
+			description = "Take all the items",
+			renderer = inputRenderer,
+			default = nil,
+			argument = {},
+		},
+		{
+			key = "ALT_KEY",
+			name = "Secondary Key",
+			description = "By default, switches between take and give",
+			renderer = inputRenderer,
+			default = nil,
+			argument = {},
+		},
+		{
+			key = "UP_KEY",
+			name = "Up Key",
+			description = "Move up 1 entry",
+			renderer = inputRenderer,
+			default = nil,
+			argument = {},
+		},
+		{
+			key = "DOWN_KEY",
+			name = "Down Key",
+			description = "Move down 1 entry",
+			renderer = inputRenderer,
+			default = nil,
+			argument = {},
 		},
 	},
 }
@@ -396,13 +522,14 @@ settingsTemplate[tempKey] = {
     page = MODNAME,
     l10n = "QuickLoot",
     name = tempKey,
+	description = "Unchecked settings fall back to the shared tooltip style, editable on the new Tooltip settings page",
 	permanentStorage = true,
 	order = getOrder(),
 	settings = {
 		{
-			key = "TOOLTIP_MODE",
+			key = "TOOLTIPS_MODE",
 			name = "Tooltip position",
-			description = "Doesn't work with the font fix below",
+			description = "",
 			default = legacySection:get("TOOLTIP_MODE") or "left", 
 			renderer = "select",
 			argument = {
@@ -412,18 +539,21 @@ settingsTemplate[tempKey] = {
 			},
 		},
 		{
-			key = "TOOLTIP_MELEE_INFO",
-			name = "Tooltip show melee info",
-			description = "Turn on if 'Show melee info' is enabled in OpenMW engine settings",
+			key = "TOOLTIPS_MATCH_HUD",
+			name = "Match the loot window",
+			description = "Draw the tooltip with the transparency, border and text size of the loot window instead of the shared tooltip ones",
 			renderer = "checkbox",
-			default = boolDefault(legacySection:get("TOOLTIP_MELEE_INFO"), false)
+			default = false,
 		},
 		{
-			key = "TOOLTIP_TEXT_ALIGNMENT",
+			key = "TOOLTIPS_TEXT_ALIGNMENT",
 			name = "Tooltip text alignment",
 			description = "",
-			default = legacySection:get("TOOLTIP_TEXT_ALIGNMENT") or "center", 
-			renderer = "select",
+			default = {
+				enabled = false,
+				value = "center",
+			},
+			renderer = optionalSelectRenderer,
 			argument = {
 				disabled = false,
 				l10n = "QuickLoot", 
@@ -431,20 +561,23 @@ settingsTemplate[tempKey] = {
 			},
 		},
 		{
-			key = "TOOLTIP_SHORT_TEXT",
+			key = "TOOLTIPS_SHORT_TEXT",
 			name = "Shorter tooltip texts",
 			description = "Shortens effect texts",
-			renderer = "checkbox",
-			default = boolDefault(legacySection:get("TOOLTIP_SHORT_TEXT"), false)
+			renderer = optionalCheckboxRenderer,
+			default = {
+				enabled = false,
+				value = true,
+			},
 		},
 		{
-			key = "USE_IE_TOOLTIP",
-			name = "Use Inventory Extender Tooltips",
-			description = "if you have ralt's inventory extender installed",
-			renderer = "checkbox",
-			default = true,
-			argument = {
-				disabled = not hasInventoryExtender,
+			key = "TOOLTIPS_COMPACT",
+			name = "Compact weight and value",
+			description = "Show weight and value as one line",
+			renderer = optionalCheckboxRenderer,
+			default = {
+				enabled = false,
+				value = true,
 			},
 		},
 	},
@@ -492,18 +625,38 @@ settingsTemplate[tempKey] = {
 			
 		},
 		{
-			key = "CAN_LOOT_DURING_DEATH_ANIMATION",
+			key = "LOOT_DURING_DEATH_ANIMATION",
 			name = "can loot during death animation",
-			description = "It's currently not possible to check the values in the settings.cfg",
-			renderer = "checkbox",
-			default = boolDefault(legacySection:get("CAN_LOOT_DURING_DEATH_ANIMATION"), false)
+			description = "The engine only runs on-death scripts once the animation stops, looting before that can hand you equipment a mod was about to strip from the corpse\noff: wait for the animation to end\nnear the end: open at 55% of the animation\nimmediately: open the moment it dies",
+			default = "off",
+			renderer = "select",
+			argument = {
+				disabled = false,
+				l10n = "none",
+				items = {"off", "near the end", "immediately"},
+			},
 		},
 		{
-			key = "RUN_SCRIPT_ONCE",
-			name = "Run MWscripts only once",
-			description = "After an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again",
+			key = "PROBE_SCRIPTS",
+			name = "Probe scripted containers",
+			description = "Run a container's mwscript by activating it on inspection; if it allows the activation, the quickloot hud opens. Disabled: quickloot ignores these containers and the activate key handles them normally",
 			renderer = "checkbox",
-			default = boolDefault(legacySection:get("RUN_SCRIPT_ONCE"), true)
+			default = boolDefault(legacySection:get("PROBE_SCRIPTS"), true)
+		},
+		{
+			key = "PROBE_CACHE",
+			name = "Trust a probe for (seconds)",
+			description = "How long a successful probe of the container's mwscript stays valid\n0 re-runs the script every time\nblocked containers always re-check after a few seconds",
+			renderer = numberRenderer,
+			default = 0,
+			argument = {
+				min = 0,
+				max = 900,
+				step = 15,
+				default = 0,
+				showDefaultMark = true,
+				width = 160,
+			},
 		},
 		{
 			key = "R_DEPOSIT2",
@@ -532,31 +685,6 @@ settingsTemplate[tempKey] = {
 	},
 }
 
-tempKey = "Performance"
-settingsTemplate[tempKey] = {
-    key = 'SettingsPlayer'..MODNAME..tempKey,
-    page = MODNAME,
-    l10n = "QuickLoot",
-    name = tempKey,
-	permanentStorage = true,
-	order = getOrder(),
-	settings = {
-		{
-			key = "PERFORMANCE_MODE",
-			name = "Raycast Performance Hit",
-			description = "You really don't need to set it to desperate unless you're playing starwind on a gameboy",
-			default = "Normal", 
-			renderer = "select",
-			argument = {
-				disabled = false,
-				l10n = "QuickLoot", 
-				items = {"Desperate", "Normal"},
-			},
-		},
-	},
-}
-
-
 legacySection:reset()
 
 
@@ -576,18 +704,22 @@ function readAllSettings()
 	for _, template in pairs(settingsTemplate) do
 		local settingsSection = storage.playerSection(template.key)
 		for i, entry in pairs(template.settings) do
-			_G[entry.key] = settingsSection:get(entry.key)
+			local value = settingsSection:get(entry.key)
+			-- optional wrappers resolve to nil while unchecked
+			if type(value) == "userdata" and value.enabled ~= nil and value.value ~= nil then
+				if value.enabled then
+					value = value.value
+				else
+					value = nil
+				end
+			end
+			_G[entry.key] = value
 		end
 	end
 end
 
 readAllSettings()
 
-if PERFORMANCE_MODE == "Desperate" then
-	I.SharedRay.setRayType(nearby.castRay)
-else
-	I.SharedRay.setRayType(nearby.castRenderingRay)
-end
 
 -- ────────────────────────────────────────────────────────────────────────── Settings Event ──────────────────────────────────────────────────────────────────────────
 
@@ -596,13 +728,6 @@ for _, template in pairs(settingsTemplate) do
 	local settingsSection = storage.playerSection(template.key)
 	settingsSection:subscribe(async:callback(function (_,setting)
 		local oldValue = _G[setting]
-		if setting == "PERFORMANCE_MODE" then
-			if PERFORMANCE_MODE == "Desperate" then
-				I.SharedRay.setRayType(nearby.castRay)
-			else
-				I.SharedRay.setRayType(nearby.castRenderingRay)
-			end
-		end
 		readAllSettings()
 		showInMainMenuOverride = true
 		uiLoc = v2(X/100,Y/100)
@@ -620,5 +745,6 @@ for _, template in pairs(settingsTemplate) do
 			}
 		}
 		makeBorder = require("scripts.OwnlysQuickLoot.ql_makeborder")
+		textSizeMult = (ui.screenSize().y/1200*(uiSize.y/0.4))^0.5*TEXTSIZEMULT/100
 	end))
 end

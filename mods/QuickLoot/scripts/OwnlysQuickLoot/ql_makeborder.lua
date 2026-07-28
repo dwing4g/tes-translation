@@ -1,222 +1,118 @@
 local ui = require('openmw.ui')
 local util = require('openmw.util')
 
-local auxUi = require('openmw_aux.ui')
-
-local constants = require('scripts.omw.mwui.constants')
-
 local v2 = util.vector2
-local whiteTexture = constants.whiteTexture
-local menuTransparency = ui._getMenuTransparency()
 
+------------------------------ textures ------------------------------
+local textureCache = {}
+local function getTexture(path)
+	if not textureCache[path] then
+		textureCache[path] = ui.texture{ path = path }
+	end
+	return textureCache[path]
+end
+
+------------------------------ border pieces ------------------------------
 local sideParts = {
-    left = v2(0, 0),
-    right = v2(1, 0),
-    top = v2(0, 0),
-    bottom = v2(0, 1),
+	left = v2(0, 0),
+	right = v2(1, 0),
+	top = v2(0, 0),
+	bottom = v2(0, 1),
 }
 local cornerParts = {
-    top_left = v2(0, 0),
-    top_right = v2(1, 0),
-    bottom_left = v2(0, 1),
-    bottom_right = v2(1, 1),
+	top_left = v2(0, 0),
+	top_right = v2(1, 0),
+	bottom_left = v2(0, 1),
+	bottom_right = v2(1, 1),
 }
+local borderPieceCache = {}
 
-local borderSidePattern = 'textures/menu_%s_border_%s.dds'
-local borderCornerPattern = 'textures/menu_%s_border_%s_corner.dds'
-
-if BORDER_FIX then
-	borderSidePattern = 'textures/ql_makeborder/menu_%s_border_%s.dds'
-	borderCornerPattern = 'textures/ql_makeborder/menu_%s_border_%s_corner.dds'
-end
-
-local borderResources = {}
-local borderPieces = {}
-for _, thickness in ipairs{'thin', 'thick'} do
-    borderResources[thickness] = {}
-    for k in pairs(sideParts) do
-        borderResources[thickness][k] = ui.texture{ path = borderSidePattern:format(thickness, k) }
-    end
-    for k in pairs(cornerParts) do
-        borderResources[thickness][k] = ui.texture{ path = borderCornerPattern:format(thickness, k) }
-    end
-
-    borderPieces[thickness] = {}
-    for k in pairs(sideParts) do
-        local horizontal = k == 'top' or k == 'bottom'
-        borderPieces[thickness][k] = {
-            type = ui.TYPE.Image,
-            props = {
-                resource = borderResources[thickness][k],
-                tileH = horizontal,
-                tileV = not horizontal,
-            },
-        }
-    end
-    for k in pairs(cornerParts) do
-        borderPieces[thickness][k] = {
-            type = ui.TYPE.Image,
-            props = {
-                resource = borderResources[thickness][k],
-            },
-        }
-    end
-end
-
-
-
-
-function borderTemplates(thickness,color,borderSize,background)
-    --local borderSize = (thickness == 'thin') and constants.border or constants.thickBorder
-    local borderV = v2(1, 1) * borderSize
-    local result = {}
-    result.horizontalLine = {
-        type = ui.TYPE.Image,
-        props = {
-            resource = borderResources[thickness].top,
-            tileH = true,
-            tileV = false,
-            size = v2(0, borderSize),
-            relativeSize = v2(1, 0),
-        },
-    }
-
-    result.verticalLine = {
-        type = ui.TYPE.Image,
-        props = {
-            resource = borderResources[thickness].left,
-            tileH = false,
-            tileV = true,
-            size = v2(borderSize, 0),
-            relativeSize = v2(0, 1),
-        },
-    }
-
-    result.borders = {
-        content = ui.content {},
-    }
-	
-	if background then
-		result.borders.content:add(background)
+------------------------------ border builder ------------------------------
+-- outset reaches past the content so an auto sizing Container grows around the frame
+-- inset keeps the frame within a parent that already carries a size
+local function makeBorder(path, thickness, color, borderSize, background, padding, outset)
+	local pieces = borderPieceCache[path..thickness]
+	if not pieces then
+		pieces = {}
+		for part in pairs(sideParts) do
+			local horizontal = part == 'top' or part == 'bottom'
+			pieces[part] = {
+				type = ui.TYPE.Image,
+				props = {
+					resource = getTexture(path..('menu_%s_border_%s.dds'):format(thickness, part)),
+					tileH = horizontal,
+					tileV = not horizontal,
+				},
+			}
+		end
+		for part in pairs(cornerParts) do
+			pieces[part] = {
+				type = ui.TYPE.Image,
+				props = {
+					resource = getTexture(path..('menu_%s_border_%s_corner.dds'):format(thickness, part)),
+				},
+			}
+		end
+		borderPieceCache[path..thickness] = pieces
 	end
-	
-    for k, v in pairs(sideParts) do
-        local horizontal = k == 'top' or k == 'bottom'
-        local direction = horizontal and v2(1, 0) or v2(0, 1)
-        result.borders.content:add {
-            template = borderPieces[thickness][k],
-            props = {
-                position = (direction - v) * borderSize,
-                relativePosition = v,
-                size = (v2(1, 1) - direction * 3) * borderSize,
-                relativeSize = direction,
+	local borderV = v2(1, 1) * borderSize
+	-- slot sits this far in, padding buys clearance on top of the frame itself
+	local inset = borderSize + (padding or 0)
+	local insetV = v2(1, 1) * inset
+	-- outset pieces land this far past the content, which is what drags a Container's size out
+	local reach = 2 * inset - borderSize
+	local borders = {
+		content = ui.content {},
+	}
+	if background then
+		-- the parent grew, stretch the background back over the whole frame
+		if outset then background.props.size = insetV * 2 end
+		borders.content:add(background)
+	end
+	for part, v in pairs(sideParts) do
+		local horizontal = part == 'top' or part == 'bottom'
+		local direction = horizontal and v2(1, 0) or v2(0, 1)
+		local position = (direction - v) * borderSize
+		local size = (v2(1, 1) - direction * 3) * borderSize
+		if outset then
+			position = direction * borderSize + v * reach
+			size = (v2(1, 1) - direction) * borderSize + direction * (reach - borderSize)
+		end
+		borders.content:add {
+			template = pieces[part],
+			props = {
+				position = position,
+				relativePosition = v,
+				size = size,
+				relativeSize = direction,
 				color = color,
-				alpha = color and color.a or nil
-            }
-        }
-    end
-    for k, v in pairs(cornerParts) do
-        result.borders.content:add {
-            template = borderPieces[thickness][k],
-            props = {
-                position = -v * borderSize,
-                relativePosition = v,
-                size = borderV,
+				alpha = color and color.a or nil,
+			}
+		}
+	end
+	for part, v in pairs(cornerParts) do
+		borders.content:add {
+			template = pieces[part],
+			props = {
+				position = outset and v * reach or -v * borderSize,
+				relativePosition = v,
+				size = borderV,
 				color = color,
-				alpha = color and color.a or nil
-            },
-        }
-    end
-    result.borders.content:add {
-        external = { slot = true },
-        props = {
-            position = borderV,
-            size = borderV * -2,
-            relativeSize = v2(1, 1),
-        }
-    }
-		
-    result.box = {
-        type = ui.TYPE.Container,
-        content = ui.content{},
-    }
-    for k, v in pairs(sideParts) do
-        local horizontal = k == 'top' or k == 'bottom'
-        local direction = horizontal and v2(1, 0) or v2(0, 1)
-        result.box.content:add {
-            template = borderPieces[thickness][k],
-            props = {
-                position = (direction + v) * borderSize,
-                relativePosition = v,
-                size = (v2(1, 1) - direction) * borderSize,
-                relativeSize = direction,
-            }
-        }
-    end
-    for k, v in pairs(cornerParts) do
-        result.box.content:add {
-            template = borderPieces[thickness][k],
-            props = {
-                position = v * borderSize,
-                relativePosition = v,
-                size = borderV,
-            },
-        }
-    end
-    result.box.content:add {
-        external = { slot = true },
-        props = {
-            position = borderV,
-            relativeSize = v2(1, 1),
-        }
-    }
-
-    local backgroundTransparent = {
-        type = ui.TYPE.Image,
-        props = {
-            resource = whiteTexture,
-            color = util.color.rgb(0, 0, 0),
-            alpha = menuTransparency,
-        },
-    }
-    local backgroundSolid = {
-        type = ui.TYPE.Image,
-        props = {
-            resource = whiteTexture,
-            color = util.color.rgb(0, 0, 0),
-        },
-    }
-
-    result.boxTransparent = auxUi.deepLayoutCopy(result.box)
-    result.boxTransparent.content:insert(1, {
-        template = backgroundTransparent,
-        props = {
-            relativeSize = v2(1, 1),
-            size = borderV * 2,
-        },
-    })
-
-    result.boxSolid = auxUi.deepLayoutCopy(result.box)
-    result.boxSolid.content:insert(1, {
-        template = backgroundSolid,
-        props = {
-            relativeSize = v2(1, 1),
-            size = borderV * 2,
-        },
-    })
-
-    return result
+				alpha = color and color.a or nil,
+			},
+		}
+	end
+	local slot = {
+		external = { slot = true },
+		props = {
+			position = insetV,
+			relativeSize = v2(1, 1),
+		}
+	}
+	-- inset has no room to grow into, pull the slot in instead
+	if not outset then slot.props.size = insetV * -2 end
+	borders.content:add(slot)
+	return borders
 end
-return borderTemplates
---
---local thinBorders = borderTemplates('thin')
---local thickBorders = borderTemplates('thick')
---
---return function(templates)
---    for k, t in pairs(thinBorders) do
---        templates[k] = t
---    end
---    for k, t in pairs(thickBorders) do
---        templates[k .. 'Thick'] = t
---    end
---end
+
+return makeBorder
