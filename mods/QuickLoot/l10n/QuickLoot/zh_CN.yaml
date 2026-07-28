@@ -16,15 +16,25 @@
 
 "Enable Pickpocketing": "启用扒窃"
 
+"Loose Aiming": "宽松瞄准"
+"Detects targets slightly off-center so you don't have to aim exactly\nboundingbox: one physics ray, hits collision boxes (cheap)\nshotgun: a spread of view rays, catches more but costs more": "检测略微偏离中心的目标，这样你就不需要精确瞄准\n碰撞盒：单条物理射线，命中碰撞盒（开销低）\n散射：扇形视角射线，命中更多但开销更高"
+"boundingbox": "碰撞盒"
+"shotgun": "散射"
+
+"Time Speed While Pickpocketing": "扒窃时的时间速度"
+"Slows the whole game while the pickpocketing\n1 = normal speed, 0.5 = half speed": "扒窃时减慢整个游戏\n1 = 正常速度，0.5 = 一半速度"
+
 
 "UI": "界面"
 
 "Width (%)": "宽度(%)"
-# "of the ui element (1-100)": "占界面元素尺寸的百分比(1-100)"
+
 "Height (%)": "高度(%)"
+
 "X Position (%)": "X位置(%)"
-# "Location of the center (1-100)": "相对中心位置的百分比(1-100)"
+
 "Y Position (%)": "Y位置(%)"
+
 "Text Size Multiplier (%)": "文字尺寸系数(%)"
 
 "List Header/Footer": "表头/表尾"
@@ -40,7 +50,7 @@
 "Shows the keybinding hints for 'Take All' and 'Search'": "显示“全部拿走”和“搜索”的按键绑定提示"
 "Disabled": "禁用"
 "Symbolic": "小图标"
-"F / R": "价值比"
+"Keys": "按键"
 
 "Border Style": "边框风格"
 "none": "无"
@@ -53,6 +63,7 @@
 "Use vanilla borders, so the equipped indicator doesnt turn invisible": "使用原版边框，这样装备指示器就不会看不见"
 
 "Font Color": "字体颜色"
+
 "Icon Tint": "图标着色"
 
 "Stealing Hand Symbol": "偷窃手形图标"
@@ -63,6 +74,9 @@
 "Fix buggy font": "修正有问题的字体"
 "If you see boxes or questionmarks where there should be numbers, enable this setting to disable reliance on the included font": "如果你发现数字变成方块或问号，启用这项设置来禁用对内置字体的依赖"
 
+"Thousands separator": "千位分隔符"
+"Sits between the thousands and the hundreds of a large number\nThe narrow one is a hair space and needs a font that has it": "位于大数字的千位和百位之间\n窄分隔符是细空格，需要字体支持"
+
 
 "Sorting": "排序"
 
@@ -72,32 +86,70 @@
 "Lowest Weight": "轻量优先"
 "Highest Value": "高价优先"
 "Best V/W": "价值比优先"
+
+"Shift + Scroll Jumps Groups": "Shift+滚轮跳转分组"
+"Shift and the wheel (or the up/down keys) land on the first entry of the next group\nLeave it off if your sneak key is Shift": "Shift加滚轮（或上/下键）会跳到下一组的第一个条目\n如果你的潜行键是Shift，请保持关闭"
+
+"Sorting: Poisons On Top": "排序: 毒药置顶"
+"Only while planting items on someone\nRequires the Pickpocket Overhaul addon": "仅在往某人身上放置物品时生效\n需要扒窃大修(Pickpocket Overhaul)扩展"
+
 "Sorting: Quest Items On Top": "排序: 任务物品置顶"
 "Let me know if you find any that got falsely flagged as quest": "如果你发现有被错误标记成任务的，请告诉我"
+
 "Sorting: Cash On Top": "排序: 金钱置顶"
+
 "Sorting: Keys On Top": "排序: 钥匙置顶"
+
 "Sorting: Lockpicks On Top": "排序: 开锁器置顶"
+
 "Sorting: Soulgems On Top": "排序: 灵魂石置顶"
+
 "Sorting: Ingredients Below [x] Weight On Top": "排序: 低于[x]重量的材料置顶"
 "0 = Disable": "0 = 禁用"
+
 "Sorting: Repair Tools On Top": "排序: 修理工具置顶"
+
+
+"Keybindings": "按键绑定"
+"custom keybindings are highly experimental, do not expect support if something's odd.\nA single bound key already alters the behaviour of the mod.": "自定义按键绑定是高度实验性的，如果出现异常请不要期望获得支持。\n仅绑定一个按键就会改变模组的行为。"
+
+"Take Key": "拿取键"
+"Take the currently selected entry": "拿取当前选中的条目"
+
+"Take All Key": "全部拿走键"
+"Take all the items": "拿走所有物品"
+
+"Secondary Key": "次要键"
+"By default, switches between take and give": "默认在拿取和给予之间切换"
+
+"Up Key": "上移键"
+"Move up 1 entry": "上移1个条目"
+
+"Down Key": "下移键"
+"Move down 1 entry": "下移1个条目"
 
 
 "Columns": "列显示"
 
 "Show Pickpocket Column": "显示扒窃列"
+
 "Show Weight Column": "显示重量列"
+
 "Show Weight Column When Pickpocketing": "扒窃时显示重量列"
+
 "Show Value Column": "显示价值列"
+
 "Show Value Column When Pickpocketing": "扒窃时显示价值列"
+
 "Show V/W Column": "显示价值重量比列"
+
 "Show V/W Column When Pickpocketing": "扒窃时显示价值重量比列"
 
 
 "Tooltip": "提示框"
+"Unchecked settings fall back to the shared tooltip style, editable on the new Tooltip settings page": "未勾选的设置将回退到共享提示框样式，可在新的提示框设置页面编辑"
 
 "Tooltip position": "提示框位置"
-"Doesn't work with the font fix below": "无法跟下面的字体修正同时起作用"
 "left": "左"
 "left (fixed)": "左(修正)"
 "left (fixed 2)": "左(修正2)"
@@ -110,25 +162,23 @@
 "bottom": "下"
 "top": "上"
 
-"Tooltip show melee info": "提示框显示近战武器信息"
-"Turn on if 'Show melee info' is enabled in OpenMW engine settings": "如果“显示近战武器信息”在OpenMW引擎设置里开启了就可以打开"
+"Match the loot window": "匹配搜刮窗口"
+"Draw the tooltip with the transparency, border and text size of the loot window instead of the shared tooltip ones": "使用搜刮窗口的透明度、边框和文字大小绘制提示框，而非共享提示框的设置"
 
 "Tooltip text alignment": "提示框文字对齐"
-"center": "居中"
-"left": "居左"
-"right": "居右"
+"center": "中"
 
 "Shorter tooltip texts": "更短的提示框文字"
 "Shortens effect texts": "让效果文字更短"
 
-"Use Inventory Extender Tooltips": "使用库存扩展提示框"
-"if you have ralt's inventory extender installed": "如果你已安装了拉尔特(ralt)的库存扩展"
+"Compact weight and value": "紧凑重量和价值"
+"Show weight and value as one line": "将重量和价值显示为一行"
+
 
 "Misc": "杂项"
 
 "Show read books": "显示已读的读书"
 "Bookworm will highlight books that you have actually read (for 20 seconds)": "书虫会高亮你实际阅读过(20秒以上)的书籍"
-"off": "关"
 "unread": "未读"
 "read": "已读"
 "bookworm": "书虫"
@@ -136,16 +186,21 @@
 
 "Dispose corpse Key": "处理尸体按键"
 "disabled": "禁用"
+"Shift + F": "Shift + F"
 "Jump": "跳跃键"
 
 "Experimental looting workaround": "实验中的替换搜刮方法"
 "If you have some ammo mod that keeps deleting your ammo for some reason": "如果你有某种弹药模组，不知为何总是删除你的弹药"
 
 "can loot during death animation": "死亡动画过程中可以搜刮"
-"It's currently not possible to check the values in the settings.cfg": "现在还不可能检查settings.cfg里的值"
+"The engine only runs on-death scripts once the animation stops, looting before that can hand you equipment a mod was about to strip from the corpse\noff: wait for the animation to end\nnear the end: open at 55% of the animation\nimmediately: open the moment it dies": "引擎只在死亡动画停止后才运行死亡脚本，在此之前搜刮可能会拿到模组即将从尸体上移除的装备\n关：等待动画结束\n接近结束时：在动画55%时打开\n立即：死亡瞬间打开"
+"near the end": "接近结束时"
 
-"Run MWscripts only once": "只运行一次MWscripts"
-"After an mwscript was successfully activated (and the inventory flashed up for a second) don't run the script on this container again": "一个mwscript成功激活后(道具闪烁一秒)不再允许此容器的脚本"
+"Probe scripted containers": "探测脚本容器"
+"Run a container's mwscript by activating it on inspection; if it allows the activation, the quickloot hud opens. Disabled: quickloot ignores these containers and the activate key handles them normally": "通过检查时激活容器来运行其mwscript；如果允许激活，则打开快速搜刮HUD。禁用：快速搜刮忽略这些容器，由激活键正常处理"
+
+"Trust a probe for (seconds)": "探测信任时间（秒）"
+"How long a successful probe of the container's mwscript stays valid\n0 re-runs the script every time\nblocked containers always re-check after a few seconds": "成功探测容器mwscript后的有效时长\n0表示每次都重新运行脚本\n被阻止的容器总是在几秒后重新检查"
 
 "R switches to deposit": "R键切换成存放"
 "Instead of opening the inventory, switch between deposit and withdraw with the ToggleSpell key\nShift + R always does the other thing": "不打开库存列表，而是使用切换法术键在存放和收回之间切换\n按下Shift+R键总是会执行另一种操作"
@@ -157,17 +212,6 @@
 "What to deposit when pressing shift+F in deposit mode\nIt always ignores equipped items": "在存放模式下，当按Shift+F时存放哪些\n总是忽略已装备的物品"
 "ingredients": "材料"
 "restack": "重新堆叠"
-
-
-"Performance": "性能"
-
-"Raycast Performance Hit": "射线检测性能影响"
-"You really don't need to set it to desperate unless you're playing starwind on a gameboy": "你真的没必要选择“绝望”，除非你要在Gameboy上玩《星风》。"
-"Normal": "正常"
-"Desperate": "绝望"
-
-
-"QuickLoot Pickpocket": "快速搜刮 - 扒窃"
 
 
 "Search": "搜索"

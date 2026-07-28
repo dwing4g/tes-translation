@@ -94,7 +94,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none",
+				l10n = "QuickLoot",
 				items = {"off", "boundingbox", "shotgun"},
 			},
 		},
@@ -301,7 +301,7 @@ settingsTemplate[tempKey] = {
 			default = "",
 			argument = {
 				disabled = false,
-				l10n = "none",
+				l10n = "QuickLoot",
 				items = {"", string.char(0xE2,0x80,0x8A,0xE2,0x80,0x8A), " ", "'", ",", "."},
 			},
 		},
@@ -406,7 +406,7 @@ tempKey = "Keybindings"
 settingsTemplate[tempKey] = {
     key = 'SettingsPlayer'..MODNAME..tempKey,
     page = MODNAME,
-    l10n = "none",
+    l10n = "QuickLoot",
     name = tempKey,
 	description = "custom keybindings are highly experimental, do not expect support if something's odd.\nA single bound key already alters the behaviour of the mod.",
 	permanentStorage = true,
@@ -632,7 +632,7 @@ settingsTemplate[tempKey] = {
 			renderer = "select",
 			argument = {
 				disabled = false,
-				l10n = "none",
+				l10n = "QuickLoot",
 				items = {"off", "near the end", "immediately"},
 			},
 		},
