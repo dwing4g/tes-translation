@@ -241668,7 +241668,7 @@ Goodbye"
  INFO.PNAM "32700121733055130686$00"
  INFO.NNAM "2133120450327024075$00"
  INFO.DATA [03 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "就凭你？滚开！"
+ INFO.NAME "就凭你？滚开。"
 -INFO
  INFO.INAM "2133120450327024075$00"
  INFO.PNAM "72093819260173753$00"
@@ -385385,7 +385385,7 @@ Set ""S'Bakha"".slaveStatus to 2"
  INFO.DATA [01 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aundae vampire 4$00"
  INFO.SNAM "Vo\v\CrAtk_vRM003.mp3$00"
- INFO.NAME "哼哼哼！"
+ INFO.NAME "咕噜噜！"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  #0: Global-short Random100 >= 40
@@ -396729,7 +396729,7 @@ Goodbye"
  INFO.NNAM "2787118627358723517$00"
  INFO.DATA [00 00 00 00 23 00 00 00 FF FF FF 00]
  INFO.ONAM "viatrix petilia$00"
- INFO.NAME "嗯哼，我早该料到你会这么说的。"
+ INFO.NAME "哼嗯，我早该料到你会这么说的。"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  #0: Function-Alarmed = 2
@@ -405136,7 +405136,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "Vo\k\f\Hlo_KF000c.mp3$00"
- INFO.NAME "咕噜咕噜！"
+ INFO.NAME "咕噜嗯！"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  #0: Global-short Random100 >= 40
@@ -405166,7 +405166,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\m\Hlo_KM139.mp3$00"
- INFO.NAME "咕噜咕噜！"
+ INFO.NAME "咕噜噢！"
  INFO.SCVR "01600"
  INFO.INTV [01 00 00 00]
  #0: Function-Creature_Target = 1
@@ -412170,7 +412170,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Orc$00"
  INFO.SNAM "Vo\o\m\Hlo_OM000a.mp3$00"
- INFO.NAME "哼哼哼。"
+ INFO.NAME "咕噜噜。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [50 00 00 00]
  #0: Global-short Random100 >= 80
@@ -425738,7 +425738,7 @@ ForceGreeting"
  INFO.CNAM "Guard$00"
  INFO.FNAM "Temple$00"
  INFO.SNAM "Vo\ord\Hlo_ORM001.mp3$00"
- INFO.NAME "咕噜咕噜。"
+ INFO.NAME "咕噜噜。"
 -INFO
  INFO.INAM "3223227974407625212$00"
  INFO.PNAM "2517825622835821975$00"
@@ -435715,7 +435715,7 @@ ForceGreeting"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "Vo\w\f\Hlo_WF000c.mp3$00"
- INFO.NAME "咕噜咕噜。"
+ INFO.NAME "咕噜噜。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  #0: Global-short Random100 >= 40
@@ -448631,7 +448631,7 @@ choice ""呃，没有。抱歉，我没看到过什么戒指。"" 1 ""是的！我找到你的戒指了！拿着
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "Vo\b\f\Hit_BF002.mp3$00"
- INFO.NAME "呃嗯！"
+ INFO.NAME "哦嗯！"
  INFO.SCVR "01660"
  INFO.INTV [03 00 00 00]
  #0: Function-Should_Attack = 3
@@ -448675,7 +448675,7 @@ choice ""呃，没有。抱歉，我没看到过什么戒指。"" 1 ""是的！我找到你的戒指了！拿着
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "Vo\d\m\Hit_DM003.mp3$00"
- INFO.NAME "哼！"
+ INFO.NAME "呃嗯！"
  INFO.SCVR "01660"
  INFO.INTV [03 00 00 00]
  #0: Function-Should_Attack = 3
@@ -449302,7 +449302,7 @@ choice ""呃，没有。抱歉，我没看到过什么戒指。"" 1 ""是的！我找到你的戒指了！拿着
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Wood Elf$00"
  INFO.SNAM "Vo\w\m\Hit_WM012.mp3$00"
- INFO.NAME "呜呜呜！"
+ INFO.NAME "哦哦嗯！"
  INFO.SCVR "01660"
  INFO.INTV [04 00 00 00]
  #0: Function-Should_Attack = 4
@@ -452150,7 +452150,7 @@ choice ""呃，没有。抱歉，我没看到过什么戒指。"" 1 ""是的！我找到你的戒指了！拿着
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Hit_DM012.mp3$00"
- INFO.NAME "哼！"
+ INFO.NAME "唔！"
  INFO.SCVR "01045"
  INFO.INTV [19 00 00 00]
  #0: Function-Reputation <= 25
@@ -452688,7 +452688,7 @@ choice ""呃，没有。抱歉，我没看到过什么戒指。"" 1 ""是的！我找到你的戒指了！拿着
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Hit_BM004.mp3$00"
- INFO.NAME "呃嗯！"
+ INFO.NAME "哦嗯！"
  INFO.SCVR "01043"
  INFO.INTV [32 00 00 00]
  #0: Function-Reputation >= 50
