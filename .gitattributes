@@ -1,3 +1,5 @@
-*		text=auto eol=lf
+*		-text
 
-*.bat		text eol=crlf
+# *		text=auto eol=lf
+# *.bat		text eol=crlf
+# *.csv		text eol=crlf
