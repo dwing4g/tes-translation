@@ -61,6 +61,10 @@ I.Settings.registerGroup({
 })
 
 local settings = storage.globalSection("Settings_dynamicactors")
+local temp = storage.globalSection("dActors_tempStore")
+temp:setLifeTime(storage.LIFE_TIME.Temporary)
+temp:set("npcDialog", require("scripts.DynamicActors.configNpcDialog"))
+
 local player
 local dialogActor
 local openTime
@@ -68,8 +72,12 @@ local pauseAfter = 7
 local activateTarget = nil
 local npcList = require("scripts.DynamicActors.userConfig.Dialog NPC Blocklist")
 npcList.byAnim, npcList.config = table.unpack(require("scripts.DynamicActors.configAnimations"))
+local dialog = require("scripts.DynamicActors.globalDialog")
 local actorsincell = {}
+local nearbyActors
 local logging = false
+
+dialog.reloadOverrides()
 
 -- legacy settings check
 do
@@ -116,6 +124,7 @@ events.Pause = function()
 		end
 	end
 end
+events.DialogueResponse = dialog.resolveInfo
 
 local function debugger(npc)
 	if not npc:hasScript("scripts/DynamicActors/npcDialog.lua") then print("script gone") end
@@ -151,16 +160,17 @@ local function actorMonitor(data)
 end
 
 function events.onDialogClosed()
-	for _, v in ipairs(world.activeActors) do
-		if v.type == types.NPC then
-			if v:hasScript("scripts/DynamicActors/npcDialogAI.lua") then
-		--		debug("REMOVE WANDER SCRIPT")
-				v:removeScript("scripts/DynamicActors/npcDialogAI.lua")
-			end
-			if v ~= dialogActor and v:hasScript("scripts/DynamicActors/npcDialog.lua") then
-		--		debug("REMOVE DIALOG SCRIPT")
-				v:removeScript("scripts/DynamicActors/npcDialog.lua")
-			end
+	local actors = nearbyActors or world.activeActors
+	nearbyActors = nil
+	for _, v in ipairs(actors) do
+		local actor = v.actor or v
+		if actor:hasScript("scripts/DynamicActors/npcDialogAI.lua") then
+	--		debug("REMOVE WANDER SCRIPT")
+			actor:removeScript("scripts/DynamicActors/npcDialogAI.lua")
+		end
+		if actor ~= dialogActor and actor:hasScript("scripts/DynamicActors/npcDialog.lua") then
+	--		debug("REMOVE DIALOG SCRIPT")
+			actor:removeScript("scripts/DynamicActors/npcDialog.lua")
 		end
 	end
 	if dialogActor then
@@ -267,12 +277,18 @@ function events.onDialogOpened(data)
 		end
 	end
 
-	if settings:get("unpause_wanderai") then
-		for _, v in ipairs(world.activeActors) do
-			if v.type == types.NPC
-				and (v.position - player.position):length() < 2000
-				and v ~= o and not types.Actor.isDead(v) then
-		--		debug(("WANDER %s"):format(v))
+	nearbyActors = { wander = settings:get("unpause_wanderai") }
+	for _, v in ipairs(world.activeActors) do
+		if v.type == types.NPC and v.type ~= types.Player
+			and (v.position - player.position):length() < 2000
+			and not types.Actor.isDead(v) then
+	--		debug(("WANDER %s"):format(v))
+			nearbyActors.n = #nearbyActors + 1
+			nearbyActors[nearbyActors.n] = {
+				actor = v,
+				spellStance = v.type.getStance(v) == v.type.STANCE.Spell
+			}
+			if nearbyActors.wander and v ~= o then
 				v:addScript("scripts/DynamicActors/npcDialogAI.lua", player)
 			end
 		end
@@ -303,6 +319,7 @@ function events.onDialogOpened(data)
 		player, reset, idleLevel, plugin, isMobile=auto, groups=groups,
 		shields=settings:get("visible_shields"), logging=logging, greeting=data.greeting
 	})
+	if data.greeting then		events.DialogueResponse(data.greeting)		end
 end
 
 time.runRepeatedly(function()
@@ -318,6 +335,23 @@ core.sendGlobalEvent("dynDialogClosed")
 
 
 return {
+	engineHandlers = {
+		onUpdate = function(dt)
+			if not nearbyActors or dt <= 0 then	return		end
+
+			if nearbyActors.paused then		return		end
+			local stance, spell = types.Actor.getStance, types.Actor.STANCE.Spell
+			for i = 1, nearbyActors.n do
+				local v = nearbyActors[i]
+				if not v.spellStance and stance(v.actor) == spell then
+					v.spellStance = true
+					nearbyActors.paused = true
+					events.Pause()
+					break
+				end
+			end
+		end
+	},
 	eventHandlers = {
 		dynDialogOpened = events.onDialogOpened,
 		dynDialogClosed = events.onDialogClosed,
@@ -349,4 +383,9 @@ return {
 			if events[e.event or ""] then		events[e.event](e)		end
 		end
 	},
+	interfaceName = "DynamicActors",
+	interface = {
+		version = 135,
+		reloadOverrides = dialog.reloadOverrides
+	}
 }

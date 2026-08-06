@@ -15,12 +15,12 @@ anim_akimbo: "双手叉腰"
 anim_handsback: "双手背在身后"
 
 settings_camera_modName: "动态角色 - 相机"
-settings_camera_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.34
+settings_camera_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.35
 \n\n玩家在对话期间相机位置的自定义选项。"
 
 settings_modName: "动态角色 - 玩法"
 
-settings_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.34
+settings_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.35
 \n\n在与NPC对话时为他们动态添加额外的空闲动画，并在玩家长时间静止时也添加空闲动画。
 \n\n可自定义玩家自动脱下头盔、静止空闲动画，以及通过快捷键触发自定义动画姿势并控制相机的选项。"
 

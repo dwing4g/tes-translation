@@ -23,65 +23,10 @@ local Actor = {
 	controls = self.controls,
 }
 
-local filters = {}
-
-filters.priorityArms = { [2] = 2, [3] = 2 }
-
-filters.baseIdle = {
-	{ "isMale", false, "handhippose", {loops=100, priority=1, blendMask=15, speed=0.5}, 1 },
-	{ "isMale", true, "readypose", {loops=4, priority=1, blendMask=3}, 1 },
-}
-
-filters.greeting = {
-	{ "class", "ordinator", "armsalmapray", {priority=2}, 2 },
-	{ "name", "ordinator", "armsalmapray", {priority=2}, 2 },
---	{ "faction", "temple", "armsalmapray", {priority=2}, 2 },
-	{ "class", "^guard", "armsatback", {loops=3, priority=2, blendMask=12}, 2 },
---	{ "class", "^ordinator", "armsatback", {loops=3, priority=2, blendMask=12}, 2 },
-	{ "isMale", true, {
-			{ "armsakimbo", {loops=3, priority=2, blendMask=12} },
-			{ "armsfolded", {loops=3, priority=2, blendMask=12} },
-			{ "idle7_copy", {priority=2, blendMask=8} },
-			{ "armsfolded", {loops=3, priority=2, blendMask=12} },
-			{ "armsakimbo", {loops=3, priority=2, blendMask=8} },
-		}, nil, 1
-	},
-	{ "isMale", false, {
-			{ "posealma3", {loops=1, priority=2} },
-			{ "armsakimbo", {loops=1, priority=2, blendMask=12} },
-			{ "armsgesture_greet", {loops=1, priority=2, blendMask=12} },
-			{ "armsakimbo", {loops=1, priority=2, blendMask=4} },
-		}, nil, 1
-	}
-}
-
-filters.poseShifts = {
-		{ {
-	{ id="armsakimbo", opt={loops=1, priority=2, blendMask=12}, delay=9 },
-	{ id="idle2_copy", opt={priority=2, speed=1.5} },
-		},
-		{
-	{ id="armsfolded", opt={loops=1, priority=2, blendMask=12}, delay=2.5 },
-	{ id="idle8_copy", opt={priority=2, speed=2} },
-		} },
-
-		{ {
-	{ id="armsakimbo", opt={loops=1, priority=2, blendMask=12}, delay=9 },
-	{ id="idle2_copy", opt={priority=2, speed=1.5} },
-		},
-		{
-	{ id="armsatback", opt={loops=1, priority=2, blendMask=12}, delay=2.5 },
-	{ id="idle8_copy", opt={priority=2, speed=2} },
-		} }
-	}
-
-local beastBlendMasks = {
---	handhippose = 0, armsakimbo = 12, readypose = 12,
-	armsfolded = 12, armsatback = 12, armssunshield = 8,
-	armsalmapray = 12, posealma3 = 0, idle2_copy = 0, idle7_copy = 12, idle8_copy = 12
-	}
-
-local armAnims = { armsfolded=true, posealma3=true }
+local config = require("openmw.storage").globalSection("dActors_tempStore"):getCopy("npcDialog")
+local filters = config.filters
+local beastBlendMasks = config.beastBlendMasks
+local armAnims = config.armAnims
 
 local poseShiftType = 0
 local poseTable, infoList
@@ -92,18 +37,9 @@ interop = {}
 local dialogTarget = nil
 local turningEnabled, resetPosRot, visibleShield, validAnim
 local animQueue = { timer = 10 }
+local override = {}
 
-local voice = {
-	disabled = true,
-	options = {loops=20, speed=1, blendMask=2, priority={[1] = 4}},
-	baseAnim = "", baseBone = anim.BONE_GROUP.LowerBody,
-	groups = {
-		base = "idlespeak",
-		posealma3 = "",
-		handhippose = "idlespeak_handhip",
-		readypose = "idlespeak_ready",
-	}
-}
+local voice = config.voice
 local isBeast, isGuard
 
 if Actor.isNPC(self) then
@@ -115,28 +51,11 @@ if Actor.isNPC(self) then
 	end
 -- print(isBeast, npcRace)
 	if isBeast then
-		voice.groups = { base = "idlespeak", idle3 = "", idle9 = "" }
-		voice.options.blendMask = 3		voice.options.priority = {[0]=4, [1]=4}
+		voice.groups = config.voice_beast
+		voice.options.blendMask = 3		voice.options.priority = { [0]=3, [1]=3 }
 		voice.baseAnim = ""	voice.baseBone = anim.BONE_GROUP.RightArm
 	elseif not Actor.record.isMale and anim.hasGroup(self, "idlespeak_idlef") then
-		voice.groups = {
-			base = "idlespeak",
-			posealma3 = "",
-			handhippose = "idlespeak_handhip",
-			readypose = "idlespeak_ready",
-			idle = "idlespeak_idlef",
-		--	idle4 = "idlespeak_idlef",
-			idle5 = "idlespeak_handhip",
-			idle7 = "idlespeak_idlef",
-			idle7_copy = "idlespeak_idlef",
-			idle8 = "idlespeak_idlef",
-			idle8_copy = "idlespeak_idlef",
-			armsakimbo = "idlespeak_idlef",
-			armsalmapray = "idlespeak_idlef",
-			armsfolded = "idlespeak_idlef",
-			armsatback = "idlespeak_idlef",
-			armssunshield = "idlespeak_idlef",
-		}
+		voice.groups = config.voice_f
 	end
 
 end
@@ -188,12 +107,11 @@ local function playHandler(g, o)
 	o.startPoint = nil			o.blendMask = savedMask
 end
 
-local idleGroups = { idle=true, idle2_copy=true, idle7_copy=true, idle8_copy=true,
-	handhippose=true, readypose=true, posealma3=true, idlespeak=true }
-for i = 2, 9 do		idleGroups["idle"..i] = true			end
+local idleGroups = config.idleGroups
 
 local function hasValidAnim()
 	local leg = Actor.getActiveGroup(self, 0)
+	leg = leg:match("[^_]+")
 	local valid = idleGroups[leg] or leg:find("^turn") or leg:find("^walk") or leg:find("^run")
 		or leg:find("^arms")
 --	if not valid then	print("NOT VALID ANIM", leg)		end
@@ -361,6 +279,13 @@ local function initNPCdiag(data)
 
 end
 
+local function cancelOverride()
+	if override.prop then
+		anim.removeVfx(self, override.prop.options.vfxId)
+		override.prop = nil
+	end
+end
+
 local function closeNPCdiag()
 	if anim.hasAnimation(self) then
 		if voice.playing then
@@ -369,6 +294,10 @@ local function closeNPCdiag()
 		if idleAnim.name then
 			anim.setLoopingEnabled(self, idleAnim.name, false)
 		end
+		if override.groupName then
+			anim.cancel(self, override.groupName)
+		end
+		cancelOverride()
 	end
 	core.sendGlobalEvent("DynamicActors",
 		{ event="removeScript", object = self, script = "npcDialog.lua" })
@@ -377,7 +306,7 @@ local function closeNPCdiag()
 	poseShiftType = 0
 end
 
-local bodyParts = { legs=1, chest=2, leftarm=4, rightarm=8, botharms=12, armschest=14, legschest=3 }
+local bodyParts = config.bodyParts
 
 local function getBodyPart(mask)
 	return type(mask) == "string" and bodyParts[mask:lower()] or 15
@@ -399,7 +328,7 @@ function events.DialogueResponse(e)
 
 	local name, o
 	if type(m.FN) == "function" then
-		local f = m.FN()
+		local f = m.FN(e)
 		if f == false then		return		end
 		if type(f) == "table" then
 			name, o = f.groupName, f.options
@@ -419,6 +348,21 @@ end
 function events.onInfoGetText(e)
 --	plugin.onInfoGetText(e)
 	events.DialogueResponse { infoId = e.info.id }
+end
+
+function events.Override(e)
+	cancelOverride()
+	if e.prop then
+		local prop = e.prop
+		local t = core.getSimulationTime()
+		prop.start = prop.start + t		prop.stop = prop.stop + t
+		override.prop = prop
+	end
+	if e.groupName then
+		I.AnimationController.playBlendedAnimation(e.groupName, e.options)
+		override.groupName = e.groupName
+		dialogTarget:sendEvent("dynUpdateDCam")
+	end
 end
 
 function events.onQuestUpdate(e)
@@ -450,6 +394,17 @@ local function onUpdate(dt)
 	end
 	Actor.controls.movement = 0
 	Actor.controls.sideMovement = 0
+
+	if override.prop then
+		local t = core.getSimulationTime()
+		local prop = override.prop
+		if prop.start and prop.start <= t then
+			anim.addVfx(self, prop.model, prop.options)
+			prop.start = nil
+		elseif prop.stop <= t then
+			cancelOverride()
+		end
+	end
 
 	if not validAnim then
 		if voice.playing then

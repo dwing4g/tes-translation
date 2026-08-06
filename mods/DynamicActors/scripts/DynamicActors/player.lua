@@ -570,6 +570,7 @@ return {
 		DialogueResponse = dialog.DialogueResponse,
 		tes3InfoGetText = dialog.tes3InfoGetText,
 		dynUiMessage = function(e)	ui.showMessage(l10n(e))		end,
+		dynUpdateDCam = function()	dCam.autoCamUpdate(5)		end,
 		OMWMusicCombatTargetsChanged = function(e)
 			if not e.actor then		return		end
 			local targetPlayer
@@ -586,7 +587,7 @@ return {
 			local inCombat = next(combatActors) ~= nil
 			if Status.inCombat == inCombat then	return		end
 
-			print("COMBAT STATUS CHANGE")
+		--	print("COMBAT STATUS CHANGE")
 			Status.inCombat = inCombat		Anim:updateStatus(Status)
 			if not inCombat then		return			end
 
@@ -602,7 +603,7 @@ return {
 
 	interfaceName = "DynamicActors",
 	interface = {
-		version = 134,
+		version = 135,
 --[[
 		c = function()		return common			end,
 		help = function()	return dialog.omw50		end,

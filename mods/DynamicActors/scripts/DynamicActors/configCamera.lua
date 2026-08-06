@@ -197,6 +197,11 @@ local M = {
 		slee2x8 = { focal = v3(40, -55, 10) }, slee2x7=F.z1, slee2x9=F.z1,	-- xanim_sleeping2x.kf
 		slav9 = { focal = v3(0, 0, 35) },				-- xslavesitting.kf
 		swp02 = F.z1,							-- xsweep.kf
+
+		-- Interaction animations
+
+		["read-paper"] = { focal = v3(0, 0, 70) },
+		["give-to-player"] = { focal = v3(0, 0, 70) },
 	}
 
 }

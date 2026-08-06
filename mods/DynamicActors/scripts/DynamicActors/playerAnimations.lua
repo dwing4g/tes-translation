@@ -404,6 +404,7 @@ function Anim:updateStatus(status)
 	if stance == status.stance then		return		end
 
 --	print(stance, status.stance)
+	self:cancelAllIdles()
 	if status.stanceIsNothing then
 		self.turnStopsIdle = false
 		self.walkStopsIdle = true
@@ -417,7 +418,7 @@ function Anim:updateStatus(status)
 	stance = status.stance
 	if notIdle then			return		end
 
-	self:cancelAllIdles()
+--	self:cancelAllIdles()
 	if not status.stanceIsNothing and Anim.idle.playWeapon then
 		self.idleTimer = 2
 		if stance == Actor.stanceWeapon or not self.playingIdle then

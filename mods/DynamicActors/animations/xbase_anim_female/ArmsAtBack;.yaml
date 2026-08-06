@@ -1,6 +1,6 @@
 blending_rules:
   - from: "*"
-    to: "arms*"
+    to: "*"
     easing: "sineInOut"
     duration: 0.7
   - from: "armsfolded"

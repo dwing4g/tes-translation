@@ -47,14 +47,14 @@ local forceHudModes = {
 }
 
 
+local posing = false
+local logging = false
+
 local dialog = { lastGreeting = {} }
 dialog.set = {
 	posing = function(m)		posing = m	return m		end,
 	logging = function(m)		logging = m	return m		end
 }
-
-local posing = false
-local logging = false
 
 local settings = common.settings
 dialog.Cam = common.dialogCam
@@ -105,6 +105,7 @@ function dialog.hasOpened(data)
 	zoom1st.offset = math.rad(settings.camera:get("dialog_1st_zoom_offset"))
 	zoom1st.dist = settings.camera:get("dialog_1st_zoomdist")
 	camsave.yaw, camsave.pitch, camsave.extrayaw = camera.getYaw(), camera.getPitch(), camera.getExtraYaw()
+	dialog.Cam.barsRatio, dialog.Cam.aperture = 0, 0
 	local npc = data.arg			dialog.Target = npc
 	if data.pause or not data.near or (npc.position - oSelf.position):length() > 1000 then
 		return
@@ -237,8 +238,10 @@ end
 
 function dialog.DialogueResponse(e)
 	if dialog.Target and e.type == "topic" then
-		dialog.Target:sendEvent("DynamicActors",
-			{ event="DialogueResponse", infoId=e.infoId, recordId=e.recordId })
+		local info = { event="DialogueResponse", actor=dialog.Target,
+			infoId=e.infoId, recordId=e.recordId }
+		dialog.Target:sendEvent("DynamicActors", info)
+		core.sendGlobalEvent("DynamicActors", info)
 	elseif e.type == "greeting" then
 		dialog.lastGreeting = { actor=e.actor, infoId=e.infoId, recordId=e.recordId }
 	end
@@ -247,8 +250,9 @@ end
 if core.API_REVISION < 129 then
 	dialog.tes3InfoGetText = function(e)
 		if dialog.Target then
-			dialog.Target:sendEvent("DynamicActors",
-				{ event="DialogueResponse", infoId = e.info.id })
+			local info = { event="DialogueResponse", actor=dialog.Target, infoId = e.info.id }
+			dialog.Target:sendEvent("DynamicActors", info)
+			core.sendGlobalEvent("DynamicActors", info)
 		end
 	end
 end
