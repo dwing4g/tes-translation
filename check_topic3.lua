@@ -12,6 +12,8 @@ local ignores = {
 	ÕâĞ©Ò©Ë® = true,
 }
 
+local topicCount = {} -- topic => count
+
 local N = tonumber(arg[2])
 local i = 0
 for line in io.lines(arg[1]) do
@@ -24,9 +26,30 @@ for line in io.lines(arg[1]) do
 			if not ignores[topic] then
 				n = n + 1
 			end
+			topicCount[topic] = (topicCount[topic] or 0) + 1
 		end
-		if n >= N then
+		if N >= 0 and n >= N then
 			print("[" .. i .. "]: " .. line)
+		end
+	end
+end
+
+if N < 0 then
+	N = -N
+	i = 0
+	for line in io.lines(arg[1]) do
+		line = line:gsub("\r+$", "")
+		i = i + 1
+		local topics = line:match " {([^}]+)}$"
+		if topics then
+			local n = 0
+			for topic in topics:gmatch "[^,]+" do
+				n = topicCount[topic]
+				if n and n <= N then
+					print("[" .. i .. "]: " .. line)
+					break
+				end
+			end
 		end
 	end
 end
