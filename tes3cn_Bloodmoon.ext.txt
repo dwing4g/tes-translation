@@ -1790,7 +1790,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿卫兵和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与调度使和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_MixedUnitTactics
@@ -1887,7 +1887,7 @@ The worship of these four malevolent spirits is against the law and practice of 
 <BR>
 梅鲁涅斯·大衮是毁灭之神。他与火灾、地震和洪水等自然危险有关。在一些人看来，他代表了晨风这片荒凉的土地。他考验丹莫的生存意志与坚韧不拔。<BR>
 <BR>
-崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与神殿卫兵和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
+崇拜这四种恶灵是违反神殿的法律与惯例的。然而，四角很少会发现那些贪婪、鲁莽或疯狂到为他们服务的人。根据古神殿的法律与习俗，以及根据帝国的法律，女巫和巫者的性命都将被剥夺，帝国驻军与调度使和灵动扈从一起追查并摧毁了荒野避难所和古代遗址中的这些邪恶的巫师。他们在那里隐藏着他们的亵渎崇拜。<BR>
 <BR>"""
 
 > BOOK.FNAM bk_BlasphemousRevenants
@@ -6806,7 +6806,7 @@ Vivec Informants
 
 > INFO.NAME a1_v_vivecinformants 31063204821378011980
 Caius sent me to Vivec with three tasks: speak with Addhiranirr, a Khajiit Thieves Guild operative in St. Olms; speak with Huleeya, an Argonian in the Foreign Quarter, at the Black Shalk Cornerclub; and speak with Mehra Milo, a Temple priestess at the Hall of Wisdom in the Temple Compound. When I have information about the Nerevarine cult and the Sixth House cult from these three, I report back to Caius. Caius gave me instructions in writing.
-凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特——盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧厅堂与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
+凯乌斯派我去维威克执行三项任务：与圣·奥姆斯区的一个卡吉特——盗贼公会特工阿迪拉尼尔谈话；在外邦区的黑砂壳虫街角酒吧与阿尔贡胡利亚谈话；在神殿驻地的智慧大厅与神殿女祭司梅拉·米洛谈话。当我从这三个人那里得到关于尼瑞瓦因教派和第六家族邪教的信息后，我就要向凯乌斯报告。凯乌斯还给了我一份书面指示。 {沙尔,令状}
 
 > INFO.NAME a1_v_vivecinformants 7514278082367630855
 The Spymaster took my report, and the notes from Huleeya and the 'Progress of Truth.' He needs time to read and digest my report, but in the meantime, he gave me 200 gold to spend and told me to go out and get some guild or freelance jobs, or get some training. When I'm ready, he says to come back, and he'll have new orders for me.
@@ -7278,11 +7278,11 @@ Thieves Guild: Bal Molagmer, The Dwemer Goblet
 
 > INFO.NAME tg_ss_churchpolice 1245918801870616483
 Gentleman Jim Stacey asked me to steal Berel Sala's large Dwemer goblet and donate it to Danso Indules in the name of the Bal Molagmer. Berel Sala is the head of the Ordinators. He and his Dwemer goblet are in the Justice Offices in Vivec. Danso Indules wanders about the city of Vivec healing the sick. I'm likely to find her in the Temple area, near the High Fane.
-绅士吉姆·史戴西让我偷走贝瑞尔·萨拉的锻莫的高脚杯，以巴尔·莫拉格莫的名义捐给丹索·因杜勒斯。贝瑞尔·萨拉是神殿卫兵们的首领。他和他的锻莫高脚杯都在维威克的正义办公区。丹索·因杜勒斯在维威克城中四处游荡，医治病人。我可能会在神殿区域找到她，就在至高神殿附近。
+绅士吉姆·史戴西让我把贝瑞尔·萨拉的大锻莫高脚杯偷出来，以巴尔·莫拉格莫的名义捐给丹索·因杜勒斯。贝瑞尔·萨拉是调度使的头领。他和他的锻莫高脚杯都在维威克城的正义办公区。丹索·因杜勒斯在维威克城四处游荡行医。我可能会在至高神殿附近的神殿地区找到她。
 
 > INFO.NAME tg_ss_churchpolice 2680724273962214425
 Gentleman Jim Stacey thanked me for stealing Berel Sala's Dwemer goblet and delivering it to Danso Indules.
-绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫的高脚杯，并把它交给了丹索·因杜勒斯。
+绅士吉姆·史戴西感谢我偷了贝瑞尔·萨拉的锻莫高脚杯，并把它交给了丹索·因杜勒斯。
 
 > INFO.NAME tg_overduepayments 1623196932622410356
 Thieves Guild: Ra'Zhid's Dwemer Artifacts
@@ -7290,7 +7290,7 @@ Thieves Guild: Ra'Zhid's Dwemer Artifacts
 
 > INFO.NAME tg_overduepayments 2789251134413470
 Sugar-Lips Habasi told me that Ra'Zhid at Fatleg's Drop Off in Hla Oad promised to deliver some Dwemer artifacts to the Thieves Guild. Habasi asked me to bring her a Dwemer tube, Dwemer goblet, and Dwemer bowl.
-蜜唇·哈巴西告诉我，哈拉-奥德肥腿落客的拉'兹德答应将一些锻莫文物交给盗贼公会。哈巴西让我给她带一个锻莫钢管、锻莫的高脚杯和锻莫碗。
+蜜唇·哈巴西告诉我，哈拉-奥德肥腿落客的拉'兹德答应将一些锻莫文物交给盗贼公会。哈巴西让我给她带一个锻莫钢管、锻莫高脚杯和锻莫碗。
 
 > INFO.NAME tg_overduepayments 1459715713764825773
 Sugar-Lips Habasi thanked me for bringing her Ra'Zhid's dwemer artifacts.
@@ -7950,7 +7950,7 @@ Imperial Legion: Suryn Athones' Slanders
 
 > INFO.NAME il_falseordinator 487153562152416923
 Suryn Athones, an Ordinator at the Justice Offices in Vivec has slandered the dignity of our Order. Frald the White asked me to silence his lying mouth with blood.
-维威克正义办公区的神殿卫兵苏林·安东尼斯在诽谤我们，诋毁了我们骑士团的尊严。苍白者弗拉德要求我用鲜血封住他那张撒谎的嘴。 {发言人}
+苏林·安东尼斯，维威克城正义办公区的一名调度使诽谤了我们教团的尊严。苍白者弗拉德让我用鲜血封住他那张满口胡言的嘴。 {发言人}
 
 > INFO.NAME il_falseordinator 3153926502196810238
 Frald the White thanked me for silencing Suryn Athones.
@@ -8330,11 +8330,11 @@ Thieves Guild: The Mission Report
 
 > INFO.NAME tg_missionreport 12685229461625414827
 Crazy-Legs Arantamo told me that a client asked us to steal an Ordinator's mission report. The report is in the Hall of Justice.
-疯腿·阿兰塔莫告诉我，有个客户让我们偷一份裁决者的任务报告。报告在正义厅堂。
+疯腿·阿兰塔莫告诉我，有个客户让我们偷一份调度使的任务报告。报告在正义大厅。
 
 > INFO.NAME tg_missionreport 266992328826309498
 Crazy-Legs Arantamo thanked me for bringing him the Ordinator's mission report.
-疯腿·阿兰塔莫感谢我给他带来了裁决者的任务报告。
+疯腿·阿兰塔莫感谢我给他带来了调度使的任务报告。
 
 > INFO.NAME mv_cultistvictim 658629163361715908
 Kidnapped by Cultists
@@ -8786,7 +8786,7 @@ House Telvanni: Dwemer Books
 
 > INFO.NAME ht_fireandfaith 21297315101350225327
 I was told that there is a copy of "Nchunak's Fire and Faith" in the Hall of Wisdom in Vivec.
-有人告诉我，维威克的智慧厅堂里有一本《恩楚纳克的热忱与信念》。 {信仰}
+有人告诉我，维威克的智慧大厅里有一本《恩楚纳克的热忱与信念》。 {信仰}
 
 > INFO.NAME romance_ahnassi 161696471263117428
 Ahnassi, a Special Friend
@@ -8882,11 +8882,11 @@ Meet Mehra Milo
 
 > INFO.NAME a1_10_mehramilo 1839230466279245900
 I found Mehra Milo at the Hall of Wisdom, but she says she cannot talk with me. She must feel she is being watched. She says to meet with me in the back of the library.
-我在智慧厅堂找到了梅拉·米洛，但她说她不能和我交谈。她一定觉得自己被监视了。她说在图书馆后面和我见面。
+我在智慧大厅找到了梅拉·米洛，但她说她不能和我交谈。她一定觉得自己被监视了。她说在图书馆后面和我见面。
 
 > INFO.NAME a1_10_mehramilo 3923247741412629413
 Mehra Milo says the Temple persecutes the Nerevarine cult because they claim the Tribunal are false gods. A group called the Dissident priests disputes Temple doctrine on the Nerevarine prophecies. A book "Progress of Truth" describes the beliefs of the Dissident priests. Mehra Milo says I must get a copy of 'Progress of Truth' to give to the Spymaster.
-梅拉-米洛说，神殿迫害尼瑞瓦因教派是因为他们声称审判席是伪神。一个名为“异见祭司”的组织对神殿关于尼瑞瓦因预言的教义提出异议。一本名为《真相的过程》的书描述了异见祭司的信仰。梅拉·米洛说我必须弄一本《真相的过程》交给情报总管。
+梅拉-米洛说，神殿迫害尼瑞瓦因教派是因为他们声称审判席是伪神。一个名为异见祭司的组织对神殿关于尼瑞瓦因预言的教义提出异议。一本名为《真相的过程》的书描述了异见祭司的信仰。梅拉·米洛说我必须弄一本《真相的过程》交给情报总管。
 
 > INFO.NAME tt_felmscleaver 121103144889272957
 Temple: Cleaver of St. Felms
@@ -9966,7 +9966,7 @@ Peakstar says I must be chosen as 'Nerevarine' by the Ashlanders and 'Hortator' 
 
 > INFO.NAME a2_6_incarnate 31361150513130910814
 The spirit of Peakstar warned that now that I bear the Moon-and-Star, and will be recognized as the Nerevarine, I must be ready for hatred and fear from the Temple, from Ordinators, and from Tribunal Faithful of the Great Houses.
-峰之星的鬼魂警告我，既然我现在佩戴着“星与月”，并将被承认为尼瑞瓦因，我就必须做好准备，迎接来自审判席、神殿卫兵们和各大家族信仰的仇恨与恐惧。
+峰之星的魂灵警告说，如今我佩戴着“星与月”，并将被承认为尼瑞瓦因，我必须准备好面对来自神殿、调度使和各大家族中的审判席忠实信徒们的仇恨和恐惧。 {信仰}
 
 > INFO.NAME a2_6_incarnate 401103691980114107
 I saw Azura in the Cavern of the Incarnate. I received the Moon-and-Star, an enchanted ring, and I am the Nerevarine. I have passed the first three trials. Now I must show Moon-and-Star to the ashkhans of the tribes and the councilors of the houses. Each tribe must call me Nerevarine. Each House must call me Hortator. These are the next two trials. Nibani Maesa shall be my guide. I must return to her and seek her counsel.
@@ -10898,15 +10898,15 @@ Ilmeni Dren thanked me for freeing Hides-His-Foot.
 
 > INFO.NAME hh_winsaryoni 2968310132134383687
 House Hlaalu: Control the Ordinators
-哈拉鲁家族：控制神殿卫兵
+哈拉鲁家族：控制调度使
 
 > INFO.NAME hh_winsaryoni 37879234120217576
 Duke Dren asked me to speak with Archcanon Tholer Saryoni at the High Fane in Vivec and persuade him to control Berel Sala's Ordinators.
-德伦公爵让我去维威克城的至高神殿与索勒·萨里奥尼大主教谈谈，劝说他控制贝瑞尔·萨拉的神殿卫兵们。
+德伦公爵让我去维威克城的至高神殿与索勒·萨里奥尼大主教谈谈，劝说他控制贝瑞尔·萨拉的调度使。
 
 > INFO.NAME hh_winsaryoni 1597520625261639817
 Duke Dren thanked me for persuading Archcanon Tholer Saryoni to curb the worst of the Ordinators' zeal.
-德伦公爵感谢我说服大主教索勒·萨里奥尼遏制了神殿卫兵们的狂热。
+德伦公爵感谢我劝说索勒·萨里奥尼大主教遏制了调度使的过激狂热。
 
 > INFO.NAME hh_wincamonna 517125626807223001
 House Hlaalu: Dealing with Orvas Dren
@@ -12046,7 +12046,7 @@ Temple: Hair Shirt of St. Aralor
 
 > INFO.NAME tt_hairshirt 25726133402018323932
 The Ordinator Feril Salmyn was lost while searching for Lost Kogoruhn. Uvoo Llaren asked me to find him if he is alive. If he is dead, I should return the Hair Shirt of St. Aralor, a sacred relic.
-神殿卫兵费里尔·萨尔曼在寻找失落的科戈汝因时迷失了方向。如果他还活着的话，尤沃·拉伦让我找到他。如果他死了，我应该归还圣·阿拉洛的苦行衣，这是一件圣物。 {神圣}
+调度使费里尔·萨尔敏在寻找失落的科戈汝因时失踪了。尤沃·拉伦让我去把他找回来，如果他还活着的话。若他死了，我应该把圣·亚拉洛的苦行衣带回来，这是件圣遗物。 {神圣}
 
 > INFO.NAME tt_hairshirt 1503312331654312586
 Uvoo Llaren thanked me for returning the Hair Shirt of St. Aralor.
@@ -14186,7 +14186,7 @@ I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Q
 
 > INFO.NAME town_vivec 1711925436295071793
 I reported to Elam Andas, and he said the Dunmer woman I killed in the Foreign Quarter Underworks matched the description of the killer he wanted executed. As a reward, he offered me a choice between an Indoril helm and cuirass or a Belt of the Armor of God. I accepted the Indoril helm and cuirass. I am not supposed to wear it in Vivec City, to avoid being mistaken for an Ordinator.
-我向埃拉姆·安达斯报告，他说我在外邦区的底层区杀死的那个丹莫女人符合他想要处死的凶手的描述。作为报酬，他让我在因多瑞尔头盔和铠甲或神甲腰带中任选其一。我接受了因多瑞尔头盔和铠甲。在维威克城，我不应该佩戴它，以免被误认为是神殿卫兵。
+我向埃拉姆·安达斯报告，他说我在外邦区的底层区杀的那个丹莫女人符合他想处决杀手的特征。作为报酬，他让我在因多瑞尔头盔和胸甲或神甲腰带中选择一个。我接受了因多瑞尔头盔和胸甲。我不应该在维威克城穿上它们，以免被误认为是调度使。
 
 > INFO.NAME da_mephala 9104096839921513
 Mephala's Quest
@@ -17502,7 +17502,7 @@ The Tusked Bristleback is a type of boar native to Solstheim. There are lots of 
 
 > INFO.NAME progress of truth 674262862325718452
 This book lists the disputes of the Dissident priests with Tribunal Temple doctrines. The Temple has outlawed the sale or possession of the book, so it will be hard to find. We have a copy here, but I fear I'm being watched by Ordinators here. A safer plan would be to search local booksellers. Some booksellers ignore Temple bans on outlawed books for profits or for principles.
-这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我被神殿卫兵监视了。还有个更安全的计划是搜索本地的书商。有些书商为了利润或原则，无视神殿对非法书籍的禁令。 {被神殿卫兵看管,利益}
+这本书列出了异见祭司与审判席神殿教义的争端。神殿禁止出售或拥有这本书，所以很难找到。我们这里有一本，但我担心我正在被调度使监视。还有个更安全的计划是搜索本地的书商。有些书商为了利益或原则，无视神殿对非法书籍的禁令。
 
 > INFO.NAME old man's anguish 2801811436864812351
 I thank you again for helping me, %PCRace. You came to my aid when no one else would, and for that I will be forever grateful.
@@ -24215,7 +24215,7 @@ Help me fight them!
 
 > INFO.NAME greeting 1 10909327311897330757
 Who are you? Are you in the Imperial Legion? The Ordinators have been looking for me. I've done a terrible thing. Can you... Look out! Behind you!
-你是谁？你是帝国军团的人？神殿卫兵们一直在找我。我做了件可怕的事，你能…小心！在你后面！ {帝国人}
+你是谁？你是帝国军团的人吗？调度使一直在找我。我做了一件可怕的事。你能不能……小心！在你后面！ {帝国人}
 
 > INFO.NAME greeting 1 2204191313063028203
 You do not have an appointment to see Varona Nelas.
