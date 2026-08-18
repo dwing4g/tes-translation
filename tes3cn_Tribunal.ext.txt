@@ -372,23 +372,23 @@ You now have a Magic Menu, where you can see all your powers, spells, and magic 
 
 > SCPT.SCTX CharGen_ring_keley m2
 Ok
-继续
+确定
 
 > SCPT.SCTX CharGen_ring_keley m3
 Like all menus, right click to use your new menu. Click the spell or magic item you want to make your Active Magic.
-与其他所有菜单一样，按下背包键以查看新菜单。单击来选择所要装备的魔法或者道具。
+与其它所有菜单一样，按下背包键以查看新菜单。单击来选择所要装备的魔法或者道具。
 
 > SCPT.SCTX CharGen_ring_keley m4
 Ok
-继续
+确定
 
 > SCPT.SCTX CharGen_ring_keley m5
 Like all menus, press B to use your new menu. The triggers cycle between menus. Press B again to exit your menus.
-与其他所有菜单一样，按下 B 键以查看新菜单。通过扳机键切换菜单，并再次按下 B 键来退出。
+与其它所有菜单一样，按下 B 键以查看新菜单。通过扳机键切换菜单，并再次按下 B 键来退出。
 
 > SCPT.SCTX CharGen_ring_keley m6
 Ok
-继续
+确定
 
 > SCPT.SCTX CharGen_ring_keley m7
 Press ^ActionReadyMagic to ready your Active Magic, then click to cast.
@@ -396,7 +396,7 @@ Press ^ActionReadyMagic to ready your Active Magic, then click to cast.
 
 > SCPT.SCTX CharGen_ring_keley m8
 Ok
-继续
+确定
 
 > SCPT.SCTX CharGen_ring_keley m9
 Press Y to ready your Active Magic, then the RIGHT TRIGGER to cast.
@@ -404,7 +404,7 @@ Press Y to ready your Active Magic, then the RIGHT TRIGGER to cast.
 
 > SCPT.SCTX CharGen_ring_keley m10
 Ok
-继续
+确定
 
 > SCPT.SCTX DagothUrCreature1 s1
 Welcome, Moon-and-Star, to this place where destiny is made.
@@ -524,7 +524,7 @@ STOP!
 
 > SCPT.SCTX LorkhanHeart s5
 This is the end. The bitter, bitter end.
-这就是结局…痛苦的结局。
+这就是结局，痛苦的结局。
 
 > SCPT.SCTX mazedbandEnd_Script m1
 Use the Mazedband to teleport where?
@@ -788,7 +788,7 @@ You have found the body of Sotha Sil, his lifeless hulk dangling from a contrapt
 
 > SCPT.SCTX Sotha_SothaSil m2
 Ok
-继续
+确定
 
 > SCPT.SCTX SothaImperfectDoor m1
 The door does not budge. Not while the Imperfect lives.
@@ -964,7 +964,7 @@ Resist Paralysis
 
 > SPEL.FNAM resist normal weapons_50
 Resist Normal Weapons
-抵抗普通武器
+抵抗常规武器
 
 > SPEL.FNAM prox_mine_fire
 Proximity Mine Fire
@@ -1429,7 +1429,7 @@ $93Sister-in-Law,$94 said Potema, addressing Bianki with deep malevolence. $93Yo
 <BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-狼女王，卷五<BR>
+狼女王·卷五<BR>
 瓦辛·贾斯　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 摘自第二纪元圣贤，蒙托凯的学生英佐里库斯的著作：<BR>
@@ -2588,7 +2588,7 @@ Vampires were believed to be extinct in Morrowind for centuries. Dunmer culture 
 <BR>
 在西方，肉体形态的亡灵通常被叫做“丧尸”，而在晨风，它们被称作“骨行者”。魔法将骨行者身上的肉、骨架与灵魂牢牢地结合在一起。你可以很容易地从骨头上尖尖的结节以及在结节上捆绑着的用于某种仪式的金属片来判断出它是否是骨行者。所有的骨行者都是有害的，非常危险的，那些高级的骨行者比那些普通的骨行者更加有破坏性。一般来说，普通的武器就可以对骨行者造成伤害。<BR>
 <BR>
-要归纳无肉体形态的亡灵是件比较难的事。骷髅就属于这种形态，它们的战斗技巧或者动作敏捷的程度都来源于它们生前的能力。它们中有的很弱，有的很强，有的不擅长战斗，有的则会熟练的运用盾牌和各种武器。这一切都取决于它们的前世。幸运的是，我们不需要有一把附魔的武器就可以对它造成伤害。但是，骸骨领主则是个例外，这是一种特殊的骷髅，它所拥有的能量大多是从它的灵魂中取得的，而不是在它的骨架中遗留下来的那些。骸骨领主既强大又危险，而且普通武器不会对它造成任何的伤害。<BR>
+要归纳无肉体形态的亡灵是件比较难的事。骷髅就属于这种形态，它们的战斗技巧或者动作敏捷的程度都来源于它们生前的能力。它们中有的很弱，有的很强，有的不擅长战斗，有的则会熟练的运用盾牌和各种武器。这一切都取决于它们的前世。幸运的是，我们不需要有一把附魔的武器就可以对它造成伤害。但是，骸骨领主则是个例外，这是一种特殊的骷髅，它所拥有的能量大多是从它的灵魂中取得的，而不是在它的骨架中遗留下来的那些。骸骨领主既强大又危险，而且常规武器不会对它造成任何的伤害。<BR>
 <BR>
 几百年前，吸血鬼就已经在晨风大陆绝种了。在丹莫文化中有憎恨吸血鬼的传统，在很久以前，调度使和灵动扈从的猎杀导致了它们的灭绝。不过在最近几年，一些外来的吸血鬼已经开始悄悄地渗透进入晨风大陆，而一些原本沉睡的吸血鬼也都苏醒了过来。吸血鬼的形态和力量会随着它们年龄和知识的增长而变化。最弱小的吸血鬼的力量也远远超过了其他不死族生物。备注：灰烬吸血鬼不属于吸血鬼，也不属于不死族。灰烬吸血鬼是一种极度危险的生物。它们的灵魂和形态会经由某种魔法过程而永久地保存下来。已经有审判席神殿的圣战士报告说，对不死族有效的魔法不会对灰烬吸血鬼产生任何作用。<BR>
 <BR>
@@ -2621,7 +2621,7 @@ Then, reader, would you seize this opportunity to join House Hlaalu? Would you h
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 把握财富<BR>
-哈拉鲁·德拉姆·贝罗Serjo（大人）著<BR><BR>
+哈拉鲁·德拉姆·贝罗Serjo（大人）　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 我是哈拉鲁家族的一名议员，并选择为那些寻求了解或加入我们的人写下这简短的指南。哈拉鲁家族是大家族中最为开放和现代的。我们是唯一接受了不可抗的帝国法律和习俗潮流的大家族。因此，我们从帝国的新政策中受益，从默默无闻中崛起为最伟大的家族。<BR>
 <BR>
@@ -3787,7 +3787,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
 泰姆瑞尔诸神器<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
-下列笔记由我于过去几个世纪中所撰，用以辑录各色超凡法器。 下列神器在全泰姆瑞尔大陆失而复得、得而复失、循环往复。其中有些可能是神话传说，有些可能是骗局整蛊，但无论如何，许多人在对此类令人垂涎之物的寻宝和护宝的过程中丧命。<BR>
+下列笔记由我于过去几个世纪中所撰，用以辑录各色超凡法器。下列神器在全泰姆瑞尔大陆失而复得、得而复失、循环往复。其中有些可能是神话传说，有些可能是骗局整蛊，但无论如何，许多人在对此类令人垂涎之物的寻宝和护宝的过程中丧命。<BR>
 <BR>
 君王链甲<BR>
 <BR>
@@ -3803,7 +3803,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 <BR>
 克里萨米尔<BR>
 <BR>
-圣骑士之刃是一柄古老的大剑，攻防俱佳，甚至防御方面更胜一筹。 其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
+圣骑士之刃是一柄古老的大剑，攻防俱佳，甚至防御方面更胜一筹。其可为执剑人增益生命，使之免于火焰伤害，并将对执剑人施放的各种法术反弹给施法者。少有剑士可挥舞克里萨米尔哪怕须臾，只因其择勇士豪杰而栖，而非逢迎之物。<BR>
 <BR>
 玛格努斯之杖<BR>
 <BR>
@@ -3918,7 +3918,7 @@ Probably the most rare and even outlawed item of all the great prizes is the Dae
 奥雷恩·熊爪是威木的传奇英雄之一。身为“蛤目”弗姆王之子，他是受人尊敬的氏族猎手和储君。木精灵传说声称奥瑞因孤身一人击败了精灵森林的蛇妖女巫格伦弗努亚，为其氏族带来了永远的和平。奥瑞因本要实践其王道征途，却最终丧命于纳哈腾流感。他的头盔作为对其伟业的纪念而留存，供后人铭记。随着氏族分裂，头盔最终散佚，现在成了冒险者的争相竞逐的神器。据传，奥雷恩·熊爪之盔可以提升佩戴者的敏捷与耐力。<BR>
 迪德拉新月刃<BR>
 <BR>
-可能所有神器中最稀有，甚至最不为官厅法度所容忍之物便是迪德拉新月刃了。梅鲁涅斯·大衮的迪德拉大军在攻占帝国战斗尖塔时使用了这种刀兵。此类尤其独特的兵器在帝国光复战斗尖塔后便集中销毁。却唯独漏了一把。 尽管帝国确信已尽数销毁，但有传言称在泰姆瑞尔的某处仍有一把留存，虽然未尝有人一睹。新月刃令持有者对敌人以巨大杀伤，并允许其麻痹敌人和极大磨损提防护甲。倘若此物确实存在，那对任何猛士而言都是相当不错的神器。<BR>
+可能所有神器中最稀有，甚至最不为官厅法度所容忍之物便是迪德拉新月刃了。梅鲁涅斯·大衮的迪德拉大军在攻占帝国战斗尖塔时使用了这种刀兵。此类尤其独特的兵器在帝国光复战斗尖塔后便集中销毁。却唯独漏了一把。尽管帝国确信已尽数销毁，但有传言称在泰姆瑞尔的某处仍有一把留存，虽然未尝有人一睹。新月刃令持有者对敌人以巨大杀伤，并允许其麻痹敌人和极大磨损提防护甲。倘若此物确实存在，那对任何猛士而言都是相当不错的神器。<BR>
 """
 
 > BOOK.FNAM bk_AlchemistsFormulary
@@ -7989,7 +7989,7 @@ Gra-Muzgob Informant
 
 > INFO.NAME a1_4_muzgobinformant 7116277302832410471
 The Spymaster told me to get Sharn gra-Muzgob at the Balmora Mages Guild to tell me about the Nerevarine, and then report back to him. I'll have to do a little "errand" for her first, he says. I'm beginning to see a pattern here. Rather than pay informants with hard cash, Caius Cosades trades favors for information. And as the new recruit in the organization, I provide the favors. Ah, well. A lesson in humility.
-情报总管让我找巴尔莫拉法师公会的莎恩·格拉-穆兹格布告诉我尼瑞瓦因的情况，然后再向他报告。他说，我得帮她一点小“忙”。我开始发现其中的规律了。凯乌斯·科萨德斯不是用现金支付给线人购买情报，而是用人情换取情报。作为组织的新成员，我提供了好处。啊，好吧。算是上了一课。 {差事,老鼠}
+情报总管让我找巴尔莫拉法师公会的莎恩·格拉-穆兹格布告诉我尼瑞瓦因的情况，然后再向他报告。他说，我得帮她一点小“差事”。我开始发现其中的规律了。凯乌斯·科萨德斯不是用现金支付给线人购买情报，而是用人情换取情报。作为组织的新成员，我提供了好处。啊，好吧。算是上了一课。 {老鼠,忙}
 
 > INFO.NAME a1_4_muzgobinformant 723123997500018044
 The Spymaster seemed happy with the notes I gave him on the Nerevarine from Sharn gra-Muzgob. Caius says he'd like to see me at a higher level of conditioning before he sends me out again. So I should take some time to polish my skills and enhance my cover story with a little freelance adventuring. Then, when I'm ready, I'll return, and Caius will have new orders for me. [When you reach Level 3 or higher, return to Caius for more orders.]
@@ -8001,7 +8001,7 @@ The Spymaster seemed happy with the notes I gave him on the Nerevarine from Shar
 
 > INFO.NAME a1_4_muzgobinformant 1450229266230788256
 The Spymaster promoted me to Apprentice Rank in the Blades. He seems pleased with me, because he also gave me a little present.
-情报总管把我晋升为刀锋的学徒级别。他似乎对我很满意，为他还给了我一个小礼物。
+情报总管把我晋升为刀锋的学徒级别。他似乎对我很满意，因为他还给了我一个小礼物。
 
 > INFO.NAME tg_grandmasterretort 9795263632623723230
 Thieves Guild: The Grandmaster's Retort
@@ -8009,7 +8009,7 @@ Thieves Guild: The Grandmaster's Retort
 
 > INFO.NAME tg_grandmasterretort 2952619499170516060
 Big Helende told me that a client wants a Grandmaster's Retort. Big Helende told me that Berwen the Trader in Tel Mora has a Grandmaster's Retort.
-大个子海伦德告诉我，有个客户想要宗师级曲颈瓶。他还诉我，泰尔-莫拉的贸易商伯雯有一个宗师级的曲颈瓶。
+大个子海伦德告诉我，有个客户想要宗师级曲颈瓶。大个子海伦德告诉我，泰尔-莫拉的贸易商伯雯有一个宗师级的曲颈瓶。
 
 > INFO.NAME tg_grandmasterretort 31541104182425318801
 Big Helende thanked me for delivering a Grandmaster's Retort.
@@ -8101,7 +8101,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_drarayne 1758611742222423214
 I spoke with Drarayne Girith who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与德拉雷恩·基里斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与德拉雷恩·基里斯进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_llandras 711088042237828794
 Sleepers Awake
@@ -8109,7 +8109,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_llandras 1172226896790414614
 I spoke with Llandras Belaal who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与兰德拉斯·贝拉尔进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_vireveri 20722124852575822469
 Sleepers Awake
@@ -8117,7 +8117,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_vireveri 575543361036629602
 I spoke with Vireveri Darethran who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与维雷维·达雷斯兰进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME tr08_hlaalu_berano_a 5139110252506310878
 Evidence of Conspiracy
@@ -8177,7 +8177,7 @@ Divided by Nix Hounds
 
 > INFO.NAME mv_missingcompanion 1105622899123384255
 While wandering near Ald'ruhn, I found Falanu Indaren, who had apparently been attacked by a pack of nix hounds while traveling with her husband.
-在奥德'汝因附近，我发现了法拉努·英达伦，她显然是在和丈夫一起旅行时被一群尼克斯猎犬袭击的。
+在奥德'汝因附近游荡时，我发现了法拉努·英达伦，她显然是在和丈夫一起旅行时被一群尼克斯猎犬袭击的。
 
 > INFO.NAME mv_missingcompanion 31438186252551117845
 I have no time to try and help Falanu Indaren find her husband.
@@ -8441,7 +8441,7 @@ Temple: Cure the Outcast Outlander
 
 > INFO.NAME tt_ministryheathen 17758175881961613670
 Uvoo Llaren asked me to cure Assantus Hansar in an outcast Ashlander camp south of Ghostgate. I should be prepared to calm him, as outcast Ashlanders can be aggressive even when they are ill.
-尤沃·拉伦让我去幽魂之门南边一个被遗弃的叫做阿萨图斯·汉萨营地的地方治愈阿萨图斯·汉萨。我应该做好安抚他的准备，因为灰烬之民即使在生病时也会咄咄逼人。
+尤沃·拉伦让我去幽魂之门南边一处被遗弃的灰烬之民营地为阿萨图斯·汉萨治病。我应该做好安抚他的准备，因为灰烬之民即使在生病时也会咄咄逼人。
 
 > INFO.NAME tt_ministryheathen 4471769216816780
 Uvoo Llaren thanked me for curing Assantus Hansar.
@@ -8825,11 +8825,11 @@ Lorbumol gro-Aglakh paid me the bounty for Adraria Vandacia.
 
 > INFO.NAME hr_guardguarherds 13535154612446232748
 House Redoran: Trouble with Bandits
-瑞多然家族：强盗的困扰
+瑞多然家族：强盗的麻烦
 
 > INFO.NAME hr_guardguarherds 10500306252164315455
 Neminda asked me to talk to Drulene Falen again. The guar herders are having trouble with bandits.
-内明达让我再和德鲁琳·法伦谈谈。瓜尔牧民遇到了强盗的困扰。
+内明达让我再和德鲁琳·法伦谈谈。瓜尔牧民遇到了强盗的麻烦。
 
 > INFO.NAME hr_guardguarherds 1419610573166017625
 Neminda thanked me for taking care of the bandits.
@@ -9005,7 +9005,7 @@ Mouth Felisa Ulessen gave me some new clothes and asked me to deliver them to Mi
 
 > INFO.NAME ht_theranaclothes 591365743083316878
 Mouth Felisa Ulessen thanked me for delivering the clothes to her patron.
-发言人菲丽莎·乌雷森感谢我把服装送到了她的顾客手中。 {资助者}
+发言人菲丽莎·乌雷森感谢我把服装送到了她的资助者手中。
 
 > INFO.NAME ht_slaverebellion 248493095769026523
 House Telvanni: Slave Rebellion
@@ -9017,7 +9017,7 @@ Mouth Felisa Ulessen asked me to put down a slave rebellion the Abebaal Egg Mine
 
 > INFO.NAME ht_slaverebellion 487172421682912494
 Mouth Felisa Ulessen thanked me for stopping the slave revolt.
-发言人菲丽莎·乌雷森感谢我阻止了奴隶的起义反抗。 {造反}
+发言人菲丽莎·乌雷森感谢我阻止了奴隶的起义造反。
 
 > INFO.NAME ht_slaverebellion 32621263782198720561
 I told Mouth Felisa Ulessen that the slaves were no longer in the Abebaal Egg Mine.
@@ -9137,7 +9137,7 @@ I met a Bosmer pilgrim named Thoronor, who was on his way to Vivec. Apparently, 
 
 > INFO.NAME mv_strayedpilgrim 146312296223746784
 I've decided that Thoronor will be able to find Edras Oril on his own. I have more pressing business.
-我决定让索罗诺尔自己去找埃德拉斯·奥里尔。我有更紧急的事。
+我决定让索罗诺尔自己去找埃德拉斯·奥里尔。我有更紧急的事。 {生意}
 
 > INFO.NAME mv_strayedpilgrim 2692122385595129644
 Edras Oril can find his own way back to his friend. I have no time to try and babysit a couple of wayward scholars.
@@ -10261,7 +10261,7 @@ I took care of the bad person, Daren Adryn, the Camonna Tong thug who threatened
 
 > INFO.NAME romance_ahnassi 205041638348016816
 I spoke to Daren Adryn about Ahnassi, but he said he never heard of her, and that is wasn't any of my business, anyway. Then he threatened me, and told me to go away.
-我跟达伦·阿德林谈起阿娜西，但他表示从来没听说过她，反正也不关我的事。随后他威胁我，要我离开。
+我跟达伦·阿德林谈起阿娜西，但他表示从来没听说过她，反正也不关我的事。随后他威胁我，要我离开。 {生意}
 
 > INFO.NAME romance_ahnassi 65994414113317341
 I have offered to take care of the bad person who has threatened Ahnassi. The bad person is Daren Adryn, a Dark Elf, and a Camonna Tong bigwig. Ahnassi says he is found at Nadene Rotheran's Shack in Gnaar Mok.
@@ -10321,7 +10321,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_all_hortator 17767246002949023303
 I have been named Hortator of all three Great Houses, Redoran, Hlaalu, and Telvanni. Of the Seven Visions of Seven Trials of the Incarnate, I have now fulfilled the Fourth Trial.
-我被任命为大家族泰瓦尼，瑞多然，哈拉鲁和泰瓦尼三大家族的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。
+我被任命为瑞多然、哈拉鲁和泰瓦尼三大家族的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。
 
 > INFO.NAME b7_telvannihort 322562370259142198
 Telvanni Hortator
@@ -11037,7 +11037,7 @@ Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Ver
 
 > INFO.NAME fg_verethigang 14760934222272524
 Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
-艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {事}
+艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {生意}
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
@@ -11049,7 +11049,7 @@ Eydis Fire-Eye told me a Hunger is loose in the Sarano Tomb which is over the hi
 
 > INFO.NAME fg_hungerloose 1625028503916121756
 Eydis Fire-Eye thanked me for slaying the Hunger and paid me 1000 gold.
-艾迪斯·火眼感谢我杀死饥饿魔，并付给我1000金币。
+艾迪斯·火眼感谢我杀死了饥饿魔，并付给我1000金币。
 
 > INFO.NAME hr_finddalobar 182912969464921300
 House Redoran: Find Mathis Dalobar
@@ -11125,7 +11125,7 @@ House Hlaalu: Bank Courier
 
 > INFO.NAME hh_bankcourier 3950135161216932088
 Edryno Arethi wants me to deliver sealed orders to Treasurer Baren Alen in the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的上层。 {指示}
+埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的顶层。 {指示}
 
 > INFO.NAME hh_bankcourier 38030277295099293
 Edryno Arethi thanked me for delivering the sealed orders.
@@ -11377,7 +11377,7 @@ The ghost of Idrenie Nerothan gave me a probe and lockpick.
 
 > INFO.NAME a2_6_incarnate 135912716814865701
 The ghost of Erur-Dan gave me a spear and cuirass.
-埃鲁-丹的鬼魂给了我一件胸甲和一把长枪。
+埃鲁-丹的鬼魂给了我一把长枪和一件胸甲。
 
 > INFO.NAME a2_6_incarnate 2228710002691815370
 The ghost of Hort-Ledd gave me a book and a robe.
@@ -11401,7 +11401,7 @@ When a greater enemy threatens, the Great Houses put aside their quarrels and ch
 
 > INFO.NAME a2_6_incarnate 8690325341678211857
 Nibani Maesa reminded me of the Fourth Trial of the Seven Visions: 'A stranger's voice unites the Houses./Three Halls call him Hortator.' When I have been named 'Hortator' by each of the three Great Houses of Vvardenfell, I will have passed the Fourth Trial, and should return to Nibani Maesa for further guidance.
-尼巴妮·玛伊沙提醒我注意七大异象的第四个试炼：“一个异客的声音使三大家族团结起来。/三大家族称他为统谏使”。当我被瓦登费尔的三大家族分别命名为“统谏使”时，我就通过了第四个试炼，应该回到尼巴妮·玛伊沙那里寻求进一步的指导。
+尼巴妮·玛伊沙提醒我注意七大异象的第四个试炼：“一个异客的声音使三大家族团结起来。/三大家族称他为统谏使。”当我被瓦登费尔的三大家族分别命名为“统谏使”时，我就通过了第四个试炼，应该回到尼巴妮·玛伊沙那里寻求进一步的指导。
 
 > INFO.NAME a2_6_incarnate 1447523185589615937
 Peakstar says I must be chosen as 'Nerevarine' by the Ashlanders and 'Hortator' by the Great Houses. These are titles of war leaders chosen to unite the Dunmer in times of need. I must prove a war leader is needed, and be chosen as that war leader. I must tell how the Tribunal used profane tools of the Dwarves, and betrayed and misled the people. I must tell about the threat of Dagoth Ur and the Sixth House, and how the Tribunal can no longer contain them.
@@ -11793,7 +11793,7 @@ House Hlaalu: Erroneous Documents
 
 > INFO.NAME hh_replacedocs 48978964231896166
 Odral Helvi wants me to replace a scroll in the Hlaalu Records in Vivec. The Records are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side. I should put the scroll in the chest of Ascadian land deeds.
-奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的上层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
+奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的顶层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
 
 > INFO.NAME hh_replacedocs 754722062219716561
 I told Odral Helvi that I replaced the documents as he asked.
@@ -12033,7 +12033,7 @@ I confronted Ahnia about the scrolls, and she attacked me.  I was forced to defe
 
 > INFO.NAME ms_scrollsales 25459225061713729395
 'Ten-Tongues' Weerhat admitted that he's been involved in some shady business with a Khajiit named Ahnia.  She can be found in the Sewers underneath the Bazaar.
-“十舌”维哈特承认他和一个叫阿妮娅的卡吉特卷入了一些不光彩的事。她可以在集市下面的下水道里找到。
+“十舌”维哈特承认他和一个叫阿妮娅的卡吉特卷入了一些不光彩的事。她可以在集市下面的下水道里找到。 {生意}
 
 > INFO.NAME ms_scrollsales 22527328258781776
 When I questioned 'Ten-Tongues' Weerhat about the scrolls he offers at discount prices, he mentioned someone named Ahnia, but wouldn't say more.
@@ -12441,7 +12441,7 @@ Temple: Compassion
 
 > INFO.NAME tt_compassion 31919179021757618115
 Tuls Valen wants me to reenact Vivec's compassionate healing of a foe. I must either learn the Rilm's Gift spell or use the potion he gave me to cure the Orc Bulfim gra-Shugharz of Ash-Chancre. Bulfim gra-Shugarz is in Maelkashishi. I can get there by heading east from Ald Velothi until I reach the mountains, then following the mountains south.
-图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之赐”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
+图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之赐”法术，或者用他给我的药水来治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
 
 > INFO.NAME tt_compassion 836014959162526210
 Tuls Valen thanked me for curing Bulfim gra-Shugharz.
@@ -12801,7 +12801,7 @@ The Path of the Incarnate
 
 > INFO.NAME a2_6_erur-dan 157355819368830561
 The ghost of Erur-Dan gave me a spear and cuirass.
-埃鲁-丹的鬼魂给了我一件胸甲和一把长枪。
+埃鲁-丹的鬼魂给了我一把长枪和一件胸甲。
 
 > INFO.NAME va_vampmarara 133173884197361898
 The Weary Vampire
@@ -12829,7 +12829,7 @@ Dhaunayne Aundae has asked me to provide her with another service. Apparently, a
 
 > INFO.NAME va_vamphunter 2168029170325054057
 I have decided not to try and kill this vampire hunter. Killing a vampire hunter is risky business. Doing in the light of day is suicide.
-我决定不杀这个吸血鬼猎人。杀死吸血鬼猎人本身就是一件很冒险的事。在日光之下出手简直就是自杀。
+我决定不杀这个吸血鬼猎人。杀死吸血鬼猎人本身就是一件很冒险的事。在日光之下出手简直就是自杀。 {生意}
 
 > INFO.NAME va_vamphunter 24017128262511431373
 I have returned to Ashmelech and spoken with Daunayne Aundae. She was unhappy with my failure to provide an example for other vampire hunters.
@@ -12953,7 +12953,7 @@ Imperial Cult: The Haunting
 
 > INFO.NAME ic16_haunting 23064189583248723812
 A Bosmer named Nedhelas in Caldera says his house is haunted by a ghost. Kaye said ghosts aren't affected by normal weapons, so he gave me 200 gold to buy an enchanted weapon or spell, and for other expenses. I'm to talk to Nedhelas first, and I should report back to Kaye if I rid the haunted house of its ghost.
-卡尔德拉有个叫内德拉斯的波斯莫说他家闹鬼。凯说鬼魂不受普通武器的影响，所以他给了我200金币，让我买附魔的武器或法术，以及其他费用。我要先和内德拉斯的房子谈谈，如果我把鬼屋的鬼魂赶走了，就应该向凯报告。
+卡尔德拉有个叫内德拉斯的波斯莫说他家闹鬼。凯说鬼魂不受常规武器的影响，所以他给了我200金币，让我买附魔的武器或法术，以及其他费用。我要先和内德拉斯的房子谈谈，如果我把鬼屋的鬼魂赶走了，就应该向凯报告。
 
 > INFO.NAME ic16_haunting 24247171973105411224
 I reported taking care of the haunted house for Nedhelas. Kaye seemed pleased. He gave me some magic scrolls and told me to speak to him again when I was ready for another shrine sergeant mission.
@@ -13905,7 +13905,7 @@ I have spoken with Sterdecan. He was not surprised by the bounty hunter's ruse. 
 
 > INFO.NAME mv_fakeslave 1509180951142725729
 Tul tells me that since Sterdecan is dead, he has no further business with me.
-图尔告诉我，既然斯特德坎已经死了，他与我再无瓜葛。 {事}
+图尔告诉我，既然斯特德坎已经死了，他与我再无瓜葛。 {生意}
 
 > INFO.NAME b2b_dutadalk 1093225014162453895
 Ahemmusa Nerevarine
@@ -13921,7 +13921,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_backdoor1 10901625642699447
 Athyn Sarethi was concerned that I had not fulfilled the Nerevarine prophecies. He says that Archcanon Saryoni hopes I will come speak with him at the High Fane in Vivec City.
-艾辛·萨雷提担心我没有实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。
+艾辛·萨雷提担心我是否实现尼瑞瓦因预言。他说大主教萨里奥尼希望我能到维威克城的至高神殿与他交谈。
 
 > INFO.NAME b8_backdoor2 3525313401580925556
 Hortator and Nerevarine
@@ -14877,7 +14877,7 @@ Mages Guild: Fake Soul Gem
 
 > INFO.NAME mg_sabotage 2032217651464016623
 Ajira gave me a fake soul gem. She wants me to sabotage Galbedir's Journeyman project. I should put the fake soul gem in Galbedir's desk.
-阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的老手晋级计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。
+阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的资深法师计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。
 
 > INFO.NAME mg_sabotage 1126144581591424416
 Ajira thanked me for helping her sabotage Galbedir's experiment.
@@ -14937,7 +14937,7 @@ I have agreed to let Irarak live here in peace with his followers. While these f
 
 > INFO.NAME va_vampcult 15229159883102313813
 Irarak is dead. His cult will have to find a new way to spend their time and gold.
-因拉拉克已经死了，他的教派必须另谋出路，徒耗时间和金钱。
+因拉拉克已经死了，他的教派必须另谋出路，消磨时间和金钱。
 
 > INFO.NAME va_vampcult 10565207852121112490
 I have returned to Druscashti and told Volrina Quarra of the death of "Lord Irarak." She was pleased, and will allow me to use clan services.
@@ -14997,7 +14997,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_ponius 125573741191396819
 Iulus Truptor asked me to persuade Canctunian Ponius of the East Empire Company to deliver the 1000 gold he has pledged to sponsor a mission to the Ashlanders. I'll find him at the East Empire Company Hall in Ebonheart. When I have the generous pledge from Canctunian Ponius, I'm to deliver it to Iulus Truptor.
-尤卢斯·特鲁普托我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特鲁普托。
+尤卢斯·特鲁普托让我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特鲁普托。
 
 > INFO.NAME ic14_ponius 772410064107932659
 I told Canctunian Ponius that I had failed to find Mossanon and the missing gold. Now Canctunian Ponius says he cannot redeem his 1000-drake pledge to the Imperial cult.
@@ -16677,7 +16677,7 @@ I told Synnolian Tunifus I would not be able to bring him the five units of rat 
 
 > INFO.NAME ic6_rat 17168270551144814456
 I delivered five units of rat meat to Synnolian Tunifus. He gave me a cure poison potion as a reward. And since his errands have become more dangerous, he taught me some useful unarmored defense maneuvers.
-我给辛诺里安·图尼夫斯送去了五块老鼠肉。他给了我一瓶解毒药作为奖励。由于他的任务变得更加危险，他教了我一些有用的无甲防御技巧。 {药水,报酬,差事}
+我给辛诺里安·图尼夫斯送去了五块老鼠肉。他给了我一瓶解毒药作为奖励。由于他的差事变得更加危险，他教了我一些有用的无甲防御技巧。 {药水,报酬}
 
 > INFO.NAME eb_bone 3073530836492311330
 The Dwemer's Bone
@@ -16685,7 +16685,7 @@ The Dwemer's Bone
 
 > INFO.NAME eb_bone 105562289015111609
 I have heard rumor that Balen Andrano is having a rough time with his business.
-我听说巴伦·安德拉诺的生意不好做。 {事}
+我听说巴伦·安德拉诺的生意不好做。
 
 > INFO.NAME eb_bone 54856565159329953
 Jeanne admonished me for attempting to enter her private quarters, and threatened to call the guard if I did not stay away.
@@ -16709,7 +16709,7 @@ A Friend in Deed
 
 > INFO.NAME eb_deed 2159810269257649
 I've heard rumors that Alusaron, a smith in the Foreign Quarter of Vivec, has been losing a lot of business, and his nearest competitor recently got a big contract.
-我听说有传言说，维威克外邦区的铁匠铺阿鲁萨隆最近生意大不如前，他最近的竞争对手得到了一份大合同。 {事}
+我听说有传言说，维威克外邦区的铁匠铺阿鲁萨隆最近生意大不如前，他最近的竞争对手得到了一份大合同。
 
 > INFO.NAME eb_deed 271964268268382650
 I have told Alusaron I will not steal the contract from Ralen Tilvur.
@@ -17257,7 +17257,7 @@ No.
 
 > INFO.NAME boots of blinding speed 743628527306374240
 A wondrous pair of boots indeed. The name says it all! I would hate to ever part with them.
-真是一双神奇的靴子。听名字就知道了，我真舍不得。
+真是一双神奇的靴子。听名字就知道了！我真舍不得。
 
 > INFO.NAME boots of blinding speed 15801574972347619
 What? How is it that you have these? They belong to the museum now! GUARDS!
@@ -17325,7 +17325,7 @@ Yes, the Lady requests your presence at once. It is best not to keep her waiting
 
 > INFO.NAME chronicles of nchuleft 2951510500150015041
 Good. I will not forget this, %PCName. As you have brought me all three books. Please accept these trinkets of mine. I no longer have any use for them.
-很好。我不会忘记的，%PCName。你给我带来了三本书，请收下我的这些矿场饰品。我不再需要它们了。
+很好。我不会忘记的，%PCName。你给我带来了三本书。请收下我的这些矿场饰品，我不再需要它们了。
 
 > INFO.NAME evidence of conspiracy 1425428293323619623
 I don't get it. Don't you want to fight? Oh! Wait! I see. You are a GOOD guy! Sure. I understand. So now I got to get lost. Fast, right? Okay. Time to use that old Recall amulet. So long, pal... and thanks.
@@ -17389,11 +17389,11 @@ Warn Bedal Alen, and let him escape.
 
 > INFO.NAME evidence of conspiracy 32511263772492521876
 You've handled this matter.  And now I'd like your help finding the anonymous writer of 'The Common Tongue'.
-你已经完成了这个任务。现在我想让你帮忙找到《众口真言》的匿名作者。 {这件事,令状}
+你已经完成了这件事。现在我想让你帮忙找到《众口真言》的匿名作者。 {令状}
 
 > INFO.NAME evidence of conspiracy 2381627194204327816
 You've handled this matter.
-你已经完成了这个任务。 {这件事}
+你已经完成了这件事。
 
 > INFO.NAME evidence of conspiracy 22942152382747617324
 You've executed Forven Berano, Hloggar the Bloody, and Bedal Alen? Congratulations. It is customary to pay the executioner for his services. Here are 3000 gold pieces, with our thanks. And now I'd like your help finding the anonymous writer of 'The Common Tongue'.
@@ -17649,7 +17649,7 @@ I'll transport you right away. Good luck to you!
 
 > INFO.NAME transport to mournhold 1423930459746025913
 Heading back, are you? Hope you've gotten all that business cleared up.
-要回去了，是吗？希望你已经把事情都办完了。
+要回去了，是吗？希望你已经把事情都办完了。 {生意}
 
 > INFO.BNAM transport to mournhold 1423930459746025913 c1
 Yes, please.
@@ -17665,7 +17665,7 @@ Well! I certainly didn't mean to pry. I simply can't send you there without good
 
 > INFO.NAME transport to mournhold 25282287292091227193
 Oh, my! I can see why you'd want to get that cleared up. That's dangerous business, though. I can't say I'd be happy to send you off on that sort of fool's errand. If you're sure, though, I suppose I can oblige you. If you need to return to Vvardenfell, speak with Effe-Tei in the Royal Palace. Take care, friend. Those people are not to be taken lightly. I'll send you there when we've finished speaking.
-哦，我的天啊！我知道你为什么想去解决这个问题了。不过，这是件危险的事。我不能说我很乐意送你去干这种傻事。但如果你执意要去，我想我可以帮你。如果你需要返回瓦登费尔，请与王室宫殿里的艾菲-泰交谈。小心点，朋友。那些人不可小觑。等我们说完了，我就送你过去。 {差事}
+哦，我的天啊！我知道你为什么想去解决这个问题了。不过，这是件危险的事。我不能说我很乐意送你去干这种傻差事。但如果你执意要去，我想我可以帮你。如果你需要返回瓦登费尔，请与王室宫殿里的艾菲-泰交谈。小心点，朋友。那些人不可小觑。等我们说完了，我就送你过去。 {生意}
 
 > INFO.NAME transport to mournhold 1345816464305833843
 You wish to go to the mainland? That's highly irregular. I'm sure you've heard that they've restricted travel to Mournhold. They've been a bit worried about the Blight. Even though it's been reported that the Blight is gone from Vvardenfell, they're still worried about possible contamination. What's your reason for wanting to go to the city?
@@ -17805,11 +17805,11 @@ It's an honor... to serve.... It is my honor to serve King Helseth and Queen Bar
 
 > INFO.NAME join the royal guards 15034182702940217107
 You hear folks say old King Llethan was a fool. Well, folks should keep their mouths shut. Maybe he was a fool, but lots of folk are fools. Maybe he had no business being a king, but that's what he was, so folk should show some respect to the old fellow.
-你听过人们说老国王莱森是个傻瓜。那么，这些人应该闭上他们的嘴。也许他是个傻子，但许多人也都是傻子。也许他不适合当国王，但他就是这样，所以人们应该对这个老家伙表示一些尊重。 {发言人,事}
+你听过人们说老国王莱森是个傻瓜。那么，这些人应该闭上他们的嘴。也许他是个傻子，但许多人也都是傻子。也许他不适合当国王，但他就是这样，所以人们应该对这个老家伙表示一些尊重。 {发言人,生意}
 
 > INFO.NAME join the royal guards 3224656232826229107
 What did Tienius Delitian send you to me for? If he wants you to be a Royal Guard, then you'll be a Royal Guard. Nothing to do with me. How do I like it? You think I was born yesterday? My mom didn't teach me to blabber to strangers. So old King Llethan was a bit of a fool, but he was good to me. And King Helseth is no fool. He's got to keep some experienced men like me around. All these new fellows, like you... someone's gotta teach them their business, 'cause they don't know it.
-蒂纽斯·德利天派你来找我是为了什么？如果他想让你加入王宫卫兵，那你就已经是王宫卫兵了。与我无关。我怎么会喜欢呢？你以为我是昨天才出生的吗？我妈妈没有教我对陌生人胡说八道。所以，老国王莱森是有点傻，但他对我很好。而赫尔塞斯国王也不是傻瓜。他必须在身边保留一些像我这样有经验的人。所有这些新来的家伙，比如你…总得有人教他们怎么做事，因为他们不知道。 {瓜尔}
+蒂纽斯·德利天派你来找我是为了什么？如果他想让你加入王宫卫兵，那你就已经是王宫卫兵了。与我无关。我怎么会喜欢呢？你以为我是昨天才出生的吗？我妈妈没有教我对陌生人胡说八道。所以，老国王莱森是有点傻，但他对我很好。而赫尔塞斯国王也不是傻瓜。他必须在身边保留一些像我这样有经验的人。所有这些新来的家伙，比如你…总得有人教他们怎么做事，因为他们不知道。 {瓜尔,生意}
 
 > INFO.BNAM join the royal guards 3224656232826229107 c1
 Ask about King Llethan.
@@ -17837,7 +17837,7 @@ I'd rather not talk about it.
 
 > INFO.NAME join the royal guards 26585303952110923358
 I serve King Helseth, just like I served King Llethan, and I keep my mouth shut. You want to be in the Royal Guards? That's Tienius Delitian's business, and your business, and none of mine.
-我侍奉赫尔塞斯国王，就像我侍奉莱森国王一样，而且我懂得保持沉默。你想加入王宫卫兵？那是蒂纽斯·德利天的事，也是你的事，与我无关。 {发言人,瓜尔}
+我侍奉赫尔塞斯国王，就像我侍奉莱森国王一样，而且我懂得保持沉默。你想加入王宫卫兵？那是蒂纽斯·德利天的事，也是你的事，与我无关。 {发言人,瓜尔,生意}
 
 > INFO.BNAM join the royal guards 26585303952110923358 c1
 Ask about King Llethan.
@@ -17869,7 +17869,7 @@ What about him? He was what he was. He was the king, and my noble lord, and I se
 
 > INFO.NAME join the royal guards 254779490176819368
 I've been a Royal Guard all my life, and so was my mother and her mother. I served King Llethan for many years, and now I'll serve King Helseth. Long live the King, and long live the Emperor. It's none of my business, of course, but why do you want to be a guard? You look like you've done well enough for yourself as an adventurer.
-我一生都是王宫卫兵，我的母亲和她的母亲也是。我侍奉莱森国王多年，现在我将侍奉赫尔塞斯国王。国王万岁，皇帝也万岁。当然，这不关我的事，但你为什么要加入卫兵？你当冒险家干得很不错啊。 {瓜尔}
+我一生都是王宫卫兵，我的母亲和她的母亲也是。我侍奉莱森国王多年，现在我将侍奉赫尔塞斯国王。国王万岁，皇帝也万岁。当然，这不关我的事，但你为什么要加入卫兵？你当冒险家干得很不错啊。 {瓜尔,生意}
 
 > INFO.BNAM join the royal guards 254779490176819368 c1
 Ask about King Llethan.
@@ -18029,7 +18029,7 @@ Hmm. I doubt someone of your temperment would find the duty interesting. But the
 
 > INFO.NAME join the royal guards 110691999915397948
 If people ask you questions about your background and qualifications, play the close-mouthed professional -- tell them to mind their own business. But I'll let slip my concerns about you hiding close dealings with House Hlaalu in the past. Only a fool would share confidences with a stranger. But perhaps we are dealing with a fool.
-如果有人问起你的身份背景和资历，你作为专业人士只需闭口不谈——告诉他们管好自己的事。不过，我必须要向你表达我的担忧，因为你隐瞒了与哈拉鲁家族过去的亲密关系。只有傻瓜才将秘密分享给陌生人。但也许我们面对的就是一个傻瓜。 {问题,发言人}
+如果有人问起你的身份背景和资历，你作为专业人士只需闭口不谈——告诉他们管好自己的事。不过，我必须要向你表达我的担忧，因为你隐瞒了与哈拉鲁家族过去的亲密关系。只有傻瓜才将秘密分享给陌生人。但也许我们面对的就是一个傻瓜。 {问题,发言人,生意}
 
 > INFO.NAME spear of bitter mercy 26664163331564629257
 What?  How is it that you have this?  This was part of the museum's collection!  GUARDS!
@@ -18697,11 +18697,11 @@ Are you here to deliver the potion?
 
 > INFO.BNAM cure disease potion 346893951864618506 c1
 Yes
-是的，给你
+是的
 
 > INFO.BNAM cure disease potion 346893951864618506 c2
 No
-不行
+不是
 
 > INFO.NAME cure disease potion 645811855296408403
 Yes, thank you for helping me. It's a silly story, really. I'd been down in the sewers...  why? Well, I'd gotten a tip that a rare and valuable item might be down there. All I found, however, was rats. No matter now; everything is fine.
@@ -18809,7 +18809,7 @@ I know of nothing you may do for the Lady Almalexia at this time.
 
 > INFO.NAME service to our lady 3095912007739921190
 Unfortunately, I know of nothing you may do for the Lady now. Speak with Fedris Hler. He usually has errands that must be completed by the lowly. Don't let him tell you he has nothing to be done. I'm sure there's something.
-不幸的是，我不知道你现在可以为圣母做什么。跟费德里斯·赫勒说吧。他通常有一些必须由低级别的人完成的任务。别让他告诉你他没有事情可做让你做。我敢肯定是有的。 {差事}
+不幸的是，我不知道你现在可以为圣母做什么。跟费德里斯·赫勒说吧。他通常有一些必须由低级别的人完成的差事。别让他告诉你他没有事情可做让你做。我敢肯定是有的。
 
 > INFO.NAME service to our lady 17615160531930412071
 Finish your task at hand, and then maybe we will speak about it.
@@ -19541,7 +19541,7 @@ No thanks, I don't have time.
 
 > INFO.NAME clay-brained nord 3103123602944418742
 Holmar! Inside the bar here. I came in for a drink, minding my own damned business, when that guar-loving drunkard started raving and making fun of me. He grabbed me by the shirt, slid me across the bar, and then kicked me out the door. He$92ll be singing all of Saryoni's Sermons at once when I've had my revenge.
-那个荷马！之前我去酒吧里喝一杯，想着那些天杀的烦心事。结果那个日瓜尔的酒鬼就开始唧唧喳喳的，拿我寻乐子！他揪起我的衬衫，把我掀到了吧台外边，然后把我踢出门。等我报仇雪恨那天，我要逼他唱完萨里奥尼的布道词。
+那个荷马！之前我去酒吧里喝一杯，想着那些天杀的烦心事。结果那个日瓜尔的酒鬼就开始唧唧喳喳的，拿我寻乐子！他揪起我的衬衫，把我掀到了吧台外边，然后把我踢出门。等我报仇雪恨那天，我要逼他唱完萨里奥尼的布道词。 {生意}
 
 > INFO.NAME saryoni's sermons 799730468105677864
 Not quite done yet, %PCName. Thanks for letting me read it, though. I'll be done shortly, I'm sure.
@@ -19721,11 +19721,11 @@ I understand you've taken care of your problem with them. Good work.
 
 > INFO.NAME dark brotherhood 257033692708026903
 Perhaps you have been attacked. That's bad business. I don't know who it is that wants you dead, and I don't want to know. Dark Brotherhood activity here on Vvardenfell has been almost unheard of, but I know they have a large contingent back on the mainland.
-也许你已经被攻击了。真是糟糕。我不知道是谁想要你的命，我也不想知道。黑暗兄弟会在瓦登费尔这里的活动几乎闻所未闻，但我知道他们在主大陆有一支庞大的队伍。 {事}
+也许你已经被攻击了。真是糟糕。我不知道是谁想要你的命，我也不想知道。黑暗兄弟会在瓦登费尔这里的活动几乎闻所未闻，但我知道他们在主大陆有一支庞大的队伍。 {生意}
 
 > INFO.NAME dark brotherhood 14927322571589216857
 Perhaps you have been attacked. That's bad business. I don't know who it is that wants you dead, and I don't want to know. Dark Brotherhood activity here on Vvardenfell has been almost unheard of, but I know they have a large contingent back on the mainland.
-也许你已经被攻击了。真是糟糕。我不知道是谁想要你的命，我也不想知道。黑暗兄弟会在瓦登费尔这里的活动几乎闻所未闻，但我知道他们在主大陆有一支庞大的队伍。 {事}
+也许你已经被攻击了。真是糟糕。我不知道是谁想要你的命，我也不想知道。黑暗兄弟会在瓦登费尔这里的活动几乎闻所未闻，但我知道他们在主大陆有一支庞大的队伍。 {生意}
 
 > INFO.NAME dark brotherhood 442923131696826151
 The Dark Brotherhood have a long and interesting history, though a great deal of it still lies shrouded in mystery. What is certain is that they are deadly and remorseless. Steer clear of them at all costs.
@@ -19765,7 +19765,7 @@ You believe you've killed their leader? I wouldn't count on that. You probably o
 
 > INFO.NAME dark brotherhood 2143510411258486053
 You've killed their leader, huh? Don't be so sure. You may have killed a high ranking officer around here, but there's always another to replace him. I don't know anything about who might have hired them, either. That's none of my business. Talk to one of the Royal Guard, or head over to the Temple.
-你杀了他们的首领，嗯？别那么肯定。你也许杀了这里的一个高级官员，但总会有另一个人来代替他。我也不知道是谁雇佣了他们。这不关我的事。跟一个王宫卫兵谈谈，或者去神殿。 {瓜尔}
+你杀了他们的首领，嗯？别那么肯定。你也许杀了这里的一个高级官员，但总会有另一个人来代替他。我也不知道是谁雇佣了他们。这不关我的事。跟一个王宫卫兵谈谈，或者去神殿。 {生意,瓜尔}
 
 > INFO.NAME dark brotherhood 1969313694195622814
 I don't know why you'd want to go looking for those demons. Some say they live in the sewers beneath the Great Bazaar.
@@ -19945,7 +19945,7 @@ Goval Ralen.
 
 > INFO.BNAM meet someone new 673016332608424388 c4
 Nevermind.
-别在意。
+算了，当我没提。
 
 > INFO.NAME meet someone new 1824722823114512079
 Okay, %PCName.  What's his name?
@@ -19961,7 +19961,7 @@ Goval Ralen.
 
 > INFO.BNAM meet someone new 1824722823114512079 c3
 Nevermind.
-别在意。
+算了，当我没提。
 
 > INFO.NAME meet someone new 31747266011539615581
 Okay, %PCName.  What's his name?
@@ -19977,7 +19977,7 @@ Sunel Hlas.
 
 > INFO.BNAM meet someone new 31747266011539615581 c3
 Nevermind.
-别在意。
+算了，当我没提。
 
 > INFO.NAME meet someone new 11397278031641413702
 Okay, %PCName.  What's his name?
@@ -19993,7 +19993,7 @@ Goval Ralen
 
 > INFO.BNAM meet someone new 11397278031641413702 c3
 Nevermind.
-别在意。
+算了，当我没提。
 
 > INFO.NAME meet someone new 10964171373190732121
 Okay, %PCName.  What's his name?
@@ -20005,7 +20005,7 @@ Fons Beren.
 
 > INFO.BNAM meet someone new 10964171373190732121 c2
 Nevermind.
-别在意。
+算了，当我没提。
 
 > INFO.NAME meet someone new 17501262502474328724
 Okay, %PCName.  What's his name?
@@ -20017,7 +20017,7 @@ Goval Ralen.
 
 > INFO.BNAM meet someone new 17501262502474328724 c2
 Nevermind.
-别在意。
+算了，当我没提。
 
 > INFO.NAME meet someone new 451834092898324083
 Okay, %PCName.  What's his name?
@@ -20029,7 +20029,7 @@ Sunel Hlas.
 
 > INFO.BNAM meet someone new 451834092898324083 c2
 Nevermind.
-别在意。
+算了，当我没提。
 
 > INFO.NAME meet someone new 2693523618317279525
 I'm serious, %PCName. Please don't joke around. If you meet someone, let me know, okay?
@@ -20753,7 +20753,7 @@ Oh...if you insist. I mean, if you're completely sure....
 
 > INFO.NAME travel together 2091021750732311715
 Do you want me to stay with you? I'd be willing to wait here. I m-mean, it's up to you.
-你想让我陪在你身边吗？我愿意在这里等待。我的意思是，这取决于你。
+你想让我陪在你身边吗？我愿意在这里等着。我的意思是，这取决于你。
 
 > INFO.BNAM travel together 2091021750732311715 c1
 Stay with me.
@@ -20761,7 +20761,7 @@ Stay with me.
 
 > INFO.BNAM travel together 2091021750732311715 c2
 Wait here.
-你先待在这。
+在这里等着。
 
 > INFO.NAME travel together 1627714415913516768
 Habasi hears you broke our agreement. Habasi does not want to speak with you now.
@@ -21437,7 +21437,7 @@ Let me tell you about current events. The Great Houses are always fighting each 
 
 > INFO.NAME warlock's ring 602497971940413272
 Ajira knows that Vindamea Drethan has the Warlock's Ring. Ajira tells you this because Ajira does not like Vindamea Drethan. She is in Ashirbadon, a cave on a small island west of the ruins of Bal Fell.
-阿吉拉知道文达梅娅·德雷桑拥有巫者之戒。阿吉拉告诉你这些是因为阿吉拉不喜欢文达梅娅·德雷桑。她在阿希尔巴顿，巴尔-费尔废墟西面小岛上的一个洞穴里。 {戒指}
+阿吉拉知道文达梅娅·德雷桑拥有巫者之戒。阿吉拉告诉你这些是因为阿吉拉不喜欢文达梅娅·德雷桑。她在阿希尔巴顿，这个洞穴在巴尔-费尔废墟的东面小岛上。 {戒指}
 
 > INFO.NAME warlock's ring 3210859491424513287
 You don't have Warlock's Ring with you? Then come back with it, and we'll settle the deal.
@@ -21513,7 +21513,7 @@ Yes, he came nosing about our lair some weeks ago. Some of my spies have tracked
 
 > INFO.BNAM vampire hunter 14317185292636531007 c1
 I will kill this vampire hunter for all to see.
-我不会为你这么做的。
+我要杀了这个吸血鬼猎人，让所有人都看到。
 
 > INFO.BNAM vampire hunter 14317185292636531007 c2
 I will not do this for you.
@@ -21529,7 +21529,7 @@ I have no rewards for you yet, yearling.
 
 > INFO.NAME future rewards 3131813091323883715
 Our business is complete. There are no other ways for you to help me, New Blood.
-我们的生意结束了，你没别的办法帮我了，新血。 {我们的事情,事}
+我们的生意结束了，你没别的办法帮我了，新血。
 
 > INFO.NAME future rewards 16337111081828622674
 Many of the Berne and Aundae are dead by your hand. This is a good thing. I will allow you to feed here in Druscashti. Do not kill the cattle, though, or you will no longer be welcome.
@@ -22575,7 +22575,7 @@ Have you spoken with him? I'd like to know as much as possible about what's goin
 
 > INFO.NAME elbert nermarc 571330019848219892
 He's the enchanter working over at the Craftsmen's Hall. I have no idea what business she would have with him, but if she's been making the effort to visit him, then perhaps he may have some insight as to her condition. Could you go talk to him, %PCName, and ask him about Golena Sadri? I'd go myself, but I feel that I really should remain here to comfort her.
-他是在工匠大厅工作的附魔师。我不知道她会和他有什么关系，但如果她一直在努力拜访他，那么他也许会对她的情况有所了解。%PCName，你能不能去找他谈谈，问问他戈蕾娜·萨德利的事？我想自己去，但我觉得我真的应该留在这里安慰她。
+他是在工匠大厅工作的附魔师。我不知道她会和他有什么关系，但如果她一直在努力拜访他，那么他也许会对她的情况有所了解。%PCName，你能不能去找他谈谈，问问他戈蕾娜·萨德利的事？我想自己去，但我觉得我真的应该留在这里安慰她。 {生意}
 
 > INFO.NAME larrius varro 170116092516092
 With the recent troubles, we have had many Writs issued. The most challenging I have saved for you, %PCRank. This one is for Larrius Varro in Fort Moonmoth near Balmora.
@@ -22791,7 +22791,7 @@ The services required at lower ranks in the Imperial cult are not very difficult
 
 > INFO.NAME little advice 30111573026704475
 Look. If you're the bloody-minded type, tries to complete every task a boss gives you, you're in for a world of hurt. Happens all the time. You breeze through a couple of jobs, then you hit one you can't budge. I can't tell you what to do, but me, I go find something else to do for a while. Sure, nobody likes to admit you can't do a job. You brood over it, lie awake nights figuring how your gonna crack that nut. But patience and good sense is as important as blood and courage in this business.
-听着，如果你是那种血气方刚的人，试图完成老板交给你的每一个任务，你就会受到很大的伤害。这种事经常发生，你轻而易举地完成了一些活，然后你遇到了一个你无法完成的任务，我不能告诉你该怎么做，但我，我会去找点别的事情做一段时间。当然，没人喜欢承认自己干不了某个活。你会耿耿于怀，夜不能寐，盘算着如何破解难题。但在这个行业里，耐心和理智与血性和勇气同样重要。
+听着，如果你是那种血气方刚的人，试图完成老板交给你的每一个任务，你就会受到很大的伤害。这种事经常发生，你轻而易举地完成了一些活，然后你遇到了一个你无法完成的任务，我不能告诉你该怎么做，但我，我会去找点别的事情做一段时间。当然，没人喜欢承认自己干不了某个活。你会耿耿于怀，夜不能寐，盘算着如何破解难题。但在这个行业里，耐心和理智与血性和勇气同样重要。 {生意}
 
 > INFO.NAME little advice 2576933592066224959
 Higher quality picks and probes are definitely worth their higher price. But keep cheaper ones around as well for the easier locks and traps. Also be sure to find a good source for buying these instruments.
@@ -22907,7 +22907,7 @@ I bet old Mollimo and his hirelings could make short work of Trerayna Dalen. But
 
 > INFO.NAME little advice 980080082674620343
 Security is pretty tight at the tower, what with Trerayna Dalen's siege and all. Better not ruffle any feathers if you have any business in the tower. If Mollimo thinks you've got something cooked up with Dalen, he might kill you first and let the old necromancer ask questions later. Heh-heh.
-由于特雷娜·达伦的围攻，塔楼的戒备相当森严。如果你在塔楼里有什么事，最好别惹麻烦。如果摩利莫认为你和达伦有什么勾结，他可能会先杀了你，然后再让老死灵法师问问题。嘿嘿。 {开锁}
+由于特雷娜·达伦的围攻，塔楼的戒备相当森严。如果你在塔楼里有什么事，最好别惹麻烦。如果摩利莫认为你和达伦有什么勾结，他可能会先杀了你，然后再让老死灵法师问问题。嘿嘿。 {开锁,生意}
 
 > INFO.NAME little advice 276881608633172795
 Trerayna Dalen has challenged Mistress Therana for Tel Branora. Dalen and her mercenaries have been camped out here for months, but they haven't got much to show for it. I think she may have run out of steam. Or maybe the mercenaries are getting restless. Might be Therana's captain, Mollimo, would welcome some help.
@@ -22987,11 +22987,11 @@ Don't know anything about adventuring? Here's the basics. Travel light, run like
 
 > INFO.NAME little advice 23461272711692331735
 Where to start. Probably in Balmora. That's the House Hlaalu district seat. They've got a Fighters Guild and Mages Guild there, and a legion fort -- though I don't know if they're recruiting. They have all the services you need -- trainers, smiths, outfitters -- and if you join a guild and work your way up, the discounts and perks are worthwhile.
-从哪里开始？可能在巴尔莫拉，那是哈拉鲁家族的辖区。那里有战士公会和法师公会，还有一个军团要塞——不过我不知道他们是否在招兵买马。他们有你需要的所有服务——驯兽师、铁匠铺、装备店——如果你加入公会并努力往上爬，折扣和福利都是值得的。 {工作}
+从哪里开始？巴尔莫拉就不错，那是哈拉鲁家族的辖区。那里有战士公会和法师公会，还有一个军团要塞——不过我不知道他们是否在招兵买马。他们有你需要的所有服务——训练师、铁匠铺、装备商——如果你加入公会并努力往上爬，折扣和福利都是值得的。 {工作}
 
 > INFO.NAME little advice 290424981117230807
 Phew. You're bittergreen green, outlander. Might as well wear a sign, "New in Town." Word of advice. Buy a little good will. Lose a few drakes, gain a friend. Folks will loosen up if your spread a little of the Emperor's gold around.
-呼。你是苦绿，外地人。还不如挂个牌子“新来的”给你个建议。买点好感，失去几个龙币，得到一个朋友。如果你把皇帝的金币散播出去，人们就会放松警惕了。
+呼。你是苦绿，外地人，还不如挂个牌子“新来的”。给你个建议，买点好感，失去几个龙币，得到一个朋友。如果你把皇帝的金币散播出去，人们就会放松警惕了。
 
 > INFO.NAME little advice 2136124912127065261
 Your first visit to Morrowind, outlander? Then learn the law and local customs. Get a copy of Law and Custom in Morrowind. Slavery is legal here. Foul murder is illegal, but if he strikes the first blow, you're in the clear. A verbal attack is illegal, just like an unprovoked physical attack. Folks are touchy about personal honor. Watch your tongue, or you'll get called out to a duel.
@@ -23043,7 +23043,7 @@ Visit the Tower shrine, and ask the priests there about it. Quite a story. 'To y
 
 > INFO.NAME little advice 66814576200015326
 Not much up here to keep a questing hero like yourself busy, I'm afraid. It's pretty quiet, and that's the way we like it. You might take a look at the Daedric ruins to the southwest, though. Don't know anything about them, myself. No business fooling with that stuff. But they say a lot of those old sites have hidden treasures.
-恐怕这里没什么需要你这样的探险英雄操心忙碌的事。这里很宁静，我们就喜欢这样。不过你可以去西南边的迪德拉遗迹看看。我对那里一无所知，也没必要知道，但据说很多古迹都藏有宝藏。 {忙着,迪德拉式}
+恐怕这里没什么需要你这样的探险英雄操心忙碌的事。这里很宁静，我们就喜欢这样。不过你可以去西南边的迪德拉遗迹看看。我对那里一无所知，也没必要知道，但据说很多古迹都藏有宝藏。 {忙着,迪德拉式,生意}
 
 > INFO.NAME little advice 31770240923247032717
 People around here are suspicious of strangers asking a lot of questions. Maybe something they're doing isn't exactly legal. They don't want anyone poking around. You understand?
@@ -23063,7 +23063,7 @@ There are nests of dreugh somewhere along the Bitter Coast. They're not to be tr
 
 > INFO.NAME little advice 3788232451380113869
 You may have heard people refer to the Bitter Coast as the Smuggler's Coast. There's a reason for that. A lot of islands and coastline, with plenty of caves and hidey-holes, and few people around. Perfect for men with boats who want to keep their business private.
-你可能听说过人们把苦涩海岸称为走私者的海岸。这是有原因的。这里岛屿和海岸线众多，有很多洞穴和藏身之处，而且人迹罕至。非常适合有船的人私下活动。 {事}
+你可能听说过人们把苦涩海岸称为走私者的海岸。这是有原因的。这里岛屿和海岸线众多，有很多洞穴和藏身之处，而且人迹罕至。非常适合有船的人私下生意。
 
 > INFO.NAME little advice 95123413300347676
 Here's a notion. Steal from thieves. Perfectly legal. Outlaws got no rights, and they'll none of them be missed. You're a big hero if you bag a few thieves. And you end up with their stuff. Slick, eh? Of course, it's dangerous. But you can't get ahead without taking some risks.
@@ -23071,7 +23071,7 @@ Here's a notion. Steal from thieves. Perfectly legal. Outlaws got no rights, and
 
 > INFO.NAME little advice 21185135362764217184
 Mind your own business is my advice to visitors. Don't get nosy, or some people may take strong objection. If you think you're hot stuff, and you want to throw your weight around, go ahead. But I warned you.
-别多管闲事，这是我对游客的忠告。不要多管闲事，否则有些人可能会强烈反对。如果你觉得自己很了不起，想大显身手，请便。但我警告过你了。
+别多管闲事，这是我对游客的忠告。不要多管闲事，否则有些人可能会强烈反对。如果你觉得自己很了不起，想大显身手，请便。但我警告过你了。 {生意}
 
 > INFO.NAME little advice 847025867278623837
 They've sealed off the eggmine. Only letting miners in. But there is a secret entrance from the river bed.
@@ -23103,7 +23103,7 @@ A fellow looking for trouble might take a peek around in the old Daedric ruins o
 
 > INFO.NAME little advice 323723948562628631
 You look like someone who is thinking about going into Red Mountain. We will not stop you. But we warn you: without protection from blight diseases, you won't get far. And even with protection, and plenty of blight cures when protection fails, you must plan on short forays inside and quick returns for heals and cures. And the creatures inside are terrible and numerous. And the ruins and citadels are worse.
-你看起来像是要去红山的人。我们不会阻止你，但我们警告你：没有应对枯萎病瘟疫的防护措施，你走不远的。即使有保护措施，当它失效时你还得有足够的枯萎病治疗方法，你也必须规划好，只在短时间内进入红山，然后迅速返回以获得治疗和治愈。里面的生物既可怕又数量庞大。废墟和城堡里的情况更糟。 {疾病,计划}
+你看起来像是要去红山的人。我们不会阻止你，但我们警告你：没有应对枯萎病瘟疫的防护措施，你走不远的。即使有保护措施，当它失效时你还得有足够的枯萎病治疗方法，你也必须规划好，只在短时间内进入红山，然后迅速返回以获得治疗和治愈。里面的生物既可怕又数量庞大。遗迹和城堡里的情况更糟。 {疾病,计划}
 
 > INFO.NAME little advice 6126261832187221723
 The Imperial Legion may be recruiting. I hear the units are at full strength in the town forts, but there might be openings on the frontier, up at Fort Darius. Speak to Frald the White, Knight Bachelor and Chapter Steward of the Hawkmoth Legion.
@@ -23115,7 +23115,7 @@ We get pilgrims here from time to time, since we're the closest port to a pair o
 
 > INFO.NAME little advice 20392225971245920880
 Lots of ruins here on Sheogorad. If you're an adventurer looking for loot, or trouble, it might be worthwhile exploring the island. Mzuleft is the big Dwemer ruin everyone knows about. But there are other places on the island, less famous, less often visited, that might be more interesting. And safer.
-谢尔格拉德这里有很多废墟。如果你是个冒险家，想找点战利品或麻烦，也许值得一探。姆祖莱夫特是个人尽皆知的大型锻莫遗迹。但岛上还有其他地方，籍籍无名，人迹罕至，可能更有趣。而且更安全。
+谢尔格拉德这里有很多遗迹。如果你是个冒险家，想找点战利品或麻烦，也许值得一探。姆祖莱夫特是个人尽皆知的大型锻莫遗迹。但岛上还有其他地方，籍籍无名，人迹罕至，可能更有趣。而且更安全。
 
 > INFO.NAME little advice 2475845702385631107
 Caldera is a quiet, law-abiding town. Not much call for adventurers or mercenaries here. A good place to shop for equipment and look for a trainer, though.
@@ -23351,19 +23351,19 @@ If you want to know about a place on Vvardenfell, talk to a scout. And the scout
 
 > INFO.NAME little advice 1582215293888325846
 Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.
-费纳斯·马达奇是个真正的盗贼大佬。当然，他已经退休了。至少他自己是这么说的。他在尼希斯有间马达奇贸易行。你想和盗贼谈生意，就去找费纳斯·马达奇。 {事}
+费纳斯·马达奇是个真正的盗贼大佬。当然，他已经退休了。至少他自己是这么说的。他在尼希斯有间马达奇贸易行。你想和盗贼谈生意，就去找费纳斯·马达奇。
 
 > INFO.NAME little advice 2985123463212131778
 Fenas Madach is the thief's thief. Retired, of course. Or so he says. He has a business up in Gnisis, Madach's Tradehouse. You want to talk shop with a thief, go talk to Fenas Madach.
-费纳斯·马达奇是个真正的盗贼大佬。当然，他已经退休了。至少他自己是这么说的。他在尼希斯有间马达奇贸易行。你想和盗贼谈生意，就去找费纳斯·马达奇。 {事}
+费纳斯·马达奇是个真正的盗贼大佬。当然，他已经退休了。至少他自己是这么说的。他在尼希斯有间马达奇贸易行。你想和盗贼谈生意，就去找费纳斯·马达奇。
 
 > INFO.NAME little advice 2887412587138876697
 Most assassins don't like to talk about their trade. Take the Morag Tong, for instance. Tight-lipped about everything. But Ingokning, the assassin at the Skyrim Mission in Ebonheart? He doesn't mind talking. In fact, he'll bend your ear if you aren't careful.
-大多数刺客不喜欢谈论他们的生意。比如莫拉格堂。对什么都守口如瓶。但黑檀心天际使馆的刺客英戈克宁呢？他不介意多嘴。事实上，一不小心他就会把你的耳朵拧下来。
+大多数刺客不喜欢谈论他们的生意。比如莫拉格堂，对什么都守口如瓶。但黑檀心天际使馆的刺客英戈克宁呢？他不介意多嘴。事实上，一不小心他就会把你的耳朵拧下来。
 
 > INFO.NAME little advice 1587830284221866331
 Most assassins don't like to talk about their trade. Take the Morag Tong, for instance. Tight-lipped about everything. But Ingokning, the assassin at the Skyrim Mission in Ebonheart? He doesn't mind talking. In fact, he'll bend your ear if you aren't careful.
-大多数刺客不喜欢谈论他们的生意。比如莫拉格堂。对什么都守口如瓶。但黑檀心天际使馆的刺客英戈克宁呢？他不介意多嘴。事实上，一不小心他就会把你的耳朵拧下来。
+大多数刺客不喜欢谈论他们的生意。比如莫拉格堂，对什么都守口如瓶。但黑檀心天际使馆的刺客英戈克宁呢？他不介意多嘴。事实上，一不小心他就会把你的耳朵拧下来。
 
 > INFO.NAME little advice 15250386497516540
 If you want to talk to an archer about archery, talk to Ian in Ebonheart. You can usually find him wandering around on the plaza near the docks, where the dragon statue is.
@@ -23655,7 +23655,7 @@ There must be more diamond deposits on Vvardenfell. This kind of rock is common 
 
 > INFO.NAME little secret 90711268416724565
 This is a dangerous place, so none of the House people will come here. So we have kept the secret of the ebony all to ourselves. Now you know our secret. you are brave to come so far, outlander, so we will let you live, but do not touch the ebony.
-这是个危险的地方，所以家族的人都不会来这里，所以我们一直把黑檀岛的秘密藏在心里，现在你知道我们的秘密了。外地人，你很勇敢，能来这么远的地方，所以我们会让你活下去，但不要碰黑檀。
+这是个危险的地方，所以家族的人都不会来这里，所以我们一直把黑檀岛的秘密藏在心里。现在你知道我们的秘密了。外地人，你很勇敢，能来这么远的地方，所以我们会让你活下去，但不要碰黑檀。
 
 > INFO.NAME little secret 673821472106711099
 I like your style, n'wah. Here's a tip. Propylon. Ever been in a Dunmer stronghold? Have you seen the propylon chambers, with the two big stone pillars? They're transportation devices. Except you need a key to use them -- a tiny little thing called a 'propylon index'. A guy tried to sell me one -- wanted a fortune for it, so I told him to blow. Later I hear this guy went to a Daedric shrine called Maelkashishi, and forgot to come back. So maybe the propylon index went there with him. And stayed.
@@ -23687,7 +23687,7 @@ Do the old places of the Deep Elves interest you? then you must look upon Nchule
 
 > INFO.NAME little secret 15868320951144631638
 Everyone knows the people who worship Mehrunes Dagon have returned to Indoranyon. It is none of our business, and they are very unpleasant if disturbed. They stay in the dark, and do not bother us or our herds.
-大家都知道崇拜梅鲁涅斯·大衮的人已经回到了因多拉尼昂。这不关我们的事，如果被打扰，他们会很不高兴。他们待在暗处，不会打扰我们和我们的牧群。 {我们的事情}
+大家都知道崇拜梅鲁涅斯·大衮的人已经回到了因多拉尼昂。这不关我们的事，如果被打扰，他们会很不高兴。他们待在暗处，不会打扰我们和我们的牧群。 {我们的生意,生意}
 
 > INFO.NAME little secret 3047192883193230349
 South and west of Kushtashpi, the old Daedric place west of Ahemmusa camp, is the entrance to an old cavern called Sanit. That is where they found two hunter dead, their flesh white and bloated by the corprus. That is not a place where a wise man would go.
@@ -23751,7 +23751,7 @@ An associate was on an expedition to Azura's Coast -- he just walks the beaches 
 
 > INFO.NAME little secret 299057719122568093
 Gods be with you, %PCName. And thanks for the mazte.
-众神与你同在，%PCName，谢谢你的玛诗蒂。
+众神与你同在，%PCName。谢谢你的玛诗蒂。
 
 > INFO.NAME little secret 124974922249611126
 They say they buried Olmgerd in the bottom of an ancient Dunmer tomb. From the skald's telling, the burial was on a long finger of land on the southeast coast of Vvardenfell, on a little island close to shore on the west coast of the peninsula. Figure it's somewhere on the stretch between the Daedric ruins at Zaintiraris and Tel Branora. Gods be with you. And thanks for the mazte.
@@ -23911,7 +23911,7 @@ There's a lot of money to be made looting the Dwarven ruins. Against the law, ye
 
 > INFO.NAME little secret 276181128340255511
 You like to poke your nose into doors out in the backcountry? A little suggestion. The places that look like they're made of a golden metal? With spires and towers? Those are Dwarven ruins. They're kinda dangerous -- partly because of the old Dwarven machines in them, and partly because of the kind of things that like to hide out in such old ruins. All the old ruins inside the Ghostfence, for example, are ancient Dwarven ruins. And I hear that vampires like them, too.
-你喜欢在荒郊野外探头探脑吗？给你个小提示。那些看起来像金色金属做成的地方？有尖塔和塔楼？那些是矮人遗迹。它们有点危险——一方面是因为里面有矮人的古老机器，另一方面是因为有种东西喜欢藏在这种老废墟里。比如说，幽魂屏障内所有的古老废墟都是矮人的遗迹。而且我听说灰烬吸血鬼也喜欢它们。
+你喜欢在荒郊野外探头探脑吗？给你个小提示。那些看起来像金色金属做成的地方？有尖塔和塔楼？那些是矮人遗迹。它们有点危险——一方面是因为里面有矮人的古老机器，另一方面是因为有种东西喜欢藏在这种老遗迹里。比如说，幽魂屏障内所有的古老废墟都是矮人的遗迹。而且我听说灰烬吸血鬼也喜欢它们。
 
 > INFO.NAME little secret 703916010385010941
 You're an outlander, maybe you don't know about the kinds of Daedric ruins we have here in Morrowind. Daedra cults worship the Bad Daedra. You can learn more about that at the Temple. Anyway, long ago, before the Temple put a stop to it, people used to worship bad Daedra -- Molag Bal, Malacath, Sheogorath, and Mehrunes Dagon -- at Daedra shrines. But lately, since the Empire came in, some people have taken up worshipping the bad Daedra at these old sites. And I warn you. These are dangerous places.
@@ -23987,7 +23987,7 @@ They say a vampire can hide among us? Nonsense. One look at the face, and you kn
 
 > INFO.NAME little secret 1149344969763724
 In Morrowind, we don't like to hear about vampires. We know that, back West, the Mages Guild helps them hide. The Mages Guild is full of necromancers, and we don't like that one bit. If we see a vampire here in Morrowind, we put him on a stake and roast him. Well, truth be, we tell the Ordinators, let them take care of it. Private citizens have no business fighting vampires. They're too dangerous.
-在晨风，我们不喜欢听到关于吸血鬼的消息。我们知道，在西方，法师公会帮助他们隐藏起来。法师公会里全是死灵法师，而我们一点也不喜欢。如果我们在晨风看到一个吸血鬼，我们会把他绑在木桩上烤了。好吧，说实话，我们会告诉调度使，让他们来处理。公民不该插手与吸血鬼战斗这种事。他们太危险了。
+在晨风，我们不喜欢听到关于吸血鬼的消息。我们知道，在西方，法师公会帮助他们隐藏起来。法师公会里全是死灵法师，而我们一点也不喜欢。如果我们在晨风看到一个吸血鬼，我们会把他绑在木桩上烤了。好吧，说实话，我们会告诉调度使，让他们来处理。公民不该插手与吸血鬼战斗这种事。他们太危险了。 {生意}
 
 > INFO.NAME little secret 235328504303744698
 They say a vampire can hide among us? Nonsense. One look at the face, and you know a vampire. You can't disguise that. You can wear a helmet. But here in Morrowind, we don't trust anyone who won't take off a helmet in public. In Morrowind, someone like that is looking to spend some time in a big, hot fire.
@@ -24119,7 +24119,7 @@ You killed the Black Dart Gang? I didn't think it was possible! I've heard their
 
 > INFO.NAME latest rumors 355832256474522964
 What's the most dangerous thing in Mournhold? Apart from Helseth's Royal Guards and the Hands of Almalexia -- which you've got no business fooling with anyway -- I'd say the Black Dart Gang. I've had no experience with them, personally, but from what I hear, they are really bad news.
-哀伤之城最危险的东西是什么？除了赫尔塞斯的王宫卫兵和阿玛莱西娅之手——反正你也不会没事跟他们惹上麻烦——我想说的是黑镖帮。我个人没有遇到过他们，但据我所知，他们绝非善类。 {瓜尔,消息}
+哀伤之城最危险的东西是什么？除了赫尔塞斯的王宫卫兵和阿玛莱西娅之手——反正你也不会没事跟他们惹上麻烦——我想说的是黑镖帮。我个人没有遇到过他们，但据我所知，他们绝非善类。 {瓜尔,生意,消息}
 
 > INFO.NAME latest rumors 109197301008718284
 If you're thinking of going down the sewers to explore Old Mournhold, watch out for the Black Dart Gang. They look like helpless paupers, but they are deadly. They prey on adventurers coming out of the ruins loaded with treasure. They call them the Black Dart Gang on account of the poisoned black darts they use -- deadly poison -- one is enough to kill you.
@@ -24411,7 +24411,7 @@ I'm trying to update our maps of the Bitter Coast. There are no goods maps of th
 
 > INFO.NAME latest rumors 160816075161534041
 I'm just support here. I don't pay much attention to what's going on.
-我只是来帮忙发，我不太关注这里发生的事。
+我只是来这帮忙，我不太关注这里发生的事。
 
 > INFO.NAME latest rumors 5640208922725417516
 I'm just a courier. Delivery boy. Follow orders and get paid. I don't know nothing. And I'm perfectly happy that way.
@@ -24599,7 +24599,7 @@ Do you know what the Legion does with the stolen goods they take off their priso
 
 > INFO.NAME latest rumors 1609492421035532449
 Did you hear? The Lord's Mail has been taken. They're trying to keep it quiet, but some heads will roll, you can be sure.
-你听说了吗？君王链甲被抢走了，他们试图保持沉默，但可以肯定的是，有些人的脑袋会开花的。
+你听说了吗？君王链甲被抢走了。他们试图保持沉默，但可以肯定的是，有些人的脑袋会开花的。
 
 > INFO.NAME latest rumors 123112471718626755
 Promotions come quickly in the Legion, if you don't screw up. And they also hand out some pretty choice armor when you get promoted.
@@ -24643,7 +24643,7 @@ They say the Legion gives out good armor to their best recruits.
 
 > INFO.NAME latest rumors 394774572398823502
 Ranis Athrys in the Balmora Mages Guild has something against wizards who aren't in the guild. I think it has something to do with her parents, who were murdered by the old Telvanni Archmagister, the one before Gothren.
-巴尔莫拉法师公会的拉妮斯·阿瑟里斯，对不在法师公会的巫师很不爽，我认为这与她的父母有关，她的父母是被老泰瓦尼大导师杀害的，也就是戈瑟伦之前的那位。
+巴尔莫拉法师公会的拉妮斯·阿瑟里斯对不在法师公会的巫师很不爽，我认为这与她的父母有关，她的父母是被老泰瓦尼大导师杀害的，也就是戈瑟伦之前的那位。
 
 > INFO.NAME latest rumors 23960298212587767
 One of the Mages over at Wolverine Hall wants to talk to an Ashlander Wise Woman. But there's not much chance of getting a wise woman to visit Sadrith Mora.
@@ -24655,7 +24655,7 @@ Skink-in-Tree's-Shade seems like a decent sort... for an Argonian. But he has an
 
 > INFO.NAME latest rumors 180192908213401659
 Ajira made a bet with Galbedir about who would get to the rank of Journeyman first. I hope it doesn't end with more flame atronachs in the guild library like last time.
-阿吉拉与伽尔贝蒂尔的打赌，赌谁会最先晋级。我希望这不会像上次那样，以公会图书馆里更多的火焰侍灵而告终。
+阿吉拉与伽尔贝蒂尔的打赌，赌谁会最先晋级资深法师。我希望这不会像上次那样，以公会图书馆里更多的火焰侍灵而告终。
 
 > INFO.NAME latest rumors 164502802716755727
 The Gnisis Eggmine wasn't closed because of the Blight. I wish I knew the real reason they're keeping the miners out of the lower levels.
@@ -24819,7 +24819,7 @@ Did you hear about poor Jeanne? No one will go into her store anymore. People sa
 
 > INFO.NAME latest rumors 2189921308247030029
 I've heard that Balen Andrano over in the Redoran section has had a real tough time lately. He's losing a lot of business.
-我听说瑞多然区的巴伦·安德拉诺最近日子很不好过，他失去了很多生意。 {事}
+我听说瑞多然区的巴伦·安德拉诺最近日子很不好过，他失去了很多生意。
 
 > INFO.NAME latest rumors 197862879897432133
 Crassius Curio is quite a patron of the arts. He commissioned some artists to do a mural for him, and I heard that he has written a new play, and would like to have it performed.
@@ -24875,7 +24875,7 @@ I hear you're in a little trouble with the law. Why don't you pay the magistrate
 
 > INFO.NAME latest rumors 1091125581126610899
 Heard about the Gateway haunting? A ghost is haunting the South Turret bed chamber. Somebody drives it out? And it comes right back. The Gateway is too new to have its own haunts. Some sorcerer up to mischief is my guess. But it's ruining business at the Gateway, and Angaredhel the Prefect is NOT happy. Be good if somebody would take care of it before someone gets hurt.
-听说闸门闹鬼的事了吗？有个鬼魂在南塔会议厅闹鬼，有人把它赶出去了？然后它又回来了，闸门是新建的，没听说过这地方以前有鬼魂。我猜是某个术士在捣鬼，但它毁了闸门的生意，安加雷德尔长官很不高兴。如果有人能在有人受伤之前处理一下就好了。
+听说闸门闹鬼的事了吗？有个鬼魂在南塔会议厅闹鬼，有人把它赶出去了？然后它又回来了。闸门是新建的，没听说过这地方以前有鬼魂。我猜是某个术士在捣鬼，但它毁了闸门的生意，安加雷德尔长官很不高兴。如果有人能在有人受伤之前处理一下就好了。
 
 > INFO.NAME latest rumors 362626263324774509
 That bigmouth Varro over at Moonmoth Legion Fort says he's going to stop corruption. He doesn't know what he's talking about. What he calls corruption is just the routine greasing of the wheels of commerce. These outlanders come in here and think they know how things should work. They don't understand anything about the way things work in Morrowind.
@@ -24975,7 +24975,7 @@ You've got to hand it to the little daemon-charmers. They surprised us. The Telv
 
 > INFO.NAME latest rumors 27359308853209726135
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Got to be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-有什么能在调度使拔出武器之前杀死他们？割断他们的喉咙？就在维威克发生过，肯定是术士或吸血鬼干的，正义大厅的监察办事处很担心，他们会派自己的调度使去追捕凶手。有传言说监察办事处正在寻求外援，你是外地人，你知道另外五个外地人也是这样被杀的吗？
+有什么能在调度使拔出武器之前杀死他们？割断他们的喉咙？就在维威克发生过，肯定是术士或吸血鬼干的。正义大厅的监察办事处很担心，他们会派自己的调度使去追捕凶手。有传言说监察办事处正在寻求外援。你是外地人，你知道另外五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 7897104801480424251
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
@@ -24999,7 +24999,7 @@ Narese Athrys found a rogue Telvanni base out in the middle of the ashlands, but
 
 > INFO.NAME latest rumors 1520215642613132523
 This caravaner friend of mine says that with so many more blight storms around Red Mountain this year than last year, he's thinking about getting out of the business.
-我的这位商队朋友说，今年红山附近刮起了更严重的枯萎病风暴，他都想洗手不干了。 {事}
+我的这位商队朋友说，今年红山附近刮起了更严重的枯萎病风暴，他都想洗手不干了。 {生意}
 
 > INFO.NAME latest rumors 1028915109177482683
 I'm telling you, it's making me worried. My neighbor was outside in the middle of the night last night, running around, talking nonsense, and in the morning, he doesn't remember a thing about it. Those scholars talk stuff about delusion diseases and such. What the hell does that mean? And why can't the priests cure it?
@@ -25027,7 +25027,7 @@ Of course, most Mages Guild wizards are pathetic clowns. But I must admit, that 
 
 > INFO.NAME latest rumors 840456472899517720
 These outlanders won't be happy until slavery is outlawed. I don't know what I'd do without slaves. Hire some shiftless, untrustworthy, evil-smelling pauper? It's our right to have slaves, by law and custom, and it's none of their damn business.
-除非奴隶制度被取缔，否则这些外地人是不会高兴的。我不知道没有奴隶们该怎么办，雇佣一些不值得信任的穷光蛋？根据法律和习俗，拥有奴隶是我们的权利，这不关他们的事。
+除非奴隶制度被取缔，否则这些外地人是不会高兴的。我不知道没有奴隶们该怎么办，雇佣一些不值得信任的穷光蛋？根据法律和习俗，拥有奴隶是我们的权利，这不关他们的事。 {生意}
 
 > INFO.NAME latest rumors 2318716935652231028
 We've been fortunate. We tested the resolve of the Duke and the other Houses when we grabbed Tel Vos. And we found out they weren't going to fight to protect the settlement charters, we sent out our deviants and malcontents to stake new claims. Some will survive, some won't. Hlaalu and Redoran have to respond. But in the end, the ones that survive will extend our power and influence here on Vvardenfell.
@@ -25119,7 +25119,7 @@ I hear there's a secret organization called the Twin Lamps. It helps runaway sla
 
 > INFO.NAME latest rumors 2386233692091024778
 These outlanders won't be happy until slavery is outlawed. Our plantations depend on slaves, mostly down south in Dres District, but here in the Ascadian Isles, too. It's our right to have slaves, by law and custom, and it's none of their damn business.
-除非奴隶制度被取缔，否则这些外地人不会高兴的，我们的种植园依赖奴隶们，大部分在德雷斯区南部。但在阿斯卡迪安群岛也一样。根据法律和习俗，拥有奴隶是我们的权利，这不关他们的事。
+除非奴隶制度被取缔，否则这些外地人不会高兴的，我们的种植园依赖奴隶们，大部分在德雷斯区南部。但在阿斯卡迪安群岛也一样。根据法律和习俗，拥有奴隶是我们的权利，这不关他们的事。 {生意}
 
 > INFO.NAME latest rumors 31523315014305168
 House Hlaalu would much rather have the Caldera charter, thank you very much, and run those ebony mines ourselves. But it hasn't worked out so badly. The Imperial Caldera Mining Company is laying out the cash and doing the work, and we're talking the cream off the top in graft and bribes. No wonder Redoran is angry. And when they're angry, they're dangerous.
@@ -25199,7 +25199,7 @@ Madness is a sickness in the soul. It comes from a lack of faith, and a love of 
 
 > INFO.NAME latest rumors 782171863925620
 The guar herders west of Ald'ruhn were having trouble with bandits.
-奥德'汝因西边的瓜尔牧民遇到了强盗的困扰。
+奥德'汝因西边的瓜尔牧民遇到了强盗的麻烦。
 
 > INFO.NAME latest rumors 10376208521695413697
 People seem tired lately. Everybody is talking about it, giving all sorts of excuses -- the weather, noise, over-work, worries. But you also hear some people talking quietly about having bad dreams. You know the Temple doesn't want to hear that stuff, and folks keep it to themselves. But it would explain a lot.
@@ -25227,7 +25227,7 @@ Everyone says Varvur Sarethi murdered Bralen Carvaren, but I don't believe it. T
 
 > INFO.NAME latest rumors 279581339097492106
 These outlanders won't be happy until slavery is outlawed. Personally, I don't want slaves. No one I know has any. But it's our right to have slaves, by law and custom, and it's none of their damn business.
-除非奴隶制度被取缔，否则这些外地人不会高兴的。我个人不想要奴隶，我认识的人都没有奴隶。但根据法律和习俗，我们有权拥有奴隶，这不关他们的事。 {奴隶们}
+除非奴隶制度被取缔，否则这些外地人不会高兴的。我个人不想要奴隶，我认识的人都没有奴隶。但根据法律和习俗，我们有权拥有奴隶，这不关他们的事。 {奴隶们,生意}
 
 > INFO.NAME latest rumors 838312994249383551
 The other day a Redoran in Vivec refused a duel. With cowards even in House Redoran, who will protect us next time the Nords invade?
@@ -25779,7 +25779,7 @@ We've discussed this enough. You know what you must do.
 
 > INFO.NAME recent events 477217101223864261
 The attack on Mournhold was as unexpected to me as it was destructive to the city. And I make it my business to remain forewarned of this sort of event. Many believed the attacking creatures to have been Dwemer constructs, but we know now that this is not the case. These creatures were beyond anything dreamt of by the Dwarves, creatures it would take the power of a god to create. I would like you to learn more about the attacks.
-哀伤之城遭到的攻击出乎我的意料，正如它对城市造成的破坏一样。而预警这种事情的发生是我的分内之事。许多人认为攻击的生物是锻莫机械，但我们现在知道情况并非如此。这些生物绝非矮人的创造力所能及，需要神的力量才能将其创造。我想让你去了解关于袭击的更多信息。
+哀伤之城遭到的攻击出乎我的意料，正如它对城市造成的破坏一样。而预警这种事情的发生是我的分内之事。许多人认为攻击的生物是锻莫机械，但我们现在知道情况并非如此。这些生物绝非矮人的创造力所能及，需要神的力量才能将其创造。我想让你去了解关于袭击的更多信息。 {生意}
 
 > INFO.NAME divine powers 1441615219606315393
 Almalexia, Sotha Sil, and I gained our divine powers from the Heart of Lorkhan. And now we no longer have access to the Heart, so we must lose our divinity. I have always worn my divinity lightly -- fundamentally, I am not at all a serious person -- and I will not miss it. I have tried to do what was necessary. I am afraid I have done some harm. I assure you -- I will be quite content to be a mere mortal again, dedicated to my own amusements.
@@ -26267,7 +26267,7 @@ Just ask him about it.
 
 > INFO.NAME uncle's farm 2948616241204323766
 There's nothing more to say about that.
-这事没什么好说的了。
+那事没什么好说的了。
 
 > INFO.NAME uncle's farm 1042420696336013991
 Yeah, I get it. Code words. Whatever. Here's what you should know.
@@ -26475,7 +26475,7 @@ You are the Grandmaster of House Hlaalu, %PCName.
 
 > INFO.NAME advancement 714828109185914298
 Once our business is concluded, I will consider your advancement.
-一旦我们的事情结束了，我将考虑你的晋级。
+一旦我们的生意结束了，我将考虑你的晋级。
 
 > INFO.NAME advancement 1558828954153928039
 Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
@@ -26483,7 +26483,7 @@ Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
 
 > INFO.NAME advancement 26003290602717310479
 Once our business is concluded, I will consider your advancement.
-一旦我们的事情结束了，我将考虑你的晋级。
+一旦我们的生意结束了，我将考虑你的晋级。
 
 > INFO.NAME lord's mail 6618179852210128456
 Yes, this is the legendary Lord's Mail, %PCRank. As reward, you are welcome in our Order here. Take this armor reserved for the Order of Ebonheart. I have another task for you. I want you to find Chrysamere.
@@ -26779,7 +26779,7 @@ I'd love to sell you one, %PCRace, but it doesn't look like you can afford it. C
 
 > INFO.NAME selling off 9640224022394512284
 Well, come back anytime you think you need one. I sure could use the business.
-好吧，如果你认为你需要一只，随时回来。我当然可以做生意。 {事}
+好吧，如果你认为你需要一只，随时回来。我当然可以做生意。
 
 > INFO.NAME selling off 2720616721142520270
 That's right, you can have a scrib for the low, low price of 20 gold, or a rat for 25. They are trained to follow you and attack anyone who attacks you. OR you can buy my exclusive pack rat for 100 gold. They not only follow and fight, but also carry small burdens. And, in a pinch, you've got fresh meat on the hoof, whenever you need it. What do you say?  Would you like one?
@@ -26907,7 +26907,7 @@ Fedris Hler was found dead. We will find the guilty party.
 
 > INFO.NAME fedris hler 283252729027670170
 I heard he was murdered. That's Temple business.
-我听说他被谋杀了。那是神殿的事。
+我听说他被谋杀了。那是神殿的事。 {生意}
 
 > INFO.NAME fedris hler 26975135701238332216
 I've heard that Fedris Hler was killed. I can't believe that could happen!
@@ -27007,7 +27007,7 @@ Behind my locked door? A trap door? What are you doing...? I don't know anything
 
 > INFO.NAME locked door 9019255231652927178
 I keep my more valuable supplies there under lock and key. If it's any of your business.
-我把我更贵重的用品放在那里，并上了锁。如果你一定要问这些事的话。
+我把我更贵重的用品放在那里，并上了锁。如果你一定要问这些事的话。 {生意}
 
 > INFO.NAME salas valor 2601275662461113192
 Salas Valor was once my most trusted Hand and faithful servant. But recently his behavior has been erratic. He has been quiet and unresponsive. I am afraid... I may have allowed him to come too close. It is impossible that a mortal and a god might meet on equal ground, but... perhaps he had deluded himself. I regret his lamentable state, and am sorry that I may have been partly responsible for his condition.
@@ -27031,11 +27031,11 @@ You found what?  Where?  Goodness!  I simply thought I'd misplaced the book some
 
 > INFO.BNAM stolen book 7723313581324221287 c1
 Yes, here it is.
-好的，给你。
+好的，拿走吧。
 
 > INFO.BNAM stolen book 7723313581324221287 c2
 No, I don't think so.
-不，我不这么认为。
+不，我可不想。
 
 > INFO.NAME stolen book 32492281732475020239
 She didn't tell me where she got it, so I don't know.  Don't want to know, either.  It's not like it matters.  You can't read a thing in it anyway, except for somebody's name.
@@ -27667,11 +27667,11 @@ You can't be in here, %PCRace. And I'm afraid I can't let you leave. The Company
 
 > INFO.NAME greeting 0 12105171323147159
 You've committed a crime, vampire. Were you not an abomination, I might let you live. Prepare to die!
-你犯了罪，吸血鬼！如果你不是那么令人憎恶，我也许会让你活着，准备受死吧！
+你犯了罪，吸血鬼。如果你不是那么令人憎恶，我也许会让你活着，准备受死吧！
 
 > INFO.NAME greeting 0 10464318192407517480
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
+你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者投降然后交出你的赃物并服苦役。立即交出金币，或者跟我走。
 
 > INFO.BNAM greeting 0 10464318192407517480 c1
 Pay Gold.
@@ -27691,7 +27691,7 @@ Present Writs
 
 > INFO.NAME greeting 0 1556426861203214287
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
+你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者投降然后交出你的赃物并服苦役。立即交出金币，或者跟我走。
 
 > INFO.BNAM greeting 0 1556426861203214287 c1
 Pay Gold.
@@ -27711,7 +27711,7 @@ Present Writs
 
 > INFO.NAME greeting 0 196804487824232374
 You violated the law, %PCName. Pay the court %PCCrimeLevel gold and surrender your stolen goods, or surrender your stolen goods and serve your sentence of hard labor. Deliver the gold immediately, or come with me.
-你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者交出你的赃物并服苦役。立即交出金币，或者跟我走。 {投降}
+你违反了法律，%PCName。向法庭缴纳%PCCrimeLevel金币并交出你身上的赃物，或者投降然后交出你的赃物并服苦役。立即交出金币，或者跟我走。
 
 > INFO.BNAM greeting 0 196804487824232374 c1
 Pay Gold.
@@ -27727,7 +27727,7 @@ Resist Arrest.
 
 > INFO.NAME greeting 0 19191290671947220251
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须交出你的赃物并服苦役。跟我来。 {投降}
+你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须投降然后交出赃物并服苦役。跟我来。
 
 > INFO.BNAM greeting 0 19191290671947220251 c1
 Go to Jail.
@@ -27743,7 +27743,7 @@ Present Writs
 
 > INFO.NAME greeting 0 5642177972930817100
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须交出你的赃物并服苦役。跟我来。 {投降}
+你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须投降然后交出赃物并服苦役。跟我来。
 
 > INFO.BNAM greeting 0 5642177972930817100 c1
 Go to Jail.
@@ -27759,7 +27759,7 @@ Present Writs
 
 > INFO.NAME greeting 0 196287825728868
 You violated the law, %PCName. Since you don't have the %PCCrimeLevel gold to pay the court, you must surrender your stolen goods and serve your sentence of punitive labor. Come with me.
-你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须交出你的赃物并服苦役。跟我来。 {投降}
+你触犯了法律，%PCName。由于你无法支付%PCCrimeLevel金币法庭费用，你必须投降然后交出赃物并服苦役。跟我来。
 
 > INFO.BNAM greeting 0 196287825728868 c1
 Go to Jail.
@@ -28131,7 +28131,7 @@ What may Karrod do for you, mighty one?
 
 > INFO.NAME greeting 1 272714451765025852
 Speak with my King Helseth, my friend. We can speak more when your business with him is complete.
-跟我的国王赫尔塞斯说吧，我的朋友。当你和他谈完事后，我们可以再谈。
+跟我的国王赫尔塞斯说吧，我的朋友。当你和他谈完事后，我们可以再谈。 {生意}
 
 > INFO.NAME greeting 1 46682916266061132
 Greetings. How may I help you?
@@ -28279,7 +28279,7 @@ Yes...have you come to be of service to our Lady?
 
 > INFO.NAME greeting 1 276041744422430830
 What is it? Have you settled that business with the Shrine of the Dead?
-是什么呢？你已经把亡者圣祠的事解决了？
+是什么呢？你已经把亡者圣祠的事解决了？ {生意}
 
 > INFO.NAME greeting 1 18931167982061718957
 Hmmm...yes. You are the one that Hler mentioned. Interesting. You are to be of service to our Lady. It is essential, and all would be displeased were you to fail.
@@ -28319,7 +28319,7 @@ Drin sent you to me? Priests...hmph. As it happens, there is another way you may
 
 > INFO.NAME greeting 1 58802741427947025
 Yes...what is it you want? I heard you'd taken care of that shrine business. Go speak with Drin. He seems to like you.
-是的…你想要什么？我听说你已经解决了那个神殿的事。去和德林谈谈。他似乎很喜欢你。
+是的…你想要什么？我听说你已经解决了那个神殿的事。去和德林谈谈。他似乎很喜欢你。 {生意}
 
 > INFO.NAME greeting 1 1201522481203689679
 Yes? Aren't you supposed to be dealing with the Shrine of the Dead?
@@ -28415,7 +28415,7 @@ I saw your fight with that wizard, %PCName. That certainly was interesting. I ex
 
 > INFO.NAME greeting 1 2380318072475011040
 Salutations, %PCName. So nice of you to join me in my humble abode. I was all prepared to offer you a nice drink or a bite to eat before we got down to business, but you are late in coming and I don't appreciate being kept waiting, so business it shall be. I can sense you've already made the acquaintance of my unfortunate brother.
-我向你致意，%PCName。欢迎光临寒舍。本想先请你喝杯好酒或吃点东西，再谈正事，但你迟迟不来，而我也不喜欢等待。既然如此，我们就开门见山吧。我能感觉到，你已经见过我不幸的兄弟了。 {沙尔}
+我向你致意，%PCName。欢迎光临寒舍。本想先请你喝杯好酒或吃点东西，再谈正事，但你迟迟不来，而我也不喜欢等待。既然如此，我们就开门见山吧。我能感觉到，你已经见过我不幸的兄弟了。 {生意,沙尔}
 
 > INFO.NAME greeting 1 24805288101903726631
 Greetings, %PCRace. Perhaps you'd like to hear the latest rumors?
@@ -29211,7 +29211,7 @@ I won't forget you. Get out of my sight!
 
 > INFO.NAME greeting 1 2546421477215821626
 Oh, it's YOU. What, have you come to run me completely out of business?
-哦，是你。怎么，你是来让我彻底破产的吗？ {事}
+哦，是你。怎么，你是来让我彻底破产的吗？ {生意}
 
 > INFO.NAME greeting 1 1325274161107022739
 Welcome, %PCRace, welcome! The best deals in all of Mournhold can be found here. Low prices every day, and special offers as well! Please, take your time and look through my wares.
@@ -29623,7 +29623,7 @@ Hey, %PCName.  I saw you talking to Felvan.  The two of you looked pretty cozy. 
 
 > INFO.NAME greeting 1 28322600298415826
 Look %PCName, our business is done.  We don't really have a reason to keep talking.  So if you have something to say, say it to Dovor.
-听着，%PCName，我们的事已经完成了。我们真的没有理由继续说话。所以，如果你有话要说，就对多沃尔说吧。 {我们的事情,谈}
+听着，%PCName，我们的生意已经完成了。我们真的没有理由继续谈。所以，如果你有话要说，就对多沃尔说吧。
 
 > INFO.NAME greeting 1 46851215124814314
 So?  Did you find Bels Uvenim?
@@ -29683,15 +29683,15 @@ Ah, %PCName.  Our comrade in arms, our ally in the fight for freedom!
 
 > INFO.NAME greeting 1 2848431203151667723
 You've no business being here, %PCRace.  I suggest you turn around, go out the way you came in, and forget you ever saw us.
-这里没你的事，%PCRace。我建议你转身，从你进来的路出去，忘记你曾见过我们。
+这里没你的事，%PCRace。我建议你转身，从你进来的路出去，忘记你曾见过我们。 {生意}
 
 > INFO.NAME greeting 1 105636038112287363
 This weather is odd, but nothing to be concerned about. Go about your business.
-这种天气很奇怪，但没有什么可担心的。去做你的事。
+这种天气很奇怪，但没有什么可担心的。去做你的事。 {生意}
 
 > INFO.NAME greeting 1 17547275752142424924
 This weather is odd, but nothing to be concerned about. Go about your business.
-这种天气很奇怪，但没有什么可担心的。去做你的事。
+这种天气很奇怪，但没有什么可担心的。去做你的事。 {生意}
 
 > INFO.NAME greeting 1 27351209512701919961
 This weather will pass. The goddess will protect us. Move along.
@@ -29827,7 +29827,7 @@ You must be the one Relam Arinith sent.
 
 > INFO.NAME greeting 1 1506124848231934131
 Hey! You shouldn't be back there. That's my private room.
-嘿，你不该到后面去，那是我的私人房间。
+嘿！你不该到后面去，那是我的私人房间。
 
 > INFO.NAME greeting 1 129545582328615560
 Really, I can't tell you how good it is to be visible again! Thank you so much.
@@ -29863,7 +29863,7 @@ This is your tower, right? What do you want, %PCName?
 
 > INFO.NAME greeting 1 18030301512885125116
 This isn't your tower and this isn't any of your business.
-这不是你的塔楼，也不关你的事。
+这不是你的塔楼，也不关你的事。 {生意}
 
 > INFO.NAME greeting 1 3187015302332632
 You here about the stronghold? Tell Galsa Gindu things are fine here. The work will be done soon.
@@ -29875,7 +29875,7 @@ You the chief around here, right? What you want?
 
 > INFO.NAME greeting 1 2143621465335213335
 This not your business here. You leave now.
-你来这里的目的是什么？这里没你的事，你走吧。
+你来这里的目的是什么？这里没你的事，你走吧。 {生意}
 
 > INFO.NAME greeting 1 13058205592685019577
 You here about the stronghold? Tell Dondos the work is on schedule. And he better pay me that bonus he promised.
@@ -29919,7 +29919,7 @@ Are you okay? You don't look well...
 
 > INFO.NAME greeting 1 2348427924134421016
 Well, hello there. It's always nice to see another %PCRace.
-你好，很高兴见到另一个%PCRace。
+嗯，你好，很高兴见到另一个%PCRace。
 
 > INFO.NAME greeting 1 15651222572413527697
 An Argonian! How exciting. I've never had an Argonian... customer.
@@ -29951,7 +29951,7 @@ Take this, friend. I think everyone should read this leaflet. It has important i
 
 > INFO.NAME greeting 1 16645616668429975
 You are pathetic! Where is your power, vampire? You have nothing I desire. Leave me now. All I have heard about your kind is a lie.
-你真可悲！你的力量在哪里？吸血鬼？你没有我想要的东西，现在离我远点！我听说的关于你们的事都是谎言。
+你真可悲！你的力量在哪里，吸血鬼？你没有我想要的东西，现在离我远点。我听说的关于你们的事都是谎言。
 
 > INFO.NAME greeting 1 207105452201366163
 I smell Berne blood on you! Die!
@@ -29971,7 +29971,7 @@ You want another shot at me, %PCName?
 
 > INFO.NAME greeting 1 10379288102025131413
 I'm here, %PCName. Come for me.
-我来了，%PCName。来找我。
+我就在这，%PCName，来找我嘛。
 
 > INFO.NAME greeting 1 277422340690713701
 You want a duel? You got a duel.
@@ -30019,7 +30019,7 @@ You have slain my brother, n'wah.
 
 > INFO.NAME greeting 1 16939641270732618
 Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's none of my business.
-哦，别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {事}
+哦，别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {生意}
 
 > INFO.NAME greeting 1 290445316827329292
 Darius says you can be here, so it's okay with me.
@@ -30043,7 +30043,7 @@ Move along, %PCRace... Wait! You're the one protecting Saprius Entius!
 
 > INFO.NAME greeting 1 446421464219175108
 Well, %PCName, we're getting pretty close to the city, and they don't let big ol' guar like Rollie here inside the walls. Seems a shame, since he's such a personable sort. Isn't that right, Rollie? Anyway, from here, you and I can travel on to Agrippina's alone.
-好吧，%PCName，我们离城很近了，他们不让像瓜尔罗利这样的大个子进城的，真可惜，因为他是个很有个性的人，不是吗？罗力？无论如何，从这里，你和我可以独自前往阿格里皮娜的。
+好吧，%PCName，我们离城很近了，他们不让像瓜尔罗利这样的大个子进城的，真可惜，因为他是个很有个性的人，不是吗，罗力？无论如何，从这里，你和我可以独自前往阿格里皮娜的。
 
 > INFO.NAME greeting 1 124908687156984366
 You've wasted enough of my time.
@@ -30123,7 +30123,7 @@ I am concerned. Why have you not yet fulfilled the prophecies of the Nerevarine?
 
 > INFO.NAME greeting 1 12804286741127931845
 Why have you not yet fulfilled the prophecies of the Nerevarine? Is there something wrong? Archcanon Tholer Saryoni, the high priest of the Temple has asked that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
-为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？大主教索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧！如果有什么问题，去找萨里奥尼。也许还有希望。
+为什么你还没有实现尼瑞瓦因的预言？有什么问题吗？大主教索勒·萨里奥尼请您到维威克城的至高神殿与他交谈。请吧，如果有什么问题，去找萨里奥尼。也许还有希望。
 
 > INFO.NAME greeting 1 6174274542428523132
 We are concerned. Why have you not yet fulfilled the prophecies of the Nerevarine? Have you done something wrong? Have you forgotten your destiny? We hear that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. Please. If there is some problem, go to Saryoni. Perhaps there is still hope.
@@ -30131,7 +30131,7 @@ We are concerned. Why have you not yet fulfilled the prophecies of the Nerevarin
 
 > INFO.NAME greeting 1 11810145313201124359
 I am surprised. And a bit disappointed. I thought you were the Nerevarine? Why haven't you fulfilled the prophecies? Is something wrong? Did you do something you shouldn't? I've heard rumors that Archcanon Tholer Saryoni, the high priest of the Temple, is desperate, and that he asks that you come speak with him at the High Fane in Vivec City. If there is some problem, maybe you should go talk to Saryoni.
-我很惊讶，还有点失望：你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，大主教索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
+我很惊讶，还有点失望，你不是尼瑞瓦因吗？为什么你没有实现预言？出什么事了吗？你做了什么不该做的事吗？我听到传言，大主教索勒·萨里奥尼已经走投无路了，他请求你去维威克城的至高神殿和他谈谈。如果有什么问题，也许你该去找萨里奥尼谈谈。
 
 > INFO.NAME greeting 1 1698115947203317463
 Well. If you are the Nerevarine, why haven't you fulfilled the prophecies? Surely you haven't forgotten. You haven't done something foolish, have you? You mustn't be shy, dumpling. I've heard that Archcanon Tholer Saryoni, the high priest of the Temple, is VERY upset, and that he is hoping that you will come speak with him at the High Fane here in Vivec City. Maybe that would be a good idea. Don't you think?
@@ -30271,7 +30271,7 @@ No, she can't be dead! Goodbye, %PCName.
 
 > INFO.NAME greeting 1 9612153832520718217
 Thank the gods! We've found her! I never thought I'd see her again. You finding me has truly been a blessing. Thank you so much for your help, %PCName. I wish I had more to offer you, but please take this book. It has meant so much to the two of us. I can only hope you find as much enjoyment in it as we have. Take care!
-感谢众神！我们找到她了，我从没想过还能再见到她，你能找到我真是我的福气，非常感谢你的帮助，%PCName。我希望能给你更多，但请收下这本书，它对我们俩来说意义非凡。我只能希望你能从中找到和我们一样多的乐趣。多保重！
+感谢诸神！我们找到她了！我从没想过还能再见到她。你能找到我真是我的福气。非常感谢你的帮助，%PCName。我希望能给你更多，但请收下这本书。它对我们俩来说意义非凡。我只能希望你能从中找到和我们一样多的乐趣。保重！
 
 > INFO.NAME greeting 1 212893082913523394
 Thank you for your help, %PCName. Here is the payment I promised you. May all of your travels be safe.
@@ -30279,7 +30279,7 @@ Thank you for your help, %PCName. Here is the payment I promised you. May all of
 
 > INFO.NAME greeting 1 390021445518619439
 Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. It seems the Redguard is dead already. That is acceptable. I have no further business with you.
-我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳堂的眼中钉，太久太久了。看来红卫人已经死了，这可以接受。我没别的事了。
+我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳堂的眼中钉，太久太久了。看来红卫人已经死了，这可以接受。我没别的事了。 {生意}
 
 > INFO.NAME greeting 1 174264622797529038
 Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. Be on your way, outlander, or with this Redguard, you will die. That is the choice I give you.
@@ -30347,7 +30347,7 @@ Have you decided you'd like to help me after all?
 
 > INFO.BNAM greeting 1 15449315061470273 c1
 I suppose. Follow me.
-我想是的，跟我来。
+我想是的，跟着我。
 
 > INFO.BNAM greeting 1 15449315061470273 c2
 No. Never mind.
@@ -30359,7 +30359,7 @@ This is...wait...Thoronor is dead? Oh, that's terrible. I have no reason to cont
 
 > INFO.NAME greeting 1 16263146331418120752
 Why, thank you! I'm sure this will do the trick. Let's get going; I'll follow you back. Although, this would be an excellent chance to study them in great detail without being noticed....
-谢谢！我相信这个会有用的。走吧，我跟你回去。不过，这也是一个很好的机会，可以在不被告示的情况下详细研究它们……
+喂，谢谢你！我相信这个会有用的。走吧，我跟你回去。不过，这也是一个很好的机会，可以在不被告示的情况下详细研究它们……
 
 > INFO.NAME greeting 1 220201511328839224
 Yes, we are going together to Ald Daedroth, where we will see if you have made it safe for the Ahemmusa. I will accompany you until we stand before the great statue, where we will speak further.
@@ -30471,31 +30471,31 @@ You have killed someone dear to me. It is a mistake you will not live to regret.
 
 > INFO.NAME greeting 1 22666276122195830257
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 3154888892292230351
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 998123107132520093
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 18416249602252731943
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 79251588295398837
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 145740852264813922
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 17597286202221928634
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 726128886176936754
 You have killed one of the inmates. Leave. You can live with the consequences of your actions.
@@ -30563,7 +30563,7 @@ Well? Did you get my boots? No boots, no potion....
 
 > INFO.NAME greeting 1 2369510877628230235
 Well! What a pleasure! A visitor! An entertaining diversion! Come to consult the great Divayth Fyr? You have the divine disease? Want to plunder the dungeon? Or leer at my daughters?
-好了，真高兴见到你。一个访客，真是有趣的消遣。你是来来请教伟大的迪维斯·菲尔？你得了神圣疾病？想掠夺地牢？还是觊觎着我的女儿们？
+好了！真高兴见到你！一个访客！真是有趣的消遣！你是来来请教伟大的迪维斯·菲尔？你得了神圣疾病？想掠夺地牢？还是想偷看我的女儿们？
 
 > INFO.NAME greeting 1 2492049788411205
 You again? A surprise, and a pleasure! Didn't we have a satisfactory chat? Something else you want to know about the divine disease? Eager to plunder the dungeon? Questions about my daughters?
@@ -30787,7 +30787,7 @@ The blight is gone, and we have survived. Now we must dedicate ourselves to rebu
 
 > INFO.NAME greeting 1 245803040437511662
 I expected you. We have business, you and I.
-我在等你，我们还有正事要办。
+我在等你，我们还有正事要办。 {生意}
 
 > INFO.NAME greeting 1 2239657872789627356
 Was there something else?
@@ -30799,7 +30799,7 @@ You have come uninvited. I have nothing to say to you.
 
 > INFO.NAME greeting 1 22112111712176419568
 It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.
-一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的事情？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
+一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的生意？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
 
 > INFO.NAME greeting 1 2190322223223052000
 Have you something more to say?
@@ -30807,7 +30807,7 @@ Have you something more to say?
 
 > INFO.NAME greeting 1 1671715344190492888
 It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.
-一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的事情？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
+一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的生意？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
 
 > INFO.NAME greeting 1 1453257882975315967
 Have you something more to say?
@@ -31011,7 +31011,7 @@ Guards! Intruder!
 
 > INFO.NAME greeting 1 1857834672739819667
 I told you. Get out of here. Now!
-我跟你说过了，滚出去，现在就走！
+我跟你说过了。滚出去，现在就走！
 
 > INFO.NAME greeting 1 13857194313057721050
 %PCRank %PCName. This is against procedures. And you know it. Go ahead. The key is in the desk. But I have to report this. Immediately.
@@ -31495,7 +31495,7 @@ Come on! You're the prophesied Incarnate! Azura has promised you fame and glory!
 
 > INFO.NAME greeting 1 1751832505196081433
 What are you doing? You have no idea. Poor animal. You struggle and fight, and understand nothing.
-你在干什么？你根本不知道！可怜的动物，你挣扎着，战斗着，却一窍不通。
+你在干什么？你根本不知道，可怜的动物，你挣扎着，战斗着，却一窍不通。
 
 > INFO.NAME greeting 1 9333138913204321599
 A bug. A weed. A piece of dust. Busy, busy, busy.
@@ -31583,7 +31583,7 @@ We see you, false one. Your flesh will feed us all.
 
 > INFO.NAME greeting 1 25738247542214816949
 What are you doing? You have no idea. Poor animal. You struggle and fight, and understand nothing.
-你在干什么？你根本不知道！可怜的动物，你挣扎着，战斗着，却一窍不通。
+你在干什么？你根本不知道，可怜的动物，你挣扎着，战斗着，却一窍不通。
 
 > INFO.NAME greeting 1 1699342602946520428
 A bug. A weed. A piece of dust. Busy, busy, busy.
@@ -31655,7 +31655,7 @@ Oh, just shut up, will you?
 
 > INFO.NAME greeting 1 549230794718028227
 No. I'm sorry. No flowery speeches. No subtle tricks. No formal boasts or challenges. Fight. Or leave. But don't expect me to pass the time of day with you.
-不。非常抱歉。不靠华丽的词藻。不靠狡诈的诡计。也不靠隆重的虚张声势或挑战。战斗。要不就离开。但别指望我和你耗上一天。
+不，非常抱歉。不靠华丽的词藻，不靠狡诈的诡计，也不靠隆重的虚张声势或挑战。战斗，要不就离开，但别指望我和你耗上一天。
 
 > INFO.NAME greeting 1 4946137592345426146
 Goodbye.
@@ -32167,7 +32167,7 @@ Have you found the Ebony Mail, %PCName?
 
 > INFO.BNAM ebony mail 2205811658245058778 c1
 Yes, here it is.
-找到了。
+找到了，在这里。
 
 > INFO.BNAM ebony mail 2205811658245058778 c2
 No, not yet.
@@ -32235,7 +32235,7 @@ Give him Chrysamere.
 
 > INFO.BNAM chrysamere 147793207175513376 c2
 Nevermind.
-没事了。
+还是算了。
 
 > INFO.NAME chrysamere 1902724394776324421
 You seek the Sword of the Paladins? And what makes you think you deserve it? Because you wear the Imperial crest? Bah! Take it from me then, if you dare.
@@ -33439,11 +33439,11 @@ You've done more than enough for us, %PCName. Thank you for your help.
 
 > INFO.NAME business 2530620179628421004
 Actually, I believe we've finished our business. I will notify the Temple that you are our champion. There shall be no more persecution of the Dissident Priests, and I hope both sides shall swiftly be reconciled. Now you are my guest, I am your host, and we have time for explanations. Or counsel. Or questions. Or bitter recriminations, if you like. Or you may leave, if you wish. As you wish. But I think before you leave you should hear how to defeat Dagoth Ur, and how you must use the artifact Wraithguard.
-事实上，我想我们的事情已经告一段落了。我会通知神殿，你是我们的勇士，我们不会再迫害异见祭司，我希望双方能尽快和解。现在你是我的客人，我是招待你的主人。我们有些许时间，我可以给你一些解释，或者咨询，或者有问题的话可以提问，或者如果你愿意的话，你可以激烈的指责我。如果你想，也可以离开，随你便。但我认为在你离开之前，你应该听听如何打败达格斯·乌尔，以及如何使用神器幽魂影卫。 {沙尔}
+事实上，我想我们的生意已经告一段落了。我会通知神殿，你是我们的勇士，我们不会再迫害异见祭司，我希望双方能尽快和解。现在你是我的客人，我是招待你的主人。我们有些许时间，我可以给你一些解释，或者咨询，或者有问题的话可以提问，或者如果你愿意的话，你可以激烈的指责我。如果你想，也可以离开，随你便。但我认为在你离开之前，你应该听听如何打败达格斯·乌尔，以及如何使用神器幽魂影卫。 {沙尔}
 
 > INFO.NAME business 313639872174827490
 If you want to talk business, speak with Crassius Curio or Edryno Arethi.
-如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷提。 {事}
+如果你想谈生意，请找克拉西乌斯·库里奥或埃德里诺·阿雷提。
 
 > INFO.NAME business 22838144922953728258
 Yes, let's discuss what you can do to assist my, err, our cause.
@@ -33815,7 +33815,7 @@ Arrgh!
 
 > INFO.NAME attack 11100172091303423659
 I've trifled with you long enough.
-我要用你的血来洗澡。
+我已经跟你玩得够久了。
 
 > INFO.NAME duties 2797322333266853427
 Hmm... Duties, you say? Yes, there are several things the Mages Guild needs done. Let's see. Hmm... Find out about the disappearance of the Dwarves. Yes, that's an excellent task for you, %PCRank.
@@ -36843,7 +36843,7 @@ Bah - women.  There's no happiness to be found.  No lasting happiness, anyway.  
 
 > INFO.NAME women 555210238215406759
 Are we friends, %PCName? No, we're not, and I'll kindly ask to mind your own business.
-我们是朋友吗，%PCName？不，我们不是，我恳请你管好你自己的事。
+我们是朋友吗，%PCName？不，我们不是，我恳请你管好你自己的事。 {生意}
 
 > INFO.NAME women 24161178341530861
 This is about that Marena Gilnith, right? I'll bet she's a hot little number, isn't she %PCName?
@@ -36867,7 +36867,7 @@ Marena Gilnith might be interested.
 
 > INFO.BNAM women 1471527080861812514 c2
 No.
-目前没有。
+没有。
 
 > INFO.NAME women 963623937239436921
 Well, there's no accounting for some people's taste.  Your loss, to be sure.  Say... you wouldn't happen to have any attractive friends, would you?
@@ -36875,7 +36875,7 @@ Well, there's no accounting for some people's taste.  Your loss, to be sure.  Sa
 
 > INFO.BNAM women 963623937239436921 c1
 No.
-目前没有。
+没有。
 
 > INFO.NAME women 1856227070972712480
 Not your type?  Take another look, baby - I'm every woman's type!.... no, eh?  Well, do you have any cute friends?  I'm on the market, and I'm looking for a good time.  Err, a companion.  Something like that.
@@ -36887,7 +36887,7 @@ Marena Gilnith is looking for a man.
 
 > INFO.BNAM women 1856227070972712480 c2
 No.
-目前没有。
+没有。
 
 > INFO.NAME women 21868322301074822967
 Not your type?  Take another look, baby - I'm every woman's type!.... no, eh?  Well, do you have any cute friends?  I'm on the market, and I'm looking for a good time.  Err, a companion.  Something like that.
@@ -36895,7 +36895,7 @@ Not your type?  Take another look, baby - I'm every woman's type!.... no, eh?  W
 
 > INFO.BNAM women 21868322301074822967 c1
 No.
-目前没有。
+没有。
 
 > INFO.NAME women 10305272892782031028
 Marena Gilnith, you say?  What a pretty name... and I'll bet she's got the body to match!  So, you're going to tell her all about me, right?  No, wait. Why tell her a story that seems too good to be true, when she can see it for her very own eyes!  I'll go find her myself, but thanks for the tip, cutie. And if you ever change your mind about... you know... come and find me. I'll be waiting.
@@ -36967,7 +36967,7 @@ Okay, okay.... don't hurt me!  She's the one who's been giving me scrolls to sel
 
 > INFO.NAME ahnia 2750517570258688883
 You did what? She's dead? Great. There goes my business. Look, I don't want any trouble. She gave me the scrolls, and she gave me this stolen book. Just take it, and leave me alone.
-你做了什么？她死了？太好了。那我没事了。听着，我不想惹上麻烦。是她给了我卷轴，她还给了我这本偷来的书。拿走吧，然后放过我吧。
+你做了什么？她死了？太好了。那我没事了。听着，我不想惹上麻烦。是她给了我卷轴，她还给了我这本偷来的书。拿走吧，然后放过我吧。 {生意}
 
 > INFO.NAME ahnia 46596349303625335
 Look, I don't think we should talk any more about it.  Let's just forget the whole thing, okay?  Pretend I never said a word.
@@ -36975,7 +36975,7 @@ Look, I don't think we should talk any more about it.  Let's just forget the who
 
 > INFO.NAME ahnia 105685401251218947
 Okay, okay.  She's a Khajiit.  An entrepreneur of sorts.  She'll meet me in the sewers beneath here from time to time, and have things for me to sell.  I try not to ask too many questions, you know?  She carries a pretty sharp knife.  So I just do business, like I always do.  There's no harm in it, right?  It's not like it's hurting anyone.
-好吧，好吧。她是个卡吉特。某种程度上算是个企业家。她会时不时地在这下面的下水道里和我见面，拿东西给我卖。我尽量不多嘴问东问西，你懂吧？她带着一把相当锋利的刀。所以我只是做生意而已，就像平常一样。没什么坏处，对吧？又没伤害到任何人。 {问题,事}
+好吧，好吧。她是个卡吉特。某种程度上算是个企业家。她会时不时地在这下面的下水道里和我见面，拿东西给我卖。我尽量不多嘴问东问西，你懂吧？她带着一把相当锋利的刀。所以我只是做生意而已，就像平常一样。没什么坏处，对吧？又没伤害到任何人。 {问题}
 
 > INFO.NAME ahnia 309361847591039442
 I'm sorry, who?  No, I didn't say Ahnia... you must have mis-heard me. Heh. Nope. Nothing to tell at all. Certainly not.

@@ -586,15 +586,15 @@ Travel northeast to the Cave of the Hidden Music and learn the Song of the Earth
 
 > SCPT.SCTX stoneErlendrScript m1
 You have been granted the gift of Erlendr's speed.
-你已获得厄兰德尔的速度天赋。
+你已获得厄伦德之速度天赋。
 
 > SCPT.SCTX stoneHunroorScript m1
 You have been granted the gift of Hunroor's agility.
-你已获得亨鲁尔敏捷的天赋。
+你已获得亨罗尔之敏捷天赋。
 
 > SCPT.SCTX stoneNikulasScript m1
 You have been granted the gift of Nikulas's personality.
-你已获得尼库拉斯的个性天赋。
+你已获得尼库拉斯之魅力天赋。
 
 > SCPT.SCTX stoneSunScript m1
 Go to the west and free the warm Sun from the Halls of Penumbra.
@@ -606,7 +606,7 @@ The First Trees are gone. Travel east and find the one who has stolen the Seeds.
 
 > SCPT.SCTX stoneUlfgarScript m1
 You have been granted the gift of Ulfgar's strength.
-你已获得乌夫加尔的力量天赋。
+你已获得乌夫加尔之力量天赋。
 
 > SCPT.SCTX stoneWaterScript m1
 Travel west to a small island off the coast, and follow the Swimmer to seek the Water of Life.
@@ -634,7 +634,7 @@ I dreamt of a blond maiden. I drew near, and saw she was crying, but her tears w
 
 > SCPT.SCTX VampireCheck m2
 Ok
-继续
+确定
 
 > SCPT.SCTX WereChangeScript m1
 The flesh and blood of your prey has strengthened you for another night.
@@ -746,11 +746,11 @@ Ulfgar's Death Blast
 
 > SPEL.FNAM stone_erlendr
 Erlendr's Speed
-厄伦德之速
+厄伦德之速度
 
 > SPEL.FNAM stone_ulfgar
 Ulfgar's Strength
-乌夫加尔之力
+乌夫加尔之力量
 
 > SPEL.FNAM stone_hunroor
 Hunroor's Agility
@@ -758,7 +758,7 @@ Hunroor's Agility
 
 > SPEL.FNAM stone_nikulas
 Nikulas's Personality
-尼古拉斯之魅力
+尼库拉斯之魅力
 
 > SPEL.FNAM immune to paralysis
 Immune to Paralysis
@@ -1081,7 +1081,7 @@ As quickly as they struck, the creatures retreated, diving off the bluff before 
 $93Werewolves aren't acrobats like that,$94 said Mallon. $93They were definitely Cathay-raht.  Bastard thieves.  Thank Stendarr they didn't realize the value of my notebooks.  It wasn't a complete loss.$94<BR>
 """
 """<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-火中舞，卷一<BR>
+火中舞·卷一<BR>
 瓦辛·贾斯　著<BR><BR>
 <DIV ALIGN="LEFT"><BR><BR>
 场景：西罗帝尔帝都<BR>
@@ -3514,7 +3514,7 @@ Stone of Ulfgar
 
 > ACTI.FNAM Act_BM_stone_nikulas
 Stone of Nikulas
-尼古拉斯之石
+尼库拉斯之石
 
 > NPC_.FNAM ulfgar_ghost
 Ghost of Ulfgar the Unending
@@ -4538,7 +4538,7 @@ Scroll of Savage Tyranny
 > BOOK.TEXT sc_savagetyranny
 <DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">FROM THE EARTH TO THE AETHER...AND BACK.</FONT><BR>
 """<DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">FROM THE EARTH TO THE AETHER... AND BACK.</FONT><BR>
-<DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Daedric">（高飞升天…去而复返。）</FONT><BR>"""
+<DIV ALIGN="center"><FONT COLOR="000000" SIZE="2" FACE="Magic Cards">（高飞升天…去而复返。）</FONT><BR>"""
 
 > NPC_.FNAM Hroldar the Strange_b
 Hroldar the Strange
@@ -5884,7 +5884,7 @@ Whitewalker
 
 > BOOK.FNAM bk_fryssajournal
 Journal of Fryssa
-福瑞莎的日记
+弗莱萨的日记
 
 > BOOK.TEXT bk_fryssajournal
 """
@@ -6834,11 +6834,11 @@ Gra-Muzgob Informant
 
 > INFO.NAME a1_4_muzgobinformant 7116277302832410471
 The Spymaster told me to get Sharn gra-Muzgob at the Balmora Mages Guild to tell me about the Nerevarine, and then report back to him. I'll have to do a little "errand" for her first, he says. I'm beginning to see a pattern here. Rather than pay informants with hard cash, Caius Cosades trades favors for information. And as the new recruit in the organization, I provide the favors. Ah, well. A lesson in humility.
-情报总管让我找巴尔莫拉法师公会的莎恩·格拉-穆兹格布告诉我尼瑞瓦因的情况，然后再向他报告。他说，我得帮她一点小“忙”。我开始发现其中的规律了。凯乌斯·科萨德斯不是用现金支付给线人购买情报，而是用人情换取情报。作为组织的新成员，我提供了好处。啊，好吧。算是上了一课。 {差事,老鼠}
+情报总管让我找巴尔莫拉法师公会的莎恩·格拉-穆兹格布告诉我尼瑞瓦因的情况，然后再向他报告。他说，我得帮她一点小“差事”。我开始发现其中的规律了。凯乌斯·科萨德斯不是用现金支付给线人购买情报，而是用人情换取情报。作为组织的新成员，我提供了好处。啊，好吧。算是上了一课。 {老鼠,忙}
 
 > INFO.NAME a1_4_muzgobinformant 723123997500018044
 The Spymaster seemed happy with the notes I gave him on the Nerevarine from Sharn gra-Muzgob. Caius says he'd like to see me at a higher level of conditioning before he sends me out again. So I should take some time to polish my skills and enhance my cover story with a little freelance adventuring. Then, when I'm ready, I'll return, and Caius will have new orders for me. [When you reach Level 3 or higher, return to Caius for more orders.]
-情报总管似乎很满意我从莎恩·格拉-穆兹格布那里给他的关于尼瑞瓦因的笔记。凯乌斯说，在他再次派我出去之前，他希望看到我的状态达到更高的水平。所以我应该花点时间打磨我的技能，并通过自由冒险来增强我的能力。然后，等我准备好了，我就回来。凯乌斯会给我下达新的指示。[达到三级或更高等级时，回到凯乌斯那里获取更多的命令]
+情报总管似乎很满意我从莎恩·格拉-穆兹格布那里给他的关于尼瑞瓦因的笔记。凯乌斯说，在他再次派我出去之前，他希望看到我的状态达到更高的水平。所以我应该花点时间打磨我的技能，并通过自由冒险来增强我的能力。然后，等我准备好了，我就回来。凯乌斯会给我下达新的指示。[达到三级或更高等级时，回到凯乌斯那里获取更多的命令。]
 
 > INFO.NAME a1_4_muzgobinformant 3158713656939413767
 The Spymaster seemed happy with the notes I gave him on the Nerevarine from Sharn gra-Muzgob. He said he'd like some time to think how the information fits in with the Emperor's plans for me. So if I want, I have some time to do a little freelance adventuring. But whenever I'm ready, Caius says he'll have new orders for me.
@@ -6846,7 +6846,7 @@ The Spymaster seemed happy with the notes I gave him on the Nerevarine from Shar
 
 > INFO.NAME a1_4_muzgobinformant 1450229266230788256
 The Spymaster promoted me to Apprentice Rank in the Blades. He seems pleased with me, because he also gave me a little present.
-情报总管把我晋升为刀锋的学徒级别。他似乎对我很满意，为他还给了我一个小礼物。
+情报总管把我晋升为刀锋的学徒级别。他似乎对我很满意，因为他还给了我一个小礼物。
 
 > INFO.NAME tg_grandmasterretort 9795263632623723230
 Thieves Guild: The Grandmaster's Retort
@@ -6854,7 +6854,7 @@ Thieves Guild: The Grandmaster's Retort
 
 > INFO.NAME tg_grandmasterretort 2952619499170516060
 Big Helende told me that a client wants a Grandmaster's Retort. Big Helende told me that Berwen the Trader in Tel Mora has a Grandmaster's Retort.
-大个子海伦德告诉我，有个客户想要宗师级曲颈瓶。他还诉我，泰尔-莫拉的贸易商伯雯有一个宗师级的曲颈瓶。
+大个子海伦德告诉我，有个客户想要宗师级曲颈瓶。大个子海伦德告诉我，泰尔-莫拉的贸易商伯雯有一个宗师级的曲颈瓶。
 
 > INFO.NAME tg_grandmasterretort 31541104182425318801
 Big Helende thanked me for delivering a Grandmaster's Retort.
@@ -6946,7 +6946,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_drarayne 1758611742222423214
 I spoke with Drarayne Girith who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与德拉雷恩·基里斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与德拉雷恩·基里斯进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME a1_sleepers_llandras 711088042237828794
 Sleepers Awake
@@ -6954,7 +6954,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_llandras 1172226896790414614
 I spoke with Llandras Belaal who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved his life.
-我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
+我与兰德拉斯·贝拉尔进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。
 
 > INFO.NAME a1_sleepers_vireveri 20722124852575822469
 Sleepers Awake
@@ -6962,7 +6962,7 @@ Sleepers Awake
 
 > INFO.NAME a1_sleepers_vireveri 575543361036629602
 I spoke with Vireveri Darethran who had been driven mad by dreams of Dagoth Ur and the Sixth House. This former 'Sleeper' thanked me, and promised to tell others how I had saved her life.
-我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
+我与维雷维·达雷斯兰进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。
 
 > INFO.NAME hh_literacycampaign 2904023318816014302
 House Hlaalu: Literacy Campaign
@@ -7010,7 +7010,7 @@ Divided by Nix Hounds
 
 > INFO.NAME mv_missingcompanion 1105622899123384255
 While wandering near Ald'ruhn, I found Falanu Indaren, who had apparently been attacked by a pack of nix hounds while traveling with her husband.
-在奥德'汝因附近，我发现了法拉努·英达伦，她显然是在和丈夫一起旅行时被一群尼克斯猎犬袭击的。
+在奥德'汝因附近游荡时，我发现了法拉努·英达伦，她显然是在和丈夫一起旅行时被一群尼克斯猎犬袭击的。
 
 > INFO.NAME mv_missingcompanion 31438186252551117845
 I have no time to try and help Falanu Indaren find her husband.
@@ -7226,7 +7226,7 @@ Temple: Cure the Outcast Outlander
 
 > INFO.NAME tt_ministryheathen 17758175881961613670
 Uvoo Llaren asked me to cure Assantus Hansar in an outcast Ashlander camp south of Ghostgate. I should be prepared to calm him, as outcast Ashlanders can be aggressive even when they are ill.
-尤沃·拉伦让我去幽魂之门南边一个被遗弃的叫做阿萨图斯·汉萨营地的地方治愈阿萨图斯·汉萨。我应该做好安抚他的准备，因为灰烬之民即使在生病时也会咄咄逼人。
+尤沃·拉伦让我去幽魂之门南边一处被遗弃的灰烬之民营地为阿萨图斯·汉萨治病。我应该做好安抚他的准备，因为灰烬之民即使在生病时也会咄咄逼人。
 
 > INFO.NAME tt_ministryheathen 4471769216816780
 Uvoo Llaren thanked me for curing Assantus Hansar.
@@ -7578,11 +7578,11 @@ Lorbumol gro-Aglakh paid me the bounty for Adraria Vandacia.
 
 > INFO.NAME hr_guardguarherds 13535154612446232748
 House Redoran: Trouble with Bandits
-瑞多然家族：强盗的困扰
+瑞多然家族：强盗的麻烦
 
 > INFO.NAME hr_guardguarherds 10500306252164315455
 Neminda asked me to talk to Drulene Falen again. The guar herders are having trouble with bandits.
-内明达让我再和德鲁琳·法伦谈谈。瓜尔牧民遇到了强盗的困扰。
+内明达让我再和德鲁琳·法伦谈谈。瓜尔牧民遇到了强盗的麻烦。
 
 > INFO.NAME hr_guardguarherds 1419610573166017625
 Neminda thanked me for taking care of the bandits.
@@ -7758,7 +7758,7 @@ Mouth Felisa Ulessen gave me some new clothes and asked me to deliver them to Mi
 
 > INFO.NAME ht_theranaclothes 591365743083316878
 Mouth Felisa Ulessen thanked me for delivering the clothes to her patron.
-发言人菲丽莎·乌雷森感谢我把服装送到了她的顾客手中。 {资助者}
+发言人菲丽莎·乌雷森感谢我把服装送到了她的资助者手中。
 
 > INFO.NAME ht_slaverebellion 248493095769026523
 House Telvanni: Slave Rebellion
@@ -7890,7 +7890,7 @@ I met a Bosmer pilgrim named Thoronor, who was on his way to Vivec. Apparently, 
 
 > INFO.NAME mv_strayedpilgrim 146312296223746784
 I've decided that Thoronor will be able to find Edras Oril on his own. I have more pressing business.
-我决定让索罗诺尔自己去找埃德拉斯·奥里尔。我有更紧急的事。
+我决定让索罗诺尔自己去找埃德拉斯·奥里尔。我有更紧急的事。 {生意}
 
 > INFO.NAME mv_strayedpilgrim 2692122385595129644
 Edras Oril can find his own way back to his friend. I have no time to try and babysit a couple of wayward scholars.
@@ -8850,7 +8850,7 @@ I took care of the bad person, Daren Adryn, the Camonna Tong thug who threatened
 
 > INFO.NAME romance_ahnassi 205041638348016816
 I spoke to Daren Adryn about Ahnassi, but he said he never heard of her, and that is wasn't any of my business, anyway. Then he threatened me, and told me to go away.
-我跟达伦·阿德林谈起阿娜西，但他表示从来没听说过她，反正也不关我的事。随后他威胁我，要我离开。
+我跟达伦·阿德林谈起阿娜西，但他表示从来没听说过她，反正也不关我的事。随后他威胁我，要我离开。 {生意}
 
 > INFO.NAME romance_ahnassi 65994414113317341
 I have offered to take care of the bad person who has threatened Ahnassi. The bad person is Daren Adryn, a Dark Elf, and a Camonna Tong bigwig. Ahnassi says he is found at Nadene Rotheran's Shack in Gnaar Mok.
@@ -8910,7 +8910,7 @@ Hortator and Nerevarine
 
 > INFO.NAME b8_all_hortator 17767246002949023303
 I have been named Hortator of all three Great Houses, Redoran, Hlaalu, and Telvanni. Of the Seven Visions of Seven Trials of the Incarnate, I have now fulfilled the Fourth Trial.
-我被任命为大家族泰瓦尼，瑞多然，哈拉鲁和泰瓦尼三大家族的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。
+我被任命为瑞多然、哈拉鲁和泰瓦尼三大家族的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。
 
 > INFO.NAME b7_telvannihort 322562370259142198
 Telvanni Hortator
@@ -9594,7 +9594,7 @@ Eydis Fire-Eye asked me to kill the smuggler Dovres Verethi, the head of the Ver
 
 > INFO.NAME fg_verethigang 14760934222272524
 Eydis Fire-Eye paid me 1,000 gold for putting the Verethi Gang out of business.
-艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {事}
+艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {生意}
 
 > INFO.NAME fg_hungerloose 1130641401706223979
 Fighters Guild: Hunger in the Sarano Tomb
@@ -9682,7 +9682,7 @@ House Hlaalu: Bank Courier
 
 > INFO.NAME hh_bankcourier 3950135161216932088
 Edryno Arethi wants me to deliver sealed orders to Treasurer Baren Alen in the Hlaalu Vaults in Vivec. The vaults are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side.
-埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的上层。 {指示}
+埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的顶层。 {指示}
 
 > INFO.NAME hh_bankcourier 38030277295099293
 Edryno Arethi thanked me for delivering the sealed orders.
@@ -9934,7 +9934,7 @@ The ghost of Idrenie Nerothan gave me a probe and lockpick.
 
 > INFO.NAME a2_6_incarnate 135912716814865701
 The ghost of Erur-Dan gave me a spear and cuirass.
-埃鲁-丹的鬼魂给了我一件胸甲和一把长枪。
+埃鲁-丹的鬼魂给了我一把长枪和一件胸甲。
 
 > INFO.NAME a2_6_incarnate 2228710002691815370
 The ghost of Hort-Ledd gave me a book and a robe.
@@ -9982,7 +9982,7 @@ Ashkhan Kaushad told me secretly that he is not such a fool, that he realizes I 
 
 > INFO.NAME b3_zainabbride 955143292200123310
 Falura Llervu says she is very pleased with Ashkhan Kaushad. He is good-looking, clever, and rich, although a bit full of himself, like all men. She thanks me for having been her matchmaker and benefactor, and hopes I will return to visit when she has brought many fine sons and daughters to Ashkhan Kaushad.
-法露拉·列乌说她对灰烬可汗考沙德非常满意。他英俊、聪明、富有，尽管像所有男人一样有点自以为是。她感谢我做她的媒人和恩人，希望等她给灰烬可汗考沙德生下许多优秀的女儿们时，我还会再来拜访。
+法露拉·列乌说她对灰烬可汗考沙德非常满意。他英俊、聪明、富有，尽管像所有男人一样有点自以为是。她感谢我做她的媒人和恩人，希望等她给灰烬可汗考沙德生下许多优秀的儿女时，我还会再来拜访。 {女儿们}
 
 > INFO.NAME b3_zainabbride 1348774192702827403
 Ashkhan Kaushad says he is very pleased with Falura Llervu, though she is not so generous in the hips as he would like. He promises to make her a happy bride, and to do her honor as a high-born Telvanni lady. And he has named me Zainab Nerevarine, War Leader of the Zainab, and Protector of the People. He has also given me the Zainab Thong, an enchanted heirloom of the tribe, which shall be a sign to all Dunmer that the Zainab have named me Nerevarine.
@@ -10350,7 +10350,7 @@ House Hlaalu: Erroneous Documents
 
 > INFO.NAME hh_replacedocs 48978964231896166
 Odral Helvi wants me to replace a scroll in the Hlaalu Records in Vivec. The Records are part of the treasury, which is in the top level of the Hlaalu Waistworks on the north side. I should put the scroll in the chest of Ascadian land deeds.
-奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的上层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
+奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的顶层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。
 
 > INFO.NAME hh_replacedocs 754722062219716561
 I told Odral Helvi that I replaced the documents as he asked.
@@ -11074,7 +11074,7 @@ Temple: Compassion
 
 > INFO.NAME tt_compassion 31919179021757618115
 Tuls Valen wants me to reenact Vivec's compassionate healing of a foe. I must either learn the Rilm's Gift spell or use the potion he gave me to cure the Orc Bulfim gra-Shugharz of Ash-Chancre. Bulfim gra-Shugarz is in Maelkashishi. I can get there by heading east from Ald Velothi until I reach the mountains, then following the mountains south.
-图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之赐”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
+图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之赐”法术，或者用他给我的药水来治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。
 
 > INFO.NAME tt_compassion 836014959162526210
 Tuls Valen thanked me for curing Bulfim gra-Shugharz.
@@ -11434,7 +11434,7 @@ The Path of the Incarnate
 
 > INFO.NAME a2_6_erur-dan 157355819368830561
 The ghost of Erur-Dan gave me a spear and cuirass.
-埃鲁-丹的鬼魂给了我一件胸甲和一把长枪。
+埃鲁-丹的鬼魂给了我一把长枪和一件胸甲。
 
 > INFO.NAME va_vampmarara 133173884197361898
 The Weary Vampire
@@ -11462,7 +11462,7 @@ Dhaunayne Aundae has asked me to provide her with another service. Apparently, a
 
 > INFO.NAME va_vamphunter 2168029170325054057
 I have decided not to try and kill this vampire hunter. Killing a vampire hunter is risky business. Doing in the light of day is suicide.
-我决定不杀这个吸血鬼猎人。杀死吸血鬼猎人本身就是一件很冒险的事。在日光之下出手简直就是自杀。
+我决定不杀这个吸血鬼猎人。杀死吸血鬼猎人本身就是一件很冒险的事。在日光之下出手简直就是自杀。 {生意}
 
 > INFO.NAME va_vamphunter 24017128262511431373
 I have returned to Ashmelech and spoken with Daunayne Aundae. She was unhappy with my failure to provide an example for other vampire hunters.
@@ -11586,7 +11586,7 @@ Imperial Cult: The Haunting
 
 > INFO.NAME ic16_haunting 23064189583248723812
 A Bosmer named Nedhelas in Caldera says his house is haunted by a ghost. Kaye said ghosts aren't affected by normal weapons, so he gave me 200 gold to buy an enchanted weapon or spell, and for other expenses. I'm to talk to Nedhelas first, and I should report back to Kaye if I rid the haunted house of its ghost.
-卡尔德拉有个叫内德拉斯的波斯莫说他家闹鬼。凯说鬼魂不受普通武器的影响，所以他给了我200金币，让我买附魔的武器或法术，以及其他费用。我要先和内德拉斯的房子谈谈，如果我把鬼屋的鬼魂赶走了，就应该向凯报告。
+卡尔德拉有个叫内德拉斯的波斯莫说他家闹鬼。凯说鬼魂不受常规武器的影响，所以他给了我200金币，让我买附魔的武器或法术，以及其他费用。我要先和内德拉斯的房子谈谈，如果我把鬼屋的鬼魂赶走了，就应该向凯报告。
 
 > INFO.NAME ic16_haunting 24247171973105411224
 I reported taking care of the haunted house for Nedhelas. Kaye seemed pleased. He gave me some magic scrolls and told me to speak to him again when I was ready for another shrine sergeant mission.
@@ -12106,7 +12106,7 @@ To defeat Dagoth Ur, Vivec says I must go to Red Mountain to recover the artifac
 
 > INFO.NAME b8_meetvivec 3108320266200937559
 I accepted Wraithguard from Lord Vivec, and I swore my oath, before all gods and men, before all spirits visible and invisible, before my honor and Vivec's honor, to dedicate myself and Wraithguard to the defeat and destruction of Dagoth Ur, and the preservation of Morrowind and its people. Vivec somehow taught me how to use Wraithguard. He then offered to give some explanations, or to let me go immediately, as I wished.
-我从维威克领主那里接受了幽魂影卫，我宣誓在所有神和人的面前，在所有有形和无形的神灵面前，在我的荣誉和维威克的荣誉面前，宣誓将我自己和幽魂影卫奉献给打败达格斯·乌尔以及毁灭了达格斯家族，保护晨风和它的人民。维威克以某种方式教会了我如何使用幽魂影卫。然后他提出给我一些解释，或者按照我的意愿让我立即离开。
+我从维威克领主那里接受了幽魂影卫，我宣誓在所有神和人的面前，在所有有形和无形的神灵面前，在我的荣誉和维威克的荣誉面前，宣誓将我自己和幽魂影卫奉献给打败并毁灭达格斯·乌尔，保护晨风和它的人民。维威克以某种方式教会了我如何使用幽魂影卫。然后他提出给我一些解释，或者按照我的意愿让我立即离开。
 
 > INFO.NAME tt_galomdeus 2104668821848823099
 Temple: Slay Raxle Berne
@@ -12450,7 +12450,7 @@ I have spoken with Sterdecan. He was not surprised by the bounty hunter's ruse. 
 
 > INFO.NAME mv_fakeslave 1509180951142725729
 Tul tells me that since Sterdecan is dead, he has no further business with me.
-图尔告诉我，既然斯特德坎已经死了，他与我再无瓜葛。 {事}
+图尔告诉我，既然斯特德坎已经死了，他与我再无瓜葛。 {生意}
 
 > INFO.NAME b2b_dutadalk 1093225014162453895
 Ahemmusa Nerevarine
@@ -13002,11 +13002,11 @@ The raven turned out to be one of the Glenmoril Witches. She offered me a cure f
 
 > INFO.NAME bm_wolfgiver 53312936108712758
 The raven is actually a witch of Glenmoril Wyrd in animal form. She offered to cure my lycanthropy, and I accepted. I'm off to meet her sisters, and begin the "Rite of the Wolf Giver," whatever that may be....
-乌鸦其实是动物形态的格伦摩尔巫妖。她提出治疗我的变狼症，我接受了。我要去见她的姐妹们，并开始“狼人赠与者仪式”，不管那是什么……
+乌鸦其实是动物形态的格伦莫莉女巫。她提出治疗我的变狼症，我接受了。我要去见她的姐妹们，并开始“狼人赠与者仪式”，不管那是什么……
 
 > INFO.NAME bm_wolfgiver 5111164642869717568
 The witch Ettiene told me to talk to her sisters and complete whatever errands they may give. After I have done so, I am to talk to Ettiene again.
-女巫厄缇娜让我和她的姐妹们谈谈，完成她们交给我的任何任务。完成任务后，我要再次与厄缇娜交谈。 {差事}
+女巫艾蒂安让我和她的姐妹们谈谈，完成她们交给我的任何差事。完成后，我要再次与艾蒂安交谈。
 
 > INFO.NAME bm_wolfgiver 16845270772837422414
 I must retrieve the petals of a wolsfbane flower and return them to the witch named Fallaise. Wolfsbane only grows in one place on Solstheim -- at the top of Hvitkald Peak, at the southern end of the Moesring Mountains.
@@ -13018,11 +13018,11 @@ For the witch named Isobel I must collect one bunch of ripened belladonna berrie
 
 > INFO.NAME bm_wolfgiver 726815477153989271
 I delivered the wolsfbane petals and ripened belladonna berries to the Glenmoril Witches.  I must now speak with Ettiene.
-我把狼毒花瓣和成熟的颠茄浆果交给了格伦莫莉女巫。我现在必须和厄缇娜谈谈。
+我把狼毒花瓣和成熟的颠茄浆果交给了格伦莫莉女巫。我现在必须和艾蒂安谈谈。
 
 > INFO.NAME bm_wolfgiver 474612695954728279
 I spoke once more with the witch Ettiene.  The witches will use the ingredients I gathered in their lycanthropy cure, but the most difficult steps still lie ahead.  I am to meet Etienne at the Altar of Thrond to complete the Rite of the Wolf Giver.
-我又和女巫厄缇娜谈了一次。女巫们将使用我收集到的材料来治疗狼人病，但最困难的步骤还在后面。我要在瑟隆德祭坛与厄缇娜会面，完成狼人赐予者的仪式。
+我又和女巫艾蒂安谈了一次。女巫们将使用我收集到的材料来治疗狼人病，但最困难的步骤还在后面。我要在瑟隆德祭坛与艾蒂安会面，完成狼人赐予者的仪式。
 
 > INFO.NAME bm_wolfgiver 27736213131340021915
 I met Ettiene at the Altar of Thrond. She has "acquired" an innocent to serve as a human sacrifice.  If I wish to never again become a werewolf, I must kill the innocent, take the heart from its body, and give it to Ettiene.
@@ -13030,15 +13030,15 @@ I met Ettiene at the Altar of Thrond. She has "acquired" an innocent to serve as
 
 > INFO.NAME bm_wolfgiver 100737667221632578
 Ettiene bathed the innocent's heart in the potion she and her sisters had brewed, and uttered a strange incantation. I must place this Heart of the Wolf back in the body of the innocent, and then talk to Ettiene again.  I am almost cured of my lycanthropy....
-厄缇娜将纯洁之心浸泡在她和姐妹们调制的药水中，念起了奇怪的咒语。我必须把这颗狼的心脏放回纯洁之心的身体里，然后再和厄缇娜对话。我的狼人病几乎痊愈了…… {谈}
+艾蒂安将纯洁之心浸泡在她和姐妹们调制的药水中，念起了奇怪的咒语。我必须把这颗狼的心脏放回纯洁之心的身体里，然后再和艾蒂安对话。我的狼人病几乎痊愈了…… {谈}
 
 > INFO.NAME bm_wolfgiver 20209979228189323
 I placed the Heart of the Wolf in the body of the innocent.  I must now talk to Etienne.
-我把狼的心脏放进了纯洁之心的身体里。现在我必须和厄缇娜谈谈了。
+我把狼的心脏放进了纯洁之心的身体里。现在我必须和艾蒂安谈谈了。
 
 > INFO.NAME bm_wolfgiver 7404276241971531241
 Ettiene muttered her final incantation. The innocent lives once more, and has been infected with my lycanthropy!  I must kill this werewolf in order to rid myself of the curse once and for all.
-厄缇娜喃喃地念着最后的咒语。无辜的人又活过来了，而且被感染了狼人病！我必须杀死这个狼人，才能彻底摆脱诅咒。
+艾蒂安喃喃地念着最后的咒语。无辜的人又活过来了，而且被感染了狼人病！我必须杀死这个狼人，才能彻底摆脱诅咒。
 
 > INFO.NAME bm_wolfgiver 1858625338197488497
 The werewolf innocent is dead, and my lycanthropy has been cured.  I will never become a werewolf again, and am now immune from the disease.
@@ -13474,7 +13474,7 @@ Mages Guild: Fake Soul Gem
 
 > INFO.NAME mg_sabotage 2032217651464016623
 Ajira gave me a fake soul gem. She wants me to sabotage Galbedir's Journeyman project. I should put the fake soul gem in Galbedir's desk.
-阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的老手晋级计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。
+阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的资深法师计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。
 
 > INFO.NAME mg_sabotage 1126144581591424416
 Ajira thanked me for helping her sabotage Galbedir's experiment.
@@ -13534,7 +13534,7 @@ I have agreed to let Irarak live here in peace with his followers. While these f
 
 > INFO.NAME va_vampcult 15229159883102313813
 Irarak is dead. His cult will have to find a new way to spend their time and gold.
-因拉拉克已经死了，他的教派必须另谋出路，徒耗时间和金钱。
+因拉拉克已经死了，他的教派必须另谋出路，消磨时间和金钱。
 
 > INFO.NAME va_vampcult 10565207852121112490
 I have returned to Druscashti and told Volrina Quarra of the death of "Lord Irarak." She was pleased, and will allow me to use clan services.
@@ -13594,7 +13594,7 @@ Imperial Cult: Pledge from Canctunian Ponius
 
 > INFO.NAME ic14_ponius 125573741191396819
 Iulus Truptor asked me to persuade Canctunian Ponius of the East Empire Company to deliver the 1000 gold he has pledged to sponsor a mission to the Ashlanders. I'll find him at the East Empire Company Hall in Ebonheart. When I have the generous pledge from Canctunian Ponius, I'm to deliver it to Iulus Truptor.
-尤卢斯·特鲁普托我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特鲁普托。
+尤卢斯·特鲁普托让我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特鲁普托。
 
 > INFO.NAME ic14_ponius 772410064107932659
 I told Canctunian Ponius that I had failed to find Mossanon and the missing gold. Now Canctunian Ponius says he cannot redeem his 1000-drake pledge to the Imperial cult.
@@ -15146,7 +15146,7 @@ While in Suran, I spoke to Ashumanu Eraishah. She told me of a madman on a hill 
 
 > INFO.NAME ms_umbra 185211072930588708
 I cannot bring myself to fight this man. He seems mad to me, and his slaughter would bring me no glory.
-我不忍心和他战斗。我觉得他疯了，杀了他也不会给我带来荣耀。 {屠杀}
+我不忍心和他战斗。我觉得他疯了，屠杀他也不会给我带来荣耀。
 
 > INFO.NAME ms_umbra 2119228073593521908
 I have killed the orc called Umbra. He was a valiant warrior, and he has died in the manner of his choosing.
@@ -15386,7 +15386,7 @@ I told Synnolian Tunifus I would not be able to bring him the five units of rat 
 
 > INFO.NAME ic6_rat 17168270551144814456
 I delivered five units of rat meat to Synnolian Tunifus. He gave me a cure poison potion as a reward. And since his errands have become more dangerous, he taught me some useful unarmored defense maneuvers.
-我给辛诺里安·图尼夫斯送去了五块老鼠肉。他给了我一瓶解毒药作为奖励。由于他的任务变得更加危险，他教了我一些有用的无甲防御技巧。 {药水,报酬,差事}
+我给辛诺里安·图尼夫斯送去了五块老鼠肉。他给了我一瓶解毒药作为奖励。由于他的差事变得更加危险，他教了我一些有用的无甲防御技巧。 {药水,报酬}
 
 > INFO.NAME eb_bone 3073530836492311330
 The Dwemer's Bone
@@ -15394,7 +15394,7 @@ The Dwemer's Bone
 
 > INFO.NAME eb_bone 105562289015111609
 I have heard rumor that Balen Andrano is having a rough time with his business.
-我听说巴伦·安德拉诺的生意不好做。 {事}
+我听说巴伦·安德拉诺的生意不好做。
 
 > INFO.NAME eb_bone 54856565159329953
 Jeanne admonished me for attempting to enter her private quarters, and threatened to call the guard if I did not stay away.
@@ -15418,7 +15418,7 @@ A Friend in Deed
 
 > INFO.NAME eb_deed 2159810269257649
 I've heard rumors that Alusaron, a smith in the Foreign Quarter of Vivec, has been losing a lot of business, and his nearest competitor recently got a big contract.
-我听说有传言说，维威克外邦区的铁匠铺阿鲁萨隆最近生意大不如前，他最近的竞争对手得到了一份大合同。 {事}
+我听说有传言说，维威克外邦区的铁匠铺阿鲁萨隆最近生意大不如前，他最近的竞争对手得到了一份大合同。
 
 > INFO.NAME eb_deed 271964268268382650
 I have told Alusaron I will not steal the contract from Ralen Tilvur.
@@ -16074,7 +16074,7 @@ Uryn Maren confessed to stealing ore from the mines, but says that Carnius put h
 
 > INFO.NAME co_6 31580583735058306
 I followed Uryn Maren to the storage room, where he has no business being.
-我跟着乌林·马伦来到那个跟他没任何关系的储存室。 {事}
+我跟着乌林·马伦来到那个跟他没任何关系的储存室。 {生意}
 
 > INFO.NAME co_6 948411040709326862
 Falco has ordered me to follow Uryn Maren in the mines, to see if he's really stealing. I'm not supposed to be seen by anyone.
@@ -16254,7 +16254,7 @@ Very well, then. You are now an %NextPCRank in the East Empire Company, %PCName.
 
 > INFO.NAME join the east empire company 322838711831330428
 The East Empire Company is a business at heart. Applicants should have a winning personality, and a strong will. Those with the ability to speak eloquently and barter shrewdly are most valuable. Given the hostile environments the Company often ventures into, applicants should have a keen sense of security. Finally, all applicants should be trained in the time-honored virtues of long blades and medium armor, as has been customary for the Company for generations.
-东帝国公司本质上是一家企业。应聘者应具备成功的个性和坚强的意志。能言善辩、精明能干的人最有价值。鉴于公司经常涉足的敌对环境，应聘者应具备敏锐的安全意识。最后，所有申请者都应接受过长刃武器和中甲的训练，这也是公司世代相传的传统美德。 {事,魅力,开锁,刀锋}
+东帝国公司本质上是一家企业。应聘者应具备成功的个性和坚强的意志。能言善辩、精明能干的人最有价值。鉴于公司经常涉足的敌对环境，应聘者应具备敏锐的安全意识。最后，所有申请者都应接受过长刃武器和中甲的训练，这也是公司世代相传的传统美德。 {生意,魅力,开锁,刀锋}
 
 > INFO.BNAM join the east empire company 322838711831330428 c1
 Okay, I'm in.
@@ -16286,15 +16286,15 @@ At a closer glance, it seems you'd be of little use to me. You certainly don't m
 
 > INFO.NAME attack on the imperial fort 15065305182455917259
 I've told you all I will about the attack. The Imperials' business is their own.
-我已经把袭击的事都告诉你了。帝国人的事是他们自己的事。
+我已经把袭击的事都告诉你了。帝国人的事是他们自己的事。 {生意}
 
 > INFO.NAME attack on the imperial fort 18291215111498823645
 Those soldiers...pfah! They cut their trees and dig their holes, and have little to show after a day's toil. They do not respect this land or its creatures, and for that, I find them offensive. But, though I have no love for them, the Skaal would never do such a thing. We prefer to let the Imperials kill themselves slowly. But these creatures that attacked...these were not wolves of this island. Now, have you finished your business here?
-那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？
+那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？ {生意}
 
 > INFO.NAME attack on the imperial fort 203221058216814080
 Those soldiers...pfah! They cut their trees and dig their holes, and have little to show after a day's toil. They do not respect this land or its creatures, and for that, I find them offensive. But, though I have no love for them, the Skaal would never do such a thing. We prefer to let the Imperials kill themselves slowly. But these creatures that attacked...these were not wolves of this island. Now, have you finished your business here?
-那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？
+那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？ {生意}
 
 > INFO.NAME attack on the imperial fort 133802626774499149
 I can tell you no more about this. If there is information, Heart-Fang will have it. I'm sorry I can do no more.
@@ -16422,7 +16422,7 @@ Fire from water, flame through ice. Strange indeed. Heart-Fang believes that a D
 
 > INFO.NAME chronicles of nchuleft 2951510500150015041
 Good. I will not forget this, %PCName. As you have brought me all three books. Please accept these trinkets of mine. I no longer have any use for them.
-很好。我不会忘记的，%PCName。你给我带来了三本书。请收下我的这些矿场饰品。我不再需要它们了。
+很好。我不会忘记的，%PCName。你给我带来了三本书。请收下我的这些矿场饰品，我不再需要它们了。
 
 > INFO.NAME weapons being smuggled 1262019610880915498
 Both of my soldiers have been killed? That's impossible! You had something to do with this!
@@ -16526,7 +16526,7 @@ Why should I talk to you? Find someone else to bother, %PCRace.
 
 > INFO.NAME weapons being smuggled 3249250363125312224
 I heard that business was taken care of.
-我听说那件事已经解决了。
+我听说那件事已经解决了。 {生意}
 
 > INFO.NAME weapons being smuggled 3248155271616910453
 Don't ask me. You might want to ask Zeno Faustus about it. He knows what goes on around here. You might find him in the Armory here at the fort.
@@ -16770,7 +16770,7 @@ I met the lass a few weeks ago, while I was out here hunting bear for Brynjolfr.
 
 > INFO.NAME mirisa never returned 3141814952301548965
 Aye, you're damn right the poor lass never returned. She came here preaching about the evils of drink. Erich the Unworthy got right furious. He took that missionary, and has her locked in his room! He likes to taunt her, even beat her. It's just not right. That Erich's a bully and a braggart, and is unloved by the lot of us. But he IS a clan brother, and we can't interfere in his business, much as we'd like to. Shame someone doesn't teach the lout a lesson.
-你说得没错，那可怜的姑娘再也没回来过。她来这里宣扬酗酒的罪恶，卑劣者埃里希勃然大怒。他带走了那个传教士，把她锁在自己房间里。他喜欢嘲弄她，甚至打她，这是不对的。埃里希是个恶霸，是个吹牛大王，我们都不喜欢他。但他是我们的族兄，我们不能干涉他的事，尽管我们很想。真遗憾没人教训这个蠢货。
+你说得没错，那可怜的姑娘再也没回来过。她来这里宣扬酗酒的罪恶，卑劣者埃里希勃然大怒。他带走了那个传教士，把她锁在自己房间里。他喜欢嘲弄她，甚至打她，这是不对的。埃里希是个恶霸，是个吹牛大王，我们都不喜欢他。但他是我们的族兄，我们不能干涉他的事，尽管我们很想。真遗憾没人教训这个蠢货。 {生意}
 
 > INFO.NAME mirisa never returned 9015317752454611009
 She's dead. You wouldn't happen to know anything about that, would you?
@@ -17026,15 +17026,15 @@ Yes, I know it has. These soldiers lead a difficult existence on this island. It
 
 > INFO.NAME morale has been low 25484325302217725866
 I believe that business is complete. Thank you for your help.
-我想这件事已经结束了。谢谢你的帮助。
+我想这件事已经结束了。谢谢你的帮助。 {生意}
 
 > INFO.NAME morale has been low 26577323112283225245
 You say that the shipment had merely been misplaced and this was all a big miscommunication? That's ridiculous. I expected better of my men, and myself. Especially of myself. Thank you for your help, %PCName. Take these--there are diseases on this island we have never encountered. I would hate to see you take ill. Now, though, there is more fort business to discuss.
-你说那批货只是放错了地方，这只是个误会？这太荒谬了。我希望我的人和我自己能做得更好，尤其是我自己。谢谢你的帮助，%PCName。拿着这个，这座岛上有我们从未遇到过的疾病。我不想看到你生病。现在有更重要的要塞事务。 {讨论}
+你说那批货只是放错了地方，这只是个误会？这太荒谬了。我希望我的人和我自己能做得更好，尤其是我自己。谢谢你的帮助，%PCName。拿着这个，这座岛上有我们从未遇到过的疾病。我不想看到你生病。现在有更重要的要塞事务要讨论。 {生意}
 
 > INFO.NAME morale has been low 275995980103416424
 You say that Antonius Nuncius started this whole thing because he wanted to go home? The twit! I could have had him reassigned, had he just asked me. Now, though, I think he might do his best work here, saving the souls of my men. With the new abundance of liquor at the fort, someone will have to deliver their salvation. Thank you for your help, %PCName. Take these. There are diseases on this island that we have never encountered before. And the weapon may serve you well. Now, on to more fort business.
-你说安东尼乌斯·农基乌斯挑起这件事，是因为他想回家？这个笨蛋！只要他开口，我就能把他调走。但现在，我觉得他可以在这里做他最擅长的事，拯救我手下的灵魂。要塞里的酒又多了起来，总得有人来拯救他们吧。谢谢你的帮助，%PCName，拿着。这岛上有我们从未遇到过的疾病，这武器对你很有用。现在，去做别的要塞事务吧。 {工作}
+你说安东尼乌斯·农基乌斯挑起这件事，是因为他想回家？这个笨蛋！只要他开口，我就能把他调走。但现在，我觉得他可以在这里做他最擅长的事，拯救我手下的灵魂。要塞里的酒又多了起来，总得有人来拯救他们吧。谢谢你的帮助，%PCName，拿着。这岛上有我们从未遇到过的疾病，这武器对你很有用。现在，去做别的要塞事务吧。 {工作,生意}
 
 > INFO.NAME morale has been low 1998260872053919600
 If there's reason to suspect Antonius Nuncius, find the proof. If you feel you have it, confront the man himself. Then report to me. Let's do this right, %PCname.
@@ -17802,7 +17802,7 @@ Turn in certificate
 
 > INFO.BNAM stock certificate 5637141661331522167 c3
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME stock certificate 263261158930515852
 It's a way to offset the cost of establishing and developing the colony. Each employee is issued a certificate that has a value based on how well the colony is performing. If you decide you'd like to exchange it for money, it can be arranged. See me if you're interested in doing so.
@@ -17866,7 +17866,7 @@ Turn in certificate
 
 > INFO.BNAM stock certificate 2304213722098810832 c3
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME stock certificate 15859310892244830074
 Yes, well. Given the absence of Carnius, I suppose I could process the appropriate paperwork. Would you like to exchange your certificate now?
@@ -17882,7 +17882,7 @@ Turn in certificate
 
 > INFO.BNAM stock certificate 15859310892244830074 c3
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME stock certificate 302261996315917917
 Ah. Yes, well, Carnius handles stock certificates, being the local Factor and all.
@@ -18199,7 +18199,7 @@ Stalhrim Mace
 
 > INFO.BNAM stalhrim weapons 900847722160227203 c5
 Nevermind
-什么都不要
+还是算了
 
 > INFO.NAME stalhrim weapons 1973430735196923071
 You haven't turned over enough Stalhrim to warrant my giving you a reward, %PCRank.
@@ -18295,7 +18295,7 @@ Stalhrim Mace
 
 > INFO.BNAM stalhrim weapons 1052431962138491563 c5
 Nevermind
-什么都不要
+还是算了
 
 > INFO.NAME custom fur armor 2830419322300177154
 Roaming the wilds of Solsteim are seldom seen, elusive species of wolf and bear.  They're called snow wolves and snow bears, because of their white fur.  It is said that the pelts of these animals have innate magical qualities that help guard against Solstheim's brutal frost and snow.  Just think of the armor I could create with such materials!  If you were to provide me with the pelts and enough gold, I would gladly make you a set of custom snow wolf armor or snow bear armor.
@@ -18347,7 +18347,7 @@ Yes, we should.
 
 > INFO.BNAM travel together 2702731522608629266 c2
 No. Wait here.
-不，在这里等。
+不，在这里等着。
 
 > INFO.NAME travel together 26239323941534219976
 It is best if I remain here.
@@ -18371,7 +18371,7 @@ Yes, we should.
 
 > INFO.BNAM travel together 311882790128006716 c2
 No. Wait here.
-不，在这里等。
+不，在这里等着。
 
 > INFO.NAME travel together 1627714415913516768
 Habasi hears you broke our agreement. Habasi does not want to speak with you now.
@@ -18387,7 +18387,7 @@ Yes, follow me.
 
 > INFO.BNAM travel together 1748425214119776640 c2
 No, nevermind.
-不，算了。
+不，还是算了。
 
 > INFO.NAME travel together 17887102541567525512
 I am already safe and sound here at the shrine, %PCClass, but thank you for your concern.
@@ -18407,11 +18407,11 @@ Do you want me to wait here, %PCName?
 
 > INFO.BNAM travel together 101781612376816312 c1
 Follow me.
-跟我来。
+跟着我。
 
 > INFO.BNAM travel together 101781612376816312 c2
 Wait here.
-你先待在这。
+在这里等着。
 
 > INFO.NAME travel together 6045309411483418683
 Will you escort me back to the Imperial Cult Shrine at Fort Frostmoth?
@@ -18419,11 +18419,11 @@ Will you escort me back to the Imperial Cult Shrine at Fort Frostmoth?
 
 > INFO.BNAM travel together 6045309411483418683 c1
 Follow me.
-跟我来。
+跟着我。
 
 > INFO.BNAM travel together 6045309411483418683 c2
 Wait here.
-你先待在这。
+在这里等着。
 
 > INFO.NAME missionary work 2670638031513821804
 Mirisa has a passion for preaching.  She thought she could be most effective by spreading the tenets of the Imperial Cult to the residents of Solstheim.  It's dangerous but necessary work.  Her journeys into the wild have been very successful in the past, but Mirisa never returned from her last outing.  I fear something terrible has happened to her.
@@ -19119,7 +19119,7 @@ Yes, he came nosing about our lair some weeks ago. Some of my spies have tracked
 
 > INFO.BNAM vampire hunter 14317185292636531007 c1
 I will kill this vampire hunter for all to see.
-我不会为你这么做的。
+我要杀了这个吸血鬼猎人，让所有人都看到。
 
 > INFO.BNAM vampire hunter 14317185292636531007 c2
 I will not do this for you.
@@ -19135,7 +19135,7 @@ I have no rewards for you yet, yearling.
 
 > INFO.NAME future rewards 3131813091323883715
 Our business is complete. There are no other ways for you to help me, New Blood.
-我们的事情结束了，你没别的办法帮我了，新血。
+我们的生意结束了，你没别的办法帮我了，新血。
 
 > INFO.NAME future rewards 16337111081828622674
 Many of the Berne and Aundae are dead by your hand. This is a good thing. I will allow you to feed here in Druscashti. Do not kill the cattle, though, or you will no longer be welcome.
@@ -19391,7 +19391,7 @@ So he's going to knock it off, huh? Good. But he's still not getting any more dr
 
 > INFO.NAME seler favelnim 254687784154554429
 I cut him off a while ago, but he hasn't calmed down. Something's got to be done; it's ruining what little business I have.
-我跟他断绝关系有一阵子了，但他还没消气，我得想个办法，他毁了我仅有的生意。 {事}
+我跟他断绝关系有一阵子了，但他还没消气，我得想个办法，他毁了我仅有的生意。
 
 > INFO.NAME seler favelnim 266941581293182298
 Thank you again for dealing with him.
@@ -19431,7 +19431,7 @@ Has the problem been resolved? I need the miners focused on their work, not on s
 
 > INFO.NAME seler favelnim 23982545136408845
 I don't know the whole story, nor do I care to. He's causing problems, and is disrupting business. Make sure he stops causing problems, understand? He's at the bar. Go take care of it.
-我不知道整件事的来龙去脉，也不关心。他在制造麻烦，扰乱业务。确保他不再惹麻烦，明白吗？他在酒吧。去处理一下。
+我不知道整件事的来龙去脉，也不关心。他在制造麻烦，扰乱生意。确保他不再惹麻烦，明白吗？他在酒吧。去处理一下。
 
 > INFO.NAME seler favelnim 1522024500924426079
 How could you do that to him?
@@ -19559,7 +19559,7 @@ Stalhrim Helm
 
 > INFO.BNAM stalhrim armor 92859362084210883 c9
 Nevermind
-什么都不要
+还是算了
 
 > INFO.NAME stalhrim armor 23576130442396221546
 You haven't given me enough Stalhrim to consider rewarding you, %PCRank.
@@ -19735,7 +19735,7 @@ Stalhrim Helm
 
 > INFO.BNAM stalhrim armor 775626314531412084 c9
 Nevermind
-什么都不要
+还是算了
 
 > INFO.NAME the udyrfrykte 30903136854531021
 The Udyrfrykte? That's a children's tale, meant to scare the wee ones to get them in bed. Don't believe everything you hear.
@@ -19935,7 +19935,7 @@ The shaman is dead! This is a bad omen for our people.
 
 > INFO.NAME korst wind-eye 1454326341302921997
 He is the shaman in our village, and his wisdom is unparalleled. You will usually find him in the Shaman's Hut, though he often wanders our lands on his own business. If you have any questions, Wind-Eye would be good counsel.
-他是我们村子里的萨满，他的智慧无与伦比。你通常可以在萨满的小屋找到他，尽管他经常因为自己的事情在我们的土地上游荡。如果你有任何问题，风眼会是个很好的顾问。 {咨询}
+他是我们村子里的萨满，他的智慧无与伦比。你通常可以在萨满的小屋找到他，尽管他经常因为自己的事情在我们的土地上游荡。如果你有任何问题，风眼会是个很好的顾问。 {生意,咨询}
 
 > INFO.NAME korst wind-eye 85087211450025305
 I can't say I know who that is.
@@ -20191,7 +20191,7 @@ Very well. Not everybody has the stomach for what I need done. If you change you
 
 > INFO.NAME dark business 7975255221294828371
 My husband Brandr has been running around behind my back with a harlot named Erna the Quiet. I love my husband.  He's my entire world, and that world isn't big enough for both Erna and me. I want Erna dead. But I'm no killer. Will you help me in this errand, %PCName? You'll be well compensated, of course.
-我丈夫布兰德背着我，和一个叫静谧者厄娜的妓女鬼混。我爱我的丈夫，他是我的整个世界，而这个世界却容不下我和厄娜。我要厄娜死，但我不是杀手。你愿意帮我这个忙吗，%PCName？你当然会得到丰厚的报酬。 {差事}
+我丈夫布兰德背着我，和一个叫静谧者厄娜的妓女鬼混。我爱我的丈夫，他是我的整个世界，而这个世界却容不下我和厄娜。我要厄娜死，但我不是杀手。你愿意帮我这个差事吗，%PCName？你当然会得到丰厚的报酬。
 
 > INFO.BNAM dark business 7975255221294828371 c1
 I'll do it.  Business is business, after all.
@@ -20215,7 +20215,7 @@ Not yet, Kjolver.  I've been busy with other matters.
 
 > INFO.NAME dark business 466832861987827155
 The matter has been put to rest. My business with you is done.
-这件事已经平息了。我和你的交易结束了。
+这件事已经平息了。我和你的生意结束了。
 
 > INFO.NAME mantle of woe 2348145473189215114
 Evil, you say?  Self-righteous fool!  Spare me your sanctimonious lecturing!  There is no good in the world, save that which we give ourselves.  But enough talk.  I will show you the true meaning of power!
@@ -20315,7 +20315,7 @@ I heard he'd been killed. I'll find whoever did it.
 
 > INFO.NAME saenus lusius 60626714232288864
 He's a good guy. Bright one, too. He'll be running some errands for Captain Carius about now. Sure he'll be back soon, though.
-他是个好人，也很聪明，他现在去给卡里乌斯队长跑腿了，不过他很快就会回来的。 {差事}
+他是个好人，也很聪明，他现在去给卡里乌斯队长跑差事了，不过他很快就会回来的。
 
 > INFO.NAME saenus lusius 222971031190516842
 He's a good guy. Bright one, too.
@@ -20335,7 +20335,7 @@ He's with you, isn't he?
 
 > INFO.NAME saenus lusius 276772951480732174
 Smart as they come, that's Lusius. Everyone around here likes him, too. Real easy to talk to. Not the most handy guy with the steel, but he makes up for it in smarts. I heard he was off on some business for the captain while you two complete your business.
-卢西乌斯是个聪明人，这里的人也都喜欢他，很好说话，虽然不是最能打铁的人，但他的聪明可以弥补这一点。我听说你们俩完成任务时，他去帮队长办点事了。 {谈,钢}
+卢西乌斯是个聪明人，这里的人也都喜欢他，很好谈话，虽然不是最能锻钢的人，但他的聪明可以弥补这一点。我听说你们俩完成任务时，他去帮队长办点事了。 {生意}
 
 > INFO.NAME saenus lusius 2646813204622332449
 Smart as they come, that's Lusius. Everyone around here likes him, too. Real easy to talk to. Not the most handy guy with the steel, but he makes up for it in smarts. You can probably find him in the General Quarters.
@@ -20731,7 +20731,7 @@ I've been told that Artoria has been killed. This is a great loss to Fort Frostm
 
 > INFO.NAME gaea artoria 2294127567217648004
 A powerful warrior and a loyal soldier. One of the best here at the fort. I've asked her to run some errands for me while you two investigate the smuggling.
-一个强大的战士，一个忠诚的士兵，是要塞最优秀的战士之一。我让她在你们调查走私的时候帮我跑腿。 {差事}
+一个强大的战士，一个忠诚的士兵，是要塞最优秀的战士之一。我让她在你们调查走私的时候帮我跑差事。
 
 > INFO.NAME gaea artoria 20074233321948525757
 A powerful warrior and a loyal soldier. One of the best here at the fort.
@@ -20747,7 +20747,7 @@ She was one of the finest warriors the Legion has ever known. She will be missed
 
 > INFO.NAME gaea artoria 17191145342932015927
 A fine warrior, second only to the Captain himself. She'll likely be off on errands for Captain Carius now.
-她是仅次于团长的优秀战士，她现在可能要去给卡里乌斯队长跑腿了。 {差事}
+她是仅次于团长的优秀战士，她现在可能要去给卡里乌斯队长跑差事了。
 
 > INFO.NAME gaea artoria 1634111671564213706
 A fine warrior, second only to the Captain himself. She would be an excellent traveling companion.
@@ -20771,7 +20771,7 @@ She's with you, isn't she?
 
 > INFO.NAME gaea artoria 932010742777023255
 Tough fighter. Short temper. She can be a bit thick, but there's no one I'd want more on my side in a fight. I heard she was off on some errand for Captain Carius. She'll be back soon, I'm sure.
-坚强的战士，脾气暴躁，她是有点粗鲁，但打起仗来我最希望她站在我这边。我听说她去给卡里乌斯队长办事了，我相信她很快就会回来的。 {差事}
+坚强的战士，脾气暴躁，她是有点粗鲁，但打起仗来我最希望她站在我这边。我听说她去给卡里乌斯队长办差事了，我相信她很快就会回来的。
 
 > INFO.NAME gaea artoria 205712335959612845
 Tough fighter. Short temper. She can be a bit thick, but there's no one I'd want more on my side in a fight. You can probably find her in the General Quarters, Upper Level.
@@ -20951,7 +20951,7 @@ You are the Grandmaster of House Hlaalu, %PCName.
 
 > INFO.NAME advancement 714828109185914298
 Once our business is concluded, I will consider your advancement.
-一旦我们的事情结束了，我将考虑你的晋级。
+一旦我们的生意结束了，我将考虑你的晋级。
 
 > INFO.NAME advancement 1558828954153928039
 Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
@@ -20959,7 +20959,7 @@ Yes, you clearly deserve the rank of %NextPCRank. Congratulations, %PCName.
 
 > INFO.NAME advancement 26003290602717310479
 Once our business is concluded, I will consider your advancement.
-一旦我们的事情结束了，我将考虑你的晋级。
+一旦我们的生意结束了，我将考虑你的晋级。
 
 > INFO.NAME who are you 2286718578530023825
 I don't know you, outlander. What are you doing here? Are you here to worship at this foul shrine?
@@ -21027,7 +21027,7 @@ Afer Flaccus, Gratian Caerellius, and Garnas Uvalen.
 
 > INFO.BNAM hire guards 7227139893029531887 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 3248919022912510665
 Who's it going to be, then?
@@ -21039,7 +21039,7 @@ Afer Flaccus and Gratian Caerellius.
 
 > INFO.BNAM hire guards 3248919022912510665 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 33854830543910179
 Who's it going to be, then?
@@ -21051,7 +21051,7 @@ Afer Flaccus and Garnas Uvalen.
 
 > INFO.BNAM hire guards 33854830543910179 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 1645194312868130680
 Who's it going to be, then?
@@ -21063,7 +21063,7 @@ Gratian Caerellius and Garnas Uvalen.
 
 > INFO.BNAM hire guards 1645194312868130680 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 1633727831943823083
 Who's it going to be, then?
@@ -21075,7 +21075,7 @@ Afer Flaccus.
 
 > INFO.BNAM hire guards 1633727831943823083 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 30621191111704290
 Who's it going to be, then?
@@ -21087,7 +21087,7 @@ Gratian Caerellius.
 
 > INFO.BNAM hire guards 30621191111704290 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 215731359235385129
 Who's it going to be, then?
@@ -21099,7 +21099,7 @@ Garnas Uvalen.
 
 > INFO.BNAM hire guards 215731359235385129 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 318305916177363749
 You haven't found anyone? I find that impossible to believe. Get back out there and keep looking.
@@ -21115,7 +21115,7 @@ Well, have you found anyone to take up the positions?
 
 > INFO.BNAM hire guards 123201239136397700 c1
 Yes.
-是的，给你。
+找到了。
 
 > INFO.BNAM hire guards 123201239136397700 c2
 I'm going to keep looking.
@@ -21231,7 +21231,7 @@ Afer Flaccus, Gratian Caerellius, and Garnas Uvalen
 
 > INFO.BNAM hire guards 1494812296730727847 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 253531652321121349
 Good. Who do we have available?
@@ -21243,7 +21243,7 @@ Afer Flaccus and Gratian Caerellius.
 
 > INFO.BNAM hire guards 253531652321121349 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 2540586243005516859
 Good. Who do we have available?
@@ -21255,7 +21255,7 @@ Gratian Caerellius and Garnas Uvalen.
 
 > INFO.BNAM hire guards 2540586243005516859 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 21470296432282914796
 Good. Who do we have available?
@@ -21267,7 +21267,7 @@ Afer Flaccus and Garnas Uvalen.
 
 > INFO.BNAM hire guards 21470296432282914796 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 91031465760705455
 Good. Who do we have available?
@@ -21279,7 +21279,7 @@ Afer Flaccus.
 
 > INFO.BNAM hire guards 91031465760705455 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 30731240222402623626
 Good. Who do we have available?
@@ -21291,7 +21291,7 @@ Gratian Caerellius.
 
 > INFO.BNAM hire guards 30731240222402623626 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 315202179222287301
 Good. Who do we have available?
@@ -21303,7 +21303,7 @@ Garnas Uvalen.
 
 > INFO.BNAM hire guards 315202179222287301 c2
 Nevermind.
-没事。
+算了，当我没提。
 
 > INFO.NAME hire guards 1782332460770719406
 You haven't found anyone? There must be someone willing to take on guard duty. You'll have to search a little harder, %PCName.
@@ -21347,11 +21347,11 @@ Gladly. Let's go.
 
 > INFO.BNAM ready to go 157512543115238648 c1
 Wait here.
-你先待在这。
+在这里等着。
 
 > INFO.BNAM ready to go 157512543115238648 c2
 Follow me.
-跟我来。
+跟着我。
 
 > INFO.NAME ready to go 2532031899315718403
 All right then. We all voted, and decided that you get to take the lead. None of us are particularly fond of the woods - I'm not saying we're cowards, mind you - and we felt that you'd be better off leading the way. I can at least mark the spot on your map, so you know which way to head. Lead on!
@@ -21431,11 +21431,11 @@ Is something wrong? Do I need to wait here or something? I really hope you don't
 
 > INFO.BNAM go with you 22559162171115612093 c1
 Nevermind. Follow me.
-别管了，跟我来。
+别管了，跟着我。
 
 > INFO.BNAM go with you 22559162171115612093 c2
 Wait here.
-你先待在这。
+在这里等着。
 
 > INFO.NAME go with you 315296961007521657
 Oh, thank you! There isn't even any food left to survive on - most of the supplies are gone... Well, I guess you should just take me to whomever your boss is. I mean, I hope you're not offended that I'm assuming that you're not the boss; it's just that people that tend to be bosses of things don't usually wander around the countryside looking for people to help. They send other people out to do those sort of things, don't they? Hey, how come we're not going anywhere yet?
@@ -21451,7 +21451,7 @@ Oh, you just can't leave me. No one would be that heartless. I'd freeze to death
 
 > INFO.BNAM go with you 2804185343276318359 c1
 Follow me.
-跟我来。
+跟着我。
 
 > INFO.BNAM go with you 2804185343276318359 c2
 I'm sorry, I can't take you anywhere.
@@ -21583,7 +21583,7 @@ You...you mean to tell me you found the entrance to...to Hrothmund's Barrow...an
 
 > INFO.NAME greeting 1 29730187151442596
 All hail %PCName, the chieftain of Thirsk! What can I do for you, my lord. Perhaps there is some mead hall business you'd like to tend to? Or maybe you'd rather just go upstairs and rest in your quarters?
-%PCName万岁，瑟斯克的首领！我能为您做些什么，大人？也许您想处理一些蜜酒大厅的事务？或者您想上楼去您的房间休息？ {老鼠}
+%PCName万岁，瑟斯克的首领！我能为您做些什么，大人？也许您想处理一些蜜酒大厅的事务？或者您想上楼去您的房间休息？ {生意,老鼠}
 
 > INFO.NAME greeting 1 3211614329290709018
 You killed my Brandr! Why?!
@@ -21767,7 +21767,7 @@ Ha ha!  What's this?  Why it's little %PCName, come to pay Uncle Sweetshare a vi
 
 > INFO.NAME greeting 1 4801226782722811515
 %PCName!  You did it!  By helping me die valiantly you showed my soul the way to Sovngarde!  My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me.  I told them of your willingness to help me, and recounted our glorious battle!  The four of us wish to give you a reward fitting of such a warrior.  So, we give you a piece of ourselves.  Lay your hands on a stone, and you will receive that warrior's greatest attribute!  Now farewell, my friend!  Sovngarde awaits!
-%PCName！你做到了！你帮我英勇赴死，为我的灵魂指明了通往松加德的道路！我的朋友们——亨鲁尔、埃伦德尔和尼库拉斯——一直在等我。我告诉他们你愿意帮助我，并讲述了我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德等着呢！ {报酬}
+%PCName！你做到了！你帮我英勇赴死，为我的灵魂指明了通往松加德的道路！我的朋友们——亨罗尔、厄伦德和尼库拉斯——一直在等我。我告诉他们你愿意帮助我，并讲述了我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德等着呢！ {报酬}
 
 > INFO.NAME greeting 1 1658620670271717558
 Hello, stranger. I don't see many sightseers out here. The cold and horkers drive most people away. Me, I just come here to watch the sea. I used to be a ship captain, you know. But that was before...before that night at sea.
@@ -21827,11 +21827,11 @@ Hello, my friend. *Yawn!*  I hope you're doing well. If you haven't already, mak
 
 > INFO.NAME greeting 1 15195462297632652
 Hello again, %PCClass.  It seems we still have some unfinished business.  If I'm not mistaken, there's something you want from me.
-又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。
+又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。 {生意}
 
 > INFO.NAME greeting 1 16939212962968123637
 Hello again, %PCClass.  It seems we still have some unfinished business.  If I'm not mistaken, there's something you want from me.
-又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。
+又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。 {生意}
 
 > INFO.NAME greeting 1 2864854762993030049
 Hail, traveler.  I'd tell you about my wares, but by now you're probably well aware of my craftsmanship.  My weapons are unmatched, and I make a lot of the fine bear and wolf armor that many of Solstheim's Nords are so fond of.  I must admit, though, I'm growing weary of patching together the same old wolf and bear pelts.  In truth, I long to test my abilities and make some custom fur armor, using the pelts of Solstheim's more exotic animals.
@@ -21991,7 +21991,7 @@ There is nothing more I can do, %PCName!  You must kill the werewolf to cure you
 
 > INFO.NAME greeting 1 1091322887126638188
 Yes! Yes!  There is just one last step, %PCName.  I must now recite the final incantation.... [The Witch of Glenmoril Wyrd utters another series of arcane, unintelligible words.]  Behold, the innocent lives again!  The woman has been given a part of your lycanthropy!  Kill the werewolf, and your curse will be ended forever! He he he he he he he he he he!
-好的！好的！还有最后一步，%PCName。我现在必须念出最后的咒语……[格伦摩尔巫师又念了一串难以理解的咒语] 看啊，无辜的人又活过来了，这个女人已经得到了你狼人血统的一部分！杀了狼人，你的诅咒就会永远结束！嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻！
+好的！好的！还有最后一步，%PCName。我现在必须念出最后的咒语……[格伦莫莉女巫又念了一串难以理解的咒语] 看啊，无辜的人又活过来了，这个女人已经得到了你狼人血统的一部分！杀了狼人，你的诅咒就会永远结束！嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻！
 
 > INFO.NAME greeting 1 9387872647229403
 Put the Heart of the Wolf inside the innocent's corpse!  Do it now! He he he he he he he he he he!
@@ -21999,7 +21999,7 @@ Put the Heart of the Wolf inside the innocent's corpse!  Do it now! He he he he 
 
 > INFO.NAME greeting 1 955897542081531163
 That's it!  Now, I will pour the Glenmoril brew over the innocent's heart.  The heart must get wet...soaked.  Yes, there we go. Now, to recite the proper incantation.... [The Witch of Glenmoril Wyrd utters a long, shrieking series of arcane words.  The heart pulses in her hand, as if infused with new life.] There!  It is done!  The heart has been properly bewitched.  Now, place it back in the corpse of the innocent.  Do this, and then speak with me again.  You are almost free of your curse.  Almost....
-就是这样！现在，我要把格兰摩尔酒倒在纯洁之心上。心脏必须湿透…湿透。对，就这样！现在，念出正确的咒语……[格伦摩尔巫女念出一长串嘶吼的咒语。心脏在她手中跳动，仿佛注入了新的生命。］ 好了！完成了！这颗心脏已经被施了魔法。现在，把它放回无辜者的尸体里。做完这些，再跟我说话。你就快摆脱诅咒了，几乎……
+就是这样！现在，我要把格伦莫莉酒倒在纯洁之心上。心脏必须湿透…湿透。对，就这样！现在，念出正确的咒语……[格伦莫莉女巫念出一长串嘶吼的咒语。心脏在她手中跳动，仿佛注入了新的生命。］ 好了！完成了！这颗心脏已经被施了魔法。现在，把它放回无辜者的尸体里。做完这些，再跟我说话。你就快摆脱诅咒了，几乎……
 
 > INFO.NAME greeting 1 19875228011675215932
 Kill the innocent!  Bring me her heart!  Do this, or you shall be cursed to walk the earth as a werewolf for all time!
@@ -22055,7 +22055,7 @@ The Rite of the Wolf Giver requires one bunch of ripened belladonna berries.  Un
 
 > INFO.NAME greeting 1 2268836521546619855
 Ah, you have spoken with Ettiene. Good. Now, speak with my sister Fallaise. When she has given you an errand, speak with me again, and I will do the same.
-你和艾提尼谈过了，很好，现在，和我姐妹法莱斯谈谈。等她给了你任务，再跟我说一次，我也会这么做的。 {差事}
+你和艾提尼谈过了，很好，现在，和我姐妹法莱斯谈谈。等她给了你差事，再跟我说一次，我也会这么做的。
 
 > INFO.NAME greeting 1 1899850763150515008
 Speak first with our sister Etienne.  She is the point of the dagger.  The piercing of body and mind begins with her.
@@ -22083,7 +22083,7 @@ Complete the two errands for my sisters Isobel and Fallaise.  When you have done
 
 > INFO.NAME greeting 1 1958829156534316737
 Your cure begins here, %PCName.  The Rite of the Wolf Giver is a complex ritual of dark magicka, requring the sacrifice of both flesh and innocence.  My sisters and I will begin the preparations, but there are certain items that must be gathered.  My sisters Isobel and Fallaise will tell you what is needed.  When you have completed your errands for them, come speak to me again.
-你的治愈从这里开始，%PCName。赐狼者仪式是一个复杂的黑暗魔法仪式，需要牺牲肉体和纯真。我和我的姐妹们将开始准备，但有些物品必须收集齐全。我的姐妹伊索贝尔和法莱瑟会告诉你需要什么。等你帮她们办完事，再过来找我吧。 {魔力,差事}
+你的治愈从这里开始，%PCName。赐狼者仪式是一个复杂的黑暗魔法仪式，需要牺牲肉体和纯真。我和我的姐妹们将开始准备，但有些物品必须收集齐全。我的姐妹伊索贝尔和法莱瑟会告诉你需要什么。等你帮她们办完差事，再过来找我吧。 {魔力}
 
 > INFO.NAME greeting 1 183889573301595775
 An interesting choice. Most who are offered the lycanthropy cure take the opportunity, without question. Very well. If you find the burden of the wolf too much to bear, return to me here at the Altar of Thrond and ask once more for my help.
@@ -22091,7 +22091,7 @@ An interesting choice. Most who are offered the lycanthropy cure take the opport
 
 > INFO.NAME greeting 1 21479162602739011662
 Fool!  I offer you a chance at purity, a chance to rid you of your curse, and this is how I am repaid?!  You shall know the power of the Witches of Glenmoril Wyrd!
-傻瓜！我给了你一个纯洁的机会，一个摆脱诅咒的机会，这就是我的回报？！你会知道格兰莫瑞尔女巫的力量的！ {沙尔}
+傻瓜！我给了你一个纯洁的机会，一个摆脱诅咒的机会，这就是我的回报？！你会知道格伦莫莉女巫团的力量的！ {沙尔}
 
 > INFO.NAME greeting 1 20028215261505331399
 Very well.  You have chosen to cure your lycanthropy and forever end the call of the wolf within.  The road before you is a difficult one, for ridding oneself of lycanthropy is not so easy as merely sipping a potion.  But first, you must meet my sisters, and together we shall tell you of the Rite of the Wolf Giver.  Come.
@@ -22099,7 +22099,7 @@ Very well.  You have chosen to cure your lycanthropy and forever end the call of
 
 > INFO.NAME greeting 1 2625812234612818919
 Greetings, %PCName.  Does my form surprise you?  As a witch of Glenmoril Wyrd, I have the ability to change my shape as suits my needs.  But then, you know something of shapechanging, don't you?  That is why the Coven has come here to Solstheim.  We have been watching events unfold, and are well aware that lycanthropy is spreading.  For some this is a blessing.  For others a curse.  For those who wish, we offer a cure, one that forever stops the change into wolf form.  Does such a thing interest you?
-你好，%PCName。我的样子让你吃惊吗？作为格伦摩尔巫德的女巫，我有能力根据需要改变自己的形状。不过，你对变身也有所了解，不是吗？这就是契约旅店来到索瑟泰姆的原因。我们一直在关注事态的发展，我们很清楚狼人正在蔓延，对某些人来说这是好事，对另一些人则是诅咒，对于那些有此愿望的人，我们提供了一种解药，一种能永远阻止变身狼人的解药。你有兴趣吗？
+你好，%PCName。我的样子让你吃惊吗？作为格伦莫莉的女巫，我有能力根据需要改变自己的形状。不过，你对变身也有所了解，不是吗？这就是契约旅店来到索瑟泰姆的原因。我们一直在关注事态的发展，我们很清楚狼人正在蔓延，对某些人来说这是好事，对另一些人则是诅咒，对于那些有此愿望的人，我们提供了一种解药，一种能永远阻止变身狼人的解药。你有兴趣吗？
 
 > INFO.BNAM greeting 1 2625812234612818919 c1
 No, I'd like to keep my gift of lycanthropy.
@@ -22155,11 +22155,11 @@ Please, stranger, you must help me return home! May we travel together back to t
 
 > INFO.NAME greeting 1 332313450127732401
 I know that Hrothmund has granted you his blessing, for I could feel it in the air. The heart of the Udyrfrykte has been placed on the pedestal for all to see. You, %PCName, are the new chieftain of Thirsk! Ruling the mead hall is great work, and I understand you may have business elsewhere. I offer to serve as your advisor and second-in-command, and will oversee the mead hall's affairs in your absence. Now, do we have any mead hall business to discuss? Or maybe you'd like to relax in your quarters?
-我知道霍斯蒙德给了你祝福，因为我能在空气中感受到它的存在。恐惧之兽之心已被放置在基座上，让所有人都能看到。你，%PCName，是瑟斯克的新首领！统治酒馆是一项伟大的工作，我知道你可能在其他地方有事。我愿意担任你的顾问和副手，在你不在的时候监督蜜酒大厅的事务。现在，我们还有什么酒馆的事要讨论吗？或者你想在您的房间休息一下？ {侍奉}
+我知道霍斯蒙德给了你祝福，因为我能在空气中感受到它的存在。恐惧之兽之心已被放置在基座上，让所有人都能看到。你，%PCName，是瑟斯克的新首领！统治酒馆是一项伟大的工作，我知道你可能在其他地方有事。我愿意担任你的顾问和副手，在你不在的时候监督蜜酒大厅的事务。现在，我们还有什么酒馆的事要讨论吗？或者你想在您的房间休息一下？ {生意,侍奉}
 
 > INFO.NAME greeting 1 1543117011493730448
 Ha!  Sorry, but you can't sneak up on me, %PCName!  I'm a ghost, thanks to you! By helping me die valiantly you showed my soul the way to Sovngarde!  My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me.  I told them of our glorious battle!  The four of us wish to give you a reward fitting of such a warrior.  So, we give you a piece of ourselves.  Lay your hands on a stone, and you will receive that warrior's greatest attribute!  Now farewell, my friend! Sovngarde awaits!
-哈！抱歉，你不能偷袭我，%PCName！多亏了你，我已经变成鬼了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——洪罗尔、埃伦德尔和尼库拉斯——一直在等着我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德在等你！ {潜行,报酬}
+哈！抱歉，你不能偷袭我，%PCName！多亏了你，我已经变成鬼了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——亨罗尔、厄伦德和尼库拉斯——一直在等着我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德在等你！ {潜行,报酬}
 
 > INFO.NAME greeting 1 3187114073240217891
 %PCName!  I've had some time to rest, and am ready to grant your reward.  As a sea captain, I discovered many hidden places, one of which is an ancient barrow called Gyldenhul. It lies on a small island off the northeast coast of Solstheim, not too far from here, actually. The barrow is loaded with riches, and I want you to have it all. Take this key -- the door is heavily locked. Oh, and I'll mark the dungeon on your map. Now, I must get back to sleep.  Thanks again!
@@ -22183,7 +22183,7 @@ Ah, hello there, %PCClass.  My thanks again for your help.
 
 > INFO.NAME greeting 1 267486912570821701
 Ha!  That's the spirit, %PCName!  But as you see, I'm already dead!  By helping me die valiantly you showed my soul the way to Sovngarde!  My friends -- Hunroor, Erlendr, and Nikulas -- have been waiting for me.  I told them of our glorious battle!  The four of us wish to give you a reward fitting of such a warrior.  So, we give you a piece of ourselves.  Lay your hands on a stone, and you will receive that warrior's greatest attribute!  Now farewell, my friend! Sovngarde awaits!
-哈！就是这种精神，%PCName！但如你所见，我已经死了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——洪罗尔、埃伦德尔和尼库拉斯——一直在等我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友，松加德等着呢！ {报酬}
+哈！就是这种精神，%PCName！但如你所见，我已经死了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——亨罗尔、厄伦德和尼库拉斯——一直在等我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友，松加德等着呢！ {报酬}
 
 > INFO.NAME greeting 1 2496026593016923603
 Hello, %PCName.  I heard you've been speaking to Severia Gratius about the moon sugar investigation.  I'll do whatever I can to assist you, of course.
@@ -22419,7 +22419,7 @@ Hail, %PCName! It is good to see you again!  Welcome to my home.  I was hoping y
 
 > INFO.NAME greeting 1 305938992357118148
 Leave me, %PCName.  I asked for your help, and you refused.  We have no more business together.
-走开，%PCName。我请求过你的帮助，但你拒绝了。我们之间再无瓜葛了。 {事}
+走开，%PCName。我请求过你的帮助，但你拒绝了。我们之间再无瓜葛了。 {生意}
 
 > INFO.NAME greeting 1 1649411669618922441
 You...you attacked the draugr! Bad enough I had you serve as a distraction, but now I can't even claim the killing blow!  Now I must return to my village, either a liar or a failure. I trusted you, %PCName. Leave me now,  to ponder my hopeless fate.
@@ -22439,7 +22439,7 @@ I trusted you not to attack the draugr, %PCName, and you betrayed me. You have d
 
 > INFO.NAME greeting 1 1087320572410029053
 Hail, %PCName. I'm not sure what your business is out here in the wild, but I'm glad you're not one of my Skaal brothers.  They'd surely wonder why I'm not inside the barrow, killing the Valbrandr draugr.
-你好，%PCName。我不知道你在野外做什么，但我很高兴你不是我的斯卡尔兄弟。他们肯定会好奇我为什么不在瓦尔布兰德古冢里杀死瓦尔布兰德尸鬼。 {事}
+你好，%PCName。我不知道你在野外做什么，但我很高兴你不是我的斯卡尔兄弟。他们肯定会好奇我为什么不在瓦尔布兰德古冢里杀死瓦尔布兰德尸鬼。 {生意}
 
 > INFO.NAME greeting 1 1608418038579720726
 Tymvaul?  Is that you, son?  Oh..oh I'm sorry.  Please forgive the ramblings brought on by an old man's anguish.
@@ -22451,19 +22451,19 @@ Intruder!  Who dares venture so deeply into the halls of Rimhull?!  The Mantle o
 
 > INFO.NAME greeting 1 5891697761645509
 Well met, %PCName. So, you're a visistor to our fair island. Hmmm.... There's a certain look about you, friend. You're no stranger to death, or killing. I have some dark business you may be able to help me with.
-幸会，%PCName。这么说，你是我们美丽小岛的访客？嗯……朋友，你的表情很特别。你对死亡和杀戮并不陌生。我有些暗之任务，你也许能帮我。 {事}
+幸会，%PCName。这么说，你是我们美丽小岛的访客？嗯……朋友，你的表情很特别。你对死亡和杀戮并不陌生。我有些黑暗生意，你也许能帮我。
 
 > INFO.NAME greeting 1 27692126492450930080
 So, have you changed your mind? Will you help me in my dark business?
-那么，你改变主意了吗？你愿意帮我的暗之任务吗？ {事}
+那么，你改变主意了吗？你愿意帮我的黑暗生意吗？
 
 > INFO.NAME greeting 1 23776208161072420656
 What news do you bring me, %PCName? Is our dark business complete?
-你给我带来了什么消息，%PCName？我们的暗之任务完成了吗？ {事}
+你给我带来了什么消息，%PCName？我们的黑暗生意完成了吗？
 
 > INFO.NAME greeting 1 241471140010399194
 Just because we had some business together, don't think we're friends. Now go. I suspect my husband will be back any time now.
-不要因为我们一起做过生意，就认为我们是朋友。现在走吧，我怀疑我的丈夫随时会回来。 {事}
+不要因为我们一起做过生意，就认为我们是朋友。现在走吧，我怀疑我的丈夫随时会回来。
 
 > INFO.NAME greeting 1 597948250731614
 So, Kolfinna is seeking wergild for the death of her husband, eh? Never! Pinetear has been in my family for generations and will be for generations to come. Besides, Gustav got what he had coming.
@@ -22499,7 +22499,7 @@ What are you doing here? The master will not be pleased! And you come with Krish
 
 > INFO.NAME greeting 1 19387319521896125253
 I got nothing more to do with you. Finish your business and get outta here. I've got work to do.
-我和你没什么好说的了。做完你的事就走吧。我还有事要做。 {工作}
+我和你没什么好说的了。做完你的事就走吧。我还有事要做。 {生意,工作}
 
 > INFO.NAME greeting 1 15634282612659120813
 Just gotta get to that passage upstairs now. My sense of direction isn't the best. You lead the way.
@@ -22523,7 +22523,7 @@ Hey! You killed off all the trolls! Look, let me tell you what's been going on h
 
 > INFO.NAME greeting 1 493623105902821679
 Whoa! A %PCRace. Ugly thing, aren't you. Too tall. What business you got at Castle Karstaag? And make it quick. No time to talk.
-哇哦！一个%PCRace。丑八怪，不是吗，太高了。你在卡斯塔格城堡有什么事？快点，没时间谈了。
+哇哦！一个%PCRace。丑八怪，不是吗，太高了。你在卡斯塔格城堡有什么事？快点，没时间谈了。 {生意}
 
 > INFO.NAME greeting 1 26028132161158010114
 The Ristaag has failed. We waited too long to complete it. You should return to Wind-Eye and see what he has to say.
@@ -22675,7 +22675,7 @@ You have cleared my husband's name. What can I do for you?
 
 > INFO.NAME greeting 1 32057195401792128748
 You are the one who is to investigate a crime that has been blamed on my husband. How may I help you?
-你是负责对我的丈夫调查案件的人。我能帮你点什么？ {你就是天选之人}
+你是负责调查案件的人，这起案件归咎于我的丈夫。我能帮你点什么？ {你就是天选之人}
 
 > INFO.NAME greeting 1 26666326902586726328
 I have nothing to say. My time is done.
@@ -22863,11 +22863,11 @@ I was trying to explain to you, outlander, that you have much to atone for.
 
 > INFO.NAME greeting 1 27099147812040728032
 Yes, outlander? What is your business here?
-什么事，外地人？你来这里的目的是什么？
+什么事，外地人？你来这里的目的是什么？ {生意}
 
 > INFO.NAME greeting 1 510835113482771
 There is no more to say to you, stranger. The Skaal wish you no harm, but state your business here quickly.
-对你没什么好说的，陌生人。斯卡尔人不希望你受到伤害，但快点说说你的事吧，你来这里的目的是什么。
+对你没什么好说的，陌生人。斯卡尔人不希望你受到伤害，但快点说说你的事吧，你来这里的目的是什么。 {生意}
 
 > INFO.NAME greeting 1 24638205231777111247
 What do you want, stranger? The Skaal wish you no harm, but you will mind your manners while you are within our walls. We will make no exceptions. Now, what is this I hear about an attack on the Imperial fort?
@@ -22903,7 +22903,7 @@ You are not of the Skaal. Speak with Tharsten Heart-Fang in the Greathall if you
 
 > INFO.NAME greeting 1 39301263895486482
 This Skaal has nothing to say to you, stranger. Speak with Heart-Fang if you believe you've got business here.
-这个斯卡尔人和你没什么好说的，陌生人。如果你认为你在这里有事，就和心牙说吧。
+这个斯卡尔人和你没什么好说的，陌生人。如果你认为你在这里有事，就和心牙说吧。 {生意}
 
 > INFO.NAME greeting 1 21678316462971316946
 What is it you ask of this Skaal?
@@ -23111,7 +23111,7 @@ Have you found more information on the weapons being smuggled from the fort?
 
 > INFO.NAME greeting 1 2004130733263741839
 You've helped me deal with the low morale at the fort, perhaps you can help me with some other fort business.
-你帮我解决了要塞士气低落的问题，也许你能帮我解决其他要塞事务。
+你帮我解决了要塞士气低落的问题，也许你能帮我解决其它要塞事务。 {生意}
 
 > INFO.NAME greeting 1 15741292702017321430
 I asked you to investigate why the morale has been low in the fort. Have you learned anything?
@@ -23139,7 +23139,7 @@ What will we do without the Captain here? This is terrible. Something must be do
 
 > INFO.NAME greeting 1 13724284662520325237
 Terrible stuff happening here. But...I've got business to attend to. What do you need?
-这里发生了可怕的事情。但是…我还有正事要办。你需要什么？
+这里发生了可怕的事情。但是…我还有正事要办。你需要什么？ {生意}
 
 > INFO.NAME greeting 1 128028663279539098
 The fort...the creatures. It's horrible. And, the Captain, I haven't seen him.... Find Lusius...he may know what to do.
@@ -23155,19 +23155,19 @@ The fort...the creatures. It's horrible. And, the Captain, I haven't seen him...
 
 > INFO.NAME greeting 1 5785324155371234
 What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
+你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯谈谈。他在帝国教团圣祠里。 {生意,帝国人}
 
 > INFO.NAME greeting 1 14424134471853613220
 What do you want? Go see Captain Carius. He's in his chambers at the fort. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}
+你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯谈谈。他在帝国教团圣祠里。 {生意,帝国人}
 
 > INFO.NAME greeting 1 1742919251110211032
 What do you want? Go see Captain Carius. Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你有什么事？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
+你有什么事？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长谈谈。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {生意,帝国人}
 
 > INFO.NAME greeting 1 7709380342601831
 What do you want? Talk to Captain Carius if you're looking for something to do. Head through the General Quarters and all the way up the south staircase. On the third floor are his chambers. That's where you'll find him. If you're here about that colony business, talk to Carnius Magius. He's in the Imperial Cult Shrine.
-你有什么事？如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}
+你有什么事？如果你想找点事做，就去找卡里乌斯队长谈谈。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {生意,帝国人}
 
 > INFO.NAME greeting 1 149479153259528429
 Welcome to Solstheim, jewel of absolutely nowhere. It's a miserable place, even for the warmbloods. If you want to leave, I'd be happy to take you back to Vvardenfell. If you feel you must stay, speak with Captain Falx Carius in his chambers at Fort Frostmoth. Captain Carius is the commander here. Not a bad man, but he is a fool for remaining in this place. So cold. So cold. If you are here about the colony, Carnius Magius is the man you will speak to. Find him at the Imperial Cult Shrine.
@@ -23383,11 +23383,11 @@ Eh? Oh, you're here about the swords? Hrmph. Very well, here you go. Though I do
 
 > INFO.NAME greeting 1 2366516400311782892
 You have company business to discuss? Please step inside and see Carnius. Otherwise, turn right back around and head out the door you came in.
-你有公司的事要谈吗？请进去见卡尼乌斯，否则就从你进来的门出去。 {讨论}
+你有公司的生意要讨论吗？请进去见卡尼乌斯，否则就从你进来的门出去。
 
 > INFO.NAME greeting 1 75997882642025872
 You have company business to discuss? Please step inside and see Carnius. Otherwise, turn right back around and head out the door you came in.
-你有公司的事要谈吗？请进去见卡尼乌斯，否则就从你进来的门出去。 {讨论}
+你有公司的生意要讨论吗？请进去见卡尼乌斯，否则就从你进来的门出去。
 
 > INFO.NAME greeting 1 12137204171875128970
 Oh dear! Did I forget to mention the little problem we've been having with that trap? Oh, I do hope that doesn't slow you down too much. But I'm afraid there's nothing more I can do for you. Excuse me.
@@ -23411,7 +23411,7 @@ Speak to Graring.
 
 > INFO.NAME greeting 1 278121828774013129
 You have no business being here, stranger. Leave now.
-你不该来这里。陌生人，马上离开。 {事}
+你不该来这里。陌生人，马上离开。 {生意}
 
 > INFO.NAME greeting 1 1240378292978419696
 Have you come for Stalhrim armor, friend?
@@ -23615,7 +23615,7 @@ Well now. Have they finally sent someone to deliver the extra payment I requeste
 
 > INFO.NAME greeting 1 1004527965833624204
 I have business with your superiors, not with you. Run along, now.
-我是来找你的上司，不是来找你的。快走吧。 {事}
+我是来找你的上司，不是来找你的。快走吧。 {生意}
 
 > INFO.NAME greeting 1 3057086681564132279
 Well, if it isn't you again, %PCName. How are you?
@@ -23703,7 +23703,7 @@ What is it, %PCRank?
 
 > INFO.NAME greeting 1 97251368983329196
 Not now, %PCRank. I'm expecting a decision from Falco. It's colony business, and it doesn't concern you.
-现在不行，%PCRank。我在等法尔科的决定。这是殖民地的事，与你无关。
+现在不行，%PCRank。我在等法尔科的决定。这是殖民地的事，与你无关。 {生意}
 
 > INFO.NAME greeting 1 31518116191877621451
 Oh, don't even say it. I can tell by the look on your face. Falco gave you his little pep talk, didn't he? "Oh, %PCName.... I need your help. Won't you help me?" Ugh. Perhaps instead you should think about doing yourself a favor and aiding me, %PCRank.
@@ -23787,7 +23787,7 @@ So, Carnius talked you into joining this little venture, did he? Very well. I'll
 
 > INFO.NAME greeting 1 6119103351129816341
 I'm sorry, %PCRace, but I'm here on official business, and I don't have time to chat. Any official inquiries should be directed to Carnius Magius at Fort Frostmoth.
-抱歉，%PCRace，我是来办正事的，没时间跟你闲聊。任何公事请直接向霜蛾要塞的卡尼乌斯·马基乌斯询问。
+抱歉，%PCRace，我是来办正事的，没时间跟你闲聊。任何公事请直接向霜蛾要塞的卡尼乌斯·马基乌斯询问。 {生意}
 
 > INFO.NAME greeting 1 535938881725822874
 Yes, %PCName? What is it?
@@ -23991,11 +23991,11 @@ This is your tower, right? What do you want, %PCName?
 
 > INFO.NAME greeting 1 18030301512885125116
 This isn't your tower and this isn't any of your business.
-这不是你的塔楼，也不关你的事。
+这不是你的塔楼，也不关你的事。 {生意}
 
 > INFO.NAME greeting 1 3187015302332632
 You here about the stronghold? Tell Galsa Gindu things are fine here. The work will be done soon.
-堡垒的事你来了吗？告诉加尔萨·金杜这里很好，工程很快就会完成。 {工作}
+你为堡垒的事而来？告诉加尔萨·金杜这里很好，工程很快就会完成。 {工作}
 
 > INFO.NAME greeting 1 8324199972553515186
 You the chief around here, right? What you want?
@@ -24003,11 +24003,11 @@ You the chief around here, right? What you want?
 
 > INFO.NAME greeting 1 2143621465335213335
 This not your business here. You leave now.
-你来这里的目的是什么？这里没你的事，你走吧。
+你来这里的目的是什么？这里没你的事，你走吧。 {生意}
 
 > INFO.NAME greeting 1 13058205592685019577
 You here about the stronghold? Tell Dondos the work is on schedule. And he better pay me that bonus he promised.
-你是来问堡垒的事的吗？告诉唐多斯工程如期进行，他最好把答应给我的奖金给我。 {工作}
+你是来问堡垒的事吗？告诉唐多斯工程如期进行，他最好把答应给我的奖金给我。 {工作}
 
 > INFO.NAME greeting 1 1159117938293432234
 This your place? What do you want, %PCName?
@@ -24047,7 +24047,7 @@ Are you okay? You don't look well...
 
 > INFO.NAME greeting 1 2348427924134421016
 Well, hello there. It's always nice to see another %PCRace.
-你好，很高兴见到另一个%PCRace。
+嗯，你好，很高兴见到另一个%PCRace。
 
 > INFO.NAME greeting 1 15651222572413527697
 An Argonian! How exciting. I've never had an Argonian... customer.
@@ -24079,7 +24079,7 @@ Take this, friend. I think everyone should read this leaflet. It has important i
 
 > INFO.NAME greeting 1 16645616668429975
 You are pathetic! Where is your power, vampire? You have nothing I desire. Leave me now. All I have heard about your kind is a lie.
-你真可悲！你的力量在哪里？吸血鬼？你没有我想要的东西，现在离我远点。我听说的关于你们的事都是谎言。
+你真可悲！你的力量在哪里，吸血鬼？你没有我想要的东西，现在离我远点。我听说的关于你们的事都是谎言。
 
 > INFO.NAME greeting 1 207105452201366163
 I smell Berne blood on you! Die!
@@ -24099,7 +24099,7 @@ You want another shot at me, %PCName?
 
 > INFO.NAME greeting 1 10379288102025131413
 I'm here, %PCName. Come for me.
-我来了，%PCName，来找我。
+我就在这，%PCName，来找我嘛。
 
 > INFO.NAME greeting 1 277422340690713701
 You want a duel? You got a duel.
@@ -24147,7 +24147,7 @@ You have slain my brother, n'wah.
 
 > INFO.NAME greeting 1 16939641270732618
 Oh, don't mind me. Whatever affair of honor you have with Giras Indaram, it's none of my business.
-哦，别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {事}
+哦，别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {生意}
 
 > INFO.NAME greeting 1 290445316827329292
 Darius says you can be here, so it's okay with me.
@@ -24191,7 +24191,7 @@ I'm just glad it's over.
 
 > INFO.NAME greeting 1 25582206412517917115
 Is the Scamp really gone? Thank you, whoever you are. This is all my fault.
-劣魔真的走了吗？谢谢你，不管你是谁。这都是我的错。
+劣魔真的走了吗？谢谢你，不管你是谁，这都是我的错。
 
 > INFO.NAME greeting 1 2611214552655615104
 Please, whoever you are, kill the Scamp before it causes any more trouble.
@@ -24263,7 +24263,7 @@ I am surprised. And a bit disappointed. I thought you were the Nerevarine? Why h
 
 > INFO.NAME greeting 1 1698115947203317463
 Well. If you are the Nerevarine, why haven't you fulfilled the prophecies? Surely you haven't forgotten. You haven't done something foolish, have you? You mustn't be shy, dumpling. I've heard that Archcanon Tholer Saryoni, the high priest of the Temple, is VERY upset, and that he is hoping that you will come speak with him at the High Fane here in Vivec City. Maybe that would be a good idea. Don't you think?
-好吧，如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说大主教索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
+好吧。如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说大主教索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？
 
 > INFO.NAME greeting 1 8310196942002629898
 I don't mean to pry into your affairs. But, if you are the Nerevarine, as they say, why haven't you fulfilled the Nerevarine prophecies? The people are badly frightened by these Sixth House disturbances. You haven't gotten yourself into any sort of trouble, have you? A discreet contact tells me that Archcanon Tholer Saryoni, the high priest of the Temple, is becoming desperate, and that he is hoping that you will come speak with him at the High Fane in Vivec City. Maybe that would be best.
@@ -24295,7 +24295,7 @@ If you have really brought me Kagrenac's Planbook and Kagrenac's Journals, I can
 
 > INFO.NAME greeting 1 4037172072992822197
 I have nothing. Go away. Leave me in peace... but... wait. What is that you have there? Is that what I think it is? That unique dwemer artifact you have?
-我什么都没有。你走吧，让我静一静…但是…等等。你拿的是什么？是我想的那个吗？你手上那个独特的锻莫文物？
+我什么都没有。你走吧，让我静一静…但是…等等，你拿的是什么？是我想的那个吗？你手上那个独特的锻莫文物？
 
 > INFO.NAME greeting 1 298158591472427873
 I see you've risen to %PCRank, %PCName. Word on the street is that you've become Mercius' lapdog, and he's sent you to kill me. I'm afraid I can't let that happen. You were always a disappointment.
@@ -24407,7 +24407,7 @@ Thank you for your help, %PCName. Here is the payment I promised you. May all of
 
 > INFO.NAME greeting 1 390021445518619439
 Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. It seems the Redguard is dead already. That is acceptable. I have no further business with you.
-我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳堂的眼中钉，太久太久了。看来红卫人已经死了，这可以接受。我没别的事了。
+我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳堂的眼中钉，太久太久了。看来红卫人已经死了，这可以接受。我没别的事了。 {生意}
 
 > INFO.NAME greeting 1 174264622797529038
 Here our journey ends, %PCRace. For bringing me to this place, I thank you. It has been a thorn in the side of the Camonna Tong for too long, too long. Be on your way, outlander, or with this Redguard, you will die. That is the choice I give you.
@@ -24475,7 +24475,7 @@ Have you decided you'd like to help me after all?
 
 > INFO.BNAM greeting 1 15449315061470273 c1
 I suppose. Follow me.
-我想是的，跟我来。
+我想是的，跟着我。
 
 > INFO.BNAM greeting 1 15449315061470273 c2
 No. Never mind.
@@ -24599,31 +24599,31 @@ You have killed someone dear to me. It is a mistake you will not live to regret.
 
 > INFO.NAME greeting 1 22666276122195830257
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 3154888892292230351
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 998123107132520093
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 18416249602252731943
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 79251588295398837
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 145740852264813922
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 17597286202221928634
 You have killed one of the inmates. I cannot forget what you've done. But I will forgive you.
-你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。
+你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。
 
 > INFO.NAME greeting 1 726128886176936754
 You have killed one of the inmates. Leave. You can live with the consequences of your actions.
@@ -24915,7 +24915,7 @@ The blight is gone, and we have survived. Now we must dedicate ourselves to rebu
 
 > INFO.NAME greeting 1 245803040437511662
 I expected you. We have business, you and I.
-我在等你，我们还有正事要办。
+我在等你，我们还有正事要办。 {生意}
 
 > INFO.NAME greeting 1 2239657872789627356
 Was there something else?
@@ -24927,7 +24927,7 @@ You have come uninvited. I have nothing to say to you.
 
 > INFO.NAME greeting 1 22112111712176419568
 It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.
-一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的事情？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
+一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的生意？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
 
 > INFO.NAME greeting 1 2190322223223052000
 Have you something more to say?
@@ -24935,7 +24935,7 @@ Have you something more to say?
 
 > INFO.NAME greeting 1 1671715344190492888
 It began here. It will end here. Have you any parting words? Or would you prefer to skip the speeches, and get to our business. You are the challenger here, after all. So to you goes the courtesy of the first blow.
-一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的事情？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
+一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的生意？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。
 
 > INFO.NAME greeting 1 1453257882975315967
 Have you something more to say?
@@ -25063,11 +25063,11 @@ Go ahead. It's your move.
 
 > INFO.NAME greeting 1 45734515193616635
 Everything is perfectly all right. We heard the word. Hlireni Indavel says lay off you and the savages. We won't touch them, or you, as long as you leave us alone. [Whispers: Spoil-sport.]
-一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]
+一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心。]
 
 > INFO.NAME greeting 1 2400522477179779807
 Everything is perfectly all right. We heard the word. Hlireni Indavel says lay off you and the savages. We won't touch them, or you, as long as you leave us alone. [Whispers: Spoil-sport.]
-一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]
+一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心。]
 
 > INFO.NAME greeting 1 1961528148943530578
 Don't worry. Hlireni Indavel says leave you and the poor starving Ashlanders alone.
@@ -25139,7 +25139,7 @@ Guards! Intruder!
 
 > INFO.NAME greeting 1 1857834672739819667
 I told you. Get out of here. Now!
-我跟你说过了，滚出去，现在就走！
+我跟你说过了。滚出去，现在就走！
 
 > INFO.NAME greeting 1 13857194313057721050
 %PCRank %PCName. This is against procedures. And you know it. Go ahead. The key is in the desk. But I have to report this. Immediately.
@@ -26639,7 +26639,7 @@ Up to you. I'll be here if you need me.
 
 > INFO.NAME assist you 250507164541925610
 Sounds good. Let's go get 'em. Saenus will have to run those other errands that Captain Carius had for us to do. I'm ready for some action.
-听起来不错。我们去找他们吧。塞努斯还得去办卡里乌斯队长交待的事。我准备好行动了。 {差事}
+听起来不错。我们去找他们吧。塞努斯还得去办卡里乌斯队长交待的差事。我准备好行动了。
 
 > INFO.NAME assist you 484311056140511865
 Yeah, Cap'n said something about some smugglers. Wanna go crack some skulls?
@@ -27263,7 +27263,7 @@ Yes. I will help you.
 
 > INFO.BNAM aiding me 13804127071074624920 c2
 No.
-我再想想吧。
+不想。
 
 > INFO.NAME aiding me 14474317972410625803
 I can reveal to you now that the true reason I took this position was to counter whatever schemes Carnius may have. I want to see this colony succeed, %PCName, and I believe you can help me to see that it does. I shall give you some time to think it over. Let me know when you are ready to make a choice.
@@ -27599,7 +27599,7 @@ We're building a trader's outpost right now, as a matter of fact.
 
 > INFO.NAME services 155376465322267884
 I hear that we're getting a smith. Good thing, too - we go through pick axes like no one's business.
-听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}
+听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类,生意}
 
 > INFO.NAME services 18638214611000221354
 There's a trader's oupost in the works, but nothing at the moment.
@@ -27607,7 +27607,7 @@ There's a trader's oupost in the works, but nothing at the moment.
 
 > INFO.NAME services 1547713640285926366
 I hear that we're getting a smith. Good thing, too - we go through pick axes like no one's business.
-听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}
+听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类,生意}
 
 > INFO.NAME services 3140029245306726111
 No services here. Colony isn't big enough to warrant it.
@@ -27911,7 +27911,7 @@ Keep bringing him up, do you? If only he were here. He'd wipe the floor with you
 
 > INFO.NAME elberoth 89229163311428920
 He's a friend of mine. Not much to look at, and certainly not much of a captain, but he was a hell of a fighter. Always brandishing that stupid sword of his... but what business is it of yours? Let's talk about that extra payment of mine, shall we?
-他是我的一个朋友。长得不怎么样，当然也不是什么船长，但他是个很厉害的战士。他总是挥舞着那把蠢剑……但你有什么重要的事？让我们来谈谈我的那份额外报酬，好吗？ {沙尔}
+他是我的一个朋友。长得不怎么样，当然也不是什么船长，但他是个很厉害的战士。他总是挥舞着那把蠢剑……但你有什么重要的事？让我们来谈谈我的那份额外报酬，好吗？ {生意,沙尔}
 
 > INFO.NAME must act 10186140673019110010
 As I said, I tried to warn the Skaal, but they would not listen. I erected a barrier to keep the monsters at bay.
@@ -28023,7 +28023,7 @@ Yes, here's one.
 
 > INFO.BNAM stalhrim 3213517364154376468 c2
 Nevermind.
-没事。
+别介意。
 
 > INFO.NAME stalhrim 2677411163373231969
 Excellent. Now that you've completed your task, I'll just relieve you of this. In the future, I suggest you bring me any Stalhrim you find. In exchange for doing this work for me, I will do a great deal for you. You bring me more Stalhrim, and in exchange, I will have weapons and armor crafted from it for you... I told you great things would come from allying yourself with me, didn't I?
@@ -28315,7 +28315,7 @@ Pay it.
 
 > INFO.BNAM re-hire 23383112601490023927 c2
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME re-hire 32407209861251910596
 Your employment is in good standing, %PCName. Don't worry about it.
@@ -28347,7 +28347,7 @@ Pay it.
 
 > INFO.BNAM re-hire 2284528455120385301 c2
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME re-hire 19195153901497219600
 Very well. I'll see to it that the paperwork is processed. Concentrate on your assignments, %PCRank, and try not to let this happen again.
@@ -28371,7 +28371,7 @@ Pay it.
 
 > INFO.BNAM re-hire 23141247482603713765 c2
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME re-hire 10547286992917717663
 Of course, I don't do this for just anyone. You'll have to do something for me to make it worthwhile...  perhaps, say, 5000 gold pieces? What do you say?
@@ -28383,7 +28383,7 @@ Pay it.
 
 > INFO.BNAM re-hire 10547286992917717663 c2
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME re-hire 1758518225220022583
 You're a current employee of the company. I can't re-hire you.
@@ -28795,7 +28795,7 @@ I've told you all I know. Now please excuse me.
 
 > INFO.NAME report 1602622819186689297
 The Factor had a good amount of business to attend to today. I believe he's.... ah, he's out looking at prospective expansion sites today. Somewhere on the Eastern Coast of the island, I think. East of that big rock arch, you know, the one with the tomb at the base?
-因子今天有很多事情要处理，我相信他……啊，他今天出去考察潜在的扩张地点了。我想是在岛的东海岸某处，在那个大岩石拱门的东边，你知道的，底部有坟墓的那个？
+因子今天有很多事情要处理，我相信他……啊，他今天出去考察潜在的扩张地点了。我想是在岛的东海岸某处，在那个大岩石拱门的东边，你知道的，底部有坟墓的那个？ {生意}
 
 > INFO.NAME report 827111968229172885
 Factor Magius had quite a bit to do today. I believe he was headed out to location of that awful shipwreck that happened recently. Maybe you can catch him on the way?
@@ -28939,11 +28939,11 @@ Okay. Now you have to be really sure this is the right spot. I don't want you to
 
 > INFO.BNAM estate 1760295272254718286 c1
 Yes.
-就建在这。
+确定。
 
 > INFO.BNAM estate 1760295272254718286 c2
 No.
-我再想想。
+不确定。
 
 > INFO.NAME estate 3003640543052531090
 Okay. Now you have to be really sure this is the right spot. I don't want you to have second thoughts later on. Are you SURE you want it built here?
@@ -28951,11 +28951,11 @@ Okay. Now you have to be really sure this is the right spot. I don't want you to
 
 > INFO.BNAM estate 3003640543052531090 c1
 Yes.
-就建在这。
+确定。
 
 > INFO.BNAM estate 3003640543052531090 c2
 No.
-我再想想。
+不确定。
 
 > INFO.NAME estate 126178887700118452
 Okay. Now you have to be really sure this is the right spot. I don't want you to have second thoughts later on. Are you SURE you want it built here?
@@ -28963,11 +28963,11 @@ Okay. Now you have to be really sure this is the right spot. I don't want you to
 
 > INFO.BNAM estate 126178887700118452 c1
 Yes.
-就建在这。
+确定。
 
 > INFO.BNAM estate 126178887700118452 c2
 No.
-我再想想。
+不确定。
 
 > INFO.NAME estate 1292215343616224410
 Off we go! Tell me when we're at the right spot.
@@ -28983,11 +28983,11 @@ Okay, you want me to follow you now? Just tell me when we're at the spot you wan
 
 > INFO.BNAM estate 2757826167703110895 c1
 Follow me.
-跟我来。
+跟着我。
 
 > INFO.BNAM estate 2757826167703110895 c2
 Nevermind.
-没事。
+还是算了。
 
 > INFO.NAME estate 27814216492362129784
 Well, it's a little complicated. At least, it is for me. So I've done as much as I can to make it real easy. See, there's three possible locations we could build on. You need to choose one. So I set up torches at each of the places; you just take me to the torch at the place you want it built at, and say the word. Let me know when you're ready to get started, and I'll follow you.
@@ -29347,7 +29347,7 @@ You have cleared my husband's name. What can I do for you?
 
 > INFO.NAME hello 1447232171280629639
 You are the one who is to investigate a crime that has been blamed on my husband. How may I help you?
-你是负责调查我丈夫罪行的人。我能帮你点什么？
+你是负责调查案件的人，这起案件归咎于我的丈夫。我能帮你点什么？
 
 > INFO.NAME hello 30061204231823631853
 No time for talk. The Hunt has begun!
@@ -29547,7 +29547,7 @@ Let us ferret out this ring of smugglers.
 
 > INFO.NAME hello 26928226011047512912
 Captain Carius mentioned that you might come to speak with me. How may I assist you?
-卡里乌斯队长说你可能会来找我。我能为您效劳吗？
+卡里乌斯队长说你可能会来找我。我能怎样协助你？
 
 > INFO.NAME hello 193419224975110833
 I'll be gone soon. I promise you that.
@@ -29823,7 +29823,7 @@ So old.... So weary.
 
 > INFO.NAME hello 5870165602334122257
 Keep moving.
-继续往前走。
+继续走。
 
 > INFO.NAME forts 1610929908169146865
 There are garrisons all over Vvardenfell, but Fort Frostmoth is the only one around here.
@@ -32847,11 +32847,11 @@ Sniff.
 
 > INFO.NAME idle 127211162923816113
 Var var var.
-瓦尔瓦尔。
+哇哇哇。
 
 > INFO.NAME idle 2404210597662820867
 Purr.
-呼噜声。
+呼噜。
 
 > INFO.NAME idle 260469593376820347
 Sweet Skooma.
@@ -32883,7 +32883,7 @@ Sniff.
 
 > INFO.NAME idle 32015794050111807
 Var var var.
-瓦尔瓦尔。
+哇哇哇。
 
 > INFO.NAME idle 2996628339953727602
 Purrs.
@@ -33119,7 +33119,7 @@ Where is that slave? Here not long ago.
 
 > INFO.NAME idle 17413289001579815550
 Grumbling.
-抱怨。
+嘟囔。
 
 > INFO.NAME idle 142794588274553618
 Sigh.
@@ -33155,7 +33155,7 @@ Where is that slave?
 
 > INFO.NAME idle 12686127041329232732
 Grumbling.
-抱怨。
+嘟囔。
 
 > INFO.NAME idle 7634304781346015904
 Sigh.
@@ -33191,7 +33191,7 @@ Who put that there?
 
 > INFO.NAME idle 97951259241532361
 Dirt, dirt, dirt, dirt, dirt. Everywhere dirt.
-脏，脏，脏，脏，脏，到处都脏死了。
+脏，脏，脏，脏，脏。到处都脏死了。
 
 > INFO.NAME idle 5380302253086210199
 What was I thinking?
@@ -33227,7 +33227,7 @@ I shouldn't have pushed so hard.
 
 > INFO.NAME idle 6987292402737916378
 Dirt, dirt, dirt, dirt, dirt. Everywhere dirt.
-脏，脏，脏，脏，脏，到处都脏死了。
+脏，脏，脏，脏，脏。到处都脏死了。
 
 > INFO.NAME idle 2296231487222762
 I think that tavern girl was looking at me. How can I tell her I'm not interested?
@@ -33439,7 +33439,7 @@ Sniff, sniff.
 
 > INFO.NAME idle 1645524499312875205
 Now, where did I put that?
-我把它放哪儿了？
+现在，我把它放在哪里了？
 
 > INFO.NAME idle 61402618629154876
 Clears throat.

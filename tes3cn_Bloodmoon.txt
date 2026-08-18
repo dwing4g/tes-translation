@@ -12149,7 +12149,7 @@ endif
 if ( OnActivate == 1 )
 	if ( GetJournalIndex BM_BrodirGrove >= 90 )
 		Cast ""stone_erlendr"" Player					;fortify speed 10
-		MessageBox ""你已获得厄兰德尔的速度天赋。""
+		MessageBox ""你已获得厄伦德之速度天赋。""
 	endif
 endif
 
@@ -12173,7 +12173,7 @@ endif
 if ( OnActivate == 1 )
 	if ( GetJournalIndex BM_BrodirGrove >= 90 )
 		Cast ""stone_hunroor"" Player					;fortify agility 10
-		MessageBox ""你已获得亨鲁尔敏捷的天赋。""
+		MessageBox ""你已获得亨罗尔之敏捷天赋。""
 	endif
 endif
 
@@ -12196,7 +12196,7 @@ endif
 if ( OnActivate == 1 )
 	if ( GetJournalIndex BM_BrodirGrove >= 90 )
 		Cast ""stone_nikulas"" Player					;fortify personality 10
-		MessageBox ""你已获得尼库拉斯的个性天赋。""
+		MessageBox ""你已获得尼库拉斯之魅力天赋。""
 	endif
 endif
 
@@ -12338,7 +12338,7 @@ endif
 if ( OnActivate == 1 )
 	if ( GetJournalIndex BM_BrodirGrove >= 10 )
 		Cast ""stone_ulfgar"" Player					;fortify strength 10
-		MessageBox ""你已获得乌夫加尔的力量天赋。""
+		MessageBox ""你已获得乌夫加尔之力量天赋。""
 	endif
 endif
 
@@ -13853,7 +13853,7 @@ short state
 
 	if ( state == 10 )
 
-		MessageBox ""我梦见一个金发少女，我走近她，看到她在哭泣，但她的眼泪像血一样红。我摸了摸她的眼泪，尝了尝，非常咸，带着香料的味道。但少女的脸已经变了，她的皮肤是灰白色的，红色的泪水从她的嘴唇滴落，她的头发变成了黑色，像蛇一样缠绕在她的头上。我很害怕，但又不能跑。我尖叫着醒来，心脏怦怦直跳，痉挛而疼痛。"", ""继续""
+		MessageBox ""我梦见一个金发少女，我走近她，看到她在哭泣，但她的眼泪像血一样红。我摸了摸她的眼泪，尝了尝，非常咸，带着香料的味道。但少女的脸已经变了，她的皮肤是灰白色的，红色的泪水从她的嘴唇滴落，她的头发变成了黑色，像蛇一样缠绕在她的头上。我很害怕，但又不能跑。我尖叫着醒来，心脏怦怦直跳，痉挛而疼痛。"", ""确定""
 		set state to -1
 
 		;check which one they have and give the goods.
@@ -15951,12 +15951,12 @@ End WolfRitualRing
  SPEL.ENAM [10 00 FF FF 01 00 00 00 1E 00 00 00 00 00 00 00 01 00 00 00 01 00 00 00]
 -SPEL
  SPEL.NAME "stone_erlendr$00"
- SPEL.FNAM "厄伦德之速$00"
+ SPEL.FNAM "厄伦德之速度$00"
  SPEL.SPDT [00 00 00 00 01 00 00 00 04 00 00 00]
  SPEL.ENAM [4F 00 FF 04 01 00 00 00 00 00 00 00 B4 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "stone_ulfgar$00"
- SPEL.FNAM "乌夫加尔之力$00"
+ SPEL.FNAM "乌夫加尔之力量$00"
  SPEL.SPDT [00 00 00 00 01 00 00 00 04 00 00 00]
  SPEL.ENAM [4F 00 FF 00 01 00 00 00 00 00 00 00 B4 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
@@ -15966,7 +15966,7 @@ End WolfRitualRing
  SPEL.ENAM [4F 00 FF 03 01 00 00 00 00 00 00 00 B4 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
  SPEL.NAME "stone_nikulas$00"
- SPEL.FNAM "尼古拉斯之魅力$00"
+ SPEL.FNAM "尼库拉斯之魅力$00"
  SPEL.SPDT [00 00 00 00 01 00 00 00 04 00 00 00]
  SPEL.ENAM [4F 00 FF 06 01 00 00 00 00 00 00 00 B4 00 00 00 0A 00 00 00 0A 00 00 00]
 -SPEL
@@ -16332,7 +16332,7 @@ End WolfRitualRing
  BOOK.BKDT [00 00 40 40 96 00 00 00 00 00 00 00 14 00 00 00 00 00 00 00]
  BOOK.ITEX "m\tx_octavo_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
-火中舞，卷一<BR>
+火中舞·卷一<BR>
 瓦辛·贾斯　著<BR><BR>
 <DIV ALIGN=""LEFT""><BR><BR>
 场景：西罗帝尔帝都<BR>
@@ -23053,7 +23053,7 @@ RH<BR>
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "Act_BM_stone_nikulas$00"
  ACTI.MODL "f\Terrain_rock_BM_78.nif$00"
- ACTI.FNAM "尼古拉斯之石$00"
+ ACTI.FNAM "尼库拉斯之石$00"
  ACTI.SCRI "stoneNikulasScript$00"
 -NPC_ [00 00 00 00 00 04 00 00]
  NPC_.NAME "ulfgar_ghost$00"
@@ -25583,7 +25583,7 @@ RH<BR>
  BOOK.BKDT [CD CC 4C 3E 77 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\tx_scroll_open_01.tga$00"
  BOOK.TEXT "<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">FROM THE EARTH TO THE AETHER... AND BACK.</FONT><BR>
-<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Daedric"">（高飞升天…去而复返。）</FONT><BR>"
+<DIV ALIGN=""center""><FONT COLOR=""000000"" SIZE=""2"" FACE=""Magic Cards"">（高飞升天…去而复返。）</FONT><BR>"
  BOOK.ENAM "sc_savagetyranny_en$00"
 -ENCH
  ENCH.NAME "sc_savagetyranny_en$00"
@@ -30407,7 +30407,7 @@ C. 马基乌斯<BR>"
 -BOOK [00 00 00 00 00 04 00 00]
  BOOK.NAME "bk_fryssajournal$00"
  BOOK.MODL "m\Text_Folio_03.NIF$00"
- BOOK.FNAM "福瑞莎的日记$00"
+ BOOK.FNAM "弗莱萨的日记$00"
  BOOK.BKDT [00 00 80 40 32 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
  BOOK.ITEX "m\Tx_folio_03.tga$00"
  BOOK.TEXT "
@@ -33868,13 +33868,13 @@ C<BR>"
  INFO.PNAM "2588417913667514066$00"
  INFO.NNAM "289056270217565181$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "情报总管让我找巴尔莫拉法师公会的莎恩·格拉-穆兹格布告诉我尼瑞瓦因的情况，然后再向他报告。他说，我得帮她一点小“忙”。我开始发现其中的规律了。凯乌斯·科萨德斯不是用现金支付给线人购买情报，而是用人情换取情报。作为组织的新成员，我提供了好处。啊，好吧。算是上了一课。 {差事,老鼠}"
+ INFO.NAME "情报总管让我找巴尔莫拉法师公会的莎恩·格拉-穆兹格布告诉我尼瑞瓦因的情况，然后再向他报告。他说，我得帮她一点小“差事”。我开始发现其中的规律了。凯乌斯·科萨德斯不是用现金支付给线人购买情报，而是用人情换取情报。作为组织的新成员，我提供了好处。啊，好吧。算是上了一课。 {老鼠,忙}"
 -INFO
  INFO.INAM "723123997500018044$00"
  INFO.PNAM "39613793161112092$00"
  INFO.NNAM "3158713656939413767$00"
  INFO.DATA [04 00 00 00 19 00 00 00 FF FF FF 00]
- INFO.NAME "情报总管似乎很满意我从莎恩·格拉-穆兹格布那里给他的关于尼瑞瓦因的笔记。凯乌斯说，在他再次派我出去之前，他希望看到我的状态达到更高的水平。所以我应该花点时间打磨我的技能，并通过自由冒险来增强我的能力。然后，等我准备好了，我就回来。凯乌斯会给我下达新的指示。[达到三级或更高等级时，回到凯乌斯那里获取更多的命令]"
+ INFO.NAME "情报总管似乎很满意我从莎恩·格拉-穆兹格布那里给他的关于尼瑞瓦因的笔记。凯乌斯说，在他再次派我出去之前，他希望看到我的状态达到更高的水平。所以我应该花点时间打磨我的技能，并通过自由冒险来增强我的能力。然后，等我准备好了，我就回来。凯乌斯会给我下达新的指示。[达到三级或更高等级时，回到凯乌斯那里获取更多的命令。]"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "3158713656939413767$00"
@@ -33888,7 +33888,7 @@ C<BR>"
  INFO.PNAM "3158713656939413767$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "情报总管把我晋升为刀锋的学徒级别。他似乎对我很满意，为他还给了我一个小礼物。"
+ INFO.NAME "情报总管把我晋升为刀锋的学徒级别。他似乎对我很满意，因为他还给了我一个小礼物。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TG_GrandmasterRetort$00"
@@ -33905,7 +33905,7 @@ C<BR>"
  INFO.PNAM "9795263632623723230$00"
  INFO.NNAM "31541104182425318801$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "大个子海伦德告诉我，有个客户想要宗师级曲颈瓶。他还诉我，泰尔-莫拉的贸易商伯雯有一个宗师级的曲颈瓶。"
+ INFO.NAME "大个子海伦德告诉我，有个客户想要宗师级曲颈瓶。大个子海伦德告诉我，泰尔-莫拉的贸易商伯雯有一个宗师级的曲颈瓶。"
 -INFO
  INFO.INAM "31541104182425318801$00"
  INFO.PNAM "2952619499170516060$00"
@@ -34080,7 +34080,7 @@ C<BR>"
  INFO.PNAM "197392288430264148$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "我与德拉雷恩·基里斯进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。"
+ INFO.NAME "我与德拉雷恩·基里斯进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。"
 -DIAL
  DIAL.NAME "A1_Sleepers_Llandras$00"
  DIAL.DATA [04]
@@ -34096,7 +34096,7 @@ C<BR>"
  INFO.PNAM "711088042237828794$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。"
+ INFO.NAME "我与兰德拉斯·贝拉尔进行了交谈，他曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了他的命。"
 -DIAL
  DIAL.NAME "A1_Sleepers_Vireveri$00"
  DIAL.DATA [04]
@@ -34112,7 +34112,7 @@ C<BR>"
  INFO.PNAM "20722124852575822469$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "我与兰德拉斯·贝拉尔进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。"
+ INFO.NAME "我与维雷维·达雷斯兰进行了交谈，她曾被达格斯·乌尔和第六家族的梦境逼疯。这位曾经的“沉睡者”向我表示了感谢，并答应告诉其他人我是如何救了她的命。"
 -DIAL
  DIAL.NAME "HH_LiteracyCampaign$00"
  DIAL.DATA [04]
@@ -34204,7 +34204,7 @@ C<BR>"
  INFO.PNAM "1733531661575118110$00"
  INFO.NNAM "2984534022524723849$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "在奥德'汝因附近，我发现了法拉努·英达伦，她显然是在和丈夫一起旅行时被一群尼克斯猎犬袭击的。"
+ INFO.NAME "在奥德'汝因附近游荡时，我发现了法拉努·英达伦，她显然是在和丈夫一起旅行时被一群尼克斯猎犬袭击的。"
 -INFO
  INFO.INAM "31438186252551117845$00"
  INFO.PNAM "108013060031382858$00"
@@ -34620,7 +34620,7 @@ C<BR>"
  INFO.PNAM "3074224626197626056$00"
  INFO.NNAM "9386322112545325113$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "尤沃·拉伦让我去幽魂之门南边一个被遗弃的叫做阿萨图斯·汉萨营地的地方治愈阿萨图斯·汉萨。我应该做好安抚他的准备，因为灰烬之民即使在生病时也会咄咄逼人。"
+ INFO.NAME "尤沃·拉伦让我去幽魂之门南边一处被遗弃的灰烬之民营地为阿萨图斯·汉萨治病。我应该做好安抚他的准备，因为灰烬之民即使在生病时也会咄咄逼人。"
 -INFO
  INFO.INAM "4471769216816780$00"
  INFO.PNAM "9386322112545325113$00"
@@ -35298,14 +35298,14 @@ C<BR>"
  INFO.PNAM [00]
  INFO.NNAM "10500306252164315455$00"
  INFO.DATA [04 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "瑞多然家族：强盗的困扰"
+ INFO.NAME "瑞多然家族：强盗的麻烦"
  INFO.QSTN [01]
 -INFO
  INFO.INAM "10500306252164315455$00"
  INFO.PNAM "13535154612446232748$00"
  INFO.NNAM "762978442549427799$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "内明达让我再和德鲁琳·法伦谈谈。瓜尔牧民遇到了强盗的困扰。"
+ INFO.NAME "内明达让我再和德鲁琳·法伦谈谈。瓜尔牧民遇到了强盗的麻烦。"
 -INFO
  INFO.INAM "1419610573166017625$00"
  INFO.PNAM "15357532143827686$00"
@@ -35636,7 +35636,7 @@ C<BR>"
  INFO.PNAM "2939713957935722888$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "发言人菲丽莎·乌雷森感谢我把服装送到了她的顾客手中。 {资助者}"
+ INFO.NAME "发言人菲丽莎·乌雷森感谢我把服装送到了她的资助者手中。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HT_SlaveRebellion$00"
@@ -35888,7 +35888,7 @@ C<BR>"
  INFO.PNAM "32408388382720320$00"
  INFO.NNAM "22404160927515348$00"
  INFO.DATA [04 00 00 00 15 00 00 00 FF FF FF 00]
- INFO.NAME "我决定让索罗诺尔自己去找埃德拉斯·奥里尔。我有更紧急的事。"
+ INFO.NAME "我决定让索罗诺尔自己去找埃德拉斯·奥里尔。我有更紧急的事。 {生意}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2692122385595129644$00"
@@ -37705,7 +37705,7 @@ C<BR>"
  INFO.PNAM "18436236551648814750$00"
  INFO.NNAM "65994414113317341$00"
  INFO.DATA [04 00 00 00 2A 00 00 00 FF FF FF 00]
- INFO.NAME "我跟达伦·阿德林谈起阿娜西，但他表示从来没听说过她，反正也不关我的事。随后他威胁我，要我离开。"
+ INFO.NAME "我跟达伦·阿德林谈起阿娜西，但他表示从来没听说过她，反正也不关我的事。随后他威胁我，要我离开。 {生意}"
 -INFO
  INFO.INAM "65994414113317341$00"
  INFO.PNAM "205041638348016816$00"
@@ -37810,7 +37810,7 @@ C<BR>"
  INFO.PNAM "14890321152666612806$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我被任命为大家族泰瓦尼，瑞多然，哈拉鲁和泰瓦尼三大家族的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。"
+ INFO.NAME "我被任命为瑞多然、哈拉鲁和泰瓦尼三大家族的统谏使。在“化身的七大异象之七大试炼”中，我已经完成了第四个试炼。"
 -DIAL
  DIAL.NAME "B7_TelvanniHort$00"
  DIAL.DATA [04]
@@ -39102,7 +39102,7 @@ C<BR>"
  INFO.PNAM "3211954743028115006$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {事}"
+ INFO.NAME "艾迪斯·火眼付给我1000金币，让我把维雷提帮赶尽杀绝。 {生意}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "FG_HungerLoose$00"
@@ -39269,7 +39269,7 @@ C<BR>"
  INFO.PNAM "3135525542026710245$00"
  INFO.NNAM "2562433173124518036$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的上层。 {指示}"
+ INFO.NAME "埃德里诺·阿雷提要我把密封的命令交给维威克哈拉鲁金库的财务官巴伦·阿伦。金库是财政部的一部分，在哈拉鲁财政部北侧的中层区的顶层。 {指示}"
 -INFO
  INFO.INAM "38030277295099293$00"
  INFO.PNAM "2562433173124518036$00"
@@ -39757,7 +39757,7 @@ C<BR>"
  INFO.PNAM "12192259612000431329$00"
  INFO.NNAM "2228710002691815370$00"
  INFO.DATA [04 00 00 00 4A 00 00 00 FF FF FF 00]
- INFO.NAME "埃鲁-丹的鬼魂给了我一件胸甲和一把长枪。"
+ INFO.NAME "埃鲁-丹的鬼魂给了我一把长枪和一件胸甲。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2228710002691815370$00"
@@ -39844,7 +39844,7 @@ C<BR>"
  INFO.PNAM "229675895936919732$00"
  INFO.NNAM "1348774192702827403$00"
  INFO.DATA [04 00 00 00 37 00 00 00 FF FF FF 00]
- INFO.NAME "法露拉·列乌说她对灰烬可汗考沙德非常满意。他英俊、聪明、富有，尽管像所有男人一样有点自以为是。她感谢我做她的媒人和恩人，希望等她给灰烬可汗考沙德生下许多优秀的女儿们时，我还会再来拜访。"
+ INFO.NAME "法露拉·列乌说她对灰烬可汗考沙德非常满意。他英俊、聪明、富有，尽管像所有男人一样有点自以为是。她感谢我做她的媒人和恩人，希望等她给灰烬可汗考沙德生下许多优秀的儿女时，我还会再来拜访。 {女儿们}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "1348774192702827403$00"
@@ -40537,7 +40537,7 @@ C<BR>"
  INFO.PNAM "210944493284910406$00"
  INFO.NNAM "52716556191914875$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的上层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。"
+ INFO.NAME "奥德拉尔·赫尔维要我替换维威克城哈拉鲁资料室的一个卷轴。资料室属于财政部的一部分，位于哈拉鲁中层区北侧的顶层区域。我应该把卷轴放在阿斯卡迪安地契的箱子里。"
 -INFO
  INFO.INAM "754722062219716561$00"
  INFO.PNAM "1357524444756015100$00"
@@ -41873,7 +41873,7 @@ C<BR>"
  INFO.PNAM "1786625357267911474$00"
  INFO.NNAM "536336575864985$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之赐”魔法，或者用他给我的药水治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。"
+ INFO.NAME "图尔斯·瓦伦要我重演维威克播撒怜悯之心医治敌人的一幕。我必须学会“蕾姆之赐”法术，或者用他给我的药水来治愈感染了灰烬溃烂症的兽人布尔菲姆·格拉-舒加兹。布尔菲姆·格拉-舒加兹在梅尔卡诗诗。我可以从奥德-维洛提向东走，一直走到山脉，然后沿着山脉向南走，就能到达那里。"
 -INFO
  INFO.INAM "836014959162526210$00"
  INFO.PNAM "536336575864985$00"
@@ -42561,7 +42561,7 @@ C<BR>"
  INFO.PNAM "309215012022012904$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "埃鲁-丹的鬼魂给了我一件胸甲和一把长枪。"
+ INFO.NAME "埃鲁-丹的鬼魂给了我一把长枪和一件胸甲。"
 -DIAL
  DIAL.NAME "VA_VampMarara$00"
  DIAL.DATA [04]
@@ -42613,7 +42613,7 @@ C<BR>"
  INFO.PNAM "11091176642618442$00"
  INFO.NNAM "1035125194527417255$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "我决定不杀这个吸血鬼猎人。杀死吸血鬼猎人本身就是一件很冒险的事。在日光之下出手简直就是自杀。"
+ INFO.NAME "我决定不杀这个吸血鬼猎人。杀死吸血鬼猎人本身就是一件很冒险的事。在日光之下出手简直就是自杀。 {生意}"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "24017128262511431373$00"
@@ -42851,7 +42851,7 @@ C<BR>"
  INFO.PNAM "2240673591875422623$00"
  INFO.NNAM "534826374325902474$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "卡尔德拉有个叫内德拉斯的波斯莫说他家闹鬼。凯说鬼魂不受普通武器的影响，所以他给了我200金币，让我买附魔的武器或法术，以及其他费用。我要先和内德拉斯的房子谈谈，如果我把鬼屋的鬼魂赶走了，就应该向凯报告。"
+ INFO.NAME "卡尔德拉有个叫内德拉斯的波斯莫说他家闹鬼。凯说鬼魂不受常规武器的影响，所以他给了我200金币，让我买附魔的武器或法术，以及其他费用。我要先和内德拉斯的房子谈谈，如果我把鬼屋的鬼魂赶走了，就应该向凯报告。"
 -INFO
  INFO.INAM "24247171973105411224$00"
  INFO.PNAM "28517324911195714142$00"
@@ -43827,7 +43827,7 @@ C<BR>"
  INFO.PNAM "307572302030133254$00"
  INFO.NNAM "18731196322700031661$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我从维威克领主那里接受了幽魂影卫，我宣誓在所有神和人的面前，在所有有形和无形的神灵面前，在我的荣誉和维威克的荣誉面前，宣誓将我自己和幽魂影卫奉献给打败达格斯·乌尔以及毁灭了达格斯家族，保护晨风和它的人民。维威克以某种方式教会了我如何使用幽魂影卫。然后他提出给我一些解释，或者按照我的意愿让我立即离开。"
+ INFO.NAME "我从维威克领主那里接受了幽魂影卫，我宣誓在所有神和人的面前，在所有有形和无形的神灵面前，在我的荣誉和维威克的荣誉面前，宣誓将我自己和幽魂影卫奉献给打败并毁灭达格斯·乌尔，保护晨风和它的人民。维威克以某种方式教会了我如何使用幽魂影卫。然后他提出给我一些解释，或者按照我的意愿让我立即离开。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "TT_GalomDeus$00"
@@ -44470,7 +44470,7 @@ C<BR>"
  INFO.PNAM "10319149541944815598$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "图尔告诉我，既然斯特德坎已经死了，他与我再无瓜葛。 {事}"
+ INFO.NAME "图尔告诉我，既然斯特德坎已经死了，他与我再无瓜葛。 {生意}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "B2b_Dutadalk$00"
@@ -45471,13 +45471,13 @@ C<BR>"
  INFO.PNAM "31125158552500422928$00"
  INFO.NNAM "5111164642869717568$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "乌鸦其实是动物形态的格伦摩尔巫妖。她提出治疗我的变狼症，我接受了。我要去见她的姐妹们，并开始“狼人赠与者仪式”，不管那是什么……"
+ INFO.NAME "乌鸦其实是动物形态的格伦莫莉女巫。她提出治疗我的变狼症，我接受了。我要去见她的姐妹们，并开始“狼人赠与者仪式”，不管那是什么……"
 -INFO
  INFO.INAM "5111164642869717568$00"
  INFO.PNAM "53312936108712758$00"
  INFO.NNAM "16845270772837422414$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "女巫厄缇娜让我和她的姐妹们谈谈，完成她们交给我的任何任务。完成任务后，我要再次与厄缇娜交谈。 {差事}"
+ INFO.NAME "女巫艾蒂安让我和她的姐妹们谈谈，完成她们交给我的任何差事。完成后，我要再次与艾蒂安交谈。"
 -INFO
  INFO.INAM "16845270772837422414$00"
  INFO.PNAM "5111164642869717568$00"
@@ -45495,13 +45495,13 @@ C<BR>"
  INFO.PNAM "26650313412533132168$00"
  INFO.NNAM "474612695954728279$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "我把狼毒花瓣和成熟的颠茄浆果交给了格伦莫莉女巫。我现在必须和厄缇娜谈谈。"
+ INFO.NAME "我把狼毒花瓣和成熟的颠茄浆果交给了格伦莫莉女巫。我现在必须和艾蒂安谈谈。"
 -INFO
  INFO.INAM "474612695954728279$00"
  INFO.PNAM "726815477153989271$00"
  INFO.NNAM "27736213131340021915$00"
  INFO.DATA [04 00 00 00 50 00 00 00 FF FF FF 00]
- INFO.NAME "我又和女巫厄缇娜谈了一次。女巫们将使用我收集到的材料来治疗狼人病，但最困难的步骤还在后面。我要在瑟隆德祭坛与厄缇娜会面，完成狼人赐予者的仪式。"
+ INFO.NAME "我又和女巫艾蒂安谈了一次。女巫们将使用我收集到的材料来治疗狼人病，但最困难的步骤还在后面。我要在瑟隆德祭坛与艾蒂安会面，完成狼人赐予者的仪式。"
 -INFO
  INFO.INAM "27736213131340021915$00"
  INFO.PNAM "474612695954728279$00"
@@ -45513,19 +45513,19 @@ C<BR>"
  INFO.PNAM "27736213131340021915$00"
  INFO.NNAM "20209979228189323$00"
  INFO.DATA [04 00 00 00 64 00 00 00 FF FF FF 00]
- INFO.NAME "厄缇娜将纯洁之心浸泡在她和姐妹们调制的药水中，念起了奇怪的咒语。我必须把这颗狼的心脏放回纯洁之心的身体里，然后再和厄缇娜对话。我的狼人病几乎痊愈了…… {谈}"
+ INFO.NAME "艾蒂安将纯洁之心浸泡在她和姐妹们调制的药水中，念起了奇怪的咒语。我必须把这颗狼的心脏放回纯洁之心的身体里，然后再和艾蒂安对话。我的狼人病几乎痊愈了…… {谈}"
 -INFO
  INFO.INAM "20209979228189323$00"
  INFO.PNAM "100737667221632578$00"
  INFO.NNAM "7404276241971531241$00"
  INFO.DATA [04 00 00 00 69 00 00 00 FF FF FF 00]
- INFO.NAME "我把狼的心脏放进了纯洁之心的身体里。现在我必须和厄缇娜谈谈了。"
+ INFO.NAME "我把狼的心脏放进了纯洁之心的身体里。现在我必须和艾蒂安谈谈了。"
 -INFO
  INFO.INAM "7404276241971531241$00"
  INFO.PNAM "20209979228189323$00"
  INFO.NNAM "1858625338197488497$00"
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "厄缇娜喃喃地念着最后的咒语。无辜的人又活过来了，而且被感染了狼人病！我必须杀死这个狼人，才能彻底摆脱诅咒。"
+ INFO.NAME "艾蒂安喃喃地念着最后的咒语。无辜的人又活过来了，而且被感染了狼人病！我必须杀死这个狼人，才能彻底摆脱诅咒。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "1858625338197488497$00"
@@ -46363,7 +46363,7 @@ C<BR>"
  INFO.PNAM "2364727129118478331$00"
  INFO.NNAM "1126144581591424416$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的老手晋级计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。"
+ INFO.NAME "阿吉拉给了我一颗伪造的灵魂石。她想让我破坏伽尔贝蒂尔的资深法师计划。我应该把伪造的灵魂石放在伽尔贝蒂尔的桌子里。"
 -INFO
  INFO.INAM "1126144581591424416$00"
  INFO.PNAM "2032217651464016623$00"
@@ -46475,7 +46475,7 @@ C<BR>"
  INFO.PNAM "15667147452721621659$00"
  INFO.NNAM "10565207852121112490$00"
  INFO.DATA [04 00 00 00 6E 00 00 00 FF FF FF 00]
- INFO.NAME "因拉拉克已经死了，他的教派必须另谋出路，徒耗时间和金钱。"
+ INFO.NAME "因拉拉克已经死了，他的教派必须另谋出路，消磨时间和金钱。"
 -INFO
  INFO.INAM "10565207852121112490$00"
  INFO.PNAM "15229159883102313813$00"
@@ -46592,7 +46592,7 @@ C<BR>"
  INFO.PNAM "657512333217810614$00"
  INFO.NNAM "27145132012452022017$00"
  INFO.DATA [04 00 00 00 01 00 00 00 FF FF FF 00]
- INFO.NAME "尤卢斯·特鲁普托我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特鲁普托。"
+ INFO.NAME "尤卢斯·特鲁普托让我说服东帝国公司的坎克图尼安·博尼乌斯交付他承诺赞助灰烬之民出使的1000金币。我会在黑檀心的东帝国公司大厅找到他。当我拿到坎克图尼安·博尼乌斯慷慨的承诺后，我将把它交给尤卢斯·特鲁普托。"
 -INFO
  INFO.INAM "772410064107932659$00"
  INFO.PNAM "149792071440314998$00"
@@ -49366,7 +49366,7 @@ C<BR>"
  INFO.PNAM "1636822676152898464$00"
  INFO.NNAM "2119228073593521908$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我不忍心和他战斗。我觉得他疯了，杀了他也不会给我带来荣耀。 {屠杀}"
+ INFO.NAME "我不忍心和他战斗。我觉得他疯了，屠杀他也不会给我带来荣耀。"
  INFO.QSTF [01]
 -INFO
  INFO.INAM "2119228073593521908$00"
@@ -49790,7 +49790,7 @@ C<BR>"
  INFO.PNAM "3541109972223827727$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我给辛诺里安·图尼夫斯送去了五块老鼠肉。他给了我一瓶解毒药作为奖励。由于他的任务变得更加危险，他教了我一些有用的无甲防御技巧。 {药水,报酬,差事}"
+ INFO.NAME "我给辛诺里安·图尼夫斯送去了五块老鼠肉。他给了我一瓶解毒药作为奖励。由于他的差事变得更加危险，他教了我一些有用的无甲防御技巧。 {药水,报酬}"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "EB_Bone$00"
@@ -49807,7 +49807,7 @@ C<BR>"
  INFO.PNAM "3073530836492311330$00"
  INFO.NNAM "263802864392491221$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我听说巴伦·安德拉诺的生意不好做。 {事}"
+ INFO.NAME "我听说巴伦·安德拉诺的生意不好做。"
 -INFO
  INFO.INAM "54856565159329953$00"
  INFO.PNAM "200015814529322493$00"
@@ -49850,7 +49850,7 @@ C<BR>"
  INFO.PNAM "1303130300758232565$00"
  INFO.NNAM "3378110026759332$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "我听说有传言说，维威克外邦区的铁匠铺阿鲁萨隆最近生意大不如前，他最近的竞争对手得到了一份大合同。 {事}"
+ INFO.NAME "我听说有传言说，维威克外邦区的铁匠铺阿鲁萨隆最近生意大不如前，他最近的竞争对手得到了一份大合同。"
 -INFO
  INFO.INAM "271964268268382650$00"
  INFO.PNAM "28052311151259223692$00"
@@ -50961,7 +50961,7 @@ C<BR>"
  INFO.PNAM "339856161408927360$00"
  INFO.NNAM "948411040709326862$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "我跟着乌林·马伦来到那个跟他没任何关系的储存室。 {事}"
+ INFO.NAME "我跟着乌林·马伦来到那个跟他没任何关系的储存室。 {生意}"
 -INFO
  INFO.INAM "948411040709326862$00"
  INFO.PNAM "31580583735058306$00"
@@ -51312,7 +51312,7 @@ ModDisposition 5"
  INFO.NNAM "21291254781734316216$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "东帝国公司本质上是一家企业。应聘者应具备成功的个性和坚强的意志。能言善辩、精明能干的人最有价值。鉴于公司经常涉足的敌对环境，应聘者应具备敏锐的安全意识。最后，所有申请者都应接受过长刃武器和中甲的训练，这也是公司世代相传的传统美德。 {事,魅力,开锁,刀锋}"
+ INFO.NAME "东帝国公司本质上是一家企业。应聘者应具备成功的个性和坚强的意志。能言善辩、精明能干的人最有价值。鉴于公司经常涉足的敌对环境，应聘者应具备敏锐的安全意识。最后，所有申请者都应接受过长刃武器和中甲的训练，这也是公司世代相传的传统美德。 {生意,魅力,开锁,刀锋}"
  INFO.SCVR "01500"
  INFO.INTV [02 00 00 00]
  #0: Function-Alarmed = 2
@@ -51360,7 +51360,7 @@ ModDisposition 5"
  INFO.NNAM "18291215111498823645$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "我已经把袭击的事都告诉你了。帝国人的事是他们自己的事。"
+ INFO.NAME "我已经把袭击的事都告诉你了。帝国人的事是他们自己的事。 {生意}"
  INFO.SCVR "04JX3BM_CariusGone"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_CariusGone >= 100
@@ -51370,7 +51370,7 @@ ModDisposition 5"
  INFO.NNAM "203221058216814080$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？"
+ INFO.NAME "那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？ {生意}"
  INFO.SCVR "04JX0BM_CariusGone"
  INFO.INTV [1E 00 00 00]
  #0: Journal-Journal BM_CariusGone = 30
@@ -51381,7 +51381,7 @@ ModDisposition 5"
  INFO.NNAM "133802626774499149$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？"
+ INFO.NAME "那些士兵…呸！他们砍树挖坑，一天的劳作之后却没有什么收获，他们不尊重这片土地，也不尊重这里的生物，因此，我觉得他们很可恶。不过，虽然我对他们毫无好感，但斯卡尔人绝不会做这种事。我们更愿意让帝国人慢慢自杀，但这些袭击的生物…它们不是这座岛上的狼。那么，你来这里的目的是什么，你的事情办完了吗？ {生意}"
  INFO.SCVR "04JX3BM_CariusGone"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal BM_CariusGone >= 20
@@ -51762,7 +51762,7 @@ Player->AddItem ""common_shoes_02_surefeet"" 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "baladas demnevanni$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "很好。我不会忘记的，%PCName。你给我带来了三本书。请收下我的这些矿场饰品。我不再需要它们了。"
+ INFO.NAME "很好。我不会忘记的，%PCName。你给我带来了三本书。请收下我的这些矿场饰品，我不再需要它们了。"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  #0: Function-Alarmed = 1
@@ -52159,7 +52159,7 @@ StartScript smugDeadScript"
  INFO.CNAM "Guard$00"
  INFO.FNAM "Imperial Legion$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "我听说那件事已经解决了。"
+ INFO.NAME "我听说那件事已经解决了。 {生意}"
  INFO.SCVR "04JX3BM_Smugglers"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_Smugglers >= 100
@@ -52893,7 +52893,7 @@ Goodbye"
  INFO.NNAM "9015317752454611009$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brynjolfr$00"
- INFO.NAME "你说得没错，那可怜的姑娘再也没回来过。她来这里宣扬酗酒的罪恶，卑劣者埃里希勃然大怒。他带走了那个传教士，把她锁在自己房间里。他喜欢嘲弄她，甚至打她，这是不对的。埃里希是个恶霸，是个吹牛大王，我们都不喜欢他。但他是我们的族兄，我们不能干涉他的事，尽管我们很想。真遗憾没人教训这个蠢货。"
+ INFO.NAME "你说得没错，那可怜的姑娘再也没回来过。她来这里宣扬酗酒的罪恶，卑劣者埃里希勃然大怒。他带走了那个传教士，把她锁在自己房间里。他喜欢嘲弄她，甚至打她，这是不对的。埃里希是个恶霸，是个吹牛大王，我们都不喜欢他。但他是我们的族兄，我们不能干涉他的事，尽管我们很想。真遗憾没人教训这个蠢货。 {生意}"
  INFO.SCVR "04JX3BM_Missionary"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_Missionary >= 10
@@ -53616,7 +53616,7 @@ Choice ""继续"" 1"
  INFO.NNAM "26577323112283225245$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "我想这件事已经结束了。谢谢你的帮助。"
+ INFO.NAME "我想这件事已经结束了。谢谢你的帮助。 {生意}"
  INFO.SCVR "04JX3BM_Morale"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_Morale >= 100
@@ -53626,7 +53626,7 @@ Choice ""继续"" 1"
  INFO.NNAM "275995980103416424$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "你说那批货只是放错了地方，这只是个误会？这太荒谬了。我希望我的人和我自己能做得更好，尤其是我自己。谢谢你的帮助，%PCName。拿着这个，这座岛上有我们从未遇到过的疾病。我不想看到你生病。现在有更重要的要塞事务。 {讨论}"
+ INFO.NAME "你说那批货只是放错了地方，这只是个误会？这太荒谬了。我希望我的人和我自己能做得更好，尤其是我自己。谢谢你的帮助，%PCName。拿着这个，这座岛上有我们从未遇到过的疾病。我不想看到你生病。现在有更重要的要塞事务要讨论。 {生意}"
  INFO.SCVR "04JX0BM_Morale"
  INFO.INTV [5D 00 00 00]
  #0: Journal-Journal BM_Morale = 93
@@ -53638,7 +53638,7 @@ Journal BM_Morale 110"
  INFO.NNAM "1998260872053919600$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "你说安东尼乌斯·农基乌斯挑起这件事，是因为他想回家？这个笨蛋！只要他开口，我就能把他调走。但现在，我觉得他可以在这里做他最擅长的事，拯救我手下的灵魂。要塞里的酒又多了起来，总得有人来拯救他们吧。谢谢你的帮助，%PCName，拿着。这岛上有我们从未遇到过的疾病，这武器对你很有用。现在，去做别的要塞事务吧。 {工作}"
+ INFO.NAME "你说安东尼乌斯·农基乌斯挑起这件事，是因为他想回家？这个笨蛋！只要他开口，我就能把他调走。但现在，我觉得他可以在这里做他最擅长的事，拯救我手下的灵魂。要塞里的酒又多了起来，总得有人来拯救他们吧。谢谢你的帮助，%PCName，拿着。这岛上有我们从未遇到过的疾病，这武器对你很有用。现在，去做别的要塞事务吧。 {工作,生意}"
  INFO.SCVR "04JX0BM_Morale"
  INFO.INTV [5F 00 00 00]
  #0: Journal-Journal BM_Morale = 95
@@ -55985,7 +55985,7 @@ set ColonyStock to 2"
  INFO.SCVR "02sX0ColonyStock"
  INFO.INTV [01 00 00 00]
  #0: Global-short ColonyStock = 1
- INFO.BNAM "Choice: ""查看价值"" 2 ""上交证书"" 1 ""没事。"" 3"
+ INFO.BNAM "Choice: ""查看价值"" 2 ""上交证书"" 1 ""还是算了。"" 3"
 -INFO
  INFO.INAM "263261158930515852$00"
  INFO.PNAM "5637141661331522167$00"
@@ -56192,7 +56192,7 @@ set ColonyStock to 2"
  INFO.SCVR "12sX0ColonySide"
  INFO.INTV [02 00 00 00]
  #1: Global-short ColonySide = 2
- INFO.BNAM "Choice:  ""查看价值"" 5 ""上交证书"" 4 ""没事。"" 6"
+ INFO.BNAM "Choice:  ""查看价值"" 5 ""上交证书"" 4 ""还是算了。"" 6"
 -INFO
  INFO.INAM "15859310892244830074$00"
  INFO.PNAM "2304213722098810832$00"
@@ -56206,7 +56206,7 @@ set ColonyStock to 2"
  INFO.SCVR "12sX0ColonySide"
  INFO.INTV [01 00 00 00]
  #1: Global-short ColonySide = 1
- INFO.BNAM "Choice: ""查看价值"" 5 ""上交证书"" 4 ""没事。"" 6"
+ INFO.BNAM "Choice: ""查看价值"" 5 ""上交证书"" 4 ""还是算了。"" 6"
 -INFO
  INFO.INAM "302261996315917917$00"
  INFO.PNAM "15859310892244830074$00"
@@ -57051,7 +57051,7 @@ set ""Carnius Magius"".Stalhrimgiven to ( ""Carnius Magius"".Stalhrimgiven - 2 )
  INFO.SCVR "13sX3Stalhrimgiven"
  INFO.INTV [02 00 00 00]
  #1: Local-short Stalhrimgiven >= 2
- INFO.BNAM "Choice: ""魔冰战斧"" 1 ""魔冰匕首"" 2 ""魔冰长剑"" 3 ""魔冰钉锤"" 4 ""什么都不要"" 5"
+ INFO.BNAM "Choice: ""魔冰战斧"" 1 ""魔冰匕首"" 2 ""魔冰长剑"" 3 ""魔冰钉锤"" 4 ""还是算了"" 5"
 -INFO
  INFO.INAM "1973430735196923071$00"
  INFO.PNAM "900847722160227203$00"
@@ -57310,7 +57310,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hidar$00"
  INFO.NAME "我可以为你打造某些武器，但你必须提供魔冰。你想要我为你打造什么？"
- INFO.BNAM "Choice: ""魔冰战斧"" 2 ""魔冰匕首"" 3 ""魔冰长剑"" 4 ""魔冰钉锤"" 5 ""什么都不要"" 6"
+ INFO.BNAM "Choice: ""魔冰战斧"" 2 ""魔冰匕首"" 3 ""魔冰长剑"" 4 ""魔冰钉锤"" 5 ""还是算了"" 6"
 -DIAL
  DIAL.NAME "定制毛皮护甲$00"
  DIAL.DATA [00]
@@ -57448,7 +57448,7 @@ Goodbye"
  INFO.SCVR "12sX3artoriachosen"
  INFO.INTV [01 00 00 00]
  #1: Global-short artoriachosen >= 1
- INFO.BNAM "Choice ""是的，我们应该。"" 1 ""不，在这里等。"" 2"
+ INFO.BNAM "Choice ""是的，我们应该。"" 1 ""不，在这里等着。"" 2"
 -INFO
  INFO.INAM "26239323941534219976$00"
  INFO.PNAM "2702731522608629266$00"
@@ -57500,7 +57500,7 @@ Goodbye"
  INFO.SCVR "12sX3luciuschosen"
  INFO.INTV [01 00 00 00]
  #1: Global-short luciuschosen >= 1
- INFO.BNAM "Choice ""是的，我们应该。"" 1 ""不，在这里等。"" 2"
+ INFO.BNAM "Choice ""是的，我们应该。"" 1 ""不，在这里等着。"" 2"
 -INFO
  INFO.INAM "1627714415913516768$00"
  INFO.PNAM "311882790128006716$00"
@@ -57521,7 +57521,7 @@ Goodbye"
  INFO.SCVR "34JX3IL_RescueHermit"
  INFO.INTV [19 00 00 00]
  #3: Journal-Journal IL_RescueHermit >= 25
- INFO.BNAM "Choice ""是的，跟着我。"" 1 ""不，算了。"" 2"
+ INFO.BNAM "Choice ""是的，跟着我。"" 1 ""不，还是算了。"" 2"
 -INFO
  INFO.INAM "17887102541567525512$00"
  INFO.PNAM "1748425214119776640$00"
@@ -57565,7 +57565,7 @@ Journal BM_Missionary 60"
  INFO.SCVR "03sX0followNow"
  INFO.INTV [01 00 00 00]
  #0: Local-short followNow = 1
- INFO.BNAM "Choice ""跟我来。"" 1 ""你先待在这。"" 2"
+ INFO.BNAM "Choice ""跟着我。"" 1 ""在这里等着。"" 2"
 -INFO
  INFO.INAM "6045309411483418683$00"
  INFO.PNAM "101781612376816312$00"
@@ -57573,7 +57573,7 @@ Journal BM_Missionary 60"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "mirisa$00"
  INFO.NAME "你能护送我回霜蛾要塞的帝国教团圣祠吗？ {帝国人}"
- INFO.BNAM "Choice ""跟我来。"" 1 ""你先待在这。"" 2"
+ INFO.BNAM "Choice ""跟着我。"" 1 ""在这里等着。"" 2"
 -DIAL
  DIAL.NAME "传教士的职责$00"
  DIAL.DATA [00]
@@ -59890,7 +59890,7 @@ AddTopic ""将得到的报酬"""
  INFO.BNAM "Journal ""VA_VampHunter"" 10
 ""ano vando""->enable
 AddTopic ""将得到的报酬""
-Choice ""我不会为你这么做的。"" 1 ""我不会为你这么做的。"" 2"
+Choice ""我要杀了这个吸血鬼猎人，让所有人都看到。"" 1 ""我不会为你这么做的。"" 2"
 -INFO
  INFO.INAM "1815207811721223488$00"
  INFO.PNAM "14317185292636531007$00"
@@ -59937,7 +59937,7 @@ AddTopic ""将得到的报酬"""
  INFO.NNAM "250655861367625359$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "volrina quarra$00"
- INFO.NAME "我们的事情结束了，你没别的办法帮我了，新血。"
+ INFO.NAME "我们的生意结束了，你没别的办法帮我了，新血。"
  INFO.SCVR "01600"
  INFO.INTV [01 00 00 00]
  #0: Function-Creature_Target = 1
@@ -60605,7 +60605,7 @@ ModDisposition 10"
  INFO.NNAM "266941581293182298$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Alcedonia Amnis$00"
- INFO.NAME "我跟他断绝关系有一阵子了，但他还没消气，我得想个办法，他毁了我仅有的生意。 {事}"
+ INFO.NAME "我跟他断绝关系有一阵子了，但他还没消气，我得想个办法，他毁了我仅有的生意。"
  INFO.SCVR "04JX3CO_7"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_7 >= 10
@@ -60742,7 +60742,7 @@ Set ColonyState to 11"
  INFO.NNAM "1522024500924426079$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "我不知道整件事的来龙去脉，也不关心。他在制造麻烦，扰乱业务。确保他不再惹麻烦，明白吗？他在酒吧。去处理一下。"
+ INFO.NAME "我不知道整件事的来龙去脉，也不关心。他在制造麻烦，扰乱生意。确保他不再惹麻烦，明白吗？他在酒吧。去处理一下。"
  INFO.SCVR "02sX0ColonySide"
  INFO.INTV [02 00 00 00]
  #0: Global-short ColonySide = 2
@@ -60987,7 +60987,7 @@ set ""Carnius Magius"".Stalhrimgiven to ( ""Carnius Magius"".Stalhrimgiven - 2 )
  INFO.SCVR "13sX3Stalhrimgiven"
  INFO.INTV [02 00 00 00]
  #1: Local-short Stalhrimgiven >= 2
- INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左肩甲""  3 ""魔冰右肩甲"" 4 ""魔冰左腕甲"" 5 ""魔冰右腕甲"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""什么都不要"" 1"
+ INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左肩甲""  3 ""魔冰右肩甲"" 4 ""魔冰左腕甲"" 5 ""魔冰右腕甲"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""还是算了"" 1"
 -INFO
  INFO.INAM "23576130442396221546$00"
  INFO.PNAM "92859362084210883$00"
@@ -61483,7 +61483,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "aenar$00"
  INFO.NAME "只要你有原矿，我可以制作任何盔甲。你需要什么？ {原材料}"
- INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左肩甲""  3 ""魔冰右肩甲"" 4 ""魔冰左腕甲"" 5 ""魔冰右腕甲"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""什么都不要"" 1"
+ INFO.BNAM "Choice ""魔冰胸甲"" 2 ""魔冰左肩甲""  3 ""魔冰右肩甲"" 4 ""魔冰左腕甲"" 5 ""魔冰右腕甲"" 6 ""魔冰胫甲"" 7 ""魔冰靴子"" 8 ""魔冰头盔"" 9 ""还是算了"" 1"
 -DIAL
  DIAL.NAME "恐惧之兽$00"
  DIAL.DATA [00]
@@ -61971,7 +61971,7 @@ Goodbye"
  INFO.NNAM "85087211450025305$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Skaal Village$00"
- INFO.NAME "他是我们村子里的萨满，他的智慧无与伦比。你通常可以在萨满的小屋找到他，尽管他经常因为自己的事情在我们的土地上游荡。如果你有任何问题，风眼会是个很好的顾问。 {咨询}"
+ INFO.NAME "他是我们村子里的萨满，他的智慧无与伦比。你通常可以在萨满的小屋找到他，尽管他经常因为自己的事情在我们的土地上游荡。如果你有任何问题，风眼会是个很好的顾问。 {生意,咨询}"
 -INFO
  INFO.INAM "85087211450025305$00"
  INFO.PNAM "1454326341302921997$00"
@@ -62570,7 +62570,7 @@ Player->AddItem ""writ_varro"" 1"
  INFO.INTV [32 00 00 00]
  #1: Journal-Journal C3_DestroyDagoth >= 50
 -DIAL
- DIAL.NAME "暗之任务$00"
+ DIAL.NAME "黑暗生意$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "3129392061652731795$00"
@@ -62656,7 +62656,7 @@ moddisposition 50"
  INFO.NNAM "325824266247171419$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kjolver$00"
- INFO.NAME "我丈夫布兰德背着我，和一个叫静谧者厄娜的妓女鬼混。我爱我的丈夫，他是我的整个世界，而这个世界却容不下我和厄娜。我要厄娜死，但我不是杀手。你愿意帮我这个忙吗，%PCName？你当然会得到丰厚的报酬。 {差事}"
+ INFO.NAME "我丈夫布兰德背着我，和一个叫静谧者厄娜的妓女鬼混。我爱我的丈夫，他是我的整个世界，而这个世界却容不下我和厄娜。我要厄娜死，但我不是杀手。你愿意帮我这个差事吗，%PCName？你当然会得到丰厚的报酬。"
  INFO.SCVR "04JX3BM_WomanScorned"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal BM_WomanScorned >= 0
@@ -62685,7 +62685,7 @@ Choice ""我会的。生意毕竟是生意。"" 1 ""我不是刺客，乔尔弗，让别人去干你的脏活吧
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kjolver$00"
- INFO.NAME "这件事已经平息了。我和你的交易结束了。"
+ INFO.NAME "这件事已经平息了。我和你的生意结束了。"
  INFO.SCVR "04JX3BM_WomanScorned"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_WomanScorned >= 100
@@ -62878,7 +62878,7 @@ Choice ""你疯了！你必须死，所有的恶魔都应该死！"" 1 ""我是你父亲派来的。脱下袍子
  INFO.NNAM "222971031190516842$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gaea artoria$00"
- INFO.NAME "他是个好人，也很聪明，他现在去给卡里乌斯队长跑腿了，不过他很快就会回来的。 {差事}"
+ INFO.NAME "他是个好人，也很聪明，他现在去给卡里乌斯队长跑差事了，不过他很快就会回来的。"
  INFO.SCVR "02sX2artoriachosen"
  INFO.INTV [00 00 00 00]
  #0: Global-short artoriachosen > 0
@@ -62932,7 +62932,7 @@ Choice ""你疯了！你必须死，所有的恶魔都应该死！"" 1 ""我是你父亲派来的。脱下袍子
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "卢西乌斯是个聪明人，这里的人也都喜欢他，很好说话，虽然不是最能打铁的人，但他的聪明可以弥补这一点。我听说你们俩完成任务时，他去帮队长办点事了。 {谈,钢}"
+ INFO.NAME "卢西乌斯是个聪明人，这里的人也都喜欢他，很好谈话，虽然不是最能锻钢的人，但他的聪明可以弥补这一点。我听说你们俩完成任务时，他去帮队长办点事了。 {生意}"
  INFO.SCVR "02sX2artoriachosen"
  INFO.INTV [00 00 00 00]
  #0: Global-short artoriachosen > 0
@@ -64075,7 +64075,7 @@ Player->ModReputation 1"
  INFO.NNAM "20074233321948525757$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "一个强大的战士，一个忠诚的士兵，是要塞最优秀的战士之一。我让她在你们调查走私的时候帮我跑腿。 {差事}"
+ INFO.NAME "一个强大的战士，一个忠诚的士兵，是要塞最优秀的战士之一。我让她在你们调查走私的时候帮我跑差事。"
  INFO.SCVR "04JX3BM_Smugglers"
  INFO.INTV [1E 00 00 00]
  #0: Journal-Journal BM_Smugglers >= 30
@@ -64118,7 +64118,7 @@ Player->ModReputation 1"
  INFO.NNAM "1634111671564213706$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "saenus lusius$00"
- INFO.NAME "她是仅次于团长的优秀战士，她现在可能要去给卡里乌斯队长跑腿了。 {差事}"
+ INFO.NAME "她是仅次于团长的优秀战士，她现在可能要去给卡里乌斯队长跑差事了。"
  INFO.SCVR "02sX2luciuschosen"
  INFO.INTV [00 00 00 00]
  #0: Global-short luciuschosen > 0
@@ -64185,7 +64185,7 @@ Player->ModReputation 1"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "坚强的战士，脾气暴躁，她是有点粗鲁，但打起仗来我最希望她站在我这边。我听说她去给卡里乌斯队长办事了，我相信她很快就会回来的。 {差事}"
+ INFO.NAME "坚强的战士，脾气暴躁，她是有点粗鲁，但打起仗来我最希望她站在我这边。我听说她去给卡里乌斯队长办差事了，我相信她很快就会回来的。"
  INFO.SCVR "06DX0gaea artoria"
  INFO.INTV [00 00 00 00]
  #0: Dead-Dead gaea artoria = 0
@@ -64772,7 +64772,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 08 00]
  INFO.ONAM "Vedam Dren$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "一旦我们的事情结束了，我将考虑你的晋级。"
+ INFO.NAME "一旦我们的生意结束了，我将考虑你的晋级。"
 -INFO
  INFO.INAM "1558828954153928039$00"
  INFO.PNAM "714828109185914298$00"
@@ -64791,7 +64791,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF 07 00]
  INFO.ONAM "Vedam Dren$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "一旦我们的事情结束了，我将考虑你的晋级。"
+ INFO.NAME "一旦我们的生意结束了，我将考虑你的晋级。"
 -DIAL
  DIAL.NAME "你是谁$00"
  DIAL.DATA [00]
@@ -64957,7 +64957,7 @@ Set ColonyState to 13"
  INFO.SCVR "32sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #3: Global-short garnasguard = 1
- INFO.BNAM "Choice: ""阿弗尔·弗拉库斯，格拉蒂安·卡雷利乌斯，和加纳斯·尤瓦伦。"" 12 ""没事。"" 11"
+ INFO.BNAM "Choice: ""阿弗尔·弗拉库斯，格拉蒂安·卡雷利乌斯，和加纳斯·尤瓦伦。"" 12 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "3248919022912510665$00"
  INFO.PNAM "7227139893029531887$00"
@@ -64974,7 +64974,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short gratianguard = 1
- INFO.BNAM "Choice: ""阿弗尔·弗拉库斯和格拉蒂安·卡雷利乌斯。"" 13 ""没事。"" 11"
+ INFO.BNAM "Choice: ""阿弗尔·弗拉库斯和格拉蒂安·卡雷利乌斯。"" 13 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "33854830543910179$00"
  INFO.PNAM "3248919022912510665$00"
@@ -64991,7 +64991,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short garnasguard = 1
- INFO.BNAM "Choice: ""阿弗尔·弗拉库斯和加纳斯·尤瓦伦。"" 14 ""没事。"" 11"
+ INFO.BNAM "Choice: ""阿弗尔·弗拉库斯和加纳斯·尤瓦伦。"" 14 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "1645194312868130680$00"
  INFO.PNAM "33854830543910179$00"
@@ -65008,7 +65008,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short gratianguard = 1
- INFO.BNAM "Choice: ""格拉蒂安·卡雷利乌斯和加纳斯·尤瓦伦。"" 15 ""没事。"" 11"
+ INFO.BNAM "Choice: ""格拉蒂安·卡雷利乌斯和加纳斯·尤瓦伦。"" 15 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "1633727831943823083$00"
  INFO.PNAM "1645194312868130680$00"
@@ -65022,7 +65022,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0aferguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short aferguard = 1
- INFO.BNAM "Choice: ""阿弗尔·弗拉库斯。"" 16 ""没事。"" 11"
+ INFO.BNAM "Choice: ""阿弗尔·弗拉库斯。"" 16 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "30621191111704290$00"
  INFO.PNAM "1633727831943823083$00"
@@ -65036,7 +65036,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short garnasguard = 1
- INFO.BNAM "Choice: ""格拉蒂安·卡雷利乌斯。"" 17 ""没事。"" 11"
+ INFO.BNAM "Choice: ""格拉蒂安·卡雷利乌斯。"" 17 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "215731359235385129$00"
  INFO.PNAM "30621191111704290$00"
@@ -65050,7 +65050,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short gratianguard = 1
- INFO.BNAM "Choice: ""加纳斯·尤瓦伦。"" 15 ""没事。"" 11"
+ INFO.BNAM "Choice: ""加纳斯·尤瓦伦。"" 15 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "318305916177363749$00"
  INFO.PNAM "215731359235385129$00"
@@ -65084,7 +65084,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0ColonySide"
  INFO.INTV [02 00 00 00]
  #1: Global-short ColonySide = 2
- INFO.BNAM "Choice ""是的，给你。"" 10 ""我会继续找的。"" 11"
+ INFO.BNAM "Choice ""找到了。"" 10 ""我会继续找的。"" 11"
 -INFO
  INFO.INAM "25851283782195421392$00"
  INFO.PNAM "123201239136397700$00"
@@ -65398,7 +65398,7 @@ Set ColonyState to 13"
  INFO.SCVR "32sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #3: Global-short garnasguard = 1
- INFO.BNAM "Choice ""阿弗尔·弗拉库斯。格拉蒂安·卡雷利乌斯，和加纳斯·尤瓦伦"" 3 ""没事。"" 2"
+ INFO.BNAM "Choice ""阿弗尔·弗拉库斯。格拉蒂安·卡雷利乌斯，和加纳斯·尤瓦伦"" 3 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "253531652321121349$00"
  INFO.PNAM "1494812296730727847$00"
@@ -65415,7 +65415,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short gratianguard = 1
- INFO.BNAM "Choice ""阿弗尔·弗拉库斯和格拉蒂安·卡雷利乌斯。"" 4 ""没事。"" 2"
+ INFO.BNAM "Choice ""阿弗尔·弗拉库斯和格拉蒂安·卡雷利乌斯。"" 4 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "2540586243005516859$00"
  INFO.PNAM "253531652321121349$00"
@@ -65432,7 +65432,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short garnasguard = 1
- INFO.BNAM "Choice ""格拉蒂安·卡雷利乌斯和加纳斯·尤瓦伦。"" 6 ""没事。"" 2"
+ INFO.BNAM "Choice ""格拉蒂安·卡雷利乌斯和加纳斯·尤瓦伦。"" 6 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "21470296432282914796$00"
  INFO.PNAM "2540586243005516859$00"
@@ -65449,7 +65449,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short garnasguard = 1
- INFO.BNAM "Choice ""阿弗尔·弗拉库斯和加纳斯·尤瓦伦。"" 5 ""没事。"" 2"
+ INFO.BNAM "Choice ""阿弗尔·弗拉库斯和加纳斯·尤瓦伦。"" 5 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "91031465760705455$00"
  INFO.PNAM "21470296432282914796$00"
@@ -65463,7 +65463,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0aferguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short aferguard = 1
- INFO.BNAM "Choice ""阿弗尔·弗拉库斯。"" 7 ""没事。"" 2"
+ INFO.BNAM "Choice ""阿弗尔·弗拉库斯。"" 7 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "30731240222402623626$00"
  INFO.PNAM "91031465760705455$00"
@@ -65477,7 +65477,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short gratianguard = 1
- INFO.BNAM "Choice ""格拉蒂安·卡雷利乌斯。"" 8 ""没事。"" 2"
+ INFO.BNAM "Choice ""格拉蒂安·卡雷利乌斯。"" 8 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "315202179222287301$00"
  INFO.PNAM "30731240222402623626$00"
@@ -65491,7 +65491,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short garnasguard = 1
- INFO.BNAM "Choice ""加纳斯·尤瓦伦。"" 6 ""没事。"" 2"
+ INFO.BNAM "Choice ""加纳斯·尤瓦伦。"" 6 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "1782332460770719406$00"
  INFO.PNAM "315202179222287301$00"
@@ -65593,7 +65593,7 @@ Goodbye"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal CO_1 = 20
- INFO.BNAM "Choice: ""你先待在这。"" 3 ""跟我来。"" 4"
+ INFO.BNAM "Choice: ""在这里等着。"" 3 ""跟着我。"" 4"
 -INFO
  INFO.INAM "2532031899315718403$00"
  INFO.PNAM "157512543115238648$00"
@@ -65779,7 +65779,7 @@ Goodbye"
  INFO.SCVR "04JX0CO_3b"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_3b = 10
- INFO.BNAM "Choice ""别管了，跟我来。"" 3 ""你先待在这。"" 4"
+ INFO.BNAM "Choice ""别管了，跟着我。"" 3 ""在这里等着。"" 4"
 -INFO
  INFO.INAM "315296961007521657$00"
  INFO.PNAM "22559162171115612093$00"
@@ -65810,7 +65810,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Apronia Alfena$00"
  INFO.NAME "哦，你不能丢下我，没人会那么无情，我会冻死在这里的！我都不知道自己在想什么，一开始就搭上了补给船，谁会任命木精灵当船长？我早该知道的，然后那场可怕的撞击……现在他们都死了，补给也毁了，我只想取暖。哦，请带我一起走吧…"
- INFO.BNAM "Choice: ""跟我来。"" 1 ""对不起，我不能带你去任何地方。"" 2"
+ INFO.BNAM "Choice: ""跟着我。"" 1 ""对不起，我不能带你去任何地方。"" 2"
 -DIAL
  DIAL.NAME "解释$00"
  DIAL.DATA [00]
@@ -66223,7 +66223,7 @@ Goodbye"
  INFO.NNAM "3211614329290709018$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "svenja snow-song$00"
- INFO.NAME "%PCName万岁，瑟斯克的首领！我能为您做些什么，大人？也许您想处理一些蜜酒大厅的事务？或者您想上楼去您的房间休息？ {老鼠}"
+ INFO.NAME "%PCName万岁，瑟斯克的首领！我能为您做些什么，大人？也许您想处理一些蜜酒大厅的事务？或者您想上楼去您的房间休息？ {生意,老鼠}"
  INFO.SCVR "04JX3BM_MeadHall"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_MeadHall >= 100
@@ -66765,7 +66765,7 @@ player->additem ""gold_001"" 1500"
  INFO.NNAM "1658620670271717558$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ulfgar_ghost$00"
- INFO.NAME "%PCName！你做到了！你帮我英勇赴死，为我的灵魂指明了通往松加德的道路！我的朋友们——亨鲁尔、埃伦德尔和尼库拉斯——一直在等我。我告诉他们你愿意帮助我，并讲述了我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德等着呢！ {报酬}"
+ INFO.NAME "%PCName！你做到了！你帮我英勇赴死，为我的灵魂指明了通往松加德的道路！我的朋友们——亨罗尔、厄伦德和尼库拉斯——一直在等我。我告诉他们你愿意帮助我，并讲述了我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德等着呢！ {报酬}"
  INFO.SCVR "04JX3BM_BrodirGrove"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal BM_BrodirGrove >= 0
@@ -66975,7 +66975,7 @@ Journal BM_SadSeer 40"
  INFO.NNAM "16939212962968123637$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "geilir the mumbling$00"
- INFO.NAME "又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。"
+ INFO.NAME "又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。 {生意}"
  INFO.SCVR "04JX0BM_SadSeer"
  INFO.INTV [28 00 00 00]
  #0: Journal-Journal BM_SadSeer = 40
@@ -66988,7 +66988,7 @@ Journal BM_SadSeer 40"
  INFO.NNAM "2864854762993030049$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "geilir the mumbling$00"
- INFO.NAME "又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。"
+ INFO.NAME "又见面了，%PCClass。看来我们还有一些事情没做完。如果我没猜错的话，你想从我这里得到一些东西。 {生意}"
  INFO.SCVR "04JX3BM_SadSeer"
  INFO.INTV [28 00 00 00]
  #0: Journal-Journal BM_SadSeer >= 40
@@ -67480,7 +67480,7 @@ Goodbye"
  INFO.NNAM "9387872647229403$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "glenmoril_witch_altar_2$00"
- INFO.NAME "好的！好的！还有最后一步，%PCName。我现在必须念出最后的咒语……[格伦摩尔巫师又念了一串难以理解的咒语] 看啊，无辜的人又活过来了，这个女人已经得到了你狼人血统的一部分！杀了狼人，你的诅咒就会永远结束！嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻！"
+ INFO.NAME "好的！好的！还有最后一步，%PCName。我现在必须念出最后的咒语……[格伦莫莉女巫又念了一串难以理解的咒语] 看啊，无辜的人又活过来了，这个女人已经得到了你狼人血统的一部分！杀了狼人，你的诅咒就会永远结束！嘻嘻嘻嘻嘻嘻嘻嘻嘻嘻！"
  INFO.SCVR "04JX0BM_WolfGiver"
  INFO.INTV [69 00 00 00]
  #0: Journal-Journal BM_WolfGiver = 105
@@ -67504,7 +67504,7 @@ Goodbye"
  INFO.NNAM "19875228011675215932$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "glenmoril_witch_altar_2$00"
- INFO.NAME "就是这样！现在，我要把格兰摩尔酒倒在纯洁之心上。心脏必须湿透…湿透。对，就这样！现在，念出正确的咒语……[格伦摩尔巫女念出一长串嘶吼的咒语。心脏在她手中跳动，仿佛注入了新的生命。］ 好了！完成了！这颗心脏已经被施了魔法。现在，把它放回无辜者的尸体里。做完这些，再跟我说话。你就快摆脱诅咒了，几乎……"
+ INFO.NAME "就是这样！现在，我要把格伦莫莉酒倒在纯洁之心上。心脏必须湿透…湿透。对，就这样！现在，念出正确的咒语……[格伦莫莉女巫念出一长串嘶吼的咒语。心脏在她手中跳动，仿佛注入了新的生命。］ 好了！完成了！这颗心脏已经被施了魔法。现在，把它放回无辜者的尸体里。做完这些，再跟我说话。你就快摆脱诅咒了，几乎……"
  INFO.SCVR "05IX0ingred_innocent_heart"
  INFO.INTV [01 00 00 00]
  #0: Item-Item ingred_innocent_heart = 1
@@ -67728,7 +67728,7 @@ Goodbye"
  INFO.NNAM "1899850763150515008$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "glenmoril_witch_cave_3$00"
- INFO.NAME "你和艾提尼谈过了，很好，现在，和我姐妹法莱斯谈谈。等她给了你任务，再跟我说一次，我也会这么做的。 {差事}"
+ INFO.NAME "你和艾提尼谈过了，很好，现在，和我姐妹法莱斯谈谈。等她给了你差事，再跟我说一次，我也会这么做的。"
  INFO.SCVR "04JX0BM_WolfGiver"
  INFO.INTV [28 00 00 00]
  #0: Journal-Journal BM_WolfGiver = 40
@@ -67829,7 +67829,7 @@ Goodbye"
  INFO.NNAM "183889573301595775$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "glenmoril_witch_cave$00"
- INFO.NAME "你的治愈从这里开始，%PCName。赐狼者仪式是一个复杂的黑暗魔法仪式，需要牺牲肉体和纯真。我和我的姐妹们将开始准备，但有些物品必须收集齐全。我的姐妹伊索贝尔和法莱瑟会告诉你需要什么。等你帮她们办完事，再过来找我吧。 {魔力,差事}"
+ INFO.NAME "你的治愈从这里开始，%PCName。赐狼者仪式是一个复杂的黑暗魔法仪式，需要牺牲肉体和纯真。我和我的姐妹们将开始准备，但有些物品必须收集齐全。我的姐妹伊索贝尔和法莱瑟会告诉你需要什么。等你帮她们办完差事，再过来找我吧。 {魔力}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  #0: Function-Hello = 0
@@ -67853,7 +67853,7 @@ Goodbye"
  INFO.NNAM "20028215261505331399$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "glenmoril_witch_altar$00"
- INFO.NAME "傻瓜！我给了你一个纯洁的机会，一个摆脱诅咒的机会，这就是我的回报？！你会知道格兰莫瑞尔女巫的力量的！ {沙尔}"
+ INFO.NAME "傻瓜！我给了你一个纯洁的机会，一个摆脱诅咒的机会，这就是我的回报？！你会知道格伦莫莉女巫团的力量的！ {沙尔}"
  INFO.BNAM "SetFight 100
 Goodbye"
 -INFO
@@ -67875,7 +67875,7 @@ Goodbye"
  INFO.NNAM "1974620815662713373$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "glenmoril_raven$00"
- INFO.NAME "你好，%PCName。我的样子让你吃惊吗？作为格伦摩尔巫德的女巫，我有能力根据需要改变自己的形状。不过，你对变身也有所了解，不是吗？这就是契约旅店来到索瑟泰姆的原因。我们一直在关注事态的发展，我们很清楚狼人正在蔓延，对某些人来说这是好事，对另一些人则是诅咒，对于那些有此愿望的人，我们提供了一种解药，一种能永远阻止变身狼人的解药。你有兴趣吗？"
+ INFO.NAME "你好，%PCName。我的样子让你吃惊吗？作为格伦莫莉的女巫，我有能力根据需要改变自己的形状。不过，你对变身也有所了解，不是吗？这就是契约旅店来到索瑟泰姆的原因。我们一直在关注事态的发展，我们很清楚狼人正在蔓延，对某些人来说这是好事，对另一些人则是诅咒，对于那些有此愿望的人，我们提供了一种解药，一种能永远阻止变身狼人的解药。你有兴趣吗？"
  INFO.BNAM "Choice ""不，我想保留我的变狼天赋。"" 1 ""是的，我想永远摆脱变狼症。"" 2"
 -INFO
  INFO.INAM "1974620815662713373$00"
@@ -68012,7 +68012,7 @@ SetFight 100"
  INFO.NNAM "1543117011493730448$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "svenja snow-song$00"
- INFO.NAME "我知道霍斯蒙德给了你祝福，因为我能在空气中感受到它的存在。恐惧之兽之心已被放置在基座上，让所有人都能看到。你，%PCName，是瑟斯克的新首领！统治酒馆是一项伟大的工作，我知道你可能在其他地方有事。我愿意担任你的顾问和副手，在你不在的时候监督蜜酒大厅的事务。现在，我们还有什么酒馆的事要讨论吗？或者你想在您的房间休息一下？ {侍奉}"
+ INFO.NAME "我知道霍斯蒙德给了你祝福，因为我能在空气中感受到它的存在。恐惧之兽之心已被放置在基座上，让所有人都能看到。你，%PCName，是瑟斯克的新首领！统治酒馆是一项伟大的工作，我知道你可能在其他地方有事。我愿意担任你的顾问和副手，在你不在的时候监督蜜酒大厅的事务。现在，我们还有什么酒馆的事要讨论吗？或者你想在您的房间休息一下？ {生意,侍奉}"
  INFO.SCVR "04JX3BM_MeadHall"
  INFO.INTV [46 00 00 00]
  #0: Journal-Journal BM_MeadHall >= 70
@@ -68026,7 +68026,7 @@ SetFight 100"
  INFO.NNAM "3187114073240217891$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ulfgar_ghost$00"
- INFO.NAME "哈！抱歉，你不能偷袭我，%PCName！多亏了你，我已经变成鬼了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——洪罗尔、埃伦德尔和尼库拉斯——一直在等着我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德在等你！ {潜行,报酬}"
+ INFO.NAME "哈！抱歉，你不能偷袭我，%PCName！多亏了你，我已经变成鬼了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——亨罗尔、厄伦德和尼库拉斯——一直在等着我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友！松加德在等你！ {潜行,报酬}"
  INFO.SCVR "04JX3BM_BrodirGrove"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal BM_BrodirGrove >= 0
@@ -68107,7 +68107,7 @@ Goodbye"
  INFO.NNAM "2496026593016923603$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ulfgar_ghost$00"
- INFO.NAME "哈！就是这种精神，%PCName！但如你所见，我已经死了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——洪罗尔、埃伦德尔和尼库拉斯——一直在等我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友，松加德等着呢！ {报酬}"
+ INFO.NAME "哈！就是这种精神，%PCName！但如你所见，我已经死了！你帮我英勇地死去，为我的灵魂指明了通往松加德的道路！我的朋友们——亨罗尔、厄伦德和尼库拉斯——一直在等我。我告诉了他们我们光荣的战斗！我们四人希望给予你这样一位勇士应有的奖赏。所以，我们给你我们自己的一部分。把你的手放在一块石头上，你就会得到这位勇士最伟大的品质！再见了，我的朋友，松加德等着呢！ {报酬}"
  INFO.SCVR "04JX3BM_BrodirGrove"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal BM_BrodirGrove >= 0
@@ -68819,7 +68819,7 @@ Journal ""BM_Ingmar"" 100"
  INFO.NNAM "1649411669618922441$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ingmar$00"
- INFO.NAME "走开，%PCName。我请求过你的帮助，但你拒绝了。我们之间再无瓜葛了。 {事}"
+ INFO.NAME "走开，%PCName。我请求过你的帮助，但你拒绝了。我们之间再无瓜葛了。 {生意}"
  INFO.SCVR "04JX0BM_Ingmar"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal BM_Ingmar = 20
@@ -68886,7 +68886,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "1608418038579720726$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "ingmar$00"
- INFO.NAME "你好，%PCName。我不知道你在野外做什么，但我很高兴你不是我的斯卡尔兄弟。他们肯定会好奇我为什么不在瓦尔布兰德古冢里杀死瓦尔布兰德尸鬼。 {事}"
+ INFO.NAME "你好，%PCName。我不知道你在野外做什么，但我很高兴你不是我的斯卡尔兄弟。他们肯定会好奇我为什么不在瓦尔布兰德古冢里杀死瓦尔布兰德尸鬼。 {生意}"
  INFO.SCVR "04JX0BM_Ingmar"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal BM_Ingmar = 0
@@ -68925,7 +68925,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "27692126492450930080$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kjolver$00"
- INFO.NAME "幸会，%PCName。这么说，你是我们美丽小岛的访客？嗯……朋友，你的表情很特别。你对死亡和杀戮并不陌生。我有些暗之任务，你也许能帮我。 {事}"
+ INFO.NAME "幸会，%PCName。这么说，你是我们美丽小岛的访客？嗯……朋友，你的表情很特别。你对死亡和杀戮并不陌生。我有些黑暗生意，你也许能帮我。"
  INFO.SCVR "04JX0BM_WomanScorned"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal BM_WomanScorned = 0
@@ -68935,7 +68935,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "23776208161072420656$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kjolver$00"
- INFO.NAME "那么，你改变主意了吗？你愿意帮我的暗之任务吗？ {事}"
+ INFO.NAME "那么，你改变主意了吗？你愿意帮我的黑暗生意吗？"
  INFO.SCVR "04JX3BM_WomanScorned"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_WomanScorned >= 10
@@ -68948,7 +68948,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "241471140010399194$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kjolver$00"
- INFO.NAME "你给我带来了什么消息，%PCName？我们的暗之任务完成了吗？ {事}"
+ INFO.NAME "你给我带来了什么消息，%PCName？我们的黑暗生意完成了吗？"
  INFO.SCVR "04JX3BM_WomanScorned"
  INFO.INTV [1E 00 00 00]
  #0: Journal-Journal BM_WomanScorned >= 30
@@ -68961,7 +68961,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "597948250731614$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "kjolver$00"
- INFO.NAME "不要因为我们一起做过生意，就认为我们是朋友。现在走吧，我怀疑我的丈夫随时会回来。 {事}"
+ INFO.NAME "不要因为我们一起做过生意，就认为我们是朋友。现在走吧，我怀疑我的丈夫随时会回来。"
  INFO.SCVR "04JX3BM_WomanScorned"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_WomanScorned >= 100
@@ -69060,7 +69060,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "15634282612659120813$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "BM_riekling_Krish_UNIQU$00"
- INFO.NAME "我和你没什么好说的了。做完你的事就走吧。我还有事要做。 {工作}"
+ INFO.NAME "我和你没什么好说的了。做完你的事就走吧。我还有事要做。 {生意,工作}"
  INFO.SCVR "04JX3BM_FrostGiant1"
  INFO.INTV [5A 00 00 00]
  #0: Journal-Journal BM_FrostGiant1 >= 90
@@ -69145,7 +69145,7 @@ Journal ""BM_Ingmar"" 60"
  INFO.NNAM "26028132161158010114$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "BM_riekling_Krish_UNIQU$00"
- INFO.NAME "哇哦！一个%PCRace。丑八怪，不是吗，太高了。你在卡斯塔格城堡有什么事？快点，没时间谈了。"
+ INFO.NAME "哇哦！一个%PCRace。丑八怪，不是吗，太高了。你在卡斯塔格城堡有什么事？快点，没时间谈了。 {生意}"
  INFO.SCVR "04JX3BM_FrostGiant1"
  INFO.INTV [1E 00 00 00]
  #0: Journal-Journal BM_FrostGiant1 >= 30
@@ -69651,7 +69651,7 @@ Goodbye"
  INFO.NNAM "26666326902586726328$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "risi ice-mane$00"
- INFO.NAME "你是负责对我的丈夫调查案件的人。我能帮你点什么？ {你就是天选之人}"
+ INFO.NAME "你是负责调查案件的人，这起案件归咎于我的丈夫。我能帮你点什么？ {你就是天选之人}"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal BM_Trial >= 20
@@ -70249,7 +70249,7 @@ Goodbye"
  INFO.NNAM "510835113482771$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "什么事，外地人？你来这里的目的是什么？"
+ INFO.NAME "什么事，外地人？你来这里的目的是什么？ {生意}"
  INFO.SCVR "04JX3BM_CariusGone"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_CariusGone >= 100
@@ -70262,7 +70262,7 @@ Goodbye"
  INFO.NNAM "24638205231777111247$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tharsten heart-fang$00"
- INFO.NAME "对你没什么好说的，陌生人。斯卡尔人不希望你受到伤害，但快点说说你的事吧，你来这里的目的是什么。"
+ INFO.NAME "对你没什么好说的，陌生人。斯卡尔人不希望你受到伤害，但快点说说你的事吧，你来这里的目的是什么。 {生意}"
  INFO.SCVR "04JX3BM_CariusGone"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_CariusGone >= 100
@@ -70373,7 +70373,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.FNAM "Skaal$00"
  INFO.ANAM "Skaal Village$00"
- INFO.NAME "这个斯卡尔人和你没什么好说的，陌生人。如果你认为你在这里有事，就和心牙说吧。"
+ INFO.NAME "这个斯卡尔人和你没什么好说的，陌生人。如果你认为你在这里有事，就和心牙说吧。 {生意}"
  INFO.SCVR "07XX0tharsten heart-fang"
  INFO.INTV [01 00 00 00]
  #0: NotID-NotID tharsten heart-fang = 1
@@ -71139,7 +71139,7 @@ Goodbye"
  INFO.NNAM "15741292702017321430$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "falx carius$00"
- INFO.NAME "你帮我解决了要塞士气低落的问题，也许你能帮我解决其他要塞事务。"
+ INFO.NAME "你帮我解决了要塞士气低落的问题，也许你能帮我解决其它要塞事务。 {生意}"
  INFO.SCVR "04JX3BM_Morale"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_Morale >= 100
@@ -71219,7 +71219,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "zeno faustus$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "这里发生了可怕的事情。但是…我还有正事要办。你需要什么？"
+ INFO.NAME "这里发生了可怕的事情。但是…我还有正事要办。你需要什么？ {生意}"
  INFO.SCVR "04JX3BM_Smugglers"
  INFO.INTV [64 00 00 00]
  #0: Journal-Journal BM_Smugglers >= 100
@@ -71272,7 +71272,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}"
+ INFO.NAME "你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯谈谈。他在帝国教团圣祠里。 {生意,帝国人}"
  INFO.SCVR "04JX2BM_Rumors"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_Rumors > 10
@@ -71291,7 +71291,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯。他在帝国教团圣祠里。 {谈,帝国人}"
+ INFO.NAME "你有什么事？去见卡里乌斯队长，他在要塞的会议厅里，穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。如果你是为殖民地的事而来，那就去找卡尼乌斯·马基乌斯谈谈。他在帝国教团圣祠里。 {生意,帝国人}"
  INFO.SCVR "04JX4BM_Morale"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_Morale < 10
@@ -71307,7 +71307,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你有什么事？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}"
+ INFO.NAME "你有什么事？去见卡里乌斯队长，如果你想找点事做，就去找卡里乌斯队长谈谈。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的会议厅。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {生意,帝国人}"
  INFO.SCVR "04JX4BM_Morale"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_Morale < 10
@@ -71322,7 +71322,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Guard$00"
  INFO.ANAM "Fort Frostmoth$00"
- INFO.NAME "你有什么事？如果你想找点事做，就去找卡里乌斯队长。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {谈,帝国人}"
+ INFO.NAME "你有什么事？如果你想找点事做，就去找卡里乌斯队长谈谈。穿过指挥官住所，沿着南边的楼梯一直走。三楼是他的房间。你会在那里找到他。如果你是为殖民地的事而来，去找卡尼乌斯·马基乌斯吧。他在帝国教团圣祠。 {生意,帝国人}"
  INFO.SCVR "04JX4BM_Morale"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_Morale < 10
@@ -71958,7 +71958,7 @@ Goodbye"
  INFO.NNAM "75997882642025872$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Constans Atrius$00"
- INFO.NAME "你有公司的事要谈吗？请进去见卡尼乌斯，否则就从你进来的门出去。 {讨论}"
+ INFO.NAME "你有公司的生意要讨论吗？请进去见卡尼乌斯，否则就从你进来的门出去。"
  INFO.SCVR "04JX3CO_12a"
  INFO.INTV [28 00 00 00]
  #0: Journal-Journal CO_12a >= 40
@@ -71975,7 +71975,7 @@ Goodbye"
  INFO.NNAM "12137204171875128970$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Constans Atrius$00"
- INFO.NAME "你有公司的事要谈吗？请进去见卡尼乌斯，否则就从你进来的门出去。 {讨论}"
+ INFO.NAME "你有公司的生意要讨论吗？请进去见卡尼乌斯，否则就从你进来的门出去。"
  INFO.SCVR "04JX3CO_9"
  INFO.INTV [3C 00 00 00]
  #0: Journal-Journal CO_9 >= 60
@@ -72046,7 +72046,7 @@ Goodbye"
  INFO.NNAM "1240378292978419696$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "hidar$00"
- INFO.NAME "你不该来这里。陌生人，马上离开。 {事}"
+ INFO.NAME "你不该来这里。陌生人，马上离开。 {生意}"
  INFO.SCVR "04JX4CO_8"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal CO_8 < 20
@@ -72629,7 +72629,7 @@ Goodbye"
  INFO.NNAM "3057086681564132279$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Baro Egnatius$00"
- INFO.NAME "我是来找你的上司，不是来找你的。快走吧。 {事}"
+ INFO.NAME "我是来找你的上司，不是来找你的。快走吧。 {生意}"
  INFO.SCVR "02sX3ColonyService"
  INFO.INTV [05 00 00 00]
  #0: Global-short ColonyService >= 5
@@ -72907,7 +72907,7 @@ Goodbye"
  INFO.NNAM "31518116191877621451$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "现在不行，%PCRank。我在等法尔科的决定。这是殖民地的事，与你无关。"
+ INFO.NAME "现在不行，%PCRank。我在等法尔科的决定。这是殖民地的事，与你无关。 {生意}"
  INFO.SCVR "04JX3CO_4"
  INFO.INTV [1E 00 00 00]
  #0: Journal-Journal CO_4 >= 30
@@ -73207,7 +73207,7 @@ Journal CO_13 30"
  INFO.NNAM "535938881725822874$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Falco Galenus$00"
- INFO.NAME "抱歉，%PCRace，我是来办正事的，没时间跟你闲聊。任何公事请直接向霜蛾要塞的卡尼乌斯·马基乌斯询问。"
+ INFO.NAME "抱歉，%PCRace，我是来办正事的，没时间跟你闲聊。任何公事请直接向霜蛾要塞的卡尼乌斯·马基乌斯询问。 {生意}"
  INFO.SCVR "04JX3CO_1"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal CO_1 >= 0
@@ -73795,14 +73795,14 @@ ModFight 10"
  INFO.NNAM "3187015302332632$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gashnakh gra-mughol$00"
- INFO.NAME "这不是你的塔楼，也不关你的事。"
+ INFO.NAME "这不是你的塔楼，也不关你的事。 {生意}"
 -INFO
  INFO.INAM "3187015302332632$00"
  INFO.PNAM "18030301512885125116$00"
  INFO.NNAM "8324199972553515186$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "bugdul gro-kharbush$00"
- INFO.NAME "堡垒的事你来了吗？告诉加尔萨·金杜这里很好，工程很快就会完成。 {工作}"
+ INFO.NAME "你为堡垒的事而来？告诉加尔萨·金杜这里很好，工程很快就会完成。 {工作}"
  INFO.SCVR "34JX3HR_Stronghold"
  INFO.INTV [3C 00 00 00]
  #3: Journal-Journal HR_Stronghold >= 60
@@ -73824,7 +73824,7 @@ ModFight 10"
  INFO.NNAM "13058205592685019577$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "bugdul gro-kharbush$00"
- INFO.NAME "你来这里的目的是什么？这里没你的事，你走吧。"
+ INFO.NAME "你来这里的目的是什么？这里没你的事，你走吧。 {生意}"
  INFO.BNAM "ModDisposition -10"
 -INFO
  INFO.INAM "13058205592685019577$00"
@@ -73832,7 +73832,7 @@ ModFight 10"
  INFO.NNAM "1159117938293432234$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "durbul gro-rush$00"
- INFO.NAME "你是来问堡垒的事的吗？告诉唐多斯工程如期进行，他最好把答应给我的奖金给我。 {工作}"
+ INFO.NAME "你是来问堡垒的事吗？告诉唐多斯工程如期进行，他最好把答应给我的奖金给我。 {工作}"
  INFO.SCVR "34JX3HH_Stronghold"
  INFO.INTV [3C 00 00 00]
  #3: Journal-Journal HH_Stronghold >= 60
@@ -73922,7 +73922,7 @@ ModFight 10"
  INFO.PNAM "142495423193649005$00"
  INFO.NNAM "15651222572413527697$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
- INFO.NAME "你好，很高兴见到另一个%PCRace。"
+ INFO.NAME "嗯，你好，很高兴见到另一个%PCRace。"
  INFO.SCVR "03sX0dancingGirl"
  INFO.INTV [01 00 00 00]
  #0: Local-short dancingGirl = 1
@@ -74019,7 +74019,7 @@ Player->AddItem ""bk_leaflet_false"" 1"
  INFO.NNAM "207105452201366163$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "sanvyn llethri$00"
- INFO.NAME "你真可悲！你的力量在哪里？吸血鬼？你没有我想要的东西，现在离我远点。我听说的关于你们的事都是谎言。"
+ INFO.NAME "你真可悲！你的力量在哪里，吸血鬼？你没有我想要的东西，现在离我远点。我听说的关于你们的事都是谎言。"
  INFO.SCVR "04JX0VA_VampRich"
  INFO.INTV [41 00 00 00]
  #0: Journal-Journal VA_VampRich = 65
@@ -74087,7 +74087,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "garding$00"
  INFO.ANAM "Vivec, Arena Pit$00"
- INFO.NAME "我来了，%PCName，来找我。"
+ INFO.NAME "我就在这，%PCName，来找我嘛。"
  INFO.SCVR "34JX3HH_BeroSupport"
  INFO.INTV [32 00 00 00]
  #3: Journal-Journal HH_BeroSupport >= 50
@@ -74238,7 +74238,7 @@ Goodbye"
  INFO.NNAM "290445316827329292$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "llevena sendas$00"
- INFO.NAME "哦，别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {事}"
+ INFO.NAME "哦，别介意，不管你和吉拉斯·因达拉姆有什么恩怨，都与我无关。 {生意}"
  INFO.SCVR "34JX3HR_BillCollect"
  INFO.INTV [14 00 00 00]
  #3: Journal-Journal HR_BillCollect >= 20
@@ -74375,7 +74375,7 @@ goodbye"
  INFO.NNAM "2611214552655615104$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "listien bierles$00"
- INFO.NAME "劣魔真的走了吗？谢谢你，不管你是谁。这都是我的错。"
+ INFO.NAME "劣魔真的走了吗？谢谢你，不管你是谁，这都是我的错。"
  INFO.SCVR "06DX2scamp_mg_apprentice"
  INFO.INTV [00 00 00 00]
  #0: Dead-Dead scamp_mg_apprentice > 0
@@ -74601,7 +74601,7 @@ Journal B8_BackDoor3 1"
  INFO.NNAM "8310196942002629898$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "crassius curio$00"
- INFO.NAME "好吧，如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说大主教索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？"
+ INFO.NAME "好吧。如果你是尼瑞瓦因，为什么还没有完成预言？你肯定没有忘记。你没做什么傻事吧？别害羞，小甜甜，我听说大主教索勒·萨里奥尼非常生气，他希望你能到维威克城的至高神殿和他谈谈，也许这是个好主意，你觉得呢？"
  INFO.SCVR "04JX3A2_6_Incarnate"
  INFO.INTV [32 00 00 00]
  #0: Journal-Journal A2_6_Incarnate >= 50
@@ -74730,7 +74730,7 @@ Journal B8_BackDoor1 1"
  INFO.NNAM "298158591472427873$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "yagrum bagarn$00"
- INFO.NAME "我什么都没有。你走吧，让我静一静…但是…等等。你拿的是什么？是我想的那个吗？你手上那个独特的锻莫文物？"
+ INFO.NAME "我什么都没有。你走吧，让我静一静…但是…等等，你拿的是什么？是我想的那个吗？你手上那个独特的锻莫文物？"
  INFO.SCVR "05IX3misc_wraithguard_no_equip"
  INFO.INTV [01 00 00 00]
  #0: Item-Item misc_wraithguard_no_equip >= 1
@@ -75087,7 +75087,7 @@ journal ""MV_WanderingPilgrim"" 100"
  INFO.NNAM "174264622797529038$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tul$00"
- INFO.NAME "我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳堂的眼中钉，太久太久了。看来红卫人已经死了，这可以接受。我没别的事了。"
+ INFO.NAME "我们的旅程到此结束，%PCRace。谢谢你把我带到这个地方。它已经成为卡莫纳堂的眼中钉，太久太久了。看来红卫人已经死了，这可以接受。我没别的事了。 {生意}"
  INFO.SCVR "04JX0MV_FakeSlave"
  INFO.INTV [3C 00 00 00]
  #0: Journal-Journal MV_FakeSlave = 60
@@ -75293,7 +75293,7 @@ Goodbye"
  INFO.SCVR "13sX0inviso"
  INFO.INTV [01 00 00 00]
  #1: Local-short inviso = 1
- INFO.BNAM "Choice ""我想是的，跟我来。"" 1 ""不，还是算了。"" 2"
+ INFO.BNAM "Choice ""我想是的，跟着我。"" 1 ""不，还是算了。"" 2"
 -INFO
  INFO.INAM "14152281813230211543$00"
  INFO.PNAM "15449315061470273$00"
@@ -75692,7 +75692,7 @@ Goodbye"
  INFO.NNAM "3154888892292230351$00"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ONAM "divayth fyr$00"
- INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。"
+ INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。"
  INFO.SCVR "06DX0corprus_stalker_fyr03"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead corprus_stalker_fyr03 = 1
@@ -75708,7 +75708,7 @@ moddisposition -40"
  INFO.NNAM "998123107132520093$00"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ONAM "divayth fyr$00"
- INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。"
+ INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。"
  INFO.SCVR "06DX0corprus_stalker_fyr02"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead corprus_stalker_fyr02 = 1
@@ -75724,7 +75724,7 @@ moddisposition -40"
  INFO.NNAM "18416249602252731943$00"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ONAM "divayth fyr$00"
- INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。"
+ INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。"
  INFO.SCVR "06DX0corprus_stalker_fyr01"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead corprus_stalker_fyr01 = 1
@@ -75740,7 +75740,7 @@ moddisposition -40"
  INFO.NNAM "79251588295398837$00"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ONAM "divayth fyr$00"
- INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。"
+ INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。"
  INFO.SCVR "06DX0corprus_lame_fyr04"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead corprus_lame_fyr04 = 1
@@ -75756,7 +75756,7 @@ moddisposition -40"
  INFO.NNAM "145740852264813922$00"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ONAM "divayth fyr$00"
- INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。"
+ INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。"
  INFO.SCVR "06DX0corprus_lame_fyr03"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead corprus_lame_fyr03 = 1
@@ -75772,7 +75772,7 @@ moddisposition -40"
  INFO.NNAM "17597286202221928634$00"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ONAM "divayth fyr$00"
- INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。"
+ INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。"
  INFO.SCVR "06DX0corprus_lame_fyr02"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead corprus_lame_fyr02 = 1
@@ -75788,7 +75788,7 @@ moddisposition -40"
  INFO.NNAM "726128886176936754$00"
  INFO.DATA [02 00 00 00 46 00 00 00 FF FF FF 00]
  INFO.ONAM "divayth fyr$00"
- INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为。但我会原谅你。"
+ INFO.NAME "你杀了一个囚犯。我无法忘记你的所作所为，但我会原谅你。"
  INFO.SCVR "06DX0corprus_lame_fyr01"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead corprus_lame_fyr01 = 1
@@ -76815,7 +76815,7 @@ Journal ""A2_3_Corprus_Vistha"" 1"
  INFO.NNAM "2239657872789627356$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "vivec_god$00"
- INFO.NAME "我在等你，我们还有正事要办。"
+ INFO.NAME "我在等你，我们还有正事要办。 {生意}"
  INFO.SCVR "01630"
  INFO.INTV [00 00 00 00]
  #0: Function-Hello = 0
@@ -76849,7 +76849,7 @@ Goodbye"
  INFO.NNAM "2190322223223052000$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dagoth_ur_1$00"
- INFO.NAME "一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的事情？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。"
+ INFO.NAME "一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的生意？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。"
  INFO.SCVR "05IX3wraithguard"
  INFO.INTV [01 00 00 00]
  #0: Item-Item wraithguard >= 1
@@ -76886,7 +76886,7 @@ Goodbye"
  INFO.NNAM "1453257882975315967$00"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "dagoth_ur_1$00"
- INFO.NAME "一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的事情？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。"
+ INFO.NAME "一切从这里开始，一切也将在此结束。你有什么临别赠言吗？或者你想跳过寒暄，直接谈我们的生意？毕竟你是挑战者，出于礼节，战斗就由你先出手吧。"
  INFO.SCVR "05IX3wraithguard_jury_rig"
  INFO.INTV [01 00 00 00]
  #0: Item-Item wraithguard_jury_rig >= 1
@@ -77280,7 +77280,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Warlock$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]"
+ INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心。]"
  INFO.SCVR "04JX3B2_AhemmusaSafe"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal B2_AhemmusaSafe >= 20
@@ -77295,7 +77295,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "Witch$00"
  INFO.ANAM "Ald Daedroth$00"
- INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心]"
+ INFO.NAME "一切顺利，我们听到消息了。赫里雷尼·英达维尔说你和野蛮人都别管了，我们不会动他们，也不会动你们，只要你们放过我们。[小声说道：别担心。]"
  INFO.SCVR "04JX3B2_AhemmusaSafe"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal B2_AhemmusaSafe >= 20
@@ -77507,7 +77507,7 @@ modDisposition -10"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF 04 00]
  INFO.ONAM "duldrar saren$00"
  INFO.DNAM "Temple$00"
- INFO.NAME "我跟你说过了，滚出去，现在就走！"
+ INFO.NAME "我跟你说过了。滚出去，现在就走！"
  INFO.BNAM ";Ministry of Truth, Prison; Temple faction; low rank
 modDisposition -10"
 -INFO
@@ -82468,7 +82468,7 @@ Goodbye"
  INFO.NNAM "484311056140511865$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gaea artoria$00"
- INFO.NAME "听起来不错。我们去找他们吧。塞努斯还得去办卡里乌斯队长交待的事。我准备好行动了。 {差事}"
+ INFO.NAME "听起来不错。我们去找他们吧。塞努斯还得去办卡里乌斯队长交待的差事。我准备好行动了。"
  INFO.SCVR "01500"
  INFO.INTV [03 00 00 00]
  #0: Function-Alarmed = 3
@@ -84129,7 +84129,7 @@ Set ColonySide to 2"
  INFO.SCVR "04JX3CO_Choice"
  INFO.INTV [16 00 00 00]
  #0: Journal-Journal CO_Choice >= 22
- INFO.BNAM "Choice ""是的，我会帮你的。"" 1 ""我再想想吧。"" 2"
+ INFO.BNAM "Choice ""是的，我会帮你的。"" 1 ""不想。"" 2"
 -INFO
  INFO.INAM "14474317972410625803$00"
  INFO.PNAM "13804127071074624920$00"
@@ -85117,7 +85117,7 @@ Goodbye"
  INFO.NNAM "18638214611000221354$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}"
+ INFO.NAME "听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类,生意}"
  INFO.SCVR "02sX0ColonyService"
  INFO.INTV [03 00 00 00]
  #0: Global-short ColonyService = 3
@@ -85137,7 +85137,7 @@ Goodbye"
  INFO.NNAM "3140029245306726111$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类}"
+ INFO.NAME "听说我们要来个铁匠了。这倒是好事——我们的鹤嘴锄用得飞快，简直像不要钱似的。 {斧,斧类,生意}"
  INFO.SCVR "02sX0ColonyService"
  INFO.INTV [01 00 00 00]
  #0: Global-short ColonyService = 1
@@ -85864,7 +85864,7 @@ Set ColonyService to 2"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Baro Egnatius$00"
- INFO.NAME "他是我的一个朋友。长得不怎么样，当然也不是什么船长，但他是个很厉害的战士。他总是挥舞着那把蠢剑……但你有什么重要的事？让我们来谈谈我的那份额外报酬，好吗？ {沙尔}"
+ INFO.NAME "他是我的一个朋友。长得不怎么样，当然也不是什么船长，但他是个很厉害的战士。他总是挥舞着那把蠢剑……但你有什么重要的事？让我们来谈谈我的那份额外报酬，好吗？ {生意,沙尔}"
 -DIAL
  DIAL.NAME "必须行动$00"
  DIAL.DATA [00]
@@ -86101,7 +86101,7 @@ player->removeitem ""ingred_raw_stalhrim_01"" 1"
  INFO.SCVR "04JX0CO_8a"
  INFO.INTV [32 00 00 00]
  #0: Journal-Journal CO_8a = 50
- INFO.BNAM "Choice : ""有，这有一块。"" 1 ""没事。"" 2"
+ INFO.BNAM "Choice : ""有，这有一块。"" 1 ""别介意。"" 2"
 -INFO
  INFO.INAM "2677411163373231969$00"
  INFO.PNAM "3213517364154376468$00"
@@ -86964,7 +86964,7 @@ PCClearExpelled"
  INFO.SCVR "11390"
  INFO.INTV [01 00 00 00]
  #1: Function-PC_Gender = 1
- INFO.BNAM "Choice: ""支付。"" 5 ""没事。"" 6"
+ INFO.BNAM "Choice: ""支付。"" 5 ""还是算了。"" 6"
 -INFO
  INFO.INAM "32407209861251910596$00"
  INFO.PNAM "23383112601490023927$00"
@@ -87042,7 +87042,7 @@ PCClearExpelled"
  INFO.SCVR "11390"
  INFO.INTV [01 00 00 00]
  #1: Function-PC_Gender = 1
- INFO.BNAM "Choice: ""支付。"" 3 ""没事。"" 2"
+ INFO.BNAM "Choice: ""支付。"" 3 ""还是算了。"" 2"
 -INFO
  INFO.INAM "19195153901497219600$00"
  INFO.PNAM "2284528455120385301$00"
@@ -87111,7 +87111,7 @@ PCClearExpelled"
  INFO.SCVR "23sX0failedfirst"
  INFO.INTV [00 00 00 00]
  #2: Local-short failedfirst = 0
- INFO.BNAM "Choice: ""支付。"" 1 ""没事。"" 2"
+ INFO.BNAM "Choice: ""支付。"" 1 ""还是算了。"" 2"
 -INFO
  INFO.INAM "10547286992917717663$00"
  INFO.PNAM "23141247482603713765$00"
@@ -87126,7 +87126,7 @@ PCClearExpelled"
  INFO.SCVR "11390"
  INFO.INTV [01 00 00 00]
  #1: Function-PC_Gender = 1
- INFO.BNAM "Choice: ""支付。"" 1 ""没事。"" 2"
+ INFO.BNAM "Choice: ""支付。"" 1 ""还是算了。"" 2"
 -INFO
  INFO.INAM "1758518225220022583$00"
  INFO.PNAM "10547286992917717663$00"
@@ -88426,7 +88426,7 @@ Journal CO_9 50"
  INFO.NNAM "827111968229172885$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Constans Atrius$00"
- INFO.NAME "因子今天有很多事情要处理，我相信他……啊，他今天出去考察潜在的扩张地点了。我想是在岛的东海岸某处，在那个大岩石拱门的东边，你知道的，底部有坟墓的那个？"
+ INFO.NAME "因子今天有很多事情要处理，我相信他……啊，他今天出去考察潜在的扩张地点了。我想是在岛的东海岸某处，在那个大岩石拱门的东边，你知道的，底部有坟墓的那个？ {生意}"
  INFO.SCVR "04JX0CO_9"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_9 = 10
@@ -88816,7 +88816,7 @@ Goodbye"
  INFO.SCVR "13sX0torch"
  INFO.INTV [03 00 00 00]
  #1: Local-short torch = 3
- INFO.BNAM "Choice: ""就建在这。"" 7 ""我再想想。"" 8"
+ INFO.BNAM "Choice: ""确定。"" 7 ""不确定。"" 8"
 -INFO
  INFO.INAM "3003640543052531090$00"
  INFO.PNAM "1760295272254718286$00"
@@ -88830,7 +88830,7 @@ Goodbye"
  INFO.SCVR "13sX0torch"
  INFO.INTV [02 00 00 00]
  #1: Local-short torch = 2
- INFO.BNAM "Choice: ""就建在这。"" 5 ""我再想想。"" 6"
+ INFO.BNAM "Choice: ""确定。"" 5 ""不确定。"" 6"
 -INFO
  INFO.INAM "126178887700118452$00"
  INFO.PNAM "3003640543052531090$00"
@@ -88844,7 +88844,7 @@ Goodbye"
  INFO.SCVR "13sX0torch"
  INFO.INTV [01 00 00 00]
  #1: Local-short torch = 1
- INFO.BNAM "Choice: ""就建在这。"" 3 ""我再想想。"" 4"
+ INFO.BNAM "Choice: ""确定。"" 3 ""不确定。"" 4"
 -INFO
  INFO.INAM "1292215343616224410$00"
  INFO.PNAM "126178887700118452$00"
@@ -88878,7 +88878,7 @@ Goodbye"
  INFO.SCVR "04JX0CO_Estate"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal CO_Estate = 20
- INFO.BNAM "Choice: ""跟我来。"" 1 ""没事。"" 2"
+ INFO.BNAM "Choice: ""跟着我。"" 1 ""还是算了。"" 2"
 -INFO
  INFO.INAM "27814216492362129784$00"
  INFO.PNAM "2757826167703110895$00"
@@ -89958,7 +89958,7 @@ ModDisposition -10"
  INFO.RNAM "Nord$00"
  INFO.FNAM "Skaal$00"
  INFO.SNAM "vo\n\f\bHlo_NF013.mp3$00"
- INFO.NAME "你是负责调查我丈夫罪行的人。我能帮你点什么？"
+ INFO.NAME "你是负责调查案件的人，这起案件归咎于我的丈夫。我能帮你点什么？"
  INFO.SCVR "04JX3BM_Trial"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal BM_Trial >= 10
@@ -90633,7 +90633,7 @@ ModDisposition -10"
  INFO.RNAM "Imperial$00"
  INFO.ANAM "Fort Frostmoth$00"
  INFO.SNAM "vo\i\m\bHlo_IM013.mp3$00"
- INFO.NAME "卡里乌斯队长说你可能会来找我。我能为您效劳吗？"
+ INFO.NAME "卡里乌斯队长说你可能会来找我。我能怎样协助你？"
  INFO.SCVR "04JX2BM_Smugglers"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal BM_Smugglers > 0
@@ -91560,7 +91560,7 @@ ModDisposition -10"
  INFO.RNAM "Imperial$00"
  INFO.FNAM "Imperial Legion$00"
  INFO.SNAM "Vo\i\m\Hlo_IM116.mp3$00"
- INFO.NAME "继续往前走。"
+ INFO.NAME "继续走。"
  INFO.SCVR "02sX5Random100"
  INFO.INTV [0A 00 00 00]
  #0: Global-short Random100 <= 10
@@ -100633,7 +100633,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\f\Idl_KF003.mp3$00"
- INFO.NAME "瓦尔瓦尔。"
+ INFO.NAME "哇哇哇。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  #0: Global-short Random100 >= 40
@@ -100644,7 +100644,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\f\Idl_KF002.mp3$00"
- INFO.NAME "呼噜声。"
+ INFO.NAME "呼噜。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [1E 00 00 00]
  #0: Global-short Random100 >= 30
@@ -100729,7 +100729,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Khajiit$00"
  INFO.SNAM "vo\k\m\Idl_KM003.mp3$00"
- INFO.NAME "瓦尔瓦尔。"
+ INFO.NAME "哇哇哇。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [28 00 00 00]
  #0: Global-short Random100 >= 40
@@ -101392,7 +101392,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\f\Idl_DF004.mp3$00"
- INFO.NAME "抱怨。"
+ INFO.NAME "嘟囔。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [3C 00 00 00]
  #0: Global-short Random100 >= 60
@@ -101498,7 +101498,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.SNAM "vo\d\m\Idl_DM004.mp3$00"
- INFO.NAME "抱怨。"
+ INFO.NAME "嘟囔。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
  #0: Global-short Random100 >= 50
@@ -101606,7 +101606,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 01 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\f\Idl_BF004.mp3$00"
- INFO.NAME "脏，脏，脏，脏，脏，到处都脏死了。"
+ INFO.NAME "脏，脏，脏，脏，脏。到处都脏死了。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
  #0: Global-short Random100 >= 50
@@ -101707,7 +101707,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Breton$00"
  INFO.SNAM "vo\b\m\Idl_BM004.mp3$00"
- INFO.NAME "脏，脏，脏，脏，脏，到处都脏死了。"
+ INFO.NAME "脏，脏，脏，脏，脏。到处都脏死了。"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [32 00 00 00]
  #0: Global-short Random100 >= 50
@@ -102299,7 +102299,7 @@ Journal CO_10 60"
  INFO.DATA [01 00 00 00 00 00 00 00 FF 00 FF 00]
  INFO.RNAM "Imperial$00"
  INFO.SNAM "vo\i\m\Idl_IM003.mp3$00"
- INFO.NAME "我把它放哪儿了？"
+ INFO.NAME "现在，我把它放在哪里了？"
  INFO.SCVR "02sX3Random100"
  INFO.INTV [46 00 00 00]
  #0: Global-short Random100 >= 70
