@@ -1,4 +1,4 @@
--- luajit tes3check.lua [minLen=20] [maxLen=1000]
+-- luajit tes3check.lua [minLen=20] [maxLen=1000000]
 
 local write = io.write
 
@@ -49,7 +49,7 @@ local function loadExt(filename, callback)
 end
 
 local minLen = tonumber(arg[1]) or 20
-local maxLen = tonumber(arg[2]) or 1000
+local maxLen = tonumber(arg[2]) or 1000000
 local t = {}
 local n = 0
 for _, ext in ipairs(exts) do
