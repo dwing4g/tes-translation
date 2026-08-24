@@ -64,7 +64,7 @@ local fixed = {
 	["Miner Arobar"] = "迈纳·阿罗巴",
 	["Nalcarya of White Haven"] = "白港的娜尔卡娅",
 	["Necromancer's"] = "死灵法师的",
-	["Ordinator Guard"] = "调度使卫兵",
+	["Ordinator Guard"] = "神殿卫兵卫兵",
 	["Recently slain Knight"] = "最近被杀的骑士",
 	["Ship Captain"] = "船长",
 	["Smuggler Boss"] = "走私者头目",
@@ -75,7 +75,7 @@ local fixed = {
 	["Used Clutter Salesman"] = "二手杂物推销员",
 	["Viciously clawed dead smuggler"] = "被紧抓住的死亡走私者",
 	['Edd "Fast Eddie" Theman'] = "埃德·“飞毛腿埃迪”·赛曼",
-	["High Ordinator"] = "至高调度使",
+	["High Ordinator"] = "至高神殿卫兵",
 
 	["Black Dart"] = "黑镖",
 	["Corpse"] = "尸体",
