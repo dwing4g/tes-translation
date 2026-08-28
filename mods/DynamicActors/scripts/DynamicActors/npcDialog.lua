@@ -35,7 +35,7 @@ local idleAnim = { name=nil, opt={} }
 interop = {}
 
 local dialogTarget = nil
-local turningEnabled, resetPosRot, visibleShield, validAnim
+local turningEnabled, visibleShield, validAnim
 local animQueue = { timer = 10 }
 local override = {}
 
@@ -64,7 +64,7 @@ end
 local function addHandlers(m)
 	local skipFn = function() end
 	for _, v in ipairs
-		{ "onUpdate", "closeDialog", "DialogueResponse", "onQuestUpdate", "onInfoGetText" }
+		{ "onUpdate", "closeDialog", "DialogueResponse", "onQuestUpdate", "onInfoGetText", "onInit" }
 			do
 		m[v] = m[v] or skipFn
 	end
@@ -111,7 +111,7 @@ local idleGroups = config.idleGroups
 
 local function hasValidAnim()
 	local leg = Actor.getActiveGroup(self, 0)
-	leg = leg:match("[^_]+")
+	leg = leg:match("[^_]+") or ""
 	local valid = idleGroups[leg] or leg:find("^turn") or leg:find("^walk") or leg:find("^run")
 		or leg:find("^arms")
 --	if not valid then	print("NOT VALID ANIM", leg)		end
@@ -177,12 +177,12 @@ local function initNPCdiag(data)
 	end
 
 	local idleSet, path, logging
-	dialogTarget, resetPosRot, idleSet, path = table.unpack(data)
+	dialogTarget, idleSet, path = data.player, data.idleLevel, data.plugin
 	logLevel = data.logging and 1 or logLevel
 	turningEnabled = data.isMobile
 	interop = {self=self, player=dialogTarget, lookAt=dialogTarget}
 	local aipack = ai.getActivePackage()
-	if aipack then
+	if aipack and data.canTurn then
 		if (aipack.type == "Wander" and aipack.distance and aipack.distance > 0)
 			or (aipack.type == "Travel" and aipack.destPosition) then
 			turningEnabled = true
@@ -212,7 +212,7 @@ local function initNPCdiag(data)
 				infoList[k:lower()] = v
 			end
 		end
-		addHandlers(plugin)
+		addHandlers(plugin)		plugin.onInit(data.pluginData)
 		if plugin.getVariableStore then plugin.getVariableStore(var) end
 	end
 	if data.greeting then

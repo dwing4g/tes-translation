@@ -127,7 +127,7 @@ heights.byRecord = require("scripts.DynamicActors.userConfig.Dialog NPC Camera p
 dCam.heights = heights
 common.dCam = dCam		common.heights = heights
 
-local dialog = require("scripts.DynamicActors.playerDialog")
+local dialog = require("scripts.DynamicActors.dialogue.player")
 
 local doUpdates = false
 local logging = false

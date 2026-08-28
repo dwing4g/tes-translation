@@ -194,7 +194,7 @@ function M.autoCam(dt)
 		if z.extraYaw ~= z.offset then
 			local yaw = z.offset - z.extraYaw
 		--	v = dt * 3.5 * math.min((6 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 0.1)
-			v = dt * 3.5 * math.min((6 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 0.3 * z.offset)
+			v = dt * 3.5 * math.min((6 * yaw / math.pi) ^ 2 + 0.03, 0.3 * math.abs(z.offset))
 			z.extraYaw = z.extraYaw + util.clamp(yaw, -v, v)
 		end
 	end

@@ -7,6 +7,12 @@ local I = common.omw.interfaces
 local nearby = common.omw.nearby
 
 local v3 = util.vector3
+local L = {
+	isActor = types.Actor.objectIsInstance,
+	getStance = types.Actor.getStance,
+	activeEffects = types.Actor.activeEffects(oSelf),
+	controls = oSelf.controls
+}
 
 local MD = {
 	FirstPerson = camera.MODE.FirstPerson,
@@ -64,13 +70,7 @@ local camsave = common.camSave
 local dCam  = common.dCam
 local heights = common.heights
 
-
-local L = {
-	isActor = types.Actor.objectIsInstance,
-	getStance = types.Actor.getStance,
-	activeEffects = types.Actor.activeEffects(oSelf),
-	controls = oSelf.controls
-}
+local infoIndex = require("openmw.storage").globalSection("temp_dActors_infoIndex")
 
 
 local function getActorHeight(o)
@@ -237,23 +237,57 @@ end
 
 
 function dialog.DialogueResponse(e)
-	if dialog.Target and e.type == "topic" then
-		local info = { event="DialogueResponse", actor=dialog.Target,
-			infoId=e.infoId, recordId=e.recordId }
-		dialog.Target:sendEvent("DynamicActors", info)
-		core.sendGlobalEvent("DynamicActors", info)
+	if not(e.type == "topic" or e.type == "greeting") then
+		return
+	end
+
+	if e.recordId then
+		e.infoIndex = e.infoIndex or infoIndex:get(e.recordId .. "_" .. e.infoId) or 0
+	end
+	if e.infoIndex == 0 and e.type ~= "greeting" then
+		local infos, infoId = core.dialogue[e.type].records[e.recordId].infos, e.infoId
+		for i = 1, #infos do
+			if infos[i].id == infoId then
+				e.infoIndex = i
+				break
+			end
+		end
+	--	print(infos, e.infoIndex)
+	end
+	if dialog.Target == e.actor then
+		e.event = "DialogueResponse"
+		dialog.Target:sendEvent("DynamicActors", e)
+		core.sendGlobalEvent("DynamicActors", e)
+		e.event = nil
 	elseif e.type == "greeting" then
-		dialog.lastGreeting = { actor=e.actor, infoId=e.infoId, recordId=e.recordId }
+		dialog.lastGreeting = { actor = e.actor, type = e.type,
+			infoId = e.infoId, recordId = e.recordId, infoIndex = e.infoIndex }
 	end
 end
 
 if core.API_REVISION < 129 then
 	dialog.tes3InfoGetText = function(e)
-		if dialog.Target then
-			local info = { event="DialogueResponse", actor=dialog.Target, infoId = e.info.id }
-			dialog.Target:sendEvent("DynamicActors", info)
-			core.sendGlobalEvent("DynamicActors", info)
+		local infoId = e.info.id
+		if not dialog.Target or not infoId then
+			return
 		end
+		local info = { actor = dialog.Target, type = "topic", infoId = infoId }
+		for _, v in ipairs(infoIndex:get("greeting")) do
+			local i = infoIndex:get(v .. "_" .. infoId)
+			if i then
+				info.type = "greeting"		info.recordId = v	info.infoIndex = i
+				break
+			end
+		end
+		for _, v in ipairs(infoIndex:get("topic")) do
+			local i = infoIndex:get(v .. "_" .. infoId)
+			if i then
+				info.type = "topic"		info.recordId = v	info.infoIndex = i
+				break
+			end
+		end
+
+		dialog.DialogueResponse(info)
 	end
 end
 

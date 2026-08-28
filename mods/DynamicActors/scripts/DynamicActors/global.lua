@@ -60,24 +60,36 @@ I.Settings.registerGroup({
    },
 })
 
+local paths = {
+	dActors = "scripts/dynamicactors/",
+	plugins = "scripts/DynamicActors/dialogPlugins/",
+	npcDialog = "scripts/DynamicActors/npcDialog.lua",
+	npcDialogAI = "scripts/DynamicActors/npcDialogAI.lua",
+	blockList = "scripts.DynamicActors.userConfig.Dialog NPC Blocklist",
+	globalDialog = "scripts.DynamicActors.dialogue.global",
+	configNpc = "scripts.DynamicActors.dialogue.configNpc",
+	configAnim = "scripts.DynamicActors.configAnimations",
+	loadPlugins = "scripts.DynamicActors.dialogPlugins.",
+}
+
 local settings = storage.globalSection("Settings_dynamicactors")
 local temp = storage.globalSection("dActors_tempStore")
 temp:setLifeTime(storage.LIFE_TIME.Temporary)
-temp:set("npcDialog", require("scripts.DynamicActors.configNpcDialog"))
+temp:set("npcDialog", require(paths.configNpc))
 
 local player
-local dialogActor
+--	local dialogActor
 local openTime
 local pauseAfter = 7
 local activateTarget = nil
-local npcList = require("scripts.DynamicActors.userConfig.Dialog NPC Blocklist")
-npcList.byAnim, npcList.config = table.unpack(require("scripts.DynamicActors.configAnimations"))
-local dialog = require("scripts.DynamicActors.globalDialog")
+local npcList = require(paths.blockList)
+npcList.byAnim, npcList.config = table.unpack(require(paths.configAnim))
+local dialog = require(paths.globalDialog)
 local actorsincell = {}
 local nearbyActors
 local logging = false
 
-dialog.reloadOverrides()
+dialog.reloadConfig()
 
 -- legacy settings check
 do
@@ -107,7 +119,7 @@ end
 local events = {}
 events.removeScript = function(e)
 	if e.object and e.script then
-		local path = "scripts/dynamicactors/" .. e.script
+		local path = paths.dActors .. e.script
 		if e.object:hasScript(path) then
 			if e.debug ~= false then
 				debug(("%s removing %s"):format(e.object, e.script))
@@ -117,7 +129,7 @@ events.removeScript = function(e)
 	end
 end
 events.Pause = function()
-	if world.getPausedTags()["ui"] == nil and dialogActor then
+	if world.getPausedTags()["ui"] == nil and dialog.Target then
 		world.pause("ui")
 		if logging and player then
 			player:sendEvent("dynUiMessage", "msg_pause")
@@ -127,7 +139,7 @@ end
 events.DialogueResponse = dialog.resolveInfo
 
 local function debugger(npc)
-	if not npc:hasScript("scripts/DynamicActors/npcDialog.lua") then print("script gone") end
+	if not npc:hasScript(scripts.npcDialog) then print("script gone") end
 end
 
 local function resetActors(data)
@@ -164,21 +176,21 @@ function events.onDialogClosed()
 	nearbyActors = nil
 	for _, v in ipairs(actors) do
 		local actor = v.actor or v
-		if actor:hasScript("scripts/DynamicActors/npcDialogAI.lua") then
+		if actor:hasScript(paths.npcDialogAI) then
 	--		debug("REMOVE WANDER SCRIPT")
-			actor:removeScript("scripts/DynamicActors/npcDialogAI.lua")
+			actor:removeScript(paths.npcDialogAI)
 		end
-		if actor ~= dialogActor and actor:hasScript("scripts/DynamicActors/npcDialog.lua") then
+		if actor ~= dialog.Target and actor:hasScript(paths.npcDialog) then
 	--		debug("REMOVE DIALOG SCRIPT")
-			actor:removeScript("scripts/DynamicActors/npcDialog.lua")
+			actor:removeScript(paths.npcDialog)
 		end
 	end
-	if dialogActor then
-		dialogActor:sendEvent("closeNPCdiag")
+	if dialog.Target then
+		dialog.Target:sendEvent("closeNPCdiag")
 	--	actor:sendEvent("odarEnabled", true)
 	--	actor:sendEvent("odarEvent", {event="odarEnabled", eventData=true})
 	end
-	dialogActor = nil
+	dialog.Target = nil
 end
 
 
@@ -189,7 +201,7 @@ end)
 
 function events.onDialogOpened(data)
 	local o = data.arg
-	if dialogActor and dialogActor ~= o then
+	if dialog.Target and dialog.Target ~= o then
 		events.onDialogClosed()
 	end
 	if activateTarget ~= o and o.type == types.NPC then
@@ -206,6 +218,7 @@ function events.onDialogOpened(data)
 	if option == "opt_alwayspause" and world.isWorldPaused() then
 		return
 	end
+
 	if world.getPausedTags()["ui"] ~= nil and option ~= "opt_alwayspause" then
 		world.unpause("ui")
 		-- debug(("%s %s"):format(world.isWorldPaused(), settings:get("unpause_dialog")))
@@ -213,7 +226,7 @@ function events.onDialogOpened(data)
 	openTime = core.getSimulationTime()
 	if option == "opt_delaypause" then
 		async:newUnsavableSimulationTimer(pauseAfter, function()
-			if dialogActor and core.getSimulationTime() - openTime > pauseAfter - 0.5 then
+			if dialog.Target and core.getSimulationTime() - openTime > pauseAfter - 0.5 then
 				if not world.getPausedTags()["ui"] then
 					world.pause("ui")
 				end
@@ -224,11 +237,14 @@ function events.onDialogOpened(data)
 		return
 	end
 
+
 	--  Check for live poseable mannequins
 	if string.find(o.type.records[o.recordId].name:lower(), "mannequin") then
 		print("Is a mannequin. Disable animations.")
 		return
 	end
+
+	dialog.Opened(o)
 
 	-- Check for Creature inanimate object
 	if types.Creature.objectIsInstance(o) then
@@ -240,7 +256,7 @@ function events.onDialogOpened(data)
 		end
 	end
 
-	dialogActor, player = data.arg, data.player
+	dialog.Target, player = data.arg, data.player
 	local block, groups
 	local file = o.type.records[o.recordId].model or ""
 	groups = npcList.byAnim[file]
@@ -277,7 +293,7 @@ function events.onDialogOpened(data)
 		end
 	end
 
-	nearbyActors = { wander = settings:get("unpause_wanderai") }
+	nearbyActors = { n = 0, wander = settings:get("unpause_wanderai") }
 	for _, v in ipairs(world.activeActors) do
 		if v.type == types.NPC and v.type ~= types.Player
 			and (v.position - player.position):length() < 2000
@@ -289,44 +305,56 @@ function events.onDialogOpened(data)
 				spellStance = v.type.getStance(v) == v.type.STANCE.Spell
 			}
 			if nearbyActors.wander and v ~= o then
-				v:addScript("scripts/DynamicActors/npcDialogAI.lua", player)
+				v:addScript(paths.npcDialogAI, player)
 			end
 		end
 	end
 
-	local auto, reset = settings:get("autoturn"), false
+
+	local event = {
+		player=player, canTurn=settings:get("autoturn"), groups=groups,
+		shields=settings:get("visible_shields"), logging=logging, greeting=data.greeting,
+		reset=false
+	}
+	event.isMobile = event.canTurn
 	for _, v in ipairs(npcList.config) do
 	--	print(o.recordId, "^"..v.id)
 		if o.recordId:find("^"..v.id) then
-			if v.turn == false then auto = false		end
+			if v.turn == false then event.isMobile = false		end
 			if v.idle and idleLevel > 0 then idleLevel = v.idle		end
 			if v.reset == true then reset = true		end
 		end
 	end
 	if block then
-		idleLevel = 0		auto = false
+		idleLevel = 0		event.isMobile = false
 	end
+	event.idleLevel = idleLevel
 
-	local plugin
-	if vfs.fileExists("scripts/DynamicActors/dialogPlugins/"..o.recordId..".lua") then
-		plugin = "scripts.DynamicActors.dialogPlugins." .. o.recordId
-		debug(("Plugin found %s"):format(plugin))
+	event.plugin, event.pluginData = dialog.resolveCreature(o)
+	if vfs.fileExists(paths.plugins .. o.recordId .. ".lua") then
+		event.plugin = paths.loadPlugins .. o.recordId
+		debug(("Plugin found %s"):format(event.plugin))
 	end
-	o:addScript("scripts/DynamicActors/npcDialog.lua")
+	o:addScript(paths.npcDialog)
+
 --	o:sendEvent("odarEnabled", false)
 --	o:sendEvent("odarEvent", {event="odarEnabled", eventData=false})
+--[[
 	o:sendEvent("initNPCdiag", {
 		player, reset, idleLevel, plugin, isMobile=auto, groups=groups,
-		shields=settings:get("visible_shields"), logging=logging, greeting=data.greeting
+		shields=settings:get("visible_shields"), logging=logging, greeting=data.greeting,
+		pluginData=pluginData
 	})
+--]]
+	o:sendEvent("initNPCdiag", event)
 	if data.greeting then		events.DialogueResponse(data.greeting)		end
 end
 
 time.runRepeatedly(function()
-	if not dialogActor then		return		end
-	dialogActor:sendEvent("shiftPose")
+	if not dialog.Target then		return		end
+	dialog.Target:sendEvent("shiftPose")
 	async:newUnsavableSimulationTimer(6, function()
-		if dialogActor then dialogActor:sendEvent("shiftPose", "playBase")	end
+		if dialog.Target then dialog.Target:sendEvent("shiftPose", "playBase")	end
 	end)
 end, 35 * time.second)
 
@@ -355,10 +383,10 @@ return {
 	eventHandlers = {
 		dynDialogOpened = events.onDialogOpened,
 		dynDialogClosed = events.onDialogClosed,
-		onCellChangeOlh = resetActors,
+	--	onCellChangeOlh = resetActors,
 		dynRemoveScript = events.removeScript,
 		dynDialogChange = function(pause)
-			if not dialogActor then		return		end
+			if not dialog.Target then		return		end
 			if pause then
 				if not world.getPausedTags()["ui"] then
 					world.pause("ui")
@@ -370,15 +398,15 @@ return {
 		dynForcePause = events.Pause,
 		dynTogglePause = function()
 			for k,v in pairs(world.getPausedTags()) do print(k,v) end
-			if world.getPausedTags()["ui"] == nil and dialogActor then
+			if world.getPausedTags()["ui"] == nil and dialog.Target then
 				print("pause")
 				world.pause("ui")
-			elseif dialogActor then
+			elseif dialog.Target then
 				print("unpause")
 				world.unpause("ui")
 			end
 		end,
-		actorMonitor = actorMonitor,
+	--	actorMonitor = actorMonitor,
 		DynamicActors = function(e)
 			if events[e.event or ""] then		events[e.event](e)		end
 		end
@@ -386,6 +414,9 @@ return {
 	interfaceName = "DynamicActors",
 	interface = {
 		version = 135,
-		reloadOverrides = dialog.reloadOverrides
+		reloadConfig = dialog.reloadConfig,
+		reloadOverrides = dialog.reloadConfig,
+
+	--	d = dialog
 	}
 }
