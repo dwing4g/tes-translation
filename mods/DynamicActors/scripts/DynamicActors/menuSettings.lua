@@ -29,6 +29,13 @@ input.registerTrigger {
 	l10n = "DynamicActors"
 }
 
+input.registerAction {
+	key = "dActors_togglepov",
+	type = input.ACTION_TYPE.Boolean,
+	l10n = "DynamicActors",
+	defaultValue = false
+}
+
 
 I.Settings.registerPage {
    key = "dynamicactors_camera",
@@ -131,6 +138,16 @@ I.Settings.registerGroup({
 	argument = {
 		key = "dActors_pause",
 		type = "trigger",
+		},
+	},
+        {key = "cameraControl",
+	default = "cameraDialogKey",
+	name = "settings_player_setting06b_name",
+	description = "settings_player_setting06b_desc",
+	renderer = "inputBinding",
+	argument = {
+		key = "dActors_togglepov",
+		type = "action",
 		},
 	},
         {key = "baseIdleAnim_main",

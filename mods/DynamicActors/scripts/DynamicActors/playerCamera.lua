@@ -7,47 +7,56 @@ local util = common.omw.util
 local camera = common.omw.camera
 local ui = common.omw.ui
 local I = common.omw.interfaces
+local async = require("openmw.async")
 
 local Anim = common.Anim
 local MD = common.MD
 
 local M = {}
 
-function M.processControls(dt, dialogTarget)
-	local p = common.poseOpt
+function M.processControls(dt, inDialog)
+	local p = Anim.poses
 
-	local yaw, pitch, dist, proc = camera.getYaw(), camera.getPitch(), camera.getThirdPersonDistance(), false
-	local movex, movey = input.getMouseMoveX(), input.getMouseMoveY()
+	local yaw, pitch, dist, moved = camera.getYaw(), camera.getPitch(), camera.getThirdPersonDistance()
+	local move_x = input.getMouseMoveX() + input.getAxisValue(input.CONTROLLER_AXIS.LookLeftRight) * 10
+	local move_y = input.getMouseMoveY() + input.getAxisValue(input.CONTROLLER_AXIS.LookUpDown) * 10
+--	local move_x = input.getNumberActionValue("LookLeftRight")
+--	local move_y = input.getNumberActionValue("LookUpDown")
 	local zoom = input.getNumberActionValue("Zoom3rdPerson")
 	camera.showCrosshair(true)
-	if dialogTarget then
-		if movex ~= 0 or movey ~= 0 then
-			proc = true
-			yaw = yaw + 0.5 * movex * dt
-			pitch = pitch + 0.5 * movey * dt
+	if inDialog then
+		if move_x ~= 0 or move_y ~= 0 then
+			moved = true
+			yaw = yaw + 0.5 * move_x * dt
+			pitch = pitch + 0.5 * move_y * dt
 		end
 		if zoom ~= 0 then
-			proc = true
+			moved = true
 			dist = dist - zoom
 		end
 	end
-	movex = input.getRangeActionValue("MoveForward") - input.getRangeActionValue("MoveBackward")
-	movey = input.getRangeActionValue("MoveRight") - input.getRangeActionValue("MoveLeft")
+
+	-- avoid triggering camera.lua autoswitch to 1st person
+	dist = math.max(36, dist)
+
+	move_x = input.getRangeActionValue("MoveForward") - input.getRangeActionValue("MoveBackward")
+	move_y = input.getRangeActionValue("MoveRight") - input.getRangeActionValue("MoveLeft")
 	if p.choose then p.count = p.count - dt end
-	if p.choose and math.abs(movey) > 0.7 and p.count < 1 then
+	if p.choose and math.abs(move_y) > 0.7 and p.count < 1 then
 		p.count = 1.25
-		local new = p.save + (movey > 0 and 1 or -1)
+		local new = p.save + (move_y > 0 and 1 or -1)
 		if new > #Anim.poses then new = 1		end
 		if new < 1 then new = #Anim.poses		end
 		p.save = new
 		ui.showMessage(Anim.poses[new].name.." ("..Anim.poses[new].id..")")
 	end
-	if (movex ~= 0 or movey ~= 0) and not p.choose then
-		proc = true
-		p.offset3rd = util.vector2(p.offset3rd.x + 100*movey*dt, p.offset3rd.y + 100*movex*dt)
+	if (move_x ~= 0 or move_y ~= 0) and not p.choose then
+		moved = true
+		Anim.poseOffset = Anim.poseOffset + util.vector2(100 * move_y * dt, 100 * move_x * dt)
 	end
-	if not proc then return end
-	camera.setFocalPreferredOffset(p.offset3rd)
+	if not moved then		return		end
+
+	camera.setFocalPreferredOffset(Anim.poseOffset)
 	camera.setPreferredThirdPersonDistance(dist)
 	camera.instantTransition()
 	camera.setYaw(yaw)
@@ -293,21 +302,57 @@ function M.autoCamUpdate(dt)
 	d.vecEyeToHead = d.deltaPos + focal - d.playerEyesVec
 end
 
+_controlsTimer = 0.25
+
+function M.dialogControls(dt, mode, d)
+	if mode == MD.FirstPerson then
+		if d.isActive then		M.autoCam(dt)		end
+		return
+	end
+
+	if d.controls then		MD.setMode(MD.Preview)		end
+	local toggle = input.getBooleanActionValue("dActors_togglepov")
+		or input.getBooleanActionValue("TogglePOV")
+	if not toggle then	_controlsTimer = 0.25		return		end
+	if _controlsTimer > 0 then
+		_controlsTimer = _controlsTimer - dt
+		return
+	end
+	
+	if not d.controls then
+		d.controls = true
+	--	ui.showMessage("CAMERA CONTROLS")
+	end
+	M.processControls(dt, true)
+end
+
 function M.restoreCamera()
-	local cam = common.camSave
---	if camera.getMode() == cam.mode then		return		end
+	local saved, mode = common.camSave, camera.getMode()
+	local controls = common.dialogCam.controls
+
+	if mode == MD.Preview and saved.mode == mode
+		and types.Actor.getStance(self) == types.Actor.STANCE.Nothing then
+			return
+	end
+	if saved.mode == MD.Preview and not Anim.posing then
+		saved.mode = MD.ThirdPerson
+	end
+
 
 --	print("Reset previous camera mode and view")
 	-- directly switching 1stPerson-->Preview using setMode will glitch
-	if cam.mode == MD.Preview then
-		cam.mode = MD.ThirdPerson
-	elseif cam.mode == MD.ThirdPerson and camera.getMode() == MD.Preview then
-		camera.setPreferredThirdPersonDistance(cam.dist3rd)
-		camera.setYaw(cam.yaw)
-		camera.setPitch(cam.pitch)
---		camera.instantTransition()
+	if mode == MD.FirstPerson and saved.mode == MD.Preview then
+		saved.mode = MD.ThirdPerson
 	end
-	camera.setMode(cam.mode)
+
+	if controls and mode ~= MD.FirstPerson and saved.mode ~= MD.FirstPerson then
+	--	ui.showMessage("CAMERA RESET")
+		camera.setYaw(saved.yaw)
+		camera.setPitch(saved.pitch)
+	--	camera.instantTransition()
+		camera.setPreferredThirdPersonDistance(saved.dist3rd)
+	end
+	camera.setMode(saved.mode)
 end
 
 function M.zoomOut1st(dt)

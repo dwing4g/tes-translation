@@ -100,6 +100,7 @@ local function genericResponse(e)
 end
 
 function M.reloadConfig()
+	print("Reloading Dynamic Actors config files.")
 	loader.reloadConfig{ overrides, creatures, voices }
 end
 function M.actorData()

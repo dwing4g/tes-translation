@@ -15,14 +15,16 @@ anim_akimbo: "双手叉腰"
 anim_handsback: "双手背在身后"
 
 settings_camera_modName: "动态角色 - 相机"
-settings_camera_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.35
+settings_camera_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.36
 \n\n玩家在对话期间相机位置的自定义选项。"
 
 settings_modName: "动态角色 - 玩法"
 
-settings_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.35
-\n\n在与NPC对话时为他们动态添加额外的空闲动画，并在玩家长时间静止时也添加空闲动画。
-\n\n可自定义玩家自动脱下头盔、静止空闲动画，以及通过快捷键触发自定义动画姿势并控制相机的选项。"
+settings_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.36
+\n\n在与NPC对话时为他们动态添加额外的空闲动画，
+ 并在玩家长时间静止时也添加空闲动画。
+\n\n可自定义玩家自动脱下头盔、静止空闲动画，
+ 以及通过快捷键触发自定义动画姿势并控制相机的选项。"
 
 settings_camera_name: "相机设置"
 settings_camera_01_name: "对话期间禁用HUD"
@@ -30,7 +32,8 @@ settings_camera_02_name: "对话期间自动切换至第一人称视角"
 settings_camera_03_name: "对话期间为第一人称视角自动拉进"
 settings_camera_04_name: "自动拉进距离。数值越低，越靠近目标"
 settings_camera_05_name: "自动拉进时的背景模糊强度"
-settings_camera_05_desc: "(0 = 禁用) 数值越高，背景模糊效果越强。需要安装动态相机效果插件。"
+settings_camera_05_desc: "(0 = 禁用) 数值越高，背景模糊效果越强。
+ 需要安装动态相机效果插件。"
 settings_camera_06_name: "自动拉进时的宽屏效果比例"
 settings_camera_06_desc: "(0 = 禁用) 数值越高，宽屏效果越宽。"
 settings_camera_07_name: "自动拉进的速度。(10-200)"
@@ -43,6 +46,9 @@ settings_player_setting06_desc: "使用“姿势”快捷键在玩家身上播�
  在对话期间的第三人称模式下使用“姿势”键，以启用/禁用相机控制。"
 settings_player_setting06a_name: "在对话期间强制暂停游戏的快捷键"
 settings_player_setting06a_desc: "如果未设置，请点击并为此操作选择一个按键/按钮。"
+settings_player_setting06b_name: "切换摄像机视角控制"
+settings_player_setting06b_desc: "请将其设置为与你在OpenMW中用于切换摄像机视角的
+ 相同按键或控制器按钮。"
 settings_player_setting07_name: "玩家基础空闲动画(主要)"
 settings_player_setting07_desc: "玩家静止站立时播放的动画"
 settings_player_setting08_name: "玩家基础空闲动画(上身)"

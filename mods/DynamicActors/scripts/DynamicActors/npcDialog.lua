@@ -111,7 +111,7 @@ local idleGroups = config.idleGroups
 
 local function hasValidAnim()
 	local leg = Actor.getActiveGroup(self, 0)
-	leg = leg:match("[^_]+") or ""
+	leg = leg:match("[^_]+") or leg
 	local valid = idleGroups[leg] or leg:find("^turn") or leg:find("^walk") or leg:find("^run")
 		or leg:find("^arms")
 --	if not valid then	print("NOT VALID ANIM", leg)		end

@@ -15,12 +15,12 @@ anim_akimbo: "Hands on hips"
 anim_handsback: "Hands behind back"
 
 settings_camera_modName: "Dynamic Actors - Camera"
-settings_camera_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.35
+settings_camera_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.36
 \n\nCustomize options for Player camera positioning during dialogue."
 
 settings_modName: "Dynamic Actors - Gameplay"
 
-settings_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.35
+settings_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.36
 \n\nDynamically adds extra idle animations to NPC\'s when in Dialogue with them,
  and to the Player when stationery for an extended time.
 \n\nCustomize options for Player auto helmet removal, stationery idle animations,
@@ -46,6 +46,9 @@ settings_player_setting06_desc: "Use \'Pose\' hotkey to play a Custom animation 
  Use \'Pose\' key in 3rd Person mode during Dialogue, to enable/disable control of camera."
 settings_player_setting06a_name: "Hotkey to force pause the game during Dialogue"
 settings_player_setting06a_desc: "If not set, click and select a key/button for this action."
+settings_player_setting06b_name: "Toggle Camera POV control"
+settings_player_setting06b_desc: "Set this to the same key or controller button that you already
+ use for toggling camera POV in OpenMW."
 settings_player_setting07_name: "Player base idle animation (main)"
 settings_player_setting07_desc: "Animation played on player when standing still"
 settings_player_setting08_name: "Player base idle animation (upper body)"

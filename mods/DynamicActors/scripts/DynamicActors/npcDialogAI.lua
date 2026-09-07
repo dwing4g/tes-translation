@@ -25,7 +25,7 @@ if removeCheck() then		return		end
 
 local types = require("openmw.types")
 local util = require("openmw.util")
-local target, freezeControls
+local freezeControls, target = 0
 
 -- Bards of Bardenfell bugfix
 local isSayActive = types.Actor.stats.ai.hello(self).modified ~= 0 and core.sound.isSayActive
@@ -39,19 +39,20 @@ local function onUpdate(dt)
 	end
 	if noWander then	return			end
 
+	if freezeControls > 1 then
+	        self.controls.movement = 0
+	        self.controls.sideMovement = 0
+	        self.controls.yawChange = 0
+		return
+	end
+
         local delta = target.position - self.position
 	if delta:length() < 300 then
 		local dVec = delta.xy:rotate(self.rotation:getYaw())
 		local dYaw = math.atan2(dVec.x, dVec.y)
 		if math.abs(dYaw) < math.rad(80) then
-			if freezeControls then
-			        self.controls.movement = 0
-			        self.controls.sideMovement = 0
-			        self.controls.yawChange = 0
-			else
-				self.controls.yawChange = math.pi
-				freezeControls = true
-			end
+			self.controls.yawChange = math.pi
+			freezeControls = freezeControls + 1
 		end
 	end
 end

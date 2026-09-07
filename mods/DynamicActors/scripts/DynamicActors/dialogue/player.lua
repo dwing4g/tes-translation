@@ -67,7 +67,7 @@ dialog.Cam = common.dialogCam
 local zoom1st = common.zoom1st
 dialog.zoom1st = zoom1st
 local camsave = common.camSave
-local dCam  = common.dCam
+local Dcam  = common.Dcam
 local heights = common.heights
 
 local infoIndex = require("openmw.storage").globalSection("temp_dActors_infoIndex")
@@ -124,7 +124,7 @@ function dialog.hasOpened(data)
 	d.vecFocalDefault = v3(0, 0, getActorHeight(npc) * npc.scale * 0.85)
 
 	d.barsRatio = settings.camera:get("dialog_1st_ratio") or 0
-	dCam.enableShaders(true)
+	Dcam.enableShaders(true)
 	d.aperture = d.shaders and settings.camera:get("dialog_1st_dof_str") / 100 or 0
 --	d.ratio = d.shaders and settings.camera:get("dialog_1st_ratio") or 0
 
@@ -188,7 +188,7 @@ function dialog.hasOpened(data)
 	focusVec = focusVec or d.vecFocalDefault
 
 	d.deltaPos = npc.position - oSelf.position
-	dCam.autoCamUpdate(0)
+	Dcam.autoCamUpdate(0)
 	d.radius = d.radius * npc.scale
 	if logging then print(focusVec, d.radius)		end
 
@@ -209,7 +209,10 @@ function dialog.hasOpened(data)
 	end
 	if not posing then
 		camsave.mode, camsave.offset3rd = camera.getMode(), camera.getFocalPreferredOffset()
-		if d.firstAuto and settings.global:get("unpause_dialog_opt") ~= "opt_alwayspause" then
+		common.Anim.poseOffset = camsave.offset3rd
+		if d.firstAuto and settings.global:get("unpause_dialog_opt") ~= "opt_alwayspause"
+			and not data.povPressed
+				then
 			if camera.getMode() ~= MD.FirstPerson then
 				camera.setMode(MD.FirstPerson)
 				d.instant = true		zoom1st.delay = 0.2
@@ -218,21 +221,21 @@ function dialog.hasOpened(data)
 	end
 end
 
-function dialog.hasClosed(data)
+function dialog.hasClosed()
 	dialog.Target = nil
 	I.UI.setHudVisibility(true)
 	dialog.Cam.isActive = false		zoom1st.zoomIn = false
---	if zoom1st.extraYaw ~= 0 and camera.getMode() == MD.FirstPerson then
---		camera.setExtraYaw(camsave.extrayaw)
-	if zoom1st.vector or zoom1st.extraYaw ~= 0
-		or dialog.Cam.aperture > 0 or dialog.Cam.barsRatio > 0
-			then
-		zoom1st.zoomOut = true
+	if MD.getMode() == MD.FirstPerson then
+		if zoom1st.vector or zoom1st.extraYaw ~= 0
+			or dialog.Cam.aperture > 0 or dialog.Cam.barsRatio > 0 then
+			zoom1st.zoomOut = true
+		end
+		return
 	end
-	if not posing then
-		camera.setFocalPreferredOffset(camsave.offset3rd)
-		if not zoom1st.zoomOut then	dCam.restoreCamera()		end
-	end
+	if posing then		return			end
+
+	camera.setFocalPreferredOffset(camsave.offset3rd)
+	Dcam.restoreCamera()
 end
 
 

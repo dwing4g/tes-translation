@@ -78,7 +78,7 @@ temp:setLifeTime(storage.LIFE_TIME.Temporary)
 temp:set("npcDialog", require(paths.configNpc))
 
 local player
---	local dialogActor
+local dialogActive
 local openTime
 local pauseAfter = 7
 local activateTarget = nil
@@ -130,6 +130,7 @@ events.removeScript = function(e)
 end
 events.Pause = function()
 	if world.getPausedTags()["ui"] == nil and dialog.Target then
+		dialog.unpause = nil
 		world.pause("ui")
 		if logging and player then
 			player:sendEvent("dynUiMessage", "msg_pause")
@@ -137,6 +138,7 @@ events.Pause = function()
 	end
 end
 events.DialogueResponse = dialog.resolveInfo
+events.reloadConfig = dialog.reloadConfig
 
 local function debugger(npc)
 	if not npc:hasScript(scripts.npcDialog) then print("script gone") end
@@ -173,7 +175,7 @@ end
 
 function events.onDialogClosed()
 	local actors = nearbyActors or world.activeActors
-	nearbyActors = nil
+	dialogActive, nearbyActors = false
 	for _, v in ipairs(actors) do
 		local actor = v.actor or v
 		if actor:hasScript(paths.npcDialogAI) then
@@ -201,6 +203,7 @@ end)
 
 function events.onDialogOpened(data)
 	local o = data.arg
+	dialog.pauseTimer = 0
 	if dialog.Target and dialog.Target ~= o then
 		events.onDialogClosed()
 	end
@@ -209,42 +212,40 @@ function events.onDialogOpened(data)
 			data.pause = true
 		end
 	end
-	if data.pause then
-		if not world.getPausedTags()["ui"] then		world.pause("ui")		end
+	activateTarget = nil		
+	dialog.Opened(o)
+
+	openTime = core.getSimulationTime()
+	local option = settings:get("unpause_dialog_opt")
+	local uiPaused = world.getPausedTags().ui
+	if data.pause or option == "opt_alwayspause" then
+		if not uiPaused then		world.pause("ui")		end
 		if logging and player then player:sendEvent("dynUiMessage", "msg_pause")	end
 		return
 	end
-	activateTarget = nil		local option = settings:get("unpause_dialog_opt")
-	if option == "opt_alwayspause" and world.isWorldPaused() then
-		return
-	end
 
-	if world.getPausedTags()["ui"] ~= nil and option ~= "opt_alwayspause" then
-		world.unpause("ui")
-		-- debug(("%s %s"):format(world.isWorldPaused(), settings:get("unpause_dialog")))
-	end
-	openTime = core.getSimulationTime()
+	dialogActive = true			dialog.pauseTimer = 3
+	if uiPaused then		world.unpause("ui")		end
+	-- debug(("%s %s"):format(world.isWorldPaused(), settings:get("unpause_dialog")))
 	if option == "opt_delaypause" then
 		async:newUnsavableSimulationTimer(pauseAfter, function()
 			if dialog.Target and core.getSimulationTime() - openTime > pauseAfter - 0.5 then
-				if not world.getPausedTags()["ui"] then
+				if not world.getPausedTags().ui then
 					world.pause("ui")
 				end
 			end
 		end)
 	end
+
 	if types.Actor.isDead(o) or not types.Actor.canMove(o) or not data.near then
 		return
 	end
 
-
 	--  Check for live poseable mannequins
 	if string.find(o.type.records[o.recordId].name:lower(), "mannequin") then
-		print("Is a mannequin. Disable animations.")
+		print("Is a mannequin. Animations disabled.")
 		return
 	end
-
-	dialog.Opened(o)
 
 	-- Check for Creature inanimate object
 	if types.Creature.objectIsInstance(o) then
@@ -365,8 +366,14 @@ core.sendGlobalEvent("dynDialogClosed")
 return {
 	engineHandlers = {
 		onUpdate = function(dt)
-			if not nearbyActors or dt <= 0 then	return		end
+			if not dialogActive or dt <= 0 then	return		end
 
+			if dialog.pauseTimer > 0 then
+				dialog.pauseTimer = dialog.pauseTimer - 1
+				if world.getPausedTags().ui then
+					world.unpause("ui")
+				end
+			end
 			if nearbyActors.paused then		return		end
 			local stance, spell = types.Actor.getStance, types.Actor.STANCE.Spell
 			for i = 1, nearbyActors.n do
@@ -388,9 +395,10 @@ return {
 		dynDialogChange = function(pause)
 			if not dialog.Target then		return		end
 			if pause then
-				if not world.getPausedTags()["ui"] then
-					world.pause("ui")
-				end
+				events.Pause()
+			--	if not world.getPausedTags()["ui"] then
+			--		world.pause("ui")
+			--	end
 			elseif settings:get("unpause_dialog_opt") == "opt_nopause" then
 				world.unpause("ui")
 			end
@@ -413,7 +421,7 @@ return {
 	},
 	interfaceName = "DynamicActors",
 	interface = {
-		version = 135,
+		version = 136,
 		reloadConfig = dialog.reloadConfig,
 		reloadOverrides = dialog.reloadConfig,
 

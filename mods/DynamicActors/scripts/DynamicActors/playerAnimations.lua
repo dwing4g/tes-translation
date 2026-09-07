@@ -3,6 +3,7 @@ local oSelf = common.omw.self
 local types = common.omw.types
 local async = common.omw.async
 local util = common.omw.util
+local ui = require("openmw.ui")
 
 local Actor, MD = common.Actor, common.MD
 
@@ -111,16 +112,21 @@ Anim.combo = { armsStrPose = { "handhippose", {mask=L.body} },
 	armsOneBackPose = { "handhippose", {mask=3}, "armsatback", {mask=L.arm_r, spd=1} },
 	armsBackClaspPose = { "handhippose", {mask=3}, "armsatback", {mask=L.arms, spd=1} },
 	armsFoldedOrAkimbo = { "armsakimbo", {}, "armsfolded", {mask=L.arms, spd=1} },
+	spellReady = { "readypose", {mask=L.body} },
+	spellIdle1h = { "idle1h", {mask=L.body} },
+	spellPose = { "handhippose", {mask=L.body} }
 }
 
 Anim.clear = {}		Anim.FN = {}
 Anim.clear.idle = { "handhippose", "readypose", "armsfolded", "armsakimbo", "armsatback", "posealma3",
 	"idle2", "idle4", "idle7", "idle8", "idle9" }
 Anim.clear.idleWpn = { "readypose", "armsweapon" }
-Anim.poses = require("scripts.DynamicActors.userConfig.PoseMode Playlist")
+Anim.playlists = require("scripts.DynamicActors.userConfig.PoseMode Playlist")
+Anim.poses = Anim.playlists.base
+Anim.poseIndex = 1
 
 Anim.idleGroups = { idle=true }
-for _, v in ipairs(Anim.poses) do		Anim.idleGroups[v.id] = true		end
+for _, v in ipairs(Anim.poses) do		Anim.idleGroups[v.group] = true		end
 for _, v in ipairs(Anim.clear.idle) do		Anim.idleGroups[v] = true		end
 for _, v in ipairs(Anim.clear.idleWpn) do	Anim.idleGroups[v] = true		end
 
@@ -386,12 +392,65 @@ function Anim.idleController(status)
 	updateCombatIdle()
 end
 
+function Anim.startPose(a)
+	if not Anim.posing then		return			end
+
+	Anim.lastPoseIndex = a
+	local g = Anim.poses[a].id
+	if g == "" or Anim.isPlaying(oSelf, g) then
+		return
+	end
+
+	local speed = Anim.poses[a].speed or 1
+	local options = {loops=200, priority=5, speed=speed}
+	if Anim.poses[a].force then options.forceLoop = true		end
+	Anim.handler("play", Anim.poses[a].id, options)
+end
+
+local function stopPose()
+	Anim.handler("cancel", Anim.poses[Anim.poseIndex].id)
+end
+
+function Anim.setPlaylist(s)
+	local l = Anim.playlists
+	local p = (s == 1 and l.weapon) or (s == 2 and l.spell) or l.base
+--	print(s, MD.Weapon, MD.Spell)
+	Anim.poses = p			p.choose = false
+	Anim.poseIndex = p.save or 1
+	ui.showMessage("Poses playlist selected: " .. (p.name or ""))
+	if p.initialized then
+		return
+	end
+
+	p.save, p.count, p.offset3rd = 1, 0, util.vector2(0, 0)
+	for i = #p, 1, -1 do
+		local v = p[i]		v = v.id or v.group
+	--	print(v)
+		if type(v) ~= "string" then
+			v = nil
+		elseif not(v == "" or Anim.combo[v]) then
+			v = anim.hasGroup(oSelf, v:lower()) and v:lower() or nil
+		end
+		if not v then
+			table.remove(p, i)
+		else
+			p[i].id = v
+		end
+	end
+	if #p == 0 then
+		p[1] = { name = "<No pose>", group = "" }
+	end
+	p.initialized = true
+end
+
 function Anim:updateStatus(status)
 	local notIdle = status.inCombat or status.running or status.action
 		or (self.walkStopsIdle and status.isMoving)
 		or (self.turnStopsIdle and status.isTurning)
 		or status.sneak
 	self.notIdle = notIdle
+	if status.inFirst then		return			end
+
 	if notIdle then
 		if self.playingIdle then
 			self:cancelAllIdles()
@@ -405,6 +464,11 @@ function Anim:updateStatus(status)
 
 --	print(stance, status.stance)
 	self:cancelAllIdles()
+	if self.posing then
+		stopPose()
+		self.setPlaylist(status.stance)
+		async:newUnsavableSimulationTimer(1, function() self.startPose(self.poseIndex) end)
+	end
 	if status.stanceIsNothing then
 		self.turnStopsIdle = false
 		self.walkStopsIdle = true
@@ -426,6 +490,5 @@ function Anim:updateStatus(status)
 		end
 	end
 end
-
 
 return Anim
