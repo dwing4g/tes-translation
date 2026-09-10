@@ -374,7 +374,9 @@ return {
 					world.unpause("ui")
 				end
 			end
-			if nearbyActors.paused then		return		end
+			if not nearbyActors or nearbyActors.paused then
+				return
+			end
 			local stance, spell = types.Actor.getStance, types.Actor.STANCE.Spell
 			for i = 1, nearbyActors.n do
 				local v = nearbyActors[i]
