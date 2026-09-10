@@ -91524,7 +91524,7 @@ ALMSIVI£¬»òÕßÖÁÉÙÊÇÑ¡Ôñ³ÉÎªÎ¬Íþ¿ËµÄÄÇÒ»Ãæ£¬ÔÚÓëÎ÷¾³Ö®ºÛµÄµÑ¹ÜÊ³ÈËÄ§Õ½¶·ºó£¬×øÔÚÁ
  NPC_.AI_W [F4 01 05 00 00 3C 14 0A 0A 00 00 00 00 01]
 -NPC_
  NPC_.NAME "Glallian Maraennius$00"
- NPC_.FNAM "¸ñÀ­Àû°²¡¤ÂíÂ×Å¦Ë¹$00"
+ NPC_.FNAM "¸ñÀ­Àû°²¡¤ÂíÂ×ÄáÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Priest$00"
  NPC_.ANAM "Imperial Legion$00"
@@ -95404,7 +95404,7 @@ ALMSIVI£¬»òÕßÖÁÉÙÊÇÑ¡Ôñ³ÉÎªÎ¬Íþ¿ËµÄÄÇÒ»Ãæ£¬ÔÚÓëÎ÷¾³Ö®ºÛµÄµÑ¹ÜÊ³ÈËÄ§Õ½¶·ºó£¬×øÔÚÁ
  NPC_.AI_W [40 00 05 00 00 3C 3C 28 0A 00 00 00 00 01]
 -NPC_
  NPC_.NAME "stlennius vibato$00"
- NPC_.FNAM "Ë¹ÌØÂ×Å¦Ë¹¡¤Î¬°ÍÍÐ$00"
+ NPC_.FNAM "Ë¹ÌØÂ×ÄáÎÚË¹¡¤Î¬°ÍÍÐ$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Miner$00"
  NPC_.ANAM [00]
@@ -112465,7 +112465,7 @@ CµÄÒâË¼ÊÇÒìÝ®(Comberry)¡£<BR>
 <BR>
 ÔÚ¼àÊÓ¿ó³¡Éî´¦µÄÅ«Á¥Ê±£¬Çë½÷É÷Ê¹ÓÃ»ðÑæ·¨Êõ¡£Í¨³£´æÔÚÒ×È¼ÆøÌå£¬ÕýÈçÉÏÖÜµÄÊÂ¼þËù±íÃ÷µÄÄÇÑù£¬¼´Ê¹ÊÇºÜÐ¡µÄ»ðÑæÒ²¿ÉÄÜÒý·¢¾Þ´óµÄ±¬Õ¨¡£ÎÒÃÇ²»ÖªµÀ¿­ÈûÄÈÊÇ·ñÄÜ³¤»ØÄÇ¿éÃ«Æ¤¡£<BR>
 <BR>
-Ë¹ÌØÂ×Å¦Ë¹<BR>
+Ë¹ÌØÂ×ÄáÎÚË¹<BR>
 <BR>"
 -NPC_
  NPC_.NAME "gilm$00"
@@ -113826,7 +113826,7 @@ CµÄÒâË¼ÊÇÒìÝ®(Comberry)¡£<BR>
  NPC_.AI_T [00 00 A0 46 00 9C 51 C7 00 40 2A 44 01 00 00 00]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "Frinnius Posuceius$00"
- NPC_.FNAM "¸¥ÀïÅ¦Ë¹¡¤²¨ËÕÈûÎÚË¹$00"
+ NPC_.FNAM "¸¥ÀïÄáÎÚË¹¡¤²¨ËÕÈûÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Herder$00"
  NPC_.ANAM "Hlaalu$00"
@@ -120985,7 +120985,7 @@ PS£ºÎªÁËÒÔ·ÀÍòÒ»£¬ÎÒÔÚÕâÀï¸øÄãÁôÏÂÁËÒ»Ð©¸¡¿ÕÒ©Ë®¡£ÎÒ²»¼ÇµÃÄãÊÇ·ñÖªµÀ¸¡¿ÕÄ§·¨£¬Ëù
  NPC_.AI_W [40 00 05 00 00 3C 14 0A 0A 00 00 0A 0A 01]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "silius fulcinius$00"
- NPC_.FNAM "Î÷ÀïÎÚË¹¡¤¸»¶ûÎ÷Å¦Ë¹$00"
+ NPC_.FNAM "Î÷ÀïÎÚË¹¡¤¸»¶ûÎ÷ÄáÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Agent$00"
  NPC_.ANAM "Telvanni$00"
@@ -141146,7 +141146,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  NPC_.AI_W [80 00 05 00 00 3C 14 0A 0A 00 00 0A 00 01]
 -NPC_
  NPC_.NAME "zalabelk saladnius$00"
- NPC_.FNAM "ÔúÀ­±´¿Ë¡¤ÈøÀ­µÂÅ¦Ë¹$00"
+ NPC_.FNAM "ÔúÀ­±´¿Ë¡¤ÈøÀ­µÂÄáÎÚË¹$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Archer$00"
  NPC_.ANAM [00]
@@ -147885,7 +147885,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 0A 00 00 00 00 01]
 -NPC_
  NPC_.NAME "Lunia Menanius$00"
- NPC_.FNAM "Â¶Äáæ«¡¤Ã·ÄÉÅ¦Ë¹$00"
+ NPC_.FNAM "Â¶Äáæ«¡¤Ã·ÄÉÄáÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Warrior$00"
  NPC_.ANAM [00]
@@ -150306,7 +150306,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 00 01 00 00 DB 7A 1A 00 00 01 00 00]
 -NPC_
  NPC_.NAME "natalinus flavonius$00"
- NPC_.FNAM "ÄÉËþÀûÅ¬Ë¹¡¤¸¥À­ÎÖÅ¦Ë¹$00"
+ NPC_.FNAM "ÄÉËþÀûÅ¬Ë¹¡¤¸¥À­ÎÖÄáÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Battlemage$00"
  NPC_.ANAM "Mages Guild$00"
@@ -151049,7 +151049,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  NPC_.AI_W [00 02 05 00 00 3C 14 0A 0A 00 00 0A 0A 01]
 -NPC_
  NPC_.NAME "vala herennius$00"
- NPC_.FNAM "ÍßÀ­¡¤ºÕÂ×Å¦Ë¹$00"
+ NPC_.FNAM "ÍßÀ­¡¤ºÕÂ×ÄáÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Knight$00"
  NPC_.ANAM [00]
@@ -151567,7 +151567,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 0A 00 00 00 00 01]
 -NPC_
  NPC_.NAME "pustula baenius$00"
- NPC_.FNAM "ÆÕË¹Í¼À­¡¤°Í¶òÅ¦Ë¹$00"
+ NPC_.FNAM "ÆÕË¹Í¼À­¡¤°Í¶òÄáÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Acrobat$00"
  NPC_.ANAM [00]
@@ -161068,7 +161068,7 @@ By my will I cleanse thee of the red sands.<P>
  MISC.ITEX "m\Tx_key_standard_01.tga$00"
 -NPC_
  NPC_.NAME "Snowy Granius$00"
- NPC_.FNAM "°×Ñ©¡¤¸ñÀ­Å¦Ë¹$00"
+ NPC_.FNAM "°×Ñ©¡¤¸ñÀ­ÄáÎÚË¹$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Battlemage$00"
  NPC_.ANAM [00]
@@ -183018,7 +183018,7 @@ D.ÎÄÎï - +35%<p>"
  INFO.PNAM "268831985079498467$00"
  INFO.NNAM "2209610426777310$00"
  INFO.DATA [04 00 00 00 23 00 00 00 FF FF FF 00]
- INFO.NAME "ÓÐÈË¸æËßÎÒ£¬Èç¹ûÎÒÉ±ÁË°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ºÍË¹ÌØÂ×Å¦Ë¹¡¤Î¬°ÍÍÐ£¬¿¨¶ûµÂÀ­¿ó³¡¾Í»á±»¹Ø±Õ¡£"
+ INFO.NAME "ÓÐÈË¸æËßÎÒ£¬Èç¹ûÎÒÉ±ÁË°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ºÍË¹ÌØÂ×ÄáÎÚË¹¡¤Î¬°ÍÍÐ£¬¿¨¶ûµÂÀ­¿ó³¡¾Í»á±»¹Ø±Õ¡£"
 -INFO
  INFO.INAM "2209610426777310$00"
  INFO.PNAM "135511219646935666$00"
@@ -208738,7 +208738,7 @@ Choice ""¼ÌÐø"" 1"
  INFO.NNAM "1202922409685028075$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Caldera$00"
- INFO.NAME "¿ó³¡ÀÏ°åË¹ÌØÂ×Å¦Ë¹¡¤Î¬°ÍÍÐ×¡ÔÚÎ÷ÄÏ·½µÄ¿ó³¡¡£Éê¿ËºìÎÀÈËÊÇµ±µØÃ³Ò×ÐÐÉê¿ËµÄÌúÇÂµÄÀÏ°å¡£°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬Ôø¾­ÊÇ¿¨¶ûµÂÀ­ÕòµÄÕò³¤£¬µ«ËûÒò×ßË½×ï±»ËÍÍùÖ÷´óÂ½ºòÉó¡£"
+ INFO.NAME "¿ó³¡ÀÏ°åË¹ÌØÂ×ÄáÎÚË¹¡¤Î¬°ÍÍÐ×¡ÔÚÎ÷ÄÏ·½µÄ¿ó³¡¡£Éê¿ËºìÎÀÈËÊÇµ±µØÃ³Ò×ÐÐÉê¿ËµÄÌúÇÂµÄÀÏ°å¡£°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬Ôø¾­ÊÇ¿¨¶ûµÂÀ­ÕòµÄÕò³¤£¬µ«ËûÒò×ßË½×ï±»ËÍÍùÖ÷´óÂ½ºòÉó¡£"
  INFO.SCVR "07XX0odral helvi"
  INFO.INTV [01 00 00 00]
  #0: NotID-NotID odral helvi = 1
@@ -208764,7 +208764,7 @@ Choice ""¼ÌÐø"" 1"
  INFO.NNAM "109715122496224616$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Caldera$00"
- INFO.NAME "×Ü¶½¸®µÄ°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ÊÇ¿¨¶ûµÂÀ­ÕòµÄÕò³¤¡£¿ó³¡ÀÏ°åË¹ÌØÂ×Å¦Ë¹¡¤Î¬°ÍÍÐ×¡ÔÚÎ÷ÄÏÃæµÄ¿ó³¡Àï¡£ºìÎÀÈËÉê¿ËÊÇµ±µØÃ³Ò×ÐÐÉê¿ËµÄÌúÇÂµÄµêÖ÷¡£"
+ INFO.NAME "×Ü¶½¸®µÄ°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ÊÇ¿¨¶ûµÂÀ­ÕòµÄÕò³¤¡£¿ó³¡ÀÏ°åË¹ÌØÂ×ÄáÎÚË¹¡¤Î¬°ÍÍÐ×¡ÔÚÎ÷ÄÏÃæµÄ¿ó³¡Àï¡£ºìÎÀÈËÉê¿ËÊÇµ±µØÃ³Ò×ÐÐÉê¿ËµÄÌúÇÂµÄµêÖ÷¡£"
  INFO.SCVR "07XX0odral helvi"
  INFO.INTV [01 00 00 00]
  #0: NotID-NotID odral helvi = 1
@@ -212701,7 +212701,7 @@ ModDisposition 20"
  INFO.NNAM "406619611149120229$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "garisa llethri$00"
- INFO.NAME "É±ËÀ°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ºÍË¹ÌØÂ×Å¦Ë¹¡¤Î¬°ÍÍÐ¿Ï¶¨ÄÜ¹Ø±ÕºÚÌ´¿ó³¡£¬µ«ÎÒÏ£ÍûÄãÄÜÑ¡ÔñÒ»Ìõ¸üÒþ±ÎµÄÂ·Ïß¡£ÓÐÕþÖÎÎÊÌâ¡­ÎÒÏàÐÅÄã²»ÐèÒªÌýÎÒËµ½Ì£¬ÎÒ»áÖ§³ÖÄã³ÉÎªÈð¶àÈ»¼Ò×åµÄÒéÔ±¡£"
+ INFO.NAME "É±ËÀ°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ºÍË¹ÌØÂ×ÄáÎÚË¹¡¤Î¬°ÍÍÐ¿Ï¶¨ÄÜ¹Ø±ÕºÚÌ´¿ó³¡£¬µ«ÎÒÏ£ÍûÄãÄÜÑ¡ÔñÒ»Ìõ¸üÒþ±ÎµÄÂ·Ïß¡£ÓÐÕþÖÎÎÊÌâ¡­ÎÒÏàÐÅÄã²»ÐèÒªÌýÎÒËµ½Ì£¬ÎÒ»áÖ§³ÖÄã³ÉÎªÈð¶àÈ»¼Ò×åµÄÒéÔ±¡£"
  INFO.SCVR "06DX3odral helvi"
  INFO.INTV [01 00 00 00]
  #0: Dead-Dead odral helvi >= 1
@@ -248291,7 +248291,7 @@ Player->AddItem Gold_001 1000"
  INFO.DATA [00 00 00 00 4B 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
  INFO.ANAM "Caldera$00"
- INFO.NAME "Ã»ÓÐ´ïÀöÄÈµÄ°ïÖú£¬ÎÒÃÇÃ»·¨ÈÃÅ«Á¥ÃÇÌý»°£¬¶ø°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ºÍË¹ÌØÂ×Å¦Ë¹¡¤Î¬°ÍÍÐ£¬²ÅÊÇÕæÕý¶®ÉúÒâ¾­µÄÈË¡£"
+ INFO.NAME "Ã»ÓÐ´ïÀöÄÈµÄ°ïÖú£¬ÎÒÃÇÃ»·¨ÈÃÅ«Á¥ÃÇÌý»°£¬¶ø°ÂµÂÀ­¶û¡¤ºÕ¶ûÎ¬ºÍË¹ÌØÂ×ÄáÎÚË¹¡¤Î¬°ÍÍÐ£¬²ÅÊÇÕæÕý¶®ÉúÒâ¾­µÄÈË¡£"
  INFO.SCVR "0CsX0NoLore"
  INFO.INTV [00 00 00 00]
  #0: NotLocal-short NoLore = 0
@@ -282160,7 +282160,7 @@ ShowMap ""Wolverine Hall"""
  INFO.NNAM "872010171619915056$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "arielle phiencel$00"
- INFO.NAME "ÊÇµÄ£¬ÕâÐ©¶¼ÊÇºÜºÃµÄÑùÆ·¡£ÎÒ»áÅÉÒ»¸öÓÅÐãµÄÕ½¶··¨Ê¦£¬ÄÉËþÀûÅ¬Ë¹¡¤¸¥À­ÎÖÅ¦Ë¹£¬È¥°¹ÔàµÄÄÂÀï¶ûÄÇÀï¡£"
+ INFO.NAME "ÊÇµÄ£¬ÕâÐ©¶¼ÊÇºÜºÃµÄÑùÆ·¡£ÎÒ»áÅÉÒ»¸öÓÅÐãµÄÕ½¶··¨Ê¦£¬ÄÉËþÀûÅ¬Ë¹¡¤¸¥À­ÎÖÄáÎÚË¹£¬È¥°¹ÔàµÄÄÂÀï¶ûÄÇÀï¡£"
  INFO.SCVR "01500"
  INFO.INTV [01 00 00 00]
  #0: Function-Alarmed = 1
