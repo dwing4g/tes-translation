@@ -6,7 +6,7 @@ local types = require("openmw.types")
 local I = require("openmw.interfaces")
 local ai = require("openmw.interfaces").AI
 local storage = require("openmw.storage")
-local time = require("openmw_aux.time")
+local loadYaml = require("openmw.markup").loadYaml
 
 
 I.Settings.registerGroup({
@@ -65,7 +65,8 @@ local paths = {
 	plugins = "scripts/DynamicActors/dialogPlugins/",
 	npcDialog = "scripts/DynamicActors/npcDialog.lua",
 	npcDialogAI = "scripts/DynamicActors/npcDialogAI.lua",
-	blockList = "scripts.DynamicActors.userConfig.Dialog NPC Blocklist",
+	blockList = "config/dynamic-actors/dialog-npc-blocklist.yaml",
+--	blockList = "scripts.DynamicActors.userConfig.Dialog NPC Blocklist",
 	globalDialog = "scripts.DynamicActors.dialogue.global",
 	configNpc = "scripts.DynamicActors.dialogue.configNpc",
 	configAnim = "scripts.DynamicActors.configAnimations",
@@ -79,23 +80,20 @@ temp:set("npcDialog", require(paths.configNpc))
 
 local player
 local dialogActive
-local openTime
-local pauseAfter = 7
 local activateTarget = nil
-local npcList = require(paths.blockList)
+--	local npcList = require("openmw.markup").loadYaml(paths.blockList)
+local npcList = {}
 npcList.byAnim, npcList.config = table.unpack(require(paths.configAnim))
 local dialog = require(paths.globalDialog)
 local actorsincell = {}
 local nearbyActors
 local logging = false
 
-dialog.reloadConfig()
-
 -- legacy settings check
 do
 	local set = settings:get("unpause_dialog")
 	-- print("LEGACY", set, settings:get("unpause_dialog_opt"))
-	if set ~= nil and type(set) == "boolean" then
+	if type(set) == "boolean" then
 		settings:set("unpause_dialog_opt", set and "opt_nopause" or "opt_alwayspause")
 		settings:set("unpause_dialog", nil)
 	end
@@ -129,6 +127,7 @@ events.removeScript = function(e)
 	end
 end
 events.Pause = function()
+	dialog.pauseTimer = 0
 	if world.getPausedTags()["ui"] == nil and dialog.Target then
 		dialog.unpause = nil
 		world.pause("ui")
@@ -138,7 +137,14 @@ events.Pause = function()
 	end
 end
 events.DialogueResponse = dialog.resolveInfo
-events.reloadConfig = dialog.reloadConfig
+events.reloadConfig = function()
+	print("Reloading Dynamic Actors global config files.")
+	dialog.reloadConfig()
+	local l = loadYaml(paths.blockList)
+	npcList.block, npcList.allow = l.block, l.allow
+end
+
+events.reloadConfig()
 
 local function debugger(npc)
 	if not npc:hasScript(scripts.npcDialog) then print("script gone") end
@@ -148,7 +154,9 @@ local function resetActors(data)
 	local npc, pos, reset = nil, nil, nil
 	for _,v in pairs(actorsincell) do
 		npc, cell, pos, reset = v.actor, v.cell, v.pos, v.reset
-		if npc.position ~= pos and (pos - npc.position):length() < 100 and npc.cell == cell and reset then
+		if npc.position ~= pos and (pos - npc.position):length() < 100
+			and npc.cell == cell and reset
+				then
 			debug(("%s %s reset to %s"):format(npc, (pos - npc.position):length(), pos))
 			npc:teleport(npc.cell, pos)
 		end
@@ -215,7 +223,7 @@ function events.onDialogOpened(data)
 	activateTarget = nil		
 	dialog.Opened(o)
 
-	openTime = core.getSimulationTime()
+	dialog.openTime = core.getSimulationTime()
 	local option = settings:get("unpause_dialog_opt")
 	local uiPaused = world.getPausedTags().ui
 	if data.pause or option == "opt_alwayspause" then
@@ -228,8 +236,8 @@ function events.onDialogOpened(data)
 	if uiPaused then		world.unpause("ui")		end
 	-- debug(("%s %s"):format(world.isWorldPaused(), settings:get("unpause_dialog")))
 	if option == "opt_delaypause" then
-		async:newUnsavableSimulationTimer(pauseAfter, function()
-			if dialog.Target and core.getSimulationTime() - openTime > pauseAfter - 0.5 then
+		async:newUnsavableSimulationTimer(dialog.pauseAfter, function()
+			if dialog.Target and core.getSimulationTime() - dialog.openTime > dialog.pauseAfter - 0.5 then
 				if not world.getPausedTags().ui then
 					world.pause("ui")
 				end
@@ -351,13 +359,14 @@ function events.onDialogOpened(data)
 	if data.greeting then		events.DialogueResponse(data.greeting)		end
 end
 
-time.runRepeatedly(function()
+local function changeIdles()
+	async:newUnsavableSimulationTimer(35, changeIdles)
 	if not dialog.Target then		return		end
 	dialog.Target:sendEvent("shiftPose")
 	async:newUnsavableSimulationTimer(6, function()
 		if dialog.Target then dialog.Target:sendEvent("shiftPose", "playBase")	end
 	end)
-end, 35 * time.second)
+end
 
 --	Precaution if game was saved during dialogue
 core.sendGlobalEvent("dynDialogClosed")
@@ -366,7 +375,7 @@ core.sendGlobalEvent("dynDialogClosed")
 return {
 	engineHandlers = {
 		onUpdate = function(dt)
-			if not dialogActive or dt <= 0 then	return		end
+			if not dialogActive then	return		end
 
 			if dialog.pauseTimer > 0 then
 				dialog.pauseTimer = dialog.pauseTimer - 1
@@ -374,9 +383,10 @@ return {
 					world.unpause("ui")
 				end
 			end
-			if not nearbyActors or nearbyActors.paused then
+			if dt <= 0 or not nearbyActors or nearbyActors.paused then
 				return
 			end
+
 			local stance, spell = types.Actor.getStance, types.Actor.STANCE.Spell
 			for i = 1, nearbyActors.n do
 				local v = nearbyActors[i]
@@ -423,10 +433,11 @@ return {
 	},
 	interfaceName = "DynamicActors",
 	interface = {
-		version = 136,
+		version = 137,
 		reloadConfig = dialog.reloadConfig,
 		reloadOverrides = dialog.reloadConfig,
 
-	--	d = dialog
+	--	d = dialog,
+	--	list = function() return npcList end
 	}
 }

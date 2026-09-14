@@ -1,4 +1,4 @@
-local common = common
+local common = require("scripts.dynamicactors.common_player")
 local self = common.omw.self
 local input = common.omw.input
 local core = common.omw.core
@@ -8,59 +8,102 @@ local camera = common.omw.camera
 local ui = common.omw.ui
 local I = common.omw.interfaces
 local async = require("openmw.async")
+local loadYaml = require("openmw.markup").loadYaml
 
 local Anim = common.Anim
 local MD = common.MD
+local paths = common.paths
+local IN = common.Input
 
-local M = {}
+local M = {
+	distance = 100,
+	zoom1st = {enabled=false, dist=70, speed=1, offset=0, force=false, level=0},
+	dialog = { controls=false, block=false, instant=false, firstAuto=false,
+		height=100, interval=2, counter=0, adjust=true, pos=nil }
+}
+M.heights = require(paths.configCam)		M.heights.byRecord = {}
+common.Dcam = M					common.heights = M.heights
+
+
+function M.reloadConfig()
+	M.heights.byRecord = loadYaml(paths.npcPos)
+end
 
 function M.processControls(dt, inDialog)
-	local p = Anim.poses
+	local p = Anim.pose
 
-	local yaw, pitch, dist, moved = camera.getYaw(), camera.getPitch(), camera.getThirdPersonDistance()
-	local move_x = input.getMouseMoveX() + input.getAxisValue(input.CONTROLLER_AXIS.LookLeftRight) * 10
-	local move_y = input.getMouseMoveY() + input.getAxisValue(input.CONTROLLER_AXIS.LookUpDown) * 10
---	local move_x = input.getNumberActionValue("LookLeftRight")
---	local move_y = input.getNumberActionValue("LookUpDown")
-	local zoom = input.getNumberActionValue("Zoom3rdPerson")
-	camera.showCrosshair(true)
+	local yaw, pitch, update = camera.getYaw(), camera.getPitch()
+	local move_x, move_y
+--[[
+	local ZoomInOut = (input.isActionPressed(input.ACTION.ZoomIn) and dt) or
+		(input.isActionPressed(input.ACTION.ZoomOut) and -dt) or 0
+	if ZoomInOut == 0 then
+		ZoomInOut = getAxis(axis.TriggerRight) - getAxis(axis.TriggerLeft)
+		ZoomInOut = ZoomInOut * 10 * dt
+	end
+	if ZoomInOut ~= 0 then
+		update = true
+		M.distance = M.distance - ZoomInOut * 10
+	end
+--]]
+
 	if inDialog then
+	--	move_x = input.getNumberActionValue("LookLeftRight")
+	--	move_y = input.getNumberActionValue("LookUpDown")
+		move_x = IN.mouseX() + IN.getAxis(IN.c.LookLeftRight) * 10
+		move_y = IN.mouseY() + IN.getAxis(IN.c.LookUpDown) * 10
 		if move_x ~= 0 or move_y ~= 0 then
-			moved = true
+			update = true
 			yaw = yaw + 0.5 * move_x * dt
 			pitch = pitch + 0.5 * move_y * dt
 		end
+		local zoom = IN.getNumber("Zoom3rdPerson")
 		if zoom ~= 0 then
-			moved = true
-			dist = dist - zoom
+			update = true
+			M.distance = M.distance - zoom
 		end
+	else
+		M.distance = camera.getThirdPersonDistance()
+		camera.showCrosshair(true)
 	end
 
 	-- avoid triggering camera.lua autoswitch to 1st person
-	dist = math.max(36, dist)
+	M.distance = math.max(40, M.distance)
+	camera.setPreferredThirdPersonDistance(M.distance)
 
-	move_x = input.getRangeActionValue("MoveForward") - input.getRangeActionValue("MoveBackward")
-	move_y = input.getRangeActionValue("MoveRight") - input.getRangeActionValue("MoveLeft")
-	if p.choose then p.count = p.count - dt end
-	if p.choose and math.abs(move_y) > 0.7 and p.count < 1 then
-		p.count = 1.25
-		local new = p.save + (move_y > 0 and 1 or -1)
-		if new > #Anim.poses then new = 1		end
-		if new < 1 then new = #Anim.poses		end
-		p.save = new
-		ui.showMessage(Anim.poses[new].name.." ("..Anim.poses[new].id..")")
+	move_x = IN.getRange("MoveRight") - IN.getRange("MoveLeft")
+	move_x = move_x + (IN.press(IN.c.DPadRight) and 1 or 0) - (IN.press(IN.c.DPadLeft) and 1 or 0)
+	move_y = IN.getRange("MoveForward") - IN.getRange("MoveBackward")
+	move_y = move_y + (IN.press(IN.c.DPadUp) and 1 or 0) - (IN.press(IN.c.DPadDown) and 1 or 0)
+	if p.choose then
+		p.timer = p.timer - dt
+		if p.timer < 0 then
+			if math.abs(move_y) > 0.5 then
+				p.timer = 0.25
+				local playlists = p.stance		local n = #playlists
+				local new = playlists.i + (move_y > 0 and 1 or -1)
+				new = (new > n and 1) or (new < 1 and n) or new
+				playlists.i = new
+				p:setPlaylist()		p.choose = true
+			elseif math.abs(move_x) > 0.5 then
+				p.timer = 0.25				local n = #Anim.poses
+				local new = Anim.poses.save + (move_x > 0 and 1 or -1)
+				new = (new > n and 1) or (new < 1 and n) or new
+				Anim.poses.save = new			local pose = Anim.poses[new]
+				ui.showMessage(pose.name .. " (" .. pose.id .. ")")
+			end
+		end
+	elseif move_x ~= 0 or move_y ~= 0 then
+		update = true
+		p.offset = p.offset + util.vector2(100 * move_x * dt, 100 * move_y * dt)
 	end
-	if (move_x ~= 0 or move_y ~= 0) and not p.choose then
-		moved = true
-		Anim.poseOffset = Anim.poseOffset + util.vector2(100 * move_y * dt, 100 * move_x * dt)
-	end
-	if not moved then		return		end
 
-	camera.setFocalPreferredOffset(Anim.poseOffset)
-	camera.setPreferredThirdPersonDistance(dist)
-	camera.instantTransition()
-	camera.setYaw(yaw)
-	camera.setPitch(pitch)
+	if update then
+		camera.setFocalPreferredOffset(p.offset)
+		camera.instantTransition()
+		camera.setYaw(yaw)
+		camera.setPitch(pitch)
+	end
 end
 
 
@@ -122,7 +165,7 @@ M.bars = {
 
 function M.enableShaders(m)
 	Bars.screenRatio = ui.screenSize().x / ui.screenSize().y
-	local targetRatio = math.max(common.dialogCam.barsRatio, Bars.screenRatio)
+	local targetRatio = math.max(M.dialog.barsRatio, Bars.screenRatio)
 	Bars.size = (1 - Bars.screenRatio / targetRatio) / 2
 	if Bars.size < 0.01 then
 		Bars.size = nil
@@ -136,9 +179,9 @@ function M.enableShaders(m)
 	end
 
 	if not I.DynamicCamera or not I.DynamicCamera.shaders then	return		end
-	local shaders = common.dialogCam.shaders
+	local shaders = M.dialog.shaders
 	if m and not shaders then
-		common.dialogCam.shaders = {
+		M.dialog.shaders = {
 			dof = I.DynamicCamera.shaders["hexDoFProgrammable"].u,
 			bars = I.DynamicCamera.shaders["blackBarsProgrammable"].u
 		}
@@ -149,8 +192,8 @@ function M.enableShaders(m)
 end
 
 function M.autoCam(dt)
-	local z = common.zoom1st
-	local d = common.dialogCam
+	local z = M.zoom1st
+	local d = M.dialog
 	local ctrls = self.controls
 
 	-- Force-set 1st person zoom every frame, to counter camera.lua resetting it
@@ -169,10 +212,10 @@ function M.autoCam(dt)
 	local destVec = deltaPos.xy:rotate(camera.getYaw())
 	local deltaYaw = math.atan2(destVec.x, destVec.y)
 --	local deltaYaw = math.atan2(destVec.x, destVec.y) + z.extraYaw
-	if math.abs(deltaYaw) > math.rad(10) then
+	if math.abs(deltaYaw) > math.rad(20) then
 		turningToTarget = true
 	end
-	lerp = math.min((8 * math.abs(deltaYaw) / math.pi) ^ 2 + 0.03, 1.3)
+	lerp = math.min((8 * math.abs(deltaYaw) / math.pi) ^ 2 + 0.03, 0.8)
 	local v = dt * 3.5 * lerp
 	if d.instant then
 		v = math.min(math.abs(deltaYaw), 0.75)
@@ -185,10 +228,10 @@ function M.autoCam(dt)
 	local lengthXY = deltaPos.xy:length() - d.radius
 	local deltaPitch = - math.atan2(deltaPos.z, math.max(lengthXY, d.radius))
 		- self.rotation:getPitch()
-	if math.abs(deltaPitch) > math.rad(10) then
+	if math.abs(deltaPitch) > math.rad(30) then
 		turningToTarget = true
 	end
-	lerp = (8 * math.abs(deltaPitch) / math.pi) ^ 2 + 0.001
+	lerp = math.min((8 * math.abs(deltaPitch) / math.pi) ^ 2 + 0.001, 0.2)
 	v = dt * 3.5 * lerp
 	if math.abs(deltaPitch) > math.rad(1) then
 		ctrls.pitchChange = util.clamp(deltaPitch, -v, v)
@@ -241,7 +284,7 @@ function M.autoCam(dt)
 end
 
 function M.autoCamUpdate(dt)
-	local d = common.dialogCam
+	local d = M.dialog
 	d.counter = d.counter - dt	if d.counter > 0 then	return		end
 	d.counter = d.interval
 
@@ -321,6 +364,8 @@ function M.dialogControls(dt, mode, d)
 	
 	if not d.controls then
 		d.controls = true
+		Anim.pose.offset = MD.getFocalPreferredOffset()
+		M.distance = camera.getThirdPersonDistance()
 	--	ui.showMessage("CAMERA CONTROLS")
 	end
 	M.processControls(dt, true)
@@ -328,7 +373,7 @@ end
 
 function M.restoreCamera()
 	local saved, mode = common.camSave, camera.getMode()
-	local controls = common.dialogCam.controls
+	local controls = M.dialog.controls
 
 	if mode == MD.Preview and saved.mode == mode
 		and types.Actor.getStance(self) == types.Actor.STANCE.Nothing then
@@ -356,7 +401,7 @@ function M.restoreCamera()
 end
 
 function M.zoomOut1st(dt)
-	local z = common.zoom1st	local cam = common.dialogCam
+	local z = M.zoom1st	local cam = M.dialog
 	local inFirst = camera.getMode() == MD.FirstPerson
 	local lerp
 

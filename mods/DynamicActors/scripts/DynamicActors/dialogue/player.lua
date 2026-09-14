@@ -1,3 +1,4 @@
+local common = require("scripts.dynamicactors.common_player")
 local oSelf = common.omw.self
 local types = common.omw.types
 local core = common.omw.core
@@ -13,16 +14,6 @@ local L = {
 	activeEffects = types.Actor.activeEffects(oSelf),
 	controls = oSelf.controls
 }
-
-local MD = {
-	FirstPerson = camera.MODE.FirstPerson,
-	ThirdPerson = camera.MODE.ThirdPerson,
-	Preview = camera.MODE.Preview,
-	Static = camera.MODE.Static,
-	getMode = camera.getMode,
-	setMode = camera.setMode
-}
-
 
 local dialogModes = {
 	[I.UI.MODE.Barter] = true,
@@ -52,23 +43,15 @@ local forceHudModes = {
 	[I.UI.MODE.Training] = true,
 }
 
-
-local posing = false
-local logging = false
-
-local dialog = { lastGreeting = {} }
-dialog.set = {
-	posing = function(m)		posing = m	return m		end,
-	logging = function(m)		logging = m	return m		end
-}
-
-local settings = common.settings
-dialog.Cam = common.dialogCam
-local zoom1st = common.zoom1st
-dialog.zoom1st = zoom1st
-local camsave = common.camSave
-local Dcam  = common.Dcam
+local MD = common.MD				local Anim = common.Anim
+local settings = common.settings		local camSave = common.camSave
+local Dcam  = common.Dcam			local zoom1st = Dcam.zoom1st
 local heights = common.heights
+
+local dialog = {
+	lastGreeting = {},
+	Cam = Dcam.dialog, zoom1st = zoom1st
+}
 
 local infoIndex = require("openmw.storage").globalSection("temp_dActors_infoIndex")
 
@@ -96,15 +79,15 @@ end
 
 
 function dialog.hasOpened(data)
-	camsave.offset1st = camera.getFirstPersonOffset()
-	camsave.dist3rd = camera.getThirdPersonDistance()
-	camsave.hud = I.UI.isHudVisible()
+	camSave.offset1st = camera.getFirstPersonOffset()
+	camSave.dist3rd = camera.getThirdPersonDistance()
+	camSave.hud = I.UI.isHudVisible()
 	zoom1st.scale, zoom1st.force, zoom1st.zoomOut = 1, false, false
 	zoom1st.extraYaw, zoom1st.vector = 0
 	zoom1st.speed = settings.camera:get("dialog_1st_zoom_speed") / 100
 	zoom1st.offset = math.rad(settings.camera:get("dialog_1st_zoom_offset"))
 	zoom1st.dist = settings.camera:get("dialog_1st_zoomdist")
-	camsave.yaw, camsave.pitch, camsave.extrayaw = camera.getYaw(), camera.getPitch(), camera.getExtraYaw()
+	camSave.yaw, camSave.pitch, camSave.extrayaw = camera.getYaw(), camera.getPitch(), camera.getExtraYaw()
 	dialog.Cam.barsRatio, dialog.Cam.aperture = 0, 0
 	local npc = data.arg			dialog.Target = npc
 	if data.pause or not data.near or (npc.position - oSelf.position):length() > 1000 then
@@ -142,7 +125,7 @@ function dialog.hasOpened(data)
 		d.animKeys = height.keys
 		local vec = height.focal or (height[1] and v3(0, 0, height[1]))
 		d.headPosAnim = vec and d.npcSizeRatios:apply(vec) * npc.scale or d.vecFocalDefault
-		if logging and next(height) then	print(file)		end
+		if common.logging and next(height) then	print(file)		end
 		zoom1st.dist = height.distance and math.max(height.distance, zoom1st.dist) or zoom1st.dist
 	elseif types.Creature.objectIsInstance(npc) then
 		for _, v in ipairs(heights.byModel) do
@@ -177,7 +160,7 @@ function dialog.hasOpened(data)
 		d.vecFocalDefault = d.npcSizeRatios:apply(focusVec) * npc.scale
 	end
 	if useBox then
-		if logging then print("OPENED: USEBOX FOR")		end
+		if common.logging then print("OPENED: USEBOX FOR")		end
 		local box = npc:getBoundingBox()
 		focusVec = (npc.position - box.center)
 		focusVec = focusVec.xy0 + util.vector3(0, 0, (math.abs(focusVec.z) + box.halfSize.z) * 0.85)
@@ -190,7 +173,7 @@ function dialog.hasOpened(data)
 	d.deltaPos = npc.position - oSelf.position
 	Dcam.autoCamUpdate(0)
 	d.radius = d.radius * npc.scale
-	if logging then print(focusVec, d.radius)		end
+	if common.logging then print(focusVec, d.radius)		end
 
 	zoom1st.zoomIn = d.firstZoom		zoom1st.delay = 0
 	local res = nearby.castRay(d.playerEyesVec + oSelf.position, focusVec + npc.position,
@@ -207,9 +190,9 @@ function dialog.hasOpened(data)
 	if settings.camera:get("dialog_disableHud") and I.UI.isHudVisible() then
 		I.UI.setHudVisibility(false)
 	end
-	if not posing then
-		camsave.mode, camsave.offset3rd = camera.getMode(), camera.getFocalPreferredOffset()
-		common.Anim.poseOffset = camsave.offset3rd
+	if not Anim.posing then
+		camSave.mode, camSave.offset3rd = camera.getMode(), camera.getFocalPreferredOffset()
+		Anim.poseOffset = camSave.offset3rd
 		if d.firstAuto and settings.global:get("unpause_dialog_opt") ~= "opt_alwayspause"
 			and not data.povPressed
 				then
@@ -232,9 +215,9 @@ function dialog.hasClosed()
 		end
 		return
 	end
-	if posing then		return			end
+	if Anim.posing then		return			end
 
-	camera.setFocalPreferredOffset(camsave.offset3rd)
+	camera.setFocalPreferredOffset(camSave.offset3rd)
 	Dcam.restoreCamera()
 end
 

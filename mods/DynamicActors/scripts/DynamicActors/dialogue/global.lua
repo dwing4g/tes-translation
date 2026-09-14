@@ -15,6 +15,7 @@ local M = { overrides = overrides, creatures = creatures, voices = voices }
 local filters = require(paths.filters)		M.filters = filters
 local loader = require(paths.loader)
 
+M.pauseAfter = 7
 local lastInfo = {}
 local lastVoiceTime = 0
 local voiceChance = 0.35
@@ -100,10 +101,9 @@ local function genericResponse(e)
 end
 
 function M.reloadConfig()
-	print("Reloading Dynamic Actors config files.")
 	loader.reloadConfig{ overrides, creatures, voices }
 end
-function M.actorData()
+function M.data()
 	return actorData
 end
 

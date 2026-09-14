@@ -1,0 +1,14 @@
+name : "Sit / Lie / Lean poses"
+stance : "nothing"
+playlist :
+  - { name : "Wall Lean 180", group : "posewalllean180" }
+  - { name : "Wall Lean", group : "posewalllean" }
+  - { name : "GV Squat down", group : "gvsquat", offset : -70 }
+  - { name : "VA Sitting Chair 180", group : "vasitting6", offset : -70 }
+  - { name : "VA Sitting Floor", group : "vasittingfloor", offset : -70, speed : 0.5 }
+  - { name : "VA Sitting cross legged", group : "vasitting4", offset : -70, speed : 0.5 }
+  - { name : "VA Sitting hugging knees", group : "vasitting5", offset : -70, speed : 0.5 }
+  - { name : "VA Praying on knees", group : "vasitting2", offset : -70, speed : 0.5 }
+  - { name : "VA Lying on side", group : "vasitting7", offset : -90, speed : 0.5 }
+  - { name : "VA Sleeping on side", group : "vasitting8", offset : -90 }
+  - { name : "VA Lying on back", group : "vasitting9", offset : -90 }

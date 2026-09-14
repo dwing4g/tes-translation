@@ -5,6 +5,7 @@ msg_ctrlon: "相机控制已启用"
 msg_ctrloff: "相机控制已禁用"
 msg_selecton: "动画选择器已启用"
 msg_selectoff: "动画选择器已禁用"
+msg_playlist: "已选择的播放列表:"
 
 opt_nopause: "不暂停"
 opt_delaypause: "问候之后暂停"
@@ -15,12 +16,12 @@ anim_akimbo: "双手叉腰"
 anim_handsback: "双手背在身后"
 
 settings_camera_modName: "动态角色 - 相机"
-settings_camera_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.36
+settings_camera_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.37
 \n\n玩家在对话期间相机位置的自定义选项。"
 
 settings_modName: "动态角色 - 玩法"
 
-settings_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.36
+settings_modDesc: "适用于OpenMW的动态角色\n由Taitechnic开发\t\tv 1.37
 \n\n在与NPC对话时为他们动态添加额外的空闲动画，
  并在玩家长时间静止时也添加空闲动画。
 \n\n可自定义玩家自动脱下头盔、静止空闲动画，

@@ -1,0 +1,7 @@
+name : "Spellcast poses"
+stance : "spell"
+playlist :
+  - { name : "Spell Ready Pose", group : "spellReady" }
+  - { name : "Spell Weapon 1h", group : "spellIdle1h" }
+  - { name : "Spell Contrapose", group : "spellPose", speed : 0.5 }
+  - { name : "<No pose>" }

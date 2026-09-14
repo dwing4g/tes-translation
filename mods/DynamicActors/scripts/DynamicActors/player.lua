@@ -1,7 +1,5 @@
--- local anim = require("openmw.animation")
-local self = require("openmw.self")
+local oSelf = require("openmw.self")
 local types = require("openmw.types")
-local time = require("openmw_aux.time")
 local input = require("openmw.input")
 local async = require("openmw.async")
 local core = require("openmw.core")
@@ -13,56 +11,9 @@ local storage = require("openmw.storage")
 local nearby = require("openmw.nearby")
 local l10n = core.l10n("DynamicActors")
 
-
--- local ST = types.Actor.STANCE
-local Actor = {
-	getCurrentSpeed = types.Actor.getCurrentSpeed,
-	getStance = types.Actor.getStance,
-	getEquipment = types.Actor.getEquipment,
-	inventory = types.Actor.inventory,
-	isActor = types.Actor.objectIsInstance,
-	isSwimming = types.Actor.isSwimming,
-	isDead = types.Actor.isDead,
-	isWerewolf = types.NPC.isWerewolf,
-	setEquipment = types.Actor.setEquipment,
-	isOnGround = types.Actor.isOnGround,
-	canMove = types.Actor.canMove,
-	controls = self.controls,
-
-	Helmet = types.Actor.EQUIPMENT_SLOT.Helmet,
-	Shield = types.Actor.EQUIPMENT_SLOT.CarriedLeft,
-	Weapon = types.Actor.EQUIPMENT_SLOT.CarriedRight,
-	stanceNothing = types.Actor.STANCE.Nothing,
-	stanceWeapon = types.Actor.STANCE.Weapon,
-	stanceSpell = types.Actor.STANCE.Spell
-}
-local stance = Actor.getStance(self)		local v3 = util.vector3
-local helmetStance = stance
-
-local MD = {
-	FirstPerson = camera.MODE.FirstPerson,
-	ThirdPerson = camera.MODE.ThirdPerson,
-	Preview = camera.MODE.Preview,
-	Static = camera.MODE.Static,
-	getMode = camera.getMode,
-	setMode = camera.setMode
-}
-
-
-local settings = { names = {
-	{ "camera", "Settings_dynactors_camera", "playerSection" },
-	{ "player", "Settings_dynactors_player", "playerSection" },
-	{ "global", "Settings_dynamicactors", "globalSection" }
-	},
-	storage = {},
-	update = {}
-}
-
-for _, v in ipairs(settings.names) do
-	settings[v[1]] = storage[v[3]](v[2])
-	settings.storage[v[1]] = v[2]
-end
-
+local common = require("scripts.dynamicactors.common_player")
+local Actor, MD = common.Actor, common.MD
+local _settings = common.settings
 
 local dialogModes = {
 	[I.UI.MODE.Barter] = true,
@@ -97,93 +48,87 @@ local raceChangeModes = {
 	[I.UI.MODE.ChargenClassReview] = true
 }
 
-local _posing = false
-local V = { idle2sec = 2, idleCounter = 0 }
 
-local actionKey = nil
-local dialogTarget
+--[[
 dialogCam = { controls=false, block=false, instant=false, firstAuto=false,
 	height=100, interval=2, counter=0, adjust=true, pos=nil }
 local zoom1st = {enabled=false, dist=70, speed=1, offset=0, force=false, level=0, vector=nil}
-local camsave = {
+local _camSave = {
 	mode = camera.getMode(), offset = nil, offset1st = nil,
 	offset3rd = camera.getFocalPreferredOffset(),
 	extrayaw = 0
 }
+local poseOpt = {save = 1, choose = false, count = 0, offset3rd = camera.getFocalPreferredOffset()}
 
-common = {
---	poseOpt=poseOpt,
-	zoom1st=zoom1st, dialogCam=dialogCam, camSave = camsave,
-	MD=MD, Actor = Actor, settings = settings,
-	omw = { self=self, input=input, core=core, types=types, util=util, camera=camera,
+common.poseOpt=poseOpt,
+common.zoom1st, common.dialogCam, common.camSave = zoom1st, dialogCam, _camSave
+--]]
+
+common.omw = { self=oSelf, input=input, core=core, types=types, util=util, camera=camera,
 		ui=ui, interfaces=I, async=async, nearby=nearby }
-}
-
 
 local Anim = require("scripts.DynamicActors.playerAnimations")
-Anim.isBeast = types.NPC.races.records[types.NPC.records[self.recordId].race].isBeast
-common.anims = Anim		common.Anim = Anim
---	local poseOpt = {save = 1, choose = false, count = 0, offset3rd = camera.getFocalPreferredOffset()}
-
 local Dcam = require("scripts.DynamicActors.playerCamera")
-local heights = require("scripts.DynamicActors.configCamera")
-heights.byRecord = require("scripts.DynamicActors.userConfig.Dialog NPC Camera positions")
-Dcam.heights = heights
-common.Dcam = Dcam		common.heights = heights
+local Dialog = require("scripts.DynamicActors.dialogue.player")
+--	Anim.reloadConfig()		Dcam.reloadConfig()
 
-local dialog = require("scripts.DynamicActors.dialogue.player")
+local _V = { idle2sec = 2, idleCounter = 0 }
+local _helmetStance = Actor.getStance(oSelf)
+local _posing = false
+local _actionKey = nil
+local _dialogTarget
 
-local doUpdates = false
-local logging = false
-local combatActors = {}
+local _camSave = common.camSave
+local _doUpdates = false
+local _combatActors = {}
 
 
 local L = {
 	getActiveGroup = Anim.getActiveGroup,
 	getStance = types.Actor.getStance,
-	activeEffects = types.Actor.activeEffects(self),
-	controls = self.controls
+	activeEffects = types.Actor.activeEffects(oSelf),
+	controls = oSelf.controls
 }
 
-function settings.update.camera(_, key)
-	dialogCam.firstAuto = settings.camera:get("dialog_1stperson")
-	dialogCam.firstZoom = settings.camera:get("dialog_1st_zoom")
---	zoom1st.zoomIn = settings.camera:get("dialog_1st_zoom")
-	zoom1st.dist = settings.camera:get("dialog_1st_zoomdist")
+function _settings.update.camera(_, key)
+	Dcam.dialog.firstAuto = _settings.camera:get("dialog_1stperson")
+	Dcam.dialog.firstZoom = _settings.camera:get("dialog_1st_zoom")
+--	_Dcam.zoom1st.zoomIn = _settings.camera:get("dialog_1st_zoom")
+	Dcam.zoom1st.dist = _settings.camera:get("dialog_1st_zoomdist")
 end
 
-function settings.update.player(_, key)
-	actionKey = settings.player:get("actionHotkey")
+function _settings.update.player(_, key)
+	_actionKey = _settings.player:get("actionHotkey")
 	if key and key:find("^baseIdleAnim_") then
 --		print("Update idle animation")
 		Anim:cancelAllIdles()
-		V.idleCounter = 6
+		_V.idleCounter = 6
 	end
 end
 
-function settings.update.global()
-	local pause = settings.global:get("unpause_dialog_opt") == "opt_alwayspause"
+function _settings.update.global()
+	local pause = _settings.global:get("unpause_dialog_opt") == "opt_alwayspause"
 	for m in pairs(dialogModes) do
 		I.UI.setPauseOnMode(m, pause)
 	end
 	I.UI.setPauseOnMode("Dialogue", true)
-	logging = dialog.set.logging(settings.global:get("debuglog"))	common.logging = logging
-	Anim.visibleShields = settings.global:get("visible_shields")
+	common.logging = _settings.global:get("debuglog")	
+	Anim.visibleShields = _settings.global:get("visible_shields")
 end
 
-for k, v in pairs(settings.update) do
+for k, v in pairs(_settings.update) do
 	v()
-	settings[k]:subscribe(async:callback(v))
+	_settings[k]:subscribe(async:callback(v))
 end
 
 
-local helm = { idle = nil, combat = nil }
+local _helm = { idle = nil, combat = nil }
 do
-	local id = settings.player:get("autoHelmItemID")
-	helm.combat = id and Actor.inventory(self):find(id)
-	local id2 = settings.player:get("autoHelmItemID2")
+	local id = _settings.player:get("autoHelmItemID")
+	_helm.combat = id and Actor.inventory(oSelf):find(id)
+	local id2 = _settings.player:get("autoHelmItemID2")
 	if id2 == id1 then id2 = nil		end
-	helm.idle = id2 and Actor.inventory(self):find(id2)
+	_helm.idle = id2 and Actor.inventory(oSelf):find(id2)
 end
 
 
@@ -191,62 +136,36 @@ end
 I.UI.setHudVisibility(true)
 
 
-local function stopPosing()
-	I.Controls.overrideMovementControls(false)
-	ui.showMessage(l10n("msg_moveon"))
-	Anim.posePending = false		Anim.posing = false
-	if not _posing then		return			end
-
-	Anim.handler("cancel", Anim.poses[Anim.poseIndex].id)
-	camera.setFocalPreferredOffset(camsave.offset3rd)
-	_posing = dialog.set.posing(false)
-	if camera.getMode() ~= MD.Preview then		return		end
-
-	if camsave.mode == MD.FirstPerson then
-		async:newUnsavableSimulationTimer(0.1, function() camera.setMode(MD.FirstPerson) end)
-	else
-		-- camera.lua expects ThirdPerson when in combat stance
-		if Actor.getStance(self) ~= Actor.stanceNothing then
-			async:newUnsavableSimulationTimer(1, function()
-				if camera.getMode() == MD.Preview then
-					camera.setMode(MD.ThirdPerson)
-				end
-			end)
-		end
-		camera.setMode(camsave.mode)
-	end
-end
-
 local function procStanceChange(inCombat)
-	if Anim.isPlaying(self, "spellcast") then	return		end
-	if Actor.isWerewolf(self) or not settings.player:get("autoHelm") then
-		helmetStance = Actor.getStance(self)
+	if Anim.isPlaying(oSelf, "spellcast") then	return		end
+	if Actor.isWerewolf(oSelf) or not _settings.player:get("autoHelm") then
+		_helmetStance = Actor.getStance(oSelf)
 		return
 	end
-	local equip, head = Actor.getEquipment(self), Actor.Helmet
+	local equip, head = Actor.getEquipment(oSelf), Actor.Helmet
 	local h = equip[head]
-	if inCombat and helm.combat then
-		equip[head] = helm.combat
-		Actor.setEquipment(self, equip)
+	if inCombat and _helm.combat then
+		equip[head] = _helm.combat
+		Actor.setEquipment(oSelf, equip)
 		return
 	end
-	local store1, store2 = settings.player:get("autoHelmItemID"), settings.player:get("autoHelmItemID2")
+	local store1, store2 = _settings.player:get("autoHelmItemID"), _settings.player:get("autoHelmItemID2")
 	local id = h and h.recordId
-	if Actor.getStance(self) == Actor.stanceNothing then
-		helm.combat = h
+	if Actor.getStance(oSelf) == Actor.stanceNothing then
+		_helm.combat = h
 		if id and store1 ~= id then
-			settings.player:set("autoHelmItemID", id)
+			_settings.player:set("autoHelmItemID", id)
 		end
-		equip[head] = helm.idle
-	elseif helmetStance == Actor.stanceNothing then
-		if h ~= helm.combat then helm.idle = h			end
+		equip[head] = _helm.idle
+	elseif _helmetStance == Actor.stanceNothing then
+		if h ~= _helm.combat then _helm.idle = h			end
 		if id and id ~= store2 and id ~= store1 then
-			settings.player:set("autoHelmItemID2", id)
+			_settings.player:set("autoHelmItemID2", id)
 		end
-		if helm.combat then equip[head] = helm.combat		end
+		if _helm.combat then equip[head] = _helm.combat		end
 	end
-	Actor.setEquipment(self, equip)
-	helmetStance = Actor.getStance(self)
+	Actor.setEquipment(oSelf, equip)
+	_helmetStance = Actor.getStance(oSelf)
 end
 
 
@@ -254,41 +173,170 @@ end
 --	local statusChange = {}
 
 local function updateStatus(s)
-	local legs = Anim.getActiveGroup(self, 0)
-	s.stance = L.getStance(self)
+	local legs = Anim.getActiveGroup(oSelf, 0)
+	s.stance = L.getStance(oSelf)
 	s.stanceIsNothing = s.stance == Actor.stanceNothing
 	s.sneak = L.controls.sneak
 	s.legGroup = legs
-	s.isMoving = Actor.getCurrentSpeed(self) > 0
+	s.isMoving = Actor.getCurrentSpeed(oSelf) > 0
 	s.isTurning = legs:find("^turn") or legs:find("^spellturn")
 	s.running = s.isMoving and L.controls.run
 	s.attack = L.controls.use > 0
 	s.action = s.attack or legs:find("^jump")
 end
 
-local Status = { legGroup="", lastGroup="" }
-Status.controls = types.Player.getControlSwitch(self, types.Player.CONTROL_SWITCH.Controls)
-updateStatus(Status)
+local function stopPosing()
+	I.Controls.overrideMovementControls(false)
+	camera.allowCharacterDeferredRotation(true)
+--	types.Player.setControlSwitch(oSelf, types.Player.CONTROL_SWITCH.Controls, true)
+	ui.showMessage(l10n("msg_moveon"))
+	Anim.pose.pending = false		Anim.posing = false
+	if not _posing then		return			end
 
-time.runRepeatedly(function()
-	local dt = 1		local s = Status
+	Anim.pose:stop()
+	camera.setFocalPreferredOffset(_camSave.offset3rd)
+	_posing, Anim.posing = false, false
+	if MD.getMode() ~= MD.Preview then		return		end
+
+	if _camSave.mode == MD.FirstPerson then
+		async:newUnsavableSimulationTimer(0.1, function() MD.setMode(MD.FirstPerson) end)
+	else
+		-- camera.lua expects ThirdPerson when in combat stance
+		if Actor.getStance(oSelf) ~= Actor.stanceNothing then
+			async:newUnsavableSimulationTimer(1, function()
+				if MD.getMode() == MD.Preview then
+					MD.setMode(MD.ThirdPerson)
+				end
+			end)
+		end
+		MD.setMode(_camSave.mode)
+	end
+end
+
+--[[
+local function updatePose()
+	if not _posing then		return			end
+
+	local offset = Anim.poses[Anim.pose.index].offset or _camSave.offset3rd.y
+	Anim.poseOffset = Anim.poseOffset + util.vector2(0, offset - Anim.poseAnimOffset)
+	Anim.poseAnimOffset = offset
+	camera.setFocalPreferredOffset(Anim.poseOffset)
+
+	if offset then
+		Anim.poseOffset = util.vector2(camSave.offset3rd.x, offset)
+		camera.setFocalPreferredOffset(Anim.poseOffset)
+	else
+	--	Anim.poses.offset3rd = _camSave.offset3rd
+		Anim.poseOffset = camera.getFocalPreferredOffset()
+	end
+
+	Anim.pose:start(Anim.pose.index)
+end
+--]]
+
+local function canPose()
+	if core.isWorldPaused() then		return		end
+	local block = I.UI.getMode()
+--	local block = I.UI.getMode() or (MD.getMode() == MD.Static)
+	if block then				return		end
+	if Anim.notIdle or L.activeEffects:getEffect("levitate").magnitude > 0
+		or Actor.isSwimming(oSelf) or Actor.isWerewolf(oSelf)
+			then
+		return
+	end
+
+	return true
+end
+
+local function startPosing()
+	if not Anim.pose.pending or (MD.getMode() == MD.FirstPerson) then
+		return
+	end
+	if not canPose() then		return			end
+
+	_camSave.offset3rd = camera.getFocalPreferredOffset()
+	I.Controls.overrideMovementControls(true)
+	camera.allowCharacterDeferredRotation(false)
+--	types.Player.setControlSwitch(oSelf, types.Player.CONTROL_SWITCH.Controls, false)
+	ui.showMessage(l10n("msg_moveoff"))
+	Anim.pose:setPlaylist(Actor.getStance(oSelf))
+--	Anim.pose.index = Anim.poses.save
+	Anim.poses.save = Anim.poses.save <= #Anim.poses and Anim.poses.save or 1
+	Anim.pose.pending = false
+	Dcam.distance = camera.getThirdPersonDistance()
+	Anim.pose.offset = camera.getFocalPreferredOffset()
+	Anim.pose.offset_y = Anim.pose.offset.y
+	_posing, Anim.posing = true, true			_doUpdates = true
+	Anim.posing = true
+	Anim:cancelAllIdles()
+	Anim.pose:start()
+end
+
+local function onKeyPress(key)
+	if (key.code ~= _actionKey) then	return		end
+	if not canPose() then			return		end
+
+--	print("KEYPRESS")
+	if _posing or Anim.pose.pending then
+		stopPosing()
+		return
+	end
+
+--	print("CANPLAY")
+--	print("PENDING")
+
+	Anim.pose.pending = true
+	_camSave.mode = camera.getMode()
+	Anim:cancelAllIdles()
+--	if Anim.poses[Anim.poses.save].turn then
+--		async:newUnsavableSimulationTimer(0.2, function() core.sendGlobalEvent("objTurn", {object=oSelf, angle=180}) end)
+--	end
+	async:newUnsavableSimulationTimer(0, function()		MD.setMode(MD.Preview)		end)
+	async:newUnsavableSimulationTimer(0.5, startPosing)
+end
+
+input.registerTriggerHandler("Jump", async:callback(function()
+	if _dialogTarget or not _posing then		return		end
+
+	Anim.pose.choose = not Anim.pose.choose
+	if Anim.pose.choose then
+		ui.showMessage(l10n("msg_selecton"))
+	else
+		ui.showMessage(l10n("msg_selectoff"))
+		local playing = Anim.pose.playing
+		if playing ~= Anim.poses[Anim.poses.save] then
+			Anim.handler("cancel", playing.id)
+		--	Anim.pose.index = Anim.poses.save
+			async:newUnsavableSimulationTimer(0.5, function() Anim.pose:start() end)
+		end
+	end
+end))
+
+local _status = common.status
+_status.controls = types.Player.getControlSwitch(oSelf, types.Player.CONTROL_SWITCH.Controls)
+updateStatus(_status)
+
+local function slowUpdate()
+	local dt = 1
+	async:newUnsavableSimulationTimer(dt, slowUpdate)
+	local s = _status
 
 	s.inFirst = MD.getMode() == MD.FirstPerson
 	s.skipIdles = L.activeEffects:getEffect("levitate").magnitude > 0
-		or Actor.isSwimming(self) or Actor.isWerewolf(self)
-		or not Actor.isOnGround(self) or not Actor.canMove(self)
+		or Actor.isSwimming(oSelf) or Actor.isWerewolf(oSelf)
+		or not Actor.isOnGround(oSelf) or not Actor.canMove(oSelf)
 	updateStatus(s)
-	if s.weapon ~= Actor.getEquipment(self, Actor.Weapon) then
-		s.weapon = Actor.getEquipment(self, Actor.Weapon)
+	if s.weapon ~= Actor.getEquipment(oSelf, Actor.Weapon) then
+		s.weapon = Actor.getEquipment(oSelf, Actor.Weapon)
 		Anim.updateWeaponAnim(s)
 	end
-	if s.stance ~= helmetStance then
+	if s.stance ~= _helmetStance then
 		procStanceChange()
 	end
---	if _posing and not Anim.handler("isPlay", Anim.poses[Anim.poseIndex].id) then
+--	if _posing and not Anim.handler("isPlay", Anim.pose.playing.id) then
 --		stopPosing()
 --	end
-	if dialogTarget and s.inFirst then
+	if _dialogTarget and s.inFirst then
 		Dcam.autoCamUpdate(dt)
 	end
 
@@ -301,7 +349,7 @@ time.runRepeatedly(function()
 	block = block or _posing or not s.controls
 	if block then
 		if Anim.playingIdle then
-			V.idleCounter = 0		Anim:cancelAllIdles()
+			_V.idleCounter = 0		Anim:cancelAllIdles()
 		end
 		return
 	end
@@ -312,10 +360,10 @@ time.runRepeatedly(function()
 
 	Anim.idleController(s)
 	Anim.tracked:update(dt)
-	V.idle2sec = V.idle2sec - 1		if V.idle2sec > 0 then		return		end
-	V.idle2sec = 2			dt = 2
+	_V.idle2sec = _V.idle2sec - 1		if _V.idle2sec > 0 then		return		end
+	_V.idle2sec = 2			dt = 2
 
-	s.controls = types.Player.getControlSwitch(self, types.Player.CONTROL_SWITCH.Controls)
+	s.controls = types.Player.getControlSwitch(oSelf, types.Player.CONTROL_SWITCH.Controls)
 	if not s.stanceIsNothing then
 		return	
 	end
@@ -324,12 +372,12 @@ time.runRepeatedly(function()
 	if not Anim.playingIdle then
 --	print("IDLE CONTROLLER STARTED")
 		Anim.playingIdle = true
-		V.idleCounter = 12
+		_V.idleCounter = 12
 		idle.num = 2
-	--	local body = Anim.idle.base[Anim.settings[settings.player:get("baseIdleAnim_main")]]
-	--	local arms = Anim.idle.base[Anim.settings[settings.player:get("baseIdleAnim_upper")]]
-		local body = Anim.idle.base[settings.player:get("baseIdleAnim_main")]
-	 	local arms = Anim.idle.base[settings.player:get("baseIdleAnim_upper")]
+	--	local body = Anim.idle.base[Anim.settings[_settings.player:get("baseIdleAnim_main")]]
+	--	local arms = Anim.idle.base[Anim.settings[_settings.player:get("baseIdleAnim_upper")]]
+		local body = Anim.idle.base[_settings.player:get("baseIdleAnim_main")]
+	 	local arms = Anim.idle.base[_settings.player:get("baseIdleAnim_upper")]
 		idle.enabled = not(body.g == "none" and arms.g == "none")
 		if idle.enabled then
 			idle.Body.g, idle.Body.o.speed = body.g, body.speed
@@ -338,21 +386,21 @@ time.runRepeatedly(function()
 			track:add(idle.Body)		track:add(idle.Arms)
 		end
 	end
-	V.idleCounter = V.idleCounter + dt
+	_V.idleCounter = _V.idleCounter + dt
 
- 	if V.idleCounter > 2 and V.idleCounter < 28 then
+ 	if _V.idleCounter > 2 and _V.idleCounter < 28 then
 		return
 	end
 
- 	if V.idleCounter >= 28 then
-		if settings.player:get("rndIdleAnim") then
+ 	if _V.idleCounter >= 28 then
+		if _settings.player:get("rndIdleAnim") then
 			track:add { g="removeAll", o=true, startDelay=1, event=true, noUpdate=true }
-			V.idleCounter = 0
+			_V.idleCounter = 0
 		else
-			V.idleCounter = 4
+			_V.idleCounter = 4
 		end
 	end
-	if V.idleCounter ~= 2  then
+	if _V.idleCounter ~= 2  then
 		return
 	end
 
@@ -372,156 +420,78 @@ time.runRepeatedly(function()
 	rnd.num = 1 + (rnd.num < #rnd and rnd.num or 0)
 	if idle.num == 1 then idle.num = 2		end
 
-end, 1 * time.second)
-
-
-local function updatePose()
-	if not _posing then		return			end
-
-	local offset = Anim.poses[Anim.poseIndex].offset
-	if offset then
-		Anim.poseOffset = util.vector2(camsave.offset3rd.x, offset)
-		camera.setFocalPreferredOffset(Anim.poseOffset)
-	else
-	--	Anim.poses.offset3rd = camsave.offset3rd
-		Anim.poseOffset = camera.getFocalPreferredOffset()
-	end
-	Anim.startPose(Anim.poseIndex)
 end
 
-local function startPosing()
---	camera.setMode(MD.Preview)
-	if not Anim.posePending then		return		end
-
-	Anim.posePending = false
-	_posing = dialog.set.posing(true)			doUpdates = true
-	Anim.posing = true
-	Anim:cancelAllIdles()
-	updatePose()
-end
-
-local function onKeyPress(key)
-	if (key.code ~= actionKey) then		return		end
-	if core.isWorldPaused() then		return		end
-	local block = I.UI.getMode() or (MD.getMode() == MD.Static)
-	if block then				return		end
---	print("KEYPRESS")
-	if _posing or Anim.posePending then
-		stopPosing()
-		return
-	end
---	if Anim.notIdle or Actor.getStance(self) ~= Actor.stanceNothing
-	if Anim.notIdle or L.activeEffects:getEffect("levitate").magnitude > 0
-		or Actor.isSwimming(self) or Actor.isWerewolf(self)
-			then
-		return
-	end
-
---	print("CANPLAY")
---	print("PENDING")
-
-	Anim.posePending = true
-	camsave.mode, camsave.offset3rd = camera.getMode(), camera.getFocalPreferredOffset()
-	I.Controls.overrideMovementControls(true)
-	ui.showMessage(l10n("msg_moveoff"))
-	Anim:cancelAllIdles()
-	Anim.setPlaylist(Actor.getStance(self))
-	Anim.poseIndex = Anim.poses.save
-	Anim.poseIndex = Anim.poseIndex <= #Anim.poses and Anim.poseIndex or 1
-	if Anim.poses[Anim.poseIndex].turn then
-		async:newUnsavableSimulationTimer(0.2, function() core.sendGlobalEvent("objTurn", {object=self, angle=180}) end)
-	end
-	async:newUnsavableSimulationTimer(0, function()		MD.setMode(MD.Preview)		end)
-	async:newUnsavableSimulationTimer(0.5, function()	startPosing()			end)
-end
-
-input.registerTriggerHandler("Jump", async:callback(function()
-	if dialogTarget or not _posing then		return		end
-
-	Anim.poses.choose = not Anim.poses.choose
-	if Anim.poses.choose then
-		ui.showMessage(l10n("msg_selecton"))
-	else
-		ui.showMessage(l10n("msg_selectoff"))
-		if Anim.poseIndex ~= Anim.poses.save then
-			Anim.handler("cancel", Anim.poses[Anim.poseIndex].id)
-			Anim.poseIndex = Anim.poses.save
-			async:newUnsavableSimulationTimer(0.5, updatePose)
-		end
-	end
-end))
-
+async:newUnsavableSimulationTimer(math.random() * 2, slowUpdate)
 
 local function processCamera(dt)
 	local mode, active = camera.getMode()
-	if dialogTarget then
-		Dcam.dialogControls(dt, mode, dialogCam)
+	if _dialogTarget then
+		Dcam.dialogControls(dt, mode, Dcam.dialog)
 		return
 	end
 
 	if _posing then
-		if Actor.controls.movement == 0 and Actor.controls.sideMovement == 0 then
-		--	if mode == MD.ThirdPerson and not Status.stanceIsNothing then
-			if mode == MD.ThirdPerson then
+		if Actor.controls.movement == 0 and Actor.controls.sideMovement == 0
+				and not I.UI.getMode() then
+		--	if mode == MD.ThirdPerson and not _status.stanceIsNothing then
+			if mode == MD.ThirdPerson or mode == MD.Vanity then
 				MD.setMode(MD.Preview)
 			end
 			if mode == MD.Preview then
 				Dcam.processControls(dt)
 			end
 		else
+		--	print("MOVE UI STOP POSING")
 			stopPosing()
 		end
 		return
 	end
 
-	if zoom1st.zoomOut then
+	if Dcam.zoom1st.zoomOut then
 		Dcam.zoomOut1st(dt)
 		return
 	end
 
-	doUpdates = false
+	_doUpdates = false
 --	print("processCamera OFF")
 end
 
 local skipActorUpdate
 
 I.AnimationController.addPlayBlendedAnimationHandler(function(g, o)
-	if g:find("^idle") and Status.attack then
+	if g:find("^idle") and _status.attack then
 		return
 	end
-	Status.lastGroup = g
-	Status.inFirst = MD.getMode() == MD.FirstPerson
+	_status.lastGroup = g
+	_status.inFirst = MD.getMode() == MD.FirstPerson
 	skipActorUpdate = false
 end)
 
 
 local function onUpdate(dt)
 	if dt <= 0 then		return				end
-	if doUpdates then	processCamera(dt)		end
+	if _doUpdates then	processCamera(dt)		end
 
 	if skipActorUpdate then		return			end
 
 --	print("onUPDATE ACTOR UPDATE")
-	skipActorUpdate = true		local s, a = Status, Anim
-	updateStatus(s)
---	local wasIdle = not a.notIdle
-	a:updateStatus(s)
---	if a.notIdle and wasIdle then
---		print("SET NOTIDLE FLAG TRUE")
---	end
-	if _posing and Anim.poses.doUpdate then
-		Anim.poses.doUpdate = false
-	end
+	skipActorUpdate = true		local s, a = _status, Anim
+	updateStatus(s)			a:updateStatus(s)
 	local block = a.notIdle or s.inFirst or s.skipIdles
-	if block and _posing then		stopPosing()		end
+	if block and _posing then
+	--	print("ONUPDATE STOP POSING")
+	--	print(a.notIdle, s.isMoving, s.isTurning, s.inFirst)
+		stopPosing()
+	end
 	block = block or _posing or not s.controls
 	if block and a.playingIdle then		a:cancelAllIdles()	end
 end
 
 
 input.registerTriggerHandler("dActors_pause", async:callback(function()
-	if dialogTarget then
-		dialog.manualPause = true
+	if _dialogTarget then
+		Dialog.manualPause = true
 		core.sendGlobalEvent("dynForcePause")
 	end
 end))
@@ -529,74 +499,81 @@ end))
 
 local function uiModeChanged(data)
 	if raceChangeModes[data.oldMode] then
-		Anim.isBeast = types.NPC.races.records[types.NPC.records[self.recordId].race].isBeast
+		Anim.isBeast = types.NPC.races.records[types.NPC.records[oSelf.recordId].race].isBeast
 	--	print("TRACK RACE MENU EVENT")
 	end
 	if data.newMode == dialogModes.dialog and not dialogModes[data.oldMode]
-		and data.arg and dialogTarget ~= data.arg then
-		data.player = self		data.near = self.cell == data.arg.cell and data.arg.enabled
+		and data.arg and _dialogTarget ~= data.arg then
+		data.player = oSelf		data.near = oSelf.cell == data.arg.cell and data.arg.enabled
 		for _, v in ipairs(nearby.actors) do
-			if combatActors[v.id] and not Actor.isDead(v) then
+			if _combatActors[v.id] and not Actor.isDead(v) then
 				data.pause = true
 			end
 		end
-		if not data.pause then		combatActors = {}		end
-		dialog.manualPause = false
-		if data.arg ~= self and Actor.isActor(data.arg) then
+		if not data.pause then		_combatActors = {}		end
+		Dialog.manualPause = false
+		if data.arg ~= oSelf and Actor.isActor(data.arg) then
 			I.UI.setPauseOnMode(dialogModes.dialog, true)
-			if data.arg == dialog.lastGreeting.actor then
-				data.greeting = dialog.lastGreeting
+			if data.arg == Dialog.lastGreeting.actor then
+				data.greeting = Dialog.lastGreeting
 			end
-			dialog.lastGreeting = {}
+			Dialog.lastGreeting = {}
 			core.sendGlobalEvent("dynDialogOpened", data)
-			dialogTarget = data.arg			doUpdates = true
+			_dialogTarget = data.arg			_doUpdates = true
 			data.povPressed = input.getBooleanActionValue("dActors_togglepov")
 				or input.getBooleanActionValue("TogglePOV")
-			dialog.hasOpened(data)
+			Dialog.hasOpened(data)
 		end
-	elseif dialogTarget and dialogModes[data.newMode] then
+	elseif _dialogTarget and dialogModes[data.newMode] then
 	--	core.sendGlobalEvent("dynDialogChange", data)
-		if dialog.manualPause then
+		if Dialog.manualPause then
 			I.UI.setPauseOnMode(data.newMode, true)
 		end
-		core.sendGlobalEvent("dynDialogChange", dialog.manualPause)
-	elseif data.newMode == nil and dialogTarget then
+		core.sendGlobalEvent("dynDialogChange", Dialog.manualPause)
+	elseif data.newMode == nil and _dialogTarget then
 		core.sendGlobalEvent("dynDialogClosed", data)
-		dialogTarget = nil
-		dialog.hasClosed(data)
-		if dialog.manualPause then		settings.update.global()	end
+		_dialogTarget = nil
+		Dialog.hasClosed(data)
+		if Dialog.manualPause then		_settings.update.global()	end
 	end
-	if not dialogTarget then	return		end
+	if not _dialogTarget then	return		end
 	if forceHudModes[data.newMode] then
 		if not I.UI.isHudVisible() then I.UI.setHudVisibility(true)		end
-	elseif settings.camera:get("dialog_disableHud") and I.UI.isHudVisible() then
+	elseif _settings.camera:get("dialog_disableHud") and I.UI.isHudVisible() then
 		if data.newMode then I.UI.setHudVisibility(false)			end
 	end
 end
 
+async:newUnsavableSimulationTimer(0, function()
+	Anim.reloadConfig()		Dcam.reloadConfig()
+end)
 
 return {
 	engineHandlers = {
 		onUpdate = onUpdate, onKeyPress = onKeyPress,
 		onQuestUpdate = function(id, stage)
-			if dialogTarget then
-				dialogTarget:sendEvent("DynamicActors",
+			if _dialogTarget then
+				_dialogTarget:sendEvent("DynamicActors",
 					{event="onQuestUpdate", questId=id, questStage=stage})
 			end
 		end,
 		onConsoleCommand = function(_, c)
-			if not c:find("^lua dactors") then		return		end
-			c = c:sub(13, -1):lower()
-			if c == "reload" then
-				core.sendGlobalEvent("DynamicActors", { event = "reloadConfig" })
-				ui.printToConsole("Dynamic Actors: Reloading config files", util.color.hex("ffffff"))
-			end
+			c = c:lower()
+			if not c:find("^lua dactors ") then	return		end
+			c = c:sub(13, -1)
+			if c ~= "reload" then			return		end
+
+			ui.printToConsole("Dynamic Actors: Reloading config files", util.color.hex("ffffff"))
+			core.sendGlobalEvent("DynamicActors", { event = "reloadConfig" })
+			print("Reloading Dynamic Actors player config files.")
+			stopPosing()
+			Anim.reloadConfig()		Dcam.reloadConfig()
 		end
 	},
 	eventHandlers = {
 		UiModeChanged = uiModeChanged,
-		DialogueResponse = dialog.DialogueResponse,
-		tes3InfoGetText = dialog.tes3InfoGetText,
+		DialogueResponse = Dialog.DialogueResponse,
+		tes3InfoGetText = Dialog.tes3InfoGetText,
 		dynUiMessage = function(e)	ui.showMessage(l10n(e))		end,
 		dynUpdateDCam = function()	Dcam.autoCamUpdate(5)		end,
 		OMWMusicCombatTargetsChanged = function(e)
@@ -605,24 +582,24 @@ return {
 		--	if not types.Actor.isDead(e.actor) then
 			if e.targets and next(e.targets) ~= nil then
 				for _, target in ipairs(e.targets) do
-					if target == self.object then
+					if target == oSelf.object then
 						targetPlayer = true
 						break
 					end
 				end
 			end
-			combatActors[e.actor.id] = targetPlayer
-			local inCombat = next(combatActors) ~= nil
-			if Status.inCombat == inCombat then	return		end
+			_combatActors[e.actor.id] = targetPlayer
+			local inCombat = next(_combatActors) ~= nil
+			if _status.inCombat == inCombat then	return		end
 
 		--	print("COMBAT STATUS CHANGE")
-			Status.inCombat = inCombat		Anim:updateStatus(Status)
+			_status.inCombat = inCombat		Anim:updateStatus(_status)
 			if not inCombat then		return			end
 
-			if dialogTarget and not core.isWorldPaused() then
+			if _dialogTarget and not core.isWorldPaused() then
 				core.sendGlobalEvent("dynForcePause")
 			end
-			local pos1, pos2 = e.actor.position, self.object.position
+			local pos1, pos2 = e.actor.position, oSelf.object.position
 			if (pos1 - pos2):length() < 2000 and math.abs(pos1.z - pos2.z) < 1000 then
 				procStanceChange(true)
 			end
@@ -631,17 +608,16 @@ return {
 
 	interfaceName = "DynamicActors",
 	interface = {
-		version = 136,
+		version = 137,
 --[[
-		c = function()		return common			end,
-		help = function()	return dialog.omw50		end,
-		updates = function()	return doUpdates		end,
+		updates = function()	return _doUpdates		end,
+		c = common,
 		dcam = Dcam,
 
-		dialog = function()	return dialog			end,
+		anim = Anim,
+		dialog = Dialog,
 		posing = function()	return _posing			end,
-		anim = function()	return Anim			end,
-		combat = function()	return combatActors		end
+		combat = function()	return _combatActors		end
 --]]
 	}
 

@@ -1,4 +1,4 @@
-local v3 = common.omw.util.vector3
+local v3 = require("openmw.util").vector3
 
 local F = {
 	z1 = { focal = v3(0, 0, 128 * 0.85) },

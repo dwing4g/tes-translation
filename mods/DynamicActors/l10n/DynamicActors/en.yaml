@@ -5,6 +5,7 @@ msg_ctrlon: "Camera controls enabled"
 msg_ctrloff: "Camera controls disabled"
 msg_selecton: "Animation selector enabled"
 msg_selectoff: "Animation selector disabled"
+msg_playlist: "Playlist selected:"
 
 opt_nopause: "don't pause"
 opt_delaypause: "pause after greeting"
@@ -15,12 +16,12 @@ anim_akimbo: "Hands on hips"
 anim_handsback: "Hands behind back"
 
 settings_camera_modName: "Dynamic Actors - Camera"
-settings_camera_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.36
+settings_camera_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.37
 \n\nCustomize options for Player camera positioning during dialogue."
 
 settings_modName: "Dynamic Actors - Gameplay"
 
-settings_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.36
+settings_modDesc: "Dynamic Actors for OpenMW\nby Taitechnic\t\tv 1.37
 \n\nDynamically adds extra idle animations to NPC\'s when in Dialogue with them,
  and to the Player when stationery for an extended time.
 \n\nCustomize options for Player auto helmet removal, stationery idle animations,
