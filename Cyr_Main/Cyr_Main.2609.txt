@@ -1,5 +1,5 @@
 -TES3
- TES3.HEDR [66 66 A6 3F 01 00 00 00 50 72 6F 6A 65 63 74 20 54 61 6D 72 69 65 6C 20 54 65 61 6D 00 00 00 00 00 00 00 00 00 00 00 00 50 72 6F 6A 65 63 74 20 43 79 72 6F 64 69 69 6C 20 2D 20 4D 61 69 6E 20 46 69 6C 65 20 76 32 36 2E 30 39 0D 0A 52 65 6C 65 61 73 65 3A 20 41 62 65 63 65 61 6E 20 53 68 6F 72 65 73 20 2D 20 53 65 70 74 65 6D 62 65 72 20 32 30 32 36 20 75 70 64 61 74 65 0D 0A 0D 0A 52 65 71 75 69 72 65 73 20 54 61 6D 72 69 65 6C 5F 44 61 74 61 2E 65 73 6D 20 76 32 36 2E 30 38 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2C 4F 00 00]
+ TES3.HEDR [66 66 A6 3F 01 00 00 00 50 72 6F 6A 65 63 74 20 54 61 6D 72 69 65 6C 20 54 65 61 6D 00 00 00 00 00 00 00 00 00 00 00 00 50 72 6F 6A 65 63 74 20 43 79 72 6F 64 69 69 6C 20 2D 20 4D 61 69 6E 20 46 69 6C 65 20 76 32 36 2E 30 39 61 0D 0A 52 65 6C 65 61 73 65 3A 20 41 62 65 63 65 61 6E 20 53 68 6F 72 65 73 20 2D 20 53 65 70 74 65 6D 62 65 72 20 32 30 32 36 20 75 70 64 61 74 65 20 28 48 6F 74 66 69 78 20 31 29 0D 0A 0D 0A 52 65 71 75 69 72 65 73 20 54 61 6D 72 69 65 6C 5F 44 61 74 61 2E 65 73 6D 20 76 32 36 2E 30 38 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 2B 4F 00 00]
  TES3.MAST "Morrowind.esm$00"
  TES3.DATA [75 39 C2 04 00 00 00 00]
  TES3.MAST "Tribunal.esm$00"
@@ -4383,9 +4383,9 @@ StopScript ""PC_m1_Anv_GRBooksTimer_sc""
 
 End PC_m1_Anv_GRBooksTimer_sc$00"
 -SCPT
- SCPT.SCHD "PC_m1_Anv_GRCakeTimer_sc$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$01$00$00$00$BF$00$00$00$15$00$00$00"
+ SCPT.SCHD "PC_m1_Anv_GRCakeTimer_sc$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$01$00$00$00$C7$00$00$00$15$00$00$00"
  SCPT.SCVR [44 61 79 54 61 72 67 65 74 00 48 6F 75 72 54 61 72 67 65 74 00]
- SCPT.SCDT [06 01 01 14 20 73 01 00 20 3E 20 47 0A 44 61 79 73 50 61 73 73 65 64 00 24 01 08 01 03 15 20 73 01 00 20 3D 3D 20 47 0A 44 61 79 73 50 61 73 73 65 64 00 06 01 01 13 20 47 08 47 61 6D 65 48 6F 75 72 20 3C 3D 20 66 01 00 00 24 01 09 01 09 01 06 01 03 09 20 73 01 00 20 3D 3D 20 30 05 01 73 01 00 11 20 47 0A 44 61 79 73 50 61 73 73 65 64 20 31 20 2B 05 01 66 01 00 0C 20 47 08 47 61 6D 65 48 6F 75 72 00 24 01 09 01 05 01 47 11 50 43 5F 6D 31 5F 41 6E 76 5F 47 52 5F 43 61 6B 65 02 20 30 1C 10 18 50 43 5F 6D 31 5F 41 6E 76 5F 47 52 43 61 6B 65 54 69 6D 65 72 5F 73 63 01 01]
+ SCPT.SCDT [06 01 01 14 20 73 01 00 20 3E 20 47 0A 44 61 79 73 50 61 73 73 65 64 00 24 01 08 01 03 15 20 73 01 00 20 3D 3D 20 47 0A 44 61 79 73 50 61 73 73 65 64 00 06 01 01 13 20 47 08 47 61 6D 65 48 6F 75 72 20 3C 3D 20 66 01 00 00 24 01 09 01 09 01 06 01 03 09 20 73 01 00 20 3D 3D 20 30 05 01 73 01 00 11 20 47 0A 44 61 79 73 50 61 73 73 65 64 20 31 20 2B 05 01 66 01 00 0C 20 47 08 47 61 6D 65 48 6F 75 72 00 24 01 09 01 05 01 47 11 50 43 5F 6D 31 5F 41 6E 76 5F 47 52 5F 43 61 6B 65 02 20 30 05 01 73 01 00 02 20 30 1C 10 18 50 43 5F 6D 31 5F 41 6E 76 5F 47 52 43 61 6B 65 54 69 6D 65 72 5F 73 63 01 01]
  SCPT.SCTX "Begin PC_m1_Anv_GRCakeTimer_sc
 ; This global script waits 24 hours after triggering before you can ask Sarrar the Blue for another free cake
 
@@ -4407,6 +4407,7 @@ if ( DayTarget == 0 )
 endif
 
 Set PC_m1_Anv_GR_Cake to 0
+Set DayTarget to 0
 
 StopScript ""PC_m1_Anv_GRCakeTimer_sc""
 
@@ -64530,7 +64531,8 @@ is wanted DEAD OR ALIVE for the crimes of banditry, armed robbery, and smuggling
 Last seen in the vicinity of Garlas Agea.
 <BR>
 Reward is 1500 septims if killed and 2000 septims if captured alive. Report to Lantin Chaskav at Goldstone for more information.
-<BR>$00"
+<BR>
+<IMG SRC=""PC\pc_waxseal_anvil.dds"" WIDTH=""96"" HEIGHT=""96""><BR>$00"
 -BOOK
  BOOK.NAME "PC_m1_Anv_Bounty_NoteCatius$00"
  BOOK.MODL "m\Text_Parchment_01.nif$00"
@@ -64556,7 +64558,9 @@ is wanted DEAD for the crimes of desertion from the Imperial Navy and for murder
 Last seen in the city of Anvil.
 <BR>
 Reward is 700 septims. Report to Lantin Chaskav at Goldstone for more information.
-<BR>$00"
+<BR>
+<IMG SRC=""PC\pc_waxseal_anvil.dds"" WIDTH=""96"" HEIGHT=""96""><BR>
+<IMG SRC=""PC\pc_waxseal_navy.dds"" WIDTH=""96"" HEIGHT=""96""><BR>$00"
 -BOOK
  BOOK.NAME "PC_m1_Anv_Bounty_NoteFiras$00"
  BOOK.MODL "m\Text_Parchment_01.nif$00"
@@ -64586,7 +64590,8 @@ are wanted DEAD for the crimes of banditry, extortion and murder.<BR>
 Last seen in the vicinity of Archad.
 <BR>
 Reward is 1000 septims. Report to Lantin Chaskav at Goldstone for more information.
-<BR>$00"
+<BR>
+<IMG SRC=""PC\pc_waxseal_anvil.dds"" WIDTH=""96"" HEIGHT=""96""><BR>$00"
 -BOOK
  BOOK.NAME "PC_m1_Anv_Bounty_NoteJarus$00"
  BOOK.MODL "m\Text_Parchment_01.nif$00"
@@ -64612,7 +64617,8 @@ is wanted DEAD OR ALIVE for the crimes of petty larceny and armed robbery.<BR>
 Last seen on the Gold Road between Brina Cross and Kvatch.
 <BR>
 Reward is 500 septims if killed and 700 septims if captured alive. Report to Lantin Chaskav at Goldstone for more information.
-<BR>$00"
+<BR>
+<IMG SRC=""PC\pc_waxseal_anvil.dds"" WIDTH=""96"" HEIGHT=""96""><BR>$00"
 -BOOK
  BOOK.NAME "PC_m1_Anv_Bounty_NoteMC$00"
  BOOK.MODL "m\Text_Parchment_01.nif$00"
@@ -64640,7 +64646,8 @@ Known to sail a ship named the CRYPSIS.
 This criminal is ARMED AND EXTREMELY DANGEROUS. Approach with caution.
 <BR>
 Reward is 10,000 septims. Report to Lantin Chaskav at Goldstone for more information.
-<BR>$00"
+<BR>
+<IMG SRC=""PC\pc_waxseal_anvil.dds"" WIDTH=""96"" HEIGHT=""96""><BR>$00"
 -BOOK
  BOOK.NAME "PC_m1_Anv_Bounty_NoteRue$00"
  BOOK.MODL "m\Text_Parchment_01.nif$00"
@@ -64666,7 +64673,8 @@ is wanted ALIVE for the crimes of vigilantism and brigandry.<BR>
 Last seen on the border between Anvil and Sutch.
 <BR>
 Reward is 1500 septims if captured alive. Report to Lantin Chaskav at Goldstone for more information.
-<BR>$00"
+<BR>
+<IMG SRC=""PC\pc_waxseal_anvil.dds"" WIDTH=""96"" HEIGHT=""96""><BR>$00"
 -BOOK
  BOOK.NAME "PC_m1_Anv_Bounty_NoteSDato$00"
  BOOK.MODL "m\Text_Parchment_01.nif$00"
@@ -64692,7 +64700,8 @@ is wanted DEAD for the crime of murder.<BR>
 Last seen heading for Charach.
 <BR>
 Reward is 1000 septims. Report to Lantin Chaskav at Goldstone for more information.
-<BR>$00"
+<BR>
+<IMG SRC=""PC\pc_waxseal_anvil.dds"" WIDTH=""96"" HEIGHT=""96""><BR>$00"
 -BOOK
  BOOK.NAME "PC_m1_Anv_BriBankLedgerClient$00"
  BOOK.MODL "pc\m\PC_bk_Book_04.nif$00"
@@ -86631,7 +86640,7 @@ ClearInfoActor$00"
  INFO.NNAM "27725275182323627609$00"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ANAM "Brina Cross, North Wind Traders$00"
- INFO.NAME "I'm %Name, %Class for the North Wind Traders."
+ INFO.NAME "I'm %Name, %Class for North Wind Traders."
  INFO.SCVR "03sX0PC_Map"
  INFO.INTV [01 00 00 00]
  #0: Local-short PC_Map = 1
@@ -130373,7 +130382,10 @@ Set T_Glob_StockBaseWSC to ( T_Glob_StockBaseWSC - 5 )$00"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal PC_m1_K1_MC6 >= 20
  INFO.BNAM "player->additem ""T_Imp_Legion_RoyalLongsword_01"" 1
-Choice ""Continue"" 10$00"
+modpcfacrep 10 ""T_Cyr_KingdomAnvil""
+moddisposition 15
+Journal ""PC_m1_K1_MC6"" 100
+Set T_Glob_StockBaseWSC to ( T_Glob_StockBaseWSC - 5 )$00"
 -INFO
  INFO.INAM "24837101251169329280$00"
  INFO.PNAM "23201111921550120322$00"
@@ -130385,7 +130397,10 @@ Choice ""Continue"" 10$00"
  INFO.INTV [14 00 00 00]
  #0: Journal-Journal PC_m1_K1_MC6 >= 20
  INFO.BNAM "player->additem ""T_Imp_Legion_RoyalLongsword_01"" 1
-Choice ""Continue"" 10$00"
+modpcfacrep 10 ""T_Cyr_KingdomAnvil""
+moddisposition 15
+Journal ""PC_m1_K1_MC6"" 100
+Set T_Glob_StockBaseWSC to ( T_Glob_StockBaseWSC - 5 )$00"
 -INFO
  INFO.INAM "20817212166033205$00"
  INFO.PNAM "24837101251169329280$00"
@@ -225529,7 +225544,7 @@ addtopic ""beds""$00"
  INFO.INAM "2400114437125485172$00"
  INFO.PNAM "171642321919647015$00"
  INFO.NNAM "19165279562888431841$00"
- INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
+ INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "PC_m1_SarrarTheBlue$00"
  INFO.ANAM "Anvil, Goldenrod House: Kitchen$00"
  INFO.NAME "As you say."
@@ -225540,7 +225555,7 @@ addtopic ""beds""$00"
  INFO.INAM "19165279562888431841$00"
  INFO.PNAM "2400114437125485172$00"
  INFO.NNAM "200322871515323921$00"
- INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
+ INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "PC_m1_SarrarTheBlue$00"
  INFO.ANAM "Anvil, Goldenrod House: Kitchen$00"
  INFO.NAME "Sorry. Making good food takes time. I can make you another cake tomorrow, if you like."
@@ -225553,8 +225568,8 @@ addtopic ""beds""$00"
 -INFO
  INFO.INAM "200322871515323921$00"
  INFO.PNAM "19165279562888431841$00"
- INFO.NNAM "118410433624714867$00"
- INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
+ INFO.NNAM "2653325248186227332$00"
+ INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "PC_m1_SarrarTheBlue$00"
  INFO.ANAM "Anvil, Goldenrod House: Kitchen$00"
  INFO.NAME "Enjoy!"
@@ -225566,14 +225581,25 @@ addtopic ""beds""$00"
 Set PC_m1_Anv_GR_Cake to 1
 Startscript PC_m1_Anv_GRCakeTimer_sc$00"
 -INFO
- INFO.INAM "118410433624714867$00"
+ INFO.INAM "2653325248186227332$00"
  INFO.PNAM "200322871515323921$00"
- INFO.NNAM "82561731529710979$00"
+ INFO.NNAM "118410433624714867$00"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "PC_m1_SarrarTheBlue$00"
  INFO.ANAM "Anvil, Goldenrod House: Kitchen$00"
  INFO.NAME "It's a pleasure cooking for someone of taste. May I offer you a cake today?"
+ INFO.SCVR "02sX1PC_m1_Anv_GR_Cake"
+ INFO.INTV [01 00 00 00]
+ #0: Global-short PC_m1_Anv_GR_Cake != 1
  INFO.BNAM "Choice ""Yes."" 1 ""No, thank you."" 2$00"
+-INFO
+ INFO.INAM "118410433624714867$00"
+ INFO.PNAM "2653325248186227332$00"
+ INFO.NNAM "82561731529710979$00"
+ INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
+ INFO.ONAM "PC_m1_SarrarTheBlue$00"
+ INFO.ANAM "Anvil, Goldenrod House: Kitchen$00"
+ INFO.NAME "How are you? I'm afraid I have no more cakes today. Perhaps I can make you one tomorrow."
 -INFO
  INFO.INAM "82561731529710979$00"
  INFO.PNAM "118410433624714867$00"
@@ -226537,7 +226563,7 @@ Oh, hello there. Care for a song?"
  INFO.DATA [02 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "PC_m1_Gorri$00"
  INFO.ANAM "Brina Cross, North Wind Traders$00"
- INFO.NAME "Welcome to North Wind Traders, %PCClass. Brina Cross sees a lot of travelers like you. Do you need to sell some of the goods you gathered in your adventures, or resupply before hitting the road? Either way, you've come to the right place!"
+ INFO.NAME "Welcome to North Wind Traders, %PCClass. Brina Cross sees a lot of travelers like you. Can I interest you in fine imports from Skyrim?"
 -INFO
  INFO.INAM "20302171362940417895$00"
  INFO.PNAM "241102323199736026$00"
