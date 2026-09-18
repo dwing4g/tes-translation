@@ -1,11 +1,24 @@
-name : "Standing Idle poses"
-stance : "nothing"
+name : Standing Idle poses
+stance : nothing
 playlist :
-  - { name : "Arms Folded contrapose", group : "armsFoldPose", speed = 0.5 }
-  - { name : "Arms Back Clasp contrapose", group : "armsBackClaspPose", speed : 0.5 }
-  - { name : "Arms Straight contrapose", group : "armsStrPose", speed : 0.5 }
-  - { name : "Hand on Hip contrapose", group : "handhippose", speed : 0.5 }
-  - { name : "Hands on Hips Idle", group : "armsakimbo" }
-  - { name : "Searching Horizon Idle", group : "armssunshield" }
-  - { name : "Arms Folded Idle", group : "armsFoldedOrAkimbo" }
-  - { name : "<none>" }
+  - name : Arms Folded contrapose
+    group : armsFoldPose
+    speed : 0.5
+  - name : Arms Back Clasp contrapose
+    group : armsBackClaspPose
+    speed : 0.5
+  - name : Arms Straight contrapose
+    group : armsStrPose
+    speed : 0.5
+  - name : Hand on Hip contrapose
+    group : handhippose
+    speed : 0.5
+  - name : Tribunal Prayer idle
+    group : armsalmapray
+  - name : Searching Horizon idle
+    group : armssunshield
+  - name : Hands on Hips idle
+    group : armsakimbo
+  - name : Arms Folded idle
+    group : armsFoldedOrAkimbo
+  - name : <none>

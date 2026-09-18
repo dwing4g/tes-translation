@@ -151,16 +151,17 @@ function Anim.reloadConfig()
 end
 
 local function playHandler(g, o)
+	o.altGroup = nil
 	o.blendMask = o.blendMask or L.bodyArms
 	local shield = MD.getMode() ~= MD.FirstPerson
 		and (Anim.visibleShields or not anim.hasBone(oSelf, "Bip01 AttachShield"))
 		and Actor.getEquipment(oSelf, Actor.Shield)
 	local mask = shield and L.bodyArm_r
-	mask = mask or ((anim.isPlaying(oSelf, "idlestorm") or anim.isPlaying(oSelf, "torch")) and L.bodyArm_r)
+	mask = mask or ((Anim.isPlaying(oSelf, "idlestorm") or Anim.isPlaying(oSelf, "torch")) and L.bodyArm_r)
 	if mask then
 		mask = util.bitAnd(o.blendMask, mask)
 		if g == "armsfolded" then
-			g = "armsakimbo"
+			g = "armsakimbo"		o.altGroup = g
 		elseif g == "posealma3" then
 			mask = util.bitAnd(mask, L.body)
 		end
@@ -171,11 +172,11 @@ local function playHandler(g, o)
 	end
 	if mask == 0 then		return			end
 
-	if anim.isPlaying(oSelf, g) then
+	if Anim.isPlaying(oSelf, g) then
 		if not g:find("^arms") then
 			o.startPoint = anim.getCompletion(oSelf, g)
 		end
-		anim.cancel(oSelf, g)
+		Anim.cancel(oSelf, g)
 	end
 	local savedMask = o.blendMask		o.blendMask = mask or o.blendMask
 	anim.playBlended(oSelf, g, o)
@@ -191,16 +192,23 @@ function Anim.handler(a, g, o)
 	local combo = Anim.combo[g]
 	if g == "none" or g == "" then		return true		end
 	if not combo then
-		if a == "play" then playHandler(g, o)	else	anim.cancel(oSelf, g)	end
-		return anim.isPlaying(oSelf, g)
+		local r
+		if a == "play" then
+			playHandler(g, o)
+		elseif a == "cancel" then
+			Anim.cancel(oSelf, g)
+		else
+			r = Anim.isPlaying(oSelf, g)
+		end
+		return r
 	end
 
 	if a == "isPlay" then
-		return anim.isPlaying(oSelf, combo[1])
+		return Anim.isPlaying(oSelf, combo[1])
 	end
 	if a == "cancel" then
-		if combo[3] then	anim.cancel(oSelf, combo[3])			end
-		anim.cancel(oSelf, combo[1])
+		if combo[3] then	Anim.cancel(oSelf, combo[3])			end
+		Anim.cancel(oSelf, combo[1])
 		return
 	end
 
@@ -386,18 +394,27 @@ function Anim.pose:start()
 	self.offset_y = offset_y
 	MD.setFocalPreferredOffset(self.offset)
 
+	self.playing = pose
 	local g = pose.id
 	if g == "" or Anim.handler("isPlay", g) then
+		pose.running = nil
 		return
 	end
 
-	self.playing = pose
-	local options = { loops = 200, priority = 5, speed = pose.speed, forceLoop = true }
+	pose.running = true
+	local options = { loops = 1000, priority = 5, speed = pose.speed, forceLoop = true }
 	Anim.handler("play", g, options)
+	pose.altGroup = options.altGroup
 end
 
 function Anim.pose:stop()
-	Anim.handler("cancel", self.playing.id or "")
+	if self.playing.running then
+		self.playing.running = nil
+		Anim.handler("cancel", self.playing.id or "")
+		if self.playing.altGroup then
+			Anim.cancel(oSelf, self.playing.altGroup)
+		end
+	end
 end
 
 function Anim.pose.verifyGroups()
@@ -423,11 +440,11 @@ function Anim.pose.verifyGroups()
 end
 
 function Anim.pose:setPlaylist(s)
-	if not self.verified then
-		self.verifyGroups()		self.verified = true
-	end
 	s = s or common.status.stance		local st = types.Actor.STANCE
 	local p = Anim.playlists
+	if not p.verified then
+		self.verifyGroups()		p.verified = true
+	end
 	p = p[(s == st.Weapon and "weapon") or (s == st.Spell and "spell") or "nothing"]
 	self.stance = p			p = p[p.i]		p.save = p.save or 1
 	self.timer = 0.25

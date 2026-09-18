@@ -367,6 +367,7 @@ local function changeIdles()
 		if dialog.Target then dialog.Target:sendEvent("shiftPose", "playBase")	end
 	end)
 end
+changeIdles()
 
 --	Precaution if game was saved during dialogue
 core.sendGlobalEvent("dynDialogClosed")

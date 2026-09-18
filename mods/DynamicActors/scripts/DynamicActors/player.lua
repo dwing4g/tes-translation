@@ -305,7 +305,8 @@ input.registerTriggerHandler("Jump", async:callback(function()
 		ui.showMessage(l10n("msg_selectoff"))
 		local playing = Anim.pose.playing
 		if playing ~= Anim.poses[Anim.poses.save] then
-			Anim.handler("cancel", playing.id)
+			Anim.pose:stop()
+		--	Anim.handler("cancel", playing.id)
 		--	Anim.pose.index = Anim.poses.save
 			async:newUnsavableSimulationTimer(0.5, function() Anim.pose:start() end)
 		end

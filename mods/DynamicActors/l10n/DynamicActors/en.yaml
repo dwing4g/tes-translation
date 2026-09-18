@@ -43,21 +43,22 @@ settings_camera_08_desc: "Horizontal offset +/- in degrees"
 
 settings_player_name: "Player Settings"
 settings_player_setting06_name: "Hotkey to activate Pose for Camera Mode"
-settings_player_setting06_desc: "Use \'Pose\' hotkey to play a Custom animation on player.
- Use \'Pose\' key in 3rd Person mode during Dialogue, to enable/disable control of camera."
-settings_player_setting06a_name: "Hotkey to force pause the game during Dialogue"
-settings_player_setting06a_desc: "If not set, click and select a key/button for this action."
-settings_player_setting06b_name: "Toggle Camera POV control"
-settings_player_setting06b_desc: "Set this to the same key or controller button that you already
- use for toggling camera POV in OpenMW."
-settings_player_setting07_name: "Player base idle animation (main)"
-settings_player_setting07_desc: "Animation played on player when standing still"
-settings_player_setting08_name: "Player base idle animation (upper body)"
-settings_player_setting08_desc: "(None) = use same base idle as main setting"
-settings_player_setting09_name: "Add extra random idle animations over Base Idle"
-settings_player_setting10_name: "Auto Helmet removal when weapon sheathed"
-settings_player_setting12_name: "Headwear when weapon drawn (record ID)"
-settings_player_setting13_name: "Headwear when weapon sheathed (record ID)"
+settings_player_setting06_desc: "Use \'Pose\' hotkey to play a Custom animation on the player,
+ chosen from available playlists."
+settings_player_setting07_name: "Toggle Camera POV control"
+settings_player_setting07_desc: "Set this to the same key or controller button that you already
+ use for toggling camera POV in OpenMW. Hold key down during 3rd person dialogue to allow
+ moving and zooming the camera."
+settings_player_setting08_name: "Hotkey to force pause the game during Dialogue"
+settings_player_setting08_desc: "To use this feature, click and select a key/button for this action."
+settings_player_setting09_name: "Player base idle animation (main)"
+settings_player_setting09_desc: "Animation played on player when standing still"
+settings_player_setting10_name: "Player base idle animation (upper body)"
+settings_player_setting10_desc: "(None) = use same base idle as main setting"
+settings_player_setting11_name: "Add extra random idle animations over Base Idle"
+settings_player_setting12_name: "Auto Helmet removal when weapon sheathed"
+settings_player_setting13_name: "Headwear when weapon drawn (record ID)"
+settings_player_setting14_name: "Headwear when weapon sheathed (record ID)"
 
 settings_modCategory2_name: "World Settings"
 settings_modCategory2_setting1_name: "Add extra idle animations to NPC actors when in Dialogue"

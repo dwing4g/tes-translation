@@ -1,9 +1,14 @@
-name : "Weapon poses"
-stance : "weapon"
+name : Weapon poses
+stance : weapon
 playlist :
-  - { name : "Weapon 1H", group : "idle1h" }
-  - { name : "Weapon 1H Blunt", group : "idle1b" }
-  - { name : "Weapon 2H Blunt", group : "idle2b" }
-  - { name : "Weapon 2H Close", group : "idle2c" }
-  - { name : "Weapon 2H Wide", group : "idle2w" }
-  - { name : "<No pose>", group : "" }
+  - name : Weapon 1H
+    group : idle1h
+  - name : Weapon 1H Blunt
+    group : idle1b
+  - name : Weapon 2H Blunt
+    group : idle2b
+  - name : Weapon 2H Close
+    group : idle2c
+  - name : Weapon 2H Wide
+    group : idle2w
+  - name : <No pose>
