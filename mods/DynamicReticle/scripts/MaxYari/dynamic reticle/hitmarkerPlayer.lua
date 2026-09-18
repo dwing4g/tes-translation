@@ -6,6 +6,7 @@ local settings = require(mp .. "settings")
 local animConf = ui_elements.animConf
 local Tweener = require(mp .. "tweener")
 local gutils = require(mp .. "gutils")
+local SettingsHelper = require(mp .. "settings_helper")
 local DEFS = require(mp .. "defs")
 local shaderUtils = require(mp .. "shader_utils")
 local animManager = require(mp .. "anim_manager")
@@ -19,6 +20,12 @@ local ui = require("openmw.ui")
 local nearby = require('openmw.nearby')
 local types = require('openmw.types')
 
+-- Max Yari's Script Services (MSS) is a required dependency: checked once, when this script loads.
+if not core.contentFiles.has("MaxYariScriptServices.omwscripts") then
+    print("[Dynamic Reticle] ERROR: critical dependency is missing: Max Yari's Script Services (MSS). Please install it.")
+    ui.showMessage("Dynamic Reticle: Critical dependency is missing, please install Max Yari's Script Services (MSS)")
+end
+
 local selfActor = gutils.Actor:new(omwself)
 
 -- Ui Elements
@@ -28,8 +35,8 @@ local stealthArrowLEl = ui_elements.getElementByName("stealthArrowL")
 local stealthArrowREl = ui_elements.getElementByName("stealthArrowR")
 
 -- Settings
-local visualSettings = gutils.SettingsHelper:new('DynamicReticleVisualSettings')
-local soundSettings = gutils.SettingsHelper:new("DynamicReticleSoundSettings")
+local visualSettings = SettingsHelper:new('DynamicReticleVisualSettings')
+local soundSettings = SettingsHelper:new("DynamicReticleSoundSettings")
 
 local currentTargetActor = nil
 local wasSneaking = false
@@ -67,8 +74,26 @@ local hpWidgetShader = shaderUtils.ShaderWrapper:new('hpWidget', {
 hpWidgetShader.animSectors = {}
 hpWidgetShader.animSectorsLen = 3
 
+local MARKSMAN_WEAPON_TYPES = {
+    [types.Weapon.TYPE.MarksmanBow] = true,
+    [types.Weapon.TYPE.MarksmanCrossbow] = true,
+    [types.Weapon.TYPE.MarksmanThrown] = true,
+}
+
+-- The detailed stance from the stance and the weapon's record through MSS (cached, shared with other mods).
+local function detailedStance()
+    local stance = types.Actor.getStance(omwself)
+    if stance == types.Actor.STANCE.Nothing then return gutils.Actor.DET_STANCE.Nothing end
+    if stance == types.Actor.STANCE.Spell then return gutils.Actor.DET_STANCE.Spell end
+    local info = I.MSS.getEquipmentInfo(types.Actor.EQUIPMENT_SLOT.CarriedRight)
+    if info and info.type == types.Weapon and MARKSMAN_WEAPON_TYPES[info.record.type] then
+        return gutils.Actor.DET_STANCE.Marksman
+    end
+    return gutils.Actor.DET_STANCE.Melee
+end
+
 local function canUseSound()
-    local stance = selfActor:getDetailedStance()
+    local stance = detailedStance()
     return (soundSettings['MeleeSound'] and stance == gutils.Actor.DET_STANCE.Melee) or
         (soundSettings['MarksmanSound'] and stance == gutils.Actor.DET_STANCE.Marksman) or
         (soundSettings['SpellcasterSound'] and stance == gutils.Actor.DET_STANCE.Spell)
@@ -298,7 +323,8 @@ local function onUpdate(dt)
         widgetShouldStart = true
     end
 
-    if widgetShouldStart and visualSettings["ShowHpWidget"] then
+    -- Shader is off entirely while the HUD is hidden (F11), not just faded.
+    if widgetShouldStart and visualSettings["ShowHpWidget"] and isHudVisible then
         hpWidgetShader:enable()
     else
         hpWidgetShader:disable()
@@ -332,7 +358,7 @@ local function onUpdate(dt)
 
     if currentTargetActor then
         -- Distance can't be more than 10 meters for more than 3 seconds
-        local distance = (currentTargetActor.gameObject.position - omwself.position):length()
+        local distance = (currentTargetActor.gameObject.position - I.MSS.getPosition()):length()
         if distance > 10*DEFS.GUtoM then
             targetDistanceTimer = targetDistanceTimer + dt
             if targetDistanceTimer >= 3 then

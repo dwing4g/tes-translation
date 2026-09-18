@@ -1,17 +1,14 @@
 local mp = "scripts/MaxYari/dynamic reticle/"
 
 local omwself = require('openmw.self')
-local animation = require('openmw.animation')
 local I = require('openmw.interfaces')
 local core = require("openmw.core")
 local types = require("openmw.types")
 
 local gutils = require(mp.."gutils")
-local AnimManager = require(mp.."anim_manager")
 local EventsManager = require(mp .. "events_manager")
 local DEFS = require(mp .. "defs")
 
-local selfActor = gutils.Actor:new(omwself)
 local selfObject = omwself.object
 
 local onDamageEvents = EventsManager:new()
@@ -21,51 +18,54 @@ DebugLevel = 2
 local recordBlackList = {"ab01alsonar","ab01bird01"} -- From where all birds going, don't need to process those, only wastes performance.
 if gutils.foundInList(recordBlackList, omwself.recordId) then return end
 
-local imAGuard = selfActor:isAGuard()
-local healthData = selfActor.stats.dynamic.health()
-local lastHealth = healthData.current
-
 local damageEventData = {} -- Allegedly making a new table every frame is bad for performance, probably a microoptimisation, but whatever, better than nothing
 
-local function onUpdate(dt)
-    if dt <= 0 then return end
-   
-    local baseHealth = healthData.base
-    local currentHealth = healthData.current
+-- A health decrease of this actor, from Max Yari's Script Services (MSS). It's hostile damage when this
+-- actor fights the player (its combat targets, from MSS) or when the player's weapon hit it; the latter
+-- also covers guards pursuing the player.
+local function onHealthDecrease(e)
+    -- In case max health changed - this should not trigger damage
+    local damageValue = math.min(e.previousHealth, e.baseHealth) - e.health
+    if damageValue <= 0 then return end
 
-    lastHealth = math.min(lastHealth, baseHealth) -- In case max health changed - this should not trigger damage
+    local targets = I.MSS.getCombatTargets()
+    local attacker = e.hit and e.hit.attacker
+    local playerHit = attacker ~= nil and types.Player.objectIsInstance(attacker)
+    if not targets and not playerHit then return end
 
-    local damageValue = lastHealth - currentHealth
+    damageEventData.hostile = selfObject
+    damageEventData.damage = damageValue
+    damageEventData.damageFrac = damageValue / e.baseHealth
+    damageEventData.currentHealth = e.health
+    damageEventData.glancedHit = false
 
-    if damageValue > 0 then
-        -- Should probably only fetch active packages here
-        local activeAiPackage = I.AI.getActivePackage()
-        if not activeAiPackage then return end        
-        if activeAiPackage.type == "Combat" or (imAGuard and activeAiPackage.type == "Pursue") then
-                        
-            damageEventData.hostile = selfObject
-            damageEventData.damage = damageValue
-            damageEventData.damageFrac = damageValue/baseHealth
-            damageEventData.currentHealth = currentHealth
-            damageEventData.glancedHit = false
-            
-            if I.GlancedHits and I.GlancedHits.lastHitInfo then
-                local now = core.getRealTime()
-                if now - I.GlancedHits.lastHitInfo.time <= 0.1 then
-                    damageEventData.glancedHit = I.GlancedHits.lastHitInfo.glancedHit
-                end
-            end
-
-            local targets = I.AI.getTargets(activeAiPackage.type)
-            for _, actor in ipairs(targets) do
-                actor:sendEvent(DEFS.e.HostileDamaged, damageEventData)
-            end
-
-            onDamageEvents:emit(damageEventData)
+    if I.GlancedHits and I.GlancedHits.lastHitInfo then
+        local now = core.getRealTime()
+        if now - I.GlancedHits.lastHitInfo.time <= 0.1 then
+            damageEventData.glancedHit = I.GlancedHits.lastHitInfo.glancedHit
         end
     end
-    
-    lastHealth = currentHealth
+
+    local attackerTold = false
+    if targets then
+        for _, actor in ipairs(targets) do
+            actor:sendEvent(DEFS.e.HostileDamaged, damageEventData)
+            if playerHit and actor == attacker then attackerTold = true end
+        end
+    end
+    if playerHit and not attackerTold then
+        attacker:sendEvent(DEFS.e.HostileDamaged, damageEventData)
+    end
+
+    onDamageEvents:emit(damageEventData)
+end
+
+-- Registered once all scripts on this actor are loaded (onActive), so I.MSS exists.
+local registered = false
+local function onActive()
+    if registered then return end
+    registered = true
+    I.MSS.addDamageListener(onHealthDecrease)
 end
 
 
@@ -78,11 +78,11 @@ end)
 
 return {
     engineHandlers = {
-        onUpdate = onUpdate,
+        onActive = onActive,
     },
     interfaceName = "DynamicReticle",
     interface = {
-        version=1.1, 
+        version=1.2,
         onDamage = onDamageEvents,
     }
 }
