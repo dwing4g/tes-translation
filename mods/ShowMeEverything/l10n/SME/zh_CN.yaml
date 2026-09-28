@@ -6,40 +6,53 @@
 
 "Show Me Everything: Hit Chance": "显示一切：命中率"
 "Hit chance widget. Base of the code and idea by Safeicus Boxius.": "命中率小部件。基于Safeicus Boxius的代码和思想。"
+"Hit chance widget. Base of the original code and idea by Safeicus Boxius." : "命中率小部件。基于Safeicus Boxius的原版代码和构想。"
 
 "Behavior": "行为"
 
 "Modification is enabled": "允许修改"
 "Uncheck to disable Show Me Everything widget. This setting controls whether the modification is active or not.": "取消选中可禁用显示一切的小部件。此设置用于控制和修改是否处于活动状态。"
+"Enable the actor information widget." : "启用角色信息小部件。"
 
 "Show NPC class": "显示NPC职业"
 "If enabled, the widget will show the class of the NPC.": "如果启用，小部件将显示NPC的职业。"
+"Show the class of NPCs.": "显示NPC的职业。"
 
 "Show NPC level": "显示NPC等级"
 "If enabled, the widget will show the level of the NPC.": 如果启用，小部件将显示NPC的等级。"
+"Show actor level." : "显示角色等级。"
 
 "Show NPC health values": "显示NPC血条"
 "If enabled, the widget will show the health values of the NPC.": "如果启用，小部件将显示NPC的血条。"
+"Show numeric health values." : "显示血量数值。"
 
 "Show damage widget": "显示伤害数值小部件"
 "If enabled, every time you attack an NPC, damage values will be shown.": "如果启用，每次攻击NPC时，伤害数值都会显示出来。"
+"Show accumulated damage after the player deals health damage." : "在玩家造成生命伤害后显示累计伤害。"
 
 "Raycast length": "光线投射长度"
 "Controls the length of the Raycast. Higher values will let you pick farther targets but may cost you some performance. Default is 3000, values are from 1000 to 6000.": "设置光线投射的长度。更高的值可以让你选择更远的目标，但可能会损失一些性能。默认值为3000，取值范围为1000 ~ 6000。"
 
 "Widget display distance": "小部件显示距离"
 "Controls the distance at which the widget will be displayed when looking at actors. Set to 192 for a display range similar to the vanilla game on activation. Values are from 192 to 1000.": "设置小部件在注视角色时才会显示的距离。设置为192，显示范围类似原版游戏的激活距离。取值介于192到1000之间。"
+"Distance at which actor information is displayed. 192 roughly matches vanilla activation range." : "显示角色信息的距离。192大致相当于原版的激活范围。"
 
 "Only show in combat stance": "只在战斗状态显示"
 "If enabled, the widget logic will be working in the background, but the widget will only be shown when you are in a combat stance or someone in the focus is taking damage.": "如果启用，小部件程序将在后台工作，但只有当你处于战斗状态或注视的人受到伤害时，小部件才会显示。"
+"Show focus information only while a combat stance is active. Damage can still reveal a target." : "仅在处于战斗姿态时显示焦点信息。受到伤害仍会显现目标。"
 
 "Only show on damage": "只在命中后显示"
 "If enabled, the widget will only be shown when you hit an actor and deal damage to them. Overrides the previous setting": "如果启用，该小部件将只在您击中角色并对其造成伤害时显示。覆盖之前的设置"
+"Show actor information only after the player deals health damage." : "仅在玩家造成生命伤害后显示角色信息。"
 
 "Show the widget for dead actors": "小部件显示死亡角色"
 "If disabled, all dead actors will be ignored and widget will be shown only for alive (or undead) ones.": "若被禁用，所有死去的角色都将被忽略，并且小部件将只显示活着（或是不死）的角色。"
+"If disabled, dead actors are ignored when looking at them." : "如果禁用，注视死亡角色时将予以忽略。"
 
 "Visuals": "可视化"
+
+"Actor UI preset" : "角色UI预设"
+"Choose the actor UI visual preset." : "选择角色UI的外观预设。"
 
 "Visual preset for the widget": "小部件的可视化预设"
 "Here you can choose one of two presets for the widget.": "在这里，您可以为小部件选择两种预设中的一种。"
@@ -54,6 +67,10 @@
 
 "Hit Chance indicator switch": "命中率指示开关"
 "Uncheck to disable Hit Chance indicator. This setting controls whether the indicator will be shown or not.": "取消选中以禁用命中率指示。此设置控制指示器是否显示。"
+"Enable the hit chance indicator." : "启用命中率指示器。"
+
+"Hit Chance preset" : "命中率预设"
+"Choose the hit chance indicator preset." : "选择命中率指示器的预设。"
 
 "Visual preset for the Hit Chance widget": "命中率小部件可视化预设"
 "Here you can choose one of several presets for the widget.": "在这里，您可以从几种预设小部件中选择一种。"
@@ -63,5 +80,6 @@
 
 "Hit Chance colored reticle": "命中率彩色准心"
 "If enabled, the reticle will be colored accordingly to the hit chance.": "如果启用，准心将会根据命中率显示相应的颜色。"
+"Color the reticle according to hit chance." : "根据命中率对准心进行着色。"
 
 "Dead": "死亡"

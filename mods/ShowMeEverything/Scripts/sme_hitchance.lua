@@ -1,434 +1,350 @@
-local async = require("openmw.async")
-local camera = require("openmw.camera")
-local core = require("openmw.core")
-local I = require("openmw.interfaces")
-local nearby = require("openmw.nearby")
-local self = require("openmw.self")
-local types = require("openmw.types")
-local ui = require("openmw.ui")
-local util = require("openmw.util")
+-- Show Me Everything 2.0 - Hit Chance
+-- Uses the shared SME target snapshot; this script performs no raycasts.
+
+local async = require('openmw.async')
+local camera = require('openmw.camera')
+local core = require('openmw.core')
+local I = require('openmw.interfaces')
+local self = require('openmw.self')
 local storage = require('openmw.storage')
+local types = require('openmw.types')
+local ui = require('openmw.ui')
+local util = require('openmw.util')
 
-local hitChanceLogicTimer = 0
-local hitChanceLogicTime = 0.1
-local hitChanceUpdateTimer = 0
-local hitChanceUpdateTime = 5
-local distance = 0
-local focusTimer = 0
-local focusTime = 0.3
-local timeToFadeOut = false
-local fadeOutTimer = 0
-local fadeOutTime = 1
-local widgetIsShowing = false
-local lastUpdateTime = 0
-local updateInterval = 1
-local showingTime = 0
+local settings = storage.playerSection('SMEHitChanceSettings')
 
-local settings = {
-    behavior = storage.playerSection('SMESettingsBh'),
-    style = storage.playerSection('SMESettingsSt'),
-    hitChance = storage.playerSection('SMEHitChanceSettings'),
-}
+local LOGIC_INTERVAL = 0.10
+local FOCUS_TIME = 0.30
+local FADE_TIME = 1.0
+local MELEE_RANGE = 192
+local SCALE_SIZE = util.vector2(6, 40)
+
+local fFatigueBase = core.getGMST('fFatigueBase')
+local fFatigueMult = core.getGMST('fFatigueMult')
+local fCombatInvisoMult = core.getGMST('fCombatInvisoMult')
 
 local weaponSkillMap = {
-	[types.Weapon.TYPE.AxeOneHand] = "axe",
-	[types.Weapon.TYPE.AxeTwoHand] = "axe",
-	[types.Weapon.TYPE.BluntOneHand] = "bluntweapon",
-	[types.Weapon.TYPE.BluntTwoClose] = "bluntweapon",
-	[types.Weapon.TYPE.BluntTwoWide] = "bluntweapon",
-	[types.Weapon.TYPE.LongBladeOneHand] = "longblade",
-	[types.Weapon.TYPE.LongBladeTwoHand] = "longblade",
-	[types.Weapon.TYPE.MarksmanBow] = "marksman",
-	[types.Weapon.TYPE.MarksmanCrossbow] = "marksman",
-	[types.Weapon.TYPE.MarksmanThrown] = "marksman",
-	[types.Weapon.TYPE.ShortBladeOneHand] = "shortblade",
-	[types.Weapon.TYPE.SpearTwoWide] = "spear",
+    [types.Weapon.TYPE.AxeOneHand] = 'axe',
+    [types.Weapon.TYPE.AxeTwoHand] = 'axe',
+    [types.Weapon.TYPE.BluntOneHand] = 'bluntweapon',
+    [types.Weapon.TYPE.BluntTwoClose] = 'bluntweapon',
+    [types.Weapon.TYPE.BluntTwoWide] = 'bluntweapon',
+    [types.Weapon.TYPE.LongBladeOneHand] = 'longblade',
+    [types.Weapon.TYPE.LongBladeTwoHand] = 'longblade',
+    [types.Weapon.TYPE.MarksmanBow] = 'marksman',
+    [types.Weapon.TYPE.MarksmanCrossbow] = 'marksman',
+    [types.Weapon.TYPE.MarksmanThrown] = 'marksman',
+    [types.Weapon.TYPE.ShortBladeOneHand] = 'shortblade',
+    [types.Weapon.TYPE.SpearTwoWide] = 'spear',
 }
 
-local function calcHitChance(weapon)
-	local weaponSkill =
-		types.NPC.stats.skills[weapon and weaponSkillMap[types.Weapon.record(weapon).type] or "handtohand"](self).modified
-	local agility = types.Actor.stats.attributes.agility(self).modified
-	local luck = types.Actor.stats.attributes.luck(self).modified
-	local fatigueCurrent = types.Actor.stats.dynamic.fatigue(self).current
-	local fatigueBase = types.Actor.stats.dynamic.fatigue(self).base
-	local fortifyAttack = types.Actor.activeEffects(self):getEffect(core.magic.EFFECT_TYPE.FortifyAttack)
-	local blind = types.Actor.activeEffects(self):getEffect(core.magic.EFFECT_TYPE.Blind)
-	return (weaponSkill + (agility / 5) + (luck / 10)) * (0.75 + (0.5 * (fatigueCurrent / fatigueBase)))
-		+ (fortifyAttack and fortifyAttack.magnitude or 0)
-		+ (blind and blind.magnitude or 0)
-end
-
-local function calcEvasion(target)
-	local agility = types.Actor.stats.attributes.agility(target).modified
-	local luck = types.Actor.stats.attributes.luck(target).modified
-	local fatigueCurrent = types.Actor.stats.dynamic.fatigue(target).current
-	local fatigueBase = types.Actor.stats.dynamic.fatigue(target).base
-	local sanctuary = types.Actor.activeEffects(target):getEffect(core.magic.EFFECT_TYPE.Sanctuary)
-	return ((agility / 5) + (luck / 10)) * (0.75 + (0.5 * (fatigueCurrent / fatigueBase)))
-		+ (sanctuary and sanctuary.magnitude or 0)
-end
-
-local hitChanceReticleElement = {
-	type = ui.TYPE.Image,
-	props = {
-		resource = ui.texture({ path = 'Textures/targetHitChance.png' }),
-		--color = util.color.rgb(65 / 255, 65 / 255, 65 / 255),
-		size = util.vector2(38, 38),
-		-- position in the top right corner
-		relativePosition = util.vector2(0.5, 0.5),
-		-- position is for the top left corner of the widget by default
-		-- change it to align exactly to the top right corner of the screen
-		anchor = util.vector2(0.5, 0.5),
-		--visible = false,
-	},
-}
-
-local hitChanceReticle = ui.create({
-	layer = "HUD",
-	type = ui.TYPE.Image,
-	props = {
-		resource = ui.texture({ path = 'Textures/targetHitChance.png' }),
-		--color = util.color.rgb(65 / 255, 65 / 255, 65 / 255),
-		size = util.vector2(26, 26),
-		-- position in the top right corner
-		relativePosition = util.vector2(0.5, 0.5),
-		-- position is for the top left corner of the widget by default
-		-- change it to align exactly to the top right corner of the screen
-		anchor = util.vector2(0.5, 0.5),
-		visible = false,
-	},
-})
-
-local hitChanceWidgetPercent = ui.content {
-    {
-        name = "hitChanceContainer",
-        props = {
-            -- suspicious, probably this should be aligned within a Flex widget of some kind instead
-            relativePosition = util.vector2(0.8, 0.63),
-            anchor = util.vector2(0.5, 0.5),
-            size = util.vector2(50, 20),
-        },
-        content = ui.content {
-            {
-                name = "hitChanceBG",
-                type = ui.TYPE.Image,
-                props = {
-                    alpha = 0.8,
-                    resource = ui.texture({ path = 'White' }),
-                    color = util.color.rgb(1 / 255, 1 / 255, 1 / 255),
-                    relativeSize = util.vector2(1, 1),
+local function percentContent()
+    return ui.content {
+        {
+            name = 'hitChanceContainer',
+            type = ui.TYPE.Widget,
+            props = { relativePosition = util.vector2(0.8, 0.63), anchor = util.vector2(0.5, 0.5), size = util.vector2(50, 20) },
+            content = ui.content {
+                {
+                    name = 'hitChanceBG', type = ui.TYPE.Image,
+                    props = { alpha = 0.8, resource = ui.texture({ path = 'White' }), color = util.color.rgb(1 / 255, 1 / 255, 1 / 255), relativeSize = util.vector2(1, 1) },
                 },
-            },
-            {
-
-                name = "hitChanceText",
-                type = ui.TYPE.Text,
-                props = {
-                    text = "%",
-                    textColor = util.color.rgba(1, 1, 1, 1),
-                    textSize = 14,
-                    relativePosition = util.vector2(0.5, 0.5),
-                    anchor = util.vector2(0.5, 0.5),
+                {
+                    name = 'hitChanceText', type = ui.TYPE.Text,
+                    props = { text = '%', textColor = util.color.rgba(1, 1, 1, 1), textSize = 14, relativePosition = util.vector2(0.5, 0.5), anchor = util.vector2(0.5, 0.5) },
                 },
             },
         },
-    },
-}
+    }
+end
 
-local hitChanceWidgetCircle = ui.content {
-    {
-        name = "hitChanceWidget",
-        type = ui.TYPE.Image,
-            props = {
-            resource = ui.texture({ path = 'Textures/hitIndicator.png' }),
-            --color = util.color.rgb(65 / 255, 65 / 255, 65 / 255),
-            size = util.vector2(8, 8),
-            -- position in the top right corner
-            relativePosition = util.vector2(0.6, 0.6),
-            -- position is for the top left corner of the widget by default
-            -- change it to align exactly to the top right corner of the screen
-            anchor = util.vector2(0.5, 0.5),
-            --visible = false,
+local function circleContent()
+    return ui.content {
+        {
+            name = 'hitChanceWidget', type = ui.TYPE.Image,
+            props = { resource = ui.texture({ path = 'Textures/hitIndicator.png' }), size = util.vector2(8, 8), relativePosition = util.vector2(0.6, 0.6), anchor = util.vector2(0.5, 0.5) },
         },
-    },
-}
+    }
+end
 
-local hitChanceWidgetScale = ui.content {
-    {
-        name = "hitChanceWidgetBG",
-        type = ui.TYPE.Image,
-            props = {
-			alpha = 0.8,
-            resource = ui.texture({ path = 'White' }),
-            color = util.color.rgb(1 / 255, 1 / 255, 1 / 255),
-            size = util.vector2(10, 45),
-            -- position in the top right corner
-            relativePosition = util.vector2(0.65, 0.5),
-            -- position is for the top left corner of the widget by default
-            -- change it to align exactly to the top right corner of the screen
-            anchor = util.vector2(0.5, 0.5),
-            --visible = false,
+local function scaleContent()
+    return ui.content {
+        {
+            name = 'hitChanceWidgetBG', type = ui.TYPE.Image,
+            props = { alpha = 0.8, resource = ui.texture({ path = 'White' }), color = util.color.rgb(1 / 255, 1 / 255, 1 / 255), size = util.vector2(10, 45), relativePosition = util.vector2(0.65, 0.5), anchor = util.vector2(0.5, 0.5) },
         },
-    },
-	{
-        name = "hitChanceWidgetScale",
-        type = ui.TYPE.Image,
-            props = {
-			alpha = 0.8,
-            resource = ui.texture({ path = 'White' }),
-            color = util.color.rgb(244 / 255, 198 / 255, 0 / 255),
-            size = util.vector2(6, 40),
-            -- position in the top right corner
-            relativePosition = util.vector2(0.65, 0.5),
-            -- position is for the top left corner of the widget by default
-            -- change it to align exactly to the top right corner of the screen
-            anchor = util.vector2(0.5, 0.5),
-            --visible = false,
+        {
+            name = 'hitChanceWidgetScale', type = ui.TYPE.Image,
+            props = { alpha = 0.8, resource = ui.texture({ path = 'White' }), color = util.color.rgb(244 / 255, 198 / 255, 0), size = SCALE_SIZE, relativePosition = util.vector2(0.65, 0.5), anchor = util.vector2(0.5, 0.5) },
         },
-    },
-}
+    }
+end
 
-local hitChanceWidget = ui.create {
-	name = 'TutorialNotifyMenu',
-	l10n = 'SME',
-	layer = 'HUD',
-	-- This is a helper template, which sets up this interface element in the style of Morrowind.
-	-- Reference: https://openmw.readthedocs.io/en/latest/reference/lua-scripting/interface_mwui.html
-	--template = I.MWUI.templates.boxTransparent,
-	type = ui.TYPE.Widget,
+local root = ui.create {
+    name = 'TutorialNotifyMenu',
+    l10n = 'UITutorial',
+    layer = 'HUD',
+    type = ui.TYPE.Widget,
     props = {
-		anchor = util.vector2(0.5, 0.5),
-		relativePosition = util.vector2(0.5, 0.5),
-		visible = false,
-		size = util.vector2(150, 150),
-        template = I.MWUI.templates.boxTransparent,
-		-- Menu positioning props:
-		-- Reference: https://openmw.readthedocs.io/en/latest/reference/lua-scripting/widgets/widget.html
-
-		-- Pin the bottom center (50% X 100% Y) of this container to ...
-		----anchor = util.vector2(0.5, 1),
-		
-		-- the screen horizontal center and near the bottom of the screen (50% X 95% Y).
-        ----relativePosition = util.vector2(0.5, 0.95),
-	},
-	-- Use ui.content for every content field.
-	content = hitChanceWidgetScale,
+        anchor = util.vector2(0.5, 0.5), relativePosition = util.vector2(0.5, 0.5),
+        visible = false, alpha = 1, size = util.vector2(150, 150),
+    },
+    content = ui.content {
+        {
+            name = 'reticle', type = ui.TYPE.Image,
+            props = {
+                resource = ui.texture({ path = 'Textures/targetHitChance.png' }), size = util.vector2(26, 26),
+                relativePosition = util.vector2(0.5, 0.5), anchor = util.vector2(0.5, 0.5), visible = false,
+            },
+        },
+        {
+            name = 'indicator', type = ui.TYPE.Widget,
+            props = { relativeSize = util.vector2(1, 1) },
+            content = percentContent(),
+        },
+    },
 }
 
-local function updateWidgetStyle()
-	if settings.hitChance:get('SMEhitChanceWidget') == 'Percent' then
-        hitChanceWidget.layout.content = hitChanceWidgetPercent
-	elseif settings.hitChance:get('SMEhitChanceWidget') == 'Circle' then
-		hitChanceWidget.layout.content = hitChanceWidgetCircle
-	elseif settings.hitChance:get('SMEhitChanceWidget') == 'Scale' then
-		hitChanceWidget.layout.content = hitChanceWidgetScale
-	end
+local reticle = root.layout.content['reticle']
+local indicator = root.layout.content['indicator']
+local currentStyle = 'Percent'
+local dirty = true
+local settingsDirty = true
+local logicTimer = LOGIC_INTERVAL
+local focusTimer = 0
+local fadeTimer = 0
+local fading = false
+local lastChance = nil
+local lastColourKey = nil
+
+local function markDirty() dirty = true end
+local function commit()
+    if dirty then root:update(); dirty = false end
 end
 
-local function disableHitChance()
-	if not settings.hitChance:get('hitChanceIsActive') then
-		if settings.hitChance:get('SMEhitChanceReticle') then
-			hitChanceReticle.layout.props.visible = false
-			hitChanceReticle:update()
-		end
-	--hitChanceElement:update()
-		hitChanceWidget.layout.props.visible = false
-		fadeOutTimer = 0
-		hitChanceWidget:update()
-	end
-end
-
-local function disableColoredReticle()
-	if not settings.hitChance:get('SMEhitChanceReticle') then
-		hitChanceReticle.layout.props.visible = false
-		hitChanceReticle:update()
-	end
-end
-
-updateWidgetStyle()
-disableHitChance()
-disableColoredReticle()
-
-settings.hitChance:subscribe(async:callback(updateWidgetStyle))
-settings.hitChance:subscribe(async:callback(disableHitChance))
-settings.hitChance:subscribe(async:callback(disableColoredReticle))
-
-local tooltipTarget
-local barSize = util.vector2(6, 40)
-
-local function getTooltipTarget(dt)
-    local from = camera.getPosition()
-    local to
-
-    if types.Weapon.objectIsInstance(types.Actor.getEquipment(self, types.Actor.EQUIPMENT_SLOT.CarriedRight)) then
-        -- Check if the carried right weapon is of the marksman group
-        local weaponType = types.Weapon.record(types.Actor.getEquipment(self, types.Actor.EQUIPMENT_SLOT.CarriedRight)).type
-        local isMarksmanWeapon = weaponSkillMap[weaponType] == "marksman"
-
-        -- Adjust raycast length based on weapon type
-        local raycastLength = isMarksmanWeapon and 4000 or 192
-        to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * raycastLength
+local function applyStyle()
+    currentStyle = settings:get('SMEhitChanceWidget') or 'Percent'
+    if currentStyle == 'Circle' then
+        indicator.content = circleContent()
+    elseif currentStyle == 'Scale' then
+        indicator.content = scaleContent()
     else
-        -- Default raycast length for non-weapon cases
-        to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * 192
+        currentStyle = 'Percent'
+        indicator.content = percentContent()
+    end
+    lastChance = nil
+    lastColourKey = nil
+    markDirty()
+end
+
+local function hideImmediately()
+    focusTimer = 0
+    fadeTimer = 0
+    fading = false
+    if root.layout.props.visible then
+        root.layout.props.visible = false
+        root.layout.props.alpha = 1
+        markDirty()
+    end
+end
+
+settings:subscribe(async:callback(function()
+    settingsDirty = true
+end))
+
+local function effectMagnitude(actor, effect)
+    return types.Actor.activeEffects(actor):getEffect(effect).magnitude
+end
+
+local function fatigueTerm(actor)
+    local fatigue = types.Actor.stats.dynamic.fatigue(actor)
+    local maximum = fatigue.base + fatigue.modifier
+    local normalized
+    if maximum <= 0 then
+        normalized = 1
+    else
+        normalized = math.max(0, fatigue.current / maximum)
+    end
+    return fFatigueBase - fFatigueMult * (1 - normalized)
+end
+
+local function playerAttackTerm(weapon)
+    local skillName = 'handtohand'
+    if weapon then
+        local record = types.Weapon.record(weapon)
+        skillName = weaponSkillMap[record.type]
+        if not skillName then return nil end
     end
 
-    nearby.asyncCastRenderingRay(
-        async:callback(function(result)
-            tooltipTarget = result.hitObject
-        end),
-        from,
-        to
-    )
+    local skill = types.NPC.stats.skills[skillName](self).modified
+    local agility = types.Actor.stats.attributes.agility(self).modified
+    local luck = types.Actor.stats.attributes.luck(self).modified
+    local attack = (skill + agility / 5 + luck / 10) * fatigueTerm(self)
+    attack = attack + effectMagnitude(self, core.magic.EFFECT_TYPE.FortifyAttack)
+    attack = attack - effectMagnitude(self, core.magic.EFFECT_TYPE.Blind)
+    return attack
 end
 
-local function displayWidget(elementColour, hitChance)
-	focusTimer = focusTime
-	timetoFadeOut = false
-	widgetIsShowing = true
-	--hitChanceElement.layout.props.alpha = 1.0
-	hitChanceWidget.layout.props.alpha = 1.0
-	
-	if hitChanceWidget.layout.content == hitChanceWidgetPercent then
-		hitChanceWidget.layout.content["hitChanceContainer"].content["hitChanceText"].props.textColor = util.color.rgba(table.unpack(elementColour))
-	elseif hitChanceWidget.layout.content == hitChanceWidgetCircle then
-		hitChanceWidget.layout.content["hitChanceWidget"].props.color = util.color.rgba(table.unpack(elementColour))
-	end
+local function targetDefenseTerm(target)
+    local fatigue = types.Actor.stats.dynamic.fatigue(target)
+    if fatigue.current < 0 then return 0 end
 
-	if settings.hitChance:get('SMEhitChanceReticle') then
-		hitChanceReticle.layout.props.alpha = 1.0
-		hitChanceReticle.layout.props.visible = true
-		hitChanceReticle.layout.props.color = util.color.rgba(table.unpack(elementColour))
-	end
+    local defense = 0
+    -- OpenMW also suppresses evasion for an unaware target. Awareness is not
+    -- exposed by API v129, but canMove exactly covers dead/paralyzed/knocked-down.
+    if types.Actor.canMove(target) then
+        local agility = types.Actor.stats.attributes.agility(target).modified
+        local luck = types.Actor.stats.attributes.luck(target).modified
+        defense = (agility / 5 + luck / 10) * fatigueTerm(target)
+        defense = defense + math.min(100, effectMagnitude(target, core.magic.EFFECT_TYPE.Sanctuary))
+    end
 
-	if hitChanceWidget.layout.content == hitChanceWidgetScale then
-		hitChanceWidget.layout.content["hitChanceWidgetScale"].props.color = util.color.rgba(table.unpack(elementColour))
-		local hitChanceRounded = math.min(hitChance, 100)
-		local ratio = hitChanceRounded / 100
-        hitChanceWidget.layout.content["hitChanceWidgetScale"].props.size = barSize:emul(util.vector2(1, ratio))
-	end
-	
-	--hitChanceElement.layout.props.visible = true
-	hitChanceWidget.layout.props.visible = true
-	fadeOutTimer = 0
-	--hitChanceElement:update()
-	hitChanceWidget:update()
-	hitChanceReticle:update()
+    defense = defense + math.min(100, fCombatInvisoMult * effectMagnitude(target, core.magic.EFFECT_TYPE.Chameleon))
+    defense = defense + math.min(100, fCombatInvisoMult * effectMagnitude(target, core.magic.EFFECT_TYPE.Invisibility))
+    return defense
 end
 
-local function displayHitChance(dt)
-	hitChanceLogicTimer = hitChanceLogicTimer + dt
-
-	if hitChanceLogicTimer >= hitChanceLogicTime then
-		if camera.getMode() == camera.MODE.FirstPerson then
-            
-            if settings.behavior:get('SMEisActive') and settings.hitChance:get('hitChanceIsActive') then
-                tooltipTarget = I.SME_CORE.getRaycastTarget()
-                distance = I.SME_CORE.getDistance()
-            else
-			    getTooltipTarget()
-            end
-		else
-			tooltipTarget = nil
-		end
-		if
-			tooltipTarget
-			and (types.NPC.objectIsInstance(tooltipTarget) or types.Creature.objectIsInstance(tooltipTarget))
-			and types.Actor.getStance(self) == types.Actor.STANCE.Weapon
-			and not types.Actor.isDead(tooltipTarget)
-		then
-			local carriedRight = types.Actor.getEquipment(self, types.Actor.EQUIPMENT_SLOT.CarriedRight)
-			if carriedRight and types.Weapon.objectIsInstance(carriedRight) or carriedRight == nil then
-				local hitChance = math.max(0, calcHitChance(carriedRight) - calcEvasion(tooltipTarget))
-				if hitChanceWidget.layout.content == hitChanceWidgetPercent then
-					hitChanceWidget.layout.content["hitChanceContainer"].content["hitChanceText"].props.text = string.format("%d%%", util.round(hitChance * 100) / 100)
-				end
-				local elementColour
-				if hitChance <= 25 then
-					elementColour = { 193 / 255, 63 / 255, 55 / 255, 1 }
-				elseif hitChance <= 50 then
-					elementColour = { 255 / 255, 220 / 255, 95 / 255, 1 }
-				elseif hitChance <= 75 then
-					elementColour = { 1, 1, 1, 1 }
-				elseif hitChance <= 100 then
-					elementColour = { 180 / 255, 255 / 255, 158 / 255, 1 }
-				else
-					elementColour = { 184 / 255, 102 / 255, 211 / 255, 1 }
-				end
-                if settings.behavior:get('SMEisActive') then 
-                    local weaponType = types.Weapon.record(types.Actor.getEquipment(self, types.Actor.EQUIPMENT_SLOT.CarriedRight)).type
-                    local isMarksmanWeapon = weaponSkillMap[weaponType] == "marksman"
-                    if distance < 193 and not isMarksmanWeapon then
-						displayWidget(elementColour, hitChance)
-						
-					elseif isMarksmanWeapon then
-						displayWidget(elementColour, hitChance)
-                    end
-                else
-					displayWidget(elementColour, hitChance)
-                end
-			end
-		end
-	end
-
-
+local function calculateHitChance(target, weapon)
+    local attack = playerAttackTerm(weapon)
+    if not attack then return nil end
+    return math.max(0, util.round(attack - targetDefenseTerm(target)))
 end
 
+local colours = {
+    red = { 193 / 255, 63 / 255, 55 / 255, 1 },
+    yellow = { 1, 220 / 255, 95 / 255, 1 },
+    white = { 1, 1, 1, 1 },
+    green = { 180 / 255, 1, 158 / 255, 1 },
+    purple = { 184 / 255, 102 / 255, 211 / 255, 1 },
+}
 
+local function colourFor(chance)
+    if chance <= 25 then return 'red', colours.red end
+    if chance <= 50 then return 'yellow', colours.yellow end
+    if chance <= 75 then return 'white', colours.white end
+    if chance <= 100 then return 'green', colours.green end
+    return 'purple', colours.purple
+end
 
+local function display(chance)
+    local colourKey, colour = colourFor(chance)
+    local changed = lastChance ~= chance or lastColourKey ~= colourKey
 
-local function hitChanceFadeOut(dt)
-	fadeOutTimer = fadeOutTimer + dt
-		
-	-- Gradually lower alpha to 0 over fadeOutTime
-	local alphaPercentage = 1.0 - fadeOutTimer / fadeOutTime
+    if changed then
+        if currentStyle == 'Percent' then
+            local text = indicator.content['hitChanceContainer'].content['hitChanceText']
+            text.props.text = string.format('%d%%', chance)
+            text.props.textColor = util.color.rgba(table.unpack(colour))
+        elseif currentStyle == 'Circle' then
+            indicator.content['hitChanceWidget'].props.color = util.color.rgba(table.unpack(colour))
+        else
+            local scale = indicator.content['hitChanceWidgetScale']
+            scale.props.color = util.color.rgba(table.unpack(colour))
+            scale.props.size = SCALE_SIZE:emul(util.vector2(1, math.min(chance, 100) / 100))
+        end
+        lastChance = chance
+        lastColourKey = colourKey
+        markDirty()
+    end
 
-	if settings.hitChance:get('SMEhitChanceReticle') then
-		hitChanceReticle.layout.props.alpha = math.max(0, alphaPercentage)
-		hitChanceReticle:update()
-	end
-	hitChanceWidget.layout.props.alpha =  math.max(0, alphaPercentage)
+    local wantsReticle = settings:get('SMEhitChanceReticle')
+    if reticle.props.visible ~= wantsReticle then reticle.props.visible = wantsReticle; markDirty() end
+    if wantsReticle and (changed or not root.layout.props.visible) then
+        reticle.props.color = util.color.rgba(table.unpack(colour))
+        markDirty()
+    end
 
-	
-	hitChanceWidget:update()
-	if fadeOutTimer >= fadeOutTime then
+    focusTimer = FOCUS_TIME
+    fading = false
+    fadeTimer = 0
+    if not root.layout.props.visible then root.layout.props.visible = true; markDirty() end
+    if root.layout.props.alpha ~= 1 then root.layout.props.alpha = 1; markDirty() end
+end
 
-		if settings.hitChance:get('SMEhitChanceReticle') then
-			hitChanceReticle.layout.props.visible = false
-			hitChanceReticle.layout.props.alpha = 1
-			hitChanceReticle:update()
-		end
-		
-		hitChanceWidget.layout.props.visible = false
-		
-		hitChanceWidget.layout.props.alpha = 1.0
-		
-		hitChanceWidget:update()
-		
-		fadeOutTimer = 0
+local function evaluate()
+    if not settings:get('hitChanceIsActive') then return false end
+    if camera.getMode() ~= camera.MODE.FirstPerson then return false end
+    if types.Actor.getStance(self) ~= types.Actor.STANCE.Weapon then return false end
 
-		timetoFadeOut = false
-		widgetIsShowing = false
-	end
+    local info = I.SME_CORE.getTargetInfo()
+    local target = info and info.object or nil
+    local distance = info and info.distance or nil
+    if not target or not target:isValid() or not (types.NPC.objectIsInstance(target) or types.Creature.objectIsInstance(target)) then return false end
+    if types.Actor.isDead(target) then return false end
+
+    local carried = types.Actor.getEquipment(self, types.Actor.EQUIPMENT_SLOT.CarriedRight)
+    local marksman = false
+    if carried then
+        if not types.Weapon.objectIsInstance(carried) then return false end
+        local record = types.Weapon.record(carried)
+        marksman = weaponSkillMap[record.type] == 'marksman'
+    end
+
+    if not marksman and (not distance or distance >= MELEE_RANGE + 1) then return false end
+
+    local chance = calculateHitChance(target, carried)
+    if chance == nil then return false end
+    display(chance)
+    return true
+end
+
+local function updateFade(dt)
+    if focusTimer > 0 then
+        focusTimer = math.max(0, focusTimer - dt)
+    elseif root.layout.props.visible and not fading then
+        fading = true
+        fadeTimer = 0
+    end
+
+    if fading then
+        fadeTimer = fadeTimer + dt
+        root.layout.props.alpha = math.max(0, 1 - fadeTimer / FADE_TIME)
+        markDirty()
+        if fadeTimer >= FADE_TIME then
+            root.layout.props.visible = false
+            root.layout.props.alpha = 1
+            fading = false
+            fadeTimer = 0
+            markDirty()
+        end
+    end
 end
 
 local function onUpdate(dt)
-    if not settings.hitChance:get('hitChanceIsActive') then return end
+    if settingsDirty then
+        settingsDirty = false
+        applyStyle()
+        if not settings:get('hitChanceIsActive') then hideImmediately() end
+    end
 
-	displayHitChance(dt)
+    if dt <= 0 or core.isWorldPaused() then
+        commit()
+        return
+    end
 
-	if focusTimer > 0 then
-		focusTimer = focusTimer - dt
-	end
+    if not I.UI.isHudVisible() then
+        hideImmediately()
+        commit()
+        return
+    end
 
-	if focusTimer <= 0 and widgetIsShowing then
-		timetoFadeOut = true
-	end
+    if not settings:get('hitChanceIsActive') then
+        hideImmediately()
+        commit()
+        return
+    end
 
-	if timetoFadeOut then
-		hitChanceFadeOut(dt)
-	end
+    logicTimer = logicTimer + dt
+    if logicTimer >= LOGIC_INTERVAL then
+        logicTimer = logicTimer % LOGIC_INTERVAL
+        evaluate()
+    end
+
+    updateFade(dt)
+    commit()
 end
+
+applyStyle()
+commit()
 
 return { engineHandlers = { onUpdate = onUpdate } }

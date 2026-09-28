@@ -1,5 +1,4 @@
 PLAYER: scripts/sme_settings.lua
-PLAYER: scripts/sme_style_settings.lua
 PLAYER: scripts/sme_widget.lua
 PLAYER: scripts/sme_hitchance.lua
-
+NPC, CREATURE: scripts/sme_actor_listener.lua

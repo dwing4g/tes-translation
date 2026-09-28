@@ -1,890 +1,725 @@
-local async = require("openmw.async")
-local camera = require("openmw.camera")
-local core = require("openmw.core")
-local I = require("openmw.interfaces")
-local nearby = require("openmw.nearby")
-local self = require("openmw.self")
-local types = require("openmw.types")
-local ui = require("openmw.ui")
-local util = require("openmw.util")
+-- Show Me Everything 2.0 - Actor UI core
+-- OpenMW 0.51 / Lua API v129 baseline.
+-- Architecture: one target provider, one root UI element, event-driven damage,
+-- and polling only for the actor that is actually being displayed.
+
+local async = require('openmw.async')
+local camera = require('openmw.camera')
+local core = require('openmw.core')
+local I = require('openmw.interfaces')
+local nearby = require('openmw.nearby')
+local self = require('openmw.self')
 local storage = require('openmw.storage')
-local l10n = core.l10n('SME')
+local types = require('openmw.types')
+local ui = require('openmw.ui')
+local util = require('openmw.util')
+local styles = require('scripts.sme_styles')
 
-local settings = {
-    behavior = storage.playerSection('SMESettingsBh'),
-    style = storage.playerSection('SMESettingsSt'),
-}
-
-
-local raycastCurrentLength
-local checkingRay = false
-
-local fadeOutTimer = 0
-local fadeOutTime = 1
-local isFadeOut = false
-local timeToShow = 0
-local focusTime = 1
-local combatTime = 3
-local widgetIsShowing = false
-
-local barSize = util.vector2(252, 12)
-
-local npcRecord
-
+local behavior = storage.playerSection('SMESettingsBh')
+local styleSettings = storage.playerSection('SMESettingsSt')
+local hitChanceSettings = storage.playerSection('SMEHitChanceSettings')
 
 local isNPC = types.NPC.objectIsInstance
 local isCreature = types.Creature.objectIsInstance
+local isActor = function(obj)
+    return obj and (isNPC(obj) or isCreature(obj))
+end
 
-local cachedActorTickTime = 0.1
-local cachedActorTickTimer = 0
+local FOCUS_SHOW_TIME = 1.0
+local COMBAT_SHOW_TIME = 3.0
+local FADE_TIME = 1.0
+local HEALTH_POLL_INTERVAL = 0.10
+local TARGET_INTERVAL = 1 / 60
+local STATE_TTL = 60
+local CLEANUP_INTERVAL = 5
+local HEALTH_ANIM_BASE = 0.8
+local MELEE_RANGE = 192
+local MARKSMAN_RANGE = 4000
 
-local lastNPCTable = {}
-local lastNPCMaxTableSize = 7
-local tableTimerMaxTime = 60
-
-local healthAnimTimeBase = 0.8
-
-local healthText
-
-local commonTimer = 0
-local commonCheckTime = 0.1
-local isShowTime = false
-
-local overridingTimer = 0
-local isOverridingTime = false
-
-local healthBarSize = util.vector2(252, 12)
-
-local currentActorInFocus = nil
-
-local timerToUpdateAfterWater = 0
-local standartWidgetPos
-local needToUpdateWhileSwimming = true
-local timeToUpdateAfterWater = 3
-local tooltipTarget
-
-local healthBarElement = ui.create {
-    name = 'healthBarContent',
-    props = {
-        visible = false,
-        relativeSize = util.vector2(1, 1),
-        relativePosition = util.vector2(0.5, 0.5),
-      },
-    content = I.SME_STYLE.getStyleVanilla(),
-}
-
-local damageElement = ui.create {
-	type = ui.TYPE.Text,
-	props = {
-	  relativePosition = util.vector2(0, 0),
-	  anchor = util.vector2(0.5, 0.5),
-	  text = '',
-	  textSize = 14,
-	  textShadow = true,
-	  textShadowColor =	util.color.rgb(0, 0, 0),
-	  textColor = util.color.rgb(200 / 255, 200 / 255, 200 / 255),
-	  visible = false,
-	},
-  }
-
-  local nameElement = ui.create {
-	-- important not to forget the layer
-	-- by default widgets are not attached to any layer and are not visible
-	type = ui.TYPE.Text,
-	props = {
-	  -- position in the top right corner
-	  relativePosition = util.vector2(0.5, 0.08),
-	  -- position is for the top left corner of the widget by default
-	  -- change it to align exactly to the top right corner of the screen
-	  anchor = util.vector2(0.5, 0),
-	  text = '',
-	  textSize = 19,
-	  textShadow = true,
-	  textShadowColor =	util.color.rgb(0, 0, 0),
-	  -- default black text color isn't always visible
-	  textColor = util.color.rgb(200 / 255, 200 / 255, 200 / 255),
-	  visible = true,
-	},
-  }
-
-  local healthTextElement = ui.create {
-	-- important not to forget the layer
-	-- by default widgets are not attached to any layer and are not visible
-	type = ui.TYPE.Text,
-	props = {
-	  -- position in the top right corner
-	  --relativePosition = util.vector2(0.50, 0.113),
-	  -- position is for the top left corner of the widget by default
-	  -- change it to align exactly to the top right corner of the screen
-	  anchor = util.vector2(0.5, 0),
-	  text = '',
-	  textSize = 14,
-	  textShadow = true,
-	  textShadowColor =	util.color.rgb(0, 0, 0),
-	  -- default black text color isn't always visible
-	  textColor = util.color.rgb(1, 1, 1, 1),
-	  visible = true,
-	},
-  }
-
-local healthBarFull = ui.create {
-	name = 'TutorialNotifyMenu',
-	l10n = 'SME',
-	layer = 'HUD',
-	-- This is a helper template, which sets up this interface element in the style of Morrowind.
-	-- Reference: https://openmw.readthedocs.io/en/latest/reference/lua-scripting/interface_mwui.html
-	--template = I.MWUI.templates.boxTransparent,
-	type = ui.TYPE.Widget,
-    props = {
-		anchor = util.vector2(0.5, 0),
-		relativePosition = util.vector2(0.5, 0.035),
-		visible = true,
-		size = util.vector2(256, 24),
-        --template = I.MWUI.templates.boxTransparent,
-		-- Menu positioning props:
-		-- Reference: https://openmw.readthedocs.io/en/latest/reference/lua-scripting/widgets/widget.html
-
-		-- Pin the bottom center (50% X 100% Y) of this container to ...
-		----anchor = util.vector2(0.5, 1),
-		
-		-- the screen horizontal center and near the bottom of the screen (50% X 95% Y).
-        ----relativePosition = util.vector2(0.5, 0.95),
-	},
-	-- Use ui.content for every content field.
-	content = ui.content 
-    {
-        healthBarElement,
-        damageElement,
-        nameElement,
-        healthTextElement,
+local stylePresets = {
+    ['Vanilla'] = {
+        rootSize = util.vector2(450, 70), barSize = util.vector2(260, 16), healthBarPos = util.vector2(0, 0.29),
+        damagePos = util.vector2(0.735, 0.83), healthPos = util.vector2(0.50, 0.429), nameSize = 17.5, namePos = util.vector2(0.5, 0.047),
+    },
+    ['Skyrim'] = {
+        rootSize = util.vector2(450, 60), barSize = util.vector2(252, 12), healthBarPos = util.vector2(0, 0.29),
+        damagePos = util.vector2(0.735, 0.87), healthPos = util.vector2(0.50, 0.432), nameSize = 18, namePos = util.vector2(0.5, 0.03),
+    },
+    ['Sky Nostalgy'] = {
+        rootSize = util.vector2(450, 60), barSize = util.vector2(307, 10), healthBarPos = util.vector2(0, 0.29),
+        damagePos = util.vector2(0.76, 0.87), healthPos = util.vector2(0.50, 0.43), nameSize = 17, namePos = util.vector2(0.5, 0.052),
+    },
+    ['Flat'] = {
+        rootSize = util.vector2(450, 65), barSize = util.vector2(300, 16), healthBarPos = util.vector2(0, 0.15),
+        damagePos = util.vector2(0.9, 0.548), healthPos = util.vector2(0.50, 0.735), nameSize = 18, namePos = util.vector2(0.5, 0),
+    },
+    ['Minimal Vanilla'] = {
+        rootSize = util.vector2(400, 40), barSize = util.vector2(180, 30), healthBarPos = util.vector2(0, 0.14),
+        damagePos = util.vector2(0.94, 0.83), healthPos = util.vector2(0.50, 0.65), nameSize = 16, namePos = util.vector2(0.5, 0.067),
+    },
+    ['Sixth House'] = {
+        rootSize = util.vector2(400, 70), barSize = util.vector2(275, 18), healthBarPos = util.vector2(0, 0),
+        damagePos = util.vector2(0.78, 0.85), healthPos = util.vector2(0.50, 0.45), nameSize = 16, namePos = util.vector2(0.5, 0.077),
     },
 }
 
+local root = ui.create {
+    name = 'TutorialNotifyMenu',
+    l10n = 'UITutorial',
+    layer = 'HUD',
+    type = ui.TYPE.Widget,
+    props = {
+        anchor = util.vector2(0.5, 0),
+        relativePosition = util.vector2(0.5, 0.035),
+        visible = false,
+        alpha = 1,
+        size = util.vector2(450, 70),
+    },
+    content = ui.content {
+        {
+            name = 'healthBarContent',
+            type = ui.TYPE.Widget,
+            props = { relativeSize = util.vector2(1, 1), relativePosition = util.vector2(0, 0.29) },
+            content = styles.get('Vanilla'),
+        },
+        {
+            name = 'damageText',
+            type = ui.TYPE.Text,
+            props = {
+                relativePosition = util.vector2(0.735, 0.83), anchor = util.vector2(0.5, 0.5), text = '', textSize = 14,
+                textShadow = true, textShadowColor = util.color.rgb(0, 0, 0), textColor = util.color.rgb(200 / 255, 200 / 255, 200 / 255), visible = false,
+            },
+        },
+        {
+            name = 'nameText',
+            type = ui.TYPE.Text,
+            props = {
+                relativePosition = util.vector2(0.5, 0.047), anchor = util.vector2(0.5, 0), text = '', textSize = 17.5,
+                textShadow = true, textShadowColor = util.color.rgb(0, 0, 0), textColor = util.color.rgb(200 / 255, 200 / 255, 200 / 255), visible = true,
+            },
+        },
+        {
+            name = 'healthText',
+            type = ui.TYPE.Text,
+            props = {
+                relativePosition = util.vector2(0.50, 0.429), anchor = util.vector2(0.5, 0), text = '', textSize = 14,
+                textShadow = true, textShadowColor = util.color.rgb(0, 0, 0), textColor = util.color.rgb(1, 1, 1, 1), visible = true,
+            },
+        },
+    },
+}
 
+local healthBarLayout = root.layout.content['healthBarContent']
+local damageLayout = root.layout.content['damageText']
+local nameLayout = root.layout.content['nameText']
+local healthTextLayout = root.layout.content['healthText']
 
+local barSize = util.vector2(260, 16)
+local standardWidgetPos = util.vector2(0.5, 0.035)
+local currentStyle = 'Vanilla'
+local rootDirty = true
+local settingsDirty = true
+local metadataGeneration = 0
 
---UI UPDATE FUNCTIONS
-local function disableHealthValues()
-    local disabled = not settings.behavior:get('SMEHealth')
-    healthTextElement.layout.props.text = ''
-    local healthBarContent = healthBarElement.layout.content
-    if healthBarContent == I.SME_STYLE.getStyleFlat() and not settings.behavior:get('SMEHealth') then
-        healthBarContent["healthBG"].props.visible = false
-    elseif healthBarContent == I.SME_STYLE.getStyleFlat() then
-        healthBarContent["healthBG"].props.visible = true
+local states = {}
+local currentState = nil
+local activeDamageStates = {}
+local showTimer = 0
+local focusLockTimer = 0
+local fading = false
+local fadeTimer = 0
+local healthPollTimer = 0
+local cleanupTimer = 0
+local swimming = false
+local swimRestoreTimer = 0
+local hudSuppressed = false
+
+-- Shared target provider -----------------------------------------------------
+local targetSnapshot = { object = nil, distance = nil, hitPos = nil, sequence = 0 }
+local targetAccumulator = TARGET_INTERVAL
+local targetPending = false
+local targetGeneration = 0
+local lastDemandRange = 0
+local lastProcessedTargetSequence = -1
+
+local weaponSkillMap = {
+    [types.Weapon.TYPE.AxeOneHand] = 'axe',
+    [types.Weapon.TYPE.AxeTwoHand] = 'axe',
+    [types.Weapon.TYPE.BluntOneHand] = 'bluntweapon',
+    [types.Weapon.TYPE.BluntTwoClose] = 'bluntweapon',
+    [types.Weapon.TYPE.BluntTwoWide] = 'bluntweapon',
+    [types.Weapon.TYPE.LongBladeOneHand] = 'longblade',
+    [types.Weapon.TYPE.LongBladeTwoHand] = 'longblade',
+    [types.Weapon.TYPE.MarksmanBow] = 'marksman',
+    [types.Weapon.TYPE.MarksmanCrossbow] = 'marksman',
+    [types.Weapon.TYPE.MarksmanThrown] = 'marksman',
+    [types.Weapon.TYPE.ShortBladeOneHand] = 'shortblade',
+    [types.Weapon.TYPE.SpearTwoWide] = 'spear',
+}
+
+local function markDirty()
+    rootDirty = true
+end
+
+local function commit()
+    if rootDirty then
+        root:update()
+        rootDirty = false
     end
 end
 
-local function updateFlatHealthBG()
-    local healthBarContent = healthBarElement.layout.content
-    if healthBarContent == I.SME_STYLE.getStyleFlat() and not settings.behavior:get('SMEHealth') then
-        healthBarContent["healthBG"].props.visible = false
-    elseif healthBarContent == I.SME_STYLE.getStyleFlat() then
-        healthBarContent["healthBG"].props.visible = true
+local function validObject(obj)
+    return obj ~= nil and obj:isValid()
+end
+
+local function clearTarget()
+    if targetSnapshot.object ~= nil or targetSnapshot.distance ~= nil then
+        targetSnapshot = { object = nil, distance = nil, hitPos = nil, sequence = targetSnapshot.sequence + 1 }
     end
 end
 
-local function updateStandartPositions()
-    standartWidgetPos = healthBarFull.layout.props.relativePosition
+local function hitChanceDemandRange()
+    if not hitChanceSettings:get('hitChanceIsActive') then return 0 end
+    if camera.getMode() ~= camera.MODE.FirstPerson then return 0 end
+    if types.Actor.getStance(self) ~= types.Actor.STANCE.Weapon then return 0 end
+
+    local carried = types.Actor.getEquipment(self, types.Actor.EQUIPMENT_SLOT.CarriedRight)
+    if carried == nil then return MELEE_RANGE end
+    if not types.Weapon.objectIsInstance(carried) then return 0 end
+
+    local record = types.Weapon.record(carried)
+    return weaponSkillMap[record.type] == 'marksman' and MARKSMAN_RANGE or MELEE_RANGE
 end
 
-local function updateWidgetStyle()
-    if settings.style:get('SMEWidgetStyle') == 'Vanilla' then
-        healthBarElement.layout.content = I.SME_STYLE.getStyleVanilla()
-        healthBarFull.layout.props.size = util.vector2(450, 70)
-        healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.29)
-        barSize = util.vector2(260, 16)
-        damageElement.layout.props.relativePosition = util.vector2(0.735, 0.83)
-        healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.429)
-        nameElement.layout.props.textSize = 17.5
-        nameElement.layout.props.relativePosition = util.vector2(0.5, 0.047)
-    elseif settings.style:get('SMEWidgetStyle') == 'Skyrim' then
-        healthBarElement.layout.content = I.SME_STYLE.getStyleSkyrim()
-        healthBarFull.layout.props.size = util.vector2(450, 60)
-        healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.29)
-        barSize = util.vector2(252, 12)
-        damageElement.layout.props.relativePosition = util.vector2(0.735, 0.87)
-        healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.432)
-        nameElement.layout.props.textSize = 18
-        nameElement.layout.props.relativePosition = util.vector2(0.5, 0.03)
-    elseif settings.style:get('SMEWidgetStyle') == 'Sky Nostalgy' then
-        healthBarElement.layout.content = I.SME_STYLE.getStyleNostalgy()
-        barSize = util.vector2(307, 10)
-        healthBarFull.layout.props.size = util.vector2(450, 60)
-        healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.43)
-        healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.29)
-        nameElement.layout.props.textSize = 17
-        nameElement.layout.props.relativePosition = util.vector2(0.5, 0.052)
-        damageElement.layout.props.relativePosition = util.vector2(0.76, 0.87)
-    elseif settings.style:get('SMEWidgetStyle') == 'Flat' then
-        healthBarElement.layout.content = I.SME_STYLE.getStyleFlat()
-        barSize = util.vector2(300, 16)
-        healthBarFull.layout.props.size = util.vector2(450, 65)
-        healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.735)
-        healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.15)
-        nameElement.layout.props.textSize = 18
-        nameElement.layout.props.relativePosition = util.vector2(0.5, 0)
-        damageElement.layout.props.relativePosition = util.vector2(0.9, 0.548)
-    elseif settings.style:get('SMEWidgetStyle') == 'Minimal Vanilla' then
-        healthBarElement.layout.content = I.SME_STYLE.getStyleMinimal()
-        barSize = util.vector2(180, 30)
-        healthBarFull.layout.props.size = util.vector2(400, 40)
-        healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0.14)
-        healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.65)
-        nameElement.layout.props.textSize = 16
-        nameElement.layout.props.relativePosition = util.vector2(0.5, 0.067)
-        damageElement.layout.props.relativePosition = util.vector2(0.94, 0.83)
-    elseif settings.style:get('SMEWidgetStyle') == 'Sixth House' then
-        healthBarElement.layout.content = I.SME_STYLE.getStyleSixthHouse()
-        barSize = util.vector2(275, 18)
-        healthTextElement.layout.props.relativePosition = util.vector2(0.50, 0.45)
-        healthBarFull.layout.props.size = util.vector2(400, 70)
-        healthBarFull.layout.content[1].layout.props.relativePosition = util.vector2(0, 0)
-        nameElement.layout.props.textSize = 16
-        nameElement.layout.props.relativePosition = util.vector2(0.5, 0.077)
-        damageElement.layout.props.relativePosition = util.vector2(0.78, 0.85)
+local function actorUiDemandRange()
+    if not behavior:get('SMEisActive') then return 0 end
+    if behavior:get('SMEonHit') then return 0 end
+    if behavior:get('SMEStance') and types.Actor.getStance(self) == types.Actor.STANCE.Nothing then return 0 end
+    return behavior:get('SMEShowDistance') or 500
+end
+
+local function targetDemandRange()
+    return math.max(actorUiDemandRange(), hitChanceDemandRange())
+end
+
+local function applyRayResult(result, from, requestGeneration)
+    targetPending = false
+    if requestGeneration ~= targetGeneration then return end
+
+    local distance = nil
+    if result and result.hitPos then
+        distance = (result.hitPos - from):length()
     end
-    updateStandartPositions()
-end
-
-local function updateStance()
-    if settings.behavior:get('SMEStance') and types.Actor.getStance(self) == types.Actor.STANCE.Nothing then
-        nameElement.layout.props.visible = false
-	    healthTextElement.layout.props.visible = false
-	    healthBarFull.layout.props.visible = false
-        healthTextElement:update()
-        healthBarFull:update()
-        nameElement:update()
-    end
-end
-
-disableHealthValues()
-updateWidgetStyle()
-updateFlatHealthBG()
-updateStance()
-
-settings.behavior:subscribe(async:callback(disableHealthValues))
-settings.behavior:subscribe(async:callback(updateStance))
-settings.style:subscribe(async:callback(updateWidgetStyle))
-settings.style:subscribe(async:callback(updateFlatHealthBG))
---UI UPDATE FUNCTIONS
-
-
---UI VISIBILITY FUNCTIONS
-local function setOpacityFull()
-    nameElement.layout.props.alpha = 1.0
-    healthTextElement.layout.props.alpha = 1.0
-    healthBarFull.layout.props.alpha = 1.0
-    healthBarFull.layout.content[1].layout.props.alpha = 1.0
-end
-
-local function enableVisibility()
-	nameElement.layout.props.visible = true
-	healthTextElement.layout.props.visible = true
-	healthBarFull.layout.props.visible = true
-    healthBarFull.layout.content[1].layout.props.visible = true
-end
-
-local function hideElements()
-	nameElement.layout.props.visible = false
-	healthTextElement.layout.props.visible = false
-	healthBarFull.layout.props.visible = false
-    healthBarFull.layout.content[1].layout.props.visible = false
-end
-
-local function updateAllElements()
-        healthTextElement:update()
-        healthBarFull:update()
-        nameElement:update()
-        healthBarFull.layout.content[1]:update()
-end
-
-local function fadeOutElements(dt)
-	fadeOutTimer = fadeOutTimer + dt
-		
-	-- Gradually lower alpha to 0 over fadeOutTime
-	local alphaPercentage = 1.0 - fadeOutTimer / fadeOutTime
-	nameElement.layout.props.alpha = math.max(0, alphaPercentage)
-	healthTextElement.layout.props.alpha = math.max(0, alphaPercentage)
-	healthBarFull.layout.props.alpha = math.max(0, alphaPercentage)
-
-	updateAllElements()
-
-	if fadeOutTimer >= fadeOutTime then
-
-		nameElement.layout.props.visible = false
-		healthBarFull.layout.props.visible = false
-		healthTextElement.layout.props.visible = false
-
-		fadeOutTimer = 0
-		updateAllElements()
-		setOpacityFull()
-		isFadeOut = false
-        widgetIsShowing = false
-	end
-end
---UI VISIBILITY FUNCTIONS
-
-
---Casting a raycast and getting our actors
-local function getTooltipTarget(dt)
-    local from = camera.getPosition()
-    local to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * settings.behavior:get('SMERaycastLength')
-
-    if not checkingRay then
-        checkingRay = true
-        nearby.asyncCastRenderingRay(
-            async:callback(function(result)
-                checkingRay = false
-                tooltipTarget = result.hitObject
-                if result.hitPos ~= nil then
-                    raycastCurrentLength = (result.hitPos - from):length()
-                end
-            end),
-            from,
-            to
-        )
-    end
-end
-
---Casting a raycast and getting our actors, sync to be used onFrame
-local function getTooltipTargetSync(dt)
-    local from = camera.getPosition()
-    local to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * settings.behavior:get('SMERaycastLength')
-    
-    local result = nearby.castRenderingRay(from, to)
-    tooltipTarget = result.hitObject
-    if result.hitPos ~= nil then
-        raycastCurrentLength = (result.hitPos - from):length()
-    end
-end
-
---Adding our actors to our table
-local function addNPC(raycastActor)
-    -- Check if the NPC is already in the table    
-    -- If the NPC is not in the table, add it as a new NPC
-    
-    local npc = {
-        actor = raycastActor,
-        timer = tableTimerMaxTime,  -- Initial timer value (in seconds)
-        lastHealth = nil,
-        damage = 0,  -- Initial damage value
-        damageTimer = 0, -- Initial damage timer value
-        isTakingDamage = false,
-        healthBeforeDamage = nil,
-        interpolationWidth = 0,
-        healthInterpolationTime = false,
-        animTimer = 0,
-        currentAnimHealthWidth = nil,
-        isDead = types.Actor.stats.dynamic.health(raycastActor).current <= 0,
+    targetSnapshot = {
+        object = result and result.hitObject or nil,
+        distance = distance,
+        hitPos = result and result.hitPos or nil,
+        sequence = targetSnapshot.sequence + 1,
     }
-
-    table.insert(lastNPCTable, npc)
-    -- Check if the table exceeds the specified size
-    if #lastNPCTable > lastNPCMaxTableSize then
-        table.remove(lastNPCTable, 1)  -- Remove the oldest NPC
-    end
 end
 
---Updating our actors based on time in the table
-local function updateCachedNPC(dt)
-    for i = #lastNPCTable, 1, -1 do
-        local npc = lastNPCTable[i]
-        npc.timer = npc.timer - dt
-
-        if npc.timer <= 0 then
-            -- Remove the NPC with an expired timer
-            table.remove(lastNPCTable, i)
+local function updateTargetProvider(dt)
+    local range = targetDemandRange()
+    if range <= 0 or core.isWorldPaused() or not I.UI.isHudVisible() then
+        if lastDemandRange > 0 then
+            targetGeneration = targetGeneration + 1
+            clearTarget()
         end
+        lastDemandRange = 0
+        return
     end
+
+    if range ~= lastDemandRange then
+        targetGeneration = targetGeneration + 1
+        lastDemandRange = range
+        targetAccumulator = TARGET_INTERVAL
+    end
+
+    targetAccumulator = targetAccumulator + dt
+    if targetAccumulator < TARGET_INTERVAL then return end
+    targetAccumulator = targetAccumulator % TARGET_INTERVAL
+
+    -- OpenMW 0.52+ can reuse the engine's internal focus query for vanilla
+    -- reach. 0.51 simply falls through to the async raycast path.
+    if camera.getFocusRay and range <= MELEE_RANGE then
+        local result = camera.getFocusRay()
+        if result then
+            local from = camera.getPosition()
+            local distance = result.hitPos and (result.hitPos - from):length() or nil
+            targetSnapshot = { object = result.hitObject, distance = distance, hitPos = result.hitPos, sequence = targetSnapshot.sequence + 1 }
+        else
+            clearTarget()
+        end
+        return
+    end
+
+    if targetPending then return end
+    targetPending = true
+    local from = camera.getPosition()
+    local to = from + camera.viewportToWorldVector(util.vector2(0.5, 0.5)) * range
+    local requestGeneration = targetGeneration
+    nearby.asyncCastRenderingRay(async:callback(function(result)
+        applyRayResult(result, from, requestGeneration)
+    end), from, to)
 end
 
---Rendering name, taking NPC
-local function getName(actor)
-    if isNPC(actor) then
-		npcRecord = types.NPC.record(actor)
-	elseif isCreature(actor) then
-		npcRecord = types.Creature.record(actor)
-	end
+-- Actor model ---------------------------------------------------------------
+local function actorRecord(actor)
+    if isNPC(actor) then return types.NPC.record(actor) end
+    if isCreature(actor) then return types.Creature.record(actor) end
+end
 
-    local name = npcRecord.name
-    
-    if settings.behavior:get('SMELevel') then
-        --name = name .. " (" .. types.Actor.stats.level(actor).current .. ")"
-        name = name .. ", Lv. " .. types.NPC.stats.level(actor).current
+local function titleCaseClass(class)
+    if not class or class == '' then return '' end
+    if string.match(class, '^t_glb_') then
+        class = string.gsub(class, '^t_glb_', '')
     end
-    
-    if settings.behavior:get('SMEClass') then
-        local class
-        --local services = npcRecord.servicesOffered
-        --for service, isProvided in pairs(npcRecord.servicesOffered) do
-            --if isProvided then
-                --print("This NPC provides service: " .. service)
-            --else
-                --print("This NPC does not provide service: " .. service)
-            --end
-        --end
-        --print('Services: ' ,npcRecord.servicesOffered)
-        if isNPC(actor) then
-            class = types.NPC.classes.record(types.NPC.record(actor).class).name
-            if string.match(class, "^t_glb_") then
-                -- String starts with "t_glb", clean the class
-                class = string.gsub(class, "^t_glb_", "")
-            end
+    return string.gsub(' ' .. class, '%W%l', string.upper):sub(2)
+end
+
+local function buildActorName(actor)
+    local record = actorRecord(actor)
+    if not record then return '' end
+
+    local name = record.name or ''
+    if behavior:get('SMELevel') then
+        name = name .. ', Lv. ' .. tostring(types.Actor.stats.level(actor).current)
+    end
+    if behavior:get('SMEClass') and isNPC(actor) then
+        local classRecord = types.NPC.classes.record(record.class)
+        if classRecord and classRecord.name and classRecord.name ~= '' then
+            name = name .. ' ' .. titleCaseClass(classRecord.name)
         end
-        class = (class and (" " .. class) or "")
-        name = name .. string.gsub(" "..class, "%W%l", string.upper):sub(2)
     end
-    
-    --if settings.behavior:get('SMELevel') then
-    --    name = name .. " (" .. types.Actor.stats.level(actor).current .. ")"
-    --    --name = "Lv. " .. types.Actor.stats.level(actor).current .. " " .. name
-    --end
-
     return name
-
 end
 
-
-
---Getting health Values
-local function getHealthBar(actor)
-	local healthCurrent = math.floor(types.Actor.stats.dynamic.health(actor).current)
-    local healthBase = math.floor(types.Actor.stats.dynamic.health(actor).base)
-    if healthCurrent <= 0 then
-        if settings.behavior:get('SMEHealth') then
-		    healthTextElement.layout.props.text = l10n("Dead")
-        end
-		healthBarSize = util.vector2(0, 1)
-		return healthBarSize
-		--healthTextElement.props.text = "Health: " .. util.round(types.Actor.stats.dynamic.health(tooltipTarget).current) .. " / " .. types.Actor.stats.dynamic.health(tooltipTarget).base
-	else
-		--healthTextElement.props.text = "Dead"
-		local ratio = healthCurrent / healthBase
-        healthBarSize = barSize:emul(util.vector2(ratio, 1))
-        return healthBarSize
-	end
+local function getHealth(actor)
+    local stat = types.Actor.stats.dynamic.health(actor)
+    return stat.current, stat.base
 end
 
-
---Getting health text values
-local function getHealthText(actor)
-	local healthCurrent = math.floor(types.Actor.stats.dynamic.health(actor).current)
-	local healthBase = math.floor(types.Actor.stats.dynamic.health(actor).base)
-    if healthCurrent <= 0 then
-        local healthText = l10n("Dead")
-        return healthText
+local function ensureState(actor, initialHealth)
+    if not validObject(actor) then return nil end
+    local id = actor.id
+    local state = states[id]
+    if not state then
+        local current, base = getHealth(actor)
+        state = {
+            actor = actor,
+            id = id,
+            lastHealth = initialHealth or current,
+            baseHealth = base,
+            name = nil,
+            nameGeneration = -1,
+            ttl = STATE_TTL,
+            damage = 0,
+            damageTimer = 0,
+            damageStartHealth = nil,
+            animating = false,
+            animElapsed = 0,
+            animDuration = 0,
+            animFromWidth = nil,
+            animToWidth = nil,
+            animWidth = nil,
+        }
+        states[id] = state
     else
-        -- Convert health values to strings
-        local strHealthCurrent = tostring(healthCurrent)
-        local strHealthBase = tostring(healthBase)
-
-        -- Calculate the number of digits in each value
-        local numDigitsCurrent = string.len(strHealthCurrent)
-        local numDigitsBase = string.len(strHealthBase)
-
-        -- If the number of digits in healthBase is greater, add spaces to healthCurrent
-        if numDigitsBase > numDigitsCurrent then
-            local numSpacesToAdd = numDigitsBase - numDigitsCurrent
-            local spaces = string.rep(" ", numSpacesToAdd)
-            healthCurrent = spaces .. strHealthCurrent
-        end
-
-        -- Create the healthText with the adjusted healthCurrent
-        local healthText = healthCurrent .. " / " .. strHealthBase
-        return healthText
-    end	
+        state.actor = actor
+        state.ttl = STATE_TTL
+    end
+    return state
 end
 
-local function getAnimHealthBar(npc, healthBar)
-    local animHealthBarWidth
-    
-    if npc.isTakingDamage then
-        animHealthBarWidth = npc.interpolationWidth
+local function healthRatio(current, base)
+    if not base or base <= 0 then return 0 end
+    return math.max(0, current / base)
+end
+
+local function healthWidth(current, base)
+    return barSize:emul(util.vector2(healthRatio(current, base), 1))
+end
+
+local function healthText(current, base)
+    current = math.floor(current or 0)
+    base = math.floor(base or 0)
+    if current <= 0 then return 'Dead' end
+    local a, b = tostring(current), tostring(base)
+    if #b > #a then a = string.rep(' ', #b - #a) .. a end
+    return a .. ' / ' .. b
+end
+
+local function refreshMetadata(state)
+    if state.nameGeneration ~= metadataGeneration then
+        state.name = buildActorName(state.actor)
+        state.nameGeneration = metadataGeneration
+    end
+end
+
+local function renderCurrentState()
+    local state = currentState
+    if not state or not validObject(state.actor) then return end
+    refreshMetadata(state)
+
+    local current, base = state.lastHealth, state.baseHealth
+    nameLayout.props.text = state.name
+    healthTextLayout.props.text = behavior:get('SMEHealth') and healthText(current, base) or ''
+
+    local content = healthBarLayout.content
+    content['hbBar'].props.size = healthWidth(current, base)
+    if state.animating and state.animWidth then
+        content['hbBarAnim'].props.size = state.animWidth
+    elseif state.damageTimer > 0 and state.animWidth then
+        content['hbBarAnim'].props.size = state.animWidth
     else
-        animHealthBarWidth = healthBar
+        content['hbBarAnim'].props.size = healthWidth(current, base)
     end
-    return animHealthBarWidth
+
+    if currentStyle == 'Flat' and content['healthBG'] then
+        content['healthBG'].props.visible = behavior:get('SMEHealth')
+    end
+
+    if behavior:get('SMEDamage') and state.damageTimer > 0 and state.damage > 0 then
+        damageLayout.props.text = tostring(util.round(state.damage))
+        damageLayout.props.visible = true
+    else
+        damageLayout.props.text = ''
+        damageLayout.props.visible = false
+    end
+    markDirty()
 end
 
---Function to renew widgets time and resetting the fadeout if in process
-local function renewWidget(time)
-    widgetIsShowing = true
-    isFadeOut = false
-    fadeOutTimer = 0
-    timeToShow = time
+local function selectState(state)
+    if currentState ~= state then
+        currentState = state
+        renderCurrentState()
+    end
 end
 
---Function to turn on the main widgets
-local function showWidgets(npc)
+local function renewWidget(seconds)
+    showTimer = math.max(showTimer, seconds)
+    fading = false
+    fadeTimer = 0
+    if not root.layout.props.visible then
+        root.layout.props.visible = true
+        markDirty()
+    end
+    if root.layout.props.alpha ~= 1 then
+        root.layout.props.alpha = 1
+        markDirty()
+    end
+end
 
-    if currentActorInFocus and npc.actor == currentActorInFocus then
-        local name = getName(npc.actor)
-        local healthBar = getHealthBar(npc.actor)
+local function hideImmediately()
+    showTimer = 0
+    fading = false
+    fadeTimer = 0
+    if root.layout.props.visible then
+        root.layout.props.visible = false
+        root.layout.props.alpha = 1
+        markDirty()
+    end
+end
 
-        if settings.behavior:get('SMEHealth') then
-            healthText = getHealthText(npc.actor)
-            healthTextElement.layout.props.text = healthText
+local function applyStyle()
+    currentStyle = styleSettings:get('SMEWidgetStyle') or 'Vanilla'
+    local preset = stylePresets[currentStyle] or stylePresets['Vanilla']
+    barSize = preset.barSize
+    root.layout.props.size = preset.rootSize
+    healthBarLayout.props.relativePosition = preset.healthBarPos
+    healthBarLayout.content = styles.get(currentStyle)
+    damageLayout.props.relativePosition = preset.damagePos
+    healthTextLayout.props.relativePosition = preset.healthPos
+    nameLayout.props.textSize = preset.nameSize
+    nameLayout.props.relativePosition = preset.namePos
+    standardWidgetPos = util.vector2(0.5, 0.035)
+    root.layout.props.relativePosition = swimming and util.vector2(standardWidgetPos.x, standardWidgetPos.y + 0.07) or standardWidgetPos
+    if currentState and validObject(currentState.actor) then renderCurrentState() end
+    markDirty()
+end
+
+local function onSettingsChanged()
+    settingsDirty = true
+    metadataGeneration = metadataGeneration + 1
+end
+
+behavior:subscribe(async:callback(onSettingsChanged))
+styleSettings:subscribe(async:callback(onSettingsChanged))
+hitChanceSettings:subscribe(async:callback(function() targetAccumulator = TARGET_INTERVAL end))
+
+local function registerDamage(state, before, after)
+    local damage = before - after
+    if damage <= 0 then return end
+
+    if state.damageTimer <= 0 then
+        state.damage = 0
+        state.damageStartHealth = before
+        local trailingWidth = state.animating and state.animWidth or healthWidth(before, state.baseHealth)
+        state.animating = false
+        state.animWidth = trailingWidth
+    end
+    state.damage = state.damage + damage
+    state.damageTimer = 1.0
+    state.lastHealth = after
+    state.ttl = STATE_TTL
+    activeDamageStates[state.id] = state
+end
+
+local function onPlayerHitActor(data)
+    if not data or not validObject(data.target) or not isActor(data.target) then return end
+    local state = ensureState(data.target, data.healthBefore)
+    if not state then return end
+
+    local current, base = getHealth(data.target)
+    state.baseHealth = base
+    local before = data.healthBefore or state.lastHealth or current
+    -- Multiple hit events can be delivered together. The first event observes
+    -- the complete health delta; later events see the already-synchronised value.
+    if state.lastHealth ~= current then
+        registerDamage(state, before, current)
+    end
+
+    if behavior:get('SMEisActive') then
+        if behavior:get('SMEonHit') or not currentState or currentState == state or focusLockTimer <= 0 then
+            selectState(state)
         end
-
-        if not npc.healthInterpolationTime then
-            local animHealthBar = getAnimHealthBar(npc, healthBar)
-            healthBarFull.layout.content[1].layout.content["hbBarAnim"].props.size = animHealthBar
-        end
-        nameElement.layout.props.text = name
-        
-        healthBarFull.layout.content[1].layout.content["hbBar"].props.size = healthBar
-
-        enableVisibility()
-        setOpacityFull()
-        updateAllElements()
-    end
-end
-
-local function rayCastChecker()
-
-    if tooltipTarget and (isNPC(tooltipTarget) or isCreature(tooltipTarget)) and tooltipTarget.recordId ~= 'player' then
-
-        if not settings.behavior:get('SMEnotForDead') and types.Actor.isDead(tooltipTarget) then
-            return
-        end
-
-        local isTargetInTable = false
-        for _, npc in ipairs(lastNPCTable) do
-            if npc.actor == tooltipTarget then
-            isTargetInTable = true
-            break
-            end
-        end
-        --print('Is target in the table? ',isTargetInTable)
-        if not isTargetInTable then
-            addNPC(tooltipTarget)
-        end
-        --print('TooltipTarget: ', tooltipTarget)
-        if raycastCurrentLength < settings.behavior:get('SMEShowDistance') then
-			--Updating timers and bool that our timer is shown
-			for _, npc in ipairs(lastNPCTable) do
-                if npc.actor == tooltipTarget then
-                    currentActorInFocus = npc.actor
-                    if (types.Actor.getStance(self) == types.Actor.STANCE.Nothing and settings.behavior:get('SMEStance')) or settings.behavior:get('SMEonHit') then
-                        lastActorInFocus = tooltipTarget
-                        overridingTimer = focusTime
-                        isOverridingTime = true
-                    else
-                        showWidgets(npc)
-                        lastActorInFocus = tooltipTarget
-                        renewWidget(focusTime)
-                        overridingTimer = focusTime
-                        isOverridingTime = true
-                        if not npc.isTakingDamage then
-                            damageElement.layout.props.text = ''
-                            damageElement.layout.props.visible = false
-                            damageElement:update()
-                        end
-                    end
-                    
-                    break
-                end
-            end
+        if currentState == state then
+            renderCurrentState()
+            renewWidget(COMBAT_SHOW_TIME)
         end
     end
 end
 
---if timer is zero or less, return true
-local function hasShowingTimeEnded(dt)
-    if timeToShow > 0 then
-        timeToShow = timeToShow - dt
+-- Runtime -------------------------------------------------------------------
+local function processFocusedTarget()
+    if targetSnapshot.sequence == lastProcessedTargetSequence then return end
+    lastProcessedTargetSequence = targetSnapshot.sequence
+    if not behavior:get('SMEisActive') or behavior:get('SMEonHit') then return end
+    if behavior:get('SMEStance') and types.Actor.getStance(self) == types.Actor.STANCE.Nothing then return end
+
+    local target = targetSnapshot.object
+    local distance = targetSnapshot.distance
+    if not validObject(target) or not isActor(target) or types.Player.objectIsInstance(target) then return end
+    if not distance or distance >= (behavior:get('SMEShowDistance') or 500) then return end
+    if not behavior:get('SMEnotForDead') and types.Actor.isDead(target) then return end
+
+    local state = ensureState(target)
+    if not state then return end
+    if currentState ~= state then
+        local current, base = getHealth(target)
+        state.lastHealth = current
+        state.baseHealth = base
     end
-    --print('Time to show timer: ' .. timeToShow)
-    return timeToShow <= 0
+    selectState(state)
+    focusLockTimer = FOCUS_SHOW_TIME
+    renewWidget(FOCUS_SHOW_TIME)
 end
 
---if timer 
-local function widgetHideHandler()
-    if not isShowTime and widgetIsShowing then
-        isFadeOut = true
-    end
-end
-
-local function showDamageWidget(damage, actor)
-    -- Find the NPC in lastNPCTable
-    for _, npc in ipairs(lastNPCTable) do
-        if npc.actor == actor then
-            if npc.actor == currentActorInFocus and npc.isTakingDamage then
-                damageElement.layout.props.text = tostring(util.round(npc.damage))
-                damageElement.layout.props.visible = true
-                damageElement:update()
-            end
-
-            return  -- Exit the function once the update is done
-        end
-    end
-end
-
-local function calculateStartingAnimWidth(npc)
-    
-    local baseHealth = math.floor(types.Actor.stats.dynamic.health(npc.actor).base)
-    local ratio = npc.healthBeforeDamage / baseHealth
-    local healthBarSize = barSize:emul(util.vector2(ratio, 1))
-    npc.interpolationWidth = barSize:emul(util.vector2(ratio, 1))
-    npc.currentAnimHealthWidth = npc.interpolationWidth
-
-end
-
-local function updateDamageInfo(npc, actor, health)
-    if health < npc.lastHealth then
-        local damageAmount = npc.lastHealth - health
-        for _, npc in ipairs(lastNPCTable) do
-            if npc.actor == actor then
-                npc.damageTimer = 1
-                npc.isTakingDamage = true
-                npc.damage = npc.damage + damageAmount
-                if npc.healthBeforeDamage == nil then
-                    npc.healthBeforeDamage = npc.lastHealth
-                    calculateStartingAnimWidth(npc)
-                end
-                if settings.behavior:get('SMEDamage') then
-                    showDamageWidget(damageAmount, actor)
-                end
-                break
-            end
-        end
-
-    end
-    if overridingTimer <= 0 or actor == currentActorInFocus then
-        showWidgets(npc)
-        renewWidget(combatTime)
-    end
-end
-
-local function updateActorInFocus(npc, actor, health)
-
-    if overridingTimer <= 0 then
-        currentActorInFocus = actor 
-        --print('Actor in focus updated!')
-    end
-end
-
-
-local function updateIndividualHealth(npc)
-    local actor = npc.actor
-    --print('Dead?: ', types.Actor.isDead(actor))
-    if not (isNPC(actor) or isCreature(actor)) then
+local function pollDisplayedHealth(elapsed)
+    local state = currentState
+    if not state or not validObject(state.actor) then
+        healthPollTimer = 0
         return
     end
-    local health = types.Actor.stats.dynamic.health(actor).current
-
-    if npc.lastHealth and npc.lastHealth ~= health then
-        local currentRecord
-
-        if isNPC(actor) then
-            currentRecord = types.NPC.record(actor)
-        elseif isCreature(actor) then
-            currentRecord = types.Creature.record(actor)
-        end
-
-        if health ~= npc.lastHealth then
-            updateActorInFocus(npc, actor, health)
-            updateDamageInfo(npc, actor, health)
-        end
-    end
-
-    
-
-    npc.lastHealth = health
-end
-
-
-local function updateHealth(dt)
-    if #lastNPCTable == 0 then
+    if not root.layout.props.visible and state.damageTimer <= 0 and not state.animating then
+        healthPollTimer = 0
         return
     end
 
-    cachedActorTickTimer = cachedActorTickTimer + dt
+    healthPollTimer = healthPollTimer + elapsed
+    if healthPollTimer < HEALTH_POLL_INTERVAL then return end
+    healthPollTimer = healthPollTimer % HEALTH_POLL_INTERVAL
 
-    if cachedActorTickTimer < cachedActorTickTime then
-        return
-    end
+    local current, base = getHealth(state.actor)
+    local changed = current ~= state.lastHealth or base ~= state.baseHealth
 
-    cachedActorTickTimer = 0
-    --print('Updating health')
-    for _, npc in ipairs(lastNPCTable) do
-        updateIndividualHealth(npc)
+    if current < state.lastHealth then
+        registerDamage(state, state.lastHealth, current)
+        renewWidget(COMBAT_SHOW_TIME)
+    else
+        state.lastHealth = current
     end
+    state.baseHealth = base
+    state.ttl = STATE_TTL
+
+    if changed then renderCurrentState() end
 end
 
-local function updateDamageTimers(commonTimer)
-    if #lastNPCTable > 0 then
-        for _, npc in ipairs(lastNPCTable) do
-            if npc.isTakingDamage then
-                npc.damageTimer = npc.damageTimer - commonTimer
-
-                if npc.damageTimer <= 0 then
-                    npc.damage = 0 -- Reset damage when the timer expires
-                    npc.isTakingDamage = false -- Reset the flag
-                    npc.healthInterpolationTime = true
-                    
-                    if settings.behavior:get('SMEDamage') then
-                        damageElement.layout.props.text = ''
-                        damageElement.layout.props.visible = false
-                        damageElement:update()
-                    end
-
-                end
+local function updateDamageTimers(dt)
+    for id, state in pairs(activeDamageStates) do
+        if not validObject(state.actor) then
+            activeDamageStates[id] = nil
+        else
+            state.damageTimer = state.damageTimer - dt
+            if state.damageTimer <= 0 then
+                state.damageTimer = 0
+                state.damage = 0
+                state.animating = true
+                state.animElapsed = 0
+                local current, base = getHealth(state.actor)
+                state.lastHealth = current
+                state.baseHealth = base
+                state.animFromWidth = state.animWidth or healthWidth(state.damageStartHealth or current, base)
+                state.animToWidth = healthWidth(current, base)
+                local lost = math.max(0, (state.damageStartHealth or current) - current)
+                local lostPercent = base > 0 and lost / base or 0
+                state.animDuration = math.max(HEALTH_ANIM_BASE * lostPercent, 0.2)
+                activeDamageStates[id] = nil
+                if currentState == state then renderCurrentState() end
             end
         end
     end
 end
 
-local function healthAnimation(dt)
-    for _, npc in ipairs(lastNPCTable) do
-        if npc.healthInterpolationTime then
-            npc.animTimer = npc.animTimer + dt
+local function updateCurrentAnimation(dt)
+    local state = currentState
+    if not state or not state.animating then return end
+    state.animElapsed = state.animElapsed + dt
+    local duration = math.max(state.animDuration, 0.001)
+    local t = math.min(1, state.animElapsed / duration)
+    local from = state.animFromWidth or healthWidth(state.lastHealth, state.baseHealth)
+    local to = state.animToWidth or healthWidth(state.lastHealth, state.baseHealth)
+    state.animWidth = util.vector2(from.x + (to.x - from.x) * t, barSize.y)
+    renderCurrentState()
+    if t >= 1 then
+        state.animating = false
+        state.animElapsed = 0
+        state.damageStartHealth = nil
+        state.animFromWidth = nil
+        state.animToWidth = nil
+        state.animWidth = nil
+        renderCurrentState()
+    end
+end
 
-            local finalHealthForInterpolation = types.Actor.stats.dynamic.health(npc.actor).current
-            local maxIntActorHealth = types.Actor.stats.dynamic.health(npc.actor).base
-            
-            local ratio = finalHealthForInterpolation / maxIntActorHealth
-            local amount = npc.healthBeforeDamage - finalHealthForInterpolation
-            local lostPercent = (amount / maxIntActorHealth) * 100
-            
-            local animTime = math.max(healthAnimTimeBase * (lostPercent / 100), 0.2)
+local function updateVisibility(dt)
+    if showTimer > 0 then
+        showTimer = math.max(0, showTimer - dt)
+    elseif root.layout.props.visible and not fading then
+        fading = true
+        fadeTimer = 0
+    end
 
+    if fading then
+        fadeTimer = fadeTimer + dt
+        root.layout.props.alpha = math.max(0, 1 - fadeTimer / FADE_TIME)
+        markDirty()
+        if fadeTimer >= FADE_TIME then
+            fading = false
+            fadeTimer = 0
+            root.layout.props.visible = false
+            root.layout.props.alpha = 1
+            markDirty()
+        end
+    end
+end
 
+local function updateSwimming(dt)
+    if not root.layout.props.visible then return end
+    local nowSwimming = types.Actor.isSwimming(self)
+    if nowSwimming and not swimming then
+        swimming = true
+        swimRestoreTimer = 0
+        root.layout.props.relativePosition = util.vector2(standardWidgetPos.x, standardWidgetPos.y + 0.07)
+        markDirty()
+    elseif not nowSwimming and swimming then
+        swimRestoreTimer = swimRestoreTimer + dt
+        if swimRestoreTimer >= 3 then
+            swimming = false
+            swimRestoreTimer = 0
+            root.layout.props.relativePosition = standardWidgetPos
+            markDirty()
+        end
+    elseif nowSwimming then
+        swimRestoreTimer = 0
+    end
+end
 
-            local finalSize = barSize:emul(util.vector2(ratio, 1))
-            local sizeDifference = npc.interpolationWidth.x - finalSize.x
-            local timeDifference = animTime / dt
-            local step = sizeDifference / timeDifference
-
-
-            npc.currentAnimHealthWidth = util.vector2(npc.currentAnimHealthWidth.x - step, barSize.y)
-
-
-            if npc.actor == currentActorInFocus then
-                healthBarFull.layout.content[1].layout.content["hbBarAnim"].props.size = npc.currentAnimHealthWidth
-                updateAllElements()
-            end
-
-            if npc.isTakingDamage then
-                npc.animTimer = 0
-                npc.healthInterpolationTime = false
-                npc.interpolationWidth = healthBarFull.layout.content[1].layout.content["hbBarAnim"].props.size
-            elseif npc.animTimer >= animTime then
-                npc.animTimer = 0
-                npc.healthBeforeDamage = nil
-                npc.healthInterpolationTime = false -- Сбрасываем флаг
-                npc.currentAnimHealthWidth = nil
+local function cleanupStates(dt)
+    cleanupTimer = cleanupTimer + dt
+    if cleanupTimer < CLEANUP_INTERVAL then return end
+    local elapsed = cleanupTimer
+    cleanupTimer = 0
+    for id, state in pairs(states) do
+        if not validObject(state.actor) then
+            states[id] = nil
+            activeDamageStates[id] = nil
+            if currentState == state then currentState = nil end
+        else
+            state.ttl = state.ttl - elapsed
+            if state.ttl <= 0 and state ~= currentState and state.damageTimer <= 0 then
+                states[id] = nil
+                activeDamageStates[id] = nil
             end
         end
     end
 end
 
-local function updateWhileSwimming(dt)
-    if not types.Actor.isSwimming(self) and not needToUpdateWhileSwimming then
-		
-		
-
-		timerToUpdateAfterWater = timerToUpdateAfterWater + dt
-			
-		if timerToUpdateAfterWater > timeToUpdateAfterWater then
-			if types.Actor.isSwimming(self) then
-				return
-			else
-				if not standartWidgetPos then
-                    updateStandartPositions()
-                end
-                healthBarFull.layout.props.relativePosition = standartWidgetPos
-				updateAllElements()
-				needToUpdateWhileSwimming = true
-				timerToUpdateAfterWater = 0
-			end
-		end
-		
-	end
-
-	if types.Actor.isSwimming(self) and needToUpdateWhileSwimming then
-		needToUpdateWhileSwimming = false
-        if not standartWidgetPos then
-            updateStandartPositions()
+local function syncHudSuppression()
+    local suppress = not I.UI.isHudVisible()
+    if suppress ~= hudSuppressed then
+        hudSuppressed = suppress
+        if suppress then
+            if root.layout.props.visible then root.layout.props.visible = false; markDirty() end
+        elseif showTimer > 0 or fading then
+            root.layout.props.visible = true
+            markDirty()
         end
-		healthBarFull.layout.props.relativePosition = util.vector2(standartWidgetPos.x, standartWidgetPos.y + 0.07)
-		updateAllElements()
-	end
-end
-
-local function getRaycastTarget()
-    if tooltipTarget then
-        return tooltipTarget
-    end
-end
-
-local function getDistance()
-    if raycastCurrentLength and raycastCurrentLength > 0 then
-        return raycastCurrentLength
     end
 end
 
 local function onUpdate(dt)
+    syncHudSuppression()
 
-    if not settings.behavior:get('SMEisActive') then
+    if settingsDirty then
+        settingsDirty = false
+        applyStyle()
+        if not behavior:get('SMEisActive') then hideImmediately() end
+    end
+
+    -- onUpdate is also called while paused in OpenMW 0.51 (dt == 0).
+    if dt <= 0 or core.isWorldPaused() then
+        commit()
         return
     end
-    --Firing a raycast and returning distance and actor
-    --getTooltipTarget()
-    --Handling Raycast, adding NPCs to the table, showind a 
-    rayCastChecker()
-    
-    
-    --functions that should fire once per 0.1 seconds for perfomance
-    commonTimer = commonTimer + dt
-    if commonTimer >= commonCheckTime then
-        if overridingTimer > 0 then
-            --print('OverridingTimer is ticking: ' .. overridingTimer, commontimer)
-            overridingTimer = overridingTimer - commonTimer
-        end
-        if overridingTimer <= 0 and isOverridingTime == true then
-            -- Если таймер закончился, сбросим npc.actorInFocus
-            --currentActorInFocus = nil
-            isOverridingTime = false
-        end
 
-        isShowTime = not hasShowingTimeEnded(commonTimer)
-        updateDamageTimers(commonTimer)
-        widgetHideHandler()
-        commonTimer = 0
-    end
-    
-    if isFadeOut then
-        fadeOutElements(dt)
+    if hudSuppressed then
+        updateTargetProvider(dt) -- clears/invalidates an outstanding demand snapshot
+        cleanupStates(dt)
+        commit()
+        return
     end
 
-    updateHealth(dt)
+    updateTargetProvider(dt)
+    processFocusedTarget()
 
-    for _, npc in ipairs(lastNPCTable) do
-        if npc.healthInterpolationTime then
-            healthAnimation(dt)
-        end
+    if focusLockTimer > 0 then focusLockTimer = math.max(0, focusLockTimer - dt) end
+
+    if behavior:get('SMEisActive') then
+        pollDisplayedHealth(dt)
+        updateDamageTimers(dt)
+        updateCurrentAnimation(dt)
+        updateVisibility(dt)
+        updateSwimming(dt)
+    else
+        hideImmediately()
     end
 
-    updateWhileSwimming(dt)
-
+    cleanupStates(dt)
+    commit()
 end
 
-local function onFrame(dt)
-    getTooltipTargetSync()
-end
+applyStyle()
+commit()
 
-
-return { 
-    engineHandlers = 
-    { 
-        onUpdate = onUpdate,
-        onFrame = onFrame
-    },
-    interfaceName = "SME_CORE",
+return {
+    engineHandlers = { onUpdate = onUpdate },
+    eventHandlers = { SME_PlayerHitActor = onPlayerHitActor },
+    interfaceName = 'SME_CORE',
     interface = {
-        getRaycastTarget = getRaycastTarget,
-        getDistance = getDistance,
+        version = 2,
+        getTargetInfo = function()
+            return targetSnapshot
+        end,
     },
 }
