@@ -1,5 +1,5 @@
 -TES3
- TES3.HEDR [66 66 A6 3F 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 CF 17 00 00]
+ TES3.HEDR [66 66 A6 3F 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 23 18 00 00]
  TES3.MAST "Morrowind.esm$00"
  TES3.DATA [75 39 C2 04 00 00 00 00]
  TES3.MAST "Tribunal.esm$00"
@@ -28,6 +28,18 @@
  GLOB.FLTV [00 00 00 00]
 -GLOB
  GLOB.NAME "AB_LevitationDisabled$00"
+ GLOB.FNAM "s"
+ GLOB.FLTV [00 00 00 00]
+-GLOB
+ GLOB.NAME "AB_NecroAltarHitWithSoulTrap$00"
+ GLOB.FNAM "s"
+ GLOB.FLTV [00 00 00 00]
+-GLOB
+ GLOB.NAME "AB_NecroAltarRevShadeActive$00"
+ GLOB.FNAM "s"
+ GLOB.FLTV [00 00 00 00]
+-GLOB
+ GLOB.NAME "AB_NecroAltarUsed$00"
  GLOB.FNAM "s"
  GLOB.FLTV [00 00 00 00]
 -GLOB
@@ -70,6 +82,16 @@
  CLAS.CLDT [03 00 00 00 04 00 00 00 02 00 00 00 12 00 00 00 14 00 00 00 19 00 00 00 1A 00 00 00 11 00 00 00 16 00 00 00 13 00 00 00 17 00 00 00 08 00 00 00 18 00 00 00 00 00 00 00 10 00 00 00]
  CLAS.DESC "Grocers are merchants who specialize in the sale of fresh produce, beverages, and other foodstuff. In order to promote their stock, they often advise customers on the best ways to prepare meals, offering recipes, and suggesting products.$00"
 -CLAS
+ CLAS.NAME "AB_MannequinClassFull$00"
+ CLAS.FNAM "OAAB Mannequin (Full)$00"
+ CLAS.CLDT [03 00 00 00 05 00 00 00 02 00 00 00 19 00 00 00 14 00 00 00 0B 00 00 00 08 00 00 00 07 00 00 00 17 00 00 00 1A 00 00 00 13 00 00 00 15 00 00 00 11 00 00 00 00 00 00 00 00 00 00 00]
+ CLAS.DESC "Profile marker for OAAB full mannequins.$00"
+-CLAS
+ CLAS.NAME "AB_MannequinClassStand$00"
+ CLAS.FNAM "OAAB Mannequin (Stand)$00"
+ CLAS.CLDT [03 00 00 00 05 00 00 00 02 00 00 00 19 00 00 00 14 00 00 00 0B 00 00 00 08 00 00 00 07 00 00 00 17 00 00 00 1A 00 00 00 13 00 00 00 15 00 00 00 11 00 00 00 00 00 00 00 00 00 00 00]
+ CLAS.DESC "Profile marker for OAAB stand mannequins.$00"
+-CLAS
  CLAS.NAME "AB_Painter$00"
  CLAS.FNAM "Painter$00"
  CLAS.CLDT [03 00 00 00 06 00 00 00 02 00 00 00 12 00 00 00 14 00 00 00 19 00 00 00 1A 00 00 00 11 00 00 00 18 00 00 00 16 00 00 00 17 00 00 00 10 00 00 00 13 00 00 00 00 00 00 00 00 00 00 00]
@@ -94,6 +116,14 @@
  CLAS.FNAM "Weaver$00"
  CLAS.CLDT [03 00 00 00 05 00 00 00 02 00 00 00 12 00 00 00 14 00 00 00 19 00 00 00 1A 00 00 00 15 00 00 00 11 00 00 00 13 00 00 00 17 00 00 00 16 00 00 00 18 00 00 00 00 00 00 00 00 00 00 00]
  CLAS.DESC "Weavers craft rugs, tapestries, and other textile goods. While some Weavers specialize in creating unique pieces for the wealthy and powerful, many others create general goods for everyday use. Weavers frequently have the skill to dye their own thread which requires a knowledge of dyeing agents.$00"
+-RACE
+ RACE.NAME "AB_Mannequin$00"
+ RACE.FNAM "Mannequin$00"
+ RACE.RADT [FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 00 00]
+-RACE
+ RACE.NAME "AB_MannequinStand$00"
+ RACE.FNAM "Mannequin$00"
+ RACE.RADT [FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 FF FF FF FF 00 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 80 3F 00 00 00 00]
 -SOUN
  SOUN.NAME "AB_6thGong$00"
  SOUN.FNAM "OAAB\e\6thGong.wav$00"
@@ -2603,6 +2633,12 @@ endif
 end
 $00"
 -SCPT
+ SCPT.SCHD "AB_MannStockProxy_s$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$02$00$00$00$00$00$00$00"
+ SCPT.SCDT [01 01]
+ SCPT.SCTX "begin AB_MannStockProxy_s
+
+end$00"
+-SCPT
  SCPT.SCHD "AB_MiscCeramicTeapot01Hang_s$00$00$00$00$01$00$00$00$00$00$00$00$00$00$00$00$86$00$00$00$06$00$00$00"
  SCPT.SCVR "State$00"
  SCPT.SCDT [06 01 01 09 20 58 20 10 20 3D 3D 20 31 24 01 09 01 06 01 04 09 20 73 01 00 20 3D 3D 20 31 06 01 02 05 20 58 DC 10 00 AB 11 01 00 05 01 73 01 00 02 20 32 09 01 09 01 06 01 04 09 20 58 18 10 20 3D 3D 20 31 0C 01 06 70 6C 61 79 65 72 D4 10 17 41 42 5F 4D 69 73 63 5F 43 65 72 61 6D 69 63 54 65 61 70 6F 74 30 31 01 00 02 10 0C 49 74 65 6D 20 4D 69 73 63 20 55 70 DB 10 05 01 73 01 00 02 20 31 09 01 01 01]
@@ -2773,6 +2809,206 @@ endif
 
 End
 $00"
+-SCPT
+ SCPT.SCHD "AB_NecroAltarCollision_s$00$00$00$00$00$00$00$00$02$00$00$00$00$00$00$00$01$00$00$00$A4$00$00$00$18$00$00$00"
+ SCPT.SCVR [73 74 61 74 65 00 7A 70 6F 73 00 43 75 72 72 65 6E 74 41 6E 67 6C 65 00]
+ SCPT.SCDT [5F 11 06 01 01 09 20 73 01 00 20 3D 3D 20 33 24 01 09 01 06 01 09 09 20 73 01 00 20 3D 3D 20 30 05 01 73 02 00 06 20 58 0A 10 5A 00 05 01 73 02 00 09 20 73 02 00 20 35 33 20 2B 0B 10 5A 73 02 00 00 05 01 66 01 00 06 20 58 0C 10 5A 00 05 01 66 01 00 09 20 66 01 00 20 39 30 20 2B 0D 10 5A 66 01 00 00 DB 10 DA 10 05 01 73 01 00 02 20 31 09 01 06 01 02 05 20 58 1F 10 00 05 01 73 01 00 02 20 32 DB 10 09 01 06 01 02 09 20 73 01 00 20 3D 3D 20 32 AB 11 01 00 05 01 73 01 00 02 20 33 09 01 01 01]
+ SCPT.SCTX "Begin AB_NecroAltarCollision_s
+
+Short state
+Short zpos
+Float CurrentAngle
+
+DontSaveObject
+
+if ( state == 3 )
+	return
+endif
+
+if ( state == 0 )
+	set zpos to ( GetPos Z )
+	set zpos to ( zpos + 53 )
+	SetPos Z zpos
+	set CurrentAngle to GetAngle Z
+	set CurrentAngle to CurrentAngle + 90
+	SetAngle Z CurrentAngle
+	Disable
+	Enable
+	set state to 1
+endif
+
+if ( CellChanged )
+	set state to 2
+	disable
+endif
+
+if ( state == 2 )
+	setdelete 1
+	set state to 3
+endif
+
+
+End$00"
+-SCPT
+ SCPT.SCHD "AB_NecroAltarCreature$00$00$00$00$00$00$00$00$00$00$00$0A$00$00$00$00$00$00$00$01$00$00$00$13$04$00$00k$00$00$00"
+ SCPT.SCVR [64 6F 4F 6E 63 65 00 73 74 61 72 74 43 68 65 63 6B 00 64 50 43 68 65 63 6B 31 00 6D 6F 64 44 50 43 68 65 63 6B 31 00 64 50 43 68 65 63 6B 32 00 6D 6F 64 44 50 43 68 65 63 6B 32 00 73 65 74 55 70 00 63 6F 6E 76 65 72 74 47 65 6D 73 00 63 6F 6D 70 61 6E 69 6F 6E 00 49 6E 69 74 69 61 6C 69 7A 65 64 00 53 74 61 72 74 5A 00]
+ SCPT.SCDT [06 01 02 09 20 73 0A 00 20 3D 3D 20 30 05 01 66 01 00 06 20 58 0C 10 5A 00 05 01 73 0A 00 02 20 31 09 01 0D 10 5A 66 01 00 00 06 01 01 05 20 58 1F 10 00 BA 11 1A 41 42 5F 41 63 74 5F 4E 65 63 72 6F 41 6C 74 61 72 43 6F 6C 6C 69 73 69 6F 6E 01 00 00 00 00 00 00 00 09 01 06 01 02 09 20 73 07 00 20 3D 3D 20 30 05 01 73 09 00 02 20 31 05 01 73 07 00 02 20 31 09 01 06 01 01 09 20 58 20 10 20 3D 3D 20 31 24 01 09 01 16 10 06 01 01 11 20 47 08 47 61 6D 65 48 6F 75 72 20 3E 3D 20 32 31 05 01 73 02 00 02 20 31 08 01 01 0F 20 47 08 47 61 6D 65 48 6F 75 72 20 3C 20 36 05 01 73 02 00 02 20 31 07 01 02 05 01 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 02 20 30 05 01 73 02 00 02 20 30 09 01 06 01 0F 09 20 73 02 00 20 3D 3D 20 31 05 01 73 03 00 11 20 47 0A 44 61 79 73 50 61 73 73 65 64 20 38 20 2F 05 01 73 05 00 11 20 47 0A 44 61 79 73 50 61 73 73 65 64 20 39 20 2F 05 01 73 04 00 17 20 47 0A 44 61 79 73 50 61 73 73 65 64 20 73 03 00 20 38 20 2A 20 2D 05 01 73 06 00 17 20 47 0A 44 61 79 73 50 61 73 73 65 64 20 73 05 00 20 39 20 2A 20 2D 06 01 03 09 20 73 04 00 20 3D 3D 20 30 06 01 01 11 20 47 08 47 61 6D 65 48 6F 75 72 20 3E 3D 20 32 31 05 01 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 02 20 31 09 01 08 01 03 09 20 73 06 00 20 3D 3D 20 30 06 01 01 0F 20 47 08 47 61 6D 65 48 6F 75 72 20 3C 20 36 05 01 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 02 20 31 09 01 07 01 01 05 01 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 02 20 30 09 01 09 01 06 01 05 23 20 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 20 3D 3D 20 31 06 01 03 09 20 73 01 00 20 3D 3D 20 30 BA 11 16 41 42 5F 46 78 5F 4C 69 67 68 74 52 61 79 52 65 76 53 68 61 64 65 01 00 00 00 00 00 00 00 BA 11 14 41 42 5F 4C 69 67 68 74 40 5F 4E 65 63 72 6F 41 6C 74 61 72 01 00 00 00 00 00 00 00 05 01 73 01 00 02 20 31 09 01 09 01 06 01 03 23 20 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 20 3D 3D 20 30 06 01 01 09 20 73 01 00 20 3D 3D 20 31 05 01 73 01 00 02 20 30 09 01 09 01 06 01 03 0A 20 58 38 11 3A 20 3D 3D 20 31 06 01 01 23 20 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 20 3D 3D 20 31 05 01 47 1C 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 48 69 74 57 69 74 68 53 6F 75 6C 54 72 61 70 02 20 31 09 01 09 01 06 01 02 24 20 47 1C 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 48 69 74 57 69 74 68 53 6F 75 6C 54 72 61 70 20 3D 3D 20 31 05 01 73 08 00 02 20 31 05 01 47 1C 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 48 69 74 57 69 74 68 53 6F 75 6C 54 72 61 70 02 20 30 09 01 06 01 01 12 20 58 50 11 20 72 06 50 6C 61 79 65 72 20 3D 3D 20 31 1A 10 09 01 06 01 05 09 20 73 08 00 20 3D 3D 20 31 05 01 73 08 00 02 20 30 0A 01 02 1E 20 58 FD 10 2C 20 6F 12 4D 69 73 63 5F 53 6F 75 6C 47 65 6D 5F 47 72 61 6E 64 20 3E 20 30 D5 10 12 4D 69 73 63 5F 53 6F 75 6C 47 65 6D 5F 47 72 61 6E 64 01 00 D4 10 14 41 42 5F 4D 69 73 63 5F 53 6F 75 6C 47 65 6D 42 6C 61 63 6B 01 00 0B 01 09 01 01 01]
+ SCPT.SCTX "begin AB_NecroAltarCreature
+
+short doOnce
+short startCheck
+
+short dPCheck1
+short modDPCheck1
+short dPCheck2
+short modDPCheck2
+short setUp
+short convertGems
+
+short companion
+
+short Initialized
+float StartZ
+
+if ( Initialized == 0 )
+	set StartZ to GetAngle Z
+	set Initialized to 1
+endif
+
+SetAngle Z StartZ
+
+if ( CellChanged )
+	PlaceAtMe, ""AB_Act_NecroAltarCollision"", 1, 0, 0
+endif
+
+if ( setUp == 0 )
+	set companion to 1
+	set setUp to 1
+endif
+
+if ( MenuMode == 1 )
+	return
+endif
+
+SkipAnim
+
+if ( GameHour >= 21 )
+	set startCheck to 1
+elseif ( GameHour < 6 )
+	 set startCheck to 1
+else
+	set AB_NecroAltarRevShadeActive to 0
+	set startCheck to 0
+endif
+
+if ( startCheck == 1 )
+	set dPCheck1 to ( DaysPassed / 8 )
+	set dPCheck2 to ( DaysPassed / 9 )
+	set modDPCheck1 to ( DaysPassed - ( dPCheck1 * 8 ) )
+	set modDPCheck2 to ( DaysPassed - ( dPCheck2 * 9 ) )
+	if ( modDPCheck1 == 0 )
+		if ( GameHour >= 21 )
+			set AB_NecroAltarRevShadeActive to 1
+		endif
+	elseif ( modDPCheck2 == 0 )
+		if ( GameHour < 6 )
+			set AB_NecroAltarRevShadeActive to 1
+		endif
+	else
+		set AB_NecroAltarRevShadeActive to 0
+	endif
+endif
+
+if ( AB_NecroAltarRevShadeActive == 1 )
+	if ( doOnce == 0 )
+		PlaceAtMe, ""AB_Fx_LightRayRevShade"", 1, 0, 0
+		PlaceAtMe, ""AB_Light@_NecroAltar"", 1, 0, 0
+		set doOnce to 1
+	endif
+endif
+
+if ( AB_NecroAltarRevShadeActive == 0 )
+	if ( doOnce == 1 )
+		set doOnce to 0
+	endif
+endif
+
+if ( GetEffect, sEffectSoulTrap  == 1 )
+	if ( AB_NecroAltarRevShadeActive == 1 )
+		set AB_NecroAltarHitWithSoulTrap to 1
+	endif
+endif
+
+if ( AB_NecroAltarHitWithSoulTrap == 1 )
+	set convertGems to 1
+	set AB_NecroAltarHitWithSoulTrap to 0
+endif
+
+if ( GetTarget Player == 1 )
+	stopCombat
+endif
+
+if ( convertGems == 1 )
+	set convertGems to 0
+	While ( GetItemCount, ""Misc_SoulGem_Grand"" > 0 )
+		RemoveItem, Misc_SoulGem_Grand, 1
+		AddItem, AB_Misc_SoulGemBlack, 1
+	endWhile
+endif
+
+end$00"
+-SCPT
+ SCPT.SCHD "AB_NecroAltarLightManager$00$00$00$00$00$00$00$02$00$00$00$00$00$00$00$00$00$00$00$99$00$00$00$10$00$00$00"
+ SCPT.SCVR [64 6F 4F 6E 63 65 00 69 6E 69 74 5A 50 6F 73 00]
+ SCPT.SCDT [06 01 02 09 20 73 01 00 20 3D 3D 20 30 05 01 73 02 00 06 20 58 0A 10 5A 00 05 01 73 01 00 02 20 31 09 01 06 01 02 09 20 73 01 00 20 3D 3D 20 31 05 01 73 02 00 0A 20 73 02 00 20 32 30 30 20 2B 05 01 73 01 00 02 20 32 09 01 06 01 02 09 20 73 01 00 20 3D 3D 20 32 0B 10 5A 73 02 00 00 05 01 73 01 00 02 20 33 09 01 06 01 02 23 20 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 20 3D 3D 20 30 DB 10 AB 11 01 00 09 01 01 01]
+ SCPT.SCTX "begin AB_NecroAltarLightManager
+
+short doOnce
+short initZPos
+
+if ( doOnce == 0 )
+	set initZPos to GetPos, z
+	set doOnce to 1
+endif
+
+if ( doOnce == 1 )
+	set initZPos to ( initZPos + 200 )	
+	set doOnce to 2
+endif
+
+if ( doOnce == 2 )
+	SetPos, Z, initZPos
+	set doOnce to 3
+endif
+
+if ( AB_NecroAltarRevShadeActive == 0 )
+	disable
+	setDelete, 1
+endif
+
+end$00"
+-SCPT
+ SCPT.SCHD "AB_NecroLightBeamManager$00$00$00$00$00$00$00$00$02$00$00$00$00$00$00$00$00$00$00$00k$00$00$00$10$00$00$00"
+ SCPT.SCVR [64 6F 4F 6E 63 65 00 69 6E 69 74 5A 50 6F 73 00]
+ SCPT.SCDT [06 01 04 09 20 73 01 00 20 3D 3D 20 30 05 01 73 02 00 06 20 58 0A 10 5A 00 05 01 73 02 00 0A 20 73 02 00 20 32 31 30 20 2D 0B 10 5A 73 02 00 00 05 01 73 01 00 02 20 31 09 01 06 01 02 23 20 47 1B 41 42 5F 4E 65 63 72 6F 41 6C 74 61 72 52 65 76 53 68 61 64 65 41 63 74 69 76 65 20 3D 3D 20 30 DB 10 AB 11 01 00 09 01 01 01]
+ SCPT.SCTX "begin AB_NecroLightBeamManager
+
+short doOnce
+short initZPos
+
+if ( doOnce == 0 )
+	set initZPos to GetPos, z
+	set initZPos to ( initZPos - 210 )
+	SetPos, Z, initZPos
+	set doOnce to 1
+endif
+
+if ( AB_NecroAltarRevShadeActive == 0 )
+	disable
+	setDelete, 1
+endif
+
+end$00"
 -SCPT
  SCPT.SCHD "AB_NightActivate_s$00$00$00$00$00$00$00$00$00$00$00$00$00$00$01$00$00$00$00$00$00$00$00$00$00$00$8A$00$00$00	$00$00$00"
  SCPT.SCVR "toEnable$00"
@@ -4694,6 +4930,9 @@ End$00"
 -STAT
  STAT.NAME "AB_Ex_ComCryptWin$00"
  STAT.MODL "OAAB\x\comCryptWin.nif$00"
+-STAT
+ STAT.NAME "AB_Ex_ComCryptWinOn$00"
+ STAT.MODL "oaab\x\comCryptWinOn.nif$00"
 -STAT
  STAT.NAME "AB_Ex_ComFence128$00"
  STAT.MODL "OAAB\x\comFence128.nif$00"
@@ -7323,6 +7562,18 @@ End$00"
  STAT.NAME "AB_Furn_ComCandleWhite04$00"
  STAT.MODL "OAAB\l\pc_candle_white04.nif$00"
 -STAT
+ STAT.NAME "AB_Furn_ComChurn$00"
+ STAT.MODL "oaab\u\com_churn.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_ComChurnFull$00"
+ STAT.MODL "oaab\u\com_churnassembly.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_ComChurnHandle$00"
+ STAT.MODL "oaab\u\com_churnhandle.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_ComChurnLid$00"
+ STAT.MODL "oaab\u\com_churnlid.nif$00"
+-STAT
  STAT.NAME "AB_Furn_ComClampWood$00"
  STAT.MODL "OAAB\u\st_clamp_wood_02.nif$00"
 -STAT
@@ -7610,6 +7861,9 @@ End$00"
 -STAT
  STAT.NAME "AB_Furn_ComRchRug04Square$00"
  STAT.MODL "OAAB\u\com_rch_rug_04_sq.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_ComRchScrollReader$00"
+ STAT.MODL "oaab\u\comrchscrollreader.nif$00"
 -STAT
  STAT.NAME "AB_Furn_ComRchShelf01$00"
  STAT.MODL "OAAB\u\com_r_shelf01.nif$00"
@@ -9101,6 +9355,15 @@ End$00"
 -STAT
  STAT.NAME "AB_Furn_MvSkeleton_01$00"
  STAT.MODL "OAAB\u\mv_skeleton_01.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_NecroTapestry01$00"
+ STAT.MODL "oaab\u\necro_tap_01.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_NecroTapestryTorn01$00"
+ STAT.MODL "oaab\u\necro_tap_torn_01.nif$00"
+-STAT
+ STAT.NAME "AB_Furn_NecroTapestryTorn02$00"
+ STAT.MODL "oaab\u\necro_tap_torn_02.nif$00"
 -STAT
  STAT.NAME "AB_Furn_NordBench_01$00"
  STAT.MODL "OAAB\u\rem_nord_bench_01.nif$00"
@@ -12921,6 +13184,9 @@ End$00"
  STAT.NAME "AB_Mrk_Character$00"
  STAT.MODL "OAAB\h\character.nif$00"
 -STAT
+ STAT.NAME "AB_Mrk_CollAltarTop$00"
+ STAT.MODL "oaab\h\collaltartop01.nif$00"
+-STAT
  STAT.NAME "AB_Mrk_CollBump01$00"
  STAT.MODL "OAAB\h\collBump01.nif$00"
 -STAT
@@ -13686,6 +13952,42 @@ End$00"
  DOOR.FNAM "Trap Door$00"
  DOOR.SNAM "Door Stone Open$00"
  DOOR.ANAM "Door Stone Close$00"
+-MISC
+ MISC.NAME "AB_Furn_Mannequin2F$00"
+ MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.FNAM "Dress Stand (Female)$00"
+ MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
+ MISC.ITEX "oaab\u\mannequin_dress.tga$00"
+-MISC
+ MISC.NAME "AB_Furn_Mannequin2M$00"
+ MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.FNAM "Dress Stand (Male)$00"
+ MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
+ MISC.ITEX "oaab\u\mannequin_dress.tga$00"
+-MISC
+ MISC.NAME "AB_Furn_MannequinHeadF$00"
+ MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.FNAM "Mannequin (Female)$00"
+ MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
+ MISC.ITEX "oaab\u\mannequin_head.tga$00"
+-MISC
+ MISC.NAME "AB_Furn_MannequinHeadM$00"
+ MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.FNAM "Mannequin (Male)$00"
+ MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
+ MISC.ITEX "oaab\u\mannequin_head.tga$00"
+-MISC
+ MISC.NAME "AB_Furn_MannequinHeadlessF$00"
+ MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.FNAM "Mannequin (Female)$00"
+ MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
+ MISC.ITEX "oaab\u\mannequin_headless.tga$00"
+-MISC
+ MISC.NAME "AB_Furn_MannequinHeadlessM$00"
+ MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.FNAM "Mannequin (Male)$00"
+ MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
+ MISC.ITEX "oaab\u\mannequin_headless.tga$00"
 -MISC
  MISC.NAME "AB_Key_IronRuin01$00"
  MISC.MODL "oaab\m\key_ruin_01.nif$00"
@@ -20691,6 +20993,14 @@ End$00"
  CONT.SCRI "AB_DwrvProxMine_s$00"
  CONT.NPCO [01 00 00 00 41 42 5F 4D 69 73 63 5F 44 77 47 79 72 6F 30 30 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00]
 -CONT
+ CONT.NAME "AB_o_MannStockProxy$00"
+ CONT.MODL "oaab\h\marker_container.nif$00"
+ CONT.FNAM "Mannequin Stock$00"
+ CONT.CNDT [00 00 00 00]
+ CONT.FLAG [08 00 00 00]
+ CONT.SCRI "AB_MannStockProxy_s$00"
+ CONT.NPCO [01 00 00 00 41 42 5F 49 6E 66 6F 5F 4D 61 6E 6E 53 74 6F 63 6B 50 72 6F 78 79 00 00 00 00 00 00 00 00 00 00]
+-CONT
  CONT.NAME "AB_o_PackFur$00"
  CONT.MODL "OAAB\o\pack_fur.nif$00"
  CONT.FNAM "Pack$00"
@@ -21687,6 +21997,14 @@ End$00"
  CREA.AIDT [00 00 00 00 00 00 00 00 00 00 00 00]
  CREA.AI_W [E8 03 05 00 00 00 00 00 00 00 00 00 00 01]
 -CREA
+ CREA.NAME "AB_Obj_NecroAltar$00"
+ CREA.MODL "oaab\u\necro_altar.nif$00"
+ CREA.FNAM "Strange Altar$00"
+ CREA.SCRI "AB_NecroAltarCreature$00"
+ CREA.NPDT [00 00 00 00 FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 FF FF 00 00 0F 00 00 00 00 00 00 00 7F 96 98 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 03 00 00 00 01 00 00 00 03 00 00 00 01 00 00 00 03 00 00 00 00 00 00 00]
+ CREA.FLAG [0A 00 00 00]
+ CREA.AIDT [00 00 00 00 00 00 00 00 00 00 00 00]
+-CREA
  CREA.NAME "AB_Und_BoneAlit$00"
  CREA.MODL "OAAB\r\BoneAlit.nif$00"
  CREA.FNAM "Bone Alit$00"
@@ -22629,6 +22947,166 @@ End$00"
  BODY.FNAM "Khajiit$00"
  BODY.BYDT [01 00 00 00]
 -BODY
+ BODY.NAME "AB_b_Mann2_an$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [0A 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_ch$00"
+ BODY.MODL "OAAB\b\mannequin_stand.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [03 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_fa$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [07 00 01 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_ft$00"
+ BODY.MODL "OAAB\b\mannequin_stand.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [09 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_gr$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [04 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_hd01_f$00"
+ BODY.MODL "oaab\b\mannequin_stand.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [00 00 01 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_hd01_m$00"
+ BODY.MODL "OAAB\b\mannequin_stand.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [00 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_hd02_f$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [00 00 03 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_hd02_m$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [00 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_hn$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [05 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_hrEmpty$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [01 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_hrEmpty_f$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [01 00 01 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_kn$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [0B 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_ua$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [08 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_ul$00"
+ BODY.MODL "OAAB\b\mannequin_stand.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [0C 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann2_wr$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_MannequinStand$00"
+ BODY.BYDT [06 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_an$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [0A 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_ch$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [03 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_fa$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [07 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_ft$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [09 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_gr$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [04 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_hd01_f$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [00 00 01 00]
+-BODY
+ BODY.NAME "AB_b_Mann_hd01_m$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [00 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_hd02_f$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [00 00 03 00]
+-BODY
+ BODY.NAME "AB_b_Mann_hd02_m$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [00 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_hn$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [05 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_hrEmpty$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [01 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_hrEmpty_f$00"
+ BODY.MODL "OAAB\h\inviso.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [01 00 01 00]
+-BODY
+ BODY.NAME "AB_b_Mann_kn$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [0B 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_ua$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [08 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_ul$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [0C 00 00 00]
+-BODY
+ BODY.NAME "AB_b_Mann_wr$00"
+ BODY.MODL "OAAB\b\mannequin.nif$00"
+ BODY.FNAM "AB_Mannequin$00"
+ BODY.BYDT [06 00 00 00]
+-BODY
  BODY.NAME "AB_b_OrcFHead_01$00"
  BODY.MODL "OAAB\b\b_orc_f_head_01.nif$00"
  BODY.FNAM "Orc$00"
@@ -22873,6 +23351,10 @@ End$00"
  BODY.MODL "OAAB\c\robe_ext_02_hood.NIF$00"
  BODY.FNAM "Argonian$00"
  BODY.BYDT [01 00 00 02]
+-LIGH
+ LIGH.NAME "AB_Light@_NecroAltar$00"
+ LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF C8 00 00 00 FF 00 FF 00 01 01 00 00]
+ LIGH.SCRI "AB_NecroAltarLightManager$00"
 -LIGH
  LIGH.NAME "AB_Light@_Red16$00"
  LIGH.LHDT [00 00 00 00 00 00 00 00 FF FF FF FF 10 00 00 00 FF 00 00 00 00 01 00 00]
@@ -24309,6 +24791,78 @@ End$00"
  ENCH.ENDT [01 00 00 00 07 00 00 00 46 00 00 00 01 00 00 00]
  ENCH.ENAM [1E 00 FF FF 01 00 00 00 00 00 00 00 05 00 00 00 0A 00 00 00 0A 00 00 00]
  ENCH.ENAM [0F 00 FF FF 01 00 00 00 00 00 00 00 01 00 00 00 03 00 00 00 07 00 00 00]
+-NPC_ [00 00 00 00 00 04 00 00]
+ NPC_.NAME "AB_Mannequin2F$00"
+ NPC_.MODL "oaab\k\mann_relax.nif$00"
+ NPC_.FNAM "Dress Stand$00"
+ NPC_.RNAM "AB_MannequinStand$00"
+ NPC_.CNAM "AB_MannequinClassStand$00"
+ NPC_.BNAM "AB_b_Mann2_hd02_f$00"
+ NPC_.KNAM "AB_b_Mann2_hrEmpty_f$00"
+ NPC_.NPDT [01 00 32 32 32 3C 32 3C 32 32 05 05 64 64 05 05 05 0F 1E 05 05 0F 05 05 05 05 05 00 0A 23 23 64 0A 23 0A 14 14 00 00 00 64 00 DC 00 32 00 00 00 00 00 00 00]
+ NPC_.FLAG [09 00 00 00]
+ NPC_.AIDT [1E 00 1E 1E 00 00 00 00 00 00 00 00]
+ NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
+-NPC_ [00 00 00 00 00 04 00 00]
+ NPC_.NAME "AB_Mannequin2M$00"
+ NPC_.MODL "oaab\k\mann_relax.nif$00"
+ NPC_.FNAM "Dress Stand$00"
+ NPC_.RNAM "AB_MannequinStand$00"
+ NPC_.CNAM "AB_MannequinClassStand$00"
+ NPC_.BNAM "AB_b_Mann2_hd02_m$00"
+ NPC_.KNAM "AB_b_Mann2_hrEmpty$00"
+ NPC_.NPDT [01 00 32 32 32 3C 32 3C 32 32 05 05 64 64 05 05 05 0F 1E 05 05 0F 05 05 05 05 05 00 0A 23 23 64 0A 23 0A 14 14 00 00 00 64 00 DC 00 32 00 00 00 00 00 00 00]
+ NPC_.FLAG [08 00 00 00]
+ NPC_.AIDT [1E 00 1E 1E 00 00 00 00 00 00 00 00]
+ NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
+-NPC_ [00 00 00 00 00 04 00 00]
+ NPC_.NAME "AB_MannequinHeadF$00"
+ NPC_.MODL "oaab\k\mann_relax.nif$00"
+ NPC_.FNAM "Mannequin$00"
+ NPC_.RNAM "AB_Mannequin$00"
+ NPC_.CNAM "AB_MannequinClassFull$00"
+ NPC_.BNAM "AB_b_Mann_hd01_f$00"
+ NPC_.KNAM "AB_b_Mann_hrEmpty_f$00"
+ NPC_.NPDT [01 00 32 32 32 3C 32 3C 32 32 05 05 64 64 05 05 05 0F 1E 05 05 0F 05 05 05 05 05 00 0A 23 23 64 0A 23 0A 14 14 00 00 00 64 00 DC 00 32 00 00 00 00 00 00 00]
+ NPC_.FLAG [09 00 00 00]
+ NPC_.AIDT [1E 00 1E 1E 00 00 00 00 00 00 00 00]
+ NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
+-NPC_ [00 00 00 00 00 04 00 00]
+ NPC_.NAME "AB_MannequinHeadM$00"
+ NPC_.MODL "oaab\k\mann_relax.nif$00"
+ NPC_.FNAM "Mannequin$00"
+ NPC_.RNAM "AB_Mannequin$00"
+ NPC_.CNAM "AB_MannequinClassFull$00"
+ NPC_.BNAM "AB_b_Mann_hd01_m$00"
+ NPC_.KNAM "AB_b_Mann_hrEmpty$00"
+ NPC_.NPDT [01 00 32 32 32 3C 32 3C 32 32 05 05 64 64 05 05 05 0F 1E 05 05 0F 05 05 05 05 05 00 0A 23 23 64 0A 23 0A 14 14 00 00 00 64 00 DC 00 32 00 00 00 00 00 00 00]
+ NPC_.FLAG [08 00 00 00]
+ NPC_.AIDT [1E 00 1E 1E 00 00 00 00 00 00 00 00]
+ NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
+-NPC_ [00 00 00 00 00 04 00 00]
+ NPC_.NAME "AB_MannequinHeadlessF$00"
+ NPC_.MODL "oaab\k\mann_relax.nif$00"
+ NPC_.FNAM "Mannequin$00"
+ NPC_.RNAM "AB_Mannequin$00"
+ NPC_.CNAM "AB_MannequinClassFull$00"
+ NPC_.BNAM "AB_b_Mann_hd02_f$00"
+ NPC_.KNAM "AB_b_Mann_hrEmpty_f$00"
+ NPC_.NPDT [01 00 32 32 32 3C 32 3C 32 32 05 05 64 64 05 05 05 0F 1E 05 05 0F 05 05 05 05 05 00 0A 23 23 64 0A 23 0A 14 14 00 00 00 64 00 DC 00 32 00 00 00 00 00 00 00]
+ NPC_.FLAG [09 00 00 00]
+ NPC_.AIDT [1E 00 1E 1E 00 00 00 00 00 00 00 00]
+ NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
+-NPC_ [00 00 00 00 00 04 00 00]
+ NPC_.NAME "AB_MannequinHeadlessM$00"
+ NPC_.MODL "oaab\k\mann_relax.nif$00"
+ NPC_.FNAM "Mannequin$00"
+ NPC_.RNAM "AB_Mannequin$00"
+ NPC_.CNAM "AB_MannequinClassFull$00"
+ NPC_.BNAM "AB_b_Mann_hd02_m$00"
+ NPC_.KNAM "AB_b_Mann_hrEmpty$00"
+ NPC_.NPDT [01 00 32 32 32 3C 32 3C 32 32 05 05 64 64 05 05 05 0F 1E 05 05 0F 05 05 05 05 05 00 0A 23 23 64 0A 23 0A 14 14 00 00 00 64 00 DC 00 32 00 00 00 00 00 00 00]
+ NPC_.FLAG [08 00 00 00]
+ NPC_.AIDT [1E 00 1E 1E 00 00 00 00 00 00 00 00]
+ NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_
  NPC_.NAME "AB_TelvanniGuardF$00"
  NPC_.FNAM "Telvanni Guard$00"
@@ -25786,6 +26340,10 @@ End$00"
  REPA.FNAM "Repair Swage$00"
  REPA.RIDT [00 00 80 40 0A 00 00 00 14 00 00 00 CD CC 4C 3F]
  REPA.ITEX "OAAB\m\repair_swage_01.dds$00"
+-ACTI
+ ACTI.NAME "AB_Act_NecroAltarCollision$00"
+ ACTI.MODL "oaab\h\collaltartop01.nif$00"
+ ACTI.SCRI "AB_NecroAltarCollision_s$00"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "AB_Door_ComPanelLHEXAMPLE$00"
  ACTI.MODL "OAAB\d\cPanDoorLH.nif$00"
@@ -26667,6 +27225,10 @@ End$00"
  ACTI.NAME "AB_Fx_LightRay3_a$00"
  ACTI.MODL "OAAB\e\cave_ray_03.nif$00"
  ACTI.SCRI "AB_DayActivate_s$00"
+-ACTI
+ ACTI.NAME "AB_Fx_LightRayRevShade$00"
+ ACTI.MODL "oaab\e\light_ray_large_purp.nif$00"
+ ACTI.SCRI "AB_NecroLightBeamManager$00"
 -ACTI
  ACTI.NAME "AB_Fx_LightRay_a$00"
  ACTI.MODL "OAAB\e\cave_ray_01.nif$00"
@@ -27743,6 +28305,18 @@ Can be avoided by taking the egg by sneaking up close or from far away with tele
 Use with ""AB_light@_Day####"" ( LIGH ) which also deactivate at night
 
 Can be used along with ""AB_Fx_DarkHole_a"" ( ACTI ) which activates at night.$00"
+-BOOK
+ BOOK.NAME "AB_Info_MannStockProxy$00"
+ BOOK.MODL "oaab\h\marker_info.nif$00"
+ BOOK.FNAM "InfoBox - Mannequin Stock$00"
+ BOOK.BKDT [00 00 00 00 00 00 00 00 00 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "oaab\h\marker_info.tga$00"
+ BOOK.TEXT "Can be used to add vendor stock to a mannequin which should be owned by an NPC merchant.
+
+1. Create a new ID copy of the proxy.
+2. Place at mannequin
+3. Set ownerhip to the NPC.
+4. Ensure the proxy still has `AB_MannStockProxy_s` script attached.$00"
 -BOOK
  BOOK.NAME "AB_Info_ScamptallowCandles$00"
  BOOK.MODL "OAAB\h\marker_info.nif$00"
@@ -36384,6 +36958,26 @@ Holly<BR>
 The holly bush sports sharp, pleated, evergreen leaves of a shiny dark green coloration, and grows bright red berries. It is most often found in the forested areas of Solstheim, but can also be spotted along snowy plains. The berries tend to bloom in the late autumn and early winter, and are hard and inedible. These berries eventually soften over the winter through repeated frosting and thawing. Holly has spritual significance to the native Skaal, and is often used by shaman to treat frostbite. Holly berries have alchemical properties related to their environment. In other words, they are useful for frost resistances and related effects.<BR>
 <BR>$00"
 -BOOK
+ BOOK.NAME "AB_bk_NecromancersMoon$00"
+ BOOK.MODL "m\Text_Octavo_07.nif$00"
+ BOOK.FNAM "Necromancer's Moon$00"
+ BOOK.BKDT [00 00 40 40 58 02 00 00 00 00 00 00 0E 00 00 00 14 00 00 00]
+ BOOK.ITEX "m\Tx_book_01.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""CENTER""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+Brothers and Sisters<BR>
+of the Worm!<BR>
+<DIV ALIGN=""LEFT""><BR><BR>
+Despair not at the trials we now face, for our time comes swiftly.<BR>
+<BR>
+The God of Worms watches over our Order, and will deliver us from these troubled times on the Day of Reckoning. Until then, perform His works in secret, serve His needs, and look to the skies for His signs.<BR>
+<BR>
+The Revenant, the Necromancer's Moon, watches over us all. His Form, ascended to Godhood, has taken its rightful place in the sky, and hides the enemy Arkay from us so that we may serve Him. Watch for the signs: when the heavenly light descends from above, hasten to His altars and make your offering, so that He may bless you with but a taste of His true power. Grand Soul Gems offered to Him will be darkened, and can be used to trap the souls of the unwitting; a feat even the great N'Gasta would marvel at.<BR>
+<BR>
+Stay faithful to the Order of the Black Worm, and in time your loyalty will be rewarded. Soon, He will return to set the world right in due time, and those who would stand in his way will suffer eternally at his hands, just as those who stood opposed before.<BR>
+<BR>
+Until that day, you must believe and be patient. Hide in your caves, in your ruined forts, in your secret lairs. Raise your minions, summon your servants, cast your spells. Answer the call of the Order when you are needed. Watch and listen.<BR>
+<BR>$00"
+-BOOK
  BOOK.NAME "AB_bk_NordSongs$00"
  BOOK.MODL "OAAB\m\Text_BoV_NordSongs.nif$00"
  BOOK.FNAM "Nord Drinking Songs$00"
@@ -38940,6 +39534,78 @@ When both distillations are complete, mix together and distill again in the reto
  BOOK.BKDT [00 00 00 00 00 00 00 00 01 00 00 00 FF FF FF FF 64 00 00 00]
  BOOK.ITEX "OAAB\m\crumpledpaper01.tga$00"
 -BOOK
+ BOOK.NAME "AB_sc_GenBillOfSale$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Bill of Sale$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment records the lawful transfer of goods between two parties.]
+<BR>$00"
+-BOOK
+ BOOK.NAME "AB_sc_GenCensusReport$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Census Report$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment records the names and residences of local citizens.]
+<BR>$00"
+-BOOK
+ BOOK.NAME "AB_sc_GenCourtTranscript$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Court Transcript$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment shows the transcript from a court hearing.]
+<BR>$00"
+-BOOK
+ BOOK.NAME "AB_sc_GenCurialMinutes$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Curial Minutes$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment shows the minutes from an Imperial curial meeting.]
+<BR>$00"
+-BOOK
+ BOOK.NAME "AB_sc_GenCustomsManifest$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Customs Manifest$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment records goods declared for import or export.]
+<BR>$00"
+-BOOK
+ BOOK.NAME "AB_sc_GenGarrisonRoster$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Garrison Roster$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment lists soldiers presently assigned to an Imperial garrison.]
+<BR>$00"
+-BOOK
+ BOOK.NAME "AB_sc_GenTaxAssessment$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Tax Assessment$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment lists properties, goods, and the taxes assessed upon them.]
+<BR>$00"
+-BOOK
+ BOOK.NAME "AB_sc_GenWarehouseReceipt$00"
+ BOOK.MODL "m\Text_Scroll_open_02.nif$00"
+ BOOK.FNAM "Warehouse Receipt$00"
+ BOOK.BKDT [CD CC 4C 3E 05 00 00 00 01 00 00 00 FF FF FF FF 00 00 00 00]
+ BOOK.ITEX "m\Tx_scroll_open_02.tga$00"
+ BOOK.TEXT "<DIV ALIGN=""LEFT""><FONT COLOR=""000000"" SIZE=""3"" FACE=""Magic Cards""><BR>
+[This parchment acknowledges goods deposited for storage.]
+<BR>$00"
+-BOOK
  BOOK.NAME "AB_sc_TheFourthBookOfDust$00"
  BOOK.MODL "m\text_scroll_01.nif$00"
  BOOK.FNAM "The Fourth Book of Dust$00"
@@ -41300,6 +41966,45 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  LEVI.INAM "AB_lvl_c_EnchSpecialAll$00"
  LEVI.INTV [01 00]
  LEVI.INAM "AB_lvl_Gems$00"
+ LEVI.INTV [01 00]
+-LEVI
+ LEVI.NAME "AB_lvl_Mannequins$00"
+ LEVI.DATA [03 00 00 00]
+ LEVI.NNAM [00]
+ LEVI.INDX [06 00 00 00]
+ LEVI.INAM "AB_Furn_Mannequin2F$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_Mannequin2M$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_MannequinHeadF$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_MannequinHeadM$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_MannequinHeadlessF$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_MannequinHeadlessM$00"
+ LEVI.INTV [01 00]
+-LEVI
+ LEVI.NAME "AB_lvl_MannequinsFull$00"
+ LEVI.DATA [03 00 00 00]
+ LEVI.NNAM [00]
+ LEVI.INDX [04 00 00 00]
+ LEVI.INAM "AB_Furn_MannequinHeadF$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_MannequinHeadM$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_MannequinHeadlessF$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_MannequinHeadlessM$00"
+ LEVI.INTV [01 00]
+-LEVI
+ LEVI.NAME "AB_lvl_MannequinsStand$00"
+ LEVI.DATA [03 00 00 00]
+ LEVI.NNAM [00]
+ LEVI.INDX [02 00 00 00]
+ LEVI.INAM "AB_Furn_Mannequin2F$00"
+ LEVI.INTV [01 00]
+ LEVI.INAM "AB_Furn_Mannequin2M$00"
  LEVI.INTV [01 00]
 -LEVI
  LEVI.NAME "AB_lvl_MeatAll$00"
@@ -47485,17 +48190,23 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.INAM "1485711316298468672$00"
  INFO.PNAM "961610326284295759$00"
  INFO.NNAM "189783080212146991$00"
- INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
+ INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Sailor$00"
  INFO.NAME "I am a sailor. I'm most at home on a ship on the sea. I know how to tie a good strong knot and which gods to pray to when it storms. I'm a brawler by nature and I've hardened my knuckles fighting in so many different ports I've lost count. If the going gets really tough, I'm no stranger to the cutlass. Most sailors in Morrowind serve in the Imperial Navy or aboard merchant vessels. Some daring rascals turn to piracy."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.BNAM ";Sailor; sailing techniques destinations sea life$00"
 -INFO
  INFO.INAM "189783080212146991$00"
  INFO.PNAM "1485711316298468672$00"
  INFO.NNAM "15512170004057988$00"
- INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
+ INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_EggMiner$00"
  INFO.NAME "I am a miner. Usually, here on Vvardenfell, being a miner means you're an eggminer. Scrib jerky, scrib jelly, kwama eggs, and kwama cuttle are the basis of our Vvardenfell economy, and they all come from kwama. Yes, there are more valuable resources we take from mines -- raw ebony, raw glass, dreugh wax, daedra skin, daedra heart, diamond, ash salts, and so forth -- and that's good work, too. But it's the eggminers that feed Morrowind, and bring cash from all over the Empire."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.BNAM ";Miner; egg mines ecology$00"
 -INFO
  INFO.INAM "15512170004057988$00"
@@ -47504,6 +48215,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Grocer$00"
  INFO.NAME "As a grocer, I stock quality produce, dry goods, and other food items. I manage my own inventory so I can make sure my shelves are full and my customers satisfied."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "4944125591468219541$00"
  INFO.PNAM "15512170004057988$00"
@@ -47511,6 +48225,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Foreman$00"
  INFO.NAME "I$92m the foreman in charge here. I organize the workers to complete the project. I have the supervisory and technical skills required to ensure that the work is done efficiently and that resources are managed wisely. My employer doesn$92t want his investment wasted."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "3061012618648818876$00"
  INFO.PNAM "4944125591468219541$00"
@@ -47518,6 +48235,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Weaver$00"
  INFO.NAME "I am a weaver. I make my living by creating intricate fabrics and garments. I use a loom to create cloth from natural fibers such as wool, cotton, or silk. My skill lies in my knowledge of fibers and patterns and my ability to create desirable products with them, as well as in my long years of practice at the loom."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "325782910870819213$00"
  INFO.PNAM "3061012618648818876$00"
@@ -47525,6 +48245,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Surgeon$00"
  INFO.NAME "As a surgeon, I specialize in diagnosing and treating medical conditions without the aid of magic. I can identify ailments quickly and then perform a variety of surgical procedures as required. I am knowledgeable in the latest treatments and have a good understanding of anatomy."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "13465235794373375$00"
  INFO.PNAM "325782910870819213$00"
@@ -47532,6 +48255,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Butcher$00"
  INFO.NAME "I$92m a butcher. I am responsible for the slaughter and preparation of animals into meat that's fit for the kitchens of my customers. I use my knowledge of animal anatomy to ensure nothing goes to waste."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "2149326172171928374$00"
  INFO.PNAM "13465235794373375$00"
@@ -47539,6 +48265,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Author$00"
  INFO.NAME "I am an author, which means I use the written word to evoke emotion and shape opinion - or just tell a great story. Ideally, my patron or my adoring public pay me for those works. I have my preferred genres, but literature comes in many formats and I dabble in the others from time to time."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "8182251331099210424$00"
  INFO.PNAM "2149326172171928374$00"
@@ -47546,6 +48275,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Sculptor$00"
  INFO.NAME "I am a sculptor. I create works of art out of stone, metal, and other materials. I use my eye for detail to transform a block of material into something remarkable. My knowledge of sculpting techniques and raw materials allows me to bring life to my creations."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "10989275701383130942$00"
  INFO.PNAM "8182251331099210424$00"
@@ -47553,6 +48285,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Painter$00"
  INFO.NAME "I$92m a painter. I use a variety of mediums to capture my creative vision on canvas, be it something as simple as a summer day, or something as short-lived as a noblewoman$92s youth. From landscapes to portraits, I take delight in mixing colors and seeking out the perfect composition."
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
 -INFO
  INFO.INAM "92616263314896502$00"
  INFO.PNAM "10989275701383130942$00"
@@ -47560,6 +48295,9 @@ Cartographer Tuvene Arethan, Imperial Commission, Castle Ebonheart<BR>$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.CNAM "AB_Beggar$00"
  INFO.NAME "I have no trade. Down on my luck, you see. Spare a coin?"
+ INFO.SCVR "0CsX0NoLore"
+ INFO.INTV [00 00 00 00]
+ #0: NotLocal-short NoLore = 0
  INFO.BNAM "AddTopic ""spare a coin""$00"
 -DIAL
  DIAL.NAME "pomegranates$00"

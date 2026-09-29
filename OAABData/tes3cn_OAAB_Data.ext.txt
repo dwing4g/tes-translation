@@ -54,6 +54,22 @@ Grocer
 Grocers are merchants who specialize in the sale of fresh produce, beverages, and other foodstuff. In order to promote their stock, they often advise customers on the best ways to prepare meals, offering recipes, and suggesting products.
 ###
 
+> CLAS.FNAM AB_MannequinClassFull
+OAAB Mannequin (Full)
+###
+
+> CLAS.DESC AB_MannequinClassFull
+Profile marker for OAAB full mannequins.
+###
+
+> CLAS.FNAM AB_MannequinClassStand
+OAAB Mannequin (Stand)
+###
+
+> CLAS.DESC AB_MannequinClassStand
+Profile marker for OAAB stand mannequins.
+###
+
 > CLAS.FNAM AB_Painter
 Painter
 ###
@@ -92,6 +108,14 @@ Weaver
 
 > CLAS.DESC AB_Weaver
 Weavers craft rugs, tapestries, and other textile goods. While some Weavers specialize in creating unique pieces for the wealthy and powerful, many others create general goods for everyday use. Weavers frequently have the skill to dye their own thread which requires a knowledge of dyeing agents.
+###
+
+> RACE.FNAM AB_Mannequin
+Mannequin
+###
+
+> RACE.FNAM AB_MannequinStand
+Mannequin
 ###
 
 > SCPT.SCTX AB_BedFleas_s m1
@@ -740,6 +764,30 @@ Trap Door
 
 > DOOR.FNAM AB_Door_TelTrapdoor_In
 Trap Door
+###
+
+> MISC.FNAM AB_Furn_Mannequin2F
+Dress Stand (Female)
+###
+
+> MISC.FNAM AB_Furn_Mannequin2M
+Dress Stand (Male)
+###
+
+> MISC.FNAM AB_Furn_MannequinHeadF
+Mannequin (Female)
+###
+
+> MISC.FNAM AB_Furn_MannequinHeadM
+Mannequin (Male)
+###
+
+> MISC.FNAM AB_Furn_MannequinHeadlessF
+Mannequin (Female)
+###
+
+> MISC.FNAM AB_Furn_MannequinHeadlessM
+Mannequin (Male)
 ###
 
 > MISC.FNAM AB_Key_IronRuin01
@@ -4982,6 +5030,10 @@ Steel Dwemer Table
 Dwemer Proximity Mine
 ###
 
+> CONT.FNAM AB_o_MannStockProxy
+Mannequin Stock
+###
+
 > CONT.FNAM AB_o_PackFur
 Pack
 ###
@@ -5478,6 +5530,10 @@ Sturgeon
 Ancient Sturgeon
 ###
 
+> CREA.FNAM AB_Obj_NecroAltar
+Strange Altar
+###
+
 > CREA.FNAM AB_Und_BoneAlit
 Bone Alit
 ###
@@ -5652,6 +5708,30 @@ Grim Lamp
 
 > LIGH.FNAM AB_light_LWLamp_128
 Limeware Lamp
+###
+
+> NPC_.FNAM AB_Mannequin2F
+Dress Stand
+###
+
+> NPC_.FNAM AB_Mannequin2M
+Dress Stand
+###
+
+> NPC_.FNAM AB_MannequinHeadF
+Mannequin
+###
+
+> NPC_.FNAM AB_MannequinHeadM
+Mannequin
+###
+
+> NPC_.FNAM AB_MannequinHeadlessF
+Mannequin
+###
+
+> NPC_.FNAM AB_MannequinHeadlessM
+Mannequin
 ###
 
 > NPC_.FNAM AB_TelvanniGuardF
@@ -7320,6 +7400,19 @@ InfoBox - Light Rays
 Use with "AB_light@_Day####" ( LIGH ) which also deactivate at night
 
 Can be used along with "AB_Fx_DarkHole_a" ( ACTI ) which activates at night."""
+###
+
+> BOOK.FNAM AB_Info_MannStockProxy
+InfoBox - Mannequin Stock
+###
+
+> BOOK.TEXT AB_Info_MannStockProxy
+"""Can be used to add vendor stock to a mannequin which should be owned by an NPC merchant.
+
+1. Create a new ID copy of the proxy.
+2. Place at mannequin
+3. Set ownerhip to the NPC.
+4. Ensure the proxy still has `AB_MannStockProxy_s` script attached."""
 ###
 
 > BOOK.FNAM AB_Info_ScamptallowCandles
@@ -16043,6 +16136,27 @@ The holly bush sports sharp, pleated, evergreen leaves of a shiny dark green col
 <BR>"""
 ###
 
+> BOOK.FNAM AB_bk_NecromancersMoon
+Necromancer's Moon
+###
+
+> BOOK.TEXT AB_bk_NecromancersMoon
+"""<DIV ALIGN="CENTER"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+Brothers and Sisters<BR>
+of the Worm!<BR>
+<DIV ALIGN="LEFT"><BR><BR>
+Despair not at the trials we now face, for our time comes swiftly.<BR>
+<BR>
+The God of Worms watches over our Order, and will deliver us from these troubled times on the Day of Reckoning. Until then, perform His works in secret, serve His needs, and look to the skies for His signs.<BR>
+<BR>
+The Revenant, the Necromancer's Moon, watches over us all. His Form, ascended to Godhood, has taken its rightful place in the sky, and hides the enemy Arkay from us so that we may serve Him. Watch for the signs: when the heavenly light descends from above, hasten to His altars and make your offering, so that He may bless you with but a taste of His true power. Grand Soul Gems offered to Him will be darkened, and can be used to trap the souls of the unwitting; a feat even the great N'Gasta would marvel at.<BR>
+<BR>
+Stay faithful to the Order of the Black Worm, and in time your loyalty will be rewarded. Soon, He will return to set the world right in due time, and those who would stand in his way will suffer eternally at his hands, just as those who stood opposed before.<BR>
+<BR>
+Until that day, you must believe and be patient. Hide in your caves, in your ruined forts, in your secret lairs. Raise your minions, summon your servants, cast your spells. Answer the call of the Order when you are needed. Watch and listen.<BR>
+<BR>"""
+###
+
 > BOOK.FNAM AB_bk_NordSongs
 Nord Drinking Songs
 ###
@@ -18616,6 +18730,86 @@ Crumpled Page
 
 > BOOK.FNAM AB_sc_CrumpledPaper02
 Crumpled Page
+###
+
+> BOOK.FNAM AB_sc_GenBillOfSale
+Bill of Sale
+###
+
+> BOOK.TEXT AB_sc_GenBillOfSale
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment records the lawful transfer of goods between two parties.]
+<BR>"""
+###
+
+> BOOK.FNAM AB_sc_GenCensusReport
+Census Report
+###
+
+> BOOK.TEXT AB_sc_GenCensusReport
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment records the names and residences of local citizens.]
+<BR>"""
+###
+
+> BOOK.FNAM AB_sc_GenCourtTranscript
+Court Transcript
+###
+
+> BOOK.TEXT AB_sc_GenCourtTranscript
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment shows the transcript from a court hearing.]
+<BR>"""
+###
+
+> BOOK.FNAM AB_sc_GenCurialMinutes
+Curial Minutes
+###
+
+> BOOK.TEXT AB_sc_GenCurialMinutes
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment shows the minutes from an Imperial curial meeting.]
+<BR>"""
+###
+
+> BOOK.FNAM AB_sc_GenCustomsManifest
+Customs Manifest
+###
+
+> BOOK.TEXT AB_sc_GenCustomsManifest
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment records goods declared for import or export.]
+<BR>"""
+###
+
+> BOOK.FNAM AB_sc_GenGarrisonRoster
+Garrison Roster
+###
+
+> BOOK.TEXT AB_sc_GenGarrisonRoster
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment lists soldiers presently assigned to an Imperial garrison.]
+<BR>"""
+###
+
+> BOOK.FNAM AB_sc_GenTaxAssessment
+Tax Assessment
+###
+
+> BOOK.TEXT AB_sc_GenTaxAssessment
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment lists properties, goods, and the taxes assessed upon them.]
+<BR>"""
+###
+
+> BOOK.FNAM AB_sc_GenWarehouseReceipt
+Warehouse Receipt
+###
+
+> BOOK.TEXT AB_sc_GenWarehouseReceipt
+"""<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
+[This parchment acknowledges goods deposited for storage.]
+<BR>"""
 ###
 
 > BOOK.FNAM AB_sc_TheFourthBookOfDust
