@@ -217,7 +217,7 @@ local function extTxt(en)
 			if v == "" and tag == "CLAS" then v = t[tag .. ".NAME"] end
 			kk = tag .. ".DESC " .. t[tag .. ".NAME"]
 			vv = t[tag .. ".DESC"]
-			if not vv and tag == "CLAS" then kk = nil end
+			if not vv and (tag == "CLAS" or tag == "RACE") then kk = nil end
 		elseif tag == "BOOK" then
 			k = tag .. ".FNAM " .. t[tag .. ".NAME"]
 			v = t[tag .. ".FNAM"]
