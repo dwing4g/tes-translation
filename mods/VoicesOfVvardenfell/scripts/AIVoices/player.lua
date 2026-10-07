@@ -244,10 +244,8 @@ local function onUiModeChanged(e)
 end
 
 return {
-    engineHandlers = {
-        UiModeChanged = onUiModeChanged,
-    },
     eventHandlers = {
+        UiModeChanged = onUiModeChanged,
         DialogueResponse = onDialogueResponse,
     },
 }
