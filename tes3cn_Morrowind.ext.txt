@@ -37175,11 +37175,11 @@ Flaenia Amiulusus
 
 > NPC_.FNAM hasphat antabolis
 Hasphat Antabolis
-哈斯帕特·安塔波利斯
+哈斯法特·安塔波利斯
 
 > MISC.FNAM key_hasphat_antabolis
 Hasphat Antabolis' Key
-哈斯帕特·安塔波利斯的钥匙
+哈斯法特·安塔波利斯的钥匙
 
 > MISC.FNAM key_hasphat_antabolis2
 Small Key
@@ -50824,7 +50824,7 @@ Personal Secretary to the Emperor<BR>
 
 > BOOK.FNAM bk_a1_2_antabolistocosades
 Hasphat's notes for Cosades
-哈斯帕特给科萨德斯的便条
+哈斯法特给科萨德斯的便条
 
 > BOOK.TEXT bk_a1_2_antabolistocosades
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
@@ -50843,7 +50843,7 @@ NEREVAR MOON-AND-STAR<BR>
 THE REAL NEREVAR<BR>
 """
 """<DIV ALIGN="LEFT"><FONT COLOR="000000" SIZE="3" FACE="Magic Cards"><BR>
-[以下是哈斯帕特·安塔波利斯为凯乌斯·科萨德斯准备的笔记。]<BR>
+[以下是哈斯法特·安塔波利斯为凯乌斯·科萨德斯准备的笔记。]<BR>
 <BR>
 第六家族<BR>
 <BR>
@@ -50881,7 +50881,7 @@ Hasphat Antabolis<BR>
 如果你运气好的话，也许你可以让%PCName给我寄回一封回信。<BR>
 <BR>
 我向你和帕妮娅致以最诚挚的问候和爱意，<BR>
-哈斯帕特·安塔波利斯<BR>
+哈斯法特·安塔波利斯<BR>
 """
 
 > BOOK.FNAM bk_a1_4_sharnsnotes
@@ -75426,31 +75426,31 @@ Hassour Zainsubani gave me some notes where he has written what he thinks I need
 
 > INFO.NAME a1_2_antabolisinformant 21695341318391437
 Hasphat Antabolis gave me a Dwemer key that may be useful in the Arkngthand ruins.
-哈斯帕特·安塔波利斯给了我一把锻莫钥匙，也许在阿肯赞德废墟里用得上。
+哈斯法特·安塔波利斯给了我一把锻莫钥匙，也许在阿肯赞德废墟里用得上。
 
 > INFO.NAME a1_2_antabolisinformant 1142113406127924533
 I gave Caius Cosades the notes from Hasphat Antabolis, and Caius seemed well-enough pleased with them. However, now he has something else for me to do.
-我把哈斯帕特·安塔波利斯的便条交给了凯乌斯·科萨德斯，凯乌斯似乎很满意。不过，他现在有别的事要我做。
+我把哈斯法特·安塔波利斯的便条交给了凯乌斯·科萨德斯，凯乌斯似乎很满意。不过，他现在有别的事要我做。
 
 > INFO.NAME a1_2_antabolisinformant 15564287601708520446
 Hasphat Antabolis gave me notes on the Sixth House to deliver to Caius Cosades.
-哈斯帕特·安塔波利斯给了我关于第六家族的便条，让我交给凯乌斯·科萨德斯。
+哈斯法特·安塔波利斯给了我关于第六家族的便条，让我交给凯乌斯·科萨德斯。
 
 > INFO.NAME a1_2_antabolisinformant 27186266952214713822
 I gave Hasphat Antabolis the Dwemer puzzle box, and now he says he'll tell me what I need to know about the Nerevarine secret cult and the Sixth House secret cult. He also said the inscriptions on the box seem to be the directions for setting a Dwemer key to open a specific lock. When I've delivered my report to Caius, he said come back, and maybe he'll have a key I can take back to Arkngthand.
-我把锻莫谜题盒子给了哈斯帕特·安塔波利斯，现在他说他会告诉我关于尼瑞瓦因秘密教派和第六家族秘密教派的事情。他还说，盒子上的铭文似乎是设置锻莫钥匙打开特定锁的说明。他说当我把我的报告交给凯乌斯后也许可以回来一趟，他会按照盒子上面的模板做一把钥匙，我可以带着钥匙回到阿肯赞德，或许能找到需要这把钥匙的锁。 {锻莫族}
+我把锻莫谜题盒子给了哈斯法特·安塔波利斯，现在他说他会告诉我关于尼瑞瓦因秘密教派和第六家族秘密教派的事情。他还说，盒子上的铭文似乎是设置锻莫钥匙打开特定锁的说明。他说当我把我的报告交给凯乌斯后也许可以回来一趟，他会按照盒子上面的模板做一把钥匙，我可以带着钥匙回到阿肯赞德，或许能找到需要这把钥匙的锁。 {锻莫族}
 
 > INFO.NAME a1_2_antabolisinformant 1911034503131124235
 I found the Dwemer puzzle box Hasphat Antabolis told me to find. Now I'll take it to him, and in return, he'll tell me what I need to know about the Nerevarine secret cult and the Sixth House secret cult.
-我找到了哈斯帕特·安塔波利斯让我找的锻莫谜题盒子。现在我要把它交给他，作为回报，他会告诉我关于尼瑞瓦因秘密教派和第六家族秘密教派的事情。 {锻莫族,需要}
+我找到了哈斯法特·安塔波利斯让我找的锻莫谜题盒子。现在我要把它交给他，作为回报，他会告诉我关于尼瑞瓦因秘密教派和第六家族秘密教派的事情。 {锻莫族,需要}
 
 > INFO.NAME a1_2_antabolisinformant 1670922031057613313
 I need to do a favor for Hasphat Antabolis before he'll tell me what I need to know. I'm to go to a Dwemer ruin nearby called Arkngthand. I'm supposed to find a little cube with a circular design and some symbols on one side. He called it a "Dwemer puzzle box'. When I bring the cube back to Antabolis, he'll tell me what I need to know.
-在哈斯帕特·安塔波利斯告诉我我需要知道的事情之前，我需要帮他一个忙。我要去附近一个叫阿肯赞德的锻莫遗迹。我应该找到一个小方块，上面有圆形图案，一面还有一些符号。他称之为“锻莫谜题盒子”。等我把盒子带回安塔波利斯，他就会告诉我我需要知道的东西。
+在哈斯法特·安塔波利斯告诉我我需要知道的事情之前，我需要帮他一个忙。我要去附近一个叫阿肯赞德的锻莫遗迹。我应该找到一个小方块，上面有圆形图案，一面还有一些符号。他称之为“锻莫谜题盒子”。等我把盒子带回安塔波利斯，他就会告诉我我需要知道的东西。
 
 > INFO.NAME a1_2_antabolisinformant 16846287411397625942
 The Spymaster has sent me to talk to Hasphat Antabolis at the Balmora Fighters Guild. I'm to ask him what he knows about the Nerevarine secret cult and the Sixth House secret cult, and return to report to the Spymaster. First I'll have to do some favor for Antabolis, then he'll give me the information that the Spymaster wants.
-情报总管派我去找巴尔莫拉战士公会的哈斯帕特·安塔波利斯谈谈。我要向他打听尼瑞瓦因秘密教派和第六家族秘密教派的情况，然后回来向情报总管报告。首先我得帮安塔波利斯一个忙，然后他会给我情报总管想要的情报。
+情报总管派我去找巴尔莫拉战士公会的哈斯法特·安塔波利斯谈谈。我要向他打听尼瑞瓦因秘密教派和第六家族秘密教派的情况，然后回来向情报总管报告。首先我得帮安塔波利斯一个忙，然后他会给我情报总管想要的情报。
 
 > INFO.NAME ms_jobashaabolitionist 83331906191803939
 Jobasha told me that the Khajiti slaves in the Ascadian Isles and Caldera suffer.
@@ -77862,7 +77862,7 @@ I found a Breton healer in Berandas named Ama Nin. She had been snatched from th
 
 > INFO.NAME book_onmorrowind 2792793691877310201
 When I asked Hasphat Antabolis about Morrowind history, he gave me a copy of 'On Morrowind, the Imperial Province', by Erramanwe of Sunhold.
-当我向哈斯帕特·安塔波利斯询问晨风历史时，他给了我一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
+当我向哈斯法特·安塔波利斯询问晨风历史时，他给了我一本由阳堡的厄拉曼维所著的《在晨风，帝国的行省》。 {帝国人}
 
 > INFO.NAME town_tel_vos_she 2876532113109629633
 When I asked an Ashlander what trade goods the Zainab need, she mentioned one thing. Though the tribe's wise women were good healers, they could not make the bottled magics that cure common disease and blight disease, so the trader and all the Zainab were often in short supply of these things. Now I can report back to Turedus Talanian, and tell him that Cure Common Disease and Cure Blight Disease potions would be valuable trade goods.
@@ -80362,7 +80362,7 @@ Edwinna thanked me for returning Chimarvamidium.
 
 > INFO.NAME mg_excavation 4510249634977156
 Hasphat Antabolis gave me a letter of introduction to Senilias Cadiusus, the head of the expedition at Nchuleftingth.
-哈斯帕特·安塔波利斯给了我一封介绍信，让我去见恩楚莱夫庭斯的探险队队长塞尼利亚斯·卡迪苏斯。 {勒特}
+哈斯法特·安塔波利斯给了我一封介绍信，让我去见恩楚莱夫庭斯的探险队队长塞尼利亚斯·卡迪苏斯。 {勒特}
 
 > INFO.NAME mg_excavation 17575317042467617261
 Edwinna has asked me to check up on Senilias Cadiusus in Nchuleftingth. I can get to Nchuleftingth by either going northeast over the mountains near Suran and following the Foyada Nadanat northeast or by starting in Molag Mar and going northwest and following the Foyada north around Mount Kand.
@@ -84458,11 +84458,11 @@ Elam Andas, chief of Vivec's Order of the Watch, has asked me to find and execut
 
 > INFO.NAME town_vivec 39440180534007
 Two Ordinators and five outlanders have been killed in Vivec, their throats slit. The rumor is that the Office of the Watch at the Hall of Justice is very concerned, and is looking for special help.
-两名神殿卫兵和五个外地人在维威克城被杀，他们都被割了喉。传言说，正义大厅的监察办事处对此非常担忧，并正在寻求特别帮助。
+两名神殿卫兵和五个外地人在维威克城被杀，他们都被割了喉。传言说，正义大厅的守望办事处对此非常担忧，并正在寻求特别帮助。
 
 > INFO.NAME town_vivec 27338256343161121090
 Two Ordinators and five outlanders have been killed in Vivec, their throats slit. The rumor is that the Office of the Watch at the Hall of Justice is looking for outside help.
-两名神殿卫兵和五个外地人在维威克城被杀，他们都被割了喉。传言说，正义大厅的监察办事处正在寻求外部帮助。
+两名神殿卫兵和五个外地人在维威克城被杀，他们都被割了喉。传言说，正义大厅的守望办事处正在寻求外部帮助。
 
 > INFO.NAME da_mephala 247672770592332649
 While in a Morag Tong Shrine to Mephala, I spoke to a priest of the Daedra. Taros Dral told me he had been given an important task by Mephala, and wanted to know if I wished to help.
@@ -86466,7 +86466,7 @@ Yes, of course, soft-skin. Take this potion back to Edwinna, along with my apolo
 
 > INFO.NAME chair of dwemer studies 24301154881034429467
 Currently, the Chair is empty and the Great Houses can't agree on a replacement. I believe Hasphat Antabolis was nominated... I'd try to get the position myself, but I fear all the meetings and bookkeeping would take time away from my research.
-目前，主席之位空缺，各大家族无法就接替人选达成一致。我相信哈斯帕特·安塔波利斯已经被提名了…我本想自己争取这个职位，但我担心所有的会议和记账会占用我的研究时间。
+目前，主席之位空缺，各大家族无法就接替人选达成一致。我相信哈斯法特·安塔波利斯已经被提名了…我本想自己争取这个职位，但我担心所有的会议和记账会占用我的研究时间。
 
 > INFO.NAME join the fighters guild 292531804432634565
 You are now %PCName the %NextPCRank in the Fighters Guild. Work hard, follow orders, and you'll do just fine. Seek me out if you feel you are ready for advancement.
@@ -89350,39 +89350,39 @@ Some fighters live and train here at the Arena. Imperial guildsmen are in the Fo
 
 > INFO.NAME someone in particular 1741012222282972543
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 12815281301216524465
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 174920349203954675
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 2272514161227529672
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 1474415534200826612
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 11949158781653223000
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 221221427143631835
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 569020229285356138
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 28262126892353710386
 The most important people in the Temple Compound are Archcanon Saryoni at the High Fane, Berel Sala in the Justice Offices, and Elam Andas in the Office of the Watch. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Imperial guildsmen are in the Foreign Quarter. Some fighters live and train at the Arena.
-神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和监察办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
+神殿驻地中最重要的人是至高神殿的大主教萨里奥尼、正义办公区的贝瑞尔·萨拉和守望办事处的埃拉姆·安达斯。瑞多然家族的人在瑞多然驻地，泰瓦尼家族的人在泰瓦尼驻地。哈拉鲁家族的人在哈拉鲁驻地，也在圣·德林区和圣·奥姆斯行政区。帝国公会在外邦区。一些战士在竞技场生活和训练。 {帝国人}
 
 > INFO.NAME someone in particular 1426926249294284134
 Here in the Foreign Quarter, you'll find the Imperial Guilds -- Fighters Guild, Mages Guild -- and an Imperial cult shrine down in the Canalworks. Redorans are in Redoran Compound and Telvanni are in Telvanni Compound. Hlaalu are in Hlaalu Compound, but also in St. Delyn and St. Olms Cantons. Temple priests, clerks, and Ordinators are in the Hall of Wisdom and the Hall of Justice. Some fighters live and train at the Arena.
@@ -93070,7 +93070,7 @@ I cannot make sense of this. Even when I try using this "Hanging Gardens" you've
 
 > INFO.NAME divine metaphysics 31011165622815625006
 Hm. I do not know what to tell you about that book. I can make sense of Dwemer plans, but I cannot read their language. You might want to ask Hasphat Antabolis in Balmora.
-嗯。关于那本书，我不知道该怎么跟你说。我能理解锻莫的图纸，但看不懂他们的语言。你可以去问巴尔莫拉的哈斯帕特·安塔波利斯。 {计划}
+嗯。关于那本书，我不知道该怎么跟你说。我能理解锻莫的图纸，但看不懂他们的语言。你可以去问巴尔莫拉的哈斯法特·安塔波利斯。 {计划}
 
 > INFO.NAME divine metaphysics 629025161131044732
 That is very interesting. I am glad you found a way to translate this book, but what does it mean? Someday you should take these books to Cyrodiil and speak with the scholars there.
@@ -117184,91 +117184,91 @@ I'm told you claim to be the Incarnate -- Nerevar reborn according to legend. My
 
 > INFO.NAME latest rumors 2006019135927810663
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 157921037894023261
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 14416162722671924727
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 1805929061172984264
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 2978954963063032333
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 5492675653064323
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 32723168242952217421
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 2958920201298945
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 20262830956509475
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 2375960051218115641
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 580528431196982528
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 78306348167629049
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 111349392731216268
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Must be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的监察办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，神殿卫兵正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
+是什么能在两名神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克城这里发生了。一定是术士或吸血鬼。正义大厅的守望办事处正担心派他们自己的神殿卫兵去追捕这个杀手。有传言说，守望办事处正在寻找外援。你是个外地人。你知道其他五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 168465105441831242
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 141843021585617905
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 848016399766718470
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 68578462826620429
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 27802166371885918620
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 6136108971491710714
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 1772272382367027024
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 913045491949911778
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 2838824372109330145
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 127902297244144444
 I monitor smuggling along the Bitter Coast. And the job's too big for me. They move moon sugar, skooma, raw ebony, Dwemer artifacts, you name it, through Hla Oad and Gnaar Mok. With the coast honeycombed with smuggler caves, and Camonna Tong locals carrying tiny packages overland by night, I'll never catch them. But maybe you'll have better luck.
@@ -117816,7 +117816,7 @@ I've been hearing of a lot of people with bad dreams, seeing bad omens, stuff li
 
 > INFO.NAME latest rumors 17735163812640212748
 The Office of the Watch says they got the one who killed the two Ordinators. They didn't say how. But I heard it was an outlander that tracked the killer down. And I also heard the outlander was a %PCRace that looked a lot like you. What a remarkable coincidence.
-监察办事处说他们抓到了杀死那两个神殿卫兵的人。他们没说是怎么回事。但我听说是一个外地人追踪到了凶手。而且我还听说那个外地人是个%PCRace，长得很像你。真是个了不起的巧合。
+守望办事处说他们抓到了杀死那两个神殿卫兵的人。他们没说是怎么回事。但我听说是一个外地人追踪到了凶手。而且我还听说那个外地人是个%PCRace，长得很像你。真是个了不起的巧合。
 
 > INFO.NAME latest rumors 962961081076824218
 So Herd the Bandit has become Herd the Pirate? I guess he's decided to try his luck with sea-going banditry. How do you like the idea of Herd and his mob in a boat? I hope they've invested in water-breathing potions.
@@ -117852,11 +117852,11 @@ You've got to hand it to the little daemon-charmers. They surprised us. The Telv
 
 > INFO.NAME latest rumors 27359308853209726135
 What could kill two Ordinators before they can draw their weapons? Slit their throats? Happened right here in Vivec. Got to be a sorcerer or vampire. The Office of the Watch in the Hall of Justice is worried about sending their own Ordinators out after this killer. The rumor is that the Office of the Watch is looking for outside help. You're an outlander. Did you know five other outlanders were killed just the same way?
-有什么能在神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克发生过，肯定是术士或吸血鬼干的。正义大厅的监察办事处很担心，他们会派自己的神殿卫兵去追捕凶手。有传言说监察办事处正在寻求外援。你是外地人，你知道另外五个外地人也是这样被杀的吗？
+有什么能在神殿卫兵拔出武器之前杀死他们？割断他们的喉咙？就在维威克发生过，肯定是术士或吸血鬼干的。正义大厅的守望办事处很担心，他们会派自己的神殿卫兵去追捕凶手。有传言说守望办事处正在寻求外援。你是外地人，你知道另外五个外地人也是这样被杀的吗？
 
 > INFO.NAME latest rumors 7897104801480424251
 Have you heard? Seven victims? Here in Vivec? All with their throats slit? When it was just a few outlanders killed, the Ordinators weren't making much fuss. But now that they've had two of their own people with slit throats, they seem very concerned at the Hall of Justice. I've heard that the Office of the Watch is quietly looking around for some special help. Anything that can kill TWO Ordinators before they can draw their weapons sounds like it will NEED special help.
-你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，监察办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
+你听说了吗？七名受害者？就在维威克城？都被割喉了？当只有几个外地人被杀时，神殿卫兵并没有大惊小怪。但现在，他们有两个自己人被割喉了，正义大厅似乎对此非常关注。我听说，守望办事处正在悄悄地四处寻找一些特别援手。对于能在两名神殿卫兵拔出武器之前就杀死他们的东西来说，他们显然需要些特别援手。
 
 > INFO.NAME latest rumors 12808112932677520322
 Did you hear they stuck that Dissident Priests guy Malur Omayn in the Ministry of Truth? I guess the Temple Priests and Ordinators figure they can straighten him out in there. I'll bet they can.
@@ -124514,7 +124514,7 @@ So you translated this book and it says the Dwarves were destroyed by Lorkhan's 
 
 > INFO.NAME egg of time 2803328584585914279
 This book is puzzling to me. You might want to ask Hasphat Antabolis in Balmora.
-这本书让我百思不得其解。你不妨去问问巴尔莫拉的哈斯帕特·安塔波利斯。
+这本书让我百思不得其解。你不妨去问问巴尔莫拉的哈斯法特·安塔波利斯。
 
 > INFO.NAME egg of time 287299353271876011
 This is certainly an interesting book. I know many things about the Dwemer ruins here in Vvardenfell, but I'm afraid I can't confirm what this book says. Perhaps this is what destroyed the Dwarves, and perhaps not. The author certainly didn't seem to think so.
@@ -134058,7 +134058,7 @@ Did you find Anes Vendu? Did you get the excavation report?
 
 > INFO.NAME greeting 5 1203020480122806904
 I'm Senilias Cadiusus and this is my daughter, Pania. I am excavating these Dwemer ruins. Oh, did Edwinna send you? I'm afraid I don't have an excavation report for her. And what's this? A letter from Hasphat Antabolis? And you come recommended? How nice of Hasphat to think of us. And what a lucky coincidence.
-我是塞尼利亚斯·卡迪苏斯，这是我女儿帕妮娅。我正在发掘这些锻莫遗迹。埃德温娜派你来的？恐怕我没有她的挖掘报告。这是什么？哈斯帕特·安塔波利斯的信？你是被推荐来的？哈斯法特能想到我们真是太好了。真是幸运的巧合。 {勒特}
+我是塞尼利亚斯·卡迪苏斯，这是我女儿帕妮娅。我正在发掘这些锻莫遗迹。埃德温娜派你来的？恐怕我没有她的挖掘报告。这是什么？哈斯法特·安塔波利斯的信？你是被推荐来的？哈斯法特能想到我们真是太好了。真是幸运的巧合。 {勒特}
 
 > INFO.NAME greeting 5 2040831796162714899
 I'm Senilias Cadiusus and this is my daughter, Pania. I am excavating these Dwemer ruins. Oh, did Edwinna send you? I'm afraid I don't have an excavation report for her.
@@ -134066,7 +134066,7 @@ I'm Senilias Cadiusus and this is my daughter, Pania. I am excavating these Dwem
 
 > INFO.NAME greeting 5 17990159392679132522
 I'm Senilias Cadiusus and this is my daughter, Pania. We are excavating these Dwemer ruins. Oh, I see you have a letter from Hasphat Antabolis. And you come recommended. Splendid. Perhaps you could help us out. Our native guide, Anes Vendu, is missing.
-我是塞尼利亚斯·卡迪苏斯，这是我女儿帕妮娅。我们正在发掘这些锻莫遗迹。哈斯帕特·安塔波利斯给你写了封信，你是被推荐来的，太好了。也许你能帮助我们，我们的本地向导阿尼斯·文杜失踪了。 {勒特}
+我是塞尼利亚斯·卡迪苏斯，这是我女儿帕妮娅。我们正在发掘这些锻莫遗迹。哈斯法特·安塔波利斯给你写了封信，你是被推荐来的，太好了。也许你能帮助我们，我们的本地向导阿尼斯·文杜失踪了。 {勒特}
 
 > INFO.NAME greeting 5 13865800325082886
 I'm Senilias Cadiusus and this is my daughter, Pania. We are excavating these Dwemer ruins.
@@ -136456,7 +136456,7 @@ Yup. Fishing's a little slow. Weather's been a bit warm.
 """WHAT?! Hasphat Antabolis is DEAD? And you were responsible? Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! 
 
 [This path to your destiny is blocked.]"""
-"""什么？哈斯帕特·安塔波利斯死了？而且是你干的？滚出去！别再回来了！我不关心皇帝想要什么！我不关心你的借口！赶紧滚！
+"""什么？哈斯法特·安塔波利斯死了？而且是你干的？滚出去！别再回来了！我不关心皇帝想要什么！我不关心你的借口！赶紧滚！
 
 [这条通往你命运的道路被封堵了。] {格挡}"""
 
@@ -148734,7 +148734,7 @@ You have been expelled, %PCName. If you want to make amends, you should speak wi
 
 > INFO.NAME bethamez 3368246471914520209
 Someday your work in Dwemer archeology may surpass even myself or Hasphat Antabolis.
-有一天你在锻莫考古学上的成就，甚至会超过我和哈斯帕特·安塔波利斯。 {工作}
+有一天你在锻莫考古学上的成就，甚至会超过我和哈斯法特·安塔波利斯。 {工作}
 
 > INFO.NAME bethamez 21250289262982410476
 This is truly remarkable, %PCName. These plans are very similar. Perhaps with both of them in my possession, I can discover their secrets. It's a shame Arch-Mage Trebonius doesn't share your dedication to scholarship.
@@ -156426,43 +156426,43 @@ Get the information from Sharn gra-Muzgob at the Balmora Mages Guild like I aske
 
 > INFO.NAME orders 23588256493054024115
 I've glanced at Hasphat Antabolis' notes. They cover the Sixth House admirably, but not the Nerevarine cult. Hop on over to the Balmora Mages Guild. It's right next to the Balmora Fighters Guild. Get Sharn gra-Muzgob to tell you what she knows about the Nerevarine. She'll have some silly errand for you. Do what she asks. And report back when she's given you the information.
-我看过哈斯帕特·安塔波利斯的笔记了。第六家族教派的情况我差不多了解了，但尼瑞瓦因教派的情况尚不明确。去巴尔莫拉法师公会吧，就在巴尔莫拉战士公会旁边。让莎恩·格拉-穆兹格布告诉你她所知道的关于尼瑞瓦因的事情。她可能会给你安排一些无聊的差事，照她说的做，等她给你消息再向你报告。
+我看过哈斯法特·安塔波利斯的笔记了。第六家族教派的情况我差不多了解了，但尼瑞瓦因教派的情况尚不明确。去巴尔莫拉法师公会吧，就在巴尔莫拉战士公会旁边。让莎恩·格拉-穆兹格布告诉你她所知道的关于尼瑞瓦因的事情。她可能会给你安排一些无聊的差事，照她说的做，等她给你消息再向你报告。
 
 > INFO.NAME orders 28516243641708915967
 """WHAT?! You KILLED Hasphat Antabolis? Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! 
 
 [This path to your destiny is blocked.]"""
-"""什么？！你杀了哈斯帕特·安塔波利斯？滚出去！别再回来！我不在乎皇帝要什么！我不在乎你的借口！滚出去！
+"""什么？！你杀了哈斯法特·安塔波利斯？滚出去！别再回来！我不在乎皇帝要什么！我不在乎你的借口！滚出去！
 
 [你的命运之路已经被堵死了。] {格挡}"""
 
 > INFO.NAME orders 2094519401100125494
 So. You say Hasphat Antabolis gave you notes to give to me? But you don't actuallly HAVE the notes? Perhaps... I hesitate to suggest it... you might go get the notes and bring them to me?
-你说哈斯帕特·安塔波利斯给你笔记让你交给我？但你实际上没有笔记？也许…我犹豫要不要建议你…你可以去把笔记拿给我？
+你说哈斯法特·安塔波利斯给你笔记让你交给我？但你实际上没有笔记？也许…我犹豫要不要建议你…你可以去把笔记拿给我？
 
 > INFO.NAME orders 2012622432489029727
 These notes are from Hasphat Antabolis? Excellent. I trust he didn't work you too hard for them. I'll look them over in more detail later, but now, I have some new orders for you.
-这些笔记是哈斯帕特·安塔波利斯给你的？好极了。我相信他没让你太辛苦吧？我稍后再详细看。但现在我有新的指示给你。 {工作}
+这些笔记是哈斯法特·安塔波利斯给你的？好极了。我相信他没让你太辛苦吧？我稍后再详细看。但现在我有新的指示给你。 {工作}
 
 > INFO.NAME orders 1490057142559718427
 Get the information about the Nerevarine secret cult and the Sixth House secret cult from Hasphat Antabolis, like I told you.
-按我说的，把尼瑞瓦因秘密教派和第六家族秘密教派的资料，从哈斯帕特·安塔波利斯那里拿来。
+按我说的，把尼瑞瓦因秘密教派和第六家族秘密教派的资料，从哈斯法特·安塔波利斯那里拿来。
 
 > INFO.NAME orders 1211138301695024876
 """You're ready for your orders? Good. I want you to talk to Hasphat Antabolis at the Balmora Fighters Guild... WHAT?! You KILLED Hasphat Antabolis? Get OUT OF HERE! And don't come back! I don't CARE what the Emperor wants! I don't CARE about your excuses! GET OUT OF HERE! 
 
 [This path to your destiny is blocked.]"""
-"""你准备好接受指示了吗？很好。我想让你去巴尔莫拉战士公会找哈斯帕特·安塔波利斯谈谈……什么？！你杀了哈斯帕特·安塔波利斯？滚出去！别再回来！我不在乎皇帝要什么！我不在乎你的借口！滚出去！
+"""你准备好接受指示了吗？很好。我想让你去巴尔莫拉战士公会找哈斯法特·安塔波利斯谈谈……什么？！你杀了哈斯法特·安塔波利斯？滚出去！别再回来！我不在乎皇帝要什么！我不在乎你的借口！滚出去！
 
 [你的命运之路已经被堵死了。] {格挡}"""
 
 > INFO.NAME orders 14520215453172227671
 By the way... Hasphat is a student of Morrowind history. Take the chance to get a little education. And I have a few history books in here. Help yourself. You're welcome to them. No point in being part of history if you're too ignorant to understand it.
-顺便一提……哈斯帕特正在学习晨风历史。抓住这个机会上点课吧。我这里有几本历史书。随便翻翻吧。如果你无知到无法理解历史，那成为历史的一部分也没有意义。
+顺便一提……哈斯法特正在学习晨风历史。抓住这个机会上点课吧。我这里有几本历史书。随便翻翻吧。如果你无知到无法理解历史，那成为历史的一部分也没有意义。
 
 > INFO.NAME orders 16539151961972116834
 Ready for orders? Good. Go talk to Hasphat Antabolis at the Balmora Fighters Guild. Ask him what he knows about the Nerevarine secret cult and the Sixth House secret cult. You'll have to do him a favor first. Probably an ugly favor. But do it. Then get the information from Antabolis and report back to me.
-准备好接受指示了吗？很好。去巴尔莫拉战士公会找哈斯帕特·安塔波利斯谈谈吧。问问他对尼瑞瓦因秘密教派和第六家族秘密教派了解多少。你得先帮他一个忙，可能是个比较有难度的忙，但还是要帮。然后从安塔波利斯那里得到信息，然后向我报告。
+准备好接受指示了吗？很好。去巴尔莫拉战士公会找哈斯法特·安塔波利斯谈谈吧。问问他对尼瑞瓦因秘密教派和第六家族秘密教派了解多少。你得先帮他一个忙，可能是个比较有难度的忙，但还是要帮。然后从安塔波利斯那里得到信息，然后向我报告。
 
 > INFO.BNAM orders 16539151961972116834 c1
 Continue
@@ -176222,7 +176222,7 @@ I'd like the belt.
 
 > INFO.NAME work 7236257792293914681
 According to your report, the Dunmer woman you killed matches the description given us. We'll dispatch Ordinators to follow up, but I believe you have identified and executed the killer. On behalf of the city, and of the Office of the Watch, thank you. And now, for the reward I promised. I'll give you a choice. You may either have an Indoril helm and cuirass, or a Belt of the Armor of God.
-根据你的报告，你杀的那个丹莫女人符合我们得到的描述。我们会派遣神殿卫兵跟进，但我相信你已经确认并处决了凶手。我代表城市和监察办事处感谢你。现在，我承诺的奖赏，我给你一个选择，你可以选择因多瑞尔头盔和胸甲，或者神甲腰带。 {报酬}
+根据你的报告，你杀的那个丹莫女人符合我们得到的描述。我们会派遣神殿卫兵跟进，但我相信你已经确认并处决了凶手。我代表城市和守望办事处感谢你。现在，我承诺的奖赏，我给你一个选择，你可以选择因多瑞尔头盔和胸甲，或者神甲腰带。 {报酬}
 
 > INFO.BNAM work 7236257792293914681 c1
 Continue
@@ -176234,7 +176234,7 @@ As I said, I cannot officially hire you for this task. But if you find and execu
 
 > INFO.NAME work 949528503156242800
 I cannot hire you. Only Ordinators may serve the Watch. But if you can find this killer, and execute him, I personally promise you a very handsome reward. I require no commitment from you. Indeed, I cannot officially accept one. But if you are interested, I can tell you what we know about the seven victims and the reports of witnesses.
-我不能雇用你，只有神殿卫兵可以为监察办事处工作。但如果你能找到并处决这个杀手，我以个人名义向你保证，你会得到一笔非常丰厚的报酬。我不需要你的承诺。事实上，我不能正式接受你的承诺。但如果你有兴趣，我可以告诉你我们所知的关于那七名受害者和证人的目击报告。
+我不能雇用你，只有神殿卫兵可以为守望工作。但如果你能找到并处决这个杀手，我以个人名义向你保证，你会得到一笔非常丰厚的报酬。我不需要你的承诺。事实上，我不能正式接受你的承诺。但如果你有兴趣，我可以告诉你我们所知的关于那七名受害者和证人的目击报告。
 
 > INFO.NAME work 2224720903141020832
 We've had seven killings in Vivec recently. All the victims had their throats slit. Most did not appear to have struggled. Five victims were outlanders. Two were Ordinators. The two Ordinators were armed and on duty. Their weapons were still in their belts. Nothing was removed from the victim's bodies.
