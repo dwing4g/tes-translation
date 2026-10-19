@@ -38695,7 +38695,7 @@ Gordol
 
 > NPC_.FNAM rothis nethan
 Rothis Nethan
-罗西斯·内森
+罗西斯·内桑
 
 > NPC_.FNAM brethas deras
 Brethas Deras
@@ -43203,7 +43203,7 @@ Ulyno Uvirith
 
 > NPC_.FNAM brildraso nethan
 Brildraso Nethan
-布里德拉索·内森
+布里德拉索·内桑
 
 > NPC_.FNAM aren maren
 Aren Maren
@@ -52866,7 +52866,7 @@ Elmera Verethi
 
 > NPC_.FNAM satheri rothandus
 Satheri Rothandus
-萨瑟瑞·罗丹达斯
+萨瑟瑞·罗桑杜斯
 
 > NPC_.FNAM drurile valaai
 Drurile Valaai
@@ -61934,7 +61934,7 @@ Alnas Sendu
 
 > NPC_.FNAM bedenea nethan
 Bedenea Nethan
-贝德妮娅·内森
+贝德妮娅·内桑
 
 > NPC_.FNAM drandryn omoran
 Drandryn Omoran
@@ -63911,7 +63911,7 @@ Favani Faryon
 
 > NPC_.FNAM endul rothandus
 Endul Rothandus
-恩杜尔·罗丹达斯
+恩杜尔·罗桑杜斯
 
 > NPC_.FNAM deras girando
 Deras Girando
@@ -76714,15 +76714,15 @@ Faral Retheran thanked me for making Meril Hlaano withdraw his slanderous statem
 
 > INFO.NAME hr_cowarddisgrace 800071941505726909
 Faral Retheran asked me to convince Rothis Nethan to appear for a duel of honor with Brethas Deras.
-法拉·雷瑟兰让我说服罗西斯·内森出席与布雷萨斯·德拉斯的荣誉决斗。
+法拉·雷瑟兰让我说服罗西斯·内桑与布雷萨斯·德拉斯一起参加荣耀决斗。
 
 > INFO.NAME hr_cowarddisgrace 10690206981222025146
 Rothis Nethan agreed to duel Brethas Deras. Rothis Nethan will meet me in the Vivec arena.
-罗西斯·内森同意与布雷萨斯·德拉斯决斗。罗西斯·内森将在维威克竞技场与我会面。
+罗西斯·内桑同意与布雷萨斯·德拉斯进行决斗。罗西斯·内桑会在维威克城竞技场与我碰面。
 
 > INFO.NAME hr_cowarddisgrace 6410444254947859
 The duel between Rothis Nethan and Brethas Deras is over.
-罗西斯·内森与布雷萨斯·德拉斯的决斗结束。
+罗西斯·内桑和布雷萨斯·德拉斯之间的决斗已经结束。
 
 > INFO.NAME hr_cowarddisgrace 2863421125213905459
 Faral Retheran thanked me for upholding the honor of House Redoran.
@@ -76730,7 +76730,7 @@ Faral Retheran thanked me for upholding the honor of House Redoran.
 
 > INFO.NAME hr_cowarddisgrace 230979224323615942
 Since one of the participants in the duel between Rothis Nethan and Brethas Deras is dead, the duel cannot take place.
-由于罗西斯·内森和布雷萨斯·德拉斯决斗的其中一位参与者已经死亡，决斗无法进行下去了。
+由于罗西斯·内桑和布雷萨斯·德拉斯之间决斗的参与者之一已经死亡，所以决斗无法进行。
 
 > INFO.NAME hh_disguisedarmor 137011923788329561
 Nileno Dorvayn asked me to disguise myself as the deceased Redoran Felsen Sethandus. While disguised I should get a package from Neminda in Ald'ruhn by using the code phrase "Orphan of Arnesia."
@@ -134750,7 +134750,7 @@ Have you slain Dagoth Tanis?
 
 > INFO.NAME greeting 5 4644261112612412695
 Did you convince Rothis Nethan to appear for the duel?
-你说服罗西斯·内森参加决斗了吗？
+你说服罗西斯·内桑参加决斗了吗？
 
 > INFO.NAME greeting 5 27145262732100515713
 Do you have the treasures of the Redas Tomb?
@@ -157090,7 +157090,7 @@ I do not have any duties for you, %PCRank. Speak with me again when you are a Br
 
 > INFO.NAME duties 2369014829158617836
 Rothis Nethan failed to appear for a duel of honor with Brethas Deras, a Hlaalu noble. This has shamed House Redoran. Track down the craven Rothis Nethan here in the Redoran Canton and persuade him to attend the duel.
-罗西斯·内森没有出现在与哈拉鲁贵族布雷萨斯·德拉斯的荣誉决斗。这使瑞多然家族蒙羞。在瑞多然领地找到懦弱的罗西斯·内森，说服他参加决斗。
+罗西斯·内桑没有出席与哈拉鲁贵族布雷萨斯·德拉斯的荣耀决斗。这使瑞多然家族蒙羞。在瑞多然行政区找到这个懦夫罗西斯·内桑，说服他参加决斗。
 
 > INFO.NAME duties 564053211407626175
 The last of the Redas family line has bequeathed the family's belongings to House Redoran. I need someone to recover the family treasures from the Redas Tomb.
@@ -175190,7 +175190,7 @@ I heard you were expelled, %PCName. You must make amends.
 
 > INFO.NAME duel 3035720553113522639
 Well, if Rothis Nethan is already dead, the duel cannot take place.
-如果罗西斯·内森已经死了，决斗就不能进行了。
+好吧，如果罗西斯·内桑已经死了，决斗自然无法进行了。
 
 > INFO.NAME duel 209151149415932062
 Well, if Brethas Deras is already dead, the duel cannot take place.
@@ -175206,19 +175206,19 @@ The duel is over and House Redoran's honor is saved.
 
 > INFO.NAME duel 95851680446241313
 So you were able to convince Rothis Nethan at last. I hope he will appear for the duel this time. Meet him in the arena and watch the outcome of this duel.
-你终于说服了罗西斯·内森。我希望他这次能来参加决斗。与他在竞技场相见，观看这场决斗的结果。
+所以你终究还是说服了罗西斯·内桑。我希望他这次会参加决斗。去竞技场和他碰面，观看这场决斗吧。
 
 > INFO.NAME duel 10237313881527310050
 I believe Rothis Nethan is hiding out at the Flowers of Gold Cornerclub in the Redoran Waistworks here in Vivec. Go talk to him, and make him realize how this has cost the honor of House Redoran.
-我相信罗西斯·内森正藏身于维威克中层区的金花街角酒吧。去找他谈谈，让他意识到，瑞多然家族的荣誉是如何受损的。
+我相信罗西斯·内桑正躲在维威克城瑞多然中层区的黄金鲜花街角酒吧。去找他谈谈，让他明白他让瑞多然家族的荣誉蒙羞。
 
 > INFO.NAME duel 106011049153032576
 I won. But at least Rothis Nethan showed up and proved he had some courage.
-我赢了，但至少罗西斯·内森出现了，证明了他还有点勇气。
+我赢了，但至少罗西斯·内桑来了，证明了他还有点勇气。
 
 > INFO.NAME duel 56261333619038337
 You can tell Rothis Nethan that I'll be there. He just better show up this time.
-你可以告诉罗西斯·内森我会去的。他这次最好能出现。
+你可以告诉罗西斯·内桑我会去的。他这次最好会来。
 
 > INFO.NAME duel 18672191031871420101
 Redorans sure talk a lot about honor, but when it comes time to test it, they fail.

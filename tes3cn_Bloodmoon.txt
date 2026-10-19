@@ -18657,7 +18657,7 @@ End WolfRitualRing
  NPC_.AI_W [00 00 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_
  NPC_.NAME "Falco Galenus$00"
- NPC_.FNAM "法尔科·盖勒纳斯$00"
+ NPC_.FNAM "法尔科·伽勒努斯$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Noble$00"
  NPC_.ANAM "East Empire Company$00"
@@ -18682,7 +18682,7 @@ End WolfRitualRing
  NPC_.AI_W [00 01 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_
  NPC_.NAME "Gidar Verothan$00"
- NPC_.FNAM "吉达尔·维罗坦$00"
+ NPC_.FNAM "吉达尔·维罗桑$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Commoner$00"
  NPC_.ANAM "East Empire Company$00"
@@ -25541,7 +25541,7 @@ RH<BR>
 <BR>
 谦逊地，<BR>
 <BR>
-法尔科·盖勒纳斯<BR>"
+法尔科·伽勒努斯<BR>"
 -ACTI [00 00 00 00 00 04 00 00]
  ACTI.NAME "ac_furn_rug_colony$00"
  ACTI.MODL "f\Furn_rug_big_04_Collision.nif$00"
@@ -35457,7 +35457,7 @@ C<BR>"
  INFO.PNAM "1588311409759518110$00"
  INFO.NNAM "10690206981222025146$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "法拉·雷瑟兰让我说服罗西斯·内森出席与布雷萨斯·德拉斯的荣誉决斗。"
+ INFO.NAME "法拉·雷瑟兰让我说服罗西斯·内桑与布雷萨斯·德拉斯一起参加荣耀决斗。"
 -INFO
  INFO.INAM "2863421125213905459$00"
  INFO.PNAM "6410444254947859$00"
@@ -35470,7 +35470,7 @@ C<BR>"
  INFO.PNAM "2863421125213905459$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "由于罗西斯·内森和布雷萨斯·德拉斯决斗的其中一位参与者已经死亡，决斗无法进行下去了。"
+ INFO.NAME "由于罗西斯·内桑和布雷萨斯·德拉斯之间决斗的参与者之一已经死亡，所以决斗无法进行。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_DisguisedArmor$00"
@@ -50606,7 +50606,7 @@ C<BR>"
  INFO.PNAM "244120674126719838$00"
  INFO.NNAM "3273619466256768250$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "吉达尔、加明和萨比努斯已经安全抵达。我应该和法尔科·盖勒纳斯谈一下。"
+ INFO.NAME "吉达尔、加明和萨比努斯已安全抵达。我应该和法尔科·伽勒努斯谈谈。"
 -INFO
  INFO.INAM "3273619466256768250$00"
  INFO.PNAM "1527032317287358836$00"
@@ -50618,7 +50618,7 @@ C<BR>"
  INFO.PNAM "3273619466256768250$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "卡尼乌斯指示我护送几个人前往矿场。我应该能在要塞南面的码头旁找到吉达尔·维罗坦。"
+ INFO.NAME "卡尼乌斯指示我护送几个人去采矿点。我应该在要塞南边的码头边上找到吉达尔·维罗桑。"
 -DIAL
  DIAL.NAME "CO_2$00"
  DIAL.DATA [04]
@@ -52480,7 +52480,7 @@ Journal BM_Stones 100"
  INFO.NNAM "2510497661224629443$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ANAM "Raven Rock$00"
- INFO.NAME "法尔科·盖勒纳斯是殖民地的负责人。他应该就在附近。"
+ INFO.NAME "法尔科·伽勒努斯是殖民地的负责人。他一定就在附近某处。"
 -INFO
  INFO.INAM "2510497661224629443$00"
  INFO.PNAM "1756197072535629055$00"
@@ -63714,7 +63714,7 @@ Goodbye"
  #0: Journal-Journal BM_FrostGiant1 < 10
  INFO.BNAM "Journal BM_FrostGiant1 10"
 -DIAL
- DIAL.NAME "法尔科·盖勒纳斯$00"
+ DIAL.NAME "法尔科·伽勒努斯$00"
  DIAL.DATA [00]
 -INFO
  INFO.INAM "14834157343192024544$00"
@@ -82434,7 +82434,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
  INFO.DNAM "East Empire Company$00"
- INFO.NAME "去跟吉达尔·维罗坦谈谈，他在要塞外面等着，快点。"
+ INFO.NAME "去找吉达尔·维罗桑谈谈。他在要塞外面等着呢，快点儿吧。"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [0A 00 00 00]
  #0: Journal-Journal CO_1 = 10
@@ -82444,7 +82444,7 @@ Goodbye"
  INFO.NNAM [00]
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "Carnius Magius$00"
- INFO.NAME "你觉得你准备好工作了？很好，我们的第一批工人已经到了，他们需要去矿场。他们都不会用武器，所以我希望你能护送他们。他们认识路，你只需确保他们安全到达。到了那里，向法尔科·盖勒纳斯报到。他会给你进一步的指示。现在，去找吉达尔·维罗坦。他就在码头旁边。"
+ INFO.NAME "你觉得你已经准备好了工作吗，嗯？很好。我们第一批工人已经到了，需要到采矿点去。他们当中没有人擅长舞刀弄剑，所以我希望你能护送他们。他们认识路，你只需确保他们安全到达那里。等你到了，就向法尔科·伽勒努斯报到，他将给你进一步的指示。现在，去找吉达尔·维罗桑谈谈。他就在码头边上。"
  INFO.SCVR "04JX0CO_1"
  INFO.INTV [00 00 00 00]
  #0: Journal-Journal CO_1 = 0

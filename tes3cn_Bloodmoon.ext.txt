@@ -2214,11 +2214,11 @@ Carnius Magius
 
 > NPC_.FNAM Falco Galenus
 Falco Galenus
-法尔科·盖勒纳斯
+法尔科·伽勒努斯
 
 > NPC_.FNAM Gidar Verothan
 Gidar Verothan
-吉达尔·维罗坦
+吉达尔·维罗桑
 
 > NPC_.FNAM Gamin Girith
 Gamin Girith
@@ -4521,7 +4521,7 @@ Falco Galenus<BR>
 <BR>
 谦逊地，<BR>
 <BR>
-法尔科·盖勒纳斯<BR>"""
+法尔科·伽勒努斯<BR>"""
 
 > NPC_.FNAM Constans Atrius
 Constans Atrius
@@ -7662,7 +7662,7 @@ House Redoran: Duel of Honor
 
 > INFO.NAME hr_cowarddisgrace 800071941505726909
 Faral Retheran asked me to convince Rothis Nethan to appear for a duel of honor with Brethas Deras.
-法拉·雷瑟兰让我说服罗西斯·内森出席与布雷萨斯·德拉斯的荣誉决斗。
+法拉·雷瑟兰让我说服罗西斯·内桑与布雷萨斯·德拉斯一起参加荣耀决斗。
 
 > INFO.NAME hr_cowarddisgrace 2863421125213905459
 Faral Retheran thanked me for upholding the honor of House Redoran.
@@ -7670,7 +7670,7 @@ Faral Retheran thanked me for upholding the honor of House Redoran.
 
 > INFO.NAME hr_cowarddisgrace 230979224323615942
 Since one of the participants in the duel between Rothis Nethan and Brethas Deras is dead, the duel cannot take place.
-由于罗西斯·内森和布雷萨斯·德拉斯决斗的其中一位参与者已经死亡，决斗无法进行下去了。
+由于罗西斯·内桑和布雷萨斯·德拉斯之间决斗的参与者之一已经死亡，所以决斗无法进行。
 
 > INFO.NAME hh_disguisedarmor 627113825987220239
 House Hlaalu: Disguise
@@ -15858,7 +15858,7 @@ I have checked in with Falco, and have been instructed to return five pieces of 
 
 > INFO.NAME co_1 1527032317287358836
 Gidar, Gamin, and Sabinus have arrived safely at the site. I should speak with Falco Galenus.
-吉达尔、加明和萨比努斯已经安全抵达。我应该和法尔科·盖勒纳斯谈一下。
+吉达尔、加明和萨比努斯已安全抵达。我应该和法尔科·伽勒努斯谈谈。
 
 > INFO.NAME co_1 3273619466256768250
 I have agreed to escort Gidar, Gamin, and Sabinus to the Raven Rock site.
@@ -15866,7 +15866,7 @@ I have agreed to escort Gidar, Gamin, and Sabinus to the Raven Rock site.
 
 > INFO.NAME co_1 11266280081342818445
 Carnius has instructed me to escort several men to the mining site. I should find Gidar Verothan by the dock south of the fort.
-卡尼乌斯指示我护送几个人前往矿场。我应该能在要塞南面的码头旁找到吉达尔·维罗坦。
+卡尼乌斯指示我护送几个人去采矿点。我应该在要塞南边的码头边上找到吉达尔·维罗桑。
 
 > INFO.NAME co_2 17106107891729331026
 East Empire Company: A Blocked Door
@@ -16642,7 +16642,7 @@ Aside from myself, there's Sabrina Vitella, the smith, and Alcedonia Alfena runs
 
 > INFO.NAME someone in particular 1756197072535629055
 Falco Galenus is the man in charge here at the colony site. He'll be around someplace.
-法尔科·盖勒纳斯是殖民地的负责人。他应该就在附近。
+法尔科·伽勒努斯是殖民地的负责人。他一定就在附近某处。
 
 > INFO.NAME someone in particular 2510497661224629443
 Try Fort Frostmoth, the Skaal Village or Thirsk. That's always a good place to start.
@@ -26627,11 +26627,11 @@ You're supposed to be escorting the workers. What are you doing back here? Hurry
 
 > INFO.NAME assignment 266908915474010474
 Go talk to Gidar Verothan. He's waiting outside the fort. Hurry up, now.
-去跟吉达尔·维罗坦谈谈，他在要塞外面等着，快点。
+去找吉达尔·维罗桑谈谈。他在要塞外面等着呢，快点儿吧。
 
 > INFO.NAME assignment 2677025201256302964
 You think you're ready for work, eh? Very well. The first of our workers have arrived, and need to get to the mining site. None of them are particularly skilled with a blade, so I'd like you to escort them. They know the way; you simply have to make sure they arrive safely. Once you're there, check in with Falco Galenus. He'll give you further instructions. For now, go speak to Gidar Verothan. He's down by the dock.
-你觉得你准备好工作了？很好，我们的第一批工人已经到了，他们需要去矿场。他们都不会用武器，所以我希望你能护送他们。他们认识路，你只需确保他们安全到达。到了那里，向法尔科·盖勒纳斯报到。他会给你进一步的指示。现在，去找吉达尔·维罗坦。他就在码头旁边。
+你觉得你已经准备好了工作吗，嗯？很好。我们第一批工人已经到了，需要到采矿点去。他们当中没有人擅长舞刀弄剑，所以我希望你能护送他们。他们认识路，你只需确保他们安全到达那里。等你到了，就向法尔科·伽勒努斯报到，他将给你进一步的指示。现在，去找吉达尔·维罗桑谈谈。他就在码头边上。
 
 > INFO.NAME assist you 3178932552617118048
 Up to you. I'll be here if you need me.

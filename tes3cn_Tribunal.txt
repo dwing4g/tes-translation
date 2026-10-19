@@ -29056,7 +29056,7 @@ End yarnarScript"
  INFO.PNAM "1588311409759518110$00"
  INFO.NNAM "10690206981222025146$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "法拉·雷瑟兰让我说服罗西斯·内森出席与布雷萨斯·德拉斯的荣誉决斗。"
+ INFO.NAME "法拉·雷瑟兰让我说服罗西斯·内桑与布雷萨斯·德拉斯一起参加荣耀决斗。"
 -INFO
  INFO.INAM "2863421125213905459$00"
  INFO.PNAM "6410444254947859$00"
@@ -29069,7 +29069,7 @@ End yarnarScript"
  INFO.PNAM "2863421125213905459$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "由于罗西斯·内森和布雷萨斯·德拉斯决斗的其中一位参与者已经死亡，决斗无法进行下去了。"
+ INFO.NAME "由于罗西斯·内桑和布雷萨斯·德拉斯之间决斗的参与者之一已经死亡，所以决斗无法进行。"
  INFO.QSTF [01]
 -DIAL
  DIAL.NAME "HH_DisguisedArmor$00"

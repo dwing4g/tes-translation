@@ -85316,7 +85316,7 @@ ALMSIVI£¬»òÕßÖÁÉÙÊÇÑ¡Ôñ³ÉÎªÎ¬Íþ¿ËµÄÄÇÒ»Ãæ£¬ÔÚÓëÎ÷¾³Ö®ºÛµÄµÑ¹ÜÊ³ÈËÄ§Õ½¶·ºó£¬×øÔÚÁ
  NPC_.AI_W [00 02 05 00 00 28 14 14 0A 00 00 0A 0A 01]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "rothis nethan$00"
- NPC_.FNAM "ÂÞÎ÷Ë¹¡¤ÄÚÉ­$00"
+ NPC_.FNAM "ÂÞÎ÷Ë¹¡¤ÄÚÉ£$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Savant$00"
  NPC_.ANAM [00]
@@ -103399,7 +103399,7 @@ ALMSIVI£¬»òÕßÖÁÉÙÊÇÑ¡Ôñ³ÉÎªÎ¬Íþ¿ËµÄÄÇÒ»Ãæ£¬ÔÚÓëÎ÷¾³Ö®ºÛµÄµÑ¹ÜÊ³ÈËÄ§Õ½¶·ºó£¬×øÔÚÁ
  NPC_.AI_W [20 00 05 00 00 3C 14 0A 0A 00 00 00 0A 01]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "brildraso nethan$00"
- NPC_.FNAM "²¼ÀïµÂÀ­Ë÷¡¤ÄÚÉ­$00"
+ NPC_.FNAM "²¼ÀïµÂÀ­Ë÷¡¤ÄÚÉ£$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Drillmaster Service$00"
  NPC_.ANAM "Redoran$00"
@@ -114893,7 +114893,7 @@ BJTXCDBDSIBBVZFDQSBBBJBJUFBBIDBJEBXMABRBBBEBEBIJDHCJEBEBHJ
  NPC_.AI_W [20 00 05 00 00 3C 14 0A 0A 00 00 00 00 01]
 -NPC_
  NPC_.NAME "satheri rothandus$00"
- NPC_.FNAM "ÈøÉªÈð¡¤ÂÞµ¤´ïË¹$00"
+ NPC_.FNAM "ÈøÉªÈð¡¤ÂÞÉ£¶ÅË¹$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Commoner$00"
  NPC_.ANAM [00]
@@ -145160,7 +145160,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  NPC_.AI_W [40 00 05 00 00 3C 14 0A 0A 00 0A 00 00 01]
 -NPC_ [00 00 00 00 00 20 00 00]
  NPC_.NAME "bedenea nethan$00"
- NPC_.FNAM "±´µÂÄÝæ«¡¤ÄÚÉ­$00"
+ NPC_.FNAM "±´µÂÄÝæ«¡¤ÄÚÉ£$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Agent$00"
  NPC_.ANAM [00]
@@ -151778,7 +151778,7 @@ TWTVSPV FQ QJWRFSEKBY TKI KGJWN FYJUSK TKI KVFSNJIJ KRWNWMXKSK HLQKGZX<BR>
  NPC_.AI_W [80 00 05 00 00 3C 14 0A 0A 00 00 00 00 01]
 -NPC_
  NPC_.NAME "endul rothandus$00"
- NPC_.FNAM "¶÷¶Å¶û¡¤ÂÞµ¤´ïË¹$00"
+ NPC_.FNAM "¶÷¶Å¶û¡¤ÂÞÉ£¶ÅË¹$00"
  NPC_.RNAM "Dark Elf$00"
  NPC_.CNAM "Pauper$00"
  NPC_.ANAM [00]
@@ -183105,19 +183105,19 @@ D.ÎÄÎï - +35%<p>"
  INFO.PNAM [00]
  INFO.NNAM "10690206981222025146$00"
  INFO.DATA [04 00 00 00 0A 00 00 00 FF FF FF 00]
- INFO.NAME "·¨À­¡¤À×ÉªÀ¼ÈÃÎÒËµ·þÂÞÎ÷Ë¹¡¤ÄÚÉ­³öÏ¯Óë²¼À×ÈøË¹¡¤µÂÀ­Ë¹µÄÈÙÓþ¾ö¶·¡£"
+ INFO.NAME "·¨À­¡¤À×ÉªÀ¼ÈÃÎÒËµ·þÂÞÎ÷Ë¹¡¤ÄÚÉ£Óë²¼À×ÈøË¹¡¤µÂÀ­Ë¹Ò»Æð²Î¼ÓÈÙÒ«¾ö¶·¡£"
 -INFO
  INFO.INAM "10690206981222025146$00"
  INFO.PNAM "800071941505726909$00"
  INFO.NNAM "6410444254947859$00"
  INFO.DATA [04 00 00 00 32 00 00 00 FF FF FF 00]
- INFO.NAME "ÂÞÎ÷Ë¹¡¤ÄÚÉ­Í¬ÒâÓë²¼À×ÈøË¹¡¤µÂÀ­Ë¹¾ö¶·¡£ÂÞÎ÷Ë¹¡¤ÄÚÉ­½«ÔÚÎ¬Íþ¿Ë¾º¼¼³¡ÓëÎÒ»áÃæ¡£"
+ INFO.NAME "ÂÞÎ÷Ë¹¡¤ÄÚÉ£Í¬ÒâÓë²¼À×ÈøË¹¡¤µÂÀ­Ë¹½øÐÐ¾ö¶·¡£ÂÞÎ÷Ë¹¡¤ÄÚÉ£»áÔÚÎ¬Íþ¿Ë³Ç¾º¼¼³¡ÓëÎÒÅöÃæ¡£"
 -INFO
  INFO.INAM "6410444254947859$00"
  INFO.PNAM "10690206981222025146$00"
  INFO.NNAM "2863421125213905459$00"
  INFO.DATA [04 00 00 00 46 00 00 00 FF FF FF 00]
- INFO.NAME "ÂÞÎ÷Ë¹¡¤ÄÚÉ­Óë²¼À×ÈøË¹¡¤µÂÀ­Ë¹µÄ¾ö¶·½áÊø¡£"
+ INFO.NAME "ÂÞÎ÷Ë¹¡¤ÄÚÉ£ºÍ²¼À×ÈøË¹¡¤µÂÀ­Ë¹Ö®¼äµÄ¾ö¶·ÒÑ¾­½áÊø¡£"
 -INFO
  INFO.INAM "2863421125213905459$00"
  INFO.PNAM "6410444254947859$00"
@@ -183129,7 +183129,7 @@ D.ÎÄÎï - +35%<p>"
  INFO.PNAM "2863421125213905459$00"
  INFO.NNAM [00]
  INFO.DATA [04 00 00 00 C8 00 00 00 FF FF FF 00]
- INFO.NAME "ÓÉÓÚÂÞÎ÷Ë¹¡¤ÄÚÉ­ºÍ²¼À×ÈøË¹¡¤µÂÀ­Ë¹¾ö¶·µÄÆäÖÐÒ»Î»²ÎÓëÕßÒÑ¾­ËÀÍö£¬¾ö¶·ÎÞ·¨½øÐÐÏÂÈ¥ÁË¡£"
+ INFO.NAME "ÓÉÓÚÂÞÎ÷Ë¹¡¤ÄÚÉ£ºÍ²¼À×ÈøË¹¡¤µÂÀ­Ë¹Ö®¼ä¾ö¶·µÄ²ÎÓëÕßÖ®Ò»ÒÑ¾­ËÀÍö£¬ËùÒÔ¾ö¶·ÎÞ·¨½øÐÐ¡£"
 -DIAL
  DIAL.NAME "HH_DisguisedArmor$00"
  DIAL.DATA [04]
@@ -333055,7 +333055,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "faral retheran$00"
  INFO.DNAM "Redoran$00"
- INFO.NAME "ÄãËµ·þÂÞÎ÷Ë¹¡¤ÄÚÉ­²Î¼Ó¾ö¶·ÁËÂð£¿"
+ INFO.NAME "ÄãËµ·þÂÞÎ÷Ë¹¡¤ÄÚÉ£²Î¼Ó¾ö¶·ÁËÂð£¿"
  INFO.SCVR "34JX3HR_CowardDisgrace"
  INFO.INTV [0A 00 00 00]
  #3: Journal-Journal HR_CowardDisgrace >= 10
@@ -392582,7 +392582,7 @@ addtopic ""Ð¡½¨Òé"""
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "faral retheran$00"
  INFO.DNAM "Redoran$00"
- INFO.NAME "ÂÞÎ÷Ë¹¡¤ÄÚÉ­Ã»ÓÐ³öÏÖÔÚÓë¹þÀ­Â³¹ó×å²¼À×ÈøË¹¡¤µÂÀ­Ë¹µÄÈÙÓþ¾ö¶·¡£ÕâÊ¹Èð¶àÈ»¼Ò×åÃÉÐß¡£ÔÚÈð¶àÈ»ÁìµØÕÒµ½Å³ÈõµÄÂÞÎ÷Ë¹¡¤ÄÚÉ­£¬Ëµ·þËû²Î¼Ó¾ö¶·¡£"
+ INFO.NAME "ÂÞÎ÷Ë¹¡¤ÄÚÉ£Ã»ÓÐ³öÏ¯Óë¹þÀ­Â³¹ó×å²¼À×ÈøË¹¡¤µÂÀ­Ë¹µÄÈÙÒ«¾ö¶·¡£ÕâÊ¹Èð¶àÈ»¼Ò×åÃÉÐß¡£ÔÚÈð¶àÈ»ÐÐÕþÇøÕÒµ½Õâ¸öÅ³·òÂÞÎ÷Ë¹¡¤ÄÚÉ££¬Ëµ·þËû²Î¼Ó¾ö¶·¡£"
  INFO.SCVR "34JX3HR_RedasTomb"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal HR_RedasTomb >= 100
@@ -444587,7 +444587,7 @@ Player->AddItem ""amulet_berne"" 1"
  INFO.NNAM "209151149415932062$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "faral retheran$00"
- INFO.NAME "Èç¹ûÂÞÎ÷Ë¹¡¤ÄÚÉ­ÒÑ¾­ËÀÁË£¬¾ö¶·¾Í²»ÄÜ½øÐÐÁË¡£"
+ INFO.NAME "ºÃ°É£¬Èç¹ûÂÞÎ÷Ë¹¡¤ÄÚÉ£ÒÑ¾­ËÀÁË£¬¾ö¶·×ÔÈ»ÎÞ·¨½øÐÐÁË¡£"
  INFO.SCVR "06DX2rothis nethan"
  INFO.INTV [00 00 00 00]
  #0: Dead-Dead rothis nethan > 0
@@ -444641,7 +444641,7 @@ ModDisposition 10
  INFO.NNAM "10237313881527310050$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "faral retheran$00"
- INFO.NAME "ÄãÖÕÓÚËµ·þÁËÂÞÎ÷Ë¹¡¤ÄÚÉ­¡£ÎÒÏ£ÍûËûÕâ´ÎÄÜÀ´²Î¼Ó¾ö¶·¡£ÓëËûÔÚ¾º¼¼³¡Ïà¼û£¬¹Û¿´Õâ³¡¾ö¶·µÄ½á¹û¡£"
+ INFO.NAME "ËùÒÔÄãÖÕ¾¿»¹ÊÇËµ·þÁËÂÞÎ÷Ë¹¡¤ÄÚÉ£¡£ÎÒÏ£ÍûËûÕâ´Î»á²Î¼Ó¾ö¶·¡£È¥¾º¼¼³¡ºÍËûÅöÃæ£¬¹Û¿´Õâ³¡¾ö¶·°É¡£"
  INFO.SCVR "34JX3HR_CowardDisgrace"
  INFO.INTV [32 00 00 00]
  #3: Journal-Journal HR_CowardDisgrace >= 50
@@ -444651,7 +444651,7 @@ ModDisposition 10
  INFO.NNAM "106011049153032576$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "faral retheran$00"
- INFO.NAME "ÎÒÏàÐÅÂÞÎ÷Ë¹¡¤ÄÚÉ­Õý²ØÉíÓÚÎ¬Íþ¿ËÖÐ²ãÇøµÄ½ð»¨½Ö½Ç¾Æ°É¡£È¥ÕÒËûÌ¸Ì¸£¬ÈÃËûÒâÊ¶µ½£¬Èð¶àÈ»¼Ò×åµÄÈÙÓþÊÇÈçºÎÊÜËðµÄ¡£"
+ INFO.NAME "ÎÒÏàÐÅÂÞÎ÷Ë¹¡¤ÄÚÉ£Õý¶ãÔÚÎ¬Íþ¿Ë³ÇÈð¶àÈ»ÖÐ²ãÇøµÄ»Æ½ðÏÊ»¨½Ö½Ç¾Æ°É¡£È¥ÕÒËûÌ¸Ì¸£¬ÈÃËûÃ÷°×ËûÈÃÈð¶àÈ»¼Ò×åµÄÈÙÓþÃÉÐß¡£"
  INFO.SCVR "34JX3HR_RedasTomb"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal HR_RedasTomb >= 100
@@ -444662,7 +444662,7 @@ ModDisposition 10
  INFO.NNAM "56261333619038337$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brethas deras$00"
- INFO.NAME "ÎÒÓ®ÁË£¬µ«ÖÁÉÙÂÞÎ÷Ë¹¡¤ÄÚÉ­³öÏÖÁË£¬Ö¤Ã÷ÁËËû»¹ÓÐµãÓÂÆø¡£"
+ INFO.NAME "ÎÒÓ®ÁË£¬µ«ÖÁÉÙÂÞÎ÷Ë¹¡¤ÄÚÉ£À´ÁË£¬Ö¤Ã÷ÁËËû»¹ÓÐµãÓÂÆø¡£"
  INFO.SCVR "34JX3HR_CowardDisgrace"
  INFO.INTV [46 00 00 00]
  #3: Journal-Journal HR_CowardDisgrace >= 70
@@ -444672,7 +444672,7 @@ ModDisposition 10
  INFO.NNAM "18672191031871420101$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "brethas deras$00"
- INFO.NAME "Äã¿ÉÒÔ¸æËßÂÞÎ÷Ë¹¡¤ÄÚÉ­ÎÒ»áÈ¥µÄ¡£ËûÕâ´Î×îºÃÄÜ³öÏÖ¡£"
+ INFO.NAME "Äã¿ÉÒÔ¸æËßÂÞÎ÷Ë¹¡¤ÄÚÉ£ÎÒ»áÈ¥µÄ¡£ËûÕâ´Î×îºÃ»áÀ´¡£"
  INFO.SCVR "34JX3HR_CowardDisgrace"
  INFO.INTV [32 00 00 00]
  #3: Journal-Journal HR_CowardDisgrace >= 50
