@@ -11,11 +11,13 @@ local paths = {
 
 local overrides, creatures, voices = {}, {}, {}
 
-local M = { overrides = overrides, creatures = creatures, voices = voices }
+local M = {
+	overrides = overrides, creatures = creatures, voices = voices,
+	pauseAfter = 7, idleCounter = 0
+}
 local filters = require(paths.filters)		M.filters = filters
 local loader = require(paths.loader)
 
-M.pauseAfter = 7
 local lastInfo = {}
 local lastVoiceTime = 0
 local voiceChance = 0.35
@@ -107,11 +109,9 @@ function M.data()
 	return actorData
 end
 
-function M.resolveCreature(o)
-	if not types.Creature.objectIsInstance(o) then
-		return
-	end
-	local anim = creatures[o.recordId]
+function M.resolveCreature()
+	if actorData.isNPC then		return			end
+	local anim = creatures[actorData.recordId] or creatures[actorData.model]
 	if anim then
 		return paths.npcScript, anim
 	end

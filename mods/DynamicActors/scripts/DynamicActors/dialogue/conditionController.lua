@@ -69,15 +69,14 @@ conditions.isOverride = function()	return true		end
 conditions.null = function() end
 
 function conditions.getActorData(o)
-	local m = {}
 	local rec = o.type.records[o.recordId]
-	m.recordId = o.recordId
-	m.race = rec.race
-	m.class = rec.class
-	m.info = {}
+	local m = {
+		recordId = o.recordId, isNPC = o.type == types.NPC,
+		race = rec.race, class = rec.class, model = rec.model or "",
+		info = {}
+	}
 
-	local c
-	c = o.type.getFactions		c = c and c(o)
+	local c = o.type.getFactions		c = c and c(o)
 	m.faction = c and c[1] or nil
 	c = o.cell
 	m.interior = not(c.isExterior or c:hasTag("QuasiExterior"))

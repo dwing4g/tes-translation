@@ -164,17 +164,18 @@ local function registerCreatures(configs, data)
 	local actor = data.actor
 	for _, anim in ipairs(data) do
 		anim.source = anim.source or data.source
-		if type(anim.id) ~= "string" then
-			print("Invalid creature file, missing record ID " .. data.source)
+		local k = type(anim.id) == "string" and anim.id
+		if not k then
+			print("Invalid creature file, ID is not a record or model path " .. data.source)
 			break
 		end
-		anim.id = anim.id:lower()
-		if anim.id == actor then
+		k = k:lower():gsub("\\", "/")
+		if k == actor then
 			table.insert(configs.byId, anim)
 		elseif not anim.group then
-			configs[anim.id] = nil
+			configs[k] = nil
 		else
-			configs[anim.id] = anim
+			configs[k] = anim
 		end
 	end
 end

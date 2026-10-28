@@ -12,7 +12,7 @@ if not self:isActive() then
 	return
 end
 
-local Actor = {
+local _actor = {
 	getStance = types.Actor.getStance,
 	stanceNone = types.Actor.STANCE.Nothing,
 	isNPC = types.NPC.objectIsInstance,
@@ -23,39 +23,39 @@ local Actor = {
 	controls = self.controls,
 }
 
-local config = require("openmw.storage").globalSection("dActors_tempStore"):getCopy("npcDialog")
-local filters = config.filters
-local beastBlendMasks = config.beastBlendMasks
-local armAnims = config.armAnims
+local _config = require("openmw.storage").globalSection("dActors_tempStore"):getCopy("npcDialog")
+local _filters = _config.filters
+local _beastBlendMasks = _config.beastBlendMasks
+local _armAnims = _config.armAnims
 
-local poseShiftType = 0
-local poseTable, infoList
-local idleAnim = { name=nil, opt={} }
+local _poseShiftType = 0
+local _poseTable, infoList
+local _idleAnim = { name=nil, opt={} }
 
 interop = {}
 
-local dialogTarget = nil
-local turningEnabled, visibleShield, validAnim
-local animQueue = { timer = 10 }
-local override = {}
+local _dialogTarget = nil
+local _turningEnabled, _visibleShield, _validAnim
+local _animQueue = { timer = 10 }
+local _override = {}
 
-local voice = config.voice
-local isBeast, isGuard
+local _voice = _config.voice
+local _isBeast, _isGuard
 
-if Actor.isNPC(self) then
-	local npcRace = Actor.record.race
-	isBeast = types.NPC.races.records[npcRace].isBeast
-	isGuard = Actor.record.class == "guard"
+if _actor.isNPC(self) then
+	local npcRace = _actor.record.race
+	_isBeast = types.NPC.races.records[npcRace].isBeast
+	_isGuard = _actor.record.class == "guard"
 	if npcRace == "wood elf" then
-		voice.options.speed = 1.5
+		_voice.options.speed = 1.5
 	end
--- print(isBeast, npcRace)
-	if isBeast then
-		voice.groups = config.voice_beast
-		voice.options.blendMask = 3		voice.options.priority = { [0]=3, [1]=3 }
-		voice.baseAnim = ""	voice.baseBone = anim.BONE_GROUP.RightArm
-	elseif not Actor.record.isMale and anim.hasGroup(self, "idlespeak_idlef") then
-		voice.groups = config.voice_f
+-- print(_isBeast, npcRace)
+	if _isBeast then
+		_voice.groups = _config.voice_beast
+		_voice.options.blendMask = 3		_voice.options.priority = { [0]=3, [1]=3 }
+		_voice.baseAnim = ""	_voice.baseBone = anim.BONE_GROUP.RightArm
+	elseif not _actor.record.isMale and anim.hasGroup(self, "idlespeak_idlef") then
+		_voice.groups = _config.voice_f
 	end
 
 end
@@ -70,28 +70,28 @@ local function addHandlers(m)
 	end
 end
 
-local plugin = {}		addHandlers(plugin)
-local logLevel = 0
+local _plugin = {}		addHandlers(_plugin)
+local _logLevel = 0
 
 local function debug(m, l)
-	if logLevel >= (l or 1) then		print(m)		end
+	if _logLevel >= (l or 1) then		print(m)		end
 end
 
 local function playHandler(g, o)
-	if not validAnim or Actor.getStance(self) ~= Actor.stanceNone then
+	if not _validAnim or _actor.getStance(self) ~= _actor.stanceNone then
 		return
 	end
 
 	o.blendMask = o.blendMask or 15
-	local mask = visibleShield and 11
+	local mask = _visibleShield and 11
 	mask = mask or ((anim.isPlaying(self, "idlestorm") or anim.isPlaying(self, "torch")) and 11)
 	if mask then
 		mask = util.bitAnd(o.blendMask, mask)
-		g = (not armAnims[g]) and g or "armsakimbo"
+		g = (not _armAnims[g]) and g or "armsakimbo"
 	end
-	if isBeast then
+	if _isBeast then
 		if g:find("_copy$") then g = g:gsub("_copy$", "")	end
-		mask = util.bitAnd(mask or o.blendMask, beastBlendMasks[g] or 15)
+		mask = util.bitAnd(mask or o.blendMask, _beastBlendMasks[g] or 15)
 --		print(g, mask, o.blendMask)
 	end
 	if mask == 0 then		return			end
@@ -107,49 +107,49 @@ local function playHandler(g, o)
 	o.startPoint = nil			o.blendMask = savedMask
 end
 
-local idleGroups = config.idleGroups
+local _idleGroups = _config.idleGroups
 
 local function hasValidAnim()
-	local leg = Actor.getActiveGroup(self, 0)
+	local leg = _actor.getActiveGroup(self, 0)
 	leg = leg:match("[^_]+") or leg
-	local valid = idleGroups[leg] or leg:find("^turn") or leg:find("^walk") or leg:find("^run")
+	local valid = _idleGroups[leg] or leg:find("^turn") or leg:find("^walk") or leg:find("^run")
 		or leg:find("^arms")
 --	if not valid then	print("NOT VALID ANIM", leg)		end
 	return valid
 end
 
 local function shiftPose(e)
---	if voice.playing or poseShiftType == 0 then	return		end
-	if poseShiftType == 0 or not validAnim then
+--	if _voice.playing or _poseShiftType == 0 then	return		end
+	if _poseShiftType == 0 or not _validAnim then
 		return
 	end
 	if e == "playBase" then
-		if idleAnim.name and idleAnim.opt.loops > 50 then playHandler(idleAnim.name, idleAnim.opt) end
+		if _idleAnim.name and _idleAnim.opt.loops > 50 then playHandler(_idleAnim.name, _idleAnim.opt) end
 		return
 	end
-	if idleAnim.name then anim.cancel(self, idleAnim.name) end
-	local newPose = poseTable[math.random(#poseTable)]
+	if _idleAnim.name then anim.cancel(self, _idleAnim.name) end
+	local newPose = _poseTable[math.random(#_poseTable)]
 --	local name, options = table.unpack(newPose[1])
 --	playHandler(name, options)
-	animQueue.play = newPose[1]
-	animQueue.time = core.getSimulationTime() + (animQueue.play.delay or 0)
+	_animQueue.play = newPose[1]
+	_animQueue.time = core.getSimulationTime() + (_animQueue.play.delay or 0)
 	playHandler(newPose[2].id, newPose[2].opt)
 end
 
-filters.evals = {
+_filters.evals = {
 	faction = function(o) return next(types.NPC.getFactions(o)) end
 }
 
 local function checkFilters(t)
-	if not Actor.isNPC(self) then		return		end
+	if not _actor.isNPC(self) then		return		end
 	for i=1, #t do
 		local k, v, name, options, shift = table.unpack(t[i])
 		local m = false
-		local eval = filters.evals[k]
+		local eval = _filters.evals[k]
 		if eval then
 			_, eval = eval(self)
 		else
-			eval = Actor.record[k]
+			eval = _actor.record[k]
 		end
 		if type(eval) == type(v) then
 			if type(v) == "string" and string.find(eval:lower(), v) then m = true
@@ -162,7 +162,7 @@ end
 local function forcePause()
 	local aipack, pause = ai.getActivePackage(), false
 	if aipack == nil then		return pause		end
---	if isGuard and aipack.type == "Unknown" and aipack.target == nil then force=true end
+--	if _isGuard and aipack.type == "Unknown" and aipack.target == nil then force=true end
 	local t = aipack.type
 	if t == "Combat" or t == "Pursue" or t == "Flee" then
 		pause = true
@@ -177,55 +177,55 @@ local function initNPCdiag(data)
 	end
 
 	local idleSet, path, logging
-	dialogTarget, idleSet, path = data.player, data.idleLevel, data.plugin
-	logLevel = data.logging and 1 or logLevel
-	turningEnabled = data.isMobile
-	interop = {self=self, player=dialogTarget, lookAt=dialogTarget}
+	_dialogTarget, idleSet, path = data.player, data.idleLevel, data.plugin
+	_logLevel = data.logging and 1 or _logLevel
+	_turningEnabled = data.isMobile
+	interop = {self=self, player=_dialogTarget, lookAt=_dialogTarget}
 	local aipack = ai.getActivePackage()
 	if aipack and data.canTurn then
 		if (aipack.type == "Wander" and aipack.distance and aipack.distance > 0)
 			or (aipack.type == "Travel" and aipack.destPosition) then
-			turningEnabled = true
+			_turningEnabled = true
 		end
 	end
 	if data.groups then
 		for _, v in ipairs(data.groups) do
 			if v == "all" or anim.isPlaying(self, v) then
 				debug(("Found blocked anim group %s"):format(v))
-				idleSet = 0		turningEnabled = false
+				idleSet = 0		_turningEnabled = false
 				break
 			end
 		end
 	end
 
---	local bipedal = self.type == types.NPC or Actor.record.isBiped
---	print(Actor.record.type, types.Creature.TYPE.Humanoid)
---	if Actor.record.type == types.Creature.TYPE.Humanoid then bipedal = true	end
+--	local bipedal = self.type == types.NPC or _actor.record.isBiped
+--	print(_actor.record.type, types.Creature.TYPE.Humanoid)
+--	if _actor.record.type == types.Creature.TYPE.Humanoid then bipedal = true	end
 --	if not bipedal then return end
 
 	local var = interop
 	if path then
-		plugin = require(path) or {}
-		if plugin.infoList then
+		_plugin = require(path) or {}
+		if _plugin.infoList then
 			infoList = {}
-			for k, v in pairs(plugin.infoList) do
+			for k, v in pairs(_plugin.infoList) do
 				infoList[k:lower()] = v
 			end
 		end
-		addHandlers(plugin)		plugin.onInit(data.pluginData)
-		if plugin.getVariableStore then plugin.getVariableStore(var) end
+		addHandlers(_plugin)		_plugin.onInit(data.pluginData)
+		if _plugin.getVariableStore then _plugin.getVariableStore(var) end
 	end
 	if data.greeting then
 		data.greeting.event = "DialogueResponse"
 		self:sendEvent("DynamicActors", data.greeting)
 	end
 
-	if idleSet == 0 or (Actor.isCreature(self) and not path) then
-		poseShiftType = 0
+	if idleSet == 0 or (_actor.isCreature(self) and not path) then
+		_poseShiftType = 0
 		return
 	end
 
-	visibleShield = (data.shields or not anim.hasBone(self, "Bip01 AttachShield"))
+	_visibleShield = (data.shields or not anim.hasBone(self, "Bip01 AttachShield"))
 		and types.Actor.getEquipment(self, types.Actor.EQUIPMENT_SLOT.CarriedLeft)
 
 	local static = true
@@ -237,30 +237,30 @@ local function initNPCdiag(data)
 	end
 	core.sendGlobalEvent("actorMonitor", { actor=self, reset=static })
 
-	validAnim = hasValidAnim()
-	if not validAnim then
+	_validAnim = hasValidAnim()
+	if not _validAnim then
 		debug("Unknown animation playing. Blocking initial idle.")
 	end
 
 	local name, options, shift
-	if plugin.baseIdle then
-		name, options, shift = table.unpack(plugin.baseIdle)
+	if _plugin.baseIdle then
+		name, options, shift = table.unpack(_plugin.baseIdle)
 	end
 	if not name then
-		name, options, shift = checkFilters(filters.baseIdle)
+		name, options, shift = checkFilters(_filters.baseIdle)
 	end
 	if name then
-		poseShiftType = shift or 1
-		if not isBeast then
-			idleAnim.name, idleAnim.opt = name, options
+		_poseShiftType = shift or 1
+		if not _isBeast then
+			_idleAnim.name, _idleAnim.opt = name, options
 			playHandler(name, options)
 		end
 	end
 
-	if plugin.greeting then
-		name, options, shift = table.unpack(plugin.greeting)
+	if _plugin.greeting then
+		name, options, shift = table.unpack(_plugin.greeting)
 	else
-		name, options, shift = checkFilters(filters.greeting)
+		name, options, shift = checkFilters(_filters.greeting)
 	end
 	if type(name) == "table" then
 		local rnd = math.random(#name)
@@ -268,45 +268,45 @@ local function initNPCdiag(data)
 	end
 
 	if name then
-		poseShiftType = shift or 1
+		_poseShiftType = shift or 1
 		playHandler(name, options)
 	end
-	if idleSet < 3 then poseShiftType = 0		end
-	if poseShiftType > 0 then poseTable = filters.poseShifts[poseShiftType]		end
+	if idleSet < 3 then _poseShiftType = 0		end
+	if _poseShiftType > 0 then _poseTable = _filters.poseShifts[_poseShiftType]		end
 	if idleSet > 0 and anim.hasGroup(self, "idlespeak") then
-		voice.disabled = false
+		_voice.disabled = false
 	end
 
 end
 
 local function cancelOverride()
-	if override.prop then
-		anim.removeVfx(self, override.prop.options.vfxId)
-		override.prop = nil
+	if _override.prop then
+		anim.removeVfx(self, _override.prop.options.vfxId)
+		_override.prop = nil
 	end
 end
 
 local function closeNPCdiag()
 	if anim.hasAnimation(self) then
-		if voice.playing then
-			anim.cancel(self, voice.playing)
+		if _voice.playing then
+			anim.cancel(self, _voice.playing)
 		end
-		if idleAnim.name then
-			anim.setLoopingEnabled(self, idleAnim.name, false)
+		if _idleAnim.name then
+			anim.setLoopingEnabled(self, _idleAnim.name, false)
 		end
-		if override.groupName then
-			anim.cancel(self, override.groupName)
+		if _override.groupName then
+			anim.cancel(self, _override.groupName)
 		end
 		cancelOverride()
 	end
 	core.sendGlobalEvent("DynamicActors",
 		{ event="removeScript", object = self, script = "npcDialog.lua" })
-	plugin.closeDialog(dialogTarget)
-	dialogTarget = nil
-	poseShiftType = 0
+	_plugin.closeDialog(_dialogTarget)
+	_dialogTarget = nil
+	_poseShiftType = 0
 end
 
-local bodyParts = config.bodyParts
+local bodyParts = _config.bodyParts
 
 local function getBodyPart(mask)
 	return type(mask) == "string" and bodyParts[mask:lower()] or 15
@@ -315,8 +315,8 @@ end
 local events = {}
 
 function events.DialogueResponse(e)
-	plugin.onInfoGetText { info = { id = e.infoId } }
-	plugin.DialogueResponse(e)
+	_plugin.onInfoGetText { info = { id = e.infoId } }
+	_plugin.DialogueResponse(e)
 	if not infoList then 		return		end
 	local m = infoList[e.infoId] or infoList[e.recordId or ""]
 	m = type(m) == "function" and { FN=m } or m
@@ -346,7 +346,7 @@ function events.DialogueResponse(e)
 end
 
 function events.onInfoGetText(e)
---	plugin.onInfoGetText(e)
+--	_plugin.onInfoGetText(e)
 	events.DialogueResponse { infoId = e.info.id }
 end
 
@@ -356,48 +356,52 @@ function events.Override(e)
 		local prop = e.prop
 		local t = core.getSimulationTime()
 		prop.start = prop.start + t		prop.stop = prop.stop + t
-		override.prop = prop
+		_override.prop = prop
 	end
 	if e.groupName then
 		I.AnimationController.playBlendedAnimation(e.groupName, e.options)
-		override.groupName = e.groupName
-		dialogTarget:sendEvent("dynUpdateDCam")
+		_override.groupName = e.groupName
+		_dialogTarget:sendEvent("dynUpdateDCam")
 	end
 end
 
 function events.onQuestUpdate(e)
 	debug(("Quest %s %s"):format(e.questId, e.questStage))
-	plugin.onQuestUpdate(e.questId, e.questStage)
+	_plugin.onQuestUpdate(e.questId, e.questStage)
 end
 
 
 local function onUpdate(dt)
 	if dt <= 0 then					return		end
-	if (not dialogTarget) or forcePause() then	return		end
-	validAnim = hasValidAnim()
+	if (not _dialogTarget) or forcePause() then	return		end
+	_validAnim = hasValidAnim()
 	local turningToTarget = false
-	if turningEnabled and validAnim then
-		local deltaPos = dialogTarget.position - self.position
-		local destVec = deltaPos.xy:rotate(self.rotation:getYaw())
-		local deltaYaw = math.atan2(destVec.x, destVec.y)
-		if math.abs(deltaYaw) > math.rad(20) then
+	if _turningEnabled and _validAnim then
+		local deltaPos = _dialogTarget.position - self.position
+		local targetYaw = math.atan2(deltaPos.x, deltaPos.y)
+		local deltaYaw = util.normalizeAngle(targetYaw - self.rotation:getYaw())
+	--	local deltaYaw = (targetYaw - self.rotation:getYaw())
+	--	deltaYaw = deltaYaw > math.pi and (deltaYaw - 2 * math.pi) or deltaYaw
+	--	deltaYaw = (deltaYaw + math.pi) % (2 * math.pi) - math.pi
+		local direction = deltaYaw > 0 and 1 or -1		deltaYaw = math.abs(deltaYaw)
+		if deltaYaw > math.rad(20) then
 			turningToTarget = true
-			local bezier = (4 * math.abs(deltaYaw) / math.pi) ^ 2
-			local v = bezier * math.pi / 2
-			v = util.clamp(v, math.rad(40), 5)
+		--	local bezier = (4 * deltaYaw / 3.1) ^ 2
+			local v = ((deltaYaw * 1.3) ^ 2) * math.pi / 2
+			v = util.clamp(v, math.rad(40), 4)
 			v = v * dt
-			Actor.controls.yawChange = util.clamp(deltaYaw, -v, v)
+			_actor.controls.yawChange = direction * math.min(deltaYaw, v)
 		end
 	end
 	if not turningToTarget then
-		Actor.controls.yawChange = 0
+		_actor.controls.yawChange = 0
 	end
-	Actor.controls.movement = 0
-	Actor.controls.sideMovement = 0
+	_actor.controls.movement = 0
+	_actor.controls.sideMovement = 0
 
-	if override.prop then
+	if _override.prop then
 		local t = core.getSimulationTime()
-		local prop = override.prop
+		local prop = _override.prop
 		if prop.start and prop.start <= t then
 			anim.addVfx(self, prop.model, prop.options)
 			prop.start = nil
@@ -406,56 +410,56 @@ local function onUpdate(dt)
 		end
 	end
 
-	if not validAnim then
-		if voice.playing then
-			anim.cancel(self, voice.playing)
-			voice.playing = nil
+	if not _validAnim then
+		if _voice.playing then
+			anim.cancel(self, _voice.playing)
+			_voice.playing = nil
 		end
 		return
 	end
 
-	plugin.onUpdate(dt)
-	if animQueue.time and animQueue.time < core.getSimulationTime() then
-		playHandler(animQueue.play.id, animQueue.play.opt)
-		animQueue.time = nil
+	_plugin.onUpdate(dt)
+	if _animQueue.time and _animQueue.time < core.getSimulationTime() then
+		playHandler(_animQueue.play.id, _animQueue.play.opt)
+		_animQueue.time = nil
 	end
-	animQueue.timer = animQueue.timer - dt
-	if animQueue.timer < 0 then
-		animQueue.timer = 35
+	_animQueue.timer = _animQueue.timer - dt
+	if _animQueue.timer < 0 then
+		_animQueue.timer = 35
 	--	shiftPose()
 	end
 
-	if voice.disabled or Actor.getStance(self) ~= Actor.stanceNone then
-		if voice.playing then
-			anim.cancel(self, voice.playing)
-			voice.playing = nil
+	if _voice.disabled or _actor.getStance(self) ~= _actor.stanceNone then
+		if _voice.playing then
+			anim.cancel(self, _voice.playing)
+			_voice.playing = nil
 		end
 		return
 	end
-	if voice.playing and not Actor.isSayActive(self) then
-		anim.cancel(self, voice.playing)
-		voice.playing = nil
-	elseif voice.playing and Actor.getActiveGroup(self, voice.baseBone) ~= voice.baseAnim then
-		voice.baseAnim = Actor.getActiveGroup(self, voice.baseBone)
-		local newIdle = voice.groups[voice.baseAnim] or voice.groups.base
-		debug(("%s %s"):format(voice.playing, newIdle))
+	if _voice.playing and not _actor.isSayActive(self) then
+		anim.cancel(self, _voice.playing)
+		_voice.playing = nil
+	elseif _voice.playing and _actor.getActiveGroup(self, _voice.baseBone) ~= _voice.baseAnim then
+		_voice.baseAnim = _actor.getActiveGroup(self, _voice.baseBone)
+		local newIdle = _voice.groups[_voice.baseAnim] or _voice.groups.base
+		debug(("%s %s"):format(_voice.playing, newIdle))
 		if newIdle == "" then
-			anim.cancel(self, voice.playing)
-			voice.playing = nil
-		elseif voice.playing ~= newIdle then
-			voice.options.startPoint = anim.getCompletion(self, voice.playing)
-			anim.cancel(self, voice.playing)
-			anim.playBlended(self, newIdle, voice.options)
-			voice.playing = newIdle
+			anim.cancel(self, _voice.playing)
+			_voice.playing = nil
+		elseif _voice.playing ~= newIdle then
+			_voice.options.startPoint = anim.getCompletion(self, _voice.playing)
+			anim.cancel(self, _voice.playing)
+			anim.playBlended(self, newIdle, _voice.options)
+			_voice.playing = newIdle
 		end
-	elseif not voice.playing and Actor.isSayActive(self) then
-		voice.baseAnim = Actor.getActiveGroup(self, voice.baseBone)
-		local g = voice.groups[voice.baseAnim] or voice.groups.base
+	elseif not _voice.playing and _actor.isSayActive(self) then
+		_voice.baseAnim = _actor.getActiveGroup(self, _voice.baseBone)
+		local g = _voice.groups[_voice.baseAnim] or _voice.groups.base
 		if g ~= "" then
 			debug(g)
-			voice.options.startPoint = 0
-			anim.playBlended(self, g, voice.options)
-			voice.playing = g
+			_voice.options.startPoint = 0
+			anim.playBlended(self, g, _voice.options)
+			_voice.playing = g
 		end
 	end
 end

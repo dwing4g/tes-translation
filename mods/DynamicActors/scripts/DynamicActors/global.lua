@@ -127,9 +127,8 @@ events.removeScript = function(e)
 	end
 end
 events.Pause = function()
-	dialog.pauseTimer = 0
 	if world.getPausedTags()["ui"] == nil and dialog.Target then
-		dialog.unpause = nil
+		dialog.paused = true
 		world.pause("ui")
 		if logging and player then
 			player:sendEvent("dynUiMessage", "msg_pause")
@@ -211,7 +210,7 @@ end)
 
 function events.onDialogOpened(data)
 	local o = data.arg
-	dialog.pauseTimer = 0
+	dialog.pauseTimer, dialog.idleTimer, dialog.paused = 3, 20
 	if dialog.Target and dialog.Target ~= o then
 		events.onDialogClosed()
 	end
@@ -227,20 +226,17 @@ function events.onDialogOpened(data)
 	local option = settings:get("unpause_dialog_opt")
 	local uiPaused = world.getPausedTags().ui
 	if data.pause or option == "opt_alwayspause" then
-		if not uiPaused then		world.pause("ui")		end
+		dialog.paused = true			world.pause("ui")
 		if logging and player then player:sendEvent("dynUiMessage", "msg_pause")	end
 		return
 	end
 
-	dialogActive = true			dialog.pauseTimer = 3
-	if uiPaused then		world.unpause("ui")		end
+	dialogActive = true		world.unpause("ui")
 	-- debug(("%s %s"):format(world.isWorldPaused(), settings:get("unpause_dialog")))
 	if option == "opt_delaypause" then
 		async:newUnsavableSimulationTimer(dialog.pauseAfter, function()
-			if dialog.Target and core.getSimulationTime() - dialog.openTime > dialog.pauseAfter - 0.5 then
-				if not world.getPausedTags().ui then
-					world.pause("ui")
-				end
+			if dialog.Target then
+				world.pause("ui")
 			end
 		end)
 	end
@@ -339,7 +335,7 @@ function events.onDialogOpened(data)
 	end
 	event.idleLevel = idleLevel
 
-	event.plugin, event.pluginData = dialog.resolveCreature(o)
+	event.plugin, event.pluginData = dialog.resolveCreature()
 	if vfs.fileExists(paths.plugins .. o.recordId .. ".lua") then
 		event.plugin = paths.loadPlugins .. o.recordId
 		debug(("Plugin found %s"):format(event.plugin))
@@ -360,14 +356,13 @@ function events.onDialogOpened(data)
 end
 
 local function changeIdles()
-	async:newUnsavableSimulationTimer(35, changeIdles)
 	if not dialog.Target then		return		end
+
 	dialog.Target:sendEvent("shiftPose")
 	async:newUnsavableSimulationTimer(6, function()
 		if dialog.Target then dialog.Target:sendEvent("shiftPose", "playBase")	end
 	end)
 end
-changeIdles()
 
 --	Precaution if game was saved during dialogue
 core.sendGlobalEvent("dynDialogClosed")
@@ -380,11 +375,19 @@ return {
 
 			if dialog.pauseTimer > 0 then
 				dialog.pauseTimer = dialog.pauseTimer - 1
-				if world.getPausedTags().ui then
+				if dialog.paused then
+					world.pause("ui")
+				else
 					world.unpause("ui")
 				end
 			end
-			if dt <= 0 or not nearbyActors or nearbyActors.paused then
+			if dt <= 0 or dialog.paused then		return		end
+
+			dialog.idleTimer = dialog.idleTimer + dt
+			if dialog.idleTimer > 30 then
+				dialog.idleTimer = 0		changeIdles()
+                        end
+			if not nearbyActors then
 				return
 			end
 
