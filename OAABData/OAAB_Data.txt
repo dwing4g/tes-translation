@@ -13954,13 +13954,13 @@ End$00"
  DOOR.ANAM "Door Stone Close$00"
 -MISC
  MISC.NAME "AB_Furn_Mannequin2F$00"
- MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.MODL "oaab\b\mannequin_stand.nif$00"
  MISC.FNAM "Dress Stand (Female)$00"
  MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
  MISC.ITEX "oaab\u\mannequin_dress.tga$00"
 -MISC
  MISC.NAME "AB_Furn_Mannequin2M$00"
- MISC.MODL "OAAB\b\mannequin.nif$00"
+ MISC.MODL "oaab\b\mannequin_stand.nif$00"
  MISC.FNAM "Dress Stand (Male)$00"
  MISC.MCDT [00 00 70 41 64 00 00 00 00 00 00 00]
  MISC.ITEX "oaab\u\mannequin_dress.tga$00"
