@@ -19989,7 +19989,7 @@ End yarnarScript"
  CREA.NAME "ogrim titan_velas$00"
  CREA.MODL "r\Clannfear_Daddy.NIF$00"
  CREA.CNAM "ogrim$00"
- CREA.FNAM "巨型欧格林$00"
+ CREA.FNAM "巨型奥格力姆$00"
  CREA.NPDT [01 00 00 00 0F 00 00 00 64 00 00 00 32 00 00 00 5A 00 00 00 32 00 00 00 14 00 00 00 32 00 00 00 32 00 00 00 32 00 00 00 DC 00 00 00 B4 00 00 00 E8 03 00 00 46 00 00 00 3C 00 00 00 5A 00 00 00 14 00 00 00 0C 00 00 00 28 00 00 00 0C 00 00 00 28 00 00 00 0C 00 00 00 28 00 00 00 00 00 00 00]
  CREA.FLAG [48 00 00 00]
  CREA.NPCO [01 00 00 00 72 61 6E 64 6F 6D 5F 64 61 65 64 72 61 5F 68 65 61 72 74 00 00 00 00 00 00 00 00 00 00 00 00 00]
@@ -61370,7 +61370,7 @@ Journal ""Hospitality_Papers"" 1"
  INFO.NNAM "151721995257886024$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.RNAM "Dark Elf$00"
- INFO.NAME "对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像欧格林一样强壮——时间不长，但也足够了。"
+ INFO.NAME "对冒险者来说，最好的便宜货就是一壶苏伽玛。它能让你变得像奥格力姆一样强壮——时间不长，但也足够了。"
  INFO.SCVR "02sX4Random100"
  INFO.INTV [28 00 00 00]
  #0: Global-short Random100 < 40
