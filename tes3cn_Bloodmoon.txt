@@ -27944,7 +27944,7 @@ C. 马基乌斯<BR>"
  NPC_.AI_W [00 02 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_
  NPC_.NAME "Gratian Caerellius$00"
- NPC_.FNAM "格拉蒂安·卡雷利乌斯$00"
+ NPC_.FNAM "格拉提安·凯瑞利乌斯$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Commoner$00"
  NPC_.ANAM "East Empire Company$00"
@@ -27960,7 +27960,7 @@ C. 马基乌斯<BR>"
  NPC_.AI_W [00 02 05 00 00 3C 14 0A 00 00 00 00 00 01]
 -NPC_
  NPC_.NAME "Gratian Caerellius_guar$00"
- NPC_.FNAM "格拉蒂安·卡雷利乌斯$00"
+ NPC_.FNAM "格拉提安·凯瑞利乌斯$00"
  NPC_.RNAM "Imperial$00"
  NPC_.CNAM "Guard$00"
  NPC_.ANAM "East Empire Company$00"
@@ -50445,7 +50445,7 @@ C<BR>"
  INFO.PNAM "1287928770342017824$00"
  INFO.NNAM "7195258971238125808$00"
  INFO.DATA [04 00 00 00 28 00 00 00 FF FF FF 00]
- INFO.NAME "格拉蒂安·卡雷利乌斯同意担任卫兵。 {瓜尔,职责}"
+ INFO.NAME "格拉提安·凯瑞利乌斯已同意承担卫兵的职责。 {瓜尔}"
 -INFO
  INFO.INAM "7195258971238125808$00"
  INFO.PNAM "27665279181596325649$00"
@@ -64957,7 +64957,7 @@ Set ColonyState to 13"
  INFO.SCVR "32sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #3: Global-short garnasguard = 1
- INFO.BNAM "Choice: ""阿弗尔·弗拉库斯，格拉蒂安·卡雷利乌斯，和加纳斯·尤瓦伦。"" 12 ""算了，当我没提。"" 11"
+ INFO.BNAM "Choice: ""阿弗尔·弗拉库斯、格拉提安·凯瑞利乌斯，以及加纳斯·尤瓦伦。"" 12 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "3248919022912510665$00"
  INFO.PNAM "7227139893029531887$00"
@@ -64974,7 +64974,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short gratianguard = 1
- INFO.BNAM "Choice: ""阿弗尔·弗拉库斯和格拉蒂安·卡雷利乌斯。"" 13 ""算了，当我没提。"" 11"
+ INFO.BNAM "Choice: ""阿弗尔·弗拉库斯和格拉提安·凯瑞利乌斯。"" 13 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "33854830543910179$00"
  INFO.PNAM "3248919022912510665$00"
@@ -65008,7 +65008,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short gratianguard = 1
- INFO.BNAM "Choice: ""格拉蒂安·卡雷利乌斯和加纳斯·尤瓦伦。"" 15 ""算了，当我没提。"" 11"
+ INFO.BNAM "Choice: ""格拉提安·凯瑞利乌斯和加纳斯·尤瓦伦。"" 15 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "1633727831943823083$00"
  INFO.PNAM "1645194312868130680$00"
@@ -65036,7 +65036,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short garnasguard = 1
- INFO.BNAM "Choice: ""格拉蒂安·卡雷利乌斯。"" 17 ""算了，当我没提。"" 11"
+ INFO.BNAM "Choice: ""格拉提安·凯瑞利乌斯。"" 17 ""算了，当我没提。"" 11"
 -INFO
  INFO.INAM "215731359235385129$00"
  INFO.PNAM "30621191111704290$00"
@@ -65398,7 +65398,7 @@ Set ColonyState to 13"
  INFO.SCVR "32sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #3: Global-short garnasguard = 1
- INFO.BNAM "Choice ""阿弗尔·弗拉库斯。格拉蒂安·卡雷利乌斯，和加纳斯·尤瓦伦"" 3 ""算了，当我没提。"" 2"
+ INFO.BNAM "Choice ""阿弗尔·弗拉库斯、格拉提安·凯瑞利乌斯，以及加纳斯·尤瓦伦"" 3 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "253531652321121349$00"
  INFO.PNAM "1494812296730727847$00"
@@ -65415,7 +65415,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short gratianguard = 1
- INFO.BNAM "Choice ""阿弗尔·弗拉库斯和格拉蒂安·卡雷利乌斯。"" 4 ""算了，当我没提。"" 2"
+ INFO.BNAM "Choice ""阿弗尔·弗拉库斯和格拉提安·凯瑞利乌斯。"" 4 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "2540586243005516859$00"
  INFO.PNAM "253531652321121349$00"
@@ -65432,7 +65432,7 @@ Set ColonyState to 13"
  INFO.SCVR "22sX0garnasguard"
  INFO.INTV [01 00 00 00]
  #2: Global-short garnasguard = 1
- INFO.BNAM "Choice ""格拉蒂安·卡雷利乌斯和加纳斯·尤瓦伦。"" 6 ""算了，当我没提。"" 2"
+ INFO.BNAM "Choice ""格拉提安·凯瑞利乌斯和加纳斯·尤瓦伦。"" 6 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "21470296432282914796$00"
  INFO.PNAM "2540586243005516859$00"
@@ -65477,7 +65477,7 @@ Set ColonyState to 13"
  INFO.SCVR "12sX0gratianguard"
  INFO.INTV [01 00 00 00]
  #1: Global-short gratianguard = 1
- INFO.BNAM "Choice ""格拉蒂安·卡雷利乌斯。"" 8 ""算了，当我没提。"" 2"
+ INFO.BNAM "Choice ""格拉提安·凯瑞利乌斯。"" 8 ""算了，当我没提。"" 2"
 -INFO
  INFO.INAM "315202179222287301$00"
  INFO.PNAM "30731240222402623626$00"
