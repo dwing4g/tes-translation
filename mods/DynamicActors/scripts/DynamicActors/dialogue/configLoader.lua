@@ -1,6 +1,7 @@
 local core = require("openmw.core")
 local vfs = require("openmw.vfs")
 local types = require("openmw.types")
+local util = require("openmw.util")
 local loadYaml = require("openmw.markup").loadYaml
 
 local paths = {
@@ -14,6 +15,7 @@ local paths = {
 local overrides = { byId = {} }
 local creatures = { byId = {} }
 local voices = { byId = {} }
+local vfxOffset = core.API_REVISION > 133
 
 local M = {}
 
@@ -52,6 +54,21 @@ local function normalizeStringList(list)
 	return #list > 0
 end
 
+local function getTransform(transform)
+	local t = util.transform
+	local v = transform.translation
+	local trans = v and t.move(v.x, v.y, v.z) or t.move(0, 0, 0)
+	v = transform.rotation
+	if v then
+		trans = trans * t.rotateX(v.x) * t.rotateY(v.y) * t.rotateZ(v.z)
+	end
+	v = transform.scale
+	if v then
+		trans = trans * t.scale(v, v, v)
+	end
+	return trans
+end
+
 local function validateAnim(anim)
 	if type(anim.prop) ~= "table" and type(anim.animation) ~= "table" then
 		return
@@ -66,12 +83,15 @@ local function validateAnim(anim)
 		end
 		anim.prop.attachTo = anim.prop.attachTo:lower()
 		anim.prop.file = file
-	--	if core.API_VERSION < ?? then
+		if not vfxOffset then
 			file = file:gsub("%.nif$", "_prop.nif")
 			if vfs.fileExists(file) then
 				anim.prop.file = file
 			end
-	--	end
+			anim.prop.transform = nil
+		elseif anim.prop.transform then
+			anim.prop.transform = getTransform(anim.prop.transform)
+		end
 	end
 
 	if type(anim.animation) == "table" then

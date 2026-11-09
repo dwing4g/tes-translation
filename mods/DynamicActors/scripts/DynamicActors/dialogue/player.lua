@@ -183,7 +183,7 @@ function dialog.hasOpened(data)
 	elseif res.hit then
 		zoom1st.zoomIn = false
 	end
-	zoom1st.level = 0
+	zoom1st.level = 0 ; zoom1st.lerp = 0
 --	zoom1st.level = (zoom1st.offset ~= 0 and not zoom1st.zoomIn and 1) or 0
 
 	d.controls, d.isActive, d.instant = false, true, false
@@ -212,6 +212,7 @@ function dialog.hasClosed()
 		if zoom1st.vector or zoom1st.extraYaw ~= 0
 			or dialog.Cam.aperture > 0 or dialog.Cam.barsRatio > 0 then
 			zoom1st.zoomOut = true
+			zoom1st.level = zoom1st.lerp ^ 0.25
 		end
 		return
 	end

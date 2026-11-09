@@ -22,6 +22,7 @@ local lastInfo = {}
 local lastVoiceTime = 0
 local voiceChance = 0.35
 local voiceInterval = 5
+local vfxOffset = core.API_REVISION > 133
 local actorData = {}
 
 M.infoIndex = storage.globalSection("temp_dActors_infoIndex")
@@ -140,6 +141,22 @@ local function resolveOverrides(configs, e)
 			options = { boneName = m.prop.attachTo,
 				vfxId = "prop_" .. m.prop.attachTo, useAmbientLight=false, loop=true }
 		}
+		anim.prop.options.transform = m.prop.transform
+--[[
+		if m.prop.transform then
+			local v = m.prop.transform.translation
+			local t = v and trans.move(v.x, v.y, v.z) or trans.move(0, 0, 0)
+			v = m.prop.transform.rotation
+			if v then
+				t = t * trans.rotateX(v.x) * trans.rotateY(v.y) * trans.rotateZ(v.z)
+			end
+			v = m.prop.transform.scale
+			if v then
+				t = t * trans.scale(v, v, v)
+			end
+			anim.prop.options.transform = t
+		end
+--]]
 	end
 
 	e.actor:sendEvent("DynamicActors", anim)

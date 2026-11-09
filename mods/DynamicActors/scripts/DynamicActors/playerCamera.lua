@@ -199,7 +199,8 @@ function M.autoCam(dt)
 	-- Force-set 1st person zoom every frame, to counter camera.lua resetting it
 	local lerp
 	if z.vector then
-		camera.setFirstPersonOffset(z.vector["0xy"] * (1 - (z.level - 1) ^ 6))
+		z.lerp = (1 - (z.level - 1) ^ 6)
+		camera.setFirstPersonOffset(z.vector["0xy"] * z.lerp)
 	end
 	if z.extraYaw ~= 0 then
 		camera.setExtraYaw(z.extraYaw)
@@ -273,7 +274,7 @@ function M.autoCam(dt)
 		dof.uDepth = d.radius / 3 + math.max(distance - 300, depth)
 		dof.uAperture = d.aperture * lerp
 	end
-	if Bars.size and z.level > 0.2 then
+	if Bars.size and z.level > 0 then
 		lerp = math.min(z.level - 0.2, 0.4) / 0.4
 	--	d.shaders.bars.ratio = 1.8 + math.max(d.barsRatio - 1.8, 0) * lerp
 		local barSize = util.vector2(1, Bars.size * lerp)
