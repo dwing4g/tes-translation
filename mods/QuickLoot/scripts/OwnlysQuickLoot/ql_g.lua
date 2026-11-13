@@ -552,6 +552,13 @@ local function onObjectActive(object)
 	end
 end
 
+-- global variable ownership
+local function readOwnerGlobal(data)
+	local player, globalName = data[1], data[2]
+	local value = world.mwscript.getGlobalVariables()[globalName]
+	player:sendEvent("OwnlysQuickLoot_receiveOwnerGlobal", {globalName, (value or 0) ~= 0})
+end
+
 local function unhookObject(object)
 	if object:hasScript("scripts/OwnlysQuickLoot/ql_cont2.lua") then
 		--print("-", object)
@@ -595,6 +602,7 @@ return {
 		OwnlysQuickLoot_rotateNpc = rotateNpc,
 		OwnlysQuickLoot_modDisposition = modDisposition,
 		OwnlysQuickLoot_unhookObject = unhookObject,
+		OwnlysQuickLoot_readOwnerGlobal = readOwnerGlobal,
 		OwnlysQuickLoot_transferIfEmpty = transferIfEmpty,
 	},
 	engineHandlers = {
