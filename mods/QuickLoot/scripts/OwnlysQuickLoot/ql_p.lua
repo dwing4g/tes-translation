@@ -735,6 +735,26 @@ local function isPoison(item)
 end
 
 
+------------------------------ ownership globals ------------------------------
+local OWNER_GLOBAL_CACHE = 10
+local ownerGlobalStamps = {} -- global name = +timestamp (released) / -timestamp (owned) / nil (unanswered)
+
+-- owned until the roundtrip completes
+local function ownershipReleased(cont)
+	local globalName = cont.globalVariable
+	if not globalName then
+		return false
+	end
+	local now = core.getSimulationTime()
+	local stamp = ownerGlobalStamps[globalName]
+	if not stamp or now - math.abs(stamp) > OWNER_GLOBAL_CACHE then
+		ownerGlobalStamps[globalName] = -now
+		core.sendGlobalEvent("OwnlysQuickLoot_readOwnerGlobal", {self, globalName})
+		return false
+	end
+	return stamp > 0
+end
+
 function drawUI()
 	local isPickpocketing = pickpocket.validateTarget(self, inspectedContainer, input)
 	setPickpocketTimeScale(isPickpocketing)
@@ -796,18 +816,22 @@ function drawUI()
 
 	
 
+	local containerOwner = inspectedContainer.owner
 	local stealCol = nil
 	if isPickpocketing
-	or inspectedContainer.owner.recordId
-	or inspectedContainer.owner.factionId and not types.NPC.getFactionRank(self, inspectedContainer.owner.factionId)
-	or inspectedContainer.owner.factionId and types.NPC.getFactionRank(self, inspectedContainer.owner.factionId) < (inspectedContainer.owner.factionRank or 999) then
+	or containerOwner.recordId and containerOwner.recordId:lower() ~= "player"
+	-- rank is 0 for non members, nil lets any member loot
+	or containerOwner.factionId and types.NPC.getFactionRank(self, containerOwner.factionId) < (containerOwner.factionRank or 1) then
 		--stealCol = util.color.rgba(1,0.714, 0.706, 1)
 		stealCol = util.color.rgba(1,0.05, 0.05, 1)
 		--STEALING ICON
 		--captionOffset = outerHeaderFooterHeight/hudAspectRatio
-		
+
 	end
-	
+	if stealCol and not isPickpocketing and ownershipReleased(inspectedContainer) then
+		stealCol = nil
+	end
+
 
 	--Caption: CONTAINER NAME
 	local headline ={
@@ -2447,8 +2471,8 @@ local function receiveCrimesVersion(ver)
 	crimesVersion = ver
 end
 
-local function toggle(onOff,uniqueFlag)
-	modDisableFlags[uniqueFlag] = onOff
+local function toggle(data)
+	modDisableFlags[data[2]] = data[1]
 	updateModEnabled()
 end
 
@@ -2470,6 +2494,17 @@ local function equipAmmo(data)
 	types.Actor.setEquipment(self, equipment)
 end
 
+-- global variables flagged ownership released
+local function receiveOwnerGlobal(data)
+	local globalName, released = data[1], data[2]
+	local wasReleased = (ownerGlobalStamps[globalName] or -1) > 0
+	local now = core.getSimulationTime()
+	ownerGlobalStamps[globalName] = released and now or -now
+	if released ~= wasReleased and root and inspectedContainer and inspectedContainer.globalVariable == globalName then
+		drawUI()
+	end
+end
+
 local function refreshUi()
 	if root then
 		drawUI()
@@ -2488,11 +2523,12 @@ return {
 	eventHandlers = {
 		UiModeChanged = UiModeChanged,
 		OwnlysQuickLoot_windowVisible = windowVisible,
-		OwnlysQuickLoot_toggle = toggle, -- toggle(<true/false>, "myModName")
+		OwnlysQuickLoot_toggle = toggle, -- sendEvent("OwnlysQuickLoot_toggle", {<true/false>, "myModName"})
 		OwnlysQuickLoot_receiveCrimesVersion = receiveCrimesVersion,
 		OwnlysQuickLoot_playSound = playSound,
 		OwnlysQuickLoot_equipAmmo = equipAmmo,
 		OwnlysQuickLoot_refreshUi = refreshUi,
+		OwnlysQuickLoot_receiveOwnerGlobal = receiveOwnerGlobal,
 	},
 	engineHandlers = {
 		onFrame = onFrame,

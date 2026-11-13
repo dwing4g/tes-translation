@@ -97,7 +97,7 @@
 -- │ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ │
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 --[[
-	Shared Tooltip v4
+	Shared Tooltip v6
 
 	Usage:
 		local tip = I.SharedTooltip.create(item, overrides, style, context)
@@ -113,11 +113,20 @@
 	Unmanaged layouts:
 		I.SharedTooltip.createLayout(item, overrides, style, context) -> layout table or nil, settings changes and activeTooltips never see it
 
+	Style baseline: (v5+, absent on v4 and older)
+		I.SharedTooltip.style: the player's resolved settings, live and read only
+			holds the raw settings only, borderFile/borderOffset/borderless/align/valueTag/labelTag/enchantTag are derived per build
+
 	Settings preview:
 		I.SharedTooltip.showPreview(item, overrides, style, context)
 			top right corner sample for 5 realtime seconds, args optional
 		I.SharedTooltip.setAutoPreview(bool)
 			allows changing this mod's settings section without automatically triggering a preview
+
+	Options: (v5+)
+		I.SharedTooltip.options = {
+			refreshOnHotkey = false -- (v5) rebuilds every live tooltip when a hotkey (currently shift) is pressed or released
+		}
 
 	Modifiers: (apply @ engineHandlers.onActive)
 		I.SharedTooltip.registerModifier{
@@ -158,6 +167,7 @@
 		mirrored (true on right align, flip horizontal child order to match)
 		printEffects(target, effects, isAlchemy, color, alchemySkill)
 			effects table in the parsed info form (text, icon, (known)),
+			text carries inline color tags, magnitudes durations and areas render in valueColor
 			isAlchemy "potion" gates in engine pairs, any other truthy one effect per step
 		normalizeEffects(effects) -> engine-shaped clones, the overrides effects format in,
 			defaults filled, effect record backfilled, unknown ids dropped,
@@ -180,8 +190,9 @@
 			replacing the native block (beats effects), foreign blocks stack alongside
 		display extras (not fields): count, qualityMult (percent line, red below 1), customLine, customLineColor
 	style:
-		borderStyle ("none" drops the frame), borderColor, borderPath,
+		borderStyle ("none" drops every frame), borderColor, borderPath,
 		borderFile, borderOffset, borderless (borderStyle derives these, set one and it wins),
+		borderless drops the outer frame only, bars keep theirs - for embedding in a host frame,
 		background (texture), backgroundColor, transparency, padding (px inside the frame),
 		nameColor, labelColor, valueColor, compactIconColor,
 		enchantBlockColor (tints the enchantment block, charge bar text included),
@@ -213,15 +224,17 @@ local util = require('openmw.util')
 local self = require('openmw.self')
 local storage = require('openmw.storage')
 local async = require('openmw.async')
+local input = require('openmw.input')
 local auxUi = require('openmw_aux.ui')
 local v2 = util.vector2
 
-local MY_VERSION = 4
+local MY_VERSION = 6
 
 -- version check
 if I.SharedTooltip and I.SharedTooltip.version >= MY_VERSION then
 	return
 end
+local olderOptions = I.SharedTooltip and I.SharedTooltip.options
 
 -- content:insert corrupts ui content before api 139 or 140
 local contentInsertFixed = core.API_REVISION >= 140
@@ -712,7 +725,7 @@ local styleDefaults = {
 	-- derived off borderStyle:
 	--borderFile = "thin"/"thick"
 	--borderOffset = px thickness
-	--borderless = bool
+	--borderless = bool, outer frame only, bars still follow borderStyle
 }
 
 -- preset picker (seperate)
@@ -756,8 +769,12 @@ presetSection:subscribe(async:callback(function()
 end))
 
 ------------------------------ deferred settings registration ------------------------------
+local settingsRegistered = false
 local function registerSettings()
 	if not (I.SharedTooltip and I.SharedTooltip.version == MY_VERSION) then return end
+	-- onActive CAN fire more than once (if a mod calls reloadlua during load)
+	if settingsRegistered then return end
+	settingsRegistered = true
 	-- resolve (super-) renderers
 	local installedRenderers = storage.playerSection("InstalledSettingsRenderers")
 	local sliderVersion = installedRenderers:get("SuperSlider")
@@ -1364,10 +1381,13 @@ local rangeAliases = {
 	["на себя"] = "себя",
 }
 
-local function getEffects(eff, enchantType, shortTexts, renameEffects)
+local function getEffects(eff, enchantType, style, baseTag)
 	local effects = {}
+	local shortTexts = style.shortText
+	local renameEffects = style.renameEffects
+	baseTag = baseTag or style.labelTag
 
-	-- pairs, engine effect lists are not always numbered contiguously
+	-- effect tables can have gaps
 	for _, effect in pairs(eff) do
 		local text = getMagicEffectName(effect.id, effect.affectedSkill or effect.affectedAttribute)
 		--for a,b in pairs(core.magic.EFFECT_TYPE) do
@@ -1376,15 +1396,19 @@ local function getEffects(eff, enchantType, shortTexts, renameEffects)
 		--	end
 		--end
 		local statSpacer = " "
+		-- short mode hangs the sign off the number, it tints with the value not the label
+		local shortSign = ""
 		if effect.affectedSkill then
 			text = text.." "..(core.getGMST("sSkill"..effect.affectedSkill) or "??")
 			if shortTexts then
 				if effect.id == core.magic.EFFECT_TYPE.FortifySkill then
 					statSpacer = ""
-					text = (core.getGMST("sSkill"..effect.affectedSkill) or "??").. " +"
+					text = (core.getGMST("sSkill"..effect.affectedSkill) or "??").. " "
+					shortSign = "+"
 				elseif effect.id == core.magic.EFFECT_TYPE.DrainSkill then
 					statSpacer = ""
-					text = (core.getGMST("sSkill"..effect.affectedSkill) or "??").. " -"
+					text = (core.getGMST("sSkill"..effect.affectedSkill) or "??").. " "
+					shortSign = "-"
 				end
 			end
 		elseif effect.affectedAttribute then
@@ -1392,10 +1416,12 @@ local function getEffects(eff, enchantType, shortTexts, renameEffects)
 			if shortTexts then
 				if effect.id == core.magic.EFFECT_TYPE.FortifyAttribute then
 					statSpacer = ""
-					text = (core.getGMST("sAttribute"..effect.affectedAttribute) or "??").. " +"
+					text = (core.getGMST("sAttribute"..effect.affectedAttribute) or "??").. " "
+					shortSign = "+"
 				elseif effect.id == core.magic.EFFECT_TYPE.DrainAttribute then
 					statSpacer = ""
-					text = (core.getGMST("sAttribute"..effect.affectedAttribute) or "??").. " -"
+					text = (core.getGMST("sAttribute"..effect.affectedAttribute) or "??").. " "
+					shortSign = "-"
 				end
 			end
 		end
@@ -1406,27 +1432,34 @@ local function getEffects(eff, enchantType, shortTexts, renameEffects)
 		local effectPrototype = core.magic.effects.records[effect.id]
 		local magMin, magMax = effect.magnitudeMin, effect.magnitudeMax
 		-- the engine hides a 0-0 magnitude
-		if effectPrototype.hasMagnitude and (magMin ~= 0 or magMax ~= 0) then
+		local printedMagnitude = effectPrototype.hasMagnitude and (magMin ~= 0 or magMax ~= 0)
+		if printedMagnitude then
 			local displayType = magnitudeDisplayType[effect.id]
 			if shortTexts then
 				-- short keeps its terse form, no unit words, only Chameleon marks its percent
+				local valueText
 				if displayType == "timesInt" then
-					text = text..(magMin == magMax and statSpacer.. magMin/10 or statSpacer .. magMin/10 .."-"..magMax/10).."INT"
+					valueText = (magMin == magMax and statSpacer.. magMin/10 or statSpacer .. magMin/10 .."-"..magMax/10).."INT"
 				else
 					-- ranged magnitudes keep the space, "+5-10" would read as two signed values
-					text = text..(magMin == magMax and statSpacer..magMin or " "..magMin.."-"..magMax)
+					valueText = magMin == magMax and statSpacer..magMin or " "..magMin.."-"..magMax
 					if effect.id == core.magic.EFFECT_TYPE.Chameleon then
-						text = text.."%"
+						valueText = valueText.."%"
 					end
 				end
+				-- sign, number, separator and unit are one tinted run
+				text = text..style.valueTag..shortSign..valueText..baseTag
+				shortSign = ""
 			elseif displayType == "timesInt" then
 				-- magnitude is tenths, one decimal like the engine
-				local lo = string.format("%.1f", magMin/10)
-				local hi = string.format("%.1f", magMax/10)
+				local lo = style.valueTag..string.format("%.1f", magMin/10)..baseTag
+				local hi = style.valueTag..string.format("%.1f", magMax/10)..baseTag
 				text = text.." "..(magMin == magMax and lo or lo.." "..core.getGMST("sTo").." "..hi)..core.getGMST("sXTimesINT")
 			else
 				-- vanilla suffix per display type, points is the fallback
-				local numStr = magMin == magMax and tostring(magMin) or magMin.." "..core.getGMST("sTo").." "..magMax
+				-- long mode tints the numbers only
+				local numStr = magMin == magMax and (style.valueTag..magMin..baseTag)
+					or (style.valueTag..magMin..baseTag.." "..core.getGMST("sTo").." "..style.valueTag..magMax..baseTag)
 				local singular = magMin == magMax and math.abs(magMin) == 1
 				text = text.." "..numStr
 				if displayType == "percent" then
@@ -1440,6 +1473,10 @@ local function getEffects(eff, enchantType, shortTexts, renameEffects)
 				end
 			end
 		end
+		-- a hidden 0-0 magnitude would otherwise swallow the sign
+		if shortSign ~= "" then
+			text = text..style.valueTag..shortSign..baseTag
+		end
 		if enchantType ~= "constant" then --enchantmentRecord.type ~= core.magic.ENCHANTMENT_TYPE.ConstantEffect then
 			if effectPrototype.hasDuration then
 				local dur = effect.duration
@@ -1448,12 +1485,14 @@ local function getEffects(eff, enchantType, shortTexts, renameEffects)
 					dur = math.max(1, dur)
 				end
 				if shortTexts then
-					if dur > 1 then
-						text = text.." x "..dur.."s"
+					-- paralysis 1s for example should print the duration
+					if dur > 1 or (dur > 0 and not printedMagnitude) then
+						-- x joins magnitude and duration, a no-magnitude effect would dangle it
+						text = text..(printedMagnitude and " x " or " ")..style.valueTag..dur.."s"..baseTag
 					end
 				elseif dur > 0 then
 					text = text.." "..core.getGMST("sfor")
-					text = text.." "..dur
+					text = text.." "..style.valueTag..dur..baseTag
 					if dur == 1 then
 						text = text.." "..core.getGMST("ssecond")
 					else
@@ -1463,7 +1502,7 @@ local function getEffects(eff, enchantType, shortTexts, renameEffects)
 			end
 			-- area tail like the engine, shorttext keeps it terse
 			if (effect.area or 0) > 0 then
-				text = text..(shortTexts and (" "..effect.area.."ft") or (" "..core.getGMST("sin").." "..effect.area.." "..core.getGMST("sfootarea")))
+				text = text..(shortTexts and (" "..style.valueTag..effect.area.."ft"..baseTag) or (" "..core.getGMST("sin").." "..style.valueTag..effect.area..baseTag.." "..core.getGMST("sfootarea")))
 			end
 			if enchantType ~= "potion" then
 				if shortTexts then
@@ -1545,7 +1584,7 @@ local function normalizeEffects(effects)
 end
 
 -- Get enchantment data if present
-local function getEnchantmentData(record, shortTexts, currentCharge, renameEffects)
+local function getEnchantmentData(record, style, currentCharge)
 	-- record.enchant picks up overrides.enchant through the overlay
 	local enchantment = record.enchant
 	if not enchantment or enchantment == "" then return nil end
@@ -1572,7 +1611,7 @@ local function getEnchantmentData(record, shortTexts, currentCharge, renameEffec
 		max = maxCharge
 	} or nil
 	
-	local effects = getEffects(enchantmentRecord.effects, enchantmentRecord.type == core.magic.ENCHANTMENT_TYPE.ConstantEffect and "constant", shortTexts, renameEffects)
+	local effects = getEffects(enchantmentRecord.effects, enchantmentRecord.type == core.magic.ENCHANTMENT_TYPE.ConstantEffect and "constant", style, style.enchantTag)
 	
 	if enchantmentRecord.type == core.magic.ENCHANTMENT_TYPE.CastOnce then
 		charge = nil
@@ -1675,7 +1714,7 @@ local function getItemInfo(item, record, itemType, style, overrides)
 		info.ingredientEffects = getIngredientEffects(record.effects)
 	elseif itemType == types.Potion then
 		info.type = "potion"
-		info.potionEffects = getEffects(record.effects, "potion", style.shortText, style.renameEffects)
+		info.potionEffects = getEffects(record.effects, "potion", style)
 	elseif itemType == types.Apparatus then
 		info.type = "apparatus"
 		info.quality = record.quality
@@ -1725,12 +1764,12 @@ local function getItemInfo(item, record, itemType, style, overrides)
 	end
 	-- forced effect blocks, any item type, the key picks the formatting
 	if overrides.potionEffects then
-		info.potionEffects = getEffects(normalizeEffects(overrides.potionEffects), "potion", style.shortText, style.renameEffects)
+		info.potionEffects = getEffects(normalizeEffects(overrides.potionEffects), "potion", style)
 	end
 	if overrides.ingredientEffects then
 		info.ingredientEffects = getIngredientEffects(normalizeEffects(overrides.ingredientEffects))
 	end
-	info.enchantment = getEnchantmentData(record, style.shortText, info.enchantmentCharge, style.renameEffects)
+	info.enchantment = getEnchantmentData(record, style, info.enchantmentCharge)
 	-- plain records read a full charge, like the engine's untouched read
 	if info.enchantment then
 		info.enchantmentCharge = info.enchantmentCharge or info.enchantment.maxCharge
@@ -1829,6 +1868,10 @@ local function buildTooltipLayout(item, overrides, style, context)
 	-- derived values, elements read these straight off style
 	style.align = style.textAlignment == "left" and ui.ALIGNMENT.Start or style.textAlignment == "right" and ui.ALIGNMENT.End or ui.ALIGNMENT.Center
 	style.oppositeAlign = style.align == ui.ALIGNMENT.Start and ui.ALIGNMENT.End or style.align == ui.ALIGNMENT.End and ui.ALIGNMENT.Start or ui.ALIGNMENT.Center
+	-- inline color tags
+	style.valueTag = "#"..style.valueColor:asHex()
+	style.labelTag = "#"..style.labelColor:asHex()
+	style.enchantTag = "#"..(style.enchantBlockColor or style.labelColor):asHex()
 	local info = getItemInfo(item, itemRecord, itemType, style, overrides)
 	if not info then return end
 	local backgroundImage = {
@@ -1840,13 +1883,13 @@ local function buildTooltipLayout(item, overrides, style, context)
 			color = style.backgroundColor,
 		}
 	}
-	-- borderless keeps the background but drops the frame
+	-- borderless keeps the background but drops the outer frame, bars follow borderStyle
 	local borderTemplate
 	local barBorderTemplate
+	-- copy the background before either path resizes it
+	local barBackground = auxUi.deepLayoutCopy(backgroundImage)
 	if style.borderless then
 		local padV = v2(1, 1) * style.padding
-		-- copy the background before the padded one gets resized
-		local barBackground = auxUi.deepLayoutCopy(backgroundImage)
 		backgroundImage.props.size = padV * 2
 		borderTemplate = {
 			type = ui.TYPE.Container,
@@ -1857,6 +1900,11 @@ local function buildTooltipLayout(item, overrides, style, context)
 				{ props = { position = padV, relativePosition = v2(1,1), size = padV } },
 			}
 		}
+	else
+		borderTemplate = makeBorder(style.borderPath, style.borderFile, style.borderColor, style.borderOffset, backgroundImage, style.padding, true)
+	end
+	-- only "none" removes borders from bars
+	if style.borderStyle == "none" then
 		barBorderTemplate = {
 			content = ui.content {
 				barBackground,
@@ -1864,10 +1912,6 @@ local function buildTooltipLayout(item, overrides, style, context)
 			}
 		}
 	else
-		-- copy the background before the outset pass resizes it
-		local barBackground = auxUi.deepLayoutCopy(backgroundImage)
-		-- root is a Container, its frame has to reach past the content and carries the padding
-		borderTemplate = makeBorder(style.borderPath, style.borderFile, style.borderColor, style.borderOffset, backgroundImage, style.padding, true)
 		-- bars carry an explicit size, their frame stays inside it
 		barBorderTemplate = makeBorder(style.borderPath, style.borderFile, style.borderColor, style.borderOffset, barBackground)
 	end
@@ -1932,10 +1976,6 @@ local function buildTooltipLayout(item, overrides, style, context)
 			flex.content:add(element)
 		end
 	end
-
-	-- inline color tags derived from the style colors
-	local labelTag = "#"..style.labelColor:asHex()
-	local valueTag = "#"..style.valueColor:asHex()
 
 	-- condition tint: default color above half, sliding orange to red below
 	local conditionOrange = util.color.rgb(0.9, 0.55, 0.1)
@@ -2059,35 +2099,35 @@ local function buildTooltipLayout(item, overrides, style, context)
 	flex.content:add{ name = 'nameSpacer', props = { size = v2(0, 1) } }
 	
 	if info.uses then
-		textElement(labelTag..core.getGMST("sUses")..": "..valueTag..math.floor(info.uses), nil, 'uses')
+		textElement(style.labelTag..core.getGMST("sUses")..": "..style.valueTag..math.floor(info.uses), nil, 'uses')
 	end
 
 	if info.quality then
 		-- engine prints two decimals and trims the zeros
-		textElement(labelTag..core.getGMST("sQuality")..": "..valueTag..(string.format("%.2f", info.quality):gsub("%.?0+$", "")), nil, 'quality')
+		textElement(style.labelTag..core.getGMST("sQuality")..": "..style.valueTag..(string.format("%.2f", info.quality):gsub("%.?0+$", "")), nil, 'quality')
 	end
 
 	if info.type == "armor" then
 		-- in compact view, the armor skill is the first line (like weaponType)
 		if info.armorData.skillName and style.compact then
-			textElement(labelTag..info.armorData.skillName, nil, 'armorClass')
+			textElement(style.labelTag..info.armorData.skillName, nil, 'armorClass')
 		end
-		textElement(labelTag..core.getGMST("sArmorRating")..": "..valueTag..math.floor(info.armorData.playerArmor), nil, 'armorRating')
+		textElement(style.labelTag..core.getGMST("sArmorRating")..": "..style.valueTag..math.floor(info.armorData.playerArmor), nil, 'armorRating')
 	end
 	
 	if info.type == "weapon" then
 		-- engine leads with sType and spaces the damage ranges, typeLabel toggles the prefix, shortText tightens the ranges
 		local typePrefix = style.typeLabel and core.getGMST("sType").." " or ""
 		local dmgSep = style.shortText and "-" or " - "
-		textElement(labelTag..typePrefix..info.weaponData.typeName, nil, 'weaponType')
+		textElement(style.labelTag..typePrefix..info.weaponData.typeName, nil, 'weaponType')
 		if info.weaponData.typeName == core.getGMST("sSkillMarksman") then
 			-- thrown weapons hit as weapon and ammo at once, the engine doubles the display
 			local mult = info.weaponData.type == types.Weapon.TYPE.MarksmanThrown and 2 or 1
-			textElement(labelTag..core.getGMST("sAttack")..": "..valueTag..(info.weaponData.damage.chopMin*mult)..dmgSep..(info.weaponData.damage.chopMax*mult), nil, 'attack')
+			textElement(style.labelTag..core.getGMST("sAttack")..": "..style.valueTag..(info.weaponData.damage.chopMin*mult)..dmgSep..(info.weaponData.damage.chopMax*mult), nil, 'attack')
 		else
-			textElement(labelTag..core.getGMST("sChop")..": "..valueTag..info.weaponData.damage.chopMin..dmgSep..info.weaponData.damage.chopMax, nil, 'chop')
-			textElement(labelTag..core.getGMST("sSlash")..": "..valueTag..info.weaponData.damage.slashMin..dmgSep..info.weaponData.damage.slashMax, nil, 'slash')
-			textElement(labelTag..core.getGMST("sThrust")..": "..valueTag..info.weaponData.damage.thrustMin..dmgSep..info.weaponData.damage.thrustMax, nil, 'thrust')
+			textElement(style.labelTag..core.getGMST("sChop")..": "..style.valueTag..info.weaponData.damage.chopMin..dmgSep..info.weaponData.damage.chopMax, nil, 'chop')
+			textElement(style.labelTag..core.getGMST("sSlash")..": "..style.valueTag..info.weaponData.damage.slashMin..dmgSep..info.weaponData.damage.slashMax, nil, 'slash')
+			textElement(style.labelTag..core.getGMST("sThrust")..": "..style.valueTag..info.weaponData.damage.thrustMin..dmgSep..info.weaponData.damage.thrustMax, nil, 'thrust')
 		end
 	end
 	
@@ -2115,13 +2155,13 @@ local function buildTooltipLayout(item, overrides, style, context)
 		elseif style.durabilityDisplay == "bar (bottom)" then
 			bottomConditionBar = addConditionBar
 		else
-			local conditionTag = style.durabilityDisplay == "vanilla" and valueTag or "#"..getConditionColor(durability.current, durability.max):asHex()
-			textElement(labelTag..core.getGMST("sCondition")..": "..conditionTag..math.floor(durability.current+0.5)..valueTag.."/"..math.floor(durability.max+0.5), nil, 'condition')
+			local conditionTag = style.durabilityDisplay == "vanilla" and style.valueTag or "#"..getConditionColor(durability.current, durability.max):asHex()
+			textElement(style.labelTag..core.getGMST("sCondition")..": "..conditionTag..math.floor(durability.current+0.5)..style.valueTag.."/"..math.floor(durability.max+0.5), nil, 'condition')
 		end
 	end
 
 	if style.enchantCapacity and info.enchantCapacity and info.enchantCapacity > 0 and not info.enchantment then
-		textElement(labelTag..core.getGMST("sEnchanting")..": "..valueTag..math.floor(info.enchantCapacity), nil, 'enchantCapacity')
+		textElement(style.labelTag..core.getGMST("sEnchanting")..": "..style.valueTag..math.floor(info.enchantCapacity), nil, 'enchantCapacity')
 	end
 
 	-- ammo has no meaningful reach, attack speed or charge
@@ -2130,30 +2170,30 @@ local function buildTooltipLayout(item, overrides, style, context)
 		or info.weaponData.type == types.Weapon.TYPE.MarksmanThrown)
 
 	if info.type == "weapon" and not isProjectile and style.weaponRange then
-		textElement(labelTag..core.getGMST("sRange")..": "..valueTag..(math.floor((info.weaponData.reach*6.05)*10)/10).." "..core.getGMST("sfootarea"), nil, 'range')
+		textElement(style.labelTag..core.getGMST("sRange")..": "..style.valueTag..(math.floor((info.weaponData.reach*6.05)*10)/10).." "..core.getGMST("sfootarea"), nil, 'range')
 	end
 	if info.type == "weapon" and not isProjectile and style.weaponSpeed then
-		textElement(labelTag..core.getGMST("sAttributeSpeed")..": "..valueTag..math.floor((info.weaponData.speed)*100+0.5).."%", nil, 'speed')
+		textElement(style.labelTag..core.getGMST("sAttributeSpeed")..": "..style.valueTag..math.floor((info.weaponData.speed)*100+0.5).."%", nil, 'speed')
 	end
 
 	if not style.compact then
 		if info.soulName and style.soulValue then
-			textElement(labelTag.."Soul: "..valueTag..info.soulName.." ("..info.soulValue..")", nil, 'soul')
+			textElement(style.labelTag.."Soul: "..style.valueTag..info.soulName.." ("..info.soulValue..")", nil, 'soul')
 		end
 		if info.weight and info.weight > 0 then
 			local suffix = info.armorData and (" ("..info.armorData.class..")") or ""
-			textElement(labelTag..core.getGMST("sWeight")..": "..valueTag..formatNumber(info.weight, "weight", style.thousandsSeparator)..suffix, nil, 'weight')
+			textElement(style.labelTag..core.getGMST("sWeight")..": "..style.valueTag..formatNumber(info.weight, "weight", style.thousandsSeparator)..suffix, nil, 'weight')
 		end
 
 		if info.value and info.value > 0 then
-			textElement(labelTag..core.getGMST("sValue")..": "..valueTag..formatNumber(info.value, "value", style.thousandsSeparator), nil, 'value')
+			textElement(style.labelTag..core.getGMST("sValue")..": "..style.valueTag..formatNumber(info.value, "value", style.thousandsSeparator), nil, 'value')
 		end
 	end
 	
 	-- crafting quality percent, red when below vanilla
 	if info.qualityMult and info.qualityMult ~= 1 then
 		local qualityTag = "#"..(info.qualityMult < 1 and util.color.rgb(1, 0.4, 0.4) or style.valueColor):asHex()
-		textElement(labelTag..core.getGMST("sQuality")..": "..qualityTag..math.floor(info.qualityMult*100+0.5).."%", nil, 'qualityMult')
+		textElement(style.labelTag..core.getGMST("sQuality")..": "..qualityTag..math.floor(info.qualityMult*100+0.5).."%", nil, 'qualityMult')
 	end
 
 	-- after stat lines, before special blocks
@@ -2455,8 +2495,8 @@ local function buildTooltipLayout(item, overrides, style, context)
 	lineCtx.compact = style.compact
 	lineCtx.style = style
 	lineCtx.overrides = overrides
-	lineCtx.labelTag = labelTag
-	lineCtx.valueTag = valueTag
+	lineCtx.labelTag = style.labelTag
+	lineCtx.valueTag = style.valueTag
 	-- foreign code, a throwing or sloppy line must not kill the build
 	for i, entry in ipairs(tooltipLineChain.entries) do
 		local tag = tostring(entry.id or i)
@@ -2471,7 +2511,7 @@ local function buildTooltipLayout(item, overrides, style, context)
 			print("SharedTooltip line '"..tag.."' returned a "..type(text))
 		end
 	end
-
+	local statCount = 0
 	-- bottom stat row
 	local function addStat(tex, valueStr, statName, color)
 		-- the first stat earns the row its gap
@@ -2502,7 +2542,11 @@ local function buildTooltipLayout(item, overrides, style, context)
 			}
 		}
 		local statSpacer = { name = statName..'Spacer', props = { size = v2(math.floor(style.textSize*0.25), 0) } }
-		local statSeparator = { name = statName..'Separator', props = { size = v2(7, 0) } }
+		local seperatorWidth = 7
+		if statCount == 0 and style.oppositeAlign == ui.ALIGNMENT.Center then
+			seperatorWidth = 0
+		end
+		local statSeparator = { name = statName..'Separator', props = { size = v2(seperatorWidth, 0) } }
 		-- reverse if right aligned
 		if style.oppositeAlign == ui.ALIGNMENT.End then
 			if contentInsertFixed then
@@ -2524,6 +2568,7 @@ local function buildTooltipLayout(item, overrides, style, context)
 			statRowFlex.content:add(statSpacer)
 			statRowFlex.content:add(statText)
 		end
+		statCount = statCount + 1
 	end
 
 	if style.compact then
@@ -2566,8 +2611,8 @@ local function buildTooltipLayout(item, overrides, style, context)
 	modCtx.compact = style.compact
 	modCtx.style = style
 	modCtx.overrides = overrides
-	modCtx.labelTag = labelTag
-	modCtx.valueTag = valueTag
+	modCtx.labelTag = style.labelTag
+	modCtx.valueTag = style.valueTag
 	modCtx.print = print
 	for i, entry in ipairs(tooltipModifierChain.entries) do
 		local ok, result = pcall(entry.func, modCtx)
@@ -2634,6 +2679,23 @@ local function getActiveTooltips()
 		table.insert(list, handle)
 	end
 	return list
+end
+
+-- I.SharedTooltip.options
+local sharedOptions = {
+	refreshOnHotkey = olderOptions and olderOptions.refreshOnHotkey or false,
+}
+if olderOptions then
+	olderOptions.refreshOnHotkey = false
+end
+
+local function onHotkey(key)
+	if not sharedOptions.refreshOnHotkey then return end
+	if I.SharedTooltip.version ~= MY_VERSION then return end
+	if key.code ~= input.KEY.LeftShift and key.code ~= input.KEY.RightShift then return end
+	for handle in pairs(trackedTooltips) do
+		handle.rebuild()
+	end
 end
 
 ------------------------------ settings preview ------------------------------
@@ -2779,9 +2841,11 @@ return {
 	interfaceName = "SharedTooltip",
 	interface = {
 		version = MY_VERSION,
+		style = styleDefaults,
 		createLayout = buildTooltipLayout,
 		create = createTooltip,
 		activeTooltips = getActiveTooltips,
+		options = sharedOptions,
 		showPreview = showSettingsPreview,
 		setAutoPreview = function(enabled) autoPreview = enabled end,
 		registerLine = tooltipLineChain.register,
@@ -2793,6 +2857,8 @@ return {
 	},
 	engineHandlers = {
 		onActive = registerSettings,
+		onKeyPress = onHotkey,
+		onKeyRelease = onHotkey,
 	},
 	eventHandlers = {
 		OwnlysSharedTooltipTick = onPreviewTick,
