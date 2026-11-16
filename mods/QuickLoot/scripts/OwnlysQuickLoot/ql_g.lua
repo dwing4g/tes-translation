@@ -50,6 +50,27 @@ for _, gmst in ipairs(BOUND_ITEM_GMSTS) do
 	end
 end
 
+function isTheft(item, player)
+	local target = item.parentContainer or item
+	local owner = target.owner
+	if (owner and owner.recordId) == "player" or (target and target.recordId) == "player" then
+		return false
+	elseif target.recordId == "stolen_goods" then
+		return true
+	elseif types.NPC.objectIsInstance(target) then
+		return not types.Actor.isDead(target)
+	elseif target.globalVariable and (world.mwscript.getGlobalVariables()[target.globalVariable] or 0) >= 1 then
+		return false
+	elseif owner.recordId  then
+		return true
+	elseif owner.factionId and types.NPC.getFactionRank(player, owner.factionId) == 0 then
+		return true
+	elseif owner.factionId and types.NPC.getFactionRank(player, owner.factionId) < (owner.factionRank or 0) then
+		return true
+	end
+	return false
+end
+
 local lootInterceptors = {}
 
 -- false blocks the item, conjured gear is refused before
@@ -273,6 +294,29 @@ local function depositAll(data)
 	--end
 end
 
+-- unfortunately mStolenItems will stay empty so guards wont confiscate these
+local function stealBook(player, container, value)
+	if not I.Crimes or not isTheft(container, player) then
+		return
+	end
+	local owner = container.owner
+	local victim = nil
+	if owner.recordId and owner.recordId:lower() ~= "player" then
+		for _, actor in ipairs(world.activeActors) do
+			if actor.recordId == owner.recordId:lower() and types.NPC.objectIsInstance(actor) then
+				victim = actor
+				break
+			end
+		end
+	end
+	I.Crimes.commitCrime(player, {
+		type = types.Player.OFFENSE_TYPE.Theft,
+		victim = victim,
+		faction = owner.factionId,
+		arg = value,
+	})
+end
+
 local function take(data)
 	local player = data[1]
 	local container = data[2]
@@ -298,9 +342,12 @@ local function take(data)
 	local looted = thing
 	if isPickpocketing then
 		thing:moveInto(types.Player.inventory(player))
-	elseif thing.type == types.Book or container.owner.factionId == nil and container.owner.recordId == nil then
-		-- unowned loot has no theft check to preserve
+	elseif thing.type == types.Book or not isTheft(container, player) then
+		-- no theft
 		local count = thing.count
+		if thing.type == types.Book then
+			stealBook(player, container, types.Book.records[thing.recordId].value * count)
+		end
 		local granted = thing.type == types.Weapon and mergeIntoEquipped(player, thing.recordId, count)
 		if granted then
 			thing:remove(count)
@@ -345,6 +392,8 @@ local function takeAll(data)
 	local i =0
 	types.Container.inventory(container):resolve()
 	local lootedItems = {}
+	local stolenBookValue = 0
+	local isStealing = isTheft(container, player)
 	--if not triggerMwscriptTrap(container,player) then
 		--print(container,container.type,types.Container.inventory(container):isResolved())
 		for _, thing in pairs(types.Container.inventory(container):getAll()) do
@@ -354,6 +403,7 @@ local function takeAll(data)
 			elseif isDupedRef(player, container, thing) then
 				repairDupedTake(player, container, thing)
 			elseif thing.type == types.Book then
+				stolenBookValue = stolenBookValue + types.Book.records[thing.recordId].value * thing.count
 				thing:moveInto(types.Player.inventory(player))
 				table.insert(lootedItems, thing)
 				i=i+1
@@ -361,8 +411,8 @@ local function takeAll(data)
 				thing:teleport(player.cell, player.position, player.rotation)
 				table.insert(activateSecondNextUpdate,{thing,player,container}) -- gold takes 2 ticks to become valid and allow owner changes
 				table.insert(lootedItems, thing)
-			elseif container.owner.factionId == nil and container.owner.recordId == nil then
-				-- unowned loot has no theft check to preserve
+			elseif not isStealing then
+				-- loot that is not theft has no check to preserve
 				local count = thing.count
 				local granted = thing.type == types.Weapon and mergeIntoEquipped(player, thing.recordId, count)
 				if granted then
@@ -385,6 +435,10 @@ local function takeAll(data)
 			end
 			--thing:activateBy(player)
 		--moveInto(types.Player.inventory(player))
+		end
+		-- one crime for all books, bounty scales with the summed value anyway
+		if stolenBookValue > 0 then
+			stealBook(player, container, stolenBookValue)
 		end
 		-- persistent corpses are quest scenery, deleting them can strand a quest
 		if disposeCorpse and types.Actor.objectIsInstance(container) and types.Actor.isDead(container)
