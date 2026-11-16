@@ -29,6 +29,9 @@ local function validatePose(p)
 		return
 	end
 	if p.speed and type(p.speed) ~="number" then	return		end
+	if p.options and type(p.options) ~= "table" then
+		return
+	end
 	local g = p.group
 	if g and type(g) ~= "string" then		return		end
 

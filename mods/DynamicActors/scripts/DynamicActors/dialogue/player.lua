@@ -82,7 +82,7 @@ function dialog.hasOpened(data)
 	camSave.offset1st = camera.getFirstPersonOffset()
 	camSave.dist3rd = camera.getThirdPersonDistance()
 	camSave.hud = I.UI.isHudVisible()
-	zoom1st.scale, zoom1st.force, zoom1st.zoomOut = 1, false, false
+	zoom1st.scale, zoom1st.force, zoom1st.zoomOut, zoom1st.targetYaw = 1
 	zoom1st.extraYaw, zoom1st.vector = 0
 	zoom1st.speed = settings.camera:get("dialog_1st_zoom_speed") / 100
 	zoom1st.offset = math.rad(settings.camera:get("dialog_1st_zoom_offset"))
@@ -94,22 +94,18 @@ function dialog.hasOpened(data)
 		return
 	end
 
+	local mode = camera.getMode()
 	local d = dialog.Cam
-	d.interval, d.counter, d.adjust = 2, 0, true
---	d.playerHeight = getActorHeight(oSelf) * oSelf.scale
---	d.playerEyesVec = v3(0, 0, d.playerHeight * 0.974)
+	d.interval, d.counter, d.adjust = 3, 0, true
 	d.playerEyesVec = v3(0, 0, getActorHeight(oSelf) * oSelf.scale * 0.974)
 	d.target = npc
 	d.radius, d.head, d.animKeys = 0
 	d.npcSizeRatios = getActorRatios(npc)
---	d.height = types.Creature.objectIsInstance(npc) and getActorHeight(npc) * 0.85 or 128 * 0.85
---	d.vecFocalDefault = d.npcSizeRatios:apply(v3(0, 0, d.height * npc.scale))
 	d.vecFocalDefault = v3(0, 0, getActorHeight(npc) * npc.scale * 0.85)
 
 	d.barsRatio = settings.camera:get("dialog_1st_ratio") or 0
 	Dcam.enableShaders(true)
 	d.aperture = d.shaders and settings.camera:get("dialog_1st_dof_str") / 100 or 0
---	d.ratio = d.shaders and settings.camera:get("dialog_1st_ratio") or 0
 
 	local file = npc.type.records[npc.recordId].model:lower() or ""
 	local height = heights.byAnim[file]
@@ -171,7 +167,7 @@ function dialog.hasOpened(data)
 	focusVec = focusVec or d.vecFocalDefault
 
 	d.deltaPos = npc.position - oSelf.position
-	Dcam.autoCamUpdate(0)
+	Dcam.autoCamUpdate()
 	d.radius = d.radius * npc.scale
 	if common.logging then print(focusVec, d.radius)		end
 
@@ -184,23 +180,23 @@ function dialog.hasOpened(data)
 		zoom1st.zoomIn = false
 	end
 	zoom1st.level = 0 ; zoom1st.lerp = 0
---	zoom1st.level = (zoom1st.offset ~= 0 and not zoom1st.zoomIn and 1) or 0
 
-	d.controls, d.isActive, d.instant = false, true, false
+	d.isActive, d.controls, d.instant = true
 	if settings.camera:get("dialog_disableHud") and I.UI.isHudVisible() then
 		I.UI.setHudVisibility(false)
 	end
-	if not Anim.posing then
-		camSave.mode, camSave.offset3rd = camera.getMode(), camera.getFocalPreferredOffset()
-		Anim.poseOffset = camSave.offset3rd
-		if d.firstAuto and settings.global:get("unpause_dialog_opt") ~= "opt_alwayspause"
-			and not data.povPressed
-				then
-			if camera.getMode() ~= MD.FirstPerson then
-				camera.setMode(MD.FirstPerson)
-				d.instant = true		zoom1st.delay = 0.2
+
+	if Anim.posing then		return			end
+
+	camSave.mode, camSave.offset3rd = mode, camera.getFocalPreferredOffset()
+	Anim.poseOffset = camSave.offset3rd
+	if d.firstAuto and settings.global:get("unpause_dialog_opt") ~= "opt_alwayspause"
+		and mode ~= MD.FirstPerson and not data.povPressed then
+			if mode == MD.ThirdPerson then
+				zoom1st.targetYaw = oSelf.rotation:getYaw()
 			end
-		end
+			camera.setMode(MD.FirstPerson)
+			d.instant = true		zoom1st.delay = 0.2
 	end
 end
 

@@ -178,12 +178,14 @@ function M.enableShaders(m)
 	--	print("BLACK BARS OFF")
 	end
 
-	if not I.DynamicCamera or not I.DynamicCamera.shaders then	return		end
+	local cam = I.DynamicCamera and I.DynamicCamera.shaders
+	if not cam then			return		end
+
 	local shaders = M.dialog.shaders
 	if m and not shaders then
 		M.dialog.shaders = {
-			dof = I.DynamicCamera.shaders["hexDoFProgrammable"].u,
-			bars = I.DynamicCamera.shaders["blackBarsProgrammable"].u
+			dof = cam.hexDoFProgrammable.u,
+			bars = cam.blackBarsProgrammable.u
 		}
 	elseif not m and shaders then
 		shaders.dof.uAperture = 0
@@ -275,7 +277,7 @@ function M.autoCam(dt)
 		dof.uAperture = d.aperture * lerp
 	end
 	if Bars.size and z.level > 0 then
-		lerp = math.min(z.level - 0.2, 0.4) / 0.4
+		lerp = math.min(z.level, 0.4) / 0.4
 	--	d.shaders.bars.ratio = 1.8 + math.max(d.barsRatio - 1.8, 0) * lerp
 		local barSize = util.vector2(1, Bars.size * lerp)
 		Bars.propsB1.relativeSize = barSize
@@ -285,16 +287,24 @@ function M.autoCam(dt)
 end
 
 function M.autoCamUpdate(dt)
-	local d = M.dialog
-	d.counter = d.counter - dt	if d.counter > 0 then	return		end
-	d.counter = d.interval
-
-	local npc = d.target
-	if d.adjust then
-	--	d.pos = npc.position
-		d.deltaPos = npc.position - self.position
+	local d, update = M.dialog, not dt		dt = dt or 0
+	local npc = d.target		local actor = types.Actor
+	local deltaPos = npc.position - self.position
+	if (not actor.isInActorsProcessingRange(npc)) or deltaPos:length() > 500 then
+		return
+	end
+	if actor.getCurrentSpeed(npc) > 0 then
+		d.interval = math.max(1, d.interval)
+	end
+	if d.adjust and d.interval > 0 then
+		d.interval = d.interval - dt
+		d.deltaPos = deltaPos
 	end
 	if not Anim.hasAnimation(npc) then		return			end
+
+--	d.counter = d.counter - dt
+--	if d.counter > 0 and not update then		return			end
+--	d.counter = 1
 
 	local isPlaying = Anim.getActiveGroup(npc, 0)
 	local keys, focal = d.animKeys
@@ -311,7 +321,7 @@ function M.autoCamUpdate(dt)
 		if common.logging then print(isPlaying, focal)		end
 	end
 
-	if not focal and not types.NPC.objectIsInstance(npc) then
+	if not focal and npc.type ~= types.NPC then
 		focal = d.vecFocalDefault
 	end
 
@@ -347,20 +357,35 @@ function M.autoCamUpdate(dt)
 end
 
 _controlsTimer = 0.25
+local _cursor = ui.CursorMode and {
+	set = ui.setCursorMode,
+	locked = ui.CursorMode.LOCKED,
+	confined = ui.CursorMode.CONFINED
+} or { set = function() end }
 
 function M.dialogControls(dt, mode, d)
 	if mode == MD.FirstPerson then
-		if d.isActive then		M.autoCam(dt)		end
+		if d.isActive then
+			M.autoCamUpdate(dt)
+			M.autoCam(dt)
+		end
 		return
 	end
 
-	if d.controls then		MD.setMode(MD.Preview)		end
+	if d.toggle then
+		_cursor.set(_cursor.locked)
+		MD.setMode(MD.Preview)
+		M.processControls(dt, true)
+	else
+		_cursor.set(_cursor.confined)
+	end
 	local toggle = input.getBooleanActionValue("dActors_togglepov")
 		or input.getBooleanActionValue("TogglePOV")
+	d.toggle = toggle
 	if not toggle then	_controlsTimer = 0.25		return		end
 	if _controlsTimer > 0 then
 		_controlsTimer = _controlsTimer - dt
-		return
+	--	return
 	end
 	
 	if not d.controls then
@@ -369,36 +394,39 @@ function M.dialogControls(dt, mode, d)
 		M.distance = camera.getThirdPersonDistance()
 	--	ui.showMessage("CAMERA CONTROLS")
 	end
-	M.processControls(dt, true)
+--	M.processControls(dt, true)
 end
 
 function M.restoreCamera()
 	local saved, mode = common.camSave, camera.getMode()
 	local controls = M.dialog.controls
+	local auto1st = mode == MD.FirstPerson and saved.mode ~= mode
+	local combat = types.Actor.getStance(self) ~= types.Actor.STANCE.Nothing
 
-	if mode == MD.Preview and saved.mode == mode
-		and types.Actor.getStance(self) == types.Actor.STANCE.Nothing then
+	if mode == MD.Preview and saved.mode == mode and not combat then
+		--	print("NO RESET NEEDED")
 			return
 	end
-	if saved.mode == MD.Preview and not Anim.posing then
-		saved.mode = MD.ThirdPerson
-	end
-
 
 --	print("Reset previous camera mode and view")
-	-- directly switching 1stPerson-->Preview using setMode will glitch
-	if mode == MD.FirstPerson and saved.mode == MD.Preview then
+	-- directly switching 1stPerson-->Preview using setMode will glitch camera.lua
+	-- doing same in combat stance will also glitch camera.lua
+	if saved.mode == MD.Preview and (auto1st or combat) then
 		saved.mode = MD.ThirdPerson
 	end
 
-	if controls and mode ~= MD.FirstPerson and saved.mode ~= MD.FirstPerson then
+	if controls and mode ~= MD.FirstPerson and saved.mode ~= MD.Preview then
 	--	ui.showMessage("CAMERA RESET")
 		camera.setYaw(saved.yaw)
 		camera.setPitch(saved.pitch)
-	--	camera.instantTransition()
 		camera.setPreferredThirdPersonDistance(saved.dist3rd)
 	end
 	camera.setMode(saved.mode)
+
+	if auto1st then		camera.setYaw(saved.yaw)		end
+	if M.zoom1st.targetYaw then
+		self.controls.yawChange = util.normalizeAngle(M.zoom1st.targetYaw - self.rotation:getYaw())
+	end
 end
 
 function M.zoomOut1st(dt)
@@ -409,6 +437,11 @@ function M.zoomOut1st(dt)
 	if inFirst then
 		if z.vector then
 			camera.setFirstPersonOffset(z.vector["0xy"] * z.level ^ 4)
+		end
+		if z.targetYaw then
+			local yaw = util.normalizeAngle(z.targetYaw - self.rotation:getYaw())
+			local v = dt * 3.5 * math.min((8 * math.abs(yaw) / math.pi) ^ 2 + 0.03, 2)
+		--	self.controls.yawChange = util.clamp(yaw, -v, v)
 		end
 		if z.extraYaw ~= 0 then
 			local yaw = 0 - z.extraYaw
@@ -424,7 +457,7 @@ function M.zoomOut1st(dt)
 		end
 
 		if Bars.size then
-			lerp = util.remap(z.level, 0.5, 1, 0, 1)
+			lerp = util.remap(z.level, 0.6, 1, 0, 1)
 		--	setBarsRatio(1.8 + math.max(cam.barsRatio - 1.8, 0) * lerp)
 			local barSize = util.vector2(1, Bars.size * lerp)
 			Bars.propsB1.relativeSize = barSize

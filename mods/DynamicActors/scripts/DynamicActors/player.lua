@@ -337,9 +337,9 @@ local function slowUpdate()
 --	if _posing and not Anim.handler("isPlay", Anim.pose.playing.id) then
 --		stopPosing()
 --	end
-	if _dialogTarget and s.inFirst then
-		Dcam.autoCamUpdate(dt)
-	end
+--	if _dialogTarget and s.inFirst then
+--		Dcam.autoCamUpdate(dt)
+--	end
 
 	Anim:updateStatus(s)
 	local block = Anim.notIdle or s.inFirst or s.skipIdles
@@ -576,7 +576,7 @@ return {
 		DialogueResponse = Dialog.DialogueResponse,
 		tes3InfoGetText = Dialog.tes3InfoGetText,
 		dynUiMessage = function(e)	ui.showMessage(l10n(e))		end,
-		dynUpdateDCam = function()	Dcam.autoCamUpdate(5)		end,
+		dynUpdateDCam = function()	Dcam.autoCamUpdate()		end,
 		OMWMusicCombatTargetsChanged = function(e)
 			if not e.actor then		return		end
 			local targetPlayer

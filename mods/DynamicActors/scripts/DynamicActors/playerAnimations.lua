@@ -403,6 +403,9 @@ function Anim.pose:start()
 
 	pose.running = true
 	local options = { loops = 1000, priority = 5, speed = pose.speed, forceLoop = true }
+	for k, v in next, (pose.options or {}) do
+		options[k] = v
+	end
 	Anim.handler("play", g, options)
 	pose.altGroup = options.altGroup
 end
