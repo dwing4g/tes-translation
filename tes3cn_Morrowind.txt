@@ -245999,7 +245999,7 @@ AiFollow Player 0 0 0 0 0"
  INFO.NNAM "3715320742321919715$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "tarvyn faren$00"
- INFO.NAME "我应该一直跟着你去佩拉吉亚德的半路酒馆吗？"
+ INFO.NAME "我要继续跟着你去去佩拉吉亚德的半路酒馆吗？"
  INFO.BNAM "Choice ""跟着我。"" 1 ""在这里等着。"" 2"
 -INFO
  INFO.INAM "3715320742321919715$00"
@@ -260139,7 +260139,7 @@ Player->ModReputation 1"
  INFO.DATA [00 00 00 00 1E 00 00 00 FF FF FF 00]
  INFO.ONAM "faral retheran$00"
  INFO.DNAM "Redoran$00"
- INFO.NAME "所谓的“泰尔-乌维瑞斯”就建在乌维瑞斯之墓上，它可以在泰尔-菲尔以西、埃勒比尼姆孙营地西北方找到。去那里让泰瓦尼家族的人明白，我们不会容忍这种非法扩张。"
+ INFO.NAME "所谓的“泰尔-乌维瑞斯”就建在乌维瑞斯之墓上，位于泰尔-菲尔以西、埃勒比尼姆孙营地西北方。去那里让泰瓦尼家族的人明白，我们不会容忍这种非法扩张。"
  INFO.SCVR "34JX3HR_DagothTanis"
  INFO.INTV [64 00 00 00]
  #3: Journal-Journal HR_DagothTanis >= 100
@@ -329251,7 +329251,7 @@ Goodbye"
  INFO.DATA [02 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "odral helvi$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "你从农民那里拿到租金和税款了吗？还是他们瞒着你？"
+ INFO.NAME "你从农民那里拿到租金和税款了吗？还是他们不肯给你？"
  INFO.SCVR "34JX3HH_RentCollector"
  INFO.INTV [0A 00 00 00]
  #3: Journal-Journal HH_RentCollector >= 10
@@ -364176,7 +364176,7 @@ StartScript ShishiOdirniranFights"
  INFO.FNAM "Hlaalu$00"
  INFO.ANAM "Odirniran$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "是的，我是奥迪尔尼兰。我们和泰瓦尼的一个死灵法师有麻烦，我们的一个队员被抓了。和我们的首领丽马萨·奥瑟里尔谈谈吧。"
+ INFO.NAME "没错，这里是奥迪尔尼兰。我们遇上了一个泰瓦尼死灵法师的麻烦，我们团队的一员被抓了。和我们的首领丽马萨·奥瑟里尔谈谈吧。"
 -INFO
  INFO.INAM "2374698062158824386$00"
  INFO.PNAM "1898320144106203$00"
@@ -373282,7 +373282,7 @@ ShowMap ""Ahemmusa camp"""
  INFO.NNAM "24515201742951119653$00"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "gashnakh gra-mughol$00"
- INFO.NAME "我是特拉乌维瑞斯的工头，我负责管理工人，确保工作完成，虽然这些蘑菇都是自己长出来的。"
+ INFO.NAME "我是泰尔-乌维瑞斯的工头，我负责管理工人，确保工作完成，虽然这些蘑菇都是自己长出来的。"
 -INFO
  INFO.INAM "24515201742951119653$00"
  INFO.PNAM "1453848881103620534$00"

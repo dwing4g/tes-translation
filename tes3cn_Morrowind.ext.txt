@@ -103584,7 +103584,7 @@ Wait here.
 
 > INFO.NAME travel together 9012220871253825033
 Should I keep following you to the Halfway Tavern in Pelagiad?
-我应该一直跟着你去佩拉吉亚德的半路酒馆吗？
+我要继续跟着你去去佩拉吉亚德的半路酒馆吗？
 
 > INFO.BNAM travel together 9012220871253825033 c1
 Follow me.
@@ -109552,7 +109552,7 @@ Yes, Reynel Uvirith is dead. This will send those Telvanni a message.
 
 > INFO.NAME reynel uvirith 1952022849918511967
 The so-called "Tel Uvirith" is built on Uvirith's grave, which can be found west of Tel Fyr and northwest of the Erabenimsun camp. Go there and make sure the Telvanni understand that we will not tolerate this illegal expansion.
-所谓的“泰尔-乌维瑞斯”就建在乌维瑞斯之墓上，它可以在泰尔-菲尔以西、埃勒比尼姆孙营地西北方找到。去那里让泰瓦尼家族的人明白，我们不会容忍这种非法扩张。
+所谓的“泰尔-乌维瑞斯”就建在乌维瑞斯之墓上，位于泰尔-菲尔以西、埃勒比尼姆孙营地西北方。去那里让泰瓦尼家族的人明白，我们不会容忍这种非法扩张。
 
 > INFO.NAME banden indarys 1637710799869521443
 You've broken the rules of House Hlaalu, sweetie. It brings tears to my eyes when I think about your disloyalty. Maybe you can make amends and make everything better.
@@ -133482,7 +133482,7 @@ Did you deliver the shipment of ebony?
 
 > INFO.NAME greeting 5 7720206282299413897
 Do you have the rent and taxes from the farmers? Or did they hold out on you?
-你从农民那里拿到租金和税款了吗？还是他们瞒着你？
+你从农民那里拿到租金和税款了吗？还是他们不肯给你？
 
 > INFO.NAME greeting 5 2718932012913917169
 Did you replace the erroneous documents?
@@ -146278,7 +146278,7 @@ House Hlaalu will be able to hold Odirniran now, %PCName.
 
 > INFO.NAME odirniran 1898320144106203
 Yes, this is Odirniran. We've been having trouble with a Telvanni necromancer and one of our party was captured. Speak with our leader, Remasa Othril.
-是的，我是奥迪尔尼兰。我们和泰瓦尼的一个死灵法师有麻烦，我们的一个队员被抓了。和我们的首领丽马萨·奥瑟里尔谈谈吧。
+没错，这里是奥迪尔尼兰。我们遇上了一个泰瓦尼死灵法师的麻烦，我们团队的一员被抓了。和我们的首领丽马萨·奥瑟里尔谈谈吧。
 
 > INFO.NAME odirniran 2374698062158824386
 It is so much happier here now that Remasa Othril is dead. Now, go away, I have work to do.
@@ -149722,7 +149722,7 @@ I am the Hetman of this new settlement at Indarys Manor. I handle disputes and e
 
 > INFO.NAME my trade 1453848881103620534
 I'm the foreman here at Tel Uvirith. I keep the workers in line and make sure the job gets done, though these mushrooms just about grow themselves.
-我是特拉乌维瑞斯的工头，我负责管理工人，确保工作完成，虽然这些蘑菇都是自己长出来的。
+我是泰尔-乌维瑞斯的工头，我负责管理工人，确保工作完成，虽然这些蘑菇都是自己长出来的。
 
 > INFO.NAME my trade 24515201742951119653
 I'm the foreman here at Indarys Manor. I keep the workers in line and make sure the job gets done.
