@@ -1,5 +1,5 @@
 -TES3
- TES3.HEDR [66 66 A6 3F 00 00 00 00 54 61 6D 72 69 65 6C 20 52 65 62 75 69 6C 74 20 54 65 61 6D 00 00 00 00 00 00 00 00 00 00 00 00 46 61 63 74 69 6F 6E 20 46 69 6C 65 20 76 32 36 2E 30 38 0D 0A 0D 0A 49 6E 63 72 65 61 73 65 73 20 66 61 63 74 69 6F 6E 20 61 64 76 61 6E 63 65 6D 65 6E 74 20 72 65 71 75 69 72 65 6D 65 6E 74 73 2C 20 65 78 74 65 6E 64 73 20 54 65 6C 76 61 6E 6E 69 20 48 6F 72 74 61 74 6F 72 20 71 75 65 73 74 73 20 74 6F 20 6D 61 69 6E 6C 61 6E 64 20 63 6F 75 6E 63 69 6C 6F 72 73 20 61 6E 64 20 65 78 74 65 6E 64 73 20 4E 65 72 65 76 61 72 69 6E 65 20 71 75 65 73 74 73 20 74 6F 20 6D 61 69 6E 6C 61 6E 64 20 41 73 68 6C 61 6E 64 65 72 20 63 61 6D 70 73 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F8 00 00 00]
+ TES3.HEDR [66 66 A6 3F 00 00 00 00 54 61 6D 72 69 65 6C 20 52 65 62 75 69 6C 74 20 54 65 61 6D 00 00 00 00 00 00 00 00 00 00 00 00 46 61 63 74 69 6F 6E 20 46 69 6C 65 20 76 32 36 2E 31 31 61 0D 0A 0D 0A 49 6E 63 72 65 61 73 65 73 20 66 61 63 74 69 6F 6E 20 61 64 76 61 6E 63 65 6D 65 6E 74 20 72 65 71 75 69 72 65 6D 65 6E 74 73 2C 20 65 78 74 65 6E 64 73 20 54 65 6C 76 61 6E 6E 69 20 48 6F 72 74 61 74 6F 72 20 71 75 65 73 74 73 20 74 6F 20 6D 61 69 6E 6C 61 6E 64 20 63 6F 75 6E 63 69 6C 6F 72 73 20 61 6E 64 20 65 78 74 65 6E 64 73 20 4E 65 72 65 76 61 72 69 6E 65 20 71 75 65 73 74 73 20 74 6F 20 6D 61 69 6E 6C 61 6E 64 20 41 73 68 6C 61 6E 64 65 72 20 63 61 6D 70 73 2E 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 F6 00 00 00]
  TES3.MAST "Morrowind.esm$00"
  TES3.DATA [75 39 C2 04 00 00 00 00]
  TES3.MAST "Tribunal.esm$00"
@@ -9,7 +9,7 @@
  TES3.MAST "Tamriel_Data.esm$00"
  TES3.DATA [DD 70 06 01 00 00 00 00]
  TES3.MAST "TR_Mainland.esm$00"
- TES3.DATA [85 17 60 0E 00 00 00 00]
+ TES3.DATA [8E F4 94 0E 00 00 00 00]
 -FACT
  FACT.NAME "Redoran$00"
  FACT.FNAM "Great House Redoran$00"
@@ -66,6 +66,12 @@
  FACT.INTV [FD FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [FE FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [02 00 00 00]
+ FACT.ANAM "East Empire Company"
+ FACT.INTV [01 00 00 00]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [FF FF FF FF]
 -FACT
  FACT.NAME "Thieves Guild$00"
  FACT.FNAM "Thieves Guild$00"
@@ -120,6 +126,10 @@
  FACT.INTV [FF FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [FE FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [FF FF FF FF]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [FF FF FF FF]
 -FACT
  FACT.NAME "Temple$00"
  FACT.FNAM "Temple$00"
@@ -178,6 +188,12 @@
  FACT.INTV [FF FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [02 00 00 00]
+ FACT.ANAM "Clan Aundae"
+ FACT.INTV [FD FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [03 00 00 00]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [FE FF FF FF]
 -FACT
  FACT.NAME "Imperial Cult$00"
  FACT.FNAM "Imperial Cult$00"
@@ -240,6 +256,12 @@
  FACT.INTV [FF FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [FE FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [FE FF FF FF]
+ FACT.ANAM "East Empire Company"
+ FACT.INTV [02 00 00 00]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [02 00 00 00]
 -FACT
  FACT.NAME "Hlaalu$00"
  FACT.FNAM "Great House Hlaalu$00"
@@ -298,6 +320,12 @@
  FACT.INTV [FF FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [02 00 00 00]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [01 00 00 00]
+ FACT.ANAM "East Empire Company"
+ FACT.INTV [02 00 00 00]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [02 00 00 00]
 -FACT
  FACT.NAME "Telvanni$00"
  FACT.FNAM "Great House Telvanni$00"
@@ -347,6 +375,12 @@
  FACT.ANAM "T_Mw_Clan_Baluath"
  FACT.INTV [FF FF FF FF]
  FACT.ANAM "T_Mw_Clan_Orlukh"
+ FACT.INTV [FF FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [FF FF FF FF]
+ FACT.ANAM "East Empire Company"
+ FACT.INTV [FF FF FF FF]
+ FACT.ANAM "Royal Guard"
  FACT.INTV [FF FF FF FF]
 -FACT
  FACT.NAME "Fighters Guild$00"
@@ -408,6 +442,12 @@
  FACT.INTV [FF FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [FF FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [FF FF FF FF]
+ FACT.ANAM "East Empire Company"
+ FACT.INTV [01 00 00 00]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [01 00 00 00]
 -FACT
  FACT.NAME "Morag Tong$00"
  FACT.FNAM "Morag Tong$00"
@@ -488,6 +528,12 @@
  FACT.INTV [FE FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [FE FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [FF FF FF FF]
+ FACT.ANAM "East Empire Company"
+ FACT.INTV [02 00 00 00]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [02 00 00 00]
 -FACT
  FACT.NAME "Mages Guild$00"
  FACT.FNAM "Mages Guild$00"
@@ -552,6 +598,12 @@
  FACT.INTV [FF FF FF FF]
  FACT.ANAM "T_Mw_Shinathi"
  FACT.INTV [FE FF FF FF]
+ FACT.ANAM "T_Mw_Ordinators"
+ FACT.INTV [FE FF FF FF]
+ FACT.ANAM "East Empire Company"
+ FACT.INTV [01 00 00 00]
+ FACT.ANAM "Royal Guard"
+ FACT.INTV [01 00 00 00]
 -FACT
  FACT.NAME "East Empire Company$00"
  FACT.FNAM "East Empire Company$00"
@@ -956,7 +1008,7 @@ Mistress Rhetixia Cheynoslin, by Grace of Almsivi and the Nine, Honored Councilo
 <BR>
 Master Atran Oran, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Oran Plantation, Aanthirin, District of Mournhold, Province of Morrowind<BR>
 <BR>
-Master Tholer Andas, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Lord of Andothren, District of Mournhold, Province of Morrowind<BR>
+Master Tholer Andas, by Grace of Almsivi, Honored Councilor of the Grand Hlaalu Council, Free Trader, Lord of Bal Foyen, District of Mournhold, Province of Morrowind<BR>
 <DIV ALIGN=""CENTER""><BR>
 Councilors of House Hlaalu<BR>
 Vvardenfell District<BR>
@@ -980,7 +1032,7 @@ The council is closely monitoring the situation in the lower Aanthirin, and enco
 <BR>
 Director Cyrtumir of the Hlaalu Council Company is pleased to report that the company's newest office in Firsthold, Province of Summerset Isles, is performing above expectations, and that company trade in the Sea of Mists has doubled in the last decade.<BR>
 <BR>
-The council is pleased to report that the port of Andothren continues to thrive, but has been concerned with the rise in reports of criminality (outlander in origin) within Andothren's poorer districts. Councilman Tholer Andras has requested more guards to ensure that all residents are protected. Local merchants are also lending their resources so as to improve local security.<BR>
+The council is pleased to report that the port of Bal Foyen continues to thrive, but has been concerned with the rise in reports of criminality (outlander in origin) within Bal Foyen's poorer districts. Councilman Tholer Andras has requested more guards to ensure that all residents are protected. Local merchants are also lending their resources so as to improve local security.<BR>
 <BR>
 The council wishes to commend the River Watch, Canyon Watch, and all the local garrisons and patrols for greatly reducing the number of reported bandit and wildlife attacks throughout Shipal-Shin and the Coronati Basin.<BR>
 <BR>
@@ -1087,7 +1139,7 @@ Candidates must present themselves to the Steward of the Guild Hall for examinat
 <BR>
 <BR>ATTACHMENT A: Mages Guild Chapters in Mournhold District, Province of Morrowind<BR>
 <BR>
-The Guild's Provincial headquarters and principal Morrowind guildhall is established in the city of Almalexia under lease from the Tribunal Temple. Chapters are established in Guild-owned, free-standing guildhalls in the towns of Andothren and the city of Old Ebonheart*. The chapters in Akamora and Mervayan are established under lease from the Indoril Council. The chapter in Almas Thirr is established under lease from the Tribunal Temple.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Mages Guild is subject to the Arch-Mage of Almalexia, not the Arch-Mage of Vivec.<BR>
+The Guild's Provincial headquarters and principal Morrowind guildhall is established in the city of Almalexia under lease from the Tribunal Temple. Chapters are established in Guild-owned, free-standing guildhalls in the towns of Bal Foyen and the city of Old Ebonheart*. The chapters in Akamora and Mervayan are established under lease from the Indoril Council. The chapter in Almas Thirr is established under lease from the Tribunal Temple.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Mages Guild is subject to the Arch-Mage of Almalexia, not the Arch-Mage of Vivec.<BR>
 <BR>ATTACHMENT B: Mages Guild Chapters in Narsis District, Province of Morrowind<BR>
 <BR>
 Chapters are established in Guild-owned, free-standing guildhalls in the cities of Kragenmoor and Narsis and the towns of Andrethis, Othmura, and Reluran.<BR>
@@ -1139,7 +1191,7 @@ V. Applications for Membership<BR>
 Candidates must present themselves to the Steward of the Guild Hall for examination and approval.<BR>
 <BR>
 ATTACHMENT A: Fighters Guild Chapters in Mournhold District, Province of Morrowind<BR>
-<BR>Chapters are established in Guild-owned, free-standing guildhalls in the city of Old Ebonheart* and the town of Andothren. The chapters in Almalexia and Almas Thirr are established under lease from the Tribunal Temple. The chapters in Akamora and Mervayan are established under lease from the Indoril Council.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Fighters Guild is subject to the Master of Mournhold, not the Master of Vivec.<BR>
+<BR>Chapters are established in Guild-owned, free-standing guildhalls in the city of Old Ebonheart and the town of Bal Foyen. The chapters in Almalexia and Almas Thirr are established under lease from the Tribunal Temple. The chapters in Akamora and Mervayan are established under lease from the Indoril Council.<BR>Although the city of Old Ebonheart is legally part of Vvardenfell District, the Old Ebonheart Fighters Guild is subject to the Master of Mournhold, not the Master of Vivec.<BR>
 <BR>
 ATTACHMENT B: Fighters Guild Chapters in Narsis District, Province of Morrowind<BR>
 <BR>
