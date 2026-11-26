@@ -14614,97 +14614,97 @@ End$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintArgo01$00"
  MISC.MODL "OAAB\m\com_paint_argo_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Black Marsh""$00"
  MISC.MCDT [00 00 A0 40 32 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_argo_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintArgo02$00"
  MISC.MODL "OAAB\m\com_paint_argo_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Path through Murkwood""$00"
  MISC.MCDT [00 00 C0 40 96 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_argo_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintCyro01$00"
  MISC.MODL "OAAB\m\com_paint_cyro_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Dragons over the Nibenay""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_cyro_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintCyro02$00"
  MISC.MODL "OAAB\m\com_paint_cyro_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The Imperial City""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_cyro_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintCyro03$00"
  MISC.MODL "OAAB\m\com_paint_cyro_03.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Av Latta Magicka""$00"
  MISC.MCDT [00 00 80 40 FA 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_cyro_03.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintElsw01$00"
  MISC.MODL "OAAB\m\com_paint_elsw_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Halls of Colossus""$00"
  MISC.MCDT [00 00 80 40 FA 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_elsw_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintElsw02$00"
  MISC.MODL "OAAB\m\com_paint_elsw_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The Tenmar Jungle""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_elsw_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintHamm01$00"
  MISC.MODL "OAAB\m\com_paint_hamm_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Old Hegathe""$00"
  MISC.MCDT [00 00 80 40 FA 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_hamm_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintHamm02$00"
  MISC.MODL "OAAB\m\com_paint_hamm_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Rihad""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_hamm_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintHigh01$00"
  MISC.MODL "OAAB\m\com_paint_high_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Glenumbra Countryside""$00"
  MISC.MCDT [00 00 80 40 FA 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_high_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintHigh02$00"
  MISC.MODL "OAAB\m\com_paint_high_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Castle in High Rock""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_high_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintMorr01$00"
  MISC.MODL "OAAB\m\com_paint_morr_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Emperor Parasols""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_morr_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintMorr02$00"
  MISC.MODL "OAAB\m\com_paint_morr_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The High Fane""$00"
  MISC.MCDT [00 00 80 40 FA 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_morr_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintMorr03$00"
  MISC.MODL "OAAB\m\com_paint_morr_03.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Fires of Red Mountain""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_morr_03.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintMorr04$00"
  MISC.MODL "OAAB\m\com_paint_morr_04.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Silt Striders on Vvardenfell""$00"
  MISC.MCDT [00 00 80 40 FA 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_morr_04.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintMorr05$00"
  MISC.MODL "OAAB\m\com_paint_morr_05.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The Hive""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_morr_05.tga$00"
 -MISC
@@ -14722,37 +14722,37 @@ End$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintSkyr01$00"
  MISC.MODL "OAAB\m\com_paint_skyr_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Kyne's Lights""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_skyr_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintSkyr02$00"
  MISC.MODL "OAAB\m\com_paint_skyr_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The Throat of the World""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_skyr_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintSumm01$00"
  MISC.MODL "OAAB\m\com_paint_summ_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The Crystal Tower""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_summ_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintSumm02$00"
  MISC.MODL "OAAB\m\com_paint_summ_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The Blessed Isle""$00"
  MISC.MCDT [00 00 80 40 FA 00 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_summ_02.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintVale01$00"
  MISC.MODL "OAAB\m\com_paint_vale_01.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """Graht-oak of Valenwood""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_vale_01.tga$00"
 -MISC
  MISC.NAME "AB_Misc_ComArtPaintVale02$00"
  MISC.MODL "OAAB\m\com_paint_vale_02.nif$00"
- MISC.FNAM "Painting$00"
+ MISC.FNAM """The Wild Remain""$00"
  MISC.MCDT [00 00 C0 40 2C 01 00 00 00 00 00 00]
  MISC.ITEX "OAAB\m\com_painting_vale_02.tga$00"
 -MISC

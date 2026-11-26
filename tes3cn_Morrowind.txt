@@ -191943,7 +191943,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "1198157082016519822$00"
  INFO.NNAM "301817962838019145$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "丽马萨·奥瑟里尔告诉我，有一个泰瓦尼巫师藏在奥迪尔尼兰的某个地方。我必须找到并杀死这个死灵法师。这个死灵法师还挟持了一个人质，维德丽雅尔·奥瑟里尔。如果她还活着，我应该护送她回丽马萨·奥瑟里尔。"
+ INFO.NAME "丽马萨·奥瑟里尔告诉我，有一个泰瓦尼巫师藏在奥迪尔尼兰的某个地方。我必须找到并杀死这个死灵法师。这个死灵法师还挟持了一个人质，维德丽雅·奥瑟里尔。如果她还活着，我应该护送她回丽马萨·奥瑟里尔。"
 -INFO
  INFO.INAM "301817962838019145$00"
  INFO.PNAM "2816223022547429863$00"
@@ -192039,7 +192039,7 @@ D.文物 - +35%<p>"
  INFO.PNAM "288043581061714886$00"
  INFO.NNAM "17944312372107614328$00"
  INFO.DATA [04 00 00 00 1E 00 00 00 FF FF FF 00]
- INFO.NAME "米林·法拉姆让我杀死丽马萨·奥瑟里尔，但不能伤害维德丽雅尔·奥瑟里尔。"
+ INFO.NAME "米林·法拉姆让我杀死丽马萨·奥瑟里尔，但不能伤害维德丽雅·奥瑟里尔。"
 -INFO
  INFO.INAM "17944312372107614328$00"
  INFO.PNAM "30645175611028621925$00"
@@ -364040,7 +364040,7 @@ ShowMap ""Gnaar Mok"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "remasa othril$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "你杀了死灵法师，但薇蒂拉呢？她还好吗？找到她就护送她回来见我。"
+ INFO.NAME "你杀了死灵法师，但维德丽雅呢？她还好吗？找到她就护送她回来见我。"
  INFO.SCVR "06DX2milyn faram"
  INFO.INTV [00 00 00 00]
  #0: Dead-Dead milyn faram > 0
@@ -364051,7 +364051,7 @@ ShowMap ""Gnaar Mok"""
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "remasa othril$00"
  INFO.DNAM "Hlaalu$00"
- INFO.NAME "薇迪蕾亚很安全！谢谢你，%PCName。但还是需要有人去杀了泰瓦尼的死灵法师。"
+ INFO.NAME "维德丽雅很安全！谢谢你，%PCName。但还是需要有人去杀了泰瓦尼的死灵法师。"
  INFO.SCVR "34JX3HH_Odirniran"
  INFO.INTV [46 00 00 00]
  #3: Journal-Journal HH_Odirniran >= 70
@@ -364235,7 +364235,7 @@ Goodbye"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "milyn faram$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "丽马萨·奥瑟里尔死了，没错，但你也杀了她姐妹维德丽雅尔·奥瑟里尔。我…把她留给我做实验，现在被你毁了。向阿里昂报告我很好，别再来这里了。"
+ INFO.NAME "丽马萨·奥瑟里尔死了，没错，但你也杀了她姐妹维德丽雅·奥瑟里尔。我…把她留给我做实验，现在被你毁了。向阿里昂报告我很好，别再来这里了。"
  INFO.SCVR "06DX2remasa othril"
  INFO.INTV [00 00 00 00]
  #0: Dead-Dead remasa othril > 0
@@ -364266,7 +364266,7 @@ Choice ""听听他怎么说。"" 2 ""没兴趣。"" 4"
  INFO.DATA [00 00 00 00 00 00 00 00 FF FF FF 00]
  INFO.ONAM "milyn faram$00"
  INFO.DNAM "Telvanni$00"
- INFO.NAME "是的，奥迪尔尼兰是我的家。如果你想帮我，请杀死丽马萨·奥瑟里尔，这些纠缠我的哈拉鲁的首领。请随意杀死我的仆人。我通常能让他们复活。另外，请把维德丽雅尔·奥瑟里尔交给我。我不希望她受到任何伤害或改变…至少你不能。"
+ INFO.NAME "是的，奥迪尔尼兰是我的家。如果你想帮我，请杀死丽马萨·奥瑟里尔，这些纠缠我的哈拉鲁的首领。请随意杀死我的仆人。我通常能让他们复活。另外，请把维德丽雅·奥瑟里尔交给我。我不希望她受到任何伤害或改变…至少你不能。"
  INFO.BNAM "Journal HT_Odirniran 30"
 -INFO
  INFO.INAM "8472139863010721714$00"
